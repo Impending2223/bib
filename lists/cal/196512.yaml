@@ -912,6 +912,15 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1885–1886: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-12-05.vietnam-hanoi
+    when: Dec. 5
+    date: '1965-12-05'
+    place: da-doi
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bàu Đa Dội, Long Nguyên, Bến Cát. Regiment 2 of the 9th Division attacks the 2d Brigade, 1st Infantry Division, in a day-long fight under heavy air and artillery; at 5 p.m. it holds the field, a company destroyed, another battalion hurt. The brigade leaves Dầu Tiếng.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 62–63. Check: the hour is the battle''s end.'
+    tags: [polity:drv, polity:us, ok:fields-time]
   - id: cal.1965-12-06.laos
     when: Dec. 6
     date: '1965-12-06'
@@ -1362,15 +1371,21 @@ entries:
     place: que-son-basin
     thread: vietnam-operations
     c: Harvest Moon, the Marines' and the South Vietnamese 2d Division's operation in the Quế Sơn valley against the 1st Viet Cong Regiment. The 11th Ranger Battalion ambushed on the Thăng Bình–Hiệp Đức road, the afternoon of Dec. 8; the 5th Regiment's command group and 1st Battalion overrun the next morning, the regimental commander killed. Marines of Task Force Delta landed by helicopter from 10 a.m., Dec. 9, behind the enemy.
-    n: '[[w.shulimson-u-s-marines-in]], 98–104; [[w.vietnam-victory-in-vietnam]], 160 (the 5th Regimental Task Force beaten off at Đồng Dương). [[w.macv-command-history-1965]], 164–65 (the operation from Dec. 8; the 11th Rangers overrun).'
+    n: '[[w.shulimson-u-s-marines-in]], 98–104; [[w.vietnam-victory-in-vietnam]], 160 (the 5th Regimental Task Force beaten off at Đồng Dương); [[w.lich-su-khang-chien-chong-my]], IV, 63 (Liên Kết 18, opened to relieve the Việt An post; the Marines landed Dec. 9 and 10). [[w.macv-command-history-1965]], 164–65 (the operation from Dec. 8; the 11th Rangers overrun).'
     src:
       c: 1aea261a
       rows:
         - 'w.shulimson-u-s-marines-in 98–104: all'
         - 'w.vietnam-victory-in-vietnam 160: A, C'
         - 'w.macv-command-history-1965 164–65: A-B'
+        - 'w.lich-su-khang-chien-chong-my IV, 63: A, D'
     tags: [province:quang-tin]
     short: Harvest Moon
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the ARVN 5th Task Force and two armored squadrons open Liên Kết 18 to relieve the Việt An post after twelve days of siege; Dec. 9 the Saigon force beaten, and five Marine battalions landed on the shore and in the hills, Dec. 9 and 10, at An Lý, Châu Xuân, Cẩm La, La Ngà and Chiêm Sơn
+        at: IV, 63
   - id: cal.1965-12-08.vietnam-pause
     when: Dec. 8
     date: '1965-12-08'
@@ -2377,6 +2392,15 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 74: all'
     tags: [polity:prc, polity:indonesia]
+  - id: cal.1965-12-15.vietnam-hanoi
+    when: Dec. 15–18
+    date: '1965-12-15'
+    place: viet-an
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Cẩm Khê market, Quảng Tín. Regiment 1''s Battalions 90 and 70 attack the Americans packed into the market, Battalion 60 blocking from the north; they are beaten off the retreat road to Tam Kỳ. The fight ends at 3 p.m. Dec. 18. Lê Hữu Trữ, the regiment commander: "hold the Americans by the belt."'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 63–64. See [[cal.1965-12-08.vietnam-operations]]. Check: the first day; the history gives landings on Dec. 12 and 15.'
+    tags: [polity:drv, polity:us, ok:fields-time]
   - id: cal.1965-12-16.robert-kennedy
     when: Dec. 16
     date: '1965-12-16'
@@ -3219,6 +3243,14 @@ entries:
       - 1965-12-20T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-12-20.vietnam-hanoi
+    when: Dec. 20
+    date: '1965-12-20'
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: The Liberation Army's 1st Infantry Division formed, in the South.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 37 n.1. See [[cal.1965-09-02.vietnam-hanoi]]. Made public: 2013. Check: the history, IV, 220, has the Highlands'' 1st Infantry Division formed "late December 1965", which may be the formation of Dec. 20 on page 37; the Highlands'' 62d Division is named with it (IV, 220).'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
   - id: cal.1965-12-21.vietnam-pause
     when: Dec. 21
     date: '1965-12-21'
@@ -3316,7 +3348,7 @@ entries:
     place: hanoi
     thread: vietnam-hanoi
     c: The Twelfth Plenum in Hanoi, Hồ Chí Minh presiding. The war protracted, but forces of North and South to be concentrated to "secure a decisive victory within a relatively short period of time"; the North to defeat the bombing and supply the South; its main forces a strategic reserve for the South.
-    n: '[[w.vietnam-victory-in-vietnam]], 171–72 (quoted, 171); [[w.nguyen-hanois-war]], 78 (the plenum, late 1965); [[w.cosmas-joint-chiefs-of-staff-2012]], 360 (the plenum''s declaration of Dec. 27); [[w.van-kien-dang-toan]], XXVI, 596–625 (the plenum''s resolution, dated Dec. 27, 1965); [[w.van-kien-dang-toan]], XXVI, 542–95 (Lê Duẩn''s speech to the plenum: the war protracted, all effort for a decisive victory in a relatively short time); [[w.van-kien-dang-toan]], XXVI, 485–541 (the Politburo''s report to the plenum, on the plan for 1966–67); [[w.van-kien-dang-toan]], XXVI, 626–33 (Hồ Chí Minh''s speech at the closing session, the afternoon of Dec. 27). Washington''s reading of Hanoi after the pause began: [FRUS 1964–68, IV, doc. 44](https://history.state.gov/historicaldocuments/frus1964-68v04/d44) (State''s intelligence bureau, Jan. 26, 1966). Check: the volume has the plenum meet Dec. 21–27 (XXVII, 35 n.; Dec. 21–26 in the introduction to vol. XXVI), its resolution and Hồ Chí Minh''s closing speech Dec. 27 (XXVI, 596, 626); the secondary books, Dec. 27. Nguyen, 78 n.136, cites Lê Duẩn''s speech at XXVI, 594–95, its last pages (the speech, 542–95). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing). See [[cal.1963-12.vietnam]]. The time is the first day''s. Names: Hồ Chí Minh.'
+    n: '[[w.vietnam-victory-in-vietnam]], 171–72 (quoted, 171); [[w.nguyen-hanois-war]], 78 (the plenum, late 1965); [[w.cosmas-joint-chiefs-of-staff-2012]], 360 (the plenum''s declaration of Dec. 27); [[w.van-kien-dang-toan]], XXVI, 596–625 (the plenum''s resolution, dated Dec. 27, 1965); [[w.van-kien-dang-toan]], XXVI, 542–95 (Lê Duẩn''s speech to the plenum: the war protracted, all effort for a decisive victory in a relatively short time); [[w.van-kien-dang-toan]], XXVI, 485–541 (the Politburo''s report to the plenum, on the plan for 1966–67); [[w.van-kien-dang-toan]], XXVI, 626–33 (Hồ Chí Minh''s speech at the closing session, the afternoon of Dec. 27); [[w.lich-su-khang-chien-chong-my]], IV, 66–67 (the Twelfth Plenum, opened Dec. 27, 1965, Hồ Chí Minh presiding). Washington''s reading of Hanoi after the pause began: [FRUS 1964–68, IV, doc. 44](https://history.state.gov/historicaldocuments/frus1964-68v04/d44) (State''s intelligence bureau, Jan. 26, 1966). Check: the volume has the plenum meet Dec. 21–27 (XXVII, 35 n.; Dec. 21–26 in the introduction to vol. XXVI), its resolution and Hồ Chí Minh''s closing speech Dec. 27 (XXVI, 596, 626); the secondary books, Dec. 27. Nguyen, 78 n.136, cites Lê Duẩn''s speech at XXVI, 594–95, its last pages (the speech, 542–95). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing). Check: the history says the plenum opened Dec. 27, 1965 (IV, 66); the volume of Party documents gives Dec. 21–27. See [[cal.1963-12.vietnam]]. The time is the first day''s. Names: Hồ Chí Minh.'
     src:
       c: 446c98be
       rows:
@@ -3329,6 +3361,7 @@ entries:
         - 'w.van-kien-dang-toan XXVI, 542–95: B'
         - 'w.van-kien-dang-toan XXVI, 485–541: ?'
         - 'w.van-kien-dang-toan XXVI, 626–33: ?'
+        - 'w.lich-su-khang-chien-chong-my IV, 66–67: A'
     tags: [name:ho-chi-minh, place:hanoi, name:le-duan]
     time_range:
       - 1965-12-21T02:00Z

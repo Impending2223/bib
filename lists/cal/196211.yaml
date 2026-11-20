@@ -2273,6 +2273,18 @@ entries:
       - 1962-11-09T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-11-09.china-leadership-4
+    when: Nov. 9
+    date: '1962-11-09'
+    thread: china-leadership
+    c: The Jilin 吉林 provincial committee 省委 sends the Center, the Northeast Bureau and the Premier its investigation report on workers' families in self-supplying farm work, which Zhou Enlai 周恩來 had asked for on his visit to Jilin in June. Only 6 to 10 percent of the family members can farm, and 80 percent of the small plots opened in the past two years are worked by the workers themselves. At the Tonghua 通化 mining bureau underground workers' hours used fell in the busy season to four and a half, and attendance in spring from 85 to 75 percent.
+    n: '[[w.yang-jisheng-mubei]], I, 620. Made public: 2008. To check: Jilin Provincial Committee 中共吉林省委, "Guanyu zhigong jiashu canjia zijixing nongfuye shengchan de diaocha baogao" 《關於職工家屬參加自給性農副業生產的調查報告》, Nov. 9, 1962, Jilin Provincial Archives, fonds 1, file 100 (cited by [[w.yang-jisheng-mubei]], I, 620 n.4). Names: Zhou Enlai. Check: the file''s year, printed 1959 in the note.'
+    src:
+      c: cc09c4af
+      rows:
+        - 'w.yang-jisheng-mubei I, 620: all'
+        - 'via w.yang-jisheng-mubei I, 620 n.4: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai]
   - id: cal.1962-11-10.middle-east-yemen
     when: Nov. 10
     date: '1962-11-10'
@@ -2389,6 +2401,18 @@ entries:
         - 'w.yang-shangkun-riji II, 223: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-11-10.china-leadership-2
+    when: Nov. 10
+    date: '1962-11-10'
+    thread: china-leadership
+    c: A counterrevolutionary armed bandit riot breaks out in the Shaqiao 沙橋 and Wujie 五街 areas of Nanhua 南華 county, Yunnan 雲南.
+    n: '[[w.yang-jisheng-mubei]], II, 1044. Made public: 1995. To check: Nanhua xian zhi 《南華縣志》 (Kunming: Yunnan renmin chubanshe, 1995), pp. 483–484 (cited by [[w.yang-jisheng-mubei]], II, 1044 n.30).'
+    src:
+      c: 93cc7180
+      rows:
+        - 'w.yang-jisheng-mubei II, 1044: all'
+        - 'via w.yang-jisheng-mubei II, 1044 n.30: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-11-11.missile-crisis
     when: Nov. 11
     date: '1962-11-11'
@@ -3972,11 +3996,12 @@ entries:
     date: '1962-11-20'
     thread: vietnam
     c: 'Zone D: AD-6s bomb before the landing; five Mule Train C-123s and twelve Vietnamese C-47s drop 500 paratroopers at a base camp on its eastern edge. Dec. 19, the troops move in under eighty-foot canopy, eight interdiction strikes and close support; B-26 napalm Dec. 23; a B-26 and two T-28s Jan. 1, 1963.'
-    n: '[[w.futrell-united-states-air-force]], 156. See [[cal.1962-10-03.vietnam]].'
+    n: '[[w.futrell-united-states-air-force]], 156; [[w.lich-su-khang-chien-chong-my]], III, 179 (Nov. 20, Saigon''s Autumn–Winter operation into War Zone D, where the Central Office''s leaders and command worked). See [[cal.1962-10-03.vietnam]].'
     src:
       c: d4114de2
       rows:
         - 'w.futrell-united-states-air-force 156: all'
+        - 'w.lich-su-khang-chien-chong-my III, 179: A, B'
   - id: cal.1962-11-20.defense-abm
     when: Nov. 20
     date: '1962-11-20'
@@ -4515,6 +4540,18 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1733: all'
     tags: [polity:prc, name:deng-xiaoping, name:li-fuchun, vis:only:prc]
+  - id: cal.1962-11-22.china-leadership-4
+    when: Nov. 22
+    date: '1962-11-22'
+    thread: china-leadership
+    c: The armed riot in the Shaqiao 沙橋 and Wujie 五街 areas of Nanhua 南華 county, Yunnan 雲南, is put down.
+    n: '[[w.yang-jisheng-mubei]], II, 1044. Made public: 1995. To check: Nanhua xian zhi 《南華縣志》 (Kunming: Yunnan renmin chubanshe, 1995), pp. 483–484 (cited by [[w.yang-jisheng-mubei]], II, 1044 n.30).'
+    src:
+      c: b7fd5ad5
+      rows:
+        - 'w.yang-jisheng-mubei II, 1044: all'
+        - 'via w.yang-jisheng-mubei II, 1044 n.30: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-11-23.sit-ins
     when: Nov. 23–25
     date: '1962-11-23'
@@ -6002,3 +6039,11 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 229: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-11.vietnam-hanoi
+    when: Nov.
+    date: 1962-11
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: 'COSVN and the Region''s Military Command hold the first guerrilla conference of all Nam Bộ, at the Dương Minh Châu base: the districts and villages strong in guerrilla war report; Út Tịch and Tạ Thị Kiều among those praised.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 199. Made public: 2013. Names: Út Tịch, Tạ Thị Kiều.'
+    tags: [polity:drv, vis:only:drv]

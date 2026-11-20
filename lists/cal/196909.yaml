@@ -39,12 +39,13 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam]
     c: Hồ Chí Minh dies at 9:47 a.m., National Day, of a heart attack, at 79. The Politburo announces it as Sept. 3, so that the day of his death should not fall on the nation's day of celebration.
-    n: '[[w.van-kien-dang-toan]], XXX, 228–29 n. (the editors'' note, from the Politburo''s notice no. 151-TB/TW of Aug. 19, 1989, on the testament and the day of the death). [[w.jianguo-yilai-mao-zedong]], XIX, 467 n.1 (Sept. 2, 1969; the death in Hanoi and the age only). Made public: 1989. Names: Hồ Chí Minh.'
+    n: '[[w.van-kien-dang-toan]], XXX, 228–29 n. (the editors'' note, from the Politburo''s notice no. 151-TB/TW of Aug. 19, 1989, on the testament and the day of the death). [[w.jianguo-yilai-mao-zedong]], XIX, 467 n.1 (Sept. 2, 1969; the death in Hanoi and the age only); [[w.lich-su-khang-chien-chong-my]], VI, 133–34 (9:47 a.m., Sept. 2, 1969, in Hanoi; not the cause, his age or the day announced). Made public: 1989. Names: Hồ Chí Minh.'
     src:
       c: 6f482366
       rows:
         - 'w.van-kien-dang-toan XXX, 228–29 n.: ?'
         - 'w.jianguo-yilai-mao-zedong XIX, 467 n.1: A'
+        - 'w.lich-su-khang-chien-chong-my VI, 133–34: A'
     tags: [polity:drv, name:ho-chi-minh]
   - id: cal.1969-09-02.china-leadership
     when: Sept. 2
@@ -81,6 +82,15 @@ entries:
       - 1969-09-02T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1969-09-02.vietnam-hanoi-2
+    when: Sept. 2
+    date: '1969-09-02'
+    place: ba-hon
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bà Hòn, Region 9. Ten Saigon battalions sweep the area; the Region's forces fight it off.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 147. Check: the end of the sweep.'
+    tags: [polity:drv]
   - id: cal.1969-09-03.china-leadership
     when: Sept. 3
     date: '1969-09-03'
@@ -150,6 +160,11 @@ entries:
     c: 'The special communiqué of the Central Committee, the National Assembly''s Standing Committee, the Council of Ministers and the Fatherland Front''s presidium: Hồ Chí Minh dead. A state funeral; seven days of mourning, Sept. 4–10; a solemn memorial; a State Funeral Committee of 26, Lê Duẩn its head, Tôn Đức Thắng, Trường Chinh and Phạm Văn Đồng his deputies.'
     n: '*Thông cáo đặc biệt*, Hanoi, Sept. 4, 1969, from *Nhân Dân*, Sept. 5, 1969, [[w.van-kien-dang-toan]], XXX, 228–31; the committee''s list, from *Nhân Dân*, Sept. 5, 237–39. See [[cal.1969-09-03.vietnam-hanoi]]. Names: Hồ Chí Minh, Lê Duẩn, Tôn Đức Thắng, Trường Chinh, Phạm Văn Đồng.'
     tags: [polity:drv, name:ho-chi-minh, name:le-duan, name:ton-duc-thang, name:truong-chinh, name:pham-van-dong]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the special communiqué the Politburo's, broadcast by the Voice of Vietnam the night of Sept. 3
+        at: VI, 134
   - id: cal.1969-09-04.vietnam-hanoi-2
     when: Sept. 4
     date: '1969-09-04'
@@ -187,6 +202,36 @@ entries:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 313: ?'
         - 'w.zhou-enlai-waijiao-huodong 538: A-B'
     tags: [polity:prc, name:zhou-enlai, name:ho-chi-minh, name:ye-jianying]
+  - id: cal.1969-09-04.vietnam-hanoi-5
+    when: Sept. 4
+    date: '1969-09-04'
+    thread: vietnam-hanoi
+    also: [vietnam-paris]
+    c: 'The Provisional Revolutionary Government, its Advisory Council, the National Liberation Front''s Central Committee and the Alliance of National, Democratic and Peace Forces hold a joint conference on the memorial and mourning for Hồ Chí Minh. It cables the Party''s Central Committee: the South pledges to fight on until the Americans leave and the Saigon regime falls.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 134–35 and n. 1. See [[cal.1969-09-02.vietnam-hanoi]]. To check: the Provisional Revolutionary Government''s cable to the Central Committee of the Vietnam Workers'' Party, Sept. 1969 (cited by [[w.lich-su-khang-chien-chong-my]], VI, 135 n. 1). Names: Hồ Chí Minh.'
+    tags: [polity:drv, name:ho-chi-minh, ok:fields-place]
+  - id: cal.1969-09-04.vietnam-hanoi-3
+    when: Sept. 4
+    date: '1969-09-04'
+    thread: vietnam-hanoi
+    c: The Defense Ministry forms the Technical Department of the Air Defense–Air Force Service.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 197. Made public: 2013. See [[cal.1969-07-29.vietnam-hanoi]].'
+    tags: [polity:drv, vis:only:drv]
+  - id: cal.1969-09-04.vietnam-hanoi-4
+    when: Sept. 4–5
+    date: '1969-09-04'
+    place: hue
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'The night of Sept. 4–5, the autumn offensive''s second high point, from Trị–Thiên to the Mekong Delta: at Huế, the rear base of the American 1st Cavalry Division attacked; in Quảng Nam, the Special Forces base at An Hòa; in Bình Long, from Cây Cay to Chơn Thành, sappers on an American mechanized group, the rear base of the Saigon 9th Regiment and the Chơn Thành subsector, 400 put out of action and 32 vehicles destroyed, by their count. The offensive ends Sept. 15.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 136–37. The history adds (VI, 137): over the phase, tens of thousands out of action, hundreds of aircraft and thousands of vehicles destroyed, 193 vessels sunk or burned, 284 guns destroyed, by its count. See [[cal.1969-08-11.vietnam-hanoi]]. Check: the 1st Cavalry Division had left northern I Corps for III Corps by mid-November 1968 ([[cal.1968-10.vietnam-operations]]); the history''s unit at Huế.'
+    tags: [polity:drv, place:hue, province:quang-nam, province:binh-long]
+    time_range:
+      - 1969-09-04T14:00Z
+      - 1969-09-04T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1969-09-05.china-leadership
     when: Sept. 5
     date: '1969-09-05'
@@ -265,6 +310,23 @@ entries:
     c: 'Zhou Enlai adds to the Center''s instruction on the report of the Tibet revolutionary committee and Tibet Military Region''s delegation to Peking: "overcome bourgeois factionalism, strengthen proletarian Party spirit."'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 314 (Sept. 8, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-09-08.vietnam-hanoi-2
+    when: Sept. 8
+    date: '1969-09-08'
+    thread: vietnam-hanoi
+    also: [vietnam-paris]
+    c: The South's Provisional Revolutionary Government, the Front's Central Committee and the Alliance hold the memorial for Hồ Chí Minh and issue an appeal to the South's army and people to turn grief into strength.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 135. See [[cal.1969-09-08.vietnam-hanoi]]. Names: Hồ Chí Minh.'
+    tags: [polity:drv, name:ho-chi-minh]
+  - id: cal.1969-09-08.vietnam-hanoi
+    when: Sept. 8–10
+    date: '1969-09-08'
+    time: 1969-09-07T16:00Z
+    thread: vietnam-hanoi
+    c: 'The command of the South''s Liberation Armed Forces: a cease-fire across the battlefield for three days, from 0:00 Sept. 8 to 0:00 Sept. 11, for the memorials to Hồ Chí Minh.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 135. Names: Hồ Chí Minh. Check: the day of the order; the history gives only the cease-fire''s.'
+    tags: [polity:drv, name:ho-chi-minh]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1969-09-09.vietnam-hanoi
     when: Sept. 9
     date: '1969-09-09'
@@ -315,7 +377,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking airport VIP lounge. Zhou Enlai with Kosygin, who passes through on his way home from Hồ Chí Minh''s funeral. Zhou: theoretical and principled disputes should not hinder state relations; talks can find a way on the boundary; until then three interim measures: keep the border as it is, avoid armed clashes, disengage forces in disputed places. Kosygin adds a fourth: border authorities may consult beforehand. Agreed on the four; each to send a delegation for boundary talks soon.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 11, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 314 (Sept. 11, 1969; the airport talks); [[w.zhou-enlai-waijiao-huodong]], 539 (Sept. 11, 1969; 10:50 a.m., VIP lounge of the capital airport, Kosygin returning through Peking from Hồ Chí Minh''s funeral); [[w.zhonghua-renmin-gongheguo-waijiao]], 223 (Sept. 11, 1969; Zhou and Kosygin at the Beijing airport, on the way back from Hồ''s funeral: the border, trade and other matters; agreement that the boundary be settled by peaceful talks, with interim measures to end contact of armed forces in disputed areas, avoid clashes and hold the status quo; an agreement to be signed first; principled disputes not to bar normal relations); [[w.jianguo-yilai-mao-zedong]], XIX, 470 n.1 (Sept. 11, 1969; the editors'' account of the talk in the VIP lounge of the capital airport); [[w.macfarquhar-maos-last-revolution]], 313 (Kosygin meets Zhou Enlai at the Peking airport; border talks agreed). Made public: 1993. Check: [[w.zhou-enlai-nianpu-1949-2020]], III, 314 (Sept. 11, 1969), has Zhou''s first point, that disputes of theory and principle are not to hinder state relations, and adds that the two also discussed keeping and developing trade and restoring the exchange of ambassadors, Zhou ending that a good beginning had been made and the frank talk was useful to both. To check: the record of the talk (cited by [[w.zedong-mao-zedong-nianpu]], VI, Sept. 11, 1969, as the Chinese government''s account); Record of the talk of Zhou Enlai and Kosygin at the Peking airport, Sept. 11, 1969, sent to Mao Sept. 13 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 470 n.1b); [[w.zhou-enlai-nianpu-1949]], III, 320–321 (cited by [[w.macfarquhar-maos-last-revolution]], 313 n.26a); Chai Chengwen, "Zhou Enlai yu Zhong Su bianjie tanpan", in [[w.gongheguo-zhongda-shijian-he]], II, 659–671 (cited by [[w.macfarquhar-maos-last-revolution]], 313 n.26b); [[w.kuisong-mao-zedong-yu-mosikede]], 499 (cited by [[w.macfarquhar-maos-last-revolution]], 313 n.26c); [[w.galenovich-rossia-i-kitai-v]], 125–147 (cited by [[w.macfarquhar-maos-last-revolution]], 320 n.59b). Names: Zhou Enlai, Kosygin, Hồ Chí Minh. Check: the Soviet record of the talk; the meeting announced the same day. Mao approves the record Sept. 13 (the chronology, under Sept. 11).'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 11, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 314 (Sept. 11, 1969; the airport talks); [[w.zhou-enlai-waijiao-huodong]], 539 (Sept. 11, 1969; 10:50 a.m., VIP lounge of the capital airport, Kosygin returning through Peking from Hồ Chí Minh''s funeral); [[w.zhonghua-renmin-gongheguo-waijiao]], 223 (Sept. 11, 1969; Zhou and Kosygin at the Beijing airport, on the way back from Hồ''s funeral: the border, trade and other matters; agreement that the boundary be settled by peaceful talks, with interim measures to end contact of armed forces in disputed areas, avoid clashes and hold the status quo; an agreement to be signed first; principled disputes not to bar normal relations); [[w.jianguo-yilai-mao-zedong]], XIX, 470 n.1 (Sept. 11, 1969; the editors'' account of the talk in the VIP lounge of the capital airport); [[w.macfarquhar-maos-last-revolution]], 313 (Kosygin meets Zhou Enlai at the Peking airport; border talks agreed); [[w.mao-zedong-zhuan]], VI, ch. 78 n.16 (Sept. 11 Zhou Enlai and Kosygin, the chairman of the Soviet Council of Ministers, hold talks at Peking airport; they reach a provisional understanding to ''maintain the status quo of the border and avoid armed clashes''; in the talks Zhou sternly questions Kosygin on the recent Soviet nuclear threats and Kosygin has no answer; the book gives no ''VIP lounge'' and no four points, n.16). Made public: 1993. Check: [[w.zhou-enlai-nianpu-1949-2020]], III, 314 (Sept. 11, 1969), has Zhou''s first point, that disputes of theory and principle are not to hinder state relations, and adds that the two also discussed keeping and developing trade and restoring the exchange of ambassadors, Zhou ending that a good beginning had been made and the frank talk was useful to both. To check: the record of the talk (cited by [[w.zedong-mao-zedong-nianpu]], VI, Sept. 11, 1969, as the Chinese government''s account); Record of the talk of Zhou Enlai and Kosygin at the Peking airport, Sept. 11, 1969, sent to Mao Sept. 13 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 470 n.1b); [[w.zhou-enlai-nianpu-1949]], III, 320–321 (cited by [[w.macfarquhar-maos-last-revolution]], 313 n.26a); Chai Chengwen, "Zhou Enlai yu Zhong Su bianjie tanpan", in [[w.gongheguo-zhongda-shijian-he]], II, 659–671 (cited by [[w.macfarquhar-maos-last-revolution]], 313 n.26b); [[w.kuisong-mao-zedong-yu-mosikede]], 499 (cited by [[w.macfarquhar-maos-last-revolution]], 313 n.26c); [[w.galenovich-rossia-i-kitai-v]], 125–147 (cited by [[w.macfarquhar-maos-last-revolution]], 320 n.59b). Names: Zhou Enlai, Kosygin, Hồ Chí Minh. Check: the Soviet record of the talk; the meeting announced the same day. Mao approves the record Sept. 13 (the chronology, under Sept. 11).'
     src:
       c: 557d81ef
       rows:
@@ -326,6 +388,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XIX, 470 n.1: A-H'
         - 'via w.jianguo-yilai-mao-zedong XIX, 470 n.1b: A, B, C, D, E, F, G, H'
         - 'w.macfarquhar-maos-last-revolution 313: A-B, H'
+        - 'w.mao-zedong-zhuan VI, ch. 78 n.16: ?'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:kosygin-aleksei, name:ho-chi-minh, vis:only:prc+ussr@C-H]
     time_zone: Asia/Shanghai
   - id: cal.1969-09-11.china-leadership-2
@@ -379,13 +442,14 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: 'Zhou Enlai reports the content of the Sino-Soviet talks to Mao and holds that it is the first contact of this kind between the two governments; China is to try for the four-point agreement on the border situation to be realized, to publish a diplomatic document and to promote the boundary negotiations. Mao: "agreed."'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 314–315 (Sept. 13, 1969); [[w.jianguo-yilai-mao-zedong]], XIX, 470 (Sept. 1969; Mao''s "Agreed" on Zhou Enlai''s report of Sept. 13 sending the record of his talk with Kosygin; the book gives no day for the note). Made public: 2020. To check: Zhou Enlai, report of Sept. 13, 1969 sending the record of his talk with Kosygin of Sept. 11 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 470 n.1a). Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 314–315 (Sept. 13, 1969); [[w.jianguo-yilai-mao-zedong]], XIX, 470 (Sept. 1969; Mao''s "Agreed" on Zhou Enlai''s report of Sept. 13 sending the record of his talk with Kosygin; the book gives no day for the note); [[w.mao-zedong-zhuan]], VI, ch. 78 (two days after, Zhou Enlai reports the talks to Mao, who is away from Peking; the book does not give Zhou''s view that this was a first contact, nor Mao''s ''agreed''). Made public: 2020. To check: Zhou Enlai, report of Sept. 13, 1969 sending the record of his talk with Kosygin of Sept. 11 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 470 n.1a). Names: Zhou Enlai, Mao Zedong.'
     src:
       c: e6bc1900
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 314–315: ?'
         - 'w.jianguo-yilai-mao-zedong XIX, 470: A-C'
         - 'via w.jianguo-yilai-mao-zedong XIX, 470 n.1a: A, B'
+        - 'w.mao-zedong-zhuan VI, ch. 78: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1969-09-13.china-leadership-2
     when: Sept. 13
@@ -447,6 +511,13 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 314: A'
         - 'w.macfarquhar-maos-last-revolution 316: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-09-16.vietnam-force-levels
+    when: Sept. 16
+    date: '1969-09-16'
+    thread: vietnam-force-levels
+    c: Nixon announces a second withdrawal, 35,000 American troops.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 44. Names: Nixon.'
+    tags: [polity:us, name:nixon-richard-m]
   - id: cal.1969-09-17.china-leadership
     when: Sept. 17
     date: '1969-09-17'
@@ -469,13 +540,14 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'The Renmin ribao prints the slogans for the 20th anniversary of the People''s Republic, 29 in all, supplemented and revised before printing by Zhou Enlai and others and passed by the Politburo, among them: "Do struggle-criticism-reform well! Consolidate the dictatorship of the proletariat further!", "Prepare for war, prepare against famine, for the people!", "Raise vigilance, defend the motherland, be ready at any time to wipe out invaders!".'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 315 (Sept. 17, 1969); [[w.jianguo-yilai-mao-zedong]], XIX, 468 n.1 (Sept. 17, 1969; the printing and the number, 29, only). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 315 (Sept. 17, 1969); [[w.jianguo-yilai-mao-zedong]], XIX, 468 n.1 (Sept. 17, 1969; the printing and the number, 29, only); [[w.mao-zedong-zhuan]], VI, ch. 78 n.17 (the evening of Sept. 16 Xinhua issues the Slogans for celebrating the twentieth anniversary of the People''s Republic 《庆祝中华人民共和国成立二十周年口号》, 29 in all, as approved by Mao; the 22nd is Mao''s own addition: ''peoples of the whole world, unite, oppose any war of aggression launched by imperialism or social-imperialism, above all oppose a war of aggression with the atom bomb as its weapon; should such a war break out, the peoples of the whole world should meet it with revolutionary war and wipe out the war of aggression, start preparing now''; the book dates the issue Sept. 16 and does not say the *Renmin ribao* printed it, n.17). To check: Mao Zedong 毛泽东, a slogan added in reviewing the draft Slogans for celebrating the twentieth anniversary of the People''s Republic (manuscript 手稿), Sept. 1969 (cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.17). Names: Zhou Enlai.'
     src:
       c: 59c62c2d
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 315: ?'
         - 'w.jianguo-yilai-mao-zedong XIX, 468 n.1: A'
         - 'via w.jianguo-yilai-mao-zedong XIX, 468 n.1b: A'
+        - 'w.mao-zedong-zhuan VI, ch. 78 n.17: ?'
     tags: [polity:prc, name:zhou-enlai]
   - id: cal.1969-09-17.china-leadership-3
     when: Sept. 17
@@ -555,6 +627,15 @@ entries:
     c: Zhou Enlai goes to Peking Hospital to see Zhang Shizhao.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 316 (Sept. 19, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-09-19.vietnam-hanoi
+    when: Sept. 19
+    date: '1969-09-19'
+    place: chuong-thien
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Chương Thiện, Region 9. Nine Saigon battalions and five river combat groups open a sweep; the Region's forces fight it off.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 147. Check: the end of the sweep.'
+    tags: [polity:drv]
   - id: cal.1969-09-22.china-leadership
     when: Sept. 22
     date: '1969-09-22'
@@ -582,13 +663,15 @@ entries:
     thread: china-leadership
     also: [testing]
     c: China fires an underground nuclear test.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 23, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 316 (Sept. 23, 1969; Zhou''s direction of the test); [[w.zhonghua-renmin-gongheguo-waijiao]], 225 (Sept. 23, 1969; the first underground nuclear test, given with the announcement of Sept. 29). Check: the Xinhua communique and its day.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 23, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 316 (Sept. 23, 1969; Zhou''s direction of the test); [[w.zhonghua-renmin-gongheguo-waijiao]], 225 (Sept. 23, 1969; the first underground nuclear test, given with the announcement of Sept. 29); [[w.mao-zedong-zhuan]], VI, ch. 78 n.18 (Sept. 23 China carries out its first underground nuclear test (the book also has a new hydrogen bomb explosion on the 29th); the Xinhua report calls it a heavy blow at the nuclear monopoly of American imperialism and social-imperialism, n.18). Check: the Xinhua communique and its day. To check: Xinhua 新华社 report, Oct. 4, 1969 (on the nuclear test of Sept. 23 and the hydrogen bomb explosion of Sept. 29) (cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.18).'
     src:
       c: 28d1c299
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, Sept. 23, 1969: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 316: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 225: all'
+        - 'w.mao-zedong-zhuan VI, ch. 78 n.18: A'
+        - 'via w.mao-zedong-zhuan VI, ch.78 n.18: A'
     tags: [polity:prc]
   - id: cal.1969-09-23.china-leadership-2
     when: Sept. 23
@@ -685,11 +768,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'The Military Commission''s war-fighting conference: the commanders, political commissars and senior officers of the military regions and General Headquarters on combat readiness in the north, northeast and northwest.'
-    n: '[[w.macfarquhar-maos-last-revolution]], 314 (Sept. 25–27). Made public: 1999 ([[w.kuisong-mao-zedong-yu-mosikede]], 501–502). To check: [[w.kuisong-mao-zedong-yu-mosikede]], 501–502 (cited by [[w.macfarquhar-maos-last-revolution]], 314 n.32). Check: whether it is the conference Zhou Enlai addressed on Sept. 22 ([[cal.1969-09-22.china-leadership-2]]), or the all-army war preparation conference at which Lin Biao''s words were relayed ([[cal.1969-09.china-leadership-4]]), which the book (314) gives as his closing speech here.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 314 (Sept. 25–27); [[w.mao-zedong-zhuan]], VI, ch. 78 (in September an all-army conference on war-readiness work, which conveys Mao''s ''the army must not relax'' and Lin Biao''s order to view, check and carry out everything from the standpoint of war; the book does not give the days, Sept. 25–27, or the regions). Made public: 1999 ([[w.kuisong-mao-zedong-yu-mosikede]], 501–502). To check: [[w.kuisong-mao-zedong-yu-mosikede]], 501–502 (cited by [[w.macfarquhar-maos-last-revolution]], 314 n.32). Check: whether it is the conference Zhou Enlai addressed on Sept. 22 ([[cal.1969-09-22.china-leadership-2]]), or the all-army war preparation conference at which Lin Biao''s words were relayed ([[cal.1969-09.china-leadership-4]]), which the book (314) gives as his closing speech here.'
     src:
       c: 4d207c03
       rows:
         - 'w.macfarquhar-maos-last-revolution 314: all'
+        - 'w.mao-zedong-zhuan VI, ch. 78: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1969-09-26.china-leadership
     when: Sept. 26
@@ -750,6 +834,15 @@ entries:
       - 1969-09-26T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1969-09-26.vietnam-hanoi
+    when: Sept. 26
+    date: '1969-09-26'
+    place: u-minh-thuong
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: U Minh Thượng, Region 9. Saigon opens a sweep with 23 battalions, the long sweeps of Bà Hòn, Chương Thiện and U Minh Thượng aimed at the border, the supply corridor and the Region's preparations for spring 1970. Fifty guerrilla teams, 200 men, ambush river craft on the Ông Đốc; hundreds out of action, dozens of boats sunk or badly hurt, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 147–48. Check: the end of the sweep; the history gives the period only. Elsewhere (VI, 264) the history has the Saigon 21st Division, Marine Brigade B, four Ranger battalions, river groups and air support open the first sweep to take U Minh, "từ tháng 9-1969" (from September 1969), and fail.'
+    tags: [polity:drv]
   - id: cal.1969-09-27.china-leadership
     when: Sept. 27
     date: '1969-09-27'
@@ -913,13 +1006,14 @@ entries:
     thread: china-leadership
     also: [testing]
     c: China explodes a hydrogen bomb in the air over its western region.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 23, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 316 (Sept. 23 and 29, 1969; Zhou''s direction); [[w.zhonghua-renmin-gongheguo-waijiao]], 225 (Sept. 29, 1969; Xinhua''s announcement: China''s new hydrogen bomb explosion over the west). See [[cal.1969-09-23.china-leadership]]. Check: the Xinhua communique and its day.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 23, 1969. [[w.zhou-enlai-nianpu-1949-2020]], III, 316 (Sept. 23 and 29, 1969; Zhou''s direction); [[w.zhonghua-renmin-gongheguo-waijiao]], 225 (Sept. 29, 1969; Xinhua''s announcement: China''s new hydrogen bomb explosion over the west); [[w.mao-zedong-zhuan]], VI, ch. 78 n.18 (Sept. 29 China explodes ''a new hydrogen bomb'', the book''s words, with the Sept. 23 underground test; it gives no height or region, n.18). See [[cal.1969-09-23.china-leadership]]. Check: the Xinhua communique and its day.'
     src:
       c: b3e4583e
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, Sept. 23, 1969: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 316: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 225: A'
+        - 'w.mao-zedong-zhuan VI, ch. 78 n.18: ?'
     tags: [polity:prc]
   - id: cal.1969-09-29.vietnam-hanoi
     when: Sept. 29
@@ -927,7 +1021,12 @@ entries:
     place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo''s directive no. 173-CT/TW: a round of political study, "Learn from and follow President Hồ''s Testament." Party members and the people to discuss the testament, the Central Committee''s eulogy and its call; an emulation movement; committees to review their unity, democracy and leadership, members their morals; economic management and the Party''s building strengthened.'
-    n: '*Chỉ thị của Bộ Chính trị số 173-CT/TW, ngày 29 tháng 9 năm 1969, Về đợt sinh hoạt chính trị "Học tập và làm theo Di chúc của Hồ Chủ tịch"*, signed for the Politburo by Trường Chinh. [[w.van-kien-dang-toan]], XXX, 330–36. Made public: 2004. See [[cal.1969-09-09.vietnam-hanoi]]. Names: Hồ Chí Minh.'
+    n: '*Chỉ thị của Bộ Chính trị số 173-CT/TW, ngày 29 tháng 9 năm 1969, Về đợt sinh hoạt chính trị "Học tập và làm theo Di chúc của Hồ Chủ tịch"*, signed for the Politburo by Trường Chinh. [[w.van-kien-dang-toan]], XXX, 330–36; [[w.lich-su-khang-chien-chong-my]], VI, 170, 193 (after Hồ Chí Minh''s death, the Politburo''s directive for a round of political study, to learn from and follow his testament, in the whole Party, people and army; not its number or day). Made public: 2004. See [[cal.1969-09-09.vietnam-hanoi]]. Names: Hồ Chí Minh.'
+    src:
+      c: f7a4fbb1
+      rows:
+        - 'w.van-kien-dang-toan XXX, 330–36: all'
+        - 'w.lich-su-khang-chien-chong-my VI, 170, 193: A'
     tags: [polity:drv, vis:only:drv, name:ho-chi-minh, name:truong-chinh]
   - id: cal.1969-09-29.china-leadership-2
     when: Sept. 29
@@ -1056,13 +1155,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai speaks at the reception for the 20th anniversary of the People''s Republic: in twenty years the socialist revolution and building in China, under the Communist Party, has won victory after victory; the motherland has been changed from a poor, backward, bullied, semi-feudal, semi-colonial country into a socialist country that keeps its independence and has gained a first prosperity.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 318 (Sept. 30, 1969); [[w.zhou-enlai-waijiao-huodong]], 542 (Sept. 30, 1969; evening, the grand reception in the Great Hall of the People for the twentieth anniversary of the People''s Republic, Zhou speaking); [[w.zhonghua-renmin-gongheguo-waijiao]], 227 (Sept. 30, 1969; the speech: China will never commit aggression; its nuclear arms for defense; peace on the Five Principles, no trading of principle). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 318 (Sept. 30, 1969); [[w.zhou-enlai-waijiao-huodong]], 542 (Sept. 30, 1969; evening, the grand reception in the Great Hall of the People for the twentieth anniversary of the People''s Republic, Zhou speaking); [[w.zhonghua-renmin-gongheguo-waijiao]], 227 (Sept. 30, 1969; the speech: China will never commit aggression; its nuclear arms for defense; peace on the Five Principles, no trading of principle); [[w.mao-zedong-zhuan]], VI, ch. 78 n.19 (the evening of Sept. 30 at the National Day reception Zhou Enlai says: against the war threats of American imperialism and social-imperialism, nuclear war threats included, we must be fully prepared; if they insist on forcing a war of aggression on us we shall resist to the end, to final victory; the book does not give the entry''s units of the twenty years'' victories, n.19). To check: *Renmin ribao* 《人民日报》, Oct. 1, 1969 (cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.19). Names: Zhou Enlai.'
     src:
       c: 3bd057f3
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 318: ?'
         - 'w.zhou-enlai-waijiao-huodong 542: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 227: A'
+        - 'w.mao-zedong-zhuan VI, ch. 78 n.19: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1969-09-30T11:00Z
@@ -1232,3 +1332,20 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 317: all'
     tags: [polity:prc, name:lin-biao, vis:only:prc]
+  - id: cal.1969-09-30.vietnam-force-levels
+    when: Sept. 30
+    date: '1969-09-30'
+    thread: vietnam-force-levels
+    c: Nixon announces an order to withdraw 6,000 American troops from Thailand in October 1970.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 44. Names: Nixon. Check: the date of the withdrawal, the history''s "vào tháng 10-1970" (in October 1970); the history says "Tổng thống Mỹ" (the American President), Nixon from Jan. 20 ([[cal.1969-01-20.transition-and-staff]]).'
+    tags: [polity:us, name:nixon-richard-m]
+  - id: cal.1969-09.laos
+    when: Sept., late
+    date: 1969-09
+    at: before 1969-09-21
+    place: plain-of-jars
+    thread: laos
+    also: [vietnam-hanoi]
+    c: Laos. By September the Americans and their allies hold the Plain of Jars and stand at the gates near the Vietnamese border, Bản Ban and Nong Het. At the end of the month the Vietnamese troops are ordered back to rest and refit, leaving a little over a battalion with the Lao to hold a springboard; the Lao and Vietnamese decide on a counteroffensive, Campaign 139.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 242–43. See [[cal.1969-10-25.vietnam-hanoi]]. Check: the days; the history gives the month and "cuối tháng 9-1969".'
+    tags: [polity:laos, polity:pathet-lao]

@@ -75,6 +75,14 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 489: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 77: all'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1966-01-01.vietnam-hanoi
+    when: Jan. 1
+    date: '1966-01-01'
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: Region 5 holds its first region-wide company-level festival of American-killer heroes.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 100 (the Region Party Committee and Region Command). To check: the Region''s own record of the festival.'
+    tags: [polity:drv]
   - id: cal.1966-01-02.vietnam
     when: Jan. 2
     date: '1966-01-02'
@@ -299,6 +307,15 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 78: all'
     tags: [polity:prc, polity:cambodia, polity:us]
+  - id: cal.1966-01-03.vietnam-diplomacy
+    when: Jan. 3–15
+    date: '1966-01-03'
+    place: havana
+    thread: vietnam-diplomacy
+    also: [vietnam-hanoi]
+    c: The Asian, African and Latin American peoples' solidarity conference meets at Havana. It supports Vietnam and condemns the Americans and the Saigon regime; the DRV's and the Liberation Front's delegations speak and are backed by nearly all.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 297. Check: the delegations'' speakers and the conference''s resolution; the passage read gives neither.'
+    tags: [polity:drv, polity:cuba]
   - id: cal.1966-01-04.states-and-cities
     when: Jan. 4
     date: '1966-01-04'
@@ -522,7 +539,13 @@ entries:
     place: nanchang
     thread: china-leadership
     c: 'Mao, Nanchang. Talks with Yang Shangkui, Fang Zhichun, Liu Junxiu and other Jiangxi leaders, Wang Dongxing present. On Luo Ruiqing: proud, sharp; offered a provincial post he refused; no longer fit for army work. The Party splits in two and survives; even a leader going bad is no cause for fear. On farming: go steady; buy no grain beyond the surplus; look into the petty levies, Fujian''s among them; Jiangxi to investigate and report to the Center.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 5, 1966. Made public: 2013. Names: Mao Zedong, Luo Ruiqing, Yang Shangkui, Fang Zhichun, Liu Junxiu, Bai Dongcai, Huang Zhizhen, Wang Dongxing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 5, 1966. [[w.mao-zedong-zhuan]], VI, ch. 74 n.23 (Mao to Yang Shangkui 杨尚奎 and Fang Zhichun 方志纯 of Jiangxi, soon after the Shanghai meeting of Dec. 1965, the day by the note; place not given; on Luo Ruiqing 罗瑞卿: proud and sharp; once told to take a governorship in a province, he would not; army work no longer possible, a transfer to local work, not necessarily Jiangxi; the book adds that Luo was not yet to be wholly overthrown). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 74). Check: [[w.mao-zedong-zhuan]], VI, ch. 74 has Mao come to Wuhan from Hangzhou on Jan. 5 (at its account of the Wuhan report of Feb. 8); its note dates the talk with the Jiangxi leaders Jan. 5 (n.23). To check: Mao Zedong 毛泽东, talk with Yang Shangkui 杨尚奎, Fang Zhichun 方志纯 and others, Jan. 5, 1966 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.23). Names: Mao Zedong, Luo Ruiqing, Yang Shangkui, Fang Zhichun, Liu Junxiu, Bai Dongcai, Huang Zhizhen, Wang Dongxing.'
+    src:
+      c: a29789f9
+      rows:
+        - 'w.zedong-mao-zedong-nianpu V, Jan. 5, 1966: all'
+        - 'w.mao-zedong-zhuan VI, ch. 74 n.23: C, D, E'
+        - 'via w.mao-zedong-zhuan VI, ch.74 n.23: C, D, E'
     tags: [name:mao-zedong, name:luo-ruiqing, polity:prc, vis:only:prc]
   - id: cal.1966-01-05.vietnam-hanoi
     when: Jan. 5
@@ -1038,9 +1061,19 @@ entries:
     date: '1966-01-08'
     thread: vietnam-operations
     c: 'Crimp, in the woods on the Saigon River''s west bank opposite the Iron Triangle, in Bình Dương and Hậu Nghĩa: the 173d Airborne Brigade with an Australian battalion, and a brigade of the 1st Infantry Division. Tunnels lead to a deserted headquarters, very likely Military Region 4''s: some 7,500 documents. The 173d and the Australians: 128 Viet Cong counted killed, and possibly 190 more; 23 of their own killed, 102 wounded. The 1st Division''s brigade out Jan. 12.'
-    n: '[[w.carland-united-states-army-in]], 169–173. Check: Carland has Crimp launched "the day before" Marauder I ended, the morning of Jan. 8, and the 3d Brigade''s part beginning that morning.'
+    n: '[[w.carland-united-states-army-in]], 169–173; [[w.lich-su-khang-chien-chong-my]], IV, 86–88 (Củ Chi, Jan. 8–19: the history''s account of the 12-day sweep). Check: Carland has Crimp launched "the day before" Marauder I ended, the morning of Jan. 8, and the 3d Brigade''s part beginning that morning.'
+    src:
+      c: e6af5893
+      rows:
+        - 'w.carland-united-states-army-in 169–173: all'
+        - 'w.lich-su-khang-chien-chong-my IV, 86–88: A'
     tags: [place:operation-crimp, province:binh-duong, province:hau-nghia]
     short: Crimp
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: 'twelve days of fighting at Củ Chi, Jan. 8–19, against the 1st Division''s brigades and the 173d Airborne: 200 actions, nearly 1,000 Americans and Saigon troops killed or wounded, 84 aircraft shot down (most of them UH-1s), 77 vehicles destroyed or damaged (56 M113s), two 105 mm guns; the sweep ended Jan. 19, the brigades moved to Đồng Dù'
+        at: IV, 86–88
   - id: cal.1966-01-08.vietnam
     when: Jan. 8
     date: '1966-01-08'
@@ -1166,6 +1199,21 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1891: all'
     tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:peng-zhen, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1966-01-08.vietnam-hanoi-2
+    when: Jan. 8
+    date: '1966-01-08'
+    place: thanh-hoa
+    thread: vietnam-hanoi
+    also: [vietnam-air-war]
+    c: Off Sầm Sơn, Thanh Hóa. A Saigon commando ship enters the waters; Phan Như Cẩn of the 919th Air Group, with his crew, flies an AN-2 and bombs it sunk. Returning, the plane has a fault and he lands it on the beach, crew and plane safe. The history calls it the Air Force's first victorious air–sea action.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 396. Check: the hour; the history says only "đêm 8-1-1966".'
+    tags: [polity:drv]
+    time_range:
+      - 1966-01-08T15:00Z
+      - 1966-01-08T17:00Z
+    time_band: night
+    time_zone: Asia/Bangkok
+    range_basis: record
   - id: cal.1966-01-09.opinion
     when: Jan. 9
     date: '1966-01-09'
@@ -2115,3 +2163,55 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1890: all'
     tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:peng-zhen, name:ye-jianying, vis:only:prc]
+  - id: cal.1966-01.china-leadership-7
+    when: Jan., late
+    date: 1966-01
+    at: before 1966-01-21
+    thread: china-leadership
+    c: 'Ye Jianying 葉劍英 calls in Qiu Huizuo 邱會作 and asks whether at the Shanghai meeting he spoke with anyone about Xiao Hua 蕭華. Qiu says no; he heard only from Tao Zhu 陶鑄 that Xiao should not be made secretary-general of the Military Commission. Ye asks what one who failed to get the post may be thinking. Qiu: perhaps of finding a "pass" 路條, informing on another to be let back in. Ye: well said.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 144. The words: 1966年1月底. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 396 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 144 n.36). Names: Ye Jianying, Qiu Huizuo, Tao Zhu.'
+    src:
+      c: 647e2a50
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 144: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 144 n.36: all'
+    tags: [polity:prc, vis:only:prc, name:ye-jianying, name:qiu-huizuo, name:tao-zhu, ok:fields-place]
+  - id: cal.1966.china-leadership-34
+    when: 1966, fall
+    date: '1966'
+    at: before 1966-09-23
+    thread: china-leadership
+    c: 'The heads of the General Departments and the services in Peking are told to assemble at the Jingxi Hotel 京西賓館, ride in two big cars with the curtains drawn, led by Xiao Hua 蕭華 and Yang Chengwu 楊成武, to Ye Jianying''s 葉劍英 house to see the papers on He Long 賀龍: Zhou had telephoned to stress the matter of surrender to the enemy. Ye: Mao is uneasy about He Long, many have exposed him. A dozen papers lie on the table, statements of He''s subordinates, among them a letter of He''s to an old friend in the Nationalist government. Ye says to tell no one outside; Li Zuopeng 李作鵬 gives the same time, place and men.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 165–166. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 884–885 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 165 n.18a); *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixin chubanshe 北新出版社, Hong Kong), 566 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 165 n.18b); *Li Zuopeng huiyilu* 《李作鵬回憶錄》, 568–569 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 166 n.19). Names: Ye Jianying, He Long, Li Zuopeng, Zhou Enlai. Check: the day; Yang has it after the meeting of [[cal.1966-09-06.china-leadership-2]].'
+    src:
+      c: a638005f
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 165–166: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 165 n.18a: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 166 n.19: all'
+    tags: [polity:prc, vis:only:prc, name:ye-jianying, name:he-long, name:li-zuopeng, name:zhou-enlai, ok:fields-place]
+  - id: cal.1966.vietnam-hanoi
+    when: 1966, early
+    date: '1966'
+    at: before 1966-01
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: 'The Central Office''s Military Party Committee resolves on building the armed forces in 1966: mend and raise the units held, take in well the new force sent from the North; among the main force stress regiments more than divisions; build up the arms, above all sappers and engineers for the roads; the regional troops and militia raised in quality.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 219. Made public: 2013. Check: the day; the history says "đầu năm 1966".'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1966-01.vietnam-hanoi
+    when: Jan.
+    date: 1966-01
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Region 5 sets up the front command for northern Bình Định: Giáp Văn Cương, commander of the 3d Division, commander; Trần Quang Khanh, Bình Định''s provincial secretary, political commissar.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 104. Made public: 2013. Check: the day.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1966.vietnam-hanoi-2
+    when: '1966'
+    date: '1966'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: The Central Office forms Region 10 of Quảng Đức and Phước Long, out of Region 6, and Bình Long, out of Region 7, to hold the mountain base and build a corridor for the main force.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 222. Made public: 2013. Check: the day; the history gives the formation just after the Rừng Sác zone of May 1966 and before the supply units it names.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]

@@ -1,0 +1,2716 @@
+patch: 2026-11-19-b15c-tiandi-1
+by: 'Claude (batch 15c, run 1, Yang Jisheng, *Tiandi fanfu*, Tiandi 2016 ed.: 1966), Nov. 19, 2026'
+ops:
+- edit:
+    id: cal.1966-03-18.china-leadership-3
+    base: 1c824c41
+    set:
+      time_range:
+      - 1966-03-17T22:00Z
+      - 1966-03-18T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1966-06-27.china-leadership-5
+    base: 9b46b33b
+    set:
+      time_range:
+      - 1966-06-27T04:00Z
+      - 1966-06-27T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1966-03.china-leadership
+    base: e9c2d9c4
+    set:
+      when: Mar. 6
+      date: '1966-03-06'
+      n: '[[w.macfarquhar-maos-last-revolution]], 35. Made public: 1999 (the *Lu Dingyi zhuan*, cited by [[w.yang-jisheng-tiandi-fanfu]], I, 147 n.43). To check: [[w.han-789-jizhongying]],
+        12–30 (cited by [[w.macfarquhar-maos-last-revolution]], 35 n.16). Names: Lu Dingyi.'
+- edit:
+    id: cal.1966-07-29.china-leadership
+    base: 0b2fbbae
+    set:
+      time_range:
+      - 1966-07-29T11:00Z
+      - 1966-07-29T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1966-07.china-leadership-8
+    base: 2b5e28d2
+    set:
+      when: July 22
+      date: '1966-07-22'
+      n: '[[w.macfarquhar-maos-last-revolution]], 83. Made public: 2001. To check: [[w.li-wang-li-fansi-lu]], II, 611 (cited by [[w.macfarquhar-maos-last-revolution]], 83 n.78). Names:
+        Mao Zedong.'
+    unset:
+    - at
+- edit:
+    id: cal.1966-11-13.china-leadership-3
+    base: da253670
+    set:
+      time: 1966-11-13T06:30Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1966-10-24.china-leadership-3
+    base: 538ecacc
+    set:
+      time: 1966-10-24T15:00Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1966-08-12.china-leadership
+    base: 7b2a0802
+    set:
+      time_range:
+      - 1966-08-12T04:00Z
+      - 1966-08-12T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1966-08-04.china-leadership-5
+    base: 7120ca22
+    set:
+      time_range:
+      - 1966-08-04T04:00Z
+      - 1966-08-04T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1966-08-04.china-leadership-4
+    base: af17204e
+    set:
+      time_range:
+      - 1966-08-04T11:00Z
+      - 1966-08-04T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1966-11-14.china-leadership
+    base: 08e73a1d
+    set:
+      time: 1966-11-14T07:00Z
+      time_zone: Asia/Shanghai
+    unset:
+    - time_range
+    - time_band
+- edit:
+    id: cal.1966-08-18.china-leadership-11
+    base: 4db01e00
+    set:
+      time: 1966-08-17T23:30Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1966-09-13.china-leadership
+    base: ab3667c6
+    set:
+      time: 1966-09-13T11:00Z
+      time_zone: Asia/Shanghai
+    unset:
+    - time_range
+    - time_band
+- edit:
+    id: cal.1966-10-01.china-leadership-7
+    base: 1f22b39e
+    set:
+      time: 1966-10-01T11:00Z
+      time_approx: true
+      time_zone: Asia/Shanghai
+- place:
+    id: cal.1966-04-09.china-leadership
+    at: peking
+    basis: n
+    note: 'I, 125: Deng Xiaoping, recalled to Peking, presides'
+- place:
+    id: cal.1966-04-18.china-leadership
+    at: peking
+    basis: n
+    note: the Jiefangjun bao, a Peking paper (P1)
+- place:
+    id: cal.1966-05-21.china-leadership-2
+    at: peking
+    basis: n
+    note: 'I, 158: the May meeting sat in Peking'
+- place:
+    id: cal.1966-07-30.china-leadership
+    at: peking
+    basis: n
+    note: 'I, 214: a small room of the Great Hall of the People'
+- place:
+    id: cal.1966-08-04.china-leadership-4
+    at: peking
+    basis: n
+    note: 'I, 221: the East Field of Tsinghua University'
+- place:
+    id: cal.1966-08-04.china-leadership-5
+    at: peking
+    basis: n
+    note: 'I, 220–221: the plenum sat in Peking; the Central-South group'
+- place:
+    id: cal.1966-08-07.china-leadership-5
+    at: peking
+    basis: n
+    note: 'I, 220, 223: the plenum in Peking; the poster handed to its delegates'
+- place:
+    id: cal.1966-08-12.china-leadership
+    at: peking
+    basis: n
+    note: 'I, 220, 225: the plenum in Peking, its last session'
+- place:
+    id: cal.1966-10-01.china-leadership-7
+    at: peking
+    basis: n
+    note: 'I, 242: West Chang''an Avenue'
+- place:
+    id: cal.1966-10-24.china-leadership-10
+    at: peking
+    basis: n
+    note: 'I, 299: the work conference sat in Peking'
+- place:
+    id: cal.1966-12-06.china-leadership-4
+    at: peking
+    basis: n
+    note: 'I, 335: the Huairen Hall meeting of Dec. 4–6'
+- cite:
+    id: cal.1966-02-03.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 120 (Peng Zhen 彭真 convenes the enlarged meeting of the Group of Five 文化革命五人小組; those present besides the Group: Xu Liqun 許立群, Hu Sheng
+      胡繩, Yao Zhen 姚溱, Wang Li 王力, Fan Ruoyu 范若愚, Liu Ren 劉仁 and Zheng Tianxiang 鄭天翔; the leftists, Guan Feng 關鋒 and others, criticized; Peng stresses that Hai Rui Dismissed is not to
+      be talked of in its political bearings, Wu Han 吳晗 having no tie to Peng Dehuai 彭德懷)'
+    units: D
+- to-check:
+    id: cal.1966-02-03.china-leadership-2
+    add: Xi Xuan 席宣 and Jin Chunming 金春明, *"Wenhua dageming" jianshi* 《「文化大革命」簡史》, newest enlarged ed. (Zhonggong dangshi chubanshe 中共黨史出版社, 2011), 71 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 120 n.34)
+- src:
+    id: cal.1966-02-03.china-leadership-2
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 120 n.34: D'
+- cite:
+    id: cal.1966-02-04.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 120 (on Feb. 4 Xu Liqun 許立群 and Yao Zhen 姚溱, on Peng Zhen''s view, draft the Outline 〈文化革命五人小組關於當前學術討論的匯報提綱〉 at the Diaoyutai 釣魚臺; the
+      two men''s posts not given; the Outline limits the criticism to the academic and places it under the Party''s leadership)'
+- to-check:
+    id: cal.1966-02-04.china-leadership-2
+    add: Xi Xuan 席宣 and Jin Chunming 金春明, *"Wenhua dageming" jianshi* 《「文化大革命」簡史》, newest enlarged ed. (Zhonggong dangshi chubanshe 中共黨史出版社, 2011), 71 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 120 n.34)
+- place:
+    id: cal.1966-02-04.china-leadership-2
+    at: peking
+    basis: n
+    note: 'I, 120: Diaoyutai'
+- cite:
+    id: cal.1966-02-05.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 120–122 (Liu Shaoqi 劉少奇 presides at the Standing Committee members in Peking, who discuss the draft; before the meeting Peng sends it to
+      them with the line that for haste it could not be circulated in the Group; Xu Liqun reports orally and Peng does not read the Outline out; after Peng''s revision the members in
+      Peking agree, and it is wired to Mao at Wuhan on Feb. 7; not that the meeting told the Group to take it to Mao)'
+- to-check:
+    id: cal.1966-02-05.china-leadership
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 12 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 122 n.35)'
+- cite:
+    id: cal.1966-02-07.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 122 (the Outline, after Peng Zhen''s revision and the Peking Standing Committee members'' agreement, is sent by wire to Mao at Wuhan on
+      Feb. 7, unsigned; the Group''s name was added by Yao Zhen 姚臻; the draft number and the "urgent" not given)'
+- to-check:
+    id: cal.1966-02-07.china-leadership-3
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 12 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 122 n.35)'
+- cite:
+    id: cal.1966-02-08.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 122 (that morning 早晨 Peng Zhen, Lu Dingyi, Kang Sheng, Wu Lengxi, Xu Liqun, Hu Sheng and Tian Jiaying 田家英 fly by special plane from Peking''s
+      western-suburb airport 北京西郊機場 to Wuhan; Wang Renzhong 王任重 meets them at the airport and has them go at once to Mao''s residence at East Lake 東湖; Hankou, the noon landing and Wuchang
+      not given)'
+- to-check:
+    id: cal.1966-02-08.china-leadership-3
+    add: Gong Yuzhi 龔育之, 〈「二月提綱」和東湖之行〉, in Zhang Hua et al., eds., *Huishou wenge* 《回首文革》 (Zhonggong dangshi chubanshe 中共黨史出版社, 2007), 286–287 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 122 n.36)
+- cite:
+    id: cal.1966-02-08.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 122–123 (the report at Mao''s East Lake 東湖 residence: Mao asks Peng whether Wu Han is anti-Party and anti-socialist; Peng: yes, he stands
+      with those dismissed; Mao: Wu Han is to be dismissed no more and goes on as before as mayor 市長; to Peng''s wish for a political conclusion, Mao: the struggle against bourgeois
+      ideology is a long class struggle, not to be settled by a hasty conclusion; Peng raises Guan Feng 關鋒 and Qi Benyu 戚本禹 as leftists who also wrote allusive essays and whether to
+      rectify them; Mao: three years on 三年以後再說; Yang gives these as Xu Liqun''s account to Gong Yuzhi 龔育之, broadly agreeing with the Dashiji; Mao neither opposed nor approved the Outline
+      (the Dashiji), and did not even circle it (Wang Li))'
+- to-check:
+    id: cal.1966-02-08.china-leadership
+    add: Gong Yuzhi 龔育之, 〈「二月提綱」和東湖之行〉, in Zhang Hua et al., eds., *Huishou wenge* 《回首文革》 (Zhonggong dangshi chubanshe 中共黨史出版社, 2007), 286–287 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 122 n.36)
+- to-check:
+    id: cal.1966-02-08.china-leadership
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 13 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 122 n.37)'
+- to-check:
+    id: cal.1966-02-08.china-leadership
+    add: '*Yijiuliuwu nian jiuyue dao yijiuliuliu nian wuyue wenhua zhanxian shang liang tiao daolu douzheng dashiji* 《一九六五年九月到一九六六年五月文化战线上两条道路斗争大事记》 (annex to the Circular of May 16,
+      1966 「五一六通知」) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 123 n.38a)'
+- cite:
+    id: cal.1966-02-12.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 123 (after the Wuhan report Peng Zhen writes a Central Committee note 中央批語 that is not sent to Mao for reading, and tells the Standing
+      Committee by telephone that Mao has agreed and the paper should go to the whole Party at once; the printing and the return to Peking not given)'
+- to-check:
+    id: cal.1966-02-12.china-leadership-4
+    add: '*Yijiuliuwu nian jiuyue dao yijiuliuliu nian wuyue wenhua zhanxian shang liang tiao daolu douzheng dashiji* 《一九六五年九月到一九六六年五月文化战线上两条道路斗争大事记》 (annex to the Circular of May 16,
+      1966 「五一六通知」) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 123 n.38a)'
+- cite:
+    id: cal.1966-02-12.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 123 (issued on Feb. 12 under Deng Xiaoping''s 鄧小平 signature as a Central Committee document to the whole Party, with the Center''s note
+      "the Center agrees to the Group''s outline" and its call to seek truth from facts and be equal before truth)'
+    units: A
+- to-check:
+    id: cal.1966-02-12.china-leadership-2
+    add: '*Yijiuliuwu nian jiuyue dao yijiuliuliu nian wuyue wenhua zhanxian shang liang tiao daolu douzheng dashiji* 《一九六五年九月到一九六六年五月文化战线上两条道路斗争大事记》 (annex to the Circular of May 16,
+      1966 「五一六通知」) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 123 n.39)'
+- src:
+    id: cal.1966-02-12.china-leadership-2
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 123 n.39: A'
+- cite:
+    id: cal.1966-03-11.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 123 (Mar. 11: Yang Yongzhi 楊永直, head of the Shanghai committee''s propaganda department, telephones Xu Liqun 許立群 to ask whom the Outline
+      is aimed at and who the leftists are; Zhang Chunqiao 張春橋, told of the answer, says the Propaganda Department and the Peking committee oppose Yao Wenyuan''s article, the Outline''s
+      point being Mao)'
+    units: B
+- to-check:
+    id: cal.1966-03-11.china-leadership-3
+    add: '*Yijiuliuwu nian jiuyue dao yijiuliuliu nian wuyue wenhua zhanxian shang liang tiao daolu douzheng dashiji* 《一九六五年九月到一九六六年五月文化战线上两条道路斗争大事记》 (annex to the Circular of May 16,
+      1966 「五一六通知」) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 123 n.39)'
+- to-check:
+    id: cal.1966-03-11.china-leadership-3
+    add: 'Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 62 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 123 n.40)'
+- src:
+    id: cal.1966-03-11.china-leadership-3
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 123 n.40: B'
+- variant:
+    id: cal.1966-03-11.china-leadership-3
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: the head of the Shanghai committee's propaganda department, Yang Yongzhi 楊永直, telephones Xu Liqun, deputy director of the Central Propaganda Department, to ask whom the Outline
+      and the "leftists" mean; Xu, speaking for Peng Zhen, answers that it is Ah Q 阿Q, whoever has the scabs, and asks why Shanghai gave no notice in printing Yao Wenyuan's article (no
+      request for guidelines on criticizing scholars)
+    at: I, 123
+- variant:
+    id: cal.1966-03-11.china-leadership-4
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Yang Yongzhi 楊永直, head of the Shanghai committee's propaganda department, telephones Xu Liqun 許立群, who answers for Peng Zhen and asks why Shanghai gave no notice; the call
+      is Shanghai's to Peking, not Xu's to Shanghai
+    at: I, 123
+- cite:
+    id: cal.1966-03-11.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 123 (Mar. 11 stated; Xu Liqun answers the call of Yang Yongzhi 楊永直 and asks why Shanghai did not give the Department notice of Yao Wenyuan''s
+      姚文元 article)'
+- to-check:
+    id: cal.1966-03-11.china-leadership-4
+    add: '*Yijiuliuwu nian jiuyue dao yijiuliuliu nian wuyue wenhua zhanxian shang liang tiao daolu douzheng dashiji* 《一九六五年九月到一九六六年五月文化战线上两条道路斗争大事记》 (annex to the Circular of May 16,
+      1966 「五一六通知」) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 123 n.39)'
+- cite:
+    id: cal.1966-03-17.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 124 (Mar. 17–20, the enlarged Standing Committee meeting at Hangzhou 杭州: Mao on the academic and educational circles, the bourgeoisie and
+      petty bourgeoisie holding much of them; Wu Han and Jian Bozan 翦伯贊, Party members and anti-Communist, in fact Kuomintang; the schools, papers, journals and publishers to be looked
+      at for whose hands hold them; the bourgeois academic authorities to be criticized, young authorities trained, young people not to be feared for breaking "the law," their manuscripts
+      not held back; the Propaganda Department not to become a Rural Work Department 農村工作部; the days of the sayings within Mar. 17–20 not given; no attendance given)'
+- cite:
+    id: cal.1966-03-28.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 124 (Mar. 28 and 29, Mao''s two talks with Kang Sheng 康生: the Peking municipal committee and the Propaganda Department shield bad people
+      and are to be dissolved; Peng Zhen is to be told to stop shielding bad people and to apologize to Shanghai; no place given)'
+    units: C
+- to-check:
+    id: cal.1966-03-28.china-leadership-2
+    add: '*Yijiuliuwu nian jiuyue dao yijiuliuliu nian wuyue wenhua zhanxian shang liang tiao daolu douzheng dashiji* 《一九六五年九月到一九六六年五月文化战线上两条道路斗争大事记》 (annex to the Circular of May 16,
+      1966 「五一六通知」) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 124 n.42)'
+- src:
+    id: cal.1966-03-28.china-leadership-2
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 124 n.42: C'
+- cite:
+    id: cal.1966-03-30.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 124 (Mao, with Kang Sheng, Zhao Yimin 趙毅敏, Wei Wenbo 魏文伯, Jiang Qing 江青 and Zhang Chunqiao: the Outline mixes class lines and does not
+      tell right from wrong, and is wrong; the Propaganda Department, the "Palace of the King of Hell" 閻王殿, is to be overthrown and the little devils freed 打倒閻王，解放小鬼; where the Center
+      does wrong he calls the localities to rise against it, more Sun Wukongs 孫悟空 to make havoc in heaven; the Tenth Plenum of 1962 resolved on class struggle; if the Department, the
+      Peking committee and the Group go on shielding bad people they are to be dissolved; the place not given)'
+    units: B, C, E, F, G
+- to-check:
+    id: cal.1966-03-30.china-leadership
+    add: '*Yijiuliuwu nian jiuyue dao yijiuliuliu nian wuyue wenhua zhanxian shang liang tiao daolu douzheng dashiji* 《一九六五年九月到一九六六年五月文化战线上两条道路斗争大事记》 (annex to the Circular of May 16,
+      1966 「五一六通知」) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 124 n.42)'
+- src:
+    id: cal.1966-03-30.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 124 n.42: B, C, E, F, G'
+- cite:
+    id: cal.1966-04-02.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 124 (Zhou Enlai 周恩來 writes Mao from Handan 邯鄲 that he entirely agrees with Mao''s instructions, that the Group''s outline is wrong, and
+      that he will call a Secretariat meeting to discuss them)'
+    units: C
+- to-check:
+    id: cal.1966-04-02.china-leadership
+    add: 'Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 68 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 124 n.43)'
+- src:
+    id: cal.1966-04-02.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 124 n.43: C'
+- place:
+    id: cal.1966-04-02.china-leadership
+    at: handan
+    basis: n
+    note: 'I, 124: Zhou writes from Handan 邯鄲'
+- cite:
+    id: cal.1966-04-02.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 124–125 (with Kang Sheng''s approval 經康生批準 the *Guangming ribao* 光明日報 and the *Renmin ribao* print together Qi Benyu''s 戚本禹 article 〈《海瑞罵皇帝》和《海瑞罷官》的反動實質〉;
+      the day not given; the articles were held back over two months by Peng Zhen and Xu Liqun)'
+- cite:
+    id: cal.1966-04-09.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 125 (Deng Xiaoping, recalled urgently from outside Peking 緊急從外地召回, presides, Zhou attending; Kang Sheng relays Mao''s instructions; Peng
+      states that he never has opposed and never will oppose Chairman Mao; Kang Sheng and Chen Boda 陳伯達 criticize Peng''s errors; Zhou and Deng say his line is opposed to Mao Zedong
+      Thought; the decisions: a notice thoroughly criticizing the Group''s outline and revoking it, and a document-drafting group, to be reported to Mao and the Standing Committee, later
+      the Cultural Revolution Group; the group''s members not given)'
+    units: A, B, C
+- to-check:
+    id: cal.1966-04-09.china-leadership
+    add: '*Yijiuliuwu nian jiuyue dao yijiuliuliu nian wuyue wenhua zhanxian shang liang tiao daolu douzheng dashiji* 《一九六五年九月到一九六六年五月文化战线上两条道路斗争大事记》 (annex to the Circular of May 16,
+      1966 「五一六通知」) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 125 n.44)'
+- src:
+    id: cal.1966-04-09.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 125 n.44: A, B, C'
+- cite:
+    id: cal.1966-04-10.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 128 (Apr. 10, the summary issued as a Central Committee document, Zhongfa [66] no. 211 中發〔66〕211號, down to county and regiment level 縣團級)'
+- to-check:
+    id: cal.1966-04-10.china-leadership
+    add: 'Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 48–49 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 128 n.52)'
+- cite:
+    id: cal.1966-04-16.china-leadership-6
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 125 (the *Beijing ribao* 北京日報 prints three pages criticizing Deng Tuo 鄧拓, Liao Mosha 廖沫沙 and Wu Han, with an editor''s note in the municipal
+      committee''s journal *Qianxian* 前線; Xinhua and the Central People''s Broadcasting Station broadcast it that day, and Xinhua is then ordered to withdraw the committee''s note)'
+    units: A
+- cite:
+    id: cal.1966-04-16.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 125–127 (Apr. 16–24, Mao presides at Hangzhou over the enlarged Standing Committee meeting, mainly to criticize Peng Zhen and to discuss
+      revoking the Outline; it takes up Peng''s errors, the revoking of the Outline, the dissolving of the Group and the setting up of a new cultural-revolution group; Mao: "I do not
+      believe it is only Wu Han''s problem ... there are people in the court 朝裏有人, in every great region and every province and city"; the Feb. 3 paper "in a hurry"; on rectifying the
+      left at Wuhan, "I do not agree"; Liu Shaoqi, back at Kunming 昆明 Apr. 19, is told by the General Office to come at once; the day he reaches Hangzhou not given)'
+    units: B, C
+- to-check:
+    id: cal.1966-04-16.china-leadership
+    add: '[[w.zedong-mao-zedong-nianpu]], V, 580 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 125 n.45)'
+- cite:
+    id: cal.1966-04-19.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 126 (at Hangzhou Peng asks Mao''s secretary Xu Yefu 徐業夫 for a meeting of twenty minutes; Mao will not see him; the day not given)'
+    units: C
+- to-check:
+    id: cal.1966-04-19.china-leadership
+    add: Li Xuefeng 李雪峰, 〈我所知道的文革發動內情〉, in Zhang Hua et al., eds., *Huishou wenge* 《回首「文革」》 (Zhonggong dangshi chubanshe 中共黨史出版社), 594–596 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 126 n.47)
+- src:
+    id: cal.1966-04-19.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 126 n.47: C'
+- variant:
+    id: cal.1966-04-27.china-leadership-2
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Peng Zhen had not yet lost his freedom after his return to Peking 彭真回北京以後還沒有失去自由
+    at: I, 127
+- cite:
+    id: cal.1966-04-27.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 126 (after the meeting the Center designates Li Xuefeng 李雪峰 and Song Renqiong 宋任窮 to fly back to Peking with Peng Zhen, in fact escorting
+      him 明是陪送，實是押送; the three sit face to face and say nothing; the day not given)'
+- to-check:
+    id: cal.1966-04-27.china-leadership-2
+    add: Li Xuefeng 李雪峰, 〈我所知道的文革發動內情〉, in Zhang Hua et al., eds., *Huishou wenge* 《回首「文革」》 (Zhonggong dangshi chubanshe 中共黨史出版社), 594–596 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 126 n.47)
+- cite:
+    id: cal.1966-04-18.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 128 (Apr. 18: the *Jiefangjun bao* 解放軍報 editorial 〈高舉毛澤東思想偉大紅旗，積極參加社會主義文化大革命〉, rewritten from the summary; reprinted by the papers of the
+      whole country the next day)'
+- cite:
+    id: cal.1966-02-02.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 128 (Jiang Qing''s forum on army literary and artistic work held in Shanghai 上海 at Lin Biao''s 林彪 commission, Feb. 2 to 30 as the page
+      prints it 2月2日到30日; Mao has Chen Boda go to Shanghai to revise the summary with Zhang Chunqiao; Mao revises it three times and adds passages; it says the arts have since the founding
+      largely not carried out Mao''s line, a black line ruling them, and calls for a socialist revolution on the cultural front)'
+- to-check:
+    id: cal.1966-02-02.china-leadership
+    add: 'Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 48–49 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 128 n.52)'
+- check:
+    id: cal.1966-02-02.china-leadership
+    text: 'Check: the forum''s end; Yang prints "Feb. 2 to 30" (I, 128).'
+- cite:
+    id: cal.1966-03-19.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 128 (Mar. 19: Jiang Qing writes Lin Biao asking him to approve the summary 請林彪審批; Lin writes the Military Commission''s vice-chairmen praising
+      it highly, the day not given)'
+    units: A
+- to-check:
+    id: cal.1966-03-19.china-leadership-2
+    add: 'Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 48–49 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 128 n.52)'
+- cite:
+    id: cal.1966-05-09.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 129 (May 10: the Shanghai *Jiefang ribao* 解放日報 and *Wenhui bao* 文匯報 print Yao Wenyuan''s 姚文元 essay on the "Three-Family Village"; the whole
+      country''s papers reprint it the next day)'
+    units: B
+- cite:
+    id: cal.1966-02.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 123 (Feb. 12–14, as the page dates it 2月12日至14日: Peng Zhen tells the Shanghai committee that the Standing Committee has discussed the Outline
+      and Mao has agreed, the problems are settled, and there is no need to talk with them; the committee answers that points in it, such as that criticism not be confined to political
+      problems, still need study; his stop in Shanghai not given)'
+- to-check:
+    id: cal.1966-02.china-leadership-2
+    add: '*Yijiuliuwu nian jiuyue dao yijiuliuliu nian wuyue wenhua zhanxian shang liang tiao daolu douzheng dashiji* 《一九六五年九月到一九六六年五月文化战线上两条道路斗争大事记》 (annex to the Circular of May 16,
+      1966 「五一六通知」) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 123 n.38a)'
+- add:
+    entry:
+      id: cal.1966-02-13.china-leadership-2
+      when: Feb. 13
+      date: '1966-02-13'
+      thread: china-leadership
+      c: Peng Zhen 彭真 designates Hu Sheng 胡繩 to talk with Zhang Chunqiao 張春橋. Hu tells Zhang it cannot be said that Wu Han 吳晗 is anti-Party and anti-socialist, nor linked with the Lushan
+        Conference 廬山會議; he gives this as Chairman Mao's view and says Peng told him to say so.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 123. Made public: 2016. To check: *Yijiuliuwu nian jiuyue dao yijiuliuliu nian wuyue wenhua zhanxian shang liang tiao daolu douzheng dashiji*
+        《一九六五年九月到一九六六年五月文化战线上两条道路斗争大事记》 (annex to the Circular of May 16, 1966 「五一六通知」) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 123 n.38a). See [[cal.1966-02.china-leadership-2]].
+        Names: Peng Zhen, Zhang Chunqiao, Mao Zedong.'
+      src:
+        c: 2ccdcc6d
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 123: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 123 n.38a: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-zhen
+      - name:zhang-chunqiao
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-04-05.china-leadership-5
+      when: Apr. 5
+      date: '1966-04-05'
+      thread: china-leadership
+      c: The *Hongqi* 紅旗 prints Guan Feng's 關鋒 and Lin Jie's 林杰 article 〈《海瑞罵皇帝》和《海瑞罷官》是反黨反社會主義的大毒草〉. It and Qi Benyu's 戚本禹 article had been held back over two months by Peng Zhen 彭真
+        and Xu Liqun 許立群.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 125. Names: Peng Zhen.'
+      src:
+        c: 8377c7ac
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 125: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1966-04.china-leadership-10
+      when: Apr., after the 16th
+      date: 1966-04
+      at: after 1966-04-16
+      place: hangzhou
+      thread: china-leadership
+      c: Hangzhou 杭州. Ye Jianying 葉劍英, arriving late at the enlarged Standing Committee meeting, asks Li Xuefeng 李雪峰 what it is for, since one met in March; Li does not know. Ye says
+        that when he saw Peng Zhen 彭真 off at the plane Peng told him in two sentences that something had come up again and that he was in trouble.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 126. Made public: 2007. To check: Li Xuefeng 李雪峰, 〈我所知道的文革發動內情〉, in Zhang Hua et al., eds., *Huishou wenge* 《回首「文革」》 (Zhonggong dangshi
+        chubanshe 中共黨史出版社), 594–596 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 126 n.47). Names: Ye Jianying, Peng Zhen.'
+      src:
+        c: e51ed266
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 126: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 126 n.47: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1966-04.china-leadership-11
+      when: Apr., after the 16th
+      date: 1966-04
+      at: after 1966-04-16
+      place: hangzhou
+      thread: china-leadership
+      c: Hangzhou 杭州. Walking after a meal during the enlarged Standing Committee meeting, none of the six great-region secretaries 六大區書記 walks beside Peng Zhen 彭真 or speaks to him.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 126. Made public: 2007. To check: Li Xuefeng 李雪峰, 〈我所知道的文革發動內情〉, in Zhang Hua et al., eds., *Huishou wenge* 《回首「文革」》 (Zhonggong dangshi
+        chubanshe 中共黨史出版社), 594–596 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 126 n.47). Names: Peng Zhen.'
+      src:
+        c: f832636a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 126: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 126 n.47: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1966-04.china-leadership-12
+      when: Apr., after the 16th
+      date: 1966-04
+      at: after 1966-04-16
+      place: hangzhou
+      thread: china-leadership
+      c: 'Hangzhou 杭州. Mao, as Yang Chengwu 楊成武 afterward told Qiu Huizuo 邱會作: the Center is divided into a first line and a second, not two Centers. While he was away from Peking the
+        Standing Committee decided that the Center''s work was mainly the first line''s, that he would put his views to Peking and issue no instructions from outside, and that Peking
+        should give him word of big matters. A resolution and instructions on the cultural revolution, a big matter, went out without a word to him. Yang to Qiu: the counterattack is
+        to begin.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 127. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 432 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 127 n.49). Names: Qiu Huizuo, Mao Zedong. Check: the day.'
+      src:
+        c: 68abffaa
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 127: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 127 n.49: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:qiu-huizuo
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1966-04-16.china-leadership-8
+      when: Apr. 16
+      date: '1966-04-16'
+      thread: china-leadership
+      c: Zhou Enlai 周恩來 judges that the Center's note on the army forum summary does not rate it high enough, and has it rewritten. The new note rates it higher and stresses that Mao
+        revised it three times.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 128. Made public: 2008. To check: Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese
+        University Press, Hong Kong, 2008), 48–49 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 128 n.52). See [[cal.1966-04-10.china-leadership]]. Names: Zhou Enlai, Mao Zedong. Check:
+        whether the rewritten note replaced the one issued Apr. 10.'
+      src:
+        c: f236f6f5
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 128: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 128 n.52: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1966-04-19.china-leadership-3
+      when: Apr. 19
+      date: '1966-04-19'
+      thread: china-leadership
+      c: The papers of the whole country reprint the *Jiefangjun bao* 解放軍報 editorial of Apr. 18.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 128. See [[cal.1966-04-18.china-leadership]].'
+      src:
+        c: a54d474d
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 128: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-05-04.china-leadership-7
+      when: May 4
+      date: '1966-05-04'
+      thread: china-leadership
+      c: The *Jiefangjun bao* 解放軍報 prints the editorial 〈千萬不要忘記階級鬥爭〉.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 128.'
+      src:
+        c: 63ae4592
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 128: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-05-09.china-leadership-5
+      when: May 9
+      date: '1966-05-09'
+      thread: china-leadership
+      c: The *Jiefangjun bao* 解放軍報 prints Gao Ju's 高炬 article 〈向反黨反社會主義的黑線開火〉; the *Guangming ribao* 光明日報 prints He Ming's 何明 〈擦亮眼睛，辨別真偽〉. The two papers together print a set of materials,
+        〈鄧拓的《燕山夜話》是反黨反社會主義的黑話〉.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 129.'
+      src:
+        c: 7561e395
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 129: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-05-10.china-leadership-6
+      when: May 10
+      date: '1966-05-10'
+      thread: china-leadership
+      c: The Center decides to reorganize the Peking 北京 municipal committee 市委; Li Xuefeng 李雪峰 is to take over Peng Zhen's 彭真 work in the city.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 127. Made public: 2007. To check: Li Xuefeng 李雪峰, 〈我所知道的文革發動內情〉, in Zhang Hua et al., eds., *Huishou wenge* 《回首「文革」》 (Zhonggong dangshi
+        chubanshe 中共黨史出版社), 597 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 127 n.51). Names: Peng Zhen. Check: the day, against Deng Xiaoping''s proposal of May 4 to Liu Shaoqi that
+        Li act as first secretary ([[cal.1966-05-04.china-leadership-5]]).'
+      src:
+        c: f6eed937
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 127: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 127 n.51: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-zhen
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-05-11.china-leadership-4
+      when: May 11
+      date: '1966-05-11'
+      time_range:
+      - 1966-05-11T04:00Z
+      - 1966-05-11T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: At the enlarged Politburo meeting Peng Zhen 彭真 tells Li Xuefeng 李雪峰 what to attend to on taking over the Peking 北京 committee. As he begins, he hears someone behind him reading
+        out materials; he turns and shouts, "Who was the first to shout 'long live'?" Liu Shaoqi 劉少奇, on the rostrum, stops him, and the quarrel ends.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 127. The words: 5月11日，下午 (I, 127). Made public: 2007. To check: Li Xuefeng 李雪峰, 〈我所知道的文革發動內情〉, in Zhang Hua et al., eds., *Huishou wenge*
+        《回首「文革」》 (Zhonggong dangshi chubanshe 中共黨史出版社), 597 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 127 n.51). Names: Peng Zhen, Liu Shaoqi.'
+      src:
+        c: 6f3c7490
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 127: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 127 n.51: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      place: peking
+- add:
+    entry:
+      id: cal.1966-05.china-leadership-14
+      when: May, after the 11th
+      date: 1966-05
+      at: after 1966-05-11
+      thread: china-leadership
+      c: Not long after, the Center sends word to Peng Zhen 彭真 to stop attending the enlarged Politburo meeting.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 127. Made public: 2007. To check: Li Xuefeng 李雪峰, 〈我所知道的文革發動內情〉, in Zhang Hua et al., eds., *Huishou wenge* 《回首「文革」》 (Zhonggong dangshi
+        chubanshe 中共黨史出版社), 597 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 127 n.51). Names: Peng Zhen. Check: the day.'
+      src:
+        c: b9fd437b
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 127: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 127 n.51: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-zhen
+- cite:
+    id: cal.1966-03-04.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 143 (Mar. 4: the Center convenes a meeting in the Jingxi Hotel 京西賓館 to criticize Luo Ruiqing 羅瑞卿; 95 in all attend over its course 前后共95人,
+      from the General Departments, the services and the military regions 軍隊各總部、各兵種、各大軍區; Mao names Deng Xiaoping, Peng Zhen and Ye Jianying to preside, Deng shows himself at the opening
+      and leaves for the third-front inspection, and Ye in fact presides; the meeting runs 35 days, with 86 written speeches; Luo comes in at noon 3月4日午)'
+- to-check:
+    id: cal.1966-03-04.china-leadership
+    add: Luo Diandian 羅點點, *Hongse jiazu dang'an* 《紅色家族檔案》 (Hainan chubanshe 海南出版公司, 1999), 212 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 143 n.33)
+- variant:
+    id: cal.1966-03-04.china-leadership
+    unit: B
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Mao designates Deng Xiaoping, Peng Zhen and Ye Jianying to preside; Deng shows himself at the opening and leaves for the third-front inspection, and Ye is the meeting's presider
+      in fact (95 attend over its 35 days, 前后共95人, no count at the opening given)
+    at: I, 143
+- cite:
+    id: cal.1966-03-18.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 144–145 (the night before, Ye Jianying has Luo shown the circle''s materials and Liang Biye''s 梁必業 record of denunciation; Luo does not
+      sleep, and the next morning 第二天早晨 he kills himself; Mar. 18 after breakfast 早飯后 someone telephones that the meeting is off, and in despair he jumps, not killed, the leg hurt; at
+      Hangzhou, told of it, Mao asks why he jumped and says he has no backbone, Liu Shaoqi that the jump should have been head first and not feet first, Deng Xiaoping that Luo "jumped
+      like an ice lolly," Ye Jianying declaims lines on the general''s jump)'
+- to-check:
+    id: cal.1966-03-18.china-leadership-3
+    add: '*Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 400 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 144 n.37)'
+- to-check:
+    id: cal.1966-03-18.china-leadership-3
+    add: Luo Diandian 羅點點, *Hongse jiazu dang'an* 《紅色家族檔案》 (Hainan chubanshe 海南出版公司, 1999), 214 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 145 n.39)
+- cite:
+    id: cal.1966-04-30.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 145–146 (the Central work group 中央工作小組 headed by Ye Jianying, 〈關於羅瑞卿同志錯誤問題的報告〉, lists five errors: hostility to Mao Zedong Thought and
+      slander of Mao; the bourgeois military line and the unauthorized "big contest" of 1964; no discipline and an independent kingdom; bad character and bourgeois individualism; open
+      reaching to the Party and forcing Lin Biao to yield place and power, a plot to seize the army)'
+- to-check:
+    id: cal.1966-04-30.china-leadership-2
+    add: Zhongyang gongzuo xiaozu guanyu Luo Ruiqing cuowu wentide baogao, Apr. 30, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 145 n.t1)
+- cite:
+    id: cal.1966-05-16.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 146 (May 16: the Center forwards the work group''s report as document Zhongfa [66] no. 268 中發〔66〕268號)'
+- to-check:
+    id: cal.1966-05-16.china-leadership-2
+    add: Zhongyang gongzuo xiaozu guanyu Luo Ruiqing cuowu wentide baogao, Apr. 30, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 145 n.t1)
+- variant:
+    id: cal.1966-05-14.china-leadership
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: the afternoon of May 20, the first plenary session 第一次全體會議 of the enlarged Politburo meeting, Liu Shaoqi presiding, Liu, Zhou and Deng on the rostrum, Mao away; before it
+      opened a sheet in Lin Biao's hand, dated May 14, lay on each desk; Nie Rongzhen took it up and said to the rostrum "why hand this out? take it back," and the copies were taken
+      back
+    at: I, 146
+- cite:
+    id: cal.1966-05-14.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 146, 148 (the note of Lin Biao, dated May 14, laid on each desk before the first plenary session of May 20; at the meeting Lu Dingyi, in
+      his self-criticism, says he did not know of Yan Weibing''s letters and cannot speak falsely at the Politburo; Lin Biao presses how a husband could not know)'
+    units: D
+- to-check:
+    id: cal.1966-05-14.china-leadership
+    add: Chen Qingquan 陳清泉 and Song Guangwei 宋廣渭, *Lu Dingyi zhuan* 《陸定一傳》 (Zhonggong dangshi chubanshe 中共黨史出版社, 1999), 501 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 146 n.40)
+- to-check:
+    id: cal.1966-05-14.china-leadership
+    add: '[[w.nianyi-da-dongluande-niandai]], 18–19 (the note prints the year 1989) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 148 n.45)'
+- to-check:
+    id: cal.1966-05-14.china-leadership
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 24 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 148 n.46)'
+- variant:
+    id: cal.1966-05-14.china-leadership
+    unit: E
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: 'Lin: "I wish I could have you shot" 我恨不得一槍斃了你, as Wang Nianyi gives it; Wang Li''s memoir expressly denies it (n.45)'
+    at: I, 148
+- cite:
+    id: cal.1966-05-06.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 147–148 (in the south since Mar. 6, Lu Dingyi is rung up on May 6 by Wang Dongxing 汪東興 and told to attend the enlarged Politburo meeting;
+      the house arrest is not given)'
+- to-check:
+    id: cal.1966-05-06.china-leadership
+    add: Chen Qingquan 陳清泉 and Song Guangwei 宋廣渭, *Lu Dingyi zhuan* 《陸定一傳》 (Zhonggong dangshi chubanshe 中共黨史出版社, 1999), 491–495 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 148 n.44)
+- cite:
+    id: cal.1966-04-28.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 147 (Apr. 28, 1966 1966年4月28日; the charge not given)'
+    units: A
+- to-check:
+    id: cal.1966-04-28.china-leadership-3
+    add: Chen Qingquan 陳清泉 and Song Guangwei 宋廣渭, *Lu Dingyi zhuan* 《陸定一傳》 (Zhonggong dangshi chubanshe 中共黨史出版社, 1999), 488 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 147 n.43)
+- src:
+    id: cal.1966-04-28.china-leadership-3
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 147 n.43: A'
+- cite:
+    id: cal.1966-05-21.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 132, 149, 152 (the same speech, May 21: Yang Shangkun cannot compare with the three others, he cannot make a weather of his own and only
+      held on to legs 抱了腿, namely Liu''s and Deng''s; Lu Dingyi was found in the husband-and-wife shop 夫妻老婆店, their common ground against putting politics first and against Mao Zedong
+      Thought; his wife wrote anonymous letters six years, more of them when politics was put first; the "Four Families" 四大家族 have taken many positions, uncovering them is a victory
+      of the "bamboo-shoot-stripping policy" 剝筍政策, to be celebrated; after the Gao Gang and Peng-Huang-Zhang-Zhou affairs this is the third; Lin Biao interjects: either they strip us
+      or we strip them)'
+- to-check:
+    id: cal.1966-05-21.china-leadership-2
+    add: Zhou Enlai, remarks to the enlarged Politburo meeting, May 21, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 149 n.51)
+- cite:
+    id: cal.1966-05-18.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 152–153 (in the speech of May 18 Lin Biao fixes the nature of Peng, Lu, Luo and Yang; on coups he says Mao has moved troops and generals
+      and the army and public-security systems have been put in place)'
+- to-check:
+    id: cal.1966-05-18.china-leadership
+    add: Lin Biao, speech on coups to the enlarged Politburo meeting, Peking, May 18, 1966 (forwarded by the Center Sept. 22, 1966) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 152
+      n.t1)
+- cite:
+    id: cal.1966-05-23.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 153 (May 23: the Politburo, by a unanimous vote, formally removes Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun from all their posts)'
+- cite:
+    id: cal.1966-05-23.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 132, 153 (May 24: the Center issues 〈關於陸定一同志和楊尚昆同志錯誤問題的說明〉, Zhongfa [66] no. 277 中發〔66〕277號, calls them an anti-Party clique, to county
+      and regiment level; of Yang Shangkun four errors: bugging devices set up behind the Center''s back and Mao''s and the Standing Committee''s words recorded; a mass of secret papers
+      copied for others; abnormal relations with Luo Ruiqing and others; other grave errors)'
+    units: B
+- to-check:
+    id: cal.1966-05-23.china-leadership
+    add: Politburo statement explaining the errors of Lu Dingyi and Yang Shangkun and setting up the Central Case Examination Committee (cited by [[w.yang-jisheng-tiandi-fanfu]], I,
+      132 n.t1)
+- variant:
+    id: cal.1966-05-24.china-leadership
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: the enlarged Politburo meeting decides, in May, to set up an examination group 審查組 headed by Zhou Enlai with four sub-groups to examine Peng, Luo, Lu and Yang
+    at: I, 153
+- cite:
+    id: cal.1966-06-27.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 143, 153 (the afternoon 下午 of June 27, Anhui Hall 安徽廳 of the Great Hall of the People, Deng presiding; Liu: in making the resolution on
+      Luo Ruiqing Peng Zhen''s problem came out: Peng, sent by the Center, shielded Luo at the conclusion on a key point, which shows the abnormal relation of Peng and Luo; the "stripping"
+      policy was Borodin''s of the Great Revolution, to strip the Kuomintang right layer by layer: "if you do not strip him, he strips you")'
+- to-check:
+    id: cal.1966-06-27.china-leadership-5
+    add: Liu Shaoqi, account of the Luo Ruiqing affair to non-party notables, June 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 143 n.35)
+- place:
+    id: cal.1966-06-27.china-leadership-5
+    at: peking
+    basis: n
+    note: 'I, 143 n.35: Anhui Hall of the Great Hall of the People'
+- cite:
+    id: cal.1966-12-04.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 154–155 (learning that Ye Xiangzhen 葉向真 has Peng Zhen, Zhou finds her and asks for him; she agrees on his promise to help hold a mass meeting,
+      her planned parade of Peng changed to a meeting to struggle against Peng, Luo, Lu and Yang, and he promises to bring all four; Peng is handed to Zhou, who has the army keep him
+      in a division headquarters of the Wukesong 五棵松 garrison, to be taken out when a struggle is held)'
+- to-check:
+    id: cal.1966-12-04.china-leadership-2
+    add: Ye Xiangzhen 葉向真, 〈我和父親的「文革」歲月〉, in Zhou Haibin 周海濱, *Jiaguo guangying* 《家國光影》 (Renmin chubanshe 人民出版社) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 154 n.57a)
+- variant:
+    id: cal.1966-12-04.china-leadership-2
+    unit: C
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: 'Dec. 4, to the delegates of the four bodies, the Central Drama Academy 中央戲劇學院, the Beijing Film Academy "Mao Zedong-ism Commune" 北京電影學院毛澤東主義公社 and others: "we fully support
+      your revolutionary action," "done beautifully," "you deceived the garrison command," with some defects to be thought over'
+    at: I, 154
+- variant:
+    id: cal.1966-12-12.china-leadership-2
+    unit: B
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: 'more than 36,000 attend; the banner reads "Vow to defend Chairman Mao: rally to struggle against the Peng, Lu, Luo, Yang counter-revolutionary revisionist clique"; struggled
+      are Peng, Lu, Luo and Yang, with a large group of leading cadres beside them; Luo Ruiqing is carried in on a basket'
+    at: I, 155
+- add:
+    entry:
+      id: cal.1966-01-26.china-leadership-2
+      when: Jan. 26
+      date: '1966-01-26'
+      thread: china-leadership
+      c: Yan Weibing 嚴慰冰, wife of Lu Dingyi 陸定一, mails Cao Diqiu 曹荻秋, vice-secretary of the Shanghai 上海 committee and mayor, one of her letters, a verse in abuse of Lin Biao 林彪, for
+        him to pass to Lin.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 146–147. Made public: 2016. To check: [[w.yunsheng-maojiawan-jishi]], 47 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 147 n.41). Names:
+        Lu Dingyi, Lin Biao.'
+      src:
+        c: a8e50b08
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 146–147: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lu-dingyi
+      - name:lin-biao
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-01.china-leadership-7
+      when: Jan., late
+      date: 1966-01
+      at: before 1966-01-21
+      thread: china-leadership
+      c: 'Ye Jianying 葉劍英 calls in Qiu Huizuo 邱會作 and asks whether at the Shanghai meeting he spoke with anyone about Xiao Hua 蕭華. Qiu says no; he heard only from Tao Zhu 陶鑄 that Xiao
+        should not be made secretary-general of the Military Commission. Ye asks what one who failed to get the post may be thinking. Qiu: perhaps of finding a "pass" 路條, informing on
+        another to be let back in. Ye: well said.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 144. The words: 1966年1月底. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 396 (cited
+        by [[w.yang-jisheng-tiandi-fanfu]], I, 144 n.36). Names: Ye Jianying, Qiu Huizuo, Tao Zhu.'
+      src:
+        c: 647e2a50
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 144: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 144 n.36: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+      - name:qiu-huizuo
+      - name:tao-zhu
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-02.china-leadership-7
+      when: Feb., early
+      date: 1966-02
+      at: before 1966-02-01
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 asks Lu Dingyi 陸定一 to his house and gives him the Ministry of Public Security''s file of Yan Weibing''s 嚴慰冰 anonymous letters. Peng: a letter against Lin Biao
+        林彪, the Party''s vice-chairman, is a political matter; many are signed "Wang Guang-X" and give the nursery run by Wang Guangmei''s 王光美 mother as the sender''s address, so they
+        are taken as setting the Standing Committee members against one another; many are on postcards, a public leaflet. Lu answers that he knew nothing of his wife''s letters.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 147. The words: 2月初 ... 上午10時左右 (I, 147). Made public: 1999. To check: Chen Qingquan 陳清泉 and Song Guangwei 宋廣渭, *Lu Dingyi zhuan* 《陸定一傳》
+        (Zhonggong dangshi chubanshe 中共黨史出版社, 1999), 485–486 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 147 n.42). Names: Peng Zhen, Lu Dingyi, Lin Biao. Check: the day.'
+      src:
+        c: 9c51980d
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 147: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 147 n.42: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-zhen
+      - name:lu-dingyi
+      - name:lin-biao
+- cite:
+    id: cal.1966-03.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 147 (the day, Mar. 6 3月6日: Lu Dingyi leaves Peking for the south; during the inquiry into Yan Weibing''s letters Zhou Enlai had told him
+      it was best to go outside, the longer the better)'
+    units: A
+- to-check:
+    id: cal.1966-03.china-leadership
+    add: Chen Qingquan 陳清泉 and Song Guangwei 宋廣渭, *Lu Dingyi zhuan* 《陸定一傳》 (Zhonggong dangshi chubanshe 中共黨史出版社, 1999), 488 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 147 n.43)
+- src:
+    id: cal.1966-03.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 147 n.43: A'
+- add:
+    entry:
+      id: cal.1966-03.china-leadership-5
+      when: Mar., after the 4th
+      date: 1966-03
+      at: after 1966-03-04
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, at the Jingxi Hotel 京西賓館 meeting against Luo Ruiqing 羅瑞卿, tries to hold back the excess of feeling: those indignant now will repent when they are calm.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 143. Made public: 2008. To check: Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese
+        University Press, Hong Kong, 2008), 38 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 143 n.34). See [[cal.1966-03-04.china-leadership]]. Names: Peng Zhen, Luo Ruiqing. Check:
+        the day.'
+      src:
+        c: '93207915'
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 143: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 143 n.34: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-zhen
+      - name:luo-ruiqing
+      place: peking
+- add:
+    entry:
+      id: cal.1966-04-24.china-leadership-5
+      when: Apr. 24
+      date: '1966-04-24'
+      thread: china-leadership
+      c: Ye Jianying 葉劍英, Xiao Hua 蕭華, Yang Chengwu 楊成武 and Liu Zhijian 劉志堅 sign a letter to Mao exposing Peng Zhen's 彭真 "bad conduct" at the meeting against Luo Ruiqing 羅瑞卿.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 143. Made public: 2008. To check: Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese
+        University Press, Hong Kong, 2008), 38 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 143 n.34). See [[cal.1966-03-04.china-leadership]]. Names: Ye Jianying, Peng Zhen, Luo Ruiqing.'
+      src:
+        c: 3e676290
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 143: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 143 n.34: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+      - name:peng-zhen
+      - name:luo-ruiqing
+- add:
+    entry:
+      id: cal.1966-05-08.china-leadership-2
+      when: May 8
+      date: '1966-05-08'
+      place:
+      - hefei
+      - peking
+      thread: china-leadership
+      c: Lu Dingyi 陸定一 flies from Hefei 合肥 to Peking 北京 on a plane Wang Dongxing 汪東興 has sent.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 147–148. Made public: 1999. To check: Chen Qingquan 陳清泉 and Song Guangwei 宋廣渭, *Lu Dingyi zhuan* 《陸定一傳》 (Zhonggong dangshi chubanshe 中共黨史出版社,
+        1999), 491–495 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 148 n.44). See [[cal.1966-05-06.china-leadership]]. Names: Lu Dingyi.'
+      src:
+        c: 984f9461
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 147–148: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 148 n.44: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lu-dingyi
+- add:
+    entry:
+      id: cal.1966-05.china-leadership-15
+      when: May, after the 8th
+      date: 1966-05
+      thread: china-leadership
+      c: 'At the enlarged Politburo meeting''s criticism of Lu Dingyi 陸定一, Zhou Enlai 周恩來 reviles him and throws his tea mug toward Lu''s seat. Yang Chengwu 楊成武 goes to Lu and shakes
+        his fist before his eyes: this is the dictatorship of the proletariat.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 148. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 438–440 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 148 n.47). Names: Lu Dingyi, Zhou Enlai. Check: the day, and whether it is the session of [[cal.1966-05-14.china-leadership]].'
+      src:
+        c: 70ab0cce
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 148: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 148 n.47: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 148 n.48: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lu-dingyi
+      - name:zhou-enlai
+      at: after 1966-05-08
+      place: peking
+- add:
+    entry:
+      id: cal.1966-05.china-leadership-16
+      when: May, after the 8th
+      date: 1966-05
+      thread: china-leadership
+      c: The Standing Committee, going on sitting when the session against Lu Dingyi 陸定一 ends, decides to stop his attending the meeting. Deng Xiaoping 鄧小平 has Li Fuchun 李富春 and Li Xuefeng
+        李雪峰 tell him; Li Fuchun gives Deng's one sentence. Lu answers Li Xuefeng that he is a communist and hopes to see communism.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 148–149. Made public: 2007. To check: Li Xuefeng 李雪峰, 〈我所知道的文革發動內情〉, in Zhang Hua et al., eds., *Huishou wenge* 《回首「文革」》 (Zhonggong dangshi
+        chubanshe 中共黨史出版社), 599 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 149 n.49). Names: Lu Dingyi, Deng Xiaoping, Li Fuchun. Check: the day.'
+      src:
+        c: bbe98458
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 148–149: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 149 n.49: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lu-dingyi
+      - name:deng-xiaoping
+      - name:li-fuchun
+      at: after 1966-05-08
+      place: peking
+- add:
+    entry:
+      id: cal.1966-05-24.china-leadership-2
+      when: May 24
+      date: '1966-05-24'
+      thread: china-leadership
+      c: 'Chen Boda 陳伯達, in his speech: the "Four Families" 四大家族 are a landlord and bourgeois counter-revolutionary restoration; opposing them is Chairman Mao''s wise and great decision.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 152, 159. Made public: 2016. To check: Chen Boda, speech to the enlarged Politburo meeting, May 24, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 159 n.5). Names: Chen Boda, Mao Zedong. Check: the occasion.'
+      src:
+        c: 962902c8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 152, 159: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 159 n.5: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:chen-boda
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-12-03.china-leadership-6
+      when: Dec. 3–4
+      date: '1966-12-03'
+      place: peking
+      time_range:
+      - 1966-12-03T14:00Z
+      - 1966-12-03T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Night of Dec. 3–4. Red Guards of four arts-college bodies, led by Ye Xiangzhen 葉向真, daughter of Ye Jianying 葉劍英, carry off several leaders of deputy-minister rank or above from
+        their homes, among them Peng Zhen 彭真, Liu Ren 劉仁, Wan Li 萬里, Xia Yan 夏衍 and Tian Han 田漢; Peng is bound out of his bed at his residence at 7 Taijichang 臺基廠 and hidden in the hall
+        of the Central Philharmonic 中央樂團. They have learned the homes and routes beforehand, with cars and the red telephones of senior cadres, and wear army greatcoats.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 154. The words: 12月3日晚至4日晨 (I, 154). Made public: 2014. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda:
+        mishu de zhengyan* 《文革前后時期的陳伯達——秘書的證言》 (Tiandi tushu 天地圖書, Hong Kong, 2014), 49–50 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 154 n.56); Ye Xiangzhen 葉向真, 〈我和父親的「文革」歲月〉, in
+        Zhou Haibin 周海濱, *Jiaguo guangying* 《家國光影》 (Renmin chubanshe 人民出版社) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 154 n.57a). Names: Ye Jianying, Peng Zhen.'
+      src:
+        c: 8f888b57
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 154: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 154 n.56: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+      - name:peng-zhen
+- to-check:
+    id: cal.1966-12-04.china-leadership-2
+    add: Zhou Enlai, talk with the army propaganda team representatives of the units directly under the Center (the Culture and Education Ministries, the Academic Divisions), with Kang
+      Sheng and Jiang Qing, Jan. 24, 1970 (the seizure "not a rebel act of the proletarian cultural revolution ... a kidnapping") (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 154 n.57b)
+- cite:
+    id: cal.1966-05-04.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 158 (May 4–26, 23 days, in Peking; 76 attend: the Politburo''s members and alternates, department heads, and the document-drafting group''s
+      eight, Zhang Chunqiao 張春橋, Guan Feng 關鋒, Qi Benyu 戚本禹 and others; Liu presides, Mao, far away, does not attend; Liu, Zhou and Ye Jianying take turns in the chair)'
+    units: A, B, C
+- cite:
+    id: cal.1966-05-05.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 158–159 (the first four days: Kang Sheng relays Mao''s remarks and instructions on Peng Zhen, Lu Dingyi and others since 1962, and tells
+      how the Notice was drafted, Mao having revised it seven times, with the passages he wrote himself; then Zhang Chunqiao on the Yao Wenyuan article and the "two-line struggle" on
+      the cultural front, Xiao Hua 蕭華 on Luo Ruiqing and the meeting against him, and Chen Boda''s systematic exposure of Peng; the day of each not given)'
+- cite:
+    id: cal.1966-05-06.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 158–159 (on Yang''s order of the first four days Zhang Chunqiao speaks after Kang Sheng, on the Yao Wenyuan article and the "two-line struggle"
+      on the cultural front; against Lu Dingyi and Zhou Yang not given; the day not given)'
+- cite:
+    id: cal.1966-05-07.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 159 (on Yang''s order of the first four days Chen Boda 陳伯達, after Zhang Chunqiao, systematically exposes and criticizes Peng Zhen; the
+      day not given)'
+- cite:
+    id: cal.1966-05-16.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 159–162 (the Politburo''s enlarged meeting adopts the Center''s Notice 〈通知〉 unanimously, Liu presiding; Qi Benyu sees the hands go up,
+      Liu asks first the Politburo members and then those seated at the back to show their attitude, the latter not counted; the drafting group set up Apr. 16 by Jiang Qing''s list,
+      Chen Boda head, Kang Sheng, Jiang Qing, Zhang Chunqiao, Wu Lengxi 吳冷西, Wang Li 王力, Yin Da 尹達, Chen Yading 陳亞丁, Guan Feng, Qi Benyu, Mu Xin 穆欣, in fact under Jiang Qing, Zhang secretary-general,
+      at the rear building of the Jinjiang Hotel 錦江飯店; in March Mao at Hangzhou, hearing Kang Sheng and Zhao Yimin 趙毅敏 with Wei Wenbo 魏文伯 and Jiang Qing on the international movement,
+      overturned the Center''s opinion on the CPSU''s 23rd Congress and abused the Outline; Wang Li''s one-sentence draft withdrawing the Outline refused by Mao; Mao''s mid-April remarks
+      at Hangzhou, taken down by Wang Renzhong 王任重, are the Notice''s base; Mao adds long passages, and in the printed text his own are in bold; Chen Boda and Kang Sheng hold that not
+      a word may be changed)'
+- to-check:
+    id: cal.1966-05-16.china-leadership
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 214 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 160 n.6)'
+- to-check:
+    id: cal.1966-05-16.china-leadership
+    add: Li Xuefeng 李雪峰, 〈我所知道的文革發動內情〉, in Zhang Hua et al., eds., *Huishou wenge* 《回首「文革」》 (Zhonggong dangshi chubanshe 中共黨史出版社), 595 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 160
+      n.7a)
+- to-check:
+    id: cal.1966-05-16.china-leadership
+    add: Chen Xiaonong 陳曉農, *Chen Boda zuihou koushu huiyi* 《陳伯達最后口述回憶》 (Dongfang chubanshe 東方出版社, 2010), 286–287 (the note prints the author as 程曉農 and the title as 《曾撥打最后口述會議》) (cited
+      by [[w.yang-jisheng-tiandi-fanfu]], I, 160 n.7b)
+- to-check:
+    id: cal.1966-05-16.china-leadership
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 213–214 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 160 n.8)'
+- to-check:
+    id: cal.1966-05-16.china-leadership
+    add: Yu Ruxin 余汝信, *Yu Qi Benyu mianduimian* 《與戚本禹面對面》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 162 n.9)
+- variant:
+    id: cal.1966-05-16.china-leadership
+    unit: C
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: the Notice is first published a year later, in the papers on May 16, 1967 (一年以后的1967年5月16日在報刊上公開發表)
+    at: I, 162
+- cite:
+    id: cal.1966-05-18.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 159, 168 (Lin Biao: "a counter-revolutionary coup may happen"; the rule of dynasties losing power ten, twenty, thirty, fifty years after
+      a founding; the Mao family; Qi Benyu tells Yu Ruxin that Zhou Enlai had Lin speak first, Lin saying "the other members of the Standing Committee asked me to speak first")'
+    units: C
+- to-check:
+    id: cal.1966-05-18.china-leadership
+    add: Lin Biao, speech on coups to the enlarged Politburo meeting, Peking, May 18, 1966 (forwarded by the Center Sept. 22, 1966) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 159
+      n.3)
+- to-check:
+    id: cal.1966-05-18.china-leadership
+    add: Yu Ruxin 余汝信, *Yu Qi Benyu mianduimian* 《與戚本禹面對面》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 162 n.10)
+- src:
+    id: cal.1966-05-18.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 159 n.3: C'
+- cite:
+    id: cal.1966-05-21.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 159, 169 (Zhou treats loyalty to Mao as keeping one''s integrity in later years 晚節 ("integrity not kept is cancelled at a stroke"); on
+      coups Zhou takes up Lin''s point of sixty-one coups in Asia, Africa and Latin America and names three preventions: revisionism in power, a revisionist coup, a revisionist military
+      coup; revisionism''s coup rests on pen and gun, which Peng, Luo, Lu and Yang took one by one)'
+    units: A, C
+- to-check:
+    id: cal.1966-05-21.china-leadership-2
+    add: Zhou Enlai, remarks to the enlarged Politburo meeting, May 21, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 159 n.4)
+- src:
+    id: cal.1966-05-21.china-leadership-2
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 159 n.4: A, C'
+- cite:
+    id: cal.1966-05-15.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 170 (May 15, on Mao''s instruction to defend the capital 保衛首都, Zhou Enlai and Ye Jianying together submit a report to Mao and the Standing
+      Committee proposing a Capital Work Group 首都工作組, Ye Jianying head, Yang Chengwu and Xie Fuzhi 謝富治 deputy heads, answering to the Standing Committee and so to Zhou, its powers independent
+      of the old organs; the members and the weight of troops not given)'
+- to-check:
+    id: cal.1966-05-15.china-leadership-2
+    add: '[[w.zhou-enlai-nianpu-1949]], III, 31–32 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 170 n.30)'
+- cite:
+    id: cal.1966-05-15.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 178 (May 15: the Center sends the May 7 directive 五七指示 to the whole Party, to be carried out step by step, with the comment that it is
+      "an extremely important document of historic significance, an epoch-making development of Marxism-Leninism")'
+- cite:
+    id: cal.1966-05-07.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 176–178 (the letter in full, May 7; the 5.7 directive 五七指示, Mao''s picture of the new man; the *Renmin ribao* editorial of Aug. 1, 〈全國都應成為毛澤東思想的大學校〉,
+      publishes its main contents)'
+    units: B, C
+- cite:
+    id: cal.1966-05-28.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 175 (May 28, the Cultural Revolution Group 中央文革小組 formally set up; Mao appoints Chen Boda head, Kang Sheng adviser, Jiang Qing, Wang Renzhong,
+      Liu Zhijian 劉志堅 and Zhang Chunqiao deputy heads, Xie Tangzhong 謝鏜忠, Yin Da, Wang Li, Guan Feng, Qi Benyu, Mu Xin and Yao Wenyuan 姚文元 members; Guo Yingqiu 郭影秋, Yang Zhilin 楊植林,
+      Zheng Jiqiao 鄭季翹, Liu Wenzhen 劉文珍 and Zhang Pinghua 張平化 for a time also members; under the Standing Committee)'
+    units: B, C, D
+- to-check:
+    id: cal.1966-05-28.china-leadership
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 33 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 175 n.43a)'
+- cite:
+    id: cal.1966-08-30.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 175 (Aug. 30 the Center notifies that in Chen Boda''s illness and absence Jiang Qing acts as head of the Group; Aug. 2 Tao Zhu 陶鑄 named
+      adviser, struck down in January 1967)'
+- cite:
+    id: cal.1966-06-01.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 181, 185–186 (June 1, Mao at Hangzhou to Kang Sheng and Chen Boda: Xinhua to broadcast the poster, 〈宋碩、陸平、彭珮云在文化革命中究竟干些甚么？〉, whole, and
+      all the papers to print it; the reactionary fortress of Peking University can from now begin to be broken; at 8 p.m. that evening 6月1日晚8點 the Central People''s Broadcasting Station
+      reads it whole; the *Renmin ribao* follows with a commentator''s article 〈歡呼北大的一張大字報〉; Mao telephones Kang Sheng and Chen Boda that it is the Peking commune''s manifesto of the
+      1960s, of more weight than the Paris Commune)'
+    units: A, B, C
+- to-check:
+    id: cal.1966-06-01.china-leadership
+    add: '[[w.xianzhi-mao-zedong-zhuan-1949]], 1407 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 185 n.56)'
+- cite:
+    id: cal.1966-06-03.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 186 (June 3 Xinhua announces together the Center''s decision to reorganize the Peking committee and the new committee''s decision to reorganize
+      the Peking University committee; on the night of June 1 Zhang Chengxian 張承先, secretary of the Hebei committee, had entered the university with a few of the team)'
+- cite:
+    id: cal.1966-06-09.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 186 (June 9 6月9日 Liu Shaoqi, Zhou Enlai and Deng Xiaoping fly to Hangzhou to report and ask Mao to return to Peking to preside; Mao will
+      not for now)'
+- cite:
+    id: cal.1966-07-18.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 153, 171, 175 (Mao left Peking in October 1965 and returned only on July 18, 1966, staying away from the May meeting too; Yang writes on
+      I, 175 that he came back to Peking from Shanghai)'
+- cite:
+    id: cal.1966-06-27.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 169 (Liu''s talk on preventing a counter-revolutionary coup: the Peng, Luo, Lu, Yang affair could have led to a coup; they were exposed
+      before they could stage it; Yang''s text dates the talk May 27 and his note 55, June 27)'
+- check:
+    id: cal.1966-06-27.china-leadership-5
+    text: 'Check: the day; Yang''s text (I, 169) gives Liu''s talk on coups as of May 27, his notes (I, 143 n.35; I, 153 n.55) as of June 27, afternoon.'
+- place:
+    id: cal.1966-06-01.china-leadership
+    at: hangzhou
+    basis: n
+    note: 'I, 185: Mao writes at Hangzhou'
+- add:
+    entry:
+      id: cal.1966-05-17.china-leadership-7
+      when: May 17
+      date: '1966-05-17'
+      thread: china-leadership
+      c: 'At the enlarged Politburo meeting Liu Shaoqi 劉少奇 says he had always entered his class origin as rich peasant but, having gone to Huamingloujia 花明樓, it should be landlord. Zhou
+        Enlai 周恩來 says his family was a feudal official''s, he was short on class struggle and noticed nothing of Peking''s problem. Deng Xiaoping 鄧小平 makes a self-criticism: he knew
+        nothing of so great a problem in the Secretariat. Lin Biao 林彪 makes none, but says his family was landlord and he had not seen it so clearly.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 162. Made public: 2016. Names: Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Lin Biao.'
+      src:
+        c: 3dd751e8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 162: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:deng-xiaoping
+      - name:lin-biao
+      place: peking
+- add:
+    entry:
+      id: cal.1966-05-19.china-leadership-4
+      when: May 19
+      date: '1966-05-19'
+      thread: china-leadership
+      c: The Center issues the May 16 Notice as document Zhongfa [66] no. 267 中發〔66〕267號 to county and regiment level; the circle told widens step by step after.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 162. Made public: 2016. See [[cal.1966-05-16.china-leadership]].'
+      src:
+        c: c2261e65
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 162: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1966-05-19.china-leadership-5
+      when: May 19
+      date: '1966-05-19'
+      place: peking
+      time_range:
+      - 1966-05-19T11:00Z
+      - 1966-05-19T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Evening. The Peking University 北京大學 Party committee conveys the Center''s documents: the May 16 Notice and the finding on Peng Zhen 彭真, Luo Ruiqing 羅瑞卿, Lu Dingyi 陸定一 and Yang
+        Shangkun 楊尚昆. Nie Yuanzi 聶元梓 of the philosophy department, hearing them, does not sleep for several nights.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 184. The words: 5月19日晚 (I, 184). Made public: 2005. To check: [[w.yuanzi-nie-yuanzi-huiyilu]], 115–116 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 184 n.53). Names: Peng Zhen, Luo Ruiqing, Lu Dingyi.'
+      src:
+        c: bf76b2eb
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 184: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-zhen
+      - name:luo-ruiqing
+      - name:lu-dingyi
+- add:
+    entry:
+      id: cal.1966-05-22.china-leadership-2
+      when: May 22
+      date: '1966-05-22'
+      thread: china-leadership
+      c: An Ziwen 安子文, Wang Li 王力 and Qi Benyu 戚本禹 go to the home of Tian Jiaying 田家英, Mao's secretary. An tells him that Yang Shangkun is anti-Party and anti-socialist and that Tian's
+        relations with Yang are abnormal; he is suspended for self-examination and is to hand over all his papers, which they list and take away on the spot.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 187. Made public: 2013. To check: Yang Jisheng 楊繼繩, *Zhongguo dangdai mingren zhengyao fangtan shuping ji* 《中國當代名人政要訪談述評集》 (Tiandi tushu
+        天地圖書, Hong Kong, 2013), 340–341 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 187 n.58).'
+      src:
+        c: a67bb0b5
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 187: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 187 n.58: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-05-23.china-leadership-5
+      when: May 23
+      date: '1966-05-23'
+      place: peking
+      thread: china-leadership
+      c: 'Peking. The Hebei Hall 河北廳 of the Great Hall of the People. Liu Shaoqi 劉少奇 presides; Zhu De 朱德 makes his self-criticism: twice before, after the Gao Gang affair and after Peng
+        Dehuai''s 彭德懷, then of Jinggangshan in the 1920s and the Fourth Red Army''s seventh congress. Zhang Dingcheng 張鼎丞, Lin Biao 林彪, Chen Yi 陳毅 and Zhou Enlai 周恩來 speak in turn. Lin:
+        at the Shanghai meeting after Luo Ruiqing''s 羅瑞卿 case Zhu said that "peak" could not be said of Mao Zedong Thought. Chen Yi, at length: are you out to stage a coup, to have the
+        yellow robe put on you? Zhu: he has neither the strength nor the nerve; he is eighty and must be helped up a slope. Bo Yibo 薄一波: he is always speaking of orchids, the ones out
+        of favor grow them. Zhou: Zhu''s part against Zhang Guotao came from others'' push; he is unreliable, a time bomb in the Standing Committee, to be asked to write out what he
+        says.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 172–173. Made public: 2016. To check: Qi Benyu 戚本禹, 〈回憶江青同志〉 (his account that Liu told the questioners that the "Khrushchev" of the Notice
+        was Zhu De) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 172 n.37). Names: Liu Shaoqi, Zhu De, Peng Dehuai, Lin Biao, Chen Yi, Zhou Enlai, Luo Ruiqing, Bo Yibo, Mao Zedong.'
+      src:
+        c: da976feb
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 172–173: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:liu-shaoqi
+      - name:zhu-de
+      - name:peng-dehuai
+      - name:lin-biao
+      - name:chen-yi
+      - name:zhou-enlai
+      - name:luo-ruiqing
+      - name:bo-yibo
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1966-05-29.china-leadership-3
+      when: May 29
+      date: '1966-05-29'
+      thread: china-leadership
+      c: 'Mao approves, "carry out as proposed" 照辦, the four papers the Capital Work Group 首都工作組 has drawn up for him: the enlarging of the Peking Garrison 北京衛戍區 to four divisions, the
+        redeployment of the guard troops, and the Military Commission''s orders on both. They are printed in two copies, one for Zhou Enlai 周恩來 and one sent through him to Mao, none
+        for Lin Biao 林彪; Zhou has the staff say nothing of the troop movements by telephone.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 170–171. Made public: 2009. To check: Zhang Min 張民, *Zhou Enlai yu Shoudu gongzuozu* 《周恩來與首都工作組》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2009),
+        74–75 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 171 n.32); Zhang Min 張民, *Zhou Enlai yu Shoudu gongzuozu* 《周恩來與首都工作組》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2009), 80 (cited
+        by [[w.yang-jisheng-tiandi-fanfu]], I, 171 n.33). See [[cal.1966-05-15.china-leadership-2]]. Names: Zhou Enlai, Lin Biao, Mao Zedong. Check: whether this is the "do as proposed"
+        of [[cal.1966-05-18.china-leadership-3]].'
+      src:
+        c: d33c553e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 170–171: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 171 n.32: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 171 n.33: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:lin-biao
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-06-01.china-leadership-9
+      when: June 1
+      date: '1966-06-01'
+      time_range:
+      - 1966-05-31T21:00Z
+      - 1966-06-01T00:00Z
+      time_band: early morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: The troops for the capital begin to move. At dawn the roar of tanks and trucks wakes the sleepers of Peking's 北京 western suburb; column after column of soldiers march along
+        the roads, and by daylight have taken up Nanyuan 南苑, Changxindian 長辛店 and Qinghe 清河.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 171. The words: 這一天黎明 (I, 171). Made public: 2009. To check: Zhang Min 張民, *Zhou Enlai yu Shoudu gongzuozu* 《周恩來與首都工作組》 (Zhongyang wenxian
+        chubanshe 中央文獻出版社, 2009), 74–76 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 171 n.34). See [[cal.1966-05-29.china-leadership-3]].'
+      src:
+        c: 5b775966
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 171: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 171 n.34: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      place: peking
+- add:
+    entry:
+      id: cal.1966-06-03.china-leadership-5
+      when: June 3
+      date: '1966-06-03'
+      place: peking
+      thread: china-leadership
+      c: The Peking Garrison 北京衛戍區 holds a meeting of cadres of battalion level and above at the Jingxi Hotel 京西賓館, Zhou Enlai 周恩來 presiding. Yang Chengwu 楊成武 reads the Military Commission's
+        order enlarging the garrison and says its tasks are those given by Zhou, the Capital Work Group and Ye Jianying 葉劍英. Zhang Min 張民, present, recalls He Long 賀龍 sitting silent
+        in the wings, worn and anxious.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 171. Made public: 2009. To check: Zhang Min 張民, *Zhou Enlai yu Shoudu gongzuozu* 《周恩來與首都工作組》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2009),
+        74–76 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 171 n.34); Zhang Min 張民, *Zhou Enlai yu Shoudu gongzuozu* 《周恩來與首都工作組》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2009), 77 (cited
+        by [[w.yang-jisheng-tiandi-fanfu]], I, 171 n.35). See [[cal.1966-06.china-leadership-10]]. Names: Zhou Enlai, Ye Jianying, He Long.'
+      src:
+        c: 6ec28b4c
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 171: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 171 n.34: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 171 n.35: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:ye-jianying
+      - name:he-long
+- add:
+    entry:
+      id: cal.1966-07-16.china-leadership-2
+      when: July 16
+      date: '1966-07-16'
+      place: peking
+      thread: china-leadership
+      c: Jiang Qing 江青, back in Peking two days before Mao, sets up the Cultural Revolution Group's 中央文革小組 office in Building 16 of the Diaoyutai 釣魚臺, with Wang Li 王力 director and Qi
+        Benyu 戚本禹, Cao Yiou 曹軼歐 and Mu Xin 穆欣 deputies and three or five aides; she also sets up an information system, the *Kuaibao* 《快報》, and a hundred cadres of regiment level and
+        above as liaison men and inspectors, who go out to the provinces and departments in the guise of reporters for the *Hongqi*, the *Jiefangjun bao*, the *Renmin ribao* and the
+        *Guangming ribao*; and a daily meeting of the Group at 3 p.m., Zhou Enlai 周恩來 and Tao Zhu 陶鑄 attending.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 175–176. Made public: 2001. To check: [[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 33 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 175 n.43a); Yan Changgui 閻長貴, recollection that Jiang Qing returned to Peking July 20 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 175 n.43b); Yu Ruxin 余汝信, view that Mu
+        Xin was the office''s first director, Qi Benyu and Cao Siou 曹思歐 deputies (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 175 n.43c). Names: Jiang Qing, Mao Zedong, Zhou Enlai,
+        Tao Zhu. Check: the day; Yan Changgui (n.43) has Jiang Qing back in Peking only July 20.'
+      src:
+        c: 03673bdb
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 175–176: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:jiang-qing
+      - name:mao-zedong
+      - name:zhou-enlai
+      - name:tao-zhu
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1966-07-27.china-leadership-9
+      when: July 27
+      date: '1966-07-27'
+      place: peking
+      thread: china-leadership
+      c: 'Kang Sheng 康生, at Beijing Normal University 北京師範大學: in February and early March Peng Zhen 彭真, the great black gang of Peking, planned a coup; one plan was to send a battalion
+        to each of Peking University and Renmin University, the houses for them looked over in advance, Lu Ping''s black gang repairing buildings and canteens, and Renmin''s president
+        Guo Yingqiu 郭影秋 knowing all.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 169. Made public: 2016. To check: Kang Sheng''s speech at Beijing Normal University on the "February mutiny" 康生在北師大關於「二月兵變」的講話, July 27,
+        1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 169 n.27); Qian Gang 錢鋼, 〈「二月兵變」真相〉, *Jiefangjun bao* 《解放軍報》, Dec. 7, 1980 (the 1980 trial''s account: in February 1966 the
+        Military Commission decided to form a regiment under the garrison, for militia training and public order, and, lacking barracks, looked at empty buildings in some universities)
+        (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 169 n.28). Names: Kang Sheng, Peng Zhen.'
+      src:
+        c: 01bdf01a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 169: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 169 n.27: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:kang-sheng
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1966-08-25.china-leadership-3
+      when: Aug. 25
+      date: '1966-08-25'
+      thread: china-leadership
+      c: In the foreign affairs bureau of the General Staff 總參外事局 a wall poster is put up against Yang Chengwu 楊成武; Wang Shangrong 王尚榮 and Lei Yingfu 雷英夫, old subordinates of He Long
+        賀龍, sign it, and some of He Long's office staff join. It is suspected that He Long is behind it, to seize the General Staff.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 164. Made public: 2016. Names: He Long.'
+      src:
+        c: 05aec755
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 164: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:he-long
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-09-06.china-leadership-2
+      when: Sept. 6
+      date: '1966-09-06'
+      place: peking
+      thread: china-leadership
+      c: 'Peking. The Sichuan Hall 四川廳 of the Great Hall of the People. Lin Biao 林彪 speaks to the enlarged Standing Committee of the Military Commission on He Long 賀龍, at Mao''s direction,
+        He Long himself absent: his errors in purging the Hunan–Hubei base area; since the cultural revolution began, restlessness, many visitors, a "political club," and a pistol worn
+        when he went to see Mao. Lin withdraws unwell; Ye Jianying 葉劍英 takes the chair, and the members criticize He; Chen Yi 陳毅 and Nie Rongzhen 聶榮臻 speak sharply, Liu Bocheng 劉伯承,
+        who rarely speaks, too. Ye ends by forbidding any word outside. Zhou Enlai 周恩來 had held a like small meeting and told Mao it went well.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 164–165. Made public: 2011. To check: Cheng Guang 程光, *Xinling de duihua* 《心靈的對話》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 70–71 (cited
+        by [[w.yang-jisheng-tiandi-fanfu]], I, 165 n.17a); *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 524 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 165 n.17b); *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 884 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 165 n.17c). Names: Lin Biao, He Long,
+        Ye Jianying, Chen Yi, Nie Rongzhen, Liu Bocheng, Zhou Enlai, Mao Zedong. Check: the speech''s text, which Yang (I, 165 n.17) thinks Cheng Guang may have added.'
+      src:
+        c: '85315532'
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 164–165: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 165 n.17a: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 165 n.17b: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:he-long
+      - name:ye-jianying
+      - name:chen-yi
+      - name:nie-rongzhen
+      - name:liu-bocheng
+      - name:zhou-enlai
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1966.china-leadership-34
+      when: 1966, fall
+      date: '1966'
+      at: before 1966-09-23
+      thread: china-leadership
+      c: 'The heads of the General Departments and the services in Peking are told to assemble at the Jingxi Hotel 京西賓館, ride in two big cars with the curtains drawn, led by Xiao Hua
+        蕭華 and Yang Chengwu 楊成武, to Ye Jianying''s 葉劍英 house to see the papers on He Long 賀龍: Zhou had telephoned to stress the matter of surrender to the enemy. Ye: Mao is uneasy about
+        He Long, many have exposed him. A dozen papers lie on the table, statements of He''s subordinates, among them a letter of He''s to an old friend in the Nationalist government.
+        Ye says to tell no one outside; Li Zuopeng 李作鵬 gives the same time, place and men.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 165–166. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 884–885 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 165 n.18a); *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixin chubanshe 北新出版社, Hong Kong), 566 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 165 n.18b); *Li Zuopeng huiyilu* 《李作鵬回憶錄》,
+        568–569 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 166 n.19). Names: Ye Jianying, He Long, Li Zuopeng, Zhou Enlai. Check: the day; Yang has it after the meeting of [[cal.1966-09-06.china-leadership-2]].'
+      src:
+        c: a638005f
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 165–166: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 165 n.18a: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 166 n.19: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+      - name:he-long
+      - name:li-zuopeng
+      - name:zhou-enlai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-10.china-leadership-15
+      when: Oct., after the 8th
+      date: 1966-10
+      at: after 1966-10-08
+      thread: china-leadership
+      c: During the Central Work Conference 中央工作會議 Ye Jianying 葉劍英 and Xiao Hua 蕭華, the General Political Department's director, call Xi Henghan 冼恒漢 of Lanzhou, Wang Enmao 王恩茂 and Zuo
+        Qi 左齊 of Xinjiang to Ye's residence in the Western Hills of Peking 北京西山 and tell them He Long 賀龍 is a great bandit and warlord to whom the Nationalists sent men to turn him;
+        they are to pass it on to Zhang Dazhi 張達志 and Guo Peng 郭鵬 and to turn their thinking round.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 166. Made public: 2011. To check: Xi Henghan 冼恒漢, *Fengyu bashi zai* 《風雨八十載》 (electronic ed.) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 166 n.20). Names: Ye Jianying, He Long. Check: the day.'
+      src:
+        c: bd41d68f
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 166: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 166 n.20: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+      - name:he-long
+      place: peking
+- cite:
+    id: cal.1966-06-03.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 197 (June 3, at Liu Shaoqi''s home 劉少奇家里, the enlarged Politburo Standing Committee meeting under Liu draws up eight rules: posters on
+      campus; meetings not to hinder work and teaching; no marches into the streets; inside and outside kept apart, no foreigners to visit, foreign students not in the movement; no uproar
+      at the homes of those struggled against; secrecy; no beating or slander; active leadership, keeping to posts; Li Xuefeng, first secretary of the new Peking committee, then: with
+      these eight things are easy, now they must be told below; Deng: a mass meeting of 100,000, one pole through to the bottom, the new committee takes office; Li: first separately,
+      tonight organs, the second meeting the schools)'
+    units: C, D, E, F, G, H, I
+- to-check:
+    id: cal.1966-06-03.china-leadership-2
+    add: Li Xuefeng 李雪峰, 〈回憶「文化大革命」初期的「五十天路線錯誤」〉, *Zhonggong dangshi yanjiu* 《中共黨史研究》 1998 no. 4, reprinted in Zhang Hua et al., eds., *Shinian wenge* 《十年文革》 (Zhonggong dangshi chubanshe
+      中共黨史出版社, 2007), 650–651 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 197 n.18)
+- cite:
+    id: cal.1966-06-10.china-leadership-2
+    units: C, D
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 197, 186 (June 10 6月10日, at the Hangzhou enlarged Standing Committee meeting, Mao: on the cultural revolution let go, do not fear disorder,
+      work groups not necessarily to be sent (I, 197); the fuller words, the Peking University poster that lit the fire and the activists to rely on, the page also sets at the meeting
+      the leaders flew to on June 9 (I, 186))'
+- cite:
+    id: cal.1966-06-12.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 197 (June 12 12日, at Hangzhou, Mao: this year''s university entrance put off half a year for half a year of cultural revolution; work groups
+      sent too fast are no good, unprepared, better to let it go chaotic, a free-for-all, and send them when the situation is clear)'
+    units: D, G, H
+- cite:
+    id: cal.1966-06-14.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 197 (June 14 Liu Shaoqi and Deng Xiaoping call the enlarged Politburo Standing Committee to relay the spirit of the Hangzhou meeting)'
+- cite:
+    id: cal.1966-06-21.china-leadership-6
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 197–198 (June 21 Liu and Deng again call the enlarged Politburo to study the movement; Deng offers views on the work groups'' methods;
+      after the spirit is carried down, "the anarchist phenomena are checked")'
+- to-check:
+    id: cal.1966-06-21.china-leadership-6
+    add: Mao Mao 毛毛, *Wode fuqin Deng Xiaoping "wenge" suiyue* 《我的父親鄧小平「文革」歲月》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2000), 20 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 198 n.20)
+- cite:
+    id: cal.1966-06-28.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 198 (June 28 Liu and Deng call the enlarged Standing Committee meeting and propose that the movement go by steps and that some concrete
+      policies, easily grasped, be drawn up; Mao Mao says their way ran against Mao''s idea)'
+- to-check:
+    id: cal.1966-06-28.china-leadership-3
+    add: Mao Mao 毛毛, *Wode fuqin Deng Xiaoping "wenge" suiyue* 《我的父親鄧小平「文革」歲月》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2000), 20 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 198 n.20)
+- cite:
+    id: cal.1966-07-18.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 214 (Liu and Deng did not know Mao was back; Kang Sheng, Chen Boda and Jiang Qing go to him first; Liu, hearing, goes and is stopped at
+      the door 被擋了駕)'
+- to-check:
+    id: cal.1966-07-18.china-leadership-2
+    add: Li Xuefeng 李雪峰, 〈回憶「文化大革命」初期的「五十天路線錯誤」〉, *Zhonggong dangshi yanjiu* 《中共黨史研究》 1998 no. 4, reprinted in Zhang Hua et al., eds., *Shinian wenge* 《十年文革》 (Zhonggong dangshi chubanshe
+      中共黨史出版社, 2007), 650–651 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 214 n.74)
+- cite:
+    id: cal.1966-07-19.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 212–214 (July 13, 19 and 22 the Center holds three meetings on the work groups, Chen Boda for the Cultural Revolution Group asking their
+      withdrawal, Liu rebutting angrily and quarreling with Kang Sheng, Deng rising and refusing; the Huairen Hall meeting, which Li Xuefeng puts on July 18 afternoon and Yang, by the
+      Zhou and Mao chronologies, on July 19: Liu says that this way of theirs truly sets masses against masses, "we have materials," Kang Sheng: "we have materials too," Chen Boda and
+      Deng quarrel, Jiang Qing slips in and sits on a sofa; Chen Boda''s proposal was after Shanghai telephoned Wang Li in late June against the old organs sending work groups; after
+      the Standing Committee dispute, Mao, asked, decides to withdraw them)'
+    units: C, E
+- to-check:
+    id: cal.1966-07-19.china-leadership
+    add: Mao Mao 毛毛, *Wode fuqin Deng Xiaoping "wenge" suiyue* 《我的父親鄧小平「文革」歲月》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2000), 21 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 213 n.69)
+- to-check:
+    id: cal.1966-07-19.china-leadership
+    add: Li Xuefeng 李雪峰, 〈回憶「文化大革命」初期的「五十天路線錯誤」〉, *Zhonggong dangshi yanjiu* 《中共黨史研究》 1998 no. 4, reprinted in Zhang Hua et al., eds., *Shinian wenge* 《十年文革》 (Zhonggong dangshi chubanshe
+      中共黨史出版社, 2007), 650–651 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 213 n.71)
+- to-check:
+    id: cal.1966-07-19.china-leadership
+    add: Chen Xiaonong 陳曉農, *Chen Boda zuihou koushu huiyi* 《陳伯達最后口述回憶》 (Dongfang chubanshe 東方出版社, 2010), 312 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 213 n.72)
+- to-check:
+    id: cal.1966-07-19.china-leadership
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 31 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 214 n.73)'
+- cite:
+    id: cal.1966-07-23.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 214 (July 23, at Building 12 of the Diaoyutai, Mao hears Li Xuefeng and Wu De on the cultural revolution in Peking, Tao Zhu and Kang Sheng
+      present: "I have thought a week, and find the movement in Peking cold and lifeless; I think sending work groups was wrong; what have they done? they have obstructed"; Liu Shaoqi
+      and Deng Xiaoping did not attend the report)'
+    units: A, B, C, D
+- to-check:
+    id: cal.1966-07-23.china-leadership
+    add: '*Wu De koushu: shinian fengyu jishi* 《吳德口述:十年風雨紀事》 (Dangdai Zhongguo chubanshe 當代中國出版社, 2004), 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 214 n.77)'
+- cite:
+    id: cal.1966-07-29.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 216–217 (the evening of July 29 7月29日晚, Great Hall of the People: the meeting of activists of the colleges and universities; Li Xuefeng
+      for the Peking committee declares the withdrawal of the work groups; Deng Xiaoping, Zhou Enlai and Liu Shaoqi speak; Liu: how to make a proletarian cultural revolution, "you do
+      not know, and I honestly do not either; I think the others in the Center do not"; sending work groups was decided by the Center and the Center agreed, the form no longer suits
+      and the Center decides to pull them out, and if the students will not let them go, they may criticize; of the Tsinghua teacher''s slogan, "support the Center, oppose Mao," "beat
+      him," a protective detention; no one announces Liu''s end, Mao comes out from behind and, to everyone''s surprise, stands on the rostrum waving, the hall in an uproar; Zhou leads
+      the singing of 《大海航行靠舵手》)'
+    units: A, B
+- to-check:
+    id: cal.1966-07-29.china-leadership
+    add: Mao Mao 毛毛, *Wode fuqin Deng Xiaoping "wenge" suiyue* 《我的父親鄧小平「文革」歲月》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2000), 23 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 217 n.85)
+- cite:
+    id: cal.1966-07-30.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 214 (July 30 Zhou calls two batches of Tsinghua students to a small room in the Great Hall: ten who criticized the work group (Lei Rong
+      雷蓉, Wang Xiaoping 王小平, Yang Jisheng 楊繼繩, Zhang Daier 張岱爾 and others) and ten who defended it (He Pengfei 賀鵬飛, Liu Tao 劉濤 and others); the talk with the work group''s members not
+      given)'
+- add:
+    entry:
+      id: cal.1966-07-20.china-leadership-3
+      when: July 20
+      date: '1966-07-20'
+      place: peking
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: The Tsinghua University 清華大學 work group frees Kuai Dafu 蒯大富, who has been held. He does not believe it; that afternoon, between three and four, he tries the grounds and, by
+        the university wall, looking behind him, finds no one following.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 214. Made public: 2014. To check: Kuai Dafu 蒯大富, *Qinghua wenge wushi tian* 《清華文革五十天》 (Zhongguo wenhua chuanbo chubanshe 中國文化傳播出版社, Hong
+        Kong, 2014), 72 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 214 n.78). The words: 下午大概3、4點鐘 (I, 214).'
+      src:
+        c: '43806960'
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 214: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 214 n.78: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+      time: 1966-07-20T07:00Z
+      time_approx: true
+- cite:
+    id: cal.1966-07.china-leadership-8
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 195, 214 (the day, July 22 7月22日: Wang Li and Guan Feng of the Cultural Revolution Group go to Tsinghua to hear Kuai Dafu on the work group,
+      "at the Group''s commission"; he tells them of more than twenty days of persecution, not yet knowing what the Group is nor who they are)'
+- variant:
+    id: cal.1966-07.china-leadership-8
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: the work group had freed Kuai Dafu on July 20 (I, 214), two days before the visit; the visit at the Group's commission, Mao not named
+    at: I, 214
+- add:
+    entry:
+      id: cal.1966-07-28.china-leadership-7
+      when: July 28
+      date: '1966-07-28'
+      thread: china-leadership
+      c: The new Peking 北京 committee decides, in 〈關於撤銷各大專學校工作組的決定〉, to withdraw the work groups from the colleges, and to call on the 29th the meeting of cultural-revolution activists.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 215–216. Made public: 2016. See [[cal.1966-07-19.china-leadership]].'
+      src:
+        c: cd21080d
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 215–216: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-07-28.china-leadership-8
+      when: July 28
+      date: '1966-07-28'
+      time_range:
+      - 1966-07-28T04:00Z
+      - 1966-07-28T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Afternoon. Mao receives the Cultural Revolution Group: the meeting of Peking''s activists is tomorrow, and those of different views may attend too, Kuai Dafu 蒯大富 of Tsinghua
+        for one.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 216. The words: 7月28日下午 (I, 216). Made public: 2011. To check: Xu Aijing 許愛晶, *Qinghua Kuai Dafu* 《清華蒯大富》 (Zhongguo wenhua lishi chubanshe
+        中國文化歷史出版社, Hong Kong, 2011), 93 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 216 n.83). Names: Mao Zedong.'
+      src:
+        c: 721bc594
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 216: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 216 n.83: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-07-31.china-leadership-8
+      when: July 31
+      date: '1966-07-31'
+      place: peking
+      time: 1966-07-30T18:00Z
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Zhou Enlai 周恩來 goes to Tsinghua University 清華大學, to the Jiasuo 甲所, and talks with Kuai Dafu 蒯大富: he comes at the Chairman''s and the Center''s commission; Kuai is to tell all
+        of Tsinghua''s cultural revolution from June 1 to July 30, what he heard and saw and what he thinks. Kuai speaks over three hours until daylight; Zhou''s secretary Sun Yue 孫岳
+        records and Zhou notes himself. He Pengfei 賀鵬飛 knocks twice and asks to listen; Zhou refuses and angrily forbids a third knock. Zhou breaks off: another meeting; a car will fetch
+        Kuai at 7 p.m. to the Great Hall, and Kuai should bring three others of his own choosing.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 214–215. The words: 7月31日凌晨2點 (I, 214); 下午7點 (I, 215). Made public: 2014. To check: Kuai Dafu 蒯大富, *Qinghua wenge wushi tian* 《清華文革五十天》
+        (Zhongguo wenhua chuanbo chubanshe 中國文化傳播出版社, Hong Kong, 2014), 87–91 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 215 n.80). See [[cal.1966-07-30.china-leadership]]. Names:
+        Zhou Enlai.'
+      src:
+        c: 48df41bf
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 214–215: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 215 n.80: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1966-07-31.china-leadership-9
+      when: July 31
+      date: '1966-07-31'
+      place: peking
+      time_range:
+      - 1966-07-31T11:00Z
+      - 1966-07-31T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Evening. In the Great Hall of the People, Zhou Enlai 周恩來 hears Kuai Dafu 蒯大富 and three others he has chosen, Liu Quan 劉泉, Liu Caitang 劉才堂 and Shen Taiping 沈台平, from seven to
+        ten, Tan Qilong 譚啟龍 and Jiang Weiqing 江渭清 of the Shandong and Jiangsu committees also listening. Zhou thanks them: he will report at once to the Chairman and the Center. He has
+        a supper of chicken-shred noodle soup served and sends them back to the university by car.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 215. The words: 晚7點...10點 (I, 215). Made public: 2014. To check: Kuai Dafu 蒯大富, *Qinghua wenge wushi tian* 《清華文革五十天》 (Zhongguo wenhua chuanbo
+        chubanshe 中國文化傳播出版社, Hong Kong, 2014), 87–91 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 215 n.80). See [[cal.1966-07-31.china-leadership-2]]. Names: Zhou Enlai.'
+      src:
+        c: a094599e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 215: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 215 n.80: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1966-07-17.china-leadership-5
+      when: July 17
+      date: '1966-07-17'
+      place: shanghai
+      thread: china-leadership
+      c: Mao, in a telegram from Shanghai 上海 to Deng Xiaoping 鄧小平, says he will return to preside over the plenum and that it may in no case meet before he is back. The meeting, set
+        for July 21 in Peking, is put off.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 220. Made public: 2008. To check: Zhou Liangxiao 周良霄 and Gu Juying 顧菊英, *Shinian wenge dashiji* 《十年文革大事記》 (Xindalu chubanshe 新大陸出版社, Hong
+        Kong, 2008), 109 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 220 n.5). Names: Deng Xiaoping, Mao Zedong. Check: the place; the calendar has Mao at Wuchang on July 17 ([[cal.1966-07-17.china-leadership]]).'
+      src:
+        c: 2f1c4a66
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 220: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 220 n.5: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:deng-xiaoping
+      - name:mao-zedong
+- cite:
+    id: cal.1966-08-01.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 220–221 (Aug. 1–12 in Peking; 141 members and alternates of the Central Committee and 47 non-voting attend; Deng Xiaoping announces four
+      items: the resolution on the proletarian cultural revolution; the Center''s major measures since the Tenth Plenum in domestic and foreign matters, to be discussed and approved;
+      the plenum communiqué; the formal approval of the May decisions on personnel; Liu reports the measures, and says that Peking''s cultural revolution made mistakes, especially over
+      the work groups, "for which the responsibility is mainly mine"; "in the cultural revolution Peking reported to the Chairman once a week")'
+    units: C, D, E, F, G
+- to-check:
+    id: cal.1966-08-01.china-leadership
+    add: Xi Xuan 席宣 and Jin Chunming 金春明, *"Wenhua dageming" jianshi* 《「文化大革命」簡史》, newest enlarged ed. (Zhonggong dangshi chubanshe 中共黨史出版社, 2011), 99 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 221 n.6)
+- src:
+    id: cal.1966-08-01.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 221 n.6: G'
+- variant:
+    id: cal.1966-08-01.china-leadership
+    unit: H
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: 'Mao interjects during Liu Shaoqi''s report: the work groups "played a role of suppressing the masses and obstructing them," and over 90 percent of them did nothing but evil
+      90%以上的工作組都是幹盡了壞事'
+    at: I, 221
+- cite:
+    id: cal.1966-08-04.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 221 (Aug. 4 Mao presides over an enlarged Standing Committee meeting and severely criticizes sending work groups as "suppression of the
+      student movement," a matter of direction, in fact of line, a line error, against Marxism; "suppression, terror, and the terror comes from the Center"; Liu takes the responsibility,
+      and Mao presses: "you ran a dictatorship in Peking, and ran it well"; Liu answers to his face: "it comes to no more than stepping down, I do not fear stepping down, there are five
+      things I do not fear"; Mao: "there are ghosts and monsters in this room"; the plenary session set for that day is not held)'
+    units: B, G, J, K
+- to-check:
+    id: cal.1966-08-04.china-leadership
+    add: Mao Zedong, remarks at the enlarged Standing Committee meeting, Aug. 4, 1966, in [[w.wenge-shinian-ziliao-xuanbian]], as quoted in [[w.wenqian-wannian-zhou-enlai]], 125 (cited
+      by [[w.yang-jisheng-tiandi-fanfu]], I, 221 n.7a, 7b, 8)
+- src:
+    id: cal.1966-08-04.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 221 n.8: B, G, J, K'
+- cite:
+    id: cal.1966-08-04.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 221 (that afternoon Liu speaks in the Central-South group and withdraws his note on Bulletin no. 9 of Peking University on the June 18
+      incident but still holds to catching rightists: "now the rightists make trouble and seize the leadership, do not be afraid, let them lead for a time and it will be clear, and then
+      counter-revolutionaries can be caught")'
+- to-check:
+    id: cal.1966-08-04.china-leadership-5
+    add: 'Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 191–192 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 221 n.9)'
+- cite:
+    id: cal.1966-08-04.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 221–222 (that evening nearly 20,000 gather at the East Field of Tsinghua; Zhou Enlai, Dong Biwu 董必武, Deng Xiaoping, Li Fuchun, Chen Boda,
+      Li Xuefeng, Tao Zhu, Wang Renzhong and the Cultural Revolution Group''s members attend, on low stools below the stage; Li Xuefeng presides and says the work group erred in direction
+      and line; Ye Lin 葉林 makes a self-criticism that the students find evasive; nine students speak, two views opposed; at 1 a.m. 凌晨1點 Zhou speaks at length: "I come to this meeting
+      at the Party Center''s and Chairman Mao''s wish to look into Tsinghua''s cultural revolution," and "from today a new Tsinghua is born")'
+- check:
+    id: cal.1966-08-04.china-leadership-4
+    text: 'Check: the day of Zhou''s speech; Yang gives it as 1 a.m., which is Aug. 5 (I, 221).'
+- cite:
+    id: cal.1966-08-05.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 222 (Aug. 5 Zhou, after a meeting at Mao''s, telephones Liu and advises him not to appear in public and not to receive foreign guests;
+      before the call Liu had received a Zambian delegation, his last meeting with foreigners)'
+- to-check:
+    id: cal.1966-08-05.china-leadership-5
+    add: '[[w.zhou-enlai-nianpu-1949]], III, 46 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 222 n.10)'
+- cite:
+    id: cal.1966-08-05.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 222–223 (Mao''s text, in pencil on the *Beijing ribao* of June 2, which carried Nie Yuanzi''s poster and the *Renmin ribao* commentator''s
+      article, dated Aug. 5, 1966 and printed in full on I, 222; the title and the date "3 a.m. Aug. 7" were added to the fair copy brushed by his secretary Xu Yefu 徐業夫; the document
+      issued to county and regiment level Aug. 17; published a year later, Aug. 5, 1967, in the *Renmin ribao*; Mao: the past two months it was I who was struck, and I hit back, the
+      Group right in this period and not the Center)'
+    units: B, C, D, E
+- to-check:
+    id: cal.1966-08-05.china-leadership
+    add: 'Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 194 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 223 n.12)'
+- variant:
+    id: cal.1966-08-05.china-leadership
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: 'the title "Bombard the Headquarters: My Big-Character Poster" 〈炮打司令部——我的一張大字報〉 is added to the brush copy, which Mao altered in a few characters, dated 3 a.m. Aug. 7 (1966年8月7日晨3時)'
+    at: I, 223
+- cite:
+    id: cal.1966-08-07.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 223 (that day the "poster" is printed and handed to the delegates)'
+    units: A
+- add:
+    entry:
+      id: cal.1966-08-07.china-leadership-6
+      when: Aug. 7
+      date: '1966-08-07'
+      time: 1966-08-06T19:00Z
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Mao corrects a few characters in the brush copy made by his secretary Xu Yefu 徐業夫 of what he wrote in pencil on the *Beijing ribao* of June 2, adds the title 〈炮打司令部——我的一張大字報〉
+        and dates it Aug. 7, 3 a.m.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 222–223. The words: 1966年8月7日晨3時 (I, 223). Made public: 2008. To check: Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu
+        haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 194 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 223 n.12). See [[cal.1966-08-05.china-leadership]].
+        Names: Mao Zedong.'
+      src:
+        c: 18034d7e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 222–223: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 223 n.12: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-08.china-leadership-34
+      when: Aug., after the 7th
+      date: 1966-08
+      at: after 1966-08-07
+      thread: china-leadership
+      c: 'One night during the plenum Zhou Enlai 周恩來 calls many of the army''s delegates and reads them Mao''s poster, and reads it a second time because they may not have heard. He
+        says: Liu Shaoqi 劉少奇 will not do, he has failed the Chairman; Lin Biao 林彪 has supported the Chairman for ten years, and the Chairman has called on the whole country to learn
+        from the army; nothing of the meeting is to go out. Qiu Huizuo 邱會作, who goes with Yang Chengwu 楊成武, and Wu Faxian 吳法憲 both give it, Wu in words that the Center decides to bring
+        Lin to Peking to take Liu''s place.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 223–224. Made public: 2008. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 446 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 223 n.13); *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008, 3rd ed.), 596 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 223 n.14). Names: Zhou Enlai,
+        Liu Shaoqi, Lin Biao, Qiu Huizuo, Wu Faxian, Mao Zedong.'
+      src:
+        c: 49f6b811
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 223–224: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 223 n.13: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 223 n.14: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:liu-shaoqi
+      - name:lin-biao
+      - name:qiu-huizuo
+      - name:wu-faxian
+      - name:mao-zedong
+      - ok:fields-place
+- cite:
+    id: cal.1966-08-06.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 224 (Aug. 4 Mao has his secretary telephone Lin Biao, resting at Dalian 大連, and Lin answers that evening that he supports Mao but cannot
+      attend for his health; Aug. 5 Mao tells him by telephone the contents of the poster; Aug. 6 in the morning Xu Yefu telephones that Lin must come)'
+    units: A
+- to-check:
+    id: cal.1966-08-06.china-leadership-2
+    add: '*Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 444 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.16)'
+- to-check:
+    id: cal.1966-08-06.china-leadership-2
+    add: '[[w.weixun-wo-suo-zhidaode-ye]], 218 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.17)'
+- variant:
+    id: cal.1966-08-06.china-leadership-2
+    unit: B
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Aug. 7 evening Zhou tells Wu Faxian to send a plane to Dalian next day; Lin and Ye Qun 葉群 land at the western-suburb airport at 10:30 a.m. on Aug. 8 (Wu Faxian; the Mao chronology
+      has Lin back on the evening of Aug. 8, straight to the Great Hall)
+    at: I, 224
+- add:
+    entry:
+      id: cal.1966-08-08.china-leadership-11
+      when: Aug. 8
+      date: '1966-08-08'
+      place: peking
+      time: 1966-08-08T02:30Z
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: The plane with Lin Biao 林彪 and Ye Qun 葉群 lands at the western-suburb airport at 10:30 a.m. Zhou Enlai 周恩來, already there, has it stop at the north end of the runway, short of
+        the apron, and boards to meet Lin, Wang Dongxing 汪東興 coming up with him on Mao's behalf; they talk in the cabin more than half an hour.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 224. The words: 上午10點半 (I, 224). Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008, 3rd
+        ed.), 594–595 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.18a); [[w.zedong-mao-zedong-nianpu]], V, 609 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.18b). Names:
+        Lin Biao, Ye Qun, Zhou Enlai, Mao Zedong. Check: the day and hour; the Mao chronology (V, 609) has Lin back on the evening of Aug. 8.'
+      src:
+        c: 23fdcb6f
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 224: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 224 n.18a: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:ye-qun
+      - name:zhou-enlai
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1966-08-08.china-leadership-12
+      when: Aug. 8
+      date: '1966-08-08'
+      time_range:
+      - 1966-08-07T22:00Z
+      - 1966-08-08T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Mao, who has not gone to sleep, waits for Lin Biao 林彪, and they meet at once. Mao: the situation changes fast, the masses have been roused beyond expectation, with so large
+        a matter you must come back to the meeting. Lin says he is unwell and cannot manage. Mao: you want to be Ming Shizong, the Jiajing emperor, who gave up affairs of state.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 224–225. The words: 上午...毛剛睡覺不久 (I, 224). Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong,
+        2011), 444–445 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 225 n.19a); Cheng Guang 程光, *Xinling de duihua* 《心靈的對話》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 35 (cited by
+        [[w.yang-jisheng-tiandi-fanfu]], I, 225 n.19b). See [[cal.1966-08-08.china-leadership-7]]. Names: Lin Biao, Mao Zedong. Check: whether this is the meeting of [[cal.1966-08.china-leadership-7]].'
+      src:
+        c: d9fd14d0
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 224–225: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 225 n.19a: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:mao-zedong
+      - ok:fields-place
+- cite:
+    id: cal.1966-08-08.china-leadership-7
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 225 (that evening Lin Biao receives the members of the Cultural Revolution Group and declares his firm support for the cultural revolution
+      Mao started: "the supreme commander of this cultural revolution is our Chairman Mao"; the bourgeois reactionary authorities are to be put down and made to lose face, "turn heaven
+      and earth upside down, with a great stir, with great winds and waves, with great noise," so that the bourgeoisie cannot sleep and the proletariat cannot sleep)'
+- cite:
+    id: cal.1966-08-06.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 225 (Aug. 6 8月6日: Zhou Enlai goes to Mao''s for a meeting on the leaders'' list and on its basis draws up a draft for Mao and Lin Biao;
+      Mao, settling it, moves Tao Zhu from seventh to fourth, after Zhou)'
+    units: B, C
+- to-check:
+    id: cal.1966-08-06.china-leadership
+    add: '[[w.zhou-enlai-nianpu-1949]], III, 46 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 225 n.20)'
+- src:
+    id: cal.1966-08-06.china-leadership
+    rows:
+    - 'w.yang-jisheng-tiandi-fanfu I, 225: B, C'
+- cite:
+    id: cal.1966-08-06.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 225 (on Wang Li''s account: the candidates for an eleven-man Standing Committee put forward by Mao and agreed by Lin Biao, Zhou Enlai and
+      Jiang Qing; Jiang Qing objects to Deng Xiaoping''s rise, Chen Boda is put before him and Tao Zhu, as harder than Chen, brought up to fourth, Chen fifth, Deng sixth; Mao agrees)'
+- to-check:
+    id: cal.1966-08-06.china-leadership
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 37–38 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 225 n.21)'
+- add:
+    entry:
+      id: cal.1966-08.china-leadership-35
+      when: Aug., during the plenum
+      date: 1966-08
+      thread: china-leadership
+      c: Delegates ask Tao Zhu 陶鑄 why he has risen to fourth in the Standing Committee's order; he says he too was taken aback by the list. He asks Mao at once to move him down; Mao
+        answers that the list is fixed and will not be changed.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 225. Made public: 1999. To check: Ma Encheng 馬恩成, 〈陶鑄在1966〉, *Bainian chao* 《百年潮》 1999 no. 11 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 225 n.22). See [[cal.1966-08-06.china-leadership]]. Names: Tao Zhu, Mao Zedong.'
+      src:
+        c: 548d3e8f
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 225: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 225 n.22: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:tao-zhu
+      - name:mao-zedong
+      - ok:fields-place
+      at: after 1966-08-06
+- cite:
+    id: cal.1966-08-12.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 225–226 (Aug. 12, the last day; in the afternoon Lin Biao presides over the session; the elections: Tao Zhu, Chen Boda, Kang Sheng, Xu
+      Xiangqian 徐向前, Nie Rongzhen and Ye Jianying added to the Politburo; the eleven candidates for the Standing Committee all elected; full votes for Mao, Lin, Deng and Kang Sheng,
+      one short for Zhou, Tao Zhu and Chen Boda, the others over half; Liu from second place to eighth, Lin from sixth to second; no new chairman or vice-chairmen elected, and after
+      the plenum Liu, Zhou, Zhu and Chen Yun are no longer named vice-chairmen in documents, Lin alone being called vice-chairman of the Central Committee)'
+    units: B, E, F
+- to-check:
+    id: cal.1966-08-12.china-leadership
+    add: Wang Nianyi 王年一, 〈漫談文革〉, *Ershiyi shiji* 《二十一世紀》, Oct. 2006 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 226 n.23)
+- cite:
+    id: cal.1966-08-24.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 227 (from Aug. 24 8月24日 Zhou Enlai, in place of Lin Biao, who had presided over a few meetings after the plenum, presides over the Center''s
+      daily work; Lin''s health and Mao''s checks on him given as reasons)'
+- cite:
+    id: cal.1966-08-18.china-leadership-12
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 240 (Mao reaches the Tiananmen rostrum a little after four in the morning 清晨4點多鐘, having had no sleep; in the night he had his guard chief
+      Chen Changjiang 陳長江 find him an army uniform; the other leaders, seeing it, hurry home to change or send for theirs; Lin Biao comes first in a light-gray gabardine tunic and sends
+      home for a uniform)'
+- to-check:
+    id: cal.1966-08-18.china-leadership-12
+    add: Zhang Min 張民, *Zhou Enlai yu Shoudu gongzuozu* 《周恩來與首都工作組》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2009), 118, 120 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 240 n.1)
+- variant:
+    id: cal.1966-08-18.china-leadership-12
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Mao is on the Tiananmen rostrum a little after 4 a.m. (清晨4點多鐘 就到了天安門城樓), sleepless
+    at: I, 240
+- cite:
+    id: cal.1966-08-18.china-leadership-11
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 240 (the celebration opens at 7:30 a.m. 早晨7：30; Mao and Lin Biao come out to the marble balustrade and wave to the million with their little
+      red books; Lin speaks: "the supreme commander of this great proletarian cultural revolution is our Chairman Mao, the commander in chief"; Zhou Enlai also speaks to encourage the
+      Red Guards; hundreds of thousands of Red Guards of the middle schools wait on East Chang''an Avenue and file past the rostrum)'
+- cite:
+    id: cal.1966-08-18.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 241 (as the Red Guards file past very slowly and the ranks eddy, 1,500 students are taken up on the rostrum with Mao''s consent, Zhou telling
+      them two tasks, to be received by the Chairman and then to go down and keep order; the order fails, Mao is hemmed in and shakes hands without pause, and his hand is swollen so
+      that for days he cannot write, as Wang Dongxing says; he receives more than 3,000 Red Guards on the rostrum; another account, in Qin Xiaoying and Ma Li, has them arranged beforehand
+      and holding red invitations)'
+- to-check:
+    id: cal.1966-08-18.china-leadership-4
+    add: 'Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 206 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 241 n.2a)'
+- to-check:
+    id: cal.1966-08-18.china-leadership-4
+    add: Qin Xiaoying 秦曉鷹 and Ma Li 馬利, *Menghuan hong bayue* 《夢幻紅八月》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 241 n.2b)
+- to-check:
+    id: cal.1966-08-18.china-leadership-4
+    add: Zhang Min 張民, *Zhou Enlai yu Shoudu gongzuozu* 《周恩來與首都工作組》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2009), 145 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 241 n.3)
+- cite:
+    id: cal.1966-08-18.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 241 (Song Binbin 宋彬彬 of the girls'' middle school attached to Peking Normal University puts the Red Guard armband on Mao; Mao asks her
+      name and, "the bin of wenzhi binbin?" "Yes," says "要武嘛," be martial; this "supreme instruction" spreads over the country; Mao refuses a "Mao Zedong-ism" armband; with accepting
+      the armband the Red Guards are accepted)'
+- cite:
+    id: cal.1966-09-05.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 243 (the Center''s notice of Sept. 5 on the great linking-up: all travel by train free, and the living allowances of those who link up
+      charged to the state''s finances 由國家財政中開支; the linking-up begins with Peking Red Guards going out to "stir the fire" and then outside students coming to Peking to "seek the scriptures,"
+      see Mao and petition)'
+- to-check:
+    id: cal.1966-09-05.china-leadership-4
+    add: Zhang Huican 張輝燦 and Mu An 慕安, 〈毛澤東八次接見紅衛兵內情〉, *Yanhuang chunqiu* 《炎黃春秋》 2006 no. 4 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 243 n.5)
+- cite:
+    id: cal.1966-09-13.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 242 (Sept. 13, 7 p.m. 晚7點, Mao writes Lin Biao, Zhou Enlai and Tao Zhu that he has lain ill three days, "still some warmth, a little better
+      today"; if up the day after tomorrow he will receive the Red Guards, if not, Lin is asked to preside and Mao will not go; Sept. 15 he receives the million Red Guards all the same,
+      scarcely recovered)'
+    units: B, C
+- cite:
+    id: cal.1966-10-01.china-leadership-7
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 242 (Oct. 1, a little after 7 p.m. 晚7點多, Mao''s car is hemmed in by Red Guards from West Chang''an Avenue to the south entrance; Lin Biao
+      gets out and shouts that he is Minister of Defense and they must let the cars through to the evening party at Tiananmen; the Guards take no notice and the ring tightens; the commander
+      of the Third Guard Division 警衛三師 hurries up a regiment of mobile troops to free Mao by force)'
+- cite:
+    id: cal.1966-10-18.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 242 (on Oct. 18 a Red Guard leaps on the jeep at Mao''s left rear (Yang Chengwu, Fu Chongbi 傅崇碧 and Cai Hongjiang 蔡洪江 riding in it), saying
+      "I am from Chairman Mao''s home place, I want to see him," and is pulled back and pushed off by Cai Hongjiang, a section chief of the General Staff''s Operations Department and
+      of the Capital Work Group; Yang calls it a million Red Guards)'
+- cite:
+    id: cal.1966-11-10.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 243 (Nov. 10, for the Red Guards to ride past the Tiananmen with Mao reviewing from the tower, more than 6,000 trucks are needed, a thousand
+      each drawn overnight from the forces of sea, land and air and from the Shenyang, Peking and Jinan military regions; some count Nov. 10 and 11 as one reception)'
+- cite:
+    id: cal.1966-11-25.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 242 (Nov. 25 at four below, Mao stands four hours and receives 650,000 Red Guards in the square; Nov. 26 he receives the last 1,850,000
+      from a car at the Diaoyutai and the western airfield; the road blocked, he is taken toward Yuquanshan 玉泉山, there the car is hemmed in and the guards help him in on foot; at the
+      dispersal a small bridge breaks, several are trampled to death and more crushed; the eight receptions together over 12,000,000 Red Guards)'
+- variant:
+    id: cal.1966-11-25.china-leadership-2
+    unit: D
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: the eight receptions together receive over 12,000,000 Red Guards (共接見紅衛兵1200多萬人)
+    at: I, 242
+- cite:
+    id: cal.1966-09-07.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 295 (Sept. 7 Mao''s comment on the report on the situation in Changsha, Qingdao, Xi''an and other places: "the situation in Qingdao, Xi''an
+      and Changsha is alike, workers and peasants are organized against the students, and going on so will not settle the problem; it seems fit for the Center to issue an instruction
+      forbidding the localities to do so, and then to write an editorial urging workers and peasants not to meddle in the student movement")'
+    units: B
+- to-check:
+    id: cal.1966-09-07.china-leadership
+    add: Mao Zedong 毛澤東, comment on the report on the situation in Changsha, Qingdao, Xi'an and other places, [[w.jianguo-yilai-mao-zedong]], XII, 124 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 295 n.16)
+- cite:
+    id: cal.1966-09-11.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 295 (Sept. 11 the Center issues four instructions: no pretext or means whatever may be used to stir up or organize workers, peasants or
+      townspeople against students; whoever has done so must publicly admit the error, bear the responsibility and settle the dispute, and in no case put the blame on the masses; the
+      *Renmin ribao* the same day carries the editorial 〈工農群眾和革命學生在毛澤東思想旗幟下團結起來〉)'
+- to-check:
+    id: cal.1966-09-11.china-leadership-3
+    add: Central Committee, forwarding of Mao's comment and Wang Xiaoyu's report, with four decisions forbidding the use of workers and peasants against the student movement, Sept. 11,
+      1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 295 n.17)
+- cite:
+    id: cal.1966-10-06.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 298 (Oct. 6 the Third Headquarters of the Peking Red Guards hold a rally of 100,000 in the Workers'' Gymnasium, its banner "Rally of the
+      revolutionary teachers and students of the whole country in Peking to fire fiercely at the bourgeois reactionary line"; Zhou Enlai, Jiang Qing, Chen Boda, Kang Sheng, Tao Zhu,
+      Zhang Chunqiao and the Group''s other members attend, Chen presiding and letting Jiang speak first; Zhang reads the Military Commission''s urgent directive on the cultural revolution
+      in military academies, which declares null the labels of "counter-revolutionary" and "rightist" put on people early in the movement, returns the self-criticisms to their writers,
+      and lets the material be destroyed with the masses'' agreement; Zhou says it applies equally to the colleges and middle schools, and asks the local committees that those who come
+      to Peking to complain not be persecuted or held on return; Kuai Dafu 蒯大富 reads the oath; the rally adopts the telegram 〈向資產階級反動路線猛烈開火〉)'
+- to-check:
+    id: cal.1966-10-06.china-leadership
+    add: Zhou Enlai, speech at the rally of Oct. 6, 1966 〈向資產階級反動路線猛烈開火誓師大會上的講話〉, in Song Yongyi 宋永毅, *Zhongguo wenhua dageming wenku* 《中國文化大革命文庫》 (2006) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 298 n.23)
+- cite:
+    id: cal.1966-10-09.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 299–300 (Oct. 9–28 the Center holds the work conference in Peking; the heads of the provincial, municipal and regional committees, the
+      State Council''s ministries and commissions, and the Military Commission''s departments, the armies and the services attend, and some local rebel leaders are asked to speak; its
+      business is to criticize the bourgeois reactionary line and clear the way of the cultural revolution; Wang Li: this criticism is to settle the leaders who led the Center''s work
+      in August and September, chiefly the premier and Tao Zhu, and the leaders of the provincial and municipal committees)'
+    units: E
+- to-check:
+    id: cal.1966-10-09.china-leadership
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 42, 44 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 300 n.25)'
+- to-check:
+    id: cal.1966-10-09.china-leadership
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 50–51 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 300 n.26)'
+- cite:
+    id: cal.1966-10-16.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 300 (Oct. 16 Chen Boda gives for the Center the main report, 〈無產階級文化大革命中的兩條路線〉, later retitled "summing up two months of the movement";
+      Mao had told Chen his thoughts before; the report praises the movement of the preceding stretch and the masses'' rebellion, finds the situation excellent, analyzes the new forms
+      of the bourgeois reactionary line, criticizes the beating of rebels as counter-revolutionaries and the "blood-line theory": "why must the children of high cadres hold the power?
+      is their blood noble?"; asks the cadres to drop fear and let the masses go; criticizes sectarianism put in place of the class line)'
+- to-check:
+    id: cal.1966-10-16.china-leadership-4
+    add: Chen Boda 陈伯达, speech at the Central Work Conference 中央工作会议, "Two lines in the proletarian cultural revolution" 《无产阶级文化大革命中的两条路线》 (record 讲话记录), Oct. 16, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 300 n.t1)
+- cite:
+    id: cal.1966-10-24.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 300 (Oct. 24 at 11 p.m. 晚11時 Mao notes on Chen Boda''s report: "the revision read, very good; where to put in the two phrases ''grasp revolution,
+      promote production,'' consider; print it as a small book, in large numbers, at least two for every branch and every Red Guard squad")'
+- to-check:
+    id: cal.1966-10-24.china-leadership-3
+    add: Mao Zedong 毛澤東, comment of Oct. 24, 1966 on Chen Boda's report, [[w.jianguo-yilai-mao-zedong]], XII, 141 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 300 n.27)
+- cite:
+    id: cal.1966-09-14.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 301 (Sept. 14 Liu writes his self-criticism, and a letter to Mao: "to take me as the typical error, to bring me out for criticism, is good
+      for the Party and the people and the promoting of the cultural revolution, and I am willing"; Mao the same day notes: "basically well written, very serious, the latter half better,"
+      the latter half being Liu''s criticism of the right deviation of 1962 and "left in form, right in essence" of 1964; Oct. 23 Liu revises and adds to the Sept. 14 text, which is
+      printed for the whole Party; the document of over ten thousand characters)'
+    units: C
+- to-check:
+    id: cal.1966-09-14.china-leadership-3
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 134 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 301 n.29)'
+- to-check:
+    id: cal.1966-09-14.china-leadership-3
+    add: Mao Zedong 毛澤東, note of Sept. 14, 1966 on Liu Shaoqi's self-criticism, [[w.jianguo-yilai-mao-zedong]], XII, 47 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 301 n.30)
+- to-check:
+    id: cal.1966-09-14.china-leadership-3
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 47–48 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 301 n.31)'
+- cite:
+    id: cal.1966-10-23.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 300–302 (Oct. 23 in the plenary meeting of the conference Liu Shaoqi and Deng Xiaoping make their self-criticisms; Liu: "I wrongly judged
+      the situation and took the normal phenomena of the mass movement for a ''counter-current against the Party and the proletarian dictatorship,'' and so stood on the reactionary bourgeois
+      side and carried out the bourgeois line"; Deng: Mao''s "Bombard the Headquarters" "hit the point in a single needle," "hit my vital part," the work groups a form of an error whose
+      substance is the line, the mass line, standing on the side against the revolutionary masses; Lin Biao is the model to learn from)'
+    units: A, B
+- to-check:
+    id: cal.1966-10-23.china-leadership
+    add: Liu Shaoqi, self-criticism at the Central Work Conference, Oct. 23, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 301 n.33)
+- to-check:
+    id: cal.1966-10-23.china-leadership
+    add: Deng Xiaoping, self-criticism at the Central Work Conference, Oct. 23, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 302 n.34)
+- src:
+    id: cal.1966-10-23.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 301 n.33: A, B'
+    - 'via w.yang-jisheng-tiandi-fanfu I, 302 n.34: A, B'
+- cite:
+    id: cal.1966-10-24.china-leadership-10
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 302 (Oct. 24 10月24日 the groups criticize Liu Shaoqi, the speakers vying with one another, as if whoever did not criticize Liu were disloyal
+      to Mao and no revolutionary)'
+- cite:
+    id: cal.1966-10-25.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 302–303 (Oct. 25 Mao to the conference: "if one wants the country safe: Stalin died, Malenkov could not hold, trouble came, revisionism
+      came, they had set up a first front and a second front; now I think it not so good; I was on the second front, others on the first, and so it was scattered; coming into the city
+      it was no longer concentrated; with a first and a second front came quite a few independent kingdoms"; "I too am responsible: first, I proposed the Secretariat, and the first and
+      second fronts in the Standing Committee; then, I trusted others too much"; "the fire of the cultural revolution was lit by me, in great haste, only a few months; it does not run
+      smoothly, there are conflicts, which is natural"; to the cadres: "if the line is wrong, correct it; who wants to overthrow you? I do not, and I think the Red Guards need not either";
+      after the conference Chen Boda''s report goes down, and Mao''s Aug. 5 poster is published to the whole Party and country)'
+    units: C, D, G
+- to-check:
+    id: cal.1966-10-25.china-leadership
+    add: Mao Zedong, address to the Central Work Conference, Oct. 25, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 303 n.35)
+- src:
+    id: cal.1966-10-25.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 303 n.35: C, D, G'
+- add:
+    entry:
+      id: cal.1966-10-27.china-leadership-3
+      when: Oct. 27
+      date: '1966-10-27'
+      thread: china-leadership
+      c: At the meeting the Center calls of the first secretaries of the great regions, provinces and municipalities, the secretaries bring up many urgent problems. On the way out Ye
+        Jianying 葉劍英 half-recites a ci he has made to the tune Yu meiren 虞美人, against the linking-up and bombardment and the many officials dismissed, and stops on seeing the others
+        notice. Chen Yi 陳毅 writes for it, in his own hand, "a superb ci" 絕妙好詞.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 304–305. Made public: 2009. To check: *Gu Mu huiyilu* 《谷牧回憶錄》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2009), 222 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 305 n.36). Names: Ye Jianying, Chen Yi.'
+      src:
+        c: 5f14dcfe
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 304–305: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 305 n.36: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+      - name:chen-yi
+      - ok:fields-place
+- variant:
+    id: cal.1966-12-30.china-leadership
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: 'the "red sea" 紅色海洋: officials have the doors and large stretches of street wall painted red so that the masses have nowhere to post wall posters; Qingdao''s the most conspicuous;
+      the Center''s and the State Council''s notice of Dec. 30 stops it'
+    at: I, 305
+- cite:
+    id: cal.1966-12-30.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 305 (〈中共中央、國務院關於制止大搞所謂「紅色海洋」的通知〉, Dec. 30, 1966)'
+- to-check:
+    id: cal.1966-12-30.china-leadership
+    add: Central Committee and State Council, notice on stopping the carrying on of the so-called "red ocean" 〈中共中央、國務院關於制止大搞所謂「紅色海洋」的通知〉, Dec. 30, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 305 n.37)
+- variant:
+    id: cal.1966-11-10.china-leadership-2
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: before dawn a group of the Workers' General Headquarters 工總司 rushes the North Station and crowds onto train 626 for Peking, which leaves at 5 a.m.; Wang Hongwen 王洪文 and Pan
+      Guoping 潘國平 with more than a thousand take train 756 to Zhengzhou, made temporarily train 602, leaving at 7 a.m.; Zhou will not have so many go north and has the Railways Ministry's
+      transport bureau order a stop; train 602 stops at Anting at 8:17 a.m., a small station of which even Shanghai people did not know, its engine taken off, the train lying on a coal-unloading
+      siding; train 626 is stopped at Nanjing station at noon; the Shanghai–Nanjing line is cut 31 hours 34 minutes
+    at: I, 341
+- cite:
+    id: cal.1966-11-10.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 341 (the Shanghai committee reports to the Center; Zhou presides over the Center''s huddle on how to deal with it, which decides to wire
+      the East China Bureau and the Shanghai workers'' rebels, both drafted by Chen Boda: the Bureau to hold firm, not to recognize the General Headquarters as a lawful organization
+      nor the stopping of the trains as a revolutionary act, the Cultural Revolution Group deciding to send Zhang Chunqiao back to Shanghai to persuade the workers; to the workers: "big
+      principles govern small ones, and doing production well is the big principle; your act harms production and greatly the whole country''s traffic, a very great matter; we hope you
+      will at once correct it and go back to Shanghai and settle problems on the spot; the Group sends Comrade Zhang Chunqiao to meet you at once"; the telegram about a thousand characters,
+      in full in Xu Jingxian)'
+- to-check:
+    id: cal.1966-11-10.china-leadership-3
+    add: '*Xu Jingxian de zuihou huiyi* 《徐景賢的最后回憶》 (Xingke''er chubanshe 星克爾出版(香港)有限公司, 2013), 54–55, 55–57 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 341 n.21)'
+- add:
+    entry:
+      id: cal.1966-11-11.china-leadership-2
+      when: Nov. 11
+      date: '1966-11-11'
+      place: shanghai
+      time: 1966-11-11T14:00Z
+      time_zone: Asia/Shanghai
+      time_approx: true
+      thread: china-leadership
+      c: 'About 10 p.m. Zhang Chunqiao 張春橋 reaches Shanghai 上海 by a special air force plane at the Hongqiao 虹橋 airport. At once he telephones the Center, asking whether to go first to
+        the Shanghai committee or to the masses; Chen Boda 陳伯達 answers: first to the masses, stop them from coming to Peking, settle the matter on the spot.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 341. The words: 1966年11月11日晚10時左右 (I, 341). Made public: 2010. To check: Chen Xiaonong 陳曉農, *Chen Boda zuihou koushu huiyi* 《陳伯達最后口述回憶》
+        (Dongfang chubanshe 東方出版社, 2010), 341 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 341 n.23). See [[cal.1966-11-10.china-leadership-3]]. Names: Zhang Chunqiao, Chen Boda.'
+      src:
+        c: d67f060e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 341: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 341 n.23: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhang-chunqiao
+      - name:chen-boda
+- add:
+    entry:
+      id: cal.1966-11-11.china-leadership-3
+      when: Nov. 11
+      date: '1966-11-11'
+      place: anting
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Zhang Chunqiao 張春橋 reaches Anting 安亭 at midnight, to find the scene in great confusion and no leader to be found. The city cadres who have been trying to persuade the workers
+        find Pan Guoping 潘國平 and Bao Pao 包炮; later Wang Hongwen 王洪文 and several workers are found.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 341–342. The words: 11日夜12點 (I, 341). Made public: 2016. See [[cal.1966-11-10.china-leadership-3]]. Names: Zhang Chunqiao.'
+      src:
+        c: 954a6356
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 341–342: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhang-chunqiao
+      - ok:fields-place
+      time_range:
+      - 1966-11-11T14:00Z
+      - 1966-11-11T16:00Z
+      time_band: night
+- add:
+    entry:
+      id: cal.1966-11-12.china-leadership-4
+      when: Nov. 12
+      date: '1966-11-12'
+      thread: china-leadership
+      place: anting
+      time_range:
+      - 1966-11-11T16:00Z
+      - 1966-11-11T22:00Z
+      time_band: predawn
+      time_zone: Asia/Shanghai
+      c: 'Anting 安亭. From before dawn Zhang Chunqiao 張春橋 negotiates with Wang Hongwen 王洪文 and Pan Guoping 潘國平: stopping the trains is a crime, a counter-revolutionary act; they are to
+        go back to Shanghai. They agree to urge a return on terms: the General Headquarters recognized as a revolutionary body, the action as revolutionary, the blame the municipal committee''s.
+        From a truck, in the rain, Zhang speaks nearly an hour; the workers'' accusations run from 8 a.m. to past 3 p.m., and he allows that the committee carried out the reactionary
+        line and promises to report it to the Center and Mao. Wang Hongwen announces the General Headquarters'' decision: all return to Shanghai.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 342–343. The words: 12日凌晨，談判開始; 從12日上午8點持續到下午3點多; 整整13個小時 (I, 342). The time is the talks'' start. To check: *Xu Jingxian de zuihou huiyi*
+        《徐景賢的最后回憶》 (Xingke''er chubanshe 星克爾出版(香港)有限公司, 2013), 58 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 342 n.24). See [[cal.1966-11-11.china-leadership-3]]. Names: Zhang Chunqiao.'
+      src:
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 342–343: all'
+      tags:
+      - polity:prc
+      - name:zhang-chunqiao
+- cite:
+    id: cal.1966-11-13.china-leadership-3
+    units: A
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 343–344 (Nov. 13 11月13日, 2:30 p.m. 下午2點半, at the Cultural Square Zhang Chunqiao 張春橋 negotiates with Pan Guoping 潘國平 and others, Wang Hongwen
+      王洪文 joining; the General Headquarters puts five points for him to sign; after telephoning in vain for instructions he adds a sentence to the second point and signs "張春橋 1966、11、13于上海")'
+- to-check:
+    id: cal.1966-11-13.china-leadership-3
+    add: 'Li Xun 李遜, *Geming zaofan niandai: Shanghai wenge yundong shigao* 《革命造反年代——上海文革運動史稿》 (Oxford University Press, Hong Kong, 2015), 331 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 343 n.26)'
+- to-check:
+    id: cal.1966-11-13.china-leadership-3
+    add: '*Xu Jingxian de zuihou huiyi* 《徐景賢的最后回憶》 (Xingke''er chubanshe 星克爾出版(香港)有限公司, 2013), 62–63 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 344 n.27)'
+- src:
+    id: cal.1966-11-13.china-leadership-3
+    rows:
+    - 'w.yang-jisheng-tiandi-fanfu I, 343–344: A'
+- add:
+    entry:
+      id: cal.1966-11-13.china-leadership-4
+      when: Nov. 13
+      date: '1966-11-13'
+      thread: china-leadership
+      place:
+      - shanghai
+      - peking
+      time_range:
+      - 1966-11-13T11:00Z
+      - 1966-11-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      c: Evening. Zhang Chunqiao 張春橋 telephones Chen Boda 陳伯達 on how he negotiated the five-point agreement and on what he makes of it.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 344. The words: 13日晚 (I, 344). Made public: 2001. To check: [[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 57–58
+        (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 344 n.28). See [[cal.1966-11-13.china-leadership-3]]. Names: Zhang Chunqiao, Chen Boda.'
+      src:
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 344: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhang-chunqiao
+      - name:chen-boda
+- add:
+    entry:
+      id: cal.1966-11-13.china-leadership-5
+      when: Nov. 13
+      date: '1966-11-13'
+      thread: china-leadership
+      place:
+      - shanghai
+      - peking
+      time_range:
+      - 1966-11-13T11:00Z
+      - 1966-11-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      follows:
+      - cal.1966-11-13.china-leadership-4
+      c: 'Chen Pixian 陳丕顯, as soon as Zhang Chunqiao 張春橋 has rung off, telephones Chen Boda 陳伯達 in anger: Zhang should not have signed, nor without consulting the East China Bureau and
+        the Shanghai committee. Chen Boda: it is signed; it will be looked at again.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 344. The words: 張春橋電話剛放下 (I, 344). Made public: 2001. To check: [[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it,
+        57–58 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 344 n.28). See [[cal.1966-11-13.china-leadership-3]]. Names: Zhang Chunqiao, Chen Boda.'
+      src:
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 344: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhang-chunqiao
+      - name:chen-boda
+- cite:
+    id: cal.1966-11-14.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 344 (Nov. 14 at 3 p.m. 下午3時 Mao calls an enlarged meeting of the Politburo Standing Committee, Liu Shaoqi, Deng Xiaoping, Zhu De and Chen
+      Yun not attending, Jiang Qing and Wang Li sitting in; Mao: the Shanghai "Workers'' General Headquarters" accords with the Constitution''s "freedom of association"; of Zhang Chunqiao''s
+      signing the five-point agreement without asking the Center: "he may cut first and report after; there are always facts first and concepts after"; the day given as Nov. 16 by the
+      Zhou–Gu chronology)'
+- to-check:
+    id: cal.1966-11-14.china-leadership
+    add: Zhou Liangxiao 周良霄 and Gu Juying 顧菊英, *Shinian wenge dashiji* 《十年文革大事記》 (2008), 199 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 344 n.31b)
+- check:
+    id: cal.1966-11-14.china-leadership
+    text: 'Check: the day; the Zhou and Gu chronology (199) has the meeting on Nov. 16 (cited at I, 344 n.31).'
+- add:
+    entry:
+      id: cal.1966-11-16.china-leadership-5
+      when: Nov. 16
+      date: '1966-11-16'
+      thread: china-leadership
+      c: The Center entrusts Gu Mu 谷牧, head of the State Capital Construction Commission, and Yu Qiuli 余秋里, minister of the petroleum industry, to hold a forum on industry and communications;
+        five ministries, seven cities and the heads of the Center's great regions send people. It discusses how industry and communications are to make the cultural revolution. The "Twelve
+        Articles" drafted by Chen Boda 陳伯達 and Wang Li 王力 are handed to it, and meet with fierce criticism from the leading cadres; they praise the seventeen years' record, say production
+        cannot stop and the work should go in periods and batches, and do not favor joint rebel organizations among the workers.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 334. Made public: 2011. To check: Xi Xuan 席宣 and Jin Chunming 金春明, *"Wenhua dageming" jianshi* 《「文化大革命」簡史》, newest enlarged ed. (Zhonggong
+        dangshi chubanshe 中共黨史出版社, 2011), 113 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 334 n.6); *Gu Mu huiyilu* 《谷牧回憶錄》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2009), 215 (cited
+        by [[w.yang-jisheng-tiandi-fanfu]], I, 334 n.7). Names: Chen Boda.'
+      src:
+        c: 73ab0e66
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 334: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 334 n.6: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:chen-boda
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-11-21.china-leadership-3
+      when: Nov. 21
+      date: '1966-11-21'
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Night, 10 p.m. Li Fuchun 李富春 telephones Yu Qiuli 余秋里: what you raised Zhou Enlai 周恩來 and I have reported to the Chairman, who instructs: (1) the cultural revolution in the
+        factories still goes in periods and batches; (2) the eight-hour working day is not to be touched, the workers make revolution in spare time; (3) Gu Mu 谷牧 is to take a staff to
+        Shanghai, Tientsin and Shenyang to hear the workers of all factions, keep revising the document, and issue it in December; (4) the phrases "forgetting one''s origin, selfish,
+        suppressing the masses" and the like are struck, and the "power-holders" are not to be drawn too widely.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 334–335. The words: 晚10點 (I, 334). Made public: 2009. To check: *Gu Mu huiyilu* 《谷牧回憶錄》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2009), 218
+        (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 335 n.9). See [[cal.1966-11-21.china-leadership-2]]. Names: Li Fuchun, Zhou Enlai, Mao Zedong.'
+      src:
+        c: ecb0cb09
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 334–335: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 335 n.9: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:li-fuchun
+      - name:zhou-enlai
+      - name:mao-zedong
+      - ok:fields-place
+      time: 1966-11-21T14:00Z
+- cite:
+    id: cal.1966-11-21.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 334 (Nov. 21 Chen Boda sends for Gu Mu and Yu Qiuli and says: "we who write have no power or rank, small people, whom no one respects;
+      Deng Xiaoping looked down on us, and now you too; you have mangled my draft"; the two cannot argue with him and report to Zhou, who says he and Tao Zhu will hear them again the
+      next day)'
+- to-check:
+    id: cal.1966-11-21.china-leadership-2
+    add: '*Gu Mu huiyilu* 《谷牧回憶錄》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2009), 216 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 334 n.8)'
+- cite:
+    id: cal.1966-12-04.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 335–336 (Dec. 4–6 at the Huairen Hall 懷仁堂 Lin Biao presides over the enlarged Politburo meeting, which hears Gu Mu on the state of the
+      revision of the "Fifteen Articles"; Liu Shaoqi and Deng Xiaoping, already sidelined, are called in; Gu''s three points: industry and communications hold high the red banner of
+      Mao Zedong Thought and there is no "black line"; the staff is basically good, with no question of leadership not in proletarian hands; the continuity and cooperation of production
+      forbid its stopping, and the enterprises'' Party work cannot stop; Wang Li: "on your three points industry does not make a cultural revolution? the talk of the power-holders";
+      Kang Sheng, Jiang Qing and Xie Fuzhi also criticize; Lin''s summing-up of Dec. 6 wholly denies the Fifteen Articles)'
+    units: B, C
+- to-check:
+    id: cal.1966-12-04.china-leadership
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 61 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 336 n.14)'
+- add:
+    entry:
+      id: cal.1966-12-06.china-leadership-5
+      when: Dec. 6
+      date: '1966-12-06'
+      thread: china-leadership
+      c: 'At the enlarged Politburo meeting Zhou Enlai 周恩來 says that Gu Mu''s 谷牧 outline is wrong, but that bringing it out was good: it set all the thoughts out and showed the cadres''
+        state of mind, that they still did not understand the cultural revolution. After the ten articles, he talked with them and they agreed, but the thought had not gone through.
+        Lin Biao 林彪 asked him whether any one was through; he said none he had met, most were not, and not as isolated cases: they have a root in thought, the main thing being fear,
+        "fear" first of all; he goes on to three kinds of fear.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 335. Made public: 2006. To check: Zhou Enlai, speech at the Politburo meeting, Dec. 6, 1966, in Song Yongyi 宋永毅 et al., eds., *Zhongguo
+        wenhua dageming wenku* 《中國文化大革命文庫》 (2006) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 335 n.10). See [[cal.1966-12-04.china-leadership]]. Names: Zhou Enlai, Lin Biao.'
+      src:
+        c: 2a04b7dc
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 335: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 335 n.10: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:lin-biao
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-12-06.china-leadership-6
+      when: Dec. 6
+      date: '1966-12-06'
+      thread: china-leadership
+      c: 'Zhou Enlai 周恩來 sends Mao Gu Mu''s 谷牧 outline report of the forum on the cultural revolution in industrial and mining enterprises, with a letter: it is Gu''s report to the Politburo
+        of Dec. 4 and gathers the common understanding of the forum; it was severely criticized by several members of the Party committee, especially of the Cultural Revolution Group;
+        Lin Biao 林彪 in his conclusion held the forum a failure, but that it was brought out and criticized at the Politburo is a good thing.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 336. Made public: 2006. To check: Zhou Enlai, covering letter to Mao Zedong sending Gu Mu''s outline report, Dec. 6, 1966, in Song Yongyi
+        宋永毅 et al., eds., *Zhongguo wenhua dageming wenku* 《中國文化大革命文庫》 (2006) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 336 n.12). See [[cal.1966-12-04.china-leadership]]. Names:
+        Zhou Enlai, Lin Biao, Mao Zedong.'
+      src:
+        c: faa06331
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 336: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 336 n.12: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:lin-biao
+      - name:mao-zedong
+      - ok:fields-place
+- cite:
+    id: cal.1966-12-06.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 335–336 (Lin Biao in the Dec. 6 summing-up: the forum went badly, wrongly, with the wrong thought, and a turn of 180 degrees is needed;
+      the first two of the three points in the outline are to be wholly broken; the cadres are the key question: "this movement is in a sense a movement to criticize cadres; cadres in
+      power so many years, who only speak of glory and great achievements and will not let others speak of faults, must degenerate; this time we will rouse the masses to criticize them
+      hard; let the bourgeois power-holders and the proletarian power-holders both not sleep")'
+    units: A, B, C
+- to-check:
+    id: cal.1966-12-06.china-leadership-4
+    add: '*Gu Mu huiyilu* 《谷牧回憶錄》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2009), 220 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 336 n.11)'
+- cite:
+    id: cal.1966-12-09.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 336 (Dec. 9 the Politburo''s Standing Committee huddle, Mao attending and Zhou presiding, passes the 〈中共中央關於抓革命、促生產的十條規定〉 redrafted by
+      Chen Boda and others, "the industrial ten": keep eight hours of production, make revolution in spare time, yet the factories may hold the "four bigs" and criticize the bourgeois
+      reactionary line; the workers have the right to set up revolutionary organizations and may link up in their own city in spare time, and students and workers may link up with one
+      another; issued Dec. 10 as Zhongfa [66] no. 603 中發[66]603號)'
+    units: B, E
+- to-check:
+    id: cal.1966-12-09.china-leadership
+    add: '[[w.zedong-mao-zedong-nianpu]], VI, 22 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 336 n.13)'
+- cite:
+    id: cal.1966-12-26.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 338 (at his 73rd birthday dinner Mao: "some use the pretext of grasping production to press down the revolution; what they care for is
+      their own official hats and the keeping of the old frames of capitalist revisionism; they fear that the masses'' revolution will reach themselves"; "whatever blocks this great
+      revolution from reaching the workers and peasants, every argument against workers and peasants making the cultural revolution, is to be refuted and is wrong; it cannot be stopped,
+      and the substance of my argument with Tao Zhu lies here"; the Mao chronology omits this passage)'
+- to-check:
+    id: cal.1966-12-26.china-leadership
+    add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 82 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 338 n.17)'
+- add:
+    entry:
+      id: cal.1966-05-16.china-leadership-4
+      when: May 16
+      date: '1966-05-16'
+      thread: china-leadership
+      place: peking
+      c: The *Renmin ribao* 人民日報 reprints in full the *Hongqi* 紅旗 article against Deng Tuo 鄧拓, which calls him a traitor.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 187.'
+      src:
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 187: all'
+      tags:
+      - polity:prc
+- variant:
+    id: cal.1966-05-17.china-leadership-4
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: 'May 18, at home, Deng Tuo 鄧拓 takes sleeping pills and dies; on May 16 the *Renmin ribao* had reprinted in full the *Hongqi*''s article against him, which calls him a traitor;
+      his letter to the Party: "my heart is ever toward the Party and Chairman Mao," ending with cheers for the Party, Mao and Mao Zedong Thought'
+    at: I, 187
+- cite:
+    id: cal.1966-05-23.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 187 (May 23 5月23日 Tian Jiaying hangs himself; the charge put to him on May 22: Yang Shangkun anti-Party and his own relations with Yang
+      abnormal)'
+- add:
+    entry:
+      id: cal.1966-03.china-leadership-6
+      when: Mar.–Apr.
+      date: 1966-03
+      at: after 1966-03-01
+      thread: china-leadership
+      c: 'Mao asks several army and local leaders: if a coup occurs in Peking, what will you do?'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 163. Made public: 2006. To check: Wang Nianyi 王年一, 〈漫談文革〉, *Ershiyi shiji* 《二十一世紀》, Oct. 2006 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 163 n.13). Names: Mao Zedong. Check: the days and the persons.'
+      src:
+        c: 302002f7
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 163: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - ok:fields-place
+      - ok:fields-at
+- add:
+    entry:
+      id: cal.1966-06-20.china-leadership-9
+      when: June 20
+      date: '1966-06-20'
+      place: shanghai
+      thread: china-leadership
+      c: The Cultural Revolution Group 中央文革小組 meets in Shanghai 上海.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 175. Made public: 2016.'
+      src:
+        c: 0c4de83f
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 175: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- cite:
+    id: cal.1966-07-31.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 237 (Mao dictates 口授 the letter July 31: "I express to you my warm support"; "I and my revolutionary comrades take the same attitude; in
+      Peking and in the country, in the cultural revolution, all who take your revolutionary attitude we support warmly"; to guard the young from going too far he tells them to unite
+      all who can be united and to leave a way out to those who have erred; the letter is published to the Party''s high levels as a document of the Eleventh Plenum; Mao thereby approves
+      the Red Guards as an organization)'
+    units: A, C, D
+- to-check:
+    id: cal.1966-07-31.china-leadership
+    add: Luo Xiaohai 駱小海, preface to Song Bolin 宋柏林, *Hongweibing xingshuai lu* 《紅衛兵興衰錄》 (Desai chubanshe 德賽出版公司, Hong Kong, 2006), 22 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 237
+      n.43)
+- check:
+    id: cal.1966-07-31.china-leadership
+    text: 'Check: the day; Yang has Mao dictate the letter July 31 (I, 237) and write it Aug. 1 (I, 231).'
+- variant:
+    id: cal.1966-07-28.china-leadership-6
+    unit: B
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: July 28, at the meeting of Haidian district middle-school students in the Peking Exhibition Hall 北京展覽館, Luo Xiaohai 駱小海 and Kuang Taosheng 鄺桃生 of the Tsinghua middle school's
+      Red Guards tear the first and second "On rebellion" pieces from their notebook (it had no third) and hand them to Jiang Qing with a hurried note asking Chairman Mao to see whether
+      they are reactionary
+    at: I, 237

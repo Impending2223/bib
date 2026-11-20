@@ -496,6 +496,13 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1619: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-03.vietnam-hanoi
+    when: Mar. 3
+    date: '1961-03-03'
+    thread: vietnam-hanoi
+    c: Hồ Chí Minh's decree no. 09/SL names Lt. Gen. Song Hào head of the People's Army's General Political Department.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 40. Names: Hồ Chí Minh, Song Hào.'
+    tags: [polity:drv, name:ho-chi-minh]
   - id: cal.1961-03-04.economy
     when: Mar. 4–6
     date: '1961-03-04'
@@ -1169,6 +1176,19 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 67: all'
         - 'via w.mao-zedong-zhuan V, ch.67 n.24: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03-07.china-leadership-7
+    when: Mar. 7
+    date: '1961-03-07'
+    thread: china-leadership
+    c: 'The disease-and-pest-elimination office 除害滅病辦公室 of the Sichuan 四川 provincial committee reports on the work of preventing and treating edema 《防治腫病工作情況》. By March the province has set up 27,005 temporary edema hospitals and has 952,000 and more patients under treatment together. The report gives the conditions: Huangqi 黃旗 commune of Fuling 涪陵 county puts over 600 patients together, light and grave alike, on one pot of herbs; some temporary hospitals in Rong 榮 county have no medicine after ten days; some commune hospitals advance funds and cannot pay wages, 42 of Nanchong 南充 county''s 95; 70 to 80 percent of the rural medical staff are on edema and have no earnings; at Yongxing 永興 commune, Hechuan 合川 county, six burns and falls in half a month, three burned to death.'
+    n: '[[w.yang-jisheng-mubei]], I, 215. Made public: 2008. To check: Sichuan Provincial Committee disease-and-pest-elimination office, "Fangzhi zhongbing gongzuo qingkuang" 《防治腫病工作情況》, Mar. 7, 1961 (cited by [[w.yang-jisheng-mubei]], I, 215 n.63; I, 215 n.64).'
+    src:
+      c: 66cc214d
+      rows:
+        - 'w.yang-jisheng-mubei I, 215: all'
+        - 'via w.yang-jisheng-mubei I, 215 n.63: all'
+        - 'via w.yang-jisheng-mubei I, 215 n.64: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
   - id: cal.1961-03-08.africa
     when: Mar. 8
     date: '1961-03-08'
@@ -1247,13 +1267,16 @@ entries:
     thread: china-leadership
     also: [soviet-union, trade, cuba]
     c: 'Zhou Enlai, for the Center, answers orally to Chervonenko Khrushchev''s letter of Feb. 27 to Mao offering grain and Cuban sugar on credit. In face of the grain shortage China first mobilizes its own strength, then buys more on deferred payment from the world market, so the Soviet offer would be held in reserve and asked for only if purchases fail. On 500,000 tons of Cuban sugar: if not urgent for the Soviet market, China would accept this aid.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 397 (Mar. 8, 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 25–26 (the oral reply of Mar. 8: China to buy abroad, the Soviet grain kept in reserve, the sugar accepted). Made public: 1997. To check: [[w.xiao-chushi-sulian-banian-ambassador]], 105–06 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 26 n.22). Names: Zhou Enlai, Chervonenko, Khrushchev, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 397 (Mar. 8, 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 25–26 (the oral reply of Mar. 8: China to buy abroad, the Soviet grain kept in reserve, the sugar accepted); [[w.yang-jisheng-mubei]], II, 667 (March 1961: the Soviet offer, to help with the famine, of a loan of 1 million tons of wheat and of 500,000 tons of Cuban sugar re-exported; China refuses the wheat and takes the sugar, a loan of 329.6 million new rubles); [[w.dikotter-maos-great-famine]], 111 n.19a–b (the Soviet offer of a million tonnes of grain and half a million tonnes of sugar on an exchange basis, free of interest, repaid over several years; Peking turns down the grain and takes the sugar). Made public: 1997. Check: [[w.dikotter-maos-great-famine]], 111 n.18 (Ministry of Foreign Affairs Archives, Peking, 109-3746-1, pp. 17–18, file of Mar. 8, 1961), has Zhou Enlai tell the trading allies in March 1961 that China can no longer export foodstuffs or meet its long-term agreements and its contracts for large plants, over a million tonnes of grain and edible oils being owed to the Soviet Union for 1960; whether it is this reply, or his talk with the Soviet trade delegation of Mar. 1 ([[cal.1961-03-01.china-leadership-3]]). To check: [[w.xiao-chushi-sulian-banian-ambassador]], 105–06 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 26 n.22); Soviet note on the offer of grain and sugar to China, Feb. 14, 1964, RGANI, Moscow, 2-1-720, pp. 81–82 (cited by [[w.dikotter-maos-great-famine]], 111 n.19a); Sbornik osnovnykh deistvuiushchikh dogovorov i soglashenii mezhdu SSSR i KNR, 1949–1961, 196–197 (cited by [[w.dikotter-maos-great-famine]], 111 n.19b). Names: Zhou Enlai, Chervonenko, Khrushchev, Mao Zedong.'
     src:
       c: ac2e4ace
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 397: ?'
         - 'w.macfarquhar-origins-of-the-cultural III, 25–26: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 26 n.22: all'
+        - 'w.yang-jisheng-mubei II, 667: A, C'
+        - 'via w.yang-jisheng-mubei II, 667 n.29: A, C'
+        - 'w.dikotter-maos-great-famine 111 n.19a–b: ?'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v, name:khrushchev-nikita-s, name:mao-zedong, vis:only:prc+ussr]
   - id: cal.1961-03-08.china-leadership-3
     when: Mar. 8
@@ -1352,6 +1375,14 @@ entries:
       - 1961-03-08T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-08.vietnam-hanoi
+    when: Mar. 8
+    date: '1961-03-08'
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: The Women's Liberation Association of South Vietnam founded, Mar. 8.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 143. Check: the place.'
+    tags: [polity:drv]
   - id: cal.1961-03-09.laos
     when: Mar. 9
     date: '1961-03-09'
@@ -2153,6 +2184,18 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 662: all'
     tags: [polity:prc, name:tao-zhu, vis:only:prc]
+  - id: cal.1961-03-12.china-leadership-6
+    when: Mar. 12
+    date: '1961-03-12'
+    thread: china-leadership
+    c: An investigation group of the prefectural committee reports on Sijia 四甲 brigade, Gaoyao 高要 county, impure in its organization and with bad people in power 《高要縣四甲大隊組織不純、壞人當道的情況調查報告》. Of the brigade's 268 households all but the cadres' families had meals withheld or refused by the team head Huang Junzai 黃均仔; 184 died, 10 percent of the original population. Huang Longfu 黃龍富, who had edema and could not carry much, had two meals stopped at the Shuangjin 雙金 canal site in spring 1959, fainted and died on the spot; Huang Junzai answered that two of them made a pair; within two months Huang's son died too and his wife remarried.
+    n: '[[w.yang-jisheng-mubei]], I, 413–414. Made public: 2008. To check: Prefectural committee investigation group 地委調查組, "Gaoyao xian Sijia dadui zuzhi bu chun, huairen dangdao de qingkuang diaocha baogao" 《高要縣四甲大隊組織不純、壞人當道的情況調查報告》, Mar. 12, 1961 (cited by [[w.yang-jisheng-mubei]], I, 414 n.17).'
+    src:
+      c: 095ccaf7
+      rows:
+        - 'w.yang-jisheng-mubei I, 413–414: all'
+        - 'via w.yang-jisheng-mubei I, 414 n.17: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
   - id: cal.1961-03-13.latin-america
     when: Mar. 13
     date: '1961-03-13'
@@ -2285,7 +2328,7 @@ entries:
     place: canton
     thread: china-leadership
     c: 'Mao, 8 a.m., to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the Three North conference, by Tao Zhu: the two egalitarianisms, between teams in a brigade and between members in a team, "two extremely grave questions," to be studied in person; Deng and Peng to spend ten days in Miyun, Shunyi, Huairou: are they "still unclear"?'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 13, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 42–43 (Mao''s letter on the two egalitarianisms); [[w.jianguo-yilai-mao-zedong]], XV, 501–503 (Mar. 13, 1961; Mao''s letter of Mar. 13, 8 a.m., Canton, to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the Peking conference, carried by Tao Zhu, who goes and returns the next day; Liao Luyan to go north in a few days; the conference of three days too short, five to seven needed; printed from the Center''s document (with the manuscript)); [[w.deng-xiaoping-nianpu-1904]], III, 1622 (Mar. 13, 1961; Mao''s letter to Liu, Zhou, Chen Yun, Deng, Peng Zhen and the Three North conference: the two egalitarianisms, between teams and within the team, "extremely grave"; Deng and Peng Zhen to spend ten days after the meeting at Miyun, Shunyi and Huairou, each level apart; "busy with routine", no typical inquiry in person; Tao Zhu to come to Peking (footnote 1: Tao, then first secretary of the Central-South Bureau and in Guangdong)); [[w.mao-zedong-zhuan]], V, ch. 67 n.26 (Mar. 13, early morning, the letter to Liu Shaoqi and the others: to study the two egalitarianisms, among teams of a brigade and among members of a team; Tao Zhu sent to the Peking meeting; Deng Xiaoping and Zhou Enlai propose joining the two meetings, Mao agrees, at Canton, and Tao Zhu does not go). Made public: 2013. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 67), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 440–41 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 448 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24b); [[w.jin-1949-1989-niande-zhongguo]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24c); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 904–05 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24d); Mao Zedong 毛泽东, letter to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the comrades at the Peking meeting, Mar. 13, 1961; in *Mao Zedong wenji*, vol. 8, 250 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.26). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 13, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 42–43 (Mao''s letter on the two egalitarianisms); [[w.jianguo-yilai-mao-zedong]], XV, 501–503 (Mar. 13, 1961; Mao''s letter of Mar. 13, 8 a.m., Canton, to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the Peking conference, carried by Tao Zhu, who goes and returns the next day; Liao Luyan to go north in a few days; the conference of three days too short, five to seven needed; printed from the Center''s document (with the manuscript)); [[w.deng-xiaoping-nianpu-1904]], III, 1622 (Mar. 13, 1961; Mao''s letter to Liu, Zhou, Chen Yun, Deng, Peng Zhen and the Three North conference: the two egalitarianisms, between teams and within the team, "extremely grave"; Deng and Peng Zhen to spend ten days after the meeting at Miyun, Shunyi and Huairou, each level apart; "busy with routine", no typical inquiry in person; Tao Zhu to come to Peking (footnote 1: Tao, then first secretary of the Central-South Bureau and in Guangdong)); [[w.mao-zedong-zhuan]], V, ch. 67 n.26 (Mar. 13, early morning, the letter to Liu Shaoqi and the others: to study the two egalitarianisms, among teams of a brigade and among members of a team; Tao Zhu sent to the Peking meeting; Deng Xiaoping and Zhou Enlai propose joining the two meetings, Mao agrees, at Canton, and Tao Zhu does not go). Made public: 2013. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 67), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 440–41 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 448 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24b); [[w.jin-1949-1989-niande-zhongguo]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24c); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 904–05 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24d); Mao Zedong 毛泽东, letter to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the comrades at the Peking meeting, Mar. 13, 1961; in [[w.mao-zedong-wenji]], VIII, 250 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.26). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Tao Zhu.'
     src:
       c: ef3aa923
       rows:
@@ -2305,7 +2348,7 @@ entries:
     place: canton
     thread: china-leadership
     c: 'Canton, the Three South conference; Mao speaks: the two egalitarianisms to be solved, or the masses'' zeal will not be roused; a set of regulations for the communes, heard now, decided after further inquiry.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 13, 1961. [[w.mao-zedong-zhuan]], V, ch. 67 nn.27, 28 (Mar. 13, the Three South conference: the two egalitarianisms, and investigation; the mess halls, a Guangdong brigade secretary''s four harms). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 67). To check: Mao Zedong 毛泽东, speech at the Three South conference 三南会议, Canton, Mar. 13, 1961 (record 讲话记录; one sentence supplied from Tian Jiaying''s relay record and Wang Renzhong''s diary of Apr. 1, 1961, as n.27 says) (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.27); Mao Zedong 毛泽东, speech at the Three South conference 三南会议, Mar. 13, 1961; in *Mao Zedong wenji*, vol. 8, 252-254 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.28). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 13, 1961. [[w.mao-zedong-zhuan]], V, ch. 67 nn.27, 28 (Mar. 13, the Three South conference: the two egalitarianisms, and investigation; the mess halls, a Guangdong brigade secretary''s four harms). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 67). To check: Mao Zedong 毛泽东, speech at the Three South conference 三南会议, Canton, Mar. 13, 1961 (record 讲话记录; one sentence supplied from Tian Jiaying''s relay record and Wang Renzhong''s diary of Apr. 1, 1961, as n.27 says) (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.27); Mao Zedong 毛泽东, speech at the Three South conference 三南会议, Mar. 13, 1961; in [[w.mao-zedong-wenji]], VIII, 252–254 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.28). Names: Mao Zedong.'
     src:
       c: 057fe11c
       rows:
@@ -3077,6 +3120,15 @@ entries:
       - 1961-03-16T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-16.vietnam-hanoi
+    when: Mar. 16–17
+    date: '1961-03-16'
+    place: hieu-liem
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Eastern Nam Bộ. The zone's Battalion 800 attacks the military subsector of Hiếu Liêm, Mar. 16; Mar. 17 it marches along the Đồng Nai and attacks the Lạc An post and threatens others, as the people rise against their local officers.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 140.'
+    tags: [polity:drv]
   - id: cal.1961-03-17.economy
     when: Mar. 17
     date: '1961-03-17'
@@ -3218,6 +3270,18 @@ entries:
         - 'w.yang-shangkun-riji I, 664: all'
     tags: [polity:prc, name:chen-yi, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-17.china-leadership-6
+    when: Mar. 17
+    date: '1961-03-17'
+    thread: china-leadership
+    c: The Bo 亳 county committee, in its rectification examination 整風檢查 at the three-level cadre meeting, states in a top-secret paper that the county's abnormal deaths number 44,000.
+    n: '[[w.yang-jisheng-mubei]], I, 305. Made public: 2008. To check: Liang Zhiyuan 梁志遠, formerly deputy head of the Bo 亳 county people''s committee''s office and head of the county committee''s rural work department, 2002–05 writings on the famine in Haoxian from his rural work notes of three years, among them "Chentong de lishi jiaoxun: Boxian nongcun renkou fei zhengchang siwang shilu" 《沉痛的歷史教訓——亳縣農村人口非正常死亡實錄》; the book draws on the originals, Yang Jisheng having Liang''s consent (I, 299) (cited by [[w.yang-jisheng-mubei]], I, 305 n.t1). Check: the figure; the book sets it beside the county''s own counts (Liang Zhiyuan''s of 200,000 and more, and the gazetteers'').'
+    src:
+      c: 2c06b274
+      rows:
+        - 'w.yang-jisheng-mubei I, 305: all'
+        - 'via w.yang-jisheng-mubei I, 305 n.t1: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-03-18.laos
     when: Mar. 18
     date: '1961-03-18'
@@ -4067,7 +4131,7 @@ entries:
     thread: china-leadership
     also: [farm]
     c: Zhou Enlai revises the Center's letter to the whole Party on discussing the draft rural people's commune regulations, and attends the conference session that discusses and adopts the "Working Regulations on rural people's communes (draft)," the "Sixty Articles on Agriculture."
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 22, 1961); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 22, 1961; Liu presides at the Central Work Conference''s session); [[w.mao-zedong-zhuan]], V, ch. 67 n.31 (Mar. 22: the conference adopts the regulations, sixty articles; the same day the Center''s letter to the rural branches and the commune members, five pressing problems). Made public: 1996. To check: Central Committee 中共中央, "Letter to all comrades of the Party on discussing the draft working regulations of the rural people''s communes" 《关于讨论农村人民公社工作条例草案给全党同志的信》, Mar. 22, 1961, in *Jianguo yilai zhongyao wenxian xuanbian*, vol. 14 (Zhongyang wenxian chubanshe, Jan. 1997), 221-222 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.31). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 22, 1961); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 22, 1961; Liu presides at the Central Work Conference''s session); [[w.mao-zedong-zhuan]], V, ch. 67 n.31 (Mar. 22: the conference adopts the regulations, sixty articles; the same day the Center''s letter to the rural branches and the commune members, five pressing problems). Made public: 1996. To check: Central Committee 中共中央, "Letter to all comrades of the Party on discussing the draft working regulations of the rural people''s communes" 《关于讨论农村人民公社工作条例草案给全党同志的信》, Mar. 22, 1961, in [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 221–222 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.31). Names: Zhou Enlai.'
     src:
       c: d780a566
       rows:
@@ -4269,7 +4333,7 @@ entries:
     place: canton
     thread: china-leadership
     c: 'Canton, the work conference''s plenary session. Mao gives Hu Qiaomu''s draft its title, "Letter of the Central Committee to the Bureaus and the Provincial Committees on Earnest Investigation" (down to the counties, regiments, big factories, universities), and speaks on "On Investigation Work," section by section: a Marxist–Leninist line not easily made.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 23, 1961. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 23, 1961; Liu presides at the Central Work Conference''s session); [[w.jianguo-yilai-mao-zedong]], XV, 526–527 (Mar. 23, 1961; Mao''s title for Hu Qiaomu''s draft, his note on how far it goes (to counties, regiments, city districts, big factories, universities, the great papers) and his rewriting of a passage: the errors came at root from leaders slackening the investigation done well in the anti-Japanese and civil wars; he dates it Mar. 23; printed from the manuscript and his revised copy; the title and the reach, not the speech); [[w.yang-shangkun-riji]], I, 666 (Mar. 23, 1961; the conference ends that day, Mao speaking in the afternoon, as Yang hears it; the plane to Canton could not get through); [[w.deng-xiaoping-nianpu-1904]], III, 1624 (Mar. 23, 1961; afternoon; Deng at the plenary. Deng: the Chairman''s criticism apt and needed; the Secretariat''s routine not bad, its counsel on great decisions poor, for want of investigation, its material chiefly reports; problems sensed in some places and not investigated or solved; investigation a basic method); [[w.mao-zedong-zhuan]], V, ch. 67 n.33 (Mar. 23: the conference closes; Mao''s third speech on investigation since the Peking conference; the Center''s letter on earnest investigation adopted). Made public: 1996. To check: Mao Zedong 毛泽东, speech closing the Canton work conference 广州会议, Mar. 23, 1961; in *Mao Zedong wenji*, vol. 8, 256-265 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.33). Names: Mao Zedong, Hu Qiaomu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 23, 1961. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 23, 1961; Liu presides at the Central Work Conference''s session); [[w.jianguo-yilai-mao-zedong]], XV, 526–527 (Mar. 23, 1961; Mao''s title for Hu Qiaomu''s draft, his note on how far it goes (to counties, regiments, city districts, big factories, universities, the great papers) and his rewriting of a passage: the errors came at root from leaders slackening the investigation done well in the anti-Japanese and civil wars; he dates it Mar. 23; printed from the manuscript and his revised copy; the title and the reach, not the speech); [[w.yang-shangkun-riji]], I, 666 (Mar. 23, 1961; the conference ends that day, Mao speaking in the afternoon, as Yang hears it; the plane to Canton could not get through); [[w.deng-xiaoping-nianpu-1904]], III, 1624 (Mar. 23, 1961; afternoon; Deng at the plenary. Deng: the Chairman''s criticism apt and needed; the Secretariat''s routine not bad, its counsel on great decisions poor, for want of investigation, its material chiefly reports; problems sensed in some places and not investigated or solved; investigation a basic method); [[w.mao-zedong-zhuan]], V, ch. 67 n.33 (Mar. 23: the conference closes; Mao''s third speech on investigation since the Peking conference; the Center''s letter on earnest investigation adopted). Made public: 1996. To check: Mao Zedong 毛泽东, speech closing the Canton work conference 广州会议, Mar. 23, 1961; in [[w.mao-zedong-wenji]], VIII, 256–265 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.33). Names: Mao Zedong, Hu Qiaomu.'
     src:
       c: 5d43e328
       rows:
@@ -4374,6 +4438,14 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 666: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03-23.vietnam-hanoi
+    when: Mar. 23
+    date: '1961-03-23'
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: 'The Central Military Commission''s standing members on support for the South. Men: cadres and staff, units as cadre frames or whole, to build its forces. Materiel: weapons first, then medicine. Routes: by land in three directions (inside Vietnam, along the Lao border, deep into Laos), by air (drops, and Laos''s Xê Pôn airfield), by sea. Soviet and Chinese aid and captured arms, their markings removed; all in strict secrecy.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 40–42 (from the Central Military Commission''s file 259, the Defense Ministry''s archive). Made public: 2013.'
+    tags: [polity:drv, vis:only:drv]
   - id: cal.1961-03-24.program
     when: Mar. 24
     date: '1961-03-24'
@@ -4546,6 +4618,14 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1624: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-03-24.vietnam-hanoi-2
+    when: Mar. 24
+    date: '1961-03-24'
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: The Farmers' Liberation Association of South Vietnam founded, Mar. 24.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 143. Check: the place.'
+    tags: [polity:drv]
   - id: cal.1961-03-25.soviet-union
     when: Mar. 25
     date: '1961-03-25'
@@ -6318,3 +6398,72 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 68: all'
         - 'via w.mao-zedong-zhuan V, ch.68 n.2: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03.china-leadership-19
+    when: Mar.
+    date: 1961-03
+    place: bengbu
+    thread: china-leadership
+    c: The bulletin of Bengbu 蚌埠 city's three-level cadre meeting 三級幹部會議簡報, "Opinions and demands to the provincial committee" 《對省委的意見和要求》, records that Zeng Qingmei 曾慶梅, secretary of the Anhui 安徽 supervisory committee, on coming to Bengbu to inspect asked at once to dance and, in the name of secretary, had actresses learn dancing overnight to partner him, while deaths from hunger were already occurring in Bengbu. It records that in 1960 the prefectural committee drew off many people to build a guesthouse; and that at Mid-Autumn, with people starving in the streets, the prefectural and county secretaries held feasts at the guest house, held dances on days that were not Sundays and ate late suppers.
+    n: '[[w.yang-jisheng-mubei]], I, 319–320. Made public: 2008. To check: Bengbu city 1961 three-level cadre meeting bulletin 蚌埠市1961年三級幹部會議簡報, "Opinions and requests to the provincial committee" 《對省委的意見和要求》 (cited by [[w.yang-jisheng-mubei]], I, 320 n.90). See [[cal.1961-03-18.china-leadership-5]]. Check: the day; Cheng Guanghua''s examination at the meeting is of Mar. 18, 1961.'
+    src:
+      c: 2e2c6cb6
+      rows:
+        - 'w.yang-jisheng-mubei I, 319–320: all'
+        - 'via w.yang-jisheng-mubei I, 320 n.90: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-time]
+  - id: cal.1961-03.china-leadership-20
+    when: Mar.
+    date: 1961-03
+    thread: china-leadership
+    c: 'The general office of the Zhejiang 浙江 provincial committee reports on the "equalization and transfer" and its refunds in the province 《全省一平二調情況和兌現情況》. By the statistics of March 1961 the total of "equalization and transfer" since communization is 201.848 million yuan, an average of over 36 yuan taken without pay from each peasant household: land, labor, oxen, houses, tools, cooking utensils and cash.'
+    n: '[[w.yang-jisheng-mubei]], I, 474. Made public: 2008. To check: Zhejiang Provincial Committee general office 省委辦公廳, "Quan sheng yi ping er diao qingkuang he duixian qingkuang" 《全省一平二調情況和兌現情況》, Mar. 1961 (cited by [[w.yang-jisheng-mubei]], I, 474 n.16).'
+    src:
+      c: 78e54600
+      rows:
+        - 'w.yang-jisheng-mubei I, 474: all'
+        - 'via w.yang-jisheng-mubei I, 474 n.16: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03.china-leadership-21
+    when: Mar.
+    date: 1961-03
+    place: anshun
+    thread: china-leadership
+    c: Wang Minsan 王民三, head of the Guizhou 貴州 provincial grain department 糧食廳, goes to Anshun 安順 for Vice-Governor Xu Jiansheng 徐健生, who meant to draw grain from it. Sun Hanzhang 孫漢章, secretary of the Anshun prefectural committee 地委, tells him the prefecture has lost over 10,000 dead and has no grain to send up; he gives Caiguan 蔡官 commune, 2,600 dead and over 2,000 swollen, and the Layan 拉岩 team of Jiuzhou 舊州 commune, 32 households, 122 dead, six households wiped out.
+    n: '[[w.yang-jisheng-mubei]], I, 566. Made public: 2008. Check: the day.'
+    src:
+      c: 17107f3d
+      rows:
+        - 'w.yang-jisheng-mubei I, 566: all'
+        - 'via w.yang-jisheng-mubei I, 566 n.t1: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03.china-leadership-22
+    when: Mar.
+    date: 1961-03
+    place: linxia
+    thread: china-leadership
+    also: [china]
+    c: A municipal unit in Linxia 臨夏, south of Lanzhou 兰州, draws up a list of some fifty cases of cannibalism found in the city. Of the seventy-six victims twelve were killed and eaten, sixteen eaten after death and forty-eight exhumed and eaten.
+    n: '[[w.dikotter-maos-great-famine]], 321, 322 n.11. Made public: 2010. To check: Linxia municipal unit, list of cases of cannibalism, file of Mar. 3, 1961, Gansu Provincial Archives, 91-4-898, pp. 82–87 (cited by [[w.dikotter-maos-great-famine]], 322 n.11). Check: the day.'
+    src:
+      c: 85382a1c
+      rows:
+        - 'w.dikotter-maos-great-famine 321, 322: all'
+        - 'via w.dikotter-maos-great-famine 322 n.11: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03.vietnam-hanoi-2
+    when: Mar.
+    date: 1961-03
+    place: hanoi
+    thread: vietnam-hanoi
+    c: 'The Defense Ministry directs the General Staff to draft the plan for building and training the army in 1961–63, from the Central Military Commission''s second five-year military plan: organization and establishment to be tightened and equipment improved.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 106. Made public: 2013. Check: the day.'
+    tags: [polity:drv, vis:only:drv]
+  - id: cal.1961-03.vietnam-hanoi-3
+    when: Mar.
+    date: 1961-03
+    place: dak-lak
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Đắk Lắk. The armed forces of Interprovince 4 attack the district seat of Lạc Thiện in March, destroy several Civil Guard units and free most of Lắc and Buôn Hồ districts.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 141. Check: the day.'
+    tags: [polity:drv]

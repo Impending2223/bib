@@ -8,11 +8,12 @@ entries:
     date: '1965-11-01'
     thread: vietnam-operations
     c: 'Silver Bayonet, the 1st Cavalry Division''s first offensive mission: its 1st Brigade, in contact with a large force, pursues the enemy west of Plei Me along the Cambodian border. In the pursuit, 216 of the enemy killed, 117 captured; 55 Americans killed, 194 wounded.'
-    n: '[[w.macv-command-history-1965]], 168, 481. See [[cal.1965-10-26.vietnam]].'
+    n: '[[w.macv-command-history-1965]], 168, 481; [[w.lich-su-khang-chien-chong-my]], IV, 56 (Regiment 33 meets the Americans landing at Mùi village and Ia Mơ, Oct. 31; they withdraw to Pleiku Nov. 9). See [[cal.1965-10-26.vietnam]].'
     src:
       c: d45b69b4
       rows:
         - 'w.macv-command-history-1965 168, 481: all'
+        - 'w.lich-su-khang-chien-chong-my IV, 56: A'
     tags: [place:plei-me]
   - id: cal.1965-11-01.vietnam-force-levels
     when: Nov. 1
@@ -1853,13 +1854,19 @@ entries:
     place: war-zone-d
     thread: vietnam-operations
     c: 'War Zone D, Hump, the 173d Airborne Brigade''s fifth operation there. The 1st Battalion, 503d Infantry, closes with a Viet Cong battalion, fighting too close for supporting fire; the assaults beaten off. Out Nov. 9: 403 of the enemy counted killed; Americans and Australians, 51 killed, 89 wounded.'
-    n: '[[w.macv-command-history-1965]], 170–71; [[w.cosmas-joint-chiefs-of-staff-2012]], 345 (Hump, the 173d Airborne Brigade, Nov. 5–9). Check: Cosmas gives an estimated 400 of the enemy killed, the 173d''s losses 49 dead and 83 wounded. To check: CO, 173d Abn Bde, Combat Operations After Action Report, Dec. 19, 1965 (cited by [[w.macv-command-history-1965]], 171 n.26).'
+    n: '[[w.macv-command-history-1965]], 170–71; [[w.cosmas-joint-chiefs-of-staff-2012]], 345 (Hump, the 173d Airborne Brigade, Nov. 5–9); [[w.lich-su-khang-chien-chong-my]], IV, 61 (the 173d at Đất Cuốc, Nov. 8). Check: Cosmas gives an estimated 400 of the enemy killed, the 173d''s losses 49 dead and 83 wounded. To check: CO, 173d Abn Bde, Combat Operations After Action Report, Dec. 19, 1965 (cited by [[w.macv-command-history-1965]], 171 n.26).'
     src:
       c: 4f84c875
       rows:
         - 'w.macv-command-history-1965 170–71: all'
         - 'via w.macv-command-history-1965 171 n.26: all'
         - 'w.cosmas-joint-chiefs-of-staff-2012 345: A'
+        - 'w.lich-su-khang-chien-chong-my IV, 61: A'
+    variants:
+      - unit: B
+        witness: w.lich-su-khang-chien-chong-my
+        reads: 'Đất Cuốc, 30 kilometers north of Biên Hòa: Regiment 1 of the 9th Division, with Artillery Group 69, ambushes the 173d Airborne Brigade, 300 out of action'
+        at: IV, 61
   - id: cal.1965-11-08.war-opposition
     when: Nov. 8
     date: '1965-11-08'
@@ -2967,6 +2974,17 @@ entries:
         - 'w.mao-zedong-zhuan VI, ch. 74: all'
         - 'via w.mao-zedong-zhuan VI, ch.74 n.15: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-11-12.vietnam-hanoi
+    when: Nov. 12
+    date: '1965-11-12'
+    time: 1965-11-11T21:30Z
+    place: bau-bang
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bàu Bàng. The 9th Division attacks the 2d Brigade, 1st Infantry Division, with mortars, recoilless guns and rockets on its command post and signals, then closes. In three hours a battalion of the 1st Division and an armored task force hurt; 39 vehicles and six 105 mm guns destroyed or damaged.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 61–62. The figures are the history''s. Check: the clock; the history does not say whose.'
+    tags: [polity:drv, polity:us]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1965-11-13.transition-and-staff
     when: Nov. 13
     date: '1965-11-13'
@@ -3116,7 +3134,7 @@ entries:
     place: lz-x-ray
     thread: vietnam-operations
     c: Ia Drang. Moore's 1st Battalion, 7th Cavalry, of the 1st Cavalry Division (Airmobile), lands by helicopter at LZ X-Ray, under the Chu Pong massif, Nov. 14, and holds three days against North Vietnamese regulars, with B-52s striking the massif from Nov. 15; 79 Americans killed. The first battle between American and North Vietnamese regulars. Check the counts.
-    n: 'FRUS 1964–68, III, doc. [212](https://history.state.gov/historicaldocuments/frus1964-68v03/d212). [[w.drea-mcnamara-clifford-and-the-2011]], 118 (the battle, Nov. 14–19, the first between American and North Vietnamese troops); [[w.cosmas-joint-chiefs-of-staff-2012]], 345 (X-Ray, Nov. 14; the B-52s; for the campaign, the 1st Cavalry''s claim of more than 1,200 of the enemy killed for 217 of its own); [[w.branch-at-canaans-edge]], 378–79 (the landing and the three days; the count); [[w.westmoreland-soldier-reports]], 157–58 (Moore''s battalion; B-52s in direct support for the first time; Westmoreland at the battalion''s critique, Moore for the M-16); [[w.mcnamara-in-retrospect]], ch. 8 at nn.18–19 (Nov. 14–19, the Ia Drang Valley; the first major battle between American and North Vietnamese forces). [[w.vietnam-victory-in-vietnam]], 159 (the battle under the Chu Pong, Nov. 14–19; the B-52s); [[w.gibbons-u-s-government-and]], IV, 100–102 (the battles; 1,200 to 3,000 North Vietnamese and 300 Americans killed by his count); [[w.berman-lyndon-johnsons-war]], 12 (the 1st Cavalry Division against North Vietnamese regiments; about 1,200 of the enemy killed and 200 Americans, the whole battle); [[w.drea-mcnamara-clifford-and-the-2011]], 118 (the first major battle with North Vietnamese troops, Nov. 14–19); [[w.zaroulis-who-spoke-up]], 62 (mid-November, the battle in the Ia Drang Valley between North Vietnamese and American troops). [[w.macv-command-history-1965]], 8, 168 (the 3d Brigade from Nov. 14, against the 32d and 66th North Vietnamese Regiments, to Nov. 18). Check: Westmoreland gives six days of fighting, Nov. 14–19, and more than 1,300 enemy dead (157). Check: McNamara counts over 1,300 North Vietnamese dead and 300 Americans killed, Nov. 14–19 (ch. 8). To check: [[w.cash-fight-at-ia-drang]]; [[w.coleman-pleiku]]; [[w.moore-we-were-soldiers-once]]; [[w.pribbenow-fog-of-war]]. See [[cal.1965-07-28.vietnam]]. Names: Moore. Check: *Victory in Vietnam* counts, for the Plei Me campaign, Oct. 19–Nov. 19, 1,700 Americans and 1,270 South Vietnamese put out of action and 59 helicopters shot down; the 66th Regiment and part of the 33d at Ia Drang, Nov. 14–19 (159). Check: MACV''s history, 168, has the B-52 strikes Westmoreland asked delivered Nov. 16, and for the whole of Silver Bayonet''s second phase 1,286 of the enemy and 217 Americans killed.'
+    n: 'FRUS 1964–68, III, doc. [212](https://history.state.gov/historicaldocuments/frus1964-68v03/d212). [[w.drea-mcnamara-clifford-and-the-2011]], 118 (the battle, Nov. 14–19, the first between American and North Vietnamese troops); [[w.cosmas-joint-chiefs-of-staff-2012]], 345 (X-Ray, Nov. 14; the B-52s; for the campaign, the 1st Cavalry''s claim of more than 1,200 of the enemy killed for 217 of its own); [[w.branch-at-canaans-edge]], 378–79 (the landing and the three days; the count); [[w.westmoreland-soldier-reports]], 157–58 (Moore''s battalion; B-52s in direct support for the first time; Westmoreland at the battalion''s critique, Moore for the M-16); [[w.mcnamara-in-retrospect]], ch. 8 at nn.18–19 (Nov. 14–19, the Ia Drang Valley; the first major battle between American and North Vietnamese forces). [[w.vietnam-victory-in-vietnam]], 159 (the battle under the Chu Pong, Nov. 14–19; the B-52s); [[w.gibbons-u-s-government-and]], IV, 100–102 (the battles; 1,200 to 3,000 North Vietnamese and 300 Americans killed by his count); [[w.berman-lyndon-johnsons-war]], 12 (the 1st Cavalry Division against North Vietnamese regiments; about 1,200 of the enemy killed and 200 Americans, the whole battle); [[w.drea-mcnamara-clifford-and-the-2011]], 118 (the first major battle with North Vietnamese troops, Nov. 14–19); [[w.zaroulis-who-spoke-up]], 62 (mid-November, the battle in the Ia Drang Valley between North Vietnamese and American troops); [[w.lich-su-khang-chien-chong-my]], IV, 57–58 (Ia Đrăng: Battalion 9, Regiment 66 meets the landing Nov. 14; Nov. 15 Nguyễn Hữu An''s order; Nov. 16, 4:30 a.m., the positions taken). [[w.macv-command-history-1965]], 8, 168 (the 3d Brigade from Nov. 14, against the 32d and 66th North Vietnamese Regiments, to Nov. 18). Check: Westmoreland gives six days of fighting, Nov. 14–19, and more than 1,300 enemy dead (157). Check: McNamara counts over 1,300 North Vietnamese dead and 300 Americans killed, Nov. 14–19 (ch. 8). To check: [[w.cash-fight-at-ia-drang]]; [[w.coleman-pleiku]]; [[w.moore-we-were-soldiers-once]]; [[w.pribbenow-fog-of-war]]. See [[cal.1965-07-28.vietnam]]. Names: Moore. Check: *Victory in Vietnam* counts, for the Plei Me campaign, Oct. 19–Nov. 19, 1,700 Americans and 1,270 South Vietnamese put out of action and 59 helicopters shot down; the 66th Regiment and part of the 33d at Ia Drang, Nov. 14–19 (159). Check: MACV''s history, 168, has the B-52 strikes Westmoreland asked delivered Nov. 16, and for the whole of Silver Bayonet''s second phase 1,286 of the enemy and 217 Americans killed.'
     src:
       c: 8c90ac2b
       rows:
@@ -3133,8 +3151,14 @@ entries:
         - 'w.berman-lyndon-johnsons-war 12: A'
         - 'w.drea-mcnamara-clifford-and-the-2011 118: ?'
         - 'w.zaroulis-who-spoke-up 62: A'
+        - 'w.lich-su-khang-chien-chong-my IV, 57–58: A-B'
     tags: [name:moore-harold-g, place:ia-drang, place:lz-x-ray]
     short: Ia Drang, X-Ray and Albany
+    variants:
+      - unit: B
+        witness: w.lich-su-khang-chien-chong-my
+        reads: Nov. 16, Battalions 7 and 9 of Regiment 66 destroy and badly hurt Companies C and D of the 2d Battalion, 7th Cavalry, over 200 out of action (over 80 Americans dead), nine helicopters down; the Americans' 100 B-52 sorties, the first strategic bombers in close support
+        at: IV, 58
   - id: cal.1965-11-14.robert-kennedy
     when: Nov. 14
     date: '1965-11-14'
@@ -3647,6 +3671,15 @@ entries:
       - 1965-11-16T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-16.vietnam-hanoi
+    when: Nov. 16
+    date: '1965-11-16'
+    place: viet-an
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Việt An, Quảng Tín, at the junction of Route 16 and the Quế Sơn road, 12 kilometers east of Hiệp Đức. Regiment 1 of Military Region 5 begins to surround the post. The siege runs twelve days and the post is not relieved.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 63.'
+    tags: [polity:drv]
   - id: cal.1965-11-17.antisubversion-nc
     when: Nov. 17
     date: '1965-11-17'
@@ -3662,12 +3695,18 @@ entries:
     place: ia-drang
     thread: vietnam-operations
     c: Ia Drang. The 2d Battalion, 7th Cavalry, marching from X-Ray, ambushed short of LZ Albany; some 155 killed. Check the count.
-    n: '[[w.branch-at-canaans-edge]], 380–81 (the ambush; not the count). See [[cal.1965-11-14.vietnam]]. Check: Branch gives 305 Americans killed in the five days, and 240 killed in the Pentagon''s release of Nov. 24 (381, 384).'
+    n: '[[w.branch-at-canaans-edge]], 380–81 (the ambush; not the count); [[w.lich-su-khang-chien-chong-my]], IV, 59 (Battalion 8, Regiment 66, with Battalion 1, Regiment 33, destroys the 2d Battalion, 7th Cavalry; Battalion commander Lê Xuân Phôi killed at 4 p.m.). See [[cal.1965-11-14.vietnam]]. Check: Branch gives 305 Americans killed in the five days, and 240 killed in the Pentagon''s release of Nov. 24 (381, 384).'
     src:
       c: 4b174ba0
       rows:
         - 'w.branch-at-canaans-edge 380–81: A-B'
+        - 'w.lich-su-khang-chien-chong-my IV, 59: A-B'
     tags: [place:ia-drang, place:lz-albany]
+    variants:
+      - unit: B
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the 2d Battalion, 7th Cavalry destroyed completely on the afternoon of Nov. 17, in fighting northeast of Chư Pông
+        at: IV, 59
   - id: cal.1965-11-17.vietnam-pause
     when: Nov. 17
     date: '1965-11-17'
@@ -4022,6 +4061,15 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1881: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-11-18.vietnam-hanoi
+    when: Nov. 18
+    date: '1965-11-18'
+    place: ia-drang
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Ia Đrăng. Regiment 33 raids the gun position of the 2d Battalion, 5th Cavalry, northwest of the Ia Mơ stream: three heavy guns and seven helicopters destroyed or damaged.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 59. See [[cal.1965-11-17.vietnam-operations]].'
+    tags: [polity:drv, polity:us]
   - id: cal.1965-11-19.opinion
     when: Nov. 19
     date: '1965-11-19'
@@ -4356,6 +4404,15 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1882: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-11-20.vietnam-hanoi
+    when: Nov. 20
+    date: '1965-11-20'
+    place: cam-xe
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Cẩm Xe. Battalions 2 and 4 of the 9th Division ambush a road convoy: 40 military vehicles destroyed and hundreds of Americans out of action.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 62. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
   - id: cal.1965-11-21.opinion
     when: Nov. 21
     date: '1965-11-21'
@@ -4919,6 +4976,14 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1884: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-11-23.vietnam-hanoi
+    when: Nov. 23
+    date: '1965-11-23'
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: The Liberation Army's 5th Infantry Division formed, in the South.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 37 n.1. See [[cal.1965-09-02.vietnam-hanoi]]. Made public: 2013.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
   - id: cal.1965-11-24.opinion
     when: Nov. 24
     date: '1965-11-24'

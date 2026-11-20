@@ -458,12 +458,18 @@ entries:
     place: paris
     thread: vietnam-paris
     c: Lê Đức Thọ arrives in Paris, special adviser to North Vietnam's delegation; Vance and Harriman recommend holding off strikes between the 19th and 20th parallels.
-    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 228. Check: the recommendation''s terms; the sentence runs over p. 228 cut short. Names: Vance, Harriman.'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 228; [[w.lich-su-khang-chien-chong-my]], V, 333 (Lê Đức Thọ''s arrival, which the history puts in mid-June 1968). Check: the recommendation''s terms; the sentence runs over p. 228 cut short. Names: Vance, Harriman.'
     src:
       c: 3fb441f5
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 228: all'
+        - 'w.lich-su-khang-chien-chong-my V, 333: A'
     tags: [name:vance-cyrus, name:harriman-w-averell]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: Lê Đức Thọ, added as special adviser to Xuân Thủy, arrived in Paris in the middle of June 1968
+        at: V, 333
   - id: cal.1968-06-03.program
     when: June 3
     date: '1968-06-03'
@@ -498,7 +504,13 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao, Great Hall, evening, with the Cultural Revolution Group and some army leaders: on student disorders, "no suppression, no management, no fear of disorder"; Nie Yuanzi and Kuai Dafu have few followers, Nie only a deputy chairman of Peking''s committee; Guangxi''s armed fighting at Liuzhou and Nanning, with outsiders in it, 18 million rounds seized.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, June 3, 1968. Made public: 2013. Names: Mao Zedong, Nie Yuanzi, Kuai Dafu, Han Aijing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, June 3, 1968; [[w.mao-zedong-zhuan]], VI, ch. 77 n.16 (June 3, after receiving the study class of cadres of regiment level and above (the Shenyang and Nanjing sessions), Mao to the leaders who accompanied him: of Guangxi''s armed fighting, it is chiefly Liuzhou and Nanning, Guilin is to fight soon, ''there are ghosts in it''; many outsiders are in Liuzhou, who took more than 18 million rounds; the book gives no place or hour, n.16). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 77). To check: Mao Zedong 毛泽东, talk with the leading cadres accompanying him at the reception of the Shenyang and Nanjing sections of the study class of cadres of regiment level and above 部队团以上干部学习班 (record 谈话记录), June 3, 1968 (cited by [[w.mao-zedong-zhuan]], VI, ch. 77 n.16). Names: Mao Zedong, Nie Yuanzi, Kuai Dafu, Han Aijing.'
+    src:
+      c: db445367
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, June 3, 1968: all'
+        - 'w.mao-zedong-zhuan VI, ch. 77 n.16: C'
+        - 'via w.mao-zedong-zhuan VI, ch.77 n.16: C'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1968-06-03.china-leadership-2
     when: June 3
@@ -516,6 +528,14 @@ entries:
     c: 'Zhou Enlai goes to Mao''s in the evening, then accompanies Mao in receiving the delegates of the Nanjing and Shenyang military regions'' and PLA headquarters'' and service arms'' Mao Zedong Thought study classes. Mao, speaking with the central leaders, says that those who want to bring down Chen Yi include the Foreign Languages school''s "June 16" group; Zhou: "June 16" also wants to bring me down; Mao: with Chen Yi down, you are about next.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 233 (June 3, 1968). Made public: 2020. Names: Zhou Enlai, Mao Zedong, Chen Yi. Check: whether the evening is that of [[cal.1968-06-03.china-leadership]].'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:chen-yi, vis:only:prc]
+  - id: cal.1968-06-03.vietnam-hanoi
+    when: June 3
+    date: '1968-06-03'
+    thread: vietnam-hanoi
+    also: [vietnam-paris, vietnam-diplomacy]
+    c: 'Nguyễn Duy Trinh, of the Politburo, Deputy Prime Minister and Foreign Minister, instructs the delegation in Paris: keep up the open struggle and prepare, when the moment suits, to talk in private as well as in the open.'
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 335. Made public: 2013. Names: Nguyễn Duy Trinh. Check: the place Trinh was at, the means, the day''s source; the history cites a footnote only.'
+    tags: [polity:drv, vis:only:drv, name:nguyen-duy-trinh, ok:fields-place]
   - id: cal.1968-06-04.elections-1968
     when: June 4
     date: '1968-06-04'
@@ -2797,6 +2817,17 @@ entries:
     c: Zhou Enlai at the Cultural Revolution Group's liaison meeting; he receives the military representatives to be sent to twelve units.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 234 (June 13, 1968). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-06-13.china-leadership-3
+    when: June 13
+    date: '1968-06-13'
+    thread: china-leadership
+    c: The Center, State Council, Military Commission and Cultural Revolution Group send an urgent telegram, five points on restoring traffic on the Liuzhou rail area. Those in Guangxi who cut the line still refuse.
+    n: '[[w.mao-zedong-zhuan]], VI, ch. 77 n.17 (the day by the book; the note names the telegram, the ''Five-Point Instruction on Restoring Traffic in the Liuzhou Railway Area'' 《柳州铁路地区恢复交通的五点指示》; the book gives only its title, nor the place it went from, nor the Guangxi side''s reply). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 77). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage; Central Committee, State Council, Military Commission and Cultural Revolution Group, ''Five-Point Instruction on Restoring Traffic in the Liuzhou Railway Area'' 《柳州铁路地区恢复交通的五点指示》, urgent telegram, June 13, 1968 (cited by [[w.mao-zedong-zhuan]], VI, ch. 77 n.17).'
+    src:
+      c: cfe89425
+      rows:
+        - 'w.mao-zedong-zhuan VI, ch. 77 n.17: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1968-06-14.war-opposition
     when: June 14
     date: '1968-06-14'
@@ -4166,13 +4197,15 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Mao receives Tanzania''s President Nyerere, Great Hall; Lin Biao, Zhou Enlai, Kang Sheng, Huang Yongsheng, Chen Yi and Li Xiannian present. On the Cultural Revolution: Peking''s students and workers upset the world but order held; Kuomintang men kept after 1949 for lack of teachers; the bad few, the good many. De Gaulle''s repression disliked, his resistance to the United States approved.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, June 21, 1968; [[w.zhou-enlai-nianpu-1949-2020]], III, 236 (June 21, 1968; Zhou with Mao); [[w.zhou-enlai-waijiao-huodong]], 526 (June 21, 1968; 6:15 p.m., Great Hall of the People; Zhou accompanies Mao in receiving Nyerere). Made public: 1993. Names: Mao Zedong, Lin Biao, Zhou Enlai, Kang Sheng, Huang Yongsheng, Chen Yi, Li Xiannian, Nyerere. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, June 21, 1968; [[w.zhou-enlai-nianpu-1949-2020]], III, 236 (June 21, 1968; Zhou with Mao); [[w.zhou-enlai-waijiao-huodong]], 526 (June 21, 1968; 6:15 p.m., Great Hall of the People; Zhou accompanies Mao in receiving Nyerere); [[w.mao-zedong-zhuan]], VI, ch. 77 n.13 (June 20 in the text, the record in n.13 dated June 21: Mao receives Tanzania''s President Nyerere 尼雷尔, who speaks of the tools imperialism uses inside an African state it would overturn; Mao: we kept some of the better Kuomintang men because we had no professors, teachers, journalists, artists or speakers of foreign languages, and some were planted by the Kuomintang in our factories, offices and army; not every professor, teacher or technician is bad, a part is very bad; the Cultural Revolution is clearing them out, the good kept and the bad kicked out; the book gives no place or those present). Made public: 1993. Check: the book''s text puts Mao''s meeting with Nyerere on June 20; its note''s record is dated June 21 (ch. 77 n.13). To check: Mao Zedong 毛泽东, talk with Julius Nyerere 尼雷尔 (record 谈话记录), June 21, 1968 (cited by [[w.mao-zedong-zhuan]], VI, ch. 77 n.13). Names: Mao Zedong, Lin Biao, Zhou Enlai, Kang Sheng, Huang Yongsheng, Chen Yi, Li Xiannian, Nyerere. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
     src:
       c: de7a01be
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, June 21, 1968: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 236: A, B'
         - 'w.zhou-enlai-waijiao-huodong 526: A-B'
+        - 'w.mao-zedong-zhuan VI, ch. 77 n.13: D'
+        - 'via w.mao-zedong-zhuan VI, ch.77 n.13: D'
     tags: [polity:prc, polity:tanzania, name:mao-zedong, name:lin-biao, name:zhou-enlai, name:kang-sheng, name:huang-yongsheng, name:chen-yi, name:li-xiannian, name:nyerere-julius-k, vis:only:prc+tanzania@C-F]
     time_zone: Asia/Shanghai
   - id: cal.1968-06-21.china-leadership-2
@@ -4786,7 +4819,7 @@ entries:
     date: '1968-06-27'
     thread: vietnam-khe-sanh
     c: The command announces that the Marines will leave Khe Sanh and the base be dismantled, its forces to more mobile operations. Check the day of the announcement.
-    n: '[[w.cosmas-joint-chiefs-of-staff]], 211; [[w.drea-mcnamara-clifford-and-the-2011]], 196 (the base given up for mobile operations, approved June 20, closed July 5); [[w.macv-command-history-1968]], 1051 (MACV''s announcement, under June 27, that the base will be abandoned in a shift to more mobile operations). To check: [[w.sorley-thunderbolt]]; Saigon to State, msg 30199, June 17, 1968, Cable files, OSD Historical Office; Elsey, notes of staff meeting, June 20, 1968, Elsey Papers, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 196 n.88). See [[cal.1968-01-21.vietnam]]. Check: *Victory in Vietnam* has the withdrawal announced June 26 and taking 17 days, the base in its hands July 15; 1,300 killed and 34 aircraft in the withdrawal (229). Check: Cosmas, 211, has MACV''s announcement released June 27, Saigon time.'
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 211; [[w.drea-mcnamara-clifford-and-the-2011]], 196 (the base given up for mobile operations, approved June 20, closed July 5); [[w.macv-command-history-1968]], 1051 (MACV''s announcement, under June 27, that the base will be abandoned in a shift to more mobile operations); [[w.lich-su-khang-chien-chong-my]], V, 223 (Abrams'' order to give up Khe Sanh, dated Jun. 26 by the history). To check: [[w.sorley-thunderbolt]]; Saigon to State, msg 30199, June 17, 1968, Cable files, OSD Historical Office; Elsey, notes of staff meeting, June 20, 1968, Elsey Papers, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 196 n.88). See [[cal.1968-01-21.vietnam]]. Check: *Victory in Vietnam* has the withdrawal announced June 26 and taking 17 days, the base in its hands July 15; 1,300 killed and 34 aircraft in the withdrawal (229). Check: Cosmas, 211, has MACV''s announcement released June 27, Saigon time.'
     src:
       c: bd760224
       rows:
@@ -4797,6 +4830,7 @@ entries:
         - 'via w.cosmas-joint-chiefs-of-staff 211 n.26: A'
         - 'via w.cosmas-joint-chiefs-of-staff 211 n.28: A'
         - 'w.macv-command-history-1968 1051: A'
+        - 'w.lich-su-khang-chien-chong-my V, 223: A'
     tags: [name:abrams-creighton, place:khe-sanh]
     time_range:
       - 1968-06-27T01:00Z

@@ -257,6 +257,15 @@ entries:
         - 'w.yang-shangkun-riji II, 64: all'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-02.vietnam-hanoi
+    when: Sept. 2
+    date: '1961-09-02'
+    place: dak-ha
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Kon Tum. Two battalions of the Saigon 22d Division come down from Đắk Tô, Sept. 2, and retake Đắk Hà.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 159.'
+    tags: [polity:drv]
   - id: cal.1961-09-03.economy
     when: Sept. 3
     date: '1961-09-03'
@@ -896,6 +905,15 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1658: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-09-06.vietnam-hanoi
+    when: Sept. 6–22
+    date: '1961-09-06'
+    place: saigon
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: Saigon. Four hundred workers in four plants of the American Stanvac oil company stage a sit-in strike, Sept. 6–22.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 163.'
+    tags: [polity:drv]
   - id: cal.1961-09-07.states-and-cities
     when: Sept. 7
     date: '1961-09-07'
@@ -2010,6 +2028,17 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1659: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc+dprk]
+  - id: cal.1961-09-15.china-leadership-8
+    when: Sept. 15
+    date: '1961-09-15'
+    thread: china-leadership
+    c: The Hebei 河北 provincial committee holds a telephone conference. It requires "buying a bit more within policy and selling a bit less," and the whole province's whole-year procurement of 3.21 billion jin to be met without fail; the quota is divided among the prefectures.
+    n: '[[w.yang-jisheng-mubei]], I, 545. Made public: 2008.'
+    src:
+      c: 2959f55d
+      rows:
+        - 'w.yang-jisheng-mubei I, 545: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-09-16.berlin-and-vienna
     when: Sept. 16
     date: '1961-09-16'
@@ -2144,7 +2173,7 @@ entries:
     place: phuoc-vinh
     thread: vietnam
     c: Phước Thành. About three Viet Cong battalions take Phước Vĩnh, the capital of the new province, on the edge of War Zone D, the night of Sept. 17–18, shortly after midnight, and hold it some hours; the province chief and his assistant executed in the market place. The first provincial capital taken.
-    n: 'FRUS 1961–63, I, docs. [135](https://history.state.gov/historicaldocuments/frus1961-63v01/d135) (Nolting, Sept. 20), [138](https://history.state.gov/historicaldocuments/frus1961-63v01/d138). [[w.miller-misalliance]], 227 (the attack, shortly after midnight Sept. 18; the capital held; the two officials killed; not the battalions'' number or War Zone D); [[w.vietnam-victory-in-vietnam]], 85 (the 500th Battalion of Military Region 7, with district local forces; the town held three days; 600 weapons taken); [[w.moyar-triumph-forsaken]], 134; [[w.schulimson-joint-chiefs-of-staff]], 109; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 270 (a provincial capital twenty miles from Saigon overrun, the province chief beheaded, arms taken). The time is the first day''s. Check: Kaplan, 270, gives Sept. 18. See [[cal.1961-01-28.vietnam]]. Check: the capital''s name, and the three days of Hanoi''s account against the embassy''s hours. Check: Moyar, 134, has the province chief disemboweled in the square and his wife shot, the attackers gone within hours with a hundred rifles and 270 prisoners from the jail.'
+    n: 'FRUS 1961–63, I, docs. [135](https://history.state.gov/historicaldocuments/frus1961-63v01/d135) (Nolting, Sept. 20), [138](https://history.state.gov/historicaldocuments/frus1961-63v01/d138). [[w.miller-misalliance]], 227 (the attack, shortly after midnight Sept. 18; the capital held; the two officials killed; not the battalions'' number or War Zone D); [[w.vietnam-victory-in-vietnam]], 85 (the 500th Battalion of Military Region 7, with district local forces; the town held three days; 600 weapons taken); [[w.moyar-triumph-forsaken]], 134; [[w.schulimson-joint-chiefs-of-staff]], 109; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 270 (a provincial capital twenty miles from Saigon overrun, the province chief beheaded, arms taken); [[w.lich-su-khang-chien-chong-my]], III, 156–58 (the Eastern Region''s committee and command decide it early in September; Nguyễn Hữu Xuyến commanding; Battalion 500, Company 260, the province''s local forces). The time is the first day''s. Check: Kaplan, 270, gives Sept. 18. See [[cal.1961-01-28.vietnam]]. Check: the capital''s name, and the three days of Hanoi''s account against the embassy''s hours. Check: Moyar, 134, has the province chief disemboweled in the square and his wife shot, the attackers gone within hours with a hundred rifles and 270 prisoners from the jail.'
     src:
       c: 31a4f86c
       rows:
@@ -2155,8 +2184,18 @@ entries:
         - 'w.moyar-triumph-forsaken 134: B-D'
         - 'w.schulimson-joint-chiefs-of-staff 109: A-B'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 270: B-C'
+        - 'w.lich-su-khang-chien-chong-my III, 156–58: A, B, C'
     tags: [province:binh-duong]
     aliases: [cal.1961-09-18.vietnam]
+    variants:
+      - unit: B
+        witness: w.lich-su-khang-chien-chong-my
+        reads: four hundred men against two thousand; the town held three days and nights; 300 killed, 400 surrendered, over 600 weapons taken, over 300 political prisoners freed
+        at: III, 156–57
+      - unit: C
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the province chief, Nguyễn Minh Mẫn, shot on the spot; his deputy and some officials taken
+        at: III, 157
   - id: cal.1961-09-17.china-leadership
     when: Sept. 17
     date: '1961-09-17'
@@ -2232,6 +2271,18 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1660: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc+dprk]
+  - id: cal.1961-09-17.china-leadership-7
+    when: Sept. 17
+    date: '1961-09-17'
+    thread: china-leadership
+    c: The general office of the Hebei 河北 provincial committee issues its paper on the study and discussion of the spirit of the committee's telephone conference by the prefectural committees 《各地委對省委電話會議精神研究討論的情況和意見》. Cangzhou 滄州 prefecture, given a procurement of 240 million jin, shares it among its counties; in some counties the peasants' mean ration is a little over 2 liang a day.
+    n: '[[w.yang-jisheng-mubei]], I, 545. Made public: 2008. To check: Hebei Provincial Committee general office 省委辦公廳, "Ge diwei dui shengwei dianhua huiyi jingshen yanjiu taolun de qingkuang he yijian" 《各地委對省委電話會議精神研究討論的情況和意見》, Sept. 17, 1961 (cited by [[w.yang-jisheng-mubei]], I, 545 n.35).'
+    src:
+      c: dd419285
+      rows:
+        - 'w.yang-jisheng-mubei I, 545: all'
+        - 'via w.yang-jisheng-mubei I, 545 n.35: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-09-18.congo
     when: Sept. 18
     date: '1961-09-18'
@@ -2871,6 +2922,18 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1660: all'
     tags: [polity:prc, name:deng-xiaoping]
+  - id: cal.1961-09-20.china-leadership-9
+    when: Sept. 20
+    date: '1961-09-20'
+    thread: china-leadership
+    c: The Fuling 涪陵 group of the Sichuan 四川 provincial committee's inspection corps reports on the Ma'an 馬鞍 commune's disease control by self-help in production and saving against the famine 《馬鞍公社結合生產自救、節約渡荒開展防治病工作的調查報告》. The county's daily ration for members is 6 liang (3.75 on the decimal scale), and cadres often dock it. In one work team of Taiyi 太乙 brigade 5 of 6 households have been docked. Xia Daozhen 夏道珍, who took a little corn in the lean season, is docked 1,700 jin in all, 20 percent of every issue; the team head says a year not enough, two years, three. Zheng Derong 鄭得榮 of the third team of Dashi 大石 brigade, who watched a field from which over 100 ears were taken, is docked 96 jin. Dashi brigade has lost 51 people, 6.3 percent, from January to early September; over 90 percent of the women have stopped menstruating, and two children have been born this year, both cadres'.
+    n: '[[w.yang-jisheng-mubei]], I, 228. Made public: 2008. To check: Provincial committee inspection corps, Fuling group 省委檢查團涪陵組, "Maan gongshe jiehe shengchan ziji, jieyue duhuang kaizhan fangzhi bing gongzuo de diaocha baogao" 《馬鞍公社結合生產自救、節約渡荒開展防治病工作的調查報告》, Sept. 20, 1961 (cited by [[w.yang-jisheng-mubei]], I, 228 n.94).'
+    src:
+      c: 2a25e8c0
+      rows:
+        - 'w.yang-jisheng-mubei I, 228: all'
+        - 'via w.yang-jisheng-mubei I, 228 n.94: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-09-21.program
     when: Sept. 21
     date: '1961-09-21'
@@ -4445,11 +4508,12 @@ entries:
     place: hanoi
     thread: vietnam
     c: 'The Politburo and the Central Military Party Committee approve the General Staff''s plan for the South, 1961–63: besides recruits there, 30,000 to 40,000 men trained in the North to be sent down; Group 559, the trail''s transport group, grown to 2,000–3,000.'
-    n: '[[w.vietnam-victory-in-vietnam]], 80, 456 n.26 (sent down the trail in 1961, 7,664 men). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing). See [[cal.1961-02-25.vietnam]].'
+    n: '[[w.vietnam-victory-in-vietnam]], 80, 456 n.26 (sent down the trail in 1961, 7,664 men); [[w.lich-su-khang-chien-chong-my]], III, 46 (September 1961: 30,000 to 40,000 men trained in the North to go south; by the end of 1961 the Regions'' main forces 11 battalions, six in Region 5, five in Nam Bộ and the far south of Central Vietnam). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing). See [[cal.1961-02-25.vietnam]].'
     src:
       c: ef13d535
       rows:
         - 'w.vietnam-victory-in-vietnam 80, 456 n.26: A-B'
+        - 'w.lich-su-khang-chien-chong-my III, 46: A'
   - id: cal.1961-09-29.right-and-the-military
     when: Sept. 29
     date: '1961-09-29'
@@ -4563,7 +4627,7 @@ entries:
     date: '1961-09-29'
     thread: china-leadership
     c: 'Mao to the Standing Committee and others, with Geng Changsuo''s letter and the Shandong, Hubei, Hebei and Handan papers: severe egalitarianism remains, "what the Sixty Articles lack": production with the team, distribution with the brigade. His view: "three-level ownership, the team the base," the team, not the brigade, the accounting unit; to be settled at the December work conference after inquiry by every level.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 29, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 216–17 (Mao''s letter of Sept. 29 permitting team accounting, his last concession; experiments going beyond it unacceptable); [[w.macfarquhar-origins-of-the-cultural]], III, 69–70 (the letter on team accounting; the six contrary opinions); [[w.jianguo-yilai-mao-zedong]], XVI, 122–123 (Sept. 29, 1961; the letter, written at 8 a.m., with the papers it sends: Geng Changsuo''s letter, the Shandong, Hubei, Hebei and Handan materials; the team as base and the December conference); [[w.mao-zedong-zhuan]], V, ch. 68 n.29 (Sept. 29: Mao''s long letter to the Standing Committee on the basic accounting unit: the team, not the brigade; to be settled at the December conference). Made public: 2013. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 68), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1080 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 217 n.37a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 574–76 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 217 n.37b); [[w.bian-mao-zedong-he-tade]], 59–60 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162b); [[w.mao-zedong-zai-hubei]], 335 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162c); [[w.yi-research-note-dangshi-yanjiu]], 36 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162e); [[w.liu-shaoqi-yu-1962]], 9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162f); Mao Zedong 毛泽东, letter to the members of the Politburo Standing Committee and others on the basic accounting unit, Sept. 29, 1961; in *Mao Zedong wenji*, vol. 8, 284-285 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.29). Names: Mao Zedong, Geng Changsuo.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 29, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 216–17 (Mao''s letter of Sept. 29 permitting team accounting, his last concession; experiments going beyond it unacceptable); [[w.macfarquhar-origins-of-the-cultural]], III, 69–70 (the letter on team accounting; the six contrary opinions); [[w.jianguo-yilai-mao-zedong]], XVI, 122–123 (Sept. 29, 1961; the letter, written at 8 a.m., with the papers it sends: Geng Changsuo''s letter, the Shandong, Hubei, Hebei and Handan materials; the team as base and the December conference); [[w.mao-zedong-zhuan]], V, ch. 68 n.29 (Sept. 29: Mao''s long letter to the Standing Committee on the basic accounting unit: the team, not the brigade; to be settled at the December conference). Made public: 2013. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 68), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1080 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 217 n.37a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 574–76 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 217 n.37b); [[w.bian-mao-zedong-he-tade]], 59–60 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162b); [[w.mao-zedong-zai-hubei]], 335 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162c); [[w.yi-research-note-dangshi-yanjiu]], 36 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162e); [[w.liu-shaoqi-yu-1962]], 9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 69 n.162f); Mao Zedong 毛泽东, letter to the members of the Politburo Standing Committee and others on the basic accounting unit, Sept. 29, 1961; in [[w.mao-zedong-wenji]], VIII, 284–285 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.29). Names: Mao Zedong, Geng Changsuo.'
     src:
       c: 9fc0d16e
       rows:
@@ -5220,3 +5284,30 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1661: ?'
     tags: [polity:prc, name:deng-xiaoping, name:chervonenko-stepan-v, vis:only:prc+ussr]
     time_zone: Asia/Shanghai
+  - id: cal.1961-09.vietnam-hanoi-2
+    when: Sept., early
+    date: 1961-09
+    at: before 1961-09-01
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: The second large group of military cadres, which left Xuân Mai June 1, reaches its assembly area in early September.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 43. Made public: 2013. Check: the day and the place of the assembly.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1961-09.vietnam-hanoi-4
+    when: Sept.
+    date: 1961-09
+    place: ben-tre
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bến Tre. In September Saigon opens a "pacification and amnesty" campaign centered on Mỏ Cày, against the freed area and the bases.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 158. Check: the day.'
+    tags: [polity:drv]
+  - id: cal.1961-09.vietnam-hanoi-5
+    when: Sept.
+    date: 1961-09
+    place: cam-lam
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Ninh Thuận. Battalion 120 of Region 6 destroys the Cửu Lợi post in Cam Lâm district in September. In October it joins Khánh Hòa's troops against the Saigon side at Cấm Sơn; at the end of the year half of it goes to northern Ninh Thuận.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 162. Check: the day; the October fight at Cấm Sơn and the year-end move are the history''s next sentences, not entered separately.'
+    tags: [polity:drv, ok:fields-at]

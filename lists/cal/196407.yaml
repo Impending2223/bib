@@ -1331,11 +1331,17 @@ entries:
     place: polei-krong
     thread: vietnam-operations
     c: 'The Polei Krong Special Forces camp overrun: 50 friendly killed.'
-    n: '[[w.macv-command-history-1964]], 190.'
+    n: '[[w.macv-command-history-1964]], 190; [[w.lich-su-khang-chien-chong-my]], III, 350 (the Plây Cơrong commando training center attacked July 1 by Battalions 303 and 200).'
     src:
       c: f0e10f48
       rows:
         - 'w.macv-command-history-1964 190: all'
+        - 'w.lich-su-khang-chien-chong-my III, 350: A'
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the Polei Krong center attacked July 1, by two battalions of the Highlands forces
+        at: III, 350
   - id: cal.1964-07-04.vietnam
     when: July 4
     date: '1964-07-04'
@@ -1764,7 +1770,7 @@ entries:
     place: hanoi
     thread: vietnam-hanoi
     c: Hanoi puts its navy on a war footing, against the American destroyers' patrols in the Gulf of Tonkin. By the end of July all its armed forces on alert.
-    n: '[[w.asselin-hanois-road-to-the]], 189–90 (the day from the Defense Ministry''s *Lịch sử quân sự Việt Nam*, vol. 11, 172: 189 n.115). To check: the Secretariat''s instruction no. 75-CT/TW, Mar. 3, 1964, *Văn kiện Đảng toàn tập*, 25:71 (cited by [[w.asselin-hanois-road-to-the]], 190 n.118).'
+    n: '[[w.asselin-hanois-road-to-the]], 189–90 (the day from the Defense Ministry''s *Lịch sử quân sự Việt Nam*, vol. 11, 172: 189 n.115); [[w.lich-su-khang-chien-chong-my]], IV, 344 (the Navy on combat readiness from July 1964: coastal patrols stepped up, a forward command in Military Region 4''s waters). To check: the Secretariat''s instruction no. 75-CT/TW, Mar. 3, 1964, *Văn kiện Đảng toàn tập*, 25:71 (cited by [[w.asselin-hanois-road-to-the]], 190 n.118).'
     src:
       c: 9c081fff
       rows:
@@ -1773,6 +1779,7 @@ entries:
         - 'via w.asselin-hanois-road-to-the 190 n.118: B'
         - 'via x.2005.lich-su-quan-su-viet-nam-tap-11: A'
         - 'via x.2002.vietnam-victory-in-vietnam-131: B'
+        - 'w.lich-su-khang-chien-chong-my IV, 344: A'
     tags: [place:hanoi]
   - id: cal.1964-07-06.vietnam-operations
     when: July 6
@@ -1780,14 +1787,20 @@ entries:
     place: nam-dong
     thread: vietnam-operations
     c: 'Nam Đông, a CIDG–Special Forces camp in the mountains near the Laotian border: a reinforced Viet Cong battalion attacks in the night; 58 of the defenders killed, two Americans and an Australian among them. Captain Roger Donlon, wounded, holds the defenders together until daylight. Westmoreland, there before he is evacuated, gives him the Bronze Star; raised later to the Medal of Honor, the first of the war, from Johnson''s hands.'
-    n: '[[w.macv-command-history-1964]], 190 (the attack; the dead); [[w.westmoreland-soldier-reports]], 103 (the attack; Donlon; the Bronze Star and the Medal of Honor). Names: Westmoreland, Johnson.'
+    n: '[[w.macv-command-history-1964]], 190 (the attack; the dead); [[w.westmoreland-soldier-reports]], 103 (the attack; Donlon; the Bronze Star and the Medal of Honor); [[w.lich-su-khang-chien-chong-my]], III, 350 (the Region''s northern sub-region main force attacks the Nam Đông commando training center, July 6). Names: Westmoreland, Johnson.'
     src:
       c: aa026528
       rows:
         - 'w.macv-command-history-1964 190: A-B'
         - 'w.westmoreland-soldier-reports 103: A, C-E'
+        - 'w.lich-su-khang-chien-chong-my III, 350: A'
     tags: [name:westmoreland-william, name:johnson-lyndon-b]
     aliases: [cal.1964-07-06.vietnam-operations-2]
+    variants:
+      - unit: B
+        witness: w.lich-su-khang-chien-chong-my
+        reads: three companies destroyed
+        at: III, 350
   - id: cal.1964-07-06.press-and-broadcasting
     when: July 6
     date: '1964-07-06'
@@ -5417,6 +5430,15 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1822: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1964-07-19.vietnam-hanoi
+    when: July 19
+    date: '1964-07-19'
+    place: quy-chau
+    thread: vietnam-hanoi
+    also: [vietnam-34a, vietnam]
+    c: Nghệ An. Saigon commandos are dropped at Quỳ Châu, July 19.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 363.'
+    tags: [polity:drv]
   - id: cal.1964-07-20.civil-rights-bill
     when: July 20
     date: '1964-07-20'
@@ -5717,6 +5739,20 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1822: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1964-07-20.vietnam-hanoi
+    when: July 20
+    date: '1964-07-20'
+    place: cai-be
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Định Tường. The night of July 20, under Region 8''s forward command, Battalion 261, two fire companies (82-mm mortars, 75-mm recoilless), a special company, Cái Bè district troops and the guerrillas south of Route 4 take the Cái Bè subsector: over 100 killed, two 105-mm guns put out of action, by the history''s count.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 348.'
+    tags: [polity:drv]
+    time_range:
+      - 1964-07-20T14:00Z
+      - 1964-07-20T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1964-07-21.robert-kennedy
     when: July 21
     date: '1964-07-21'
@@ -6097,6 +6133,15 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 394: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1964-07-21.vietnam-hanoi
+    when: July 21
+    date: '1964-07-21'
+    place: saigon
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: Saigon. A large general strike, July 21, against Nguyễn Khánh's decree of July 16 banning demonstrations, strikes and meetings, for the Vimytex workers.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 356.'
+    tags: [polity:drv]
   - id: cal.1964-07-22.amendments
     when: July 22
     date: '1964-07-22'
@@ -8609,12 +8654,13 @@ entries:
     thread: vietnam-34a
     also: [vietnam-tonkin]
     c: 'PTF-2, -3, -5 and -6 from Đà Nẵng against Hòn Mê and Hòn Ngư. At Hòn Mê, after midnight, fired on, four of PTF-6''s crew wounded, no landing: the boats shell the island from offshore, the first standoff bombardment of 34A; a gun emplacement and buildings destroyed. A Swatow, T-142, gives chase. All back at Đà Nẵng by midday July 31.'
-    n: '[[w.marolda-united-states-navy-and]], 409–10. The time is the first day''s. To check: SACSA, "Description of South Vietnamese Operations on 30/31 July 1964" (cited by [[w.marolda-united-states-navy-and]], 410 n.38). See [[cal.1964-07-30.vietnam-34a]].'
+    n: '[[w.marolda-united-states-navy-and]], 409–10; [[w.lich-su-khang-chien-chong-my]], III, 364 (the night of July 30–31, Saigon Navy commandos under the American command in Saigon shell Hòn Mê, Thanh Hóa, and Hòn Ngư, Nghệ An). The time is the first day''s. To check: SACSA, "Description of South Vietnamese Operations on 30/31 July 1964" (cited by [[w.marolda-united-states-navy-and]], 410 n.38). See [[cal.1964-07-30.vietnam-34a]].'
     src:
       c: 76eeb1ed
       rows:
         - 'w.marolda-united-states-navy-and 409–10: all'
         - 'via x.1964-07-31.sacsa-description-of-south-vietnamese-operations: all'
+        - 'w.lich-su-khang-chien-chong-my III, 364: A'
     tags: [place:hon-me, place:hon-ngu, place:da-nang]
     time_range:
       - 1964-07-30T16:00Z

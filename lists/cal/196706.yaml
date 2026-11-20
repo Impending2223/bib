@@ -481,6 +481,33 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XIX, 102–104: all'
         - 'via w.jianguo-yilai-mao-zedong XIX, 103 n.1a: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1967-06-04.china-leadership-4
+    when: June 4
+    date: '1967-06-04'
+    place: wuhan
+    thread: china-leadership
+    c: 'The Wuhan Military Region issues an Announcement: it affirms the main direction of its support-the-left work and repeats that the Workers'' Headquarters'' verdict is not to be reversed, while criticizing some faults and mistakes in that work, and hopes the mass organizations will seek common ground, keep differences and reach a great alliance; both sides are dissatisfied.'
+    n: '[[w.mao-zedong-zhuan]], VI, ch. 76 (the day by the book; no note; the rebels call it ''a false self-criticism, a real counterattack'', the ''Million Heroes'' find it too weak).'
+    src:
+      c: 29e5c905
+      rows:
+        - 'w.mao-zedong-zhuan VI, ch. 76: all'
+    tags: [polity:prc]
+  - id: cal.1967-06-04.vietnam-hanoi
+    when: June 4–5
+    date: '1967-06-04'
+    place: quang-tri
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'La Vang, Từ Hạ and Quảng Trị town. The Trị–Thiên forces hit the rear bases of the Saigon 1st Division''s Regiments 1 and 3 by surprise: 1,700 killed, 230 vehicles destroyed, 8 stores of fuel and arms burned.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 281. The figures are the history''s. Check: the night; the history prints "đêm 5 rạng ngày 4-6-1967", which cannot be read as written.'
+    tags: [polity:drv]
+    time_range:
+      - 1967-06-04T14:00Z
+      - 1967-06-04T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1967-06-05.middle-east
     when: June 5
     date: '1967-06-05'
@@ -848,6 +875,14 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 157: all'
     tags: [polity:prc, polity:uar, polity:syria, name:zhou-enlai, name:nasser, name:al-atasi-nur-al-din, name:shukairy-ahmad]
+  - id: cal.1967-06-06.vietnam-hanoi
+    when: June 6
+    date: '1967-06-06'
+    thread: vietnam-hanoi
+    also: [vietnam-operations, vietnam-support]
+    c: Ship 198 of the Navy's Group 125 sails for the Ba Làng An landing, Quảng Ngãi.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 50. Check: the port of departure; the history gives none.'
+    tags: [polity:drv, ok:fields-place]
   - id: cal.1967-06-07.middle-east
     when: June 7
     date: '1967-06-07'
@@ -2370,6 +2405,15 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 161: all'
     tags: [polity:prc, polity:japan, name:chen-yi]
+  - id: cal.1967-06-16.vietnam-hanoi
+    when: June 16
+    date: '1967-06-16'
+    place: thanh-hoa
+    thread: vietnam-hanoi
+    also: [vietnam-air-war]
+    c: Thanh Hóa. The women's militia platoon of Hoa Lộc, Hậu Lộc, with the antiaircraft gunners, shoots down an A-4D with infantry rifles.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 416.'
+    tags: [polity:drv, polity:us]
   - id: cal.1967-06-17.testing
     when: June 17
     date: '1967-06-17'
@@ -3583,11 +3627,12 @@ entries:
     date: '1967-06-25'
     thread: china-leadership
     c: 'The *Renmin ribao* 人民日报, reprinting with an editors'' note the *Wenhui bao* 文汇报 editorial of June 21 ''Proletarian revolutionary character and petty-bourgeois vacillation'', sets in bold type a sentence of Mao''s 毛泽东, undated in the book: the leading of the petty-bourgeois thinking in our ranks into the course of proletarian unity is a key question for the victory of the Cultural Revolution.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 107 (June 25, 1967). Check: when Mao wrote the sentence; the book dates it ''1967'' and prints it from the *Renmin ribao* of June 25. Names: Mao Zedong.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 107 (June 25, 1967); [[w.mao-zedong-zhuan]], VI, ch. 76 n.38 (the *Renmin ribao*, reprinting a *Wenhui bao* editorial, prints in the editors'' note, in bold type, a passage of Mao''s: ''we must be able to lead the petty-bourgeois thinking in our ranks onto the track of proletarian revolution, which is a key question for the victory of the Cultural Revolution''; the book dates the paper June 25, 1967, n.38; it gives no title or date of the *Wenhui bao* editorial). Check: when Mao wrote the sentence; the book dates it ''1967'' and prints it from the *Renmin ribao* of June 25. To check: *Renmin ribao* 《人民日报》, June 25, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.38). Names: Mao Zedong.'
     src:
       c: a9aeb3cb
       rows:
         - 'w.jianguo-yilai-mao-zedong XIX, 107: all'
+        - 'w.mao-zedong-zhuan VI, ch. 76 n.38: ?'
     tags: [polity:prc, name:mao-zedong]
   - id: cal.1967-06-26.civil-disorders
     when: June 26–July 1
@@ -4675,3 +4720,12 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 223: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1967-06.vietnam-hanoi
+    when: June
+    date: 1967-06
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: 'The Politburo decides to prepare a decisive blow, while the Americans are in a dilemma and wholly taken up with their election: to destroy campaign-level and strategic units, Americans and Saigon''s alike, and force an American defeat in the field.'
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 30–31. Made public: 2013. Check: the day.'
+    tags: [polity:drv, vis:only:drv]

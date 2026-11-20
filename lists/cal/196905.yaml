@@ -116,6 +116,15 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XIX, 445 n.1: A'
         - 'via w.jianguo-yilai-mao-zedong XIX, 445 n.1a: A'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-05-05.vietnam-hanoi
+    when: May 5
+    date: '1969-05-05'
+    place: dong-pan
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Đồng Pan. Regiment 174 of the 5th Division attacks the base and hurts the battalion holding it; the rest falls back to Bầu Cỏ, Tây Ninh. The same day Regiment 141 of the 7th Division hits Tà Tê and north of Route 13 without success, the American 1st Cavalry's two brigades keeping the road.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 115–16.'
+    tags: [polity:drv, polity:us]
   - id: cal.1969-05-07.vietnam-hanoi
     when: May 7
     date: '1969-05-07'
@@ -165,8 +174,17 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam, vietnam-paris]
     c: 'The Sixteenth Plenum. The Politburo''s resolution no. 188-NQ/TW on the situation and tasks, of May 10: the Americans, their will shaken, de-escalating step by step and "de-Americanizing" the war. The task: to press the general offensive and uprising with the diplomatic attack, defeat the design of ending the war from strength and "de-Americanization," force the Americans to withdraw and the Saigon army to collapse, a decisive victory. Lê Duẩn on the South''s revolution; an outline on the diplomatic front: the halt and the four-party conference forced from Washington, the overall solution to be put forward.'
-    n: '*Nghị quyết của Bộ Chính trị số 188-NQ/TW, ngày 10 tháng 5 năm 1969, Về tình hình và nhiệm vụ*, [[w.van-kien-dang-toan]], XXX, 118–43 (the task, 134); *Đề cương báo cáo Về tình hình và nhiệm vụ trên mặt trận đấu tranh ngoại giao*, the plenum''s, "May 8–10, 1969" (76 n.), 76–117; *Bài nói của đồng chí Lê Duẩn ... tại Hội nghị Trung ương lần thứ 16, tháng 5 năm 1969, Về nhiệm vụ cách mạng miền Nam*, from the tape, not revised by him (144 n.), 144–70. Made public: 2004. See [[cal.1968-08-29.vietnam-hanoi]]. Names: Lê Duẩn.'
+    n: '*Nghị quyết của Bộ Chính trị số 188-NQ/TW, ngày 10 tháng 5 năm 1969, Về tình hình và nhiệm vụ*, [[w.van-kien-dang-toan]], XXX, 118–43 (the task, 134); *Đề cương báo cáo Về tình hình và nhiệm vụ trên mặt trận đấu tranh ngoại giao*, the plenum''s, "May 8–10, 1969" (76 n.), 76–117; *Bài nói của đồng chí Lê Duẩn ... tại Hội nghị Trung ương lần thứ 16, tháng 5 năm 1969, Về nhiệm vụ cách mạng miền Nam*, from the tape, not revised by him (144 n.), 144–70. [[w.lich-su-khang-chien-chong-my]], VI, 83–90 (the Politburo''s session of May 10 on the situation and the new tasks and its resolution, after *Văn kiện Đảng toàn tập*, XXX, 128–32: the Americans forced to de-escalate and "Vietnamize," the aims to make them withdraw and the Saigon army collapse; not the plenum, the diplomatic outline or Lê Duẩn''s speech). Made public: 2004. See [[cal.1968-08-29.vietnam-hanoi]]. Names: Lê Duẩn.'
+    src:
+      c: ad4bc52e
+      rows:
+        - 'w.lich-su-khang-chien-chong-my VI, 83–90: B, C'
     tags: [polity:drv, polity:us, polity:rvn, vis:only:drv, name:le-duan]
+    variants:
+      - unit: B
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the Politburo met "ngày 10-5-1969" (May 10, 1969), VI, 83–84; elsewhere its resolution "tháng 4-1969" (of April 1969), VI, 128, 159, 190, 222
+        at: VI, 83–84
   - id: cal.1969-05-08.china-leadership
     when: May 8
     date: '1969-05-08'
@@ -192,6 +210,24 @@ entries:
       rows:
         - 'via w.jianguo-yilai-mao-zedong XIX, 445 n.1b: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1969-05-08.vietnam-hanoi-3
+    when: May 8–9
+    date: '1969-05-08'
+    place: suoi-tam-bung
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Suối Tầm Bung and Route 20. Regiment 5 of the 5th Division attacks the Saigon 18th Division's task forces 43 and 52 and beats their sweep. The 5th Division then keeps on the 18th in Bà Rịa and Long Khánh and hurts Task Force 52 badly.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 116–17.'
+    tags: [polity:drv]
+  - id: cal.1969-05-08.vietnam-hanoi-2
+    when: May 8
+    date: '1969-05-08'
+    place: paris
+    thread: vietnam-hanoi
+    also: [vietnam-paris]
+    c: 'Paris, the conference''s sixteenth plenary session. The Front''s delegate puts forward an overall solution in ten points: Vietnam''s independence, sovereignty, unity and territory respected; all American and allied troops, military personnel and weapons withdrawn without conditions; the Vietnamese armed forces in the South a question for the Vietnamese parties; the South''s affairs its people''s, a provisional coalition government formed by negotiation, general elections; peace and neutrality abroad; reunification step by step and by peaceful means; neither zone in a military alliance or with foreign bases; prisoners negotiated, Washington responsible for the war''s damage; international supervision of the withdrawals.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 223–24.'
+    tags: [polity:drv, polity:us]
   - id: cal.1969-05-09.china-leadership
     when: May 9
     date: '1969-05-09'
@@ -238,6 +274,15 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 213: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1969-05-10.vietnam-hanoi-3
+    when: May 10–11
+    date: '1969-05-10'
+    place: a-bia
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'A Lưới–A Bia valley, west of Huế. The American and Saigon commands decide on Apache Snow: five battalions, the 1st, 2d and 3d of the 187th Brigade, 101st Airborne, and two of the Saigon 1st Division. The 3d Battalion, Lt. Col. Weldon Honeycutt, searches round A Bia from posts at Hills 337 and 1,087, and is ambushed on the saddle north of the mountain: dozens out of action, by the history''s count.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 123–24 and n. 1. Check: the day of the decision, May 10, and of the ambush, May 10–11; the history gives "ngày 10-5-1969" for the first and "các ngày 10 và 11-5" for the second.'
+    tags: [polity:drv, polity:us]
   - id: cal.1969-05-11.china-leadership
     when: May 11
     date: '1969-05-11'
@@ -246,6 +291,39 @@ entries:
     c: 'Zhou Enlai at the Center''s meeting on Guizhou: they had asked to stay after the Ninth Congress to talk; Guizhou''s alliance by trade has run two years and has been less steady since last year, so after Zhejiang''s problem was settled they were called in. Yunnan and Guizhou, with Sichuan, are the nation''s great rear, the Third Front. Everything divides in two, and so it does with views of the rebels: some do not advance, some may be bad; capitalist-roaders are of the repentant and the unrepentant; nothing is absolute but developing; the few who have not united must unite wherever there are masses.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 290–291 (May 11, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-05-11.vietnam-hanoi-2
+    when: May 11
+    date: '1969-05-11'
+    place: an-loc
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Eastern Nam Bộ, the summer offensive's first day. The 7th Division and sappers hurt the American 11th Armored Cavalry west and southwest of Hớn Quản and raid the 3d Brigade, 1st Airmobile Cavalry, at Tếch Ních; the town and Route 13 are threatened and eight airborne battalions sent up. In Tây Ninh the 9th Division hits bases around the Holy See and Vườn Điều; the strategic reserve and the American 25th's 1st Brigade come to relieve.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 116. See [[cal.1969-05-11.vietnam-hanoi]].'
+    tags: [polity:drv, polity:us]
+  - id: cal.1969-05-11.vietnam-hanoi-3
+    when: May 11
+    date: '1969-05-11'
+    place: kontum
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Kon Tum. Under the Đắk Tô 2 attack Saigon opens operation Dân Quyền northwest of the town with eight infantry battalions and three armored squadrons, to stretch the attackers. The enemy avoids contact and holds hilltops; the Front's command sends staff down to the units to carry out a new plan, pursuing day and night and surrounding each force found.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 120–21. See [[cal.1969-05-11.vietnam-hanoi]]. Check: the day; the history puts it after the night of May 10–11.'
+    tags: [polity:drv]
+  - id: cal.1969-05-11.vietnam-hanoi
+    when: May 11
+    date: '1969-05-11'
+    place: dak-to
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'By the common plan, the summer offensive opens across the South: more than 800 targets, 57 bases and headquarters of regiment or above and 41 airfields among them. In the Central Highlands the B3 Front''s Đắk Tô 2 campaign, from the night of May 10–11: the joint base at Đắk Tô, the Kon Tum airfield, the 42d Regiment''s headquarters and Tân Cảnh attacked, Plây Cần besieged; the 66th and 28th Infantry and 40th Artillery Regiments on the main axis. The Front ends it June 26: 4,135 of the enemy put out of action, nine of twelve battalions hard hit, by its count. The offensive runs to June 20.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 115–22, 127. The history adds (VI, 121–22, 127): 88 vehicles and 103 aircraft destroyed, hundreds of prisoners; the tactic of continuous encirclement and attack, "bao vây tiến công liên tục", first used here; over the summer phase, May 11–June 20, 29 battalions and equivalents put out of action; over the spring and summer phases, in Central Trung Bộ, 150 strategic hamlets and 90 resettlement areas broken, 200,000 people freed; all by its count.'
+    tags: [polity:drv, place:dak-to, place:kontum, province:kon-tum]
+    time_range:
+      - 1969-05-10T16:00Z
+      - 1969-05-10T22:00Z
+    time_band: predawn
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1969-05-12.vietnam-hanoi
     when: May 12
     date: '1969-05-12'
@@ -262,6 +340,36 @@ entries:
     c: 'Zhou Enlai, on the seizure of command at the Chengdu-Kunming railway''s construction headquarters, armed fights at the sites and the flight of many workers that have paralyzed the line, rules: "southwest railway building is under the unified command of the Railway Corps." In early December he orders that the whole Chengdu-Kunming line open by July 1, 1970, and work then resumes quickly.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 291 (May 12, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-05-12.vietnam-hanoi-2
+    when: May 12
+    date: '1969-05-12'
+    place: son-tra
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Region V, at night. Sappers and mortar teams strike the missile position at Sơn Trà, Đà Nẵng, the 1st Marine Regiment's headquarters at Hầm Xẻ, the 11th Brigade at Gò Hội, Quảng Ngãi, and the 5th Marine Regiment at An Hòa, Quảng Đà.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 117–18. See [[cal.1969-05-11.vietnam-hanoi]]. The words: "đêm 12-5-1969" (the night of May 12, 1969).'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1969-05-12T14:00Z
+      - 1969-05-12T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
+  - id: cal.1969-05-12.vietnam-hanoi-3
+    when: May 12
+    date: '1969-05-12'
+    place: a-bia
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: A Bia. In the morning B-52s and other bombers carpet the mountain. Three companies of the 3d Battalion, 187th, move north in several columns into Regiment 8's prepared positions; heavy rain and mud. Company C loses 37; Company B is drawn into a second ambush.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 124. The words: "Sáng 12-5-1969" (the morning of May 12, 1969).'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1969-05-11T22:00Z
+      - 1969-05-12T04:00Z
+    time_band: morning
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1969-05-13.china-leadership
     when: May 13
     date: '1969-05-13'
@@ -278,6 +386,14 @@ entries:
     c: Zhou Enlai at the meeting of cadres of the central state organs conveys the spirit of the Ninth Congress and Mao's speeches during it, stressing the carrying out of Mao's call to prepare for war, sum up experience and implement policy; in speaking of Party history he says that the present cleaning of class ranks must guard against enlargement.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 292 (May 14, 1969). Made public: 2020. Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-05-14.vietnam-paris
+    when: May 14
+    date: '1969-05-14'
+    thread: vietnam-paris
+    also: [vietnam-hanoi]
+    c: 'Nixon''s eight-point address on Vietnam: American troops to leave on conditions, both sides, the United States and the DRV, to de-escalate and withdraw together from the South, the Saigon government to stay as it is. The history sets it against the Front''s ten points.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 225. See [[cal.1969-05-08.vietnam-hanoi-2]]. To check: Nixon, *Public Papers* (1969), the address of May 14. Names: Nixon. Check: the points; the history gives no detail and the American record should be read.'
+    tags: [polity:us, name:nixon-richard-m, ok:fields-place]
   - id: cal.1969-05-16.soviet-union-leadership
     when: May 16
     date: '1969-05-16'
@@ -324,18 +440,38 @@ entries:
     c: Zhou Enlai reports in writing to Mao what was said in his talks with the Inner Mongolian leaders.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 291 (May 17, 1969). Made public: 2020. See [[cal.1969-05-13.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-05-17.vietnam-hanoi
+    when: May 17–23
+    date: '1969-05-17'
+    place: ngoc-do-lang
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Ngọc Dơ Lang range. In Đắk Tô 2, the Front's forces surround and badly hurt the Saigon 22d Ranger Battalion.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 121. See [[cal.1969-05-11.vietnam-hanoi]].'
+    tags: [polity:drv]
+  - id: cal.1969-05-17.vietnam-hanoi-2
+    when: May 17
+    date: '1969-05-17'
+    place: a-bia
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: A Bia. The American command sends the 1st Battalion, 506th, up to take Hill 900; the rain holds it, and the attack stops again.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 124.'
+    tags: [polity:drv, polity:us]
   - id: cal.1969-05-19.china-leadership
     when: May 19
     date: '1969-05-19'
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao, afternoon, with Li Xiannian, Ye Jianying and others: Zhou Enlai''s account of the Center''s means for Inner Mongolia, Shandong and Guizhou, where factionalism and a widened cleaning of class ranks continue. He condemns the chiefs of those regions for broadening, acting alone, favoring one side; at least half of the special case groups'' material cannot be believed; at Peking University men were beaten crippled ("kill the monkey, slaughter the ox, stew the sheep") for criticizing leaders. Asks whether Tao Zhu''s illness is better: he may not be refused treatment for his errors.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 19, 1969; [[w.zhou-enlai-nianpu-1949-2020]], III, 292 (May 19, 1969; Zhou''s account and Mao''s criticism of the regions'' chiefs). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Li Xiannian, Ye Jianying, Tao Zhu, Hou Hanqing, Niu Huilin, Yang Keming.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 19, 1969; [[w.zhou-enlai-nianpu-1949-2020]], III, 292 (May 19, 1969; Zhou''s account and Mao''s criticism of the regions'' chiefs); [[w.mao-zedong-zhuan]], VI, ch. 78 n.9 (about ten days before he goes to Wuhan Mao says in a talk: ''at least half of what the special case groups have cannot be believed''; the record in n.9 is of a talk of May 19, 1969, no addressee or place named). Made public: 2013. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], VI, ch. 78), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if the 1997 edition of the Zhou chronology ([[w.zhou-enlai-nianpu-1949]]), cited here, prints it. To check: Mao Zedong 毛泽东, talk (record 谈话记录), May 19, 1969 (cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.9). Names: Mao Zedong, Zhou Enlai, Li Xiannian, Ye Jianying, Tao Zhu, Hou Hanqing, Niu Huilin, Yang Keming.'
     src:
       c: 5691fd09
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, May 19, 1969: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 292: A, B'
+        - 'w.mao-zedong-zhuan VI, ch. 78 n.9: C'
+        - 'via w.mao-zedong-zhuan VI, ch.78 n.9: C'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:li-xiannian, name:ye-jianying, vis:only:prc, name:tao-zhu]
   - id: cal.1969-05-19.china-leadership-2
     when: May 19
@@ -386,6 +522,32 @@ entries:
     c: Zhou Enlai receives some standing members of the Hubei Province and Wuhan revolutionary committees and Ninth Congress delegates and says that the Wuhan Workers' Congress's "resolution on certain problems of the proletarian cultural revolution in the Hubei-Wuhan area", of May 11, misjudged the situation, and that the Workers' Congress's moving into the city committee on May 17 was wrong. On May 11 the Congress's full committee had decided to send a "workers' investigation group" to the Wuhan committee; on the 16th the group's notice charged the committee with wrecking "unified leadership" and "restoring the old"; on the 17th it moved into the committee.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 292 (May 19, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-05-19.vietnam-hanoi
+    when: May 19
+    date: '1969-05-19'
+    place: long-tau-river
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Lòng Tàu River. For Hồ Chí Minh's birthday, Group 10, the Rừng Sác sappers, sink two tankers, of 7,000 and 15,000 tons, in 30 minutes, by the history's count. The group, cut off and encircled, feeds itself and makes its own arms.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 117. Names: Hồ Chí Minh.'
+    tags: [polity:drv, polity:us, name:ho-chi-minh]
+  - id: cal.1969-05-19.vietnam-hanoi-2
+    when: May 19
+    date: '1969-05-19'
+    place: a-bia
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: A Bia. Lt. Gen. Melvin Zais, the 101st Airborne's commander, orders the 2d Battalions of the 501st and 502d and the 2d Battalion, 3d Regiment, Saigon 1st Division, to encircle the mountain from northeast, southeast and southwest, to cut supply and retreat.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 124–25. Names: Zais.'
+    tags: [polity:drv, polity:us, name:zais-melvin]
+  - id: cal.1969-05-19.vietnam-hanoi-3
+    when: May 19
+    date: '1969-05-19'
+    place: hanoi
+    thread: vietnam-hanoi
+    c: 'Hồ Chí Minh, receiving a delegation of the army cadres'' class come to wish him long life on his 79th birthday, speaks on the strength of the war: a one-kilogram weight, set at an advantage, lifts a hundred; the Americans lose by their position, though still stubborn. His charge: the rear to do better for the front, first of all; build forces of high quality, vigilant and ready, and spare men, arms and rice; the troops to help the people and strengthen the rear.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 192 and n. 1–2. See [[cal.1969-05.vietnam-hanoi]]. To check: Hồ Chí Minh, *Toàn tập*, XII (2000), 455, 465–66 (cited by [[w.lich-su-khang-chien-chong-my]], VI, 192 n.). Names: Hồ Chí Minh. Check: the day; the history gives the occasion, his 79th birthday, and its own date for the birthday is May 19 (VI, 117).'
+    tags: [polity:drv, name:ho-chi-minh]
   - id: cal.1969-05-20.china-leadership
     when: May 20
     date: '1969-05-20'
@@ -418,6 +580,13 @@ entries:
     c: 'Zhou Enlai writes Kang Sheng on the first self-criticism by the Inner Mongolia revolutionary committee core group''s chief leaders: it is "a plain narrative, not bringing out the enlargement errors made in cleaning the class ranks before the Center''s instruction", so it is not focused; "in fact those errors come from misjudging the situation and ultra-left policy errors."'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 291–292 (May 21, 1969). Made public: 2020. See [[cal.1969-05-13.china-leadership]]. Names: Zhou Enlai, Kang Sheng.'
     tags: [polity:prc, name:zhou-enlai, name:kang-sheng, vis:only:prc]
+  - id: cal.1969-05-21.vietnam-congress
+    when: May 21
+    date: '1969-05-21'
+    thread: vietnam-congress
+    c: 'Edward Kennedy on the assault on Hamburger Hill: immoral and senseless; American lives not to be spent for the army''s pride.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 126. Names: Kennedy. Check: the day and the words; the history renders an AP story dated May 21, 1969 in Vietnamese, and the calendar''s own record of the speech should be read.'
+    tags: [polity:us, name:kennedy-edward-m]
   - id: cal.1969-05-22.vietnam-hanoi
     when: May 22
     date: '1969-05-22'
@@ -468,6 +637,15 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 285–286: all'
         - 'via x.1969-05-23.kang-sheng-speech-transmitting-ninth-congress-spirit: all'
     tags: [polity:prc, name:kang-sheng, name:chen-boda, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-05-23.vietnam-hanoi
+    when: May 23
+    date: '1969-05-23'
+    place: a-bia
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: A Bia. After 13 days and nights, short of food and ammunition and cut off from replacements, the Trị–Thiên forces withdraw. The history counts 1,500 of the 187th Brigade out of action and nearly a million pounds of bombs and shells on the defenders; its notes give American dead as 430 in a week (Amter) and 70 killed and 372 wounded in ten days (Pimlott). The troops call it Hamburger Hill.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 125–26 and n. 1. To check: Joseph A. Amter, *Lời phán quyết về Việt Nam* (Quân đội nhân dân, 1985), 255; J. Pimlott, *Việt Nam những trận đánh quyết định* (Bộ Quốc phòng, 1997), 130 (cited by [[w.lich-su-khang-chien-chong-my]], VI, 125 n. 1). Check: the figures; the history gives its own and two American writers'' counts, VI, 125 n. 1.'
+    tags: [polity:drv, polity:us]
   - id: cal.1969-05-24.vietnam-hanoi
     when: May 24
     date: '1969-05-24'
@@ -497,6 +675,15 @@ entries:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 293: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao 214: A'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1969-05-24.vietnam-hanoi-2
+    when: May 24
+    date: '1969-05-24'
+    place: plei-thong-breng
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Plây Thông Breng, Hill 668. In Đắk Tô 2, Battalion 9 of the 66th Regiment hurts the 2d Battalion of the Saigon strike force: over 300 out of action, by the history''s count. About then 250 of its 1st Battalion are put out of action. The history calls it the campaign''s best result.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 121. See [[cal.1969-05-11.vietnam-hanoi]].'
+    tags: [polity:drv]
   - id: cal.1969-05-25.china-leadership
     when: May 25
     date: '1969-05-25'
@@ -518,12 +705,13 @@ entries:
     date: '1969-05-26'
     thread: china-leadership
     c: 'Mao, Hall 118, afternoon, chairs the Politburo Standing Committee and hears the Military Commission''s Office Group. It decides: a new Commission general office and a small General Political Department; the provincial districts and revolutionary committees to see to city air defense; no more army quota, the room kept to expand the navy, air force and Second Artillery; the defense industries and the Third, Fourth, Fifth and Sixth Ministries of Machine Building under the army. Other matters: local forces, field army rotations, senior transfers, graduates'' placement, the Selected Works''s fifth and sixth volumes.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 26, 1969; [[w.zhou-enlai-nianpu-1949-2020]], III, 294 (May 26, 1969; the army''s takeover of the defense industry). Made public: 2013. Check: [[w.zhou-enlai-nianpu-1949-2020]], III, 294 (May 26, 1969), has Mao at the meeting also criticize the "against restoration" slogan some regions raised. Names: Mao Zedong, Huang Yongsheng.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 26, 1969; [[w.zhou-enlai-nianpu-1949-2020]], III, 294 (May 26, 1969; the army''s takeover of the defense industry); [[w.mao-zedong-zhuan]], VI, ch. 78 n.10 (May 26 Mao hears the Military Commission''s Office Group report to the Politburo''s Standing Committee and says: in the work on special cases much is unreliable, hearsay; investigating inside and outside has brought out nothing in a long time; some students have no experience, some have factionalism, and one side lays out the other; ''do not push the responsibility down, do not blame those below, who told us not to run it''; the book gives no hall, hour or the decisions of the entry, n.10). Made public: 2013. Check: [[w.zhou-enlai-nianpu-1949-2020]], III, 294 (May 26, 1969), has Mao at the meeting also criticize the "against restoration" slogan some regions raised. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], VI, ch. 78), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if the 1997 edition of the Zhou chronology ([[w.zhou-enlai-nianpu-1949]]), cited here, prints it. To check: Mao Zedong 毛泽东, remarks on hearing the Military Commission''s Office Group 军委办事组 report to the Standing Committee of the Politburo (record 讲话记录), May 26, 1969 (cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.10). Names: Mao Zedong, Huang Yongsheng.'
     src:
       c: 412d9155
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, May 26, 1969: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 294: A, E'
+        - 'w.mao-zedong-zhuan VI, ch. 78 n.10: ?'
     tags: [polity:prc, name:mao-zedong, name:huang-yongsheng, vis:only:prc]
   - id: cal.1969-05-27.china-leadership
     when: May 27
@@ -661,3 +849,109 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 258: all'
     tags: [polity:prc]
+  - id: cal.1969-05-31.china-leadership-2
+    when: May 31
+    date: '1969-05-31'
+    place: wuhan
+    thread: china-leadership
+    c: Mao, out of Peking for the first time in more than a year, goes south by special train to Wuhan; from May 31 he stays at Meiling No. 1 of the East Lake guesthouse, Wuchang, to June 26.
+    n: '[[w.mao-zedong-zhuan]], VI, ch. 78 n.5 (the stay''s days as the book gives them; the book puts his leaving Peking in the last ten days of May, no day; on his last day, June 26, he says to Hubei''s Zeng Siyu 曾思玉 and others that he came not to talk work but to rest, being busy at Peking; while there he hears the heads of Hubei on farming, water works (he suggests Zeng go and see the Three Gorges), the Jiaozuo–Zhicheng railway and the Jianghan oilfield, and reads papers on technical innovation, the Bohai earthquake and flood control in North China, n.5; the book names no day for any of them). Made public: 1993 (Guan Xiang 官祥 and others, in [[w.mao-zedong-zai-hubei]], 323, cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.5). To check: Guan Xiang 官祥 and others, ''Zai Donghu de rizi li'' 《在东湖的日子里》, in [[w.mao-zedong-zai-hubei]], 323 (cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.5). Names: Mao Zedong.'
+    src:
+      c: 04374cc6
+      rows:
+        - 'w.mao-zedong-zhuan VI, ch. 78 n.5: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-05-31.china-leadership-3
+    when: May 31
+    date: '1969-05-31'
+    place: wuhan
+    thread: china-leadership
+    c: At Meiling No. 1 Mao has the portraits and quotations posted everywhere, in the corridor, the reception hall, the study and the bedroom, taken down at once.
+    n: '[[w.mao-zedong-zhuan]], VI, ch. 78 n.6 (on arriving at Meiling No. 1 到了梅岭一号, by the book, whose stay there begins May 31; n.6). Made public: 1993 (Guan Xiang 官祥 and others, in [[w.mao-zedong-zai-hubei]], 323, cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.6). To check: Guan Xiang 官祥 and others, ''Zai Donghu de rizi li'' 《在东湖的日子里》, in [[w.mao-zedong-zai-hubei]], 323 (cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.6). See [[cal.1969-05-31.china-leadership-2]]. Names: Mao Zedong.'
+    src:
+      c: 6c692ff0
+      rows:
+        - 'w.mao-zedong-zhuan VI, ch. 78 n.6: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-05-31.china-leadership-4
+    when: May 31–June 26
+    date: '1969-05-31'
+    place: wuhan
+    thread: china-leadership
+    c: 'Of Lin Biao''s saying that one sentence of Chairman Mao''s is worth ten thousand, Mao tells the staff: how can one man''s sentence be worth ten thousand, one sentence is one sentence; it is neither materialism nor dialectics, it would make him a god.'
+    n: '[[w.mao-zedong-zhuan]], VI, ch. 78 n.6 (the book says ''once'' during the stay in Wuhan; the day not given). Made public: 1993 (Guan Xiang 官祥 and others, in [[w.mao-zedong-zai-hubei]], 323, cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.6). To check: Guan Xiang 官祥 and others, ''Zai Donghu de rizi li'' 《在东湖的日子里》, in [[w.mao-zedong-zai-hubei]], 323 (cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.6). See [[cal.1969-05-31.china-leadership-2]]. Names: Lin Biao, Mao Zedong. Check: the day.'
+    src:
+      c: 4d2c3d41
+      rows:
+        - 'w.mao-zedong-zhuan VI, ch. 78 n.6: all'
+    tags: [polity:prc, name:lin-biao, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-05-31.china-leadership-5
+    when: May 31–June 26
+    date: '1969-05-31'
+    place: wuhan
+    thread: china-leadership
+    c: 'Watching the film of the Ninth Congress, Mao rises in anger at the many shots of himself and the long cheering and leaves midway: no one keeps watching a film of himself, there are too many shots of him, it is of no interest.'
+    n: '[[w.mao-zedong-zhuan]], VI, ch. 78 n.6 (the book says ''once'' during the stay in Wuhan; the day and the place of the showing not given). Made public: 1993 (Guan Xiang 官祥 and others, in [[w.mao-zedong-zai-hubei]], 323, cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.6). To check: Guan Xiang 官祥 and others, ''Zai Donghu de rizi li'' 《在东湖的日子里》, in [[w.mao-zedong-zai-hubei]], 323 (cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.6). See [[cal.1969-05-31.china-leadership-2]]. Names: Mao Zedong. Check: the day and the place.'
+    src:
+      c: 9d7c5d3b
+      rows:
+        - 'w.mao-zedong-zhuan VI, ch. 78 n.6: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-05-31.china-leadership-6
+    when: May 31–June 26
+    date: '1969-05-31'
+    place: wuhan
+    thread: china-leadership
+    c: Mao tells the staff of the 'four greats' that they are too disgusting.
+    n: '[[w.mao-zedong-zhuan]], VI, ch. 78 n.6 (the book gives it after the film, in the same stay; the day not given). Made public: 1993 (Guan Xiang 官祥 and others, in [[w.mao-zedong-zai-hubei]], 323, cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.6). To check: Guan Xiang 官祥 and others, ''Zai Donghu de rizi li'' 《在东湖的日子里》, in [[w.mao-zedong-zai-hubei]], 323 (cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.6). See [[cal.1969-05-31.china-leadership-5]]. Names: Mao Zedong. Check: the day.'
+    src:
+      c: f8919d9c
+      rows:
+        - 'w.mao-zedong-zhuan VI, ch. 78 n.6: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-05-31.china-leadership-7
+    when: May 31–June 26
+    date: '1969-05-31'
+    place: wuhan
+    thread: china-leadership
+    c: 'Mao, hearing Zeng Siyu report the victory over the 1968 Yangtze flood and the early rice promising a good harvest, says: people must eat and wear; Hubei is a land of fish and rice; agriculture is the base of the national economy and grain the base of the base; Hubei is rich in grain and cotton, hold fast to them.'
+    n: '[[w.mao-zedong-zhuan]], VI, ch. 78 n.8 (Zeng Siyu''s 曾思玉 recollection in Mao Zedong zai Hubei, ''the summer of 1969'' in Hubei; the day and place of the talk not given; the book adds that Mao asked about the Three Gorges and the Jiaozuo–Zhicheng railway in the stay). Made public: 1993 ([[w.mao-zedong-zai-hubei]], 39, cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.8). To check: [[w.mao-zedong-zai-hubei]], 39 (cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.8). See [[cal.1969-05-31.china-leadership-2]]. Names: Mao Zedong, Zeng Siyu. Check: the day and the place of the talk.'
+    src:
+      c: 2aee8c42
+      rows:
+        - 'w.mao-zedong-zhuan VI, ch. 78 n.8: all'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-05.vietnam-hanoi-2
+    when: May
+    date: 1969-05
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Region 6. Sappers hit the Saigon 44th Regiment at Sông Mao, Bình Thuận, a ranger camp at Lương Sơn and the subsector and gun position at Kim Ngọc. On Routes 1, 8 and 11 and north and south of Hòa Đa, the regional forces and local units stop Task Force 1/5, a Saigon mechanized infantry group: hundreds out of action, by the history''s count.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 118. Check: the days; the history gives the month.'
+    tags: [polity:drv, ok:fields-place]
+  - id: cal.1969-05-31.vietnam-hanoi
+    when: May 31
+    date: '1969-05-31'
+    place: hill-875
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Hill 875. In Đắk Tô 2, the 66th Regiment and Battalion 3 of the 28th close round the Saigon 11th and 23d Ranger Battalions on the hill and attack in turn; hundreds out of action, by the history's count. The Saigon command pulls back to call air and artillery, the attackers close up each time. The history notes that Regiment 174 beat the American 173d Airborne's 2d Battalion on the same hill, Nov. 1967.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 121–22. See [[cal.1969-05-11.vietnam-hanoi]].'
+    tags: [polity:drv]
+  - id: cal.1969-05.vietnam-saigon
+    when: May
+    date: 1969-05
+    place: saigon
+    thread: vietnam-saigon
+    also: [vietnam-hanoi]
+    c: Saigon. 11,000 airport and railway workers strike, hindering supply of American and Saigon units.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 156. Check: the days; the history gives the month.'
+    tags: [polity:rvn]
+  - id: cal.1969-05.vietnam-hanoi
+    when: May
+    date: 1969-05
+    place: hanoi
+    thread: vietnam-hanoi
+    c: 'Hanoi. A class for the army''s middle and senior cadres, of the Defense Ministry, the military regions, services, arms and divisions, on the situation and tasks of the war''s new stage. Hồ Chí Minh''s letter to it: resolve to fight the Americans to final victory, orders carried out whatever happens; good tactics, each action''s lessons learned; responsibility, hardship shared with the men; weapons cared for, every round and grain of rice saved.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 191–92. To check: Hồ Chí Minh, *Toàn tập*, XII (2000), 465–66 (cited by [[w.lich-su-khang-chien-chong-my]], VI, 192 n.). Names: Hồ Chí Minh. Check: whether the letter was printed at the time.'
+    tags: [polity:drv, name:ho-chi-minh, place:hanoi]

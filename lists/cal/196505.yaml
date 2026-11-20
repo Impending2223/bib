@@ -477,6 +477,15 @@ entries:
       - 1965-05-02T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-02.vietnam-hanoi
+    when: May 2–6
+    date: '1965-05-02'
+    place: lo-go
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: 'Lò Gò, northwest Tây Ninh. The first congress of heroes and emulation fighters of the southern liberation armed forces. The Liberation Front''s Central Committee launches the emulation drive "Quyết chiến, quyết thắng giặc Mỹ" (resolved to fight and beat the Americans); Nguyễn Chí Thanh, of the Politburo, deputy secretary of the Central Military Party Committee: fight the Americans and the way to beat them will be found.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 45. Names: Nguyễn Chí Thanh.'
+    tags: [polity:drv, name:nguyen-chi-thanh]
   - id: cal.1965-05-03.court
     when: May 3
     date: '1965-05-03'
@@ -1202,6 +1211,14 @@ entries:
       - 1965-05-05T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-05.vietnam-hanoi-2
+    when: May 5
+    date: '1965-05-05'
+    place: hanoi
+    thread: vietnam-hanoi
+    c: 'Hồ Chí Minh signs order no. 47-LCT, the partial mobilization: part of the reserve officers, noncommissioned officers and men, and part of the army''s reservists not yet served, called up. The Government Council to plan it, defense raised as far as needed, the economy kept to the state plan.'
+    n: '*Lệnh của Chủ tịch nước Việt Nam Dân chủ Cộng hòa*, no. 47-LCT, Hanoi, May 5, 1965, printed in [[w.lich-su-khang-chien-chong-my]], IV, 379. See [[cal.1965-04-21.vietnam-hanoi]]. Names: Hồ Chí Minh.'
+    tags: [polity:drv, name:ho-chi-minh]
   - id: cal.1965-05-06.latin-america
     when: May 6
     date: '1965-05-06'
@@ -1630,7 +1647,12 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam-operations]
     c: 'The Secretariat and the Government Council''s standing committee on transport in the Fourth Zone provinces: the needs of "B" and "C", arms, fuel and part of the food, first; Nghệ An''s food reserve to go to Hà Tĩnh, Quảng Bình and Vĩnh Linh, Thanh Hoá''s to Nghệ An, the Center to make up Thanh Hoá; the Transport Ministry to requisition boats, launches and trucks.'
-    n: '*Quyết định của Ban Bí thư và Thường vụ Hội đồng Chính phủ số 119-NQ/TW về một số vấn đề trong công tác giao thông vận tải ở các tỉnh Khu IV*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXVI, 162–65. Made public: 2003.'
+    n: '*Quyết định của Ban Bí thư và Thường vụ Hội đồng Chính phủ số 119-NQ/TW về một số vấn đề trong công tác giao thông vận tải ở các tỉnh Khu IV*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXVI, 162–65; [[w.lich-su-khang-chien-chong-my]], IV, 422 (the decision of the Secretariat and the Government Council''s standing committee, May 7, 1965, on transport in Zone 4). Made public: 2003.'
+    src:
+      c: fc1e0aef
+      rows:
+        - 'w.van-kien-dang-toan XXVI, 162–65: all'
+        - 'w.lich-su-khang-chien-chong-my IV, 422: A'
     tags: [polity:drv, vis:only:drv]
   - id: cal.1965-05-07.vietnam-hanoi-3
     when: May 7
@@ -2233,7 +2255,7 @@ entries:
     place: song-be
     thread: vietnam-operations
     c: 'Sông Bé, capital of Phước Long Province. Some four Viet Cong battalions break into the town, a suicide squad into the American advisers'' compound; the defenders hold. A Ranger and an infantry battalion sent the next day; the enemy withdraws under air attack. Losses: 63 killed, five of them American, 109 wounded, 83 missing; the Viet Cong 297 killed.'
-    n: '[[w.macv-command-history-1965]], 220–21, 479 (the day); [[w.westmoreland-soldier-reports]], 136 (early May; a Viet Cong regiment, the first to attack as one since Bình Giã; the town saved by air support and a fresh ARVN regiment flown in); [[w.bernstein-guns-or-butter]], 347 (the Viet Cong overrun Sông Bé, in May); [[w.drea-mcnamara-clifford-and-the-2011]], 33 (the general offensive opened May 11). To check: COMUSMACV MILREP, 170430Z May 65 (cited by [[w.macv-command-history-1965]], 221 n.256).'
+    n: '[[w.macv-command-history-1965]], 220–21, 479 (the day); [[w.westmoreland-soldier-reports]], 136 (early May; a Viet Cong regiment, the first to attack as one since Bình Giã; the town saved by air support and a fresh ARVN regiment flown in); [[w.bernstein-guns-or-butter]], 347 (the Viet Cong overrun Sông Bé, in May); [[w.drea-mcnamara-clifford-and-the-2011]], 33 (the general offensive opened May 11); [[w.lich-su-khang-chien-chong-my]], III, 417–19 (the Đồng Xoài campaign''s first phase, Lê Trọng Tấn commanding, Trần Độ political commissar, Hoàng Cầm deputy: the night of May 10–11 the First Battalion of the First Regiment (Q761) and Battalion 840 against the town, the Second Regiment toward Phước Bình). To check: COMUSMACV MILREP, 170430Z May 65 (cited by [[w.macv-command-history-1965]], 221 n.256).'
     src:
       c: dd204089
       rows:
@@ -2243,6 +2265,7 @@ entries:
         - 'w.westmoreland-soldier-reports 136: A'
         - 'w.bernstein-guns-or-butter 347: A-B'
         - 'w.drea-mcnamara-clifford-and-the-2011 33: A'
+        - 'w.lich-su-khang-chien-chong-my III, 417–19: A, B'
     tags: [province:phuoc-long]
   - id: cal.1965-05-11.vietnam
     when: May 11
@@ -3517,6 +3540,15 @@ entries:
       - 1965-05-15T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-15.vietnam-hanoi
+    when: May 15
+    date: '1965-05-15'
+    place: route-20
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Eastern Nam Bộ. May 15 Regiment 4 ambushes on Route 20 and destroys two Civil Guard companies and 20 military vehicles.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 419.'
+    tags: [polity:drv]
   - id: cal.1965-05-16.opinion
     when: May 16
     date: '1965-05-16'
@@ -3566,13 +3598,19 @@ entries:
     place: bien-hoa-air-base
     thread: vietnam-operations
     c: Biên Hòa air base rocked by a series of accidental explosions.
-    n: '[[w.macv-command-history-1965]], 479; [[w.schlight-united-states-air-force]], 45 (a B-57 explodes at the head of four loaded for Laos, the fire spreading along the line: twenty-eight Americans killed, a hundred injured; ten of eighteen B-57s, a Navy F-8 and two Air Force A-1s destroyed; Moore closes the base). Check: Schlight dates it "the following Sunday morning (May 15)" (45); May 16, 1965, was the Sunday.'
+    n: '[[w.macv-command-history-1965]], 479; [[w.schlight-united-states-air-force]], 45 (a B-57 explodes at the head of four loaded for Laos, the fire spreading along the line: twenty-eight Americans killed, a hundred injured; ten of eighteen B-57s, a Navy F-8 and two Air Force A-1s destroyed; Moore closes the base); [[w.lich-su-khang-chien-chong-my]], IV, 45 (the day and the aircraft lost; the history calls it a raid). Check: Schlight dates it "the following Sunday morning (May 15)" (45); May 16, 1965, was the Sunday.'
     src:
       c: 43d9323d
       rows:
         - 'w.macv-command-history-1965 479: all'
         - 'w.schlight-united-states-air-force 45: ?'
+        - 'w.lich-su-khang-chien-chong-my IV, 45: all'
     tags: [place:bien-hoa-air-base]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: a raid by the Liberation Army on Biên Hòa airfield; the Americans, the history says, admitted 11 B-57s and 4 jets destroyed, 25 other aircraft badly damaged, 21 Americans dead and 64 wounded
+        at: IV, 45
   - id: cal.1965-05-16.vietnam
     when: May 16
     date: '1965-05-16'
@@ -3956,6 +3994,15 @@ entries:
         - 'w.yang-shangkun-riji II, 605: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-17.vietnam-hanoi
+    when: May 17
+    date: '1965-05-17'
+    place: phu-long-bt
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bình Thuận. May 17 Region 6's troops, dressed as civilians in two three-wheeled taxis, open fire by surprise on the guards of a bridge and take the Saigon office at Phú Long. The Phan Thiết subsector sends Civil Guard Companies 441 and 887 with five M113s; seven times they cross the river and are thrown back.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 434–35.'
+    tags: [polity:drv]
   - id: cal.1965-05-18.jobs-and-wages
     when: May 18
     date: '1965-05-18'
@@ -4840,6 +4887,23 @@ entries:
       - 1965-05-22T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-22.vietnam-hanoi-2
+    when: May 22
+    date: '1965-05-22'
+    place: phu-long-bt
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bình Thuận. May 22 Saigon sends a marine battalion and a Ranger battalion to counterattack at Phú Long; after four hours Region 6's troops break their assaults, 150 killed or wounded, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 435.'
+    tags: [polity:drv]
+  - id: cal.1965-05-22.vietnam-hanoi
+    when: May 22
+    date: '1965-05-22'
+    thread: vietnam-hanoi
+    also: [vietnam-air-war]
+    c: American aircraft bomb two Vietnamese–Soviet fishing boats 15 kilometers off the coast at Hải Thịnh, Hải Hậu, Nam Định; one catches fire.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 384. Check: the place; the history names the commune, not the boats.'
+    tags: [polity:drv, polity:us]
   - id: cal.1965-05-23.opinion
     when: May 23
     date: '1965-05-23'
@@ -5432,6 +5496,20 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1863: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-05-25.vietnam-hanoi
+    when: May 25
+    date: '1965-05-25'
+    place: dak-lak
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Central Highlands. The night of May 25 the Region's forces destroy the Ama Hrok strongpoint but not the relief marching on Route 7.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 431. Check: the place not given; Route 7 and Ea Nu point to Đắk Lắk or Phú Bổn.'
+    tags: [polity:drv]
+    time_range:
+      - 1965-05-25T14:00Z
+      - 1965-05-25T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1965-05-26.latin-america
     when: May 26
     date: '1965-05-26'
@@ -5654,6 +5732,17 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1863: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-05-26.vietnam-hanoi
+    when: May 26
+    date: '1965-05-26'
+    time: 1965-05-25T16:30Z
+    place: nui-thanh
+    thread: vietnam-hanoi
+    also: [vietnam, vietnam-operations]
+    c: 'Núi Thành, west of Chu Lai. Company 2 of Battalion 70, Quảng Nam, with a sapper team, storms the American Marine company on hills 49 and 50: 140 out of action, all arms taken, the first American company destroyed in the war. Ordered by Military Region 5''s directive of May 10.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 46–48 (the directive of May 10, 1965, from the Region 5 archive; the attack began 0:30, after the wire was cut on hill 49; hill 50 held by hand-to-hand fighting, 20 minutes). The figures are the history''s. Check: the clock; the history does not say whose, and Marine records give the Americans'' losses.'
+    tags: [polity:drv, polity:us]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1965-05-27.desegregation-schools
     when: May 27
     date: '1965-05-27'
@@ -5966,7 +6055,7 @@ entries:
     place: ba-gia
     thread: vietnam-operations
     c: 'Ba Gia, west of Quảng Ngãi city. A Viet Cong force, probably a regiment, attacks a South Vietnamese company clearing a road and ambushes the two companies sent after it; May 30, three more battalions committed and beaten. South Vietnamese losses: 107 killed, 123 wounded, 367 missing, 384 weapons.'
-    n: '[FRUS 1964–68, II, doc. 322](https://history.state.gov/historicaldocuments/frus1964-68v02/d322) (Taylor to Johnson, June 1). [[w.def-u-s-viet-rels-iv-c-5]], 33, 82; [[w.carland-united-states-army-in]], 45; [[w.vietnam-victory-in-vietnam]], 144–45, 461–62 nn.31–32 (the campaign; the relief task force of May 30 destroyed); [[w.schlight-united-states-air-force]], 46 (the battle, May 29–30); [[w.westmoreland-soldier-reports]], 136 (later in May; a Viet Cong regiment virtually destroys an ARVN battalion in an ambush and mauls a second); [[w.bernstein-guns-or-butter]], 347 (two South Vietnamese battalions destroyed near Quảng Ngãi); [[w.drea-mcnamara-clifford-and-the-2011]], 33 (the battle, May 29 to June 4). [[w.macv-command-history-1965]], 221–22 (the ambushes of May 29–30; the losses). To check: COMUSMACV MILREP, 070742Z Jun 65 (cited by [[w.macv-command-history-1965]], 222 n.257). Check: *Victory in Vietnam* opens the campaign the evening of May 25 at a Popular Forces post, a battalion of the 51st Regiment destroyed coming to its relief; the relief task force of May 30 destroyed on the road to Ba Gia; the campaign 51 days, 2,054 of the enemy put out of action (144–45, 462 n.32). Check: Schlight, 46, has a platoon caught on the road May 29 and the rest of its battalion destroyed coming to its relief; the three battalions sent May 30 hold Ba Gia, the enemy breaking off June 4.'
+    n: '[FRUS 1964–68, II, doc. 322](https://history.state.gov/historicaldocuments/frus1964-68v02/d322) (Taylor to Johnson, June 1). [[w.def-u-s-viet-rels-iv-c-5]], 33, 82; [[w.carland-united-states-army-in]], 45; [[w.vietnam-victory-in-vietnam]], 144–45, 461–62 nn.31–32 (the campaign; the relief task force of May 30 destroyed); [[w.schlight-united-states-air-force]], 46 (the battle, May 29–30); [[w.westmoreland-soldier-reports]], 136 (later in May; a Viet Cong regiment virtually destroys an ARVN battalion in an ambush and mauls a second); [[w.bernstein-guns-or-butter]], 347 (two South Vietnamese battalions destroyed near Quảng Ngãi); [[w.drea-mcnamara-clifford-and-the-2011]], 33 (the battle, May 29 to June 4); [[w.lich-su-khang-chien-chong-my]], III, 423–27 (Region 5''s Ba Gia campaign, Chu Huy Mân commanding, from the night of May 28; a Saigon First Battalion destroyed May 29 at Phước Lộc; May 30 the Third Marine Battalion mostly destroyed, the Second of the 51st mauled). [[w.macv-command-history-1965]], 221–22 (the ambushes of May 29–30; the losses). To check: COMUSMACV MILREP, 070742Z Jun 65 (cited by [[w.macv-command-history-1965]], 222 n.257). Check: *Victory in Vietnam* opens the campaign the evening of May 25 at a Popular Forces post, a battalion of the 51st Regiment destroyed coming to its relief; the relief task force of May 30 destroyed on the road to Ba Gia; the campaign 51 days, 2,054 of the enemy put out of action (144–45, 462 n.32). Check: Schlight, 46, has a platoon caught on the road May 29 and the rest of its battalion destroyed coming to its relief; the three battalions sent May 30 hold Ba Gia, the enemy breaking off June 4.'
     src:
       c: 7a244ffa
       rows:
@@ -5980,6 +6069,7 @@ entries:
         - 'w.westmoreland-soldier-reports 136: A'
         - 'w.bernstein-guns-or-butter 347: A-C'
         - 'w.drea-mcnamara-clifford-and-the-2011 33: A'
+        - 'w.lich-su-khang-chien-chong-my III, 423–27: A, B, C'
     tags: [province:quang-ngai]
     short: Ba Gia
   - id: cal.1965-05-29.desegregation-schools
@@ -6630,7 +6720,7 @@ entries:
     place: jinggangshan
     thread: china-leadership
     c: Mao revisits Jinggangshan, his first base.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 432; [[w.mao-zedong-zhuan]], VI, ch. 74 (May 1965 Mao, from Wuhan by Chaling and Yongxin, again climbs Jinggangshan, the first time in thirty-six years; Zhang Pinghua, going up with him, would report on Hunan''s movement, and Mao: he knows; the education movement alone cannot solve the problems (n.6)). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]]). To check: [[w.dongxing-sui-mao-zhuxi-chongshang]], 124–44 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 432 n.10); *Mao Zedong hui Hunan jishi (1953-1975)* 《毛泽东回湖南纪实（1953—1975）》, Hunan renmin chubanshe, Dec. 1993, 278 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.6). Names: Mao Zedong. Check: Made public; Wang Dongxing''s diary in *Zhonggong Dangshi Ziliao*, No. 40, may print it first; the Bibliography gives no year (III, 432 n.10).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 432; [[w.mao-zedong-zhuan]], VI, ch. 74 (May 1965 Mao, from Wuhan by Chaling and Yongxin, again climbs Jinggangshan, the first time in thirty-six years; Zhang Pinghua, going up with him, would report on Hunan''s movement, and Mao: he knows; the education movement alone cannot solve the problems (n.6)). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]]). To check: [[w.dongxing-sui-mao-zhuxi-chongshang]], 124–44 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 432 n.10); [[w.guzhong-mao-zedong-hui-hunan]], 278 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.6). Names: Mao Zedong. Check: Made public; Wang Dongxing''s diary in *Zhonggong Dangshi Ziliao*, No. 40, may print it first; the Bibliography gives no year (III, 432 n.10).'
     src:
       c: 2be3c0fb
       rows:
@@ -6695,3 +6785,17 @@ entries:
       rows:
         - 'w.mao-zedong-zhuan VI, ch. 74: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-05-31.vietnam-hanoi
+    when: May 31–June 1
+    date: '1965-05-31'
+    place: gia-lai
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Gia Lai. The night of May 31 Battalion 952 (Battalions 407 and 545) destroys the Lệ Thanh district seat to draw Saigon troops out on Route 19 west, where Regiment 320 ambushes and puts out of action Civil Guard Battalion 320 (300 men) and an Interior Ministry inspection team and takes the deputy province chief of Pleiku June 1, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 432.'
+    tags: [polity:drv]
+    time_range:
+      - 1965-05-31T14:00Z
+      - 1965-05-31T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh

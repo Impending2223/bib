@@ -138,13 +138,19 @@ entries:
     date: '1965-07-01'
     thread: vietnam-operations
     c: The Viet Cong attack the Đà Nẵng and Sóc Trăng air bases.
-    n: '[[w.macv-command-history-1965]], 480; [[w.cosmas-joint-chiefs-of-staff-2012]], 338 (Đà Nẵng; three Air Force planes destroyed, three badly damaged).'
+    n: '[[w.macv-command-history-1965]], 480; [[w.cosmas-joint-chiefs-of-staff-2012]], 338 (Đà Nẵng; three Air Force planes destroyed, three badly damaged); [[w.lich-su-khang-chien-chong-my]], III, 434 (sappers against the Đà Nẵng airfield, the night of June 30).'
     src:
       c: 000a1820
       rows:
         - 'w.macv-command-history-1965 480: all'
         - 'w.cosmas-joint-chiefs-of-staff-2012 338: A'
+        - 'w.lich-su-khang-chien-chong-my III, 434: A'
     tags: [place:da-nang, place:soc-trang]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the night of June 30; 57 aircraft destroyed or damaged
+        at: III, 434
   - id: cal.1965-07-01.civil-rights-organizations-2
     when: July 1
     date: '1965-07-01'
@@ -335,6 +341,15 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1867: all'
     tags: [polity:prc, name:deng-xiaoping, name:zhu-de, name:peng-zhen]
+  - id: cal.1965-07-01.vietnam-hanoi
+    when: July 1
+    date: '1965-07-01'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam-diplomacy]
+    c: 'The Secretariat''s circular no. 163-TT/TW: a propaganda drive for July 20, the Geneva anniversary, at home and abroad, to condemn the American war and spread Hanoi''s terms, Phạm Văn Đồng''s four points and the National Liberation Front''s five-point statement of Mar. 22, 1965. At home a short emulation drive, July 14–20, a government statement, a Foreign Ministry white paper and a rally in Hanoi; abroad, press conferences, broadcasts and exhibitions by the missions.'
+    n: '*Thông tri của Ban Bí thư số 163-TT/TW, ngày 1-7-1965, Về kế hoạch tuyên truyền động viên đấu tranh trong dịp 20 tháng 7 năm nay*, signed for the Secretariat by Vũ Tuân, chief of its office. [[w.van-kien-dang-toan]], XXVI, 226–32. Made public: 2003. Names: Phạm Văn Đồng.'
+    tags: [polity:drv, polity:us, name:pham-van-dong, vis:only:drv]
   - id: cal.1965-07-02.vietnam-july-decision
     when: July 2
     date: '1965-07-02'
@@ -874,6 +889,17 @@ entries:
       - 1965-07-05T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-07-05.vietnam-hanoi
+    when: July 5
+    date: '1965-07-05'
+    time: 1965-07-04T17:45Z
+    place: ba-gia
+    thread: vietnam-hanoi
+    also: [vietnam-operations, vietnam]
+    c: Quảng Ngãi. 1:45 a.m., July 5. Battalions 40 and 45 attack the Ba Gia post again, held by a battalion newly re-formed after the first Ba Gia; in 35 minutes they hold it. Saigon bombs, drops flares, lands troops to take off wounded; four HU-1A shot down on the spot, 5 Americans and 14 Vietnamese killed, by the history's count. By the evening the battalion is out of action. Battalions 60 and 90 lie in ambush on the road from Trà Bồng to Sơn Tịnh and Bình Sơn; the relief does not come.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 433.'
+    tags: [polity:drv]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1965-07-06.succession
     when: July 6
     date: '1965-07-06'
@@ -1078,6 +1104,15 @@ entries:
         - 'w.yang-shangkun-riji II, 639: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-07-06.vietnam-hanoi-2
+    when: July 6
+    date: '1965-07-06'
+    place: moc-bai
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Tây Ninh. Battalion 70 ambushes and destroys the 4th Battalion of the 4th Regiment, 2d Division, at Mộc Bài, July 6, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 433.'
+    tags: [polity:drv]
   - id: cal.1965-07-07.vietnam-force-levels
     when: July 7
     date: '1965-07-07'
@@ -1250,7 +1285,12 @@ entries:
     place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo''s resolution no. 123-NQ/TW on turning organization work to the new situation: the struggle for the South in a decisive stage, American troops entering it, the North bombed and blockaded, the whole country at war against the United States; the Party''s and the state''s organs to be reset, at every level, for both the economy and defense, and the young and the militia called up.'
-    n: '*Nghị quyết của Bộ Chính trị số 123-NQ/TW về việc chuyển hướng công tác tổ chức trong tình hình và nhiệm vụ mới*, signed for the Politburo by Lê Đức Thọ. [[w.van-kien-dang-toan]], XXVI, 267–303 (the requirements, 268–73; each level''s tasks, 274–89; the state organs, 286–89; the young and the militia, 289–300). Made public: 2003.'
+    n: '*Nghị quyết của Bộ Chính trị số 123-NQ/TW về việc chuyển hướng công tác tổ chức trong tình hình và nhiệm vụ mới*, signed for the Politburo by Lê Đức Thọ. [[w.van-kien-dang-toan]], XXVI, 267–303 (the requirements, 268–73; each level''s tasks, 274–89; the state organs, 286–89; the young and the militia, 289–300); [[w.lich-su-khang-chien-chong-my]], IV, 41, 346 (the Politburo''s resolution of July 7; the history dates it "early July"). Made public: 2003.'
+    src:
+      c: '87660746'
+      rows:
+        - 'w.van-kien-dang-toan XXVI, 267–303: ?'
+        - 'w.lich-su-khang-chien-chong-my IV, 41, 346: A-B'
     tags: [polity:drv, vis:only:drv, name:le-duc-tho]
   - id: cal.1965-07-07.china-leadership
     when: July 7
@@ -3137,6 +3177,15 @@ entries:
       - 1965-07-15T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-07-15.vietnam-hanoi
+    when: July 15
+    date: '1965-07-15'
+    place: ap-bau-bang
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Bình Dương. July 15 Regiment 2 attacks on Route 13 the Bàu Bàng strategic hamlet, where the 2d Battalion of the 7th Regiment, 5th Division is camped in the field: nearly 400 out of action, some M113s destroyed, by the history''s count.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 435.'
+    tags: [polity:drv]
   - id: cal.1965-07-16.vietnam-july-decision
     when: July 16
     date: '1965-07-16'
@@ -4158,7 +4207,12 @@ entries:
     date: '1965-07-20'
     thread: vietnam-hanoi
     c: 'Hồ Chí Minh''s appeal for July 20, the Geneva anniversary, to the people and the troops: the 1954 Geneva Agreement recognized Vietnam''s sovereignty, independence, unity and integrity; the Americans have broken it for over ten years; the South has fought with great heroism; "the enemy is sure to lose, we are sure to win."'
-    n: '*Lời kêu gọi của Chủ tịch Hồ Chí Minh nhân ngày 20 tháng 7* (the title the editors''). [[w.van-kien-dang-toan]], XXVI, 306–11 (his *Toàn tập*, vol. 11 (2002), 469–74). Names: Hồ Chí Minh. Check: the day of the text; the volume gives only "for July 20".'
+    n: '*Lời kêu gọi của Chủ tịch Hồ Chí Minh nhân ngày 20 tháng 7* (the title the editors''). [[w.van-kien-dang-toan]], XXVI, 306–11 (his *Toàn tập*, vol. 11 (2002), 469–74); [[w.lich-su-khang-chien-chong-my]], IV, 41 (Hồ Chí Minh''s appeal, Toàn tập XIV, 577). Names: Hồ Chí Minh. Check: the day of the text; the volume gives only "for July 20".'
+    src:
+      c: 47ca5c41
+      rows:
+        - 'w.van-kien-dang-toan XXVI, 306–11: ?'
+        - 'w.lich-su-khang-chien-chong-my IV, 41: A'
     tags: [name:ho-chi-minh, polity:drv]
   - id: cal.1965-07-20.china-leadership
     when: July 20
@@ -4922,6 +4976,15 @@ entries:
         - 'via x.1965-07.marcy-to-fulbright: all'
         - 'w.gibbons-u-s-government-and III, 432: A'
     tags: [name:marcy-carl, name:fulbright-j-william]
+  - id: cal.1965-07-22.vietnam-hanoi
+    when: July 22
+    date: '1965-07-22'
+    place: dong-xoai
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: The Đồng Xoài campaign, opened May 10–11 at Phước Long, ends. By the history's count four battalions and 24 companies put out of action, 4,459 men, 73 American advisers among them; 1,652 weapons taken, 60 military vehicles and 34 aircraft destroyed. In Phước Long province 56,000 of 67,000 people won from the strategic hamlets.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 436 (the end and the tally); 417–19 (the opening). See [[cal.1965-05-11.vietnam-operations]], [[cal.1965-06-09.vietnam-operations]].'
+    tags: [polity:drv]
   - id: cal.1965-07-23.economy
     when: July 23
     date: '1965-07-23'
@@ -5280,7 +5343,7 @@ entries:
     time: 1965-07-24T08:53Z
     thread: vietnam-air-war
     c: An F-4C, the first American plane lost to a SAM.
-    n: '[FRUS 1964–68, III, doc. 84](https://history.state.gov/historicaldocuments/frus1964-68v03/d84). Check: the record. [[w.gibbons-u-s-government-and]], III, 419 (an American plane shot down by a SAM, July 24); [[w.vietnam-victory-in-vietnam]], 165, 167 (two battalions of the new missile force, at 3:53 p.m.: one F-4C down, a pilot captured); [[w.staaveren-gradual-failure]], 163; [[w.staaveren-gradual-failure]], 163 (the first SA-2s fired, from near the Hanoi sanctuary; the F-4C and its crew of two lost); [[w.cosmas-joint-chiefs-of-staff-2012]], 372 (the sites operational, July 24; Hanoi makes it the missile troops'' birthday). See [[cal.1965-03-02.vietnam]].'
+    n: '[FRUS 1964–68, III, doc. 84](https://history.state.gov/historicaldocuments/frus1964-68v03/d84). Check: the record. [[w.gibbons-u-s-government-and]], III, 419 (an American plane shot down by a SAM, July 24); [[w.vietnam-victory-in-vietnam]], 165, 167 (two battalions of the new missile force, at 3:53 p.m.: one F-4C down, a pilot captured); [[w.staaveren-gradual-failure]], 163; [[w.staaveren-gradual-failure]], 163 (the first SA-2s fired, from near the Hanoi sanctuary; the F-4C and its crew of two lost); [[w.cosmas-joint-chiefs-of-staff-2012]], 372 (the sites operational, July 24; Hanoi makes it the missile troops'' birthday); [[w.lich-su-khang-chien-chong-my]], IV, 387 (the first missile action, three F-4s down at 7,000 meters over Bất Bạt, Hà Tây). See [[cal.1965-03-02.vietnam]].'
     src:
       c: 89b555be
       rows:
@@ -5290,6 +5353,7 @@ entries:
         - 'w.gibbons-u-s-government-and III, 419: A'
         - 'w.staaveren-gradual-failure 163: ?'
         - 'w.cosmas-joint-chiefs-of-staff-2012 372: A'
+        - 'w.lich-su-khang-chien-chong-my IV, 387: all'
   - id: cal.1965-07-24.vietnam-support
     when: July 24
     date: '1965-07-24'
@@ -6063,6 +6127,20 @@ entries:
         - 'w.humphrey-education-of-a-public-1976 326–27: A-B'
         - 'w.solberg-hubert-humphrey 282: all'
     tags: [name:humphrey-hubert-h, name:johnson-lyndon-b]
+  - id: cal.1965-07-26.vietnam-hanoi
+    when: July 26
+    date: '1965-07-26'
+    place: nha-trang
+    thread: vietnam-hanoi
+    also: [vietnam-operations, vietnam]
+    c: 'Khánh Hòa. The night of July 26 the province''s forces attack the Nha Trang airfield, the Saigon naval officers'' school and the district seat of Diên Khánh: 21 aircraft destroyed, some officer students killed, by the history''s count.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 434.'
+    tags: [polity:drv]
+    time_range:
+      - 1965-07-26T14:00Z
+      - 1965-07-26T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1965-07-27.health
     when: July 27
     date: '1965-07-27'
@@ -6941,7 +7019,12 @@ entries:
     place: hanoi
     thread: vietnam-hanoi
     c: 'The Secretariat''s instruction no. 104-CT/TW on culture and the arts in the new situation: the country at war, art to teach hatred of the American aggressors and their followers and to feed love of country and socialism.'
-    n: '*Chỉ thị của Ban Bí thư số 104-CT/TW về công tác văn hoá, văn nghệ trong tình hình mới*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXVI, 312–17. Made public: 2003.'
+    n: '*Chỉ thị của Ban Bí thư số 104-CT/TW về công tác văn hoá, văn nghệ trong tình hình mới*, signed for the Secretariat by Tố Hữu. [[w.van-kien-dang-toan]], XXVI, 312–17; [[w.lich-su-khang-chien-chong-my]], IV, 364 (instruction no. 104-CT/TW). Made public: 2003.'
+    src:
+      c: a5ebbfdd
+      rows:
+        - 'w.van-kien-dang-toan XXVI, 312–17: all'
+        - 'w.lich-su-khang-chien-chong-my IV, 364: all'
     tags: [polity:drv, vis:only:drv]
   - id: cal.1965-07-28.china-leadership
     when: July 28
@@ -8213,3 +8296,19 @@ entries:
       - 1965-07-31T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-07.vietnam-hanoi
+    when: July, mid
+    date: 1965-07
+    at: before 1965-07-11
+    thread: vietnam-hanoi
+    also: [vietnam-air-war]
+    c: The Secretariat decides how to assign cadres to transport.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 423 ("trung tuần tháng 7-1965"). Made public: 2013. Check: the day.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1965-07.vietnam-hanoi-2
+    when: July
+    date: 1965-07
+    thread: vietnam-hanoi
+    c: 'The cadre conference the Secretariat called meets on turning the leadership of the two strategic tasks: Party committees at every level to change how they think and work to meet the new situation.'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 347. Made public: 2013. Check: the days.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
