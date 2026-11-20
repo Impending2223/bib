@@ -3,6 +3,8 @@ idx=json.load(open('/tmp/claude-0/-home-user-bib/0eff10cc-e92b-525c-82ae-0e08a8f
 d=yaml.safe_load(open('/home/user/bib/inbox/2026-11-19-b16-lskc-1b.yaml'))
 def toks(c):
     return set(re.findall(r'(?<![.!?] )(?<!^)\b[A-ZĐ][^\W\d_]+(?: [A-ZĐ][^\W\d_]+)?',c))|set(re.findall(r'\b\d+(?:,\d+)?\b',c))
+import os
+THR=int(os.environ.get('THR','2'))
 only=sys.argv[1:] 
 for o in d['ops']:
     if 'add' not in o: continue
@@ -16,6 +18,6 @@ for o in d['ops']:
         s=len(t&toks(c))
         # shared proper nouns
         sh=[x for x in t&toks(c) if not x.isdigit()]
-        if len(sh)>=2: best.append((len(sh),i,sh[:5]))
+        if len(sh)>=THR: best.append((len(sh),i,sh[:5]))
     best.sort(reverse=True)
     if best: print(e['id'],'<-',[(b[1],b[2]) for b in best[:2]])

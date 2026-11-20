@@ -7,10 +7,15 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
-    key: ba-tri
-    name: Ba Tri
+    key: ba-lai-river
+    name: Ba Lai River
     zone: Asia/Ho_Chi_Minh
     in: rvn
+- place-key:
+    key: bai-chay
+    name: Bãi Cháy
+    zone: Asia/Bangkok
+    in: drv
 - place-key:
     key: ben-the
     name: Bến Thế
@@ -37,6 +42,11 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
+    key: cau-nha-thuong
+    name: Cầu Nhà Thương
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: cau-van
     name: Cầu Ván
     zone: Asia/Ho_Chi_Minh
@@ -52,8 +62,23 @@ ops:
     zone: Asia/Bangkok
     in: drv
 - place-key:
+    key: chau-phu
+    name: Châu Phú
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: cho-gao
     name: Chợ Gạo
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: cua-hoi
+    name: Cửa Hội
+    zone: Asia/Bangkok
+    in: drv
+- place-key:
+    key: dat-dai
+    name: Đất Dài
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
@@ -72,15 +97,45 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
+    key: duy-xuyen
+    name: Duy Xuyên
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: gia-le
+    name: Gia Lê
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: gia-truc
     name: Gia Trúc pass
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
+    key: gianh-river
+    name: Gianh River
+    zone: Asia/Bangkok
+    in: drv
+- place-key:
+    key: ham-rong
+    name: Hàm Rồng
+    zone: Asia/Bangkok
+    in: drv
+- place-key:
     key: hang-duong
     name: Hàng Đường
     zone: Asia/Ho_Chi_Minh
     in: rvn
+- place-key:
+    key: hiep-duc
+    name: Hiệp Đức
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: ho-xa
+    name: Hồ Xá
+    zone: Asia/Bangkok
+    in: drv
 - place-key:
     key: hoa-thinh
     name: Hòa Thịnh
@@ -91,6 +146,11 @@ ops:
     name: Hòn Đất
     zone: Asia/Ho_Chi_Minh
     in: rvn
+- place-key:
+    key: hon-gai
+    name: Hòn Gai
+    zone: Asia/Bangkok
+    in: drv
 - place-key:
     key: long-hung
     name: Long Hưng
@@ -107,13 +167,53 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
+    key: luong-quoi
+    name: Lương Quới
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: muc-thinh
+    name: Mục Thịnh
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: nam-ngan-canal
     name: Năm Ngàn canal
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
+    key: nghia-hanh
+    name: Nghĩa Hành
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: pha-ghep
+    name: Phà Ghép
+    zone: Asia/Bangkok
+    in: drv
+- place-key:
+    key: phuoc-tan
+    name: Phước Tân
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: tan-rai
+    name: Tân Rai
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: tan-thach
+    name: Tân Thạch
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: thanh-phong
     name: Thạnh Phong
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: thoi-hoa-ben-cat
+    name: Thới Hòa
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
@@ -131,6 +231,777 @@ ops:
     name: Xá Lợi pagoda
     zone: Asia/Ho_Chi_Minh
     in: rvn
+- add:
+    entry:
+      id: cal.1961-06-19.vietnam
+      when: June 19
+      date: '1961-06-19'
+      thread: vietnam
+      also:
+      - vietnam-saigon
+      c: Kennedy sends a "special economic mission" under Eugene Staley of the Stanford Research Institute to South Vietnam, June 19, to help Diệm draw up the pacification program. After nearly a month of talks with Saigon officials and with Diệm, the mission reports to Kennedy at the end of July.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 16. Names: Eugene Staley. Check: the history dates the mission''s start June 19; the Staley report is [[cal.1961-07-14.vietnam]].'
+      tags:
+      - polity:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-09-17.vietnam-2
+      when: Sept. 17
+      date: '1961-09-17'
+      thread: vietnam
+      also:
+      - vietnam-saigon
+      c: A British advisory mission on administration and policy, led by Robert Thompson, the counterguerrilla expert of Malaya, arrives Sept. 17 at Diệm's invitation as adviser on pacification.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 168. Names: Robert Thompson. Check: the history gives "Sept. 17" without the arrival; the American record not read.'
+      tags:
+      - polity:us
+      - name:thompson-robert
+- add:
+    entry:
+      id: cal.1961-04.vietnam-saigon
+      when: Apr.
+      date: '1961-04'
+      thread: vietnam-saigon
+      also:
+      - vietnam
+      c: Saigon changes its military regions into tactical zones, each under a main-force corps with its local forces and supporting arms; below the zone, tactical areas, sectors (provinces) and subsectors (districts). Saigon–Gia Định a "capital special zone". American advisers and supporting units, the helicopter and air transport units above all, are put down to the zones.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 25. Check: the day.'
+      tags:
+      - polity:rvn
+      - polity:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963.vietnam-saigon
+      when: '1963, early'
+      date: '1963'
+      at: before 1963-01
+      thread: vietnam-saigon
+      also:
+      - vietnam
+      c: In early 1963 the provinces of the Mekong delta are separated from the 3d tactical zone to make a 4th.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 25 n.1. Check: the day.'
+      tags:
+      - polity:rvn
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1962-04.vietnam
+      when: Apr.
+      date: '1962-04'
+      thread: vietnam
+      also:
+      - vietnam-saigon
+      c: 'From April Saigon and the Americans carry out over the whole South the program of gathering the people into "strategic hamlets", after trials in some places in Tây Ninh, Bình Dương, Biên Hòa and Quảng Ngãi. The aim: 10 million peasants in 16,000 of 17,000 hamlets planned, and a pacification apparatus, with American advisers alongside, from the center to the provinces.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 26. Check: the day; compare [[cal.1962-03-22.vietnam]], Operation Sunrise.'
+      tags:
+      - polity:rvn
+      - polity:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-05-16.vietnam-saigon
+      when: May 16
+      date: '1964-05-16'
+      thread: vietnam-saigon
+      also:
+      - vietnam
+      c: Nguyễn Khánh reorganizes his government, May 16.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1. Names: Nguyễn Khánh. Check: the history gives the day in a list of coups and reorganizations; the American record not read.'
+      tags:
+      - name:nguyen-khanh
+      - polity:rvn
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-02-12.vietnam-saigon
+      when: Feb. 12
+      date: '1965-02-12'
+      thread: vietnam-saigon
+      also:
+      - vietnam
+      c: Taylor "arranges" a government with Phan Khắc Sửu as chief of state and Phan Huy Quát as premier, Feb. 12, by the history's list.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1. Names: Phan Khắc Sửu, Phan Huy Quát. Check: the history''s date; the Quát government took office later in February; the American record not read.'
+      tags:
+      - name:phan-khac-suu
+      - name:phan-huy-quat
+      - polity:rvn
+      - polity:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-06.vietnam-saigon
+      when: Mar. 6
+      date: '1965-03-06'
+      thread: vietnam-saigon
+      also:
+      - vietnam
+      c: A coup against Phan Huy Quát's government fails, Mar. 6, the first of three, by the history's list.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1. Check: the history gives the date in a list; the American record not read.'
+      tags:
+      - polity:rvn
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-04-20.vietnam-saigon
+      when: Apr. 20
+      date: '1965-04-20'
+      thread: vietnam-saigon
+      also:
+      - vietnam
+      c: A coup against Phan Huy Quát's government fails, Apr. 20, the second of three, by the history's list.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1. Check: the history gives the date in a list; the American record not read.'
+      tags:
+      - polity:rvn
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-08-05.vietnam-hanoi
+      when: Aug. 5
+      date: '1964-08-05'
+      place: cua-hoi
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      - vietnam
+      c: Nghệ An. 12:30 p.m., Aug. 5, eight American aircraft bomb Cửa Hội. The antiaircraft of the navy's ships and of the shore shoot down one, 2 km west of Hòn Mắt island.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 368. Check: the clock is Hanoi''s; compare [[cal.1964-08-05.vietnam]].'
+      tags:
+      - polity:drv
+      time: '1964-08-05T05:30Z'
+      time_zone: Asia/Bangkok
+- add:
+    entry:
+      id: cal.1964-08-05.vietnam-hanoi-2
+      when: Aug. 5
+      date: '1964-08-05'
+      place: gianh-river
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      - vietnam
+      c: Quảng Bình. Aug. 5 a flight of eight American aircraft, coming from the west behind the mountains, bombs the Gianh river port. The antiaircraft posts and navy ships with the militia of Cảnh Dương commune shoot down one into the sea and hit another.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 368. Check: the hour; the history places the flight after the Cửa Hội raid of 12:30.'
+      tags:
+      - polity:drv
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1964-08-05.vietnam-hanoi-3
+      when: Aug. 5
+      date: '1964-08-05'
+      place: hon-gai
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      - vietnam
+      c: Quảng Ninh. Aug. 5 a flight of eight American aircraft dives on Hòn Gai and Bãi Cháy. An A4 is hit and falls into the sea at Hà Tu; its pilot, Lt. Everett Alvarez, parachutes. Sgt. Nguyễn Kim Bảo of the Northeast Military Region, with two border guards on a boat for Cô Tô island, and local militia including Bác Lộc, take him alive.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 368. Names: Nguyễn Kim Bảo. Check: the hour; Alvarez''s name as the history prints it, "I. Anvơrét"; compare [[cal.1964-08-05.vietnam]].'
+      tags:
+      - polity:drv
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1964-08-05.vietnam-hanoi-4
+      when: Aug. 5
+      date: '1964-08-05'
+      place: bai-chay
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      - vietnam
+      c: Quảng Ninh. 2:45 p.m., Aug. 5, American aircraft again hit Bãi Cháy and Lạch Trường. Three are shot down, one hit.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 368. Check: the clock is Hanoi''s.'
+      tags:
+      - polity:drv
+      time: '1964-08-05T07:45Z'
+      time_zone: Asia/Bangkok
+- add:
+    entry:
+      id: cal.1964-08-05.vietnam-hanoi-5
+      when: Aug. 5
+      date: '1964-08-05'
+      place: gianh-river
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      - vietnam
+      c: 'Quảng Bình. 4:20 p.m., Aug. 5, American aircraft bomb the Gianh river port a second time. The antiaircraft and the militia shoot down two: one 25 km out at sea, one at Cự Nẫm, Bố Trạch.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 368. Check: the clock is Hanoi''s.'
+      tags:
+      - polity:drv
+      time: '1964-08-05T09:20Z'
+      time_zone: Asia/Bangkok
+- add:
+    entry:
+      id: cal.1964-08-05.vietnam-hanoi-6
+      when: Aug. 5
+      date: '1964-08-05'
+      place: cua-hoi
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      - vietnam
+      c: Nghệ An. The afternoon of Aug. 5 eight American aircraft again dive on Cửa Hội; the fire drives them off.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 368.'
+      tags:
+      - polity:drv
+      time_range:
+      - '1964-08-05T05:00Z'
+      - '1964-08-05T11:00Z'
+      time_band: afternoon
+      time_zone: Asia/Bangkok
+- add:
+    entry:
+      id: cal.1965-05-28.vietnam-hanoi
+      when: May 28
+      date: '1965-05-28'
+      place: ba-gia
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Quảng Ngãi. The night of May 28 the forces of the Ba Gia campaign (western Sơn Tịnh) move to their hiding places: Regiment 1 of Military Region 5 (Battalions 40, 60, 90, with a support battalion), the independent Battalion 45, under Lê Hữu Trữ and Nguyễn Đình Trọng, in the main direction; Battalion 83 and two district companies, militia and guerrillas in the second, Battalion 83 pressed against the Nghĩa Hành district seat. Chu Huy Mân, commander and commissar of the Region, is the campaign''s commander. Against them at Ba Gia the Saigon 1st Battalion, 51st Regiment, with Ranger Battalions 37 and 39 and the 2d Battalion of the 51st nearby.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 422–23. Made public: 2013. Names: Chu Huy Mân, Lê Hữu Trữ, Nguyễn Đình Trọng. Check: the night''s hour; the history gives the units'' order of battle in the preceding page, III, 422–23; the campaign''s order is not dated.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+      time_range:
+      - '1965-05-28T14:00Z'
+      - '1965-05-28T16:00Z'
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1965-05-29.vietnam-hanoi-2
+      when: May 29
+      date: '1965-05-29'
+      place: ba-gia
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Quảng Ngãi. May 29 the sappers of Regiment 1 with a Sơn Tịnh district platoon hit the Self-Defense men of Phước Lộc village; Saigon's guns at Ba Gia fire to help them and the company at Núi Tròn comes back to relieve them. Two companies of the 1st Battalion, 51st Regiment, under Capt. Nguyễn Văn Ngọc with two American advisers, come down from Gò Cao and are met at Diên Niên and Lộc Thọ by Battalion 90, hidden in Sơn Nam commune. At 9:50 a.m. the battalion is surrounded; at 10:45 it is finished. Two advisers killed, Ngọc and 217 taken; 270 killed and wounded in the five hours; 200 weapons and 4 trucks taken, by the history's count.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 423–25. Names: Nguyễn Văn Ngọc. Check: the clock is Saigon''s; the American record has the first fight at Ba Gia, [[cal.1965-05-29.vietnam-operations]].'
+      tags:
+      - polity:drv
+      time: '1965-05-29T01:50Z'
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1965-05-29.vietnam-hanoi-3
+      when: May 29
+      date: '1965-05-29'
+      place: nghia-hanh
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Quảng Ngãi. May 29, in the second direction south of the Trà Khúc, Battalion 83 of the province surrounds and attacks the Nghĩa Hành district seat and threatens the Saigon troops at the Tư Nghĩa district seat, so that local forces can punish oppressors.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 425.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1965-05-30.vietnam-hanoi
+      when: May 30
+      date: '1965-05-30'
+      place: ba-gia
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Quảng Ngãi. May 30 Saigon forms a task force from the 3d Marine Battalion, Ranger Battalions 37 and 39 and the 2d Battalion of the 51st Regiment, and sends it up from Sơn Tịnh with 20 GMC trucks and 12 M113s under hundreds of bombing sorties, at 9:30 a.m. At 1 p.m. the Ranger Battalion 39 reaches the foot of Chóp Nón hill, the 2d Battalion and the Marines Phước Lộc village. Regiment 1 meets them: Battalion 60 on Mả Tổ hill, Battalion 45 behind the Rangers, Battalion 40 on the west edge of Phước Lộc. Two hours: the Marine battalion mostly destroyed, the 2d Battalion hurt; by 7 p.m. the rest are drawn into Chóp Nón, hill 47, Mả Tổ and Phước Lộc.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 425–27. Check: the clock is Saigon''s; the American record has "May 30, three more battalions committed and beaten" ([[cal.1965-05-29.vietnam-operations]]).'
+      tags:
+      - polity:drv
+      time: '1965-05-30T01:30Z'
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1965-05-30.vietnam-hanoi-2
+      when: May 30
+      date: '1965-05-30'
+      place: ba-gia
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Quảng Ngãi. The night of May 30–31 Regiment 1 goes on: Battalion 60 takes hill 47 and Mả Tổ from the 3d Marine Battalion and captures it whole; Battalion 40 fights trench by trench in Phước Lộc, where the 2d Battalion of the 51st Regiment makes a stand in the strategic hamlet''s trenches, and the rest withdraw; Battalion 45 with artillery takes Chóp Nón by hand-to-hand fighting that ends at 3:30 a.m., May 31, destroying Ranger Battalion 31. In three days: four Saigon battalions hurt, 916 killed (four American advisers) and 65 taken, 200 weapons taken, by the history''s count.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 427–29. Check: the clock is Saigon''s; the figures are the history''s ("a combined task force" destroyed); the American Defense Department record quoted by the history, III, 429.'
+      tags:
+      - polity:drv
+      time_range:
+      - '1965-05-30T14:00Z'
+      - '1965-05-30T16:00Z'
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1965-05-30.vietnam-hanoi-3
+      when: May 30
+      date: '1965-05-30'
+      place: nghia-hanh
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Quảng Ngãi. The night of May 30 part of Battalion 83 raids the Ranger Battalion 37 around the town on the Vệ river and drives it up to Hành Đức, Nghĩa Hành district, where the local forces hurt it more and hold it.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 429–30. Check: the place of the raid is the town on the Vệ river (Quảng Ngãi town or Nghĩa Hành); the history''s words are "around the town on the Vệ river".'
+      tags:
+      - polity:drv
+      time_range:
+      - '1965-05-30T14:00Z'
+      - '1965-05-30T16:00Z'
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1965-06.vietnam-hanoi
+      when: June, early
+      date: '1965-06'
+      place: gia-lai
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Central Highlands. In early June part of Regiment 12 raids the Ea Nu strongpoint, beats the relief and cuts Route 7 from Mlá to Ea Nu; the rest of the regiment fights on Route 19 and cuts it from Măng Giang to An Khê.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 431. Check: the day; the history names no province.'
+      tags:
+      - polity:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-06.vietnam-hanoi-2
+      when: June
+      date: '1965-06'
+      place: dak-lak
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Central Highlands. In June Regiment 10 goes deep on Route 21, stops the supply convoy of Saigon's II Corps, destroys the escort company and takes or burns over 100 tons of rice. Routes 19, 7 and 21 are cut at the same time.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 431. Check: the day; the province of the road; the history names none.'
+      tags:
+      - polity:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-06.vietnam-hanoi-4
+      when: June
+      date: '1965-06'
+      place: duc-co
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Gia Lai. After the ambush on Route 19 west, Regiment 320 besieges the Đức Cơ special forces camp and ambushes the force sent to relieve it: 40 vehicles destroyed, by the history''s count. The province''s and districts'' local forces help the guerrillas and people break the strategic hamlets from Thanh An to Đức Cơ.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 432. Check: the day; the history gives none; the American record has the Đức Cơ battle ([[cal.1965-06.vietnam-operations]], [[cal.1965-08-01.vietnam-operations]]).'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1965-07.vietnam-hanoi-3
+      when: July
+      date: '1965-07'
+      place: tam-ky
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Quảng Nam. In July the province''s armed force destroys the field command post of the Saigon 2d Division in the middle of Tam Kỳ town and fights on the road from the An Tân bridge to the Ông Bộ bridge: hundreds of Saigon soldiers and many American advisers killed, by the history''s count.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 433. Check: the day; the history puts it after the second Ba Gia fight of July 5.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1965-05-28.vietnam-hanoi-2
+      when: May 28
+      date: '1965-05-28'
+      place: duy-xuyen
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Quảng Đà. May 28 Battalion 1 of the province's local troops attacks and destroys two Civil Guard companies and seven Self-Defense platoons at Duy Xuyên.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 434.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1965-06.vietnam-hanoi-3
+      when: June
+      date: '1965-06'
+      place: tan-rai
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Lâm Đồng. The province's local forces besiege and attack the Tân Rai commando camp and force the American special forces in it to flee.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 434. Check: the day; the history gives none, between acts of May 28 and June 27.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-02.vietnam-hanoi-2
+      when: Feb., mid
+      date: '1960-02'
+      place: thoi-hoa-ben-cat
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Thủ Dầu Một. In mid-February, as the garrison of the Thới Hòa post, Bến Cát, has just drawn its pay, the commune's Party branch with the men inside holds a drinking party, collects the guns and, when the garrison is drunk, kills the oppressors and calls on the rest to give up. Outside the people with the soldiers' families go to the post to win their men over. The post is taken with all its arms, the commune guards disbanded, the government offices burned and a commune self-defense force built. Thới Hòa is the province's spearhead.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 344. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-02.vietnam-hanoi-3
+      when: Feb., early
+      date: '1960-02'
+      place: tay-ninh
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Tây Ninh. In early February the province sets up Battalion 14; Châu Thành district sets up Company 40, Gò Dầu and Trảng Bàng Company 33A, Bến Cầu Company 61 and Dương Minh Châu district Company 31A.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 333. Made public: 2013. Check: the day.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+- add:
+    entry:
+      id: cal.1960-02.vietnam-hanoi-4
+      when: Feb.
+      date: '1960-02'
+      place: cu-chi
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Gia Định. From February many country places of Gia Định rise and take the hamlets. At Củ Chi the district committee orders "all rise together, break up the countryside": with the district''s armed team the people go into the commune information houses and tear up Diệm''s portraits, the three-stripe flags and the anticommunist slogans; thousands demonstrate on Routes 7 and 15 with leaflets and banners; the commune and hamlet heads flee. By March the people hold Phú Mỹ Hưng and Nhuận Đức communes, parts of An Nhơn Tây and Trung Lập and the north of Củ Chi.'
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 348–49. Check: the day; the history gives "from February" and the district committee''s order undated.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-02.vietnam-hanoi-5
+      when: Feb.
+      date: '1960-02'
+      place: cu-chi
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Gia Định. In the same time the Region's armed unit C13, working in Củ Chi, Bình Chánh, Nhà Bè, Duyên Hải, Thủ Đức and Dĩ An districts, destroys the An Hòa, Tân Thạnh Tây, Trung Hòa and An Nhơn Tây posts and the Bến Mương restaurant, to back the people's rising.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 348. Check: the days; the history gives no dates; the place field takes the first district.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-01.vietnam-hanoi-3
+      when: Jan.
+      date: '1960-01'
+      place: saigon
+      thread: vietnam-hanoi
+      also:
+      - vietnam
+      c: Saigon. In January young people of Saigon hang a red flag with the hammer and sickle in the Bến Thành market.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 349. Check: the day; the history gives only the month.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-03.vietnam-hanoi-3
+      when: Mar.
+      date: '1960-03'
+      place: muc-thinh
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bình Định. In March four guerrillas of Vân Canh district, who have worked loose the rail with metal pipes and rattan cords, pull a rail out as a Saigon military train reaches Mục Thịnh; the engine runs off the track.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 354. Check: the day; the history''s sentence breaks off at the engine.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-09-23.vietnam-hanoi-3
+      when: Sept. 23
+      date: '1960-09-23'
+      place: tan-thach
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bến Tre. Sept. 23 Company 261, formed in June, ambushes a Civil Guard platoon at Tân Thạch, Châu Thành, on its way from Mỹ Tho to the town, and destroys it.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 364. Check: the clock.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-09-23.vietnam-hanoi-4
+      when: Sept. 23
+      date: '1960-09-23'
+      place: luong-quoi
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bến Tre. Sept. 23 a platoon of Giồng Trôm district's armed force destroys a Civil Guard platoon at Lương Quới, on its way from Giồng Trôm to the town.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 364. Check: the clock.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-09-23.vietnam-hanoi-5
+      when: Sept. 23
+      date: '1960-09-23'
+      place: cau-nha-thuong
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bến Tre. The night of Sept. 23 the town's self-defense destroys the Self-Defense post at the Nhà Thương bridge and takes the arms of the guard at the Cái Cối bridge. The town had been empty and the shops shut that day on a rumor that the Viet Cong would attack in force.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 364. Check: the hour.'
+      tags:
+      - polity:drv
+      time_range:
+      - '1960-09-23T14:00Z'
+      - '1960-09-23T16:00Z'
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1960-09-24.vietnam-hanoi-2
+      when: Sept. 24
+      date: '1960-09-24'
+      place: binh-chanh-bridge
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bến Tre. The afternoon of Sept. 24, after Saigon has pulled two battalions out of Giồng Trôm into the town, the people of Lương Hòa, Long Mỹ and Bình Hòa communes float coconut-trunk rafts with explosive down the stream and bring down the Bình Chánh bridge, cutting the road from the town to Giồng Trôm.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 364.'
+      tags:
+      - polity:drv
+      time_range:
+      - '1960-09-24T04:00Z'
+      - '1960-09-24T10:00Z'
+      time_band: afternoon
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1960-09-24.vietnam-hanoi-3
+      when: Sept. 24
+      date: '1960-09-24'
+      place: chau-phu
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bến Tre. Sept. 24 in Châu Phú commune, Giồng Trôm, Chống, commander of the Civil Guard company and a man of the Party inside, gathers his company to collect their guns for inspection; a squad of Company 261 in Civil Guard dress walks into the post and takes the arms as the soldiers are called on to give up; the people raze the post. Another party takes the Nhà Thờ post by lam taxi without a shot.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 364. Check: the hour; the history places it with the rising at 5 p.m. of Sept. 24.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-09-24.vietnam-hanoi-4
+      when: Sept. 24
+      date: '1960-09-24'
+      place: ba-lai-river
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Bến Tre. About Sept. 24 the communes of Phong Nẫm, Phong Mỹ, Châu Bình and Châu Hòa, with the armed force and men inside, force the surrender and raze the posts along the Ba Lai river: a large free area, 100 weapons and over 100 prisoners taken. Over the night of Sept. 24 hundreds of thousands in nearly 100 communes beat drums and clappers, burn torches and march round the posts; 20 posts of Giồng Trôm give up their arms, 10 of Ba Tri are destroyed or surrender, and dozens in Châu Thành, Bình Đại and Thạnh Phú.'
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 365. Check: the day; the history gives "the same time" as the Châu Phú fight of Sept. 24.'
+      tags:
+      - polity:drv
+      time_range:
+      - '1960-09-24T14:00Z'
+      - '1960-09-24T16:00Z'
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1960-10-03.vietnam-hanoi
+      when: Oct. 3
+      date: '1960-10-03'
+      place: ben-tre
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bến Tre. Oct. 3 the province sends Company 261 from Giồng Trôm to help in Mỏ Cày, where Saigon holds firm. Over the Hàm Luông with men inside it takes the Cái Quao post and frees An Định commune, goes on to Hương Mỹ; the Self-Defense men of the Tân Trung post flee; Minh Đức post is besieged and surrenders. In north Mỏ Cày the district's platoon forces the Thanh Tân and Tân Phú Tây posts and isolates Cái Mơn; a series of communes, Catholic ones too, rise.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 365. Check: the day of each post; the history gives Oct. 3 for the move.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-09-20.vietnam-hanoi-2
+      when: Sept. 20
+      date: '1960-09-20'
+      place: hiep-duc
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Quảng Nam. Sept. 20 the province''s armed force with the district''s armed work team attacks the Hiệp Đức district seat: a Civil Guard company destroyed, all its arms taken.'
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 377.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-09.vietnam-hanoi
+      when: Sept.
+      date: '1960-09'
+      place: ky-sanh
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Quảng Nam. In September, backed by the Tam Kỳ district's armed work team, the people of Kỳ Sanh commune rise, kill the oppressors and free Tú Mỹ hamlet, the first in the province's plain.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 377. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-09.vietnam-hanoi-2
+      when: Sept.
+      date: '1960-09'
+      place: quang-nam
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Quảng Nam. In September, the province's new companies H29 and H30 with the Region's armed forces attack the Ga Lâu post (Hiên) and the Sáu post (Giằng) and destroy four platoons, taking many arms.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 377. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-11.vietnam
+      when: Nov.
+      date: '1960-11'
+      place: an-lao
+      thread: vietnam
+      also:
+      - vietnam-hanoi
+      c: Bình Định. In November Saigon sweeps Đá Bàn, An Lão district, and kills 32 villagers.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 379. Check: the day; the figure is the history''s.'
+      tags:
+      - polity:rvn
+- add:
+    entry:
+      id: cal.1960-12.vietnam
+      when: Dec., late
+      date: '1960-12'
+      place: an-lao
+      thread: vietnam
+      also:
+      - vietnam-hanoi
+      c: Bình Định. At the end of December a Saigon battalion of Rhade troops under Đinh Ngô, brought from Quảng Ngãi, sweeps, robs and burns the communes of An Dân, An Lạc and An Vinh, An Lão district.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 379. Check: the day.'
+      tags:
+      - polity:rvn
+- add:
+    entry:
+      id: cal.1960-12.vietnam-hanoi
+      when: Dec., late
+      date: '1960-12'
+      place: dat-dai
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bình Định. After the Rhade battalion's sweep Unit 2/9 ambushes at Đất Dài and destroys a squad, forcing it to withdraw; the people then break up the Gò Nĩ concentration camp and free the area west of the An Lão river.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 379–80. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-06.vietnam-hanoi
+      when: June
+      date: '1960-06'
+      place: binh-dinh
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bình Định. The provincial Party congress, June, resolves that armed struggle shall back the political movement of the masses more strongly.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 379 n.1. Made public: 2013. Check: the day; the resolution is cited from the Bình Định Party History Board''s archive.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+- add:
+    entry:
+      id: cal.1960-06.vietnam-hanoi-2
+      when: June
+      date: '1960-06'
+      place: ben-tre
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bến Tre. Company 261 of the province's armed force is formed in June.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 364 n.1. Made public: 2013. Check: the day.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+- add:
+    entry:
+      id: cal.1960-11.vietnam-hanoi-2
+      when: Nov.
+      date: '1960-11'
+      place: gia-le
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Khánh Hòa. In November the province's armed force destroys the Gia Lê post and 5,000 people of the Bố Lạng, Gia Lê and Thác Trại zones rise and break the controls. In the same month the Cây Dầu post zone is broken and the areas of Tà Lương and Suối Hai are freed.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 375. Check: the days; two acts, the history gives them in one passage without days.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1960-11.vietnam-hanoi-3
+      when: Nov.
+      date: '1960-11'
+      place: phuoc-tan
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Phú Yên. In November the province's armed force opens a campaign to free the highlands of Sơn Hòa district. The armed work teams back the people of Phước Tân commune, who kill the oppressors, end Saigon's rule and set up a self-government board; Quang Hiển, Tân Vinh, Phước Thuận, Đá Mài and Phú Mỡ follow. By the end of the year the west of the district is held, 13,000 people free.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 380–81. Check: the days.'
+      tags:
+      - polity:drv
+      - ok:fields-at
+- add:
+    entry:
+      id: cal.1963.vietnam-hanoi-9
+      when: '1963, early'
+      date: '1963'
+      at: before 1963-01
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Military Region 4. In early 1963, on the region''s direction, the armed forces of Nghệ An, Hà Tĩnh and Quảng Bình open a drive to "build the reserve force": better militia, self-defense and local troops, and the registering and training of reservists. At Vĩnh Linh, on the line with the South, the Party committee and the Region command order vigilance and readiness without answering provocation.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 116. Check: the day; the history names the three provinces and Vĩnh Linh, no place for the drive.'
+      tags:
+      - polity:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963.vietnam-hanoi-10
+      when: '1963, late'
+      date: '1963'
+      at: before 1963-09
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Military Region 4. By the end of 1963 the region completes its three basic lines of defense: the demarcation line, the coast and the Vietnam–Laos border.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 116. Check: the day.'
+      tags:
+      - polity:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-02-17.vietnam-34a
+      when: Feb. 17
+      date: '1964-02-17'
+      thread: vietnam-34a
+      also:
+      - vietnam-hanoi
+      c: The aerial reconnaissance of North Vietnam under OPLAN 34A, to gather intelligence and find the air defenses, radar, military bases and depots, is stepped up, Feb. 17, by the history's account.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 362. Check: the history gives the day; the American record not read.'
+      tags:
+      - polity:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-03-02.vietnam-34a
+      when: Mar. 2
+      date: '1964-03-02'
+      thread: vietnam-34a
+      also:
+      - vietnam-hanoi
+      c: The Americans use destroyers on patrol along the North Vietnamese coast under the Desoto plan, Mar. 2, by the history's account, to back the South Vietnamese navy's attacks on the islands and coastal settlements of Military Region 4.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 362–63. Check: the history gives the day; the American record not read.'
+      tags:
+      - polity:us
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-02-24.vietnam-hanoi-2
@@ -1101,24 +1972,6 @@ ops:
       - polity:drv
 - add:
     entry:
-      id: cal.1964-03-18.vietnam-hanoi-2
-      when: Mar. 18
-      date: '1964-03-18'
-      place: ba-tri
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      c: Bến Tre. The morning of Mar. 18 Battalion 263 of Military Region 8 with two of the province's companies destroys Battalion 2, the "Red Eagle" battalion, of Regiment 12, 9th Division of the Saigon army, at Ba Tri.
-      n: '[[w.lich-su-khang-chien-chong-my]], III, 347.'
-      tags:
-      - polity:drv
-      time_range:
-      - '1964-03-17T22:00Z'
-      - '1964-03-18T04:00Z'
-      time_band: morning
-      time_zone: Asia/Ho_Chi_Minh
-- add:
-    entry:
       id: cal.1964-04.vietnam-hanoi-2
       when: Apr.
       date: '1964-04'
@@ -1301,6 +2154,339 @@ ops:
       n: '[[w.lich-su-khang-chien-chong-my]], III, 359. Check: the day; the history gives "the end of 1963 and the start of 1964".'
       tags:
       - polity:drv
+- add:
+    entry:
+      id: cal.1964-10.vietnam-hanoi-2
+      when: Oct.
+      date: '1964-10'
+      thread: vietnam-hanoi
+      also:
+      - vietnam
+      c: 'Region 5. In October the region has a flood without equal in a hundred years: thousands of villages under water, food and crops swept away, hunger threatening. Saigon sweeps with motor boats and amphibious vehicles and bombs the crowded villages. The Region Committee and command hold to the plan of operations and relieve the flooded; the North and the Nam Bộ provinces send food and medicine, hundreds of trucks and boats through the blockade.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 387–88. Check: the day; the American record has the aid mission''s flood relief of Nov. 17 ([[cal.1964-11-17.vietnam]]), the flood of the central coast in November.'
+      tags:
+      - polity:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-12.vietnam-hanoi-4
+      when: Dec.
+      date: '1964-12'
+      place: ba-dua
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Mỹ Tho. In December Military Region 8 destroys the Ba Dừa subsector.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 387. Check: the day; the American record has Thăng Long 27 taking Ba Dừa from the Viet Cong, Nov. 21 ([[cal.1964-11-21.vietnam-operations]]).'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964-12-30.vietnam-hanoi-3
+      when: Dec. 30–31
+      date: '1964-12-30'
+      place: long-khanh
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Long Khánh. The province's local troops overturn a Saigon train, Dec. 30 or 31.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 387. Check: the day; the history gives "Dec. 30 and 31" for this act and the Đồng Sổ ambush together.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964-12.vietnam-hanoi-5
+      when: Dec.
+      date: '1964-12'
+      place: tam-ky
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Quảng Nam. In December, at the time of the An Lão fight, the province's armed forces raid the Saigon side in Tam Kỳ town, and the people of the area rise and break the strategic hamlets, widening the area they hold to the edge of the town.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 392. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964-12.vietnam-hanoi-6
+      when: Dec.
+      date: '1964-12'
+      place: quang-nam
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Quảng Nam. In December, at the time of the An Lão fight, the province's armed forces shell the Cây Xanh strongpoint, near Tam Kỳ.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 392. Check: the day; the place of Cây Xanh not given beyond the province.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964-12.vietnam-hanoi-7
+      when: Dec.
+      date: '1964-12'
+      place: phu-yen
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Phú Yên. In December, with armed attack and political struggle, the province beats a Saigon sweep into Tuy Hòa and Đồng Xuân districts.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 393. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964-12.vietnam-hanoi-8
+      when: Dec.
+      date: '1964-12'
+      place: khanh-hoa
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Khánh Hòa. In December the province's armed force destroys the Phú Thọ post and breaks the hold on Ninh Phú, Ninh Đa and Vạn Hưng communes; the people rise and free 11 communes of Diên Khánh and Ninh Hòa.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 393. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1965-02-07.vietnam-hanoi-2
+      when: Feb. 7
+      date: '1965-02-07'
+      place: dong-hoi
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      c: Quảng Bình. Feb. 7 the Air Defense–Air Force command, on the Politburo's and the Central Military Party Committee's alert, puts units on alert from early morning. At 1:53 p.m. the radar of Company 2, Radar Regiment 290 (Lương Hữu Sắt, Nguyễn Đặng Tuất), picks up the first flight, from the Phú Hội dunes, bombing Đồng Hới town. The antiaircraft guns of the 325th and 341st Infantry Divisions, two navy patrol boats at Nhật Lệ and the militia shoot down three American aircraft, by the history's count.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 404–05. Names: Lương Hữu Sắt, Nguyễn Đặng Tuất. Check: the clock; the American record not read ([[cal.1965-02-07.vietnam]] has the day''s strikes).'
+      tags:
+      - polity:drv
+      time: '1965-02-07T06:53Z'
+      time_zone: Asia/Bangkok
+- add:
+    entry:
+      id: cal.1965-02-08.vietnam-hanoi-2
+      when: Feb. 8
+      date: '1965-02-08'
+      place: ho-xa
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      c: 'Quảng Bình. Feb. 8 American aircraft with the South Vietnamese air force under Nguyễn Cao Kỳ strike Hồ Xá, Vĩnh Linh, and Đồng Hới town. The air defense of the two areas, warned in time, shoots down three over Vĩnh Linh and two over Đồng Hới: eight in the two days, by the history''s count. The 37-mm battalion of Lại Đạt and Nguyễn Nghị goes from Vinh to Đồng Hới; Regiment 234''s 14.5-mm machine guns and two battalions of the artillery officers'' school go to Vĩnh Linh and Quảng Bình.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 405–06. Names: Nguyễn Cao Kỳ. Check: the American record not read; the place field takes the first target.'
+      tags:
+      - polity:drv
+      - name:nguyen-cao-ky
+- add:
+    entry:
+      id: cal.1965-02-11.vietnam-hanoi
+      when: Feb. 11
+      date: '1965-02-11'
+      place: ho-xa
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      c: 'Quảng Bình. Feb. 11 American aircraft hit Hồ Xá, the Vĩnh Linh area, Cồn Cỏ island, Đồng Hới and near places. The air defense shoots down an F8U and takes the pilot, Maj. Robert Shumaker, on Lý Ninh hill; at the Gianh port Company 54 and the machine-gun units, the river fishermen''s self-defense and the militia down two. Quảng Bình''s total for the day: six aircraft, by the history''s count.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 406. Check: the pilot''s name is printed in the history in Vietnamese transcription ("Rôbơt Sumếchcơ"); the American record not read.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1965-04-03.vietnam-hanoi
+      when: Apr. 3
+      date: '1965-04-03'
+      place: ham-rong
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      c: 'Thanh Hóa. Apr. 3, the Air Defense–Air Force command having decided the night before to use fighters at the Hàm Rồng bridge, American aircraft bomb the Đò Lèn bridge in the morning; the antiaircraft of Regiment 234 and the local forces shoot down an F4 in the first minute. At 10 a.m. they bomb the Hàm Rồng bridge area, and two flights of MiG-17s of the 921st Fighter Regiment, under Phạm Ngọc Lan and Trần Hanh, go up with the ground defense: after a flight of 20 minutes they have shot down two F8s and return safe. At 12:50 p.m. a second raid on the bridge; the antiaircraft fights nearly two hours, a militia machine-gun crew under Phạm Gia Huấn downs a plane. Eight American aircraft down in the day, by the history''s count. Apr. 3 becomes the day of the Vietnamese People''s Air Force.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 410. Names: Phạm Ngọc Lan, Trần Hanh, Phạm Gia Huấn. Check: the American record ([[cal.1965-04-03.vietnam]]) has the two F-105s lost to MiGs on Apr. 4, not F-8s on Apr. 3; the clock times are Hanoi''s.'
+      tags:
+      - polity:drv
+      time: '1965-04-03T03:00Z'
+      time_zone: Asia/Bangkok
+- add:
+    entry:
+      id: cal.1965-04-04.vietnam-hanoi-2
+      when: Apr. 4
+      date: '1965-04-04'
+      place: pha-ghep
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      c: 'Thanh Hóa. Apr. 4, at 8:20 a.m., American aircraft bomb the Ghép ferry on the Yên River, as three antiaircraft companies of Regiment 234 from Nghệ An, sent overnight to the Hàm Rồng, are crossing: the guns are fired from their tow vehicles. Thirty minutes: three aircraft shot down, a pilot taken. At 9:30 a.m. a second raid: Companies 2 and 5 of the regiment and a machine-gun crew, with the militia of both banks, set seven aircraft afire, by the history''s count.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 411. Check: the clock; the history gives Hanoi''s hours; the American record not read.'
+      tags:
+      - polity:drv
+      time: '1965-04-04T01:20Z'
+      time_zone: Asia/Bangkok
+- add:
+    entry:
+      id: cal.1965-04-04.vietnam-hanoi-3
+      when: Apr. 4
+      date: '1965-04-04'
+      place: ham-rong
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      c: 'Thanh Hóa. Apr. 4 American aircraft raid the Hàm Rồng bridge in waves: at 8:30 a.m. an F-105 is shot down at once; at 9:30 a second raid; at 10:05 a third, driven off by the fire of patrol boats 120 and 186 and the batteries of Regiments 228, 280 and 234 and the militia, the bombs falling at random on the villages. A flight under Trần Hanh attacks the rear of the F-105s and in four minutes of air fighting shoots down two. The bridge stands.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 411–12. Names: Trần Hanh. Check: the clock; the American record has two F-105s lost to MiGs, Apr. 4 ([[cal.1965-04-03.vietnam]], [[cal.1965-04-04.vietnam-air-war]]).'
+      tags:
+      - polity:drv
+      time: '1965-04-04T01:30Z'
+      time_zone: Asia/Bangkok
+- add:
+    entry:
+      id: cal.1965-02-21.vietnam-saigon
+      when: Feb. 21
+      date: '1965-02-21'
+      place: saigon
+      thread: vietnam-saigon
+      also:
+      - vietnam
+      c: Saigon. Phan Khắc Sửu, chief of state, signs a decree naming Trần Văn Minh acting commander in chief in Nguyễn Khánh's place, Feb. 21, under pressure of the young generals who overthrew Khánh the day before. Khánh is out after 13 months.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 395. Names: Phan Khắc Sửu, Trần Văn Minh, Nguyễn Khánh. Check: the American record not read; compare [[cal.1965-02-20.vietnam-saigon]].'
+      tags:
+      - name:phan-khac-suu
+      - name:tran-van-minh
+      - name:nguyen-khanh
+      - polity:rvn
+- check:
+    id: cal.1963-08-24.vietnam-3
+    text: 'Check: the history adds that the police broke up the Aug. 25 rally, the student Quách Thị Trang was killed and nearly 200 young men and women taken to the Quang Trung training center (III, 313).'
+- cite:
+    id: cal.1961-05-11.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 14–15 (May 11, 1961: Kennedy approves NSAM 52; its aims and the measures it names)'
+    units: A
+- cite:
+    id: cal.1961-05-13.vietnam-johnson-asia
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 15–16 (the Johnson–Diệm joint communiqué: more military and economic aid and advisers, more Saigon forces, a joint working group, the strategic-hamlet program)'
+    units: A
+- cite:
+    id: cal.1961-07-14.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 16 (the Staley mission''s report to Kennedy at the end of July; three stages, the first of 18 months, mid-1961 to the end of 1962, to gather the people into 16,000 strategic hamlets)'
+    units: A-B
+- variant:
+    id: cal.1961-07-14.vietnam
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: the Staley mission, which arrived June 19, reports to Kennedy at the end of July
+    at: III, 16
+- cite:
+    id: cal.1963-08-21.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 313 (the night of Aug. 20–21: Diệm''s field police and Nhu''s special forces strike nearly all the pagodas; over 1,400 monks and Buddhists taken, 720 in Saigon and 595 in Huế; 2,000 more hunted)'
+    units: A-C
+- cite:
+    id: cal.1963-08-21.vietnam-2
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 313 (Aug. 21, many deans and professors resign)'
+    units: B
+- cite:
+    id: cal.1963-08-22.vietnam-2
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 313 (Aug. 22, the "Committee to Lead Students and Pupils" formed in Saigon)'
+    units: B
+- cite:
+    id: cal.1963-09-02.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 315 (Sept. 2, at the White House: Kennedy says "the policy must change, perhaps the man too")'
+    units: C
+- variant:
+    id: cal.1963-09-02.vietnam
+    unit: C
+    witness: w.lich-su-khang-chien-chong-my
+    reads: 'Kennedy, Sept. 2, at the White House: "the policy must be changed, perhaps the men too"'
+    at: III, 315
+- cite:
+    id: cal.1963-11-01.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1 (the coup of Nov. 1, 1963)'
+    units: A-B
+- cite:
+    id: cal.1963-11-22.assassination
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 321 (Nov. 22, 1963: Kennedy assassinated, twenty days after Diệm''s fall)'
+    units: A-C
+- cite:
+    id: cal.1963-11-20.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 329 (the Honolulu conference of Nov. 20, 1963, where the plan of covert operations against North Vietnam, later OPLAN 34A, was brought out)'
+    units: A
+- cite:
+    id: cal.1963-11-26.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 329 (NSAM 273, Nov. 26, 1963; the aim of ending the war and winning by the end of 1965)'
+    units: A
+- cite:
+    id: cal.1963-12-21.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 330–31 (McNamara''s memorandum "The Situation in Vietnam" of Dec. 21, 1963 to Johnson: a government unstable, the American mission weak, the Viet Cong gaining; three measures)'
+    units: A-C
+- cite:
+    id: cal.1964-01-22.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 331–32 (Taylor''s memorandum to McNamara of Jan. 22, 1964: bomb the North with American air power, and go from training the South Vietnamese to fighting the war in both Vietnams with American forces)'
+    units: B-C
+- cite:
+    id: cal.1964-03-08.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 332 (Mar. 8–12, 1964: McNamara and Taylor in Saigon again)'
+    units: A
+- cite:
+    id: cal.1964-03-16.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 332 (Mar. 16: McNamara''s report on the situation in the South and the measures to change the course of the war)'
+    units: B-C
+- cite:
+    id: cal.1964-03-17.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 332 (Mar. 17: Johnson approves the report, which becomes NSAM 288; its twelve measures: support for Khánh against any coup, national mobilization, Saigon forces to at least 500,000)'
+    units: A-B
+- cite:
+    id: cal.1964-04.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 363 (Apr. 17, 1964: CINCPAC''s OPLAN 37, three phases; the Joint Chiefs approve air and naval strikes on 94 targets in the North, to be done in 12 days)'
+    units: A-C
+- variant:
+    id: cal.1964-04.vietnam
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: 'CINCPAC issues OPLAN 37 on Apr. 17, 1964; its third phase: strong and continuous bombing of the North'
+    at: III, 363
+- cite:
+    id: cal.1964-08-07.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 366–67 (Aug. 7: the Congress passes the Gulf of Tonkin resolution; the text quoted)'
+    units: A, C
+- cite:
+    id: cal.1965-03-28.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 413 (Mar. 25–27, 1965: the Central Committee''s eleventh plenum, its resolution on the situation and the immediate tasks of the revolution)'
+    units: A-B
+- cite:
+    id: cal.1964-09-13.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1 (Sept. 25, 1964: Huỳnh Văn Tôn, Lâm Văn Phát and Nguyễn Văn Đức make a coup, which fails)'
+    units: B
+- variant:
+    id: cal.1964-09-13.vietnam
+    unit: B
+    witness: w.lich-su-khang-chien-chong-my
+    reads: the failed coup of Huỳnh Văn Tôn, Lâm Văn Phát and Nguyễn Văn Đức is dated Sept. 25
+    at: III, 320 n.1
+- cite:
+    id: cal.1964-12-20.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1 (Dec. 20, 1964: Khánh, Kỳ and Thiệu make a partial coup)'
+    units: B
+- cite:
+    id: cal.1964-01-30.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1 (Jan. 30, 1964: Khánh overthrows Dương Văn Minh''s government)'
+    units: B
+- cite:
+    id: cal.1965-05-20.vietnam-saigon
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1 (Mar. 6, Apr. 20 and May 20, 1965: three times Quát''s government is hit by a failed coup)'
+    units: A-B
+- cite:
+    id: cal.1965-06-11.vietnam-saigon
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1 (June 11, 1965: Quát''s government overthrown; Thiệu and Kỳ form a new government)'
+    units: A
+- variant:
+    id: cal.1965-06-11.vietnam-saigon
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: Quát's government is overthrown June 11, Thiệu and Kỳ forming a new one
+    at: III, 320 n.1
+- cite:
+    id: cal.1965-05-29.vietnam-operations
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 423–29 (May 28–31, 1965, the Ba Gia campaign of Regiment 1: the battle in three days)'
+    units: B-D
+- variant:
+    id: cal.1965-05-29.vietnam-operations
+    unit: D
+    witness: w.lich-su-khang-chien-chong-my
+    reads: the Saigon side loses 916 killed (four American advisers) and 65 taken in three days of the campaign; Regiment 1 takes 200 weapons
+    at: III, 429
 - cite:
     id: cal.1962-06-11.laos
     item: '[[w.lich-su-khang-chien-chong-my]], III, 133 (June 12, 1962: the three Lao parties agree to form a coalition government)'
@@ -1348,3 +2534,63 @@ ops:
     witness: w.lich-su-khang-chien-chong-my
     reads: the Military Council, by Nguyễn Xuân Oánh and Nghiêm Xuân Hồng, declares Aug. 25 it agrees to withdraw the Vũng Tàu charter
     at: III, 357
+- cite:
+    id: cal.1964-12-10.vietnam-operations
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 387 (December 1964: Region 9 attacks the Long Mỹ district seat, 300 of the Saigon side put out of action, 350 weapons taken)'
+    units: A
+- variant:
+    id: cal.1964-12-10.vietnam-operations
+    unit: F
+    witness: w.lich-su-khang-chien-chong-my
+    reads: 'Military Region 9 strikes the Long Mỹ district seat in December: 300 of the Saigon side put out of action, 350 weapons taken'
+    at: III, 387
+- cite:
+    id: cal.1965-01-27.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 394 (Jan. 25, 1965: Khánh and young generals overthrow Hương, set up a military council)'
+    units: A-C
+- variant:
+    id: cal.1965-01-27.vietnam
+    unit: B
+    witness: w.lich-su-khang-chien-chong-my
+    reads: Nguyễn Khánh and some young generals overthrow Trần Văn Hương on Jan. 25 and set up a military council
+    at: III, 394
+- cite:
+    id: cal.1965-01-27.vietnam-2
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 394 (the memorandum of Jan. 27 of McNamara and Bundy: policy "can lead to a disastrous defeat")'
+    units: A
+- cite:
+    id: cal.1965-02-19.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 395 (Feb. 19, 1965: Phát and Col. Phạm Ngọc Thảo, as the "force to protect the nation", surround Khánh''s headquarters, take the radio station, the post office and Tân Sơn Nhứt airport; Khánh''s and Kỳ''s forces surround them and retake the places)'
+    units: B-C
+- cite:
+    id: cal.1965-02-20.vietnam-saigon
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 395 (Feb. 20: a group of young generals under Nguyễn Cao Kỳ and Nguyễn Chánh Thi overthrow Khánh)'
+    units: B
+- cite:
+    id: cal.1965-02-07.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 403–04 (the history: Holloway the "sensitive" event, the pretext for Flaming Dart I, Feb. 7, on Vĩnh Linh and Đồng Hới; Flaming Dart II, Feb. 18, to the 19th parallel)'
+    units: F
+- variant:
+    id: cal.1965-02-07.vietnam
+    unit: F
+    witness: w.lich-su-khang-chien-chong-my
+    reads: Flaming Dart I bombs Vĩnh Linh and Đồng Hới from Feb. 7; Flaming Dart II opens Feb. 18, to the 19th parallel
+    at: III, 403–04
+- cite:
+    id: cal.1965-02-13.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 406 (Feb. 13: Johnson agrees to continuous bombing of the whole North, "to break Hanoi''s will", code-named Rolling Thunder, carried out from Mar. 2)'
+    units: A
+- cite:
+    id: cal.1965-03-02.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 406–07 (Mar. 2: 164 aircraft at 2:47 p.m. against the naval base on the Gianh River; seven aircraft, A4s and F8s, shot down)'
+    units: A-B
+- variant:
+    id: cal.1965-03-02.vietnam
+    unit: B
+    witness: w.lich-su-khang-chien-chong-my
+    reads: the opening raid is on the naval base at the Gianh River, 164 sorties from 2:47 p.m.; seven aircraft shot down
+    at: III, 406–07
+- cite:
+    id: cal.1965-03-08.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 413 (Mar. 8, 1965: two battalions of Marines into Đà Nẵng, the first American combat units brought to the South)'
+    units: A

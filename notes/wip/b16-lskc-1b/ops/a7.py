@@ -4,7 +4,6 @@ from dsl import *
 VH = 'vietnam-hanoi'; OP = ['vietnam-operations']
 for k, n_ in [('ba-tri', 'Ba Tri'), ('bu-dang', 'Bù Đăng'), ('tan-binh-thu-dau-mot', 'Tân Bình')]:
     NP(k, n_)
-A('1964-0318-batri', '1964-03-18', VH, 'Bến Tre. The morning of Mar. 18 Battalion 263 of Military Region 8 with two of the province\'s companies destroys Battalion 2, the "Red Eagle" battalion, of Regiment 12, 9th Division of the Saigon army, at Ba Tri.', 'III, 347', place='ba-tri', band_='morning', also=OP)
 A('1964-04-tanbinh', '1964-04', VH, 'Thủ Dầu Một. In April Company 303 of Phước Thành with the local troops of Phú Giáo and Tân Uyên and guerrillas destroys the Tân Bình and Nhà Đỏ posts and frees Tân Bình commune completely.', 'III, 359–60', when='Apr.', place='thu-dau-mot', also=OP, check='the day.')
 A('1964-budang', '1964', VH, 'Phước Long. Battalion 240 of Region 10 with the province\'s troops attacks the Bù Đăng subsector, destroys the whole garrison and levels the posts.', 'III, 360', when='1964', place='bu-dang', also=OP, check='the day; the history gives none, between acts of April and of March.')
 A('1964-damgia', '1964', VH, 'Biên Hòa. The province\'s Company 240, Company 245 and the engineer company destroy the Đầm Giá tower.', 'III, 360', when='1964', place='bien-hoa', also=OP, check='the day; the history gives none.')
