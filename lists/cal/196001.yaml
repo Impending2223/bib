@@ -2058,9 +2058,24 @@ entries:
     place: peking
     thread: china-leadership
     also: [laos, soviet-union]
+    follows:
+      - cal.1960-01-22.china
     c: 'Chervonenko to Chen Yi, Wucheng Hall, Zhongnanhai, 5 p.m., a notice Moscow asked him to give: by secret Soviet materials the Western representatives in Vientiane, the United States first, are pressing Laos''s government and army to unite with the anti-communists behind one list of candidates and to change the electoral law before the elections; the Vietnamese are told too. Chen Yi: China and Vietnam will not send troops across the border; the Lao must rely on themselves; a missile base in Laos is unlikely. He will relay the news to Zhou at once.'
     n: '"[Transcript of Vice Premier Chen Yi''s Meeting with Soviet Ambassador S.V. Chervonenko](https://digitalarchive.umd.edu/document/120867)" (Jan. 22, 1960), PRC FMA 109-00934-01, 1–3, obtained by Feng Yiming, trans. Marian Rosenberg, Wilson Center Digital Archive. Top secret, for the highest levels only; the record gives the time as 5:00 p.m. and the place as Wucheng Hall, Zhongnanhai; present, Counselor Saffron for the Soviet side, Zhang Wentian, Yu Zhan and Ma Lie for China, Yan Mingfu interpreting. Chervonenko says he heard a presentation on China''s economy "this morning"; Chen Yi recalls Antonov''s warning of the Laos coup three days before it. Names: Chervonenko, Chen Yi, Zhou Enlai. Check: whether this and [[cal.1960-01-22.china-leadership-2]] (the Nianpu: Chervonenko to Chen Yi on the Sino-Indian dispute) were one sitting; the Nianpu gives no hour, the transcript no word on India. Check: the year the Archive posted the document.'
     tags: [polity:prc, polity:ussr, name:chen-yi, name:chervonenko-stepan-v, name:zhou-enlai, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-01-22.china
+    when: Jan. 22
+    date: '1960-01-22'
+    thread: china
+    also: [soviet-union]
+    c: Chervonenko, the Soviet ambassador, hears a presentation on China's economic situation, the morning. So he tells Chen Yi later that day, with thanks.
+    n: '"[Transcript of Vice Premier Chen Yi''s Meeting with Soviet Ambassador S.V. Chervonenko](https://digitalarchive.umd.edu/document/120867)" (Jan. 22, 1960), PRC FMA 109-00934-01, 1–3, obtained by Feng Yiming, trans. Marian Rosenberg, Wilson Center Digital Archive (Chervonenko to Chen Yi, at the talk of 5 p.m.: "This morning, [I] listened to the presentation on China''s economic situation"; the record names neither the speaker nor the place). Names: Chervonenko, Chen Yi. Check: who gave the presentation, and where. Check: the year the Archive posted the document.'
+    tags: [polity:prc, polity:ussr, name:chervonenko-stepan-v, name:chen-yi, vis:only:prc+ussr, ok:fields-time]
+    time_range:
+      - 1960-01-21T22:00Z
+      - 1960-01-22T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1960-01-23.cuba
     when: Jan. 23
