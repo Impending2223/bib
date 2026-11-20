@@ -202,9 +202,10 @@ entries:
   - id: cal.1964-08-01.china-leadership
     when: Aug. 1
     date: '1964-08-01'
+    place: peking
     thread: china-leadership
     c: Zhou attends the meeting of central organs and Beijing Party cadres at which Liu Shaoqi reports on socialist education and the two labor and two education systems.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 661 (Aug. 1, 1964); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 597–598 (Aug. 1, 1964; Liu reports, at the meeting of the responsible cadres of the Party, government, army organs and mass bodies in Peking, on the socialist-education movement and the two labor and two education systems: the movement is a greater revolution than land reform and cooperation, wider, deeper, more complex and harder; leading cadres at every level must go themselves to farms and factories to squat at points to gain direct experience, and insufficient understanding of the "four clean-ups" and "five-antis" and fear of hardship are the main reason leaders do not stay at points; each province and large city is to begin to try the two systems as regular labor and education systems, which can spread education, lighten the burden of state and family and in the long run gradually remove the difference between mental and manual labor; fewer fixed and more temporary workers). Made public: 1996. Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 661 (Aug. 1, 1964); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 597–598 (Aug. 1, 1964; Liu reports, at the meeting of the responsible cadres of the Party, government, army organs and mass bodies in Peking, on the socialist-education movement and the two labor and two education systems: the movement is a greater revolution than land reform and cooperation, wider, deeper, more complex and harder; leading cadres at every level must go themselves to farms and factories to squat at points to gain direct experience, and insufficient understanding of the "four clean-ups" and "five-antis" and fear of hardship are the main reason leaders do not stay at points; each province and large city is to begin to try the two systems as regular labor and education systems, which can spread education, lighten the burden of state and family and in the long run gradually remove the difference between mental and manual labor; fewer fixed and more temporary workers); [[w.mao-zedong-zhuan]], VI, ch. 73 (Aug. 1, back in Peking, Liu''s speech to the meeting of the responsible cadres of the central departments: leading cadres to stay in the villages; the work team to advise only where the masses are already roused (n.8)). Made public: 1996. To check: Liu Shaoqi 刘少奇, speech at the meeting of responsible cadres of the central departments 中央各部门负责干部大会, Aug. 1, 1964 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.8). Names: Zhou Enlai, Liu Shaoqi.'
     tags: [name:zhou-enlai, name:liu-shaoqi, polity:prc, vis:only:prc]
   - id: cal.1964-08-01.china-leadership-2
     when: Aug. 1
@@ -247,6 +248,21 @@ entries:
       - 1964-08-01T11:00Z
     time_band: daytime
     time_zone: Asia/Shanghai
+  - id: cal.1964-08.elections-1964-4
+    when: Aug. 1
+    date: '1964-08-01'
+    place: washington
+    thread: elections-1964-johnson
+    also: [civil-disorders-harlem]
+    c: 'Wagner with the Johnsons on the Truman balcony: King brought in for his "emotional hold" over New York''s Negroes; a civilian review board would make the police''s morale "drop to zero overnight."'
+    n: '[[w.branch-pillar-of-fire]], 425–26; [[w.johnson-white-house-diary]], 186–87 (Saturday, Aug. 1: dinner for Wagner on the Truman Balcony with Celebrezze and Wirtz and their wives; King "the only leader the Negro people will listen to," with "an emotional hold over them"; Harlem''s unemployment, 1,300 jobs promised youth, a million dollars for rat eradication, public housing deteriorating; a review board would make police morale "drop to zero overnight"; not that King was brought in). Check: the day; Branch gives "a few days" after July 30 (425). To check: Johnson, White House Diary, pp. 186–87. 32. CRIME, War, AND FREEDOM SCHOOL (cited by [[w.branch-pillar-of-fire]], 426). See [[cal.1964-07-27.states-and-cities]]. Names: Wagner, Johnson, Lady Bird Johnson.'
+    src:
+      c: 621e1ea0
+      rows:
+        - 'w.branch-pillar-of-fire 425–26: all'
+        - 'via w.branch-pillar-of-fire 426 n.drop-to-zero-overnight: all'
+        - 'w.johnson-white-house-diary 186–87: B'
+    tags: [name:wagner-robert-f-jr, name:johnson-lyndon-b, name:johnson-lady-bird]
   - id: cal.1964-08-02.vietnam
     when: Aug. 2–3
     date: '1964-08-02'
@@ -1418,6 +1434,18 @@ entries:
       - 1964-08-04T11:00Z
     time_band: daytime
     time_zone: Asia/Shanghai
+  - id: cal.1964-08-04.china-leadership-6
+    when: Aug. 4
+    date: '1964-08-04'
+    thread: china-leadership
+    c: 'Tian Jiaying 田家英, the day before he leaves Peking 北京 with Liu Shaoqi 刘少奇 for Canton to revise the Latter Ten Points 后十条, asks Mao 毛泽东 for his views. Mao: do not see the grass-roots cadres as black all through; do not mass many work-team members on one point.'
+    n: '[[w.mao-zedong-zhuan]], VI, ch. 73. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 73). To check: *Mao Zedong he ta de mishu Tian Jiaying* 《毛泽东和他的秘书田家英》 (enlarged ed., Zhongyang wenxian chubanshe, Aug. 1996), 99 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.9); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. Names: Tian Jiaying, Mao Zedong, Liu Shaoqi.'
+    src:
+      c: be53468a
+      rows:
+        - 'w.mao-zedong-zhuan VI, ch. 73: all'
+        - 'via w.mao-zedong-zhuan VI, ch.73 n.9: all'
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc, ok:fields-place]
   - id: cal.1964-08-05.vietnam-7
     when: Aug. 5
     date: '1964-08-05'
@@ -1983,7 +2011,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi leaves Peking for Wuhan and with the leaders of the Hubei provincial and city committees studies the deployment of the socialist-education movement.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 599 (Aug. 5, 1964). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 599 (Aug. 5, 1964); [[w.mao-zedong-zhuan]], VI, ch. 73 (Aug. 5 Liu leaves Peking to preside at Canton over the revision of the Latter Ten Points, Tian Jiaying with him; on the plane from Peking to Wuchang Tian gives him Mao''s two points of Aug. 4; Liu frowns and says nothing (n.9)). Made public: 1996. To check: *Mao Zedong he ta de mishu Tian Jiaying* 《毛泽东和他的秘书田家英》 (enlarged ed., Zhongyang wenxian chubanshe, Aug. 1996), 99 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.9). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1964-08-05.china-leadership-4
     when: Aug. 5
@@ -2400,13 +2428,15 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam-tonkin]
     c: 'Mao, Beidaihe, morning: reads the draft Chinese government statement condemning U.S. aggression against the Democratic Republic of Vietnam (the Aug. 5 naval air raids on Nghệ An, Hòn Gai, Thanh Hóa): an attack on Vietnam is an attack on China, the Chinese people will not sit by. At 6 a.m. instructs Wang Dongxing: read, then to Jiang Qing; "war is coming, my plans for movement must be reconsidered" (his planned ride along the Yellow and Yangtze rivers). The statement published that day.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 6, 1964. [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 353 (Aug. 6, 1964; the Chinese government''s statement on the sudden U.S. aircraft attack on Vietnam on Aug. 5: the U.S. has started a war of aggression, and the DRV and China have won the right to resist aggression; all countries that uphold the Geneva agreement have won the right to support the DRV and oppose the aggression; the U.S. invasion of the DRV is an invasion of China, and the Chinese people will not sit by and not save); [[w.jianguo-yilai-mao-zedong]], XVII, 309–310 (Aug. 6, 1964; Mao''s note dated 6 a.m. Aug. 6 (八月六日上午六时), on the draft statement; note 1: the statement printed in *Renmin ribao* that day; note 3: his plan to ride along the Yellow and Yangtze rivers). Made public: 2001. The statement public: People''s Daily, Aug. 6, 1964. See [[cal.1964-08-05.china]]. Names: Mao Zedong, Jiang Qing, Wang Dongxing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 6, 1964. [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 353 (Aug. 6, 1964; the Chinese government''s statement on the sudden U.S. aircraft attack on Vietnam on Aug. 5: the U.S. has started a war of aggression, and the DRV and China have won the right to resist aggression; all countries that uphold the Geneva agreement have won the right to support the DRV and oppose the aggression; the U.S. invasion of the DRV is an invasion of China, and the Chinese people will not sit by and not save); [[w.jianguo-yilai-mao-zedong]], XVII, 309–310 (Aug. 6, 1964; Mao''s note dated 6 a.m. Aug. 6 (八月六日上午六时), on the draft statement; note 1: the statement printed in *Renmin ribao* that day; note 3: his plan to ride along the Yellow and Yangtze rivers); [[w.mao-zedong-zhuan]], VI, ch. 73 (Aug. 6 Mao reads the draft government statement warning the United States after the Aug. 5 bombing of the DRV; his note: Wang Dongxing to read, then Jiang Qing; "war is coming, my plans for movement must be reconsidered," he gives up the ride along the Yellow River (n.6)). Made public: 2001. The statement public: People''s Daily, Aug. 6, 1964. To check: Mao Zedong 毛泽东, note on the draft statement of the Chinese government protesting the American aggression against Vietnam (manuscript 手稿), Aug. 6, 1964 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.6). See [[cal.1964-08-05.china]]. Names: Mao Zedong, Jiang Qing, Wang Dongxing.'
     src:
       c: a64179d3
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Aug. 6, 1964: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 353: D'
         - 'w.jianguo-yilai-mao-zedong XVII, 309–310: B-D'
+        - 'w.mao-zedong-zhuan VI, ch. 73: C, D'
+        - 'via w.mao-zedong-zhuan VI, ch.73 n.6: C, D'
     tags: [name:mao-zedong, name:jiang-qing, polity:prc, polity:drv, polity:us, vis:only:prc]
   - id: cal.1964-08-06.china-leadership-2
     when: Aug. 6
@@ -4120,12 +4150,14 @@ entries:
     date: '1964-08-12'
     thread: china-leadership
     c: 'Mao, returning to Luo Ruiqing 罗瑞卿 and Yang Chengwu 杨成武 the General Staff Operations Department''s report of Apr. 25 on guarding economic construction against surprise attack (industry too concentrated, big cities too full, rail hubs, bridges and ports in or by the cities, reservoirs unable to release water fast): very good; study it closely and carry it out step by step. Has the State Council''s special group been set up and begun work?'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 316–318 (Aug. 12, 1964; note 2: Yang sent the report on May 9, Luo to Mao, Liu, Zhou, Deng and Peng May 25). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: General Staff Operations Department, report of Apr. 25, 1964 on how national economic construction may guard against the enemy''s surprise attack (sent on by Yang Chengwu May 9 and by Luo Ruiqing May 25) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 316 n.2). Names: Mao Zedong, Luo Ruiqing, Yang Chengwu. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 316–318 (Aug. 12, 1964; note 2: Yang sent the report on May 9, Luo to Mao, Liu, Zhou, Deng and Peng May 25); [[w.mao-zedong-zhuan]], VI, ch. 73 (Aug. 12 Mao reads and approves the General Staff Operations Department''s report on guarding the economy against surprise attack: study it closely, carry it out step by step; asks whether the State Council''s special group is set up and at work (n.7)). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 73); the text in full, 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: General Staff Operations Department, report of Apr. 25, 1964 on how national economic construction may guard against the enemy''s surprise attack (sent on by Yang Chengwu May 9 and by Luo Ruiqing May 25) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 316 n.2); Mao Zedong 毛泽东, comment on the General Staff Operations Department''s 总参谋部作战部 report on how to guard national economic construction against surprise attack (manuscript 手稿), Aug. 12, 1964 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.7). Names: Mao Zedong, Luo Ruiqing, Yang Chengwu. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
     src:
       c: b6d5a44e
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 316–318: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 316 n.2: all'
+        - 'w.mao-zedong-zhuan VI, ch. 73: B, C'
+        - 'via w.mao-zedong-zhuan VI, ch.73 n.7: B, C'
     tags: [polity:prc, name:mao-zedong, name:luo-ruiqing, vis:only:prc]
   - id: cal.1964-08-12.china-leadership-5
     when: Aug. 12
@@ -4964,10 +4996,11 @@ entries:
   - id: cal.1964-08-16.china-leadership-2
     when: Aug. 16
     date: '1964-08-16'
+    place: canton
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi wires Mao and the Central Committee on his trip through Hubei, Hunan and Guangdong and the problems arising in the rural socialist-education movement. He proposes that forces be concentrated for the "five-antis" in towns and the rural socialist education and the old method of leadership by the county committee be changed: all counties'' work teams to be gathered at the prefectural committee, the provincial work teams also divided among the prefectures, and under the provincial and prefectural committees one county tackled at a time in concentration, with every trade, the towns'' "five-antis" and the villages'' socialist education below the county all done by the work teams, by a package or in turn, place after place. Mao wires back his approval on Aug. 18.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 599–600 (Aug. 16, 1964); [[w.macfarquhar-origins-of-the-cultural]], III, 405 (Liu''s letter of Aug. 16 on the Central-South provinces'' tactics: provincial and prefectural teams of several thousand to ten thousand for a battle of annihilation; a third of central organs'' cadres to the countryside. Mao''s reply of Aug. 18, "very good": train work teams for two months, unite thinking at the October work conference; the industry and transport ministries field a team of 3,901, a third of their deputy ministers among them; 1,560,000 cadres mobilized nationwide); [[w.jianguo-yilai-mao-zedong]], XVII, 323–325 (Aug. 18, 1964; note 1: Liu''s letter of Aug. 16 from Guangdong, "Proposals on concentrating forces for the urban ''five antis'' and rural socialist education"; Mao''s reply dated Aug. 18). Made public: 1996. Check: unit C, Mao''s reply of Aug. 18 (XVII, 323), is an act of another day; the Wengao prints it as a letter. To check: Liu''s telegram of Aug. 16 and Mao''s reply of Aug. 18 (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 599–600); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1119–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 405 n.39a); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 132–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 405 n.39b); Liu Shaoqi to Mao Zedong and the Center, letter of Aug. 16, 1964 from Guangdong, "Proposals on concentrating forces for the urban ''five antis'' and rural socialist education" (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 324 n.1). Names: Liu Shaoqi, Mao Zedong.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 599–600 (Aug. 16, 1964); [[w.macfarquhar-origins-of-the-cultural]], III, 405 (Liu''s letter of Aug. 16 on the Central-South provinces'' tactics: provincial and prefectural teams of several thousand to ten thousand for a battle of annihilation; a third of central organs'' cadres to the countryside. Mao''s reply of Aug. 18, "very good": train work teams for two months, unite thinking at the October work conference; the industry and transport ministries field a team of 3,901, a third of their deputy ministers among them; 1,560,000 cadres mobilized nationwide); [[w.jianguo-yilai-mao-zedong]], XVII, 323–325 (Aug. 18, 1964; note 1: Liu''s letter of Aug. 16 from Guangdong, "Proposals on concentrating forces for the urban ''five antis'' and rural socialist education"; Mao''s reply dated Aug. 18); [[w.mao-zedong-zhuan]], VI, ch. 73 (Aug. 16 Liu writes from Guangzhou to Mao to concentrate forces on one county under the province and prefecture committees; Mao read it Aug. 17 and replied Aug. 18 in full agreement, to be put through at once (n.10, n.11); a letter in the book, not a wire). Made public: 1996. Check: unit C, Mao''s reply of Aug. 18 (XVII, 323), is an act of another day; the Wengao prints it as a letter. To check: Liu''s telegram of Aug. 16 and Mao''s reply of Aug. 18 (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 599–600); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1119–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 405 n.39a); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 132–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 405 n.39b); Liu Shaoqi to Mao Zedong and the Center, letter of Aug. 16, 1964 from Guangdong, "Proposals on concentrating forces for the urban ''five antis'' and rural socialist education" (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 324 n.1); Liu Shaoqi 刘少奇, letter to Mao Zedong 毛泽东 on the deployment of the socialist education movement (manuscript 手稿), Aug. 16, 1964 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.10); Mao Zedong 毛泽东, reply to Liu Shaoqi 刘少奇 (manuscript 手稿), Aug. 18, 1964 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.11). Names: Liu Shaoqi, Mao Zedong.'
     src:
       c: 3dc19bcf
       rows:
@@ -4977,7 +5010,17 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 405 n.39b: A, B, C'
         - 'w.jianguo-yilai-mao-zedong XVII, 323–325: A-C'
         - 'via w.jianguo-yilai-mao-zedong XVII, 324 n.1: all'
+        - 'w.mao-zedong-zhuan VI, ch. 73: ?'
     tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
+    variants:
+      - unit: C
+        witness: w.mao-zedong-zhuan
+        reads: Mao answers by letter (复信, manuscript 手稿), Aug. 18, not a wire
+        at: VI, ch. 73 n.11
+      - unit: A
+        witness: w.mao-zedong-zhuan
+        reads: Liu writes to Mao from Canton (致信, a letter, manuscript 手稿), not a wire
+        at: VI, ch. 73 n.10
   - id: cal.1964-08-16.china-leadership-3
     when: Aug. 16
     date: '1964-08-16'
@@ -5351,13 +5394,15 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao, Beidaihe, afternoon: with Kang Sheng, Chen Boda, Wu Jiang, Guan Feng, Gong Yuzhi and Shao Tiezhen on philosophy. Philosophers to go to the countryside this winter and join the class struggle; arts students and teachers all to go, five months in the country and five in a factory; science stays. Synthesis is a big fish eating small fish; Yang Xianzhen''s "two into one" is wrong. Of the three laws, quantity and quality, negation of the negation, and the unity of opposites: only one, the unity of opposites; no negation of the negation.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 18, 1964. [[w.macfarquhar-origins-of-the-cultural]], III, 395 (Mao, on the Kuomintang and the Communist Party, denounces Yang Xianzhen''s "two combine into one" by name to Kang Sheng, Chen Boda and others). Made public: 2013. Check: whether this is the meeting of mid-August 1964 at which, by the note, Kang Sheng condemns the Academy of Sciences'' Institute of Philosophy and Social Science as an "institute of antiquities" ([[w.tse-tung-miscellany-of-mao-tse]], 2, 386, cited by [[w.macfarquhar-origins-of-the-cultural]], III, 392 n.74c). To check: [[w.schram-mao-tse-tung-unrehearsed]], 224 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 395 n.90). Names: Mao Zedong, Kang Sheng, Chen Boda, Wu Jiang, Guan Feng, Gong Yuzhi, Shao Tiezhen, Yang Xianzhen.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 18, 1964. [[w.macfarquhar-origins-of-the-cultural]], III, 395 (Mao, on the Kuomintang and the Communist Party, denounces Yang Xianzhen''s "two combine into one" by name to Kang Sheng, Chen Boda and others); [[w.mao-zedong-zhuan]], VI, ch. 73 (Aug. 18 at Beidaihe Mao, with Kang Sheng, Chen Boda, Guan Feng, Wu Jiang, Gong Yuzhi and Shao Tiezhen, on philosophy and the article against "two combine into one": Yang Xianzhen''s concept is wrong, nothing is undividable; the Hongqi may reprint some of the better pieces and run a report; the day-part not given (n.52)). Made public: 2013. Check: whether this is the meeting of mid-August 1964 at which, by the note, Kang Sheng condemns the Academy of Sciences'' Institute of Philosophy and Social Science as an "institute of antiquities" ([[w.tse-tung-miscellany-of-mao-tse]], 2, 386, cited by [[w.macfarquhar-origins-of-the-cultural]], III, 392 n.74c). To check: [[w.schram-mao-tse-tung-unrehearsed]], 224 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 395 n.90); Mao Zedong 毛泽东, talk on philosophical questions, Aug. 18, 1964 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.52). Names: Mao Zedong, Kang Sheng, Chen Boda, Wu Jiang, Guan Feng, Gong Yuzhi, Shao Tiezhen, Yang Xianzhen.'
     src:
       c: 37fb4bb4
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Aug. 18, 1964: all'
         - 'w.macfarquhar-origins-of-the-cultural III, 395: A, E, F'
         - 'via w.macfarquhar-origins-of-the-cultural III, 395 n.90: A, E, F'
+        - 'w.mao-zedong-zhuan VI, ch. 73: F'
+        - 'via w.mao-zedong-zhuan VI, ch.73 n.52: F'
     tags: [name:mao-zedong, name:kang-sheng, name:chen-boda, polity:prc, vis:only:prc]
   - id: cal.1964-08-18.china-leadership-2
     when: Aug. 18
@@ -5994,14 +6039,16 @@ entries:
   - id: cal.1964-08-20.china-leadership-3
     when: Aug. 20
     date: '1964-08-20'
+    place: beidaihe
     thread: china-leadership
     c: Li Xuefeng, first secretary of the North China region, complains to Mao against Liu Shaoqi's proposal to take the movement out of the county committees' hands, and reports doubts about the Taoyuan model.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 413. Mao, having just approved Liu''s plans, gives him no encouragement (III, 413). Made public: 1989. To check: [[w.jin-1949-1989-niande-zhongguo]], 540 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 413 n.75). Names: Mao Zedong, Liu Shaoqi.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 413; [[w.mao-zedong-zhuan]], VI, ch. 73 (Aug. 20 at Beidaihe Mao hears Li Xuefeng, Ulanfu, Tao Lujia, Liu Ren and Liu Zihou on Liu Shaoqi''s letter of Aug. 16; the North China men dissent; he telephones Deng: the document to wait, the bureau secretaries to be flown to Peking (n.16)). Mao, having just approved Liu''s plans, gives him no encouragement (III, 413). Made public: 1989. To check: [[w.jin-1949-1989-niande-zhongguo]], 540 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 413 n.75); Mao Zedong 毛泽东, talk with the heads of the North China Bureau 华北局 and of Inner Mongolia, Shanxi, Hebei and Peking, Aug. 20, 1964 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.16a). Names: Mao Zedong, Liu Shaoqi.'
     src:
       c: bfbea678
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 413: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 413 n.75: all'
+        - 'w.mao-zedong-zhuan VI, ch. 73: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
   - id: cal.1964-08-20.china-leadership-4
     when: Aug. 20
@@ -6636,10 +6683,11 @@ entries:
   - id: cal.1964-08-22.china-leadership
     when: Aug. 22
     date: '1964-08-22'
+    place: peking
     thread: china-leadership
     also: [china]
     c: 'Mao, to Deng Xiaoping, on Liu Shaoqi''s letter of Aug. 19 and Wang Guangmei''s report on Peach Garden brigade, Funing county, Hebei (the "Peach Garden experience") with Liu''s draft covering note: let Deng handle it, after the regional secretaries'' meeting. Aug. 27: print for those at that meeting; if they agree, send throughout the country; "I agree with Chen Boda and Liu Shaoqi".'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 22, 1964. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 601 (Aug. 27 and Sept. 1, 1964; the chronology gives Mao''s comment of Aug. 27: print it first for the comrades at the coming meeting of the bureaus'' first secretaries to discuss, and if all agree send it over the country, which he does, agreeing with Chen Boda and Liu; Sept. 1 the report is issued as a document of the Central Committee); [[w.macfarquhar-origins-of-the-cultural]], III, 405–6 (Mao sends the revised draft to Deng Xiaoping, to be circulated quickly for views to the regional secretaries and those at the work conference; on Aug. 27 he backs Chen Boda''s proposal to circulate Wang Guangmei''s report); [[w.jianguo-yilai-mao-zedong]], XVII, 336–337 (Aug. 27, 1964; the note dated Aug. 27, "Deng to handle"; note 4: the Center forwarded Wang Guangmei''s report Sept. 1). Made public: 1996. Check: the book has Mao pass the revised draft to Deng a week after Liu''s letter of Aug. 19 (III, 405–6); this entry''s comment of Aug. 22 is on the letter and Wang Guangmei''s report. Check: units B–D, Mao''s note of Aug. 27 (XVII, 336), are an act of another day; the Wengao prints no note of Aug. 22. To check: Wang Guangmei''s report of July 5, 1964 to the Hebei Party committee (named by [[w.zedong-mao-zedong-nianpu]], V, Aug. 22, 1964); [[w.qian-wannian-suiyue]], 260 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 406 n.40a); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 139–41 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 406 n.40b); [[w.bian-mao-zedong-he-tade]], 75 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 406 n.40c); [[w.xin-zhongguo-biannianshi-1949]], 234 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 406 n.42a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1123 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 406 n.42c); Wang Guangmei, report of July 5, 1964 to the Hebei provincial committee''s work conference, "Summing up the experience of a brigade''s socialist education movement" (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 336 n.1); Liu Shaoqi to Mao Zedong and the Center, letter of Aug. 19, 1964 with his draft Center comment forwarding Wang Guangmei''s report (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 337 n.4a). Names: Mao Zedong, Deng Xiaoping, Liu Shaoqi, Chen Boda, Wang Guangmei.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 22, 1964. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 601 (Aug. 27 and Sept. 1, 1964; the chronology gives Mao''s comment of Aug. 27: print it first for the comrades at the coming meeting of the bureaus'' first secretaries to discuss, and if all agree send it over the country, which he does, agreeing with Chen Boda and Liu; Sept. 1 the report is issued as a document of the Central Committee); [[w.macfarquhar-origins-of-the-cultural]], III, 405–6 (Mao sends the revised draft to Deng Xiaoping, to be circulated quickly for views to the regional secretaries and those at the work conference; on Aug. 27 he backs Chen Boda''s proposal to circulate Wang Guangmei''s report); [[w.jianguo-yilai-mao-zedong]], XVII, 336–337 (Aug. 27, 1964; the note dated Aug. 27, "Deng to handle"; note 4: the Center forwarded Wang Guangmei''s report Sept. 1); [[w.mao-zedong-zhuan]], VI, ch. 73 (Aug. 22, back in Peking from Aug. 20, Mao gives Deng the Peach Garden report and the Center''s comment, to wait for the bureau secretaries'' meeting; Aug. 27 he changes: print for those at the meeting first, send to the country if they agree; "I agree with Chen Boda" (n.17, n.18)). Made public: 1996. Check: the book has Mao pass the revised draft to Deng a week after Liu''s letter of Aug. 19 (III, 405–6); this entry''s comment of Aug. 22 is on the letter and Wang Guangmei''s report. Check: units B–D, Mao''s note of Aug. 27 (XVII, 336), are an act of another day; the Wengao prints no note of Aug. 22. To check: Wang Guangmei''s report of July 5, 1964 to the Hebei Party committee (named by [[w.zedong-mao-zedong-nianpu]], V, Aug. 22, 1964); [[w.qian-wannian-suiyue]], 260 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 406 n.40a); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 139–41 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 406 n.40b); [[w.bian-mao-zedong-he-tade]], 75 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 406 n.40c); [[w.xin-zhongguo-biannianshi-1949]], 234 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 406 n.42a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1123 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 406 n.42c); Wang Guangmei, report of July 5, 1964 to the Hebei provincial committee''s work conference, "Summing up the experience of a brigade''s socialist education movement" (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 336 n.1); Liu Shaoqi to Mao Zedong and the Center, letter of Aug. 19, 1964 with his draft Center comment forwarding Wang Guangmei''s report (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 337 n.4a); Mao Zedong 毛泽东, comment on printing the "Peach Garden experience" 桃园经验 report (manuscript 手稿), Aug. 27, 1964 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.17); Mao Zedong 毛泽东, note to Deng Xiaoping 邓小平 (manuscript 手稿), Aug. 27, 1964 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.18). Names: Mao Zedong, Deng Xiaoping, Liu Shaoqi, Chen Boda, Wang Guangmei.'
     src:
       c: 5389e780
       rows:
@@ -6655,6 +6703,9 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVII, 336–337: B-D'
         - 'via w.jianguo-yilai-mao-zedong XVII, 336 n.1: B-D'
         - 'via w.jianguo-yilai-mao-zedong XVII, 337 n.4a: B-D'
+        - 'w.mao-zedong-zhuan VI, ch. 73: A-D'
+        - 'via w.mao-zedong-zhuan VI, ch.73 n.17: B-D'
+        - 'via w.mao-zedong-zhuan VI, ch.73 n.18: B-D'
     tags: [name:mao-zedong, name:deng-xiaoping, name:liu-shaoqi, name:chen-boda, polity:prc, vis:only:prc]
   - id: cal.1964-08-22.china-leadership-2
     when: Aug. 22
@@ -8518,7 +8569,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Meeting of the first secretaries of the Party''s regional bureaus, Beijing, Liu Shaoqi presiding: the plan for the socialist education movement and the revised "latter ten points". The revised draft issued Sept. 18: the enemy corrupts cadres and sets up counter-revolutionary "two-faced" power; the movement bigger than land reform; the work teams to lead everything, the grass roots no longer relied on; some regions to make up the democratic revolution. Mao talks with seven of the secretaries on Aug. 30.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 29–Sept. 1, 1964. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 602 (Aug. 29–Sept. 1, 1964; Liu presides at the meeting of the regional bureaus'' first secretaries on the deployment of the socialist-education movement and the revision of the "Later Ten Points"; the revised draft, "Some concrete policies in the rural socialist-education movement (revised draft)," approved by Mao, is issued by the Center on Sept. 18; it says the enemy wins over cadres and sets up a "counter-revolutionary two-faced regime," that the movement is a mass movement wider, more complex and deeper than land reform, and that in some places a "makeup lesson" of the democratic revolution is to be taken; it changes the original provision on reliance on the lowest organizations and cadres, putting the roused masses first and the problems among the cadres first, and has work teams lead the whole movement); [[w.lengxi-shinian-lunzhan-1956-1966]], 813 (Aug. 29, Liu presiding, the regional bureaus'' first secretaries present, chiefly on the revised Later Ten Points; the session also adopts the reply to the CPSU letter of July 30, sent Aug. 30); [[w.macfarquhar-origins-of-the-cultural]], III, 406 (the work conference of late August, Liu in the chair, considers the revised Latter Ten Points); [[w.deng-xiaoping-nianpu-1904]], III, 1826–1827 (Aug. 29–Sept. 1, 1964; Deng at the meeting of the regional bureaus'' first secretaries Liu Shaoqi presides over, on the arrangements for the socialist education movement and the revised draft of the Latter Ten Points, which calls the movement a mass movement wider, more complex and deeper than land reform). Made public: 1996. Check: Wu (813) calls the session of Aug. 29 a Politburo meeting, and has it adopt the reply to the CPSU letter of July 30, which the entry does not hold. To check: the "latter ten points", the revised draft (issued Sept. 18, 1964; named by [[w.zedong-mao-zedong-nianpu]], V, Aug. 29, 1964); [[w.huaxuan-zhongguo-gongchan-dang-huiyi]], 508 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 406 n.43). Names: Mao Zedong, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 29–Sept. 1, 1964. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 602 (Aug. 29–Sept. 1, 1964; Liu presides at the meeting of the regional bureaus'' first secretaries on the deployment of the socialist-education movement and the revision of the "Later Ten Points"; the revised draft, "Some concrete policies in the rural socialist-education movement (revised draft)," approved by Mao, is issued by the Center on Sept. 18; it says the enemy wins over cadres and sets up a "counter-revolutionary two-faced regime," that the movement is a mass movement wider, more complex and deeper than land reform, and that in some places a "makeup lesson" of the democratic revolution is to be taken; it changes the original provision on reliance on the lowest organizations and cadres, putting the roused masses first and the problems among the cadres first, and has work teams lead the whole movement); [[w.lengxi-shinian-lunzhan-1956-1966]], 813 (Aug. 29, Liu presiding, the regional bureaus'' first secretaries present, chiefly on the revised Later Ten Points; the session also adopts the reply to the CPSU letter of July 30, sent Aug. 30); [[w.macfarquhar-origins-of-the-cultural]], III, 406 (the work conference of late August, Liu in the chair, considers the revised Latter Ten Points); [[w.deng-xiaoping-nianpu-1904]], III, 1826–1827 (Aug. 29–Sept. 1, 1964; Deng at the meeting of the regional bureaus'' first secretaries Liu Shaoqi presides over, on the arrangements for the socialist education movement and the revised draft of the Latter Ten Points, which calls the movement a mass movement wider, more complex and deeper than land reform); [[w.mao-zedong-zhuan]], VI, ch. 73 (Aug. 29–Sept. 1 the bureaus'' first secretaries meet at Mao''s call, Liu back from Kunming Aug. 26 to preside; Deng opens; Tao Zhu, Wang Renzhong, Li Jingquan and Ke Qingshi back Liu, Li Xuefeng self-criticizes; Mao attends Aug. 30: no dispute of lines, a matter of deployment; the meeting agrees with Liu and passes the Peach Garden report (n.19, n.20, n.21)). Made public: 1996. Check: Wu (813) calls the session of Aug. 29 a Politburo meeting, and has it adopt the reply to the CPSU letter of July 30, which the entry does not hold. To check: the "latter ten points", the revised draft (issued Sept. 18, 1964; named by [[w.zedong-mao-zedong-nianpu]], V, Aug. 29, 1964); [[w.huaxuan-zhongguo-gongchan-dang-huiyi]], 508 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 406 n.43); Meeting of the bureaus'' first secretaries 中央局第一书记会议, record 记录, Aug. 29, 1964 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.19); Mao Zedong 毛泽东, talk at the meeting of the bureaus'' first secretaries 中央局第一书记会议, Aug. 30, 1964 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.21); Interview 访问 with Tao Lujia 陶鲁笳, July 13, 1999 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.20). Names: Mao Zedong, Liu Shaoqi.'
     src:
       c: b152aab6
       rows:
@@ -8528,6 +8579,9 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 406: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 406 n.43: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1826–1827: A'
+        - 'w.mao-zedong-zhuan VI, ch. 73: A'
+        - 'via w.mao-zedong-zhuan VI, ch.73 n.19: A'
+        - 'via w.mao-zedong-zhuan VI, ch.73 n.20: A'
     tags: [name:mao-zedong, name:liu-shaoqi, polity:prc, vis:only:prc]
   - id: cal.1964-08-29.china-leadership-2
     when: Aug. 29
@@ -8577,12 +8631,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Central Committee''s reply to the CPSU letter of July 30 goes out, on the decision of Aug. 19: the CPSU letter shuts the door to consultation on a conference of the parties and orders a split; "we will not attend your international meeting that splits the movement, nor its preparatory meeting". Repeats the stand of July 28.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 30, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 813–814 (the reply sent Aug. 30; short; it repeats July 28: no attendance at the splitting conference or its preparatory meeting; the 12 December committee and mid-1965 conference "a step toward the grave"). Made public: 1999. See [[cal.1964-08-19.china-leadership]]. To check: the reply of Aug. 30, 1964 (named by [[w.zedong-mao-zedong-nianpu]], V, Aug. 30, 1964). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 30, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 813–814 (the reply sent Aug. 30; short; it repeats July 28: no attendance at the splitting conference or its preparatory meeting; the 12 December committee and mid-1965 conference "a step toward the grave"); [[w.mao-zedong-zhuan]], V, ch. 71 (Aug. 30 the Chinese reply gives the CPSU formal notice that China will not attend the 26-party preparatory meeting). Made public: 1999. See [[cal.1964-08-19.china-leadership]]. To check: the reply of Aug. 30, 1964 (named by [[w.zedong-mao-zedong-nianpu]], V, Aug. 30, 1964). Names: Mao Zedong.'
     src:
       c: f841f820
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Aug. 30, 1964: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 813–814: A, B, C'
+        - 'w.mao-zedong-zhuan V, ch. 71: B'
     tags: [name:mao-zedong, polity:prc, polity:ussr, vis:only:prc+ussr]
   - id: cal.1964-08-31.farm
     when: Aug. 31
@@ -8639,8 +8694,9 @@ entries:
         - 'via w.zelizer-taxing-america 211 n.127: all'
     tags: [name:mills-wilbur-d]
   - id: cal.1964-08.vietnam
-    when: Aug.
+    when: Aug., after the 4th
     date: 1964-08
+    at: after 1964-08-04
     thread: vietnam-tonkin
     c: 'Within days of the second attack in the Gulf, Johnson to Ball, by Ball''s account: "Hell, those dumb, stupid sailors were just shooting at flying fish!"'
     n: '[[w.ball-past-has-another-pattern]], 379; [[w.branch-pillar-of-fire]], 435. Check: the day. To check: [[w.karnow-vietnam]], 390 (cited by [[w.branch-pillar-of-fire]], 435). Names: Johnson, Ball.'
@@ -8651,8 +8707,9 @@ entries:
         - 'w.branch-pillar-of-fire 435: all'
     tags: [name:johnson-lyndon-b, name:ball-george-w]
   - id: cal.1964-08.vietnam-2
-    when: Aug.
+    when: Aug., after the 4th
     date: 1964-08
+    at: after 1964-08-04
     thread: vietnam-tonkin
     c: 'McNamara proposes a further De Soto patrol to show the flag; general agreement round the table. Ball: if a destroyer is sunk, a congressional investigation; the evidence would suggest the ships were sent to provoke an attack. Johnson: "We won''t go ahead with it, Bob. Let''s put it on the shelf." By Ball''s account.'
     n: '[[w.ball-past-has-another-pattern]], 379–80. Check: the day; Ball has it right after the second attack. Names: McNamara, Ball, Johnson.'
@@ -8715,8 +8772,9 @@ entries:
         - 'via w.kabaservice-rule-and-ruin 119 n.106: all'
     tags: [name:scott-hugh-d-jr, name:mathias-charles-mcc-jr, name:goldwater-barry-m]
   - id: cal.1964-08.vietnam-force-levels
-    when: Aug.
+    when: Aug., after the 4th
     date: 1964-08
+    at: after 1964-08-04
     thread: vietnam-force-levels
     c: Westmoreland, after the Gulf of Tonkin, asks for a logistical command and an engineer group, each about a brigade. Not granted.
     n: '[[w.westmoreland-soldier-reports]], 127. Check: the day. Names: Westmoreland.'
@@ -8774,8 +8832,9 @@ entries:
         - 'w.perlstein-before-the-storm 480: A'
     tags: [name:white-f-clifton]
   - id: cal.1964-08.robert-kennedy
-    when: Aug.
+    when: Aug., early
     date: 1964-08
+    at: before 1964-08-01
     place: hyannis-port
     thread: robert-kennedy
     c: 'The first weekend of August. Cape Cod, Robert Kennedy and Schlesinger draft statements on Johnson''s ruling: "I swear to the best of my knowledge I am not now nor ever have been a member of the cabinet."'
@@ -8800,21 +8859,6 @@ entries:
         - 'w.califano-triumph-and-tragedy-of 77: all'
         - 'w.branch-pillar-of-fire 445: all'
     tags: [name:mcnamara-robert-s, name:califano-joseph-a-jr, name:yarmolinsky-adam]
-  - id: cal.1964-08.elections-1964-4
-    when: Aug.
-    date: 1964-08
-    place: washington
-    thread: elections-1964-johnson
-    also: [civil-disorders-harlem]
-    c: 'Wagner with the Johnsons on the Truman balcony: King brought in for his "emotional hold" over New York''s Negroes; a civilian review board would make the police''s morale "drop to zero overnight."'
-    n: '[[w.branch-pillar-of-fire]], 425–26; [[w.johnson-white-house-diary]], 186–87 (Saturday, Aug. 1: dinner for Wagner on the Truman Balcony with Celebrezze and Wirtz and their wives; King "the only leader the Negro people will listen to," with "an emotional hold over them"; Harlem''s unemployment, 1,300 jobs promised youth, a million dollars for rat eradication, public housing deteriorating; a review board would make police morale "drop to zero overnight"; not that King was brought in). Check: the day; Branch gives "a few days" after July 30 (425). To check: Johnson, White House Diary, pp. 186–87. 32. CRIME, War, AND FREEDOM SCHOOL (cited by [[w.branch-pillar-of-fire]], 426). See [[cal.1964-07-27.states-and-cities]]. Names: Wagner, Johnson, Lady Bird Johnson.'
-    src:
-      c: 621e1ea0
-      rows:
-        - 'w.branch-pillar-of-fire 425–26: all'
-        - 'via w.branch-pillar-of-fire 426 n.drop-to-zero-overnight: all'
-        - 'w.johnson-white-house-diary 186–87: B'
-    tags: [name:wagner-robert-f-jr, name:johnson-lyndon-b, name:johnson-lady-bird]
   - id: cal.1964-08.mississippi
     when: Aug.
     date: 1964-08
@@ -8866,8 +8910,9 @@ entries:
     time_zone: America/New_York
     range_basis: kind
   - id: cal.1964-08.poverty
-    when: Aug.
+    when: Aug., before the 8th
     date: 1964-08
+    at: before 1964-08-08
     thread: poverty
     c: 'Before the House vote on the poverty bill, Johnson''s deals: a Corps of Engineers project in Tuten''s Georgia district (Tuten votes yes); for Robert Jones of Alabama, Johnson to ask the editor of a local paper that endorsed Goldwater to endorse Jones (Jones votes yes).'
     n: '[[w.zelizer-fierce-urgency-of-now]], 143. To check: [[w.gillette-launching-the-war-on]], 150–65 (cited by [[w.zelizer-fierce-urgency-of-now]], 143 n.27). Check: the days. The vote: [[cal.1964-08-08.poverty]]. Names: Johnson, Tuten, Jones.'
@@ -9002,8 +9047,9 @@ entries:
         - 'via x.1964-07.reichley-memorandum-scranton-headquarters: A'
     tags: [name:scranton-william-w]
   - id: cal.1964-08.vietnam-hanoi
-    when: Aug.
+    when: Aug., after the 5th
     date: 1964-08
+    at: after 1964-08-05
     thread: vietnam-hanoi
     c: 'A few days after the strikes, the Central Committee: North Vietnamese army units to go south soon; an advance unit, the 808th Battalion, at once, for reconnaissance.'
     n: '[[w.asselin-hanois-road-to-the]], 198. To check: [[w.duiker-communist-road-to-power]], 249–50 (cited by [[w.asselin-hanois-road-to-the]], 198 n.164); William S. Turley, *The Second Indochina War*, 2d ed. (2009), 84 (cited by [[w.asselin-hanois-road-to-the]], 198 n.166). See [[cal.1964-08-04.vietnam]]. Check: the day.'
@@ -9060,8 +9106,9 @@ entries:
         - 'w.cohen-american-pharaoh 321: all'
     tags: [state:il, name:daley-richard-j]
   - id: cal.1964-08.desegregation-schools
-    when: Aug.
+    when: Aug., mid
     date: 1964-08
+    at: before 1964-08-11
     thread: desegregation-schools
     also: [elections-1964-freedom-democrats]
     c: McKeithen of Louisiana, after the President's call urging peaceful integration of the schools of St. Helena Parish, with federal enforcement if not, meets Governors Wallace, Paul Johnson and Faubus and complains that the President threatened him.
@@ -9138,8 +9185,9 @@ entries:
         - 'via x.undated.don-wilson-oral-history-jfk-library: all'
     tags: [name:kennedy-robert-f]
   - id: cal.1964-08.elections-1964-johnson
-    when: Aug.
+    when: Aug., end
     date: 1964-08
+    at: before 1964-08-21
     place: washington
     thread: elections-1964-johnson
     also: [elections-1964]
@@ -9147,8 +9195,9 @@ entries:
     n: '[[w.goodwin-remembering-america]], 303–4 (Goodwin''s account). Check: the day; "toward the end of August" (303). Names: Johnson, Moyers, Valenti, Goodwin, Clifford, O''Brien, Goldwater.'
     tags: [name:johnson-lyndon-b, name:moyers-bill, name:valenti-jack, name:goodwin-richard-n, name:clifford-clark, name:obrien-lawrence-f, name:goldwater-barry-m]
   - id: cal.1964-08.elections-1964-5
-    when: Aug.
+    when: Aug., end
     date: 1964-08
+    at: before 1964-08-21
     place: washington
     thread: elections-1964
     also: [elections-1964-goldwater]

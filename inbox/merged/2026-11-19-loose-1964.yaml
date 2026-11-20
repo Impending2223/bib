@@ -1,0 +1,579 @@
+# The loose-dates pass, 1964 (notes/briefs/loose-pass.md, L1-L7): `when` and `at` for month- and year-dated entries
+# whose own record fixes a position. Day-numbered wordings (early, mid, late, end, after the Nth) leave `at` to merge.
+patch: 2026-11-19-loose-1964
+by: Claude (loose-dates reader, 1964; notes/briefs/loose-pass.md)
+ops:
+  - place-key: {key: st-petersburg-fl, name: 'St. Petersburg', zone: America/New_York, st: FL}
+  - edit:
+      id: cal.1964-01.goldwater-2
+      base: '31f54a8b'
+      set:
+        when: 'Jan., early'
+  - edit:
+      id: cal.1964-01.goldwater-4
+      base: '2d488fa7'
+      set:
+        when: 'Jan., late'
+  - edit:
+      id: cal.1964-01.elections-1964-3
+      base: 'c5f06a9b'
+      set:
+        when: 'Jan., mid'
+  - edit:
+      id: cal.1964-01.elections-1964-4
+      base: '3680134e'
+      set:
+        when: 'Jan., late'
+  - edit:
+      id: cal.1964-01.poverty
+      base: 'fc1223e5'
+      set:
+        when: 'Jan., after the 21st'
+  - edit:
+      id: cal.1964-01.elections-1964-9
+      base: 'ee59c313'
+      set:
+        when: 'Jan., late'
+  - edit:
+      id: cal.1964-01.vietnam-3
+      base: 'a30bd6d6'
+      set:
+        when: 'Jan., late'
+  - edit:
+      id: cal.1964-01.baker
+      base: '47b9c9e2'
+      set:
+        when: 'Jan., late'
+  - edit:
+      id: cal.1964-01.elections-1964-primaries
+      base: '42a6d2f5'
+      set:
+        when: 'Jan., early'
+  - edit:
+      id: cal.1964-01.elections-1964-7
+      base: '0a3ebe6b'
+      set:
+        when: 'Jan., early'
+  - edit:
+      id: cal.1964-01.vietnam
+      base: '919ca8e6'
+      set:
+        when: 'Jan., before the 30th'
+  - edit:
+      id: cal.1964-01.robert-kennedy-2
+      base: '26056b0e'
+      set:
+        when: 'Jan., after the 9th'
+  - edit:
+      id: cal.1964.china-leadership-20
+      base: '19291329'
+      set:
+        when: '1964, by April'
+        at: 'before 1964-04'
+  - edit:
+      id: cal.1964-02.cyprus
+      base: '4a7d970c'
+      set:
+        when: 'Feb., after the 19th'
+  - edit:
+      id: cal.1964-02.elections-1964
+      base: '3cb3fdf7'
+      set:
+        when: 'Feb., late'
+  - edit:
+      id: cal.1964-02.goldwater-3
+      base: 'a342d69d'
+      set:
+        when: 'Feb., late'
+  - edit:
+      id: cal.1964-02.elections-1964-4
+      base: '11dee026'
+      set:
+        when: 'Feb., before the 18th'
+  - edit:
+      id: cal.1964-02.legislatures
+      base: 'd844e49c'
+      set:
+        when: 'Feb., after the 4th'
+  - edit:
+      id: cal.1964-02.immigration
+      base: '35cb6475'
+      set:
+        when: 'Feb., after the 10th'
+  - edit:
+      id: cal.1964-02.desegregation-schools-2
+      base: '35ed9365'
+      set:
+        when: 'Feb., before the 15th'
+  - edit:
+      id: cal.1964-02.civil-rights-bill-4
+      base: '46362179'
+      set:
+        when: 'Feb., before the 28th'
+  - edit:
+      id: cal.1964-03.civil-rights-bill
+      base: '13a3d4be'
+      set:
+        when: 'Mar., early'
+  - edit:
+      id: cal.1964-03.goldwater
+      base: 'a121a447'
+      set:
+        when: 'Mar., after the New Hampshire primary'
+        at: 'after 1964-03-10'
+  - edit:
+      id: cal.1964-03.goldwater-4
+      base: '1ba182f6'
+      set:
+        when: 'Mar., early'
+  - edit:
+      id: cal.1964-03.goldwater-6
+      base: 'daf42350'
+      set:
+        when: 'Mar., after the New Hampshire primary'
+        at: 'after 1964-03-10'
+        place: st-petersburg-fl
+  - edit:
+      id: cal.1964-03.goldwater-7
+      base: '565307a6'
+      set:
+        when: 'Mar., after the New Hampshire primary'
+        at: 'after 1964-03-10'
+  - edit:
+      id: cal.1964-03.elections-1964-4
+      base: 'b6b13a08'
+      set:
+        when: 'Mar., after the New Hampshire primary'
+        at: 'after 1964-03-10'
+  - edit:
+      id: cal.1964-03.elections-1964-3
+      base: '80e202e6'
+      set:
+        when: 'Mar., after the New Hampshire primary'
+        at: 'after 1964-03-10'
+  - edit:
+      id: cal.1964-03.goldwater-8
+      base: '8858bb46'
+      set:
+        when: 'Mar., after the New Hampshire primary'
+        at: 'after 1964-03-10'
+  - edit:
+      id: cal.1964-03.press-and-broadcasting-2
+      base: '2b9f4a5a'
+      set:
+        when: 'Mar., end'
+  - edit:
+      id: cal.1964-03.vietnam-2
+      base: '8430f83a'
+      set:
+        when: 'Mar., before the Saigon trip'
+        at: 'before 1964-03-05'
+  - edit:
+      id: cal.1964-03.georgia
+      base: '29b730a8'
+      set:
+        when: 'Mar., after the 7th'
+  - edit:
+      id: cal.1964-03.elections-1964-primaries
+      base: '84121df3'
+      set:
+        when: 'Mar., late'
+  - edit:
+      id: cal.1964-03.vietnam-congress
+      base: '894b91ee'
+      set:
+        when: 'Mar., after the 25th'
+  - edit:
+      id: cal.1964-03.vietnam-5
+      base: '053f63b8'
+      set:
+        when: 'Mar., early'
+  - edit:
+      id: cal.1964-03.transition-and-staff-3
+      base: '07bcd85c'
+      set:
+        when: 'Mar., late'
+  - edit:
+      id: cal.1964-04.conservative-movement
+      base: '1060c8df'
+      set:
+        when: 'Apr., late'
+  - edit:
+      id: cal.1964-04.goldwater
+      base: '0127165e'
+      set:
+        when: 'Apr., the week of the 14th'
+        at: 'before 1964-04-12'
+  - edit:
+      id: cal.1964-04.goldwater-4
+      base: 'ae8e4e35'
+      set:
+        when: 'Apr., the week of the 14th'
+        at: 'before 1964-04-12'
+  - edit:
+      id: cal.1964-04.elections-1964
+      base: '4b5a446f'
+      set:
+        when: 'Apr., early'
+  - edit:
+      id: cal.1964-04.opinion
+      base: '66453658'
+      set:
+        when: 'Apr., early'
+  - edit:
+      id: cal.1964-04.press-and-broadcasting-2
+      base: 'acb474f2'
+      set:
+        when: 'Apr., end'
+  - edit:
+      id: cal.1964-04.elections-1964-3
+      base: '94d856b4'
+      set:
+        when: 'Apr., end'
+  - edit:
+      id: cal.1964-04.king
+      base: '9ded750a'
+      set:
+        when: 'Apr., early'
+  - edit:
+      id: cal.1964-05.elections-1964-state-conventions
+      base: 'd3f32dbc'
+      set:
+        when: 'May, after the 16th'
+  - edit:
+      id: cal.1964-05.elections-1964-2
+      base: '6005b21d'
+      set:
+        when: 'May, after the 15th'
+  - edit:
+      id: cal.1964-05.goldwater
+      base: 'd3a40b16'
+      set:
+        when: 'May, late'
+  - edit:
+      id: cal.1964-05.vietnam-congress-3
+      base: '87f17e43'
+      set:
+        when: 'May, before the 13th'
+  - edit:
+      id: cal.1964-05.elections-1964-primaries-3
+      base: 'e6227ca1'
+      set:
+        when: 'May, before the 15th'
+  - edit:
+      id: cal.1964-05.elections-1964-wallace
+      base: 'd763a971'
+      set:
+        when: 'May, before the 19th'
+        place: maryland
+  - edit:
+      id: cal.1964-05.press-and-broadcasting
+      base: 'fac26c5e'
+      set:
+        when: 'May, after the 22nd'
+  - edit:
+      id: cal.1964-06.cyprus
+      base: '1e338579'
+      set:
+        when: 'June, after the 26th'
+  - edit:
+      id: cal.1964-06.elections-1964-3
+      base: '298c1355'
+      set:
+        when: 'June, after the 23rd'
+  - edit:
+      id: cal.1964-06.robert-kennedy-2
+      base: 'fc340a45'
+      set:
+        when: 'June, after the 11th'
+  - edit:
+      id: cal.1964-06.elections-1964-2
+      base: '97ad8cb3'
+      set:
+        when: 'June, after the 2nd'
+        place: [nyc, tarrytown]
+  - edit:
+      id: cal.1964-07.elections-1964
+      base: 'b81705cf'
+      set:
+        when: 'July, after the 15th'
+  - edit:
+      id: cal.1964-07.vietnam
+      base: '88208d12'
+      set:
+        when: 'July, early'
+  - edit:
+      id: cal.1964-07.civil-rights-bill
+      base: 'dc99845b'
+      set:
+        when: 'July, after the 2nd'
+  - edit:
+      id: cal.1964-07.poverty
+      base: 'b285ba5d'
+      set:
+        when: 'July, before the 23rd'
+  - edit:
+      id: cal.1964-07.elections-1964-new-york
+      base: 'f44831d6'
+      set:
+        when: 'July, the week before the convention'
+        at: 'before 1964-07-05'
+  - edit:
+      id: cal.1964-07.elections-1964-san-francisco
+      base: '8c02f1b6'
+      set:
+        when: 'July, the week before the convention'
+        at: 'before 1964-07-05'
+  - edit:
+      id: cal.1964-07.elections-1964-san-francisco-5
+      base: 'cfd6714d'
+      set:
+        when: 'July, the week before the convention'
+        at: 'before 1964-07-05'
+  - edit:
+      id: cal.1964-07.mississippi-3
+      base: '1a8321f2'
+      set:
+        when: 'July, after the 5th'
+  - edit:
+      id: cal.1964-08.vietnam
+      base: '41e07f29'
+      set:
+        when: 'Aug., after the 4th'
+  - edit:
+      id: cal.1964-08.vietnam-2
+      base: '09b8878f'
+      set:
+        when: 'Aug., after the 4th'
+  - edit:
+      id: cal.1964-08.vietnam-force-levels
+      base: 'f48d992b'
+      set:
+        when: 'Aug., after the 4th'
+  - edit:
+      id: cal.1964-08.robert-kennedy
+      base: '9a0d46d1'
+      set:
+        when: 'Aug., early'
+  - edit:
+      id: cal.1964-08.poverty
+      base: '92ee9a13'
+      set:
+        when: 'Aug., before the 8th'
+  - edit:
+      id: cal.1964-08.vietnam-hanoi
+      base: 'a627634f'
+      set:
+        when: 'Aug., after the 5th'
+  - edit:
+      id: cal.1964-08.desegregation-schools
+      base: '31d11f31'
+      set:
+        when: 'Aug., mid'
+  - edit:
+      id: cal.1964-08.elections-1964-johnson
+      base: '1ab86fce'
+      set:
+        when: 'Aug., end'
+  - edit:
+      id: cal.1964-08.elections-1964-5
+      base: 'cb539c85'
+      set:
+        when: 'Aug., end'
+  - edit:
+      id: cal.1964-09.vietnam-4
+      base: 'c0c50198'
+      set:
+        when: 'Sept., mid'
+  - edit:
+      id: cal.1964-09.vietnam-6
+      base: 'f5a0a3dc'
+      set:
+        when: 'Sept., mid'
+  - edit:
+      id: cal.1964-10.elections-1964-4
+      base: 'bb9aa6c9'
+      set:
+        when: 'Oct., after the 16th'
+  - edit:
+      id: cal.1964-10.elections-1964-5
+      base: 'e5e1c80c'
+      set:
+        when: 'Oct., after the 9th'
+  - edit:
+      id: cal.1964-10.vietnam-air-war
+      base: 'f5368995'
+      set:
+        when: 'Oct., late'
+  - edit:
+      id: cal.1964-10.elections-1964-johnson
+      base: '51b3b513'
+      set:
+        when: 'Oct., early'
+  - edit:
+      id: cal.1964-10.king-2
+      base: '213822b2'
+      set:
+        when: 'Oct., after the 21st'
+  - edit:
+      id: cal.1964-10.king-3
+      base: '3bd6d142'
+      set:
+        when: 'Oct., after the 14th'
+  - edit:
+      id: cal.1964-11.vietnam-saigon-3
+      base: 'b8c59d45'
+      set:
+        when: 'Nov., late'
+  - edit:
+      id: cal.1964-11.democratic-party
+      base: 'ed47b90c'
+      set:
+        when: 'Nov., late'
+  - edit:
+      id: cal.1964-11.republican-party-congress
+      base: '5a1f6787'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1964-11-03'
+  - edit:
+      id: cal.1964-11.conservative-movement
+      base: '320afc5b'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1964-11-03'
+  - edit:
+      id: cal.1964-11.republican-party
+      base: 'b8b4f529'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1964-11-03'
+  - edit:
+      id: cal.1964-11.elections-1964
+      base: 'c0657b03'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1964-11-03'
+  - edit:
+      id: cal.1964-11.republican-party-4
+      base: 'dfc4cd84'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1964-11-03'
+  - edit:
+      id: cal.1964-11.republican-party-5
+      base: 'dc825348'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1964-11-03'
+  - edit:
+      id: cal.1964-11.republican-party-6
+      base: '987891ac'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1964-11-03'
+  - edit:
+      id: cal.1964-11.republican-party-7
+      base: '4a6d309c'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1964-11-03'
+  - edit:
+      id: cal.1964-11.republican-party-8
+      base: 'acfb6ad6'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1964-11-03'
+  - edit:
+      id: cal.1964-11.congress
+      base: '565b802e'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1964-11-03'
+  - edit:
+      id: cal.1964-11.state-legislatures
+      base: 'd50fbc3a'
+      set:
+        when: 'Nov.–Dec., after the election'
+        at: 'after 1964-11-03'
+        place: new-york-state
+  - edit:
+      id: cal.1964-11.republican-party-3
+      base: 'bf237e61'
+      set:
+        when: 'Nov., after Nixon''s charge'
+        at: 'after 1964-11-05'
+  - edit:
+      id: cal.1964-12.robert-kennedy
+      base: '259bdf57'
+      set:
+        when: 'Dec., mid'
+  - edit:
+      id: cal.1964-12.black-nationalism
+      base: 'a9203445'
+      set:
+        when: 'Dec., after the 9th'
+  - edit:
+      id: cal.1964-12.king
+      base: '7ef92118'
+      set:
+        when: 'Dec., before the 4th'
+  - edit:
+      id: cal.1964-12.king-2
+      base: '93945b98'
+      set:
+        when: 'Dec., after Oslo'
+        at: 'after 1964-12-11'
+  - edit:
+      id: cal.1964-12.europe-and-the-alliance-france
+      base: 'fca5e0ee'
+      set:
+        when: 'Dec., mid'
+  # Added by the audit (notes/briefs/loose-pass.md, L3): positions the reader passed over.
+  - edit:
+      id: cal.1964-02.elections-1964-primaries-3
+      base: 'ba5ea46b'
+      set:
+        when: 'Feb., early'
+  - edit:
+      id: cal.1964-05.opinion
+      base: '15298cca'
+      set:
+        when: 'May, the first week'
+  - edit:
+      id: cal.1964-07.press-and-broadcasting
+      base: 'b89ddd10'
+      set:
+        when: 'July, early'
+  - edit:
+      id: cal.1964-07.elections-1964-san-francisco-4
+      base: '8bc0c218'
+      set:
+        when: 'July, at the convention'
+        at: 'before 1964-07-13'
+  - edit:
+      id: cal.1964-07.civil-disorders
+      base: '2080ef7a'
+      set:
+        when: 'July, after the Rochester riot'
+        at: 'after 1964-07-26'
+  - edit:
+      id: cal.1964-09.china-leadership
+      base: 'c34a4867'
+      set:
+        at: 'before 1964-09-11'
+  - edit:
+      id: cal.1964-09.goldwater-11
+      base: '4d4f6d71'
+      set:
+        when: 'Sept., late'
+  - edit:
+      id: cal.1964-09.republican-party
+      base: 'd2440e39'
+      set:
+        when: 'Sept., end'
+  - edit:
+      id: cal.1964-06.elections-1964
+      base: 'e2db6952'
+      set:
+        at: 'before 1964-06-17'

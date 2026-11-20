@@ -3143,6 +3143,26 @@ entries:
     c: Zhou Enlai convenes the State Council business group on Guangxi's rail traffic.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 216 (Feb. 17, 1968). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-02.robert-kennedy-campaign-4
+    when: Feb. 17–18
+    date: '1968-02-17'
+    place: hickory-hill
+    thread: robert-kennedy-campaign-decision
+    also: [elections-1968]
+    c: 'Word that McCarthy has risen to 40 percent in New Hampshire''s polls. Robert Kennedy calls a man in Johnson''s organization: it is true. Kennedy: "God, I''m going to lose them, and I''m going to lose them forever."'
+    n: '[[w.thomas-robert-kennedy]], 357; [[w.witcover-85-days]], 51–52 (Hickory Hill, the weekend of the Junior Village telethon, Feb. 17–18: Salinger produces a poll that McCarthy could get 40 percent of New Hampshire''s Democratic vote, "If it''s true, you have to announce before the primary"; Kennedy calls Bill Dunphy, a former Democratic chairman in the State; then shows Salinger Pete Hamill''s letter urging him to run, which, Salinger later, "helped Kennedy over the brink"; not Kennedy''s words). Check: the day: [[w.witcover-85-days]], 51, puts Salinger''s poll and Kennedy''s call at Hickory Hill on the weekend of the Junior Village telethon, Feb. 17–18. To check: Pierre Salinger, oral history, JFK Library; Joe Dolan, oral history, JFK Library (cited by [[w.thomas-robert-kennedy]], 469). Names: McCarthy, Robert Kennedy. Check: the day; the poll.'
+    src:
+      c: 7002babd
+      rows:
+        - 'w.thomas-robert-kennedy 357: all'
+        - 'via w.thomas-robert-kennedy 357 n.god-im-going-to-lose-them: all'
+        - 'w.witcover-85-days 51–52: A'
+    tags: [name:mccarthy-eugene-j, name:kennedy-robert-f, state:nh, ok:result-form]
+    variants:
+      - unit: B
+        witness: w.witcover-85-days
+        reads: 'Witcover: Kennedy calls Bill Dunphy, "a knowledgeable former Democratic chairman in the state": McCarthy "was gaining," Dunphy said, "but he doubted he''d do that well."'
+        at: '51'
   - id: cal.1968-02-18.consumers
     when: Feb. 18
     date: '1968-02-18'
@@ -3177,6 +3197,19 @@ entries:
     c: 'Zhou Enlai revises the Center, State Council, Military Commission and Cultural Revolution Group''s urgent supplementary order. To keep aid transport to Vietnam clear: (1) inciting fire on trains, disorder at stations and ports, fights among rail workers, and beating and kidnapping military control men is counterrevolutionary banditry, to be dealt with by the Feb. 6 order; (2) rail and port workers hold their posts, no late arrival or early leaving, pay docked for unexplained absence; (3) military control men, line-guard troops and garrisons stop linking up and fights, and apply the Feb. 6 order if they fail; (4) the Center sends supervising groups at once to the main stations and ports.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 216–217 (Feb. 18, 1968). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-02.robert-kennedy-campaign-3
+    when: Feb. 18
+    date: '1968-02-18'
+    place: hickory-hill
+    thread: robert-kennedy-campaign-decision
+    c: 'Hickory Hill, a cold weekend, a party in the house. In the bathhouse by the pool Robert Kennedy tells a few of his people again he is not running. Goodwin: he will go to work for McCarthy.'
+    n: '[[w.thomas-robert-kennedy]], 357; [[w.witcover-85-days]], 51–52 (Hickory Hill, the telethon weekend, Sunday afternoon, Feb. 18, in the pool cabana with Edward Kennedy, Burke Marshall, vanden Heuvel and Goodwin: "the decision again was that he couldn''t make the race"; Goodwin, driving to Dulles with Kennedy: he will go to New Hampshire and work for McCarthy; the decision the group''s, not B''s words). To check: [[w.goodwin-remembering-america]], 481 (cited by [[w.thomas-robert-kennedy]], 469). See [[cal.1968-02-13.robert-kennedy]]. Names: Robert Kennedy, Goodwin, McCarthy. Check: the day.'
+    src:
+      c: 3e884a9a
+      rows:
+        - 'w.thomas-robert-kennedy 357: all'
+        - 'w.witcover-85-days 51–52: C'
+    tags: [name:kennedy-robert-f, name:goodwin-richard-n, name:mccarthy-eugene-j]
   - id: cal.1968-02-19.open-housing
     when: Feb. 19
     date: '1968-02-19'
@@ -5479,8 +5512,9 @@ entries:
     n: '[Jenkins Law Library, "1967–68 Convention"](https://guides.jenkinslaw.org/pennsylvania-constitution/1967-68-convention) (the *Journal* and *Debates* run to Feb. 29). Check: *Constitutional Proposals Adopted by the Convention, 1967–68*. See [[cal.1967-12-01.state-constitutions-pa]].'
     tags: [state:pa]
   - id: cal.1968-02.states-and-cities-ar
-    when: Feb.
+    when: Feb., early
     date: 1968-02
+    at: before 1968-02-01
     place: arkansas
     thread: states-and-cities
     also: [crime-and-hijacking]
@@ -5488,8 +5522,9 @@ entries:
     n: '[Wikipedia, "Tom Murton"](https://en.wikipedia.org/wiki/Tom_Murton), from *Time*, Feb. 1968. Check: the dates of the digging, from the *Arkansas Gazette*. To check: [[w.urwin-agenda-for-reform]]; [[w.johnson-arkansas-in-modern-america]]. Names: Murton, Rockefeller, Faubus.'
     tags: [state:ar, name:murton-thomas-o, name:rockefeller-winthrop, name:faubus-orval-e]
   - id: cal.1968-02.robert-kennedy
-    when: Feb.
+    when: Feb., after the 26th
     date: 1968-02
+    at: after 1968-02-26
     thread: robert-kennedy-campaign-decision
     also: [elections-1968]
     c: 'End of February. McNamara to O''Brien: "I think Bob has to run. I don''t see any other answer." By O''Brien''s account.'
@@ -5528,8 +5563,9 @@ entries:
       - 1968-02-29T23:14Z
     time_zone: America/New_York
   - id: cal.1968-02.war-opposition
-    when: Feb.
+    when: Feb., early
     date: 1968-02
+    at: before 1968-02-01
     thread: war-opposition
     c: 'The Friends Committee on National Legislation''s agenda for 1968, in its *Washington Newsletter*: the bombing of North Vietnam stopped; no more money for the war; no surcharge; no defoliants or napalm; the nonproliferation treaty ratified; no ABMs.'
     n: '[[w.cq-weekly-report]], Mar. 1, 1968, 408–09. Check: the day (CQ: early February).'
@@ -5555,8 +5591,9 @@ entries:
     time_zone: America/New_York
     range_basis: kind
   - id: cal.1968-02.elections-1968-2
-    when: Feb.
+    when: Feb., late
     date: 1968-02
+    at: before 1968-02-20
     thread: elections-1968-mccarthy
     c: Manchester, N.H., the Wayfarer Hotel. Goodwin, after reading of the bombing of the temples in Huế, drives up from Boston to write for McCarthy, the first professional on his staff. "With these two typewriters we're going to overthrow the government."
     n: '[[w.chester-american-melodrama]], 93; [[w.goodwin-remembering-america]], 486–89 (Goodwin, after reading the Times on Huế at breakfast "one morning in late February," drives from Boston to Berlin, N.H., arriving at the Perkins Motel at midnight; with Hersh drafts statements on the Gulf of Tonkin; not the temples, "first professional," or Manchester). Check: the place. [[w.goodwin-remembering-america]], 487–89, has Goodwin drive to Berlin, N.H., and arrive at the Perkins Motel, not Manchester. Names: Goodwin, McCarthy. Check: the day.'
@@ -5586,8 +5623,9 @@ entries:
         - 'via x.1968-02.the-johnson-write-ins-pledge-cards-new-hampshire: B'
     tags: [name:boutin-bernard-l, name:king-john-w, name:mccarthy-eugene-j, name:johnson-lyndon-b, state:nh]
   - id: cal.1968-02.vietnam-tet-3
-    when: Feb.
+    when: Feb., after the 2nd
     date: 1968-02
+    at: after 1968-02-02
     thread: vietnam-tet
     also: [republican-party-congress]
     c: 'Aiken on Johnson''s "a complete failure": "If this is failure, I hope the Vietcong never have a major success."'
@@ -5666,8 +5704,9 @@ entries:
         - 'via x.1968-02-24.rusk-critics-critic-nyt: A-B'
     tags: [name:rusk-dean, name:scali-john-a]
   - id: cal.1968-02.robert-kennedy-campaign
-    when: Feb.
+    when: Feb., before the Kerner report
     date: 1968-02
+    at: before 1968-02-29
     thread: robert-kennedy-campaign-decision
     c: 'A few days before the Kerner report. Robert Kennedy to Guthman by telephone, on the invitation to Delano: "Are you going to run?" "I think I have to. If I don''t, I''ll have to support Gene McCarthy, and I can''t do it in good conscience. ... Tet has changed everything." By Guthman''s account.'
     n: '[[w.guthman-we-band-of-brothers]], 325. See [[cal.1968-01-30.robert-kennedy]]. Names: Robert Kennedy, Guthman, McCarthy. Check: the day.'
@@ -6029,39 +6068,6 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 356-57: all'
     tags: [name:lowenstein-allard, name:kennedy-robert-f]
-  - id: cal.1968-02.robert-kennedy-campaign-3
-    when: Feb.
-    date: 1968-02
-    place: hickory-hill
-    thread: robert-kennedy-campaign-decision
-    c: 'Hickory Hill, a cold weekend, a party in the house. In the bathhouse by the pool Robert Kennedy tells a few of his people again he is not running. Goodwin: he will go to work for McCarthy.'
-    n: '[[w.thomas-robert-kennedy]], 357; [[w.witcover-85-days]], 51–52 (Hickory Hill, the telethon weekend, Sunday afternoon, Feb. 18, in the pool cabana with Edward Kennedy, Burke Marshall, vanden Heuvel and Goodwin: "the decision again was that he couldn''t make the race"; Goodwin, driving to Dulles with Kennedy: he will go to New Hampshire and work for McCarthy; the decision the group''s, not B''s words). To check: [[w.goodwin-remembering-america]], 481 (cited by [[w.thomas-robert-kennedy]], 469). See [[cal.1968-02-13.robert-kennedy]]. Names: Robert Kennedy, Goodwin, McCarthy. Check: the day.'
-    src:
-      c: 3e884a9a
-      rows:
-        - 'w.thomas-robert-kennedy 357: all'
-        - 'w.witcover-85-days 51–52: C'
-    tags: [name:kennedy-robert-f, name:goodwin-richard-n, name:mccarthy-eugene-j]
-  - id: cal.1968-02.robert-kennedy-campaign-4
-    when: Feb.
-    date: 1968-02
-    place: hickory-hill
-    thread: robert-kennedy-campaign-decision
-    also: [elections-1968]
-    c: 'Word that McCarthy has risen to 40 percent in New Hampshire''s polls. Robert Kennedy calls a man in Johnson''s organization: it is true. Kennedy: "God, I''m going to lose them, and I''m going to lose them forever."'
-    n: '[[w.thomas-robert-kennedy]], 357; [[w.witcover-85-days]], 51–52 (Hickory Hill, the weekend of the Junior Village telethon, Feb. 17–18: Salinger produces a poll that McCarthy could get 40 percent of New Hampshire''s Democratic vote, "If it''s true, you have to announce before the primary"; Kennedy calls Bill Dunphy, a former Democratic chairman in the State; then shows Salinger Pete Hamill''s letter urging him to run, which, Salinger later, "helped Kennedy over the brink"; not Kennedy''s words). Check: the day: [[w.witcover-85-days]], 51, puts Salinger''s poll and Kennedy''s call at Hickory Hill on the weekend of the Junior Village telethon, Feb. 17–18. To check: Pierre Salinger, oral history, JFK Library; Joe Dolan, oral history, JFK Library (cited by [[w.thomas-robert-kennedy]], 469). Names: McCarthy, Robert Kennedy. Check: the day; the poll.'
-    src:
-      c: 7002babd
-      rows:
-        - 'w.thomas-robert-kennedy 357: all'
-        - 'via w.thomas-robert-kennedy 357 n.god-im-going-to-lose-them: all'
-        - 'w.witcover-85-days 51–52: A'
-    tags: [name:mccarthy-eugene-j, name:kennedy-robert-f, state:nh, ok:result-form]
-    variants:
-      - unit: B
-        witness: w.witcover-85-days
-        reads: 'Witcover: Kennedy calls Bill Dunphy, "a knowledgeable former Democratic chairman in the state": McCarthy "was gaining," Dunphy said, "but he doubted he''d do that well."'
-        at: '51'
   - id: cal.1968-02-29.transition-and-staff
     when: Feb. 29
     date: '1968-02-29'
@@ -6243,8 +6249,9 @@ entries:
         - 'w.thomas-robert-kennedy 356: all'
     tags: [name:kennedy-robert-f, name:walinsky-adam, name:dolan-joseph-f, name:johnson-lyndon-b]
   - id: cal.1968-02.robert-kennedy-campaign-decision-3
-    when: Feb.
+    when: Feb., after the 8th
     date: 1968-02
+    at: after 1968-02-08
     thread: robert-kennedy-campaign-decision
     also: [vietnam]
     c: 'After his speech of Feb. 8, Robert Kennedy to Thomas Watson of IBM: he now favors withdrawing all American troops within six months "in any way possible."'
@@ -6270,6 +6277,7 @@ entries:
   - id: cal.1968-02.elections-1968-republican-nomination
     when: Feb.–Mar., after the 21st
     date: 1968-02
+    at: after 1968-02-21
     thread: elections-1968-republican-nomination
     c: 'Rockefeller and Braun plan a run of major speeches on policy from May, after the Legislature adjourns and before Oregon''s primary of May 28. Ronan doubts it: Nixon has the nomination; Rockefeller has no organization, no field team, no group on the issues.'
     n: '[[w.smith-on-his-own-terms]], 513–14. To check: Ted Braun, "History of Events Immediately Prior to and Leading Up to Rockefeller''s Decision and Statement of March 21, 1968," Rockefeller Archive Center (cited by [[w.smith-on-his-own-terms]], 514 n.). Check: the days. See [[cal.1968-02-21.elections-1968-4]]. Names: Rockefeller, Nixon.'
@@ -6294,8 +6302,9 @@ entries:
         - 'via x.undated.goulden-joseph-c-jerry-wurf-labors: B'
     tags: [name:loeb-henry, city:memphis, state:tn]
   - id: cal.1968-02.robert-kennedy-campaign-decision-7
-    when: Feb.
+    when: Feb., after the 8th
     date: 1968-02
+    at: after 1968-02-08
     thread: robert-kennedy-campaign-decision
     also: [press-and-broadcasting]
     c: 'Joseph Alsop, after Robert Kennedy''s Chicago speech on the war, leaves a message with Angie Novello: three friends of Kennedy''s, "none of them particular friends of Lyndon Johnson," say they must "regard Bobby Kennedy as a traitor to the United States." Kennedy to Schlesinger: "It''s just like Hitler — not a very good comparison — but I mean the way people who think themselves good and decent become accomplices."'
@@ -6307,8 +6316,9 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 843 n.6: B'
     tags: [name:alsop-joseph, name:kennedy-robert-f, name:schlesinger-arthur-m-jr, name:johnson-lyndon-b]
   - id: cal.1968-02.robert-kennedy-campaign-decision-8
-    when: Feb.
+    when: Feb., after the 8th
     date: 1968-02
+    at: after 1968-02-08
     thread: robert-kennedy-campaign-decision
     also: [vietnam]
     c: 'Robert Kennedy, in private, for getting out of Vietnam. Told by Walton that Harriman thinks him not for "cut-and-run": "Little does he know." To Rowland Evans: "We''ve got to get out of that war. It''s destroying this country." To Thomas Watson of IBM: "I''d get out of there in six months with all the troops the United States has."'

@@ -1376,6 +1376,25 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1547: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1960-05.elections-1960-8
+    when: May 8
+    date: '1960-05-08'
+    place: west-virginia
+    thread: elections-1960-primaries
+    c: 'West Virginia, the campaign''s close. Kennedy on television, Franklin D. Roosevelt Jr. putting the religious questions, Sorensen''s: as President he "would not take orders from any Pope, Cardinal, Bishop or priest"; one who did would be breaking his oath, "and should be impeached."'
+    n: '[[w.sorensen-kennedy]], 145; [[w.odonnell-johnny-we-hardly-knew]], 188–89 (the television broadcast on "the Sunday evening before the voting day" (May 8, the primary being May 10), Franklin Roosevelt asking the questions, Kennedy speaking extemporaneously for more than ten minutes, no script, recording or transcript; the passage on the oath, as Theodore White remembered it; not Sorensen''s "would not take orders from any Pope, Cardinal, Bishop or priest"); [[w.obrien-no-final-victories]], 75 (the Sunday before the election, the afternoon, a television studio, Kennedy''s last major appearance: a question-and-answer session with Roosevelt as moderator, Kennedy changing the format toward the close to speak directly of his religion, of serving in the war and his brother''s death in it; not Sorensen''s words or the passage on the oath). See [[cal.1960-04-21.elections-1960]]. Names: Kennedy, Franklin D. Roosevelt Jr., Sorensen.'
+    src:
+      c: f452b4b5
+      rows:
+        - 'w.sorensen-kennedy 145: all'
+        - 'w.odonnell-johnny-we-hardly-knew 188–89: A'
+        - 'w.obrien-no-final-victories 75: ?'
+    tags: [name:kennedy-john-f, name:roosevelt-franklin-d-jr, name:sorensen-theodore-c]
+    variants:
+      - unit: C
+        witness: w.odonnell-johnny-we-hardly-knew
+        reads: 'as White remembered it: "if he breaks his oath, he is not only committing a crime against the Constitution, for which the Congress can impeach him, and should impeach him, but he is committing a sin against God."'
+        at: '189'
   - id: cal.1960-05-09.soviet-union
     when: May 9–11
     date: '1960-05-09'
@@ -2170,6 +2189,21 @@ entries:
       - 1960-05-11T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-05.china
+    when: May 11–13
+    date: '1960-05-11'
+    place: hanoi
+    thread: china
+    also: [vietnam-hanoi]
+    c: 'Hanoi. Zhou Enlai, in private meetings, urges the North''s leaders to keep the status quo in the South, avoid escalation, and finish collectivizing agriculture and build light industry: the North first a rear base.'
+    n: '[[w.asselin-hanois-road-to-the]], 79; [[w.zhou-enlai-nianpu-1949]], II, 316, May 11, 1960 (the talks of May 11–13). To check: [[w.zhai-china-and-the-vietnam]], 82–83 (cited by [[w.asselin-hanois-road-to-the]], 79 n.41). Names: Zhou Enlai. Check: the days.'
+    src:
+      c: f6fda84e
+      rows:
+        - 'w.asselin-hanois-road-to-the 79: all'
+        - 'via x.2000.zhai-china-and-the-vietnam-82-83: all'
+        - 'w.zhou-enlai-nianpu-1949 II, 316, May 11, 1960: B'
+    tags: [name:zhou-enlai, place:hanoi]
   - id: cal.1960-05-12.students
     when: May 12–14
     date: '1960-05-12'
@@ -2630,6 +2664,17 @@ entries:
         - 'w.yang-jisheng-mubei I, 593: all'
         - 'via w.yang-jisheng-mubei I, 593 n.10: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-05.elections-1960-9
+    when: May 13
+    date: '1960-05-13'
+    thread: elections-1960-nomination
+    c: 'A week before Oregon''s primary, Truman against the primaries and for Symington; against Kennedy, only his residence in Massachusetts. Kennedy: "I have news for Mr. Truman. Mr. Symington was born in Massachusetts."'
+    n: '[[w.sorensen-kennedy]], 148. Names: Truman, Symington, Kennedy. Check: the day, about May 13.'
+    src:
+      c: 8ce4a3e3
+      rows:
+        - 'w.sorensen-kennedy 148: all'
+    tags: [name:truman-harry-s, name:symington-william-s, name:kennedy-john-f]
   - id: cal.1960-05-14.foreign-aid
     when: May 14
     date: '1960-05-14'
@@ -3999,6 +4044,24 @@ entries:
       - 1960-05-21T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1960-05.elections-1960
+    when: May 21
+    date: '1960-05-21'
+    place: libertyville
+    thread: elections-1960-nomination
+    c: Kennedy calls on Stevenson at Libertyville, Ill. By his account to Schlesinger, he told Stevenson "that Lyndon was a chronic liar"; by Stevenson's, the mention of Johnson the one flash of temper.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 203; [[w.odonnell-johnny-we-hardly-knew]], 201 (Kennedy''s call at Libertyville on the flight home from Oregon; back on the Caroline: "The same old double-talk. ... He''s got to be playing Lyndon"; Stevenson had promised, Kennedy had told O''Donnell, to endorse and nominate him if he won all his primaries; not the words to Stevenson); [[w.obrien-no-final-victories]], 79–80 (after the Oregon primary, O''Brien and O''Donnell persuade Kennedy to stop in Illinois on his way east and call on Stevenson; Stevenson "cool and aloof," no sign of retiring; Kennedy furious at the position; not Libertyville or the words on Johnson). [[w.ball-past-has-another-pattern]], 158 (the visit); [[w.white-making-of-the-president]], 142 (the visit, May 21). To check: Schlesinger, journal, May 22 and May 29, 1960 (cited by [[w.schlesinger-robert-kennedy-and-his]], 203 n.53–54). See [[cal.1960-05-10.elections-1960-2]]. Names: Kennedy, Stevenson, Schlesinger, Johnson. Check: Ball (158) puts it at breakfast the day after the Oregon primary of May 20, and has Stevenson telephoning him in a fury at Kennedy''s demand for his support.'
+    src:
+      c: aaea7584
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 203: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 203 n.53: B'
+        - 'via w.schlesinger-robert-kennedy-and-his 203 n.54: C'
+        - 'w.ball-past-has-another-pattern 158: A'
+        - 'w.white-making-of-the-president 142: A'
+        - 'w.odonnell-johnny-we-hardly-knew 201: A'
+        - 'w.obrien-no-final-victories 79–80: ?'
+    tags: [name:kennedy-john-f, name:stevenson-adlai-e, name:schlesinger-arthur-m-jr, name:johnson-lyndon-b]
   - id: cal.1960-05-22.elections-1960-nomination
     when: May 22
     date: '1960-05-22'
@@ -5425,24 +5488,6 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 203: all'
     tags: [name:johnson-lyndon-b, name:stevenson-adlai-e, name:kennedy-john-f]
-  - id: cal.1960-05.elections-1960
-    when: May
-    date: 1960-05
-    place: libertyville
-    thread: elections-1960-nomination
-    c: Kennedy calls on Stevenson at Libertyville, Ill. By his account to Schlesinger, he told Stevenson "that Lyndon was a chronic liar"; by Stevenson's, the mention of Johnson the one flash of temper.
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 203; [[w.odonnell-johnny-we-hardly-knew]], 201 (Kennedy''s call at Libertyville on the flight home from Oregon; back on the Caroline: "The same old double-talk. ... He''s got to be playing Lyndon"; Stevenson had promised, Kennedy had told O''Donnell, to endorse and nominate him if he won all his primaries; not the words to Stevenson); [[w.obrien-no-final-victories]], 79–80 (after the Oregon primary, O''Brien and O''Donnell persuade Kennedy to stop in Illinois on his way east and call on Stevenson; Stevenson "cool and aloof," no sign of retiring; Kennedy furious at the position; not Libertyville or the words on Johnson). [[w.ball-past-has-another-pattern]], 158 (the visit); [[w.white-making-of-the-president]], 142 (the visit, May 21). To check: Schlesinger, journal, May 22 and May 29, 1960 (cited by [[w.schlesinger-robert-kennedy-and-his]], 203 n.53–54). Check: the day, a few days after mid-May; White, 142, gives May 21. See [[cal.1960-05-10.elections-1960-2]]. Names: Kennedy, Stevenson, Schlesinger, Johnson. Check: Ball (158) puts it at breakfast the day after the Oregon primary of May 20, and has Stevenson telephoning him in a fury at Kennedy''s demand for his support.'
-    src:
-      c: aaea7584
-      rows:
-        - 'w.schlesinger-robert-kennedy-and-his 203: all'
-        - 'via w.schlesinger-robert-kennedy-and-his 203 n.53: B'
-        - 'via w.schlesinger-robert-kennedy-and-his 203 n.54: C'
-        - 'w.ball-past-has-another-pattern 158: A'
-        - 'w.white-making-of-the-president 142: A'
-        - 'w.odonnell-johnny-we-hardly-knew 201: A'
-        - 'w.obrien-no-final-victories 79–80: ?'
-    tags: [name:kennedy-john-f, name:stevenson-adlai-e, name:schlesinger-arthur-m-jr, name:johnson-lyndon-b]
   - id: cal.1960-05.democratic-party-2
     when: May, after the summit
     date: 1960-05
@@ -5546,36 +5591,6 @@ entries:
       rows:
         - 'w.nixon-six-crises 351: all'
     tags: [name:kennedy-john-f]
-  - id: cal.1960-05.elections-1960-8
-    when: May
-    date: 1960-05
-    place: west-virginia
-    thread: elections-1960-primaries
-    c: 'West Virginia, the campaign''s close. Kennedy on television, Franklin D. Roosevelt Jr. putting the religious questions, Sorensen''s: as President he "would not take orders from any Pope, Cardinal, Bishop or priest"; one who did would be breaking his oath, "and should be impeached."'
-    n: '[[w.sorensen-kennedy]], 145; [[w.odonnell-johnny-we-hardly-knew]], 188–89 (the television broadcast on "the Sunday evening before the voting day" (May 8, the primary being May 10), Franklin Roosevelt asking the questions, Kennedy speaking extemporaneously for more than ten minutes, no script, recording or transcript; the passage on the oath, as Theodore White remembered it; not Sorensen''s "would not take orders from any Pope, Cardinal, Bishop or priest"); [[w.obrien-no-final-victories]], 75 (the Sunday before the election, the afternoon, a television studio, Kennedy''s last major appearance: a question-and-answer session with Roosevelt as moderator, Kennedy changing the format toward the close to speak directly of his religion, of serving in the war and his brother''s death in it; not Sorensen''s words or the passage on the oath). See [[cal.1960-04-21.elections-1960]]. Names: Kennedy, Franklin D. Roosevelt Jr., Sorensen. Check: the day, before the primary of May 10.'
-    src:
-      c: f452b4b5
-      rows:
-        - 'w.sorensen-kennedy 145: all'
-        - 'w.odonnell-johnny-we-hardly-knew 188–89: A'
-        - 'w.obrien-no-final-victories 75: ?'
-    tags: [name:kennedy-john-f, name:roosevelt-franklin-d-jr, name:sorensen-theodore-c]
-    variants:
-      - unit: C
-        witness: w.odonnell-johnny-we-hardly-knew
-        reads: 'as White remembered it: "if he breaks his oath, he is not only committing a crime against the Constitution, for which the Congress can impeach him, and should impeach him, but he is committing a sin against God."'
-        at: '189'
-  - id: cal.1960-05.elections-1960-9
-    when: May
-    date: 1960-05
-    thread: elections-1960-nomination
-    c: 'A week before Oregon''s primary, Truman against the primaries and for Symington; against Kennedy, only his residence in Massachusetts. Kennedy: "I have news for Mr. Truman. Mr. Symington was born in Massachusetts."'
-    n: '[[w.sorensen-kennedy]], 148. Names: Truman, Symington, Kennedy. Check: the day, about May 13.'
-    src:
-      c: 8ce4a3e3
-      rows:
-        - 'w.sorensen-kennedy 148: all'
-    tags: [name:truman-harry-s, name:symington-william-s, name:kennedy-john-f]
   - id: cal.1960-05.elections-1960-10
     when: May
     date: 1960-05
@@ -5742,21 +5757,6 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 95: all'
         - 'via w.thomas-robert-kennedy 95 n.chafin: all'
-  - id: cal.1960-05.china
-    when: May
-    date: 1960-05
-    place: hanoi
-    thread: china
-    also: [vietnam-hanoi]
-    c: 'Hanoi. Zhou Enlai, in private meetings, urges the North''s leaders to keep the status quo in the South, avoid escalation, and finish collectivizing agriculture and build light industry: the North first a rear base.'
-    n: '[[w.asselin-hanois-road-to-the]], 79; [[w.zhou-enlai-nianpu-1949]], II, 316, May 11, 1960 (the talks of May 11–13). To check: [[w.zhai-china-and-the-vietnam]], 82–83 (cited by [[w.asselin-hanois-road-to-the]], 79 n.41). Names: Zhou Enlai. Check: the days.'
-    src:
-      c: f6fda84e
-      rows:
-        - 'w.asselin-hanois-road-to-the 79: all'
-        - 'via x.2000.zhai-china-and-the-vietnam-82-83: all'
-        - 'w.zhou-enlai-nianpu-1949 II, 316, May 11, 1960: B'
-    tags: [name:zhou-enlai, place:hanoi]
   - id: cal.1960-05.elections-1960-nomination
     when: May
     date: 1960-05

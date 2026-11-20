@@ -10,14 +10,22 @@ L2. Your list: `scratchpad/loose-pass/<chunk>.tsv` (id, date, when, thread, the 
 
 ## What is set
 
+L3a. **What merge places itself (Nov. 19, the ghost-day code).** Where your `when` uses a wording `loose.at_for` reads — early, mid, late; first, second, third or last week; end; a season in its own month; a year's early, first half, mid-year, second half, late — set `when` only (the house form: "July, early"; "Oct., the last week"; "1961, first half"), and leave `at` out: `merge` sets it (`place_loose`) and `check` warns `[loose-at]` or `[loose-at-differs]` otherwise. Set `at` yourself only for what the code cannot read: an event's day ("after the convention", "the eve of the plenum"), a named day of the month, a festival (date it to the day instead: L4; the calendar of tools/calendar/ converts lunar dates). The headings are made from the `when` as written (loose.py STYLE 1).
+
+L3c. **The 1960 pilot's audit (Nov. 19).** "The week of the Nth": `at: before` the Sunday that opens that week (Sept. 24, 1960, a Saturday: `before 1960-09-18`). A year's end, last week or last days ("1962, end"): no op; list it under doubts (the owner's ruling is pending). An event-relative wording whose event the calendar dates differently from the entry's source: use the calendar's date and say so in the report.
+
 L3. Where the record (the entry's own `c`, `n`, or the source the note cites, if it is in the repo's texts) fixes a position within the month or year:
 - `when:` gets the qualifier in the house form, the month first: `July, early`; `July, after the convention`; `July, before Kennedy's nomination`; `Nov., after the election`; `1961, early`. Keep it short; the ghost day's heading is made from it.
 - `at:` per the owner's rules: `before YYYY-MM-DD` / `after YYYY-MM-DD`. Thirds: early `before 1960-07-01`, mid `before 1960-07-11`, late `before 1960-07-21` (February and short months: `loose.thirds`). An event: before or after the event's day as the calendar dates it — find the event's own entries (`./bib find -l cal --thread T --since ... --until ...`) and use their date; a span (a convention, a plenum, "the convention", "convention week") before its first day; "near the close" of a span: before its last day; "the eve of X": before X's first day.
-- A year-dated entry: "early"/"first half" `before YYYY-01-01` (after the year's block, before January), "mid-" `before YYYY-05-01`, "late" `before YYYY-09-01`, "second half" `before YYYY-07-01` (the code to show year ghost days before their month block is coming; set them all the same).
+- A year-dated entry: set `when` only ("1962, early", "1962, first half", "1962, mid-year", "1962, second half", "1962, late"); merge sets the month form (`before 1962-01`, `-05`, `-07`, `-09`), which puts the ghost day before that month's block. "By April" and the like stay in the year block (L5).
 
 L4. Where the record fixes the **day** itself ("July 14", "the next day" after a dated entry, a festival or lunar date converted), the entry is not loose: list it under "Dated to the day" in your report with the date and the evidence; do not change `date` (the lead dates them by patch, as a date change moves the entry's file).
 
 L5. Where nothing fixes a position: no op. Never a guess; never the thread alone; never what you know but the entry does not say. A wrong place is worse than none. "By the 15th" and a span of months stay in the block (the earliest implied day is the first).
+
+## The fields
+
+L3b. Every op also follows the reader's brief R25a: if the entry's text gives a time or a place and the entry lacks the field, set it in the same `edit` (`time`/`time_range` with `time_zone`; `place`). `./bib patch-check` flags them (`[fields-time]`, `[fields-at]`).
 
 ## The work
 

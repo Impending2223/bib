@@ -148,6 +148,51 @@ def test_at_problems(args, want):
     assert loose.at_problems(E(d, w, at=a)) == want
 
 
+
+def BEFORE(d, at, solstice):
+    what = "the year" if len(d) == 4 else "the month"
+    return [("loose-at-month", f"at {at!r} falls before the entry's date {d}: it would show the entry in {what} before "
+                               f"its own; at is a day within the date (a winter ending in March, on a January to March "
+                               f"or a year's entry whose when names it: before {solstice}, the December solstice), or "
+                               f"keep a reader's own day with the tag ok:loose-at")]
+
+
+AT_FINDINGS = [   # [loose-at-month]: an `at` before the entry's own month or year (the audit, Nov. 19, 2026)
+    # the audit's case: before the 1962 solstice (Dec. 22 in Washington) on a plain February: the old rule let it by
+    (("1963-02", "Feb.", "before 1962-12-22", ()), BEFORE("1963-02", "before 1962-12-22", "1962-12-22")),
+    (("1963-02", "Feb.", "after 1963-01-31", ()), BEFORE("1963-02", "after 1963-01-31", "1962-12-22")),
+    (("1963-02", "Feb.", "before 1963-01-15", ()), BEFORE("1963-02", "before 1963-01-15", "1962-12-22")),
+    (("1962", "1962", "before 1961-12-21", ()), BEFORE("1962", "before 1961-12-21", "1961-12-21")),
+    (("1962", "1962, mid-", "before 1961-05", ()), BEFORE("1962", "before 1961-05", "1961-12-21")),
+    # the winter ending in March (STYLE 4): a winter `when`, January to March or the year, the solstice itself
+    (("1962-01", "Jan., winter", "before 1961-12-21", ()), []),         # cal.1962-01.africa
+    (("1963-02", "Feb., winter", "before 1962-12-22", ()), []),
+    (("1963-03", "Mar., late winter", "before 1962-12-22", ()), []),
+    (("1962", "1962, winter", "before 1961-12-21", ()), []),
+    (("1962-01", "Jan., winter", "before 1961-12-20", ()), BEFORE("1962-01", "before 1961-12-20", "1961-12-21")),
+    (("1962-01", "Jan., winter", "before 1961-12-28", ()), BEFORE("1962-01", "before 1961-12-28", "1961-12-21")),
+    (("1962-01", "Jan., winter", "after 1961-12-21", ()), BEFORE("1962-01", "after 1961-12-21", "1961-12-21")),
+    (("1962-04", "Apr., winter", "before 1961-12-21", ()), BEFORE("1962-04", "before 1961-12-21", "1961-12-21")),
+    (("1962-01", "Jan., spring", "before 1961-12-21", ()), BEFORE("1962-01", "before 1961-12-21", "1961-12-21")),
+    # a reader's own day, kept
+    (("1963-02", "Feb.", "before 1963-01-15", ("ok:loose-at",)), []),
+    (("1963-02", "Feb.", "before 1963-01-15", ("ok:loose-at-month",)), []),
+    (("1963-02", "Feb.", "before 1963-01-15", ("ok:thread-first",)), BEFORE("1963-02", "before 1963-01-15", "1962-12-22")),
+    # within the date, and after it (the general rule, unchanged; no tag silences it)
+    (("1963-02", "Feb., early", "before 1963-02-01", ()), []),
+    (("1963-02", "Feb.", "after 1963-02-28", ()), []),
+    (("1963-02", "Feb.", "after 1963-03-02", ("ok:loose-at",)),
+     [("general", "at 'after 1963-03-02' falls outside the entry's date 1963-02")]),
+]
+
+
+@pytest.mark.parametrize("args,want", AT_FINDINGS)
+def test_at_findings(args, want):
+    d, w, a, tags = args
+    e = E(d, w, at=a, tags=list(tags))
+    assert loose.at_findings(e) == want
+    assert loose.at_problems(e) == [m for _, m in want]
+
 def test_order_of_a_year_and_its_months():
     """"1961", "Early 1961", "January", "Early January", Jan. 1 ...; "Mid-1961", "May", "Early May", May 1 ...;
     "Second half of 1961", "July"; "Late 1961", "September" (loose.py, STYLE 2)."""

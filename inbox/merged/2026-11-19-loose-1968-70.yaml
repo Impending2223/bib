@@ -1,0 +1,494 @@
+# The loose-dates pass, 1968-70 (notes/briefs/loose-pass.md, L1-L7): `when` and `at` for month- and year-dated entries
+# whose own text fixes a position. Pri 0 rows first, then the pri 1 rows with a position word.
+patch: 2026-11-19-loose-1968-70
+by: Claude (loose-dates reader, 1968-70 chunk; notes/briefs/loose-pass.md)
+ops:
+  - edit:
+      id: cal.1968-01.defense-clifford
+      base: 'a6a585ae'
+      set:
+        when: 'Jan., after the 26th'
+  - edit:
+      id: cal.1968-01.program
+      base: '2b6b94c0'
+      set:
+        when: 'Jan., before the 17th'
+  - edit:
+      id: cal.1968-01.transition-and-staff
+      base: 'b09df956'
+      set:
+        when: 'Jan., early'
+  - edit:
+      id: cal.1968-01.robert-kennedy-campaign-decision-7
+      base: '7dbfc030'
+      set:
+        when: 'Jan., before Tet'
+        at: 'before 1968-01-30'
+  - edit:
+      id: cal.1968-02.elections-1968-2
+      base: 'c3d5c7f2'
+      set:
+        when: 'Feb., late'
+  - edit:
+      id: cal.1968-02.elections-1968-republican-nomination
+      base: '4e58a1bb'
+      set:
+        at: 'after 1968-02-21'
+  - edit:
+      id: cal.1968-02.robert-kennedy
+      base: 'caef108f'
+      set:
+        when: 'Feb., after the 26th'
+  - edit:
+      id: cal.1968-02.robert-kennedy-campaign
+      base: '2cfa6c89'
+      set:
+        when: 'Feb., before the Kerner report'
+        at: 'before 1968-02-29'
+  - edit:
+      id: cal.1968-02.robert-kennedy-campaign-decision-3
+      base: '74d67170'
+      set:
+        when: 'Feb., after the 8th'
+  - edit:
+      id: cal.1968-02.robert-kennedy-campaign-decision-7
+      base: '66571f98'
+      set:
+        when: 'Feb., after the 8th'
+  - edit:
+      id: cal.1968-02.robert-kennedy-campaign-decision-8
+      base: '0b5ad553'
+      set:
+        when: 'Feb., after the 8th'
+  - edit:
+      id: cal.1968-02.states-and-cities-ar
+      base: '3f1cedee'
+      set:
+        when: 'Feb., early'
+  - edit:
+      id: cal.1968-02.vietnam-tet-3
+      base: 'a2fea03e'
+      set:
+        when: 'Feb., after the 2nd'
+  - edit:
+      id: cal.1968-02.war-opposition
+      base: 'b8785054'
+      set:
+        when: 'Feb., early'
+  - edit:
+      id: cal.1968-03.elections-1968
+      base: '5839aba6'
+      set:
+        when: 'Mar., after the 21st'
+  - edit:
+      id: cal.1968-03.king-poor-peoples
+      base: '5897857a'
+      set:
+        when: 'Mar., early'
+  - edit:
+      id: cal.1968-03.press-and-broadcasting-2
+      base: '83ef0c21'
+      set:
+        when: 'Mar., after Kennedy''s announcement'
+        at: 'after 1968-03-16'
+  - edit:
+      id: cal.1968-03.robert-kennedy
+      base: 'a055a7e4'
+      set:
+        when: 'Mar., after Kennedy''s announcement'
+        at: 'after 1968-03-16'
+  - edit:
+      id: cal.1968-03.robert-kennedy-campaign-decision
+      base: 'a90523bc'
+      set:
+        when: 'Mar., after Kennedy''s announcement'
+        at: 'after 1968-03-16'
+  - edit:
+      id: cal.1968-03.vietnam-205000
+      base: '65b1c5b4'
+      set:
+        when: 'Mar., mid'
+  - edit:
+      id: cal.1968-03.vietnam-205000-3
+      base: 'bdbf0b87'
+      set:
+        when: 'Mar., after the Wise Men''s meeting'
+        at: 'after 1968-03-26'
+  - edit:
+      id: cal.1968-03.vietnam-congress
+      base: 'ee60c281'
+      set:
+        when: 'Mar., mid'
+  - edit:
+      id: cal.1968-04.robert-kennedy-2
+      base: '43449a27'
+      set:
+        when: 'Apr., after the Wisconsin primary'
+        at: 'after 1968-04-02'
+        place: washington
+  - edit:
+      id: cal.1968-04.robert-kennedy-campaign-primaries-5
+      base: 'b230583b'
+      set:
+        when: 'Apr., after King''s murder'
+        at: 'after 1968-04-04'
+  - edit:
+      id: cal.1968-04.vietnam-paris
+      base: '1973f724'
+      set:
+        when: 'Apr., after the 3rd'
+  - edit:
+      id: cal.1968-04.elections-1968
+      base: 'fbc2f613'
+      set:
+        when: 'Apr., late'
+  - edit:
+      id: cal.1968-04.elections-1968-nixon-2
+      base: '673080f1'
+      set:
+        when: 'Apr., after the 19th'
+  - edit:
+      id: cal.1968-05.elections-1968-mccarthy
+      base: '6cc87bb9'
+      set:
+        when: 'May, after the 7th'
+  - edit:
+      id: cal.1968-05.press-and-broadcasting
+      base: '6bb0d0ff'
+      set:
+        when: 'May, after the 7th'
+  - edit:
+      id: cal.1968-05.robert-kennedy-campaign-primaries-3
+      base: '7de04397'
+      set:
+        when: 'May, before the 7th'
+  - edit:
+      id: cal.1968-05.vietnam-2
+      base: 'fa91d5d0'
+      set:
+        when: 'May, mid'
+  - edit:
+      id: cal.1968-05.vietnam-tet
+      base: '476ba8a1'
+      set:
+        when: 'May, second week'
+  - edit:
+      id: cal.1968-06.elections-1968-2
+      base: '119ba7e8'
+      set:
+        when: 'June, mid'
+  - edit:
+      id: cal.1968-06.elections-1968-4
+      base: 'e878a694'
+      set:
+        when: 'June, mid'
+  - edit:
+      id: cal.1968-06.elections-1968-5
+      base: '83c918f8'
+      set:
+        when: 'June, mid'
+  - edit:
+      id: cal.1968-06.elections-1968-6
+      base: '90319069'
+      set:
+        when: 'June, mid'
+  - edit:
+      id: cal.1968-06.elections-1968-7
+      base: '1069fe71'
+      set:
+        when: 'June, mid'
+  - edit:
+      id: cal.1968-06.mississippi
+      base: '65ee03c0'
+      set:
+        when: 'June, late'
+  - edit:
+      id: cal.1968-06.robert-kennedy-campaign-primaries
+      base: 'f30f001f'
+      set:
+        when: 'June, before the 4th'
+  - edit:
+      id: cal.1968-06.vietnam
+      base: '328527f6'
+      set:
+        when: 'June, mid'
+  - edit:
+      id: cal.1968-06.vietnam-2
+      base: '518edd55'
+      set:
+        when: 'June, early'
+        place: moscow
+  - edit:
+      id: cal.1968-06.vietnam-abrams
+      base: 'f60f1dda'
+      set:
+        when: 'June, early'
+  - edit:
+      id: cal.1968-06.elections-1968-republican-nomination-2
+      base: '8fff2369'
+      set:
+        at: 'after 1968-06-06'
+  - edit:
+      id: cal.1968-06.elections-1968-republican-nomination-3
+      base: '251fe6f3'
+      set:
+        at: 'after 1968-06-06'
+  - edit:
+      id: cal.1968-06.elections-1968-republican-nomination-4
+      base: 'ef16c028'
+      set:
+        at: 'after 1968-06-06'
+  - edit:
+      id: cal.1968-06.governors-ny
+      base: '171ead8f'
+      set:
+        when: 'June, before the 18th'
+  - edit:
+      id: cal.1968-07.elections-1968-chicago
+      base: '6d595b50'
+      set:
+        when: 'July, early'
+  - edit:
+      id: cal.1968-07.electoral-college
+      base: '779a4dd5'
+      set:
+        when: 'July, after the 7th'
+  - edit:
+      id: cal.1968-07.labor-disputes
+      base: '3b7cc6eb'
+      set:
+        when: 'July, early'
+  - edit:
+      id: cal.1968-07.war-opposition
+      base: '86a031ec'
+      set:
+        when: 'July, early'
+  - edit:
+      id: cal.1968-08.elections-1968-4
+      base: '4ce456f8'
+      set:
+        when: 'Aug., after the convention'
+        at: 'after 1968-08-29'
+  - edit:
+      id: cal.1968-08.elections-1968-chicago
+      base: 'b60951a4'
+      set:
+        when: 'Aug., before the convention'
+        at: 'before 1968-08-26'
+  - edit:
+      id: cal.1968-08.vietnam-paris
+      base: 'fc941c5e'
+      set:
+        when: 'Aug., after the nomination'
+        at: 'after 1968-08-08'
+  - edit:
+      id: cal.1968-08.vietnam-paris-2
+      base: '6f8ddb69'
+      set:
+        when: 'Aug., after the 7th'
+  - edit:
+      id: cal.1968-08.vietnam-paris-3
+      base: '2de98d03'
+      set:
+        when: 'Aug., after the 4th'
+  - edit:
+      id: cal.1968-08.war-opposition-2
+      base: '47f4a43c'
+      set:
+        when: 'Aug., late'
+  - edit:
+      id: cal.1968-09.court-fortas
+      base: 'a022eef9'
+      set:
+        when: 'Sept., late'
+  - edit:
+      id: cal.1968-09.elections-1968-12
+      base: '72a73317'
+      set:
+        when: 'Sept., end'
+  - edit:
+      id: cal.1968-09.elections-1968-4
+      base: 'f2529caf'
+      set:
+        when: 'Sept., mid'
+  - edit:
+      id: cal.1968-09.elections-1968-6
+      base: 'fbf51b82'
+      set:
+        when: 'Sept., early'
+  - edit:
+      id: cal.1968-09.elections-1968-7
+      base: '09bce156'
+      set:
+        when: 'Sept., early'
+  - edit:
+      id: cal.1968-09.elections-1968-chicago-streets
+      base: 'a9aa1ef0'
+      set:
+        when: 'Sept., mid'
+  - edit:
+      id: cal.1968-09.elections-1968-wallace
+      base: '450c9bb1'
+      set:
+        when: 'Sept., mid'
+  - edit:
+      id: cal.1968-09.vietnam-operations
+      base: '36cbc5e7'
+      set:
+        when: 'Sept., mid'
+  - edit:
+      id: cal.1968-09.vietnam-paris
+      base: '8b9eec47'
+      set:
+        when: 'Sept., after the 15th'
+  - edit:
+      id: cal.1968-09.elections-1968-14
+      base: '08379981'
+      set:
+        when: 'Sept., before the 30th'
+  - edit:
+      id: cal.1968-10.elections-1968
+      base: 'ca6c2f65'
+      set:
+        when: 'Oct., early'
+  - edit:
+      id: cal.1968-10.elections-1968-5
+      base: '6f43aebe'
+      set:
+        when: 'Oct., after the 1st'
+  - edit:
+      id: cal.1968-11.transition-and-staff-8
+      base: 'd57c12b7'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1968-11-05'
+  - edit:
+      id: cal.1968-12.civil-rights-the-executive-2
+      base: '2e68cbb9'
+      set:
+        when: 'Dec., before the 18th'
+  - edit:
+      id: cal.1968-12.soviet-union
+      base: '05b881ec'
+      set:
+        when: 'Dec., late'
+  - edit:
+      id: cal.1968-12.transition-and-staff-2
+      base: '826b5e37'
+      set:
+        when: 'Dec., before the 11th'
+  - edit:
+      id: cal.1968-12.vietnam-2
+      base: 'f971c882'
+      set:
+        when: 'Dec., after the 12th'
+  - edit:
+      id: cal.1968-12.vietnam-3
+      base: '407dd037'
+      set:
+        when: 'Dec., mid'
+  - edit:
+      id: cal.1969-01.soviet-union
+      base: '0b2ae90a'
+      set:
+        when: 'Jan., before the inauguration'
+        at: 'before 1969-01-20'
+  - edit:
+      id: cal.1969-01.transition-and-staff-2
+      base: '0df928aa'
+      set:
+        when: 'Jan., before the inauguration'
+        at: 'before 1969-01-20'
+  - edit:
+      id: cal.1969-01.transition-and-staff-3
+      base: '9a417fe9'
+      set:
+        when: 'Jan., before the inauguration'
+        at: 'before 1969-01-20'
+  - edit:
+      id: cal.1969-01.transition-and-staff-4
+      base: '753b2920'
+      set:
+        when: 'Jan., before the inauguration'
+        at: 'before 1969-01-20'
+  - edit:
+      id: cal.1969-01.press-and-broadcasting
+      base: '0e5e1644'
+      set:
+        when: 'Jan., after the 14th'
+  - edit:
+      id: cal.1969-07.vietnam-hanoi
+      base: '7de2c915'
+      set:
+        when: 'July, early'
+  # Added by the audit (Nov. 19-20, 2026): the reader's doubts the rules decide, and a position the sample found.
+  - edit:
+      id: cal.1968-01.japan-and-korea-pueblo-2
+      base: 'c44e4d87'
+      set:
+        at: 'before 1968-01-23'
+  - edit:
+      id: cal.1968-01.japan-and-korea-pueblo-3
+      base: '1b66f931'
+      set:
+        at: 'before 1968-01-23'
+  - edit:
+      id: cal.1968-01.japan-and-korea-pueblo-4
+      base: 'fcbd8567'
+      set:
+        at: 'before 1968-01-23'
+  - edit:
+      id: cal.1968-01.japan-and-korea-pueblo-5
+      base: '84f651df'
+      set:
+        at: 'before 1968-01-23'
+  - edit:
+      id: cal.1968-01.robert-kennedy-2
+      base: '8d3d9075'
+      set:
+        when: 'Jan., after the ski trip'
+        at: 'before 1968-01-01'
+  - edit:
+      id: cal.1968-06.elections-1968-congress
+      base: '90af44da'
+      set:
+        when: 'June, after Grinage''s naming'
+        at: 'before 1968-06-11'
+  - edit:
+      id: cal.1968-06.king-poor-peoples
+      base: 'd7aec002'
+      set:
+        when: 'June, before the 23rd'
+  - edit:
+      id: cal.1968-07.vietnam
+      base: 'fac2e0a5'
+      set:
+        when: 'July, between the 14th and the 17th'
+        at: 'before 1968-07-14'
+  - edit:
+      id: cal.1968-07.vietnam-2
+      base: '33c33b72'
+      set:
+        when: 'July, between the 14th and the 17th'
+        at: 'before 1968-07-14'
+  - edit:
+      id: cal.1968-07.vietnam-3
+      base: '43f29d1f'
+      set:
+        when: 'July, between the 14th and the 17th'
+        at: 'before 1968-07-14'
+  - edit:
+      id: cal.1968-08.elections-1968
+      base: '9b95d99e'
+      set:
+        when: 'Aug., early, two weeks before the convention'
+  - edit:
+      id: cal.1968-09.elections-1968-16
+      base: '3a768fc6'
+      set:
+        when: 'Sept., after the 9th'
+  - edit:
+      id: cal.1968-12.vietnam-5
+      base: '7d1b64a7'
+      set:
+        when: 'Dec., mid'

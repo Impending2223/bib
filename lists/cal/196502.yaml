@@ -316,6 +316,19 @@ entries:
       - 1965-02-02T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-01.transition-and-staff-nsc
+    when: Feb. 2
+    date: '1965-02-02'
+    thread: transition-and-staff-nsc
+    c: 'McGeorge Bundy to Johnson, asked who should succeed him: Moyers, Thomas Hughes or Abram Chayes to be groomed for it.'
+    n: '[[w.bird-color-of-truth]], 301, 348 (the memorandum passed again in early 1966). Check: Bird''s notes (301 n.1; 348 n.120) date the memorandum Feb. 2, 1965. To check: McGeorge Bundy to Johnson, Feb. 2, 1965 ("A Deputy or Potential Successor in My Office"), Bundy Memorandums to the President, LBJ Library (cited by [[w.bird-color-of-truth]], 301 n.1). Names: McGeorge Bundy, Johnson, Moyers, Hughes, Chayes. Check: the day.'
+    src:
+      c: ed88305d
+      rows:
+        - 'w.bird-color-of-truth 301, 348: ?'
+        - 'via w.bird-color-of-truth 301 n.1: all'
+        - 'via w.bird-color-of-truth 348 n.120b: all'
+    tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:moyers-bill, name:hughes-thomas-l, name:chayes-abram]
   - id: cal.1965-02-03.legislatures-ny
     when: Feb. 3
     date: '1965-02-03'
@@ -6992,6 +7005,21 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1848: all'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-02.republican-party-congress
+    when: Feb. 24
+    date: '1965-02-24'
+    thread: republican-party-congress
+    also: [voting-rights, republican-party]
+    c: 'Five Republican governors, four Senators and twenty-two Representatives, Romney, Scranton, Javits, Kuchel and Lindsay among them: "How long will Congress and the American people be asked to wait while this administration studies and restudies Dr. King''s request for new federal legislation." "Republicans march with them." Kuchel puts the statement in the Record Mar. 1.'
+    n: 'Kuchel, [111 Cong. Rec. 3746–47](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt3/pdf/GPO-CRECB-1965-pt3-8-1.pdf#page=26) (1965) (Mar. 1, 1965). [[w.sundquist-politics-and-policy]], 272; [[w.kabaservice-rule-and-ruin]], 139 (the statement from Mathias''s and Kuchel''s offices: "Republicans march with them"). Check: the day: Feb. 24, by the statement Kabaservice cites (139 n.88b). See [[cal.1965-02-09.voting-rights]]. Names: Romney, Scranton, Javits, Kuchel, Lindsay. Check: the day; Kuchel, Mar. 1, has it issued "several days ago."'
+    src:
+      c: b40f0fc9
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt3/pdf/GPO-CRECB-1965-pt3-8-1.pdf#page=26: all'
+        - 'w.sundquist-politics-and-policy 272: A-B'
+        - 'via w.sundquist-politics-and-policy 272 n.162: all'
+        - 'w.kabaservice-rule-and-ruin 139: all'
+    tags: [name:romney-george-w, name:scranton-william-w, name:javits-jacob-k, name:kuchel-thomas-h, name:lindsay-john-v]
   - id: cal.1965-02-25.middle-east
     when: Feb. 25
     date: '1965-02-25'
@@ -7789,24 +7817,10 @@ entries:
         - 'via w.kabaservice-rule-and-ruin 138 n.82: A'
         - 'via w.kabaservice-rule-and-ruin 138 n.84: B'
     tags: [name:kuchel-thomas-h, state:ca]
-  - id: cal.1965-02.republican-party-congress
-    when: Feb.
-    date: 1965-02
-    thread: republican-party-congress
-    also: [voting-rights, republican-party]
-    c: 'Five Republican governors, four Senators and twenty-two Representatives, Romney, Scranton, Javits, Kuchel and Lindsay among them: "How long will Congress and the American people be asked to wait while this administration studies and restudies Dr. King''s request for new federal legislation." "Republicans march with them." Kuchel puts the statement in the Record Mar. 1.'
-    n: 'Kuchel, [111 Cong. Rec. 3746–47](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt3/pdf/GPO-CRECB-1965-pt3-8-1.pdf#page=26) (1965) (Mar. 1, 1965). [[w.sundquist-politics-and-policy]], 272; [[w.kabaservice-rule-and-ruin]], 139 (the statement from Mathias''s and Kuchel''s offices: "Republicans march with them"). Check: the day: Feb. 24, by the statement Kabaservice cites (139 n.88b). See [[cal.1965-02-09.voting-rights]]. Names: Romney, Scranton, Javits, Kuchel, Lindsay. Check: the day; Kuchel, Mar. 1, has it issued "several days ago."'
-    src:
-      c: b40f0fc9
-      rows:
-        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt3/pdf/GPO-CRECB-1965-pt3-8-1.pdf#page=26: all'
-        - 'w.sundquist-politics-and-policy 272: A-B'
-        - 'via w.sundquist-politics-and-policy 272 n.162: all'
-        - 'w.kabaservice-rule-and-ruin 139: all'
-    tags: [name:romney-george-w, name:scranton-william-w, name:javits-jacob-k, name:kuchel-thomas-h, name:lindsay-john-v]
   - id: cal.1965-02.conservation
-    when: Feb.
+    when: Feb., before the natural beauty message
     date: 1965-02
+    at: before 1965-02-08
     thread: conservation
     c: By Sundquist's account, HEW's proposal of enforceable federal standards for automobile exhaust reaches Johnson before the natural beauty message. Had the industry been consulted? The proposal dropped; talks with industry instead.
     n: '[[w.sundquist-politics-and-policy]], 369. See [[cal.1965-01.conservation]]. Names: Johnson. Check: the day.'
@@ -7829,8 +7843,9 @@ entries:
         - 'via x.1965-02.westmoreland-request-logistical-engineer-troops: A'
     tags: [name:westmoreland-william]
   - id: cal.1965-02.vietnam-2
-    when: Feb.
+    when: Feb., late
     date: 1965-02
+    at: before 1965-02-19
     thread: vietnam
     c: Toward the end of February Moyers gives Johnson Ball's memorandum of Oct. 5, 1964, past Bundy.
     n: '[[w.preston-war-council]], 159, 181; [[w.bernstein-guns-or-butter]], 565 n.5 (Johnson sees it a month later, through Moyers). To check: [[w.ball-past-has-another-pattern]], 390–92 (cited by [[w.preston-war-council]], 181 n.56). See [[cal.1964-10-05.vietnam]]. Names: Moyers, Johnson, Ball, Bundy. Check: the day.'
@@ -7932,8 +7947,9 @@ entries:
         - 'w.dallek-flawed-giant 249: ?'
     tags: [name:reston-james]
   - id: cal.1965-02.vietnam-congress
-    when: Feb.
+    when: Feb., after the raids of Feb. 7–8
     date: 1965-02
+    at: after 1965-02-08
     place: washington
     thread: vietnam-congress
     c: 'McGovern in the Oval Office against escalation, by McGovern''s account. Johnson: "we''re dealing with a bunch of communist bastards." McGovern: Ho no stooge of China. Johnson: "Goddamn it, George, you and Fulbright and all you history teachers down there."'
@@ -8006,8 +8022,9 @@ entries:
       rows:
         - 'w.debenedetti-american-ordeal 106: all'
   - id: cal.1965-02.students
-    when: Feb.
+    when: Feb., early
     date: 1965-02
+    at: before 1965-02-01
     place: kent-oh
     thread: students
     c: Kent, Ohio, Kent State University. Thirty pickets against the air war dispersed by some 150 students for the war.

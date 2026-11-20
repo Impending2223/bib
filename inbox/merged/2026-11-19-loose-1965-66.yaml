@@ -1,0 +1,568 @@
+# The loose-dates pass, 1965 and 1966 (notes/briefs/loose-pass.md, L1-L7): `when` and `at` for month- and year-dated entries
+# whose record fixes a position. Pri 0 rows, in date order.
+patch: 2026-11-19-loose-1965-66
+by: Claude (loose-dates reader, 1965-66; notes/briefs/loose-pass.md)
+ops:
+  - place-key: {key: marthas-vineyard, name: 'Martha''s Vineyard, Mass.', zone: America/New_York, st: MA}
+  - edit:
+      id: cal.1965-01.japan
+      base: '1f97bcff'
+      set:
+        when: 'Jan., after the Washington talks'
+        at: 'after 1965-01-13'
+  - edit:
+      id: cal.1965-01.program-4
+      base: 'aefbaed8'
+      set:
+        when: 'Jan., before the inaugural'
+        at: 'before 1965-01-20'
+  - edit:
+      id: cal.1965-01.republican-party-congress-2
+      base: '0fc9fbb4'
+      set:
+        when: 'Jan., before the inauguration'
+        at: 'before 1965-01-20'
+  - edit:
+      id: cal.1965-01.transition-and-staff
+      base: 'bdc01424'
+      set:
+        when: 'Jan., early'
+  - edit:
+      id: cal.1965-01.transition-and-staff-2
+      base: 'f866b1a2'
+      set:
+        when: 'Jan., mid'
+  - edit:
+      id: cal.1965-01.voting-rights-selma
+      base: '5635c530'
+      set:
+        when: 'Jan., after the 26th'            # audit: the house form; merge sets after 1965-01-26
+  - edit:
+      id: cal.1965-02.conservation
+      base: '905d925e'
+      set:
+        when: 'Feb., before the natural beauty message'
+        at: 'before 1965-02-08'
+  - edit:
+      id: cal.1965-02.students
+      base: 'dea7807d'
+      set:
+        when: 'Feb., early'
+  - edit:
+      id: cal.1965-02.vietnam-2
+      base: '38701032'
+      set:
+        when: 'Feb., late'
+  - edit:
+      id: cal.1965-02.vietnam-congress
+      base: 'ce16619b'
+      set:
+        when: 'Feb., after the raids of Feb. 7–8'
+        at: 'after 1965-02-08'
+  - edit:
+      id: cal.1965-03.king
+      base: '5d9d11a9'
+      set:
+        when: 'Mar., before the Boston meeting'
+        at: 'before 1965-03-05'
+  - edit:
+      id: cal.1965-03.robert-kennedy-3
+      base: 'be99f070'
+      set:
+        when: 'Mar., after the voting rights address'
+        at: 'after 1965-03-15'
+  - edit:
+      id: cal.1965-03.voting-rights-2
+      base: 'a8148036'
+      set:
+        when: 'Mar., before the rally of the 14th'
+        at: 'before 1965-03-14'
+  - edit:
+      id: cal.1965-03.voting-rights-selma
+      base: 'd3b07771'
+      set:
+        when: 'Mar., after Judge Johnson''s order'
+        at: 'after 1965-03-17'
+  - edit:
+      id: cal.1965-03.voting-rights-selma-4
+      base: '1ace1fb4'
+      set:
+        when: 'Mar., after the meeting with Wallace'
+        at: 'after 1965-03-13'
+  - edit:
+      id: cal.1965-03.voting-rights-selma-6
+      base: '81243555'
+      set:
+        when: 'Mar., after Bloody Sunday'
+        at: 'after 1965-03-07'
+  - edit:
+      id: cal.1965-04.king
+      base: '07650798'
+      set:
+        when: 'Apr., after Johnson''s answer'
+        at: 'after 1965-04-01'
+  - edit:
+      id: cal.1965-04.robert-kennedy
+      base: '6cff140d'
+      set:
+        when: 'Apr., late'
+  - edit:
+      id: cal.1965-04.robert-kennedy-2
+      base: '641f9f35'
+      set:
+        when: 'Apr., after the visits were put off'
+        at: 'after 1965-04-16'
+  - edit:
+      id: cal.1965-04.white-house
+      base: '7f9dd0ce'
+      set:
+        when: 'Apr., late'
+  - edit:
+      id: cal.1965-05.press-and-broadcasting
+      base: 'bc7af037'
+      set:
+        when: 'May, mid'
+  - edit:
+      id: cal.1965-05.republican-party-congress
+      base: 'c7587ca0'
+      set:
+        when: 'May, before the cloture vote'
+        at: 'before 1965-05-25'
+  - edit:
+      id: cal.1965-05.transition-and-staff
+      base: '8783fcef'
+      set:
+        when: 'May, after the teach-in'
+        at: 'after 1965-05-15'
+  - edit:
+      id: cal.1965-06.civil-rights-the-executive
+      base: '3e9cd409'
+      set:
+        when: 'June, after Howard University'
+        at: 'after 1965-06-04'
+  - edit:
+      id: cal.1965-06.republican-party-3
+      base: '71324655'
+      set:
+        when: 'June, after Fulbright''s speech'
+        at: 'after 1965-06-15'
+  - edit:
+      id: cal.1965-07.jobs-and-wages-14b
+      base: 'facd7295'
+      set:
+        when: 'July, before the House vote of the 28th'
+        at: 'before 1965-07-28'
+  - edit:
+      id: cal.1965-07.latin-america-dominican-republic
+      base: '097f10bb'
+      set:
+        when: 'July, before Stevenson''s death'
+        at: 'before 1965-07-14'
+  - edit:
+      id: cal.1965-07.medicare
+      base: 'fd4df3ab'
+      set:
+        when: 'July, before the Senate''s passage'
+        at: 'before 1965-07-09'
+  - edit:
+      id: cal.1965-07.press-and-broadcasting-2
+      base: '14b8e847'
+      set:
+        when: 'July, after the news conference of the 28th'
+        at: 'after 1965-07-28'
+  - edit:
+      id: cal.1965-07.republican-party-congress
+      base: '9d6efb5e'
+      set:
+        when: 'July, before the news conference of the 13th'
+        at: 'before 1965-07-13'
+  - edit:
+      id: cal.1965-07.transition-and-staff
+      base: 'a8fa4b84'
+      set:
+        when: 'July, after Stevenson''s death'
+        at: 'after 1965-07-14'
+  - edit:
+      id: cal.1965-07.transition-and-staff-3
+      base: '49f72a3f'
+      set:
+        when: 'July, after Stevenson''s death'
+        at: 'after 1965-07-14'
+  - edit:
+      id: cal.1965-07.vietnam-6
+      base: '236a432d'
+      set:
+        when: 'July, before Taylor''s departure'
+        at: 'before 1965-07-30'
+  - edit:
+      id: cal.1965-07.vietnam-congress
+      base: 'cd6430e1'
+      set:
+        when: 'July, after Johnson''s announcement'
+        at: 'after 1965-07-28'
+  - edit:
+      id: cal.1965-07.voting-rights
+      base: '09227c4f'
+      set:
+        when: 'July, after Johnson''s statement of the 10th'
+        at: 'after 1965-07-10'
+  - edit:
+      id: cal.1965-08.civil-disorders-2
+      base: '555c43d7'
+      set:
+        when: 'Aug., after the West Garfield Park riot'
+        at: 'after 1965-08-15'
+  - edit:
+      id: cal.1965-08.poverty
+      base: '06b670e9'
+      set:
+        when: 'Aug., after the riots'
+        at: 'after 1965-08-16'
+  - edit:
+      id: cal.1965-08.press-and-broadcasting
+      base: 'bad9f88a'
+      set:
+        when: 'Aug., after Johnson''s call to Stanton'
+        at: 'after 1965-08-05'
+  - edit:
+      id: cal.1965-08.voting-rights
+      base: '891483a2'
+      set:
+        when: 'Aug., before the signing'
+        at: 'before 1965-08-06'
+        place: marthas-vineyard          # R25a, basis c: Goodwin "on vacation at Martha's Vineyard," the cutter on Tashmoo Pond
+  - edit:
+      id: cal.1965-09.latin-america-dominican-republic
+      base: 'c9d688d7'
+      set:
+        when: 'Sept., after Fulbright''s speech'
+        at: 'after 1965-09-15'
+  - edit:
+      id: cal.1965-09.press-and-broadcasting
+      base: '98fe200f'
+      set:
+        when: 'Sept., early'
+  - edit:
+      id: cal.1965-09.press-and-broadcasting-2
+      base: 'ef533432'
+      set:
+        when: 'Sept., after King''s statement of the 10th'
+        at: 'after 1965-09-10'
+  - edit:
+      id: cal.1965-09.program
+      base: '0d63de0f'
+      set:
+        when: 'Sept., before the signing of the arts act'
+        at: 'before 1965-09-29'
+  - edit:
+      id: cal.1965-09.students
+      base: 'e160c4d4'
+      set:
+        when: 'Sept., mid'
+  - edit:
+      id: cal.1965-09.vietnam
+      base: '07f0318c'
+      set:
+        when: 'Sept., mid'
+  - edit:
+      id: cal.1965-09.vietnam-2
+      base: 'de49fcfa'
+      set:
+        when: 'Sept., late'
+  - edit:
+      id: cal.1965-09.vietnam-support
+      base: '8ab4690c'
+      set:
+        when: 'Sept., after Bundy''s memorandum of Sept. 2'
+        at: 'after 1965-09-02'
+  - edit:
+      id: cal.1965-10.vietnam
+      base: '396147b1'
+      set:
+        when: 'Oct., mid'
+  - edit:
+      id: cal.1965-10.vietnam-congress-foreign-relations
+      base: '332d8170'
+      set:
+        when: 'Oct., after Johnson''s operation'
+        at: 'after 1965-10-08'
+  - edit:
+      id: cal.1965-10.vietnam-congress-foreign-relations-2
+      base: '92197ef8'
+      set:
+        when: 'Oct., after Johnson''s operation'
+        at: 'after 1965-10-08'
+  - edit:
+      id: cal.1965-11.mississippi
+      base: 'e5978ad4'
+      set:
+        when: 'Nov., late'
+  - edit:
+      id: cal.1965-11.state-and-city-finance
+      base: '0e2218b0'
+      set:
+        when: 'Nov., late'
+  - edit:
+      id: cal.1965-11.vietnam-2
+      base: '3ac2d507'
+      set:
+        when: 'Nov., after the talk at the Ranch'
+        at: 'after 1965-11-11'
+  - edit:
+      id: cal.1965-11.vietnam-congress-2
+      base: '14e3342c'
+      set:
+        when: 'Nov., late'
+  - edit:
+      id: cal.1965-11.vietnam-force-levels-3
+      base: '9bfb7c3f'
+      set:
+        when: 'Nov., late'
+  - edit:
+      id: cal.1965-12.transition-and-staff
+      base: 'a38e6e35'
+      set:
+        when: 'Dec., early'
+  - edit:
+      id: cal.1966-01.civil-rights-the-executive
+      base: 'b7fd6f70'
+      set:
+        when: 'Jan., the week of the 24th'
+        at: 'before 1966-01-23'
+  - edit:
+      id: cal.1966-01.state-and-city-finance-nyc
+      base: 'fd87c07b'
+      set:
+        when: 'Jan., after the strike'
+        at: 'after 1966-01-13'
+  - edit:
+      id: cal.1966-01.vietnam-2
+      base: 'fba8f86c'
+      set:
+        when: 'Jan., before the bombing resumed'
+        at: 'before 1966-01-31'
+  - edit:
+      id: cal.1966-01.vietnam-congress
+      base: '540f13af'
+      set:
+        when: 'Jan., after the reply of the 28th'
+        at: 'after 1966-01-28'
+  - edit:
+      id: cal.1966-01.vietnam-congress-2
+      base: 'b005eeee'
+      set:
+        when: 'Jan., late'
+  - edit:
+      id: cal.1966-01.war-opposition-3
+      base: '6cf5607e'
+      set:
+        when: 'Jan., early'
+  - edit:
+      id: cal.1966-02.vietnam-2
+      base: 'e1d358e6'
+      set:
+        when: 'Feb., after the Honolulu conference'
+        at: 'after 1966-02-08'
+        place: saigon                    # R25a, basis seat (P4): the RVN government's cabinet appointment
+  - edit:
+      id: cal.1966-02.vietnam-3
+      base: '109c7445'
+      set:
+        when: 'Feb., before Goodwin''s note of the 17th'
+        at: 'before 1966-02-17'
+  - edit:
+      id: cal.1966-02.vietnam-force-levels
+      base: '39be5873'
+      set:
+        when: 'Feb., after the Honolulu conference'
+        at: 'after 1966-02-08'
+  - edit:
+      id: cal.1966-03.open-housing-3
+      base: 'fdce5f8b'
+      set:
+        when: 'Mar., early'
+  - edit:
+      id: cal.1966-03.open-housing-4
+      base: '8c48e257'
+      set:
+        when: 'Mar., early'
+  - edit:
+      id: cal.1966-04.china-leadership
+      base: '7990b94d'
+      set:
+        when: 'Apr., after the 10th'
+  - edit:
+      id: cal.1966-04.china-leadership-7
+      base: '47f94fb2'
+      set:
+        when: 'Apr., after the 1st'
+  - edit:
+      id: cal.1966-04.cities-and-housing
+      base: '146585b2'
+      set:
+        when: 'Apr., early'
+  - edit:
+      id: cal.1966-04.democratic-party-2
+      base: '25062890'
+      set:
+        when: 'Apr., mid'
+  - edit:
+      id: cal.1966-04.transition-and-staff-2
+      base: 'b1911f11'
+      set:
+        when: 'Apr., before Johnson''s letter of the 25th'
+        at: 'before 1966-04-25'
+  - edit:
+      id: cal.1966-04.war-opposition-4
+      base: '4b0158e1'
+      set:
+        when: 'Apr., early'
+  - edit:
+      id: cal.1966-06.china-leadership-15
+      base: '7c97c109'
+      set:
+        when: 'June, from the 2nd'
+        at: 'before 1966-06-02'
+  - edit:
+      id: cal.1966-06.china-leadership-16
+      base: 'aa9971cd'
+      set:
+        when: 'June, from the 4th'
+        at: 'before 1966-06-04'
+  - edit:
+      id: cal.1966-06.program
+      base: 'c21c6d62'
+      set:
+        when: 'June, early'
+  - edit:
+      id: cal.1966-06.program-3
+      base: '955ec189'
+      set:
+        when: 'June, mid'
+  - edit:
+      id: cal.1966-06.robert-kennedy-3
+      base: 'bf902cec'
+      set:
+        when: 'June, after South Africa'
+        at: 'after 1966-06-09'
+  - edit:
+      id: cal.1966-06.robert-kennedy-4
+      base: '13eae3cd'
+      set:
+        when: 'June, after South Africa'
+        at: 'after 1966-06-09'
+  - edit:
+      id: cal.1966-06.robert-kennedy-5
+      base: 'f2fe6816'
+      set:
+        when: 'June, after South Africa'
+        at: 'after 1966-06-09'
+  - edit:
+      id: cal.1966-06.states-and-cities
+      base: '21834c6b'
+      set:
+        when: 'June, after mid-month'           # audit: Califano's "after mid-June", not a day
+        at: 'after 1966-06-15'
+  - edit:
+      id: cal.1966-07.democratic-party
+      base: '678112aa'
+      set:
+        when: 'July, mid'
+  - edit:
+      id: cal.1966-07.robert-kennedy-2
+      base: '877550a4'
+      set:
+        when: 'July, after the Times story of the 24th'
+        at: 'after 1966-07-24'
+  - edit:
+      id: cal.1966-08.mayors
+      base: 'fe84fc4d'
+      set:
+        when: 'Aug., after the march of the 5th'
+        at: 'after 1966-08-05'
+  - edit:
+      id: cal.1966-09.open-housing-4
+      base: 'da713b83'
+      set:
+        when: 'Sept., after the Cicero march'
+        at: 'after 1966-09-04'
+  - edit:
+      id: cal.1966-10.health
+      base: 'b54da455'
+      set:
+        when: 'Oct., mid'
+  - edit:
+      id: cal.1966-11.elections-1966-2
+      base: 'e896e85c'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1966-11-08'
+  - edit:
+      id: cal.1966-11.elections-1968
+      base: '748852c7'
+      set:
+        when: 'Nov.–Dec., after Nov. 17'        # audit: keeps the entry's Nov.–Dec. ("in the next two weeks")
+        at: 'after 1966-11-17'
+  - edit:
+      id: cal.1966-11.king
+      base: '2702a933'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1966-11-08'
+  - edit:
+      id: cal.1966-11.opinion
+      base: '32232719'
+      set:
+        when: 'Nov., end'
+  - edit:
+      id: cal.1966-11.republican-party-3
+      base: '8338caec'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1966-11-08'
+  - edit:
+      id: cal.1966-11.robert-kennedy
+      base: '8e0f5c2d'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1966-11-08'
+  - edit:
+      id: cal.1966-11.vietnam
+      base: 'e38f0e3d'
+      set:
+        when: 'Nov., late'
+  - edit:
+      id: cal.1966-12.draft
+      base: '4a7d72a1'
+      set:
+        when: 'Dec., after Christmas'
+        at: 'after 1966-12-25'
+  - edit:
+      id: cal.1966-12.program
+      base: '0c465857'
+      set:
+        when: 'Dec., late'
+  # The audit's additions (Nov. 19): positions the record fixes, left out by the reader.
+  - edit:
+      id: cal.1965-08.vietnam-saigon
+      base: '7aeb3067'
+      set:
+        when: 'Aug., after Lodge''s arrival'     # c "on arriving in Saigon"; the calendar's Aug. 20, not Gibbons's "early August" (L3c)
+        at: 'after 1965-08-20'
+  - edit:
+      id: cal.1966-06.state-and-city-finance
+      base: '64cdb3ff'
+      set:
+        at: 'before 1966-06-14'          # its own when, "before the talks at Albany": the Executive Mansion, June 14–16
+  - edit:
+      id: cal.1966-07.state-and-city-finance-nyc
+      base: '896e11cb'
+      set:
+        when: 'July, before the adjournment'
+        at: 'before 1966-07-06'          # c "before it adjourns July 6" (L3: near a span's close, before its last day)
+  - edit:
+      id: cal.1966-11.transition-and-staff
+      base: 'b0c6f844'
+      set:
+        when: 'Nov., after the operations'
+        at: 'after 1966-11-16'           # c "Bethesda Naval Hospital, after Johnson's operations": Nov. 16

@@ -100,14 +100,22 @@ def problems(series):
     lst = series.lists.get("cal")
     if lst:
         for _, e in lst.entries():
-            if "place" not in e:
-                continue
-            ks = keys(e)
-            if not ks or len(ks) > 2:
-                out.append((e["id"], "place: a gazetteer key, or a list of two"))
-            for k in ks:
-                if get(k) is None:
-                    out.append((e["id"], f"place {k!r}: not in the gazetteer (sources/places.yaml; a place-key op adds it)"))
+            out += [(e["id"], m) for m in entry_problems(e)]
+    return out
+
+
+def entry_problems(e):
+    """STYLE 1 and 6 on one calendar entry: its `place` a gazetteer key (a patch's pending row too), or a list of two;
+    check's [place] messages (patchcheck.py, STYLE 11, holds a patch's adds and edits to them)."""
+    if "place" not in e:
+        return []
+    out = []
+    ks = keys(e)
+    if not ks or len(ks) > 2:
+        out.append("place: a gazetteer key, or a list of two")
+    for k in ks:
+        if get(k) is None:
+            out.append(f"place {k!r}: not in the gazetteer (sources/places.yaml; a place-key op adds it)")
     return out
 
 

@@ -1,0 +1,338 @@
+# The loose-dates pass, 1962 (notes/briefs/loose-pass.md, L1-L7): `when` and `at` for month- and year-dated entries
+# whose record fixes a position. Where the `when` is a wording loose.py reads, `at` is left to merge (place_loose).
+patch: 2026-11-19-loose-1962
+by: Claude (loose-dates reader, 1962; notes/briefs/loose-pass.md)
+ops:
+  - place-key: {key: clarksdale-ms, name: 'Clarksdale, Miss.', zone: America/Chicago, st: MS}
+  - place-key: {key: greenville-sc, name: 'Greenville, S.C.', zone: America/New_York, st: SC}
+  - edit:
+      id: cal.1962.china-leadership-2
+      base: '8150c2cf'
+      set:
+        when: '1962, before the Anhui decision'
+        at: 'before 1962-03-20'
+  - edit:
+      id: cal.1962-01.africa
+      base: 'a176f2d3'
+      set:
+        when: 'Jan., winter'
+        at: 'before 1961-12-21'
+  - edit:
+      id: cal.1962-03.congo
+      base: '425c04d3'
+      set:
+        when: 'Mar., before the Mar. 7 rally'
+        at: 'before 1962-03-07'
+  - edit:
+      id: cal.1962-03.soviet-union-3
+      base: 'afde53c6'
+      set:
+        when: 'Mar., after the 7th'
+  - edit:
+      id: cal.1962-03.testing
+      base: 'd786a1ef'
+      set:
+        when: 'Mar., after the test announcement'
+        at: 'after 1962-03-02'
+  - edit:
+      id: cal.1962-03.testing-2
+      base: 'ba082fbf'
+      set:
+        when: 'Mar., after the test announcement'
+        at: 'after 1962-03-02'
+        place: washington
+  - edit:
+      id: cal.1962-03.cuba-5
+      base: 'a9892bae'
+      set:
+        when: 'Mar., spring'
+  - edit:
+      id: cal.1962-04.right-and-the-military
+      base: 'fb03c965'
+      set:
+        when: 'Apr., late'
+  - edit:
+      id: cal.1962-04.cuba-bay-of-pigs-2
+      base: '0a72a841'
+      set:
+        when: 'Apr., after the sentences'
+        at: 'after 1962-04-08'
+  - edit:
+      id: cal.1962-04.steel
+      base: '993f6ceb'
+      set:
+        when: 'Apr., after the rescission'
+        at: 'after 1962-04-13'
+  - edit:
+      id: cal.1962-04.testing
+      base: 'b25864a9'
+      set:
+        when: 'Apr., before the tests begin'
+        at: 'before 1962-04-25'
+  - edit:
+      id: cal.1962-04.goldwater
+      base: '88ae0b5a'
+      set:
+        when: 'Apr., after the Minnesota meeting'
+        at: 'after 1962-04-13'
+  - edit:
+      id: cal.1962-05.berlin-and-vienna
+      base: '85279436'
+      set:
+        when: 'May, after the 5th'
+  - edit:
+      id: cal.1962-05.press-and-broadcasting-3
+      base: '2babb916'
+      set:
+        when: 'May, after the birthday gala'
+        at: 'after 1962-05-19'
+  - edit:
+      id: cal.1962-05.press-and-broadcasting-4
+      base: '7927ce97'
+      set:
+        when: 'May, after the birthday gala'
+        at: 'after 1962-05-19'
+  - edit:
+      id: cal.1962-05.republican-party-congress
+      base: 'c621f086'
+      set:
+        when: 'May, early'
+  - edit:
+      id: cal.1962-05.voting-rights
+      base: '86e9edd8'
+      set:
+        when: 'May, after the bill''s defeat'
+        at: 'after 1962-05-14'
+  - edit:
+      id: cal.1962-05.goldwater-2
+      base: 'd6944213'
+      set:
+        when: 'May, late, to June 6'
+        place: greenville-sc
+  - edit:
+      id: cal.1962-07.defense-4
+      base: 'badbad81'
+      set:
+        when: 'July, before the announcement'
+        at: 'before 1962-07-20'
+  - edit:
+      id: cal.1962-07.economy-2
+      base: 'bb1ffa04'
+      set:
+        when: 'July, mid'
+  - edit:
+      id: cal.1962-08.governors
+      base: '023d4aaf'
+      set:
+        when: 'Aug., mid'
+  - edit:
+      id: cal.1962-08.mississippi
+      base: '64e854ca'
+      set:
+        when: 'Aug., late'
+  - edit:
+      id: cal.1962-08.soviet-union
+      base: '8171ca1f'
+      set:
+        when: 'Aug., early'
+  - edit:
+      id: cal.1962-09.alabama-birmingham
+      base: '8b079510'
+      set:
+        when: 'Sept., early'
+  - edit:
+      id: cal.1962-09.alabama-birmingham-2
+      base: '1a99d447'
+      set:
+        when: 'Sept., before the convention'
+        at: 'before 1962-09-24'
+  - edit:
+      id: cal.1962-09.robert-kennedy
+      base: '407b8960'
+      set:
+        when: 'Sept., before the convention'
+        at: 'before 1962-09-24'
+  - edit:
+      id: cal.1962-09.china
+      base: '46267538'
+      set:
+        when: 'Sept., fall'
+  - edit:
+      id: cal.1962-09.goldwater-2
+      base: '191a1d01'
+      set:
+        when: 'Sept., fall'
+  - edit:
+      id: cal.1962-09.school-aid-2
+      base: '5656e9b7'
+      set:
+        when: 'Sept., early fall'
+  - edit:
+      id: cal.1962-09.georgia
+      base: 'b10e3704'
+      set:
+        when: 'Sept., after the 18th'
+  - edit:
+      id: cal.1962-09.king
+      base: 'b17817ac'
+      set:
+        when: 'Sept., before the 22nd'
+  - edit:
+      id: cal.1962-09.mississippi-ole-miss
+      base: 'fb3e073a'
+      set:
+        when: 'Sept., before the Oxford riot'
+        at: 'before 1962-09-30'
+  - edit:
+      id: cal.1962-10.missile-crisis-3
+      base: '517dcbf2'
+      set:
+        when: 'Oct., after the 23rd'
+  - edit:
+      id: cal.1962-10.missile-crisis-diplomacy-2
+      base: 'e2f0b965'
+      set:
+        when: 'Oct., mid'
+  - edit:
+      id: cal.1962-10.south-asia-2
+      base: '5ba24e6b'
+      set:
+        when: 'Oct., after the 17th'
+  - edit:
+      id: cal.1962-10.vietnam
+      base: '32972948'
+      set:
+        when: 'Oct., early'
+  - edit:
+      id: cal.1962-11.press-and-broadcasting
+      base: '0b8f2e4a'
+      set:
+        when: 'Nov., early'
+  - edit:
+      id: cal.1962-11.republican-party-2
+      base: 'ada1d171'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1962-11-06'
+  - edit:
+      id: cal.1962-11.republican-party-3
+      base: '0ca7bb69'
+      set:
+        when: 'Nov., after the election'
+        at: 'after 1962-11-06'
+  - edit:
+      id: cal.1962-12.civil-rights-the-executive
+      base: 'a2a37da7'
+      set:
+        when: 'Dec., after the 26th'
+  - edit:
+      id: cal.1962-12.cuba-6
+      base: '51893f46'
+      set:
+        when: 'Dec., before the 29th'
+  - edit:
+      id: cal.1962-12.economy-2
+      base: '40198eab'
+      set:
+        when: 'Dec., before the 14th'
+        place: washington
+  - edit:
+      id: cal.1962-12.intelligence
+      base: '2b949f2c'
+      set:
+        when: 'Dec., late'
+  - edit:
+      id: cal.1962-12.europe-and-the-alliance-4
+      base: 'd2f0b185'
+      set:
+        at: 'after 1962-12-11'
+  - edit:
+      id: cal.1962-12.press-and-broadcasting-2
+      base: 'd32c10dc'
+      set:
+        when: 'Dec., after Sylvester''s speech'
+        at: 'after 1962-12-06'
+  - edit:
+      id: cal.1962-01.congress
+      base: '3e6ba298'
+      set:
+        when: 'Jan., after the 3rd'
+  - edit:
+      id: cal.1962-01.soviet-union-2
+      base: 'ecf27878'
+      set:
+        when: 'Jan., after the 21st'
+  - edit:
+      id: cal.1962-02.king
+      base: '79206295'
+      set:
+        when: 'Feb., after the 2nd'
+        place: clarksdale-ms
+  - edit:
+      id: cal.1962-02.king-2
+      base: '54f0de1a'
+      set:
+        when: 'Feb., before the 12th'
+  - edit:
+      id: cal.1962-03.jobs-and-wages
+      base: '15026571'
+      set:
+        when: 'Mar., before the 26th'
+  - edit:
+      id: cal.1962.china-leadership-4
+      base: '47d0f40d'
+      set:
+        when: '1962, during the Seven Thousand Cadres Conference'
+        at: 'before 1962-01-11'
+  - edit:
+      id: cal.1962-09.republican-party-congress
+      base: 'da0487f8'
+      set:
+        when: 'Sept., end'
+  - edit:
+      id: cal.1962-11.soviet-union-2
+      base: 'd7a273a6'
+      set:
+        when: 'Nov., during the Bulgarian congress'
+        at: 'before 1962-11-05'
+  # Added by the audit (scratchpad loose-pass/audit-1962): positions the reader's rows held.
+  - edit:
+      id: cal.1962-01.china-leadership
+      base: 'fff72158'
+      set:
+        when: 'Jan., before Mao''s speech'
+        at: 'before 1962-01-30'
+  - edit:
+      id: cal.1962-03.king
+      base: '42621c54'
+      set:
+        when: 'Mar., after the 6th'
+  - edit:
+      id: cal.1962-10.elections-1962-2
+      base: 'a135ed05'
+      set:
+        when: 'Oct., before the missile crisis'
+        at: 'before 1962-10-14'
+  - edit:
+      id: cal.1962-10.cuba-2
+      base: 'ecc49746'
+      set:
+        when: 'Oct., before the missiles are found'
+        at: 'before 1962-10-14'
+  - edit:
+      id: cal.1962-11.king-2
+      base: 'de8879f8'
+      set:
+        when: 'Nov., after the housing order'
+        at: 'after 1962-11-20'
+  - edit:
+      id: cal.1962-12.cuba-2
+      base: '38d4b28e'
+      set:
+        when: 'Dec., after the 11th'
+  - edit:
+      id: cal.1962-12.europe-and-the-alliance-3
+      base: '4df75c54'
+      set:
+        when: 'Dec., Nassau, the night the pact is agreed'
+        at: 'before 1962-12-18'

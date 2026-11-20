@@ -112,8 +112,8 @@
   form: original
   open: closed archive
   read: false
-- id: x.1963-08-03.deng-talk-hakamada-second
-  what: Deng Xiaoping 邓小平, second talk with Hakamada Satomi 袴田里见 (record 谈话记录), Aug. 3, 1963
+- id: x.1963-08-03.deng-talk-kurahara-second
+  what: Deng Xiaoping 邓小平, second talk with Kurahara Korehito 藏原惟人 (record 谈话记录), Aug. 3, 1963
   kind: transcript
   date: '1963-08-03'
   where: cited by the Mao zedong zhuan (V, ch. 71 n.19); Central Archives; not held
@@ -368,15 +368,30 @@
   open: closed archive
   read: false
 - id: x.1966-01-16.mao-talk-central-south-bureau-secretaries
-  what: Mao Zedong 毛泽东, talk with the secretaries of the Central-South Bureau 中南局 and the heads of the provinces, Jan. 16, 1966 (see Wang Renzhong's diary 王任重日记, Feb. 3, 1966)
-  kind: transcript
+  what: Mao Zedong 毛泽东, talk with the secretaries of the Central-South Bureau 中南局 and the heads of the provinces, Jan. 16, 1966 (as Wang Renzhong's diary 王任重日记 of Feb. 3, 1966 gives it)
+  kind: statement
   date: '1966-01-16'
-  where: cited by the Mao zedong zhuan (VI, ch. 74 n.21); Central Archives; not held
+  where: cited by the Mao zedong zhuan (VI, ch. 74 n.21a), from Wang Renzhong's diary; no record named
   agent:
   - name:mao-zedong
   made: contemporaneous
   form: original
-  open: closed archive
+  open: not recorded
+  read: false
+- id: x.1966-02-03.wang-renzhong-diary
+  what: Wang Renzhong 王任重, diary 日记, Feb. 3, 1966
+  kind: diary
+  date: '1966-02-03'
+  where: cited by the Mao zedong zhuan (VI, ch. 74 n.21b); not held
+  agent:
+  - Wang Renzhong 王任重
+  made: later
+  made_on: '1966-02-03'
+  form: account
+  from:
+  - of: x.1966-01-16.mao-talk-central-south-bureau-secretaries
+    kind: report
+  open: not held
   read: false
 - id: x.1963-06-12.deng-speech-politburo-reply-to-cpsu
   what: Deng Xiaoping 邓小平, speech at the Politburo meeting 中共中央政治局会议, June 12, 1963 (record 讲话记录)
