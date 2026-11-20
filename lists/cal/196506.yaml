@@ -783,6 +783,15 @@ entries:
       - 1965-06-03T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-06-03.vietnam-hanoi
+    when: June 3
+    date: '1965-06-03'
+    place: quang-ngai
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: Quảng Ngãi. Over 100,000 people of the districts around the town gather at the Saigon offices, June 3, to demand news of their kin and relief for the families of dead soldiers; the town and province in an uproar.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 430.'
+    tags: [polity:drv]
   - id: cal.1965-06-04.civil-rights-the-executive
     when: June 4
     date: '1965-06-04'
@@ -1646,6 +1655,19 @@ entries:
         - 'w.yang-shangkun-riji II, 631: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-06-07.vietnam-hanoi
+    when: June 7
+    date: '1965-06-07'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Central Highlands. The night of June 7 Region 5's forces destroy the Hoành Châm strongpoint, besiege the Thuần Mẫn district seat and threaten Route 14 from Pleiku to Ban Mê Thuột.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 431. Check: the place not given.'
+    tags: [polity:drv, ok:fields-place]
+    time_range:
+      - 1965-06-07T14:00Z
+      - 1965-06-07T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1965-06-08.vietnam
     when: June 8–9
     date: '1965-06-08'
@@ -1924,7 +1946,7 @@ entries:
     place: dong-xoai
     thread: vietnam-operations
     c: 'Đồng Xoài, Phước Long Province, some eighty-five kilometers north of Saigon. Shortly before midnight, elements of the Viet Cong 272d and 273d Regiments attack the Special Forces–advised CIDG camp and district headquarters; by noon on the 10th much of the camp overrun. Two South Vietnamese battalions landed by helicopter, mauled; a third, June 11, hit on the 12th. South Vietnamese losses: 416 killed, 174 wounded, 233 missing. A battalion task force of the 173d Airborne Brigade flown to Phước Vĩnh, June 13; back June 18 without a fight.'
-    n: '[FRUS 1964–68, III, doc. 5](https://history.state.gov/historicaldocuments/frus1964-68v03/d5) (Taylor to Johnson, June 17). Remarks and Citation at the Medal of Honor Ceremony for Lt. Charles Q. Williams, USA, [1966 Pub. Papers 646](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=722) (June 23, 1966). [[w.def-u-s-viet-rels-iv-c-5]], 82; [[w.carland-united-states-army-in]], 27–28, 46; [[w.vietnam-victory-in-vietnam]], 146–47, 462 n.35 (the attack of June 9; the relief battalions destroyed); [[w.moyar-triumph-forsaken]], 396–402; [[w.bernstein-guns-or-butter]], 347. [[w.macv-command-history-1965]], 222 (the attack and the relief; the losses). The time is the first day''s. To check: COMUSMACV MILREP, 140737Z Jun 65 (cited by [[w.macv-command-history-1965]], 222 n.258). Check: *Victory in Vietnam* makes Đồng Xoài the second phase, from June 9, of a campaign opened May 11 in Phước Long and ended July 22: 4,000 of the enemy put out of action, 73 American advisers among them (146–47). Check: Moyar, 397, has the 2nd Viet Cong Regiment and a battalion of the 3rd make the assault.'
+    n: '[FRUS 1964–68, III, doc. 5](https://history.state.gov/historicaldocuments/frus1964-68v03/d5) (Taylor to Johnson, June 17). Remarks and Citation at the Medal of Honor Ceremony for Lt. Charles Q. Williams, USA, [1966 Pub. Papers 646](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=722) (June 23, 1966). [[w.def-u-s-viet-rels-iv-c-5]], 82; [[w.carland-united-states-army-in]], 27–28, 46; [[w.vietnam-victory-in-vietnam]], 146–47, 462 n.35 (the attack of June 9; the relief battalions destroyed); [[w.moyar-triumph-forsaken]], 396–402; [[w.bernstein-guns-or-butter]], 347; [[w.lich-su-khang-chien-chong-my]], III, 419–22 (the campaign''s second phase: the night of June 9 the approach, by 4 a.m. June 10 most of the post taken; the battalions landed by air beaten June 10–11; the post wholly taken; the Second Regiment named the Đồng Xoài Regiment). [[w.macv-command-history-1965]], 222 (the attack and the relief; the losses). The time is the first day''s. To check: COMUSMACV MILREP, 140737Z Jun 65 (cited by [[w.macv-command-history-1965]], 222 n.258). Check: *Victory in Vietnam* makes Đồng Xoài the second phase, from June 9, of a campaign opened May 11 in Phước Long and ended July 22: 4,000 of the enemy put out of action, 73 American advisers among them (146–47). Check: Moyar, 397, has the 2nd Viet Cong Regiment and a battalion of the 3rd make the assault.'
     src:
       c: 3fa2262c
       rows:
@@ -1937,6 +1959,7 @@ entries:
         - 'w.macv-command-history-1965 222: B-F'
         - 'via w.macv-command-history-1965 222 n.258: B-F'
         - 'w.bernstein-guns-or-butter 347: A-B'
+        - 'w.lich-su-khang-chien-chong-my III, 419–22: A, B, C, D, E'
     tags: [place:dong-xoai]
     short: Đồng Xoài
   - id: cal.1965-06-09.vietnam-force-levels
@@ -5859,6 +5882,20 @@ entries:
       - 1965-06-25T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-06-25.vietnam-hanoi
+    when: June 25
+    date: '1965-06-25'
+    place: kontum
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: North Kon Tum. The night of June 25 Regiment 101 destroys the Pô Cô strongpoint, takes the Special Forces camp at Tumơrông and shells the Đắk Tô district seat.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 432.'
+    tags: [polity:drv]
+    time_range:
+      - 1965-06-25T14:00Z
+      - 1965-06-25T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1965-06-26.vietnam-july-decision
     when: June 26
     date: '1965-06-26'
@@ -6154,6 +6191,15 @@ entries:
       - 1965-06-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-06-27.vietnam-hanoi
+    when: June 27
+    date: '1965-06-27'
+    place: bsar
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Lâm Đồng. June 27 the province's troops destroy the B'Sar strongpoint, which commands a wide area south of the Blao pass, and bring down the bridges at Đậm Mrế and Đạc Oai; the people along Routes 20 and 14 bis rise and Saigon pulls back to Bảo Lộc and Di Linh.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 434.'
+    tags: [polity:drv]
   - id: cal.1965-06-28.economy
     when: June 28–30
     date: '1965-06-28'
@@ -7322,3 +7368,12 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1867: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-06-30.vietnam-hanoi-2
+    when: June 30
+    date: '1965-06-30'
+    place: cheo-reo
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Phú Bổn. June 30 a task force of two paratroop battalions (1st and 5th) and the 2d Battalion of the 40th Regiment, 22d Division, comes up from Cheo Reo to relieve the Central Highlands posts; Regiment 2 ambushes it about 10 km from Cheo Reo and fights until dark; 1 a.m., July 1, it attacks the pocket and after an hour finishes it.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 431. The time is the first day''s. Check: the result is cut off at III, 431.'
+    tags: [polity:drv, ok:fields-time]

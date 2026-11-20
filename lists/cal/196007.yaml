@@ -2892,6 +2892,14 @@ entries:
         - 'w.yang-shangkun-riji I, 527: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-15.vietnam-hanoi
+    when: July 15
+    date: '1960-07-15'
+    place: hanoi
+    thread: vietnam-hanoi
+    c: Hanoi. The Second National Assembly's first session closes (July 7–15). Hồ Chí Minh President, Tôn Đức Thắng Vice President, Trường Chinh chairman of the Standing Committee, Phạm Văn Đồng Premier; a National Defense Council elected. Laws on the organization of the Assembly, the Council of Government, the Supreme People's Procuracy and the Supreme People's Court.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 160; 152 (the law on the Council of Government). Check: the history gives the session, not the day of the elections within it. Names: Hồ Chí Minh, Tôn Đức Thắng, Trường Chinh, Phạm Văn Đồng.'
+    tags: [polity:drv, name:ho-chi-minh, name:ton-duc-thang, name:truong-chinh, name:pham-van-dong]
   - id: cal.1960-07-16.democratic-party
     when: July 16
     date: '1960-07-16'
@@ -5374,13 +5382,19 @@ entries:
     date: 1960-07
     thread: vietnam-hanoi
     c: 'The Nam Bộ Executive Committee''s fifth plenum: the political struggle''s results disappointing, propaganda among Saigon''s soldiers and officials ineffective; the armed forces weak, their weapons, buried since 1954, "archaic" and few. Hanoi asked to back a more forward strategy.'
-    n: '[[w.asselin-hanois-road-to-the]], 76; [[w.van-kien-dang-toan]], XXI, 1059–94 (the resolution, July 1960: the proselytizing of the enemy''s troops and officials weak, 1063; not the weapons'' age, nor a request to Hanoi). Made public: 2002. To check: Khuất Biên Hòa, *Đại tướng Lê Đức Anh* (2005), 61–62 (cited by [[w.asselin-hanois-road-to-the]], 76 n.18). See [[cal.1960-05-04.vietnam-hanoi]]. Check: Asselin, 76, has the political struggle''s results disappointing; the resolution reports gains in the countryside since the fourth plenum of September 1959 (XXI, 1059–62) and faults too little push in the political struggle (1063).'
+    n: '[[w.asselin-hanois-road-to-the]], 76; [[w.van-kien-dang-toan]], XXI, 1059–94 (the resolution, July 1960: the proselytizing of the enemy''s troops and officials weak, 1063; not the weapons'' age, nor a request to Hanoi); [[w.lich-su-khang-chien-chong-my]], II, 356–57 (the fifth plenum''s resolution, July 1960, quoted; the Regional Committee''s order for the Nam Bộ provinces to rise together in September). Made public: 2002. To check: Khuất Biên Hòa, *Đại tướng Lê Đức Anh* (2005), 61–62 (cited by [[w.asselin-hanois-road-to-the]], 76 n.18). See [[cal.1960-05-04.vietnam-hanoi]]. Check: Asselin, 76, has the political struggle''s results disappointing; the resolution reports gains in the countryside since the fourth plenum of September 1959 (XXI, 1059–62) and faults too little push in the political struggle (1063).'
     src:
       c: bf23672b
       rows:
         - 'w.asselin-hanois-road-to-the 76: all'
         - 'via x.2005.khuat-bien-hoa-dai-tuong-le-duc-anh: B'
         - 'w.van-kien-dang-toan XXI, 1059–94: ?'
+        - 'w.lich-su-khang-chien-chong-my II, 356–57: A'
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the countryside of Nam Bộ turned in the revolution's favor; the enemy beaten heavily in politics
+        at: II, 356
   - id: cal.1960-07.congo
     when: July, after the Security Council's resolution
     date: 1960-07
@@ -6032,3 +6046,14 @@ entries:
         - 'w.yang-jisheng-mubei I, 446: all'
         - 'via w.yang-jisheng-mubei I, 446 n.15: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-07-31.vietnam-hanoi
+    when: July 31
+    date: '1960-07-31'
+    time: 1960-07-30T16:15Z
+    place: bac-ruong
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bình Thuận. 12:15 a.m., July 31. Unit 2/9, the provincial armed force, with Tánh Linh district's three men and 100 porters, attacks the district seat of Hoài Đức at Bắc Ruộng to break the concentration area and take the people to the base. The unit had been sent off at 2 p.m. July 30.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 372–73. Time: 0:15, July 31.'
+    tags: [polity:drv]
+    time_zone: Asia/Ho_Chi_Minh

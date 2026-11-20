@@ -1386,6 +1386,15 @@ entries:
       - 1964-02-05T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-02-05.vietnam-hanoi
+    when: Feb. 5
+    date: '1964-02-05'
+    place: thanh-phu
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Bến Tre. Saigon''s operation Sóng Thần 5 on the Thạnh Phú coast, its largest since the marines'' sweep of March 1960, ends Feb. 5 after 17 days against Region 8''s Battalion 263, a Bến Tre company, a Thạnh Phú platoon and the trainees of the schools: 1,240 of the Saigon side out of action, many aircraft shot down, by the history''s count.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 346–47. Check: the start, 17 days before, about Jan. 19; the figures as the history gives them.'
+    tags: [polity:drv]
   - id: cal.1964-02-06.cuba
     when: Feb. 6
     date: '1964-02-06'
@@ -1478,11 +1487,17 @@ entries:
     date: '1964-02-06'
     thread: vietnam
     c: Before dawn, nearly a thousand guerrillas drive the militia out of Ben Cau and make the villagers dig firing positions while they wait for the government's forces.
-    n: '[[w.futrell-united-states-air-force]], 199.'
+    n: '[[w.futrell-united-states-air-force]], 199; [[w.lich-su-khang-chien-chong-my]], III, 345 (Regiment 1, Q761, with a sapper company and a company of 12.7-mm machine guns, against the Bến Cầu post).'
     src:
       c: de52f2c6
       rows:
         - 'w.futrell-united-states-air-force 199: all'
+        - 'w.lich-su-khang-chien-chong-my III, 345: A'
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: 'the post attacked by Regiment 1: hundreds of the Saigon side out of action, 20 aircraft shot down'
+        at: III, 345
   - id: cal.1964-02-06.press-and-broadcasting
     when: Feb. 6
     date: '1964-02-06'
@@ -2201,11 +2216,17 @@ entries:
     place: saigon
     thread: vietnam-operations
     c: 'Saigon. The bleachers at Pershing Field bombed: two Americans killed, 25 wounded.'
-    n: '[[w.macv-command-history-1964]], 189.'
+    n: '[[w.macv-command-history-1964]], 189; [[w.lich-su-khang-chien-chong-my]], III, 352 (Commando Team 67, on the Tân Sơn Nhứt ball field, at the corner of Ngô Đình Khôi and Võ Tánh streets).'
     src:
       c: be42b196
       rows:
         - 'w.macv-command-history-1964 189: all'
+        - 'w.lich-su-khang-chien-chong-my III, 352: A, B'
+    variants:
+      - unit: B
+        witness: w.lich-su-khang-chien-chong-my
+        reads: 59 American officers killed, among them field-grade officers
+        at: III, 352
   - id: cal.1964-02-09.desegregation-schools
     when: Feb. 9
     date: '1964-02-09'
@@ -2781,11 +2802,17 @@ entries:
     place: saigon
     thread: vietnam-operations
     c: 'Saigon. The Capitol Kinh Đô theater bombed: three Americans killed, 50 wounded.'
-    n: '[[w.macv-command-history-1964]], 189.'
+    n: '[[w.macv-command-history-1964]], 189; [[w.lich-su-khang-chien-chong-my]], III, 352 (Commando Team 159, of Saigon–Gia Định, mines the Kinh Đô cinema, kept for American officers).'
     src:
       c: cce17a2e
       rows:
         - 'w.macv-command-history-1964 189: all'
+        - 'w.lich-su-khang-chien-chong-my III, 352: A, B'
+    variants:
+      - unit: B
+        witness: w.lich-su-khang-chien-chong-my
+        reads: printed "16-12-1964", in a run of the acts of Jan. 9, Feb. 9 and Apr. 30, 1964 (a misprint for Feb. 16, 1964?); 150 killed and wounded
+        at: III, 352
   - id: cal.1964-02-11.legislatures
     when: Feb. 11
     date: '1964-02-11'
@@ -7938,3 +7965,12 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1796: all'
         - 'w.mao-zedong-zhuan VI, ch. 72: ?'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1964-02.vietnam-hanoi
+    when: Feb.
+    date: 1964-02
+    place: thu-dau-mot
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Thủ Dầu Một. Regiment 2 ambushes and destroys a Saigon company at Bình Mỹ, in February.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 345. Check: the day.'
+    tags: [polity:drv]

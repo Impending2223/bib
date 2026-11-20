@@ -116,6 +116,15 @@ entries:
       - 1961-01-01T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-01-01.vietnam-hanoi
+    when: Jan. 1
+    date: '1961-01-01'
+    place: trang-bang
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: Tây Ninh. Ten thousand women of the communes march to the district seat of Trảng Bàng, Jan. 1, soldiers' families of the Saigon army among them.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 139.'
+    tags: [polity:drv]
   - id: cal.1961-01-02.laos
     when: Jan. 2–3
     date: '1961-01-02'
@@ -2296,6 +2305,14 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 642: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-01-09.vietnam-hanoi
+    when: Jan. 9
+    date: '1961-01-09'
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: The Liberation Youth Association and the Liberation Union of Pupils and Students of South Vietnam founded, Jan. 9.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 143. Check: the place.'
+    tags: [polity:drv]
   - id: cal.1961-01-10.legislatures
     when: Jan. 10
     date: '1961-01-10'
@@ -3676,6 +3693,15 @@ entries:
         - 'via w.yang-jisheng-mubei I, 536 n.13: all'
         - 'via w.yang-jisheng-mubei I, 536 n.14: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-01-17.vietnam-hanoi
+    when: Jan. 17
+    date: '1961-01-17'
+    place: saigon
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: Saigon. Thousands of teachers and pupils of the big schools demonstrate, Jan. 17, for lower fees at the private schools and better pay for teachers.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 143.'
+    tags: [polity:drv]
   - id: cal.1961-01-18.economy
     when: Jan. 18
     date: '1961-01-18'
@@ -4404,6 +4430,15 @@ entries:
         - 'w.yang-jisheng-mubei I, 385: all'
         - 'via w.yang-jisheng-mubei I, 385 n.t1: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-01-20.vietnam-hanoi
+    when: Jan. 20
+    date: '1961-01-20'
+    place: ben-tre
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bến Tre. Company 261 with Mỏ Cày district's local troops beats a sweep, Jan. 20.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 138.'
+    tags: [polity:drv]
   - id: cal.1961-01-21.governors-ct
     when: Jan. 21
     date: '1961-01-21'
@@ -5041,19 +5076,25 @@ entries:
     place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo''s instruction on the direction and tasks of the revolution in the South, after its first session: no sudden "explosion" from "relative calmness"; war likely needed in time, the forces there to be built and readied for a protracted fight; political struggle still central, no military adventures.'
-    n: '[[w.asselin-hanois-road-to-the]], 92–93; [[w.van-kien-dang-toan]], XXII, 149–69 (the Politburo''s instruction: the revolution on the road to a general uprising, the peaceful road "almost" gone, the general offensive and uprising to come, 157; a protracted struggle, 162; against impatience and adventurism, 169; not the "explosion" or the "relative calmness"). Made public: 2002. To check: the Reunification Committee''s draft presentation on the South, undated [1962], Hồ sơ 252, Vietnam National Archives Center 3 (cited by [[w.asselin-hanois-road-to-the]], 93 n.3). Check: the instruction (XXII, 157–58) raises armed struggle "song song" (parallel) with political: military struggle the chief form in the mountains, the two equal in the lowlands, political chief in the cities.'
+    n: '[[w.asselin-hanois-road-to-the]], 92–93; [[w.van-kien-dang-toan]], XXII, 149–69 (the Politburo''s instruction: the revolution on the road to a general uprising, the peaceful road "almost" gone, the general offensive and uprising to come, 157; a protracted struggle, 162; against impatience and adventurism, 169; not the "explosion" or the "relative calmness"); [[w.lich-su-khang-chien-chong-my]], III, 32–34 (the Politburo''s session on the South, Jan. 24, through the instruction, *Văn kiện Đảng toàn tập*, XXII, 152–59). Made public: 2002. Check: the history (III, 34) calls the decision the Politburo''s resolution of Jan. 31, 1961; see [[cal.1961-02-25.vietnam]]. To check: the Reunification Committee''s draft presentation on the South, undated [1962], Hồ sơ 252, Vietnam National Archives Center 3 (cited by [[w.asselin-hanois-road-to-the]], 93 n.3). Check: the instruction (XXII, 157–58) raises armed struggle "song song" (parallel) with political: military struggle the chief form in the mountains, the two equal in the lowlands, political chief in the cities.'
     src:
       c: 85f39641
       rows:
         - 'w.asselin-hanois-road-to-the 92–93: all'
         - 'w.van-kien-dang-toan XXII, 149–69: ?'
         - 'via x.undated.du-thao-de-cuong-tinh-hinh-mien-nam-1962: B'
+        - 'w.lich-su-khang-chien-chong-my III, 32–34: A, B'
     time_range:
       - 1961-01-24T02:00Z
       - 1961-01-24T10:00Z
     time_band: workday daytime
     time_zone: Asia/Bangkok
     range_basis: kind
+    variants:
+      - unit: C
+        witness: w.lich-su-khang-chien-chong-my
+        reads: armed struggle raised to stand beside the political ("song song"); by zone, the military chief in the mountains, the two about equal in the plains, the political in the cities
+        at: III, 33
   - id: cal.1961-01-24.transition-and-staff-2
     when: Jan. 24
     date: '1961-01-24'
@@ -7750,3 +7791,53 @@ entries:
         - 'w.dikotter-maos-great-famine 206: all'
         - 'via w.dikotter-maos-great-famine 206 n.40a: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-01.vietnam-hanoi
+    when: Jan.
+    date: 1961-01
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: 'The General Military Commission''s directive setting up the South Vietnam Liberation Army, "a part of the Vietnam People''s Army": main forces, local troops, militia and guerrillas, the concentrated units first.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 36–37 (the directive, from the Institute of Military History''s archive). Made public: 2013.'
+    tags: [polity:drv, vis:only:drv]
+  - id: cal.1961-01.vietnam-hanoi-2
+    when: Jan.
+    date: 1961-01
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: The Central Committee decides to set up the Central Office for South Vietnam (COSVN), a part of the Central Committee, the Politburo directing it for the Committee, to lead all the Party's work in the South. Nguyễn Văn Linh, the Nam Bộ secretary, its secretary; Trần Lương (Trần Nam Trung), Phan Văn Đáng, Nguyễn Văn Xô, Võ Chí Công, Võ Văn Kiệt, Phạm Thái Bường and Trần Văn Quang members.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 37–38. Made public: 2013. See [[cal.1961-01-24.vietnam-hanoi]]. Names: Nguyễn Văn Linh, Trần Lương, Phan Văn Đáng, Nguyễn Văn Xô, Võ Chí Công, Võ Văn Kiệt, Phạm Thái Bường, Trần Văn Quang.'
+    tags: [polity:drv, vis:only:drv]
+  - id: cal.1961.vietnam-hanoi
+    when: 1961, late
+    date: '1961'
+    at: before 1961-09
+    place: hanoi
+    thread: vietnam-hanoi
+    c: 'The congress of heroes and emulation fighters, at the year''s end: Hồ Chí Minh''s verse on the workers, the cooperatives and the soldiers.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 89. Names: Hồ Chí Minh. Check: the day and the place; the history gives only the year''s end.'
+    tags: [polity:drv, name:ho-chi-minh]
+  - id: cal.1961.vietnam-hanoi-2
+    when: 1961, late
+    date: '1961'
+    at: before 1961-09
+    thread: vietnam-hanoi
+    c: The Party's Center and the Government launch the "build good cooperatives" campaign, at the end of 1961; the Đại Phong cooperative of Quảng Bình held up as the model.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 80–83. Check: the day.'
+    tags: [polity:drv]
+  - id: cal.1961.vietnam-hanoi-3
+    when: 1961, late
+    date: '1961'
+    at: before 1961-09
+    thread: vietnam-hanoi
+    c: Region 9's military-political school is founded at the end of 1961.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 48. Made public: 2013. Check: the day and the place.'
+    tags: [polity:drv, vis:only:drv]
+  - id: cal.1961-01-31.vietnam-hanoi
+    when: Jan. 31
+    date: '1961-01-31'
+    place: giong-trom
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: Bến Tre. Over 10,000 people of every commune of Giồng Trôm district march with flags to the district town, Jan. 31, demanding an end to bombing and shelling and killing; "Down with Ngô Đình Diệm!"
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 139. Names: Ngô Đình Diệm.'
+    tags: [polity:drv, name:ngo-dinh-diem]

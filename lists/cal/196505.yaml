@@ -2233,7 +2233,7 @@ entries:
     place: song-be
     thread: vietnam-operations
     c: 'Sông Bé, capital of Phước Long Province. Some four Viet Cong battalions break into the town, a suicide squad into the American advisers'' compound; the defenders hold. A Ranger and an infantry battalion sent the next day; the enemy withdraws under air attack. Losses: 63 killed, five of them American, 109 wounded, 83 missing; the Viet Cong 297 killed.'
-    n: '[[w.macv-command-history-1965]], 220–21, 479 (the day); [[w.westmoreland-soldier-reports]], 136 (early May; a Viet Cong regiment, the first to attack as one since Bình Giã; the town saved by air support and a fresh ARVN regiment flown in); [[w.bernstein-guns-or-butter]], 347 (the Viet Cong overrun Sông Bé, in May); [[w.drea-mcnamara-clifford-and-the-2011]], 33 (the general offensive opened May 11). To check: COMUSMACV MILREP, 170430Z May 65 (cited by [[w.macv-command-history-1965]], 221 n.256).'
+    n: '[[w.macv-command-history-1965]], 220–21, 479 (the day); [[w.westmoreland-soldier-reports]], 136 (early May; a Viet Cong regiment, the first to attack as one since Bình Giã; the town saved by air support and a fresh ARVN regiment flown in); [[w.bernstein-guns-or-butter]], 347 (the Viet Cong overrun Sông Bé, in May); [[w.drea-mcnamara-clifford-and-the-2011]], 33 (the general offensive opened May 11); [[w.lich-su-khang-chien-chong-my]], III, 417–19 (the Đồng Xoài campaign''s first phase, Lê Trọng Tấn commanding, Trần Độ political commissar, Hoàng Cầm deputy: the night of May 10–11 the First Battalion of the First Regiment (Q761) and Battalion 840 against the town, the Second Regiment toward Phước Bình). To check: COMUSMACV MILREP, 170430Z May 65 (cited by [[w.macv-command-history-1965]], 221 n.256).'
     src:
       c: dd204089
       rows:
@@ -2243,6 +2243,7 @@ entries:
         - 'w.westmoreland-soldier-reports 136: A'
         - 'w.bernstein-guns-or-butter 347: A-B'
         - 'w.drea-mcnamara-clifford-and-the-2011 33: A'
+        - 'w.lich-su-khang-chien-chong-my III, 417–19: A, B'
     tags: [province:phuoc-long]
   - id: cal.1965-05-11.vietnam
     when: May 11
@@ -3517,6 +3518,15 @@ entries:
       - 1965-05-15T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-15.vietnam-hanoi
+    when: May 15
+    date: '1965-05-15'
+    place: route-20
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Eastern Nam Bộ. May 15 Regiment 4 ambushes on Route 20 and destroys two Civil Guard companies and 20 military vehicles.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 419.'
+    tags: [polity:drv]
   - id: cal.1965-05-16.opinion
     when: May 16
     date: '1965-05-16'
@@ -3956,6 +3966,15 @@ entries:
         - 'w.yang-shangkun-riji II, 605: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-17.vietnam-hanoi
+    when: May 17
+    date: '1965-05-17'
+    place: phu-long-bt
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bình Thuận. May 17 Region 6's troops, dressed as civilians in two three-wheeled taxis, open fire by surprise on the guards of a bridge and take the Saigon office at Phú Long. The Phan Thiết subsector sends Civil Guard Companies 441 and 887 with five M113s; seven times they cross the river and are thrown back.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 434–35.'
+    tags: [polity:drv]
   - id: cal.1965-05-18.jobs-and-wages
     when: May 18
     date: '1965-05-18'
@@ -4840,6 +4859,15 @@ entries:
       - 1965-05-22T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-22.vietnam-hanoi-2
+    when: May 22
+    date: '1965-05-22'
+    place: phu-long-bt
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bình Thuận. May 22 Saigon sends a marine battalion and a Ranger battalion to counterattack at Phú Long; after four hours Region 6's troops break their assaults, 150 killed or wounded, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 435.'
+    tags: [polity:drv]
   - id: cal.1965-05-23.opinion
     when: May 23
     date: '1965-05-23'
@@ -5432,6 +5460,20 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1863: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-05-25.vietnam-hanoi
+    when: May 25
+    date: '1965-05-25'
+    place: dak-lak
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Central Highlands. The night of May 25 the Region's forces destroy the Ama Hrok strongpoint but not the relief marching on Route 7.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 431. Check: the place not given; Route 7 and Ea Nu point to Đắk Lắk or Phú Bổn.'
+    tags: [polity:drv]
+    time_range:
+      - 1965-05-25T14:00Z
+      - 1965-05-25T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1965-05-26.latin-america
     when: May 26
     date: '1965-05-26'
@@ -5966,7 +6008,7 @@ entries:
     place: ba-gia
     thread: vietnam-operations
     c: 'Ba Gia, west of Quảng Ngãi city. A Viet Cong force, probably a regiment, attacks a South Vietnamese company clearing a road and ambushes the two companies sent after it; May 30, three more battalions committed and beaten. South Vietnamese losses: 107 killed, 123 wounded, 367 missing, 384 weapons.'
-    n: '[FRUS 1964–68, II, doc. 322](https://history.state.gov/historicaldocuments/frus1964-68v02/d322) (Taylor to Johnson, June 1). [[w.def-u-s-viet-rels-iv-c-5]], 33, 82; [[w.carland-united-states-army-in]], 45; [[w.vietnam-victory-in-vietnam]], 144–45, 461–62 nn.31–32 (the campaign; the relief task force of May 30 destroyed); [[w.schlight-united-states-air-force]], 46 (the battle, May 29–30); [[w.westmoreland-soldier-reports]], 136 (later in May; a Viet Cong regiment virtually destroys an ARVN battalion in an ambush and mauls a second); [[w.bernstein-guns-or-butter]], 347 (two South Vietnamese battalions destroyed near Quảng Ngãi); [[w.drea-mcnamara-clifford-and-the-2011]], 33 (the battle, May 29 to June 4). [[w.macv-command-history-1965]], 221–22 (the ambushes of May 29–30; the losses). To check: COMUSMACV MILREP, 070742Z Jun 65 (cited by [[w.macv-command-history-1965]], 222 n.257). Check: *Victory in Vietnam* opens the campaign the evening of May 25 at a Popular Forces post, a battalion of the 51st Regiment destroyed coming to its relief; the relief task force of May 30 destroyed on the road to Ba Gia; the campaign 51 days, 2,054 of the enemy put out of action (144–45, 462 n.32). Check: Schlight, 46, has a platoon caught on the road May 29 and the rest of its battalion destroyed coming to its relief; the three battalions sent May 30 hold Ba Gia, the enemy breaking off June 4.'
+    n: '[FRUS 1964–68, II, doc. 322](https://history.state.gov/historicaldocuments/frus1964-68v02/d322) (Taylor to Johnson, June 1). [[w.def-u-s-viet-rels-iv-c-5]], 33, 82; [[w.carland-united-states-army-in]], 45; [[w.vietnam-victory-in-vietnam]], 144–45, 461–62 nn.31–32 (the campaign; the relief task force of May 30 destroyed); [[w.schlight-united-states-air-force]], 46 (the battle, May 29–30); [[w.westmoreland-soldier-reports]], 136 (later in May; a Viet Cong regiment virtually destroys an ARVN battalion in an ambush and mauls a second); [[w.bernstein-guns-or-butter]], 347 (two South Vietnamese battalions destroyed near Quảng Ngãi); [[w.drea-mcnamara-clifford-and-the-2011]], 33 (the battle, May 29 to June 4); [[w.lich-su-khang-chien-chong-my]], III, 423–27 (Region 5''s Ba Gia campaign, Chu Huy Mân commanding, from the night of May 28; a Saigon First Battalion destroyed May 29 at Phước Lộc; May 30 the Third Marine Battalion mostly destroyed, the Second of the 51st mauled). [[w.macv-command-history-1965]], 221–22 (the ambushes of May 29–30; the losses). To check: COMUSMACV MILREP, 070742Z Jun 65 (cited by [[w.macv-command-history-1965]], 222 n.257). Check: *Victory in Vietnam* opens the campaign the evening of May 25 at a Popular Forces post, a battalion of the 51st Regiment destroyed coming to its relief; the relief task force of May 30 destroyed on the road to Ba Gia; the campaign 51 days, 2,054 of the enemy put out of action (144–45, 462 n.32). Check: Schlight, 46, has a platoon caught on the road May 29 and the rest of its battalion destroyed coming to its relief; the three battalions sent May 30 hold Ba Gia, the enemy breaking off June 4.'
     src:
       c: 7a244ffa
       rows:
@@ -5980,6 +6022,7 @@ entries:
         - 'w.westmoreland-soldier-reports 136: A'
         - 'w.bernstein-guns-or-butter 347: A-C'
         - 'w.drea-mcnamara-clifford-and-the-2011 33: A'
+        - 'w.lich-su-khang-chien-chong-my III, 423–27: A, B, C'
     tags: [province:quang-ngai]
     short: Ba Gia
   - id: cal.1965-05-29.desegregation-schools
@@ -6695,3 +6738,17 @@ entries:
       rows:
         - 'w.mao-zedong-zhuan VI, ch. 74: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-05-31.vietnam-hanoi
+    when: May 31–June 1
+    date: '1965-05-31'
+    place: gia-lai
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Gia Lai. The night of May 31 Battalion 952 (Battalions 407 and 545) destroys the Lệ Thanh district seat to draw Saigon troops out on Route 19 west, where Regiment 320 ambushes and puts out of action Civil Guard Battalion 320 (300 men) and an Interior Ministry inspection team and takes the deputy province chief of Pleiku June 1, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 432.'
+    tags: [polity:drv]
+    time_range:
+      - 1965-05-31T14:00Z
+      - 1965-05-31T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh

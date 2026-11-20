@@ -172,3 +172,170 @@ Huỳnh Tấn Phát, Trịnh Đình Thảo, Trần Nam Trung, Cao Văn Bổn (th
 - Time of day: the "night of Feb. 22–23" is a band on the day Feb. 22; the "night of May 10–11" the predawn band of May 11 (the entry's day); the entries "at dawn" (Ka Te opening Oct. 29) the early-morning band.
 - Date '1970-01' of the 18th plenum: in the calendar's span only if the plenum met by Jan. 19; the history gives the month.
 - The predecessor's 25 adds were read against the pages they cite for the places and numbers this run's reading touched (pp. 83–96, 103–5, 115, 131–39, 149–52, 167–69, 173, 176, 191–92, 223–24, 239–40); pp. 241–46 (Campaign 139), 197 and 36–37 were taken from its reading.
+
+## Audit of reader 4, Nov. 19
+
+Opus audit, Nov. 19–20, 2026 (after 5 p.m. Pacific), of `inbox/2026-11-14-b16-lskc-1.yaml` (patch name kept, the ledger's claims stand under it). The three volumes fetched by the brief's curl form into a scratch folder, converted with `tools/vn/vkd2txt.py`, read by the book's folios (the offsets above confirmed: vol. III − 1 to PDF 137, − 17 after the plates), deleted at the end. Fixed in the patch directly; not merged, not committed. `./bib patch-check` (run in a scratch copy without the other pending inbox files, one of which, `inbox/witnesses/2026-11-19-b15c-dikotter-2.yaml`, carries two errors of its own): 0 errors, 192 warnings (the "one event?" and "a duplicate of" flags, verdicts below); `./bib fields --patch`: 0 findings.
+
+The patch now: 295 adds (309 − 14), 80 cites, 33 variants, 97 place-keys, 3 checks, 4 also.
+
+### Samples and fault rates
+
+- Adds: every 6th of the 309 (indices 0, 6 … 306: 52 entries, 7 of them the predecessor's), each against its page; and every add against the same-day entries of all threads and the Party documents (`vietnam-hanoi`), with a place-and-month search of the `vietnam*` and `laos` threads. In the sample: date 0/52; actor, unit or act 1/52 (Mỹ Tho put in Gia Định); figures 4/52 (a helicopter type supplied from outside the page, two figures the page gives left out, a count given to "the Region"); place 4/52 (a departure place with no key, an order placed in one of its six provinces, the province wrong, a town for a district); time 3/52 (a night band inferred for an order, an hour left out, "24 giờ" read as the day's start); visibility 1/52 (an act with the Chinese as `vis:only:drv`); duplicates 2/52; pinpoint 1/52; loose dates 0/52 (all "early, mid, late" in `when`, which `merge` turns into `at:`; "Check: the day" on plain months is R15's form and stands).
+- The history's losses not said to be its count: 41 of the 45 adds with loss figures (91%): marked "by the history's count" in each.
+- Duplicates, all adds: 14 of 309 (4.5%), turned to cites and variants or dropped (below).
+- Place keys: all 98 against the gazetteer's rules (G1–G3): 9 faults: two duplicates of existing keys under another spelling (`quy-nhon` for `qui-nhon`, `thanh-hoa-city` for `thanh-hoa`), four places of Nghệ An given the South's zone and `rvn` (`quy-chau`, `dien-hung`, `nam-can`, `hoang-mai`), three names (`Cái Be`, and "cầu Ông Hàn", "cầu Thị Qua" for the gazetteer's "… bridge"). Zones otherwise right by G3 (`Asia/Ho_Chi_Minh` the RVN, `Asia/Bangkok` the DRV); `viet-an` and `cha-la` are in reader 5's patch too, the same rows (the merge takes a same row twice without harm).
+- Cites, all 70: units wrong on 28 (40%): 26 named only a place fragment the unit splitter leaves ("Pleiku.", "Saigon.", "Gulf of Tonkin.", "Paratroops under Col.") and not the unit the history bears out; one `all` where III, 46 bears out A only; one mis-targeted (the Xá Lợi crowd of June 16, 1963, cited on the joint communiqué). Items and pages sound where read.
+- Variants, all 28: 3 not disagreements (the Palace bombing's details; Đồng Xoài's town left May 12; the June 16 crowd), dropped; 10 on the wrong unit (the place fragment, or the unit before the one disputed), moved. The other 18 are real disagreements with the American or the Party record (dates: Sầm Nưa, Phạm Văn Đồng's tour, the seventh plenum, Polei Krong, Qui Nhơn; losses and claims: Tua Hai, Phước Vĩnh, Ấp Bắc, Pierce Arrow, Biên Hòa, the Brink, Bình Giã, Pleiku, the ball field, Nam Đông, the MiGs of Apr. 3, the embassy; acts: Vũng Rô scuttled, not sunk; the Maddox).
+- R5 coverage (a day-date sweep of II, 311–89 and III, 7–440): 305 distinct day-dates of 1960–65 in the text; 210 held by the patch's adds, cites or variants; of the rest, 60 not inside any entry's span; of those 16 are dated events neither entered nor in "Passed over" (list below), with three more found by reading.
+
+### What was changed
+
+- Duplicates (adds dropped; their ledger claims to be dropped by the merger, `./bib ledger drop 2026-11-14-b16-lskc-1 ID`): cal.1964-10-11.vietnam-hanoi (the Central Military Party Committee's order of Oct. 11, already cal.1964-10-11.vietnam: a cite, III, 375); cal.1961-08.vietnam-hanoi-3 (Phạm Văn Đồng's tour, already the patch's variant on cal.1961-06.vietnam-hanoi-3); cal.1961-09.vietnam-hanoi-3 (the 1961–63 plan, already cal.1961-09.vietnam and the patch's cite there; its tally folded into the cite, units A); cal.1964.vietnam-hanoi-4 (the Left and Right Bank regions into Military Region 3, the Politburo's merger of cal.1964-01-09.vietnam-hanoi: a cite, unit B; the add's "31" was "3" with a note number); cal.1962-11-20.vietnam-hanoi (War Zone D, cal.1962-11-20.vietnam: a cite); cal.1963-09-09.vietnam-hanoi (Cái Nước and Đầm Dơi, cal.1963-09-10.vietnam-operations: a cite and a variant, the night of Sept. 9–10, 327 out of action); cal.1963-11-23.vietnam-hanoi (Chà Là, cal.1963-11-24.vietnam-operations: cite and variant); cal.1963-12-31.vietnam-hanoi (the Ranger battalion near Bến Cát, cal.1963-12-31.vietnam-operations: cite and variant); cal.1964-02-06.vietnam-hanoi (Bến Cầu, cal.1964-02-06.vietnam-operations: cite and variant); cal.1964-07-01.vietnam-hanoi (Polei Krong, already the patch's cite and variant on cal.1964-07-04.vietnam-operations); cal.1964-08-04.vietnam-hanoi (the history's denial of the second Tonkin attack: a cite, units B–C, and a variant, unit A, on cal.1964-08-04.vietnam); cal.1964-12-16.vietnam-hanoi (the Kinh Đô cinema is the Capitol Kinh Đô theater of cal.1964-02-11.vietnam-operations; the history prints "16-12-1964" between its acts of Feb. 9 and Apr. 30, 1964: cite and variant); cal.1965-06-30.vietnam-hanoi-3 (the Đà Nẵng airfield, cal.1965-07-01.vietnam-operations: cite and variant, 57 aircraft); cal.1964-05.vietnam-hanoi-3 (the May 1964 offensive on the Plain of Jars, cal.1964-05-17.laos: cite, variant with the Vietnamese part and the figures the add had left out, also `vietnam-hanoi`).
+- Cites and variants: units set on 27 cites and one; 10 variants moved to the unit they dispute; the cite and variant on cal.1963-06-16.vietnam (the crowd at Xá Lợi, a separate event) and the variants on cal.1962-02-27.vietnam and cal.1965-05-11.vietnam-operations (no disagreement) removed.
+- Place keys: the two duplicate keys dropped and their entries moved to `qui-nhon` and `thanh-hoa`; the four Nghệ An keys to `Asia/Bangkok`, `drv`; `cai-be` "Cái Bè"; `ong-han`, `thi-qua` "Ông Hàn bridge", "Thị Qua bridge"; `xuan-mai` (Xuân Mai, `drv`) added, the place of the first cadre group's departure (cal.1961-05-05.vietnam-hanoi); cal.1961-09.vietnam-hanoi-2 `ok:fields-place`.
+- Facts: cal.1961-06-19.vietnam-hanoi (the Củng Sơn raid did not free Nguyễn Hữu Thọ: he had been moved to Tuy Hòa, III, 142); cal.1963-11-03.vietnam-hanoi (Mỹ Tho, not Gia Định: III, 282); cal.1963-12-29.vietnam-hanoi (the US Core charge did not fire, III, 353); cal.1962-12-08.vietnam-hanoi-2 ("H-21" was not the page's: "H47" as printed); cal.1965-05-31.vietnam-hanoi (put out of action, not destroyed; place `gia-lai`, not the town).
+- Figures and attribution: "by the history's count" on 39 adds (with cal.1965-07-22 and cal.1965-01-03.vietnam-hanoi, where "the Region's count" was the history's "ta"); the figures the page gives added on cal.1960-09-20, cal.1964-01-09.vietnam-hanoi-2, cal.1964-08-25, cal.1964-05-10 (whose Check wrongly said the count was cut off); cal.1965-07-22.vietnam-hanoi pinpoint 416–36 narrowed to 436 and 417–19.
+- Fields: cal.1960-09-14.vietnam-hanoi (an order: the inferred night band, the place and "Check: the day" removed); cal.1964-08-25.vietnam-hanoi ("at 11 sharp", morning or night not said: no field, `ok:fields-time`, a Check); cal.1964-04-04.vietnam-hanoi-2 ("24 giờ ngày 4-4" read as the midnight ending Apr. 4, with a Check).
+- Visibility: cal.1962.vietnam-hanoi-2 `vis:only:drv+prc`; cal.1961-02-15.vietnam-hanoi "Made public: 2013." added to its `vis:only:drv`; cal.1962-07.vietnam-hanoi (Military Region 4's Party congress) `vis:only:drv`, "Made public: 2013.", as the patch's other Party congresses; cal.1961-10-30.vietnam-hanoi-2 `vis:only:drv` removed (Saigon hunted for Thọ at once, III, 161).
+- Checks added or reworded: cal.1965-08-05.vietnam-hanoi-3 (Cooper's memorandum of Aug. 5 speaks of "the night's attack": Aug. 4–5?); cal.1962-06.vietnam-hanoi-3 (the calendar has the NLF delegation in Peking Sept. 28–30); cal.1961-07.vietnam-hanoi-4 and cal.1962-02-09.vietnam-hanoi (III, 47: two ceremonies, Feb. 9, 1961 and Feb. 9, 1962, no misprint shown). Prose: three slips mended.
+
+### Rulings
+
+- "Made public: 2013" stands, provisionally. The publisher's note (I, 5–6) says the first edition (Chính trị quốc gia, 1995–2012) was distributed "chủ yếu" (mainly) within the army in limited numbers; the second, 2013, "rộng rãi" (widely). That is not the internal-circulation mark R27 names, and the series lists two first-edition volumes as published works (`w.al-lich-su-khang-chien`, vol. 5, 2001; `w.lich-su-khang-chien`, vol. 6, 2003). Whether a printing "mainly in the army" is publication is the owner's ruling under R27; if it is, the year becomes the first edition of vol. II or III (not established: a lead). The card's note "circulated in the army only" overstates the publisher's "mainly": for the lead (the card is not this audit's to edit).
+- The misprints: III, 47 is no misprint shown (two ceremonies a year apart; the 1961 one is a dated event for the next run); III, 248 (the night of Apr. 28 against a morning of Apr. 24) stands as a Check; III, 186 ("17-2-1961") stands as entered; III, 249 ("nửa cuối năm 1968" for 1963) is a loosely dated event of Region 5, the second half of 1963, for the next run. The Hòn Mê raid (cite on cal.1964-07-30.vietnam-34a-2) and the Maddox of Aug. 2 (cite and variant) are right; Aug. 4 is now a variant, not an entry.
+- cal.1962-06.vietnam-hanoi-3, the NLF delegation's tour of June–November 1962 (one entry, six countries by month): over the week's limit (the owner, Oct. 20); left as R15's trip, for the owner or a split in the next run.
+- The General Staff's and the Defense Ministry's acts placed at Hanoi (P4 names the Politburo and the Assembly only): kept.
+- One event? The 12 groups inside the patch (Jan. 28, Sept. 14, Sept. 23, 1960; Oct. 30, 1961; Sept. 9, Nov. 23, Dec. 31, 1963; Apr. 8, Dec. 8, Dec. 30, 1964; June 30, 1965): each a separate act, distinct places or units: keep. The 88 remaining "a duplicate of" flags against existing entries (mostly the Secretariat's circulars and *Học Tập* of the same day or month): all distinct: keep. The merger resolves them `--take keep`.
+
+### Not entered and not in "Passed over" (found by the audit's day-date sweep; for the next run, R44)
+
+Dated events of the volumes' own text with no entry, cite or Passed-over row (each looked at on its page): II, 335 (Feb. 24, 1960, Unit 514's ambush at Cây Me, Route 4); II, 341 (May 6, 1960, four Saigon battalions sweep Cần Thơ); II, 347 (the evening of Mar. 30, 1960, Company 40's attack; Apr. 6); II, 351 (June 12, 1960, Kon Sâm kills a Saigon major at Kon Kô); II, 373 (July 17, 1960, the reconnaissance before Bắc Ruộng: the preparation of an act, R18); II, 381 (the night of Dec. 22, 1960, the rising at Hòa Thịnh, Phú Yên); III, 47 (Feb. 9, 1961, Q761's battalions' ceremony at Dương Minh Châu); III, 161 (Aug. 10, 1961, the sentence broken by the note); III, 165 (Jan. 9, 1962, the death of Ràng); III, 133 (June 12, 1962, the three Lao parties' agreement on a coalition: check the calendar's `laos`); III, 222 (10 p.m., Jan. 1, 1963, the Ấp Bắc command learns of the attack due Jan. 2: a preparation, R18; a cite on cal.1963-01-02.vietnam may do); III, 279 n.1 (Oct. 15, 1963, Hậu Nghĩa province set up); III, 345 (Apr. 3, 1964); III, 370, 378 (Nov. 18, 1964, the bombing at Cha Lo, western Quảng Bình, and Battery 3 of Battalion 14, 325th Division); III, 369 (Dec. 19, 1964, Thai troops into Laos by the history's account: check the calendar); III, 435 (July 20, 1965, Regiment 1 against a training center); the crowd at Xá Lợi, June 16, 1963 (III, 312, dispersed by the police: its own entry, not the communiqué's cite); the second half of 1963 in Region 5 (III, 249, printed 1968); III, 116 (early 1963, the reserve-force drive of Nghệ An, Hà Tĩnh and Quảng Bình; late 1963, Military Region 4's three lines of defense). The other day-dates the sweep found outside the entries are second days of entered spans, tallies, American acts the calendar holds, or rows already in Passed over. The sweep does not reach month- and year-dated sentences: the next run should make one for "tháng M-YYYY" and "năm YYYY" too.
+
+### Leads (R50)
+
+Foreign. The first edition of vols. II and III (Chính trị quốc gia, the years not given in the 2013 note): its year and its circulation, for "Made public" (R27); the card `w.lich-su-khang-chien-chong-my` and the two first-edition cards to be joined by the lead with that in hand.
+
+
+## Audit of reader 6, Nov. 19
+
+Auditor: Claude (Opus), Nov. 19, 2026, evening (after 5 p.m. Pacific). Patch `inbox/2026-11-14-b16-lskc-3.yaml`, fixed in place (patch name kept, so the ledger's claims stand). The original is kept in the auditor's scratch directory. Vol. VI fetched again by the brief's curl form (Drive `1zggkITSSkyz-9er0juH5iyNy1i41Uqj-`, 404 PDF pages, PDF 1.6). Its TCVN3 layer was converted with the predecessor's `pages.py` and `compact.py` (run from outside the copy's folder), and the book's folios read from each page; the PDF and texts were deleted when done. Every page cited by a sampled entry was read against the entry, and the notes under it. `./bib patch-check`: 0 errors, 108 warnings. The warnings are the same-day "one event?"/"a duplicate of?" prompts, all for distinct acts (below), and the edit's "sets only n". `./bib fields --patch`: 119 entries, 0 findings.
+
+### The sample
+
+40 adds, every third of the 120 in the patch's order (#0, #3, ... #117), 8 of them the predecessor's (Feb. 22, Apr. 27, May 8, June 12, July 29, Sept. 4–5, Oct. 25, Nov. 6). Also read against the pages: every thin American add (10), the reader's doubts, the 8 cites and 3 variants, all 32 place keys, and most other adds on the pages already open. In all, some 105 of the 120 were read. Faults in the sample of 40, by class:
+- date: 0;
+- force, unit or command: 0;
+- the act, words not the page's: 3 (Mar. 18; Aug. 11 Bình Thuận; Aug. Saigon);
+- the history's figures not marked as its own: 7 (Jan. 10, Feb. 22 Mỹ Tho, Apr., May Region 6, May 31, Nov. 11, Nhị Bình);
+- the loose date's wording or `at`: 4 (1969 summer, Sept. Laos, June recognitions, Feb. Highlands);
+- the place: 1 (May 11, Hớn Quản);
+- time fields: 0;
+- `name:` tags and "Names:": 3 (Jan. 25 Saigon; June 8 and Sept. 30, "the American President");
+- the note's sources not behind "To check:": 1 (Mar. 18);
+- duplicates: 0;
+- `vis:` and "Made public": 0.
+
+The predecessor's 8 in the sample: 1 fault (Oct. 25, Vang Pao untagged), and its Sept. 4–5 and Oct. 29 carried cites on the patch's own adds. Across the whole patch, the same classes were then corrected wherever they occurred (below).
+
+### Changes
+
+- **The history's figures**: "by the history's count" added in 25 adds (23 by the rule, Mar. 18 and Aug. Saigon in their rewriting) where reader 6's text gave enemy losses, sinkings or tonnages bare, as the run's own rule says.
+- **Duplicate**: `cal.1969-09.vietnam-hanoi` (the Politburo's directive for study of the testament, "after his death") is directive no. 173-CT/TW of Sept. 29 (`cal.1969-09-29.vietnam-hanoi`, from *Văn kiện*, XXX, 330–36). The add is dropped and replaced by a cite there, VI, 170, 193, unit A. Its ledger claim is left for the merger (`./bib ledger drop 2026-11-14-b16-lskc-3 cal.1969-09.vietnam-hanoi`).
+- **Ops on the patch's own adds** are folded into those adds' notes. These are three cites (May 11, Sept. 4–5, Oct. 29, as "The history adds ...") and one variant (Sept. 26, U Minh, VI, 264, now a sentence of the Check). The May 11 cite's hamlets and people freed are the spring and summer phases' together (VI, 127), not the summer's alone.
+- **Text**:
+  - Mar. 18: "the first bombing of Cambodia" is not the page's, and "Breakfast" was a gloss from memory. Now: the raid the Americans called, by the history, "hoạt động bữa ăn" (the meal operation), and the history's "start of the war's widening into Cambodia". The secret bombing goes in the Check, and Amter behind "To check:".
+  - June 27, *Life*: "in a week's fighting" and the Check's "one week's dead" were from memory (R4). `c` now gives 241 American soldiers killed, by the history at A Bia.
+  - Aug. 11, "Binh Thuận" → Bình Thuận. Its Check is dropped (the page names the Sông Mao base).
+  - Nov., late: Chợ Bưng, Châu Thành → Chợ Bung, Châu Thành Bắc, as printed.
+  - Feb.: Camp Ê-sê-pích → Camp Êsépic, as printed (VI, 105).
+  - Aug., Saigon strikes: the Thủ Đức strike of Feb. 1970 is taken out of `c` (outside the span, R18) and named in the Check.
+  - Nov. 3: Nixon's words as the history quotes them (VI, 28–29).
+  - Feb. 23: Region V's phase gets its opening day, with "to Mar. 31" in `c`. It was `when` Feb. 23–Mar. 31, a span of five weeks.
+  - Mid-Feb.: "the second quotation" is now the view it quotes.
+  - 1969, the Navy: its separation "bước sang năm 1970" is named in the Check as an act of its own.
+- **American adds**: June 8 and Sept. 30, "the American President" → Nixon (tag and "Names:"; the Check points to the inauguration entry). Sept. 30 gives the history's October 1970. Laird, Jan. 14, 1970: `place: california`, "See" the Guam entry, Nixon tagged.
+- **Loose dates**:
+  - 1969, the army's reorganization: "1969, mid" → "1969, summer" (p. 194, "từ mùa hè năm 1969"), at before 1969-06-21.
+  - Sept., Laos: → "Sept., late" (the order to withdraw), `ok:fields-at` dropped.
+  - June, the recognitions: → "June, after the PRG's formation", at after 1969-06-08.
+  - Feb., "spring phase" (two entries): → "Feb., after the 22nd", a wording merge reads.
+  - Ba Làng An: "1969" → "1969, first half" (the spring and summer phases' results).
+  - The three "Dec., winter" entries of the winter phase: a Check that the phase opened in late October (VI, 137).
+  - Tết letter: the Check gives Tết, Feb. 17, 1969 (tools/calendar).
+- **Places**:
+  - `hon-quan` dropped. The gazetteer's `an-loc` is the same place (VI, 136: "An Lộc (Hớn Quản)"), so May 11 and Aug. 12 take `an-loc`, with a `fix: true` row giving its name its marks, An Lộc.
+  - `ba-ria` dropped: the history's Bà Rịa is the Front's province, and the entry has no place, with a Check.
+  - `u-minh` → `u-minh-thuong` (the key from its name).
+  - `camp-e-se-pich` → `camp-esepic`, "Camp Êsépic".
+  - `binh-chanh-bridge` named "Bình Chánh bridge", as the gazetteer's Long Biên bridge is.
+  - `chuong-thien` named "Chương Thiện province".
+  - New `muong-soui`, Muong Soui, Asia/Vientiane, `in: laos`. June 23 and June 28 take it: the campaign was fought there, not on the Plain of Jars.
+- **Time**: June 23, Mường Sủi: the night band in Asia/Vientiane (UTC+7), not Saigon's zone (UTC+8). The range is now 15:00–17:00Z.
+- **Names**: tags and "Names:" added:
+  - Thiệu, Kỳ, Hương (Jan. 25 Saigon);
+  - Thiệu (July and mid-1969 Saigon);
+  - Lon Nol (Feb., Cambodia);
+  - Abrams, `name:abrams-creighton`, the calendar's key (mid-Feb.);
+  - Vang Pao (June 23, Oct. 25).
+
+  The reader's note that FRUS's list holds only Frank W. Abrams overlooked the calendar's own key.
+- **Tags**: `polity:cambodia` on the Cambodian entries; `polity:drv` on June 28; `ok:fields-place` on mid-Feb. (Washington named as a subject).
+- **"To check:"** lines added for the note's sources:
+  - Mar. 17 (*Chiến trường Trị–Thiên–Huế*, 172);
+  - 1969, the 1st Division (*Lịch sử QĐND Việt Nam*, II, 337);
+  - May 23 (Amter, 255; Pimlott, 130);
+  - Sept. 4 (the PRG's cable);
+  - June 28 (*Lịch sử QĐND Lào*, 6);
+  - mid-Feb. (Amter, 274, 175);
+  - Mar. 18 (Amter, 277).
+- **The patch-check error on `cal.1969-07.vietnam-hanoi`**: an `edit` (base `676e6363`), placed before the cite, gives *Văn kiện*'s pinpoint as "XXX, 365 (the print's page, by the editors' own reference to their note on a passage perhaps lost; the copy's appendix pages unnumbered, the note at its PDF 183)". The source is the 1968–69 audit's finding above, in `van-kien-dang-toan.md`. It is one page of the resolution, the only one known. The resolution's whole range in the print needs a printed copy.
+
+Counts now: 119 adds, 6 cites (Guam; Jan. 13; May 8; COSVN's July conference; Sept. 2; Sept. 29), 2 variants (May 8, Sept. 4), 1 edit, 32 `place-key` ops (30 of the reader's, `an-loc` fix, `muong-soui`). `bu-dop` is identical to `b16-lskc-2`'s row.
+
+### Rulings
+
+- **Thin American adds.** Each was searched in the calendar, all threads, on its day and by words (Nixon, withdraw, Vietnamization, Cambodia, Midway, Hamburger, *Life*). These are the withdrawals of June 8, July 7, Sept. 16 and Sept. 30, Nixon's May 14 address, Thiệu's July 11 message, Nixon's Nov. 3 statement, Laird's Jan. 14, 1970 speech, the Mar. 18 bombing and the pacification plan, with Kennedy of May 21 and *Life* of June 27. The calendar holds none of them, nor do the ledger's other claims. The 1969 Public Papers are not yet in, so each thin add stands, with its Check, and none became a cite. The Guam address is held (`cal.1969-07-25.vietnam`) and takes the cite.
+- **1970.** The calendar's span ends Jan. 19, 1970 (R1). Laird's speech of Jan. 14 is within it. The 18th plenum, "tháng 1-1970", stands as a month-dated entry with its Check: the history gives no day.
+- **Night bands.** Upheld. "The night of D–D+1" takes the band on the entry's own day: `night` (22–24) when the entry is dated D (Feb. 22–23, June 23–24, Sept. 4–5), `predawn` (0–6) when it is dated D+1 (May 11, the offensive's day by VI, 115, Đắk Tô 2 opening the night of May 10–11).
+- **"Dec., winter".** The history's "đợt đông 1969" is read by the season's rule (before the December solstice), with a Check on each such entry, since the phase opened in late October.
+- **Harriman or Lodge at the Jan. 25 plenary.** The history's note (VI, 102 n. 1) names Harriman. The calendar has Lodge named Jan. 5 (`cal.1969-01-05.vietnam`). The add's Check stands: the history's note is the one in doubt.
+- **Cambodia and the United States, Feb. 1969 (VI, 249).** This is the history's dating alone. It is kept, the Check now asking for the American and Cambodian records.
+- **The *Life* photographs.** The entry now says only what the page says (above).
+- **"31-4-1969" (VI, 113).** A date that does not exist; the Check stands.
+- **The pacification phases.** VI, 52 (Nov. 1968–June 1969, July 1969–June 1970, July 1970–Feb. 1971, Mar. 1971–Mar. 1972) and VI, 74 n. 1 (start of 1969–June 1970, July 1970–June 1971, from July 1971) differ. The entry gives both, with its Check, as written.
+- **Place keys.**
+  - `plei-can` and `plei-thong-breng`, with names "Plây Cần" and "Plây Thông Breng", are kept. The key takes the gazetteer's Plei spelling (`plei-me`, `plei-do-lim`) and the name the history's form, as reader 4's `plei-mrong` ("Plây Mơrông") does. A uniform rule is for the lead.
+  - `co-ca-va` ("Côcava" as printed) is kept in the reader's spacing.
+  - Every key's zone is right: Asia/Ho_Chi_Minh for the South, Asia/Vientiane for Laos.
+- **`vis:only:drv` and "Made public: 2013".** Upheld on the 15 entries, all records of Party, army or ministry decisions not published at the time. "Made public: 1985" on COSVN's directive no. 81 (*Những sự kiện lịch sử Đảng*, II, 1985) is upheld.
+
+### Duplicate flags
+
+All the same-day prompts of patch-check are distinct acts, so each is to be kept at the merge (`./bib resolve ID --take keep`):
+- the year-dated 1969 entries (the North's support, the 1st Division moved, the pipeline, Route 559's tonnage, the Navy, Group 559's roads, the army's reorganization, Ba Làng An, Mai Dinh, Nhị Bình, Rừng Sác, Hồ's Tết letter);
+- Feb. (Bầu Cối, the delta, Camp Êsépic, the Highlands);
+- Feb. 22 (the offensive and Mỹ Tho);
+- Mar. 17 (Atlas Wedge, Lam Sơn 271);
+- Apr. (the battles, against Region V's resolutions);
+- May (Hồ's letter to the class; Region 6);
+- May 8, 10, 11, 12, 17, 19, 24;
+- Aug. 11 and 12; Sept. 2, 4 and 8;
+- Nov. (Mỹ Tho, the Bình Chánh bridge); Nov. 2, 3 and 21;
+- Dec. (the ministries, the Miền's withdrawal, Bến Tre, Region 6, Bà Rịa).
+
+The only duplicate, Sept. 1969 against Sept. 29, had no flag (its date differs) and is dealt with above. The Mường Sủi pair (June 23 opening; June 28–July 1 the end) are a campaign and its stage, kept, as are Bu Prăng–Đức Lập's stages.
+
+### Not done
+
+- No witnesses file or by-work edges (R35), and `notes-coverage` not run: as the reader's own run left them, for the merger to know.
+- The ledger claim of the dropped add is not released (see above).
+- The reader's Passed over and Leads stand. Add to Leads:
+  - (Foreign) the *Life* issue of June 27, 1969, what it printed;
+  - the American and Cambodian record of the restoration of relations, 1969;
+  - the date the Mar. 18 bombing was made public;
+  - the Navy's separation from the Northeast Military Region, "at the turn of 1970" (VI, 206): its day, for the span.
+
+### Fit to merge
+
+Yes, as fixed. 0 errors. The duplicate prompts are to be answered "keep", and the one ledger claim dropped.

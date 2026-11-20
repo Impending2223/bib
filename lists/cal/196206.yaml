@@ -3449,6 +3449,15 @@ entries:
       - 1962-06-25T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-06-25.vietnam-hanoi-2
+    when: June 25
+    date: '1962-06-25'
+    place: tan-son-nhut
+    thread: vietnam-hanoi
+    also: [vietnam-operations, vietnam]
+    c: 'Saigon. Commandos burn the fuel depot at Tân Sơn Nhứt, June 25: millions of liters.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 175.'
+    tags: [polity:drv]
   - id: cal.1962-06-26.china-leadership
     when: June 26
     date: '1962-06-26'
@@ -4613,3 +4622,28 @@ entries:
       rows:
         - 'w.yang-jisheng-mubei I, 555: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-06.vietnam-hanoi
+    when: June
+    date: 1962-06
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: 'The Central Military Commission to the South''s armed forces: the central task for now to step up military action with the political struggle, keep and grow the forces, break the strategic hamlets. COSVN sends its members down to the provinces.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 176. Made public: 2013.'
+    tags: [polity:drv, vis:only:drv]
+  - id: cal.1962-06.vietnam-hanoi-2
+    when: June, early
+    date: 1962-06
+    at: before 1962-06-01
+    place: hanoi
+    thread: vietnam-hanoi
+    c: 'The Secretariat opens a campaign in early June to build "four-good" Party cells and committees: good leadership of production, good enforcement of State policy and law, care for the masses'' life and mass work, and good Party building and strengthening.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 95–96. Check: the day; the history gives the Secretariat and early June. A second campaign of the same months, "three buildings, three oppositions", opened by the Politburo Apr. 26.'
+    tags: [polity:drv]
+  - id: cal.1962-06.vietnam-hanoi-3
+    when: June–Nov.
+    date: 1962-06
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: The National Liberation Front's delegation under Prof. Nguyễn Văn Hiếu visits Czechoslovakia in June, the Soviet Union in July (and the July 26 celebration in Cuba), Hungary in August, Indonesia in September, China in October (and Algeria's national day), and North Korea in November.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 189. Names: Nguyễn Văn Hiếu. Check: the days; one entry for the tour, as the history gives it by month. Check: the calendar has the delegation in Peking Sept. 28–30 (china-leadership), the history China in October.'
+    tags: [polity:drv, name:nguyen-van-hieu]

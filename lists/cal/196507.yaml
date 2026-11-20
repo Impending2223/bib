@@ -138,13 +138,19 @@ entries:
     date: '1965-07-01'
     thread: vietnam-operations
     c: The Viet Cong attack the Đà Nẵng and Sóc Trăng air bases.
-    n: '[[w.macv-command-history-1965]], 480; [[w.cosmas-joint-chiefs-of-staff-2012]], 338 (Đà Nẵng; three Air Force planes destroyed, three badly damaged).'
+    n: '[[w.macv-command-history-1965]], 480; [[w.cosmas-joint-chiefs-of-staff-2012]], 338 (Đà Nẵng; three Air Force planes destroyed, three badly damaged); [[w.lich-su-khang-chien-chong-my]], III, 434 (sappers against the Đà Nẵng airfield, the night of June 30).'
     src:
       c: 000a1820
       rows:
         - 'w.macv-command-history-1965 480: all'
         - 'w.cosmas-joint-chiefs-of-staff-2012 338: A'
+        - 'w.lich-su-khang-chien-chong-my III, 434: A'
     tags: [place:da-nang, place:soc-trang]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the night of June 30; 57 aircraft destroyed or damaged
+        at: III, 434
   - id: cal.1965-07-01.civil-rights-organizations-2
     when: July 1
     date: '1965-07-01'
@@ -883,6 +889,17 @@ entries:
       - 1965-07-05T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-07-05.vietnam-hanoi
+    when: July 5
+    date: '1965-07-05'
+    time: 1965-07-04T17:45Z
+    place: ba-gia
+    thread: vietnam-hanoi
+    also: [vietnam-operations, vietnam]
+    c: Quảng Ngãi. 1:45 a.m., July 5. Battalions 40 and 45 attack the Ba Gia post again, held by a battalion newly re-formed after the first Ba Gia; in 35 minutes they hold it. Saigon bombs, drops flares, lands troops to take off wounded; four HU-1A shot down on the spot, 5 Americans and 14 Vietnamese killed, by the history's count. By the evening the battalion is out of action. Battalions 60 and 90 lie in ambush on the road from Trà Bồng to Sơn Tịnh and Bình Sơn; the relief does not come.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 433.'
+    tags: [polity:drv]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1965-07-06.succession
     when: July 6
     date: '1965-07-06'
@@ -1087,6 +1104,15 @@ entries:
         - 'w.yang-shangkun-riji II, 639: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-07-06.vietnam-hanoi-2
+    when: July 6
+    date: '1965-07-06'
+    place: moc-bai
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Tây Ninh. Battalion 70 ambushes and destroys the 4th Battalion of the 4th Regiment, 2d Division, at Mộc Bài, July 6, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 433.'
+    tags: [polity:drv]
   - id: cal.1965-07-07.vietnam-force-levels
     when: July 7
     date: '1965-07-07'
@@ -3146,6 +3172,15 @@ entries:
       - 1965-07-15T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-07-15.vietnam-hanoi
+    when: July 15
+    date: '1965-07-15'
+    place: ap-bau-bang
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Bình Dương. July 15 Regiment 2 attacks on Route 13 the Bàu Bàng strategic hamlet, where the 2d Battalion of the 7th Regiment, 5th Division is camped in the field: nearly 400 out of action, some M113s destroyed, by the history''s count.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 435.'
+    tags: [polity:drv]
   - id: cal.1965-07-16.vietnam-july-decision
     when: July 16
     date: '1965-07-16'
@@ -4931,6 +4966,15 @@ entries:
         - 'via x.1965-07.marcy-to-fulbright: all'
         - 'w.gibbons-u-s-government-and III, 432: A'
     tags: [name:marcy-carl, name:fulbright-j-william]
+  - id: cal.1965-07-22.vietnam-hanoi
+    when: July 22
+    date: '1965-07-22'
+    place: dong-xoai
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: The Đồng Xoài campaign, opened May 10–11 at Phước Long, ends. By the history's count four battalions and 24 companies put out of action, 4,459 men, 73 American advisers among them; 1,652 weapons taken, 60 military vehicles and 34 aircraft destroyed. In Phước Long province 56,000 of 67,000 people won from the strategic hamlets.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 436 (the end and the tally); 417–19 (the opening). See [[cal.1965-05-11.vietnam-operations]], [[cal.1965-06-09.vietnam-operations]].'
+    tags: [polity:drv]
   - id: cal.1965-07-23.economy
     when: July 23
     date: '1965-07-23'
@@ -6072,6 +6116,20 @@ entries:
         - 'w.humphrey-education-of-a-public-1976 326–27: A-B'
         - 'w.solberg-hubert-humphrey 282: all'
     tags: [name:humphrey-hubert-h, name:johnson-lyndon-b]
+  - id: cal.1965-07-26.vietnam-hanoi
+    when: July 26
+    date: '1965-07-26'
+    place: nha-trang
+    thread: vietnam-hanoi
+    also: [vietnam-operations, vietnam]
+    c: 'Khánh Hòa. The night of July 26 the province''s forces attack the Nha Trang airfield, the Saigon naval officers'' school and the district seat of Diên Khánh: 21 aircraft destroyed, some officer students killed, by the history''s count.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 434.'
+    tags: [polity:drv]
+    time_range:
+      - 1965-07-26T14:00Z
+      - 1965-07-26T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1965-07-27.health
     when: July 27
     date: '1965-07-27'
