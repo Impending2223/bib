@@ -460,6 +460,19 @@ entries:
         - 'w.yang-jisheng-mubei I, 42–43: all'
         - 'via w.yang-jisheng-mubei I, 43 n.14: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-01-08.china-leadership-6
+    when: Jan. 8
+    date: '1960-01-08'
+    thread: china-leadership
+    also: [china]
+    c: 'A document of the Center, Zhongfa [60] 28: in Beijing alone thousands of top officials were targeted by the end of 1959, almost 300 of them up to the level of the Central Committee, ten per cent of the top echelon, and more than sixty branded rightists; they had to be smashed resolutely or the "construction of socialism" would be imperilled.'
+    n: '[[w.dikotter-maos-great-famine]], 100. Made public: 2010. To check: Zhongfa [60] 28, Jan. 8, 1960, Gansu Provincial Archives, 91-18-164, pp. 109–114 (cited by [[w.dikotter-maos-great-famine]], 100 n.3).'
+    src:
+      c: 684e703c
+      rows:
+        - 'w.dikotter-maos-great-famine 100: all'
+        - 'via w.dikotter-maos-great-famine 100 n.3: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-01-09.elections-1960
     when: Jan. 9
     date: '1960-01-09'
@@ -1613,6 +1626,20 @@ entries:
     c: 'Zhou Enlai, receiving the national militia work conference and the national sports work conference: strengthen national defense and sport; a people in health makes a strong defense.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 280 (Jan. 19, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1960-01-19.china-leadership-3
+    when: Jan. 19
+    date: '1960-01-19'
+    place: jintang
+    thread: china-leadership
+    also: [china]
+    c: 'The Jintang 金堂 county committee 縣委, Sichuan 四川, sends its districts, communes and management districts an urgent notice on controlling and clearing up the outflow of population 《關於控制和清理人口外流的緊急通知》: the families of laborers who have gone out are to write and fetch them back; those not back by the set day see to their own meals and grain, the commune taking no part.'
+    n: '[[w.yang-jisheng-mubei]], I, 226 n.90. Made public: 2008. To check: Sichuan Provincial Committee rectification corps, Wenjiang work corps 省委溫江工作團, report on the cadres'' serious breaking of law and discipline exposed at the Jintang county five-level cadre meeting 《金堂縣五級幹部會議揭發出有關幹部嚴重違法亂紀情況的報告》, Jan. 16, 1961, Sichuan committee general office receipt [61] no. 447, Sichuan Provincial Archives, file 2617 (cited by [[w.yang-jisheng-mubei]], I, 223 n.84; I, 226 n.90).'
+    src:
+      c: 8f829852
+      rows:
+        - 'w.yang-jisheng-mubei I, 226: all'
+        - 'via w.yang-jisheng-mubei I, 226 n.90: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-01-20.economy
     when: Jan. 20
     date: '1960-01-20'
@@ -2058,9 +2085,24 @@ entries:
     place: peking
     thread: china-leadership
     also: [laos, soviet-union]
+    follows:
+      - cal.1960-01-22.china
     c: 'Chervonenko to Chen Yi, Wucheng Hall, Zhongnanhai, 5 p.m., a notice Moscow asked him to give: by secret Soviet materials the Western representatives in Vientiane, the United States first, are pressing Laos''s government and army to unite with the anti-communists behind one list of candidates and to change the electoral law before the elections; the Vietnamese are told too. Chen Yi: China and Vietnam will not send troops across the border; the Lao must rely on themselves; a missile base in Laos is unlikely. He will relay the news to Zhou at once.'
     n: '"[Transcript of Vice Premier Chen Yi''s Meeting with Soviet Ambassador S.V. Chervonenko](https://digitalarchive.umd.edu/document/120867)" (Jan. 22, 1960), PRC FMA 109-00934-01, 1–3, obtained by Feng Yiming, trans. Marian Rosenberg, Wilson Center Digital Archive. Top secret, for the highest levels only; the record gives the time as 5:00 p.m. and the place as Wucheng Hall, Zhongnanhai; present, Counselor Saffron for the Soviet side, Zhang Wentian, Yu Zhan and Ma Lie for China, Yan Mingfu interpreting. Chervonenko says he heard a presentation on China''s economy "this morning"; Chen Yi recalls Antonov''s warning of the Laos coup three days before it. Names: Chervonenko, Chen Yi, Zhou Enlai. Check: whether this and [[cal.1960-01-22.china-leadership-2]] (the Nianpu: Chervonenko to Chen Yi on the Sino-Indian dispute) were one sitting; the Nianpu gives no hour, the transcript no word on India. Check: the year the Archive posted the document.'
     tags: [polity:prc, polity:ussr, name:chen-yi, name:chervonenko-stepan-v, name:zhou-enlai, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-01-22.china
+    when: Jan. 22
+    date: '1960-01-22'
+    thread: china
+    also: [soviet-union]
+    c: Chervonenko, the Soviet ambassador, hears a presentation on China's economic situation, the morning. So he tells Chen Yi later that day, with thanks.
+    n: '"[Transcript of Vice Premier Chen Yi''s Meeting with Soviet Ambassador S.V. Chervonenko](https://digitalarchive.umd.edu/document/120867)" (Jan. 22, 1960), PRC FMA 109-00934-01, 1–3, obtained by Feng Yiming, trans. Marian Rosenberg, Wilson Center Digital Archive (Chervonenko to Chen Yi, at the talk of 5 p.m.: "This morning, [I] listened to the presentation on China''s economic situation"; the record names neither the speaker nor the place). Names: Chervonenko, Chen Yi. Check: who gave the presentation, and where. Check: the year the Archive posted the document.'
+    tags: [polity:prc, polity:ussr, name:chervonenko-stepan-v, name:chen-yi, vis:only:prc+ussr, ok:fields-time]
+    time_range:
+      - 1960-01-21T22:00Z
+      - 1960-01-22T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1960-01-23.cuba
     when: Jan. 23
@@ -2708,6 +2750,25 @@ entries:
       rows:
         - 'w.mao-zedong-zhuan V, ch. 65: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-01-27.china-leadership-7
+    when: Jan. 27
+    date: '1960-01-27'
+    place: luhe
+    thread: china-leadership
+    also: [china]
+    c: Luhe 六合 county, Jiangsu 江蘇, Guabu 瓜埠 commune, Baojiang 保江 brigade, Qinlao 勤勞 team. Zhang Changrong 張昌榮, 60, a blind stockman whom the team head, Guo 郭, put to field work to give the post to his own brother-in-law, withholding his family's meals when he did not go and beating him at the mess hall over ten times, and beating him again when he stole from the team, dies on the eve of the lunar New Year in a grassy ditch on the bank of the Chu 滁 River, having gone begging in Guabu.
+    n: '[[w.yang-jisheng-mubei]], I, 381–382 n.32. The words: 1959年大年三十晚上 (I, 381). Made public: 2008. To check: research group of the Guabu commune rectification work group 瓜埠公社整社工作組調查研究小組, preliminary investigation of the cadres'' style at Guabu commune, Luhe county 《關於六合縣瓜埠公社幹部作風問題的初步調查》, Apr. 1961, printed by the Navy Political Department''s political theory teaching office (cited by [[w.yang-jisheng-mubei]], I, 382 n.32). Check: the date: the book''s 1959年大年三十 is read as the last day of the lunar year 1959, the eve of the Spring Festival of 1960; if the eve of the Spring Festival of 1959 is meant, it falls before the calendar''s span.'
+    src:
+      c: cb8e9a94
+      rows:
+        - 'w.yang-jisheng-mubei I, 381–382: all'
+        - 'via w.yang-jisheng-mubei I, 382 n.32: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-01-27T11:00Z
+      - 1960-01-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-01-28.cuba
     when: Jan. 28
     date: '1960-01-28'
@@ -3805,7 +3866,7 @@ entries:
     place: meitan
     thread: china-leadership
     c: 'The Meitan 湄潭 county committee 縣委 holds a cadre meeting to lay out a campaign against stealing 反偷竊運動, with great searches and arrests: all who had ever stolen in a small way are seized; holding points are set up at Fenggang 鳳岡, Yuqing 餘慶 and Yiquan 義泉 with temporary courts that sentence on the spot, labor-reform and re-education teams below. Held without approval are 2,794 people, 65 approved; over 200 die in custody.'
-    n: '[[w.yang-jisheng-mubei]], I, 572; [[w.dikotter-maos-great-famine]], 314 n.18 (the police and the militia organise an "Arrest Many and Detain Many" campaign in 1960, locking up close to 3,000 people in a month in the region). Made public: 2008. Check: the book gives "January 1960" and no note for the paragraph; it says the county''s leader did not look into why people stole. To check: Chishui county file, May 9, 1960, 1-A11-9, pp. 5–9 (cited by [[w.dikotter-maos-great-famine]], 314 n.18).'
+    n: '[[w.yang-jisheng-mubei]], I, 572; [[w.dikotter-maos-great-famine]], 314 n.18 (the police and the militia organise an "Arrest Many and Detain Many" campaign in 1960, locking up close to 3,000 people in a month in the region). Made public: 2007 (Liu Xingsheng 劉興盛, article on the Meitan 湄潭 incident, *Yanhuang chunqiu* 2007 no. 11, the section''s source: I, 574 n.12). To check: Chishui county file, May 9, 1960, 1-A11-9, pp. 5–9 (cited by [[w.dikotter-maos-great-famine]], 314 n.18). To check: Liu Xingsheng 劉興盛, "Lishi de beiju, chentong de jingshi: 1959 nian Guizhou sheng ''Meitan shijian'' shimo" 《歷史的悲劇　沉痛的警示——1959年貴州省「湄潭事件」始末》, *Yanhuang chunqiu* 炎黃春秋 2007 no. 11 (cited by [[w.yang-jisheng-mubei]], I, 574 n.12).'
     src:
       c: 071da441
       rows:
@@ -4482,4 +4543,435 @@ entries:
       rows:
         - 'w.yang-jisheng-mubei I, 280: all'
         - 'via w.yang-jisheng-mubei I, 280 n.51: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-70
+    when: '1960'
+    date: '1960'
+    place: jintang
+    thread: china-leadership
+    also: [china]
+    c: Jintang 金堂 county, Sichuan 四川, Shuangliu 雙流 commune. Wu 吳, a member of the commune's general branch committee and branch secretary of Qianjin 前進 district, in the course of the year drives two members to death, puts over 10 through the "washing of taro" 洗毛芋子 (a ring of others shoving the punished back and forth), withholds the meals of over 300, and fines or sentences to hard labor over 20.
+    n: '[[w.yang-jisheng-mubei]], I, 223 n.84, 224 (a case of the Wenjiang work corps'' report on Jintang). The words: 在1960年一年內 (I, 224). Made public: 2008. To check: Sichuan Provincial Committee rectification corps, Wenjiang work corps 省委溫江工作團, report on the cadres'' serious breaking of law and discipline exposed at the Jintang county five-level cadre meeting 《金堂縣五級幹部會議揭發出有關幹部嚴重違法亂紀情況的報告》, Jan. 16, 1961, Sichuan committee general office receipt [61] no. 447, Sichuan Provincial Archives, file 2617 (cited by [[w.yang-jisheng-mubei]], I, 223 n.84; I, 226 n.90).'
+    src:
+      c: 39aa2485
+      rows:
+        - 'w.yang-jisheng-mubei I, 223, 224: all'
+        - 'via w.yang-jisheng-mubei I, 223 n.84: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-01.china-leadership-12
+    when: Jan.–Apr.
+    date: 1960-01
+    place: dianjiang
+    thread: china-leadership
+    also: [china]
+    c: Dianjiang 墊江 county, Sichuan 四川, Chengxi 城西 commune, Chunhua 春花 management district. Xu Jianmin 徐建民, the mess-hall manager, hangs and beats 18 members one after another from Dec. 1959 to Apr. 1960; Xu Wenpu 徐文普, a member who ate two sweet potatoes on the sly, dies five days after his beating. The district runs a labor-reform team 勞改隊 for those who have taken food, a month or two at a time, with night shifts and no going home.
+    n: '[[w.yang-jisheng-mubei]], I, 225–226 n.89. The words: 從1959年12月到1960年4月 (I, 225). Made public: 2008. To check: Li Lin 李林, report to the provincial committee and Secretary Liao 《給省委並廖書記》, Jan. 31, 1961 (cited by [[w.yang-jisheng-mubei]], I, 226 n.89). Check: the day of Xu Wenpu''s death.'
+    src:
+      c: 138fa89c
+      rows:
+        - 'w.yang-jisheng-mubei I, 225–226: all'
+        - 'via w.yang-jisheng-mubei I, 226 n.89: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-at]
+  - id: cal.1960-01.china-leadership-13
+    when: Jan.
+    date: 1960-01
+    place: wu-county
+    thread: china-leadership
+    also: [china]
+    c: Wu 吳 county, Jiangsu 江蘇, Dongqiao 東橋 commune. Li 李, member of the commune party committee and party secretary of its 1st brigade, under the slogan "wipe out small freedoms" searches 44 households, takes 77 percent of the households' cooking pots, punishes 51 and struggles against 10; 4 are driven to kill themselves, 2 of them saved. Cha Xiaomei 查小妹, a "five-good" member in whose house is found a little rice saved from her ration for her child, hangs herself; the child, with no one to care for it, soon dies.
+    n: '[[w.yang-jisheng-mubei]], I, 380–381 n.31. The words: 1960年1月 (I, 381). Made public: 2008. To check: Lu Jing 盧敬, letter to the Jiangsu committee, "Why coercion and lawlessness are so serious in Dongqiao commune, Wu county" 《吳縣東橋公社強迫命令違法亂紀為甚麼這麼嚴重》, Sept. 5, 1960, a draft with a reviser''s cuts, which the book quotes in part, cuts included (cited by [[w.yang-jisheng-mubei]], I, 381 n.31).'
+    src:
+      c: 7dcfee6d
+      rows:
+        - 'w.yang-jisheng-mubei I, 380–381: all'
+        - 'via w.yang-jisheng-mubei I, 381 n.31: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-01.china-leadership-14
+    when: Jan.–Mar.
+    date: 1960-01
+    place: nanxiong
+    thread: china-leadership
+    also: [china]
+    c: Nanxiong 南雄 county, Guangdong 廣東, Shixing 始興 commune, Liangyuan 良原 brigade. Tan 譚, the brigade's party branch secretary, beats 70 people from January to March; one is beaten to death and one driven to death.
+    n: '[[w.yang-jisheng-mubei]], I, 416 n.18, 418. The words: 1960年1－3月 (I, 418). Made public: 2008. To check: Zheng Qun 鄭群, Cheng Jiaying 成家英 and Zhang Lemin 張樂民, investigation report on the serious illegal conduct and mass deaths in Shixing commune, Nanxiong county 《關於南雄縣始興公社嚴重違法亂紀和大量死人事件的調查報告》, July 31, 1960, the source of the section''s matter unless noted (cited by [[w.yang-jisheng-mubei]], I, 416 n.18).'
+    src:
+      c: ecb9b407
+      rows:
+        - 'w.yang-jisheng-mubei I, 416, 418: all'
+        - 'via w.yang-jisheng-mubei I, 416 n.18: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-71
+    when: 1960, winter–spring
+    date: '1960'
+    at: before 1960-03
+    place: nanxiong
+    thread: china-leadership
+    also: [china]
+    c: Nanxiong 南雄 county, Guangdong 廣東, Shixing 始興 commune. At the worst of the grain shortage Zhu 朱, the commune party committee's first secretary, decides on his own to stop the whole commune's rations for a month, keeping back 80,000 dan, and tells the members to fend for themselves.
+    n: '[[w.yang-jisheng-mubei]], I, 416 n.18, 419. The words: 1959冬和1960春之間，糧食最緊張時 (I, 419). Made public: 2008. To check: Zheng Qun 鄭群, Cheng Jiaying 成家英 and Zhang Lemin 張樂民, investigation report on the serious illegal conduct and mass deaths in Shixing commune, Nanxiong county 《關於南雄縣始興公社嚴重違法亂紀和大量死人事件的調查報告》, July 31, 1960, the source of the section''s matter unless noted (cited by [[w.yang-jisheng-mubei]], I, 416 n.18).'
+    src:
+      c: '38752422'
+      rows:
+        - 'w.yang-jisheng-mubei I, 416, 419: all'
+        - 'via w.yang-jisheng-mubei I, 416 n.18: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-72
+    when: 1960, spring
+    date: '1960'
+    at: before 1960-03-20
+    place: jingyuan
+    thread: china-leadership
+    also: [china]
+    c: Jingyuan 靖遠 county, Gansu 甘肅, Chengguan 城關 commune. The Dongguanlin 東關鄰 production team (so printed), hearing that the commune will take its camels, kills and eats its 40-odd camels beforehand; the Dongguan team, hearing that the commune will set up a pig farm, kills and eats all its 40-odd pigs.
+    n: '[[w.yang-jisheng-mubei]], I, 132 n.6. The words: 1960年春天 (I, 132). Made public: 2008. To check: Gansu Provincial Committee General Office (ed.), *Bulletin of the committee''s three-level cadre meeting* 《中共甘肅省委三級幹部會議簡報》, no. 4, Nov. 9, 1960 (cited by [[w.yang-jisheng-mubei]], I, 132 n.6).'
+    src:
+      c: 9063bc64
+      rows:
+        - 'w.yang-jisheng-mubei I, 132: all'
+        - 'via w.yang-jisheng-mubei I, 132 n.6: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-01.china-leadership-15
+    when: Jan.
+    date: 1960-01
+    place: qingshui
+    thread: china-leadership
+    also: [china]
+    c: Qingshui 清水 county, Gansu 甘肅. With the mess halls out of grain, Zhangshuyi 張樹驛 commune sends Xu Xiaorui 徐效瑞, deputy secretary of its party committee, to Songhe 松河 brigade to rouse the masses against concealed grain. He searches the members' houses and reports to the commune 110,920 jin found, enough at 22 jin a head a month to the end of June with over 50,000 jin to spare for procurement, and has the general branch secretary, Mao Wenqing 毛文清, and the team head make up a register, putting the members' thumbprints on it for them. In the last ten days of January 44 of the brigade starve to death.
+    n: '[[w.yang-jisheng-mubei]], I, 139 n.12. The words: 1960年初 ... 1月下旬 (I, 139). Made public: 2008. To check: Qingshui County Committee, telephone report on livelihood arrangements and population outflow 《清水縣委關於生活安排、人口外流情況的電話彙報》, Feb. 17, 1960, printed Feb. 19 by the Gansu committee''s general office, 28 copies (cited by [[w.yang-jisheng-mubei]], I, 139 n.12).'
+    src:
+      c: e6d16661
+      rows:
+        - 'w.yang-jisheng-mubei I, 139: all'
+        - 'via w.yang-jisheng-mubei I, 139 n.12: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-at]
+  - id: cal.1960.china-leadership-73
+    when: 1960, after Jan. 20
+    date: '1960'
+    at: after 1960-01-20
+    place: qingshui
+    thread: china-leadership
+    also: [china]
+    c: Qingshui 清水 county, Gansu 甘肅, Zhangshuyi 張樹驛 commune, Songhe 松河 brigade. Mao Wenqing 毛文清, the general branch secretary who made up the false grain register, kills himself.
+    n: '[[w.yang-jisheng-mubei]], I, 139 n.12. Made public: 2008. To check: Qingshui County Committee, telephone report on livelihood arrangements and population outflow 《清水縣委關於生活安排、人口外流情況的電話彙報》, Feb. 17, 1960, printed Feb. 19 by the Gansu committee''s general office, 28 copies (cited by [[w.yang-jisheng-mubei]], I, 139 n.12). See [[cal.1960-01.china-leadership-15]]. Check: the day.'
+    src:
+      c: 9b6a3d0c
+      rows:
+        - 'w.yang-jisheng-mubei I, 139: all'
+        - 'via w.yang-jisheng-mubei I, 139 n.12: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-01.china-leadership-16
+    when: Jan.
+    date: 1960-01
+    place: tongwei
+    thread: china-leadership
+    also: [china]
+    c: Tongwei 通渭 county, Gansu 甘肅. By the account of Lu Nianzu 盧念祖, a doctor of Chinese medicine, his aunt goes with her daughter to the ravines to cut flesh from the dead, at first with some success, later sharing out a body, bones and all, among several. One day she cooks a human leg for her dying husband, who waves it away; as she carries it out, hungry people drawn by the smell seize and eat it.
+    n: '[[w.yang-jisheng-mubei]], I, 158–160 n.36 (Zhang Dafa''s 張大發 account). The words: 1959年臘月 (I, 158). Made public: 2008. Printed for internal circulation: Zhang Dafa 張大發, *Jinqiao lu man* 《金橋路漫》 (Dingxi Writers'' Association, printing permit 准印證 甘出准46字總112號, 2005), 33–38 (I, 160 n.36). To check: Zhang Dafa, *Jinqiao lu man*, 33–38 (cited by [[w.yang-jisheng-mubei]], I, 160 n.36). Check: the date: the book''s 1959年臘月 is the last lunar month of 1959, which ends at the Spring Festival of 1960.'
+    src:
+      c: 3f94ac4c
+      rows:
+        - 'w.yang-jisheng-mubei I, 158–160: all'
+        - 'via w.yang-jisheng-mubei I, 160 n.36: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-01.china-leadership-18
+    when: Jan.
+    date: 1960-01
+    place: tongwei
+    thread: china-leadership
+    also: [china]
+    c: Tongwei 通渭 county, Gansu 甘肅. A few days after the human leg is snatched from her, Lu Nianzu's 盧念祖 aunt disappears; under a bank behind the village a pair of a woman's small feet is found, known by the shoes and socks as hers.
+    n: '[[w.yang-jisheng-mubei]], I, 159–160 n.36 (Zhang Dafa''s 張大發 account). The words: 不幾天 (I, 159). Made public: 2008. Printed for internal circulation: Zhang Dafa 張大發, *Jinqiao lu man* 《金橋路漫》 (Dingxi Writers'' Association, printing permit 准印證 甘出准46字總112號, 2005), 33–38 (I, 160 n.36). To check: Zhang Dafa, *Jinqiao lu man*, 33–38 (cited by [[w.yang-jisheng-mubei]], I, 160 n.36). See [[cal.1960-01.china-leadership-16]]. Check: the date.'
+    src:
+      c: 24092c8c
+      rows:
+        - 'w.yang-jisheng-mubei I, 159–160: all'
+        - 'via w.yang-jisheng-mubei I, 160 n.36: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-at]
+  - id: cal.1960-01.china-leadership-17
+    when: Jan., early
+    date: 1960-01
+    at: before 1960-01-11
+    thread: china-leadership
+    also: [china]
+    c: Xi Daolong 席道隆, first secretary of Tongwei 通渭 county, Gansu 甘肅, as the deaths mount, goes through the night to the prefectural committee to report on the grain, the outflow of people and the deaths, is criticized, and goes back.
+    n: '[[w.yang-jisheng-mubei]], I, 168 (no note). The words: 1960年1月上旬 ... 連夜 (I, 168). Made public: 2008. Check: the day.'
+    src:
+      c: 728133be
+      rows:
+        - 'w.yang-jisheng-mubei I, 168: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-time, ok:fields-place]
+  - id: cal.1960.china-leadership-74
+    when: '1960'
+    date: '1960'
+    thread: china-leadership
+    also: [china]
+    c: Dou Minghai 竇明海, secretary of the Dingxi 定西 prefectural committee, Gansu 甘肅, takes from the commerce and grain departments in 1960 alone 339.7 jin of meat, 23 jin of oil, over 260 eggs, 473 jin of grain, 62 jin of sugar and cakes and 320 jin of red dates, with hams, chickens, tinned food, noodles, tea and fruit.
+    n: '[[w.yang-jisheng-mubei]], I, 167–168 (the enlarged meeting''s bulletin; no note). Made public: 2008. To check: Dingxi Prefectural Committee, bulletin of its enlarged meeting, Jan. 13, 1961 (named by [[w.yang-jisheng-mubei]], I, 167; no note).'
+    src:
+      c: b46011d8
+      rows:
+        - 'w.yang-jisheng-mubei I, 167–168: all'
+        - 'via w.yang-jisheng-mubei I, 167 n.t1: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-67
+    when: '1960'
+    date: '1960'
+    place: lingbei
+    thread: china-leadership
+    also: [china]
+    c: Farmers recruited to work on a reservoir in Lingbei commune complain of pain; the militia sear their bodies.
+    n: '[[w.dikotter-maos-great-famine]], 295. Made public: 2010. To check: Guangdong Provincial Archives, 1960, 217-1-645, pp. 60–64 (cited by [[w.dikotter-maos-great-famine]], 295 n.22). Check: the day.'
+    src:
+      c: 98f5cd48
+      rows:
+        - 'w.dikotter-maos-great-famine 295: all'
+        - 'via w.dikotter-maos-great-famine 295 n.22: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-68
+    when: '1960'
+    date: '1960'
+    place: guangdong
+    thread: china-leadership
+    also: [china]
+    c: Chen Di, a farmer in Guangdong 广东, steals some food; the militiaman Chen Qiu ties him up and cuts off one of his ears.
+    n: '[[w.dikotter-maos-great-famine]], 295. Made public: 2010. To check: Guangdong Provincial Archives, 1960, 217-1-645, pp. 60–64 (cited by [[w.dikotter-maos-great-famine]], 295 n.31). Check: the day.'
+    src:
+      c: fb46e494
+      rows:
+        - 'w.dikotter-maos-great-famine 295: all'
+        - 'via w.dikotter-maos-great-famine 295 n.31: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-69
+    when: '1960'
+    date: '1960'
+    place: jianyang-sichuan
+    thread: china-leadership
+    also: [china]
+    c: In Jianyang, Sichuan 四川, an iron wire is run through the ears of thieves, weighted by a cardboard sign reading "habitual thief."
+    n: '[[w.dikotter-maos-great-famine]], 296. Made public: 2010. To check: Sichuan Provincial Archives, 1960, JC1-2112, p. 4 (cited by [[w.dikotter-maos-great-famine]], 296 n.35). Check: the day.'
+    src:
+      c: 3ff4e4e3
+      rows:
+        - 'w.dikotter-maos-great-famine 296: all'
+        - 'via w.dikotter-maos-great-famine 296 n.35: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-75
+    when: '1960'
+    date: '1960'
+    thread: china-leadership
+    also: [china]
+    c: The cadre Zhao Xuedong compels twenty-four villagers with oedema to labour; all but four die.
+    n: '[[w.dikotter-maos-great-famine]], 303. Made public: 2010. To check: Sichuan Provincial Archives, 1960, JC133-219, pp. 49 and 131 (cited by [[w.dikotter-maos-great-famine]], 303 n.68). Check: the day.'
+    src:
+      c: c5dd041d
+      rows:
+        - 'w.dikotter-maos-great-famine 303: all'
+        - 'via w.dikotter-maos-great-famine 303 n.68: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-76
+    when: '1960'
+    date: '1960'
+    thread: china-leadership
+    also: [china]
+    c: In Jinchang commune the local party secretary drives villagers to heavy labour as soon as they are released from medical care.
+    n: '[[w.dikotter-maos-great-famine]], 303. Made public: 2010. To check: Sichuan Provincial Archives, 1960, JC133-219, pp. 49 and 131 (cited by [[w.dikotter-maos-great-famine]], 303 n.68). Check: the day.'
+    src:
+      c: f1916d64
+      rows:
+        - 'w.dikotter-maos-great-famine 303: all'
+        - 'via w.dikotter-maos-great-famine 303 n.68: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1960.china-leadership-77
+    when: '1960'
+    date: '1960'
+    place: guangdong
+    thread: china-leadership
+    also: [china]
+    c: 'In Peach Village, Guangdong 广东, the cadres divide the farmers into twelve grades by performance: just under 500 grams of grain a day at the top, 150 grams at the bottom. One in ten starve to death in 1960.'
+    n: '[[w.dikotter-maos-great-famine]], 303–304. Made public: 2010. To check: Guangdong Provincial Archives, May 8, 1960, 217-1-575, pp. 26–28 (cited by [[w.dikotter-maos-great-famine]], 304 n.70). Check: the day.'
+    src:
+      c: 529badea
+      rows:
+        - 'w.dikotter-maos-great-famine 303–304: all'
+        - 'via w.dikotter-maos-great-famine 304 n.70: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-78
+    when: 1960, early
+    date: '1960'
+    at: before 1960-01
+    place: wuhan
+    thread: china-leadership
+    also: [china]
+    c: 'In Wuhan the Provincial Highway Transportation Bureau hauls goods for the Jianghan District Number Two Commercial Office in exchange for food: over a tonne of sugar, a tonne of alcohol, a thousand cartons of cigarettes and 350 kilos of canned meat in the first months of 1960.'
+    n: '[[w.dikotter-maos-great-famine]], 198. Made public: 2010. To check: *Neibu cankao*, June 2, 1960, pp. 14–15 (cited by [[w.dikotter-maos-great-famine]], 198 n.2). Check: the day.'
+    src:
+      c: 4d1877a6
+      rows:
+        - 'w.dikotter-maos-great-famine 198: all'
+        - 'via w.dikotter-maos-great-famine 198 n.2: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-79
+    when: '1960'
+    date: '1960'
+    thread: china-leadership
+    also: [china]
+    c: Hubei University runs a trading operation, its telegrams telling agents to buy or sell commodities as the black market moves.
+    n: '[[w.dikotter-maos-great-famine]], 202. Made public: 2010. To check: *Neibu cankao*, Nov. 25, 1960, pp. 12–13 (cited by [[w.dikotter-maos-great-famine]], 202 n.21a); *Neibu cankao*, Dec. 30, 1960, pp. 10–11 (cited by [[w.dikotter-maos-great-famine]], 202 n.21b). Check: the day.'
+    src:
+      c: 8a0c9f91
+      rows:
+        - 'w.dikotter-maos-great-famine 202: all'
+        - 'via w.dikotter-maos-great-famine 202 n.21a: all'
+        - 'via w.dikotter-maos-great-famine 202 n.21b: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-80
+    when: '1960'
+    date: '1960'
+    place: shanghai
+    thread: china-leadership
+    also: [china]
+    c: A research centre of the Chinese Academy of Social Sciences in Shanghai 上海 employs twenty students of East China Normal University to buy goods to trade with other units for scarce commodities.
+    n: '[[w.dikotter-maos-great-famine]], 202. Made public: 2010. To check: *Neibu cankao*, Nov. 25, 1960, pp. 12–13 (cited by [[w.dikotter-maos-great-famine]], 202 n.21a); *Neibu cankao*, Dec. 30, 1960, pp. 10–11 (cited by [[w.dikotter-maos-great-famine]], 202 n.21b). Check: the day.'
+    src:
+      c: aeca08de
+      rows:
+        - 'w.dikotter-maos-great-famine 202: all'
+        - 'via w.dikotter-maos-great-famine 202 n.21a: all'
+        - 'via w.dikotter-maos-great-famine 202 n.21b: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-81
+    when: 1960, autumn
+    date: '1960'
+    at: before 1960-09
+    place: qingyuan-guangdong
+    thread: china-leadership
+    also: [china]
+    c: The security forces blame "enemy speculators" for a flood of fake ration coupons in Qingyuan.
+    n: '[[w.dikotter-maos-great-famine]], 205. Made public: 2010. To check: Guangdong Provincial Archives, Feb. 9, 1961, 235-1-259, pp. 39–40 (cited by [[w.dikotter-maos-great-famine]], 205 n.36). Check: the day.'
+    src:
+      c: 931f7ee4
+      rows:
+        - 'w.dikotter-maos-great-famine 205: all'
+        - 'via w.dikotter-maos-great-famine 205 n.36: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-82
+    when: '1960'
+    date: '1960'
+    thread: china-leadership
+    also: [china]
+    c: Zhang Zhongliang 張仲良, as starvation spreads in Gansu 甘肅, writes again to Mao 毛泽东, blaming the deaths on Huo Weide, head of the "anti-party clique," and calling them a matter of "one finger out of ten."
+    n: '[[w.dikotter-maos-great-famine]], 101. Made public: 2010. To check: Gansu Provincial Archives, July 1, 1960, 91-4-705, pp. 1–5 (cited by [[w.dikotter-maos-great-famine]], 101 n.6). Names: Mao Zedong. Check: the day.'
+    src:
+      c: 327679f6
+      rows:
+        - 'w.dikotter-maos-great-famine 101: all'
+        - 'via w.dikotter-maos-great-famine 101 n.6: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong]
+  - id: cal.1960.china-leadership-83
+    when: '1960'
+    date: '1960'
+    place: hebei
+    thread: china-leadership
+    also: [china]
+    c: In Hebei 河北 the vice-director of the Bureau for Water Conservancy is purged for having doubted the wisdom of dismantling central-heating systems during the steel campaign.
+    n: '[[w.dikotter-maos-great-famine]], 101. Made public: 2010. To check: Hebei Provincial Archives, 1960, 879-1-116, p. 43 (cited by [[w.dikotter-maos-great-famine]], 101 n.8). Check: the day.'
+    src:
+      c: f37c42d5
+      rows:
+        - 'w.dikotter-maos-great-famine 101: all'
+        - 'via w.dikotter-maos-great-famine 101 n.8: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-84
+    when: 1960, summer
+    date: '1960'
+    at: before 1960-06
+    thread: china-leadership
+    also: [china]
+    c: Mao 毛泽东, depressed, takes to his bed, seemingly unable to face the bad news coming in (Li Zhisui's account).
+    n: '[[w.dikotter-maos-great-famine]], 107. Made public: 1994 ([[w.zhisui-private-life-of-chairman]]). To check: Li Zhisui, [[w.zhisui-private-life-of-chairman]], 339 (cited by [[w.dikotter-maos-great-famine]], 107 n.19). Names: Mao Zedong. Check: the day.'
+    src:
+      c: 90ddcf38
+      rows:
+        - 'w.dikotter-maos-great-famine 107: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong]
+  - id: cal.1960.china-leadership-88
+    when: '1960'
+    date: '1960'
+    thread: china-leadership
+    also: [china]
+    c: In Chengguan ten infants, still breathing, are thrown into the frozen ground.
+    n: '[[w.dikotter-maos-great-famine]], 117. Made public: 2010. To check: Li Zhenhai, Liu Zhengrong and Zhang Chunyuan, report on the deaths from oedema and the cadres'' grave violations of law and discipline in Xincai, Xinyang region, Nov. 30, 1960, p. 1 (cited by [[w.dikotter-maos-great-famine]], 117 n.5). Check: the day, before the report of Nov. 30, 1960, which treats the past winter and spring.'
+    src:
+      c: ab12c078
+      rows:
+        - 'w.dikotter-maos-great-famine 117: all'
+        - 'via w.dikotter-maos-great-famine 117 n.5: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-85
+    when: '1960'
+    date: '1960'
+    thread: china-leadership
+    also: [china]
+    c: A production team is given a grain quota for 1960 of 260 tonnes, raised by 5.5 tonnes a few days later and by 25 tonnes more at a commune meeting; two days after, the commune telephones that the quota is now 315 tonnes (the team leader's account).
+    n: '[[w.dikotter-maos-great-famine]], 128–129. Made public: 2010. To check: Hebei Provincial Archives, Apr. 11, 1961, 878-1-14, pp. 56–58 (cited by [[w.dikotter-maos-great-famine]], 129 n.2). Check: the day.'
+    src:
+      c: 506487c2
+      rows:
+        - 'w.dikotter-maos-great-famine 128–129: all'
+        - 'via w.dikotter-maos-great-famine 129 n.2: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-at]
+  - id: cal.1960.china-5
+    when: '1960'
+    date: '1960'
+    place: cixi
+    thread: china
+    c: In Cixi county, Zhejiang 浙江, some 2,000 villagers are poisoned in a single month by cakes made of cotton seeds.
+    n: '[[w.dikotter-maos-great-famine]], 140. Made public: 2010. To check: Beijing Municipal Archives, Jan. 8, 1962, 2-13-138, pp. 1–3 (cited by [[w.dikotter-maos-great-famine]], 140 n.48). Check: the day.'
+    src:
+      c: 45ddb801
+      rows:
+        - 'w.dikotter-maos-great-famine 140: all'
+        - 'via w.dikotter-maos-great-famine 140 n.48: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-6
+    when: '1960'
+    date: '1960'
+    place: xinxiang
+    thread: china
+    c: In the region around Xinxiang, Henan, cotton-seed cakes poison over 100,000 people and kill more than 150.
+    n: '[[w.dikotter-maos-great-famine]], 140. Made public: 2010. To check: Beijing Municipal Archives, Jan. 8, 1962, 2-13-138, pp. 1–3 (cited by [[w.dikotter-maos-great-famine]], 140 n.48). Check: the day.'
+    src:
+      c: 00bb35ae
+      rows:
+        - 'w.dikotter-maos-great-famine 140: all'
+        - 'via w.dikotter-maos-great-famine 140 n.48: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-86
+    when: '1960'
+    date: '1960'
+    place: nanhai
+    thread: china-leadership
+    also: [china]
+    c: In Nanhai county the brigade leader Liang Yanlong carries three guns and stalks the village in a big leather coat.
+    n: '[[w.dikotter-maos-great-famine]], 294. Made public: 2010. To check: Guangdong Provincial Archives, 1960, 217-1-645, pp. 25–28 (cited by [[w.dikotter-maos-great-famine]], 294 n.10). Check: the day.'
+    src:
+      c: b5970b91
+      rows:
+        - 'w.dikotter-maos-great-famine 294: all'
+        - 'via w.dikotter-maos-great-famine 294 n.10: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960.china-leadership-87
+    when: '1960'
+    date: '1960'
+    place: sichuan
+    thread: china-leadership
+    also: [china]
+    c: In Sichuan 四川 a few people are doused in petrol and set alight; some burn to death.
+    n: '[[w.dikotter-maos-great-famine]], 295. Made public: 2010. To check: Sichuan Provincial Archives, Jan. 27, 1961, JC1-2606, p. 65 (cited by [[w.dikotter-maos-great-famine]], 295 n.24a); Sichuan Provincial Archives, 1960, JC1-2116, p. 105 (cited by [[w.dikotter-maos-great-famine]], 295 n.24b). Check: the day.'
+    src:
+      c: 31e6c650
+      rows:
+        - 'w.dikotter-maos-great-famine 295: all'
+        - 'via w.dikotter-maos-great-famine 295 n.24a: all'
+        - 'via w.dikotter-maos-great-famine 295 n.24b: all'
     tags: [polity:prc, vis:only:prc]

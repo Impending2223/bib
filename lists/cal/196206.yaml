@@ -2380,6 +2380,20 @@ entries:
       - 1962-06-16T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-06-16.china-leadership-5
+    when: June 16
+    date: '1962-06-16'
+    place: linxia
+    thread: china-leadership
+    also: [china]
+    c: The Linxia 臨夏 prefectural committee 州委, Gansu 甘肅, under Ge Man 葛曼, issues its opinions on temporary emergency measures centered on contracting work and output to groups and the "big contract" to households 《關於實行包工包產到組和大包乾到戶為中心的臨時緊急措施的意見》. Of the prefecture's 8,000-odd production teams, 7,080 contract output to households.
+    n: '[[w.yang-jisheng-mubei]], I, 146 n.25. Made public: 2016 (the source is a letter of 2011, later than the first edition). To check: Ge Dun 葛盾, letter to Yang Jisheng, June 11, 2011 (cited by [[w.yang-jisheng-mubei]], I, 146 n.25).'
+    src:
+      c: ef4c1e9f
+      rows:
+        - 'w.yang-jisheng-mubei I, 146: all'
+        - 'via w.yang-jisheng-mubei I, 146 n.25: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-06-17.opinion
     when: June 17
     date: '1962-06-17'
@@ -4666,3 +4680,11 @@ entries:
       rows:
         - 'https://digitalarchive.umd.edu/document/121759: all'
     tags: [name:zhou-enlai, polity:prc, polity:dprk, polity:drv, vis:only:prc]
+  - id: cal.1962-06.korea
+    when: June
+    date: 1962-06
+    thread: korea
+    also: [china, trade]
+    c: The DPRK proposes to China a long-term trade agreement, per the PRC summary of Jan. 30, 1963.
+    n: '"[Summary of Trade Negotiations with Korea and Vietnam for 1963](https://digitalarchive.umd.edu/document/121759)" (Jan. 30, 1963), PRC FMA 106-01008-18, 48–53, obtained by Shen Zhihua, trans. Jeffrey Wang and Charles Kraus, Wilson Center Digital Archive ("In June 1962, when [North] Korea proposed to sign a long-term trade agreement with us"). Check: the day. Check: the year the Archive posted it.'
+    tags: [polity:dprk, polity:prc, vis:only:dprk+prc]
