@@ -21,6 +21,11 @@ ops:
     name: Tonghua
     zone: Asia/Shanghai
     in: prc
+- place-key:
+    key: tongwei
+    name: Tongwei
+    zone: Asia/Shanghai
+    in: prc
 - add:
     entry:
       id: cal.1960-08-05.china-leadership-2
@@ -855,26 +860,6 @@ ops:
       - ok:fields-place
 - add:
     entry:
-      id: cal.1961-12-04.china-leadership-4
-      when: Dec. 4
-      date: '1961-12-04'
-      thread: china-leadership
-      also:
-      - trade
-      c: Zhou Enlai, in a report, puts the money raised by selling gold and silver by the end of 1961 at some US$150 million, and Hong Kong's yield in foreign currency at some US$320 million a year, the largest source.
-      n: '[[w.dikotter-maos-great-famine]], 110 n.14, n.16. Made public: 2010. To check: Zhou Enlai, report, Dec. 4, 1961, Hunan Provincial Archives, 141-1-1931, pp. 52–54 (cited by [[w.dikotter-maos-great-famine]], 110 n.14, n.16). Names: Zhou Enlai. Check: the day.'
-      src:
-        rows:
-        - 'w.dikotter-maos-great-famine 110: all'
-        - 'via w.dikotter-maos-great-famine 110 n.14: all'
-        - 'via w.dikotter-maos-great-famine 110 n.16: all'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:zhou-enlai
-      - ok:fields-place
-- add:
-    entry:
       id: cal.1961-06.china-leadership-9
       when: June
       date: 1961-06
@@ -913,3 +898,23 @@ ops:
       - polity:ussr
       - vis:only:prc+ussr
       - name:khrushchev
+      - ok:fields-place
+- cite:
+    id: cal.1961-12-04.china-leadership
+    item: '[[w.dikotter-maos-great-famine]], 110 n.14, n.16 (a report by Zhou Enlai of Dec. 4, 1961: some US$150 million raised by selling gold and silver by the end of 1961; Hong Kong the largest source of foreign currency, some US$320 million a year)'
+- to-check:
+    id: cal.1961-12-04.china-leadership
+    add: Zhou Enlai, report, Dec. 4, 1961, Hunan Provincial Archives, 141-1-1931, pp. 52–54 (cited by [[w.dikotter-maos-great-famine]], 110 n.12, n.14, n.16)
+- check:
+    id: cal.1961-12-04.china-leadership
+    text: 'Check: whether Zhou Enlai''s report of Dec. 4, 1961 in the Hunan file ([[w.dikotter-maos-great-famine]], 110 n.14, n.16) is this talk.'
+- place:
+    id: cal.1960-02-08.china-leadership-3
+    at: tongwei
+    basis: c
+    note: the work group comes to Tongwei county (Dikötter, 309, from Lanzhou)
+- place:
+    id: cal.1960-01.china-leadership-7
+    at: meitan
+    basis: c
+    note: the Meitan county committee's cadre meeting

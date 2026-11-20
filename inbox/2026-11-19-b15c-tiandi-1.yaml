@@ -1539,10 +1539,6 @@ ops:
 - to-check:
     id: cal.1966-07-19.china-leadership
     add: '[[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 31 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 214 n.73)'
-- src:
-    id: cal.1966-07-19.china-leadership
-    rows:
-    - 'via w.yang-jisheng-tiandi-fanfu I, 214 n.75: E'
 - cite:
     id: cal.1966-07-23.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 214 (July 23, at Building 12 of the Diaoyutai, Mao hears Li Xuefeng and Wu De on the cultural revolution in Peking, Tao Zhu and Kang Sheng
@@ -1552,10 +1548,6 @@ ops:
 - to-check:
     id: cal.1966-07-23.china-leadership
     add: '*Wu De koushu: shinian fengyu jishi* 《吳德口述:十年風雨紀事》 (Dangdai Zhongguo chubanshe 當代中國出版社, 2004), 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 214 n.77)'
-- src:
-    id: cal.1966-07-23.china-leadership
-    rows:
-    - 'via w.yang-jisheng-tiandi-fanfu I, 214 n.76: A, B, C, D'
 - cite:
     id: cal.1966-07-29.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 216–217 (the evening of July 29 7月29日晚, Great Hall of the People: the meeting of activists of the colleges and universities; Li Xuefeng
@@ -1588,6 +1580,11 @@ ops:
       when: July 20
       date: '1966-07-20'
       place: peking
+      time_range:
+      - 1966-07-20T04:00Z
+      - 1966-07-20T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
       thread: china-leadership
       c: The Tsinghua University 清華大學 work group frees Kuai Dafu 蒯大富, who has been held. He does not believe it; that afternoon, between three and four, he tries the grounds and, by
         the university wall, looking behind him, finds no one following.
@@ -1633,7 +1630,6 @@ ops:
         c: cd21080d
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 215–216: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 215 n.82: all'
       tags:
       - polity:prc
       - vis:only:prc
@@ -1714,3 +1710,323 @@ ops:
       - polity:prc
       - vis:only:prc
       - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1966-07-17.china-leadership-5
+      when: July 17
+      date: '1966-07-17'
+      place: shanghai
+      thread: china-leadership
+      c: Mao, in a telegram from Shanghai 上海 to Deng Xiaoping 邓小平, says he will return to preside over the plenum and that it may in no case meet before he is back. The meeting, set
+        for July 21 in Peking, is put off.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 220. Made public: 2016. To check: Zhou Liangxiao 周良霄 and Gu Juying 顧菊英, *Shinian wenge dashiji* 《十年文革大事記》 (Xindalu chubanshe 新大陸出版社, Hong
+        Kong, 2008), 109 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 220 n.5). Names: Mao Zedong, Deng Xiaoping. Check: the place; the calendar has Mao at Wuchang on July 17 ([[cal.1966-07-17.china-leadership]]).'
+      src:
+        c: 2f1c4a66
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 220: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 220 n.5: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - name:deng-xiaoping
+- cite:
+    id: cal.1966-08-01.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 220–221 (Aug. 1–12 in Peking; 141 members and alternates of the Central Committee and 47 non-voting attend; Deng Xiaoping announces four
+      items: the resolution on the proletarian cultural revolution; the Center''s major measures since the Tenth Plenum in domestic and foreign matters, to be discussed and approved;
+      the plenum communiqué; the formal approval of the May decisions on personnel; Liu reports the measures, and says that Peking''s cultural revolution made mistakes, especially over
+      the work groups, "for which the responsibility is mainly mine"; "in the cultural revolution Peking reported to the Chairman once a week")'
+    units: C, D, E, F, G
+- to-check:
+    id: cal.1966-08-01.china-leadership
+    add: Xi Xuan 席宣 and Jin Chunming 金春明, *"Wenhua dageming" jianshi* 《「文化大革命」簡史》, newest enlarged ed. (Zhonggong dangshi chubanshe 中共黨史出版社, 2011), 99 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 221 n.6)
+- src:
+    id: cal.1966-08-01.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 221 n.6: G'
+- variant:
+    id: cal.1966-08-01.china-leadership
+    unit: H
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: 'Mao interjects during Liu Shaoqi''s report: the work groups "played a role of suppressing the masses and obstructing them," and over 90 percent of them did nothing but evil
+      90%以上的工作組都是幹盡了壞事'
+    at: I, 221
+- cite:
+    id: cal.1966-08-04.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 221 (Aug. 4 Mao presides over an enlarged Standing Committee meeting and severely criticizes sending work groups as "suppression of the
+      student movement," a matter of direction, in fact of line, a line error, against Marxism; "suppression, terror, and the terror comes from the Center"; Liu takes the responsibility,
+      and Mao presses: "you ran a dictatorship in Peking, and ran it well"; Liu answers to his face: "it comes to no more than stepping down, I do not fear stepping down, there are five
+      things I do not fear"; Mao: "there are ghosts and monsters in this room"; the plenary session set for that day is not held)'
+    units: B, G, J, K
+- to-check:
+    id: cal.1966-08-04.china-leadership
+    add: '*Wenge shinian ziliao xuanbian* 《文革十年資料選編》 (Zhongyang wenxian yanjiushi 中央文獻研究室), as quoted in [[w.wenqian-wannian-zhou-enlai]], 125 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 221 n.7a)'
+- src:
+    id: cal.1966-08-04.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 221 n.8: B, G, J, K'
+- cite:
+    id: cal.1966-08-04.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 221 (that afternoon Liu speaks in the Central-South group and withdraws his note on Bulletin no. 9 of Peking University on the June 18
+      incident but still holds to catching rightists: "now the rightists make trouble and seize the leadership, do not be afraid, let them lead for a time and it will be clear, and then
+      counter-revolutionaries can be caught")'
+- to-check:
+    id: cal.1966-08-04.china-leadership-5
+    add: 'Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 191–192 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 221 n.9)'
+- cite:
+    id: cal.1966-08-04.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 221–222 (that evening nearly 20,000 gather at the East Field of Tsinghua; Zhou Enlai, Dong Biwu 董必武, Deng Xiaoping, Li Fuchun, Chen Boda,
+      Li Xuefeng, Tao Zhu, Wang Renzhong and the Cultural Revolution Group''s members attend, on low stools below the stage; Li Xuefeng presides and says the work group erred in direction
+      and line; Ye Lin 葉林 makes a self-criticism that the students find evasive; nine students speak, two views opposed; at 1 a.m. 凌晨1點 Zhou speaks at length: "I come to this meeting
+      at the Party Center''s and Chairman Mao''s wish to look into Tsinghua''s cultural revolution," and "from today a new Tsinghua is born")'
+- check:
+    id: cal.1966-08-04.china-leadership-4
+    text: 'Check: the day of Zhou''s speech; Yang gives it as 1 a.m., which is Aug. 5 (I, 221).'
+- cite:
+    id: cal.1966-08-05.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 222 (Aug. 5 Zhou, after a meeting at Mao''s, telephones Liu and advises him not to appear in public and not to receive foreign guests;
+      before the call Liu had received a Zambian delegation, his last meeting with foreigners)'
+- to-check:
+    id: cal.1966-08-05.china-leadership-5
+    add: '[[w.zhou-enlai-nianpu-1949]], III, 46 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 222 n.10) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 222 n.10)'
+- cite:
+    id: cal.1966-08-05.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 222–223 (Mao''s text, in pencil on the *Beijing ribao* of June 2, which carried Nie Yuanzi''s poster and the *Renmin ribao* commentator''s
+      article, dated Aug. 5, 1966 and printed in full on I, 222; the title and the date "3 a.m. Aug. 7" were added to the fair copy brushed by his secretary Xu Yefu 徐業夫; the document
+      issued to county and regiment level Aug. 17; published a year later, Aug. 5, 1967, in the *Renmin ribao*; Mao: the past two months it was I who was struck, and I hit back, the
+      Group right in this period and not the Center)'
+    units: B, C, D, E
+- to-check:
+    id: cal.1966-08-05.china-leadership
+    add: 'Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 194 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 223 n.12)'
+- variant:
+    id: cal.1966-08-05.china-leadership
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: 'the title "Bombard the Headquarters: My Big-Character Poster" 〈炮打司令部——我的一張大字報〉 is added to the brush copy, which Mao altered in a few characters, dated 3 a.m. Aug. 7 (1966年8月7日晨3時)'
+    at: I, 223
+- cite:
+    id: cal.1966-08-07.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 223 (that day the "poster" is printed and handed to the delegates)'
+    units: A
+- add:
+    entry:
+      id: cal.1966-08-07.china-leadership-6
+      when: Aug. 7
+      date: '1966-08-07'
+      time: 1966-08-06T19:00Z
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Mao corrects a few characters in the brush copy made by his secretary Xu Yefu 徐業夫 of what he wrote in pencil on the *Beijing ribao* of June 2, adds the title 〈炮打司令部——我的一張大字報〉
+        and dates it Aug. 7, 3 a.m.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 222–223. The words: 1966年8月7日晨3時 (I, 223). Made public: 2016. To check: Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu
+        haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 194 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 223 n.12). See [[cal.1966-08-05.china-leadership]].
+        Names: Mao Zedong.'
+      src:
+        c: 18034d7e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 222–223: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 223 n.12: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-08.china-leadership-34
+      when: Aug., after the 7th
+      date: 1966-08
+      at: after 1966-08-07
+      thread: china-leadership
+      c: 'One night during the plenum Zhou Enlai 周恩來 calls many of the army''s delegates and reads them Mao''s poster, and reads it a second time because they may not have heard. He
+        says: Liu Shaoqi will not do, he has failed the Chairman; Lin Biao has supported the Chairman for ten years, and the Chairman has called on the whole country to learn from the
+        army; nothing of the meeting is to go out. Qiu Huizuo 邱會作, who goes with Yang Chengwu 楊成武, and Wu Faxian 吳法憲 both give it, Wu in words that the Center decides to bring Lin to
+        Peking to take Liu''s place.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 223–224. Made public: 2008. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 446 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 223 n.13); *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008, 3rd ed.), 596 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 223 n.14). Names: Zhou Enlai,
+        Liu Shaoqi, Lin Biao, Qiu Huizuo, Mao Zedong.'
+      src:
+        c: 49f6b811
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 223–224: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 223 n.13: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 223 n.14: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:liu-shaoqi
+      - name:lin-biao
+      - name:qiu-huizuo
+      - name:mao-zedong
+      - ok:fields-place
+- cite:
+    id: cal.1966-08-06.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 224 (Aug. 4 Mao has his secretary telephone Lin Biao, resting at Dalian 大連, and Lin answers that evening that he supports Mao but cannot
+      attend for his health; Aug. 5 Mao tells him by telephone the contents of the poster; Aug. 6 in the morning Xu Yefu telephones that Lin must come)'
+    units: A
+- to-check:
+    id: cal.1966-08-06.china-leadership-2
+    add: '*Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 444 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.16)'
+- to-check:
+    id: cal.1966-08-06.china-leadership-2
+    add: Guan Weixun 管偉勲, *Wo suo zhidao de Ye Qun* 《我所知道的葉群》 (Zhongguo wenxue chubanshe 中國文學出版社, 1993), 218 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.17)
+- variant:
+    id: cal.1966-08-06.china-leadership-2
+    unit: B
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Aug. 7 evening Zhou tells Wu Faxian to send a plane to Dalian next day; Lin and Ye Qun 葉群 land at the western-suburb airport at 10:30 a.m. on Aug. 8 (Wu Faxian; the Mao chronology
+      has Lin back on the evening of Aug. 8, straight to the Great Hall)
+    at: I, 224
+- add:
+    entry:
+      id: cal.1966-08-08.china-leadership-11
+      when: Aug. 8
+      date: '1966-08-08'
+      place: peking
+      time: 1966-08-08T02:30Z
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: The plane with Lin Biao 林彪 and Ye Qun 葉群 lands at the western-suburb airport at 10:30 a.m. Zhou Enlai 周恩來, already there, has it stop at the north end of the runway, short of
+        the apron, and boards to meet Lin, Wang Dongxing 汪東興 coming up with him on Mao's behalf; they talk in the cabin more than half an hour.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 224. The words: 上午10點半 (I, 224). Made public: 2016. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008, 3rd
+        ed.), 594–595 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.18a); [[w.zedong-mao-zedong-nianpu]], V, 609 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.18b) (cited
+        by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.18b). Names: Lin Biao, Zhou Enlai, Mao Zedong. Check: the day and hour against the Mao chronology (V, 609), which has Lin back on
+        the evening of Aug. 8, straight to the Great Hall; Yang follows Wu Faxian, who fetched him.'
+      src:
+        c: 23fdcb6f
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 224: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 224 n.18a: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:zhou-enlai
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1966-08-08.china-leadership-12
+      when: Aug. 8
+      date: '1966-08-08'
+      time_range:
+      - 1966-08-07T22:00Z
+      - 1966-08-08T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Mao, who has not gone to sleep, waits for Lin Biao 林彪, and they meet at once. Mao: the situation changes fast, the masses have been roused beyond expectation, with so large
+        a matter you must come back to the meeting. Lin says he is unwell and cannot manage. Mao: you want to be Ming Shizong, the Jiajing emperor, who gave up affairs of state.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 224–225. The words: 上午...毛剛睡覺不久 (I, 224). Made public: 2016. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong,
+        2011), 444–445 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 225 n.19a); Cheng Guang 程光, *Xinling de duihua* 《心靈的對話》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 35 (cited by
+        [[w.yang-jisheng-tiandi-fanfu]], I, 225 n.19b). See [[cal.1966-08-08.china-leadership-7]]. Names: Mao Zedong, Lin Biao.'
+      src:
+        c: d9fd14d0
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 224–225: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 225 n.19a: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - name:lin-biao
+      - ok:fields-place
+- cite:
+    id: cal.1966-08-08.china-leadership-7
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 225 (that evening Lin Biao receives the members of the Cultural Revolution Group and declares his firm support for the cultural revolution
+      Mao started: "the supreme commander of this cultural revolution is our Chairman Mao"; the bourgeois reactionary authorities are to be put down and made to lose face, "turn heaven
+      and earth upside down, with a great stir, with great winds and waves, with great noise," so that the bourgeoisie cannot sleep and the proletariat cannot sleep)'
+- add:
+    entry:
+      id: cal.1966-08-06.china-leadership-6
+      when: Aug. 6
+      date: '1966-08-06'
+      thread: china-leadership
+      c: Zhou Enlai 周恩來 goes to Mao's for a meeting to settle the leaders' list, and on its basis draws up a draft list for Mao and Lin Biao 林彪. Mao, settling it, changes the order of
+        the Standing Committee and moves Tao Zhu 陶鑄 from seventh place up to fourth, after Zhou.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 225. Made public: 2016. To check: [[w.zhou-enlai-nianpu-1949]], III, 46 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 225 n.20) (cited by
+        [[w.yang-jisheng-tiandi-fanfu]], I, 225 n.20). Names: Zhou Enlai, Mao Zedong, Lin Biao, Tao Zhu.'
+      src:
+        c: 946a38b5
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 225: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 225 n.20: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:mao-zedong
+      - name:lin-biao
+      - name:tao-zhu
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-08.china-leadership-35
+      when: Aug., during the plenum
+      date: 1966-08
+      thread: china-leadership
+      c: 'On Wang Li''s 王力 account, the candidates for the Standing Committee are put forward by Mao himself and agreed by Lin Biao 林彪, Zhou Enlai 周恩來 and Jiang Qing 江青: from seven to
+        eleven, Mao, Lin, Zhou, Deng Xiaoping, Chen Boda, Kang Sheng, Liu Shaoqi, Zhu De, Chen Yun, Li Fuchun, Tao Zhu. Zhou takes the list to Lin and Jiang Qing. Jiang objects that
+        Deng has erred and should not go up; Chen Boda is put before Deng, and since Chen cannot hold Deng down while Tao Zhu is hard, Tao is brought up, to fourth, Chen fifth, Deng
+        sixth. Mao agrees. Tao Zhu, astonished, asks Mao to move him back; Mao answers that the list is fixed.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 225. Made public: 2011. To check: [[w.li-wang-li-fansi-lu]], the 2008 Beixing ed. 香港北星出版社 as Yang cites it, 37–38 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 225 n.21); Ma Encheng 馬恩成, 〈陶鑄在1966〉, *Bainian chao* 《百年潮》 1999 no. 11 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 225 n.22). Names: Lin Biao, Zhou Enlai, Jiang Qing, Deng
+        Xiaoping, Chen Boda, Kang Sheng, Liu Shaoqi, Zhu De, Chen Yun, Li Fuchun, Tao Zhu, Mao Zedong. Check: the day, and the contradiction between Wang Li''s order (Tao fourth, Chen
+        Boda fifth, Deng sixth) and the line above that Mao put Tao fourth himself on Aug. 6.'
+      src:
+        c: 548d3e8f
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 225: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 225 n.21: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 225 n.22: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:zhou-enlai
+      - name:jiang-qing
+      - name:deng-xiaoping
+      - name:chen-boda
+      - name:kang-sheng
+      - name:liu-shaoqi
+      - name:zhu-de
+      - name:chen-yun
+      - name:li-fuchun
+      - name:tao-zhu
+      - name:mao-zedong
+      - ok:fields-place
+- cite:
+    id: cal.1966-08-12.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 225–226 (Aug. 12, the last day; in the afternoon Lin Biao presides over the session; the elections: Tao Zhu, Chen Boda, Kang Sheng, Xu
+      Xiangqian 徐向前, Nie Rongzhen and Ye Jianying added to the Politburo; the eleven candidates for the Standing Committee all elected; full votes for Mao, Lin, Deng and Kang Sheng,
+      one short for Zhou, Tao Zhu and Chen Boda, the others over half; Liu from second place to eighth, Lin from sixth to second; no new chairman or vice-chairmen elected, and after
+      the plenum Liu, Zhou, Zhu and Chen Yun are no longer named vice-chairmen in documents, Lin alone being called vice-chairman of the Central Committee)'
+    units: B, E, F
+- to-check:
+    id: cal.1966-08-12.china-leadership
+    add: Wang Nianyi 王年一, 〈漫談文革〉, *Ershiyi shiji* 《二十一世紀》, Oct. 2006 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 226 n.23)
+- add:
+    entry:
+      id: cal.1966-08-24.china-leadership-6
+      when: Aug. 24
+      date: '1966-08-24'
+      thread: china-leadership
+      c: From Aug. 24 Zhou Enlai 周恩來, in place of Lin Biao 林彪, presides over the Center's daily work.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 227. Made public: 2016. Names: Zhou Enlai, Lin Biao. Check: the day; the page says only "from Aug. 24" and gives Lin''s health and Mao''s
+        checks as reasons.'
+      src:
+        c: a822569b
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 227: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:lin-biao
+      - ok:fields-place
