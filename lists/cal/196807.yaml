@@ -518,14 +518,14 @@ entries:
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 320–21 (№ 77, "т. Червоненко С.В. у телефона" (Comrade Chervonenko at the telephone), July 4). Made public: 2016. To check: Chervonenko''s reports to the Politburo. Names: Chervonenko, Brezhnev.'
     tags: [polity:ussr, polity:czechoslovakia, name:brezhnev-leonid, name:chervonenko-stepan-v, vis:only:ussr]
   - id: cal.1968-07-04.soviet-union-leadership-2
-    when: July 4–10
+    when: July 4
     date: '1968-07-04'
     place: moscow
     thread: soviet-union-leadership
     also: [middle-east]
-    c: Moscow. Nasser, President of the United Arab Republic. Brezhnev, with Podgorny and Kosygin, meets him July 4, 2 to 5; negotiates with the UAR delegation in the Kremlin July 5, 10 to 12 and 6 to 10 p.m., Kosygin, Podgorny, Ponomarev, Gromyko and Grechko with him; July 6 from 11 a.m.; a talk July 10 at the Lenin Hills house.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269–71 (July 4–10). Names: Brezhnev, Nasser, Podgorny, Kosygin, Ponomarev, Gromyko, Grechko.'
-    tags: [name:brezhnev-leonid, name:nasser-gamal-abdel, name:podgorny-nikolai-v, name:kosygin-aleksei, name:ponomarev-boris-n, name:gromyko-andrei, name:grechko-andrei-a, polity:ussr, polity:uar]
+    c: Moscow. Nasser, President of the United Arab Republic. Brezhnev, with Podgorny and Kosygin, meets him, 2 to 5.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269–71 (July 4; the visit July 4–10). Names: Brezhnev, Nasser, Podgorny, Kosygin.'
+    tags: [name:brezhnev-leonid, name:nasser-gamal-abdel, name:podgorny-nikolai-v, name:kosygin-aleksei, polity:ussr, polity:uar]
     time_range:
       - 1968-07-04T11:00Z
       - 1968-07-04T14:00Z
@@ -657,6 +657,36 @@ entries:
       - 1968-07-05T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1968-07-05.soviet-union-leadership
+    when: July 5
+    date: '1968-07-05'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [middle-east]
+    c: Moscow, the Kremlin. Brezhnev negotiates with the UAR delegation, 10 to 12 and 6 to 10 p.m., Kosygin, Podgorny, Ponomarev, Gromyko and Grechko with him.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269–71 (July 5). The time is the first session''s. See [[cal.1968-07-04.soviet-union-leadership-2]]. Names: Brezhnev, Kosygin, Podgorny, Ponomarev, Gromyko, Grechko.'
+    tags: [polity:ussr, polity:uar, name:brezhnev-leonid, name:kosygin-aleksei, name:podgorny-nikolai-v, name:ponomarev-boris-n, name:gromyko-andrei, name:grechko-andrei-a]
+    time_range:
+      - 1968-07-05T07:00Z
+      - 1968-07-05T09:00Z
+    time_zone: Europe/Moscow
+  - id: cal.1968-07-05.soviet-union-leadership-2
+    when: July 5
+    date: '1968-07-05'
+    thread: soviet-union-leadership
+    c: 'Night. The Politburo meets on domestic matters, by Brezhnev''s word to Nasser the next day: "not because something extraordinary happened."'
+    n: '"[Minutes of the Discussions between Cdes. L.I. Brezhnev, A.N. Kosygin, N.V. Podgorny and UAR President Nasser, 6 July 1968](https://digitalarchive.umd.edu/document/300530)" (July 6, 1968), RGANI, f. 80, op. 1, d. 602, ll. 113–143, contributed by Sergey Radchenko, trans. Angela Greenfield, Wilson Center Digital Archive (the July 6 session). The words: "Last evening [one word illegible] Politburo" and "There was a Politburo meeting at night on domestic matters." Names: Nasser. Check: the place; the minutes give none. Check: the year the Archive posted the minutes; its page gives none.'
+    src:
+      c: faeb3d14
+      rows:
+        - 'https://digitalarchive.umd.edu/document/300530: all'
+    tags: [polity:ussr, name:brezhnev-leonid, name:nasser-gamal-abdel, vis:only:ussr, vis:from:uar:1968-07-06]
+    time_range:
+      - 1968-07-05T19:00Z
+      - 1968-07-05T21:00Z
+    time_band: night
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1968-07-06.latin-america
     when: July 6–8
     date: '1968-07-06'
@@ -705,6 +735,22 @@ entries:
     c: 'Zhou Enlai, on the news that Long Qian, curator and first Party secretary of the Museum of the Chinese Revolution, is near death after rebels held a private court and tortured him, instructs: "act first, report after"; the Peking Garrison command is to send a responsible comrade to the museum at once to get him out; no mass organization may arrest people or hold private courts and torture. On July 4 the museum''s masses had written to Kang Sheng and Cao Yiou; Kang passed it to Zhou, Chen Boda and Yao Wenyuan to read and proposed no measure.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 239 (July 6, 1968). Made public: 2020. Names: Zhou Enlai, Kang Sheng, Chen Boda, Yao Wenyuan.'
     tags: [polity:prc, name:zhou-enlai, name:kang-sheng, name:chen-boda, name:yao-wenyuan, vis:only:prc]
+  - id: cal.1968-07-06.soviet-union-leadership-2
+    when: July 6
+    date: '1968-07-06'
+    time: 1968-07-06T08:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [middle-east]
+    c: Brezhnev, Kosygin and Podgorny with Nasser, from 11 a.m.; Gromyko and Vinogradov, Sadat and Riad there too. By the Soviet minutes Nasser asks for ties built on a shared socialist path and recalls his offer of a defense agreement, which he says he did not mean at once; Brezhnev answers that a treaty would aggravate the Middle East and add nothing, and says the USSR sent 575 heavy aircraft with arms. The Soviets offer MiG-21s in place of part of the Il-28s promised, Strela and Malyutka missiles, Grad rockets and crossing equipment, and speak of Arafat, now in Moscow, and the Egyptian army's want of political workers.
+    n: '"[Minutes of the Discussions between Cdes. L.I. Brezhnev, A.N. Kosygin, N.V. Podgorny and UAR President Nasser, 6 July 1968](https://digitalarchive.umd.edu/document/300530)" (July 6, 1968), RGANI, f. 80, op. 1, d. 602, ll. 113–143, contributed by Sergey Radchenko, trans. Angela Greenfield, Wilson Center Digital Archive (the July 6 session; secret, copy no. 2; the translation marks two pages illegible; it gives no hour; recorded by A. I. Kuz''min, interpreted by V. V. Posuvalyuk). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 269–71 (July 6, from 11 a.m.). See [[cal.1968-07-04.soviet-union-leadership-2]]. Names: Brezhnev, Kosygin, Podgorny, Nasser, Gromyko, Vinogradov, Sadat, Riad, Arafat. Check: the year the Archive posted the minutes; the workbooks'' 2016 may be later.'
+    src:
+      c: 977cbd80
+      rows:
+        - 'w.brezhnev-rabochie-i-dnevnikovye II, 269–71: A'
+        - 'https://digitalarchive.umd.edu/document/300530: A-E'
+    tags: [polity:ussr, polity:uar, name:brezhnev-leonid, name:kosygin-aleksei, name:podgorny-nikolai-v, name:nasser-gamal-abdel, name:gromyko-andrei, name:vinogradov-sergei-aleksandrovich, name:sadat-anwar, name:riad-mahmoud, name:arafat-yasser, vis:only:ussr+uar]
+    time_zone: Europe/Moscow
   - id: cal.1968-07-07.opinion
     when: July 7
     date: '1968-07-07'
@@ -1020,6 +1066,15 @@ entries:
     c: 'Route 9 from Cà Lu to the Lao border, over 40 kilometers, is wholly "liberated." The history ends the Route 9–North Quảng Trị Front''s 170 days: 11,000 of the enemy out of action (two thirds Americans), 197 aircraft downed, 80 transports sunk or burned, 78 vehicles and 46 guns destroyed. Jun. 26, it says, Abrams had ordered Khe Sanh abandoned and the survivors left Tà Cơn 11 days later.'
     n: '[[w.lich-su-khang-chien-chong-my]], V, 223. See [[cal.1968-06-27.vietnam]]. Names: Abrams. Check: the figures, which are the history''s.'
     tags: [polity:drv, polity:us, ok:fields-place, name:abrams-creighton]
+  - id: cal.1968-07-10.soviet-union-leadership
+    when: July 10
+    date: '1968-07-10'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [middle-east]
+    c: Moscow, the Lenin Hills house. Brezhnev in a talk with Nasser.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269–71 (July 10). See [[cal.1968-07-04.soviet-union-leadership-2]]. Names: Brezhnev, Nasser.'
+    tags: [polity:ussr, polity:uar, name:brezhnev-leonid, name:nasser-gamal-abdel]
   - id: cal.1968-07-11.court
     when: July 11
     date: '1968-07-11'

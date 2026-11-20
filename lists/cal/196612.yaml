@@ -1843,14 +1843,19 @@ entries:
         - 'via x.1966-12-15.ccco-steering-committee-minutes: all'
     tags: [state:il, city:chicago]
   - id: cal.1966-12-15.soviet-union-leadership
-    when: Dec. 15–16
+    when: Dec. 15
     date: '1966-12-15'
     place: moscow
     thread: soviet-union-leadership
     also: [vietnam]
-    c: Moscow. Brezhnev in talks with a North Vietnamese delegation, Dec. 15, 4 to 8 p.m., Suslov, Podgorny, Kosygin, Andropov and Gromyko with him; and Dec. 16, 5 to 9 p.m., Kosygin and Andropov with him.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 162 (Dec. 15–16). Names: Brezhnev, Kosygin, Andropov.'
-    tags: [name:brezhnev-leonid, name:kosygin-aleksei, name:andropov-yuriy-vladimirovich, polity:ussr, polity:drv]
+    c: Moscow. Brezhnev in talks with a North Vietnamese delegation, 4 to 8 p.m., Suslov, Podgorny, Kosygin, Andropov and Gromyko with him. By the Soviet record Lê Đức Thọ, for the DRV Politburo, reports four American strategic defeats in the South, the fighting in Tây Ninh, and the Polish channel to Lodge with its seven American points, given up by Hanoi after the bombing of the capital; Brezhnev tells him the CPSU plenum, ended the day before, has voted all-round aid.
+    n: '"[Record of a Conversation between CPSU CC General Secretary Cde. L. I. Brezhnev and Cde. Le Duc Tho, member of the Politburo and Secretary of the VWP CC](https://digitalarchive.umd.edu/document/177815)" (Dec. 15, 1966), RGANI, f. 80, op. 1, d. 521, ll. 29–80, contributed by Sergey Radchenko, trans. Gary Goldberg, Wilson Center Digital Archive (the first meeting; not examined by the participants; recorded by V. Zelentsov and Ye. Glazunov, two copies). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 162 (Dec. 15). Check: the year the Archive posted the record; the workbooks'' 2016 may be later. Names: Brezhnev, Kosygin, Andropov, Lê Đức Thọ, Suslov, Gromyko, Podgorny, Lodge.'
+    src:
+      c: 4162db2b
+      rows:
+        - 'w.brezhnev-rabochie-i-dnevnikovye II, 162: A-B'
+        - 'https://digitalarchive.umd.edu/document/177815: B-D'
+    tags: [name:brezhnev-leonid, name:kosygin-aleksei, name:andropov-yuriy-vladimirovich, polity:ussr, polity:drv, name:le-duc-tho, name:suslov-mikhail-a, name:gromyko-andrei, name:podgorny-nikolai-v, name:lodge-henry-cabot, vis:only:ussr+drv]
     time_range:
       - 1966-12-15T13:00Z
       - 1966-12-15T17:00Z
@@ -2186,6 +2191,29 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 285: all'
     tags: [polity:prc, name:xie-fuzhi, name:jiang-qing, name:liu-shaoqi]
+  - id: cal.1966-12-16.soviet-union-leadership-3
+    when: Dec. 16
+    date: '1966-12-16'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [vietnam]
+    c: 'Moscow. Brezhnev again with the North Vietnamese delegation, 5 to 9 p.m., Kosygin and Andropov with him. By the Soviet record Lê Đức Thọ says the Politburo means to fight and negotiate together once the U.S. ends the bombing unconditionally and finally, with the four or five points as the DRV''s terms; the Chinese and Koreans have been told, and he asks the Soviets to let the Americans know through some channel. Brezhnev: decide yourselves, but a Warsaw Pact capital or the USSR would serve better for talks than Cambodia.'
+    n: '"[Second Meeting: Record of a Conversation between CPSU CC General Secretary Cde. L. I. Brezhnev and Cde. Le Duc Tho, memeber of the Politburo and Secretary of the VWP CC](https://digitalarchive.umd.edu/document/177816)" (Dec. 16, 1966), RGANI, f. 80, op. 1, d. 521, ll. 29–80, contributed by Sergey Radchenko, trans. Gary Goldberg, Wilson Center Digital Archive (the second meeting; not examined by the participants; recorded by V. Zelentsov and I. Karpeshchenko, two copies). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 162 (Dec. 16). See [[cal.1966-12-15.soviet-union-leadership]]. Names: Brezhnev, Kosygin, Andropov, Lê Đức Thọ. Check: the year the Archive posted the record; the workbooks'' 2016 may be later.'
+    src:
+      c: eaeb1260
+      rows:
+        - 'https://digitalarchive.umd.edu/document/177816: C-E'
+        - 'w.brezhnev-rabochie-i-dnevnikovye II, 162: A-B'
+    tags: [polity:ussr, polity:drv, name:brezhnev-leonid, name:kosygin-aleksei, name:andropov-yuriy-vladimirovich, name:le-duc-tho, vis:only:ussr+drv]
+    time_range:
+      - 1966-12-16T14:00Z
+      - 1966-12-16T18:00Z
+    time_zone: Europe/Moscow
+    variants:
+      - unit: B
+        witness: x.1966-12-16.brezhnev-le-duc-tho-second-meeting
+        reads: 'present: Brezhnev, Kosygin, Suslov, Andropov and Gromyko'
+        at: ll. 29–80 (Dec. 16)
   - id: cal.1966-12-17.assassination
     when: Dec. 17
     date: '1966-12-17'

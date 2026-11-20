@@ -5133,13 +5133,14 @@ entries:
     place: peking
     thread: china-leadership
     also: [china, vietnam-hanoi]
-    c: Peking. Zhou Enlai receives the delegation of the National Liberation Front of South Vietnam, headed by Nguyễn Văn Hiếu.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 336 (Sept. 30, 1962; 下午). Names: Zhou Enlai.'
+    c: 'Peking. Zhou Enlai receives the delegation of the National Liberation Front of South Vietnam, headed by Nguyễn Văn Hiếu. Per the Chinese record, with Liao Chengzhi present and Ambassador Trần Tử Bình with the delegation, Zhou asks of its route, Indonesia, then Fuzhou, Guangzhou and Shanghai, and says China''s delegation at the Moscow disarmament conference lacked energy and kept a low profile, China''s mistake, and that friends found the document''s tone too low. He asks whether a committee to support the Front should be formed or the Afro-Asian People''s Solidarity Organization and the Chinese peace committee used, offers medicines, and proposes also tendering donations to Ngô Đình Diệm through the Red Cross, which will be refused and offered again. Nguyễn Văn Hiếu: in China either way will do.'
+    n: '"[Record of Talks from the Premier''s Meeting with the Delegation of the National Front for the Liberation of Southern Vietnam](https://digitalarchive.umd.edu/document/165384)" (Sept. 30, 1962), PRC FMA 106-00995-02, trans. Stephen Mercado, Wilson Center Digital Archive. [[w.zhou-enlai-waijiao-huodong]], 336 (Sept. 30, 1962; 下午). The time is "afternoon" (the record); the covering note of Oct. 11, 1962 forwards it. Names: Zhou Enlai, Nguyễn Văn Hiếu, Ngô Đình Diệm. Check: the year the Archive posted it.'
     src:
-      c: b4778792
+      c: bc268b7b
       rows:
-        - 'w.zhou-enlai-waijiao-huodong 336: all'
-    tags: [polity:prc, polity:nlf, name:zhou-enlai]
+        - 'w.zhou-enlai-waijiao-huodong 336: A, B'
+        - 'https://digitalarchive.umd.edu/document/165384: A-E'
+    tags: [polity:prc, polity:nlf, name:zhou-enlai, name:nguyen-van-hieu, vis:only:prc+nlf@C-E, name:ngo-dinh-diem]
     time_range:
       - 1962-09-30T04:00Z
       - 1962-09-30T10:00Z
@@ -5379,3 +5380,16 @@ entries:
     c: 'Quảng Nam. Region 5 uses four main-force battalions and local forces for the "crossing the Tiên river" campaign, in September, on the boundary of Tiên Phước, Quế Sơn, Thăng Bình and Tam Kỳ districts: 27 strategic hamlets broken, 7 communes and 13 villages taken, by the history''s count.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 182. Check: the day.'
     tags: [polity:drv]
+  - id: cal.1962-09.china-2
+    when: Sept., early
+    date: 1962-09
+    at: before 1962-09-01
+    thread: china
+    also: [trade, korea]
+    c: China and the DPRK begin to exchange views on long-term trade and the annual trade lists, per the PRC summary of Jan. 30, 1963.
+    n: '"[Summary of Trade Negotiations with Korea and Vietnam for 1963](https://digitalarchive.umd.edu/document/121759)" (Jan. 30, 1963), PRC FMA 106-01008-18, 48–53, obtained by Shen Zhihua, trans. Jeffrey Wang and Charles Kraus, Wilson Center Digital Archive. Check: the day. Check: the year the Archive posted it.'
+    src:
+      c: f0b2d95a
+      rows:
+        - 'https://digitalarchive.umd.edu/document/121759: all'
+    tags: [polity:prc, polity:dprk, vis:only:prc+dprk]

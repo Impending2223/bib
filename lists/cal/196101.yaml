@@ -4066,11 +4066,12 @@ entries:
     thread: soviet-union-leadership
     also: [china-leadership]
     c: 'Moscow. The CPSU Central Committee''s plenum closes, on agriculture: its problems to be the center of the Party''s attention; without a well-developed agriculture and plenty of farm products no flourishing socialist economy; a steady rise in farming a condition of building communism, the whole people''s cause.'
-    n: '[[w.yang-shangkun-riji]], I, 645 (Jan. 18, 1961; Jan. 21, Yang''s reading of it: in substance learned from us, at one with Mao''s "agriculture the foundation" 农业是基础 and our great drive for farming, only reworded). To check: *Pravda*, Jan. 1961, the plenum''s resolution.'
+    n: '"[Record of Conversation from Premier Zhou Enlai''s Reception of the Vietnamese Government Economic and Trade Delegation led by Vice Premier Nguyen Duy Trinh](https://digitalarchive.umd.edu/document/122017)" (Jan. 31, 1961), PRC FMA 106-00602-02, 11–17, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou to Nguyễn Duy Trinh, Jan. 31: Khrushchev''s report to the plenum owned that farming had yet to pass the test; a letter he gave the plenum, unpublished and told to China in confidence, sharply criticized its backwardness). [[w.yang-shangkun-riji]], I, 645 (Jan. 18, 1961; Jan. 21, Yang''s reading of it: in substance learned from us, at one with Mao''s "agriculture the foundation" 农业是基础 and our great drive for farming, only reworded). To check: *Pravda*, Jan. 1961, the plenum''s resolution.'
     src:
       c: 9808746c
       rows:
         - 'w.yang-shangkun-riji I, 645: all'
+        - 'https://digitalarchive.umd.edu/document/122017: B'
     tags: [polity:ussr]
   - id: cal.1961-01-18.china-leadership-3
     when: Jan. 18
@@ -7148,14 +7149,20 @@ entries:
     thread: china-leadership
     also: [laos, vietnam-hanoi, china]
     c: 'Zhou Enlai receives the DRV government''s economic delegation under Vice-Premier Nguyễn Duy Trinh and speaks on Laos: the civil war raised by the Phoumi–Boun Oum clique with American, Thai and South Vietnamese support threatens Southeast Asia, Vietnam and China. On industry: keep its scale down, for more industry needs more labor and market supply and hurts farming; China, which in eleven years never imported grain, must this year, from two years'' disaster and also from too much industry. Farming as base means asking how much grain, labor, raw material and market the village can give the city.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 388 (Jan. 31, 1961); [[w.zhou-enlai-waijiao-huodong]], 303 (Jan. 31, 1961; 晚6时, 人民大会堂). Made public: 1993. Names: Zhou Enlai.'
+    n: '"[Record of Conversation from Premier Zhou Enlai''s Reception of the Vietnamese Government Economic and Trade Delegation led by Vice Premier Nguyen Duy Trinh](https://digitalarchive.umd.edu/document/122017)" (Jan. 31, 1961), PRC FMA 106-00602-02, 11–17, trans. Stephen Mercado, Wilson Center Digital Archive. [[w.zhou-enlai-nianpu-1949]], II, 388 (Jan. 31, 1961); [[w.zhou-enlai-waijiao-huodong]], 303 (Jan. 31, 1961; 晚6时, 人民大会堂). Made public: 1993. Names: Zhou Enlai, Nguyễn Duy Trinh.'
     src:
       c: 0c5aeeca
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 388: ?'
         - 'w.zhou-enlai-waijiao-huodong 303: A'
-    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv]
+        - 'https://digitalarchive.umd.edu/document/122017: B, C, D'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv, name:nguyen-duy-trinh]
     time_zone: Asia/Shanghai
+    variants:
+      - unit: A
+        witness: x.1961-01-31.zhou-talk-nguyen-duy-trinh-delegation-record
+        reads: the record (6 p.m. to "let us go sign") has no talk of Laos
+        at: PRC FMA 106-00602-02, 11
   - id: cal.1961-01-31.china-leadership-2
     when: Jan. 31
     date: '1961-01-31'
@@ -7232,20 +7239,18 @@ entries:
   - id: cal.1961-01-31.china-leadership-4
     when: Jan. 31
     date: '1961-01-31'
+    time: 1961-01-31T12:30Z
     place: peking
     thread: china-leadership
-    also: [china, vietnam-hanoi, laos]
-    c: Peking, the Great Hall of the People. Zhou Enlai, at the banquet for the Vietnamese economic and trade delegation, says China fully supports the Vietnamese government's proposal of an international conference to secure Laos's peace and neutrality.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Jan. 31, 1961; 晚上). See [[cal.1961-01-31.china-leadership]]. Names: Zhou Enlai.'
+    also: [china, vietnam-hanoi, laos, foreign-aid]
+    c: 'Peking, the Great Hall of the People. Zhou Enlai, at the banquet for the Vietnamese economic and trade delegation, says China fully supports the Vietnamese government''s proposal of an international conference to secure Laos''s peace and neutrality. Per the Chinese record, Zhou with Nguyễn Duy Trinh at the banquet: Poland having declined, the DRV asks China to build a paper mill beside the Polish-aided Vạn Điểm sugar mill, and Zhou says China can consider it. The DRV asks for an aerial survey and mapping of North Vietnam; Zhou says China cannot do it in the first half of 1961, for Laos and for want of equipment, and the two sides will look again in the second half.'
+    n: '"[Record of Conversation from Premier Zhou Enlai''s Reception of Vietnamese Deputy Prime Minister Nguyen Duy Trinh](https://digitalarchive.umd.edu/document/176278)" (Jan. 31, 1961), PRC FMA 106-00602-02, 18–19, trans. Stephen Mercado, Wilson Center Digital Archive. The words: "8:30 p. m., 31 January 1961", Anhui Hall, Great Hall of the People (the record). [[w.zhou-enlai-waijiao-huodong]], 303 (Jan. 31, 1961; 晚上). See [[cal.1961-01-31.china-leadership]]. Names: Zhou Enlai, Nguyễn Duy Trinh.'
     src:
-      c: e07c5a37
+      c: de76cdf9
       rows:
-        - 'w.zhou-enlai-waijiao-huodong 303: all'
-    tags: [polity:prc, polity:drv, name:zhou-enlai]
-    time_range:
-      - 1961-01-31T11:00Z
-      - 1961-01-31T14:00Z
-    time_band: evening
+        - 'w.zhou-enlai-waijiao-huodong 303: A, B'
+        - 'https://digitalarchive.umd.edu/document/176278: A, C-E'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:nguyen-duy-trinh, vis:only:prc+drv@C-E]
     time_zone: Asia/Shanghai
   - id: cal.1961-01-31.china-leadership-5
     when: Jan. 31

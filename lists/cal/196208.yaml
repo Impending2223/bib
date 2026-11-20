@@ -3004,13 +3004,15 @@ entries:
     when: Aug. 20
     date: '1962-08-20'
     thread: vietnam-diplomacy
-    c: Cambodia, threatened by South Vietnam and Thailand, asks Kennedy for a neutral status like Laos's; Diệm resents the implication.
-    n: '[[w.futrell-united-states-air-force]], 140. Names: Diệm.'
+    also: [china]
+    c: Cambodia, threatened by South Vietnam and Thailand, asks Kennedy for a neutral status like Laos's; Diệm resents the implication. Sihanouk's letter of the day to Zhou Enlai, by Huang Zhen's account to him of Nov. 30, proposes an international conference to recognize and guarantee Cambodia's neutrality and territorial integrity.
+    n: '"[Minutes of Conversation between Chinese Vice Foreign Minister Huang Zhen and Cambodian King Norodom Sihanouk](https://digitalarchive.umd.edu/document/121900)" (Nov. 30, 1962), PRC FMA 106-01398-04, 57–61, obtained by Dai Chaowu, trans. 7Brands, Wilson Center Digital Archive. [[w.futrell-united-states-air-force]], 140. Names: Diệm, Sihanouk, Zhou Enlai.'
     src:
-      c: 1f16fe46
+      c: 8a2087ae
       rows:
-        - 'w.futrell-united-states-air-force 140: all'
-    tags: [name:ngo-dinh-diem]
+        - 'w.futrell-united-states-air-force 140: A, B'
+        - 'https://digitalarchive.umd.edu/document/121900: C'
+    tags: [name:ngo-dinh-diem, name:norodom-sihanouk, name:zhou-enlai, polity:cambodia, polity:prc]
     time_range:
       - 1962-08-20T02:00Z
       - 1962-08-20T10:00Z
@@ -4332,13 +4334,14 @@ entries:
     place: canton
     thread: china-leadership
     also: [china, vietnam-hanoi]
-    c: Canton, Baiyun airport. Zhou Enlai talks with Phạm Văn Đồng.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 334 (Aug. 28, 1962; 上午7时30分). Made public: 1993. See [[cal.1962-08-27.china-leadership]]. Names: Zhou Enlai, Phạm Văn Đồng.'
+    c: Canton, Baiyun airport. Zhou Enlai talks with Phạm Văn Đồng. Per the Chinese record, in the waiting room at 7:30 a.m., Phạm says he will report to the Politburo on the two matters Zhou raised the day before, that South Vietnam's revolution must rely on itself, and that the Lao forces at Nam Tha, short of food, are near disbanding and need China's help, and Zhou asks for a list. Zhou says the Soviet Union should resume its air transport to Laos, if need be at Souvanna Phouma's request, or China and the DRV should take it on by agreement with Laos, and Phạm says he will write Sihanouk in support of his proposal.
+    n: '"[Record of Premier Zhou''s Talk with Prime Minister Pham Van Dong](https://digitalarchive.umd.edu/document/176894)" (Aug. 28, 1962), PRC FMA 106-01394-14, 1–4, trans. Stephen Mercado, Wilson Center Digital Archive. [[w.zhou-enlai-waijiao-huodong]], 334 (Aug. 28, 1962; 上午7时30分). Made public: 1993. See [[cal.1962-08-27.china-leadership]]. Names: Zhou Enlai, Phạm Văn Đồng, Sihanouk, Souvanna Phouma.'
     src:
-      c: 484b747c
+      c: 9bf99840
       rows:
-        - 'w.zhou-enlai-waijiao-huodong 334: all'
-    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+        - 'w.zhou-enlai-waijiao-huodong 334: A, B'
+        - 'https://digitalarchive.umd.edu/document/176894: A-D'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv, name:norodom-sihanouk, name:souvanna-phouma, polity:laos]
     time_zone: Asia/Shanghai
   - id: cal.1962-08-28.china-leadership-3
     when: Aug. 28

@@ -855,14 +855,15 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, trade]
     c: 'Zhou Enlai receives the Vietnamese government''s economic and trade delegation under Vice-Premier Nguyễn Duy Trinh: first-five-year-plan targets should be set low enough to be exceeded each year, as Stalin said, but not very low, with a yearly check so they may be raised after the second and third years. The Leap''s gains great, with faults, such as drawing too much rural labor to the cities; in Asian and African states industry and farming should go together, on two legs; the village feeds the town and is its market.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 376 (Dec. 5, 1960); [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 5, 1960; 晚6时, 中南海西花厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 174 (Dec. 3–11, 1960, Jan. 20–Feb. 3, 1961; Nguyễn Duy Trinh (阮维桢), Vice-Premier, leads the Vietnamese government''s economic and trade delegation (the editors'' note: it was in the Soviet Union Dec. 11–Jan. 20); Zhou receives it). Made public: 1993. Names: Zhou Enlai.'
+    n: '"[Record of Conversation from Premier Zhou Enlai''s Reception of the Vietnamese Government Economic and Trade Delegation led by Vice Premier Nguyen Duy Trinh](https://digitalarchive.umd.edu/document/122016)" (Dec. 5, 1960), PRC FMA 106-00602-01, 1–10, trans. Stephen Mercado, Wilson Center Digital Archive. [[w.zhou-enlai-nianpu-1949]], II, 376 (Dec. 5, 1960); [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 5, 1960; 晚6时, 中南海西花厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 174 (Dec. 3–11, 1960, Jan. 20–Feb. 3, 1961; Nguyễn Duy Trinh (阮维桢), Vice-Premier, leads the Vietnamese government''s economic and trade delegation (the editors'' note: it was in the Soviet Union Dec. 11–Jan. 20); Zhou receives it). Made public: 1993. Names: Zhou Enlai, Nguyễn Duy Trinh.'
     src:
       c: 5c40d7b9
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 376: ?'
         - 'w.zhou-enlai-waijiao-huodong 295: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 174: A'
-    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv]
+        - 'https://digitalarchive.umd.edu/document/122016: A, B, C, D'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv, name:nguyen-duy-trinh]
     time_zone: Asia/Shanghai
   - id: cal.1960-12-05.soviet-union
     when: Dec. 5
@@ -2728,6 +2729,40 @@ entries:
         - 'w.dikotter-maos-great-famine 224: all'
         - 'via w.dikotter-maos-great-famine 224 n.2: all'
     tags: [polity:prc, ok:fields-time]
+  - id: cal.1960-12-16.vietnam-diplomacy
+    when: Dec. 16
+    date: '1960-12-16'
+    thread: vietnam-diplomacy
+    also: [laos, china-leadership]
+    c: 'The DRV''s ambassador calls on Sihanouk, as Sihanouk tells Mao next day: the DRV has given the Lao Patriotic Front no aid and abides by the Geneva agreements; calling its acts in Laos interference is wrong. Sihanouk tells him that is good.'
+    n: '"[Memorandum of Chairman Mao''s Conversation with Sihanouk on 17 December 1960](https://digitalarchive.umd.edu/document/120870)" (Dec. 17, 1960), PRC FMA 106-00274-01, 1–7, obtained by Yiming Feng, trans. Jake Tompkins, Wilson Center Digital Archive. The words: "last night" (Sihanouk, Dec. 17). Names: Sihanouk, Mao Zedong. Check: the year the Archive posted it.'
+    src:
+      c: 0dc8f2f1
+      rows:
+        - 'https://digitalarchive.umd.edu/document/120870: all'
+    tags: [name:norodom-sihanouk, name:mao-zedong, polity:drv, polity:cambodia, vis:only:cambodia+drv, vis:from:prc:1960-12-17, ok:fields-place]
+    time_range:
+      - 1960-12-16T14:00Z
+      - 1960-12-16T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1960-12-16.laos-2
+    when: Dec. 16
+    date: '1960-12-16'
+    thread: laos
+    also: [china-leadership, europe-and-the-alliance-france]
+    c: The French ambassador in Cambodia asks that the French embassy's officials and their families be allowed to move to Cambodia, as Sihanouk tells Mao next day of a report he received "last night"; Sihanouk takes it to show that the French and Americans cannot stand to be together in Vientiane.
+    n: '"[Memorandum of Chairman Mao''s Conversation with Sihanouk on 17 December 1960](https://digitalarchive.umd.edu/document/120870)" (Dec. 17, 1960), PRC FMA 106-00274-01, 1–7, obtained by Yiming Feng, trans. Jake Tompkins, Wilson Center Digital Archive. Names: Sihanouk, Mao Zedong. Check: the year the Archive posted it.'
+    src:
+      c: '32127442'
+      rows:
+        - 'https://digitalarchive.umd.edu/document/120870: all'
+    tags: [name:norodom-sihanouk, name:mao-zedong, polity:fr, polity:cambodia, polity:laos, vis:only:fr+cambodia, vis:from:prc:1960-12-17, ok:fields-place]
+    time_range:
+      - 1960-12-16T14:00Z
+      - 1960-12-16T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1960-12-17.transition-and-staff-cabinet
     when: Dec. 17
     date: '1960-12-17'
@@ -2770,17 +2805,18 @@ entries:
     time: 1960-12-17T09:00Z
     place: peking
     thread: china-leadership
-    also: [laos]
-    c: 'The Qinzheng Hall. Mao receives Prince Sihanouk, Cambodia''s head of state, his wife and Penn Nouth, Prime Minister, at dinner; Liu Shaoqi, Zhu De, Zhou Enlai, Peng Zhen, Chen Yi and others present. In his absence Laos has changed: Phoumi, backed by America, its guns and officers, has taken most of Vientiane; Laos now America''s question, not Britain''s or France''s.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 17, 1960. [[w.zhou-enlai-nianpu-1949]], II, 380, Dec. 17, 1960 (Zhou present). [[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 17, 1960; 下午5时, 中南海勤政殿, with Deng Yingchao); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 17, 1960; Liu, with Mao, Zhu De and Zhou Enlai, meets Sihanouk). Made public: 1993. Names: Mao Zedong, Sihanouk, Penn Nouth, Phoumi, Liu Shaoqi, Zhu De, Zhou Enlai, Peng Zhen, Chen Yi.'
+    also: [laos, vietnam-diplomacy]
+    c: 'The Qinzheng Hall. Mao receives Prince Sihanouk, Cambodia''s head of state, his wife and Penn Nouth, Prime Minister, at dinner; Liu Shaoqi, Zhu De, Zhou Enlai, Peng Zhen, Chen Yi and others present. In his absence Laos has changed: Phoumi, backed by America, its guns and officers, has taken most of Vientiane; Laos now America''s question, not Britain''s or France''s. Per the Chinese record, Mao passes on Hồ Chí Minh''s greetings, his invitation to visit the DRV and his request for diplomatic relations; Sihanouk cannot go now, returning to Phnom Penh Dec. 26, and keeps no relations with a divided country, offering consulates instead, as in New Delhi.'
+    n: '"[Memorandum of Chairman Mao''s Conversation with Sihanouk on 17 December 1960](https://digitalarchive.umd.edu/document/120870)" (Dec. 17, 1960), PRC FMA 106-00274-01, 1–7, obtained by Yiming Feng, trans. Jake Tompkins, Wilson Center Digital Archive. [[w.zedong-mao-zedong-nianpu]], IV, Dec. 17, 1960. [[w.zhou-enlai-nianpu-1949]], II, 380, Dec. 17, 1960 (Zhou present). [[w.zhou-enlai-waijiao-huodong]], 296 (Dec. 17, 1960; 下午5时, 中南海勤政殿, with Deng Yingchao); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 17, 1960; Liu, with Mao, Zhu De and Zhou Enlai, meets Sihanouk). The words: "Time: 17 December 1960, 5:00pm / Location: Zhongnanhai Government Reception Hall" (the record''s heading). Made public: 1993. Names: Mao Zedong, Sihanouk, Penn Nouth, Phoumi, Liu Shaoqi, Zhu De, Zhou Enlai, Peng Zhen, Chen Yi, Hồ Chí Minh.'
     src:
-      c: 13935b9c
+      c: 61de3a4f
       rows:
-        - 'w.zedong-mao-zedong-nianpu IV, Dec. 17, 1960: all'
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 17, 1960: A-E'
         - 'w.zhou-enlai-nianpu-1949 II, 380, Dec. 17, 1960: A'
         - 'w.zhou-enlai-waijiao-huodong 296: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: C'
-    tags: [polity:prc, polity:cambodia, name:mao-zedong, name:norodom-sihanouk, name:phoumi-nosavan, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:peng-zhen, name:chen-yi, name:penn-nouth, vis:only:prc+cambodia]
+        - 'https://digitalarchive.umd.edu/document/120870: D, E, F-G'
+    tags: [polity:prc, polity:cambodia, name:mao-zedong, name:norodom-sihanouk, name:phoumi-nosavan, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:peng-zhen, name:chen-yi, name:penn-nouth, vis:only:prc+cambodia, name:ho-chi-minh, polity:drv]
     time_zone: Asia/Shanghai
   - id: cal.1960-12-17.china-leadership-2
     when: Dec. 17
@@ -3017,12 +3053,18 @@ entries:
     thread: china
     also: [laos]
     c: 'The Chinese government again issues a statement on Laos: the U.S.-backed rebel clique''s large-scale civil war gravely threatens peace in Asia and the world and China''s security. All peace-loving states and peoples should oppose and stop this fanning of the flames. China backs the Vietnamese government''s proposal to convene the Geneva conference of the states concerned to stop U.S. aggression.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 177–178 (Dec. 19, 1960). See [[cal.1960-12-14.china]].'
+    n: '"[Summary of Talks between Prime Minister Zhou Enlai and Norodom Sihanouk while Driving to Nanjing on December 20th](https://digitalarchive.umd.edu/document/120871)" (Dec. 29, 1960), PRC FMA 106-00274-03, 10–11, obtained by Yiming Feng, trans. Marian Rosenberg, Wilson Center Digital Archive (Zhou to Sihanouk, Dec. 20: the statement issued "yesterday (the 19th) evening", backing the DRV''s proposal of a new Geneva Conference). [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 177–178 (Dec. 19, 1960). See [[cal.1960-12-14.china]].'
     src:
       c: 18c082aa
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 177–178: all'
+        - 'https://digitalarchive.umd.edu/document/120871: C'
     tags: [polity:prc, polity:laos, polity:drv, polity:us]
+    time_range:
+      - 1960-12-19T11:00Z
+      - 1960-12-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-12-19.china-leadership-7
     when: Dec. 19
     date: '1960-12-19'
@@ -3090,14 +3132,15 @@ entries:
     date: '1960-12-20'
     thread: china-leadership
     also: [laos, china]
-    c: 'Zhou Enlai with Chen Yi takes Sihanouk and his wife to Nanjing and Hangzhou. On the train to Nanjing: China supports the United Nations, which has some use, but America commands the voting machine, its majority shrinking but still a majority; the Congo is the case, with states now withdrawing from the UN force and Lumumba having brought the UN in and been unable to get it out. So China wants the Laos question settled in the form of the Geneva Conference, not because China is outside the UN but because America can still manipulate it.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 380 (Dec. 20, 1960); [[w.zhou-enlai-waijiao-huodong]], 296–97 (Dec. 20, 1960; 上午). Made public: 1993. Names: Zhou Enlai, Chen Yi, Sihanouk.'
+    c: 'Zhou Enlai with Chen Yi takes Sihanouk and his wife to Nanjing and Hangzhou. On the train to Nanjing: China supports the United Nations, which has some use, but America commands the voting machine, its majority shrinking but still a majority; the Congo is the case, with states now withdrawing from the UN force and Lumumba having brought the UN in and been unable to get it out. So China wants the Laos question settled in the form of the Geneva Conference, not because China is outside the UN but because America can still manipulate it. Per the Chinese summary, from the interpreter''s recollection: Zhou tells Sihanouk that China''s statement of the evening before backs the DRV''s call for a new Geneva Conference; Sihanouk says Cambodia will first state that it will attend, and would have Thailand and South Vietnam invited; Zhou: then India and Burma too, and Canada and Poland if wider, Cambodia to propose it, and Cambodia''s Foreign Ministry to hand the statement to Saigon. Sihanouk says Cambodia would join the neutral states'' commission of inquiry on the Congo that Khrushchev proposes.'
+    n: '"[Summary of Talks between Prime Minister Zhou Enlai and Norodom Sihanouk while Driving to Nanjing on December 20th](https://digitalarchive.umd.edu/document/120871)" (Dec. 29, 1960), PRC FMA 106-00274-03, 10–11, obtained by Yiming Feng, trans. Marian Rosenberg, Wilson Center Digital Archive. [[w.zhou-enlai-nianpu-1949]], II, 380 (Dec. 20, 1960); [[w.zhou-enlai-waijiao-huodong]], 296–97 (Dec. 20, 1960; 上午). The record: "not reviewed, according to interpreter comrade QI Zonghua''s recollection" (10). Made public: 1993. Names: Zhou Enlai, Chen Yi, Sihanouk, Khrushchev.'
     src:
-      c: 49f9a79e
+      c: a677dd4f
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 380: ?'
         - 'w.zhou-enlai-waijiao-huodong 296–97: A'
-    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:chen-yi, name:norodom-sihanouk, vis:only:prc+cambodia]
+        - 'https://digitalarchive.umd.edu/document/120871: B-H'
+    tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:chen-yi, name:norodom-sihanouk, vis:only:prc+cambodia, name:khrushchev-nikita-s, polity:drv]
     time_range:
       - 1960-12-19T22:00Z
       - 1960-12-20T04:00Z

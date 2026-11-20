@@ -1254,20 +1254,23 @@ entries:
     n: '[[w.johnson-white-house-diary]], 237–38 (Mrs. Johnson''s account). To check: 1965 Pub. Papers. Names: Johnson, Lady Bird Johnson.'
     tags: [name:johnson-lady-bird, name:johnson-lyndon-b]
   - id: cal.1965-02-05.china-leadership
-    when: Feb. 5–6
+    when: Feb. 5
     date: '1965-02-05'
     place: peking
     thread: china-leadership
     also: [soviet-union, vietnam-hanoi, china]
-    c: 'Zhou has four talks, Feb. 5 and 6, with Kosygin, chairman of the Soviet Council of Ministers, passing through Beijing to Vietnam. Both sides hold that Sino-Soviet relations should develop. Zhou''s six proposals: for the fifteenth anniversary of the Sino-Soviet treaty, to print each other''s messages and speeches in the papers, showing one attitude; develop trade, long-term cooperation on some items; finish earlier projects left unfinished; carry out the yearly cultural plan better; China to send students and take Soviet ones in turn; carry out the travel agreement. Kosygin agrees to all six.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 706 (Feb. 5–6, 1965); [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5–6, 1965; the four talks: the first on the road from the airport to the Diaoyutai guesthouse; the second at the banquet that evening; the third from 9 p.m. to 1:55 a.m. the next day; the fourth, Feb. 6, 9 a.m., on the road from the guesthouse to the airport); [[w.lengxi-shinian-lunzhan-1956-1966]], 913 (Kosygin flew from Moscow Feb. 5, two days in Peking, Zhou''s talks with him; to Vietnam Feb. 7, Wu says). Made public: 1993. Names: Zhou Enlai, Kosygin.'
+    follows:
+      - cal.1965-02-05.china-leadership-2
+    c: 'Zhou''s first talk with Kosygin, chairman of the Soviet Council of Ministers, passing through Peking to Vietnam, on the road from the airport to the Diaoyutai guesthouse. Kosygin asks to call on Mao and Liu Shaoqi; he and Zhou are for joint action on Vietnam, Zhou saying the Americans must withdraw under the Geneva accords of 1954; Kosygin says the CPSU has a new attitude to the meeting of Mar. 1, and Zhou says to start again from scratch. Of the four talks of Feb. 5–6, by the Nianpu: both sides hold that Sino-Soviet relations should develop. Zhou''s six proposals: for the fifteenth anniversary of the Sino-Soviet treaty, to print each other''s messages and speeches in the papers, showing one attitude; develop trade, long-term cooperation on some items; finish earlier projects left unfinished; carry out the yearly cultural plan better; China to send students and take Soviet ones in turn; carry out the travel agreement. Kosygin agrees to all six.'
+    n: '"[Record of the First Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin](https://digitalarchive.umd.edu/document/165488)" (Feb. 6, 1965 by the Archive; Feb. 5 by the record), PRC FMA 109-03957-04, 1–21, trans. Stephen Mercado, Wilson Center Digital Archive (top secret document 75, the Premier and Chen not having reviewed it; Part One, the first contact, on the way from the airport to the Diaoyutai State Guest House, Yan Mingfu interpreting; at the hotel, in notes written from memory, Kosygin says China seems to favor the Wilson government, which Zhou calls a Western rumor. Parts Two and Three, Chen Yi with Andropov and the other comrades, are in the record''s content summary only). [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5–6, 1965; the four talks: the first on the road from the airport to the Diaoyutai guesthouse; the second at the banquet that evening; the third from 9 p.m. to 1:55 a.m. the next day; the fourth, Feb. 6, 9 a.m., on the road from the guesthouse to the airport); [[w.lengxi-shinian-lunzhan-1956-1966]], 913 (Kosygin flew from Moscow Feb. 5, two days in Peking, Zhou''s talks with him; to Vietnam Feb. 7, Wu says); [[w.zhou-enlai-nianpu-1949]], II, 706 (Feb. 5–6, 1965; the talks together: both sides for developing relations, the six proposals, Kosygin''s assent; it does not say in which talk). Made public: 1993. After the welcome at the airport, [[cal.1965-02-05.china-leadership-2]]: the record''s "on the way from the airport". No time set: the record''s heading gives 3 p.m., but its text has lunch "later" and the talks with Guevara "this afternoon", and the Waijiao has Kosygin at the airport at noon. Names: Zhou Enlai, Kosygin, Mao Zedong, Liu Shaoqi. Check: the hour. Check: in which talk Zhou made the six proposals.'
     src:
-      c: cca6f6ed
+      c: bf3d2608
       rows:
-        - 'w.zhou-enlai-nianpu-1949 II, 706: ?'
+        - 'https://digitalarchive.umd.edu/document/165488: A-D'
         - 'w.zhou-enlai-waijiao-huodong 435: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 913: A'
-    tags: [name:zhou-enlai, name:kosygin-aleksei, polity:prc, polity:ussr, vis:only:prc+ussr]
+        - 'w.zhou-enlai-nianpu-1949 II, 706: E-L'
+    tags: [name:zhou-enlai, name:kosygin-aleksei, polity:prc, polity:ussr, vis:only:prc+ussr, name:mao-zedong, name:liu-shaoqi]
   - id: cal.1965-02-05.china-leadership-2
     when: Feb. 5
     date: '1965-02-05'
@@ -1311,10 +1314,10 @@ entries:
     place: peking
     thread: china-leadership
     also: [soviet-union]
-    c: Zhou gives a banquet for Kosygin and his delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5, 1965; evening; Beijing). See [[cal.1965-02-05.china-leadership]]. Names: Zhou Enlai, Kosygin.'
+    c: Zhou gives a banquet for Kosygin and his delegation; their second talk.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5, 1965; evening; Beijing; the second of the four talks of Feb. 5–6 at the banquet). See [[cal.1965-02-05.china-leadership]]. Names: Zhou Enlai, Kosygin.'
     src:
-      c: 82a1e668
+      c: ac886dfd
       rows:
         - 'w.zhou-enlai-waijiao-huodong 435: all'
     tags: [polity:prc, name:zhou-enlai, name:kosygin-aleksei]
@@ -1368,6 +1371,50 @@ entries:
       - 1965-02-05T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-02-05.china-leadership-8
+    when: Feb. 5
+    date: '1965-02-05'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union, vietnam-hanoi]
+    follows:
+      - cal.1965-02-05.china-leadership-2
+    c: Chen Yi and Andropov talk on the way from the airport to the Diaoyutai guesthouse. By the record's summary Andropov says the Soviet delegation's visit to Vietnam is to strengthen party and state ties and settle technical military aid, and that China and the Soviet Union should talk on supporting the Vietnamese people. He says the CPSU has a new view of the Mar. 1 meeting and the Chinese comrades should change theirs, and that the delegation returns through Peking after four days in Vietnam.
+    n: '"[Record of the First Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin](https://digitalarchive.umd.edu/document/165488)" (Feb. 6, 1965), PRC FMA 109-03957-04, 1–21, trans. Stephen Mercado, Wilson Center Digital Archive. The Archive dates the record Feb. 6; the record itself gives Feb. 5, its heading 3 p.m., on the way from the airport to the Diaoyutai State Guest House. Top secret document 75, Part Two, the Premier and Chen not having reviewed it; the file prints this part only in the record''s content summary (items 4 to 6), not its text. After the welcome at the airport ([[cal.1965-02-05.china-leadership-2]]): the record''s "on the way from the airport". No time set: the heading''s 3 p.m. does not square with the record''s text (Zhou: lunch "later", the talks with Guevara "this afternoon") or with the Waijiao''s noon at the airport. See [[cal.1965-02-05.china-leadership]]. Names: Chen Yi, Andropov. Check: the hour. Check: the year the Archive posted the document.'
+    tags: [polity:prc, polity:ussr, name:chen-yi, name:andropov-yuriy-vladimirovich, vis:only:prc+ussr]
+  - id: cal.1965-02-05.china-leadership-9
+    when: Feb. 5
+    date: '1965-02-05'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1965-02-05.china-leadership-2
+    c: Kuznetsov, Soviet first deputy foreign minister, tells the Chinese side that Johnson and Wilson both want to visit the Soviet Union and that Kosygin will also visit the United States and Britain, the dates not fixed.
+    n: '"[Record of the First Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin](https://digitalarchive.umd.edu/document/165488)" (Feb. 6, 1965), PRC FMA 109-03957-04, 1–21, trans. Stephen Mercado, Wilson Center Digital Archive. Part Three, "Summary of Other Comrades'' Conversations"; the file prints it only in the record''s content summary (item 7), not its text, and names no Chinese listener. The place is the record''s heading''s, for all its parts (on the way from the airport to the Diaoyutai State Guest House); no time set (see [[cal.1965-02-05.china-leadership-8]]). Names: Kuznetsov. Check: the year the Archive posted the document.'
+    tags: [polity:prc, polity:ussr, name:kuznetsov-vasily-v, vis:only:prc+ussr]
+  - id: cal.1965-02-05.china-leadership-10
+    when: Feb. 5
+    date: '1965-02-05'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1965-02-05.china-leadership-2
+    c: Loginov, Soviet air marshal, tells the Chinese side that in the coming talks on revising the civil aviation agreement and its protocol Soviet civil aviation will take care not to harm Chinese civil aviation's interests.
+    n: '"[Record of the First Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin](https://digitalarchive.umd.edu/document/165488)" (Feb. 6, 1965), PRC FMA 109-03957-04, 1–21, trans. Stephen Mercado, Wilson Center Digital Archive. Part Three, "Summary of Other Comrades'' Conversations"; the file prints it only in the record''s content summary (item 8), not its text, and names no Chinese listener. The place is the record''s heading''s, for all its parts (on the way from the airport to the Diaoyutai State Guest House); no time set (see [[cal.1965-02-05.china-leadership-8]]). Check: the year the Archive posted the document.'
+    tags: [polity:prc, polity:ussr, vis:only:prc+ussr]
+  - id: cal.1965-02-05.china-leadership-11
+    when: Feb. 5–6
+    date: '1965-02-05'
+    time: 1965-02-05T13:00Z
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou's third talk with Kosygin, 9 p.m. to 1:55 a.m.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5–6, 1965; the third of the four talks, from 9 p.m. to 1:55 a.m. the next day; the book gives no content). The time is the first day''s. The place: Kosygin''s stay at Peking, his first and fourth talks with Zhou on the roads to and from the Diaoyutai guesthouse. Made public: 1993. See [[cal.1965-02-05.china-leadership]]. Names: Zhou Enlai, Kosygin.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:kosygin-aleksei, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-06.soviet-union
     when: Feb. 6–10
     date: '1965-02-06'
@@ -1375,7 +1422,7 @@ entries:
     thread: soviet-union
     also: [vietnam]
     c: Kosygin in Hanoi; the attack at Pleiku and the first reprisal strikes while he is there. A destroyer patrol in the Gulf of Tonkin had been called off for the visit. A Soviet government statement promises "further measures to safeguard the security and strengthen the defensive capability" of the North.
-    n: 'FRUS 1964–68, II, docs. [82](https://history.state.gov/historicaldocuments/frus1964-68v02/d82), [87](https://history.state.gov/historicaldocuments/frus1964-68v02/d87), [98](https://history.state.gov/historicaldocuments/frus1964-68v02/d98), [111](https://history.state.gov/historicaldocuments/frus1964-68v02/d111) (Feb. 11). [[w.drea-mcnamara-clifford-and-the-2011]], 56 (Kosygin in Hanoi; the attack at Pleiku and the reprisal); [[w.staaveren-gradual-failure]], 11 (Kosygin in Hanoi from Feb. 4; the De Soto patrol called off); [[w.dobrynin-in-confidence]], 139–40 (Fulbright to Dobrynin: Johnson hesitated whether to wait for Kosygin to leave; Rusk''s excuses; the strongly worded Soviet message; Kosygin turned against Johnson); [[w.bernstein-guns-or-butter]], 344 (to persuade Hanoi to discuss peace; refused, more arms asked and given); [[w.logevall-choosing-war]], 322 (Kosygin in Hanoi in early February, at the time of McGeorge Bundy''s visit to Saigon; not Pleiku or the destroyer patrol); [[w.macfarquhar-origins-of-the-cultural]], III, 372 (Kosygin''s visit to Hanoi in February 1965 brings new Soviet military aid). [[w.preston-war-council]], 175, 184 (Dobrynin to Thompson, Feb. 7: further strikes "a deliberate provocation"; the Soviet statements, 184). To check: [[w.gaiduk-soviet-union-and-the]]; [[w.zhai-china-and-the-vietnam]]; Hist, CINCPAC, 1965, Vol II, pp 317–18 (cited by [[w.staaveren-gradual-failure]], 11 n.4a); CINCPACFLT rpt, The United States Navy in the Pacific, 1965, pp 13–14 (cited by [[w.staaveren-gradual-failure]], 11 n.4b); *New York Times*, 11 Feb 65 (cited by [[w.staaveren-gradual-failure]], 11 n.4c); [[w.griffith-sino-soviet-relations-1964]], 72–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 372 n.156). See [[cal.1964-10-15.soviet-union]]. Names: Kosygin.'
+    n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou''s account to the Romanian leaders: the Vietnamese told Kosygin that it was not the moment for negotiations; Kosygin said that Soviet arms would henceforth be free, gave the South medical aid only, and pressed for a common declaration of the socialist countries. FRUS 1964–68, II, docs. [82](https://history.state.gov/historicaldocuments/frus1964-68v02/d82), [87](https://history.state.gov/historicaldocuments/frus1964-68v02/d87), [98](https://history.state.gov/historicaldocuments/frus1964-68v02/d98), [111](https://history.state.gov/historicaldocuments/frus1964-68v02/d111) (Feb. 11). [[w.drea-mcnamara-clifford-and-the-2011]], 56 (Kosygin in Hanoi; the attack at Pleiku and the reprisal); [[w.staaveren-gradual-failure]], 11 (Kosygin in Hanoi from Feb. 4; the De Soto patrol called off); [[w.dobrynin-in-confidence]], 139–40 (Fulbright to Dobrynin: Johnson hesitated whether to wait for Kosygin to leave; Rusk''s excuses; the strongly worded Soviet message; Kosygin turned against Johnson); [[w.bernstein-guns-or-butter]], 344 (to persuade Hanoi to discuss peace; refused, more arms asked and given); [[w.logevall-choosing-war]], 322 (Kosygin in Hanoi in early February, at the time of McGeorge Bundy''s visit to Saigon; not Pleiku or the destroyer patrol); [[w.macfarquhar-origins-of-the-cultural]], III, 372 (Kosygin''s visit to Hanoi in February 1965 brings new Soviet military aid). [[w.preston-war-council]], 175, 184 (Dobrynin to Thompson, Feb. 7: further strikes "a deliberate provocation"; the Soviet statements, 184). To check: [[w.gaiduk-soviet-union-and-the]]; [[w.zhai-china-and-the-vietnam]]; Hist, CINCPAC, 1965, Vol II, pp 317–18 (cited by [[w.staaveren-gradual-failure]], 11 n.4a); CINCPACFLT rpt, The United States Navy in the Pacific, 1965, pp 13–14 (cited by [[w.staaveren-gradual-failure]], 11 n.4b); *New York Times*, 11 Feb 65 (cited by [[w.staaveren-gradual-failure]], 11 n.4c); [[w.griffith-sino-soviet-relations-1964]], 72–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 372 n.156). See [[cal.1964-10-15.soviet-union]]. Names: Kosygin.'
     src:
       c: 43968b2a
       rows:
@@ -1394,6 +1441,7 @@ entries:
         - 'w.logevall-choosing-war 322: A'
         - 'w.macfarquhar-origins-of-the-cultural III, 372: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 372 n.156: A'
+        - 'https://digitalarchive.umd.edu/document/122552: A'
     tags: [name:kosygin-aleksei, place:hanoi]
     short: Kosygin in Hanoi and Peking
   - id: cal.1965-02-06.vietnam-congress
@@ -1567,13 +1615,24 @@ entries:
       - 1965-02-06T16:00Z
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1965-02-06.china-leadership-2
+    when: Feb. 6
+    date: '1965-02-06'
+    time: 1965-02-06T01:00Z
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Zhou's fourth talk with Kosygin, Peking, 9 a.m., on the road from the Diaoyutai guesthouse to the airport.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5–6, 1965; the fourth of the four talks, Feb. 6, 9 a.m., on the road from the guesthouse to the airport; the book gives no content). Made public: 1993. See [[cal.1965-02-05.china-leadership]]. Names: Zhou Enlai, Kosygin.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:kosygin-aleksei, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-07.vietnam
     when: Feb. 7–8
     date: '1965-02-07'
     place: pleiku
     thread: vietnam
     c: 'Pleiku. Before dawn the Viet Cong attack the American advisers'' compound and the Camp Holloway airfield: 7 Americans killed, 109 wounded, by the first count; aircraft destroyed. McGeorge Bundy, in Saigon since Feb. 4, and Taylor recommend reprisal; the NSC, meeting the evening of Feb. 6 in Washington, approves. Flaming Dart: of four army barracks in southern North Vietnam, Navy planes from the carriers hit Đồng Hới, the others weathered in; Feb. 8, South Vietnamese planes, with American cover, strike Chấp Lễ. Johnson orders American dependents home. Check the final count.'
-    n: 'Statement by the President Upon Ordering Withdrawal of American Dependents From South Viet-Nam, [1965 Pub. Papers 153](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=229) (Feb. 7, 1965). FRUS 1964–68, II, docs. [76](https://history.state.gov/historicaldocuments/frus1964-68v02/d76), [77](https://history.state.gov/historicaldocuments/frus1964-68v02/d77), [78](https://history.state.gov/historicaldocuments/frus1964-68v02/d78), [79](https://history.state.gov/historicaldocuments/frus1964-68v02/d79), [80](https://history.state.gov/historicaldocuments/frus1964-68v02/d80), [87](https://history.state.gov/historicaldocuments/frus1964-68v02/d87). [[w.gibbons-u-s-government-and]], III, 60–64 (the attack; Bundy and Taylor for reprisal; the NSC, Feb. 6; four barracks, one struck); [[w.staaveren-gradual-failure]], 9–18; [[w.frankum-like-rolling-thunder]], 15–17 (the attack on Camp Holloway; Flaming Dart, Đồng Hới struck, the rest weathered out; Chấp Lễ, Feb. 8); [[w.vietnam-victory-in-vietnam]], 142–43 (the attack on the airfield and Camp Holloway; Flaming Dart on Hồ Xá and Đồng Hới, 143); [[w.drea-mcnamara-clifford-and-the-2011]], 56 (the attack; Bundy and Taylor for reprisal; the President''s approval the evening of Feb. 6; one barracks hit, the rest weathered out; the next day''s strikes); [[w.cosmas-joint-chiefs-of-staff-2012]], 213–214 (the attack; the recommendation; the NSC; the dependents); [[w.marolda-united-states-navy-and]], 495–97 (the attack; the reprisal authorized; Flaming Dart; Chấp Lễ; the dependents); [[w.anthony-war-in-northern-laos]], 156 (the attack, 7 killed and 109 wounded; the recommendation; the NSC''s approval); [[w.nguyen-hanois-war]], 74–75 (the attack); [[w.asselin-hanois-road-to-the]], 206 (the same); [[w.johnson-vantage-point]], 124–26 (the reprisal approved, one target struck, the others weathered in; the dependents ordered home); [[w.dallek-flawed-giant]], 247–48 (eight advisers killed, 247; one of four targets hit, 248); [[w.preston-war-council]], 172–73, 175–76 (the attack; Bundy''s calls to Vance urging the strikes; Bundy, Taylor and Westmoreland at Pleiku that day); [[w.mcnamara-in-retrospect]], ch. 7 at nn.1–3 (Bundy in Saigon; his recommendation; the reprisal). [[w.logevall-choosing-war]], 324–27 (the attack, 8 killed and 126 wounded, ten aircraft destroyed, 324; Bundy''s call; the NSC of Feb. 6, the four targets; the dependents, 327); [[w.moyar-triumph-forsaken]], 353 (seven Americans killed, more than a hundred wounded, twenty-five aircraft hit; the NSC; Flaming Dart against Đồng Hới); [[w.branch-pillar-of-fire]], 581–82; [[w.bird-color-of-truth]], 306–07 (the attack; Bundy back the same day for reprisal); [[w.bernstein-guns-or-butter]], 344–45 (the night of Feb. 6–7; Bundy with Taylor and Westmoreland, the "streetcar"; Flaming Dart); [[w.taylor-swords-and-plowshares]], 335–36 (the attack, over a hundred wounded, aircraft destroyed or damaged; Bundy and Taylor to Vance by telephone from Westmoreland''s command post; Oánh''s concurrence; forty-five Navy planes on Đồng Hới the same day; twenty-four South Vietnamese the next on Chấp Lễ; the dependents out within ten days); [[w.nixon-rn]], 271 (the barracks near Pleiku shelled; Johnson''s statement, "We have no choice now but to clear the decks"; the retaliatory raids ordered); [[w.solberg-hubert-humphrey]], 270 (Bundy''s and Taylor''s cables urging prompt reprisal by bombing the North; the council of Feb. 6; Humphrey away in Minnesota); [[w.barrett-uncertain-warriors]], 17–18 (the NSC meetings after Pleiku, Mansfield at them on two consecutive days, for negotiating; Johnson: "I just don''t think you can stand still and take this kind of thing"; not the evening of Feb. 6 or the approval); [[w.zaroulis-who-spoke-up]], 33 (the attack at Pleiku; Bundy telephones Johnson to urge a strike; forty-nine Navy fighter-bombers hit Đồng Hới within twelve hours; Kỳ''s planes delayed by weather, strike the next day); [[w.albert-little-giant-1990]], 297–98 (the attack on the outpost at Pleiku; two hours after it Johnson orders reprisal raids on targets in the North; the page has "February 6, 1964" and nine Americans killed; not the airfield, the aircraft, Bundy, Taylor or the dependents); [[w.lich-su-khang-chien-chong-my]], III, 397–98 (the night of Feb. 6–7, sappers against the Cù Hanh airfield and Camp Holloway; the Second Regiment, Region 5''s, against Dương Liễu, Bình Định); [[w.lich-su-khang-chien-chong-my]], III, 403–04 (Flaming Dart I against Vĩnh Linh and Đồng Hới, Feb. 7; the Air Defense–Air Force on alert from the early morning); [[w.lich-su-khang-chien-chong-my]], III, 403–05 (Holloway the "sensitive" event, the pretext; Flaming Dart I on Vĩnh Linh and Đồng Hới, Feb. 7: the Air Defense–Air Force command on alert from early morning on the Politburo''s and the Central Military Party Committee''s order; at 1:53 p.m. the radar of Company 2, Regiment 290 (Lương Hữu Sắt, Nguyễn Đặng Tuất), picks up the first flight, from the Phú Hội dunes; the guns of the 325th and 341st Divisions, two patrol boats at Nhật Lệ and the militia fire. Feb. 8, American aircraft with the South Vietnamese air force under Nguyễn Cao Kỳ strike Hồ Xá, Vĩnh Linh, and Đồng Hới). [[w.westmoreland-soldier-reports]], 115–16, 118 (the attack; Bundy, Taylor and U. Alexis Johnson in Westmoreland''s operations room, Bundy''s call to the White House; Westmoreland, Bundy and Khánh at Pleiku; the strikes on Đồng Hới, and Chấp Lễ the next day; the dependents). Check: Branch gives eight killed, more than a hundred wounded, ten aircraft destroyed (581). Check: Bird, 306, gives eight Americans killed and 126 wounded, at 2 a.m. Check: Bernstein, 344, gives eight Americans killed, a hundred wounded and ten aircraft destroyed. Check: Humphrey has an ad hoc meeting in the Cabinet Room "the first weekend of February 1965," Ball, Stevenson and he against the bombing (319); FRUS''s lists of those present (II, docs. 76–78, 80–81) name neither Humphrey nor Stevenson, and give Ball for a retaliatory strike (doc. 77); McNamara''s record has the President asking the Vice President to the meeting of the evening of Feb. 6 (doc. 78). Check: Taylor gives eight Americans killed ([[w.taylor-swords-and-plowshares]], 335). Check: Barrett, 17–18, has Mansfield attend the NSC meetings after Pleiku on two consecutive days and say, "I would negotiate. I would not hit back.". To check: [[w.pentagon-papers]]; [[w.kahin-intervention]]; [[w.berman-planning-a-tragedy]]; [[w.khong-analogies-at-war]]; [[w.vandemark-into-the-quagmire]]; [[w.mcmaster-dereliction-of-duty-1997]]; [[w.goldstein-lessons-in-disaster]]; [[w.gardner-pay-any-price]]; [[w.kaiser-american-tragedy]]; [[w.thompson-rolling-thunder]]; [[w.clodfelter-limits-of-air-power]]; [[w.pribbenow-rolling-thunder-and-linebacker]]; [[w.cooper-lost-crusade]]; [*New York Times*, Feb. 7, 1965](https://timesmachine.nytimes.com/timesmachine/1965/02/07/issue.html), at 1 (cited by [[w.branch-pillar-of-fire]], 581); [[w.karnow-vietnam]], 427–28 (cited by [[w.branch-pillar-of-fire]], 581); [[w.mcnamara-in-retrospect]], 170–71 (cited by [[w.branch-pillar-of-fire]], 581); [*New York Times*, Feb. 8, 1965](https://timesmachine.nytimes.com/timesmachine/1965/02/08/issue.html), at 14 (cited by [[w.branch-pillar-of-fire]], 582). See [[cal.1964-11-01.vietnam]]; [[cal.1964-12-24.vietnam]]; [[cal.1965-01-27.vietnam]]. Check: Frankum, 15, gives 8 Americans killed, 128 wounded; Cosmas, 213, 8 killed, 108 wounded, 20 aircraft damaged or destroyed. Check: Marolda, 495, gives eight killed and 109 wounded. Names: McGeorge Bundy, Taylor, Johnson. Check: *Victory in Vietnam* credits the 409th Sapper Battalion: 100 killed and 20 aircraft destroyed (142). Check: Asselin, 206, has a Special Forces camp attacked, eight Americans killed, more than a hundred wounded. Check: Johnson gives eight Americans killed outright and one later, more than a hundred wounded, five aircraft destroyed and fifteen damaged; the NSC met at 7:45 p.m., Feb. 6 (124). Check: Van Staaveren, 9, gives one American killed and twenty-four wounded at the advisers'' compound, seven killed and 104 wounded at Camp Holloway. Check: Gibbons, III, 60, gives eight Americans killed and 60 or more wounded. Check: Westmoreland gives eight Americans killed and five aircraft destroyed (115).'
+    n: '"[Record of the Fifth Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin (1)](https://digitalarchive.umd.edu/document/165487)" (Feb. 10, 1965), PRC FMA 109-03957-06, 121–135, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou to Kosygin, Feb. 10: on the 8th South Vietnamese planes crossed the line with Johnson''s assent, the White House announcing it; Nguyễn Cao Kỳ flew one himself from Đà Nẵng and was lightly wounded, hit in four places; Peking knew of it only on the night of the 9th; Chấp Lễ not named). Statement by the President Upon Ordering Withdrawal of American Dependents From South Viet-Nam, [1965 Pub. Papers 153](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=229) (Feb. 7, 1965). FRUS 1964–68, II, docs. [76](https://history.state.gov/historicaldocuments/frus1964-68v02/d76), [77](https://history.state.gov/historicaldocuments/frus1964-68v02/d77), [78](https://history.state.gov/historicaldocuments/frus1964-68v02/d78), [79](https://history.state.gov/historicaldocuments/frus1964-68v02/d79), [80](https://history.state.gov/historicaldocuments/frus1964-68v02/d80), [87](https://history.state.gov/historicaldocuments/frus1964-68v02/d87). [[w.gibbons-u-s-government-and]], III, 60–64 (the attack; Bundy and Taylor for reprisal; the NSC, Feb. 6; four barracks, one struck); [[w.staaveren-gradual-failure]], 9–18; [[w.frankum-like-rolling-thunder]], 15–17 (the attack on Camp Holloway; Flaming Dart, Đồng Hới struck, the rest weathered out; Chấp Lễ, Feb. 8); [[w.vietnam-victory-in-vietnam]], 142–43 (the attack on the airfield and Camp Holloway; Flaming Dart on Hồ Xá and Đồng Hới, 143); [[w.drea-mcnamara-clifford-and-the-2011]], 56 (the attack; Bundy and Taylor for reprisal; the President''s approval the evening of Feb. 6; one barracks hit, the rest weathered out; the next day''s strikes); [[w.cosmas-joint-chiefs-of-staff-2012]], 213–214 (the attack; the recommendation; the NSC; the dependents); [[w.marolda-united-states-navy-and]], 495–97 (the attack; the reprisal authorized; Flaming Dart; Chấp Lễ; the dependents); [[w.anthony-war-in-northern-laos]], 156 (the attack, 7 killed and 109 wounded; the recommendation; the NSC''s approval); [[w.nguyen-hanois-war]], 74–75 (the attack); [[w.asselin-hanois-road-to-the]], 206 (the same); [[w.johnson-vantage-point]], 124–26 (the reprisal approved, one target struck, the others weathered in; the dependents ordered home); [[w.dallek-flawed-giant]], 247–48 (eight advisers killed, 247; one of four targets hit, 248); [[w.preston-war-council]], 172–73, 175–76 (the attack; Bundy''s calls to Vance urging the strikes; Bundy, Taylor and Westmoreland at Pleiku that day); [[w.mcnamara-in-retrospect]], ch. 7 at nn.1–3 (Bundy in Saigon; his recommendation; the reprisal). [[w.logevall-choosing-war]], 324–27 (the attack, 8 killed and 126 wounded, ten aircraft destroyed, 324; Bundy''s call; the NSC of Feb. 6, the four targets; the dependents, 327); [[w.moyar-triumph-forsaken]], 353 (seven Americans killed, more than a hundred wounded, twenty-five aircraft hit; the NSC; Flaming Dart against Đồng Hới); [[w.branch-pillar-of-fire]], 581–82; [[w.bird-color-of-truth]], 306–07 (the attack; Bundy back the same day for reprisal); [[w.bernstein-guns-or-butter]], 344–45 (the night of Feb. 6–7; Bundy with Taylor and Westmoreland, the "streetcar"; Flaming Dart); [[w.taylor-swords-and-plowshares]], 335–36 (the attack, over a hundred wounded, aircraft destroyed or damaged; Bundy and Taylor to Vance by telephone from Westmoreland''s command post; Oánh''s concurrence; forty-five Navy planes on Đồng Hới the same day; twenty-four South Vietnamese the next on Chấp Lễ; the dependents out within ten days); [[w.nixon-rn]], 271 (the barracks near Pleiku shelled; Johnson''s statement, "We have no choice now but to clear the decks"; the retaliatory raids ordered); [[w.solberg-hubert-humphrey]], 270 (Bundy''s and Taylor''s cables urging prompt reprisal by bombing the North; the council of Feb. 6; Humphrey away in Minnesota); [[w.barrett-uncertain-warriors]], 17–18 (the NSC meetings after Pleiku, Mansfield at them on two consecutive days, for negotiating; Johnson: "I just don''t think you can stand still and take this kind of thing"; not the evening of Feb. 6 or the approval); [[w.zaroulis-who-spoke-up]], 33 (the attack at Pleiku; Bundy telephones Johnson to urge a strike; forty-nine Navy fighter-bombers hit Đồng Hới within twelve hours; Kỳ''s planes delayed by weather, strike the next day); [[w.albert-little-giant-1990]], 297–98 (the attack on the outpost at Pleiku; two hours after it Johnson orders reprisal raids on targets in the North; the page has "February 6, 1964" and nine Americans killed; not the airfield, the aircraft, Bundy, Taylor or the dependents); [[w.lich-su-khang-chien-chong-my]], III, 397–98 (the night of Feb. 6–7, sappers against the Cù Hanh airfield and Camp Holloway; the Second Regiment, Region 5''s, against Dương Liễu, Bình Định); [[w.lich-su-khang-chien-chong-my]], III, 403–04 (Flaming Dart I against Vĩnh Linh and Đồng Hới, Feb. 7; the Air Defense–Air Force on alert from the early morning); [[w.lich-su-khang-chien-chong-my]], III, 403–05 (Holloway the "sensitive" event, the pretext; Flaming Dart I on Vĩnh Linh and Đồng Hới, Feb. 7: the Air Defense–Air Force command on alert from early morning on the Politburo''s and the Central Military Party Committee''s order; at 1:53 p.m. the radar of Company 2, Regiment 290 (Lương Hữu Sắt, Nguyễn Đặng Tuất), picks up the first flight, from the Phú Hội dunes; the guns of the 325th and 341st Divisions, two patrol boats at Nhật Lệ and the militia fire. Feb. 8, American aircraft with the South Vietnamese air force under Nguyễn Cao Kỳ strike Hồ Xá, Vĩnh Linh, and Đồng Hới). [[w.westmoreland-soldier-reports]], 115–16, 118 (the attack; Bundy, Taylor and U. Alexis Johnson in Westmoreland''s operations room, Bundy''s call to the White House; Westmoreland, Bundy and Khánh at Pleiku; the strikes on Đồng Hới, and Chấp Lễ the next day; the dependents). Check: Branch gives eight killed, more than a hundred wounded, ten aircraft destroyed (581). Check: Bird, 306, gives eight Americans killed and 126 wounded, at 2 a.m. Check: Bernstein, 344, gives eight Americans killed, a hundred wounded and ten aircraft destroyed. Check: Humphrey has an ad hoc meeting in the Cabinet Room "the first weekend of February 1965," Ball, Stevenson and he against the bombing (319); FRUS''s lists of those present (II, docs. 76–78, 80–81) name neither Humphrey nor Stevenson, and give Ball for a retaliatory strike (doc. 77); McNamara''s record has the President asking the Vice President to the meeting of the evening of Feb. 6 (doc. 78). Check: Taylor gives eight Americans killed ([[w.taylor-swords-and-plowshares]], 335). Check: Barrett, 17–18, has Mansfield attend the NSC meetings after Pleiku on two consecutive days and say, "I would negotiate. I would not hit back.". To check: [[w.pentagon-papers]]; [[w.kahin-intervention]]; [[w.berman-planning-a-tragedy]]; [[w.khong-analogies-at-war]]; [[w.vandemark-into-the-quagmire]]; [[w.mcmaster-dereliction-of-duty-1997]]; [[w.goldstein-lessons-in-disaster]]; [[w.gardner-pay-any-price]]; [[w.kaiser-american-tragedy]]; [[w.thompson-rolling-thunder]]; [[w.clodfelter-limits-of-air-power]]; [[w.pribbenow-rolling-thunder-and-linebacker]]; [[w.cooper-lost-crusade]]; [*New York Times*, Feb. 7, 1965](https://timesmachine.nytimes.com/timesmachine/1965/02/07/issue.html), at 1 (cited by [[w.branch-pillar-of-fire]], 581); [[w.karnow-vietnam]], 427–28 (cited by [[w.branch-pillar-of-fire]], 581); [[w.mcnamara-in-retrospect]], 170–71 (cited by [[w.branch-pillar-of-fire]], 581); [*New York Times*, Feb. 8, 1965](https://timesmachine.nytimes.com/timesmachine/1965/02/08/issue.html), at 14 (cited by [[w.branch-pillar-of-fire]], 582). See [[cal.1964-11-01.vietnam]]; [[cal.1964-12-24.vietnam]]; [[cal.1965-01-27.vietnam]]. Check: Frankum, 15, gives 8 Americans killed, 128 wounded; Cosmas, 213, 8 killed, 108 wounded, 20 aircraft damaged or destroyed. Check: Marolda, 495, gives eight killed and 109 wounded. Names: McGeorge Bundy, Taylor, Johnson. Check: *Victory in Vietnam* credits the 409th Sapper Battalion: 100 killed and 20 aircraft destroyed (142). Check: Asselin, 206, has a Special Forces camp attacked, eight Americans killed, more than a hundred wounded. Check: Johnson gives eight Americans killed outright and one later, more than a hundred wounded, five aircraft destroyed and fifteen damaged; the NSC met at 7:45 p.m., Feb. 6 (124). Check: Van Staaveren, 9, gives one American killed and twenty-four wounded at the advisers'' compound, seven killed and 104 wounded at Camp Holloway. Check: Gibbons, III, 60, gives eight Americans killed and 60 or more wounded. Check: Westmoreland gives eight Americans killed and five aircraft destroyed (115).'
     src:
       c: 177f6014
       rows:
@@ -1653,6 +1712,7 @@ entries:
         - 'w.lich-su-khang-chien-chong-my III, 397–98: A, B'
         - 'w.lich-su-khang-chien-chong-my III, 403–04: C'
         - 'w.lich-su-khang-chien-chong-my III, 403–05: F-G'
+        - 'https://digitalarchive.umd.edu/document/165487: G'
     tags: [name:bundy-mcgeorge, name:taylor-maxwell, name:johnson-lyndon-b, place:pleiku, place:saigon, place:dong-hoi]
     short: Pleiku
     variants:
@@ -2062,11 +2122,12 @@ entries:
     date: '1965-02-08'
     thread: vietnam-force-levels
     c: Johnson orders Hawk air defense missiles to South Vietnam.
-    n: '[[w.macv-command-history-1965]], 478. Names: Johnson. Check: MACV''s chronology, 478, dates the order evacuating American dependents Feb. 8 too (in the calendar Feb. 7).'
+    n: '"[Record of the Fifth Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin (1)](https://digitalarchive.umd.edu/document/165487)" (Feb. 10, 1965), PRC FMA 109-03957-06, 121–135, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou to Kosygin, Feb. 10: the United States "transported Hawk ground-to-air rockets to Da Nang on the 8th"; Kosygin says Moscow had cabled him of it; the shipment, not Johnson''s order). [[w.macv-command-history-1965]], 478. Names: Johnson. Check: MACV''s chronology, 478, dates the order evacuating American dependents Feb. 8 too (in the calendar Feb. 7).'
     src:
       c: 4e4fd390
       rows:
         - 'w.macv-command-history-1965 478: all'
+        - 'https://digitalarchive.umd.edu/document/165487: A'
     tags: [name:johnson-lyndon-b]
     time_range:
       - 1965-02-08T14:00Z
@@ -3030,7 +3091,7 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou, with Mao Zedong, Liu Shaoqi, Deng Xiaoping and other Party and state leaders, takes part in the demonstration of 1,500,000 in the capital supporting Vietnam's struggle against the United States.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 10, 1965; Beijing; the time not given); [[w.lengxi-shinian-lunzhan-1956-1966]], 913 (the rally of Feb. 10, Mao and the leaders on Tiananmen; the number, see the variant); [[w.macfarquhar-origins-of-the-cultural]], III, 371 (Mao and his senior colleagues at the anti-American rally of 1,500,000 in Beijing, Feb. 10); [[w.yang-shangkun-riji]], II, 508 (Feb. 9, 1965; Tiananmen 天安门, 10 a.m. to before noon: the anti-American demonstration, Yang with Mao and the Standing Committee; Peng Zhen 彭真, Liu Ningyi 刘宁一, Hoàng Bắc 黄北, the DRV embassy''s chargé (the editors'' note), and the South Vietnamese representative speak; Zhou not named; the words: 上午10时，随主席等常委同志，去天安门参加反美示威，12时前结束); [[w.deng-xiaoping-nianpu-1904]], III, 1845 (Feb. 10, 1965; morning, 上午; Deng with Mao, Liu Shaoqi, Zhou Enlai and others at the rally of 1.5 million of the capital''s people in Tiananmen Square against American armed aggression against the DRV). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping.'
+    n: '"[Record of the Fifth Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin (1)](https://digitalarchive.umd.edu/document/165487)" (Feb. 10, 1965), PRC FMA 109-03957-06, 121–135, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou to Kosygin, 3:20 p.m.: at "our mass meeting this morning" Liu Ningyi spoke of the United States letting the South Vietnamese army invade the North for the first time, giving the DRV the right to strike back; not the number or the leaders present). [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 10, 1965; Beijing; the time not given); [[w.lengxi-shinian-lunzhan-1956-1966]], 913 (the rally of Feb. 10, Mao and the leaders on Tiananmen; the number, see the variant); [[w.macfarquhar-origins-of-the-cultural]], III, 371 (Mao and his senior colleagues at the anti-American rally of 1,500,000 in Beijing, Feb. 10); [[w.yang-shangkun-riji]], II, 508 (Feb. 9, 1965; Tiananmen 天安门, 10 a.m. to before noon: the anti-American demonstration, Yang with Mao and the Standing Committee; Peng Zhen 彭真, Liu Ningyi 刘宁一, Hoàng Bắc 黄北, the DRV embassy''s chargé (the editors'' note), and the South Vietnamese representative speak; Zhou not named; the words: 上午10时，随主席等常委同志，去天安门参加反美示威，12时前结束); [[w.deng-xiaoping-nianpu-1904]], III, 1845 (Feb. 10, 1965; morning, 上午; Deng with Mao, Liu Shaoqi, Zhou Enlai and others at the rally of 1.5 million of the capital''s people in Tiananmen Square against American armed aggression against the DRV). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: fd70939f
       rows:
@@ -3039,6 +3100,7 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 371: A'
         - 'w.yang-shangkun-riji II, 508: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1845: A'
+        - 'https://digitalarchive.umd.edu/document/165487: A'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping]
     variants:
       - unit: A
@@ -3049,6 +3111,11 @@ entries:
         witness: w.yang-shangkun-riji
         reads: the Tiananmen demonstration on Feb. 9, 10 a.m. to before noon (上午10时……去天安门参加反美示威)
         at: II, 508, Feb. 9, 1965
+    time_range:
+      - 1965-02-09T22:00Z
+      - 1965-02-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-10.china-leadership-4
     when: Feb. 10
     date: '1965-02-10'
@@ -3081,11 +3148,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou holds the fifth contact talk with Kosygin, on the road from the airport to the Diaoyutai guesthouse.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 10, 1965; 3:20 p.m.; on the road from the airport to the Diaoyutai guesthouse). See [[cal.1965-02-05.china-leadership]]. The book gives no content. Names: Zhou Enlai, Kosygin.'
+    n: '"[Record of the Fifth Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin (1)](https://digitalarchive.umd.edu/document/165487)" (Feb. 10, 1965), PRC FMA 109-03957-06, 121–135, trans. Stephen Mercado, Wilson Center Digital Archive (top secret document 87, the Premier and Chen not having reviewed it; 3:20 p.m., on the way from the airport to the Diaoyutai State Guest House, Yan Mingfu interpreting. Kosygin says the Soviet Union will give Vietnam ground-to-air missiles, artillery and tanks free, with officers to instruct, cancel its loan interest, about fifty million new rubles, and give six fishing vessels; Zhou offers Chinese railways to carry them; both are for joint action and for keeping war from breaking out; they set talks on state relations for 9 a.m. next day. Part 2, Chen Yi with Andropov, is only a title in the file). [[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 10, 1965; 3:20 p.m.; on the road from the airport to the Diaoyutai guesthouse). See [[cal.1965-02-05.china-leadership]]. The book gives no content. Names: Zhou Enlai, Kosygin.'
     src:
       c: 556b5645
       rows:
         - 'w.zhou-enlai-waijiao-huodong 436: all'
+        - 'https://digitalarchive.umd.edu/document/165487: A'
     tags: [polity:prc, name:zhou-enlai, name:kosygin-aleksei]
     time_zone: Asia/Shanghai
   - id: cal.1965-02-10.china-leadership-6
@@ -3149,6 +3217,17 @@ entries:
       - 1965-02-10T16:00Z
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1965-02-10.china-leadership-8
+    when: Feb. 10
+    date: '1965-02-10'
+    time: 1965-02-10T07:20Z
+    place: peking
+    thread: china-leadership
+    also: [soviet-union, vietnam-hanoi]
+    c: Chen Yi and Andropov talk on the road from the airport to the Diaoyutai guesthouse, the Soviet delegation back from Vietnam.
+    n: '"[Record of the Fifth Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin (1)](https://digitalarchive.umd.edu/document/165487)" (Feb. 10, 1965), PRC FMA 109-03957-06, 121–135, trans. Stephen Mercado, Wilson Center Digital Archive. Top secret document 87, Part 2, "Summary of Conversation of Vice Premier Chen and Andropov", the Premier and Chen not having reviewed it; the file prints the part''s title and none of its text. The record gives the time as 3:20 p.m. and the place as the way from the airport to the Diaoyutai State Guest House. See [[cal.1965-02-10.china-leadership-5]]. Names: Chen Yi, Andropov. Check: the year the Archive posted the document.'
+    tags: [polity:prc, polity:ussr, name:chen-yi, name:andropov-yuriy-vladimirovich, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1965-02-11.foreign-aid
     when: Feb. 11
     date: '1965-02-11'
@@ -3170,7 +3249,7 @@ entries:
     thread: soviet-union
     also: [china, vietnam]
     c: 'Peking. Kosygin, on his way home from Hanoi, with Mao and Zhou Enlai: let the two parties stop their polemics and act together for Vietnam. Mao refuses: the debate will go on for nine thousand years.'
-    n: '[[w.jian-maos-china-and-the]], 231 (by a Chinese history, Cong Jin''s); [[w.zhai-china-and-the-vietnam]], 153 (the same history); [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965 (Mao, the morning, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Kang Sheng, Luo Ruiqing, Liu Xiao and Yang Chengwu: no meeting of the parties while the Albanian question stands; the open letter of July 14, 1963, and the report and resolution of February 1964 to be withdrawn). In Washington, Feb. 7: [FRUS 1964–68, II, doc. 81](https://history.state.gov/historicaldocuments/frus1964-68v02/d81) (the NSC: Mansfield asks whether Kosygin will consult Peking on his way home; Thompson: he might). [[w.zhou-enlai-nianpu-1949]], II, 708 (Feb. 10–11, 1965: Zhou''s fifth talk with Kosygin, returning from Hanoi, and his reception with Mao and Liu Shaoqi; on the way to the airport on the 11th, Zhou: the two sides should exchange views often, informally and not in public); [[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 11, 1965; 10 a.m., Great Hall of the People; Zhou accompanies Mao and Liu Shaoqi in meeting Kosygin and his delegation); [[w.zhonghua-renmin-gongheguo-waijiao]], 7–8 (Feb. 11, 1965; Mao, Liu and Zhou receive Kosygin; the points debated; Mao on objective law); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 615 (Feb. 11, 1965; Liu, with Mao, Zhou Enlai and Deng Xiaoping, meets Kosygin, chairman of the Soviet Council of Ministers, and the Soviet delegation he heads); [[w.lengxi-shinian-lunzhan-1956-1966]], 913–921 (Mao and Kosygin; Mao on the polemic: 25 years, then 10,000; the "dogmatist" label; the Mar. 1 meeting "we favor your holding it, but we shall not go"; Albania the key; Khrushchev, "invite him to Peking"; unity in ten to fifteen years or earlier, perhaps with the imperialists'' help; the talk the morning after the rally; no agreement); [[w.macfarquhar-origins-of-the-cultural]], III, 375 (Kosygin''s overtures in Beijing, February 1965, bring no revival of cordiality); [[w.yang-shangkun-riji]], II, 509 (Feb. 11, 1965; Mao and the other members of the Standing Committee receive Kosygin and his party that morning; the words: 主席等常委同志今天上午接见了柯西金等一行人员); [[w.deng-xiaoping-nianpu-1904]], III, 1845 (Feb. 11, 1965; Deng with Mao, Liu Shaoqi and Zhou Enlai meets the Soviet delegation under Kosygin). Made public: Cong Jin, *Quzhe fazhan de suiyue* (1989), by Chen''s note (358 n.107). Check: [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965, gives neither Kosygin''s proposal nor the "nine thousand years"; it puts the talk in the Hall of the People, with Liu Shaoqi, Deng Xiaoping and others present, and gives Mao''s terms for joining: the Albanian line dropped, the open letter, report and resolution withdrawn. To check: Cong Jin, *Quzhe fazhan de suiyue* (1989), 607–8 (cited by [[w.jian-maos-china-and-the]], 231 n.107); [[w.griffith-sino-soviet-relations-1964]], 74–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 375 n.181). See [[cal.1965-02-06.soviet-union]]. Names: Kosygin, Mao, Zhou Enlai.'
+    n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou''s account to the Romanian leaders: Mao told Kosygin that China too wants 10–15 years of peace, and that the more the Soviet Union helps North Vietnam the better; Kosygin offered two regiments of ground-to-air missiles, antiaircraft guns, amphibious tanks, MiG-17s and trainers; the two sides agreed to exchange information on international problems, which Zhou dates ''13 February''. [[w.jian-maos-china-and-the]], 231 (by a Chinese history, Cong Jin''s); [[w.zhai-china-and-the-vietnam]], 153 (the same history); [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965 (Mao, the morning, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi, Kang Sheng, Luo Ruiqing, Liu Xiao and Yang Chengwu: no meeting of the parties while the Albanian question stands; the open letter of July 14, 1963, and the report and resolution of February 1964 to be withdrawn). In Washington, Feb. 7: [FRUS 1964–68, II, doc. 81](https://history.state.gov/historicaldocuments/frus1964-68v02/d81) (the NSC: Mansfield asks whether Kosygin will consult Peking on his way home; Thompson: he might). [[w.zhou-enlai-nianpu-1949]], II, 708 (Feb. 10–11, 1965: Zhou''s fifth talk with Kosygin, returning from Hanoi, and his reception with Mao and Liu Shaoqi; on the way to the airport on the 11th, Zhou: the two sides should exchange views often, informally and not in public); [[w.zhou-enlai-waijiao-huodong]], 436 (Feb. 11, 1965; 10 a.m., Great Hall of the People; Zhou accompanies Mao and Liu Shaoqi in meeting Kosygin and his delegation); [[w.zhonghua-renmin-gongheguo-waijiao]], 7–8 (Feb. 11, 1965; Mao, Liu and Zhou receive Kosygin; the points debated; Mao on objective law); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 615 (Feb. 11, 1965; Liu, with Mao, Zhou Enlai and Deng Xiaoping, meets Kosygin, chairman of the Soviet Council of Ministers, and the Soviet delegation he heads); [[w.lengxi-shinian-lunzhan-1956-1966]], 913–921 (Mao and Kosygin; Mao on the polemic: 25 years, then 10,000; the "dogmatist" label; the Mar. 1 meeting "we favor your holding it, but we shall not go"; Albania the key; Khrushchev, "invite him to Peking"; unity in ten to fifteen years or earlier, perhaps with the imperialists'' help; the talk the morning after the rally; no agreement); [[w.macfarquhar-origins-of-the-cultural]], III, 375 (Kosygin''s overtures in Beijing, February 1965, bring no revival of cordiality); [[w.yang-shangkun-riji]], II, 509 (Feb. 11, 1965; Mao and the other members of the Standing Committee receive Kosygin and his party that morning; the words: 主席等常委同志今天上午接见了柯西金等一行人员); [[w.deng-xiaoping-nianpu-1904]], III, 1845 (Feb. 11, 1965; Deng with Mao, Liu Shaoqi and Zhou Enlai meets the Soviet delegation under Kosygin). Made public: Cong Jin, *Quzhe fazhan de suiyue* (1989), by Chen''s note (358 n.107). Check: [[w.zedong-mao-zedong-nianpu]], V, Feb. 11, 1965, gives neither Kosygin''s proposal nor the "nine thousand years"; it puts the talk in the Hall of the People, with Liu Shaoqi, Deng Xiaoping and others present, and gives Mao''s terms for joining: the Albanian line dropped, the open letter, report and resolution withdrawn. To check: Cong Jin, *Quzhe fazhan de suiyue* (1989), 607–8 (cited by [[w.jian-maos-china-and-the]], 231 n.107); [[w.griffith-sino-soviet-relations-1964]], 74–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 375 n.181). See [[cal.1965-02-06.soviet-union]]. Names: Kosygin, Mao, Zhou Enlai.'
     src:
       c: d21a1177
       rows:
@@ -3188,6 +3267,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 375 n.181: A, B, C'
         - 'w.yang-shangkun-riji II, 509: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1845: ?'
+        - 'https://digitalarchive.umd.edu/document/122552: A'
     tags: [name:kosygin-aleksei, name:mao-zedong, name:zhou-enlai]
     time_range:
       - 1965-02-11T01:00Z
@@ -4573,6 +4653,22 @@ entries:
       - 1965-02-16T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-02-16.china-2
+    when: Feb. 16
+    date: '1965-02-16'
+    thread: china
+    also: [soviet-union, vietnam-diplomacy]
+    c: The Soviet side asks China's view of negotiations on Vietnam; China answers that it would first ask the Vietnamese, as Zhou tells Ben Bella on Mar. 31.
+    n: '"[Record of the Second Meeting between Premier Zhou and President Ben Bella](https://digitalarchive.umd.edu/document/165405)" (Mar. 31, 1965), PRC FMA 203-00651-02, 55–85, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou''s account: "This was on 16 February"; before it Kosygin, back from Vietnam, had proposed negotiations with the United States, Phạm Văn Đồng refusing them under bombing). The record gives no place or hour. Names: Zhou Enlai, Ben Bella. Check: the year the Archive posted the document.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:ben-bella-ahmed, vis:only:prc+ussr, vis:from:algeria:1965-03-31]
+  - id: cal.1965-02-16.vietnam-diplomacy
+    when: Feb. 16
+    date: '1965-02-16'
+    thread: vietnam-diplomacy
+    also: [soviet-union, china]
+    c: By Zhou's account to the Romanian leaders, Mar. 25, the Soviet government asks the DRV's whether peace talks can be held, and Phạm Văn Đồng answers on the spot that the DRV does not agree. The Soviets then ask the Chinese, who say they must first know Hanoi's view.
+    n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou: ''on 16 February of this year''; Đồng ''responded on the spot''. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 252, 690–714). Names: Phạm Văn Đồng, Zhou Enlai. Check: a Soviet or Vietnamese record of the request.'
+    tags: [ok:fields-place, polity:ussr, polity:drv, polity:prc, name:pham-van-dong, name:zhou-enlai, vis:only:ussr+drv+prc, vis:from:romania:1965-03-25]
   - id: cal.1965-02-17.vietnam
     when: Feb. 17
     date: '1965-02-17'
@@ -6845,6 +6941,22 @@ entries:
       - 1965-02-23T16:00Z
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1965-02-23.soviet-union
+    when: Feb. 23
+    date: '1965-02-23'
+    thread: soviet-union
+    also: [vietnam-diplomacy]
+    c: The Soviet Union contacts the French government on negotiations on Vietnam, without waiting for China's reply or heeding Hanoi's opposition, as Zhou tells Ben Bella on Mar. 31.
+    n: '"[Record of the Second Meeting between Premier Zhou and President Ben Bella](https://digitalarchive.umd.edu/document/165405)" (Mar. 31, 1965), PRC FMA 203-00651-02, 55–85, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou''s account: "contacted the French government on 23 February"; the Soviet ambassador to France later told the Chinese ambassador that the French attitude was Moscow''s, for unconditional cease-fire talks). The record gives no place or hour. Names: Zhou Enlai, Ben Bella. Check: when the Chinese embassy in Paris learned of it. Check: the year the Archive posted the document.'
+    tags: [polity:ussr, polity:fr, name:zhou-enlai, name:ben-bella-ahmed, vis:only:ussr+fr, vis:from:prc:1965-03-31, vis:from:algeria:1965-03-31, ok:fields-place]
+  - id: cal.1965-02-23.vietnam-diplomacy
+    when: Feb. 23
+    date: '1965-02-23'
+    thread: vietnam-diplomacy
+    also: [soviet-union, europe-and-the-alliance-france]
+    c: By Zhou's account to the Romanian leaders, Mar. 25, the Soviet Union, against the DRV's opposition and with China's answer not yet given, makes contact with de Gaulle on peace talks on Vietnam, and after him with the British government.
+    n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou: ''on 23 February of this year''. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 252, 690–714). Names: de Gaulle, Zhou Enlai. Check: a Soviet or French record of the contact, and the day of the British approach.'
+    tags: [polity:ussr, polity:fr, polity:uk, name:de-gaulle-charles, name:zhou-enlai, vis:only:ussr+fr+uk, vis:from:romania:1965-03-25]
   - id: cal.1965-02-24.vietnam
     when: Feb. 24
     date: '1965-02-24'
@@ -8347,3 +8459,30 @@ entries:
     c: Bình Thuận. Early in February Region 6's main forces destroy the Lồ Ô strongpoint at Tánh Linh and badly hurt the subsector; 1,000 people of the Đồng Me concentration area rise and go back to the base.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 402. Check: the day.'
     tags: [polity:drv]
+  - id: cal.1965-02.china-2
+    when: Feb., late
+    date: 1965-02
+    at: before 1965-02-19
+    thread: china
+    also: [soviet-union, vietnam-diplomacy]
+    c: 'By Zhou''s account to the Romanian leaders, Mar. 25, the Soviet list sent after Kosygin''s return from Hanoi: with the two antiaircraft missile regiments for the DRV, 4,000 regular troops; a unit of 12 MiG-21s with 500 men at Kunming; two air corridors across China. China, having consulted the Vietnamese, refuses the troops.'
+    n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou: ''in the last ten days of February''; ''not for instruction, but to ensure their control''; the list of arms itself given in mid-March, ''300 and some armaments wagons''. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 252, 690–714). Names: Kosygin, Zhou Enlai. Check: the day of the refusal.'
+    tags: [polity:ussr, polity:prc, polity:drv, name:kosygin-aleksei, name:zhou-enlai, vis:only:ussr+prc+drv, vis:from:romania:1965-03-25, ok:fields-place]
+  - id: cal.1965-02.china-3
+    when: Feb., late
+    date: 1965-02
+    at: before 1965-02-19
+    thread: china
+    also: [soviet-union, vietnam-diplomacy]
+    c: By Zhou's account to the Romanian leaders, Mar. 25, the Soviet Union proposes sending 40 AN-12 aircraft to North Vietnam with 75 machine guns and 18 37-mm antiaircraft guns; China answers that Hanoi's airport cannot take them, and sends 100 machine guns and 66 guns itself.
+    n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou: ''At the end of February of this year''. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 252, 690–714). Names: Zhou Enlai. Check: the day.'
+    tags: [ok:fields-place, polity:ussr, polity:prc, polity:drv, name:zhou-enlai, vis:only:ussr+prc, vis:from:romania:1965-03-25]
+  - id: cal.1965-02.soviet-union
+    when: Feb., late
+    date: 1965-02
+    at: before 1965-02-19
+    place: bucharest
+    thread: soviet-union
+    c: 'A representative of the CPSU Central Committee''s International Department, at Bucharest, asks the Romanians to take part in the meeting of Mar. 1. They refuse and advise renouncing it: Kosygin''s visits to Vietnam, China and Korea, they say, have made it needless. Ceaușescu''s account to Zhou, Mar. 25.'
+    n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Ceaușescu: ''Just a few days before the beginning of that gathering''; the representative ''was here''. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 252, 690–714). See [[cal.1965-02-06.soviet-union]]. Names: Ceaușescu, Kosygin. Check: the day and the representative''s name.'
+    tags: [polity:ussr, polity:romania, name:ceausescu-nicolae, name:kosygin-aleksei, vis:only:romania+ussr, vis:from:prc:1965-03-25]

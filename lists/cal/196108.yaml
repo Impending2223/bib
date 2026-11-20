@@ -536,12 +536,13 @@ entries:
     thread: soviet-union
     also: [berlin-and-vienna]
     c: 'Moscow. The Warsaw Pact''s leaders on Berlin, three days. Khrushchev: "No one can give a guarantee that there will be no war"; "we must . . . show them our will and decisiveness." Ulbricht''s main speech Aug. 4. A resolution for closing the border; each ally warns of the limits of its economic help.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 381; [[w.lengxi-shinian-lunzhan-1956-1966]], 456, 473 (the Warsaw Treaty states'' summit "in August" refuses the Albanian delegate a seat, in effect putting Albania out of the alliance). To check: [[w.harrison-driving-the-soviets-up]], 194–205 (cited by [[w.fursenko-khrushchevs-cold-war]], 381 nn.66–69). See [[cal.1961-08-03.berlin-and-vienna]]. Names: Khrushchev, Ulbricht.'
+    n: '"[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou to Ung Văn Khiêm, Aug. 21: at the Moscow meeting of the Warsaw Pact''s first secretaries Albania sent a Politburo member and was put out as not qualified, China, attending as an observer, protesting; the Soviet side had wished to expel the Albanian party, with the six other European members and Mongolia; not the days, Berlin or the speeches). [[w.fursenko-khrushchevs-cold-war]], 381; [[w.lengxi-shinian-lunzhan-1956-1966]], 456, 473 (the Warsaw Treaty states'' summit "in August" refuses the Albanian delegate a seat, in effect putting Albania out of the alliance). To check: [[w.harrison-driving-the-soviets-up]], 194–205 (cited by [[w.fursenko-khrushchevs-cold-war]], 381 nn.66–69). See [[cal.1961-08-03.berlin-and-vienna]]. Names: Khrushchev, Ulbricht.'
     src:
       c: bd87cbc5
       rows:
         - 'w.fursenko-khrushchevs-cold-war 381: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 456, 473: B'
+        - 'https://digitalarchive.umd.edu/document/176892: B'
     tags: [name:khrushchev-nikita-s, name:ulbricht-walter]
   - id: cal.1961-08-03.defense
     when: Aug. 3
@@ -2046,7 +2047,12 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Liu Shaoqi, with Zhou Enlai, receives Hồ Chí Minh, chairman of the Vietnam Workers' Party Central Committee, and Phạm Văn Đồng, premier of the DRV.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 536 (Aug. 13, 1961). The chronology marks it as a second item of the day (△). Made public: 1996. Names: Liu Shaoqi, Zhou Enlai, Hồ Chí Minh, Phạm Văn Đồng.'
+    n: '"[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou''s account on Aug. 21 of the talk on the 13th: he and Liu Shaoqi asked Hồ whether he had taken the mediation between Albania and Moscow on his own initiative, and he said he had, with the CPSU''s assent; they told him his intent was good, his method needed examination and mediation would be very hard. Phạm Văn Đồng arriving in the morning and Hồ in the afternoon, the day not given; the record gives no hour or place for the talk). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 536 (Aug. 13, 1961). The chronology marks it as a second item of the day (△). Made public: 1996. Names: Liu Shaoqi, Zhou Enlai, Hồ Chí Minh, Phạm Văn Đồng.'
+    src:
+      c: cab44605
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 536: ?'
+        - 'https://digitalarchive.umd.edu/document/176892: A'
     tags: [polity:prc, polity:drv, name:liu-shaoqi, name:zhou-enlai, name:ho-chi-minh, name:pham-van-dong, vis:only:prc+drv]
   - id: cal.1961-08-13.china-leadership-6
     when: Aug. 13
@@ -2093,6 +2099,14 @@ entries:
         - 'w.yang-shangkun-riji II, 59: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-13.soviet-union
+    when: Aug. 13
+    date: '1961-08-13'
+    thread: soviet-union
+    also: [vietnam-hanoi]
+    c: 'The Albanian Party of Labor''s Central Committee cables the Vietnam Workers'' Party: it agrees to Hồ Chí Minh''s mediation with Moscow and will invite him to Tirana after mid-November, as Zhou tells Ung Văn Khiêm on Aug. 21, from what the Albanians had told China.'
+    n: '"[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou''s account: the telegram "was sent on the 13th"; "according to what the Albanian Party has made known to us"). Names: Hồ Chí Minh, Zhou Enlai, Ung Văn Khiêm. Check: the year the Archive posted the document.'
+    tags: [polity:albania, polity:drv, name:ho-chi-minh, name:zhou-enlai, name:ung-van-khiem, vis:only:albania+drv, vis:from:prc:1961-08-21, ok:fields-place]
   - id: cal.1961-08-14.berlin-and-vienna
     when: Aug. 14
     date: '1961-08-14'
@@ -2332,6 +2346,15 @@ entries:
       - 1961-08-14T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-14.vietnam-hanoi
+    when: Aug. 14
+    date: '1961-08-14'
+    place: moscow
+    thread: vietnam-hanoi
+    also: [soviet-union]
+    c: 'Moscow. Hồ Chí Minh arrives, sees the Albanian Central Committee''s telegram and seeks out Albania''s envoy: he will go, and to Tirana first; the settlement lies with the Albanian side. So Zhou tells Ung Văn Khiêm on Aug. 21.'
+    n: '"[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou''s account: "Ho, arriving on the 14th in Moscow, saw this telegram, sought out Albania''s envoy"; then, undated, Albania''s second telegram, not wanting the visit, and Hồ''s going to Sochi, "five days ago" by Ung''s word on Aug. 21). See [[cal.1961-08-13.soviet-union]]. Names: Hồ Chí Minh, Zhou Enlai, Ung Văn Khiêm. Check: the day of the call on Albania''s envoy (the record''s 14th is the arrival''s). Check: the year the Archive posted the document.'
+    tags: [polity:drv, polity:albania, name:ho-chi-minh, name:zhou-enlai, name:ung-van-khiem, vis:only:drv+albania, vis:from:prc:1961-08-21]
   - id: cal.1961-08-15.transition-and-staff
     when: Aug. 15
     date: '1961-08-15'
@@ -2844,6 +2867,19 @@ entries:
     c: 'The Secretariat''s circular no. 35-TT/TW on the 16th anniversary of the August Revolution and National Day (Sept. 2): to praise the three years'' socialist transformation and the economic and cultural gains, spur emulation toward the 1961 plan and the First Five-Year Plan, and rouse the struggle against the Americans and Diệm. At the usual scale, with mass meetings and short emulation drives, tied to the rectification campaign; guard against sabotage, drought, flood, storm and fire; crowds kept from the capital. Eleven slogans.'
     n: '*Thông tri của Ban Bí thư số 35-TT/TW, ngày 16-8-1961, Về việc tổ chức kỷ niệm Cách mạng Tháng Tám và lễ Quốc khánh lần thứ 16*, signed for the Secretariat by Nguyễn Khai, chief of its office. [[w.van-kien-dang-toan]], XXII, 464–68. Made public: 2002. Names: Ngô Đình Diệm.'
     tags: [polity:drv, polity:us, name:ngo-dinh-diem, vis:only:drv]
+  - id: cal.1961-08-16.testing
+    when: Aug. 16
+    date: '1961-08-16'
+    place: kiev
+    thread: testing
+    also: [soviet-union-leadership]
+    c: Kiev. Khrushchev speaks with Korneychuk of the plan to resume nuclear tests; Korneychuk, in Moscow, is to tell Bernal of it in confidence. Khrushchev's account to Hồ Chí Minh the next day.
+    n: '"[Record of Conversations between Cde. N. S. Khrushchev, First Secretary of the CPSU CC, and Ho Chi Minh, Chairman of the CC of the VWP](https://digitalarchive.umd.edu/document/300879)" (Aug. 17 and 19, 1961), RGANI, f. 52, op. 1, d. 555, ll. 125–150, contributed by Sergey Radchenko, trans. Gary Goldberg, Wilson Center Digital Archive (the talk of Aug. 17). The words: "Yesterday I spoke about this question with Cde. Korneychuk in Kiev." Names: Khrushchev, Hồ Chí Minh. Check: the year the Archive posted the document; its page gives none.'
+    src:
+      c: a0f4270c
+      rows:
+        - 'https://digitalarchive.umd.edu/document/300879: all'
+    tags: [polity:ussr, name:khrushchev-nikita-s, name:ho-chi-minh, vis:only:ussr, vis:from:drv:1961-08-17]
   - id: cal.1961-08-17.latin-america
     when: Aug. 17
     date: '1961-08-17'
@@ -3117,6 +3153,19 @@ entries:
       - 1961-08-17T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-17.soviet-union-leadership
+    when: Aug. 17
+    date: '1961-08-17'
+    place: pitsunda
+    thread: soviet-union-leadership
+    also: [vietnam-hanoi, berlin-and-vienna, testing, china]
+    c: Pitsunda. Khrushchev receives Hồ Chí Minh, who has come on the Albanian question. By the Soviet record Khrushchev tells him the danger of war is three to five percent, that the Soviet Union will resume nuclear tests in any case, and that the Albanian leadership has seized four submarines at Vlore; he criticizes China over Albania and the communes. After lunch he has the Soviet ambassador in Rome's cable on a talk with Fanfani read to Hồ, Thorez and Vermeersch.
+    n: '"[Record of Conversations between Cde. N. S. Khrushchev, First Secretary of the CPSU CC, and Ho Chi Minh, Chairman of the CC of the VWP](https://digitalarchive.umd.edu/document/300879)" (Aug. 17 and 19, 1961), RGANI, f. 52, op. 1, d. 555, ll. 125–150, contributed by Sergey Radchenko, trans. Gary Goldberg, Wilson Center Digital Archive. The first of the two talks in the document, headed Pitsunda, Aug. 17; the record says Khrushchev did not review the text; recorded by M. Podolsky and Yu. Pankov, five copies. The words: the talk is interrupted by the arrival of Thorez and Vermeersch; after lunch Khrushchev has the Rome cable read to the three. See [[cal.1961-08-16.testing]]. Names: Khrushchev, Hồ Chí Minh, Thorez, Fanfani. Check: the year the Archive posted the document; its page gives none.'
+    src:
+      c: eca75cc7
+      rows:
+        - 'https://digitalarchive.umd.edu/document/300879: all'
+    tags: [polity:ussr, polity:drv, name:khrushchev-nikita-s, name:ho-chi-minh, name:thorez-maurice, name:fanfani-amintore, vis:only:ussr+drv, ok:fields-time]
   - id: cal.1961-08-18.berlin-and-vienna
     when: Aug. 18
     date: '1961-08-18'
@@ -3443,6 +3492,19 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1656: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-19.soviet-union-leadership
+    when: Aug. 19
+    date: '1961-08-19'
+    place: pitsunda
+    thread: soviet-union-leadership
+    also: [vietnam-hanoi, laos, china]
+    c: 'Pitsunda. Khrushchev and Hồ Chí Minh meet again, at Hồ''s request. By the Soviet record Hồ asks whether he may pass Albania''s chargé three terms (the four submarines returned, no Soviet base demanded, a delegation with authority); Khrushchev agrees, and says Shehu or Hoxha must come. Hồ reports on the South''s peasants and on Laos (the Pathet Lao''s army, 10,000 or 20,000); Khrushchev: arm Souvanna Phouma first, not Souphanouvong; his visit to the DRV is put off.'
+    n: '"[Record of Conversations between Cde. N. S. Khrushchev, First Secretary of the CPSU CC, and Ho Chi Minh, Chairman of the CC of the VWP](https://digitalarchive.umd.edu/document/300879)" (Aug. 17 and 19, 1961), RGANI, f. 52, op. 1, d. 555, ll. 125–150, contributed by Sergey Radchenko, trans. Gary Goldberg, Wilson Center Digital Archive. The second talk in the document, headed Pitsunda, Aug. 19; recorded by M. Podolsky and Yu. Pankov. See [[cal.1961-08-17.soviet-union-leadership]]. Names: Khrushchev, Hồ Chí Minh, Souvanna Phouma, Souphanouvong.'
+    src:
+      c: c7842dad
+      rows:
+        - 'https://digitalarchive.umd.edu/document/300879: all'
+    tags: [polity:ussr, polity:drv, name:khrushchev-nikita-s, name:ho-chi-minh, name:souvanna-phouma, name:souphanouvong, vis:only:ussr+drv]
   - id: cal.1961-08-20.opinion
     when: Aug. 20
     date: '1961-08-20'
@@ -3647,14 +3709,20 @@ entries:
     thread: china-leadership
     also: [laos, soviet-union, vietnam-hanoi]
     c: Zhou Enlai receives the DRV's Foreign Minister, Ung Văn Khiêm, on the Laotian question and on Hồ Chí Minh's mediation between the Soviet Union and Albania.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 21, 1961); [[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 21, 1961; 下午5时30分, 中南海西花厅). Made public: 1993. Names: Zhou Enlai, Hồ Chí Minh.'
+    n: '"[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (top secret document 559, the Premier not having reviewed it; 5:30 p.m., Xihua Hall, with Ji Pengfei; recorder Ni Liyu. The record is on Hồ Chí Minh''s mediation: Zhou says it was well meant but ill judged, that Albania fears the Soviet Union and the main fault is Moscow''s, and asks Ung to tell Lê Duẩn and Phạm Văn Đồng so; Ung says Hồ went to Sochi meaning no pressure on Albania). [[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 21, 1961); [[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 21, 1961; 下午5时30分, 中南海西花厅). Made public: 1993. Names: Zhou Enlai, Hồ Chí Minh, Ung Văn Khiêm.'
     src:
       c: a916acfa
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 428: ?'
         - 'w.zhou-enlai-waijiao-huodong 320: A'
-    tags: [polity:prc, polity:drv, polity:ussr, polity:albania, name:zhou-enlai, name:ho-chi-minh, vis:only:prc+drv]
+        - 'https://digitalarchive.umd.edu/document/176892: A'
+    tags: [polity:prc, polity:drv, polity:ussr, polity:albania, name:zhou-enlai, name:ho-chi-minh, vis:only:prc+drv, name:ung-van-khiem, name:ji-pengfei]
     time_zone: Asia/Shanghai
+    variants:
+      - unit: A
+        witness: x.1961-08-21.prc-fma-109-03747-02-zhou-ung-van-khiem
+        reads: the talk wholly on Hồ Chí Minh's mediation between the Soviet Union and Albania, Laos coming in one sentence on American trouble-making
+        at: 85–94
   - id: cal.1961-08-21.china-leadership-3
     when: Aug. 21
     date: '1961-08-21'
