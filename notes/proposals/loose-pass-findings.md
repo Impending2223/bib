@@ -3,9 +3,8 @@
 Each year's patch was read by a reader and audited by Opus before merge (`inbox/merged/2026-11-19-loose-<year>.yaml`). Below: the entries the audits found dated to the day (for the lead to date by patch), the likely duplicates (for `./bib combine`), and the questions the rules do not settle.
 
 ## Code
-- `loose.at_problems` (used by check) accepts an `at` before the entry's own month without a warning (`before 1962-12-22` on a 1963-02 entry): such an `at` silently moves the entry into the month before. Make it an error unless tagged `ok:loose-at`.
+- Done (Nov. 19, 309c7c4): check `[loose-at-month]` refuses an `at` before the entry's own month or year (the winter's December solstice excepted); patch-check holds an add's or edit's `place:` to check's `[place]`.
 
-- `patch-check` does not validate `place:` keys set by an `edit` (the 1962 audit's finding): an unknown key passes and fails only at check after merge. Validate against sources/places.yaml plus the patch's own `place-key` ops.
 
 ## 1964 (merged: 107 ops)
 - Sure: 04.civil-rights-bill Apr. 9; 01.vietnam-4 Jan. 28; 08.elections-1964-4 Aug. 1; 09.elections-1964-5 Sept. 11; 09.vietnam Sept. 25–29; 11.vietnam-saigon-2 Nov. 11; 12.republican-party Dec. 6; 12.republican-party-2 Dec. 21; 12.press-and-broadcasting-2 Dec. 2.
