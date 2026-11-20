@@ -1,0 +1,381 @@
+# The loose-dates pass, 1967 (notes/briefs/loose-pass.md, L1-L7): `when` and `at` for month- and year-dated entries
+# whose record fixes a position. Where `when` carries a wording loose.py reads, `at` is left to merge.
+patch: 2026-11-19-loose-1967
+by: Claude (loose-dates reader, 1967; notes/briefs/loose-pass.md)
+ops:
+  - edit:
+      id: cal.1967-02.vietnam-2
+      base: '8ec62584'
+      set:
+        when: 'Feb., late'
+  - edit:
+      id: cal.1967-03.vietnam
+      base: '2e23b523'
+      set:
+        when: 'Mar., early'
+  - edit:
+      id: cal.1967-03.robert-kennedy
+      base: '30f06799'
+      set:
+        when: 'Mar., late'
+  - edit:
+      id: cal.1967-03.republican-party-5
+      base: 'd5f58e78'
+      set:
+        when: 'Mar., late'
+  - edit:
+      id: cal.1967-03.vietnam-3
+      base: '165d3f28'
+      set:
+        when: 'Mar., late'
+  - edit:
+      id: cal.1967-03.vietnam-force-levels
+      base: 'df7f1b48'
+      set:
+        when: 'Mar., late'
+  - edit:
+      id: cal.1967-04.democratic-party
+      base: '4ae9e2a9'
+      set:
+        when: 'Apr., early'
+  - edit:
+      id: cal.1967-04.vietnam
+      base: 'aba525a4'
+      set:
+        when: 'Apr., late'
+  - edit:
+      id: cal.1967-04.vietnam-operations
+      base: 'aca535b3'
+      set:
+        when: 'Apr., late'
+  - edit:
+      id: cal.1967-05.school-aid
+      base: 'c9aaa4a5'
+      set:
+        when: 'May, mid'
+  - edit:
+      id: cal.1967-05.students
+      base: 'f880c136'
+      set:
+        when: 'May, mid'
+  - edit:
+      id: cal.1967-05.vietnam
+      base: '80d9dddd'
+      set:
+        when: 'May, mid'
+  - edit:
+      id: cal.1967-05.vietnam-air-war
+      base: '77d71dae'
+      set:
+        when: 'May, early'
+        place: dmz
+  - edit:
+      id: cal.1967-06.vietnam-pennsylvania
+      base: '2b73717d'
+      set:
+        when: 'June, mid'
+  - edit:
+      id: cal.1967-06.war-opposition-2
+      base: '13a5e9e3'
+      set:
+        when: 'June, mid'
+  - edit:
+      id: cal.1967-07.democratic-party
+      base: 'e62fbb80'
+      set:
+        when: 'July, end'
+  - edit:
+      id: cal.1967-07.school-aid
+      base: '635c7033'
+      set:
+        when: 'July, late'
+  - edit:
+      id: cal.1967-07.vietnam-4
+      base: 'b166ae11'
+      set:
+        when: 'July, late'
+  - edit:
+      id: cal.1967-08.opinion
+      base: '7660649f'
+      set:
+        when: 'Aug., early'
+  - edit:
+      id: cal.1967-08.vietnam-operations
+      base: 'b4d296ab'
+      set:
+        when: 'Aug., late'
+  - edit:
+      id: cal.1967-08.war-opposition
+      base: '17fbb80c'
+      set:
+        when: 'Aug., late'
+        place: nyc
+  - edit:
+      id: cal.1967-09.mississippi
+      base: 'f23d771a'
+      set:
+        when: 'Sept., late'
+  - edit:
+      id: cal.1967-09.vietnam-force-levels
+      base: 'aa9de06c'
+      set:
+        when: 'Sept., early'
+  - edit:
+      id: cal.1967-10.vietnam
+      base: 'dd03eae8'
+      set:
+        when: 'Oct., mid'
+  - edit:
+      id: cal.1967-10.vietnam-congress
+      base: 'df4ec31f'
+      set:
+        when: 'Oct., late'
+  - edit:
+      id: cal.1967-11.defense
+      base: 'b3d0f8f0'
+      set:
+        when: 'Nov., late'
+  - edit:
+      id: cal.1967-11.robert-kennedy
+      base: '39016dc6'
+      set:
+        when: 'Nov., late'
+  - edit:
+      id: cal.1967-11.vietnam-4
+      base: '8209e70d'
+      set:
+        when: 'Nov., late'
+  - edit:
+      id: cal.1967-11.vietnam-5
+      base: '5cdbbde9'
+      set:
+        when: 'Nov., late'
+  - edit:
+      id: cal.1967-12.draft
+      base: 'b2a220dd'
+      set:
+        when: 'Dec., mid'
+  - edit:
+      id: cal.1967-12.robert-kennedy-campaign
+      base: '7c234e98'
+      set:
+        when: 'Dec., the first week'
+  - edit:
+      id: cal.1967-12.states-and-cities
+      base: '3b7fa7a2'
+      set:
+        when: 'Dec., the last days'
+  - edit:
+      id: cal.1967-07.vietnam-congress
+      base: '05641445'
+      set:
+        when: 'July, before the 22nd'
+  - edit:
+      id: cal.1967-03.cuba
+      base: '9948ab9a'
+      set:
+        when: 'Mar., after Pearson''s column'
+        at: 'after 1967-03-07'
+  - edit:
+      id: cal.1967-03.democratic-party
+      base: '7e8e2660'
+      set:
+        when: 'Mar., after Robert Kennedy''s speech'
+        at: 'after 1967-03-02'
+  - edit:
+      id: cal.1967-03.conservative-movement
+      base: '2c5d455e'
+      set:
+        when: 'Mar., after the Gala'
+        at: 'after 1967-03-01'
+  - edit:
+      id: cal.1967-03.elections-1968-2
+      base: 'e4d61e57'
+      set:
+        when: 'Mar., before Nixon''s trip'
+        at: 'before 1967-03-05'
+  - edit:
+      id: cal.1967-03.europe-and-the-alliance
+      base: '47cf64c4'
+      set:
+        when: 'Mar., on Nixon''s trip from Mar. 5'
+        at: 'before 1967-03-05'
+  - edit:
+      id: cal.1967-03.europe-and-the-alliance-2
+      base: '33b181fd'
+      set:
+        when: 'Mar., on Nixon''s trip from Mar. 5'
+        at: 'before 1967-03-05'
+  - edit:
+      id: cal.1967-04.king
+      base: 'c910aa68'
+      set:
+        when: 'Apr., after the Riverside speech'
+        at: 'after 1967-04-04'
+  - edit:
+      id: cal.1967-04.king-2
+      base: '0ab66a84'
+      set:
+        when: 'Apr., after the Riverside speech'
+        at: 'after 1967-04-04'
+  - edit:
+      id: cal.1967-04.elections-1968-3
+      base: '02463236'
+      set:
+        when: 'Apr., before the Hartford speech'
+        at: 'before 1967-04-07'
+  - edit:
+      id: cal.1967-05.press-and-broadcasting
+      base: 'd56389a5'
+      set:
+        when: 'May, after the 13th'
+  - edit:
+      id: cal.1967-06.states-and-cities
+      base: 'b91db446'
+      set:
+        when: 'June, after the 1st'
+        place: washington
+  - edit:
+      id: cal.1967-06.middle-east-six-day-war-aftermath
+      base: 'a51c6be7'
+      set:
+        when: 'June, after the war'
+        at: 'after 1967-06-10'
+  - edit:
+      id: cal.1967-07.civil-disorders
+      base: '36bf96b7'
+      set:
+        when: 'July, after the 24th'
+  - edit:
+      id: cal.1967-07.vietnam
+      base: 'b334b174'
+      set:
+        when: 'July, after the troop ceiling'
+        at: 'after 1967-07-13'
+  - edit:
+      id: cal.1967-08.vietnam-congress
+      base: '78befa5e'
+      set:
+        when: 'Aug., after Katzenbach''s testimony'
+        at: 'after 1967-08-17'
+  - edit:
+      id: cal.1967-09.elections-1968-2
+      base: 'eb977c58'
+      set:
+        when: 'Sept., after the Detroit News'
+        at: 'after 1967-09-10'
+  - edit:
+      id: cal.1967-10.china-leadership
+      base: '927f0eb5'
+      set:
+        when: 'Oct., after National Day'
+        at: 'after 1967-10-01'
+  - edit:
+      id: cal.1967-10.robert-kennedy-campaign
+      base: 'ff3547b0'
+      set:
+        when: 'Oct., after the 8th'
+  - edit:
+      id: cal.1967-10.war-opposition
+      base: '9869eaa0'
+      set:
+        when: 'Oct., the week after the march'
+        at: 'after 1967-10-23'
+  - edit:
+      id: cal.1967-10.war-opposition-2
+      base: '64bdab03'
+      set:
+        when: 'Oct., before the march'
+        at: 'before 1967-10-21'
+  - edit:
+      id: cal.1967-11.economy-gold
+      base: '073fa03a'
+      set:
+        when: 'Nov., the week after the devaluation'
+        at: 'after 1967-11-18'
+  - edit:
+      id: cal.1967-11.press-and-broadcasting-2
+      base: '155ae43d'
+      set:
+        when: 'Nov., after the signing'
+        at: 'after 1967-11-07'
+  - edit:
+      id: cal.1967-11.war-opposition-2
+      base: '0dc4369d'
+      set:
+        when: 'Nov., before Ford''s statement'
+        at: 'before 1967-11-22'
+  - edit:
+      id: cal.1967-12.elections-1968
+      base: '12aa9c2c'
+      set:
+        when: 'Dec., after the Sidor Lecture'
+        at: 'after 1967-12-14'
+  - edit:
+      id: cal.1967-12.vietnam-2
+      base: 'e6a02321'
+      set:
+        when: 'Dec., after the 23rd'
+  - edit:
+      id: cal.1967-12.vietnam-3
+      base: '8cd2852b'
+      set:
+        when: 'Dec., after the 6th'
+  # The audit's additions (Nov. 19): positions the record gives, missed by the reader.
+  - edit:
+      id: cal.1967-05.middle-east-six-day-war
+      base: '25267f1c'
+      set:
+        when: 'May, after the Strait''s closing'
+        at: 'after 1967-05-22'
+  - edit:
+      id: cal.1967-12.transition-and-staff
+      base: 'ecced6c7'
+      set:
+        when: 'Dec., before Christmas'
+        at: 'before 1967-12-25'
+  - edit:
+      id: cal.1967-11.defense-2
+      base: '74864c87'
+      set:
+        when: 'Nov., before McNamara''s nomination'
+        at: 'before 1967-11-29'
+  - edit:
+      id: cal.1967-11.vietnam-8
+      base: '7d35e3af'
+      set:
+        when: 'Nov., after McCarthy''s declaration'
+        at: 'after 1967-11-30'
+  - edit:
+      id: cal.1967-09.war-opposition-2
+      base: '8a7503cb'
+      set:
+        when: 'Sept., late, three weeks after the convention'
+  - edit:
+      id: cal.1967-10.vietnam-operations-2
+      base: '1aef9f71'
+      set:
+        when: 'Oct., a fortnight before Đắk Tô'
+        at: 'before 1967-10-20'
+  - edit:
+      id: cal.1967-11.vietnam-2
+      base: '34d55b90'
+      set:
+        when: 'Nov., early, two months after the election'
+  - edit:
+      id: cal.1967-03.states-and-cities-louisville
+      base: '98ea3aa0'
+      set:
+        when: 'Mar., early'
+  - edit:
+      id: cal.1967.china-leadership-65
+      base: '8bffac31'
+      set:
+        when: '1967, after Feb. 19'
+        at: 'after 1967-02-19'
+  - edit:
+      id: cal.1967.china-leadership-94
+      base: '3ec6e936'
+      set:
+        when: '1967, after January'
+        at: 'before 1967-02'
