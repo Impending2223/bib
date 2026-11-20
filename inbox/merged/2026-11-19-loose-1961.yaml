@@ -1,0 +1,435 @@
+# The loose-dates pass, 1961 (notes/briefs/loose-pass.md, L1-L7): `when` and `at` for month- and year-dated entries
+# whose own record fixes a position. Where merge reads the wording (early, mid, late, end, the last week, after or
+# before the Nth), `when` only; `at` set for an event's day.
+patch: 2026-11-19-loose-1961
+by: Claude (loose-dates reader, 1961; notes/briefs/loose-pass.md)
+ops:
+  - edit:
+      id: cal.1961.china-leadership-24
+      base: '8d97e874'
+      set:
+        when: '1961, early'
+  - edit:
+      id: cal.1961-01.cuba-bay-of-pigs
+      base: '91a40dd7'
+      set:
+        when: 'Jan., early'
+  - edit:
+      id: cal.1961-01.civil-rights-the-executive    # audit: c, "before the inauguration"
+      base: '5d65f087'
+      set:
+        when: 'Jan., before the inauguration'
+        at: 'before 1961-01-20'
+  - edit:
+      id: cal.1961-01.defense
+      base: '932b1400'
+      set:
+        when: 'Jan., late'
+  - edit:
+      id: cal.1961-01.latin-america
+      base: '31f99fc5'
+      set:
+        when: 'Jan., late'
+  - edit:
+      id: cal.1961-01.republican-party-congress-3
+      base: 'ff7b1ac9'
+      set:
+        when: 'Jan., after the 3rd'
+  - edit:
+      id: cal.1961-01.right-and-the-military
+      base: 'ecab9b6e'
+      set:
+        when: 'Jan., after the inauguration'
+        at: 'after 1961-01-20'
+  - edit:
+      id: cal.1961-01.rules-3
+      base: '63b16982'
+      set:
+        when: 'Jan., after the 2nd'
+  - edit:
+      id: cal.1961-01.rules-4
+      base: 'b4b288d9'
+      set:
+        when: 'Jan., after the 2nd'
+  - edit:
+      id: cal.1961-01.rules-5
+      base: 'bccaea25'
+      set:
+        when: 'Jan., after the inauguration'
+        at: 'after 1961-01-20'
+  - edit:
+      id: cal.1961-01.states-and-cities
+      base: '72ef79d1'
+      set:
+        when: 'Jan., end'
+  - edit:
+      id: cal.1961-01.transition-and-staff
+      base: '7fcfbb98'
+      set:
+        when: 'Jan., before the 10th'
+  - edit:
+      id: cal.1961-01.transition-and-staff-2
+      base: '3ea2d8bf'
+      set:
+        when: 'Jan., late'
+  - edit:
+      id: cal.1961-01.transition-and-staff-nsc
+      base: '3af32612'
+      set:
+        when: 'Jan., after the inauguration'
+        at: 'after 1961-01-20'
+  - edit:
+      id: cal.1961-02.elections-1962
+      base: '55bc868d'
+      set:
+        when: 'Feb., end'
+  - edit:
+      id: cal.1961-02.republican-party-congress
+      base: 'a773b985'
+      set:
+        when: 'Feb., after the missile-gap story'
+        at: 'after 1961-02-06'
+  - edit:
+      id: cal.1961-02.states-and-cities-nyc
+      base: '31c58d99'
+      set:
+        when: 'Feb., early'
+  - edit:
+      id: cal.1961-02.trade
+      base: '7c465d3c'
+      set:
+        when: 'Feb., early'
+  - edit:
+      id: cal.1961-03.foreign-aid
+      base: 'ae8d2408'
+      set:
+        when: 'Mar., mid'
+  - edit:
+      id: cal.1961-03.jobs-and-wages
+      base: '12ebfe98'
+      set:
+        at: 'before 1961-03-15'
+  - edit:
+      id: cal.1961-03.laos-3
+      base: 'e9747bd3'
+      set:
+        when: 'Mar., after the 23rd'
+  - edit:
+      id: cal.1961-03.robert-kennedy-3
+      base: 'ac10af71'
+      set:
+        when: 'Mar., before the 28th'
+  - edit:
+      id: cal.1961-04.civil-rights-the-executive
+      base: '9999c759'
+      set:
+        when: 'Apr., after the Subcabinet Group''s first meeting'
+        at: 'after 1961-04-14'
+  - edit:
+      id: cal.1961-04.cuba
+      base: 'b6277d34'
+      set:
+        when: 'Apr., after the Bay of Pigs'
+        at: 'after 1961-04-19'
+  - edit:
+      id: cal.1961-04.cuba-3
+      base: '22917bec'
+      set:
+        when: 'Apr., after the Bay of Pigs'
+        at: 'after 1961-04-19'
+  - edit:
+      id: cal.1961-04.cuba-4
+      base: 'b60bfb35'
+      set:
+        when: 'Apr., before the landing'
+        at: 'before 1961-04-17'
+  - edit:
+      id: cal.1961-04.cuba-bay-of-pigs-12
+      base: '79b53204'
+      set:
+        when: 'Apr., the week of the 12th'
+        at: 'before 1961-04-09'
+  - edit:
+      id: cal.1961-04.cuba-bay-of-pigs-13
+      base: '1810226b'
+      set:
+        at: 'after 1961-04-19'
+  - edit:
+      id: cal.1961-04.cuba-bay-of-pigs-2
+      base: '3b5d128b'
+      set:
+        when: 'Apr., shortly before the landing'
+        at: 'before 1961-04-17'
+  - edit:
+      id: cal.1961-04.cuba-bay-of-pigs-6
+      base: '7947eba0'
+      set:
+        when: 'Apr., the week before the landing'
+        at: 'before 1961-04-09'
+  - edit:
+      id: cal.1961-04.cuba-bay-of-pigs-7
+      base: '9abc77fc'
+      set:
+        when: 'Apr., a few days after the landing'
+        at: 'after 1961-04-17'
+  - edit:
+      id: cal.1961-04.cuba-bay-of-pigs-8
+      base: 'f5594683'
+      set:
+        when: 'Apr., after the Bay of Pigs'
+        at: 'after 1961-04-19'
+  - edit:
+      id: cal.1961-04.intelligence
+      base: 'dd0bbbc5'
+      set:
+        when: 'Apr., after the Bay of Pigs'
+        at: 'after 1961-04-19'
+  - edit:
+      id: cal.1961-04.intelligence-2
+      base: '53aa1dc7'
+      set:
+        at: 'after 1961-04-19'
+  - edit:
+      id: cal.1961-04.transition-and-staff-nsc
+      base: 'e46ae539'
+      set:
+        when: 'Apr., after the Bay of Pigs'
+        at: 'after 1961-04-19'
+  - edit:
+      id: cal.1961-05.china-4
+      base: '9520de28'
+      set:
+        when: 'May, the week of the 23rd'
+        at: 'before 1961-05-21'
+  - edit:
+      id: cal.1961-05.china-2    # audit: c, "Geneva, the conference on Laos" (a span: before its first day, May 16)
+      base: '35202f62'
+      set:
+        when: 'May, the conference on Laos'
+        at: 'before 1961-05-16'
+  - edit:
+      id: cal.1961-05.china-leadership-8    # audit: c, "the work conference of May 21–June 12" (before its first day)
+      base: 'f9b7c645'
+      set:
+        when: 'May–June, the work conference'
+        at: 'before 1961-05-21'
+  - edit:
+      id: cal.1961-05.defense    # audit: n, Reeves "early in May" (the memorandum of May 13 is to check, not read)
+      base: '120a5ad1'
+      set:
+        when: 'May, early'
+  - edit:
+      id: cal.1961-05.civil-rights-the-executive
+      base: '70b02f59'
+      set:
+        when: 'May, after the 8th'
+  - edit:
+      id: cal.1961-05.cuba-3
+      base: '0a463d4a'
+      set:
+        when: 'May, after the 5th'
+  - edit:
+      id: cal.1961-05.latin-america-3
+      base: '43de3745'
+      set:
+        when: 'May, early'
+  - edit:
+      id: cal.1961-05.latin-america-4
+      base: '8660976f'
+      set:
+        when: 'May, after the 13th'
+  - edit:
+      id: cal.1961-05.press-and-broadcasting
+      base: '0ec75ea4'
+      set:
+        when: 'May, after the Ottawa visit'
+        at: 'after 1961-05-18'
+  - edit:
+      id: cal.1961-05.republican-party
+      base: '6006d4ae'
+      set:
+        when: 'May, early'
+  - edit:
+      id: cal.1961-05.vietnam
+      base: '478a480d'
+      set:
+        when: 'May, before the 6th'
+  - edit:
+      id: cal.1961-05.vietnam-diplomacy
+      base: '75dad5cb'
+      set:
+        when: 'May, the first week of the Laos conference'
+        at: 'before 1961-05-16'
+  - edit:
+      id: cal.1961-05.freedom-rides-2
+      base: 'd3d86712'
+      set:
+        when: 'May, before the 19th'
+        place: washington            # R25a, basis n: Schlesinger, 295, "the President, in the White House"
+  - edit:
+      id: cal.1961-06.berlin-and-vienna
+      base: '2e4a3c3a'
+      set:
+        when: 'June, after Vienna'
+        at: 'after 1961-06-04'
+  - edit:
+      id: cal.1961-06.berlin-and-vienna-2
+      base: '12738fb3'
+      set:
+        when: 'June, back from Vienna'
+        at: 'after 1961-06-05'
+  - edit:
+      id: cal.1961-06.cuba
+      base: '5a3bfedb'
+      set:
+        when: 'June, after the Taylor report'
+        at: 'after 1961-06-13'
+  - edit:
+      id: cal.1961-06.transition-and-staff
+      base: 'b96f5b89'
+      set:
+        when: 'June, after Vienna'
+        at: 'after 1961-06-04'
+  - edit:
+      id: cal.1961-06.voting-rights-2
+      base: 'cd20f07b'
+      set:
+        when: 'June, early'
+  - edit:
+      id: cal.1961-08.berlin-and-vienna-5
+      base: '3d92a5e5'
+      set:
+        when: 'Aug., before the 13th'
+  - edit:
+      id: cal.1961-08.civil-rights-organizations
+      base: '36e0d47f'
+      set:
+        when: 'Aug., mid'
+  - edit:
+      id: cal.1961-08.cuba
+      base: '7c03a23d'
+      set:
+        when: 'Aug., after the 17th'
+  - edit:
+      id: cal.1961-08.elections-1962
+      base: '7b7111a6'
+      set:
+        when: 'Aug., early'
+  - edit:
+      id: cal.1961-08.latin-america
+      base: '658123ff'
+      set:
+        when: 'Aug., during the conference'
+        at: 'before 1961-08-05'
+  - edit:
+      id: cal.1961-08.latin-america-2
+      base: '08c80103'
+      set:
+        when: 'Aug., during the conference'
+        at: 'before 1961-08-05'
+  - edit:
+      id: cal.1961-09.cuba-bay-of-pigs
+      base: '164c4f5d'
+      set:
+        when: 'Sept., before the 12th'
+  - edit:
+      id: cal.1961-09.berlin-and-vienna-2    # audit: c, "a few days after Reynaud" (cal.1961-09-16.berlin-and-vienna)
+      base: '7b0c2229'
+      set:
+        when: 'Sept., a few days after Reynaud'
+        at: 'after 1961-09-16'
+  - edit:
+      id: cal.1961-09.soviet-union
+      base: 'a8b6034c'
+      set:
+        when: 'Sept., the last week'
+  - edit:
+      id: cal.1961-09.transition-and-staff-2
+      base: '1724016b'
+      set:
+        when: 'Sept., early'
+  - edit:
+      id: cal.1961-09.transition-and-staff-3
+      base: '90d27a27'
+      set:
+        when: 'Sept., late'
+  - edit:
+      id: cal.1961-10.vietnam
+      base: '6b29e460'
+      set:
+        when: 'Oct., early'
+  - edit:
+      id: cal.1961-10.vietnam-2
+      base: 'c6ad1bab'
+      set:
+        when: 'Oct., before the Taylor-Rostow mission'
+        at: 'before 1961-10-16'
+  - edit:
+      id: cal.1961-10.soviet-union    # audit: c, "the Twenty-Second Party Congress" (opens Oct. 17, cal.1961-10-17.berlin-and-vienna)
+      base: '70f43b7d'
+      set:
+        when: 'Oct., the Twenty-Second Congress'
+        at: 'before 1961-10-17'
+  - edit:
+      id: cal.1961-10.defense
+      base: 'df1a0fae'
+      set:
+        when: 'Oct., after the 9th'
+  - edit:
+      id: cal.1961-11.conservative-movement
+      base: '4b387445'
+      set:
+        when: 'Nov., the week of Kennedy''s Los Angeles speech'
+        at: 'before 1961-11-12'
+  - edit:
+      id: cal.1961-11.goldwater
+      base: 'f8769a53'
+      set:
+        at: 'after 1961-11-17'
+  - edit:
+      id: cal.1961-11.soviet-union-2
+      base: '37dbdec0'
+      set:
+        at: 'after 1961-11-17'
+  - edit:
+      id: cal.1961-11.right-and-the-military-2
+      base: '3217f048'
+      set:
+        when: 'Nov., before the 16th'
+  - edit:
+      id: cal.1961-11.right-and-the-military-3
+      base: '2fdd61e9'
+      set:
+        when: 'Nov., after the western tour'
+        at: 'after 1961-11-18'
+  - edit:
+      id: cal.1961-11.transition-and-staff-2
+      base: '4e360511'
+      set:
+        when: 'Nov., before the 17th'
+  - edit:
+      id: cal.1961-11.vietnam-2
+      base: 'b9e68443'
+      set:
+        when: 'Nov., after the Taylor report'
+        at: 'after 1961-11-03'
+  - edit:
+      id: cal.1961-12.elections-1962
+      base: 'ca7a55f8'
+      set:
+        when: 'Dec., early'
+  - edit:
+      id: cal.1961-12.mississippi
+      base: '99bdd297'
+      set:
+        when: 'Dec., before the 6th'
+  - edit:
+      id: cal.1961-12.mississippi-2
+      base: 'f07d1da6'
+      set:
+        when: 'Dec., after the 6th'
+  - edit:
+      id: cal.1961-12.transition-and-staff-3
+      base: 'b263c14a'
+      set:
+        when: 'Dec., after the 19th'
