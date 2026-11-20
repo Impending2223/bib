@@ -37,16 +37,6 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
-    key: ham-rong
-    name: Hàm Rồng
-    zone: Asia/Bangkok
-    in: drv
-- place-key:
-    key: bach-long-vi
-    name: Bạch Long Vĩ
-    zone: Asia/Bangkok
-    in: drv
-- place-key:
     key: phuoc-long
     name: Phước Long
     zone: Asia/Ho_Chi_Minh
@@ -1468,7 +1458,7 @@ ops:
       also:
       - vietnam
       c: The Politburo meets on the strategic plan for the winter, spring and summer of 1967–68, Trường Chinh presiding; Lê Duẩn and Võ Nguyên Giáp away for treatment abroad. Oct. 20, the intelligence and Operations reports; Oct. 21, Văn Tiến Dũng for the Military Committee on the plan to turn the main strategic attack into the cities, with a general offensive and uprising; the fronts report their plans; Oct. 23–24, the Politburo debates the chances of taking the cities and of an uprising. It adopts the line to prepare a general offensive and uprising, to be set off the same day and hour at Đà Nẵng and Saigon if it can be, the cities to be taken and if possible Thiệu, Kỳ or Westmoreland; a second front and a Provisional Revolutionary Government to follow; agrees to join the Lao in attacking Nậm Bạc. Trường Chinh asks that "three degrees of victory" be put as "cases." The question of the uprising is left for the next meeting.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 34–39. Made public: 2013. Names: Trường Chinh, Phạm Văn Đồng, Nguyễn Duy Trinh, Văn Tiến Dũng, Lê Đức Thọ, Lê Duẩn, Võ Nguyên Giáp, Thiệu, Kỳ, Westmoreland. Check: the place; the history does not name it. The time is the first day''s.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 34–39. Made public: 2013. Names: Trường Chinh, Phạm Văn Đồng, Nguyễn Duy Trinh, Văn Tiến Dũng, Lê Đức Thọ, Lê Duẩn, Võ Nguyên Giáp, Thiệu, Kỳ, Westmoreland. The place is the Politburo''s seat; the history does not name it. The time is the first day''s.'
       tags:
       - polity:drv
       - vis:only:drv
@@ -2207,7 +2197,7 @@ ops:
       - vietnam
       - vietnam-may-offensive
       c: 'The Politburo and the Central Military Party Committee meet and decide a second wave of the general offensive and uprising, from May 4 to the end of June. The enemy, after Tết, is massing at the key points to push the war away from the cities; his force is still scattered. The aim: hit the cities without a stop, tighten the siege, keep up a standing crisis and rouse the people to take power; free most of the countryside and then all of it; keep on destroying the Saigon regime and army and a good part of the American forces; strike bases, depots and roads; raise the military and political force fast; the North to build defense, raise output, beat any new escalation, keep traffic open and support the South. Plan: Khe Sanh besieged; Route 9, Trị–Thiên and the Western Highlands held and the enemy destroyed there; Saigon–Gia Định the main point; Huế and Đà Nẵng the important ones.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 173–76. Made public: 2013. Check: the place; the history does not give it.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 173–76. Made public: 2013. The place is the Politburo''s seat; the history does not give it.'
       tags:
       - polity:drv
       - vis:only:drv
@@ -3485,6 +3475,95 @@ ops:
       place: lang-vei
       time: 1968-02-06T15:30Z
       time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1967-03-08.vietnam-hanoi-2
+      when: Mar. 8–13
+      date: '1967-03-08'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      - vietnam-support
+      c: Ship 43 of the Navy's Group 125 sails from Haiphong with supplies for Quảng Ngãi, Region 5 having first call over Nam Bộ. Five days on, about 30 nautical miles off Sa Kỳ, she meets American warships; Nguyễn Đức Thắng, captain, and Trần Quốc Tuấn, commissar, fight, wound two of the ships, and reach the pier at 5 a.m. to hide the cargo. Aircraft and warships come in; the crew gets ashore and the ship is destroyed.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 49–50. See [[cal.1967-03-14.vietnam-operations]]. Check: the clock, whose it is; the day of the arrival, which is Mar. 13 by "five days" from Mar. 8. The place is the port of departure.'
+      tags:
+      - polity:drv
+      - polity:us
+      - ok:fields-time
+      place: haiphong
+- add:
+    entry:
+      id: cal.1967-06-06.vietnam-hanoi
+      when: June 6–14
+      date: '1967-06-06'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      - vietnam-support
+      c: Ship 198 of Group 125 sails Jun. 6; the night of Jun. 14, six nautical miles from the Ba Làng An landing in Quảng Ngãi, she meets the enemy, fires back, and drives for the pier. The crew destroys the ship and goes ashore; the commissar Huỳnh Ngọc Trạch and the deputy captain Phạm Chuyên Nghiệp die.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 50. Check: the place of departure, which the history does not give; the entry''s place is Haiphong, Group 125''s home port.'
+      tags:
+      - polity:drv
+      - polity:us
+      - ok:fields-time
+      place: haiphong
+- add:
+    entry:
+      id: cal.1968-02-23.vietnam-hanoi
+      when: Feb. 23
+      date: '1968-02-23'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      - vietnam-support
+      c: Ship 165 sails for Cà Mau, the first of four ships, 165, 56, 43 and 235, the Navy's command sends with arms and ammunition for the general offensive. Near the landing she meets the enemy; the captain and deputy, Nguyễn Chánh Tâm and Nguyễn Ngọc Lương, with 18 men, 15 of them Party members, put the cargo into the sea to be recovered, let the enemy come near, and blow the ship up with themselves.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 50. See [[cal.1968-03-01.vietnam-operations]]. Check: the place of departure; and the day of the loss, which the passage read does not give.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: haiphong
+- add:
+    entry:
+      id: cal.1966-08.vietnam-hanoi-2
+      when: Aug.
+      date: 1966-08
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: The Western Highlands Front's command, for want of supplies to keep divisions massed and on the needs of the field, dissolves the 325B Division. The Front's mobile main force is left the 1st Division (Regiments 66, 320 and 88) and the independent Regiment 101, four artillery and mortar battalions and antiaircraft machine guns; Regiment 24 goes to Kon Tum, Regiment 95B to Gia Lai and Regiment 33 to Đắk Lắk as local main force.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 220. Made public: 2013. Check: the day.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-08.vietnam-hanoi-3
+      when: Aug.
+      date: 1966-08
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Region 5's command puts Regiment 31, just in from the North, into the 2d Division to strengthen it; Regiment 20 goes into Khánh Hòa and with Regiment 10 in Phú Yên forms the Region's main force in the Southern Sub-region; the Region builds up the 368B Artillery Regiment (120 mm mortars, rockets, A12).
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 221. Made public: 2013. Check: the day.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966.vietnam-hanoi-2
+      when: '1966'
+      date: '1966'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: The Central Office forms Region 10 of Quảng Đức and Phước Long, out of Region 6, and Bình Long, out of Region 7, to hold the mountain base and build a corridor for the main force.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 222. Made public: 2013. Check: the day; the history gives the formation just after the Rừng Sác zone of May 1966 and before the supply units it names.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+      - ok:fields-place
 - cite:
     id: cal.1965-01-02.vietnam-hanoi
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 375 (the instruction no. 88-CT/TW, Jan. 2, 1965)'
@@ -3748,3 +3827,26 @@ ops:
     witness: w.lich-su-khang-chien-chong-my
     reads: the camp, called Làng Vây, held by about 600 of the Saigon side in six areas, each held by a ranger company, taken by 8 a.m. Feb. 7 after an attack opened at 11:30 p.m. Feb. 6, 400 killed, over 200 taken, five American advisers among the captured
     at: V, 122
+- cite:
+    id: cal.1967-03-14.vietnam-operations
+    item: '[[w.lich-su-khang-chien-chong-my]], V, 49–50 (Ship 43 of Group 125, Mar. 8–13: met American warships about 30 nautical miles off Sa Kỳ, reached the pier at 5 a.m., the crew went ashore and the ship was destroyed; see [[cal.1967-03-08.vietnam-hanoi]])'
+    units: all
+- variant:
+    id: cal.1967-03-14.vietnam-operations
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: the ship, No. 43, left Haiphong Mar. 8, after five days met American warships about 30 nautical miles off Sa Kỳ, Quảng Ngãi, wounded two, and reached the pier at 5 a.m. to hide its cargo; the crew went ashore and the ship was destroyed
+    at: V, 49
+- cite:
+    id: cal.1968-03-01.vietnam-operations
+    item: '[[w.lich-su-khang-chien-chong-my]], V, 50–51 (the four ships of Group 125: 165 to Cà Mau, 56 to Bình Định, 43 to Quảng Ngãi, 235 to Nha Trang; see [[cal.1968-02-23.vietnam-hanoi]])'
+    units: all
+- variant:
+    id: cal.1968-03-01.vietnam-operations
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: Ship 56, to Bình Định, did not get in and turned back to the North; Ship 43, second trip to Quảng Ngãi, met six warships and gunships 12 miles out, shot down two helicopters and wounded a fast boat, the crew swam ashore and the ship blown up; Ship 235, to Nha Trang, dropped its cargo six nautical miles from Hòn Hèo and went out; Ship 165, Cà Mau, blown up by its crew
+    at: V, 50–51
+- check:
+    id: cal.1965-12-20.vietnam-hanoi
+    text: 'Check: the history, IV, 220, has the Highlands'' 1st Infantry Division formed "late December 1965", which may be the formation of Dec. 20 on page 37; the Highlands'' 62d Division is named with it (IV, 220).'
