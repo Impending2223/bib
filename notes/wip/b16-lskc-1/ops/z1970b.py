@@ -1,0 +1,9 @@
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'scripts2'))
+import dsl
+from dsl import *
+VH = 'vietnam-hanoi'; OP = ['vietnam-operations']
+A('1964-1208-anlao', '1964-12-08', VH, 'Bình Định. 8 a.m., Dec. 8. Six fighters and two reconnaissance planes cover 26 helicopters landing troops at the foot of Hill 193 to relieve the An Lão district seat; from noon aircraft bomb Regiment 2 of Region 5 for three hours, nearly 50 of its men killed or wounded. That evening the Region\'s command, judging the aim of the An Lão battle achieved, ends it and takes the main force out.', 'III, 390', place='an-lao', time='08:00', also=OP, extra='The time is the first act\'s, the landing.')
+A('1965-0101-hungvuong2', '1965-01-01', VH, 'Phước Tuy. Jan. 1 Saigon opens operation Hùng Vương 2 to relieve Đức Thạnh and retake Bình Giã.', 'III, 385', place='duc-thanh', also=OP)
+A('1965-0103-bingiaend', '1965-01-03', VH, 'Phước Tuy. Jan. 3 Regiment 762 destroys a 16-vehicle convoy (two tanks, two M113s) with Ranger Battalion 35 on Route 2 from Bà Rịa to Đức Thạnh; the Bình Giã campaign ends, Dec. 2 to Jan. 3. By the Region\'s count it destroyed two main-force battalions (the 33d Ranger and the 4th Marine), Armored Troop 3 of M113s and two motor convoys, badly hurt three Ranger battalions (30, 35, 38) and seven Civil Guard companies and broke up most of the Self-Defense Corps in the area.', 'III, 385–86', place='duc-thanh', also=OP + ['vietnam'])
+A('1964-0408-thanhloi', '1964-04-08', VH, 'Long An. Battalion 1 of the province beats a sweep of the Saigon 25th Division at Thạnh Lợi commune, Apr. 8, the province committee\'s best day in the drive begun that year to break the pacification plan north and south of Route 4.', 'III, 358', place='thanh-loi', also=OP)

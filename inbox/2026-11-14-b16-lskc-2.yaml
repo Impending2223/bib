@@ -126,6 +126,26 @@ ops:
     name: Quảng Bình
     zone: Asia/Bangkok
     in: drv
+- place-key:
+    key: tra-phi
+    name: Trà Phí
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: cha-la
+    name: Chà Là
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: lam-vo
+    name: Lâm Vồ
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: dong-loc
+    name: Đồng Lộc
+    zone: Asia/Bangkok
+    in: drv
 - add:
     entry:
       id: cal.1964.vietnam-hanoi-3
@@ -2815,6 +2835,7 @@ ops:
       - polity:drv
       - polity:us
       - name:ho-chi-minh
+      - ok:fields-time
       place: hanoi
 - add:
     entry:
@@ -2858,6 +2879,7 @@ ops:
       tags:
       - polity:drv
       - polity:us
+      - ok:fields-at
       place: haiphong
 - add:
     entry:
@@ -2872,7 +2894,307 @@ ops:
       tags:
       - polity:drv
       - polity:us
+      - ok:fields-time
       place: hanoi
+- add:
+    entry:
+      id: cal.1968-05-31.vietnam-hanoi
+      when: May 31
+      date: '1968-05-31'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      c: Cồn Cỏ island. The island's antiaircraft gunners hold their positions and fight the attacking aircraft.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 278. Check: the result; the passage read gives no count for the day. In May the missile regiment 238 shot down seven aircraft in succession (V, 278).'
+      tags:
+      - polity:drv
+      - polity:us
+- add:
+    entry:
+      id: cal.1968-07.vietnam-hanoi
+      when: July
+      date: 1968-07
+      thread: vietnam-hanoi
+      also:
+      - vietnam
+      c: The Central Office's Military Party Committee re-forms the Saigon Party Committee, Võ Văn Kiệt secretary; the Southern Command hands all the inner-city districts to Sub-region 6.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 240. Made public: 2013. Check: the day.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-07-23.vietnam-hanoi
+      when: July 23
+      date: '1968-07-23'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Giồng Trôm, Bến Tre. After 5,000 rounds on Long Mỹ and Lương Phú, 20 warships bring the American 3d Brigade ashore; the province forces sink many boats. About 7 a.m., after B-52 carpet bombing, 14 helicopters land two companies of the 10th Regiment at Gò Trụ. Jul. 24 the rescue ships come to tow the damaged and 12 more are sunk.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 255–56. Check: the clock, whose it is; the history gives about 5 a.m. for the first landing and about 7 a.m. for the second.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: ben-tre
+      time: 1968-07-22T21:00Z
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1968-07-24.vietnam-hanoi-2
+      when: July 24
+      date: '1968-07-24'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      c: Đồng Lộc junction, Hà Tĩnh. Ten girls of a women's youth-volunteer squad, Võ Thị Tần, Hồ Thị Cúc, Nguyễn Thị Nhỏ, Nguyễn Thị Xuân, Trần Thị Hường, Vũ Thị Hà, Võ Thị Hợi, Trần Thị Rạng, Dương Thị Xuân and Hà Thị Xanh, die keeping the road open under the bombing. The history says the Assembly and the State Council gave the squad the title Hero of the People's Armed Forces.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 283. From April to the year''s end the Americans dropped about 37,000 high-explosive and 5,000 magnetic bombs on the Đồng Lộc and Thượng Gia junctions (V, 277). Check: the clock, whose it is; the manner of death, which the passage read does not give; the year the title was given.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: dong-loc
+      time: 1968-07-24T09:00Z
+      time_zone: Asia/Bangkok
+- add:
+    entry:
+      id: cal.1968-08-13.vietnam-hanoi
+      when: Aug. 13
+      date: '1968-08-13'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Lộ Tẻ airfield, Cần Thơ. Battalion 307 with a Region sapper unit takes the field by surprise with grenades and charges: nearly 60 aircraft of all kinds destroyed or damaged.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 250.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: can-tho
+      time_range:
+      - 1968-08-13T14:00Z
+      - 1968-08-13T16:00Z
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+- add:
+    entry:
+      id: cal.1968-08-17.vietnam-hanoi-2
+      when: Aug. 17
+      date: '1968-08-17'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Trà Phí, Tây Ninh–Bình Long campaign. The night of Aug. 17 Regiment 3 (less a battalion) of the 9th Division raids the Trà Phí strongpoint cluster: about 400 Americans out of action, 31 vehicles and six guns destroyed or damaged. At the same time sappers raid Bà Đen mountain base, kill a ranger company and wreck the signal center. The campaign opens, the history says, Aug. 17.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 233. See [[cal.1968-08-18.vietnam-operations]].'
+      tags:
+      - polity:drv
+      - polity:us
+      place: tra-phi
+      time_range:
+      - 1968-08-17T14:00Z
+      - 1968-08-17T16:00Z
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+- add:
+    entry:
+      id: cal.1968-08-19.vietnam-hanoi
+      when: Aug. 19
+      date: '1968-08-19'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Route 22, Tây Ninh. Regiment 33 of the 5th Division, in the best of three actions in a row, destroys a mechanized infantry battalion and 57 armored vehicles.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 233–34. Check: the regiment; the sentence names it only by the earlier passage.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: tay-ninh
+- add:
+    entry:
+      id: cal.1968-08-21.vietnam-hanoi
+      when: Aug. 21
+      date: '1968-08-21'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Trà Phí, second raid. Regiment 3 of the 9th Division puts a mechanized infantry battalion out of action, destroys or damages 96 vehicles and 14 guns, and shoots down four helicopters.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 234.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: tra-phi
+      time_range:
+      - 1968-08-21T14:00Z
+      - 1968-08-21T16:00Z
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+- add:
+    entry:
+      id: cal.1968-08-21.vietnam-hanoi-2
+      when: Aug. 21
+      date: '1968-08-21'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Chà Là, first raid. Regiment 5 of the 5th Division kills and wounds hundreds, burns or damages 140 vehicles and 13 guns, downs one aircraft.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 234.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: cha-la
+      time_range:
+      - 1968-08-21T14:00Z
+      - 1968-08-21T16:00Z
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+- add:
+    entry:
+      id: cal.1968-08-22.vietnam-hanoi
+      when: Aug. 22
+      date: '1968-08-22'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Ông Hùng stream, Tây Ninh. The night of Aug. 22–23 Battalion 2 of Regiment 33, 5th Division, attacks an American vehicle park: 60 vehicles destroyed, four aircraft shot down, hundreds out of action.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 234.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: tay-ninh
+      time_range:
+      - 1968-08-22T14:00Z
+      - 1968-08-22T16:00Z
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+- add:
+    entry:
+      id: cal.1968-08-21.vietnam-hanoi-3
+      when: Aug. 21–22
+      date: '1968-08-21'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: A rocket-launcher section of Sub-region 6 fires several volleys at Independence Palace on Aug. 21 and 22. The Rừng Sác sappers' Group 10 burns or sinks five military freighters of about 7,000 tons on the Lòng Tàu river and at Cát Lái port. Oct. 10 and Dec. 4 the same sappers sink two Caltex tankers of 30 million liters each at Nhà Bè.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 241. Check: the tonnage, which is the history''s. Three actions in one entry; the history joins them.'
+      tags:
+      - polity:drv
+      - polity:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-08-22.vietnam-hanoi-2
+      when: Aug. 22
+      date: '1968-08-22'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Đà Nẵng. The Lê Độ commando team attacks the Đà Nẵng special zone, the radio station, the five-way police post, the Mỹ Khê district office and the Thanh Khê council; Battalion 484 takes Hòa Vang district seat and targets in the center of Cẩm Lệ. Some foreign agencies called it the fiercest of some 50 attacks that month. In Quảng Nam the same night sapper Battalions 406, 409 and 10 attack a cluster of 10 battalion headquarters; Aug. 23 a battalion of the 2d Division destroys an enemy battalion.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 266–67. Check: the places of the Quảng Nam attack and the fate of the Aug. 23 battalion, which the passage read does not give.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: da-nang
+      time_range:
+      - 1968-08-22T14:00Z
+      - 1968-08-22T16:00Z
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+- add:
+    entry:
+      id: cal.1968-08.vietnam-hanoi-3
+      when: Aug., late
+      date: 1968-08
+      thread: vietnam-hanoi
+      also:
+      - vietnam
+      - vietnam-operations
+      c: 'The Trị–Thiên Regional Committee decides not to go on with the general attack and uprising on the city: step up the wearing down and destruction of the enemy piece by piece, rebuild the base and the three linked zones, join armed and political struggle, legal and half-legal, put the force in new positions in the mountains, grow cassava, 15 million plants, against hunger, and hunt the aircraft.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 274. Made public: 2013. Check: the days.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+      - ok:fields-place
+      at: before 1968-08-21
+- add:
+    entry:
+      id: cal.1968-08.vietnam-hanoi-4
+      when: Aug., mid
+      date: 1968-08
+      thread: vietnam-hanoi
+      also:
+      - vietnam
+      c: The Saigon Party Committee, at its rear base at Ba Thu, holds its first conference of cadres to settle how to act in the third wave.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 240. Made public: 2013. Check: the day and the conference''s decisions, which the passage read does not give.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+      - ok:fields-place
+      at: before 1968-08-11
+- add:
+    entry:
+      id: cal.1968-08-31.vietnam-hanoi
+      when: Aug. 31
+      date: '1968-08-31'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: The campaign command ends the first phase of the Tây Ninh–Bình Long campaign on both directions; Sept. 1–10 the units regroup in a "buffer round"; Sept. 10 the second phase opens as intended.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 235–36.'
+      tags:
+      - polity:drv
+      - ok:fields-place
+      time_range:
+      - 1968-08-31T14:00Z
+      - 1968-08-31T16:00Z
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+- add:
+    entry:
+      id: cal.1968-09-12.vietnam-hanoi-2
+      when: Sept. 12
+      date: '1968-09-12'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Lâm Vồ, second raid. Regiment 2 of the 9th Division badly hurts a mixed mechanized infantry battalion, destroys or damages 58 vehicles (39 armored) and 14 mortars, and downs seven aircraft. The same day on Route 22 Regiment 88 of the 5th Division, by ambush and counterattack, puts about 350 out of action, 46 vehicles and six helicopters. On Route 26 Sept. 16 Regiment 174 ambushes a mechanized infantry unit on the move: over 200 killed or wounded, 26 vehicles burned, five gunships.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 236. Check: the units and the days; three actions in a run, Sept. 12 twice and Sept. 16.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: lam-vo
+- add:
+    entry:
+      id: cal.1968-09-28.vietnam-hanoi
+      when: Sept. 28
+      date: '1968-09-28'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'The Tây Ninh–Bình Long campaign ends after 43 days and nights from Aug. 17: the 5th, 7th and 9th Divisions and the provinces'' troops fought 315 actions (53 of battalion size, 16 of regiment size), put 13 battalions and 55 companies out of action and badly hurt 7 mechanized battalions of the American 1st and 25th Divisions: 18,406 out of action, 1,507 vehicles, 112 aircraft and 107 guns destroyed.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 239. Check: the figures, which are the history''s; the date of the end is the third wave''s, ordered Aug. 17 to Sept. 28 (V, 229).'
+      tags:
+      - polity:drv
+      - polity:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-10-28.vietnam-hanoi
+      when: Oct. 28
+      date: '1968-10-28'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-support
+      c: 'The Central Military Party Committee and the Defense Ministry form Command 500, Major General Nguyễn Đôn commander and Major General Lê Quang Đạo commissar, to lead and command transport and keep the traffic open in the west of Military Region 4: the rivers and Routes 8, 12 and others.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 281. Made public: 2013. Check: the place; the history gives none.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+      - ok:fields-place
 - cite:
     id: cal.1965-01-02.vietnam-hanoi
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 375 (the instruction no. 88-CT/TW, Jan. 2, 1965)'
@@ -3117,4 +3439,8 @@ ops:
 - cite:
     id: cal.1967-04-24.vietnam-air-war
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 408 (Hải Phòng and Hanoi raids from Apr. 24)'
+    units: all
+- cite:
+    id: cal.1968-08-18.vietnam-operations
+    item: '[[w.lich-su-khang-chien-chong-my]], V, 233–35 (the Tây Ninh–Bình Long campaign opened Aug. 17; the Trà Phí raid that night; first phase to Aug. 31)'
     units: all

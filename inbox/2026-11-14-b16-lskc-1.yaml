@@ -7,6 +7,16 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
+    key: bau-gia
+    name: Bàu Giá
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: bau-lach
+    name: Bàu Lách
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: bau-nau
     name: Bàu Nâu
     zone: Asia/Ho_Chi_Minh
@@ -192,6 +202,21 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
+    key: ho-coc
+    name: Hồ Cóc
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: hoa-nhat
+    name: Hòa Nhật
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: hoai-duc
+    name: Hoài Đức
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: hoang-mai
     name: Hoàng Mai
     zone: Asia/Ho_Chi_Minh
@@ -237,6 +262,11 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
+    key: lo-o
+    name: Lồ Ô
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: loc-an
     name: Lộc An
     zone: Asia/Ho_Chi_Minh
@@ -254,6 +284,11 @@ ops:
 - place-key:
     key: mang-xim
     name: Măng Xim
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: me-pu
+    name: Mê Pu
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
@@ -372,6 +407,11 @@ ops:
     zone: Asia/Bangkok
     in: drv
 - place-key:
+    key: thanh-loi
+    name: Thạnh Lợi
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: thanh-phu
     name: Thạnh Phú
     zone: Asia/Ho_Chi_Minh
@@ -424,6 +464,11 @@ ops:
 - place-key:
     key: vam-lung
     name: Vàm Lũng
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: viet-an
+    name: Việt An
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
@@ -4431,6 +4476,227 @@ ops:
       n: '[[w.lich-su-khang-chien-chong-my]], III, 355. Check: the history''s count of the dead is cut off at III, 355.'
       tags:
       - polity:drv
+- add:
+    entry:
+      id: cal.1962-07-15.vietnam-hanoi
+      when: July 15–17
+      date: '1962-07-15'
+      place: hoa-nhat
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      - vietnam
+      c: 'Biên Hòa. The people of Tân Hiệp and Tân Hòa communes, Châu Thành, penned in the Hòa Nhật strategic hamlet, break out: the night of July 15 guerrillas outside fire on the blockhouse at the gate and 200 families go through the fence before dawn; the night of July 16 again, with the people calling the soldiers by loudspeaker to stand still or surrender; the morning of July 17, 107 more families leave. The hamlet is leveled.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 193.'
+      tags:
+      - polity:drv
+      time_range:
+      - '1962-07-15T14:00Z'
+      - '1962-07-15T16:00Z'
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1962-01.vietnam-hanoi
+      when: Jan., late
+      date: '1962-01'
+      place: ho-coc
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      - vietnam
+      c: The people of Phước Hải bring a boat out to Hồ Cóc, in the freed area, and hand it to the Region at the end of January; they get Saigon permits for the six crew to pass the sea checks. It is one of the boats for the trips to the North.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 150. Made public: 2013. Check: the day.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+- add:
+    entry:
+      id: cal.1960-01.vietnam-hanoi-2
+      when: Jan., early
+      date: '1960-01'
+      place: bau-gia
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Bàu Giá, Tây Ninh. The military board of the Eastern Nam Bộ interprovince committee meets in the first days of January to carry out the Regional Committee''s directive. Two plans: take one or two district seats and four or five strongpoints, or attack Tua Hai, the base of the Saigon 32d Regiment. It proposes Tua Hai; the Regional Committee approves.'
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 316. Made public: 2013. Check: the day; the meeting is not dated more closely than "the first days of the year".'
+      tags:
+      - polity:drv
+      - vis:only:drv
+- add:
+    entry:
+      id: cal.1960-02.vietnam-hanoi
+      when: Feb.
+      date: '1960-02'
+      place: quang-ngai-province
+      thread: vietnam-hanoi
+      c: Quảng Ngãi. A conference of the province in February sums up the Trà Bồng rising and the struggle of 1954–60; Võ Chí Công, secretary of the Interzone V committee, speaks.
+      n: '[[w.lich-su-khang-chien-chong-my]], II, 296 n.1. Made public: 2013. Names: Võ Chí Công. Check: the day; the speech is quoted from the Party History Board of Quảng Ngãi, an archive not read.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+- add:
+    entry:
+      id: cal.1965-01-17.vietnam-hanoi
+      when: Jan. 17
+      date: '1965-01-17'
+      place: me-pu
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bình Thuận. Region 6's Battalion 186 ambushes and destroys a Civil Guard company and three Self-Defense platoons marching from Hoài Đức to Mê Pu, Jan. 17, and then takes the Bắc Núi hamlet, the last next to the subsector, and besieges the Hoài Đức district seat.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 401–02.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1965-01-20.vietnam-hanoi-2
+      when: Jan. 20
+      date: '1965-01-20'
+      place: bau-lach
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Gia Định. Companies 707 and 200 of the Saigon–Gia Định Region fight together, Jan. 20, and stop two Saigon main-force battalions sweeping the Bàu Lách hamlet, Nhuận Đức commune, in the Củ Chi tunnels area: 166 out of action.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 395–96.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1965-02-06.vietnam-hanoi
+      when: Feb. 6–7
+      date: '1965-02-06'
+      place: viet-an
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Quảng Nam. The night of Feb. 6–7 Region 5's Regiment 1 attacks the Việt An strongpoint, a key post on a hill at the junction of Routes 105 and 16, 8 km south of the Quế Sơn district seat.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 400.'
+      tags:
+      - polity:drv
+      time_range:
+      - '1965-02-06T14:00Z'
+      - '1965-02-06T16:00Z'
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1965-02-07.vietnam-hanoi
+      when: Feb. 7
+      date: '1965-02-07'
+      place: pleiku
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Gia Lai. The night of Feb. 7 the Region''s Sapper Battalion 407 and Battalion 334 of Regiment 320 take a string of Civil Guard posts west of Pleiku and the Plây Mơrông commando border post: 100 killed. In the same weeks Regiment 101 takes Đắk Giao, shells the Đắk Pét base and breaks Route 14 north of Kon Tum.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 399–400.'
+      tags:
+      - polity:drv
+      time_range:
+      - '1965-02-07T14:00Z'
+      - '1965-02-07T16:00Z'
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1965-02.vietnam-hanoi
+      when: Feb., early
+      date: '1965-02'
+      place: lo-o
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bình Thuận. Early in February Region 6's main forces destroy the Lồ Ô strongpoint at Tánh Linh and badly hurt the subsector; 1,000 people of the Đồng Me concentration area rise and go back to the base.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 402. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1965-02-23.vietnam-hanoi
+      when: Feb. 23
+      date: '1965-02-23'
+      place: hoai-duc
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bình Thuận. The night of Feb. 23 part of the Region's main force with Hàm Tân's local troops attacks the Hiệp Hòa hamlet and badly hurts two companies come from the subsector; Feb. 23 the garrison of the Hoài Đức subsector leaves its post and runs to Võ Đắc. All Hoài Đức district and most of Tánh Linh, over 35,000 people, are free.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 402. Check: the history gives both acts on Feb. 23, the attack on the hamlet by night and the subsector''s abandoning.'
+      tags:
+      - polity:drv
+      time_range:
+      - '1965-02-23T14:00Z'
+      - '1965-02-23T16:00Z'
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1965-03-30.vietnam-hanoi
+      when: Mar. 30
+      date: '1965-03-30'
+      place: kontum
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Kon Tum. Mar. 30 Regiment 101 finishes the fight against Saigon''s operation 129, begun to retake the posts lost in northern Kon Tum (Regiments 40 and 42, Ranger Battalion 21): it destroys most of Battalion 21 and a company of the 1st Battalion, 42d Regiment and shoots down three aircraft; the Saigon forces withdraw and the garrisons of Đắk Tả, Đắk Vân, Mỏ Lẹt and Măng Bút run.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 400. Check: the operation''s start not given.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964-12-08.vietnam-hanoi-2
+      when: Dec. 8
+      date: '1964-12-08'
+      place: an-lao
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bình Định. 8 a.m., Dec. 8. Six fighters and two reconnaissance planes cover 26 helicopters landing troops at the foot of Hill 193 to relieve the An Lão district seat; from noon aircraft bomb Regiment 2 of Region 5 for three hours, nearly 50 of its men killed or wounded. That evening the Region's command, judging the aim of the An Lão battle achieved, ends it and takes the main force out.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 390. The time is the first act''s, the landing.'
+      tags:
+      - polity:drv
+      time: '1964-12-08T00:00Z'
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1965-01-01.vietnam-hanoi
+      when: Jan. 1
+      date: '1965-01-01'
+      place: duc-thanh
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Phước Tuy. Jan. 1 Saigon opens operation Hùng Vương 2 to relieve Đức Thạnh and retake Bình Giã.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 385.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1965-01-03.vietnam-hanoi
+      when: Jan. 3
+      date: '1965-01-03'
+      place: duc-thanh
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      - vietnam
+      c: Phước Tuy. Jan. 3 Regiment 762 destroys a 16-vehicle convoy (two tanks, two M113s) with Ranger Battalion 35 on Route 2 from Bà Rịa to Đức Thạnh; the Bình Giã campaign ends, Dec. 2 to Jan. 3. By the Region's count it destroyed two main-force battalions (the 33d Ranger and the 4th Marine), Armored Troop 3 of M113s and two motor convoys, badly hurt three Ranger battalions (30, 35, 38) and seven Civil Guard companies and broke up most of the Self-Defense Corps in the area.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 385–86.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964-04-08.vietnam-hanoi-2
+      when: Apr. 8
+      date: '1964-04-08'
+      place: thanh-loi
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Long An. Battalion 1 of the province beats a sweep of the Saigon 25th Division at Thạnh Lợi commune, Apr. 8, the province committee's best day in the drive begun that year to break the pacification plan north and south of Route 4.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 358.'
+      tags:
+      - polity:drv
 - cite:
     id: cal.1960-01-26.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], II, 325–30 (Tua Hai, the Thirty-second Regiment''s base: the Nam Bộ Regional Committee''s decision, held to the lunar New Year; the attack from 0:30 a.m.)'
@@ -4878,3 +5144,9 @@ ops:
     id: cal.1964-04-19.laos
     item: '[[w.lich-su-khang-chien-chong-my]], III, 336 (Apr. 19, Kouprasith, pulled by the Americans, stages a coup at Vientiane and removes the Pathet Lao from the coalition government)'
     units: A
+- variant:
+    id: cal.1965-03-30.vietnam
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: 'the charge 150 kg of high explosive in a car driven into the main gate of the five-story embassy, set off by hand; 132 Americans and others killed or wounded, Deputy Ambassador U. Alexis Johnson badly wounded, Taylor away; the Pentagon Papers quoted: "the boldest and most direct Communist action against the United States"'
+    at: III, 396–97

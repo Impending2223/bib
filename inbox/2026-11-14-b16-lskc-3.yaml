@@ -102,6 +102,11 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
+    key: song-mao
+    name: Sông Mao
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: ka-te
     name: Ka Te
     zone: Asia/Ho_Chi_Minh
@@ -119,6 +124,16 @@ ops:
 - place-key:
     key: u-minh
     name: U Minh Thượng
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: camp-e-se-pich
+    name: Camp Ê-sê-pích
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: plei-can
+    name: Plây Cần
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
@@ -233,7 +248,7 @@ ops:
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: Eastern Nam Bộ. The 5th Division and local forces strike repeatedly around Biên Hòa and Long Bình; Regiment 33 hits a Royal Thai battalion at Bầu Cối, southeast of the Long Bình district post. Saigon sends six strategic reserve battalions to relieve the inner ring and the 3d Airmobile Cavalry Brigade to hold the outer.
+      c: Eastern Nam Bộ. The 5th Division and local forces strike repeatedly around Biên Hòa and Long Bình; Regiment 33 hits a Royal Thai battalion at Bầu Cối, southeast of the Long Bình district post. Six battalions of the Saigon strategic reserve move to relieve the inner ring, and the 3d Airmobile Cavalry Brigade to hold the outer.
       n: '[[w.lich-su-khang-chien-chong-my]], VI, 108. Check: the days; the history gives only the month.'
       tags:
       - 'polity:drv'
@@ -270,8 +285,8 @@ ops:
       when: Mar. 18
       date: '1969-03-18'
       thread: vietnam-operations
-      c: 'The American air force is ordered to bomb Cambodia. Nixon calls it the first turning point in the administration''s conduct of the war.'
-      n: '[[w.lich-su-khang-chien-chong-my]], VI, 109 and n. 1. Names: Nixon. Check: the order; the history gives the day and Nixon''s judgment through Joseph A. Amter, *Lời phán quyết về Việt Nam*, a Vietnamese edition (Quân đội nhân dân, 1985), 277.'
+      c: 'B-52s strike along the Cambodian border, the first bombing of Cambodia, ordered the same day. Nixon calls it the first turning point in the administration''s conduct of the war. From March 1969 to April 1970 the B-52s fly over 3,630 sorties on Cambodia, 60 percent of those in Indochina.'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 109 and n. 1; 248. Names: Nixon. Check: the order and the figures; the history gives the day and Nixon''s judgment through Joseph A. Amter, *Lời phán quyết về Việt Nam*, a Vietnamese edition (Quân đội nhân dân, 1985), 277, and calls the raid "hoạt động bữa ăn" (Breakfast).'
       tags:
       - 'polity:us'
       - 'name:nixon-richard-m'
@@ -367,7 +382,7 @@ ops:
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: 'Region V, at night. Sappers and mortar teams strike the HAWK missile position at Sơn Trà, Đà Nẵng, the 1st Marine Regiment''s headquarters at Hầm Xẻ, the 11th Brigade at Gò Hội, Quảng Ngãi, and the 5th Marine Regiment at An Hòa, Quảng Đà.'
+      c: 'Region V, at night. Sappers and mortar teams strike the missile position at Sơn Trà, Đà Nẵng, the 1st Marine Regiment''s headquarters at Hầm Xẻ, the 11th Brigade at Gò Hội, Quảng Ngãi, and the 5th Marine Regiment at An Hòa, Quảng Đà.'
       n: '[[w.lich-su-khang-chien-chong-my]], VI, 117–18. See [[cal.1969-05-11.vietnam-hanoi]]. The words: "đêm 12-5-1969" (the night of May 12, 1969).'
       tags:
       - 'polity:drv'
@@ -456,7 +471,7 @@ ops:
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: Ngọc Dơ Lang range, Kon Tum. In Đắk Tô 2, the 66th Regiment and others surround and hurt the Saigon 22d Ranger Battalion.
+      c: Ngọc Dơ Lang range. In Đắk Tô 2, the Fronts forces surround and badly hurt the Saigon 22d Ranger Battalion.
       n: '[[w.lich-su-khang-chien-chong-my]], VI, 121. See [[cal.1969-05-11.vietnam-hanoi]].'
       tags:
       - 'polity:drv'
@@ -469,7 +484,7 @@ ops:
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: 'Plây Thông Breng, Hill 668. In Đắk Tô 2, Battalion 9 of the 66th Regiment hurts the 2d Battalion of the Saigon strike force: over 300 out of action. About then 250 of its 1st Battalion are put out of action: the campaign''s highest rate of kill.'
+      c: 'Plây Thông Breng, Hill 668. In Đắk Tô 2, Battalion 9 of the 66th Regiment hurts the 2d Battalion of the Saigon strike force: over 300 out of action. About then 250 of its 1st Battalion are put out of action. The history calls it the campaign''s best result.'
       n: '[[w.lich-su-khang-chien-chong-my]], VI, 121. See [[cal.1969-05-11.vietnam-hanoi]].'
       tags:
       - 'polity:drv'
@@ -586,6 +601,7 @@ ops:
       n: '[[w.lich-su-khang-chien-chong-my]], VI, 126. Check: the history''s reading: the issue showed one week''s dead in Vietnam, and the history ties it to A Bia.'
       tags:
       - 'polity:us'
+      - 'ok:fields-place'
 - add:
     entry:
       id: cal.1969-09-04.vietnam-hanoi-5
@@ -664,7 +680,7 @@ ops:
       n: '[[w.lich-su-khang-chien-chong-my]], VI, 132–33. See [[cal.1969-08-11.vietnam-hanoi]]. Check: the place; the history names the province, Bình Thuận.'
       tags:
       - 'polity:drv'
-      place: phan-thiet
+      place: song-mao
 - add:
     entry:
       id: cal.1969-08-12.vietnam-hanoi-2
@@ -1055,6 +1071,19 @@ ops:
       - 'ok:fields-place'
 - add:
     entry:
+      id: cal.1969.vietnam-hanoi-8
+      when: '1969'
+      date: '1969'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Route 559 carries 170,000 tons of cargo into the South, 29 percent more than in 1968: hundreds of thousands of rifles, B-40 and B-41 rockets and recoilless guns, hundreds of millions of rounds, thousands of radios. Over 80,000 troops march south over the Trường Sơn to the fronts. In the dry season of 1968–69 the tankers had brought in only about 90 tons of fuel against a need of 500.'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 218–19. See [[cal.1969.vietnam-hanoi-2]]. Made public: 2013. Check: the day; the history gives the year and its own tonnages, which differ from the 52,424 tons of p. 93.'
+      tags:
+      - 'polity:drv'
+      - 'vis:only:drv'
+- add:
+    entry:
       id: cal.1969-05-14.vietnam-paris
       when: May 14
       date: '1969-05-14'
@@ -1244,6 +1273,75 @@ ops:
       tags:
       - 'polity:drv'
       - 'ok:fields-at'
+- add:
+    entry:
+      id: cal.1969-02-23.vietnam-hanoi
+      when: Feb. 23–Mar. 31
+      date: '1969-02-23'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Region Vs three forces hit the American strategic depots at An Đồn, Đà Nẵng, Đèo Son and Miếu Lỗ near Quy Nhơn, and Cam Ranh, and the command posts of the III Marine Amphibious Force, the 23d (Americal) Division and the 11th, 196th and 198th Brigades. The 2d Division draws American mobile forces out to An Hòa, Quảng Đà, Tiên Phước, Quảng Nam, and west of Tư Nghĩa and Đức Phổ, Quảng Ngãi. By the historys count thousands of the enemy out of action, hundreds of aircraft and vehicles destroyed. AFP, Mar. 14, quotes Lt. Gen. Hoàng Xuân Lãm: the fighting around Đà Nẵng shows the Viet Cong infrastructure intact.'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 103–5. See [[cal.1969-02-22.vietnam-hanoi]]. Check: the first day, which the history gives as the spring phases opening, the night of Feb. 22–23; the figures.'
+      tags:
+      - 'polity:drv'
+      - 'polity:us'
+      place: da-nang
+- add:
+    entry:
+      id: cal.1969-02.vietnam-hanoi-3
+      when: Feb., spring phase
+      date: 1969-02
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Camp Ê-sê-pích, Bình Thuận. Main force and local guerrillas raid the base: a battalion of the American 101st Airborne badly hurt, two artillery companies, 13 aircraft destroyed. The history calls it the spring phases best action on the far southern coast of Trung Bộ.'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 105. See [[cal.1969-02-22.vietnam-hanoi]]. Check: the day; the history gives the phase, Feb. 23–Mar. 31, and the camps name as printed.'
+      tags:
+      - 'polity:drv'
+      - 'polity:us'
+      place: camp-e-se-pich
+      at: after 1969-02-22
+- add:
+    entry:
+      id: cal.1969-02.vietnam-hanoi-4
+      when: Feb., spring phase
+      date: 1969-02
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Central Highlands. After beating Bình Tây 48 to 50, the three forces attack the line west of Kon Tum: the bases at Plây Cần and Kleng and Đức Cơ in Gia Lai. Under artillery, main force, local forces and guerrillas fight hand to hand for hills and valleys against American air and artillery. Sappers strike deep at the rear of the 1st Brigade, 4th Division at Tân Phú and Buôn Ma Thuột.'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 104–5. See [[cal.1969-02-22.vietnam-hanoi]]. Check: the days; the history says "những tháng đầu năm 1969" and so places the fighting before the summer phase.'
+      tags:
+      - 'polity:drv'
+      - 'polity:us'
+      place: plei-can
+      at: after 1969-02-22
+- add:
+    entry:
+      id: cal.1969-05-11.vietnam-hanoi-3
+      when: May 11
+      date: '1969-05-11'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Kon Tum. Under the Đắk Tô 2 attack Saigon opens operation Dân Quyền northwest of the town with eight infantry battalions and three armored squadrons, to stretch the attackers. The enemy avoids contact and holds hilltops; the Fronts command sends staff down to the units to carry out a new plan, pursuing day and night and surrounding each force found.
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 120–21. See [[cal.1969-05-11.vietnam-hanoi]]. Check: the day; the history puts it after the night of May 10–11.'
+      tags:
+      - 'polity:drv'
+      place: kontum
+- add:
+    entry:
+      id: cal.1969.vietnam-hanoi-7
+      when: 1969, mid
+      date: '1969'
+      thread: vietnam-hanoi
+      c: 'The Navy Command, which is also the Northeast Military Regions, reorganizes the naval force: some units are split off or merged into battalions directly under the command, to fight alone or with others in assigned waters, ready the field for the Navys mobile force and help in coastal militia building. In 1970 the Central Military Party Committees standing body separates the Navy from the Northeast Military Region.'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 205–6. Made public: 2013. Check: the day; the history says "từ giữa năm 1969".'
+      tags:
+      - 'polity:drv'
+      - 'vis:only:drv'
+      at: before 1969-05
 - add:
     entry:
       id: cal.1969-02-03.vietnam-hanoi
@@ -1632,35 +1730,25 @@ ops:
 - cite:
     id: cal.1969-05-11.vietnam-hanoi
     item: '[[w.lich-su-khang-chien-chong-my]], VI, 121–22, 127 (Đắk Tô 2 to its close: June 26, 4,135 out of action, 88 vehicles and 103 aircraft destroyed, hundreds of prisoners; the history names the new tactic of continuous encirclement and attack, "bao vây tiến công liên tục", first used here, its figures its own; the summer phase May 11–June 20: 29 battalions and equivalents put out of action, in Central Trung Bộ 150 strategic hamlets and 90 resettlement areas broken, 200,000 people freed)'
-    units: A
+    units: D-E
 - cite:
-    id: cal.1969-05-11.vietnam-hanoi
-    item: '[[w.lich-su-khang-chien-chong-my]], VI, 126–27 (the history says Nixon was forced by the pressure to order Abrams to stop operations against positions held by the North Vietnamese and to speed Vietnamization; no day given)'
-    units: A
-- cite:
-    id: cal.1969-08-11.vietnam-hanoi
+    id: cal.1969-09-04.vietnam-hanoi-4
     item: '[[w.lich-su-khang-chien-chong-my]], VI, 136–37 (the phase ends Sept. 15: tens of thousands out of action, hundreds of aircraft and thousands of vehicles destroyed, 193 vessels sunk or burned, 284 guns destroyed, by the history''s count)'
-    units: A
+    units: D
 - cite:
     id: cal.1969-10-29.vietnam-hanoi
     item: '[[w.lich-su-khang-chien-chong-my]], VI, 152 and n. 1 (the campaign ends Dec. 5: Task Forces 220 and 53 and a mixed infantry and ranger task force put out of action, 103 aircraft (mostly helicopters), 87 vehicles (24 armored), 29 guns and mortars and 35 depots destroyed or damaged, by the historys count)'
-    units: A
-- cite:
-    id: cal.1969.vietnam-hanoi-2
-    item: '[[w.lich-su-khang-chien-chong-my]], VI, 218–19 (Route 559 carried 170,000 tons into the South in 1969, 29 percent more than in 1968, among it hundreds of thousands of rifles, B-40 and B-41 rockets, recoilless guns, hundreds of millions of rounds and thousands of radios; over 80,000 troops marched south over the Trường Sơn that year; in the dry season of 1968–69 tankers brought in only some 90 tons of fuel against a need of 500)'
-    units: A
+    units: E
 - cite:
     id: cal.1969-07-25.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], VI, 29 and n. (the Guam statement of July 1969, named by Laird, Jan. 14, 1970, the Nixon Doctrine, applied to Asia by Vietnamization)'
-    units: A
-- cite:
-    id: cal.1969-03-18.vietnam-operations
-    item: '[[w.lich-su-khang-chien-chong-my]], VI, 248 ("hoạt động bữa ăn," the B-52 attack on the Cambodian border region, Mar. 18, the start of the widening of the war into Cambodia; from Mar. 1969 to Apr. 1970 over 3,630 B-52 sorties on Cambodia, 60 percent of the B-52 sorties in Indochina)'
-    units: A
-- cite:
+    units: B
+- variant:
     id: cal.1969-09-26.vietnam-hanoi
-    item: '[[w.lich-su-khang-chien-chong-my]], VI, 264 (from September 1969 the Saigon 21st Division, a Marine brigade, four Ranger battalions and river groups with air support open the first sweep to take U Minh and fail)'
-    units: A
+    unit: B
+    witness: w.lich-su-khang-chien-chong-my
+    reads: from September 1969 the Saigon 21st Division, Marine Brigade B, four Ranger battalions, river groups and air support open the first sweep to take U Minh, and fail
+    at: VI, 264
 - cite:
     id: cal.1969-01-13.vietnam-hanoi
     item: '[[w.lich-su-khang-chien-chong-my]], VI, 166–67 (the Secretariat''s directive on cultivating and holding up good people and good deeds, "bước vào năm 1969" (at the start of 1969): prompt praise, booklets, propaganda and study; not its number or day, or Hồ Chí Minh''s badge)'
