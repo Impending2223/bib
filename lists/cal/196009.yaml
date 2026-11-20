@@ -3523,6 +3523,32 @@ entries:
     n: '[[w.lich-su-khang-chien-chong-my]], II, 360. The time is the first day''s.'
     tags: [polity:drv]
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1960-09-13.china-leadership-9
+    when: Sept. 13
+    date: '1960-09-13'
+    thread: china-leadership
+    also: [china]
+    c: A report by Marshal He Long 贺龙 finds assault rifles that fail to fire, nineteen jet fighters made at Shenyang 沈阳 below standard, and over 100,000 gas masks of Factory 908 unusable.
+    n: '[[w.dikotter-maos-great-famine]], 148. Made public: 2010. To check: He Long, report, Sept. 13, 1960 (Reports by He Long and Nie Rongzhen, Gansu Provincial Archives, 91-6-26, pp. 69–75) (cited by [[w.dikotter-maos-great-famine]], 148 n.16a). Names: He Long.'
+    src:
+      c: 0f9075e6
+      rows:
+        - 'w.dikotter-maos-great-famine 148: all'
+        - 'via w.dikotter-maos-great-famine 148 n.16a: all'
+    tags: [polity:prc, vis:only:prc, name:he-long, ok:fields-place]
+  - id: cal.1960-09-13.china-leadership-10
+    when: Sept. 13
+    date: '1960-09-13'
+    thread: china-leadership
+    also: [china]
+    c: Nie Rongzhen 聂荣臻, who runs the nuclear weapons programme, reports wireless devices and measuring gauges unreliable, with dust trapped inside.
+    n: '[[w.dikotter-maos-great-famine]], 148. Made public: 2010. To check: Nie Rongzhen, report, Sept. 13, 1960 (Reports by He Long and Nie Rongzhen, Gansu Provincial Archives, 91-6-26, pp. 69–75) (cited by [[w.dikotter-maos-great-famine]], 148 n.16b). See [[cal.1960-09-13.china-leadership-9]]. Names: Nie Rongzhen.'
+    src:
+      c: 1b7198f7
+      rows:
+        - 'w.dikotter-maos-great-famine 148: all'
+        - 'via w.dikotter-maos-great-famine 148 n.16b: all'
+    tags: [polity:prc, vis:only:prc, name:nie-rongzhen]
   - id: cal.1960-09-14.congo
     when: Sept. 14
     date: '1960-09-14'
@@ -5023,6 +5049,15 @@ entries:
     c: 'Trà Vinh. On the Khmer festival of Đônta over 20,000 Khmer and 2,000 monks go into the provincial town for their rights and against terror. Saigon''s troops fire on the march: 10 killed, over 100 wounded, by the history''s count.'
     n: '[[w.lich-su-khang-chien-chong-my]], II, 362.'
     tags: [polity:drv]
+  - id: cal.1960-09-20.vietnam-hanoi-2
+    when: Sept. 20
+    date: '1960-09-20'
+    place: hiep-duc
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Quảng Nam. Sept. 20 the province''s armed force with the district''s armed work team attacks the Hiệp Đức district seat: a Civil Guard company destroyed, all its arms taken, by the history''s count.'
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 377.'
+    tags: [polity:drv]
   - id: cal.1960-09-21.middle-east
     when: Sept. 21
     date: '1960-09-21'
@@ -5585,6 +5620,38 @@ entries:
     c: Central Nam Bộ. The interprovince committee sets Sept. 23 for the rising of all its provinces. Mỹ Tho's order goes out that day.
     n: '[[w.lich-su-khang-chien-chong-my]], II, 363, 368. Made public: 2013.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1960-09-23.vietnam-hanoi-3
+    when: Sept. 23
+    date: '1960-09-23'
+    place: tan-thach
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bến Tre. Sept. 23 Company 261, formed in June, ambushes a Civil Guard platoon at Tân Thạch, Châu Thành, on its way from Mỹ Tho to the town, and destroys it, by the history's account.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 364.'
+    tags: [polity:drv]
+  - id: cal.1960-09-23.vietnam-hanoi-4
+    when: Sept. 23
+    date: '1960-09-23'
+    place: luong-quoi
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bến Tre. Sept. 23 a platoon of Giồng Trôm district's armed force destroys a Civil Guard platoon at Lương Quới, on its way from Giồng Trôm to the town, by the history's account.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 364.'
+    tags: [polity:drv]
+  - id: cal.1960-09-23.vietnam-hanoi-5
+    when: Sept. 23
+    date: '1960-09-23'
+    place: cau-nha-thuong
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bến Tre. The night of Sept. 23 the town's self-defense destroys the Self-Defense post at the Nhà Thương bridge and takes the arms of the guard at the Cái Cối bridge. The town had been empty and the shops shut that day on a rumor that the Viet Cong would attack in force.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 364.'
+    tags: [polity:drv]
+    time_range:
+      - 1960-09-23T14:00Z
+      - 1960-09-23T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1960-09-24.elections-1960
     when: Sept. 24
     date: '1960-09-24'
@@ -5770,10 +5837,42 @@ entries:
     place: ben-tre
     thread: vietnam-hanoi
     also: [vietnam-operations]
-    c: Bến Tre. Sept. 21–22 the province feints with tens of thousands of people; Sept. 24, 5 p.m., drums and clappers sound everywhere and that night the people of nearly 100 communes demonstrate and besiege posts. Mỹ Tho's second wave begins that night.
+    c: 'Bến Tre. Sept. 21–22 the province feints with tens of thousands of people; Sept. 24, 5 p.m., drums and clappers sound everywhere and that night the people of nearly 100 communes demonstrate and besiege posts: 20 posts of Giồng Trôm give up their arms, 10 of Ba Tri are destroyed or surrender, and dozens in Châu Thành, Bình Đại and Thạnh Phú, by the history''s count. Mỹ Tho''s second wave begins that night.'
     n: '[[w.lich-su-khang-chien-chong-my]], II, 363–66. The time is Sept. 24, the day the drums sounded.'
     tags: [polity:drv]
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1960-09-24.vietnam-hanoi-2
+    when: Sept. 24
+    date: '1960-09-24'
+    place: binh-chanh-bridge
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bến Tre. The afternoon of Sept. 24, after Saigon has pulled two battalions out of Giồng Trôm into the town, the people of Lương Hòa, Long Mỹ and Bình Hòa communes float coconut-trunk rafts with explosive down the stream and bring down the Bình Chánh bridge, cutting the road from the town to Giồng Trôm.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 364.'
+    tags: [polity:drv]
+    time_range:
+      - 1960-09-24T04:00Z
+      - 1960-09-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1960-09-24.vietnam-hanoi-3
+    when: Sept. 24
+    date: '1960-09-24'
+    place: chau-phu-giong-trom
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bến Tre. Sept. 24 in Châu Phú commune, Giồng Trôm, Chống, commander of the Civil Guard company and a man of the Party inside, gathers his company to collect their guns for inspection; a squad of Company 261 in Civil Guard dress walks into the post and takes the arms as the soldiers are called on to give up; the people raze the post. Another party takes the Nhà Thờ post by lam taxi without a shot.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 364. Check: the hour; the history places it with the rising at 5 p.m. of Sept. 24.'
+    tags: [polity:drv]
+  - id: cal.1960-09-24.vietnam-hanoi-4
+    when: Sept. 24
+    date: '1960-09-24'
+    place: ba-lai-river
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Bến Tre. About Sept. 24, in the same time as the Châu Phú fight, the communes of Phong Nẫm, Phong Mỹ, Châu Bình and Châu Hòa, with the armed force and men inside, force the posts along the Ba Lai river to surrender and raze them: a large free area, 100 weapons and over 100 prisoners taken, by the history''s count.'
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 365. Check: the day: the history gives "the same time" as the Châu Phú fight of Sept. 24. See [[cal.1960-09-24.vietnam-hanoi]].'
+    tags: [polity:drv]
   - id: cal.1960-09-25.elections-1960
     when: Sept. 25
     date: '1960-09-25'
@@ -7631,13 +7730,14 @@ entries:
     date: '1960-09-30'
     thread: china-leadership
     c: 'The State Planning Commission''s report on the control figures for the 1961 plan carries Li Fuchun''s slogan "adjustment, consolidation, improvement," with Zhou Enlai''s added "filling out": the eight characters gain currency.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 11. Made public: 1997. To check: [[w.macfarquhar-origins-of-the-cultural]], II, 323 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.3a); [[w.history-of-the-chinese]], 286 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.3b). Names: Zhou Enlai, Li Fuchun.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 11; [[w.yang-jisheng-mubei]], II, 1031 (the Center''s comment forwarding the Commission''s report on the control figures for 1961: "adjustment, consolidation, filling out and raising," the first time in a Central document, not yet a policy for a period). Made public: 1997. To check: [[w.macfarquhar-origins-of-the-cultural]], II, 323 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.3a); [[w.history-of-the-chinese]], 286 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.3b). Names: Zhou Enlai, Li Fuchun.'
     src:
       c: eabc9269
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 11: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 11 n.3a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 11 n.3b: all'
+        - 'w.yang-jisheng-mubei II, 1031: A'
     tags: [polity:prc, name:zhou-enlai, name:li-fuchun, vis:only:prc]
   - id: cal.1960-09-30.china
     when: Sept. 30
@@ -7754,3 +7854,21 @@ entries:
         - 'w.dikotter-maos-great-famine 289: all'
         - 'via w.dikotter-maos-great-famine 289 n.8a: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-09.vietnam-hanoi
+    when: Sept.
+    date: 1960-09
+    place: ky-sanh
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Quảng Nam. In September, backed by the Tam Kỳ district's armed work team, the people of Kỳ Sanh commune rise, kill the oppressors and free Tú Mỹ hamlet, the first in the province's plain.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 377. Check: the day.'
+    tags: [polity:drv]
+  - id: cal.1960-09.vietnam-hanoi-2
+    when: Sept.
+    date: 1960-09
+    place: quang-nam
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Quảng Nam. In September, the province's new companies H29 and H30 with the Region's armed forces attack the Ga Lâu post (Hiên) and the Sáu post (Giằng) and destroy four platoons, taking many arms, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 377. Check: the day.'
+    tags: [polity:drv]

@@ -715,12 +715,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: The Tianjin Revolutionary Committee is established.
-    n: '[[w.macfarquhar-maos-last-revolution]], 170; [[w.macfarquhar-maos-last-revolution]], 243 (the committee''s "victorious birth" at a rally of more than 250,000). To check: [[w.xuan-wenhua-dageming-jianshi]], 183–186 (cited by [[w.macfarquhar-maos-last-revolution]], 170 n.2).'
+    n: '[[w.macfarquhar-maos-last-revolution]], 170; [[w.macfarquhar-maos-last-revolution]], 243 (the committee''s "victorious birth" at a rally of more than 250,000); [[w.yang-jisheng-tiandi-fanfu]], I, 361 (Dec. 6, 1967, members and staff of the committee gather in the old municipal committee building, hang up the "Tianjin Revolutionary Committee" sign and eat "bitter-memory meals" of coarse grain and chaff in the basement; Xie Xuegong 解學恭, the committee''s head, speaks; the committee is made of one office, two headquarters and six groups with 414 people, cut after three months to two departments and four groups). To check: [[w.xuan-wenhua-dageming-jianshi]], 183–186 (cited by [[w.macfarquhar-maos-last-revolution]], 170 n.2).'
     src:
       c: c3e759fe
       rows:
         - 'w.macfarquhar-maos-last-revolution 170: all'
         - 'w.macfarquhar-maos-last-revolution 243: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 361: ?'
     tags: [polity:prc]
   - id: cal.1967-12-07.vietnam-congress
     when: Dec. 7
@@ -2603,14 +2604,20 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: 'Mao cables Nguyễn Hữu Thọ, president of the National Liberation Front''s Presidium, on the Front''s seventh anniversary: no state, large or small, with the people fully roused and resolutely relying on them in a people''s war, can fail to beat the strongest enemy; "the days of the American aggressors in Vietnam are not long"; "700 million Chinese are your strong rear".'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Dec. 19, 1967. [[w.zhonghua-renmin-gongheguo-waijiao]], 185 (Dec. 19, 1967; Mao''s cable to Nguyễn Hữu Thọ); [[w.jianguo-yilai-mao-zedong]], XIX, 206–207 (Dec. 19, 1967; printed from the *Renmin ribao* of Dec. 19, 1967; addressed to Nguyễn Hữu Thọ, chairman of the Presidium of the Front''s Central Committee). Names: Mao Zedong, Nguyễn Hữu Thọ.'
+    n: '"[(Mao Zedong''s) Congratulatory Telegram to Chairman Nguyễn Hữu Thọ on the Seventh Anniversary of the National Liberation Front of South Vietnam](https://digitalarchive.umd.edu/document/240266)" (Dec. 19, 1967), Gang er si Wuhan daxue zongbu et al, eds., *Mao Zedong sixiang wansui* (Long Live Mao Zedong Thought), vol. 5 (1961–1968) (Wuhan, internal circulation, May 1968), 343–344, Wilson Center Digital Archive (the telegram as the Red Guard collection prints it, titled 祝贺越南南方民族解放阵线成立七周年 给阮友寿主席的贺电 and signed 毛泽东, Dec. 19, 1967; an internal-circulation printing, not the first publication). [[w.zedong-mao-zedong-nianpu]], VI, Dec. 19, 1967. [[w.zhonghua-renmin-gongheguo-waijiao]], 185 (Dec. 19, 1967; Mao''s cable to Nguyễn Hữu Thọ); [[w.jianguo-yilai-mao-zedong]], XIX, 206–207 (Dec. 19, 1967; printed from the *Renmin ribao* of Dec. 19, 1967; addressed to Nguyễn Hữu Thọ, chairman of the Presidium of the Front''s Central Committee). Names: Mao Zedong, Nguyễn Hữu Thọ.'
     src:
       c: 16727f37
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, Dec. 19, 1967: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 185: A'
         - 'w.jianguo-yilai-mao-zedong XIX, 206–207: A-C'
+        - 'https://digitalarchive.umd.edu/document/240266: A, B'
     tags: [name:mao-zedong, name:nguyen-huu-tho, polity:prc, polity:drv]
+    variants:
+      - unit: C
+        witness: x.1967-12-19.mao-telegram-nguyen-huu-tho-wansui
+        reads: '"700 million Chinese people are the Vietnamese people''s strong backing" (七亿中国人民是越南人民的坚强后盾) and "China''s vast territory is the reliable rear of the Vietnamese people" (辽阔的中国领土是越南人民可靠的后方)'
+        at: '344'
   - id: cal.1967-12-19.china-leadership-3
     when: Dec. 19
     date: '1967-12-19'

@@ -1,0 +1,9 @@
+import sys
+sys.path.insert(0, '/home/user/bib/notes/wip/b16-lskc-1b')
+from dsl import *
+VH = 'vietnam-hanoi'
+A('1963-early-reserve', '1963', VH, 'Military Region 4. In early 1963, on the region\'s direction, the armed forces of Nghệ An, Hà Tĩnh and Quảng Bình open a drive to "build the reserve force": better militia, self-defense and local troops, and the registering and training of reservists. At Vĩnh Linh, on the line with the South, the Party committee and the Region command order vigilance and readiness without answering provocation.', 'III, 116', when='1963, early', at='before 1963-01', also=['vietnam-operations'], tags=['ok:fields-place'], check='the day; the history names the three provinces and Vĩnh Linh, no place for the drive.')
+A('1963-late-defense', '1963', VH, 'Military Region 4. By the end of 1963 the region completes its three basic lines of defense: the demarcation line, the coast and the Vietnam–Laos border.', 'III, 116', when='1963, late', at='before 1963-09', also=['vietnam-operations'], tags=['ok:fields-place'], check='the day.')
+US = ['polity:us']
+A('1964-0217-recon', '1964-02-17', 'vietnam-34a', 'The aerial reconnaissance of North Vietnam under OPLAN 34A, to gather intelligence and find the air defenses, radar, military bases and depots, is stepped up, Feb. 17, by the history\'s account.', 'III, 362', also=['vietnam-hanoi'], tags=US + ['ok:fields-place'], check='the history gives the day; the American record not read.')
+A('1964-0302-desoto', '1964-03-02', 'vietnam-34a', 'The Americans use destroyers on patrol along the North Vietnamese coast under the Desoto plan, Mar. 2, by the history\'s account, to back the South Vietnamese navy\'s attacks on the islands and coastal settlements of Military Region 4.', 'III, 362–63', also=['vietnam-hanoi'], tags=US + ['ok:fields-place'], check='the history gives the day; the American record not read.')

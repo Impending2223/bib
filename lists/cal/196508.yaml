@@ -2702,13 +2702,19 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: Zhou receives Trần Văn Thanh, head of the National Liberation Front's permanent mission in China, who hands him a letter from Front chairman Nguyễn Hữu Thọ to Mao, Liu, Zhu and Zhou, thanking them and the Chinese people for support of the South Vietnamese struggle against American aggression.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 748–49 (Aug. 12, 1965); [[w.zhou-enlai-waijiao-huodong]], 473 (Aug. 12, 1965; afternoon, Fujian Hall, Great Hall of the People; the book names the head of the permanent mission 陈文成). Made public: 1993. Names: Zhou Enlai, Trần Văn Thanh, Nguyễn Hữu Thọ, Mao Zedong, Liu Shaoqi, Zhu De.'
+    n: '"[Record of Conversation between Premier Zhou and Trần Văn Thanh, Chief, Delegation in China of National Front for the Liberation of South Vietnam](https://digitalarchive.umd.edu/document/165574)" (Aug. 12, 1965), PRC FMA 107-00901-02, 14–26, trans. Stephen Mercado, Wilson Center Digital Archive (Foreign Ministry file, secret document 746, the Premier not having reviewed it; Fujian Hall, Great Hall of the People, with Qiao Guanhua, Yao Guang and Lai Yali for China; the record gives no hour. The record also has Trần on the war''s first half, with his figures; Zhou and Qiao Guanhua on Singapore''s leaving Malaysia and on the Second Asian-African Conference; Trần saying Syria means to invite the Front, and Zhou saying he had only raised it). [[w.zhou-enlai-nianpu-1949]], II, 748–49 (Aug. 12, 1965); [[w.zhou-enlai-waijiao-huodong]], 473 (Aug. 12, 1965; afternoon, Fujian Hall, Great Hall of the People; the book names the head of the permanent mission 陈文成). Made public: 1993. Names: Zhou Enlai, Trần Văn Thanh, Nguyễn Hữu Thọ, Mao Zedong, Liu Shaoqi, Zhu De.'
     src:
       c: 15b5fff5
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 748–49: ?'
         - 'w.zhou-enlai-waijiao-huodong 473: A'
-    tags: [name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:zhu-de, polity:prc, polity:nlf, vis:only:prc+nlf]
+        - 'https://digitalarchive.umd.edu/document/165574: A'
+    tags: [name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:zhu-de, polity:prc, polity:nlf, vis:only:prc+nlf, name:qiao-guanhua]
+    variants:
+      - unit: A
+        witness: x.1965-08-12.prc-fma-107-00901-02-zhou-tran-van-thanh
+        reads: four letters of thanks from Nguyễn Hữu Thọ, one each to Mao, Liu Shaoqi, Zhu De and Zhou, where the entry has one letter to the four
+        at: 14–26
   - id: cal.1965-08-12.china-leadership-3
     when: Aug. 12
     date: '1965-08-12'
@@ -3113,6 +3119,11 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 473: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 44: all'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi]
+    variants:
+      - unit: A
+        witness: x.1965-08-12.prc-fma-107-00901-02-zhou-tran-van-thanh
+        reads: 'Zhou to Trần Văn Thanh, Aug. 12: "Yesterday, Vice Premier and Foreign Minister Chen Yi went to Indonesia" for its twentieth National Day (so the translation; the entry has him leave Aug. 14)'
+        at: 14–26
   - id: cal.1965-08-14.china
     when: Aug. 14
     date: '1965-08-14'

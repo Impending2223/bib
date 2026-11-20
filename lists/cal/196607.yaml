@@ -455,7 +455,13 @@ entries:
     thread: soviet-union-leadership
     also: [europe-and-the-alliance]
     c: 'Bucharest. Brezhnev leads the Soviet delegation (Kosygin, Gromyko, Malinovsky, Rusakov) to the Warsaw Pact''s Political Consultative Committee: flies out July 2, 6 p.m., landing at 8:45; the meeting July 4–6; flies back July 8, 2:10 p.m.'
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 135–136 (July 2–8). Names: Brezhnev, Kosygin, Gromyko, Malinovsky, Rusakov. Check: The record gives the presence, not the business.'
+    n: '"[Transcript of Discussions Held by Comrades Ion Gheorghe Maurer and Paul Niculescu-Mizil With the Delegation in The Democratic Republic of Vietnam](https://digitalarchive.umd.edu/document/122581)" (Oct. 3, 1966), ANR, Fond CC al PCR, Secţia Relaţii Externe, 127/1966, dosar nr. 3345, 31.XII.1966, f. 1–110, trans. Larry L. Watts, Wilson Center Digital Archive. Maurer''s and Niculescu-Mizil''s account to Phạm Văn Đồng, Oct. 3–4, 1966: the Poles presented a resolution pressing Vietnam toward negotiations, which Romania opposed; at the first secretaries'' meeting Ceaușescu told Gomułka that view pushed the Vietnamese to capitulation; Malinovsky briefed on the war, with maps, the balance favoring the Americans; the Declaration found an acceptable formula. [[w.brezhnev-rabochie-i-dnevnikovye]], II, 135–136 (July 2–8); [[w.lich-su-khang-chien-chong-my]], V, 294 (July 4–6: the Warsaw Pact states meet at Bucharest, leaders and the foreign and defense ministers of the Soviet Union, Bulgaria, Hungary, the GDR, Poland, Romania and Czechoslovakia; after a report on Vietnam they declare against the American crimes, for more aid, and their readiness to send volunteers). Names: Brezhnev, Kosygin, Gromyko, Malinovsky, Rusakov. Check: The record gives the presence, not the business.'
+    src:
+      c: b69c9add
+      rows:
+        - 'w.brezhnev-rabochie-i-dnevnikovye II, 135–136: ?'
+        - 'w.lich-su-khang-chien-chong-my V, 294: A'
+        - 'https://digitalarchive.umd.edu/document/122581: A'
     tags: [name:brezhnev-leonid, name:kosygin-aleksei, name:gromyko-andrei, name:malinovsky-rodion-y, polity:ussr, polity:romania]
   - id: cal.1966-07-02.china-leadership
     when: July 2
@@ -500,6 +506,18 @@ entries:
         - 'via w.macfarquhar-maos-last-revolution 43 n.49: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1923: ?'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1966-07-02.china-leadership-4
+    when: July 2
+    date: '1966-07-02'
+    thread: china-leadership
+    c: 'Wei Heng 衛恒, first secretary of the Shanxi committee 山西省委, instructs: "feel out every sort of person ... sort them into ranks"; those who post posters include true and false revolutionaries and rightists making trouble, and the situation is exceedingly complex.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 210–211. Made public: 2015. To check: Shi Minggang 石名崗, *Wenge zhong de Shanxi* 《文革中的山西》, vol. 1 (Tianma chuban youxian gongsi 香港天馬出版有限公司, 2015), 74 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 211 n.63).'
+    src:
+      c: 6dad443e
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 210–211: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 211 n.63: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
   - id: cal.1966-07-03.opinion
     when: July 3
     date: '1966-07-03'
@@ -596,6 +614,47 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1923: all'
     tags: [polity:prc, name:deng-xiaoping, name:ye-jianying, name:lin-biao, vis:only:prc]
+  - id: cal.1966-07-03.china-leadership-4
+    when: July 3
+    date: '1966-07-03'
+    thread: china-leadership
+    c: 'Evening. Liu Shaoqi 劉少奇 talks to his daughter Liu Tao 劉濤, who reports on Dec. 26, 1966: make Kuai Dafu 蒯大富 a live target to shoot at; make his side a minority, since only by criticizing them down is the work group''s position secured; "if the bourgeoisie gives us no democracy, we give them none." Liu Shaoqi later does not own the talk.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 194. The words: 7月3日晚上 (I, 194). Made public: 1966. To check: Liu Tao 劉濤, 〈造劉少奇的反,跟著毛主席幹一輩子革命——我的初步檢查〉, Dec. 26, 1966, printed in Qinghua daxue *Jinggangshan bao* 《井崗山報》, Dec. 31, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 194 n.11). Names: Liu Shaoqi.'
+    src:
+      c: c95d8882
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 194: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 194 n.11: all'
+    tags: [polity:prc, vis:only:prc, name:liu-shaoqi]
+    time_range:
+      - 1966-07-03T11:00Z
+      - 1966-07-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1966-07-03.china-leadership-5
+    when: July 3
+    date: '1966-07-03'
+    thread: china-leadership
+    c: 'Wang Renzhong 王任重 writes the Hubei committee 湖北省委 "Opinions on the Cultural Revolution in Secondary Schools and Above" 〈關於中等以上學校進行文化大革命的意見〉: "lure the snake out of its hole, seize the thief by seizing the chief, shoot the bird that sticks out its head"; dig out the roots at every level; pull out the worst rightist students and struggle against them in a body.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 203. Made public: 2008. To check: Zhou Liangxiao 周良霄 and Gu Juying 顧菊英, *Shinian wenge dashiji* 《十年文革大事記》 (Xindalu chubanshe 新大陸出版社, Hong Kong, 2008), 94 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 203 n.36).'
+    src:
+      c: 53efde02
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 203: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 203 n.36: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1966-07-03.china-leadership-6
+    when: July 3
+    date: '1966-07-03'
+    thread: china-leadership
+    c: 'Xie Yutian 解玉田, deputy head of the Shanxi committee''s propaganda department, relays Wei Heng''s instruction to the departments concerned: in colleges, middle schools, offices and among teachers and students, divide people into left, middle, right and reactionary, and "finish in haste." Many who posted, and many seen as "backward," "unruly" or of poor origin, are made rightists or counter-revolutionaries; a third of teachers and students are so made.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 210–211. Made public: 2015. To check: Shi Minggang 石名崗, *Wenge zhong de Shanxi* (2015), 74 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 211 n.63). See [[cal.1966-07-02.china-leadership-4]].'
+    src:
+      c: 0b1e93fc
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 210–211: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 211 n.63: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
   - id: cal.1966-07-04.press-and-broadcasting
     when: July 4
     date: '1966-07-04'
@@ -733,6 +792,44 @@ entries:
       - 1966-07-04T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1966-07-04.china-leadership-5
+    when: July 4
+    date: '1966-07-04'
+    place: peking
+    thread: china-leadership
+    c: Tsinghua University 清華大學, Peking. The work group confines Kuai Dafu 蒯大富 and deprives him of the right to post big-character posters. Criticism meetings follow, led by the group.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 194–195. Made public: 2016. Check: the day: Yang dates Kuai''s loss of liberty July 4 (I, 194–195), but quotes his statement of June 28 and letter of June 29 as written after it (I, 195 n.13–14).'
+    src:
+      c: 30fff975
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 194–195: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1966-07-04.china-leadership-6
+    when: July 4
+    date: '1966-07-04'
+    place: peking
+    thread: china-leadership
+    c: 'Tsinghua University middle school 清華附中, Peking. The Red Guards post "Long Live the Proletarian Revolutionary Rebel Spirit, Again" 〈再論無產階級的革命造反精神萬歲〉, pointing the struggle at the old thought, culture, customs and habits: they are not yet wiped out.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 236. See [[cal.1966-06-24.china-leadership-6]].'
+    src:
+      c: 5b8b66ae
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 236: all'
+    tags: [polity:prc]
+  - id: cal.1966-07-04.vietnam-diplomacy
+    when: July 4
+    date: '1966-07-04'
+    place: hamburg
+    thread: vietnam-diplomacy
+    c: Hamburg. In the afternoon about 2,000 students and others rally and march to the American consulate with the slogans "Americans go home" and "Hands off Vietnam." In Frankfurt the people demonstrate 20 hours, day and night, before the American consulate, against the new American crime; the history adds similar marches in Munich, Stuttgart, Heidelberg and Düsseldorf.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 300. Check: the days of the Frankfurt and other marches, which the history gives as "in the same days". The figures are the history''s.'
+    tags: [polity:frg, polity:us]
+    time_range:
+      - 1966-07-04T11:00Z
+      - 1966-07-04T17:00Z
+    time_band: afternoon
+    time_zone: Europe/Berlin
+    range_basis: record
   - id: cal.1966-07-05.succession-us
     when: July 5
     date: '1966-07-05'
@@ -874,6 +971,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1923: all'
     tags: [polity:prc, name:deng-xiaoping, name:liu-shaoqi, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:tao-zhu, vis:only:prc]
+  - id: cal.1966-07-05.china-leadership-4
+    when: July 5
+    date: '1966-07-05'
+    place: peking
+    thread: china-leadership
+    c: Deng Xiaoping 鄧小平 meets Hu Qili 胡啟立, Zhang Shidong 張世棟 (head of the girls' middle school work group) and two student representatives at Zhongnanhai 中南海, Peking, and again instructs that debate be organized; when a student says those against the work group will not come, he says, "if they will not come, debate in their absence."
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206. Made public: 1967. To check: Hu Qili 胡啟立, 〈鄧小平是鎮壓師大女附中革命學生的黑司令〉, in Xin Beida gongshe 02621 zhidui, ed., *Che di qingsuan Deng Xiaoping* (Apr. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 206 n.46). Names: Deng Xiaoping. Check: only the Red Guard exposures of 1967 give it; Yang (I, 205) leaves Deng''s talks on the school unsettled until the archives open.'
+    src:
+      c: 9423dbf7
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 206: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 206 n.46: all'
+    tags: [polity:prc, vis:only:prc, name:deng-xiaoping]
   - id: cal.1966-07-06.vietnam
     when: July 6
     date: '1966-07-06'
@@ -1008,6 +1118,18 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 278: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 278 n.7b: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1966-07-06.china-leadership-2
+    when: July 6
+    date: '1966-07-06'
+    place: peking
+    thread: china-leadership
+    c: Tsinghua University 清華大學, Peking. Kuai Dafu 蒯大富 begins a hunger strike against the work group.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 195. See [[cal.1966-07-04.china-leadership-5]]. Check: the day: the page has July 7 as its second day.'
+    src:
+      c: 06bb5dcf
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 195: all'
+    tags: [polity:prc]
   - id: cal.1966-07-07.vietnam-us
     when: July 7
     date: '1966-07-07'
@@ -1060,6 +1182,37 @@ entries:
     c: Zhou Enlai hears reports on the Cultural Revolution in the State Council's branches. Third Front construction differs from the first and second fronts and is not to be affected; to brand a man "black gang" and yet rely on him is bad; no light conclusions on organization; those criticized are neither sent down nor away, but kept in their offices under supervision.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 38 (July 7–8, 1966). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1966-07-07.china-leadership-4
+    when: July 7
+    date: '1966-07-07'
+    place: peking
+    thread: china-leadership
+    c: Ma Li 馬力, secretary-general of the Peking committee 北京市委秘書長, goes to Tsinghua University 清華大學 to see Kuai Dafu 蒯大富 on the second day of his hunger strike, and urges him to stop it.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 195. Made public: 2016.'
+    src:
+      c: 80bed3dd
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 195: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1966-07-07.china-leadership-5
+    when: July 7–9
+    date: '1966-07-07'
+    place: peking
+    thread: china-leadership
+    c: On Deng Xiaoping's 鄧小平 instruction the work group of the Normal University's girls' middle school holds three days of debating meetings, July 7 to 9, besieging the students who oppose it.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206. Made public: 2016. See [[cal.1966-07-05.china-leadership-4]]. Names: Deng Xiaoping. Check: only the Red Guard exposures of 1967 give it; Yang (I, 205) leaves Deng''s talks on the school unsettled until the archives open.'
+    src:
+      c: 6b7ff9fd
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 206: all'
+    tags: [polity:prc, vis:only:prc, name:deng-xiaoping]
+  - id: cal.1966-07-07.vietnam-diplomacy
+    when: July 7
+    date: '1966-07-07'
+    thread: vietnam-diplomacy
+    c: India. Prime Minister Indira Gandhi declares that the United States must stop bombing North Vietnam, withdraw foreign troops from the South, reconvene the 1954 Geneva conference and guarantee Vietnam's independence and territorial integrity.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 298. Names: Gandhi. Check: the place and the words, which the history gives in part.'
+    tags: [polity:india, polity:us, ok:fields-place, name:gandhi-indira]
   - id: cal.1966-07-08.jobs-and-wages
     when: July 8
     date: '1966-07-08'
@@ -1281,6 +1434,14 @@ entries:
       - 1966-07-09T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1966-07-09.vietnam-hanoi
+    when: July 9
+    date: '1966-07-09'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: West of Cam Lộ, Route 9. The enemy lands a Saigon ranger battalion by helicopter to retake the lost hills, and a reinforced battalion at Lèn Đất 300 and Lèn Đá 300 north of the road. Battalion 7, in position there, opens fire, kills many and forces them back to the next knob.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 202. See [[cal.1966-06-26.vietnam-hanoi]]. The history goes on, with no day, to a paratroop battalion''s counterattack on hill 402, where Battalion 8 of Regiment 2 puts nearly 100 out of action. The figures are the history''s.'
+    tags: [polity:drv, polity:rvn, ok:fields-place]
   - id: cal.1966-07-10.open-housing
     when: July 10–11
     date: '1966-07-10'
@@ -1607,13 +1768,27 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi again hears the work group of the first middle school attached to Peking Normal University report on the movement there, and tells them his ideas for the deployment of the "Cultural Revolution": in the senior middle schools it is to be done by the end of the year; first fight the black gang, study Mao''s works, sort out the bad people and clear them out, keeping those who can stay in school; then criticize the "authorities"; then clear up the economy; last, a spell of teaching reform and school-system reform.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 644 (July 11, 1966); [[w.macfarquhar-maos-last-revolution]], 75 (Liu: the movement in the higher middle schools to last until the end of the year). Made public: 1996. Names: Liu Shaoqi, Mao Zedong.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 644 (July 11, 1966); [[w.macfarquhar-maos-last-revolution]], 75 (Liu: the movement in the higher middle schools to last until the end of the year); [[w.yang-jisheng-tiandi-fanfu]], I, 204 (Liu asks the same work group: "how are those few? is the student named Niu their backstage? will Chen Yongkang and He Fangfang admit it? you have not beaten them? are they all still at school?"; they are not to go on to a university after senior-3 but stay at the school; "a few percent of rightists there must be; you have not found them; 5 percent would be very good"). Made public: 1996. To check: *Pipan ziliao: Zhongguo Heluxiaofu Liu Shaoqi fangeming xiuzhengzhuyi yanlunji (1958.6–1967.7)* 《批判資料:中國赫魯曉夫劉少奇反革命修正主義言論集》 (Renmin chubanshe ziliaoshi 人民出版社資料室, 1967; internal circulation 內部發行), 674 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 204 n.40). Names: Liu Shaoqi, Mao Zedong.'
     src:
       c: bc9f244b
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 644: ?'
         - 'w.macfarquhar-maos-last-revolution 75: A'
+        - 'w.yang-jisheng-tiandi-fanfu I, 204: ?'
     tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
+  - id: cal.1966-07-11.china-leadership-5
+    when: July 11
+    date: '1966-07-11'
+    place: wuhan
+    thread: china-leadership
+    c: 'Wuhan. The public security bureau arrests the Moshuihu Middle School 墨水湖中學 students and questions them six times: "you have two roads; if you admit you are counter-revolutionaries you have a way to live." They are soon sentenced, one to death with a two-year reprieve, three sixteen-year-olds to three or five years.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 210. Made public: 1967. To check: *Pi Tao zhanbao*, Mar. 14, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 210 n.61). See [[cal.1966-06-21.china-leadership-9]].'
+    src:
+      c: 3d42a602
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 210: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 210 n.61: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1966-07-12.open-housing
     when: July 12–15
     date: '1966-07-12'
@@ -2000,14 +2175,29 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi presides at an enlarged meeting of the Politburo Standing Committee, which hears the Youth League''s Central Committee on the "Preliminary Plan for the Cultural Revolution in Peking''s Middle Schools," and instructs on the aims, requirements and policy. (1) Education here comes down from the bourgeois education; so not all with bourgeois educational thought are to be criticized, only a few representatives, while most are to be educated, and a proletarian educational line set up. (2) Party and League organizational life is to be built up and perfected and the leading role of the Party branch and the helping role of the League branch restored; this is a separate item; the organizations are not to be put aside but watched in the movement for whether they can lead, and tempered; building, rectifying and perfecting them is to be a task. (3) Clear up the economy: with politics, organization and thought clear, take the chance to clear the economy too. Junior middle schools are to finish the first stage by the end of August or September, to open classes in October; senior middle schools in September or October.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 644–645 (July 13, 1966); [[w.macfarquhar-maos-last-revolution]], 75 (Liu''s instructions to the Youth League on the middle schools: Party and League branches to be revived and strengthened; the movement over in August or September in the lower middle schools, September or October in the higher); [[w.deng-xiaoping-nianpu-1904]], III, 1924 (July 13, 1966; Deng at the enlarged Politburo Standing Committee meeting Liu Shaoqi presides over, which hears the Youth League Central Committee on the ''preliminary plan for the cultural revolution in Peking''s middle schools''). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 644–645 (July 13, 1966); [[w.macfarquhar-maos-last-revolution]], 75 (Liu''s instructions to the Youth League on the middle schools: Party and League branches to be revived and strengthened; the movement over in August or September in the lower middle schools, September or October in the higher); [[w.deng-xiaoping-nianpu-1904]], III, 1924 (July 13, 1966; Deng at the enlarged Politburo Standing Committee meeting Liu Shaoqi presides over, which hears the Youth League Central Committee on the ''preliminary plan for the cultural revolution in Peking''s middle schools''); [[w.yang-jisheng-tiandi-fanfu]], I, 204 (Liu hears Hu Keshi 胡克實 of the Youth League''s Central Committee on the cultural revolution in Peking''s middle schools and proposes that cadres and teachers be sorted into four classes: the first keep their posts; the second are criticized and self-critical; the third, with many problems, are criticized and some removed; the fourth are the chief objects of criticism); [[w.yang-jisheng-tiandi-fanfu]], I, 236 (Liu to Hu Keshi: "students'' spontaneous organizations are still to be replaced by Party and League organizations; outside the Party and the League no secret organizations or secret activities may be run"). Made public: 1996. To check: *Pipan ziliao: Zhongguo Heluxiaofu Liu Shaoqi fangeming xiuzhengzhuyi yanlunji (1958.6–1967.7)* 《批判資料:中國赫魯曉夫劉少奇反革命修正主義言論集》 (Renmin chubanshe ziliaoshi 人民出版社資料室, 1967; internal circulation 內部發行), 689 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 204 n.42); *Pipan ziliao: Zhongguo Heluxiaofu Liu Shaoqi fangeming xiuzhengzhuyi yanlunji (1958.6–1967.7)* 《批判資料:中國赫魯曉夫劉少奇反革命修正主義言論集》 (Renmin chubanshe ziliaoshi 人民出版社資料室, 1967; internal circulation 內部發行), 691 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 236 n.42). Names: Liu Shaoqi.'
     src:
       c: 425a5caa
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 644–645: ?'
         - 'w.macfarquhar-maos-last-revolution 75: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1924: A'
+        - 'w.yang-jisheng-tiandi-fanfu I, 204: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 236: ?'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1966-07-13.china-leadership-6
+    when: July 13
+    date: '1966-07-13'
+    place: peking
+    thread: china-leadership
+    c: 'The college group of the Peking cultural and educational system 北京市文教系統大學組, from its preliminary sorting of 24 colleges: 31,877 are classed left, 57,235 middle and 10,211 rightist, of 99,323. The work groups'' own estimate of the rightists is far higher: over nine-tenths of the Party committees and over six-tenths of the cadres above department head in the 24 are rated class 3 or 4.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 199–200. Made public: 2008. To check: Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 166 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 200 n.28).'
+    src:
+      c: 35e0f4bf
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 199–200: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 200 n.28: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1966-07-14.defense
     when: July 14
     date: '1966-07-14'
@@ -2308,6 +2498,34 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 76: all'
     tags: [polity:prc, vis:only:prc, name:chen-boda, name:kang-sheng]
+  - id: cal.1966-07-15.china-leadership-3
+    when: July 15
+    date: '1966-07-15'
+    place: wuhan
+    thread: china-leadership
+    c: Wuhan Hydro-Electric Institute 武漢水利電力學院, Wuhan. The whole institute begins exposing, criticizing and struggling against "rightists"; those who had put up posters against the Party committee lose their liberty. About 250 students, 8 percent, are rated rightist.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 209. Made public: 2014. To check: Zhang Jiancheng 張建成, *Suiyue liuhen* (2014), 97–104 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 209 n.59).'
+    src:
+      c: 1b4dfce0
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 209: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 209 n.59: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1966-07-15.vietnam-hanoi
+    when: July 15
+    date: '1966-07-15'
+    place: quang-ngai-province
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Gò Sỏi, Quảng Ngãi. At dawn Battalion 48 of the Quảng Ngãi local forces, in two columns, attacks the base held by a reinforced American company; after nearly an hour the Americans break out. The battalion takes the base, puts scores out of action, takes two 81 mm mortars and destroys four vehicles.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 214–15. Check: the clock, whose it is. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1966-07-14T16:00Z
+      - 1966-07-14T22:00Z
+    time_band: predawn
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1966-07-16.states-and-cities-los-angeles
     when: July 16
     date: '1966-07-16'
@@ -2438,6 +2656,14 @@ entries:
     time_band: morning
     time_zone: Asia/Ho_Chi_Minh
     range_basis: record
+  - id: cal.1966-07-16.vietnam-hanoi-2
+    when: July 16
+    date: '1966-07-16'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Route 1, south of Quảng Trị. Regiment 6 of Thừa Thiên thrusts down to the road and by the history's count hurts a battalion badly and destroys 15 vehicles.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 208. Check: the place, which the history gives only as "the road". The figures are the history''s.'
+    tags: [polity:drv, polity:us, polity:rvn, ok:fields-place]
   - id: cal.1966-07-17.opinion
     when: July 17
     date: '1966-07-17'
@@ -2567,6 +2793,19 @@ entries:
     c: Cù Đinh and Ba De, Route 9. The Americans land two battalions to hunt the units holding the area; Battalion 9 of Regiment 1 and Battalion 1 of Regiment 3, new from the rear, attack the landing at once through the bombing and drive it off.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 207. See [[cal.1966-07-15.vietnam-operations]]. Check: the units.'
     tags: [polity:drv, polity:us]
+  - id: cal.1966-07-17.china-leadership-6
+    when: July 17
+    date: '1966-07-17'
+    place: wuhan
+    thread: china-leadership
+    c: Wuhan Hydro-Electric Institute 武漢水利電力學院, Wuhan. At an all-institute meeting the Hubei public security department 省公安廳 publicly arrests Guo Mingzheng 郭明正; over a hundred are named and criticized; Zhang Tingying 張庭英 slashes her wrist and dies, Luo Shoulin 羅守琳 jumps into the Yangtze and dies, and one student goes mad.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 209. Made public: 2014. To check: Zhang Jiancheng 張建成, *Suiyue liuhen* (2014), 97–104 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 209 n.59). See [[cal.1966-06-13.china-leadership-5]].'
+    src:
+      c: e6d05c16
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 209: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 209 n.59: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1966-07-18.states-and-cities
     when: July 18–23
     date: '1966-07-18'
@@ -2722,6 +2961,15 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 82: all'
         - 'w.yang-jisheng-tiandi-fanfu I, 214: ?'
     tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
+  - id: cal.1966-07-18.vietnam-hanoi
+    when: July 18
+    date: '1966-07-18'
+    place: thua-thien
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Quảng Điền, Thừa Thiên. Local troops with the district guerrillas ambush traffic, burn two GMC trucks and by the history's count kill 14.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 208. See [[cal.1966-07-16.vietnam-hanoi-2]]. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-07-19.economy
     when: July 19
     date: '1966-07-19'
@@ -2928,6 +3176,15 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 82: all'
     tags: [polity:prc, name:liu-shaoqi]
+  - id: cal.1966-07-19.vietnam-hanoi
+    when: July 19
+    date: '1966-07-19'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam-air-war]
+    c: Cầu Giẽ, Vạn Điểm and the Đông Anh oil depot, around Hanoi. Several flights of American aircraft attack; the missile, antiaircraft and air units act together and shoot down some. Battalion 61 of Missile Regiment 236 is named the first unit to bring an American aircraft down on its own ground and is given the flag "Follow Uncle Hồ's word, resolve to defeat the American aggressors."
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 398.'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-07-20.opinion
     when: July 20
     date: '1966-07-20'
@@ -3138,6 +3395,15 @@ entries:
         - 'via w.yang-jisheng-tiandi-fanfu I, 214 n.78: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
     time_zone: Asia/Shanghai
+  - id: cal.1966-07-20.vietnam-hanoi-2
+    when: July 20
+    date: '1966-07-20'
+    place: vo-tranh
+    thread: vietnam-hanoi
+    also: [vietnam-air-war]
+    c: Vô Tranh. Missile Battalion 72 of Regiment 285, in position there, shoots down an EB-66 electronic reconnaissance aircraft on the spot.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 398. Check: the province; the history gives none. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-07-21.vietnam
     when: July 21
     date: '1966-07-21'
@@ -3422,7 +3688,7 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Liu Shaoqi, for the Chinese people, solemnly declares to the world their most resolute and warmest support for the "Appeal to the Whole Nation" issued by the DRV president, Hồ Chí Minh, on July 17. He restates that U.S. aggression on Vietnam is aggression on China; the Chinese people are resolved, and ready in every way, to take at any time and place whatever action the two peoples think needed, to strike the U.S. aggressors together.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 118 (July 22, 1966); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 645 (July 22, 1966; Liu issues, as Chairman of the People''s Republic, a statement: for the Chinese people he declares most firmly and warmly their support for the "Appeal to the Whole Nation" of Hồ Chí Minh of July 17; to support the Vietnamese people to complete victory the Chinese people are prepared to bear the greatest national sacrifices; China''s 700 million are Vietnam''s strong backing and its vast territory a reliable rear); [[w.macfarquhar-maos-last-revolution]], 86 (the Tiananmen rally of nearly a million on July 22; Liu''s message in support of the North Vietnamese; the Cankao xiaoxi headline of July 27). To check: Cankao xiaoxi (Reference News), July 27, 1966 (cited by [[w.macfarquhar-maos-last-revolution]], 86 n.1b). Names: Liu Shaoqi, Hồ Chí Minh.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 118 (July 22, 1966); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 645 (July 22, 1966; Liu issues, as Chairman of the People''s Republic, a statement: for the Chinese people he declares most firmly and warmly their support for the "Appeal to the Whole Nation" of Hồ Chí Minh of July 17; to support the Vietnamese people to complete victory the Chinese people are prepared to bear the greatest national sacrifices; China''s 700 million are Vietnam''s strong backing and its vast territory a reliable rear); [[w.macfarquhar-maos-last-revolution]], 86 (the Tiananmen rally of nearly a million on July 22; Liu''s message in support of the North Vietnamese; the Cankao xiaoxi headline of July 27); [[w.lich-su-khang-chien-chong-my]], V, 291 (the mass meeting in Tiananmen Square, July 22, 1966; Liu Shaoqi: American aggression against Vietnam is aggression against China, 700 million are the rear of the Vietnamese people). To check: Cankao xiaoxi (Reference News), July 27, 1966 (cited by [[w.macfarquhar-maos-last-revolution]], 86 n.1b). Names: Liu Shaoqi, Hồ Chí Minh.'
     src:
       c: 8a98b576
       rows:
@@ -3430,6 +3696,7 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 645: A'
         - 'w.macfarquhar-maos-last-revolution 86: A'
         - 'via w.macfarquhar-maos-last-revolution 86 n.1b: A'
+        - 'w.lich-su-khang-chien-chong-my V, 291: A'
     tags: [polity:prc, polity:drv, polity:us, name:liu-shaoqi, name:ho-chi-minh]
   - id: cal.1966-07-22.china-leadership-5
     when: July 22
@@ -3512,6 +3779,20 @@ entries:
         witness: w.yang-jisheng-tiandi-fanfu
         reads: the work group had freed Kuai Dafu on July 20 (I, 214), two days before the visit; the visit at the Group's commission, Mao not named
         at: I, 214
+  - id: cal.1966-07-22.vietnam-hanoi
+    when: July 22
+    date: '1966-07-22'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Khe Chùa and the line Ba De, Cù Đinh to Đá May, Route 9. The morning two battalions of the American 5th Marines land and form a defensive line; the Saigon airborne group, from Cùa, lands at Khe Vạn and Làng Đôn, 10 kilometers west of Tân Lâm, to close with the Marines two arms on the north of Route 9.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 208. See [[cal.1966-07-17.vietnam-hanoi]]. Check: the clock, whose it is.'
+    tags: [polity:drv, polity:us, polity:rvn, ok:fields-place]
+    time_range:
+      - 1966-07-21T22:00Z
+      - 1966-07-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1966-07-23.democratic-party
     when: July 23–24
     date: '1966-07-23'
@@ -3726,6 +4007,19 @@ entries:
       - 1966-07-23T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1966-07-23.china-leadership-6
+    when: July 23
+    date: '1966-07-23'
+    place: peking
+    thread: china-leadership
+    c: The work group of the girls' middle school attached to Peking Normal University 北京師范大學女附中, Peking, begins the "intensive training" of its cadres and teachers, even the nearly retired and the half-retired sick, on the "four cleanups" model, to settle their "bathing and coming downstairs." Each cadre and teacher is followed by a "left" student, who may call on him at any time to confess; the group tells these students his class and main materials.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206–207. Made public: 1967. To check: Xin Beida gongshe 02621 zhidui diaochazu 新北大公社02621支隊調查組, 《清算鄧小平在幹部、教師問題上「打擊一大片,保護一小撮」的資產階級反動路線》 (Apr. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 207 n.49). See [[cal.1966-07.china-leadership-20]].'
+    src:
+      c: b7067474
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 206–207: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 207 n.49: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1966-07-24.opinion
     when: July 24
     date: '1966-07-24'
@@ -3879,6 +4173,27 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 86: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1966-07-24.china-leadership-8
+    when: July 24
+    date: '1966-07-24'
+    thread: china-leadership
+    c: 'The Center issues its "Notice on Reforming the Enrollment of Institutions of Higher Learning" 〈關於改革高等學校招生工作的通知〉: children of workers, poor and lower-middle peasants, revolutionary cadres, soldiers and martyrs, and of other working people, are to be chosen first; those from exploiting-class families are to be strictly examined, and a suitable number who are politically good may be picked.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 245. Made public: 2016. To check: Guofang daxue 國防大學, ed., *Wenhua dageming yanjiu ziliao* 《文化大革命研究資料》, vol. 1 (year not given), 56–58 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 245 n.6).'
+    src:
+      c: f3836548
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 245: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 245 n.6: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1966-07-24.vietnam-hanoi
+    when: July 24
+    date: '1966-07-24'
+    place: sa-nho
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Sa Nhỏ, 16 kilometers northwest of Củ Chi town. The enemy, having found the Region's main force there, lands an American company from 12 helicopters; Battalion 8 of the Region, with two companies, destroys it. The Americans at Đồng Dù land two more companies from 25 helicopters at Cỏ Ống to relieve it; Battalion 8 slips past the fire to the enemy's belt, by the history's count kills scores and burns five aircraft, and the rest flee toward Trung Hòa.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 217. Check: the day of the second landing, which the history gives with the first. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-07-25.vietnam
     when: July 25
     date: '1966-07-25'
@@ -4053,6 +4368,15 @@ entries:
       - 1966-07-25T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1966-07-25.vietnam-hanoi
+    when: July 25
+    date: '1966-07-25'
+    place: hill-314
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Hill 314. The American 3d Battalion, Marines, with air and artillery, attacks in two columns the hill held by a battalion of the defenders; by the history's count two companies cannot "climb the slope" on the first day and are carried back. The afternoon, under 82 mm fire, the Saigon airborne group, which had stood in place, withdraws to Cùa.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 208–09. See [[cal.1966-07-22.vietnam-hanoi]]. The history quotes AP, July 25, on a company with 71 wounded, nearly half.'
+    tags: [polity:drv, polity:us, polity:rvn, ok:fields-time]
   - id: cal.1966-07-26.elections-1966
     when: July 26
     date: '1966-07-26'
@@ -4720,6 +5044,23 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 85: all'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1966-07-29.china-leadership-4
+    when: July 29
+    date: '1966-07-29'
+    place: peking
+    thread: china-leadership
+    c: 'Evening. Wang Guangmei 王光美 addresses the whole of Tsinghua University 清華大學, Peking, for the first time: "on the work group''s problem I have my view; I won''t say it now, I''ll say it later."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 196. The words: 7月29日晚 (I, 196). Made public: 2016. See [[cal.1966-07-29.china-leadership]].'
+    src:
+      c: 1ed831b5
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 196: all'
+    tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1966-07-29T11:00Z
+      - 1966-07-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-07-30.vietnam
     when: July 30
     date: '1966-07-30'
@@ -5670,3 +6011,39 @@ entries:
       - 1966-07-31T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1966-07.china-leadership-20
+    when: July, early
+    date: 1966-07
+    at: before 1966-07-01
+    thread: china-leadership
+    c: Liu Shaoqi 劉少奇 and Deng Xiaoping 鄧小平 draw up a plan to put middle-school cadres and teachers through "intensive training" 集訓, so as to end the middle-school movement and reopen school as soon as possible.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206–207. Made public: 1967. To check: Xin Beida gongshe 02621 zhidui diaochazu 新北大公社02621支隊調查組, 《清算鄧小平在幹部、教師問題上「打擊一大片,保護一小撮」的資產階級反動路線》 (Apr. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 207 n.49). Names: Liu Shaoqi, Deng Xiaoping. Check: only the Red Guard exposures of 1967 give it; Yang (I, 205) leaves Deng''s talks on the school unsettled until the archives open.'
+    src:
+      c: c0d9ea34
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 206–207: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 207 n.49: all'
+    tags: [polity:prc, vis:only:prc, name:liu-shaoqi, name:deng-xiaoping, ok:fields-place]
+  - id: cal.1966-07.china-leadership-21
+    when: July, after the 18th
+    date: 1966-07
+    at: after 1966-07-18
+    thread: china-leadership
+    c: Mao Zedong 毛澤東 has Tao Zhu 陶鑄, Wang Renzhong 王任重 and Zhang Pinghua 張平化 revise the draft Decision on the cultural revolution. Tao Zhu consults Zhou Enlai 周恩來, and they strike out "black gang" and "black line" and add words of limit.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 228. Made public: 2008. To check: Zhou Liangxiao 周良霄 and Gu Juying 顧菊英, *Shinian wenge dashiji* 《十年文革大事記》 (Xindalu chubanshe 新大陸出版社, Hong Kong, 2008), 114 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 228 n.31). See [[cal.1966-06.china-leadership-9]]. Names: Mao Zedong, Tao Zhu, Zhou Enlai.'
+    src:
+      c: b1496d69
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 228: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 228 n.31: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:tao-zhu, name:zhou-enlai, ok:fields-place]
+  - id: cal.1966-07.vietnam-hanoi
+    when: July, early
+    date: 1966-07
+    at: before 1966-07-01
+    place: dong-du
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Đồng Dù base, Củ Chi. Battalion 8, artillery, fires 200 rounds into the center of the base and by the history's count kills or wounds scores of Americans and destroys 20 vehicles.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 217. Check: the day; the history says "the beginning of July 1966". The figures are the history''s.'
+    tags: [polity:drv, polity:us]

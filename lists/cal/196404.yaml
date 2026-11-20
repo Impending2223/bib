@@ -592,6 +592,15 @@ entries:
       - 1964-04-03T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-04-03.vietnam-hanoi
+    when: Apr. 3
+    date: '1964-04-03'
+    place: bau-coi
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Tây Ninh. Apr. 3 Regiment 1 (Q761) catches a Saigon commando company in a mobile attack at Bàu Cói, north of Bà Đen.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 345–46.'
+    tags: [polity:drv]
   - id: cal.1964-04-04.goldwater
     when: Apr. 4
     date: '1964-04-04'
@@ -7113,12 +7122,13 @@ entries:
     date: 1964-04
     thread: vietnam-air-war
     c: 'CINCPAC''s OPLAN 37, contingency planning Johnson has authorized, in three phases: pursuit of the enemy across the Laotian and Cambodian borders; "tit-for-tat" reprisals, raids and mining against the North; then air strikes on the North, continuing and increasingly severe. All by South Vietnamese forces, with some American planes. In Saigon taken as a plan for after the November election.'
-    n: '[[w.westmoreland-soldier-reports]], 109. Check: the month; Westmoreland gives the spring of 1964. Names: Johnson.'
+    n: '[[w.westmoreland-soldier-reports]], 109; [[w.lich-su-khang-chien-chong-my]], III, 363 (Apr. 17, 1964: CINCPAC''s OPLAN 37, three phases; the Joint Chiefs approve air and naval strikes on 94 targets in the North, to be done in 12 days). Check: the month; Westmoreland gives the spring of 1964. Check: the day: the history dates OPLAN 37 Apr. 17, 1964 (III, 363). Names: Johnson.'
     src:
       c: 99bed941
       rows:
         - 'w.westmoreland-soldier-reports 109: all'
         - 'via x.1964-04.cincpac-oplan-37: A-D'
+        - 'w.lich-su-khang-chien-chong-my III, 363: A-C'
     tags: [name:johnson-lyndon-b]
   - id: cal.1964-04.opinion
     when: Apr., early
@@ -7835,3 +7845,12 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 240–241: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1964-04.vietnam-hanoi-2
+    when: Apr.
+    date: 1964-04
+    place: thu-dau-mot
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Thủ Dầu Một. In April Company 303 of Phước Thành with the local troops of Phú Giáo and Tân Uyên and guerrillas destroys the Tân Bình and Nhà Đỏ posts and frees Tân Bình commune completely.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 359–60. Check: the day.'
+    tags: [polity:drv]

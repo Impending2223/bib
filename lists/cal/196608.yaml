@@ -562,6 +562,22 @@ entries:
     c: Haiphong. In two fights Haiphong's air defense shoots down five aircraft in five minutes, the 252d Antiaircraft Regiment, Lâm Văn Kiếm commanding, four of them. From Jul. 17 to Aug. 17 the North's force shoots down 138 aircraft.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 399. Check: the clock; the history gives only the five minutes.'
     tags: [polity:drv, polity:us]
+  - id: cal.1966-08-02.china-leadership-6
+    when: Aug. 2
+    date: '1966-08-02'
+    thread: china-leadership
+    c: 'Before dawn Chen Boda 陳伯達, head of the Cultural Revolution Group, receives two factions of Red Guards who differ on the couplet "if the father is a hero the son is a good fellow, if the father is a reactionary the son is a bastard," and says it is "not comprehensive." He rewrites it: "parents revolutionary, children carry on; parents reactionary, children rebel," with the top line "It Should Be So" 理應如此, and explains that Mao calls for uniting the majority, which the "bloodline theory" hurts.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 248. The words: 淩晨 (I, 248). Made public: 2016. Names: Chen Boda.'
+    src:
+      c: 90f7708a
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 248: all'
+    tags: [polity:prc, vis:only:prc, name:chen-boda, ok:fields-place]
+    time_range:
+      - 1966-08-01T16:00Z
+      - 1966-08-01T22:00Z
+    time_band: predawn
+    time_zone: Asia/Shanghai
   - id: cal.1966-08-03.vietnam-operations
     when: Aug. 3
     date: '1966-08-03'
@@ -569,6 +585,11 @@ entries:
     c: 'Hastings ends, one battalion left in its area. Some 8,000 Marines and 3,000 South Vietnamese engaged against elements of all three regiments of the 324B Division. Marines: 126 killed, 448 wounded; South Vietnamese: 21 killed, 40 wounded. Reported: over 700 of the enemy killed, 17 captured.'
     n: '[[w.shulimson-u-s-marines-in-1982]], 175–176. See [[cal.1966-07-15.vietnam-operations]].'
     tags: [place:operation-hastings]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: Hastings abandoned by the two American battalions at Cù Đinh and Ba De, which withdraw to Cam Lộ at noon July 26
+        at: IV, 209
   - id: cal.1966-08-03.vietnam-force-levels
     when: Aug. 3
     date: '1966-08-03'
@@ -1047,7 +1068,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou Enlai speaks that evening at the Tsinghua all-staff-and-student debate meeting, Li Xuefeng presiding. He comes as a Center worker to learn and to support carrying the Cultural Revolution through; Mao and the Standing Committee had him look into it at Tsinghua. He criticizes the work groups "errors" and clears Kuai Dafu; most of the group are old revolutionaries meeting new problems. Forming associations of workers, poor peasants and cadres' children in the schools is wrong; unite 90 percent of the masses and 95 percent of the cadres.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 44–45 (Aug. 4, 1966); [[w.macfarquhar-maos-last-revolution]], 88 (around midnight, at the mobilization rally on the Tsinghua campus where the departing work team''s head has just made a public self-criticism, Zhou says of the three young comrades from the attached middle school: "I salute you"); [[w.deng-xiaoping-nianpu-1904]], III, 1928 (Aug. 4, 1966; 晚八时; Deng, with Zhou Enlai 周恩来, Dong Biwu 董必武, Li Fuchun 李富春, Tao Zhu 陶铸, Chen Boda 陈伯达 and others, goes to Tsinghua University 清华大学 and attends the meeting of the whole university''s teachers, students and staff, hearing criticism of the new Peking 北京 municipal committee and the work team, and makes a short speech); [[w.yang-jisheng-tiandi-fanfu]], I, 221–222 (that evening nearly 20,000 gather at the East Field of Tsinghua; Zhou Enlai, Dong Biwu 董必武, Deng Xiaoping, Li Fuchun, Chen Boda, Li Xuefeng, Tao Zhu, Wang Renzhong and the Cultural Revolution Group''s members attend, on low stools below the stage; Li Xuefeng presides and says the work group erred in direction and line; Ye Lin 葉林 makes a self-criticism that the students find evasive; nine students speak, two views opposed; at 1 a.m. 凌晨1點 Zhou speaks at length: "I come to this meeting at the Party Center''s and Chairman Mao''s wish to look into Tsinghua''s cultural revolution," and "from today a new Tsinghua is born"). Check: the day of Zhou''s speech; Yang gives it as 1 a.m., which is Aug. 5 (I, 221). To check: the speech as circulated at Tsinghua; [[w.wuchanjieji-wenhua-dageming-ziliao-1966]], II, 29 (cited by [[w.macfarquhar-maos-last-revolution]], 88 n.10). Names: Zhou Enlai, Li Xuefeng, Kuai Dafu.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 44–45 (Aug. 4, 1966); [[w.macfarquhar-maos-last-revolution]], 88 (around midnight, at the mobilization rally on the Tsinghua campus where the departing work team''s head has just made a public self-criticism, Zhou says of the three young comrades from the attached middle school: "I salute you"); [[w.deng-xiaoping-nianpu-1904]], III, 1928 (Aug. 4, 1966; 晚八时; Deng, with Zhou Enlai 周恩来, Dong Biwu 董必武, Li Fuchun 李富春, Tao Zhu 陶铸, Chen Boda 陈伯达 and others, goes to Tsinghua University 清华大学 and attends the meeting of the whole university''s teachers, students and staff, hearing criticism of the new Peking 北京 municipal committee and the work team, and makes a short speech); [[w.yang-jisheng-tiandi-fanfu]], I, 221–222 (that evening nearly 20,000 gather at the East Field of Tsinghua; Zhou Enlai, Dong Biwu 董必武, Deng Xiaoping, Li Fuchun, Chen Boda, Li Xuefeng, Tao Zhu, Wang Renzhong and the Cultural Revolution Group''s members attend, on low stools below the stage; Li Xuefeng presides and says the work group erred in direction and line; Ye Lin 葉林 makes a self-criticism that the students find evasive; nine students speak, two views opposed; at 1 a.m. 凌晨1點 Zhou speaks at length: "I come to this meeting at the Party Center''s and Chairman Mao''s wish to look into Tsinghua''s cultural revolution," and "from today a new Tsinghua is born"); [[w.yang-jisheng-tiandi-fanfu]], I, 251 (Zhou, at the meeting of 20,000 at Tsinghua, does not support "poor and lower-middle peasants'' children''s associations" in the universities). Check: the day of Zhou''s speech; Yang gives it as 1 a.m., which is Aug. 5 (I, 221). To check: the speech as circulated at Tsinghua; [[w.wuchanjieji-wenhua-dageming-ziliao-1966]], II, 29 (cited by [[w.macfarquhar-maos-last-revolution]], 88 n.10). Names: Zhou Enlai, Li Xuefeng, Kuai Dafu.'
     src:
       c: 2cb9ec60
       rows:
@@ -1055,6 +1076,7 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 88: A, D'
         - 'w.deng-xiaoping-nianpu-1904 III, 1928: ?'
         - 'w.yang-jisheng-tiandi-fanfu I, 221–222: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 251: ?'
     tags: [name:zhou-enlai, polity:prc]
     time_range:
       - 1966-08-04T11:00Z
@@ -1102,6 +1124,31 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 91: all'
         - 'w.macfarquhar-origins-of-the-cultural III, 464: B'
     tags: [polity:prc, name:kang-sheng, name:jiang-qing, name:zhang-chunqiao, name:xie-fuzhi, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1966-08-04.china-leadership-7
+    when: Aug. 4
+    date: '1966-08-04'
+    place: peking
+    thread: china-leadership
+    c: Peking University 北京大學, Peking. At a meeting of ten thousand Red Guards flog Zhang Chengxian 張承先, head of the work group, with belts.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 265–266. Made public: 2010. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+    src:
+      c: 4cd8e669
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 265–266: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 265 n.52: all'
+    tags: [polity:prc]
+  - id: cal.1966-08-04.china-leadership-9
+    when: Aug. 4
+    date: '1966-08-04'
+    place: peking
+    thread: china-leadership
+    c: Girls' middle school attached to Peking Normal University 北京師範大學附屬女子中學, Peking. In class 2-4 Red Guards rope ten students of "black" families together by the neck before the class, make them "confess" their thoughts and their parents' "crimes" and say three times "I am a dog's whelp, I deserve to die," and beat them and throw ink on them. Yang Youli 楊友麗, captain of the volleyball team, takes sleeping pills; she is saved.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 249.'
+    src:
+      c: 154ef5fd
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 249: all'
+    tags: [polity:prc]
   - id: cal.1966-08-05.open-housing
     when: Aug. 5
     date: '1966-08-05'
@@ -1277,7 +1324,7 @@ entries:
     date: '1966-08-05'
     thread: china-leadership
     c: 'Mao writes on a copy of the *Beijing ribao* of June 2 "Bombard the Headquarters: My Wall Poster": the first Marxist-Leninist poster and the commentator''s article well written; for fifty-odd days some leaders from the Center to the localities did the reverse, on a reactionary bourgeois standpoint, ran a bourgeois dictatorship, beat down the movement, spread terror; recalls the right deviation of 1962 and the "left in form, right in essence" of 1964. A plenum document, to county and regiment level Aug. 17; printed Aug. 5, 1967.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 5, 1966. [[w.zhou-enlai-nianpu-1949-2020]], III, 45–46 (Aug. 7, 1966; the plenum circulates Mao''s "Bombard the Headquarters", which calls the Nie Yuanzi poster the country''s first Marxist-Leninist one and charges that for fifty-odd days from early June leaders from the Center down stood on the reactionary bourgeois side and ran a bourgeois dictatorship); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 648–649 (Aug. 5 and 7, 1966; the book says Mao writes, aimed chiefly at Liu, the poster "Bombard the Headquarters: My Wall Poster," charging that certain leading comrades from the Center to the localities have "gone the opposite way," taken a reactionary bourgeois stand and enforced bourgeois dictatorship, beating down the proletarian cultural revolution; Aug. 7 the plenum issues it to its members, after which the plenum turns to exposing and criticizing Liu Shaoqi and Deng Xiaoping); [[w.macfarquhar-maos-last-revolution]], 90–91 (Mao writes the text on a two-month-old copy of the Beijing Daily, his secretary copies it onto a blank sheet, and two days later he has it distributed to the plenum; it leaks almost instantaneously; published in the People''s Daily a year later); [[w.macfarquhar-origins-of-the-cultural]], III, 281 (in ''Bombard the Headquarters'' Mao describes what happened in 1962 as a ''rightist deviation''; the term youqing may be shorthand for youqing jihuizhuyi, right opportunism); [[w.jianguo-yilai-mao-zedong]], XVIII, 304–305 (Aug. 5, 1966; Mao''s text, written on the *Beijing ribao* of June 2 and twice revised, printed from the manuscript; note 1: the title added at the first revision; issued to county and regiment level by the Center General Office Aug. 17, 1966; printed in *Renmin ribao* Aug. 5, 1967; the Fifth Plenum''s resolution of Feb. 29, 1980 rehabilitating Liu Shaoqi denies any "bourgeois reactionary line"); [[w.deng-xiaoping-nianpu-1904]], III, 1929 (Aug. 5, 1966; Mao writes ''Bombard the Headquarters: my big-character poster'' 《炮打司令部——我的一张大字报》, attacking without naming Liu Shaoqi and Deng Xiaoping and others: for over fifty days some leaders from the Center to the localities did the reverse, took the reactionary bourgeois standpoint, carried out a bourgeois dictatorship, struck down the proletariat''s cultural revolution, reversed right and wrong, encircled the revolutionaries, suppressed differing views and practised white terror; on the 7th the plenum distributes it to those attending; after that the plenum turns to the exposure and criticism of Liu and Deng); [[w.mao-zedong-zhuan]], VI, ch. 74 n.60 (the next day Mao writes the passage later headed ''Bombard the Headquarters: My Big-Character Poster'': the first Marxist-Leninist poster and the commentator''s article, how fine; for over fifty days leaders from the Center to the localities did the reverse, on the reactionary bourgeois side, a dictatorship of the bourgeoisie, beating down the proletarian movement, white terror; recalls the right deviation of 1962 and the ''left in form, right in essence'' of 1964; the text printed in the *Renmin ribao*, Aug. 5, 1967, n.60). [[w.yang-jisheng-tiandi-fanfu]], I, 222–223 (Mao''s text, in pencil on the *Beijing ribao* of June 2, which carried Nie Yuanzi''s poster and the *Renmin ribao* commentator''s article, dated Aug. 5, 1966 and printed in full on I, 222; the title and the date "3 a.m. Aug. 7" were added to the fair copy brushed by his secretary Xu Yefu 徐業夫; the document issued to county and regiment level Aug. 17; published a year later, Aug. 5, 1967, in the *Renmin ribao*; Mao: the past two months it was I who was struck, and I hit back, the Group right in this period and not the Center). Made public: Aug. 5, 1967 (*Renmin ribao*). To check: *Paoda siling bu: wo de yizhang dazibao* (炮打司令部——我的一张大字报), the text as the nianpu prints it, Aug. 5, 1966; [[w.nianyi-da-dongluande-niandai]], 54–55 (cited by [[w.macfarquhar-maos-last-revolution]], 90 n.18a); [[w.wenhua-dageming-yanjiu-ziliao]], I, 70 (cited by [[w.macfarquhar-maos-last-revolution]], 90 n.18b); [[w.zhenhua-red-flower-of-china]], 71 (cited by [[w.macfarquhar-maos-last-revolution]], 91 n.19a); [[w.mao-zedong-xuexi-wenxuan]], 113 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 281 n.115); Beijing ribao, June 2, 1966, reprinting the Nie Yuanzi poster and the Renmin ribao commentator''s article (the copy on which Mao wrote) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 304 n.1a); *Renmin ribao* 《人民日报》, Aug. 5, 1967, printing "Bombard the Headquarters: My Big-Character Poster" 《炮打司令部——我的一张大字报》 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.60); Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 194 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 223 n.12). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 5, 1966. [[w.zhou-enlai-nianpu-1949-2020]], III, 45–46 (Aug. 7, 1966; the plenum circulates Mao''s "Bombard the Headquarters", which calls the Nie Yuanzi poster the country''s first Marxist-Leninist one and charges that for fifty-odd days from early June leaders from the Center down stood on the reactionary bourgeois side and ran a bourgeois dictatorship); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 648–649 (Aug. 5 and 7, 1966; the book says Mao writes, aimed chiefly at Liu, the poster "Bombard the Headquarters: My Wall Poster," charging that certain leading comrades from the Center to the localities have "gone the opposite way," taken a reactionary bourgeois stand and enforced bourgeois dictatorship, beating down the proletarian cultural revolution; Aug. 7 the plenum issues it to its members, after which the plenum turns to exposing and criticizing Liu Shaoqi and Deng Xiaoping); [[w.macfarquhar-maos-last-revolution]], 90–91 (Mao writes the text on a two-month-old copy of the Beijing Daily, his secretary copies it onto a blank sheet, and two days later he has it distributed to the plenum; it leaks almost instantaneously; published in the People''s Daily a year later); [[w.macfarquhar-origins-of-the-cultural]], III, 281 (in ''Bombard the Headquarters'' Mao describes what happened in 1962 as a ''rightist deviation''; the term youqing may be shorthand for youqing jihuizhuyi, right opportunism); [[w.jianguo-yilai-mao-zedong]], XVIII, 304–305 (Aug. 5, 1966; Mao''s text, written on the *Beijing ribao* of June 2 and twice revised, printed from the manuscript; note 1: the title added at the first revision; issued to county and regiment level by the Center General Office Aug. 17, 1966; printed in *Renmin ribao* Aug. 5, 1967; the Fifth Plenum''s resolution of Feb. 29, 1980 rehabilitating Liu Shaoqi denies any "bourgeois reactionary line"); [[w.deng-xiaoping-nianpu-1904]], III, 1929 (Aug. 5, 1966; Mao writes ''Bombard the Headquarters: my big-character poster'' 《炮打司令部——我的一张大字报》, attacking without naming Liu Shaoqi and Deng Xiaoping and others: for over fifty days some leaders from the Center to the localities did the reverse, took the reactionary bourgeois standpoint, carried out a bourgeois dictatorship, struck down the proletariat''s cultural revolution, reversed right and wrong, encircled the revolutionaries, suppressed differing views and practised white terror; on the 7th the plenum distributes it to those attending; after that the plenum turns to the exposure and criticism of Liu and Deng); [[w.mao-zedong-zhuan]], VI, ch. 74 n.60 (the next day Mao writes the passage later headed ''Bombard the Headquarters: My Big-Character Poster'': the first Marxist-Leninist poster and the commentator''s article, how fine; for over fifty days leaders from the Center to the localities did the reverse, on the reactionary bourgeois side, a dictatorship of the bourgeoisie, beating down the proletarian movement, white terror; recalls the right deviation of 1962 and the ''left in form, right in essence'' of 1964; the text printed in the *Renmin ribao*, Aug. 5, 1967, n.60). [[w.yang-jisheng-tiandi-fanfu]], I, 222–223 (Mao''s text, in pencil on the *Beijing ribao* of June 2, which carried Nie Yuanzi''s poster and the *Renmin ribao* commentator''s article, dated Aug. 5, 1966 and printed in full on I, 222; the title and the date "3 a.m. Aug. 7" were added to the fair copy brushed by his secretary Xu Yefu 徐業夫; the document issued to county and regiment level Aug. 17; published a year later, Aug. 5, 1967, in the *Renmin ribao*; Mao: the past two months it was I who was struck, and I hit back, the Group right in this period and not the Center); [[w.yang-jisheng-mubei]], II, 1137 (the book traces "in 1964 left in form, right in essence" in Mao''s poster of Aug. 5, 1966 to Liu''s conduct of the four cleans in 1964). Made public: Aug. 5, 1967 (*Renmin ribao*). To check: *Paoda siling bu: wo de yizhang dazibao* (炮打司令部——我的一张大字报), the text as the nianpu prints it, Aug. 5, 1966; [[w.nianyi-da-dongluande-niandai]], 54–55 (cited by [[w.macfarquhar-maos-last-revolution]], 90 n.18a); [[w.wenhua-dageming-yanjiu-ziliao]], I, 70 (cited by [[w.macfarquhar-maos-last-revolution]], 90 n.18b); [[w.zhenhua-red-flower-of-china]], 71 (cited by [[w.macfarquhar-maos-last-revolution]], 91 n.19a); [[w.mao-zedong-xuexi-wenxuan]], 113 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 281 n.115); Beijing ribao, June 2, 1966, reprinting the Nie Yuanzi poster and the Renmin ribao commentator''s article (the copy on which Mao wrote) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 304 n.1a); *Renmin ribao* 《人民日报》, Aug. 5, 1967, printing "Bombard the Headquarters: My Big-Character Poster" 《炮打司令部——我的一张大字报》 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.60); Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 194 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 223 n.12). Names: Mao Zedong.'
     src:
       c: f884f7a5
       rows:
@@ -1296,6 +1343,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1929: A-B'
         - 'w.mao-zedong-zhuan VI, ch. 74 n.60: B, C, E'
         - 'w.yang-jisheng-tiandi-fanfu I, 222–223: B, C, D, E'
+        - 'w.yang-jisheng-mubei II, 1137: C'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
     variants:
       - unit: D
@@ -1414,6 +1462,24 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 89: all'
     tags: [polity:prc, vis:only:prc, name:liu-shaoqi, name:mao-zedong]
+  - id: cal.1966-08-05.china-leadership-10
+    when: Aug. 5
+    date: '1966-08-05'
+    place: peking
+    thread: china-leadership
+    c: Girls' Middle School attached to Peking Normal University 北京師大女附中, Peking. In the afternoon students beat Bian Zhongyun 卞仲耘, vice-principal, to death in three or four hours; Hu Zhitao 胡志濤, Mei Shumin 梅樹民 and Wang Yubing 汪玉冰 are beaten too.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 265–266. The words: 午後 (I, 266). Made public: 2010. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+    src:
+      c: 7f39629d
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 265–266: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 265 n.52: all'
+    tags: [polity:prc]
+    time_range:
+      - 1966-08-05T04:00Z
+      - 1966-08-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1966-08-06.soviet-union
     when: Aug. 6
     date: '1966-08-06'
@@ -1564,14 +1630,16 @@ entries:
   - id: cal.1966-08-06.china-leadership-4
     when: Aug. 6
     date: '1966-08-06'
+    place: peking
     thread: china-leadership
     also: [china]
     c: 'Red Guards of the middle schools attached to Tsinghua University, Peking University and the Beijing Aeronautical Institute issue an "Urgent Appeal!": "hooligans" posing as Red Guards are rampaging, destroying state property and beating people at random, and all genuine revolutionary Red Guards are to act to end the "disorder."'
-    n: '[[w.macfarquhar-maos-last-revolution]], 102–103. To check: [[w.wenhua-dageming-yanjiu-ziliao]], I, 71–72 (cited by [[w.macfarquhar-maos-last-revolution]], 103 n.4).'
+    n: '[[w.macfarquhar-maos-last-revolution]], 102–103; [[w.yang-jisheng-tiandi-fanfu]], I, 265–266 (the Red Guards of the middle schools attached to Tsinghua, the People''s University and the Aeronautics Institute hand out an "Urgent Appeal" against beating: the true left of each school to unite and act, "strictly stop beating people at will, hooliganism and the wrecking of state property"; it has no effect). To check: [[w.wenhua-dageming-yanjiu-ziliao]], I, 71–72 (cited by [[w.macfarquhar-maos-last-revolution]], 103 n.4); Qinghua fuzhong, Renda fuzhong, Beihang fuzhong hongweibing 清華附中、人大附中、北航附中紅衛兵, 〈紅衛兵緊急呼籲書〉, in Qinghua fuzhong hongweibing 清華附中紅衛兵, ed., *Wen cangmang dadi, shei zhu chenfu?* 《問蒼茫大地、誰主沉浮?》 (Sept. 1966) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 266 n.53).'
     src:
       c: 42db5f34
       rows:
         - 'w.macfarquhar-maos-last-revolution 102: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 265–266: ?'
     tags: [polity:prc]
   - id: cal.1966-08-06.china-leadership-5
     when: Aug. 6
@@ -1589,6 +1657,18 @@ entries:
       - 1966-08-06T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1966-08-06.china-leadership-6
+    when: Aug. 6
+    date: '1966-08-06'
+    place: peking
+    thread: china-leadership
+    c: Tianqiao Theatre 天橋劇場, Peking. A great debate on the couplet. Jiang Qing 江青, present, proposes altering it to "father revolutionary, son carries on; father reactionary, son rebels," top line "It Should Be So"; the Red Guards do not accept it. Kang Sheng 康生, adviser to the Cultural Revolution Group, says the essence of all the arguing is whether there is to be a class line, Mao Zedong's, not whether the couplet needs a few words changed; "I admire you."
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 248. Made public: 2016. See [[cal.1966-08-02.china-leadership-6]]. Names: Jiang Qing, Kang Sheng, Mao Zedong.'
+    src:
+      c: 49f7f23b
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 248: all'
+    tags: [polity:prc, vis:only:prc, name:jiang-qing, name:kang-sheng, name:mao-zedong]
   - id: cal.1966-08-07.vietnam
     when: Aug. 7
     date: '1966-08-07'
@@ -1764,6 +1844,32 @@ entries:
         - 'via w.yang-jisheng-tiandi-fanfu I, 223 n.12: all'
     tags: [polity:prc, vis:only:prc, name:mao-zedong, ok:fields-place]
     time_zone: Asia/Shanghai
+  - id: cal.1966-08-07.china-leadership-7
+    when: Aug. 7
+    date: '1966-08-07'
+    place: guilin
+    thread: china-leadership
+    c: Guilin 桂林. The authorities mobilize thousands of workers and peasants to besiege and beat the rebels at Guangxi Normal College 廣西師範學院, who on Aug. 5, as the work team left, put up a poster "Sending Off the Plague God." Later called the "Aug. 7 incident."
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 289–290. Made public: 1967. To check: Hongweibing bao 《紅衛兵報》 (Guilin), May 10, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 289 n.5).'
+    src:
+      c: 7f9ce375
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 289–290: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 289 n.5: all'
+    tags: [polity:prc]
+  - id: cal.1966-08-07.china-leadership-8
+    when: Aug. 7
+    date: '1966-08-07'
+    place: peking
+    thread: china-leadership
+    c: 'Tsinghua University 清華大學, Peking. The provisional preparatory committee for the cultural revolution leading group 清華大學文化革命領導小組臨時籌備委員會 (Linchou), set up in the work group''s time under Wang Renzhong''s 王任重 instruction and headed by He Pengfei 賀鵬飛, Liu Tao 劉濤, Li Lifeng 李黎風 and Qiao Zonghuai 喬宗淮, children of Politburo and Foreign Ministry leaders, proposes, on the spirit of Zhou Enlai''s 周恩來 speech, to end the criticism of the work group and turn the struggle to the "black gang": the "Aug. 7 proposal" 八七建議.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 310. Made public: 2015. To check: Sun Nutao 孫怒濤, ed., *Lishi jujue wangji: Qinghua shinian wenge huiyi* 《歷史拒絕遺忘——清華十年文革回憶》 (Zhongguo wenhua chuanbo chubanshe, Hong Kong, 2015), 149 (Yan Huai 閻淮) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 310 n.2). Names: Zhou Enlai.'
+    src:
+      c: f15bae68
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 310: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 310 n.2: all'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1966-08-08.india-and-china
     when: Aug. 8
     date: '1966-08-08'
@@ -1939,7 +2045,7 @@ entries:
     date: '1966-08-08'
     thread: china-leadership
     c: 'Zhou Enlai presides over the plenary session of the Eleventh Plenum. It adopts the Decision on the Great Proletarian Cultural Revolution, the Sixteen Points. In the discussion Zhou, after consulting Tao Zhu, strikes out "black gang" and "black line" and adds limits: sharply separate the two kinds of contradiction, treat cadres by case, unite over 95 percent of cadres and masses, do not set the movement against production, argument not force, protect scientists and technicians; these were taken in.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 46 (Aug. 8, 1966); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 649 (Aug. 8, 1966; the plenum adopts the Decision of the Central Committee on the Great Proletarian Cultural Revolution (the Sixteen Points)); [[w.macfarquhar-maos-last-revolution]], 92–93 (the text adopted is the thirty-first draft produced by the Cultural Revolution Group, at work on it since at least June; Mao to Chen Boda: "Excellent revisions; please print and distribute"); [[w.deng-xiaoping-nianpu-1904]], III, 1929 (Aug. 8, 1966; morning, 上午; Deng at the plenary session of the Eleventh Plenum Zhou Enlai presides over, which adopts the Decision of the Central Committee on the great proletarian cultural revolution (the ''Sixteen Points'' 十六条), drafted on Mao''s view; its aim is to overthrow those in power taking the capitalist road, criticize bourgeois reactionary academic ''authorities'' and the ideology of the bourgeoisie and all exploiting classes; its emphasis is to set in order those in the Party in power taking the capitalist road); [[w.mao-zedong-zhuan]], VI, ch. 74 (Aug. 8 the plenum adopts the Decision on the Great Proletarian Cultural Revolution 《关于无产阶级文化大革命的决定》, the Sixteen Points: the movement''s aim to bring down those in power in the Party taking the capitalist road, to criticize the reactionary academic ''authorities'' and bourgeois ideology; dare, trust the masses, ''no fear of disorder''; struggle by argument, not force; the key points the cities'' cultural and educational units and the leading Party and government organs; ''grasp revolution, promote production''). Made public: 1996. To check: [[w.zedong-jianguo-yilai-mao-zedong]], XII, 81 (cited by [[w.macfarquhar-maos-last-revolution]], 92 n.26). See [[cal.1966-08-01.china-leadership]]. Names: Zhou Enlai, Tao Zhu.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 46 (Aug. 8, 1966); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 649 (Aug. 8, 1966; the plenum adopts the Decision of the Central Committee on the Great Proletarian Cultural Revolution (the Sixteen Points)); [[w.macfarquhar-maos-last-revolution]], 92–93 (the text adopted is the thirty-first draft produced by the Cultural Revolution Group, at work on it since at least June; Mao to Chen Boda: "Excellent revisions; please print and distribute"); [[w.deng-xiaoping-nianpu-1904]], III, 1929 (Aug. 8, 1966; morning, 上午; Deng at the plenary session of the Eleventh Plenum Zhou Enlai presides over, which adopts the Decision of the Central Committee on the great proletarian cultural revolution (the ''Sixteen Points'' 十六条), drafted on Mao''s view; its aim is to overthrow those in power taking the capitalist road, criticize bourgeois reactionary academic ''authorities'' and the ideology of the bourgeoisie and all exploiting classes; its emphasis is to set in order those in the Party in power taking the capitalist road); [[w.mao-zedong-zhuan]], VI, ch. 74 (Aug. 8 the plenum adopts the Decision on the Great Proletarian Cultural Revolution 《关于无产阶级文化大革命的决定》, the Sixteen Points: the movement''s aim to bring down those in power in the Party taking the capitalist road, to criticize the reactionary academic ''authorities'' and bourgeois ideology; dare, trust the masses, ''no fear of disorder''; struggle by argument, not force; the key points the cities'' cultural and educational units and the leading Party and government organs; ''grasp revolution, promote production''). [[w.yang-jisheng-tiandi-fanfu]], I, 228 (the text the plenum passes on Aug. 8 is Mao''s approved thirty-first draft of Aug. 7; Tao Zhu and Zhou Enlai have struck out "black gang" and "black line" and added limiting words). Made public: 1996. To check: [[w.zedong-jianguo-yilai-mao-zedong]], XII, 81 (cited by [[w.macfarquhar-maos-last-revolution]], 92 n.26); Zhou Liangxiao 周良霄 and Gu Juying 顧菊英, *Shinian wenge dashiji* 《十年文革大事記》 (Xindalu chubanshe 新大陸出版社, Hong Kong, 2008), 114 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 228 n.31). See [[cal.1966-08-01.china-leadership]]. Names: Zhou Enlai, Tao Zhu.'
     src:
       c: 23ab39b3
       rows:
@@ -1948,6 +2054,7 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 92–93: B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1929: A-B'
         - 'w.mao-zedong-zhuan VI, ch. 74: B'
+        - 'w.yang-jisheng-tiandi-fanfu I, 228: ?'
     tags: [name:zhou-enlai, name:tao-zhu, polity:prc, vis:only:prc]
   - id: cal.1966-08-08.china-leadership-3
     when: Aug. 8
@@ -2111,6 +2218,19 @@ entries:
       - 1966-08-08T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1966-08-08.china-leadership-13
+    when: Aug. 8
+    date: '1966-08-08'
+    place: peking
+    thread: china-leadership
+    c: Tsinghua University middle school 清華附中, Peking. Yang Ailun 楊愛倫, a first-year senior of a "bad" family, struggled against in her class and held at the school, escapes and lies on the railway near by; struck by a train, she survives.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 250. To check: Bu Weihua 卜偉華, 〈關於清華附中紅衛兵的印章及所謂「清華附中模式」〉, *Zuotian* 《昨天》, no. 18 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 250 n.13). Check: Bu Weihua, of the school''s Red Guards: her class say no such thing happened (I, 250 n.13).'
+    src:
+      c: c887f414
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 250: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 250 n.13: all'
+    tags: [polity:prc]
   - id: cal.1966-08-09.open-housing
     when: Aug. 9
     date: '1966-08-09'
@@ -2430,6 +2550,18 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1929: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1966-08-09.china-leadership-6
+    when: Aug. 9
+    date: '1966-08-09'
+    place: peking
+    thread: china-leadership
+    c: Tsinghua University 清華大學, Peking. Liu Jufen 劉菊芬, student and daughter of Liu Ningyi 劉寧一, secretary of the Central Secretariat and head of the national trade union federation, and others found the "Aug. 9 Liaison Association" 八九串聯會 to hold to the Aug. 7 proposal, on Wang Guangmei's 王光美 suggestion, against the "Aug. 8 Liaison Association" 八八串聯會 that had rejected the proposal the day before.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 310. Made public: 2016. See [[cal.1966-08-07.china-leadership-8]].'
+    src:
+      c: f7ff803b
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 310: all'
+    tags: [polity:prc]
   - id: cal.1966-08-10.space
     when: Aug. 10
     date: '1966-08-10'
@@ -2995,6 +3127,18 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 100: all'
     tags: [polity:prc, name:chen-boda, name:kang-sheng, name:jiang-qing]
+  - id: cal.1966-08-12.china-leadership-6
+    when: Aug. 12
+    date: '1966-08-12'
+    place: peking
+    thread: china-leadership
+    c: 'Peking Industrial University 北京工業大學. Tan Lifu 譚力夫, son of Tan Zhengwen 譚正文, deputy procurator-general, and head of the cultural revolution group of the university''s third department, posts with others "Starting from the Couplet" 〈從對聯談起〉: the blood line is right, and "if the father is a hero the son is a brave fellow; if the father is a reactionary the son is a bastard" to be made the Party''s class line, "raised to policy."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 248.'
+    src:
+      c: bb820028
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 248: all'
+    tags: [polity:prc]
   - id: cal.1966-08-13.vietnam
     when: Aug. 13–14
     date: '1966-08-13'
@@ -3103,12 +3247,18 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking Workers' Stadium. A rally of some 70,000 young people, staged by the Peking Party committee, at which about a dozen young "hooligans" are paraded and denounced; as it climaxes they are beaten up. Wang Renzhong, deputy director of the Central Cultural Revolution Group charged with monitoring the Cultural Revolution in Peking, is present and does not or cannot interfere.
-    n: '[[w.macfarquhar-maos-last-revolution]], 103, 125. To check: [[w.beijing-shi-wuchanjieji-wenhua]], 22 (cited by [[w.macfarquhar-maos-last-revolution]], 103 n.6). Check: the book takes the rally as "almost certainly intended" to strike at the hooligans of the Aug. 6 appeal; university students'' recollections of a few months later (103 n.6) speak of an "extremely bad impact."'
+    n: '[[w.macfarquhar-maos-last-revolution]], 103, 125; [[w.yang-jisheng-tiandi-fanfu]], I, 266 (the meeting at the Workers'' Stadium 工人體育場 to struggle against the "little hooligans," presided over by Wang Renzhong 王任重, deputy head of the Cultural Revolution Group; the "little hooligans" are beaten; dated Aug. 3). To check: [[w.beijing-shi-wuchanjieji-wenhua]], 22 (cited by [[w.macfarquhar-maos-last-revolution]], 103 n.6); Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52). Check: the book takes the rally as "almost certainly intended" to strike at the hooligans of the Aug. 6 appeal; university students'' recollections of a few months later (103 n.6) speak of an "extremely bad impact."'
     src:
       c: 006d4d41
       rows:
         - 'w.macfarquhar-maos-last-revolution 103: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 266: ?'
     tags: [polity:prc]
+    variants:
+      - unit: A
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: the Workers' Stadium meeting against the "little hooligans" was held on Aug. 3, with Wang Renzhong presiding
+        at: I, 266
   - id: cal.1966-08-13.china-leadership-6
     when: Aug. 13
     date: '1966-08-13'
@@ -3145,6 +3295,18 @@ entries:
       - 1966-08-13T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1966-08-13.china-leadership-8
+    when: Aug. 13
+    date: '1966-08-13'
+    place: peking
+    thread: china-leadership
+    c: 'The *Renmin ribao* 人民日報, Peking, prints an editorial on the Decision: the Sixteen Articles run through with one basic spirit, trust the masses, rely on the masses, boldly arouse the masses and respect their initiative; the cultural revolution can only be the masses educating and freeing themselves, with no substitute for them.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 231.'
+    src:
+      c: 6a04cdc6
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 231: all'
+    tags: [polity:prc]
   - id: cal.1966-08-14.opinion
     when: Aug. 14
     date: '1966-08-14'
@@ -3606,6 +3768,35 @@ entries:
       - 1966-08-17T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1966-08-17.china-leadership-3
+    when: Aug. 17
+    date: '1966-08-17'
+    place: peking
+    thread: china-leadership
+    c: Peking No. 101 Middle School 北京一〇一中學. Red Guards beat Chen Baokun 陳葆昆, art teacher, to death; more than ten teachers and cadres are beaten with him and made to crawl on the cinder paths.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 267. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+    src:
+      c: 846f1b59
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 267: all'
+    tags: [polity:prc]
+  - id: cal.1966-08-17.vietnam-hanoi
+    when: Aug. 17
+    date: '1966-08-17'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Route 9, Cam Lộ to Đầu Mầu. A fire company of Regiment 2, 324th Division (82 mm mortars, 75 mm recoilless guns, 12.7 mm machine guns), shells a company of American Marines on the march and by the history's count puts scores out of action.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 209–10. See [[cal.1966-07-17.vietnam-hanoi]]. The figures are the history''s.'
+    tags: [polity:drv, polity:us, ok:fields-place]
+  - id: cal.1966-08-17.vietnam-diplomacy
+    when: Aug. 17
+    date: '1966-08-17'
+    place: moscow
+    thread: vietnam-diplomacy
+    also: [soviet-union-leadership]
+    c: Moscow. 6,000 representatives of the capital's people rally in answer to Hồ Chí Minh's appeal; the rally resolves that the Soviet government's will to go on aiding fraternal Vietnam to throw back the imperialists is wholly in keeping with the deepest feeling of all the Soviet people.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 292. Names: Hồ Chí Minh. Check: the place; the history says "in the Soviet Union", of the capital''s people. The figures are the history''s.'
+    tags: [polity:ussr, name:ho-chi-minh]
   - id: cal.1966-08-18.india-and-china-cultural-revolution
     when: Aug. 18
     date: '1966-08-18'
@@ -4215,6 +4406,85 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 108: all'
     tags: [polity:prc, vis:only:prc@B]
+  - id: cal.1966-08-19.china-leadership-7
+    when: Aug. 19
+    date: '1966-08-19'
+    place: guilin
+    thread: china-leadership
+    c: 'Guilin 桂林. Wei Guoqing 韋國清, first secretary of the Guangxi regional committee and first political commissar of the Guangxi Military Region, sends five companies of the army''s 141st Division into the city: the "Aug. 19 incident."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 289–290. Made public: 1967. To check: Hongweibing bao 《紅衛兵報》 (Guilin), May 10, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 289 n.5).'
+    src:
+      c: 9680106d
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 289–290: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 289 n.5: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-time]
+  - id: cal.1966-08-19.china-leadership-8
+    when: Aug. 19
+    date: '1966-08-19'
+    place: changsha
+    thread: china-leadership
+    c: 'Changsha 長沙. Red Guard rebels of Hunan University 湖南大學 demonstrate at the municipal committee. The committee forms "Red Guards of Labor" 赤衛隊 out of Party and League members of the factories and calls the "Red Power Defense Army" 紅色政權保衛軍 to guard it; thousands besiege and beat the university''s rebels: the "Aug. 19 incident."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 291–292. Made public: 2016. To check: Yang Daqing 楊大慶, 〈張平化的9.24報告與抓「黑鬼」運動〉 (year not given) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 291 n.8).'
+    src:
+      c: '74382137'
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 291–292: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 291 n.8: all'
+    tags: [polity:prc]
+  - id: cal.1966-08-19.china-leadership-9
+    when: Aug. 19
+    date: '1966-08-19'
+    place: peking
+    thread: china-leadership
+    c: Peking, the music hall of Zhongshan Park 中山公園. Red Guards of Middle Schools nos. 4, 6 and 8 struggle against the leaders of the Peking Education Bureau and of the three schools, to reverse the verdict on the schools' student unrest of 1965; twenty-odd kneel on the stage and are flogged with belts. Wen Hanjiang 溫寒江, vice-principal of no. 8, is led there by a rope; Sun Guoliang 孫國梁, head of the bureau, has three ribs broken.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 267. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+    src:
+      c: d0ee401e
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 267: all'
+    tags: [polity:prc]
+  - id: cal.1966-08-19.china-leadership-10
+    when: Aug. 19
+    date: '1966-08-19'
+    place: peking
+    thread: china-leadership
+    c: Peking. In the evening Red Guards of the middle school attached to the Peking Foreign Languages Institute 北京外國語學院附中, at Hepingmen, beat to death the teachers Zhang Furen 張輔仁 and Zhang Fuzhen 張福臻.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 267. The words: 8月19日晚 (I, 267). To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+    src:
+      c: e6f5a465
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 267: all'
+    tags: [polity:prc]
+    time_range:
+      - 1966-08-19T11:00Z
+      - 1966-08-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1966-08-19.china-leadership-11
+    when: Aug. 19–20
+    date: '1966-08-19'
+    place: peking
+    thread: china-leadership
+    c: Peking No. 3 Girls' Middle School 北京第三女子中學. Red Guards torture the principal Sha Ping 沙坪 into the night; on the morning of the 20th, at a struggle meeting of the school's 1,600 teachers and students, she is beaten to death. The mathematics teacher Zhang Meiyan 張梅岩, her home searched, takes poison; the physical training teacher He Shijin 何世瑾 kills herself.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 267. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+    src:
+      c: 03dc0fe6
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 267: all'
+    tags: [polity:prc, ok:fields-time]
+  - id: cal.1966-08-19.china-leadership-12
+    when: Aug. 19
+    date: '1966-08-19'
+    place: peking
+    thread: china-leadership
+    c: Peking. Red Guards smash the "Quanjude" 全聚德 roast duck restaurant's signboard and put up "Peking Roast Duck Restaurant"; the landscapes and flower paintings in its dining rooms, corridors and staff quarters are replaced with portraits of Mao.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 257. Names: Mao Zedong.'
+    src:
+      c: 27fd1782
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 257: all'
+    tags: [polity:prc, name:mao-zedong]
   - id: cal.1966-08-20.open-housing
     when: Aug. 20
     date: '1966-08-20'
@@ -4330,6 +4600,30 @@ entries:
       rows:
         - 'w.mao-zedong-zhuan VI, ch. 75: all'
     tags: [polity:prc, ok:fields-place, vis:only:prc]
+  - id: cal.1966-08-20.china-leadership-5
+    when: Aug. 20
+    date: '1966-08-20'
+    place: peking
+    thread: china-leadership
+    c: 'Peking Industrial University 北京工業大學. Tan Lifu 譚力夫, in the debate on the work group and the class line, says he supports the work group, praises the couplet ("very good!"), and asks where the rightists are: "maybe there are rightists here today!"'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 248–249. See [[cal.1966-08-12.china-leadership-6]].'
+    src:
+      c: 2a4f80bf
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 248: all'
+    tags: [polity:prc]
+  - id: cal.1966-08-20.china-leadership-6
+    when: Aug. 20
+    date: '1966-08-20'
+    place: peking
+    thread: china-leadership
+    c: Peking. Guo Lanhui 郭蘭蕙, a second-year senior whose father was made a rightist in 1957, told by the Red Guards on Saturday, Aug. 20, that a meeting will "help" her on Monday, takes poison and dies.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 250.'
+    src:
+      c: 04baed45
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 250: all'
+    tags: [polity:prc]
   - id: cal.1966-08-21.opinion
     when: Aug. 21
     date: '1966-08-21'
@@ -4666,6 +4960,18 @@ entries:
         - 'via w.macfarquhar-maos-last-revolution 125 n.41a: all'
         - 'w.mao-zedong-zhuan VI, ch. 75: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1966-08-22.china-leadership-5
+    when: Aug. 22
+    date: '1966-08-22'
+    place: peking
+    thread: china-leadership
+    c: Peking No. 8 Middle School 北京第八中學. Red Guards beat to death Hua Jin 華錦, the school's head; the vice-principal Han Jiufang 韓九芳 is left crippled; the history teacher Shen Xianzhe 申先哲, beaten, kills himself.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 267. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+    src:
+      c: 8d624a0e
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 267: all'
+    tags: [polity:prc]
   - id: cal.1966-08-23.space
     when: Aug. 23
     date: '1966-08-23'
@@ -4835,12 +5141,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: The *Renmin ribao* editorial of the day calls the Red Guards' changes of names "Excellent!"
-    n: '[[w.macfarquhar-maos-last-revolution]], 115. To check: "Quarterly Chronicle and Documentation," China Quarterly, no. 28 (October–December 1966), 180 (cited by [[w.macfarquhar-maos-last-revolution]], 115 n.68).'
+    n: '[[w.macfarquhar-maos-last-revolution]], 115; [[w.yang-jisheng-tiandi-fanfu]], I, 261–262 (the *Renmin ribao*''s front page of Aug. 23: the news "The Red Guards Fiercely Assault the Customs of the Bourgeoisie," "the revolutionary masses most warmly and firmly back the young Red Guards'' revolutionary rebel spirit," with two editorials in the first and second places, "Very Good!" 〈好得很！〉 and "Workers, Peasants and Soldiers Must Firmly Support the Revolutionary Students"). To check: "Quarterly Chronicle and Documentation," China Quarterly, no. 28 (October–December 1966), 180 (cited by [[w.macfarquhar-maos-last-revolution]], 115 n.68).'
     src:
       c: f83ceb9d
       rows:
         - 'w.macfarquhar-maos-last-revolution 115: all'
         - 'via w.macfarquhar-maos-last-revolution 115 n.68: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 261–262: ?'
     tags: [polity:prc]
   - id: cal.1966-08-23.china-leadership-4
     when: Aug. 23
@@ -4878,6 +5185,60 @@ entries:
     c: 'Beijing. Zhou to Phạm Văn Đồng and Hoàng Tùng: why do Vietnamese papers print documents on the aggressions of Chinese feudal dynasties? Tùng: none; institutes are studying the theme. Zhou: use the Ho Chi Minh trail through Laos, the Cambodian road and the sea route; the Chinese forces for air defense, railways and roads are logistical, not volunteer combat troops, and to call them volunteers would bring requests from Cuba, Algeria and the Soviet Union to send theirs; fight a protracted war in the South and be patient; he proposes 100 Chinese command, logistics, chemical, engineering and political staff, in four or five groups, for South Vietnam as far as Tri Thien, the Central Highlands, Saigon''s suburbs and the Mekong delta.'
     n: 'Zhou Enlai with Phạm Văn Đồng and Hoàng Tùng, Beijing, Aug. 23, 1966, doc. 20, [[w.77-conversations-between-chinese]], [96–97](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=94) (excerpts; 96 n.146, Tùng). Made public: 1998. Check: the hour, which the record does not give; [[w.zhou-enlai-waijiao-huodong]], 503–04, by the note of [[cal.1966-08-18.china-leadership-2]], has Aug. 23 as the fifth of seven talks with Phạm Văn Đồng, at 8 p.m. See [[cal.1966-08-18.china-leadership-2]]. Names: Zhou Enlai, Phạm Văn Đồng, Hoàng Tùng.'
     tags: [name:zhou-enlai, name:pham-van-dong, polity:prc, polity:drv, vis:only:prc+drv]
+  - id: cal.1966-08-23.china-leadership-7
+    when: Aug. 23
+    date: '1966-08-23'
+    place: shanghai
+    thread: china-leadership
+    c: 'People''s Square 人民廣場, Shanghai. The municipal committee has the municipal Red Guards founded: 30,000 or more at the meeting, whose speaker the committee has approved and whose text Zhang Wenbao 張文豹, deputy head of its organization department, has passed; municipal and army leaders and model workers attend; most of the heads of the Red Guard headquarters set up are children of the municipal Party, government and army leaders.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 289. The words: 上午 (I, 289). Made public: 2011. To check: Zhang Wenbao 張文豹, 〈1966年四見陳丕顯〉, *Yanhuang chunqiu* 《炎黃春秋》, 2011, no. 7 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 289 n.4).'
+    src:
+      c: 05e2ae9d
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 289: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 289 n.4: all'
+    tags: [polity:prc]
+    time_range:
+      - 1966-08-22T22:00Z
+      - 1966-08-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1966-08-23.china-leadership-8
+    when: Aug. 23
+    date: '1966-08-23'
+    time: 1966-08-23T07:30Z
+    place: peking
+    thread: china-leadership
+    c: Peking. At 3:30 p.m. Red Guards burst into the Peking Federation of Literary and Art Circles 北京市文聯 and the Culture Bureau 文化局, make over forty old writers and cadres stand in the sun with "black gang" placards, and beat them with belts, Lao She 老舍, vice-chairman of the national federation, among them; then take them to the Confucius Temple at the Guozijian 國子監孔廟, make them kneel in a ring and burn the opera costumes and props there.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 267–268. The words: 下午3點半 (I, 267). Made public: 2009. To check: Zhang Min 張民, *Zhou Enlai yu Shoudu gongzuozu* 《周恩來與首都工作組》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2009), 167 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 268 n.54).'
+    src:
+      c: 702141f8
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 267–268: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 268 n.54: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1966-08-23.china-leadership-9
+    when: Aug. 23–24
+    date: '1966-08-23'
+    place: peking
+    thread: china-leadership
+    c: 'Tsinghua University 清華大學, Peking. After Mao''s poster "Bombard the Headquarters" spreads among the students about Aug. 20, posters "bombarding" Liu Shaoqi 劉少奇 go up: "Reorganize the Party Center, Defend Chairman Mao," "Bombard the Headquarters, Bombard Liu Shaoqi," "Pull Liu Shaoqi off His Horse" and others.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 252. Names: Liu Shaoqi.'
+    src:
+      c: dd57310f
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 252: all'
+    tags: [polity:prc, name:liu-shaoqi]
+  - id: cal.1966-08-23.vietnam-hanoi
+    when: Aug. 23
+    date: '1966-08-23'
+    place: vam-cong
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Vàm Cống junction, Lòng Tàu river. Sappers of Group 10, ordered to "block the throat of the Lòng Tàu," sink the 10,000-ton ship Baton Rouge Victory with two K5 contact mines; the history counts 45 killed and dozens of M113s and other equipment lost.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 218. Check: the ship''s name against the record; no record read. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-08-24.opinion
     when: Aug. 24
     date: '1966-08-24'
@@ -5084,6 +5445,66 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 311: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1966-08-24.china-leadership-6
+    when: Aug. 24–25
+    date: '1966-08-24'
+    place: peking
+    thread: china-leadership
+    c: Chongwen District 崇文區, Peking. Guided by the local police station and the residents' committee, Red Guards of Girls' Middle School no. 15 search the home of Li Wenbo 李文波 at 121 Guangqumen Inner Street, beating him and his wife Liu Wenxiu 劉文秀; on the 25th they hold a struggle meeting and shut the couple upstairs all day without food, water or the toilet. Li seizes a kitchen knife and wounds a Red Guard, then jumps to his death; Liu is taken to the public security bureau.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 269. Made public: 2010. To check: Zhou Enlai 周恩來, speech at the second meeting of the Red Guard representatives of the capital''s colleges and middle schools, Sept. 10, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 269 n.55).'
+    src:
+      c: 776c2cde
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 269: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 269 n.55: all'
+    tags: [polity:prc]
+  - id: cal.1966-08-24.china-leadership-7
+    when: Aug. 24
+    date: '1966-08-24'
+    place: peking
+    thread: china-leadership
+    c: Peking. Before dawn Lao She 老舍 drowns himself in a lake.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 268. The words: 8月24日淩晨 (I, 268). See [[cal.1966-08-23.china-leadership-8]].'
+    src:
+      c: cc2fa471
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 268: all'
+    tags: [polity:prc]
+    time_range:
+      - 1966-08-23T16:00Z
+      - 1966-08-23T22:00Z
+    time_band: predawn
+    time_zone: Asia/Shanghai
+  - id: cal.1966-08-24.china-leadership-8
+    when: Aug. 24
+    date: '1966-08-24'
+    place: peking
+    thread: china-leadership
+    c: 'Tsinghua University 清華大學, Peking. The preparatory committee holding the posters against Liu Shaoqi 劉少奇 a rightist reversal, He Pengfei 賀鵬飛 of the Tsinghua University Red Guards brings the Red Guards of twelve middle schools: a pledge meeting at the Tsinghua middle school in the afternoon; at 4:50 p.m. they run into Tsinghua, seal the poster area, broadcast an ultimatum to tear the posters down by 6, beat dissenting students, and by night every poster is torn down. At 6 they pull down the Second Gate 二校門; they search homes, beat cadres, and that night make the cadres kneel in rows and beat them, the deputy secretary Liu Bing 劉冰 among them. Yang, then a Tsinghua student, saw it.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 252–253. The words: 下午; 下午4點50分 (I, 252). Made public: 2008. To check: Liu Bing 劉冰, *Fengyu suiyue: 1964–1976 de Qinghua* 《風雨歲月——1964-1976年的清華》 (Dangdai Zhongguo chubanshe 當代中國出版社, 2008), 83–85 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 253 n.17). See [[cal.1966-08-23.china-leadership-9]]. Names: Liu Shaoqi.'
+    src:
+      c: b614b94d
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 252–253: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 253 n.17: all'
+    tags: [polity:prc, name:liu-shaoqi]
+    time_range:
+      - 1966-08-24T04:00Z
+      - 1966-08-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1966-08-24.china-leadership-9
+    when: Aug. 24
+    date: '1966-08-24'
+    place: peking
+    thread: china-leadership
+    c: Peking No. 11 Middle School 北京第十一中學. Red Guards search the home of Hua Xueqiao 化學巧 (so printed) and beat her to death with sticks.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 268. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52). Check: the name, as the page prints it.'
+    src:
+      c: d10d04d8
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 268: all'
+    tags: [polity:prc]
   - id: cal.1966-08-25.civil-rights-the-executive
     when: Aug. 25
     date: '1966-08-25'
@@ -5294,6 +5715,69 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 164: all'
     tags: [polity:prc, vis:only:prc, name:he-long, ok:fields-place]
+  - id: cal.1966-08-25.china-leadership-4
+    when: Aug. 25
+    date: '1966-08-25'
+    place: peking
+    thread: china-leadership
+    c: Peking. Red Guards of 31 schools of the West City District 西城區 found the Capital Red Guard Pickets, West City Detachment 首都紅衛兵糾察隊西城分隊 (Xijiu 西糾), started by Peking Middle Schools nos. 4, 6 and 8; 19 more schools join, later 40 or 50. It is said to have been founded to put the Red Guards' ranks in order and curb beating; it is later held to have done nothing to stop it.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 271–272. Made public: 2016.'
+    src:
+      c: 22a6e29e
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 271–272: all'
+    tags: [polity:prc]
+  - id: cal.1966-08-25.china-leadership-5
+    when: Aug. 25
+    date: '1966-08-25'
+    place: peking
+    thread: china-leadership
+    c: 'Second middle school attached to Peking Normal University 北京師範大學附屬第二中學. Red Guards kill three in the school: Jin Zhengyu 靳正宇, teacher of Chinese; Jiang Peiliang 姜培良, Party branch secretary; Fan Ximan 樊希曼, mother of the student Cao Binhai 曹濱海. The principal is made to stand in the sun with thumbtacks driven into his forehead and is scalded with boiling water.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 268. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+    src:
+      c: ed0c9238
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 268: all'
+    tags: [polity:prc]
+  - id: cal.1966-08-25.china-leadership-6
+    when: Aug. 25
+    date: '1966-08-25'
+    place: peking
+    thread: china-leadership
+    c: Peking. Cao Binhai 曹濱海, a third-year senior at the Normal University's second attached middle school, quarrels with the Red Guard classmates who come to search his home and wounds one with a kitchen knife. The police take him away; the Red Guards seize his mother, Fan Ximan 樊希曼, and beat her to death at the school. With the Li Wenbo case it is called a "mad revenge of the class enemy."
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 268–269. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 269 n.56). See [[cal.1966-08-24.china-leadership-6]].'
+    src:
+      c: 9f2e455b
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 269: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 269 n.56: all'
+    tags: [polity:prc]
+  - id: cal.1966-08-25.china-leadership-7
+    when: Aug. 25
+    date: '1966-08-25'
+    place: peking
+    thread: china-leadership
+    c: Peking No. 26 Middle School 北京二十六中. Its "Red Defense Army" 赤衛軍 struggles against 46 teachers; Gao Wanchun 高萬春, the principal, bound and made to kneel on a bench strewn with gravel, kills himself after.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 268. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+    src:
+      c: ca958103
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 268: all'
+    tags: [polity:prc]
+  - id: cal.1966-08-25.vietnam-hanoi
+    when: Aug. 25
+    date: '1966-08-25'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Northwest of the Thiện Xuân bridge, Route 9. That night two sapper companies of the front raid the mixed artillery and tank position and by the history's count kill 36, destroy two 105 mm guns and three armored cars.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 210. See [[cal.1966-08-17.vietnam-hanoi]]. Check: the clock, whose it is. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1966-08-25T14:00Z
+      - 1966-08-25T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1966-08-26.open-housing
     when: Aug. 26
     date: '1966-08-26'
@@ -5466,7 +5950,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou Enlai speaks at the founding meeting of the Red Guard general liaison station of Peking's colleges and middle schools. Set up a general station, branch stations in the districts; its main task is to help and protect the Red Guards and to explain Party policy. The Peking committee set it up on Zhou's instruction.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 50 (Aug. 26, 1966). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 50 (Aug. 26, 1966); [[w.yang-jisheng-tiandi-fanfu]], I, 269 (Aug. 26, at the Red Guard representatives'' congress of Peking 北京紅衛兵代表大會, Zhou: "yesterday some of our Red Guards were stabbed by bad men; we are very sorry and wonder how to help you"; the Aug. 24 and 25 stabbings are the Li Wenbo and Cao Binhai cases). Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc]
   - id: cal.1966-08-26.china-leadership-4
     when: Aug. 26
@@ -5525,6 +6009,36 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 329: all'
     tags: [polity:prc, name:mao-zedong, name:tao-zhu, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1966-08-26.china-leadership-9
+    when: Aug. 26
+    date: '1966-08-26'
+    place: peking
+    thread: china-leadership
+    c: 'Xie Fuzhi 謝富治, minister of public security, at the Peking public security bureau 北京市公安局, just back from a Center meeting: "we must protect the Red Guards; if counter-revolutionaries kill Red Guards we will suppress them; it cannot be said wrong that the Red Guards beat bad men; if they beat them to death, so be it."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 269. Made public: 2010. See [[cal.1966-08-24.china-leadership-6]]. Names: Xie Fuzhi.'
+    src:
+      c: febb797d
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 269: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 269 n.56: all'
+    tags: [polity:prc, vis:only:prc, name:xie-fuzhi]
+  - id: cal.1966-08-26.china-leadership-10
+    when: Aug. 26
+    date: '1966-08-26'
+    place: peking
+    thread: china-leadership
+    c: Peking. In the morning Red Guards shave old teachers' heads in the "yin-yang" cut, burn the school library's books on the sports ground and make the staff kneel round the fire with their arms held out to it; the woman principal, Lin Jin 林瑾, is pushed onto the fire. The librarian Shen Shimin 沈世敏, burned and refused treatment at the hospital, hangs herself that night; the mathematics teacher Du Zhaonan 杜兆南, called a "fugitive landlord" and sent back to his village, lies on the railway; the Chinese teacher Wang Jingqing 王景清 jumps from a building; the mathematics teacher Li Panqing 李泮請 and his wife hang themselves; the school doctor Huo Ziqi 霍自岐 takes sleeping pills; the janitors Lin Shihui 林士慧 and Chen Yuhe 陳玉和 take poison. Eight die at the school.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 268. The words: 8月26日上午 (I, 268). To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52). See [[cal.1966-08-24.china-leadership-9]]. Check: the school: the page names none, the paragraph following No. 11 Middle School''s.'
+    src:
+      c: 97ad09d4
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 268: all'
+    tags: [polity:prc]
+    time_range:
+      - 1966-08-25T22:00Z
+      - 1966-08-26T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1966-08-27.press-and-broadcasting
     when: Aug. 27
@@ -5608,6 +6122,31 @@ entries:
       c: 0f661569
       rows:
         - 'w.macfarquhar-maos-last-revolution 127: all'
+    tags: [polity:prc]
+  - id: cal.1966-08-27.china-leadership-6
+    when: Aug. 27
+    date: '1966-08-27'
+    place: peking
+    thread: china-leadership
+    c: 'The Capital Colleges'' Red Guard Headquarters 首都大專院校紅衛兵司令部, the First Headquarters 一司, is founded in Peking: 29 mass organizations of 27 colleges, under Wang Yanqun 汪彥群 of the Peking Light Industry Institute, daughter of Wang Dongxing 汪東興. A federation of the conservative Red Guards, it is dissolved by year''s end.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 311–312. Made public: 2016.'
+    src:
+      c: 5affa650
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 311–312: all'
+    tags: [polity:prc]
+  - id: cal.1966-08-27.china-leadership-7
+    when: Aug. 27–28
+    date: '1966-08-27'
+    place: peking
+    thread: china-leadership
+    c: Peking, 20 Dahongluochang South Lane 大紅羅廠南巷, West City. Told by a street activist that the daughter-in-law, Wang Kekuan 汪克寬, is moving property out of the house, a policeman has his brother bring Red Guards of No. 38 Middle School to search the Huang home, Aug. 27–28; finding cartridge cases, they beat the household, and on the 28th beat five of them to death, Huang Ruiwu 黃瑞五 and the servant among them.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 270. Made public: 2000. To check: Li Xiang 李相, 〈北京大紅羅廠二十號血案〉, *Nanfang zhoumo* 《南方週末》, Mar. 31, 2000 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 270 n.58).'
+    src:
+      c: 42164ebc
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 270: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 270 n.58: all'
     tags: [polity:prc]
   - id: cal.1966-08-28.economy
     when: Aug. 28–29
@@ -5958,6 +6497,18 @@ entries:
       - 1966-08-29T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1966-08-29.china-leadership-6
+    when: Aug. 29
+    date: '1966-08-29'
+    place: peking
+    thread: china-leadership
+    c: 'The *Renmin ribao* 人民日報, Peking, prints the editorial "Salute Our Red Guards" 〈向我們的紅衛兵致敬〉: since the Red Guards took the field "nothing has stood before them"; the old parasites in dark corners cannot escape their eyes; the hoarded gold and silver, the reversal ledgers and the weapons are brought out and shown; "this is the merit of our Red Guards."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 265.'
+    src:
+      c: 171e51af
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 265: all'
+    tags: [polity:prc]
   - id: cal.1966-08-30.transportation
     when: Aug. 30
     date: '1966-08-30'
@@ -7241,3 +7792,90 @@ entries:
     c: Region 5's command puts Regiment 31, just in from the North, into the 2d Division to strengthen it; Regiment 20 goes into Khánh Hòa and with Regiment 10 in Phú Yên forms the Region's main force in the Southern Sub-region; the Region builds up the 368B Artillery Regiment (120 mm mortars, rockets, A12).
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 221. Made public: 2013. Check: the day.'
     tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1966-08.china-leadership-36
+    when: Aug., after the 20th
+    date: 1966-08
+    at: after 1966-08-20
+    thread: china-leadership
+    c: 'Wu De 吳德 reports to Mao on the "four olds" campaign, hoping to brake it: the Peking committee cannot control the confusion. Mao says that nobody has touched the old remnants of several dynasties in Peking, and now it has been done; "that is good too."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 264. Made public: 2004. To check: Zhu Yuanshi 朱元石 et al., *Wu De koushu: shinian fengyu jishi* 《吳德口述:十年風雨紀事》 (Dangdai Zhongguo chubanshe 當代中國出版社, 2004), 27 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 264 n.50). Names: Mao Zedong.'
+    src:
+      c: 98e103b8
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 264: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 264 n.50: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, ok:fields-place]
+  - id: cal.1966-08.china-leadership-37
+    when: Aug., late
+    date: 1966-08
+    at: before 1966-08-21
+    thread: china-leadership
+    c: 'At a meeting of bureau and department heads Wei Guoqing 韋國清 says that the Guilin "majority" are rightists: 800 and more of them, with the southbound groups and others over 2,000; not all are rightists, but they are certainly under rightist control.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 289–290. Made public: 1967. To check: Hongweibing bao 《紅衛兵報》 (Guilin), May 10, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 289 n.5).'
+    src:
+      c: a52d524f
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 289–290: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 289 n.5: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1966-08.china-leadership-38
+    when: Aug., early
+    date: 1966-08
+    at: before 1966-08-01
+    thread: china-leadership
+    c: 'Under the Sichuan committee''s unified plan the colleges'' official cultural revolution groups take up the Sixteen Articles'' "struggle, criticize, reform" and begin "criticizing three, struggling against four": students and teachers sorted by politics, the third and fourth classes the targets. They plan one or two chosen in each department as a trial, then the study groups and classes, to finish struggle in a month and a half and offer the result for National Day. At Chengdu Institute of Technology 成都工學院 216 teachers, 26.2 percent, are picked out, over 400 with those the authorities hold in secret.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 294. Made public: 1968. To check: Xiao Xidong 蕭喜東, 《文革中的領導與群眾:話語、衝突和集體行動》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 294 n.13); *Jiaoyu geming* 《教育革命》, no. 6, 1968, Chengdu general station against Li Jingquan (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 294 n.12).'
+    src:
+      c: ca08dde4
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 294: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 294 n.13: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1966-08.china-leadership-39
+    when: Aug., after the 18th
+    date: 1966-08
+    at: after 1966-08-18
+    place: peking
+    thread: china-leadership
+    c: Tsinghua University 清華大學, Peking. After Mao receives the Red Guards on Aug. 18 the "Aug. 9 Liaison Association" 八九串聯會 turns itself into the "Tsinghua University Red Guards" 清華大學紅衛兵.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 310. See [[cal.1966-08-09.china-leadership-6]].'
+    src:
+      c: f225aa26
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 310: all'
+    tags: [polity:prc]
+  - id: cal.1966-08.china-leadership-40
+    when: Aug., after the 20th
+    date: 1966-08
+    at: after 1966-08-20
+    thread: china-leadership
+    c: 'Cao Yiou 曹軼歐, Kang Sheng''s 康生 wife, telephones Tan Lifu 譚力夫 a few days after his speech: Wang Renzhong 王任重 has shown it to Kang Sheng, who praises it.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 249. Made public: 2011. To check: Mi Hedu 米鶴都, ed., *Huiyi yu fansi: Hongweibing shidai fengyun renwu koushu lishi zhi yi* 《回憶與反思：紅衛兵時代風雲人物口述歷史之一》 (Zhongguo shuju youxian gongsi 中國書局有限公司, 2011), 295 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 249 n.12). See [[cal.1966-08-20.china-leadership-5]]. Names: Kang Sheng.'
+    src:
+      c: 9cce6beb
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 249: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 249 n.12: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place, name:kang-sheng]
+  - id: cal.1966-08.china-leadership-41
+    when: Aug., late
+    date: 1966-08
+    at: before 1966-08-21
+    place: peking
+    thread: china-leadership
+    c: Peking. Gao Yun 高雲, principal of the second middle school attached to Peking Normal University, beaten unconscious by Red Guards, is sent to the crematorium with the unnamed dead; the workers find him alive and do not burn him.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 270. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+    src:
+      c: dee6b241
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 270: all'
+    tags: [polity:prc]
+  - id: cal.1966-08.vietnam-hanoi-4
+    when: Aug., mid
+    date: 1966-08
+    at: before 1966-08-11
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bông Trang and Lò Gạch. The American 1st Division's 1st Brigade sweeps with tens of tanks and armored carriers; Battalion Phú Lợi of Bình Dương ambushes it and by the history's count puts nearly 200 out of action and burns 16 tanks and M113s. The history calls it the battalion's best counterattack. About the same time Phước Long's Companies 270 and 271 attack the Phước Bình subsector and shell the province town, by the history's count killing or wounding nearly 100 Saigon and American troops.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 217. Check: the day; the history says "mid-August 1966". The figures are the history''s.'
+    tags: [polity:drv, polity:us, polity:rvn, ok:fields-place]

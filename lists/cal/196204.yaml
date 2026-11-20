@@ -686,6 +686,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1699: all'
     tags: [polity:prc, name:deng-xiaoping, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-04-05.china-leadership-3
+    when: Apr. 5
+    date: '1962-04-05'
+    thread: china-leadership
+    also: [china]
+    c: 'Li Jingquan 李井泉, in a speech, compares the Great Leap Forward to the Long March, which only one in ten survived to the end: "we have kept the backbone."'
+    n: '[[w.dikotter-maos-great-famine]], 299. Made public: 2010. To check: Li Jingquan, speech, Apr. 5, 1962, Sichuan Provincial Archives, JC1-2809, p. 11 (cited by [[w.dikotter-maos-great-famine]], 299 n.56). Names: Li Jingquan.'
+    src:
+      c: 7e4a60ee
+      rows:
+        - 'w.dikotter-maos-great-famine 299: all'
+        - 'via w.dikotter-maos-great-famine 299 n.56: all'
+    tags: [polity:prc, vis:only:prc, name:li-jingquan]
   - id: cal.1962-04-06.opinion
     when: Apr. 6
     date: '1962-04-06'
@@ -2129,7 +2142,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Sixty thousand Kazakhs in three counties along the Soviet border, Tacheng, Yumin and Huocheng, start moving into the Soviet Union.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 239; [[w.yang-jisheng-mubei]], II, 1174–1175 (spring–summer 1962: over 60,000 border people of the counties directly under the Ili Kazakh Autonomous Prefecture and of the Tacheng district, with children, herds, tools and carts, flee to the Soviet Union; no day). To check: [[w.dangdai-zhongguo-minzu-gongzuo]], 161 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 239 n.34a); [[w.dreyer-pla-and-regionalism-in]], 43–44 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 239 n.34c). Check: the number; Dreyer, quoting one Chinese account, has as many as 70,000 fled ([[w.dreyer-pla-and-regionalism-in]], 43–44).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 239; [[w.yang-jisheng-mubei]], II, 1174–1175 (spring–summer 1962: over 60,000 border people of the counties directly under the Ili Kazakh Autonomous Prefecture and of the Tacheng district, with children, herds, tools and carts, flee to the Soviet Union; no day); [[w.dikotter-maos-great-famine]], 239 n.46, n.47 (some 64,000 had crossed into the Soviet Union by May; half the population of Tacheng marched to the border). To check: [[w.dangdai-zhongguo-minzu-gongzuo]], 161 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 239 n.34a); [[w.dreyer-pla-and-regionalism-in]], 43–44 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 239 n.34c); RGANI, Moscow, May 22, 1962, 5-30-401, p. 39; Ministry of Foreign Affairs Archives, Peking, May 10, 1962, 118-1100-9, pp. 71–9; RGANI, Moscow, Apr. 28, 1962, 3-18-53, pp. 2–3 and 8–12 (cited by [[w.dikotter-maos-great-famine]], 239 n.46, n.47, n.48). Check: the number; Dreyer, quoting one Chinese account, has as many as 70,000 fled ([[w.dreyer-pla-and-regionalism-in]], 43–44).'
     src:
       c: 776b7bea
       rows:
@@ -2137,6 +2150,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 239 n.34a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 239 n.34c: all'
         - 'w.yang-jisheng-mubei II, 1174–1175: A'
+        - 'w.dikotter-maos-great-famine 239 n.46, n.47: ?'
     tags: [polity:prc]
   - id: cal.1962-04-16.china-leadership-5
     when: Apr. 16
@@ -2658,6 +2672,15 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 147: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-04-20.vietnam-hanoi
+    when: Apr. 20
+    date: '1962-04-20'
+    place: dien-ngoc
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Quảng Nam. Apr. 20 a Saigon commando company and nearly a platoon of Civil Guard and Self-Defense men surround a squad of seven sappers under Lê Tấn Hiền and Võ Như Hưng, with three cadres of Điện Bàn, in Hamlet 4, Điện Ngọc commune. The ten fight all day, from a dry well in the middle of a field, against a force 50 times theirs; at night they draw the Saigon side off and get out with the wounded. Over 100 of the Saigon side killed, by the history's count; four of the ten dead, one wounded.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 173–74. Names: Lê Tấn Hiền, Võ Như Hưng.'
+    tags: [polity:drv, ok:fields-time]
   - id: cal.1962-04-21.states-and-cities-seattle
     when: Apr. 21
     date: '1962-04-21'
@@ -4341,3 +4364,11 @@ entries:
         - 'w.yang-jisheng-mubei I, 406: all'
         - 'via w.yang-jisheng-mubei I, 406 n.12: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place, ok:fields-at]
+  - id: cal.1962-04.vietnam
+    when: Apr.
+    date: 1962-04
+    thread: vietnam
+    also: [vietnam-saigon]
+    c: 'From April Saigon and the Americans carry out over the whole South the program of gathering the people into "strategic hamlets", after trials in some places in Tây Ninh, Bình Dương, Biên Hòa and Quảng Ngãi. The aim: 10 million peasants in 16,000 of 17,000 hamlets planned, and a pacification apparatus, with American advisers alongside, from the center to the provinces.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 26. Check: the day. See [[cal.1962-03-16.vietnam]].'
+    tags: [polity:rvn, polity:us, ok:fields-place]

@@ -66,11 +66,12 @@ entries:
     thread: vietnam-saigon
     also: [vietnam-operations]
     c: Saigon, the National Day parade, Westmoreland in the reviewing stand. The Viet Cong fire fourteen rounds from recoilless rifles during it.
-    n: '[[w.westmoreland-soldier-reports]], 188. Names: Westmoreland.'
+    n: '[[w.westmoreland-soldier-reports]], 188; [[w.lich-su-khang-chien-chong-my]], IV, 246–47 (the Command sets guns close to Saigon to fire on the National Day rally; Reuters, Nov. 1: the guests on the stand fled and crawled under it). Names: Westmoreland.'
     src:
       c: 1e5ea9f8
       rows:
         - 'w.westmoreland-soldier-reports 188: all'
+        - 'w.lich-su-khang-chien-chong-my IV, 246–47: A'
     tags: [name:westmoreland-william, place:saigon]
   - id: cal.1966-11-01.vietnam-asian-trip
     when: Nov. 1
@@ -135,6 +136,18 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 378: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 378 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+  - id: cal.1966-11-01.china-leadership-4
+    when: Nov. 1
+    date: '1966-11-01'
+    place: nanjing
+    thread: china-leadership
+    c: 'Nanjing 南京. The Jiangsu Red Rebel General Headquarters 江蘇省紅色造反總司令部 (Sheng Hongzong 省紅總), Nanjing''s largest "mountain," is founded; its sponsor and core is the Nanjing University Red Rebel Corps 南大紅色造反隊. Chief figures: Wen Fenglai 文鳳來, middle-aged teacher of the politics department, Dai Guoqiang 戴國強 of the Xinhua branch, whom Yao Wenyuan has dismissed as a reporter for joining a local mass body, Kong Fanjie 孔繁潔, and students Shi Wei 施威, Yao Jinqiu 姚金鍬 and Geng Changxian 耿昌賢. The conservative Nanjing Red Guard Headquarters and the Nanjing workers'' Red Guards fall as the bourgeois line is criticized.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 320. Made public: 2011. Names: Yao Wenyuan.'
+    src:
+      c: b76d0556
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 320: all'
+    tags: [polity:prc, name:yao-wenyuan]
   - id: cal.1966-11-02.cuba
     when: Nov. 2
     date: '1966-11-02'
@@ -281,6 +294,18 @@ entries:
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
     range_basis: record
+  - id: cal.1966-11-02.vietnam-hanoi-2
+    when: Nov. 2
+    date: '1966-11-02'
+    thread: vietnam-hanoi
+    also: [vietnam-diplomacy, soviet-union]
+    c: The Soviet ambassador Shcherbakov, at the Soviet side's request and on Moscow's behalf, tells Phạm Văn Đồng of Gromyko's talks with Johnson and Rusk during the U.N. session. By Shcherbakov's record Phạm welcomes the Soviet contacts with the U.S. but warns against illusions about American peace moves, rejects the reciprocity in Goldberg's statement, and denies Rusk's claim of contact with the DRV; he says Hanoi has no internal report of the Bình Định battle that the party paper described.
+    n: '"[From the Diary of Shcherbakov I.S., ''Record of Conversation with DRV Prime Minister Pham Van Dong, 2 November 1966''](https://digitalarchive.umd.edu/document/208393)" (Nov. 12, 1966), AVP RF, f. 79, op. 21, p. 51, d. 8, ll. 174–180, and RGANI, f. 5, op. 58, d. 260, ll. 320–326, trans. James Person, Sergey Radchenko and Gary Goldberg, obtained by James G. Hershberg and Sergey Radchenko, Wilson Center Digital Archive. Secret, no. 1190, signed "II.XI.66" as the translation prints it; the Archive dates the document Nov. 12, the record''s heading the talk Nov. 2. The AVP RF copy has a passage censored (pp. 5–6 of the document) that the RGANI copy gives. Phạm and the ambassador also speak of the Batitsky mission and the Nov. 7 reception. Names: Phạm Văn Đồng, Gromyko, Johnson, Rusk, Goldberg. Check: the place; the record gives none. Check: the year the Archive posted the document; its page gives none.'
+    src:
+      c: d4bc2546
+      rows:
+        - 'https://digitalarchive.umd.edu/document/208393: all'
+    tags: [polity:ussr, polity:drv, name:pham-van-dong, name:gromyko-andrei, name:johnson-lyndon-b, name:rusk-dean, name:goldberg-arthur-j, vis:only:ussr+drv, ok:fields-place]
   - id: cal.1966-11-03.cities-and-housing
     when: Nov. 3
     date: '1966-11-03'
@@ -455,6 +480,17 @@ entries:
     c: 'Zhou Enlai, before the sixth reception, calls the heads of Peking''s Red Guard bodies: Peking''s teachers and students are not to take part in the Tiananmen review; to help the PLA and others with propaganda and order; and after the out-of-town teachers and students are reviewed, urge them home to run their own Cultural Revolution.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 85 (Nov. 3, 1966). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1966-11-03.vietnam-hanoi
+    when: Nov. 3–5
+    date: '1966-11-03'
+    time: 1966-11-03T01:00Z
+    place: tay-ninh
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Trảng Tranh, northwest of Bàu Gòn, Tây Ninh. At 9 a.m. the Americans land a part of the 196th Brigade 500 meters from the Dương Minh Châu base and beside the 9th Division's forward command post; the division's guard and scout platoon is sent out. The night of Nov. 3–4 the division's guns hit command posts at Gò Dầu, Bàu Đồn, Trảng Bàng and Trâm Vàng and the 196th Brigade's at Trảng Lớn. The morning of Nov. 4 two more battalions land northwest of Bàu Gòn and with the first attack Battalion 9 of Regiment 16 from two sides; the battalion holds in its works. Nov. 5 a battalion of the 25th Division's 2d Brigade lands at Trảng Dài. By the history's count three American battalions are hurt by the end of Nov. 5 and a battalion commander killed.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 243–44. See [[cal.1966-11-02.vietnam-hanoi]]. The time is the first day''s. Check: the clock, whose it is. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1966-11-04.elections-1966
     when: Nov. 4
     date: '1966-11-04'
@@ -809,6 +845,15 @@ entries:
     c: 'Zhou Enlai writes Soong Ching Ling: busier lately, he has held her article back until now and is uneasy; he sends the Chinese and English versions, revised, for her to look over.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 85 (Nov. 6, 1966). Made public: 2020. Names: Zhou Enlai, Soong Ching Ling.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1966-11-06.vietnam-hanoi
+    when: Nov. 6–8
+    date: '1966-11-06'
+    place: tay-ninh
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Chà Dơ, Sa Mát, Trại Đèn and Bãi Trứng, Tây Ninh. The 1st Division's 2d Brigade lands at Chà Dơ and Sa Mát and its 3d Brigade at Trại Đèn and Bãi Trứng; Regiment 16 of the 9th Division hits them as they land and by the history's count hurts a battalion badly at Chà Dơ and east of Trại Đèn. The night of Nov. 7 into 8 Battalion 1 of Regiment 16 raids the camp of Battalion 2, 2d Brigade, at Chà Dơ, destroying a company and wearing down another.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 245. See [[cal.1966-11-02.vietnam-hanoi]]. The figures are the history''s.'
+    tags: [polity:drv, polity:us, ok:fields-time]
   - id: cal.1966-11-07.opinion
     when: Nov. 7
     date: '1966-11-07'
@@ -2147,6 +2192,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 135–136: all'
     tags: [polity:prc, polity:cambodia, name:chen-yi]
+  - id: cal.1966-11-08.china-leadership-5
+    when: Nov. 8
+    date: '1966-11-08'
+    place: peking
+    thread: china-leadership
+    c: Peking. The All-China Red Laborers' Rebel Corps 全國紅色勞動者造反總團 (Quanhongzong 全紅總), a body of contract and temporary workers who have fled to Peking from places where their rebellion was put down, is founded at the Metallurgy Ministry's second guesthouse 冶金部第二招待所, on Xizhimen Inner Street, then renamed the Center and State Council cultural revolution joint reception station's guesthouse. Its sponsors come from Peking, Jiangsu, Anhui, Guangxi and Guizhou. The same day over fifty of them sit in at the conference hall of the All-China Federation of Trade Unions 中華全國總工會.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 372. Made public: 2016.'
+    src:
+      c: 8c7a04ff
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 372: all'
+    tags: [polity:prc]
   - id: cal.1966-11-09.republican-party
     when: Nov. 9
     date: '1966-11-09'
@@ -2522,6 +2579,17 @@ entries:
     c: 'Zhou Enlai, told of the Anting stoppage, has Chen Boda wire the East China Bureau''s Han Zheyi that the Bureau and the Shanghai committee must stand firm: the General Headquarters is not to be recognized as lawful, nor lying on the rails as revolutionary action. He wires the Shanghai workers at Anting that their act harms their units'' output and the country''s traffic, and asks them to return to Shanghai at once.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 87 (Nov. 9, 1966, the item after); [[w.mao-zedong-zhuan]], VI, ch. 75 (the Anting incident brought no word from Mao at first; Zhou Enlai presides over an enlarged meeting of the Standing Committee, which, on the principles the Center had laid down, has Chen Boda wire the East China Bureau and the Shanghai committee not to compromise with the headquarters, and to persuade the workers who had been taken in or swept along). [[w.yang-jisheng-tiandi-fanfu]], I, 341 (the Shanghai committee reports to the Center; Zhou presides over the Center''s huddle on how to deal with it, which decides to wire the East China Bureau and the Shanghai workers'' rebels, both drafted by Chen Boda: the Bureau to hold firm, not to recognize the General Headquarters as a lawful organization nor the stopping of the trains as a revolutionary act, the Cultural Revolution Group deciding to send Zhang Chunqiao back to Shanghai to persuade the workers; to the workers: "big principles govern small ones, and doing production well is the big principle; your act harms production and greatly the whole country''s traffic, a very great matter; we hope you will at once correct it and go back to Shanghai and settle problems on the spot; the Group sends Comrade Zhang Chunqiao to meet you at once"; the telegram about a thousand characters, in full in Xu Jingxian). Made public: 2020. To check: *Xu Jingxian de zuihou huiyi* 《徐景賢的最后回憶》 (Xingke''er chubanshe 星克爾出版(香港)有限公司, 2013), 54–55, 55–57 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 341 n.21). Names: Zhou Enlai, Chen Boda, Han Zheyi.'
     tags: [name:zhou-enlai, name:chen-boda, polity:prc, vis:only:prc]
+  - id: cal.1966-11-10.vietnam-hanoi
+    when: Nov. 10
+    date: '1966-11-10'
+    time: 1966-11-10T04:00Z
+    place: sa-thay
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: West of the Sa Thầy river. Nov. 9 helicopters land three Saigon ranger companies 22 to 24 kilometers west-northwest of Plei Giăng; at noon Nov. 10 Battalion 9 of Regiment 66, having judged their line of search, ambushes and destroys two companies. That night Regiment 320 shells the American artillery east of the river and by the history's count kills 70 and destroys four 105 mm howitzers.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 250. See [[cal.1966-10-26.vietnam-hanoi-2]]. The time is the first day''s, noon. Check: the clock, whose it is. The figures are the history''s.'
+    tags: [polity:drv, polity:us, polity:rvn]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1966-11-11.vietnam
     when: Nov. 11
     date: '1966-11-11'
@@ -2742,6 +2810,30 @@ entries:
       - 1966-11-11T14:00Z
       - 1966-11-11T16:00Z
     time_band: night
+  - id: cal.1966-11-11.vietnam-hanoi
+    when: Nov. 11
+    date: '1966-11-11'
+    place: dau-tieng
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Dầu Tiếng, Tây Ninh. That night Regiment 1 shells the headquarters of the American 1st Division and by the history's count kills nearly 200, damages 17 helicopters and two guns.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 245. See [[cal.1966-11-02.vietnam-hanoi]]. The history says "the night of the 11th into the 12th". Check: the clock, whose it is. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1966-11-11T14:00Z
+      - 1966-11-11T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
+  - id: cal.1966-11-11.vietnam-hanoi-2
+    when: Nov. 11–13
+    date: '1966-11-11'
+    place: sa-thay
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Landing zone C1, west bank of the Sa Thầy river. Nov. 11 the American 4th Division's 2d Brigade lands Battalion 2, with artillery and two Saigon ranger companies; the artillery Battalion 32 had lain in wait there since before the campaign opened. The morning of Nov. 12 the enemy comes to the place expected and 120 mm shells hit its formation. Nov. 13, with air cover, an American company jumps down at C1 to gather its dead, and a company of the 25th Division's 3d Brigade feeling south of C1 is destroyed by Battalion 9 of Regiment 66.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 251. See [[cal.1966-11-10.vietnam-hanoi]]. The history says the artillery waited "over a month". The figures are the history''s.'
+    tags: [polity:drv, polity:us, polity:rvn, ok:fields-time]
   - id: cal.1966-11-12.vietnam
     when: Nov. 12
     date: '1966-11-12'
@@ -3364,6 +3456,30 @@ entries:
     c: The International War Crimes Tribunal, on the idea of the British scholar Bertrand Russell, is set up to try the American war crimes in Vietnam.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 447. Check: the place; the history prints the formal first session as May 2–13, 1966 at Stockholm, which cannot precede its founding on Nov. 15, 1966 as printed.'
     tags: [polity:drv, ok:fields-place]
+  - id: cal.1966-11-15.china-leadership-3
+    when: Nov. 15
+    date: '1966-11-15'
+    thread: china-leadership
+    c: 'The Guizhou provincial pickets 貴州省糾察隊 are formally formed; their liaison station is at the provincial federation of trade unions. Their slogans: "the provincial and municipal committees are revolutionary and right in direction," "Secretary Jia is a good secretary like Jiao Yulu."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 290–291. Made public: 2016. To check: Peng Zhenxin 彭振新, *Guizhou wenge dashi ji* (5th supplemented draft) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 290 n.6). See [[cal.1966-10-15.china-leadership-6]].'
+    src:
+      c: d6a12578
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 290–291: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 290 n.6: all'
+    tags: [polity:prc, ok:fields-place]
+  - id: cal.1966-11-15.china-leadership-4
+    when: Nov. 15
+    date: '1966-11-15'
+    place: shanghai
+    thread: china-leadership
+    c: Li Jianyu 李劍鈺, a Party member and cadre of the Party committee's organization section at Cotton Mill no. 31 and sponsor of its "Workers' Scarlet Guards," and others go to the Shanghai committee's reception station and to the East China Bureau 華東局 and ask that the Workers' General Headquarters' "five-point agreement" be cleared up.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 345. Made public: 2009.'
+    src:
+      c: 469f66ef
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 345: all'
+    tags: [polity:prc]
   - id: cal.1966-11-16.opinion
     when: Nov. 16
     date: '1966-11-16'
@@ -3475,6 +3591,15 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 334: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 334 n.6: all'
     tags: [polity:prc, vis:only:prc, name:chen-boda, ok:fields-place]
+  - id: cal.1966-11-16.vietnam-hanoi
+    when: Nov. 16
+    date: '1966-11-16'
+    place: tay-ninh
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Khe Đôn and Sóc Xoài, Tây Ninh. Regiment 16 fights the Americans and by the history's count kills 79 and shoots down three helicopters; it also ambushes three vehicles on the Tây Ninh–Suối Đá road. From Nov. 15 to 20 the division's forces fight many actions at Bàu Bỏ, Bàu Câu, Sóc Kỳ and Cà Tum and by the history's count put nearly 200, mostly Americans, out of action.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 247. See [[cal.1966-11-02.vietnam-hanoi]]. Check: the days of the Bàu Bỏ run. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-11-17.georgia
     when: Nov. 17
     date: '1966-11-17'
@@ -3732,6 +3857,43 @@ entries:
         - 'w.shesol-mutual-contempt 312–13: all'
         - 'via x.1966-11-18.kimball-he-builds-his-own-kennedy-identity: all'
     tags: [name:kennedy-robert-f]
+  - id: cal.1966-11-18.china-leadership
+    when: Nov. 18
+    date: '1966-11-18'
+    place: peking
+    thread: china-leadership
+    c: The Peking committee 北京市委 issues an "Important Notice" 〈重要通告〉 strictly forbidding private detention houses and the private seizure and beating of people.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 279.'
+    src:
+      c: 8ccc28bf
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 279: all'
+    tags: [polity:prc]
+  - id: cal.1966-11-18.china-leadership-2
+    when: Nov. 18
+    date: '1966-11-18'
+    place: shanghai
+    thread: china-leadership
+    c: 'Municipal Children''s Palace 市少年宮, Shanghai. Cao Diqiu 曹荻秋, mayor, receives Li Jianyu 李劍鈺 and his group. Li asks whether, as the rebels have a city-wide body, a city-wide body may be set up to match it; Cao advises a provisional preparatory body, as flexible, with a way back should the Center later disagree. The committee''s spirit then: if the majority, the conservatives, wish to organize, let them.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 345–346. Made public: 2009. To check: Li Xun 李遜, 〈馬驥、李劍鈺回憶文革中的上海工人赤衛隊〉, *Jiyi* 《記憶》, no. 31 (Apr. 30, 2009) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 346 n.34). See [[cal.1966-11-15.china-leadership-4]].'
+    src:
+      c: e0655ddd
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 345–346: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 346 n.34: all'
+    tags: [polity:prc]
+  - id: cal.1966-11-18.china-leadership-3
+    when: Nov. 18
+    date: '1966-11-18'
+    place: peking
+    thread: china-leadership
+    c: After ten days of sitting in, the number risen from over fifty to over three hundred, Wang Zhijie 王志傑, secretary of the Secretariat of the All-China Federation of Trade Unions 中華全國總工會, recognizes the Red Laborers' Corps orally as a lawful rebel organization.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 372. Made public: 2016. See [[cal.1966-11-08.china-leadership-5]].'
+    src:
+      c: 455c2090
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 372: all'
+    tags: [polity:prc]
   - id: cal.1966-11-19.succession
     when: Nov. 19
     date: '1966-11-19'
@@ -3769,6 +3931,19 @@ entries:
     c: 'Zhou Enlai, told that the Peking Institute of Political Science and Law will hold a mass meeting to criticize Li Xuefeng and to chase Liu Shaoqi and Deng Xiaoping, tells Xinhua: the Center has settled the Liu and Deng question and it is not to be taken to the masses; the Center does not support such a meeting; Xinhua, the *Renmin ribao* and the radio are to send no reporters.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 91 (Nov. 19, 1966, the item after). Made public: 2020. Names: Zhou Enlai, Li Xuefeng, Liu Shaoqi, Deng Xiaoping.'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, polity:prc, vis:only:prc]
+  - id: cal.1966-11-19.china-leadership-3
+    when: Nov. 19
+    date: '1966-11-19'
+    place: peking
+    thread: china-leadership
+    c: Peking. The day after the Peking committee's notice, people of the Cultural Revolution Group go to No. 6 Middle School, the Dong'an Market 東安市場 and other places and close the private prisons. Qi Benyu 戚本禹, by his account, takes a *Jiefangjun bao* 解放軍報 reporter to the Dong'an Market that night, where a woman held as a "hooligan" is being whipped, and orders the Red Guards to free the prisoners.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 279. Made public: 1966. To check: 〈中央首長在全國在京造反派批判反動路線大會上的講話〉, Dec. 17, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 279 n.70). See [[cal.1966-11-18.china-leadership]].'
+    src:
+      c: a7d040c3
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 279: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 279 n.70: all'
+    tags: [polity:prc, ok:fields-time]
   - id: cal.1966-11-20.opinion
     when: Nov. 20
     date: '1966-11-20'
@@ -3818,6 +3993,15 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 506: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1966-11-20.vietnam-hanoi
+    when: Nov. 20–21
+    date: '1966-11-20'
+    place: sa-thay
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: East of the Sa Thầy river and the Pô Cô. Nov. 20 and 21 Regiments 320, 66 and 95 attack the clusters of the 1st Cavalry Division's 2d Brigade and the 4th Division and break the 4th Division's blocking line east of the Pô Cô, going on into districts 4 and 5 of Gia Lai.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 252. See [[cal.1966-10-26.vietnam-hanoi-2]].'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-11-21.transportation
     when: Nov. 21
     date: '1966-11-21'
@@ -3948,6 +4132,30 @@ entries:
         - 'via w.yang-jisheng-tiandi-fanfu I, 335 n.9: all'
     tags: [polity:prc, vis:only:prc, name:li-fuchun, name:zhou-enlai, name:mao-zedong, ok:fields-place]
     time_zone: Asia/Shanghai
+  - id: cal.1966-11-21.vietnam-hanoi
+    when: Nov. 21–22
+    date: '1966-11-21'
+    place: tay-ninh
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Tà Đạt, Tây Ninh. That night Regiment 1 shells the enemy command post and by the history's count kills about 100 and wrecks some high buildings. The night of Nov. 22 Regiment 16 shells the artillery group at Suối Đá and damages two guns.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 248. See [[cal.1966-11-02.vietnam-hanoi]]. The time is the first night''s. Check: the clock, whose it is. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1966-11-21T14:00Z
+      - 1966-11-21T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
+  - id: cal.1966-11-21.vietnam-diplomacy
+    when: Nov. 21
+    date: '1966-11-21'
+    place: bucharest
+    thread: vietnam-diplomacy
+    also: [vietnam-hanoi]
+    c: 'Ceaușescu, Maurer, Bodnăraş and Niculescu-Mizil meet Nguyễn Duy Trinh, DRV Vice-Premier and foreign minister, and Ambassador Hoang Tu, on Trinh''s short stop at Bucharest after the Albanian and Bulgarian party congresses. Ceaușescu: Romania backs the DRV''s position and more aid, and wants a view on talks and on the congresses'' lessons. Trinh and Ceaușescu agree that the military and the political struggle go together.'
+    n: '"[Transcript of Interviews at the Central Committee of Romanian Communist Party With the Delegation of the Vietnamese Worker''s Party](https://digitalarchive.umd.edu/document/122590)" (Nov. 23, 1966), Stenograma intrevederii la CC al PCR cu delegatia Partidelor celor ce muncesc din Vietnam [Transcript of Meetings at the RCP CC with the Workers Party of Vietnam Delegation], November 21, 1966, Fond CC al PCR, Secţia Relaţii Externe, 150/1966, nr. 2925, 14/XII/1966, trans. Larry L. Watts, Wilson Center Digital Archive. The Archive dates the transcript Nov. 23, 1966; the text gives Nov. 21, and ends with a dinner proposed for 1530 hrs. See [[cal.1966-10-11.vietnam-diplomacy]]. Names: Ceaușescu, Maurer, Bodnăraş, Nguyễn Duy Trinh. Check: the day, Nov. 21 in the text and Nov. 23 in the Archive''s heading and the transcript''s close. Check: the year the document was first printed or posted; the Archive page gives none.'
+    tags: [polity:romania, polity:drv, name:ceausescu-nicolae, name:maurer-ion-gheorghe, name:bodnaras-emil, name:nguyen-duy-trinh, vis:only:romania+drv]
   - id: cal.1966-11-22.vietnam
     when: Nov. 22
     date: '1966-11-22'
@@ -4069,6 +4277,19 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 137: all'
         - 'via w.macfarquhar-maos-last-revolution 137 n.15: all'
     tags: [polity:prc, name:chen-boda, vis:only:prc]
+  - id: cal.1966-11-22.china-leadership-3
+    when: Nov. 22–23
+    date: '1966-11-22'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai. On Nov. 22 Huang Yuqi 黃宇齊, director of the East China Bureau's industry office, and Yu Yongshi 于永實, deputy head of the Shanghai labor bureau, sign for the East China Bureau's representative the six demands of the temporary and outside-contract workers; on Nov. 23 Wang Ke 王克, head of the labor bureau, signs the demands of the workers sent to support agriculture.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 379. Made public: 2016. To check: Shanghai Revolutionary Committee''s liaison HQ against economism, 〈無產階級文化大革命中上海反對經濟主義大事記 1966年11月–1967年3月15日〉 (discussion draft, Mar. 17, 1967), in the "Wenge bowuguan" 文革博物館 321 *Shanghai de "jingjizhuyi feng"* 《上海的「經濟主義風」》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 379 n.21).'
+    src:
+      c: 7606bc2f
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 379: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 379 n.21: all'
+    tags: [polity:prc]
   - id: cal.1966-11-23.opinion
     when: Nov. 23
     date: '1966-11-23'
@@ -4335,6 +4556,21 @@ entries:
       - 1966-11-25T03:30Z
       - 1966-11-25T07:30Z
     time_zone: Asia/Shanghai
+  - id: cal.1966-11-25.vietnam-hanoi
+    when: Nov. 25
+    date: '1966-11-25'
+    place: dau-tieng
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Dầu Tiếng. That night Regiment 2 shells the base a second time and by the history's count kills 300, burns a fuel store of about 12,000 liters, wrecks five helicopters and two 105 mm guns. Westmoreland ended Attleboro Nov. 24 by the history; in the withdrawal the 11th Armored Regiment is hit at Bến Cát and Suối Râm and the 173d Brigade at Dầu Tiếng and Thủ Đức. For the 72 days the history counts 4,500 of the other side out of action, 1,700 Americans, and 65 aircraft shot down or damaged.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 248. See [[cal.1966-11-02.vietnam-hanoi]]. The history says "the night of the 25th". Names: Westmoreland. Check: the clock, whose it is. The figures are the history''s.'
+    tags: [polity:drv, polity:us, name:westmoreland-william]
+    time_range:
+      - 1966-11-25T14:00Z
+      - 1966-11-25T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1966-11-26.war-opposition
     when: Nov. 26
     date: '1966-11-26'
@@ -4410,6 +4646,19 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 185: all'
     tags: [polity:prc, name:jiang-qing, name:tao-zhu, vis:only:prc]
+  - id: cal.1966-11-27.china-leadership-3
+    when: Nov. 27
+    date: '1966-11-27'
+    place: peking
+    thread: china-leadership
+    c: Peking. Middle-school students at the middle school attached to Peking University 北大附中 found in secret the Capital Red Guards' United Action Committee 首都紅衛兵聯合行動委員會 (Liandong 聯動), a union of the East City, West City and Haidian Pickets.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 282. Made public: 2007. To check: Zhang Guangyu 張光渝, 〈告別元老〉 (Beixing chubanshe 北星出版社, Hong Kong, 2007), 60–64 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 282 n.73).'
+    src:
+      c: 6ee5d7f4
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 282: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 282 n.73: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1966-11-28.vietnam-congress
     when: Nov. 28
     date: '1966-11-28'
@@ -4464,6 +4713,18 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 400–401: all'
     tags: [polity:prc, name:mao-zedong, polity:albania]
+  - id: cal.1966-11-28.china-leadership-4
+    when: Nov. 28
+    date: '1966-11-28'
+    place: qufu
+    thread: china-leadership
+    c: Qufu 曲阜, Shandong. Peking Red Guards smash the statues of the Duke of Zhou and other ancients.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 258.'
+    src:
+      c: 2dddb3d6
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 258: all'
+    tags: [polity:prc]
   - id: cal.1966-11-29.economy
     when: Nov. 29
     date: '1966-11-29'
@@ -4605,6 +4866,19 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 137: all'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1966-11-29.china-leadership-4
+    when: Nov. 29
+    date: '1966-11-29'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai. The municipal committee sets up a labor and wage reception group under the deputy mayor Song Richang 宋日昌.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 379. Made public: 2016. To check: Shanghai Revolutionary Committee''s liaison HQ against economism, 〈無產階級文化大革命中上海反對經濟主義大事記 1966年11月–1967年3月15日〉 (discussion draft, Mar. 17, 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 379 n.21). See [[cal.1966-11-22.china-leadership-3]].'
+    src:
+      c: 4e83cb9f
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 379: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 379 n.21: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1966-11-30.opinion
     when: Nov. 30
     date: '1966-11-30'
@@ -5295,3 +5569,29 @@ entries:
     c: 'The Secretariat''s circular no. 189-TT/TW on the 20th anniversary of the national resistance (Dec. 19), the 22nd of the People''s Army (Dec. 22) and the 6th of the National Liberation Front (Dec. 20): a propaganda drive to raise the will to beat the Americans, on the resistance against the French, the unity of army and people and of North and South, and the Front as the South''s one true representative. Stories, visits to families of the dead, small army and people''s days, exhibitions and films; a rally in Hanoi.'
     n: '*Thông tri của Ban Bí thư số 189-TT/TW, ngày 30-11-1966, Về việc tuyên truyền động viên nhân dịp ba ngày kỷ niệm trong tháng 12 năm 1966*, signed for the Secretariat by Vũ Tuân, chief of its office. [[w.van-kien-dang-toan]], XXVII, 323–25. Made public: 2003.'
     tags: [polity:drv, polity:us, vis:only:drv]
+  - id: cal.1966-11.china-leadership-21
+    when: Nov., mid
+    date: 1966-11
+    at: before 1966-11-11
+    place: nanjing
+    thread: china-leadership
+    c: The Jiangsu Workers' Red Rebel General Headquarters 江蘇省工人紅色造反總司令部 (Sheng Gongzong 省工總), a city-wide workers' rebel body, is founded at Nanjing with Zhou Enlai's 周恩來 consent. Its membership is mixed at first.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 320. Made public: 2011. Names: Zhou Enlai.'
+    src:
+      c: 756af2f6
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 320: all'
+    tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1966-11.china-leadership-22
+    when: Nov., after the 19th
+    date: 1966-11
+    at: after 1966-11-19
+    thread: china-leadership
+    c: 'Chen Boda 陳伯達, shown the *Jiefangjun bao* reporter''s report on the Dong''an Market prison, meant for Mao, holds it back: "too dark; it cannot be sent."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 279. Made public: 1966. To check: 〈中央首長在全國在京造反派批判反動路線大會上的講話〉, Dec. 17, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 279 n.70). See [[cal.1966-11-19.china-leadership-3]]. Names: Chen Boda, Mao Zedong.'
+    src:
+      c: f9548cec
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 279: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 279 n.70: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place, name:chen-boda, name:mao-zedong]

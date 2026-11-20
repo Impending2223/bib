@@ -852,12 +852,13 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou Enlai receives the Vietnamese government trade delegation, and the same day attends the signing of the Sino-Vietnamese trade protocol and the Sino-Vietnamese treaty of commerce and navigation.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 518 (Dec. 5, 1962); [[w.zhou-enlai-waijiao-huodong]], 344 (Dec. 5, 1962; 下午, 中南海西花厅). Names: Zhou Enlai.'
+    n: '"[Summary of Trade Negotiations with Korea and Vietnam for 1963](https://digitalarchive.umd.edu/document/121759)" (Jan. 30, 1963), PRC FMA 106-01008-18, 48–53, obtained by Shen Zhihua, trans. Jeffrey Wang and Charles Kraus, Wilson Center Digital Archive (the signing, Dec. 5: the treaty of commerce and navigation and the protocol for 1963). [[w.zhou-enlai-nianpu-1949]], II, 518 (Dec. 5, 1962); [[w.zhou-enlai-waijiao-huodong]], 344 (Dec. 5, 1962; 下午, 中南海西花厅). Names: Zhou Enlai.'
     src:
       c: 69ee55a8
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 518: ?'
         - 'w.zhou-enlai-waijiao-huodong 344: A'
+        - 'https://digitalarchive.umd.edu/document/121759: A'
     tags: [polity:prc, polity:drv, name:zhou-enlai]
     time_range:
       - 1962-12-05T04:00Z
@@ -5168,3 +5169,44 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1740: all'
     tags: [polity:prc, name:deng-xiaoping]
+  - id: cal.1962-12.vietnam-hanoi-2
+    when: Dec.
+    date: 1962-12
+    place: saigon
+    thread: vietnam-hanoi
+    also: [vietnam-operations, vietnam]
+    c: Saigon. In December Saigon's commandos kill eight American advisers with grenades at the Bạch Đằng wharf, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 185. Check: the day, and the deaths against the American record.'
+    tags: [polity:drv]
+  - id: cal.1962-12.vietnam-hanoi-3
+    when: Dec.
+    date: 1962-12
+    place: saigon
+    thread: vietnam-hanoi
+    also: [vietnam-operations, vietnam]
+    c: Saigon. In December commandos kill six Americans with grenades near the Cancer Institute and the Bảy Hiền crossing, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 185–86. Check: the day, and the deaths against the American record.'
+    tags: [polity:drv]
+  - id: cal.1962-12.vietnam-hanoi-4
+    when: Dec.
+    date: 1962-12
+    place: saigon
+    thread: vietnam-hanoi
+    also: [vietnam-operations, vietnam]
+    c: Saigon. In December commandos kill ten American advisers in a villa at the corner of Trương Tấn Bửu and Ngô Đình Khôi streets, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 186. Check: the day, and the deaths against the American record.'
+    tags: [polity:drv]
+  - id: cal.1962-12.china-3
+    when: Dec., early
+    date: 1962-12
+    at: before 1962-12-01
+    place: peking
+    thread: china
+    also: [trade, vietnam-hanoi]
+    c: Phan Anh, the DRV's Minister of Foreign Trade, arrives in Peking and the two sides reach exact agreement on all issues of 1963 trade, per the PRC summary of Jan. 30, 1963.
+    n: '"[Summary of Trade Negotiations with Korea and Vietnam for 1963](https://digitalarchive.umd.edu/document/121759)" (Jan. 30, 1963), PRC FMA 106-01008-18, 48–53, obtained by Shen Zhihua, trans. Jeffrey Wang and Charles Kraus, Wilson Center Digital Archive. Check: the day. Check: the year the Archive posted it.'
+    src:
+      c: 0c685002
+      rows:
+        - 'https://digitalarchive.umd.edu/document/121759: all'
+    tags: [polity:prc, polity:drv, vis:only:prc+drv]

@@ -668,7 +668,7 @@ entries:
     place: canton
     thread: china-leadership
     c: 'Canton. The enlarged Standing Committee, Mao presiding; Zhou Enlai on industry and supply. Mao on the communes since the second Zhengzhou meeting: before Lushan the facts known, after it the fight on the right silenced the truth (Henan''s 24 billion jin reported as over 40) and brought high estimates, high procurement; the fight on the left, four months, cut off by Peng Dehuai; Anhui, Shandong, Henan, Gansu too late to care for the people''s food.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 5, 1961. [[w.zhou-enlai-nianpu-1949]], II, 396, Mar. 5, 1961 (Zhou on industry and supply). [[w.deng-xiaoping-nianpu-1904]], III, 1619–1620 (Mar. 5, 1961; evening; Deng at Mao''s enlarged Standing Committee: regulations for the communes to be drafted, communes and accounting units smaller; meetings at Canton for the three southern bureaus and at Peking for the three northern); [[w.mao-zedong-zhuan]], V, ch. 67 n.23 (Mar. 5, in Building 3 of the Guangdong committee: the enlarged Standing Committee with Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Boda, Hu Qiaomu and Tao Zhu; Zhou on industry and supply, Mao on the commune system and the fight on the right and the left since Lushan). Made public: 1997. To check: Mao Zedong 毛泽东, speech at the enlarged meeting of the Politburo Standing Committee 中共中央政治局常委扩大会议, Mar. 5, 1961 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.23). Names: Mao Zedong, Zhou Enlai, Peng Dehuai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Boda, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 5, 1961. [[w.zhou-enlai-nianpu-1949]], II, 396, Mar. 5, 1961 (Zhou on industry and supply). [[w.deng-xiaoping-nianpu-1904]], III, 1619–1620 (Mar. 5, 1961; evening; Deng at Mao''s enlarged Standing Committee: regulations for the communes to be drafted, communes and accounting units smaller; meetings at Canton for the three southern bureaus and at Peking for the three northern); [[w.mao-zedong-zhuan]], V, ch. 67 n.23 (Mar. 5, in Building 3 of the Guangdong committee: the enlarged Standing Committee with Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Boda, Hu Qiaomu and Tao Zhu; Zhou on industry and supply, Mao on the commune system and the fight on the right and the left since Lushan). [[w.yang-jisheng-mubei]], II, 788 n.37 (the book calls it an enlarged meeting of the Politburo, in Building 3 of the Guangdong committee; Mao there on statistics: always asking for figures of what was sown, produced and how much manure was piled, reported every day, with blind orders and wild reports, so that boasting grew). Made public: 1997. To check: Mao Zedong 毛泽东, speech at the enlarged meeting of the Politburo Standing Committee 中共中央政治局常委扩大会议, Mar. 5, 1961 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.23). Names: Mao Zedong, Zhou Enlai, Peng Dehuai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Boda, Tao Zhu.'
     src:
       c: 792150e5
       rows:
@@ -677,7 +677,13 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1619–1620: ?'
         - 'w.mao-zedong-zhuan V, ch. 67 n.23: B-F'
         - 'via w.mao-zedong-zhuan V, ch.67 n.23: B-F'
+        - 'w.yang-jisheng-mubei II, 788 n.37: A'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:peng-dehuai, name:zhu-de, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:chen-boda, name:tao-zhu, vis:only:prc]
+    variants:
+      - unit: B
+        witness: w.yang-jisheng-mubei
+        reads: an enlarged meeting of the Politburo 中共中央政治局擴大會議, in Building 3 of the Guangdong committee, not of the Standing Committee
+        at: II, 788
   - id: cal.1961-03-05.china-leadership-3
     when: Mar. 5
     date: '1961-03-05'
@@ -2196,6 +2202,19 @@ entries:
         - 'w.yang-jisheng-mubei I, 413–414: all'
         - 'via w.yang-jisheng-mubei I, 414 n.17: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1961-03-12.china-leadership-7
+    when: Mar. 12
+    date: '1961-03-12'
+    thread: china-leadership
+    also: [china]
+    c: Xu Qiwen reports that of some 13,500 deaths of 1960 in Shimen county, Hunan 湖南, 12 per cent were "beaten or driven to their deaths."
+    n: '[[w.dikotter-maos-great-famine]], 297. Made public: 2010. To check: Xu Qiwen, report, Mar. 12, 1961, Hunan Provincial Archives, 141-1-1899, p. 222 (cited by [[w.dikotter-maos-great-famine]], 297 n.52). Check: Xu Qiwen''s post.'
+    src:
+      c: 59bf9e63
+      rows:
+        - 'w.dikotter-maos-great-famine 297: all'
+        - 'via w.dikotter-maos-great-famine 297 n.52: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-03-13.latin-america
     when: Mar. 13
     date: '1961-03-13'
@@ -4725,6 +4744,20 @@ entries:
         - 'w.yang-shangkun-riji I, 667: all'
         - 'via w.yang-shangkun-riji I, 667 n.1: all'
     tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03-25.laos
+    when: Mar. 25
+    date: '1961-03-25'
+    place: hanoi
+    thread: laos
+    also: [vietnam-hanoi, china, soviet-union]
+    c: 'He Wei, Hanoi, to the Foreign Ministry: that morning at the Foreign Ministry Nguyễn Chí Thanh told him and the Soviet ambassador that the war in Laos "develops quite well". Sala Phou Khoun taken, central Laos freed and Savannakhet threatened, but no attack yet on Luang Prabang or Vientiane, he says. A political campaign is to go with the offensive; he asks China and the Soviet Union for their views and for what they know of American policy.'
+    n: '"[Cable from He Wei, ''Comrade Nguyễn Chí Thanh Talked about the Situation in Laos with Me and the Soviet Ambassador''](https://digitalarchive.umd.edu/document/120594)" (Mar. 25, 1961), PRC FMA 109-03034-05, trans. Qingfei Yin, Wilson Center Digital Archive. Headed "From DRV Station", expedient emergency, C 1113; the cable gives no hour for the meeting and names neither the Soviet ambassador nor the Foreign Ministry''s city. Names: Nguyễn Chí Thanh. Check: the year the Archive posted the document.'
+    tags: [polity:prc, polity:drv, polity:ussr, name:nguyen-chi-thanh, vis:only:prc+drv+ussr, vis:frame:prc]
+    time_range:
+      - 1961-03-24T23:00Z
+      - 1961-03-25T05:00Z
+    time_band: morning
+    time_zone: Asia/Bangkok
   - id: cal.1961-03-26.laos
     when: Mar. 26
     date: '1961-03-26'
@@ -6467,3 +6500,30 @@ entries:
     c: Đắk Lắk. The armed forces of Interprovince 4 attack the district seat of Lạc Thiện in March, destroy several Civil Guard units and free most of Lắc and Buôn Hồ districts.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 141. Check: the day.'
     tags: [polity:drv]
+  - id: cal.1961-03.china
+    when: Mar.
+    date: 1961-03
+    place: miyun-reservoir
+    thread: china
+    c: A group of 1,500 families from the villages cleared for the Miyun 密云 reservoir, homeless for two years, walk back; a few, the reservoir still without water, return to their old villages and build mud huts or sleep in the open.
+    n: '[[w.dikotter-maos-great-famine]], 171. To check: Beijing Municipal Archives, Apr. 25, 1961, 2-13-39, pp. 1–14 (cited by [[w.dikotter-maos-great-famine]], 171 n.37). Check: the day.'
+    src:
+      c: b4804582
+      rows:
+        - 'w.dikotter-maos-great-famine 171: all'
+        - 'via w.dikotter-maos-great-famine 171 n.37: all'
+    tags: [polity:prc]
+  - id: cal.1961-03.china-2
+    when: Mar., early
+    date: 1961-03
+    at: before 1961-03-01
+    place: yanqing
+    thread: china
+    c: At Sihai commune, Yanqing county, in the mountains outside Beijing, a visitor finds some 180,000 stumps of linden and mulberry trees cut an inch or two above the ground, the work of two units.
+    n: '[[w.dikotter-maos-great-famine]], 175. To check: Beijing Municipal Archives, Mar. 3, 1961, 2-13-51, pp. 7–8 (cited by [[w.dikotter-maos-great-famine]], 175 n.10). Check: the day.'
+    src:
+      c: 09504d24
+      rows:
+        - 'w.dikotter-maos-great-famine 175: all'
+        - 'via w.dikotter-maos-great-famine 175 n.10: all'
+    tags: [polity:prc]

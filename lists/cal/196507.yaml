@@ -1107,12 +1107,11 @@ entries:
   - id: cal.1965-07-06.vietnam-hanoi-2
     when: July 6
     date: '1965-07-06'
-    place: moc-bai
     thread: vietnam-hanoi
     also: [vietnam-operations]
-    c: Tây Ninh. Battalion 70 ambushes and destroys the 4th Battalion of the 4th Regiment, 2d Division, at Mộc Bài, July 6, by the history's count.
-    n: '[[w.lich-su-khang-chien-chong-my]], III, 433.'
-    tags: [polity:drv]
+    c: Quảng Nam. Battalion 70 ambushes and destroys the 4th Battalion of the 4th Regiment, 2d Division, at Mộc Bài, July 6, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 433. Check: the place: the history''s Mộc Bài stands in its Quảng Nam paragraph, not the Mộc Bài of Tây Ninh.'
+    tags: [polity:drv, ok:fields-place]
   - id: cal.1965-07-07.vietnam-force-levels
     when: July 7
     date: '1965-07-07'
@@ -2552,14 +2551,15 @@ entries:
     date: '1965-07-13'
     thread: china-leadership
     also: [vietnam-hanoi]
-    c: 'Zhou receives Lê Thanh Nghị, Vietnam''s deputy premier. Sympathy for Vietnam''s sacrifices in the war against American aggression; recites two lines of Mao''s poem "Returning to Shaoshan": "Where there is sacrifice there is high resolve; we dare make sun and moon shine in a new sky."'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 743 (July 13, 1965); [[w.zhou-enlai-waijiao-huodong]], 467 (July 13, 1965; morning; Zhou receives Lê Thanh Nghị, Politburo member and deputy prime minister). Names: Zhou Enlai, Lê Thanh Nghị.'
+    c: 'Zhou receives Lê Thanh Nghị, Vietnam''s deputy premier. Sympathy for Vietnam''s sacrifices in the war against American aggression; recites two lines of Mao''s poem "Returning to Shaoshan": "Where there is sacrifice there is high resolve; we dare make sun and moon shine in a new sky." By the Vietnamese report he also says the Soviet leaders are not sincere about aid, China will write Moscow on the proposed joint statement with conditions of its own, and Mao advises asking for MiG-17s and MiG-19s, not MiG-21s, and 100,000 tons of explosives.'
+    n: '"[Lê Thanh Nghị, ''Report on Meetings with Party Leaders of Eight Socialist Countries''](https://digitalarchive.umd.edu/document/134601)" (1965), 8058 – "Báo cáo của Phó Thủ tướng Lê Thanh Nghị về việc gặp các đồng chí lãnh đạo của Đảng và Nhà nước 8 nước xã hội chủ nghĩa năm 1965," Phủ Thủ tướng, Vietnam National Archives Center 3 (Hanoi), trans. Merle Pribbenow, obtained by Pierre Asselin, Wilson Center Digital Archive (the section "China," Zhou Enlai''s points 1–9, "whom we met when our delegation was returning from the Soviet Union and the Eastern European countries"). [[w.zhou-enlai-nianpu-1949]], II, 743 (July 13, 1965); [[w.zhou-enlai-waijiao-huodong]], 467 (July 13, 1965; morning; Zhou receives Lê Thanh Nghị, Politburo member and deputy prime minister). Check: the report gives no day for Zhou''s talk; July 13 is the Nianpu''s. Names: Zhou Enlai, Lê Thanh Nghị, Mao Zedong.'
     src:
-      c: 9e85af13
+      c: 9d5d4fb9
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 743: ?'
         - 'w.zhou-enlai-waijiao-huodong 467: A'
-    tags: [name:zhou-enlai, polity:prc, polity:drv]
+        - 'https://digitalarchive.umd.edu/document/134601: A, D'
+    tags: [name:zhou-enlai, polity:prc, polity:drv, name:mao-zedong]
   - id: cal.1965-07-13.china-leadership-3
     when: July 13
     date: '1965-07-13'
@@ -4322,12 +4322,18 @@ entries:
     thread: china-leadership
     also: [china]
     c: Deng Xiaoping 邓小平 lunches with Ceaușescu 齐奥塞斯库 and others at Bucharest 布加勒斯特. At table he says that in building, going one's own way, on one's own experience, is the more reliable.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1869 (July 20, 1965). The words: 午餐 (III, 1869). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    n: '"[Note on Conversation Between Nicolae Ceausescu, Ion Gheorghe Maurer, and the Chinese Communist Party Delegation Led by Deng Xiaoping](https://digitalarchive.umd.edu/document/122555)" (July 20, 1965), Budura, Relaţiile Româno-Chineze, 1880–1974: Documente (2005), pp. 727–730; ANR, fond C.C. al P.C.R. – Secţia Relaţii Externe, dosar 4/1965, f. 187–191, trans. Larry L. Watts, Wilson Center Digital Archive. The Romanian note: Ceaușescu and Maurer dine with the Chinese delegation, Deng, Kang Sheng and others; the talk is on a Congress motion on Vietnam, the SED''s letter, negotiations and nuclear arms. [[w.deng-xiaoping-nianpu-1904]], III, 1869 (July 20, 1965). The words: 午餐 (III, 1869). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
     src:
       c: d21f8337
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1869: all'
+        - 'https://digitalarchive.umd.edu/document/122555: A'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc+romania]
+    variants:
+      - unit: A
+        witness: x.1965-07-20.ceausescu-maurer-deng-dinner-note
+        reads: a dinner (translated "dinner") with Ceaușescu and Maurer, at which the Congress motion on Vietnam, Ulbricht's letter and negotiations are discussed
+        at: Budura 2005, 727–730
   - id: cal.1965-07-20.china-leadership-10
     when: July 20
     date: '1965-07-20'
@@ -4346,6 +4352,28 @@ entries:
       - 1965-07-20T16:00Z
     time_band: afternoon
     time_zone: Europe/Bucharest
+  - id: cal.1965-07-20.vietnam-hanoi-2
+    when: July 20
+    date: '1965-07-20'
+    place: bu-dop
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Phước Long. July 20 Regiment 1 attacks the Bù Đốp commando training center. After three hours it takes the post and all its arms and equipment; the search not thorough, hidden Saigon men fire on the column as it leaves, and 20 are killed or wounded, by the history's count. Saigon abandons Bù Gia Mập too.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 435–36. Check: the history gives Bù Gia Mập''s abandonment without a day.'
+    tags: [polity:drv, ok:fields-place]
+  - id: cal.1965-07-20.soviet-union-leadership
+    when: July 20
+    date: '1965-07-20'
+    place: bucharest
+    thread: soviet-union-leadership
+    also: [vietnam-hanoi, china, europe-and-the-alliance]
+    c: Near Bucharest, the CPSU delegation's residence during the RCP's Ninth Congress. Brezhnev, with Andropov, meets Ceaușescu and Maurer. By the Soviet record he reports the DRV's requests for missiles, MiG-21s and perhaps volunteers and complains of China's refusals and abuse; he says the Vietnamese do not mean to negotiate; he invites a Romanian party-government delegation to the USSR and proposes a Warsaw Pact meeting.
+    n: '"[Record of a Conversation between L. I. Brezhnev and N. Ceausescu and I. G. Maurer on 25 July 1965](https://digitalarchive.umd.edu/document/300558)" (July 25, 1965), RGANI, f. 80, op. 1, d. 758, ll. 72–76, contributed by Sergey Radchenko, trans. Gary Goldberg, Wilson Center Digital Archive (the first of the document''s two records, headed July 20; the Archive dates the document by the second, of July 25). Secret; the record says Brezhnev did not review it, and the translator notes that the available text ends without the name of its recorder. To check: [[w.brezhnev-rabochie-i-dnevnikovye]]. See [[cal.1965-07-17.soviet-union-leadership]]. Names: Brezhnev, Andropov, Ceaușescu, Maurer. Check: the year the Archive posted the document; its page gives none.'
+    src:
+      c: 359c1df1
+      rows:
+        - 'https://digitalarchive.umd.edu/document/300558: all'
+    tags: [polity:ussr, polity:romania, name:brezhnev-leonid, name:andropov-yuriy-vladimirovich, name:ceausescu-nicolae, name:maurer-ion-gheorghe, vis:only:ussr+romania]
   - id: cal.1965-07-21.vietnam
     when: July 21
     date: '1965-07-21'
@@ -5628,6 +5656,33 @@ entries:
       - 1965-07-24T16:00Z
     time_band: afternoon
     time_zone: Europe/Bucharest
+  - id: cal.1965-07-24.vietnam-hanoi
+    when: July 24
+    date: '1965-07-24'
+    place: bucharest
+    thread: vietnam-hanoi
+    also: [vietnam-diplomacy]
+    c: 'Ceaușescu and Maurer receive the Workers'' Party of Vietnam''s delegation to the RCP congress, Lê Đức Thọ, Tran Quang Huy and Ambassador Hoang Tu. Thọ: the Americans want talks from a position of force; the Vietnamese oppose negotiations and sign only when sure of winning, as at Geneva in 1954 after Dien Bien Phu.'
+    n: '"[Transcript of the Reception of a Workers Party of Vietnam Delegation at the Central Committee of the Romanian Communist Party](https://digitalarchive.umd.edu/document/122556)" (July 24, 1965), ANR, fond C.C. al P.C.R., Secţia Relaţii Externe, dosar 4/1965, f. 215–237, trans. Larry L. Watts, Wilson Center Digital Archive. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 279, 762, an excerpt). Names: Ceaușescu, Maurer, Lê Đức Thọ. The place: the Central Committee, by the Archive''s title.'
+    tags: [polity:romania, polity:drv, name:ceausescu-nicolae, name:maurer-ion-gheorghe, name:le-duc-tho, vis:only:romania+drv]
+  - id: cal.1965-07-24.china-leadership-11
+    when: July 24
+    date: '1965-07-24'
+    thread: china-leadership
+    also: [europe-and-the-alliance, soviet-union]
+    c: Evening. Ceaușescu tells Deng Xiaoping that critical articles published all the time will not help relations; Deng and Kardelj, who had not looked at one another, shake hands for the first time. Ceaușescu's account to Brezhnev the next day.
+    n: '"[Record of a Conversation between L. I. Brezhnev and N. Ceausescu and I. G. Maurer on 25 July 1965](https://digitalarchive.umd.edu/document/300558)" (July 25, 1965), RGANI, f. 80, op. 1, d. 758, ll. 72–76, contributed by Sergey Radchenko, trans. Gary Goldberg, Wilson Center Digital Archive (the second record, of July 25). The words: "last evening I said the same thing to Deng Xiaoping." Names: Ceaușescu, Deng Xiaoping. Check: the place; the record gives none. Check: the year the Archive posted the document; its page gives none.'
+    src:
+      c: d7b08384
+      rows:
+        - 'https://digitalarchive.umd.edu/document/300558: all'
+    tags: [polity:romania, polity:prc, polity:yugoslavia, name:ceausescu-nicolae, name:deng-xiaoping, vis:only:romania+prc+yugoslavia, vis:from:ussr:1965-07-25]
+    time_range:
+      - 1965-07-24T17:00Z
+      - 1965-07-24T20:00Z
+    time_band: evening
+    time_zone: Europe/Bucharest
+    range_basis: record
   - id: cal.1965-07-25.opinion
     when: July 25
     date: '1965-07-25'
@@ -5867,6 +5922,19 @@ entries:
       - 1965-07-25T10:00Z
     time_band: morning
     time_zone: Europe/Bucharest
+  - id: cal.1965-07-25.soviet-union-leadership
+    when: July 25
+    date: '1965-07-25'
+    place: bucharest
+    thread: soviet-union-leadership
+    also: [china, europe-and-the-alliance]
+    c: 'Bucharest, the Soviet delegation''s residence. Ceaușescu and Maurer call on the CPSU delegation before it leaves; Andropov and three others of the delegation with Brezhnev. By the Soviet record Ceaușescu: a crisis of trust with China to be overcome, with patience and without constant critical articles; Brezhnev: the Chinese hard to understand, their *Nouvelle Humanité* in France. Ceaușescu proposes to come to the USSR Sept. 1–3, and wants the Albanians invited to the coming meeting of the Political Consultative Committee.'
+    n: '"[Record of a Conversation between L. I. Brezhnev and N. Ceausescu and I. G. Maurer on 25 July 1965](https://digitalarchive.umd.edu/document/300558)" (July 25, 1965), RGANI, f. 80, op. 1, d. 758, ll. 72–76, contributed by Sergey Radchenko, trans. Gary Goldberg, Wilson Center Digital Archive (the second record, headed Bucharest, July 25; recorded by Ye. Karpeschenko; not reviewed by Brezhnev). See [[cal.1965-07-20.soviet-union-leadership]]. Names: Brezhnev, Andropov, Ceaușescu, Maurer. Check: the year the Archive posted the document; its page gives none.'
+    src:
+      c: 60b8e63b
+      rows:
+        - 'https://digitalarchive.umd.edu/document/300558: all'
+    tags: [polity:ussr, polity:romania, name:brezhnev-leonid, name:andropov-yuriy-vladimirovich, name:ceausescu-nicolae, name:maurer-ion-gheorghe, vis:only:ussr+romania]
   - id: cal.1965-07-26.confirmations
     when: July 26
     date: '1965-07-26'
@@ -8312,3 +8380,25 @@ entries:
     c: 'The cadre conference the Secretariat called meets on turning the leadership of the two strategic tasks: Party committees at every level to change how they think and work to meet the new situation.'
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 347. Made public: 2013. Check: the days.'
     tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1965-07.vietnam-hanoi-3
+    when: July
+    date: 1965-07
+    place: tam-ky
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Quảng Nam. In July the province''s armed force destroys the field command post of the Saigon 2d Division in the middle of Tam Kỳ town and fights on the road from the An Tân bridge to the Ông Bộ bridge: hundreds of Saigon soldiers and many American advisers killed, by the history''s count.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 433. Check: the day; the history puts it after the second Ba Gia fight of July 5.'
+    tags: [polity:drv]
+  - id: cal.1965-07.vietnam-hanoi-4
+    when: July, after the 4th
+    date: 1965-07
+    at: after 1965-07-04
+    thread: vietnam-hanoi
+    also: [china, japan-and-korea-far-east]
+    c: In North Korea, Kim Il Sung tells Lê Thanh Nghị's delegation that Korea will send 500 experts and workers to dig caves for factories and command posts and give the items Vietnam asked for as grants; he recounts advising Deng Xiaoping and Peng Zhen in March against calling Soviet aid to Vietnam a lie, and says the Soviet ambassador brought a letter from Brezhnev.
+    n: '"[Lê Thanh Nghị, ''Report on Meetings with Party Leaders of Eight Socialist Countries''](https://digitalarchive.umd.edu/document/134601)" (1965), 8058 – "Báo cáo của Phó Thủ tướng Lê Thanh Nghị về việc gặp các đồng chí lãnh đạo của Đảng và Nhà nước 8 nước xã hội chủ nghĩa năm 1965," Phủ Thủ tướng, Vietnam National Archives Center 3 (Hanoi), trans. Merle Pribbenow, obtained by Pierre Asselin, Wilson Center Digital Archive (the section "People''s Democratic Republic of Korea," Kim''s points 1–9). Three paragraphs of the draft, on a shipyard and a list of steel, rails and trucks, are struck and marked for deletion. The talk is after July 4: Kim cites the Soviet deputy premier''s absence from the "recent" American national-day party of that date; and after the delegation''s visit to the Soviet Union and Eastern Europe, which he praises. The report: [[cal.1965.vietnam-hanoi]]. Names: Kim Il Sung, Deng Xiaoping, Peng Zhen, Brezhnev. Check: the day.'
+    src:
+      c: d76bf647
+      rows:
+        - 'https://digitalarchive.umd.edu/document/134601: all'
+    tags: [polity:dprk, polity:drv, name:kim-il-sung, name:deng-xiaoping, name:peng-zhen, name:brezhnev-leonid, vis:only:dprk+drv]

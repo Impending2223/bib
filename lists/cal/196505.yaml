@@ -2672,13 +2672,14 @@ entries:
     place: peking
     thread: china-leadership
     also: [vietnam-hanoi]
-    c: Zhou receives Nguyễn Minh Phương, acting head of the National Liberation Front of South Vietnam's permanent mission in China.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 455 (May 12, 1965; 3 p.m., Beijing). Made public: 1993. The book names him 阮明芳; no content. Names: Zhou Enlai.'
+    c: Zhou receives Nguyễn Minh Phương, acting head of the National Liberation Front of South Vietnam's permanent mission in China. Per the Chinese record, Zhou tells him the Soviet Union has asked China's view on the Cambodia conference, saying Sihanouk has changed his attitude; China holds that Sihanouk has not, supports his three points and the fourteen-state scope of the 1954 Geneva conference, and holds that the Saigon regime has no right to attend and the Front is South Vietnam's sole legal representative. Zhou says China will not retreat from its earlier statements; Phương says he will report, and that Sihanouk's position is clear.
+    n: '"[Record of Conversation between Premier Zhou and Nguyễn Minh Phương](https://digitalarchive.umd.edu/document/165484)" (May 12, 1965), PRC FMA 106-01515-03, 23–28, trans. Stephen Mercado, Wilson Center Digital Archive. [[w.zhou-enlai-waijiao-huodong]], 455 (May 12, 1965; 3 p.m., Beijing). Made public: 1993. The book names him 阮明芳; no content. Names: Zhou Enlai, Sihanouk.'
     src:
-      c: 07da12b7
+      c: 0aca66f7
       rows:
         - 'w.zhou-enlai-waijiao-huodong 455: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc+nlf]
+        - 'https://digitalarchive.umd.edu/document/165484: B-E'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc+nlf, name:norodom-sihanouk, polity:nlf]
     time_zone: Asia/Shanghai
   - id: cal.1965-05-12.china-leadership-5
     when: May 12
@@ -2756,19 +2757,32 @@ entries:
       - 1965-05-12T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-12.japan-and-korea-far-east
+    when: May 12–14
+    date: '1965-05-12'
+    place: panmunjom
+    thread: japan-and-korea-far-east
+    c: Panmunjom. The Hungarian ambassador to the DPRK, József Kovács, on a trip May 12–14, sees new antitank obstacles going up in the northern part of the demilitarized zone, by his report the first built along the highway since 1953; Colonel Borski doubts they would stop tanks.
+    n: '"[Hungarian Embassy in the DPRK, Report, 30 May 1965. Subject: On China''s war plans.](https://digitalarchive.umd.edu/document/121766)" (May 30, 1965), Hungarian National Archives (MOL), XIX-J-1-j China, 1965, 71. doboz, IV-40, 003661/RT/1965, trans. Balázs Szalontai, Wilson Center Digital Archive. The words: "On the occasion of my trip to Panmunjeom on May 12-14th." Check: the year the Archive posted the document; its page gives none.'
+    src:
+      c: e81b1029
+      rows:
+        - 'https://digitalarchive.umd.edu/document/121766: all'
+    tags: [polity:hungary, polity:dprk, vis:only:hungary+dprk]
   - id: cal.1965-05-13.vietnam-mayflower
     when: May 13
     date: '1965-05-13'
     place: moscow
     thread: vietnam-mayflower
     c: Moscow. The North Vietnamese ambassador will not receive Kohler; the message left with an embassy employee. Gromyko calls the American message to Dobrynin "insulting" (Check the date). Johnson to the editorial cartoonists, on Vietnam.
-    n: '[FRUS 1964–68, II, doc. 298](https://history.state.gov/historicaldocuments/frus1964-68v02/d298). Address to Members of the Association of American Editorial Cartoonists: The Challenge of Human Need in Viet-Nam, [1965 Pub. Papers 522](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=598) (May 13, 1965). [[w.gibbons-u-s-government-and]], III, 256 (the refusal; the message left in writing, returned unopened the next day). See [[cal.1965-05-12.vietnam]]. Names: Kohler, Gromyko, Dobrynin, Johnson.'
+    n: '[FRUS 1964–68, II, doc. 298](https://history.state.gov/historicaldocuments/frus1964-68v02/d298). Address to Members of the Association of American Editorial Cartoonists: The Challenge of Human Need in Viet-Nam, [1965 Pub. Papers 522](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=598) (May 13, 1965). [[w.gibbons-u-s-government-and]], III, 256 (the refusal; the message left in writing, returned unopened the next day); [[w.lich-su-khang-chien-chong-my]], V, 314–15 (May 11: Rusk cables Kohler at Moscow to meet the DRV ambassador Nguyễn Văn Kỉnh with the President''s message; the embassy refuses to receive him or the message, there being no relations between the states; Soviet Deputy Foreign Minister Firyubin also refuses to forward it, Hanoi never having asked; May 13 Kohler gives a letter with the message to the British consul at Hanoi, E. F. Young, for the foreign affairs chief of the city committee; returned the next day). See [[cal.1965-05-12.vietnam]]. Names: Kohler, Gromyko, Dobrynin, Johnson.'
     src:
       c: af5cb496
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d298: all'
         - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=598: all'
         - 'w.gibbons-u-s-government-and III, 256: B-C'
+        - 'w.lich-su-khang-chien-chong-my V, 314–15: A'
     tags: [name:kohler-foy-d, name:gromyko-andrei, name:dobrynin-anatoly, name:johnson-lyndon-b]
     time_range:
       - 1965-05-13T06:00Z
@@ -3292,6 +3306,15 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1861: all'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-05-14.vietnam-mayflower
+    when: May 14
+    date: '1965-05-14'
+    place: hanoi
+    thread: vietnam-mayflower
+    also: [vietnam-hanoi]
+    c: Hanoi. The letter and the American message that Kohler gave the British consul, E. F. Young, on May 13 for the city committee's foreign affairs chief are returned to the consul; the history calls the message a threat of war in both zones if the North would not accept the American kind of peace.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 315. See [[cal.1965-05-13.vietnam-mayflower]]. The history says "the next day". Names: Kohler.'
+    tags: [polity:drv, polity:us, polity:uk, name:kohler-foy-d]
   - id: cal.1965-05-15.students
     when: May 15
     date: '1965-05-15'
@@ -4477,11 +4500,12 @@ entries:
     place: saigon
     thread: vietnam-saigon
     c: 'Saigon. A coup attempt against Quát: Lt. Col. Phạm Ngọc Thảo with Catholic and southern extremists. Quát rounds them up.'
-    n: '[[w.taylor-swords-and-plowshares]], 343–44. Names: Phan Huy Quát, Phạm Ngọc Thảo.'
+    n: '[[w.taylor-swords-and-plowshares]], 343–44; [[w.lich-su-khang-chien-chong-my]], III, 320 n.1 (Mar. 6, Apr. 20 and May 20, 1965: three times Quát''s government is hit by a failed coup). Names: Phan Huy Quát, Phạm Ngọc Thảo.'
     src:
       c: 2f0a06ec
       rows:
         - 'w.taylor-swords-and-plowshares 343–44: all'
+        - 'w.lich-su-khang-chien-chong-my III, 320 n.1: B'
     tags: [name:phan-huy-quat, name:pham-ngoc-thao]
   - id: cal.1965-05-20.china-leadership
     when: May 20
@@ -5510,6 +5534,14 @@ entries:
       - 1965-05-25T16:00Z
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1965-05-25.china
+    when: May 25
+    date: '1965-05-25'
+    thread: china
+    also: [soviet-union, testing]
+    c: 'The military attaché of the Chinese embassy in the Soviet Union to the Foreign Ministry and the General Staff''s Intelligence Department: reactions to China''s second test. Of Soviet officers and students, some praise it and some object to its cost; a political-instructor colonel tells Hungarian students the Soviet Union objects. Cuban and Polish students praise it; German and Mongolian students object, the Mongolian calling it a breach of the Partial Test Ban Treaty.'
+    n: '"[Cable from the Military Attache of the Chinese Embassy in the Soviet Union, ''Reactions to China''s Second Nuclear Explosion''](https://digitalarchive.umd.edu/document/134747)" (May 25, 1965), PRC FMA 109-03637-03, 18–19, trans. Caixia Lu, Wilson Center Digital Archive. Urgent, from the Soviet desk, incoming (65) Chen (1354). Dated by its own date line, 25 May 1965; the Archive dates it May 15. The cable names no city. See [[cal.1965-05-14.china]]. Check: the date, May 25 (the cable) or May 15 (the Archive). Check: the year the Archive posted the document.'
+    tags: [polity:prc, polity:ussr, vis:only:prc]
   - id: cal.1965-05-26.latin-america
     when: May 26
     date: '1965-05-26'
@@ -6049,13 +6081,45 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1864: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-05-28.vietnam-hanoi
+    when: May 28
+    date: '1965-05-28'
+    place: ba-gia
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Quảng Ngãi. The night of May 28 the forces of the Ba Gia campaign (western Sơn Tịnh) move to their hiding places: Regiment 1 of Military Region 5 (Battalions 40, 60, 90, with a support battalion), the independent Battalion 45, under Lê Hữu Trữ and Nguyễn Đình Trọng, in the main direction; Battalion 83 and two district companies, militia and guerrillas in the second, Battalion 83 pressed against the Nghĩa Hành district seat. Chu Huy Mân, commander and commissar of the Region, is the campaign''s commander. Against them at Ba Gia the Saigon 1st Battalion, 51st Regiment, with Ranger Battalions 37 and 39 and the 2d Battalion of the 51st nearby.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 422–23. Made public: 2013. Names: Chu Huy Mân, Lê Hữu Trữ, Nguyễn Đình Trọng. The battle: [[cal.1965-05-29.vietnam-operations]].'
+    tags: [polity:drv, vis:only:drv]
+    time_range:
+      - 1965-05-28T14:00Z
+      - 1965-05-28T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1965-05-28.vietnam-hanoi-2
+    when: May 28
+    date: '1965-05-28'
+    place: duy-xuyen
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Quảng Đà. May 28 Battalion 1 of the province's local troops attacks and destroys two Civil Guard companies and seven Self-Defense platoons at Duy Xuyên, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 434.'
+    tags: [polity:drv]
+  - id: cal.1965-05-28.vietnam-hanoi-3
+    when: May 28
+    date: '1965-05-28'
+    place: bucharest
+    thread: vietnam-hanoi
+    also: [vietnam-diplomacy]
+    c: 'Hoang Tu, the DRV''s ambassador, briefs Ceaușescu: by his account the American plans have failed and the National Liberation Front holds most of the South; the DRV cannot accept peace proposals now. He adds what the Workers'' Party delegation discussed with the CPSU at Moscow. Ceaușescu replies.'
+    n: '"[Note of Conversation on Occasion of the Reception of the Ambassador of the Democratic Republic of Vietnam in Bucharest, Hoang Tu](https://digitalarchive.umd.edu/document/122554)" (May 28, 1965), ANR, Fond CC al PCR, Secţia Relaţii Externe, dosar 23/1965, f. 4–7, trans. Larry L. Watts, Wilson Center Digital Archive. Names: Ceaușescu. Check: the year the document was first printed or posted; the Archive page gives none.'
+    tags: [polity:romania, polity:drv, name:ceausescu-nicolae, vis:only:romania+drv]
   - id: cal.1965-05-29.vietnam-operations
     when: May 29–30
     date: '1965-05-29'
     place: ba-gia
     thread: vietnam-operations
     c: 'Ba Gia, west of Quảng Ngãi city. A Viet Cong force, probably a regiment, attacks a South Vietnamese company clearing a road and ambushes the two companies sent after it; May 30, three more battalions committed and beaten. South Vietnamese losses: 107 killed, 123 wounded, 367 missing, 384 weapons.'
-    n: '[FRUS 1964–68, II, doc. 322](https://history.state.gov/historicaldocuments/frus1964-68v02/d322) (Taylor to Johnson, June 1). [[w.def-u-s-viet-rels-iv-c-5]], 33, 82; [[w.carland-united-states-army-in]], 45; [[w.vietnam-victory-in-vietnam]], 144–45, 461–62 nn.31–32 (the campaign; the relief task force of May 30 destroyed); [[w.schlight-united-states-air-force]], 46 (the battle, May 29–30); [[w.westmoreland-soldier-reports]], 136 (later in May; a Viet Cong regiment virtually destroys an ARVN battalion in an ambush and mauls a second); [[w.bernstein-guns-or-butter]], 347 (two South Vietnamese battalions destroyed near Quảng Ngãi); [[w.drea-mcnamara-clifford-and-the-2011]], 33 (the battle, May 29 to June 4); [[w.lich-su-khang-chien-chong-my]], III, 423–27 (Region 5''s Ba Gia campaign, Chu Huy Mân commanding, from the night of May 28; a Saigon First Battalion destroyed May 29 at Phước Lộc; May 30 the Third Marine Battalion mostly destroyed, the Second of the 51st mauled). [[w.macv-command-history-1965]], 221–22 (the ambushes of May 29–30; the losses). To check: COMUSMACV MILREP, 070742Z Jun 65 (cited by [[w.macv-command-history-1965]], 222 n.257). Check: *Victory in Vietnam* opens the campaign the evening of May 25 at a Popular Forces post, a battalion of the 51st Regiment destroyed coming to its relief; the relief task force of May 30 destroyed on the road to Ba Gia; the campaign 51 days, 2,054 of the enemy put out of action (144–45, 462 n.32). Check: Schlight, 46, has a platoon caught on the road May 29 and the rest of its battalion destroyed coming to its relief; the three battalions sent May 30 hold Ba Gia, the enemy breaking off June 4.'
+    n: '[FRUS 1964–68, II, doc. 322](https://history.state.gov/historicaldocuments/frus1964-68v02/d322) (Taylor to Johnson, June 1). [[w.def-u-s-viet-rels-iv-c-5]], 33, 82; [[w.carland-united-states-army-in]], 45; [[w.vietnam-victory-in-vietnam]], 144–45, 461–62 nn.31–32 (the campaign; the relief task force of May 30 destroyed); [[w.schlight-united-states-air-force]], 46 (the battle, May 29–30); [[w.westmoreland-soldier-reports]], 136 (later in May; a Viet Cong regiment virtually destroys an ARVN battalion in an ambush and mauls a second); [[w.bernstein-guns-or-butter]], 347 (two South Vietnamese battalions destroyed near Quảng Ngãi); [[w.drea-mcnamara-clifford-and-the-2011]], 33 (the battle, May 29 to June 4); [[w.lich-su-khang-chien-chong-my]], III, 423–27 (Region 5''s Ba Gia campaign, Chu Huy Mân commanding, from the night of May 28; a Saigon First Battalion destroyed May 29 at Phước Lộc; May 30 the Third Marine Battalion mostly destroyed, the Second of the 51st mauled); [[w.lich-su-khang-chien-chong-my]], III, 422–29 (the Ba Gia campaign of Regiment 1, Military Region 5, Chu Huy Mân commanding: May 29, the regiment''s sappers and a Sơn Tịnh platoon hit the Self-Defense at Phước Lộc; two companies of the 1st Battalion, 51st Regiment, with two American advisers, coming down from Gò Cao, are surrounded by Battalion 90 at 9:50 a.m. and finished at 10:45, Capt. Nguyễn Văn Ngọc taken; May 30, the task force Nguyễn Chánh Thi formed the afternoon before, the 3d Marine Battalion, Ranger Battalions 37 and 39 and the 2d Battalion of the 51st, sets out from Sơn Tịnh at 9:30 a.m. with 20 GMC trucks and 12 M113s and is fought at Chóp Nón, hill 47, Mả Tổ and Phước Lộc; the night of May 30–31 Battalion 60 takes hill 47 and Mả Tổ and the Marines in them, Battalion 45 Chóp Nón at 3:30 a.m.). [[w.macv-command-history-1965]], 221–22 (the ambushes of May 29–30; the losses). To check: COMUSMACV MILREP, 070742Z Jun 65 (cited by [[w.macv-command-history-1965]], 222 n.257). Check: *Victory in Vietnam* opens the campaign the evening of May 25 at a Popular Forces post, a battalion of the 51st Regiment destroyed coming to its relief; the relief task force of May 30 destroyed on the road to Ba Gia; the campaign 51 days, 2,054 of the enemy put out of action (144–45, 462 n.32). Check: Schlight, 46, has a platoon caught on the road May 29 and the rest of its battalion destroyed coming to its relief; the three battalions sent May 30 hold Ba Gia, the enemy breaking off June 4.'
     src:
       c: 7a244ffa
       rows:
@@ -6070,8 +6134,14 @@ entries:
         - 'w.bernstein-guns-or-butter 347: A-C'
         - 'w.drea-mcnamara-clifford-and-the-2011 33: A'
         - 'w.lich-su-khang-chien-chong-my III, 423–27: A, B, C'
+        - 'w.lich-su-khang-chien-chong-my III, 422–29: A-C'
     tags: [province:quang-ngai]
     short: Ba Gia
+    variants:
+      - unit: D
+        witness: w.lich-su-khang-chien-chong-my
+        reads: May 29, 270 killed and wounded (two Americans) and 217 taken; in the three days, 916 killed (four American advisers) and 65 taken, and 200 weapons taken by Regiment 1
+        at: III, 429
   - id: cal.1965-05-29.desegregation-schools
     when: May 29
     date: '1965-05-29'
@@ -6222,6 +6292,15 @@ entries:
       - 1965-05-29T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-29.vietnam-hanoi-3
+    when: May 29
+    date: '1965-05-29'
+    place: nghia-hanh
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Quảng Ngãi. May 29, in the second direction south of the Trà Khúc, Battalion 83 of the province surrounds and attacks the Nghĩa Hành district seat and threatens the Saigon troops at the Tư Nghĩa district seat, so that local forces can punish oppressors.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 425. See [[cal.1965-05-29.vietnam-operations]].'
+    tags: [polity:drv]
   - id: cal.1965-05-30.vietnam-air-war
     when: May 30–June 1
     date: '1965-05-30'
@@ -6343,6 +6422,32 @@ entries:
       - 1965-05-30T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-30.vietnam-hanoi-3
+    when: May 30
+    date: '1965-05-30'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Quảng Ngãi. The night of May 30 part of Battalion 83 raids the Ranger Battalion 37 around the town on the Vệ river and drives it up to Hành Đức, Nghĩa Hành district, where the local forces hurt it more and hold it, by the history's account.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 429–30. Check: the place: the history says only "around the town on the Vệ river." See [[cal.1965-05-29.vietnam-operations]].'
+    tags: [polity:drv, ok:fields-place]
+    time_range:
+      - 1965-05-30T14:00Z
+      - 1965-05-30T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1965-05-30.china
+    when: May 30
+    date: '1965-05-30'
+    place: pyongyang
+    thread: china
+    also: [vietnam, japan-and-korea-far-east]
+    c: The Hungarian ambassador to the DPRK, József Kovács, reports what the Romanian and East German ambassadors told Moskovsky of China's ambassador Hao Deqing's talk with them (a Soviet request for a base at Kunming; a surprise attack on a wide front, from Indochina to Korea; an agreement with the DPRK to open operations along the demarcation line at Panmunjom), and what the Cuban ambassador tells him of a Chinese plan. He hears from the Polish ambassador that the Koreans are massing troops near the line. He thinks the Chinese account may be disinformation.
+    n: '"[Hungarian Embassy in the DPRK, Report, 30 May 1965. Subject: On China''s war plans.](https://digitalarchive.umd.edu/document/121766)" (May 30, 1965), Hungarian National Archives (MOL), XIX-J-1-j China, 1965, 71. doboz, IV-40, 003661/RT/1965, trans. Balázs Szalontai, Wilson Center Digital Archive. It follows the ambassador''s ciphered telegrams of Apr. 24 and 26; the addressee is not given on the translation, nor a dateline: the place is the embassy''s seat (the Archive''s heading, "Hungarian Embassy in the DPRK"; its summary, "the Hungarian Ambassador to Pyongyang"). See [[cal.1965-05-12.japan-and-korea-far-east]]. Check: the year the Archive posted the document; its page gives none.'
+    src:
+      c: fd227f3e
+      rows:
+        - 'https://digitalarchive.umd.edu/document/121766: all'
+    tags: [polity:hungary, polity:prc, polity:dprk, vis:only:hungary, ok:fields-place]
   - id: cal.1965-05-31.europe-and-the-alliance
     when: May 31–June 1
     date: '1965-05-31'

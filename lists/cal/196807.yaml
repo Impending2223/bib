@@ -518,14 +518,14 @@ entries:
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 320–21 (№ 77, "т. Червоненко С.В. у телефона" (Comrade Chervonenko at the telephone), July 4). Made public: 2016. To check: Chervonenko''s reports to the Politburo. Names: Chervonenko, Brezhnev.'
     tags: [polity:ussr, polity:czechoslovakia, name:brezhnev-leonid, name:chervonenko-stepan-v, vis:only:ussr]
   - id: cal.1968-07-04.soviet-union-leadership-2
-    when: July 4–10
+    when: July 4
     date: '1968-07-04'
     place: moscow
     thread: soviet-union-leadership
     also: [middle-east]
-    c: Moscow. Nasser, President of the United Arab Republic. Brezhnev, with Podgorny and Kosygin, meets him July 4, 2 to 5; negotiates with the UAR delegation in the Kremlin July 5, 10 to 12 and 6 to 10 p.m., Kosygin, Podgorny, Ponomarev, Gromyko and Grechko with him; July 6 from 11 a.m.; a talk July 10 at the Lenin Hills house.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269–71 (July 4–10). Names: Brezhnev, Nasser, Podgorny, Kosygin, Ponomarev, Gromyko, Grechko.'
-    tags: [name:brezhnev-leonid, name:nasser-gamal-abdel, name:podgorny-nikolai-v, name:kosygin-aleksei, name:ponomarev-boris-n, name:gromyko-andrei, name:grechko-andrei-a, polity:ussr, polity:uar]
+    c: Moscow. Nasser, President of the United Arab Republic. Brezhnev, with Podgorny and Kosygin, meets him, 2 to 5.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269–71 (July 4; the visit July 4–10). Names: Brezhnev, Nasser, Podgorny, Kosygin.'
+    tags: [name:brezhnev-leonid, name:nasser-gamal-abdel, name:podgorny-nikolai-v, name:kosygin-aleksei, polity:ussr, polity:uar]
     time_range:
       - 1968-07-04T11:00Z
       - 1968-07-04T14:00Z
@@ -657,6 +657,36 @@ entries:
       - 1968-07-05T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1968-07-05.soviet-union-leadership
+    when: July 5
+    date: '1968-07-05'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [middle-east]
+    c: Moscow, the Kremlin. Brezhnev negotiates with the UAR delegation, 10 to 12 and 6 to 10 p.m., Kosygin, Podgorny, Ponomarev, Gromyko and Grechko with him.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269–71 (July 5). The time is the first session''s. See [[cal.1968-07-04.soviet-union-leadership-2]]. Names: Brezhnev, Kosygin, Podgorny, Ponomarev, Gromyko, Grechko.'
+    tags: [polity:ussr, polity:uar, name:brezhnev-leonid, name:kosygin-aleksei, name:podgorny-nikolai-v, name:ponomarev-boris-n, name:gromyko-andrei, name:grechko-andrei-a]
+    time_range:
+      - 1968-07-05T07:00Z
+      - 1968-07-05T09:00Z
+    time_zone: Europe/Moscow
+  - id: cal.1968-07-05.soviet-union-leadership-2
+    when: July 5
+    date: '1968-07-05'
+    thread: soviet-union-leadership
+    c: 'Night. The Politburo meets on domestic matters, by Brezhnev''s word to Nasser the next day: "not because something extraordinary happened."'
+    n: '"[Minutes of the Discussions between Cdes. L.I. Brezhnev, A.N. Kosygin, N.V. Podgorny and UAR President Nasser, 6 July 1968](https://digitalarchive.umd.edu/document/300530)" (July 6, 1968), RGANI, f. 80, op. 1, d. 602, ll. 113–143, contributed by Sergey Radchenko, trans. Angela Greenfield, Wilson Center Digital Archive (the July 6 session). The words: "Last evening [one word illegible] Politburo" and "There was a Politburo meeting at night on domestic matters." Names: Nasser. Check: the place; the minutes give none. Check: the year the Archive posted the minutes; its page gives none.'
+    src:
+      c: faeb3d14
+      rows:
+        - 'https://digitalarchive.umd.edu/document/300530: all'
+    tags: [polity:ussr, name:brezhnev-leonid, name:nasser-gamal-abdel, vis:only:ussr, vis:from:uar:1968-07-06]
+    time_range:
+      - 1968-07-05T19:00Z
+      - 1968-07-05T21:00Z
+    time_band: night
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1968-07-06.latin-america
     when: July 6–8
     date: '1968-07-06'
@@ -705,6 +735,22 @@ entries:
     c: 'Zhou Enlai, on the news that Long Qian, curator and first Party secretary of the Museum of the Chinese Revolution, is near death after rebels held a private court and tortured him, instructs: "act first, report after"; the Peking Garrison command is to send a responsible comrade to the museum at once to get him out; no mass organization may arrest people or hold private courts and torture. On July 4 the museum''s masses had written to Kang Sheng and Cao Yiou; Kang passed it to Zhou, Chen Boda and Yao Wenyuan to read and proposed no measure.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 239 (July 6, 1968). Made public: 2020. Names: Zhou Enlai, Kang Sheng, Chen Boda, Yao Wenyuan.'
     tags: [polity:prc, name:zhou-enlai, name:kang-sheng, name:chen-boda, name:yao-wenyuan, vis:only:prc]
+  - id: cal.1968-07-06.soviet-union-leadership-2
+    when: July 6
+    date: '1968-07-06'
+    time: 1968-07-06T08:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [middle-east]
+    c: Brezhnev, Kosygin and Podgorny with Nasser, from 11 a.m.; Gromyko and Vinogradov, Sadat and Riad there too. By the Soviet minutes Nasser asks for ties built on a shared socialist path and recalls his offer of a defense agreement, which he says he did not mean at once; Brezhnev answers that a treaty would aggravate the Middle East and add nothing, and says the USSR sent 575 heavy aircraft with arms. The Soviets offer MiG-21s in place of part of the Il-28s promised, Strela and Malyutka missiles, Grad rockets and crossing equipment, and speak of Arafat, now in Moscow, and the Egyptian army's want of political workers.
+    n: '"[Minutes of the Discussions between Cdes. L.I. Brezhnev, A.N. Kosygin, N.V. Podgorny and UAR President Nasser, 6 July 1968](https://digitalarchive.umd.edu/document/300530)" (July 6, 1968), RGANI, f. 80, op. 1, d. 602, ll. 113–143, contributed by Sergey Radchenko, trans. Angela Greenfield, Wilson Center Digital Archive (the July 6 session; secret, copy no. 2; the translation marks two pages illegible; it gives no hour; recorded by A. I. Kuz''min, interpreted by V. V. Posuvalyuk). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 269–71 (July 6, from 11 a.m.). See [[cal.1968-07-04.soviet-union-leadership-2]]. Names: Brezhnev, Kosygin, Podgorny, Nasser, Gromyko, Vinogradov, Sadat, Riad, Arafat. Check: the year the Archive posted the minutes; the workbooks'' 2016 may be later.'
+    src:
+      c: 977cbd80
+      rows:
+        - 'w.brezhnev-rabochie-i-dnevnikovye II, 269–71: A'
+        - 'https://digitalarchive.umd.edu/document/300530: A-E'
+    tags: [polity:ussr, polity:uar, name:brezhnev-leonid, name:kosygin-aleksei, name:podgorny-nikolai-v, name:nasser-gamal-abdel, name:gromyko-andrei, name:vinogradov-sergei-aleksandrovich, name:sadat-anwar, name:riad-mahmoud, name:arafat-yasser, vis:only:ussr+uar]
+    time_zone: Europe/Moscow
   - id: cal.1968-07-07.opinion
     when: July 7
     date: '1968-07-07'
@@ -1020,6 +1066,15 @@ entries:
     c: 'Route 9 from Cà Lu to the Lao border, over 40 kilometers, is wholly "liberated." The history ends the Route 9–North Quảng Trị Front''s 170 days: 11,000 of the enemy out of action (two thirds Americans), 197 aircraft downed, 80 transports sunk or burned, 78 vehicles and 46 guns destroyed. Jun. 26, it says, Abrams had ordered Khe Sanh abandoned and the survivors left Tà Cơn 11 days later.'
     n: '[[w.lich-su-khang-chien-chong-my]], V, 223. See [[cal.1968-06-27.vietnam]]. Names: Abrams. Check: the figures, which are the history''s.'
     tags: [polity:drv, polity:us, ok:fields-place, name:abrams-creighton]
+  - id: cal.1968-07-10.soviet-union-leadership
+    when: July 10
+    date: '1968-07-10'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [middle-east]
+    c: Moscow, the Lenin Hills house. Brezhnev in a talk with Nasser.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269–71 (July 10). See [[cal.1968-07-04.soviet-union-leadership-2]]. Names: Brezhnev, Nasser.'
+    tags: [polity:ussr, polity:uar, name:brezhnev-leonid, name:nasser-gamal-abdel]
   - id: cal.1968-07-11.court
     when: July 11
     date: '1968-07-11'
@@ -2230,6 +2285,18 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 244–245: all'
     tags: [polity:prc]
+  - id: cal.1968-07-17.china-leadership-3
+    when: July 17
+    date: '1968-07-17'
+    place: peking
+    thread: china-leadership
+    c: Peking Aeronautical Institute 北京航空學院, Peking. Rebel leaders from the provinces, among them Wu Chuanbin 武傳斌 of Zhongshan University's "8·31" and the leader of Canton's "Red Flag" faction, with the Guizhou "4·11," Guangxi "4·22," Qinghai "8·18," Liaoning "8·31," Henan "Feb. 7 Commune," Sichuan "Oppose to the End" and Heilongjiang "Bombardment" groups, meet to find a way out; Kuai Dafu 蒯大富 listens a while and leaves. The Proletarian Headquarters later brands it a "black meeting."
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 325. Made public: 2016.'
+    src:
+      c: 3294330a
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 325: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1968-07-18.vietnam
     when: July 18
     date: '1968-07-18'
@@ -2719,6 +2786,18 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XIX, 263–264: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1968-07-19.vietnam-hanoi
+    when: July 19
+    date: '1968-07-19'
+    place: east-berlin
+    thread: vietnam-hanoi
+    c: 'East Berlin. Colonel Hentschke, head of the MfS''s technical operations sector, to the director of Department X: the Vietnamese are to be told that a box of equipment, 2,500 kg gross, consigned to Techno Import, Haiphong, is shipped; it goes at the end of July by a contractor to Poland for sea transport. Other technical devices have been shipped to the training group of "Comrade Han". The box''s list (Delivery VD 66/201): 100 dictation machines with foot pedals, microphones and headphones, 1,000 magnetic tapes, two stereo tape recorders, ten tape-reel devices and devices named "Hamburg II" (35), "Magdeburg 52/3" (10) and 1312 (10).'
+    n: '"[Technical Operations Sector, Deliveries to the Ministry of State Security of the DRV](https://digitalarchive.umd.edu/document/120722)" (July 19, 1968), BStU, MfS Abt X 645, 390–391, trans. Sean O''Grady, Wilson Center Digital Archive. Obtained for CWIHP by Martin Grossheim. Berlin, July 19, 1968, the memorandum''s reference "OTS / 822/68"; the box is marked "VD 66/201", Techno Import, Haiphong, 1,946 kg net, and goes "from Berlin"; the one attachment the Archive prints is headed "Delivery VD 66/201", its weights the box''s. Check: the year the Archive posted the document; its page gives none.'
+    src:
+      c: 4cc7f59f
+      rows:
+        - 'https://digitalarchive.umd.edu/document/120722: all'
+    tags: [polity:gdr, polity:drv, vis:only:gdr]
   - id: cal.1968-07-20.conservation
     when: July 20
     date: '1968-07-20'
@@ -4184,6 +4263,18 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XIX, 271–272: all'
         - 'via w.jianguo-yilai-mao-zedong XIX, 271 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-07-25.china-leadership-4
+    when: July 25
+    date: '1968-07-25'
+    place: peking
+    thread: china-leadership
+    c: East Hall of the Great Hall of the People 人民大會堂東大廳, Peking. Receiving the heads of the two Guangxi mass bodies and army cadres come to Peking, Zhou Enlai 周恩來, Chen Boda 陳伯達, Kang Sheng 康生, Yao Wenyuan 姚文元, Xie Fuzhi 謝富治, Huang Yongsheng 黃永勝, Wu Faxian 吳法憲 and Wen Yucheng 溫玉成 sternly rebuke the rebels with one voice and question them as at a trial on the "black meeting."
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 325. Made public: 2016. See [[cal.1968-07-17.china-leadership-3]]. Names: Zhou Enlai, Chen Boda, Kang Sheng, Yao Wenyuan, Xie Fuzhi, Huang Yongsheng, Wu Faxian.'
+    src:
+      c: 8ba9af31
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 325: all'
+    tags: [polity:prc, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:yao-wenyuan, name:xie-fuzhi, name:huang-yongsheng, name:wu-faxian]
   - id: cal.1968-07-26.cities-and-housing
     when: July 26
     date: '1968-07-26'
@@ -4608,13 +4699,14 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'At Mao''s decision the Capital Workers'' Mao Zedong Thought Propaganda Team goes into Tsinghua University to enforce policy, collect arms and clear barricades; some 28,000–29,000 workers. Kuai Dafu and others order armed "counterattack": five workers killed, several hundred wounded. Mao, hearing, is very angry.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, July 27, 1968; [[w.zhou-enlai-nianpu-1949-2020]], III, 244 (July 27, 1968); [[w.macfarquhar-maos-last-revolution]], 249–250 (Mao agrees to send in work teams; some 30,000 employees of sixty Peking factories formed into Capital Mao Zedong Thought Worker Propaganda Teams; the team at Tsinghua met with shots and stones on Kuai Dafu''s orders; five killed, many hurt). Made public: 2013. Names: Mao Zedong, Kuai Dafu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, July 27, 1968; [[w.zhou-enlai-nianpu-1949-2020]], III, 244 (July 27, 1968); [[w.macfarquhar-maos-last-revolution]], 249–250 (Mao agrees to send in work teams; some 30,000 employees of sixty Peking factories formed into Capital Mao Zedong Thought Worker Propaganda Teams; the team at Tsinghua met with shots and stones on Kuai Dafu''s orders; five killed, many hurt); [[w.yang-jisheng-tiandi-fanfu]], I, 325–326 (July 27, 1968 Mao sends 30,000 workers and army men as the Capital Workers'' and Army Mao Zedong Thought Propaganda Team into Tsinghua, ending the fighting; the two student groups perish together; the "hundred-day great armed fight" began Apr. 23, 1968, and eleven students died in it). Made public: 2013. Names: Mao Zedong, Kuai Dafu.'
     src:
       c: '73123866'
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, July 27, 1968: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 244: A, C'
         - 'w.macfarquhar-maos-last-revolution 249–250: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 325–326: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1968-07-28.opinion
     when: July 28
@@ -4693,7 +4785,7 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao, 3:30–8:30 a.m., receives Nie Yuanzi (Peking University), Kuai Dafu (Tsinghua), Tan Houlan (Peking Normal), Han Aijing (Peking Aeronautics), Wang Dabin (Peking Geology); Lin Biao, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Yao Wenyuan, Xie Fuzhi, Huang Yongsheng, Wu Faxian, Ye Qun, Wen Yucheng, Wu De present. On a "black hand" behind the workers: it is he. The students no longer fight, criticize or reform; four ways offered: military control, split in two, "struggle, criticize, leave", fight on. Workers will intervene.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, July 28, 1968; [[w.zhou-enlai-nianpu-1949-2020]], III, 244 (July 28, 1968; Mao with Lin Biao, Zhou and the Group); [[w.macfarquhar-maos-last-revolution]], 250–251 (Mao "summons" the leaders, who are frisked on arrival; he is the "black hand"; five hours; "we''re so bureaucratic, not having called you to a meeting before"; their 200 or 300 hard-core followers against his 30,000 workers and Lin Biao''s troops; Mao and Lin on the violence; military control, or "struggle-criticism-quit"); [[w.mao-zedong-zhuan]], VI, ch. 77 n.22 (before dawn on July 28 Mao summons the five, Nie Yuanzi 聂元梓 of Peking University, Kuai Dafu 蒯大富 of Tsinghua, Tan Houlan 谭厚兰 of Peking Normal, Han Aijing 韩爱晶 of Peking Aeronautics and Wang Dabin 王大宾 of Peking Geology; Lin Biao, Zhou Enlai, Chen Boda, Kang Sheng and Jiang Qing and others present; the talk from 3:30 to 8:30 in the morning, five hours; to Kuai''s talk of a ''black hand'' behind the workers: ''the black hand is I''; two years and no struggle, no criticism, no reform, ''struggle yes, but you do armed fighting''; four ways, military control, split in two (one side a city each), all go out and ''struggle, criticize, leave'', or the workers withdraw and the students may fight on ''ten thousand years''; he made a recording that day against their taking from it what suits them; the workers will intervene, dictatorship of the proletariat; when Kuai came late, Han said Kuai could not control his side and Mao: ''first kill this tiger''; Jiang Qing, Lin Biao and the five speak; the book names no other person present, n.22). Made public: 1974 ([[w.tse-tung-miscellany-of-mao-tse]], II, 469–497, cited by [[w.macfarquhar-maos-last-revolution]], 251 n.47). To check: [[w.yuanzi-nie-yuanzi-huiyilu]], 282–283 (cited by [[w.macfarquhar-maos-last-revolution]], 250 n.44); Mao''s talk with the Red Guard leaders, July 28, 1968, in [[w.tse-tung-miscellany-of-mao-tse]], II, 469–497 (cited by [[w.macfarquhar-maos-last-revolution]], 251 n.47). Names: Mao Zedong, Lin Biao, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Yao Wenyuan, Xie Fuzhi, Huang Yongsheng, Wu Faxian, Ye Qun, Nie Yuanzi, Kuai Dafu, Tan Houlan, Han Aijing, Wang Dabin, Wen Yucheng, Wu De.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, July 28, 1968; [[w.zhou-enlai-nianpu-1949-2020]], III, 244 (July 28, 1968; Mao with Lin Biao, Zhou and the Group); [[w.macfarquhar-maos-last-revolution]], 250–251 (Mao "summons" the leaders, who are frisked on arrival; he is the "black hand"; five hours; "we''re so bureaucratic, not having called you to a meeting before"; their 200 or 300 hard-core followers against his 30,000 workers and Lin Biao''s troops; Mao and Lin on the violence; military control, or "struggle-criticism-quit"); [[w.mao-zedong-zhuan]], VI, ch. 77 n.22 (before dawn on July 28 Mao summons the five, Nie Yuanzi 聂元梓 of Peking University, Kuai Dafu 蒯大富 of Tsinghua, Tan Houlan 谭厚兰 of Peking Normal, Han Aijing 韩爱晶 of Peking Aeronautics and Wang Dabin 王大宾 of Peking Geology; Lin Biao, Zhou Enlai, Chen Boda, Kang Sheng and Jiang Qing and others present; the talk from 3:30 to 8:30 in the morning, five hours; to Kuai''s talk of a ''black hand'' behind the workers: ''the black hand is I''; two years and no struggle, no criticism, no reform, ''struggle yes, but you do armed fighting''; four ways, military control, split in two (one side a city each), all go out and ''struggle, criticize, leave'', or the workers withdraw and the students may fight on ''ten thousand years''; he made a recording that day against their taking from it what suits them; the workers will intervene, dictatorship of the proletariat; when Kuai came late, Han said Kuai could not control his side and Mao: ''first kill this tiger''; Jiang Qing, Lin Biao and the five speak; the book names no other person present, n.22). [[w.yang-jisheng-tiandi-fanfu]], I, 326–327 (Mao to the five rebel leaders: "some say the Guangxi notice applies only to Guangxi and the Shaanxi notice only to Shaanxi; now a notice will go out for the whole country: whoever goes on attacking the army, robbing army stores, wrecking communications, killing and burning is committing a crime; if a few will not heed advice, they are bandits, Kuomintang, and are to be surrounded and encircled and, if they hold out, annihilated"; Han Aijing''s record notes that at the end both Mao and the rebels wept; Mao also says that the half year of suspended classes announced became a year, then two, and "I said three years, so three years"; Yang adds that after this the Guangxi "4·22" suffered a massacre of 100,000). Made public: 1974 ([[w.tse-tung-miscellany-of-mao-tse]], II, 469–497, cited by [[w.macfarquhar-maos-last-revolution]], 251 n.47). To check: [[w.yuanzi-nie-yuanzi-huiyilu]], 282–283 (cited by [[w.macfarquhar-maos-last-revolution]], 250 n.44); Mao''s talk with the Red Guard leaders, July 28, 1968, in [[w.tse-tung-miscellany-of-mao-tse]], II, 469–497 (cited by [[w.macfarquhar-maos-last-revolution]], 251 n.47); Han Aijing 韓愛晶, record of Mao''s five-and-a-half-hour talk, in Qi Zhi 啟之, ed., *Shuimu fengyu: Beijing Qinghua daxue wenge shi* 《水木風雨:北京清華大學文革史》 (Taipei, Mar. 2014), 157 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 324 n.21). Names: Mao Zedong, Lin Biao, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Yao Wenyuan, Xie Fuzhi, Huang Yongsheng, Wu Faxian, Ye Qun, Nie Yuanzi, Kuai Dafu, Tan Houlan, Han Aijing, Wang Dabin, Wen Yucheng, Wu De.'
     src:
       c: 6bc65e52
       rows:
@@ -4702,6 +4794,7 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 250–251: ?'
         - 'w.mao-zedong-zhuan VI, ch. 77 n.22: A, C, D, E, F'
         - 'via w.mao-zedong-zhuan VI, ch.77 n.22: A, C, D, E, F'
+        - 'w.yang-jisheng-tiandi-fanfu I, 326–327: ?'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:jiang-qing, name:yao-wenyuan, name:xie-fuzhi, name:huang-yongsheng, name:wu-faxian, name:ye-qun, vis:only:prc]
     time_range:
       - 1968-07-27T19:30Z
@@ -6367,3 +6460,13 @@ entries:
     c: The Central Office's Military Party Committee re-forms the Saigon Party Committee, Võ Văn Kiệt secretary; the Southern Command hands all the inner-city districts to Sub-region 6.
     n: '[[w.lich-su-khang-chien-chong-my]], V, 240. Made public: 2013. Check: the day.'
     tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1968-07.vietnam-may-offensive
+    when: July, mid
+    date: 1968-07
+    at: before 1968-07-11
+    place: tam-quan
+    thread: vietnam-may-offensive
+    also: [vietnam-hanoi]
+    c: Route 1, Tam Quan to Chợ Cát. Battalion 53 ambushes a column and by the history's count puts nearly 200 out of action, burns 15 vehicles (4 armored), shoots down 2 aircraft and destroys two 105 mm guns.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 209. Check: the day; the history says "mid-July". The figures are the history''s.'
+    tags: [polity:drv, polity:us, polity:rvn]

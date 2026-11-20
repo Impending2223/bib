@@ -341,6 +341,15 @@ entries:
     c: Zhou Enlai talks with Wang Dongxing, then goes to Jiang Qing's.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 233 (June 2, 1968). Made public: 2020. Names: Zhou Enlai, Jiang Qing.'
     tags: [polity:prc, name:zhou-enlai, name:jiang-qing, vis:only:prc]
+  - id: cal.1968-06-02.vietnam-may-offensive
+    when: June 2
+    date: '1968-06-02'
+    place: saigon
+    thread: vietnam-may-offensive
+    also: [vietnam-hanoi]
+    c: Khổng Tử street, Saigon. In the close fight an American armed helicopter fires rockets by mistake into the Phước Đức school and kills dozens of Saigon officers commanding the counterattack, among them two colonels, four lieutenant colonels and two majors.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 193. See [[cal.1968-05-27.vietnam-may-offensive]]. Check: the charge, from the history alone; no record read.'
+    tags: [polity:drv, polity:us, polity:rvn]
   - id: cal.1968-06-03.court
     when: June 3
     date: '1968-06-03'
@@ -1935,6 +1944,15 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 525: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 197: all'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1968-06-07.vietnam-may-offensive
+    when: June 7–14
+    date: '1968-06-07'
+    place: saigon
+    thread: vietnam-may-offensive
+    also: [vietnam-hanoi]
+    c: Saigon, Districts 5, 6, 1 and 2. June 7 to 14 dozens of uneven fights between the forces' infantry detachments and the Saigon 5th and 9th Airborne, 4th and 6th Ranger and 81st Commando Battalions, backed by tanks, armored cars and hundreds of sorties. By the history's count two battalions of Subregions 1 and 2 lose nearly all their company and battalion commanders; Companies 1 and 2 of Battalion Phú Lợi are down to one or two men. The forces' guns also fire on Tân Sơn Nhứt, the port, the Navy command, the city hall and the American embassy. The second phase of the second wave ends June 13.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 193–94. See [[cal.1968-05-27.vietnam-may-offensive]]. The history gives the phase ending "June 13". Check: the days of the gunfire. The figures are the history''s.'
+    tags: [polity:drv, polity:rvn, polity:us]
   - id: cal.1968-06-08.robert-kennedy
     when: June 8
     date: '1968-06-08'
@@ -3820,6 +3838,14 @@ entries:
     c: Beijing. Zhou to Phạm Hùng, Ba Long, Ngô Minh Loan and Trần Văn Quang, on the Khmer Communists, who fight in the border area and complain that Vietnam gave them no arms when the time was ripe. China has no direct relations with them; Zhou asks Vietnam to talk with them, to teach its troops passing through Cambodia to treat the Khmer as equals, and to invite them to Tay Ninh or the Central Highlands to join the fight against the Americans first. If Sihanouk moves against them China can no longer arm Cambodia.
     n: 'Zhou Enlai with Phạm Hùng, Beijing, June 19, 1968, doc. 36, [[w.77-conversations-between-chinese]], [133–135](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=131) (excerpts; 133 n.200, the delegation, Phạm Hùng, Ba Long, Ngô Minh Loan, Trần Văn Quang; 134 n.201, Son Ngoc Minh; no hour). Made public: 1998. To check: [[w.zhou-enlai-waijiao-huodong]] (June 19, 1968). Names: Zhou Enlai, Phạm Hùng, Ba Long (Lê Trọng Tấn), Ngô Minh Loan, Trần Văn Quang, Sihanouk.'
     tags: [name:zhou-enlai, name:ngo-minh-loan, name:norodom-sihanouk, polity:prc, polity:drv, vis:only:prc+drv]
+  - id: cal.1968-06-19.vietnam-khe-sanh
+    when: June 19
+    date: '1968-06-19'
+    thread: vietnam-khe-sanh
+    also: [vietnam-hanoi]
+    c: Ka Long, Pa Trang and hill 835. The American command orders all its troops out and back to Tà Cơn, Route 9 and Đông Hà.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 222. See [[cal.1968-06.vietnam-khe-sanh]]. The history names the order Cushman''s. See also [[cal.1968-06-20.vietnam-khe-sanh]].'
+    tags: [polity:drv, polity:us, ok:fields-place]
   - id: cal.1968-06-20.economy
     when: June 20
     date: '1968-06-20'
@@ -4838,6 +4864,11 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: Abrams orders the Khe Sanh base abandoned June 26, 1968, ending the operation "Scotland II"; June 19 Cushman orders the Americans out of Ka Long, Pa Trang and hill 835 back to Tà Cơn, Route 9 and Đông Hà; the history takes both as a defeat of the base
+        at: V, 222–23
   - id: cal.1968-06-27.testing-missile-talks
     when: June 27
     date: '1968-06-27'
@@ -5184,6 +5215,17 @@ entries:
         - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=133: B-E'
     tags: [polity:prc, name:zhou-enlai, name:kang-sheng, name:li-xiannian, name:ye-jianying, name:ngo-minh-loan, name:johnson-lyndon-b, polity:drv, vis:only:prc+drv]
     time_zone: Asia/Shanghai
+  - id: cal.1968-06-29.vietnam-may-offensive
+    when: June 29
+    date: '1968-06-29'
+    time: 1968-06-29T15:30Z
+    place: ben-luc
+    thread: vietnam-may-offensive
+    also: [vietnam-hanoi]
+    c: Bến Lức bridge, Route 4. A three-man sapper team of the Region under Tư Cường, which had failed on June 20 and 28 to get the charge to the footing, at 11:30 p.m. puts a 1,000 kg charge under the bridge. At 12:30 a.m. June 30 spans 5 and 6 fall and the Saigon platoon guarding it is wiped out. The history calls the cutting of Route 4 a great blow to the enemy and a help to the second wave.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 196–97. The team''s names are Dương, Trung and Bảy. Check: the clock, whose it is.'
+    tags: [polity:drv, polity:rvn]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1968-06-30.opinion
     when: June 30
     date: '1968-06-30'
@@ -5795,3 +5837,31 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1945: all'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1968-06.vietnam-may-offensive
+    when: June, early
+    date: 1968-06
+    at: before 1968-06-01
+    thread: vietnam-may-offensive
+    also: [vietnam-hanoi]
+    c: Gò Ông Thường, Hoài Thanh, and Ông Tú bridge, Hoài Châu, Hoài Nhơn. Province Sapper Company Đ40 raids two American companies.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 209. Check: the day; the history says "early in June".'
+    tags: [polity:drv, polity:us]
+  - id: cal.1968-06.vietnam-may-offensive-2
+    when: June, mid
+    date: 1968-06
+    at: before 1968-06-11
+    place: phu-cat
+    thread: vietnam-may-offensive
+    also: [vietnam-hanoi]
+    c: Cát Thắng commune, Phù Cát. Battalion 50, with district troops and guerrillas, stops a sweep by a Korean battalion and by the history's count puts nearly 100 out of action.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 209. Check: the day; the history says "mid-June". The figures are the history''s.'
+    tags: [polity:drv, polity:rok]
+  - id: cal.1968-06.vietnam-khe-sanh
+    when: June, early
+    date: 1968-06
+    at: before 1968-06-01
+    thread: vietnam-khe-sanh
+    also: [vietnam-hanoi]
+    c: Tà Ri, Tà Quan, Pa Trang and Húc Cốt. The enemy lands two Marine battalions to set up a footing for relieving Tà Cơn and Khe Sanh.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 222. See [[cal.1968-05-28.vietnam-khe-sanh]]. Check: the day of the landing; the history says "early June".'
+    tags: [polity:drv, polity:us, ok:fields-place]

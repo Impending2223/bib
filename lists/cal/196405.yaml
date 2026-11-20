@@ -599,6 +599,14 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1811: ?'
     tags: [polity:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-03.laos
+    when: May 3
+    date: '1964-05-03'
+    thread: laos
+    also: [vietnam-hanoi]
+    c: Phoumi asks the SEATO armies to intervene in Laos, by the history's account, at the Americans' direction.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 369. Names: Phoumi Nosavan. Check: the day: the history''s next sentence opens "also in June."'
+    tags: [polity:drv, name:phoumi-nosavan]
   - id: cal.1964-05-04.trade
     when: May 4
     date: '1964-05-04'
@@ -991,13 +999,14 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou and Chen Yi receive the Kenyan government delegation, Beijing; talks, May 3–11. On May 5: when in Africa he spoke of a fine revolutionary situation, the British Prime Minister attacked it as immoral; the situation meant is anti-imperialist, and any state independent or not that advances national independence is in revolution; it shakes British colonialism, hence the annoyance. Deal with the old colonialists with a complex mind and tactics. East Africa''s first task is to clear colonial power entirely, the goal of the Organization of African Unity charter.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 640–41 (May 5, 1964); [[w.zhou-enlai-waijiao-huodong]], 405 (May 5, 1964; 下午5时, 人民大会堂, 接见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 335 (May 3–11, 1964; Kenya''s Minister for Home Affairs, Oginga Odinga, leads a Kenyan government delegation visiting China; Mao and Liu Shaoqi receive it, and Zhou and Chen Yi hold talks with it). Made public: 1993. Names: Zhou Enlai.'
+    n: '"[Cable from the Chinese Foreign Ministry, ''Premier Zhou Talked about the Relationship between China-Soviet Difference and the National Liberation Movement''](https://digitalarchive.umd.edu/document/121188)" (June 29, 1964), PRC FMA 109-02372-02, 9–12, trans. David Cowhig, Wilson Center Digital Archive (Diplomatic Circular 80: Zhou received a Kenyan government delegation "last month" and spoke on the Sino-Soviet dispute and the liberation movements; the day not given; see the circular''s entry of June 29). [[w.zhou-enlai-nianpu-1949]], II, 640–41 (May 5, 1964); [[w.zhou-enlai-waijiao-huodong]], 405 (May 5, 1964; 下午5时, 人民大会堂, 接见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 335 (May 3–11, 1964; Kenya''s Minister for Home Affairs, Oginga Odinga, leads a Kenyan government delegation visiting China; Mao and Liu Shaoqi receive it, and Zhou and Chen Yi hold talks with it). Made public: 1993. Names: Zhou Enlai.'
     src:
       c: d86b7100
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 640–41: ?'
         - 'w.zhou-enlai-waijiao-huodong 405: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 335: A-B'
+        - 'https://digitalarchive.umd.edu/document/121188: A, B'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-05.china-leadership-2
@@ -3378,6 +3387,14 @@ entries:
       - 1964-05-16T11:00Z
     time_band: after-workday daytime
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-16.vietnam-saigon
+    when: May 16
+    date: '1964-05-16'
+    thread: vietnam-saigon
+    also: [vietnam]
+    c: Nguyễn Khánh reorganizes his government, May 16.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1. Names: Nguyễn Khánh. Check: the day, against the American record.'
+    tags: [name:nguyen-khanh, polity:rvn, ok:fields-place]
   - id: cal.1964-05-17.laos
     when: May 17–19
     date: '1964-05-17'
@@ -5500,6 +5517,19 @@ entries:
       - 1964-05-26T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-26.china-leadership-4
+    when: May 26
+    date: '1964-05-26'
+    thread: china-leadership
+    also: [china]
+    c: 'The Central Census Office finds population inflation far worse than thought: at least a million added each for Hebei 河北 and Henan 河南, and no fewer than 700,000 for Shandong 山东.'
+    n: '[[w.dikotter-maos-great-famine]], 333. Made public: 2010. To check: Central Census Office, report, May 26, 1964, Chishui archives, 1-A15-15, pp. 6–7 (cited by [[w.dikotter-maos-great-famine]], 333 n.39). See [[cal.1963-11-16.china-leadership-4]].'
+    src:
+      c: e6ed6341
+      rows:
+        - 'w.dikotter-maos-great-famine 333: all'
+        - 'via w.dikotter-maos-great-famine 333 n.39: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1964-05-27.india-and-china
     when: May 27
     date: '1964-05-27'

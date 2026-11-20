@@ -696,7 +696,7 @@ entries:
     place: canton
     thread: china
     c: Several thousand people demonstrate at the Canton–Kowloon railway station and elsewhere, demanding to be allowed on the train to Hong Kong (the East Station incident). Mayor Zeng Sheng appeals to Zhou Enlai and has the local public-security forces increased from about 5,000 to 7,000.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 206; [[w.yang-jisheng-mubei]], I, 429 (June 5: the disorder at the Canton East Station, the crowds storming the trains to Hong Kong and blocking traffic; a crowd of over 10,000 already outside the station on June 1). Made public: 1997. Check: Mubei (I, 429) puts a crowd of over 10,000 outside the station by June 1 and the storming of the trains on June 5. To check: [[w.zeng-sheng-huiyi-lu]], 674–77 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 206 n.84a); [[w.vogel-canton-under-communism]], 295–96 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 206 n.84b). Names: Zhou Enlai. Check: Vogel dates the incident June 1, Zeng Sheng June 5–6.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 206; [[w.yang-jisheng-mubei]], I, 429 (June 5: the disorder at the Canton East Station, the crowds storming the trains to Hong Kong and blocking traffic; a crowd of over 10,000 already outside the station on June 1); [[w.dikotter-maos-great-famine]], 240 n.55 (clashes between mobs and police in early June, a riot put down by troops). Made public: 1997. Check: Mubei (I, 429) puts a crowd of over 10,000 outside the station by June 1 and the storming of the trains on June 5. To check: [[w.zeng-sheng-huiyi-lu]], 674–77 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 206 n.84a); [[w.vogel-canton-under-communism]], 295–96 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 206 n.84b); CIA, Washington, July 27, 1962, OCI 2712-62, p. 4; South China Morning Post, June 6, 1962 (cited by [[w.dikotter-maos-great-famine]], 240 n.55). Names: Zhou Enlai. Check: Vogel dates the incident June 1, Zeng Sheng June 5–6.'
     src:
       c: 33df77cb
       rows:
@@ -704,6 +704,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 206 n.84a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 206 n.84b: all'
         - 'w.yang-jisheng-mubei I, 429: A'
+        - 'w.dikotter-maos-great-famine 240 n.55: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-06-05.china-leadership
     when: June 5
@@ -1606,13 +1607,19 @@ entries:
     date: '1962-06-11'
     thread: laos
     c: 'Phoumi, moved by his relative Sarit, accepts a government under Souvanna: Souvanna premier and defense minister; Phoumi and Souphanouvong deputy premiers with a veto, Phoumi finance minister; seven seats for the neutralists, four each for the Phoumists and the Pathet Lao, four for right-wing neutralists.'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 255; [[w.poole-joint-chiefs-of-staff]], 137. Names: Phoumi Nosavan, Sarit, Souvanna Phouma, Souphanouvong.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 255; [[w.poole-joint-chiefs-of-staff]], 137; [[w.lich-su-khang-chien-chong-my]], III, 133 (June 12, 1962: the three Lao parties agree to form a coalition government). Names: Phoumi Nosavan, Sarit, Souvanna Phouma, Souphanouvong.'
     src:
       c: 3d6c35f7
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 255: all'
         - 'w.poole-joint-chiefs-of-staff 137: A'
+        - 'w.lich-su-khang-chien-chong-my III, 133: A'
     tags: [name:phoumi-nosavan, name:sarit-thanarat, name:souvanna-phouma, name:souphanouvong]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the three Lao parties agree June 12 to sign and form the coalition government
+        at: III, 133
   - id: cal.1962-06-11.china-leadership
     when: June 11
     date: '1962-06-11'
@@ -4647,3 +4654,15 @@ entries:
     c: The National Liberation Front's delegation under Prof. Nguyễn Văn Hiếu visits Czechoslovakia in June, the Soviet Union in July (and the July 26 celebration in Cuba), Hungary in August, Indonesia in September, China in October (and Algeria's national day), and North Korea in November.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 189. Names: Nguyễn Văn Hiếu. Check: the days; one entry for the tour, as the history gives it by month. Check: the calendar has the delegation in Peking Sept. 28–30 (china-leadership), the history China in October.'
     tags: [polity:drv, name:nguyen-van-hieu]
+  - id: cal.1962-06.china-leadership-14
+    when: June
+    date: 1962-06
+    thread: china-leadership
+    also: [trade, korea, vietnam-hanoi]
+    c: Per the PRC summary of Jan. 30, 1963, when the DPRK proposes a long-term trade agreement, Zhou Enlai instructs that refusing to discuss long-term agreements with the DPRK and the DRV would be bad.
+    n: '"[Summary of Trade Negotiations with Korea and Vietnam for 1963](https://digitalarchive.umd.edu/document/121759)" (Jan. 30, 1963), PRC FMA 106-01008-18, 48–53, obtained by Shen Zhihua, trans. Jeffrey Wang and Charles Kraus, Wilson Center Digital Archive. Names: Zhou Enlai. Check: the day. Check: the year the Archive posted it.'
+    src:
+      c: cce865f6
+      rows:
+        - 'https://digitalarchive.umd.edu/document/121759: all'
+    tags: [name:zhou-enlai, polity:prc, polity:dprk, polity:drv, vis:only:prc]

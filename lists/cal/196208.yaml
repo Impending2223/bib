@@ -1858,7 +1858,7 @@ entries:
     date: '1962-08-12'
     thread: china-leadership
     c: 'Mao has the Rural Work Department''s paper of Aug. 24, 1961, "How the Sixty Articles are being carried out," first circulated at the 1961 Lushan conference, circulated to this one, with a note: the department was then right, but Deng Zihui wavered a year later, seeing the situation as nearly all dark and pressing household contracting. He welcomes Deng''s self-criticism of Aug. 11, finding it still short.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 12, 1962 ("同日"). [[w.jianguo-yilai-mao-zedong]], XVI, 343–346 (Aug. 12, 1962; Mao''s note, dated Aug. 12; printed from the manuscript; the department was then right (the ten measures of part two, with the right handling of go-it-alone; the ten points on the situation of part one); after ten months, August 1961 to the end of May 1962, Deng wavered; tied to his reluctance on cooperatives before the summer 1955 meeting and his "four great freedoms"; Deng''s statement at the core group Aug. 11 welcome but not enough; notes 4–5 list the twenty points; note 6: the Center General Office''s notice of Mar. 9, 1981 rehabilitating Deng Zihui); [[w.mao-zedong-zhuan]], V, ch. 70 (Aug. 12: Mao finds the Rural Work Department''s paper of Aug. 24, 1961, on how the sixty articles were carried out, which he praised then). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70). See [[cal.1962-08-11.china-leadership]]. Names: Mao Zedong, Deng Zihui. Check: the nianpu itself calls the note''s criticism of Deng Zihui mistaken ("错误地批评").'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 12, 1962 ("同日"). [[w.jianguo-yilai-mao-zedong]], XVI, 343–346 (Aug. 12, 1962; Mao''s note, dated Aug. 12; printed from the manuscript; the department was then right (the ten measures of part two, with the right handling of go-it-alone; the ten points on the situation of part one); after ten months, August 1961 to the end of May 1962, Deng wavered; tied to his reluctance on cooperatives before the summer 1955 meeting and his "four great freedoms"; Deng''s statement at the core group Aug. 11 welcome but not enough; notes 4–5 list the twenty points; note 6: the Center General Office''s notice of Mar. 9, 1981 rehabilitating Deng Zihui); [[w.mao-zedong-zhuan]], V, ch. 70 (Aug. 12: Mao finds the Rural Work Department''s paper of Aug. 24, 1961, on how the sixty articles were carried out, which he praised then). [[w.yang-jisheng-mubei]], II, 1129 n.36 (Mao''s comment of Aug. 12 on a document, sharply criticizing Deng Zihui: he has wavered, his view of the situation nearly all dark, and he vigorously promotes household contracting; this goes with his holding back from cooperatives before 1955, ordering the cutting of some hundreds of thousands and having no regard for them, and before that urging the "four great freedoms"; he has not linked it to his own bourgeois-democratic standpoint of 1950–55). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70). See [[cal.1962-08-11.china-leadership]]. Names: Mao Zedong, Deng Zihui. Check: the nianpu itself calls the note''s criticism of Deng Zihui mistaken ("错误地批评").'
     src:
       c: 5d50ce93
       rows:
@@ -1868,6 +1868,7 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVI, 345 n.6a: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 345 n.6b: all'
         - 'w.mao-zedong-zhuan V, ch. 70: A'
+        - 'w.yang-jisheng-mubei II, 1129 n.36: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1962-08-12.china-leadership-3
     when: Aug. 12
@@ -3003,13 +3004,15 @@ entries:
     when: Aug. 20
     date: '1962-08-20'
     thread: vietnam-diplomacy
-    c: Cambodia, threatened by South Vietnam and Thailand, asks Kennedy for a neutral status like Laos's; Diệm resents the implication.
-    n: '[[w.futrell-united-states-air-force]], 140. Names: Diệm.'
+    also: [china]
+    c: Cambodia, threatened by South Vietnam and Thailand, asks Kennedy for a neutral status like Laos's; Diệm resents the implication. Sihanouk's letter of the day to Zhou Enlai, by Huang Zhen's account to him of Nov. 30, proposes an international conference to recognize and guarantee Cambodia's neutrality and territorial integrity.
+    n: '"[Minutes of Conversation between Chinese Vice Foreign Minister Huang Zhen and Cambodian King Norodom Sihanouk](https://digitalarchive.umd.edu/document/121900)" (Nov. 30, 1962), PRC FMA 106-01398-04, 57–61, obtained by Dai Chaowu, trans. 7Brands, Wilson Center Digital Archive. [[w.futrell-united-states-air-force]], 140. Names: Diệm, Sihanouk, Zhou Enlai.'
     src:
-      c: 1f16fe46
+      c: 8a2087ae
       rows:
-        - 'w.futrell-united-states-air-force 140: all'
-    tags: [name:ngo-dinh-diem]
+        - 'w.futrell-united-states-air-force 140: A, B'
+        - 'https://digitalarchive.umd.edu/document/121900: C'
+    tags: [name:ngo-dinh-diem, name:norodom-sihanouk, name:zhou-enlai, polity:cambodia, polity:prc]
     time_range:
       - 1962-08-20T02:00Z
       - 1962-08-20T10:00Z
@@ -4331,13 +4334,14 @@ entries:
     place: canton
     thread: china-leadership
     also: [china, vietnam-hanoi]
-    c: Canton, Baiyun airport. Zhou Enlai talks with Phạm Văn Đồng.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 334 (Aug. 28, 1962; 上午7时30分). Made public: 1993. See [[cal.1962-08-27.china-leadership]]. Names: Zhou Enlai, Phạm Văn Đồng.'
+    c: Canton, Baiyun airport. Zhou Enlai talks with Phạm Văn Đồng. Per the Chinese record, in the waiting room at 7:30 a.m., Phạm says he will report to the Politburo on the two matters Zhou raised the day before, that South Vietnam's revolution must rely on itself, and that the Lao forces at Nam Tha, short of food, are near disbanding and need China's help, and Zhou asks for a list. Zhou says the Soviet Union should resume its air transport to Laos, if need be at Souvanna Phouma's request, or China and the DRV should take it on by agreement with Laos, and Phạm says he will write Sihanouk in support of his proposal.
+    n: '"[Record of Premier Zhou''s Talk with Prime Minister Pham Van Dong](https://digitalarchive.umd.edu/document/176894)" (Aug. 28, 1962), PRC FMA 106-01394-14, 1–4, trans. Stephen Mercado, Wilson Center Digital Archive. [[w.zhou-enlai-waijiao-huodong]], 334 (Aug. 28, 1962; 上午7时30分). Made public: 1993. See [[cal.1962-08-27.china-leadership]]. Names: Zhou Enlai, Phạm Văn Đồng, Sihanouk, Souvanna Phouma.'
     src:
-      c: 484b747c
+      c: 9bf99840
       rows:
-        - 'w.zhou-enlai-waijiao-huodong 334: all'
-    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
+        - 'w.zhou-enlai-waijiao-huodong 334: A, B'
+        - 'https://digitalarchive.umd.edu/document/176894: A-D'
+    tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv, name:norodom-sihanouk, name:souvanna-phouma, polity:laos]
     time_zone: Asia/Shanghai
   - id: cal.1962-08-28.china-leadership-3
     when: Aug. 28

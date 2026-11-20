@@ -687,8 +687,13 @@ entries:
     thread: china-leadership
     also: [laos]
     c: Zhou receives the Lao People's Party delegation under Kaysone Phomvihane.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 4, 1965). Names: Zhou Enlai, Kaysone Phomvihane.'
-    tags: [name:zhou-enlai, polity:prc, polity:laos]
+    n: '"[Record of Premier Zhou Enlai''s Conversation with Vietnamese Deputy Prime Minister Le Thanh Nghi](https://digitalarchive.umd.edu/document/176595)" (Dec. 5, 1965), PRC FMA 106-01484-01, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou to Lê Thanh Nghị, Dec. 5: "Yesterday I spoke with Kaysone" of what he had told Lê; Kaysone to go back to Hanoi from the 15th and confer with the Vietnamese party''s Central Committee). [[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 4, 1965). Names: Zhou Enlai, Kaysone Phomvihane.'
+    src:
+      c: 9c5d85df
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 768: ?'
+        - 'https://digitalarchive.umd.edu/document/176595: A'
+    tags: [name:zhou-enlai, polity:prc, polity:laos, name:kaysone-phomvihan]
   - id: cal.1965-12-04.china-leadership-2
     when: Dec. 4
     date: '1965-12-04'
@@ -921,6 +926,21 @@ entries:
     c: Bàu Đa Dội, Long Nguyên, Bến Cát. Regiment 2 of the 9th Division attacks the 2d Brigade, 1st Infantry Division, in a day-long fight under heavy air and artillery; at 5 p.m. it holds the field, a company destroyed, another battalion hurt. The brigade leaves Dầu Tiếng.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 62–63. Check: the hour is the battle''s end.'
     tags: [polity:drv, polity:us, ok:fields-time]
+  - id: cal.1965-12-05.china-leadership-8
+    when: Dec. 5
+    date: '1965-12-05'
+    time: 1965-12-05T09:30Z
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi, vietnam, laos]
+    c: Zhou Enlai, with Xie Fuzhi, Fang Yi, Han Nianlong and Li Qiang present, tells Lê Thanh Nghị, per the Chinese record, that after McNamara's trip to Saigon he expects the U.S. to build up in the South, to 220,000 men by year's end and 300,000 by mid-1966, then to cut the Ho Chi Minh Trail in Laos, patrol the coast, bomb three lines of communication and then Haiphong and Hanoi, blockade the Gulf of Tonkin and close the Cambodian border, with half a year of preparation. He asks that supply of the South come first, the Trail, the sea route and China's rail lines be kept open, Laos and Cambodia be given more weight, and the Soviet Union be asked to risk shipping; he tells of Kaysone's holding off, pending his Central Committee, on Soviet proposals for a five-party conference and a TASS correspondent. Lê says the Politburo is discussing the same and a record will go to Hanoi next day.
+    n: '"[Record of Premier Zhou Enlai''s Conversation with Vietnamese Deputy Prime Minister Le Thanh Nghi](https://digitalarchive.umd.edu/document/176595)" (Dec. 5, 1965), PRC FMA 106-01484-01, trans. Stephen Mercado, Wilson Center Digital Archive. The words: "5:30 – 7:00 p.m." (the record); the talk is the second of the week, Zhou speaking of "last time" and "Wednesday". See [[cal.1965-11-29.china-leadership]]; [[cal.1965-12-04.china-leadership]]. Names: Zhou Enlai, Xie Fuzhi, McNamara, Kaysone. Check: the year the Archive posted it.'
+    src:
+      c: 5c003ae4
+      rows:
+        - 'https://digitalarchive.umd.edu/document/176595: all'
+    tags: [name:zhou-enlai, name:xie-fuzhi, name:mcnamara-robert-s, name:kaysone-phomvihan, polity:prc, polity:drv, vis:only:prc+drv]
+    time_zone: Asia/Shanghai
   - id: cal.1965-12-06.laos
     when: Dec. 6
     date: '1965-12-06'
@@ -1188,6 +1208,18 @@ entries:
       - 1965-12-06T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-12-06.vietnam-hanoi-2
+    when: Dec. 6
+    date: '1965-12-06'
+    thread: vietnam-hanoi
+    also: [soviet-union]
+    c: 'The Soviet Committee for State Security (KGB), by a letter the MfS has translated from the Russian by this day, answers "your request" (no addressee named): the DRV''s state security institutes to get radio interception devices, punched-card tabulators and forensic and food-testing laboratories, as the State Committee for Economic Aid set; and, by order of the KGB''s technical operations administration, tube-technology eavesdropping gear, wire-tapping apparatus and an "AJAX" portable radio for foot surveillance. The Vietnamese, it says, asked for transistor eavesdropping technology. A deputy head of the DRV ministry''s technical operations department spent a month in Moscow on radio decoding and interception, then went to Hungary about spare parts for equipment assembled there.'
+    n: '"[Letter from the Committee for State Security of the Council of Ministers of the USSR on Aid to the Ministry for State Security of the DRV](https://digitalarchive.umd.edu/document/120864)" (Dec. 6, 1965), BStU MfS Abt. X 652, 29–30, trans. Sean O''Grady, Wilson Center Digital Archive. Obtained for CWIHP by Martin Grossheim. Marked TOP SECRET, nos. 208/65 and 470/65; "Translation from the Russian", two copies, dated Dec. 6, 1965 at the foot. The letter names no addressee; it speaks of "your request". The deputy head is named as "NGUEN HYN NJAN". Check: the year the Archive posted the document; its page gives none. Check: the letter''s own date; the Archive dates it by the translation.'
+    src:
+      c: c81c46bf
+      rows:
+        - 'https://digitalarchive.umd.edu/document/120864: all'
+    tags: [polity:ussr, polity:drv, polity:gdr, vis:only:ussr+gdr, ok:fields-place]
   - id: cal.1965-12-07.vietnam
     when: Dec. 7
     date: '1965-12-07'
@@ -2004,6 +2036,20 @@ entries:
       rows:
         - 'w.debenedetti-american-ordeal 137: all'
         - 'via w.debenedetti-american-ordeal 137 n.158: all'
+  - id: cal.1965-12-13.vietnam-hanoi
+    when: Dec. 13
+    date: '1965-12-13'
+    time: 1965-12-13T15:00Z
+    place: east-berlin
+    thread: vietnam-hanoi
+    c: 'East Berlin. Mielke receives Nguyen Minh Tien, director of the technical operations sector of the DRV''s state security ministry. Tien gives the DRV''s account of the war: the Americans built 8,000 strategic hamlets, 7,000 of them destroyed; 748 aircraft shot down when he left, 814 by what he has since heard. He asks the Stasi to share its experience in eavesdropping, countermeasures, photography, surveillance, mail control, document production and equipment for informants, to advise on cadres and buildings, and to arrange a meeting with Interior Minister Dickel; Mielke says the specialists must first check what can be given, asks for the DRV''s orders and says six years of contact were lost.'
+    n: '"[Memorandum of a Meeting of Minister Erich Mielke with Nguyen Minh Tien on 13 December 1965](https://digitalarchive.umd.edu/document/120719)" (Dec. 14, 1965), BStU, MfS Abt X 652, 31–49, trans. Sean O''Grady, Wilson Center Digital Archive. Obtained for CWIHP by Martin Grossheim. Berlin, Dec. 14, 1965, five copies; the memorandum gives the time as "from 16:00 until 19:00" and names an interpreter (redacted). Tien opens with the letter his minister wrote; says he was last in the GDR in 1959; the DRV''s list of orders is to be paid from the GDR''s aid. After the meeting, deputy ministers Beater and Wolf present, the Vietnamese hand over gifts from their ministry. See [[cal.1965-11-01.vietnam-hanoi]]. Check: the year the Archive posted the document; its page gives none.'
+    src:
+      c: 321b1ad7
+      rows:
+        - 'https://digitalarchive.umd.edu/document/120719: all'
+    tags: [polity:drv, polity:gdr, vis:only:drv+gdr]
+    time_zone: Europe/Berlin
   - id: cal.1965-12-14.india-and-china
     when: Dec. 14–15
     date: '1965-12-14'
@@ -4230,7 +4276,7 @@ entries:
     date: '1965-12-29'
     thread: vietnam-pause
     c: 'Harriman at Warsaw: Rapacki given Rusk''s fourteen points. Goldberg to Paul VI, with a letter from Johnson. At Rangoon, Byroade hands the North Vietnamese consul general the aide-mémoire on the pause.'
-    n: '[FRUS 1964–68, III, doc. 265](https://history.state.gov/historicaldocuments/frus1964-68v03/d265); [doc. 266](https://history.state.gov/historicaldocuments/frus1964-68v03/d266); [doc. 271](https://history.state.gov/historicaldocuments/frus1964-68v03/d271). [[w.zhai-china-and-the-vietnam]], 164 (Harriman''s fourteen points to the Poles). [[w.rusk-as-i-saw-it-1990]], 464–65 (the fourteen points). See [[cal.1965-12-24.vietnam]]. Names: Harriman, Rapacki, Rusk, Goldberg, Paul VI, Johnson, Byroade. Check: Rusk has himself give the points to Radvanyi, the Hungarian chargé, just before Christmas ([[w.rusk-as-i-saw-it-1990]], 464).'
+    n: '"[Transcript of the Discussions on the Occasion of the Reception by Comrade N. Ceausescu of I. Czesak, Member of the Central Committee of the Polish United Workers Party (P.U.W.P.)](https://digitalarchive.umd.edu/document/122559)" (Jan. 7, 1966), ANR, Fond CC al PCR, Secţia Relaţii Externe, dosar 2/1966, file 1–8, trans. Larry L. Watts, Wilson Center Digital Archive. Czesak''s account to Ceaușescu: Gomułka received Harriman as the American envoy, with Rapacki, ''two days before the New Year''. [FRUS 1964–68, III, doc. 265](https://history.state.gov/historicaldocuments/frus1964-68v03/d265); [doc. 266](https://history.state.gov/historicaldocuments/frus1964-68v03/d266); [doc. 271](https://history.state.gov/historicaldocuments/frus1964-68v03/d271). [[w.zhai-china-and-the-vietnam]], 164 (Harriman''s fourteen points to the Poles). [[w.rusk-as-i-saw-it-1990]], 464–65 (the fourteen points). See [[cal.1965-12-24.vietnam]]. Names: Harriman, Rapacki, Rusk, Goldberg, Paul VI, Johnson, Byroade. Check: Rusk has himself give the points to Radvanyi, the Hungarian chargé, just before Christmas ([[w.rusk-as-i-saw-it-1990]], 464).'
     src:
       c: d6d1e6de
       rows:
@@ -4238,6 +4284,7 @@ entries:
         - 'w.zhai-china-and-the-vietnam 164: A'
         - 'w.rusk-as-i-saw-it-1990 464–65: A'
         - 'via x.1984.rusk-interviews-with-richard-rusk: A'
+        - 'https://digitalarchive.umd.edu/document/122559: A'
     tags: [name:harriman-w-averell, name:rapacki-adam, name:rusk-dean, name:goldberg-arthur-j, name:paul-vi, name:johnson-lyndon-b, name:byroade-henry-a]
   - id: cal.1965-12-29.program
     when: Dec. 29

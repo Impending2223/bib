@@ -1,0 +1,14 @@
+import sys
+sys.path.insert(0, '/home/user/bib/notes/wip/b16-lskc-1b')
+from dsl import *
+VH = 'vietnam-hanoi'; OP = ['vietnam-operations']
+for k, n_ in [('ba-dua', 'Ba Dừa'), ('ben-tuong', 'Bến Tượng'), ('long-tan', 'Long Tân'), ('hang-duong', 'Hàng Đường'), ('cau-khoi', 'Cầu Khởi'), ('do-la', 'Đờ La')]:
+    NP(k, n_)
+A('1963-10-badua', '1963-10', VH, 'Mỹ Tho. In the stretch of October to December Battalion 261 besieges the Ba Dừa strongpoint, south of Route 4, and its garrison surrenders. The posts of Long Trung, Long Khánh, Long Tiên, Tam Bình, Cẩm Sơn and Xuân Sơn are abandoned; the battalion goes on to free Đông Hòa and Hiệp Đức.', 'III, 282', when='Oct.–Dec.', place='ba-dua', also=OP, check='the day.')
+A('1963-11-route15', '1963-11', VH, 'Biên Hòa. In late November Long Thành district\'s troops with the guerrillas of its communes and hamlets ambush on Route 15 a main-force unit sweeping to widen a base and gather the people; many killed, the subsector chief among them.', 'III, 295', when='Nov., late', place='long-thanh', also=OP, check='the day.')
+A('1963-11-dola', '1963-11', VH, 'Biên Hòa. In late November, after the Route 15 ambush, a party of Long Thành\'s troops in Saigon uniforms drives into the Đờ La post in the post commander\'s own car and takes it: the post chief and the hamlet chief seized.', 'III, 295–96', when='Nov., late', place='long-thanh', also=OP, tags=['ok:fields-place'], check='the day; the place of Đờ La.')
+A('1963-11-longtan', '1963-11', VH, 'Biên Hòa. In late November the unit\'s agitation among the troops brings the garrison of the Long Tân post to lay down its arms; cadres go down to the hamlets and the people rise and take power. Over 1,000 young men are signed up for the armed force in the same time.', 'III, 296', when='Nov., late', place='long-tan', also=OP, check='the day.')
+A('1963-2h-bentuong', '1963', VH, 'Thủ Dầu Một. At the end of the year the secret Party branch in the Bến Tượng strategic hamlet leads a sudden rising: the worst oppressors killed, the Self-Defense men disarmed, the fence cut, the ditch filled, and the families go home in parties. The hamlet is broken for good.', 'III, 298', when='1963, late', at='before 1963-09', place='ben-tuong', also=OP, check='the day.')
+A('1963-07-hangduong', '1963-07', VH, 'Tây Ninh. In early July the troops and people destroy the Hàng Đường post, Thanh Điền commune, Gò Dầu district.', 'III, 299', when='July, early', place='hang-duong', also=OP, check='the day.')
+A('1963-07-caukhoi', '1963-07', VH, 'Tây Ninh. In early July the troops and people destroy the Cầu Khởi post, Dương Minh Châu district.', 'III, 299', when='July, early', place='cau-khoi', also=OP, check='the day.')
+A('1963-07-lamvo', '1963-07', VH, 'Tây Ninh. In early July the troops and people destroy the Lâm Vồ post, at Tây Ninh town.', 'III, 299', when='July, early', place='lam-vo', also=OP, check='the day.')
