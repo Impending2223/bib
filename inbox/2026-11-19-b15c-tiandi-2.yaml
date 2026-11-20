@@ -1,6 +1,15 @@
 patch: 2026-11-19-b15c-tiandi-2
 by: 'Claude (batch 15c, run 2, Yang Jisheng, *Tiandi fanfu*, Tiandi 2016 ed.: 1966 from ch. 5, 1967), Nov. 19, 2026'
 ops:
+- edit:
+    id: cal.1966-06-18.china-leadership-5
+    base: dc955208
+    set:
+      time_range:
+      - 1966-06-18T01:00Z
+      - 1966-06-18T03:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
 - add:
     entry:
       id: cal.1966-06-08.china-leadership-6
@@ -526,6 +535,343 @@ ops:
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 203: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 203 n.36: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- cite:
+    id: cal.1966-06-18.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 202 (June 18, 9 to 11 a.m. 上午9時至11時, the departments of chemistry, biology, Eastern languages, Western languages, Chinese and radio electronics
+      and other units struggle against over 60 people, among them "key" persons, Party and League cadres and teachers "with problems," and two "reactionary students": faces blackened,
+      tall hats, kneeling, a few beaten; the work group fixes it a "counter-revolutionary incident"; Yang thinks the excesses could have been corrected by policy and guidance)'
+- variant:
+    id: cal.1966-06-18.china-leadership-5
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: at Peking University the struggle meetings of the morning of June 18 held over 60 people, not about forty besides Lu Ping
+    at: I, 202
+- cite:
+    id: cal.1966-06-18.china-leadership-6
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 202 (that night the Peking University work group writes a brief to the Center, the *Beijing daxue wenhua geming jianbao* no. 9 北京大學文化革命簡報第九號,
+      which finds that it is mainly bad people deliberately making trouble, and very likely an organized, planned conspiracy)'
+- variant:
+    id: cal.1966-06-18.china-leadership-6
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: the work group's brief of that night, Bulletin no. 9, judges the affair mainly the doing of bad elements making trouble on purpose, and quite possibly an organized, planned
+      conspiracy; it does not play down its political bearing
+    at: I, 202
+- cite:
+    id: cal.1966-06-20.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 202 (June 19 Liu Shaoqi 劉少奇 forwards the bulletin in the Center''s name with the comment that the Center thinks the work group''s way of
+      handling the disorder is correct and timely, and that any unit where such a thing occurs may follow Peking University''s way; the bulletin is issued on the 20th; the work groups
+      then press the students harder, and in the few days about June 20 thirty-nine Peking colleges see students against the work groups and the groups against the masses; Mao, hearing
+      the work group had fixed the incident as counter-revolutionary, says the June 18 incident was a revolutionary one (undated))'
+- variant:
+    id: cal.1966-06-20.china-leadership-5
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Liu forwards Bulletin no. 9 in the Center's name on June 19, with the comment; the bulletin goes down on the 20th
+    at: I, 202
+- variant:
+    id: cal.1966-06-17.china-leadership-8
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Liu Pingping 劉平平 is a first-year senior-middle student at the first middle school attached to Peking Normal University 北京師大一附中, Liu Shaoqi's "point"; on June 17 a new work
+      group under Gou Deyuan 勾德元 enters that school; the girls' middle school attached to the university is Deng Xiaoping's "point," where his daughter Deng Rong 鄧榕 studies
+    at: I, 203
+- cite:
+    id: cal.1966-06-17.china-leadership-8
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 203 (June 17 the new work group under Gou Deyuan enters the first middle school attached to Peking Normal University, where Liu Pingping
+      is a student; almost 90 percent of its cadres are made "ox-demons" and "black gang," 77 percent of the class teachers struggled against, besieged or sent to labor reform, some
+      tortured)'
+- to-check:
+    id: cal.1966-06-17.china-leadership-8
+    add: Xiao Xidong 蕭喜東, 〈1966年的五十天:記憶與遺忘的政治〉 (year not given) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 203 n.38)
+- cite:
+    id: cal.1966-06-20.china-leadership-6
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 203–204 (the same day Chen Yongkang 陳永康 and He Fangfang 何方方 post 〈揪出鉆進我們肝臟的牛鬼蛇神!〉, which finds the work group wrong in direction and line;
+      Liu receives its head Gou Deyuan and three others and says "this poster is not like kind criticism," "now they attack you, the enemy has come out, the snake is out of its hole,
+      and destroying it is easier," and tells them to use the contradictions, win the majority, isolate the minority, and defeat them one by one)'
+- to-check:
+    id: cal.1966-06-20.china-leadership-6
+    add: '*Pipan ziliao: Zhongguo Heluxiaofu Liu Shaoqi fangeming xiuzhengzhuyi yanlunji (1958.6–1967.7)* 《批判資料:中國赫魯曉夫劉少奇反革命修正主義言論集》 (Renmin chubanshe ziliaoshi 人民出版社資料室, 1967; internal
+      circulation 內部發行), 669–670 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 204 n.39)'
+- cite:
+    id: cal.1966-07-11.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 204 (Liu asks the same work group: "how are those few? is the student named Niu their backstage? will Chen Yongkang and He Fangfang admit
+      it? you have not beaten them? are they all still at school?"; they are not to go on to a university after senior-3 but stay at the school; "a few percent of rightists there must
+      be; you have not found them; 5 percent would be very good")'
+- to-check:
+    id: cal.1966-07-11.china-leadership-4
+    add: '*Pipan ziliao: Zhongguo Heluxiaofu Liu Shaoqi fangeming xiuzhengzhuyi yanlunji (1958.6–1967.7)* 《批判資料:中國赫魯曉夫劉少奇反革命修正主義言論集》 (Renmin chubanshe ziliaoshi 人民出版社資料室, 1967; internal
+      circulation 內部發行), 674 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 204 n.40)'
+- cite:
+    id: cal.1966-07-13.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 204 (Liu hears Hu Keshi 胡克實 of the Youth League''s Central Committee on the cultural revolution in Peking''s middle schools and proposes
+      that cadres and teachers be sorted into four classes: the first keep their posts; the second are criticized and self-critical; the third, with many problems, are criticized and
+      some removed; the fourth are the chief objects of criticism)'
+- to-check:
+    id: cal.1966-07-13.china-leadership-5
+    add: '*Pipan ziliao: Zhongguo Heluxiaofu Liu Shaoqi fangeming xiuzhengzhuyi yanlunji (1958.6–1967.7)* 《批判資料:中國赫魯曉夫劉少奇反革命修正主義言論集》 (Renmin chubanshe ziliaoshi 人民出版社資料室, 1967; internal
+      circulation 內部發行), 689 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 204 n.42)'
+- add:
+    entry:
+      id: cal.1966-06-24.china-leadership-8
+      when: June 24–30
+      date: '1966-06-24'
+      place: peking
+      thread: china-leadership
+      c: First Middle School attached to Peking Normal University 北京師大一附中, Peking. On Liu Shaoqi's 劉少奇 instruction the work group holds three large struggle meetings against the students
+        Chen Yongkang 陳永康 and He Fangfang 何方方. Of the school's thousand teachers and students over 150 are afterward made "counter-revolutionaries" or "false left, true right."
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 204. Made public: 1967. To check: *Bingtuan zhanbao* 《兵團戰報》, Apr. 10, 1967, and *Geming chuanlian bao* 《革命串連報》, Jan. 9, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 204 n.41). See [[cal.1966-06-20.china-leadership-6]]. Names: Liu Shaoqi.'
+      src:
+        c: 1dca8fbd
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 204: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 204 n.41a: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 204 n.41b: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1966-06-04.china-leadership-4
+      when: June 4
+      date: '1966-06-04'
+      place: peking
+      thread: china-leadership
+      c: The Youth League's Central Committee 團中央 sends the first of its work groups for middle schools into the middle school for girls attached to Peking Normal University 北京師范大學女附中,
+        Peking.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 204. Made public: 1967. To check: Deng Rong 鄧榕, 〈對鄧小平的揭發〉, in Xin Beida gongshe 02621 zhidui 新北大公社02621支隊, ed., *Che di qingsuan Deng Xiaoping
+        zai wuchanjieji wenhua dageming zhong de tiantao zuixing* 《徹底清算鄧小平在無產階級文化大革命中的滔天罪行》, Apr. 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 204 n.43).'
+      src:
+        c: 9e0c88e2
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 204: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 204 n.43: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1966-06.china-leadership-27
+      when: June
+      date: 1966-06
+      thread: china-leadership
+      c: 'Deng Xiaoping 鄧小平 calls his daughter Deng Rong 鄧榕 home from the Normal University''s girls'' middle school and tells her: trust the work group and obey it; if your views now
+        agree, of course you obey; if later they differ, you obey all the same. Deng Rong says so in her exposure of him in April 1967.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 204. Made public: 1967. To check: Deng Rong 鄧榕, 〈對鄧小平的揭發〉, in Xin Beida gongshe 02621 zhidui 新北大公社02621支隊, ed., *Che di qingsuan Deng Xiaoping
+        zai wuchanjieji wenhua dageming zhong de tiantao zuixing* 《徹底清算鄧小平在無產階級文化大革命中的滔天罪行》, Apr. 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 204 n.43). See [[cal.1966-06-04.china-leadership-4]].
+        Names: Deng Xiaoping.'
+      src:
+        c: bd1fe4a9
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 204: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 204 n.43: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:deng-xiaoping
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-06.china-leadership-28
+      when: June
+      date: 1966-06
+      place: peking
+      thread: china-leadership
+      c: Peking Normal University 北京師范大學 girls' middle school. After Li Lili 李黎黎 and twelve other students of senior-3 class 4 post "On What Standpoint Does the Work Group Stand?" 〈工作組站在甚么立場上〉,
+        the work group holds a school-wide meeting that evening for a "great debate" on the poster.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 205. The words: 當晚 (I, 205). Made public: 1967. To check: Xin Beida gongshe 02621 zhidui diaochazu 新北大公社02621支隊調查組, 〈斬斷鄧小平伸向北京師大女附中的黑手〉,
+        *Xin Beida* 《新北大》, June 28, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 205 n.44).'
+      src:
+        c: 10be84c5
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 205: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 205 n.44: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1966-06.china-leadership-29
+      when: June
+      date: 1966-06
+      thread: china-leadership
+      c: 'Deng Xiaoping 鄧小平, asked by his daughter Deng Rong 鄧榕 on her return home whether it is right to oppose the work group, says that opposing the work group is wrong: it falls
+        in with the countercurrent in society against work groups.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 205. Made public: 1967. To check: Xin Beida gongshe 02621 zhidui diaochazu 新北大公社02621支隊調查組, 〈斬斷鄧小平伸向北京師大女附中的黑手〉, *Xin Beida* 《新北大》, June
+        28, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 205 n.44). See [[cal.1966-06.china-leadership-28]]. Names: Deng Xiaoping.'
+      src:
+        c: '66823342'
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 205: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 205 n.44: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:deng-xiaoping
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-06-20.china-leadership-13
+      when: June 20
+      date: '1966-06-20'
+      thread: china-leadership
+      c: Hu Keshi 胡克實, secretary of the Youth League's Central Committee, tells Hu Qili 胡啟立 to go with him to see Deng Xiaoping 鄧小平. Deng tells Hu Qili that the thirteen who put up the
+        poster at the girls' middle school are not activists, that activists do not sympathize with them; that middle-school students too include counter-revolutionaries, as Yang Guoqing
+        楊國慶, lately shot, was a middle-school student of 19; such must be struck back at; reactionary students will show themselves, and are to be set aside for a time. Hu Qili passes
+        it to the work group the same day.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 205. Made public: 1967. To check: Hu Qili 胡啟立, 〈鄧小平是鎮壓師大女附中革命學生的黑司令〉, in Xin Beida gongshe 02621 zhidui, ed., *Che di qingsuan Deng Xiaoping*
+        (Apr. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 205 n.45). Names: Deng Xiaoping.'
+      src:
+        c: 0477a2f0
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 205: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 205 n.45: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:deng-xiaoping
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-06-20.china-leadership-14
+      when: June 20
+      date: '1966-06-20'
+      thread: china-leadership
+      c: Hu Keshi 胡克實 instructs Hu Qili 胡啟立 that at the girls' middle school the work group should organize debates among the students, as at the first middle school attached to the
+        university, to argue down and isolate those opposing it. Hu Qili hesitates, and Hu Keshi tells him to telephone Deng Xiaoping's 鄧小平 office for instructions.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 205–206. Made public: 1967. To check: Hu Qili 胡啟立, 〈鄧小平是鎮壓師大女附中革命學生的黑司令〉, in Xin Beida gongshe 02621 zhidui, ed., *Che di qingsuan Deng
+        Xiaoping* (Apr. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 206 n.46). See [[cal.1966-06-20.china-leadership-13]]. Names: Deng Xiaoping.'
+      src:
+        c: ee9311e9
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 205–206: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 206 n.46: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:deng-xiaoping
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-06-27.china-leadership-6
+      when: June 27
+      date: '1966-06-27'
+      thread: china-leadership
+      c: Liang Ertong 梁二同 and seventeen others post "Carry the Proletarian Cultural Revolution Through to the End" 〈把無產階級文化大革命進行到底〉, still against the work group. Deng Xiaoping 鄧小平 is
+        very angry and has his wife Zhuo Lin 卓琳 telephone Liu Zhijian 劉志堅 to look into Liang Ertong's father, "an attempt at political persecution."
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 205. Made public: 2016. Names: Deng Xiaoping.'
+      src:
+        c: f64bf00c
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 205: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:deng-xiaoping
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-06-27.china-leadership-7
+      when: June 27–28
+      date: '1966-06-27'
+      thread: china-leadership
+      c: 'Deng Xiaoping 鄧小平, through his daughter Deng Rong 鄧榕, tells the girls'' middle school work group that leaving the few diehards of the opposition alone is no good, as it drives
+        them further over: the group may debate with them, with some force behind it, and draw in those won over.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206. Made public: 1967. To check: Hu Qili 胡啟立, 〈鄧小平是鎮壓師大女附中革命學生的黑司令〉, in Xin Beida gongshe 02621 zhidui, ed., *Che di qingsuan Deng Xiaoping*
+        (Apr. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 206 n.46). Names: Deng Xiaoping.'
+      src:
+        c: a47e98b6
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 206: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 206 n.46: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:deng-xiaoping
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-07-05.china-leadership-4
+      when: July 5
+      date: '1966-07-05'
+      place: peking
+      thread: china-leadership
+      c: Deng Xiaoping 鄧小平 meets Hu Qili 胡啟立, Zhang Shidong 張世棟 (head of the girls' middle school work group) and two student representatives at Zhongnanhai 中南海, Peking, and again instructs
+        that debate be organized; when a student says those against the work group will not come, he says, "if they will not come, debate in their absence."
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206. Made public: 1967. To check: Hu Qili 胡啟立, 〈鄧小平是鎮壓師大女附中革命學生的黑司令〉, in Xin Beida gongshe 02621 zhidui, ed., *Che di qingsuan Deng Xiaoping*
+        (Apr. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 206 n.46). Names: Deng Xiaoping.'
+      src:
+        c: 9423dbf7
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 206: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 206 n.46: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:deng-xiaoping
+- add:
+    entry:
+      id: cal.1966-07-07.china-leadership-5
+      when: July 7–9
+      date: '1966-07-07'
+      place: peking
+      thread: china-leadership
+      c: On Deng Xiaoping's 鄧小平 instruction the work group of the Normal University's girls' middle school holds three days of debating meetings, July 7 to 9, besieging the students
+        who oppose it.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206. Made public: 2016. See [[cal.1966-07-05.china-leadership-4]]. Names: Deng Xiaoping.'
+      src:
+        c: 6b7ff9fd
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 206: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:deng-xiaoping
+- add:
+    entry:
+      id: cal.1966-07.china-leadership-20
+      when: July, early
+      date: 1966-07
+      at: before 1966-07-11
+      thread: china-leadership
+      c: Liu Shaoqi 劉少奇 and Deng Xiaoping 鄧小平 draw up a plan to put middle-school cadres and teachers through "intensive training" 集訓, so as to end the middle-school movement and reopen
+        school as soon as possible.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206–207. Made public: 1967. To check: Xin Beida gongshe 02621 zhidui diaochazu 新北大公社02621支隊調查組, 《清算鄧小平在幹部、教師問題上「打擊一大片,保護一小撮」的資產階級反動路線》 (Apr.
+        1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 207 n.49). Names: Liu Shaoqi, Deng Xiaoping.'
+      src:
+        c: c0d9ea34
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 206–207: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 207 n.49: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:liu-shaoqi
+      - name:deng-xiaoping
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-07-23.china-leadership-6
+      when: July 23
+      date: '1966-07-23'
+      place: peking
+      thread: china-leadership
+      c: The work group of the girls' middle school attached to Peking Normal University 北京師范大學女附中, Peking, begins the "intensive training" of its cadres and teachers, even the nearly
+        retired and the half-retired sick, on the "four cleanups" model, to settle their "bathing and coming downstairs." Each cadre and teacher is followed by a "left" student, who
+        may call on him at any time to confess; the group tells these students his class and main materials.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206–207. Made public: 1967. To check: Xin Beida gongshe 02621 zhidui diaochazu 新北大公社02621支隊調查組, 《清算鄧小平在幹部、教師問題上「打擊一大片,保護一小撮」的資產階級反動路線》 (Apr.
+        1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 207 n.49). See [[cal.1966-07.china-leadership-20]].'
+      src:
+        c: b7067474
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 206–207: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 207 n.49: all'
       tags:
       - polity:prc
       - vis:only:prc

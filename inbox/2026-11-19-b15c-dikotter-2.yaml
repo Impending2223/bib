@@ -1,6 +1,21 @@
 patch: 2026-11-19-b15c-dikotter-2
 by: 'Claude (batch 15c, Dikotter, Mao''s Great Famine, run 2: 1960-62), Nov. 19, 2026'
 ops:
+- place-key:
+    key: wuwei-gansu
+    name: Wuwei
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: yingkou
+    name: Yingkou
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: wengcheng
+    name: Wengcheng
+    zone: Asia/Shanghai
+    in: prc
 - add:
     entry:
       id: cal.1960-06-26.china-leadership-2
@@ -10,7 +25,7 @@ ops:
       also:
       - china
       c: The Gansu Public Security Bureau reports some 82,000 prisoners at work in a hundred reform-through-labour camps in the province.
-      n: '[[w.dikotter-maos-great-famine]], 289. Made public: 2010. To check: Report from the provincial Public Security Bureau, Gansu, June 26, 1960, Gansu Provincial Archives, 91-9-63, pp. 1–4 (cited by [[w.dikotter-maos-great-famine]], 289 n.9). Check: the day.'
+      n: '[[w.dikotter-maos-great-famine]], 289. Made public: 2010. To check: Report from the provincial Public Security Bureau, Gansu, June 26, 1960, Gansu Provincial Archives, 91-9-63, pp. 1–4 (cited by [[w.dikotter-maos-great-famine]], 289 n.9).'
       src:
         c: b73b1a11
         rows:
@@ -45,10 +60,10 @@ ops:
       thread: china-leadership
       also:
       - china
-      c: 'The Hubei Public Security Bureau gives only a vague estimate of the famine''s deaths: the death rate in 1961 was two to three times lower than in 1960. It wonders about the total toll and offers no answer.'
+      c: The Hubei Public Security Bureau puts the death rate of 1961 two to three times lower than that of 1960. Its report raises the question of the total toll and gives no figure.
       n: '[[w.dikotter-maos-great-famine]], 326. Made public: 2010. To check: Hubei Provincial Archives, Mar. 1962, SZ34-5-16, p. 43 (cited by [[w.dikotter-maos-great-famine]], 326 n.8). Check: the day.'
       src:
-        c: '76516568'
+        c: e8fcfe7c
         rows:
         - 'w.dikotter-maos-great-famine 326: all'
         - 'via w.dikotter-maos-great-famine 326 n.8: all'
@@ -63,10 +78,10 @@ ops:
       thread: china-leadership
       also:
       - china
-      c: 'The Sichuan Public Security Bureau''s investigation of the province''s death statistics gives corrected death rates: 1 percent a year in 1954–57, 2.5 percent in 1958, 4.7 percent in 1959, 5.4 percent in 1960, 2.9 percent in 1961.'
-      n: '[[w.dikotter-maos-great-famine]], 328. Made public: 2010. To check: Sichuan Provincial Archives, May–June 1962, JC67-4, p. 17, and JC67-1003, p. 3 (cited by [[w.dikotter-maos-great-famine]], 328 n.16). Check: the day.'
+      c: 'The Sichuan Public Security Bureau''s investigation of the province''s death statistics, authorized by its head, corrects the reported totals: death rates of 1 percent a year in 1954–57, 2.5 percent in 1958, 4.7 percent in 1959, 5.4 percent in 1960, 2.9 percent in 1961; 10.6 million deaths in 1958–61, 7.9 million of them above 1 percent.'
+      n: '[[w.dikotter-maos-great-famine]], 328. Made public: 2010. To check: Sichuan Provincial Archives, May–June 1962, JC67-4; also in JC67-1003, p. 3 (cited by [[w.dikotter-maos-great-famine]], 328 n.16). Check: the day.'
       src:
-        c: 7dd75c9e
+        c: eeb38aa7
         rows:
         - 'w.dikotter-maos-great-famine 328: all'
         - 'via w.dikotter-maos-great-famine 328 n.16a: all'
@@ -82,10 +97,10 @@ ops:
       thread: china-leadership
       also:
       - china
-      c: 'The Sichuan Public Security Bureau compiles its figure for 1962: 1.5 percent of the population died.'
-      n: '[[w.dikotter-maos-great-famine]], 328. Made public: 2010. To check: Sichuan Provincial Archives, Feb. 23, 1963, JC67-112, pp. 9–12 (cited by [[w.dikotter-maos-great-famine]], 328 n.17). Check: who issued it.'
+      c: 'The Sichuan Public Security Bureau''s figures for 1962: 1.5 percent of the population died that year, another 300,000 premature deaths, which brings the excess deaths since 1958 to 8.2 million.'
+      n: '[[w.dikotter-maos-great-famine]], 328. Made public: 2010. To check: Sichuan Provincial Archives, Feb. 23, 1963, JC67-112, pp. 9–12 (cited by [[w.dikotter-maos-great-famine]], 328 n.17). Check: the day.'
       src:
-        c: f6fb2a84
+        c: bbfafc0f
         rows:
         - 'w.dikotter-maos-great-famine 328: all'
         - 'via w.dikotter-maos-great-famine 328 n.17: all'
@@ -100,31 +115,16 @@ ops:
       thread: china-leadership
       also:
       - china
-      c: The Fuyang region, Anhui, reports 10,890 deaths for the first quarter of 1961, of which 524 are "abnormal", 103 from emaciation and edema.
-      n: '[[w.dikotter-maos-great-famine]], 327. Made public: 2010. To check: Fuyang, 1961, J3-1-235, p. 34 (cited by [[w.dikotter-maos-great-famine]], 327 n.10). Check: the day, and who reported.'
+      c: The Fuyang region, Anhui, reports 10,890 deaths for the first quarter of 1961, 524 of them "abnormal", 103 of these from emaciation and edema.
+      n: '[[w.dikotter-maos-great-famine]], 327. Made public: 2010. To check: Fuyang, 1961, J3-1-235, p. 34 (cited by [[w.dikotter-maos-great-famine]], 327 n.10). Check: the day.'
       src:
-        c: 1c568ecd
+        c: 6986ccb3
         rows:
         - 'w.dikotter-maos-great-famine 327: all'
         - 'via w.dikotter-maos-great-famine 327 n.10: all'
       tags:
       - polity:prc
       - vis:only:prc
-- cite:
-    id: cal.1960-12-17.china-leadership-8
-    item: '[[w.dikotter-maos-great-famine]], 327 n.14b (Liu Zihou''s report to Mao of 4,700 "abnormal deaths" in Hebei in 1960)'
-- check:
-    id: cal.1960-12-17.china-leadership-8
-    text: 'Check: whether Liu Zihou''s report to Mao of 4,700 abnormal deaths in Hebei for 1960 is this brief to the North China Bureau and the Center.'
-- to-check:
-    id: cal.1960-12-17.china-leadership-8
-    add: Hebei file of Jan. 10, 1961, Hebei Provincial Archives, 856-1-221, pp. 31–2 (inspectors find 18,000 dead of hunger in one county since 1958; cited by [[w.dikotter-maos-great-famine]], 327 n.14a).
-- cite:
-    id: cal.1960-12-28.china-leadership-7
-    item: '[[w.dikotter-maos-great-famine]], 327 n.15 (Liu Zihou chastises the county leaders for covering up the extent of the famine)'
-- check:
-    id: cal.1960-12-28.china-leadership-7
-    text: 'Check: whether Liu Zihou''s criticism of the county leaders, in the Hebei file of Dec. 29, 1960, is this telegram.'
 - add:
     entry:
       id: cal.1961-07-10.china-leadership-11
@@ -203,53 +203,22 @@ ops:
       - vis:only:prc
 - add:
     entry:
-      id: cal.1962-05.china-leadership-16
+      id: cal.1962-05.soviet-union
       when: May
       date: 1962-05
-      thread: china-leadership
+      thread: soviet-union
       also:
       - china
-      - soviet-union
-      c: Soviet authorities make millions of rubles available to give the refugees from Xinjiang jobs and temporary housing.
+      c: Soviet authorities make millions of rubles available for jobs and temporary housing for the refugees from Xinjiang.
       n: '[[w.dikotter-maos-great-famine]], 239–240. Made public: 2010. To check: RGANI, Moscow, May 1962, 3-16-89, pp. 63–7 (cited by [[w.dikotter-maos-great-famine]], 240 n.49). Check: the day.'
       src:
-        c: aa6cb03f
+        c: b446ad81
         rows:
         - 'w.dikotter-maos-great-famine 239, 240: all'
         - 'via w.dikotter-maos-great-famine 240 n.49: all'
       tags:
       - polity:ussr
       - vis:only:ussr
-- cite:
-    id: cal.1961-06-18.china-leadership-4
-    item: '[[w.dikotter-maos-great-famine]], 238 n.37 (the order of June 18, 1961 to send back 20 million from the cities: 10 million before the end of the year, saving 2 million tonnes of grain; the rest in 1962, stragglers by 1963)'
-- cite:
-    id: cal.1962-05-25.china-leadership
-    item: '[[w.dikotter-maos-great-famine]], 240 n.50, n.51 (in Kulja an armed mob invades the Soviet consulate to take away the archives on the nationality of the minority peoples; granaries are robbed and shots fired at the militia; crowds at the party offices are fired upon)'
-- to-check:
-    id: cal.1962-05-25.china-leadership
-    add: Ministry of Foreign Affairs Archives, Peking, June 30, 1962, 118-1758-1, pp. 1–8; RGANI, Moscow, Nov. 6, 1964, 5-49-722, pp. 194–7 (cited by [[w.dikotter-maos-great-famine]], 240 n.50, n.51).
-- check:
-    id: cal.1962-05-25.china-leadership
-    text: 'Check: the day of the invasion of the consulate.'
-- cite:
-    id: cal.1962-04-16.china-leadership-4
-    item: '[[w.dikotter-maos-great-famine]], 239 n.46, n.47 (some 64,000 had crossed into the Soviet Union by May; half the population of Tacheng marched to the border)'
-- to-check:
-    id: cal.1962-04-16.china-leadership-4
-    add: RGANI, Moscow, May 22, 1962, 5-30-401, p. 39; Ministry of Foreign Affairs Archives, Peking, May 10, 1962, 118-1100-9, pp. 71–9; RGANI, Moscow, Apr. 28, 1962, 3-18-53, pp. 2–3 and 8–12 (cited by [[w.dikotter-maos-great-famine]], 239 n.46, n.47, n.48).
-- variant:
-    id: cal.1962-05-15.china-leadership-5
-    unit: A
-    reads: the flight to Hong Kong in May 1962 reached a peak of over 5,000 a day
-    at: '240'
-    witness: w.dikotter-maos-great-famine
-- cite:
-    id: cal.1962-06-05.china
-    item: '[[w.dikotter-maos-great-famine]], 240 n.55 (clashes between mobs and police in early June, a riot put down by troops)'
-- to-check:
-    id: cal.1962-06-05.china
-    add: CIA, Washington, July 27, 1962, OCI 2712-62, p. 4; South China Morning Post, June 6, 1962 (cited by [[w.dikotter-maos-great-famine]], 240 n.55).
 - add:
     entry:
       id: cal.1960.china-leadership-36
@@ -258,10 +227,28 @@ ops:
       thread: china-leadership
       also:
       - china
-      c: A Foreign Economic Liaison Bureau of ministerial rank is created to cope with the increase in donations. Aid to foreign countries is fixed at 420 million yuan for 1960.
-      n: '[[w.dikotter-maos-great-famine]], 113. Made public: 2010. To check: Shanghai Municipal Archives, Dec. 1, 1959, B29-2-112, p. 3 (cited by [[w.dikotter-maos-great-famine]], 113 n.29). Check: the day.'
+      c: A Foreign Economic Liaison Bureau of ministerial rank is created to handle the increase in foreign aid.
+      n: '[[w.dikotter-maos-great-famine]], 113. Made public: 2010. To check: Shanghai Municipal Archives, Dec. 1, 1959, B29-2-112, p. 3 (cited by [[w.dikotter-maos-great-famine]], 113 n.29). Check: the year.'
       src:
-        c: 3ffeb5ca
+        c: 88a45ae3
+        rows:
+        - 'w.dikotter-maos-great-famine 113: all'
+        - 'via w.dikotter-maos-great-famine 113 n.29: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960.china-leadership-37
+      when: '1960'
+      date: '1960'
+      thread: china-leadership
+      also:
+      - china
+      c: Aid to foreign countries for 1960 is fixed at 420 million yuan.
+      n: '[[w.dikotter-maos-great-famine]], 113. Made public: 2010. To check: Shanghai Municipal Archives, Dec. 1, 1959, B29-2-112, p. 3 (cited by [[w.dikotter-maos-great-famine]], 113 n.29). Check: the year.'
+      src:
+        c: 133ae518
         rows:
         - 'w.dikotter-maos-great-famine 113: all'
         - 'via w.dikotter-maos-great-famine 113 n.29: all'
@@ -276,14 +263,14 @@ ops:
       thread: china-leadership
       also:
       - china
-      c: Foreign aid for 1961 is slated at some 660 million yuan. Peking refuses new loans and deferment of payments offered by its socialist allies. The beneficiaries include Burma, US$84 million; Cambodia, US$11.2 million; Vietnam, 142 million rubles; Albania, 112.5 million rubles.
-      n: '[[w.dikotter-maos-great-famine]], 113. Made public: 2010. To check: Gansu Ministry of Finance report, July 1, 1961, 91-18-211, p. 25; MfAA, Berlin, Jan. 4, 1962, A6836, p. 33 (cited by [[w.dikotter-maos-great-famine]], 113 n.30, n.31). Check: the day.'
+      c: Foreign aid for 1961 is slated at some 660 million yuan. Its beneficiaries include Burma, US$84 million; Cambodia, US$11.2 million; Vietnam, 142 million rubles; Albania, 112.5 million rubles.
+      n: '[[w.dikotter-maos-great-famine]], 113 n.30, n.31a. The book: Peking "refused new loans or even deferment of payments" offered by its socialist allies (113). Made public: 2010. To check: Report from the Ministry of Finance, July 1, 1961, Gansu Provincial Archives, 91-18-211, pp. 22–5; MfAA, Berlin, Jan. 4, 1962, A6836, p. 33 (cited by [[w.dikotter-maos-great-famine]], 113 n.30, n.31a, n.32). Check: the day.'
       src:
-        c: 1e8633a3
+        c: 74f5e3d6
         rows:
         - 'w.dikotter-maos-great-famine 113: all'
         - 'via w.dikotter-maos-great-famine 113 n.30: all'
-        - 'via w.dikotter-maos-great-famine 113 n.31: all'
+        - 'via w.dikotter-maos-great-famine 113 n.31a: all'
       tags:
       - polity:prc
       - vis:only:prc
@@ -305,7 +292,8 @@ ops:
         - 'via w.dikotter-maos-great-famine 113 n.27: all'
       tags:
       - polity:prc
-      - vis:only:prc
+      - polity:guinea
+      - vis:only:prc+guinea
 - add:
     entry:
       id: cal.1961-01.china-leadership-11
@@ -314,38 +302,70 @@ ops:
       thread: china-leadership
       also:
       - china
-      c: The Red Cross asks Peking about famine in Tibet. Peking answers that the harvest of 1960 was unprecedentedly rich, that there is no famine, and that rumours to the contrary are slanderous.
-      n: '[[w.dikotter-maos-great-famine]], 114–115. Made public: 2010. To check: International Committee of the Red Cross, Geneva, telegrams of Jan. 18, 28 and 30 and Feb. 6, 1961, BAG 209-048-2 (cited by [[w.dikotter-maos-great-famine]], 115 n.39). Check: the days.'
+      c: The Red Cross asks Peking about famine in Tibet.
+      n: '[[w.dikotter-maos-great-famine]], 114–115. Made public: 2010. To check: ICRC, Geneva, telegrams of Jan. 18, 28 and 30 and Feb. 6, 1961, BAG 209-048-2 (cited by [[w.dikotter-maos-great-famine]], 115 n.39). Check: the day.'
       src:
-        c: a25cd14d
+        c: 8fc0a455
         rows:
         - 'w.dikotter-maos-great-famine 114, 115: all'
         - 'via w.dikotter-maos-great-famine 115 n.39: all'
       tags:
       - polity:prc
-      - vis:only:prc
       - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-01.china-leadership-14
+      when: Jan.
+      date: 1961-01
+      thread: china-leadership
+      also:
+      - china
+      c: 'Peking answers the Red Cross: the harvest of 1960 was unprecedentedly rich, there is no famine, and rumours to the contrary are slanderous.'
+      n: '[[w.dikotter-maos-great-famine]], 114–115 n.39. Made public: 2010. See [[cal.1961-01.china-leadership-11]]. Check: the day.'
+      src:
+        c: c1339409
+        rows:
+        - 'w.dikotter-maos-great-famine 114, 115: all'
+        - 'via w.dikotter-maos-great-famine 115 n.39: all'
+      tags:
+      - polity:prc
+      place: peking
 - add:
     entry:
       id: cal.1961-01.china-leadership-12
       when: Jan.
       date: 1961-01
       thread: china-leadership
-      place:
-      - geneva
-      - peking
+      place: geneva
       also:
       - china
-      c: Henrik Beer, secretary general of the League of Red Cross Societies, telegraphs from Geneva to ask whether it is true of China as well. Peking replies that Tibet and China are one country, and that the government relies on the people's communes to overcome the natural calamities of the previous two years.
-      n: '[[w.dikotter-maos-great-famine]], 115. Made public: 2010. To check: International Committee of the Red Cross, Geneva, telegrams of Jan. 18, 28 and 30 and Feb. 6, 1961, BAG 209-048-2 (cited by [[w.dikotter-maos-great-famine]], 115 n.39). Check: the days.'
+      c: Henrik Beer, secretary general of the League of Red Cross Societies, telegraphs from Geneva to ask whether this is true of China as well.
+      n: '[[w.dikotter-maos-great-famine]], 115 n.39. Made public: 2010. See [[cal.1961-01.china-leadership-11]]. Check: the day.'
       src:
-        c: 92c91910
+        c: '51459137'
         rows:
         - 'w.dikotter-maos-great-famine 115: all'
         - 'via w.dikotter-maos-great-famine 115 n.39: all'
       tags:
       - polity:prc
-      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01.china-leadership-15
+      when: Jan.
+      date: 1961-01
+      thread: china-leadership
+      place: peking
+      also:
+      - china
+      c: Peking replies to Beer that Tibet and China are one country, not two, throughout which the government relies on the people's communes to overcome the natural calamities of the previous two years.
+      n: '[[w.dikotter-maos-great-famine]], 115 n.39. Made public: 2010. See [[cal.1961-01.china-leadership-11]]. Check: the month.'
+      src:
+        c: 91450ebd
+        rows:
+        - 'w.dikotter-maos-great-famine 115: all'
+        - 'via w.dikotter-maos-great-famine 115 n.39: all'
+      tags:
+      - polity:prc
 - add:
     entry:
       id: cal.1961-08.soviet-union
@@ -355,7 +375,7 @@ ops:
       also:
       - china
       c: Walter Ulbricht turns to Khrushchev for help with East Germany's shortfall of Chinese edible oils.
-      n: '[[w.dikotter-maos-great-famine]], 109. Made public: 2010. Names: Ulbricht. Check: the day; no note stands at the sentence.'
+      n: '[[w.dikotter-maos-great-famine]], 109. Made public: 2010. Names: Ulbricht. Check: the day.'
       src:
         c: e1334f4a
         rows:
@@ -385,51 +405,76 @@ ops:
       - vis:only:prc
 - add:
     entry:
-      id: cal.1961-08.china-leadership-4
-      when: Aug.
-      date: 1961-08
-      thread: china-leadership
-      also:
-      - china
-      c: Li Yiqing, secretary of the south-central region, tells the party leaders that 140,000 tonnes of farming tools were thrown into the fires in Henan.
-      n: '[[w.dikotter-maos-great-famine]], 144. Made public: 2010. To check: Hunan Provincial Archives, Aug. 11, 1961, 186-1-584, p. 134 (cited by [[w.dikotter-maos-great-famine]], 144 n.70). Check: the day, and whether it is the Beidaihe conference of Aug. 11 or the Lushan conference, which the book names.'
-      src:
-        c: afb59472
-        rows:
-        - 'w.dikotter-maos-great-famine 144: all'
-        - 'via w.dikotter-maos-great-famine 144 n.70: all'
-      tags:
-      - polity:prc
-      - vis:only:prc
-- add:
-    entry:
       id: cal.1961-07.china-leadership-7
       when: July
       date: 1961-07
       thread: china-leadership
       also:
       - china
-      c: A typhoon devastates the Cangzhou region of Hebei. The provincial party committee sends a team of twenty-four men, who spend ten days in the region.
-      n: '[[w.dikotter-maos-great-famine]], 179. Made public: 2010. To check: Hebei Provincial Archives, Aug. 15, 1961, 878-1-6, pp. 31–44 (cited by [[w.dikotter-maos-great-famine]], 179 n.37). Check: the days.'
+      c: The Hebei party committee sends a team of twenty-four men to the Cangzhou region after the typhoon. They spend ten days there; close to half the fields stand under water.
+      n: '[[w.dikotter-maos-great-famine]], 179 n.37. Made public: 2010. See [[cal.1961-07.china-2]]. Check: the day.'
       src:
-        c: 77dbd953
+        c: 41ad6098
         rows:
         - 'w.dikotter-maos-great-famine 179: all'
         - 'via w.dikotter-maos-great-famine 179 n.37: all'
       tags:
       - polity:prc
       - vis:only:prc
-- cite:
-    id: cal.1961-10.china-leadership-4
-    item: '[[w.dikotter-maos-great-famine]], 180 n.38 (Hu Yaobang spends a month in September 1961 travelling some 1,800 kilometres from Shangqiu through Jining and Fuyang to Xuzhou, inspecting the damage of the heavy rain)'
-- to-check:
-    id: cal.1961-10.china-leadership-4
-    add: Report by Hu Yaobang, Oct. 1, 1961, Hunan Provincial Archives, 141-2-138, pp. 186–9 (cited by [[w.dikotter-maos-great-famine]], 180 n.38).
-- place-key:
-    key: wuwei
-    name: Wuwei
-    zone: Asia/Shanghai
-    in: prc
+- add:
+    entry:
+      id: cal.1961-07.china-2
+      when: July
+      date: 1961-07
+      thread: china
+      also:
+      - china-leadership
+      c: A typhoon devastates the Cangzhou region, Hebei.
+      n: '[[w.dikotter-maos-great-famine]], 179 n.37. To check: Hebei Provincial Archives, Aug. 15, 1961, 878-1-6, pp. 31–44 (cited by [[w.dikotter-maos-great-famine]], 179 n.37; 224 n.1, p. 38). Check: the day.'
+      src:
+        rows:
+        - 'w.dikotter-maos-great-famine 179: all'
+        - 'via w.dikotter-maos-great-famine 179 n.37: all'
+        c: a33cb1d1
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1961-07.china-leadership-8
+      when: July
+      date: 1961-07
+      thread: china-leadership
+      also:
+      - china
+      c: After the typhoon in the Cangzhou region, Hebei, a party secretary takes charge of a brigade and leads raids on neighbouring villages, carrying off dozens of sheep and several tonnes of vegetables.
+      n: '[[w.dikotter-maos-great-famine]], 224 n.1. Made public: 2010. To check: Hebei Provincial Archives, Aug. 15, 1961, 878-1-6, p. 38 (cited by [[w.dikotter-maos-great-famine]], 224 n.1). See [[cal.1961-07.china-2]]. Check: the month.'
+      src:
+        rows:
+        - 'w.dikotter-maos-great-famine 224: all'
+        - 'via w.dikotter-maos-great-famine 224 n.1: all'
+        c: 5382c7c6
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-at
+- add:
+    entry:
+      id: cal.1961-08-15.china-leadership-11
+      when: Aug. 15
+      date: '1961-08-15'
+      thread: china-leadership
+      also:
+      - china
+      c: 'The Hebei committee''s team on the Cangzhou region: the natural drainage destroyed by the irrigation works since the Great Leap Forward; reservoirs, canals and ditches poorly designed, big square fields in place of the small plots; villages never flooded before waterlogged; everything "emaciated", people, earth, animals and houses.'
+      n: '[[w.dikotter-maos-great-famine]], 179 n.37. Made public: 2010. See [[cal.1961-07.china-2]]. Check: the day.'
+      src:
+        rows:
+        - 'w.dikotter-maos-great-famine 179: all'
+        - 'via w.dikotter-maos-great-famine 179 n.37: all'
+        c: 8e6fe295
+      tags:
+      - polity:prc
+      - vis:only:prc
 - add:
     entry:
       id: cal.1961-01-24.china-leadership-8
@@ -454,14 +499,14 @@ ops:
       when: Jan., late
       date: 1961-01
       thread: china-leadership
-      place: wuwei
+      place: wuwei-gansu
       at: before 1961-01-21
       also:
       - china
-      c: By the end of the month 4,000 villagers run amok at the Wuwei railway station and halt a train, from which every detachable portion of property is removed.
+      c: Late in the month 4,000 villagers at the Wuwei railway station, Gansu, stop a train and strip it of all property that can be removed.
       n: '[[w.dikotter-maos-great-famine]], 225. Made public: 2010. To check: Gansu Provincial Archives, Jan. 24, 1961, 91-9-215, pp. 117–20 (cited by [[w.dikotter-maos-great-famine]], 225 n.6). Check: the day.'
       src:
-        c: a9a985e4
+        c: 7527b1ea
         rows:
         - 'w.dikotter-maos-great-famine 225: all'
         - 'via w.dikotter-maos-great-famine 225 n.6: all'
@@ -495,7 +540,7 @@ ops:
       also:
       - china
       c: 'The Ministry of Public Security instructs the police against the train robbers: nobody is to be ordered to shoot into the crowds, and they are to concentrate on the ringleaders.'
-      n: '[[w.dikotter-maos-great-famine]], 225. Made public: 2010. To check: Report from the Ministry of Railways, Gansu, Jan. 20, 1961, Gansu Provincial Archives, 91-4-889, pp. 19–21 (cited by [[w.dikotter-maos-great-famine]], 225 n.9). Check: the day, and who gave the instruction.'
+      n: '[[w.dikotter-maos-great-famine]], 225. Made public: 2010. To check: Report from the Ministry of Railways, Gansu, Jan. 20, 1961, Gansu Provincial Archives, 91-4-889, pp. 19–21 (cited by [[w.dikotter-maos-great-famine]], 225 n.9). Check: the day.'
       src:
         c: ed50d8a0
         rows:
@@ -504,22 +549,6 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
-- cite:
-    id: cal.1961-01-05.china-leadership-13
-    item: '[[w.dikotter-maos-great-famine]], 225 n.6 (at Wuwei station a few dozen people cause trouble in early January and the crowds swell into the hundreds)'
-- to-check:
-    id: cal.1961-01-05.china-leadership-13
-    add: Gansu Provincial Archives, Jan. 24, 1961, 91-9-215, pp. 117–20 (cited by [[w.dikotter-maos-great-famine]], 225 n.6).
-- place-key:
-    key: yingkou
-    name: Yingkou
-    zone: Asia/Shanghai
-    in: prc
-- place-key:
-    key: zhanjiang
-    name: Zhanjiang
-    zone: Asia/Shanghai
-    in: prc
 - add:
     entry:
       id: cal.1960-03.china-leadership-10
@@ -530,7 +559,7 @@ ops:
       also:
       - china
       c: In Yingkou, Liaoning, over twenty cadres meet one morning to test local produce, from cigarettes to tinned meat, fruit and biscuits, with rice wine. Three of them vomit by the end of the day.
-      n: '[[w.dikotter-maos-great-famine]], 193. Made public: 2010. To check: Neibu cankao, Mar. 6, 1961, p. 5 (cited by [[w.dikotter-maos-great-famine]], 193 n.9). Check: the day.'
+      n: '[[w.dikotter-maos-great-famine]], 193. Made public: 2010. To check: Neibu cankao, Mar. 6, 1961, p. 5 (cited by [[w.dikotter-maos-great-famine]], 193 n.9). Check: the day, and the year.'
       src:
         c: 66cb5db1
         rows:
@@ -549,7 +578,7 @@ ops:
       also:
       - china
       c: Some 250 cadres board a luxury ship for a twenty-five-day cruise on the Yangzi. Fuel and staff cost some 36,000 yuan, besides 5 tonnes of meat and fish.
-      n: '[[w.dikotter-maos-great-famine]], 193–194. Made public: 2010. To check: Neibu cankao, Feb. 22, 1961, pp. 13–14 (cited by [[w.dikotter-maos-great-famine]], 194 n.10). Check: the day.'
+      n: '[[w.dikotter-maos-great-famine]], 193–194. Made public: 2010. To check: Neibu cankao, Feb. 22, 1961, pp. 13–14 (cited by [[w.dikotter-maos-great-famine]], 194 n.10). Check: the day, and the year.'
       src:
         c: 1e5c658e
         rows:
@@ -560,42 +589,23 @@ ops:
       - vis:only:prc
 - add:
     entry:
-      id: cal.1961-02.china-leadership-12
-      when: Feb.
-      date: 1961-02
+      id: cal.1961-02-15.china-leadership-8
+      when: Feb. 15
+      date: '1961-02-15'
       thread: china-leadership
       place: zhanjiang
       also:
       - china
-      c: At Chinese New Year farmers of the Zhanjiang region slaughter thousands of farm cattle in protest, as no pork is available for the festival's dumplings. The same protest is seen in other parts of Guangdong.
-      n: '[[w.dikotter-maos-great-famine]], 195. Made public: 2010. To check: Guangdong Provincial Archives, 1961, 217-1-116, p. 48 (cited by [[w.dikotter-maos-great-famine]], 195 n.16). Check: the day.'
+      c: Chinese New Year. Farmers of the Zhanjiang region, Guangdong, slaughter thousands of farm cattle in protest, no pork being available for the festival's dumplings; the same is seen elsewhere in the province.
+      n: '[[w.dikotter-maos-great-famine]], 195 n.16. Made public: 2010. To check: Guangdong Provincial Archives, 1961, 217-1-116, p. 48 (cited by [[w.dikotter-maos-great-famine]], 195 n.16). The day: the Spring Festival ([[cal.1961-02-15.china-leadership-3]]). Check: the day.'
       src:
-        c: 5249f701
+        c: 38ec59f6
         rows:
         - 'w.dikotter-maos-great-famine 195: all'
         - 'via w.dikotter-maos-great-famine 195 n.16: all'
       tags:
       - polity:prc
       - vis:only:prc
-- add:
-    entry:
-      id: cal.1960.china-leadership-37
-      when: '1960'
-      date: '1960'
-      thread: china-leadership
-      also:
-      - soviet-union
-      - china
-      c: Mao insists on settling the Soviet debt ahead of schedule, within five years, though the agreements allow repayment over sixteen years.
-      n: '[[w.dikotter-maos-great-famine]], 105. Made public: 1999. To check: [[w.lengxi-shinian-lunzhan-1956-1966]], 337 (cited by [[w.dikotter-maos-great-famine]], 105 n.7). Names: Mao Zedong. Check: the day; the book puts it after the recall of the Soviet experts.'
-      src:
-        c: 70b1115a
-        rows:
-        - 'w.dikotter-maos-great-famine 105: all'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:mao-zedong
 - add:
     entry:
       id: cal.1961-04.china-leadership-16
@@ -619,37 +629,6 @@ ops:
       - vis:only:prc+ussr
 - add:
     entry:
-      id: cal.1962-07.china-leadership-14
-      when: July
-      date: 1962-07
-      thread: china-leadership
-      c: Mao, in his swimming pool, hears Liu Shaoqi report that Chen Yun and Tian Jiaying want to put their views on the distribution of land formally. Mao rages that the Three Red Banners have been shot down. Liu answers that so many have died of hunger and that history will judge them both. They calm down, and Mao agrees that the policy of adjustment is to continue.
-      n: '[[w.dikotter-maos-great-famine]], 337. Made public: 2010. To check: Liu Yuan, "Mao Zedong wei shenma yao dadao Liu Shaoqi", quoted in Gao Wenqian, *Zhou Enlai*, pp. 97–8; Huang Zheng, *Wang Guangmei fangtan lu*, p. 288, for a slightly different version (cited by [[w.dikotter-maos-great-famine]], 337 n.5). Names: Mao Zedong, Liu Shaoqi, Chen Yun. Check: the day, and the year made public; the account is Liu''s son''s.'
-      src:
-        c: a9defcb3
-        rows:
-        - 'w.dikotter-maos-great-famine 337: all'
-        - 'via w.dikotter-maos-great-famine 337 n.5a: all'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:mao-zedong
-      - name:liu-shaoqi
-      - name:chen-yun
-- cite:
-    id: cal.1960-07.china
-    item: '[[w.dikotter-maos-great-famine]], 105 n.5 (the letter of recall of July 16, 1960; Khrushchev pulls the Soviet advisers out of China)'
-- to-check:
-    id: cal.1960-07.china
-    add: Letter of recall, in Russian and Chinese, Ministry of Foreign Affairs Archives, Peking, July 16, 1960, 109-924-1, pp. 4–8 (cited by [[w.dikotter-maos-great-famine]], 105 n.5).
-- cite:
-    id: cal.1961-05-02.china-leadership
-    item: '[[w.dikotter-maos-great-famine]], 120 n.18, n.19 (Liu apologises to his fellow villagers at a mass meeting, and the canteen is dissolved that evening on his orders; Liu blames Zhang Pinghua, the provincial public security bureau and Xie Fuzhi)'
-- check:
-    id: cal.1961-05-02.china-leadership
-    text: 'Check: whether the mass meeting of Dikötter, a few days after Liu came, is the one of this entry.'
-- add:
-    entry:
       id: cal.1961-01-06.china-leadership-11
       when: Jan. 6
       date: '1961-01-06'
@@ -657,7 +636,7 @@ ops:
       also:
       - china
       c: 'Liu Daoqian, a party secretary, reports to the Fuyang regional party committee on killings by cadres: in Dahuangzhuang, Linquan, nine of nineteen cadres killed at least one villager during the famine, and team leader Li Fengying killed five. A local cadre has Qin Zonghuai, ill with edema, buried alive as an inspection team is on its way.'
-      n: '[[w.dikotter-maos-great-famine]], 319. Made public: 2010. To check: Report from party secretary Liu Daoqian to the regional party committee, Fuyang, Jan. 6, 1961, Fuyang archives, J3-1-227, pp. 54–5 (cited by [[w.dikotter-maos-great-famine]], 319 n.41, n.46). Check: the day, and which county Liu Daoqian led.'
+      n: '[[w.dikotter-maos-great-famine]], 319. Made public: 2010. To check: Report from party secretary Liu Daoqian to the regional party committee, Fuyang, Jan. 6, 1961, Fuyang archives, J3-1-227, pp. 54–5 (cited by [[w.dikotter-maos-great-famine]], 319 n.41, n.46).'
       src:
         c: cb2c5e1f
         rows:
@@ -675,13 +654,12 @@ ops:
       thread: china-leadership
       also:
       - china
-      c: Hao Ruyi, leader of Jieshou county, Fuyang region, confesses to the investigators that "bad elements" had iron wire pierced through their ears, and that women were stripped, hung by their hair and tortured.
-      n: '[[w.dikotter-maos-great-famine]], 319. Made public: 2010. To check: Confession by Hao Ruyi, leader of Jieshou, Fuyang, Jan. 10, 1961, Fuyang archives, J3-2-280, p. 48 (cited by [[w.dikotter-maos-great-famine]], 319 n.38, n.39). Check: the day.'
+      c: 'Hao Ruyi, a leader of Jieshou county, Fuyang region, Anhui, in his confession: "bad elements" had their ears pierced with iron wire; women were stripped, hung up by their hair and tortured.'
+      n: '[[w.dikotter-maos-great-famine]], 319 n.39. Made public: 2010. To check: Confession by Hao Ruyi, leader of Jieshou, Fuyang, Jan. 10, 1961, Fuyang archives, J3-2-280, p. 48 (cited by [[w.dikotter-maos-great-famine]], 319 n.39).'
       src:
-        c: 2a865805
+        c: d12074ed
         rows:
         - 'w.dikotter-maos-great-famine 319: all'
-        - 'via w.dikotter-maos-great-famine 319 n.38: all'
         - 'via w.dikotter-maos-great-famine 319 n.39: all'
       tags:
       - polity:prc
@@ -694,10 +672,10 @@ ops:
       thread: china-leadership
       also:
       - china
-      c: Zhao Song, leader of Linquan county, Fuyang region, confesses to the investigators that people in the county died beaten and hanged to death, deprived of food or buried alive, and that some were tortured, their ears chopped off and their noses dug out. He says the extent was found out only when the investigation began.
-      n: '[[w.dikotter-maos-great-famine]], 319. Made public: 2010. To check: Confession by Zhao Song, leader of Linquan, Feb. 15, 1961, Fuyang archives, J3-2-280, p. 91 (cited by [[w.dikotter-maos-great-famine]], 319 n.40). Check: the day.'
+      c: 'Zhao Song, party leader of Linquan county, Fuyang region, Anhui, in his confession: people in the county died beaten and hanged, deprived of food or buried alive; some were tortured, their ears cut off, their noses dug out. The extent was found only once the investigation began.'
+      n: '[[w.dikotter-maos-great-famine]], 319. Made public: 2010. To check: Confession by Zhao Song, leader of Linquan, Feb. 15, 1961, Fuyang archives, J3-2-280, p. 91 (cited by [[w.dikotter-maos-great-famine]], 319 n.40).'
       src:
-        c: 263616dd
+        c: f47e99a9
         rows:
         - 'w.dikotter-maos-great-famine 319: all'
         - 'via w.dikotter-maos-great-famine 319 n.40: all'
@@ -713,7 +691,7 @@ ops:
       also:
       - china
       c: The county head of a commune targeted for a visit by the Ministry of the Interior rounds up and hides more than 3,000 villagers with edema, locked up without medical support. Several hundred die in a matter of days.
-      n: '[[w.dikotter-maos-great-famine]], 319. Made public: 2010. To check: Puyang, "Feb. 29, 1961", Fuyang archives, J3-2-278, p. 64 (cited by [[w.dikotter-maos-great-famine]], 319 n.45). Check: the day; the note''s file is dated "29 Feb. 1961".'
+      n: '[[w.dikotter-maos-great-famine]], 319 n.45. Made public: 2010. To check: Fuyang file of "29 Feb. 1961", Fuyang archives, J3-2-278, p. 64 (cited by [[w.dikotter-maos-great-famine]], 319 n.45). Check: the day.'
       src:
         c: 24df2c44
         rows:
@@ -722,3 +700,239 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-04.china-leadership-19
+      when: Apr.–May
+      date: 1961-04
+      thread: china-leadership
+      also:
+      - china
+      c: 'Liu Shaoqi, in a letter after his stay in his home village, blames Zhang Pinghua, the Hunan party head, that no report, letter or complaint from his home town reached him: letters were not allowed, or were opened and kept. He calls the provincial Public Security Bureau "completely rotten" for holding personal letters and beating people who tried to tell him of abuses.'
+      n: '[[w.dikotter-maos-great-famine]], 120 n.19. Made public: 2010. To check: Letter by Liu Shaoqi, Apr.–May 1961, Gansu Provincial Archives, 91-4-889, pp. 2–4 (cited by [[w.dikotter-maos-great-famine]], 120 n.19). Names: Liu Shaoqi. Check: the day, and to whom the letter went.'
+      src:
+        c: cced7a43
+        rows:
+        - 'w.dikotter-maos-great-famine 120: all'
+        - 'via w.dikotter-maos-great-famine 120 n.19: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1960.china-leadership-39
+      when: '1960'
+      date: '1960'
+      thread: china-leadership
+      place: wengcheng
+      also:
+      - china
+      c: Two party secretaries of a commune in Wengcheng, north of Canton, rape or coerce into sex thirty-four women.
+      n: '[[w.dikotter-maos-great-famine]], 258 n.13. Made public: 2010. To check: Guangdong Provincial Archives, Apr. 6, 1961, 217-1-643, pp. 1–9 (cited by [[w.dikotter-maos-great-famine]], 258 n.13). Check: the day.'
+      src:
+        c: 81a83289
+        rows:
+        - 'w.dikotter-maos-great-famine 258: all'
+        - 'via w.dikotter-maos-great-famine 258 n.13: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961.china-leadership-47
+      when: 1961, spring
+      date: '1961'
+      thread: china-leadership
+      also:
+      - china
+      c: By spring eight cities, from Canton to Harbin, hold more than 50,000 people in the custody and deportation stations.
+      n: '[[w.dikotter-maos-great-famine]], 237 n.31. Made public: 2010. To check: Reports from the State Council and the Ministry of Public Security, Feb. 6, June 5 and Nov. 10, 1961, Hubei Provincial Archives, SZ34-5-15, pp. 7–8 and 58–61 (cited by [[w.dikotter-maos-great-famine]], 237 n.31). Check: the day.'
+      src:
+        c: b81c428e
+        rows:
+        - 'w.dikotter-maos-great-famine 237: all'
+        - 'via w.dikotter-maos-great-famine 237 n.31: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960.china-leadership-40
+      when: '1960'
+      date: '1960'
+      thread: china-leadership
+      also:
+      - china
+      c: Sichuan detains some 380,000 people on the move and sends them back.
+      n: '[[w.dikotter-maos-great-famine]], 237 n.32. Made public: 2010. To check: Sichuan Provincial Archives, Nov.–Dec. 1961, JC1-2756, pp. 84–5 (cited by [[w.dikotter-maos-great-famine]], 237 n.32). Check: the day.'
+      src:
+        c: d3ae145e
+        rows:
+        - 'w.dikotter-maos-great-famine 237: all'
+        - 'via w.dikotter-maos-great-famine 237 n.32: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-17.china-leadership-7
+      when: Jan. 17
+      date: '1961-01-17'
+      thread: china-leadership
+      also:
+      - china
+      c: A Hunan report counts over 800 cases of grain theft in the Xiangtan region in the winter of 1960–61.
+      n: '[[w.dikotter-maos-great-famine]], 224 n.5. Made public: 2010. To check: Hunan Provincial Archives, Jan. 17, 1961, 146-1-580, p. 29 (cited by [[w.dikotter-maos-great-famine]], 224 n.5). Check: the day.'
+      src:
+        c: 6d29030d
+        rows:
+        - 'w.dikotter-maos-great-famine 224: all'
+        - 'via w.dikotter-maos-great-famine 224 n.5: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960.china-leadership-41
+      when: '1960'
+      date: '1960'
+      thread: china-leadership
+      also:
+      - china
+      c: 'In Hengshui, Hebei, half of the 50,000 migrants from Qingliangdian commune are coaxed home: relatives are made to write letters begging them back, some carried to them by local cadres.'
+      n: '[[w.dikotter-maos-great-famine]], 237 n.30. Made public: 2010. To check: Hebei Provincial Archives, Dec. 17, 1960, 878-2-8, pp. 8–10 (cited by [[w.dikotter-maos-great-famine]], 237 n.30). Check: the day.'
+      src:
+        c: 126ccf39
+        rows:
+        - 'w.dikotter-maos-great-famine 237: all'
+        - 'via w.dikotter-maos-great-famine 237 n.30: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-05.china-5
+      when: May
+      date: 1962-05
+      thread: china
+      c: Refugees making for Hong Kong take a reservoir near the border for the river and try to swim it at night; some 200 bodies are later found.
+      n: '[[w.dikotter-maos-great-famine]], 240 n.56. To check: ICRC, Geneva, report from Paul Calderara, June 5, 1962, BAG 2 34 048-008.03 (cited by [[w.dikotter-maos-great-famine]], 240 n.56). Check: the day.'
+      src:
+        c: 20c5e638
+        rows:
+        - 'w.dikotter-maos-great-famine 240: all'
+        - 'via w.dikotter-maos-great-famine 240 n.56: all'
+      tags:
+      - polity:prc
+      - ok:fields-place
+      - ok:fields-time
+- cite:
+    id: cal.1960-12-17.china-leadership-8
+    item: '[[w.dikotter-maos-great-famine]], 327 n.14 (Liu Zihou reports to Mao 4,700 "abnormal deaths" for all of Hebei in 1960, though his own inspectors had found some 18,000 dead of hunger in one county since 1958)'
+- check:
+    id: cal.1960-12-17.china-leadership-8
+    text: 'Check: whether Liu Zihou''s report to Mao of 4,700 abnormal deaths in Hebei in 1960 ([[w.dikotter-maos-great-famine]], 327) is this brief.'
+- to-check:
+    id: cal.1960-12-17.china-leadership-8
+    add: Hebei Provincial Archives, Jan. 10, 1961, 856-1-221, pp. 31–2; Dec. 17, 1960, 858-18-777, pp. 96–7 (cited by [[w.dikotter-maos-great-famine]], 327 n.14a, n.14b).
+- cite:
+    id: cal.1960-12-28.china-leadership-7
+    item: '[[w.dikotter-maos-great-famine]], 327 n.15 (Liu Zihou chastises the county leaders for covering up the extent of the famine)'
+- check:
+    id: cal.1960-12-28.china-leadership-7
+    text: 'Check: whether Liu Zihou''s rebuke of the county leaders for covering up the famine ([[w.dikotter-maos-great-famine]], 327 n.15; Hebei file of Dec. 29, 1960) is this telegram.'
+- cite:
+    id: cal.1961-06-18.china-leadership-4
+    item: '[[w.dikotter-maos-great-famine]], 238 n.37 (the order of June 18, 1961 to send back 20 million from the cities: 10 million before the end of the year, saving 2 million tonnes of grain; the rest in 1962, stragglers by 1963)'
+- cite:
+    id: cal.1962-05-25.china-leadership
+    item: '[[w.dikotter-maos-great-famine]], 240 n.50, n.51 (in Kulja an armed mob invades the Soviet consulate to take away the archives on the nationality of the minority peoples; granaries are robbed and shots fired at the militia; crowds at the party offices are fired upon)'
+- to-check:
+    id: cal.1962-05-25.china-leadership
+    add: Ministry of Foreign Affairs Archives, Peking, June 30, 1962, 118-1758-1, pp. 1–8; RGANI, Moscow, Nov. 6, 1964, 5-49-722, pp. 194–7 (cited by [[w.dikotter-maos-great-famine]], 240 n.50, n.51).
+- check:
+    id: cal.1962-05-25.china-leadership
+    text: 'Check: whether the invasion of the Soviet consulate and the firing on the crowds at Kulja ([[w.dikotter-maos-great-famine]], 240) are this day''s incident.'
+- cite:
+    id: cal.1962-04-16.china-leadership-4
+    item: '[[w.dikotter-maos-great-famine]], 239 n.46, n.47 (some 64,000 had crossed into the Soviet Union by May; half the population of Tacheng marched to the border)'
+- to-check:
+    id: cal.1962-04-16.china-leadership-4
+    add: RGANI, Moscow, May 22, 1962, 5-30-401, p. 39; Ministry of Foreign Affairs Archives, Peking, May 10, 1962, 118-1100-9, pp. 71–9; RGANI, Moscow, Apr. 28, 1962, 3-18-53, pp. 2–3 and 8–12 (cited by [[w.dikotter-maos-great-famine]], 239 n.46, n.47, n.48).
+- variant:
+    id: cal.1962-05-15.china-leadership-5
+    unit: A
+    reads: the flight to Hong Kong in May 1962 reached a peak of over 5,000 a day
+    at: '240'
+    witness: w.dikotter-maos-great-famine
+- cite:
+    id: cal.1962-06-05.china
+    item: '[[w.dikotter-maos-great-famine]], 240 n.55 (clashes between mobs and police in early June, a riot put down by troops)'
+- to-check:
+    id: cal.1962-06-05.china
+    add: CIA, Washington, July 27, 1962, OCI 2712-62, p. 4; South China Morning Post, June 6, 1962 (cited by [[w.dikotter-maos-great-famine]], 240 n.55).
+- cite:
+    id: cal.1961-10.china-leadership-4
+    item: '[[w.dikotter-maos-great-famine]], 180 n.38 (Hu Yaobang''s report of Oct. 1, 1961, after a month and some 1,800 kilometres in September from Shangqiu through Jining and Fuyang to Xuzhou: the rainfall hardly exceptional; the irrigation works the chief cause of the inundations)'
+- to-check:
+    id: cal.1961-10.china-leadership-4
+    add: Report by Hu Yaobang, Oct. 1, 1961, Hunan Provincial Archives, 141-2-138, pp. 186–9 (cited by [[w.dikotter-maos-great-famine]], 180 n.38).
+- cite:
+    id: cal.1961-01-05.china-leadership-13
+    item: '[[w.dikotter-maos-great-famine]], 225 n.6 (at Wuwei station a few dozen people cause trouble in early January and the crowds swell into the hundreds)'
+- to-check:
+    id: cal.1961-01-05.china-leadership-13
+    add: Gansu Provincial Archives, Jan. 24, 1961, 91-9-215, pp. 117–20 (cited by [[w.dikotter-maos-great-famine]], 225 n.6).
+- cite:
+    id: cal.1960-07.china
+    item: '[[w.dikotter-maos-great-famine]], 105 n.5 (the letter of recall of July 16, 1960; Khrushchev pulls the Soviet advisers out of China)'
+- to-check:
+    id: cal.1960-07.china
+    add: Letter of recall, in Russian and Chinese, Ministry of Foreign Affairs Archives, Peking, July 16, 1960, 109-924-1, pp. 4–8 (cited by [[w.dikotter-maos-great-famine]], 105 n.5).
+- cite:
+    id: cal.1960-07.china-leadership
+    item: '[[w.dikotter-maos-great-famine]], 105 n.7 (Mao, though the agreements allow repayment over sixteen years, insists on paying the Soviet Union back within five: "we want to fasten our belts")'
+- cite:
+    id: cal.1962-07.china-leadership-9
+    item: '[[w.dikotter-maos-great-famine]], 337 n.5a (by Liu Yuan''s account: Liu, at Mao''s swimming pool, tells of Chen Yun''s and Tian Jiaying''s wish to put their views on land distribution formally; Mao: the Three Red Banners shot down; Liu: so many dead of hunger, history will judge them both; Mao then agrees the adjustment goes on)'
+- to-check:
+    id: cal.1962-07.china-leadership-9
+    add: 'Liu Yuan, "Mao Zedong wei shenma yao dadao Liu Shaoqi", quoted in Gao Wenqian, *Zhou Enlai: The Last Perfect Revolutionary* (New York: PublicAffairs, 2007), 97–98; Huang Zheng, *Wang Guangmei fangtan lu* (Beijing: Zhongyang wenxian chubanshe, 2006), 288, Wang Guangmei''s version (cited by [[w.dikotter-maos-great-famine]], 337 n.5a, n.5b).'
+- cite:
+    id: cal.1961-05-07.china-leadership-2
+    item: '[[w.dikotter-maos-great-famine]], 120 n.18 (a few days after he reaches his home village, Liu apologises to the villagers at a mass meeting: home for the first time in nearly forty years, their lives bitter, "we beg for your pardon"; the canteen dissolved that evening on his orders)'
+- to-check:
+    id: cal.1961-05-07.china-leadership-2
+    add: 'Jin Chongji and Huang Zheng, eds., *Liu Shaoqi zhuan* (Beijing: Zhongyang wenxian chubanshe, 1998), 874 (cited by [[w.dikotter-maos-great-famine]], 120 n.18).'
+- place:
+    id: cal.1961-05-07.china-leadership-2
+    at: tanzichong
+    basis: n
+    note: 'the Liu chronology: the forum of Tanzichong brigade'
+- cite:
+    id: cal.1961-07-10.china-leadership-5
+    item: '[[w.dikotter-maos-great-famine]], 120 n.19 (later, Liu confronts Xie Fuzhi, minister of public security: why was abuse allowed to go on unchecked in his home town)'
+- to-check:
+    id: cal.1961-07-10.china-leadership-5
+    add: Letter by Liu Shaoqi, Apr.–May 1961, Gansu Provincial Archives, 91-4-889, pp. 2–4 (cited by [[w.dikotter-maos-great-famine]], 120 n.19).
+- check:
+    id: cal.1961-07-10.china-leadership-5
+    text: 'Check: whether this letter is Liu''s confrontation with Xie Fuzhi that [[w.dikotter-maos-great-famine]] (120) puts after his stay in his home village.'
+- check:
+    id: cal.1961-01-05.china-leadership-13
+    text: 'Check: whether the trouble at Wuwei station in early January ([[w.dikotter-maos-great-famine]], 225) is this day''s.'
+- place:
+    id: cal.1961-01-05.china-leadership-13
+    at: wuwei-gansu
+    basis: c
+- check:
+    id: cal.1961-04-08.china
+    text: 'Check: whether the Soviet agreement of April 1961 to refinance 288 million rubles of unpaid balances as a new credit over four years ([[w.dikotter-maos-great-famine]], 106 n.13) is among the documents signed.'
+- cite:
+    id: cal.1962-05.china
+    item: '[[w.dikotter-maos-great-famine]], 240 n.54 (May 1962: the mainland relaxes its border controls and the flow to Hong Kong becomes a flood; most who go are young urban residents lately sent to the countryside)'
+- to-check:
+    id: cal.1962-05.china
+    add: Hong Kong Standard, May 11, 1962 (cited by [[w.dikotter-maos-great-famine]], 240 n.54).
