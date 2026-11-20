@@ -127,6 +127,21 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
+    key: rung-sat
+    name: Rừng Sác
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: hanh-thong-tay
+    name: Hạnh Thông Tây
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: nhi-binh
+    name: Nhị Bình
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: camp-e-se-pich
     name: Camp Ê-sê-pích
     zone: Asia/Ho_Chi_Minh
@@ -134,6 +149,11 @@ ops:
 - place-key:
     key: plei-can
     name: Plây Cần
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: ba-ria
+    name: Bà Rịa
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
@@ -186,6 +206,7 @@ ops:
       - 'name:le-duc-tho'
       - 'name:nguyen-thi-binh'
       - 'name:nguyen-cao-ky'
+      - 'name:tran-buu-kiem'
       place: paris
 - add:
     entry:
@@ -559,10 +580,11 @@ ops:
       also:
       - vietnam-operations
       c: 'A Bia. Lt. Gen. Melvin Zais, the 101st Airborne''s commander, orders the 2d Battalions of the 501st and 502d and the 2d Battalion, 3d Regiment, Saigon 1st Division, to encircle the mountain from northeast, southeast and southwest, to cut supply and retreat.'
-      n: '[[w.lich-su-khang-chien-chong-my]], VI, 124–25.'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 124–25. Names: Zais.'
       tags:
       - 'polity:drv'
       - 'polity:us'
+      - 'name:zais-melvin'
       place: a-bia
 - add:
     entry:
@@ -1185,9 +1207,10 @@ ops:
       also:
       - vietnam-hanoi
       c: Laos. Vang Paos special forces and the right-wing army, directed by the Americans, open three operations, Samakkhi (Solidarity) I, II and III, to take Xieng Khoảng town and the ground round the Plain of Jars. The Lao Peoples Liberation Armys 1st and 701st Battalions, with the local forces and guerrillas of Mường Khun, stop and wear them down, and they fall back to Sam Thong and Long Tieng.
-      n: '[[w.lich-su-khang-chien-chong-my]], VI, 239. Check: the days; the history gives "cuối tháng 4-1969 đến tháng 6-1969".'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 239. Names: Vang Pao. Check: the days; the history gives "cuối tháng 4-1969 đến tháng 6-1969".'
       tags:
       - 'polity:laos'
+      - 'name:vang-pao'
       - 'polity:pathet-lao'
       place: plain-of-jars
       at: before 1969-04-21
@@ -1213,9 +1236,10 @@ ops:
       also:
       - vietnam-hanoi
       c: Laos. Under cover of American air and artillery, a mixed force from Sam Thong–Long Tieng and Vang Vieng, Vang Paos men, the right-wing army and 5,000 Thais, 18 battalions and 52 companies of special forces in all, opens Kou Kiet and drives into the center of the Plain of Jars. The rains have flooded the defenders works; the advance is fast, with villages burned.
-      n: '[[w.lich-su-khang-chien-chong-my]], VI, 241–42 and n. 1. Check: the day of the opening; the history gives "cuối tháng 7-1969" and, for the attack, July 31.'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 241–42 and n. 1. Names: Vang Pao. Check: the day of the opening; the history gives "cuối tháng 7-1969" and, for the attack, July 31.'
       tags:
       - 'polity:laos'
+      - 'name:vang-pao'
       - 'polity:pathet-lao'
       - 'polity:thailand'
       - 'ok:fields-place'
@@ -1282,10 +1306,11 @@ ops:
       also:
       - vietnam-operations
       c: 'Region Vs three forces hit the American strategic depots at An Đồn, Đà Nẵng, Đèo Son and Miếu Lỗ near Quy Nhơn, and Cam Ranh, and the command posts of the III Marine Amphibious Force, the 23d (Americal) Division and the 11th, 196th and 198th Brigades. The 2d Division draws American mobile forces out to An Hòa, Quảng Đà, Tiên Phước, Quảng Nam, and west of Tư Nghĩa and Đức Phổ, Quảng Ngãi. By the historys count thousands of the enemy out of action, hundreds of aircraft and vehicles destroyed. AFP, Mar. 14, quotes Lt. Gen. Hoàng Xuân Lãm: the fighting around Đà Nẵng shows the Viet Cong infrastructure intact.'
-      n: '[[w.lich-su-khang-chien-chong-my]], VI, 103–5. See [[cal.1969-02-22.vietnam-hanoi]]. Check: the first day, which the history gives as the spring phases opening, the night of Feb. 22–23; the figures.'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 103–5. See [[cal.1969-02-22.vietnam-hanoi]]. Names: Hoàng Xuân Lãm. Check: the first day, which the history gives as the spring phases opening, the night of Feb. 22–23; the figures.'
       tags:
       - 'polity:drv'
       - 'polity:us'
+      - 'name:hoang-xuan-lam'
       place: da-nang
 - add:
     entry:
@@ -1342,6 +1367,106 @@ ops:
       - 'polity:drv'
       - 'vis:only:drv'
       at: before 1969-05
+- add:
+    entry:
+      id: cal.1969-05-19.vietnam-hanoi-3
+      when: May 19
+      date: '1969-05-19'
+      thread: vietnam-hanoi
+      c: 'Hồ Chí Minh, receiving a delegation of the army cadres'' class come to wish him long life on his 79th birthday, speaks on the strength of the war: a one-kilogram weight, set at an advantage, lifts a hundred; the Americans lose by their position, though still stubborn. His charge: the rear to do better for the front, first of all; build forces of high quality, vigilant and ready, and spare men, arms and rice; the troops to help the people and strengthen the rear.'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 192 and n. 1–2. See [[cal.1969-05.vietnam-hanoi]]. To check: Hồ Chí Minh, *Toàn tập*, XII (2000), 455, 465–66 (cited by [[w.lich-su-khang-chien-chong-my]], VI, 192 n.). Names: Hồ Chí Minh. Check: the day; the history gives the occasion, his 79th birthday, and its own date for the birthday is May 19 (VI, 117).'
+      tags:
+      - 'polity:drv'
+      - 'name:ho-chi-minh'
+      place: hanoi
+- add:
+    entry:
+      id: cal.1969.vietnam-hanoi-9
+      when: '1969'
+      date: '1969'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-pacification
+      c: Ba Làng An, Quảng Ngãi. 6,000 villagers forced by the Saigon side into a concentration area press the struggle until they are sent back to their old villages.
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 127–28 and n. 1. To check: Viện Nghiên cứu chủ nghĩa Mác–Lênin và Tư tưởng Hồ Chí Minh, *Lịch sử Đảng Cộng sản Việt Nam, 1954–1975* (Chính trị quốc gia, 1995), II, 440–41 (cited by [[w.lich-su-khang-chien-chong-my]], VI, 128 n.). Check: the day; the history gives it among the results of the spring and summer phases of 1969.'
+      tags:
+      - 'polity:drv'
+      place: quang-ngai-province
+- add:
+    entry:
+      id: cal.1969.vietnam-hanoi-10
+      when: '1969'
+      date: '1969'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Hạnh Thông Tây, Gò Vấp. The Mai Dinh sapper team of Saigon–Gia Định Battalion 4 slips into the depot, sets charges and destroys 35,000 tons of munitions. Mai Dinh is later named a Hero of the Liberation Armed Forces.
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 140 and n. 1. Check: the day and the year; the history gives the raid in its account of the autumn and winter fighting round Saigon.'
+      tags:
+      - 'polity:drv'
+      place: hanh-thong-tay
+- add:
+    entry:
+      id: cal.1969.vietnam-hanoi-11
+      when: '1969'
+      date: '1969'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Nhị Bình, Hóc Môn. Battalion 2 of the Quyết Thắng Regiment shoots down 15 helicopters in beating a sweep.
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 140. Check: the day and the year; the history gives the action with the Saigon-area fighting of 1969.'
+      tags:
+      - 'polity:drv'
+      place: nhi-binh
+- add:
+    entry:
+      id: cal.1969.vietnam-hanoi-12
+      when: '1969'
+      date: '1969'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Rừng Sác. Group 10, the sappers, fights encircled through the year with 300 killed, cut off from supply and from its contacts among the people; makes its own arms, finds a way to attack ships, and raids the Nhà Bè fuel depot and the Thành Tuy Hạ bomb depot. By early 1970 170 are left.
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 140 and n. 2. See [[cal.1969-05-19.vietnam-hanoi]]. Check: the days of the raids; the history gives the year.'
+      tags:
+      - 'polity:drv'
+      place: rung-sat
+- add:
+    entry:
+      id: cal.1969-12.vietnam-hanoi-5
+      when: Dec., winter
+      date: 1969-12
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Bà Rịa. Against the Australian brigades half-buried bunkers and fences, the province Party committee orders "Three holds": the Party holds the people, the people the land, the armed forces the enemy. Attacks from outside fail; scouts and sappers then slip in and build agents and secret guerrillas. One night Battalion 445 and Company 25 of Long Đất destroy 12 bunkers. By early 1970 the bunker tactic is beaten.'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 142–43 and n. 1. Check: the days; the history gives the winter phase and the early 1970 result.'
+      tags:
+      - 'polity:drv'
+      place: ba-ria
+      at: before 1969-12-21
+- add:
+    entry:
+      id: cal.1969-11-03.vietnam-hanoi-2
+      when: Nov. 3
+      date: '1969-11-03'
+      thread: vietnam-hanoi
+      c: 'The Vietnam News Agencys commentary "Cải cách điền địa - một trò bịp bợm và phản động" (Land reform, a fraud and a reactionary trick), on the Saigon governments land program: nearly all land in the South, from landlords to the French-owned land sold to Diệm and Nhu in 1958, has been divided by the revolution to the peasants since the uprising; Saigons village officials and exiled landlords take it back and give it to puppet troops, in Long An, Tây Ninh, Bình Thuận and Bà Rịa.'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 49–50. Check: the place; the history names the agency, not the city, and gives the day only.'
+      tags:
+      - 'polity:drv'
+      place: hanoi
+- add:
+    entry:
+      id: cal.1970-01-14.vietnam
+      when: Jan. 14
+      date: '1970-01-14'
+      thread: vietnam
+      c: 'Laird, in a speech in California: of all the changes of policy in the administrations first year none matters more than Vietnamization, the test of the wider Asian policy Nixon announced at Guam in July 1969.'
+      n: '[[w.lich-su-khang-chien-chong-my]], VI, 29 and n. 2. Names: Laird. Check: the words and the place; the history quotes in Vietnamese and gives "Caliphoócnia".'
+      tags:
+      - 'polity:us'
+      - 'name:laird-melvin-r'
 - add:
     entry:
       id: cal.1969-02-03.vietnam-hanoi
@@ -1741,7 +1866,7 @@ ops:
     units: E
 - cite:
     id: cal.1969-07-25.vietnam
-    item: '[[w.lich-su-khang-chien-chong-my]], VI, 29 and n. (the Guam statement of July 1969, named by Laird, Jan. 14, 1970, the Nixon Doctrine, applied to Asia by Vietnamization)'
+    item: '[[w.lich-su-khang-chien-chong-my]], VI, 15–16, 29 and n. (the Guam address of July 1969 in three points: the United States to keep its treaty commitments; a nuclear shield against a nuclear power; in other aggression, aid on request, the threatened state to supply the manpower for its own defense; the history names it the Nixon Doctrine and has Laird, Jan. 14, 1970, call Vietnamization its first test)'
     units: B
 - variant:
     id: cal.1969-09-26.vietnam-hanoi

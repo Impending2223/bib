@@ -37,6 +37,11 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
+    key: bsar
+    name: B'Sar
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: cai-be
     name: Cái Be
     zone: Asia/Ho_Chi_Minh
@@ -329,6 +334,11 @@ ops:
 - place-key:
     key: ong-han
     name: cầu Ông Hàn
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: phu-long-bt
+    name: Phú Long
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
@@ -1700,8 +1710,8 @@ ops:
       when: Aug. 27
       date: '1961-08-27'
       thread: vietnam-hanoi
-      c: The Region's junior military-political school is founded, Aug. 27, in the Eastern Nam Bộ command's area, with Region 5's school of Apr. 11 and Region 9's of the year's end to train cadres on the battlefield.
-      n: '[[w.lich-su-khang-chien-chong-my]], III, 48. Made public: 2013. Check: the place; "Region" here is the Central Office''s (Miền) command.'
+      c: The Central Office's (the Region's) junior military-political school is founded, Aug. 27, one of three, with Region 5's of Apr. 11 and Region 9's of the year's end, to train cadres on the battlefield.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 48. Made public: 2013. Check: the place; "Miền", the Region, is the Central Office''s.'
       tags:
       - polity:drv
       - vis:only:drv
@@ -1781,7 +1791,7 @@ ops:
       when: July
       date: '1962-07'
       thread: vietnam-hanoi
-      c: 'Military Region 4''s second Party congress, in July: the line "win the first battle, hit and bring down the planes when the enemy violates the air and sea of the region."'
+      c: 'Military Region 4''s second Party congress, in July: its line: win the first battle and shoot down what enters the region''s air and sea.'
       n: '[[w.lich-su-khang-chien-chong-my]], III, 116. Check: the day and the place.'
       tags:
       - polity:drv
@@ -4693,10 +4703,63 @@ ops:
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: Long An. Battalion 1 of the province beats a sweep of the Saigon 25th Division at Thạnh Lợi commune, Apr. 8, the province committee's best day in the drive begun that year to break the pacification plan north and south of Route 4.
+      c: Long An. Battalion 1 of the province beats a sweep of the Saigon 25th Division at Thạnh Lợi commune, Apr. 8, the most notable of the province's fights against sweeps in the drive begun at the year's start to break the pacification plan.
       n: '[[w.lich-su-khang-chien-chong-my]], III, 358.'
       tags:
       - polity:drv
+- add:
+    entry:
+      id: cal.1965-05-17.vietnam-hanoi
+      when: May 17
+      date: '1965-05-17'
+      place: phu-long-bt
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bình Thuận. May 17 Region 6's troops, dressed as civilians in two three-wheeled taxis, open fire by surprise on the guards of a bridge and take the Saigon office at Phú Long. The Phan Thiết subsector sends Civil Guard Companies 441 and 887 with five M113s; seven times they cross the river and are thrown back.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 434–35.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1965-05-22.vietnam-hanoi-2
+      when: May 22
+      date: '1965-05-22'
+      place: phu-long-bt
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bình Thuận. May 22 Saigon sends a marine battalion and a Ranger battalion to counterattack at Phú Long; after four hours Region 6's troops break their assaults, 150 killed or wounded.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 435.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1965-06-27.vietnam-hanoi
+      when: June 27
+      date: '1965-06-27'
+      place: bsar
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Lâm Đồng. June 27 the province's troops destroy the B'Sar strongpoint, which commands a wide area south of the Blao pass, and bring down the bridges at Đậm Mrế and Đạc Oai; the people along Routes 20 and 14 bis rise and Saigon pulls back to Bảo Lộc and Di Linh.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 434.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-02-01.vietnam-hanoi-2
+      when: Feb. 1
+      date: '1963-02-01'
+      place: hanoi
+      thread: vietnam-hanoi
+      also:
+      - vietnam
+      c: Hồ Chí Minh's article in *Nhân Dân*, under the pen name TL, Feb. 1, on the defeat of the Americans' newest tactics and arms by the people's spirit; the history cites it for the Ấp Bắc battle.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 239 n.1. Names: Hồ Chí Minh. Check: the article itself not read; its subject is the history''s.'
+      tags:
+      - polity:drv
+      - name:ho-chi-minh
 - cite:
     id: cal.1960-01-26.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], II, 325–30 (Tua Hai, the Thirty-second Regiment''s base: the Nam Bộ Regional Committee''s decision, held to the lunar New Year; the attack from 0:30 a.m.)'
@@ -5148,5 +5211,21 @@ ops:
     id: cal.1965-03-30.vietnam
     unit: A
     witness: w.lich-su-khang-chien-chong-my
-    reads: 'the charge 150 kg of high explosive in a car driven into the main gate of the five-story embassy, set off by hand; 132 Americans and others killed or wounded, Deputy Ambassador U. Alexis Johnson badly wounded, Taylor away; the Pentagon Papers quoted: "the boldest and most direct Communist action against the United States"'
+    reads: the charge 150 kg of high explosive in a car driven into the main gate of the five-story embassy, set off by hand; 132 Americans and others killed or wounded, Deputy Ambassador U. Alexis Johnson badly wounded, Taylor away; the history cites the Pentagon Papers for its being the most direct Communist act against the Americans
     at: III, 396–97
+- cite:
+    id: cal.1960-08-09.laos
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 9 (Aug. 9, 1960, Capt. Kong Le, commanding the 2d Paratroop Battalion, overthrows the pro-American Phoumi Nosavan government; Vietnam is asked for help in the Lao resistance)'
+    units: A
+- cite:
+    id: cal.1962-07-02.laos
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 133 (July 2, 1962, the international conference on Laos, 14 nations, meets at Geneva)'
+    units: A
+- cite:
+    id: cal.1962-07-23.laos
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 133 (July 23, 1962, the conference ends: the Americans to withdraw their 666 advisers from Laos; respect for Laos'' independence and territory)'
+    units: A
+- cite:
+    id: cal.1960-11-11.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 316 n.1 (the night of Nov. 10–11, paratroop battalions under Col. Nguyễn Chánh Thi, commander of the Saigon paratroop brigade, take some command posts and surround the Palace; the morning of Nov. 12 Khiêm, commanding IV Corps, called by Diệm in secret, brings troops back and ends the revolt; Thi flees to Cambodia)'
+    units: A

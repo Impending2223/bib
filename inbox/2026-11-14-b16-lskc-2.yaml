@@ -146,6 +146,11 @@ ops:
     name: Đồng Lộc
     zone: Asia/Bangkok
     in: drv
+- place-key:
+    key: da-lat
+    name: Dalat
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
 - add:
     entry:
       id: cal.1964.vietnam-hanoi-3
@@ -1019,7 +1024,7 @@ ops:
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: West Sơn Tịnh, Quảng Ngãi. After an hour of bombing the Americans land the 1st Battalion, 2d Marines and the 2d Battalion, 7th Marines west of hill 62 and Gò Cát market at 8 a.m.; the fight runs to 5 a.m. Mar. 5. Mar. 5 two columns from Khánh Mỹ and Cà Ty hill attack hill 62 and Hòa Vinh, and Regiment 1 is ordered out at 3:30 p.m. Mar. 6 the Americans end the largest search operation they have made in Quảng Ngãi and leave west Sơn Tịnh.
+      c: West Sơn Tịnh, Quảng Ngãi. After an hour of bombing the Americans land the 1st Battalion, 2d Marines and the 2d Battalion, 7th Marines west of hill 62 and Gò Cát market at 8 a.m.; the fight runs to 5 a.m. Mar. 5. Mar. 5 two columns from Khánh Mỹ and Cà Ty hill attack hill 62 and Hòa Vinh, and Regiment 1 is ordered out at 3:30 p.m. Mar. 6 the Americans end their largest search operation, that in north Bình Định, and leave west Sơn Tịnh.
       n: '[[w.lich-su-khang-chien-chong-my]], IV, 114–16.'
       tags:
       - polity:drv
@@ -3195,6 +3200,291 @@ ops:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-01.vietnam-diplomacy
+      when: Mar. 1–9
+      date: '1965-03-01'
+      thread: vietnam-diplomacy
+      also:
+      - vietnam-hanoi
+      - laos
+      - china
+      c: The Indochinese People's Conference meets at Phnom Penh, on the initiative of Vietnam and Cambodia, to unite the peoples of the three countries against the Americans; it stresses the need to strengthen the sincere and lasting solidarity of the Indochinese peoples.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 293. See [[cal.1965-02-23.china-2]], [[cal.1965-03-13.china-leadership-3]].'
+      tags:
+      - polity:drv
+      - polity:cambodia
+      place: phnom-penh
+- add:
+    entry:
+      id: cal.1965-03-22.vietnam-diplomacy
+      when: Mar. 22
+      date: '1965-03-22'
+      thread: vietnam-diplomacy
+      also:
+      - vietnam-hanoi
+      c: 'The Liberation Front''s Central Committee issues its five-point statement: the Americans out; a South Vietnam independent, democratic, peaceful and neutral, moving toward unity; the South''s people and the Liberation Army to drive out the Americans, to free the South and defend the North; the South to take aid, arms included, from friends everywhere; all the people united and armed. Twenty-seven Communist and workers'' parties, 22 governments, 22 international bodies and 446 national bodies of 92 countries support it, the history says.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 321–22. Check: how and where it was issued, and the count of its supporters; the history gives neither.'
+      tags:
+      - polity:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-01-03.vietnam-diplomacy
+      when: Jan. 3–15
+      date: '1966-01-03'
+      thread: vietnam-diplomacy
+      also:
+      - vietnam-hanoi
+      c: The Asian, African and Latin American peoples' solidarity conference meets at Havana. It supports Vietnam and condemns the Americans and the Saigon regime; the DRV's and the Liberation Front's delegations speak and are backed by nearly all.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 297. Check: the delegations'' speakers and the conference''s resolution; the passage read gives neither.'
+      tags:
+      - polity:drv
+      - polity:cuba
+      place: havana
+- add:
+    entry:
+      id: cal.1966-11-15.vietnam-diplomacy
+      when: Nov. 15
+      date: '1966-11-15'
+      thread: vietnam-diplomacy
+      also:
+      - vietnam-hanoi
+      c: The International War Crimes Tribunal, on the idea of the British scholar Bertrand Russell, is set up to try the American war crimes in Vietnam.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 447. Check: the place; the history prints the formal first session as May 2–13, 1966 at Stockholm, which cannot precede its founding on Nov. 15, 1966 as printed.'
+      tags:
+      - polity:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-11-20.vietnam-diplomacy
+      when: Nov. 20–Dec. 1
+      date: '1967-11-20'
+      thread: vietnam-diplomacy
+      also:
+      - vietnam-hanoi
+      c: 'The Russell Tribunal sits in Copenhagen for its second session. Its finding, the history says: the American government guilty of aggression against Vietnam, and Australia, New Zealand and South Korea its accomplices in savage crimes.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 447. Check: the place, which the history gives as Copenhagen, Denmark; whether the finding was read at this session.'
+      tags:
+      - polity:drv
+      place: copenhagen
+- add:
+    entry:
+      id: cal.1967-12.vietnam-prisoners
+      when: Dec.
+      date: 1967-12
+      thread: vietnam-prisoners
+      also:
+      - vietnam-hanoi
+      - vietnam-diplomacy
+      c: The DRV Government announces the release of three American prisoners for Christmas to rejoin their families. Some high American officials take it for a sign Hanoi has given up hope of winning the South soon, and of the chance of direct talks, "some kind of Panmunjom stage".
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 329. Check: the day and the names of the three; the history gives neither.'
+      tags:
+      - polity:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-01-30.vietnam-tet-17
+      when: Jan. 30
+      date: '1968-01-30'
+      thread: vietnam-tet
+      also:
+      - vietnam-hanoi
+      c: Buôn Ma Thuột, Đắk Lắk. The attack on the town opens at 12:45 a.m. Jan. 30. Jan. 31 at noon the Saigon 23d Division sends the 2d Battalion, 45th Regiment, to the town's relief.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 127–28. Check: the clock, whose it is.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: ban-me-thuot
+      time: 1968-01-29T16:45Z
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1968-01-30.vietnam-tet-10
+      when: Jan. 30
+      date: '1968-01-30'
+      thread: vietnam-tet
+      also:
+      - vietnam-hanoi
+      c: Quy Nhơn. The attack on the city opens at 1:15 a.m. with the taking of the radio station at its center. Bình Định's chief objective in the offensive is the city.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 129–30. Check: the clock, whose it is.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: qui-nhon
+      time: 1968-01-29T17:15Z
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1968-01-30.vietnam-tet-11
+      when: Jan. 30
+      date: '1968-01-30'
+      thread: vietnam-tet
+      also:
+      - vietnam-hanoi
+      c: Quảng Ngãi town. The attack opens at 2:30 a.m. with fire on the airfield, the Saigon 2d Division's headquarters and the militia training center, and the capture of hill 45 (the Núi Ông base). The night of Jan. 31 the force withdraws from the town to its edge, fighting and holding on.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 132. Check: the clock, whose it is.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: quang-ngai
+      time: 1968-01-29T18:30Z
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1968-01-30.vietnam-tet-12
+      when: Jan. 30
+      date: '1968-01-30'
+      thread: vietnam-tet
+      also:
+      - vietnam-hanoi
+      c: Phan Thiết. Region 6's committee and command had the order to fire at the Tết New Year's Eve only in the last days; at midnight Jan. 30 the forces on the main direction attack the enemy in the town.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 133. Check: the clock, whose it is.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: phan-thiet
+      time: 1968-01-29T16:00Z
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1968-01-31.vietnam-tet-16
+      when: Jan. 31
+      date: '1968-01-31'
+      thread: vietnam-tet
+      also:
+      - vietnam-hanoi
+      c: 'Dalat. The first shot is fired at 1:45 a.m. The attack goes badly: it is late, the force small and split; Battalion 186, the main body, gets into position only the night of Feb. 4. After seven days of steady fighting it is pulled out Feb. 7, holding some blocks in the northwest to Feb. 11.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 135–36. Check: the clock, whose it is.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: da-lat
+      time: 1968-01-30T17:45Z
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1968-01-30.vietnam-tet-13
+      when: Jan. 30
+      date: '1968-01-30'
+      thread: vietnam-tet
+      also:
+      - vietnam-hanoi
+      c: Biên Hòa city. At New Year's Eve by the South's calendar (the night of Jan. 29–30), the 5th Division with sappers and local forces attacks the city; by the evening of Jan. 30 the force, too weak to go on, withdraws.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 136–37. Check: the night; the history elsewhere has the 5th Division''s attack on Biên Hòa airfield and Long Bình on the night of Jan. 30–31 (V, 94), see [[cal.1968-01-31.vietnam-tet-7]].'
+      tags:
+      - polity:drv
+      - polity:us
+      place: bien-hoa
+      time_range:
+      - 1968-01-30T14:00Z
+      - 1968-01-30T16:00Z
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+- add:
+    entry:
+      id: cal.1968-01-29.vietnam-tet-3
+      when: Jan. 29
+      date: '1968-01-29'
+      thread: vietnam-tet
+      also:
+      - vietnam-hanoi
+      c: Mỹ Tho. The night of Jan. 29 Regiment 1 crosses the Bảo Định river and goes into the city's center in three columns; at 7 a.m. Jan. 30 it holds the bus station, Pasteur Street and the Giồng Nhỏ road as far as the Fresh Water lake. Jan. 31 at dawn the American 3d Brigade of the 9th Division, three Saigon 7th Division battalions and two armored troops counterattack.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 138–39.'
+      tags:
+      - polity:drv
+      - polity:us
+      - ok:fields-time
+      place: my-tho
+      time_range:
+      - 1968-01-29T14:00Z
+      - 1968-01-29T16:00Z
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+- add:
+    entry:
+      id: cal.1968-01-30.vietnam-tet-14
+      when: Jan. 30
+      date: '1968-01-30'
+      thread: vietnam-tet
+      also:
+      - vietnam-hanoi
+      c: Bến Tre town. At 1 a.m. artillery and mortars fire on the headquarters of the Saigon 7th Division's 10th Regiment and the provincial security command; that night the force takes most of its objectives in the town and surrounds the province chief's residence. Feb. 1 at 4 p.m. the Americans try to land a battalion by helicopter from Bình Đức on the town's football field; Feb. 2 another battalion lands at Phú Hưng.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 141–42. Check: the clock, whose it is.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: ben-tre
+      time: 1968-01-29T17:00Z
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1968-01-30.vietnam-tet-15
+      when: Jan. 30
+      date: '1968-01-30'
+      thread: vietnam-tet
+      also:
+      - vietnam-hanoi
+      c: Cần Thơ. At 3 a.m. the forces fire together on their assigned targets. Battalion 303 pulls out the morning of Jan. 31; Battalion 309 comes up Jan. 31 and with the others takes the Tham Tướng bridge and cultural district; by Feb. 2 under rising pressure the battalions withdraw to the Vòng Cung road and fight counterattacks from there; Feb. 4 hurt a battalion.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 143–44. Check: the clock, whose it is; the last clause is cut in the passage read.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: can-tho
+      time: 1968-01-29T19:00Z
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1968-01-30.vietnam-tet-16
+      when: Jan. 30
+      date: '1968-01-30'
+      thread: vietnam-tet
+      also:
+      - vietnam-hanoi
+      c: Vĩnh Long. At 1:30 a.m. Battalion 306, Nguyễn Đệ commanding, enters the city from the south and opens fire together with the other forces; Jan. 31 and Feb. 1 they still hold what they took; Feb. 2 helicopter flame-throwers burn the city's quarters and infantry in M113s counterattack; by Feb. 3 the force holds most of the town but the province chief's residence.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 145–46. Check: the clock, whose it is.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: vinh-long
+      time: 1968-01-29T17:30Z
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1968-01-23.vietnam-khe-sanh-2
+      when: Jan. 23
+      date: '1968-01-23'
+      thread: vietnam-khe-sanh
+      also:
+      - vietnam-hanoi
+      - laos
+      - vietnam-operations
+      c: The Route 9–Khe Sanh campaign command decides to destroy the Huội San strongpoint cluster by the Lao border, held by Lao Vientiane Battalion 33, to raise the pressure from the west and open the approach to Làng Vây and force the enemy to reinforce.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 121. Check: the place; the passage read does not say where the command sat.'
+      tags:
+      - polity:drv
+      - polity:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-02-06.vietnam-khe-sanh
+      when: Feb. 6–7
+      date: '1968-02-06'
+      thread: vietnam-khe-sanh
+      also:
+      - vietnam-hanoi
+      - vietnam-operations
+      c: 'Làng Vây. The 304th Division''s Regiment 24 (less a battalion), with a battalion of the 325th, the 198th Tank Battalion (16 tanks, less part), a company of B5, sappers, a 14.5 mm machine-gun company and a flame-thrower platoon, attacks the strongpoint at 11:30 p.m. Feb. 6, put off from Feb. 5 for Regiment 24''s poor preparation. By 8 a.m. Feb. 7 it holds the camp: 400 killed, over 200 taken, five American advisers among them, all arms taken. The enemy had some 600 in the camp, each area held by a ranger company. Feb. 10 the siege of Tà Cơn begins.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 121–22, 153–54. See [[cal.1968-02-07.vietnam]]. Check: the clock, whose it is; the count of Americans, which the Marines'' record is to be read against.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: lang-vei
+      time: 1968-02-06T15:30Z
+      time_zone: Asia/Ho_Chi_Minh
 - cite:
     id: cal.1965-01-02.vietnam-hanoi
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 375 (the instruction no. 88-CT/TW, Jan. 2, 1965)'
@@ -3444,3 +3734,17 @@ ops:
     id: cal.1968-08-18.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], V, 233–35 (the Tây Ninh–Bình Long campaign opened Aug. 17; the Trà Phí raid that night; first phase to Aug. 31)'
     units: all
+- cite:
+    id: cal.1967-12-29.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], V, 329 (Nguyễn Duy Trinh''s words at the reception for the Mongolian Foreign Minister, Dec. 29, 1967)'
+    units: all
+- cite:
+    id: cal.1968-02-07.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], V, 121–22 (Làng Vây, overrun by 8 a.m. Feb. 7; 400 killed and over 200 taken, five American advisers among them, with tanks and a regiment of the 304th Division)'
+    units: all
+- variant:
+    id: cal.1968-02-07.vietnam
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: the camp, called Làng Vây, held by about 600 of the Saigon side in six areas, each held by a ranger company, taken by 8 a.m. Feb. 7 after an attack opened at 11:30 p.m. Feb. 6, 400 killed, over 200 taken, five American advisers among the captured
+    at: V, 122
