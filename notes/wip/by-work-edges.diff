@@ -1,5 +1,5 @@
 diff --git a/sources/witnesses/by-work/yang-jisheng-tiandi-fanfu.yaml b/sources/witnesses/by-work/yang-jisheng-tiandi-fanfu.yaml
-index abc1fd5..8572138 100644
+index abc1fd5..585d39a 100644
 --- a/sources/witnesses/by-work/yang-jisheng-tiandi-fanfu.yaml
 +++ b/sources/witnesses/by-work/yang-jisheng-tiandi-fanfu.yaml
 @@ -373,3 +373,417 @@
@@ -17,7 +17,7 @@ index abc1fd5..8572138 100644
 +- {at: 'I, 259 n.23', of: x.1987-02-23.beijing-wanbao-1987-02-23, kind: citation}
 +- {at: 'I, 259 n.24', of: x.undated.ma-yongjiang-cppcc-speech-renmin-ribao, kind: citation}
 +- {at: 'I, 259 n.25', of: x.2011.zhonggong-beijing-shiwei-dangshi-yanjiushi-zhongguo-gongchandang-beijing-jianshi-2011, kind: citation, pin: '113'}
-+- {at: 'I, 260 n.28', of: x.1994.shanghai-wenhua-dageming-shihua-1994-unpublished, kind: citation, pin: '105'}
++- {at: 'I, 260 n.28', of: w.shanghai-wenhua-dageming-shihua, kind: citation, pin: '105'}
 +- {at: 'I, 260 n.30', of: x.2001-03.shandong-wenhua-dageming-shiqi-dashiji-2001, kind: citation}
 +- {at: 'I, 260 n.31', of: x.undated.yudu-xianzhi, kind: citation, pin: '47'}
 +- {at: 'I, 260 n.32', of: x.2008.ding-dahua-shisuo-hanjian-de-hongweibing-chaojia-zhanguo-zhanlanhui-wenshi-jinghua-2008-1, kind: citation}
@@ -147,7 +147,7 @@ index abc1fd5..8572138 100644
 +- {at: 'I, 431 n.36', of: x.2011.bai-erqiang-wo-cehua-le-chongji-sanjun-yanchu-shijian-yanhuang-chunqiu-2011-2, kind: citation}
 +- {at: 'I, 432 n.37a', of: x.2011.cheng-guang-xinling-de-duihua-2011, kind: citation, pin: '380'}
 +- {at: 'I, 432 n.37b', of: x.2011.qiu-huizuo-huiyilu-2011, kind: citation, pin: '540'}
-+- {at: 'I, 433 n.37c', of: x.2005.liu-zhiqing-913-shijian-hou-jundui-de-jiepi-yundong-dangshi-bolan-2005-7, kind: citation}
++- {at: 'I, 432 n.37c', of: x.2005.liu-zhiqing-913-shijian-hou-jundui-de-jiepi-yundong-dangshi-bolan-2005-7, kind: citation}
 +- {at: 'I, 433 n.38', of: x.undated.li-zuopeng-huiyilu, kind: citation, pin: '567'}
 +- {at: 'I, 434 n.39', of: w.zedong-mao-zedong-nianpu, kind: citation, pin: 'VI, 75'}
 +- {at: 'I, 435 n.40', of: x.2011.qiu-huizuo-huiyilu-2011, kind: citation, pin: '541'}
@@ -228,7 +228,7 @@ index abc1fd5..8572138 100644
 +- {at: 'I, 498 n.42', of: x.1967-09-05.zhongfa-67-288-order-no-seizing-pla-arms, kind: citation}
 +- {at: 'I, 501 n.43', of: x.2010.he-shu-wei-mao-zhuxi-er-zhan-2010, kind: citation, pin: '303'}
 +- {at: 'I, 501 n.44', of: x.undated.yudian-chongqing-wenge-wudou-weishenme-nayang-baolie, kind: citation}
-+- {at: 'I, 501 n.45', of: x.1990-07.guangxi-wenge-dashi-nianbiao-1990, kind: citation}
++- {at: 'I, 501 n.45', of: w.guangxi-wenge-dashi-nianbiao, kind: citation}
 +- {at: 'I, 501 n.46', of: x.undated.guangxi-wenhua-dageming-dashiji-wenge-jimi-dangan-guangxi-baogao, kind: citation, pin: '73'}
 +- {at: 'I, 502 n.47', of: w.zedong-mao-zedong-nianpu, kind: citation, pin: 'VI, 147'}
 +- {at: 'I, 502 n.48', of: x.undated.guangxi-wenhua-dageming-dashiji-wenge-jimi-dangan-guangxi-baogao, kind: citation, pin: '565–572'}
@@ -267,7 +267,7 @@ index abc1fd5..8572138 100644
 +- {at: 'I, 524 n.14', of: x.undated.li-zuopeng-huiyilu, kind: citation, pin: '593'}
 +- {at: 'I, 525 n.16a', of: x.1967-07-18.zhou-enlai-speech-wuhan-mr-division-cadres-jul-18, kind: citation}
 +- {at: 'I, 525 n.16b', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 252–253'}
-+- {at: 'I, 525 n.17', of: x.undated.yang-chengwu-weixing-yang-chengwu-zai-1967, kind: citation}
++- {at: 'I, 525 n.17', of: w.yanchi-weixing, kind: citation}
 +- {at: 'I, 525 n.18', of: x.2014.zhang-jiancheng-suiyue-liuhen-wuhan-shuidian-xueyuan-wenge-2014, kind: citation, pin: '183'}
 +- {at: 'I, 526 n.19', of: w.zedong-mao-zedong-nianpu, kind: citation, pin: 'VI, 102'}
 +- {at: 'I, 526 n.20', of: x.2011.cheng-guang-xinling-de-duihua-2011, kind: citation, pin: '146'}
@@ -367,7 +367,7 @@ index abc1fd5..8572138 100644
 +- {at: 'I, 558 n.14', of: x.1967-09-01.jiang-chen-zhou-kang-speeches-peking-rc-standing-0901, kind: citation}
 +- {at: 'I, 558 n.15', of: x.1967-09-23.zhongfa-1967-306, kind: citation}
 +- {at: 'I, 559 n.17', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: 'XII, 401–405'}
-+- {at: 'I, 561 n.19', of: x.2006.song-yongyi-zhongguo-wenhua-dageming-wenku-2006, kind: citation}
++- {at: 'I, 562 n.19', of: x.2006.song-yongyi-zhongguo-wenhua-dageming-wenku-2006, kind: citation}
 +- {at: 'I, 562 n.20', of: x.2006.song-yongyi-zhongguo-wenhua-dageming-wenku-2006, kind: citation}
 +- {at: 'I, 567 n.28', of: x.2007.he-fang-zishu-cong-yanan-yilu-zoulai-de-fansi, kind: citation, pin: '355'}
 +- {at: 'I, 567 n.29', of: x.2007.he-fang-zishu-cong-yanan-yilu-zoulai-de-fansi, kind: citation, pin: '355'}
@@ -413,7 +413,7 @@ index abc1fd5..8572138 100644
 +- {at: 'II, 607 n.60', of: w.longjia-kang-sheng-yu-zhao, kind: citation, pin: '180–181'}
 +- {at: 'II, 607 n.61', of: w.longjia-kang-sheng-yu-zhao, kind: citation, pin: '201–205'}
 +- {at: 'II, 608 n.68', of: x.1969-03-15.mao-talk-ccrg-liaison-meeting-1969-03-15, kind: citation}
-+- {at: 'II, 609 n.70', of: x.1989.dangdai-zhongguo-de-beijing-1989, kind: citation, pin: '169'}
++- {at: 'II, 609 n.70', of: w.dangdai-zhongguode-beijing-contemporary, kind: citation, pin: '169'}
 +- {at: 'II, 611 n.74', of: x.2005.bai-jiefu-wo-yu-xiao-guangyan-yanhuang-chunqiu-2005-7, kind: citation}
 +- {at: 'II, 611 n.76', of: x.2008.yu-fenghua-wo-qinli-de-qingli-jieji-duiwu-yanhuang-chunqiu-2008-2, kind: citation}
 +- {at: 'II, 614 n.80', of: x.1989.jin-shan-rong-guotuan-zhi-si-1989, kind: citation}

@@ -97,6 +97,11 @@ ops:
     name: Yumen
     zone: Asia/Shanghai
     in: prc
+- place-key:
+    key: liuzhou
+    name: Liuzhou
+    zone: Asia/Shanghai
+    in: prc
 - cite:
     id: cal.1966-08-24.china-leadership-8
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 253–255 (that evening the Red Guards hold the cadres in an interrogation room; He Pengfei 賀鵬飛 comes to inspect and treads on the head of
@@ -124,14 +129,13 @@ ops:
       c: 'Tsinghua University 清華大學, Peking. The middle-school Red Guards march through the university and drag "black gang" members from their homes to struggle them; "black gang" members,
         the "five black categories" and middle cadres are made to carry bricks from the Second Gate 二校門 again under the belts; posters go up: "The Aug. 24 action is very good!", "Red
         terror it must be".'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 255. Made public: 2016.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 255.'
       src:
         c: a383c512
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 255: all'
       tags:
       - polity:prc
-      - vis:only:prc
 - add:
     entry:
       id: cal.1966-08-25.china-leadership-9
@@ -177,13 +181,14 @@ ops:
       place: peking
       thread: china-leadership
       c: The *Renmin ribao* 人民日報 and other papers report the Tsinghua Mao statue under the headline "The ever-shining red sun rises over Tsinghua Garden" 〈清華園升起永遠不落的紅太陽〉.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 256.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 256. Names: Mao Zedong.'
       src:
         c: 669fd039
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 256: all'
       tags:
       - polity:prc
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1966-08-29.china-leadership-7
@@ -330,6 +335,7 @@ ops:
       id: cal.1966-07-27.china-leadership-10
       when: July 27
       date: '1966-07-27'
+      place: peking
       thread: china-leadership
       c: 'Tao Zhu 陶鑄, adviser to the Cultural Revolution Group, speaks at the Ministry of Health 衛生部: all of Zhongnanhai 中南海, himself included, may be opposed; only the Center, Chairman
         Mao and Lin Biao 林彪 may not.'
@@ -522,8 +528,8 @@ ops:
       c: Peking, the Jingxi Hotel 京西賓館. The Military Commission's enlarged meeting opens, on Mao's consent, Ye Jianying 葉劍英 presiding for Lin Biao 林彪 (later moved to the Western Hills
         西山), on the army's Cultural Revolution and the "four bigs" 四大, and to bring the army's leaders to Peking out of the rebels' reach. The marshals and Jiang Qing 江青 and Chen Boda
         陳伯達 clash.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 387, 423. Made public: 2016. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 647 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        I, 423 n.17). Names: Ye Jianying, Lin Biao, Jiang Qing, Chen Boda. Check: the length: to mid-February (I, 387); three months (I, 423).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 387, 423. Made public: 2011. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 647 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 423 n.17). Names: Ye Jianying, Lin Biao, Jiang Qing, Chen Boda, Mao Zedong. Check: the length: to mid-February (I, 387); three months (I, 423).'
       src:
         c: '26119731'
         rows:
@@ -536,6 +542,7 @@ ops:
       - name:lin-biao
       - name:jiang-qing
       - name:chen-boda
+      - name:mao-zedong
 - cite:
     id: cal.1967-01-19.china-leadership-3
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 387 (at the Military Commission''s meeting Jiang Qing and Chen Boda charge Xiao Hua 蕭華, head of the General Political Department, with
@@ -555,8 +562,8 @@ ops:
       thread: china-leadership
       c: Peking. That night, before Mao's word protecting Xiao Hua 蕭華 is relayed, army rebels raid his house to seize him; he escapes by the back door and hides at Ye Jianying's 葉劍英
         home in the Western Hills 西山.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 387. Made public: 2016. Names: Ye Jianying. Check: the day: Yang dates the raid only "that night," after the meeting that ordered Xiao Hua
-        to the stadium rally (the tree''s Jan. 19).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 387. Made public: 2016. Names: Ye Jianying, Mao Zedong. Check: the day: Yang dates the raid only "that night," after the meeting that ordered
+        Xiao Hua to the stadium rally (the tree''s Jan. 19).'
       src:
         c: bc1d2a50
         rows:
@@ -565,6 +572,7 @@ ops:
       - polity:prc
       - vis:only:prc
       - name:ye-jianying
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1967-01-20.china-leadership-5
@@ -577,8 +585,8 @@ ops:
         before; Ye Jianying 葉劍英 rises: "if there is a crime of harboring, I bear it," warns that whoever throws the army into confusion will come to no good, and bangs the table, injuring
         his right hand: the "uproar at the Jingxi Hotel" 大鬧京西賓館.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 387–388. Made public: 2009. To check: 一位知情者 (an informed person), 〈讀李曉航文〉, *Jiyi* 《記憶》, no. 21 (Apr. 30, 2009) (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        I, 388 n.4). Names: Huang Yongsheng, Jiang Qing, Ye Jianying. Check: the day: Yang has "the next day" after the meeting of Xiao Hua''s summons; an informed person (n.4) says
-        Ye''s blow was aimed at Xu Xiangqian; Yang (I, 426 n.24) gives three accounts of the broken hand: Jan. 29, the Jingxi Hotel with Chen Boda, Huairen Hall.'
+        I, 388 n.4). Names: Huang Yongsheng, Jiang Qing, Ye Jianying, Mao Zedong. Check: the day: Yang has "the next day" after the meeting of Xiao Hua''s summons; an informed person
+        (n.4) says Ye''s blow was aimed at Xu Xiangqian; Yang (I, 426 n.24) gives three accounts of the broken hand: Jan. 29, the Jingxi Hotel with Chen Boda, Huairen Hall.'
       src:
         c: 4470c851
         rows:
@@ -590,6 +598,7 @@ ops:
       - name:huang-yongsheng
       - name:jiang-qing
       - name:ye-jianying
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1967-01.china-leadership-26
@@ -634,7 +643,7 @@ ops:
       c: Lin Biao 林彪, seeing Mao's mind after the reception of the generals, takes the army's side, calls Jiang Qing 江青 to his home and rages at her.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 388. Made public: 2004. To check: [[w.wenqian-wannian-zhou-enlai]], 26th printing (2004), 194–197 (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 388 n.5a); *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008), 651–654 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 388 n.5b). See [[cal.1967-01-22.china-leadership]].
-        Names: Lin Biao, Jiang Qing.'
+        Names: Lin Biao, Jiang Qing, Mao Zedong.'
       src:
         c: bf6b8b15
         rows:
@@ -645,6 +654,7 @@ ops:
       - vis:only:prc
       - name:lin-biao
       - name:jiang-qing
+      - name:mao-zedong
 - cite:
     id: cal.1967-02-11.china-leadership-3
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 388 (Zhou presides at Huairen Hall 懷仁堂; Ye Jianying to Kang Sheng, Chen Boda and Zhang Chunqiao: you have thrown the Party, the government,
@@ -670,7 +680,7 @@ ops:
     add: '[[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed.), 下 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 389 n.7a)'
 - to-check:
     id: cal.1967-02-16.china-leadership
-    add: '*"Wenge" shinian ziliao xuanbian* 《「文革」十年資料選編》 (cited by [[w.wenqian-wannian-zhou-enlai]], 201) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 389 n.7b)'
+    add: '[[w.wenge-shinian-ziliao-xuanbian]] (cited by [[w.wenqian-wannian-zhou-enlai]], 201) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 389 n.7b)'
 - to-check:
     id: cal.1967-02-16.china-leadership
     add: '[[w.wenqian-wannian-zhou-enlai]], 26th printing (2004), 201, 203 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 390 n.8)'
@@ -705,7 +715,7 @@ ops:
       beyond any in the Party; "I have decided to sacrifice myself, but I will not kill myself nor betray the country"; "this rebellion I will make")'
 - to-check:
     id: cal.1967-02-17.china-leadership-2
-    add: Tan Zhenlin 譚震林, letter to Lin Biao, Feb. 17, 1967, in *"Wenge" shinian ziliao xuanbian* 《「文革」十年資料選編》 (cited by [[w.wenqian-wannian-zhou-enlai]], 208) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+    add: Tan Zhenlin 譚震林, letter to Lin Biao, Feb. 17, 1967, in [[w.wenge-shinian-ziliao-xuanbian]] (cited by [[w.wenqian-wannian-zhou-enlai]], 208) (cited by [[w.yang-jisheng-tiandi-fanfu]],
       I, 391 n.13a)
 - src:
     id: cal.1967-02-17.china-leadership-2
@@ -848,17 +858,15 @@ ops:
       place: peking
       thread: china-leadership
       c: 'Qi Benyu 戚本禹 and others of the Cultural Revolution Group tell Peking''s student rebel leaders, Tan Houlan 譚厚蘭, Nie Yuanzi 聶元梓, Kuai Dafu 蒯大富 and others, of the struggle at
-        the top: "from the Center to the localities there is a current of capitalist restoration." Posters go up in Peking''s streets: "Down with Tan Zhenlin!", "Strike back resolutely
-        at the February adverse current!"'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 392. Made public: 2016. Names: Tan Zhenlin.'
+        the top: "from the Center to the localities there is a current of capitalist restoration."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 392. Made public: 2016.'
       src:
-        c: 68b2f95b
+        c: e2a271c0
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 392: all'
       tags:
       - polity:prc
       - vis:only:prc
-      - name:tan-zhenlin
 - cite:
     id: cal.1967-04-30.china-leadership-5
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 393 (in late April, to ease his breach with the veterans, Mao talks with them himself: their words at the liaison meetings were the marshals''
@@ -915,7 +923,7 @@ ops:
       c: Xining 西寧. The *Qinghai ribao* 青海日報 prints the editorial "Great offensive, great counter-offensive, great revolution" 〈大進攻、大反攻、大革命〉, relaying the spirit of Mao's enlarged Standing
         Committee meeting at Hangzhou of mid-April, and calls the masses to rebel; its director Cheng Guangyuan 程光遠 and its drafter Chen Yi 陳逸 are for a time branded the "Chen–Cheng
         anti-Party clique."
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 395. Names: Chen Yi.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 395. Names: Chen Yi, Mao Zedong.'
       src:
         c: 03bcc130
         rows:
@@ -924,6 +932,7 @@ ops:
       - polity:prc
       - name:chen-yi
       - ok:fields-at
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1967-01-13.china-leadership-7
@@ -1468,7 +1477,7 @@ ops:
       thread: china-leadership
       c: 'Chongqing 重慶. The public security bureau''s revolutionary committee counts, from Feb. 24 to Mar. 18: 36 "reactionary organizations" banned by order, 82 smashed by the mass
         bodies the army backs, 146 dissolved of themselves. The army and the "8.15" rebels put down the "Fandaodi" 反到底 rebels.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 403. Made public: 2016. To check: *Gongan fandaodi* 《公安反到底》, no. 7 (Feb. 26, 1968), quoted in He Shu 何蜀, 〈文革時期重慶群眾組織發展演變概述〉 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 403. Made public: 1968. To check: *Gongan fandaodi* 《公安反到底》, no. 7 (Feb. 26, 1968), quoted in He Shu 何蜀, 〈文革時期重慶群眾組織發展演變概述〉 (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 403 n.39). Check: the day: Yang gives the tally''s span, to Mar. 18, not the day it was made.'
       src:
         c: 38e9009a
@@ -1530,8 +1539,7 @@ ops:
     id: cal.1967-03-17.china-leadership-5
     unit: A
     witness: w.yang-jisheng-tiandi-fanfu
-    reads: 'the arrests begin the night of Mar. 16 and run into the morning of the 17th: over 500 heads of the Workers'' General Headquarters (Zhang Jiancheng), 470 in one night (Chen
-      Zaidao)'
+    reads: the arrests begin the night of Mar. 16 and run into the morning of the 17th
     at: I, 405
 - add:
     entry:
@@ -1735,18 +1743,33 @@ ops:
       when: Mar. 11
       date: '1967-03-11'
       place: peking
+      thread: china-leadership
+      c: Peking. Nearly a hundred mass bodies, the Capital Red Guard Congress 首都紅代會 and the rebels of the agriculture and forestry offices 農林口 at their head, found the "Capital Liaison
+        Station to Rout Utterly Tan Zhenlin's Capitalist Restoration from Above" 首都徹底擊潰譚振林自上而下資本主義復辟聯絡站.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 408. Names: Tan Zhenlin.'
+      src:
+        c: cda1cb8f
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 408: all'
+      tags:
+      - polity:prc
+      - name:tan-zhenlin
+- add:
+    entry:
+      id: cal.1967-03-11.china-leadership-3
+      when: Mar. 11
+      date: '1967-03-11'
+      place: peking
       time_range:
       - 1967-03-11T04:00Z
       - 1967-03-11T10:00Z
       time_band: afternoon
       time_zone: Asia/Shanghai
       thread: china-leadership
-      c: Peking. Nearly a hundred mass bodies, the Capital Red Guard Congress 首都紅代會 and the rebels of the agriculture and forestry offices 農林口 at their head, found the "Capital Liaison
-        Station to Rout Utterly Tan Zhenlin's Capitalist Restoration from Above" 首都徹底擊潰譚振林自上而下資本主義復辟聯絡站. In the afternoon 32 units, Peking Normal University's "Jinggangshan" 井岡山 among
-        them, hold a pledge rally to "seize Tan" before the Ministry of Agriculture 農業部.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 408. The words: 下午 (I, 408). Names: Tan Zhenlin.'
+      c: Peking, before the Ministry of Agriculture 農業部. In the afternoon 32 units, Peking Normal University's "Jinggangshan" 井岡山 among them, hold a pledge rally to "seize Tan" Zhenlin.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 408. The words: 下午 (I, 408). See [[cal.1967-03-11.china-leadership-2]]. Names: Tan Zhenlin.'
       src:
-        c: 3317c277
+        c: 575af5d2
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 408: all'
       tags:
@@ -2081,7 +2104,7 @@ ops:
       c: 'Jiang Qing 江青 goes to Lin Biao 林彪 several times on the army''s Cultural Revolution; the last time she says it needs "a marshal on the throne" and proposes Xu Xiangqian 徐向前
         as head of the General Political Department and of the All-Army Cultural Revolution Group. Lin at once reports to Mao: Xu may head the All-Army Group, the Commission''s daily
         work to stay with Ye Jianying 葉劍英.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 422–423. Made public: 2011. Names: Jiang Qing, Lin Biao, Xu Xiangqian, Ye Jianying.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 422–423. Made public: 2011. Names: Jiang Qing, Lin Biao, Xu Xiangqian, Ye Jianying, Mao Zedong.'
       src:
         c: 14ec3fc9
         rows:
@@ -2093,6 +2116,7 @@ ops:
       - name:lin-biao
       - name:xu-xiangqian
       - name:ye-jianying
+      - name:mao-zedong
 - cite:
     id: cal.1967-01-11.china-leadership-3
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 422 (after Liu Zhijian''s fall Lin Biao announces at a meeting: Xu Xiangqian head of the All-Army Group, Jiang Qing adviser, the Air Force
@@ -2169,7 +2193,7 @@ ops:
         and military training" 〈關於集中力量執行支左、支農、支工、軍管、軍訓的決定〉, one of the 17 documents of its enlarged meeting: the "four bigs" in the general departments and services to pause about the
         end of March; a third, a half or even two-thirds of their people to go at once to the "three supports and two militaries" 三支兩軍; the academies, troupes and sports teams wholly,
         once their rectification pauses.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 424, 432. Made public: 2016.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 424, 432. Made public: 2016. Names: Mao Zedong.'
       src:
         c: ab07cfe7
         rows:
@@ -2177,6 +2201,7 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+      - name:mao-zedong
 - cite:
     id: cal.1966-09-06.china-leadership-2
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 424 (by Qiu Huizuo''s memoir, at the Military Commission''s enlarged meeting, speaking of He Long, Lin Biao names Li Jukui 李聚奎 and Rao
@@ -2243,12 +2268,12 @@ ops:
       id: cal.1967-03.china-leadership-24
       when: Mar., late
       date: 1967-03
-      at: after 1967-03-21
+      at: before 1967-03-21
       place: peking
       thread: china-leadership
       c: 'Qiu Huizuo 邱會作 returns to head the General Logistics Department 總後勤部 and calls for seizing "three handfuls," taking double revenge on those who struggled him; to the special-case
         staff his "three ruthless" line: "ruthless struggle, ruthless interrogation, ruthless dictatorship." Qiu''s memoir denies it.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 425. Made public: 2012. To check: Tang Guangxue 唐光學, *Qingchun sihuo, xiyang genghong* 《青春似火,夕陽更紅》 (privately printed, 2012), 208–209 (cited
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 425. Made public: 2011. To check: Tang Guangxue 唐光學, *Qingchun sihuo, xiyang genghong* 《青春似火,夕陽更紅》 (privately printed, 2012), 208–209 (cited
         by [[w.yang-jisheng-tiandi-fanfu]], I, 425 n.20a); *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 519 (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 425 n.20b). Names: Qiu Huizuo.'
       src:
@@ -2363,7 +2388,7 @@ ops:
         曹裏懷, Li Tianhuan 李天煥, Wu Lie 吳烈, Xiong Botao 熊伯濤 and Fu Chongbi 傅崇碧 gather in a building east of the theater, and the garrison sends two companies to stop a fight. The "new three
         armies" 新三軍 storm it; by Li Zuopeng 李作鵬 they never get in and some tens are hurt; by one of the storming side they reach the stage, are surrounded and break out; a broadcast
         relays Lin Biao''s office: storming the performance is wrong, Vice-Chairman Lin backs it; the colleges'' bodies withdraw and the show goes on.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 429. The words: 5月13日晚 (I, 429). Made public: 2011. To check: *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011),
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 429. The words: 5月13日晚 (I, 429). Made public: 2008. To check: *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011),
         538 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 429 n.29a); Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University
         Press, Hong Kong, 2008), 51 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 429 n.29b); Bai Erqiang 白而強, 〈我策劃了衝擊三軍演出事件〉, *Yanhuang chunqiu* 《炎黃春秋》, 2011, no. 2 (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 429 n.30). See [[cal.1967-05-13.china-leadership-3]]. Names: Li Zuopeng, Lin Biao. Check: the injured: some tens (Li Zuopeng); over 200, tens of them badly (Bu Weihua, 51,
@@ -2598,7 +2623,7 @@ ops:
       c: 'Qiu Huizuo 邱會作 and Li Tianhuan 李天煥 at Yang Chengwu''s 楊成武 home. Li: the chief of staff and the vice-chairman long since "work at the same desk"; all know Yang is Lin Biao''s
         successor; Yang, smiling, loudly: "we are all Chairman Mao''s soldiers; when Vice-Chairman Lin is gone, someone must carry on his cause!"'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 438. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 533 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        I, 438 n.47). Names: Qiu Huizuo, Lin Biao. Check: the year: Yang prints 1966, though the passage stands among the acts of 1967 and Yang Chengwu is "chief of staff."'
+        I, 438 n.47). Names: Qiu Huizuo, Lin Biao, Mao Zedong. Check: the year: Yang prints 1966, though the passage stands among the acts of 1967 and Yang Chengwu is "chief of staff."'
       src:
         c: 273b8a9a
         rows:
@@ -2609,6 +2634,7 @@ ops:
       - vis:only:prc
       - name:qiu-huizuo
       - name:lin-biao
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1968-02.china-leadership-4
@@ -2618,9 +2644,9 @@ ops:
       c: Yang Chengwu 楊成武, perhaps on some warning, orders every copy of the first draft of the "Outline of Party history" 《黨史綱要》, which he had dozens of writers at the Jingxi Hotel
         京西賓館 compile, destroyed, none to be kept. The draft had affirmed Mao, Lin Biao as successor and Jiang Qing 江青 as "standard-bearer," and criticized Zhu De 朱德 by name with Mao's
         consent.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 438. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 546 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 438. Made public: 2008. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 546 (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 438 n.46a); *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2008), 713–714 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 438 n.46b). Names: Lin
-        Biao, Jiang Qing, Zhu De.'
+        Biao, Jiang Qing, Zhu De, Mao Zedong.'
       src:
         c: 1d3a5456
         rows:
@@ -2633,6 +2659,7 @@ ops:
       - name:jiang-qing
       - name:zhu-de
       - ok:fields-at
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1967-04.china-leadership-17
@@ -2668,7 +2695,7 @@ ops:
         Fuzhi, Yang Chengwu, Wang Dongxing, Guan Feng, the four, to destroy them together"; Zhou Enlai 周恩來 adds: with the materials of the Peking Library and the packet sent by Wu Faxian
         and Fu Chongbi; it goes to Mao.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 441–442. Made public: 2015. To check: Chen Hong 陳虹, 〈我參加饒漱石專案組的遭遇〉, *Yanhuang chunqiu* 《炎黃春秋》, 2015, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        I, 442 n.55). See [[cal.1967-04.china-leadership-17]]. Names: Jiang Qing, Lin Biao, Xie Fuzhi, Zhou Enlai, Wu Faxian.'
+        I, 442 n.55). See [[cal.1967-04.china-leadership-17]]. Names: Jiang Qing, Lin Biao, Xie Fuzhi, Zhou Enlai, Wu Faxian, Mao Zedong.'
       src:
         c: 9c6c4bd1
         rows:
@@ -2683,6 +2710,7 @@ ops:
       - name:zhou-enlai
       - name:wu-faxian
       - ok:fields-place
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1967-09.china-leadership-7
@@ -2694,7 +2722,7 @@ ops:
         周恩來, who orders Xie, Yang and Wang Dongxing 汪東興 to see the materials burned. At Wang's, the files checked against the list, Xie lights the fire, Wang Yumin 王育民 throws in the
         files one by one, and the three sign the report.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 441–442. Made public: 2015. To check: Chen Hong 陳虹, 〈我參加饒漱石專案組的遭遇〉, *Yanhuang chunqiu* 《炎黃春秋》, 2015, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        I, 442 n.55). See [[cal.1967-07-07.china-leadership-3]]. Names: Xie Fuzhi, Jiang Qing, Zhou Enlai.'
+        I, 442 n.55). See [[cal.1967-07-07.china-leadership-3]]. Names: Xie Fuzhi, Jiang Qing, Zhou Enlai, Mao Zedong.'
       src:
         c: 98520f4f
         rows:
@@ -2706,6 +2734,7 @@ ops:
       - name:xie-fuzhi
       - name:jiang-qing
       - name:zhou-enlai
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1968-03.china-leadership-7
@@ -2842,7 +2871,7 @@ ops:
         has Yang brought in: "hand your work to Huang Yongsheng"; Yang: "yes."'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 445. The words: 23日上午10時左右 (I, 445). Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd
         ed., 2008), 725 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 445 n.62); Huang Zheng 黃正, *Junren Yongsheng* 《軍人永勝》, vol. 2 (2011), 235 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        I, 445 n.63). See [[cal.1968-03-23.china-leadership-3]]. Names: Lin Biao, Zhou Enlai, Xie Fuzhi, Wu Faxian, Huang Yongsheng.'
+        I, 445 n.63). See [[cal.1968-03-23.china-leadership-3]]. Names: Lin Biao, Zhou Enlai, Xie Fuzhi, Wu Faxian, Huang Yongsheng, Mao Zedong.'
       src:
         c: ec849a82
         rows:
@@ -2857,6 +2886,7 @@ ops:
       - name:xie-fuzhi
       - name:wu-faxian
       - name:huang-yongsheng
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1968-03-24.china-leadership-4
@@ -2968,6 +2998,7 @@ ops:
       id: cal.1967-02-13.china-leadership-2
       when: Feb. 13
       date: '1967-02-13'
+      place: guizhou
       thread: china-leadership
       c: 'Guizhou 貴州: the Mao Zedong Thought Guizhou Revolutionary Committee 毛澤東思想貴州省革命委員會 (later the Guizhou Revolutionary Committee) is founded; its chairman Li Zaihan 李再含.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 457.'
@@ -2982,6 +3013,7 @@ ops:
       id: cal.1968-01-05.china-leadership-3
       when: Jan. 5
       date: '1968-01-05'
+      place: jiangxi
       thread: china-leadership
       c: 'Jiangxi 江西: the Jiangxi Revolutionary Committee is founded; its chairman Cheng Shiqing 程世清.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
@@ -3010,6 +3042,7 @@ ops:
       id: cal.1968-01-27.china-leadership-2
       when: Jan. 27
       date: '1968-01-27'
+      place: henan
       thread: china-leadership
       c: 'Henan 河南: the Henan Revolutionary Committee is founded; its chairman Liu Jianxun 劉建勛.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
@@ -3024,6 +3057,7 @@ ops:
       id: cal.1968-02-03.china-leadership-4
       when: Feb. 3
       date: '1968-02-03'
+      place: hebei
       thread: china-leadership
       c: 'Hebei 河北: the Hebei Revolutionary Committee is founded; its chairman Li Xuefeng 李雪峰.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
@@ -3038,6 +3072,7 @@ ops:
       id: cal.1968-02-05.china-leadership-4
       when: Feb. 5
       date: '1968-02-05'
+      place: hubei
       thread: china-leadership
       c: 'Hubei 湖北: the Hubei Revolutionary Committee is founded; its chairman Zeng Siyu 曾思玉.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
@@ -3052,6 +3087,7 @@ ops:
       id: cal.1968-02-21.china-leadership-3
       when: Feb. 21
       date: '1968-02-21'
+      place: guangdong
       thread: china-leadership
       c: 'Guangdong 廣東: the Guangdong Revolutionary Committee is founded; its chairman Huang Yongsheng 黃永勝.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458. Names: Huang Yongsheng.'
@@ -3067,6 +3103,7 @@ ops:
       id: cal.1968-03-06.china-leadership-4
       when: Mar. 6
       date: '1968-03-06'
+      place: jilin-province
       thread: china-leadership
       c: 'Jilin 吉林: the Jilin Revolutionary Committee is founded; its chairman Wang Huaixiang 王淮湘.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
@@ -3081,6 +3118,7 @@ ops:
       id: cal.1968-03-23.china-leadership-5
       when: Mar. 23
       date: '1968-03-23'
+      place: jiangsu
       thread: china-leadership
       c: 'Jiangsu 江蘇: the Jiangsu Revolutionary Committee is founded; its chairman Xu Shiyou 許世友.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458. Names: Xu Shiyou.'
@@ -3096,6 +3134,7 @@ ops:
       id: cal.1968-03-24.china-leadership-6
       when: Mar. 24
       date: '1968-03-24'
+      place: zhejiang
       thread: china-leadership
       c: 'Zhejiang 浙江: the Zhejiang Revolutionary Committee is founded; its chairman Nan Ping 南萍.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
@@ -3110,6 +3149,7 @@ ops:
       id: cal.1968-04-08.china-leadership-3
       when: Apr. 8
       date: '1968-04-08'
+      place: hunan
       thread: china-leadership
       c: 'Hunan 湖南: the Hunan Revolutionary Committee is founded; its chairman Li Yuan 黎原.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
@@ -3124,6 +3164,7 @@ ops:
       id: cal.1968-04-10.china-leadership-4
       when: Apr. 10
       date: '1968-04-10'
+      place: ningxia
       thread: china-leadership
       c: 'Ningxia 寧夏: the Ningxia Autonomous Region Revolutionary Committee is founded; its chairman Kang Jianmin 康健民.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
@@ -3138,6 +3179,7 @@ ops:
       id: cal.1968-04-18.china-leadership
       when: Apr. 18
       date: '1968-04-18'
+      place: anhui
       thread: china-leadership
       c: 'Anhui 安徽: the Anhui Revolutionary Committee is founded; its chairman Li Desheng 李德生.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
@@ -3152,6 +3194,7 @@ ops:
       id: cal.1968-05-01.china-leadership-2
       when: May 1
       date: '1968-05-01'
+      place: shaanxi
       thread: china-leadership
       c: 'Shaanxi 陝西: the Shaanxi Revolutionary Committee is founded; its chairman Li Ruishan 李瑞山.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
@@ -3166,6 +3209,7 @@ ops:
       id: cal.1968-05-10.china-leadership
       when: May 10
       date: '1968-05-10'
+      place: liaoning
       thread: china-leadership
       c: 'Liaoning 遼寧: the Liaoning Revolutionary Committee is founded; its chairman Chen Xilian 陳錫聯.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458. Names: Chen Xilian.'
@@ -3181,6 +3225,7 @@ ops:
       id: cal.1968-05-31.china-leadership
       when: May 31
       date: '1968-05-31'
+      place: sichuan
       thread: china-leadership
       c: 'Sichuan 四川: the Sichuan Revolutionary Committee is founded; its chairman Zhang Guohua 張國華.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
@@ -3195,6 +3240,7 @@ ops:
       id: cal.1968-08-13.china-leadership-4
       when: Aug. 13
       date: '1968-08-13'
+      place: yunnan
       thread: china-leadership
       c: 'Yunnan 雲南: the Yunnan Revolutionary Committee is founded; its chairman Tan Furen 譚甫仁.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
@@ -3209,6 +3255,7 @@ ops:
       id: cal.1968-08-26.china-leadership-3
       when: Aug. 26
       date: '1968-08-26'
+      place: guangxi
       thread: china-leadership
       c: 'Guangxi 廣西: the Guangxi Autonomous Region Revolutionary Committee is founded; its chairman Wei Guoqing 韋國清.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458–459.'
@@ -3280,7 +3327,7 @@ ops:
     id: cal.1967-07-22.china-leadership-3
     unit: A
     witness: w.yang-jisheng-tiandi-fanfu
-    reads: Jiang Qing gives the slogan "attack with words, defend with arms" on July 21
+    reads: Jiang Qing gives the slogan "attack with words, defend with arms" on July 21 (I, 453; at I, 540 Yang has it July 22, receiving the Henan delegates, as here)
     at: I, 453
 - add:
     entry:
@@ -3471,6 +3518,7 @@ ops:
       id: cal.1968.china-leadership-68
       when: '1968'
       date: '1968'
+      place: heilongjiang
       thread: china-leadership
       c: Heilongjiang 黑龍江. Pan Fusheng 潘復生 leads the struggle "against right deviation, against restoration, against the restoration of the old"; many cadres taken into the revolutionary
         committees are dismissed for "restoration"; by a count of his later opponents 29,091 cadres of brigade level and above are seized and struggled and over 50,000 implicated.
@@ -3600,8 +3648,8 @@ ops:
       c: Wuhan 武漢. The official Red Guards organized by the Hubei committee 湖北省委 are founded (the "three-character soldiers" 三字兵, to the rebels); they sweep away the "four olds," smash
         relics, struggle and parade the "ox-demons" and capitalists and raid their homes. Over 400 are arrested in the city for "resisting and sabotaging the Cultural Revolution," 159
         of them middle-school students.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 466. Made public: 2016. To check: Zhonggong Wuhan shiwei dangshi bangongshi 中共武漢市委黨史辦公室, *Wuhan wenhua dageming shiqi dashiji (1966 nian
-        5 yue–1976 nian 10 yue)* 《武漢文化大革命時期大事記(1966年5月-1976年10月)》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 466 n.12).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 466. To check: Zhonggong Wuhan shiwei dangshi bangongshi 中共武漢市委黨史辦公室, *Wuhan wenhua dageming shiqi dashiji (1966 nian 5 yue–1976 nian 10
+        yue)* 《武漢文化大革命時期大事記(1966年5月-1976年10月)》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 466 n.12).'
       src:
         c: 45a476e0
         rows:
@@ -3609,7 +3657,6 @@ ops:
         - 'via w.yang-jisheng-tiandi-fanfu I, 466 n.12: all'
       tags:
       - polity:prc
-      - vis:only:prc
 - add:
     entry:
       id: cal.1966-10-18.china-leadership-3
@@ -3810,12 +3857,6 @@ ops:
     id: cal.1967-01.china-leadership-17
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 469 (on Jan. 1, 2 and 4 hundreds of thousands of rebel students and workers struggle Wang Renzhong at the Xinhua Road Stadium 新華路體育場, brought
       back from Canton where the Center had him rest with hepatitis; Zhang Tixue and Zhao Xiu stand with him; a dunce cap; the worker Jiang Shicun 姜詩存 puts his own coat on him)'
-- variant:
-    id: cal.1967-01.china-leadership-17
-    unit: A
-    witness: w.yang-jisheng-tiandi-fanfu
-    reads: the rallies are on Jan. 1, 2 and 4, at the Xinhua Road Stadium
-    at: I, 469
 - add:
     entry:
       id: cal.1967-01-26.china-leadership-8
@@ -4227,13 +4268,11 @@ ops:
       when: May 2
       date: '1969-05-02'
       thread: china-leadership
-      c: 'The Center orders Hu Houmin 胡厚民 and 21 others, the mass bodies'' representatives of standing-member rank and above on the Hubei and Wuhan revolutionary committees, to Peking.
-        In May Zhou Enlai and the other Central leaders receive them four times in the Great Hall and sharply criticize the anti-restoration; Kang Sheng 康生: "the Ninth Congress has met;
-        whose restoration are you opposing?"'
+      c: The Center orders Hu Houmin 胡厚民 and 21 others, the mass bodies' representatives of standing-member rank and above on the Hubei and Wuhan revolutionary committees, to Peking.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 475–476. Made public: 2016. To check: Wu Yanjin 吳焱金, *Sishisan nian wangzhong youji* 《四十三年望中猶記》, ed. Zhong Yi 鍾逸 (electronic ed.) (cited
         by [[w.yang-jisheng-tiandi-fanfu]], I, 476 n.30). Names: Zhou Enlai, Kang Sheng.'
       src:
-        c: f268b695
+        c: 86ea4f82
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 475–476: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 476 n.30: all'
@@ -4275,11 +4314,10 @@ ops:
       date: '1966-10-17'
       place: peking
       thread: china-leadership
-      c: Peking Normal University 北京師範大學. Li Wenbo 李文博, a physics student, puts up the poster "The commune is no longer a state in the old sense" 〈公社已經不是原來意義的國家了〉; soon after, with other
-        students, "Greatly improve the proletarian dictatorship, greatly renew the socialist system."
+      c: Peking Normal University 北京師範大學. Li Wenbo 李文博, a physics student, puts up the poster "The commune is no longer a state in the old sense" 〈公社已經不是原來意義的國家了〉.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 476. To check: Li Wenbo 李文博, poster, Oct. 17, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 476 n.31b).'
       src:
-        c: bcd4340a
+        c: bbc6b17e
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 476: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 476 n.31b: all'
@@ -4322,7 +4360,7 @@ ops:
       id: cal.1967-12.china-leadership-6
       when: Dec., late
       date: 1967-12
-      at: after 1967-12-21
+      at: before 1967-12-21
       place: wuhan
       thread: china-leadership
       c: 'Wuhan 武漢. Lu Li''an 魯禮安 and others form the "Liaison Station of Proletarian Revolutionaries Resolved to Carry the Cultural Revolution to the End" 決心把無產階級文化大革命進行到底的無產階級革命派聯絡站
@@ -4361,11 +4399,10 @@ ops:
       thread: china-leadership
       c: Wuhan 武漢. The city sends 1,319 people, the Steel and New factions' heads great and small among them, to Peking to the Center's "Mao Zedong Thought study class" at the Air Force
         Academy 空軍學院 (1,600 with those who join later), held there eight months, to June 1970, without freedom; on Chen Boda's 陳伯達 line, "link up to Liu, down to the ox-demons, set fire
-        to yourself"; Liu Wantai 劉萬泰, Zhang Pengcheng 張鵬程 and Wang Jinming 王錦銘 are declared active counter-revolutionaries, struggled and arrested, then Hu Houmin 胡厚民, Yang Daoyuan 楊道遠
-        and Li Xiangyu 李想玉.
+        to yourself".
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 478. Made public: 2016. Names: Chen Boda.'
       src:
-        c: e0f84f3f
+        c: '34871994'
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 478: all'
       tags:
@@ -4380,7 +4417,7 @@ ops:
       thread: china-leadership
       c: The Center appoints Jia Qiyun 賈啟允 first secretary of the Guizhou committee 貴州省委 in place of Li Dazhang 李大章, after Mao in January had Li Jingquan withdraw the Southwest Bureau's
         Four Cleanups team from Guizhou and restore Zhou Lin 周林.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 479. Names: Li Jingquan.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 479. Names: Li Jingquan, Mao Zedong.'
       src:
         c: 56256b99
         rows:
@@ -4388,6 +4425,7 @@ ops:
       tags:
       - polity:prc
       - name:li-jingquan
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1965-01.china-leadership-10
@@ -4456,12 +4494,11 @@ ops:
       time_zone: Asia/Shanghai
       thread: china-leadership
       c: Guiyang 貴陽. In the afternoon the Guizhou committee's standing committee, in an emergency meeting, brands the letters to the committee and the paper and the posters the "June
-        6 counter-revolutionary incident"; it sends 130 cadres in 7 work groups and an observer group to 8 colleges to strike back. By an incomplete count over 7,200 are branded counter-revolutionaries
-        in the province, struggled, held or sent to labor; by July 10, 189 in the Guiyang area are driven to suicide attempts, 107 dying.
+        6 counter-revolutionary incident"; it sends 130 cadres in 7 work groups and an observer group to 8 colleges to strike back.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 480. The words: 6月8日下午 (I, 480). Made public: 2014. To check: Deng Zhenxin 鄧振新, *Guizhou fengyun* 《貴州風雲》 (Zhongguo guoji wenyi chubanshe
         中國國際文藝出版社, Hong Kong, 2014), 44 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 480 n.37).'
       src:
-        c: 50d4ffe8
+        c: 221dacef
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 480: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 480 n.37: all'
@@ -4559,11 +4596,10 @@ ops:
       date: '1966-12-04'
       place: guiyang
       thread: china-leadership
-      c: Guiyang 貴陽. The United Action Command holds the memorial; Li Zaihan 李再含 and Jia Qiyun 賈啟允 send a joint wreath and speak, and the two dead are named martyrs. Afterward the Red
-        Guard Army demands the pickets' dissolution and drags Jia out of the Military District's basement and holds him.
+      c: Guiyang 貴陽. The United Action Command holds the memorial; Li Zaihan 李再含 and Jia Qiyun 賈啟允 send a joint wreath and speak, and the two dead are named martyrs.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 482. Made public: 2014. See [[cal.1966-12-03.china-leadership-7]].'
       src:
-        c: 13a30049
+        c: '84377188'
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 482: all'
       tags:
@@ -4594,7 +4630,7 @@ ops:
       thread: china-leadership
       c: 'Li Zaihan 李再含, in a telegram to Lin Biao 林彪 for Mao and the Center, one of 18 he sends to the Cultural Revolution Group and Lin: the Guizhou committee is "wholly paralyzed,"
         "the whole machine has failed," with danger to the Third Front.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 481–482. Made public: 2014. Names: Lin Biao.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 481–482. Made public: 2014. Names: Lin Biao, Mao Zedong.'
       src:
         c: 403b30fc
         rows:
@@ -4603,6 +4639,7 @@ ops:
       - polity:prc
       - vis:only:prc
       - name:lin-biao
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1966-12-27.china-leadership-5
@@ -4611,11 +4648,10 @@ ops:
       place: guiyang
       thread: china-leadership
       c: Guiyang 貴陽, the Military District. Li Zaihan 李再含 calls Li Tienai 李鐵乃 and Xu Yingnian 徐英年 of the Geochemistry Institute's rebels on a great alliance and tells Li Tienai to give
-        the lead to Xu; Li refuses, soon leaves the United Action Command and founds the "Guizhou Proletarian Revolutionaries' Great Alliance Committee" 貴州省無產階級革命派大聯合委員會 of 74 bodies,
-        which marches against "eclecticism."
+        the lead to Xu; Li refuses.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 482. Made public: 2014.'
       src:
-        c: fd72f948
+        c: d78b1610
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 482: all'
       tags:
@@ -4630,14 +4666,13 @@ ops:
       place: peking
       thread: china-leadership
       c: Li Tienai 李鐵乃 goes by Kunming and Chongqing to Peking 北京 to complain, puts up "Down with Li Zaihan" and holds a press conference.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 482. Made public: 2014.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 482.'
       src:
         c: 446a81f3
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 482: all'
       tags:
       - polity:prc
-      - vis:only:prc
 - add:
     entry:
       id: cal.1967-01-03.china-leadership-6
@@ -4683,10 +4718,6 @@ ops:
     id: cal.1967-01-24.china-leadership-2
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 483 (on Mao''s comment Zhou sends a plane on Jan. 24 for the Guizhou delegation of 12, Li Zaihan and He Guangyu 何光宇 among them; from the
       25th to the 30th the Central leaders receive it five times at the Great Hall and Zhongnanhai)'
-- cite:
-    id: cal.1967-01-31.china-leadership
-    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 483 (on Jan. 25 the Guizhou and Guiyang revolutionaries jointly seize the power of the provincial committee and council and the city''s,
-      found the Guizhou Proletarian Revolutionary Rebels'' General Command and issue the "seizure notice")'
 - add:
     entry:
       id: cal.1967-01-26.china-leadership-9
@@ -4709,6 +4740,22 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+- add:
+    entry:
+      id: cal.1967-01-25.china-leadership-9
+      when: Jan. 25
+      date: '1967-01-25'
+      place: guiyang
+      thread: china-leadership
+      c: Guiyang 貴陽. The Guizhou and Guiyang proletarian revolutionaries jointly seize the power of the Guizhou committee 中共貴州省委 and provincial council and of the Guiyang committee and
+        council, found the Guizhou Proletarian Revolutionary Rebels' General Command 貴州省無產階級革命造反總指揮部 and issue the "Seizure notice" 〈奪權通告〉.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 483. See [[cal.1967-01-21.china-leadership-8]].'
+      src:
+        c: 4520208a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 483: all'
+      tags:
+      - polity:prc
 - add:
     entry:
       id: cal.1967-01-27.china-leadership-5
@@ -4760,14 +4807,13 @@ ops:
       c: Guiyang Medical College 貴陽醫學院. Li Zaihan 李再含 sends over 2,000, three companies of armed troops among them, to make a counter-seizure against "Red Guards · Red Flag," which held
         the college; that day they found the "Feb. 26 Corps" 2·26兵團 against the revolutionary committee. By an incomplete count in February and March 218 bodies of 520,000 people are
         declared reactionary in Guizhou and over 2,000 jailed.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 484. Made public: 2014.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 484.'
       src:
         c: 54f39ddc
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 484: all'
       tags:
       - polity:prc
-      - vis:only:prc
 - add:
     entry:
       id: cal.1967-03-03.china-leadership-3
@@ -4822,17 +4868,32 @@ ops:
       when: Apr. 12
       date: '1967-04-12'
       place: guiyang
+      thread: china-leadership
+      c: Guiyang 貴陽. Over 10,000 Red Guards march to demand the Congress's adjournment.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 485.'
+      src:
+        c: 1f2f43e1
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 485: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-04-12.china-leadership-5
+      when: Apr. 12
+      date: '1967-04-12'
+      place: guiyang
       time_range:
       - 1967-04-12T11:00Z
       - 1967-04-12T14:00Z
       time_band: evening
       time_zone: Asia/Shanghai
       thread: china-leadership
-      c: 'Guiyang 貴陽. Over 10,000 Red Guards march to demand the Congress''s adjournment; that evening the revolutionary committee turns out the army, the police and its mass supporters
-        in a march of tens of thousands: "the Red Guard Congress is very good, it must go on!" "Defend the red power to the death!"'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 485. The words: 4月12日晚 (I, 485).'
+      c: 'Guiyang 貴陽. That evening the revolutionary committee turns out the army, the police and its mass supporters in a march of tens of thousands: "the Red Guard Congress is very
+        good, it must go on!" "Defend the red power to the death!"'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 485. The words: 4月12日晚 (I, 485). See [[cal.1967-04-12.china-leadership-4]].'
       src:
-        c: 61f9fae7
+        c: 462648c9
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 485: all'
       tags:
@@ -4878,14 +4939,13 @@ ops:
       thread: china-leadership
       c: 'Guiyang 貴陽. Over 200 Red Guard delegates of 17 colleges go to the public security department to demand Li Jijie''s 李吉杰 release and sit in in its auditorium; Li Zaihan 李再含:
         "storming an organ of the proletarian dictatorship."'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 485. Made public: 2014.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 485.'
       src:
         c: 62ca4ccf
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 485: all'
       tags:
       - polity:prc
-      - vis:only:prc
 - add:
     entry:
       id: cal.1967-05-19.china-leadership-4
@@ -4972,19 +5032,18 @@ ops:
       id: cal.1967-08.china-leadership-33
       when: Aug.
       date: 1967-08
+      place: guizhou
       thread: china-leadership
       c: 'Guizhou 貴州. The revolutionary committee, under the slogan "down with Liu, Deng and Tao, trample flat the 4·14," besieges the bodies against it in great force: the "August trampling"
         八月踏平; Li Zaihan''s armed "Guizhou Aug. 18 Corps" 貴州8·18兵團 has made thirteen sieges in Guiyang alone since Apr. 18, with 20,000 men; over 60,000 of the "Apr. 11" students, workers
         and cadres flee to Peking, Shanghai, Wuhan and other cities.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 486. Made public: 2014.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 486.'
       src:
         c: fdadf58f
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 486: all'
       tags:
       - polity:prc
-      - vis:only:prc
-      - ok:fields-place
 - add:
     entry:
       id: cal.1967-11.china-leadership-7
@@ -5042,6 +5101,7 @@ ops:
       id: cal.1968-04-14.china-leadership-2
       when: Apr. 14
       date: '1968-04-14'
+      place: guizhou
       thread: china-leadership
       c: Guizhou 貴州. Revolutionary committees are set up in all 85 counties and cities, most of them run by one faction.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 487. Check: the day: the page prints "4日14日."'
@@ -5173,8 +5233,8 @@ ops:
       c: 'Peking. Before dawn the Central leaders receive the Guizhou report team and sharply criticize Li Zaihan 李再含. Zhou Enlai 周恩來: the core group "opposes Chairman Mao and the Center,
         double-dealing; Li Zaihan is the example"; "the Center has to some extent lost confidence in you"; one speech of his did away with 18 county revolutionary committees, "even Li
         Lisan did not dare so much." Chen Boda and Kang Sheng also criticize him.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 487–488. The words: 10月19日凌晨 (I, 487). Made public: 2014. Names: Zhou Enlai, Chen Boda, Kang Sheng. Check: the year: the page prints "年10月19日"
-        between Sept. 24 and Oct. 26, 1969.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 487–488. The words: 10月19日凌晨 (I, 487). Made public: 2014. Names: Zhou Enlai, Chen Boda, Kang Sheng, Mao Zedong. Check: the year: the page
+        prints "年10月19日" between Sept. 24 and Oct. 26, 1969.'
       src:
         c: 96872a48
         rows:
@@ -5185,6 +5245,7 @@ ops:
       - name:zhou-enlai
       - name:chen-boda
       - name:kang-sheng
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1969-10-26.china-leadership-4
@@ -5519,13 +5580,14 @@ ops:
       c: Chongqing 重慶. The petition corps, back from Peking, where it joined Mao's sixth review of Nov. 3, formally founds the "Workers' Rebel Army Headquarters" 工人造反軍總部, soon the city's
         largest workers' rebel body.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 491. To check: He Shu 何蜀, *Wei Mao zhuxi er zhan: wenge Chongqing da wudou shilu* 《為毛主席而戰：文革重慶大武鬥實錄》 (Joint Publishing, Hong Kong, 2010),
-        and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39).'
+        and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39). Names: Mao Zedong.'
       src:
         c: b4a671b6
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 491: all'
       tags:
       - polity:prc
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1966-12-04.china-leadership-6
@@ -5600,7 +5662,7 @@ ops:
       id: cal.1967-02.china-leadership-33
       when: Feb., mid-
       date: 1967-02
-      at: before 1967-02-11
+      at: before 1967-02-10
       place: chongqing
       thread: china-leadership
       c: Chongqing 重慶. The garrison and the Gelianhui declare the "Smash faction" bodies counter-revolutionary, rightist and illegal, order them dissolved, raid and besiege them; many
@@ -5625,11 +5687,11 @@ ops:
       place: chongqing
       thread: china-leadership
       c: Beibei 北碚, Chongqing. Over twenty truckloads of Chongqing University's "Aug. 15" smash the headquarters of the Southwest Normal College's "Aug. 31" column, the core of the anti-Gelianhui
-        bodies; some ten days later the Beibei garrison declares the "Aug. 31" a rightist body, orders it dissolved and arrests its core after struggling them.
+        bodies.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 492–493. To check: He Shu 何蜀, *Wei Mao zhuxi er zhan: wenge Chongqing da wudou shilu* 《為毛主席而戰：文革重慶大武鬥實錄》 (Joint Publishing, Hong Kong, 2010),
         and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39). Check: the day: Yang has it "in this period," after mid-February.'
       src:
-        c: d36b3321
+        c: 7677c8ab
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 492–493: all'
       tags:
@@ -5809,11 +5871,11 @@ ops:
       thread: china-leadership
       c: Chongqing 重慶, the garrison headquarters. Xie Fuzhi 謝富治 and Wang Li 王力, passing through, receive both factions' delegates and call for an end to the fighting; at 9 a.m. Zhang
         Guohua 張國華 and Liu Jieting 劉結挺 of the Sichuan preparatory group issue a six-article order to stop the fighting; the defense industry's two sides sign a 14-article accord with
-        Xie presiding, and 3,000 hold a "unity meeting." The accord is soon torn up.
+        Xie presiding, and 3,000 hold a "unity meeting."
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 495. The words: 上午9時 (I, 495). To check: He Shu 何蜀, *Wei Mao zhuxi er zhan: wenge Chongqing da wudou shilu* 《為毛主席而戰：文革重慶大武鬥實錄》 (Joint Publishing,
         Hong Kong, 2010), and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39). Names: Xie Fuzhi.'
       src:
-        c: 4a08099d
+        c: e6adcbd4
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 495: all'
       tags:
@@ -6044,12 +6106,28 @@ ops:
       place: chongqing
       thread: china-leadership
       c: 'Chongqing 重慶. The Wangjiang works'' "Golden Monkey" squad attacks the "Aug. 15" stronghold at the Guojiatuo Middle School 郭家沱中學: 10 of the squad killed and tens wounded (later
-        found to be a clash with the troops guarding the plant, not with the "Aug. 15"); the same day the "Fierce Tiger Regiment" loses 3 to machine guns on the way to Beiwenquan and
-        shoots the captured "Aug. 15" commander Tang Tianlun 唐天倫 at its memorial for the dead.'
+        found to be a clash with the troops guarding the plant, not with the "Aug. 15").'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 496–497. To check: He Shu 何蜀, *Wei Mao zhuxi er zhan: wenge Chongqing da wudou shilu* 《為毛主席而戰：文革重慶大武鬥實錄》 (Joint Publishing, Hong Kong, 2010),
         and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39).'
       src:
-        c: 463c9963
+        c: dca46fb8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 496–497: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-08-13.china-leadership-4
+      when: Aug. 13
+      date: '1967-08-13'
+      place: chongqing
+      thread: china-leadership
+      c: Chongqing 重慶. The Fandaodi "Fierce Tiger Regiment" loses 3 to machine guns on the way to Beiwenquan 北溫泉 and shoots the captured "Aug. 15" commander Tang Tianlun 唐天倫 at its memorial
+        for the dead.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 496–497. To check: He Shu 何蜀, *Wei Mao zhuxi er zhan: wenge Chongqing da wudou shilu* 《為毛主席而戰：文革重慶大武鬥實錄》 (Joint Publishing, Hong Kong, 2010),
+        and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39). See [[cal.1967-08-13.china-leadership-3]].'
+      src:
+        c: 3f787d85
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 496–497: all'
       tags:
@@ -6101,12 +6179,27 @@ ops:
       time: 1967-08-21T10:00Z
       time_zone: Asia/Shanghai
       thread: china-leadership
-      c: 'Chongqing 重慶. The Center''s investigation group of 30 arrives at 6 p.m. and orders a ceasefire where they stand and the heads to talks at the garrison. The next day the Fandaodi
-        "Huangshan garrison command" attacks the "Aug. 15" heights at Nan''an: 22 dead, tens wounded, 7 buildings wrecked, 17 units and 34 homes looted.'
+      c: Chongqing 重慶. The Center's investigation group of 30 arrives at 6 p.m. and orders a ceasefire where they stand and the heads to talks at the garrison.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 497. The words: 下午6時 (I, 497). To check: He Shu 何蜀, *Wei Mao zhuxi er zhan: wenge Chongqing da wudou shilu* 《為毛主席而戰：文革重慶大武鬥實錄》 (Joint Publishing,
         Hong Kong, 2010), and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39).'
       src:
-        c: 7950e6f0
+        c: 9be1c00f
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 497: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-08-22.china-leadership-4
+      when: Aug. 22
+      date: '1967-08-22'
+      place: chongqing
+      thread: china-leadership
+      c: 'Chongqing 重慶, Nan''an. The Fandaodi "Huangshan garrison command" attacks the "Aug. 15" heights: 22 dead, tens wounded, 7 buildings wrecked, 17 units and 34 homes looted.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 497. To check: He Shu 何蜀, *Wei Mao zhuxi er zhan: wenge Chongqing da wudou shilu* 《為毛主席而戰：文革重慶大武鬥實錄》 (Joint Publishing, Hong Kong, 2010),
+        and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39). See [[cal.1967-08-21.china-leadership-4]].'
+      src:
+        c: 85d7fdc7
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 497: all'
       tags:
@@ -6526,7 +6619,7 @@ ops:
       thread: china-leadership
       c: The Center relieves Wei Guoqing 韋國清 as Guangxi's first secretary and moves him to second secretary of the Central-South Bureau, Qiao Xiaoguang 喬曉光 in his place; Wei does not
         go, and stays at the head in Guangxi, needed for the aid to Vietnam.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 501. Made public: 1990. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 501. Made public: 1990. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501
         n.45).'
       src:
         c: 72775cb5
@@ -6630,7 +6723,7 @@ ops:
       thread: china-leadership
       c: Wu Jinnan 伍晉南 and He Ximing 賀希明, secretaries of the Guangxi regional committee, and Huo Fan 霍泛, alternate secretary, declare it wrong to back Wei Guoqing's 韋國清 coming forward
         for the three-in-one before his errors are exposed and the adverse current cleared up; Wu is later branded the "Wu Jinnan revisionist clique."
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 503. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 503. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: b38e0a04
         rows:
@@ -6651,7 +6744,7 @@ ops:
       thread: china-leadership
       c: 'Nanning 南寧, Chaoyang Square 朝陽廣場. In the evening over 10,000 of the "Guangxi Red General," the "Nanning 8·31," the Red Guard liaison station, the "New Workers'' General" and
         other "oppose Wei" bodies found the "Nanning Apr. 22 Front Command" (later the Guangxi "4·22" Revolutionary Action Command): "Down with Wei Guoqing, liberate all Guangxi!"'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 503. The words: 4月22日晚 (I, 503). To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 503. The words: 4月22日晚 (I, 503). To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 501 n.45).'
       src:
         c: 10e199dc
@@ -6668,7 +6761,7 @@ ops:
       thread: china-leadership
       c: Nanning 南寧, the regional council's building. The "back Wei" faction, to "uphold the military control and defend the *Guangxi ribao*," founds the "May 25" Revolutionary Action
         Command, later the "Guangxi Proletarian Revolutionaries' Joint Command" 廣西無產階級革命派聯合指揮部 (the "Lianzhi" 聯指).
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 503. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 503. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: a73ba0af
         rows:
@@ -6684,7 +6777,7 @@ ops:
       thread: china-leadership
       c: Nanning 南寧. The "4·22" storms the Guangxi Military District six times, posting and writing slogans in its compound and holding meetings and marches against the "handful in the
         Party, government and army"; the "Lianzhi" marches six times around it in protest and moves into it.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45). The span is
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45). The span is
         the page''s; the six stormings are not dated singly.'
       src:
         c: 2dd41ea4
@@ -6692,10 +6785,6 @@ ops:
         - 'w.yang-jisheng-tiandi-fanfu I, 504: all'
       tags:
       - polity:prc
-- cite:
-    id: cal.1967-06-01.china-leadership
-    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 504 (in the first half of June Zhou and the Central leaders receive the two Guangxi factions'' delegates three times to reconcile them,
-      with little effect; the "Lianzhi" brings peasants into the towns against the "4·22" strongholds)'
 - add:
     entry:
       id: cal.1967-06-26.china-leadership-4
@@ -6705,7 +6794,7 @@ ops:
       thread: china-leadership
       c: Nanning 南寧. The "Lianzhi" breaks into the Federation of Literary and Art Circles' building from the grain department's side; all 600 of the "4·22" inside are captured, taken
         to the regional materials bureau, some bound, blindfolded, interrogated and beaten.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: a38de7fc
         rows:
@@ -6724,7 +6813,7 @@ ops:
       place: nanning
       thread: china-leadership
       c: Nanning 南寧. The "Lianzhi" takes from the Military District's guard company and Unit 6984 over 300 rifles and submachine guns, three light machine guns, a 60 mm mortar and ammunition.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 95126e97
         rows:
@@ -6735,12 +6824,6 @@ ops:
     id: cal.1967-08.china-leadership-28
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 504 (after supper on Aug. 9 the Guangxi "4·22" delegation in Peking and Peking rebels, over 200, burst into the Jingxi Hotel and hurt Wei
       Guoqing and several guards)'
-- variant:
-    id: cal.1967-08.china-leadership-28
-    unit: A
-    witness: w.yang-jisheng-tiandi-fanfu
-    reads: the attack is on Aug. 9, after supper, at the Jingxi Hotel 京西賓館
-    at: I, 504
 - add:
     entry:
       id: cal.1967-08-18.china-leadership-6
@@ -6750,12 +6833,25 @@ ops:
       time_zone: Asia/Shanghai
       time_approx: true
       thread: china-leadership
-      c: Jinji village 金雞村, Guangxi. At about 11 p.m. over 300 of the "4·22" loot over 4,000 shells for Vietnam from a military train; on Aug. 20 the Cultural Revolution Group wires
-        them to return them, and most are handed back.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504. The words: 8月18日晚11時左右 (I, 504). To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        I, 501 n.45).'
+      c: Jinji village 金雞村, Guangxi. At about 11 p.m. over 300 of the "4·22" loot over 4,000 shells for Vietnam from a military train.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504. The words: 8月18日晚11時左右 (I, 504). To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
-        c: 2a4da105
+        c: 7dd98e1c
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 504: all'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-08-20.china-leadership-4
+      when: Aug. 20
+      date: '1967-08-20'
+      thread: china-leadership
+      c: The Cultural Revolution Group wires the Guangxi "4·22" to return the shells for Vietnam looted at Jinji village 金雞村 on the 18th; most are handed back.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45). See [[cal.1967-08-18.china-leadership-6]].'
+      src:
+        c: a4b59a94
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 504: all'
       tags:
@@ -6775,7 +6871,7 @@ ops:
       thread: china-leadership
       c: 'Nanning 南寧. In the evening the "Lianzhi" attacks the "4·22" strongholds at the Dongfanghong Hospital and the Minzu cinema: the hospital wrecked, 10 dead (1 of the "Lianzhi,"
         9 of the "4·22"), some "4·22" killed after capture; the "Lianzhi" displays 11 bodies as proof of "4·22" killings.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504–505. The words: 8月20日晚 (I, 504). To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504–505. The words: 8月20日晚 (I, 504). To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 501 n.45).'
       src:
         c: abcc8a5e
@@ -6802,7 +6898,7 @@ ops:
       thread: china-leadership
       c: Nanning 南寧. The "Lianzhi," "to keep the Yongjiang bridge open," attacks the "4·22" strongholds near it, at the city post office and the Minzu cinema, three or four hundred of
         the prefecture's "Lianzhi" taking part; firing all night.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 505. The words: 槍聲響徹夜空 (I, 505). To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 505. The words: 槍聲響徹夜空 (I, 505). To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 501 n.45).'
       src:
         c: efa353cf
@@ -6818,7 +6914,7 @@ ops:
       place: peking
       thread: china-leadership
       c: Peking. The two Guangxi factions reach the "Agreement on stopping the armed fighting at once" 〈關于立即停止武鬥的協議〉.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 505. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 505. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: fd110897
         rows:
@@ -6836,7 +6932,7 @@ ops:
       place: peking
       thread: china-leadership
       c: Peking. Mao and the Central leaders receive the two Guangxi factions' delegations in Peking.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 505. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45). Names: Mao
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 505. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45). Names: Mao
         Zedong.'
       src:
         c: 1eecdc42
@@ -6860,7 +6956,7 @@ ops:
       thread: china-leadership
       c: Nanning 南寧. At 3 p.m. the preparatory group's members and the two factions' delegations in Peking fly back by special plane; Wang Bin 王斌 of the group, the "4·22," the "Lianzhi"
         and the garrison, thousands, meet them at the airport.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 505. The words: 11月23日下午3時 (I, 505). To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 505. The words: 11月23日下午3時 (I, 505). To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 501 n.45).'
       src:
         c: 039e0768
@@ -6873,13 +6969,13 @@ ops:
       id: cal.1967-11.china-leadership-8
       when: Nov., late
       date: 1967-11
-      at: after 1967-11-21
+      at: before 1967-11-21
       place: nanning
       thread: china-leadership
       c: Nanning 南寧. After the Guangxi Military District, on the Center's instruction, reports its "errors of direction and line in supporting the left," the "Lianzhi" storms its compound
         to seize the leaders who "sold out principle"; peasant delegates of twelve Guilin counties come to Guilin to cheer the "Lianzhi"; armed fights follow and in places the "Lianzhi"
         massacres "4·22" members.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 506. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 506. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 9b287945
         rows:
@@ -6895,7 +6991,7 @@ ops:
       thread: china-leadership
       c: Nanning 南寧. The "4·22" of Wuzhou, Lipu, Hexian, Guiping, Luzhai, Rongxian, Luocheng, Yulin, Qinzhou, Bobai and other towns form an "anti-massacre petition corps" and sit in
         and march at the Military District, demanding that the armed fighting be stopped and the killers punished.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 506. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 506. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: bbe108a4
         rows:
@@ -6910,7 +7006,7 @@ ops:
       place: nanning
       thread: china-leadership
       c: Nanning 南寧, the Military District's compound. The "4·22" holds a rally of 10,000 against persecution and massacre.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 506. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 506. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: f55956a1
         rows:
@@ -6926,7 +7022,7 @@ ops:
       thread: china-leadership
       c: Nanning 南寧. Over 1,000 "Lianzhi" Red Guards march in the Military District's compound, charge Wu Jinnan 伍晉南, He Ximing 賀希明 and Huo Fan 霍泛 with "grave crimes" and drag Wu to
         its sports ground to struggle him.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 506. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 506. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 6398be5b
         rows:
@@ -6946,7 +7042,7 @@ ops:
       time_zone: Asia/Shanghai
       thread: china-leadership
       c: Nanning 南寧. In the evening the "4·22" rallies 10,000 before its "Rebel Building" 造反樓 against the "Lianzhi"'s struggle of Wu Jinnan 伍晉南.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 506. The words: 當晚 (I, 506). To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 506. The words: 當晚 (I, 506). To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 501 n.45). See [[cal.1968-01-05.china-leadership-4]].'
       src:
         c: 2a3bc407
@@ -6981,7 +7077,7 @@ ops:
       place: nanning
       thread: china-leadership
       c: 'Nanning 南寧, the Guangxi Military District. Over 5,000 of the "4·22" rally to keep Unit 6984: "we kneel before Chairman Mao''s picture ... keep the 6984."'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 507. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45). See [[cal.1968-02.china-leadership-5]].'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 507. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45). See [[cal.1968-02.china-leadership-5]].'
       src:
         c: 8b44896f
         rows:
@@ -7002,7 +7098,7 @@ ops:
       thread: china-leadership
       c: Nanning 南寧. In the afternoon the region's preparatory group and the Military District sharply criticize the "4·22"'s move to keep Unit 6984; after the unit leaves the "Lianzhi"
         plans its attacks on the "4·22" strongholds.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 507. The words: 2月18日下午 (I, 507). Made public: 1990. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 507. The words: 2月18日下午 (I, 507). Made public: 1990. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 501 n.45).'
       src:
         c: 558ba74a
@@ -7020,7 +7116,7 @@ ops:
       thread: china-leadership
       c: The Guangxi preparatory group twice in a week issues its "Notice on setting up prefecture, city and county revolutionary committees"; in places "power grows out of the barrel
         of a gun," and killings in batches clear the way for the committees.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 507. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 507. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 3b9c074d
         rows:
@@ -7035,7 +7131,7 @@ ops:
       place: nanning
       thread: china-leadership
       c: Nanning 南寧, the Xinwen cinema. Huang Dasheng 黃達升 and other standing members of the Guangxi "4·22" found the "4·22 Field Army" 4·22野戰軍 to resist the "Lianzhi"'s massacres.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 507. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 507. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 29d74cf0
         rows:
@@ -7050,7 +7146,7 @@ ops:
       thread: china-leadership
       c: 'The Guangxi preparatory group and the Military District report to the Center: the "4·22 Field Army" is run by "black hands," bad men and ultra-leftists, aimed at them; they
         propose to surround it by force.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 507. Made public: 1990. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 507. Made public: 1990. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501
         n.45).'
       src:
         c: a450a62c
@@ -7066,7 +7162,7 @@ ops:
       date: '1968-04-03'
       thread: china-leadership
       c: 'The Guangxi preparatory group and the Military District report again to the Center: the "4·22 Field Army" an "adverse current"; action proposed.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 507. Made public: 1990. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 507. Made public: 1990. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501
         n.45). See [[cal.1968-03-16.china-leadership]].'
       src:
         c: 5620021d
@@ -7107,7 +7203,7 @@ ops:
       thread: china-leadership
       c: 'Nanning 南寧, the Military District''s arsenal at Changgangling 長崗嶺. From midnight to 4 a.m. the "Lianzhi" headquarters sends over 3,800 men in 45 trucks and a train and carries
         off 7,044 guns, 479 light and 48 anti-aircraft machine guns among them, four 60 mm mortars, 60 shells, 1.2 million rounds and 50 binoculars: the largest arms seizure in Guangxi.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 508. The words: 5月5日晚12時至次日凌晨4時 (I, 508). To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (electronic ed.), 51, 52 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 508. The words: 5月5日晚12時至次日凌晨4時 (I, 508). To check: [[w.guangxi-wenge-dashi-nianbiao]] (electronic ed.), 51, 52 (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 508 n.51).'
       src:
         c: 2c7d9c00
@@ -7121,16 +7217,17 @@ ops:
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 508 (Zhou orders three times that the seizure of May 5 be dealt with severely and the arms returned by a set day)'
 - to-check:
     id: cal.1968-05-06.china-leadership
-    add: '*Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (electronic ed.), 51, 52 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 508 n.51)'
+    add: '[[w.guangxi-wenge-dashi-nianbiao]] (electronic ed.), 51, 52 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 508 n.51)'
 - add:
     entry:
       id: cal.1968-05-10.china-leadership-2
       when: May 10
       date: '1968-05-10'
+      place: liuzhou
       thread: china-leadership
       c: 'Liuzhou 柳州. The "Lianzhi" seizes the arms of Units 6985 and 519: 316 guns, 11,056 rounds, two 60 mm and mortar pieces, two 40 mm rocket launchers; 47 cadres and soldiers hurt,
         2 badly.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 508. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (electronic ed.), 51, 52 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 508 n.51).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 508. To check: [[w.guangxi-wenge-dashi-nianbiao]] (electronic ed.), 51, 52 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 508 n.51).'
       src:
         c: 942c42d9
         rows:
@@ -7138,7 +7235,6 @@ ops:
         - 'via w.yang-jisheng-tiandi-fanfu I, 508 n.51: all'
       tags:
       - polity:prc
-      - ok:fields-place
 - add:
     entry:
       id: cal.1968-05-14.china-leadership-2
@@ -7147,7 +7243,7 @@ ops:
       thread: china-leadership
       c: 'The Guangxi preparatory group and the Military District report to the Center (and the Canton Military Region) on the class struggle: revolutionary committees in 5 prefectures,
         2 cities and 65 counties; "the Nanning 4·22 new command has become the obstacle ... a main contradiction to be solved at once."'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 508. Made public: 1990. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 508. Made public: 1990. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501
         n.45).'
       src:
         c: 7fd06c09
@@ -7166,7 +7262,7 @@ ops:
       c: The Guangxi preparatory group and the Military District report to the Center the breaking of a "Guangxi branch of the Chiang bandits' Anti-Communist National Salvation Corps,"
         headquartered in Nanning's Xinfeng Street in the "4·22" area and using the "Rebel Building" as liaison station; after the Cultural Revolution the Center's investigation group
         finds it never existed.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 508. Made public: 1990. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 508. Made public: 1990. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501
         n.45). Check: the record of the investigation group (the "Chuyi") that found the corps invented.'
       src:
         c: 79c75d8c
@@ -7186,10 +7282,11 @@ ops:
       - 1968-05-21T00:00Z
       time_band: early morning
       time_zone: Asia/Shanghai
+      place: liuzhou
       thread: china-leadership
       c: Liuzhou 柳州, the railway station. At dawn the "4·22" "Rebel Army" and the "Liutie Workers' and Mechanics' Alliance," against the "Lianzhi" sieges, take 11,888 cases of ammunition
         for Vietnam, over 17 million rounds, leaving the escort a "receipt" signed "Li Xiangyang."
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 508. The words: 5月21拂曉 (I, 508). To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 508. The words: 5月21拂曉 (I, 508). To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 501 n.45).'
       src:
         c: 77599d1f
@@ -7197,23 +7294,22 @@ ops:
         - 'w.yang-jisheng-tiandi-fanfu I, 508: all'
       tags:
       - polity:prc
-      - ok:fields-place
 - add:
     entry:
       id: cal.1968-05-25.china-leadership-2
       when: May 25
       date: '1968-05-25'
+      place: liuzhou
       thread: china-leadership
       c: 'Liuzhou 柳州. The garrison surrounds the "Rebel Army''s" and the alliance''s strongholds and takes their arms by force; tens of thousands surround the troops in turn: over 20
         soldiers hurt, 2 of them dying; the crowd takes over 700 of their guns.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 508–509. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 508–509. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: '19566041'
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 508–509: all'
       tags:
       - polity:prc
-      - ok:fields-place
 - add:
     entry:
       id: cal.1968-04-04.china-leadership-4
@@ -7223,7 +7319,7 @@ ops:
       thread: china-leadership
       c: Nanning 南寧, Chaoyang Square 朝陽廣場. Over 80,000 at the "4·22" rally "against right deviation, adverse currents and reversals" declare the Nanning revolutionary committee the preparatory
         group approved a "faction committee."
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 5d610619
         rows:
@@ -7238,7 +7334,7 @@ ops:
       place: nanning
       thread: china-leadership
       c: Nanning 南寧. Over 30,000 of the "Lianzhi" rally to "urge the founding of the Nanning revolutionary committee."
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 4ebb83f5
         rows:
@@ -7253,7 +7349,7 @@ ops:
       place: nanning
       thread: china-leadership
       c: 'Nanning 南寧. The Nanning Revolutionary Committee is founded; the factions clash; the *Guangxi ribao* 廣西日報: "born victorious in the storm of class struggle."'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 67fd945d
         rows:
@@ -7273,7 +7369,7 @@ ops:
       c: Nanning 南寧, the forestry department. At noon Que Jiawen 闕家穩 and 12 men of the "4·22," disguised as soldiers, storm the "Lianzhi" stronghold, kill 12 of its members, wound one,
         take two machine guns and some ten rifles and blow up two buildings; the "Lianzhi" counterattacks into the night and kills 2 as they withdraw; the city's revolutionary committee
         and garrison call the "May 30" incident "an extremely grave counter-revolutionary crime."
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509. The words: 中午 (I, 509). To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509. The words: 中午 (I, 509). To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 501 n.45).'
       src:
         c: b4e60ba5
@@ -7291,7 +7387,7 @@ ops:
       c: 'Nanning 南寧. About 3,500 of thirteen "Lianzhi" bodies, the "Reserve Army" among them, raid the Military District''s arsenal a second time: 1,859 guns, eight 60 mm mortars, over
         a million rounds; for days the armed departments, revolutionary committees and "Lianzhi" of Guilin, Liuzhou and Nanning bring tens of thousands of armed men into the city to
         wipe out the "4·22."'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 1bf7efe9
         rows:
@@ -7306,7 +7402,7 @@ ops:
       place: nanning
       thread: china-leadership
       c: Nanning 南寧. The "Lianzhi" attacks the "4·22" "Tinder" 火種 building of the regional water and power design institute, kills 62 and throws the bodies in the Yong river.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: ae8ac5ed
         rows:
@@ -7322,7 +7418,7 @@ ops:
       thread: china-leadership
       c: Nanning 南寧, the Beidalu 北大路 wharf. The "Lianzhi" shipping "Red Alliance" attacks the "4·22" shipping workers; militia of the candy paper mill and the chemical works shell the
         ships with 37 mm guns from across the river; by 3 p.m. the next day over 40 boats, the *Guihong* and *Dongfeng* among them, are hit and burned.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509–510. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 509–510. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: b90267a5
         rows:
@@ -7342,7 +7438,7 @@ ops:
       thread: china-leadership
       c: The *Guangxi ribao* 廣西日報 gives its front page to the Debao 德保 county revolutionary committee's "great revolutionary army" striking "steadily, accurately and ruthlessly" at the
         class enemy.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 510. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 510. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 7fdd3bf1
         rows:
@@ -7356,11 +7452,10 @@ ops:
       date: '1968-07-08'
       thread: china-leadership
       c: The Guangxi Military District drops over 80,000 leaflets of the "July 3 Notice" from two aircraft between Pingxiang and Nanning; 51 propaganda teams and over 5,000 in Nanning,
-        660 study classes; ten million copies across the region. The same day the preparatory group and the Military District issue the "Instruction on clearing out drifters" 〈關于清理流竄人員的指示〉,
-        by which the "Lianzhi" hunt and kill the "4·22" refugees.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 510–511. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+        660 study classes; ten million copies across the region.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 510–511. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
-        c: 3bb21359
+        c: 30cadff3
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 510–511: all'
       tags:
@@ -7368,12 +7463,31 @@ ops:
       - ok:fields-place
 - add:
     entry:
+      id: cal.1968-07-08.china-leadership-3
+      when: July 8
+      date: '1968-07-08'
+      place: guangxi
+      thread: china-leadership
+      c: Guangxi 廣西. The regional preparatory group and the Guangxi Military District send the localities the "Instruction on clearing out drifters" 〈關于清理流竄人員的指示〉; under it the "Lianzhi"
+        hunt and kill "4·22" people fled to the towns.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 511. Made public: 1990. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501
+        n.45). See [[cal.1968-07-08.china-leadership-2]].'
+      src:
+        c: d48139d1
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 511: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
       id: cal.1968-07-11.china-leadership-4
       when: July 11
       date: '1968-07-11'
+      place: guangxi
       thread: china-leadership
       c: 'Guangxi. Every prefecture, city and county seat holds a rally to "hail the July 3 Notice": some 3 million take part.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 510–511. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 510–511. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 40d5834e
         rows:
@@ -7388,7 +7502,7 @@ ops:
       place: nanning
       thread: china-leadership
       c: The *Guangxi ribao* 廣西日報 begins nine editorials (to Aug. 3) calling for "a fierce attack on the class enemy."
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 511. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 511. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: eafad19a
         rows:
@@ -7405,7 +7519,7 @@ ops:
       c: 'Nanning 南寧, the People''s Park. 150,000 at the Military District''s and preparatory group''s rally to uphold the "July 3 Notice"; Wei Guoqing 韋國清: punish the handful of active
         counter-revolutionaries, clear the road for the revolutionary committee. "Lianzhi" crossing the Yongjiang bridge are fired on from a "4·22" stronghold, 2 killed; in the afternoon
         the PLA and the "Lianzhi" of several counties surround the "4·22" strongholds and areas.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 511. The words: 下午 (I, 511), the encirclement. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 511. The words: 下午 (I, 511), the encirclement. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 501 n.45).'
       src:
         c: 3ae0355c
@@ -7432,7 +7546,7 @@ ops:
       thread: china-leadership
       c: Nanning 南寧. The preparatory group and the Military District send troops and thousands of the "Lianzhi" against the "4·22" area about Jiefang Road; its streets set afire by shelling;
         the same day they report to the Center and the Canton Military Region laying it on the "4·22."
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 512. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 512. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 0dd88799
         rows:
@@ -7452,7 +7566,7 @@ ops:
       thread: china-leadership
       c: Nanning 南寧, the department store. The "Lianzhi" attacks with anti-aircraft machine guns, 40 mm rockets, 75 mm recoilless guns and explosive charges on home-made tanks, bringing
         down its northeast wall and setting the second and third floors afire; nearby homes burn; the city committee broadcasts that the "4·22" blew it up.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 512. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 512. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 3c6656b0
         rows:
@@ -7515,7 +7629,7 @@ ops:
       thread: china-leadership
       c: The Guangxi preparatory group and the Military District send Mao, Lin Biao, the Center, the State Council, the Military Commission and the Cultural Revolution Group the "Report
         on handling the Jiefang Road question in Nanning," laying the burning of 33 streets and the boats wholly on the "4·22."
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 514. Made public: 1990. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 514. Made public: 1990. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501
         n.45). Names: Lin Biao, Mao Zedong.'
       src:
         c: a25f2615
@@ -7537,7 +7651,7 @@ ops:
       c: Peking. Nine "4·22" heads at the Peking study class, Bai Jianping 白鑒平, Liao Weiran 廖偉然, Zhang Ying 章英, Nong Lie 農烈, Wang Fanxiu 王反修, Li Zhenlin 李振林, Qian Wenjun 錢文俊, Liu Zhenlin
         劉振林 and Liu Tianchang 劉天償, are seized as "counter-revolutionaries" by the "Lianzhi" heads studying with them and handed to the Peking garrison; the 427 of the "4·22" petition
         corps are taken back to Guangxi and held.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 514–515. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 514–515. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: d4164693
         rows:
@@ -7554,7 +7668,7 @@ ops:
       thread: china-leadership
       c: Nanning 南寧, the exhibition hall. The army and the "Lianzhi" hold an exhibition of "counter-revolutionary crimes" for 52 days, 489,365 taken to see it; its third hall a "living
         exhibition" of the captured in iron cages, with black placards.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 515. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 515. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 0373147b
         rows:
@@ -7568,12 +7682,28 @@ ops:
       date: '1968-03-16'
       thread: china-leadership
       c: 'Tiandeng county 天等縣, Guangxi. On the day its revolutionary committee is founded Ma Zhenghua 馬政華, head of the armed department, calls an emergency meeting: each commune may
-        kill one or two of the worst "four kinds" or bad heads; from Mar. 8 to 27 over 190 killings, over 630 killed; at Xiangyuan in Xiangdu district on Mar. 11 and 13, 46 killed, 16
-        households left without men, 9 wiped out.'
+        kill one or two of the worst "four kinds" or bad heads.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 515. To check: Zhonggong Nanning diwei zhengdang bangongshi 中共南寧地委整黨辦公室, *Nanning diqu "wenhua dageming" dashiji (1966–1976)* 《南寧地區「文化大革命」大事記(1966-1976)》
         (May 11, 1987) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 515 n.58).'
       src:
-        c: e9a024d8
+        c: 247e0c66
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 515: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 515 n.58: all'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-03-11.china-leadership-3
+      when: Mar. 11 and 13
+      date: '1968-03-11'
+      thread: china-leadership
+      c: 'Tiandeng county 天等縣, Guangxi, Xiangyuan township 祥元鄉 of Xiangdu district 向都區. Two killings: 46 killed; 16 households left without men, 9 wiped out.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 515. To check: Zhonggong Nanning diwei zhengdang bangongshi 中共南寧地委整黨辦公室, *Nanning diqu "wenhua dageming" dashiji (1966–1976)* 《南寧地區「文化大革命」大事記(1966-1976)》
+        (May 11, 1987) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 515 n.58).'
+      src:
+        c: bfcb01f5
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 515: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 515 n.58: all'
@@ -7647,7 +7777,7 @@ ops:
       c: 'Liujiang county 柳江縣, Guangxi, Futang district 福塘區. With the Canton Military Region''s consent the Liuzhou subdistrict sends over 3,000 armed "Lianzhi" of eight counties, two
         mines, a factory and a suburb against the "4·22" and "Rebel Army" strongholds: over 70 captured, 25 shot at once, 146 killed in all; at Liangshang village a woman called a "4·22"
         spy is shot and her two-year-old child stoned to death.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 516. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 516. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: 72ee55af
         rows:
@@ -7718,7 +7848,7 @@ ops:
       thread: china-leadership
       c: 'The *Guangxi ribao* 廣西日報 front page: "Under the kind care of Chairman Mao''s proletarian headquarters, the Cultural Revolution in Guangxi is in an unprecedentedly fine situation":
         with the July 3 Notice as weapon, every prefecture, city and county has its revolutionary committee before Aug. 25.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 517. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 517. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
       src:
         c: ba23ca57
         rows:
@@ -7735,7 +7865,7 @@ ops:
       c: Nanning 南寧. At the great rally for the Guangxi Revolutionary Committee its vice-chairmen are named (Ou Zhifu 歐致富, Wei Youzhu 魏佑鑄, Jiao Hongguang 焦紅光 and ten others); Wei Guoqing
         韋國清 calls for striking "steadily, accurately, ruthlessly" at the handful of class enemies and "the remnants of the Guomindang." The *Guangxi ribao* 廣西日報 editorial "See the mountains
         all red, the woods all dyed."
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 517. To check: *Guangxi wenge dashi nianbiao* 《廣西文革大事年表》 (July 1990) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45). See [[cal.1968-08-26.china-leadership-3]].'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 517. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45). See [[cal.1968-08-26.china-leadership-3]].'
       src:
         c: c084addc
         rows:
@@ -7897,7 +8027,7 @@ ops:
     add: '[[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed.), 下, 252–253 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 525 n.16b)'
 - to-check:
     id: cal.1967-07-18.china-leadership-4
-    add: '*Weixing: Yang Chengwu zai 1967* 《微行——楊成武在1967》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 525 n.17)'
+    add: '[[w.yanchi-weixing]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 525 n.17)'
 - to-check:
     id: cal.1967-07-18.china-leadership-4
     add: 'Zhang Jiancheng 張建成, *Suiyue liuhen: Wuhan shuidian xueyuan wenge qinliji* 《歲月留痕——武漢水電學院文革親歷記》 (Zhongguo wenhua chuanbo chubanshe 中國文化傳播出版社, 2014), 183 (cited by [[w.yang-jisheng-tiandi-fanfu]],
@@ -7906,7 +8036,6 @@ ops:
     id: cal.1967-07-18.china-leadership-4
     rows:
     - 'via w.yang-jisheng-tiandi-fanfu I, 525 n.16a: ?'
-    - 'via w.yang-jisheng-tiandi-fanfu I, 525 n.17: ?'
     - 'via w.yang-jisheng-tiandi-fanfu I, 525 n.18: ?'
 - place:
     id: cal.1967-07-18.china-leadership-4
@@ -7947,12 +8076,32 @@ ops:
       place: wuhan
       thread: china-leadership
       c: 'Wuhan 武漢. The Wuhan Military Region''s Standing Committee fixes its line before the Center''s men come: no error of direction and line; no reversal for the Workers'' Headquarters;
-        the criticism of the Feb. 8 Statement right; the Million Heroes a revolutionary mass body. On July 10 a meeting of the heads of its main units makes all speak with one voice.'
+        the criticism of the Feb. 8 Statement right; the Million Heroes a revolutionary mass body.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 526. Made public: 2011. To check: Chen Zaidao 陳再道, oral self-criticism, Dec. 1, 1967, in Shishi 史實, ed., *Wenge zhong de jiantaoshu* 《文革中的檢討書》
         (Shiying chubanshe 時英出版社, Taipei, 2011), 322 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 526 n.22a); *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011),
         533 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 526 n.22b).'
       src:
-        c: 638c438b
+        c: 1c0676d9
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 526: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 526 n.22a: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 526 n.22b: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1967-07-10.china-leadership-8
+      when: July 10
+      date: '1967-07-10'
+      place: wuhan
+      thread: china-leadership
+      c: Wuhan 武漢. A meeting of the heads of the Wuhan Military Region's main units makes all speak with one voice on the line fixed the day before.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 526. Made public: 2011. To check: Chen Zaidao 陳再道, oral self-criticism, Dec. 1, 1967, in Shishi 史實, ed., *Wenge zhong de jiantaoshu* 《文革中的檢討書》
+        (Shiying chubanshe 時英出版社, Taipei, 2011), 322 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 526 n.22a); *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011),
+        533 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 526 n.22b). See [[cal.1967-07-09.china-leadership-3]].'
+      src:
+        c: 3ef9ad13
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 526: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 526 n.22a: all'
@@ -8091,7 +8240,7 @@ ops:
       thread: china-leadership
       c: 'Wuhan 武漢. That evening Yang Yicai 楊以才, head of the provincial organs'' joint command, drives Yu Wenbin 俞文斌, head of the Million Heroes, to the East Lake: Mao is in Wuhan, go
         and see him, the Chairman wants to see you too — by Yu''s account years later.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 529. To check: Ronggen 榮根, 〈武漢「7•20」事件40周年——「百萬雄師」頭頭俞文斌、章迪傑等採訪記〉 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 529 n.33).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 529. To check: Ronggen 榮根, 〈武漢「7•20」事件40周年——「百萬雄師」頭頭俞文斌、章迪傑等採訪記〉 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 529 n.33). Names: Mao Zedong.'
       src:
         c: 96f42381
         rows:
@@ -8099,6 +8248,7 @@ ops:
         - 'via w.yang-jisheng-tiandi-fanfu I, 529 n.33: all'
       tags:
       - polity:prc
+      - name:mao-zedong
 - cite:
     id: cal.1967-07-20.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 530–532 (at 0:30 on the 20th fourteen of the "Wuhan Public Security" 武漢公安 of the Million Heroes drive to the East Lake guesthouse''s north
@@ -8259,7 +8409,7 @@ ops:
         the Group to say the Wuhan Military Region erred in direction and line in supporting the left and must change its stand; the general departments and services to declare for the
         Wuhan rebels and ring their units in Wuhan; Wu Faxian 吳法憲 rings the Wuhan air force''s Fu Chuanzuo, Xiao Qian and Liu Feng; the navy''s sailors on the ships at Wuhan to land,
         and the 15th Airborne Army to enter the city.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 534. The words: 下午 (I, 534). Made public: 2006. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011),
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 534. The words: 下午 (I, 534). Made public: 2011. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011),
         684–685 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 534 n.46). Names: Lin Biao, Zhou Enlai, Wu Faxian.'
       src:
         c: c4f78ff0
@@ -8288,8 +8438,8 @@ ops:
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 534–535. The words: 20日下午4點 (I, 534); 晚11時左右 (I, 535). Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社,
         Hong Kong, 2011), 533 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 534 n.47, 535 n.49); Qian Sijie 錢嗣傑 and Gu Baozi 顧保孜, *Mao Zedong zhengzhi Shenzhou youshi shi 1964–1968*
         《毛澤東正值神州有事時1964-1968》 (Renmin wenxue chubanshe, 2013), 259 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 534 n.48); *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong
-        Kong, 3rd ed., 2011), 687 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 535 n.50b). Names: Qiu Huizuo, Lin Biao, Ye Qun, Jiang Qing, Chen Boda, Zhou Enlai. Check: Qiu''s arrival:
-        about 11 p.m. (Qiu); after 2 p.m. (Wu Faxian, 687), I, 535 n.50.'
+        Kong, 3rd ed., 2011), 687 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 535 n.50b). Names: Qiu Huizuo, Lin Biao, Ye Qun, Jiang Qing, Chen Boda, Zhou Enlai, Mao Zedong. Check:
+        Qiu''s arrival: about 11 p.m. (Qiu); after 2 p.m. (Wu Faxian, 687), I, 535 n.50.'
       src:
         c: 3f0c6398
         rows:
@@ -8306,6 +8456,7 @@ ops:
       - name:jiang-qing
       - name:chen-boda
       - name:zhou-enlai
+      - name:mao-zedong
 - cite:
     id: cal.1967-07-20.china-leadership-2
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 535 (Zhou flies back to Wuhan in the afternoon, his movements known: over a hundred of the independent division and Million Heroes trucks
@@ -8656,7 +8807,7 @@ ops:
         arming the left is Chairman Mao''s great strategic plan; the tested left of Wanxian, Fuling and Luzhou has been armed, with the Center''s approval; five rules: only the left;
         guns for self-defense only; by unit, not across trades; under the local garrison''s command; only where the rebels prevail.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 541. To check: 〈張國華同志在四川省農業生產計畫、財貿、金屬材料生產供應會議上的講話〉, Aug. 28, 1967, *Rongcheng kuaibao* 《蓉城快報》, no. 1 (Sept. 1967), as reprinted in *Zuotian*
-        《昨天》, 2012, no. 3 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 541 n.68).'
+        《昨天》, 2012, no. 3 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 541 n.68). Names: Mao Zedong.'
       src:
         c: e28cf85b
         rows:
@@ -8664,6 +8815,7 @@ ops:
         - 'via w.yang-jisheng-tiandi-fanfu I, 541 n.68: all'
       tags:
       - polity:prc
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1967-07.china-leadership-28
@@ -8891,7 +9043,7 @@ ops:
       c: 'Peking, the Steel Institute 北京鋼鐵學院. That evening, at an inner meeting of the "Rebel" Red First Regiment, Zhang Jianqi 張建旗 speaks over an hour: Zhou Enlai is "Chairman Mao''s
         fellow traveler," "the Group''s fire extinguisher"; over 30 back him.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 553. The words: 3月22日晚 (I, 553). To check: Yan''an Commune of the Peking Steel Institute 北京鋼鐵學院延安公社, *Fangeming yinmou zuzhi "5•16 bingtuan"
-        zui''e huodong dashiji* 《反革命陰謀組織「5•16兵團」罪惡活動大事記》 (Dec. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 553 n.3). Names: Zhou Enlai.'
+        zui''e huodong dashiji* 《反革命陰謀組織「5•16兵團」罪惡活動大事記》 (Dec. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 553 n.3). Names: Zhou Enlai, Mao Zedong.'
       src:
         c: 663d4ba1
         rows:
@@ -8900,6 +9052,7 @@ ops:
       tags:
       - polity:prc
       - name:zhou-enlai
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1967-05.china-leadership-19
@@ -8998,13 +9151,12 @@ ops:
       at: before 1967-08-01
       place: peking
       thread: china-leadership
-      c: 'Peking. A correspondent of the Cultural Revolution Group''s journalists'' station learns the Steel Institute''s "May 16 Corps" will post a poster against Zhou Enlai and reports
-        it; Yuan Guangqiang 袁光強, head of the station''s Peking group, reports to the Group, which does not stop it; after midnight the poster goes up and is soon covered. Days later
-        Qi Benyu 戚本禹 has Wang Daoming 王道明 of the office investigate: a small body; a link suspected with the *Hongqi*, Guan Feng''s wife Zhou Ying 周英 and Lin Jie 林傑.'
+      c: Peking. A correspondent of the Cultural Revolution Group's journalists' station learns the Steel Institute's "May 16 Corps" will post a poster against Zhou Enlai and reports
+        it; Yuan Guangqiang 袁光強, head of the station's Peking group, reports to the Group, which does not stop it; after midnight the poster goes up and is soon covered.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 555. Made public: 2009. To check: Wang Guangyu 王廣宇, 〈「5•16」反革命案發生的真相〉, in *Wenshi qiuxin ji* 《問史求信集》 (Hongqi chubanshe, 2009), 137–145 (cited
         by [[w.yang-jisheng-tiandi-fanfu]], I, 555 n.7). Names: Zhou Enlai.'
       src:
-        c: da6e6e4e
+        c: c83db352
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 555: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 555 n.7: all'
@@ -9063,17 +9215,45 @@ ops:
     id: cal.1967-08.china-leadership-20
     rows:
     - 'via w.yang-jisheng-tiandi-fanfu I, 558 n.13: ?'
-- variant:
-    id: cal.1967-08.china-leadership-20
-    unit: A
-    witness: w.yang-jisheng-tiandi-fanfu
-    reads: Chen Boda, with Jiang Qing, says it on Aug. 11
-    at: I, 558
 - cite:
     id: cal.1967-08.china-leadership-21
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 556, 560 (on Aug. 17 the Steel Institute''s "Yan''an Commune" seizes Li Fang 李芳, the Corps'' head of organization, on Aug. 20 Zhang Jianqi;
-      then other heads; on Sept. 4 Chen Jiakang 陳家康, a vice-minister of the Foreign Ministry, and on Sept. 5 Wang Huande 王煥德 of its confidential bureau are seized, with Zhou''s consent;
-      Mu Xin, Lin Jie, Zhou Jingfang 周景芳, Zhao Yiya 趙易亞, Pan Zinian 潘梓年, Wu Chuanqi 吳傳啟 and Lin Yushi 林聿時 jailed as "black backers")'
+      then other heads)'
+- add:
+    entry:
+      id: cal.1967-09-04.china-leadership-5
+      when: Sept. 4
+      date: '1967-09-04'
+      place: peking
+      thread: china-leadership
+      c: Peking, the Foreign Ministry 外交部. Chen Jiakang 陳家康, of vice-minister rank, is seized as a "black backer" of the "May 16," with Zhou Enlai's 周恩來 consent.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 560 (n.18, a gloss: Chen, branded anti-Party by the ministry''s Party group early in the movement and freed, had sided with the rebels).
+        Made public: 2016. Names: Zhou Enlai.'
+      src:
+        c: 59192ddb
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 560: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1967-09-05.china-leadership-5
+      when: Sept. 5
+      date: '1967-09-05'
+      place: peking
+      thread: china-leadership
+      c: Peking, the Foreign Ministry 外交部. Wang Huande 王煥德 of its confidential bureau is seized as a "black backer" of the "May 16," with Zhou Enlai's consent.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 560. Made public: 2016. See [[cal.1967-09-04.china-leadership-5]]. Names: Zhou Enlai.'
+      src:
+        c: 5fa15e5b
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 560: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
 - add:
     entry:
       id: cal.1967-08-26.china-leadership-6
@@ -9119,15 +9299,29 @@ ops:
       date: '1967-09-12'
       place: peking
       thread: china-leadership
-      c: Peking. 100,000 Red Guards rally to celebrate the smashing of the "May 16" elements. The same day the Academy's "Revolutionary Great Criticism Command" holds a rally against
-        the "anti-Party clique" of Pan Zinian 潘梓年, Wu Chuanqi 吳傳啟, Lin Yushi 林聿時 and Hong Tao 洪濤.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 556, 560. To check: Zhou Liangxiao and Gu Juying, *Shinian wenge dashiji* (2008), 486–487 (cited by [[w.yang-jisheng-tiandi-fanfu]], I,
-        556 n.10).'
+      c: Peking. 100,000 Red Guards rally to celebrate the smashing of the "May 16" elements.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 556. To check: Zhou Liangxiao and Gu Juying, *Shinian wenge dashiji* (2008), 486–487 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 556 n.10).'
       src:
-        c: 4abcd92a
+        c: c72ff7c2
         rows:
-        - 'w.yang-jisheng-tiandi-fanfu I, 556, 560: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 556: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 556 n.10: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-09-12.china-leadership-4
+      when: Sept. 12
+      date: '1967-09-12'
+      place: peking
+      thread: china-leadership
+      c: Peking, the Academy's Department of Philosophy and Social Sciences. Its "Revolutionary Great Criticism Command" 革命大批判指揮部 holds a rally against the "anti-Party clique" of Pan
+        Zinian 潘梓年, Wu Chuanqi 吳傳啟, Lin Yushi 林聿時 and Hong Tao 洪濤.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 560. See [[cal.1967-09-12.china-leadership-3]].'
+      src:
+        c: 542f9e0c
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 560: all'
       tags:
       - polity:prc
 - add:
@@ -9247,12 +9441,12 @@ ops:
         "whose power would you seize?"; in its nature "the May 16 activity of 1967"; the four points against widening the hunt must not make men timid; "the Center''s units have not
         gone deep."'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 561–562. The words: 1969年9月20日晚 (I, 561). Made public: 2006. To check: Song Yongyi 宋永毅, ed., *Zhongguo wenhua dageming wenku* 《中國文化大革命文庫》
-        (2006, 2nd ed.) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 561 n.19). Names: Zhou Enlai.'
+        (2006, 2nd ed.) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 562 n.19). Names: Zhou Enlai.'
       src:
         c: 2e1e4c49
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 561–562: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 561 n.19: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 562 n.19: all'
       tags:
       - polity:prc
       - vis:only:prc
@@ -9342,12 +9536,12 @@ ops:
       at: before 1967-05-21
       place: peking
       thread: china-leadership
-      c: 'Peking, the Foreign Ministry 外交部. Wang Zhongqi 王中琪, first head of the Liaison Station, and a few others put up, as the "May 16 Column," posters glancing at Zhou Enlai; Mao,
-        told of them, has the Group stop them at once. In May Wang Hairong 王海容 and Tang Wensheng 唐聞生 write Mao of the wind against the Premier; Mao: "the ultra-left''s view is wrong."'
+      c: Peking, the Foreign Ministry 外交部. Wang Zhongqi 王中琪, first head of the Liaison Station, and a few others put up, as the "May 16 Column," posters glancing at Zhou Enlai; Mao,
+        told of them, has the Group stop them at once.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 566–567. Made public: 2007. To check: *He Fang zishu: cong Yan''an yilu zoulai de fansi* 《何方自述——從延安一路走來的反思》 (Ming Pao, Hong Kong, 2007),
         355 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 567 n.28). Names: Zhou Enlai, Mao Zedong.'
       src:
-        c: b31ab526
+        c: 7170d88b
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 566–567: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 567 n.28: all'
@@ -9356,6 +9550,25 @@ ops:
       - vis:only:prc
       - name:zhou-enlai
       - name:mao-zedong
+- add:
+    entry:
+      id: cal.1967-05.china-leadership-21
+      when: May
+      date: 1967-05
+      thread: china-leadership
+      c: 'Wang Hairong 王海容 and Tang Wensheng 唐聞生 of the Foreign Ministry write Mao of the wind in the ministry and outside against the Premier; Mao: "the ultra-left''s view is wrong."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 566–567. Made public: 2007. To check: *He Fang zishu: cong Yan''an yilu zoulai de fansi* 《何方自述——從延安一路走來的反思》 (Ming Pao, Hong Kong, 2007),
+        355 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 567 n.28). Names: Mao Zedong.'
+      src:
+        c: f7d95d20
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 566–567: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 567 n.28: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - ok:fields-place
 - add:
     entry:
       id: cal.1967-10-18.china-leadership-2
@@ -9664,10 +9877,10 @@ ops:
       when: Nov.
       date: 1967-11
       thread: china-leadership
-      c: The cleansing of the class ranks 清理階級隊伍 begins in trial points in the provinces (to Apr. 1968); in May 1968 it is spread over the country.
+      c: The cleansing of the class ranks 清理階級隊伍 begins in trial points in the provinces (to Apr. 1968).
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 594. Made public: 2016.'
       src:
-        c: 07a4ece7
+        c: 62a2df80
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 594: all'
       tags:
@@ -9813,7 +10026,7 @@ ops:
         questions, 24 of them traitors, agents, unrepentant capitalist-roaders and other counter-revolutionaries; 215 such persons and 373 ordinary members of the Guomindang, the Youth
         Corps and other reactionary bodies found out in the works.
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 597–598. Made public: 2008. To check: Xia Junsheng 夏俊生, 〈文革樣板:北京二七廠清理階級隊伍〉, *Yanhuang chunqiu* 《炎黃春秋》, 2008, no. 8 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        II, 597 n.11). See [[cal.1969-04-28.china-leadership]].'
+        II, 597 n.11). See [[cal.1969-04-28.china-leadership]]. Names: Mao Zedong.'
       src:
         c: e0c11ac9
         rows:
@@ -9822,6 +10035,7 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1968-09-02.china-leadership-3
@@ -10162,7 +10376,7 @@ ops:
       id: cal.1969.china-leadership-44
       when: 1969, early
       date: '1969'
-      at: before 1969-04
+      at: before 1969-01
       place: yunnan
       thread: china-leadership
       c: Yunnan 雲南. The province sends 83,687 persons to the minority areas of the border for a "second land reform" 第二次土改, classing by the side taken in the Cultural Revolution; by
@@ -10184,12 +10398,11 @@ ops:
       thread: china-leadership
       c: Peking University 北京大學. The workers' and army Mao Zedong Thought propaganda team enters; "the bastards of Peking University are so many they knock legs"; over 900, 22.5 percent
         of the staff, put under special investigation, 23 hounded to death.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 608–609. To check: *Dangdai Zhongguo de Beijing* 《當代中國的北京》 (1989), 169 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 609 n.70).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 608–609. To check: [[w.dangdai-zhongguode-beijing-contemporary]], 169 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 609 n.70).'
       src:
         c: 2c749222
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 608–609: all'
-        - 'via w.yang-jisheng-tiandi-fanfu II, 609 n.70: all'
       tags:
       - polity:prc
 - add:
@@ -10275,12 +10488,11 @@ ops:
       when: Aug. 23
       date: '1967-08-23'
       thread: china-leadership
-      c: 'The No. 23 Installation Company 23安裝工程公司: a second armed fight over the whole works; the next day, by the source, Soviet radio to China reports a great armed fight in "China''s
-        biggest atomic city," and the army representative sets off a hunt for Soviet spies in the company.'
+      c: 'The No. 23 Installation Company 23安裝工程公司: a second armed fight over the whole works.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 611. To check: Yu Fenghua 于峰華, 〈我親歷的清理階級隊伍〉, *Yanhuang chunqiu* 《炎黃春秋》, 2008, no. 2 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 611
         n.76). See [[cal.1967-06-29.china-leadership-5]].'
       src:
-        c: '82989088'
+        c: ca7e50ac
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 611: all'
         - 'via w.yang-jisheng-tiandi-fanfu II, 611 n.76: all'
@@ -10368,7 +10580,6 @@ ops:
       id: cal.1968-09-03.china-leadership-3
       when: Sept. 3
       date: '1968-09-03'
-      place: shanghai
       thread: china-leadership
       c: Fu Lei 傅雷, the translator, a "rightist" since 1958, and his wife Zhu Meifu 朱梅馥, struggled before their door on a bench in tall hats, hang themselves together.
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 613. Check: the year: the page prints 1968; Fu Lei and Zhu Meifu are commonly dated Sept. 3, 1966.'
@@ -10378,6 +10589,7 @@ ops:
         - 'w.yang-jisheng-tiandi-fanfu II, 613: all'
       tags:
       - polity:prc
+      - ok:fields-place
 - cite:
     id: cal.1968.china-leadership-20
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 614 (June 20, 1968: suspected a spy as one come back from Hong Kong in 1957, Rong Guotuan 容國團, 30, writes a last letter, "do not suspect
@@ -10398,7 +10610,8 @@ ops:
       thread: china-leadership
       c: 'Shanghai 上海, the Shanghai Film Studio 上海電影製片廠. Two "outside investigators" have the actress Shangguan Yunzhu 上官雲珠, held in the "cowshed," brought out: a Guomindang "strategic
         spy" left behind, seen alone by Mao seven times; she is to write out "that history" by the next morning.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 614. Made public: 1987. To check: Fang Shouyu 方守玉, 《上官雲珠的藝術和婚姻》 (1987), 86–91 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 614 n.81).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 614. Made public: 1987. To check: Fang Shouyu 方守玉, 《上官雲珠的藝術和婚姻》 (1987), 86–91 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 614 n.81).
+        Names: Mao Zedong.'
       src:
         c: 79de2f12
         rows:
@@ -10407,6 +10620,7 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+      - name:mao-zedong
 - add:
     entry:
       id: cal.1968-11.china-leadership-3
@@ -10492,7 +10706,7 @@ ops:
       id: cal.1968.china-leadership-74
       when: 1968, autumn
       date: '1968'
-      at: after 1968-08-31
+      at: before 1968-09
       place: yumen
       thread: china-leadership
       c: 'Yumen 玉門, Gansu 甘肅, the oil field. The revolutionary committee''s head: only 2,000 of 30,000 dug out, "only a few feet deep"; the hunt for the "latent spy organization" follows:
