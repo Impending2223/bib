@@ -149,8 +149,8 @@ def entry_problems(series, lst, sec, e, idx=None, threads=None):
     elif len(d) == 4 and lo and first_section(lst, d) is not sec:
         out.append((ERROR, f"dated to the year {d}: filed in the year's first section{section_fix(lst, d)}", "general"))
     # at: the intercalary day a loose date sits on (loose.py)
-    for msg in loose.at_problems(e):
-        out.append((ERROR, msg, "general"))
+    for rule, msg in loose.at_findings(e):     # [loose-at-month]: before the date, silenced by ok:loose-at
+        out.append((ERROR, msg, rule))
     want = loose.at_for(e) if lst.kind == "calendar" else None     # the ghost day its own `when` gives (loose.py, 3a)
     if want and not loose.at_problems(dict(e, at=want)):
         out.append((WARN, f"when {e.get('when')!r} places it on an intercalary day: at: {want} "

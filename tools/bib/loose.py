@@ -51,6 +51,11 @@ STYLE:
     mean instant and its 24 periodic terms; ΔT by Espenak and Meeus's polynomials), in SEASON_ZONE (season_starts).
     "Winter" is the winter opening in December of its year; a reader who means the one ending in March sets `at` to the
     December solstice of the year before. A year's season: the same day (a year's "winter", December's).
+    `./bib check` [loose-at-month] (an error; the audit, Nov. 19, 2026): an `at` whose day falls before the entry's
+    own month or year, which would show it in the one before (STYLE 5), unless the entry is tagged ok:loose-at (or
+    ok:loose-at-month), a reader's own day. The winter's is the one day the rule allows before the date: `before` the
+    December solstice of the year before, that day and no earlier, on an entry dated January, February or March or
+    to the year alone whose `when` names a winter ("Jan., winter"; at_findings).
  5. An entry with `at` (or a year alone) is shown in the dated section that holds its day, which may be another month's
     of the same list (hosts); its anchor and its part follow (place_iso). Files and sections are unchanged. Where no
     section holds the day (early January 1960, before the calendar's first day), it stays in its own, at the head.
@@ -346,28 +351,57 @@ def at_for(e):
     return None
 
 
-def at_problems(e):
-    """For ./bib check: `at` in its form, on a year- or month-dated entry, its day within the date (a winter's, the
-    December solstice before the year, too)."""
+AT_OK = ("ok:loose-at", "ok:loose-at-month")     # a reader's own day, kept (check [loose-at-month])
+
+
+def _winter(e):
+    """The entry's `when` names a winter ("Jan., winter", "1962, winter", "Feb., late winter")."""
+    return re.search(r"\bwinter\b", _qualifier(e).lower()) is not None
+
+
+def at_findings(e):
+    """For ./bib check: (rule, message) pairs. `at` in its form, on a year- or month-dated entry ("general"); its day
+    within the date: an `at` after the date "general", one before it "loose-at-month" (it would show the entry in the
+    month or year before its own, STYLE 5), unless the entry is tagged ok:loose-at or ok:loose-at-month (a reader's
+    own day). The one day before the date in the rule: a winter's (STYLE 4), on an entry whose `when` names a winter
+    and whose date is January, February or March or the year, `at: before` the December solstice of the year before,
+    that day and no earlier."""
     v = e.get("at")
     if v is None:
         return []
     a = parse_at(v)
     if a is None:
-        return [f"at {v!r}: 'before YYYY-MM-DD' or 'after YYYY-MM-DD' (loose.py)"]
+        return [("general", f"at {v!r}: 'before YYYY-MM-DD' or 'after YYYY-MM-DD' (loose.py)")]
     d = date_of(e)
     if not is_loose(e):
-        return ["at on an entry dated to the day: at is for a date of a year or a month alone"]
+        return [("general", "at on an entry dated to the day: at is for a date of a year or a month alone")]
     if a[0] == "month" and len(d) != 4:
-        return [f"at {v!r}: before a month's block is for a year-dated entry; a month's own takes 'before YYYY-MM-DD'"]
+        return [("general", f"at {v!r}: before a month's block is for a year-dated entry; a month's own takes "
+                            "'before YYYY-MM-DD'")]
     if a[0] == "before" and len(d) == 4 and a[1].day == 1:     # the old day form: after the month's heading (STYLE 2)
-        return [f"at {v!r} on a year-dated entry: before the month's heading is 'at: before {a[1].isoformat()[:7]}'"]
+        return [("general", f"at {v!r} on a year-dated entry: before the month's heading is "
+                            f"'at: before {a[1].isoformat()[:7]}'")]
     if a[1].isoformat()[:len(d)] == d:
         return []
+    if a[1] > first_day(d):
+        return [("general", f"at {v!r} falls outside the entry's date {d}")]
     y = int(d[:4])
-    if a[0] == "before" and a[1] == season_starts(y - 1)["winter"] and (len(d) == 4 or d[5:7] in ("01", "02", "03")):
+    solstice = season_starts(y - 1)["winter"]
+    if a[0] == "before" and a[1] == solstice and _winter(e) and (len(d) == 4 or d[5:7] in ("01", "02", "03")):
         return []                       # the winter ending in March: its December solstice (STYLE 4)
-    return [f"at {v!r} falls outside the entry's date {d}"]
+    if any(t in AT_OK for t in e.get("tags") or []):
+        return []
+    what = "the year" if len(d) == 4 else "the month"
+    return [("loose-at-month", f"at {v!r} falls before the entry's date {d}: it would show the entry in {what} "
+                               f"before its own; at is a day within the date (a winter ending in March, on a "
+                               f"January to March or a year's entry whose when names it: before {solstice.isoformat()}"
+                               f", the December solstice), or keep a reader's own day with the tag ok:loose-at")]
+
+
+def at_problems(e):
+    """For ./bib check, the messages of at_findings: `at` in its form, on a year- or month-dated entry, its day within
+    the date (a winter's, the December solstice before the year, too)."""
+    return [msg for _, msg in at_findings(e)]
 
 
 # ---------------------------------------------------------------- the sections that show them
