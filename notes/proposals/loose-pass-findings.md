@@ -6,6 +6,27 @@ Each year's patch was read by a reader and audited by Opus before merge (`inbox/
 - Done (Nov. 19, 309c7c4): check `[loose-at-month]` refuses an `at` before the entry's own month or year (the winter's December solstice excepted); patch-check holds an add's or edit's `place:` to check's `[place]`.
 
 
+## 1965–66 (merged: 99 ops)
+- Sure: 1965-02.republican-party-congress Feb. 24; 1965-04.vietnam Apr. 28; 1965-07.vietnam July 26; 1965-07.vietnam-congress-2 July 22; 1965-09.china-leadership-2 Sept. 16; 1965-09.civil-rights-the-executive Sept. 21; 1965-09.latin-america-dominican-republic Sept. 17 (drop its at); 1966-01.robert-kennedy Jan. 18; 1966-03.transportation-san-francisco Mar. 21; 1966-05.republican-party May 6; 1966-12.open-housing Dec. 16; 1965-01.transition-and-staff-nsc Feb. 2 (out of its month).
+- Likely: 1965-01.china-leadership-3 Jan. 15 (bundles Jan. 12–13: split); 1965-04.vietnam-force-levels about Apr. 27; 1965-08.conservation about Aug. 9; 1966-04.war-opposition-5 about Apr. 15; 1966-05.congress May 11; 1966-05.war-opposition about May 24; 1966-07.china-leadership-13 July 9; 1966-07.vietnam-congress-2 July 16; 1966-12.students about Dec. 18; 1965-04.robert-kennedy-2 about Apr. 21–23, 1965-09.vietnam-support about Sept. 9, 1966-02.vietnam-3 about Feb. 14, 1966-07.robert-kennedy-2 July 24 (these four keep an at: drop it when dated).
+- Duplicates: 1965-06.king with 1965-11.king and 1965-12.king; 1965-07.press-and-broadcasting with 1965-08.robert-kennedy.
+- Ruled: a note's own date may anchor an op (L1, L3).
+- For the owner: which April 1965 Honolulu conference (Apr. 8–10 or 20); the MACV History's "Apr. 10–13" conference; 1965-05.latin-america-dominican-republic (Mann's "early May" vs the Digest's July 14); 1965-03.vietnam-force-levels (Mar. 13 or 26); "at the beginning of the Cultural Revolution" (which event?).
+
+## 1967 (merged: 69 ops)
+- Sure: 02.mississippi Feb. 27, 8:10 p.m. Central; 04.republican-party-congress-3 Apr. 20.
+- Likely: 05.vietnam-congress May 17; 12.vietnam-operations Dec. 14.
+- For the owner: 1967.china-leadership-123 ("1967, end": the year-end ruling); 06.war-opposition-2 (two resignations, June 13 and 27: split?); 11.press-and-broadcasting-2 (Bernstein: February); 03.republican-party-5 (April?); 01.congress-powell; 07.vietnam-2, -3 (the mission's announcement, July 12 or 14); 06.civil-disorders-minneapolis; 11.vietnam-8 (December?); 05.open-housing-2; 06.open-housing-2; "by April": entries.md's example sets `before YYYY-04`, loose-pass L3 and STYLE 3a leave a "by" in the block — one rule wanted; approximate offsets ("three weeks after", "a fortnight before") placed on the computed day.
+
+## 1968–70 (merged: 93 ops)
+- Sure: 02.robert-kennedy-campaign-3 Feb. 18; -4 Feb. 17–18; 04.robert-kennedy-campaign-primaries-2 Apr. 22; 03.king Mar. 5; 10.vietnam-prisoners Oct. 21; 04.soviet-union-leadership-2 Apr. 9–10; 10.elections-1968-2 Oct. 12–13.
+- Likely: 02.press-and-broadcasting Feb. 23; 03.elections-1968-2 Mar. 28 (McPherson: mid-March).
+- For the owner: 12.transition-and-staff-2 ("the week before" Dec. 11); 10.china-leadership-2 (after or before the Twelfth Plenum); 02.elections-1968-2 (Manchester or Berlin, N.H.); 1969-07.vietnam-hanoi (July or August); an entry placed after an event itself loosely dated (06.elections-1968-congress, 01.robert-kennedy-2).
+
+## All years
+- Times in the text of month- or year-dated entries ("5 p.m.", "a night", "at lunch") cannot be stored without a day: should a month-dated entry carry a time band with no range?
+- A year's end ("1962, end", "at the year's end"): ruling pending.
+
 ## 1964 (merged: 107 ops)
 - Sure: 04.civil-rights-bill Apr. 9; 01.vietnam-4 Jan. 28; 08.elections-1964-4 Aug. 1; 09.elections-1964-5 Sept. 11; 09.vietnam Sept. 25–29; 11.vietnam-saigon-2 Nov. 11; 12.republican-party Dec. 6; 12.republican-party-2 Dec. 21; 12.press-and-broadcasting-2 Dec. 2.
 - Likely: 09.laos Sept. 11 (the meeting; split); 12.press-and-broadcasting Dec. 2; 06.elections-1964-state-conventions-3 June 30; 09.goldwater-11 about Sept. 25; 01.elections-1964-3 Jan. 13; 08.robert-kennedy Aug. 1–2; 07.press-and-broadcasting about July 7; 02-23.economy Feb. 23; 05.conservation May 6 (a second event: split).
