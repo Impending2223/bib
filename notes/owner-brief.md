@@ -904,3 +904,5 @@ The owner's answers on the ghost days (Nov. 19, about 5:50 a.m. Pacific), chosen
 - The "January 1960" heading and indicators table comes before "1960." Can we fix that?" (Nov. 19, about 8:35 a.m. Pacific.)
 
 The owner's answers to the display questions (Nov. 19, about 10:45 a.m. Pacific), chosen from the options offered: midnight, "Yes, '12:00 a.m.'"; "noon" in the notes' prose, "Datelines only"; quoted Chinese originals with an English rendering, "Move them, keep English"; the label "Characters:": "What? I'm just saying that the substantive notes in the citation block should give the full CJK, and that Names in "Names:" should as well."
+
+"Continue." (Nov. 19, about 8:49 p.m. Pacific.)
