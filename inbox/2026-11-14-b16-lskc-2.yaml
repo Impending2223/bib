@@ -27,18 +27,13 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
-    key: dat-cuoc
-    name: Đất Cuốc
-    zone: Asia/Ho_Chi_Minh
-    in: rvn
-- place-key:
     key: da-doi
     name: Đa Dội
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
-    key: phuoc-long
-    name: Phước Long
+    key: phuoc-long-province
+    name: Phước Long province
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
@@ -57,11 +52,6 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
-    key: kim-boi
-    name: Kim Bôi, Hòa Bình
-    zone: Asia/Bangkok
-    in: drv
-- place-key:
     key: tan-khai
     name: Tân Khai
     zone: Asia/Ho_Chi_Minh
@@ -69,11 +59,6 @@ ops:
 - place-key:
     key: bu-dop
     name: Bù Đốp
-    zone: Asia/Ho_Chi_Minh
-    in: rvn
-- place-key:
-    key: loc-ninh
-    name: Lộc Ninh
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
@@ -88,7 +73,7 @@ ops:
     in: rvn
 - place-key:
     key: do-ha
-    name: Do Hà sand, near Cửa Việt
+    name: Do Hà
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
@@ -106,16 +91,6 @@ ops:
     name: Đồng Rùm
     zone: Asia/Ho_Chi_Minh
     in: rvn
-- place-key:
-    key: ba-vung
-    name: Ba Vùng
-    zone: Asia/Ho_Chi_Minh
-    in: rvn
-- place-key:
-    key: quang-binh
-    name: Quảng Bình
-    zone: Asia/Bangkok
-    in: drv
 - place-key:
     key: tra-phi
     name: Trà Phí
@@ -136,11 +111,6 @@ ops:
     name: Đồng Lộc
     zone: Asia/Bangkok
     in: drv
-- place-key:
-    key: da-lat
-    name: Dalat
-    zone: Asia/Ho_Chi_Minh
-    in: rvn
 - add:
     entry:
       id: cal.1964.vietnam-hanoi-3
@@ -155,7 +125,6 @@ ops:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
-      at: before 1964-01
 - add:
     entry:
       id: cal.1964-07.vietnam-hanoi
@@ -184,8 +153,7 @@ ops:
       tags:
       - polity:drv
       - vis:only:drv
-      - ok:fields-place
-      at: before 1964-09
+      place: hanoi
 - add:
     entry:
       id: cal.1964.vietnam-hanoi-2
@@ -200,7 +168,6 @@ ops:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
-      at: before 1964-09
 - add:
     entry:
       id: cal.1965-01.vietnam-hanoi-2
@@ -328,20 +295,6 @@ ops:
       place: hanoi
 - add:
     entry:
-      id: cal.1965-05-16.vietnam-hanoi
-      when: May 16
-      date: '1965-05-16'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      c: The Liberation Army raids Biên Hòa airfield. The Americans admit 11 B-57s and 4 jets destroyed, 25 other aircraft heavily damaged, 21 American dead and 64 wounded.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 45. The calendar holds the same day''s explosions at Biên Hòa, [[cal.1965-05-16.vietnam-operations]]. Check: whether this is the explosion the American record calls accidental; the history says a raid and gives the American admission without a source.'
-      tags:
-      - polity:drv
-      - polity:us
-      place: bien-hoa
-- add:
-    entry:
       id: cal.1965-05-26.vietnam-hanoi
       when: May 26
       date: '1965-05-26'
@@ -350,7 +303,7 @@ ops:
       - vietnam
       - vietnam-operations
       c: 'Núi Thành, west of Chu Lai. Company 2 of Battalion 70, Quảng Nam, with a sapper team, storms the American Marine company on hills 49 and 50: 140 out of action, all arms taken, the first American company destroyed in the war. Ordered by Military Region 5''s directive of May 10.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 46–48 (the directive of May 10, 1965, from the Region 5 archive; the attack began 0:30, after the wire was cut on hill 49; hill 50 held by hand-to-hand fighting, 20 minutes). Check: the clock; the history does not say whose, and Marine records give the Americans'' losses.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 46–48 (the directive of May 10, 1965, from the Region 5 archive; the attack began 0:30, after the wire was cut on hill 49; hill 50 held by hand-to-hand fighting, 20 minutes). The figures are the history''s. Check: the clock; the history does not say whose, and Marine records give the Americans'' losses.'
       tags:
       - polity:drv
       - polity:us
@@ -395,7 +348,6 @@ ops:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
-      at: before 1965-07-11
 - add:
     entry:
       id: cal.1965-07.vietnam-hanoi-2
@@ -582,7 +534,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Liberation Army artillery fires on the airfields at Đà Nẵng and Chu Lai: 163 aircraft of all kinds destroyed or damaged, many Americans killed.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 52. Check: the date, the count and the units; the calendar holds an attack on the Marines'' air installations at Đà Nẵng and Chu Lai on Oct. 27, [[cal.1965-10-27.vietnam-operations]].'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 52. The figures are the history''s. Check: the date, the count and the units; the calendar holds an attack on the Marines'' air installations at Đà Nẵng and Chu Lai on Oct. 27, [[cal.1965-10-27.vietnam-operations]].'
       tags:
       - polity:drv
       - polity:us
@@ -596,25 +548,11 @@ ops:
       also:
       - vietnam-operations
       c: 'Plei Me. A squad of eleven under Đậu Văn Phơn, on the southeast, held beside the camp''s wire against an ARVN battalion with 20 tanks and armored cars, in the second relief of the camp: 140 out of action, five tanks and armored cars burned. Half the squad lost; the five left carry off the dead and wounded at dusk.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 55. Check: the unit; the history says "tiểu đội".'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 55. The figures are the history''s. Check: the unit; the history says "tiểu đội".'
       tags:
       - polity:drv
       - ok:fields-time
       place: plei-me
-- add:
-    entry:
-      id: cal.1965-11-08.vietnam-hanoi
-      when: Nov. 8
-      date: '1965-11-08'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      c: 'Đất Cuốc, 30 kilometers north of Biên Hòa. Regiment 1 of the 9th Division, with Artillery Group 69, ambushes the American 173d Airborne Brigade: 300 out of action. The first defeat of American troops in the Mekong''s Nam Bộ.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 61.'
-      tags:
-      - polity:drv
-      - polity:us
-      place: dat-cuoc
 - add:
     entry:
       id: cal.1965-11-12.vietnam-hanoi
@@ -624,7 +562,7 @@ ops:
       also:
       - vietnam-operations
       c: Bàu Bàng. The 9th Division attacks the 2d Brigade, 1st Infantry Division, with mortars, recoilless guns and rockets on its command post and signals, then closes. In three hours a battalion of the 1st Division and an armored task force hurt; 39 vehicles and six 105 mm guns destroyed or damaged.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 61–62. Check: the clock; the history does not say whose.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 61–62. The figures are the history''s. Check: the clock; the history does not say whose.'
       tags:
       - polity:drv
       - polity:us
@@ -667,7 +605,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Cẩm Xe. Battalions 2 and 4 of the 9th Division ambush a road convoy: 40 military vehicles destroyed and hundreds of Americans out of action.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 62.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 62. The figures are the history''s.'
       tags:
       - polity:drv
       - polity:us
@@ -703,20 +641,6 @@ ops:
       place: da-doi
 - add:
     entry:
-      id: cal.1965-12-08.vietnam-hanoi
-      when: Dec. 8–10
-      date: '1965-12-08'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      c: Việt An. After twelve days of siege the ARVN 5th Task Force and two armored squadrons open Operation Liên Kết 18 to relieve the post; Dec. 9 the Saigon force is beaten and the American command lands five Marine battalions on the shore and in the hills, Dec. 9 and 10, at An Lý, Châu Xuân, Cẩm La, La Ngà and Chiêm Sơn.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 63. See [[cal.1965-11-16.vietnam-hanoi]]. Check: the first landing days; the history gives 9, 10, 12 and 15.'
-      tags:
-      - polity:drv
-      - polity:us
-      place: viet-an
-- add:
-    entry:
       id: cal.1965-12-15.vietnam-hanoi
       when: Dec. 15–18
       date: '1965-12-15'
@@ -724,7 +648,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Cẩm Khê market, Quảng Tín. Regiment 1''s Battalions 90 and 70 attack the Americans packed into the market, Battalion 60 blocking from the north; they are beaten off the retreat road to Tam Kỳ. The fight ends at 3 p.m. Dec. 18. Lê Hữu Trữ, the regiment commander: "hold the Americans by the belt."'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 63–64. See [[cal.1965-12-08.vietnam-hanoi]]. Check: the first day; the history gives landings on Dec. 12 and 15.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 63–64. See [[cal.1965-12-08.vietnam-operations]]. Check: the first day; the history gives landings on Dec. 12 and 15.'
       tags:
       - polity:drv
       - polity:us
@@ -739,7 +663,7 @@ ops:
       also:
       - vietnam
       c: The Liberation Army's 1st Infantry Division formed, in the South.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 37 n.1. See [[cal.1965-09-02.vietnam-hanoi]]. Made public: 2013.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 37 n.1. See [[cal.1965-09-02.vietnam-hanoi]]. Made public: 2013. Check: the history, IV, 220, has the Highlands'' 1st Infantry Division formed "late December 1965", which may be the formation of Dec. 20 on page 37; the Highlands'' 62d Division is named with it (IV, 220).'
       tags:
       - polity:drv
       - vis:only:drv
@@ -770,7 +694,6 @@ ops:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
-      at: before 1966-01
 - add:
     entry:
       id: cal.1966-01.vietnam-hanoi
@@ -785,26 +708,6 @@ ops:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
-- add:
-    entry:
-      id: cal.1966-01-08.vietnam-hanoi
-      when: Jan. 8–19
-      date: '1966-01-08'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      c: 'Củ Chi. Twelve days of fighting against the 1st Division''s brigades and the 173d Airborne: 200 actions, nearly 1,000 Americans and Saigon troops killed or wounded, 84 aircraft shot down (most UH-1s), 77 vehicles destroyed or damaged (56 M113s), two 105 mm guns. The Americans end the sweep Jan. 19 and move the brigades to Đồng Dù.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 86–88 (the sweep began at first light Jan. 8, after air and artillery and hundreds of helicopters landed troops at Mỹ Hưng and Nhuận Đức). See [[cal.1966-01-08.vietnam-operations]]. Check: the units; the history names the sweep "Cái bẫy" (Crimp) and gives its own count.'
-      tags:
-      - polity:drv
-      - polity:us
-      place: cu-chi
-      time_range:
-      - 1966-01-07T21:00Z
-      - 1966-01-08T00:00Z
-      time_band: early morning
-      time_zone: Asia/Ho_Chi_Minh
-      range_basis: record
 - add:
     entry:
       id: cal.1966-01-20.vietnam-hanoi-3
@@ -883,7 +786,7 @@ ops:
       also:
       - vietnam-operations
       - vietnam-struggle
-      c: An Lão valley, Bình Định. Three American air-cavalry battalions and a Saigon airborne battalion land by helicopter, the first Cánh Trắng (White Wing) operation. Feb. 11, guerrillas shoot down eight helicopters.
+      c: An Lão valley, Bình Định. Three American air-cavalry battalions and a Saigon airborne battalion land by helicopter, the first Cánh Trắng (White Wing) operation.
       n: '[[w.lich-su-khang-chien-chong-my]], IV, 108.'
       tags:
       - polity:drv
@@ -924,8 +827,8 @@ ops:
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: Cánh Trắng II, Kim Sơn valley, Hoài Ân. A battalion lands at Đá Tượng stream and Battalion 1 of Regiment 1 stops it. Feb. 16 Regiment 12 destroys nearly two companies at Lộc Giang; Feb. 17 nearly a company at Suối Sùng; Feb. 18 Regiment 2 stops a battalion at Đồi Tranh, 150 killed; Feb. 19 a company at height 275.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 109–10. Check: the units and the days of each action; the history gives them in a run.'
+      c: Cánh Trắng II, Kim Sơn valley, Hoài Ân. A battalion lands at Đá Tượng stream and Battalion 1 of Regiment 1 stops it.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 109.'
       tags:
       - polity:drv
       - polity:us
@@ -938,7 +841,7 @@ ops:
       also:
       - vietnam-operations
       c: 'The Region''s artillery shells Tân Sơn Nhứt airfield: 67 aircraft damaged or destroyed.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 98.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 98. The figures are the history''s.'
       tags:
       - polity:drv
       place: tan-son-nhut
@@ -951,7 +854,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Tân Tạo airfield, An Khê. Sapper Battalion 407 hits the 1st Cavalry''s helicopters that night: nearly 100 helicopters damaged, hundreds of American airmen killed or wounded.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 110. Check: the count; the history gives "gần 100" and "hàng trăm".'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 110. The figures are the history''s. Check: the count; the history gives "gần 100" and "hàng trăm".'
       tags:
       - polity:drv
       - polity:us
@@ -971,7 +874,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Region 9 artillery fires mortars at Trà Nóc airfield: 65 aircraft damaged.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 99.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 99. The figures are the history''s.'
       tags:
       - polity:drv
       place: can-tho
@@ -998,7 +901,7 @@ ops:
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: 'Nhà Đỏ and Bông Trang, north of Saigon. The 9th Division fires mortars and recoilless guns on the American 1st Brigade''s clusters, then storms in from three sides; fighting to 6:30 a.m.: two infantry battalions and two armored squadrons hurt, the brigade''s command post destroyed. The best result of the dry season in Eastern Nam Bộ. Operation Rolling Stone, from Feb. 22, is beaten; Mar. 5 Regiment 2 hurts another battalion at Bà Nghĩa on Route 16.'
+      c: 'Nhà Đỏ and Bông Trang, north of Saigon. The 9th Division fires mortars and recoilless guns on the American 1st Brigade''s clusters, then storms in from three sides; fighting to 6:30 a.m.: two infantry battalions and two armored squadrons hurt, the brigade''s command post destroyed. Operation Rolling Stone, from Feb. 22, is beaten, the history says.'
       n: '[[w.lich-su-khang-chien-chong-my]], IV, 93–94. Check: the clock; the history does not say whose.'
       tags:
       - polity:drv
@@ -1094,7 +997,6 @@ ops:
       - polity:drv
       - vis:only:drv
       place: hanoi
-      at: before 1966-04-21
 - add:
     entry:
       id: cal.1966-05.vietnam-hanoi
@@ -1124,7 +1026,6 @@ ops:
       - polity:drv
       - vis:only:drv
       place: hanoi
-      at: before 1966-06-11
 - add:
     entry:
       id: cal.1966-06.vietnam-hanoi
@@ -1162,13 +1063,14 @@ ops:
       also:
       - vietnam-operations
       c: 'Tàu Ô bridge and Cần Đâm, Route 13. Regiment 2 of the 9th Division ambushes a convoy of the American 1st Division''s 3d Brigade with two mechanized troops: 40 vehicles destroyed or damaged (12 M41 tanks, 19 M113s), nearly 500 out of action, eight aircraft shot down. Regiment 2 withdraws at 6 p.m.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 162–63. Check: the clock; the history gives "khoảng 13 giờ".'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 162–63. The figures are the history''s. Check: the clock; the history gives "khoảng 13 giờ".'
       tags:
       - polity:drv
       - polity:us
       place: tau-o
       time: 1966-06-08T05:00Z
       time_zone: Asia/Ho_Chi_Minh
+      time_approx: true
 - add:
     entry:
       id: cal.1966-06-13.vietnam-hanoi
@@ -1182,7 +1084,7 @@ ops:
       tags:
       - polity:drv
       - vis:only:drv
-      place: phuoc-long
+      place: phuoc-long-province
 - add:
     entry:
       id: cal.1966-06-29.vietnam-hanoi
@@ -1192,7 +1094,7 @@ ops:
       also:
       - vietnam-operations
       c: Cầu Nhi, Route 1 north of Huế. Battalion 2 and the 6th Regiment's engineers and fire units ambush a convoy of 26 GMC trucks and 2 M113s sent to Route 9; in about 15 minutes all 28 vehicles burn and a Saigon marine battalion is nearly destroyed.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 190. Check: the place and the units.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 190. The figures are the history''s. Check: the place and the units.'
       tags:
       - polity:drv
       - polity:us
@@ -1206,7 +1108,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Cần Lê and Trảng Ba Nghì, Route 13 near Lộc Ninh. Regiment 1 of the 9th Division, commander Bùi Thanh Vân, ambushes a convoy from Hớn Quản under eight gunships: 43 vehicles destroyed, mostly tanks and M113s, nearly 300 Americans out of action; firing stops at 7 p.m.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 163–64. Check: the clock; the history says only that the firing stopped at 7 p.m.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 163–64. The figures are the history''s. Check: the clock; the history says only that the firing stopped at 7 p.m.'
       tags:
       - polity:drv
       - polity:us
@@ -1271,13 +1173,13 @@ ops:
 - add:
     entry:
       id: cal.1966-10-18.vietnam-hanoi
-      when: Oct. 18–Dec. 6
+      when: Oct. 18
       date: '1966-10-18'
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: The Western Highlands' Sa Thầy campaign, in step with Eastern Nam Bộ, beats Operation Paul Revere IV of the American 4th Division.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 249. Check: the units and the days of fighting; the history gives the campaign''s span.'
+      c: Plei Girăng, the border post, Western Highlands. Battalion 1, Regiment 95, shells and surrounds it, opening the Sa Thầy campaign, in step with Eastern Nam Bộ, against the American 4th Division's Paul Revere IV; the history runs the campaign to Dec. 6.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 249–50. Check: the units and the place.'
       tags:
       - polity:drv
       - polity:us
@@ -1302,7 +1204,7 @@ ops:
       also:
       - vietnam
       c: 'Lê Duẩn''s letter to the Saigon–Gia Định Zone Committee: at a given stage the revolutionary war, military and political, will grow into a general offensive and general uprising to beat the enemy''s military and political force in all the areas he holds, the main direction the cities, and take power whole for the people. In the war''s last stage, hard military and political blows in the cities, against one of the enemy''s props, will decide the defeat of the American policy of aggression.'
-      n: 'Lê Duẩn, *Thư vào Nam* (Nxb. Sự thật, Hà Nội, 1985), 163–64, quoted in [[w.lich-su-khang-chien-chong-my]], V, 32–33. Made public: 1985. Names: Lê Duẩn. Check: the day; the history gives the month. The letter is the history''s source for the idea of the 1968 plan.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 32–33 (quoting Lê Duẩn, [[w.duan-thu-vao-nam]], 163–64). Made public: 1985 ([[w.duan-thu-vao-nam]]). To check: [[w.duan-thu-vao-nam]], 163–64 (cited by [[w.lich-su-khang-chien-chong-my]], V, 32 n.1, 33 n.1). Names: Lê Duẩn. Check: the day; the history gives the month. The letter is the history''s source for the idea of the 1968 plan.'
       tags:
       - polity:drv
       - vis:only:drv
@@ -1350,28 +1252,6 @@ ops:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
-- add:
-    entry:
-      id: cal.1967-03-20.vietnam-hanoi-2
-      when: Mar. 20–21
-      date: '1967-03-20'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      - vietnam-air-war
-      c: 'Dốc Miếu, hill 241 and Cồn Tiên, south of the Bến Hải. Regiment 164, towed guns of Military Region 4 firing from the north bank, opens on the Marines'' base at Dốc Miếu after the Americans lift in 149 loads of troops and five heavy guns by helicopter: 2,000 105 and 130 mm rounds. A Vĩnh Linh mortar company on the south bank adds hundreds; rockets and mortars put 1,000 rounds on hill 241. The night of Mar. 20 Battalion 4 of Regiment 84 crosses the river, marches 20 kilometers to the sand at Cường Gián and fires hundreds of H12 rockets at the Marines at Đông Hà; south-bank guns shell Tân Lâm, Cam Lộ and Cửa Việt. At dawn Mar. 21 the guns hit the trucks of troops sent to relieve the base. Hundreds of Americans out of action. The first time the North''s forces fight openly in the South''s battle.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 404–06. Hồ Chí Minh had wired the regiment before the battle: "the first battle you must win" (IV, 404). Names: Hồ Chí Minh. Check: the date of Hồ''s wire; the history says only "before going in". The time is the first day''s, the history''s "chiều ngày 20-3-1967".'
-      tags:
-      - polity:drv
-      - polity:us
-      - name:ho-chi-minh
-      place: ben-hai-river
-      time_range:
-      - 1967-03-20T04:00Z
-      - 1967-03-20T10:00Z
-      time_band: afternoon
-      time_zone: Asia/Ho_Chi_Minh
-      range_basis: record
 - add:
     entry:
       id: cal.1967-04-27.vietnam-hanoi
@@ -1473,22 +1353,12 @@ ops:
       - name:nguyen-cao-ky
       - name:westmoreland-william
       place: hanoi
-- add:
-    entry:
-      id: cal.1967-10-27.vietnam-hanoi
-      when: Oct. 27
-      date: '1967-10-27'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      c: 'The Bình Long–Phước Long campaign opens: a battalion of Regiment 88 attacks the Phước Quả post. Oct. 28 night, Regiment 3 of the 9th Division attacks the Lộc Ninh district post, and sappers of the 9th and 7th Divisions raid the town hall of Lộc Ninh and Bình Long, collapsing two buildings and spoiling four guns.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 17–18. Check: the clock; the history does not say whose.'
-      tags:
-      - polity:drv
-      - polity:us
-      place: phuoc-long
-      time: 1967-10-26T17:00Z
-      time_zone: Asia/Ho_Chi_Minh
+      time_range:
+      - 1967-10-20T05:00Z
+      - 1967-10-20T11:00Z
+      time_band: afternoon
+      time_zone: Asia/Bangkok
+      range_basis: record
 - add:
     entry:
       id: cal.1967-10-30.vietnam-hanoi
@@ -1527,20 +1397,6 @@ ops:
       range_basis: record
 - add:
     entry:
-      id: cal.1967-11-03.vietnam-hanoi
-      when: Nov. 3
-      date: '1967-11-03'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      c: The Đắk Tô I campaign opens, in the Western Highlands, under Major General Hoàng Minh Thảo, commander of the front, and Colonel Trần Thế Môn, commissar. Squad 7, Company 11, Battalion 6 (Tây Ninh) fights two American companies at the campaign's first strongpoint on the Ngọc Bờ Biêng saddle; Nov. 4 bombed with gasoline and chemicals; Nov. 5 the second strongpoint at Ngọc Tang lost to a company.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 22–23. See [[cal.1967-11-19.vietnam-operations]]. Names: Hoàng Minh Thảo.'
-      tags:
-      - polity:drv
-      - polity:us
-      place: dak-to
-- add:
-    entry:
       id: cal.1967-11-06.vietnam-hanoi
       when: Nov. 6–7
       date: '1967-11-06'
@@ -1548,7 +1404,7 @@ ops:
       also:
       - vietnam-operations
       c: Đắk Tô. Regiments 320 and 66 of the 1st Division, drawn by the strongpoints, destroy or badly hurt three American companies around the hill area, shoot down two helicopters and put 300 out of action.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 24. See [[cal.1967-11-03.vietnam-hanoi]].'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 24. The figures are the history''s. See [[cal.1967-11-03.vietnam]].'
       tags:
       - polity:drv
       - polity:us
@@ -1562,21 +1418,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Đắk Tô. Regiments 320 and 66 attack together by moving attack and destroy four companies of the 173d Airborne Brigade and the 1st Brigade, 4th Division: over 400 out of action.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 24. The history says the units fought on the whole line Nov. 8–27 (V, 25).'
-      tags:
-      - polity:drv
-      - polity:us
-      place: dak-to
-- add:
-    entry:
-      id: cal.1967-11-17.vietnam-hanoi
-      when: Nov. 17–20
-      date: '1967-11-17'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      c: Hill 875. Nov. 17 two battalions of the 173d climb it; Nov. 18 B-52s in turn; Nov. 19, with the Americans held at the foot by Company 7, Regiment 174, Đàm Văn Ngụy commanding, destroys the 2d Battalion by moving attack joined with strongpoints; Nov. 20 more killed and 12 aircraft shot down. Fighting goes on to Nov. 29, when both sides leave the field.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 26–28. See [[cal.1967-11-19.vietnam-operations]].'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 24. The figures are the history''s. The history says the units fought on the whole line Nov. 8–27 (V, 25).'
       tags:
       - polity:drv
       - polity:us
@@ -1613,7 +1455,7 @@ ops:
       n: '[[w.lich-su-khang-chien-chong-my]], V, 20.'
       tags:
       - polity:drv
-      place: phuoc-long
+      place: phuoc-long-province
       time_range:
       - 1967-11-26T14:00Z
       - 1967-11-26T16:00Z
@@ -1633,8 +1475,13 @@ ops:
       tags:
       - polity:drv
       - polity:us
-      - ok:fields-time
       place: bu-dop
+      time_range:
+      - 1967-11-28T14:00Z
+      - 1967-11-28T16:00Z
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
 - add:
     entry:
       id: cal.1967-12-02.vietnam-hanoi
@@ -1644,7 +1491,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Tàu Ô bridge, on the Hớn Quản road. That night Battalion 2 of Regiment 141 attacks the American cluster: a company and 14 vehicles destroyed.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 21.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 21. The figures are the history''s.'
       tags:
       - polity:drv
       - polity:us
@@ -1657,19 +1504,6 @@ ops:
       range_basis: record
 - add:
     entry:
-      id: cal.1967-12-03.vietnam-hanoi
-      when: Dec. 3
-      date: '1967-12-03'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      c: Đắk Sơn. A battalion of Regiment 88 attacks the strategic hamlet and destroys two security platoons; the attack is not finished and does not help the people rise. Dec. 6 the Saigon side counterattacks and Regiment 5 destroys two security companies and takes 15 prisoners and all the arms.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 21. See [[cal.1967-12-05.vietnam-operations]]. Check: the place; the history names the hamlet, not the district.'
-      tags:
-      - polity:drv
-      place: phuoc-long
-- add:
-    entry:
       id: cal.1967-12-10.vietnam-hanoi
       when: Dec. 10
       date: '1967-12-10'
@@ -1677,9 +1511,10 @@ ops:
       also:
       - vietnam-operations
       c: The campaign command orders the Bình Long–Phước Long campaign ended, to sum up and prepare for the spring–summer of 1968.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 21.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 21. Made public: 2013.'
       tags:
       - polity:drv
+      - vis:only:drv
       - ok:fields-place
 - add:
     entry:
@@ -1697,7 +1532,6 @@ ops:
       - name:le-duan
       - name:ho-chi-minh
       place: hanoi
-      at: before 1967-12-01
 - add:
     entry:
       id: cal.1967-12.vietnam-hanoi-2
@@ -1714,21 +1548,6 @@ ops:
       - ok:fields-place
 - add:
     entry:
-      id: cal.1968-01.vietnam-hanoi
-      when: Jan.
-      date: 1968-01
-      thread: vietnam-hanoi
-      also:
-      - vietnam
-      c: The Central Committee meets at Kim Bôi, Hòa Bình, to keep the strategic aim secret, and approves the Politburo's resolution of December 1967 as the Fourteenth Plenum's. Trường Chinh calls it one of the Party's great creations on the line of the war. The war's end by a blow at all the cities and towns at once, Saigon, Huế and Đà Nẵng the key points.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 43–44. Made public: 2013. Names: Trường Chinh. Check: the days.'
-      tags:
-      - polity:drv
-      - vis:only:drv
-      - name:truong-chinh
-      place: kim-boi
-- add:
-    entry:
       id: cal.1968-01-12.laos-2
       when: Jan. 12
       date: '1968-01-12'
@@ -1736,28 +1555,11 @@ ops:
       also:
       - vietnam-hanoi
       c: The joint Lao–Vietnamese force attacks in the Nậm Bạc campaign, in Upper Laos; by Jan. 27, eleven Vientiane battalions destroyed. The history says the blow held the Americans to Upper Laos, leaving the South's battlefield open.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 78–79. Check: the place and the count of battalions; the calendar has Nậm Bạc falling Jan. 14, [[cal.1968-01-14.laos]]. The Politburo had agreed in October to join the Lao in the attack, [[cal.1967-10-20.vietnam-hanoi]].'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 78–79. The figures are the history''s. The fall: [[cal.1968-01-14.laos]]. The Politburo had agreed in October to join the Lao in the attack, [[cal.1967-10-20.vietnam-hanoi]]. Check: the place and the count of battalions.'
       tags:
       - polity:drv
       - polity:laos
       place: nam-bac
-- add:
-    entry:
-      id: cal.1968-01-20.vietnam-khe-sanh-2
-      when: Jan. 20
-      date: '1968-01-20'
-      thread: vietnam-khe-sanh
-      also:
-      - vietnam-hanoi
-      - vietnam-operations
-      c: 'The Route 9–Khe Sanh campaign opens, ten days before Tết: a surprise attack on the Khe Sanh strongpoint group and the Route 9 line; Hướng Hóa district town taken; Làng Vây and Tà Cơn besieged. Johnson has a special situation room set up in the White House and the Joint Chiefs "sign in blood" to hold Khe Sanh; Westmoreland says Khe Sanh will not be lost.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 79–80. Names: Johnson, Westmoreland. Check: the date; the calendar has the first attack before dawn Jan. 21, [[cal.1968-01-21.vietnam]], and the history''s "chiếm quận lỵ Hướng Hoá" is not in the American record read.'
-      tags:
-      - polity:drv
-      - polity:us
-      - name:johnson-lyndon-b
-      - name:westmoreland-william
-      place: khe-sanh
 - add:
     entry:
       id: cal.1968-01-20.vietnam-hanoi
@@ -1786,7 +1588,6 @@ ops:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
-      at: before 1968-01-21
 - add:
     entry:
       id: cal.1968-01-29.vietnam-tet-2
@@ -1803,25 +1604,6 @@ ops:
       place: nha-trang
       time: 1968-01-29T15:00Z
       time_zone: Asia/Ho_Chi_Minh
-- add:
-    entry:
-      id: cal.1968-01-30.vietnam-tet-3
-      when: Jan. 30
-      date: '1968-01-30'
-      thread: vietnam-tet
-      also:
-      - vietnam-hanoi
-      c: From 12:30 to 1:15 a.m. the force of Region 5 and the Western Highlands attacks together Tân Cảnh in Kon Tum, Buôn Ma Thuột, Pleiku, Đà Nẵng, Hội An, Quy Nhơn and Kon Tum town.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 81. See [[cal.1968-01-30.vietnam]]. Check: the clock, whose it is. The history also has Hồ Chí Minh''s New Year poem sounding through the mountains and rivers as the attack began (V, 81); the day and hour it was broadcast are not given.'
-      tags:
-      - polity:drv
-      - polity:us
-      - ok:fields-place
-      time_range:
-      - 1968-01-29T16:30Z
-      - 1968-01-29T17:15Z
-      time_zone: Asia/Ho_Chi_Minh
-      range_basis: record
 - add:
     entry:
       id: cal.1968-01-30.vietnam-tet-4
@@ -1847,7 +1629,7 @@ ops:
       also:
       - vietnam-hanoi
       c: 'Huế. Artillery fires on the Triangle, the Phan Sào Nam quarter, Phú Bài, Động Toàn and Đông Ba, and sappers (Squad 3, Battalion 2) hit the Thừa Thiên sector headquarters: the attack on 40 targets in and around the city opens from two directions. At 8 a.m. Jan. 30 the city''s center is held; by Feb. 1 most of Huế is in revolutionary hands, 90 percent of its people "masters", the history says.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 95–98, 102. Check: the clock, whose it is; the 90 percent is the history''s.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 95–98, 102. Check: the clock, whose it is; the 90 percent is the history''s. Check: the day; the history''s own account (V, 80–81) holds the offensive outside Region 5 and the Western Highlands to the night of Jan. 30–31, and the calendar has Huế attacked that night, [[cal.1968-01-31.vietnam-tet]].'
       tags:
       - polity:drv
       - polity:us
@@ -1863,7 +1645,7 @@ ops:
       also:
       - vietnam-hanoi
       c: The Citadel, Huế. Company 4 breaks the Hữu gate and takes the flag tower at 4:30; Company 3 and the rest of Company 4 go in by Yết Kiêu and Lê Huân streets; by 5 the whole palace area (Đại Nội) is taken, a Saigon scout company and 130 police killed or captured. At 8 a.m. the Liberation Front's flag goes up on the flagpole.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 98. Check: the clock, whose it is.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 98. Check: the clock, whose it is. Check: the day; the history''s own account (V, 80–81) holds the offensive outside Region 5 and the Western Highlands to the night of Jan. 30–31, and the calendar has Huế attacked that night, [[cal.1968-01-31.vietnam-tet]].'
       tags:
       - polity:drv
       - polity:us
@@ -1879,7 +1661,7 @@ ops:
       also:
       - vietnam-hanoi
       c: Mang Cá, Huế. Company 1, Battalion 12 sappers, and Company 2, Battalion 1, Regiment 6 attack the Saigon 1st Division's headquarters at the main gate; four men get in and die; 14 sappers and 12 infantry take the medical and psychological-warfare company's quarters; tanks close the gate; at 11 a.m. the whole force withdraws.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 97. Check: the hour; the history says the attack on 40 targets began at 2:33.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 97. Check: the hour; the history says the attack on 40 targets began at 2:33. Check: the day; the history''s own account (V, 80–81) holds the offensive outside Region 5 and the Western Highlands to the night of Jan. 30–31, and the calendar has Huế attacked that night, [[cal.1968-01-31.vietnam-tet]].'
       tags:
       - polity:drv
       - polity:us
@@ -1896,7 +1678,7 @@ ops:
       also:
       - vietnam-hanoi
       c: Tây Lộc airfield, Huế. Sappers of Company 2, Battalion 12, and Company 1, Battalion 1, Regiment 6, go in with inside help by the Thủy Quan gate and the Ngự Hà river, take the southwest corner and destroy 20 aircraft; Regiment 6 attacks again and holds the whole field by 5 a.m. Jan. 31, until the Americans from Mang Cá retake it. Both attacks together destroy 40 helicopters and 100 vehicles, burn an ammunition store and a fuel store.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 97–98. Check: the hour; the history says the attack on 40 targets began at 2:33.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 97–98. Check: the hour; the history says the attack on 40 targets began at 2:33. Check: the day; the history''s own account (V, 80–81) holds the offensive outside Region 5 and the Western Highlands to the night of Jan. 30–31, and the calendar has Huế attacked that night, [[cal.1968-01-31.vietnam-tet]].'
       tags:
       - polity:drv
       - polity:us
@@ -1917,22 +1699,6 @@ ops:
       tags:
       - polity:drv
       - ok:fields-place
-- add:
-    entry:
-      id: cal.1968-01-31.vietnam-tet-10
-      when: Jan. 31
-      date: '1968-01-31'
-      thread: vietnam-tet
-      also:
-      - vietnam-hanoi
-      c: 'Saigon–Gia Định. The offensive opens, two hours into Jan. 31, the second day of Tết in the South. The signal was to have been the ĐKB rockets on Tân Sơn Nhứt and the MACV headquarters at New Year''s Eve, Jan. 29–30. The plan of the Central Office and the Southern Command: F.100''s sappers and the commando groups, by surprise, take nine targets and paralyze the enemy briefly; the spearhead battalions of the sub-regions and the young and students follow, widen the hold and raise the people; the divisions and regiments hold the enemy outside.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 83–85. See [[cal.1968-01-31.vietnam-tet]]. Check: the clock; the history does not say whose.'
-      tags:
-      - polity:drv
-      - polity:us
-      place: saigon
-      time: 1968-01-30T18:00Z
-      time_zone: Asia/Ho_Chi_Minh
 - add:
     entry:
       id: cal.1968-01-31.vietnam-tet-11
@@ -2015,9 +1781,9 @@ ops:
       - polity:us
       place: bien-hoa
       time_range:
-      - 1968-01-31T14:00Z
-      - 1968-01-31T16:00Z
-      time_band: night
+      - 1968-01-30T16:00Z
+      - 1968-01-30T22:00Z
+      time_band: predawn
       time_zone: Asia/Ho_Chi_Minh
       range_basis: record
 - add:
@@ -2073,7 +1839,7 @@ ops:
       also:
       - vietnam-hanoi
       c: 'Saigon. The night of Feb. 17 the rocket regiments 96 and 208 fire on Tân Sơn Nhứt, the Capital police headquarters and the 1st Division''s base at Phú Lợi: the BBC''s report of Feb. 18, at least 400 casualties at Phú Lợi, many stores and aircraft destroyed. Battalion 1 of the Quyết Thắng Regiment attacks the airborne 8th Battalion at Tân Thới Hiệp. Feb. 19 at 2:15 a.m. Battalion 1 Long An and Battalion 6 Bình Tân attack in the inner city; Feb. 20 noon to Feb. 21 2 p.m. the fight at Cầu Tre, Tân Thới and Phú Thọ Hòa.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 115–16. Check: the clock; and the days of each, which the history gives in a run.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 115–16. The figures are the history''s. Check: the clock; and the days of each, which the history gives in a run.'
       tags:
       - polity:drv
       - polity:us
@@ -2107,7 +1873,7 @@ ops:
       also:
       - vietnam-hanoi
       c: Saigon. Shelling of Tân Sơn Nhứt, the Capital Special Zone, the Thủ Đức NCO school and the An Nhơn fuel depot; Feb. 24 the Giồng Ông Tố and Kinh bridges blown; Feb. 25 the Sicovina mill at Thủ Đức taken. Feb. 28 the firing of the general offensive in Saigon ends.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 117.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 117. The figures are the history''s.'
       tags:
       - polity:drv
       - polity:us
@@ -2127,7 +1893,6 @@ ops:
       - polity:drv
       - vis:only:drv
       place: hanoi
-      at: before 1968-03-21
 - add:
     entry:
       id: cal.1968-04.vietnam-hanoi
@@ -2153,9 +1918,10 @@ ops:
       also:
       - vietnam-air-war
       c: Đinh Đức Thiện, chief of the General Logistics Department, back from inspecting the Zone 4 road under bombing, forms Construction Site 18 to build the first oil pipeline across the "fire triangle" of Vinh, Nam Đàn and Linh Cảm, 42 kilometers, to bring fuel forward.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 177. To check: the decision, General Logistics Department, Apr. 20, 1968.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 177. Made public: 2013. To check: the decision, General Logistics Department, Apr. 20, 1968.'
       tags:
       - polity:drv
+      - vis:only:drv
       - ok:fields-place
 - add:
     entry:
@@ -2171,7 +1937,6 @@ ops:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
-      at: before 1968-04-11
 - add:
     entry:
       id: cal.1968-04.vietnam-hanoi-3
@@ -2186,7 +1951,6 @@ ops:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
-      at: before 1968-04-11
 - add:
     entry:
       id: cal.1968-04-24.vietnam-hanoi
@@ -2197,7 +1961,7 @@ ops:
       - vietnam
       - vietnam-may-offensive
       c: 'The Politburo and the Central Military Party Committee meet and decide a second wave of the general offensive and uprising, from May 4 to the end of June. The enemy, after Tết, is massing at the key points to push the war away from the cities; his force is still scattered. The aim: hit the cities without a stop, tighten the siege, keep up a standing crisis and rouse the people to take power; free most of the countryside and then all of it; keep on destroying the Saigon regime and army and a good part of the American forces; strike bases, depots and roads; raise the military and political force fast; the North to build defense, raise output, beat any new escalation, keep traffic open and support the South. Plan: Khe Sanh besieged; Route 9, Trị–Thiên and the Western Highlands held and the enemy destroyed there; Saigon–Gia Định the main point; Huế and Đà Nẵng the important ones.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 173–76. Made public: 2013. The place is the Politburo''s seat; the history does not give it.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 173–76. The figures are the history''s. Made public: 2013. The place is the Politburo''s seat; the history does not give it.'
       tags:
       - polity:drv
       - vis:only:drv
@@ -2222,23 +1986,6 @@ ops:
       time_band: afternoon
       time_zone: Asia/Ho_Chi_Minh
       range_basis: record
-- add:
-    entry:
-      id: cal.1968-05-05.vietnam-hanoi
-      when: May 5
-      date: '1968-05-05'
-      thread: vietnam-hanoi
-      also:
-      - vietnam
-      - vietnam-operations
-      c: 'The second wave of the general offensive opens at 12:30 a.m.: in the first week, May 5 to 12, the force hits 89 cities, towns, district seats and bases from Trị–Thiên to Cà Mau. Around Huế and Quảng Trị at dawn infantry, artillery and sappers strike the city''s edge, Quảng Trị town, 8 posts and 12 operating bases.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 185, 214. See [[cal.1968-05-05.vietnam]]. Check: the clock, whose it is.'
-      tags:
-      - polity:drv
-      - polity:us
-      - ok:fields-place
-      time: 1968-05-04T16:30Z
-      time_zone: Asia/Ho_Chi_Minh
 - add:
     entry:
       id: cal.1968-05-15.vietnam-hanoi
@@ -2321,7 +2068,7 @@ ops:
       - vietnam
       - vietnam-operations
       c: 'The Standing Military Party Committee, Lê Duẩn, Võ Nguyên Giáp, Văn Tiến Dũng, Song Hào and Trần Quý Hai, meets with Hoàng Anh, Lê Trọng Tấn, Trần Sâm, Đinh Đức Thiện and Nguyễn Đôn on the winter–spring plan of 1968–69. Văn Tiến Dũng reports on the field after the first two waves. Lê Duẩn: every effort to attack Saigon and push the countryside; take Saigon and the countryside movement will grow; military action to start and push the political, "which will decide victory", three times the May wave; destroy 70 to 80 percent of the enemy''s strategic reserve; Đà Nẵng as the means allow; the strategic reserve to stand in the Western Highlands for the moment. Giáp: put the expected opening into the plan beforehand.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 227–28. Made public: 2013. Names: Lê Duẩn, Võ Nguyên Giáp, Văn Tiến Dũng. Check: the place; the history says "họp bàn" only. The time is the first day''s. The history notes some fronts wanted a pause to refill and Region 5 asked for a third wave (V, 227).'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 227–28. Made public: 2013. Names: Lê Duẩn, Võ Nguyên Giáp, Văn Tiến Dũng. Check: the place; the history says "họp bàn" only. The history notes some fronts wanted a pause to refill and Region 5 asked for a third wave (V, 227).'
       tags:
       - polity:drv
       - vis:only:drv
@@ -2344,49 +2091,6 @@ ops:
       - polity:drv
       - vis:only:drv
       place: hanoi
-- add:
-    entry:
-      id: cal.1968-08-17.vietnam-hanoi
-      when: Aug. 17
-      date: '1968-08-17'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      c: The third wave of the general offensive and uprising opens, to end Sept. 28.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 229. Check: whether the wave opened as ordered; the calendar has the Tây Ninh attack from the night of Aug. 17–18, [[cal.1968-08-18.vietnam-operations]].'
-      tags:
-      - polity:drv
-      - polity:us
-- add:
-    entry:
-      id: cal.1968-09-08.vietnam-hanoi
-      when: Sept. 8
-      date: '1968-09-08'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-diplomacy
-      c: Lê Đức Thọ and Xuân Thủy meet the American chief and deputy, the first of five private high-level meetings (Sept. 8, 12, 15, 20 and Oct. 14). The Americans keep urging a total halt to the bombing in exchange for a step down in the South, the "whole package". Sept. 20 the Americans formally ask that a Saigon delegation take part in talks after the halt, "an important element easing the halt."
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 336. Names: Lê Đức Thọ, Xuân Thủy. Check: the dates of the private meetings 12, 15 and 20; the history lists them in a run.'
-      tags:
-      - polity:drv
-      - name:le-duc-tho
-      - name:xuan-thuy
-      place: paris
-- add:
-    entry:
-      id: cal.1968-10-15.vietnam-hanoi-2
-      when: Oct. 15
-      date: '1968-10-15'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-diplomacy
-      c: 'Harriman reads Washington''s instruction: the Americans will order the bombing and all force against the whole DRV stopped, if the DRV will begin "serious talks" the day after, with Saigon''s representatives on the American side; the order a day or two after. Xuân Thủy: if the Americans stop unconditionally the DRV will speak to them. From Oct. 15 to 31 the talks turn on three points: the formal total and unconditional halt; a joint document; four sides or two at the next conference.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 337. Names: Xuân Thủy, Harriman.'
-      tags:
-      - polity:drv
-      - name:xuan-thuy
-      - name:harriman-w-averell
-      place: paris
 - add:
     entry:
       id: cal.1968-10-29.vietnam-hanoi
@@ -2417,20 +2121,6 @@ ops:
       - polity:drv
 - add:
     entry:
-      id: cal.1968-11-03.vietnam-hanoi
-      when: Nov. 3
-      date: '1968-11-03'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-diplomacy
-      c: 'Hồ Chí Minh''s appeal: the war of destruction in the North has been beaten, but that is only a first victory; the Americans say "peace" and "negotiation" and have not given up aggression; the people''s sacred task is to raise their will to fight and to win, to free the South, defend the North and move toward peace and the country''s unity. The same day the Americans ask to meet Nov. 6 to arrange a "substantive meeting in a new form"; the DRV agrees, noting it is a four-party meeting.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 341 (the appeal''s text, *Toàn tập*). Names: Hồ Chí Minh. Check: the place of the appeal.'
-      tags:
-      - polity:drv
-      - name:ho-chi-minh
-      place: hanoi
-- add:
-    entry:
       id: cal.1968-11-04.vietnam-hanoi
       when: Nov. 4
       date: '1968-11-04'
@@ -2451,8 +2141,8 @@ ops:
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: 'Đầu Mầu, Route 9. Battalion 5 of Regiment 1, 324th Division, with a sapper company, opens the Route 9–North Quảng Trị Front''s first action by attacking the Đầu Mầu strongpoint: a Saigon ranger company destroyed, over 30 weapons taken. Jul. 9 the enemy lands a ranger battalion from helicopters west of Cam Lộ to retake the heights lost.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 202. Check: the clock; the history does not say whose.'
+      c: 'Đầu Mầu, Route 9. Battalion 5 of Regiment 1, 324th Division, with a sapper company, opens the Route 9–North Quảng Trị Front''s first action by attacking the Đầu Mầu strongpoint: a Saigon ranger company destroyed, over 30 weapons taken.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 202. The figures are the history''s. Check: the clock; the history does not say whose.'
       tags:
       - polity:drv
       - polity:us
@@ -2468,7 +2158,7 @@ ops:
       also:
       - vietnam-operations
       c: Hill 402, Route 9. After a night of bombing, B-52s included, a Marine battalion lands by helicopter on the hill at dawn; Company 6, Battalion 6, Regiment 2, 324th Division, holds it through repeated attacks, with nearly ten men lost, and puts nearly 100 Americans out of action; a fire team under Nguyễn Phi Hùng beats off 12 attacks. Company 2, Battalion 5, the "whirlwind company", beats a battalion at Lèn Đất 300. The 1st Marine Division had begun landing in the area Jul. 15; the history counts 18 B-52 sorties in the 24 hours of Jul. 16.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 206–07. See [[cal.1966-07-15.vietnam-operations]]. Check: the hill''s place and the unit of the Marines; the history does not name the battalion.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 206–07. The figures are the history''s. See [[cal.1966-07-15.vietnam-operations]]. Check: the hill''s place and the unit of the Marines; the history does not name the battalion.'
       tags:
       - polity:drv
       - polity:us
@@ -2487,12 +2177,11 @@ ops:
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: Cù Đinh and Ba De, Route 9. The Americans land two battalions to hunt the units holding the area; Battalion 9 of Regiment 1 and Battalion 1 of Regiment 3, new from the rear, attack the landing at once through the bombing and drive it off. Jul. 22 two battalions of the 5th Marines land at Khe Chùa; Jul. 25 the 3d Battalion's two companies climbing hill 314 are thrown back, the AP counting 71 wounded in one company; Jul. 26 noon the two Marine battalions at Cù Đinh and Ba De fall back to Cam Lộ and Hastings is ended.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 207–09. Check: the units; the history''s account runs Jul. 17 to 26 in one passage and the dates of each landing are its own. See [[cal.1966-07-15.vietnam-operations]].'
+      c: Cù Đinh and Ba De, Route 9. The Americans land two battalions to hunt the units holding the area; Battalion 9 of Regiment 1 and Battalion 1 of Regiment 3, new from the rear, attack the landing at once through the bombing and drive it off.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 207. See [[cal.1966-07-15.vietnam-operations]]. Check: the units.'
       tags:
       - polity:drv
       - polity:us
-      - ok:fields-time
       place: dmz
 - add:
     entry:
@@ -2502,8 +2191,8 @@ ops:
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: 'Bản Hiệu, 5 kilometers northwest of Đầu Mầu. A company of the 5th Marine Battalion helicoptered in from Đông Hà is hit by Company 5 of Regiment 3: 40 put out of action. Aug. 17 a mortar, recoilless and 12.7 mm company of Regiment 2 had fired on a Marine company on the march; Aug. 25 night two sapper companies of the Front raid the mixed artillery and tank position northwest of Thiện Xuân bridge: 36 killed, two 105 mm guns and three armored vehicles destroyed.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 209–10. Check: the units and days; three actions in a run. The Americans were on a sweep from Đông Hà, Cam Lộ and Tân Lâm in mid-August.'
+      c: 'Bản Hiệu, 5 kilometers northwest of Đầu Mầu. A company of the 5th Marine Battalion helicoptered in from Đông Hà is hit by Company 5 of Regiment 3: 40 put out of action.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 209–10. The figures are the history''s. The Americans were on a sweep from Đông Hà, Cam Lộ and Tân Lâm in mid-August (IV, 209). Check: the units.'
       tags:
       - polity:drv
       - polity:us
@@ -2511,13 +2200,13 @@ ops:
 - add:
     entry:
       id: cal.1966-09-19.vietnam-hanoi
-      when: Sept. 19–26
+      when: Sept. 19–21
       date: '1966-09-19'
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: 'An Bình village and hill 400. The American command in Đông Hà sends the Marines to hunt the main force as a Saigon task force''s sweep ends: Sept. 19–21 the Marines fail three days against An Bình village; Sept. 21 morning the 8th Battalion, replacing the 7th, hurt badly, tries again to level it; Sept. 25 night Battalion 9 of Regiment 3 ambushes hill 400, and Sept. 26 morning two companies of the 3d Battalion, 4th Marines, attacking hill 400 with heavy fire support, cannot hold in the ambush and leave with their dead.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 211–12. Check: the units; the passage read breaks off at Sept. 29, where the Marine general sees his strength wasting on both wings.'
+      c: 'An Bình village. The American command in Đông Hà sends the Marines to hunt the main force as a Saigon task force''s sweep ends: three days against the village fail; Sept. 21 morning the 8th Battalion, in place of the 7th, hurt badly, tries again to level it.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 211. Check: the units.'
       tags:
       - polity:drv
       - polity:us
@@ -2526,13 +2215,13 @@ ops:
 - add:
     entry:
       id: cal.1966-11-02.vietnam-hanoi
-      when: Nov. 2–24
+      when: Nov. 2
       date: '1966-11-02'
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: 'Tây Ninh. The 9th Division opens its attack on the Americans'' Attleboro operation: the night of Nov. 2 it hits the Bà Tươi stream posts, destroying a security company, a commando platoon and a pacification platoon; Nov. 3 the Americans land part of the 196th Brigade at Trảng Tranh; Nov. 7–8 Battalion 1 of Regiment 16 destroys a company of the 1st Division''s 2d Brigade at Chà Dơ; the night of Nov. 11–12 Regiment 1 shells the 1st Division''s headquarters; Nov. 16 Regiment 16 kills 79 at Khe Đôn and Sóc Xoài and shoots down three helicopters; the nights of Nov. 21 and 25 Regiments 1 and 2 shell Tà Đạt and Dầu Tiếng, 300 killed in the second. Westmoreland ends the operation Nov. 24.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 243–48. See [[cal.1966-11-03.vietnam-operations]]. Check: the units and the days; the history runs them together.'
+      c: 'Tây Ninh. The 9th Division opens its attack on the Americans'' Attleboro operation: the night of Nov. 2 it hits the posts of the Bà Tươi stream, in the east of the province, destroying a security company, a commando platoon and a pacification platoon.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 243. See [[cal.1966-09-14.vietnam-operations]]. Check: the units.'
       tags:
       - polity:drv
       - polity:us
@@ -2545,28 +2234,14 @@ ops:
       range_basis: record
 - add:
     entry:
-      id: cal.1966-10-18.vietnam-hanoi-2
-      when: Oct. 18–Dec. 6
-      date: '1966-10-18'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      c: 'Sa Thầy campaign, Western Highlands. Oct. 18 Battalion 1, Regiment 95 shells and surrounds the Plei Girăng border post; Oct. 26 the American 4th Division''s 1st Brigade lands east of the Sa Thầy river; Oct. 28 two companies destroyed, another hurt (UPI: the new division beaten); Nov. 11–13 at landing zone C1 on the west bank; Nov. 20–21 Regiments 320, 66 and 95 attack the Americans of the 1st Cavalry''s 2d Brigade and the 4th Division; Nov. 27–28 the Americans leave both banks; Dec. 6 Battalion 200''s artillery hurts a battalion at Cà Đin.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 249–52. Check: the place and units. The history sets the whole as a campaign in step with Eastern Nam Bộ. See [[cal.1966-10-18.vietnam-hanoi-2]].'
-      tags:
-      - polity:drv
-      - polity:us
-      place: dak-to
-- add:
-    entry:
       id: cal.1967-01-08.vietnam-hanoi
       when: Jan. 8
       date: '1967-01-08'
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: Bến Súc and Bến Cát, the Iron Triangle. The Americans, after probes from Jan. 2 and bombing the northern Củ Chi villages, split their force into columns toward Bến Súc; the night of Jan. 8 the Liberation Army goes into Bến Cát town and its bases; Jan. 9–13 it ambushes and destroys eight tanks and armored cars and all aboard on the road from Bàu Khai to Kiến An; Jan. 11 night it shells the 4th Division's 3d Brigade field headquarters at Dầu Tiếng; Jan. 16–17 Regiment 2 crosses the Saigon River and hits a cluster at Thanh An. Jan. 26 the Americans end the operation, which the history says cost them about 2,500 Americans, 200 Saigon troops and 54 New Zealanders.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 254–57. See [[cal.1967-01-08.vietnam]]. Check: the units; the history calls the operation "Xêđa Phôn" (Cedar Falls); its count of losses is its own.'
+      c: Bến Cát, the Iron Triangle. The Americans, after probes from Jan. 2, split their force into columns toward Bến Súc; one, into An Điền, is fought by forces of the 9th Division and the people of south Bến Cát; the night of Jan. 8 the Liberation Army goes deep into Bến Cát town and attacks its bases.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 254. See [[cal.1967-01-08.vietnam]]. Check: the units; the history calls the operation "Xêđa Phôn" (Cedar Falls).'
       tags:
       - polity:drv
       - polity:us
@@ -2579,51 +2254,18 @@ ops:
       range_basis: record
 - add:
     entry:
-      id: cal.1967-02-22.vietnam-hanoi-2
-      when: Feb. 22
-      date: '1967-02-22'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      c: Junction City, War Zone C. After B-52 raids on the north of Tây Ninh the night of Feb. 21, the American 173d Airborne Brigade jumps at Cà Tum at 6 a.m. Feb. 22. Feb. 25 the Saigon Marine Task Force A is landed at Cà Bon and lifted out Feb. 28; Feb. 26 a battalion of Regiment 1, 9th Division, kills 150 at Trảng A Lâu. The Americans hit the base from Mar. 6; the night of Mar. 10 the force attacks the clusters at Đồng Pan and Bàu Cỏ; Mar. 13 the American columns start to withdraw; Mar. 15 the second phase turns east.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 265–73. Check: the clock, whose it is; the days are the history''s run.'
-      tags:
-      - polity:drv
-      - polity:us
-      place: tay-ninh
-      time: 1967-02-21T22:00Z
-      time_zone: Asia/Ho_Chi_Minh
-- add:
-    entry:
       id: cal.1967-03-19.vietnam-hanoi
-      when: Mar. 19–21
+      when: Mar. 19
       date: '1967-03-19'
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: 'Đồng Rùm, east of the base. Mar. 18 the second phase of Junction City begins; Mar. 19 the American aircraft landing at Đồng Rùm hit a field of mines laid by the 82d logistics group''s guerrillas: 8 aircraft and over 100 Americans destroyed at once. The night of Mar. 20–21 the 9th Division''s command uses Regiments 2 and 16 in a decisive battle there, the Americans being new to the ground.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 273–74. See [[cal.1967-03-21.vietnam-operations]], [[cal.1967-03-20.vietnam-operations]]. Check: the result of the Mar. 20–21 battle, which the history does not give in the passage read.'
+      c: 'Đồng Rùm, east of the base. In Junction City''s second phase, from Mar. 18, American aircraft landing at Đồng Rùm hit a field of mines laid by the guerrillas of the 82d logistics group: 8 aircraft and over 100 Americans destroyed at once.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 273–74. The figures are the history''s.'
       tags:
       - polity:drv
       - polity:us
-      - ok:fields-time
       place: dong-rum
-- add:
-    entry:
-      id: cal.1967-03-31.vietnam-hanoi-2
-      when: Mar. 31–Apr. 1
-      date: '1967-03-31'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-operations
-      c: 'Ba Vùng, Junction City. Mar. 31 morning a battalion from Ba Vùng strikes at the Liberation Army''s position; the night of Mar. 31 Regiment 1 and Battalion 7 of Regiment 16 raid and destroy the southern cluster, hold the northern, and shell the cluster at Sóc Con Trăn: 800 killed, 13 aircraft down. Apr. 1 the Americans in the south leave Đồng Rùm; Apr. 2 they leave Cà Tum; May 15 Westmoreland declares the operation ended. Nguyễn Chí Thanh: the largest American operation into the base area, "the most painful defeat".'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 276–77. See [[cal.1967-03-31.vietnam-operations]], [[cal.1967-05-14.vietnam-operations]]. Names: Nguyễn Chí Thanh. Check: the units; the figures are the history''s.'
-      tags:
-      - polity:drv
-      - polity:us
-      - name:nguyen-chi-thanh
-      - ok:fields-time
-      place: ba-vung
 - add:
     entry:
       id: cal.1967-02-04.vietnam-hanoi
@@ -2633,7 +2275,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Quảng Điền district post, Thừa Thiên. The Trị–Thiên forces attack it: 350 Saigon troops killed. The history counts for Quảng Trị and Thừa Thiên in the first four months of 1967 over 21,000 of the enemy out of action, 624 vehicles and 195 aircraft.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 281. Check: the place; the history names the district, not the town.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 281. The figures are the history''s. Check: the place; the history names the district, not the town.'
       tags:
       - polity:drv
       place: hue
@@ -2646,7 +2288,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Hill 241, Cam Lộ. The Liberation Army''s mortars and 122 mm rockets fire over 1,000 rounds: nearly 1,000 Americans killed and wounded, 21 guns destroyed.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 281. Check: the units and the place''s relation to Cồn Tiên; the Americans'' record of Mar. 7 is not read.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 281. The figures are the history''s. Check: the units and the place''s relation to Cồn Tiên; the Americans'' record of Mar. 7 is not read.'
       tags:
       - polity:drv
       - polity:us
@@ -2660,7 +2302,7 @@ ops:
       also:
       - vietnam-operations
       c: 'La Vang, Từ Hạ and Quảng Trị town. The Trị–Thiên forces hit the rear bases of the Saigon 1st Division''s Regiments 1 and 3 by surprise: 1,700 killed, 230 vehicles destroyed, 8 stores of fuel and arms burned.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 281. Check: the night; the history prints "đêm 5 rạng ngày 4-6-1967", which cannot be read as written.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 281. The figures are the history''s. Check: the night; the history prints "đêm 5 rạng ngày 4-6-1967", which cannot be read as written.'
       tags:
       - polity:drv
       place: quang-tri
@@ -2692,7 +2334,7 @@ ops:
       also:
       - vietnam-air-war
       c: Off Sầm Sơn, Thanh Hóa. A Saigon commando ship enters the waters; Phan Như Cẩn of the 919th Air Group, with his crew, flies an AN-2 and bombs it sunk. Returning, the plane has a fault and he lands it on the beach, crew and plane safe. The history calls it the Air Force's first victorious air–sea action.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 396. Check: the hour; the history says only "đêm 8-1-1966".'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 396. The figures are the history''s. Check: the hour; the history says only "đêm 8-1-1966".'
       tags:
       - polity:drv
       place: thanh-hoa
@@ -2702,20 +2344,6 @@ ops:
       time_band: night
       time_zone: Asia/Bangkok
       range_basis: record
-- add:
-    entry:
-      id: cal.1966-04-14.vietnam-hanoi-3
-      when: Apr. 14
-      date: '1966-04-14'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-air-war
-      c: B-52 flights bomb the area of the Mụ Giạ pass and Route 12 in west Quảng Bình, to cut the transport line over the border into Strategic Route 559. The same is done Apr. 27.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 389. Check: the day; the calendar has the first B-52 strike on the North Apr. 12 on the Mu Gia pass, [[cal.1966-04-12.vietnam]].'
-      tags:
-      - polity:drv
-      - polity:us
-      place: quang-binh
 - add:
     entry:
       id: cal.1966-06.vietnam-hanoi-4
@@ -2730,21 +2358,6 @@ ops:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
-- add:
-    entry:
-      id: cal.1966-06-29.vietnam-hanoi-2
-      when: June 29
-      date: '1966-06-29'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-air-war
-      c: Hundreds of American sorties bomb 52 points from Đồng Hới to Quảng Ninh, among them the Đức Giang fuel depot at Hanoi and the Thượng Lý depot at Haiphong. From Jun. 29 the raids go on at Đức Giang, Đông Anh and Thượng Lý; Jul. 19 they hit the Cầu Giẽ and Vạn Điểm bridges and the Đông Anh oil depot; Jul. 20 Battalion 72 of Missile Regiment 285, at Vô Tranh, shoots down an EB-66.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 206, 397–98. Check: the units and the days of the second and third actions; the history runs them together. See [[cal.1966-06-29.vietnam]].'
-      tags:
-      - polity:drv
-      - polity:us
-      - ok:fields-place
-      place: hanoi
 - add:
     entry:
       id: cal.1966-08-02.vietnam-hanoi
@@ -2840,8 +2453,8 @@ ops:
       thread: vietnam-hanoi
       also:
       - vietnam-air-war
-      c: Hàm Rồng, Thanh Hóa. The women militia platoon of Hoa Lộc, Hậu Lộc, with the antiaircraft gunners, shoot down an A-4D with infantry rifles. Oct. 14 and 24 the old men's militia platoon of Hoàng Trường, Hoàng Hóa, with rifles, burn two aircraft.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 416. Check: the place of the second action; the history names the commune. Two actions in a run.'
+      c: Thanh Hóa. The women's militia platoon of Hoa Lộc, Hậu Lộc, with the antiaircraft gunners, shoots down an A-4D with infantry rifles.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 416.'
       tags:
       - polity:drv
       - polity:us
@@ -2849,18 +2462,19 @@ ops:
 - add:
     entry:
       id: cal.1967-08-11.vietnam-hanoi
-      when: Aug. 11–23
+      when: Aug. 11
       date: '1967-08-11'
       thread: vietnam-hanoi
       also:
       - vietnam-air-war
-      c: Hanoi. From noon Aug. 11 the Americans send seven carrier air wings in force against the capital and its surroundings; on Aug. 11, 12, 22 and 23 Antiaircraft Regiments 232, 212, 230 and 234, with the militia and self-defense forces, shoot down 22 aircraft. The Air Force's intelligence had seen the carriers move south in the first days of August.
+      c: Hanoi. From noon Aug. 11 the Americans send seven carrier air wings in force against the capital and its surroundings. On Aug. 11, 12, 22 and 23, by the history's count, Antiaircraft Regiments 232, 212, 230 and 234, with the militia and self-defense forces, shoot down 22 aircraft. The Air Force's intelligence had seen the carriers move south in the first days of August.
       n: '[[w.lich-su-khang-chien-chong-my]], IV, 412–13. See [[cal.1967-08-11.vietnam]]. Check: the units against the days.'
       tags:
       - polity:drv
       - polity:us
-      - ok:fields-time
       place: hanoi
+      time: 1967-08-11T05:00Z
+      time_zone: Asia/Bangkok
 - add:
     entry:
       id: cal.1967-09.vietnam-hanoi-2
@@ -2876,21 +2490,6 @@ ops:
       - polity:us
       - ok:fields-at
       place: haiphong
-- add:
-    entry:
-      id: cal.1967-10-24.vietnam-hanoi
-      when: Oct. 24–28
-      date: '1967-10-24'
-      thread: vietnam-hanoi
-      also:
-      - vietnam-air-war
-      c: Hanoi. Nearly 500 sorties by turns hit the Long Biên bridge, the Yên Phụ power plant, the airfields and air-defense sites in and outside the city. The night of Oct. 25 Nội Bài airfield is bombed; 1,600 people of Kim Anh and Đa Phúc districts fill the craters with the air defense.
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 414. See [[cal.1967-10-24.vietnam-air-war]], [[cal.1967-10-25.vietnam-air-war]]. Check: the number of aircraft shot down, which the passage read does not give.'
-      tags:
-      - polity:drv
-      - polity:us
-      - ok:fields-time
-      place: hanoi
 - add:
     entry:
       id: cal.1968-05-31.vietnam-hanoi
@@ -2927,7 +2526,7 @@ ops:
       also:
       - vietnam-operations
       c: Giồng Trôm, Bến Tre. After 5,000 rounds on Long Mỹ and Lương Phú, 20 warships bring the American 3d Brigade ashore; the province forces sink many boats. About 7 a.m., after B-52 carpet bombing, 14 helicopters land two companies of the 10th Regiment at Gò Trụ. Jul. 24 the rescue ships come to tow the damaged and 12 more are sunk.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 255–56. Check: the clock, whose it is; the history gives about 5 a.m. for the first landing and about 7 a.m. for the second.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 255–56. The figures are the history''s. Check: the clock, whose it is; the history gives about 5 a.m. for the first landing and about 7 a.m. for the second.'
       tags:
       - polity:drv
       - polity:us
@@ -2959,7 +2558,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Lộ Tẻ airfield, Cần Thơ. Battalion 307 with a Region sapper unit takes the field by surprise with grenades and charges: nearly 60 aircraft of all kinds destroyed or damaged.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 250.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 250. The figures are the history''s.'
       tags:
       - polity:drv
       - polity:us
@@ -2979,7 +2578,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Trà Phí, Tây Ninh–Bình Long campaign. The night of Aug. 17 Regiment 3 (less a battalion) of the 9th Division raids the Trà Phí strongpoint cluster: about 400 Americans out of action, 31 vehicles and six guns destroyed or damaged. At the same time sappers raid Bà Đen mountain base, kill a ranger company and wreck the signal center. The campaign opens, the history says, Aug. 17.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 233. See [[cal.1968-08-18.vietnam-operations]].'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 233. The figures are the history''s. See [[cal.1968-08-18.vietnam-operations]].'
       tags:
       - polity:drv
       - polity:us
@@ -3013,7 +2612,7 @@ ops:
       also:
       - vietnam-operations
       c: Trà Phí, second raid. Regiment 3 of the 9th Division puts a mechanized infantry battalion out of action, destroys or damages 96 vehicles and 14 guns, and shoots down four helicopters.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 234.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 234. The figures are the history''s.'
       tags:
       - polity:drv
       - polity:us
@@ -3053,7 +2652,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Ông Hùng stream, Tây Ninh. The night of Aug. 22–23 Battalion 2 of Regiment 33, 5th Division, attacks an American vehicle park: 60 vehicles destroyed, four aircraft shot down, hundreds out of action.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 234.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 234. The figures are the history''s.'
       tags:
       - polity:drv
       - polity:us
@@ -3113,7 +2712,6 @@ ops:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
-      at: before 1968-08-21
 - add:
     entry:
       id: cal.1968-08.vietnam-hanoi-4
@@ -3128,7 +2726,6 @@ ops:
       - polity:drv
       - vis:only:drv
       - ok:fields-place
-      at: before 1968-08-11
 - add:
     entry:
       id: cal.1968-08-31.vietnam-hanoi
@@ -3138,9 +2735,10 @@ ops:
       also:
       - vietnam-operations
       c: The campaign command ends the first phase of the Tây Ninh–Bình Long campaign on both directions; Sept. 1–10 the units regroup in a "buffer round"; Sept. 10 the second phase opens as intended.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 235–36.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 235–36. Made public: 2013.'
       tags:
       - polity:drv
+      - vis:only:drv
       - ok:fields-place
       time_range:
       - 1968-08-31T14:00Z
@@ -3157,7 +2755,7 @@ ops:
       also:
       - vietnam-operations
       c: 'Lâm Vồ, second raid. Regiment 2 of the 9th Division badly hurts a mixed mechanized infantry battalion, destroys or damages 58 vehicles (39 armored) and 14 mortars, and downs seven aircraft. The same day on Route 22 Regiment 88 of the 5th Division, by ambush and counterattack, puts about 350 out of action, 46 vehicles and six helicopters. On Route 26 Sept. 16 Regiment 174 ambushes a mechanized infantry unit on the move: over 200 killed or wounded, 26 vehicles burned, five gunships.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 236. Check: the units and the days; three actions in a run, Sept. 12 twice and Sept. 16.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 236. The figures are the history''s. Check: the units and the days; three actions in a run, Sept. 12 twice and Sept. 16.'
       tags:
       - polity:drv
       - polity:us
@@ -3248,19 +2846,6 @@ ops:
       - ok:fields-place
 - add:
     entry:
-      id: cal.1967-11-20.vietnam-diplomacy
-      when: Nov. 20–Dec. 1
-      date: '1967-11-20'
-      thread: vietnam-diplomacy
-      also:
-      - vietnam-hanoi
-      c: 'The Russell Tribunal sits in Copenhagen for its second session. Its finding, the history says: the American government guilty of aggression against Vietnam, and Australia, New Zealand and South Korea its accomplices in savage crimes.'
-      n: '[[w.lich-su-khang-chien-chong-my]], IV, 447. Check: the place, which the history gives as Copenhagen, Denmark; whether the finding was read at this session.'
-      tags:
-      - polity:drv
-      place: copenhagen
-- add:
-    entry:
       id: cal.1967-12.vietnam-prisoners
       when: Dec.
       date: 1967-12
@@ -3330,7 +2915,7 @@ ops:
       also:
       - vietnam-hanoi
       c: Phan Thiết. Region 6's committee and command had the order to fire at the Tết New Year's Eve only in the last days; at midnight Jan. 30 the forces on the main direction attack the enemy in the town.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 133. Check: the clock, whose it is.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 133. Check: the clock, whose it is. Check: the day; the history''s own account (V, 80–81) holds the offensive outside Region 5 and the Western Highlands to the night of Jan. 30–31.'
       tags:
       - polity:drv
       - polity:us
@@ -3350,7 +2935,7 @@ ops:
       tags:
       - polity:drv
       - polity:us
-      place: da-lat
+      place: dalat
       time: 1968-01-30T17:45Z
       time_zone: Asia/Ho_Chi_Minh
 - add:
@@ -3362,17 +2947,14 @@ ops:
       also:
       - vietnam-hanoi
       c: Biên Hòa city. At New Year's Eve by the South's calendar (the night of Jan. 29–30), the 5th Division with sappers and local forces attacks the city; by the evening of Jan. 30 the force, too weak to go on, withdraws.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 136–37. Check: the night; the history elsewhere has the 5th Division''s attack on Biên Hòa airfield and Long Bình on the night of Jan. 30–31 (V, 94), see [[cal.1968-01-31.vietnam-tet-7]].'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 136–37. Check: the night; the history elsewhere has the 5th Division''s attack on Biên Hòa airfield and Long Bình on the night of Jan. 30–31 (V, 94), see [[cal.1968-01-31.vietnam-tet-7]]. Check: the day; the history''s own account (V, 80–81) holds the offensive outside Region 5 and the Western Highlands to the night of Jan. 30–31.'
       tags:
       - polity:drv
       - polity:us
       place: bien-hoa
-      time_range:
-      - 1968-01-30T14:00Z
-      - 1968-01-30T16:00Z
-      time_band: night
       time_zone: Asia/Ho_Chi_Minh
-      range_basis: record
+      time: 1968-01-29T16:00Z
+      time_approx: true
 - add:
     entry:
       id: cal.1968-01-29.vietnam-tet-3
@@ -3382,7 +2964,7 @@ ops:
       also:
       - vietnam-hanoi
       c: Mỹ Tho. The night of Jan. 29 Regiment 1 crosses the Bảo Định river and goes into the city's center in three columns; at 7 a.m. Jan. 30 it holds the bus station, Pasteur Street and the Giồng Nhỏ road as far as the Fresh Water lake. Jan. 31 at dawn the American 3d Brigade of the 9th Division, three Saigon 7th Division battalions and two armored troops counterattack.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 138–39.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 138–39. Check: the day; the history''s own account (V, 80–81) holds the offensive outside Region 5 and the Western Highlands to the night of Jan. 30–31.'
       tags:
       - polity:drv
       - polity:us
@@ -3403,7 +2985,7 @@ ops:
       also:
       - vietnam-hanoi
       c: Bến Tre town. At 1 a.m. artillery and mortars fire on the headquarters of the Saigon 7th Division's 10th Regiment and the provincial security command; that night the force takes most of its objectives in the town and surrounds the province chief's residence. Feb. 1 at 4 p.m. the Americans try to land a battalion by helicopter from Bình Đức on the town's football field; Feb. 2 another battalion lands at Phú Hưng.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 141–42. Check: the clock, whose it is.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 141–42. Check: the clock, whose it is. Check: the day; the history''s own account (V, 80–81) holds the offensive outside Region 5 and the Western Highlands to the night of Jan. 30–31.'
       tags:
       - polity:drv
       - polity:us
@@ -3419,7 +3001,7 @@ ops:
       also:
       - vietnam-hanoi
       c: Cần Thơ. At 3 a.m. the forces fire together on their assigned targets. Battalion 303 pulls out the morning of Jan. 31; Battalion 309 comes up Jan. 31 and with the others takes the Tham Tướng bridge and cultural district; by Feb. 2 under rising pressure the battalions withdraw to the Vòng Cung road and fight counterattacks from there; Feb. 4 hurt a battalion.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 143–44. Check: the clock, whose it is; the last clause is cut in the passage read.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 143–44. Check: the clock, whose it is; the last clause is cut in the passage read. Check: the day; the history''s own account (V, 80–81) holds the offensive outside Region 5 and the Western Highlands to the night of Jan. 30–31.'
       tags:
       - polity:drv
       - polity:us
@@ -3435,7 +3017,7 @@ ops:
       also:
       - vietnam-hanoi
       c: Vĩnh Long. At 1:30 a.m. Battalion 306, Nguyễn Đệ commanding, enters the city from the south and opens fire together with the other forces; Jan. 31 and Feb. 1 they still hold what they took; Feb. 2 helicopter flame-throwers burn the city's quarters and infantry in M113s counterattack; by Feb. 3 the force holds most of the town but the province chief's residence.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 145–46. Check: the clock, whose it is.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 145–46. Check: the clock, whose it is. Check: the day; the history''s own account (V, 80–81) holds the offensive outside Region 5 and the Western Highlands to the night of Jan. 30–31.'
       tags:
       - polity:drv
       - polity:us
@@ -3453,60 +3035,40 @@ ops:
       - laos
       - vietnam-operations
       c: The Route 9–Khe Sanh campaign command decides to destroy the Huội San strongpoint cluster by the Lao border, held by Lao Vientiane Battalion 33, to raise the pressure from the west and open the approach to Làng Vây and force the enemy to reinforce.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 121. Check: the place; the passage read does not say where the command sat.'
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 121. Made public: 2013. Check: the place; the passage read does not say where the command sat.'
       tags:
       - polity:drv
+      - vis:only:drv
       - polity:us
       - ok:fields-place
 - add:
     entry:
-      id: cal.1968-02-06.vietnam-khe-sanh
-      when: Feb. 6–7
-      date: '1968-02-06'
-      thread: vietnam-khe-sanh
-      also:
-      - vietnam-hanoi
-      - vietnam-operations
-      c: 'Làng Vây. The 304th Division''s Regiment 24 (less a battalion), with a battalion of the 325th, the 198th Tank Battalion (16 tanks, less part), a company of B5, sappers, a 14.5 mm machine-gun company and a flame-thrower platoon, attacks the strongpoint at 11:30 p.m. Feb. 6, put off from Feb. 5 for Regiment 24''s poor preparation. By 8 a.m. Feb. 7 it holds the camp: 400 killed, over 200 taken, five American advisers among them, all arms taken. The enemy had some 600 in the camp, each area held by a ranger company. Feb. 10 the siege of Tà Cơn begins.'
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 121–22, 153–54. See [[cal.1968-02-07.vietnam]]. Check: the clock, whose it is; the count of Americans, which the Marines'' record is to be read against.'
-      tags:
-      - polity:drv
-      - polity:us
-      place: lang-vei
-      time: 1968-02-06T15:30Z
-      time_zone: Asia/Ho_Chi_Minh
-- add:
-    entry:
       id: cal.1967-03-08.vietnam-hanoi-2
-      when: Mar. 8–13
+      when: Mar. 8
       date: '1967-03-08'
       thread: vietnam-hanoi
       also:
       - vietnam-operations
       - vietnam-support
-      c: Ship 43 of the Navy's Group 125 sails from Haiphong with supplies for Quảng Ngãi, Region 5 having first call over Nam Bộ. Five days on, about 30 nautical miles off Sa Kỳ, she meets American warships; Nguyễn Đức Thắng, captain, and Trần Quốc Tuấn, commissar, fight, wound two of the ships, and reach the pier at 5 a.m. to hide the cargo. Aircraft and warships come in; the crew gets ashore and the ship is destroyed.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 49–50. See [[cal.1967-03-14.vietnam-operations]]. Check: the clock, whose it is; the day of the arrival, which is Mar. 13 by "five days" from Mar. 8. The place is the port of departure.'
+      c: Haiphong. Ship 43 of the Navy's Group 125 sails with supplies for Quảng Ngãi, Region 5 having first call over Nam Bộ.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 49. Her end: [[cal.1967-03-14.vietnam-operations]].'
       tags:
       - polity:drv
-      - polity:us
-      - ok:fields-time
       place: haiphong
 - add:
     entry:
       id: cal.1967-06-06.vietnam-hanoi
-      when: June 6–14
+      when: June 6
       date: '1967-06-06'
       thread: vietnam-hanoi
       also:
       - vietnam-operations
       - vietnam-support
-      c: Ship 198 of Group 125 sails Jun. 6; the night of Jun. 14, six nautical miles from the Ba Làng An landing in Quảng Ngãi, she meets the enemy, fires back, and drives for the pier. The crew destroys the ship and goes ashore; the commissar Huỳnh Ngọc Trạch and the deputy captain Phạm Chuyên Nghiệp die.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 50. Check: the place of departure, which the history does not give; the entry''s place is Haiphong, Group 125''s home port.'
+      c: Ship 198 of the Navy's Group 125 sails for the Ba Làng An landing, Quảng Ngãi.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 50. Check: the port of departure; the history gives none.'
       tags:
       - polity:drv
-      - polity:us
-      - ok:fields-time
-      place: haiphong
+      - ok:fields-place
 - add:
     entry:
       id: cal.1968-02-23.vietnam-hanoi
@@ -3516,12 +3078,11 @@ ops:
       also:
       - vietnam-operations
       - vietnam-support
-      c: Ship 165 sails for Cà Mau, the first of four ships, 165, 56, 43 and 235, the Navy's command sends with arms and ammunition for the general offensive. Near the landing she meets the enemy; the captain and deputy, Nguyễn Chánh Tâm and Nguyễn Ngọc Lương, with 18 men, 15 of them Party members, put the cargo into the sea to be recovered, let the enemy come near, and blow the ship up with themselves.
-      n: '[[w.lich-su-khang-chien-chong-my]], V, 50. See [[cal.1968-03-01.vietnam-operations]]. Check: the place of departure; and the day of the loss, which the passage read does not give.'
+      c: Ship 165 of the Navy's Group 125 sails for Cà Mau, the first of the four ships, 165, 56, 43 and 235, the Navy's command sends with arms and ammunition for the general offensive.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 50. Her end: [[cal.1968-03-01.vietnam-operations]]. Check: the port of departure; the history gives none.'
       tags:
       - polity:drv
-      - polity:us
-      place: haiphong
+      - ok:fields-place
 - add:
     entry:
       id: cal.1966-08.vietnam-hanoi-2
@@ -3613,7 +3174,7 @@ ops:
     units: all
 - cite:
     id: cal.1965-05-16.vietnam-operations
-    item: '[[w.lich-su-khang-chien-chong-my]], IV, 45 (the history calls it a raid; see [[cal.1965-05-16.vietnam-hanoi]])'
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 45 (the day and the aircraft lost; the history calls it a raid)'
     units: all
 - cite:
     id: cal.1965-07-24.vietnam
@@ -3647,7 +3208,7 @@ ops:
     units: all
 - cite:
     id: cal.1965-11-08.vietnam-operations
-    item: '[[w.lich-su-khang-chien-chong-my]], IV, 61 (the 173d ambushed at Đất Cuốc, 300 out of action; see [[cal.1965-11-08.vietnam-hanoi]])'
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 61 (the 173d at Đất Cuốc, Nov. 8)'
     units: all
 - cite:
     id: cal.1965-11-14.vietnam
@@ -3671,7 +3232,7 @@ ops:
     at: IV, 59
 - cite:
     id: cal.1966-01-08.vietnam-operations
-    item: '[[w.lich-su-khang-chien-chong-my]], IV, 86–88 (Củ Chi, Jan. 8–19: the history''s account of the 12-day sweep; see [[cal.1966-01-08.vietnam-hanoi]])'
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 86–88 (Củ Chi, Jan. 8–19: the history''s account of the 12-day sweep)'
     units: all
 - cite:
     id: cal.1966-01-24.vietnam
@@ -3681,9 +3242,6 @@ ops:
     id: cal.1968-01.vietnam-tet
     item: '[[w.lich-su-khang-chien-chong-my]], V, 43–44 (the Fourteenth Plenum met in January 1968 at Kim Bôi, Hòa Bình, and made the Politburo''s resolution of December 1967 its own)'
     units: all
-- check:
-    id: cal.1968-01.vietnam-tet
-    text: 'Check: the calendar has the plenum in Hanoi; the history of the Military History Institute has it at Kim Bôi, Hòa Bình (V, 43).'
 - cite:
     id: cal.1967-10-29.vietnam-operations
     item: '[[w.lich-su-khang-chien-chong-my]], V, 17–19 (the Bình Long–Phước Long campaign, Oct. 27–Dec. 10; Regiment 3 of the 9th Division attacks Lộc Ninh the night of Oct. 28)'
@@ -3702,7 +3260,7 @@ ops:
     units: all
 - cite:
     id: cal.1967-03-20.vietnam-operations-2
-    item: '[[w.lich-su-khang-chien-chong-my]], IV, 404–06 (Regiment 164''s guns on Dốc Miếu and hill 241, Mar. 20; see [[cal.1967-03-20.vietnam-hanoi-2]])'
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 404–06 (Regiment 164''s guns on Dốc Miếu and hill 241, Mar. 20)'
     units: all
 - variant:
     id: cal.1967-03-20.vietnam-operations-2
@@ -3712,7 +3270,7 @@ ops:
     at: IV, 405
 - cite:
     id: cal.1968-01-30.vietnam
-    item: '[[w.lich-su-khang-chien-chong-my]], V, 80–82 (the offensive''s opening, Jan. 29–30: Nha Trang at 11 p.m. Jan. 29, Tuy Hòa at midnight, Tân Cảnh, Buôn Ma Thuột, Pleiku, Đà Nẵng, Hội An, Quy Nhơn and Kon Tum from 12:30 to 1:15 a.m. Jan. 30; see [[cal.1968-01-30.vietnam-tet-3]])'
+    item: '[[w.lich-su-khang-chien-chong-my]], V, 80–82 (the offensive''s opening, Jan. 29–30: Nha Trang at 11 p.m. Jan. 29, Tuy Hòa at midnight, Tân Cảnh, Buôn Ma Thuột, Pleiku, Đà Nẵng, Hội An, Quy Nhơn and Kon Tum from 12:30 to 1:15 a.m. Jan. 30)'
     units: all
 - cite:
     id: cal.1968-01-31.vietnam-tet
@@ -3738,12 +3296,6 @@ ops:
     id: cal.1968-05-13.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], V, 333–34 (the first formal session, May 13, at the Hall of International Conferences on Avenue Kléber; Xuân Thủy leads, Hà Văn Lâu deputy; the delegation arrived May 9; experts met May 10–11)'
     units: all
-- variant:
-    id: cal.1968-05-13.vietnam
-    unit: A
-    witness: w.lich-su-khang-chien-chong-my
-    reads: the first session held in the Hall of International Conferences, avenue Kléber, Paris
-    at: V, 334
 - cite:
     id: cal.1968-06-03.vietnam-paris
     item: '[[w.lich-su-khang-chien-chong-my]], V, 333 (Lê Đức Thọ''s arrival, which the history puts in mid-June 1968)'
@@ -3768,7 +3320,7 @@ ops:
     units: all
 - cite:
     id: cal.1966-07-15.vietnam-operations
-    item: '[[w.lich-su-khang-chien-chong-my]], IV, 206–09 (Hastings from the 324th Division''s side: Jul. 15 landings, Jul. 16 hill 402, Jul. 17 Cù Đinh, Jul. 26 the Americans'' withdrawal; see [[cal.1966-07-16.vietnam-hanoi]])'
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 206–09 (Hastings from the 324th Division''s side: Jul. 15 landings, Jul. 16 hill 402, Jul. 17 Cù Đinh, Jul. 26 the Americans'' withdrawal)'
     units: all
 - cite:
     id: cal.1966-11-03.vietnam-operations
@@ -3800,14 +3352,6 @@ ops:
 - cite:
     id: cal.1966-06-29.vietnam
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 206, 397–98 (the Đức Giang and Thượng Lý depots, Jun. 29)'
-    units: all
-- cite:
-    id: cal.1967-05-19.vietnam-air-war
-    item: '[[w.lich-su-khang-chien-chong-my]], IV, 410 (the Hanoi power plant, May 19: ten aircraft shot down over Hanoi that day)'
-    units: all
-- cite:
-    id: cal.1967-04-24.vietnam-air-war
-    item: '[[w.lich-su-khang-chien-chong-my]], IV, 408 (Hải Phòng and Hanoi raids from Apr. 24)'
     units: all
 - cite:
     id: cal.1968-08-18.vietnam-operations
@@ -3845,8 +3389,146 @@ ops:
     id: cal.1968-03-01.vietnam-operations
     unit: A
     witness: w.lich-su-khang-chien-chong-my
-    reads: Ship 56, to Bình Định, did not get in and turned back to the North; Ship 43, second trip to Quảng Ngãi, met six warships and gunships 12 miles out, shot down two helicopters and wounded a fast boat, the crew swam ashore and the ship blown up; Ship 235, to Nha Trang, dropped its cargo six nautical miles from Hòn Hèo and went out; Ship 165, Cà Mau, blown up by its crew
+    reads: Ship 56, to Bình Định, did not get in and turned back to the North; Ship 43, second trip to Quảng Ngãi, met six warships and gunships 12 miles out, shot down two helicopters and wounded a fast boat, the crew swam ashore and the ship blown up; Ship 235, to Nha Trang, dropped its cargo six nautical miles from Hòn Hèo and went out; Ship 165, to Cà Mau, its cargo put into the sea, blown up by its crew, Nguyễn Chánh Tâm and Nguyễn Ngọc Lương, captain and deputy, with 18 men
     at: V, 50–51
+- variant:
+    id: cal.1965-05-16.vietnam-operations
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: a raid by the Liberation Army on Biên Hòa airfield; the Americans, the history says, admitted 11 B-57s and 4 jets destroyed, 25 other aircraft badly damaged, 21 Americans dead and 64 wounded
+    at: IV, 45
+- variant:
+    id: cal.1965-11-08.vietnam-operations
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: 'Đất Cuốc, 30 kilometers north of Biên Hòa: Regiment 1 of the 9th Division, with Artillery Group 69, ambushes the 173d Airborne Brigade, 300 out of action'
+    at: IV, 61
+- cite:
+    id: cal.1965-12-08.vietnam-operations
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 63 (Liên Kết 18, opened to relieve the Việt An post; the Marines landed Dec. 9 and 10)'
+    units: all
+- variant:
+    id: cal.1965-12-08.vietnam-operations
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: the ARVN 5th Task Force and two armored squadrons open Liên Kết 18 to relieve the Việt An post after twelve days of siege; Dec. 9 the Saigon force beaten, and five Marine battalions landed on the shore and in the hills, Dec. 9 and 10, at An Lý, Châu Xuân, Cẩm La, La Ngà and Chiêm Sơn
+    at: IV, 63
+- variant:
+    id: cal.1966-01-08.vietnam-operations
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: 'twelve days of fighting at Củ Chi, Jan. 8–19, against the 1st Division''s brigades and the 173d Airborne: 200 actions, nearly 1,000 Americans and Saigon troops killed or wounded, 84 aircraft shot down (most of them UH-1s), 77 vehicles destroyed or damaged (56 M113s), two 105 mm guns; the sweep ended Jan. 19, the brigades moved to Đồng Dù'
+    at: IV, 86–88
+- cite:
+    id: cal.1967-11-03.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], V, 22–23 (the Đắk Tô campaign opened Nov. 3, Major General Hoàng Minh Thảo commanding the front, Colonel Trần Thế Môn its commissar; Squad 7, Company 11, Battalion 6 against two American companies on the Ngọc Bờ Biêng saddle)'
+    units: all
+- variant:
+    id: cal.1967-11-19.vietnam-operations
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: Nov. 17 two battalions of the 173d climb Hill 875, Nov. 18 B-52s in turn; Nov. 19, held at the foot by Company 7, Regiment 174 (Đàm Văn Ngụy commanding), the 2d Battalion destroyed by moving attack joined with strongpoints; Nov. 20 more killed and 12 aircraft shot down; the fighting to Nov. 29, when both sides left the field
+    at: V, 26–28
+- variant:
+    id: cal.1967-12-05.vietnam-operations
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: Dec. 3, a battalion of Regiment 88 attacks the Đắk Sơn strategic hamlet and destroys two security platoons, the attack unfinished and no help to a rising; Dec. 6 the Saigon side counterattacks and Regiment 5 destroys two security companies, 15 taken
+    at: V, 21
+- variant:
+    id: cal.1968-01.vietnam-tet
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: the plenum met at Kim Bôi, Hòa Bình, to keep the strategic aim secret
+    at: V, 43
+- variant:
+    id: cal.1968-01-21.vietnam
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: the campaign opened Jan. 20 with a surprise attack on the Khe Sanh strongpoint group and the Route 9 line; Hướng Hóa district town taken; Làng Vây and Tà Cơn besieged
+    at: V, 79–80
+- cite:
+    id: cal.1968-09-07.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], V, 336 (Lê Đức Thọ and Xuân Thủy meet the American chief and deputy, the first of the private meetings of the two delegations'' heads)'
+    units: all
+- variant:
+    id: cal.1968-09-07.vietnam
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: the meeting held Sept. 8, 1968
+    at: V, 336
+- cite:
+    id: cal.1968-10-16.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], V, 337 (the private meeting; Harriman reads Washington''s instruction)'
+    units: all
+- variant:
+    id: cal.1968-10-16.vietnam
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: 'the meeting held Oct. 15: Harriman reads Washington''s instruction, the bombing and all force against the whole DRV to stop if the DRV will begin "serious talks" the day after, Saigon''s representatives on the American side; Xuân Thủy: if the Americans stop unconditionally the DRV will speak to them'
+    at: V, 337
+- cite:
+    id: cal.1968-11-03.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], V, 341 (Hồ Chí Minh''s appeal of Nov. 3, its text from his *Toàn tập*)'
+    units: all
+- variant:
+    id: cal.1966-04-12.vietnam
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: the B-52s on the Mụ Giạ pass and Route 12, west Quảng Bình, on Apr. 14 and 27
+    at: IV, 389
+- variant:
+    id: cal.1966-06-29.vietnam
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: hundreds of American sorties on 52 points from Đồng Hới to Quảng Ninh, the Đức Giang fuel depot at Hanoi and the Thượng Lý depot at Haiphong among them
+    at: IV, 206, 397
+- cite:
+    id: cal.1967-11.war-opposition
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 447 (the Tribunal''s second session, at Copenhagen; its finding, the American government guilty of aggression against Vietnam)'
+    units: all
 - check:
-    id: cal.1965-12-20.vietnam-hanoi
-    text: 'Check: the history, IV, 220, has the Highlands'' 1st Infantry Division formed "late December 1965", which may be the formation of Dec. 20 on page 37; the Highlands'' 62d Division is named with it (IV, 220).'
+    id: cal.1967-11.war-opposition
+    text: 'Check: the days; the history gives the second session Nov. 20–Dec. 1, 1967 (IV, 447).'
+- cite:
+    id: cal.1967-05-10.war-opposition
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 447 (the Tribunal''s first formal session, at Stockholm, with over 300 delegates)'
+    units: all
+- check:
+    id: cal.1967-05-10.war-opposition
+    text: 'Check: the history prints the first session as May 2–13, 1966 (IV, 447): the year a slip, the days not the calendar''s.'
+- cite:
+    id: cal.1969-01-25.vietnam-paris
+    item: '[[w.lich-su-khang-chien-chong-my]], V, 342 (the first formal session of the four sides, opened at 10:25 a.m., the day printed "25-11-1969")'
+    units: all
+- cite:
+    id: cal.1968-01-31.vietnam-tet-7
+    item: '[[w.lich-su-khang-chien-chong-my]], V, 94 (the 5th Division''s attack on the Long Bình depot, the night of Jan. 30–31)'
+    units: all
+- variant:
+    id: cal.1968-01-31.vietnam-tet
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: at the embassy, Commando Squad 11 blew the wall, took most of the ground floor and went up to the second and third floors of the building, held over six hours
+    at: V, 86–87
+- cite:
+    id: cal.1966-11-25.vietnam-operations
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 248 (Westmoreland orders the operation ended)'
+    units: all
+- check:
+    id: cal.1966-11-25.vietnam-operations
+    text: 'Check: the history has Westmoreland order Attleboro ended Nov. 24, 1966 (IV, 248).'
+- cite:
+    id: cal.1967-03-31.vietnam-operations
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 276 (Ba Vùng, Mar. 31: Regiment 1 and Battalion 7 of Regiment 16)'
+    units: all
+- variant:
+    id: cal.1967-03-31.vietnam-operations
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: 'Ba Vùng: the night of Mar. 31 Regiment 1 and Battalion 7 of Regiment 16 raid and destroy the southern cluster, hold the northern and shell the cluster at Sóc Con Trăn: 800 killed, 13 aircraft down'
+    at: IV, 276
+- cite:
+    id: cal.1967-10-24.vietnam-air-war
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 414 (nearly 500 sorties by turns, Oct. 24–28, on the Long Biên bridge, the Yên Phụ power plant, the airfields and the air-defense sites; Nội Bài airfield bombed the night of Oct. 25)'
+    units: all
