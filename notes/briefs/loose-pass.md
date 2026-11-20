@@ -10,6 +10,8 @@ L2. Your list: `scratchpad/loose-pass/<chunk>.tsv` (id, date, when, thread, the 
 
 ## What is set
 
+L3a. **What merge places itself (Nov. 19, the ghost-day code).** Where your `when` uses a wording `loose.at_for` reads — early, mid, late; first, second, third or last week; end; a season in its own month; a year's early, first half, mid-year, second half, late — set `when` only (the house form: "July, early"; "Oct., the last week"; "1961, first half"), and leave `at` out: `merge` sets it (`place_loose`) and `check` warns `[loose-at]` or `[loose-at-differs]` otherwise. Set `at` yourself only for what the code cannot read: an event's day ("after the convention", "the eve of the plenum"), a named day of the month, a festival (date it to the day instead: L4; the calendar of tools/calendar/ converts lunar dates). The headings are made from the `when` as written (loose.py STYLE 1).
+
 L3. Where the record (the entry's own `c`, `n`, or the source the note cites, if it is in the repo's texts) fixes a position within the month or year:
 - `when:` gets the qualifier in the house form, the month first: `July, early`; `July, after the convention`; `July, before Kennedy's nomination`; `Nov., after the election`; `1961, early`. Keep it short; the ghost day's heading is made from it.
 - `at:` per the owner's rules: `before YYYY-MM-DD` / `after YYYY-MM-DD`. Thirds: early `before 1960-07-01`, mid `before 1960-07-11`, late `before 1960-07-21` (February and short months: `loose.thirds`). An event: before or after the event's day as the calendar dates it — find the event's own entries (`./bib find -l cal --thread T --since ... --until ...`) and use their date; a span (a convention, a plenum, "the convention", "convention week") before its first day; "near the close" of a span: before its last day; "the eve of X": before X's first day.
@@ -18,6 +20,10 @@ L3. Where the record (the entry's own `c`, `n`, or the source the note cites, if
 L4. Where the record fixes the **day** itself ("July 14", "the next day" after a dated entry, a festival or lunar date converted), the entry is not loose: list it under "Dated to the day" in your report with the date and the evidence; do not change `date` (the lead dates them by patch, as a date change moves the entry's file).
 
 L5. Where nothing fixes a position: no op. Never a guess; never the thread alone; never what you know but the entry does not say. A wrong place is worse than none. "By the 15th" and a span of months stay in the block (the earliest implied day is the first).
+
+## The fields
+
+L3b. Every op also follows the reader's brief R25a: if the entry's text gives a time or a place and the entry lacks the field, set it in the same `edit` (`time`/`time_range` with `time_zone`; `place`). `./bib patch-check` flags them (`[fields-time]`, `[fields-at]`).
 
 ## The work
 
