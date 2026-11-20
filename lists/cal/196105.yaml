@@ -1728,6 +1728,19 @@ entries:
       - 1961-05-06T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-05.space
+    when: May 6
+    date: '1961-05-06'
+    place: washington
+    thread: space
+    also: [africa]
+    c: 'A White House state dinner for Bourguiba of Tunisia. Kennedy, with Wiesner: "we''re having a terrible argument in the White House over whether we should put a man on the moon. ... If I told you you''d get an extra billion dollars a year in foreign aid if I didn''t do it, what would be your advice?" Bourguiba: "I wish I could tell you to put it in foreign aid. But I cannot."'
+    n: '[[w.reeves-president-kennedy]], 139. To check: [[w.murray-apollo]], 66–67 (cited by [[w.reeves-president-kennedy]], 139). Check: the day; Reeves has the dinner the day after Shepard''s flight ([[cal.1961-05-05.space]]), the state visit having begun May 3 ([[cal.1961-05-03.africa]]). Names: Bourguiba, Wiesner, Kennedy.'
+    src:
+      c: a7f9c214
+      rows:
+        - 'w.reeves-president-kennedy 139: all'
+    tags: [name:bourguiba-habib-ben-ali, name:wiesner-jerome-b, name:kennedy-john-f]
   - id: cal.1961-05-07.china-leadership
     when: May 7
     date: '1961-05-07'
@@ -7382,19 +7395,6 @@ entries:
         - 'w.reeves-president-kennedy 113: all'
         - 'w.goodwin-remembering-america 189: B, C'
     tags: [name:mcnamara-robert-s, name:goodwin-richard-n, name:castro-fidel]
-  - id: cal.1961-05.space
-    when: May
-    date: 1961-05
-    place: washington
-    thread: space
-    also: [africa]
-    c: 'A White House state dinner for Bourguiba of Tunisia. Kennedy, with Wiesner: "we''re having a terrible argument in the White House over whether we should put a man on the moon. ... If I told you you''d get an extra billion dollars a year in foreign aid if I didn''t do it, what would be your advice?" Bourguiba: "I wish I could tell you to put it in foreign aid. But I cannot."'
-    n: '[[w.reeves-president-kennedy]], 139. To check: [[w.murray-apollo]], 66–67 (cited by [[w.reeves-president-kennedy]], 139). Check: the day; Reeves has the dinner the day after Shepard''s flight ([[cal.1961-05-05.space]]), the state visit having begun May 3 ([[cal.1961-05-03.africa]]). Names: Bourguiba, Wiesner, Kennedy.'
-    src:
-      c: a7f9c214
-      rows:
-        - 'w.reeves-president-kennedy 139: all'
-    tags: [name:bourguiba-habib-ben-ali, name:wiesner-jerome-b, name:kennedy-john-f]
   - id: cal.1961-05.defense
     when: May, early
     date: 1961-05
