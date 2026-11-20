@@ -585,6 +585,11 @@ entries:
     c: 'Hastings ends, one battalion left in its area. Some 8,000 Marines and 3,000 South Vietnamese engaged against elements of all three regiments of the 324B Division. Marines: 126 killed, 448 wounded; South Vietnamese: 21 killed, 40 wounded. Reported: over 700 of the enemy killed, 17 captured.'
     n: '[[w.shulimson-u-s-marines-in-1982]], 175–176. See [[cal.1966-07-15.vietnam-operations]].'
     tags: [place:operation-hastings]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: Hastings abandoned by the two American battalions at Cù Đinh and Ba De, which withdraw to Cam Lộ at noon July 26
+        at: IV, 209
   - id: cal.1966-08-03.vietnam-force-levels
     when: Aug. 3
     date: '1966-08-03'
@@ -3775,6 +3780,23 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 267: all'
     tags: [polity:prc]
+  - id: cal.1966-08-17.vietnam-hanoi
+    when: Aug. 17
+    date: '1966-08-17'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Route 9, Cam Lộ to Đầu Mầu. A fire company of Regiment 2, 324th Division (82 mm mortars, 75 mm recoilless guns, 12.7 mm machine guns), shells a company of American Marines on the march and by the history's count puts scores out of action.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 209–10. See [[cal.1966-07-17.vietnam-hanoi]]. The figures are the history''s.'
+    tags: [polity:drv, polity:us, ok:fields-place]
+  - id: cal.1966-08-17.vietnam-diplomacy
+    when: Aug. 17
+    date: '1966-08-17'
+    place: moscow
+    thread: vietnam-diplomacy
+    also: [soviet-union-leadership]
+    c: Moscow. 6,000 representatives of the capital's people rally in answer to Hồ Chí Minh's appeal; the rally resolves that the Soviet government's will to go on aiding fraternal Vietnam to throw back the imperialists is wholly in keeping with the deepest feeling of all the Soviet people.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 292. Names: Hồ Chí Minh. Check: the place; the history says "in the Soviet Union", of the capital''s people. The figures are the history''s.'
+    tags: [polity:ussr, name:ho-chi-minh]
   - id: cal.1966-08-18.india-and-china-cultural-revolution
     when: Aug. 18
     date: '1966-08-18'
@@ -5208,6 +5230,15 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 252: all'
     tags: [polity:prc, name:liu-shaoqi]
+  - id: cal.1966-08-23.vietnam-hanoi
+    when: Aug. 23
+    date: '1966-08-23'
+    place: vam-cong
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Vàm Cống junction, Lòng Tàu river. Sappers of Group 10, ordered to "block the throat of the Lòng Tàu," sink the 10,000-ton ship Baton Rouge Victory with two K5 contact mines; the history counts 45 killed and dozens of M113s and other equipment lost.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 218. Check: the ship''s name against the record; no record read. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-08-24.opinion
     when: Aug. 24
     date: '1966-08-24'
@@ -5733,6 +5764,20 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 268: all'
     tags: [polity:prc]
+  - id: cal.1966-08-25.vietnam-hanoi
+    when: Aug. 25
+    date: '1966-08-25'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Northwest of the Thiện Xuân bridge, Route 9. That night two sapper companies of the front raid the mixed artillery and tank position and by the history's count kill 36, destroy two 105 mm guns and three armored cars.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 210. See [[cal.1966-08-17.vietnam-hanoi]]. Check: the clock, whose it is. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1966-08-25T14:00Z
+      - 1966-08-25T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1966-08-26.open-housing
     when: Aug. 26
     date: '1966-08-26'
@@ -7825,3 +7870,12 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 270: all'
     tags: [polity:prc]
+  - id: cal.1966-08.vietnam-hanoi-4
+    when: Aug., mid
+    date: 1966-08
+    at: before 1966-08-11
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bông Trang and Lò Gạch. The American 1st Division's 1st Brigade sweeps with tens of tanks and armored carriers; Battalion Phú Lợi of Bình Dương ambushes it and by the history's count puts nearly 200 out of action and burns 16 tanks and M113s. The history calls it the battalion's best counterattack. About the same time Phước Long's Companies 270 and 271 attack the Phước Bình subsector and shell the province town, by the history's count killing or wounding nearly 100 Saigon and American troops.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 217. Check: the day; the history says "mid-August 1966". The figures are the history''s.'
+    tags: [polity:drv, polity:us, polity:rvn, ok:fields-place]

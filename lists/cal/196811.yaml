@@ -458,6 +458,24 @@ entries:
         - 'w.solberg-hubert-humphrey 400–01: all'
         - 'via w.solberg-hubert-humphrey 400 n.sever: all'
     tags: [name:humphrey-hubert-h, state:ca, city:los-angeles]
+  - id: cal.1968-11-03.vietnam-paris
+    when: Nov. 3
+    date: '1968-11-03'
+    place: paris
+    thread: vietnam-paris
+    also: [vietnam-hanoi]
+    c: Paris. The American representative meets the DRV delegation and proposes that the two sides meet Nov. 6 to arrange the "substantive meeting in a new form." The delegation agrees but says it must be a four-party meeting. The Americans are at a loss, Saigon having sent no delegation.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 341. See [[cal.1968-11-06.vietnam-paris]]. The history says the dispute over the meeting''s name and the shape of the table ran through 14 sessions; the American side called it two-sided and proposed first a rectangular table, then three other shapes. Check: whether Nov. 3 is the day; the history says "the same day" as Hồ Chí Minh''s appeal.'
+    tags: [polity:drv, polity:us, polity:rvn]
+  - id: cal.1968-11-03.vietnam-hanoi
+    when: Nov. 3
+    date: '1968-11-03'
+    place: ben-tre
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Giồng Trôm, Bến Tre. The Saigon 7th Division's Regiments 10 and 11 sweep the liberated communes of Long Mỹ, Tân Hào, Thuận Điền, Phước Long and Thạnh Phú Đông, and a security company the commune of Nhơn Trạch. Battalions 5 and 516 and the local forces fight hard to the end of the day; the night of Nov. 3 the province command decides to move all its force in secret to Sơn Phú commune, a remote place on the Hàm Luông river.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 257–58. See [[cal.1968-07-23.vietnam-hanoi]]. The history gives the sweep after the American 3d Brigade and the 117th river assault group were added in Sept. and Oct.'
+    tags: [polity:drv, polity:rvn, polity:us, ok:fields-time]
   - id: cal.1968-11-04.elections-1968-chennault
     when: Nov. 4
     date: '1968-11-04'
@@ -599,6 +617,21 @@ entries:
     c: Nguyễn Thị Bình, for the Liberation Front's delegation, arrives in Paris to join the four-party meeting; the Saigon government has sent no delegation. The two sides fight over the meeting's name and the shape of the table.
     n: '[[w.lich-su-khang-chien-chong-my]], V, 341. Names: Nguyễn Thị Bình.'
     tags: [polity:drv, name:nguyen-thi-binh]
+  - id: cal.1968-11-04.vietnam-hanoi-2
+    when: Nov. 4
+    date: '1968-11-04'
+    place: ben-tre
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Sơn Phú commune, Hàm Luông river, Bến Tre. The enemy finds the force the morning after; after 400 rounds of shelling, the Saigon River Group 23 enters the river and an M113 troop deploys on Route 5. The force beats off dozens of attacks that day and by the history's count kills hundreds. The night of Nov. 4 an engineer platoon, an infantry platoon and fire support raid Battalion 1 of the 10th Regiment; the ring breaks and the force slips out. Battalions 5 and 516 get the Third Class Military Exploit Order.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 258. See [[cal.1968-11-03.vietnam-hanoi]]. The history says "the night of Nov. 4". Check: the clock, whose it is. The figures are the history''s.'
+    tags: [polity:drv, polity:rvn]
+    time_range:
+      - 1968-11-03T22:00Z
+      - 1968-11-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1968-11-05.elections-1968
     when: Nov. 5
     date: '1968-11-05'
@@ -2294,6 +2327,15 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XIX, 367–368: all'
         - 'via w.jianguo-yilai-mao-zedong XIX, 367 n.1: all'
     tags: [polity:prc, name:mao-zedong, name:huang-yongsheng, vis:only:prc]
+  - id: cal.1968-11-15.vietnam-hanoi
+    when: Nov. 15
+    date: '1968-11-15'
+    place: ben-tre
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Mouth of the Bến Tre, Bến Tre. A water-sapper company slips in, fixes charges and sinks 15 vessels of an American river flotilla.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 259. See [[cal.1968-11-04.vietnam-hanoi-2]]. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
   - id: cal.1968-11-16.china-leadership
     when: Nov. 16
     date: '1968-11-16'
@@ -2612,6 +2654,15 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 204: all'
     tags: [polity:prc, polity:albania]
+  - id: cal.1968-11-20.vietnam-hanoi
+    when: Nov. 20
+    date: '1968-11-20'
+    place: thanh-tri
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Thạnh Trị district seat, Sóc Trăng. Battalion Phú Lợi, with district troops and guerrillas, destroys the 7 bunkers guarding the subsector and Security Company 127 and takes many weapons and supplies.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 253. The figures are the history''s.'
+    tags: [polity:drv, polity:rvn]
   - id: cal.1968-11-21.program
     when: Nov. 21
     date: '1968-11-21'
@@ -3391,3 +3442,22 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XIX, 372–373: all'
         - 'via w.jianguo-yilai-mao-zedong XIX, 372 n.1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1968-11.vietnam-hanoi
+    when: Nov., late
+    date: 1968-11
+    at: before 1968-11-21
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Nhà Đài crossroads, Vĩnh Long. In mid-November the enemy sends the Saigon 405th Battalion to build an operations base at the crossroads; at the end of the month Regiment 3 with two battalions raids the base and by the history's count puts 350 out of action, then moves to Vĩnh Xuân, Thầy Phó, Hựu Thành and An Trường to meet the sweeps. In December the regiment beats most of the sweeps and by the history's count hurts one ranger battalion and one of the 16th Regiment badly.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 252. Check: the days; the history gives "the end of November" and "December". The figures are the history''s.'
+    tags: [polity:drv, polity:rvn, ok:fields-place]
+  - id: cal.1968-11.vietnam-hanoi-2
+    when: Nov., mid
+    date: 1968-11
+    at: before 1968-11-11
+    place: saigon
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Language school of the Saigon Air Force Command, Đồng Khánh street, District 5. In mid-November a secret armed team of the Chinese-community organization puts a 105 kg charge on a three-wheeled motor vehicle and blows up the school; by the history's count dozens of American, Thai, Korean and Saigon officers are killed or wounded. In early December a secret security team ambushes General Kiêm's convoy, wounding him and some of his staff.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 242. Check: the days; the history gives "mid-November" and "early December". Kiêm, said to command the President''s office staff and the intelligence commission. The figures are the history''s.'
+    tags: [polity:drv, polity:us, polity:rvn, ok:fields-place]

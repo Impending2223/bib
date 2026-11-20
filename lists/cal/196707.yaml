@@ -2252,6 +2252,21 @@ entries:
     c: Zhou Enlai talks with Chen Zaidao and Zhong Hanhua.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 167 (July 17, 1967, the item after). Made public: 2020. Names: Zhou Enlai, Chen Zaidao, Zhong Hanhua.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-07-17.vietnam-hanoi
+    when: July 17
+    date: '1967-07-17'
+    place: cai-be
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Route 4, Cái Bè to Trung Lương, Mỹ Tho. That night 700 mines and charges, laid by two engineer companies of the region, a Mỹ Tho engineer platoon, 37 guerrilla teams and 1,500 civilians, wreck 80 points of the road; the people along it rise in the new hamlets. Two more waves in August follow.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 331. Check: the year, which the page leaves to the dry season 1966–67; the history''s count of mines and men; the clock, whose it is.'
+    tags: [polity:drv, polity:rvn]
+    time_range:
+      - 1967-07-17T14:00Z
+      - 1967-07-17T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1967-07-18.conservation
     when: July 18
     date: '1967-07-18'
@@ -3021,7 +3036,7 @@ entries:
     place: hanoi
     thread: vietnam-pennsylvania
     c: 'Pennsylvania. Herbert Marcovich, a French biologist known to Kissinger, met at the Pugwash conference in Paris in June, and Raymond Aubrac, an official of the FAO known to Hồ Chí Minh and Phạm Văn Đồng, in Hanoi, Kissinger having briefed them on the American position. July 24, Phạm Văn Đồng: "We want an unconditional end to the bombing and if that happens, there will be no further obstacle to negotiations"; a de facto halt enough; some American troops might stay until a political settlement. They see Hồ Chí Minh once. Back in Paris July 28.'
-    n: 'FRUS 1964–68, V, doc. [263](https://history.state.gov/historicaldocuments/frus1964-68v05/d263) (editorial note). Made public: [[w.herring-secret-diplomacy-of-the]], 717–725 (1983); FRUS 1964–68, V (2002). [[w.gibbons-u-s-government-and]], IV, 777–78 (not the de facto halt, the troops, nor the day back in Paris); [[w.mcnamara-in-retrospect]], ch. 10 at nn.25–27 (Aubrac and Marcovich in Hanoi from July 21; Hồ ill, sees Aubrac; Phạm Văn Đồng: "We want an unconditional end of bombing"). To check: [[w.isaacson-kissinger]]; [[w.ferguson-kissinger-1923-1968]]. Names: Marcovich, Kissinger, Aubrac, Hồ Chí Minh, Phạm Văn Đồng.'
+    n: 'FRUS 1964–68, V, doc. [263](https://history.state.gov/historicaldocuments/frus1964-68v05/d263) (editorial note). [[w.lich-su-khang-chien-chong-my]], V, 319–20 (the Pugwash group meets at Paris June 16–18 with Kissinger "in the President''s name" and sends Marcovich; Aubrac, who sheltered Hồ in 1946, goes with him; July 21 they reach Hanoi as a scientific mission to the Health Ministry; July 24 Hồ receives Aubrac; July 24 and 25 Phạm Văn Đồng: negotiations on the whole of Vietnam, the South first, need the Front, but the first stage may leave it out; "if you need a contact, meet our representative at Paris"). Made public: [[w.herring-secret-diplomacy-of-the]], 717–725 (1983); FRUS 1964–68, V (2002). [[w.gibbons-u-s-government-and]], IV, 777–78 (not the de facto halt, the troops, nor the day back in Paris); [[w.mcnamara-in-retrospect]], ch. 10 at nn.25–27 (Aubrac and Marcovich in Hanoi from July 21; Hồ ill, sees Aubrac; Phạm Văn Đồng: "We want an unconditional end of bombing"). To check: [[w.isaacson-kissinger]]; [[w.ferguson-kissinger-1923-1968]]. Names: Marcovich, Kissinger, Aubrac, Hồ Chí Minh, Phạm Văn Đồng.'
     src:
       c: 56a377ff
       rows:
@@ -3030,7 +3045,13 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 778 n.47: C, F'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d263: all'
         - 'w.mcnamara-in-retrospect ch. 10 at nn.25–27: A'
+        - 'w.lich-su-khang-chien-chong-my V, 319–20: A'
     tags: [name:marcovich-hebert, name:aubrac-raymond, name:kissinger-henry-a, name:ho-chi-minh, name:pham-van-dong, place:hanoi]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: 'Phạm Văn Đồng to Aubrac and Marcovich, July 24 and 25: talks on the substance, the whole of Vietnam and first the South, need the Front''s presence, though the first stage may leave it out; for a contact, meet the DRV representative at Paris; no mention of a de facto halt'
+        at: V, 320
   - id: cal.1967-07-21.middle-east
     when: July 21
     date: '1967-07-21'

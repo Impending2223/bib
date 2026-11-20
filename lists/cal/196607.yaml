@@ -455,7 +455,12 @@ entries:
     thread: soviet-union-leadership
     also: [europe-and-the-alliance]
     c: 'Bucharest. Brezhnev leads the Soviet delegation (Kosygin, Gromyko, Malinovsky, Rusakov) to the Warsaw Pact''s Political Consultative Committee: flies out July 2, 6 p.m., landing at 8:45; the meeting July 4–6; flies back July 8, 2:10 p.m.'
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 135–136 (July 2–8). Names: Brezhnev, Kosygin, Gromyko, Malinovsky, Rusakov. Check: The record gives the presence, not the business.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 135–136 (July 2–8); [[w.lich-su-khang-chien-chong-my]], V, 294 (July 4–6: the Warsaw Pact states meet at Bucharest, leaders and the foreign and defense ministers of the Soviet Union, Bulgaria, Hungary, the GDR, Poland, Romania and Czechoslovakia; after a report on Vietnam they declare against the American crimes, for more aid, and their readiness to send volunteers). Names: Brezhnev, Kosygin, Gromyko, Malinovsky, Rusakov. Check: The record gives the presence, not the business.'
+    src:
+      c: b69c9add
+      rows:
+        - 'w.brezhnev-rabochie-i-dnevnikovye II, 135–136: ?'
+        - 'w.lich-su-khang-chien-chong-my V, 294: A'
     tags: [name:brezhnev-leonid, name:kosygin-aleksei, name:gromyko-andrei, name:malinovsky-rodion-y, polity:ussr, polity:romania]
   - id: cal.1966-07-02.china-leadership
     when: July 2
@@ -810,6 +815,20 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 236: all'
     tags: [polity:prc]
+  - id: cal.1966-07-04.vietnam-diplomacy
+    when: July 4
+    date: '1966-07-04'
+    place: hamburg
+    thread: vietnam-diplomacy
+    c: Hamburg. In the afternoon about 2,000 students and others rally and march to the American consulate with the slogans "Americans go home" and "Hands off Vietnam." In Frankfurt the people demonstrate 20 hours, day and night, before the American consulate, against the new American crime; the history adds similar marches in Munich, Stuttgart, Heidelberg and Düsseldorf.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 300. Check: the days of the Frankfurt and other marches, which the history gives as "in the same days". The figures are the history''s.'
+    tags: [polity:frg, polity:us]
+    time_range:
+      - 1966-07-04T11:00Z
+      - 1966-07-04T17:00Z
+    time_band: afternoon
+    time_zone: Europe/Berlin
+    range_basis: record
   - id: cal.1966-07-05.succession-us
     when: July 5
     date: '1966-07-05'
@@ -1186,6 +1205,13 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 206: all'
     tags: [polity:prc, vis:only:prc, name:deng-xiaoping]
+  - id: cal.1966-07-07.vietnam-diplomacy
+    when: July 7
+    date: '1966-07-07'
+    thread: vietnam-diplomacy
+    c: India. Prime Minister Indira Gandhi declares that the United States must stop bombing North Vietnam, withdraw foreign troops from the South, reconvene the 1954 Geneva conference and guarantee Vietnam's independence and territorial integrity.
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 298. Names: Gandhi. Check: the place and the words, which the history gives in part.'
+    tags: [polity:india, polity:us, ok:fields-place, name:gandhi-indira]
   - id: cal.1966-07-08.jobs-and-wages
     when: July 8
     date: '1966-07-08'
@@ -1407,6 +1433,14 @@ entries:
       - 1966-07-09T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1966-07-09.vietnam-hanoi
+    when: July 9
+    date: '1966-07-09'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: West of Cam Lộ, Route 9. The enemy lands a Saigon ranger battalion by helicopter to retake the lost hills, and a reinforced battalion at Lèn Đất 300 and Lèn Đá 300 north of the road. Battalion 7, in position there, opens fire, kills many and forces them back to the next knob.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 202. See [[cal.1966-06-26.vietnam-hanoi]]. The history goes on, with no day, to a paratroop battalion''s counterattack on hill 402, where Battalion 8 of Regiment 2 puts nearly 100 out of action. The figures are the history''s.'
+    tags: [polity:drv, polity:rvn, ok:fields-place]
   - id: cal.1966-07-10.open-housing
     when: July 10–11
     date: '1966-07-10'
@@ -2476,6 +2510,21 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 209: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 209 n.59: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1966-07-15.vietnam-hanoi
+    when: July 15
+    date: '1966-07-15'
+    place: quang-ngai-province
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Gò Sỏi, Quảng Ngãi. At dawn Battalion 48 of the Quảng Ngãi local forces, in two columns, attacks the base held by a reinforced American company; after nearly an hour the Americans break out. The battalion takes the base, puts scores out of action, takes two 81 mm mortars and destroys four vehicles.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 214–15. Check: the clock, whose it is. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
+    time_range:
+      - 1966-07-14T16:00Z
+      - 1966-07-14T22:00Z
+    time_band: predawn
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1966-07-16.states-and-cities-los-angeles
     when: July 16
     date: '1966-07-16'
@@ -2606,6 +2655,14 @@ entries:
     time_band: morning
     time_zone: Asia/Ho_Chi_Minh
     range_basis: record
+  - id: cal.1966-07-16.vietnam-hanoi-2
+    when: July 16
+    date: '1966-07-16'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Route 1, south of Quảng Trị. Regiment 6 of Thừa Thiên thrusts down to the road and by the history's count hurts a battalion badly and destroys 15 vehicles.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 208. Check: the place, which the history gives only as "the road". The figures are the history''s.'
+    tags: [polity:drv, polity:us, polity:rvn, ok:fields-place]
   - id: cal.1966-07-17.opinion
     when: July 17
     date: '1966-07-17'
@@ -2903,6 +2960,15 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 82: all'
         - 'w.yang-jisheng-tiandi-fanfu I, 214: ?'
     tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
+  - id: cal.1966-07-18.vietnam-hanoi
+    when: July 18
+    date: '1966-07-18'
+    place: thua-thien
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Quảng Điền, Thừa Thiên. Local troops with the district guerrillas ambush traffic, burn two GMC trucks and by the history's count kill 14.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 208. See [[cal.1966-07-16.vietnam-hanoi-2]]. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-07-19.economy
     when: July 19
     date: '1966-07-19'
@@ -3109,6 +3175,15 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 82: all'
     tags: [polity:prc, name:liu-shaoqi]
+  - id: cal.1966-07-19.vietnam-hanoi
+    when: July 19
+    date: '1966-07-19'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam-air-war]
+    c: Cầu Giẽ, Vạn Điểm and the Đông Anh oil depot, around Hanoi. Several flights of American aircraft attack; the missile, antiaircraft and air units act together and shoot down some. Battalion 61 of Missile Regiment 236 is named the first unit to bring an American aircraft down on its own ground and is given the flag "Follow Uncle Hồ's word, resolve to defeat the American aggressors."
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 398.'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-07-20.opinion
     when: July 20
     date: '1966-07-20'
@@ -3319,6 +3394,15 @@ entries:
         - 'via w.yang-jisheng-tiandi-fanfu I, 214 n.78: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
     time_zone: Asia/Shanghai
+  - id: cal.1966-07-20.vietnam-hanoi-2
+    when: July 20
+    date: '1966-07-20'
+    place: vo-tranh
+    thread: vietnam-hanoi
+    also: [vietnam-air-war]
+    c: Vô Tranh. Missile Battalion 72 of Regiment 285, in position there, shoots down an EB-66 electronic reconnaissance aircraft on the spot.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 398. Check: the province; the history gives none. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-07-21.vietnam
     when: July 21
     date: '1966-07-21'
@@ -3603,7 +3687,7 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Liu Shaoqi, for the Chinese people, solemnly declares to the world their most resolute and warmest support for the "Appeal to the Whole Nation" issued by the DRV president, Hồ Chí Minh, on July 17. He restates that U.S. aggression on Vietnam is aggression on China; the Chinese people are resolved, and ready in every way, to take at any time and place whatever action the two peoples think needed, to strike the U.S. aggressors together.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 118 (July 22, 1966); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 645 (July 22, 1966; Liu issues, as Chairman of the People''s Republic, a statement: for the Chinese people he declares most firmly and warmly their support for the "Appeal to the Whole Nation" of Hồ Chí Minh of July 17; to support the Vietnamese people to complete victory the Chinese people are prepared to bear the greatest national sacrifices; China''s 700 million are Vietnam''s strong backing and its vast territory a reliable rear); [[w.macfarquhar-maos-last-revolution]], 86 (the Tiananmen rally of nearly a million on July 22; Liu''s message in support of the North Vietnamese; the Cankao xiaoxi headline of July 27). To check: Cankao xiaoxi (Reference News), July 27, 1966 (cited by [[w.macfarquhar-maos-last-revolution]], 86 n.1b). Names: Liu Shaoqi, Hồ Chí Minh.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 118 (July 22, 1966); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 645 (July 22, 1966; Liu issues, as Chairman of the People''s Republic, a statement: for the Chinese people he declares most firmly and warmly their support for the "Appeal to the Whole Nation" of Hồ Chí Minh of July 17; to support the Vietnamese people to complete victory the Chinese people are prepared to bear the greatest national sacrifices; China''s 700 million are Vietnam''s strong backing and its vast territory a reliable rear); [[w.macfarquhar-maos-last-revolution]], 86 (the Tiananmen rally of nearly a million on July 22; Liu''s message in support of the North Vietnamese; the Cankao xiaoxi headline of July 27); [[w.lich-su-khang-chien-chong-my]], V, 291 (the mass meeting in Tiananmen Square, July 22, 1966; Liu Shaoqi: American aggression against Vietnam is aggression against China, 700 million are the rear of the Vietnamese people). To check: Cankao xiaoxi (Reference News), July 27, 1966 (cited by [[w.macfarquhar-maos-last-revolution]], 86 n.1b). Names: Liu Shaoqi, Hồ Chí Minh.'
     src:
       c: 8a98b576
       rows:
@@ -3611,6 +3695,7 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 645: A'
         - 'w.macfarquhar-maos-last-revolution 86: A'
         - 'via w.macfarquhar-maos-last-revolution 86 n.1b: A'
+        - 'w.lich-su-khang-chien-chong-my V, 291: A'
     tags: [polity:prc, polity:drv, polity:us, name:liu-shaoqi, name:ho-chi-minh]
   - id: cal.1966-07-22.china-leadership-5
     when: July 22
@@ -3693,6 +3778,20 @@ entries:
         witness: w.yang-jisheng-tiandi-fanfu
         reads: the work group had freed Kuai Dafu on July 20 (I, 214), two days before the visit; the visit at the Group's commission, Mao not named
         at: I, 214
+  - id: cal.1966-07-22.vietnam-hanoi
+    when: July 22
+    date: '1966-07-22'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Khe Chùa and the line Ba De, Cù Đinh to Đá May, Route 9. The morning two battalions of the American 5th Marines land and form a defensive line; the Saigon airborne group, from Cùa, lands at Khe Vạn and Làng Đôn, 10 kilometers west of Tân Lâm, to close with the Marines two arms on the north of Route 9.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 208. See [[cal.1966-07-17.vietnam-hanoi]]. Check: the clock, whose it is.'
+    tags: [polity:drv, polity:us, polity:rvn, ok:fields-place]
+    time_range:
+      - 1966-07-21T22:00Z
+      - 1966-07-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1966-07-23.democratic-party
     when: July 23–24
     date: '1966-07-23'
@@ -4085,6 +4184,15 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 245: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 245 n.6: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1966-07-24.vietnam-hanoi
+    when: July 24
+    date: '1966-07-24'
+    place: sa-nho
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Sa Nhỏ, 16 kilometers northwest of Củ Chi town. The enemy, having found the Region's main force there, lands an American company from 12 helicopters; Battalion 8 of the Region, with two companies, destroys it. The Americans at Đồng Dù land two more companies from 25 helicopters at Cỏ Ống to relieve it; Battalion 8 slips past the fire to the enemy's belt, by the history's count kills scores and burns five aircraft, and the rest flee toward Trung Hòa.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 217. Check: the day of the second landing, which the history gives with the first. The figures are the history''s.'
+    tags: [polity:drv, polity:us]
   - id: cal.1966-07-25.vietnam
     when: July 25
     date: '1966-07-25'
@@ -4259,6 +4367,15 @@ entries:
       - 1966-07-25T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1966-07-25.vietnam-hanoi
+    when: July 25
+    date: '1966-07-25'
+    place: hill-314
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Hill 314. The American 3d Battalion, Marines, with air and artillery, attacks in two columns the hill held by a battalion of the defenders; by the history's count two companies cannot "climb the slope" on the first day and are carried back. The afternoon, under 82 mm fire, the Saigon airborne group, which had stood in place, withdraws to Cùa.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 208–09. See [[cal.1966-07-22.vietnam-hanoi]]. The history quotes AP, July 25, on a company with 71 wounded, nearly half.'
+    tags: [polity:drv, polity:us, polity:rvn, ok:fields-time]
   - id: cal.1966-07-26.elections-1966
     when: July 26
     date: '1966-07-26'
@@ -5919,3 +6036,13 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 228: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 228 n.31: all'
     tags: [polity:prc, vis:only:prc, name:mao-zedong, name:tao-zhu, name:zhou-enlai, ok:fields-place]
+  - id: cal.1966-07.vietnam-hanoi
+    when: July, early
+    date: 1966-07
+    at: before 1966-07-01
+    place: dong-du
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Đồng Dù base, Củ Chi. Battalion 8, artillery, fires 200 rounds into the center of the base and by the history's count kills or wounds scores of Americans and destroys 20 vehicles.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 217. Check: the day; the history says "the beginning of July 1966". The figures are the history''s.'
+    tags: [polity:drv, polity:us]
