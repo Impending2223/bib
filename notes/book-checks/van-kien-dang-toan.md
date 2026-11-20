@@ -1052,3 +1052,100 @@ The owner, Nov. 14: "No ruling on the page cites yet. Please look into this. I t
 - **Two builds.** (a) Vols. 21, 22, 23 and 28: iTextSharp PDFs with the print's contents and colophons (XXI, 1150; XXII, 818; XXVIII's CTQG-2003), laid out close to the print: the editors' cross-references in vol. 28 match it at three places of four (no. 207: the editors 493, the copy 468). (b) Vols. 24, 25, 26, 27, 29 and 30: Word files printed to PDF (Ghostscript 8.15, made Mar. 2019, "Microsoft Word – VK Dang TT – Tap N"), re-set, with no contents or colophon, their own folios drifting from the print's by up to about 45 pages and jumping at section breaks (the 1968–69 audit above); vol. 26's file ends mid-sentence at its p. 710.
 - **No page-true copy found online.** The publisher's e-book edition (Chính trị quốc gia – Sự thật) and the Hồ Chí Minh Academy's digital library hold the volumes behind sign-in or restriction; American libraries hold the print (UW-Madison catalogues the set). The print's exact pages want the printed volumes or a library's scan.
 - **Proposed card** (for the owner's ruling; not made): Đảng Cộng sản Việt Nam, *Văn kiện Đảng toàn tập* [Complete Party documents], 54 vols. (Hà Nội: Chính trị quốc gia, 1998–2007), cited from the PDFs on the Party's portal, *Tư liệu – Văn kiện Đảng* (tulieuvankien.dangcongsan.vn; posted 2025). Note: "Vols. 21–23 and 28 follow the print's pages; vols. 24–27, 29 and 30 are re-set texts cited by their own folios, which run up to about 45 pages from the print's; a page the print is known to give is marked 'the print's'." Each volume's year in the note as now (vol. 21 (2002), 1960; ... vol. 30 (2004), 1969), and each volume's portal page linked where the card has room (works.py's series cards).
+
+## The commemorations and provincial matters, entered (Nov. 19)
+
+Reader: batch 16, the 63 rows of the tables above that were passed over as a commemoration, a provincial matter or a local matter (the owner, Nov. 15, 2026: "I said Hanoi's commemorations and provincial matters stay in! In!"; the passing-over came from a gloss in the batch 12 brief, not the owner's words), Nov. 19, 2026 (evening). Patch: `inbox/2026-11-19-b16-vkd-63.yaml` (patch name `2026-11-19-b16-vkd-63`), 63 ops, all new entries (claimed in the ledger), thread `vietnam-hanoi`, `polity:drv`, `vis:only:drv` (each a record kept in the Party archive), "Made public:" the volume's year (vols. 21–23 2002; 24–28 2003; 29–30 2004). `./bib patch-check`: 0 errors, 34 warnings (the same-day "one event?" and "a duplicate of" flags, listed below; and in a merged scratch copy `names-unknown` for persons with no name entry); `./bib fields --patch`: 0 findings.
+
+**The count.** 63 of 63 entered, none passed over again. By year: 1960–61, 11 (4 commemorations, 6 provincial, 1 local); 1962–64, 26 (9 commemorations, 15 provincial, 2 local); 1965–66, 10 (all commemorations); 1967, 6 (all commemorations); 1968–69, 10 (all commemorations). By kind, 39 commemorations, 21 provincial matters, 3 local. With a `place:` 57 (`hanoi`, the seat of the Secretariat and the Politburo, the basis `seat` as the location pass took it for the Party Center's acts); without one 6, the zone committees' own resolutions (Việt Bắc, four; Tây Bắc, two), whose documents give no place. Each entry is dated as its document dates itself; the nine notices of Secretariat meetings (below) are dated on the meeting's day where the notice gives it, the notice's date in the note.
+
+**The volumes read.** Vols. 21, 22, 23, 24, 25, 26, 27, 28, 29 and 30, each fetched whole from the Drive by the ids above (into the reader's own scratch directory), split by half pages with the batch-12 conversion (`pdftotext`, the FIX table, iconv from TCVN5712-1), each document read in the text from its heading to its signature and, where the table shows pages after it, to the attached slogans; each volume deleted when done. Pages cited are those the earlier batches cited: vols. 21–23 and 28 the book's, vols. 24–27, 29 and 30 the copy's own folios (the open question on them stands: XXIX, 398, 497–502 is one document across the copy's jump).
+
+**The kinds, as entered.** The Secretariat's directives and circulars on anniversaries (the Party's founding, May Day, Hồ Chí Minh's birthday, the Geneva anniversary of July 20, the August Revolution and National Day, the October Revolution, Dec. 19, 20 and 22, Nguyễn Du, the PRC and the GDR) are the Secretariat's; the three on the Politburo's decisions (XXVIII, 231; XXIX, 398; XXX, 53) are the Politburo's acts, signed for it. The Secretariat's resolutions on provinces and zones (mergers, a town committee, a combine's Party committee, the Việt Bắc and Hồng Quảng zones) are its own; a zone committee's resolution is its own entry. Notices of the Secretariat's meetings with provincial committees (Nghệ An, Phú Thọ twice, Thái Bình twice, Hải Dương, Nam Định, Hà Đông, Hồng Quảng) are entered on the meeting's day with the notice cited; `time_range` (band `afternoon`, zone `Asia/Bangkok`) on the three whose notice gives "chiều" for the first day.
+
+### Doubtful, for the merger
+
+- Same-day pairs the check flags (each a separate document; at the merge `./bib resolve ID --take keep`): `cal.1961-10-31.vietnam-hanoi-3`, `cal.1961-11-03.vietnam-hanoi` and `-2` (resolutions 27 and 28), `cal.1962-04-26.vietnam-hanoi-2`, `cal.1962-05-04.vietnam-hanoi-2`, `cal.1962-05-09.vietnam-hanoi-2`, `cal.1962-05-10.vietnam-hanoi-2`, `cal.1963-01-07.vietnam-hanoi` and `-2` (resolutions 688 and 689), `cal.1963-03-02.vietnam-hanoi-2`, `cal.1964-01-17.vietnam-hanoi-2`, `cal.1964-09-12.vietnam-hanoi` and `-2` (circulars 147 and 148), `cal.1965-04-17.vietnam-hanoi-2`, `cal.1965-08-17.vietnam-hanoi-2`, `cal.1966-01-20.vietnam-hanoi-2`, `cal.1966-08-15.vietnam-hanoi-2`, `cal.1967-01-23.vietnam-hanoi-3`.
+- `cal.1961-03-24.vietnam-hanoi` (XXII, 271): the resolution is dated Mar. 24, 1961 and records the Secretariat's decisions of Jan. 7, 1961 (after the Industry Department's report); entered on the document's date, the Jan. 7 sitting named in `c` and not entered apart.
+- The meeting notices (XXIII, 554, 566, 590, 616, 633, 647; XXIV, 65, 553): the day of the meeting from the notice's first line ("Chiều mồng 4, ngày mồng 5 và sáng mồng 7-5-1962" and the like); the Hồng Quảng notice of May 31, 1962 (XXIII, 580) gives no day for the session, entered on the notice's date with a Check. The Secretariat's members at these meetings are named in the notices by one name only ("Ba, Tô, Hùng, Thanh, Lương"): not named in `c`.
+- XXV, 785 (the Tây Bắc directive, Mar. 10, 1964): the list of places where the enemy dropped supplies prints "Phú Yên" in the Sơn La and Nghĩa Lộ run; `c` reads Phù Yên (the Sơn La district). The directive follows a joint meeting of the zone's and the military region's standing committees on Mar. 9, named in `c`, not entered apart.
+- XXVIII, 231 (the Politburo's resolution, Mar. 20, 1967) was passed over in the 1967 tables as "read at its opening only"; read through now, with its slogans, its "specific tasks" and its list of measures (XXVIII, 231–39). It names no signer (signed "Bộ Chính trị, Ban Chấp hành Trung ương"); the slogans "published near the day".
+- XXVII, 130 (May Day 1966): the slogans, 26, attach after the signature at XXVII, 133–35, the cite 130–35; likewise XXVI, 226–32 (the July 20 slogans, 231–32), XXIX, 392–97, XXVII, 287–94, XXVIII, 289–96, XXX, 53–61, taking the table's next row as the end.
+- XXX, 53 (the Politburo's resolution on the four anniversaries of 1970): signed for the Politburo by Trường Chinh (not named in `c`); the Secretariat's directives on each day are not in vol. 30 (the resolution orders them).
+- Visibility: all 63 `vis:only:drv`, being Party records kept in the archive; some are by their nature circulated to every committee (the anniversary circulars, with slogans printed in *Nhân Dân*); whether the visibility ruling should treat a circular sent to every committee and meant for rallies as nonpublic is the merger's.
+- Places: none given in the documents but the seat. The zone committees' six entries have no `place:` (the Việt Bắc Zone Committee sat at Thái Nguyên and the Tây Bắc at Sơn La, from outside this record; not set).
+- `polity:us`, `ussr`, `prc`, `gdr`, `frg`, `laos` only where `c` names the country; `also:` `soviet-union` on the October Revolution entries, `china` on the PRC's anniversary, `vietnam` on the NLF's anniversary circulars (Dec. 1964, 1966, 1967, 1968, 1969), `vietnam-diplomacy` on the July 20 drives of 1965 and 1966, `vietnam-tonkin` on the directive of Aug. 15, 1964.
+
+### Persons named with no name entry (named in `c` and "Names:", not tagged)
+
+Lê Văn Lương, Nguyễn Văn Trân, Hoàng Anh, Tố Hữu, Nguyễn Thọ Chân (XXIII, 580); Trần Trung, Nguyễn Ly, Phương Minh Nam, Ngô Duy Phương, Phạm Văn Quyện (XXIV, 33); Hoàng Hữu Nhân, Lê Huy, Trần Kiên, Hoàng Mậu, Tô Thiện (XXIV, 35); Song Hào, Bertrand Russell (XXVII); Hoàng Văn Kiểu (XXII, 754). Named in `c` without a "Names:" line (no entry, not a person of the record's): Lenin (XXI, 193; XXX, 53), Marx (XXIX, 398), Nguyễn Du (XXVI, 417), "Trường Sơn" (a pen name; XXVII, 208). Signers named only in the notes: Nguyễn Duy Trinh, Lê Văn Lương, Nguyễn Khai, Phạm Chung, Minh Châu, Lê Đức Thọ, Tố Hữu, Vũ Tuân, Trần Xuân Bách, Phan Văn Tỉnh, Bắc Dũng, Hoàng Văn Kiểu, Trường Chinh. Tagged: Hồ Chí Minh, Ngô Đình Diệm, Lê Đức Thọ, Phạm Văn Đồng, Lê Duẩn, Nguyễn Chí Thanh, Võ Nguyên Giáp, Mao Zedong.
+
+### The 63 rows
+
+| Page | Document (the earlier table's heading) | Kind | Entered as |
+|---|---|---|---|
+| XXI, 193 | Chỉ thị của Ban Bí thư số 193-CT/TW, ngày 14-3-1960 về mấy ngày kỷ niệm trong năm 1960 | commemoration | cal.1960-03-14.vietnam-hanoi (place: hanoi) |
+| XXI, 421 | Chỉ thị của Ban Bí thư số 218-CT/TW, ngày 29-7-1960 bổ sung về việc tổ chức đợt kỷ niệm 15 năm nước Việt Nam Dân chủ Cộng hoà | commemoration | cal.1960-07-29.vietnam-hanoi (place: hanoi) |
+| XXI, 957 | Nghị quyết của Ban Bí thư số 01-NQ/TW, ngày 11-10-1960 về việc nghiên cứu quy định nhiệm vụ, quyền hạn cụ thể giữa cấp khu và cấp tỉnh trong | provincial matter | cal.1960-10-11.vietnam-hanoi (place: hanoi) |
+| XXI, 1128 | Nghị quyết của Khu uỷ Việt Bắc số 49/VP-KU ngày 69-1960 về kế hoạch củng cố và phát triển Đảng trong cuộc vận động hợp tác hóa nông nghiệp k | provincial matter | cal.1960-09-06.vietnam-hanoi (place: none) |
+| XXII, 271 | BBT NQ 15-NQ/TW, 24-3-1961, Khu uỷ Hồng Quảng | provincial matter | cal.1961-03-24.vietnam-hanoi (place: hanoi) |
+| XXII, 464 | BBT TT 35-TT/TW, 16-8-1961, kỷ niệm CM tháng Tám | commemoration | cal.1961-08-16.vietnam-hanoi (place: hanoi) |
+| XXII, 490 | BBT CT 28-CT/TW, 31-10-1961, kỷ niệm CM tháng Mười | commemoration | cal.1961-10-31.vietnam-hanoi-3 (place: hanoi) |
+| XXII, 503 | BBT NQ 27-NQ/TW, 3-11-1961, Khu tự trị Việt Bắc | provincial matter | cal.1961-11-03.vietnam-hanoi (place: hanoi) |
+| XXII, 507 | BBT NQ 28-NQ/TW, 3-11-1961, giải thể Đảng bộ trường phổ thông Hà Nội | local matter | cal.1961-11-03.vietnam-hanoi-2 (place: hanoi) |
+| XXII, 754 | Khu uỷ Việt Bắc 02-NQ/VB, 3-4-1961, chỉnh huấn | provincial matter | cal.1961-04-03.vietnam-hanoi (place: none) |
+| XXII, 759 | Khu uỷ Tây Bắc 11-NQ/TB, 14-11-1961, nông lâm nghiệp | provincial matter | cal.1961-11-14.vietnam-hanoi (place: none) |
+| XXV, 26 | Nghị quyết của Ban Bí thư Số 93-NQNS/TW, ngày 17 tháng 1 năm 1964 | local matter | cal.1964-01-17.vietnam-hanoi-2 (place: hanoi) |
+| XXV, 109 | Nghị quyết của Ban Bí thư Số 98-NQ/TW, ngày 31 tháng 3 năm 1964 | local matter | cal.1964-03-31.vietnam-hanoi (place: hanoi) |
+| XXV, 127 | Chỉ thị của Ban Bí thư Số 78-CT/TW, ngày 23 tháng 4 năm 1964 | commemoration | cal.1964-04-23.vietnam-hanoi (place: hanoi) |
+| XXV, 203 | Chỉ thị của Ban Bí thư Số 82-CT/TW, ngày 15 tháng 8 năm 1964 | commemoration | cal.1964-08-15.vietnam-hanoi (place: hanoi) |
+| XXV, 223 | Thông tri của Ban Bí thư Số 147-TT/TW, ngày 12 tháng 9 năm 1964 | commemoration | cal.1964-09-12.vietnam-hanoi (place: hanoi) |
+| XXV, 227 | Thông tri của Ban Bí thư Số 148-TT/TW, ngày 12 tháng 9 năm 1964 | commemoration | cal.1964-09-12.vietnam-hanoi-2 (place: hanoi) |
+| XXV, 285 | Chỉ thị Của Ban Bí thư Số 87-CT/TW, ngày 11 tháng 12 năm 1964 | commemoration | cal.1964-12-11.vietnam-hanoi (place: hanoi) |
+| XXV, 780 | NQ Ban Thường vụ Khu uỷ Việt Bắc 97-NQ/KU, 28-10-1964 (phụ lục) | provincial matter | cal.1964-10-28.vietnam-hanoi (place: none) |
+| XXV, 785 | CT Ban thường vụ khu uỷ Tây Bắc 61-CT/TB, 10-3-1964 (phụ lục) | provincial matter | cal.1964-03-10.vietnam-hanoi (place: none) |
+| XXIV, 33 | Nghị quyết của Ban Bí thư Số 688-NQ/TW, ngày 7 tháng 1 năm 1963 | provincial matter | cal.1963-01-07.vietnam-hanoi (place: hanoi) |
+| XXIV, 35 | Nghị quyết của Ban Bí thư Số 689-NQ/TW, ngày 7 tháng 1 năm 1963 | provincial matter | cal.1963-01-07.vietnam-hanoi-2 (place: hanoi) |
+| XXIV, 65 | Thông báo của Ban Bí thư Số 43-TB/TW, ngày 16 tháng 1 năm 1963 | provincial matter | cal.1962-12-19.vietnam-hanoi (place: hanoi) |
+| XXIV, 534 | Thông tri của Ban Bí thư Số 116-TT/TW, ngày 23 tháng 4 năm 1963 | commemoration | cal.1963-04-23.vietnam-hanoi (place: hanoi) |
+| XXIV, 553 | Thông báo của Ban Bí thư Số 48-TB/TW, ngày 22 tháng 5 năm 1963 | provincial matter | cal.1963-03-02.vietnam-hanoi-2 (place: hanoi) |
+| XXIV, 628 | Nghị quyết của Ban Bí thư Số 85-NQ/TW, ngày 18 tháng 11 năm 1963 | provincial matter | cal.1963-11-18.vietnam-hanoi (place: hanoi) |
+| XXIII, 411 | Thông tri của Ban Bí Thư Số 71-TT/TW, ngày 23 tháng 4 năm 1962 Về việc tổ chức ngày Quốc tế lao động 1-5 | commemoration | cal.1962-04-23.vietnam-hanoi (place: hanoi) |
+| XXIII, 554 | Thông báo của ban bí thư Số 18-TB/HN, ngày 18 tháng 5 năm 1962 Về cuộc họp Ban Bí thư bàn phương hướng | provincial matter | cal.1962-05-04.vietnam-hanoi-2 (place: hanoi) |
+| XXIII, 566 | Thông báo của ban bí thư Số 19-TB/HN, ngày 19 tháng 5 năm 1962 Về cuộc họp Ban Bí thư bàn phương hướng ph | provincial matter | cal.1962-04-26.vietnam-hanoi-2 (place: hanoi) |
+| XXIII, 580 | Thông báo của ban bí thư Số 22-TB/HN, ngày 31 tháng 5 năm 1962 Về phiên họp của Ban Bí thư với Khu uỷ | provincial matter | cal.1962-05-31.vietnam-hanoi (place: hanoi) |
+| XXIII, 590 | Thông báo của ban bí thư Số 24-TB/TW, ngày 1 tháng 6 năm 1962 Về cuộc họp Ban Bí thư bàn phát triển | provincial matter | cal.1962-05-09.vietnam-hanoi-2 (place: hanoi) |
+| XXIII, 616 | Thông báo của ban bí thư Số 25-TB/HN, ngày 16 tháng 6 năm 1962 Về cuộc họp Ban Bí thư bàn phương hướng | provincial matter | cal.1962-05-17.vietnam-hanoi (place: hanoi) |
+| XXIII, 633 | Thông báo của ban bí thư Số 27-TB/HN, ngày 22 tháng 6 năm 1962 Về cuộc họp Ban Bí thư bàn phương hướng | provincial matter | cal.1962-05-30.vietnam-hanoi (place: hanoi) |
+| XXIII, 647 | Thông báo của ban bí thư Số 28-TB/HN, ngày 3 tháng 7 năm 1962 Về cuộc họp Ban Bí thư bàn phương hướng | provincial matter | cal.1962-06-22.vietnam-hanoi (place: hanoi) |
+| XXIII, 754 | Thông tri của Ban Bí thư Số 95-TT/TW, ngày 17 tháng 10 năm 1962 Về việc tổ chức kỷ niệm lần thứ 45 | commemoration | cal.1962-10-17.vietnam-hanoi (place: hanoi) |
+| XXIII, 802 | Thông tri của Ban bí thư Số 101-TT/TW, ngày 6 tháng 12 năm 1962 Về kỷ niệm ngày toàn quốc kháng chiến | commemoration | cal.1962-12-06.vietnam-hanoi (place: hanoi) |
+| XXIII, 957 | NQ Khu uỷ Việt Bắc 50-NQ/KU, 10-5-1962 (phụ lục) | provincial matter | cal.1962-05-10.vietnam-hanoi-2 (place: none) |
+| XXVIII, 77 | Thông tri 190-TT/TW, 23-1-1967, kỷ niệm lần thứ 37 ngày thành lập Đảng | commemoration | cal.1967-01-23.vietnam-hanoi-3 (place: hanoi) |
+| XXVIII, 231 | Nghị quyết của Bộ Chính trị 158-NQ/TW, 20-3-1967, kỷ niệm lần thứ 50 Cách mạng Tháng Mười | commemoration | cal.1967-03-20.vietnam-hanoi (place: hanoi) |
+| XXVIII, 289 | Thông tri 194-TT/TW, 18-4-1967, kỷ niệm ngày Quốc tế Lao động 1-5 | commemoration | cal.1967-04-18.vietnam-hanoi (place: hanoi) |
+| XXVIII, 392 | Thông tri 199-TT/TW, 17-8-1967, kỷ niệm Cách mạng Tháng Tám và Quốc khánh | commemoration | cal.1967-08-17.vietnam-hanoi (place: hanoi) |
+| XXVIII, 433 | Thông tri 202-TT/TW, 21-10-1967, kỷ niệm lần thứ 50 Cách mạng Tháng Mười | commemoration | cal.1967-10-21.vietnam-hanoi (place: hanoi) |
+| XXVIII, 473 | Thông tri 209-TT/TW, 1-12-1967, ba ngày kỷ niệm trong tháng 12 (19-12, 20-12, 22-12) | commemoration | cal.1967-12-01.vietnam-hanoi (place: hanoi) |
+| XXVI, 10 | Chỉ thị của Ban Bí thư số 89-CT/TW, ngày 12-1-1965 về việc kỷ niệm lần thứ 35 ngày thành lập Đảng ta | commemoration | cal.1965-01-12.vietnam-hanoi (place: hanoi) |
+| XXVI, 140 | Thông tri của Ban Bí thư số 158-TT/TW, ngày 17-4-1965 về việc mừng thọ Hồ Chủ tịch 75 tuổi | commemoration | cal.1965-04-17.vietnam-hanoi-2 (place: hanoi) |
+| XXVI, 226 | Thông tri của Ban Bí thư số 163-TT/TW, ngày 1-7-1965 về kế hoạch tuyên truyền động viên đấu tranh trong dịp 20 tháng 7 (with the Khẩu hiệu ngày 20 tháng 7 năm 1965, 231–32) | commemoration | cal.1965-07-01.vietnam-hanoi (place: hanoi) |
+| XXVI, 332 | Chỉ thị của Ban Bí thư số 106-CT/TW, ngày 17-8-1965 về việc kỷ niệm lần thứ 20 ngày Cách mạng Tháng Tám và Quốc khánh 2-9 | commemoration | cal.1965-08-17.vietnam-hanoi-2 (place: hanoi) |
+| XXVI, 417 | Chỉ thị của Ban Bí thư số 112-CT/TW, ngày 26-10-1965 về việc kỷ niệm Nguyễn Du | commemoration | cal.1965-10-26.vietnam-hanoi (place: hanoi) |
+| XXVII, 18 | Thông tri của Ban Bí thư số 173-TT/TW, ngày 20-1-1966 về việc kỷ niệm lần thứ 36 ngày thành lập Đảng (3-2) | commemoration | cal.1966-01-20.vietnam-hanoi-2 (place: hanoi) |
+| XXVII, 130 | Thông tri của Ban Bí thư số 178-TT/TW, ngày 23-4-1966 về kỷ niệm lần thứ 80 ngày Quốc tế Lao động 1-5 | commemoration | cal.1966-04-23.vietnam-hanoi (place: hanoi) |
+| XXVII, 208 | Chỉ thị của Ban Bí thư số 130-CT/TW, ngày 22-6-1966 về đợt tuyên truyền vận động trong dịp 20 tháng 7 năm 1966 | commemoration | cal.1966-06-22.vietnam-hanoi-2 (place: hanoi) |
+| XXVII, 287 | Chỉ thị của Ban Bí thư số 135-CT/TW, ngày 15-8-1966 về việc kỷ niệm lần thứ 21 Cách mạng Tháng Tám và Quốc khánh 2-9 | commemoration | cal.1966-08-15.vietnam-hanoi-2 (place: hanoi) |
+| XXVII, 323 | Thông tri của Ban Bí thư số 189-TT/TW, ngày 30-11-1966 về việc tuyên truyền động viên nhân dịp ba ngày kỷ niệm trong tháng 12 năm 1966 | commemoration | cal.1966-11-30.vietnam-hanoi (place: hanoi) |
+| XXIX, 165 | Thông tri 211-TT/TW, 27-1-1968, kỷ niệm thành lập Đảng | commemoration | cal.1968-01-27.vietnam-hanoi (place: hanoi) |
+| XXIX, 392 | Thông tri 214-TT/TW, 15-4-1968, kỷ niệm 1-5, khẩu hiệu | commemoration | cal.1968-04-15.vietnam-hanoi (place: hanoi) |
+| XXIX, 398 | Chỉ thị BCT 159-CT/TW, 27-4-1968, 150 năm ngày sinh Các Mác | commemoration | cal.1968-04-27.vietnam-hanoi (place: hanoi) |
+| XXIX, 605 | Thông tri 221-TT/TW, 16-8-1968, kỷ niệm Cách mạng Tháng Tám, khẩu hiệu | commemoration | cal.1968-08-16.vietnam-hanoi (place: hanoi) |
+| XXIX, 1017 | Thông tri 223-TT/TW, 6-12-1968, kỷ niệm 19-12, 20-12, 22-12 | commemoration | cal.1968-12-06.vietnam-hanoi (place: hanoi) |
+| XXX, 11 | Thông tri 227-TT/TW, 22-1-1969, kỷ niệm thành lập Đảng | commemoration | cal.1969-01-22.vietnam-hanoi (place: hanoi) |
+| XXX, 48 | Thông tri 234-TT/TW, 19-4-1969, kỷ niệm 1-5, khẩu hiệu | commemoration | cal.1969-04-19.vietnam-hanoi (place: hanoi) |
+| XXX, 53 | Nghị quyết BCT 187-NQ/TW, 22-4-1969, các ngày kỷ niệm lớn năm 1970 | commemoration | cal.1969-04-22.vietnam-hanoi (place: hanoi) |
+| XXX, 225 | Thông tri 240-TT/TW, 14-8-1969, kỷ niệm Cách mạng Tháng Tám | commemoration | cal.1969-08-14.vietnam-hanoi (place: hanoi) |
+| XXX, 357 | Thông tri 244-TT/TW, 6-12-1969, ba ngày kỷ niệm tháng 12 | commemoration | cal.1969-12-06.vietnam-hanoi (place: hanoi) |
+
+Where this reader stopped: all 63 rows entered; nothing left over. Not merged, committed or pushed.
