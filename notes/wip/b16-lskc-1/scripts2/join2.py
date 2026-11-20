@@ -19,7 +19,7 @@ noname = collections.OrderedDict()
 usedplace = set()
 adds = []
 for e in dsl.ENT:
-    tg = ['polity:drv']
+    tg = [] if any(t.startswith('polity:') for t in e['tags']) else ['polity:drv']
     for nm in e['names']:
         k = dsl.fold(nm)
         if k in known: tg.append('name:' + k)
