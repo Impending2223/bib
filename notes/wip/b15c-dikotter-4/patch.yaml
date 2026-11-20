@@ -1755,25 +1755,6 @@ ops:
       - ok:fields-place
 - add:
     entry:
-      id: cal.1962.china-leadership-51
-      when: '1962'
-      date: '1962'
-      thread: china-leadership
-      also:
-      - china
-      c: Zhu Yufa, a farmer of Rongxian, Sichuan 四川, is fined 120 yuan for stealing a kilo of beans; his clothes, blanket and floor mat are taken, and he is stripped naked and subjected to a struggle session.
-      n: '[[w.dikotter-maos-great-famine]], 294. Made public: 2010. To check: Sichuan Provincial Archives, 1962, JC1-3047, pp. 37–38 (cited by [[w.dikotter-maos-great-famine]], 294 n.16). Check: the day.'
-      src:
-        c: f92d35c5
-        rows:
-        - 'w.dikotter-maos-great-famine 294: all'
-        - 'via w.dikotter-maos-great-famine 294 n.16: all'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - ok:fields-place
-- add:
-    entry:
       id: cal.1961.china-leadership-64
       when: '1961'
       date: '1961'
@@ -1955,3 +1936,9 @@ ops:
 - to-check:
     id: cal.1961-04-08.china-leadership-8
     add: Hunan Provincial Archives, May 12, 1960, 146-1-520, pp. 69–75 (cited by [[w.dikotter-maos-great-famine]], 296 n.41b)
+- cite:
+    id: cal.1961.china-leadership-61
+    item: '[[w.dikotter-maos-great-famine]], 294 n.16 (Zhu Yufa, for stealing a kilo of beans, fined 120 yuan, his clothes, blanket and floor mat taken, stripped naked and struggled against; in Rongxian)'
+- to-check:
+    id: cal.1961.china-leadership-61
+    add: Sichuan Provincial Archives, 1962, JC1-3047, pp. 37–38 (cited by [[w.dikotter-maos-great-famine]], 294 n.16)
