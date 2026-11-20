@@ -60,7 +60,7 @@ Named in `c` and in "Names:", not tagged: Nguyễn Thị Định, Đỗ Cao Trí
 
 ## Reader 5 (vols. IV and V), Nov. 19
 
-Reader: batch 16, reader 5, resuming reader 5's first run of Nov. 14 (stopped, 1965 only; its 17 claimed ids reused), Nov. 19–20, 2026 (after 5 p.m. Pacific on a weekday). Patch: `inbox/2026-11-14-b16-lskc-2.yaml` (patch name `2026-11-14-b16-lskc-2`, the name the ledger claims stand under), 322 ops: 226 new entries (by year of `date`: 1964: 4, 1965: 44, 1966: 54, 1967: 46, 1968: 78), 55 cites, 9 variants, 4 checks on entries the calendar held, 28 place-keys. Of the new entries, 146 carry a `place:`, 62 a `time` or `time_range`, 15 an `at:`. `./bib patch-check`: 0 errors (the warnings are the "one event?" and "a duplicate of" flags on same-day, same-thread entries, each a separate act); `./bib fields --patch`: 0 findings. Not merged, not committed.
+Reader: batch 16, reader 5, resuming reader 5's first run of Nov. 14 (its 1965 ops carried over and checked against the pages, its 34 claimed ids all used), Nov. 19–20, 2026 (after 5 p.m. Pacific on a weekday). Patch: `inbox/2026-11-14-b16-lskc-2.yaml` (patch name `2026-11-14-b16-lskc-2`, the name the ledger claims stand under), 322 ops: 226 new entries (by year of `date`: 1964: 4, 1965: 44, 1966: 54, 1967: 46, 1968: 78), 55 cites, 9 variants, 4 checks on entries the calendar held, 28 place-keys. Of the new entries, 146 carry a `place:`, 62 a `time` or `time_range`, 15 an `at:`. `./bib patch-check`: 0 errors (the warnings are the "one event?" and "a duplicate of" flags on same-day, same-thread entries, each a separate act); `./bib fields --patch`: 0 findings. Not merged, not committed.
 
 ### The volumes
 
