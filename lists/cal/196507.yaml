@@ -1107,12 +1107,11 @@ entries:
   - id: cal.1965-07-06.vietnam-hanoi-2
     when: July 6
     date: '1965-07-06'
-    place: moc-bai
     thread: vietnam-hanoi
     also: [vietnam-operations]
-    c: Tây Ninh. Battalion 70 ambushes and destroys the 4th Battalion of the 4th Regiment, 2d Division, at Mộc Bài, July 6, by the history's count.
-    n: '[[w.lich-su-khang-chien-chong-my]], III, 433.'
-    tags: [polity:drv]
+    c: Quảng Nam. Battalion 70 ambushes and destroys the 4th Battalion of the 4th Regiment, 2d Division, at Mộc Bài, July 6, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 433. Check: the place: the history''s Mộc Bài stands in its Quảng Nam paragraph, not the Mộc Bài of Tây Ninh.'
+    tags: [polity:drv, ok:fields-place]
   - id: cal.1965-07-07.vietnam-force-levels
     when: July 7
     date: '1965-07-07'
@@ -4346,6 +4345,15 @@ entries:
       - 1965-07-20T16:00Z
     time_band: afternoon
     time_zone: Europe/Bucharest
+  - id: cal.1965-07-20.vietnam-hanoi-2
+    when: July 20
+    date: '1965-07-20'
+    place: bu-dop
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Phước Long. July 20 Regiment 1 attacks the Bù Đốp commando training center. After three hours it takes the post and all its arms and equipment; the search not thorough, hidden Saigon men fire on the column as it leaves, and 20 are killed or wounded, by the history's count. Saigon abandons Bù Gia Mập too.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 435–36. Check: the history gives Bù Gia Mập''s abandonment without a day.'
+    tags: [polity:drv, ok:fields-place]
   - id: cal.1965-07-21.vietnam
     when: July 21
     date: '1965-07-21'
@@ -8312,3 +8320,12 @@ entries:
     c: 'The cadre conference the Secretariat called meets on turning the leadership of the two strategic tasks: Party committees at every level to change how they think and work to meet the new situation.'
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 347. Made public: 2013. Check: the days.'
     tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1965-07.vietnam-hanoi-3
+    when: July
+    date: 1965-07
+    place: tam-ky
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Quảng Nam. In July the province''s armed force destroys the field command post of the Saigon 2d Division in the middle of Tam Kỳ town and fights on the road from the An Tân bridge to the Ông Bộ bridge: hundreds of Saigon soldiers and many American advisers killed, by the history''s count.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 433. Check: the day; the history puts it after the second Ba Gia fight of July 5.'
+    tags: [polity:drv]

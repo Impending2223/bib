@@ -3064,6 +3064,15 @@ entries:
       - 1960-07-17T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-17.vietnam-hanoi
+    when: July 17
+    date: '1960-07-17'
+    place: hoai-duc
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Bình Thuận. July 17 a reconnaissance team under Phạm Hoài Chương goes to prepare the ground for the attack on the Hoài Đức subsector. The Provincial Committee had decided on a secret, surprise attack to break the Bắc Ruộng camp and take the people to the base by the end of July. The command: Phạm Hoài Chương, chief; Lê Triều, commissar; Nguyễn Thành and Nguyễn Thanh Đức, deputies.'
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 373. Names: Phạm Hoài Chương. Check: the day of the decision.'
+    tags: [polity:drv]
   - id: cal.1960-07-18.republican-party
     when: July 18–20
     date: '1960-07-18'
@@ -5062,6 +5071,19 @@ entries:
         - 'w.yang-jisheng-mubei I, 378-379: all'
         - 'via w.yang-jisheng-mubei I, 379 n.27: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-07-28.vietnam-hanoi-2
+    when: July 28
+    date: '1960-07-28'
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bình Thuận. The afternoon of July 28 all the forces of the Hoài Đức attack, Unit 2/9, three men of Tánh Linh district and 100 porters, march to the assembly point.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 373. Check: the place of the assembly point; the history gives none.'
+    tags: [polity:drv, ok:fields-place]
+    time_range:
+      - 1960-07-28T04:00Z
+      - 1960-07-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1960-07-29.elections-1960
     when: July 29
     date: '1960-07-29'
@@ -5531,6 +5553,16 @@ entries:
       rows:
         - 'w.yang-jisheng-mubei II, 1171: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-07-30.vietnam-hanoi
+    when: July 30
+    date: '1960-07-30'
+    time: 1960-07-30T06:00Z
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bình Thuận. 2 p.m., July 30, the unit of the Hoài Đức attack holds its ceremony of setting out.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 373.'
+    tags: [polity:drv, ok:fields-place]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1960-07-31.congo
     when: July 31
     date: '1960-07-31'
@@ -6072,3 +6104,20 @@ entries:
       rows:
         - 'w.yang-jisheng-mubei II, 731: all'
     tags: [polity:prc, vis:only:prc, name:mao-zedong]
+  - id: cal.1960-07.vietnam-hanoi-3
+    when: July
+    date: 1960-07
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Thừa Thiên. In July the guerrillas and young men of La Đụt kill three Saigon men from the A Lưới post and take three weapons.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 351. Check: the day.'
+    tags: [polity:drv, ok:fields-place]
+  - id: cal.1960-07.vietnam-hanoi-4
+    when: July
+    date: 1960-07
+    place: quang-tri-province
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Quảng Trị. In July the province's local troops destroy the Tuồi Muồi post and a platoon, by the history's count. The rising spreads, mostly south of Route 9.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 351. Check: the day.'
+    tags: [polity:drv]

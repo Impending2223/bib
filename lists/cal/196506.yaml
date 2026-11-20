@@ -2459,11 +2459,12 @@ entries:
     date: '1965-06-11'
     thread: vietnam-saigon
     c: Quát resigns.
-    n: '[[w.macv-command-history-1965]], 479. Names: Phan Huy Quát.'
+    n: '[[w.macv-command-history-1965]], 479; [[w.lich-su-khang-chien-chong-my]], III, 320 n.1 (June 11, 1965: Quát''s government overthrown; Thiệu and Kỳ form a new government). Names: Phan Huy Quát.'
     src:
       c: 4ffbffff
       rows:
         - 'w.macv-command-history-1965 479: all'
+        - 'w.lich-su-khang-chien-chong-my III, 320 n.1: A'
     tags: [name:phan-huy-quat]
     time_range:
       - 1965-06-11T01:00Z
@@ -2471,6 +2472,11 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: Quát's government is overthrown June 11, Thiệu and Kỳ forming a new one
+        at: III, 320 n.1
   - id: cal.1965-06-11.vietnam
     when: June 11
     date: '1965-06-11'
@@ -6982,11 +6988,12 @@ entries:
     place: duc-co
     thread: vietnam-operations
     c: Đức Cơ, Pleiku Province. The Viet Cong, having overrun a district town, besiege the CIDG–Special Forces camp, more than two months. Westmoreland visits; Major William G. Leftwich, Jr., of the Marines, "the best adviser in Vietnam."
-    n: '[[w.westmoreland-soldier-reports]], 136. Check: the day the siege began. Names: Westmoreland.'
+    n: '[[w.westmoreland-soldier-reports]], 136; [[w.lich-su-khang-chien-chong-my]], III, 432 (after the ambush of June 1 on Route 19 west, Regiment 320 besieges the Đức Cơ special forces camp and ambushes the relief: 40 vehicles destroyed, by the history''s count). Check: the day the siege began. Names: Westmoreland.'
     src:
       c: 2d70aa90
       rows:
         - 'w.westmoreland-soldier-reports 136: all'
+        - 'w.lich-su-khang-chien-chong-my III, 432: A-B'
     tags: [name:westmoreland-william]
   - id: cal.1965-06-30.europe-and-the-alliance
     when: June 30
@@ -7392,4 +7399,30 @@ entries:
     also: [vietnam-air-war]
     c: 'The Government Council''s decision on transport: every branch and level to take it as the central task of the Party and the Government.'
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 423.'
+    tags: [polity:drv]
+  - id: cal.1965-06.vietnam-hanoi
+    when: June, early
+    date: 1965-06
+    at: before 1965-06-01
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Central Highlands. In early June part of Regiment 12 raids the Ea Nu strongpoint, beats the relief and cuts Route 7 from Mlá to Ea Nu; the rest of the regiment fights on Route 19 and cuts it from Măng Giang to An Khê.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 431. Check: the day; the place.'
+    tags: [polity:drv, ok:fields-place]
+  - id: cal.1965-06.vietnam-hanoi-2
+    when: June
+    date: 1965-06
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Central Highlands. In June Regiment 10 goes deep on Route 21, stops the supply convoy of Saigon's II Corps, destroys the escort company and takes or burns over 100 tons of rice, by the history's count. Routes 19, 7 and 21 are cut at the same time.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 431. Check: the day; the place.'
+    tags: [polity:drv, ok:fields-place]
+  - id: cal.1965-06.vietnam-hanoi-3
+    when: June
+    date: 1965-06
+    place: tan-rai
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Lâm Đồng. The province's local forces besiege and attack the Tân Rai commando camp and force the American special forces in it to flee.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 434. Check: the day; the history gives none, between acts of May 28 and June 27.'
     tags: [polity:drv]

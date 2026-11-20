@@ -227,12 +227,12 @@ entries:
   - id: cal.1963-06-01.vietnam-hanoi-2
     when: June 1
     date: '1963-06-01'
-    place: binh-thuan
+    place: to-hap
     thread: vietnam-hanoi
     also: [vietnam-operations]
-    c: Bình Thuận. A large operation of the Saigon army's main forces begins, June 1.
-    n: '[[w.lich-su-khang-chien-chong-my]], III, 260.'
-    tags: [polity:drv]
+    c: Khánh Hòa. An operation of 2,500 Saigon main-force men with air and artillery, under Gen. Tôn Thất Đính, opens June 1 on the base area of the Tô Hạp river basin.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 260. Names: Tôn Thất Đính.'
+    tags: [polity:drv, name:ton-that-dinh]
   - id: cal.1963-06-02.march-on-washington
     when: June 2–3
     date: '1963-06-02'
@@ -3442,6 +3442,20 @@ entries:
         - 'w.yang-shangkun-riji II, 287: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1963-06-16.vietnam-2
+    when: June 16
+    date: '1963-06-16'
+    place: xa-loi
+    thread: vietnam
+    also: [vietnam-saigon]
+    c: Saigon. The morning of June 16, by the history's count some 700,000 people and Buddhists go into the streets together to the Xá Lợi pagoda, where the body of Thích Quảng Đức lies. The special police disperse them with tear gas and dogs; many wounded and arrested.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 312. Names: Thích Quảng Đức.'
+    tags: [polity:drv, name:thich-quang-duc]
+    time_range:
+      - 1963-06-15T22:00Z
+      - 1963-06-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1963-06-17.court
     when: June 17
     date: '1963-06-17'
@@ -4457,6 +4471,15 @@ entries:
       - 1963-06-20T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-06-20.vietnam-hanoi
+    when: June 20
+    date: '1963-06-20'
+    place: nam-ngan-canal
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Kiến Tường. Saigon's long operation Đức Thắng 23, which struck south Mộc Hóa Mar. 19, strikes along the Năm Ngàn canal, June 20. The Provincial Committee and the military board order the main, local and guerrilla forces to lie in wait and strike the columns.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 273. See [[cal.1963-03-19.vietnam-hanoi]].'
+    tags: [polity:drv]
   - id: cal.1963-06-21.opinion
     when: June 21
     date: '1963-06-21'

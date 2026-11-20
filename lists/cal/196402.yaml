@@ -4291,6 +4291,14 @@ entries:
       - 1964-02-17T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-02-17.vietnam-34a
+    when: Feb. 17
+    date: '1964-02-17'
+    thread: vietnam-34a
+    also: [vietnam-hanoi]
+    c: The aerial reconnaissance of North Vietnam under OPLAN 34A, to gather intelligence and find the air defenses, radar, military bases and depots, is stepped up, Feb. 17, by the history's account.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 362. Check: the day, against the American record.'
+    tags: [polity:us, ok:fields-place]
   - id: cal.1964-02-18.specials
     when: Feb. 18
     date: '1964-02-18'
@@ -7354,13 +7362,19 @@ entries:
     thread: vietnam
     also: [defense]
     c: 'The first DeSoto patrol of 1964, two weeks into early March: the destroyer *Craig* allowed within eight nautical miles of North Vietnam''s mainland.'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 519; [[w.marolda-united-states-navy-and]], 396–97; [[w.staaveren-gradual-failure]], 38, 48 (the *Craig*, from Feb. 28 into March, a show of force and a collection of data on infiltration by sea; the patrol Feb. 28–Mar. 10). Check: the days. Check: Marolda, 396–97: the *Craig* leaves Keelung Feb. 25, ordered to patrol to Mar. 12; eleven days of surveillance, done by Mar. 9. Check: Van Staaveren has the *Craig* allowed within four nautical miles of the mainland, fifteen of China''s, twelve of its islands (38).'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 519; [[w.marolda-united-states-navy-and]], 396–97; [[w.staaveren-gradual-failure]], 38, 48 (the *Craig*, from Feb. 28 into March, a show of force and a collection of data on infiltration by sea; the patrol Feb. 28–Mar. 10); [[w.lich-su-khang-chien-chong-my]], III, 362–63 (Mar. 2, 1964: destroyers on patrol along the North''s coast under the Desoto plan, to back the South Vietnamese navy''s raids on the islands and coast of Military Region 4). Check: the days. Check: Marolda, 396–97: the *Craig* leaves Keelung Feb. 25, ordered to patrol to Mar. 12; eleven days of surveillance, done by Mar. 9. Check: Van Staaveren has the *Craig* allowed within four nautical miles of the mainland, fifteen of China''s, twelve of its islands (38).'
     src:
       c: 99a277d3
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 519: all'
         - 'w.marolda-united-states-navy-and 396–97: all'
         - 'w.staaveren-gradual-failure 38, 48: ?'
+        - 'w.lich-su-khang-chien-chong-my III, 362–63: A'
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the Desoto patrol along the North's coast begins Mar. 2
+        at: III, 362–63
   - id: cal.1964-02.soviet-union
     when: Feb.
     date: 1964-02

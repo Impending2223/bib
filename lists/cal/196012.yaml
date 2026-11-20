@@ -3319,6 +3319,20 @@ entries:
       - 1960-12-22T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-12-22.vietnam-hanoi
+    when: Dec. 22
+    date: '1960-12-22'
+    place: hoa-thinh
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Phú Yên. The night of Dec. 22 the rising of Hòa Thịnh commune, Tuy Hòa, the Provincial Committee''s trial point. The district''s armed work teams in three prongs hit the Civil Guard platoon at the Mỹ Xuân market, the commune council''s seat at Mỹ Điền and the commune deputy''s house at Phú Hữu: the platoon wiped out, all its arms taken, by the history''s account; the deputy Tín seized; the council seized at a year-end party. A mass meeting at Mỹ Xuân declares the commune''s government abolished and a self-government set up. The first commune of Phú Yên''s plain taken.'
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 381–82.'
+    tags: [polity:drv]
+    time_range:
+      - 1960-12-22T14:00Z
+      - 1960-12-22T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1960-12-23.foreign-aid
     when: Dec. 23
     date: '1960-12-23'
@@ -5195,3 +5209,23 @@ entries:
         - 'w.dikotter-maos-great-famine 327: all'
         - 'via w.dikotter-maos-great-famine 327 n.12: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-12.vietnam
+    when: Dec., late
+    date: 1960-12
+    at: before 1960-12-21
+    place: an-lao
+    thread: vietnam
+    also: [vietnam-hanoi]
+    c: Bình Định. At the end of December a Saigon battalion of Rhade troops under Đinh Ngô, brought from Quảng Ngãi, sweeps, robs and burns the communes of An Dân, An Lạc and An Vịnh, An Lão district.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 379. Check: the day.'
+    tags: [polity:rvn]
+  - id: cal.1960-12.vietnam-hanoi
+    when: Dec., late
+    date: 1960-12
+    at: before 1960-12-21
+    place: dat-dai
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bình Định. After the Rhade battalion's sweep Unit 2/9 ambushes at Đất Dài and destroys a squad, by the history's count, and forces the battalion to withdraw; the people then break up the Gò Nĩ concentration camp and free the area west of the An Lão river.
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 379–80. Check: the day.'
+    tags: [polity:drv]
