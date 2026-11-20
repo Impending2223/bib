@@ -15,7 +15,7 @@ ops:
       - soviet-union
       - vietnam-hanoi
       c: 'Chen Yi to Chervonenko on Laos, 4 p.m.: the reply China gave Hoàng Văn Hoan on Feb. 6. Hope lies in the front line, not in the conference, which cannot be refused; the Lao should mass their forces and destroy the enemy''s effective strength. He objects to Vietnamese troops sent to the Plain of Jars and Sam Neua: they should stay off the front and the war inside Laos.'
-      n: '"[Transcript of Vice Premier Cheny Yi and Soviet Ambassador S.V. Chervonenko discussing the Laos Issue](https://digitalarchive.umd.edu/document/120874)" (Feb. 8, 1961), PRC FMA 109-03754-03, 72–82, obtained by Yiming Feng, trans. Marian Rosenberg, Wilson Center Digital Archive. The record gives the time as 4:00 p.m. and the place as the State Council Foreign Affairs Office Reception Hall. Chen Yi''s figures, as he gives them: the Lao Patriotic Front 6,000 men and Kong Le 1,100, with 3,000 to 4,000 guerrillas, 11,100 in all; Phoumi and Boun Oum 48,000 in 31 battalions, 13 of them at the Plain of Jars; China has sent Hanoi arms for 10,000. He says the Vietnamese Politburo had told China it opposed sending troops to Laos, and that Zhang Hanfu gave Sudarikov China''s reply on Feb. 6. Names: Chen Yi, Chervonenko. Check: the year the Archive posted the document.'
+      n: '"[Transcript of Vice Premier Cheny Yi and Soviet Ambassador S.V. Chervonenko discussing the Laos Issue](https://digitalarchive.umd.edu/document/120874)" (Feb. 8, 1961), PRC FMA 109-03754-03, 72–82, obtained by Yiming Feng, trans. Marian Rosenberg, Wilson Center Digital Archive. The record gives the time as 4:00 p.m. and the place as the State Council Foreign Affairs Office Reception Hall. Chen Yi''s figures, as he gives them: the Lao Patriotic Front 6,000 men and Kong Le 1,100, with 3,000 to 4,000 guerrillas, 11,100 in all; Phoumi and Boun Oum 48,000 in 31 battalions, 13 of them at the Plain of Jars; China has sent Hanoi arms for 10,000. He says the Vietnamese Politburo had told China it opposed sending troops to Laos, and that Zhang Hanfu gave Sudarikov China''s reply on Feb. 6. To check: Zhang Hanfu''s papers to Sudarikov of Feb. 6, 1961, and the two memoranda Chervonenko gave Chen Yi before Feb. 8 (named in the transcript). Names: Chen Yi, Chervonenko. Check: the year the Archive posted the document.'
       tags:
       - polity:prc
       - polity:ussr
@@ -256,6 +256,27 @@ ops:
       - polity:prc
       - polity:ussr
       - vis:only:prc
+- edit:
+    id: cal.1965-06-19.china-leadership-2
+    base: 89c75c44
+    set:
+      time: 1965-06-19T18:00Z
+      time_zone: Africa/Cairo
+- edit:
+    id: cal.1960-01-22.china-leadership-2
+    base: bbe368be
+    set:
+      time: 1960-01-22T09:00Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-03-31.china-leadership
+    base: 37c6df88
+    set:
+      time_range:
+      - 1965-03-31T06:00Z
+      - 1965-03-31T12:00Z
+      time_band: morning
+      time_zone: Africa/Algiers
 - variant:
     id: cal.1965-03-03.soviet-union
     unit: B
@@ -270,14 +291,8 @@ ops:
 - primary:
     id: cal.1965-06-19.china-leadership-2
     text: >-
-      "[Record of Conversation between Premier Zhou and Premier Sabry](https://digitalarchive.umd.edu/document/165427)" (June 19, 1965), PRC FMA 107-01081-05, trans. Stephen Mercado, Wilson Center Digital Archive (Foreign Ministry file, secret document 618, received July 14, 1965, the Premier not having reviewed it; 9 to 10 p.m. at Sabry's residence, Cairo, with Zhang Hanfu, Qiao Guanhua and Chen Jiakang; the entry's time is the talk's. Zhou has the Council of the Revolution's statement at dinner just before; Sabry reports Bouteflika's word that Ben Bella is held and will be tried; Zhou ends that he may stay a few days longer, giving no reason. The record also has Sabry on Algerian oil and Egypt's food, and Zhou on Vietnam, Taylor, Johnson and rumors of Mao's illness, which he says Moscow's agency spread).
+      "[Record of Conversation between Premier Zhou and Premier Sabry](https://digitalarchive.umd.edu/document/165427)" (June 19, 1965), PRC FMA 107-01081-05, trans. Stephen Mercado, Wilson Center Digital Archive (Foreign Ministry file, secret document 618, received July 14, 1965, the Premier not having reviewed it; 9 to 10 p.m. at Sabry's residence, Cairo, with Zhang Hanfu, Qiao Guanhua and Chen Jiakang; the entry's time is the talk's. Zhou has the Council of the Revolution's statement at dinner just before; Sabry reports Bouteflika's word that Ben Bella is held and will be tried; Zhou ends that he may stay a few days longer, giving no reason. The record also has Sabry on Algerian oil and Egypt's food, and Zhou on Vietnam, Taylor and Johnson, and on rumors about Mao that he says Moscow's agency spread).
     units: A, B
-- edit:
-    id: cal.1965-06-19.china-leadership-2
-    base: 89c75c44
-    set:
-      time: 1965-06-19T18:00Z
-      time_zone: Africa/Cairo
 - primary:
     id: cal.1965-06-25.china-leadership
     text: >-
@@ -304,12 +319,6 @@ ops:
     at: peking
     basis: n
     note: Wucheng Hall, Zhongnanhai (the transcript)
-- edit:
-    id: cal.1960-01-22.china-leadership-2
-    base: bbe368be
-    set:
-      time: 1960-01-22T09:00Z
-      time_zone: Asia/Shanghai
 - check:
     id: cal.1960-01-22.china-leadership-2
     text: 'Check: whether the Laos notice of the transcript and the report on the Sino-Indian dispute were one call; the Nianpu gives no hour and the transcript no word on India.'
@@ -327,12 +336,12 @@ ops:
 - primary:
     id: cal.1961-08-13.china-leadership-5
     text: >-
-      "[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou's account on Aug. 21 of the talk on the 13th: he and Liu Shaoqi asked Hồ whether he had taken the mediation between Albania and Moscow on his own initiative, and he said he had, with the CPSU's assent; they told him his heart was good and his method wrong. Phạm Văn Đồng had arrived that morning and Hồ that afternoon; the record gives no hour for the talk).
+      "[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou's account on Aug. 21 of the talk on the 13th: he and Liu Shaoqi asked Hồ whether he had taken the mediation between Albania and Moscow on his own initiative, and he said he had, with the CPSU's assent; they told him his intent was good, his method needed examination and mediation would be very hard. Phạm Văn Đồng had arrived that morning and Hồ that afternoon; the record gives no hour for the talk).
     units: A
 - primary:
     id: cal.1965-02-05.china-leadership
     text: >-
-      "[Record of the First Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin](https://digitalarchive.umd.edu/document/165488)" (Feb. 6, 1965 by the Archive; Feb. 5 by the record), PRC FMA 109-03957-04, 1–21, trans. Stephen Mercado, Wilson Center Digital Archive (top secret document 75, the Premier and Chen not having reviewed it; the first contact, 3 p.m. on Feb. 5, on the way from the airport to the Diaoyutai State Guest House, Yan Mingfu interpreting. Kosygin asks to call on Mao and Liu; he and Zhou agree on joint action for Vietnam, Zhou saying the Americans must withdraw under the 1954 Geneva accords; Zhou blames the Americans for Laos; Kosygin says the CPSU has a new attitude to the Mar. 1 meeting, and Zhou says to start afresh; at the hotel, in notes written from memory, Kosygin asks whether China favors the Wilson government. Part Two, Chen Yi with Andropov, and Part Three are not printed in the file).
+      "[Record of the First Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin](https://digitalarchive.umd.edu/document/165488)" (Feb. 6, 1965 by the Archive; Feb. 5 by the record), PRC FMA 109-03957-04, 1–21, trans. Stephen Mercado, Wilson Center Digital Archive (top secret document 75, the Premier and Chen not having reviewed it; the first contact, 3 p.m. on Feb. 5, on the way from the airport to the Diaoyutai State Guest House, Yan Mingfu interpreting. Kosygin asks to call on Mao and Liu; he and Zhou agree on joint action for Vietnam, Zhou saying the Americans must withdraw under the 1954 Geneva accords; Zhou blames the Americans for Laos; Kosygin says the CPSU has a new attitude to the Mar. 1 meeting, and Zhou says to start afresh; at the hotel, in notes written from memory, Kosygin says China seems to favor the Wilson government, which Zhou calls a Western rumor. Part Two, Chen Yi with Andropov, and Part Three are not printed in the file).
     units: A
 - primary:
     id: cal.1965-02-10.china-leadership-5
@@ -342,22 +351,13 @@ ops:
 - primary:
     id: cal.1965-03-31.china-leadership
     text: >-
-      "[Record of the Second Meeting between Premier Zhou and President Ben Bella](https://digitalarchive.umd.edu/document/165405)" (Mar. 31, 1965), PRC FMA 203-00651-02, 55–85, trans. Stephen Mercado, Wilson Center Digital Archive (top secret document 284, the Premier not having reviewed it; "Morning, 31 March 1965", Villa Joly, the Algerian Presidential Palace. Ben Bella explains why Algeria passed U Thant's proposal to China and gives his views on a cease-fire in Vietnam and on Africa; Zhou on Vietnam, the Soviet Union's stand, the Second Asian-African Conference and the United Nations: outside it China may criticize it, the criticism aimed at the United States, and it opposes the two great powers' control and France's five-power proposal).
+      "[Record of the Second Meeting between Premier Zhou and President Ben Bella](https://digitalarchive.umd.edu/document/165405)" (Mar. 31, 1965), PRC FMA 203-00651-02, 55–85, trans. Stephen Mercado, Wilson Center Digital Archive (top secret document 284, the Premier not having reviewed it; "Morning, 31 March 1965", Villa Joly, the Algerian Presidential Palace. Ben Bella explains why Algeria passed U Thant's proposal to China and gives his views on a cease-fire in Vietnam and on Africa; Zhou sets out four phases of possible American escalation in Vietnam and China's preparations, and says China would bear a war alone and not ask the Soviet Union to send troops; he says Kosygin, home from Vietnam, proposed talks with the United States, and speaks on the Soviet aid list, the Second Asian-African Conference and the United Nations: outside it China may criticize it, the criticism aimed at the United States, and it opposes the two great powers' control and France's five-power proposal).
     units: A, B, C, D, E
 - place:
     id: cal.1965-03-31.china-leadership
     at: algiers
     basis: n
     note: Villa Joly, the Algerian Presidential Palace (the record); Jolie Villa, Algiers (the Waijiao huodong)
-- edit:
-    id: cal.1965-03-31.china-leadership
-    base: 37c6df88
-    set:
-      time_range:
-      - 1965-03-31T06:00Z
-      - 1965-03-31T12:00Z
-      time_band: morning
-      time_zone: Africa/Algiers
 - primary:
     id: cal.1965-03-30.china-leadership
     text: >-
@@ -366,7 +366,7 @@ ops:
 - primary:
     id: cal.1965-04-20.china-leadership
     text: >-
-      "[Minutes of Conversation between Premier Zhou and Bhutto](https://digitalarchive.umd.edu/document/165417)" (Apr. 20, 1965), PRC FMA 203-00653-01, 6–11, trans. Stephen Mercado, Wilson Center Digital Archive (secret document 374, the Premier not having reviewed it; 2 p.m., the Chinese ambassador's villa at Bogor, with Chen Yi, Zhang Wenjin and Ambassador Yao; Ji Chaozhu interpreting and recording. Bhutto gives his account of Ayub Khan's visit to the Soviet Union: Brezhnev and Kosygin on the Sino-Soviet treaty, Soviet arms for India, Kashmir, the Vietnam war; he proposes Pakistan send only an observer to the next SEATO ministerial meeting, and Zhou advises against withdrawing now. Zhou says the Soviet aid to Vietnam has been little, old and slow, and that the United States has not decided to fight China. Printed and distributed May 7, 1965, in 73 copies; the Foreign Ministry's General Office received it May 6).
+      "[Minutes of Conversation between Premier Zhou and Bhutto](https://digitalarchive.umd.edu/document/165417)" (Apr. 20, 1965), PRC FMA 203-00653-01, 6–11, trans. Stephen Mercado, Wilson Center Digital Archive (secret document 374, the Premier not having reviewed it; 2 p.m., the Chinese ambassador's villa at Bogor, with Chen Yi, Zhang Wenjin and Ambassador Yao; Ji Chaozhu interpreting and recording. Bhutto gives his account of Ayub Khan's visit to the Soviet Union: the Soviet side on the Sino-Soviet treaty, Soviet arms for India, Kashmir, the Vietnam war; he proposes Pakistan send only an observer to the next SEATO ministerial meeting, and Zhou advises against withdrawing now. Zhou says the Soviet aid to Vietnam has been little, old and slow, and that the United States has not decided to fight China. Printed and distributed May 7, 1965, in 73 copies; the Foreign Ministry's General Office received it May 6).
     units: A
 - primary:
     id: cal.1961-04-24.china-leadership
