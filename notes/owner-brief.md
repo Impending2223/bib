@@ -908,3 +908,9 @@ The owner's answers to the display questions (Nov. 19, about 10:45 a.m. Pacific)
 "Continue." (Nov. 19, about 8:49 p.m. Pacific.)
 
 "Shouldn't the Linxia cannibalism cases go in? Aren't these crimes a matter of politics and policy? Like, we wouldn't have had the cannibalism without the state procurement policy, right?" (Nov. 20, about 1:00 a.m. Pacific.) Applied as a ruling: the famine's crimes (cannibalism, killings and thefts for food, and the like) carry the trace of policy (R18: a crime "with no trace in politics or policy" is the only crime passed over); they are entries.
+
+"Yes, the Cultural Revolution killings go in too.
+
+Civil disorder killings and lesser crimes would also go in, wouldn't they? Don't we have entries on the civil disorders of the 1960s in the United States? Have we dropped content there because of the "crime" rule?
+
+Could you clarify or restate the "crime" rule? Maybe drop it? Heck, just drop it." (Nov. 20, about 1:10 a.m. Pacific.) Applied: the crime clause struck from R18; every dated crime the source records is an entry, as any other event (R5).
