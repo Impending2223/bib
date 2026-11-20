@@ -1,0 +1,234 @@
+patch: 2026-11-20-b17-prc-a
+by: 'Claude (batch 17, reader 1: the PRC Foreign Ministry Archives files in the Wilson Center Digital Archive, first 23 of the Drive list), Nov. 20, 2026'
+ops:
+  - primary:
+      id: cal.1960-12-17.china-leadership
+      text: '"[Memorandum of Chairman Mao''s Conversation with Sihanouk on 17 December 1960](https://digitalarchive.umd.edu/document/120870)" (Dec. 17, 1960), PRC FMA 106-00274-01, 1–7, trans. Jake Tompkins, Wilson Center Digital Archive.'
+      units: D, E
+  - variant:
+      id: cal.1960-12-17.china-leadership
+      unit: A
+      witness: x.1960-12-17.mao-sihanouk-record-prc-fma-106-00274-01
+      reads: headed "Zhongnanhai Government Reception Hall", 5:00 p.m.
+      at: PRC FMA 106-00274-01, 1
+  - variant:
+      id: cal.1960-12-17.china-leadership
+      unit: B
+      witness: x.1960-12-17.mao-sihanouk-record-prc-fma-106-00274-01
+      reads: '"Record of Chairman Mao''s Reception of Sihanouk", 5:00 p.m.; the extract names no dinner, no Penn Nouth and no one else present'
+      at: PRC FMA 106-00274-01, 1
+  - add:
+      entry:
+        id: cal.1960-12-16.vietnam-diplomacy
+        when: Dec. 16
+        date: '1960-12-16'
+        thread: vietnam-diplomacy
+        also:
+        - laos
+        - china-leadership
+        c: 'The DRV''s ambassador to China calls on Sihanouk, as Sihanouk tells Mao next day: the DRV has given the Lao Patriotic Front no aid and abides by the Geneva agreements; calling its acts in Laos interference is wrong. Sihanouk tells him that is good.'
+        n: '"[Memorandum of Chairman Mao''s Conversation with Sihanouk on 17 December 1960](https://digitalarchive.umd.edu/document/120870)" (Dec. 17, 1960), PRC FMA 106-00274-01, 1–7, trans. Jake Tompkins, Wilson Center Digital Archive. The words: "last night" (Sihanouk, Dec. 17). See [[cal.1960-12-17.china-leadership]]. Names: Sihanouk. Check: the year the Archive posted it.'
+        src:
+          c: cf4ac39f
+          rows:
+          - 'https://digitalarchive.umd.edu/document/120870: all'
+        tags:
+        - name:norodom-sihanouk
+        - polity:drv
+        - polity:cambodia
+        - vis:only:cambodia+drv
+        - vis:from:prc:1960-12-17
+        - ok:fields-place
+        time_range:
+        - 1960-12-16T14:00Z
+        - 1960-12-16T16:00Z
+        time_band: night
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1960-12-17.vietnam-diplomacy
+        when: Dec. 17
+        date: '1960-12-17'
+        thread: vietnam-diplomacy
+        also:
+        - china-leadership
+        place: peking
+        c: 'Mao to Sihanouk, per the Chinese record: Hồ Chí Minh sends greetings, would invite him to visit the DRV, and asks that Cambodia and the DRV establish diplomatic relations.'
+        n: '"[Memorandum of Chairman Mao''s Conversation with Sihanouk on 17 December 1960](https://digitalarchive.umd.edu/document/120870)" (Dec. 17, 1960), PRC FMA 106-00274-01, 1–7, trans. Jake Tompkins, Wilson Center Digital Archive. The words: 5:00 p.m., the reception''s start (1). See [[cal.1960-12-17.china-leadership]]. Names: Mao Zedong, Sihanouk, Hồ Chí Minh. Check: the year the Archive posted it.'
+        src:
+          c: f6ce947f
+          rows:
+          - 'https://digitalarchive.umd.edu/document/120870: all'
+        tags:
+        - name:mao-zedong
+        - name:norodom-sihanouk
+        - name:ho-chi-minh
+        - polity:prc
+        - polity:drv
+        - polity:cambodia
+        - vis:only:prc+cambodia+drv
+        time: 1960-12-17T09:00Z
+        time_zone: Asia/Shanghai
+        time_approx: true
+  - add:
+      entry:
+        id: cal.1960-12-17.vietnam-diplomacy-2
+        when: Dec. 17
+        date: '1960-12-17'
+        thread: vietnam-diplomacy
+        also:
+        - china-leadership
+        place: peking
+        c: 'Sihanouk to Mao, per the Chinese record: Cambodia keeps no diplomatic relations with a divided country; consulates, as in New Delhi, instead. He cannot visit the DRV now; he returns to Phnom Penh Dec. 26.'
+        n: '"[Memorandum of Chairman Mao''s Conversation with Sihanouk on 17 December 1960](https://digitalarchive.umd.edu/document/120870)" (Dec. 17, 1960), PRC FMA 106-00274-01, 1–7, trans. Jake Tompkins, Wilson Center Digital Archive. See [[cal.1960-12-17.china-leadership]]. Names: Mao Zedong, Sihanouk. Check: the year the Archive posted it.'
+        src:
+          c: 20222fab
+          rows:
+          - 'https://digitalarchive.umd.edu/document/120870: all'
+        tags:
+        - name:mao-zedong
+        - name:norodom-sihanouk
+        - polity:prc
+        - polity:drv
+        - polity:cambodia
+        - vis:only:prc+cambodia
+        time: 1960-12-17T09:00Z
+        time_zone: Asia/Shanghai
+        time_approx: true
+        follows:
+        - cal.1960-12-17.vietnam-diplomacy
+  - primary:
+      id: cal.1960-12-20.china-leadership
+      text: '"[Summary of Talks between Prime Minister Zhou Enlai and Norodom Sihanouk while Driving to Nanjing on December 20th](https://digitalarchive.umd.edu/document/120871)" (Dec. 29, 1960), PRC FMA 106-00274-03, 10–11, trans. Marian Rosenberg, Wilson Center Digital Archive.'
+      units: B, C, D
+  - variant:
+      id: cal.1960-12-20.china-leadership
+      unit: D
+      witness: x.1960-12-29.zhou-sihanouk-train-talk-summary-prc-fma-106-00274-03
+      reads: 'Zhou tells Sihanouk China''s statement of Dec. 19 backs the DRV''s proposal for a new Geneva Conference; Sihanouk says Cambodia will first state it will attend, and would have Thailand and South Vietnam invited; Zhou: then India and Burma too, Canada and Poland if wider, Cambodia to propose it, and Cambodia''s Foreign Ministry to hand the statement to Saigon'
+      at: PRC FMA 106-00274-03, 10
+  - variant:
+      id: cal.1960-12-20.china-leadership
+      unit: A
+      witness: x.1960-12-29.zhou-sihanouk-train-talk-summary-prc-fma-106-00274-03
+      reads: '"the special train to Nanjing"; the summary names neither Chen Yi nor the hour'
+      at: PRC FMA 106-00274-03, 10
+  - add:
+      entry:
+        id: cal.1960-11-23.vietnam-diplomacy
+        when: Nov. 23
+        date: '1960-11-23'
+        thread: vietnam-diplomacy
+        also:
+        - laos
+        - china-leadership
+        c: 'The DRV Foreign Ministry gives the PRC a copy of the Vietnamese Workers'' Party Central Committee''s position on Sihanouk''s proposal to neutralize Cambodia and Laos, as the Chinese Foreign Ministry reports it: support for the proposal; caution on any union of the two states; strong opposition to American interference; a joint statement of the DRV, the USSR and China to go to Sihanouk before he visits the USSR. The Politburo has commissioned Phạm Văn Đồng to send an envoy to Moscow and Peking.'
+        n: '"[Cable from the Chinese Foreign Ministry, ''Report on the Matter of the Proposal by the Central Committee of the Vietnamese Workers'' Party to Neutralize Cambodia and Laos by the Ministry of Foreign Affairs of the People''s Republic of China''](https://digitalarchive.umd.edu/document/120869)" (Nov. 26, 1960), PRC FMA 106-00553-04, 12–14, trans. Marian Rosenberg, Wilson Center Digital Archive. Names: Sihanouk, Phạm Văn Đồng. Check: the year the Archive posted it.'
+        src:
+          c: 3965e628
+          rows:
+          - 'https://digitalarchive.umd.edu/document/120869: all'
+        tags:
+        - name:norodom-sihanouk
+        - name:pham-van-dong
+        - polity:drv
+        - polity:prc
+        - polity:cambodia
+        - polity:laos
+        - vis:only:drv+prc
+        - ok:fields-place
+  - add:
+      entry:
+        id: cal.1960-11-26.china-leadership-10
+        when: Nov. 26
+        date: '1960-11-26'
+        thread: china-leadership
+        also:
+        - laos
+        - vietnam-diplomacy
+        c: 'The Foreign Ministry (Ji Pengfei, after Luo Guibo''s review) to Chen and the Premier, extremely urgent: China can concur with the DRV''s position on Sihanouk''s proposal to neutralize Cambodia and Laos. The question to Sihanouk on his hope that Western states guarantee the neutrality waits for an opportune moment. The DRV''s and China''s positions go by telegram to Chairman Liu and China''s representatives; approval asked.'
+        n: '"[Cable from the Chinese Foreign Ministry, ''Report on the Matter of the Proposal by the Central Committee of the Vietnamese Workers'' Party to Neutralize Cambodia and Laos by the Ministry of Foreign Affairs of the People''s Republic of China''](https://digitalarchive.umd.edu/document/120869)" (Nov. 26, 1960), PRC FMA 106-00553-04, 12–14, trans. Marian Rosenberg, Wilson Center Digital Archive. See [[cal.1960-11-23.vietnam-diplomacy]]. Names: Ji Pengfei, Zhou Enlai, Liu Shaoqi, Sihanouk. Check: the Archive''s "Prime Minister Chen" is Chen Yi. Check: the year the Archive posted it.'
+        src:
+          c: 93dcc2c3
+          rows:
+          - 'https://digitalarchive.umd.edu/document/120869: all'
+        tags:
+        - name:ji-pengfei
+        - name:zhou-enlai
+        - name:liu-shaoqi
+        - name:norodom-sihanouk
+        - polity:prc
+        - polity:drv
+        - vis:only:prc
+        follows:
+        - cal.1960-11-23.vietnam-diplomacy
+  - primary:
+      id: cal.1960-12-05.china-leadership-3
+      text: '"[Record of Conversation from Premier Zhou Enlai''s Reception of the Vietnamese Government Economic and Trade Delegation led by Vice Premier Nguyen Duy Trinh](https://digitalarchive.umd.edu/document/122016)" (Dec. 5, 1960), PRC FMA 106-00602-01, 1–10, trans. Stephen Mercado, Wilson Center Digital Archive.'
+      units: A, B, C, D
+  - names:
+      id: cal.1960-12-05.china-leadership-3
+      add:
+      - Nguyễn Duy Trinh
+      tags:
+      - name:nguyen-duy-trinh
+  - primary:
+      id: cal.1961-01-31.china-leadership
+      text: '"[Record of Conversation from Premier Zhou Enlai''s Reception of the Vietnamese Government Economic and Trade Delegation led by Vice Premier Nguyen Duy Trinh](https://digitalarchive.umd.edu/document/122017)" (Jan. 31, 1961), PRC FMA 106-00602-02, 11–17, trans. Stephen Mercado, Wilson Center Digital Archive.'
+      units: B, C, D
+  - variant:
+      id: cal.1961-01-31.china-leadership
+      unit: A
+      witness: x.1961-01-31.zhou-talk-nguyen-duy-trinh-delegation-record
+      reads: '"6 p.m.", the East Room, Reception Hall, Southern Building, Great Hall of the People; Chen Yi and Bo Yibo among those present; no talk of Laos in the record'
+      at: PRC FMA 106-00602-02, 11
+  - names:
+      id: cal.1961-01-31.china-leadership
+      add:
+      - Nguyễn Duy Trinh
+      tags:
+      - name:nguyen-duy-trinh
+  - add:
+      entry:
+        id: cal.1961-01-31.china-leadership-9
+        when: Jan. 31
+        date: '1961-01-31'
+        thread: china-leadership
+        also:
+        - vietnam-hanoi
+        - foreign-aid
+        place: peking
+        c: 'Zhou Enlai with Nguyễn Duy Trinh at the banquet, per the Chinese record: Poland having declined, the DRV asks China to build a paper mill beside the Polish-aided Vạn Điểm sugar mill, and Zhou says China can consider it. The DRV asks for an aerial survey and mapping of North Vietnam; Zhou says China cannot do it in the first half of 1961, for Laos and for want of equipment, and the two sides will look again in the second half.'
+        n: '"[Record of Conversation from Premier Zhou Enlai''s Reception of Vietnamese Deputy Prime Minister Nguyen Duy Trinh](https://digitalarchive.umd.edu/document/176278)" (Jan. 31, 1961), PRC FMA 106-00602-02, 18–19, trans. Stephen Mercado, Wilson Center Digital Archive. See [[cal.1961-01-31.china-leadership]]. Names: Zhou Enlai, Nguyễn Duy Trinh. Check: the year the Archive posted it.'
+        src:
+          c: 57b0099b
+          rows:
+          - 'https://digitalarchive.umd.edu/document/176278: all'
+        tags:
+        - name:zhou-enlai
+        - name:nguyen-duy-trinh
+        - polity:prc
+        - polity:drv
+        - vis:only:prc+drv
+        time: 1961-01-31T12:30Z
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1961-10-04.vietnam-diplomacy
+        when: Oct. 4
+        date: '1961-10-04'
+        thread: vietnam-diplomacy
+        also:
+        - china
+        c: 'The Foreign Cultural Liaison Committee''s Foreign Visitors Office, in a top-secret briefing to the Party Center and others: the DRV''s Deputy Minister of Culture, Lê Kiêm, passing through Peking from Moscow, attends the National Day dinner and ceremony. He tells the Chinese that Vietnam is left in a difficult situation when the Chinese and Soviet parties differ, that the DRV has decided against showing the Soviet film Clear Sky publicly, and asks to borrow films China bought from capitalist states.'
+        n: '"[Report from the Foreign Visitors Office of the Foreign Cultural Liaison Committee, ''The Two Major Parties of China and the Soviet Union Have Some Different Opinions, and Vietnam Faces Difficulties''](https://digitalarchive.umd.edu/document/120600)" (Oct. 4, 1961), PRC FMA 106-00661-01, trans. Qingfei Yin, Wilson Center Digital Archive. Check: the name Lê Kiêm as the Archive prints it. Check: the year the Archive posted it.'
+        src:
+          c: b96f233b
+          rows:
+          - 'https://digitalarchive.umd.edu/document/120600: all'
+        tags:
+        - polity:prc
+        - polity:drv
+        - vis:frame:prc
+        - vis:only:prc+drv
+        - ok:fields-place
