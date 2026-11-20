@@ -7,6 +7,13 @@ Each year's patch was read by a reader and audited by Opus before merge (`inbox/
 
 - `patch-check` does not validate `place:` keys set by an `edit` (the 1962 audit's finding): an unknown key passes and fails only at check after merge. Validate against sources/places.yaml plus the patch's own `place-key` ops.
 
+## 1964 (merged: 107 ops)
+- Sure: 04.civil-rights-bill Apr. 9; 01.vietnam-4 Jan. 28; 08.elections-1964-4 Aug. 1; 09.elections-1964-5 Sept. 11; 09.vietnam Sept. 25–29; 11.vietnam-saigon-2 Nov. 11; 12.republican-party Dec. 6; 12.republican-party-2 Dec. 21; 12.press-and-broadcasting-2 Dec. 2.
+- Likely: 09.laos Sept. 11 (the meeting; split); 12.press-and-broadcasting Dec. 2; 06.elections-1964-state-conventions-3 June 30; 09.goldwater-11 about Sept. 25; 01.elections-1964-3 Jan. 13; 08.robert-kennedy Aug. 1–2; 07.press-and-broadcasting about July 7; 02-23.economy Feb. 23; 05.conservation May 6 (a second event: split).
+- Duplicates: cal.1964-10.elections-1964-3 into cal.1964-10-14.elections-1964-4; maybe 10.elections-1964-5 with cal.1964-10-10.elections-1964-johnson.
+- The audit's ruling, applied: a newspaper of the Nth places a month-dated act on or before the Nth (a paper of the 1st–10th: early). "The week before X": before the Sunday that opens the week before X's week.
+- For the owner: "1964, by April" set `before 1964-04` (entries.md's example) though STYLE 3a would leave a "by" in the block; the two rulings above; 03.vietnam-2's note still says Mar. 8 (the lead to correct); 07.vietnam-6 (June?); arguable: 07.mississippi, 07.goldwater, 08.transition-and-staff, 02.china-leadership-5, 12.program, 12.republican-party-congress-2.
+
 ## 1962 (merged: 60 ops)
 - Sure: 02.elections-1964 Feb. 2; 01.defense Jan. 11 (the order); 11.king Nov. 20; 09.goldwater Sept. 27–28.
 - Likely: 12.missile-crisis Dec. 8 (the *Post*'s issue date); 1962.china-leadership-5 July 22; 12.soviet-union Dec. 2; 07.china-leadership-4 July 30 (the letter of Aug. 8 a second act: split).
