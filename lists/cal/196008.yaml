@@ -749,6 +749,19 @@ entries:
         - 'w.yang-jisheng-mubei I, 203: all'
         - 'via w.yang-jisheng-mubei I, 203 n.32: all'
     tags: [polity:prc, name:li-jingquan, name:li-xiannian, vis:only:prc]
+  - id: cal.1960-08-05.china-leadership-2
+    when: Aug. 5
+    date: '1960-08-05'
+    thread: china-leadership
+    also: [trade]
+    c: Provincial leaders are warned by telephone that exports fall short and that the balance of payments is heading for a deficit of 2 billion yuan. The Soviet debt is to be paid within two years, by exporting as much grain, cotton and edible oils as possible.
+    n: '[[w.dikotter-maos-great-famine]], 105 n.8. Made public: 2010. To check: Telephone warning to provincial leaders on exports and the Soviet debt, Aug. 5, 1960, Gansu Provincial Archives, 91-9-91, pp. 7–11 (cited by [[w.dikotter-maos-great-famine]], 105 n.8). Check: who gave the warning.'
+    src:
+      c: 92f7ea86
+      rows:
+        - 'w.dikotter-maos-great-famine 105: all'
+        - 'via w.dikotter-maos-great-famine 105 n.8: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-08-06.cuba
     when: Aug. 6
     date: '1960-08-06'
@@ -1408,7 +1421,7 @@ entries:
     thread: china-leadership
     also: [trade]
     c: 'The Center''s urgent directive on a Party-wide campaign of foreign-trade buying and exports: a three-man group under Zhou Enlai with Li Fuchun and Li Xiannian forms a foreign-trade command with full power over buying, exports and shipping of the whole country and strict control of imports; no new import this year without the group''s approval; the next year''s foreign-trade plan its own.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 339 (Aug. 10, 1960). Made public: 1997. Names: Zhou Enlai, Li Fuchun, Li Xiannian.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 339 (Aug. 10, 1960); [[w.dikotter-maos-great-famine]], 108 n.1 (Zhou Enlai, Li Fuchun and Li Xiannian put in charge of foreign trade almost at once after the recall of the Soviet experts in July 1960). Made public: 1997. To check: Jin Chongji, ed., Zhou Enlai zhuan, 1398 (cited by [[w.dikotter-maos-great-famine]], 108 n.1). Names: Zhou Enlai, Li Fuchun, Li Xiannian.'
     tags: [polity:prc, name:zhou-enlai, name:li-fuchun, name:li-xiannian, vis:only:prc]
   - id: cal.1960-08-10.china-leadership-6
     when: Aug. 10
@@ -1435,7 +1448,7 @@ entries:
     thread: china
     also: [cuba]
     c: China and Cuba sign two trade contracts. China sells 100,000 tons of rice and buys 350,000 tons of sugar.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 156 (Aug. 10, 1960).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 156 (Aug. 10, 1960). Check: [[w.dikotter-maos-great-famine]], 114 n.37 (Shanghai Municipal Archives, B29-2-112, pp. 2–5, file of Oct. 21, 1960) has a Beidaihe gathering decide, the month after Sept. 1960, to send Castro a further 100,000 tonnes of rice, worth 26 million yuan, for sugar; whether it is this contract.'
     src:
       c: 54f55624
       rows:
@@ -4343,6 +4356,11 @@ entries:
     c: At the State Planning Commission's report on the policy of "rectifying, consolidating and raising" the 1961 economy, Zhou Enlai adds "filling out"; on Sept. 5 changes "rectifying" to "adjusting." The Center's approval of the Commission's 1961 control figures, issued Sept. 30, puts agriculture first, so that production and construction be adjusted, consolidated, filled out and raised as they grow.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 345 (Aug. 30, 1960). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.dikotter-maos-great-famine
+        reads: Zhou Enlai adds the word "consolidation" to the motto Li Fuchun began in August 1960, not "filling out"
+        at: '116'
   - id: cal.1960-08-30.china
     when: Aug. 30
     date: '1960-08-30'
@@ -4807,12 +4825,22 @@ entries:
     date: 1960-08
     thread: china-leadership
     c: Li Fuchun 李富春, in charge of planning, sees the all-round leap cannot go on and proposes the line "put in order, consolidate, raise" 「整頓、鞏固、提高」; Zhou Enlai 周恩來 later changes it to "readjust, consolidate, fill out, raise" 「調整、鞏固、充實、提高」, the eight-character line. Disagreement keeps it from being carried out at the time.
-    n: '[[w.yang-jisheng-mubei]], II, 1171 (the book''s chronology). Made public: 2008. Check: the book gives no day, and does not say when Zhou changed the wording; the Ninth Plenum''s version is of Jan. 1961 (II, 1172). Names: Li Fuchun, Zhou Enlai.'
+    n: '[[w.yang-jisheng-mubei]], II, 1171 (the book''s chronology); [[w.dikotter-maos-great-famine]], 116 n.1 (Li Fuchun begins work in August 1960 on a new motto). Made public: 2008. Check: the book gives no day, and does not say when Zhou changed the wording; the Ninth Plenum''s version is of Jan. 1961 (II, 1172). To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 892 (cited by [[w.dikotter-maos-great-famine]], 116 n.1). Names: Li Fuchun, Zhou Enlai.'
     src:
       c: 288b341d
       rows:
         - 'w.yang-jisheng-mubei II, 1171: all'
+        - 'w.dikotter-maos-great-famine 116 n.1: ?'
     tags: [polity:prc, name:li-fuchun, name:zhou-enlai, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.dikotter-maos-great-famine
+        reads: Li Fuchun's new motto of August 1960 stresses "adjustment" in place of great leaps
+        at: '116'
+      - unit: B
+        witness: w.dikotter-maos-great-famine
+        reads: Zhou Enlai adds the term "consolidation," to make the motto more palatable to Mao
+        at: '116'
   - id: cal.1960-08.china-leadership-4
     when: Aug., late
     date: 1960-08
@@ -4849,3 +4877,16 @@ entries:
       rows:
         - 'w.yang-jisheng-mubei I, 574: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-08.china-leadership-8
+    when: Aug.
+    date: 1960-08
+    thread: china-leadership
+    also: [trade, soviet-union]
+    c: Ye Jizhuang, Minister of Foreign Trade, instructs his representatives abroad to cut imports from the socialist bloc. Talks on new trade agreements are to stop, but for a few strategic projects, such as steel from the Soviet Union for the Nanjing bridge; no new import contracts are to be signed, the pretext being the price or specifications of the goods offered.
+    n: '[[w.dikotter-maos-great-famine]], 108 n.2. Made public: 2010. To check: Ye Jizhuang, instruction to the foreign-trade representatives abroad, file of Aug. 20, 1960, Ministry of Foreign Affairs Archives, Peking, 118-1378-13, pp. 32–33 (cited by [[w.dikotter-maos-great-famine]], 108 n.2). Check: the day.'
+    src:
+      c: b02b4c83
+      rows:
+        - 'w.dikotter-maos-great-famine 108: all'
+        - 'via w.dikotter-maos-great-famine 108 n.2: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]

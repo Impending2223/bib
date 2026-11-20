@@ -2526,7 +2526,7 @@ entries:
     date: '1961-06-16'
     thread: china-leadership
     c: 'The Center issues the nine-point plan to reduce the urban population by 20 million in three years: 10 million in 1961, 8 in 1962, 2 in 1963. The first 10 million are moved between June and September; by mid-1963, about 26 million.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 32–33; [[w.yang-jisheng-mubei]], II, 832 (the nine measures to cut the town population and urban grain sales, dated June 18, 1961 by the book; over 20 million fewer townspeople in three years on the 1960 base). Made public: 1997. To check: [[w.zhonghua-renmin-gongheguo-caizheng]], 212 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 438 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55b); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 403 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55c); [[w.politics-of-the-chinese]], 459 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55d); [[w.macfarquhar-origins-of-the-cultural]], II, 330 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55e); [[w.jin-1949-1989-niande-zhongguo]], 381–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.56); [[w.dangdai-zhongguo-jingji]], 360 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.57).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 32–33; [[w.yang-jisheng-mubei]], II, 832 (the nine measures to cut the town population and urban grain sales, dated June 18, 1961 by the book; over 20 million fewer townspeople in three years on the 1960 base); [[w.dikotter-maos-great-famine]], 238 n.37 (the leadership in Peking sends 20 million people from the cities back to the countryside, 10 million of them before the end of 1961, the rest in 1962 and the stragglers by 1963; the order "came on 18 June 1961"). Made public: 1997. To check: [[w.zhonghua-renmin-gongheguo-caizheng]], 212 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 438 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55b); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 403 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55c); [[w.politics-of-the-chinese]], 459 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55d); [[w.macfarquhar-origins-of-the-cultural]], II, 330 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55e); [[w.jin-1949-1989-niande-zhongguo]], 381–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.56); [[w.dangdai-zhongguo-jingji]], 360 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.57); Gansu copy of the Center''s order to reduce the urban population (zhong [61] 420), file of June 16, 1961, Gansu Provincial Archives, 91-18-211, pp. 116–119 (cited by [[w.dikotter-maos-great-famine]], 238 n.37).'
     src:
       c: 60e18b4f
       rows:
@@ -2539,12 +2539,17 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 32 n.56: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 32 n.57: C'
         - 'w.yang-jisheng-mubei II, 832: A'
+        - 'w.dikotter-maos-great-famine 238 n.37: ?'
     tags: [polity:prc, vis:only:prc]
     variants:
       - unit: A
         witness: w.yang-jisheng-mubei
         reads: the nine measures 《關於減少城鎮人口和壓縮城鎮糧食銷量的九條辦法》 issued June 18, 1961, with an urgent instruction of the same day on verifying the urban population and grain supply; over 20 million fewer townspeople in three years on the 1960 base
         at: II, 832
+      - unit: A
+        witness: w.dikotter-maos-great-famine
+        reads: the order to cut the urban population came on June 18, 1961
+        at: 238 n.37
   - id: cal.1961-06-16.china-leadership-3
     when: June 16
     date: '1961-06-16'
@@ -5227,3 +5232,15 @@ entries:
         - 'w.yang-jisheng-mubei I, 355–356: all'
         - 'via w.yang-jisheng-mubei I, 356 n.38: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-06.china-leadership-9
+    when: June
+    date: 1961-06
+    thread: china-leadership
+    also: [soviet-union, trade]
+    c: China and the Soviet Union agree a swap of grain. Of the wheat China buys from Canada, 280,000 tonnes go straight to the Soviet Union, which exports a like amount to China and lists it in its published trade figures for 1961.
+    n: '[[w.dikotter-maos-great-famine]], 112 n.24. Made public: 2010. To check: Ministry of Foreign Affairs file, Aug. 15, 1962, Ministry of Foreign Affairs Archives, Peking, 109-2410-1, pp. 62–63 (cited by [[w.dikotter-maos-great-famine]], 112 n.24). Check: the day.'
+    src:
+      rows:
+        - 'w.dikotter-maos-great-famine 112: all'
+        - 'via w.dikotter-maos-great-famine 112 n.24: all'
+    tags: [polity:prc, polity:ussr, vis:only:prc+ussr, ok:fields-place]
