@@ -40,6 +40,28 @@ ops:
       - 1967-07-18T10:00Z
       time_band: afternoon
       time_zone: Asia/Shanghai
+- edit:
+    id: cal.1967-09.china-leadership
+    base: caad05b5
+    set:
+      when: Sept. 23
+      date: '1967-09-23'
+- edit:
+    id: cal.1968-07-25.china-leadership-4
+    base: f02c6c11
+    set:
+      time_range:
+      - 1968-07-24T17:05Z
+      - 1968-07-24T22:15Z
+      time_zone: Asia/Shanghai
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 325. Made public: 2006. See [[cal.1968-07-17.china-leadership-3]]. Names: Zhou Enlai, Chen Boda, Kang Sheng, Yao Wenyuan, Xie Fuzhi, Huang
+        Yongsheng, Wu Faxian.'
+- edit:
+    id: cal.1968.china-leadership-20
+    base: 791a8410
+    set:
+      when: June 20
+      date: '1968-06-20'
 - place-key:
     key: yudu
     name: Yudu
@@ -2551,26 +2573,6 @@ ops:
       - name:ye-qun
       - name:qiu-huizuo
       - ok:fields-place
-- add:
-    entry:
-      id: cal.1967-09-23.china-leadership-4
-      when: Sept. 23
-      date: '1967-09-23'
-      thread: china-leadership
-      c: 'At the Center''s liaison meeting Zhou Enlai 周恩來 announces the army''s four-man group made the Military Commission''s Administrative Group 軍委辦事組: Yang Chengwu 楊成武, Wu Faxian
-        吳法憲, Ye Qun 葉群, Qiu Huizuo 邱會作, Zhang Xiuchuan 張秀川.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 435. Made public: 2016. See [[cal.1967-07-17.china-leadership-3]]. Names: Zhou Enlai, Wu Faxian, Ye Qun, Qiu Huizuo.'
-      src:
-        c: 7dd86e21
-        rows:
-        - 'w.yang-jisheng-tiandi-fanfu I, 435: all'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:zhou-enlai
-      - name:wu-faxian
-      - name:ye-qun
-      - name:qiu-huizuo
 - cite:
     id: cal.1967-11-05.china-leadership-2
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 436 (in winter 1967 Yang Chengwu publishes under his name "Greatly and especially establish the absolute authority of the great commander
@@ -3198,20 +3200,6 @@ ops:
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
       src:
         c: 82bfb52a
-        rows:
-        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
-      tags:
-      - polity:prc
-- add:
-    entry:
-      id: cal.1968-08-14.china-leadership-3
-      when: Aug. 14
-      date: '1968-08-14'
-      thread: china-leadership
-      c: 'Fujian 福建: the Fujian Revolutionary Committee is founded; its chairman Han Xianchu 韓先楚.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
-      src:
-        c: 02866b92
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
       tags:
@@ -7457,31 +7445,6 @@ ops:
       shell the "4·22" strongholds on Jiefang Road; a sea of fire; the Nanning garrison''s open letter: "a fire set by counter-revolutionaries")'
 - add:
     entry:
-      id: cal.1968-07-25.china-leadership-5
-      when: July 25
-      date: '1968-07-25'
-      place: peking
-      time: 1968-07-24T17:05Z
-      time_zone: Asia/Shanghai
-      thread: china-leadership
-      c: 'Peking, the East Hall of the Great Hall. From 1:05 to 6:15 a.m. Zhou Enlai 周恩來, Kang Sheng 康生 and other Central leaders receive the Guangxi factions'' delegates and leaders;
-        every speaker condemns the "4·22," lays the arms seizures, the blocked railway and the Nanning fire on it, and lets none of its delegates answer. Kang: "you shout revolution,
-        and in fact you are counter-revolution!" Zhou: Wei Guoqing is the Center''s trusted head of the preparatory group, an old comrade-in-arms of the Vietnamese; "whom does your slogan
-        declare war on?"'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 512. The words: 1時5分至6時15分 (I, 512 n.53). Made public: 2006. To check: the Central leaders'' instructions on receiving the Guangxi factions,
-        July 25, 1968, in Song Yongyi 宋永毅, ed., *Zhongguo wenhua dageming wenku* 《中國文化大革命文庫》 (2006) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 512 n.53). Names: Zhou Enlai, Kang Sheng.'
-      src:
-        c: 7bdeba50
-        rows:
-        - 'w.yang-jisheng-tiandi-fanfu I, 512: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 512 n.53: all'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:zhou-enlai
-      - name:kang-sheng
-- add:
-    entry:
       id: cal.1968-07-27.china-leadership-2
       when: July 27
       date: '1968-07-27'
@@ -8046,40 +8009,6 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
-      - name:zhou-enlai
-- add:
-    entry:
-      id: cal.1967-07-18.china-leadership-8
-      when: July 18
-      date: '1967-07-18'
-      place: wuhan
-      time_range:
-      - 1967-07-18T14:00Z
-      - 1967-07-18T16:00Z
-      time_band: night
-      time_zone: Asia/Shanghai
-      thread: china-leadership
-      c: 'Wuhan 武漢, the Wuhan Hydro-Electric Institute 武漢水利電力學院, where the rebels have fled. That night Xie Fuzhi 謝富治 and Wang Li 王力, straight from seeing Zhou off at the airport, speak
-        to thousands: the Region''s direction in supporting the left wrong; the Workers'' Headquarters to be rehabilitated; the "three steel," "three new" and the Third Headquarters
-        the left; the Million Heroes conservative. On the 19th the rebels broadcast the "four points" across the city. Whether Wang gave the "four points": Xu Hailiang, present, and
-        the Million Heroes'' heads say he did not; Wang denied it to the Center; Jin Chunming, who heard the tape, found it inflammatory.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 528. Made public: 2010. To check: Xu Hailiang 徐海亮, in *Wenhua dageming: lishi zhenxiang he jiti jiyi* (2010) (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        I, 528 n.26); Ronggen 榮根, 〈武漢「7•20」事件40周年——「百萬雄師」頭頭俞文斌、章迪傑等採訪記〉 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 528 n.25); Zhonggong Wuhan shiwei dangshi bangongshi, *Wuhan "wenhua
-        dageming" shiqi dashiji* 《武漢「文化大革命」時期大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 528 n.27a); Chen Zaidao 陳再道, 〈武漢7·20事件始末〉, in [[w.wenhua-dageming-yanjiu-ziliao]], 515
-        (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 528 n.27b); Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press,
-        Hong Kong, 2008), 533 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 528 n.27c); Jin Chunming 金春明 to Yang Jisheng and Wang Youqin, July 10, 2011 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        I, 528 n.28); Zhang Jiancheng 張建成, *Suiyue liuhen: Wuhan shuidian xueyuan wenge qinliji* 《歲月留痕——武漢水電學院文革親歷記》 (Zhongguo wenhua chuanbo chubanshe 中國文化傳播出版社, 2014), 184 (cited by
-        [[w.yang-jisheng-tiandi-fanfu]], I, 528 n.29). Names: Xie Fuzhi, Zhou Enlai. Check: whether Wang Li gave the "four points" there (I, 528 n.26).'
-      src:
-        c: 4ed3f29c
-        rows:
-        - 'w.yang-jisheng-tiandi-fanfu I, 528: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 528 n.26: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 528 n.28: all'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:xie-fuzhi
       - name:zhou-enlai
 - cite:
     id: cal.1967-07-19.china-leadership-2
@@ -10452,8 +10381,7 @@ ops:
 - cite:
     id: cal.1968.china-leadership-20
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 614 (June 20, 1968: suspected a spy as one come back from Hong Kong in 1957, Rong Guotuan 容國團, 30, writes a last letter, "do not suspect
-      me of being an enemy," and hangs himself from a locust tree; the national team''s coaches Fu Qifang 傅其芳 and Jiang Yongning 姜永寧, also from Hong Kong, hang themselves one after the
-      other)'
+      me of being an enemy," and hangs himself from a locust tree)'
 - to-check:
     id: cal.1968.china-leadership-20
     add: Jin Shan 金汕, 〈容國團之死〉, *Lishi zai zheli chensi*, vol. 6 (1989) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 614 n.80)
@@ -10580,3 +10508,62 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+- cite:
+    id: cal.1967-07-18.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 528 (that night Xie Fuzhi 謝富治 and Wang Li 王力, straight from seeing Zhou off at the airport, speak to thousands of the rebels who have fled
+      there: the Region''s direction in supporting the left wrong; the Workers'' Headquarters to be rehabilitated; the "three steel," "three new" and the Third Headquarters the left;
+      the Million Heroes conservative)'
+- to-check:
+    id: cal.1967-07-18.china-leadership-5
+    add: 'Xu Hailiang 徐海亮, in *Wenhua dageming: lishi zhenxiang he jiti jiyi* (2010) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 528 n.26)'
+- to-check:
+    id: cal.1967-07-18.china-leadership-5
+    add: Ronggen 榮根, 〈武漢「7•20」事件40周年——「百萬雄師」頭頭俞文斌、章迪傑等採訪記〉 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 528 n.25)
+- to-check:
+    id: cal.1967-07-18.china-leadership-5
+    add: Zhonggong Wuhan shiwei dangshi bangongshi, *Wuhan "wenhua dageming" shiqi dashiji* 《武漢「文化大革命」時期大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 528 n.27a)
+- to-check:
+    id: cal.1967-07-18.china-leadership-5
+    add: Chen Zaidao 陳再道, 〈武漢7·20事件始末〉, in [[w.wenhua-dageming-yanjiu-ziliao]], 515 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 528 n.27b)
+- to-check:
+    id: cal.1967-07-18.china-leadership-5
+    add: 'Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 533 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 528 n.27c)'
+- to-check:
+    id: cal.1967-07-18.china-leadership-5
+    add: Jin Chunming 金春明 to Yang Jisheng and Wang Youqin, July 10, 2011 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 528 n.28)
+- to-check:
+    id: cal.1967-07-18.china-leadership-5
+    add: 'Zhang Jiancheng 張建成, *Suiyue liuhen: Wuhan shuidian xueyuan wenge qinliji* 《歲月留痕——武漢水電學院文革親歷記》 (Zhongguo wenhua chuanbo chubanshe 中國文化傳播出版社, 2014), 184 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 528 n.29)'
+- check:
+    id: cal.1967-07-18.china-leadership-5
+    text: 'Check: whether Wang Li gave the "four points" at the Institute: Xu Hailiang, present, and the Million Heroes'' heads say he did not; Wang denied it to the Center; Jin Chunming,
+      who heard the tape, found the talk inflammatory (I, 528 n.26, n.28).'
+- src:
+    id: cal.1967-07-18.china-leadership-5
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 528 n.26: ?'
+    - 'via w.yang-jisheng-tiandi-fanfu I, 528 n.28: ?'
+- cite:
+    id: cal.1967-07-18.china-leadership-6
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 528 (on the 19th the rebels broadcast the "four points" across the city; posters against Wang Li fill the streets)'
+- cite:
+    id: cal.1968-07-25.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 512 (from 1:05 to 6:15 a.m.; every speaker condemns the "4·22" and none of its delegates may answer; Kang: "you shout revolution, and in
+      fact you are counter-revolution!"; Zhou on Wei Guoqing, the Center''s trusted head of the preparatory group)'
+- to-check:
+    id: cal.1968-07-25.china-leadership-4
+    add: the Central leaders' instructions on receiving the Guangxi factions, July 25, 1968, in Song Yongyi 宋永毅, ed., *Zhongguo wenhua dageming wenku* 《中國文化大革命文庫》 (2006) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      I, 512 n.53)
+- src:
+    id: cal.1968-07-25.china-leadership-4
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 512 n.53: ?'
+- cite:
+    id: cal.1967-09.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 435 (Sept. 23, at the Center''s liaison meeting, Zhou announcing it: the army''s four-man group of July 17 made the Administrative Group
+      軍委辦事組, Yang Chengwu 楊成武, Wu Faxian 吳法憲, Ye Qun 葉群, Qiu Huizuo 邱會作, Zhang Xiuchuan 張秀川)'
+- cite:
+    id: cal.1968-08-14.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 458 (in Yang''s list of the committees'' founding days, Fujian 福建 founded Aug. 14, Han Xianchu 韓先楚 its chairman)'
