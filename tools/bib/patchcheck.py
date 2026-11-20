@@ -35,6 +35,10 @@ STYLE
     place hits name a subject, not the scene), the place findings the first few and their count (`./bib fields
     --patch P` lists them all). Tags `ok:fields-time`, `ok:fields-at`, `ok:fields-place` silence each. Not on cites
     or edits.
+11. `place:` set by an `add` or an `edit` (`set: {place: ...}`), as the dry run leaves the entry, held to check's
+    [place] (places.entry_problems): every key in the gazetteer, sources/places.yaml, or added by the patch's own
+    `place-key` ops (places.PENDING); a single key or a list of at most two. The `place` additive op holds its own
+    (addops.place).
 """
 import collections
 import os
@@ -165,6 +169,8 @@ def check(series, path, legacy=False):
             hit = series.get(eid)
             if hit:
                 out |= {(eid, lvl, msg) for lvl, msg, _ in chk.entry_problems(series, *hit) if lvl == chk.ERROR}
+                if lst is not None and hit[0] is lst:      # STYLE 11: the place keys an add or an edit sets
+                    out |= {(eid, chk.ERROR, f"{m} [place]") for m in places.entry_problems(hit[2])}
         return out
     before = {(i, m) for i, m in claims.problems(series)[0]}
     wbefore = set(witnesses.problems(series)[0])
