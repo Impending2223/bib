@@ -1230,6 +1230,15 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 224: all'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong]
+  - id: cal.1969-10-25.vietnam-hanoi
+    when: Oct. 25
+    date: '1969-10-25'
+    place: plain-of-jars
+    thread: vietnam-hanoi
+    also: [laos]
+    c: 'Laos. Vietnamese and Lao forces open Campaign 139, the counteroffensive for the Plain of Jars and Xieng Khouang, Vang Pao''s Kou Kiet having taken the plain by September: its first phase, to build up the position, through the rains and the bombing. On the Vietnamese side the 312th and 316th Divisions, two battalions of the 866th Regiment, the 16th Artillery and the 45th Engineer Regiments, a tank company and the 20th, 25A and 25B Sapper Battalions; on the Lao, ten infantry battalions and others. Vũ Lập commander, Huỳnh Đắc Hương political commissar. The campaign runs to Apr. 25, 1970: 6,668 of the enemy put out of action and the plain retaken, by its count.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 241–46. Names: Vang Pao, Vũ Lập, Huỳnh Đắc Hương.'
+    tags: [polity:drv, polity:laos, polity:pathet-lao, place:plain-of-jars, place:xieng-khouang, name:vang-pao]
   - id: cal.1969-10-26.china-leadership
     when: Oct. 26
     date: '1969-10-26'
@@ -1289,6 +1298,21 @@ entries:
     c: Zhou Enlai attends the Politburo meeting and hears the report on Sichuan's problem.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 324–325 (Oct. 29, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-10-29.vietnam-hanoi
+    when: Oct. 29
+    date: '1969-10-29'
+    place: ka-te
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Quảng Đức. At dawn the Central Highlands Front''s artillery opens the Bu Prăng–Đức Lập campaign on Ka Te, Hill 936, the 66th Regiment closing round it. Its object the defense line of more than 80 kilometers along Route 14 by the Cambodian border: 11 battalions, three of the American 4th Division and eight of the Saigon 23d Division''s 45th and 53d Regiments. The Front''s force the 66th and 28th Infantry Regiments, the 20th and 37th Sapper Battalions, the 394th Infantry Battalion, the 40th Artillery Regiment and the forces of Region 10 and Quảng Đức. Ka Te taken Nov. 2, Bu Prăng Nov. 30; the campaign ends Dec. 5.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 149–52. The history adds (VI, 152 and n. 1): Task Forces 220 and 53 and a mixed infantry and ranger task force put out of action, 103 aircraft (mostly helicopters), 87 vehicles (24 armored), 29 guns and mortars and 35 depots destroyed or damaged, by its count. To check: Viện Lịch sử quân sự Việt Nam, *Tóm tắt các chiến dịch trong kháng chiến chống Mỹ, cứu nước (1954–1975)* (Quân đội nhân dân, 2001), 256 (cited by [[w.lich-su-khang-chien-chong-my]], VI, 152 n.).'
+    tags: [polity:drv, province:quang-duc]
+    time_range:
+      - 1969-10-28T21:00Z
+      - 1969-10-29T00:00Z
+    time_band: early morning
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1969-10-30.vietnam-hanoi
     when: Oct. 30
     date: '1969-10-30'
@@ -1414,3 +1438,12 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1950: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1969-10.vietnam-hanoi
+    when: Oct., late
+    date: 1969-10
+    at: before 1969-10-21
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'The Liberation forces open the winter–spring offensive of 1969–70: to strike hard and draw the enemy out, destroy part of his forces, loosen the defenses around Saigon, help the guerrillas against pacification and push the cities'' struggle. In eastern Nam Bộ the 5th, 7th and 9th Divisions, with the 320th Regiment from the Highlands: blows northeast and southwest of Saigon, to draw the enemy out to Bình Long and Tây Ninh.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 137–38.'
+    tags: [polity:drv, place:saigon, province:binh-long, province:tay-ninh, ok:fields-place]

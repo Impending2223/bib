@@ -61,6 +61,13 @@ entries:
     c: 'Zhou Enlai, on the briefing "On certain policy limits in the Foreign Ministry''s deep digging of ''May 16''", writes: the Foreign Ministry''s great-alliance committee, military representatives and Party committee are to be told to guard against enlarging the "May 16" case and to forbid forced confession, to investigate, to value witnesses, material evidence and corroboration and not trust confessions lightly; so great a revolution cannot be without bad people and counterrevolutionaries sowing discord, vigilance is needed but also care not to fall into their schemes.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 301 (July 2, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-07-02.vietnam-hanoi
+    when: July 2
+    date: '1969-07-02'
+    thread: vietnam-hanoi
+    c: The Defense Ministry founds the Vietnam Institute of Military Science, directly under the ministry.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 197. Made public: 2013.'
+    tags: [polity:drv, vis:only:drv]
   - id: cal.1969-07-03.soviet-union-leadership
     when: July 3–5
     date: '1969-07-03'
@@ -161,6 +168,13 @@ entries:
     c: Zhou Enlai meets Trường Chinh, chairman of the Standing Committee of the DRV's National Assembly.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 302 (July 7, 1969). Made public: 2020. Names: Zhou Enlai, Trường Chinh.'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:truong-chinh, vis:only:prc+drv]
+  - id: cal.1969-07-07.vietnam-force-levels
+    when: July 7
+    date: '1969-07-07'
+    thread: vietnam-force-levels
+    c: A battalion of the American 9th Infantry Division, the first unit to leave, withdraws from Vietnam.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 44.'
+    tags: [polity:us]
   - id: cal.1969-07-08.china-leadership
     when: July 8
     date: '1969-07-08'
@@ -215,6 +229,14 @@ entries:
         - 'via x.1969-07-11.four-marshals-second-report-to-zhou-enlai: all'
         - 'w.mao-zedong-zhuan VI, ch. 78: ?'
     tags: [polity:prc, name:chen-yi, name:xu-xiangqian, name:nie-rongzhen, name:ye-jianying, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-07-11.vietnam-paris
+    when: July 11
+    date: '1969-07-11'
+    thread: vietnam-paris
+    also: [vietnam-hanoi]
+    c: 'Thiệu''s six-point message: American withdrawal on conditions, mutual withdrawal of the two sides from the South, and the Saigon government kept as it is.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 225. See [[cal.1969-05-08.vietnam-hanoi-2]]. Names: Thiệu. Check: the points and the day; the history gives only the date and the three conditions.'
+    tags: [polity:rvn, name:nguyen-van-thieu, ok:fields-place]
   - id: cal.1969-07-12.china-leadership
     when: July 12
     date: '1969-07-12'
@@ -450,7 +472,12 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam]
     c: 'COSVN''s ninth conference, early in July, under the Politburo''s resolution: more than a year of the general offensive and uprising, a new situation. The enemy''s strategy and the tasks ahead; military attack and the building of the armed forces; mass work, the political struggle in town and country, troop proselytizing; the revolutionary government strengthened, security against the enemy''s espionage.'
-    n: '*Nghị quyết Hội nghị trung ương cục lần thứ chín, tháng 7 năm 1969* (the appendix). [[w.van-kien-dang-toan]], XXX, appendix (the copy''s pages unnumbered; a passage perhaps lost, by the editors'' note, which they place at p. 365). Made public: 2004. See [[cal.1968-10.vietnam-hanoi]]. Check: the conference''s month: "early July 1969" by the resolution, August by COSVN''s resolution of Oct. 5; it extends to June 1970 the recruiting drive of the "Hồ Chí Minh class" just past.'
+    n: '*Nghị quyết Hội nghị trung ương cục lần thứ chín, tháng 7 năm 1969* (the appendix). [[w.van-kien-dang-toan]], XXX, 365 (the print''s page, by the editors'' own reference to their note on a passage perhaps lost; the copy''s appendix pages unnumbered, the note at its PDF 183); [[w.lich-su-khang-chien-chong-my]], VI, 128–30 (the conference, July 1969, on the Politburo''s resolution "of April 1969"; its findings, the tasks and the directions, military attack first; and, not in `c`, COSVN''s reorganization of the battlefields there: a Military Region 7 of Subregion 4, Biên Hòa, Bà Rịa, Long Khánh and the Rừng Sác special zone; the inner Saigon districts joined again under Nguyễn Văn Linh, the city committee''s secretary; Võ Văn Kiệt secretary of the Region 9 committee, Lê Đức Anh its commander). Made public: 2004. See [[cal.1968-10.vietnam-hanoi]]. Check: the conference''s month: "early July 1969" by the resolution, August by COSVN''s resolution of Oct. 5; it extends to June 1970 the recruiting drive of the "Hồ Chí Minh class" just past.'
+    src:
+      c: 1ff95921
+      rows:
+        - 'w.van-kien-dang-toan XXX, 365: ?'
+        - 'w.lich-su-khang-chien-chong-my VI, 128–30: B-E'
     tags: [polity:drv, polity:us, vis:only:drv]
   - id: cal.1969-07.china-leadership
     when: July, early
@@ -502,11 +529,12 @@ entries:
     thread: vietnam
     also: [china]
     c: 'Guam. Nixon: the United States will avoid new commitments to help with internal security in Asia (the "Guam doctrine").'
-    n: '[[w.macfarquhar-maos-last-revolution]], 320. To check: [[w.mann-about-face]], 23–28 (cited by [[w.macfarquhar-maos-last-revolution]], 321 n.62). Names: Nixon.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 320; [[w.lich-su-khang-chien-chong-my]], VI, 15–16, 29 and n. (the Guam address of July 1969 in three points: the United States to keep its treaty commitments; a nuclear shield against a nuclear power; in other aggression, aid on request, the threatened state to supply the manpower for its own defense; the history names it the Nixon Doctrine and has Laird, Jan. 14, 1970, call Vietnamization its first test). To check: [[w.mann-about-face]], 23–28 (cited by [[w.macfarquhar-maos-last-revolution]], 321 n.62). Names: Nixon.'
     src:
       c: dbdca0d5
       rows:
         - 'w.macfarquhar-maos-last-revolution 320: all'
+        - 'w.lich-su-khang-chien-chong-my VI, 15–16, 29 and n.: B'
     tags: [polity:us, name:nixon-richard-m]
   - id: cal.1969-07-26.china-leadership
     when: July 26
@@ -551,6 +579,13 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XIX, 390: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-07-29.vietnam-hanoi
+    when: July 29
+    date: '1969-07-29'
+    thread: vietnam-hanoi
+    c: The Defense Ministry turns the Technical Department of the General Department of Rear Services into the Institute of Military Technology, under the General Staff.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 197. Made public: 2013. See [[cal.1969-07-02.vietnam-hanoi]].'
+    tags: [polity:drv, vis:only:drv]
   - id: cal.1969-07-30.china-leadership
     when: July 30
     date: '1969-07-30'
@@ -585,3 +620,21 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XIX, 457: all'
         - 'via w.jianguo-yilai-mao-zedong XIX, 457 n.1a: all'
     tags: [polity:prc, name:mao-zedong, name:chen-boda, name:yao-wenyuan, vis:only:prc]
+  - id: cal.1969-07.vietnam-saigon
+    when: July
+    date: 1969-07
+    place: saigon
+    thread: vietnam-saigon
+    also: [vietnam-hanoi]
+    c: Saigon. Thiệu's government makes students take military training in the summer vacation; over 30,000 demonstrate and petition. The police shoot the student Thái Văn Hiền, and a military vehicle runs down Nguyễn Mạnh Hùng. Students strike and meet in Đà Lạt, Huế and Cần Thơ against military training in the schools.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 157–58. Names: Thiệu. Check: the days; the history gives the month for the order and none for the deaths.'
+    tags: [polity:rvn, ok:fields-at, name:nguyen-van-thieu]
+  - id: cal.1969-07-31.laos
+    when: July 31
+    date: '1969-07-31'
+    place: plain-of-jars
+    thread: laos
+    also: [vietnam-hanoi]
+    c: Laos. Under cover of American air and artillery, a mixed force from Sam Thong–Long Tieng and Vang Vieng, Vang Pao's men, the right-wing army and 5,000 Thais, 18 battalions and 52 companies of special forces in all, opens Kou Kiet and drives into the center of the Plain of Jars. The rains have flooded the defenders' works; the advance is fast, with villages burned.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 241–42 and n. 1. Names: Vang Pao. Check: the day of the opening; the history gives "cuối tháng 7-1969" and, for the attack, July 31.'
+    tags: [polity:laos, name:vang-pao, polity:pathet-lao, polity:thailand, ok:fields-place]

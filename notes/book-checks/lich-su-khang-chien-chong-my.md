@@ -280,7 +280,7 @@ The predecessor's 8 in the sample: 1 fault (Oct. 25, Vang Pao untagged), and its
   - Vang Pao (June 23, Oct. 25).
 
   The reader's note that FRUS's list holds only Frank W. Abrams overlooked the calendar's own key.
-- **Tags**: `polity:cambodia` on the Cambodian entries; `polity:drv` on June 28; `ok:fields-place` on mid-Feb. (Washington named as a subject).
+- **Tags**: `polity:cambodia` on the Cambodian entries; `polity:drv` on June 28; `ok:fields-place` on mid-Feb. (Washington named as a subject) and on Dec., Bà Rịa (Long Đất, a key since reader 4's merge, names the company's district).
 - **"To check:"** lines added for the note's sources:
   - Mar. 17 (*Chiến trường Trị–Thiên–Huế*, 172);
   - 1969, the 1st Division (*Lịch sử QĐND Việt Nam*, II, 337);

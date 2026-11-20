@@ -39,12 +39,13 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam]
     c: Hồ Chí Minh dies at 9:47 a.m., National Day, of a heart attack, at 79. The Politburo announces it as Sept. 3, so that the day of his death should not fall on the nation's day of celebration.
-    n: '[[w.van-kien-dang-toan]], XXX, 228–29 n. (the editors'' note, from the Politburo''s notice no. 151-TB/TW of Aug. 19, 1989, on the testament and the day of the death). [[w.jianguo-yilai-mao-zedong]], XIX, 467 n.1 (Sept. 2, 1969; the death in Hanoi and the age only). Made public: 1989. Names: Hồ Chí Minh.'
+    n: '[[w.van-kien-dang-toan]], XXX, 228–29 n. (the editors'' note, from the Politburo''s notice no. 151-TB/TW of Aug. 19, 1989, on the testament and the day of the death). [[w.jianguo-yilai-mao-zedong]], XIX, 467 n.1 (Sept. 2, 1969; the death in Hanoi and the age only); [[w.lich-su-khang-chien-chong-my]], VI, 133–34 (9:47 a.m., Sept. 2, 1969, in Hanoi; not the cause, his age or the day announced). Made public: 1989. Names: Hồ Chí Minh.'
     src:
       c: 6f482366
       rows:
         - 'w.van-kien-dang-toan XXX, 228–29 n.: ?'
         - 'w.jianguo-yilai-mao-zedong XIX, 467 n.1: A'
+        - 'w.lich-su-khang-chien-chong-my VI, 133–34: A'
     tags: [polity:drv, name:ho-chi-minh]
   - id: cal.1969-09-02.china-leadership
     when: Sept. 2
@@ -81,6 +82,15 @@ entries:
       - 1969-09-02T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1969-09-02.vietnam-hanoi-2
+    when: Sept. 2
+    date: '1969-09-02'
+    place: ba-hon
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Bà Hòn, Region 9. Ten Saigon battalions sweep the area; the Region's forces fight it off.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 147. Check: the end of the sweep.'
+    tags: [polity:drv]
   - id: cal.1969-09-03.china-leadership
     when: Sept. 3
     date: '1969-09-03'
@@ -150,6 +160,11 @@ entries:
     c: 'The special communiqué of the Central Committee, the National Assembly''s Standing Committee, the Council of Ministers and the Fatherland Front''s presidium: Hồ Chí Minh dead. A state funeral; seven days of mourning, Sept. 4–10; a solemn memorial; a State Funeral Committee of 26, Lê Duẩn its head, Tôn Đức Thắng, Trường Chinh and Phạm Văn Đồng his deputies.'
     n: '*Thông cáo đặc biệt*, Hanoi, Sept. 4, 1969, from *Nhân Dân*, Sept. 5, 1969, [[w.van-kien-dang-toan]], XXX, 228–31; the committee''s list, from *Nhân Dân*, Sept. 5, 237–39. See [[cal.1969-09-03.vietnam-hanoi]]. Names: Hồ Chí Minh, Lê Duẩn, Tôn Đức Thắng, Trường Chinh, Phạm Văn Đồng.'
     tags: [polity:drv, name:ho-chi-minh, name:le-duan, name:ton-duc-thang, name:truong-chinh, name:pham-van-dong]
+    variants:
+      - unit: A
+        witness: w.lich-su-khang-chien-chong-my
+        reads: the special communiqué the Politburo's, broadcast by the Voice of Vietnam the night of Sept. 3
+        at: VI, 134
   - id: cal.1969-09-04.vietnam-hanoi-2
     when: Sept. 4
     date: '1969-09-04'
@@ -187,6 +202,36 @@ entries:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 313: ?'
         - 'w.zhou-enlai-waijiao-huodong 538: A-B'
     tags: [polity:prc, name:zhou-enlai, name:ho-chi-minh, name:ye-jianying]
+  - id: cal.1969-09-04.vietnam-hanoi-5
+    when: Sept. 4
+    date: '1969-09-04'
+    thread: vietnam-hanoi
+    also: [vietnam-paris]
+    c: 'The Provisional Revolutionary Government, its Advisory Council, the National Liberation Front''s Central Committee and the Alliance of National, Democratic and Peace Forces hold a joint conference on the memorial and mourning for Hồ Chí Minh. It cables the Party''s Central Committee: the South pledges to fight on until the Americans leave and the Saigon regime falls.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 134–35 and n. 1. See [[cal.1969-09-02.vietnam-hanoi]]. To check: the Provisional Revolutionary Government''s cable to the Central Committee of the Vietnam Workers'' Party, Sept. 1969 (cited by [[w.lich-su-khang-chien-chong-my]], VI, 135 n. 1). Names: Hồ Chí Minh.'
+    tags: [polity:drv, name:ho-chi-minh, ok:fields-place]
+  - id: cal.1969-09-04.vietnam-hanoi-3
+    when: Sept. 4
+    date: '1969-09-04'
+    thread: vietnam-hanoi
+    c: The Defense Ministry forms the Technical Department of the Air Defense–Air Force Service.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 197. Made public: 2013. See [[cal.1969-07-29.vietnam-hanoi]].'
+    tags: [polity:drv, vis:only:drv]
+  - id: cal.1969-09-04.vietnam-hanoi-4
+    when: Sept. 4–5
+    date: '1969-09-04'
+    place: hue
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'The night of Sept. 4–5, the autumn offensive''s second high point, from Trị–Thiên to the Mekong Delta: at Huế, the rear base of the American 1st Cavalry Division attacked; in Quảng Nam, the Special Forces base at An Hòa; in Bình Long, from Cây Cay to Chơn Thành, sappers on an American mechanized group, the rear base of the Saigon 9th Regiment and the Chơn Thành subsector, 400 put out of action and 32 vehicles destroyed, by their count. The offensive ends Sept. 15.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 136–37. The history adds (VI, 137): over the phase, tens of thousands out of action, hundreds of aircraft and thousands of vehicles destroyed, 193 vessels sunk or burned, 284 guns destroyed, by its count. See [[cal.1969-08-11.vietnam-hanoi]]. Check: the 1st Cavalry Division had left northern I Corps for III Corps by mid-November 1968 ([[cal.1968-10.vietnam-operations]]); the history''s unit at Huế.'
+    tags: [polity:drv, place:hue, province:quang-nam, province:binh-long]
+    time_range:
+      - 1969-09-04T14:00Z
+      - 1969-09-04T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1969-09-05.china-leadership
     when: Sept. 5
     date: '1969-09-05'
@@ -265,6 +310,23 @@ entries:
     c: 'Zhou Enlai adds to the Center''s instruction on the report of the Tibet revolutionary committee and Tibet Military Region''s delegation to Peking: "overcome bourgeois factionalism, strengthen proletarian Party spirit."'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 314 (Sept. 8, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-09-08.vietnam-hanoi-2
+    when: Sept. 8
+    date: '1969-09-08'
+    thread: vietnam-hanoi
+    also: [vietnam-paris]
+    c: The South's Provisional Revolutionary Government, the Front's Central Committee and the Alliance hold the memorial for Hồ Chí Minh and issue an appeal to the South's army and people to turn grief into strength.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 135. See [[cal.1969-09-08.vietnam-hanoi]]. Names: Hồ Chí Minh.'
+    tags: [polity:drv, name:ho-chi-minh]
+  - id: cal.1969-09-08.vietnam-hanoi
+    when: Sept. 8–10
+    date: '1969-09-08'
+    time: 1969-09-07T16:00Z
+    thread: vietnam-hanoi
+    c: 'The command of the South''s Liberation Armed Forces: a cease-fire across the battlefield for three days, from 0:00 Sept. 8 to 0:00 Sept. 11, for the memorials to Hồ Chí Minh.'
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 135. Names: Hồ Chí Minh. Check: the day of the order; the history gives only the cease-fire''s.'
+    tags: [polity:drv, name:ho-chi-minh]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1969-09-09.vietnam-hanoi
     when: Sept. 9
     date: '1969-09-09'
@@ -449,6 +511,13 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 314: A'
         - 'w.macfarquhar-maos-last-revolution 316: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-09-16.vietnam-force-levels
+    when: Sept. 16
+    date: '1969-09-16'
+    thread: vietnam-force-levels
+    c: Nixon announces a second withdrawal, 35,000 American troops.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 44. Names: Nixon.'
+    tags: [polity:us, name:nixon-richard-m]
   - id: cal.1969-09-17.china-leadership
     when: Sept. 17
     date: '1969-09-17'
@@ -558,6 +627,15 @@ entries:
     c: Zhou Enlai goes to Peking Hospital to see Zhang Shizhao.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 316 (Sept. 19, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-09-19.vietnam-hanoi
+    when: Sept. 19
+    date: '1969-09-19'
+    place: chuong-thien
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: Chương Thiện, Region 9. Nine Saigon battalions and five river combat groups open a sweep; the Region's forces fight it off.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 147. Check: the end of the sweep.'
+    tags: [polity:drv]
   - id: cal.1969-09-22.china-leadership
     when: Sept. 22
     date: '1969-09-22'
@@ -756,6 +834,15 @@ entries:
       - 1969-09-26T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1969-09-26.vietnam-hanoi
+    when: Sept. 26
+    date: '1969-09-26'
+    place: u-minh-thuong
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: U Minh Thượng, Region 9. Saigon opens a sweep with 23 battalions, the long sweeps of Bà Hòn, Chương Thiện and U Minh Thượng aimed at the border, the supply corridor and the Region's preparations for spring 1970. Fifty guerrilla teams, 200 men, ambush river craft on the Ông Đốc; hundreds out of action, dozens of boats sunk or badly hurt, by the history's count.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 147–48. Check: the end of the sweep; the history gives the period only. Elsewhere (VI, 264) the history has the Saigon 21st Division, Marine Brigade B, four Ranger battalions, river groups and air support open the first sweep to take U Minh, "từ tháng 9-1969" (from September 1969), and fail.'
+    tags: [polity:drv]
   - id: cal.1969-09-27.china-leadership
     when: Sept. 27
     date: '1969-09-27'
@@ -934,7 +1021,12 @@ entries:
     place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo''s directive no. 173-CT/TW: a round of political study, "Learn from and follow President Hồ''s Testament." Party members and the people to discuss the testament, the Central Committee''s eulogy and its call; an emulation movement; committees to review their unity, democracy and leadership, members their morals; economic management and the Party''s building strengthened.'
-    n: '*Chỉ thị của Bộ Chính trị số 173-CT/TW, ngày 29 tháng 9 năm 1969, Về đợt sinh hoạt chính trị "Học tập và làm theo Di chúc của Hồ Chủ tịch"*, signed for the Politburo by Trường Chinh. [[w.van-kien-dang-toan]], XXX, 330–36. Made public: 2004. See [[cal.1969-09-09.vietnam-hanoi]]. Names: Hồ Chí Minh.'
+    n: '*Chỉ thị của Bộ Chính trị số 173-CT/TW, ngày 29 tháng 9 năm 1969, Về đợt sinh hoạt chính trị "Học tập và làm theo Di chúc của Hồ Chủ tịch"*, signed for the Politburo by Trường Chinh. [[w.van-kien-dang-toan]], XXX, 330–36; [[w.lich-su-khang-chien-chong-my]], VI, 170, 193 (after Hồ Chí Minh''s death, the Politburo''s directive for a round of political study, to learn from and follow his testament, in the whole Party, people and army; not its number or day). Made public: 2004. See [[cal.1969-09-09.vietnam-hanoi]]. Names: Hồ Chí Minh.'
+    src:
+      c: f7a4fbb1
+      rows:
+        - 'w.van-kien-dang-toan XXX, 330–36: all'
+        - 'w.lich-su-khang-chien-chong-my VI, 170, 193: A'
     tags: [polity:drv, vis:only:drv, name:ho-chi-minh, name:truong-chinh]
   - id: cal.1969-09-29.china-leadership-2
     when: Sept. 29
@@ -1240,3 +1332,20 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 317: all'
     tags: [polity:prc, name:lin-biao, vis:only:prc]
+  - id: cal.1969-09-30.vietnam-force-levels
+    when: Sept. 30
+    date: '1969-09-30'
+    thread: vietnam-force-levels
+    c: Nixon announces an order to withdraw 6,000 American troops from Thailand in October 1970.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 44. Names: Nixon. Check: the date of the withdrawal, the history''s "vào tháng 10-1970" (in October 1970); the history says "Tổng thống Mỹ" (the American President), Nixon from Jan. 20 ([[cal.1969-01-20.transition-and-staff]]).'
+    tags: [polity:us, name:nixon-richard-m]
+  - id: cal.1969-09.laos
+    when: Sept., late
+    date: 1969-09
+    at: before 1969-09-21
+    place: plain-of-jars
+    thread: laos
+    also: [vietnam-hanoi]
+    c: Laos. By September the Americans and their allies hold the Plain of Jars and stand at the gates near the Vietnamese border, Bản Ban and Nong Het. At the end of the month the Vietnamese troops are ordered back to rest and refit, leaving a little over a battalion with the Lao to hold a springboard; the Lao and Vietnamese decide on a counteroffensive, Campaign 139.
+    n: '[[w.lich-su-khang-chien-chong-my]], VI, 242–43. See [[cal.1969-10-25.vietnam-hanoi]]. Check: the days; the history gives the month and "cuối tháng 9-1969".'
+    tags: [polity:laos, polity:pathet-lao]
