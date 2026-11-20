@@ -171,6 +171,16 @@ ops:
     name: Cà Đin
     zone: Asia/Ho_Chi_Minh
     in: rvn
+- place-key:
+    key: vo-tranh
+    name: Vô Tranh
+    zone: Asia/Bangkok
+    in: drv
+- place-key:
+    key: ba-lang-an
+    name: Ba Làng An
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
 - cite:
     id: cal.1966-01-01.vietnam-hanoi
     item: '[[w.lich-su-khang-chien-chong-my]], IV, 100 (the conference of the fighters who have killed Americans opens a movement to capture Americans alive; the prisoner''s rope handed to the 3d Division''s representative)'
@@ -3257,3 +3267,151 @@ ops:
       - polity:drv
       - polity:us
       - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-07-19.vietnam-hanoi
+      when: July 19
+      date: '1966-07-19'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      c: Cầu Giẽ, Vạn Điểm and the Đông Anh oil depot, around Hanoi. Several flights of American aircraft attack; the missile, antiaircraft and air units act together and shoot down some. Battalion 61 of Missile Regiment 236 is named the first unit to bring an American aircraft down on its own ground and is given the flag "Follow Uncle Hồ's word, resolve to defeat the American aggressors."
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 398.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: hanoi
+- add:
+    entry:
+      id: cal.1966-07-20.vietnam-hanoi-2
+      when: July 20
+      date: '1966-07-20'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      c: Vô Tranh. Missile Battalion 72 of Regiment 285, in position there, shoots down an EB-66 electronic reconnaissance aircraft on the spot.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 398. Check: the province; the history gives none.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: vo-tranh
+- add:
+    entry:
+      id: cal.1967-03-20.vietnam-hanoi-3
+      when: Mar. 20
+      date: '1967-03-20'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Cường Gián sands and Đông Hà. That night Battalion 4 of Regiment 84 crosses the Bến Hải, marches 20 kilometers, assembles on the Cường Gián sands and fires hundreds of H12 rockets into the American Marines' area at Đông Hà. The same night the artillery on the south bank fires hard on Tân Lâm, Cam Lộ and Cửa Việt to keep them from reinforcing Dốc Miếu. The history calls it the first formal fighting by the North's armed forces in the South.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 405–406. See [[cal.1967-03-20.vietnam-operations-2]]. The history says "the night of Mar. 20". Check: the clock, whose it is; "Cường Gián" as printed.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: dong-ha
+      time_range:
+      - 1967-03-20T14:00Z
+      - 1967-03-20T16:00Z
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+- add:
+    entry:
+      id: cal.1967-03-21.vietnam-hanoi
+      when: Mar. 21
+      date: '1967-03-21'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Dốc Miếu. At dawn the artillery goes on shelling hard the convoy of trucks loaded with troops coming to relieve the base. By the history's count the fight of Mar. 20 and 21 puts hundreds of Americans out of action and wrecks the base's tunnels and works; the Saigon police group south of the Bến Hải is afraid to act afterward.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 405–406. See [[cal.1967-03-20.vietnam-hanoi-3]]. The history says "the dawn of Mar. 21". Check: the clock, whose it is. The figures are the history''s.'
+      tags:
+      - polity:drv
+      - polity:us
+      - polity:rvn
+      - ok:fields-place
+      time_range:
+      - 1967-03-20T16:00Z
+      - 1967-03-20T22:00Z
+      time_band: predawn
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+- add:
+    entry:
+      id: cal.1967-10-14.vietnam-hanoi
+      when: Oct. 14
+      date: '1967-10-14'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      c: Hoàng Trường commune, Hoàng Hóa, Thanh Hóa. The commune's platoon of elderly militia shoots down an American aircraft with infantry weapons; Oct. 24 it shoots down a second.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 416. Check: which aircraft each day; the history says "two aircraft in the two days, Oct. 14 and 24".'
+      tags:
+      - polity:drv
+      - polity:us
+      place: thanh-hoa
+- add:
+    entry:
+      id: cal.1967-10-24.vietnam-hanoi
+      when: Oct. 24
+      date: '1967-10-24'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-air-war
+      c: Hoàng Trường commune, Hoàng Hóa, Thanh Hóa. The platoon of elderly militia shoots down its second American aircraft with infantry weapons.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 416. See [[cal.1967-10-14.vietnam-hanoi]].'
+      tags:
+      - polity:drv
+      - polity:us
+      place: thanh-hoa
+- add:
+    entry:
+      id: cal.1967-11-04.vietnam-hanoi
+      when: Nov. 4
+      date: '1967-11-04'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Ngọc Bờ Biêng, Đắk Tô. After bombing with fire, crater and chemical bombs, at 8 a.m. the Americans attack the saddle-back post held by Squad 7, Company 11, Battalion 6 of Tây Ninh, eight times in the day; the squad beats them off and by the history's count kills 120. The American 4th Division, in the Mac Arthur operation in the southern Highlands, and the 173d Brigade, sweeping Phú Yên, are airlifted to Đắk Tô.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 23. See [[cal.1967-11-03.vietnam]]. Check: the clock, whose it is. The figures are the history''s.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: dak-to
+      time: 1967-11-04T00:00Z
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1967-11-05.vietnam-hanoi
+      when: Nov. 5
+      date: '1967-11-05'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Ngọc Tang, Đắk Tô. An American company surprises and takes the campaign's second post, held by Company 11; the defenders fight hand to hand, kill 70 by the history's count and retake it. Nguyễn Tấn, a new recruit in his first fight, fires his last round at the nearest American and dies.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 23. See [[cal.1967-11-04.vietnam-hanoi]]. The figures are the history''s.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: dak-to
+- add:
+    entry:
+      id: cal.1967-06-14.vietnam-hanoi
+      when: June 14
+      date: '1967-06-14'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Off Ba Làng An, Quảng Ngãi. Ship 198, sailed Jun. 6, meets the enemy that night six nautical miles off the landing; she fires back and drives for the beach. The crew fights on, destroys the ship and goes ashore; the political officer Huỳnh Ngọc Trạch and the deputy captain Phạm Chuyên Nghiệp are killed.
+      n: '[[w.lich-su-khang-chien-chong-my]], V, 50. See [[cal.1967-06-06.vietnam-hanoi]]. The history says "the night of Jun. 14". Check: the clock, whose it is.'
+      tags:
+      - polity:drv
+      - polity:us
+      - polity:rvn
+      place: ba-lang-an
+      time_range:
+      - 1967-06-14T14:00Z
+      - 1967-06-14T16:00Z
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
