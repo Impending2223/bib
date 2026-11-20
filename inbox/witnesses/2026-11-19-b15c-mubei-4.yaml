@@ -918,18 +918,6 @@
   form: original
   open: not held
   read: false
-- id: x.1961-04-10.hu-qiaomu-report-on-solving-mess-hall-problem-shaoshan-commune
-  what: Hu Qiaomu 胡喬木 and others, "Guanyu zai Shaoshan gongshe jiejue shitang wenti de baogao" 《關於在韶山公社解決食堂問題的報告》, Apr. 10, 1961
-  kind: report
-  date: '1961-04-10'
-  agent:
-  - Hu Qiaomu
-  - Central investigation group
-  where: cited by Mubei (2016 ed.), I, 742 n.9, 761 n.47–48; the calendar holds a copy as an enclosure of Hu's letter of Apr. 14 (x.1961-04.shaoshan-commune-report-on-solving-the-mess-hall-problem); not held here
-  made: contemporaneous
-  form: original
-  open: not held
-  read: false
 - id: x.1959-09.central-general-office-document-mess-hall-labor-days
   what: Central Committee General Office 中共中央辦公廳, document of Sept. 1959 (the number not recorded), Shandong Provincial Archives
   kind: file
@@ -1038,7 +1026,7 @@
   form: account
   open: none known
   read: false
-- id: x.1962-01-06.zhongfa-62-10-construction-ministry-party-group-report-halted-projects
+- id: x.1962-01-06.zhongfa-62-110-construction-ministry-party-group-report-halted-projects
   what: The Center forwards the Ministry of Construction Engineering party group's 建築工程部黨組 investigation report on the problems in halted and slowed building projects, "Pizhuan Jianzhu gongchengbu dangzu guanyu tingjian huanjian gongcheng zhong cunzai wenti de diaocha baogao" 《批轉建築工程部黨組關於停建緩建工程中存在問題的調查報告》, Jan. 6, 1962, Zhongfa [62] 10
   kind: file
   date: '1962-01-06'
@@ -1168,17 +1156,6 @@
   agent:
   - Dianjiang county gazetteer
   where: cited by Mubei (2016 ed.), I, 1044 n.28; not held
-  made: later
-  form: study
-  open: not held
-  read: false
-- id: x.1998.jilin-sheng-zhi-vol-12-gongan-silufa-zhi
-  what: 'Jilin sheng zhi, vol. 12: Gong''an silu fazhi zhi, Gong''an zhi 《吉林省志》卷12《公安司法志·公安志》 (Changchun: Jilin renmin chubanshe, 1998), p. 170'
-  kind: study
-  date: '1998'
-  agent:
-  - Jilin provincial gazetteer
-  where: cited by Mubei (2016 ed.), I, 1044 n.29; not held
   made: later
   form: study
   open: not held
@@ -1459,6 +1436,8 @@
   form: print
   open: not held
   read: false
+  part_of: w.weiyuanhui-deng-zihui-wenji-collected
+  pin: '544'
 - id: x.1961-01-31.zhongfa-center-forwards-hubei-report-tonghaikou-second-stage-rectification
   what: The Center forwards the Hubei Provincial Committee's report on the second stage of rectification at Tonghaikou 通海口 commune, Mianyang 沔陽 county, "Zhongyang pizhuan Hubei shengwei guanyu Mianyang Tonghaikou gongshe zhengfeng zhengshe dier jieduan zongjie baogao" 《中央批轉湖北省委關於沔陽通海口公社整風整社第二階段總結報告》, Jan. 31, 1961
   kind: file
@@ -1515,3 +1494,13 @@
   form: original
   open: not held
   read: false
+- amend: x.1961-04.shaoshan-commune-report-on-solving-the-mess-hall-problem
+  set:
+    date: '1961-04-10'
+  why: 'Mubei (I, 742 n.9; I, 761 n.47) gives the report as Hu Qiaomu''s and others'', Apr. 10, 1961; run 4''s own row for it (x.1961-04-10.hu-qiaomu-report-on-solving-mess-hall-problem-shaoshan-commune) dropped by the audit as the same record, its edges moved here'
+- amend: x.2010.xiao-gan-wo-suo-zhidao-de-teshu-anjian-2010
+  set:
+    what: 'Xiao Lei 蕭磊, "Wo suo zhidao de ''teshu anjian''" 《我所知道的「特殊案件」》, *Yanhuang chunqiu* 2010 no. 7'
+    agent:
+    - Xiao Lei
+  why: the page image of I, 455 reads 蕭磊 in the text and in n.28; 蕭甘 was the OCR's (audit of run 4)
