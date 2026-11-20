@@ -39,10 +39,11 @@ STYLE
     [place] (places.entry_problems): every key in the gazetteer, sources/places.yaml, or added by the patch's own
     `place-key` ops (places.PENDING); a single key or a list of at most two. The `place` additive op holds its own
     (addops.place).
-12. The day's order (dayorder.problems, check's day rules) on the entries the patch touches, as the dry run leaves
-    them: a `follows` naming nothing, itself, or an entry of another day (an exact day: two month- or year-dated
-    entries cannot follow one another), a time before the one it follows, a cycle. An error the tree already had is
-    not the patch's.
+12. The day's order (dayorder.problems, check's day rules) on the calendar as the dry run leaves it: a `follows` naming
+    nothing, itself, or an entry of another day (an exact day: two month- or year-dated entries cannot follow one
+    another), a time before the one it follows, a cycle. Held on the whole calendar, not the touched ids: a cycle is
+    reported on whichever end the search meets last, and an entry following one the patch moves or deletes is not
+    the patch's. An error the tree already had is not the patch's.
 """
 import collections
 import os
@@ -180,10 +181,8 @@ def check(series, path, legacy=False):
     wbefore = set(witnesses.problems(series)[0])
     ebefore = entry_errs()
 
-    def day_errs():                                       # STYLE 12
-        from . import dayorder
-        return {(w, m) for w, m in dayorder.problems(series) if w in touched}
-    dbefore = day_errs()
+    from . import dayorder                                # STYLE 12: on the whole calendar (a cycle's other end; the
+    dbefore = set(dayorder.problems(series))              # follower of an entry the patch moves or deletes)
     rep = merge.Report()
     merge.apply_patch(series, d, name, rep, dry=True)
     addops.join_clean(series, name, save=False)          # as the rolling merge will join them
@@ -198,7 +197,7 @@ def check(series, path, legacy=False):
             warnings.append(f"{eid}: {what or 'a conflict'} at the merge (./bib resolve {eid} --take ...; keep, for a duplicate that is distinct)")
         else:
             errors.append(f"{eid}: {msg}")
-    errors += [f"{w}: {m} [day-order]" for w, m in sorted(day_errs() - dbefore)]
+    errors += [f"{w}: {m} [day-order]" for w, m in sorted(set(dayorder.problems(series)) - dbefore)]
     for l in rep.lines:
         if l.startswith("error"):
             msg = l.split(None, 1)[1]
