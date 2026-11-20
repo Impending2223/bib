@@ -191,10 +191,10 @@ ops:
       thread: china-leadership
       also:
       - china
-      c: 'A Gansu report on the custody and deportation station at Tianshui: one guard in eight says he has raped a woman, and all beat the villagers they hold. Escapees are sent to a "school" for a beating; three inmates are sent there for a day over guard Li Guocang''s noodles.'
+      c: 'A Gansu report on the custody and deportation station at Tianshui: one guard in eight says he has raped a woman, and all beat the villagers they hold. A "school" is set up to reform the escapees; three inmates are sent there and beaten for a whole day for not preparing guard Li Guocang''s noodles properly.'
       n: '[[w.dikotter-maos-great-famine]], 237–238. Made public: 2010. To check: Gansu Provincial Archives, Aug. 31, 1960, 91-9-58, pp. 32–7 (cited by [[w.dikotter-maos-great-famine]], 238 n.34). Check: the day.'
       src:
-        c: bfd28c09
+        c: 04d4e953
         rows:
         - 'w.dikotter-maos-great-famine 237, 238: all'
         - 'via w.dikotter-maos-great-famine 238 n.34: all'
@@ -828,6 +828,61 @@ ops:
       - polity:prc
       - ok:fields-place
       - ok:fields-time
+- add:
+    entry:
+      id: cal.1962-09-08.china-leadership-9
+      when: Sept. 8
+      date: '1962-09-08'
+      thread: china-leadership
+      also:
+      - china
+      c: 'The Peking Water Conservancy Bureau, taking stock of the Great Leap Forward''s effect on the irrigation system, singles out Tongzhou: the irrigation works hastily built in 1957–58 upset the natural water system, so that the rains of 1959 had nowhere to go.'
+      n: '[[w.dikotter-maos-great-famine]], 179 n.36. Made public: 2010. To check: Beijing Municipal Archives, Sept. 8, 1962, 96-2-22, pp. 15–18 (cited by [[w.dikotter-maos-great-famine]], 179 n.36). Check: the day.'
+      src:
+        c: 67def743
+        rows:
+        - 'w.dikotter-maos-great-famine 179: all'
+        - 'via w.dikotter-maos-great-famine 179 n.36: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960.china-leadership-42
+      when: 1960, late
+      date: '1960'
+      thread: china-leadership
+      place: peking
+      also:
+      - china
+      c: In Peking an automobile factory spends more than 6,000 yuan on eight visits to top hotels to entertain visitors.
+      n: '[[w.dikotter-maos-great-famine]], 193 n.8. Made public: 2010. To check: Neibu cankao, Nov. 25, 1960, pp. 11–12 (cited by [[w.dikotter-maos-great-famine]], 193 n.8). Check: the day.'
+      src:
+        c: af1c39b9
+        rows:
+        - 'w.dikotter-maos-great-famine 193: all'
+        - 'via w.dikotter-maos-great-famine 193 n.8: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-12.china-leadership-20
+      when: Dec.
+      date: 1960-12
+      thread: china-leadership
+      also:
+      - china
+      c: In Jiangjin and Jiangbei counties, Sichuan, up to 250 people die each day.
+      n: '[[w.dikotter-maos-great-famine]], 327 n.12. Made public: 2010. To check: Sichuan Provincial Archives, Oct. 1961, JC1-2418, p. 106 (cited by [[w.dikotter-maos-great-famine]], 327 n.12). Check: the days.'
+      src:
+        c: dc6aa709
+        rows:
+        - 'w.dikotter-maos-great-famine 327: all'
+        - 'via w.dikotter-maos-great-famine 327 n.12: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
 - cite:
     id: cal.1960-12-17.china-leadership-8
     item: '[[w.dikotter-maos-great-famine]], 327 n.14 (Liu Zihou reports to Mao 4,700 "abnormal deaths" for all of Hebei in 1960, though his own inspectors had found some 18,000 dead of hunger in one county since 1958)'
@@ -936,3 +991,22 @@ ops:
 - to-check:
     id: cal.1962-05.china
     add: Hong Kong Standard, May 11, 1962 (cited by [[w.dikotter-maos-great-famine]], 240 n.54).
+- edit:
+    id: cal.1960-05.china-leadership-15
+    base: 887f0126
+    set:
+      n: '[[w.dikotter-maos-great-famine]], 237 n.33. Made public: 2010. To check: Neibu cankao (Internal Reference), May 1, 1960, p. 30, the Ministry of the Interior''s report on the custody and deportation stations of Shandong (cited by [[w.dikotter-maos-great-famine]], 237 n.33). Check: the day.'
+      src:
+        c: 6cbfc2f0
+        rows:
+        - 'w.dikotter-maos-great-famine 237: all'
+        - 'via w.dikotter-maos-great-famine 237 n.33: all'
+- cite:
+    id: cal.1964-02-10.soviet-union-leadership
+    item: '[[w.dikotter-maos-great-famine]], 106 n.16 (in 1964 Suslov notes that China blames the Soviet Union for the famine)'
+- to-check:
+    id: cal.1964-02-10.soviet-union-leadership
+    add: RGANI, Moscow, Feb. 14, 1964, 2-1-720, p. 75 (cited by [[w.dikotter-maos-great-famine]], 106 n.16).
+- check:
+    id: cal.1964-02-10.soviet-union-leadership
+    text: 'Check: whether Suslov''s remark ([[w.dikotter-maos-great-famine]], 106; the file of Feb. 14, 1964) is his report to the plenum.'
