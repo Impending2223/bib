@@ -10,6 +10,15 @@ ops:
       - 1966-06-18T03:00Z
       time_band: morning
       time_zone: Asia/Shanghai
+- edit:
+    id: cal.1966-12-28.china-leadership-4
+    base: 4004a748
+    set:
+      time_range:
+      - 1966-12-28T14:00Z
+      - 1966-12-28T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
 - add:
     entry:
       id: cal.1966-06-08.china-leadership-6
@@ -79,7 +88,7 @@ ops:
       place: peking
       thread: china-leadership
       c: Wang Guangmei 王光美 joins the Tsinghua University 清華大學 work group, Peking, as its adviser 顧問.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 194. Made public: 2016. See [[cal.1966-06-19.china-leadership]].'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 194. Made public: 2016. See [[cal.1966-06-19.china-leadership-5]].'
       src:
         c: ac19506f
         rows:
@@ -139,7 +148,8 @@ ops:
       place: peking
       thread: china-leadership
       c: Tsinghua University 清華大學, Peking. The work group confines Kuai Dafu 蒯大富 and deprives him of the right to post big-character posters. Criticism meetings follow, led by the group.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 194–195. Made public: 2016.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 194–195. Made public: 2016. Check: the day: Yang dates Kuai''s loss of liberty July 4 (I, 194–195), but quotes his statement of June 28
+        and letter of June 29 as written after it (I, 195 n.13–14).'
       src:
         c: 30fff975
         rows:
@@ -327,7 +337,7 @@ ops:
         and snake-spirits come out to attack, there is no haste to strike back: tell the left to stand firm, and the leaders must judge the heat; when most are exposed, organize the
         counterattack in time. Anti-Party, antisocialist middle-school and college students must be pulled out; among graduating senior-middle students some may, with the city committee''s
         approval, be criticized, struggled against and capped. The Central-South report says to catch 1 percent rightists among students.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 200–201. Made public: 1967. To check: Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 200–201. Made public: 2008. To check: Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese
         University Press, Hong Kong, 2008), 165 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 200 n.29). Names: Liu Shaoqi.'
       src:
         c: 13161fed
@@ -387,7 +397,7 @@ ops:
       c: 'Wang Renzhong 王任重 at the Hubei committee 湖北省委 meeting: since bourgeois intellectuals rule culture and education, the cultural revolution is to be aimed at intellectuals, and
         one result will be to find 5 to 10 percent of them anti-Party, antisocialist and anti-Mao Zedong Thought, as new rightists.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 201. Made public: 2005. To check: Xu Hailiang 徐海亮, *Donghu fengyun lu: Wuhan qunzhong de wenge jiyi* 《東湖風云錄——武漢群眾的文革記憶》 (Yinhe chubanshe
-        銀河出版社, 2005), 7 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 201 n.31). Names: Mao Zedong.'
+        銀河出版社, 2005), 7 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 201 n.31).'
       src:
         c: '41118921'
         rows:
@@ -396,7 +406,6 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
-      - name:mao-zedong
 - add:
     entry:
       id: cal.1966-05-09.china-leadership-6
@@ -563,9 +572,10 @@ ops:
 - cite:
     id: cal.1966-06-20.china-leadership-5
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 202 (June 19 Liu Shaoqi 劉少奇 forwards the bulletin in the Center''s name with the comment that the Center thinks the work group''s way of
-      handling the disorder is correct and timely, and that any unit where such a thing occurs may follow Peking University''s way; the bulletin is issued on the 20th; the work groups
-      then press the students harder, and in the few days about June 20 thirty-nine Peking colleges see students against the work groups and the groups against the masses; Mao, hearing
-      the work group had fixed the incident as counter-revolutionary, says the June 18 incident was a revolutionary one (undated))'
+      handling the disorder is correct and timely, and that any unit where such a thing occurs may follow Peking University''s way; the bulletin is issued on the 20th)'
+- cite:
+    id: cal.1966-06-20.china-leadership-7
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 202 (in the few days about June 20, 39 Peking colleges see students against the work groups and the groups suppressing the masses)'
 - variant:
     id: cal.1966-06-20.china-leadership-5
     unit: A
@@ -644,13 +654,11 @@ ops:
       thread: china-leadership
       c: The Youth League's Central Committee 團中央 sends the first of its work groups for middle schools into the middle school for girls attached to Peking Normal University 北京師范大學女附中,
         Peking.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 204. Made public: 1967. To check: Deng Rong 鄧榕, 〈對鄧小平的揭發〉, in Xin Beida gongshe 02621 zhidui 新北大公社02621支隊, ed., *Che di qingsuan Deng Xiaoping
-        zai wuchanjieji wenhua dageming zhong de tiantao zuixing* 《徹底清算鄧小平在無產階級文化大革命中的滔天罪行》, Apr. 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 204 n.43).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 204. Made public: 2016.'
       src:
         c: 9e0c88e2
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 204: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 204 n.43: all'
       tags:
       - polity:prc
       - vis:only:prc
@@ -664,7 +672,7 @@ ops:
         agree, of course you obey; if later they differ, you obey all the same. Deng Rong says so in her exposure of him in April 1967.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 204. Made public: 1967. To check: Deng Rong 鄧榕, 〈對鄧小平的揭發〉, in Xin Beida gongshe 02621 zhidui 新北大公社02621支隊, ed., *Che di qingsuan Deng Xiaoping
         zai wuchanjieji wenhua dageming zhong de tiantao zuixing* 《徹底清算鄧小平在無產階級文化大革命中的滔天罪行》, Apr. 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 204 n.43). See [[cal.1966-06-04.china-leadership-4]].
-        Names: Deng Xiaoping.'
+        Names: Deng Xiaoping. Check: only the Red Guard exposures of 1967 give it; Yang (I, 205) leaves Deng''s talks on the school unsettled until the archives open.'
       src:
         c: bd1fe4a9
         rows:
@@ -704,7 +712,8 @@ ops:
       c: 'Deng Xiaoping 鄧小平, asked by his daughter Deng Rong 鄧榕 on her return home whether it is right to oppose the work group, says that opposing the work group is wrong: it falls
         in with the countercurrent in society against work groups.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 205. Made public: 1967. To check: Xin Beida gongshe 02621 zhidui diaochazu 新北大公社02621支隊調查組, 〈斬斷鄧小平伸向北京師大女附中的黑手〉, *Xin Beida* 《新北大》, June
-        28, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 205 n.44). See [[cal.1966-06.china-leadership-28]]. Names: Deng Xiaoping.'
+        28, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 205 n.44). See [[cal.1966-06.china-leadership-28]]. Names: Deng Xiaoping. Check: only the Red Guard exposures of 1967 give
+        it; Yang (I, 205) leaves Deng''s talks on the school unsettled until the archives open.'
       src:
         c: '66823342'
         rows:
@@ -726,7 +735,8 @@ ops:
         楊國慶, lately shot, was a middle-school student of 19; such must be struck back at; reactionary students will show themselves, and are to be set aside for a time. Hu Qili passes
         it to the work group the same day.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 205. Made public: 1967. To check: Hu Qili 胡啟立, 〈鄧小平是鎮壓師大女附中革命學生的黑司令〉, in Xin Beida gongshe 02621 zhidui, ed., *Che di qingsuan Deng Xiaoping*
-        (Apr. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 205 n.45). Names: Deng Xiaoping.'
+        (Apr. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 205 n.45). Names: Deng Xiaoping. Check: only the Red Guard exposures of 1967 give it; Yang (I, 205) leaves Deng''s talks
+        on the school unsettled until the archives open.'
       src:
         c: 0477a2f0
         rows:
@@ -765,7 +775,8 @@ ops:
       thread: china-leadership
       c: Liang Ertong 梁二同 and seventeen others post "Carry the Proletarian Cultural Revolution Through to the End" 〈把無產階級文化大革命進行到底〉, still against the work group. Deng Xiaoping 鄧小平 is
         very angry and has his wife Zhuo Lin 卓琳 telephone Liu Zhijian 劉志堅 to look into Liang Ertong's father, "an attempt at political persecution."
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 205. Made public: 2016. Names: Deng Xiaoping.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 205. Made public: 2016. Names: Deng Xiaoping. Check: only the Red Guard exposures of 1967 give it; Yang (I, 205) leaves Deng''s talks on
+        the school unsettled until the archives open.'
       src:
         c: f64bf00c
         rows:
@@ -778,13 +789,14 @@ ops:
 - add:
     entry:
       id: cal.1966-06-27.china-leadership-7
-      when: June 27–28
+      when: June 27 or 28
       date: '1966-06-27'
       thread: china-leadership
       c: 'Deng Xiaoping 鄧小平, through his daughter Deng Rong 鄧榕, tells the girls'' middle school work group that leaving the few diehards of the opposition alone is no good, as it drives
         them further over: the group may debate with them, with some force behind it, and draw in those won over.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206. Made public: 1967. To check: Hu Qili 胡啟立, 〈鄧小平是鎮壓師大女附中革命學生的黑司令〉, in Xin Beida gongshe 02621 zhidui, ed., *Che di qingsuan Deng Xiaoping*
-        (Apr. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 206 n.46). Names: Deng Xiaoping.'
+        (Apr. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 206 n.46). Names: Deng Xiaoping. Check: the day, June 27 or 28 (I, 206); and only the Red Guard exposures of 1967 give
+        it, Yang (I, 205) leaving Deng''s talks on the school unsettled until the archives open.'
       src:
         c: a47e98b6
         rows:
@@ -805,7 +817,8 @@ ops:
       c: Deng Xiaoping 鄧小平 meets Hu Qili 胡啟立, Zhang Shidong 張世棟 (head of the girls' middle school work group) and two student representatives at Zhongnanhai 中南海, Peking, and again instructs
         that debate be organized; when a student says those against the work group will not come, he says, "if they will not come, debate in their absence."
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206. Made public: 1967. To check: Hu Qili 胡啟立, 〈鄧小平是鎮壓師大女附中革命學生的黑司令〉, in Xin Beida gongshe 02621 zhidui, ed., *Che di qingsuan Deng Xiaoping*
-        (Apr. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 206 n.46). Names: Deng Xiaoping.'
+        (Apr. 1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 206 n.46). Names: Deng Xiaoping. Check: only the Red Guard exposures of 1967 give it; Yang (I, 205) leaves Deng''s talks
+        on the school unsettled until the archives open.'
       src:
         c: 9423dbf7
         rows:
@@ -824,7 +837,8 @@ ops:
       thread: china-leadership
       c: On Deng Xiaoping's 鄧小平 instruction the work group of the Normal University's girls' middle school holds three days of debating meetings, July 7 to 9, besieging the students
         who oppose it.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206. Made public: 2016. See [[cal.1966-07-05.china-leadership-4]]. Names: Deng Xiaoping.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206. Made public: 2016. See [[cal.1966-07-05.china-leadership-4]]. Names: Deng Xiaoping. Check: only the Red Guard exposures of 1967 give
+        it; Yang (I, 205) leaves Deng''s talks on the school unsettled until the archives open.'
       src:
         c: 6b7ff9fd
         rows:
@@ -843,7 +857,8 @@ ops:
       c: Liu Shaoqi 劉少奇 and Deng Xiaoping 鄧小平 draw up a plan to put middle-school cadres and teachers through "intensive training" 集訓, so as to end the middle-school movement and reopen
         school as soon as possible.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 206–207. Made public: 1967. To check: Xin Beida gongshe 02621 zhidui diaochazu 新北大公社02621支隊調查組, 《清算鄧小平在幹部、教師問題上「打擊一大片,保護一小撮」的資產階級反動路線》 (Apr.
-        1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 207 n.49). Names: Liu Shaoqi, Deng Xiaoping.'
+        1967) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 207 n.49). Names: Liu Shaoqi, Deng Xiaoping. Check: only the Red Guard exposures of 1967 give it; Yang (I, 205) leaves Deng''s
+        talks on the school unsettled until the archives open.'
       src:
         c: c0d9ea34
         rows:
@@ -947,7 +962,7 @@ ops:
       thread: china-leadership
       c: South China Institute of Technology 華南工學院, Canton. The student Gao Xiang 高翔 and others post the "Letter from Peking" 北京來信, which says that apart from Mao and the Center every
         Party leader may be doubted; they add a poster "To All Party Member Students." That night the Guangdong committee 廣東省委 fixes the letter as counter-revolutionary.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 208. The words: 當晚 (I, 208). Made public: 1971. To check: Hai Feng 海楓, *Guangzhou diqu wenge licheng shulue* 《廣州地區文革歷程述略》 (Youlian yanjiusuo
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 208. The words: 當晚 (I, 208). Made public: 1967. To check: Hai Feng 海楓, *Guangzhou diqu wenge licheng shulue* 《廣州地區文革歷程述略》 (Youlian yanjiusuo
         友聯研究所, Hong Kong, 1971); Guangzhou *Hongqi bao* 廣州《紅旗報》, June 24, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 208 n.54).'
       src:
         c: 144c289b
@@ -970,7 +985,7 @@ ops:
       c: 1 a.m. At South China Institute of Technology 華南工學院, Canton, the work group and Zhang Jin 張進, first secretary of the institute's Party committee, call an urgent meeting of children
         of workers, peasants and revolutionary cadres, who write through the night posters calling the "Letter from Peking" a "manifesto of counter-revolutionary riot," a "copy of the
         Petőfi Club's program" and "a prelude to the Hungarian rising." The group has the students watched and followed.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 208. The words: 25日凌晨1點 (I, 208). Made public: 1971. To check: Hai Feng 海楓, *Guangzhou diqu wenge licheng shulue* (1971); Guangzhou *Hongqi
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 208. The words: 25日凌晨1點 (I, 208). Made public: 1967. To check: Hai Feng 海楓, *Guangzhou diqu wenge licheng shulue* (1971); Guangzhou *Hongqi
         bao*, June 24, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 208 n.54). See [[cal.1966-06-24.china-leadership-9]].'
       src:
         c: 4b88b12c
@@ -1060,17 +1075,35 @@ ops:
       - vis:only:prc
 - add:
     entry:
+      id: cal.1966-06.china-leadership-31
+      when: June, early
+      date: 1966-06
+      at: before 1966-06-01
+      place: wuhan
+      thread: china-leadership
+      c: Moshuihu Middle School 墨水湖中學, Wuhan. Xiao Weiye 蕭維業 and others post a poster exposing the school's leaders for suppressing students; leaders of the Hubei committee call it "counter-revolutionary
+        class revenge."
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 210. Made public: 1967. To check: *Pi Tao zhanbao* 《批陶戰報》, Mar. 14, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 210 n.61).'
+      src:
+        c: bc798d39
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 210: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 210 n.61: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
       id: cal.1966-06-21.china-leadership-9
       when: June 21
       date: '1966-06-21'
       place: wuhan
       thread: china-leadership
-      c: Moshuihu Middle School 墨水湖中學, Wuhan. Early in June Xiao Weiye 蕭維業 and others post a poster exposing the school's leaders for suppressing students, which the provincial committee
-        calls "counter-revolutionary class revenge." On June 21 the school work group, on the municipal committee's instruction, makes the authors "counter-revolutionaries," detains
-        them and organizes mass struggle against them.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 210. Made public: 1967. To check: *Pi Tao zhanbao* 《批陶戰報》, Mar. 14, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 210 n.61).'
+      c: Moshuihu Middle School 墨水湖中學, Wuhan. The school work group, on the municipal committee's instruction, makes the authors of the early-June poster against the school's leaders
+        "counter-revolutionaries," detains them and organizes mass struggle against them.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 210. Made public: 1967. To check: *Pi Tao zhanbao* 《批陶戰報》, Mar. 14, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 210 n.61). See [[cal.1966-06.china-leadership-31]].'
       src:
-        c: d99305a0
+        c: 1967d4d7
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 210: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 210 n.61: all'
@@ -1102,9 +1135,9 @@ ops:
       date: '1966-06-01'
       place: zhengzhou
       time_range:
-      - 1966-06-01T11:00Z
       - 1966-06-01T14:00Z
-      time_band: evening
+      - 1966-06-01T16:00Z
+      time_band: night
       time_zone: Asia/Shanghai
       thread: china-leadership
       c: Zhengzhou University 鄭州大學, Zhengzhou. That night, after Wang Xianghai 王相海 and thirteen first-year Chinese-department students post the first poster, criticizing the Party committee
@@ -1342,24 +1375,19 @@ ops:
       - name:jiang-qing
       - name:kang-sheng
       - name:mao-zedong
-- add:
-    entry:
-      id: cal.1966-08-03.china-leadership-9
-      when: Aug. 3
-      date: '1966-08-03'
-      place: peking
-      thread: china-leadership
-      c: Workers' Stadium 工人體育場, Peking. A mass meeting struggles against "little hooligans," presided over by Wang Renzhong 王任重, deputy head of the Cultural Revolution Group; the "little
-        hooligans" are beaten.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 265–266. Made public: 2010. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        I, 265 n.52).'
-      src:
-        c: 2ec92f76
-        rows:
-        - 'w.yang-jisheng-tiandi-fanfu I, 265–266: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 265 n.52: all'
-      tags:
-      - polity:prc
+- cite:
+    id: cal.1966-08-13.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 266 (the meeting at the Workers'' Stadium 工人體育場 to struggle against the "little hooligans," presided over by Wang Renzhong 王任重, deputy
+      head of the Cultural Revolution Group; the "little hooligans" are beaten; dated Aug. 3)'
+- variant:
+    id: cal.1966-08-13.china-leadership-5
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: the Workers' Stadium meeting against the "little hooligans" was held on Aug. 3, with Wang Renzhong presiding
+    at: I, 266
+- to-check:
+    id: cal.1966-08-13.china-leadership-5
+    add: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52)
 - add:
     entry:
       id: cal.1966-08-04.china-leadership-7
@@ -1410,7 +1438,7 @@ ops:
       c: 'Wu De 吳德 reports to Mao on the "four olds" campaign, hoping to brake it: the Peking committee cannot control the confusion. Mao says that nobody has touched the old remnants
         of several dynasties in Peking, and now it has been done; "that is good too."'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 264. Made public: 2004. To check: Zhu Yuanshi 朱元石 et al., *Wu De koushu: shinian fengyu jishi* 《吳德口述:十年風雨紀事》 (Dangdai Zhongguo chubanshe
-        當代中國出版社, 2004), 27 (already registered) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 264 n.50). Names: Mao Zedong.'
+        當代中國出版社, 2004), 27 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 264 n.50). Names: Mao Zedong.'
       src:
         c: 98e103b8
         rows:
@@ -1593,18 +1621,13 @@ ops:
       place: peking
       thread: china-leadership
       c: The Peking committee 北京市委 issues an "Important Notice" 〈重要通告〉 strictly forbidding private detention houses and the private seizure and beating of people.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 279. Made public: 1966. To check: Jiang Qing 江青, Chen Boda 陳伯達, Zhou Enlai 周恩來 et al., speeches of the Central leaders at the rally of the
-        rebels in Peking, Dec. 17, 1966 (collection title as in the note) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 279 n.70). Names: Chen Boda, Jiang Qing, Zhou Enlai.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 279.'
       src:
         c: 8ccc28bf
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 279: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 279 n.70: all'
       tags:
       - polity:prc
-      - name:chen-boda
-      - name:jiang-qing
-      - name:zhou-enlai
 - add:
     entry:
       id: cal.1966-12-16.china-leadership-5
@@ -1616,13 +1639,11 @@ ops:
         carried out the bourgeois reactionary line, "who think themselves nobility by blood"; Zhou Rongxin 周榮鑫, Yong Wentao 雍文濤 and Wang Renzhong 王任重 are responsible and are to show
         the students how they backed this handful as gendarmes. She asks the students to treat the erring young "to cure the sickness and save the patient," and to topple the middle-aged
         and old, the diehards behind the scenes. Zhou Rongxin and Yong Wentao are made to stand with bowed heads before the platform.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 280. Made public: 1966. To check: Zhongyang shouzhang zai quanguo zai Jing zaofanpai pipan fandong luxian dahui shang de jianghua 〈中央首長在全國在京造反派批判反動路線大會上的講話〉,
-        Dec. 17, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 280 n.71). Names: Jiang Qing.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 280. Made public: 2016. Names: Jiang Qing.'
       src:
         c: 874a82ea
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 280: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 280 n.71: all'
       tags:
       - polity:prc
       - vis:only:prc
@@ -1659,7 +1680,7 @@ ops:
       thread: china-leadership
       c: At a meeting of the Red Guards' Capital Third Headquarters 紅衛兵首都三司 Zhou Enlai 周恩來 says the pickets are used by bad men to strike the revolutionary rebels, so they are to be
         abolished. The papers name the West City Pickets a reactionary organization; its head Kong Dan 孔丹 is arrested.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 280. Made public: 1966. Names: Zhou Enlai.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 280. Names: Zhou Enlai.'
       src:
         c: 552e588f
         rows:
@@ -1686,9 +1707,7 @@ ops:
     id: cal.1967-01-25.china-leadership-6
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 285 (in late January 1967 on the Cultural Revolution Group''s order the rebel organizations of Peking''s colleges and some factory rebels,
       with the help of the public security organs, act suddenly on the United Action Committee''s headquarters at the middle school attached to Peking University and on the core members
-      at the schools, and arrest over 100; the Committee is then formally made a "counter-revolutionary organization" and banned, two months after its formal founding; before this it
-      had stormed the Public Security Ministry six times, Dec. 16 and 28, 1966, Dec. 31, Jan. 6 and 11, with the slogans "burn Xie Fuzhi," "fry Jiang Qing in oil," "down with the Third
-      Headquarters," "Liu Shaoqi forever")'
+      at the schools, and arrest over 100; the Committee is then formally made a "counter-revolutionary organization" and banned, two months after its formal founding)'
 - add:
     entry:
       id: cal.1967.china-leadership-124
@@ -2078,6 +2097,7 @@ ops:
       id: cal.1966-10-12.china-leadership-3
       when: Oct. 12
       date: '1966-10-12'
+      place: peking
       thread: china-leadership
       c: Zhang Pinghua 張平化, attending the Central Work Conference in Peking, issues in his own name a "Solemn Statement" 〈鄭重聲明〉 admitting that the catching of "black ghosts" carried
         out the "bourgeois reactionary line."
@@ -2090,7 +2110,6 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
-      - ok:fields-place
 - add:
     entry:
       id: cal.1966-09-01.china-leadership-10
@@ -2197,10 +2216,27 @@ ops:
       thread: china-leadership
       c: Tsinghua University 清華大學, Peking. Liu Jufen 劉菊芬, student and daughter of Liu Ningyi 劉寧一, secretary of the Central Secretariat and head of the national trade union federation,
         and others found the "Aug. 9 Liaison Association" 八九串聯會 to hold to the Aug. 7 proposal, on Wang Guangmei's 王光美 suggestion, against the "Aug. 8 Liaison Association" 八八串聯會 that
-        had rejected the proposal the day before. After Mao receives the Red Guards on Aug. 18 the "89" group turns itself into the "Tsinghua University Red Guards" 清華大學紅衛兵.
+        had rejected the proposal the day before.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 310. Made public: 2016. See [[cal.1966-08-07.china-leadership-8]].'
       src:
-        c: d94b940b
+        c: f7ff803b
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 310: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08.china-leadership-39
+      when: Aug., after the 18th
+      date: 1966-08
+      at: after 1966-08-18
+      place: peking
+      thread: china-leadership
+      c: Tsinghua University 清華大學, Peking. After Mao receives the Red Guards on Aug. 18 the "Aug. 9 Liaison Association" 八九串聯會 turns itself into the "Tsinghua University Red Guards"
+        清華大學紅衛兵.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 310. See [[cal.1966-08-09.china-leadership-6]].'
+      src:
+        c: f225aa26
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 310: all'
       tags:
@@ -2246,14 +2282,13 @@ ops:
       thread: china-leadership
       c: The Capital Colleges' Red Guard Revolutionary Rebel General Headquarters 首都大專院校紅衛兵革命造反派總司令部, the Third Headquarters 三司, is founded in Peking under Zhu Chengzhao 朱成昭 of the Peking
         Geological Institute. A rebel body whose members are largely students hit by the bourgeois reactionary line; the Tsinghua Mao Zedong Thought Red Guards 清華毛澤東思想紅衛兵 join it.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 312. Made public: 2016. See [[cal.1966-09-05.china-leadership-8]]. Names: Mao Zedong.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 312. Made public: 2016. See [[cal.1966-09-05.china-leadership-8]].'
       src:
         c: 19490d92
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 312: all'
       tags:
       - polity:prc
-      - name:mao-zedong
 - add:
     entry:
       id: cal.1966-09-24.china-leadership-4
@@ -2303,11 +2338,10 @@ ops:
       place: nanjing
       thread: china-leadership
       c: The Jiangsu Workers' Red Rebel General Headquarters 江蘇省工人紅色造反總司令部 (Sheng Gongzong 省工總), a city-wide workers' rebel body, is founded at Nanjing with Zhou Enlai's 周恩來 consent.
-        Its membership is mixed at first; reorganized on Jan. 28, 1967 around industrial workers of the large and medium plants, with Zhu Kaidi 朱開地 of the Chenguang Machinery Plant and
-        Lu Xuezhi 魯學智 of the Changjiang Machinery Plant among its heads; some of the old heads refuse to yield power, and a "new" and an "old" General Workers' HQ stand side by side.
+        Its membership is mixed at first.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 320. Made public: 2011. Names: Zhou Enlai.'
       src:
-        c: c3ba290f
+        c: 756af2f6
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 320: all'
       tags:
@@ -2380,6 +2414,23 @@ ops:
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 321: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 321 n.16: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-01-28.china-leadership-7
+      when: Jan. 28
+      date: '1967-01-28'
+      place: nanjing
+      thread: china-leadership
+      c: Nanjing 南京. The Jiangsu Workers' Red Rebel General Headquarters (Sheng Gongzong 省工總) is reorganized around the industrial workers of the large and medium plants, Zhu Kaidi 朱開地
+        of the Chenguang Machinery Plant 晨光機器廠 and Lu Xuezhi 魯學智 of the Changjiang Machinery Plant 長江機器廠 among its heads. Some of the old heads refuse to yield power; a "new" and an
+        "old" Workers' General HQ stand side by side.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 320. See [[cal.1966-11.china-leadership-21]].'
+      src:
+        c: b0b9efb1
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 320: all'
       tags:
       - polity:prc
 - cite:
@@ -2632,32 +2683,51 @@ ops:
       - name:zhang-chunqiao
       - name:ke-qingshi
       - ok:fields-time
+- cite:
+    id: cal.1966-12-28.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 347 (midnight of the 28th, 28日半夜: Zhang, in Peking, by telephone with his wife Wen Jing 文靜 at Kangping Road, who tells him the Scarlet
+      Guards have rebelled against Cao Diqiu and raised "Down with the Shanghai committee"; Zhang: have Xu Jingxian 徐景賢 tell the rebel bodies not to let the Scarlet Guards take the fruits
+      of victory)'
+- variant:
+    id: cal.1966-12-28.china-leadership-4
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Zhang hears from his wife Wen Jing of the Scarlet Guards' slogan against the Shanghai committee, and has Xu Jingxian tell the rebel bodies not to let the Scarlet Guards take
+      the fruits of victory; nothing of a ransacked home
+    at: I, 347
+- to-check:
+    id: cal.1966-12-28.china-leadership-4
+    add: Xu Jingxian 徐景賢, *Shinian yi meng* 《十年一夢》 (Shidai guoji chuban youxian gongsi 時代國際出版有限公司), 15 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 347 n.35)
+- place:
+    id: cal.1966-12-28.china-leadership-4
+    at:
+    - peking
+    - shanghai
+    basis: n
+    note: 'Yang, I, 347: Zhang in Peking, his wife at Kangping Road'
 - add:
     entry:
-      id: cal.1966-12-28.china-leadership-6
-      when: Dec. 28
-      date: '1966-12-28'
-      place:
-      - peking
-      - shanghai
+      id: cal.1966-12-29.china-leadership-4
+      when: Dec. 29
+      date: '1966-12-29'
+      place: shanghai
       time_range:
-      - 1966-12-28T14:00Z
-      - 1966-12-28T16:00Z
-      time_band: night
+      - 1966-12-28T22:00Z
+      - 1966-12-29T04:00Z
+      time_band: morning
       time_zone: Asia/Shanghai
       thread: china-leadership
-      c: 'Midnight. Zhang Chunqiao 張春橋, in Peking, speaks by telephone with his wife Wen Jing 文靜, who tells him of Kangping Road: "now the Scarlet Guards have rebelled against Cao Diqiu
-        and raised the slogan ''Down with the Shanghai committee''; ask Xu Jingxian to tell all rebel organizations not to let the Scarlet Guards take the fruits of victory." On the
-        morning of the 29th Wen Jing passes it to Xu Jingxian 徐景賢, who raises the slogan to "Down with Chen and Cao! Down with the Shanghai committee!"'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 347. The words: 28日半夜 (I, 347). Made public: 1966. To check: Xu Jingxian 徐景賢, *Shinian yi meng* 《十年一夢》 (Shidai guoji chuban youxian gongsi
-        時代國際出版有限公司), 15 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 347 n.35). Names: Zhang Chunqiao.'
+      c: Shanghai. In the morning Wen Jing 文靜 passes Zhang Chunqiao's 張春橋 word to Xu Jingxian 徐景賢, who at once raises the slogan to "Down with Chen and Cao! Down with the Shanghai committee!"
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 347. The words: 29日早晨 (I, 347). Made public: 2016. To check: Xu Jingxian 徐景賢, *Shinian yi meng* 《十年一夢》 (Shidai guoji chuban youxian gongsi
+        時代國際出版有限公司), 15 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 347 n.35). See [[cal.1966-12-28.china-leadership-4]]. Names: Zhang Chunqiao.'
       src:
-        c: 7b5566ad
+        c: 9511e384
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 347: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 347 n.35: all'
       tags:
       - polity:prc
+      - vis:only:prc
       - name:zhang-chunqiao
 - cite:
     id: cal.1966-12-30.china-leadership-3
@@ -2697,13 +2767,7 @@ ops:
       restore the Shanghai–Nanjing line as soon as possible; Chen has Wang detained as Zhou asks)'
 - to-check:
     id: cal.1967-01-01.china-leadership-2
-    add: '*Xu Jingxian de zuihou huiyi* 《徐景賢的最后回憶》 (Xingke''er chubanshe 星克爾出版(香港)有限公司, 2013), 104 (already registered) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 347 n.37)'
-- variant:
-    id: cal.1967-01-01.china-leadership-2
-    unit: A
-    witness: w.yang-jisheng-tiandi-fanfu
-    reads: Zhou's call to Chen Pixian came at midnight of Dec. 31, not "before dawn" of Jan. 1
-    at: I, 347
+    add: '*Xu Jingxian de zuihou huiyi* 《徐景賢的最后回憶》 (Xingke''er chubanshe 星克爾出版(香港)有限公司, 2013), 104 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 347 n.37)'
 - add:
     entry:
       id: cal.1967-01-01.china-leadership-10
@@ -2801,12 +2865,7 @@ ops:
       Shanghai''s experience and act as one)'
 - to-check:
     id: cal.1967-01-10.china-leadership
-    add: Xi Xuan 席宣 and Jin Chunming 金春明, *"Wenhua dageming" jianshi* 《「文化大革命」簡史》, enlarged ed. (2011), 122 (already registered) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 350 n.43)
-- cite:
-    id: cal.1967-01-11.china-leadership
-    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 350 (on Jan. 11 the Center, State Council, Military Commission and Cultural Revolution Group telegraph the 32 Shanghai rebel bodies: the
-      Urgent Notice is "very good," their policy and action are wholly correct, and the whole country is called to learn from Shanghai''s revolutionary rebels and act together to beat
-      back the new counterattack of the bourgeois reactionary line)'
+    add: Xi Xuan 席宣 and Jin Chunming 金春明, *"Wenhua dageming" jianshi* 《「文化大革命」簡史》, enlarged ed. (2011), 122 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 350 n.43)
 - cite:
     id: cal.1967-01-22.china-leadership-3
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 351 (at the wired-broadcast meeting of out-of-town masses in Peking, 800,000 in all, main hall the Great Hall of the People, Zhou says
@@ -2900,19 +2959,33 @@ ops:
       - name:yao-wenyuan
 - add:
     entry:
+      id: cal.1967-01-11.china-leadership-8
+      when: Jan. 11
+      date: '1967-01-11'
+      thread: china-leadership
+      c: 'The Center, the State Council, the Military Commission and the Cultural Revolution Group telegraph their congratulations to the 32 Shanghai rebel bodies: the "Urgent Notice"
+        is "very good," their policy and action wholly correct; the whole country is called to learn from Shanghai''s revolutionary rebels and act together to beat back the bourgeois
+        reactionary line''s new counterattack.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 350, 382. See [[cal.1967-01-11.china-leadership-2]].'
+      src:
+        c: 21f7acfd
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 350: all'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
       id: cal.1967-01-12.china-leadership-9
       when: Jan. 12
       date: '1967-01-12'
       place: shanghai
       thread: china-leadership
       c: People's Square 人民廣場, Shanghai. A rally of 100,000 "to celebrate the Center's telegram and to smash thoroughly the new counterattack of the bourgeois reactionary line." Zhang
-        Chunqiao 張春橋 and Yao Wenyuan 姚文元, in army uniform, appear on the platform and Zhang gives his first speech since returning to Shanghai. They are still only deputy head and member
-        of the Cultural Revolution Group; in fact they and the workers' rebel organizations are the new masters of Shanghai. The telegram of Jan. 11 had been broadcast in full by the
-        Central People's Broadcasting Station.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 353–354. Made public: 2011. To check: [[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed., 120) (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        I, 354 n.49). Names: Zhang Chunqiao, Yao Wenyuan.'
+        Chunqiao 張春橋 and Yao Wenyuan 姚文元, in army uniform, appear on the platform and Zhang gives his first speech since returning to Shanghai.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 353–354. Names: Zhang Chunqiao, Yao Wenyuan.'
       src:
-        c: 92731a17
+        c: fdd211f6
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 353–354: all'
       tags:
@@ -2920,6 +2993,13 @@ ops:
       - name:zhang-chunqiao
       - name:yao-wenyuan
       - ok:fields-time
+- cite:
+    id: cal.1967-01.china-leadership-11
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 354 (Mao, his idea of the seizure of power formed, has Wang Li 王力 tell Zhang Chunqiao 張春橋 and Yao Wenyuan 姚文元 to join the new organ of
+      power in Shanghai and appear in public as leading members of the "three-in-one combination" 三結合)'
+- to-check:
+    id: cal.1967-01.china-leadership-11
+    add: '[[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed., 120) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 354 n.49)'
 - add:
     entry:
       id: cal.1967-01-15.china-leadership-4
@@ -2962,15 +3042,13 @@ ops:
       when: Jan. 21
       date: '1967-01-21'
       thread: china-leadership
-      c: 'At the enlarged meeting of the Military Commission 軍委擴大會議 Zhou Enlai 周恩來 conveys Mao''s words: the papers say seize the power of the capitalist-roaders and of the diehards
-        of the bourgeois line, but if it is not so, may one seize? "Now it seems it cannot be told apart finely; seize it first, and decide later in the movement what kind of power-holders
-        they were; we must not be metaphysical." As a result all the State Council''s ministries, twenty-three in industry and communications, seize power. Mao later says that not all
-        may be seized: not the army, Public Security, Finance, Foreign Affairs, the State Economic and Planning Commissions, the *Renmin ribao*, Xinhua, *Hongqi*, and especially not
-        by outsiders.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 364. Made public: 2011. To check: [[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed., 145) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+      c: 'By Wang Li''s account, at the enlarged meeting of the Military Commission 軍委擴大會議 Zhou Enlai 周恩來 conveys Mao''s words: the papers say seize the power of the capitalist-roaders
+        and of the diehards of the bourgeois line, but if it is not so, may one seize? "Now it seems it cannot be told apart finely; seize it first, and decide later in the movement
+        what kind of power-holders they were; we must not be metaphysical."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 364. Made public: 2001. To check: [[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed., 145) (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 364 n.72). Names: Zhou Enlai, Mao Zedong.'
       src:
-        c: 9ebd2186
+        c: 4ddad4b1
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 364: all'
       tags:
@@ -2990,18 +3068,18 @@ ops:
       date: '1967-01-24'
       place: shanghai
       time_range:
+      - 1967-01-24T11:00Z
       - 1967-01-24T14:00Z
-      - 1967-01-24T16:00Z
-      time_band: night
+      time_band: evening
       time_zone: Asia/Shanghai
       thread: china-leadership
-      c: Shanghai. At night the Red Guards' Revolutionary Committee of the Shanghai colleges 紅革會, with a dozen Red Guard teams, break into the East China Bureau, the Shanghai committee,
+      c: Shanghai. In the evening the Red Guards' Revolutionary Committee of the Shanghai colleges 紅革會, with a dozen Red Guard teams, break into the East China Bureau, the Shanghai committee,
         the municipal government, the organs of 13 districts and 23 leading units, and carry off every great seal; its headquarters then announces that the Hongge hui has seized all
         the power of the city. Zhang and Yao criticize this.
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 354–355. The words: 1月24日晚 (I, 354). Made public: 2016. To check: Xu Jingxian 徐景賢, *Shinian yi meng* 《十年一夢》 (Shidai guoji chuban youxian
         gongsi 時代國際出版有限公司), 48 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 355 n.50). Names: Zhang Chunqiao, Yao Wenyuan.'
       src:
-        c: b4a735f7
+        c: d096a577
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 354–355: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 355 n.50: all'
@@ -3039,17 +3117,36 @@ ops:
       time_zone: Asia/Shanghai
       thread: china-leadership
       c: Evening. In the Fudan University 復旦大學 hall, Shanghai, the Hongge hui and other bodies hold a pledge rally to hold high the banner of Mao Zedong Thought and "bombard" Zhang Chunqiao
-        and Yao Wenyuan, to be followed on the 30th by a rally of 100,000 at People's Square and a march through the city. Zhang and Yao send an urgent call to the Cultural Revolution
-        Group through the committee agencies' liaison post; Mao, much concerned, follows Shanghai himself and does not allow the struggle to be aimed at them.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 355. The words: 1月29日晚 (I, 355). Made public: 2009. To check: Yan Changgui 閻長貴 and Wang Guangyu 王廣宇, *Wenshi qiuxin ji* 《問史求信集》 (2009),
-        100 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 355 n.51). Names: Zhang Chunqiao, Yao Wenyuan, Mao Zedong.'
+        and Yao Wenyuan, to be followed on the 30th by a rally of 100,000 at People's Square and a march through the city.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 355. The words: 1月29日晚 (I, 355). Names: Zhang Chunqiao, Yao Wenyuan.'
       src:
-        c: fbfffb0c
+        c: 1e265e6d
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 355: all'
+      tags:
+      - polity:prc
+      - name:zhang-chunqiao
+      - name:yao-wenyuan
+- add:
+    entry:
+      id: cal.1967-01-29.china-leadership-7
+      when: Jan. 29
+      date: '1967-01-29'
+      place: shanghai
+      thread: china-leadership
+      c: Zhang Chunqiao 張春橋 and Yao Wenyuan 姚文元, through the Shanghai committee agencies' liaison post, appeal urgently to the Cultural Revolution Group against the Hongge hui's "bombardment";
+        Mao, much concerned, follows Shanghai himself and does not allow the struggle to be aimed at them.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 355. Made public: 2009. To check: Yan Changgui 閻長貴 and Wang Guangyu 王廣宇, *Wenshi qiuxin ji* 《問史求信集》 (Hongqi chubanshe 紅旗出版社, 2009), 100
+        (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 355 n.51). See [[cal.1967-01-29.china-leadership-5]]. Names: Zhang Chunqiao, Yao Wenyuan, Mao Zedong. Check: the day: the page sets
+        the appeal after the rally of the evening of the 29th was called and before the Group''s telegram of the 29th (I, 355).'
+      src:
+        c: d09a8a9f
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 355: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 355 n.51: all'
       tags:
       - polity:prc
+      - vis:only:prc
       - name:zhang-chunqiao
       - name:yao-wenyuan
       - name:mao-zedong
@@ -3106,18 +3203,20 @@ ops:
       place: peking
       thread: china-leadership
       c: 'The *Renmin ribao* 人民日報, Peking, early reprints the *Hongqi* 紅旗 editorial for Feb. 3, "On the Proletarian Revolutionaries'' Struggle to Seize Power" 〈論無產階級革命派的奪權鬥爭〉, which
-        Mao revised in person: the old state machine cannot be taken over ready-made but "must be smashed completely," and new forms of the dictatorship of the proletariat created. On
-        Jan. 30 Mao, reading it, had noted: "I have read this and find it very good."'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 357. Made public: 1998. To check: *Jianguo yilai Mao Zedong wengao* 《建國以來毛澤東文稿》, vol. 12 (Zhongyang wenxian chubanshe, 1998), 210 (cited
-        by [[w.yang-jisheng-tiandi-fanfu]], I, 357 n.54). Names: Mao Zedong.'
+        Mao revised in person: the old state machine cannot be taken over ready-made but "must be smashed completely," and new forms of the dictatorship of the proletariat created.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 357. Made public: 1998 (Mao''s revision). To check: *Jianguo yilai Mao Zedong wengao* 《建國以來毛澤東文稿》, vol. 12 (Zhongyang wenxian chubanshe,
+        1998), 210 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 357 n.54). See [[cal.1967-01-30.china-leadership-2]]. Names: Mao Zedong.'
       src:
-        c: 37e64267
+        c: 94c7cdca
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 357: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 357 n.54: all'
       tags:
       - polity:prc
       - name:mao-zedong
+- cite:
+    id: cal.1967-01-30.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 357 (Mao, reading it on Jan. 30: "I have read this and find it very good" 此件我看了，認為很好)'
 - add:
     entry:
       id: cal.1967-02-02.china-leadership-5
@@ -3176,18 +3275,18 @@ ops:
 - add:
     entry:
       id: cal.1967-02-19.china-leadership-9
-      when: Feb. 19
+      when: Feb. 19–20
       date: '1967-02-19'
       time: 1967-02-19T14:00Z
       time_zone: Asia/Shanghai
       thread: china-leadership
-      c: 'At 10 p.m. Tan Qilong 譚啟龍, Shandong first secretary, held in the medical college after being struggled against, is told that Yang Dezhi 楊得志 has had Zhou Enlai''s 周恩來 instruction
-        to bring him to Peking: Zhou''s special plane waits at the airport at 8 a.m. He bathes and eats a Western meal at the airport guest house, and next morning lands in Peking and
-        is lodged in a suite on the ninth floor of the Jingxi Hotel 京西賓館, where he finds most of the East China provincial secretaries.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 365. The words: 晚10點鐘 (I, 365). Made public: 2003. To check: *Tan Qilong huiyilu* 《譚啟龍回憶錄》 (Zhonggong dangshi chubanshe 中共黨史出版社, 2003),
-        646–650 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 365 n.74). Names: Zhou Enlai.'
+      c: 'At 10 p.m., by his own account, Tan Qilong 譚啟龍, Shandong first secretary, held in the medical college after being struggled against, is told that Yang Dezhi 楊得志 has had Zhou
+        Enlai''s 周恩來 instruction to bring him to Peking: Zhou''s special plane waits at the airport at 8 a.m. He bathes and eats a Western meal at the airport guest house, and next morning
+        lands in Peking and is lodged in a suite on the ninth floor of the Jingxi Hotel 京西賓館, where he finds most of the East China provincial secretaries.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 365. The words: 晚10點鐘 (I, 365). The time is the first day''s. Made public: 2003. To check: *Tan Qilong huiyilu* 《譚啟龍回憶錄》 (Zhonggong dangshi
+        chubanshe 中共黨史出版社, 2003), 646–650 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 365 n.74). Names: Zhou Enlai.'
       src:
-        c: d5355352
+        c: 41fed546
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 365: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 365 n.74: all'
@@ -3470,7 +3569,7 @@ ops:
       date: '1967-02-12'
       thread: china-leadership
       c: The Center and the State Council issue the "Notice on Banning National Organizations" 〈關於取締全國性組織的通告〉, ordering every national body dissolved.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 376. Made public: 2016.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 376.'
       src:
         c: ffa6a7d5
         rows:
@@ -3488,7 +3587,7 @@ ops:
         the joint notice of Jan. 2 of the Red Laborers'' Corps, the Ministry of Labor and the trade union federation is illegal and to be cancelled, and all documents the provincial
         labor bureaus made on it are void; the systems of temporary, contract, rotating and outside-contract labor are in part reasonable and in part not, and the Center is studying
         their reform and, till it decides, the old way stands.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 376. Made public: 2016. See [[cal.1967-02-12.china-leadership-2]].'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 376. See [[cal.1967-02-12.china-leadership-2]].'
       src:
         c: c6ace007
         rows:
@@ -3591,13 +3690,11 @@ ops:
       thread: china-leadership
       c: Afternoon. Over thirty rebel bodies meet at the Jinjiang Hotel 錦江飯店, Shanghai, to draft an "Urgent Notice" to stop the economism wind. Chen Pixian 陳丕顯 has Zhu Yongjia 朱永嘉 sit
         beside him and record; Zhu boils the speeches down to ten articles and, revised, the draft takes the title "Urgent Notice"; Chen has the last word on it.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 381. The words: 1月8日日下午 (I, 381). Made public: 2016. To check: Shanghai chronicle of anti-economism, Mar. 17, 1967, in Song Yongyi 宋永毅 et
-        al., Wenge ziliaoku 文革資料庫 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 381 n.29). See [[cal.1967-01-07.china-leadership-7]].'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 381. The words: 1月8日日下午 (I, 381). Made public: 2016. See [[cal.1967-01-07.china-leadership-7]].'
       src:
         c: ed04d754
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 381: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 381 n.29: all'
       tags:
       - polity:prc
 - add:
@@ -3638,3 +3735,1078 @@ ops:
       tags:
       - polity:prc
       - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-05-28.china-leadership-4
+      when: May 28
+      date: '1966-05-28'
+      place: peking
+      time_range:
+      - 1966-05-28T11:00Z
+      - 1966-05-28T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Tsinghua University middle school 清華附中, Peking. In the evening students preparing a wall-paper choose its signature: "Red Guard" 紅衛兵, the name Zhang Chengzhi''s 張承志 group of
+        class 642 had signed with.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 235. The words: 5月28日晚 (I, 235). Made public: 2006. To check: Song Bolin 宋柏林, *Hongweibing xingshuai lu* 《紅衛兵興衰錄》 (Desai chuban gongsi 德賽出版公司,
+        Hong Kong, 2006), Luo Xiaohai 駱小海 preface, 17 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 235 n.40). The founding: [[cal.1966-05-29.china-leadership-2]].'
+      src:
+        c: b6b14a0a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 235: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 235 n.40: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1966-06-02.china-leadership-8
+      when: June 2
+      date: '1966-06-02'
+      place: peking
+      thread: china-leadership
+      c: Tsinghua University 清華大學, Peking. By Yang's account (he was a student there), first-year students of his department (class 熱002) post "Where Does Jiang Nanxiang Stand After
+        All?" 〈蔣南翔究竟站在甚么立場上？〉, and first-year students of other departments post against the Party committee too; many posters besiege them, one recalling the anti-rightist campaign
+        of 1957 as a warning.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 191.'
+      src:
+        c: fcdb67a5
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 191: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-06-02.china-leadership-9
+      when: June 2
+      date: '1966-06-02'
+      place: peking
+      thread: china-leadership
+      c: Peking. Seven students of Tsinghua's class 自九三 4 take the draft of their poster to the *Jiefangjun bao* 解放軍報; the editor Song Qiong 宋瓊 revises it and has a proof set for print.
+        Approval from above does not come, and they take it back to post at the school.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 191. Made public: 2016. To check: Shen Rukui 沈如槐, *Qinghua daxue wenge jishi: yige hongweibing lingxiu de zishu* 《清華大學文革紀事——一個紅衛兵領袖的自述》
+        (Shidai yishu chubanshe 時代藝術出版社, Hong Kong), 7 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 191 n.5).'
+      src:
+        c: a89bc994
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 191: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 191 n.5: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1966-06-04.china-leadership-5
+      when: June 4
+      date: '1966-06-04'
+      place: peking
+      thread: china-leadership
+      c: Tsinghua University 清華大學, Peking. The seven students of class 自九三 4 post "What Do These Problems Show?" 〈這些問題說明了甚么？〉 against the Party committee; Liu Tao 劉濤, Liu Shaoqi's daughter,
+        signs it.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 191. To check: Shen Rukui 沈如槐, *Qinghua daxue wenge jishi: yige hongweibing lingxiu de zishu* 《清華大學文革紀事——一個紅衛兵領袖的自述》 (Shidai yishu chubanshe
+        時代藝術出版社, Hong Kong), 7 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 191 n.5). See [[cal.1966-06-02.china-leadership-9]]. Names: Liu Shaoqi.'
+      src:
+        c: 043179b9
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 191: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 191 n.5: all'
+      tags:
+      - polity:prc
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1966-06-05.china-leadership-3
+      when: June 5
+      date: '1966-06-05'
+      place: peking
+      thread: china-leadership
+      c: Tsinghua University 清華大學, Peking. Liu Tao 劉濤, He Pengfei 賀鵬飛 (He Long's son) and five other children of high cadres post "The Tsinghua Party Committee Should Take an Active
+        Stance in Leading the Cultural Revolution" 〈清華黨委應采取積極態度領導文化大革命〉.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 191. Names: He Long.'
+      src:
+        c: dc1eaa1e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 191: all'
+      tags:
+      - polity:prc
+      - name:he-long
+- add:
+    entry:
+      id: cal.1966-06-08.china-leadership-8
+      when: June 8
+      date: '1966-06-08'
+      place: peking
+      thread: china-leadership
+      c: Tsinghua University middle school 清華附中, Peking. Over 3,000 students of other middle schools come to support its Red Guards; the school shuts its gate, and after ten hours it
+        opens. Their posters against the school's Party branch and for its Red Guards are signed "Red Guard" too.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 235. Made public: 2006. To check: Song Bolin 宋柏林, *Hongweibing xingshuai lu* 《紅衛兵興衰錄》 (Desai chuban gongsi 德賽出版公司, Hong Kong, 2006), Luo
+        Xiaohai 駱小海 preface, 17–21 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 235 n.41). See [[cal.1966-06-02.china-leadership-5]].'
+      src:
+        c: 7c1b6ff7
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 235: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 235 n.41: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-06-13.china-leadership-6
+      when: June 13
+      date: '1966-06-13'
+      place: peking
+      thread: china-leadership
+      c: Tsinghua University 清華大學, Peking. Wang Tiecheng 王鐵成, a third-year student of mathematics and mechanics, posts 〈北京新市委派來的工作組大方向錯了〉 ("The Work Group Sent by the New Peking Committee
+        Has the Wrong General Direction") against the work group.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 194.'
+      src:
+        c: 765bdf02
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 194: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-06-14.china-leadership-3
+      when: June 14
+      date: '1966-06-14'
+      place: peking
+      thread: china-leadership
+      c: Tsinghua University 清華大學, Peking. Liu Quan 劉泉, a second-year student of mathematics and mechanics, posts 〈工作組不可信任〉 ("The Work Group Cannot Be Trusted") against the work group.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 194.'
+      src:
+        c: 178dd6d5
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 194: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-06-15.china-leadership-4
+      when: June 15
+      date: '1966-06-15'
+      place: peking
+      thread: china-leadership
+      c: Tsinghua University 清華大學, Peking. Liu Caitang 劉才堂, a third-year student of engineering chemistry, posts 〈我們需要建立甚么樣的秩序？〉 ("What Kind of Order Do We Need to Build?") against the
+        work group.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 194.'
+      src:
+        c: 086e4c0b
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 194: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-06-16.china-leadership-9
+      when: June 16
+      date: '1966-06-16'
+      place: peking
+      thread: china-leadership
+      c: Tsinghua University 清華大學, Peking. Kuai Dafu 蒯大富, a third-year student of engineering chemistry, posts 〈工作組往哪里去？〉 ("Where Is the Work Group Going?") against the work group.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 194.'
+      src:
+        c: 07a43410
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 194: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-06-21.china-leadership-10
+      when: June 21
+      date: '1966-06-21'
+      place: peking
+      thread: china-leadership
+      c: Tsinghua University middle school 清華附中, Peking. A meeting of the whole school elects a revolutionary committee; the work group asks for a more representative list and the Red
+        Guards refuse. The 21 members are nearly all the Red Guards' core, most of them high cadres' children.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 235.'
+      src:
+        c: 67a27137
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 235: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-06-28.china-leadership-6
+      when: June 28
+      date: '1966-06-28'
+      place: peking
+      thread: china-leadership
+      c: Tsinghua University 清華大學, Peking. Kuai Dafu 蒯大富, in a statement on the meeting of June 27, writes that high pressure is itself a sign of weakness and has no effect on him; he
+        will never admit to being a counter-revolutionary, "even on the gallows."
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 195. Made public: 2016. To check: Kuai Dafu 蒯大富, 〈關於6月27日大會的聲明〉, June 28, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 195 n.13).
+        Check: the day: Yang quotes it as written after Kuai lost his liberty, which he dates July 4 (I, 194–195).'
+      src:
+        c: ebe7f173
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 195: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 195 n.13: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1966-06-29.china-leadership-5
+      when: June 29
+      date: '1966-06-29'
+      place: peking
+      thread: china-leadership
+      c: 'Kuai Dafu 蒯大富, in a letter to Ye Lin 葉林, head of the Tsinghua work group: he never thought the "little" Kuai had such "power" that the group must spend all its strength to
+        put him down; the whole school writing posters against one man, with marches, rallies and broadcasts, more than was ever used against Jiang Nanxiang 蔣南翔.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 195. Made public: 2016. To check: Kuai Dafu 蒯大富, letter to Ye Lin 葉林, June 29, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 195 n.14).
+        See [[cal.1966-06-28.china-leadership-6]]. Check: the day: Yang quotes it as written after Kuai lost his liberty, which he dates July 4 (I, 194–195).'
+      src:
+        c: 7cc96581
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 195: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 195 n.14: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1966-07-06.china-leadership-2
+      when: July 6
+      date: '1966-07-06'
+      place: peking
+      thread: china-leadership
+      c: Tsinghua University 清華大學, Peking. Kuai Dafu 蒯大富 begins a hunger strike against the work group.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 195. See [[cal.1966-07-04.china-leadership-5]]. Check: the day: the page has July 7 as its second day.'
+      src:
+        c: 06bb5dcf
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 195: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-07-04.china-leadership-6
+      when: July 4
+      date: '1966-07-04'
+      place: peking
+      thread: china-leadership
+      c: 'Tsinghua University middle school 清華附中, Peking. The Red Guards post "Long Live the Proletarian Revolutionary Rebel Spirit, Again" 〈再論無產階級的革命造反精神萬歲〉, pointing the struggle at
+        the old thought, culture, customs and habits: they are not yet wiped out.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 236. See [[cal.1966-06-24.china-leadership-6]].'
+      src:
+        c: 5b8b66ae
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 236: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-04.china-leadership-9
+      when: Aug. 4
+      date: '1966-08-04'
+      place: peking
+      thread: china-leadership
+      c: Girls' middle school attached to Peking Normal University 北京師範大學附屬女子中學, Peking. In class 2-4 Red Guards rope ten students of "black" families together by the neck before the
+        class, make them "confess" their thoughts and their parents' "crimes" and say three times "I am a dog's whelp, I deserve to die," and beat them and throw ink on them. Yang Youli
+        楊友麗, captain of the volleyball team, takes sleeping pills; she is saved.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 249.'
+      src:
+        c: 154ef5fd
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 249: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-08.china-leadership-13
+      when: Aug. 8
+      date: '1966-08-08'
+      place: peking
+      thread: china-leadership
+      c: Tsinghua University middle school 清華附中, Peking. Yang Ailun 楊愛倫, a first-year senior of a "bad" family, struggled against in her class and held at the school, escapes and lies
+        on the railway near by; struck by a train, she survives.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 250. To check: Bu Weihua 卜偉華, 〈關於清華附中紅衛兵的印章及所謂「清華附中模式」〉, *Zuotian* 《昨天》, no. 18 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 250 n.13).
+        Check: Bu Weihua, of the school''s Red Guards: her class say no such thing happened (I, 250 n.13).'
+      src:
+        c: c887f414
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 250: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 250 n.13: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-12.china-leadership-6
+      when: Aug. 12
+      date: '1966-08-12'
+      place: peking
+      thread: china-leadership
+      c: 'Peking Industrial University 北京工業大學. Tan Lifu 譚力夫, son of Tan Zhengwen 譚正文, deputy procurator-general, and head of the cultural revolution group of the university''s third
+        department, posts with others "Starting from the Couplet" 〈從對聯談起〉: the blood line is right, and "if the father is a hero the son is a brave fellow; if the father is a reactionary
+        the son is a bastard" to be made the Party''s class line, "raised to policy."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 248.'
+      src:
+        c: bb820028
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 248: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-20.china-leadership-5
+      when: Aug. 20
+      date: '1966-08-20'
+      place: peking
+      thread: china-leadership
+      c: 'Peking Industrial University 北京工業大學. Tan Lifu 譚力夫, in the debate on the work group and the class line, says he supports the work group, praises the couplet ("very good!"),
+        and asks where the rightists are: "maybe there are rightists here today!"'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 248–249. See [[cal.1966-08-12.china-leadership-6]].'
+      src:
+        c: 2a4f80bf
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 248: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08.china-leadership-40
+      when: Aug., after the 20th
+      date: 1966-08
+      at: after 1966-08-20
+      thread: china-leadership
+      c: 'Cao Yiou 曹軼歐, Kang Sheng''s 康生 wife, telephones Tan Lifu 譚力夫 a few days after his speech: Wang Renzhong 王任重 has shown it to Kang Sheng, who praises it.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 249. Made public: 2011. To check: Mi Hedu 米鶴都, ed., *Huiyi yu fansi: Hongweibing shidai fengyun renwu koushu lishi zhi yi* 《回憶與反思：紅衛兵時代風雲人物口述歷史之一》
+        (Zhongguo shuju youxian gongsi 中國書局有限公司, 2011), 295 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 249 n.12). See [[cal.1966-08-20.china-leadership-5]]. Names: Kang Sheng.'
+      src:
+        c: 9cce6beb
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 249: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 249 n.12: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+      - name:kang-sheng
+- add:
+    entry:
+      id: cal.1966-08-20.china-leadership-6
+      when: Aug. 20
+      date: '1966-08-20'
+      place: peking
+      thread: china-leadership
+      c: Peking. Guo Lanhui 郭蘭蕙, a second-year senior whose father was made a rightist in 1957, told by the Red Guards on Saturday, Aug. 20, that a meeting will "help" her on Monday,
+        takes poison and dies.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 250.'
+      src:
+        c: 04baed45
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 250: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-17.china-leadership-3
+      when: Aug. 17
+      date: '1966-08-17'
+      place: peking
+      thread: china-leadership
+      c: Peking No. 101 Middle School 北京一〇一中學. Red Guards beat Chen Baokun 陳葆昆, art teacher, to death; more than ten teachers and cadres are beaten with him and made to crawl on the
+        cinder paths.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 267. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+      src:
+        c: 846f1b59
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 267: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-19.china-leadership-9
+      when: Aug. 19
+      date: '1966-08-19'
+      place: peking
+      thread: china-leadership
+      c: Peking, the music hall of Zhongshan Park 中山公園. Red Guards of Middle Schools nos. 4, 6 and 8 struggle against the leaders of the Peking Education Bureau and of the three schools,
+        to reverse the verdict on the schools' student unrest of 1965; twenty-odd kneel on the stage and are flogged with belts. Wen Hanjiang 溫寒江, vice-principal of no. 8, is led there
+        by a rope; Sun Guoliang 孫國梁, head of the bureau, has three ribs broken.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 267. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+      src:
+        c: d0ee401e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 267: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-19.china-leadership-10
+      when: Aug. 19
+      date: '1966-08-19'
+      place: peking
+      time_range:
+      - 1966-08-19T11:00Z
+      - 1966-08-19T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peking. In the evening Red Guards of the middle school attached to the Peking Foreign Languages Institute 北京外國語學院附中, at Hepingmen, beat to death the teachers Zhang Furen 張輔仁
+        and Zhang Fuzhen 張福臻.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 267. The words: 8月19日晚 (I, 267). To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 265 n.52).'
+      src:
+        c: e6f5a465
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 267: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-19.china-leadership-11
+      when: Aug. 19–20
+      date: '1966-08-19'
+      place: peking
+      thread: china-leadership
+      c: Peking No. 3 Girls' Middle School 北京第三女子中學. Red Guards torture the principal Sha Ping 沙坪 into the night; on the morning of the 20th, at a struggle meeting of the school's 1,600
+        teachers and students, she is beaten to death. The mathematics teacher Zhang Meiyan 張梅岩, her home searched, takes poison; the physical training teacher He Shijin 何世瑾 kills herself.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 267. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+      src:
+        c: 03dc0fe6
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 267: all'
+      tags:
+      - polity:prc
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1966-08-22.china-leadership-5
+      when: Aug. 22
+      date: '1966-08-22'
+      place: peking
+      thread: china-leadership
+      c: Peking No. 8 Middle School 北京第八中學. Red Guards beat to death Hua Jin 華錦, the school's head; the vice-principal Han Jiufang 韓九芳 is left crippled; the history teacher Shen Xianzhe
+        申先哲, beaten, kills himself.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 267. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+      src:
+        c: 8d624a0e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 267: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-23.china-leadership-8
+      when: Aug. 23
+      date: '1966-08-23'
+      place: peking
+      time: 1966-08-23T07:30Z
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peking. At 3:30 p.m. Red Guards burst into the Peking Federation of Literary and Art Circles 北京市文聯 and the Culture Bureau 文化局, make over forty old writers and cadres stand in
+        the sun with "black gang" placards, and beat them with belts, Lao She 老舍, vice-chairman of the national federation, among them; then take them to the Confucius Temple at the
+        Guozijian 國子監孔廟, make them kneel in a ring and burn the opera costumes and props there.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 267–268. The words: 下午3點半 (I, 267). Made public: 2009. To check: Zhang Min 張民, *Zhou Enlai yu Shoudu gongzuozu* 《周恩來與首都工作組》 (Zhongyang wenxian
+        chubanshe 中央文獻出版社, 2009), 167 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 268 n.54).'
+      src:
+        c: 702141f8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 267–268: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 268 n.54: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-24.china-leadership-7
+      when: Aug. 24
+      date: '1966-08-24'
+      place: peking
+      time_range:
+      - 1966-08-23T16:00Z
+      - 1966-08-23T22:00Z
+      time_band: predawn
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peking. Before dawn Lao She 老舍 drowns himself in a lake.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 268. The words: 8月24日淩晨 (I, 268). See [[cal.1966-08-23.china-leadership-8]].'
+      src:
+        c: cc2fa471
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 268: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-25.china-leadership-5
+      when: Aug. 25
+      date: '1966-08-25'
+      place: peking
+      thread: china-leadership
+      c: 'Second middle school attached to Peking Normal University 北京師範大學附屬第二中學. Red Guards kill three in the school: Jin Zhengyu 靳正宇, teacher of Chinese; Jiang Peiliang 姜培良, Party
+        branch secretary; Fan Ximan 樊希曼, mother of the student Cao Binhai 曹濱海. The principal is made to stand in the sun with thumbtacks driven into his forehead and is scalded with
+        boiling water.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 268. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+      src:
+        c: ed0c9238
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 268: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-25.china-leadership-6
+      when: Aug. 25
+      date: '1966-08-25'
+      place: peking
+      thread: china-leadership
+      c: Peking. Cao Binhai 曹濱海, a third-year senior at the Normal University's second attached middle school, quarrels with the Red Guard classmates who come to search his home and
+        wounds one with a kitchen knife. The police take him away; the Red Guards seize his mother, Fan Ximan 樊希曼, and beat her to death at the school. With the Li Wenbo case it is called
+        a "mad revenge of the class enemy."
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 268–269. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 269
+        n.56). See [[cal.1966-08-24.china-leadership-6]].'
+      src:
+        c: 9f2e455b
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 269: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 269 n.56: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-25.china-leadership-7
+      when: Aug. 25
+      date: '1966-08-25'
+      place: peking
+      thread: china-leadership
+      c: Peking No. 26 Middle School 北京二十六中. Its "Red Defense Army" 赤衛軍 struggles against 46 teachers; Gao Wanchun 高萬春, the principal, bound and made to kneel on a bench strewn with
+        gravel, kills himself after.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 268. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+      src:
+        c: ca958103
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 268: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-27.china-leadership-7
+      when: Aug. 27–28
+      date: '1966-08-27'
+      place: peking
+      thread: china-leadership
+      c: Peking, 20 Dahongluochang South Lane 大紅羅廠南巷, West City. Told by a street activist that the daughter-in-law, Wang Kekuan 汪克寬, is moving property out of the house, a policeman
+        has his brother bring Red Guards of No. 38 Middle School to search the Huang home, Aug. 27–28; finding cartridge cases, they beat the household, and on the 28th beat five of
+        them to death, Huang Ruiwu 黃瑞五 and the servant among them.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 270. Made public: 2000. To check: Li Xiang 李相, 〈北京大紅羅廠二十號血案〉, *Nanfang zhoumo* 《南方週末》, Mar. 31, 2000 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 270 n.58).'
+      src:
+        c: 42164ebc
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 270: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 270 n.58: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08.china-leadership-41
+      when: Aug., late
+      date: 1966-08
+      at: before 1966-08-21
+      place: peking
+      thread: china-leadership
+      c: Peking. Gao Yun 高雲, principal of the second middle school attached to Peking Normal University, beaten unconscious by Red Guards, is sent to the crematorium with the unnamed
+        dead; the workers find him alive and do not burn him.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 270. To check: Wang Youqin 王友琴, 〈恐怖的紅八月〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 265 n.52).'
+      src:
+        c: dee6b241
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 270: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08-23.china-leadership-9
+      when: Aug. 23–24
+      date: '1966-08-23'
+      place: peking
+      thread: china-leadership
+      c: 'Tsinghua University 清華大學, Peking. After Mao''s poster "Bombard the Headquarters" spreads among the students about Aug. 20, posters "bombarding" Liu Shaoqi 劉少奇 go up: "Reorganize
+        the Party Center, Defend Chairman Mao," "Bombard the Headquarters, Bombard Liu Shaoqi," "Pull Liu Shaoqi off His Horse" and others.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 252. Names: Liu Shaoqi.'
+      src:
+        c: dd57310f
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 252: all'
+      tags:
+      - polity:prc
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1966-08-24.china-leadership-8
+      when: Aug. 24
+      date: '1966-08-24'
+      place: peking
+      time_range:
+      - 1966-08-24T04:00Z
+      - 1966-08-24T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Tsinghua University 清華大學, Peking. The preparatory committee holding the posters against Liu Shaoqi 劉少奇 a rightist reversal, He Pengfei 賀鵬飛 of the Tsinghua University Red Guards
+        brings the Red Guards of twelve middle schools: a pledge meeting at the Tsinghua middle school in the afternoon; at 4:50 p.m. they run into Tsinghua, seal the poster area, broadcast
+        an ultimatum to tear the posters down by 6, beat dissenting students, and by night every poster is torn down. At 6 they pull down the Second Gate 二校門; they search homes, beat
+        cadres, and that night make the cadres kneel in rows and beat them, the deputy secretary Liu Bing 劉冰 among them. Yang, then a Tsinghua student, saw it.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 252–253. The words: 下午; 下午4點50分 (I, 252). Made public: 2008. To check: Liu Bing 劉冰, *Fengyu suiyue: 1964–1976 de Qinghua* 《風雨歲月——1964-1976年的清華》
+        (Dangdai Zhongguo chubanshe 當代中國出版社, 2008), 83–85 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 253 n.17). See [[cal.1966-08-23.china-leadership-9]]. Names: Liu Shaoqi.'
+      src:
+        c: b614b94d
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 252–253: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 253 n.17: all'
+      tags:
+      - polity:prc
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1966-09-27.china-leadership-5
+      when: Sept. 27
+      date: '1966-09-27'
+      place: peking
+      thread: china-leadership
+      c: Peking No. 6 Middle School 北京六中. Wang Guanghua 王光華, 19, a third-year senior of a "small proprietor" family, back from linking-up without leave, is held by the school's West
+        City Pickets in their "labor reform camp," tortured and beaten to death; that midnight he is cremated without word to his family.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 279. To check: Beijing Liuzhong Beijing gongshe 北京六中北京公社, 〈劉鄧路線在六中的滔天罪行〉 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 279 n.69).'
+      src:
+        c: 60149c58
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 279: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 279 n.69: all'
+      tags:
+      - polity:prc
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1966-10-03.china-leadership-4
+      when: Oct. 3
+      date: '1966-10-03'
+      place: peking
+      time_range:
+      - 1966-10-03T04:00Z
+      - 1966-10-03T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peking No. 6 Middle School 北京六中. In the afternoon Red Guards pour boiling water on the head of Xu Peitian 徐沛田, a retired janitor whose father owned a pedicab works; after 4
+        p.m. they beat and scald him again, and hang him.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 279. The words: 10月3日下午; 4點多鐘 (I, 279). To check: Beijing Liuzhong Beijing gongshe 北京六中北京公社, 〈劉鄧路線在六中的滔天罪行〉 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 279 n.69). See [[cal.1966-09-27.china-leadership-5]].'
+      src:
+        c: 4c2f3ae5
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 279: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 279 n.69: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-11-19.china-leadership-3
+      when: Nov. 19
+      date: '1966-11-19'
+      place: peking
+      thread: china-leadership
+      c: Peking. The day after the Peking committee's notice, people of the Cultural Revolution Group go to No. 6 Middle School, the Dong'an Market 東安市場 and other places and close the
+        private prisons. Qi Benyu 戚本禹, by his account, takes a *Jiefangjun bao* 解放軍報 reporter to the Dong'an Market that night, where a woman held as a "hooligan" is being whipped, and
+        orders the Red Guards to free the prisoners.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 279. Made public: 1966. To check: 〈中央首長在全國在京造反派批判反動路線大會上的講話〉, Dec. 17, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 279 n.70). See
+        [[cal.1966-11-18.china-leadership]].'
+      src:
+        c: a7d040c3
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 279: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 279 n.70: all'
+      tags:
+      - polity:prc
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1966-11.china-leadership-22
+      when: Nov., after the 19th
+      date: 1966-11
+      at: after 1966-11-19
+      thread: china-leadership
+      c: 'Chen Boda 陳伯達, shown the *Jiefangjun bao* reporter''s report on the Dong''an Market prison, meant for Mao, holds it back: "too dark; it cannot be sent."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 279. Made public: 1966. To check: 〈中央首長在全國在京造反派批判反動路線大會上的講話〉, Dec. 17, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 279 n.70). See
+        [[cal.1966-11-19.china-leadership-3]]. Names: Chen Boda, Mao Zedong.'
+      src:
+        c: f9548cec
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 279: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 279 n.70: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+      - name:chen-boda
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1966-11-27.china-leadership-3
+      when: Nov. 27
+      date: '1966-11-27'
+      place: peking
+      thread: china-leadership
+      c: Peking. Middle-school students at the middle school attached to Peking University 北大附中 found in secret the Capital Red Guards' United Action Committee 首都紅衛兵聯合行動委員會 (Liandong
+        聯動), a union of the East City, West City and Haidian Pickets.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 282. Made public: 2007. To check: Zhang Guangyu 張光渝, 〈告別元老〉 (Beixing chubanshe 北星出版社, Hong Kong, 2007), 60–64 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 282 n.73).'
+      src:
+        c: 6ee5d7f4
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 282: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 282 n.73: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1966-12-05.china-leadership-2
+      when: Dec. 5
+      date: '1966-12-05'
+      place: peking
+      thread: china-leadership
+      c: 'Peking. Zou Jianping 鄒建平 and others of the middle school attached to the Peking Industrial Institute 北京工業學院附中 climb the Xizhimen 西直門 wall and paint a slogan tens of meters
+        high, "The Central Cultural Revolution Group has driven us to the Liangshan; we cannot but rebel!"; slogans go up on Wangfujing 王府井 too: "The United Action Committee tolls the
+        knell of the Central Cultural Revolution Group!" "Firmly defend the revolutionary old cadres!" The day is taken as the Committee''s formal founding.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 282. To check: Zhang Guangyu 張光渝, 〈告別元老〉 (Beixing chubanshe 北星出版社, Hong Kong, 2007), 60–64 (cited by [[w.yang-jisheng-tiandi-fanfu]], I,
+        282 n.73). See [[cal.1966-11-27.china-leadership-3]].'
+      src:
+        c: b91aec8c
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 282: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 282 n.73: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-12-26.china-leadership-10
+      when: Dec. 26
+      date: '1966-12-26'
+      place: peking
+      thread: china-leadership
+      c: 'Peking Exhibition Hall theater 北京展覽館劇場. The United Action Committee, marking Mao''s birthday, holds a "pledge rally to destroy self and establish public": its slogans call
+        on "some people of the Central Cultural Revolution Group" not to be too arrogant, back the speeches of the Military Commission''s four vice-chairmen, would put every unit under
+        the Commission''s leadership, and demand the release of the cadres'' children held.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 282. To check: Mi Hedu 米鶴都, *Xinlu: toushi gongheguo tonglingren* 《心路：透視共和國同齡人》 (Zhongyang wenxian chubanshe 中央文獻出版社, 2011), 239 (cited
+        by [[w.yang-jisheng-tiandi-fanfu]], I, 282 n.74). See [[cal.1966-12-05.china-leadership-2]].'
+      src:
+        c: 9cd7599a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 282: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 282 n.74: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-12-16.china-leadership-6
+      when: Dec. 16
+      date: '1966-12-16'
+      place: peking
+      thread: china-leadership
+      c: Peking. The United Action Committee storms the Ministry of Public Security, the first of six storms, with the slogans "Burn Xie Fuzhi," "Fry Jiang Qing in oil," "Down with the
+        Third Headquarters," "Long live Liu Shaoqi"; Qi Benyu 戚本禹, "a cadre of the seventeenth grade," is mocked, and Guan Feng 關鋒 threatened with being run down by a car.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 285. See [[cal.1966-12-05.china-leadership-2]]. Names: Xie Fuzhi, Jiang Qing, Liu Shaoqi. Check: the page counts six storms and gives five
+        days (Dec. 16, 28, 31, Jan. 6, 11).'
+      src:
+        c: 00f2eae8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 285: all'
+      tags:
+      - polity:prc
+      - name:xie-fuzhi
+      - name:jiang-qing
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1966-12-28.china-leadership-6
+      when: Dec. 28
+      date: '1966-12-28'
+      place: peking
+      thread: china-leadership
+      c: Peking. The United Action Committee storms the Ministry of Public Security again.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 285. See [[cal.1966-12-16.china-leadership-6]].'
+      src:
+        c: c4897ce8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 285: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-12-31.china-leadership-7
+      when: Dec. 31
+      date: '1966-12-31'
+      place: peking
+      thread: china-leadership
+      c: Peking. The United Action Committee storms the Ministry of Public Security again.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 285. See [[cal.1966-12-16.china-leadership-6]].'
+      src:
+        c: c4897ce8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 285: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-01-06.china-leadership-14
+      when: Jan. 6
+      date: '1967-01-06'
+      place: peking
+      thread: china-leadership
+      c: Peking. The United Action Committee storms the Ministry of Public Security again.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 285. See [[cal.1966-12-16.china-leadership-6]].'
+      src:
+        c: c4897ce8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 285: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-01-11.china-leadership-9
+      when: Jan. 11
+      date: '1967-01-11'
+      place: peking
+      thread: china-leadership
+      c: Peking. The United Action Committee storms the Ministry of Public Security again.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 285. See [[cal.1966-12-16.china-leadership-6]].'
+      src:
+        c: c4897ce8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 285: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-12.china-leadership-17
+      when: Dec., after the 5th
+      date: 1966-12
+      at: after 1966-12-05
+      thread: china-leadership
+      c: 'Mao, soon after the United Action Committee''s founding: "these Red Guards are revolutionary in summer and not in winter."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 284. Made public: 2001. To check: [[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2008, 2nd ed., 175) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 284 n.79). See [[cal.1966-12-05.china-leadership-2]]. Names: Mao Zedong.'
+      src:
+        c: 461b1ab6
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 284: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1966-12.china-leadership-18
+      when: Dec., late
+      date: 1966-12
+      at: before 1966-12-21
+      place: peking
+      thread: china-leadership
+      c: Peking University 北京大學. A long poster at the Triangle signed by the United Action Committee, its notice, calls for smashing "the left opportunist line of the two chairmen and
+        some members of the Central Committee," abolishing "all autocratic systems" and calling a national Party congress to elect a Central Committee. Yang saw it there.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 282–283. To check: Zhang Guangyu 張光渝, 〈告別元老〉 (Beixing chubanshe 北星出版社, Hong Kong, 2007), 65–66 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 283 n.76); Zhou Liangxiao 周良霄 and Gu Juying 顧菊英, *Shinian wenge dashiji* 《十年文革大事記》 (Xindalu chubanshe 新大陸出版社, Hong Kong, 2008), 217–218 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 283 n.77). Check: the date: "late December or early January" (I, 282); the Committee''s heads deny it, Mi Hedu calling it a "false Liandong''s" (I, 283), and the Committee''s
+        notice no. 003 in Zhang Guangyu names no two chairmen (I, 283 n.76).'
+      src:
+        c: 4d1b8f84
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 282–283: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 283 n.76: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 283 n.77: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-03-27.china-leadership-3
+      when: Mar. 27
+      date: '1967-03-27'
+      place: peking
+      thread: china-leadership
+      c: Peking. Li Zhongqi 李鐘奇, deputy commander of the Peking Garrison in charge of the students' military training, tells high cadres' children their parents served greatly in the
+        Red Army, the war against Japan and the building of socialism, and they must "take over from their parents"; a dispute follows.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 251.'
+      src:
+        c: ad081d75
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 251: all'
+      tags:
+      - polity:prc
+- cite:
+    id: cal.1967-04-03.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 251–252 (the Central Cultural Revolution Group''s meeting of middle-school student delegates at the Great Hall of the People 人民大會堂; Chen
+      Boda calls Li Zhongqi''s 李鐘奇 thinking "dragons beget dragons, phoenixes beget phoenixes, a rat''s son digs holes"; the radical middle-school Red Guards take their name, the "April
+      3 faction" 四三派, from the day)'
+- to-check:
+    id: cal.1967-04-03.china-leadership
+    add: '〈論新思潮——四三派宣言〉, *Sisan zhanbao* 《四三戰報》, no. 1, June 11, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 252 n.15a); Mi Hedu 米鶴都, *Xinlu: toushi gongheguo tonglingren* 《心路：透視共和國同齡人》
+      (Zhongyang wenxian chubanshe 中央文獻出版社, 2011), 278 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 252 n.15b)'
+- place:
+    id: cal.1967-04-03.china-leadership
+    at: peking
+    basis: n
+    note: 'Yang, I, 251: the Great Hall of the People'
+- add:
+    entry:
+      id: cal.1967-04-04.china-leadership-4
+      when: Apr. 4
+      date: '1967-04-04'
+      place: peking
+      thread: china-leadership
+      c: Peking. The Central Cultural Revolution Group, to balance the middle-school bodies, receives another batch of their delegates; the "April 4 faction," more of cadres' children
+        and nearer the blood line, takes its name from the day.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 251–252. See [[cal.1967-04-03.china-leadership]].'
+      src:
+        c: 5b0a9495
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 251: all'
+      tags:
+      - polity:prc
+- cite:
+    id: cal.1966-05-29.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 235 (the afternoon of May 29, at the Yuanmingyuan 圓明園, they adopt "Red Guard" as their common signature, holding that the school''s Party
+      branch carries out a bourgeois educational line)'
+- place:
+    id: cal.1966-05-29.china-leadership-2
+    at: peking
+    basis: n
+    note: 'Yang, I, 235: the Yuanmingyuan'
+- check:
+    id: cal.1966-05-29.china-leadership-2
+    text: 'Check: the hour: Yang (I, 235), the afternoon of May 29; MacFarquhar and Schoenhals (104), after the evening study session.'
+- to-check:
+    id: cal.1966-05-29.china-leadership-2
+    add: Song Bolin 宋柏林, *Hongweibing xingshuai lu* 《紅衛兵興衰錄》 (Desai chuban gongsi 德賽出版公司, Hong Kong, 2006), Luo Xiaohai 駱小海 preface, 17 (cited by [[w.yang-jisheng-tiandi-fanfu]], I,
+      235 n.40)
+- cite:
+    id: cal.1966-06-02.china-leadership-6
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 235 (June 2, the poster "Vow to Defend Proletarian Power, Vow to Defend Mao Zedong Thought" 〈誓死保衛無產階級政權，誓死保衛毛澤東思想〉, signed "Red Guard,"
+      with over 100 signatures below, an open challenge to the school''s leaders)'
+- place:
+    id: cal.1966-06-02.china-leadership-6
+    at: peking
+    basis: n
+    note: 'Yang, I, 235: the Tsinghua middle school, Peking (the run-1 ruling)'
+- cite:
+    id: cal.1966-06-24.china-leadership-6
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 236 (June 24, two posters in reply to the *Zhongguo qingnian bao* editorial of June 23, "Long Live the Proletarian Revolutionary Rebel
+      Spirit" 〈無產階級的革命造反精神萬歲〉 one of them: "revolution is rebellion"; "not to rebel is one hundred percent revisionism")'
+- place:
+    id: cal.1966-06-24.china-leadership-6
+    at: peking
+    basis: n
+    note: 'Yang, I, 236: the Tsinghua middle school, Peking (the run-1 ruling)'
+- cite:
+    id: cal.1966-08-04.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 251 (Zhou, at the meeting of 20,000 at Tsinghua, does not support "poor and lower-middle peasants'' children''s associations" in the universities)'
+- cite:
+    id: cal.1966-08-06.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 265–266 (the Red Guards of the middle schools attached to Tsinghua, the People''s University and the Aeronautics Institute hand out an
+      "Urgent Appeal" against beating: the true left of each school to unite and act, "strictly stop beating people at will, hooliganism and the wrecking of state property"; it has no
+      effect)'
+- place:
+    id: cal.1966-08-06.china-leadership-4
+    at: peking
+    basis: n
+    note: 'Yang, I, 265–266: three Peking middle schools'' Red Guards'
+- to-check:
+    id: cal.1966-08-06.china-leadership-4
+    add: Qinghua fuzhong, Renda fuzhong, Beihang fuzhong hongweibing 清華附中、人大附中、北航附中紅衛兵, 〈紅衛兵緊急呼籲書〉, in Qinghua fuzhong hongweibing 清華附中紅衛兵, ed., *Wen cangmang dadi, shei zhu chenfu?*
+      《問蒼茫大地、誰主沉浮?》 (Sept. 1966) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 266 n.53)
+- add:
+    entry:
+      id: cal.1966-09-15.china-leadership-10
+      when: Sept. 15
+      date: '1966-09-15'
+      thread: china-leadership
+      c: 'Zhou Enlai 周恩來, receiving students from Xi''an, disowns some of the posters on Peking''s streets, "Struggle to Wipe Out Islam Completely" 〈為徹底消滅伊斯蘭教而鬥爭〉 among them: it does
+        not accord with Mao''s thought; Islam is a matter of ideology and national custom, held by the minorities of the Northwest, by Pakistan and Afghanistan, by East and West Africa,
+        by over 400 million in the world.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 262. Made public: 2016. Names: Zhou Enlai, Mao Zedong. Check: the note (I, 262 n.37) is lost from the text layer: its source not read.'
+      src:
+        c: 102b0a86
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 262: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+      - name:zhou-enlai
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1966-09-05.china-leadership-9
+      when: Sept. 5
+      date: '1966-09-05'
+      thread: china-leadership
+      c: 'Tan Zhenlin 譚震林, vice-premier, in an instruction to the Party committee of the Peking Agricultural University 農業大學: let the young students make a stir, as the cities have not
+        had a big stir since 1949; without one, how can so many bad men be cleared out?'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 264. Made public: 2016. Names: Tan Zhenlin.'
+      src:
+        c: 85398d32
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 264: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+      - name:tan-zhenlin
+- add:
+    entry:
+      id: cal.1966-08-19.china-leadership-12
+      when: Aug. 19
+      date: '1966-08-19'
+      place: peking
+      thread: china-leadership
+      c: Peking. Red Guards smash the "Quanjude" 全聚德 roast duck restaurant's signboard and put up "Peking Roast Duck Restaurant"; the landscapes and flower paintings in its dining rooms,
+        corridors and staff quarters are replaced with portraits of Mao.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 257. Names: Mao Zedong.'
+      src:
+        c: 27fd1782
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 257: all'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1966-11-28.china-leadership-4
+      when: Nov. 28
+      date: '1966-11-28'
+      thread: china-leadership
+      c: Qufu 曲阜, Shandong. Peking Red Guards smash the statues of the Duke of Zhou and other ancients.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 258.'
+      src:
+        c: 2dddb3d6
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 258: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-09-20.china-leadership-3
+      when: Sept. 20
+      date: '1966-09-20'
+      place: xian
+      thread: china-leadership
+      c: Xi'an 西安. The "Red Terror Team" 紅色恐怖隊, mostly high cadres' children, is founded on the model of Peking's West City Pickets and in close touch with them; its members beat people,
+        search homes and drive the families of the "four kinds" to the countryside, and later send men to Peking to join the United Action Committee's storming of the Ministry of Public
+        Security.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 271. Made public: 2004. To check: Dong Shengli 董勝利, oral account recorded by Bai Jing 白晶, 〈關於西安紅色恐怖隊的口述回憶〉, Oct. 3, 2004, *Jiyi* 《記憶》, no.
+        10 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 271 n.60). See [[cal.1966-08-25.china-leadership-4]].'
+      src:
+        c: 0ef15dbb
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 271: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 271 n.60: all'
+      tags:
+      - polity:prc
+- cite:
+    id: cal.1966-08-23.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 261–262 (the *Renmin ribao*''s front page of Aug. 23: the news "The Red Guards Fiercely Assault the Customs of the Bourgeoisie," "the revolutionary
+      masses most warmly and firmly back the young Red Guards'' revolutionary rebel spirit," with two editorials in the first and second places, "Very Good!" 〈好得很！〉 and "Workers, Peasants
+      and Soldiers Must Firmly Support the Revolutionary Students")'
