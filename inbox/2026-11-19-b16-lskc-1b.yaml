@@ -2,8 +2,43 @@ patch: '2026-11-19-b16-lskc-1b'
 by: 'Claude (batch 16, reader 4b: Lịch sử kháng chiến chống Mỹ, cứu nước, vols. I–III, the rest), Nov. 19, 2026'
 ops:
 - place-key:
+    key: ba-dua
+    name: Ba Dừa
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: ba-tri
+    name: Ba Tri
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: ben-the
+    name: Bến Thế
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: ben-tuong
+    name: Bến Tượng
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: binh-ba
     name: Bình Ba
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: bu-dang
+    name: Bù Đăng
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: cau-khoi
+    name: Cầu Khởi
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: cau-van
+    name: Cầu Ván
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
@@ -17,8 +52,18 @@ ops:
     zone: Asia/Bangkok
     in: drv
 - place-key:
+    key: cho-gao
+    name: Chợ Gạo
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: dat-do
     name: Đất Đỏ
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: dien-ngoc
+    name: Điện Ngọc
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
@@ -32,6 +77,11 @@ ops:
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
+    key: hang-duong
+    name: Hàng Đường
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
     key: hoa-thinh
     name: Hòa Thịnh
     zone: Asia/Ho_Chi_Minh
@@ -39,6 +89,41 @@ ops:
 - place-key:
     key: hon-dat
     name: Hòn Đất
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: long-hung
+    name: Long Hưng
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: long-tan
+    name: Long Tân
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: long-trung
+    name: Long Trung
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: nam-ngan-canal
+    name: Năm Ngàn canal
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: thanh-phong
+    name: Thạnh Phong
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: to-hap
+    name: Tô Hạp
+    zone: Asia/Ho_Chi_Minh
+    in: rvn
+- place-key:
+    key: trung-hoa
+    name: Trung Hòa
     zone: Asia/Ho_Chi_Minh
     in: rvn
 - place-key:
@@ -314,15 +399,15 @@ ops:
       - polity:drv
 - add:
     entry:
-      id: cal.1961-12-29.vietnam-hanoi-2
-      when: Dec. 29
-      date: '1961-12-29'
+      id: cal.1962-01-01.vietnam-hanoi-2
+      when: Jan. 1
+      date: '1962-01-01'
       place: hon-dat
       thread: vietnam-hanoi
       also:
       - vietnam-operations
-      c: Rạch Giá. Saigon sweeps Châu Thành district with thousands of men, regular, Civil Guard and Self-Defense, Dec. 29. The district Party office, the district troops, militia and guerrillas hold three days, then shut themselves in the Hòn cave, halfway up Hòn Đất. Saigon, led by American advisers, surrounds the hill; poison in the stream, fire and smoke into the cave; up to 32 assaults beaten off in a day. The U Minh Battalion marches from An Biên to break the siege and the districts of Hà Tiên, Giồng Riềng and Gò Quao attack posts to draw the Saigon side off. After ten days Saigon withdraws, hundreds of dead and wounded with it, by the history's count.
-      n: '[[w.lich-su-khang-chien-chong-my]], III, 164–65. Check: the last day of the ten.'
+      c: Rạch Giá. After three days against the Saigon sweep of Châu Thành district that began Dec. 29, the district Party office, the district troops, militia and guerrillas shut themselves in the Hòn cave, halfway up Hòn Đất. Saigon, led by American advisers, surrounds the hill; poison in the stream, fire and smoke into the cave; up to 32 assaults beaten off in a day. The U Minh Battalion marches from An Biên to break the siege and the districts of Hà Tiên, Giồng Riềng and Gò Quao attack posts to draw the Saigon side off. After ten days Saigon withdraws, hundreds of dead and wounded with it, by the history's count.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 164–65. Check: the day: three days from the sweep of Dec. 29 ([[cal.1961-12-29.vietnam-hanoi]]); the history counts ten days of fighting, the last day not given.'
       tags:
       - polity:drv
 - add:
@@ -489,6 +574,733 @@ ops:
       tags:
       - polity:drv
       - ok:fields-place
+- add:
+    entry:
+      id: cal.1961.vietnam-hanoi-4
+      when: '1961, early'
+      date: '1961'
+      at: before 1961-01
+      thread: vietnam-hanoi
+      also:
+      - vietnam
+      c: Tens of thousands driven into the land-development and "prosperity" zones of Long Khốt, Mộc Hóa, Thành Phước, Canal 12, Vàm Xáng, Cà Ná and Gò Ông Lê rise early in the year, break up large parts of the zones and go back to their old villages.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 140. Check: the day; the history names the zones, not the provinces.'
+      tags:
+      - polity:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-07.vietnam-hanoi-5
+      when: July–Oct.
+      date: '1961-07'
+      place: thu-dau-mot
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Thủ Dầu Một. In the stretch of July to October the province's local troops and guerrillas beat the Saigon side's clearing of the Thuận An Hòa forest.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 154. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1961-07.vietnam-hanoi-6
+      when: July–Oct.
+      date: '1961-07'
+      place: thu-dau-mot
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Thủ Dầu Một. In the stretch of July to October the province's forces destroy the Saigon side at Tua Cầu and Trại Cưa.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 154. Check: the day; the history gives no figures.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1961-07.vietnam-hanoi-7
+      when: July–Oct.
+      date: '1961-07'
+      place: thu-dau-mot
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Thủ Dầu Một. In the stretch of July to October the province's forces ambush military vehicles at Thạch An.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 154. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1961-07.vietnam-hanoi-8
+      when: July–Oct.
+      date: '1961-07'
+      place: ben-the
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bến Cát. In the stretch of July to October Company 304 of the province, with the guerrillas of Tân An commune, with a man inside the post, destroys two Saigon platoons at the Bến Thế post.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 154. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1961-07.vietnam-hanoi-9
+      when: July–Oct.
+      date: '1961-07'
+      place: ben-cat
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bến Cát. In the stretch of July to October a guerrilla squad of Phú An commune drives back a Saigon platoon and eight bulldozers brought to clear the ground for a strategic hamlet. Huỳnh Văn Đảnh is later named a Hero of the People's Armed Forces.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 154. Names: Huỳnh Văn Đảnh. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1961.vietnam-hanoi-5
+      when: '1961, late'
+      date: '1961'
+      at: before 1961-09
+      place: ninh-thuan
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Ninh Thuận. At the end of the year Battalion 120 sends half its force to the north of the province, destroys the Mỹ Tường post and ambushes the relief, hurting a reinforcing Civil Guard company of the Phan Rang subsector.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 162. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1962-04-20.vietnam-hanoi
+      when: Apr. 20
+      date: '1962-04-20'
+      place: dien-ngoc
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Quảng Nam. Apr. 20 a Saigon commando company and nearly a platoon of Civil Guard and Self-Defense men surround a squad of seven sappers under Lê Tấn Hiền and Võ Như Hưng, with three cadres of Điện Bàn, in Hamlet 4, Điện Ngọc commune. The ten fight all day, from a dry well in the middle of a field, against a force 50 times theirs; at night they draw the Saigon side off and get out with the wounded. Over 100 of the Saigon side killed, by the history's count; four of the ten dead, one wounded.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 173–74. Names: Lê Tấn Hiền, Võ Như Hưng.'
+      tags:
+      - polity:drv
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1962-03.vietnam-hanoi
+      when: Mar.–June
+      date: '1962-03'
+      place: binh-duong
+      thread: vietnam-hanoi
+      also:
+      - vietnam
+      c: Bình Dương. In the stretch of March to June the province's people hold 38 rallies and demonstrations and 1,072 direct struggles with the Saigon government, against the Sunrise campaign and for the dissolving of the strategic hamlets.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 171. Check: the day; the figures are the history''s.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1962-03.vietnam-hanoi-2
+      when: Mar.–June
+      date: '1962-03'
+      place: binh-duong
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Bình Dương. In the stretch of March to June, while Saigon sweeps, the province''s troops and militia fight 253 actions: 300 of the Saigon army and 7 military vehicles destroyed, by the history''s count.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 171. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1962-10-26.vietnam-hanoi
+      when: Oct. 26
+      date: '1962-10-26'
+      place: saigon
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      - vietnam
+      c: Saigon. The Saigon government holds an exhibition of the armed forces' "achievements" before the City Hall, with modern arms, for the national day. Commandos of Team 155 throw grenades at the helicopter on show and kill Maj. Phan Bội Ngọc, who was giving the commentary; the exhibition is closed that day.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 185. Names: Phan Bội Ngọc. Check: the American record not read.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1962-12.vietnam-hanoi-2
+      when: Dec.
+      date: '1962-12'
+      place: saigon
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      - vietnam
+      c: Saigon. In December Saigon's commandos kill eight American advisers with grenades at the Bạch Đằng wharf.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 185. Check: the day; the American record not read.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1962-12.vietnam-hanoi-3
+      when: Dec.
+      date: '1962-12'
+      place: saigon
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      - vietnam
+      c: Saigon. In December commandos kill six Americans with grenades near the Cancer Institute and the Bảy Hiền crossing.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 185–86. Check: the day; the American record not read.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1962-12.vietnam-hanoi-4
+      when: Dec.
+      date: '1962-12'
+      place: saigon
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      - vietnam
+      c: Saigon. In December commandos kill ten American advisers in a villa at the corner of Trương Tấn Bửu and Ngô Đình Khôi streets.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 186. Check: the day; the American record not read.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-05.vietnam-hanoi-4
+      when: May
+      date: '1963-05'
+      place: tam-ky
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Quảng Nam. In May, at the time of the Măng Xim fight, the province''s local forces and guerrillas go down to the stretch of Route 1: 32 hamlets of 12 communes west of Tam Kỳ rise and take power; some targets in the town are raided and the Mò O strongpoint destroyed.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 253. Check: the day; the history puts it at the time of the Măng Xim fight, May 4–15.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-05.vietnam-hanoi-5
+      when: May
+      date: '1963-05'
+      place: kontum
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Kon Tum. Regiment 42 of the Saigon army sweeps the base area north of Kon Tum, to relieve the pressure on the Đắk Pét post and to back the Civil Guard in holding strategic hamlets. Battalion 407 (sappers) joins Battalion 200 and the sweep is beaten: hundreds put out of action, many arms and goods taken, by the history''s count.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 245. Check: the day; the history does not date the sweep and puts it after the Đắk Pét attack of May 1963.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963.vietnam-hanoi-4
+      when: '1963, early'
+      date: '1963'
+      at: before 1963-01
+      place: binh-thuan
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Bình Thuận. In the first months of the year the province''s armed forces in the base area beat three operations of the Saigon 3d Division: Sơn Dương I, Sơn Dương II and Bình Lâm.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 259. Check: the days.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963.vietnam-hanoi-5
+      when: '1963'
+      date: '1963'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Region 6. Battalion 840 of the region takes the Hằng Tổ strongpoint by surprise and ambushes a column of 21 military vehicles on Route 21, to draw Saigon forces off, and helps the Bahnar to kill oppressors and break up a concentration zone.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 260. Check: the day; the history gives neither the date nor the province.'
+      tags:
+      - polity:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963.vietnam-hanoi-6
+      when: '1963'
+      date: '1963'
+      place: binh-thuan
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bình Thuận. After hurting the Phi Long and Phi Hổ strongpoints, the province's troops with Bắc Bình district's ambush a convoy of military goods at Bàu Sen, on Route 1, and destroy a Civil Guard company and four Self-Defense platoons sweeping, taking 160 infantry weapons. They then strike the Bình Lâm post and hurt a Civil Guard company there.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 260. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963.vietnam-hanoi-7
+      when: '1963, mid'
+      date: '1963'
+      at: before 1963-05
+      place: binh-thuan
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bình Thuận. In the middle of the year the province's troops with Tánh Linh district's beat a sweep by two Civil Guard companies led by the Tánh Linh district chief at Suối Kết, and the people of the hamlets rise.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 260. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-07.vietnam-hanoi-6
+      when: July, early
+      date: '1963-07'
+      place: to-hap
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Khánh Hòa. After 38 days of an operation by 2,500 Saigon main-force men with air and artillery, under Gen. Tôn Thất Đính, on the base area in the Tô Hạp river basin, Đính orders the withdrawal, the plan given up. The people had blocked the paths with crossbows, stone traps and spike pits; the guerrillas of the highlands sniped at the columns; hundreds of Saigon soldiers dead, by the history's count.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 260–61. Names: Tôn Thất Đính. Check: the day: the history gives 38 days from the opening, June 1 ([[cal.1963-06-01.vietnam-hanoi-2]]), which makes about July 8.'
+      tags:
+      - polity:drv
+      - name:ton-that-dinh
+- add:
+    entry:
+      id: cal.1963-07.vietnam-hanoi-5
+      when: July–Oct.
+      date: '1963-07'
+      place: quang-ngai-province
+      thread: vietnam-hanoi
+      also:
+      - vietnam
+      c: 'Quảng Ngãi, Bình Định. In the stretch of July to October the two provinces hold 1,524 direct struggles against the Saigon side, over a million people in all, and destroy strategic hamlets 1,876 times: over 400 of the 900 built, by the history''s count.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 254. Check: the day; the figures are the history''s.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-04.vietnam-hanoi-3
+      when: Apr., early
+      date: '1963-04'
+      place: ben-tre
+      thread: vietnam-hanoi
+      also:
+      - vietnam
+      c: Bến Tre. In early April the Provincial Committee holds an enlarged conference. Since the new year Saigon has swept nearly every district and set up 129 more strategic hamlets; the freed area is narrower, the armed force weak, the main force dispersed. The conference holds it wrong not to fight the sweeps by arms. It decides to train and arm the two main-force companies, add a third and a support company, make the signal, scout, sapper and engineer platoons companies, fix the commands, and sets the "Ấp Bắc" emulation drive of the Central Office's Military Committee for the province.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 268–69. Made public: 2013. Check: the day; the history does not give the conference''s place.'
+      tags:
+      - polity:drv
+      - vis:only:drv
+- add:
+    entry:
+      id: cal.1963-04.vietnam-hanoi-4
+      when: Apr., late
+      date: '1963-04'
+      place: thanh-phong
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Bến Tre. At the end of April and the start of May the province''s military board takes Companies 1 and 2 of the main force to the Thạnh Phong base, Thạnh Phú district, to train: covered L-shaped bunkers, fire at helicopters and M113s, mobile attack and ambush from squad to company, on the model of Ấp Bắc.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 269–70. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-04.vietnam-hanoi-5
+      when: Apr., mid
+      date: '1963-04'
+      place: long-hung
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Mỹ Tho. In mid-April Company 2 of Battalion 514 destroys a Saigon company on a sweep at Long Hưng; the people rise with it, kill three Self-Defense squads and break the strategic hamlets of Kim Sơn and Vĩnh Kim.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 264–65. Check: the day; the history dates it "at this time", the Thị Qua bridge attack of mid-April.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-04.vietnam-hanoi-6
+      when: Apr., mid
+      date: '1963-04'
+      place: cho-gao
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Mỹ Tho. In mid-April Company 2 of Battalion 514 goes to Chợ Gạo and breaks the Thạnh Trị strategic hamlet area.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 265. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-04.vietnam-hanoi-7
+      when: Apr., mid
+      date: '1963-04'
+      place: long-trung
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Mỹ Tho. In mid-April Company 1 of Battalion 514 with the people of Long Trung and Long Tiên, Cai Lậy, breaks up a large part of the strategic hamlets and sends the families back to their old villages.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 265. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-07-16.vietnam-hanoi-2
+      when: July 16
+      date: '1963-07-16'
+      place: trung-hoa
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Mỹ Tho. The night of July 16 Company 2 of Battalion 514 raids the Trung Hòa concentration zone, Chợ Gạo, destroys a Civil Guard platoon and helps the people to break out and go home.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 266–67.'
+      tags:
+      - polity:drv
+      time_range:
+      - '1963-07-16T14:00Z'
+      - '1963-07-16T16:00Z'
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1963-07-17.vietnam-hanoi
+      when: July 17
+      date: '1963-07-17'
+      place: cho-gao
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Mỹ Tho. July 17 Company 2 of Battalion 514 and Chợ Gạo district''s force beat back a raid by a battalion of the Saigon 7th Division and two Civil Guard companies: 40 killed and a fighter-bomber shot down at the Ông Hậu bridge, Mỹ Tịnh An commune, by the history''s count.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 267.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-06-20.vietnam-hanoi
+      when: June 20
+      date: '1963-06-20'
+      place: nam-ngan-canal
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Kiến Tường. Saigon opens the second stage of Đức Thắng 23 along the Năm Ngàn canal, June 20. The Provincial Committee and military board order the main, local and guerrilla forces to lie in wait and strike the columns, hurting part of their force and means.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 273. Check: the American record not read; the stage''s opening, the first being Mar. 19 ([[cal.1963-03-19.vietnam-hanoi]]).'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-09.vietnam-hanoi-6
+      when: Sept.
+      date: '1963-09'
+      place: cau-van
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bến Tre. In September, with the main force's new Company 3 and Thạnh Phú's troops, a raid hurts Civil Guard Company 854 heavily at Cầu Ván, Giao Thạnh commune, and the people of some strategic hamlets of the district rise and break them.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 272. Check: the day; the history dates it "in the same time" as the Mỹ Nhơn and Sơn Phú fights of Sept. 2 and 9.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-10.vietnam-hanoi-9
+      when: Oct.–Dec.
+      date: '1963-10'
+      place: ba-dua
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Mỹ Tho. In the stretch of October to December Battalion 261 besieges the Ba Dừa strongpoint, south of Route 4, and its garrison surrenders. The posts of Long Trung, Long Khánh, Long Tiên, Tam Bình, Cẩm Sơn and Xuân Sơn are abandoned; the battalion goes on to free Đông Hòa and Hiệp Đức.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 282. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-11.vietnam-hanoi-4
+      when: Nov., late
+      date: '1963-11'
+      place: long-thanh
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Biên Hòa. In late November Long Thành district's troops with the guerrillas of its communes and hamlets ambush on Route 15 a main-force unit sweeping to widen a base and gather the people; many killed, the subsector chief among them.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 295. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-11.vietnam-hanoi-5
+      when: Nov., late
+      date: '1963-11'
+      place: long-thanh
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Biên Hòa. In late November, after the Route 15 ambush, a party of Long Thành''s troops in Saigon uniforms drives into the Đờ La post in the post commander''s own car and takes it: the post chief and the hamlet chief seized.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 295–96. Check: the day; the place of Đờ La.'
+      tags:
+      - polity:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-11.vietnam-hanoi-6
+      when: Nov., late
+      date: '1963-11'
+      place: long-tan
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Biên Hòa. In late November the unit's agitation among the troops brings the garrison of the Long Tân post to lay down its arms; cadres go down to the hamlets and the people rise and take power. Over 1,000 young men are signed up for the armed force in the same time.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 296. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963.vietnam-hanoi-8
+      when: '1963, late'
+      date: '1963'
+      at: before 1963-09
+      place: ben-tuong
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Thủ Dầu Một. At the end of the year the secret Party branch in the Bến Tượng strategic hamlet leads a sudden rising: the worst oppressors killed, the Self-Defense men disarmed, the fence cut, the ditch filled, and the families go home in parties. The hamlet is broken for good.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 298. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-07.vietnam-hanoi-7
+      when: July, early
+      date: '1963-07'
+      place: hang-duong
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Tây Ninh. In early July the troops and people destroy the Hàng Đường post, Thanh Điền commune, Gò Dầu district.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 299. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-07.vietnam-hanoi-8
+      when: July, early
+      date: '1963-07'
+      place: cau-khoi
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Tây Ninh. In early July the troops and people destroy the Cầu Khởi post, Dương Minh Châu district.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 299. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1963-07.vietnam-hanoi-9
+      when: July, early
+      date: '1963-07'
+      place: lam-vo
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Tây Ninh. In early July the troops and people destroy the Lâm Vồ post, at Tây Ninh town.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 299. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964-03-18.vietnam-hanoi-2
+      when: Mar. 18
+      date: '1964-03-18'
+      place: ba-tri
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bến Tre. The morning of Mar. 18 Battalion 263 of Military Region 8 with two of the province's companies destroys Battalion 2, the "Red Eagle" battalion, of Regiment 12, 9th Division of the Saigon army, at Ba Tri.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 347.'
+      tags:
+      - polity:drv
+      time_range:
+      - '1964-03-17T22:00Z'
+      - '1964-03-18T04:00Z'
+      time_band: morning
+      time_zone: Asia/Ho_Chi_Minh
+- add:
+    entry:
+      id: cal.1964-04.vietnam-hanoi-2
+      when: Apr.
+      date: '1964-04'
+      place: thu-dau-mot
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Thủ Dầu Một. In April Company 303 of Phước Thành with the local troops of Phú Giáo and Tân Uyên and guerrillas destroys the Tân Bình and Nhà Đỏ posts and frees Tân Bình commune completely.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 359–60. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964.vietnam-hanoi-2
+      when: '1964'
+      date: '1964'
+      place: bu-dang
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Phước Long. Battalion 240 of Region 10 with the province's troops attacks the Bù Đăng subsector, destroys the whole garrison and levels the posts.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 360. Check: the day; the history gives none, between acts of April and of March.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964.vietnam-hanoi-3
+      when: '1964'
+      date: '1964'
+      place: bien-hoa
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Biên Hòa. The province's Company 240, Company 245 and the engineer company destroy the Đầm Giá tower.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 360. Check: the day; the history gives none.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964.vietnam-hanoi-4
+      when: '1964'
+      date: '1964'
+      place: bien-hoa
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Biên Hòa. The province's Company 240, Company 245 and the engineer company destroy the Đại An post.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 360. Check: the day; the history gives none.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964.vietnam-hanoi-5
+      when: '1964'
+      date: '1964'
+      place: bien-hoa
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Biên Hòa. The province's Company 240, Company 245 and the engineer company destroy the Cá Trê post.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 360. Check: the day; the history gives none.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964-03.vietnam-hanoi-3
+      when: Mar.
+      date: '1964-03'
+      place: phuoc-tuy
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Bà Rịa, Long Khánh. From March the destroying of the strategic hamlets goes fast: Bình Lộc, Bảo Chánh, Bảo Vinh and Suối Cát are freed, and the freed area spreads to the Route 2 region, Châu Thành and Long Đất.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 360. Check: the day; the history gives no end to the stretch.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964.vietnam-hanoi-6
+      when: '1964'
+      date: '1964'
+      place: can-tho
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Cần Thơ. The province's troops with Phụng Hiệp district's destroy four posts and break the strategic hamlets where Châu Thành, Phụng Hiệp and Kế Sách districts meet.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 360. Check: the day; the history gives none.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964.vietnam-hanoi-7
+      when: '1964'
+      date: '1964'
+      place: hai-van-pass
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Quảng Nam. The guerrillas ambush many Saigon military convoys in a row on the Hải Vân Pass.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 361. Check: the days; the history gives none.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964.vietnam-hanoi-8
+      when: '1964'
+      date: '1964'
+      place: tuy-hoa
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      - vietnam
+      c: Phú Yên. The guerrillas of Tuy Hòa take an American adviser alive in broad daylight.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 361. Check: the day, the time of day and the adviser''s name; the American record not read.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964.vietnam-hanoi-9
+      when: '1964'
+      date: '1964'
+      place: tuy-hoa
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Phú Yên. Lê Thị Kinh, 75, of Hòa Đồng, Tuy Hòa, lies down in front of a Saigon armored column and turns back all seven M113s to Tuy Hòa.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 361. Names: Lê Thị Kinh. Check: the day; the history gives none.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964-08-18.vietnam-hanoi
+      when: Aug. 18–22
+      date: '1964-08-18'
+      place: saigon
+      thread: vietnam-hanoi
+      also:
+      - vietnam-saigon
+      c: Saigon. Aug. 18–22 pupils and students hold a large symposium condemning the Americans and Khánh and demanding that the Vũng Tàu charter be cancelled. It opens the street struggle against the charter in the cities.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 357. Names: Nguyễn Khánh. Check: the place of the symposium; the history gives the city only by the next sentence.'
+      tags:
+      - name:nguyen-khanh
+      - polity:rvn
+- add:
+    entry:
+      id: cal.1964-08-21.vietnam-hanoi-2
+      when: Aug. 21
+      date: '1964-08-21'
+      place: hue
+      thread: vietnam-hanoi
+      also:
+      - vietnam-saigon
+      c: Huế, Đà Nẵng. From Aug. 21 pupils and students go into the streets against the signing of the Vũng Tàu charter by "the Americans and Khánh". Slogans against "those who sell Đà Nẵng to the Americans as a base".
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 357. Check: the history says Huế and Đà Nẵng; the place field names Huế only.'
+      tags:
+      - polity:rvn
+- add:
+    entry:
+      id: cal.1964-09.vietnam-hanoi
+      when: Sept.
+      date: '1964-09'
+      place: quang-ngai
+      thread: vietnam-hanoi
+      also:
+      - vietnam-saigon
+      c: Quảng Ngãi. In September over 20,000 people of Tư Nghĩa, Nghĩa Hành, Bình Sơn and Sơn Tịnh districts go into Quảng Ngãi town and surround the province offices, against the military dictatorship and the draft, and for an end to American intervention.
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 357–58. Check: the day.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1964-01.vietnam-hanoi-4
+      when: Jan.
+      date: '1964-01'
+      place: kien-tuong
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Kiến Tường. At the end of 1963 and the start of 1964, with Diệm down and Saigon in crisis, the province presses its acts and frees all of zone 4, most of zone 6 and four communes of zone 8 (Vĩnh Thạnh, Vĩnh Lợi, Vĩnh Đại, Hưng Điền).
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 359. Check: the day; the history gives "the end of 1963 and the start of 1964".'
+      tags:
+      - polity:drv
 - cite:
     id: cal.1962-06-11.laos
     item: '[[w.lich-su-khang-chien-chong-my]], III, 133 (June 12, 1962: the three Lao parties agree to form a coalition government)'
@@ -523,3 +1335,16 @@ ops:
     witness: w.lich-su-khang-chien-chong-my
     reads: American planes bomb the town of Khăng Khay on June 11, killing and wounding many civilians
     at: III, 369
+- check:
+    id: cal.1963-06-01.vietnam-hanoi-2
+    text: 'Check: the history places this operation, under Tôn Thất Đính, in the Khánh Hòa base area of the Tô Hạp basin (III, 260), not in Bình Thuận; its account runs 38 days.'
+- cite:
+    id: cal.1964-08-25.vietnam
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 357 (Aug. 25, 1964: the Military Council''s declaration, by Deputy Premier Nguyễn Xuân Oánh and Minister Nghiêm Xuân Hồng, agreeing to withdraw the charter; 1,400 arrested in the demonstrations)'
+    units: C
+- variant:
+    id: cal.1964-08-25.vietnam
+    unit: C
+    witness: w.lich-su-khang-chien-chong-my
+    reads: the Military Council, by Nguyễn Xuân Oánh and Nghiêm Xuân Hồng, declares Aug. 25 it agrees to withdraw the Vũng Tàu charter
+    at: III, 357
