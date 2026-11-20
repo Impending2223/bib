@@ -1,0 +1,514 @@
+# The loose-dates pass, 1963: `when` and `at` for month- and year-dated entries whose record fixes a position.
+patch: 2026-11-19-loose-1963
+by: Claude (loose-dates reader, 1963; notes/briefs/loose-pass.md)
+ops:
+  - edit:
+      id: cal.1963-01.democratic-party
+      base: '1a689e66'
+      set:
+        when: 'Jan., late'
+  - edit:
+      id: cal.1963-01.goldwater-2
+      base: 'e156ecd5'
+      set:
+        when: 'Jan., late'
+  - edit:
+      id: cal.1963-02.cuba
+      base: 'c1d4850d'
+      set:
+        when: 'Feb., mid'
+  - edit:
+      id: cal.1963-02.defense
+      base: '7b680b9a'
+      set:
+        when: 'Feb., the first week'
+  - edit:
+      id: cal.1963-02.economy
+      base: '343bfb7c'
+      set:
+        when: 'Feb., early'
+  - edit:
+      id: cal.1963-04.cuba
+      base: '1d37d2af'
+      set:
+        when: 'Apr., early'
+        place: havana
+  - edit:
+      id: cal.1963-08.civil-rights-bill
+      base: '909f1992'
+      set:
+        when: 'Aug., early'
+  - edit:
+      id: cal.1963-08.goldwater-2
+      base: '3f2c43bb'
+      set:
+        when: 'Aug., early'
+        place: florida
+  - edit:
+      id: cal.1963-10.democratic-party
+      base: '304fac03'
+      set:
+        when: 'Oct., early'
+  - edit:
+      id: cal.1963-11.goldwater-2
+      base: '9ed423cf'
+      set:
+        when: 'Nov., early'
+  - edit:
+      id: cal.1963-12.defense
+      base: 'cc92487c'
+      set:
+        when: 'Dec., early'
+  - edit:
+      id: cal.1963-12.elections-1964-4
+      base: 'e19c783e'
+      set:
+        when: 'Dec., early'
+  - edit:
+      id: cal.1963-12.goldwater-7
+      base: 'd29fadd8'
+      set:
+        when: 'Dec., early'
+  - edit:
+      id: cal.1963-12.robert-kennedy
+      base: 'f84195bf'
+      set:
+        when: 'Dec., early'
+  - edit:
+      id: cal.1963-12.state-and-city-finance
+      base: '9183c185'
+      set:
+        when: 'Dec., early'
+  - edit:
+      id: cal.1963-06.goldwater
+      base: '04f5e7f9'
+      set:
+        when: 'June, early'
+  - edit:
+      id: cal.1963-05.civil-rights-the-executive-2
+      base: '98ac15a7'
+      set:
+        when: 'May, mid'
+  - edit:
+      id: cal.1963-09.goldwater
+      base: 'c367c1e2'
+      set:
+        when: 'Sept., mid'
+  - edit:
+      id: cal.1963-09.goldwater-5
+      base: '6e10a2b6'
+      set:
+        when: 'Sept., mid'
+  - edit:
+      id: cal.1963-11.vietnam
+      base: '3139e291'
+      set:
+        when: 'Nov., mid'
+  - edit:
+      id: cal.1963-12.elections-1964-2
+      base: 'a1dc1ba3'
+      set:
+        when: 'Dec., mid'
+  - edit:
+      id: cal.1963-12.elections-1964
+      base: '566fdc03'
+      set:
+        when: 'Dec., mid'
+  - edit:
+      id: cal.1963-12.goldwater-6
+      base: '38594438'
+      set:
+        when: 'Dec., mid'
+  - edit:
+      id: cal.1963-12.poverty
+      base: '6462a072'
+      set:
+        when: 'Dec., mid'
+  - edit:
+      id: cal.1963-08.goldwater-3
+      base: 'e3684430'
+      set:
+        when: 'Aug., late'
+        place: washington
+  - edit:
+      id: cal.1963-08.republican-party
+      base: '956544b0'
+      set:
+        when: 'Aug., late'
+  - edit:
+      id: cal.1963-10.republican-party-2
+      base: '13096ed4'
+      set:
+        when: 'Oct., late'
+  - edit:
+      id: cal.1963-10.king-2
+      base: 'b3c8a6c7'
+      set:
+        when: 'Oct., late'
+  - edit:
+      id: cal.1963-12.elections-1964-5
+      base: '0c90dc34'
+      set:
+        when: 'Dec., late'
+  - edit:
+      id: cal.1963-09.elections-1964-3
+      base: 'a46b0d6d'
+      set:
+        when: 'Sept., the third week'
+  - edit:
+      id: cal.1963-01.king-2
+      base: '22c2f193'
+      set:
+        when: 'Jan., before the 14th'
+        at: 'before 1963-01-14'
+  - edit:
+      id: cal.1963-01.europe-and-the-alliance-france-2
+      base: '0823f63b'
+      set:
+        when: 'Jan.–Feb., after de Gaulle''s press conference'
+        at: 'after 1963-01-14'
+  - edit:
+      id: cal.1963-02.defense-5
+      base: 'e033a061'
+      set:
+        when: 'Feb., before the 10th'
+        at: 'before 1963-02-10'
+  - edit:
+      id: cal.1963-02.defense-6
+      base: 'f52912c4'
+      set:
+        when: 'Feb., before the 10th'
+        at: 'before 1963-02-10'
+  - edit:
+      id: cal.1963-02.defense-7
+      base: 'f325dc69'
+      set:
+        when: 'Feb., before the 10th'
+        at: 'before 1963-02-10'
+  - edit:
+      id: cal.1963-02.defense-8
+      base: '5fc57ed2'
+      set:
+        when: 'Feb., before the 10th'
+        at: 'before 1963-02-10'
+  - edit:
+      id: cal.1963-03.king
+      base: 'ec7b2223'
+      set:
+        when: 'Mar., the last two weeks'
+        at: 'before 1963-03-18'
+  - edit:
+      id: cal.1963-04.civil-rights-the-executive
+      base: '4bd7ae5a'
+      set:
+        when: 'Apr., after the first arrests'
+        at: 'after 1963-04-03'
+  - edit:
+      id: cal.1963-04.voting-rights
+      base: '3523c7ed'
+      set:
+        when: 'Apr., after the Greenwood settlement'
+        at: 'after 1963-04-03'
+  - edit:
+      id: cal.1963-04.alabama-birmingham-2
+      base: '621a2fae'
+      set:
+        when: 'Apr., after King''s arrest'
+        at: 'after 1963-04-12'
+  - edit:
+      id: cal.1963-04.alabama-birmingham-3
+      base: '26ecfa3b'
+      set:
+        when: 'Apr., after the Letter'
+        at: 'after 1963-04-16'
+  - edit:
+      id: cal.1963-05.civil-rights-the-executive
+      base: '3230f800'
+      set:
+        when: 'May, after the news conference'
+        at: 'after 1963-05-08'
+  - edit:
+      id: cal.1963-05.defense
+      base: 'b8d1350c'
+      set:
+        when: 'May, after Anderson''s relief'
+        at: 'after 1963-05-06'
+  - edit:
+      id: cal.1963-05.king-3
+      base: 'fa2db989'
+      set:
+        when: 'May, after the Post printing'
+        at: 'after 1963-05-19'
+  - edit:
+      id: cal.1963-06.civil-rights-bill
+      base: 'b8b872c4'
+      set:
+        when: 'June, after the bill''s introduction'
+        at: 'after 1963-06-19'
+  - edit:
+      id: cal.1963-06.civil-rights-bill-2
+      base: '0e6b5d0a'
+      set:
+        when: 'June, before the message'
+        at: 'before 1963-06-19'
+  - edit:
+      id: cal.1963-06.civil-rights-bill-4
+      base: 'b1f67fef'
+      set:
+        when: 'June, after the bill''s introduction'
+        at: 'after 1963-06-19'
+  - edit:
+      id: cal.1963-06.europe-and-the-alliance-kennedy-in
+      base: '5e3204ee'
+      set:
+        at: 'before 1963-06-23'
+  - edit:
+      id: cal.1963-06.goldwater-2
+      base: 'c869c7c9'
+      set:
+        when: 'June, after the 10th'
+        at: 'after 1963-06-10'
+  - edit:
+      id: cal.1963-06.republican-party-3
+      base: '952bdd0e'
+      set:
+        when: 'June, the week of the 10th'
+        at: 'before 1963-06-09'
+  - edit:
+      id: cal.1963-07.civil-rights-bill
+      base: '27a1e400'
+      set:
+        at: 'after 1963-07-04'
+  - edit:
+      id: cal.1963-07.elections-1964
+      base: '02baa34c'
+      set:
+        when: 'July, after the 17th'
+        at: 'after 1963-07-17'
+  - edit:
+      id: cal.1963-07.goldwater
+      base: 'bfc5d716'
+      set:
+        when: 'July, after the 17th'
+        at: 'after 1963-07-17'
+  - edit:
+      id: cal.1963-07.elections-1964-4
+      base: 'ebd974ed'
+      set:
+        when: 'July, after the 14th'
+        at: 'after 1963-07-14'
+  - edit:
+      id: cal.1963-07.republican-party-4
+      base: '4bd3cecf'
+      set:
+        when: 'July, after the 14th'
+        at: 'after 1963-07-14'
+  - edit:
+      id: cal.1963-07.republican-party-5
+      base: '892a088e'
+      set:
+        when: 'July, after the 14th'
+        at: 'after 1963-07-14'
+  - edit:
+      id: cal.1963-07.republican-party-6
+      base: 'a9e477ee'
+      set:
+        when: 'July, after the 14th'
+        at: 'after 1963-07-14'
+  - edit:
+      id: cal.1963-07.republican-party-congress
+      base: '31ff343b'
+      set:
+        when: 'July, after the 14th'
+        at: 'after 1963-07-14'
+  - edit:
+      id: cal.1963-07.republican-party-congress-2
+      base: '60770dd9'
+      set:
+        when: 'July, after the 14th'
+        at: 'after 1963-07-14'
+  - edit:
+      id: cal.1963-07.republican-party-congress-3
+      base: 'e75e213f'
+      set:
+        when: 'July, after the 14th'
+        at: 'after 1963-07-14'
+  - edit:
+      id: cal.1963-07.goldwater-5
+      base: 'fc894dea'
+      set:
+        when: 'July, after the 14th'
+        at: 'after 1963-07-14'
+  - edit:
+      id: cal.1963-07.goldwater-2
+      base: '1c7fb638'
+      set:
+        when: 'July, after the 7th'
+        at: 'after 1963-07-07'
+  - edit:
+      id: cal.1963-08.legislatures
+      base: 'ee4fb9e5'
+      set:
+        when: 'Aug., after the 21st'
+        at: 'after 1963-08-21'
+  - edit:
+      id: cal.1963-08.press-and-broadcasting
+      base: 'd094cef2'
+      set:
+        when: 'Aug., after Lodge''s arrival'
+        at: 'after 1963-08-22'
+  - edit:
+      id: cal.1963-08.testing
+      base: '48a00a3a'
+      set:
+        when: 'Aug., after the signing'
+        at: 'after 1963-08-05'
+  - edit:
+      id: cal.1963-09.africa
+      base: 'ef9efac4'
+      set:
+        when: 'Sept., between the 5th and the 9th'
+        at: 'before 1963-09-05'
+  - edit:
+      id: cal.1963-09.voting-rights-selma
+      base: '9b9db73f'
+      set:
+        when: 'Sept., after the Birmingham funerals'
+        at: 'after 1963-09-18'
+  - edit:
+      id: cal.1963-10.goldwater-2
+      base: 'd3cffdf7'
+      set:
+        when: 'Oct., before the Steering Committee'
+        at: 'before 1963-10-04'
+  - edit:
+      id: cal.1963-10.vietnam-saigon
+      base: 'd1eb2738'
+      set:
+        at: 'before 1963-10-20'
+  - edit:
+      id: cal.1963-10.vietnam-saigon-2
+      base: '1d6a63cd'
+      set:
+        at: 'before 1963-10-20'
+  - edit:
+      id: cal.1963-11.civil-rights-bill
+      base: '91e63c1a'
+      set:
+        when: 'Nov., after the 22nd'
+        at: 'after 1963-11-22'
+  - edit:
+      id: cal.1963-11.medicare
+      base: 'b5e6d1a5'
+      set:
+        when: 'Nov., after the 22nd'
+        at: 'after 1963-11-22'
+  - edit:
+      id: cal.1963-11.succession-2
+      base: '06790c55'
+      set:
+        when: 'Nov., after the 22nd'
+        at: 'after 1963-11-22'
+  - edit:
+      id: cal.1963-11.transition-and-staff-2
+      base: 'ed15a9c8'
+      set:
+        when: 'Nov., after the 22nd'
+        at: 'after 1963-11-22'
+  - edit:
+      id: cal.1963-11.republican-party
+      base: '73852b74'
+      set:
+        when: 'Nov., after the 22nd'
+        at: 'after 1963-11-22'
+  - edit:
+      id: cal.1963-11.king
+      base: 'bcbdf728'
+      set:
+        when: 'Nov., after the 22nd'
+        at: 'after 1963-11-22'
+  - edit:
+      id: cal.1963-11.goldwater
+      base: '5990df20'
+      set:
+        when: 'Nov., after the assassination'
+        at: 'after 1963-11-22'
+  - edit:
+      id: cal.1963-11.goldwater-5
+      base: '708da568'
+      set:
+        at: 'after 1963-11-22'
+  - edit:
+      id: cal.1963-11.transition-and-staff
+      base: 'e8becbb0'
+      set:
+        at: 'after 1963-11-22'
+  - edit:
+      id: cal.1963-11.succession
+      base: '9da6add7'
+      set:
+        at: 'before 1963-11-27'
+  - edit:
+      id: cal.1963-11.economy
+      base: 'd45a65b9'
+      set:
+        at: 'before 1963-11-21'
+  - edit:
+      id: cal.1963-11.elections-1964-2
+      base: 'fe07e19e'
+      set:
+        when: 'Nov., the week of the 7th'
+        at: 'before 1963-11-03'
+  - edit:
+      id: cal.1963-11.goldwater-4
+      base: '1c2ab8de'
+      set:
+        when: 'Nov., before the 22nd'
+        at: 'before 1963-11-22'
+  - edit:
+      id: cal.1963-12.elections-1964-3
+      base: '7e39b217'
+      set:
+        when: 'Dec., after the 22nd'
+        at: 'after 1963-12-22'
+  - edit:
+      id: cal.1963-12.goldwater
+      base: 'e9ed3913'
+      set:
+        when: 'Dec., after the 8th'
+        at: 'after 1963-12-08'
+  - edit:
+      id: cal.1963-12.goldwater-2
+      base: 'a422616b'
+      set:
+        when: 'Dec., after the 8th'
+        at: 'after 1963-12-08'
+  - edit:
+      id: cal.1963-12.program-2
+      base: '64a66f16'
+      set:
+        when: 'Dec., the Christmas holidays'
+        at: 'before 1963-12-25'
+  - edit:
+      id: cal.1963-03.vietnam-diplomacy
+      base: '8902938f'
+      set:
+        when: 'Mar., late'
+  - edit:
+      id: cal.1963-11.civil-rights-organizations
+      base: '029b983e'
+      set:
+        when: 'Nov., between the 11th and the 16th'
+        at: 'before 1963-11-11'
+  - edit:
+      id: cal.1963-12.civil-rights-bill-4
+      base: 'fe5e071b'
+      set:
+        when: 'Dec., from the 24th'
+        at: 'before 1963-12-24'
+  - edit:
+      id: cal.1963-12.elections-1964-8
+      base: '65014ad8'
+      set:
+        when: 'Dec., after the 5th'
+        at: 'after 1963-12-05'
