@@ -906,3 +906,5 @@ The owner's answers on the ghost days (Nov. 19, about 5:50 a.m. Pacific), chosen
 The owner's answers to the display questions (Nov. 19, about 10:45 a.m. Pacific), chosen from the options offered: midnight, "Yes, '12:00 a.m.'"; "noon" in the notes' prose, "Datelines only"; quoted Chinese originals with an English rendering, "Move them, keep English"; the label "Characters:": "What? I'm just saying that the substantive notes in the citation block should give the full CJK, and that Names in "Names:" should as well."
 
 "Continue." (Nov. 19, about 8:49 p.m. Pacific.)
+
+"Shouldn't the Linxia cannibalism cases go in? Aren't these crimes a matter of politics and policy? Like, we wouldn't have had the cannibalism without the state procurement policy, right?" (Nov. 20, about 1:00 a.m. Pacific.) Applied as a ruling: the famine's crimes (cannibalism, killings and thefts for food, and the like) carry the trace of policy (R18: a crime "with no trace in politics or policy" is the only crime passed over); they are entries.
