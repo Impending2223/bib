@@ -37,6 +37,15 @@ def test_differs_quiet_when_it_agrees_or_the_when_gives_none(series):
     assert "loose-at-differs" not in rules(series, E("cal.1961-04.t4", "1961-04", "Apr., Easter", at="before 1961-04-02"))
 
 
+
+def test_at_before_the_month_is_an_error_in_check(series):
+    """[loose-at-month] (the audit, Nov. 19, 2026): an error, silenced only by the entry's ok:loose-at."""
+    e = E("cal.1961-04.t5", "1961-04", "Apr.", at="before 1961-03-25")
+    lst = series.lists["cal"]
+    got = [(lvl, r) for lvl, _, r in check.entry_problems(series, lst, lst.section("196104"), e)]
+    assert (check.ERROR, "loose-at-month") in got
+    assert "loose-at-month" not in rules(series, dict(e, tags=["ok:loose-at"]))
+
 class Sec:
     def __init__(self, kind, entries):
         self.lst = type("L", (), {"kind": kind})()
