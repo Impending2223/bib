@@ -7,6 +7,30 @@ ops:
     set:
       time: 1967-02-23T06:00Z
       time_zone: Asia/Shanghai
+- edit:
+    id: cal.1966-11-13.china-leadership
+    base: 170e76a0
+    set:
+      time_range:
+      - 1966-11-13T04:00Z
+      - 1966-11-13T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1968-03-24.china-leadership
+    base: f625cf6f
+    set:
+      time: 1968-03-24T13:00Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1968-03-27.china-leadership-3
+    base: a0c2f4f7
+    set:
+      time_range:
+      - 1968-03-27T04:00Z
+      - 1968-03-27T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
 - place-key:
     key: yudu
     name: Yudu
@@ -441,16 +465,21 @@ ops:
       at: before 1967-01-01
       place: peking
       thread: china-leadership
-      c: Peking, the Jingxi Hotel 京西賓館. The Military Commission's enlarged Standing Committee opens (to mid-Feb.; later moved to the Western Hills 西山), on extending the "four bigs" 四大
-        into the army. The marshals and Jiang Qing 江青 and Chen Boda 陳伯達 clash.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 387. Made public: 2016. Names: Jiang Qing, Chen Boda.'
+      c: Peking, the Jingxi Hotel 京西賓館. The Military Commission's enlarged meeting opens, on Mao's consent, Ye Jianying 葉劍英 presiding for Lin Biao 林彪 (later moved to the Western Hills
+        西山), on the army's Cultural Revolution and the "four bigs" 四大, and to bring the army's leaders to Peking out of the rebels' reach. The marshals and Jiang Qing 江青 and Chen Boda
+        陳伯達 clash.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 387, 423. Made public: 2016. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 647 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 423 n.17). Names: Ye Jianying, Lin Biao, Jiang Qing, Chen Boda. Check: the length: to mid-February (I, 387); three months (I, 423).'
       src:
-        c: abef4746
+        c: '26119731'
         rows:
-        - 'w.yang-jisheng-tiandi-fanfu I, 387: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 387, 423: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 423 n.17: all'
       tags:
       - polity:prc
       - vis:only:prc
+      - name:ye-jianying
+      - name:lin-biao
       - name:jiang-qing
       - name:chen-boda
 - cite:
@@ -495,7 +524,7 @@ ops:
         his right hand: the "uproar at the Jingxi Hotel" 大鬧京西賓館.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], I, 387–388. Made public: 2009. To check: 一位知情者 (an informed person), 〈讀李曉航文〉, *Jiyi* 《記憶》, no. 21 (Apr. 30, 2009) (cited by [[w.yang-jisheng-tiandi-fanfu]],
         I, 388 n.4). Names: Huang Yongsheng, Jiang Qing, Ye Jianying. Check: the day: Yang has "the next day" after the meeting of Xiao Hua''s summons; an informed person (n.4) says
-        Ye''s blow was aimed at Xu Xiangqian.'
+        Ye''s blow was aimed at Xu Xiangqian; Yang (I, 426 n.24) gives three accounts of the broken hand: Jan. 29, the Jingxi Hotel with Chen Boda, Huairen Hall.'
       src:
         c: 4470c851
         rows:
@@ -1468,6 +1497,7 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+      - ok:fields-place
 - add:
     entry:
       id: cal.1967-02-11.china-leadership-9
@@ -1520,3 +1550,1947 @@ ops:
         - 'via w.yang-jisheng-tiandi-fanfu I, 405 n.44: all'
       tags:
       - polity:prc
+- add:
+    entry:
+      id: cal.1967-02.china-leadership-31
+      when: Feb., early
+      date: 1967-02
+      at: before 1967-02-01
+      thread: china-leadership
+      c: The Hunan Military District 湖南省軍區 reports to the All-Army Cultural Revolution Group 全軍文革小組 that the Changsha 長沙 body "Xiangjiang Fenglei" 湘江風雷, a rebel body against the District,
+        is a conservative body that beats, smashes, loots and burns; the All-Army Group passes it to the Cultural Revolution Group, whose office puts it into its daily "Report of important
+        matters" 〈要事匯報〉.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 406. Made public: 2009. To check: Wang Guangyu 王廣宇, 〈我所知道的陳伯達〉, in Yan Changgui 閻長貴 and Wang Guangyu, *Wenshi qiuxin ji* 《問史求信集》 (Hongqi
+        chubanshe 紅旗出版社, 2009), 354 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 406 n.46).'
+      src:
+        c: 4f554131
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 406: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 406 n.46: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-02-04.china-leadership-4
+      when: Feb. 4
+      date: '1967-02-04'
+      thread: china-leadership
+      c: 'Chen Boda 陳伯達, on the Cultural Revolution Group office''s "Report of important matters," instructs the Hunan Military District to arrest the heads of "Xiangjiang Fenglei" 湘江風雷
+        and declare it reactionary. The District at once bans it: some tens of thousands of its heads, great and small, are held or seized, the conservatives leading the way, the District''s
+        auditorium a jail; by one count over 100,000 are seized in Hunan.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 406. Made public: 2009. To check: Wang Guangyu 王廣宇, 〈我所知道的陳伯達〉, in Yan Changgui 閻長貴 and Wang Guangyu, *Wenshi qiuxin ji* 《問史求信集》 (Hongqi
+        chubanshe 紅旗出版社, 2009), 354 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 406 n.46). See [[cal.1967-02.china-leadership-31]]. Names: Chen Boda.'
+      src:
+        c: 37d132a6
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 406: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 406 n.46: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:chen-boda
+- add:
+    entry:
+      id: cal.1967-08-10.china-leadership-5
+      when: Aug. 10
+      date: '1967-08-10'
+      thread: china-leadership
+      c: 'The Center''s "Some decisions on the Hunan question" 〈中共中央關于湖南問題的若干決定〉 overturn Chen Boda''s instruction of Feb. 4: "Xiangjiang Fenglei" 湘江風雷 rehabilitated as a revolutionary
+        mass body and all held in its case released.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 406–407. See [[cal.1967-02-04.china-leadership-4]]. Names: Chen Boda.'
+      src:
+        c: bdfbd711
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 406–407: all'
+      tags:
+      - polity:prc
+      - name:chen-boda
+- add:
+    entry:
+      id: cal.1967-03.china-leadership-23
+      when: Mar., early
+      date: 1967-03
+      at: before 1967-03-01
+      place: zhengzhou
+      thread: china-leadership
+      c: The Henan Military District 河南省軍區 issues a "statement" declaring the "Feb. 7 Commune" 二七公社 an illegal body and arrests several thousand; the First Army 第一軍 at Kaifeng 開封 also
+        fires on demonstrators.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 407. Made public: 2016.'
+      src:
+        c: 2561e6c3
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 407: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-03-08.china-leadership-4
+      when: Mar. 8
+      date: '1967-03-08'
+      place: zhengzhou
+      thread: china-leadership
+      c: Zhengzhou University 鄭州大學, Zhengzhou 鄭州. The provincial "public security commune" 河南省公安公社 and the city police put up a "registration station for core members of the illegal
+        Zheng-da Joint Committee" 鄭大聯委 and order over 200 of its members to register, give themselves up and write self-criticisms in 48 hours. The District drops across Henan a "Letter
+        to the people of the province" declaring the committee illegal; students are struggled, over 40 jailed.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 407. Made public: 2016.'
+      src:
+        c: 8b8b1052
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 407: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-03-09.china-leadership-3
+      when: Mar. 9
+      date: '1967-03-09'
+      thread: china-leadership
+      c: Dang Yanchuan 黨言川, head of the Zheng-da Joint Committee 鄭大聯委, is arrested at Shangqiu 商丘; Chen Hongbing 陳紅兵 of the Kaifeng Normal College's "8.24" and Shen Maogong 申茂功 of the
+        Zhengzhou No. 6 Cotton Mill's workers' guards are arrested after him.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 407. Made public: 2016.'
+      src:
+        c: 7d869152
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 407: all'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-03-22.china-leadership-4
+      when: Mar. 22–28
+      date: '1967-03-22'
+      place: canton
+      thread: china-leadership
+      c: Canton 廣州. In the week before the export commodities fair the Canton Military Region arrests 508 leaders of mass organizations; in all it arrests 450 in the city and 328 outside
+        it.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 407. Made public: 2008. To check: Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese
+        University Press, Hong Kong, 2008), 458 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 407 n.48).'
+      src:
+        c: 216c23c1
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 407: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 407 n.48: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-03-11.china-leadership-2
+      when: Mar. 11
+      date: '1967-03-11'
+      place: peking
+      time_range:
+      - 1967-03-11T04:00Z
+      - 1967-03-11T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peking. Nearly a hundred mass bodies, the Capital Red Guard Congress 首都紅代會 and the rebels of the agriculture and forestry offices 農林口 at their head, found the "Capital Liaison
+        Station to Rout Utterly Tan Zhenlin's Capitalist Restoration from Above" 首都徹底擊潰譚振林自上而下資本主義復辟聯絡站. In the afternoon 32 units, Peking Normal University's "Jinggangshan" 井岡山 among
+        them, hold a pledge rally to "seize Tan" before the Ministry of Agriculture 農業部.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 408. The words: 下午 (I, 408). Names: Tan Zhenlin.'
+      src:
+        c: 3317c277
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 408: all'
+      tags:
+      - polity:prc
+      - name:tan-zhenlin
+- add:
+    entry:
+      id: cal.1967-03-14.china-leadership-4
+      when: Mar. 14
+      date: '1967-03-14'
+      place: peking
+      thread: china-leadership
+      c: 'Peking. 100,000 of over fifty colleges march against the "February adverse current": "Defend the Cultural Revolution Group with our blood! Down with Tan Zhenlin! Down with
+        Chen Yi, Ye Jianying, Li Fuchun, Li Xiannian, Xu Xiangqian, Nie Rongzhen!"'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 408. Names: Tan Zhenlin, Chen Yi, Ye Jianying, Li Fuchun, Li Xiannian, Xu Xiangqian, Nie Rongzhen.'
+      src:
+        c: 3cdeefcd
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 408: all'
+      tags:
+      - polity:prc
+      - name:tan-zhenlin
+      - name:chen-yi
+      - name:ye-jianying
+      - name:li-fuchun
+      - name:li-xiannian
+      - name:xu-xiangqian
+      - name:nie-rongzhen
+- add:
+    entry:
+      id: cal.1967-03-16.china-leadership-6
+      when: Mar. 16
+      date: '1967-03-16'
+      place: peking
+      thread: china-leadership
+      c: Peking, the Agricultural University 北京農業大學. 13,000 of 178 units rally to denounce Tan Zhenlin 譚震林.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 408. Names: Tan Zhenlin.'
+      src:
+        c: 7f9a721d
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 408: all'
+      tags:
+      - polity:prc
+      - name:tan-zhenlin
+- add:
+    entry:
+      id: cal.1967-03-19.china-leadership-3
+      when: Mar. 19
+      date: '1967-03-19'
+      place: peking
+      thread: china-leadership
+      c: Peking, the Workers' Gymnasium 工人體育館. The agricultural offices' rebel bodies hold a rally to criticize Tan Zhenlin 譚震林.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 408. Names: Tan Zhenlin.'
+      src:
+        c: 45325e11
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 408: all'
+      tags:
+      - polity:prc
+      - name:tan-zhenlin
+- cite:
+    id: cal.1967-04-01.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 408–409 (Apr. 1, the Center''s decision on Anhui and its annex, Zhongfa [67] 117 中發〔67〕117號: mass bodies not to be declared counter-revolutionary
+      at will, nor the masses branded so; no arrests at will; those branded for storming the district or for their views on the seizure to be cleared, the arrested freed, warrants withdrawn;
+      "revolution is no crime"; the army to back the left and not one left body against another; Mao''s added passage on the students who stormed Zhongnanhai and the Ministry of Defense
+      unrebuked; by Yang, the "February suppression" is checked after it)'
+- cite:
+    id: cal.1967-04-02.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 409 (the editorial 〈正確對待革命小將〉: an adverse current seizes on the young generals'' faults, denies their general direction, backs the fallen
+      conservatives'' reversals and brands them counter-revolutionary again)'
+- cite:
+    id: cal.1967-04-06.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 409 (the Military Commission''s "ten orders": no arrests at will, still less in numbers; no mass body to be declared reactionary and banned
+      at will; no pursuit of those who stormed army organs, left, middle or right; taken by all as correcting the "eight orders")'
+- add:
+    entry:
+      id: cal.1967-05-07.china-leadership-5
+      when: May 7
+      date: '1967-05-07'
+      thread: china-leadership
+      c: 'The Center issues its ten decisions on the Sichuan question: the "Industrial Army" 產業軍 a conservative body; the Chengdu Military Region guilty of "errors of direction and line";
+        Li Jingquan 李井泉 the greatest capitalist-roader in Sichuan; the Region reorganized, Zhang Guohua 張國華 at its head.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 409. Names: Li Jingquan.'
+      src:
+        c: 8396c9ca
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 409: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:li-jingquan
+      - ok:fields-place
+- cite:
+    id: cal.1967-04-18.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 410 (Zhou quotes Mao after the seizures of January: "this year February, March, April we see the outline; by this time next year the result,
+      or a little longer")'
+- to-check:
+    id: cal.1967-04-18.china-leadership
+    add: Zhou Enlai 周恩來, talk at the symposium of Guangdong mass-body and garrison delegates, Apr. 18–19, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 410 n.51)
+- src:
+    id: cal.1967-04-18.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 410 n.51: ?'
+- cite:
+    id: cal.1967-03-07.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 410 (Mao forwards the Tianjin Yan''an Middle School''s experience of "a great alliance of the whole school with the teaching class as its
+      base"; the Center orders students linking up elsewhere back to their schools by Mar. 20, and the army to train the students in stages)'
+- add:
+    entry:
+      id: cal.1967-03-07.china-leadership-8
+      when: Mar. 7
+      date: '1967-03-07'
+      place: peking
+      thread: china-leadership
+      c: 'The *Renmin ribao* 人民日報 editorial "Primary and middle schools resume classes and make revolution" 〈中小學復課鬧革命〉: teachers and students back to school to rectify thought, style
+        and organization and form the proletarian revolutionaries'' great alliance.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 410. See [[cal.1967-03-07.china-leadership-2]].'
+      src:
+        c: 7c174cb8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 410: all'
+      tags:
+      - polity:prc
+- cite:
+    id: cal.1966-05-23.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 416 (with the removal of Peng, Lu, Luo and Yang the enlarged Politburo meeting moves Ye Jianying to the Secretariat as a secretary and
+      makes him secretary-general of the Military Commission (dated by Yang 1965, May 23))'
+- add:
+    entry:
+      id: cal.1966-05.china-leadership-17
+      when: May
+      date: 1966-05
+      thread: china-leadership
+      c: 'Ye Jianying 葉劍英, at the Military Commission''s enlarged Standing Committee, conveys Lin Biao''s 林彪 line for the army''s Cultural Revolution: no "four bigs" 四大 in the army,
+        positive education, revolution with fighting strength kept and readiness raised, no involvement in the localities'' movement. At a Standing Committee meeting Ye warns against
+        "rebel shock teams" asking why the army cannot have its own Nie Yuanzi 聶元梓; Nie Rongzhen 聶榮臻: army cadres may not rebel.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 419. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 453 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 419 n.7). Names: Ye Jianying, Lin Biao, Nie Rongzhen.'
+      src:
+        c: b6e56825
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 419: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 419 n.7: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+      - name:lin-biao
+      - name:nie-rongzhen
+- add:
+    entry:
+      id: cal.1966-06-14.china-leadership-4
+      when: June 14
+      date: '1966-06-14'
+      thread: china-leadership
+      c: 'The Military Commission 中央軍委 issues its "Request report on some measures for the Cultural Revolution in the army" 〈關於部隊開展文化大革命運動的幾項措施的請示報告〉: combat units below division to
+        have positive education; no street marches; in general no part in local criticism meetings; the movement publicized only inside the army; the cultural units to go on within limits.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 419. Made public: 2016.'
+      src:
+        c: fe0c1606
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 419: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1966-06-21.china-leadership-11
+      when: June 21
+      date: '1966-06-21'
+      thread: china-leadership
+      c: 'The Military Commission 中央軍委 issues its "six instructions" on the military academies: each to be judged on its case, and those "thoroughly rectified" to have no "four bigs."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 419. Made public: 2016.'
+      src:
+        c: 9db28ac8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 419: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1966-08.china-leadership-42
+      when: Aug., late
+      date: 1966-08
+      at: before 1966-08-21
+      thread: china-leadership
+      c: 'The Military Commission''s Standing Committee again holds the army different from the localities: its Cultural Revolution to go on under the Party committees at each level.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 419. Made public: 2016.'
+      src:
+        c: 5fe5d2ab
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 419: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1966-09-03.china-leadership-4
+      when: Sept. 3
+      date: '1966-09-03'
+      thread: china-leadership
+      c: 'The Military Commission, in the General Political Department''s 總政治部 name, issues the "three instructions" forbidding military academy students to come to Peking to link up:
+        no Red Guards in the army, no linking up by the localities in the army, none by soldiers in the localities.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 419. Made public: 2016.'
+      src:
+        c: d7463a00
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 419: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- cite:
+    id: cal.1966-10-05.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 420 (the Center forwards the Emergency Instruction 〈中央軍委、總政治部關於軍隊院校無產階級文化大革命的緊急指示〉, Zhongfa (66) 515 中發(66)515號: on Lin Biao''s proposal
+      the frames binding the movement in the academies discarded, the academies to follow the Sixteen Points as the local colleges do, with the four bigs; those branded at the start
+      of the movement cleared; the army and academies not to take part in the localities'' movement; by Qiu Huizuo the All-Army Group''s work (Liu Zhijian, Yang Mancun, Xie Tangzhong);
+      by Wang Li, Lin dictated it after Tao Zhu''s daughter Tao Siliang and another cadre''s child told him of the academies'' repression; by Yu Ruxin, Lin Doudou brought him the matter;
+      the students pour into Peking and the leaderships of over 100 academies are paralyzed; Mao: "yaoyaoyao" (111 academies), "there are indeed demons")'
+- to-check:
+    id: cal.1966-10-05.china-leadership
+    add: '*Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 455 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 420 n.8)'
+- to-check:
+    id: cal.1966-10-05.china-leadership
+    add: '[[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed.), 下, 41 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 420 n.9a)'
+- to-check:
+    id: cal.1966-10-05.china-leadership
+    add: Yu Ruxin 余汝信, 〈1966年中央軍委「緊急指示」的由來〉 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 420 n.9b)
+- to-check:
+    id: cal.1966-10-05.china-leadership
+    add: '*Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 458 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 420 n.10)'
+- src:
+    id: cal.1966-10-05.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 420 n.8: ?'
+    - 'via w.yang-jisheng-tiandi-fanfu I, 420 n.9b: ?'
+    - 'via w.yang-jisheng-tiandi-fanfu I, 420 n.10: ?'
+- cite:
+    id: cal.1966-11-13.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 421 (with Lin Biao''s consent the 100,000 rally at the Workers'' Stadium in the afternoon, to send the academies'' students in Peking back
+      to their schools; Chen Yi: "a cold towel on a hot head is good," no storming of gates, buildings and phones; Ye Jianying: the Second Military Medical University went too far; the
+      capitalist-roaders a handful; a slip from Li Jicai 李繼才 of the Veterinary University''s rebels asks whether Lin approved the rally; uproar in the stands, and Xiao Hua and Liu Zhijian
+      close the rally and escort the marshals out)'
+- to-check:
+    id: cal.1966-11-13.china-leadership
+    add: '*Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 622–624 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 421 n.11)'
+- src:
+    id: cal.1966-11-13.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 421 n.11: ?'
+- cite:
+    id: cal.1966-11-29.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 421 (the General Political Department''s second rally at the Workers'' Stadium of the academies'' people in Peking; Chen Yi and Ye Jianying
+      again criticize the rebel cadets and answer the rebels'' criticism of the first rally)'
+- to-check:
+    id: cal.1966-11-29.china-leadership
+    add: '*Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 622–624 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 421 n.11)'
+- src:
+    id: cal.1966-11-29.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 421 n.11: ?'
+- add:
+    entry:
+      id: cal.1966-12.china-leadership-19
+      when: Dec., before the 31st
+      date: 1966-12
+      at: before 1966-12-31
+      place: peking
+      thread: china-leadership
+      c: Peking. The Cultural Revolution Group, in answer to the marshals' two rallies, prepares a rally of the same size at the Capital Workers' Gymnasium 首都工人體育館, mostly of local student
+        rebels, to which Chen Yi 陳毅, Ye Jianying 葉劍英 and other marshals and army leaders are summoned to be struggled; by Yu Ruxin's materials Chen, Ye, Wu Faxian 吳法憲, Qiu Huizuo 邱會作
+        and Li Zuopeng 李作鵬 were to be named. That night Zhou Enlai 周恩來, Kang Sheng 康生, Jiang Qing 江青, Xiao Hua 蕭華 and Yang Chengwu 楊成武 receive the rally's preparatory staff and try to
+        dissuade them, turning them toward the All-Army Group and Liu Zhijian 劉志堅. The marshals do not come and the rally is called off; the students wait a day hungry, and posters to
+        bring down Chen and Ye multiply.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 421–422. Made public: 2016. To check: materials supplied by Yu Ruxin 余汝信 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 422 n.13b). Names:
+        Chen Yi, Ye Jianying, Wu Faxian, Qiu Huizuo, Li Zuopeng, Zhou Enlai, Kang Sheng, Jiang Qing. Check: the day: Yang sets it after the rally of Nov. 29 and before the meeting of
+        Dec. 31.'
+      src:
+        c: b9148dcd
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 421–422: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 422 n.13b: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:chen-yi
+      - name:ye-jianying
+      - name:wu-faxian
+      - name:qiu-huizuo
+      - name:li-zuopeng
+      - name:zhou-enlai
+      - name:kang-sheng
+      - name:jiang-qing
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1966-12-31.china-leadership-8
+      when: Dec. 31
+      date: '1966-12-31'
+      place: peking
+      thread: china-leadership
+      c: 'Peking, the Jingxi Hotel 京西賓館. The Cultural Revolution Group holds a meeting of 2,000, Liu Zhijian 劉志堅 presiding, at which Ye Jianying 葉劍英 is named to make self-criticism,
+        on Mao''s instruction to "examine and close the case," for his speeches at the two rallies of 100,000; before he finishes the students besiege him. Lin Biao 林彪 reports to Mao,
+        who says he knew nothing of the meeting beforehand: "this must be looked into." The Group puts the blame on Liu Zhijian.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 422. Made public: 2011. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 625–627 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 422 n.13a). Names: Ye Jianying, Lin Biao, Mao Zedong.'
+      src:
+        c: '93598170'
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 422: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+      - name:lin-biao
+      - name:mao-zedong
+- cite:
+    id: cal.1967-01-04.china-leadership-9
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 422 (on Jan. 4 Jiang Qing names Liu Zhijian; he is removed as head of the All-Army Cultural Revolution Group and deputy head of the General
+      Political Department, and soon held for examination)'
+- to-check:
+    id: cal.1967-01-04.china-leadership-9
+    add: '*Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 625–627 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 422 n.13a)'
+- add:
+    entry:
+      id: cal.1966-11.china-leadership-24
+      when: Nov., early
+      date: 1966-11
+      at: before 1966-11-01
+      thread: china-leadership
+      c: 'Jiang Qing 江青 goes to Lin Biao 林彪 several times on the army''s Cultural Revolution; the last time she says it needs "a marshal on the throne" and proposes Xu Xiangqian 徐向前
+        as head of the General Political Department and of the All-Army Cultural Revolution Group. Lin at once reports to Mao: Xu may head the All-Army Group, the Commission''s daily
+        work to stay with Ye Jianying 葉劍英.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 422–423. Made public: 2011. Names: Jiang Qing, Lin Biao, Xu Xiangqian, Ye Jianying.'
+      src:
+        c: 14ec3fc9
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 422–423: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:jiang-qing
+      - name:lin-biao
+      - name:xu-xiangqian
+      - name:ye-jianying
+- cite:
+    id: cal.1967-01-11.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 422 (after Liu Zhijian''s fall Lin Biao announces at a meeting: Xu Xiangqian head of the All-Army Group, Jiang Qing adviser, the Air Force
+      commissar Yu Lijin 余立金 and the Navy''s deputy commissar Wang Hongkun 王宏坤 among the deputies)'
+- check:
+    id: cal.1967-01-11.china-leadership-3
+    text: 'Check: the deputies: Yang (I, 422) names Yu Lijin and Wang Hongkun among them.'
+- add:
+    entry:
+      id: cal.1967-01.china-leadership-29
+      when: Jan., after the 11th
+      date: 1967-01
+      at: after 1967-01-11
+      thread: china-leadership
+      c: 'Xu Xiangqian 徐向前, at his first meeting as head of the All-Army Cultural Revolution Group 全軍文革小組, gives three principles: do not fear disorder; criticize Liu''s and Deng''s
+        bourgeois reactionary line thoroughly; old cadres not to fear the masses; he calls for learning from the local rebels and calls Xiao Hua 蕭華 a coward. Chen Yi 陳毅: "you had the
+        same illness as we; now you are cured"; Nie Rongzhen 聶榮臻: "I am ill, but I do not fear death." The Group calls rebels into the army''s leading organs, and Xu backs them when
+        they come.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 423. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 496 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 423 n.15). See [[cal.1967-01-11.china-leadership-3]]. Names: Xu Xiangqian, Chen Yi, Nie Rongzhen.'
+      src:
+        c: 3d01efe0
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 423: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 423 n.15: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:xu-xiangqian
+      - name:chen-yi
+      - name:nie-rongzhen
+- cite:
+    id: cal.1967-02-11.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 423–424 (among the 17 documents of the Military Commission''s enlarged meeting: the Commission''s rules on the Cultural Revolution in the
+      leading organs above the army level, issued Feb. 11)'
+- add:
+    entry:
+      id: cal.1967-02-14.china-leadership-6
+      when: Feb. 14
+      date: '1967-02-14'
+      thread: china-leadership
+      c: The Center issues its "Notice that the edge of struggle must not be turned on the army" 〈中共中央關於不得把鬥爭鋒芒指向軍隊的通知〉, one of the 17 documents of the Military Commission's enlarged
+        meeting.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 423. Made public: 2016.'
+      src:
+        c: f7b8c962
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 423: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1967-02-23.china-leadership-6
+      when: Feb. 23
+      date: '1967-02-23'
+      thread: china-leadership
+      c: The "Decision on the PLA resolutely supporting the revolutionary left" 〈關於人民解放軍堅決支持革命左派的決定〉 is issued, one of the 17 documents of the Military Commission's enlarged meeting.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 424. Made public: 2016.'
+      src:
+        c: 6df6add8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 424: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1967-03-19.china-leadership-4
+      when: Mar. 19
+      date: '1967-03-19'
+      thread: china-leadership
+      c: 'The Military Commission 中央軍委, on Mao''s instruction, issues the "Decision on concentrating forces to carry out support of the left, of agriculture, of industry, military control
+        and military training" 〈關於集中力量執行支左、支農、支工、軍管、軍訓的決定〉, one of the 17 documents of its enlarged meeting: the "four bigs" in the general departments and services to pause about the
+        end of March; a third, a half or even two-thirds of their people to go at once to the "three supports and two militaries" 三支兩軍; the academies, troupes and sports teams wholly,
+        once their rectification pauses.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 424, 432. Made public: 2016.'
+      src:
+        c: ab07cfe7
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 424, 432: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- cite:
+    id: cal.1966-09-06.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 424 (by Qiu Huizuo''s memoir, at the Military Commission''s enlarged meeting, speaking of He Long, Lin Biao names Li Jukui 李聚奎 and Rao
+      Zhengxi 饒正錫 as Peng''s and Huang''s men who slipped the net)'
+- to-check:
+    id: cal.1966-09-06.china-leadership-2
+    add: '*Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 524 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 424 n.18b)'
+- src:
+    id: cal.1966-09-06.china-leadership-2
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 424 n.18b: ?'
+- add:
+    entry:
+      id: cal.1967-01-12.china-leadership-10
+      when: Jan. 12
+      date: '1967-01-12'
+      place: peking
+      thread: china-leadership
+      c: Peking, the General Logistics Department 總後勤部. People of its political department put up posters, "How ugly the soul" 〈靈魂何其醜也〉 among them, exposing Qiu Huizuo's 邱會作 private
+        conduct; at the meeting to criticize him that day force is used, a nurse he had brought into his house from the Army General Hospital accuses him, and his secretary Lü Yurun
+        呂玉潤 tells of his talk of settling accounts after the movement.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 424. Made public: 2012. To check: Tang Guangxue 唐光學, *Qingchun sihuo, xiyang genghong* 《青春似火,夕陽更紅》 (privately printed, 2012), 172–175 (cited
+        by [[w.yang-jisheng-tiandi-fanfu]], I, 424 n.19a); Zhang Jinchang 張金昌, *Wangshi huixu* 《往事回敘》 (2012), 64 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 424 n.19b); Qiu Luguang
+        邱路光 to Yang Jisheng, Jan. 13, 2016 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 424 n.19c). Names: Qiu Huizuo. Check: the nurse''s accusation: by Qiu Luguang (n.19c) the rebels
+        held her and taught her what to say, and she later said she was forced.'
+      src:
+        c: 764d6e73
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 424: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 424 n.19a: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 424 n.19b: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 424 n.19c: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:qiu-huizuo
+- add:
+    entry:
+      id: cal.1967-01-23.china-leadership-7
+      when: Jan. 23–24
+      date: '1967-01-23'
+      place: peking
+      thread: china-leadership
+      c: Peking, the General Logistics Department 總後勤部. Rally after rally struggles Qiu Huizuo 邱會作, with tortures of every kind; afterward students of the Second Military Medical University
+        二醫大 lock him up, until his wife Hu Min 胡敏 begs Ye Qun 葉群 and Lin Biao 林彪 and Chen Boda 陳伯達 write a joint note for his release.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 424. Made public: 2012. To check: Tang Guangxue 唐光學, *Qingchun sihuo, xiyang genghong* 《青春似火,夕陽更紅》 (privately printed, 2012), 172–175 (cited
+        by [[w.yang-jisheng-tiandi-fanfu]], I, 424 n.19a); Zhang Jinchang 張金昌, *Wangshi huixu* 《往事回敘》 (2012), 64 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 424 n.19b). See [[cal.1967-01-12.china-leadership-10]].
+        Names: Qiu Huizuo, Ye Qun, Lin Biao, Chen Boda.'
+      src:
+        c: 47d5101c
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 424: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 424 n.19a: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 424 n.19b: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:qiu-huizuo
+      - name:ye-qun
+      - name:lin-biao
+      - name:chen-boda
+- add:
+    entry:
+      id: cal.1967-03.china-leadership-24
+      when: Mar., late
+      date: 1967-03
+      at: after 1967-03-21
+      place: peking
+      thread: china-leadership
+      c: 'Qiu Huizuo 邱會作 returns to head the General Logistics Department 總後勤部 and calls for seizing "three handfuls," taking double revenge on those who struggled him; to the special-case
+        staff his "three ruthless" line: "ruthless struggle, ruthless interrogation, ruthless dictatorship." Qiu''s memoir denies it.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 425. Made public: 2012. To check: Tang Guangxue 唐光學, *Qingchun sihuo, xiyang genghong* 《青春似火,夕陽更紅》 (privately printed, 2012), 208–209 (cited
+        by [[w.yang-jisheng-tiandi-fanfu]], I, 425 n.20a); *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 519 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 425 n.20b). Names: Qiu Huizuo.'
+      src:
+        c: 81dfffab
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 425: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 425 n.20a: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 425 n.20b: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:qiu-huizuo
+- cite:
+    id: cal.1967-01-24.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 426 (late in January, the army''s leading organs stormed and leaders seized, Lin Biao urgently calls Ye Jianying, Xu Xiangqian, Nie Rongzhen
+      and Yang Chengwu: "the army cannot go on so; we need a set of rules"; he dictates to his secretary a seven-article "Military Commission order," and those present agree; at the
+      Commission''s enlarged meeting Jiang Qing and some of the Group oppose it)'
+- to-check:
+    id: cal.1967-01-24.china-leadership-3
+    add: '*Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 648 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 426 n.23)'
+- variant:
+    id: cal.1967-01-24.china-leadership-3
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Lin Biao himself urgently summons Ye Jianying, Xu Xiangqian, Nie Rongzhen and Yang Chengwu and dictates the seven articles to them
+    at: I, 426
+- cite:
+    id: cal.1967-01-28.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 426 (Lin Biao takes Xu Xiangqian to Mao; Mao agrees to the seven articles and adds an eighth, "strengthen the education of children"; he
+      writes "the eight articles as fixed, very good, issue"; Lin: "Chairman, with your signature, long live, long live!"; the order: "resolute dictatorial measures against counter-revolutionary
+      organizations and counter-revolutionaries on firm evidence"; the army''s readiness and secrecy systems not to be stormed nor linked up with)'
+- to-check:
+    id: cal.1967-01-28.china-leadership
+    add: '*Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 648 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 426 n.23)'
+- variant:
+    id: cal.1967-01-28.china-leadership
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: the eight articles are the seven Lin Biao dictated to his secretary, with an eighth Mao adds when Lin brings Xu Xiangqian to him, on the education of children
+    at: I, 426
+- add:
+    entry:
+      id: cal.1967-01-29.china-leadership-9
+      when: Jan. 29
+      date: '1967-01-29'
+      thread: china-leadership
+      c: 'Ye Jianying 葉劍英 relays the "eight articles" 軍委八條 to the Military Commission''s enlarged meeting, elated and angry: at "whoever would throw the army into confusion will come
+        to no good" he strikes the table so hard that he breaks a bone at the edge of his right hand. The Commission decides on discipline for all the army''s rebels.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 426. Made public: 2011. To check: *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 566 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 426 n.24a); *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 652 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 426 n.24b). Names: Ye Jianying.
+        Check: Yang (I, 426 n.24) gives three accounts of the broken hand: here (Li Zuopeng); at the Jingxi Hotel, arguing with Chen Boda (Wu Faxian, 652); at Huairen Hall; Dai Qing
+        could not settle it.'
+      src:
+        c: 6b44e56e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 426: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 426 n.24a: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+- cite:
+    id: cal.1967-04-06.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 427 (the "ten orders," after the Anhui decision and under Mao''s pressure for the army to back the rebels: no mass body to be declared
+      reactionary and banned at will; no pursuit of those who stormed army organs; Mao''s comment: "Comrade Lin Biao, this is very good"; Chen Zaidao by his own account does not carry
+      it out, nor pass it on, nor discuss it)'
+- to-check:
+    id: cal.1967-04-06.china-leadership-3
+    add: Chen Zaidao 陳再道, self-criticism, Dec. 1, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 427 n.26)
+- src:
+    id: cal.1967-04-06.china-leadership-3
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 427 n.26: ?'
+- add:
+    entry:
+      id: cal.1967-05.china-leadership-17
+      when: May, before the 13th
+      date: 1967-05
+      at: before 1967-05-11
+      thread: china-leadership
+      c: 'Liu Suyuan 劉素媛, a singer of the Air Force political department''s troupe and head of its conservative faction, tells Mao the Peking army troupes want a joint performance for
+        the 25th anniversary of the Yan''an Talks; Mao: talk to Ye Qun 葉群, and has his secretary Xu Yefu 徐業夫 tell Lin Biao''s office to back it. Ye Qun at once receives Liu and others:
+        Lin Biao shares their view; "do not fear being called conservatives ... be revolutionary royalists"; the army differs from the localities, and even with bad men in it may not
+        be stormed.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 428–429. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 527–528 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 429 n.28). Names: Ye Qun, Lin Biao, Mao Zedong.'
+      src:
+        c: 7ba1c098
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 428–429: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 429 n.28: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-qun
+      - name:lin-biao
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-05-13.china-leadership-5
+      when: May 13
+      date: '1967-05-13'
+      place: peking
+      time_range:
+      - 1967-05-13T11:00Z
+      - 1967-05-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Peking, the theater of the Peking Exhibition Hall 北京展覽館劇場. The "old three armies" 老三軍 perform in the evening; Xiao Jingguang 蕭勁光, Wang Hongkun 王宏坤, Yu Lijin 余立金, Cao Lihuai
+        曹裏懷, Li Tianhuan 李天煥, Wu Lie 吳烈, Xiong Botao 熊伯濤 and Fu Chongbi 傅崇碧 gather in a building east of the theater, and the garrison sends two companies to stop a fight. The "new three
+        armies" 新三軍 storm it; by Li Zuopeng 李作鵬 they never get in and some tens are hurt; by one of the storming side they reach the stage, are surrounded and break out; a broadcast
+        relays Lin Biao''s office: storming the performance is wrong, Vice-Chairman Lin backs it; the colleges'' bodies withdraw and the show goes on.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 429. The words: 5月13日晚 (I, 429). Made public: 2011. To check: *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011),
+        538 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 429 n.29a); Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University
+        Press, Hong Kong, 2008), 51 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 429 n.29b); Bai Erqiang 白而強, 〈我策劃了衝擊三軍演出事件〉, *Yanhuang chunqiu* 《炎黃春秋》, 2011, no. 2 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 429 n.30). See [[cal.1967-05-13.china-leadership-3]]. Names: Li Zuopeng, Lin Biao. Check: the injured: some tens (Li Zuopeng); over 200, tens of them badly (Bu Weihua, 51,
+        I, 429 n.29b).'
+      src:
+        c: 2c583cfe
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 429: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 429 n.29a: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 429 n.30: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:li-zuopeng
+      - name:lin-biao
+- add:
+    entry:
+      id: cal.1967-05-13.china-leadership-6
+      when: May 13
+      date: '1967-05-13'
+      time_range:
+      - 1967-05-13T11:00Z
+      - 1967-05-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Liu Suyuan 劉素媛, at Mao''s while the two sides fight at the Exhibition Hall, tells him the revolutionaries have won; Mao: "what are you so glad about? In a while the rebels
+        will turn it back."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 429. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 528 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 429 n.31). See [[cal.1967-05-13.china-leadership-5]]. Names: Mao Zedong.'
+      src:
+        c: d8d618ec
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 429: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 429 n.31: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+- cite:
+    id: cal.1967-05-13.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 429–430 (that evening Zhou, Chen Boda, Xiao Hua and Zhang Xiuchuan 張秀川 are at the Great Hall; Zhou, not knowing Mao''s and Lin''s mind,
+      works on both sides'' heads for a joint performance; Liu Suyuan comes and tells him Mao backs her side; Zhou stands on a chair: "do not storm the performance; to storm it again
+      is to storm Chairman Mao''s revolutionary line!" and sends Chen Boda and Xiao Hua to the theater to stop it)'
+- to-check:
+    id: cal.1967-05-13.china-leadership-3
+    add: '*Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 529 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 430 n.32)'
+- src:
+    id: cal.1967-05-13.china-leadership-3
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 430 n.32: ?'
+- add:
+    entry:
+      id: cal.1967-05-14.china-leadership-4
+      when: May 14
+      date: '1967-05-14'
+      place: peking
+      thread: china-leadership
+      c: Peking. The "three services' revolutionaries" 三軍革命派 cover the city with posters and slogans and march to celebrate the performance.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 430. See [[cal.1967-05-13.china-leadership-5]].'
+      src:
+        c: 2d3d7700
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 430: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-05-16.china-leadership-5
+      when: May 16
+      date: '1967-05-16'
+      place: peking
+      thread: china-leadership
+      c: Peking. The old three armies 老三軍 hold a rally to celebrate the performance's success; the Cultural Revolution Group has to send Qi Benyu 戚本禹 to speak in support.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 430. To check: *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 583 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 430 n.33).'
+      src:
+        c: a4a00cc4
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 430: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 430 n.33: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-05-23.china-leadership-3
+      when: May 23
+      date: '1967-05-23'
+      place: peking
+      thread: china-leadership
+      c: Peking, Tiananmen Square 天安門廣場. The old three armies' troupes perform at length on a stage set up in the square.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 430.'
+      src:
+        c: 0546a827
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 430: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-06-09.china-leadership-3
+      when: June 9
+      date: '1967-06-09'
+      place: peking
+      thread: china-leadership
+      c: Peking, the small auditorium of the Great Hall 人大會堂小禮堂. The old three armies' troupes perform again; the Center's leaders come, go up on the stage and are photographed with
+        the performers.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 430.'
+      src:
+        c: 22cc2360
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 430: all'
+      tags:
+      - polity:prc
+- cite:
+    id: cal.1967-01-21.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 431 (the Anhui rebels, seizing the power of Li Baohua, call a rally of 10,000 and ask the army to guard it; on the Nanjing Military Region''s
+      request Mao writes on Jan. 21: "Comrade Lin Biao, the PLA should support the broad masses of the left ... the so-called non-involvement is false; it has long been involved; a new
+      order should be issued, the earlier ones void")'
+- cite:
+    id: cal.1967-01-23.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 431–432 (Lin Biao acts at once, and the next day the Military Commission''s enlarged meeting adopts the "Decision on the PLA resolutely
+      supporting the revolutionary left masses," Zhongfa [67] 27 中發〔67〕27號: the orders on non-involvement void; troops to go to the true left when it asks; counter-revolutionaries against
+      the left suppressed; no shelter for capitalist-roaders; the army educated in Mao''s line; relayed to every soldier)'
+- variant:
+    id: cal.1967-01-23.china-leadership
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: the Military Commission's enlarged meeting adopts the decision on Jan. 22, the day after Mao's instruction of Jan. 21
+    at: I, 431
+- add:
+    entry:
+      id: cal.1967-02.china-leadership-32
+      when: Feb.
+      date: 1967-02
+      thread: china-leadership
+      c: The 38th Army 38軍 is moved from Jilin 吉林 to Hebei 河北.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 433. Made public: 2016.'
+      src:
+        c: 55f6b830
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 433: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-08.china-leadership-30
+      when: Aug.
+      date: 1967-08
+      thread: china-leadership
+      c: The 12th Army 12軍, its commander Li Desheng 李德生, is moved from Jiangsu 江蘇 to Anhui 安徽.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 433. Made public: 2016.'
+      src:
+        c: 5a0c3686
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 433: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967.china-leadership-125
+      when: '1967'
+      date: '1967'
+      thread: china-leadership
+      c: The 21st Army 21軍, its commander Hu Wei 胡煒, is moved from Shanxi 山西 into Shaanxi 陝西.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 433. Made public: 2016.'
+      src:
+        c: b4c99c08
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 433: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- cite:
+    id: cal.1967-04-23.china-leadership-6
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 434 (the 21st Army, entering Shaanxi, invites the Xi''an Jiaotong University 西安交大 rebel students'' leader as an honored guest and backs
+      him; the Group''s *Kuaibao* 快報 no. 1940 of Apr. 21 prints it; Mao: "Comrades Lin Biao, Zhou Enlai: I propose this be printed for the comrades of the Military Commission''s enlarged
+      meeting; the army''s doing so is right; I hope the whole army will do so"; the army''s commander Hu Wei 胡煒 becomes a star of the support of the left)'
+- to-check:
+    id: cal.1967-04-23.china-leadership-6
+    add: '[[w.zedong-mao-zedong-nianpu]], VI, 75 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 434 n.39)'
+- cite:
+    id: cal.1967-09-23.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 435 (Yang Chengwu, Li Zuopeng and Yu Lijin return to Peking with Mao from his tour of the Yangzi''s north and south)'
+- add:
+    entry:
+      id: cal.1967-07-17.china-leadership-3
+      when: July 17
+      date: '1967-07-17'
+      thread: china-leadership
+      c: 'The Military Commission''s four-man group 中央軍委四人小組, the "caretaker group," is set up: Wu Faxian 吳法憲 (head), Ye Qun 葉群, Qiu Huizuo 邱會作, Zhang Xiuchuan 張秀川, to oversee the Cultural
+        Revolution in the General Political Department and the units and organs in Peking.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 435. Made public: 2016. Names: Wu Faxian, Ye Qun, Qiu Huizuo.'
+      src:
+        c: 77bf1733
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 435: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:wu-faxian
+      - name:ye-qun
+      - name:qiu-huizuo
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-09-23.china-leadership-4
+      when: Sept. 23
+      date: '1967-09-23'
+      thread: china-leadership
+      c: 'At the Center''s liaison meeting Zhou Enlai 周恩來 announces the army''s four-man group made the Military Commission''s Administrative Group 軍委辦事組: Yang Chengwu 楊成武, Wu Faxian
+        吳法憲, Ye Qun 葉群, Qiu Huizuo 邱會作, Zhang Xiuchuan 張秀川.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 435. Made public: 2016. See [[cal.1967-07-17.china-leadership-3]]. Names: Zhou Enlai, Wu Faxian, Ye Qun, Qiu Huizuo.'
+      src:
+        c: 7dd86e21
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 435: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:wu-faxian
+      - name:ye-qun
+      - name:qiu-huizuo
+- cite:
+    id: cal.1967-11-05.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 436 (in winter 1967 Yang Chengwu publishes under his name "Greatly and especially establish the absolute authority of the great commander
+      Chairman Mao ...," written by the General Staff''s criticism group and revised many times at his order; he has a Fuzhou soldier who criticized it examined and discharged; after
+      Sept. 13, 1971 he says Lin Biao''s people wrote it and made him sign; days after, Mao: "I read only the title; the title is wrong, metaphysical"; his comment: "absolute authority"
+      improper, all authority relative; authority grows of itself in struggle, not by "great establishing")'
+- to-check:
+    id: cal.1967-11-05.china-leadership-2
+    add: '[[w.zedong-mao-zedong-nianpu]], VI, 146 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 436 n.45)'
+- to-check:
+    id: cal.1967-11-05.china-leadership-2
+    add: Dong Baocun 董保存, *Yang Yu Fu shijian zhenxiang* 《楊余傅事件真相》 (Jiefangjun chubanshe 解放軍出版社, 1988), 91–97 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 436 n.44b)
+- src:
+    id: cal.1967-11-05.china-leadership-2
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 436 n.44b: ?'
+- add:
+    entry:
+      id: cal.1966-05-09.china-leadership-7
+      when: May 9
+      date: '1966-05-09'
+      thread: china-leadership
+      c: 'Qiu Huizuo 邱會作 and Li Tianhuan 李天煥 at Yang Chengwu''s 楊成武 home. Li: the chief of staff and the vice-chairman long since "work at the same desk"; all know Yang is Lin Biao''s
+        successor; Yang, smiling, loudly: "we are all Chairman Mao''s soldiers; when Vice-Chairman Lin is gone, someone must carry on his cause!"'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 438. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 533 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 438 n.47). Names: Qiu Huizuo, Lin Biao. Check: the year: Yang prints 1966, though the passage stands among the acts of 1967 and Yang Chengwu is "chief of staff."'
+      src:
+        c: 273b8a9a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 438: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 438 n.47: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:qiu-huizuo
+      - name:lin-biao
+- add:
+    entry:
+      id: cal.1968-02.china-leadership-4
+      when: Feb., about
+      date: 1968-02
+      thread: china-leadership
+      c: Yang Chengwu 楊成武, perhaps on some warning, orders every copy of the first draft of the "Outline of Party history" 《黨史綱要》, which he had dozens of writers at the Jingxi Hotel
+        京西賓館 compile, destroyed, none to be kept. The draft had affirmed Mao, Lin Biao as successor and Jiang Qing 江青 as "standard-bearer," and criticized Zhu De 朱德 by name with Mao's
+        consent.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 438. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 546 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 438 n.46a); *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2008), 713–714 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 438 n.46b). Names: Lin
+        Biao, Jiang Qing, Zhu De.'
+      src:
+        c: 1d3a5456
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 438: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 438 n.46a: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:jiang-qing
+      - name:zhu-de
+      - ok:fields-at
+- add:
+    entry:
+      id: cal.1967-04.china-leadership-17
+      when: Apr.
+      date: 1967-04
+      place: shanghai
+      thread: china-leadership
+      c: 'Ye Qun 葉群, Qi Benyu 戚本禹 and Yang Chengwu 楊成武 send Chen Hong 陳虹, deputy head of the General Staff political department''s organization department, with Wang Yumin 王育民, Wang
+        Cheng''en 王成恩 and Zhu Tiezheng 朱鐵錚 to Shanghai 上海 for the "black materials": with the garrison''s help they find the 23 files of the 1954 inquiry into the anonymous letter against
+        Jiang Qing 江青, written in fact by Zhu Ming 朱明, wife of Lin Boqu, who killed herself in 1961. Chen telephones Yang; Yang: Zhou Enlai and Jiang Qing say bring them back first;
+        "not a word to be lost."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 440–442. Made public: 2015. To check: Chen Hong 陳虹, 〈我參加饒漱石專案組的遭遇〉, *Yanhuang chunqiu* 《炎黃春秋》, 2015, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 442 n.55). Names: Ye Qun, Jiang Qing, Lin Boqu, Zhou Enlai.'
+      src:
+        c: 4b880f2a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 440–442: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 442 n.55: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-qun
+      - name:jiang-qing
+      - name:lin-boqu
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1967-07-07.china-leadership-3
+      when: July 7
+      date: '1967-07-07'
+      thread: china-leadership
+      c: 'Chen Hong 陳虹 and Wang Yumin 王育民 sign a report to the Center, as Yang Chengwu 楊成武 dictates it, on destroying the Shanghai files on Jiang Qing; Lin Biao 林彪 writes in red: "Xie
+        Fuzhi, Yang Chengwu, Wang Dongxing, Guan Feng, the four, to destroy them together"; Zhou Enlai 周恩來 adds: with the materials of the Peking Library and the packet sent by Wu Faxian
+        and Fu Chongbi; it goes to Mao.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 441–442. Made public: 2015. To check: Chen Hong 陳虹, 〈我參加饒漱石專案組的遭遇〉, *Yanhuang chunqiu* 《炎黃春秋》, 2015, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 442 n.55). See [[cal.1967-04.china-leadership-17]]. Names: Jiang Qing, Lin Biao, Xie Fuzhi, Zhou Enlai, Wu Faxian.'
+      src:
+        c: 9c6c4bd1
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 441–442: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 442 n.55: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:jiang-qing
+      - name:lin-biao
+      - name:xie-fuzhi
+      - name:zhou-enlai
+      - name:wu-faxian
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-09.china-leadership-7
+      when: Sept., after the 23rd
+      date: 1967-09
+      at: after 1967-09-23
+      thread: china-leadership
+      c: Xie Fuzhi 謝富治 tells Yang Chengwu 楊成武, back from the south with Mao, that Jiang Qing 江青 has raged that he is "letting out a long line for a big fish"; Yang reports to Zhou Enlai
+        周恩來, who orders Xie, Yang and Wang Dongxing 汪東興 to see the materials burned. At Wang's, the files checked against the list, Xie lights the fire, Wang Yumin 王育民 throws in the
+        files one by one, and the three sign the report.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 441–442. Made public: 2015. To check: Chen Hong 陳虹, 〈我參加饒漱石專案組的遭遇〉, *Yanhuang chunqiu* 《炎黃春秋》, 2015, no. 10 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 442 n.55). See [[cal.1967-07-07.china-leadership-3]]. Names: Xie Fuzhi, Jiang Qing, Zhou Enlai.'
+      src:
+        c: 98520f4f
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 441–442: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 442 n.55: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:xie-fuzhi
+      - name:jiang-qing
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1968-03.china-leadership-7
+      when: Mar., mid
+      date: 1968-03
+      at: before 1968-03-11
+      thread: china-leadership
+      c: 'Lin Biao 林彪 consults Wu Faxian 吳法憲 on Yang Chengwu 楊成武: "calm it if we can"; unable to bring Yang round, he has Ye Qun 葉群 report to Mao. Mao himself holds four meetings to
+        hear it; Jiang Qing 江青 presses hard to bring Yang down.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 440. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 554 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 440 n.54). Names: Lin Biao, Wu Faxian, Ye Qun, Jiang Qing, Mao Zedong.'
+      src:
+        c: 7a4ac81c
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 440: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 440 n.54: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:wu-faxian
+      - name:ye-qun
+      - name:jiang-qing
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1968-03-08.china-leadership-3
+      when: Mar. 8
+      date: '1968-03-08'
+      place: peking
+      thread: china-leadership
+      c: 'Peking, the Diaoyutai 釣魚臺, building no. 16 of the Cultural Revolution Group. Fu Chongbi 傅崇碧, commander of the Peking garrison, on a task from Jiang Qing 江青 of Mar. 5 to find
+        lost manuscripts of Lu Xun''s letters, comes with his secretary unannounced to report; Yang Chengwu 楊成武 comes too. Jiang Qing: "who let you in?"; she quarrels with Yang and bangs
+        the table, calls in Zhou Enlai, Chen Boda, Kang Sheng, Zhang Chunqiao, Yao Wenyuan and Wang Dongxing, and charges the two with storming the Group: the "storming of the Cultural
+        Revolution Group."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 446–447. Made public: 2011. To check: *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 614 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 446 n.66); Li Chuanjun 李傳俊, 〈我在中央文革辦事機構的見聞〉, *Wangshi* 《往事》, no. 115 (July 3, 2012) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 447 n.67). Names: Jiang Qing, Zhou Enlai,
+        Chen Boda, Kang Sheng, Zhang Chunqiao, Yao Wenyuan. Check: the accounts differ: by Li Zuopeng the secretary tripped and his case landed by Jiang Qing; by Li Chuanjun, an eyewitness,
+        Jiang Qing''s charge that the secretary meant to strike her with a pistol butt was false, and the manuscripts were in the Group''s secrecy room.'
+      src:
+        c: abad0ef6
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 446–447: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 446 n.66: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 447 n.67: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:jiang-qing
+      - name:zhou-enlai
+      - name:chen-boda
+      - name:kang-sheng
+      - name:zhang-chunqiao
+      - name:yao-wenyuan
+- add:
+    entry:
+      id: cal.1968-03-22.china-leadership-3
+      when: Mar. 22
+      date: '1968-03-22'
+      place:
+      - peking
+      - canton
+      time_range:
+      - 1968-03-22T14:00Z
+      - 1968-03-22T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Late at night Zhou Enlai 周恩來 telephones Huang Yongsheng 黃永勝, commander of the Canton Military Region: come to Peking at once, with his wife, Wu Faxian 吳法憲 has sent a special
+        plane; asked why, Zhou: to discuss the Hunan revolutionary committee''s members.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 445. The words: 深夜 (I, 445). Made public: 2011. To check: Huang Zheng 黃正, *Junren Yongsheng* 《軍人永勝》, vol. 2 (Xin shiji chubanshe 新世紀出版社,
+        Hong Kong, 2011), 235 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 445 n.63). Names: Zhou Enlai, Huang Yongsheng, Wu Faxian.'
+      src:
+        c: 74c004dc
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 445: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 445 n.63: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:huang-yongsheng
+      - name:wu-faxian
+- add:
+    entry:
+      id: cal.1968-03-23.china-leadership-3
+      when: Mar. 23
+      date: '1968-03-23'
+      time: 1968-03-22T17:00Z
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'At 1 a.m. Wu Faxian 吳法憲 is called to a meeting at Mao''s, already begun: Mao, Lin Biao, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Zhang Chunqiao, Yao Wenyuan, Xie Fuzhi,
+        Ye Qun, Wang Dongxing. Mao to Wu: "you are right, Yang Chengwu wrong"; Yang to be removed; Lin proposes Huang Yongsheng 黃永勝 as chief of staff, and Mao agrees, without "acting";
+        Yu Lijin 余立金, by Xu Shiyou''s materials a traitor, to be arrested and tried; on Jiang Qing''s proposal Fu Chongbi 傅崇碧 moved to deputy commander at Shenyang, Wen Yucheng 溫玉成 in
+        his place. Mao and Lin leave Zhou to carry it out.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 442, 445. The words: 3月23日淩晨一點 (I, 442). Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong,
+        3rd ed., 2008), 722–723 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 442 n.56). See [[cal.1968-03-22.china-leadership-2]]. Names: Wu Faxian, Lin Biao, Zhou Enlai, Chen Boda,
+        Kang Sheng, Jiang Qing, Zhang Chunqiao, Yao Wenyuan, Xie Fuzhi, Ye Qun, Huang Yongsheng, Xu Shiyou, Mao Zedong.'
+      src:
+        c: 2a013ad3
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 442, 445: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 442 n.56: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:wu-faxian
+      - name:lin-biao
+      - name:zhou-enlai
+      - name:chen-boda
+      - name:kang-sheng
+      - name:jiang-qing
+      - name:zhang-chunqiao
+      - name:yao-wenyuan
+      - name:xie-fuzhi
+      - name:ye-qun
+      - name:huang-yongsheng
+      - name:xu-shiyou
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-03-23.china-leadership-4
+      when: Mar. 23
+      date: '1968-03-23'
+      place: peking
+      time: 1968-03-23T02:00Z
+      time_zone: Asia/Shanghai
+      time_approx: true
+      thread: china-leadership
+      c: 'About 10 a.m. Lin Biao 林彪 and Zhou Enlai 周恩來, with the whole of the Group''s liaison meeting, talk to Yang Chengwu 楊成武: his errors mountain-stronghold factionalism and the
+        distorting of Marxism; with Fu Chongbi against Xie Fuzhi, with Yu Lijin against Wu Faxian; Mao held four meetings and he is removed as acting chief of staff and first secretary
+        of its Party committee; he is to stay at the Great Hall, then go with his family to the East Lake at Wuhan. Huang Yongsheng 黃永勝 arrives with Wu Faxian at the Great Hall; Zhou
+        has Yang brought in: "hand your work to Huang Yongsheng"; Yang: "yes."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 445. The words: 23日上午10時左右 (I, 445). Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd
+        ed., 2008), 725 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 445 n.62); Huang Zheng 黃正, *Junren Yongsheng* 《軍人永勝》, vol. 2 (2011), 235 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 445 n.63). See [[cal.1968-03-23.china-leadership-3]]. Names: Lin Biao, Zhou Enlai, Xie Fuzhi, Wu Faxian, Huang Yongsheng.'
+      src:
+        c: ec849a82
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 445: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 445 n.62: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 445 n.63: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:zhou-enlai
+      - name:xie-fuzhi
+      - name:wu-faxian
+      - name:huang-yongsheng
+- add:
+    entry:
+      id: cal.1968-03-24.china-leadership-4
+      when: Mar. 24
+      date: '1968-03-24'
+      place: peking
+      thread: china-leadership
+      c: 'Peking. Before the meeting Zhou Enlai 周恩來 has Wang Xinting 王新亭 replace the guards at Yang Chengwu''s home with the Central Guard Regiment, and sends Qiu Huizuo 邱會作 to bring
+        Yang to the Great Hall "for a meeting"; Yang, unshaven and gray: "where are you taking me?"; his family cry out; Wang Xinting searches the house and seals the papers. At the
+        house next door Xu Xiangqian''s 徐向前 secretary, alarmed, holds the marshal and takes the keys of his files.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 444. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 556–557 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 444 n.60); *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 614 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 444 n.61a); Cheng Guang 程光, *Xinling
+        de duihua: Qiu Huizuo yu erzi tan wenhua dageming* 《心靈的對話——邱會作與兒子談文化大革命》, vol. 1 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 177 (cited by [[w.yang-jisheng-tiandi-fanfu]], I,
+        444 n.61b). Names: Zhou Enlai, Qiu Huizuo, Xu Xiangqian. Check: the day: Yang puts it "before the meeting of Mar. 24"; Lin and Zhou talked to Yang Chengwu at the Great Hall the
+        morning of the 23rd (I, 445).'
+      src:
+        c: 09b11a0c
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 444: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 444 n.60: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 444 n.61a: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:qiu-huizuo
+      - name:xu-xiangqian
+- add:
+    entry:
+      id: cal.1968-03-24.china-leadership-5
+      when: Mar. 24
+      date: '1968-03-24'
+      place: peking
+      time_range:
+      - 1968-03-24T14:00Z
+      - 1968-03-24T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Peking. Yang Dezhong 楊德中, deputy head of the Central Guard Bureau, and Wu Faxian 吳法憲 arrest Yu Lijin 余立金, called to Wu''s house: "Yu Lijin, you are under arrest!"'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 447. Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2008), 724 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 447 n.68). Names: Wu Faxian. Check: the day: Yang tells the arrest after the meeting''s decisions and gives no day.'
+      src:
+        c: 0d7b1e0e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 447: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 447 n.68: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:wu-faxian
+- cite:
+    id: cal.1968-03-24.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 442–444 (the meeting of 10,000 cadres of regiment level and above of the army organs, units and academies in Peking in the Great Hall''s
+      auditorium, waiting from 9 p.m. and beginning after midnight; Yang Chengwu removed as acting chief of staff, Yu Lijin arrested, Fu Chongbi removed as garrison commander; Lin, on
+      Mao''s three points (against factionalism, against double-dealing, the relative and the absolute): "a matter neither large nor small"; Yang with Yu to bring down Wu Faxian, with
+      Fu to bring down Xie Fuzhi; praise of Jiang Qing; Zhou: a new "February adverse current," praise of Jiang Qing in the thirties, and leads the cry "down with whoever opposes Comrade
+      Jiang Qing"; Jiang Qing, Chen Boda and Kang Sheng speak; Mao appears on the platform)'
+- to-check:
+    id: cal.1968-03-24.china-leadership
+    add: '*Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2008), 727 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 442 n.57)'
+- to-check:
+    id: cal.1968-03-24.china-leadership
+    add: Lin Biao 林彪, 《在軍隊幹部大會上講話》, Mar. 24, 1968, in the *Wenku* (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 443 n.58)
+- to-check:
+    id: cal.1968-03-24.china-leadership
+    add: 《中央首長在接見軍隊幹部會議上的講話》 (Zhou Enlai, Jiang Qing, Chen Boda), Mar. 24, 1968 (printed 1967), in the *Wenku* (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 443 n.59)
+- src:
+    id: cal.1968-03-24.china-leadership
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 443 n.58: ?'
+    - 'via w.yang-jisheng-tiandi-fanfu I, 443 n.59: ?'
+- cite:
+    id: cal.1968-03-27.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 447–448 (the afternoon rally of 100,000 at the Workers'' Stadium, "Smash utterly the new counterattack of the February adverse current";
+      Zhou reads the Center''s decision on Yang, Yu and Fu; Jiang Qing, Kang Sheng, Chen Boda and Zhou speak; Zhou on Jiang Qing''s struggles of the thirties, "red articles," and the
+      cry to defend her to the death)'
+- to-check:
+    id: cal.1968-03-27.china-leadership-3
+    add: '*Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2008), 724 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 447 n.68)'
+- cite:
+    id: cal.1968-03-25.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 448 (the Military Commission''s Administrative Group reorganized: Huang Yongsheng head, chief of staff and commander at Canton; Wu Faxian
+      deputy head; Ye Qun, Li Zuopeng and Qiu Huizuo members)'
+- cite:
+    id: cal.1968-03-28.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 449 (Mao, with Lin Biao, receiving Huang Yongsheng and others: "the Military Commission is the Administrative Group; its Standing Committee
+      need not meet; from now Vice-Chairman Lin runs the Administrative Group directly")'
+- to-check:
+    id: cal.1968-03-28.china-leadership
+    add: '[[w.zedong-mao-zedong-nianpu]], VI, 157 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 449 n.69)'
+- add:
+    entry:
+      id: cal.1967-02-03.china-leadership-6
+      when: Feb. 3
+      date: '1967-02-03'
+      thread: china-leadership
+      c: 'Shandong 山東: the Shandong Proletarian Revolutionary Rebels'' Great Alliance Revolutionary Committee 山東省無產階級革命造反派大聯合革命委員會 (later the Shandong Revolutionary Committee) is founded;
+        its chairman Wang Xiaoyu 王效禹.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 457.'
+      src:
+        c: 5f279bbf
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 457: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-02-13.china-leadership-2
+      when: Feb. 13
+      date: '1967-02-13'
+      thread: china-leadership
+      c: 'Guizhou 貴州: the Mao Zedong Thought Guizhou Revolutionary Committee 毛澤東思想貴州省革命委員會 (later the Guizhou Revolutionary Committee) is founded; its chairman Li Zaihan 李再含.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 457.'
+      src:
+        c: 8095998b
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 457: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-01-05.china-leadership-3
+      when: Jan. 5
+      date: '1968-01-05'
+      thread: china-leadership
+      c: 'Jiangxi 江西: the Jiangxi Revolutionary Committee is founded; its chairman Cheng Shiqing 程世清.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: 232e0718
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-01-24.china-leadership-2
+      when: Jan. 24
+      date: '1968-01-24'
+      thread: china-leadership
+      c: 'Gansu 甘肅: the Gansu Revolutionary Committee is founded; its chairman Xian Henghan 冼恒漢.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: b127fb7e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-01-27.china-leadership-2
+      when: Jan. 27
+      date: '1968-01-27'
+      thread: china-leadership
+      c: 'Henan 河南: the Henan Revolutionary Committee is founded; its chairman Liu Jianxun 劉建勛.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: 017e9211
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-02-03.china-leadership-4
+      when: Feb. 3
+      date: '1968-02-03'
+      thread: china-leadership
+      c: 'Hebei 河北: the Hebei Revolutionary Committee is founded; its chairman Li Xuefeng 李雪峰.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: 918d8ff8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-02-05.china-leadership-4
+      when: Feb. 5
+      date: '1968-02-05'
+      thread: china-leadership
+      c: 'Hubei 湖北: the Hubei Revolutionary Committee is founded; its chairman Zeng Siyu 曾思玉.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: 3eea65c8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-02-21.china-leadership-3
+      when: Feb. 21
+      date: '1968-02-21'
+      thread: china-leadership
+      c: 'Guangdong 廣東: the Guangdong Revolutionary Committee is founded; its chairman Huang Yongsheng 黃永勝.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458. Names: Huang Yongsheng.'
+      src:
+        c: 9ebcbcce
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+      - name:huang-yongsheng
+- add:
+    entry:
+      id: cal.1968-03-06.china-leadership-4
+      when: Mar. 6
+      date: '1968-03-06'
+      thread: china-leadership
+      c: 'Jilin 吉林: the Jilin Revolutionary Committee is founded; its chairman Wang Huaixiang 王淮湘.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: 9ff32452
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-03-23.china-leadership-5
+      when: Mar. 23
+      date: '1968-03-23'
+      thread: china-leadership
+      c: 'Jiangsu 江蘇: the Jiangsu Revolutionary Committee is founded; its chairman Xu Shiyou 許世友.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458. Names: Xu Shiyou.'
+      src:
+        c: b1d5e2f6
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+      - name:xu-shiyou
+- add:
+    entry:
+      id: cal.1968-03-24.china-leadership-6
+      when: Mar. 24
+      date: '1968-03-24'
+      thread: china-leadership
+      c: 'Zhejiang 浙江: the Zhejiang Revolutionary Committee is founded; its chairman Nan Ping 南萍.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: 905e8fc7
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-04-08.china-leadership-3
+      when: Apr. 8
+      date: '1968-04-08'
+      thread: china-leadership
+      c: 'Hunan 湖南: the Hunan Revolutionary Committee is founded; its chairman Li Yuan 黎原.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: 5f9d5d6e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-04-10.china-leadership-4
+      when: Apr. 10
+      date: '1968-04-10'
+      thread: china-leadership
+      c: 'Ningxia 寧夏: the Ningxia Autonomous Region Revolutionary Committee is founded; its chairman Kang Jianmin 康健民.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: 4f0667ac
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-04-18.china-leadership
+      when: Apr. 18
+      date: '1968-04-18'
+      thread: china-leadership
+      c: 'Anhui 安徽: the Anhui Revolutionary Committee is founded; its chairman Li Desheng 李德生.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: 2b404d17
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-05-01.china-leadership-2
+      when: May 1
+      date: '1968-05-01'
+      thread: china-leadership
+      c: 'Shaanxi 陝西: the Shaanxi Revolutionary Committee is founded; its chairman Li Ruishan 李瑞山.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: a9669747
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-05-10.china-leadership
+      when: May 10
+      date: '1968-05-10'
+      thread: china-leadership
+      c: 'Liaoning 遼寧: the Liaoning Revolutionary Committee is founded; its chairman Chen Xilian 陳錫聯.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458. Names: Chen Xilian.'
+      src:
+        c: '74212247'
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+      - name:chen-xilian
+- add:
+    entry:
+      id: cal.1968-05-31.china-leadership
+      when: May 31
+      date: '1968-05-31'
+      thread: china-leadership
+      c: 'Sichuan 四川: the Sichuan Revolutionary Committee is founded; its chairman Zhang Guohua 張國華.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: aff90017
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-08-13.china-leadership-4
+      when: Aug. 13
+      date: '1968-08-13'
+      thread: china-leadership
+      c: 'Yunnan 雲南: the Yunnan Revolutionary Committee is founded; its chairman Tan Furen 譚甫仁.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: 82bfb52a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-08-14.china-leadership-3
+      when: Aug. 14
+      date: '1968-08-14'
+      thread: china-leadership
+      c: 'Fujian 福建: the Fujian Revolutionary Committee is founded; its chairman Han Xianchu 韓先楚.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+      src:
+        c: 02866b92
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-08-26.china-leadership-3
+      when: Aug. 26
+      date: '1968-08-26'
+      thread: china-leadership
+      c: 'Guangxi 廣西: the Guangxi Autonomous Region Revolutionary Committee is founded; its chairman Wei Guoqing 韋國清.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458–459.'
+      src:
+        c: 727b670e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 458–459: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-03-20.china-leadership-4
+      when: Mar. 20
+      date: '1967-03-20'
+      thread: china-leadership
+      c: The Center approves the founding of the Heilongjiang 黑龍江 Revolutionary Committee, its chairman Pan Fusheng 潘復生.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 457. See [[cal.1967-01-31.china-leadership-8]].'
+      src:
+        c: d9b91f57
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 457: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- cite:
+    id: cal.1967-01-31.china-leadership-8
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 457 (the Heilongjiang Red Rebels'' Revolutionary Committee founded Jan. 31, 1967, the first of the provincial revolutionary committees;
+      approved by the Center Mar. 20, Pan Fusheng chairman)'
+- cite:
+    id: cal.1967-02-05.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 457 (the Shanghai People''s Commune''s provisional committee founded, later the Shanghai Revolutionary Committee, Zhang Chunqiao at its
+      head)'
+- cite:
+    id: cal.1967-03-18.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 458 (the Shanxi Revolutionary Committee founded Mar. 18, 1967, its chairman Liu Geping 劉格平)'
+- cite:
+    id: cal.1967-04-20.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 458 (the Peking Revolutionary Committee founded Apr. 20, 1967, its chairman Xie Fuzhi; then no revolutionary committee for nearly four
+      months)'
+- cite:
+    id: cal.1967-08-12.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 458 (the Qinghai Revolutionary Committee founded Aug. 12, 1967, its chairman Liu Xianquan, its vice-chairmen Zhang Jianglin, Da Luo 達洛
+      and others)'
+- cite:
+    id: cal.1967-11-01.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 458 (the Inner Mongolia Revolutionary Committee founded Nov. 1, 1967, its chairman Teng Haiqing 滕海清)'
+- cite:
+    id: cal.1967-12-06.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 458 (the Tianjin Revolutionary Committee founded Dec. 6, 1967, its chairman Xie Xuegong 解學恭)'
+- cite:
+    id: cal.1968-09-05.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 459 (the Tibet and Xinjiang revolutionary committees founded Sept. 5, 1968, the last of the 29, their chairmen Zeng Yongya 曾雍雅 and Long
+      Shujin 龍書金; of the 29 first chairmen 21 are soldiers, 8 local cadres)'
+- cite:
+    id: cal.1967-07-18.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 453 (that evening Mao to Zhou Enlai, Wang Li, Xie Fuzhi, Chen Zaidao and Zhong Hanhua: "why not arm the workers and students? I think they
+      should be armed")'
+- cite:
+    id: cal.1967-08-04.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 453 (Mao''s letter to Jiang Qing: arm the left, make a second armed force; over 75 percent of the army''s cadres back the right; after
+      the slogan the fighting goes from fists and clubs to rifles and guns)'
+- to-check:
+    id: cal.1967-08-04.china-leadership-4
+    add: '[[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed.), 下, 256 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 453 n.2)'
+- cite:
+    id: cal.1967-07-22.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 453 (Jiang Qing in Peking: the rebels to "attack with words, defend with arms" 文攻武衛)'
+- variant:
+    id: cal.1967-07-22.china-leadership-3
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Jiang Qing gives the slogan "attack with words, defend with arms" on July 21
+    at: I, 453
+- add:
+    entry:
+      id: cal.1967-08.china-leadership-31
+      when: Aug., early
+      date: 1967-08
+      at: before 1967-08-01
+      thread: china-leadership
+      c: Large armed fights break out one after another in Nanjing 南京, Changchun 長春, Shenyang 瀋陽, Chongqing 重慶, Changsha 長沙 and elsewhere, with real guns after the slogan "arm the left."
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 453.'
+      src:
+        c: 1cc6f8ba
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 453: all'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-08-25.china-leadership-10
+      when: Aug. 25
+      date: '1966-08-25'
+      place: qingdao
+      thread: china-leadership
+      c: Qingdao 青島. Red Guards rise against the city committee, which calls out workers to defend it; Wang Xiaoyu 王效禹, a vice-mayor, openly backs the Red Guards.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 461.'
+      src:
+        c: c8b2b02d
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 461: all'
+      tags:
+      - polity:prc
+- cite:
+    id: cal.1966-09-07.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 461 (Mao in a comment approves Wang Xiaoyu)'
+- add:
+    entry:
+      id: cal.1967-04-26.china-leadership-4
+      when: Apr. 26
+      date: '1967-04-26'
+      place: peking
+      thread: china-leadership
+      c: Peking. Zhou Enlai 周恩來, Kang Sheng 康生, Yang Chengwu 楊成武, Xiao Hua 蕭華 and others, before Wang Xiaoyu 王效禹 and the Shandong rebels, criticize Yang Dezhi 楊得志 and Yuan Shengping
+        袁升平, commander and commissar of the Jinan Military Region.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 462. Made public: 2016. Names: Zhou Enlai, Kang Sheng.'
+      src:
+        c: 6797c535
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 462: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:kang-sheng
+- add:
+    entry:
+      id: cal.1967-05-18.china-leadership-9
+      when: May 18
+      date: '1967-05-18'
+      thread: china-leadership
+      c: The Military Commission, Mao approving, orders Wang Xiaoyu 王效禹 made first political commissar of the Jinan Military Region 濟南軍區, amid his quarrels with Yang Dezhi 楊得志 and Yuan
+        Shengping 袁升平.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 462. Made public: 2016. Names: Mao Zedong.'
+      src:
+        c: debe085c
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 462: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1967-07.china-leadership-25
+      when: July
+      date: 1967-07
+      thread: china-leadership
+      c: Wang Xiaoyu 王效禹, on the Cultural Revolution Group's instruction, goes to Xuzhou 徐州 to settle the two factions' quarrel; he reorganizes the Xuzhou revolutionary committee, removes
+        its army chairman, whom Xu Shiyou 許世友 trusted, and puts a young rebel of the Xuzhou railway sub-bureau in his place, offending Xu.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 462. Made public: 2016. Names: Xu Shiyou.'
+      src:
+        c: f3558651
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 462: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:xu-shiyou
+      - ok:fields-place
+- cite:
+    id: cal.1968-10-14.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 462 (the editorial 〈吸收無產階級的新鮮血液——整黨工作中的一個重要問題〉 raises the "anti-restoration": leaderships "all the old cast," "two centers," the smell
+      of "independent kingdoms"; Mao moves it from fourth to first in the contents)'
+- to-check:
+    id: cal.1968-10-14.china-leadership-4
+    add: '[[w.zedong-jianguo-yilai-mao-zedong]], XII, 580 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 462 n.8)'
+- add:
+    entry:
+      id: cal.1968-11-24.china-leadership
+      when: Nov. 24
+      date: '1968-11-24'
+      place: jinan
+      thread: china-leadership
+      c: Jinan 濟南. The Shandong Revolutionary Committee's fifth plenary session opens (to Dec. 23); it decides on the movement against "the evil wind of reversing the February adverse
+        current and the tendency to restore the old," the "anti-restoration" 反復舊. The *Dazhong ribao* 大眾日報 prints article after article for it.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 462. Made public: 2016.'
+      src:
+        c: 9ebefdaf
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 462: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1968-12-17.china-leadership-2
+      when: Dec. 17
+      date: '1968-12-17'
+      place: jinan
+      thread: china-leadership
+      c: Jinan 濟南. The "Jinan Attack-with-Words, Defend-with-Arms General Command" 濟南市文攻武衛總指揮部, to search out "black materials," seizes the Guanyi Street 館驛街 police station.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 463.'
+      src:
+        c: b0fa3b3b
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 463: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1969-01-25.china-leadership-3
+      when: Jan. 25
+      date: '1969-01-25'
+      place: jinan
+      thread: china-leadership
+      c: 'Jinan 濟南. The Attack-with-Words, Defend-with-Arms General Command forms a workers'' Mao Zedong Thought propaganda team that enters the city''s four public security branch bureaus
+        and 38 police stations: "all power of the police, procuracy and courts to Wengong wuwei."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 463. See [[cal.1968-12-17.china-leadership-2]].'
+      src:
+        c: 249f52ad
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 463: all'
+      tags:
+      - polity:prc
+- cite:
+    id: cal.1969-04-28.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 463–464 (at the first plenum of the Ninth Central Committee Mao names the Shandong question a contradiction among the people; during the
+      Congress the army leaders had attacked Wang Xiaoyu for the anti-restoration, Mao still protecting him)'
+- cite:
+    id: cal.1969-05-01.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 464 (on the Tiananmen rostrum Mao asks Yang Dezhi to "achieve unity")'
+- add:
+    entry:
+      id: cal.1969-11.china-leadership-2
+      when: Nov.
+      date: 1969-11
+      thread: china-leadership
+      c: The Center begins removing Wang Xiaoyu 王效禹 from his posts (to Mar. 1971); Yang Dezhi 楊得志 becomes chairman of the Shandong Revolutionary Committee and head of its Party core
+        group, Yuan Shengping 袁升平 his deputy.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 464. Made public: 2016.'
+      src:
+        c: 286b5e19
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 464: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1967-05-10.china-leadership-3
+      when: May 10
+      date: '1967-05-10'
+      thread: china-leadership
+      c: Mao appoints Pan Fusheng 潘復生, chairman of the Heilongjiang Revolutionary Committee, political commissar of the Shenyang Military Region 瀋陽軍區.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 464. Made public: 2016. Names: Mao Zedong.'
+      src:
+        c: b70881f2
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 464: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1968.china-leadership-68
+      when: '1968'
+      date: '1968'
+      thread: china-leadership
+      c: Heilongjiang 黑龍江. Pan Fusheng 潘復生 leads the struggle "against right deviation, against restoration, against the restoration of the old"; many cadres taken into the revolutionary
+        committees are dismissed for "restoration"; by a count of his later opponents 29,091 cadres of brigade level and above are seized and struggled and over 50,000 implicated.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 464. Made public: 1996. To check: *Heilongjiang shengzhi* 《黑龍江省志》, vol. 70, *Gongchandang zhi* 《共產黨志》 (Heilongjiang renmin chubanshe 黑龍江人民出版社,
+        1996), 247–249, 262 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 464 n.9). Check: the figures, which Yang (n.9) says his opponents compiled and may exaggerate.'
+      src:
+        c: 9b96b799
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 464: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 464 n.9: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1969-12-27.china-leadership
+      when: Dec. 27
+      date: '1969-12-27'
+      place: peking
+      thread: china-leadership
+      c: 'Peking. Kang Sheng 康生, with other Central leaders receiving the Sichuan Revolutionary Committee''s and the Chengdu Military Region''s study class, relays Mao: "to oppose restoration
+        is surely to restore; opposing restoration is restoration."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 465. Made public: 2016. To check: 〈中央首長接見四川省革委、成都軍區赴京學習班全體同志的重要講話〉, Dec. 27, 1969 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 465 n.10).
+        Names: Kang Sheng, Mao Zedong.'
+      src:
+        c: 8014f687
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 465: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 465 n.10: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:kang-sheng
+      - name:mao-zedong
+- cite:
+    id: cal.1969-05-27.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 465 (Zhou at his fourth reception of the Wuhan rebel leaders: after the Ninth Congress, "some places still want to make trouble, still
+      to seize power; whose power would you seize? Is it not the proletariat''s?")'
+- to-check:
+    id: cal.1969-05-27.china-leadership-2
+    add: Zhou Enlai 周恩來, talk at his fourth reception of the Wuhan rebel leaders, May 27, 1969 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 465 n.11)
+- src:
+    id: cal.1969-05-27.china-leadership-2
+    rows:
+    - 'via w.yang-jisheng-tiandi-fanfu I, 465 n.11: ?'
