@@ -1,8 +1,8 @@
 diff --git a/sources/witnesses/by-work/dikotter-maos-great-famine.yaml b/sources/witnesses/by-work/dikotter-maos-great-famine.yaml
-index 11468ae..30286cd 100644
+index 11468ae..02fc2b9 100644
 --- a/sources/witnesses/by-work/dikotter-maos-great-famine.yaml
 +++ b/sources/witnesses/by-work/dikotter-maos-great-famine.yaml
-@@ -405,3 +405,214 @@
+@@ -405,3 +405,238 @@
  - {at: '227 n.24d', of: x.1960-12-09.yunnan-file-2-1-4432, kind: citation}
  - {at: '226 n.17', of: x.1961-01-04.hubei-file-sz18-2-200, kind: citation}
  - {at: '226 n.20', of: x.1961-02-03.guangdong-file-262-1-115, kind: citation}
@@ -178,7 +178,7 @@ index 11468ae..30286cd 100644
 +- {at: '131 n.7b', of: x.1962.guizhou-file-90-1-2708, kind: citation}
 +- {at: '131 n.7c', of: x.2008.yang-jisheng-mubei-tiandi-2008, kind: citation, pin: '540'}
 +- {at: '136 n.26a', of: x.1961-02-12.gansu-file-91-18-209, kind: citation}
-+- {at: '136 n.26b', of: x.1984.walker-food-grain-procurement, kind: citation, pin: '147'}
++- {at: '136 n.26b', of: w.walker-food-grain-procurement-and, kind: citation, pin: '147'}
 +- {at: '138 n.39', of: x.1962.mfaa-berlin-a6860, kind: citation}
 +- {at: '117 n.3', of: x.2004.zhang-zhong-xinyang-shijian-jiemi, kind: citation, pin: '40–41'}
 +- {at: '117 n.4', of: x.1960-11-09.yang-zhengang-report-ma-longshan, kind: citation}
@@ -198,7 +198,7 @@ index 11468ae..30286cd 100644
 +- {at: '136 n.23b', of: x.1961-01-29.zhejiang-file-j116-15-115-pest-losses, kind: citation}
 +- {at: '136 n.24', of: x.1961-01-13.hubei-file-sz18-2-200, kind: citation}
 +- {at: '136 n.25', of: x.1959-06-20.gansu-file-91-18-539, kind: citation}
-+- {at: '136 n.27', of: x.1984.walker-food-grain-procurement, kind: citation, pin: '21–22'}
++- {at: '136 n.27', of: w.walker-food-grain-procurement-and, kind: citation, pin: '21–22'}
 +- {at: '137 n.28', of: x.1961-03-01.guangdong-file-235-1-259, kind: citation}
 +- {at: '137 n.29', of: x.1961-09-20.yunnan-file-120-1-193, kind: citation}
 +- {at: '137 n.30', of: x.1961-02-20.zhongfa-61-145-gansu-file-91-18-211, kind: citation}
@@ -213,42 +213,39 @@ index 11468ae..30286cd 100644
 +- {at: '138 n.38', of: x.1959-08-20.hunan-file-141-1-1259, kind: citation}
 +- {at: '138 n.40', of: x.1961-01-29.zhejiang-file-j116-15-115-pest-losses, kind: citation}
 +- {at: '138 n.41', of: x.1961-03-15.guangdong-file-217-1-119, kind: citation}
-+- {at: '127 n.1', of: x.1989.oi-state-and-peasant, kind: citation}
++- {at: '127 n.1', of: x.undated.oi-state-and-peasant-in-contemporary-china, kind: citation}
 +- {at: '129 n.2', of: x.1961-04-11.hebei-file-878-1-14, kind: citation}
 +- {at: '129 n.3', of: x.1958-07-29.yunnan-file-2-1-3102, kind: citation}
-+- {at: '129 n.4', of: x.1984.walker-food-grain-procurement, kind: citation}
-diff --git a/sources/witnesses/by-work/yang-jisheng-mubei.yaml b/sources/witnesses/by-work/yang-jisheng-mubei.yaml
-index 106cb65..309e130 100644
---- a/sources/witnesses/by-work/yang-jisheng-mubei.yaml
-+++ b/sources/witnesses/by-work/yang-jisheng-mubei.yaml
-@@ -829,3 +829,22 @@
- - {at: 'II, 1151 n.74', of: x.undated.yang-mu-conversation-with-yang-jisheng-pol-pot, kind: citation}
- # run 7
- - {at: 'I, 308 n.83', of: x.2003.liang-zhiyuan-guanyu-tezhong-anjian-de-huibao-kaifang-2003-10, kind: citation}
-+# run 8
-+- {at: 'I, 125 n.t1', of: x.1961-01-05.central-work-group-qian-ying-report-tianshui-anti-rightist-persecution, kind: citation}
-+- {at: 'I, 125 n.3', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '8, 529'}
-+- {at: 'I, 125 n.4', of: x.1962.gansu-committee-inspection-report-lanzhou-meeting-two-years, kind: citation}
-+- {at: 'I, 125 n.5', of: x.1962.gansu-provincial-level-cadres-opinions-on-enlarged-central-work-conference-documents, kind: citation}
-+- {at: 'I, 134 n.t1', of: x.1993.yang-wenyu-article-tao-river-diversion-yanhuang-chunqiu-1993-3, kind: citation}
-+- {at: 'I, 146 n.t1', of: x.1961-03-18.central-work-group-linxia-city-report, kind: citation}
-+- {at: 'I, 146 n.25', of: x.2011-06-11.ge-dun-letter-to-yang-jisheng-linxia-contracting, kind: citation}
-+- {at: 'I, 147 n.26', of: w.li-lei-youyou-suiyue, kind: citation, pin: '122–150'}
-+- {at: 'I, 151 n.30', of: w.he-fengming-jingli, kind: citation, pin: '394–397'}
-+- {at: 'I, 157 n.34', of: x.1965-07-05.tongwei-county-committee-lessons-of-tongwei-history-report-1965, kind: citation}
-+- {at: 'I, 157 n.t1', of: x.2000-08-09.jing-gennian-account-tongwei-old-cadres-symposium, kind: citation}
-+- {at: 'I, 158 n.35', of: w.fu-shanglun-gaobie-jiee, kind: citation, pin: '26'}
-+- {at: 'I, 160 n.36', of: x.2005.zhang-dafa-jinqiao-lu-man-pp35-37, kind: citation}
-+- {at: 'I, 169 n.t1', of: x.1960.wang-bingxiang-report-on-tongwei-problem, kind: citation}
-+- {at: 'I, 174 n.t1', of: x.1965-09-09.gansu-committee-report-forwarding-tongwei-lessons-to-northwest-bureau, kind: citation}
-+- {at: 'I, 382 n.33', of: x.1960-09-05.lu-jing-letter-jiangsu-committee-dongqiao-commune-wu-county, kind: citation}
-+- {at: 'I, 382 n.34', of: x.1959-02-12.jiangsu-rectification-inspection-corps-yangzhou-branch-report-1959-02-12, kind: citation}
-+- {at: 'I, 126 n.t1', of: x.1999.zhenyuan-county-party-history-office-dayuejin-qijian-de-zhenyuan-yuanan-bainian-chao-1999-4, kind: citation}
++- {at: '129 n.4', of: w.walker-food-grain-procurement-and, kind: citation}
++- {at: '139 n.42', of: x.1962.mfaa-berlin-a6792, kind: citation}
++- {at: '139 n.43', of: x.1961-11-06.hunan-file-141-1-1914, kind: citation}
++- {at: '139 n.44', of: x.1962.yunnan-file-81-7-86, kind: citation}
++- {at: '140 n.45', of: x.1959-02-19.hunan-file-163-1-1052, kind: citation}
++- {at: '140 n.46', of: x.1961-08-11.qian-zhiguang-report-hunan-file-186-1-584, kind: citation}
++- {at: '140 n.47', of: x.1961-02-28.guangzhou-file-6-1-103, kind: citation}
++- {at: '140 n.48', of: x.1962-01-08.beijing-file-2-13-138, kind: citation}
++- {at: '141 n.50', of: x.1962.hebei-file-979-3-870, kind: citation}
++- {at: '141 n.51', of: x.1959-03-15.hunan-file-tools-useless-1959, kind: citation}
++- {at: '141 n.52', of: x.1959-07-03.guangdong-file-217-1-69, kind: citation}
++- {at: '141 n.53', of: x.1961-10-12.guangdong-file-235-1-259, kind: citation}
++- {at: '141 n.54', of: x.1961-01-29.zhejiang-file-j116-15-115-pest-losses, kind: citation}
++- {at: '141 n.55', of: x.1961-01-15.hunan-file-146-1-580, kind: citation}
++- {at: '141 n.56', of: x.1961-05-20.guangdong-file-217-1-210, kind: citation}
++- {at: '142 n.57', of: x.1961-01-29.zhejiang-file-j116-15-115-pest-losses, kind: citation}
++- {at: '142 n.59', of: x.1961.shanghai-file-b181-1-510, kind: citation}
++- {at: '142 n.60', of: x.1962-07-31.beijing-file-1-9-439, kind: citation}
++- {at: '142 n.61', of: x.1958-09-18.moscow-embassy-report-mfa-109-1213-14, kind: citation}
++- {at: '143 n.62', of: x.1960-03-21.jiang-hua-speech-county-first-secretaries-meeting-dahua-xin-hall, kind: citation}
++- {at: '143 n.63', of: x.1961.shanghai-file-b181-1-510, kind: citation}
++- {at: '110 n.11', of: x.1989.jin-chongji-zhou-enlai-zhuan-as-cited-by-dikotter, kind: citation, pin: '1413'}
++- {at: '110 n.13', of: x.1962.mfaa-berlin-a6792, kind: citation}
++- {at: '110 n.15', of: x.1962-09.boone-foreign-trade-of-china, kind: citation}
++- {at: '111 n.17', of: x.1961-06-02.time-famine-and-bankruptcy, kind: citation}
 diff --git a/sources/witnesses/by-work/yang-jisheng-tiandi-fanfu.yaml b/sources/witnesses/by-work/yang-jisheng-tiandi-fanfu.yaml
-index abc1fd5..bb7d6ea 100644
+index abc1fd5..e64c596 100644
 --- a/sources/witnesses/by-work/yang-jisheng-tiandi-fanfu.yaml
 +++ b/sources/witnesses/by-work/yang-jisheng-tiandi-fanfu.yaml
-@@ -373,3 +373,232 @@
+@@ -373,3 +373,338 @@
  - {at: 'I, 262 n.40', of: x.2012.mi-hedu-posijiu-de-biao-yu-li-yanhuang-chunqiu-2012-5, kind: citation}
  - {at: 'I, 264 n.48', of: x.1998.zhong-jieying-youpai-song-wei-xiangzhang-1998, kind: citation}
  - {at: 'I, 271 n.60', of: x.2004-10-03.dong-shengli-guanyu-xian-hongse-kongbudui-de-koushu-huiyi, kind: citation}
@@ -481,3 +478,109 @@ index abc1fd5..bb7d6ea 100644
 +- {at: 'I, 507 n.49', of: x.2012-11-05.ning-guoxue-wife-to-yang-jisheng-2012-11-05, kind: citation}
 +- {at: 'I, 508 n.50', of: x.1981-07-15.zhongjiwei-zhongzubu-guangxi-diaochazu-report-mass-deaths-1981-07-15, kind: citation}
 +- {at: 'I, 508 n.51', of: x.undated.guangxi-wenge-dashi-nianbiao-electronic, kind: citation, pin: '51, 52'}
++- {at: 'I, 512 n.53', of: x.1968-07-25.central-leaders-instructions-receiving-guangxi-delegates-jul-25, kind: citation}
++- {at: 'I, 514 n.54', of: x.undated.yan-lebin-guangxi-wenhua-dageming-yundong-unpublished, kind: citation}
++- {at: 'I, 514 n.55a', of: x.1981.fan-qingtao-to-central-investigation-group-1981, kind: citation}
++- {at: 'I, 514 n.55b', of: x.1981-07-15.zhongjiwei-zhongzubu-guangxi-diaochazu-report-mass-deaths-1981-07-15, kind: citation}
++- {at: 'I, 514 n.56', of: x.undated.xu-yong-wei-guoqing-tusha-guangxi-422-pai, kind: citation}
++- {at: 'I, 514 n.57', of: x.2009.huang-jianan-zhuangxiang-beige-2009, kind: citation, pin: '229'}
++- {at: 'I, 515 n.58', of: x.1987-05-11.nanning-diwei-zhengdang-bangongshi-nanning-diqu-wenhua-dageming-dashiji-1987, kind: citation}
++- {at: 'I, 516 n.59', of: x.1981-07-06.zhongjiwei-guangxi-diaochazu-guilin-820-shijian-1981-07-06, kind: citation}
++- {at: 'I, 516 n.60', of: x.1981-07-15.zhongjiwei-zhongzubu-guangxi-diaochazu-report-mass-deaths-1981-07-15, kind: citation}
++- {at: 'I, 516 n.61', of: x.1987-05-11.nanning-diwei-zhengdang-bangongshi-nanning-diqu-wenhua-dageming-dashiji-1987, kind: citation}
++- {at: 'I, 516 n.62', of: x.2012.yan-lebin-guangxi-wenhua-dageming-yanhuang-chunqiu-2012-11-ms, kind: citation}
++- {at: 'I, 517 n.63', of: x.undated.zhongjiwei-guangxi-diaochazu-annex-6-laixin-laifang-zhaiyao, kind: citation}
++- {at: 'I, 517 n.64', of: x.1981-07-15.zhongjiwei-zhongzubu-guangxi-diaochazu-report-mass-deaths-1981-07-15, kind: citation}
++- {at: 'I, 520 n.1', of: x.undated.wang-haiguang-wuhan-wenge-de-koubei-lishi-preface, kind: citation}
++- {at: 'I, 521 n.3', of: x.2014.zhang-jiancheng-suiyue-liuhen-wuhan-shuidian-xueyuan-wenge-2014, kind: citation, pin: '164'}
++- {at: 'I, 522 n.4a', of: x.undated.cao-chengyi-zhong-yi-beixi-jiaoji-hua-wenge, kind: citation, pin: '34'}
++- {at: 'I, 522 n.4b', of: x.undated.ronggen-wuhan-720-shijian-40-zhounian-yu-wenbin-zhang-dijie-tanfang-ji, kind: citation}
++- {at: 'I, 522 n.5', of: x.undated.wu-yanjin-zhong-yi-sishisan-nian-wangzhong-youji, kind: citation}
++- {at: 'I, 522 n.6a', of: w.wenqian-wannian-zhou-enlai, kind: citation, pin: '227'}
++- {at: 'I, 522 n.6b', of: x.undated.chen-zaidao-wuhan-720-shijian-shimo, kind: citation}
++- {at: 'I, 523 n.7a', of: x.undated.li-zuopeng-huiyilu, kind: citation, pin: '592'}
++- {at: 'I, 523 n.7b', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 252'}
++- {at: 'I, 523 n.8', of: x.undated.chen-zaidao-wuhan-720-shijian-shimo, kind: citation}
++- {at: 'I, 523 n.9', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 251'}
++- {at: 'I, 523 n.10', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 252'}
++- {at: 'I, 524 n.11', of: x.undated.li-zuopeng-huiyilu, kind: citation, pin: '592–593'}
++- {at: 'I, 524 n.12', of: w.zedong-mao-zedong-nianpu, kind: citation, pin: 'VI, 100–101'}
++- {at: 'I, 524 n.13a', of: x.2010.xu-hailiang-720-shijian-shilu-2010, kind: citation}
++- {at: 'I, 524 n.13b', of: x.undated.li-zuopeng-huiyilu, kind: citation, pin: '592'}
++- {at: 'I, 524 n.14', of: x.undated.li-zuopeng-huiyilu, kind: citation, pin: '593'}
++- {at: 'I, 525 n.16a', of: x.1967-07-18.zhou-enlai-speech-wuhan-mr-division-cadres-jul-18, kind: citation}
++- {at: 'I, 525 n.16b', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 252–253'}
++- {at: 'I, 525 n.17', of: x.undated.yang-chengwu-weixing-yang-chengwu-zai-1967, kind: citation}
++- {at: 'I, 525 n.18', of: x.2014.zhang-jiancheng-suiyue-liuhen-wuhan-shuidian-xueyuan-wenge-2014, kind: citation, pin: '183'}
++- {at: 'I, 526 n.19', of: w.zedong-mao-zedong-nianpu, kind: citation, pin: 'VI, 102'}
++- {at: 'I, 526 n.20', of: x.2011.cheng-guang-xinling-de-duihua-2011, kind: citation, pin: '146'}
++- {at: 'I, 526 n.21a', of: x.undated.li-zuopeng-huiyilu, kind: citation, pin: '594'}
++- {at: 'I, 526 n.21b', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 253'}
++- {at: 'I, 526 n.22a', of: x.2011.shishi-bian-wenge-zhong-de-jiantaoshu-2011, kind: citation, pin: '322'}
++- {at: 'I, 526 n.22b', of: x.2011.qiu-huizuo-huiyilu-2011, kind: citation, pin: '533'}
++- {at: 'I, 527 n.23', of: x.1967-11-30.zhong-hanhua-self-criticism-hubei-study-class-1967-11-30, kind: citation}
++- {at: 'I, 528 n.24', of: x.2010.xu-hailiang-wuhan-720-shijian-zhijin-zhenglun-buxiu-2010, kind: citation, pin: '466'}
++- {at: 'I, 528 n.25', of: x.undated.ronggen-wuhan-720-shijian-40-zhounian-yu-wenbin-zhang-dijie-tanfang-ji, kind: citation}
++- {at: 'I, 528 n.26', of: x.2010.xu-hailiang-wuhan-720-shijian-zhijin-zhenglun-buxiu-2010, kind: citation}
++- {at: 'I, 528 n.27a', of: x.undated.zhonggong-wuhan-shiwei-dangshi-bangongshi-wuhan-wenhua-dageming-shiqi-dashiji, kind: citation}
++- {at: 'I, 528 n.27b', of: x.undated.chen-zaidao-wuhan-720-shijian-shimo, kind: citation, pin: '515'}
++- {at: 'I, 528 n.27c', of: x.2008.bu-weihua-zalan-jiu-shijie-2008, kind: citation, pin: '533'}
++- {at: 'I, 528 n.28', of: x.2011-07-10.jin-chunming-talk-with-yang-jisheng-wang-youqin-2011-07-10, kind: citation}
++- {at: 'I, 528 n.29', of: x.2014.zhang-jiancheng-suiyue-liuhen-wuhan-shuidian-xueyuan-wenge-2014, kind: citation, pin: '184'}
++- {at: 'I, 528 n.30', of: x.1967-07-25.zhou-kang-xie-speeches-henan-army-cadres-jul-25, kind: citation}
++- {at: 'I, 529 n.31', of: x.2010.xu-hailiang-wuhan-720-shijian-zhijin-zhenglun-buxiu-2010, kind: citation, pin: '466–467'}
++- {at: 'I, 529 n.32', of: x.undated.ronggen-wuhan-720-shijian-40-zhounian-yu-wenbin-zhang-dijie-tanfang-ji, kind: citation}
++- {at: 'I, 529 n.33', of: x.undated.ronggen-wuhan-720-shijian-40-zhounian-yu-wenbin-zhang-dijie-tanfang-ji, kind: citation}
++- {at: 'I, 530 n.35', of: x.2010.xu-hailiang-720-shijian-shilu-2010, kind: citation}
++- {at: 'I, 531 n.36', of: x.2010.xu-hailiang-720-shijian-shilu-2010, kind: citation}
++- {at: 'I, 531 n.37', of: x.2005-02-25.yu-yan-ye-shuo-720-shijian-zhong-de-8201-fenghuayuan-2005-02-25, kind: citation}
++- {at: 'I, 531 n.38', of: x.2015-01.xie-jingyi-mao-zedong-shenbian-gongzuo-suoyi-2015, kind: citation, pin: '58'}
++- {at: 'I, 532 n.39', of: x.2010.xu-hailiang-wuhan-720-shijian-zhijin-zhenglun-buxiu-2010, kind: citation, pin: '473'}
++- {at: 'I, 532 n.40', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 253–254'}
++- {at: 'I, 532 n.41', of: x.2005-02-25.yu-yan-ye-shuo-720-shijian-zhong-de-8201-fenghuayuan-2005-02-25, kind: citation}
++- {at: 'I, 533 n.42', of: x.2010.xu-hailiang-720-shijian-shilu-2010, kind: citation}
++- {at: 'I, 533 n.43', of: x.2010.xu-hailiang-wuhan-720-shijian-zhijin-zhenglun-buxiu-2010, kind: citation, pin: '471'}
++- {at: 'I, 533 n.44', of: x.2010.xu-hailiang-720-shijian-shilu-2010, kind: citation}
++- {at: 'I, 533 n.45', of: x.undated.zhang-chunting-wo-danren-zhongyang-wenge-jizhezhan-jizhe-de-nanwang-wangshi, kind: citation}
++- {at: 'I, 534 n.46', of: x.2008.wu-faxian-huiyilu-2008, kind: citation, pin: '684–685'}
++- {at: 'I, 534 n.47', of: x.2011.qiu-huizuo-huiyilu-2011, kind: citation, pin: '533'}
++- {at: 'I, 534 n.48', of: x.2013.qian-sijie-gu-baozi-mao-zedong-zhengzhi-shenzhou-youshi-shi-2013, kind: citation, pin: '259'}
++- {at: 'I, 535 n.49', of: x.2011.qiu-huizuo-huiyilu-2011, kind: citation, pin: '533'}
++- {at: 'I, 535 n.50a', of: x.2011.qiu-huizuo-huiyilu-2011, kind: citation, pin: '533'}
++- {at: 'I, 535 n.50b', of: x.2008.wu-faxian-huiyilu-2008, kind: citation, pin: '687'}
++- {at: 'I, 535 n.51', of: x.2010.xu-hailiang-720-shijian-shilu-2010, kind: citation}
++- {at: 'I, 535 n.52', of: x.2008.wu-faxian-huiyilu-2008, kind: citation, pin: '687'}
++- {at: 'I, 535 n.t1', of: x.undated.zhang-zuoliang-recollection-zhou-flight-wuhan-jul-20, kind: citation}
++- {at: 'I, 536 n.53', of: x.2013.qian-sijie-gu-baozi-mao-zedong-zhengzhi-shenzhou-youshi-shi-2013, kind: citation, pin: '259–261'}
++- {at: 'I, 536 n.54a', of: x.2011.qiu-huizuo-huiyilu-2011, kind: citation, pin: '534–535'}
++- {at: 'I, 536 n.54b', of: x.2013.xu-jingxian-zuihou-huiyi-2013, kind: citation, pin: '215'}
++- {at: 'I, 536 n.55', of: x.undated.li-zuopeng-huiyilu, kind: citation, pin: '595'}
++- {at: 'I, 537 n.56', of: x.undated.ronggen-wuhan-720-shijian-40-zhounian-yu-wenbin-zhang-dijie-tanfang-ji, kind: citation}
++- {at: 'I, 537 n.57', of: x.undated.li-zuopeng-huiyilu, kind: citation, pin: '596'}
++- {at: 'I, 537 n.58', of: x.undated.chen-zaidao-wuhan-720-shijian-shimo, kind: citation}
++- {at: 'I, 537 n.59a', of: x.undated.li-zuopeng-huiyilu, kind: citation, pin: '596'}
++- {at: 'I, 537 n.59b', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 255'}
++- {at: 'I, 537 n.59c', of: x.undated.wang-guangyu-720-shijian-hou-zhongyang-wenge-xiaozu-de-jijian-shi-jiyi-16, kind: citation}
++- {at: 'I, 537 n.60', of: x.undated.wang-guangyu-720-shijian-hou-zhongyang-wenge-xiaozu-de-jijian-shi-jiyi-16, kind: citation}
++- {at: 'I, 538 n.61', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 255'}
++- {at: 'I, 539 n.62a', of: x.2011.qiu-huizuo-huiyilu-2011, kind: citation, pin: '532–535'}
++- {at: 'I, 539 n.62b', of: x.2008.bu-weihua-zalan-jiu-shijie-2008, kind: citation, pin: '540'}
++- {at: 'I, 539 n.63', of: x.undated.shang-xinren-peng-zulong-saxiang-renjian-dou-shi-yuan, kind: citation}
++- {at: 'I, 540 n.64', of: x.2011.xu-aijing-qinghua-kuai-dafu-2011, kind: citation, pin: '289'}
++- {at: 'I, 540 n.65', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 256'}
++- {at: 'I, 540 n.66', of: x.2013.xu-jingxian-zuihou-huiyi-2013, kind: citation, pin: '223–224'}
++- {at: 'I, 541 n.67', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 256'}
++- {at: 'I, 541 n.68', of: x.1967-08-28.zhang-guohua-speech-sichuan-agricultural-planning-conference-1967-08-28, kind: citation}
++- {at: 'I, 542 n.69', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 255'}
++- {at: 'I, 542 n.70', of: x.2013.yan-changgui-wo-suo-zhidao-de-guan-feng-tongzhou-gongjin-2013-4, kind: citation}
++- {at: 'I, 543 n.71', of: x.2008.bu-weihua-zalan-jiu-shijie-2008, kind: citation, pin: '558'}
++- {at: 'I, 543 n.72', of: x.2011.yang-rongjia-gongheguo-waijiaobu-mixin-2011, kind: citation, pin: '119–121'}
++- {at: 'I, 544 n.73', of: w.nianyi-da-dongluande-niandai, kind: citation, pin: '267'}
++- {at: 'I, 544 n.74', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 257'}
++- {at: 'I, 544 n.75', of: w.wenqian-wannian-zhou-enlai, kind: citation, pin: '241'}
++- {at: 'I, 545 n.76', of: w.zhou-enlai-zhuan-1949, kind: citation, pin: '1926'}
++- {at: 'I, 545 n.77', of: w.zhou-enlai-nianpu-1949, kind: citation, pin: 'III, 183'}
++- {at: 'I, 545 n.78', of: w.zhou-enlai-zhuan-1949, kind: citation, pin: '1928'}
++- {at: 'I, 545 n.79', of: x.2013-03-29.yan-changgui-qi-benyu-yan-changgui-shuo-wenge-wangshi-119, kind: citation}
++- {at: 'I, 545 n.80', of: x.1992.han-suyin-zhou-enlai-he-ta-de-shiji-1992, kind: citation, pin: '472'}
++- {at: 'I, 545 n.81', of: w.li-wang-li-fansi-lu, kind: citation, pin: '下, 258–260'}
