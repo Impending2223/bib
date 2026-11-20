@@ -4,6 +4,10 @@ Moved word for word from CLAUDE.md, Nov. 10, 2026 (the owner: "I approve both");
 
 ```
 series.yaml               the lists: key, abbreviation, old artifact URL
+pages.yaml                the pages' size budget (5 MB; the calendar 8 MB) and the splits it directs, written by
+                          `./bib pages --plan` (tools/bib/pages.py): Names' letters in surname ranges, Works a page a
+                          letter, the Executive and Congress in parts, the pages retired; the calendar's parts are in
+                          lists/cal/list.yaml
 lists/<key>/list.yaml     a list's title, intro paragraphs, and outline (sections → files)
 lists/<key>/<file>.yaml   one section's entries, in display order (II.D.yaml, apr.yaml)
 works/<letter>.yaml       the works catalogue: one card a work, by the first letter of its id (w.beschloss-crisis-years);

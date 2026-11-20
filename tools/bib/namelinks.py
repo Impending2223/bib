@@ -12,6 +12,7 @@ import html
 import re
 
 from . import lives as L
+from . import pages
 
 
 def index(series):
@@ -19,7 +20,7 @@ def index(series):
     def make():
         out = {}
         for p in L.everyone(series):
-            url = f"names-{L.letter_of(p)}.html#{L.key_of(p['name'])}"
+            url = pages.names_href(L.letter_of(p), L.key_of(p["name"]))
             for n in p["names"] | {p["name"]}:
                 out.setdefault(n, (url, p["name"]))
         return out

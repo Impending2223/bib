@@ -27,11 +27,16 @@ STYLE:
  7. A letter a heading (h2, for the scroll wheel and the Outline drawer). The A–Z bar under the lede, as on the Names
     pages (lives.py STYLE 7), the letters at 1rem, 0.36em apart. A title beginning with a number files under the
     number spelled out (FILING 5 in tools/bib/works.py).
+ 8. Split by letter where pages.yaml says (tools/bib/pages.py; the owner, Nov. 19, 2026): works.html the index (the
+    lede, the bar, each letter with its count and its first and last headings, linked to its page), works-a.html ...
+    works-0.html a page a letter, each with the bar (its own letter unlinked), a line to the index, and at the foot
+    the letters before and after. A card's anchor is on its letter's page; a link anywhere goes there
+    (pages.works_href, pages.route), and works.html#<card> forwards an old link by script.
 """
 import html
 import re
 
-from . import datelist, store, works
+from . import datelist, pages, store, works
 from .markup import ITAL_RE, REF_RE, plain, to_html
 
 esc = html.escape
@@ -125,7 +130,56 @@ def calendar_cites(series, linker):
     return out
 
 
-def page(series, linker, template):
+def groups(series):
+    """The A–Z page's blocks, in order: [{key, hd, title, raw, items: [(sort key, ghost, card id)]}] (STYLE 1-2): an
+    author's works under the heading; a work without one by itself, its short title the heading."""
+    cat = series.works
+    groups = {}
+
+    def into(hd, key, cid, ghost=False, raw=None):
+        if not hd:
+            title = (cat.fields(cid) or {}).get("title") or works.short_title(plain(cat.render(cid)))
+            t = works.ARTICLE.sub("", works.short_title(plain(title))).strip()
+            t = t[:1].upper() + t[1:]
+            g = groups.setdefault(("t", store.fold(t)), {"key": key[0], "hd": None, "title": t, "items": []})
+        else:
+            g = groups.setdefault(("h", store.fold(hd)), {"key": key[0], "hd": hd, "items": [], "raw": raw})
+            if not ghost and g.get("ghosted", True):
+                g["raw"], g["ghosted"] = raw, False          # the name as a work filed here writes it
+            if marks(hd) > marks(g["hd"]):           # one name written with and without its marks: the marks
+                g["hd"] = hd
+        g["items"].append((key[1:], ghost, cid))
+
+    def marks(h):
+        return sum(1 for ch in h or "" if ord(ch) > 127)
+
+    for cid in cat.cards:
+        hd, key = works.filing(series, cid)
+        into(hd, key, cid, raw=works.filed_name(cid, cat))
+        f = cat.fields(cid) or {}
+        for n in works.ghost_names(cid, cat):    # the same work, entered again under its other names (FILING 7)
+            gh, gk = works.heading(n)
+            into(gh, (gk, str(f.get("year") or ""), key[-1]), cid, True, n)
+    return sorted(groups.values(), key=lambda g: (g["key"], g["hd"] or "", g["items"][0][0]))
+
+
+def letters(series):
+    """{card id or alias: its letter}: the letter of the heading each card is filed under (not its ghosts'), for the
+    pages a letter (tools/bib/pages.py)."""
+    out = {}
+    for g in groups(series):
+        L = letter_of(g["key"])
+        for _, gh, cid in g["items"]:
+            if not gh:
+                out[cid] = L
+                for a in store.as_list(series.works.get(cid).get("aliases")):
+                    out.setdefault(a, L)
+    return out
+
+
+def pages_(series, linker, template):
+    """{file name: html}: works.html, the whole bibliography; or, split by letter (pages.yaml), works.html the
+    index and works-a.html ... a page a letter (STYLE 8)."""
     from . import namelinks
     cat = series.works
     where = works.where(series)
@@ -191,34 +245,7 @@ def page(series, linker, template):
             h += f' <span class="wp">{p}</span>'
         return h + "</p>"
 
-    # file every card: an author's works under the heading; a work without, by itself (its short title the heading)
-    groups = {}
-
-    def into(hd, key, cid, ghost=False, raw=None):
-        if not hd:
-            title = (cat.fields(cid) or {}).get("title") or works.short_title(plain(cat.render(cid)))
-            t = works.ARTICLE.sub("", works.short_title(plain(title))).strip()
-            t = t[:1].upper() + t[1:]
-            g = groups.setdefault(("t", store.fold(t)), {"key": key[0], "hd": None, "title": t, "items": []})
-        else:
-            g = groups.setdefault(("h", store.fold(hd)), {"key": key[0], "hd": hd, "items": [], "raw": raw})
-            if not ghost and g.get("ghosted", True):
-                g["raw"], g["ghosted"] = raw, False          # the name as a work filed here writes it
-            if marks(hd) > marks(g["hd"]):           # one name written with and without its marks: the marks
-                g["hd"] = hd
-        g["items"].append((key[1:], ghost, cid))
-
-    def marks(h):
-        return sum(1 for ch in h or "" if ord(ch) > 127)
-
-    for cid in cat.cards:
-        hd, key = works.filing(series, cid)
-        into(hd, key, cid, raw=works.filed_name(cid, cat))
-        f = cat.fields(cid) or {}
-        for n in works.ghost_names(cid, cat):    # the same work, entered again under its other names (FILING 7)
-            gh, gk = works.heading(n)
-            into(gh, (gk, str(f.get("year") or ""), key[-1]), cid, True, n)
-    blocks = sorted(groups.values(), key=lambda g: (g["key"], g["hd"] or "", g["items"][0][0]))
+    blocks = groups(series)
 
     def head(hd, raw):
         name = works.SAME.get(raw or hd, raw or hd)
@@ -232,20 +259,73 @@ def page(series, linker, template):
         by_letter.setdefault(letter_of(g["key"]), []).append(g)
     letters = sorted(by_letter, key=lambda L: (L != "0", L))
     lab = {L: ("0–9" if L == "0" else L.upper()) for L in letters}
-    bar = '<div class="azw"><p class="az">' + "".join(f'<a href="#az-{L}">{lab[L]}</a>' for L in letters) + "</p></div>"
     n_auth = sum(1 for g in blocks if g["hd"] and any(not gh for _, gh, _ in g["items"]))
-    main = ["<h1>Works</h1>"] + LEDE + [
-        f'<p class="logic">{len(cat.cards):,} works; {n_auth:,} authors and directors.</p>', bar, '<div class="wz">']
-    for L in letters:
-        main.append(f'<h2 id="az-{L}" data-short="{lab[L]}">{lab[L]}</h2>')
+    count = f'<p class="logic">{len(cat.cards):,} works; {n_auth:,} authors and directors.</p>'
+
+    def body(L):
+        out = []
         for g in by_letter[L]:
             items = sorted(g["items"])
             if g["hd"]:
                 hh = head(g["hd"], g.get("raw"))
             else:                          # the short title, in italics (the owner's ruling, Oct. 15, 2026)
                 hh = f'<p class="wh"><i>{esc(g["title"])}</i></p>'
-            main.append('<div class="wa">' + hh + "".join(item(cid, gh) for _, gh, cid in items) + "</div>")
-    main.append("</div>")
-    pg = open(template, encoding="utf-8").read()
-    pg = pg.replace("{{page_title}}", "Works").replace("{{main}}", "\n".join(main))
-    return pg.replace("</body>", CSS + "\n</body>", 1)
+            out.append('<div class="wa">' + hh + "".join(item(cid, gh) for _, gh, cid in items) + "</div>")
+        return out
+
+    def wrap(title, main):
+        pg = open(template, encoding="utf-8").read()
+        pg = pg.replace("{{page_title}}", title).replace("{{main}}", "\n".join(main))
+        return pg.replace("</body>", CSS + "\n</body>", 1)
+    if not pages.works_split():
+        bar = '<div class="azw"><p class="az">' + "".join(f'<a href="#az-{L}">{lab[L]}</a>' for L in letters) + "</p></div>"
+        main = ["<h1>Works</h1>"] + LEDE + [count, bar, '<div class="wz">']
+        for L in letters:
+            main.append(f'<h2 id="az-{L}" data-short="{lab[L]}">{lab[L]}</h2>')
+            main += body(L)
+        main.append("</div>")
+        return {"works.html": wrap("Works", main)}
+    # a page a letter (STYLE 8; tools/bib/pages.py; the owner, Nov. 19, 2026: "Do we need to split Works? ... I think
+    # we do."): works.html the index, its bar to the letters' pages; each letter's page the bar, its own unlinked
+    def bar(cur=None):
+        return '<div class="azw"><p class="az">' + "".join(
+            f'<span aria-current="page">{lab[L]}</span>' if L == cur else
+            f'<a href="{pages.works_page_of_letter(L)}.html">{lab[L]}</a>' for L in letters) + "</p></div>"
+
+    def counted(L):
+        n = sum(1 for g in by_letter[L] for _, gh, _ in g["items"] if not gh)
+        return f"{n:,} {'work' if n == 1 else 'works'}"
+    out = {}
+    index = ["<h1>Works</h1>"] + LEDE + [count, bar(), '<p class="logic">A page a letter.</p>']
+    for L in letters:
+        pg = pages.works_page_of_letter(L)
+        first, last = by_letter[L][0], by_letter[L][-1]
+        rng = " to ".join(dict.fromkeys(esc(g["hd"] or g["title"]) for g in (first, last)))
+        index.append(f'<h2 id="az-{L}" data-short="{lab[L]}"><a href="{pg}.html">{lab[L]}</a></h2>'
+                     f'<p class="logic"><a href="{pg}.html">{counted(L)}</a>: {rng}.</p>')
+    html = wrap("Works", index)
+    out["works.html"] = html.replace("</body>", pages.forward_script(dict(pages.WORKS), "works", here=True)
+                                     + "\n</body>", 1)
+    for i, L in enumerate(letters):
+        me = pages.works_page_of_letter(L)
+        seam = ([f'<a href="{pages.works_page_of_letter(letters[i - 1])}.html">‹ {lab[letters[i - 1]]}</a>'] if i else []) \
+            + ['<a href="works.html">Index</a>'] \
+            + ([f'<a href="{pages.works_page_of_letter(letters[i + 1])}.html">{lab[letters[i + 1]]} ›</a>']
+               if i + 1 < len(letters) else [])
+        main = [f"<h1>Works: {lab[L]}</h1>"] + LEDE + [
+            f'<p class="logic">{counted(L)} under {lab[L]}; {len(cat.cards):,} in all.</p>', bar(L),
+            '<p class="lvs"><a href="works.html">Index</a></p>', '<div class="wz">',
+            f'<h2 id="az-{L}" data-short="{lab[L]}">{lab[L]}</h2>'] + body(L) + [
+            "</div>", '<nav class="pgseam" aria-label="Letters"><p>' + " · ".join(seam) + "</p></nav>" + pages.PART_CSS]
+        out[f"{me}.html"] = OWN.sub(lambda m: f'href="{pages.works_href(m.group(1))}"'
+                                    if pages.WORKS.get(m.group(1), me) != me else m.group(0),
+                                    wrap(f"Works: {lab[L]}", main))
+    return out
+
+
+OWN = re.compile(r'href="#([^"]+)"')
+
+
+def page(series, linker, template):
+    """The A–Z bibliography on one page (the build writes pages_(), a page a letter where pages.yaml says)."""
+    return pages_(series, linker, template)["works.html"]

@@ -116,7 +116,7 @@ def load():
 
 def cite_html(r, with_note=True):
     pp = ("pp. " if any(c in r["pages"] for c in "–,") else "p. ") + r["pages"]
-    from .markup import WORKS_PAGE
+    from .markup import _works_href
     cid = card(r)
     if r["work"] == "dsb":
         pg = f'<a class="src" href="{esc(r["url"])}" title="archive.org">{esc(pp)}</a>' if r.get("url") else esc(pp)
@@ -125,7 +125,7 @@ def cite_html(r, with_note=True):
     else:
         name = f"<i>Current Documents, {esc(r['year'])}</i>"
         rest = f", {esc(pp)}"
-    out = (f'<a href="{WORKS_PAGE}#{esc(cid)}">{name}</a>' if cid else name) + rest
+    out = (f'<a href="{_works_href(esc(cid))}">{name}</a>' if cid else name) + rest
     if r.get("check"):
         out += f' <i title="{esc(r["check"])}">Check</i>'
     if with_note:

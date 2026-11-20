@@ -25,8 +25,11 @@ import re
 from . import smart
 
 SUB = "days"
-TOK = re.compile(r'<div class="day" id="d(\d{4}-\d\d-\d\d)">'
-                 r'|<details class="(docs[^"]*)"><summary>(.*?)</summary>(.*?)</details>', re.S)
+# a day's div, whatever its other classes ("day sun", a Sunday; "day ix", an intercalary day; "day mo", a month's
+# loose dates) and attributes; only a dated day's (id="d1964-01-05") blocks go to the month files, the rest stay inline
+TOK = re.compile(r'(?P<div><div class="day(?: [^"]*)?"(?: id="(?P<id>[^"]*)")?[^>]*>)'
+                 r'|<details class="(?P<cls>docs[^"]*)"><summary>(?P<sum>.*?)</summary>(?P<body>.*?)</details>', re.S)
+DAY = re.compile(r"^d(\d{4}-\d\d-\d\d)$")
 IDS = re.compile(r'\sid="([^"]+)"')
 
 
@@ -36,19 +39,20 @@ def split(page, name, out):
         return page
     months, ix, parts, pos, day = {}, {}, [], 0, None
     for m in TOK.finditer(page):
-        if m.group(1):
-            day = m.group(1)
+        if m.group("div"):
+            dm = DAY.match(m.group("id") or "")
+            day = dm.group(1) if dm else None
             continue
         if day is None:
             continue
         mon = day[:7]
-        key = day + ("o" if " or" in f' {m.group(2)}' else "d")
-        body = smart.smarten("0" + m.group(4))[1:]       # curled as in the page: the summary ends in a digit
+        key = day + ("o" if " or" in f' {m.group("cls")}' else "d")
+        body = smart.smarten("0" + m.group("body"))[1:]       # curled as in the page: the summary ends in a digit
         months.setdefault(mon, {})[key] = body
         for a in IDS.findall(body):
             ix[a] = mon
         parts.append(page[pos:m.start()])
-        parts.append(f'<details class="{m.group(2)}" data-lz="{mon}"><summary>{m.group(3)}</summary></details>')
+        parts.append(f'<details class="{m.group("cls")}" data-lz="{mon}"><summary>{m.group("sum")}</summary></details>')
         pos = m.end()
     if not months:
         return page

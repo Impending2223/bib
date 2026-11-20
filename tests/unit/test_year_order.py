@@ -168,3 +168,27 @@ def test_the_next_parts_first_anchor():
     assert calsplit.first_anchor(lst, datetime.date(1960, 1, 6)) == "y1960"
     assert calsplit.first_anchor(lst, datetime.date(1960, 7, 1)) == "ix-1960-07-month"
     assert calsplit.first_anchor(lst, datetime.date(1960, 3, 1)) == "d1960-03-01"
+
+
+def test_the_ghost_days_anchors_by_the_data(page):
+    """daybook.ix_anchors, the split map's (calsplit.anchors), gives each section the intercalary days its page holds."""
+    from bib import daybook
+    lst = year_list()
+    loose._HOSTS.clear()
+    want = [x for x in order(page) if x.startswith("ix-")]
+    got = [a for sec in lst.sections for a in daybook.ix_anchors(lst, sec)]
+    assert want and sorted(got) == sorted(want)
+
+
+def test_year_and_ghost_anchors_forwarded_by_rule(monkeypatch):
+    """calsplit.by_rule: a year's heading to its first month's page, an intercalary day to its month's."""
+    from bib import calsplit
+
+    class L:
+        key = "cal"
+    monkeypatch.setattr(calsplit, "parts", lambda lst: [{"page": p} for p in ("cal", "cal1960Q1", "cal1960Q3")])
+    monkeypatch.setattr(calsplit, "years", lambda lst: {"1960-01": "cal1960Q1", "1960-07": "cal1960Q3"})
+    assert calsplit.by_rule(L, "y1960") == "cal1960Q1"
+    assert calsplit.by_rule(L, "ix-1960-07-month") == "cal1960Q3"
+    assert calsplit.by_rule(L, "ix-1960-07-10-before") == "cal1960Q3"
+    assert calsplit.by_rule(L, "y1961") is None

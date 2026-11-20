@@ -1,0 +1,247 @@
+# The pages' size budget and the splits it directs (tools/bib/pages.py, its docstring; ./bib pages, ./bib pages --plan).
+# budget: bytes a page may hold, its HTML alone; budgets: a family's own; fill: a split packs its parts to this share
+# of the budget; exempt: reported, never split. The rest is the plan, written by `./bib pages --plan` (by hand only to
+# set a split aside): names, a letter in surname ranges; works, a page a letter; executive and congress, their top
+# sections in parts; retired, the pages a split replaced, each forwarding its old links. The calendar's parts are in
+# lists/cal/list.yaml (`split:`, `retired_parts`).
+budget: 5000000
+budgets:
+  cal: 8000000
+fill: 0.7
+why:
+  budget: 'Five megabytes of HTML a page: what a phone loads, parses and lays out in a second or two; past it a
+    page is slow to open and to search. The default of the pass (Nov. 19, 2026).'
+  cal: 'The calendar keeps the owner''s page-size rule, "some 8 MB" (Nov. 12, 2026: "Keep the page size rule and
+    split the years"): its days'' documents already load when opened, and a part split further is a quarter, then
+    a month.'
+  fill: 'A split packs its parts to 70 percent of the budget: room to grow before the next split.'
+  works: 'The owner, Nov. 19, 2026: "Do we need to split Works? ... I think we do." A page a letter, as Names.'
+exempt:
+  series.html: the one-page reader, all of the series by design; its days' blocks already load when opened (lazydays.py)
+works:
+  by: letter
+names:
+  b:
+  - page: names-ba-blanch
+    from: b
+    label: Ba–Blanch
+  - page: names-blanck-buckleyo
+    from: blanck
+    label: Blanck–Buckley, O
+  - page: names-buckleyw-bz
+    from: buckley-w
+    label: Buckley, W–Bz
+  c:
+  - page: names-ca-chenx
+    from: c
+    label: Ca–Chen, X
+  - page: names-cheny-collinsjf
+    from: chen-y
+    label: Chen, Y–Collins, J F
+  - page: names-collinsjl-cz
+    from: collins-j-l
+    label: Collins, J L–Cz
+  d:
+  - page: names-da-dengf
+    from: d
+    label: Da–Deng, F
+  - page: names-dengx-dip
+    from: deng-x
+    label: Deng, X–Dip
+  - page: names-dir-dz
+    from: dir
+    label: Dir–Dz
+  g:
+  - page: names-ga-gord
+    from: g
+    label: Ga–Gord
+  - page: names-gore-gz
+    from: gore
+    label: Gore–Gz
+  h:
+  - page: names-ha-henn
+    from: h
+    label: Ha–Henn
+  - page: names-henr-humphreyd
+    from: henr
+    label: Henr–Humphrey, D
+  - page: names-humphreyg-hz
+    from: humphrey-g
+    label: Humphrey, G–Hz
+  j:
+  - page: names-ja-johnsonlynda
+    from: j
+    label: Ja–Johnson, Lynda
+  - page: names-johnsonlyndonb
+    from: johnson-lyndon-b
+    only: johnson-lyndon-b
+    label: Johnson, Lyndon B.
+  - page: names-johnsonm-jz
+    from: johnson-m
+    label: Johnson, M–Jz
+  k:
+  - page: names-ka-kennedyja
+    from: k
+    label: Ka–Kennedy, Ja
+  - page: names-kennedyjohnf
+    from: kennedy-john-f
+    only: kennedy-john-f
+    label: Kennedy, John F.
+  - page: names-kennedyjos-kho
+    from: kennedy-jos
+    label: Kennedy, Jos–Kho
+  - page: names-khr-kissic
+    from: khr
+    label: Khr–Kissic
+  - page: names-kissin-kz
+    from: kissin
+    label: Kissin–Kz
+  l:
+  - page: names-la-lim
+    from: l
+    label: La–Lim
+  - page: names-lin-llor
+    from: lin
+    label: Lin–Llor
+  - page: names-llos-lz
+    from: llos
+    label: Llos–Lz
+  m:
+  - page: names-ma-man
+    from: m
+    label: Ma–Man
+  - page: names-maozedong
+    from: mao-zedong
+    only: mao-zedong
+    label: Mao Zedong
+  - page: names-mar-mcgi
+    from: mar
+    label: Mar–Mcgi
+  - page: names-mcgo-med
+    from: mcgo
+    label: Mcgo–Med
+  - page: names-mee-mossf
+    from: mee
+    label: Mee–Moss, F
+  - page: names-mossj-mz
+    from: moss-j
+    label: Moss, J–Mz
+  r:
+  - page: names-ra-rockefellerm
+    from: r
+    label: Ra–Rockefeller, M
+  - page: names-rockefellern-rush
+    from: rockefeller-n
+    label: Rockefeller, N–Rush
+  - page: names-rusk-rz
+    from: rusk
+    label: Rusk–Rz
+  s:
+  - page: names-sa-shoo
+    from: s
+    label: Sa–Shoo
+  - page: names-shor-stend
+    from: shor
+    label: Shor–Stend
+  - page: names-stenn-sz
+    from: stenn
+    label: Stenn–Sz
+  w:
+  - page: names-wa-whitee
+    from: w
+    label: Wa–White, E
+  - page: names-whitef-wz
+    from: white-f
+    label: White, F–Wz
+  z:
+  - page: names-za-zhi
+    from: z
+    label: Za–Zhi
+  - page: names-zhouenlai
+    from: zhou-enlai
+    only: zhou-enlai
+    label: Zhou Enlai
+  - page: names-zhous-zz
+    from: zhou-s
+    label: Zhou, S–Zz
+executive:
+  parts:
+  - page: executive-1953
+    label: Jan. 20, 1953
+    sections:
+    - t195301
+  - page: executive-1957
+    label: Jan. 20, 1957
+    sections:
+    - t195701
+  - page: executive-1961
+    label: Jan. 20, 1961
+    sections:
+    - t196101
+  - page: executive-1961-departments
+    label: Jan. 20, 1961, Departments
+    sections:
+    - t196101/t196101-departments
+  - page: executive-1963
+    label: Nov. 22, 1963
+    sections:
+    - t196311
+  - page: executive-1965
+    label: Jan. 20, 1965
+    sections:
+    - t196501
+  - page: executive-1965-departments
+    label: Jan. 20, 1965, Departments
+    sections:
+    - t196501/t196501-departments
+  - page: executive-1965-agencies
+    label: Jan. 20, 1965, Agencies
+    sections:
+    - t196501/t196501-agencies
+  - page: executive-1969
+    label: Jan. 20, 1969
+    sections:
+    - t196901
+  - page: executive-1973
+    label: Jan. 20, 1973
+    sections:
+    - t197301
+  - page: executive-1974-sources
+    label: Aug. 9, 1974–Sources
+    sections:
+    - t197408
+    - authorities
+    - sources
+congress:
+  parts:
+  - page: congress-85-87
+    label: 85th–87th
+    sections:
+    - c85
+    - c86
+    - c87
+  - page: congress-88
+    label: 88th
+    sections:
+    - c88
+  - page: congress-89
+    label: 89th
+    sections:
+    - c89
+  - page: congress-90
+    label: 90th
+    sections:
+    - c90
+  - page: congress-91
+    label: 91st
+    sections:
+    - c91
+  - page: congress-92
+    label: 92nd
+    sections:
+    - c92
+  - page: congress-93-94
+    label: 93rd–94th
+    sections:
+    - c93
+    - c94

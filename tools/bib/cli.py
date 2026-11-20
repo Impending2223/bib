@@ -220,6 +220,7 @@ def cmd_links(series, a):
         text = open(path, encoding="utf-8").read()
         return text + lazydays.fragments(path)
     bad = collections.Counter()
+    gone = collections.Counter()          # links to a page the build did not write
     shown = collections.defaultdict(list)
     for name, path in sorted(pages.items()):
         if name.startswith("lives"):
@@ -227,15 +228,47 @@ def cmd_links(series, a):
         text = page_text(path)
         for href in re.findall(r'href="([^"#:]*\.html)?#([^"]+)"', text):
             target, frag = href[0] or name, H.unescape(href[1])
-            if target not in pages or frag in ids_of(target) or "'" in frag:    # (a script's template, not a link)
+            if "'" in frag or "{" in target:                  # (a script's template, not a link)
+                continue
+            if target not in pages and "/" not in target:     # a page of the site that was not built (pages.py: a split)
+                gone[(name, target)] += 1
+                continue
+            if target not in pages or frag in ids_of(target):
                 continue
             bad[(name, target)] += 1
             if len(shown[(name, target)]) < 3:
                 shown[(name, target)].append(frag)
+        for target in re.findall(r'href="([^"#:/]+\.html)"', text):
+            if target not in pages:
+                gone[(name, target)] += 1
     for (src, dst), n in sorted(bad.items()):
         print(f"{src} -> {dst}: {n} missing, e.g. {', '.join(shown[(src, dst)])}")
-    print(f"{sum(bad.values())} links to missing anchors")
-    return 1 if bad else 0
+    for (src, dst), n in sorted(gone.items()):
+        print(f"{src} -> {dst}: no such page ({n} links)")
+    print(f"{sum(bad.values())} links to missing anchors; {sum(gone.values())} to missing pages")
+    return 1 if bad or gone else 0
+
+
+def cmd_pages(series, a):
+    """Every built page's size against its budget, and the splits it directs (tools/bib/pages.py); exit 1 while a page
+    not exempt is over budget and a split could bring it in (one person's Names entry, which none divides, reported)."""
+    from . import pages
+    rows = pages.measure(OUT_DIR())
+    if not rows:
+        print("no built pages: ./bib build first")
+        return 1
+    if a.plan:
+        prop, cal = pages.plan(OUT_DIR())
+        print(pages.report(rows, prop))
+        print("\nwritten: pages.yaml" + (", lists/cal/list.yaml (" + ", ".join(cal) + ")" if cal else "")
+              + "; now ./bib build, ./bib links, ./bib pages")
+        return 0
+    prop = pages.propose(OUT_DIR(), rows)
+    if a.all:
+        for r in rows:
+            r["stub"] = False
+    print(pages.report(rows, prop))
+    return 1 if any(r["over"] and not r.get("alone") for r in rows) else 0     # a page a split could bring in
 
 
 def OUT_DIR():
@@ -1014,6 +1047,9 @@ def main(argv=None):
     x = sub.add_parser("show", help="full YAML of entries, with rev, tags, and backlinks")
     x.add_argument("ids", nargs="+")
     sub.add_parser("links", help="links between the built pages whose anchors are missing")
+    x = sub.add_parser("pages", help="every built page's size against the budget (pages.yaml); --plan writes the splits")
+    x.add_argument("--plan", action="store_true", help="write the proposed splits (pages.yaml, lists/cal/list.yaml)")
+    x.add_argument("--all", action="store_true", help="list the forwarding stubs too")
     sub.add_parser("audit-cal", help="the calendar's entries against the brief: writes notes/calendar-audit.md")
     x = sub.add_parser("check", help="lint the store; exit 1 on errors")
     x.add_argument("--list", "-l")

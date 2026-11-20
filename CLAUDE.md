@@ -48,7 +48,7 @@ Markup: `*Title*` italics; `[text](https://…)` a link; `[[w.id]]` a work's car
 
 ## Changing things, in short (full: `notes/guide/changing.md`)
 
-Directly: edit the section file, then `./bib check` (must end "0 errors"), `./bib build` (a page alone: `./bib build cal | names | works | congress ...`), `./bib links`.
+Directly: edit the section file, then `./bib check` (must end "0 errors"), `./bib build` (a page alone: `./bib build cal | names | works | congress ...`), `./bib links`, `./bib pages` (the page budget: notes/guide/pages.md).
 
 By patch (readers working at once): `inbox/<date>-<name>.yaml`, ops `add` (a new entry, claimed first in the ledger: `./bib ledger add DATE THREAD ID "words" PATCH`; a claim no longer used, `./bib ledger drop PATCH ID`; never edit the ledger by hand), `edit` (with `base:` the rev `./bib show` printed), and the additive ops that need no base: `cite: {id, item, units}`, `primary`, `to-check: {id, add}`, `check: {id, text}`, `src`, `names: {id, add, tags}`, `also`, `variant`, `follows`. `./bib patch-check PATCH` until no errors. `./bib merge --auto PATCH...` merges (one merge at a time: merges have no lock; readers never merge). `./bib setup` once per clone.
 
@@ -133,4 +133,5 @@ The claude.ai artifacts named in `series.yaml` are frozen copies of Oct. 1, 2026
 - `indicators.md`, `armed-forces.md`, `budgets-bills.md`: economic indicators, the war's tables, forces, budgets, bills, appropriations.
 - `indochina-maps.md`: the maps of Indochina.
 - `ebooks-feeds.md`, `desk.md`: the ebooks and feeds; the owner's desk.
+- `pages.md`: the page budget: `./bib pages`, the splits it directs (`pages.yaml`), their pointers and old addresses.
 

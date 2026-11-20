@@ -98,7 +98,8 @@ STYLE:
 14. Old links. Every page of this series is routed at build (5). A link from outside to the index or to an old part's
     page (cal63.html, cal66.html: a line to the index and a script) goes to the page that holds its anchor, by a script
     (forward_script): the anchor's form names its page where it holds one (cal1961.thread.cuba, th-cal1961,
-    ind-cal1961-cpi), else its year (cal.1961-04-15.cuba, d1961-04-15, 196104); a map the build writes (forward) gives
+    ind-cal1961-cpi), else its year (cal.1961-04-15.cuba, d1961-04-15, 196104, an intercalary day's ix-1962-05-month;
+    a year's heading, y1962, its first month's page); a map the build writes (forward) gives
     the rest: an entry whose date has left its id's year, a section's old id (apr60), a table's anchor (tb-...), and
     the old parts' own (cal63.thread.cuba, th2, ind-cal63-cpi: the first year over the old part's span that holds the
     like). On the index an anchor it holds stays; one nothing places, there too; an old part's page without one goes
@@ -294,9 +295,11 @@ def anchors(lst):
 
         def walk(s):
             bag.add(s.id)
-            from .daybook import year_opened
+            from .daybook import year_opened, ix_anchors
             if year_opened(lst, s) is not None:   # the year's heading over the section opening it (daybook STYLE 17)
                 bag.add(f"y{year_opened(lst, s)}")
+            if s.extra.get("from") and s.extra.get("to"):
+                bag.update(ix_anchors(lst, s))    # its intercalary days (ix-1962-05-month, ix-1961-04-15-before)
             if s.extra.get("old_id"):
                 bag.add(str(s.extra["old_id"]))
             for e in s.entries:
@@ -380,7 +383,8 @@ def old_pages(lst):
 # ---------------------------------------------------------------- old links, forwarded (STYLE 14)
 
 ID = re.compile(r'\sid="([^"]+)"')
-YEAR = re.compile(r"^(?:cal\.|d)?(\d{4})-?(\d\d)")
+YEAR = re.compile(r"^(?:cal\.|d|ix-)?(\d{4})-?(\d\d)")     # an entry, a day, a month, an intercalary day
+YH = re.compile(r"^y(\d{4})$")                                # a year's heading (daybook.py, STYLE 17)
 
 
 def years(lst):
@@ -395,13 +399,20 @@ def years(lst):
 
 def by_rule(lst, a):
     """The page an anchor names by its form: a part's page in it (cal1961.thread.cuba, th-cal1961, ind-cal1961-cpi), else
-    its year (cal.1961-04-15.cuba, d1961-04-15, 196104, 196601b); None where the form says nothing."""
+    its year (cal.1961-04-15.cuba, d1961-04-15, 196104, 196601b, ix-1962-05-month; y1962, the year's first month's
+    page); None where the form says nothing."""
     pages = {p["page"] for p in parts(lst)} - {lst.key}
-    for t in re.split(r"[.-]", a):
-        if t in pages:
-            return t
+    t = re.split(r"([.-])", a)
+    for i in range(0, len(t), 2):        # a page's name whole, a month's with its hyphen (cal1964-01.thread.cuba)
+        for k in (3, 1):
+            if i + k <= len(t) and "".join(t[i:i + k]) in pages:
+                return "".join(t[i:i + k])
     m = YEAR.match(a)
-    return years(lst).get(f"{m.group(1)}-{m.group(2)}") if m else None
+    if m:
+        return years(lst).get(f"{m.group(1)}-{m.group(2)}")
+    m = YH.match(a)
+    ys = years(lst)
+    return ys[min(k for k in ys if k[:4] == m.group(1))] if m and any(k[:4] == m.group(1) for k in ys) else None
 
 
 def forward(lst):
@@ -418,7 +429,7 @@ def forward(lst):
         have.setdefault(files[h], set()).add(a)
         if by_rule(lst, a) == files[h]:
             continue
-        if YEAR.match(a) or a.startswith("tb-") or a in _old_ids(lst):
+        if YEAR.match(a) or YH.match(a) or a.startswith("tb-") or a in _old_ids(lst):
             out[a] = files[h]
     lo0, hi0 = bounds(lst)
     for i, o in enumerate(olds):
@@ -479,8 +490,9 @@ def forward_script(lst, fwd, me):
   var D={data};
   function to(x){{
     var f=D.f[x]; if(f) return f.indexOf('#')<0 ? f+'.html#'+x : f.replace('#','.html#');
-    var t=x.split(/[.-]/); for(var i=0;i<t.length;i++) if(D.p.indexOf(t[i])>=0) return t[i]+'.html#'+x;
-    var m=/^(?:cal\\.|d)?(\\d{{4}})-?(\\d\\d)/.exec(x), k=m?m[1]+'-'+m[2]:null; if(k&&D.y[k]) return D.y[k]+'.html#'+x;
+    var t=x.split(/([.-])/); for(var i=0;i<t.length;i+=2) for(var k=3;k>0;k-=2){{ var w=t.slice(i,i+k).join(''); if(i+k<=t.length&&D.p.indexOf(w)>=0) return w+'.html#'+x; }}
+    var m=/^(?:cal\\.|d|ix-)?(\\d{{4}})-?(\\d\\d)/.exec(x), k=m?m[1]+'-'+m[2]:null; if(k&&D.y[k]) return D.y[k]+'.html#'+x;
+    var y=/^y(\\d{{4}})$/.exec(x); if(y){{ var ks=Object.keys(D.y).filter(function(q){{return q.slice(0,4)===y[1];}}).sort(); if(ks.length) return D.y[ks[0]]+'.html#'+x; }}
     return null;
   }}
   function go(){{
@@ -504,8 +516,10 @@ def stub(lst, fwd, old):
 <style>:root{{--ink:#1a1a1a;--bg:#f6f4ef}}@media (prefers-color-scheme:dark){{:root{{--ink:#e8e6e1;--bg:#16181c}}}}
 body{{margin:0;padding:3rem 1rem;background:var(--bg);color:var(--ink);font:18px/1.55 Georgia,serif}}
 p{{max-width:36rem;margin:0 auto}}a{{color:inherit}}</style></head>
-<body><p>The calendar is now a page a half-year. This address forwards to the page that holds the place it named;
-without one, to <a href="{lst.key}.html">the calendar's index</a>.</p>
+<body><p>The calendar is now in parts: a page a year, a half, a quarter or a month as its size directs. This address
+forwards to the page that holds the place it named; without one, to <a href="{lst.key}.html">the calendar's
+index</a>.</p>
+<noscript><p>Without scripts: <a href="{lst.key}.html">the calendar's index</a>, which lists every page.</p></noscript>
 {forward_script(lst, fwd, old)}
 </body></html>
 """
