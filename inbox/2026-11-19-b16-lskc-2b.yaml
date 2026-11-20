@@ -3022,6 +3022,7 @@ ops:
       tags:
       - polity:drv
       - polity:us
+      - ok:fields-place
 - variant:
     id: cal.1967-01-26.vietnam-operations
     unit: A
@@ -3070,6 +3071,7 @@ ops:
       - polity:drv
       - polity:us
       - polity:rvn
+      - ok:fields-place
 - add:
     entry:
       id: cal.1967-02-26.vietnam-hanoi
@@ -3141,3 +3143,117 @@ ops:
       time_band: night
       time_zone: Asia/Ho_Chi_Minh
       range_basis: record
+      place: dong-pan
+- add:
+    entry:
+      id: cal.1967-03-13.vietnam-hanoi-2
+      when: Mar. 13
+      date: '1967-03-13'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Dương Minh Châu base. The American columns begin to leave it. The history calls this the defeat of the first phase of Junction City: 5,859 of the other side out of action, 33 guns and 497 vehicles destroyed or damaged, 90 aircraft shot down.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 271. See [[cal.1967-02-22.vietnam]]. The figures are the history''s.'
+      tags:
+      - polity:drv
+      - polity:us
+- add:
+    entry:
+      id: cal.1967-03-15.vietnam-hanoi
+      when: Mar. 15
+      date: '1967-03-15'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: The American command in Saigon opens the second phase, turning the main thrust to the east of the base with wide encirclement, deep thrusts, careful advance and heavy bombing. The Command of the 9th Division masses Regiment 2 at Chà Dơ and sets up for a large battle; the local forces are given anti-tank and antiaircraft guns and set to hunting vehicles and aircraft and laying mines. The history dates the second phase's start Mar. 18.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 272–73. See [[cal.1967-02-22.vietnam]]. Check: Mar. 15 against Mar. 18 in the same history.'
+      tags:
+      - polity:drv
+      - polity:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-03-18.vietnam-hanoi
+      when: Mar. 18
+      date: '1967-03-18'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Lộc Ninh bridge. Leaving Suối Đá for the bridge, the Americans meet mines laid by the guerrillas of Group 82 (Bà Hảo district), which destroy eight armored cars.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 274. See [[cal.1967-03-19.vietnam-hanoi]]. The figures are the history''s.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: loc-ninh
+- cite:
+    id: cal.1967-03-19.vietnam-hanoi
+    item: '[[w.lich-su-khang-chien-chong-my]], IV, 274 (Mar. 19: the mines at Đồng Rùm, 8 aircraft and over 100 Americans; Mar. 19 also the 3d Regiment''s raid on the mechanized group of the 1st Brigade, 9th Division, at Bàu Bàng, by the history 400 Americans, 92 vehicles and 9 guns)'
+    units: all
+- variant:
+    id: cal.1967-03-20.vietnam-operations
+    unit: A
+    witness: w.lich-su-khang-chien-chong-my
+    reads: the 3d Regiment's raid on the mechanized infantry group of the 1st Brigade, 9th Division, at Bàu Bàng on Route 13, Mar. 19, by the history 400 Americans, 92 vehicles (65 armored) and 9 guns destroyed
+    at: IV, 274
+- add:
+    entry:
+      id: cal.1967-03-20.vietnam-hanoi-2
+      when: Mar. 20–21
+      date: '1967-03-20'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'Đồng Rùm area. The night of Mar. 20 into 21, with the Americans newly up and unfamiliar with the ground, the 9th Division''s command sends Regiments 2 and 16 into a decisive battle on ground chosen before: Regiment 2 from Chà Dơ destroys the southern group and goes on to the headquarters of the 4th Division''s 3d Brigade; Regiment 16 from the north attacks southward. By the history''s count the two regiments hurt an artillery battalion (18 guns) and three armored troops (72 vehicles) badly, shoot down 10 aircraft and put 1,220 out of action; an unfound mechanized group in the west and the rest of the northern wing escape by helicopter, and the chance to take the 3d Brigade''s commander is lost.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 274–75. See [[cal.1967-03-19.vietnam-hanoi]]. The American account is [[cal.1967-03-21.vietnam-operations]]. Check: the clock, whose it is. The figures are the history''s.'
+      tags:
+      - polity:drv
+      - polity:us
+      time_range:
+      - 1967-03-20T14:00Z
+      - 1967-03-20T16:00Z
+      time_band: night
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+      place: dong-rum
+- add:
+    entry:
+      id: cal.1967-03-28.vietnam-hanoi
+      when: Mar. 28
+      date: '1967-03-28'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: Bàu Trí. An American force of the 3d Brigade sweeps up; Battalion 9 of Regiment 16 stops it, by the history's count kills 200 and damages 23 tanks and armored cars, and it falls back to Đồng Rùm. Mar. 22 a battalion that pushed north of Sóc Tầm was surrounded by guerrillas; Mar. 26 the division sent Regiments 1 and 16 against it, but helicopters lifted it out first.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 275. See [[cal.1967-02-22.vietnam]]. The figures are the history''s.'
+      tags:
+      - polity:drv
+      - polity:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-04-01.vietnam-hanoi-2
+      when: Apr. 1–2
+      date: '1967-04-01'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: 'The American wings leave: Apr. 1 the southern wing quits Đồng Rùm; Apr. 2 the force leaves Cà Tum.'
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 276. See [[cal.1967-03-31.vietnam-operations]]. By the history''s count the night of Mar. 31 Regiment 1 and Battalion 7 of Regiment 16 destroyed the southern group at Ba Vùng and shelled Sóc Con Trăn, killing 800 and shooting down 13 aircraft. The figures are the history''s.'
+      tags:
+      - polity:drv
+      - polity:us
+      place: dong-rum
+- add:
+    entry:
+      id: cal.1967-04-06.vietnam-hanoi
+      when: Apr. 6–13
+      date: '1967-04-06'
+      thread: vietnam-hanoi
+      also:
+      - vietnam-operations
+      c: The enemy quits the Đồng Kền group Apr. 6 and from Apr. 6 to 9 the groups at Ba Vùng, Bàu Cột and Bàu Trâm run back to Sóc Con Trăn; Apr. 13 all the enemy at Sóc Con Trăn leave the Dương Minh Châu base. The command then sends Regiments 1 and 16 across the Saigon river to cut the retreat toward Hớn Quản between Cần Lê and Bình Phú.
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 276. See [[cal.1967-04-01.vietnam-hanoi]]. The history gives the end of Junction City as May 15, by Westmoreland''s word, with 14,233 of the other side out of action. The figures are the history''s.'
+      tags:
+      - polity:drv
+      - polity:us
+      - ok:fields-place
