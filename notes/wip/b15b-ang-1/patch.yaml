@@ -1,6 +1,24 @@
 patch: '2026-11-21-b15b-ang-1'
 by: Claude (batch 15b, Ang Cheng Guan, Vietnamese Communists' Relations with China, run 1), Nov. 20–21, 2026
 ops:
+- edit:
+    id: cal.1960-05-10.china-leadership-3
+    base: 21f45977
+    set:
+      time_range:
+      - '1960-05-09T23:00Z'
+      - '1960-05-10T05:00Z'
+      time_band: morning
+      time_zone: Asia/Bangkok
+- edit:
+    id: cal.1960-05-12.china-leadership
+    base: b9dc455d
+    set:
+      time_range:
+      - '1960-05-11T23:00Z'
+      - '1960-05-12T05:00Z'
+      time_band: morning
+      time_zone: Asia/Bangkok
 - cite:
     id: cal.1960-01-17.vietnam-hanoi
     item: '[[w.guan-vietnamese-communists-relations-with]], 133–134 (the week of Jan. 17–24 of risings in Bến Tre: 47 villages of Mỏ Cày, Giồng Trôm, Châu Thành, Ba Tri and Thạnh Phú at once, held by Jan. 19; the arms taken at Bình Khánh arm three squads; the first company, the 264th; by the army''s history the first use of political and armed struggle together)'
@@ -762,3 +780,394 @@ ops:
     rows:
     - 'via x.1960-05-08.ncna-fe-329-a3-2-3: ?'
     - 'via x.1960-06-21.inr-director-to-secretary-of-state-memorandum: ?'
+- add:
+    entry:
+      id: cal.1960-04-09.vietnam-hanoi-2
+      when: Apr. 9
+      date: '1960-04-09'
+      thread: vietnam-hanoi
+      c: 'As the British consulate-general in Hanoi reports it, from the Czechoslovak ambassador: "quite a serious malaise" in the army, many units dispersed about the country; Giáp touring them to learn what upsets them.'
+      n: '[[w.guan-vietnamese-communists-relations-with]], 134 ("reported by British sources in April"). Made public: 1997. To check: FO 371/152746, DV 1016/16, 9 April 1960, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 134 n.5). Names: Võ Nguyên Giáp.'
+      src:
+        rows:
+        - 'via x.1960-04-09.fo-152746-dv-1016-16: ?'
+      tags:
+      - form:state
+      - polity:drv
+      - polity:uk
+      - polity:czechoslovakia
+      - name:vo-nguyen-giap
+      - vis:only:uk+czechoslovakia
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-02-11.vietnam-diplomacy
+      when: Feb. 11
+      date: '1960-02-11'
+      thread: vietnam-diplomacy
+      also:
+      - laos
+      c: 'As the British consulate-general in Hanoi reports it: the North Vietnamese take the Laotian coup fairly calmly, unlike their hysteria of August–September 1959 over the Pathet Lao''s integration and the 2nd Battalion''s escape.'
+      n: '[[w.guan-vietnamese-communists-relations-with]], 137. Made public: 1997. To check: FO 371/152323, DF 1015/86, 11 February 1960, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 137 n.15).'
+      src:
+        rows:
+        - 'via x.1960-02-11.fo-152323-df-1015-86: ?'
+      tags:
+      - form:state
+      - polity:drv
+      - polity:uk
+      - vis:only:uk
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-04-13.laos
+      when: Apr. 13
+      date: '1960-04-13'
+      thread: laos
+      also:
+      - vietnam-diplomacy
+      c: 'As the British embassy in Vientiane reports it: over the past months the 2nd Battalion and other elements trained in North Vietnam have come back and spread thinly over Laos; 200 to 400 regular units reckoned infiltrated into southern Laos, central and northern Laos perhaps likewise; the Pathet Lao either about to attack or holding its forces ready.'
+      n: '[[w.guan-vietnamese-communists-relations-with]], 138. Made public: 1997. To check: FO 371/152328, DF 1015/144, 13 April 1960, from Vientiane to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 138 n.20).'
+      src:
+        rows:
+        - 'via x.1960-04-13.fo-152328-df-1015-144: ?'
+      tags:
+      - form:state
+      - polity:pathet-lao
+      - polity:uk
+      - vis:only:uk
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-04-08.vietnam-diplomacy
+      when: Apr. 8
+      date: '1960-04-08'
+      thread: vietnam-diplomacy
+      also:
+      - china-leadership
+      c: 'As British officials in Hanoi report it: until March the North Vietnamese reports on China perfunctory and scarce, much made of Khrushchev''s doings.'
+      n: '[[w.guan-vietnamese-communists-relations-with]], 140. Made public: 1997. To check: FO 371/152745, DV 1016/13, 8 April 1960, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 140 n.27). Names: Khrushchev.'
+      src:
+        rows:
+        - 'via x.1960-04-08.fo-152745-dv-1016-13: ?'
+      tags:
+      - form:state
+      - polity:drv
+      - polity:uk
+      - vis:only:uk
+      - name:khrushchev-nikita-s
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-07-02.vietnam-diplomacy
+      when: July 2
+      date: '1960-07-02'
+      thread: vietnam-diplomacy
+      also:
+      - china-leadership
+      c: 'Sihanouk discloses that Zhou Enlai, on his visit, gave him an informal guarantee: China would support Cambodia if her frontiers were threatened.'
+      n: '[[w.guan-vietnamese-communists-relations-with]], 142–143. To check: Keesing''s Contemporary Archives, Apr. 1–8, 1961, 18013 (cited by [[w.guan-vietnamese-communists-relations-with]], 143 n.48). See [[cal.1960-05-08.china-leadership-3]]. Names: Sihanouk, Zhou Enlai.'
+      src:
+        rows:
+        - 'via x.1961-04.keesings-contemporary-archives-18013: ?'
+      tags:
+      - polity:cambodia
+      - name:norodom-sihanouk
+      - name:zhou-enlai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-07-10.vietnam-diplomacy
+      when: July 10
+      date: '1960-07-10'
+      thread: vietnam-diplomacy
+      also:
+      - china-leadership
+      c: Sihanouk sends three of his sons to Peking for their education.
+      n: '[[w.guan-vietnamese-communists-relations-with]], 143. To check: FO 371/152697, DV 10310/8, 28 July 1960, from Phnom Penh to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 143 n.49). See [[cal.1960-07-24.china-leadership-2]]. Names: Sihanouk.'
+      src:
+        rows:
+        - 'via x.1960-07-28.fo-152697-dv-10310-8: ?'
+      tags:
+      - polity:cambodia
+      - polity:prc
+      - name:norodom-sihanouk
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-04-04.vietnam-diplomacy
+      when: Apr. 4
+      date: '1960-04-04'
+      thread: vietnam-diplomacy
+      also:
+      - china-leadership
+      c: 'Phạm Văn Đồng to Zhou Enlai, inviting him to North Vietnam: the visit would strengthen the two countries'' friendship and cooperation and inspire the Vietnamese in building socialism and the struggle for reunification.'
+      n: '[[w.guan-vietnamese-communists-relations-with]], 143. To check: VINA, 1 May 1960, SWB/FE/323/A3/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 143 n.50). Names: Phạm Văn Đồng, Zhou Enlai.'
+      src:
+        rows:
+        - 'via x.1960-05-01.vina-fe-323-a3-2: ?'
+      tags:
+      - polity:drv
+      - polity:prc
+      - name:pham-van-dong
+      - name:zhou-enlai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-04.vietnam-diplomacy
+      when: Apr., after the 4th
+      date: '1960-04'
+      thread: vietnam-diplomacy
+      also:
+      - china-leadership
+      c: 'Zhou Enlai accepts Phạm Văn Đồng''s invitation: glad to visit Vietnam again, now that the Vietnamese people, led by the Lao Động Party and the government, have won brilliant achievements in socialist construction and strive to fulfil the three-year plan. Not a word of the struggle in the South.'
+      n: '[[w.guan-vietnamese-communists-relations-with]], 143. To check: VINA, 1 May 1960, SWB/FE/323/A3/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 143 n.50). See [[cal.1960-04-04.vietnam-diplomacy]]. Names: Zhou Enlai, Phạm Văn Đồng.'
+      at: after 1960-04-04
+      src:
+        rows:
+        - 'via x.1960-05-01.vina-fe-323-a3-2: ?'
+      tags:
+      - polity:prc
+      - polity:drv
+      - name:zhou-enlai
+      - name:pham-van-dong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-04-20.vietnam-hanoi-2
+      when: Apr. 20
+      date: '1960-04-20'
+      thread: vietnam-hanoi
+      c: 'Lê Duẩn''s speech for Lenin''s ninetieth birthday ("Leninism and Vietnam''s Revolution"): the South''s people''s democratic revolution comes in a changed world, socialism gaining, the North liberated and the revolution''s firm base; while a lasting peace can be kept, "we can and must guide and restrict within the South" the solving of the contradiction between imperialism and the colonies in Vietnam.'
+      n: '[[w.guan-vietnamese-communists-relations-with]], 143. To check: [[w.duan-on-the-socialist-revolution]], I, 9–56 (cited by [[w.guan-vietnamese-communists-relations-with]], 143 n.51). Names: Lê Duẩn.'
+      tags:
+      - polity:drv
+      - name:le-duan
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-05-01.vietnam-diplomacy
+      when: May 1
+      date: '1960-05-01'
+      thread: vietnam-diplomacy
+      also:
+      - china-leadership
+      c: Hanoi announces that a Chinese delegation under Zhou Enlai will visit the DRV, May 9–12.
+      n: '[[w.guan-vietnamese-communists-relations-with]], 143. To check: VINA, 1 May 1960, SWB/FE/323/A3/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 143 n.52). Names: Zhou Enlai.'
+      src:
+        rows:
+        - 'via x.1960-05-01.vina-fe-323-a3-2: ?'
+      tags:
+      - polity:drv
+      - name:zhou-enlai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-05-01.vietnam-hanoi
+      when: May 1
+      date: '1960-05-01'
+      thread: vietnam-hanoi
+      c: Võ Nguyên Giáp reappears in public on May Day.
+      n: '[[w.guan-vietnamese-communists-relations-with]], 144. To check: FO 371/152746, DV 1016/19, 2 May 1960, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 144 n.53). Names: Võ Nguyên Giáp.'
+      src:
+        rows:
+        - 'via x.1960-05-02.fo-152746-dv-1016-19: ?'
+      tags:
+      - polity:drv
+      - name:vo-nguyen-giap
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-05-04.vietnam-diplomacy-2
+      when: May 4–6
+      date: '1960-05-04'
+      place: hanoi
+      thread: vietnam-diplomacy
+      also:
+      - africa-algeria-morocco
+      c: Hanoi. Võ Nguyên Giáp heads the Vietnamese delegation receiving the visiting Algerian delegation under Krim Belkacem.
+      n: '[[w.guan-vietnamese-communists-relations-with]], 144 ("Bil Qasim Karim"). The time is the first day''s. Names: Võ Nguyên Giáp.'
+      tags:
+      - polity:drv
+      - polity:algeria
+      - name:vo-nguyen-giap
+- add:
+    entry:
+      id: cal.1960-05-06.vietnam-diplomacy
+      when: May 6
+      date: '1960-05-06'
+      place: hanoi
+      thread: vietnam-diplomacy
+      also:
+      - africa-algeria-morocco
+      c: Hanoi. Võ Nguyên Giáp and Krim Belkacem, leader of the Algerian delegation, sign a joint communiqué. No news of Giáp after it.
+      n: '[[w.guan-vietnamese-communists-relations-with]], 144. See [[cal.1960-05-04.vietnam-diplomacy-2]]. Names: Võ Nguyên Giáp.'
+      tags:
+      - polity:drv
+      - polity:algeria
+      - name:vo-nguyen-giap
+- cite:
+    id: cal.1960-05-09.china-leadership-2
+    item: '[[w.guan-vietnamese-communists-relations-with]], 144 (bad weather; the delegation rests a day in Nghệ An province)'
+- cite:
+    id: cal.1960-05-10.china-leadership-3
+    item: '[[w.guan-vietnamese-communists-relations-with]], 144 (Hanoi the morning of May 10: the delegation, Chen Yi, Zhang Hanfu, Wang Guangwei, Zhang Yan, Qiao Guanhua, Luo Qingchang, Chen Shuliang; met at the airport by Phạm Văn Đồng, Lê Duẩn, Trường Chinh, Phan Kế Toại, Phạm Hùng and Tôn Đức Thắng, Giáp absent throughout; Hồ receives them at the Presidential Palace; in the afternoon the Thăng Long cigarette, Sao Vàng rubber and Hanoi soap factories, all built with Chinese aid, and their joint rally; a wreath at Mai Dịch)'
+- cite:
+    id: cal.1960-05-10.china-leadership-4
+    item: '[[w.guan-vietnamese-communists-relations-with]], 144–145 (Phạm Văn Đồng''s speech gives China''s aid: railways, irrigation and factories repaired, consumer goods to steady prices, farm-tool and consumer-goods plants, tropical-crop and livestock farms, the Bắc Hưng Hải irrigation system; now metallurgy, chemicals, power and the Red River plans; of 72 factories built with Chinese aid, 31 working. Zhou recalls the American pledge at Geneva not to use force against the Agreements)'
+- cite:
+    id: cal.1960-05-11.china-leadership
+    item: '[[w.guan-vietnamese-communists-relations-with]], 145 (the morning of May 11, the talks between the two governments; China''s economic aid a main subject, by the delegations: Wang Guangwei, of the State Planning Commission, and Fang Yi, China''s economic representative in Vietnam)'
+- cite:
+    id: cal.1960-05-11.china-leadership-13
+    item: '[[w.guan-vietnamese-communists-relations-with]], 145 (Chen Yi, with Phạm Hùng, at "the scenic spot in Vinh," by way of Haiphong; several islands on a Vietnamese gunboat)'
+- cite:
+    id: cal.1960-05-11.china-leadership-2
+    item: '[[w.guan-vietnamese-communists-relations-with]], 145 (the afternoon, the first of three meetings with the Lao Động delegation led by Hồ Chí Minh)'
+- cite:
+    id: cal.1960-05-11.china-leadership-3
+    item: '[[w.guan-vietnamese-communists-relations-with]], 145 (the evening, at the Chinese Embassy)'
+- cite:
+    id: cal.1960-05-12.china-leadership
+    item: '[[w.guan-vietnamese-communists-relations-with]], 145 (the morning of May 12, the Hanoi Polytechnic College: a friendly emulation of Chinese and Vietnamese students to train intellectuals both "red and expert"; at noon the Nhân Chính cooperative: more and bigger cooperatives, the people''s militia)'
+- variant:
+    id: cal.1960-05-12.china-leadership
+    unit: A
+    witness: w.guan-vietnamese-communists-relations-with
+    reads: the Hanoi Polytechnic College
+    at: '145'
+- cite:
+    id: cal.1960-05-12.china-leadership-2
+    item: '[[w.guan-vietnamese-communists-relations-with]], 145 (the afternoon, Chen Yi and Zhang Hanfu there; the world situation and relations; the report: identical views on all questions)'
+- to-check:
+    id: cal.1960-05-12.china-leadership-2
+    add:
+    - NCNA, 13 May 1960, SWB/FE/333/A3/1 (cited by [[w.guan-vietnamese-communists-relations-with]], 145 n.54)
+- src:
+    id: cal.1960-05-12.china-leadership-2
+    rows:
+    - 'via x.1960-05-13.ncna-fe-333-a3-1: ?'
+- cite:
+    id: cal.1960-05-13.china-leadership
+    item: '[[w.guan-vietnamese-communists-relations-with]], 145 (Ba Đình Square; Hồ speaks of China''s plan done in three years, not five, the Soviet seven-year plan, North Korea''s five-year plan, examples to learn from)'
+- cite:
+    id: cal.1960-05-13.china-leadership-2
+    item: '[[w.guan-vietnamese-communists-relations-with]], 145 (after the rally, the third and last round)'
+- cite:
+    id: cal.1960-05-13.china-leadership-5
+    item: '[[w.guan-vietnamese-communists-relations-with]], 146 (Hồ there; Chen Yi and Tôn Quang Phiệt recite "poems of friendship")'
+- cite:
+    id: cal.1960-05-13.china-leadership-3
+    item: '[[w.guan-vietnamese-communists-relations-with]], 146 (later in the day, the Vietnam–China Friendship Association and the overseas Chinese of Hanoi)'
+- cite:
+    id: cal.1960-05-13.china-leadership-6
+    item: '[[w.guan-vietnamese-communists-relations-with]], 146 (the evening, the farewell banquet at the Presidential Palace, Hồ host; a performance after)'
+- cite:
+    id: cal.1960-05-14.china-leadership-2
+    item: '[[w.guan-vietnamese-communists-relations-with]], 146 ("close as the teeth and the lips")'
+- to-check:
+    id: cal.1960-05-14.china-leadership-2
+    add:
+    - NCNA, 14 May 1960, SWB/FE/334/A3/2-6 (cited by [[w.guan-vietnamese-communists-relations-with]], 146 n.55)
+- src:
+    id: cal.1960-05-14.china-leadership-2
+    rows:
+    - 'via x.1960-05-14.ncna-fe-334-a3-2-6: ?'
+- cite:
+    id: cal.1960-05.china
+    item: '[[w.guan-vietnamese-communists-relations-with]], 146 (the talks of May 11, 12 and 13, most likely the meeting of May 1960 of the official Vietnamese account of 1980: the Chinese hold military and political struggle equally important, no seizing power at once, the struggle protracted; the North to help the South politically and in policy, foster self-reliance, and, when success is sure, supply arms secretly; in general no direct help)'
+- to-check:
+    id: cal.1960-05.china
+    add:
+    - '[[w.war-experiences-recapitulation-committee]], 44–45 (cited by [[w.guan-vietnamese-communists-relations-with]], 146 n.56)'
+- cite:
+    id: cal.1960-05-14.china-leadership-3
+    item: '[[w.guan-vietnamese-communists-relations-with]], 146 (the morning of May 14, for Nanning; there Wei Guoqing, the Guangxi region''s Party secretary and chairman, receives them)'
+- to-check:
+    id: cal.1960-05-14.china-leadership-3
+    add:
+    - BBC, Summary of World Broadcasts (Far East), SWB/FE/331/A3/1-4; SWB/FE/332/A3/1; SWB/FE/333/A3/1-2 (Zhou Enlai's visit to Hanoi) (cited by [[w.guan-vietnamese-communists-relations-with]], 146 n.57a)
+    - '[[w.zhou-enlai-waijiao-huodong]], 279–280 (cited by [[w.guan-vietnamese-communists-relations-with]], 146 n.57b)'
+- src:
+    id: cal.1960-05-14.china-leadership-3
+    rows:
+    - 'via x.1960-05.swb-fe-331-333-zhou-enlai-hanoi: ?'
+- cite:
+    id: cal.1960-05-16.china-leadership-5
+    item: '[[w.guan-vietnamese-communists-relations-with]], 146 (the delegation at Wuhan May 16)'
+- cite:
+    id: cal.1960-05-17.china-leadership-2
+    item: '[[w.guan-vietnamese-communists-relations-with]], 146 (back in Peking the morning of May 17)'
+- cite:
+    id: cal.1960-05-01.soviet-union
+    item: '[[w.guan-vietnamese-communists-relations-with]], 146 (the U-2 shot down May 1, near Sverdlovsk)'
+- cite:
+    id: cal.1960-05-05.soviet-union
+    item: '[[w.guan-vietnamese-communists-relations-with]], 146 (made public only May 5, by Khrushchev)'
+- add:
+    entry:
+      id: cal.1960-05-17.soviet-union-u2-5
+      when: May 17
+      date: '1960-05-17'
+      place: paris
+      thread: soviet-union-u2
+      also:
+      - soviet-union
+      c: Paris, 10 p.m. It is made known that the summit of Khrushchev and Eisenhower, due to begin the day before, will not take place.
+      n: '[[w.guan-vietnamese-communists-relations-with]], 146–147. To check: Khrushchev''s memoirs (no edition named) (cited by [[w.guan-vietnamese-communists-relations-with]], 147 n.58a); [[w.burlatsky-khrushchev-and-the-first]], 155–157 (cited by [[w.guan-vietnamese-communists-relations-with]], 147 n.58b); [[w.macmillan-pointing-the-way-1959]], ch. 7 (cited by [[w.guan-vietnamese-communists-relations-with]], 147 n.58c). Names: Khrushchev, Eisenhower.'
+      time: '1960-05-17T21:00Z'
+      time_zone: Europe/Paris
+      src:
+        rows:
+        - 'via x.undated.khrushchev-memoirs-as-ang-cites: ?'
+      tags:
+      - polity:ussr
+      - polity:us
+      - name:khrushchev-nikita-s
+      - name:eisenhower-dwight-d
+- cite:
+    id: cal.1960-06-27.testing
+    item: '[[w.guan-vietnamese-communists-relations-with]], 147 (the ten-nation disarmament talks at Geneva broken off June 27, 1960; by INR, one sign of a harder Soviet line after the summit)'
+- to-check:
+    id: cal.1960-06-27.testing
+    add:
+    - Department of State, Bureau of Intelligence and Research, Intelligence Report no. 8306, July 21, 1960 (cited by [[w.guan-vietnamese-communists-relations-with]], 147 n.60)
+- add:
+    entry:
+      id: cal.1960-05-17.vietnam-diplomacy
+      when: May 17–19
+      date: '1960-05-17'
+      place: nanning
+      thread: vietnam-diplomacy
+      also:
+      - china-leadership
+      c: Nanning. Hồ Chí Minh, with He Wei, comes for three days; he spends his seventieth birthday there.
+      n: '[[w.guan-vietnamese-communists-relations-with]], 147. The time is the first day''s. To check: NCNA, 25 August 1979, SWB/FE/6208/A3/3 (cited by [[w.guan-vietnamese-communists-relations-with]], 147 n.61a); [[w.zheng-hu-zhiming-yu-zhongguo]], 160–161 (cited by [[w.guan-vietnamese-communists-relations-with]], 147 n.61b). Names: Hồ Chí Minh.'
+      src:
+        rows:
+        - 'via x.1979-08-25.ncna-fe-6208-a3-3: ?'
+      tags:
+      - polity:drv
+      - polity:prc
+      - name:ho-chi-minh
+- add:
+    entry:
+      id: cal.1960-05-20.vietnam-diplomacy
+      when: May 20
+      date: '1960-05-20'
+      place: nanning
+      thread: vietnam-diplomacy
+      also:
+      - china-leadership
+      c: 'Nanning. Wei Guoqing, once head of the Chinese military advisory mission to North Vietnam, hands Hồ Chí Minh the birthday telegram of Mao, Zhu De and Zhou Enlai: founder and leader of the Lao Động Party, the Vietnamese people''s most beloved leader, the most outstanding fighter of the international communist movement, China''s favorite friend.'
+      n: '[[w.guan-vietnamese-communists-relations-with]], 147. To check: NCNA, 25 August 1979, SWB/FE/6208/A3/3 (cited by [[w.guan-vietnamese-communists-relations-with]], 147 n.61a); [[w.zheng-hu-zhiming-yu-zhongguo]], 160–161 (cited by [[w.guan-vietnamese-communists-relations-with]], 147 n.61b). See [[cal.1960-05-18.china-leadership-2]]. Names: Hồ Chí Minh, Mao, Zhu De, Zhou Enlai.'
+      src:
+        rows:
+        - 'via x.1979-08-25.ncna-fe-6208-a3-3: ?'
+      tags:
+      - polity:drv
+      - polity:prc
+      - name:ho-chi-minh
+      - name:mao-zedong
+      - name:zhu-de
+      - name:zhou-enlai
