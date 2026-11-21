@@ -1,6 +1,864 @@
 patch: 2026-11-20-b15b-friedman-1
-by: 'Claude (batch 15b, Friedman, Shadow Cold War, run 1), Nov. 20–21, 2026'
+by: Claude (batch 15b, Friedman, Shadow Cold War, run 1), Nov. 20–21, 2026
 ops:
+- add:
+    entry:
+      id: cal.1960-01.africa
+      when: Jan.
+      date: 1960-01
+      place: tunis
+      thread: africa
+      also:
+      - africa-algeria-morocco
+      c: Tunis. The second All-African People's Conference, successor to the Accra meeting of a year before. No word of peace or disarmament in its resolutions; it endorses the armed struggle in Algeria.
+      n: '[[w.friedman-shadow-cold-war]], 44. To check: Report from Zhu Ziqi, Chinese representative at AAPSO secretariat in Cairo to Chinese Peace Committee, March 24, 1960, CFMA doc. 108-00106-01, 21 (cited by [[w.friedman-shadow-cold-war]], 44 n.68a); [[w.documents-on-international-affairs-1964]] (cited by [[w.friedman-shadow-cold-war]], 44 n.68b).'
+      src:
+        c: 42d0031d
+        rows:
+        - 'w.friedman-shadow-cold-war 44: all'
+        - 'via x.1960-03-24.report-zhu-ziqi-chinese-representative-aapso-secretariat: ?'
+      tags:
+      - polity:tunisia
+      - polity:algeria
+- add:
+    entry:
+      id: cal.1960-01-08.soviet-union-3
+      when: Jan. 8
+      date: '1960-01-08'
+      thread: soviet-union
+      also:
+      - africa
+      c: 'The presidium of the Soviet Committee of Solidarity with the Countries of Asia and Africa, preparing for the Conakry conference. E. M. Zhukov: not everyone abroad sees what the easing of tension means for the struggle of Asia and Africa; some think détente disrupts solidarity. Vice chairman Anatoly Safronov: Africans ask for every kind of aid, arms too; "we cannot help with any arms."'
+      n: '[[w.friedman-shadow-cold-war]], 44. Made public: 2015. To check: Stenogram of Session of Presidium of Soviet Committee of Solidarity with the Countries of Asia and Africa (SKSSAA), January 8, 1960, State Archive of the Russian Federation (GARF) f.9540 o.1 d.60, 35 (cited by [[w.friedman-shadow-cold-war]], 44 n.69); Stenogram of Session of Presidium of Soviet Committee of Solidarity with the Countries of Asia and Africa (SKSSAA), January 8, 1960, State Archive of the Russian Federation (GARF) f.9540 o.1 d.60, 39 (cited by [[w.friedman-shadow-cold-war]], 44 n.70).'
+      src:
+        c: 97a03426
+        rows:
+        - 'w.friedman-shadow-cold-war 44: all'
+        - 'via x.1960-01-08.stenogram-session-presidium-soviet-committee-solidarity-countries: ?'
+      tags:
+      - polity:ussr
+      - vis:only:ussr
+- add:
+    entry:
+      id: cal.1960-03-06.china-leadership-6
+      when: Mar. 6
+      date: '1960-03-06'
+      place: cairo
+      thread: china-leadership
+      also:
+      - africa
+      c: 'The Chinese Embassy at Cairo to the Chinese Peace Committee and the Politburo, on the preparations for the second Afro-Asian People''s Solidarity conference: Soviet policy, "struggle superficially and concede stealthily, or struggle a little and concede a lot."'
+      n: '[[w.friedman-shadow-cold-war]], 45. Made public: 2015. To check: Embassy Cairo to Chinese Peace Committee and Politburo CC CCP, report on preparatory work for Second AAPSO Conference, March 6, 1960, CFMA doc. 108-0010601, 4 (cited by [[w.friedman-shadow-cold-war]], 45 n.73).'
+      src:
+        c: b949fce9
+        rows:
+        - 'w.friedman-shadow-cold-war 45: all'
+        - 'via x.1960-03-06.embassy-cairo-chinese-peace-committee-politburo-ccp: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-03-10.china-leadership-7
+      when: Mar. 10
+      date: '1960-03-10'
+      place: cairo
+      thread: china-leadership
+      also:
+      - africa
+      c: 'Zhu Ziqi, China''s new representative at the Afro-Asian solidarity secretariat in Cairo, to the Chinese Peace Committee: the Chinese fight the Indian and Egyptian push to invite South Vietnam and South Korea, and have Yusuf al-Sibai, the secretary general, add "anticolonialism" and "anti-imperialism" to the secretariat''s slogans of "independence, equality, and peace"; the delegation to make connections and invite Africans to China.'
+      n: '[[w.friedman-shadow-cold-war]], 45, 47. Made public: 2015. To check: Zhu Ziqi to Chinese Peace Committee, March 10, 1960, CFMA doc. 108-0010601, 8 (cited by [[w.friedman-shadow-cold-war]], 45 n.71); Zhu Ziqi to Chinese Peace Committee, March 10, 1960, CFMA doc. 108-0010601, 8 (cited by [[w.friedman-shadow-cold-war]], 47 n.82).'
+      src:
+        c: 4840a877
+        rows:
+        - 'w.friedman-shadow-cold-war 45, 47: all'
+        - 'via x.1960-03-10.zhu-ziqi-chinese-peace-committee-march-10: ?'
+      tags:
+      - polity:prc
+      - polity:uar
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-03-19.africa
+      when: Mar. 19
+      date: '1960-03-19'
+      place: cairo
+      thread: africa
+      also:
+      - soviet-union
+      - china
+      c: 'Cairo, the Afro-Asian solidarity secretariat. The Soviets put forward a two-page addition to al-Sibai''s speech for the conference, on peaceful coexistence and disarmament, with other Soviet issues: what the peoples of Africa and Asia care about most. They ask the Chinese to support it; Zhu Ziqi agrees.'
+      n: '[[w.friedman-shadow-cold-war]], 45. Made public: 2015. To check: Zhu Ziqi to Chinese Peace Committee, March 24, 1960, CFMA doc. 108-0010601, 20 (cited by [[w.friedman-shadow-cold-war]], 45 n.75).'
+      src:
+        c: 2da71b94
+        rows:
+        - 'w.friedman-shadow-cold-war 45: all'
+        - 'via x.1960-03-24.zhu-ziqi-chinese-peace-committee-march-24: ?'
+      tags:
+      - polity:ussr
+      - polity:prc
+      - vis:only:prc+ussr
+- add:
+    entry:
+      id: cal.1960-03-23.china-leadership-7
+      when: Mar. 23
+      date: '1960-03-23'
+      place: cairo
+      thread: china-leadership
+      also:
+      - africa
+      - south-asia
+      c: 'Zhu Ziqi to the Chinese Peace Committee, on al-Sibai''s draft speech for the conference, point by point: put out in the UAR''s name, written mainly by India, "the Soviet comrades" advising on some questions; India and Egypt, having failed to make neutrality the movement''s policy, push opposition to blocs and nonalignment, "under the cover of anti-imperialism engage in anti-socialism."'
+      n: '[[w.friedman-shadow-cold-war]], 45. Made public: 2015. To check: Zhu Ziqi to Chinese Peace Committee, March 23, 1960, CFMA doc. 108-0010601, 15 (cited by [[w.friedman-shadow-cold-war]], 45 n.72); Embassy Cairo to Chinese Peace Committee and Politburo CC CCP, report on preparatory work for Second AAPSO Conference, March 6, 1960, CFMA doc. 108-0010601, 4 (cited by [[w.friedman-shadow-cold-war]], 45 n.74a); Zhu Ziqi to Chinese Peace Committee, March 23, 1960, CFMA doc. 108-0010601, 15 (cited by [[w.friedman-shadow-cold-war]], 45 n.74b).'
+      src:
+        c: 662489a4
+        rows:
+        - 'w.friedman-shadow-cold-war 45: all'
+        - 'via x.1960-03-23.zhu-ziqi-chinese-peace-committee-march-23: ?'
+        - 'via x.1960-03-06.embassy-cairo-chinese-peace-committee-politburo-ccp: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-03-24.china-leadership-12
+      when: Mar. 24
+      date: '1960-03-24'
+      place: cairo
+      thread: china-leadership
+      also:
+      - africa
+      - soviet-union
+      c: 'Zhu Ziqi to the Chinese Peace Committee: the Soviet addition "directly waters down and shifts the anti-imperialist struggle"; for months the Soviets have given up anti-imperialism for disarmament.'
+      n: '[[w.friedman-shadow-cold-war]], 45–46. Made public: 2015. To check: Zhu Ziqi to Chinese Peace Committee, March 24, 1960, CFMA doc. 108-0010601, 20 (cited by [[w.friedman-shadow-cold-war]], 45 n.75).'
+      src:
+        c: 6aa0bc8d
+        rows:
+        - 'w.friedman-shadow-cold-war 45–46: all'
+        - 'via x.1960-03-24.zhu-ziqi-chinese-peace-committee-march-24: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-04-10.china-leadership-5
+      when: Apr. 10
+      date: '1960-04-10'
+      place: conakry
+      thread: china-leadership
+      also:
+      - africa
+      c: 'Conakry. Liu Ningyi and Liao Chengzhi to Zhou Enlai, Chen Yi, the Liaison Department and the Chinese Peace Committee, from the conference, to open Apr. 11: the delegation, there early, meets as many delegations as it can; the Algerian FLN''s delegation tells them "only China truly supports and aids the Algerian people''s liberation struggle."'
+      n: '[[w.friedman-shadow-cold-war]], 46. Made public: 2015. To check: Liu Dingyi and Liao Chengzhi to Zhou Enlai, Chen Yi, Liaison Department, Chinese Peace Committee, report from Second AAPSO Conference, April 10, 1960, CFMA doc. 108-0010601, 43 (cited by [[w.friedman-shadow-cold-war]], 46 n.77). Names: Zhou Enlai, Chen Yi.'
+      src:
+        c: ccaeccb3
+        rows:
+        - 'w.friedman-shadow-cold-war 46: all'
+        - 'via x.1960-04-10.liu-dingyi-liao-chengzhi-zhou-enlai-chen: ?'
+      tags:
+      - polity:prc
+      - polity:algeria
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:chen-yi
 - cite:
-    id: cal.1960-07.nonexistent-xyz
-    item: '[[w.friedman-shadow-cold-war]], 52 (test)'
+    id: cal.1960-04-11.china
+    item: '[[w.friedman-shadow-cold-war]], 46 (the conference from Apr. 11; the Egyptian delegation led by Anwar Sadat, the Indian by Nehru''s wife, Lumumba, Kasavubu, Tom Mboya and Oginga Odinga among the Africans; no endorsement of peace and disarmament; support of the Algerian armed struggle; resolutions to Chinese specifications; the Soviets, opposed by African delegations, ask the Chinese for help; Liu Ningyi''s report: with colonialism "there is no peaceful coexistence")'
+- to-check:
+    id: cal.1960-04-11.china
+    add: Liu Dingyi and Liao Chengzhi to Zhou Enlai, Chen Yi, Liaison Department, Chinese Peace Committee, report from Second AAPSO Conference, April 10, 1960, CFMA doc. 108-0010601 (cited by [[w.friedman-shadow-cold-war]], 46 n.78); Liu Dingyi and Liao Chengzhi to Zhou Enlai, Chen Yi, Liaison Department, Chinese Peace Committee, report from Second AAPSO Conference, April 10, 1960, CFMA doc. 108-0010601, 46 (cited by [[w.friedman-shadow-cold-war]], 46 n.79); Liu Dingyi and Liao Chengzhi to Zhou Enlai, Chen Yi, Liaison Department, Chinese Peace Committee, report from Second AAPSO Conference, April 10, 1960, CFMA doc. 108-0010601, 47–48 (cited by [[w.friedman-shadow-cold-war]], 46 n.80).
+- src:
+    id: cal.1960-04-11.china
+    rows:
+    - 'via x.1960-04-10.liu-dingyi-liao-chengzhi-zhou-enlai-chen: ?'
+- add:
+    entry:
+      id: cal.1960-04-18.china
+      when: Apr. 18
+      date: '1960-04-18'
+      place: conakry
+      thread: china
+      also:
+      - africa
+      c: 'Conakry. Sékou Touré, President of Guinea, to the Chinese Afro-Asian Solidarity Committee''s delegation: many in the ruling party grew up in the French Communist Party and believe in Marxist principles; he is building a "People''s Democracy," which he cannot proclaim publicly.'
+      n: '[[w.friedman-shadow-cold-war]], 47. Made public: 2015. To check: Conversation of Sekou Touré with Chinese Afro-Asian Solidarity Committee delegation, April 18, 1960, CFMA doc. 108-00106-03, 3 (cited by [[w.friedman-shadow-cold-war]], 47 n.83). Names: Touré.'
+      src:
+        c: 6617c241
+        rows:
+        - 'w.friedman-shadow-cold-war 47: all'
+        - 'via x.1960-04-18.conversation-sekou-toure-chinese-afro-asian-solidarity: ?'
+      tags:
+      - polity:prc
+      - polity:guinea
+      - vis:only:prc+guinea
+      - name:toure-ahmed-sekou
+- add:
+    entry:
+      id: cal.1960-04-25.soviet-union
+      when: Apr. 25
+      date: '1960-04-25'
+      thread: soviet-union
+      also:
+      - africa
+      c: 'The presidium of the Soviet Afro-Asian Solidarity Committee. Its chairman, M. Tursun-Zade, on the Soviets'' difficulties at Conakry: the Africans "right now relate to all whites with suspicion, and they know very little about the Soviet Union."'
+      n: '[[w.friedman-shadow-cold-war]], 55. Made public: 2015. To check: SCSCAA Presidium Session, April 25, 1960, GARF f.9540 o.1 d.60, 117 (cited by [[w.friedman-shadow-cold-war]], 55 n.118).'
+      src:
+        c: 90cb03ff
+        rows:
+        - 'w.friedman-shadow-cold-war 55: all'
+        - 'via x.1960-04-25.scscaa-presidium-session-april-25-1960: ?'
+      tags:
+      - polity:ussr
+      - vis:only:ussr
+- add:
+    entry:
+      id: cal.1960-06-22.china-leadership-8
+      when: June 22
+      date: '1960-06-22'
+      thread: china-leadership
+      also:
+      - africa
+      - south-asia
+      c: The Chinese Peace Committee to the Central Committee, its report on the Conakry conference. The Soviets now the main opponent; toward India and Egypt a policy of "yida yila," attack and attract. Strengthen work in Africa, widen exchanges, support the nationalist movements "using great force," publicize Mao Zedong thought.
+      n: '[[w.friedman-shadow-cold-war]], 46. Made public: 2015. To check: Chinese Peace Committee to CC CCP, report on Second AAPSO Conference, June 22, 1960, CFMA doc. 108-0010601, 57 (cited by [[w.friedman-shadow-cold-war]], 46 n.76); Chinese Peace Committee to CC CCP, report on Second AAPSO Conference, June 22, 1960, CFMA doc. 108-0010601, 59 (cited by [[w.friedman-shadow-cold-war]], 46 n.81).'
+      src:
+        c: 447a4006
+        rows:
+        - 'w.friedman-shadow-cold-war 46: all'
+        - 'via x.1960-06-22.chinese-peace-committee-ccp-report-second-aapso: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-06-28.africa
+      when: June 28
+      date: '1960-06-28'
+      thread: africa
+      also:
+      - soviet-union
+      c: A Soviet delegation in Ghana, to July 10, on aid and economic cooperation. It meets Nkrumah and Touré; it agrees to a minimal amount of aid.
+      n: '[[w.friedman-shadow-cold-war]], 47. To check: Report of Soviet delegation on visit to Ghana, June 28–July 10, 1960, RGANI f.5 o.30 d.336, 96–107 (cited by [[w.friedman-shadow-cold-war]], 47 n.84). Names: Nkrumah, Touré.'
+      src:
+        c: 69bbd5e7
+        rows:
+        - 'w.friedman-shadow-cold-war 47: all'
+        - 'via x.1960-07.report-soviet-delegation-visit-ghana-june-28: ?'
+      tags:
+      - polity:ussr
+      - polity:ghana
+      - polity:guinea
+      - name:nkrumah-kwame
+      - name:toure-ahmed-sekou
+- add:
+    entry:
+      id: cal.1960-07.soviet-union
+      when: July, after the 10th
+      date: 1960-07
+      at: after 1960-07-10
+      thread: soviet-union
+      also:
+      - africa
+      c: 'The Soviet delegation''s report to the Central Committee on its visit to Ghana: Nkrumah still under British control, his talk of socialism empty; Touré impresses them more. Undermine Nkrumah from the left: support "progressive" elements, invite more Ghanaian officials, train more Ghanaian technical cadres in the USSR, enlarge the embassy at Accra, more propaganda.'
+      n: '[[w.friedman-shadow-cold-war]], 47. Made public: 2015. To check: Report of Soviet delegation on visit to Ghana, June 28–July 10, 1960, RGANI f.5 o.30 d.336, 96–107 (cited by [[w.friedman-shadow-cold-war]], 47 n.84). Names: Nkrumah, Touré.'
+      src:
+        c: ed96db3e
+        rows:
+        - 'w.friedman-shadow-cold-war 47: all'
+        - 'via x.1960-07.report-soviet-delegation-visit-ghana-june-28: ?'
+      tags:
+      - polity:ussr
+      - vis:only:ussr
+      - name:nkrumah-kwame
+      - name:toure-ahmed-sekou
+- add:
+    entry:
+      id: cal.1960-01-29.soviet-union-leadership
+      when: Jan. 29
+      date: '1960-01-29'
+      thread: soviet-union-leadership
+      c: A resolution of the CPSU Central Committee on improving Soviet radio propaganda abroad. By late 1961 broadcasting abroad doubled, from Moscow in 39 languages, Swahili, Amharic, Tamil, Urdu, Hindi, Bengali and Burmese among them.
+      n: '[[w.friedman-shadow-cold-war]], 48. Made public: 2015. To check: Report on fulfillment of CC CPSU resolution of January 29, 1960, on improving Soviet radio propaganda overseas, RGANI f.5 o.33 d.175, 82–87 (cited by [[w.friedman-shadow-cold-war]], 48 n.87).'
+      src:
+        c: 5404ca5c
+        rows:
+        - 'w.friedman-shadow-cold-war 48: all'
+        - 'via x.undated.report-fulfillment-cpsu-resolution-january-29-1960: ?'
+      tags:
+      - polity:ussr
+      - vis:only:ussr
+- cite:
+    id: cal.1960-02-05.soviet-union
+    item: '[[w.friedman-shadow-cold-war]], 47–48 (the People''s Friendship University created in February 1960, later named for Lumumba; its council the Soviet Afro-Asian Solidarity Committee, with the dominant say on admissions, and the All-Union Central Council of Trade Unions; 550 students from developing countries enrolled in its first year, of some 2,671 in the USSR by spring 1961)'
+- to-check:
+    id: cal.1960-02-05.soviet-union
+    add: Stenogram of SCSCAA Presidium session, February 12, 1960, GARF f.9540 o.1 d.62, 16 (cited by [[w.friedman-shadow-cold-war]], 47 n.85); Report of deputy head of Ministry of Higher Education to CC “On Measures for Strengthening Aid of USSR to Underdeveloped Countries in the Area of Higher and Middle Specialized Education,” 1961, RGANI f.5 o.14 d.20, 27–28 (cited by [[w.friedman-shadow-cold-war]], 48 n.86).
+- src:
+    id: cal.1960-02-05.soviet-union
+    rows:
+    - 'via x.1960-02-12.stenogram-scscaa-presidium-session-february-12-1960: ?'
+    - 'via x.1961.report-deputy-head-ministry-higher-education-measures: ?'
+- add:
+    entry:
+      id: cal.1960-02-16.china-leadership-5
+      when: Feb. 16
+      date: '1960-02-16'
+      thread: china-leadership
+      also:
+      - soviet-union
+      - africa
+      c: 'The cultural office of the Chinese Embassy at Moscow to the Foreign Ministry, on the Soviet interest in Africa: the Soviet-African friendship society, the Institute of Africa, the journal *Problemy Vostokovedeniia*. A conversation with the deputy head of the Soviet State Committee on Cultural Ties: he stresses Soviet daily life, socialist construction and peaceful coexistence, nothing of Africans rising against imperialism, "a reflection of the Soviet Union''s entire policy."'
+      n: '[[w.friedman-shadow-cold-war]], 49. Made public: 2015. To check: Letter from the Cultural Office of PRC embassy Moscow to MFA, February 16, 1960, CFMA doc. 109-02099-01, 1–2 (cited by [[w.friedman-shadow-cold-war]], 49 n.89a); Report from embassy Moscow to MFA, April 5, 1960, CFMA doc. 109-02099-01, 18 (cited by [[w.friedman-shadow-cold-war]], 49 n.89b); Letter from the Cultural Office of PRC embassy Moscow to MFA, February 16, 1960, CFMA doc. 109-02099-01, 2–3 (cited by [[w.friedman-shadow-cold-war]], 49 n.90).'
+      src:
+        c: c126cf34
+        rows:
+        - 'w.friedman-shadow-cold-war 49: all'
+        - 'via x.1960-02-16.letter-cultural-office-prc-embassy-moscow-mfa: ?'
+        - 'via x.1960-04-05.report-embassy-moscow-mfa-april-5-1960: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-11-18.china-leadership-8
+      when: Nov. 18
+      date: '1960-11-18'
+      thread: china-leadership
+      also:
+      - soviet-union
+      - africa
+      c: 'The Chinese Embassy at Moscow to the Foreign Ministry, on the Soviet press and the new People''s Friendship University: only "friendship" and "humanism," no promotion of revolution; the press calls the university a fruit of disarmament, paid for with money saved on arms.'
+      n: '[[w.friedman-shadow-cold-war]], 49. Made public: 2015. To check: Embassy Moscow to MFA, November 18, 1960, CFMA doc. 109-02099-01, 5–6 (cited by [[w.friedman-shadow-cold-war]], 49 n.91).'
+      src:
+        c: 295ab423
+        rows:
+        - 'w.friedman-shadow-cold-war 49: all'
+        - 'via x.1960-11-18.embassy-moscow-mfa-november-18-1960: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-05-09.china-leadership-12
+      when: May 9
+      date: '1960-05-09'
+      thread: china-leadership
+      also:
+      - africa
+      - latin-america
+      c: 'The Communist Youth League''s Central Committee, by letter to the Liaison Department, the Committee on Foreign Cultural Ties and others, on requests from students of Algeria, Venezuela, Chad, Congo, Gabon, Argentina and others: a system to recruit and educate students from Africa and Latin America, about 100 a year, with classes on the Chinese revolutionary struggle. Bringing them to study "will expand our country''s influence."'
+      n: '[[w.friedman-shadow-cold-war]], 49–50. Made public: 2015. To check: PRC Committee on Foreign Cultural Ties to MFA, May 9, 1960, CFMA doc. 108-00223-04, 2–4 (cited by [[w.friedman-shadow-cold-war]], 49 n.92); PRC Committee on Foreign Cultural Ties to MFA, May 9, 1960, CFMA doc. 108-00223-04, 4 (cited by [[w.friedman-shadow-cold-war]], 49 n.93); PRC Committee on Foreign Cultural Ties to MFA, May 9, 1960, CFMA doc. 108-00223-04 (cited by [[w.friedman-shadow-cold-war]], 50 n.94). Check: the day: the record the note gives is the Committee on Foreign Cultural Ties to the Foreign Ministry, May 9, 1960; the Youth League''s letter is not dated.'
+      src:
+        c: b5a683c6
+        rows:
+        - 'w.friedman-shadow-cold-war 49–50: all'
+        - 'via x.1960-05-09.prc-committee-foreign-cultural-ties-mfa-may: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-08.china-leadership-17
+      when: Aug.
+      date: 1960-08
+      thread: china-leadership
+      also:
+      - africa
+      c: 'Deng Xiaoping, by top-secret letter to the Central Committee, on Africans asking to come to China to study the revolution: the new states want expertise and are "ideologically and politically immature." Take those who want to come, warmly; teach them Mao Zedong''s thought and China''s revolutionary experience, the widest class coalition, a long and perhaps violent struggle; a select few to be taught Marxist theory in depth, as nuclei of Marxist parties; the training by the trade unions, the youth and women''s organizations, six months at most.'
+      n: '[[w.friedman-shadow-cold-war]], 50. Made public: 2015. To check: Liaison Department, distributing “Report to CC on Black African Personnel Coming to China to Study Revolutionary Experience,” October 6, 1960, CFMA doc. 108-00223-06, 2 (cited by [[w.friedman-shadow-cold-war]], 50 n.95); Liaison Department, distributing “Report to CC on Black African Personnel Coming to China to Study Revolutionary Experience,” October 6, 1960, CFMA doc. 108-00223-06, 1–3 (cited by [[w.friedman-shadow-cold-war]], 50 n.96). Names: Deng Xiaoping.'
+      src:
+        c: fbdd287f
+        rows:
+        - 'w.friedman-shadow-cold-war 50: all'
+        - 'via x.1960-10-06.liaison-department-distributing-report-black-african-personnel: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:deng-xiaoping
+- add:
+    entry:
+      id: cal.1960-02.china
+      when: Feb.
+      date: 1960-02
+      thread: china
+      also:
+      - africa
+      c: The general secretary of the Zanzibar Nationalist Party in China. The distribution of Chinese publications raised with him, as with any African visitor.
+      n: '[[w.friedman-shadow-cold-war]], 51. Made public: 2015. To check: Report from Committee on Foreign Cultural Ties, March 25, 1960, CFMA doc. 108-00213-04, 1–3 (cited by [[w.friedman-shadow-cold-war]], 51 n.97).'
+      src:
+        c: ff2f8863
+        rows:
+        - 'w.friedman-shadow-cold-war 51: all'
+        - 'via x.1960-03-25.report-committee-foreign-cultural-ties-march-25: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- cite:
+    id: cal.1961-04-27.china-leadership-4
+    item: '[[w.friedman-shadow-cold-war]], 51 (Mao to a visiting delegation from Asia and Africa: "We don''t have a clear understanding of African history, geography, and the present situation")'
+- to-check:
+    id: cal.1961-04-27.china-leadership-4
+    add: '[[w.li-african-studies-in-china]] (cited by [[w.friedman-shadow-cold-war]], 51 n.99).'
+- add:
+    entry:
+      id: cal.1961-07-04.china
+      when: July 4
+      date: '1961-07-04'
+      thread: china
+      also:
+      - africa
+      c: The Institute of West Asian and African Studies founded, under the Liaison Department and the Chinese Academy of Sciences.
+      n: '[[w.friedman-shadow-cold-war]], 51. To check: [[w.li-african-studies-in-china]], 63 (cited by [[w.friedman-shadow-cold-war]], 51 n.100).'
+      src:
+        c: 7747a8d0
+        rows:
+        - 'w.friedman-shadow-cold-war 51: all'
+      tags:
+      - polity:prc
+- cite:
+    id: cal.1960-02-04.soviet-union-2
+    item: '[[w.friedman-shadow-cold-war]], 51 (after a confrontation over foreign policy at the Warsaw Pact''s Political Consultative Committee, Khrushchev calls Mao "a pair of worn out galoshes," as Luthi quotes it)'
+- to-check:
+    id: cal.1960-02-04.soviet-union-2
+    add: '[[w.luthi-sino-soviet-split]], 161–62 (cited by [[w.friedman-shadow-cold-war]], 51 n.102).'
+- cite:
+    id: cal.1960-04-16.china-leadership
+    item: '[[w.friedman-shadow-cold-war]], 51 (Mao has propaganda workers write three polemics for Lenin''s ninetieth birthday; the Soviets refuse to reply openly before the Paris summit)'
+- to-check:
+    id: cal.1960-04-16.china-leadership
+    add: '[[w.luthi-sino-soviet-split]], 163 (cited by [[w.friedman-shadow-cold-war]], 51 n.103).'
+- cite:
+    id: cal.1960-06.china
+    item: '[[w.friedman-shadow-cold-war]], 52 (early June: a long dinner at which Liu Shaoqi and Deng Xiaoping harangue the guests on the differences between the two parties; East European delegates, home through Moscow, tell the Soviets "the Chinese are trying to take the international Communist and workers'' movement under their control")'
+- to-check:
+    id: cal.1960-06.china
+    add: Report of Frol Kozlov at CC CPSU plenum, July 7, 1960, RGANI f.2 o.1 d.458, 12 (cited by [[w.friedman-shadow-cold-war]], 52 n.104).
+- src:
+    id: cal.1960-06.china
+    rows:
+    - 'via x.1960-07-07.report-frol-kozlov-cpsu-plenum-july-7: ?'
+- check:
+    id: cal.1960-06-16.soviet-union
+    text: 'Check: [[w.friedman-shadow-cold-war]], 52 n.105 (Kozlov''s report to the July plenum), has a Soviet delegation led by Kozlov, Kuusinen, Ponomarev and Andropov ask the Chinese delegation of Peng Zhen and Kang Sheng, at a meeting before the Romanian congress, "Are you looking for allies for yourselves in a struggle against the CPSU?"; it puts that meeting "at the beginning of July."'
+- cite:
+    id: cal.1960-07.soviet-union-leadership
+    item: '[[w.friedman-shadow-cold-war]], 52 (Kozlov''s speech at the plenum soon after Bucharest: China harms communism in Africa and Asia, drags the USSR toward conflict with India against the Indian Communist Party''s advice, poisons "nationalist" regimes against the socialist camp, Indonesia and Burma above all; the Soviet aid to China set out; the note dates the report July 7, 1960)'
+- to-check:
+    id: cal.1960-07.soviet-union-leadership
+    add: Report of Frol Kozlov at CC CPSU plenum, July 7, 1960, RGANI f.2 o.1 d.458, 12 (cited by [[w.friedman-shadow-cold-war]], 52 n.104); Report of Frol Kozlov at CC CPSU plenum, July 7, 1960, RGANI f.2 o.1 d.458, 13 (cited by [[w.friedman-shadow-cold-war]], 52 n.105); Report of Frol Kozlov at CC CPSU plenum, July 7, 1960, RGANI f.2 o.1 d.458, 65 (cited by [[w.friedman-shadow-cold-war]], 52 n.106).
+- src:
+    id: cal.1960-07.soviet-union-leadership
+    rows:
+    - 'via x.1960-07-07.report-frol-kozlov-cpsu-plenum-july-7: ?'
+- cite:
+    id: cal.1960-07.china
+    item: '[[w.friedman-shadow-cold-war]], 52 (Khrushchev suddenly decides to remove all Soviet specialists from the PRC; Peking notified "two days after the conclusion of the plenum")'
+- to-check:
+    id: cal.1960-07.china
+    add: Report of Frol Kozlov at CC CPSU plenum, July 7, 1960, RGANI f.2 o.1 d.458, 65 (cited by [[w.friedman-shadow-cold-war]], 52 n.106).
+- src:
+    id: cal.1960-07.china
+    rows:
+    - 'via x.1960-07-07.report-frol-kozlov-cpsu-plenum-july-7: ?'
+- add:
+    entry:
+      id: cal.1960-08-22.china-leadership-11
+      when: Aug. 22
+      date: '1960-08-22'
+      thread: china-leadership
+      also:
+      - africa
+      c: 'The Central Committee''s Propaganda Department reports on propaganda for the African liberation movements: at least 520 African visitors from forty-one countries, 1949 to June 1960, by its incomplete count.'
+      n: '[[w.friedman-shadow-cold-war]], 52. Made public: 2015. To check: Report from CC Propaganda Department on propaganda of African liberation movements, August 22, 1960, CFMA doc. 108-00214-02, 5 (cited by [[w.friedman-shadow-cold-war]], 52 n.107).'
+      src:
+        c: b6e75f83
+        rows:
+        - 'w.friedman-shadow-cold-war 52: all'
+        - 'via x.1960-08-22.report-propaganda-department-propaganda-african-liberation-movements: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-06.china-3
+      when: June
+      date: 1960-06
+      thread: china
+      also:
+      - africa
+      c: Dennis Phombeah, secretary of the Committee of African Organizations, visits China.
+      n: '[[w.friedman-shadow-cold-war]], 53. To check: Letter from MFA to PRC embassy in London, June 27, 1960, CFMA doc. 10800218-01, 8–9 (cited by [[w.friedman-shadow-cold-war]], 53 n.108).'
+      src:
+        c: 378d3500
+        rows:
+        - 'w.friedman-shadow-cold-war 53: all'
+        - 'via x.1960-06-27.letter-mfa-prc-embassy-london-june-27: ?'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1960-06-27.china-leadership-11
+      when: June 27
+      date: '1960-06-27'
+      thread: china-leadership
+      also:
+      - africa
+      c: 'The Foreign Ministry to the Embassy at London, on Phombeah''s visit: he thinks imperialism has changed and will grant all Africa independence peacefully within three to five years; "illusions" about Julius Nyerere''s "nonracism" and British offers of autonomy and "racial partnership"; no traditional class structure in East Africa, he says; too much reliance on intellectuals; blind to the American attempt to co-opt Africa''s nationalist leaders.'
+      n: '[[w.friedman-shadow-cold-war]], 53. Made public: 2015. To check: Letter from MFA to PRC embassy in London, June 27, 1960, CFMA doc. 10800218-01, 8–9 (cited by [[w.friedman-shadow-cold-war]], 53 n.108). Names: Nyerere.'
+      src:
+        c: e97feb7c
+        rows:
+        - 'w.friedman-shadow-cold-war 53: all'
+        - 'via x.1960-06-27.letter-mfa-prc-embassy-london-june-27: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:nyerere-julius-k
+- add:
+    entry:
+      id: cal.1960-08-06.china-leadership-6
+      when: Aug. 6
+      date: '1960-08-06'
+      thread: china-leadership
+      also:
+      - congo
+      c: 'The Chinese Embassy in Switzerland to the Central Committee, on two members of the Congolese African Solidarity Party: they fail to see that the United Nations is a tool of imperialism, misjudge the relation of forces, rely too much on foreign aid, not on their own forces and mass struggle.'
+      n: '[[w.friedman-shadow-cold-war]], 53. Made public: 2015. To check: Letter from PRC embassy in Switzerland to CC, August 6, 1960, CFMA doc. 108-00171-02, 4 (cited by [[w.friedman-shadow-cold-war]], 53 n.109).'
+      src:
+        c: 0b5ab8e8
+        rows:
+        - 'w.friedman-shadow-cold-war 53: all'
+        - 'via x.1960-08-06.letter-prc-embassy-switzerland-august-6-1960: ?'
+      tags:
+      - polity:prc
+      - polity:congo
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-08.china
+      when: Aug.
+      date: 1960-08
+      thread: china
+      also:
+      - africa
+      c: 'Ten African students studying in Czechoslovakia come to China for a month''s study: their politics "uneven," their grasp "confused," but anti-imperialist. The Youth League secretariat''s goals: influence their politics and thought for total anti-imperialist struggle, introduce Marxism-Leninism, the proletariat''s leadership, their "revolutionary-ness"; and raise their ability to tell revisionist thought.'
+      n: '[[w.friedman-shadow-cold-war]], 53–54. Made public: 2015. To check: Report of Youth League to Liaison Department on visiting African student delegation, August 1960, CFMA doc. 108-00223-09, 6 (cited by [[w.friedman-shadow-cold-war]], 53 n.110); Report of Youth League to Liaison Department on visiting African student delegation, August 1960, CFMA doc. 108-00223-09 (cited by [[w.friedman-shadow-cold-war]], 53 n.111); Report of Youth League to Liaison Department on visiting African student delegation, August 1960, CFMA doc. 108-00223-09, 7 (cited by [[w.friedman-shadow-cold-war]], 54 n.112).'
+      src:
+        c: 79cfb342
+        rows:
+        - 'w.friedman-shadow-cold-war 53–54: all'
+        - 'via x.1960-08.report-youth-league-liaison-department-visiting-african: ?'
+      tags:
+      - polity:prc
+      - polity:czechoslovakia
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-11-09.china-leadership-12
+      when: Nov. 9
+      date: '1960-11-09'
+      thread: china-leadership
+      also:
+      - africa
+      c: 'The Youth League to the Liaison Department, on the Embassy at Prague''s debriefing of the ten African students: one says the Chinese people''s socialist consciousness is "the highest"; another, "only through armed struggle can true national independence be won."'
+      n: '[[w.friedman-shadow-cold-war]], 54. Made public: 2015. To check: Report from Youth League to Liaison Department, November 9, 1960, CFMA doc. 108-00223-09, 31 (cited by [[w.friedman-shadow-cold-war]], 54 n.113).'
+      src:
+        c: d4c78db1
+        rows:
+        - 'w.friedman-shadow-cold-war 54: all'
+        - 'via x.1960-11-09.report-youth-league-liaison-department-november-9: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-08.china-2
+      when: Aug.
+      date: 1960-08
+      place: peking
+      thread: china
+      also:
+      - africa
+      c: 'Peking. Viriato da Cruz of the MPLA and Amílcar Cabral of the PAIGC visit China. The Foreign Ministry: "They are very friendly towards us," condemn Portugal''s rule and American support of it, push for immediate independence, are preparing armed struggle and want to study it.'
+      n: '[[w.friedman-shadow-cold-war]], 54. Made public: 2015. To check: Letter of MFA to party committees of Shenyang, Harbin, and Changchun on upcoming visit of delegation led by Viriato da Cruz and Amilcar Cabral, August 1960, CFMA doc. 108-00098-01, 27 (cited by [[w.friedman-shadow-cold-war]], 54 n.115). Names: Cabral.'
+      src:
+        c: bfdec0bb
+        rows:
+        - 'w.friedman-shadow-cold-war 54: all'
+        - 'via x.1960-08.letter-mfa-party-committees-shenyang-harbin-changchun: ?'
+      tags:
+      - polity:prc
+      - polity:portugal
+      - name:cabral-amilcar
+- add:
+    entry:
+      id: cal.1960-09-09.china-leadership-8
+      when: Sept. 9
+      date: '1960-09-09'
+      thread: china-leadership
+      also:
+      - africa
+      c: 'Zhu Ziqi and Liao Chengzhi to Liu Ningyi, on aid to the MPLA and the PAIGC: $20,000 to each; ten of their people to be taken for military training; arms too, pending talks with Touré, who hosts both at Conakry.'
+      n: '[[w.friedman-shadow-cold-war]], 54. Made public: 2015. To check: Letter of Zhu Ziqi and Liao Chengzhi to Liu Ningyi on aid to MPLA and PAIGC, September 9, 1960, CFMA doc. 108-00209-02, 3, 8–9 (cited by [[w.friedman-shadow-cold-war]], 54 n.116). Names: Touré.'
+      src:
+        c: 8d7989c4
+        rows:
+        - 'w.friedman-shadow-cold-war 54: all'
+        - 'via x.1960-09-09.letter-zhu-ziqi-liao-chengzhi-liu-ningyi: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:toure-ahmed-sekou
+- add:
+    entry:
+      id: cal.1960-10-01.africa
+      when: Oct. 1
+      date: '1960-10-01'
+      place: east-berlin
+      thread: africa
+      c: East Berlin. The SED's talk with Viriato da Cruz of the MPLA; little aid.
+      n: '[[w.friedman-shadow-cold-war]], 54. Made public: 2015. To check: Soviet Foreign Ministry report on Angola, January 7, 1963, AVPRF f.658 o.3 papka 1 d.1, 38 (cited by [[w.friedman-shadow-cold-war]], 54 n.114a); Aktenvermerk über die Aussprache mit Herrn da Cruz, Führer der nationalen Angolas Volksbefreiungsbewegung am 1.10.1960, SAPMO-BArch DY 30/IV 2/20/416, 3 (cited by [[w.friedman-shadow-cold-war]], 54 n.114b).'
+      src:
+        c: 594f6ef1
+        rows:
+        - 'w.friedman-shadow-cold-war 54: all'
+        - 'via x.1963-01-07.soviet-foreign-ministry-report-angola-january-7: ?'
+        - 'via x.1960-10-01.aktenvermerk-uber-die-aussprache-mit-herrn-da: ?'
+      tags:
+      - polity:gdr
+      - vis:only:gdr
+- add:
+    entry:
+      id: cal.1960.africa
+      when: '1960'
+      date: '1960'
+      place: moscow
+      thread: africa
+      also:
+      - soviet-union
+      c: Moscow. Viriato da Cruz of the MPLA visits; little aid; his talk of Marxism and guerrilla war draws little response.
+      n: '[[w.friedman-shadow-cold-war]], 54–55. Made public: 2015. To check: Soviet Foreign Ministry report on Angola, January 7, 1963, AVPRF f.658 o.3 papka 1 d.1, 38 (cited by [[w.friedman-shadow-cold-war]], 54 n.114a); Aktenvermerk über die Aussprache mit Herrn da Cruz, Führer der nationalen Angolas Volksbefreiungsbewegung am 1.10.1960, SAPMO-BArch DY 30/IV 2/20/416, 3 (cited by [[w.friedman-shadow-cold-war]], 54 n.114b).'
+      src:
+        c: 2b683ec2
+        rows:
+        - 'w.friedman-shadow-cold-war 54–55: all'
+        - 'via x.1963-01-07.soviet-foreign-ministry-report-angola-january-7: ?'
+        - 'via x.1960-10-01.aktenvermerk-uber-die-aussprache-mit-herrn-da: ?'
+      tags:
+      - polity:ussr
+      - vis:only:ussr
+- add:
+    entry:
+      id: cal.1960-09-30.china-leadership-8
+      when: Sept. 30
+      date: '1960-09-30'
+      place: peking
+      thread: china-leadership
+      also:
+      - africa
+      c: 'Peking. A report of the city''s state college on its African students: they cut class, will not stand for the teacher, complain of the food, the dormitories, the showers, their allowance and their separation from the European students at Peking University, and strike until their demands are met. Told that socialist China cannot produce racial discrimination; Chinese students to be friendly, before the African guests of Oct. 1.'
+      n: '[[w.friedman-shadow-cold-war]], 55. Made public: 2015. To check: Report from Beijing City State College, September 30, 1960, CFMA doc. 10800150-05, 5–7 (cited by [[w.friedman-shadow-cold-war]], 55 n.117).'
+      src:
+        c: 083a12c8
+        rows:
+        - 'w.friedman-shadow-cold-war 55: all'
+        - 'via x.1960-09-30.report-beijing-city-state-college-september-30: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-07-19.soviet-union
+      when: July 19
+      date: '1961-07-19'
+      thread: soviet-union
+      also:
+      - africa
+      c: 'The KGB to the Central Committee''s General Department: a Guinean soldier in training at Poti, Georgia, attacked over a girl; the Guinean contingent complains of "racial discrimination" and asks to be moved.'
+      n: '[[w.friedman-shadow-cold-war]], 55–56. Made public: 2015. To check: KGB to General Department CC CPSU, July 19, 1961, RGANI f.5 o.30 d.369, 105 (cited by [[w.friedman-shadow-cold-war]], 56 n.119).'
+      src:
+        c: 3df09760
+        rows:
+        - 'w.friedman-shadow-cold-war 55–56: all'
+        - 'via x.1961-07-19.kgb-general-department-cpsu-july-19-1961: ?'
+      tags:
+      - polity:ussr
+      - polity:guinea
+      - vis:only:ussr
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1962-01-08.soviet-union-2
+      when: Jan. 8
+      date: '1962-01-08'
+      thread: soviet-union
+      also:
+      - africa
+      c: 'The presidium of the Soviet Afro-Asian Solidarity Committee: a member says incidents of racial intolerance against African students are as common in Moscow or Tashkent as in Georgia.'
+      n: '[[w.friedman-shadow-cold-war]], 56. Made public: 2015. To check: SCSCAA Presidium Session, January 8, 1962, GARF f.9540 o.1 d.109, 97–98 (cited by [[w.friedman-shadow-cold-war]], 56 n.120).'
+      src:
+        c: 2a504a94
+        rows:
+        - 'w.friedman-shadow-cold-war 56: all'
+        - 'via x.1962-01-08.scscaa-presidium-session-january-8-1962: ?'
+      tags:
+      - polity:ussr
+      - vis:only:ussr
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-07-13.china-leadership-7
+      when: July 13
+      date: '1960-07-13'
+      thread: china-leadership
+      also:
+      - africa
+      c: 'The Foreign Ministry''s report on black Africa, from its West Asian and African department: the struggle "even more fierce and deep," calls for armed struggle increasing daily under the Algerian war''s influence; armed struggle in the former Belgian Congo and Cameroon, clashes in Angola, Mauretania, Chad and Kenya; "Marxism and the works of Mao Zedong" more widely publicized every day; contradictions within Africa''s ruling groups and between its states.'
+      n: '[[w.friedman-shadow-cold-war]], 56. Made public: 2015. To check: MFA report on situation in black Africa, July 13, 1960, CFMA doc. 108-0002502, 2 (cited by [[w.friedman-shadow-cold-war]], 56 n.121); MFA report on situation in black Africa, July 13, 1960, CFMA doc. 108-0002502, 3 (cited by [[w.friedman-shadow-cold-war]], 56 n.122); MFA report on situation in black Africa, July 13, 1960, CFMA doc. 108-0002502, 4 (cited by [[w.friedman-shadow-cold-war]], 56 n.123).'
+      src:
+        c: 7410fed7
+        rows:
+        - 'w.friedman-shadow-cold-war 56: all'
+        - 'via x.1960-07-13.mfa-report-situation-black-africa-july-13: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-12-12.china-leadership-9
+      when: Dec. 12
+      date: '1960-12-12'
+      thread: china-leadership
+      also:
+      - africa
+      - congo
+      c: 'The Foreign Ministry''s report on British and formerly British Africa: the Congo crisis has changed the independence struggle; the Congolese and Cameroonians fight "between real and fake independence"; a vanguard, under the socialist countries'' influence, accepts Marxism-Leninism and Mao Zedong thought; African youths in Britain read Mao. A prescription for China''s work in Africa in 1961.'
+      n: '[[w.friedman-shadow-cold-war]], 56–57. Made public: 2015. To check: MFA Report on British and formerly British Africa, December 12, 1960, CFMA doc. 108-00108-01, 3 (cited by [[w.friedman-shadow-cold-war]], 56 n.124); MFA Report on British and formerly British Africa, December 12, 1960, CFMA doc. 108-00108-01, 4 (cited by [[w.friedman-shadow-cold-war]], 56 n.125).'
+      src:
+        c: 0d934b54
+        rows:
+        - 'w.friedman-shadow-cold-war 56–57: all'
+        - 'via x.1960-12-12.mfa-report-british-formerly-british-africa-december: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- cite:
+    id: cal.1960-11.soviet-union
+    item: '[[w.friedman-shadow-cold-war]], 57 (eighty-one parties; Ho Chi Minh''s mediation since Bucharest; the majority against the Chinese; the documents bring in "National Democracy," no dictatorship of the proletariat, a "transitional stage" to the noncapitalist path)'
+- to-check:
+    id: cal.1960-11.soviet-union
+    add: '[[w.luthi-sino-soviet-split]], 182–91 (cited by [[w.friedman-shadow-cold-war]], 57 n.126); Report by M. Suslov on 1960 Moscow meeting to CPSU plenum, January 8, 1961, RGANI f.2 o.1 d.510, 20 (cited by [[w.friedman-shadow-cold-war]], 57 n.128).'
+- src:
+    id: cal.1960-11.soviet-union
+    rows:
+    - 'via x.1961-01-08.report-m-suslov-1960-moscow-meeting-cpsu: ?'
+- cite:
+    id: cal.1960-11-30.soviet-union-2
+    item: '[[w.friedman-shadow-cold-war]], 57 (with Mao''s authorization from Peking for a tactical retreat if certain demands are met, Peng Zhen and Kozlov find common ground at the last minute)'
+- to-check:
+    id: cal.1960-11-30.soviet-union-2
+    add: '[[w.luthi-sino-soviet-split]], 182–91 (cited by [[w.friedman-shadow-cold-war]], 57 n.126).'
+- add:
+    entry:
+      id: cal.1961-01.soviet-union-leadership
+      when: Jan.
+      date: 1961-01
+      thread: soviet-union-leadership
+      also:
+      - africa
+      c: 'The CPSU Central Committee''s plenum. Suslov on the results of the Moscow meeting and its approach to the newly liberated countries: national rebirth only in decisive struggle with imperialism and the remnants of feudalism, in a united national front of all patriotic forces, its basic form the union of the working class and the peasantry.'
+      n: '[[w.friedman-shadow-cold-war]], 57. Made public: 2015. To check: Report by M. Suslov on 1960 Moscow meeting to CPSU plenum, January 8, 1961, RGANI f.2 o.1 d.510, 19 (cited by [[w.friedman-shadow-cold-war]], 57 n.127); Report by M. Suslov on 1960 Moscow meeting to CPSU plenum, January 8, 1961, RGANI f.2 o.1 d.510, 20 (cited by [[w.friedman-shadow-cold-war]], 57 n.128). Names: Suslov. Check: the day: the note dates the report Jan. 8, 1961; the plenum closes Jan. 18 ([[cal.1961-01-18.soviet-union-leadership]]).'
+      src:
+        c: a225c621
+        rows:
+        - 'w.friedman-shadow-cold-war 57: all'
+        - 'via x.1961-01-08.report-m-suslov-1960-moscow-meeting-cpsu: ?'
+      tags:
+      - polity:ussr
+      - vis:only:ussr
+      - name:suslov-mikhail-a
+- add:
+    entry:
+      id: cal.1960-12-06.china-leadership-11
+      when: Dec. 6
+      date: '1960-12-06'
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: 'The Foreign Ministry''s top-secret circular to all embassies and missions abroad on the Moscow meeting: it may ease tension for a time, but is not as good as settling the theoretical debates. All personnel abroad, students too, to study the Moscow document and use it, stress Sino-Soviet and camp solidarity, avoid disputed issues, and stop saying "revisionist" and "right-wing opportunist."'
+      n: '[[w.friedman-shadow-cold-war]], 58. Made public: 2015. To check: MFA circular to all embassies and representatives abroad, December 6, 1960, CFMA doc. 109-00936-01, 1 (cited by [[w.friedman-shadow-cold-war]], 58 n.129); MFA circular to all embassies and representatives abroad, December 6, 1960, CFMA doc. 109-00936-01, 5 (cited by [[w.friedman-shadow-cold-war]], 58 n.130); MFA circular to all embassies and representatives abroad, December 6, 1960, CFMA doc. 109-00936-01, 9 (cited by [[w.friedman-shadow-cold-war]], 58 n.131).'
+      src:
+        c: 6783eaf6
+        rows:
+        - 'w.friedman-shadow-cold-war 58: all'
+        - 'via x.1960-12-06.mfa-circular-all-embassies-representatives-abroad-december: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-12-09.china-leadership-14
+      when: Dec. 9
+      date: '1960-12-09'
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: 'The Chinese Embassy at Moscow to the Foreign Ministry: a change of tone since the meeting, but the Soviets still promote peaceful coexistence and disarmament, keep "illusions" about the United Nations, and hope for the incoming Kennedy administration.'
+      n: '[[w.friedman-shadow-cold-war]], 58. Made public: 2015. To check: Embassy Moscow to MFA, December 9, 1960, CFMA doc. 109-02064-06, 1–4 (cited by [[w.friedman-shadow-cold-war]], 58 n.132).'
+      src:
+        c: 7acae0fd
+        rows:
+        - 'w.friedman-shadow-cold-war 58: all'
+        - 'via x.1960-12-09.embassy-moscow-mfa-december-9-1960: ?'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-05.soviet-union-3
+      when: May
+      date: 1961-05
+      thread: soviet-union
+      also:
+      - africa
+      c: Karen Brutents joins the newly formed Africa sector of the Central Committee's International Department, in charge of the formerly British colonies of West Africa. By his account only two or three Africanists could be found in the Soviet Union; the sector's head an expert on Greece and Albania with no English, French or African language.
+      n: '[[w.friedman-shadow-cold-war]], 31. Made public: 1998. To check: [[w.brutents-tridtsat-let-na-staroi]], 197–98 (cited by [[w.friedman-shadow-cold-war]], 31 n.18).'
+      src:
+        c: 528c9620
+        rows:
+        - 'w.friedman-shadow-cold-war 31: all'
+      tags:
+      - polity:ussr
+      - vis:only:ussr
+- add:
+    entry:
+      id: cal.1960.soviet-union-2
+      when: '1960'
+      date: '1960'
+      thread: soviet-union
+      also:
+      - africa
+      c: The Institute of Africa of the Academy of Sciences established.
+      n: '[[w.friedman-shadow-cold-war]], 31, 48.'
+      src:
+        c: ffc8ea34
+        rows:
+        - 'w.friedman-shadow-cold-war 31, 48: all'
+      tags:
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1969.soviet-union
+      when: '1969'
+      date: '1969'
+      thread: soviet-union
+      also:
+      - latin-america
+      c: The journal *Latinskaia Amerika* founded; on its editorial board Nikolai Leonov, head of the KGB's Latin American division.
+      n: '[[w.friedman-shadow-cold-war]], 48.'
+      src:
+        c: 5c521461
+        rows:
+        - 'w.friedman-shadow-cold-war 48: all'
+      tags:
+      - polity:ussr
