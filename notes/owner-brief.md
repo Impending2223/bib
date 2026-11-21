@@ -1008,3 +1008,7 @@ Do our readers and auditors not have permission to add to the entries? Is there 
 ## Nov. 21, 2026, 11:14 a.m. Pacific
 
 "Claude, I don't want to drop the unread works. Can you check and fix the doubles instead?"
+
+## Nov. 21, 2026, 11:16 a.m. Pacific
+
+"Claude, instead of "If they're found, the entry reads "Real Name 培利卡·比库里". If not, it reads "培利卡·比库里 (Peilika Bikuli)"", drop the CJK rendering of the found names—that's what we do elsewhere—and put the Pinyin ahead of the CJK, in italics."
