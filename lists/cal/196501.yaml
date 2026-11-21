@@ -75,6 +75,19 @@ entries:
         - 'w.friedman-shadow-cold-war 127: all'
         - 'via x.1965-03-31.secret-report-american-european-department-soviet-east: ?'
     tags: [polity:ussr]
+  - id: cal.1965-01-01.china-leadership-4
+    when: Jan. 1
+    date: '1965-01-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Great Hall of the People 人民大会堂. Chen Yi 陈毅, with the leaders of party and state, at the New Year gathering with the NPC deputies and CPPCC members come to Peking from the provinces.
+    n: '[[w.chen-yi-nianpu]], 1078. The words: 晚上 (1078). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1965-01-01T11:00Z
+      - 1965-01-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-02.congress
     when: Jan. 2
     date: '1965-01-02'
@@ -201,12 +214,13 @@ entries:
     thread: china-leadership
     also: [cuba]
     c: Zhou attends the reception given by Cuba's ambassador for the sixth anniversary of the Cuban revolution's victory.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 2, 1965; evening; Beijing); [[w.peng-zhen-nianpu-1902]], IV, 384 (Jan. 2, 1965, evening; Peng Zhen at the Cuban Ambassador Pino Santos''s reception for the sixth anniversary of liberation). The book names the ambassador 皮诺·桑托斯. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 2, 1965; evening; Beijing); [[w.peng-zhen-nianpu-1902]], IV, 384 (Jan. 2, 1965, evening; Peng Zhen at the Cuban Ambassador Pino Santos''s reception for the sixth anniversary of liberation); [[w.chen-yi-nianpu]], 1078 (Jan. 2, 1965, evening, the embassy; the reception of Pino Santos 皮诺·桑托斯, Cuba''s Ambassador; Chen Yi present). The book names the ambassador 皮诺·桑托斯. Names: Zhou Enlai.'
     src:
       c: cb303aee
       rows:
         - 'w.zhou-enlai-waijiao-huodong 433: all'
         - 'w.peng-zhen-nianpu-1902 IV, 384: ?'
+        - 'w.chen-yi-nianpu 1078: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-01-02T11:00Z
@@ -224,6 +238,19 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 224–228: all'
     tags: [polity:prc, name:mao-zedong, name:xie-fuzhi, name:li-jingquan, name:tao-zhu, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1965-01-02.china-leadership-3
+    when: Jan. 2
+    date: '1965-01-02'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 receives and gives a banquet for Phoumi Vongvichit, general secretary of the Neo Lao Hak Sat and Minister of Information, the party's representative at the three parties' Paris talks.
+    n: '[[w.chen-yi-nianpu]], 1078. The words: 中午 (1078). Names: Chen Yi, Phoumi Vongvichit.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:phoumi-vongvichit, ok:fields-place]
+    time_range:
+      - 1965-01-02T04:00Z
+      - 1965-01-02T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-03.opinion
     when: Jan. 3
     date: '1965-01-03'
@@ -397,6 +424,13 @@ entries:
         - 'w.friedman-shadow-cold-war 126: all'
         - 'via x.1965-01-03.zhonglianbu-mfa-january-3-1965: ?'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1965-01-03.china-leadership-7
+    when: Jan. 3
+    date: '1965-01-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables U Thi Han 吴蒂汉, Burma's Foreign Minister, on the seventeenth anniversary of Burma's independence.
+    n: '[[w.chen-yi-nianpu]], 1078. Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, ok:fields-place]
   - id: cal.1965-01-04.congress-2
     when: Jan. 4
     date: '1965-01-04'
@@ -674,12 +708,30 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou attends the reception given by Burma's ambassador for Burma's Independence Day.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 4, 1965; Beijing). The book names the ambassador 沙马杜瓦·信瓦瑞. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 4, 1965; Beijing); [[w.chen-yi-nianpu]], 1078 (Jan. 4, 1965, evening, the Peking Hotel; Chen Yi speaks at the Burmese Ambassador''s reception, on Burma''s achievements and the "pauk-phaw" friendship). The book names the ambassador 沙马杜瓦·信瓦瑞. Names: Zhou Enlai.'
     src:
       c: 2c25b649
       rows:
         - 'w.zhou-enlai-waijiao-huodong 433: all'
+        - 'w.chen-yi-nianpu 1078: ?'
     tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-01-04T11:00Z
+      - 1965-01-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-04.china-leadership-3
+    when: Jan. 4
+    date: '1965-01-04'
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and others, receives all the deputies to the first session of the Third NPC and is photographed with them.
+    n: '[[w.chen-yi-nianpu]], 1078. The words: 下午 (1078). Names: Chen Yi, Mao Zedong, Liu Shaoqi, Zhou Enlai.'
+    tags: [polity:prc, name:chen-yi, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, ok:fields-place]
+    time_range:
+      - 1965-01-04T04:00Z
+      - 1965-01-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-05.state-constitutions-ct
     when: Jan. 5
     date: '1965-01-05'
@@ -886,6 +938,14 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 385: all'
     tags: [polity:prc, name:peng-zhen, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-01-05.china-leadership-6
+    when: Jan. 5
+    date: '1965-01-05'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 and Subandrio exchange cables of congratulation on the China–Indonesia air service, opening Jan. 6.
+    n: '[[w.chen-yi-nianpu]], 1078. Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio, ok:fields-place]
   - id: cal.1965-01-06.legislatures-ny
     when: Jan. 6
     date: '1965-01-06'
@@ -1365,20 +1425,31 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-france]
     c: 'Chen Yi, receiving the French ambassador, Paye: the U.S. course in Southeast Asia and Indochina is meant to encircle China strategically and to wreck its construction. China, from its own interest, also favors settling the Indochina and Southeast Asia questions by peaceful means.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 1–2 (Jan. 8, 1965). Made public: 2002. Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 1–2 (Jan. 8, 1965); [[w.chen-yi-nianpu]], 1078 (Jan. 8, 1965, afternoon; Paye calls on Chen Yi). Made public: 2002. Names: Chen Yi.'
     src:
       c: 23bce49c
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 1–2: all'
+        - 'w.chen-yi-nianpu 1078: ?'
     tags: [polity:prc, polity:fr, name:chen-yi, vis:only:prc+fr]
+    time_range:
+      - 1965-01-08T04:00Z
+      - 1965-01-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-08.china-leadership-4
     when: Jan. 8
     date: '1965-01-08'
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi calls the plenary meeting of the National Defense Council and speaks.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613 (Jan. 8, 1965); [[w.deng-xiaoping-nianpu-1904]], III, 1843 (Jan. 8, 1965; morning, 上午; Deng at the plenary meeting of the National Defense Council 国防委员会 Liu Shaoqi calls). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613 (Jan. 8, 1965); [[w.deng-xiaoping-nianpu-1904]], III, 1843 (Jan. 8, 1965; morning, 上午; Deng at the plenary meeting of the National Defense Council 国防委员会 Liu Shaoqi calls); [[w.chen-yi-nianpu]], 1078 (Jan. 8, 1965, morning; Chen Yi at the National Defense Council''s plenary meeting). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    time_range:
+      - 1965-01-07T22:00Z
+      - 1965-01-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-08.china-leadership-5
     when: Jan. 8
     date: '1965-01-08'
@@ -1587,6 +1658,26 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 2: all'
     tags: [polity:prc, polity:us]
+  - id: cal.1965-01-10.china-leadership
+    when: Jan. 10
+    date: '1965-01-10'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Australian trade union delegation led by James Roulston 詹姆斯·鲁尔斯顿, secretary of the Boilermakers' Society in Victoria.
+    n: '[[w.chen-yi-nianpu]], 1079. The words: 上午 (1079). Names: Chen Yi.'
+    tags: [polity:prc, polity:australia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-01-09T22:00Z
+      - 1965-01-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-10.china-leadership-2
+    when: Jan. 10
+    date: '1965-01-10'
+    thread: china-leadership
+    also: [latin-america]
+    c: Chen Yi 陈毅 receives the second group of relatives going to Brazil to visit the nine Chinese arrested and held by the Brazilian authorities, 于伶, 耿淑芳, 韩四光 and 石菊英, and the Chinese Red Cross's 王敏 and 衣成信 going with them.
+    n: '[[w.chen-yi-nianpu]], 1079. Names: Chen Yi.'
+    tags: [polity:prc, polity:brazil, name:chen-yi, ok:fields-place]
   - id: cal.1965-01-11.legislatures-tx
     when: Jan. 11
     date: '1965-01-11'
@@ -1771,6 +1862,19 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1843: all'
         - 'w.peng-zhen-nianpu-1902 IV, 387: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-01-11.china-leadership-4
+    when: Jan. 11
+    date: '1965-01-11'
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Chen Yi 陈毅 speaks at the reception of Djawoto 查禾多, Indonesia''s Ambassador, for the opening of the direct air service: Indonesia''s leaving the United Nations a righteous revolutionary act, "the first spring thunder of 1965," a sign that American imperialism''s day of manipulating the United Nations is setting.'
+    n: '[[w.chen-yi-nianpu]], 1079. The words: 晚上 (1079). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-01-11T11:00Z
+      - 1965-01-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-12.school-aid
     when: Jan. 12
     date: '1965-01-12'
@@ -1996,14 +2100,20 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou, with Liu Shaoqi, receives an Indonesian friendship delegation; congratulates on the direct China–Indonesia air route and thanks Indonesia for retrieving, ten years ago, the bodies from the sabotaged *Kashmir Princess*.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 701 (Jan. 12, 1965); [[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 12, 1965; evening, Beijing; the reception given by Kuang Rennong (邝任农), head of the Civil Aviation Administration, for the opening of the direct China–Indonesia air route and the Indonesian friendship delegation); [[w.zhonghua-renmin-gongheguo-waijiao]], 2–3 (Jan. 12, 1965; Liu named as host; his praise of Sukarno''s withdrawal and call for self-reliance). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 701 (Jan. 12, 1965); [[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 12, 1965; evening, Beijing; the reception given by Kuang Rennong (邝任农), head of the Civil Aviation Administration, for the opening of the direct China–Indonesia air route and the Indonesian friendship delegation); [[w.zhonghua-renmin-gongheguo-waijiao]], 2–3 (Jan. 12, 1965; Liu named as host; his praise of Sukarno''s withdrawal and call for self-reliance); [[w.chen-yi-nianpu]], 1079 (Jan. 12, 1965, evening; Chen Yi at the banquet of Kuang Rennong 邝任农, director of the Civil Aviation Administration, for the opening of the direct air service and Iskandar''s 伊斯坎达 delegation); [[w.chen-yi-nianpu]], 1079 (Jan. 12, 1965, afternoon; Chen Yi with Liu Shaoqi and Zhou receives the delegation, led by Iskandar 伊斯坎达, Minister of Air Communications). Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: a1f3cc5b
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 701: ?'
         - 'w.zhou-enlai-waijiao-huodong 433: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao 2–3: A'
+        - 'w.chen-yi-nianpu 1079: ?'
     tags: [name:zhou-enlai, name:liu-shaoqi, polity:prc, polity:indonesia]
+    time_range:
+      - 1965-01-12T04:00Z
+      - 1965-01-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-12.china-leadership-2
     when: Jan. 12
     date: '1965-01-12'
@@ -2204,11 +2314,12 @@ entries:
     thread: china
     also: [vietnam-hanoi]
     c: 'Chen Yi cables a reply to the DRV foreign minister, Xuân Thủy, on the South Korean troops: China firmly supports the DRV''s stand and will strive with Vietnam, to the end, to defeat U.S. aggression.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 3 (Jan. 13, 1965). Names: Chen Yi, Xuân Thủy.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 3 (Jan. 13, 1965); [[w.chen-yi-nianpu]], 1079 (Jan. 13, 1965; the reply to Xuân Thủy''s cable of Jan. 10). Names: Chen Yi, Xuân Thủy.'
     src:
       c: 8ab8a419
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 3: all'
+        - 'w.chen-yi-nianpu 1079: ?'
     tags: [polity:prc, polity:drv, name:chen-yi, name:xuan-thuy]
   - id: cal.1965-01-13.china-3
     when: Jan. 13
@@ -2216,11 +2327,12 @@ entries:
     thread: china
     also: [vietnam-hanoi, laos]
     c: Chen Yi writes to the two co-chairmen of the Geneva Conference and to the foreign ministers of its participating states, asking them to take effective measures against the U.S. widening of the war in Indochina.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 3 (Jan. 13, 1965). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 3 (Jan. 13, 1965); [[w.chen-yi-nianpu]], 1079–1080 (Jan. 13, 1965). Names: Chen Yi.'
     src:
       c: 90f135c4
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 3: all'
+        - 'w.chen-yi-nianpu 1079–1080: ?'
     tags: [polity:prc, polity:us, name:chen-yi]
   - id: cal.1965-01-13.china-leadership-2
     when: Jan. 13
@@ -2715,6 +2827,27 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 388: all'
     tags: [polity:prc, name:peng-zhen]
+  - id: cal.1965-01-15.china-leadership-8
+    when: Jan. 15
+    date: '1965-01-15'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 receives and gives a banquet for the heads of the delegations to the Vietnam–Cambodia border talks, Ambassador Trần Tử Bình 陈子平 of the DRV, Ambassador 张岗 of Cambodia and Professor Nguyễn Văn Hiếu 阮文孝 of the NLF.
+    n: '[[w.chen-yi-nianpu]], 1080. The words: 上午 (1080). Names: Chen Yi, Nguyễn Văn Hiếu.'
+    tags: [polity:prc, polity:drv, polity:cambodia, polity:nlf, name:chen-yi, ok:fields-place, name:nguyen-van-hieu]
+    time_range:
+      - 1965-01-14T22:00Z
+      - 1965-01-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-15.china-leadership-9
+    when: Jan. 15
+    date: '1965-01-15'
+    thread: china-leadership
+    also: [laos]
+    c: Prince Souphanouvong cables Chen Yi 陈毅, as he does the other Geneva powers' foreign ministers, condemning the American bombing of Laos and urging a fourteen-nation conference without preconditions.
+    n: '[[w.chen-yi-nianpu]], 1080. Names: Chen Yi, Souphanouvong.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:souphanouvong, ok:fields-place]
   - id: cal.1965-01-16.trade
     when: Jan. 16
     date: '1965-01-16'
@@ -2785,12 +2918,18 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Chen Yi receives Utsunomiya Tokuma, a Liberal Democratic member of the House of Representatives.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 4 (Jan. 17, 1965). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 4 (Jan. 17, 1965); [[w.chen-yi-nianpu]], 1080 (Jan. 17, 1965, morning; Utsunomiya and his party). Names: Chen Yi.'
     src:
       c: f5648fef
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 4: all'
+        - 'w.chen-yi-nianpu 1080: ?'
     tags: [polity:prc, polity:japan, name:chen-yi]
+    time_range:
+      - 1965-01-16T22:00Z
+      - 1965-01-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-17.china-leadership-4
     when: Jan. 17
     date: '1965-01-17'
@@ -2819,11 +2958,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, receives those at the PLA's logistics and cadres' conferences, the public security forces' political work conference, the eighteenth national students' congress and ten national conferences including the Agricultural Bank's, and those who shot down U.S. planes and the soldiers' troupe.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 388. The words: 下午 (IV, 388). Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 388; [[w.chen-yi-nianpu]], 1080 (Jan. 17, 1965, afternoon; Chen Yi with Mao, Liu Shaoqi, Zhou, Deng Xiaoping, Dong Biwu, Peng Zhen, Li Fuchun, He Long, Chen Boda, Kang Sheng, Bo Yibo, Ye Jianying and Xie Fuzhi; also the men who twice shot down American pilotless reconnaissance planes and the soldiers'' amateur troupe). The words: 下午 (IV, 388). Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping.'
     src:
       c: 8f5eb0c5
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 388: all'
+        - 'w.chen-yi-nianpu 1080: ?'
     tags: [polity:prc, name:peng-zhen, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping]
     time_range:
       - 1965-01-17T04:00Z
@@ -3308,11 +3448,12 @@ entries:
     thread: china
     also: [laos]
     c: The same day Chen Yi writes to the Geneva Conference's two co-chairmen, hoping the Soviet and British governments will take up their responsibility, stop the U.S. direct armed aggression against Laos and the widening of the Indochina war.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 4 (Jan. 20, 1965). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 4 (Jan. 20, 1965); [[w.chen-yi-nianpu]], 1080 (Jan. 20, 1965; to Gromyko and Gordon Walker, on the F-100s'' and F-105s'' bombing of Ban Ban in the liberated area). Names: Chen Yi.'
     src:
       c: 8c779c06
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 4: all'
+        - 'w.chen-yi-nianpu 1080: ?'
     tags: [polity:prc, polity:us, polity:ussr, polity:uk, name:chen-yi]
   - id: cal.1965-01-20.china-leadership-2
     when: Jan. 20
@@ -3924,12 +4065,13 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou welcomes at the airport the delegation sent by Sukarno, led by First Deputy Prime Minister and Foreign Minister Subandrio.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 23, 1965; afternoon; Beijing airport); [[w.zhonghua-renmin-gongheguo-waijiao]], 4 (Jan. 23–28, 1965; Subandrio''s visit, given as Jan. 23 to 28; Mao and Liu Shaoqi receive the delegation; Zhou''s and Chen Yi''s talks). Names: Zhou Enlai, Subandrio, Sukarno.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 23, 1965; afternoon; Beijing airport); [[w.zhonghua-renmin-gongheguo-waijiao]], 4 (Jan. 23–28, 1965; Subandrio''s visit, given as Jan. 23 to 28; Mao and Liu Shaoqi receive the delegation; Zhou''s and Chen Yi''s talks); [[w.chen-yi-nianpu]], 1081 (Jan. 23, 1965, afternoon; Chen Yi at the airport). Names: Zhou Enlai, Subandrio, Sukarno.'
     src:
       c: d71ba558
       rows:
         - 'w.zhou-enlai-waijiao-huodong 433: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 4: all'
+        - 'w.chen-yi-nianpu 1081: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio, name:sukarno]
     time_range:
       - 1965-01-23T04:00Z
@@ -3943,11 +4085,12 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou dines with Subandrio at the guesthouse.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 23, 1965; evening; Beijing guesthouse (宾馆)). Names: Zhou Enlai, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 23, 1965; evening; Beijing guesthouse (宾馆)); [[w.chen-yi-nianpu]], 1081 (Jan. 23, 1965; Chen Yi with Zhou takes the guests to the guesthouse, talks with them there and dines with them). Names: Zhou Enlai, Subandrio.'
     src:
       c: b5d5a913
       rows:
         - 'w.zhou-enlai-waijiao-huodong 433: all'
+        - 'w.chen-yi-nianpu 1081: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio]
     time_range:
       - 1965-01-23T11:00Z
@@ -4099,7 +4242,7 @@ entries:
     thread: china-leadership
     also: [indonesia, china]
     c: 'Zhou has three talks with Subandrio, Jan. 24 to 27. Jan. 24, on the U.N.''s mistake and its state: China is not interested; it will not enter while Chiang''s gang stays; the U.N. must correct its mistake, cancel the resolution branding China an aggressor and pass one naming the U.S. the aggressor. Jan. 25: the U.S. looks strong but is a paper tiger, strategically, though each fight and each tactic needs weight; China''s calm rests on the militia organized by the millions, the people kept alert; self-reliance is no adventure but the surest way to a strong state, and does not exclude cooperation on equality and mutual benefit.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 704 (Jan. 24–27, 1965); [[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 24, 1965; 10:45 a.m., Beijing Hall, Great Hall of the People; Zhou meets Subandrio and the delegation''s members and holds talks); [[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 25, 1965; 10:15 a.m., Fujian Hall, Great Hall of the People; the second talks with Subandrio); [[w.jian-zhou-enlai]], 499 (January 1965: Zhou to Subandrio: wider political, economic, technical and military cooperation). Made public: 1993. The time is the first day''s. To check: Zhou''s series of meetings with Subandrio, January 1965 (cited by [[w.jian-zhou-enlai]], 499 n.29). Names: Zhou Enlai, Subandrio.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 704 (Jan. 24–27, 1965); [[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 24, 1965; 10:45 a.m., Beijing Hall, Great Hall of the People; Zhou meets Subandrio and the delegation''s members and holds talks); [[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 25, 1965; 10:15 a.m., Fujian Hall, Great Hall of the People; the second talks with Subandrio); [[w.jian-zhou-enlai]], 499 (January 1965: Zhou to Subandrio: wider political, economic, technical and military cooperation); [[w.chen-yi-nianpu]], 1081–1082 (Jan. 24, 1965, morning, Chen Yi with Zhou meets Subandrio and his delegation and holds talks with him; Jan. 25 and 27, further talks with Zhou). Made public: 1993. The time is the first day''s. To check: Zhou''s series of meetings with Subandrio, January 1965 (cited by [[w.jian-zhou-enlai]], 499 n.29). Names: Zhou Enlai, Subandrio.'
     src:
       c: 3a006e89
       rows:
@@ -4108,6 +4251,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 434: A, E-G'
         - 'w.jian-zhou-enlai 499: ?'
         - 'via x.1965-01.zhou-series-meetings-subandrio: ?'
+        - 'w.chen-yi-nianpu 1081–1082: ?'
     tags: [name:zhou-enlai, name:subandrio, polity:prc, polity:indonesia, vis:only:prc+indonesia]
     time_zone: Asia/Shanghai
   - id: cal.1965-01-24.china-leadership-2
@@ -4117,23 +4261,30 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou gives a banquet in the Great Hall of the People for Subandrio's delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 433–34 (Jan. 24, 1965; Beijing; the time not given). Names: Zhou Enlai, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 433–34 (Jan. 24, 1965; Beijing; the time not given); [[w.chen-yi-nianpu]], 1081 (Jan. 24, 1965, evening, the banquet hall of the Great Hall of the People; Chen Yi and Zhou give the banquet). Names: Zhou Enlai, Subandrio.'
     src:
       c: 45a51b06
       rows:
         - 'w.zhou-enlai-waijiao-huodong 433–34: all'
+        - 'w.chen-yi-nianpu 1081: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio]
+    time_range:
+      - 1965-01-24T11:00Z
+      - 1965-01-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-24.china
     when: Jan. 24
     date: '1965-01-24'
     thread: china
     also: [laos]
     c: Chen Yi cables Prince Souphanouvong, deputy prime minister of the Lao coalition government, in answer to his telegram of Jan. 16 on the U.S. widening of its direct military aggression in Laos. China, as a signatory of the Geneva agreements and a close neighbor of Laos, has always watched Laos closely, and has always favored reconvening the conference of the 14 signatories of the 1962 Geneva agreements to settle the Laos question peacefully.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 5 (Jan. 24, 1965). Names: Chen Yi, Souphanouvong.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 5 (Jan. 24, 1965); [[w.chen-yi-nianpu]], 1081 (Jan. 24, 1965; the reply to Souphanouvong''s urgent cable of the 16th). Names: Chen Yi, Souphanouvong.'
     src:
       c: be76e24a
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 5: all'
+        - 'w.chen-yi-nianpu 1081: ?'
     tags: [polity:prc, polity:pathet-lao, name:chen-yi, name:souphanouvong]
   - id: cal.1965-01-24.china-leadership-3
     when: Jan. 24
@@ -4420,6 +4571,19 @@ entries:
       - 1965-01-25T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-01-25.china-leadership-8
+    when: Jan. 25
+    date: '1965-01-25'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 accompanies Subandrio and the Indonesian delegation to the welcoming evening of the Ministry of Culture and the China–Indonesia Friendship Association, the Central Opera and Ballet's *The Red Detachment of Women* 《红色娘子军》.
+    n: '[[w.chen-yi-nianpu]], 1081. The words: 晚上 (1081). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio, ok:fields-place]
+    time_range:
+      - 1965-01-25T11:00Z
+      - 1965-01-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-26.foreign-aid
     when: Jan. 26
     date: '1965-01-26'
@@ -4655,13 +4819,19 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou attends the Peking rally of all circles welcoming the delegation sent by Sukarno, led by Subandrio.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 26, 1965; Beijing; the time not given); [[w.peng-zhen-nianpu-1902]], IV, 394 (Jan. 26, 1965; Peng Zhen, with Zhou Enlai and others, welcomes at the capital''s meeting of more than 10,000 the delegation sent by President Sukarno under Subandrio, First Deputy Prime Minister and Foreign Minister: Sukarno''s withdrawal from the United Nations, against its manipulation by U.S. imperialism, unsettles the imperialists and is cheered by the Indonesian and the world''s revolutionary peoples). Names: Zhou Enlai, Subandrio, Sukarno.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 26, 1965; Beijing; the time not given); [[w.peng-zhen-nianpu-1902]], IV, 394 (Jan. 26, 1965; Peng Zhen, with Zhou Enlai and others, welcomes at the capital''s meeting of more than 10,000 the delegation sent by President Sukarno under Subandrio, First Deputy Prime Minister and Foreign Minister: Sukarno''s withdrawal from the United Nations, against its manipulation by U.S. imperialism, unsettles the imperialists and is cheered by the Indonesian and the world''s revolutionary peoples); [[w.chen-yi-nianpu]], 1081–1082 (Jan. 26, 1965, afternoon, the Great Hall of the People; Chen Yi speaks: Indonesia''s leaving the United Nations defends its own and all revolutionary peoples'' interests; the United Nations now an organization dividing the world, held by the United States and a few great powers, which shut out China; a country''s isolation is not whether it belongs to the United Nations; if the United States forces war on Indonesia China will not stand by). Names: Zhou Enlai, Subandrio, Sukarno.'
     src:
       c: e2ded5ae
       rows:
         - 'w.zhou-enlai-waijiao-huodong 434: all'
         - 'w.peng-zhen-nianpu-1902 IV, 394: ?'
+        - 'w.chen-yi-nianpu 1081–1082: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio, name:sukarno]
+    time_range:
+      - 1965-01-26T04:00Z
+      - 1965-01-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-26.china-leadership-4
     when: Jan. 26
     date: '1965-01-26'
@@ -5034,12 +5204,13 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou, in the Hunan Hall of the Great Hall of the People, accompanies Mao Zedong and Liu Shaoqi in receiving Subandrio and his delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 27, 1965; 5:50 p.m., Hunan Hall, Great Hall of the People); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Jan. 27, 1965; Liu, with Mao and Zhou Enlai, receives Subandrio, First Deputy Prime Minister and Foreign Minister of Indonesia, and the Indonesian delegation). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 27, 1965; 5:50 p.m., Hunan Hall, Great Hall of the People); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Jan. 27, 1965; Liu, with Mao and Zhou Enlai, receives Subandrio, First Deputy Prime Minister and Foreign Minister of Indonesia, and the Indonesian delegation); [[w.chen-yi-nianpu]], 1082 (Jan. 27, 1965, afternoon; Chen Yi present). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Subandrio.'
     src:
       c: 86830cd8
       rows:
         - 'w.zhou-enlai-waijiao-huodong 434: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 614: ?'
+        - 'w.chen-yi-nianpu 1082: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:subandrio]
     time_zone: Asia/Shanghai
   - id: cal.1965-01-27.china-leadership-4
@@ -5049,12 +5220,13 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou attends the farewell banquet given by Subandrio.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 27, 1965; evening; Beijing); [[w.peng-zhen-nianpu-1902]], IV, 394 (Jan. 27, 1965, evening; the Great Hall of the People; Peng Zhen, with Zhou Enlai and others, at Subandrio''s farewell banquet). Names: Zhou Enlai, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 27, 1965; evening; Beijing); [[w.peng-zhen-nianpu-1902]], IV, 394 (Jan. 27, 1965, evening; the Great Hall of the People; Peng Zhen, with Zhou Enlai and others, at Subandrio''s farewell banquet); [[w.chen-yi-nianpu]], 1082 (Jan. 27, 1965, evening, the banquet hall of the Great Hall of the People; Chen Yi speaks: the talks'' great results, a joint statement to come; the truly strong are the awakened peoples; Indonesia''s confrontation of "Malaysia" and leaving the United Nations a new stage of the anti-imperialist struggle). Names: Zhou Enlai, Subandrio.'
     src:
       c: f48eecbd
       rows:
         - 'w.zhou-enlai-waijiao-huodong 434: all'
         - 'w.peng-zhen-nianpu-1902 IV, 394: ?'
+        - 'w.chen-yi-nianpu 1082: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio]
     time_range:
       - 1965-01-27T11:00Z
@@ -5107,6 +5279,13 @@ entries:
       - 1965-01-27T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-01-27.china-leadership-8
+    when: Jan. 27
+    date: '1965-01-27'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and U Thi Han 吴蒂汉, Burma's Foreign Minister, exchange cables on the fifth anniversary of the treaty of friendship.
+    n: '[[w.chen-yi-nianpu]], 1082. Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, ok:fields-place]
   - id: cal.1965-01-28.economy
     when: Jan. 28
     date: '1965-01-28'
@@ -5313,13 +5492,14 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou attends the signing of the China–Indonesia joint statement and of the two governments' economic and technical cooperation agreement and loan agreement.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 28, 1965; morning; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 5 (Jan. 28, 1965; the joint statement and the economic and technical cooperation and loan agreements; talks on economics, trade, transport and military matters, exchange visits); [[w.zhonghua-renmin-gongheguo-waijiao]], 4–5 (Jan. 28, 1965; the joint statement, issued the 28th: support for Sukarno''s withdrawal from the U.N.; Vietnam, Laos, Cambodia; the agreements and the exchange of delegations). Names: Zhou Enlai, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 28, 1965; morning; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 5 (Jan. 28, 1965; the joint statement and the economic and technical cooperation and loan agreements; talks on economics, trade, transport and military matters, exchange visits); [[w.zhonghua-renmin-gongheguo-waijiao]], 4–5 (Jan. 28, 1965; the joint statement, issued the 28th: support for Sukarno''s withdrawal from the U.N.; Vietnam, Laos, Cambodia; the agreements and the exchange of delegations); [[w.chen-yi-nianpu]], 1082 (Jan. 28, 1965, morning; Chen Yi and Subandrio sign for their governments the joint statement and the two agreements). Names: Zhou Enlai, Subandrio.'
     src:
       c: e040c158
       rows:
         - 'w.zhou-enlai-waijiao-huodong 434: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 5: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 4–5: all'
+        - 'w.chen-yi-nianpu 1082: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio]
     time_range:
       - 1965-01-27T22:00Z
@@ -5333,12 +5513,18 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou goes to the airport to see off Subandrio.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 28, 1965; Beijing airport; the time not given). Names: Zhou Enlai, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 28, 1965; Beijing airport; the time not given); [[w.chen-yi-nianpu]], 1082 (Jan. 28, 1965, morning; Chen Yi at the airport). Names: Zhou Enlai, Subandrio.'
     src:
       c: 9548d4e8
       rows:
         - 'w.zhou-enlai-waijiao-huodong 434: all'
+        - 'w.chen-yi-nianpu 1082: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio]
+    time_range:
+      - 1965-01-27T22:00Z
+      - 1965-01-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-28.china-2
     when: Jan. 28
     date: '1965-01-28'
@@ -5387,6 +5573,18 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 505: all'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-01-28T11:00Z
+      - 1965-01-28T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-28.china-leadership-7
+    when: Jan. 28
+    date: '1965-01-28'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the Foreign Ministry's reception for the fifth anniversary of the China–Burma treaty of friendship.
+    n: '[[w.chen-yi-nianpu]], 1082. The words: 晚上 (1082). Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, ok:fields-place]
     time_range:
       - 1965-01-28T11:00Z
       - 1965-01-28T14:00Z
@@ -5666,11 +5864,12 @@ entries:
     thread: china
     also: [vietnam-hanoi, laos]
     c: 'Chen Yi replies by letter to Xuân Thủy''s letter of Jan. 22 to the Geneva co-chairmen and participants, against the U.S. bombing of Laos and its plan to widen the war in Indochina: China fully supports the Vietnamese stand and its just claims, and stands with the peoples of Vietnam, Laos and Cambodia.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 6 (Jan. 30, 1965). Names: Chen Yi, Xuân Thủy.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 6 (Jan. 30, 1965); [[w.chen-yi-nianpu]], 1082 (Jan. 30, 1965). Names: Chen Yi, Xuân Thủy.'
     src:
       c: 73c50b31
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 6: all'
+        - 'w.chen-yi-nianpu 1082: ?'
     tags: [polity:prc, polity:drv, name:chen-yi, name:xuan-thuy]
   - id: cal.1965-01-30.china-leadership-2
     when: Jan. 30
@@ -6843,3 +7042,18 @@ entries:
         - 'via x.1964-12-13.documents-soviet-attendance-afro-asian-islamic-conference: ?'
         - 'via x.1964-10-13.scscaa-presidium-session-october-13-1964: ?'
     tags: [polity:indonesia, polity:ussr]
+  - id: cal.1965.china-leadership-24
+    when: 1965, spring
+    date: '1965'
+    at: before 1965-03-20
+    thread: china-leadership
+    c: Chen Yi 陈毅 sends Mao Zedong 毛泽东 his cycle "Journey to six countries" 《六国之行》.
+    n: '[[w.chen-yi-nianpu]], 1072. Names: Chen Yi, Mao Zedong.'
+    tags: [polity:prc, name:chen-yi, name:mao-zedong, ok:fields-place]
+  - id: cal.1965-01.china-leadership-12
+    when: Jan.
+    date: 1965-01
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 writes an inscription for the fifth anniversary of the monthly *Weiqi* 《围棋》: go players must join mental and physical labor to raise their art and serve the country.'
+    n: '[[w.chen-yi-nianpu]], 1082–1083. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]

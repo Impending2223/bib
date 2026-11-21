@@ -1,6 +1,27 @@
 patch: 2026-11-21-b15b-khoo-1
 by: Claude (batch 15b, Khoo, Collateral Damage, run 1), Nov. 20–21, 2026
 ops:
+- edit:
+    id: cal.1969-10-18.china-leadership
+    base: ec2d477c
+    set:
+      time: 1969-10-18T09:00Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1968-09.vietnam
+    base: 3c9e1cbc
+    set:
+      date: '1968-09-02'
+      when: Sept. 2
+- edit:
+    id: cal.1969-03-22.china-leadership
+    base: 11d6d053
+    set:
+      time_range:
+      - 1969-03-21T16:00Z
+      - 1969-03-21T22:00Z
+      time_band: predawn
+      time_zone: Asia/Shanghai
 - cite:
     id: cal.1963-09.china-leadership
     item: '[[w.khoo-collateral-damage]], 16 (a string of nine polemics, Sept. 6, 1963, to July 14, 1964)'
@@ -1081,6 +1102,1012 @@ ops:
       - polity:prc
       - vis:only:prc
       - name:zhou-enlai
+- cite:
+    id: cal.1968-09-01.china-leadership
+    item: '[[w.khoo-collateral-damage]], 45, 51–52 (Mao, early September, for the DRV''s anniversary: "Your struggle is our struggle"; seven hundred million Chinese behind the Vietnamese, China their "dependable rear-area"; in his message of Sept. 2 the Soviet revisionists, long the Americans'' accomplices, seek to make the Vietnamese give up the struggle)'
+- to-check:
+    id: cal.1968-09-01.china-leadership
+    add:
+    - '[[w.yanjiusuo-xiandai-zhong-yue-guanxishi]], IV, 933–934 (cited by [[w.khoo-collateral-damage]], 45 n.1)'
+    - '[[w.zedong-jianguo-yilai-mao-zedong]], XII, 549 (cited by [[w.khoo-collateral-damage]], 51 n.45)'
+    - '[[w.zedong-jianguo-yilai-mao-zedong]], XII, 549 (cited by [[w.khoo-collateral-damage]], 52 n.46)'
+- cite:
+    id: cal.1968-01-05.soviet-union-czechoslovakia
+    item: '[[w.khoo-collateral-damage]], 46 (the Central Committee meeting of Jan. 3–5: Dubček first secretary, Novotný kept as president)'
+- to-check:
+    id: cal.1968-01-05.soviet-union-czechoslovakia
+    add:
+    - '[[w.ouimet-rise-and-fall-of]], 20 (cited by [[w.khoo-collateral-damage]], 46 n.9)'
+- cite:
+    id: cal.1968-03-22.soviet-union
+    item: '[[w.khoo-collateral-damage]], 46 (Novotný''s resignation, dated Mar. 21)'
+- to-check:
+    id: cal.1968-03-22.soviet-union
+    add:
+    - '[[w.ouimet-rise-and-fall-of]], 20 (cited by [[w.khoo-collateral-damage]], 46 n.9)'
+- cite:
+    id: cal.1968-04-05.soviet-union-czechoslovakia
+    item: '[[w.khoo-collateral-damage]], 46 (the liberal "program of action" of April, which alarmed Moscow)'
+- to-check:
+    id: cal.1968-04-05.soviet-union-czechoslovakia
+    add:
+    - '[[w.ouimet-rise-and-fall-of]], 20 (cited by [[w.khoo-collateral-damage]], 46 n.9)'
+- cite:
+    id: cal.1968-05-06.soviet-union-leadership-2
+    item: '[[w.khoo-collateral-damage]], 46–47 (Brezhnev, May 6: the action program "opening possibilities for the restoration of capitalism")'
+- to-check:
+    id: cal.1968-05-06.soviet-union-leadership-2
+    add:
+    - '[[w.ouimet-rise-and-fall-of]], 20 (cited by [[w.khoo-collateral-damage]], 47 n.10)'
+- cite:
+    id: cal.1968-03-22.soviet-union-leadership
+    item: '[[w.khoo-collateral-damage]], 47 (the Warsaw Pact leaders'' meeting at Dresden, March)'
+- to-check:
+    id: cal.1968-03-22.soviet-union-leadership
+    add:
+    - '[[w.kramer-czechoslovak-crisis-and-the]], 145 (cited by [[w.khoo-collateral-damage]], 47 n.11)'
+- cite:
+    id: cal.1968-05-08.soviet-union-leadership-2
+    item: '[[w.khoo-collateral-damage]], 47 (the meeting at Moscow, May)'
+- to-check:
+    id: cal.1968-05-08.soviet-union-leadership-2
+    add:
+    - '[[w.kramer-czechoslovak-crisis-and-the]], 145 (cited by [[w.khoo-collateral-damage]], 47 n.11)'
+- cite:
+    id: cal.1968-07-15.soviet-union
+    item: '[[w.khoo-collateral-damage]], 47 (the Warsaw meeting of July 14–15, a turning point; the "Warsaw Letter," at Brezhnev''s suggestion)'
+- to-check:
+    id: cal.1968-07-15.soviet-union
+    add:
+    - '[[w.kramer-czechoslovak-crisis-and-the]], 145 (cited by [[w.khoo-collateral-damage]], 47 n.11)'
+    - '[[w.kramer-czechoslovak-crisis-and-the]], 147 (cited by [[w.khoo-collateral-damage]], 47 n.12)'
+- cite:
+    id: cal.1968-07-19.soviet-union-leadership
+    item: '[[w.khoo-collateral-damage]], 47 (the Politburo, at meetings of July 19, 22 and 26–27 (printed "26–26"), decides tentatively on invasion in mid- to late August unless events turn)'
+- to-check:
+    id: cal.1968-07-19.soviet-union-leadership
+    add:
+    - '[[w.kramer-czechoslovak-crisis-and-the]], 151 (cited by [[w.khoo-collateral-damage]], 47 n.13)'
+- cite:
+    id: cal.1968-07-27.soviet-union-leadership
+    item: '[[w.khoo-collateral-damage]], 47 (the last of the Politburo''s July meetings on invasion (printed "26–26"))'
+- to-check:
+    id: cal.1968-07-27.soviet-union-leadership
+    add:
+    - '[[w.kramer-czechoslovak-crisis-and-the]], 151 (cited by [[w.khoo-collateral-damage]], 47 n.13)'
+- cite:
+    id: cal.1968-07-29.soviet-union-czechoslovakia
+    item: '[[w.khoo-collateral-damage]], 47 (no convincing reassurance from the Czechoslovaks at Čierna nad Tisou, end of July)'
+- to-check:
+    id: cal.1968-07-29.soviet-union-czechoslovakia
+    add:
+    - '[[w.kramer-czechoslovak-crisis-and-the]], 148–150 (cited by [[w.khoo-collateral-damage]], 47 n.14)'
+- cite:
+    id: cal.1968-08-03.soviet-union-czechoslovakia
+    item: '[[w.khoo-collateral-damage]], 47 (nor at Bratislava, Aug. 3)'
+- to-check:
+    id: cal.1968-08-03.soviet-union-czechoslovakia
+    add:
+    - '[[w.kramer-czechoslovak-crisis-and-the]], 148–150 (cited by [[w.khoo-collateral-damage]], 47 n.14)'
+- cite:
+    id: cal.1968-08-13.soviet-union-leadership-2
+    item: '[[w.khoo-collateral-damage]], 47 (Brezhnev and Dubček by telephone, Aug. 13: Dubček admits the Aug. 3 stipulations unlikely to be kept)'
+- to-check:
+    id: cal.1968-08-13.soviet-union-leadership-2
+    add:
+    - '[[w.ouimet-rise-and-fall-of]], 31–32 (cited by [[w.khoo-collateral-damage]], 47 n.15)'
+- cite:
+    id: cal.1968-08-20.soviet-union
+    item: '[[w.khoo-collateral-damage]], 47 (Operation Danube, from midnight Aug. 20–21)'
+- to-check:
+    id: cal.1968-08-20.soviet-union
+    add:
+    - '[[w.kramer-czechoslovak-crisis-and-the]], 155–156 (cited by [[w.khoo-collateral-damage]], 47 n.17)'
+- cite:
+    id: cal.1968-11-12.soviet-union
+    item: '[[w.khoo-collateral-damage]], 47 (Brezhnev at the Polish party''s fifth congress, Nov. 12: the rationale known in the West as the Brezhnev Doctrine)'
+- to-check:
+    id: cal.1968-11-12.soviet-union
+    add:
+    - '[[w.ouimet-rise-and-fall-of]], 67 (cited by [[w.khoo-collateral-damage]], 47 n.18)'
+    - '[[w.kramer-czechoslovak-crisis-and-the]], 167–170 (cited by [[w.khoo-collateral-damage]], 47 n.19b)'
+- cite:
+    id: cal.1968-08-23.china-leadership
+    item: '[[w.khoo-collateral-damage]], 48 (the *Renmin ribao* of Aug. 23 calls the Soviet Union "social-imperialist")'
+- to-check:
+    id: cal.1968-08-23.china-leadership
+    add:
+    - '[[w.lawson-sino-vietnamese-conflict]], 169 (cited by [[w.khoo-collateral-damage]], 48 n.20)'
+    - '"Total Bankruptcy of Soviet Modern Revisionism," Foreign Broadcast Information Service (China), Aug. 23, 1968, A5–8 (cited by [[w.khoo-collateral-damage]], 48 n.21)'
+- src:
+    id: cal.1968-08-23.china-leadership
+    rows:
+    - 'via x.1968-08-23.fbis-china-total-bankruptcy-of-soviet-modern-revisionism: ?'
+- cite:
+    id: cal.1968-08-23.china-leadership-2
+    item: '[[w.khoo-collateral-damage]], 48 (Zhou at the Romanian national day: the Soviet leaders "degenerated into social-imperialism and social-fascism"; no illusions about U.S. imperialism and Soviet revisionism)'
+- to-check:
+    id: cal.1968-08-23.china-leadership-2
+    add:
+    - '[[w.zhou-enlai-waijiao-huodong]], 528–529 (cited by [[w.khoo-collateral-damage]], 48 n.23a)'
+    - '[[w.zhou-enlai-nianpu-1949]], III, 252–253 (cited by [[w.khoo-collateral-damage]], 48 n.23b)'
+    - '[[w.wich-sino-soviet-crisis-politics]], 56 (cited by [[w.khoo-collateral-damage]], 48 n.23c)'
+    - '"Chinese Government and People Strongly Condemn Soviet Revisionist Clique''s Armed Occupation of Czechoslovakia," Peking Review Supp. to no. 34, Aug. 23, 1968, 3–4; FBIS (China), Aug. 26, 1968, A1–3 (cited by [[w.khoo-collateral-damage]], 48 n.24a)'
+    - Foreign Broadcast Information Service (China), Aug. 26, 1968, A1–3 (the Chinese government's and people's condemnation of the occupation of Czechoslovakia) (cited by [[w.khoo-collateral-damage]], 48 n.24b)
+    - '"Chinese Government and People Strongly Condemn Soviet Revisionist Clique''s Armed Occupation of Czechoslovakia," Peking Review Supp. to no. 34, Aug. 23, 1968, 3–4; FBIS (China), Aug. 26, 1968, A1–3 (cited by [[w.khoo-collateral-damage]], 48 n.25)'
+    - '[[w.wich-sino-soviet-crisis-politics]], 61 (cited by [[w.khoo-collateral-damage]], 48 n.26)'
+- src:
+    id: cal.1968-08-23.china-leadership-2
+    rows:
+    - 'via x.1968-08-23.prc-government-condemns-soviet-occupation-of-czechoslovakia: ?'
+    - 'via x.1968-08-26.fbis-china-aug-26-1968-a1-3: ?'
+    - 'via x.1968-08-23.prc-government-condemns-soviet-occupation-of-czechoslovakia: ?'
+- cite:
+    id: cal.1968-09-16.china
+    item: '[[w.khoo-collateral-damage]], 48 (reported in the *Renmin ribao* of Sept. 17: the violations after the invasion of Czechoslovakia "absolutely not coincidental")'
+- to-check:
+    id: cal.1968-09-16.china
+    add:
+    - '[[w.fravel-strong-borders-secure-nation]], 208 (cited by [[w.khoo-collateral-damage]], 48 n.28)'
+    - '[[w.fravel-strong-borders-secure-nation]], 208 (cited by [[w.khoo-collateral-damage]], 48 n.29)'
+- cite:
+    id: cal.1968-09.vietnam
+    item: '[[w.khoo-collateral-damage]], 49–50, 52 (Phạm Văn Đồng on Sept. 2: the Soviet Union and four other socialist countries obliged to defend socialism in Czechoslovakia, by force; he calls it defending the socialist camp)'
+- to-check:
+    id: cal.1968-09.vietnam
+    add:
+    - Phạm Văn Đồng's speech on the DRV's twenty-third anniversary, Sept. 2, 1968, in Foreign Broadcast Information Service (Asia-Pacific), Sept. 3, 1968, K1–13 (cited by [[w.khoo-collateral-damage]], 50 n.38)
+- src:
+    id: cal.1968-09.vietnam
+    rows:
+    - 'via x.1968-09-02.pham-van-dong-speech-drv-23rd-anniversary: ?'
+- cite:
+    id: cal.1968-09-02.china-leadership-2
+    item: '[[w.khoo-collateral-damage]], 52 (Zhou at the Vietnamese national day reception, Sept. 2: Soviet "fascist aggression"; "sham support but real betrayal"; "high time" all with illusions about Soviet revisionism and U.S. imperialism woke up)'
+- to-check:
+    id: cal.1968-09-02.china-leadership-2
+    add:
+    - '"Premier Chou En-lai Makes Important Speech," Peking Review 36 (Sept. 6, 1968), 6–7 (Zhou at the DRV national day reception in Peking, Sept. 2, 1968) (cited by [[w.khoo-collateral-damage]], 52 n.48a)'
+    - '[[w.wich-sino-soviet-crisis-politics]], 58–73 (cited by [[w.khoo-collateral-damage]], 52 n.48b)'
+    - '"Premier Chou En-lai Makes Important Speech," Peking Review 36 (Sept. 6, 1968), 6–7 (Zhou at the DRV national day reception in Peking, Sept. 2, 1968) (cited by [[w.khoo-collateral-damage]], 52 n.49)'
+    - '"Premier Chou En-lai Makes Important Speech," Peking Review 36 (Sept. 6, 1968), 6–7 (Zhou at the DRV national day reception in Peking, Sept. 2, 1968) (cited by [[w.khoo-collateral-damage]], 52 n.50)'
+- src:
+    id: cal.1968-09-02.china-leadership-2
+    rows:
+    - 'via x.1968-09-02.zhou-enlai-speech-drv-national-day-peking: ?'
+    - 'via x.1968-09-02.zhou-enlai-speech-drv-national-day-peking: ?'
+    - 'via x.1968-09-02.zhou-enlai-speech-drv-national-day-peking: ?'
+- cite:
+    id: cal.1968-10-01.china-leadership
+    item: '[[w.khoo-collateral-damage]], 52 (Hanoi''s delegation ranked behind the Australian Communist Party''s)'
+- to-check:
+    id: cal.1968-10-01.china-leadership
+    add:
+    - '[[w.taylor-china-and-southeast-asia]], 61 (cited by [[w.khoo-collateral-damage]], 52 n.51)'
+- cite:
+    id: cal.1968-04.vietnam-hanoi
+    item: '[[w.khoo-collateral-damage]], 51 (the Politburo''s discussions of Apr. 2–6, of which the KGB informed the Soviet leaders)'
+- to-check:
+    id: cal.1968-04.vietnam-hanoi
+    add:
+    - '[[w.gaiduk-soviet-union-and-the]], 149 (cited by [[w.khoo-collateral-damage]], 51 n.44)'
+- cite:
+    id: cal.1968-04-13.china-leadership-3
+    item: '[[w.khoo-collateral-damage]], 53 (Zhou and Phạm Văn Đồng in meetings of Apr. 13–19, 1968; the Chinese against the talks)'
+- to-check:
+    id: cal.1968-04-13.china-leadership-3
+    add:
+    - '[[w.77-conversations-between-chinese]], 123–129 (cited by [[w.khoo-collateral-damage]], 53 n.56)'
+    - '[[w.77-conversations-between-chinese]], 123–140 (cited by [[w.khoo-collateral-damage]], 53 n.58)'
+- cite:
+    id: cal.1968-05-07.china-leadership
+    item: '[[w.khoo-collateral-damage]], 53 (Zhou, with Chen Yi, and Xuân Thủy, May 7, 1968)'
+- to-check:
+    id: cal.1968-05-07.china-leadership
+    add:
+    - '[[w.77-conversations-between-chinese]], 134–135 (cited by [[w.khoo-collateral-damage]], 53 n.57)'
+    - '[[w.77-conversations-between-chinese]], 123–140 (cited by [[w.khoo-collateral-damage]], 53 n.58)'
+- cite:
+    id: cal.1968-06-29.china-leadership-2
+    item: '[[w.khoo-collateral-damage]], 53 (the Chinese against Hanoi''s course in the talks)'
+- to-check:
+    id: cal.1968-06-29.china-leadership-2
+    add:
+    - '[[w.77-conversations-between-chinese]], 137–138 (cited by [[w.khoo-collateral-damage]], 53 n.55)'
+    - '[[w.77-conversations-between-chinese]], 123–140 (cited by [[w.khoo-collateral-damage]], 53 n.58)'
+- cite:
+    id: cal.1968-10-09.china-leadership-3
+    item: '[[w.khoo-collateral-damage]], 53 (by Hanoi''s account of 1979, a Chinese leader tells the Vietnamese deputy minister of foreign trade, Oct. 9: if Vietnam compromises with the United States, Chinese aid becomes meaningless)'
+- to-check:
+    id: cal.1968-10-09.china-leadership-3
+    add:
+    - '[[w.truth-about-vietnamo-chinese]], 42 (cited by [[w.khoo-collateral-damage]], 53 n.59)'
+- cite:
+    id: cal.1968-10-17.china
+    item: '[[w.khoo-collateral-damage]], 53–54 (Chen Yi: Hanoi has accepted the "compromising and capitulationist proposals" of the Soviet revisionists; nothing more to talk about; the Geneva accords of 1954 a mistake; Thọ: "because we listened to your advice"; that day Peking reportedly threatens to break relations unless Hanoi breaks with Moscow and halts the talks)'
+- to-check:
+    id: cal.1968-10-17.china
+    add:
+    - '[[w.77-conversations-between-chinese]], 138–140 (cited by [[w.khoo-collateral-damage]], 53 n.60)'
+    - '[[w.77-conversations-between-chinese]], 139–140 (cited by [[w.khoo-collateral-damage]], 54 n.61)'
+    - '[[w.guan-vietnam-war-from-the]], 139 (cited by [[w.khoo-collateral-damage]], 54 n.62)'
+- cite:
+    id: cal.1968-10-19.china
+    item: '[[w.khoo-collateral-damage]], 54 (the Chinese press''s first public mention of the Paris talks)'
+- to-check:
+    id: cal.1968-10-19.china
+    add:
+    - '[[w.guan-ending-the-vietnam-war]], 27 (cited by [[w.khoo-collateral-damage]], 54 n.63)'
+- cite:
+    id: cal.1968-11-17.china-leadership
+    item: '[[w.khoo-collateral-damage]], 54–55 (Mao, in Peking: support for Hanoi''s talks with Washington, a concession to what China could not prevent)'
+- to-check:
+    id: cal.1968-11-17.china-leadership
+    add:
+    - '[[w.mao-zedong-waijiao-wenxuan]], 580–583 (cited by [[w.khoo-collateral-damage]], 54 n.64a)'
+    - '[[w.77-conversations-between-chinese]], 147 (cited by [[w.khoo-collateral-damage]], 54 n.64b)'
+    - '[[w.sagar-major-political-events-in]], 89 (cited by [[w.khoo-collateral-damage]], 55 n.67)'
+    - '[[w.mao-zedong-waijiao-wenxuan]], 580–583 (cited by [[w.khoo-collateral-damage]], 55 n.68)'
+- cite:
+    id: cal.1968-11-25.vietnam
+    item: '[[w.khoo-collateral-damage]], 60 (agreements of late November for 1969: foodstuffs, petroleum, transport, plant, metals, fertilizer, arms and ammunition)'
+- to-check:
+    id: cal.1968-11-25.vietnam
+    add:
+    - '[[w.agency-ussr-vietnam]], 11–12 (cited by [[w.khoo-collateral-damage]], 60 n.126)'
+    - '[[w.agency-ussr-vietnam]], 11–12 (cited by [[w.khoo-collateral-damage]], 60 n.127)'
+- cite:
+    id: cal.1968-12-28.china-leadership-3
+    item: '[[w.khoo-collateral-damage]], 56 (in the winter of 1968–69 Mao sets going preparations for an ambush on the Zhenbao Islands)'
+- to-check:
+    id: cal.1968-12-28.china-leadership-3
+    add:
+    - '[[w.lewis-imagined-enemies]], 49 (cited by [[w.khoo-collateral-damage]], 56 n.77)'
+    - Lyle Goldstein's interviews with Jiang Yi, Li Danhui and Yang Kuisong (cited in Goldstein, "Do Nascent WMD Arsenals Deter?," Political Science Quarterly 118.1 (2003), 58–59) (cited by [[w.khoo-collateral-damage]], 56 n.78a)
+    - '[[w.goldstein-do-nascent-wmd-arsenals]], 58–59 (cited by [[w.khoo-collateral-damage]], 56 n.78b)'
+    - '[[w.goldstein-return-to-zhenbao-island]], 985–997 (cited by [[w.khoo-collateral-damage]], 56 n.78c)'
+    - '[[w.robinson-china-confronts-the-soviet]] (cited by [[w.khoo-collateral-damage]], 56 n.78d)'
+- src:
+    id: cal.1968-12-28.china-leadership-3
+    rows:
+    - 'via x.undated.goldstein-interviews-jiang-yi-li-danhui-yang-kuisong: ?'
+- cite:
+    id: cal.1969-03-02.china-leadership-5
+    item: '[[w.khoo-collateral-damage]], 56 (the preventive strike of Mar. 2, 1969)'
+- to-check:
+    id: cal.1969-03-02.china-leadership-5
+    add:
+    - Lyle Goldstein's interviews with Jiang Yi, Li Danhui and Yang Kuisong (cited in Goldstein, "Do Nascent WMD Arsenals Deter?," Political Science Quarterly 118.1 (2003), 58–59) (cited by [[w.khoo-collateral-damage]], 56 n.78a)
+    - '[[w.goldstein-do-nascent-wmd-arsenals]], 58–59 (cited by [[w.khoo-collateral-damage]], 56 n.78b)'
+    - '[[w.goldstein-return-to-zhenbao-island]], 985–997 (cited by [[w.khoo-collateral-damage]], 56 n.78c)'
+    - '[[w.robinson-china-confronts-the-soviet]] (cited by [[w.khoo-collateral-damage]], 56 n.78d)'
+- src:
+    id: cal.1969-03-02.china-leadership-5
+    rows:
+    - 'via x.undated.goldstein-interviews-jiang-yi-li-danhui-yang-kuisong: ?'
+- cite:
+    id: cal.1969-03-15.china-leadership-3
+    item: '[[w.khoo-collateral-damage]], 56 (Moscow''s retaliatory strikes, Mar. 15)'
+- to-check:
+    id: cal.1969-03-15.china-leadership-3
+    add:
+    - '[[w.barnett-china-and-the-major]], 49 (cited by [[w.khoo-collateral-damage]], 56 n.81a)'
+    - '[[w.robinson-china-confronts-the-soviet]], 257, 260–261 (cited by [[w.khoo-collateral-damage]], 56 n.81b)'
+- cite:
+    id: cal.1969-03-21.china-leadership-3
+    item: '[[w.khoo-collateral-damage]], 56 (Kosygin, the night of Mar. 21, by a separate Foreign Ministry line; Mao to have the chargé told to use the diplomatic channels)'
+- to-check:
+    id: cal.1969-03-21.china-leadership-3
+    add:
+    - '[[w.lewis-imagined-enemies]], 50 (cited by [[w.khoo-collateral-damage]], 56 n.82)'
+    - '[[w.lewis-imagined-enemies]], 50 (cited by [[w.khoo-collateral-damage]], 56 n.83)'
+- cite:
+    id: cal.1969-03-22.china-leadership
+    item: '[[w.khoo-collateral-damage]], 56 (Mao answers before daybreak: Moscow to make a formal proposal through diplomatic channels; Zhou to prepare for negotiations)'
+- to-check:
+    id: cal.1969-03-22.china-leadership
+    add:
+    - '[[w.lewis-imagined-enemies]], 50 (cited by [[w.khoo-collateral-damage]], 56 n.82)'
+    - '[[w.lewis-imagined-enemies]], 50 (cited by [[w.khoo-collateral-damage]], 56 n.83)'
+- cite:
+    id: cal.1969-03-15.china-leadership
+    item: '[[w.khoo-collateral-damage]], 66 (Mao to members of the Cultural Revolution Group, Mar. 15: "now we are isolated and no one shows interest in us")'
+- to-check:
+    id: cal.1969-03-15.china-leadership
+    add:
+    - '[[w.li-jie-changes-in-chinas-domestic]], 311 (cited by [[w.khoo-collateral-damage]], 66 n.167)'
+- cite:
+    id: cal.1969-04-01.china-leadership
+    item: '[[w.khoo-collateral-damage]], 56–57 (the Ninth Congress, Apr. 1–24; Lin Biao on the Soviet proposal of talks: China "considering its reply")'
+- to-check:
+    id: cal.1969-04-01.china-leadership
+    add:
+    - Lin Biao, "Report to the Ninth National Congress of the Communist Party of China," *Peking Review*, Apr. 30, 1969, 33 (cited by [[w.khoo-collateral-damage]], 57 n.84)
+- src:
+    id: cal.1969-04-01.china-leadership
+    rows:
+    - 'via x.1969-04-01.lin-biao-report-ninth-congress-apr-1-1969: ?'
+- cite:
+    id: cal.1969-06-11.china-leadership
+    item: '[[w.khoo-collateral-damage]], 57 (clashes publicly admitted, June 10–11)'
+- to-check:
+    id: cal.1969-06-11.china-leadership
+    add:
+    - '[[w.robinson-china-confronts-the-soviet]], 266 (cited by [[w.khoo-collateral-damage]], 57 n.87)'
+- cite:
+    id: cal.1969-07-08.china
+    item: '[[w.khoo-collateral-damage]], 57 (clashes again on July 8)'
+- to-check:
+    id: cal.1969-07-08.china
+    add:
+    - '[[w.lewis-imagined-enemies]], 53 (cited by [[w.khoo-collateral-damage]], 57 n.88)'
+- cite:
+    id: cal.1969-06-07.china-leadership
+    item: '[[w.khoo-collateral-damage]], 66 (the four marshals, tasked after the Ninth Congress, meet six times, June 7 to July 10)'
+- to-check:
+    id: cal.1969-06-07.china-leadership
+    add:
+    - '[[w.zhou-enlai-zhuan-1949]], 2044–2068 (so cited: Jin Chongji ed., Zhou Enlai zhuan (si), 1998) (cited by [[w.khoo-collateral-damage]], 66 n.168)'
+- cite:
+    id: cal.1969-07-11.china-leadership
+    item: '[[w.khoo-collateral-damage]], 57, 66–67 (the marshals'' report, July 11, presented to Zhou: the Soviet revisionists have made China their main enemy, a greater threat than the Americans; Xiong Xianghui and Yao Guang assisting)'
+- to-check:
+    id: cal.1969-07-11.china-leadership
+    add:
+    - '[[w.lewis-imagined-enemies]], 53 (cited by [[w.khoo-collateral-damage]], 57 n.89)'
+    - '[[w.xiong-xianghui-dakai-zhong-mei-guanxi]] (cited by [[w.khoo-collateral-damage]], 67 n.170a)'
+    - '[[w.jian-all-under-the-heaven]], 166–168, 170–171 (cited by [[w.khoo-collateral-damage]], 67 n.170b)'
+    - '[[w.xiong-xianghui-dakai-zhong-mei-guanxi]], 72 (cited by [[w.khoo-collateral-damage]], 67 n.171)'
+- cite:
+    id: cal.1969-08-13.china-2
+    item: '[[w.khoo-collateral-damage]], 57 (the most serious clash, at Lake Zhalanashkol on the border with Kazakhstan, Aug. 13)'
+- to-check:
+    id: cal.1969-08-13.china-2
+    add:
+    - '[[w.gobarev-soviet-policy-toward-china]], 46 (cited by [[w.khoo-collateral-damage]], 57 n.90)'
+    - '[[w.gobarev-soviet-policy-toward-china]], 46 (cited by [[w.khoo-collateral-damage]], 57 n.91a)'
+    - '[[w.xie-yixian-zhongguo-dangdai-waijiaoshi]], 246–247 (cited by [[w.khoo-collateral-damage]], 57 n.91b)'
+- cite:
+    id: cal.1969-08-28.china-leadership
+    item: '[[w.khoo-collateral-damage]], 57 (Mao orders the National Civil Air Defense Leading Group set up, Aug. 28)'
+- to-check:
+    id: cal.1969-08-28.china-leadership
+    add:
+    - '[[w.lewis-imagined-enemies]], 56 (cited by [[w.khoo-collateral-damage]], 57 n.95)'
+- cite:
+    id: cal.1969-08-28.china-leadership-4
+    item: '[[w.khoo-collateral-damage]], 57 (the "Order for General Mobilization in Border Provinces and Regions," nine articles, the "August 28 Order")'
+- to-check:
+    id: cal.1969-08-28.china-leadership-4
+    add:
+    - '[[w.lewis-imagined-enemies]], 56 (cited by [[w.khoo-collateral-damage]], 57 n.96)'
+    - '[[w.lewis-imagined-enemies]], 56 (cited by [[w.khoo-collateral-damage]], 57 n.97)'
+- cite:
+    id: cal.1969-09-04.china-leadership
+    item: '[[w.khoo-collateral-damage]], 58 (Zhou and Ye Jianying go at once to Hanoi and do not stay the night)'
+- cite:
+    id: cal.1969-09.china-leadership-6
+    item: '[[w.khoo-collateral-damage]], 58 (Mao has units put on high alert and specialist battalions secure the airport, fearing a "Trojan horse")'
+- to-check:
+    id: cal.1969-09.china-leadership-6
+    add:
+    - '[[w.lewis-imagined-enemies]], 58 (cited by [[w.khoo-collateral-damage]], 58 n.99)'
+- cite:
+    id: cal.1969-09-11.china-leadership
+    item: '[[w.khoo-collateral-damage]], 58 (Zhou and Kosygin at the Peking airport, Sept. 11: conflict-reduction measures and a return to border talks; no date set)'
+- to-check:
+    id: cal.1969-09-11.china-leadership
+    add:
+    - '[[w.lewis-imagined-enemies]], 57 (cited by [[w.khoo-collateral-damage]], 58 n.100)'
+- cite:
+    id: cal.1969-09-16.china-leadership
+    item: '[[w.khoo-collateral-damage]], 58 (the Politburo, Sept. 16, 18 and 22, on Zhou''s meeting with Kosygin and its effect on the United States)'
+- to-check:
+    id: cal.1969-09-16.china-leadership
+    add:
+    - '[[w.lewis-imagined-enemies]], 58 (cited by [[w.khoo-collateral-damage]], 58 n.102)'
+- cite:
+    id: cal.1969-09-18.china-leadership-2
+    item: '[[w.khoo-collateral-damage]], 58 (Zhou''s secret message to Kosygin proposing a nonaggression agreement)'
+- to-check:
+    id: cal.1969-09-18.china-leadership-2
+    add:
+    - Zhou Enlai's letter to Kosygin, Sept. 18, 1969, in [[w.zhou-enlai-waijiao-wenxuan]], 462–464 (cited by [[w.khoo-collateral-damage]], 58 n.103a)
+    - '[[w.jian-all-under-the-heaven]], 171–172 (cited by [[w.khoo-collateral-damage]], 58 n.103b)'
+- src:
+    id: cal.1969-09-18.china-leadership-2
+    rows:
+    - 'via x.1969-09-18.zhou-enlai-letter-to-kosygin-sep-18-1969: ?'
+- cite:
+    id: cal.1969-09-23.china-leadership
+    item: '[[w.khoo-collateral-damage]], 58 (the underground test of Sept. 23)'
+- cite:
+    id: cal.1969-09-26.china-leadership
+    item: '[[w.khoo-collateral-damage]], 58 (Kosygin''s letter of Sept. 26 proposes the talks resume Oct. 10, no word of the measures agreed at the airport)'
+- to-check:
+    id: cal.1969-09-26.china-leadership
+    add:
+    - '[[w.lewis-imagined-enemies]], 60 (cited by [[w.khoo-collateral-damage]], 58 n.104)'
+    - '[[w.lewis-imagined-enemies]], 60 (cited by [[w.khoo-collateral-damage]], 58 n.105)'
+- cite:
+    id: cal.1969-09-29.china-leadership
+    item: '[[w.khoo-collateral-damage]], 58 (a three-megaton thermonuclear test, Sept. 29)'
+- to-check:
+    id: cal.1969-09-29.china-leadership
+    add:
+    - '[[w.lewis-imagined-enemies]], 59 (cited by [[w.khoo-collateral-damage]], 58 n.109)'
+- cite:
+    id: cal.1969-10-14.china-leadership-2
+    item: '[[w.khoo-collateral-damage]], 59 (received by Zhou Oct. 14: the Soviet negotiators to arrive Oct. 20)'
+- to-check:
+    id: cal.1969-10-14.china-leadership-2
+    add:
+    - '[[w.robinson-china-confronts-the-soviet]], 62 (so printed: "Ibid., 62," after n.113; the page fits Lewis and Xue, not Robinson) (cited by [[w.khoo-collateral-damage]], 59 n.114)'
+- cite:
+    id: cal.1969-10-15.china-leadership
+    item: '[[w.khoo-collateral-damage]], 59 n.115 (Mao left for Wuhan Oct. 14; in the note)'
+- cite:
+    id: cal.1969-10-18.china-leadership
+    item: '[[w.khoo-collateral-damage]], 59 (at 1700 hours, from Suzhou, Lin''s "Urgent Directive regarding Strengthening Combat Readiness to Prevent an Enemy''s Surprise Attack," six points, sent to Huang Yongsheng and passed to Yan Zhongchuan at the advanced command post; the Second Artillery on full alert)'
+- to-check:
+    id: cal.1969-10-18.china-leadership
+    add:
+    - '[[w.lewis-imagined-enemies]], 62 (cited by [[w.khoo-collateral-damage]], 59 n.116)'
+    - '[[w.lewis-imagined-enemies]], 63–72 (cited by [[w.khoo-collateral-damage]], 59 n.117)'
+    - '[[w.lewis-imagined-enemies]], 64 (cited by [[w.khoo-collateral-damage]], 59 n.118)'
+    - '[[w.lewis-imagined-enemies]], 64 (cited by [[w.khoo-collateral-damage]], 59 n.119)'
+    - '[[w.lewis-imagined-enemies]], 64 (cited by [[w.khoo-collateral-damage]], 59 n.120)'
+    - '[[w.lewis-imagined-enemies]], 65 (cited by [[w.khoo-collateral-damage]], 59 n.121)'
+    - '[[w.lewis-imagined-enemies]], 65–66 (cited by [[w.khoo-collateral-damage]], 59 n.122)'
+- cite:
+    id: cal.1969-10-20.china-leadership
+    item: '[[w.khoo-collateral-damage]], 60 (the border talks open in Peking, Oct. 20)'
+- cite:
+    id: cal.1969-09-07.china-leadership
+    item: '[[w.khoo-collateral-damage]], 64 (Zhou to Maurer, Sept. 7: China has never intervened in the Paris talks, Hanoi deciding for itself and the Soviets having intervened; Moscow uses Vietnam, the Middle East, West Berlin and China as trump cards with the Americans)'
+- to-check:
+    id: cal.1969-09-07.china-leadership
+    add:
+    - '[[w.zhou-enlai-waijiao-huodong]], 538–539 (cited by [[w.khoo-collateral-damage]], 64 n.158)'
+    - '[[w.qu-xing-zhongguo-waijiao-wushinian]], 426 (cited by [[w.khoo-collateral-damage]], 64 n.159)'
+    - '[[w.qu-xing-zhongguo-waijiao-wushinian]], 426 (cited by [[w.khoo-collateral-damage]], 64 n.160)'
+- cite:
+    id: cal.1969-01.china-leadership-2
+    item: '[[w.khoo-collateral-damage]], 67 (Mao, after reading Nixon''s inaugural address, authorizes its printing in the *Renmin ribao*)'
+- to-check:
+    id: cal.1969-01.china-leadership-2
+    add:
+    - '[[w.wenhua-dageming-yanjiu-ziliao]], II, 517 (cited by [[w.khoo-collateral-damage]], 67 n.175a)'
+    - '[[w.jian-all-under-the-heaven]], 161 (cited by [[w.khoo-collateral-damage]], 67 n.175b)'
+- cite:
+    id: cal.1968-11-28.china-leadership
+    item: '[[w.khoo-collateral-damage]], 144 (Mao to E. F. Hill: China "in a sense is still a non-nuclear power"; a war would be fought with conventional weapons)'
+- to-check:
+    id: cal.1968-11-28.china-leadership
+    add:
+    - Conversation between Mao Zedong and E. F. Hill, Nov. 28, 1968, document no. 2 in Chen Jian and David L. Wilson, eds., "All Under the Heaven Is Great Chaos," CWIHP Bulletin 11 (1998), 159 (cited by [[w.khoo-collateral-damage]], 144 n.40a)
+    - '[[w.jian-all-under-the-heaven]], 159 (cited by [[w.khoo-collateral-damage]], 144 n.40b)'
+- src:
+    id: cal.1968-11-28.china-leadership
+    rows:
+    - 'via x.1968-11-28.mao-zedong-conversation-with-e-f-hill: ?'
+- variant:
+    id: cal.1968-09-01.china-leadership
+    unit: A
+    witness: w.khoo-collateral-damage
+    reads: Mao to the Vietnamese ambassador at a banquet for the anniversary, early September
+    at: '45'
+- variant:
+    id: cal.1968-03-22.soviet-union
+    unit: B
+    witness: w.khoo-collateral-damage
+    reads: Novotný resigns Mar. 21
+    at: '46'
+- variant:
+    id: cal.1968-08-20.soviet-union
+    unit: A
+    witness: w.khoo-collateral-damage
+    reads: between 420,000 and 480,000 troops of the Soviet Union, Bulgaria, East Germany, Hungary and Poland
+    at: '47'
+- variant:
+    id: cal.1968-09.vietnam
+    unit: E
+    witness: w.khoo-collateral-damage
+    reads: 'the Soviet Union named: its intervention in Czechoslovakia, with four other socialist countries, defended'
+    at: 49–50
+- variant:
+    id: cal.1969-10-18.china-leadership
+    unit: C
+    witness: w.khoo-collateral-damage
+    reads: Huang Yongsheng asleep on sleeping pills; at 9:30 p.m. Yan Zhongchuan, the operations chief, rewrites the six points as four and sends them out as "Vice-Chairman Lin's No. 1 Order"
+    at: '59'
+- variant:
+    id: cal.1969-10-16.china-leadership-4
+    unit: A
+    witness: w.khoo-collateral-damage
+    reads: Lin Biao to leave for Suzhou Oct. 17
+    at: 59 n.115
+- place:
+    id: cal.1965-11-08.china-leadership
+    at: guangdong
+    basis: c
+- add:
+    entry:
+      id: cal.1967-12.soviet-union-czechoslovakia
+      when: Dec.
+      date: 1967-12
+      place: prague
+      thread: soviet-union-czechoslovakia
+      also:
+      - soviet-union
+      c: Prague. The Czechoslovak party's Central Committee asks Novotný to resign as its head.
+      n: '[[w.khoo-collateral-damage]], 46. To check: [[w.ouimet-rise-and-fall-of]], 20 (cited by [[w.khoo-collateral-damage]], 46 n.9). Check: the day.'
+      tags:
+      - polity:czechoslovakia
+      - name:novotny-antonin
+- add:
+    entry:
+      id: cal.1968-08.soviet-union-czechoslovakia
+      when: Aug., after the 13th
+      date: 1968-08
+      at: after 1968-08-13
+      thread: soviet-union-czechoslovakia
+      also:
+      - soviet-union-leadership
+      c: Brezhnev cables Ambassador Chervonenko in Prague to see Dubček; no positive answer.
+      n: '[[w.khoo-collateral-damage]], 47. Made public: 1998 ([[w.kramer-czechoslovak-crisis-and-the]], 153, the earliest printing the note names). To check: [[w.kramer-czechoslovak-crisis-and-the]], 153 (cited by [[w.khoo-collateral-damage]], 47 n.16). See [[cal.1968-08-13.soviet-union-leadership-2]]. Check: the day. Names: Brezhnev, Chervonenko, Dubček.'
+      tags:
+      - polity:ussr
+      - polity:czechoslovakia
+      - vis:only:ussr+czechoslovakia
+      - name:brezhnev-leonid
+      - name:chervonenko-stepan-v
+      - name:dubcek-alexander
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-08-22.soviet-union-czechoslovakia-2
+      when: Aug. 22
+      date: '1968-08-22'
+      thread: soviet-union-czechoslovakia
+      also:
+      - soviet-union
+      c: '*Pravda*''s editorial article, "The Defense of Socialism Is a Supreme International Duty": the rationale for the invasion.'
+      n: '[[w.khoo-collateral-damage]], 49. To check: Pravda editorial article, Aug. 22, 1968, "The Defense of Socialism Is a Supreme International Duty," in Foreign Broadcast Information Service (Soviet Union), Aug. 23, 1968, A14–36 (cited by [[w.khoo-collateral-damage]], 49 n.36).'
+      tags:
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1968-08-21.vietnam-hanoi-5
+      when: Aug. 21
+      date: '1968-08-21'
+      thread: vietnam-hanoi
+      also:
+      - soviet-union-czechoslovakia
+      c: Hanoi radio calls the intervention in Czechoslovakia a "noble" act, the day of the invasion.
+      n: '[[w.khoo-collateral-damage]], 49. To check: [[w.wich-sino-soviet-crisis-politics]], 51–55 (cited by [[w.khoo-collateral-damage]], 49 n.34a); Hanoi Radio VNA Domestic Service, Aug. 21, 1968, in Foreign Broadcast Information Service (Asia-Pacific), Aug. 21, 1968, K5 (cited by [[w.khoo-collateral-damage]], 49 n.34b).'
+      tags:
+      - polity:drv
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-08-22.vietnam-hanoi-3
+      when: Aug. 22
+      date: '1968-08-22'
+      thread: vietnam-hanoi
+      also:
+      - soviet-union-czechoslovakia
+      c: '*Nhân Dân* and *Quân Đội Nhân Dân* endorse the invasion of Czechoslovakia and print the Soviet announcement of it in full on their front pages.'
+      n: '[[w.khoo-collateral-damage]], 49.'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1968-08-26.vietnam-hanoi
+      when: Aug. 26
+      date: '1968-08-26'
+      thread: vietnam-hanoi
+      also:
+      - soviet-union-czechoslovakia
+      c: The North Vietnamese press prints in full *Pravda*'s editorial article of Aug. 22 on the rationale for the invasion.
+      n: '[[w.khoo-collateral-damage]], 49. To check: Pravda editorial article, Aug. 22, 1968, "The Defense of Socialism Is a Supreme International Duty," in Foreign Broadcast Information Service (Soviet Union), Aug. 23, 1968, A14–36 (cited by [[w.khoo-collateral-damage]], 49 n.36); [[w.wich-sino-soviet-crisis-politics]], 52 (cited by [[w.khoo-collateral-damage]], 49 n.37). See [[cal.1968-08-22.soviet-union-czechoslovakia-2]].'
+      tags:
+      - polity:drv
+- add:
+    entry:
+      id: cal.1968-09-02.soviet-union
+      when: Sept. 2
+      date: '1968-09-02'
+      thread: soviet-union
+      also:
+      - vietnam-hanoi
+      - soviet-union-czechoslovakia
+      c: '*Pravda*''s editorial, "The People of Vietnam Will Win!": the DRV has approved the Soviet and other socialist countries'' action to rebuff counterrevolution in Czechoslovakia.'
+      n: '[[w.khoo-collateral-damage]], 50. To check: Editorial, "The People of Vietnam Will Win!," Pravda, Sept. 2, 1968 (cited in Gaiduk, The Soviet Union and the Vietnam War, 177) (cited by [[w.khoo-collateral-damage]], 50 n.39a); [[w.gaiduk-soviet-union-and-the]], 177 (cited by [[w.khoo-collateral-damage]], 50 n.39b).'
+      tags:
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1968-08-30.china-leadership-3
+      when: Aug. 30
+      date: '1968-08-30'
+      thread: china-leadership
+      also:
+      - soviet-union-czechoslovakia
+      c: The *Renmin ribao* traces the origins of the term "social-imperialism," the invasion of Czechoslovakia an instance.
+      n: '[[w.khoo-collateral-damage]], 48. To check: "Social Imperialism," Renmin ribao, Aug. 30, 1968; Peking Review 36 (Sept. 6, 1968), 12 (cited by [[w.khoo-collateral-damage]], 48 n.27).'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-02.soviet-union-2
+      when: Feb.
+      date: 1968-02
+      thread: soviet-union
+      also:
+      - vietnam-hanoi
+      c: The KGB tells the Soviet leaders that the Vietnamese are working toward a political settlement.
+      n: '[[w.khoo-collateral-damage]], 51. Made public: 1996 ([[w.gaiduk-soviet-union-and-the]], 149, the earliest printing the notes name). To check: [[w.pike-vietnam-and-the-soviet]], 95 (cited by [[w.khoo-collateral-damage]], 51 n.43); [[w.gaiduk-soviet-union-and-the]], 149 (cited by [[w.khoo-collateral-damage]], 51 n.44). Check: the day.'
+      tags:
+      - polity:ussr
+      - vis:only:ussr
+- add:
+    entry:
+      id: cal.1968-04.soviet-union
+      when: Apr., after the 6th
+      date: 1968-04
+      at: after 1968-04-06
+      thread: soviet-union
+      also:
+      - vietnam-hanoi
+      c: The KGB passes the Soviet leaders word of the Vietnamese Politburo's discussions of Apr. 2–6, most likely from a source inside it.
+      n: '[[w.khoo-collateral-damage]], 51. Made public: 1996 ([[w.gaiduk-soviet-union-and-the]], 149, the earliest printing the note names). To check: [[w.gaiduk-soviet-union-and-the]], 149 (cited by [[w.khoo-collateral-damage]], 51 n.44). See [[cal.1968-04.vietnam-hanoi]]. Check: the day.'
+      tags:
+      - polity:ussr
+      - vis:only:ussr
+- add:
+    entry:
+      id: cal.1968-11.china-leadership-6
+      when: Nov.
+      date: 1968-11
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: China begins to withdraw its troops from North Vietnam; all back in China by July 7, 1970.
+      n: '[[w.khoo-collateral-damage]], 56. Made public: 1989 ([[w.ke-wenhua-dageming-zhongde-renmin]], the earliest printing the notes name). To check: [[w.ke-wenhua-dageming-zhongde-renmin]], 426 (cited by [[w.khoo-collateral-damage]], 56 n.73); [[w.qu-aiguo-zhongguo-zhiyuan-budui-zai]], 183 (cited by [[w.khoo-collateral-damage]], 56 n.74). Check: the day.'
+      tags:
+      - polity:prc
+      - polity:drv
+      - vis:only:prc+drv
+- add:
+    entry:
+      id: cal.1969.china-leadership-65
+      when: '1969'
+      date: '1969'
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: 'China cuts its aid to North Vietnam: in the first half of the year slightly over 30 percent of the aid promised; military aid for the year down 50 percent from 1968; aid overall down 20 percent, by Hanoi''s white paper of 1979.'
+      n: '[[w.khoo-collateral-damage]], 56, 64. Made public: 1979 ([[w.truth-about-vietnamo-chinese]], 42). To check: [[w.roberts-behind-the-bamboo-curtain-2006]], 291 (Li Danhui) (cited by [[w.khoo-collateral-damage]], 56 n.71); [[w.li-danhui-vietnam-and-chinese-policy]], 183 (cited by [[w.khoo-collateral-damage]], 56 n.72); [[w.truth-about-vietnamo-chinese]], 42 (cited by [[w.khoo-collateral-damage]], 64 n.154); [[w.truth-about-vietnamo-chinese]], 42 (cited by [[w.khoo-collateral-damage]], 64 n.155); [[w.ke-wenhua-dageming-zhongde-renmin]], 416 (cited by [[w.khoo-collateral-damage]], 64 n.156).'
+      tags:
+      - ok:fields-at
+      - ok:fields-place
+      - polity:prc
+      - polity:drv
+      - vis:only:prc+drv
+- add:
+    entry:
+      id: cal.1969-08.china-leadership-6
+      when: Aug.
+      date: 1969-08
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      - vietnam-paris
+      c: Peking ties further aid to Hanoi's playing down or giving up the talks with the Americans, by Hanoi's account of 1979.
+      n: '[[w.khoo-collateral-damage]], 64. Made public: 1979 ([[w.truth-about-vietnamo-chinese]], 42). To check: [[w.truth-about-vietnamo-chinese]], 42 (cited by [[w.khoo-collateral-damage]], 64 n.153). Check: the day.'
+      tags:
+      - ok:fields-place
+      - polity:prc
+      - polity:drv
+      - vis:only:prc+drv
+- add:
+    entry:
+      id: cal.1969-04-21.china-leadership-2
+      when: Apr. 21
+      date: '1969-04-21'
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: 'Zhou Enlai to Phạm Hùng: independence and self-reliance.'
+      n: '[[w.khoo-collateral-damage]], 64. Made public: 1997 ([[w.zhou-enlai-nianpu-1949]], III, 293). To check: [[w.zhou-enlai-nianpu-1949]], III, 293 (cited by [[w.khoo-collateral-damage]], 64 n.152). Names: Zhou Enlai.'
+      tags:
+      - polity:prc
+      - polity:drv
+      - vis:only:prc+drv
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1966.china-leadership-41
+      when: 1966, after the Soviet–Mongolian treaty
+      date: '1966'
+      at: before 1966-02
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: 'Mao, with several of his marshals, after the Soviet–Mongolian treaty: Moscow will attack within two years.'
+      n: '[[w.khoo-collateral-damage]], 56. Made public: 2006 ([[w.lewis-imagined-enemies]], 48, the earliest printing the notes name). To check: [[w.lengxi-shinian-lunzhan-1956-1966]], II, 839 (cited by [[w.khoo-collateral-damage]], 56 n.75); [[w.lewis-imagined-enemies]], 48 (cited by [[w.khoo-collateral-damage]], 56 n.76). Check: the day. Names: Mao Zedong.'
+      tags:
+      - ok:fields-place
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1969-03.soviet-union
+      when: Mar., after the 15th
+      date: 1969-03
+      at: after 1969-03-15
+      thread: soviet-union
+      also:
+      - china-leadership
+      c: Brezhnev tries to reach Mao on the Kremlin–Zhongnanhai line; the operator refuses to put the call through.
+      n: '[[w.khoo-collateral-damage]], 56. Made public: 2006 ([[w.lewis-imagined-enemies]], 50, the earliest printing the note names). To check: [[w.lewis-imagined-enemies]], 50 (cited by [[w.khoo-collateral-damage]], 56 n.82). Check: the day. Names: Brezhnev, Mao Zedong.'
+      tags:
+      - polity:ussr
+      - polity:prc
+      - vis:only:ussr+prc
+      - name:brezhnev-leonid
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-03-21.soviet-union
+      when: Mar. 21
+      date: '1969-03-21'
+      time_range:
+      - 1969-03-21T14:00Z
+      - 1969-03-21T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
+      thread: soviet-union
+      also:
+      - china-leadership
+      c: Kosygin, the night of Mar. 21, telephones on a Foreign Ministry line and tells a Chinese official he wishes to speak to Zhou Enlai.
+      n: '[[w.khoo-collateral-damage]], 56 (at midnight the Soviet chargé brings the Foreign Ministry the same message). Made public: 2006 ([[w.lewis-imagined-enemies]], 50, the earliest printing the notes name). To check: [[w.lewis-imagined-enemies]], 50 (cited by [[w.khoo-collateral-damage]], 56 n.82); [[w.lewis-imagined-enemies]], 50 (cited by [[w.khoo-collateral-damage]], 56 n.83). Reply: [[cal.1969-03-22.china-leadership]]. Names: Kosygin, Zhou Enlai.'
+      tags:
+      - polity:ussr
+      - polity:prc
+      - vis:only:ussr+prc
+      - name:kosygin-aleksei
+      - name:zhou-enlai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-03-29.soviet-union
+      when: Mar. 29
+      date: '1969-03-29'
+      thread: soviet-union
+      also:
+      - china
+      c: The Soviets propose to reopen the border talks stalled since 1964.
+      n: '[[w.khoo-collateral-damage]], 56. To check: [[w.lewis-imagined-enemies]], 50 (cited by [[w.khoo-collateral-damage]], 56 n.83).'
+      tags:
+      - polity:ussr
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969.china-leadership-66
+      when: 1969, summer
+      date: '1969'
+      at: before 1969-06
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: 'Mao has the Central Military Commission''s Administrative Group hold a forum on war preparation; to his generals: no worry if the Soviets use atom bombs, "we, too, have atom bombs."'
+      n: '[[w.khoo-collateral-damage]], 57. Made public: 2006 ([[w.lewis-imagined-enemies]], 53, the earliest printing the note names). To check: [[w.lewis-imagined-enemies]], 53 (cited by [[w.khoo-collateral-damage]], 57 n.86). Check: the day. Names: Mao Zedong.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1969-06-12.soviet-union
+      when: June 12
+      date: '1969-06-12'
+      thread: soviet-union
+      also:
+      - china
+      c: The Soviets ask again for talks.
+      n: '[[w.khoo-collateral-damage]], 57. To check: [[w.robinson-china-confronts-the-soviet]], 266 (cited by [[w.khoo-collateral-damage]], 57 n.87).'
+      tags:
+      - polity:ussr
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-06.china-leadership-8
+      when: June, mid-
+      date: 1969-06
+      at: before 1969-06-11
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Mao approves the CMC Administrative Group's request to prepare the General Staff and the General Logistics Department for war.
+      n: '[[w.khoo-collateral-damage]], 57. Made public: 2006 ([[w.lewis-imagined-enemies]], 53, the earliest printing the note names). To check: [[w.lewis-imagined-enemies]], 53 (cited by [[w.khoo-collateral-damage]], 57 n.88). Check: the day. Names: Mao Zedong.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1969-07-20.china
+      when: July 20
+      date: '1969-07-20'
+      thread: china
+      also:
+      - soviet-union
+      c: Another clash on the Sino-Soviet border.
+      n: '[[w.khoo-collateral-damage]], 57. To check: [[w.lewis-imagined-enemies]], 53 (cited by [[w.khoo-collateral-damage]], 57 n.88). See [[cal.1969-07-08.china]].'
+      tags:
+      - polity:prc
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1969-08-13.soviet-union
+      when: Aug. 13
+      date: '1969-08-13'
+      thread: soviet-union
+      also:
+      - china
+      c: A mid-level Soviet official asks an American official how the United States would react to a Soviet strike on Chinese nuclear facilities.
+      n: '[[w.khoo-collateral-damage]], 57. Made public: 1977 ([[w.barnett-china-and-the-major]], 50, the earliest printing the note names). To check: [[w.goldstein-do-nascent-wmd-arsenals]], 60 (cited by [[w.khoo-collateral-damage]], 57 n.94a); [[w.lawson-sino-vietnamese-conflict]], 170 (so cited: "Sino-Vietnamese Alliance") (cited by [[w.khoo-collateral-damage]], 57 n.94b); [[w.barnett-china-and-the-major]], 50 (cited by [[w.khoo-collateral-damage]], 57 n.94c). Check: the day.'
+      tags:
+      - polity:ussr
+      - polity:us
+      - vis:only:ussr+us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-08-12.intelligence
+      when: Aug. 12
+      date: '1969-08-12'
+      thread: intelligence
+      also:
+      - soviet-union
+      - china
+      c: 'A National Intelligence Estimate: the Soviet proposal for collective security in Asia "an effort to capitalize on an anticipated reduction in Western presence" and to forestall Chinese gains.'
+      n: '[[w.khoo-collateral-damage]], 63. Made public: 2004 ([[w.council-tracking-the-dragon]], 543). To check: [[w.council-tracking-the-dragon]], 543 (cited by [[w.khoo-collateral-damage]], 63 n.147).'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1969-06-07.soviet-union
+      when: June 7
+      date: '1969-06-07'
+      place: moscow
+      thread: soviet-union
+      also:
+      - china
+      - vietnam-hanoi
+      c: 'Moscow, the International Conference of Communist and Workers'' Parties. Brezhnev: "The course of events places on the agenda the task of creating a system of collective security in Asia." Hanoi sends no delegation.'
+      n: '[[w.khoo-collateral-damage]], 62–63. To check: [[w.smyser-independent-vietnamese]], 106 (cited by [[w.khoo-collateral-damage]], 62 n.144a); [[w.horelick-soviet-unions-asian-collective]], 269–285 (cited by [[w.khoo-collateral-damage]], 62 n.144b); Report on the Communist and Workers'' Parties'' Conference, Kommunist, June 1969 (cited in Leszek Buszynski, Soviet Foreign Policy and Southeast Asia (1986), 42) (cited by [[w.khoo-collateral-damage]], 63 n.145a); [[w.buszynski-soviet-foreign-policy-and]], 42 (cited by [[w.khoo-collateral-damage]], 63 n.145b); [[w.buszynski-soviet-foreign-policy-and]], 40 (cited by [[w.khoo-collateral-damage]], 63 n.146); [[w.xie-yixian-zhongguo-waijiao-shi-1949]], 468 (3rd ed., 1996) (cited by [[w.khoo-collateral-damage]], 63 n.148); [[w.smyser-independent-vietnamese]], 106 (cited by [[w.khoo-collateral-damage]], 63 n.149). Names: Brezhnev.'
+      tags:
+      - polity:ussr
+      - name:brezhnev-leonid
+- add:
+    entry:
+      id: cal.1969-09-05.soviet-union
+      when: Sept. 5
+      date: '1969-09-05'
+      thread: soviet-union
+      also:
+      - china
+      c: The United States tells the Soviets it "could not fail to be deeply concerned" by any escalation of the Sino-Soviet crisis.
+      n: '[[w.khoo-collateral-damage]], 58. To check: [[w.goldstein-do-nascent-wmd-arsenals]], 61 (cited by [[w.khoo-collateral-damage]], 58 n.98).'
+      tags:
+      - polity:us
+      - polity:ussr
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-09-16.soviet-union
+      when: Sept. 16
+      date: '1969-09-16'
+      place: moscow
+      thread: soviet-union
+      also:
+      - china
+      c: 'The Moscow *Evening News*, in English: a journalist close to the Soviets hints at an attack on Lop Nur, citing the Brezhnev Doctrine.'
+      n: '[[w.khoo-collateral-damage]], 58. To check: [[w.lawson-sino-vietnamese-conflict]], 170 (so cited: "Sino-Vietnamese Alliance") (cited by [[w.khoo-collateral-damage]], 58 n.101).'
+      tags:
+      - polity:ussr
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-09.china-leadership-12
+      when: Sept., after the 26th
+      date: 1969-09
+      at: after 1969-09-26
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: The Central Military Commission orders elite units moved to the north; the infantry there increased by 20 percent.
+      n: '[[w.khoo-collateral-damage]], 58. Made public: 2000 ([[w.yang-kuisong-sino-soviet-border-clash]], 39–40, the earliest printing the note names). To check: [[w.yang-kuisong-sino-soviet-border-clash]], 39–40 (cited by [[w.khoo-collateral-damage]], 58 n.106a); [[w.lewis-imagined-enemies]], 59 (cited by [[w.khoo-collateral-damage]], 58 n.106b); [[w.lewis-imagined-enemies]], 59 (cited by [[w.khoo-collateral-damage]], 58 n.107). Check: the day.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1969-09-29.china
+      when: Sept. 29
+      date: '1969-09-29'
+      thread: china
+      also:
+      - soviet-union
+      c: The Foreign Ministry asks that the border talks open Oct. 20, not Oct. 10.
+      n: '[[w.khoo-collateral-damage]], 59. Made public: 2006 ([[w.lewis-imagined-enemies]], 59). To check: [[w.lewis-imagined-enemies]], 59 (cited by [[w.khoo-collateral-damage]], 59 n.110).'
+      tags:
+      - polity:prc
+      - polity:ussr
+      - vis:only:prc+ussr
+- add:
+    entry:
+      id: cal.1969-09-30.china-leadership-8
+      when: Sept. 30
+      date: '1969-09-30'
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Lin Biao orders the army to its highest alert, against a surprise Soviet attack on National Day.
+      n: '[[w.khoo-collateral-damage]], 59. Made public: 2006 ([[w.lewis-imagined-enemies]], 61). To check: [[w.lewis-imagined-enemies]], 61 (cited by [[w.khoo-collateral-damage]], 59 n.111). Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+- add:
+    entry:
+      id: cal.1969-10-07.china
+      when: Oct. 7
+      date: '1969-10-07'
+      thread: china
+      also:
+      - soviet-union
+      c: China announces that it agrees to reopen the border negotiations with the Soviet Union stalled since 1964.
+      n: '[[w.khoo-collateral-damage]], 59. To check: [[w.robinson-china-confronts-the-soviet]], 274 (cited by [[w.khoo-collateral-damage]], 59 n.113).'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-10-20.china-leadership-4
+      when: Oct. 20
+      date: '1969-10-20'
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Zhou Enlai drives to the advance command post under the Baiwang Shan, in Peking's Western Hills, and takes charge of the crisis.
+      n: '[[w.khoo-collateral-damage]], 59–60. Made public: 2006 ([[w.lewis-imagined-enemies]], 69). To check: [[w.lewis-imagined-enemies]], 69 (cited by [[w.khoo-collateral-damage]], 60 n.123). Names: Zhou Enlai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1970-01.vietnam-hanoi-2
+      when: Jan.
+      date: 1970-01
+      thread: vietnam-hanoi
+      also:
+      - soviet-union
+      - vietnam-paris
+      c: The Eighteenth Plenum of the Vietnam Workers' Party's Third Central Committee puts diplomatic and political struggle on a level with the military; the Paris talks stressed. Soviet officials told beforehand.
+      n: '[[w.khoo-collateral-damage]], 61. Made public: 2004 ([[w.guan-ending-the-vietnam-war]], 37–38, the earliest printing the note names). To check: [[w.guan-ending-the-vietnam-war]], 37–38 (cited by [[w.khoo-collateral-damage]], 61 n.135). Check: the day (whether before Jan. 19).'
+      tags:
+      - ok:fields-place
+      - polity:drv
+      - vis:only:drv+ussr
 - src:
     id: cal.1966-07-09.soviet-union
     rows:
@@ -1104,3 +2131,27 @@ ops:
     id: cal.1966-05.vietnam-hanoi-5
     rows:
     - 'via x.1979.le-duan-comrade-b-plot-reactionary-chinese-clique: ?'
+- src:
+    id: cal.1968-08-22.soviet-union-czechoslovakia-2
+    rows:
+    - 'via x.1968-08-22.pravda-defense-of-socialism-supreme-international-duty: ?'
+- src:
+    id: cal.1968-08-21.vietnam-hanoi-5
+    rows:
+    - 'via x.1968-08-21.hanoi-radio-vna-czechoslovakia: ?'
+- src:
+    id: cal.1968-08-26.vietnam-hanoi
+    rows:
+    - 'via x.1968-08-22.pravda-defense-of-socialism-supreme-international-duty: ?'
+- src:
+    id: cal.1968-09-02.soviet-union
+    rows:
+    - 'via x.1968-09-02.pravda-the-people-of-vietnam-will-win: ?'
+- src:
+    id: cal.1968-08-30.china-leadership-3
+    rows:
+    - 'via x.1968-08-30.renmin-ribao-social-imperialism: ?'
+- src:
+    id: cal.1969-06-07.soviet-union
+    rows:
+    - 'via x.1969-06.kommunist-report-on-the-conference-of-communist-and-workers-parties: ?'

@@ -397,6 +397,29 @@ entries:
       - 1964-07-01T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-07-01.china-leadership-12
+    when: July 1
+    date: '1964-07-01'
+    place: shanghai
+    thread: china-leadership
+    also: [africa]
+    c: Shanghai 上海. Chen Yi 陈毅 at the airport to welcome Seydou Badian Kouyaté 库亚特, Mali's Minister of Development, and his party.
+    n: '[[w.chen-yi-nianpu]], 1038. Names: Chen Yi.'
+    tags: [polity:prc, polity:mali, name:chen-yi]
+  - id: cal.1964-07-01.china-leadership-13
+    when: July 1
+    date: '1964-07-01'
+    place: shanghai
+    thread: china-leadership
+    also: [africa]
+    c: Shanghai 上海. Chen Yi 陈毅 talks with Seydou Badian Kouyaté 库亚特 and his party, then gives them a luncheon.
+    n: '[[w.chen-yi-nianpu]], 1038. The words: 午宴 (1038). Names: Chen Yi.'
+    tags: [polity:prc, polity:mali, name:chen-yi]
+    time_range:
+      - 1964-07-01T04:00Z
+      - 1964-07-01T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1964-07-02.civil-rights-bill
     when: July 2
     date: '1964-07-02'
@@ -1511,11 +1534,12 @@ entries:
     thread: china
     also: [africa]
     c: Zhou Enlai and Chen Yi each cable Hastings Banda, Prime Minister of Malawi (Nyasaland), congratulating Malawi on its declaring independence (July 6), and inform him that the Chinese government decides to recognize Malawi.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 348 (July 4, 1964). Names: Zhou Enlai, Chen Yi. Check: the book gives the prime minister''s name as 海斯廷·班达; the cables are dated July 4, two days before the independence day.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 348 (July 4, 1964); [[w.chen-yi-nianpu]], 1038 (July 4, 1964). Names: Zhou Enlai, Chen Yi. Check: the book gives the prime minister''s name as 海斯廷·班达; the cables are dated July 4, two days before the independence day.'
     src:
       c: fec8e56f
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 348: all'
+        - 'w.chen-yi-nianpu 1038: ?'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi]
   - id: cal.1964-07-04.china-leadership
     when: July 4
@@ -1547,6 +1571,14 @@ entries:
       - 1964-07-04T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1964-07-04.china-leadership-3
+    when: July 4
+    date: '1964-07-04'
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明. Chen Yi 陈毅 watches a PLA unit's firing exercise.
+    n: '[[w.chen-yi-nianpu]], 1038. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1964-07-05.voting-rights-selma
     when: July 5
     date: '1964-07-05'
@@ -1999,11 +2031,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Chen Yi, Foreign Minister, writes to Xuân Thủy, Foreign Minister of the DRV, on the situation in South Vietnam. The Chinese government and people firmly support the DRV government's just stand that the countries concerned stop U.S. aggression against South Vietnam and its provocation of the North. China and Vietnam are close neighbors, like lips and teeth, and any aggression on the DRV cannot be met with China folding its hands. He restates that U.S. interference and aggression in South Vietnam must stop and U.S. forces and military personnel must withdraw from it altogether, and that the internal affairs of South Vietnam can be settled only by the South Vietnamese people themselves.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 348 (July 6, 1964). Names: Chen Yi, Xuân Thủy.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 348 (July 6, 1964); [[w.chen-yi-nianpu]], 1038 (July 6, 1964; the reply to Xuân Thủy''s letter of June 25). Names: Chen Yi, Xuân Thủy.'
     src:
       c: 86b8a3f2
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 348: all'
+        - 'w.chen-yi-nianpu 1038: ?'
     tags: [polity:prc, polity:drv, polity:us, name:chen-yi, name:xuan-thuy]
   - id: cal.1964-07-06.china-leadership-3
     when: July 6
@@ -2987,13 +3020,14 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, laos]
     c: 'Zhou and Chen Yi fly to Rangoon for a visit. First talk with Ne Win on Asia, Africa and Latin America and China''s line on Indochina: as a Geneva signatory China is bound to see the agreements carried out and wants U.S. forces withdrawn; it seeks by talks to keep South Vietnam and Laos peaceful and neutral. But if the U.S. resolves to widen the war, attack the DRV or send troops to the Chinese border, China cannot stand by; if it wants a Korea-style war, China will be ready.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 655 (July 10, 1964); [[w.zhou-enlai-waijiao-huodong]], 413 (July 10, 1964; 上午, 和陈毅副总理乘专机离昆明前往缅甸访问); [[w.zhou-enlai-waijiao-huodong]], 413 (July 10, 1964; 上午10时30分; the arrival at Rangoon); [[w.zhou-enlai-waijiao-huodong]], 413 (July 10, 1964; 下午3时30分, 国宾馆, 第一次会谈); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 349 (July 10–11, 1964; Zhou and Chen Yi visit Burma; Zhou holds talks with Ne Win, chairman of the Revolutionary Council, on matters of common concern and current international questions, above all Southeast Asia). Made public: 1993. Names: Zhou Enlai, Chen Yi, Ne Win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 655 (July 10, 1964); [[w.zhou-enlai-waijiao-huodong]], 413 (July 10, 1964; 上午, 和陈毅副总理乘专机离昆明前往缅甸访问); [[w.zhou-enlai-waijiao-huodong]], 413 (July 10, 1964; 上午10时30分; the arrival at Rangoon); [[w.zhou-enlai-waijiao-huodong]], 413 (July 10, 1964; 下午3时30分, 国宾馆, 第一次会谈); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 349 (July 10–11, 1964; Zhou and Chen Yi visit Burma; Zhou holds talks with Ne Win, chairman of the Revolutionary Council, on matters of common concern and current international questions, above all Southeast Asia); [[w.chen-yi-nianpu]], 1038–1039 (July 10, 1964, morning, Chen Yi with Zhou from Kunming; at Rangoon at 10:30). Made public: 1993. Names: Zhou Enlai, Chen Yi, Ne Win.'
     src:
       c: e64392b6
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 655: ?'
         - 'w.zhou-enlai-waijiao-huodong 413: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 349: A'
+        - 'w.chen-yi-nianpu 1038–1039: ?'
     tags: [name:zhou-enlai, name:chen-yi, name:ne-win, polity:prc, polity:burma, vis:only:prc+burma]
     time_range:
       - 1964-07-09T23:30Z
@@ -3144,6 +3178,13 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1820: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1964-07-10.china-leadership-12
+    when: July 10
+    date: '1964-07-10'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Dugersuren 杜格尔苏伦, Mongolia's Foreign Minister, on the forty-third anniversary of the Mongolian People's Revolution.
+    n: '[[w.chen-yi-nianpu]], 1038. Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi, ok:fields-place]
   - id: cal.1964-07-11.civil-rights-the-executive
     when: July 11
     date: '1964-07-11'
@@ -3317,12 +3358,13 @@ entries:
     date: '1964-07-11'
     thread: china-leadership
     c: Zhou signs the Chinese–Burmese joint communiqué.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 656 (July 11, 1964); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 349 (July 11, 1964; the joint communique: the two leaders are deeply concerned at the worsening situation in Southeast Asia, above all in South Vietnam and Laos, and resolve to seek its peaceful settlement; a conference of the 14 states of the Geneva agreement on Laos should be convened; the obligations of Article 3 of the China–Burma treaty of friendship and mutual nonaggression stressed (the editors'' note: neither to commit aggression against the other or join a military alliance against it)). Names: Zhou Enlai, Ne Win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 656 (July 11, 1964); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 349 (July 11, 1964; the joint communique: the two leaders are deeply concerned at the worsening situation in Southeast Asia, above all in South Vietnam and Laos, and resolve to seek its peaceful settlement; a conference of the 14 states of the Geneva agreement on Laos should be convened; the obligations of Article 3 of the China–Burma treaty of friendship and mutual nonaggression stressed (the editors'' note: neither to commit aggression against the other or join a military alliance against it)); [[w.chen-yi-nianpu]], 1039 (July 11, 1964; the joint communiqué issued). Names: Zhou Enlai, Ne Win.'
     src:
       c: 1029a4ca
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 656: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 349: A'
+        - 'w.chen-yi-nianpu 1039: ?'
     tags: [name:zhou-enlai, name:ne-win, polity:prc, polity:burma]
   - id: cal.1964-07-11.china-leadership-3
     when: July 11
@@ -3571,12 +3613,13 @@ entries:
       - shanghai
     thread: china-leadership
     c: Zhou and Chen Yi end the Burma visit, leave Rangoon at dawn, reach Shanghai the same day.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 656 (July 12, 1964); [[w.zhou-enlai-waijiao-huodong]], 413 (July 12, 1964; 清晨, 结束在缅甸的友好访问, 乘专机离仰光回国); [[w.zhou-enlai-waijiao-huodong]], 413 (July 14, 1964; 上午, 乘专机回到北京). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 656 (July 12, 1964); [[w.zhou-enlai-waijiao-huodong]], 413 (July 12, 1964; 清晨, 结束在缅甸的友好访问, 乘专机离仰光回国); [[w.zhou-enlai-waijiao-huodong]], 413 (July 14, 1964; 上午, 乘专机回到北京); [[w.chen-yi-nianpu]], 1039 (July 12, 1964, early morning; Chen Yi with Zhou leaves Rangoon). Names: Zhou Enlai, Chen Yi.'
     src:
       c: c3b5eb7e
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 656: ?'
         - 'w.zhou-enlai-waijiao-huodong 413: A'
+        - 'w.chen-yi-nianpu 1039: ?'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:burma]
     time_range:
       - 1964-07-11T22:30Z
@@ -4163,7 +4206,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou returns to Beijing.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 656 (July 14, 1964); [[w.peng-zhen-nianpu-1902]], IV, 343 (July 14, 1964, morning; Peng Zhen at the airport meeting Zhou Enlai and Chen Yi back from Burma). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 656 (July 14, 1964); [[w.peng-zhen-nianpu-1902]], IV, 343 (July 14, 1964, morning; Peng Zhen at the airport meeting Zhou Enlai and Chen Yi back from Burma); [[w.chen-yi-nianpu]], 1039 (July 14, 1964, morning; Chen Yi back in Peking). Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc]
     time_range:
       - 1964-07-13T22:00Z
@@ -4202,11 +4245,12 @@ entries:
     thread: china-leadership
     also: [china, middle-east]
     c: Peking. Zhou Enlai attends the national day reception given by the Iraqi Ambassador, Amin.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 413 (July 14, 1964; 中午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 413 (July 14, 1964; 中午); [[w.chen-yi-nianpu]], 1039 (July 14, 1964, noon, the Peking Hotel; Chen Yi speaks). Names: Zhou Enlai.'
     src:
       c: fb93aca4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 413: all'
+        - 'w.chen-yi-nianpu 1039: ?'
     tags: [polity:prc, polity:iraq, name:zhou-enlai]
     time_range:
       - 1964-07-14T04:00Z
@@ -4220,13 +4264,14 @@ entries:
     thread: china-leadership
     also: [china, europe-and-the-alliance-france]
     c: Peking. Zhou Enlai attends the national day reception given by the French Ambassador, Paye.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 413 (July 14, 1964; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 350 (July 14, 1964; the French ambassador Paye''s national day reception; Chen Yi speaks: he condemns the U.S. armed interference in Laos, its widening of the war against South Vietnam and its obstruction of the 14-nation conference on Laos; force against revolutionary peoples brings the U.S. ever more tragic failure; the conference must meet sooner or later, the sooner the better); [[w.peng-zhen-nianpu-1902]], IV, 343–344 (July 14, 1964, evening; Peng Zhen at the French Ambassador Lucien Paye''s banquet for France''s national day). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 413 (July 14, 1964; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 350 (July 14, 1964; the French ambassador Paye''s national day reception; Chen Yi speaks: he condemns the U.S. armed interference in Laos, its widening of the war against South Vietnam and its obstruction of the 14-nation conference on Laos; force against revolutionary peoples brings the U.S. ever more tragic failure; the conference must meet sooner or later, the sooner the better); [[w.peng-zhen-nianpu-1902]], IV, 343–344 (July 14, 1964, evening; Peng Zhen at the French Ambassador Lucien Paye''s banquet for France''s national day); [[w.chen-yi-nianpu]], 1039 (July 14, 1964, evening; Chen Yi speaks: a good beginning in Sino-French relations; condemns the American armed intervention in Laos and the widening of the war in South Vietnam; the fourteen-nation conference better called soon). Names: Zhou Enlai.'
     src:
       c: 8f221b8f
       rows:
         - 'w.zhou-enlai-waijiao-huodong 413: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 350: B'
         - 'w.peng-zhen-nianpu-1902 IV, 343–344: ?'
+        - 'w.chen-yi-nianpu 1039: ?'
     tags: [polity:prc, polity:fr, name:zhou-enlai]
     time_range:
       - 1964-07-14T11:00Z
@@ -4528,12 +4573,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou receives Waheeduzzaman, Pakistan''s minister of commerce. More work remains to rouse all the people to self-reliance and sacrifice; new states need that spirit and also friendly cooperation on equal benefit and Bandung''s ten principles. China will lend, on terms unlike America''s, no privilege or preference: no interest, long term, repayment may be deferred, or not repaid at all; it lends to build a national economy, not to burden.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 656 (July 15, 1964); [[w.zhou-enlai-waijiao-huodong]], 414 (July 15, 1964; 上午11时, 中南海西花厅). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 656 (July 15, 1964); [[w.zhou-enlai-waijiao-huodong]], 414 (July 15, 1964; 上午11时, 中南海西花厅); [[w.chen-yi-nianpu]], 1039 (July 15, 1964, morning; Chen Yi with Zhou receives Waheeduzzaman 瓦希杜扎曼 and his party). Made public: 1993. Names: Zhou Enlai.'
     src:
       c: d888b255
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 656: ?'
         - 'w.zhou-enlai-waijiao-huodong 414: A'
+        - 'w.chen-yi-nianpu 1039: ?'
     tags: [name:zhou-enlai, polity:prc, polity:pakistan, vis:only:prc+pakistan]
     time_zone: Asia/Shanghai
   - id: cal.1964-07-15.china-leadership-3
@@ -4556,11 +4602,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai attends the farewell dinner given by Waheeduzzaman, Pakistan's Minister of Commerce.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 414 (July 15, 1964; 晚上). See [[cal.1964-07-15.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 414 (July 15, 1964; 晚上); [[w.chen-yi-nianpu]], 1039 (July 15, 1964, evening; Chen Yi present). See [[cal.1964-07-15.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 5d1b3034
       rows:
         - 'w.zhou-enlai-waijiao-huodong 414: all'
+        - 'w.chen-yi-nianpu 1039: ?'
     tags: [polity:prc, polity:pakistan, name:zhou-enlai]
     time_range:
       - 1964-07-15T11:00Z
@@ -5243,12 +5290,13 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai attends the reception given by the envoys of Morocco, the UAR, Mali, Guinea, Kenya and Ghana on the convening of the second summit conference of African states.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 414 (July 17, 1964; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 351 (July 17, 1964; the African envoys'' reception, Zhou attending; Chen Yi speaks: China''s congratulations on the second conference of African heads of state; African and Asian–African unity the peoples'' highest interest; a good African summit will help a good second Asian–African conference). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 414 (July 17, 1964; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 351 (July 17, 1964; the African envoys'' reception, Zhou attending; Chen Yi speaks: China''s congratulations on the second conference of African heads of state; African and Asian–African unity the peoples'' highest interest; a good African summit will help a good second Asian–African conference); [[w.chen-yi-nianpu]], 1039 (July 17, 1964, afternoon; Chen Yi with Zhou; Chen Yi speaks: African unity and Asian–African unity the highest interests of the peoples; a good second African summit strengthens the second Asian–African conference). Names: Zhou Enlai.'
     src:
       c: 27abaf04
       rows:
         - 'w.zhou-enlai-waijiao-huodong 414: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 351: B'
+        - 'w.chen-yi-nianpu 1039: ?'
     tags: [polity:morocco, polity:uar, polity:mali, polity:guinea, polity:kenya, polity:ghana, polity:prc, name:zhou-enlai]
     time_range:
       - 1964-07-17T04:00Z
@@ -5315,11 +5363,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真 accompanies Mao Zedong 毛泽东, Zhou Enlai 周恩来 and others in receiving all the players and observers at the 1964 festival of Peking opera on contemporary themes, the delegates to the conference on political courses in colleges and schools, and the Xinjiang class graduating from the Central Academy of Drama.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 344. The words: 下午 (IV, 344). Names: Peng Zhen, Mao Zedong, Zhou Enlai.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 344; [[w.chen-yi-nianpu]], 1039 (July 17, 1964, afternoon; Chen Yi with Mao, Zhou, Peng Zhen and others; the delegates to the conference on political theory courses in the universities and middle schools, and the Central Drama Academy''s Xinjiang class graduates). The words: 下午 (IV, 344). Names: Peng Zhen, Mao Zedong, Zhou Enlai.'
     src:
       c: e46c9c03
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 344: all'
+        - 'w.chen-yi-nianpu 1039: ?'
     tags: [polity:prc, name:peng-zhen, name:mao-zedong, name:zhou-enlai]
     time_range:
       - 1964-07-17T04:00Z
@@ -5357,6 +5406,14 @@ entries:
         - 'via x.1964-06-30.prc-embassy-congo-brazzaville-mfa-june-30-2: ?'
         - 'via x.1964-07-17.mfa-embassies-uar-tanzania-kenya-congo-brazzaville: ?'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1964-07-17.china-leadership-9
+    when: July 17
+    date: '1964-07-17'
+    thread: china-leadership
+    also: [cuba]
+    c: Chen Yi 陈毅 receives the heads of the Cuban delegation of national labor heroes and advanced workers, 埃克托·马丁内斯 and 洛威特·卡布雷拉, and its members.
+    n: '[[w.chen-yi-nianpu]], 1039. Names: Chen Yi.'
+    tags: [polity:prc, polity:cuba, name:chen-yi, ok:fields-place]
   - id: cal.1964-07-18.states-and-cities
     when: July 18–22
     date: '1964-07-18'
@@ -5697,11 +5754,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Chen Yi, Foreign Minister, replies to Xuân Thủy, Foreign Minister of the DRV, that the Chinese government and people fully agree with and firmly support the reasonable propositions and just demands in the DRV government's statement of July 15.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 351 (July 19, 1964). Names: Chen Yi, Xuân Thủy.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 351 (July 19, 1964); [[w.chen-yi-nianpu]], 1040 (July 19, 1964; the reply to Xuân Thủy''s letter of July 15). Names: Chen Yi, Xuân Thủy.'
     src:
       c: 2bad31a0
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 351: all'
+        - 'w.chen-yi-nianpu 1040: ?'
     tags: [polity:prc, polity:drv, name:chen-yi, name:xuan-thuy]
   - id: cal.1964-07-19.china-leadership-5
     when: July 19
@@ -6468,6 +6526,13 @@ entries:
     c: Saigon. A large general strike, July 21, against Nguyễn Khánh's decree of July 16 banning demonstrations, strikes and meetings, for the Vimytex workers.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 356.'
     tags: [polity:drv]
+  - id: cal.1964-07-21.china-leadership-9
+    when: July 21
+    date: '1964-07-21'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Adam Rapacki 亚当·腊帕茨基, Poland's Foreign Minister, on the twentieth anniversary of Poland's rebirth.
+    n: '[[w.chen-yi-nianpu]], 1040. Names: Chen Yi, Rapacki.'
+    tags: [polity:prc, polity:poland, name:chen-yi, name:rapacki-adam, ok:fields-place]
   - id: cal.1964-07-22.amendments
     when: July 22
     date: '1964-07-22'
@@ -6847,6 +6912,14 @@ entries:
       - 1964-07-22T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-07-22.china-leadership-6
+    when: July 22
+    date: '1964-07-22'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Chen Yi 陈毅, with Liu Shaoqi 刘少奇, Wang Guangmei 王光美, Chen Pixian 陈丕显, Wei Wenbo 魏文伯, Cao Diqiu 曹荻秋 and others, sees the Huai opera 淮剧 *Morning in the harbor* 《海港的早晨》.
+    n: '[[w.chen-yi-nianpu]], 1040. Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, name:chen-yi, name:liu-shaoqi]
   - id: cal.1964-07-23.poverty
     when: July 23
     date: '1964-07-23'
@@ -7455,6 +7528,46 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 345–346: all'
     tags: [polity:prc, name:peng-zhen, name:mao-zedong, name:chen-boda, vis:only:prc]
+  - id: cal.1964-07-24.china-leadership-6
+    when: July 24
+    date: '1964-07-24'
+    place: shanghai
+    thread: china-leadership
+    also: [south-asia]
+    c: Shanghai 上海. Chen Yi 陈毅 receives 阿里 of the Pakistani *Dawn* 《黎明报》 and answers his questions.
+    n: '[[w.chen-yi-nianpu]], 1040. The words: 下午 (1040). Names: Chen Yi.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi]
+    time_range:
+      - 1964-07-24T04:00Z
+      - 1964-07-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-07-24.china-leadership-7
+    when: July 24
+    date: '1964-07-24'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Chen Yi 陈毅 receives 包蒂什 of the Austrian *Kurier* 《信使报》 and answers his questions.
+    n: '[[w.chen-yi-nianpu]], 1040. The words: 下午 (1040). Names: Chen Yi.'
+    tags: [polity:prc, polity:austria, name:chen-yi]
+    time_range:
+      - 1964-07-24T04:00Z
+      - 1964-07-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-07-24.china-leadership-8
+    when: July 24
+    date: '1964-07-24'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Chen Yi 陈毅 receives the Chinese Art Ensemble 中国艺术团, led by Jin Zhonghua 金仲华, back from abroad, praises its work for friendship with the peoples of Europe, and gives it a banquet.
+    n: '[[w.chen-yi-nianpu]], 1040. The words: 晚上 (1040). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1964-07-24T11:00Z
+      - 1964-07-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-07-25.elections-1964
     when: July 25
     date: '1964-07-25'
