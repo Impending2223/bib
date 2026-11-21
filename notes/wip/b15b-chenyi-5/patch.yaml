@@ -215,6 +215,63 @@ ops:
     base: 5847aa0a
     set:
       place: algiers
+- edit:
+    id: cal.1965-09-09.china-leadership-3
+    base: 1faea2fa
+    set:
+      place: bamako
+- edit:
+    id: cal.1965-09-15.china-leadership-4
+    base: 5029d7ce
+    set:
+      place: conakry
+- edit:
+    id: cal.1965-09-20.china-leadership
+    base: 989f17b5
+    set:
+      time_range:
+      - 1965-09-20T01:30Z
+      - 1965-09-20T07:30Z
+      time_band: morning
+      time_zone: Asia/Kabul
+- edit:
+    id: cal.1965-09-29.china-leadership-5
+    base: aa50ccda
+    set:
+      time_range:
+      - 1965-09-29T04:00Z
+      - 1965-09-29T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+- edit:
+    id: cal.1965-10-10.china-leadership-3
+    base: '79107044'
+    set:
+      time_range:
+      - 1965-10-09T22:00Z
+      - 1965-10-10T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-10-13.china-leadership
+    base: 69c67941
+    set:
+      time_range:
+      - 1965-10-13T11:00Z
+      - 1965-10-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- place-key:
+    key: segou
+    name: Ségou
+    zone: Africa/Bamako
+    in: mali
+- place-key:
+    key: xuzhou
+    name: Xuzhou
+    zone: Asia/Shanghai
+    in: prc
 - add:
     entry:
       id: cal.1965-04-09.china-leadership-9
@@ -3416,6 +3473,978 @@ ops:
       - polity:mali
       - name:chen-yi
       - name:pham-van-dong
+- add:
+    entry:
+      id: cal.1965-09-11.china-leadership-9
+      when: Sept. 11
+      date: '1965-09-11'
+      time_range:
+      - 1965-09-11T12:00Z
+      - 1965-09-11T14:00Z
+      time_band: workday midday
+      time_zone: Africa/Bamako
+      place: bamako
+      thread: china-leadership
+      also:
+      - africa
+      c: Bamako 巴马科. Ousmane Ba 乌斯曼·巴, Mali's minister-delegate at the presidency for foreign affairs, gives a luncheon for Chen Yi 陈毅 and his party.
+      n: '[[w.chen-yi-nianpu]], 1120. The words: 中午 (1120). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-11.china-leadership-10
+      when: Sept. 11
+      date: '1965-09-11'
+      time_range:
+      - 1965-09-11T12:00Z
+      - 1965-09-11T18:00Z
+      time_band: afternoon
+      time_zone: Africa/Bamako
+      place: bamako
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 sees Bamako 巴马科 and the Djoliba 吉奥利巴 cigarette factory built with Chinese aid.
+      n: '[[w.chen-yi-nianpu]], 1120. The words: 下午 (1120). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-11.china-leadership-11
+      when: Sept. 11
+      date: '1965-09-11'
+      time_range:
+      - 1965-09-11T19:00Z
+      - 1965-09-11T22:00Z
+      time_band: evening
+      time_zone: Africa/Bamako
+      place: bamako
+      thread: china-leadership
+      c: Bamako 巴马科. Chen Yi 陈毅 receives the staff of the Chinese embassy and some of the Chinese experts working in Mali, is photographed with them and urges the experts to work well.
+      n: '[[w.chen-yi-nianpu]], 1120. The words: 晚上 (1120). Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1965-09-13.china-leadership-7
+      when: Sept. 13
+      date: '1965-09-13'
+      place: segou
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 visits Ségou 塞古, Mali's second city, and the site of the sugar works at 杜加布古 nearby.
+      n: '[[w.chen-yi-nianpu]], 1121. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-13.china-leadership-8
+      when: Sept. 13
+      date: '1965-09-13'
+      time: 1965-09-13T08:00Z
+      time_zone: Africa/Bamako
+      place: segou
+      thread: china-leadership
+      also:
+      - africa
+      c: Ségou 塞古. Chen Yi 陈毅 speaks at the mass rally in the square, congratulating Mali on its victories.
+      n: '[[w.chen-yi-nianpu]], 1121. The words: 上午8时 (1121). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-14.china-leadership-5
+      when: Sept. 14
+      date: '1965-09-14'
+      time_range:
+      - 1965-09-14T06:00Z
+      - 1965-09-14T12:00Z
+      time_band: morning
+      time_zone: Africa/Bamako
+      place: bamako
+      thread: china-leadership
+      also:
+      - africa
+      c: Bamako 巴马科. Chen Yi 陈毅 meets Mali's ministers and the members of the Sudanese Union's national political bureau.
+      n: '[[w.chen-yi-nianpu]], 1121. The words: 上午 (1121). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-14.china-leadership-6
+      when: Sept. 14
+      date: '1965-09-14'
+      time_range:
+      - 1965-09-14T12:00Z
+      - 1965-09-14T18:00Z
+      time_band: afternoon
+      time_zone: Africa/Bamako
+      place: bamako
+      thread: china-leadership
+      also:
+      - africa
+      c: Bamako 巴马科. Modibo Keita receives Chen Yi 陈毅 a second time.
+      n: '[[w.chen-yi-nianpu]], 1121. The words: 下午 (1121). Names: Chen Yi, Keita.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - name:chen-yi
+      - name:keita-modibo
+- add:
+    entry:
+      id: cal.1965-09-14.china-leadership-7
+      when: Sept. 14
+      date: '1965-09-14'
+      time_range:
+      - 1965-09-14T19:00Z
+      - 1965-09-14T22:00Z
+      time_band: evening
+      time_zone: Africa/Bamako
+      place: bamako
+      thread: china-leadership
+      also:
+      - africa
+      c: Bamako 巴马科. Jean-Marie Koné 让-马里·科奈, Mali's acting President, gives a reception for Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1121. The words: 晚上 (1121). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-15.china-leadership-12
+      when: Sept. 15
+      date: '1965-09-15'
+      time_range:
+      - 1965-09-15T06:00Z
+      - 1965-09-15T12:00Z
+      time_band: morning
+      time_zone: Africa/Bamako
+      place: bamako
+      thread: china-leadership
+      also:
+      - africa
+      c: 'Chen Yi 陈毅 leaves Bamako 巴马科 for a friendly visit to Guinea; to the Malian press at the airport: agreement in the talks with Mali''s leaders, both resolved to go on with the common fight against imperialism and colonialism and to make the second Asian–African conference a success; he speaks at length on economic and technical cooperation.'
+      n: '[[w.chen-yi-nianpu]], 1121. The words: 上午 (1121). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - polity:guinea
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-15.china-leadership-13
+      when: Sept. 15
+      date: '1965-09-15'
+      thread: china-leadership
+      also:
+      - africa
+      c: On the way to Guinea, Chen Yi 陈毅 cables Jean-Marie Koné 让-马里·科奈 and Ousmane Ba 乌斯曼·巴 his thanks for their reception.
+      n: '[[w.chen-yi-nianpu]], 1121. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-09-15.china-leadership-14
+      when: Sept. 15
+      date: '1965-09-15'
+      place: conakry
+      thread: china-leadership
+      also:
+      - africa
+      c: 'Conakry 科纳克里. Chen Yi 陈毅 gives an interview to the Democratic Party of Guinea''s paper *Horoya* 《自由报》 and the radio "Voice of the Revolution": wishes Guinea greater victories against imperialism and colonialism and in building; China is Guinea''s most reliable friend.'
+      n: '[[w.chen-yi-nianpu]], 1121. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:guinea
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-15.china-leadership-15
+      when: Sept. 15
+      date: '1965-09-15'
+      time_range:
+      - 1965-09-15T19:00Z
+      - 1965-09-15T22:00Z
+      time_band: evening
+      time_zone: Africa/Conakry
+      place: conakry
+      thread: china-leadership
+      c: Conakry 科纳克里. Chen Yi 陈毅 receives the staff of the Chinese embassy and the Chinese experts working in Guinea.
+      n: '[[w.chen-yi-nianpu]], 1121. The words: 晚上 (1121). Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1965-09-15.china-leadership-16
+      when: Sept. 15
+      date: '1965-09-15'
+      time_range:
+      - 1965-09-15T19:00Z
+      - 1965-09-15T22:00Z
+      time_band: evening
+      time_zone: Africa/Conakry
+      place: conakry
+      thread: china-leadership
+      also:
+      - africa
+      c: Conakry 科纳克里. Sékou Touré and his wife give an arts evening for Chen Yi 陈毅 and his party, the Djoliba 佐利巴 National Ballet.
+      n: '[[w.chen-yi-nianpu]], 1121. The words: 晚上 (1121). Names: Chen Yi, Touré.'
+      tags:
+      - polity:prc
+      - polity:guinea
+      - name:chen-yi
+      - name:toure-ahmed-sekou
+- add:
+    entry:
+      id: cal.1965-09-16.china-leadership-5
+      when: Sept. 16
+      date: '1965-09-16'
+      place: conakry
+      thread: china-leadership
+      also:
+      - africa
+      c: Conakry 科纳克里. Sékou Touré gives a luncheon for Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1121. Names: Chen Yi, Touré.'
+      tags:
+      - polity:prc
+      - polity:guinea
+      - name:chen-yi
+      - name:toure-ahmed-sekou
+- add:
+    entry:
+      id: cal.1965-09-17.china-leadership-4
+      when: Sept. 17
+      date: '1965-09-17'
+      time_range:
+      - 1965-09-17T06:00Z
+      - 1965-09-17T12:00Z
+      time_band: morning
+      time_zone: Africa/Conakry
+      place: conakry
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 leaves Conakry 科纳克里 for home, cabling Lansana Béavogui 朗萨纳·贝阿沃吉, Guinea's Foreign Minister, his thanks for the welcome.
+      n: '[[w.chen-yi-nianpu]], 1122. The words: 上午 (1122). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:guinea
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-17.china-leadership-5
+      when: Sept. 17
+      date: '1965-09-17'
+      time_range:
+      - 1965-09-17T12:00Z
+      - 1965-09-17T18:00Z
+      time_band: afternoon
+      time_zone: Africa/Algiers
+      place: algiers
+      thread: china-leadership
+      also:
+      - africa
+      c: On the way home Chen Yi 陈毅 reaches Algiers 阿尔及尔.
+      n: '[[w.chen-yi-nianpu]], 1122. The words: 下午 (1122). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:algeria
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-17.china-leadership-6
+      when: Sept. 17
+      date: '1965-09-17'
+      time_range:
+      - 1965-09-17T19:00Z
+      - 1965-09-17T22:00Z
+      time_band: evening
+      time_zone: Africa/Algiers
+      place: algiers
+      thread: china-leadership
+      c: Algiers 阿尔及尔. Chen Yi 陈毅 receives the staff of the Chinese embassy and the Chinese experts and students in Algeria, and is photographed with them.
+      n: '[[w.chen-yi-nianpu]], 1122. The words: 晚上 (1122). Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1965-09-18.china-leadership-7
+      when: Sept. 18
+      date: '1965-09-18'
+      time_range:
+      - 1965-09-18T06:00Z
+      - 1965-09-18T12:00Z
+      time_band: morning
+      time_zone: Africa/Algiers
+      place: algiers
+      thread: china-leadership
+      c: Chen Yi 陈毅 leaves Algiers 阿尔及尔.
+      n: '[[w.chen-yi-nianpu]], 1122. The words: 上午 (1122). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:algeria
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-18.china-leadership-8
+      when: Sept. 18
+      date: '1965-09-18'
+      time_range:
+      - 1965-09-18T09:00Z
+      - 1965-09-18T15:00Z
+      time_band: afternoon
+      time_zone: Asia/Damascus
+      place: damascus
+      thread: china-leadership
+      c: On the way home Chen Yi 陈毅 reaches Damascus 大马士革.
+      n: '[[w.chen-yi-nianpu]], 1122. The words: 下午 (1122). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:syria
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-19.china-leadership-3
+      when: Sept. 19
+      date: '1965-09-19'
+      time_range:
+      - 1965-09-19T16:00Z
+      - 1965-09-19T19:00Z
+      time_band: evening
+      time_zone: Asia/Damascus
+      place: damascus
+      thread: china-leadership
+      c: Chen Yi 陈毅 leaves Damascus 大马士革.
+      n: '[[w.chen-yi-nianpu]], 1122. The words: 晚上 (1122). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:syria
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-19.china-leadership-4
+      when: Sept. 19–20
+      date: '1965-09-19'
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Flying over Iran and Iraq, Chen Yi 陈毅 cables his greetings to Abbas Aram, Iran's Foreign Minister, and Abd al-Rahman al-Bazzaz 阿卜杜勒·拉赫曼·巴扎兹, Iraq's Foreign Minister, and through them his good wishes to the Shah and to President Abd al-Salam Arif.
+      n: '[[w.chen-yi-nianpu]], 1122. Names: Chen Yi, Aram, Bazzaz.'
+      tags:
+      - polity:prc
+      - polity:iran
+      - polity:iraq
+      - name:chen-yi
+      - name:aram-abbas
+      - name:bazzaz-abdul-rahman-al
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-09-21.china-leadership-7
+      when: Sept. 21
+      date: '1965-09-21'
+      time_range:
+      - 1965-09-21T04:00Z
+      - 1965-09-21T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: chengdu
+      thread: china-leadership
+      c: Chen Yi 陈毅 is back at Chengdu 成都.
+      n: '[[w.chen-yi-nianpu]], 1122. The words: 中午 (1122). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-22.china-leadership-5
+      when: Sept. 22
+      date: '1965-09-22'
+      time_range:
+      - 1965-09-22T11:00Z
+      - 1965-09-22T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: chengdu
+      thread: china-leadership
+      c: Chen Yi 陈毅 at the airport to welcome Prince Sihanouk, Cambodia's head of state, and his wife to Chengdu 成都.
+      n: '[[w.chen-yi-nianpu]], 1122. The words: 晚上 (1122). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1965-09-23.china-leadership-8
+      when: Sept. 23
+      date: '1965-09-23'
+      time_range:
+      - 1965-09-22T22:00Z
+      - 1965-09-23T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Chen Yi 陈毅 takes Prince Sihanouk to Du Fu's Cottage 杜甫草堂.
+      n: '[[w.chen-yi-nianpu]], 1122. The words: 上午 (1122). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1965-09-23.china-leadership-9
+      when: Sept. 23
+      date: '1965-09-23'
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Chen Yi 陈毅 takes Prince Sihanouk to the Southwest Nationalities Institute 西南民族学院.
+      n: '[[w.chen-yi-nianpu]], 1122. Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1965-09-23.china-leadership-10
+      when: Sept. 23
+      date: '1965-09-23'
+      time_range:
+      - 1965-09-23T04:00Z
+      - 1965-09-23T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Chen Yi 陈毅 and his wife give a banquet for Prince Sihanouk and his wife.
+      n: '[[w.chen-yi-nianpu]], 1122. The words: 中午 (1122). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1965-09-23.china-leadership-11
+      when: Sept. 23
+      date: '1965-09-23'
+      time_range:
+      - 1965-09-23T04:00Z
+      - 1965-09-23T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Chen Yi 陈毅 watches the friendly table tennis match of the Cambodian sports delegation's team and the Chengdu team.
+      n: '[[w.chen-yi-nianpu]], 1122. The words: 下午 (1122). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-09-23.china-leadership-12
+      when: Sept. 23
+      date: '1965-09-23'
+      time_range:
+      - 1965-09-23T11:00Z
+      - 1965-09-23T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: chengdu
+      thread: china-leadership
+      c: 'Chengdu 成都. Chen Yi 陈毅 speaks at the banquet of Li Dazhang 李大章, Sichuan''s 四川 governor, and his wife for Prince Sihanouk: the Chinese people welcome the Prince, who has always upheld justice and best understands and sympathizes with China; they firmly support Cambodia''s foreign policy and stand with its people.'
+      n: '[[w.chen-yi-nianpu]], 1122–1123. The words: 晚上 (1122–1123). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1965-09-24.china-leadership-11
+      when: Sept. 24
+      date: '1965-09-24'
+      time_range:
+      - 1965-09-23T22:00Z
+      - 1965-09-24T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place:
+      - chengdu
+      - chongqing
+      thread: china-leadership
+      c: Chen Yi 陈毅 takes Prince Sihanouk from Chengdu 成都 to Chongqing 重庆.
+      n: '[[w.chen-yi-nianpu]], 1123. The words: 上午 (1123). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1965-09-25.china-leadership-6
+      when: Sept. 25
+      date: '1965-09-25'
+      time_range:
+      - 1965-09-24T22:00Z
+      - 1965-09-25T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: chongqing
+      thread: china-leadership
+      c: Chen Yi 陈毅 takes Prince Sihanouk to the Chongqing 重庆 industrial exhibition.
+      n: '[[w.chen-yi-nianpu]], 1123. The words: 上午 (1123). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1965-09-27.china-leadership-11
+      when: Sept. 27
+      date: '1965-09-27'
+      thread: china-leadership
+      c: On the Yangtze 长江, Chen Yi 陈毅 holds talks with Penn Nouth 宾努, private adviser to Cambodia's head of state.
+      n: '[[w.chen-yi-nianpu]], 1123. Made public: 1995. Names: Chen Yi, Penn Nouth.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:penn-nouth
+      - ok:fields-place
+      - vis:only:prc+cambodia
+- add:
+    entry:
+      id: cal.1965-09-29.china-leadership-11
+      when: Sept. 29
+      date: '1965-09-29'
+      thread: china-leadership
+      c: Prince Norodom Kantol, Cambodia's Foreign Minister, cables Chen Yi 陈毅 on the sixteenth anniversary of the People's Republic.
+      n: '[[w.chen-yi-nianpu]], 1125. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-kantol
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-09-30.china-leadership-15
+      when: Sept. 30
+      date: '1965-09-30'
+      thread: china-leadership
+      c: For the sixteenth anniversary of the People's Republic, the Foreign Ministers of Albania, Bulgaria, Hungary, the DRV, the GDR, the DPRK, Mongolia, Poland, the Soviet Union, Czechoslovakia, Indonesia, Pakistan, Burma, Algeria and other countries cable Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1125. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:albania
+      - polity:bulgaria
+      - polity:hungary
+      - polity:drv
+      - polity:gdr
+      - polity:dprk
+      - polity:mongolia
+      - polity:poland
+      - polity:ussr
+      - polity:czechoslovakia
+      - polity:indonesia
+      - polity:pakistan
+      - polity:burma
+      - polity:algeria
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-09-30.china-leadership-16
+      when: Sept. 30
+      date: '1965-09-30'
+      time_range:
+      - 1965-09-29T22:00Z
+      - 1965-09-30T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Mao Zedong 毛泽东 and Liu Shaoqi 刘少奇 receive the Indonesian guests, Chen Yi 陈毅 and others present.
+      n: '[[w.chen-yi-nianpu]], 1125. The words: 上午 (1125). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-09-30.china-leadership-17
+      when: Sept. 30
+      date: '1965-09-30'
+      time_range:
+      - 1965-09-29T22:00Z
+      - 1965-09-30T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Mao Zedong 毛泽东 and Liu Shaoqi 刘少奇 receive the Pakistani friendship delegation led by Ghulam Faruque 吴拉姆·法鲁克, Minister of Commerce, and Asghar Khan 阿斯加尔·汗, Director General of Civil Aviation and Tourism and managing director of Pakistan International Airlines, and his wife, Chen Yi 陈毅 and others present.
+      n: '[[w.chen-yi-nianpu]], 1125. The words: 上午 (1125). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-09-30.china-leadership-18
+      when: Sept. 30
+      date: '1965-09-30'
+      time_range:
+      - 1965-09-30T04:00Z
+      - 1965-09-30T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 and his wife receive and give a luncheon for 米辛契斯库, Romania's Deputy Foreign Minister, and his wife.
+      n: '[[w.chen-yi-nianpu]], 1125. The words: 中午 (1125). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:romania
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-10-01.china-leadership-5
+      when: Oct. 1
+      date: '1965-10-01'
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 cables Lansana Béavogui 贝阿沃吉, Guinea's Foreign Minister, on the seventh anniversary of the Republic of Guinea.
+      n: '[[w.chen-yi-nianpu]], 1126. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:guinea
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-10-01.china-leadership-6
+      when: Oct. 1
+      date: '1965-10-01'
+      place: xuzhou
+      thread: china-leadership
+      c: 'The memorial tower to the martyrs of the Huaihai campaign 淮海战役烈士纪念塔 at Xuzhou 徐州, Jiangsu 江苏, is finished (it opens on Nov. 6, the campaign''s seventeenth anniversary). Its inscription is Chen Yi''s 陈毅: the campaign of Nov. 6, 1948, to Jan. 10, 1949, around Xuzhou, sixty-five days of fighting, five army groups, twenty-two armies and fifty-six divisions of the enemy, over 555,000 men, destroyed.'
+      n: '[[w.chen-yi-nianpu]], 1126. Names: Chen Yi. Check: the day the tower was finished: the nianpu enters it under Oct. 1, 1965, without its own date.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-11-06.china-leadership-9
+      when: Nov. 6
+      date: '1965-11-06'
+      place: xuzhou
+      thread: china-leadership
+      c: The memorial tower to the martyrs of the Huaihai campaign 淮海战役烈士纪念塔 at Xuzhou 徐州, its inscription by Chen Yi 陈毅, opens on the seventeenth anniversary of the campaign's start.
+      n: '[[w.chen-yi-nianpu]], 1126. See [[cal.1965-10-01.china-leadership-6]]. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-10-02.china-leadership-6
+      when: Oct. 2
+      date: '1965-10-02'
+      time_range:
+      - 1965-10-01T22:00Z
+      - 1965-10-02T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 and his wife take Prince Sihanouk and his wife to the China Dance School 中国舞蹈学校 and the Peking Ballet School 北京芭蕾舞蹈学校.
+      n: '[[w.chen-yi-nianpu]], 1126. The words: 上午 (1126). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-10-02.china-leadership-7
+      when: Oct. 2
+      date: '1965-10-02'
+      thread: china-leadership
+      c: Chen Yi 陈毅 at the reception of Peng Zhen 彭真, Politburo member, first secretary of the Peking Party committee and mayor of Peking 北京, for the teams of the provinces, cities, autonomous regions and the PLA at the Second National Games, their referees and staff; with Peng Zhen he receives the teams' heads and some of the best athletes, and toasts the games' achievements.
+      n: '[[w.chen-yi-nianpu]], 1126. Names: Chen Yi, Peng Zhen.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:peng-zhen
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-10-02.china-leadership-8
+      when: Oct. 2
+      date: '1965-10-02'
+      time_range:
+      - 1965-10-02T11:00Z
+      - 1965-10-02T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 gives a banquet for the Pakistani friendship delegation led by Ghulam Faruque 吴拉姆·法鲁克, Minister of Commerce, and for Air Marshal Asghar Khan 阿斯加尔·汗, Director General of Civil Aviation and Tourism, and his wife.
+      n: '[[w.chen-yi-nianpu]], 1126. The words: 晚上 (1126). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-10-02.china-leadership-9
+      when: Oct. 2
+      date: '1965-10-02'
+      time_range:
+      - 1965-10-02T11:00Z
+      - 1965-10-02T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 speaks at the reception of Camara Mamadi 卡马拉·马马迪, Guinea's Ambassador, for the seventh anniversary of the Republic of Guinea, on the growth of the two countries' cooperation; American imperialism tries to split the Asian and African forces against imperialism, so the Asian and African peoples must tell right from wrong, uphold justice and unite.
+      n: '[[w.chen-yi-nianpu]], 1127. The words: 晚上 (1127). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:guinea
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-10-03.china-leadership-6
+      when: Oct. 3
+      date: '1965-10-03'
+      time_range:
+      - 1965-10-03T11:00Z
+      - 1965-10-03T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 watches the Cambodian Royal Ballet led by Princess Bopha Devi 帕花·黛维, Prince Sihanouk's daughter.
+      n: '[[w.chen-yi-nianpu]], 1127. The words: 晚上 (1127). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-10-04.china-leadership-9
+      when: Oct. 4
+      date: '1965-10-04'
+      time_range:
+      - 1965-10-03T22:00Z
+      - 1965-10-04T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Zhou Enlai 周恩来 receives Chaerul Saleh 哈鲁尔·萨勒, chairman of Indonesia's provisional People's Consultative Congress, its vice-chairmen Ali Sastroamidjojo and 威路约·普斯波尤多, and the delegation's members 米尔扎·穆斯塔金 and 穆罕默德·扎伊拉尼; Chen Yi 陈毅 present.
+      n: '[[w.chen-yi-nianpu]], 1127. The words: 上午 (1127). Names: Zhou Enlai, Chaerul Saleh, Chen Yi, Ali Sastroamidjojo.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:zhou-enlai
+      - name:saleh-chaerul
+      - name:ali-sastroamidjojo
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-10-04.china-leadership-10
+      when: Oct. 4
+      date: '1965-10-04'
+      time_range:
+      - 1965-10-04T11:00Z
+      - 1965-10-04T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 at the return banquet of Ghulam Faruque 吴拉姆·法鲁克, Pakistan's Minister of Commerce, and Raza 罗查, Pakistan's Ambassador, for the friendship delegation's visit.
+      n: '[[w.chen-yi-nianpu]], 1127. The words: 晚上 (1127). Names: Chen Yi, Raza.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:raza-nawabzada-agha-mohammad
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-10-05.china-leadership-2
+      when: Oct. 5
+      date: '1965-10-05'
+      time_range:
+      - 1965-10-04T22:00Z
+      - 1965-10-05T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 receives Ghassan Kanafani 加桑·卡纳法尼, editor of the Lebanese *al-Muharrir* 《解放者》, and answers his questions.
+      n: '[[w.chen-yi-nianpu]], 1127–1128. The words: 上午 (1127–1128). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:lebanon
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-10-06.china-leadership-9
+      when: Oct. 6
+      date: '1965-10-06'
+      thread: china-leadership
+      c: Chen Yi 陈毅 cables Otto Winzer, the GDR's Foreign Minister, on the GDR's sixteenth anniversary.
+      n: '[[w.chen-yi-nianpu]], 1128. Names: Chen Yi, Winzer.'
+      tags:
+      - polity:prc
+      - polity:gdr
+      - name:chen-yi
+      - name:winzer-otto
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-10-07.china-leadership-6
+      when: Oct. 7
+      date: '1965-10-07'
+      time_range:
+      - 1965-10-07T11:00Z
+      - 1965-10-07T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 toasts at the reception of 柯尔特 (Kohrt), the GDR's Ambassador, for the GDR's sixteenth anniversary, promising unflagging work for the two peoples' friendship and cooperation on the basis of Marxism-Leninism and proletarian internationalism.
+      n: '[[w.chen-yi-nianpu]], 1128. The words: 晚上 (1128). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:gdr
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-10-10.china-leadership-7
+      when: Oct. 10
+      date: '1965-10-10'
+      time_range:
+      - 1965-10-10T11:00Z
+      - 1965-10-10T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: harbin
+      thread: china-leadership
+      c: Harbin 哈尔滨. Chen Yi 陈毅 at the banquet of Li Fanwu 李范五, Heilongjiang's 黑龙江 governor, for Prince Sihanouk.
+      n: '[[w.chen-yi-nianpu]], 1128. The words: 晚上 (1128). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1965-10-11.china-leadership-4
+      when: Oct. 11
+      date: '1965-10-11'
+      time_range:
+      - 1965-10-11T11:00Z
+      - 1965-10-11T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: harbin
+      thread: china-leadership
+      c: Harbin 哈尔滨. Chen Yi 陈毅 takes Prince Sihanouk to the evening given in his honor by the Heilongjiang provincial and Harbin city people's councils.
+      n: '[[w.chen-yi-nianpu]], 1128. The words: 晚上 (1128). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1965-10-12.china-leadership-6
+      when: Oct. 12
+      date: '1965-10-12'
+      time_range:
+      - 1965-10-12T11:00Z
+      - 1965-10-12T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: harbin
+      thread: china-leadership
+      c: Harbin 哈尔滨. Liu Shaoqi 刘少奇 and his wife give a banquet for Prince Sihanouk, Chen Yi 陈毅 present.
+      n: '[[w.chen-yi-nianpu]], 1128. The words: 晚上 (1128). Names: Liu Shaoqi, Sihanouk, Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:liu-shaoqi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1965-10-13.china-leadership-5
+      when: Oct. 13
+      date: '1965-10-13'
+      time_range:
+      - 1965-10-13T04:00Z
+      - 1965-10-13T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: kunming
+      thread: china-leadership
+      c: Chen Yi 陈毅 reaches Kunming 昆明 with Prince Sihanouk.
+      n: '[[w.chen-yi-nianpu]], 1128. The words: 下午 (1128). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
 - cite:
     id: cal.1965-04-09.china-leadership-2
     item: '[[w.chen-yi-nianpu]], 1096 (Apr. 9, 1965; Chen Yi at Sabri''s banquet for China''s leaders and speaks, wishing the friendship of China and the UAR for generations, praising Sabri''s condemnation of the American aggression in Vietnam)'
@@ -3734,3 +4763,99 @@ ops:
 - cite:
     id: cal.1965-09-07.china-leadership-3
     item: '[[w.chen-yi-nianpu]], 1119 (Sept. 7, 1965, morning, Chen Yi leaves Damascus and reaches Algiers; in the afternoon talks with Abdelaziz Bouteflika 阿卜杜勒·阿齐兹·布特弗利卡; Sept. 8, evening, calls on Houari Boumedienne, chairman of the Revolutionary Council and Prime Minister)'
+- cite:
+    id: cal.1965-09-09.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1120 (Sept. 9, 1965, Chen Yi reaches Bamako and speaks to the press in the airport''s reception room, greeting Mali''s government and people and praising Mali''s achievements and the friendship; Sept. 10, morning, Modibo Keita 莫迪博·凯塔 receives him; afternoon, the talks with Jean-Marie Koné 让-马里·科奈, the acting President and Minister of State for planning and economic coordination)'
+- cite:
+    id: cal.1965-09-10.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1120 (Sept. 12, 1965, evening; Chen Yi gives the reception and speaks on the principles of building the new Asian and African states; China–Mali relations rest on mutual respect for sovereignty, non-interference and equality and mutual benefit)'
+- variant:
+    id: cal.1965-09-10.china-leadership-3
+    unit: A
+    witness: w.chen-yi-nianpu
+    reads: Chen Yi gives the reception and speaks at Bamako on the evening of Sept. 12
+    at: '1120'
+- cite:
+    id: cal.1965-09-15.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1121–1122 (Sept. 15, 1965, Chen Yi reaches Conakry; in the afternoon Sékou Touré 塞古·杜尔 receives him, and talks follow; the talks with Touré continue on Sept. 16, morning and afternoon, and end that evening)'
+- cite:
+    id: cal.1965-09-20.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1122 (Sept. 20, 1965, morning, Chen Yi reaches Kabul on the way home; during the stop he goes with the Minister of Information to the Prime Minister''s residence to call on Mohammad Yusuf)'
+- variant:
+    id: cal.1965-09-20.china-leadership
+    unit: A
+    witness: w.chen-yi-nianpu
+    reads: Chen Yi calls on Mohammad Yusuf at the Prime Minister's residence, taken there by the Minister of Information during his stop at Kabul
+    at: '1122'
+- cite:
+    id: cal.1965-09-24.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1123 (Sept. 24, 1965, afternoon; Chen Yi goes with Zhou to call on Sihanouk)'
+- cite:
+    id: cal.1965-09-24.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1123 (Sept. 24, 1965, evening; the banquet of Ren Baige 任白戈, Chongqing''s mayor, and his wife 华逸; Chen Yi present)'
+- cite:
+    id: cal.1965-09-25.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1123 (Sept. 25, 1965, morning, Chen Yi with Zhou and others takes Sihanouk to the Red Rock 红岩 memorial; 11:40 a.m., with Zhou and Zhang Qian, leaves Chongqing with Sihanouk by boat for Wuhan, the Gorges on the way; Sept. 27, afternoon, reaches Wuhan)'
+- cite:
+    id: cal.1965-09-28.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1123 (Sept. 28, 1965, morning; Chen Yi takes Sihanouk to Peking)'
+- cite:
+    id: cal.1965-09-28.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1123 (Sept. 28, 1965, 3 p.m., the Workers'' Stadium; Chen Yi at the closing ceremony)'
+- cite:
+    id: cal.1965-09-28.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1123 (Sept. 28, 1965, evening; Chen Yi at Liu Shaoqi''s and his wife''s meeting with Sihanouk and his wife, and at their banquet)'
+- cite:
+    id: cal.1965-09-29.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1123–1125 (Sept. 29, 1965, afternoon, the East Hall of the Great Hall of the People 人民大会堂东大厅; on the border with India, Pakistan, West Germany, nuclear knowledge, Vietnam, the United Nations, the second Asian–African conference, Kuomintang–Communist cooperation, Japan, the Third Five-Year Plan, nuclear weapons, the Mongolian border and Hong Kong; "let them come tomorrow")'
+- cite:
+    id: cal.1965-09-30.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1125 (Sept. 30, 1965, morning; Chen Yi with Zhou receives Ghulam Faruque''s delegation and Asghar Khan)'
+- cite:
+    id: cal.1965-09-30.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1125 (Sept. 30, 1965, afternoon; Chen Yi present at Zhou''s reception of the delegation of the provisional People''s Consultative Congress led by Chaerul Saleh 哈鲁尔·萨勒, Ali Sastroamidjojo and 威路约·普斯波尤多, and of Subamia 苏巴米亚, Vice-Chairman of the Gotong Royong parliament, and his wife)'
+- cite:
+    id: cal.1965-09-30.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1125–1126 (Sept. 30, 1965, evening; Chen Yi at Zhou''s National Day reception)'
+- cite:
+    id: cal.1965-10-01.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1126 (Oct. 1, 1965, morning; Chen Yi on the Tiananmen gate tower at the rally and reviews the parade)'
+- cite:
+    id: cal.1965-09-30.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1126 (Oct. 1, 1965, afternoon; Chen Yi in Zhou''s talks with Chaerul Saleh, Ali Sastroamidjojo and 威路约·普斯波尤多)'
+- cite:
+    id: cal.1965-10-01.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1126 (Oct. 1, 1965, evening; Chen Yi on the Tiananmen gate tower at the people''s festival and the fireworks)'
+- cite:
+    id: cal.1965-10-03.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1127 (Oct. 3, 1965, noon; Chen Yi at the banquet of Zhang Zhizhong 张治中 and his wife 洪希厚 for Li Zongren and his wife and for Cheng Siyuan 程思远 and his wife 石泓)'
+- cite:
+    id: cal.1965-10-04.china
+    item: '[[w.chen-yi-nianpu]], 1127 (Oct. 3, 1965; Chen Yi at the signing of the joint statement of the NPC Standing Committee and the provisional People''s Consultative Congress)'
+- variant:
+    id: cal.1965-10-04.china
+    unit: A
+    witness: w.chen-yi-nianpu
+    reads: The joint statement is signed on Oct. 3, Chen Yi present
+    at: '1127'
+- cite:
+    id: cal.1965-10-03.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1127 (Oct. 3, 1965, evening; Chen Yi at the banquet)'
+- cite:
+    id: cal.1965-10-04.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1127 (Oct. 4, 1965, morning; Chen Yi at the airport as the delegation leaves for South China)'
+- cite:
+    id: cal.1965-10-04.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1127 (Oct. 4, 1965, morning; Chen Yi at the airport)'
+- check:
+    id: cal.1965-10-06.china-leadership
+    text: 'Check: The Chen Yi nianpu (1128) has Chen Yi at Harbin from the morning of Oct. 10 to the morning of Oct. 13, with Sihanouk, so not at the talks of Oct. 10 and 11.'
+- cite:
+    id: cal.1965-10-10.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1128 (Oct. 10, 1965, morning, Chen Yi at the Harbin airport to welcome Sihanouk; Oct. 11, morning, with Liu Shaoqi, Wang Guangmei, Zhang Qian and Li Fanwu 李范五 at the children''s park and the Songhua 松花江 in autumn; Oct. 12, morning, with Liu at the electrical machinery and steam-turbine plants)'
+- cite:
+    id: cal.1965-10-13.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1128 (Oct. 13, 1965, morning; Chen Yi leaves Harbin with Sihanouk)'
+- cite:
+    id: cal.1965-10-13.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1128–1129 (Oct. 13, 1965, evening; at the banquet of Zhou Xing 周兴, Yunnan''s governor, and his wife 杨玉英)'
