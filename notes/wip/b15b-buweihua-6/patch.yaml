@@ -19,6 +19,19 @@ ops:
           - 1966-09-06T04:00Z
         time_band: morning
         time_zone: Asia/Shanghai
+  - edit:
+      id: cal.1966-08-20.china-leadership-4
+      base: c4fe7064
+      set:
+        gloss:
+          title: Estimates
+          text:
+            - Bu Weihua puts at 4,922 the cultural relics and old sites of Peking destroyed of the 6,843 the survey of 1958 had kept, most of them in August and September 1966, with over two hundred old buildings pulled down ([[w.pu-weihua-zalan-jiu-shijie]], 234). By an incomplete count he gives from Zhao Xuexun 趙學勳 (1985), 117 tons of metal relics were later saved from the copper smelters and over 320 tons of books and papers from the paper mills, and 185,000 paintings and calligraphies, 2,357,000 volumes of old books and 538,000 other relics were picked out at the depots of confiscated goods ([[w.pu-weihua-zalan-jiu-shijie]], 235, 235 n.70).
+  - place-key:
+      key: jiaozuo
+      name: Jiaozuo
+      zone: Asia/Shanghai
+      in: prc
   - cite:
       id: cal.1966-08-27.china-leadership-6
       item: '[[w.pu-weihua-zalan-jiu-shijie]], 224 (founded Aug. 27, the afternoon by the Mining Institute Red Guards'' words next day, "昨天下午成立"; twenty-nine bodies of twenty-seven colleges, about 6,000; Wang Yanqun 汪延群 of the Peking Light Industry Institute, Wang Dongxing''s daughter, commander; Liu Pingfan 刘平凡, Liu Zhijian''s daughter, among the deputies; all but a few bodies majority factions that had backed the work groups)'
@@ -527,3 +540,812 @@ ops:
   - cite:
       id: cal.1966-10-25.china-leadership-5
       item: '[[w.pu-weihua-zalan-jiu-shijie]], 229 n.62 (in the speech: the old culture and thought are at root the old "private" 私, the new the "public" 公)'
+  - cite:
+      id: cal.1966-08-19.china
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 230–231, 230 n.63 (the leaflet of the Peking No. 2 Middle School 北京二中 Red Guards, "Last ultimatum: declaring war on the old world" 〈最后通牒——向旧世界宣战〉, put up in the city''s streets on Aug. 17: barbers, tailors, photographers and second-hand bookshops serving the bourgeoisie no exception; "jet" haircuts, cowboy trousers and shirts and Hong Kong-style dresses, yellow photographs and books; the trousers to be cut to shorts, high heels to flat)'
+      units: A, B
+  - variant:
+      id: cal.1966-08-19.china
+      unit: A
+      witness: w.pu-weihua-zalan-jiu-shijie
+      reads: Aug. 17, the leaflet of the Peking No. 2 Middle School's Red Guards
+      at: '230'
+  - add:
+      entry:
+        id: cal.1966-08-26.china-leadership-17
+        when: Aug. 26
+        date: '1966-08-26'
+        place: peking
+        thread: china-leadership
+        c: 'The *Renmin ribao* 《人民日报》 prints the Peking No. 2 Middle School 北京二中 Red Guards'' leaflet "Last ultimatum: declaring war on the old world" under the title "Declare war on the old world" 〈向旧世界宣战〉.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 230 n.63. See [[cal.1966-08-19.china]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 230 n.63: all'
+            - 'via x.1966-08-26.renmin-ribao-xiang-jiu-shijie-xuanzhan: all'
+        tags: [polity:prc]
+  - cite:
+      id: cal.1966-08-18.china-leadership-3
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 231, 231 n.64 (Aug. 18: Red Guards of some Peking middle schools plan to storm the Palace Museum 故宫; Zhou, told that evening, orders it closed and has the Peking garrison send a battalion to guard it)'
+  - cite:
+      id: cal.1966-08-19.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 231, 231 n.64 (the next day Red Guards come to the Palace Museum, and the staff, as Zhou instructed, send them away)'
+  - cite:
+      id: cal.1966-08-19.china-leadership-12
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 231 (from Aug. 19: Red Guards of the No. 2, No. 15 and No. 63 middle schools smash the "Quanjude" signboard, over seventy years old, and put up "Peking Roast Duck Restaurant")'
+      units: A, B
+  - add:
+      entry:
+        id: cal.1966-08.china-leadership-84
+        when: Aug., from the 19th
+        date: 1966-08
+        at: after 1966-08-19
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Red Guards of the Central Academy of Fine Arts'' 中央美术学院 middle school put up a poster in the window of the Rongbaozhai 荣宝斋: a "black picture shop" that has served the bourgeoisie, the landlords and the "reactionary academic authorities," not socialism; an exchange of the "black gang" painters; to be ruined.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 231.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 231: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08.china-leadership-85
+        when: Aug., from the 19th
+        date: 1966-08
+        at: after 1966-08-19
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Red Guards rename streets, shops, factories and schools: Chang''an Avenue 长安街 East Is Red Avenue 东方红大路; Dongjiaominxiang 东交民巷 Anti-Imperialism Road 反帝路; Xijiaominxiang and Wangfujing 王府井 Anti-Revisionism Road 反修路; Guanghua Road 光华路, the seat of the Democratic Republic of Vietnam''s embassy, Aid Vietnam Road 援越路; the Wangfujing Department Store, the Peking Department Store; the Dong''an Market 东安市场, the East Wind Market 东风市场; the Peking Union Medical College Hospital 协和医院, the Anti-Imperialism Hospital; the Tongren Hospital 同仁医院, the Workers, Peasants and Soldiers Hospital. In Zhongnanhai 中南海 Zhou Enlai''s 周恩来 Xihua Hall 西花厅 is renamed the "Facing the Sun Hall" 向阳厅.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 231–232.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 231–232: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-31.china-leadership-15
+        when: Aug. 31
+        date: '1966-08-31'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The *Beijing ribao* 《北京日报》 reports that the city people's council 市人民委员会, on the proposal of the Red Guards and the revolutionary masses, has decided to form a special work group to reform the capital's street names thoroughly.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 231 n.65. To check: [[w.zhongguo-gongchandang-beijing-lishi]], 225 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 231 n.65b). See [[cal.1966-08.china-leadership-85]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 231 n.65: all'
+            - 'via x.1966-08-31.beijing-ribao-street-names-work-group: all'
+        tags: [polity:prc]
+  - cite:
+      id: cal.1966-10-21.china-leadership-2
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 232, 232 n.66 (Zhou to the Red Guards: the stone lions must go, a "last ultimatum to the lions," those before Xinhuamen 新华门 too, being feudal; the record in the *Wenku* is dated Oct. 22, the *Zhou Enlai nianpu* Oct. 21)'
+  - to-check:
+      id: cal.1966-10-21.china-leadership-2
+      add: 周恩來接見半工半讀學校部分革命師生時的講話 (Oct. 22, 1966), in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.pu-weihua-zalan-jiu-shijie]], 232 n.66).
+  - add:
+      entry:
+        id: cal.1966-08-20.china-leadership-11
+        when: Aug. 20
+        date: '1966-08-20'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Red Guards of class 2 (3) of the senior school of the Girls' No. 2 Middle School 女二中 put up a poster, "Declaration on naming Anti-Revisionism Road" 〈反修路命名宣言〉, on the wall facing the Soviet embassy 苏联大使馆, demanding that Yangwei Road 扬威路, where it stands, be renamed Anti-Revisionism Road.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 232.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 232: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-21.china-leadership-10
+        when: Aug. 21
+        date: '1966-08-21'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. The middle school of the "Mao Zedong-ism University" 毛泽东主义大学附中 puts up "Rules for Anti-Revisionism Road" 〈反修路规定〉: from Aug. 21 every foreign vehicle on it to go slow; the revisionist countries'' vehicles never again to run wild on China''s sacred soil.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 232. See [[cal.1966-08-20.china-leadership-11]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 232: all'
+        tags: [polity:prc]
+  - cite:
+      id: cal.1966-08-29.china-leadership-2
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 232 (the Red Guards'' demand, by posters of Aug. 20 and 21, that Yangwei Road, where the Soviet embassy stands, be renamed Anti-Revisionism Road; the street to the Soviet commercial counsellor''s office renamed "Dig Out the Roots of Revisionism Street" 挖修根街)'
+  - add:
+      entry:
+        id: cal.1966-08-22.china-leadership-10
+        when: Aug. 22
+        date: '1966-08-22'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Over two hundred Hui 回族 students rebel at the Niujie Mosque 牛街清真寺 and give the imam four orders: to hand over all the Korans; no superstitious practice; reform through labor; no long gowns and jackets.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 232.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 232: all'
+        tags: [polity:prc]
+  - cite:
+      id: cal.1966-09-12.china-leadership-3
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 232 (the "Eliminate Islam Revolutionary Combat Team" 消灭伊斯兰教革命战斗队 and its slogan "wipe out Islam completely," soon stopped)'
+  - cite:
+      id: cal.1966-09-15.china-leadership-10
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 232, 232 n.67 (Zhou receiving students from Xi''an, Sept. 15, 1966: "many posters in Peking ... some we do not agree with," the poster "Struggle to wipe out Islam completely" among them)'
+  - add:
+      entry:
+        id: cal.1966-08-23.china-leadership-18
+        when: Aug. 23
+        date: '1966-08-23'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Red Guards of the No. 78 and No. 58 middle schools and others rebel at the Chinese Buddhist Academy 中国佛学院.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 232.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 232: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-24.china-leadership-16
+        when: Aug. 24
+        date: '1966-08-24'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京, Dongdan Santiao 东单三条. Red Guards of a dozen middle schools, with the direct backing of the Cultural Revolution Group 中央文革 and the public security organs, burst into the Franciscan Missionaries of Mary's convent 玛利亚方济格修女会 and demand the expulsion of the "Roman nuns" spying "under religion's cloak."
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 232.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 232: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-26.china-leadership-18
+        when: Aug. 26
+        date: '1966-08-26'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The city people's council 北京市人民委员会, at a mass meeting, announces the banning of the Franciscan Missionaries of Mary's convent 玛利亚方济格修女会 and takes over its Sacred Heart School 圣心学校.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 232–233. See [[cal.1966-08-24.china-leadership-16]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 232–233: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-28.china-leadership-15
+        when: Aug. 28
+        date: '1966-08-28'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The Peking Public Security Bureau 北京市公安局 announces in public the order expelling the Franciscan nuns, to be carried out at once.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 233. See [[cal.1966-08-24.china-leadership-16]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 233: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-28.china-leadership-16
+        when: Aug. 28, night
+        date: '1966-08-28'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Mass organizations in great numbers meet inside and outside the Franciscan convent to denounce it: "Down with American imperialism! Counter-revolutionary foreign nuns, get out!"'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 233. The words: 当夜 (233). See [[cal.1966-08-28.china-leadership-15]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 233: all'
+        tags: [polity:prc]
+        follows:
+          - cal.1966-08-28.china-leadership-15
+        time_range:
+          - 1966-08-28T14:00Z
+          - 1966-08-28T16:00Z
+        time_band: night
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-08-31.china-leadership-16
+        when: Aug. 31
+        date: '1966-08-31'
+        thread: china-leadership
+        c: Eight foreign nuns of the Franciscan convent in Peking, escorted by the police and Red Guards, are driven out across China's border.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 233. See [[cal.1966-08-28.china-leadership-15]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 233: all'
+        tags: [polity:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966-08-23.china-leadership-19
+        when: Aug. 23, morning
+        date: '1966-08-23'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Students of the No. 25 Middle School 二十五中 give orders to the personages of the democratic parties 民主党派: fixed interest and shares to be burned or handed to the state, everything gained by exploitation handed over; 40 percent of their salaries handed over (later 80 percent); no car to and from work, and labor such as cleaning.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 233. The words: 8月23日上午 (233).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 233: all'
+        tags: [polity:prc]
+        time_range:
+          - 1966-08-22T22:00Z
+          - 1966-08-23T04:00Z
+        time_band: morning
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-08-23.china-leadership-20
+        when: Aug. 23–24, afternoons
+        date: '1966-08-23'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京, the All-China Federation of Industry and Commerce 全国工商联. Red Guards of the Mechanical and Electrical School 机电学校 and of the No. 66 Middle School 六十六中 hold struggle meetings against thirteen, Rong Yiren 荣毅仁, Yue Songsheng 乐松生, Hu Ziang 胡子昂, Hu Juewen 胡厥文, Sun Xiaocun 孙晓村 and Sun Qimeng 孙起孟 among them, with beatings: made to kneel, placarded, hair cut, shoes hung at their necks, words written on their clothes, faces blacked, belts.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 233. The words: 8月23日下午和24日下午 (233). The time is the first day''s.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 233: all'
+        tags: [polity:prc]
+        time_range:
+          - 1966-08-23T04:00Z
+          - 1966-08-23T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-08-23.china-leadership-21
+        when: Aug. 23, late night
+        date: '1966-08-23'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Red Guards of the No. 8 Middle School 八中 send the democratic parties 民主党派 a "Last ultimatum" 〈最后通牒〉: they are to dissolve within seventy-two hours and say so in the press.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 233. The words: 8月23日夜裏 (233).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 233: all'
+        tags: [polity:prc]
+        gloss:
+          title: Estimates
+          text:
+            - Bu Weihua puts at over a hundred, 36.5 percent of the whole, the members and alternates of the democratic parties' central committees in Peking struggled or their houses searched by the Red Guards ([[w.pu-weihua-zalan-jiu-shijie]], 233).
+        time_range:
+          - 1966-08-23T14:00Z
+          - 1966-08-23T16:00Z
+        time_band: night
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-08.china-leadership-86
+        when: Aug., after the 23rd
+        date: 1966-08
+        at: after 1966-08-23
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The Peasants' and Workers' Democratic Party 农工民主党 drafts a statement stopping its organization's activities.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 233. See [[cal.1966-08-23.china-leadership-21]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 233: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08.china-leadership-87
+        when: Aug., after the 23rd
+        date: 1966-08
+        at: after 1966-08-23
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. The All-China Federation of Industry and Commerce 全国工商联 closes its gate and hangs out a sign: "Activities stopped; whether to dissolve awaits instructions from above."'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 233. See [[cal.1966-08-23.china-leadership-21]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 233: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-25.china-leadership-19
+        when: Aug. 25, morning
+        date: '1966-08-25'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. The Democratic League''s center 民盟中央, in its general office''s name, posts on its gate a "Notice of the China Democratic League" 〈中国民主同盟公告〉: the League fully accepts the Red Guards'' views, stops work from that day, and refers itself to the Center of the Chinese Communist Party 中共中央.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 233. The words: 8月25日早晨 (233). See [[cal.1966-08-23.china-leadership-21]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 233: all'
+        tags: [polity:prc]
+        time_range:
+          - 1966-08-24T22:00Z
+          - 1966-08-25T04:00Z
+        time_band: morning
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-08-25.china-leadership-20
+        when: Aug. 25, afternoon
+        date: '1966-08-25'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Middle-school students hold a meeting at the Democratic League's central offices against Wu Han 吴晗 and Zhang Bojun 章伯钧.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 233. The words: 当天下午 (233). See [[cal.1966-08-25.china-leadership-19]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 233: all'
+        tags: [polity:prc]
+        follows:
+          - cal.1966-08-25.china-leadership-19
+        time_range:
+          - 1966-08-25T04:00Z
+          - 1966-08-25T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-08-27.china-leadership-21
+        when: Aug. 27
+        date: '1966-08-27'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京, the Democratic League's center. Four of the democratic parties 民主党派, the Democratic League 民主同盟, the Democratic National Construction Association 民主建国会, the Peasants' and Workers' Democratic Party 农工民主党 and the Jiusan Society 九三学社, hand their seals to the No. 8 Middle School's Red Guards, who say they will keep them for now and give them to the Center later.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 233. See [[cal.1966-08-23.china-leadership-21]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 233: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08.china-leadership-88
+        when: Aug., late
+        date: 1966-08
+        at: before 1966-08-21
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Red Guards of the middle school of the Peking Foreign Languages Institute 北京外语学院附中 take over the Revolutionary Committee of the Kuomintang 国民党革命委员会.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 233. See [[cal.1966-08-23.china-leadership-21]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 233: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-30.china-leadership-12
+        when: Aug. 30
+        date: '1966-08-30'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The National Committee of the Chinese People's Political Consultative Conference 全国政协 announces that it stops its activities from that day.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 233.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 233: all'
+        tags: [polity:prc]
+  - cite:
+      id: cal.1966-08-29.china-leadership-5
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 233 (Aug. 29, evening, 8月29日晚: over thirty Red Guards of the Peking University economics department search the house of Zhang Shizhao, member of the NPC Standing Committee and of the CPPCC Standing Committee, carrying off his opium pipes and other things; seeing his photograph with Mao, they go no further)'
+  - cite:
+      id: cal.1966-08-30.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 233–234, 234 n.69 (Zhang''s letter asks Mao to ease matters "within the possible"; Mao''s comment of the 30th, "to the Premier to handle; he should be protected"; Zhou that day writes out in his own hand a list of cadres to be protected)'
+  - cite:
+      id: cal.1966-08-30.china-leadership-4
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 234, 234 n.68 (the list (234 n.68): Song Qingling, Guo Moruo, Zhang Shizhao, Cheng Qian, He Xiangning, Fu Zuoyi, Zhang Zhizhong, Shao Lizi, Jiang Guangnai, Cai Tingkai, Sha Qianli, Zhang Xiruo, Li Zongren and others; the state''s vice-chairmen, the NPC Standing Committee''s vice-chairmen and members, the CPPCC''s vice-chairmen, the vice-premiers, ministers and vice-ministers, the democratic parties'' heads and the presidents of the Supreme Court and Procuratorate; the Ministry of Public Security to pass it to the United Front Work Department, to list the non-Party figures by it)'
+  - cite:
+      id: cal.1966-09-01.china-leadership-6
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 234 (later, Hospital 301 told to be ready to take in Zhang Zhizhong, Zhang Shizhao, Cheng Qian, Fu Zuoyi and other senior democratic personages, old and ill, whom the government is to protect)'
+  - cite:
+      id: cal.1966-08-23.china-leadership-8
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 234 (Aug. 23, afternoon: Red Guards of the Peking half-work, half-study printing school and other schools pile the opera costumes and props gathered at the city Culture Bureau in the four olds in the courtyard of the Confucius Temple at the Guozijian and burn them)'
+  - add:
+      entry:
+        id: cal.1966-08-23.china-leadership-22
+        when: Aug. 23
+        date: '1966-08-23'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京, the Summer Palace 颐和园. The "8.18" Red Guards 八一八红卫兵 and staff of the Peking Physical Culture Institute 北京体育学院, 273 in all, smash the great Sakyamuni statue in the Foxiang Pavilion 佛香阁; Red Guards drag off two small statues.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 234.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 234: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-25.china-leadership-21
+        when: Aug. 25
+        date: '1966-08-25'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京, the Peking Geological Institute 北京地质学院. Its Red Guards propose to burn all the "poisonous books" of the library; that evening over two thousand volumes are burned, *Hongloumeng* 《红楼梦》, *Sanguo* 《三国》, *Liaozhai* 《聊斋》, the *Twenty-four Histories* 《二十四史》 and foreign novels among them.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 234. The words: 当晚 (234).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 234: all'
+        tags: [polity:prc]
+        time_range:
+          - 1966-08-25T11:00Z
+          - 1966-08-25T14:00Z
+        time_band: evening
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-08-22.china-leadership-11
+        when: Aug. 22
+        date: '1966-08-22'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Red Guards of the No. 26 Middle School 二十六中 go to the *Gongren ribao* 《工人日报》 and ask it to print a declaration of three points: the capitalists'' fixed interest abolished; every joint state-private enterprise to become state-owned at once; the owners'' houses, but for those they live in, to the public.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 235.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 235: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-23.china-leadership-23
+        when: Aug. 23
+        date: '1966-08-23'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Red Guards of the No. 22 Middle School 二十二中 and the Beixinqiao post office 北新桥邮局 issue a joint order: old bureaucrats, reactionary officers and capitalists may not subscribe to internal publications.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 235.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 235: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-23.china-leadership-24
+        when: Aug. 23
+        date: '1966-08-23'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. The rebels of the No. 1 Middle School 一中 issue a "Notice on giving up smoking and drink" 〈关于戒烟戒酒通告〉: the tobacco and liquor shops to be closed, their making and sale stopped.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 235.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 235: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-25.china-leadership-22
+        when: Aug. 25
+        date: '1966-08-25'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The Kangda Red Guards 抗大红卫兵 of the No. 9 Middle School 九中 propose that high salaries be abolished at once.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 235.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 235: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-26.china-leadership-19
+        when: Aug. 26
+        date: '1966-08-26'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The East Is Red group 东方红小组 of the No. 26 Middle School 二十六中 proposes that the old national anthem be abolished and a new one written.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 235.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 235: all'
+        tags: [polity:prc]
+  - cite:
+      id: cal.1966-08-27.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 235 (Bu: Zhou at the "meeting of the capital''s Red Guard delegates" of Aug. 27: the No. 15 Middle School''s request that the police wear the uniform of the People''s Liberation Army is easily done; he has talked with Xie Fuzhi, and it will change on Sept. 1)'
+  - cite:
+      id: cal.1966-09-10.china-leadership-3
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 235–236 (Zhou at the capital Red Guards'' symposium of Sept. 10: with the uniform changed, the police are hard to see on dark days and at night, so they will wear white armbands on duty; the Girls'' No. 15 Middle School''s proposal to change the red light to green, put to drivers, dropped by the girls when he gave them the reasons)'
+  - add:
+      entry:
+        id: cal.1966-08-28.china-leadership-17
+        when: Aug. 28
+        date: '1966-08-28'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Red Guards of the No. 3 Middle School 三中 put up a poster against the National Day parade's marching from east to west.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 235.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 235: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-28.china-leadership-18
+        when: Aug. 28
+        date: '1966-08-28'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Students of the half-work, half-study service school 半工半读服务学校 propose that every private plot in the villages be abolished.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 235.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 235: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-29.china-leadership-16
+        when: Aug. 29
+        date: '1966-08-29'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The "Red Periphery" fighting group 红外围战斗小组 of the No. 1 Middle School 一中 puts up a poster demanding that the constitution be revised.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 235.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 235: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-30.china-leadership-13
+        when: Aug. 30
+        date: '1966-08-30'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Red Guards of the No. 80 Middle School 八十中 put up a poster demanding that the ballet be abolished.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 235.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 235: all'
+        tags: [polity:prc]
+  - cite:
+      id: cal.1966-08-30.china-leadership-7
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 236, 236 n.71 (Aug. 30: the open letter signed by Qiao Jianwu and Du Wenge, "Mao Zedong Thought Red Guards of the Oriental Languages Department," three great rebellions: the Party and League organizations to give way to revolutionary committees, with eight "crimes" of the present form listed; the whole country''s government to merge into revolutionary committees; every office from the Center down to be smashed; the two students of the department''s second class, Du Wenge born Du Wenzhong 杜文忠)'
+      units: A
+  - add:
+      entry:
+        id: cal.1966-08-31.china-leadership-17
+        when: Aug. 31
+        date: '1966-08-31'
+        place: peking
+        thread: china-leadership
+        c: Peking University 北京大学. A meeting of the whole university criticizes and struggles Qiao Jianwu 乔兼武 and Du Wenge 杜文革, whose poster of Aug. 30 many have called counter-revolutionary.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 236 n.71. See [[cal.1966-08-30.china-leadership-7]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 236 n.71: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-23.china-leadership-15
+        when: Aug. 23
+        date: '1966-08-23'
+        place: shanghai
+        thread: china-leadership
+        c: 'Shanghai 上海. Red Guards begin the four olds 破四旧 on Nanjing Road 南京路, Huaihai Road 淮海路 and the other busy shopping streets: many famous old shops'' signboards smashed, dear goods banned from sale, cafés, billiard rooms, jewelers and antique shops ordered shut; passers-by in "outlandish clothes" have their narrow trouser legs and big quiffs cut and their pointed shoes taken.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 237.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 237: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-26.china-leadership-20
+        when: Aug. 26
+        date: '1966-08-26'
+        place: luoyang
+        thread: china-leadership
+        c: Luoyang 洛阳. Villagers of Baimasi village 白马寺村 burn the White Horse Temple's 白马寺 *Tripitaka* 《大藏经》, 55,884 fascicles, and smash ninety-one Buddhas of the Yuan and Ming, one of white jade, a gift of India, among them.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 237.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 237: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-26.china-leadership-21
+        when: Aug. 26
+        date: '1966-08-26'
+        place: luoyang
+        thread: china-leadership
+        c: Luoyang 洛阳. Students of the Luoyang No. 8 Middle School 洛阳八中 go to the Longmen Grottoes 龙门石窟 to "destroy the four olds."
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 237.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 237: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-26.china-leadership-22
+        when: Aug. 26
+        date: '1966-08-26'
+        place: luoyang
+        thread: china-leadership
+        c: Luoyang 洛阳. The city committee 中共洛阳市委, hearing of it, at once sends teachers and students of the Luoyang Agricultural Machinery Institute 洛阳农机学院 to guard the Longmen Grottoes 龙门石窟, which survive.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 237. See [[cal.1966-08-26.china-leadership-21]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 237: all'
+        tags: [polity:prc, vis:only:prc]
+        follows:
+          - cal.1966-08-26.china-leadership-21
+  - add:
+      entry:
+        id: cal.1966-09.china-leadership-39
+        when: Sept.
+        date: 1966-09
+        place: jiaozuo
+        thread: china-leadership
+        c: Jiaozuo 焦作, Henan. In the four olds the Zhongzhan district 中站区 grain bureau stops the September grain of the "five categories" and their families; three neighborhoods of Zhongzhan confiscate the grain-and-oil books of twenty-six households of them, 119 people, stopping 3,104 jin of grain.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 237, 237 n.74; [[w.zhonggong-jiaozuo-lishi-dashiji]], 198 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 237 n.74). Made public: 1996 ([[w.zhonggong-jiaozuo-lishi-dashiji]]).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 237: all'
+            - 'w.zhonggong-jiaozuo-lishi-dashiji 198: all'
+        tags: [polity:prc, vis:only:prc]
+  - cite:
+      id: cal.1966-08-27.china-leadership-3
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 237 (Aug. 27: teachers and students of the Guan county No. 2 Middle School 冠县二中, the Liulin agricultural middle school and the health school, Shandong, destroy Wu Xun''s tomb, dig out his body and parade it, hold a criticism meeting at the threshing ground outside Liulin''s north gate, and smash and burn the bones)'
+      units: A
+  - cite:
+      id: cal.1966-11.china-leadership-4
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 237–238 (Nov. 8 to Dec. 6: Tan Houlan''s Peking Normal University Jinggangshan Red Guards at Qufu, by the Cultural Revolution Group''s instruction, with Red Guards of some local schools; they send the State Council a letter of protest at its listing of the Confucius Temple among the national key relics in 1958)'
+  - variant:
+      id: cal.1966-11.china-leadership-4
+      unit: A
+      witness: w.pu-weihua-zalan-jiu-shijie
+      reads: Nov. 8 to Dec. 6, at the Cultural Revolution Group's instruction
+      at: '237'
+  - cite:
+      id: cal.1966-11.china-leadership-5
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 237–238 (in about a month they destroy a Ming statue of Confucius, two great tablets, six graves of the Kong family dug up, over forty steles, seventeen clay statues and a great many paintings, books and genealogies; the grave of Kong Lingyi 孔令贻, Confucius''s seventy-sixth descendant, opened and the corpse thrown out; the Duke of Zhou''s temple nearby damaged)'
+  - add:
+      entry:
+        id: cal.1967-01-15.china-leadership-5
+        when: Jan. 15
+        date: '1967-01-15'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The Geological Institute's East Is Red 地质东方红, the Mining Institute's East Is Red 矿院东方红 and other bodies announce the closing of the Summer Palace 颐和园, "so that the revolutionary teachers and students from elsewhere have more time for the Cultural Revolution."
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 238.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 238: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1967-01-16.china-leadership-10
+        when: Jan. 16
+        date: '1967-01-16'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The Geological, Light Industry and Peking Industrial institutes' East Is Red 东方红 and others close the Zoo 动物园.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 238. See [[cal.1967-01-15.china-leadership-5]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 238: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1967-01.china-leadership-50
+        when: Jan., after the 16th
+        date: 1967-01
+        at: after 1967-01-16
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The Peking housing management school 北京房管学校 announces the closing of the Ming Tombs 十三陵; almost every park is closed after.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 238. See [[cal.1967-01-16.china-leadership-10]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 238: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1968-01-08.china-leadership-3
+        when: Jan. 8
+        date: '1968-01-08'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京, the Peking Geological Institute 北京地质学院. The rebels'' "liaison station for smashing the revisionist high-salary system" 砸烂修正主义高薪制度联络站, with the Red Guard headquarters'' approval, cancels the high salaries of the institute''s "capitalist roaders" and "reactionary academic authorities": they are to live on no more than Peking''s lowest standard, 25 yuan, their families on no more than its middling, 18 yuan.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 238, 238 n.75.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 238: all'
+            - 'via x.1968-01.beijing-dizhi-xueyuan-dongfanghong-bao-gaoxin: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966.china-leadership-120
+        when: 1966, in the four olds
+        date: '1966'
+        at: before 1966-09
+        thread: china-leadership
+        c: Bao Huiseng 包惠僧, a delegate to the Party's First Congress, out of the Party since the 1920s, a counsellor of the State Council since 1949, beaten with sticks in the four olds 破四旧, has his children burn all the hundred-odd letters Chen Duxiu 陈独秀 wrote him from 1920, which he had mounted and bound as *Chen Zhongfu xiansheng yimo* 《陈仲甫先生遗墨》.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 239, 239 n.76; [[w.mingren-chenfu-lu]], 39 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 239 n.76). Made public: 1992 ([[w.mingren-chenfu-lu]]).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 239: all'
+            - 'w.mingren-chenfu-lu 39: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-12.china-leadership-33
+        when: Dec., before his death
+        date: 1966-12
+        at: before 1966-12-21
+        thread: china-leadership
+        c: 'Zhou Xiaozhou 周小舟, once Hunan''s first secretary, branded a member of the anti-Party clique at Lushan in 1959, from 1962 vice-president of the Central-South branch of the Academy of Sciences 中国科学院中南分院, burns the historical relics he had collected all his life, weeping aloud: "this is the real crime."'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 239, 239 n.77; [[w.mao-zedong-he-ta-1993]], 207 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 239 n.77). Made public: 1993 ([[w.mao-zedong-he-ta-1993]]).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 239: all'
+            - 'w.mao-zedong-he-ta-1993 207: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966-12.china-leadership-34
+        when: Dec.
+        date: 1966-12
+        thread: china-leadership
+        c: Zhou Xiaozhou 周小舟, persecuted since the Cultural Revolution began, kills himself.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 239, 239 n.77. To check: [[w.mao-zedong-he-ta-1993]], 207 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 239 n.77). See [[cal.1966-12.china-leadership-33]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 239: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966.china-leadership-121
+        when: 1966, in the four olds
+        date: '1966'
+        at: before 1966-09
+        place: shanghai
+        thread: china-leadership
+        c: Shanghai 上海. Shen Yinmo 沈尹默, eighty-four, deputy director of the Central Institute of Culture and History 中央文史馆 and a famous calligrapher, afraid his "reactionary calligraphy" will harm his family and that a fire would be seen and reported, tears up his life's work and genuine pieces of Ming and Qing calligraphers, soaks them to pulp in a footbath, and has his son tip them by night into Suzhou Creek 苏州河.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 239, 239 n.78. Made public: 2000 (Ding Shu 丁抒, in *Duowei zhoukan*, July 28, 2000). To check: 丁抒, 〈破四舊:幾多文物付之一炬〉 (2000) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 239 n.78).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 239: all'
+            - 'via x.2000-07-28.ding-shu-po-sijiu-jiduo-wenwu-fu-zhi-yiju: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966.china-leadership-122
+        when: 1966, in the four olds
+        date: '1966'
+        at: before 1966-09
+        thread: china-leadership
+        c: General Tang Liang 唐亮, once political commissar of the Nanjing Military Region 南京军区, retired sick in 1963, in the four olds 破四旧 takes the lead and burns his family's mahjong, playing cards, records, old books, high heels and qipaos, a thread-bound *Qinggong shisan chao* 《清宫十三朝》 among them, "a great pity."
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 239, 239 n.79. Made public: 2002 (Wu Dongfeng 吳東峰, in the *Beijing qingnian bao*, Nov. 23, 2002). To check: 吳東峰, 〈開國將軍軼事〉, *Beijing qingnian bao*, Nov. 23, 2002 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 239 n.79).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 239: all'
+            - 'via x.2002-11-23.wu-dongfeng-kaiguo-jiangjun-yishi-beijing-qingnian-bao: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966.china-leadership-123
+        when: 1966, in the four olds
+        date: '1966'
+        at: before 1966-09
+        thread: china-leadership
+        c: General Yang Yong 杨勇, commander of the Peking Military Region 北京军区, in anger burns a brand-new fishing rod; his wife carries the paintings and calligraphy he brought back from abroad to the boiler room, and "burned them a long time."
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 239, 239 n.80. Made public: 2000 (Shu Yun 舒雲, in *Zongheng*, 2000 no. 7). To check: 舒雲, 〈楊勇和警衛員孫啟增〉, *Zongheng*, 2000 no. 7, 35 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 239 n.80).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 239: all'
+            - 'via x.2000-07.shu-yun-yang-yong-he-jingweiyuan-sun-qizeng-zongheng: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966-10.china-leadership-36
+        when: Oct., at the Central Work Conference
+        date: 1966-10
+        at: after 1966-10-09
+        place: peking
+        thread: china-leadership
+        c: The Central Work Conference 中央工作会议 hands out a dozen reference papers; the fourth, "Beat the old world till it is routed" 〈把旧世界打个落花流水〉, extols the Red Guards' four olds under ten heads ("the bourgeoisie's prestige swept away," "a batch of deeply hidden counter-revolutionaries dug out," "religious superstition swept away, churches and temples pulled down," "the exploiting classes' ill-gotten wealth confiscated"). By its incomplete count, from Aug. 23 to Oct. 3 the house searches of the big cities took 1,198,000 liang of gold, 12 million liang of silver, 9,789,000 silver dollars, US$3,558,000, 3,739,000 in pounds and other currencies, 43,280,000 yuan in cash, deposits and bonds, 17,190,000 pieces of gold and silver jewelry, 950,000 chi of silk and cloth, about 100 million relics and 5,240,000 books; 1,788 cases of active counter-revolution were cracked, and 397,400 "ox-demons and snake-spirits" driven from the cities.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 240. Made public: 2008. See [[cal.1966-10-09.china-leadership]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 240: all'
+        tags: [polity:prc, vis:only:prc]
+  - cite:
+      id: cal.1966-10-14.china-leadership-3
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 240 (397,400 "ox-demons and snake-spirits" driven from the cities, Aug. 23 to Oct. 3, by the count of the Central Work Conference''s fourth reference paper)'
+      units: A
+  - variant:
+      id: cal.1966-10-14.china-leadership-3
+      unit: A
+      witness: w.pu-weihua-zalan-jiu-shijie
+      reads: from Aug. 23 to Oct. 3, by the count of the Central Work Conference's reference paper
+      at: '240'
