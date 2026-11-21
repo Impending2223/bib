@@ -1107,3 +1107,11 @@ Yes, an entry holding two acts should be split. (Did you need to pass this one t
 "The reason I endorsed your proposed rule in full initially is because works that are (a) "briefly available in public circulation, then suppressed," and (b) "only 'published' in small-batch, limited-circulation printings" are hard to square with either the rationale behind the "Made public" rule or its "once and for all" setting.
 
 Suppose it's 1972, or 1978, or 1984, or 1990, or 1996. Would a citizen of the PRC have been able to access these publications or documents in the way "Made public:" and the visibility rule implies?"
+
+## Nov. 21, 2026, about 1:20 p.m. (Pacific)
+
+"I've added another book to the shared drive. What is it? Is it useful to us?"
+
+"That sounds right to me re: R27.
+
+But I'd like to see the language of the current rule and your proposed rule before I endorse the change."
