@@ -106,12 +106,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou celebrates May Day with the Albanian party and government delegation and the capital's people.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 493 (May 1, 1966; May Day; Beijing; the book gives no hour); [[w.deng-xiaoping-nianpu-1904]], III, 1911 (May 1, 1966; 上午; Deng, with Song Qingling 宋庆龄, Zhou Enlai 周恩来 and Zhu De 朱德, accompanies Shehu''s delegation at the Working People''s Cultural Palace among the people for the holiday). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 493 (May 1, 1966; May Day; Beijing; the book gives no hour); [[w.deng-xiaoping-nianpu-1904]], III, 1911 (May 1, 1966; 上午; Deng, with Song Qingling 宋庆龄, Zhou Enlai 周恩来 and Zhu De 朱德, accompanies Shehu''s delegation at the Working People''s Cultural Palace among the people for the holiday); [[w.chen-yi-nianpu]], 1146 (May 1, 1966, morning, the Working People''s Cultural Palace 劳动人民文化宫; Chen Yi with Soong Ching-ling, Zhou, Zhu De, Deng Xiaoping and others accompanies Shehu''s delegation). Names: Zhou Enlai.'
     src:
       c: '65375999'
       rows:
         - 'w.zhou-enlai-waijiao-huodong 493: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1911: ?'
+        - 'w.chen-yi-nianpu 1146: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-04-30T22:00Z
@@ -167,6 +168,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1911: all'
     tags: [polity:prc, name:deng-xiaoping]
+    time_range:
+      - 1966-05-01T11:00Z
+      - 1966-05-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1966-05-01.china-leadership-9
+    when: May 1
+    date: '1966-05-01'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 on the Tiananmen 天安门 gate tower at the May Day festival and fireworks.
+    n: '[[w.chen-yi-nianpu]], 1146. The words: 晚上 (1146). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
     time_range:
       - 1966-05-01T11:00Z
       - 1966-05-01T14:00Z
@@ -292,12 +306,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou receives and gives a luncheon for the delegation of the Cambodia–China Friendship Association.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 493 (May 2, 1966; morning; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 100 (May 2, 1966; the delegation led by Lan Nhet). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 493 (May 2, 1966; morning; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 100 (May 2, 1966; the delegation led by Lan Nhet); [[w.chen-yi-nianpu]], 1146 (May 2, 1966, morning; Chen Yi with Zhou receives the delegation led by 兰·涅特 and gives the luncheon with him). Names: Zhou Enlai.'
     src:
       c: db23cbe1
       rows:
         - 'w.zhou-enlai-waijiao-huodong 493: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 100: all'
+        - 'w.chen-yi-nianpu 1146: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-05-01T22:00Z
@@ -318,6 +333,19 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 493: all'
     tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1966-05-02.china-leadership-5
+    when: May 2
+    date: '1966-05-02'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 at the farewell banquet of N. P. Rijal 纳·普·里贾尔 and his wife.
+    n: '[[w.chen-yi-nianpu]], 1146. The words: 晚上 (1146). Names: Chen Yi.'
+    tags: [polity:prc, polity:nepal, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-02T11:00Z
+      - 1966-05-02T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1966-05-03.elections-1966
     when: May 3
@@ -570,12 +598,18 @@ entries:
     thread: china
     also: [south-asia]
     c: Chen Yi and Rijal sign, for their governments, an agreement on trade, transport and related matters between China's Tibet Autonomous Region and Nepal.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 100 (May 3, 1966). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 100 (May 3, 1966); [[w.chen-yi-nianpu]], 1146 (May 2, 1966, afternoon; Chen Yi and N. P. Rijal 纳·普·里贾尔 sign). Names: Chen Yi.'
     src:
       c: dbc26834
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 100: all'
+        - 'w.chen-yi-nianpu 1146: ?'
     tags: [polity:prc, polity:nepal, name:chen-yi]
+    variants:
+      - unit: A
+        witness: w.chen-yi-nianpu
+        reads: Chen Yi and Rijal sign the agreement on the afternoon of May 2
+        at: '1146'
   - id: cal.1966-05-03.china-2
     when: May 3
     date: '1966-05-03'
@@ -593,12 +627,30 @@ entries:
     date: '1966-05-03'
     thread: china-leadership
     c: 'Chen Yi, at the cocktail party of the National Committee of the CPPCC for visiting overseas Chinese, compatriots of Hong Kong and Macao and the peoples'' delegations: the whole country, with confidence, is building the homeland by self-reliance, and no force can stop it. The time when the Chinese could not hold up their heads before foreigners is gone for good. To Western opinion that China is "isolated" and its foreign policy has "failed": China''s policy is right, it has not failed, it has more friends each day; as foreign minister he has no sense of isolation.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 101 (May 3, 1966). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 101 (May 3, 1966); [[w.chen-yi-nianpu]], 1147 (May 3, 1966, afternoon; the CPPCC''s cocktail party for more than 800 overseas Chinese and Hong Kong and Macao compatriots come for May Day and fifteen minority nationalities'' visiting groups; Chen Yi speaks in welcome; China''s foreign policy right; whether China is isolated is judged from the standpoint of the world''s peoples). Names: Chen Yi.'
     src:
       c: cd95241f
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 101: all'
+        - 'w.chen-yi-nianpu 1147: ?'
     tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1966-05-03T04:00Z
+      - 1966-05-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1966-05-03.china-leadership-4
+    when: May 3
+    date: '1966-05-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Guo Youshou 郭有守, counselor of the Chiang Kai-shek 蒋介石 group's "embassy" in Belgium, come home after his defection, and his wife; he praises his patriotic act and says Chiang's men should follow it, their only way out.
+    n: '[[w.chen-yi-nianpu]], 1147. The words: 上午 (1147). Names: Chen Yi, Chiang Kai-shek.'
+    tags: [polity:prc, polity:roc, name:chen-yi, name:chiang-kai-shek, ok:fields-place]
+    time_range:
+      - 1966-05-02T22:00Z
+      - 1966-05-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-04.soviet-union-leadership
     when: May 4
     date: '1966-05-04'
@@ -613,7 +665,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking. The enlarged Politburo meeting, Liu Shaoqi presiding; Mao absent. On the line of the Hangzhou meeting of April it criticizes Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun for errors and ends their posts.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 4, 1966; [[w.zhou-enlai-nianpu-1949-2020]], III, 29–30 (May 4–26, 1966; Zhou attends from the 16th; the Circular of May 16 and Lin Biao''s speech of May 18); [[w.macfarquhar-maos-last-revolution]], 36–37 (close to eighty present); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 637–638 (May 4–26, 1966; Liu presides at the enlarged Politburo meeting; before it Mao, in turn, had criticized the errors of Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun and drawn up the Central Committee''s notice meant to launch the Cultural Revolution, later called the "May 16 Notification"; during the meeting Mao is not in Peking, and Kang Sheng reports to him; by Mao''s view the meeting stops and revokes the posts of Peng, Luo, Lu and Yang and adopts the Notification, which announces the withdrawal of the February Outline and of the former Cultural Revolution Group of Five); [[w.macfarquhar-origins-of-the-cultural]], III, 458–59 (eighty present, all working in the capital; Mao in Hangzhou; Liu Shaoqi presides); [[w.deng-xiaoping-nianpu-1904]], III, 1912–1913 (May 4–26, 1966; the Politburo''s enlarged meeting is held at Peking, Liu Shaoqi presiding, following Mao''s plan made at the Hangzhou meeting of April; Kang Sheng, Chen Boda, Zhang Chunqiao 张春桥 and others first ''introduce the situation'' and expose and criticize the ''errors'' of Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun; on the 16th it adopts the Notice of the Central Committee, revised by Mao, later called the ''May 16 Notice''; the nianpu: Deng and Zhou, accompanying foreign guests on tours outside Peking, did not attend the meeting''s early sessions); [[w.mao-zedong-zhuan]], VI, ch. 74 (May 4–26 at Peking the Politburo meets in enlarged session under Liu Shaoqi to criticize Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun; on May 23 it stops their posts in the Secretariat and removes Peng and Lu from the others). [[w.yang-jisheng-tiandi-fanfu]], I, 158 (May 4–26, 23 days, in Peking; 76 attend: the Politburo''s members and alternates, department heads, and the document-drafting group''s eight, Zhang Chunqiao 張春橋, Guan Feng 關鋒, Qi Benyu 戚本禹 and others; Liu presides, Mao, far away, does not attend; Liu, Zhou and Ye Jianying take turns in the chair); [[w.peng-zhen-nianpu-1902]], IV, 484 (May 4–26, 1966; the enlarged Politburo at Peking under Liu Shaoqi, Mao at Hangzhou, Kang Sheng reporting to him; in a very abnormal air it criticizes Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun; the first plenary session under Liu on the afternoon of the 11th); [[w.jian-zhou-enlai]], 540 (enlarged Politburo meetings chaired by Liu; Mao absent but in control); [[w.teiwes-tragedy-of-lin-biao]], 61 (by May 6 Peng Zhen''s and Lu Dingyi''s opposition to the revolutionary line in culture exposed, and Peng, Lu, Luo Ruiqing and Yang Shangkun labelled anti-Party, anti-socialist, anti-Mao Zedong Thought; in its early stages Kang Sheng, Zhang Chunqiao and Chen Boda convey Mao''s opinions). Made public: 1988 ([[w.nianyi-da-dongluande-niandai]]). To check: the Politburo meeting''s minutes and reports of May 4–26, 1966 (not printed in the nianpu); note 29 gives the rehabilitations (Peng, Feb. 17, 1979; Luo, May 20, 1980; Lu, June 8, 1979; Yang, Oct. 23, 1980); [[w.wenhua-dageming-yanjiu-ziliao]], I, 25 (cited by [[w.macfarquhar-maos-last-revolution]], 36 n.18); [[w.yonglie-chen-boda-qiren]], 222–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 458 n.156a); [[w.qian-qiu-gong-zui]], 17–18 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 458 n.156b); [[w.nianyi-da-dongluande-niandai]], 10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 459 n.157). Names: Liu Shaoqi, Mao Zedong, Peng Zhen, Luo Ruiqing, Lu Dingyi, Yang Shangkun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 4, 1966; [[w.zhou-enlai-nianpu-1949-2020]], III, 29–30 (May 4–26, 1966; Zhou attends from the 16th; the Circular of May 16 and Lin Biao''s speech of May 18); [[w.macfarquhar-maos-last-revolution]], 36–37 (close to eighty present); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 637–638 (May 4–26, 1966; Liu presides at the enlarged Politburo meeting; before it Mao, in turn, had criticized the errors of Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun and drawn up the Central Committee''s notice meant to launch the Cultural Revolution, later called the "May 16 Notification"; during the meeting Mao is not in Peking, and Kang Sheng reports to him; by Mao''s view the meeting stops and revokes the posts of Peng, Luo, Lu and Yang and adopts the Notification, which announces the withdrawal of the February Outline and of the former Cultural Revolution Group of Five); [[w.macfarquhar-origins-of-the-cultural]], III, 458–59 (eighty present, all working in the capital; Mao in Hangzhou; Liu Shaoqi presides); [[w.deng-xiaoping-nianpu-1904]], III, 1912–1913 (May 4–26, 1966; the Politburo''s enlarged meeting is held at Peking, Liu Shaoqi presiding, following Mao''s plan made at the Hangzhou meeting of April; Kang Sheng, Chen Boda, Zhang Chunqiao 张春桥 and others first ''introduce the situation'' and expose and criticize the ''errors'' of Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun; on the 16th it adopts the Notice of the Central Committee, revised by Mao, later called the ''May 16 Notice''; the nianpu: Deng and Zhou, accompanying foreign guests on tours outside Peking, did not attend the meeting''s early sessions); [[w.mao-zedong-zhuan]], VI, ch. 74 (May 4–26 at Peking the Politburo meets in enlarged session under Liu Shaoqi to criticize Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun; on May 23 it stops their posts in the Secretariat and removes Peng and Lu from the others). [[w.yang-jisheng-tiandi-fanfu]], I, 158 (May 4–26, 23 days, in Peking; 76 attend: the Politburo''s members and alternates, department heads, and the document-drafting group''s eight, Zhang Chunqiao 張春橋, Guan Feng 關鋒, Qi Benyu 戚本禹 and others; Liu presides, Mao, far away, does not attend; Liu, Zhou and Ye Jianying take turns in the chair); [[w.peng-zhen-nianpu-1902]], IV, 484 (May 4–26, 1966; the enlarged Politburo at Peking under Liu Shaoqi, Mao at Hangzhou, Kang Sheng reporting to him; in a very abnormal air it criticizes Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun; the first plenary session under Liu on the afternoon of the 11th); [[w.jian-zhou-enlai]], 540 (enlarged Politburo meetings chaired by Liu; Mao absent but in control); [[w.teiwes-tragedy-of-lin-biao]], 61 (by May 6 Peng Zhen''s and Lu Dingyi''s opposition to the revolutionary line in culture exposed, and Peng, Lu, Luo Ruiqing and Yang Shangkun labelled anti-Party, anti-socialist, anti-Mao Zedong Thought; in its early stages Kang Sheng, Zhang Chunqiao and Chen Boda convey Mao''s opinions); [[w.chen-yi-nianpu]], 1147 (May 4–26, 1966; Chen Yi at the enlarged meeting of the Politburo at Peking, which on May 16 adopts the Central Committee''s Notice (the May 16 Notice 《五·一六通知》)). Made public: 1988 ([[w.nianyi-da-dongluande-niandai]]). To check: the Politburo meeting''s minutes and reports of May 4–26, 1966 (not printed in the nianpu); note 29 gives the rehabilitations (Peng, Feb. 17, 1979; Luo, May 20, 1980; Lu, June 8, 1979; Yang, Oct. 23, 1980); [[w.wenhua-dageming-yanjiu-ziliao]], I, 25 (cited by [[w.macfarquhar-maos-last-revolution]], 36 n.18); [[w.yonglie-chen-boda-qiren]], 222–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 458 n.156a); [[w.qian-qiu-gong-zui]], 17–18 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 458 n.156b); [[w.nianyi-da-dongluande-niandai]], 10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 459 n.157). Names: Liu Shaoqi, Mao Zedong, Peng Zhen, Luo Ruiqing, Lu Dingyi, Yang Shangkun.'
     src:
       c: fccc98b9
       rows:
@@ -631,6 +683,7 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 484: ?'
         - 'w.jian-zhou-enlai 540: ?'
         - 'w.teiwes-tragedy-of-lin-biao 61: ?'
+        - 'w.chen-yi-nianpu 1147: ?'
     tags: [name:liu-shaoqi, name:mao-zedong, name:peng-zhen, name:luo-ruiqing, name:lu-dingyi, polity:prc, vis:only:prc]
     variants:
       - unit: A
@@ -903,12 +956,18 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-britain]
     c: Chen Yi receives a British freelance journalist and his wife and answers his questions.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 102 (May 5, 1966). Names: Chen Yi. Check: the journalist''s name, from the Chinese 吉尔德各他.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 102 (May 5, 1966); [[w.chen-yi-nianpu]], 1147 (May 5, 1966, afternoon; the nianpu prints the journalist''s name 吉尔德). Names: Chen Yi. Check: the journalist''s name, from the Chinese 吉尔德各他.'
     src:
       c: 5ddc0431
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 102: all'
+        - 'w.chen-yi-nianpu 1147: ?'
     tags: [polity:prc, polity:uk, name:chen-yi]
+    time_range:
+      - 1966-05-05T04:00Z
+      - 1966-05-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-05.china-leadership-6
     when: May 5
     date: '1966-05-05'
@@ -924,6 +983,18 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1913: all'
     tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, vis:only:prc+albania]
+  - id: cal.1966-05-05.china-leadership-7
+    when: May 5
+    date: '1966-05-05'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Canada–China Friendship Association's delegation led by Andrew Chow 安德鲁·周.
+    n: '[[w.chen-yi-nianpu]], 1147. The words: 上午 (1147). Names: Chen Yi.'
+    tags: [polity:prc, polity:canada, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-04T22:00Z
+      - 1966-05-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-06.opinion
     when: May 6
     date: '1966-05-06'
@@ -1089,6 +1160,31 @@ entries:
     c: Hanoi. The Romanian party-government delegation under Bodnăraş, with Niculescu-Mizil, holds its first meeting with Phạm Văn Đồng, Nguyễn Duy Trinh, Lê Thanh Nghị, Hoàng Văn Hoan and others. Đồng thanks Romania for its aid and its decision to support an office of the National Liberation Front at Bucharest, and presents the war and the DRV's four points. Bodnăraş thanks him.
     n: '"[Transcript of Discussions Held On the Occasion of the Visit to the Democratic Republic of Vietnam of the Party and Government Delegation from the Socialist Republic of Romania](https://digitalarchive.umd.edu/document/122568)" (May 20, 1966), ANR, Fond CC al PCR, Secţia Relaţii Externe, dosar 70/1966, f. 1–146, trans. Larry L. Watts, Wilson Center Digital Archive. 1st Meeting, Friday, May 6, 1966; the transcript, with its two restricted meetings, is dated May 20, 1966. Names: Bodnăraş, Phạm Văn Đồng, Nguyễn Duy Trinh. Check: the year the document was first printed or posted; the Archive page gives none.'
     tags: [polity:romania, polity:drv, name:bodnaras-emil, name:pham-van-dong, name:nguyen-duy-trinh, vis:only:romania+drv]
+  - id: cal.1966-05-06.china-leadership-5
+    when: May 6
+    date: '1966-05-06'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and his wife give a banquet for the envoys and diplomats of Pakistan, Afghanistan and Burma and their wives, in thanks for the welcome given Liu Shaoqi 刘少奇 and his wife; he speaks, thanking the ambassadors for Liu.
+    n: '[[w.chen-yi-nianpu]], 1147–1148. The words: 晚上 (1147–1148). Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, polity:pakistan, polity:afghanistan, polity:burma, name:chen-yi, name:liu-shaoqi, ok:fields-place]
+    time_range:
+      - 1966-05-06T11:00Z
+      - 1966-05-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1966-05-06.china-leadership-6
+    when: May 6
+    date: '1966-05-06'
+    thread: china-leadership
+    also: [latin-america]
+    c: Chen Yi 陈毅 receives friends from four Latin American countries, among them the Mexico–China Friendship Association's delegation led by 厚安·拉里奥斯·托伦蒂诺 and Carlos María Gutiérrez 卡洛斯·马里亚·古铁雷斯, editor of the Uruguayan weekly *Marcha* 《前进周报》.
+    n: '[[w.chen-yi-nianpu]], 1148. The words: 晚上 (1148). Names: Chen Yi.'
+    tags: [polity:prc, polity:argentina, polity:colombia, polity:mexico, polity:uruguay, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-06T11:00Z
+      - 1966-05-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-07.space
     when: May 7
     date: '1966-05-07'
@@ -1288,6 +1384,19 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 147–148: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 148 n.44: all'
     tags: [polity:prc, vis:only:prc, name:lu-dingyi]
+  - id: cal.1966-05-08.china-leadership-3
+    when: May 8
+    date: '1966-05-08'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 speaks at the China–Africa People's Friendship Association's banquet for the Guinean National Djoliba Dance Troupe led by 西索柯·阿马杜, on its programs and on the "Fighting Africa" number in praise of Mao Zedong 毛泽东.
+    n: '[[w.chen-yi-nianpu]], 1148. The words: 晚上 (1148). Names: Chen Yi, Mao Zedong.'
+    tags: [polity:prc, polity:guinea, name:chen-yi, name:mao-zedong, ok:fields-place]
+    time_range:
+      - 1966-05-08T11:00Z
+      - 1966-05-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-09.robert-kennedy
     when: May 9–10
     date: '1966-05-09'
@@ -1453,12 +1562,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou goes with Liu Shaoqi and Deng Xiaoping, with Shehu and Kapo, to the ballet *The White-Haired Girl*.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 494 (May 9, 1966; evening; Beijing); [[w.deng-xiaoping-nianpu-1904]], III, 1913 (May 9, 1966; evening, 晚; Deng, with Liu Shaoqi and Zhou Enlai, accompanies Shehu to the modern ballet *The White-Haired Girl* 《白毛女》). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 494 (May 9, 1966; evening; Beijing); [[w.deng-xiaoping-nianpu-1904]], III, 1913 (May 9, 1966; evening, 晚; Deng, with Liu Shaoqi and Zhou Enlai, accompanies Shehu to the modern ballet *The White-Haired Girl* 《白毛女》); [[w.chen-yi-nianpu]], 1148 (May 9, 1966, evening; Chen Yi with Liu Shaoqi, Zhou, Deng Xiaoping and others; the Shanghai Dance School''s teachers and students). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: 6a744fa7
       rows:
         - 'w.zhou-enlai-waijiao-huodong 494: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1913: ?'
+        - 'w.chen-yi-nianpu 1148: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping]
     time_range:
       - 1966-05-09T11:00Z
@@ -1549,6 +1659,30 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 438: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 438 n.47: all'
     tags: [polity:prc, vis:only:prc, name:qiu-huizuo, name:lin-biao, name:mao-zedong]
+  - id: cal.1966-05-09.china-leadership-8
+    when: May 9
+    date: '1966-05-09'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Philippine trade survey delegation led by 赫内罗索·马西亚尔.
+    n: '[[w.chen-yi-nianpu]], 1148. The words: 上午 (1148). Names: Chen Yi.'
+    tags: [polity:prc, polity:philippines, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-08T22:00Z
+      - 1966-05-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1966-05-09.china-leadership-9
+    when: May 9
+    date: '1966-05-09'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Philippine press delegation led by José Cruz 何塞·克鲁斯, columnist of the *Manila Times*, and answers questions.
+    n: '[[w.chen-yi-nianpu]], 1148. The words: 上午 (1148). Names: Chen Yi.'
+    tags: [polity:prc, polity:philippines, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-08T22:00Z
+      - 1966-05-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-10.open-housing-ca
     when: May 10
     date: '1966-05-10'
@@ -1715,14 +1849,20 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: 'Zhou Enlai, at Shehu''s farewell banquet, sharply denounces the collusion of the U.S. and the Soviet Union in a nuclear monopoly: China''s test is a great encouragement to all peoples; in no circumstances will China use nuclear weapons first.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 30 (May 10, 1966); [[w.zhou-enlai-waijiao-huodong]], 494 (May 10, 1966; evening, Shehu''s farewell banquet; the book has Zhou saying China''s nuclear weapons are wholly for defense, the final aim their destruction, that China will yield to no nuclear blackmail and use none to blackmail anyone); [[w.deng-xiaoping-nianpu-1904]], III, 1913 (May 10, 1966; evening, 晚; Deng with Liu Shaoqi, Zhou Enlai and Zhu De at Shehu''s farewell banquet; on the 11th evening at the signing of the China–Albania joint statement, and then with them at the airport sees off Shehu''s party). Made public: 1993. Names: Zhou Enlai, Shehu.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 30 (May 10, 1966); [[w.zhou-enlai-waijiao-huodong]], 494 (May 10, 1966; evening, Shehu''s farewell banquet; the book has Zhou saying China''s nuclear weapons are wholly for defense, the final aim their destruction, that China will yield to no nuclear blackmail and use none to blackmail anyone); [[w.deng-xiaoping-nianpu-1904]], III, 1913 (May 10, 1966; evening, 晚; Deng with Liu Shaoqi, Zhou Enlai and Zhu De at Shehu''s farewell banquet; on the 11th evening at the signing of the China–Albania joint statement, and then with them at the airport sees off Shehu''s party); [[w.chen-yi-nianpu]], 1148 (May 10, 1966, evening; Chen Yi at Shehu''s farewell banquet). Made public: 1993. Names: Zhou Enlai, Shehu.'
     src:
       c: ff9bb0e5
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 30: ?'
         - 'w.zhou-enlai-waijiao-huodong 494: A-B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1913: ?'
+        - 'w.chen-yi-nianpu 1148: ?'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc+albania]
+    time_range:
+      - 1966-05-10T11:00Z
+      - 1966-05-10T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-10.china-leadership-2
     when: May 10–11
     date: '1966-05-10'
@@ -1769,11 +1909,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou goes with Shehu and others to the modern Peking opera *The Red Lantern*.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 494 (May 10, 1966; evening; Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 494 (May 10, 1966; evening; Beijing); [[w.chen-yi-nianpu]], 1148–1149 (May 10, 1966, evening; Chen Yi with Zhou and others at *The Red Lantern* 《红灯记》, the China Peking Opera Theater). Names: Zhou Enlai.'
     src:
       c: adc4c6e5
       rows:
         - 'w.zhou-enlai-waijiao-huodong 494: all'
+        - 'w.chen-yi-nianpu 1148–1149: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-05-10T11:00Z
@@ -1974,17 +2115,20 @@ entries:
   - id: cal.1966-05-11.china-leadership
     when: May 11
     date: '1966-05-11'
+    time: 1966-05-10T22:00Z
     place: peking
     thread: china-leadership
     also: [china]
     c: Zhou Enlai talks with Shehu on points in drafting the China–Albania joint statement.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 30–31 (May 11, 1966); [[w.zhou-enlai-waijiao-huodong]], 494 (May 11, 1966; 6 a.m., Building 5, Diaoyutai guesthouse, with Chen Yi, on the draft joint statement with Shehu and Kapo; noon, talks on the draft again, and agreement; 10 p.m., Zhou and Shehu sign the joint statement, Liu Shaoqi, Zhu De and Deng Xiaoping attending; evening, the airport farewell of the Albanian delegation). Made public: 1993. Names: Zhou Enlai, Shehu.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 30–31 (May 11, 1966); [[w.zhou-enlai-waijiao-huodong]], 494 (May 11, 1966; 6 a.m., Building 5, Diaoyutai guesthouse, with Chen Yi, on the draft joint statement with Shehu and Kapo; noon, talks on the draft again, and agreement; 10 p.m., Zhou and Shehu sign the joint statement, Liu Shaoqi, Zhu De and Deng Xiaoping attending; evening, the airport farewell of the Albanian delegation); [[w.chen-yi-nianpu]], 1149 (May 11, 1966, 6 a.m., Building 5 of the Diaoyutai guesthouse; Chen Yi with Zhou discusses the draft with Shehu and Kapo 卡博). Made public: 1993. Names: Zhou Enlai, Shehu.'
     src:
       c: fbcb4229
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 30–31: ?'
         - 'w.zhou-enlai-waijiao-huodong 494: A'
+        - 'w.chen-yi-nianpu 1149: ?'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc+albania]
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-11.china-leadership-2
     when: May 11
     date: '1966-05-11'
@@ -1992,12 +2136,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou meets and gives a banquet for the Romanian party and government delegation under Emil Bodnăraş, member of the Executive Committee and first deputy chairman of the Council of Ministers, which reached Peking on its way back from Vietnam.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 494 (May 11, 1966; evening; Beijing); [[w.jian-zhou-enlai]], 540 (Ceaușescu, hoping Zhou''s visit would show Bucharest''s "independent foreign policy," sends Bodnăraș, first vice premier, to confirm it; until May 13 the Chinese promise it will go ahead). To check: [[w.jiang-benlian-gei-gongheguo-lingdaoren]], 35–36 (cited by [[w.jian-zhou-enlai]], 540 n.84). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 494 (May 11, 1966; evening; Beijing); [[w.jian-zhou-enlai]], 540 (Ceaușescu, hoping Zhou''s visit would show Bucharest''s "independent foreign policy," sends Bodnăraș, first vice premier, to confirm it; until May 13 the Chinese promise it will go ahead); [[w.chen-yi-nianpu]], 1149 (May 11, 1966, evening; Chen Yi with Zhou and Li Xiannian meets Emil Bodnăraș and his whole delegation, and with Zhou gives the banquet). To check: [[w.jiang-benlian-gei-gongheguo-lingdaoren]], 35–36 (cited by [[w.jian-zhou-enlai]], 540 n.84). Names: Zhou Enlai.'
     src:
       c: '49124667'
       rows:
         - 'w.zhou-enlai-waijiao-huodong 494: all'
         - 'w.jian-zhou-enlai 540: ?'
+        - 'w.chen-yi-nianpu 1149: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-05-11T11:00Z
@@ -2009,12 +2154,18 @@ entries:
     date: '1966-05-11'
     thread: china
     c: Zhou and Shehu sign the China–Albania joint statement.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 99 (May 11, 1966). Names: Zhou Enlai.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 99 (May 11, 1966); [[w.chen-yi-nianpu]], 1149 (May 11, 1966, evening; Chen Yi at the signing). Names: Zhou Enlai.'
     src:
       c: ae7238a8
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 99: all'
+        - 'w.chen-yi-nianpu 1149: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai]
+    time_range:
+      - 1966-05-11T11:00Z
+      - 1966-05-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-11.china-leadership-3
     when: May 11
     date: '1966-05-11'
@@ -2057,6 +2208,30 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 484: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1966-05-11.china-leadership-6
+    when: May 11
+    date: '1966-05-11'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the airport to welcome the Romanian party and government delegation led by Emil Bodnăraș, member of the Standing Presidium and First Deputy Chairman of the Council of Ministers, come from Vietnam.
+    n: '[[w.chen-yi-nianpu]], 1149. The words: 中午 (1149). Names: Chen Yi, Bodnăraș.'
+    tags: [polity:prc, polity:romania, name:chen-yi, name:bodnaras-emil, ok:fields-place]
+    time_range:
+      - 1966-05-11T04:00Z
+      - 1966-05-11T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1966-05-11.china-leadership-9
+    when: May 11
+    date: '1966-05-11'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the airport to see off Shehu 谢胡 and the Albanian party and government delegation.
+    n: '[[w.chen-yi-nianpu]], 1149. The words: 晚上 (1149). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-11T11:00Z
+      - 1966-05-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-12.vietnam-congress
     when: May 12
     date: '1966-05-12'
@@ -2215,12 +2390,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou talks with Bodnăraş, Executive Committee member of the Romanian Communist Party and first deputy chairman of the Council of Ministers, in Building 2 of the Diaoyutai guesthouse.
-    n: '"[Transcript of Conversation Between Emil Bodnaras, Leader of Government and Party Delegation Visiting the Democratic Republic of Vietnam, and Zhou Enlai, Prime Minister of the State Council of the People''s Republic of China](https://digitalarchive.umd.edu/document/122571)" (May 11, 1966), Document 12 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, Arhivele Naţionale, 2008, pp. 270–294; ANR, Fond C.C. al P.C.R., Secţia Relaţii Externe – China, dosar 71/1966, f. 2–46, trans. Larry L. Watts, Wilson Center Digital Archive. The Romanian transcript: Bodnăraş with Zhou, Li Xiannian and Chen Yi; Bodnăraş on Romania''s course toward the Soviet Union, Brezhnev''s visit to Bucharest and the Vietnam visit. [[w.zhou-enlai-waijiao-huodong]], 494 (May 12, 1966; 10 a.m., Building 2, Diaoyutai guesthouse). The book gives no content. Check: the Archive heads the Romanian transcript May 11; Bodnăraş speaks of arriving ''yesterday'', and the delegation reached Peking May 11 ([[cal.1966-05-11.china-leadership-2]]). Names: Zhou Enlai.'
+    n: '"[Transcript of Conversation Between Emil Bodnaras, Leader of Government and Party Delegation Visiting the Democratic Republic of Vietnam, and Zhou Enlai, Prime Minister of the State Council of the People''s Republic of China](https://digitalarchive.umd.edu/document/122571)" (May 11, 1966), Document 12 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, Arhivele Naţionale, 2008, pp. 270–294; ANR, Fond C.C. al P.C.R., Secţia Relaţii Externe – China, dosar 71/1966, f. 2–46, trans. Larry L. Watts, Wilson Center Digital Archive. The Romanian transcript: Bodnăraş with Zhou, Li Xiannian and Chen Yi; Bodnăraş on Romania''s course toward the Soviet Union, Brezhnev''s visit to Bucharest and the Vietnam visit. [[w.zhou-enlai-waijiao-huodong]], 494 (May 12, 1966; 10 a.m., Building 2, Diaoyutai guesthouse); [[w.chen-yi-nianpu]], 1149 (May 12, 1966; Chen Yi in Zhou''s talks with Bodnăraș). The book gives no content. Check: the Archive heads the Romanian transcript May 11; Bodnăraş speaks of arriving ''yesterday'', and the delegation reached Peking May 11 ([[cal.1966-05-11.china-leadership-2]]). Names: Zhou Enlai.'
     src:
       c: 5a8d53ed
       rows:
         - 'w.zhou-enlai-waijiao-huodong 494: all'
         - 'https://digitalarchive.umd.edu/document/122571: A'
+        - 'w.chen-yi-nianpu 1149: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
     variants:
@@ -2235,11 +2411,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou attends the banquet given by Bodnăraş at the Romanian embassy.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 494 (May 12, 1966; evening; Romanian embassy, Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 494 (May 12, 1966; evening; Romanian embassy, Beijing); [[w.chen-yi-nianpu]], 1149 (May 12, 1966, evening; Chen Yi at the banquet). Names: Zhou Enlai.'
     src:
       c: a571c4dd
       rows:
         - 'w.zhou-enlai-waijiao-huodong 494: all'
+        - 'w.chen-yi-nianpu 1149: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-05-12T11:00Z
@@ -2258,6 +2435,14 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 103: all'
     tags: [polity:prc, polity:us]
+  - id: cal.1966-05-12.china-leadership-3
+    when: May 12
+    date: '1966-05-12'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 receives Bakary Traoré 巴卡里·特拉奥雷, head of the Malian journalists' delegation, and gives him a dinner.
+    n: '[[w.chen-yi-nianpu]], 1149. Names: Chen Yi.'
+    tags: [polity:prc, polity:mali, name:chen-yi, ok:fields-place]
   - id: cal.1966-05-13.cities-and-housing
     when: May 13
     date: '1966-05-13'
@@ -2485,6 +2670,57 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 266: all'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1966-05-13.china-leadership-5
+    when: May 13
+    date: '1966-05-13'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the airport to see Emil Bodnăraș and the Romanian delegation off for home.
+    n: '[[w.chen-yi-nianpu]], 1149. The words: 上午 (1149). Names: Chen Yi, Bodnăraș.'
+    tags: [polity:prc, polity:romania, name:chen-yi, name:bodnaras-emil, ok:fields-place]
+    time_range:
+      - 1966-05-12T22:00Z
+      - 1966-05-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1966-05-13.china-leadership-6
+    when: May 13
+    date: '1966-05-13'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 receives Lévy Makany 列维·马卡尼, Congo (Brazzaville)'s Minister of National Education, and Professor Henri Lopes 洛贝斯·亨利.
+    n: '[[w.chen-yi-nianpu]], 1149. The words: 上午 (1149). Names: Chen Yi.'
+    tags: [polity:prc, polity:congo-brazzaville, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-12T22:00Z
+      - 1966-05-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1966-05-13.china-leadership-7
+    when: May 13
+    date: '1966-05-13'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives Matsumura Kenzō 松村谦三, adviser of Japan's Liberal Democratic Party, and his party.
+    n: '[[w.chen-yi-nianpu]], 1149. The words: 下午 (1149). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-13T04:00Z
+      - 1966-05-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1966-05-13.china-leadership-8
+    when: May 13
+    date: '1966-05-13'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 at the banquet of Liao Chengzhi 廖承志 for Matsumura Kenzō 松村谦三 and his party.
+    n: '[[w.chen-yi-nianpu]], 1149. The words: 晚上 (1149). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-13T11:00Z
+      - 1966-05-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-14.students
     when: May 14
     date: '1966-05-14'
@@ -3395,12 +3631,18 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance]
     c: Chen Yi receives journalists from Denmark, Finland, Norway and Sweden. Asked about peaceful coexistence of states of different systems, he says China gets on well with the four on the Five Principles, so the barrier to coexistence is not socialist China but the imperialist states, above all the U.S., which refuses the Five Principles and invades, controls and meddles everywhere.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 104 (May 17, 1966). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 104 (May 17, 1966); [[w.chen-yi-nianpu]], 1150 (May 17, 1966, afternoon; journalists of Denmark, Finland, Norway and Sweden). Names: Chen Yi.'
     src:
       c: d462710b
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 104: all'
+        - 'w.chen-yi-nianpu 1150: ?'
     tags: [polity:prc, polity:denmark, polity:finland, polity:norway, polity:sweden, name:chen-yi]
+    time_range:
+      - 1966-05-17T04:00Z
+      - 1966-05-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-17.china-leadership-6
     when: May 17
     date: '1966-05-17'
@@ -3425,6 +3667,19 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 162: all'
     tags: [polity:prc, vis:only:prc, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:lin-biao]
+  - id: cal.1966-05-17.china-leadership-8
+    when: May 17
+    date: '1966-05-17'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 receives the Lao cultural delegation led by 乌塔马·朱拉马尼.
+    n: '[[w.chen-yi-nianpu]], 1149–1150. The words: 下午 (1149–1150). Names: Chen Yi.'
+    tags: [polity:prc, polity:laos, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-17T04:00Z
+      - 1966-05-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-18.defense
     when: May 18
     date: '1966-05-18'
@@ -3622,6 +3877,13 @@ entries:
       - 1966-05-18T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1966-05-18.china-leadership-6
+    when: May 18
+    date: '1966-05-18'
+    thread: china-leadership
+    c: Martin Bierbach 马丁·比尔巴赫, the GDR's new Ambassador, calls on Chen Yi 陈毅 on the presenting of his credentials.
+    n: '[[w.chen-yi-nianpu]], 1150. Names: Chen Yi.'
+    tags: [polity:prc, polity:gdr, name:chen-yi, ok:fields-place]
   - id: cal.1966-05-19.europe-and-the-alliance-france
     when: May 19
     date: '1966-05-19'
@@ -3732,6 +3994,19 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 184: all'
     tags: [polity:prc, vis:only:prc, name:peng-zhen, name:luo-ruiqing, name:lu-dingyi]
+    time_range:
+      - 1966-05-19T11:00Z
+      - 1966-05-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1966-05-19.china-leadership-6
+    when: May 19
+    date: '1966-05-19'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 at the farewell banquet of Matsumura Kenzō 松村谦三, adviser of the Liberal Democratic Party.
+    n: '[[w.chen-yi-nianpu]], 1150. The words: 晚上 (1150). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
     time_range:
       - 1966-05-19T11:00Z
       - 1966-05-19T14:00Z
@@ -3935,6 +4210,31 @@ entries:
     c: Zhou Enlai has his secretary tell Wang Dongxing that Lu Dingyi's place has no guards; after today's Politburo meeting he will talk with Wang about it.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 31 (May 20, 1966). Made public: 2020. Names: Zhou Enlai, Wang Dongxing, Lu Dingyi.'
     tags: [name:zhou-enlai, name:lu-dingyi, polity:prc, vis:only:prc]
+  - id: cal.1966-05-20.china-leadership-2
+    when: May 20
+    date: '1966-05-20'
+    thread: china-leadership
+    also: [middle-east]
+    c: Chen Yi 陈毅 at the capital's rally supporting the Palestinian people's just struggle against the United States.
+    n: '[[w.chen-yi-nianpu]], 1150. The words: 下午 (1150). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-20T04:00Z
+      - 1966-05-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1966-05-20.china-leadership-3
+    when: May 20
+    date: '1966-05-20'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the heads and deputy heads of the weightlifting teams of the countries and regions at the 1966 invitational weightlifting tournament of the new emerging forces.
+    n: '[[w.chen-yi-nianpu]], 1150. The words: 晚上 (1150). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-20T11:00Z
+      - 1966-05-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-21.mississippi-ms
     when: May 21
     date: '1966-05-21'
@@ -4289,6 +4589,30 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 486: all'
     tags: [polity:prc, name:peng-zhen, name:xie-fuzhi, name:luo-ruiqing, name:lu-dingyi, vis:only:prc]
+  - id: cal.1966-05-22.china-leadership-4
+    when: May 22
+    date: '1966-05-22'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives all the members of the delegation of the French national students' union.
+    n: '[[w.chen-yi-nianpu]], 1150. The words: 下午 (1150). Names: Chen Yi.'
+    tags: [polity:prc, polity:fr, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-22T04:00Z
+      - 1966-05-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1966-05-22.china-leadership-5
+    when: May 22
+    date: '1966-05-22'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Baron Antoine Allard 安东·阿拉, chairman of the Belgian Action for Peace and the Independence of Peoples and of the Belgian committee in support of the people of South Vietnam, and his wife.
+    n: '[[w.chen-yi-nianpu]], 1150. The words: 晚上 (1150). Names: Chen Yi.'
+    tags: [polity:prc, polity:belgium, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-05-22T11:00Z
+      - 1966-05-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-05-23.vietnam-congress
     when: May 23
     date: '1966-05-23'
@@ -5145,6 +5469,13 @@ entries:
       rows:
         - 'https://digitalarchive.umd.edu/document/122514: all'
     tags: [polity:hungary, polity:uar, name:kosygin-aleksei, name:nasser-gamal-abdel, name:amer-abdel-hakim, vis:only:hungary]
+  - id: cal.1966-05-26.china-leadership-4
+    when: May 26
+    date: '1966-05-26'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Nur Ahmad Etemadi 努尔·艾哈迈德·埃特马迪, Afghanistan's Foreign Minister, on Afghanistan's national day.
+    n: '[[w.chen-yi-nianpu]], 1150. Names: Chen Yi.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, ok:fields-place]
   - id: cal.1966-05-27.opinion
     when: May 27
     date: '1966-05-27'
@@ -5379,11 +5710,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou attends the National Day reception given by Afghanistan's ambassador at the embassy.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 495–96 (May 27, 1966; afternoon; Afghan embassy, Beijing). The book names the ambassador 苏海尔. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 495–96 (May 27, 1966; afternoon; Afghan embassy, Beijing); [[w.chen-yi-nianpu]], 1150 (May 27, 1966, afternoon, the embassy; at the reception of Ambassador 穆罕默德·阿沙夫·苏海尔 Chen Yi praises the two countries'' friendship). The book names the ambassador 苏海尔. Names: Zhou Enlai.'
     src:
       c: 93c3916a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 495–96: all'
+        - 'w.chen-yi-nianpu 1150: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-05-27T04:00Z
@@ -5769,6 +6101,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1916: all'
     tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1966-05-29T22:00Z
+      - 1966-05-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1966-05-30.china-leadership-4
+    when: May 30
+    date: '1966-05-30'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 receives the friendship delegation of Sudanese university teachers led by 穆罕默德·陶姆·提加尼.
+    n: '[[w.chen-yi-nianpu]], 1150. The words: 上午 (1150). Names: Chen Yi.'
+    tags: [polity:prc, polity:sudan, name:chen-yi, ok:fields-place]
     time_range:
       - 1966-05-29T22:00Z
       - 1966-05-30T04:00Z

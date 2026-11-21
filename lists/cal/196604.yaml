@@ -510,6 +510,13 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 478: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1966-04-03.china-leadership-5
+    when: Apr. 3
+    date: '1966-04-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Péter János, Hungary's Foreign Minister, on the twenty-first anniversary of Hungary's liberation.
+    n: '[[w.chen-yi-nianpu]], 1141–1142. Names: Chen Yi, Péter.'
+    tags: [polity:prc, polity:hungary, name:chen-yi, name:peter-janos, ok:fields-place]
   - id: cal.1966-04-04.vietnam-struggle
     when: Apr. 4
     date: '1966-04-04'
@@ -744,13 +751,19 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi leaves Hotan for Afghanistan and reaches Kabul; King Mohammed Zahir Shah and the Queen welcome him. He lays a wreath at the tomb of King Mohammed Nadir Shah. At the welcome banquet the King gives he says: China has always held to developing relations with all countries on the five principles of peaceful coexistence; it will not let others treat it with great-power chauvinism, and does not allow itself to treat others so.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 4, 1966); [[w.macfarquhar-origins-of-the-cultural]], III, 456 (Liu flies to Afghanistan). Names: Liu Shaoqi, Zahir Shah.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 4, 1966); [[w.macfarquhar-origins-of-the-cultural]], III, 456 (Liu flies to Afghanistan); [[w.chen-yi-nianpu]], 1142 (Apr. 4, 1966, morning, Chen Yi goes with Liu and his wife from Hotan to Kabul; in the afternoon present at Liu''s wreath at Nadir Shah''s tomb; in the evening at the King''s and Queen''s state banquet and the reception after it in the hall of the Dilkusha 迪尔库沙 palace). Names: Liu Shaoqi, Zahir Shah.'
     src:
       c: acea95ce
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 635: ?'
         - 'w.macfarquhar-origins-of-the-cultural III, 456: A'
+        - 'w.chen-yi-nianpu 1142: ?'
     tags: [polity:prc, polity:afghanistan, name:liu-shaoqi, name:zahir-shah-mohammed]
+    time_range:
+      - 1966-04-03T22:00Z
+      - 1966-04-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1966-04-04.china-leadership-5
     when: Apr. 4
     date: '1966-04-04'
@@ -841,6 +854,27 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 479: all'
     tags: [polity:prc, name:peng-zhen, name:li-xiannian, vis:only:prc, ok:fields-place]
+  - id: cal.1966-04-04.china-leadership-10
+    when: Apr. 4
+    date: '1966-04-04'
+    place: kabul
+    thread: china-leadership
+    c: Kabul 喀布尔. Mohammad Hashim Maiwandwal 穆罕默德·哈希姆·迈万德瓦尔, Afghanistan's Prime Minister, calls on Liu Shaoqi 刘少奇 at the Chihil Sutun 四十柱 palace, Chen Yi 陈毅 present.
+    n: '[[w.chen-yi-nianpu]], 1142. Names: Chen Yi, Maiwandwal, Liu Shaoqi.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:liu-shaoqi, name:maiwandwal-mohammad-hashim]
+  - id: cal.1966-04-04.china-leadership-11
+    when: Apr. 4
+    date: '1966-04-04'
+    place: kabul
+    thread: china-leadership
+    c: Kabul 喀布尔. Liu Shaoqi 刘少奇 and his wife call on King Mohammed Zahir Shah 查希尔·沙阿 and Queen Homaira 霍梅拉 at the Gulkhana 古尔罕纳 palace, Chen Yi 陈毅 present.
+    n: '[[w.chen-yi-nianpu]], 1142. The words: 下午 (1142). Names: Chen Yi, Zahir Shah, Liu Shaoqi.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:liu-shaoqi, name:zahir-shah-mohammed]
+    time_range:
+      - 1966-04-04T07:30Z
+      - 1966-04-04T13:30Z
+    time_band: afternoon
+    time_zone: Asia/Kabul
   - id: cal.1966-04-05.vietnam-struggle
     when: Apr. 5
     date: '1966-04-05'
@@ -1023,11 +1057,17 @@ entries:
   - id: cal.1966-04-05.china-leadership-3
     when: Apr. 5
     date: '1966-04-05'
+    place: kabul
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi holds talks with King Zahir Shah and Prime Minister Mohammad Hashim Maiwandwal. On China''s foreign economic aid he says: China sincerely helps Asian and African states develop their national economy and culture, with no political or economic requirement; but it is basically still a backward country with limited strength and cannot fully meet requests; 35 Asian and African states now accept its aid, which costs a considerable part of its spending but, divided among 35 countries, gives each only a small part; it hopes the Asian and African states will understand this.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 5, 1966). Made public: 1996. Names: Liu Shaoqi, Zahir Shah, Maiwandwal. Check: the Latin form of 穆·哈·迈万德瓦尔.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 5, 1966); [[w.chen-yi-nianpu]], 1142 (Apr. 5, 1966, morning, the Dilkusha palace; Chen Yi present at Liu''s talks with the King). Made public: 1996. Names: Liu Shaoqi, Zahir Shah, Maiwandwal. Check: the Latin form of 穆·哈·迈万德瓦尔.'
     tags: [polity:prc, polity:afghanistan, name:liu-shaoqi, vis:only:prc+afghanistan, name:zahir-shah-mohammed, name:maiwandwal-mohammad-hashim]
+    time_range:
+      - 1966-04-05T01:30Z
+      - 1966-04-05T07:30Z
+    time_band: morning
+    time_zone: Asia/Kabul
   - id: cal.1966-04-05.china-leadership-4
     when: Apr. 5
     date: '1966-04-05'
@@ -1076,6 +1116,32 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 479–480: all'
     tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc, ok:fields-place]
+  - id: cal.1966-04-05.china-leadership-8
+    when: Apr. 5
+    date: '1966-04-05'
+    place: kabul
+    thread: china-leadership
+    c: Kabul 喀布尔. Chen Yi 陈毅 at the luncheon of Prince Sultan Mahmud Ghazi 苏尔坦·马哈茂德·加齐, president of the Afghan–Chinese Friendship Association, for Liu Shaoqi 刘少奇 at the Bagh-e Bala 巴格巴尔 restaurant.
+    n: '[[w.chen-yi-nianpu]], 1142. The words: 中午 (1142). Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:liu-shaoqi]
+    time_range:
+      - 1966-04-05T07:30Z
+      - 1966-04-05T09:30Z
+    time_band: workday midday
+    time_zone: Asia/Kabul
+  - id: cal.1966-04-05.china-leadership-9
+    when: Apr. 5
+    date: '1966-04-05'
+    place: kabul
+    thread: china-leadership
+    c: Kabul 喀布尔. Chen Yi 陈毅 at Maiwandwal's 迈万德瓦尔 banquet for Liu Shaoqi 刘少奇 and his wife at the Kabul Hotel, with Afghan artists' songs and dances after it.
+    n: '[[w.chen-yi-nianpu]], 1142. The words: 晚上 (1142). Names: Chen Yi, Maiwandwal, Liu Shaoqi.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:liu-shaoqi, name:maiwandwal-mohammad-hashim]
+    time_range:
+      - 1966-04-05T14:30Z
+      - 1966-04-05T17:30Z
+    time_band: evening
+    time_zone: Asia/Kabul
   - id: cal.1966-04-06.civil-rights-the-executive
     when: Apr. 6
     date: '1966-04-06'
@@ -1267,8 +1333,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi visits Herat, Afghanistan's third city, sees the Friday mosque and a park, and returns to Kabul in the afternoon.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 6, 1966). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 6, 1966); [[w.chen-yi-nianpu]], 1142 (Apr. 6, 1966, morning, Chen Yi with Liu and his wife at Herat; in the afternoon back to Kabul with them; the Friday mosque and the Bihzad 比扎德 park). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:afghanistan, name:liu-shaoqi]
+    time_range:
+      - 1966-04-06T01:30Z
+      - 1966-04-06T07:30Z
+    time_band: morning
+    time_zone: Asia/Kabul
   - id: cal.1966-04-06.china-leadership-3
     when: Apr. 6
     date: '1966-04-06'
@@ -1403,7 +1474,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi visits the Afghan national museum and speaks at the welcome meeting of the people of Kabul.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 7, 1966). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 7, 1966); [[w.chen-yi-nianpu]], 1142 (Apr. 7, 1966; Chen Yi with Liu at the national museum; in the afternoon at the Kabul citizens'' rally in the Ghazi stadium 加齐体育场). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:afghanistan, name:liu-shaoqi]
   - id: cal.1966-04-07.china-leadership-3
     when: Apr. 7
@@ -1431,6 +1502,45 @@ entries:
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
     range_basis: record
+  - id: cal.1966-04-07.china-leadership-4
+    when: Apr. 7
+    date: '1966-04-07'
+    place: kabul
+    thread: china-leadership
+    c: Kabul 喀布尔. Liu Shaoqi 刘少奇 receives the staff of the Chinese embassy and the Chinese experts and students in Afghanistan, Chen Yi 陈毅 present.
+    n: '[[w.chen-yi-nianpu]], 1142. The words: 上午 (1142). Made public: 1995. Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, name:chen-yi, name:liu-shaoqi, vis:only:prc]
+    time_range:
+      - 1966-04-07T01:30Z
+      - 1966-04-07T07:30Z
+    time_band: morning
+    time_zone: Asia/Kabul
+  - id: cal.1966-04-07.china-leadership-5
+    when: Apr. 7
+    date: '1966-04-07'
+    place: kabul
+    thread: china-leadership
+    c: Kabul 喀布尔. Chen Yi 陈毅 and his wife, with Liu Shaoqi 刘少奇 and his wife, at the tea party of Maiwandwal 迈万德瓦尔 and his wife at their house.
+    n: '[[w.chen-yi-nianpu]], 1142. The words: 下午 (1142). Names: Chen Yi, Maiwandwal, Liu Shaoqi.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:liu-shaoqi, name:maiwandwal-mohammad-hashim]
+    time_range:
+      - 1966-04-07T07:30Z
+      - 1966-04-07T13:30Z
+    time_band: afternoon
+    time_zone: Asia/Kabul
+  - id: cal.1966-04-07.china-leadership-6
+    when: Apr. 7
+    date: '1966-04-07'
+    place: kabul
+    thread: china-leadership
+    c: Kabul 喀布尔. Chen Yi 陈毅 at Liu Shaoqi's 刘少奇 farewell banquet at the Dilkusha 迪尔库沙 palace.
+    n: '[[w.chen-yi-nianpu]], 1142. The words: 晚上 (1142). Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:liu-shaoqi]
+    time_range:
+      - 1966-04-07T14:30Z
+      - 1966-04-07T17:30Z
+    time_band: evening
+    time_zone: Asia/Kabul
   - id: cal.1966-04-08.medicare
     when: Apr. 8
     date: '1966-04-08'
@@ -1631,12 +1741,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi leaves Kabul for home and reaches Urumqi.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 8, 1966); [[w.macfarquhar-origins-of-the-cultural]], III, 456 (Liu back in Xinjiang). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 8, 1966); [[w.macfarquhar-origins-of-the-cultural]], III, 456 (Liu back in Xinjiang); [[w.chen-yi-nianpu]], 1143 (Apr. 8, 1966; Chen Yi goes with Liu and his wife). Names: Liu Shaoqi.'
     src:
       c: f70fa118
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 635: ?'
         - 'w.macfarquhar-origins-of-the-cultural III, 456: A'
+        - 'w.chen-yi-nianpu 1143: ?'
     tags: [polity:prc, polity:afghanistan, name:liu-shaoqi]
   - id: cal.1966-04-08.china-leadership-2
     when: Apr. 8
@@ -2016,7 +2127,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi leaves Urumqi and reaches Kunming.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 11, 1966). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 11, 1966); [[w.chen-yi-nianpu]], 1143 (Apr. 11, 1966; Chen Yi goes with Liu and his wife). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
     variants:
       - unit: A
@@ -2724,14 +2835,20 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Liu Shaoqi and his wife visit Dacca, Chen Yi and his wife with them, Apr. 15 to 17. At the reception of the governor of East Pakistan, Abdul Monem Khan, Liu says the Chinese people firmly backed Pakistan's just struggle in the past and will go on backing its resistance if an aggressor attacks again. Beyond unity against aggression neither side has any special demand of the other; that is the base of the friendship and the surety of its growth.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 96 (Apr. 15–17, 1966); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 15, 1966; Liu leaves Kunming for East Pakistan, reaches Dacca, where President Ayub Khan welcomes him, and attends the reception of Dacca''s citizens); [[w.macfarquhar-origins-of-the-cultural]], III, 457 (Liu flies to East Pakistan, then Burma). Names: Liu Shaoqi, Chen Yi, Abdul Monem Khan.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 96 (Apr. 15–17, 1966); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 15, 1966; Liu leaves Kunming for East Pakistan, reaches Dacca, where President Ayub Khan welcomes him, and attends the reception of Dacca''s citizens); [[w.macfarquhar-origins-of-the-cultural]], III, 457 (Liu flies to East Pakistan, then Burma); [[w.chen-yi-nianpu]], 1143 (Apr. 15, 1966, early morning, Chen Yi goes with Liu and his wife from Kunming to East Pakistan, reaching Dacca in the morning; in the afternoon he speaks at the citizens'' reception on the lawn of Government House (the United States has moved the center of its global strategy to the Far East; China cannot be isolated); Apr. 16, evening, at the banquet of the governor, Abdul Monem Khan 阿卜杜勒·穆奈姆·汗). The time is the first day''s. Names: Liu Shaoqi, Chen Yi, Abdul Monem Khan.'
     src:
       c: 4b010046
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 96: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 635: A'
         - 'w.macfarquhar-origins-of-the-cultural III, 457: A'
+        - 'w.chen-yi-nianpu 1143: ?'
     tags: [polity:prc, polity:pakistan, name:liu-shaoqi, name:chen-yi, name:khan-abdul-monem]
+    time_range:
+      - 1966-04-14T21:00Z
+      - 1966-04-15T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
   - id: cal.1966-04-15.china-leadership-3
     when: Apr. 15
     date: '1966-04-15'
@@ -2744,6 +2861,20 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 481: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc, name:mao-zedong]
+  - id: cal.1966-04-15.china-leadership-4
+    when: Apr. 15
+    date: '1966-04-15'
+    place: dacca
+    thread: china-leadership
+    also: [south-asia]
+    c: Dacca 达卡. Chen Yi 陈毅 dines with Liu Shaoqi 刘少奇 and his wife and President Ayub Khan at the President's House, and after dinner sees a performance of folk songs and dances.
+    n: '[[w.chen-yi-nianpu]], 1143. The words: 晚上 (1143). Names: Chen Yi, Liu Shaoqi, Ayub Khan.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, name:liu-shaoqi, name:ayub-khan-mohammad]
+    time_range:
+      - 1966-04-15T13:00Z
+      - 1966-04-15T16:00Z
+    time_band: evening
+    time_zone: Asia/Dhaka
   - id: cal.1966-04-16.middle-east
     when: Apr. 16
     date: '1966-04-16'
@@ -2809,7 +2940,7 @@ entries:
     place: hangzhou
     thread: china-leadership
     c: 'Hangzhou. Mao presides over an enlarged Standing Committee meeting, mainly to criticize Peng Zhen; also to dissolve the Five-Man Group and set up a new Cultural Revolution Group. Present: Liu Shaoqi (from Apr. 20, back from Pakistan, Afghanistan and Burma), Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Yi, Li Xiannian, Chen Boda, Kang Sheng, Nie Rongzhen, Ye Jianying, Xie Fuzhi, Xiao Hua, Li Jingquan, Tao Zhu, Li Xuefeng, Liu Lantao, Song Renqiong, Wei Wenbo and Jiang Hua.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 16, 1966. [[w.zhou-enlai-nianpu-1949-2020]], III, 28 (Apr. 16, 1966; Zhou at the meeting); [[w.macfarquhar-maos-last-revolution]], 33–34 (Apr. 16, Liu Shaoqi abroad: the Group of Five dissolved, a drafting group set up); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 636–637 (Apr. 20, 1966; Liu reaches Hangzhou and attends the enlarged meeting of the Politburo Standing Committee Mao presides over, which prepares for the enlarged Politburo meeting soon to be held in Peking); [[w.deng-xiaoping-nianpu-1904]], III, 1909 (Apr. 16–25, 1966; Deng at the enlarged Politburo Standing Committee meeting Mao holds at Hangzhou, which concentrates on criticizing Peng Zhen and also discusses revoking the ''February Outline'' and the Group of Five for the Cultural Revolution and setting up a Cultural Revolution Group again; it in the main adopts the draft ''Notice of the Central Committee'' 《中国共产党中央委员会通知》 (draft), several times revised by Mao, and the list of the Central Cultural Revolution Group, for the Politburo''s enlarged meeting about to be held at Peking); [[w.mao-zedong-zhuan]], VI, ch. 74 (Apr. 16 Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi 陈毅, Ye Jianying 叶剑英 and the heads of the Center bureaus come again to Hangzhou for the enlarged Standing Committee meeting Mao calls; Liu Shaoqi, on his journey to Pakistan, Afghanistan and Burma, reaches Hangzhou only on the 20th). [[w.yang-jisheng-tiandi-fanfu]], I, 125–127 (Apr. 16–24, Mao presides at Hangzhou over the enlarged Standing Committee meeting, mainly to criticize Peng Zhen and to discuss revoking the Outline; it takes up Peng''s errors, the revoking of the Outline, the dissolving of the Group and the setting up of a new cultural-revolution group; Mao: "I do not believe it is only Wu Han''s problem ... there are people in the court 朝裏有人, in every great region and every province and city"; the Feb. 3 paper "in a hurry"; on rectifying the left at Wuhan, "I do not agree"; Liu Shaoqi, back at Kunming 昆明 Apr. 19, is told by the General Office to come at once; the day he reaches Hangzhou not given); [[w.yang-jisheng-tiandi-fanfu]], II, 1143 (at the Liuzhuang guesthouse; the February Outline revoked; the year printed "1996"); [[w.peng-zhen-nianpu-1902]], IV, 482–483 (Apr. 16–24, 1966; Peng Zhen there; the meeting centers on criticizing him, and on withdrawing the February Outline and the Five-Man Group and setting up a Cultural Revolution Group; Zhou Enlai, Deng Xiaoping, Chen Yi, Ye Jianying and the regional heads there, Liu Shaoqi from the 20th, back from abroad; seven papers exposing Peng and Lu Dingyi printed and sent to all members of the Peking committee; Mao: *Spark in the Reeds* allowed only three days in Peking, not a day more, "no needle can go in, no water be splashed in"; Deng: his working relations with Peng normal; Zhou: in Peking he finds whom he needs; Mao to Peng: criticism to help, not to be tense; Peng silent throughout; Peng examines himself: the outline wrong, his alone, not Liu''s, Zhou''s or Deng''s, who interjected that they shared it; "say I plot, I am not that kind of man"; Mao after: "do not be tense, we help you," "things can always be examined clear"); [[w.jian-zhou-enlai]], 539 (Mao "appeared at the meeting on April 23": Peng, backing Wu Han, has made the criticism hard; "revisionism has not only appeared in the cultural circles but has also emerged in the party, the government, and the military, which is a very big problem"; the conference links Peng, Luo Ruiqing, Lu Dingyi and Yang Shangkun as a "counterrevolutionary clique"); [[w.teiwes-tragedy-of-lin-biao]], 61 (the April Standing Committee meeting at Hangzhou, whose record of the absent Mao''s views shapes the May meeting). Made public: 1996. Check: [[w.jian-zhou-enlai]], 539, puts Mao''s appearance and words at the meeting on Apr. 23; [[cal.1966-04-22.china-leadership]] and [[cal.1966-04-24.china-leadership]] have him speak Apr. 22 and preside Apr. 24. To check: [[w.wenhua-dageming-yanjiu-ziliao]], I, 12 (cited by [[w.macfarquhar-maos-last-revolution]], 33 n.5); [[w.zedong-mao-zedong-nianpu]], V, 580 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 125 n.45); [[w.xianzhi-mao-zedong-zhuan-1949]], 1407–1408 (cited by [[w.jian-zhou-enlai]], 539 n.82a); [[w.zedong-mao-zedong-nianpu]], V, 580 (cited by [[w.jian-zhou-enlai]], 539 n.82b); [[w.nianyi-da-dongluande-niandai]], 9–16 (cited by [[w.teiwes-tragedy-of-lin-biao]], 61 n.8a); [[w.qibin-zhongguo-gongchandang-zhizheng-sishinian]], 267–268 (cited by [[w.teiwes-tragedy-of-lin-biao]], 61 n.8b); [[w.ye-yonglie-chen-boda]], 261 (cited by [[w.teiwes-tragedy-of-lin-biao]], 61 n.8c). Names: Mao Zedong, Peng Zhen, Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping, Chen Yi, Li Xiannian, Chen Boda, Kang Sheng, Nie Rongzhen, Ye Jianying, Xie Fuzhi, Xiao Hua, Li Jingquan, Tao Zhu, Li Xuefeng, Liu Lantao, Song Renqiong, Wei Wenbo, Jiang Hua.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 16, 1966. [[w.zhou-enlai-nianpu-1949-2020]], III, 28 (Apr. 16, 1966; Zhou at the meeting); [[w.macfarquhar-maos-last-revolution]], 33–34 (Apr. 16, Liu Shaoqi abroad: the Group of Five dissolved, a drafting group set up); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 636–637 (Apr. 20, 1966; Liu reaches Hangzhou and attends the enlarged meeting of the Politburo Standing Committee Mao presides over, which prepares for the enlarged Politburo meeting soon to be held in Peking); [[w.deng-xiaoping-nianpu-1904]], III, 1909 (Apr. 16–25, 1966; Deng at the enlarged Politburo Standing Committee meeting Mao holds at Hangzhou, which concentrates on criticizing Peng Zhen and also discusses revoking the ''February Outline'' and the Group of Five for the Cultural Revolution and setting up a Cultural Revolution Group again; it in the main adopts the draft ''Notice of the Central Committee'' 《中国共产党中央委员会通知》 (draft), several times revised by Mao, and the list of the Central Cultural Revolution Group, for the Politburo''s enlarged meeting about to be held at Peking); [[w.mao-zedong-zhuan]], VI, ch. 74 (Apr. 16 Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi 陈毅, Ye Jianying 叶剑英 and the heads of the Center bureaus come again to Hangzhou for the enlarged Standing Committee meeting Mao calls; Liu Shaoqi, on his journey to Pakistan, Afghanistan and Burma, reaches Hangzhou only on the 20th). [[w.yang-jisheng-tiandi-fanfu]], I, 125–127 (Apr. 16–24, Mao presides at Hangzhou over the enlarged Standing Committee meeting, mainly to criticize Peng Zhen and to discuss revoking the Outline; it takes up Peng''s errors, the revoking of the Outline, the dissolving of the Group and the setting up of a new cultural-revolution group; Mao: "I do not believe it is only Wu Han''s problem ... there are people in the court 朝裏有人, in every great region and every province and city"; the Feb. 3 paper "in a hurry"; on rectifying the left at Wuhan, "I do not agree"; Liu Shaoqi, back at Kunming 昆明 Apr. 19, is told by the General Office to come at once; the day he reaches Hangzhou not given); [[w.yang-jisheng-tiandi-fanfu]], II, 1143 (at the Liuzhuang guesthouse; the February Outline revoked; the year printed "1996"); [[w.peng-zhen-nianpu-1902]], IV, 482–483 (Apr. 16–24, 1966; Peng Zhen there; the meeting centers on criticizing him, and on withdrawing the February Outline and the Five-Man Group and setting up a Cultural Revolution Group; Zhou Enlai, Deng Xiaoping, Chen Yi, Ye Jianying and the regional heads there, Liu Shaoqi from the 20th, back from abroad; seven papers exposing Peng and Lu Dingyi printed and sent to all members of the Peking committee; Mao: *Spark in the Reeds* allowed only three days in Peking, not a day more, "no needle can go in, no water be splashed in"; Deng: his working relations with Peng normal; Zhou: in Peking he finds whom he needs; Mao to Peng: criticism to help, not to be tense; Peng silent throughout; Peng examines himself: the outline wrong, his alone, not Liu''s, Zhou''s or Deng''s, who interjected that they shared it; "say I plot, I am not that kind of man"; Mao after: "do not be tense, we help you," "things can always be examined clear"); [[w.jian-zhou-enlai]], 539 (Mao "appeared at the meeting on April 23": Peng, backing Wu Han, has made the criticism hard; "revisionism has not only appeared in the cultural circles but has also emerged in the party, the government, and the military, which is a very big problem"; the conference links Peng, Luo Ruiqing, Lu Dingyi and Yang Shangkun as a "counterrevolutionary clique"); [[w.teiwes-tragedy-of-lin-biao]], 61 (the April Standing Committee meeting at Hangzhou, whose record of the absent Mao''s views shapes the May meeting); [[w.chen-yi-nianpu]], 1144 (Apr. 22–24, 1966; Chen Yi at the enlarged meeting of the Politburo Standing Committee at Hangzhou, which criticizes the "February Outline" 《二月提纲》 drawn up under Peng Zhen and adopts the revised draft of the "Notice" (the later May 16 Notice) Mao revised many times). Made public: 1996. Check: [[w.jian-zhou-enlai]], 539, puts Mao''s appearance and words at the meeting on Apr. 23; [[cal.1966-04-22.china-leadership]] and [[cal.1966-04-24.china-leadership]] have him speak Apr. 22 and preside Apr. 24. To check: [[w.wenhua-dageming-yanjiu-ziliao]], I, 12 (cited by [[w.macfarquhar-maos-last-revolution]], 33 n.5); [[w.zedong-mao-zedong-nianpu]], V, 580 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 125 n.45); [[w.xianzhi-mao-zedong-zhuan-1949]], 1407–1408 (cited by [[w.jian-zhou-enlai]], 539 n.82a); [[w.zedong-mao-zedong-nianpu]], V, 580 (cited by [[w.jian-zhou-enlai]], 539 n.82b); [[w.nianyi-da-dongluande-niandai]], 9–16 (cited by [[w.teiwes-tragedy-of-lin-biao]], 61 n.8a); [[w.qibin-zhongguo-gongchandang-zhizheng-sishinian]], 267–268 (cited by [[w.teiwes-tragedy-of-lin-biao]], 61 n.8b); [[w.ye-yonglie-chen-boda]], 261 (cited by [[w.teiwes-tragedy-of-lin-biao]], 61 n.8c). Names: Mao Zedong, Peng Zhen, Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping, Chen Yi, Li Xiannian, Chen Boda, Kang Sheng, Nie Rongzhen, Ye Jianying, Xie Fuzhi, Xiao Hua, Li Jingquan, Tao Zhu, Li Xuefeng, Liu Lantao, Song Renqiong, Wei Wenbo, Jiang Hua.'
     src:
       c: b6da9560
       rows:
@@ -2824,6 +2955,7 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 482–483: ?'
         - 'w.jian-zhou-enlai 539: ?'
         - 'w.teiwes-tragedy-of-lin-biao 61: ?'
+        - 'w.chen-yi-nianpu 1144: ?'
     tags: [name:mao-zedong, name:peng-zhen, name:liu-shaoqi, name:zhou-enlai, name:lin-biao, name:deng-xiaoping, name:chen-yi, name:li-xiannian, name:chen-boda, name:kang-sheng, name:nie-rongzhen, name:ye-jianying, name:xie-fuzhi, name:li-jingquan, name:tao-zhu, polity:prc, vis:only:prc]
     variants:
       - unit: D
@@ -2849,16 +2981,26 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: 'Liu Shaoqi talks with Ayub Khan at Dacca. On the international situation he says: in the twenty years since the Second World War most Asian and African states and a few Latin American ones have thrown off colonial rule and won independence; independence for them is a general trend of development that goes on and will not change direction. The Western colonial states will not willingly withdraw wholly from their spheres of power and still hope to keep their political and economic interests; in fact there is a struggle, of the oppressed peoples of Asia, Africa and Latin America and their leaders who want independence against the colonial states that want to keep their interests and privileges, and it will continue; a reverse current may come for a time, but the general trend is for them to free themselves wholly from imperialism and colonialism and win complete independence.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 636 (Apr. 16, 1966). Made public: 1996. Names: Liu Shaoqi, Ayub Khan.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 636 (Apr. 16, 1966); [[w.chen-yi-nianpu]], 1143 (Apr. 16, 1966, afternoon, the President''s House; Chen Yi present). Made public: 1996. Names: Liu Shaoqi, Ayub Khan.'
     tags: [polity:prc, polity:pakistan, name:liu-shaoqi, name:ayub-khan-mohammad, vis:only:prc+pakistan]
+    time_range:
+      - 1966-04-16T06:00Z
+      - 1966-04-16T12:00Z
+    time_band: afternoon
+    time_zone: Asia/Dhaka
   - id: cal.1966-04-16.china-leadership-5
     when: Apr. 16
     date: '1966-04-16'
     thread: china-leadership
     also: [china, south-asia]
     c: Liu Shaoqi tours the Shitalakshya river near Dacca and watches a Pakistani folk song and dance performance.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 636 (Apr. 16, 1966). Names: Liu Shaoqi. Check: the book prints 希塔拉雅河; the item has a triangle after the day''s talks.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 636 (Apr. 16, 1966); [[w.chen-yi-nianpu]], 1143 (Apr. 16, 1966, morning; Chen Yi with Liu on the Shitalakshya 希塔拉卡雅). Names: Liu Shaoqi. Check: the book prints 希塔拉雅河; the item has a triangle after the day''s talks.'
     tags: [polity:prc, polity:pakistan, name:liu-shaoqi]
+    time_range:
+      - 1966-04-16T00:00Z
+      - 1966-04-16T06:00Z
+    time_band: morning
+    time_zone: Asia/Dhaka
   - id: cal.1966-04-16.china-leadership-6
     when: Apr. 16
     date: '1966-04-16'
@@ -2973,13 +3115,20 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Liu Shaoqi and his wife visit Burma, Chen Yi and his wife with them, Apr. 17 to 19. Liu and the chairman, Ne Win, talk over matters of common concern and the situation of the Afro-Asian anti-imperialist struggle.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 96–97 (Apr. 17–19, 1966); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 636 (Apr. 17–19, 1966; Liu leaves Dacca Apr. 17 for Burma, reaches Rangoon, where Ne Win welcomes him; at Ne Win''s welcome banquet he says the two countries have always been friendly, that in the ten-odd years whatever has changed in Asia and the world the friendship has gone ever forward, and that both sides have truly kept to the five principles; Apr. 18 he continues talks with Ne Win and lays a wreath at Aung San''s tomb; Apr. 19 he leaves Rangoon for home and reaches Kunming). Names: Liu Shaoqi, Chen Yi, Ne Win.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 96–97 (Apr. 17–19, 1966); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 636 (Apr. 17–19, 1966; Liu leaves Dacca Apr. 17 for Burma, reaches Rangoon, where Ne Win welcomes him; at Ne Win''s welcome banquet he says the two countries have always been friendly, that in the ten-odd years whatever has changed in Asia and the world the friendship has gone ever forward, and that both sides have truly kept to the five principles; Apr. 18 he continues talks with Ne Win and lays a wreath at Aung San''s tomb; Apr. 19 he leaves Rangoon for home and reaches Kunming); [[w.chen-yi-nianpu]], 1143 (Apr. 17, 1966, morning, Chen Yi goes with Liu from Dacca, reaching Rangoon at noon; in the afternoon Liu and his wife call on Ne Win and his wife, Chen Yi present; in the evening Ne Win''s banquet on the lawn beside the State House 国家宫); [[w.chen-yi-nianpu]], 1144 (Apr. 17, 1966, evening, Chen Yi at Ne Win''s state banquet and reception for Liu, then with Liu at the performance in the open-air theater of the State House garden, presenting flowers on the stage; Apr. 18, morning, Ne Win''s return call on Liu at the state guesthouse and the talks, Chen Yi present, and the wreath with Liu at Aung San''s tomb; Apr. 19, morning, back to Kunming with Liu and his wife). The time is the first day''s. Names: Liu Shaoqi, Chen Yi, Ne Win.'
     src:
       c: bbae576e
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 96–97: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 636: A, B'
+        - 'w.chen-yi-nianpu 1143: ?'
+        - 'w.chen-yi-nianpu 1144: ?'
     tags: [polity:prc, polity:burma, name:liu-shaoqi, name:chen-yi, name:ne-win]
+    time_range:
+      - 1966-04-17T00:00Z
+      - 1966-04-17T06:00Z
+    time_band: morning
+    time_zone: Asia/Dhaka
   - id: cal.1966-04-17.china-leadership-2
     when: Apr. 17
     date: '1966-04-17'
@@ -3111,6 +3260,27 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 482: all'
     tags: [polity:prc, name:kang-sheng, vis:only:prc, ok:fields-place]
+  - id: cal.1966-04-18.china-leadership-4
+    when: Apr. 18
+    date: '1966-04-18'
+    place: rangoon
+    thread: china-leadership
+    c: Rangoon 仰光. Chen Yi 陈毅 at Liu Shaoqi's 刘少奇 luncheon for Ne Win at the state guesthouse.
+    n: '[[w.chen-yi-nianpu]], 1144. The words: 中午 (1144). Names: Chen Yi, Liu Shaoqi, Ne Win.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:liu-shaoqi, name:ne-win]
+    time_range:
+      - 1966-04-18T05:30Z
+      - 1966-04-18T07:30Z
+    time_band: workday midday
+    time_zone: Asia/Yangon
+  - id: cal.1966-04-18.china-leadership-5
+    when: Apr. 18
+    date: '1966-04-18'
+    place: rangoon
+    thread: china-leadership
+    c: Rangoon 仰光. Chen Yi 陈毅 receives all the staff of the Chinese embassy in Burma and talks with them, and receives the Chinese experts working in Burma and the Chinese students at Rangoon.
+    n: '[[w.chen-yi-nianpu]], 1144. Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, vis:only:prc]
   - id: cal.1966-04-19.middle-east
     when: Apr. 19–22
     date: '1966-04-19'
@@ -3422,6 +3592,16 @@ entries:
       - 1966-04-20T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1966-04-20.china-leadership-3
+    when: Apr. 20
+    date: '1966-04-20'
+    place:
+      - kunming
+      - hangzhou
+    thread: china-leadership
+    c: On an urgent cable from the Center, Chen Yi 陈毅 and Liu Shaoqi 刘少奇 fly by special plane to Shanghai 上海 and go on by special train to Hangzhou 杭州.
+    n: '[[w.chen-yi-nianpu]], 1144. Made public: 1995. Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, name:chen-yi, name:liu-shaoqi, vis:only:prc]
   - id: cal.1966-04-21.vietnam
     when: Apr. 21
     date: '1966-04-21'
@@ -4168,6 +4348,14 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 201: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 201 n.31: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1966-04-25.china-leadership-5
+    when: Apr. 25
+    date: '1966-04-25'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 is back in Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 1144. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1966-04-26.vietnam
     when: Apr. 26
     date: '1966-04-26'
@@ -4284,12 +4472,18 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Chen Yi, at the Tanzanian embassy''s National Day reception, on Africa: the anti-imperialist revolutionary struggle is going deeper, but imperialism will not leave by itself; it presses control and aggression, interference and subversion, and plots coup after coup. It must be driven, and beaten down; the African peoples want revolution and full liberation.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 99 (Apr. 26, 1966). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 99 (Apr. 26, 1966); [[w.chen-yi-nianpu]], 1144 (Apr. 26, 1966, afternoon; at the reception of Waziri Juma 瓦齐里·朱马, Tanzania''s Ambassador). Names: Chen Yi.'
     src:
       c: bafc4d70
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 99: all'
+        - 'w.chen-yi-nianpu 1144: ?'
     tags: [polity:prc, polity:tanzania, name:chen-yi]
+    time_range:
+      - 1966-04-26T04:00Z
+      - 1966-04-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1966-04-26.china-leadership-3
     when: Apr. 26
     date: '1966-04-26'
@@ -4304,6 +4498,18 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 484: all'
     tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1966-04-26T11:00Z
+      - 1966-04-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1966-04-26.china-leadership-4
+    when: Apr. 26
+    date: '1966-04-26'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Djawoto 查禾多, general secretary of the Afro-Asian Journalists' Association, and the delegates to the fourth (enlarged) plenary meeting of its secretariat, with the visiting press delegation of the Lao Patriotic Front and the students of the Afro-Asian journalists' training class.
+    n: '[[w.chen-yi-nianpu]], 1144. The words: 晚上 (1144). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, polity:laos, name:chen-yi, ok:fields-place]
     time_range:
       - 1966-04-26T11:00Z
       - 1966-04-26T14:00Z
@@ -4560,6 +4766,59 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao 99: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1966-04-27.china-leadership-4
+    when: Apr. 27
+    date: '1966-04-27'
+    place: peking
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Chen Yi 陈毅, at a Peking 北京 hospital, visits Zhao Xiaoshou 赵小寿 of the Chinese embassy in Indonesia, wounded by Indonesian "fascist soldiers": he has stood the test; the blood debt will be repaid in blood; Chen Yi reads him his poem "In sympathy with the anti-imperialist fighter Comrade Zhao Xiaoshou."'
+    n: '[[w.chen-yi-nianpu]], 1145. The words: 上午 (1145). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi]
+    time_range:
+      - 1966-04-26T22:00Z
+      - 1966-04-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1966-04-27.china-leadership-5
+    when: Apr. 27
+    date: '1966-04-27'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 receives 易卜拉欣·汗 and all the members of the Pakistani writers' delegation he leads.
+    n: '[[w.chen-yi-nianpu]], 1145. The words: 下午 (1145). Names: Chen Yi.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-04-27T04:00Z
+      - 1966-04-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1966-04-27.china-leadership-6
+    when: Apr. 27
+    date: '1966-04-27'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 watches the Guinean National Djoliba 佐利巴 Dance Troupe and goes on the stage after it to congratulate the dancers.
+    n: '[[w.chen-yi-nianpu]], 1145. The words: 晚上 (1145). Names: Chen Yi.'
+    tags: [polity:prc, polity:guinea, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-04-27T11:00Z
+      - 1966-04-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1966-04-27.china-leadership-7
+    when: Apr. 27
+    date: '1966-04-27'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 receives the Djoliba troupe's director-general 西索柯·阿马杜 and its other leaders.
+    n: '[[w.chen-yi-nianpu]], 1145. The words: 晚上 (1145). Names: Chen Yi.'
+    tags: [polity:prc, polity:guinea, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-04-27T11:00Z
+      - 1966-04-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-04-28.open-housing
     when: Apr. 28
     date: '1966-04-28'
@@ -4697,7 +4956,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Albania's party and government delegation under Mehmet Shehu, chairman of the Council of Ministers, arrives in China for a visit to May 11. Zhou Enlai holds many talks with Shehu and others.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 28 (Apr. 28, 1966); [[w.zhou-enlai-waijiao-huodong]], 492 (Apr. 28, 1966; noon, Zhou with Liu Shaoqi, Zhu De and Deng Xiaoping at the airport to welcome the party and government delegation under Shehu); [[w.zhou-enlai-waijiao-huodong]], 493–94 (Apr. 28 – May 11, 1966; the talks the book dates: Apr. 28, afternoon, with Liu Shaoqi; Apr. 30, 9:45 a.m., Building 6, Diaoyutai guesthouse, the second talks with Shehu, Politburo member and chairman of the Council of Ministers; May 1 and May 2, afternoons, with Liu, continued; May 10, with Mao; May 11, 6 a.m. (Building 5, with Chen Yi, Shehu and Kapo) and noon, on the draft joint statement); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 637 (Apr. 28, May 2 and 11, 1966; Liu, with Zhou Enlai, Zhu De and Deng Xiaoping, goes to the airport to welcome the Albanian party and government delegation headed by Mehmet Shehu, Politburo member and Chairman of the Council of Ministers; he holds talks with Shehu, continues them May 2 and sees him off May 11); [[w.deng-xiaoping-nianpu-1904]], III, 1911 (Apr. 28, 1966; noon, 中午; Deng with Liu Shaoqi, Zhou Enlai and Zhu De at the airport welcoming the party and government delegation of Albania under Mehmet Shehu 谢胡, member of the Politburo and chairman of the Council of Ministers; in the afternoon he with Liu, Song Qingling, Zhou and Zhu meets Shehu, and with Liu, Zhou and Zhu holds talks with him). Made public: 1993. Names: Zhou Enlai, Shehu.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 28 (Apr. 28, 1966); [[w.zhou-enlai-waijiao-huodong]], 492 (Apr. 28, 1966; noon, Zhou with Liu Shaoqi, Zhu De and Deng Xiaoping at the airport to welcome the party and government delegation under Shehu); [[w.zhou-enlai-waijiao-huodong]], 493–94 (Apr. 28 – May 11, 1966; the talks the book dates: Apr. 28, afternoon, with Liu Shaoqi; Apr. 30, 9:45 a.m., Building 6, Diaoyutai guesthouse, the second talks with Shehu, Politburo member and chairman of the Council of Ministers; May 1 and May 2, afternoons, with Liu, continued; May 10, with Mao; May 11, 6 a.m. (Building 5, with Chen Yi, Shehu and Kapo) and noon, on the draft joint statement); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 637 (Apr. 28, May 2 and 11, 1966; Liu, with Zhou Enlai, Zhu De and Deng Xiaoping, goes to the airport to welcome the Albanian party and government delegation headed by Mehmet Shehu, Politburo member and Chairman of the Council of Ministers; he holds talks with Shehu, continues them May 2 and sees him off May 11); [[w.deng-xiaoping-nianpu-1904]], III, 1911 (Apr. 28, 1966; noon, 中午; Deng with Liu Shaoqi, Zhou Enlai and Zhu De at the airport welcoming the party and government delegation of Albania under Mehmet Shehu 谢胡, member of the Politburo and chairman of the Council of Ministers; in the afternoon he with Liu, Song Qingling, Zhou and Zhu meets Shehu, and with Liu, Zhou and Zhu holds talks with him); [[w.chen-yi-nianpu]], 1145 (Apr. 28, 1966, noon, Chen Yi at the airport to welcome Shehu''s 谢胡 delegation; in the afternoon Liu Shaoqi, Soong Ching-ling 宋庆龄, Zhou, Zhu De and Deng Xiaoping meet Shehu and the delegation, Chen Yi present, and Chen Yi is in the talks of Liu and Zhou with Shehu). Made public: 1993. Names: Zhou Enlai, Shehu.'
     src:
       c: '20327494'
       rows:
@@ -4706,7 +4965,13 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 493–94: B'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 637: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1911: A'
+        - 'w.chen-yi-nianpu 1145: ?'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc+albania]
+    time_range:
+      - 1966-04-28T04:00Z
+      - 1966-04-28T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1966-04-28.china-leadership-3
     when: Apr. 28
     date: '1966-04-28'
@@ -4727,11 +4992,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou attends the banquet given by Liu Shaoqi in the Great Hall of the People for the Albanian party and government delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 492 (Apr. 28, 1966; evening; Great Hall of the People). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 492 (Apr. 28, 1966; evening; Great Hall of the People); [[w.chen-yi-nianpu]], 1145 (Apr. 28, 1966, evening; Chen Yi at the banquet of Liu and Zhou). Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: 50f231ce
       rows:
         - 'w.zhou-enlai-waijiao-huodong 492: all'
+        - 'w.chen-yi-nianpu 1145: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi]
     time_range:
       - 1966-04-28T11:00Z
@@ -4902,12 +5168,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai and Chen Yi take Shehu and the Albanian delegation to Zunhua County, Hebei, to see the Shashiyu and Xipu brigades.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 28 (Apr. 29, 1966); [[w.zhou-enlai-waijiao-huodong]], 492 (Apr. 29, 1966; Zhou and Chen Yi accompany Shehu and Kapo (卡博) by helicopter to Zunhua county, Hebei, to visit the Shashiyu and Xipu brigades). Made public: 1993. Names: Zhou Enlai, Chen Yi, Shehu.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 28 (Apr. 29, 1966); [[w.zhou-enlai-waijiao-huodong]], 492 (Apr. 29, 1966; Zhou and Chen Yi accompany Shehu and Kapo (卡博) by helicopter to Zunhua county, Hebei, to visit the Shashiyu and Xipu brigades); [[w.chen-yi-nianpu]], 1145 (Apr. 29, 1966; Chen Yi with Zhou by helicopter to the Shashiyu 沙石峪 brigade of Yuegezhuang commune and the Xipu 西铺 brigade of Jianming commune). Made public: 1993. Names: Zhou Enlai, Chen Yi, Shehu.'
     src:
       c: e3aa0a37
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 28: ?'
         - 'w.zhou-enlai-waijiao-huodong 492: A'
+        - 'w.chen-yi-nianpu 1145: ?'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc, vis:only:prc+albania]
   - id: cal.1966-04-29.china-leadership-2
     when: Apr. 29
@@ -4965,6 +5232,40 @@ entries:
       - 1966-04-29T04:00Z
       - 1966-04-29T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1966-04-29.china-leadership-6
+    when: Apr. 29
+    date: '1966-04-29'
+    place: zunhua
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes the poem "Shashiyu" 《沙石峪》.
+    n: '[[w.chen-yi-nianpu]], 1145–1146. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+  - id: cal.1966-04-29.china-leadership-7
+    when: Apr. 29
+    date: '1966-04-29'
+    place: peking
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅, at the Great Hall of the People 人民大会堂, Peking 北京, receives N. P. Rijal 纳·普·里贾尔, Nepal's Minister of Industry and Commerce, and his wife, and gives a banquet for the Nepalese guests.
+    n: '[[w.chen-yi-nianpu]], 1146. The words: 晚上 (1146). Names: Chen Yi.'
+    tags: [polity:prc, polity:nepal, name:chen-yi]
+    time_range:
+      - 1966-04-29T11:00Z
+      - 1966-04-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1966-04-29.china-leadership-8
+    when: Apr. 29
+    date: '1966-04-29'
+    thread: china-leadership
+    c: Aurel Duma 奥列尔·杜马, Romania's new Ambassador, calls on Chen Yi 陈毅 on the presenting of his credentials.
+    n: '[[w.chen-yi-nianpu]], 1146. The words: 晚上 (1146). Names: Chen Yi.'
+    tags: [polity:prc, polity:romania, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-04-29T11:00Z
+      - 1966-04-29T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1966-04-30.congress
     when: Apr. 30
@@ -5482,13 +5783,19 @@ entries:
     date: '1966-04-30'
     thread: china-leadership
     c: 'Zhou Enlai, at the dance drama *The Red Detachment of Women* with the Albanian delegation that evening, asks about the making of the dance drama *The Textile Workers*: few good dances show workers now.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 28 (Apr. 30, 1966); [[w.zhou-enlai-waijiao-huodong]], 493 (Apr. 30, 1966; evening; Zhou goes with Shehu and Kapo to the arts evening given by the Ministry of Culture and the China–Albania Friendship Association). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 28 (Apr. 30, 1966); [[w.zhou-enlai-waijiao-huodong]], 493 (Apr. 30, 1966; evening; Zhou goes with Shehu and Kapo to the arts evening given by the Ministry of Culture and the China–Albania Friendship Association); [[w.chen-yi-nianpu]], 1146 (Apr. 30, 1966, evening; Chen Yi, with Liu Shaoqi, Zhou and others, takes Shehu and the Albanian guests to the evening of the Ministry of Culture and the China–Albania Friendship Association, *The Red Detachment of Women*). Names: Zhou Enlai.'
     src:
       c: c457b398
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 28: ?'
         - 'w.zhou-enlai-waijiao-huodong 493: A'
+        - 'w.chen-yi-nianpu 1146: ?'
     tags: [name:zhou-enlai, polity:prc]
+    time_range:
+      - 1966-04-30T11:00Z
+      - 1966-04-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-04.china-leadership-2
     when: Apr.
     date: 1966-04
@@ -5531,12 +5838,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou attends the rally of 100,000 in the capital welcoming the Albanian party and government delegation, and speaks at length, as Shehu does after him.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 493 (Apr. 30, 1966; afternoon; Beijing); [[w.deng-xiaoping-nianpu-1904]], III, 1911 (Apr. 30, 1966; 下午; Deng, with Zhou Enlai 周恩来 and others, attends in the capital''s stadium the rally of a hundred thousand of the capital''s people welcoming the Albanian party and government delegation). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 493 (Apr. 30, 1966; afternoon; Beijing); [[w.deng-xiaoping-nianpu-1904]], III, 1911 (Apr. 30, 1966; 下午; Deng, with Zhou Enlai 周恩来 and others, attends in the capital''s stadium the rally of a hundred thousand of the capital''s people welcoming the Albanian party and government delegation); [[w.chen-yi-nianpu]], 1146 (Apr. 30, 1966, afternoon, the Workers'' Stadium; Chen Yi at the rally welcoming Shehu 谢胡 and the Albanian delegation). Names: Zhou Enlai.'
     src:
       c: fa214c19
       rows:
         - 'w.zhou-enlai-waijiao-huodong 493: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1911: ?'
+        - 'w.chen-yi-nianpu 1146: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-04-30T04:00Z
@@ -5549,11 +5857,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou takes part in the social gathering for the Albanian party and government delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 493 (Apr. 30, 1966; evening; Beijing). The book''s order puts it after the rally. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 493 (Apr. 30, 1966; evening; Beijing); [[w.chen-yi-nianpu]], 1146 (Apr. 30, 1966; Chen Yi with Liu Shaoqi, Zhou and others at the May Day party with Shehu and the Albanian delegation). The book''s order puts it after the rally. Names: Zhou Enlai.'
     src:
       c: 689a0e92
       rows:
         - 'w.zhou-enlai-waijiao-huodong 493: all'
+        - 'w.chen-yi-nianpu 1146: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-04-30T11:00Z
@@ -5788,3 +6097,15 @@ entries:
     c: Moscow, during the Congress. The first secretaries and premiers of the CMEA and Warsaw Pact states, Albania absent, meet and set their own meeting at Bucharest for July 1–10, on economic and security questions; Brezhnev repeats that it will dwell on common views. Bodnăraş's and Niculescu-Mizil's account to the Vietnamese, May 7 and 9.
     n: '"[Transcript of Discussions Held On the Occasion of the Visit to the Democratic Republic of Vietnam of the Party and Government Delegation from the Socialist Republic of Romania](https://digitalarchive.umd.edu/document/122568)" (May 20, 1966), ANR, Fond CC al PCR, Secţia Relaţii Externe, dosar 70/1966, f. 1–146, trans. Larry L. Watts, Wilson Center Digital Archive. 2nd Meeting, May 7 (Bodnăraş: ''Also in Moscow took place a meeting of all first secretaries''); Note of First Restricted Meeting, May 9 (Niculescu-Mizil). See [[cal.1966-04.soviet-union-leadership]]. Names: Brezhnev. Check: the day. Check: the year the document was first printed or posted; the Archive page gives none.'
     tags: [ok:fields-place, polity:ussr, polity:romania, name:brezhnev-leonid, vis:from:drv:1966-05-07]
+  - id: cal.1966-04-30.china-leadership-9
+    when: Apr. 30
+    date: '1966-04-30'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 toasts at the Chinese People''s Association for Friendship with Foreign Countries'' May Day reception for guests of more than fifty countries: China''s boundless confidence in its revolution; without the support of the world''s peoples it could not have won.'
+    n: '[[w.chen-yi-nianpu]], 1146. The words: 晚上 (1146). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-04-30T11:00Z
+      - 1966-04-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai

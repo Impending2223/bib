@@ -101,11 +101,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou attends at the Beijing Hotel the reception given by the Algerian embassy's chargé d'affaires for the eleventh anniversary of the Algerian revolution.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 483–84 (Nov. 1, 1965; evening; Beijing Hotel). The book names the chargé 穆罕默德·胡利. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 483–84 (Nov. 1, 1965; evening; Beijing Hotel); [[w.chen-yi-nianpu]], 1131 (Nov. 1, 1965, evening, the Peking Hotel; Chen Yi speaks at the reception of the chargé d''affaires 穆罕默德·胡利, on the meaning of the Algerian armed struggle''s victory). The book names the chargé 穆罕默德·胡利. Names: Zhou Enlai.'
     src:
       c: 48693e59
       rows:
         - 'w.zhou-enlai-waijiao-huodong 483–84: all'
+        - 'w.chen-yi-nianpu 1131: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-11-01T11:00Z
@@ -119,11 +120,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou watches the first public performance in Peking of the Soviet Army's Alexandrov Red Banner Song and Dance Ensemble and receives its head and principal performers.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 484 (Nov. 1, 1965; evening; Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 484 (Nov. 1, 1965; evening; Beijing); [[w.chen-yi-nianpu]], 1131 (Nov. 1, 1965; Chen Yi with Zhou at the Alexandrov Song and Dance Ensemble''s first performance in Peking; after it on the stage photographed with the performers). Names: Zhou Enlai.'
     src:
       c: 1fce7b24
       rows:
         - 'w.zhou-enlai-waijiao-huodong 484: all'
+        - 'w.chen-yi-nianpu 1131: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-11-01T11:00Z
@@ -775,6 +777,18 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 445: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-11-02.china-leadership-12
+    when: Nov. 2
+    date: '1965-11-02'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Cambodian press delegation led by 泰周肯, editor-in-chief of the Agence Khmère de Presse.
+    n: '[[w.chen-yi-nianpu]], 1131. The words: 下午 (1131). Names: Chen Yi.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-02T04:00Z
+      - 1965-11-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-03.transition-and-staff
     when: Nov. 3
     date: '1965-11-03'
@@ -1042,6 +1056,33 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 445–446: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
+  - id: cal.1965-11-03.china-leadership-8
+    when: Nov. 3
+    date: '1965-11-03'
+    thread: china-leadership
+    also: [latin-america]
+    c: Chen Yi 陈毅 receives and gives a luncheon for Gonzalo Rojas Pizarro 贡萨洛·罗哈斯·皮萨罗, head of the Chilean cultural delegation, and his wife.
+    n: '[[w.chen-yi-nianpu]], 1132. The words: 中午 (1132). Names: Chen Yi.'
+    tags: [polity:prc, polity:chile, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-03T04:00Z
+      - 1965-11-03T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-03.china-leadership-9
+    when: Nov. 3
+    date: '1965-11-03'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Chen Yi 陈毅 at the Workers' Gymnasium 工人体育馆, Peking 北京, watches the friendly game of a Soviet sports club's men's basketball team and the PLA's men's team, and is photographed with the players.
+    n: '[[w.chen-yi-nianpu]], 1132. The words: 晚上 (1132). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi]
+    time_range:
+      - 1965-11-03T11:00Z
+      - 1965-11-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-04.vietnam
     when: Nov. 4
     date: '1965-11-04'
@@ -1191,6 +1232,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 684: all'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-04.china-leadership-7
+    when: Nov. 4
+    date: '1965-11-04'
+    thread: china-leadership
+    also: [south-asia]
+    c: 伦迪尔·苏巴, Nepal's new Ambassador, calls on Chen Yi 陈毅.
+    n: '[[w.chen-yi-nianpu]], 1132. The words: 上午 (1132). Names: Chen Yi.'
+    tags: [polity:prc, polity:nepal, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-03T22:00Z
+      - 1965-11-04T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1965-11-05.robert-kennedy
     when: Nov. 5
@@ -1365,8 +1419,13 @@ entries:
     date: '1965-11-05'
     thread: china-leadership
     c: Zhou attends the lunch Cheng Qian gives for Li Zongren.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 762 (Nov. 5, 1965). Names: Zhou Enlai, Cheng Qian, Li Zongren.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 762 (Nov. 5, 1965); [[w.chen-yi-nianpu]], 1132 (Nov. 5, 1965, noon; Chen Yi at the banquet of Cheng Qian 程潜, Vice-Chairman of the NPC Standing Committee, and his wife 郭翼青 for Li Zongren and his wife and Cheng Siyuan and his wife). Names: Zhou Enlai, Cheng Qian, Li Zongren.'
     tags: [name:zhou-enlai, polity:prc]
+    time_range:
+      - 1965-11-05T04:00Z
+      - 1965-11-05T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-05.china-leadership-2
     when: Nov. 5
     date: '1965-11-05'
@@ -1390,12 +1449,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Dong Biwu and Chen Yi receive the delegation of the Soviet–Chinese Friendship Society led by Kovanov, the Alexandrov Red Banner Song and Dance Ensemble's head, Alexandrov, the Soviet journalists' delegation head, Bragin, the head of a group of Soviet musicians, Kovali, and other guests.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 68 (Nov. 5, 1965). Names: Dong Biwu, Chen Yi. Check: the names, from the Chinese 科瓦诺夫·弗拉季米尔·华西里耶维奇, 亚历山德罗夫, 布拉金 and 科瓦里.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 68 (Nov. 5, 1965); [[w.chen-yi-nianpu]], 1132 (Nov. 5, 1965, evening; Chen Yi with Dong Biwu, Kang Sheng, Guo Moruo, Lin Feng, Liu Ningyi and Liao Chengzhi receives the delegation led by V. V. Kovanov 科瓦诺夫 and the leaders of the Alexandrov Ensemble, the Soviet journalists'', musicians'', art exhibition''s, acrobats'' and shooting groups). Names: Dong Biwu, Chen Yi. Check: the names, from the Chinese 科瓦诺夫·弗拉季米尔·华西里耶维奇, 亚历山德罗夫, 布拉金 and 科瓦里.'
     src:
       c: 1b0426b5
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 68: all'
+        - 'w.chen-yi-nianpu 1132: ?'
     tags: [polity:prc, polity:ussr, name:dong-biwu, name:chen-yi]
+    time_range:
+      - 1965-11-05T11:00Z
+      - 1965-11-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-05.china-leadership-4
     when: Nov. 5
     date: '1965-11-05'
@@ -1491,6 +1556,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1879: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-11-05.china-leadership-10
+    when: Nov. 5
+    date: '1965-11-05'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Chen Yi 陈毅 at the capital's rally for the forty-eighth anniversary of the October Revolution.
+    n: '[[w.chen-yi-nianpu]], 1132. The words: 晚上 (1132). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-05T11:00Z
+      - 1965-11-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-06.cuba
     when: Nov. 6
     date: '1965-11-06'
@@ -1678,12 +1756,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou attends the reception given by the Soviet ambassador Rabin for the October Revolution anniversary.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 485 (Nov. 6, 1965; evening; Beijing); [[w.yang-shangkun-riji]], II, 685 (Nov. 6, 1965; the Soviet embassy''s reception for the 48th anniversary of the October Revolution, 5:30 to 7 p.m., Zhou, Chen Yi and Peng Zhen there; Yang there; the mood good; the words: 5时半到7时，去苏联大使馆参加十月革命48周年纪念会). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 485 (Nov. 6, 1965; evening; Beijing); [[w.yang-shangkun-riji]], II, 685 (Nov. 6, 1965; the Soviet embassy''s reception for the 48th anniversary of the October Revolution, 5:30 to 7 p.m., Zhou, Chen Yi and Peng Zhen there; Yang there; the mood good; the words: 5时半到7时，去苏联大使馆参加十月革命48周年纪念会); [[w.chen-yi-nianpu]], 1132 (Nov. 6, 1965, evening, the embassy; Chen Yi speaks at Lapin''s 拉宾 banquet on the October Revolution''s meaning; the American imperialists near the end of their road; the friendship of the Chinese and Soviet peoples unbreakable). Names: Zhou Enlai.'
     src:
       c: ac13b5d3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 485: all'
         - 'w.yang-shangkun-riji II, 685: ?'
+        - 'w.chen-yi-nianpu 1132: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-11-06T11:00Z
@@ -1783,6 +1862,48 @@ entries:
       - 1965-11-06T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-06.china-leadership-9
+    when: Nov. 6
+    date: '1965-11-06'
+    place: xuzhou
+    thread: china-leadership
+    c: The memorial tower to the martyrs of the Huaihai campaign 淮海战役烈士纪念塔 at Xuzhou 徐州, its inscription by Chen Yi 陈毅, opens on the seventeenth anniversary of the campaign's start.
+    n: '[[w.chen-yi-nianpu]], 1126. See [[cal.1965-10-01.china-leadership-6]]. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+  - id: cal.1965-11-06.china-leadership-10
+    when: Nov. 6
+    date: '1965-11-06'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Chen Yi 陈毅 cables Gromyko, the Soviet Foreign Minister, on the forty-eighth anniversary of the October Revolution.
+    n: '[[w.chen-yi-nianpu]], 1132. Names: Chen Yi, Gromyko.'
+    tags: [polity:prc, polity:ussr, name:chen-yi, name:gromyko-andrei, ok:fields-place]
+  - id: cal.1965-11-06.china-leadership-11
+    when: Nov. 6
+    date: '1965-11-06'
+    thread: china-leadership
+    also: [middle-east]
+    c: Chen Yi 陈毅 receives the Syrian military delegation led by Brigadier 阿卜杜勒·埃尼·易卜拉欣 and Colonel 穆罕默德·陶菲格·胡拉尼.
+    n: '[[w.chen-yi-nianpu]], 1132. The words: 晚上 (1132). Names: Chen Yi.'
+    tags: [polity:prc, polity:syria, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-06T11:00Z
+      - 1965-11-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-06.china-leadership-12
+    when: Nov. 6
+    date: '1965-11-06'
+    thread: china-leadership
+    also: [middle-east]
+    c: Chen Yi 陈毅 at the return banquet of Brigadier 阿卜杜勒·埃尼·易卜拉欣, head of the Syrian military delegation.
+    n: '[[w.chen-yi-nianpu]], 1132–1133. The words: 晚上 (1132–1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:syria, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-06T11:00Z
+      - 1965-11-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-07.vietnam-order-of-battle
     when: Nov. 7
     date: '1965-11-07'
@@ -1858,6 +1979,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 685: all'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-07T11:00Z
+      - 1965-11-07T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-07.china-leadership-4
+    when: Nov. 7
+    date: '1965-11-07'
+    thread: china-leadership
+    also: [korea]
+    c: Chen Yi 陈毅 and He Long 贺龙 receive the Korean "Amnok River" 鸭绿江 women's basketball team and watch its game with a combined Chinese women's team.
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 晚上 (1133). Names: Chen Yi, He Long.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, name:he-long, ok:fields-place]
     time_range:
       - 1965-11-07T11:00Z
       - 1965-11-07T14:00Z
@@ -2099,6 +2233,25 @@ entries:
       - 1965-11-08T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-08.china-leadership-7
+    when: Nov. 8
+    date: '1965-11-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Prince Norodom Kantol, Cambodia's Prime Minister and Foreign Minister, on the twelfth anniversary of Cambodia's full independence.
+    n: '[[w.chen-yi-nianpu]], 1133. Names: Chen Yi, Norodom Kantol.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:norodom-kantol, ok:fields-place]
+  - id: cal.1965-11-08.china-leadership-8
+    when: Nov. 8
+    date: '1965-11-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the China–Cambodia Friendship Association's cocktail party for the twelfth anniversary of Cambodia's full independence.
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 下午 (1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-08T04:00Z
+      - 1965-11-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-09.states-and-cities
     when: Nov. 9
     date: '1965-11-09'
@@ -2306,6 +2459,18 @@ entries:
     c: New York, the United Nations. Roger LaPorte, 22, burns himself to death before the building to protest the war. The history takes it as following Morrison's act a week before.
     n: '[[w.lich-su-khang-chien-chong-my]], V, 306. See [[cal.1965-11-02.students]]. Names: Morrison, LaPorte. Check: the record, not read; the history prints the name "Rôgiơ Lapotơ".'
     tags: [polity:us, name:morrison-norman-r, name:laporte-roger-allen]
+  - id: cal.1965-11-09.china-leadership-7
+    when: Nov. 9
+    date: '1965-11-09'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 speaks at the reception of 张岗, Cambodia''s Ambassador, and his wife for the twelfth anniversary of independence: Cambodia, refusing American aid, lives as well and better; its victories have international meaning.'
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 晚上 (1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-09T11:00Z
+      - 1965-11-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-10.congress
     when: Nov. 10
     date: '1965-11-10'
@@ -3116,6 +3281,14 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 116: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 116 n.24a: all'
     tags: [polity:prc, vis:only:prc, name:yao-wenyuan]
+  - id: cal.1965-11-12.china-leadership-7
+    when: Nov. 12
+    date: '1965-11-12'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the Kyoto academic delegation led by Ashida Jōji 芦田让治.
+    n: '[[w.chen-yi-nianpu]], 1133. Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
   - id: cal.1965-11-13.transition-and-staff
     when: Nov. 13
     date: '1965-11-13'
@@ -3459,6 +3632,18 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1881: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-11-14.china-leadership-5
+    when: Nov. 14
+    date: '1965-11-14'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives all the members of the Burmese industrial survey group led by Major 钦苏 of the Industrial Development Corporation.
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 下午 (1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-14T04:00Z
+      - 1965-11-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-15.court
     when: Nov. 15
     date: '1965-11-15'
@@ -3627,6 +3812,53 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 448: all'
     tags: [polity:prc, name:peng-zhen, name:lu-dingyi, name:liu-shaoqi, name:zhou-enlai, name:chen-boda, name:kang-sheng, vis:only:prc, ok:fields-place]
+  - id: cal.1965-11-15.china-leadership-9
+    when: Nov. 15
+    date: '1965-11-15'
+    thread: china-leadership
+    also: [south-asia]
+    c: Don Bernard Rupasinghe Gunawardena 唐·本·鲁帕辛格·古纳瓦德纳, Ceylon's new Ambassador, calls on Chen Yi 陈毅 on the presenting of his credentials.
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 上午 (1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:ceylon, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-14T22:00Z
+      - 1965-11-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-15.china-leadership-10
+    when: Nov. 15
+    date: '1965-11-15'
+    thread: china-leadership
+    also: [africa]
+    c: Waziri Juma 瓦齐里·朱马, Tanzania's new Ambassador, calls on Chen Yi 陈毅 on the presenting of his credentials.
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 上午 (1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:tanzania, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-14T22:00Z
+      - 1965-11-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-15.china-leadership-11
+    when: Nov. 15
+    date: '1965-11-15'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 receives 纳辛·艾哈迈德, correspondent of Pakistan's *Dawn* 《黎明报》, answers his questions and wishes him well in his work for the two countries' friendship.
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 下午 (1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-15T04:00Z
+      - 1965-11-15T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-15.china-leadership-12
+    when: Nov. 15
+    date: '1965-11-15'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 speaks at the cocktail party of Liao Chengzhi 廖承志, president of the China–Japan Friendship Association, for the Japanese youth delegations, restating China's firm support for the Japanese people against the United States.
+    n: '[[w.chen-yi-nianpu]], 1133. Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
   - id: cal.1965-11-16.civil-rights-the-executive
     when: Nov. 16–17
     date: '1965-11-16'
@@ -4693,6 +4925,13 @@ entries:
       - 1965-11-21T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-21.china-leadership-3
+    when: Nov. 21
+    date: '1965-11-21'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and his wife visit the 西山寺 temple, Fujian 福建.
+    n: '[[w.chen-yi-nianpu]], 1133. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
   - id: cal.1965-11-22.civil-rights-organizations-charlotte
     when: Nov. 22
     date: '1965-11-22'
@@ -5623,6 +5862,13 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 117: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 117 n.26: all'
     tags: [polity:prc, vis:only:prc, name:peng-zhen, ok:fields-place]
+  - id: cal.1965-11-26.china-leadership-6
+    when: Nov. 26
+    date: '1965-11-26'
+    thread: china-leadership
+    c: Chen Yi 陈毅 inspects a naval unit in Fujian 福建.
+    n: '[[w.chen-yi-nianpu]], 1133. Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place, vis:only:prc]
   - id: cal.1965-11-27.students
     when: Nov. 27
     date: '1965-11-27'
@@ -7269,3 +7515,11 @@ entries:
       rows:
         - 'w.jian-zhou-enlai 529: all'
     tags: [polity:indonesia]
+  - id: cal.1965-11.china-leadership-18
+    when: Nov., mid
+    date: 1965-11
+    at: before 1965-11-11
+    thread: china-leadership
+    c: Chen Yi 陈毅 and his wife go to Fujian 福建 to rest.
+    n: '[[w.chen-yi-nianpu]], 1133. Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place, vis:only:prc]

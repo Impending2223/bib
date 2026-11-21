@@ -1,0 +1,672 @@
+patch: 2026-11-21-conditions-restore
+by: 'Claude (the conditions restore: Dikotter, Mubei, Tiandi, Khoo), Nov. 21, 2026'
+ops:
+- place-key:
+    key: changshou
+    name: Changshou
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: jinghai
+    name: Jinghai
+    zone: Asia/Shanghai
+    in: prc
+- add:
+    entry:
+      id: cal.1960-12-02.china
+      when: Dec. 2
+      date: '1960-12-02'
+      thread: china
+      place: jinan
+      c: 'As *Neibu cankao* 内部参考 reports it: in Jinan 济南 some factory workers take two days off work to queue for grain.'
+      n: '[[w.dikotter-maos-great-famine]], 160. To check: *Neibu cankao*, Dec. 2, 1960, p. 11 (cited by [[w.dikotter-maos-great-famine]], 160 n.22). See [[cal.1960-12.china-4]].'
+      src:
+        c: 461e1ba7
+        rows:
+        - 'w.dikotter-maos-great-famine 160: all'
+        - 'via w.dikotter-maos-great-famine 160 n.22: all'
+      tags:
+      - form:state
+      - polity:prc
+- add:
+    entry:
+      id: cal.1961-05-07.china
+      when: May 7
+      date: '1961-05-07'
+      thread: china
+      place: shanghai
+      c: 'As a Shanghai 上海 report has it: workers queue for the few goods that reach the shops, from before daybreak, the shops being empty by the afternoon.'
+      n: '[[w.dikotter-maos-great-famine]], 160. To check: Shanghai Municipal Archives, May 7, 1961, A20-1-60, pp. 64–66 (cited by [[w.dikotter-maos-great-famine]], 160 n.23).'
+      src:
+        c: 7aedf442
+        rows:
+        - 'w.dikotter-maos-great-famine 160: all'
+        - 'via w.dikotter-maos-great-famine 160 n.23: all'
+      tags:
+      - form:state
+      - polity:prc
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1960-11-23.china
+      when: Nov. 23
+      date: '1960-11-23'
+      thread: china
+      place: wuhan
+      c: 'As *Neibu cankao* 内部参考 reports it: in Wuhan 武汉 up to 200 people wait all night in a single queue to buy rice; tempers flare, scuffles break out.'
+      n: '[[w.dikotter-maos-great-famine]], 160 ("towards the end of 1960"). To check: *Neibu cankao*, Nov. 23, 1960, pp. 15–16 (cited by [[w.dikotter-maos-great-famine]], 160 n.25).'
+      src:
+        c: c510fa68
+        rows:
+        - 'w.dikotter-maos-great-famine 160: all'
+        - 'via w.dikotter-maos-great-famine 160 n.25: all'
+      tags:
+      - form:state
+      - polity:prc
+- add:
+    entry:
+      id: cal.1961-01-27.china
+      when: Jan. 27
+      date: '1961-01-27'
+      thread: china
+      place: shanghai
+      c: 'As a Shanghai 上海 report has it: in the canteens of the Shanghai Machine Tool Factory rice is washed so carelessly that several kilos a day are dug out of the sewers, to feed the pigs; on the night shift, under slack supervision, workers eat their fill, some in eating contests, a champion managing about two kilos of rice at a sitting.'
+      n: '[[w.dikotter-maos-great-famine]], 196. To check: Shanghai Municipal Archives, Jan. 27, 1961, A36-1-246, pp. 9–17 (cited by [[w.dikotter-maos-great-famine]], 196 n.22).'
+      src:
+        c: ff86f865
+        rows:
+        - 'w.dikotter-maos-great-famine 196: all'
+        - 'via w.dikotter-maos-great-famine 196 n.22: all'
+      tags:
+      - form:state
+      - polity:prc
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1960-12-26.china
+      when: Dec. 26
+      date: '1960-12-26'
+      thread: china
+      place: peking
+      c: 'As *Neibu cankao* 内部参考 reports it: in the Dongcheng 东城 district of Beijing factory workers revive the dahui, the loan circle of before 1949, each lending five to ten yuan a month to another member in turn; some seventy such deals a month. Zhao Wenhua, a postal worker, buys a watch, a bicycle, a fur coat and wedding gifts.'
+      n: '[[w.dikotter-maos-great-famine]], 203. To check: *Neibu cankao*, Dec. 26, 1960, pp. 10–11 (cited by [[w.dikotter-maos-great-famine]], 203 n.26).'
+      src:
+        c: 5cd7645d
+        rows:
+        - 'w.dikotter-maos-great-famine 203: all'
+        - 'via w.dikotter-maos-great-famine 203 n.26: all'
+      tags:
+      - form:state
+      - polity:prc
+- add:
+    entry:
+      id: cal.1961-05-17.china
+      when: May 17
+      date: '1961-05-17'
+      thread: china
+      c: 'As *Neibu cankao* 内部参考 reports it: about one primary school child in ten in Jilin 吉林 speculates in cakes, meat, eggs, vegetables or soap.'
+      n: '[[w.dikotter-maos-great-famine]], 204. To check: *Neibu cankao*, May 17, 1961, p. 22 (cited by [[w.dikotter-maos-great-famine]], 204 n.27).'
+      src:
+        c: 3c33be88
+        rows:
+        - 'w.dikotter-maos-great-famine 204: all'
+        - 'via w.dikotter-maos-great-famine 204 n.27: all'
+      tags:
+      - form:state
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-02-24.china
+      when: Feb. 24
+      date: '1961-02-24'
+      thread: china
+      place: canton
+      c: 'As a Guangzhou 廣州 report has it: gambling an ingrained habit the authorities cannot stamp out; factory workers play poker for food rather than money, some staking up to 3,500 yuan.'
+      n: '[[w.dikotter-maos-great-famine]], 204. To check: Guangzhou Municipal Archives, Feb. 24, 1961, 92-1-275, p. 75 (cited by [[w.dikotter-maos-great-famine]], 204 n.29).'
+      src:
+        c: 65312ce6
+        rows:
+        - 'w.dikotter-maos-great-famine 204: all'
+        - 'via w.dikotter-maos-great-famine 204 n.29: all'
+      tags:
+      - form:state
+      - polity:prc
+- add:
+    entry:
+      id: cal.1961-01-15.china
+      when: Jan. 15
+      date: '1961-01-15'
+      thread: china
+      place: hunan
+      c: 'As a Hunan 湖南 report has it: in the winter of 1960–61 gambling is rife in the province, some players losing their trousers.'
+      n: '[[w.dikotter-maos-great-famine]], 204. To check: Hunan Provincial Archives, Jan. 15, 1961, 146-1-580, p. 15 (cited by [[w.dikotter-maos-great-famine]], 204 n.31).'
+      src:
+        c: 27799e34
+        rows:
+        - 'w.dikotter-maos-great-famine 204: all'
+        - 'via w.dikotter-maos-great-famine 204 n.31: all'
+      tags:
+      - form:state
+      - polity:prc
+- add:
+    entry:
+      id: cal.1960-08-18.china
+      when: Aug. 18
+      date: '1960-08-18'
+      thread: china
+      place: jinghai
+      c: 'As *Neibu cankao* 内部参考 reports it: in some communes of Jinghai county, Hebei 河北, money all but gone, coupons stand in for wages: coupons for goods and services from pumpkin seeds to haircuts, worth from one fen to five yuan.'
+      n: '[[w.dikotter-maos-great-famine]], 204. To check: *Neibu cankao*, Aug. 18, 1960, p. 16 (cited by [[w.dikotter-maos-great-famine]], 204 n.33).'
+      src:
+        c: 3e6f38fd
+        rows:
+        - 'w.dikotter-maos-great-famine 204: all'
+        - 'via w.dikotter-maos-great-famine 204 n.33: all'
+      tags:
+      - form:state
+      - polity:prc
+- add:
+    entry:
+      id: cal.1961-03.china-3
+      when: Mar.
+      date: 1961-03
+      thread: china
+      place: canton
+      c: 'As an East German report has it: in the Guangzhou 廣州 market trade is open; many of the sellers are children, some six or seven years old, the older ones smoking and haggling.'
+      n: '[[w.dikotter-maos-great-famine]], 206. To check: MfAA, Berlin, March–April 1961, A17009, pp. 3–4 (cited by [[w.dikotter-maos-great-famine]], 206 n.39). Check: the day; the file is of March–April 1961.'
+      src:
+        c: 517c43a3
+        rows:
+        - 'w.dikotter-maos-great-famine 206: all'
+        - 'via w.dikotter-maos-great-famine 206 n.39: all'
+      tags:
+      - form:state
+      - polity:prc
+- add:
+    entry:
+      id: cal.1962-09-06.china
+      when: Sept. 6
+      date: '1962-09-06'
+      thread: china
+      place: tianjin
+      c: 'As an East German report has it: thousands travel each day from Beijing to Tianjin 天津 for its market.'
+      n: '[[w.dikotter-maos-great-famine]], 206. To check: MfAA, Berlin, Sept. 6, 1962, A6862, p. 8 (cited by [[w.dikotter-maos-great-famine]], 206 n.42).'
+      src:
+        c: b9733e0d
+        rows:
+        - 'w.dikotter-maos-great-famine 206: all'
+        - 'via w.dikotter-maos-great-famine 206 n.42: all'
+      tags:
+      - form:state
+      - polity:prc
+- add:
+    entry:
+      id: cal.1961-08-07.china
+      when: Aug. 7
+      date: '1961-08-07'
+      thread: china
+      place: hubei
+      c: 'As a Hubei 湖北 report has it: a third of the workers in the big factories live on loans; some, deep in debt, sell their blood.'
+      n: '[[w.dikotter-maos-great-famine]], 206. To check: Hubei Provincial Archives, Aug. 7, 1961, SZ29-1-13, pp. 73–4 (cited by [[w.dikotter-maos-great-famine]], 206 n.43a); July 1962, SZ29-1-13, pp. 76–7 (cited by [[w.dikotter-maos-great-famine]], 206 n.43b). Check: the day; the note gives two files, of Aug. 7, 1961 and July 1962, and does not divide the passage between them.'
+      src:
+        c: c2524dbf
+        rows:
+        - 'w.dikotter-maos-great-famine 206: all'
+        - 'via w.dikotter-maos-great-famine 206 n.43a: all'
+        - 'via w.dikotter-maos-great-famine 206 n.43b: all'
+      tags:
+      - form:state
+      - polity:prc
+- add:
+    entry:
+      id: cal.1962.china-7
+      when: '1962'
+      date: '1962'
+      thread: china
+      place: chongqing
+      c: 'As a Sichuan 四川 report has it: in one unit in Chongqing 重庆 one worker in twenty sells blood.'
+      n: '[[w.dikotter-maos-great-famine]], 206. To check: Sichuan Provincial Archives, Aug. 16, 1962, JC44-3918, pp. 105–7 (cited by [[w.dikotter-maos-great-famine]], 206 n.44a); Sept. 12, 1962, JC44-3918, pp. 117–19 (cited by [[w.dikotter-maos-great-famine]], 206 n.44b). See [[cal.1962.china-4]]. Check: the day; the note gives two files, of Aug. 16 and Sept. 12, 1962, and does not divide the passage between them.'
+      src:
+        c: 99c268a8
+        rows:
+        - 'w.dikotter-maos-great-famine 206: all'
+        - 'via w.dikotter-maos-great-famine 206 n.44a: all'
+        - 'via w.dikotter-maos-great-famine 206 n.44b: all'
+      tags:
+      - form:state
+      - polity:prc
+- add:
+    entry:
+      id: cal.1962.china-8
+      when: '1962'
+      date: '1962'
+      thread: china
+      place: chengdu
+      c: 'As a Sichuan 四川 report has it: in Chengdu 成都 the share of workers selling their blood for food is higher still (than Chongqing''s one in twenty).'
+      n: '[[w.dikotter-maos-great-famine]], 206. To check: Sichuan Provincial Archives, Aug. 16, 1962, JC44-3918, pp. 105–7 (cited by [[w.dikotter-maos-great-famine]], 206 n.44a); Sept. 12, 1962, JC44-3918, pp. 117–19 (cited by [[w.dikotter-maos-great-famine]], 206 n.44b). See [[cal.1962.china-4]], [[cal.1962.china-7]]. Check: the day; the note gives two files, of Aug. 16 and Sept. 12, 1962, and does not divide the passage between them.'
+      src:
+        c: 0dcf981a
+        rows:
+        - 'w.dikotter-maos-great-famine 206: all'
+        - 'via w.dikotter-maos-great-famine 206 n.44a: all'
+        - 'via w.dikotter-maos-great-famine 206 n.44b: all'
+      tags:
+      - form:state
+      - polity:prc
+- add:
+    entry:
+      id: cal.1962.china-9
+      when: '1962'
+      date: '1962'
+      thread: china
+      place: changshou
+      c: 'As a Sichuan 四川 report has it: in Changshou 長壽 county people barter all they have, the clothes on their backs among it.'
+      n: '[[w.dikotter-maos-great-famine]], 206. To check: Sichuan Provincial Archives, 1962, JC1-3047, pp. 37–8 (cited by [[w.dikotter-maos-great-famine]], 206 n.47). Check: the day.'
+      src:
+        c: ba389c76
+        rows:
+        - 'w.dikotter-maos-great-famine 206: all'
+        - 'via w.dikotter-maos-great-famine 206 n.47: all'
+      tags:
+      - form:state
+      - polity:prc
+- cite:
+    id: cal.1960-08.china-leadership-11
+    item: '[[w.dikotter-maos-great-famine]], 246 (the file of Aug. 4, n.6: in Beijing''s Number Two Cotton Factory 90 per cent of the children sick, mostly with measles and chickenpox; scabies and worms widespread; death rates high)'
+- cite:
+    id: cal.1960-08.china-leadership-11
+    item: '[[w.dikotter-maos-great-famine]], 246 (the file of Aug. 18, n.7: in the suburbs flies everywhere, the kindergartens reeking of urine; food poisoning common, killing many children; diarrhoea in four children of five, some with rickets)'
+- add:
+    entry:
+      id: cal.1961-08-24.china-leadership-8
+      when: Aug. 24
+      date: '1961-08-24'
+      thread: china-leadership
+      also:
+      - china
+      place: shanghai
+      c: 'As a Shanghai 上海 report has it: corporal punishment used in the city''s kindergartens; toddlers go about all day with faeces in their pants.'
+      n: '[[w.dikotter-maos-great-famine]], 246. Made public: 2010. To check: Shanghai Municipal Archives, Aug. 24, 1961, A20-1-54, pp. 16–24 (cited by [[w.dikotter-maos-great-famine]], 246 n.4b, n.5b); Shanghai Municipal Archives, May 7, 1961, A20-1-60, pp. 60–2 (cited by [[w.dikotter-maos-great-famine]], 246 n.5a). Check: the day; the note on the toddlers (n.5) gives a file of May 7, 1961 beside this one.'
+      src:
+        c: '18850717'
+        rows:
+        - 'w.dikotter-maos-great-famine 246: all'
+        - 'via w.dikotter-maos-great-famine 246 n.4b: all'
+        - 'via w.dikotter-maos-great-famine 246 n.5b: all'
+        - 'via w.dikotter-maos-great-famine 246 n.5a: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-11-14.china-leadership-9
+      when: Nov. 14
+      date: '1961-11-14'
+      thread: china-leadership
+      also:
+      - china
+      place: nanjing
+      c: 'As a Nanjing 南京 report has it: of the children inspected in one kindergarten two in three have oedema; many have trachoma and hepatitis.'
+      n: '[[w.dikotter-maos-great-famine]], 246. Made public: 2010. To check: Nanjing Municipal Archives, Nov. 14, 1961, 5012-3-584, p. 79 (cited by [[w.dikotter-maos-great-famine]], 246 n.8).'
+      src:
+        c: 8a1a317f
+        rows:
+        - 'w.dikotter-maos-great-famine 246: all'
+        - 'via w.dikotter-maos-great-famine 246 n.8: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-04-21.china-leadership-16
+      when: Apr. 21
+      date: '1960-04-21'
+      thread: china-leadership
+      also:
+      - china
+      place: nanjing
+      c: 'A Nanjing 南京 report: Li Darao, director of a kindergarten, takes home all the meat rationed for the children and the whole soap ration; elsewhere in the city all the kindergarten''s meat and sugar is shared out among the staff.'
+      n: '[[w.dikotter-maos-great-famine]], 246. Made public: 2010. To check: Nanjing Municipal Archives, Apr. 21, 1960, 4003-2-347, pp. 22–6 (cited by [[w.dikotter-maos-great-famine]], 246 n.10).'
+      src:
+        c: 4b109131
+        rows:
+        - 'w.dikotter-maos-great-famine 246: all'
+        - 'via w.dikotter-maos-great-famine 246 n.10: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961.china-leadership-73
+      when: '1961'
+      date: '1961'
+      thread: china-leadership
+      also:
+      - china
+      place: guangdong
+      c: 'As a Guangdong 广东 report has it: the province''s childcare institutions fall from 35,000 to 5,400 in 1961.'
+      n: '[[w.dikotter-maos-great-famine]], 246. Made public: 2010. To check: Guangdong Provincial Archives, 1961, 314-1-208, p. 16 (cited by [[w.dikotter-maos-great-famine]], 246 n.12). Check: the day.'
+      src:
+        c: 37ba92f0
+        rows:
+        - 'w.dikotter-maos-great-famine 246: all'
+        - 'via w.dikotter-maos-great-famine 246 n.12: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-05.china-leadership-8
+      when: Feb. 5
+      date: '1961-02-05'
+      thread: china-leadership
+      also:
+      - china
+      place: puning
+      c: 'As a Guangdong 广东 report has it: suicides in Puning 普寧 "ceaseless"; some take their lives out of shame at having stolen from fellow villagers.'
+      n: '[[w.dikotter-maos-great-famine]], 304. Made public: 2010. To check: Guangdong Provincial Archives, Feb. 5, 1961, 217-1-119, p. 45 (cited by [[w.dikotter-maos-great-famine]], 304 n.73).'
+      src:
+        c: 1e571b7f
+        rows:
+        - 'w.dikotter-maos-great-famine 304: all'
+        - 'via w.dikotter-maos-great-famine 304 n.73: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-06-27.china-leadership-12
+      when: June 27
+      date: '1960-06-27'
+      thread: china-leadership
+      also:
+      - china
+      c: 'As *Neibu cankao* 内部参考 reports it: farmers woken in the middle of the night, after an evening at a village meeting, to work in the fields; in the ploughing season they sleep less than three or four hours a day.'
+      n: '[[w.dikotter-maos-great-famine]], 293. Made public: 2010. To check: *Neibu cankao*, June 27, 1960, pp. 11–12 (cited by [[w.dikotter-maos-great-famine]], 293 n.3).'
+      src:
+        c: 5e44473a
+        rows:
+        - 'w.dikotter-maos-great-famine 293: all'
+        - 'via w.dikotter-maos-great-famine 293 n.3: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1960-10-21.china-leadership-9
+      when: Oct. 21
+      date: '1960-10-21'
+      thread: china-leadership
+      also:
+      - china
+      c: 'As *Neibu cankao* 内部参考 reports it: in the countryside people are made to stand in the summer sun with arms spread out, or to kneel on stones or broken glass; hair is ripped out.'
+      n: '[[w.dikotter-maos-great-famine]], 295 (the book: "from Sichuan in the south to Liaoning in the north"). Made public: 2010. To check: *Neibu cankao*, Oct. 21, 1960, p. 12 (cited by [[w.dikotter-maos-great-famine]], 295 n.20a, n.30); Sichuan Provincial Archives, May 25, 1959, JC1-1721, p. 3 (cited by [[w.dikotter-maos-great-famine]], 295 n.20b). Check: which of the note''s two records (n.20) gives the sun and the kneeling; the second is of 1959.'
+      src:
+        c: 73e7c0c1
+        rows:
+        - 'w.dikotter-maos-great-famine 295: all'
+        - 'via w.dikotter-maos-great-famine 295 n.20a: all'
+        - 'via w.dikotter-maos-great-famine 295 n.30: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-23.china-leadership-10
+      when: Mar. 23
+      date: '1961-03-23'
+      thread: china-leadership
+      also:
+      - china
+      place: guangdong
+      c: 'As a Guangdong 广东 report has it: people burned with red-hot tools; hot needles used to singe navels.'
+      n: '[[w.dikotter-maos-great-famine]], 295. Made public: 2010. To check: Guangdong Provincial Archives, Mar. 23, 1961, 217-1-643, pp. 10–13 (cited by [[w.dikotter-maos-great-famine]], 295 n.21).'
+      src:
+        c: 49afc631
+        rows:
+        - 'w.dikotter-maos-great-famine 295: all'
+        - 'via w.dikotter-maos-great-famine 295 n.21: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-23.china-leadership-11
+      when: Mar. 23
+      date: '1961-03-23'
+      thread: china-leadership
+      also:
+      - china
+      place: guangdong
+      c: 'As a Guangdong 广东 report has it: boiling water poured over people; more often, fuel being scarce, they are covered in urine and excrement.'
+      n: '[[w.dikotter-maos-great-famine]], 295. Made public: 2010. To check: Guangdong Provincial Archives, Mar. 23, 1961, 217-1-642, p. 33 (cited by [[w.dikotter-maos-great-famine]], 295 n.26).'
+      src:
+        c: 924ea880
+        rows:
+        - 'w.dikotter-maos-great-famine 295: all'
+        - 'via w.dikotter-maos-great-famine 295 n.26: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-25.china-leadership-7
+      when: Jan. 25
+      date: '1961-01-25'
+      thread: china-leadership
+      also:
+      - china
+      place: guangdong
+      c: 'As a Guangdong 广东 report has it: needles inserted under people''s nails.'
+      n: '[[w.dikotter-maos-great-famine]], 296. Made public: 2010. To check: Guangdong Provincial Archives, Apr. 16, 1961, 217-1-643, pp. 123–31 (cited by [[w.dikotter-maos-great-famine]], 296 n.36a); Guangdong Provincial Archives, Jan. 25, 1961, 217-1-646, pp. 15–17 (cited by [[w.dikotter-maos-great-famine]], 296 n.36b). Check: the day; the note gives two files, of Apr. 16 and Jan. 25, 1961, and does not divide the passage between them.'
+      src:
+        c: da5f1cae
+        rows:
+        - 'w.dikotter-maos-great-famine 296: all'
+        - 'via w.dikotter-maos-great-famine 296 n.36a: all'
+        - 'via w.dikotter-maos-great-famine 296 n.36b: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960.china-leadership-108
+      when: '1960'
+      date: '1960'
+      thread: china-leadership
+      also:
+      - china
+      place: guangdong
+      c: 'As a Guangdong 广东 file has it: people intimidated by mock executions and mock burials; paraded with a dunce cap, a placard on the chest, or naked.'
+      n: '[[w.dikotter-maos-great-famine]], 296. Made public: 2010. To check: Guangdong Provincial Archives, 1960, 217-1-645, pp. 60–4 (cited by [[w.dikotter-maos-great-famine]], 296 n.40, n.43b); Macheng, Jan. 20, 1959, 1-1-378, p. 24 (cited by [[w.dikotter-maos-great-famine]], 296 n.43a); *Neibu cankao*, Nov. 30, 1960, p. 17 (cited by [[w.dikotter-maos-great-famine]], 296 n.43c). Check: the day.'
+      src:
+        c: de6b6879
+        rows:
+        - 'w.dikotter-maos-great-famine 296: all'
+        - 'via w.dikotter-maos-great-famine 296 n.40: all'
+        - 'via w.dikotter-maos-great-famine 296 n.43b: B'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- cite:
+    id: cal.1961-04-08.china-leadership-8
+    item: '[[w.dikotter-maos-great-famine]], 296 (people buried alive, or locked in a cellar and left to die, "often mentioned in reports about Hunan")'
+- to-check:
+    id: cal.1961-04-08.china-leadership-8
+    add:
+    - Hunan Provincial Archives, May 12, 1960, 146-1-520, pp. 69–75 (cited by [[w.dikotter-maos-great-famine]], 296 n.41b)
+- add:
+    entry:
+      id: cal.1960.china-leadership-109
+      when: '1960'
+      date: '1960'
+      thread: china-leadership
+      also:
+      - soviet-union
+      - china
+      c: 'As the Foreign Ministry''s accounts have it: Moscow lent Peking some 968.6 million rubles in 1950–55, interest not counted; at the recall of the Soviet experts some 430.3 million rubles are still owed.'
+      n: '[[w.dikotter-maos-great-famine]], 105. Made public: 2010. To check: Ministry of Foreign Affairs, Beijing, 1960–1, 109-2248-1, p. 38 (cited by [[w.dikotter-maos-great-famine]], 105 n.9). Check: the day; the file is of 1960–61.'
+      src:
+        c: 72852db1
+        rows:
+        - 'w.dikotter-maos-great-famine 105: all'
+        - 'via w.dikotter-maos-great-famine 105 n.9: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-08-20.china-leadership-4
+      when: Aug. 20
+      date: '1963-08-20'
+      thread: china-leadership
+      also:
+      - soviet-union
+      - china
+      c: 'As a Foreign Ministry file has it: by the end of 1962 Peking''s debt to Moscow totals 1,407 million rubles, 1,275 million in loans and some 132 million in interest; 1,269 million of it amortised by 1962, 138 million still owed.'
+      n: '[[w.dikotter-maos-great-famine]], 105–106 (the book adds that China insists on paying 97 million in 1963 and clears the debt by 1965). Made public: 2010. To check: Ministry of Foreign Affairs, Beijing, Aug. 20, 1963, 109-2541-1, pp. 12–13 (cited by [[w.dikotter-maos-great-famine]], 105 n.10, 106 n.12).'
+      src:
+        c: 99f9f406
+        rows:
+        - 'w.dikotter-maos-great-famine 105-106: all'
+        - 'via w.dikotter-maos-great-famine 105 n.10: all'
+        - 'via w.dikotter-maos-great-famine 106 n.12: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+      gloss:
+        title: Estimates
+        text:
+        - 'Dikötter: the debt rising from 968 to 1,407 million rubles, China pays off "roughly half a billion" between 1960 and 1962, perhaps less, the figure for 1960 leaving out interest ([[w.dikotter-maos-great-famine]], 105–106).'
+- add:
+    entry:
+      id: cal.1962.china-leadership-58
+      when: '1962'
+      date: '1962'
+      thread: china-leadership
+      also:
+      - soviet-union
+      - china
+      c: 'As the Foreign Ministry''s files have it: some 160 million rubles sent to Moscow in 1960 to clear part of the debt, about 172 million in 1962; the figure for 1961 missing.'
+      n: '[[w.dikotter-maos-great-famine]], 106. Made public: 2010. To check: Ministry of Foreign Affairs, Beijing, Mar. 28, 1960, 109-2061-1, p. 3 (cited by [[w.dikotter-maos-great-famine]], 106 n.11a); Ministry of Foreign Affairs, Beijing, 1962, 109-3191-6, p. 5 (cited by [[w.dikotter-maos-great-famine]], 106 n.11b). Check: the day; the note gives two files, of Mar. 28, 1960 and of 1962, and does not divide the passage between them.'
+      src:
+        c: f50ef3e3
+        rows:
+        - 'w.dikotter-maos-great-famine 106: all'
+        - 'via w.dikotter-maos-great-famine 106 n.11a: all'
+        - 'via w.dikotter-maos-great-famine 106 n.11b: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-06-02.china-2
+      when: June 2
+      date: '1961-06-02'
+      thread: china
+      c: 'As *Time* reports it: the yuan, falling on the black market since 1960, drops in January 1961, as news of the food shortages leaks out, to about US$0.75 for ten yuan, a sixth of its official value; by June down 50 per cent on the year.'
+      n: '[[w.dikotter-maos-great-famine]], 109. To check: "Famine and bankruptcy," *Time*, June 2, 1961 (cited by [[w.dikotter-maos-great-famine]], 109 n.8).'
+      src:
+        c: fb611d8e
+        rows:
+        - 'w.dikotter-maos-great-famine 109: all'
+        - 'via w.dikotter-maos-great-famine 109 n.8: all'
+      tags:
+      - form:state
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1962.china-leadership-59
+      when: '1962'
+      date: '1962'
+      thread: china-leadership
+      also:
+      - china
+      - europe-and-the-alliance
+      c: 'As an East German file has it: China imports 5.96 million tonnes of grain in 1961, Australia 2.74, Canada 2.34, Burma 0.3, France 0.285, Germany 0.25, Argentina 0.045. Not all for home use: the Burmese rice shipped on to Ceylon to meet China''s commitments; some 160,000 tonnes to East Germany against the trade deficit; two cargoes of wheat, some 60,000 tonnes, from Canadian ports to Tirana as a gift.'
+      n: '[[w.dikotter-maos-great-famine]], 110 (Table 4: the imports); [[w.dikotter-maos-great-famine]], 112–113 (the rice, the grain to East Germany, the wheat to Tirana). Made public: 2010. To check: BArch, Berlin, 1962, DL2-VAN-175, p. 15 (cited by [[w.dikotter-maos-great-famine]], 110 n.table-4a, 113 n.25); Allan J. Barry, "The Chinese Food Purchases," *China Quarterly*, no. 8 (Oct.–Dec. 1961), 21 (cited by [[w.dikotter-maos-great-famine]], 110 n.table-4b). Check: the day.'
+      src:
+        c: f004c0b8
+        rows:
+        - 'w.dikotter-maos-great-famine 110: A'
+        - 'w.dikotter-maos-great-famine 112-113: B'
+        - 'via w.dikotter-maos-great-famine 110 n.table-4a: A'
+        - 'via w.dikotter-maos-great-famine 113 n.25: B'
+        - 'via w.dikotter-maos-great-famine 110 n.table-4b: A'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc+gdr
+      - ok:fields-place
+      gloss:
+        title: Estimates
+        text:
+        - 'Dikötter: close to 6 million tonnes of grain bought in 1960–61 at a cost of US$367 million, about half paid in 1961 ([[w.dikotter-maos-great-famine]], 109); the wheat sent to Albania, a country of some 1.4 million, as much as a fifth of its needs (113).'
+- add:
+    entry:
+      id: cal.1962.china-10
+      when: '1962'
+      date: '1962'
+      thread: china
+      c: 'As an East German report has it: China''s cotton and textiles sent to Hong Kong rise from HK$217.3 million in 1959 to HK$287 million in 1960.'
+      n: '[[w.dikotter-maos-great-famine]], 110. To check: MfAA, Berlin, 1962, A6792, p. 137 (cited by [[w.dikotter-maos-great-famine]], 110 n.13). Check: the day.'
+      src:
+        c: 53a5a1ea
+        rows:
+        - 'w.dikotter-maos-great-famine 110: all'
+        - 'via w.dikotter-maos-great-famine 110 n.13: all'
+      tags:
+      - form:state
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-07-01.china-leadership-6
+      when: July 1
+      date: '1960-07-01'
+      thread: china-leadership
+      also:
+      - china
+      c: 'As a Foreign Ministry file has it: China has given foreign countries 4 billion yuan from 1950 to July 1960, 2.8 billion as free economic aid and 1.2 billion in loans free of interest or at low interest; most of it from 1958.'
+      n: '[[w.dikotter-maos-great-famine]], 113. Made public: 2010. To check: Ministry of Foreign Affairs, Beijing, July 1, 1960, 102-15-1, pp. 26–39; MfAA, Berlin, July 11, 1962, A17334, pp. 89–94 (cited by [[w.dikotter-maos-great-famine]], 113 n.28a, n.28b).'
+      src:
+        c: 34440c83
+        rows:
+        - 'w.dikotter-maos-great-famine 113: all'
+        - 'via w.dikotter-maos-great-famine 113 n.28a: all'
+        - 'via w.dikotter-maos-great-famine 113 n.28b: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- cite:
+    id: cal.1961.china-leadership-44
+    item: '[[w.dikotter-maos-great-famine]], 113 (n.32, the same report: the state''s income shrinking by 45 per cent, to 35 billion yuan, 1.4 billion cut from health and education)'
+- edit:
+    id: cal.1961-04.china-leadership-16
+    base: 2c0a5d99
+    set:
+      gloss:
+        title: Estimates
+        text:
+        - 'Dikötter: the moratorium on the trade deficit worked as an unplanned loan, China receiving more economic aid from the Soviet Union than any country had received in a single year ([[w.dikotter-maos-great-famine]], 106, citing the Bank for Foreign Trade''s report of June 2, 1961, 106 n.13).'

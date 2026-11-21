@@ -361,6 +361,19 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 489: all'
     tags: [polity:prc]
+  - id: cal.1966-07-01.china-leadership-9
+    when: July 1
+    date: '1966-07-01'
+    place: dalian
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Crown Prince Birendra reach Lüda 旅大.
+    n: '[[w.chen-yi-nianpu]], 1155. The words: 上午 (1155). Names: Chen Yi, Birendra.'
+    tags: [polity:prc, polity:nepal, name:chen-yi, name:birendra-bir-bikram-sha-dev]
+    time_range:
+      - 1966-06-30T22:00Z
+      - 1966-07-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1966-07-02.defense
     when: July 2
     date: '1966-07-02'
@@ -584,11 +597,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou receives and gives a banquet for Crown Prince Birendra of Nepal in the Great Hall of the People and goes with him to a Peking opera evening.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 3, 1966; 6 p.m., Great Hall of the People). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 3, 1966; 6 p.m., Great Hall of the People); [[w.chen-yi-nianpu]], 1155 (July 3, 1966, afternoon; Chen Yi present). Names: Zhou Enlai.'
     src:
       c: edcf11f0
       rows:
         - 'w.zhou-enlai-waijiao-huodong 500: all'
+        - 'w.chen-yi-nianpu 1155: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1966-07-03.china
@@ -668,6 +682,16 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 210–211: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 211 n.63: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1966-07-03.china-leadership-7
+    when: July 3
+    date: '1966-07-03'
+    place:
+      - dalian
+      - peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 takes Crown Prince Birendra from Lüda 旅大 back to Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 1155. Names: Chen Yi, Birendra.'
+    tags: [polity:prc, polity:nepal, name:chen-yi, name:birendra-bir-bikram-sha-dev]
   - id: cal.1966-07-04.press-and-broadcasting
     when: July 4
     date: '1966-07-04'
@@ -777,11 +801,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou attends the banquet given by Nepal's ambassador for the Crown Prince's visit.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 4, 1966; evening; Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 4, 1966; evening; Beijing); [[w.chen-yi-nianpu]], 1155 (July 4, 1966, evening; Chen Yi toasts at the banquet of Nepal''s Ambassador 伦迪尔·苏巴 and his wife at the Great Hall of the People for the Crown Prince''s visit). Names: Zhou Enlai.'
     src:
       c: 101c9675
       rows:
         - 'w.zhou-enlai-waijiao-huodong 500: all'
+        - 'w.chen-yi-nianpu 1155: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-07-04T11:00Z
@@ -937,11 +962,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou goes to the airport to see off Crown Prince Birendra, leaving to continue his visit in south China.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 5, 1966; noon; Beijing airport). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 5, 1966; noon; Beijing airport); [[w.chen-yi-nianpu]], 1155 (July 5, 1966, noon; Chen Yi at the airport). Names: Zhou Enlai.'
     src:
       c: 563ea6aa
       rows:
         - 'w.zhou-enlai-waijiao-huodong 500: all'
+        - 'w.chen-yi-nianpu 1155: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-07-05T04:00Z
@@ -954,12 +980,18 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Chen Yi, at the Algerian embassy's reception for the fourth anniversary of Algeria's independence, restates that the Chinese people fear no risk and will aid Vietnam against the U.S. to the end. The Vietnam question is the focus of today's international struggle and in essence is U.S. aggression on Vietnam; the bombing of Hanoi and Haiphong drives the war into a new, graver stage, and draws the same condemnation from the Chinese people and the peoples of all lands; the government's statement of July 3 states it.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 115 (July 5, 1966). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 115 (July 5, 1966); [[w.chen-yi-nianpu]], 1155 (July 5, 1966, afternoon; at the reception of the chargé d''affaires 穆罕默德·胡利; every country, government, party and politician is tested on Vietnam). Names: Chen Yi.'
     src:
       c: d2d2e808
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 115: all'
+        - 'w.chen-yi-nianpu 1155: ?'
     tags: [polity:prc, polity:algeria, polity:drv, name:chen-yi]
+    time_range:
+      - 1966-07-05T04:00Z
+      - 1966-07-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1966-07-05.china
     when: July 5
     date: '1966-07-05'
@@ -1157,6 +1189,32 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 195: all'
     tags: [polity:prc]
+  - id: cal.1966-07-06.china-leadership-3
+    when: July 6
+    date: '1966-07-06'
+    thread: china-leadership
+    also: [middle-east]
+    c: Chen Yi 陈毅 receives Osman Dana 欧斯曼·达纳, former Lebanese minister and deputy.
+    n: '[[w.chen-yi-nianpu]], 1155. The words: 上午 (1155). Names: Chen Yi.'
+    tags: [polity:prc, polity:lebanon, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-07-05T22:00Z
+      - 1966-07-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1966-07-06.china-leadership-4
+    when: July 6
+    date: '1966-07-06'
+    thread: china-leadership
+    also: [latin-america]
+    c: Chen Yi 陈毅 receives Mrs. 安娜·乌加尔德, a lawyer, president of the Chile–China Cultural Institute.
+    n: '[[w.chen-yi-nianpu]], 1155. The words: 下午 (1155). Names: Chen Yi.'
+    tags: [polity:prc, polity:chile, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-07-06T04:00Z
+      - 1966-07-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1966-07-07.vietnam-us
     when: July 7
     date: '1966-07-07'
@@ -1240,6 +1298,13 @@ entries:
     c: India. Prime Minister Indira Gandhi declares that the United States must stop bombing North Vietnam, withdraw foreign troops from the South, reconvene the 1954 Geneva conference and guarantee Vietnam's independence and territorial integrity.
     n: '[[w.lich-su-khang-chien-chong-my]], V, 298. Names: Gandhi. Check: the place and the words, which the history gives in part.'
     tags: [polity:india, polity:us, ok:fields-place, name:gandhi-indira]
+  - id: cal.1966-07-07.china-leadership-6
+    when: July 7
+    date: '1966-07-07'
+    thread: china-leadership
+    c: Prince Sihanouk cables Chen Yi 陈毅 his thanks for the friendly words Chen Yi had the head of Cambodia's delegation to the writers' meeting carry to him, restating the fighting unity of the two countries against the United States.
+    n: '[[w.chen-yi-nianpu]], 1155. Names: Sihanouk, Chen Yi.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:norodom-sihanouk, ok:fields-place]
   - id: cal.1966-07-08.jobs-and-wages
     when: July 8
     date: '1966-07-08'
@@ -1432,12 +1497,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou, with Liu Shaoqi, Dong Biwu, Zhu De and Deng Xiaoping, receives in the Great Hall of the People the delegates of 53 states and regions and observers of five international organizations to the Afro-Asian Writers' Emergency Meeting.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 9, 1966; afternoon; Great Hall of the People); [[w.deng-xiaoping-nianpu-1904]], III, 1923–1924 (July 9, 1966; afternoon, 下午; Deng with Liu Shaoqi, Song Qingling, Dong Biwu, Zhou Enlai and Zhu De receives the delegates of fifty-three countries and regions to the Afro-Asian writers'' emergency meeting and the observers of five international organizations). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Zhu De, Dong Biwu.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 9, 1966; afternoon; Great Hall of the People); [[w.deng-xiaoping-nianpu-1904]], III, 1923–1924 (July 9, 1966; afternoon, 下午; Deng with Liu Shaoqi, Song Qingling, Dong Biwu, Zhou Enlai and Zhu De receives the delegates of fifty-three countries and regions to the Afro-Asian writers'' emergency meeting and the observers of five international organizations); [[w.chen-yi-nianpu]], 1155–1156 (July 9, 1966, afternoon; Chen Yi with Liu Shaoqi, Soong Ching-ling, Dong Biwu, Zhou, Zhu De, Deng Xiaoping and others receives the delegates of 53 countries and regions and the observers of five international organizations, and is photographed with them). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Zhu De, Dong Biwu.'
     src:
       c: 99e57ec4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 500: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1923–1924: A'
+        - 'w.chen-yi-nianpu 1155–1156: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, name:zhu-de, name:dong-biwu]
     time_range:
       - 1966-07-09T04:00Z
@@ -1450,12 +1516,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou attends the grand banquet in the Great Hall of the People celebrating the close of the Afro-Asian Writers' Emergency Meeting; the meeting's secretary-general speaks.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 9, 1966; evening; Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 116 (July 9, 1966; Zhou''s speech: support for Vietnam at any risk; the British call to reconvene Geneva a blur). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 9, 1966; evening; Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 116 (July 9, 1966; Zhou''s speech: support for Vietnam at any risk; the British call to reconvene Geneva a blur); [[w.chen-yi-nianpu]], 1156 (July 9, 1966, evening; the banquet of Zhou, Kang Sheng 康生, Chen Boda 陈伯达 and Tao Zhu 陶铸 for the meeting''s close; Chen Yi present). Names: Zhou Enlai.'
     src:
       c: 22a5f5e3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 500: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 116: A'
+        - 'w.chen-yi-nianpu 1156: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-07-09T11:00Z
@@ -1495,6 +1562,14 @@ entries:
         - 'w.khoo-collateral-damage 26–27: ?'
         - 'via x.1966-07-09.soviet-embassy-hanoi-first-secretary-report-luthi-doc-21: ?'
     tags: [polity:ussr, vis:only:ussr]
+  - id: cal.1966-07-09.china-leadership-4
+    when: July 9
+    date: '1966-07-09'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the closing of the Afro-Asian writers' emergency meeting at the Great Hall of the People 人民大会堂, Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 1155. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1966-07-10.open-housing
     when: July 10–11
     date: '1966-07-10'
@@ -1551,13 +1626,19 @@ entries:
     thread: china
     also: [vietnam-air-war]
     c: 'Peking, a mass rally against the bombing of the oil depots at Hanoi and Haiphong. Chen Yi: the Soviet Union seeks a relaxation of tensions in Europe so that the United States can "draw away forces to cope with the Vietnamese people."'
-    n: '[[w.zhai-china-and-the-vietnam]], 165. To check: Chen Yi''s speech, quoted in [[w.zagoria-vietnam-triangle]], 144 (cited by [[w.zhai-china-and-the-vietnam]], 165 n.40). Names: Chen Yi.'
+    n: '[[w.zhai-china-and-the-vietnam]], 165; [[w.chen-yi-nianpu]], 1156 (July 10, 1966, morning, the Great Hall of the People; Chen Yi speaks at the rally against the bombing of Hanoi and Haiphong; the bombing gives both halves of Vietnam the right to help each other and the world''s peoples the right to support them; condemns the Soviet revisionists as the helpers of the "bombing to force talks"). To check: Chen Yi''s speech, quoted in [[w.zagoria-vietnam-triangle]], 144 (cited by [[w.zhai-china-and-the-vietnam]], 165 n.40). Names: Chen Yi.'
     src:
+      c: 29890d53
       rows:
         - 'w.zhai-china-and-the-vietnam 165: all'
         - 'via x.1966-07-10.chen-yi-at-the-peking-rally: all'
-      c: 29890d53
+        - 'w.chen-yi-nianpu 1156: ?'
     tags: [name:chen-yi]
+    time_range:
+      - 1966-07-09T22:00Z
+      - 1966-07-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1966-07-10.china-leadership
     when: July 10
     date: '1966-07-10'
@@ -1615,6 +1696,26 @@ entries:
       - 1966-07-09T22:00Z
       - 1966-07-10T04:00Z
     time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1966-07-10.china-leadership-6
+    when: July 10
+    date: '1966-07-10'
+    thread: china-leadership
+    also: [korea]
+    c: Chen Yi 陈毅 and Pak Song-chol 朴成哲, the DPRK's Foreign Minister, exchange cables on the fifth anniversary of the China–Korea treaty of friendship, cooperation and mutual assistance.
+    n: '[[w.chen-yi-nianpu]], 1156. Names: Chen Yi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, ok:fields-place]
+  - id: cal.1966-07-10.china-leadership-7
+    when: July 10
+    date: '1966-07-10'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the reception of Nathanaili 纳塔奈利, Albania's Ambassador, for the twenty-third anniversary of the Albanian People's Army.
+    n: '[[w.chen-yi-nianpu]], 1156. The words: 晚上 (1156). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-07-10T11:00Z
+      - 1966-07-10T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1966-07-11.crime-and-hijacking-nyc
     when: July 11
@@ -1848,6 +1949,18 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 210: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 210 n.61: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1966-07-11.china-leadership-6
+    when: July 11
+    date: '1966-07-11'
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the reception of 敦·策伯格米德, Mongolia's Ambassador, for the forty-fifth anniversary of the Mongolian people's revolution.
+    n: '[[w.chen-yi-nianpu]], 1156. The words: 下午 (1156). Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-07-11T04:00Z
+      - 1966-07-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1966-07-12.open-housing
     when: July 12–15
     date: '1966-07-12'
@@ -2035,6 +2148,32 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 500: all'
     tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1966-07-12T11:00Z
+      - 1966-07-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1966-07-12.china-leadership-4
+    when: July 12
+    date: '1966-07-12'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the Japanese sports delegation led by Kōno Kenzō 河野谦三 and Tabata Masaji 田畑政治.
+    n: '[[w.chen-yi-nianpu]], 1156. The words: 下午 (1156). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-07-12T04:00Z
+      - 1966-07-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1966-07-12.china-leadership-5
+    when: July 12
+    date: '1966-07-12'
+    thread: china-leadership
+    also: [korea]
+    c: 'Chen Yi 陈毅 speaks at the banquet of Kim Jae-suk 金在淑, the DPRK''s chargé d''affaires, at the embassy for the treaty''s fifth anniversary: condemns the "joint action" of American imperialism, Soviet modern revisionism and the Indian reactionaries for "bombing to force talks" in Vietnam, and India''s seven-point proposal; any peace talks would sell out the Vietnamese people.'
+    n: '[[w.chen-yi-nianpu]], 1156–1157. The words: 晚上 (1156–1157). Names: Chen Yi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, ok:fields-place]
     time_range:
       - 1966-07-12T11:00Z
       - 1966-07-12T14:00Z
@@ -2382,6 +2521,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1966-07-14.china-leadership
+    when: July 14
+    date: '1966-07-14'
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the reception of Lucien Paye 吕西恩·佩耶, France's Ambassador, at the embassy for the national day, restating China's unreserved support for Vietnam.
+    n: '[[w.chen-yi-nianpu]], 1157. The words: 下午 (1157). Names: Chen Yi.'
+    tags: [polity:prc, polity:fr, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-07-14T04:00Z
+      - 1966-07-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1966-07-15.vietnam-prisoners
     when: July 15
     date: '1966-07-15'
@@ -2995,7 +3146,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking. Mao returns after nine months away and lives at the Zhongnanhai swimming pool, never again at the Juxiang Shuwu. Reads the Cultural Revolution Group's materials on the work groups; hears the Group's report; shows his dissatisfaction with the movement's progress.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 18, 1966; [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 645 (July 18, 1966; Mao returns to Peking from Wuhan); [[w.macfarquhar-maos-last-revolution]], 82 (Mao returns two days after the swim; citing security concerns he does not go to Zhongnanhai); [[w.macfarquhar-maos-last-revolution]], 82 (the first day back Mao is briefed by Kang Sheng and Chen Boda, who give him material on the Cultural Revolution at Peking University, Tsinghua, Peking Normal University and China People''s University); [[w.macfarquhar-origins-of-the-cultural]], III, 461 (back in Peking by July 18, Mao hears Kang Sheng, Chen Boda and others through the night); [[w.deng-xiaoping-nianpu-1904]], III, 1924 (July 18, 1966; Mao back in Peking from outside; having read the Cultural Revolution Group''s materials on the work teams he shows his dissatisfaction with the state of the ''cultural revolution'' under Liu Shaoqi''s and Deng''s direction); [[w.mao-zedong-zhuan]], VI, ch. 74 (July 18 Mao returns to Peking after more than half a year away; hears reports one after another, reads the bulletins of Peking University, Tsinghua and other universities, and finds the movement in Peking cold and the students held down). [[w.yang-jisheng-tiandi-fanfu]], I, 153, 171, 175 (Mao left Peking in October 1965 and returned only on July 18, 1966, staying away from the May meeting too; Yang writes on I, 175 that he came back to Peking from Shanghai); [[w.yang-jisheng-tiandi-fanfu]], II, 1144; [[w.teiwes-tragedy-of-lin-biao]], 63 (Mao, who watched from Hunan the "fifty days" of clashes on the campuses, returns to Peking in late July and declares that the work teams wrongly suppressed the students). Made public: 1991. To check: [[w.xin-jiehou-changyi]], 146 (cited by [[w.macfarquhar-maos-last-revolution]], 82 n.68); [[w.xin-guanyu-gongzuozu-cunfei-wenti]], 643 (cited by [[w.macfarquhar-maos-last-revolution]], 82 n.70a); [[w.yanchi-tao-zhu-zai-wenhua]], 99 (cited by [[w.macfarquhar-maos-last-revolution]], 82 n.70b); [[w.harding-chinese-state-in-crisis-1991]], 134–137 (cited by [[w.teiwes-tragedy-of-lin-biao]], 63 n.16). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 18, 1966; [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 645 (July 18, 1966; Mao returns to Peking from Wuhan); [[w.macfarquhar-maos-last-revolution]], 82 (Mao returns two days after the swim; citing security concerns he does not go to Zhongnanhai); [[w.macfarquhar-maos-last-revolution]], 82 (the first day back Mao is briefed by Kang Sheng and Chen Boda, who give him material on the Cultural Revolution at Peking University, Tsinghua, Peking Normal University and China People''s University); [[w.macfarquhar-origins-of-the-cultural]], III, 461 (back in Peking by July 18, Mao hears Kang Sheng, Chen Boda and others through the night); [[w.deng-xiaoping-nianpu-1904]], III, 1924 (July 18, 1966; Mao back in Peking from outside; having read the Cultural Revolution Group''s materials on the work teams he shows his dissatisfaction with the state of the ''cultural revolution'' under Liu Shaoqi''s and Deng''s direction); [[w.mao-zedong-zhuan]], VI, ch. 74 (July 18 Mao returns to Peking after more than half a year away; hears reports one after another, reads the bulletins of Peking University, Tsinghua and other universities, and finds the movement in Peking cold and the students held down). [[w.yang-jisheng-tiandi-fanfu]], I, 153, 171, 175 (Mao left Peking in October 1965 and returned only on July 18, 1966, staying away from the May meeting too; Yang writes on I, 175 that he came back to Peking from Shanghai); [[w.yang-jisheng-tiandi-fanfu]], II, 1144; [[w.teiwes-tragedy-of-lin-biao]], 63 (Mao, who watched from Hunan the "fifty days" of clashes on the campuses, returns to Peking in late July and declares that the work teams wrongly suppressed the students); [[w.chen-yi-nianpu]], 1157 (July 18, 1966; Mao back in Peking from Wuhan; on July 25, to the regional bureaus'' secretaries and the Cultural Revolution Group, the work teams "play a bad role"; on July 29 Li Xuefeng reads the Peking committee''s decision of July 28 withdrawing the work teams). Made public: 1991. To check: [[w.xin-jiehou-changyi]], 146 (cited by [[w.macfarquhar-maos-last-revolution]], 82 n.68); [[w.xin-guanyu-gongzuozu-cunfei-wenti]], 643 (cited by [[w.macfarquhar-maos-last-revolution]], 82 n.70a); [[w.yanchi-tao-zhu-zai-wenhua]], 99 (cited by [[w.macfarquhar-maos-last-revolution]], 82 n.70b); [[w.harding-chinese-state-in-crisis-1991]], 134–137 (cited by [[w.teiwes-tragedy-of-lin-biao]], 63 n.16). Names: Mao Zedong.'
     src:
       c: 0ba9aabf
       rows:
@@ -3008,6 +3159,7 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 153, 171, 175: ?'
         - 'w.yang-jisheng-tiandi-fanfu II, 1144: all'
         - 'w.teiwes-tragedy-of-lin-biao 63: ?'
+        - 'w.chen-yi-nianpu 1157: ?'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
     variants:
       - unit: B
@@ -3734,7 +3886,7 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou Enlai, with Liu Shaoqi, Soong Ching Ling, Dong Biwu, Zhu De and Deng Xiaoping, attends the Tiananmen Square rally and march of a million of the capitals people supporting the Vietnamese people's struggle against the U.S. to final victory.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 44 (July 22, 1966); [[w.zhou-enlai-waijiao-huodong]], 501 (July 22, 1966; morning; the rally and parade of a million on Tiananmen Square in support of Hồ Chí Minh''s appeal to the whole nation, with Liu Shaoqi, Song Qingling, Dong Biwu, Zhu De and Deng Xiaoping); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 645 (July 22, 1966; Liu attends the rally of the capital''s people supporting the Vietnamese people''s struggle against the U.S. and for national salvation); [[w.deng-xiaoping-nianpu-1904]], III, 1924 (July 22, 1966; morning, 上午; Deng at the rally of a million of the capital''s people in Tiananmen Square supporting Vietnam against America). Names: Zhou Enlai, Liu Shaoqi, Soong Ching Ling, Dong Biwu, Zhu De, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 44 (July 22, 1966); [[w.zhou-enlai-waijiao-huodong]], 501 (July 22, 1966; morning; the rally and parade of a million on Tiananmen Square in support of Hồ Chí Minh''s appeal to the whole nation, with Liu Shaoqi, Song Qingling, Dong Biwu, Zhu De and Deng Xiaoping); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 645 (July 22, 1966; Liu attends the rally of the capital''s people supporting the Vietnamese people''s struggle against the U.S. and for national salvation); [[w.deng-xiaoping-nianpu-1904]], III, 1924 (July 22, 1966; morning, 上午; Deng at the rally of a million of the capital''s people in Tiananmen Square supporting Vietnam against America); [[w.chen-yi-nianpu]], 1157 (July 22, 1966, morning; Chen Yi on the Tiananmen gate tower at the capital''s rally to aid Vietnam against the United States). Names: Zhou Enlai, Liu Shaoqi, Soong Ching Ling, Dong Biwu, Zhu De, Deng Xiaoping.'
     src:
       c: 0fa2dab8
       rows:
@@ -3742,7 +3894,13 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 501: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 645: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1924: ?'
+        - 'w.chen-yi-nianpu 1157: ?'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:deng-xiaoping, polity:prc]
+    time_range:
+      - 1966-07-21T22:00Z
+      - 1966-07-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1966-07-22.china-leadership-2
     when: July 22
     date: '1966-07-22'
@@ -3814,12 +3972,18 @@ entries:
     thread: china-leadership
     also: [latin-america]
     c: Chen Yi receives members of a press delegation from Latin America led by Antonio Fernández Arce.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 119 (July 22, 1966). Names: Chen Yi. Check: the leader''s name, from the Chinese 安东尼奥·费尔南德斯·阿尔塞; the country is not clear in the OCR.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 119 (July 22, 1966); [[w.chen-yi-nianpu]], 1157 (July 22, 1966, afternoon; the Peruvian journalists'' delegation led by Antonio Fernández Arce 安东尼奥·费尔南德斯·阿尔塞). Names: Chen Yi. Check: the leader''s name, from the Chinese 安东尼奥·费尔南德斯·阿尔塞; the country is not clear in the OCR.'
     src:
       c: 3ca50edb
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 119: all'
+        - 'w.chen-yi-nianpu 1157: ?'
     tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1966-07-22T04:00Z
+      - 1966-07-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1966-07-22.china-leadership-7
     when: July 22
     date: '1966-07-22'
@@ -4119,6 +4283,18 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 206–207: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 207 n.49: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1966-07-23.china-leadership-7
+    when: July 23
+    date: '1966-07-23'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the banquet of Nie Rongzhen 聂荣臻 for more than a hundred physicists and scientists of over thirty countries of Asia, Africa, Latin America and Oceania at the Peking Science Symposium's 1966 summer physics colloquium.
+    n: '[[w.chen-yi-nianpu]], 1157. The words: 晚上 (1157). Names: Chen Yi, Nie Rongzhen.'
+    tags: [polity:prc, name:chen-yi, name:nie-rongzhen, ok:fields-place]
+    time_range:
+      - 1966-07-23T11:00Z
+      - 1966-07-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1966-07-24.opinion
     when: July 24
     date: '1966-07-24'
@@ -4295,6 +4471,14 @@ entries:
     c: Sa Nhỏ, 16 kilometers northwest of Củ Chi town. The enemy, having found the Region's main force there, lands an American company from 12 helicopters; Battalion 8 of the Region, with two companies, destroys it. The Americans at Đồng Dù land two more companies from 25 helicopters at Cỏ Ống to relieve it; Battalion 8 slips past the fire to the enemy's belt, by the history's count kills scores and burns five aircraft, and the rest flee toward Trung Hòa.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 217. Check: the day of the second landing, which the history gives with the first. The figures are the history''s.'
     tags: [polity:drv, polity:us]
+  - id: cal.1966-07-24.china-leadership-9
+    when: July 24
+    date: '1966-07-24'
+    place: peking
+    thread: china-leadership
+    c: At the Peking Foreign Languages Institute 北京外国语学院, Chen Yi 陈毅 asks the teachers and students, who shout "long live" at every turn, whether those who see Chairman Mao daily shout slogans and clap each time.
+    n: '[[w.chen-yi-nianpu]], 1157–1158. Made public: 1995. Names: Chen Yi, Mao Zedong.'
+    tags: [polity:prc, name:chen-yi, name:mao-zedong, vis:only:prc]
   - id: cal.1966-07-25.vietnam
     when: July 25
     date: '1966-07-25'
@@ -4916,11 +5100,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou receives Pakistan's commerce minister Ghulam Faruque and the Pakistani military delegation again in the Jiangsu Hall of the Great Hall of the People.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 502 (July 28, 1966; 6 p.m., Jiangsu Hall, Great Hall of the People). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 502 (July 28, 1966; 6 p.m., Jiangsu Hall, Great Hall of the People); [[w.chen-yi-nianpu]], 1158 (July 28, 1966; Chen Yi present). Names: Zhou Enlai.'
     src:
       c: 93b2ba51
       rows:
         - 'w.zhou-enlai-waijiao-huodong 502: all'
+        - 'w.chen-yi-nianpu 1158: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1966-07-28.china
@@ -4992,6 +5177,32 @@ entries:
       - 1966-07-28T04:00Z
       - 1966-07-28T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1966-07-28.china-leadership-9
+    when: July 28
+    date: '1966-07-28'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 gives a banquet for Ghulam Faruque 吴拉姆·法鲁克 and speaks; American imperialism, Soviet revisionism and the Indian expansionists try to wreck the friendship of China and Pakistan.
+    n: '[[w.chen-yi-nianpu]], 1158. The words: 晚上 (1158). Names: Chen Yi.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-07-28T11:00Z
+      - 1966-07-28T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1966-07-28.china-leadership-10
+    when: July 28
+    date: '1966-07-28'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 receives André 安德烈·毕隆波, Vice-President of the Congo (Brazzaville) Red Cross, and all the members of the delegation he leads.
+    n: '[[w.chen-yi-nianpu]], 1158. The words: 晚上 (1158). Names: Chen Yi.'
+    tags: [polity:prc, polity:congo-brazzaville, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-07-28T11:00Z
+      - 1966-07-28T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1966-07-29.europe-and-the-alliance
     when: July 29
@@ -5145,12 +5356,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou attends the signing of the agreement on Chinese military aid to Pakistan and the banquet given by Pakistan's commerce minister Faruque.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 502 (July 29, 1966; 7 p.m., Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 120 (July 27–30, 1966; Chen Yi''s speech at Faruque''s banquet: a friendship tested and to be relied on; no day given). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 502 (July 29, 1966; 7 p.m., Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 120 (July 27–30, 1966; Chen Yi''s speech at Faruque''s banquet: a friendship tested and to be relied on; no day given); [[w.chen-yi-nianpu]], 1158 (July 29, 1966, evening; Chen Yi toasts at Ghulam Faruque''s banquet for China''s leaders). Names: Zhou Enlai.'
     src:
       c: a847588f
       rows:
         - 'w.zhou-enlai-waijiao-huodong 502: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 120: all'
+        - 'w.chen-yi-nianpu 1158: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1966-07-29.china-leadership-2
@@ -5298,6 +5510,19 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 502: all'
     tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1966-07-30.china-leadership-3
+    when: July 30
+    date: '1966-07-30'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 at the airport to see off Ghulam Faruque 吴拉姆·法鲁克.
+    n: '[[w.chen-yi-nianpu]], 1158. The words: 下午 (1158). Names: Chen Yi.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1966-07-30T04:00Z
+      - 1966-07-30T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1966-07-31.jobs-and-wages-airlines
     when: July 31
@@ -5839,13 +6064,14 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou, with Liu Shaoqi, Dong Biwu, Zhu De and Deng Xiaoping, receives the scientists of various countries at the Peking Science Symposium.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 502 (July 31, 1966; afternoon; Beijing); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 647 (July 31, 1966; Liu, with Zhou Enlai, Zhu De, Deng Xiaoping and others, receives scientists of 33 countries and regions at the 1966 summer physics symposium of the Peking Science Symposium and other foreign friends); [[w.deng-xiaoping-nianpu-1904]], III, 1926–1927 (July 31, 1966; afternoon, 下午; Deng with Liu Shaoqi, Dong Biwu, Zhou Enlai and Zhu De receives the scientists of thirty-three countries and one regional body who took part in the 1966 summer physics symposium of the Peking Science Symposium, and other foreign guests). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Zhu De, Dong Biwu.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 502 (July 31, 1966; afternoon; Beijing); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 647 (July 31, 1966; Liu, with Zhou Enlai, Zhu De, Deng Xiaoping and others, receives scientists of 33 countries and regions at the 1966 summer physics symposium of the Peking Science Symposium and other foreign friends); [[w.deng-xiaoping-nianpu-1904]], III, 1926–1927 (July 31, 1966; afternoon, 下午; Deng with Liu Shaoqi, Dong Biwu, Zhou Enlai and Zhu De receives the scientists of thirty-three countries and one regional body who took part in the 1966 summer physics symposium of the Peking Science Symposium, and other foreign guests); [[w.chen-yi-nianpu]], 1158 (July 31, 1966, afternoon; Chen Yi with Liu Shaoqi, Dong Biwu, Zhou, Zhu De, Deng Xiaoping and others). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Zhu De, Dong Biwu.'
     src:
       c: 16a14657
       rows:
         - 'w.zhou-enlai-waijiao-huodong 502: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 647: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1926–1927: A'
+        - 'w.chen-yi-nianpu 1158: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, name:zhu-de, name:dong-biwu]
     time_range:
       - 1966-07-31T04:00Z
@@ -5858,11 +6084,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou gives a grand banquet, with Guo Moruo, president of the Academy of Sciences, celebrating the victorious close of the Peking physics colloquium.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 502 (July 31, 1966; evening; Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 502 (July 31, 1966; evening; Beijing); [[w.chen-yi-nianpu]], 1158 (July 31, 1966, evening, the Great Hall of the People; Chen Yi at the banquet of Zhou and Guo Moruo 郭沫若). Names: Zhou Enlai.'
     src:
       c: efbee680
       rows:
         - 'w.zhou-enlai-waijiao-huodong 502: all'
+        - 'w.chen-yi-nianpu 1158: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1966-07-31T11:00Z
@@ -5875,12 +6102,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou accompanies Mao Zedong in receiving the scientists at the 1966 summer physics colloquium of the Peking Science Symposium.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 502 (July 31, 1966; evening; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 121 (July 31, 1966; Mao receives the scientists of 33 countries and regions and is photographed with them). Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 502 (July 31, 1966; evening; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 121 (July 31, 1966; Mao receives the scientists of 33 countries and regions and is photographed with them); [[w.chen-yi-nianpu]], 1158 (July 31, 1966, evening; Chen Yi present). Names: Zhou Enlai, Mao Zedong.'
     src:
       c: a9eda72e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 502: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 121: all'
+        - 'w.chen-yi-nianpu 1158: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong]
     time_range:
       - 1966-07-31T11:00Z
@@ -6080,11 +6308,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Deng Xiaoping 邓小平, with Zhou Enlai 周恩来, Zhu De 朱德 and others, attends the party at the Military Museum of the Chinese People's Revolution for the thirty-ninth anniversary of the founding of the People's Liberation Army, and receives activists in the study of Mao's works, battle heroes and others.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1927 (July 31, 1966). The words: 晚 (III, 1927). Names: Deng Xiaoping, Zhou Enlai, Zhu De.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1927 (July 31, 1966); [[w.chen-yi-nianpu]], 1158 (July 31, 1966, evening; Chen Yi with Zhou, Zhu De, Deng Xiaoping, Dong Biwu and others at the capital''s Army Day evening party; they receive the PLA''s activists, heroes and representatives). The words: 晚 (III, 1927). Names: Deng Xiaoping, Zhou Enlai, Zhu De.'
     src:
       c: 86b060b3
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1927: all'
+        - 'w.chen-yi-nianpu 1158: ?'
     tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:zhu-de]
     time_range:
       - 1966-07-31T11:00Z
@@ -6211,3 +6440,19 @@ entries:
         - 'w.khoo-collateral-damage 35: all'
         - 'via x.1966-07-09.soviet-embassy-hanoi-first-secretary-report-luthi-doc-21: ?'
     tags: [polity:drv, polity:prc, name:ho-chi-minh, name:le-duan, name:pham-van-dong]
+  - id: cal.1966-07.china-leadership-24
+    when: July, mid
+    date: 1966-07
+    at: before 1966-07-11
+    thread: china-leadership
+    c: In the Politburo the dispute over the work teams sharpens, Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平 and others on one side, Chen Boda 陈伯达, head of the Central Cultural Revolution Group, and Kang Sheng 康生, its adviser, on the other, on whether the movement keeps the Party's leadership; at an evening meeting both sides pound the table. Chen Yi 陈毅 backs the work teams and rebuts Chen Boda, who calls the work team Chen Yi sent to the Committee for Cultural Relations with Foreign Countries the worst in the country.
+    n: '[[w.chen-yi-nianpu]], 1157. Made public: 1995. Names: Chen Yi, Liu Shaoqi, Deng Xiaoping, Chen Boda, Kang Sheng.'
+    tags: [polity:prc, name:chen-yi, name:liu-shaoqi, name:deng-xiaoping, name:chen-boda, name:kang-sheng, ok:fields-place, ok:fields-time, vis:only:prc]
+  - id: cal.1966-07.china-leadership-25
+    when: July, late
+    date: 1966-07
+    at: before 1966-07-21
+    thread: china-leadership
+    c: Wall posters in the Foreign Ministry against Chen Yi 陈毅 charge that at an enlarged meeting of the ministry's Party group in June he "viciously attacked" Mao's launching of the Cultural Revolution as "the emperor deciding alone" (乾纲独断).
+    n: '[[w.chen-yi-nianpu]], 1158–1159. Ji Pengfei''s 姬鹏飞 later account, as the nianpu gives it, calls the charge the rebels'' fabrication. Names: Chen Yi, Mao Zedong.'
+    tags: [polity:prc, name:chen-yi, name:mao-zedong, ok:fields-place]

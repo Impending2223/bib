@@ -133,18 +133,24 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou leaves Beijing by a Chinese civil aviation special plane for Pakistan and Tanzania. To the crew on China''s first international long-range flight: "We must fly out; I shall go with you to practice it."'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 734 (June 1, 1965); [[w.zhou-enlai-waijiao-huodong]], 459 (June 1, 1965; morning, by special plane from Peking, for friendly visits to Pakistan and Tanzania). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 734 (June 1, 1965); [[w.zhou-enlai-waijiao-huodong]], 459 (June 1, 1965; morning, by special plane from Peking, for friendly visits to Pakistan and Tanzania); [[w.chen-yi-nianpu]], 1101 (June 2, 1965, morning; Chen Yi at the airport to see Zhou off for Pakistan and Tanzania). Names: Zhou Enlai.'
     src:
       c: cd3dabd8
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 734: ?'
         - 'w.zhou-enlai-waijiao-huodong 459: A'
+        - 'w.chen-yi-nianpu 1101: ?'
     tags: [name:zhou-enlai, polity:prc, polity:pakistan]
     time_range:
       - 1965-05-31T22:00Z
       - 1965-06-01T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+    variants:
+      - unit: A
+        witness: w.chen-yi-nianpu
+        reads: Chen Yi sees Zhou off at the airport on the morning of June 2
+        at: '1101'
   - id: cal.1965-06-01.china-leadership-3
     when: June 1
     date: '1965-06-01'
@@ -272,6 +278,32 @@ entries:
       - 1965-06-01T11:00Z
     time_band: afternoon
     time_zone: Asia/Jakarta
+  - id: cal.1965-06-01.china-leadership-12
+    when: June 1
+    date: '1965-06-01'
+    thread: china-leadership
+    also: [middle-east]
+    c: Chen Yi 陈毅 receives 拉希德·赛义德·加尔布, deputy director of the Palestine Liberation Organization's office at Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 1101. The words: 下午 (1101). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-06-01T04:00Z
+      - 1965-06-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-06-01.china-leadership-13
+    when: June 1
+    date: '1965-06-01'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives Utsunomiya Tokuma 宇都宫德马 and 木村刚辅, Liberal Democratic members of Japan's House of Representatives.
+    n: '[[w.chen-yi-nianpu]], 1101. The words: 下午 (1101). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-06-01T04:00Z
+      - 1965-06-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-06-02.opinion
     when: June 2
     date: '1965-06-02'
@@ -559,6 +591,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1864: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-06-02.china-leadership-13
+    when: June 2
+    date: '1965-06-02'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 and his wife Zhang Qian 张茜 give a banquet for Arudji Kartawinata 阿鲁季·卡塔威纳塔 and his wife; he toasts.
+    n: '[[w.chen-yi-nianpu]], 1101. The words: 晚上 (1101). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-06-02T11:00Z
+      - 1965-06-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-06-03.space
     when: June 3–7
     date: '1965-06-03'
@@ -1140,6 +1185,32 @@ entries:
       - 1965-06-04T15:00Z
     time_band: evening
     time_zone: Asia/Jakarta
+  - id: cal.1965-06-04.china-leadership-10
+    when: June 4
+    date: '1965-06-04'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 at the airport to welcome the Algerian delegation led by Mohamed Yazid, chairman of the National Assembly's foreign affairs committee.
+    n: '[[w.chen-yi-nianpu]], 1101. The words: 上午 (1101). Names: Chen Yi, Yazid.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:yazid-mohammed, ok:fields-place]
+    time_range:
+      - 1965-06-03T22:00Z
+      - 1965-06-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-06.china-leadership-4
+    when: June 4–8
+    date: '1965-06-04'
+    thread: china-leadership
+    also: [africa]
+    c: 'Chen Yi talks with Yazid, Algeria''s envoy: Yazid says Ben Bella''s tone is a high one; Chen Yi, that the tone is high only if it names the United States. So Zhou and Chen Yi tell Hồ Chí Minh, June 15.'
+    n: '"[Record of Conversation between Premier Zhou Enlai and Chairman Ho Chi Minh](https://digitalarchive.umd.edu/document/165383)" (June 15, 1965), PRC FMA 106-00861-02, 11–22, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou: "Recently, Algeria sent Yazid to visit China"; Chen Yi''s account of his words to Yazid, on dollars and the United States). [[w.chen-yi-nianpu]], 1101–1102 (June 4, 1965, afternoon; June 5, morning; June 8, morning; Chen Yi''s talks with Mohamed Yazid 穆罕默德·亚齐德). See [[cal.1965-06-05.china-leadership-5]]. The time is the first day''s. Names: Chen Yi, Yazid, Ben Bella, Zhou Enlai, Hồ Chí Minh. Check: the year the Archive posted the document.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:yazid-mohammed, name:ben-bella-ahmed, name:zhou-enlai, name:ho-chi-minh, vis:only:prc+algeria, vis:from:drv:1965-06-15]
+    time_range:
+      - 1965-06-04T04:00Z
+      - 1965-06-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-06-05.vietnam
     when: June 5
     date: '1965-06-05'
@@ -1439,6 +1510,31 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 421: all'
     tags: [polity:prc, name:peng-zhen, name:ne-win]
+  - id: cal.1965-06-05.china-leadership-12
+    when: June 5
+    date: '1965-06-05'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 gives a banquet for the Algerian delegation led by Mohamed Yazid and speaks, wishing the second Asian–African conference success and the friendship of China and Algeria growth.
+    n: '[[w.chen-yi-nianpu]], 1101. The words: 中午 (1101). Names: Chen Yi, Yazid.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:yazid-mohammed, ok:fields-place]
+    time_range:
+      - 1965-06-05T04:00Z
+      - 1965-06-05T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1965-06-05.china-leadership-13
+    when: June 5
+    date: '1965-06-05'
+    thread: china-leadership
+    c: Chen Yi 陈毅 toasts at the reception of 卡柏尔, Denmark's chargé d'affaires, for Denmark's Constitution Day.
+    n: '[[w.chen-yi-nianpu]], 1101. The words: 晚上 (1101). Names: Chen Yi.'
+    tags: [polity:prc, polity:denmark, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-06-05T11:00Z
+      - 1965-06-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-06-06.vietnam
     when: June 6
     date: '1965-06-06'
@@ -1602,12 +1698,52 @@ entries:
     place: peking
     thread: china-leadership
     c: Peng Zhen 彭真 flies into Peking 北京.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 421. The words: 上午十一时许 (IV, 421). See [[cal.1965-06-05.china-leadership-10]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 421; [[w.chen-yi-nianpu]], 1101 (June 6, 1965, morning; Chen Yi at the airport to welcome Peng Zhen''s party and NPC delegations back from Indonesia by way of Kunming). The words: 上午十一时许 (IV, 421). See [[cal.1965-06-05.china-leadership-10]]. Names: Peng Zhen.'
     src:
       c: ad79105d
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 421: all'
+        - 'w.chen-yi-nianpu 1101: ?'
     tags: [polity:prc, name:peng-zhen]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-06-06.china-leadership-9
+    when: June 6
+    date: '1965-06-06'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅, with He Long 贺龙 and Luo Ruiqing 罗瑞卿, receives Brigadier General Supadi 苏帕迪 and the other members of the Indonesian armed forces' sports delegation and football team.
+    n: '[[w.chen-yi-nianpu]], 1101. The words: 下午 (1101). Names: Chen Yi, He Long, Luo Ruiqing.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:he-long, name:luo-ruiqing, ok:fields-place]
+    time_range:
+      - 1965-06-06T04:00Z
+      - 1965-06-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-06-06.china-leadership-10
+    when: June 6
+    date: '1965-06-06'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 watches the friendly match of the Indonesian armed forces' football team and the PLA's "August First" 八一 team.
+    n: '[[w.chen-yi-nianpu]], 1101. The words: 下午 (1101). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-06-06T04:00Z
+      - 1965-06-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-06-06.china-leadership-11
+    when: June 6
+    date: '1965-06-06'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 at the banquet of Arudji Kartawinata 阿鲁季·卡塔威纳塔 and his wife for Zhu De 朱德, chairman of the NPC Standing Committee, and his wife.
+    n: '[[w.chen-yi-nianpu]], 1102. The words: 晚上 (1102). Names: Chen Yi, Zhu De.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:zhu-de, ok:fields-place]
+    time_range:
+      - 1965-06-06T11:00Z
+      - 1965-06-06T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1965-06-07.court
     when: June 7
@@ -1852,6 +1988,32 @@ entries:
       - 1965-06-07T16:00Z
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1965-06-07.china-leadership-8
+    when: June 7
+    date: '1965-06-07'
+    place: peking
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 at the airport to see Arudji Kartawinata 阿鲁季·卡塔威纳塔 and his wife off from Peking 北京 to Shanghai 上海.
+    n: '[[w.chen-yi-nianpu]], 1102. The words: 上午 (1102). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi]
+    time_range:
+      - 1965-06-06T22:00Z
+      - 1965-06-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-06-07.china-leadership-9
+    when: June 7
+    date: '1965-06-07'
+    thread: china-leadership
+    c: Chen Yi 陈毅 toasts at the reception of Lennart Petri, Sweden's Ambassador, for Sweden's Flag Day.
+    n: '[[w.chen-yi-nianpu]], 1102. The words: 晚上 (1102). Names: Chen Yi, Petri.'
+    tags: [polity:prc, polity:sweden, name:chen-yi, name:petri-lennart, ok:fields-place]
+    time_range:
+      - 1965-06-07T11:00Z
+      - 1965-06-07T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-06-08.vietnam
     when: June 8–9
     date: '1965-06-08'
@@ -2071,6 +2233,20 @@ entries:
       - 1965-06-08T11:00Z
       - 1965-06-08T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-06-08.china-leadership-8
+    when: June 8
+    date: '1965-06-08'
+    place: peking
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 at the airport to see off the Algerian delegation led by Mohamed Yazid, leaving Peking 北京 for home by way of Canton 广州.
+    n: '[[w.chen-yi-nianpu]], 1102. The words: 中午 (1102). Names: Chen Yi, Yazid.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:yazid-mohammed]
+    time_range:
+      - 1965-06-08T04:00Z
+      - 1965-06-08T06:00Z
+    time_band: workday midday
     time_zone: Asia/Shanghai
   - id: cal.1965-06-09.vietnam
     when: June 9
@@ -2320,6 +2496,31 @@ entries:
         - 'w.yang-shangkun-riji II, 631: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-06-09.china-leadership-5
+    when: June 9
+    date: '1965-06-09'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the airport to see off the Albanian government economic delegation led by Spiro Koleka 斯皮罗·科列加 and Koço Theodhosi 科乔·蒂奥多西.
+    n: '[[w.chen-yi-nianpu]], 1102. The words: 上午 (1102). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-06-08T22:00Z
+      - 1965-06-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-06-09.china-leadership-6
+    when: June 9
+    date: '1965-06-09'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 receives the delegation of the Youth League of the Tanganyika African National Union led by 约翰·安德生·恩宗达.
+    n: '[[w.chen-yi-nianpu]], 1102. The words: 上午 (1102). Names: Chen Yi.'
+    tags: [polity:prc, polity:tanzania, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-06-08T22:00Z
+      - 1965-06-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-06-09.vietnam-congress
     when: June 10
     date: '1965-06-10'
@@ -2515,13 +2716,14 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Zhou reaches Beijing. To the civil aviation crew who made the first long international flight: "The road is made by walking; you did well."'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 736 (June 10, 1965); [[w.zhou-enlai-waijiao-huodong]], 462 (June 10, 1965; noon, back in Peking; Zhu De, Deng Xiaoping and other leaders meet him at the airport); [[w.peng-zhen-nianpu-1902]], IV, 421 (June 10, 1965, noon; Peng Zhen, with Zhu De and Deng Xiaoping, at the airport meeting Zhou back from Pakistan and Tanzania). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 736 (June 10, 1965); [[w.zhou-enlai-waijiao-huodong]], 462 (June 10, 1965; noon, back in Peking; Zhu De, Deng Xiaoping and other leaders meet him at the airport); [[w.peng-zhen-nianpu-1902]], IV, 421 (June 10, 1965, noon; Peng Zhen, with Zhu De and Deng Xiaoping, at the airport meeting Zhou back from Pakistan and Tanzania); [[w.chen-yi-nianpu]], 1102 (June 10, 1965, noon; Chen Yi at the airport to welcome Zhou home from Pakistan and Tanzania). Names: Zhou Enlai.'
     src:
       c: b55e2aed
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 736: ?'
         - 'w.zhou-enlai-waijiao-huodong 462: A'
         - 'w.peng-zhen-nianpu-1902 IV, 421: ?'
+        - 'w.chen-yi-nianpu 1102: ?'
     tags: [name:zhou-enlai, polity:prc]
     time_range:
       - 1965-06-10T04:00Z
@@ -2603,6 +2805,14 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1865: all'
     tags: [polity:prc, name:deng-xiaoping]
+  - id: cal.1965-06-10.china-leadership-7
+    when: June 10
+    date: '1965-06-10'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 receives the cable of thanks sent by Mohamed Yazid, President Ben Bella's personal representative, on leaving Canton 广州.
+    n: '[[w.chen-yi-nianpu]], 1102. Names: Chen Yi, Yazid, Ben Bella.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:yazid-mohammed, name:ben-bella-ahmed, ok:fields-place]
   - id: cal.1965-06-11.opinion
     when: June 11
     date: '1965-06-11'
@@ -2791,6 +3001,33 @@ entries:
       - 1965-06-11T04:00Z
       - 1965-06-11T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-06-11.china-leadership-6
+    when: June 11
+    date: '1965-06-11'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the friendship delegation of the Japan Council against Atomic and Hydrogen Bombs led by Sakuma Kiyoshi 佐久间澄.
+    n: '[[w.chen-yi-nianpu]], 1102. The words: 上午 (1102). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-06-10T22:00Z
+      - 1965-06-11T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-06-11.china-leadership-7
+    when: June 11
+    date: '1965-06-11'
+    place: peking
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Chen Yi 陈毅 speaks at the reception of 凯谢尔·巴哈杜尔, Nepal''s Ambassador, at the Peking Hotel 北京饭店 for King Mahendra''s birthday: praises Nepal''s fight under the King for sovereignty and independence; China will work with the Asian and African countries for a good Asian–African conference; China and Nepal a model of peaceful coexistence between different social systems.'
+    n: '[[w.chen-yi-nianpu]], 1102–1103. The words: 晚上 (1102–1103). Names: Chen Yi, Mahendra.'
+    tags: [polity:prc, polity:nepal, name:chen-yi, name:mahendra-bir-bikram-shah-deva]
+    time_range:
+      - 1965-06-11T11:00Z
+      - 1965-06-11T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1965-06-12.vietnam
     when: June 12
@@ -3261,13 +3498,19 @@ entries:
     thread: china-leadership
     also: [south-asia, africa]
     c: Zhou gives a cocktail party for the ambassadors of Pakistan, Tanzania and other states, thanking those he has just visited and those he stopped in for their warm welcome.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 737 (June 14, 1965); [[w.zhou-enlai-waijiao-huodong]], 462 (June 14, 1965; afternoon; the cocktail party thanking Pakistan, Tanzania and other states'' governments, leaders and peoples for their warm reception). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 737 (June 14, 1965); [[w.zhou-enlai-waijiao-huodong]], 462 (June 14, 1965; afternoon; the cocktail party thanking Pakistan, Tanzania and other states'' governments, leaders and peoples for their warm reception); [[w.chen-yi-nianpu]], 1103 (June 14, 1965, afternoon; Chen Yi at the cocktail party). Names: Zhou Enlai.'
     src:
       c: aaff5d19
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 737: ?'
         - 'w.zhou-enlai-waijiao-huodong 462: A'
+        - 'w.chen-yi-nianpu 1103: ?'
     tags: [name:zhou-enlai, polity:prc, polity:pakistan, polity:tanzania]
+    time_range:
+      - 1965-06-14T04:00Z
+      - 1965-06-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-06-14.china-leadership-2
     when: June 14
     date: '1965-06-14'
@@ -3842,7 +4085,7 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Liu Shaoqi names Zhou head of the Chinese government delegation to the second Asian-African conference, Chen Yi deputy head. The delegation is to go to Algiers after visiting the UAR.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 738 (June 16, 1965). Names: Zhou Enlai, Liu Shaoqi, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 738 (June 16, 1965); [[w.chen-yi-nianpu]], 1103 (June 16, 1965; Liu Shaoqi, on the NPC Standing Committee''s decision at its eleventh meeting that day, names Zhou head and Chen Yi deputy head of the delegation). Names: Zhou Enlai, Liu Shaoqi, Chen Yi.'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:chen-yi, polity:prc]
   - id: cal.1965-06-16.china-leadership-3
     when: June 16
@@ -4455,7 +4698,7 @@ entries:
     thread: china-leadership
     also: [middle-east, africa]
     c: 'Zhou and Chen Yi leave Beijing at the UAR''s invitation. Before leaving tells Zhou Rongxin, Xu Bing, Ping Jiesan and Tong Xiaopeng to tell Cheng Siyuan: the government gives Li Zongren travel money, which Cheng carries to Switzerland; Cheng gets travel money to go and bring Li back; a responsible man will contact Cheng at Zurich and help.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 737–38 (June 18, 1965); [[w.zhou-enlai-waijiao-huodong]], 462 (June 18, 1965; morning, by special plane with Chen Yi for a friendly visit to Cairo); [[w.zhonghua-renmin-gongheguo-waijiao]], 34 (June 19–30, 1965; Zhou and Chen Yi''s trip to the UAR at its invitation, June 19–30); [[w.yang-shangkun-riji]], II, 634 (June 18, 1965; Yang sees Zhou and Chen Yi off at the western airport at 8:15 a.m.; the editors'' note: to the UAR and the Asian-African conference planned for Algeria; the words: 上午8时1刻去西郊机场送周、陈出国); [[w.peng-zhen-nianpu-1902]], IV, 422 (June 19, 1965; Peng Zhen, with Liu Shaoqi, Zhu De, Deng Xiaoping and others, at the airport seeing off Zhou to the UAR). Names: Zhou Enlai, Chen Yi, Cheng Siyuan.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 737–38 (June 18, 1965); [[w.zhou-enlai-waijiao-huodong]], 462 (June 18, 1965; morning, by special plane with Chen Yi for a friendly visit to Cairo); [[w.zhonghua-renmin-gongheguo-waijiao]], 34 (June 19–30, 1965; Zhou and Chen Yi''s trip to the UAR at its invitation, June 19–30); [[w.yang-shangkun-riji]], II, 634 (June 18, 1965; Yang sees Zhou and Chen Yi off at the western airport at 8:15 a.m.; the editors'' note: to the UAR and the Asian-African conference planned for Algeria; the words: 上午8时1刻去西郊机场送周、陈出国); [[w.peng-zhen-nianpu-1902]], IV, 422 (June 19, 1965; Peng Zhen, with Liu Shaoqi, Zhu De, Deng Xiaoping and others, at the airport seeing off Zhou to the UAR); [[w.chen-yi-nianpu]], 1103 (June 18, 1965, morning; Chen Yi leaves Peking with Zhou for Cairo). Names: Zhou Enlai, Chen Yi, Cheng Siyuan.'
     src:
       c: dfce8a64
       rows:
@@ -4464,12 +4707,18 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao 34: A'
         - 'w.yang-shangkun-riji II, 634: A'
         - 'w.peng-zhen-nianpu-1902 IV, 422: ?'
+        - 'w.chen-yi-nianpu 1103: ?'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:uar]
     variants:
       - unit: A
         witness: w.peng-zhen-nianpu-1902
         reads: Zhou seen off at the airport, leaving Peking for the UAR, on June 19 ("6月19日")
         at: IV, 422
+    time_range:
+      - 1965-06-17T22:00Z
+      - 1965-06-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-06-18.china
     when: June 18
     date: '1965-06-18'
@@ -4518,6 +4767,13 @@ entries:
     c: Subandrio goes to Addis Ababa, to go on to Kenya and Morocco before Algiers, by Sabri's word to Zhou the next day.
     n: '"[Record of Conversation between Premier Zhou and Premier Sabry](https://digitalarchive.umd.edu/document/165427)" (June 19, 1965), PRC FMA 107-01081-05, trans. Stephen Mercado, Wilson Center Digital Archive (Sabri, asked whether Subandrio will pass through Cairo: "Yesterday he went to Addis Ababa"). Names: Subandrio, Sabri, Zhou Enlai. Check: whether the day is his departure or his arrival. Check: the year the Archive posted the document.'
     tags: [polity:indonesia, name:subandrio, name:sabri-ali, name:zhou-enlai]
+  - id: cal.1965-06-18.china-leadership-3
+    when: June 18
+    date: '1965-06-18'
+    thread: china-leadership
+    c: Flying over the Karakoram 喀喇昆仑山 on the way to Cairo, Chen Yi 陈毅 writes two *ci*, "First flight over the Karakoram" 《喀喇昆仑山初航》.
+    n: '[[w.chen-yi-nianpu]], 1103. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
   - id: cal.1965-06-19.africa
     when: June 19
     date: '1965-06-19'
@@ -4717,6 +4973,35 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1866: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-06-19.china-leadership-10
+    when: June 19
+    date: '1965-06-19'
+    place: karachi
+    thread: china-leadership
+    also: [south-asia]
+    c: On the way to the UAR, Chen Yi 陈毅 and Zhou Enlai 周恩来 make a short stop at the Karachi 卡拉奇 airport.
+    n: '[[w.chen-yi-nianpu]], 1103. Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, name:zhou-enlai]
+  - id: cal.1965-06-19.china-leadership-11
+    when: June 19
+    date: '1965-06-19'
+    place: tehran
+    thread: china-leadership
+    also: [middle-east]
+    c: Chen Yi 陈毅 and Zhou Enlai 周恩来 make a short stop at the Tehran 德黑兰 airport.
+    n: '[[w.chen-yi-nianpu]], 1103. Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:iran, name:chen-yi, name:zhou-enlai]
+  - id: cal.1965-06-19.china-leadership-12
+    when: June 19
+    date: '1965-06-19'
+    time: 1965-06-19T14:30Z
+    place: cairo
+    thread: china-leadership
+    also: [middle-east]
+    c: Chen Yi 陈毅 and Zhou Enlai 周恩来 arrive at Cairo 开罗.
+    n: '[[w.chen-yi-nianpu]], 1103. The words: 下午5时30分 (1103). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:uar, name:chen-yi, name:zhou-enlai]
+    time_zone: Africa/Cairo
   - id: cal.1965-06-20.medicare
     when: June 20
     date: '1965-06-20'
@@ -4769,7 +5054,7 @@ entries:
     thread: china-leadership
     also: [africa, middle-east]
     c: 'Zhou, first talk with Nasser: both agree to take no stand on whether the second Asian-African conference can meet on time until they have consulted each other and others. At the state banquet: China has always supported the conference; its attitude is positive, as before.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 738 (June 20, 1965); [[w.zhou-enlai-waijiao-huodong]], 463 (June 20, 1965; 11 a.m., Nasser''s residence in Cairo, the first talks, Nasser raising the Algerian "June 19 affair" and whether the conference can meet on time); [[w.zhou-enlai-waijiao-huodong]], 463 (June 20, 1965; evening; the state banquet given by Nasser in the garden of the Republic Palace, Zhou''s speech); [[w.friedman-shadow-cold-war]], 133 (Zhou sent to Cairo in June: Nasser has forty days'' food; Moscow, twelve days before, demanded in a note his public support for Soviet attendance at the conference; he will support it, not "actively"; Zhou: "maintain principled struggle until the end"). Made public: 1993. To check: PRC ambassador in UAR to MFA, June 22, 1965, CFMA doc. 109-03645-01, 17 (cited by [[w.friedman-shadow-cold-war]], 133 n.148). Names: Zhou Enlai, Nasser.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 738 (June 20, 1965); [[w.zhou-enlai-waijiao-huodong]], 463 (June 20, 1965; 11 a.m., Nasser''s residence in Cairo, the first talks, Nasser raising the Algerian "June 19 affair" and whether the conference can meet on time); [[w.zhou-enlai-waijiao-huodong]], 463 (June 20, 1965; evening; the state banquet given by Nasser in the garden of the Republic Palace, Zhou''s speech); [[w.friedman-shadow-cold-war]], 133 (Zhou sent to Cairo in June: Nasser has forty days'' food; Moscow, twelve days before, demanded in a note his public support for Soviet attendance at the conference; he will support it, not "actively"; Zhou: "maintain principled struggle until the end"); [[w.chen-yi-nianpu]], 1103 (June 20, 1965; Chen Yi with Zhou calls on Nasser at the presidential palace and talks; in the evening at Nasser''s state banquet in the garden of the Republic Palace). Made public: 1993. To check: PRC ambassador in UAR to MFA, June 22, 1965, CFMA doc. 109-03645-01, 17 (cited by [[w.friedman-shadow-cold-war]], 133 n.148). Names: Zhou Enlai, Nasser.'
     src:
       c: ebbd2964
       rows:
@@ -4777,6 +5062,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 463: B-C'
         - 'w.friedman-shadow-cold-war 133: ?'
         - 'via x.1965-06-22.prc-ambassador-uar-mfa-june-22-1965: ?'
+        - 'w.chen-yi-nianpu 1103: ?'
     tags: [name:zhou-enlai, name:nasser-gamal-abdel, polity:prc, polity:uar, vis:only:prc+uar]
   - id: cal.1965-06-20.china-leadership-2
     when: June 20
@@ -5044,12 +5330,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, second and third talks with Nasser; both agree to work to hold the conference on time. At the second talk, 11 a.m., at Nasser''s residence: a new state shedding colonial remnants and building an independent economy needs time and meets difficulties not yet foreseen; it relies first on its own effort, a strong leadership and a right direction, and next on equal, mutually beneficial cooperation with other states.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 738 (June 21, 1965); [[w.zhou-enlai-waijiao-huodong]], 463 (June 21, 1965; 11 a.m., the second talks, and 9:30 p.m., the third, at Nasser''s residence). Made public: 1993. Names: Zhou Enlai, Nasser.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 738 (June 21, 1965); [[w.zhou-enlai-waijiao-huodong]], 463 (June 21, 1965; 11 a.m., the second talks, and 9:30 p.m., the third, at Nasser''s residence); [[w.chen-yi-nianpu]], 1103 (June 21, 1965; Chen Yi in the talks). Made public: 1993. Names: Zhou Enlai, Nasser.'
     src:
       c: 5b40f5d7
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 738: ?'
         - 'w.zhou-enlai-waijiao-huodong 463: A, C-D'
+        - 'w.chen-yi-nianpu 1103: ?'
     tags: [name:zhou-enlai, name:nasser-gamal-abdel, polity:prc, polity:uar, vis:only:prc+uar]
   - id: cal.1965-06-21.china-leadership-3
     when: June 21
@@ -5311,12 +5598,19 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Chen Yi arrives at Algiers at the head of the Chinese delegation to the second Afro-Asian Conference.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 35 (June 22–25, 1965; at Algiers, June 22 to 25, no days given: he calls on Boumedienne, who is satisfied with China''s support and says the conference will meet on time; he meets in turn the foreign ministers or heads of delegation of the DRV (Nguyễn Duy Trinh), North Korea (Pak Seong Cheol), Indonesia (Subandrio), the UAR (Riad), Iraq (Taleb), Cambodia (Wick), Mali (Ousmane Ba), Nepal (Bista), the Sudan (Khalil), Pakistan (Bhutto), Afghanistan''s U.N. representative (Rahman Pazhwak) and the Front''s delegate, Nguyễn Văn Hiếu, and sets out China''s stand: the conference on time, a postponement if need be). Names: Chen Yi. Check: the spellings of the ministers'' names, from the Chinese 朴成哲, 里亚德, 塔列布, 维克, 乌斯曼·巴, 比斯塔, 哈利勒, 拉幸曼·帕日瓦克; the Front''s delegate Nguyễn Văn Hiếu is the Chinese''s 阮文孝.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 35 (June 22–25, 1965; at Algiers, June 22 to 25, no days given: he calls on Boumedienne, who is satisfied with China''s support and says the conference will meet on time; he meets in turn the foreign ministers or heads of delegation of the DRV (Nguyễn Duy Trinh), North Korea (Pak Seong Cheol), Indonesia (Subandrio), the UAR (Riad), Iraq (Taleb), Cambodia (Wick), Mali (Ousmane Ba), Nepal (Bista), the Sudan (Khalil), Pakistan (Bhutto), Afghanistan''s U.N. representative (Rahman Pazhwak) and the Front''s delegate, Nguyễn Văn Hiếu, and sets out China''s stand: the conference on time, a postponement if need be); [[w.chen-yi-nianpu]], 1103 (June 22, 1965, afternoon, Chen Yi leaves Cairo at the head of the delegation and reaches Algiers; to the press at the airport, China has great confidence in the conference''s success and the wrecking of imperialism and all reactionaries will fail); [[w.chen-yi-nianpu]], 1104 (Algiers; June 23, 1965, morning, Chen Yi meets Subandrio; evening, Houari Boumedienne 胡阿里·布迈丁 receives him; June 24, afternoon, Nguyễn Duy Trinh and Pak Song-chol 朴成哲; evening, Subandrio, Mahmoud Riad 马哈茂德·里亚德 and Naji Talib 纳吉·塔列布 one by one; June 25, morning, Koun Wick 坤·维克 and Ousmane Ba 乌斯曼·巴, Mali''s minister-delegate at the presidency for foreign affairs; afternoon, Kirti Nidhi Bista and Abdul Rahman Pazhwak 拉赫曼·帕日瓦克; evening, Nguyễn Duy Trinh, Pak Song-chol and Nguyễn Văn Hiếu 阮文孝 of the Front''s delegation, and, the same evening, Muhammad Ibrahim Khalil 穆罕默德·易卜拉欣·哈利勒, the Sudan''s Foreign Minister; June 26, Bhutto). Names: Chen Yi. Check: the spellings of the ministers'' names, from the Chinese 朴成哲, 里亚德, 塔列布, 维克, 乌斯曼·巴, 比斯塔, 哈利勒, 拉幸曼·帕日瓦克; the Front''s delegate Nguyễn Văn Hiếu is the Chinese''s 阮文孝.'
     src:
       c: 90be5108
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 35: all'
+        - 'w.chen-yi-nianpu 1103: ?'
+        - 'w.chen-yi-nianpu 1104: ?'
     tags: [polity:prc, polity:algeria, name:chen-yi, name:boumediene-houari, name:nguyen-duy-trinh, name:subandrio, name:bhutto-zulfikar-ali]
+    time_range:
+      - 1965-06-22T12:00Z
+      - 1965-06-22T18:00Z
+    time_band: afternoon
+    time_zone: Africa/Algiers
   - id: cal.1965-06-22.china-leadership-8
     when: June 22
     date: '1965-06-22'
@@ -5358,6 +5652,20 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1866: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-06-22.china-leadership-11
+    when: June 22
+    date: '1965-06-22'
+    place: algiers
+    thread: china-leadership
+    also: [africa, indonesia]
+    c: Algiers 阿尔及尔. Chen Yi 陈毅 at the airport to meet Subandrio, Indonesia's First Deputy Prime Minister and Foreign Minister.
+    n: '[[w.chen-yi-nianpu]], 1103. The words: 傍晚 (1103). Names: Chen Yi, Subandrio.'
+    tags: [polity:prc, polity:algeria, polity:indonesia, name:chen-yi, name:subandrio]
+    time_range:
+      - 1965-06-22T17:00Z
+      - 1965-06-22T19:00Z
+    time_band: after-workday daytime
+    time_zone: Africa/Algiers
   - id: cal.1965-06-23.robert-kennedy
     when: June 23
     date: '1965-06-23'
@@ -5650,6 +5958,20 @@ entries:
       - 1965-06-23T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-06-23.china-leadership-9
+    when: June 23
+    date: '1965-06-23'
+    place: algiers
+    thread: china-leadership
+    also: [africa, middle-east]
+    c: Algiers 阿尔及尔. Chen Yi 陈毅 meets Hassan Muraywid 哈桑·穆拉维德, Syria's Foreign Minister.
+    n: '[[w.chen-yi-nianpu]], 1104. The words: 下午 (1104). Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, polity:syria, name:chen-yi]
+    time_range:
+      - 1965-06-23T12:00Z
+      - 1965-06-23T18:00Z
+    time_band: afternoon
+    time_zone: Africa/Algiers
   - id: cal.1965-06-24.mayors-nyc
     when: June 24
     date: '1965-06-24'
@@ -5985,11 +6307,31 @@ entries:
   - id: cal.1965-06-24.china-leadership-10
     when: June 24
     date: '1965-06-24'
+    place: algiers
     thread: china-leadership
     also: [africa, middle-east]
     c: Chen Yi meets the UAR's foreign minister in the evening, the two to meet again on the 25th at the meeting of four countries' foreign ministers, as Nasser tells Zhou on June 25.
-    n: '"[Summary of Premier Zhou''s Conversation with President Nasser](https://digitalarchive.umd.edu/document/165425)" (June 25, 1965), PRC FMA 107-01081-07, 110–111, trans. Stephen Mercado, Wilson Center Digital Archive (Nasser''s account: "on the evening of the 24th"; the minister not named). No time set: the record names no place, so no clock. Names: Chen Yi, Nasser, Zhou Enlai. Check: the place. Check: the year the Archive posted the document.'
+    n: '"[Summary of Premier Zhou''s Conversation with President Nasser](https://digitalarchive.umd.edu/document/165425)" (June 25, 1965), PRC FMA 107-01081-07, 110–111, trans. Stephen Mercado, Wilson Center Digital Archive (Nasser''s account: "on the evening of the 24th"; the minister not named). No time set: the record names no place, so no clock. [[w.chen-yi-nianpu]], 1104 (June 24, 1965, evening, Algiers; Chen Yi meets Mahmoud Riad 马哈茂德·里亚德, the UAR''s Foreign Minister, after Subandrio and before Naji Talib). Names: Chen Yi, Nasser, Zhou Enlai. Check: the place. Check: the year the Archive posted the document.'
     tags: [polity:prc, polity:uar, name:chen-yi, name:nasser-gamal-abdel, name:zhou-enlai, vis:only:prc+uar, ok:fields-time]
+    time_range:
+      - 1965-06-24T19:00Z
+      - 1965-06-24T22:00Z
+    time_band: evening
+    time_zone: Africa/Algiers
+  - id: cal.1965-06-24.china-leadership-11
+    when: June 24
+    date: '1965-06-24'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    c: Algiers 阿尔及尔. Chen Yi 陈毅 meets Bouteflika, Algeria's Foreign Minister.
+    n: '[[w.chen-yi-nianpu]], 1104. The words: 上午 (1104). Names: Chen Yi, Bouteflika.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:bouteflika-abdel-aziz]
+    time_range:
+      - 1965-06-24T06:00Z
+      - 1965-06-24T12:00Z
+    time_band: morning
+    time_zone: Africa/Algiers
   - id: cal.1965-06-25.vietnam
     when: June 25
     date: '1965-06-25'
@@ -6419,6 +6761,20 @@ entries:
       - 1965-06-26T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-06-26.china-leadership-11
+    when: June 26
+    date: '1965-06-26'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    c: Algiers 阿尔及尔. The standing committee preparing the second Asian–African conference, in special session, puts the meeting of heads of state and government off to Nov. 5, 1965, at Algiers, the foreign ministers' meeting before it to Oct. 28.
+    n: '[[w.chen-yi-nianpu]], 1104. The words: 晚上 (1104).'
+    tags: [polity:prc, polity:algeria]
+    time_range:
+      - 1965-06-26T19:00Z
+      - 1965-06-26T22:00Z
+    time_band: evening
+    time_zone: Africa/Algiers
   - id: cal.1965-06-27.opinion
     when: June 27
     date: '1965-06-27'
@@ -6524,6 +6880,48 @@ entries:
     c: Lâm Đồng. June 27 the province's troops destroy the B'Sar strongpoint, which commands a wide area south of the Blao pass, and bring down the bridges at Đậm Mrế and Đạc Oai; the people along Routes 20 and 14 bis rise and Saigon pulls back to Bảo Lộc and Di Linh.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 434.'
     tags: [polity:drv]
+  - id: cal.1965-06-27.china-leadership-4
+    when: June 27
+    date: '1965-06-27'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    c: Algiers 阿尔及尔. Chen Yi 陈毅 meets 什海亚·乌尔德·芒库斯, Mauritania's Minister of Communications and Construction.
+    n: '[[w.chen-yi-nianpu]], 1104. The words: 上午 (1104). Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, polity:mauritania, name:chen-yi]
+    time_range:
+      - 1965-06-27T06:00Z
+      - 1965-06-27T12:00Z
+    time_band: morning
+    time_zone: Africa/Algiers
+  - id: cal.1965-06-27.china-leadership-5
+    when: June 27
+    date: '1965-06-27'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    c: Algiers 阿尔及尔. Chen Yi 陈毅 at the banquet of Bouteflika, Algeria's Foreign Minister, for the foreign ministers and delegations come from abroad.
+    n: '[[w.chen-yi-nianpu]], 1104. The words: 中午 (1104). Names: Chen Yi, Bouteflika.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:bouteflika-abdel-aziz]
+    time_range:
+      - 1965-06-27T12:00Z
+      - 1965-06-27T14:00Z
+    time_band: workday midday
+    time_zone: Africa/Algiers
+  - id: cal.1965-06-27.china-leadership-6
+    when: June 27
+    date: '1965-06-27'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    c: Algiers 阿尔及尔. Chen Yi 陈毅 gives a banquet for the foreign ministers and delegation members of a number of countries.
+    n: '[[w.chen-yi-nianpu]], 1104. The words: 晚上 (1104). Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi]
+    time_range:
+      - 1965-06-27T19:00Z
+      - 1965-06-27T22:00Z
+    time_band: evening
+    time_zone: Africa/Algiers
   - id: cal.1965-06-28.economy
     when: June 28–30
     date: '1965-06-28'
@@ -6820,6 +7218,57 @@ entries:
       - 1965-06-28T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-06-28.china-leadership-8
+    when: June 28
+    date: '1965-06-28'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    c: Algiers 阿尔及尔. Chen Yi 陈毅 receives Bouteflika, Algeria's Foreign Minister.
+    n: '[[w.chen-yi-nianpu]], 1105. The words: 中午 (1105). Names: Chen Yi, Bouteflika.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:bouteflika-abdel-aziz]
+    time_range:
+      - 1965-06-28T12:00Z
+      - 1965-06-28T14:00Z
+    time_band: workday midday
+    time_zone: Africa/Algiers
+  - id: cal.1965-06-28.china-leadership-9
+    when: June 28
+    date: '1965-06-28'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    c: Algiers 阿尔及尔. Houari Boumedienne 胡阿里·布迈丁, the leader of Algeria's Revolutionary Council, receives Chen Yi 陈毅.
+    n: '[[w.chen-yi-nianpu]], 1105. The words: 下午 (1105). Names: Chen Yi, Boumedienne.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:boumediene-houari]
+    time_range:
+      - 1965-06-28T12:00Z
+      - 1965-06-28T18:00Z
+    time_band: afternoon
+    time_zone: Africa/Algiers
+  - id: cal.1965-06-28.china-leadership-10
+    when: June 28
+    date: '1965-06-28'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    c: 'Chen Yi 陈毅 leaves Algiers 阿尔及尔; in a written statement at the airport: the Asian–African conference is put off so that it may be a better one; China will go on working with the Asian and African countries for a good second conference.'
+    n: '[[w.chen-yi-nianpu]], 1105. The words: 晚上 (1105). Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi]
+    time_range:
+      - 1965-06-28T19:00Z
+      - 1965-06-28T22:00Z
+    time_band: evening
+    time_zone: Africa/Algiers
+  - id: cal.1965-06-28.china-leadership-11
+    when: June 28
+    date: '1965-06-28'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    c: Leaving Algeria, Chen Yi 陈毅 cables Houari Boumedienne 胡阿里·布迈丁 and Bouteflika his thanks for the delegation's warm reception at Algiers 阿尔及尔.
+    n: '[[w.chen-yi-nianpu]], 1105. Names: Chen Yi, Bouteflika, Boumedienne.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:bouteflika-abdel-aziz, name:boumediene-houari]
   - id: cal.1965-06-29.legislatures-fl
     when: June 29
     date: '1965-06-29'
@@ -6939,13 +7388,19 @@ entries:
     thread: china-leadership
     also: [middle-east, africa]
     c: 'Zhou meets Shukairy, chairman of the Palestine Liberation Organization, Indonesia''s first deputy premier Subandrio, and Pakistan''s foreign minister Bhutto. To Subandrio, on how the postponement came about: the UAR, after seeing Bouteflika, told China that Algeria thought a meeting difficult but feared the blame for none, and was willing to propose postponement; the chief reason is that many black African states, for their ties with Ben Bella, do not want to meet at Algiers, the explosion another.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 740–41 (June 29, 1965); [[w.zhou-enlai-waijiao-huodong]], 465–66 (June 29, 1965; noon, Shukairy; 12:45 p.m., Subandrio, at the Chinese embassy in Cairo; afterward Bhutto). Made public: 1993. Names: Zhou Enlai, Shukairy, Subandrio, Bhutto, Ben Bella.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 740–41 (June 29, 1965); [[w.zhou-enlai-waijiao-huodong]], 465–66 (June 29, 1965; noon, Shukairy; 12:45 p.m., Subandrio, at the Chinese embassy in Cairo; afterward Bhutto); [[w.chen-yi-nianpu]], 1105 (June 29, 1965, noon, Cairo; Chen Yi with Zhou receives Shukairy 舒凯里; Subandrio meets Zhou and Chen Yi). Made public: 1993. Names: Zhou Enlai, Shukairy, Subandrio, Bhutto, Ben Bella.'
     src:
       c: 1966059a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 740–41: ?'
         - 'w.zhou-enlai-waijiao-huodong 465–66: A, B-C'
+        - 'w.chen-yi-nianpu 1105: ?'
     tags: [name:zhou-enlai, name:shukairy-ahmad, name:subandrio, name:bhutto-zulfikar-ali, polity:prc, polity:indonesia, polity:pakistan, vis:only:prc+indonesia+pakistan, name:ben-bella-ahmed]
+    time_range:
+      - 1965-06-29T09:00Z
+      - 1965-06-29T11:00Z
+    time_band: workday midday
+    time_zone: Africa/Cairo
   - id: cal.1965-06-29.china-leadership-4
     when: June 29
     date: '1965-06-29'
@@ -7043,6 +7498,20 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 423–424: all'
     tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-06-29.china-leadership-9
+    when: June 29
+    date: '1965-06-29'
+    place: cairo
+    thread: china-leadership
+    also: [middle-east]
+    c: Chen Yi 陈毅 arrives at Cairo 开罗 from Algiers.
+    n: '[[w.chen-yi-nianpu]], 1105. The words: 上午 (1105). Names: Chen Yi.'
+    tags: [polity:prc, polity:uar, name:chen-yi]
+    time_range:
+      - 1965-06-29T03:00Z
+      - 1965-06-29T09:00Z
+    time_band: morning
+    time_zone: Africa/Cairo
   - id: cal.1965-06-30.cities-and-housing
     when: June 30
     date: '1965-06-30'
@@ -7611,13 +8080,19 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: 'Zhou and Chen Yi end the UAR visit and leave Cairo by special plane for home. At the airport: China will keep doing all it can for the success of the second conference. At Damascus airport talks with Syria''s deputy premier Atasi; next morning a short stop at Karachi.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 741 (June 30, 1965); [[w.zhou-enlai-waijiao-huodong]], 466 (June 30, 1965; afternoon; seen off at the Cairo airport by Nasser, Prime Minister Sabri, Sukarno, Subandrio and Bhutto, the farewell statement promising China''s utmost effort for the second conference''s success; the stop at Damascus airport, Syria''s deputy prime minister Atasi seeing him off; July 1, early morning, the stop at Karachi airport). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 741 (June 30, 1965); [[w.zhou-enlai-waijiao-huodong]], 466 (June 30, 1965; afternoon; seen off at the Cairo airport by Nasser, Prime Minister Sabri, Sukarno, Subandrio and Bhutto, the farewell statement promising China''s utmost effort for the second conference''s success; the stop at Damascus airport, Syria''s deputy prime minister Atasi seeing him off; July 1, early morning, the stop at Karachi airport); [[w.chen-yi-nianpu]], 1105 (June 30, 1965, afternoon, Chen Yi leaves Cairo with Zhou for home; July 1, early morning, the short stop with Zhou at Karachi airport). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 329f83ef
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 741: ?'
         - 'w.zhou-enlai-waijiao-huodong 466: A-D'
+        - 'w.chen-yi-nianpu 1105: ?'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:uar, polity:syria]
+    time_range:
+      - 1965-06-30T09:00Z
+      - 1965-06-30T15:00Z
+    time_band: afternoon
+    time_zone: Africa/Cairo
   - id: cal.1965-06-30.china-leadership-3
     when: June 30
     date: '1965-06-30'
@@ -7757,14 +8232,6 @@ entries:
     c: Malik, visiting Nigeria, says that if anyone opposes Soviet participation in the Second Asian–African Conference, the Soviet Union will have to "strike back." So Zhou tells Hồ Chí Minh, June 15.
     n: '"[Record of Conversation between Premier Zhou Enlai and Chairman Ho Chi Minh](https://digitalarchive.umd.edu/document/165383)" (June 15, 1965), PRC FMA 106-00861-02, 11–22, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou: "Malik, visiting Nigeria while I was on my visit to Tanzania"; the record names no city). See [[cal.1965-06-04.china-leadership]]. Names: Zhou Enlai, Hồ Chí Minh. Check: which Malik; the record gives the surname only. Check: the day. Check: the year the Archive posted the document.'
     tags: [polity:ussr, name:zhou-enlai, name:ho-chi-minh]
-  - id: cal.1965-06.china-leadership-4
-    when: June
-    date: 1965-06
-    thread: china-leadership
-    also: [africa]
-    c: 'Chen Yi talks with Yazid, Algeria''s envoy: Yazid says Ben Bella''s tone is a high one; Chen Yi, that the tone is high only if it names the United States. So Zhou and Chen Yi tell Hồ Chí Minh, June 15.'
-    n: '"[Record of Conversation between Premier Zhou Enlai and Chairman Ho Chi Minh](https://digitalarchive.umd.edu/document/165383)" (June 15, 1965), PRC FMA 106-00861-02, 11–22, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou: "Recently, Algeria sent Yazid to visit China"; Chen Yi''s account of his words to Yazid, on dollars and the United States). See [[cal.1965-06-05.china-leadership-5]]. Names: Chen Yi, Yazid, Ben Bella, Zhou Enlai, Hồ Chí Minh. Check: the day; the record has only "recently" on June 15, and Liu Shaoqi received Yazid June 5. Check: the year the Archive posted the document.'
-    tags: [polity:prc, polity:algeria, name:chen-yi, name:yazid-mohammed, name:ben-bella-ahmed, name:zhou-enlai, name:ho-chi-minh, vis:only:prc+algeria, vis:from:drv:1965-06-15]
   - id: cal.1965-06-30.china-leadership-7
     when: June 30
     date: '1965-06-30'
@@ -7828,3 +8295,12 @@ entries:
     c: 'Zhou Enlai: the main threat to China comes from the Americans, who keep up the encirclement begun with the Korean War.'
     n: '[[w.khoo-collateral-damage]], 44. Made public: 1992 ([[w.wang-xianggen-zhongguo-mimi-da-fabing]], the earliest printing the note names). To check: [[w.wang-xianggen-zhongguo-mimi-da-fabing]], 161 (cited by [[w.khoo-collateral-damage]], 44 n.237). Check: the day. Names: Zhou Enlai.'
     tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+  - id: cal.1965-06-30.china-leadership-8
+    when: June 30
+    date: '1965-06-30'
+    place: cairo
+    thread: china-leadership
+    also: [middle-east, indonesia, south-asia]
+    c: Cairo 开罗, the Kubba Palace 库巴宫. Chen Yi 陈毅 holds talks with Subandrio, Indonesia's First Deputy Prime Minister and Foreign Minister, Bhutto, Pakistan's Foreign Minister, and Mahmoud Riad, the UAR's Foreign Minister.
+    n: '[[w.chen-yi-nianpu]], 1105. Made public: 1995. Names: Chen Yi, Subandrio, Bhutto, Riad.'
+    tags: [polity:prc, polity:uar, polity:indonesia, polity:pakistan, name:chen-yi, name:subandrio, name:bhutto-zulfikar-ali, name:riad-mahmoud, vis:only:prc+indonesia+pakistan+uar]

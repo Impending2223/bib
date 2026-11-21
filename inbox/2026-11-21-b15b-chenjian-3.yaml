@@ -23,6 +23,7 @@ ops:
         when: Aug. 23
         time: 1967-08-22T19:00Z
         time_zone: Asia/Shanghai
+        n: '[[w.macfarquhar-maos-last-revolution]], 228–229. Made public: 1971. To check: [[w.gurtov-foreign-ministry-and-foreign]], 348 (cited by [[w.macfarquhar-maos-last-revolution]], 229 n.32a); [[w.ge-zai-waijiaobu-duoquan-qian]], 235, 239 (cited by [[w.macfarquhar-maos-last-revolution]], 229 n.32b). Names: Zhou Enlai. Check: whether this is Zhou''s talk to the foreign-affairs rebels at 3:00 a.m., Aug. 23, that [[w.jian-zhou-enlai]], 581 n.66, dates (the day and hour from that note), cited in the Zhou chronology under [[cal.1967-08-22.china-leadership-2]].'
       unset:
         - at
   - edit:
@@ -46,11 +47,12 @@ ops:
       set:
         date: '1968-09-25'
         when: Sept. 25
+        n: '[[w.yang-jisheng-tiandi-fanfu]], II, 705. Made public: 2003. To check: [[w.wenqian-wannian-zhou-enlai]], 26th printing (2004), 250–251 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 705 n.35). Names: Zhou Enlai, Jiang Qing, Liu Shaoqi.'
       unset:
         - at
   - edit:
       id: cal.1969-09-30.china-leadership-3
-      base: 8ce15423
+      base: ef43accd
       set:
         time_range:
           - 1969-09-30T14:00Z
@@ -331,6 +333,21 @@ ops:
   - to-check:
       id: cal.1968-01-16.china-leadership
       add: '[[w.zedong-jianguo-yilai-mao-zedong]], XII, 464 (cited by [[w.jian-zhou-enlai]], 583 n.72).'
+  - add:
+      entry:
+        id: cal.1968.china-leadership-102
+        when: 1968, by its start
+        date: '1968'
+        at: before 1968-01
+        thread: china-leadership
+        also: [china]
+        c: 'As Chen Jian reports it: revolutionary committees stand in only nine of China''s twenty-nine provinces and regions by the start of 1968.'
+        n: '[[w.jian-zhou-enlai]], 584 (no note). See [[cal.1967-10.china-leadership-6]].'
+        src:
+          c: 86219559
+          rows:
+            - 'w.jian-zhou-enlai 584: all'
+        tags: [form:state, polity:prc]
   - cite:
       id: cal.1968-03-22.china-leadership
       item: '[[w.jian-zhou-enlai]], 584 (in March Yang Chengwu, acting chief of staff, Yu Lijin, the Air Force''s political commissar, and Fu Chongbi, the Peking Garrison''s commander, arrested without warning; on Mar. 22 removed from their posts)'
@@ -403,13 +420,13 @@ ops:
       add: '[[w.zhou-enlai-nianpu-1949]], III, 249 (cited by [[w.jian-zhou-enlai]], 587 n.83).'
   - add:
       entry:
-        id: cal.1968-08-20.china-leadership-5
-        when: Aug. 20
-        date: '1968-08-20'
+        id: cal.1968-08-21.china-leadership
+        when: Aug. 21
+        date: '1968-08-21'
         thread: china-leadership
         also: [soviet-union-czechoslovakia]
         c: Zhou Enlai, on the Soviet invasion of Czechoslovakia, instructs the Foreign Ministry to discuss how China should respond.
-        n: '[[w.jian-zhou-enlai]], 587 ("immediately"). Made public: 1997 ([[w.zhou-enlai-nianpu-1949]], the earliest work the note names; not seen). To check: [[w.jiang-benlian-gei-gongheguo-lingdaoren]], 80 (cited by [[w.jian-zhou-enlai]], 587 n.84a); [[w.zhou-enlai-nianpu-1949]], III, 252–253 (cited by [[w.jian-zhou-enlai]], 587 n.84b). Names: Zhou Enlai. Check: the day.'
+        n: '[[w.jian-zhou-enlai]], 587 ("immediately"). Made public: 1997 ([[w.zhou-enlai-nianpu-1949]], the earliest work the note names; not seen). To check: [[w.jiang-benlian-gei-gongheguo-lingdaoren]], 80 (cited by [[w.jian-zhou-enlai]], 587 n.84a); [[w.zhou-enlai-nianpu-1949]], III, 252–253 (cited by [[w.jian-zhou-enlai]], 587 n.84b). Names: Zhou Enlai. Check: the day: the book has the invasion "on August 20" and Zhou''s instruction "immediately"; the troops crossed the night of Aug. 20–21, Prague time, the morning of Aug. 21 in Peking ([[cal.1968-08-20.soviet-union]]).'
         src:
           c: 4924150d
           rows:
@@ -710,20 +727,63 @@ ops:
   - to-check:
       id: cal.1969-04-24.china-leadership-9
       add: '[[w.qiu-huizuo-huiyilu]], II, 646–647 (cited by [[w.jian-zhou-enlai]], 594 n.7).'
+  - add:
+      entry:
+        id: cal.1969.china-leadership-68
+        when: '1969'
+        date: '1969'
+        thread: china-leadership
+        also: [china]
+        c: 'As Chen Jian reports it, from Wang Nianyi: in 1969 China''s gross industrial and agricultural output rises 23.8 percent over 1968''s lows, industrial output 34.3 percent.'
+        n: '[[w.jian-zhou-enlai]], 595. To check: [[w.nianyi-da-dongluande-niandai]], 360 (cited by [[w.jian-zhou-enlai]], 595 n.11).'
+        src:
+          c: ce5b1092
+          rows:
+            - 'w.jian-zhou-enlai 595: all'
+        gloss:
+          title: Estimates
+          text:
+            - 'Chen Jian: the Chinese economy growing by more than 10 percent in five of the seven years from 1969 to 1976 ([[w.jian-zhou-enlai]], 595; no note).'
+        tags: [form:state, polity:prc]
   - cite:
       id: cal.1969-03-02.china-leadership-5
       item: '[[w.jian-zhou-enlai]], 596 ("two border clashes ... at Zhenbao Island on the Ussuri River in March 1969"; Mao calls on the whole country to "prepare for war")'
   - cite:
       id: cal.1969-08-13.china-2
-      item: '[[w.jian-zhou-enlai]], 596 ("in August," Soviet troops eliminate a squadron of Chinese soldiers at a border garrison in Xinjiang; rumors that Moscow prepares a preemptive strike on China''s nuclear facilities)'
-  - to-check:
-      id: cal.1969-08-13.china-2
-      add: 'State Department Memorandum of Conversation, "US Reaction to Soviet Destruction of CPR Nuclear Capability," August 18, 1969, Subject-Numeric Files, 1967–69, Def 12 Chicom, National Archives (NA) (cited by [[w.jian-zhou-enlai]], 596 n.12a); [[w.kissinger-white-house-years]], 183 (cited by [[w.jian-zhou-enlai]], 596 n.12b); *Cankao ziliao*, Aug. 30, 1969, printing the *Washington Star*''s report of two days before on Moscow''s preparation of a preemptive nuclear strike on China, cited by Chen Jian, *Zhou Enlai: A Life* (2024), 596 n.12c; not held (cited by [[w.jian-zhou-enlai]], 596 n.12c).'
-  - src:
-      id: cal.1969-08-13.china-2
-      rows:
-        - 'via x.1969-08-18.state-memcon-us-reaction-soviet-destruction-cpr-nuclear: ?'
-        - 'via x.1969-08-30.cankao-ziliao-washington-star-soviet-strike: ?'
+      item: '[[w.jian-zhou-enlai]], 596 ("in August," Soviet troops eliminate a squadron of Chinese soldiers at a border garrison in Xinjiang)'
+  - add:
+      entry:
+        id: cal.1969-08.china-leadership-7
+        when: Aug.
+        date: 1969-08
+        thread: china-leadership
+        also: [soviet-union]
+        c: 'As Chen Jian reports it: rumors spread that Moscow is gearing up for a preemptive strike on China''s nuclear facilities.'
+        n: '[[w.jian-zhou-enlai]], 596. To check: State Department Memorandum of Conversation, "US Reaction to Soviet Destruction of CPR Nuclear Capability," Aug. 18, 1969, Subject-Numeric Files, 1967–69, Def 12 Chicom, National Archives (NA) (cited by [[w.jian-zhou-enlai]], 596 n.12a); [[w.kissinger-white-house-years]], 183 (cited by [[w.jian-zhou-enlai]], 596 n.12b).'
+        src:
+          c: 722400fc
+          rows:
+            - 'w.jian-zhou-enlai 596: all'
+            - 'via x.1969-08-18.state-memcon-us-reaction-soviet-destruction-cpr-nuclear: ?'
+        tags: [form:state, polity:prc, ok:fields-place]
+  - check:
+      id: cal.1969-08-13.soviet-union
+      text: 'Check: [[w.jian-zhou-enlai]], 596 n.12a, cites the State Department''s memorandum of conversation "US Reaction to Soviet Destruction of CPR Nuclear Capability" as of Aug. 18, 1969.'
+  - add:
+      entry:
+        id: cal.1969-08-30.china-leadership
+        when: Aug. 30
+        date: '1969-08-30'
+        thread: china-leadership
+        also: [soviet-union]
+        c: '*Cankao ziliao* prints the *Washington Star*''s report of Aug. 28 that Moscow is preparing a preemptive nuclear strike on China.'
+        n: '[[w.jian-zhou-enlai]], 596 n.12c (the note: a report "which Mao and Zhou could not have failed to note"). Made public: 2024 ([[w.jian-zhou-enlai]], the first printing named). To check: *Cankao ziliao*, Aug. 30, 1969 (cited by [[w.jian-zhou-enlai]], 596 n.12c). See [[cal.1969-08.china-leadership-7]].'
+        src:
+          c: bdfabb78
+          rows:
+            - 'w.jian-zhou-enlai 596 n.12c: all'
+            - 'via x.1969-08-30.cankao-ziliao-washington-star-soviet-strike: ?'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
   - cite:
       id: cal.1969-08-28.china-leadership-4
       item: '[[w.jian-zhou-enlai]], 596 (on Aug. 28 Peking orders a general mobilization of the provinces and regions bordering the Soviet Union and Outer Mongolia; the note prints "August 28, 1968")'
@@ -1177,10 +1237,10 @@ ops:
         time_zone: Asia/Shanghai
         thread: china-leadership
         also: [korea]
-        c: Peking answers Pyongyang, welcoming Choe Yong-gon; at 11:00 p.m. his plane lands at the Peking airport.
-        n: '[[w.jian-zhou-enlai]], 623 ("At 6:00 p.m."; "at 11:00 p.m."). Made public: 1999 ([[w.wang-taiping-zhonghua-renmin-gongheguo-waijiaoshi]], 1970–1978 vol., the work the note names; not seen). To check: [[w.wang-taiping-zhonghua-renmin-gongheguo-waijiaoshi]], 1970–1978 vol., 36–37 (cited by [[w.jian-zhou-enlai]], 623 n.38). See [[cal.1969-09-30.china-leadership-9]].'
+        c: Peking answers Pyongyang, welcoming Choe Yong-gon.
+        n: '[[w.jian-zhou-enlai]], 623 ("At 6:00 p.m."; the plane''s landing at 11:00 p.m. under [[cal.1969-09-30.china-leadership-6]]). Made public: 1999 ([[w.wang-taiping-zhonghua-renmin-gongheguo-waijiaoshi]], 1970–1978 vol., the work the note names; not seen). To check: [[w.wang-taiping-zhonghua-renmin-gongheguo-waijiaoshi]], 1970–1978 vol., 36–37 (cited by [[w.jian-zhou-enlai]], 623 n.38). See [[cal.1969-09-30.china-leadership-9]].'
         src:
-          c: 4234d9aa
+          c: d568f5cc
           rows:
             - 'w.jian-zhou-enlai 623: all'
         tags: [polity:prc, polity:dprk, vis:only:prc+dprk]
@@ -1220,31 +1280,32 @@ ops:
       item: '[[w.jian-zhou-enlai]], 624 (the Soviet delegation arrives and the border talks begin as scheduled; the false alarm recognized)'
   - add:
       entry:
-        id: cal.1969.china-7
-        when: 1969, summer
-        date: '1969'
-        at: before 1969-07
+        id: cal.1969-08.china
+        when: Aug., by the 2nd
+        date: 1969-08
+        at: before 1969-08-02
         thread: china
         also: [south-asia]
         c: Nixon, on his world tour, asks Pakistan's President Yahya Khan to convey to the Chinese leaders his belief that Asia could not "move forward" while a nation as large as China remained isolated.
-        n: '[[w.jian-zhou-enlai]], 625. Made public: Check (the note cites [[w.foreign-relations-of-the-2]], XVII, 51–52, its editorial note). To check: [[w.foreign-relations-of-the-2]], XVII, 51–52 (cited by [[w.jian-zhou-enlai]], 625 n.44). Names: Nixon. Check: the day.'
+        n: '[FRUS 1969–76, XVII, doc. 20](https://history.state.gov/historicaldocuments/frus1969-76v17/d20) (the editorial note, the volume''s pp. 51–52, the book''s n.44: on the trip of July 24–Aug. 3 "the most serious discussion occurred in Pakistan," Nixon agreeing with Yahya that China should be engaged in the international community; Haldeman''s diary of Aug. 2 on Nixon''s impression of Yahya; not the book''s words, not the day); [[w.jian-zhou-enlai]], 625 ("During his world tour in summer 1969"). Made public: Check (FRUS XVII''s editorial note, the earliest printing named; its year not on the card). Names: Nixon. Check: the day; the note gives the trip and Haldeman''s entry of Aug. 2, not the day of the talk.'
         src:
           c: c7c12f88
           rows:
+            - 'https://history.state.gov/historicaldocuments/frus1969-76v17/d20: ?'
             - 'w.jian-zhou-enlai 625: all'
         tags: [polity:us, polity:pakistan, name:nixon-richard-m, vis:only:us+pakistan, ok:fields-place]
   - add:
       entry:
-        id: cal.1969.china-8
-        when: 1969, summer
-        date: '1969'
-        at: before 1969-07
+        id: cal.1969-08-02.china
+        when: Aug. 2
+        date: '1969-08-02'
         thread: china
         c: Nixon, on his world tour, asks Romania's Ceaușescu to convey the same belief to the Chinese leaders.
-        n: '[[w.jian-zhou-enlai]], 625. Made public: Check (the note cites [[w.foreign-relations-of-the-2]], XVII, 51–52, its editorial note). To check: [[w.foreign-relations-of-the-2]], XVII, 51–52 (cited by [[w.jian-zhou-enlai]], 625 n.44). See [[cal.1969.china-7]]. Names: Nixon, Ceaușescu. Check: the day.'
+        n: '[FRUS 1969–76, XVII, doc. 20](https://history.state.gov/historicaldocuments/frus1969-76v17/d20) (the editorial note, the volume''s p. 52, the book''s n.44: on Aug. 2 Nixon tells Ceausescu that "we would welcome your playing a mediating role between us and China," citing the memorandum of conversation of Aug. 2–3; not the book''s words); [[w.jian-zhou-enlai]], 625 ("During his world tour in summer 1969"). Made public: Check (FRUS XVII''s editorial note, the earliest printing named; its year not on the card). To check: Memorandum of conversation, Nixon and Ceausescu, Aug. 2–3, 1969, Nixon Presidential Materials, NSC Files, Box 1023 (cited by [FRUS 1969–76, XVII, doc. 20](https://history.state.gov/historicaldocuments/frus1969-76v17/d20)). See [[cal.1969-08.china]]. Names: Nixon, Ceaușescu.'
         src:
           c: 4a77af80
           rows:
+            - 'https://history.state.gov/historicaldocuments/frus1969-76v17/d20: ?'
             - 'w.jian-zhou-enlai 625: all'
         tags: [polity:us, polity:romania, name:nixon-richard-m, name:ceausescu-nicolae, vis:only:us+romania, ok:fields-place]
   - cite:

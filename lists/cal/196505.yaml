@@ -1290,6 +1290,21 @@ entries:
     c: 'Hồ Chí Minh signs order no. 47-LCT, the partial mobilization: part of the reserve officers, noncommissioned officers and men, and part of the army''s reservists not yet served, called up. The Government Council to plan it, defense raised as far as needed, the economy kept to the state plan.'
     n: '*Lệnh của Chủ tịch nước Việt Nam Dân chủ Cộng hòa*, no. 47-LCT, Hanoi, May 5, 1965, printed in [[w.lich-su-khang-chien-chong-my]], IV, 379. See [[cal.1965-04-21.vietnam-hanoi]]. Names: Hồ Chí Minh.'
     tags: [polity:drv, name:ho-chi-minh]
+  - id: cal.1965-05-05.china-leadership-4
+    when: May 5
+    date: '1965-05-05'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Péter János, Hungary's Foreign Minister, exchange cables on the sixth anniversary of the China–Hungary treaty of friendship and cooperation.
+    n: '[[w.chen-yi-nianpu]], 1099. Names: Chen Yi, Péter.'
+    tags: [polity:prc, polity:hungary, name:chen-yi, name:peter-janos, ok:fields-place]
+  - id: cal.1965-05-05.china-leadership-5
+    when: May 5
+    date: '1965-05-05'
+    thread: china-leadership
+    also: [south-asia]
+    c: Kirti Nidhi Bista 基尔提·尼迪·比斯塔, Nepal's Foreign Minister, cables Chen Yi 陈毅 on the fifth anniversary of the China–Nepal treaty of peace and friendship.
+    n: '[[w.chen-yi-nianpu]], 1099. Names: Chen Yi.'
+    tags: [polity:prc, polity:nepal, name:chen-yi, ok:fields-place]
   - id: cal.1965-05-06.latin-america
     when: May 6
     date: '1965-05-06'
@@ -1824,13 +1839,15 @@ entries:
   - id: cal.1965-05-07.china-leadership-6
     when: May 7
     date: '1965-05-07'
+    place: shanghai
     thread: china-leadership
     c: Liu Yalou 刘亚楼, member of the Central Committee, vice-minister of defense, commander of the Air Force (the editors' note), dies (the radio, that evening).
-    n: '[[w.yang-shangkun-riji]], II, 596 (May 7, 1965). The words: 晚间休息，听广播，悉刘亚楼同志逝世 (II, 596). Names: Liu Yalou.'
+    n: '[[w.yang-shangkun-riji]], II, 596 (May 7, 1965); [[w.chen-yi-nianpu]], 1099 (May 7, 1965; Liu Yalou dies of illness at Shanghai 上海, aged 55; Chen Yi on the funeral committee). The words: 晚间休息，听广播，悉刘亚楼同志逝世 (II, 596). Names: Liu Yalou.'
     src:
       c: cb2d00ee
       rows:
         - 'w.yang-shangkun-riji II, 596: all'
+        - 'w.chen-yi-nianpu 1099: ?'
     tags: [polity:prc]
   - id: cal.1965-05-07.china-leadership-7
     when: May 7
@@ -2117,6 +2134,13 @@ entries:
       - 1965-05-08T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-08.china-leadership-11
+    when: May 8
+    date: '1965-05-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Václav David, Czechoslovakia's Foreign Minister, on the twentieth anniversary of Czechoslovakia's liberation.
+    n: '[[w.chen-yi-nianpu]], 1099. Names: Chen Yi, David.'
+    tags: [polity:prc, polity:czechoslovakia, name:chen-yi, name:david-vaclav, ok:fields-place]
   - id: cal.1965-05-09.opinion
     when: May 9
     date: '1965-05-09'
@@ -6165,6 +6189,13 @@ entries:
         - 'via x.1965-05-26.prc-embassy-moscow-mfa-secret-report-activities: ?'
         - 'via x.1965-02-15.report-soviet-east-european-department-mfa-foreign: ?'
     tags: [polity:prc, vis:only:prc, name:nasser-gamal-abdel, name:ben-bella-ahmed]
+  - id: cal.1965-05-26.china-leadership-11
+    when: May 26
+    date: '1965-05-26'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Mohammad Yusuf 穆罕默德·优素福, Afghanistan's Prime Minister and Foreign Minister, on Afghanistan's national day.
+    n: '[[w.chen-yi-nianpu]], 1099. Names: Chen Yi, Yusuf.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:yusuf-mohammed, ok:fields-place]
   - id: cal.1965-05-27.desegregation-schools
     when: May 27
     date: '1965-05-27'
@@ -6385,14 +6416,28 @@ entries:
       - 1965-05-27T15:00Z
     time_band: evening
     time_zone: Asia/Jakarta
+  - id: cal.1965-05-27.china-leadership-9
+    when: May 27
+    date: '1965-05-27'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 receives the North Kalimantan 北加里曼丹 delegation led by 赖春.
+    n: '[[w.chen-yi-nianpu]], 1099. The words: 晚上 (1099). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-05-27T11:00Z
+      - 1965-05-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-28.china-leadership
     when: May 28–29
     date: '1965-05-28'
+    time: 1965-05-28T08:20Z
     place: canton
     thread: china-leadership
     also: [indonesia, vietnam, vietnam-hanoi, africa]
     c: 'Zhou and Chen Yi fly to Guangzhou to welcome Subandrio, first deputy premier and foreign minister of Indonesia; three talks through the morning of May 29. On Vietnam: the U.S. rushes in unprepared for war; all its estimates wrong; its "gradual escalation" means one step at a time, the thing most forbidden in war; Taylor and Johnson are extreme pragmatists with no long strategy. On the second Asian-African conference: ten years ago all despised the conference, now all want in; difficult but of high market value; a great struggle ahead, in Asia and Africa and outside the U.N. In the second talk, at the Baiyunshan Hotel: 14 million South Vietnamese dare fight 200,000 Americans, so China, fifty times as many, would fight at least 10 million. Asked about bombing, Zhou repeats the four sentences of Bogor: China starts no war with the U.S.; its word counts, as ten years of talks on Taiwan and Korea show; the whole country is mobilizing; bombing China is war on China, and war has no limit, no air war without a land war.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 732–33 (May 28–29, 1965); [[w.zhou-enlai-waijiao-huodong]], 456 (May 28, 1965; afternoon, by special plane from Peking with Chen Yi to Guangzhou; 6:20 p.m., Baiyunshan Hotel (白云山宾馆), the first talks with Subandrio, with Chen Yi; 10 p.m. to 3:20 a.m., Baiyunshan Hotel, the second talks, Zhou on the Americans'' lack of preparation, "gradual escalation" and Taylor and Johnson as pragmatists); [[w.zhou-enlai-waijiao-huodong]], 457 (May 29, 1965; 9 a.m., Baiyunshan Hotel, the third talks with Subandrio; on the second Asian–African conference (the book''s words: all despised the first, now all want in; difficult but of high market value; a great struggle inside and outside the U.N.)); [[w.zhonghua-renmin-gongheguo-waijiao]], 30 (May 28–29, 1965; Subandrio''s visit, May 28–29; Zhou and Chen Yi''s talks with him); [[w.zhonghua-renmin-gongheguo-waijiao]], 30 (May 28–29, 1965; Zhou''s four points on Vietnam and his remarks on the second Afro-Asian Conference); [[w.77-conversations-between-chinese]], [85–86](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=83) (doc. 11; Guangzhou, May 28, 1965, no hour: Zhou to Subandrio, the U.S. rushing in unprepared, its ''gradual escalation'', Taylor and Johnson as ''extreme pragmatists''; 14 million South Vietnamese facing 200,000 Americans, China fifty times as many; the four-sentence statement of Maowu (Bogor) repeated; 85 n.130, 86 n.131). [[w.khoo-collateral-damage]], 31 n.159 (the four points repeated to Subandrio at Guangzhou, May 28; in the note). Made public: 1993. To check: [[w.zhou-enlai-waijiao-huodong]], 446–450 (cited by [[w.khoo-collateral-damage]], 31 n.159a); [[w.77-conversations-between-chinese]], 88 (cited by [[w.khoo-collateral-damage]], 31 n.159b). Names: Zhou Enlai, Chen Yi, Subandrio.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 732–33 (May 28–29, 1965); [[w.zhou-enlai-waijiao-huodong]], 456 (May 28, 1965; afternoon, by special plane from Peking with Chen Yi to Guangzhou; 6:20 p.m., Baiyunshan Hotel (白云山宾馆), the first talks with Subandrio, with Chen Yi; 10 p.m. to 3:20 a.m., Baiyunshan Hotel, the second talks, Zhou on the Americans'' lack of preparation, "gradual escalation" and Taylor and Johnson as pragmatists); [[w.zhou-enlai-waijiao-huodong]], 457 (May 29, 1965; 9 a.m., Baiyunshan Hotel, the third talks with Subandrio; on the second Asian–African conference (the book''s words: all despised the first, now all want in; difficult but of high market value; a great struggle inside and outside the U.N.)); [[w.zhonghua-renmin-gongheguo-waijiao]], 30 (May 28–29, 1965; Subandrio''s visit, May 28–29; Zhou and Chen Yi''s talks with him); [[w.zhonghua-renmin-gongheguo-waijiao]], 30 (May 28–29, 1965; Zhou''s four points on Vietnam and his remarks on the second Afro-Asian Conference); [[w.77-conversations-between-chinese]], [85–86](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=83) (doc. 11; Guangzhou, May 28, 1965, no hour: Zhou to Subandrio, the U.S. rushing in unprepared, its ''gradual escalation'', Taylor and Johnson as ''extreme pragmatists''; 14 million South Vietnamese facing 200,000 Americans, China fifty times as many; the four-sentence statement of Maowu (Bogor) repeated; 85 n.130, 86 n.131). [[w.khoo-collateral-damage]], 31 n.159 (the four points repeated to Subandrio at Guangzhou, May 28; in the note); [[w.chen-yi-nianpu]], 1099 (May 28, 1965, 4:20 p.m., Chen Yi at the Baiyun 白云 airport, Canton 广州, to welcome Subandrio; the talks with Zhou in the afternoon and again in the evening). Made public: 1993. To check: [[w.zhou-enlai-waijiao-huodong]], 446–450 (cited by [[w.khoo-collateral-damage]], 31 n.159a); [[w.77-conversations-between-chinese]], 88 (cited by [[w.khoo-collateral-damage]], 31 n.159b). The time is the first day''s. Names: Zhou Enlai, Chen Yi, Subandrio.'
     src:
       c: b456a058
       rows:
@@ -6402,7 +6447,9 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao 30: A'
         - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=83: C-F, J-M'
         - 'w.khoo-collateral-damage 31 n.159: ?'
+        - 'w.chen-yi-nianpu 1099: ?'
     tags: [name:zhou-enlai, name:chen-yi, name:subandrio, polity:prc, polity:indonesia, vis:only:prc+indonesia]
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-28.china-leadership-2
     when: May 28
     date: '1965-05-28'
@@ -6410,11 +6457,12 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou gives a banquet in Guangzhou for Subandrio.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 456 (May 28, 1965; evening; Guangzhou). Names: Zhou Enlai, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 456 (May 28, 1965; evening; Guangzhou); [[w.chen-yi-nianpu]], 1099 (May 28, 1965, evening; Chen Yi gives the banquet with Zhou). Names: Zhou Enlai, Subandrio.'
     src:
       c: 58593ae0
       rows:
         - 'w.zhou-enlai-waijiao-huodong 456: all'
+        - 'w.chen-yi-nianpu 1099: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio]
     time_range:
       - 1965-05-28T11:00Z
@@ -6427,11 +6475,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: 'Chen Yi, to Carol of *Le Nouvel Observateur*: the Vietnamese people can drive out the U.S. aggressors by their own strength, and the U.S. cannot escape defeat whatever tricks it uses. China firmly opposes the U.S. peace-talk fraud and firmly supports the stand of the Vietnamese government and the National Liberation Front: restore the 1954 Geneva agreements, withdraw U.S. aggressor forces from the South, accept the Front as the sole legitimate representative of the people of the South, leave the South''s internal affairs to its people, and leave Vietnam''s peaceful reunification to the Vietnamese.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 30 (May 28, 1965). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 30 (May 28, 1965); [[w.chen-yi-nianpu]], 1100–1101 (May 1965, the month not dated; Chen Yi''s answers to K. S. Karol 卡罗尔 of *Le Nouvel Observateur*, on Vietnam and on the Sino-Soviet polemic). Names: Chen Yi.'
     src:
       c: 49dd1ffe
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 30: all'
+        - 'w.chen-yi-nianpu 1100–1101: ?'
     tags: [polity:prc, polity:drv, polity:nlf, polity:fr, name:chen-yi]
   - id: cal.1965-05-28.china-leadership-3
     when: May 28
@@ -6657,25 +6706,28 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Zhou, with Deng Xiaoping, He Long and Chen Yi, receives the Chinese table tennis team for the 28th World Championships and other leading athletes in Beijing, and urges them to keep on: study Mao Zedong Thought and the army, raise thought and skill.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 733 (May 29, 1965). Names: Zhou Enlai, Deng Xiaoping, He Long, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 733 (May 29, 1965); [[w.chen-yi-nianpu]], 1099 (May 29, 1965, evening; Chen Yi with Zhou, Deng Xiaoping, He Long and others). Names: Zhou Enlai, Deng Xiaoping, He Long, Chen Yi.'
     tags: [name:zhou-enlai, name:deng-xiaoping, name:he-long, name:chen-yi, polity:prc]
+    time_range:
+      - 1965-05-29T11:00Z
+      - 1965-05-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-29.china-leadership-3
     when: May 29
     date: '1965-05-29'
+    time: 1965-05-29T02:40Z
     place: canton
     thread: china-leadership
     also: [indonesia]
     c: Zhou, with Chen Yi and Vice Premier Tao Zhu, sees off Subandrio at the Guangzhou airport.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 457 (May 29, 1965; morning; Guangzhou airport). Names: Zhou Enlai, Chen Yi, Tao Zhu, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 457 (May 29, 1965; morning; Guangzhou airport); [[w.chen-yi-nianpu]], 1099 (May 29, 1965, 10:40 a.m.; Chen Yi at the Baiyun airport). Names: Zhou Enlai, Chen Yi, Tao Zhu, Subandrio.'
     src:
       c: 96d6a1d0
       rows:
         - 'w.zhou-enlai-waijiao-huodong 457: all'
+        - 'w.chen-yi-nianpu 1099: ?'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi, name:tao-zhu, name:subandrio]
-    time_range:
-      - 1965-05-28T22:00Z
-      - 1965-05-29T04:00Z
-    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1965-05-29.china-leadership-4
     when: May 29
@@ -6847,12 +6899,13 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou, with Zhu De, Deng Yingchao and Kang Keqing, receives Arudji Kartawinata, chairman of the Gotong Royong parliament of Indonesia, and his wife.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 457 (May 30, 1965; evening; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 31 (May 29–June 12, 1965; Arudji Kartawinata''s visit, May 29 to June 12; Mao, Liu Shaoqi, Zhu De, Zhou and Song Qingling receive him; Mao, on the second Afro-Asian conference: not to invite the U.N. Secretary-General, the Latin Americans as full members or the Soviet Union). Names: Zhou Enlai, Zhu De.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 457 (May 30, 1965; evening; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 31 (May 29–June 12, 1965; Arudji Kartawinata''s visit, May 29 to June 12; Mao, Liu Shaoqi, Zhu De, Zhou and Song Qingling receive him; Mao, on the second Afro-Asian conference: not to invite the U.N. Secretary-General, the Latin Americans as full members or the Soviet Union); [[w.chen-yi-nianpu]], 1100 (May 30, 1965, evening; Chen Yi at the banquet of Zhu De 朱德 and his wife Kang Keqing 康克清 for Arudji Kartawinata and his wife). Names: Zhou Enlai, Zhu De.'
     src:
       c: 91b7b87e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 457: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 31: all'
+        - 'w.chen-yi-nianpu 1100: ?'
     tags: [polity:prc, name:zhou-enlai, name:zhu-de]
     time_range:
       - 1965-05-30T11:00Z
@@ -6957,6 +7010,26 @@ entries:
       rows:
         - 'https://digitalarchive.umd.edu/document/121766: all'
     tags: [polity:hungary, polity:prc, polity:dprk, vis:only:hungary, ok:fields-place]
+  - id: cal.1965-05-30.china-leadership-9
+    when: May 30
+    date: '1965-05-30'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Dugersuren 曼·杜格苏伦, Mongolia's Foreign Minister, exchange cables on the fifth anniversary of the China–Mongolia treaty of friendship and mutual assistance.
+    n: '[[w.chen-yi-nianpu]], 1099. Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi, ok:fields-place]
+  - id: cal.1965-05-30.china-leadership-10
+    when: May 30
+    date: '1965-05-30'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 at the station to welcome Arudji Kartawinata 阿鲁季·卡塔威纳塔, chairman of Indonesia's Gotong Royong parliament, and his wife.
+    n: '[[w.chen-yi-nianpu]], 1099. The words: 中午 (1099). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-05-30T04:00Z
+      - 1965-05-30T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-31.europe-and-the-alliance
     when: May 31–June 1
     date: '1965-05-31'
@@ -6979,7 +7052,7 @@ entries:
     thread: vietnam-diplomacy
     also: [china]
     c: 'Peking. Chen Yi calls in the British chargé d''affaires and asks that London pass four points to Washington: China will not provoke war with the United States; what China says counts; China is prepared; if the United States bombs China, that means war, with no limits. China supports Vietnam unconditionally, but will take direct part only if the war reaches Chinese territory. The same message, Chen Yi says, Zhou Enlai gave Ayub Khan, whose visit to Washington was put off.'
-    n: '[FRUS 1964–68, II, doc. 321](https://history.state.gov/historicaldocuments/frus1964-68v02/d321) (editorial note). [[w.jian-maos-china-and-the]], 217–18 (by Hopson''s telegram to the Foreign Office, No. 720); [[w.zhai-china-and-the-vietnam]], 138 (by FRUS''s editorial note; Zhou''s message to Ayub); [[w.77-conversations-between-chinese]], 77–81 (Zhou Enlai with Ayub Khan, doc. 6, headed Karachi, Apr. 2, 1965: three points, not four); [[w.jian-zhou-enlai]], 523–524 (May 31: Chen Yi summons Hopson, the British chargé: Zhou had asked Ayub Khan to carry a message on Vietnam, likely not delivered; Peking would "be grateful" if London passed the three points while "pressuring the Americans to withdraw from South Vietnam"); [[w.khoo-collateral-damage]], 31 (Chen Yi to the British chargé, Donald Charles Hopson, May 31: the four points, war "without limits" if China is bombed; Ayub Khan''s visit to Washington canceled). Check: the transcript (77 Conversations, doc. 6, 77) is headed Karachi, Apr. 2, 1965, and gives three points; Chen cites it at 79–85, the Wilson Center''s copy prints it at 76–81. Check: [[w.jian-zhou-enlai]], 524 n.21a, dates the Chinese record of Chen Yi''s conversation with Hopson May 30, 1965; its text and Hopson''s telegrams, May 31. To check: [[w.hershberg-reading-and-warning-the]]; [[w.hershberg-informing-the-enemy]]; Peking (Hopson) to the Foreign Office, No. 720, May 31, 1965, FO 371/180996, Public Record Office (cited by [[w.jian-maos-china-and-the]], 217 n.58); the transcript of Zhou Enlai''s conversation with Ayub Khan, Apr. 2, 1965, in [[w.77-conversations-between-chinese]], 79–85 (cited by [[w.jian-maos-china-and-the]], 217 n.55, for Zhou''s message); Vice Premier Chen Yi''s conversation with British chargé d''affaires Hopson, May 30, 1965, 110-01254-03 (printed "11001254-03"), Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 524 n.21a); Chinese Foreign Ministry''s circular about Vice Premier Chen Yi''s conversation with British chargé d''affaires Hopson, June 20, 1965, 110-01254-01, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 524 n.21b); Peking (Mr. Hopson) to FO, No. 721, Priority/Confidential, May 31, 1965, FO 371/180996 (cited by [[w.jian-zhou-enlai]], 524 n.21c). Names: Chen Yi, Zhou Enlai, Ayub Khan. Check: FRUS has Zhou and Ayub meet in Peking, Apr. 2 (II, doc. 321), or in Ayub''s March visit there (XXX, doc. 88 n. 4); Chen, 217, at Karachi, Apr. 2; Zhai, 138, "during his visit to Pakistan on April 2."'
+    n: '[FRUS 1964–68, II, doc. 321](https://history.state.gov/historicaldocuments/frus1964-68v02/d321) (editorial note). [[w.jian-maos-china-and-the]], 217–18 (by Hopson''s telegram to the Foreign Office, No. 720); [[w.zhai-china-and-the-vietnam]], 138 (by FRUS''s editorial note; Zhou''s message to Ayub); [[w.77-conversations-between-chinese]], 77–81 (Zhou Enlai with Ayub Khan, doc. 6, headed Karachi, Apr. 2, 1965: three points, not four); [[w.jian-zhou-enlai]], 523–524 (May 31: Chen Yi summons Hopson, the British chargé: Zhou had asked Ayub Khan to carry a message on Vietnam, likely not delivered; Peking would "be grateful" if London passed the three points while "pressuring the Americans to withdraw from South Vietnam"); [[w.khoo-collateral-damage]], 31 (Chen Yi to the British chargé, Donald Charles Hopson, May 31: the four points, war "without limits" if China is bombed; Ayub Khan''s visit to Washington canceled); [[w.chen-yi-nianpu]], 1100 (May 31, 1965, morning; Britain''s new chargé d''affaires, Hopson 霍普森, calls on Chen Yi (拜会); the nianpu gives no matter). Check: the transcript (77 Conversations, doc. 6, 77) is headed Karachi, Apr. 2, 1965, and gives three points; Chen cites it at 79–85, the Wilson Center''s copy prints it at 76–81. Check: [[w.jian-zhou-enlai]], 524 n.21a, dates the Chinese record of Chen Yi''s conversation with Hopson May 30, 1965; its text and Hopson''s telegrams, May 31. To check: [[w.hershberg-reading-and-warning-the]]; [[w.hershberg-informing-the-enemy]]; Peking (Hopson) to the Foreign Office, No. 720, May 31, 1965, FO 371/180996, Public Record Office (cited by [[w.jian-maos-china-and-the]], 217 n.58); the transcript of Zhou Enlai''s conversation with Ayub Khan, Apr. 2, 1965, in [[w.77-conversations-between-chinese]], 79–85 (cited by [[w.jian-maos-china-and-the]], 217 n.55, for Zhou''s message); Vice Premier Chen Yi''s conversation with British chargé d''affaires Hopson, May 30, 1965, 110-01254-03 (printed "11001254-03"), Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 524 n.21a); Chinese Foreign Ministry''s circular about Vice Premier Chen Yi''s conversation with British chargé d''affaires Hopson, June 20, 1965, 110-01254-01, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 524 n.21b); Peking (Mr. Hopson) to FO, No. 721, Priority/Confidential, May 31, 1965, FO 371/180996 (cited by [[w.jian-zhou-enlai]], 524 n.21c). Names: Chen Yi, Zhou Enlai, Ayub Khan. Check: FRUS has Zhou and Ayub meet in Peking, Apr. 2 (II, doc. 321), or in Ayub''s March visit there (XXX, doc. 88 n. 4); Chen, 217, at Karachi, Apr. 2; Zhai, 138, "during his visit to Pakistan on April 2."'
     src:
       c: 7326e053
       rows:
@@ -6995,6 +7068,7 @@ entries:
         - 'via x.1965-06-20.foreign-ministry-circular-chen-yi-hopson: ?'
         - 'via x.1965-05-31.peking-hopson-to-fo-no-721: ?'
         - 'w.khoo-collateral-damage 31: ?'
+        - 'w.chen-yi-nianpu 1100: ?'
     tags: [name:chen-yi, name:zhou-enlai, name:ayub-khan-mohammad]
     variants:
       - unit: G
@@ -7013,12 +7087,15 @@ entries:
         witness: w.jian-maos-china-and-the
         reads: '"Zhou Enlai, visiting Karachi, Pakistan," Apr. 2'
         at: '217'
+      - unit: B
+        witness: w.chen-yi-nianpu
+        reads: Britain's new chargé d'affaires, Hopson, calls on Chen Yi on the morning of May 31 (a call on him, not a summons)
+        at: '1100'
     time_range:
-      - 1965-05-31T01:00Z
-      - 1965-05-31T09:00Z
-    time_band: workday daytime
+      - 1965-05-30T22:00Z
+      - 1965-05-31T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
-    range_basis: kind
   - id: cal.1965-05.latin-america-dominican-republic
     when: May
     date: 1965-05
@@ -7285,11 +7362,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou and Chen Yi hold a social gathering with the envoys of states in China, toasting the growing friendship of the Chinese people and the peoples of all countries.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 459 (May 31, 1965; evening; Beijing). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 459 (May 31, 1965; evening; Beijing); [[w.chen-yi-nianpu]], 1100 (May 31, 1965, evening; Chen Yi with Zhou and the heads of the departments concerned; he toasts). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 050c9e97
       rows:
         - 'w.zhou-enlai-waijiao-huodong 459: all'
+        - 'w.chen-yi-nianpu 1100: ?'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi]
     time_range:
       - 1965-05-31T11:00Z
@@ -7457,3 +7535,46 @@ entries:
       - 1965-05-31T11:00Z
     time_band: afternoon
     time_zone: Asia/Jakarta
+  - id: cal.1965-05.china-leadership-7
+    when: May, early
+    date: 1965-05
+    at: before 1965-05-01
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 goes to Yuquan Shan 玉泉山, in Peking's 北京 western suburbs, to rest and recover from illness.
+    n: '[[w.chen-yi-nianpu]], 1099. Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, vis:only:prc]
+  - id: cal.1965-05-31.china-leadership-8
+    when: May 31
+    date: '1965-05-31'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Lapin 拉宾, the Soviet Union's new Ambassador, calls on Chen Yi 陈毅.
+    n: '[[w.chen-yi-nianpu]], 1100. The words: 上午 (1100). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-05-30T22:00Z
+      - 1965-05-31T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-31.china-leadership-9
+    when: May 31
+    date: '1965-05-31'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the reception of 达赉, Mongolia's chargé d'affaires, for the fifth anniversary of the China–Mongolia treaty of friendship and mutual assistance, wishing the friendship and cooperation of the two peoples further growth.
+    n: '[[w.chen-yi-nianpu]], 1100. The words: 下午 (1100). Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-05-31T04:00Z
+      - 1965-05-31T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05.china-leadership-8
+    when: May
+    date: 1965-05
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 writes the poem "For President Hồ Chí Minh's birthday" 《为胡志明主席祝寿》.
+    n: '[[w.chen-yi-nianpu]], 1101. Names: Chen Yi, Hồ Chí Minh.'
+    tags: [polity:prc, name:chen-yi, name:ho-chi-minh, ok:fields-place]
