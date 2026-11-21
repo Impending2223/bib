@@ -1060,3 +1060,7 @@ Schlesinger, Journals, 252 (the entry of Aug. 14). Check: the day."
 ## Nov. 21, 2026, about 1 p.m. (Pacific)
 
 "Haven't I given you Nongye jitihua zhongyao wenjian huibian (1981)?"
+
+## Nov. 21, 2026, about 1:05 p.m. (Pacific)
+
+"Could the Names and Threads entries also get the full footnote treatment?"
