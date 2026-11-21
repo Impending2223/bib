@@ -627,13 +627,15 @@ ops:
       when: '1962'
       date: '1962'
       thread: china
-      c: 'As an East German report has it: China''s cotton and textiles sent to Hong Kong rise from HK$217.3 million in 1959 to HK$287 million in 1960.'
-      n: '[[w.dikotter-maos-great-famine]], 110. To check: MfAA, Berlin, 1962, A6792, p. 137 (cited by [[w.dikotter-maos-great-famine]], 110 n.13). Check: the day.'
+      c: 'As an East German report has it: China''s cotton and textiles sent to Hong Kong rise from HK$217.3 million in 1959 to HK$287 million in 1960; its cotton cloth shipped to the Soviet Union, 1 million metres in 1957, 2 million in 1959, 149 million in 1960.'
+      n: '[[w.dikotter-maos-great-famine]], 110 (Hong Kong); [[w.dikotter-maos-great-famine]], 139 (the Soviet Union). To check: MfAA, Berlin, 1962, A6792, p. 137 (cited by [[w.dikotter-maos-great-famine]], 110 n.13); MfAA, Berlin, 1962, A6792, p. 136 (cited by [[w.dikotter-maos-great-famine]], 139 n.42). Check: the day.'
       src:
-        c: 53a5a1ea
+        c: c6cc7c6c
         rows:
-        - 'w.dikotter-maos-great-famine 110: all'
-        - 'via w.dikotter-maos-great-famine 110 n.13: all'
+        - 'w.dikotter-maos-great-famine 110: A'
+        - 'w.dikotter-maos-great-famine 139: B'
+        - 'via w.dikotter-maos-great-famine 110 n.13: A'
+        - 'via w.dikotter-maos-great-famine 139 n.42: B'
       tags:
       - form:state
       - polity:prc
@@ -670,3 +672,489 @@ ops:
         title: Estimates
         text:
         - 'Dikötter: the moratorium on the trade deficit worked as an unplanned loan, China receiving more economic aid from the Soviet Union than any country had received in a single year ([[w.dikotter-maos-great-famine]], 106, citing the Bank for Foreign Trade''s report of June 2, 1961, 106 n.13).'
+- add:
+    entry:
+      id: cal.1965-05.china-leadership-9
+      when: May
+      date: 1965-05
+      thread: china-leadership
+      also:
+      - china
+      place: hunan
+      c: 'As the Hunan 湖南 Office for Statistics reckons it, going back over the commune and county records: grain procured in the province 2.39 million tonnes in 1956 (23.1 per cent of the crop), 2.74 in 1957 (24.2), 3.50 in 1958 (28.5), 3.89 in 1959 (35.1), 2.50 in 1960 (31.2), 2.21 in 1961 (27.6), of crops of 10.36, 11.32, 12.25, 11.09, 8.02 and 8 million tonnes.'
+      n: '[[w.dikotter-maos-great-famine]], 130–131 (Table 5; the Bureau for Grain''s figures of 1962 lower, 20.2 to 26.9 per cent). Made public: 2010. To check: Hunan Provincial Archives, May 1965, 187-1-1432, pp. 3–8 (cited by [[w.dikotter-maos-great-famine]], 130 n.table-5a); Hunan Provincial Archives, June 30, 1961, 194-1-701, pp. 3–4 (the crop figures) (cited by [[w.dikotter-maos-great-famine]], 130 n.table-5b). Check: the day.'
+      src:
+        c: a3b5a2b2
+        rows:
+        - 'w.dikotter-maos-great-famine 130-131: all'
+        - 'via w.dikotter-maos-great-famine 130 n.table-5a: all'
+        - 'via w.dikotter-maos-great-famine 130 n.table-5b: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+      gloss:
+        title: Estimates
+        text:
+        - 'Dikötter: the gap of 4 to 10 per cent between the Bureau for Grain''s figures and the Office''s is the procured grain that escaped the state''s gaze ([[w.dikotter-maos-great-famine]], 130–131).'
+- add:
+    entry:
+      id: cal.1962.china-leadership-60
+      when: '1962'
+      date: '1962'
+      thread: china-leadership
+      also:
+      - china
+      c: 'As the Yunnan 雲南 Office for Statistics'' notes of a national conference of the Bureau for Statistics have it: grain procured nationally 66.32 million tonnes in 1958, 72.23 in 1959, 50.35 in 1960; cotton procured 1.64 million tonnes in 1957, 2.1 million in 1958, half that in 1960, 82 to 90 per cent of the cotton crop going to the state.'
+      n: '[[w.dikotter-maos-great-famine]], 132–133, 139 (Table 6; the cotton, 139). Made public: 2010. To check: Yunnan Provincial Archives, 1962, 81-7-86, p. 13 (cited by [[w.dikotter-maos-great-famine]], 132 n.table-6c, 139 n.44). Check: the day.'
+      src:
+        c: eecb7944
+        rows:
+        - 'w.dikotter-maos-great-famine 132-133, 139: all'
+        - 'via w.dikotter-maos-great-famine 132 n.table-6c: all'
+        - 'via w.dikotter-maos-great-famine 139 n.44: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+      gloss:
+        title: Estimates
+        text:
+        - 'Dikötter: procurement nationally 30 to 37 per cent of the crop, against the usual 20 to 25 per cent up to 1958 ([[w.dikotter-maos-great-famine]], 133).'
+- add:
+    entry:
+      id: cal.1962.china-leadership-61
+      when: '1962'
+      date: '1962'
+      thread: china-leadership
+      also:
+      - china
+      place: zunyi
+      c: 'As a Guizhou 貴州 file has it: grain procured in Zunyi 遵義 county 26.5 per cent of the crop in 1957, 46.3 per cent in 1958, 47 in 1959, 54.7 in 1960; other counties in the file up to 80 per cent.'
+      n: '[[w.dikotter-maos-great-famine]], 131 n.7. Made public: 2010. To check: Guizhou Provincial Archives, 1962, 90-1-2708, printed page 7 (cited by [[w.dikotter-maos-great-famine]], 131 n.7b). See [[cal.1962.china-leadership-50]]. Check: the day.'
+      src:
+        c: e70b21d0
+        rows:
+        - 'w.dikotter-maos-great-famine 131 n.7: all'
+        - 'via w.dikotter-maos-great-famine 131 n.7b: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-06-15.china-leadership-10
+      when: June 15
+      date: '1960-06-15'
+      thread: china-leadership
+      also:
+      - china
+      c: 'A State Council report, issued by the Center as Zhongfa [60] 547: the grain taken out of the procurements to feed Beijing, Shanghai, Tianjin and Liaoning 遼寧 and to keep up exports rises every quarter, from 1.6 million tonnes in the third quarter of 1956 to 1.8 million in that of 1957, 2.3 million in 1958, 2.5 million in 1959, and a high of 3 million tonnes in three months of 1960.'
+      n: '[[w.dikotter-maos-great-famine]], 133–134. Made public: 2010. To check: Report from the State Council, June 15, 1960, Zhongfa [60] 547, Gansu Provincial Archives, 91-18-160, pp. 208–12 (cited by [[w.dikotter-maos-great-famine]], 134 n.10). Check: which quarter of 1960 the report means; the book gives "three months in 1960."'
+      src:
+        c: 05cc65cb
+        rows:
+        - 'w.dikotter-maos-great-famine 133-134: all'
+        - 'via w.dikotter-maos-great-famine 134 n.10: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-04-04.china-leadership-9
+      when: Apr. 4
+      date: '1961-04-04'
+      thread: china-leadership
+      also:
+      - china
+      c: 'As a Shanghai 上海 file has it: the state''s procurement prices differ by province; early in 1961 maize fetches 124 yuan a tonne in Guangxi 廣西 and 152 in Guangdong 广东 across the border, rice 124 yuan in Guangxi and 180 in Shanghai.'
+      n: '[[w.dikotter-maos-great-famine]], 135. Made public: 2010. To check: Shanghai Municipal Archives, Apr. 4, 1961, B6-2-392, pp. 20 ff. (cited by [[w.dikotter-maos-great-famine]], 135 n.14).'
+      src:
+        c: 81cfc27b
+        rows:
+        - 'w.dikotter-maos-great-famine 135: all'
+        - 'via w.dikotter-maos-great-famine 135 n.14: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964.china-leadership-37
+      when: '1964'
+      date: '1964'
+      thread: china-leadership
+      also:
+      - china
+      place: hunan
+      c: 'As a Hunan 湖南 file has it: the province''s land under grain falls from some 5.78 million hectares in 1958 to 4.92 million in 1962, by 15 per cent.'
+      n: '[[w.dikotter-maos-great-famine]], 136. Made public: 2010. To check: Hunan Provincial Archives, 1964, 187-1-1355, p. 64 (cited by [[w.dikotter-maos-great-famine]], 136 n.22). Check: the day.'
+      src:
+        c: d44f7947
+        rows:
+        - 'w.dikotter-maos-great-famine 136: all'
+        - 'via w.dikotter-maos-great-famine 136 n.22: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-13.china-leadership-9
+      when: Jan. 13
+      date: '1961-01-13'
+      thread: china-leadership
+      also:
+      - china
+      place: wuhan
+      c: 'As a Hubei 湖北 report has it: in the Wuhan 武汉 region just over half of the 37,000 hectares available are tilled.'
+      n: '[[w.dikotter-maos-great-famine]], 136. Made public: 2010. To check: Hubei Provincial Archives, Jan. 13, 1961, SZ18-2-200, p. 27 (cited by [[w.dikotter-maos-great-famine]], 136 n.24).'
+      src:
+        c: 7b9cc83b
+        rows:
+        - 'w.dikotter-maos-great-famine 136: all'
+        - 'via w.dikotter-maos-great-famine 136 n.24: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-09-20.china-leadership-11
+      when: Sept. 20
+      date: '1961-09-20'
+      thread: china-leadership
+      also:
+      - china
+      place: yunnan
+      c: 'As a Yunnan 雲南 report has it: some 240,000 tonnes of grain spoiled by vermin in the province in the first half of 1961.'
+      n: '[[w.dikotter-maos-great-famine]], 137. Made public: 2010. To check: Yunnan Provincial Archives, Sept. 20, 1961, 120-1-193, pp. 85–92 (cited by [[w.dikotter-maos-great-famine]], 137 n.29). See [[cal.1961.china-leadership-58]].'
+      src:
+        c: a404ce0c
+        rows:
+        - 'w.dikotter-maos-great-famine 137: all'
+        - 'via w.dikotter-maos-great-famine 137 n.29: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-20.china-leadership-6
+      when: Feb. 20
+      date: '1961-02-20'
+      thread: china-leadership
+      also:
+      - china
+      c: 'A document of the Center, Zhongfa [61] 145: in Zhucheng 諸城 county, Shandong 山東, each kilo of grain crawls with hundreds of insects; in the Anshan 鞍山 region, Liaoning 遼寧, 400 tonnes of grain a month were lost in 1960 to theft and corruption.'
+      n: '[[w.dikotter-maos-great-famine]], 137–138. Made public: 2010. To check: Zhongfa [61] 145, Feb. 20, 1961, Gansu Provincial Archives, 91-18-211, pp. 91–2 (cited by [[w.dikotter-maos-great-famine]], 137 n.30, 138 n.36).'
+      src:
+        c: 9a3d704e
+        rows:
+        - 'w.dikotter-maos-great-famine 137-138: all'
+        - 'via w.dikotter-maos-great-famine 137 n.30: all'
+        - 'via w.dikotter-maos-great-famine 138 n.36: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-11-15.china-leadership-12
+      when: Nov. 15
+      date: '1960-11-15'
+      thread: china-leadership
+      also:
+      - china
+      place: hunan
+      c: 'As a Hunan 湖南 report has it: a fifth of the grain in the province''s state granaries infested with insects or spoiled by water; in Changsha 長沙 over half of all stored grain contaminated.'
+      n: '[[w.dikotter-maos-great-famine]], 137. Made public: 2010. To check: Hunan Provincial Archives, Nov. 15, 1960, 163-1-1082, p. 106 (cited by [[w.dikotter-maos-great-famine]], 137 n.32).'
+      src:
+        c: 6aa418d2
+        rows:
+        - 'w.dikotter-maos-great-famine 137: all'
+        - 'via w.dikotter-maos-great-famine 137 n.32: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-06.china-leadership-9
+      when: Feb. 6
+      date: '1961-02-06'
+      thread: china-leadership
+      also:
+      - china
+      place: yunnan
+      c: 'As a Yunnan 雲南 report has it: the temperature in some of the province''s granaries reaches 39 to 43 degrees Celsius.'
+      n: '[[w.dikotter-maos-great-famine]], 137. Made public: 2010. To check: Yunnan Provincial Archives, Feb. 6, 1961, 120-1-193, pp. 108–9 (cited by [[w.dikotter-maos-great-famine]], 137 n.33).'
+      src:
+        c: fe850b2f
+        rows:
+        - 'w.dikotter-maos-great-famine 137: all'
+        - 'via w.dikotter-maos-great-famine 137 n.33: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-11-29.china-leadership-11
+      when: Nov. 29
+      date: '1960-11-29'
+      thread: china-leadership
+      also:
+      - china
+      place: yanqing
+      c: 'As a Beijing report has it: well over 50 tonnes of sweet potatoes rot in a dozen villages of Yanqing 延慶 county, a further 6 tonnes in storage across the Haidian 海淀 district.'
+      n: '[[w.dikotter-maos-great-famine]], 137. Made public: 2010. To check: Beijing Municipal Archives, Nov. 29 and Dec. 10, 1960, 2-12-262, pp. 21–3 (cited by [[w.dikotter-maos-great-famine]], 137 n.34). Check: the day; the note gives two days, Nov. 29 and Dec. 10, 1960.'
+      src:
+        c: dfce6488
+        rows:
+        - 'w.dikotter-maos-great-famine 137: all'
+        - 'via w.dikotter-maos-great-famine 137 n.34: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-12-14.china-leadership-6
+      when: Dec. 14
+      date: '1960-12-14'
+      thread: china-leadership
+      also:
+      - china
+      place: kunming
+      c: 'As a Yunnan 雲南 report has it: in Kunming 昆明 some 15 tonnes of grain are lost each month on trains and lorries.'
+      n: '[[w.dikotter-maos-great-famine]], 138. Made public: 2010. To check: Yunnan Provincial Archives, Dec. 14, 1960, 120-1-193, pp. 112–15 (cited by [[w.dikotter-maos-great-famine]], 138 n.37). See [[cal.1961.china-leadership-58]].'
+      src:
+        c: '11777164'
+        rows:
+        - 'w.dikotter-maos-great-famine 138: all'
+        - 'via w.dikotter-maos-great-famine 138 n.37: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-15.china-leadership-10
+      when: Mar. 15
+      date: '1961-03-15'
+      thread: china-leadership
+      also:
+      - china
+      place: guangdong
+      c: 'As a Guangdong 广东 report has it: 10 per cent of the sprouts rot, the seed weak; in some communes of Zhongshan 中山 county half the fields wilt.'
+      n: '[[w.dikotter-maos-great-famine]], 138. Made public: 2010. To check: Guangdong Provincial Archives, Mar. 15, 1961, 217-1-119, p. 78 (cited by [[w.dikotter-maos-great-famine]], 138 n.41).'
+      src:
+        c: efb9d5a1
+        rows:
+        - 'w.dikotter-maos-great-famine 138: all'
+        - 'via w.dikotter-maos-great-famine 138 n.41: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962.china-leadership-62
+      when: '1962'
+      date: '1962'
+      thread: china-leadership
+      also:
+      - china
+      place: hunan
+      c: 'As a Hunan 湖南 file has it: cotton output 21,557 tonnes in 1957, 23,681 in 1958, 32,500 in 1959, 21,000 in 1960, 15,130 in 1961; procured 17,235 (80 per cent), 15,330 (64.7), 28,410 (87.4), 19,950 (95) and 15,530 (102.6, more than the crop, the teams'' and communes'' reserves swept up). Pigs in the province 10.9 million in 1957, 12.7 in 1958, 7.95 in 1959, 4.4 in 1960, 3.4 in 1961.'
+      n: '[[w.dikotter-maos-great-famine]], 139–141 (Tables 7 and 8). Made public: 2010. To check: Hunan Provincial Archives, 1962, 187-1-1021, p. 33 (Table 7) and p. 59 (Table 8) (cited by [[w.dikotter-maos-great-famine]], 139 n.table-7a, 141 n.table-8); Hunan Provincial Archives, March 1964, 187-1-1154, pp. 80 and 97 (cited by [[w.dikotter-maos-great-famine]], 139 n.table-7b). Check: the day.'
+      src:
+        c: 4e36df39
+        rows:
+        - 'w.dikotter-maos-great-famine 139-141: all'
+        - 'via w.dikotter-maos-great-famine 139 n.table-7a: all'
+        - 'via w.dikotter-maos-great-famine 141 n.table-8: all'
+        - 'via w.dikotter-maos-great-famine 139 n.table-7b: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962.china-leadership-63
+      when: '1962'
+      date: '1962'
+      thread: china-leadership
+      also:
+      - china
+      place: hebei
+      c: 'As a Hebei 河北 file has it: the province has 3.8 million pigs in 1961, half of what it had five years before; a million cattle gone.'
+      n: '[[w.dikotter-maos-great-famine]], 141. Made public: 2010. To check: Hebei Provincial Archives, 1962, 979-3-870, pp. 1–30 (cited by [[w.dikotter-maos-great-famine]], 141 n.50). Check: the day.'
+      src:
+        c: 6908bead
+        rows:
+        - 'w.dikotter-maos-great-famine 141: all'
+        - 'via w.dikotter-maos-great-famine 141 n.50: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-10-12.china-leadership-9
+      when: Oct. 12
+      date: '1961-10-12'
+      thread: china-leadership
+      also:
+      - china
+      place: guangdong
+      c: 'As a Guangdong 广东 report has it: quarantine broken down, rinderpest and swine fever spread; chicken flu common.'
+      n: '[[w.dikotter-maos-great-famine]], 141. Made public: 2010. To check: Guangdong Provincial Archives, Oct. 12, 1961, 235-1-259, p. 13 (cited by [[w.dikotter-maos-great-famine]], 141 n.53).'
+      src:
+        c: 213e1828
+        rows:
+        - 'w.dikotter-maos-great-famine 141: all'
+        - 'via w.dikotter-maos-great-famine 141 n.53: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-15.china-leadership-8
+      when: Jan. 15
+      date: '1961-01-15'
+      thread: china-leadership
+      also:
+      - china
+      place: hunan
+      c: 'As a Hunan 湖南 report has it: 600,000 pigs die in the province in December 1960 alone.'
+      n: '[[w.dikotter-maos-great-famine]], 141. Made public: 2010. To check: Hunan Provincial Archives, Jan. 15, 1961, 146-1-580, p. 13 (cited by [[w.dikotter-maos-great-famine]], 141 n.55). See [[cal.1961-01-15.china]].'
+      src:
+        c: fc595b39
+        rows:
+        - 'w.dikotter-maos-great-famine 141: all'
+        - 'via w.dikotter-maos-great-famine 141 n.55: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-05-20.china-leadership-6
+      when: May 20
+      date: '1961-05-20'
+      thread: china-leadership
+      also:
+      - china
+      place: guangdong
+      c: 'As a Guangdong 广东 report has it: in Dongguan 東莞 county the death rate of pigs, just over 9 per cent in 1956, a quarter in 1959, well over half in 1960; a million pigs left, of more than 4.2 million a few years before.'
+      n: '[[w.dikotter-maos-great-famine]], 141–142. Made public: 2010. To check: Guangdong Provincial Archives, May 20, 1961, 217-1-210, pp. 82–7 (cited by [[w.dikotter-maos-great-famine]], 142 n.56).'
+      src:
+        c: 98482f0a
+        rows:
+        - 'w.dikotter-maos-great-famine 141-142: all'
+        - 'via w.dikotter-maos-great-famine 142 n.56: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961.china-leadership-74
+      when: '1961'
+      date: '1961'
+      thread: china-leadership
+      also:
+      - china
+      c: 'As a Shanghai 上海 file has it: in parts of Jiangyin 江陰 county many pigs freeze to death, and quite a few are eaten by larger hogs.'
+      n: '[[w.dikotter-maos-great-famine]], 142. Made public: 2010. To check: Shanghai Municipal Archives, 1961, B181-1-510, pp. 17–20 (cited by [[w.dikotter-maos-great-famine]], 142 n.59). Check: the day.'
+      src:
+        c: 65f1c2cc
+        rows:
+        - 'w.dikotter-maos-great-famine 142: all'
+        - 'via w.dikotter-maos-great-famine 142 n.59: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1962-07-31.china-leadership-10
+      when: July 31
+      date: '1962-07-31'
+      thread: china-leadership
+      also:
+      - china
+      place: peking
+      c: 'As a Beijing report has it: in the Red Star 紅星 commune the death rate of livestock 45 per cent; the hogs, all penned together, eat the piglets.'
+      n: '[[w.dikotter-maos-great-famine]], 142. Made public: 2010. To check: Beijing Municipal Archives, July 31, 1962, 1-9-439, pp. 1–4 (cited by [[w.dikotter-maos-great-famine]], 142 n.60).'
+      src:
+        c: 5c137550
+        rows:
+        - 'w.dikotter-maos-great-famine 142: all'
+        - 'via w.dikotter-maos-great-famine 142 n.60: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961.china-leadership-75
+      when: '1961'
+      date: '1961'
+      thread: china-leadership
+      also:
+      - china
+      place: shanghai
+      c: 'As a Shanghai 上海 file has it: the plan allots each person in Shanghai 4.5 kilos of meat in ration tickets in 1960, against some twenty kilos eaten a head in 1953; much less in fact to be had.'
+      n: '[[w.dikotter-maos-great-famine]], 143. Made public: 2010. To check: Shanghai Municipal Archives, 1961, B29-2-980, p. 143 (cited by [[w.dikotter-maos-great-famine]], 143 n.65). Check: the day.'
+      src:
+        c: cc7fc992
+        rows:
+        - 'w.dikotter-maos-great-famine 143: all'
+        - 'via w.dikotter-maos-great-famine 143 n.65: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-05-17.china-leadership-7
+      when: May 17
+      date: '1961-05-17'
+      thread: china-leadership
+      also:
+      - china
+      c: 'As a Xuancheng 宣城 report has it: a team of fishermen on Chaohu 巢湖 Lake, Anhui 安徽, which caught some 215 tonnes of fish in 1958, hauls no more than 9 tonnes in 1960, boats and nets rotting.'
+      n: '[[w.dikotter-maos-great-famine]], 143. Made public: 2010. To check: Xuancheng, May 17, 1961, 3-1-257, pp. 127–31 (cited by [[w.dikotter-maos-great-famine]], 143 n.68).'
+      src:
+        c: 482fc2b4
+        rows:
+        - 'w.dikotter-maos-great-famine 143: all'
+        - 'via w.dikotter-maos-great-famine 143 n.68: all'
+      tags:
+      - form:state
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- cite:
+    id: cal.1961-07-16.china-leadership-6
+    item: '[[w.dikotter-maos-great-famine]], 133 n.9 (an annual 1.68 million tonnes of grain leaves Zhejiang in 1958–61, against 1.2 million in each of the three years before; in 1958 more than half the procured grain handed to Beijing)'
+- cite:
+    id: cal.1961-01-29.china-leadership-5
+    item: '[[w.dikotter-maos-great-famine]], 136 n.23 (some 65,000 hectares of Zhejiang''s cultivated land vanish each year, about a tenth by 1961; the note gives this file, p. 29, and a Zhejiang file of 1961, J116-15-139, p. 1)'
+- cite:
+    id: cal.1961-01-29.china-leadership-5
+    item: '[[w.dikotter-maos-great-famine]], 141 n.54 (tens of thousands of pigs die of hunger in Cixi county in a single winter month; pp. 16–21 of the file)'
+- cite:
+    id: cal.1961-01-29.china-leadership-5
+    item: '[[w.dikotter-maos-great-famine]], 142 n.57 (in some counties of Zhejiang a pig death rate of 600 per cent, six pigs dying for every birth; pp. 16–21)'
+- cite:
+    id: cal.1961-01-29.china-leadership-5
+    item: '[[w.dikotter-maos-great-famine]], 143 n.67 (in Wuxing, Huzhou, one fishing boat in five unseaworthy for want of tung oil; pp. 5 and 16)'

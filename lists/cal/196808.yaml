@@ -5137,6 +5137,18 @@ entries:
         - 'w.khoo-collateral-damage 49: all'
         - 'via x.1968-08-21.hanoi-radio-vna-czechoslovakia: ?'
     tags: [polity:drv, ok:fields-place]
+  - id: cal.1968-08-21.china-leadership
+    when: Aug. 21
+    date: '1968-08-21'
+    thread: china-leadership
+    also: [soviet-union-czechoslovakia]
+    c: Zhou Enlai, on the Soviet invasion of Czechoslovakia, instructs the Foreign Ministry to discuss how China should respond.
+    n: '[[w.jian-zhou-enlai]], 587 ("immediately"). Made public: 1997 ([[w.zhou-enlai-nianpu-1949]], the earliest work the note names; not seen). To check: [[w.jiang-benlian-gei-gongheguo-lingdaoren]], 80 (cited by [[w.jian-zhou-enlai]], 587 n.84a); [[w.zhou-enlai-nianpu-1949]], III, 252–253 (cited by [[w.jian-zhou-enlai]], 587 n.84b). Names: Zhou Enlai. Check: the day: the book has the invasion "on August 20" and Zhou''s instruction "immediately"; the troops crossed the night of Aug. 20–21, Prague time, the morning of Aug. 21 in Peking ([[cal.1968-08-20.soviet-union]]).'
+    src:
+      c: 4924150d
+      rows:
+        - 'w.jian-zhou-enlai 587: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai]
   - id: cal.1968-08-22.soviet-union
     when: Aug. 22
     date: '1968-08-22'
@@ -5325,12 +5337,13 @@ entries:
     thread: china-leadership
     also: [soviet-union, soviet-union-czechoslovakia]
     c: 'Mao, Great Hall, with the Cultural Revolution Group and Chen Yi, Li Xiannian, Xu Xiangqian, Nie Rongzhen, Ye Jianying, on the Soviet occupation of Czechoslovakia: imperialists and revisionists both oppose it; Czechoslovakia depends on Soviet oil, grain and ore; Daqing could be lost to an invader, so the oil of Sichuan and western Hubei to be tried at once (Li Xiannian and Li Fuchun); China sides with peoples.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 22, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 248 (Aug. 22, 1968; the meeting, its attendants and decision to print a report and commentary). Made public: 2013. Names: Mao Zedong, Chen Yi, Li Xiannian, Xu Xiangqian, Nie Rongzhen, Ye Jianying, Li Fuchun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 22, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 248 (Aug. 22, 1968; the meeting, its attendants and decision to print a report and commentary); [[w.jian-zhou-enlai]], 587 (Mao''s meeting with Zhou and other top leaders: the invasion shows Moscow facing "an extremely difficult time"; he fears a Soviet invasion of China; decided: condemn it in the strongest terms and back the "anti-aggression efforts" of Romania and Albania). Made public: 2013. To check: [[w.zhou-enlai-nianpu-1949]], III, 252 (cited by [[w.jian-zhou-enlai]], 587 n.85b). Names: Mao Zedong, Chen Yi, Li Xiannian, Xu Xiangqian, Nie Rongzhen, Ye Jianying, Li Fuchun.'
     src:
       c: 8d288bae
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, Aug. 22, 1968: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 248: A'
+        - 'w.jian-zhou-enlai 587: ?'
     tags: [polity:prc, name:mao-zedong, name:chen-yi, name:li-xiannian, name:xu-xiangqian, name:nie-rongzhen, name:ye-jianying, vis:only:prc, name:li-fuchun]
   - id: cal.1968-08-22.china-leadership-2
     when: Aug. 22–24
@@ -5420,6 +5433,23 @@ entries:
     c: '*Nhân Dân* and *Quân Đội Nhân Dân* endorse the invasion of Czechoslovakia and print the Soviet announcement of it in full on their front pages.'
     n: '[[w.khoo-collateral-damage]], 49.'
     tags: [polity:drv]
+  - id: cal.1968-08-22.china-leadership-5
+    when: Aug. 22
+    date: '1968-08-22'
+    thread: china-leadership
+    also: [soviet-union-czechoslovakia]
+    c: By Jiang Benlian's account, Zhou Enlai, late at night, discusses with his speech-drafting group the speech he will give at the Romanian National Day reception of Aug. 23.
+    n: '[[w.jian-zhou-enlai]], 587 ("Late in the night on August 22"). Made public: 2007 ([[w.jiang-benlian-gei-gongheguo-lingdaoren]], the work the note names; not seen). To check: [[w.jiang-benlian-gei-gongheguo-lingdaoren]], 80 (cited by [[w.jian-zhou-enlai]], 587 n.86). Names: Zhou Enlai.'
+    src:
+      c: 3f7e0434
+      rows:
+        - 'w.jian-zhou-enlai 587: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+    time_range:
+      - 1968-08-22T14:00Z
+      - 1968-08-22T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1968-08-23.soviet-union-czechoslovakia
     when: Aug. 23
     date: '1968-08-23'
@@ -5658,7 +5688,7 @@ entries:
     thread: china-leadership
     also: [soviet-union, soviet-union-czechoslovakia]
     c: At Mao's direction *Renmin ribao* prints a commentator's article condemning in strong terms the Soviet armed occupation of Czechoslovakia.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 23, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 248 (Aug. 23, 1968); [[w.khoo-collateral-damage]], 48 (the *Renmin ribao* of Aug. 23 calls the Soviet Union "social-imperialist"). To check: [[w.lawson-sino-vietnamese-conflict]], 169 (cited by [[w.khoo-collateral-damage]], 48 n.20); "Total Bankruptcy of Soviet Modern Revisionism," Foreign Broadcast Information Service (China), Aug. 23, 1968, A5–8 (cited by [[w.khoo-collateral-damage]], 48 n.21). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 23, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 248 (Aug. 23, 1968); [[w.khoo-collateral-damage]], 48 (the *Renmin ribao* of Aug. 23 calls the Soviet Union "social-imperialist"); [[w.jian-zhou-enlai]], 587 (printed as an editorial essay: "the Soviet renegade clique has long since degenerated into a gang of social-imperialists"; "Soviet social-imperialism" as dangerous to the world as US imperialism). To check: [[w.lawson-sino-vietnamese-conflict]], 169 (cited by [[w.khoo-collateral-damage]], 48 n.20); "Total Bankruptcy of Soviet Modern Revisionism," Foreign Broadcast Information Service (China), Aug. 23, 1968, A5–8 (cited by [[w.khoo-collateral-damage]], 48 n.21); [[w.renmin-ribao]], Aug. 23, 1968, 1 (cited by [[w.jian-zhou-enlai]], 587 n.87). Names: Mao Zedong.'
     src:
       c: 134fb786
       rows:
@@ -5666,6 +5696,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 248: A'
         - 'w.khoo-collateral-damage 48: ?'
         - 'via x.1968-08-23.fbis-china-total-bankruptcy-of-soviet-modern-revisionism: ?'
+        - 'w.jian-zhou-enlai 587: ?'
     tags: [polity:prc, name:mao-zedong]
   - id: cal.1968-08-23.china-leadership-2
     when: Aug. 23
@@ -5673,7 +5704,7 @@ entries:
     thread: china-leadership
     also: [soviet-union-czechoslovakia, china, soviet-union]
     c: Zhou Enlai, at the national day reception given by Romania's ambassador Duma, condemns the Soviet armed occupation of Czechoslovakia and expresses firm support for the Czechoslovak people's heroic resistance to the Soviet occupation.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 248 (Aug. 23, 1968); [[w.zhou-enlai-waijiao-huodong]], 529 (Aug. 23, 1968; evening, the National Day reception given by Romania''s ambassador Duma, Zhou speaking); [[w.zhonghua-renmin-gongheguo-waijiao]], 200 (Aug. 23, 1968; Zhou''s speech at the Romanian ambassador Duma''s National Day reception: the Soviet armed attack on Czechoslovakia, the bluntest case of power politics toward a so-called ally; China strongly condemns); [[w.macfarquhar-maos-last-revolution]], 308 (Peking''s first major condemnation of the invasion, made at the Romanian embassy''s National Day; the Chinese call the Soviet acts and doctrine "social imperialism"); [[w.khoo-collateral-damage]], 48 (Zhou at the Romanian national day: the Soviet leaders "degenerated into social-imperialism and social-fascism"; no illusions about U.S. imperialism and Soviet revisionism). To check: [[w.benliang-kangke-shijian-yu-zhou]], 36–44 (cited by [[w.macfarquhar-maos-last-revolution]], 308 n.2); [[w.zhou-enlai-nianpu-1949]], III, 252–253 (cited by [[w.khoo-collateral-damage]], 48 n.23b); [[w.wich-sino-soviet-crisis-politics]], 56 (cited by [[w.khoo-collateral-damage]], 48 n.23c); "Chinese Government and People Strongly Condemn Soviet Revisionist Clique''s Armed Occupation of Czechoslovakia," Peking Review Supp. to no. 34, Aug. 23, 1968, 3–4; FBIS (China), Aug. 26, 1968, A1–3 (cited by [[w.khoo-collateral-damage]], 48 nn.24a, 25); Foreign Broadcast Information Service (China), Aug. 26, 1968, A1–3 (the Chinese government''s and people''s condemnation of the occupation of Czechoslovakia) (cited by [[w.khoo-collateral-damage]], 48 n.24b). See [[cal.1968-08-23.china-leadership]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 248 (Aug. 23, 1968); [[w.zhou-enlai-waijiao-huodong]], 529 (Aug. 23, 1968; evening, the National Day reception given by Romania''s ambassador Duma, Zhou speaking); [[w.zhonghua-renmin-gongheguo-waijiao]], 200 (Aug. 23, 1968; Zhou''s speech at the Romanian ambassador Duma''s National Day reception: the Soviet armed attack on Czechoslovakia, the bluntest case of power politics toward a so-called ally; China strongly condemns); [[w.macfarquhar-maos-last-revolution]], 308 (Peking''s first major condemnation of the invasion, made at the Romanian embassy''s National Day; the Chinese call the Soviet acts and doctrine "social imperialism"); [[w.khoo-collateral-damage]], 48 (Zhou at the Romanian national day: the Soviet leaders "degenerated into social-imperialism and social-fascism"; no illusions about U.S. imperialism and Soviet revisionism); [[w.jian-zhou-enlai]], 587 (that evening at Duma''s reception Zhou likens the invasion to Hitler''s against Czechoslovakia and to US imperialism''s in Vietnam and calls the Soviet Union "a country of social-imperialism and social-fascism"). Check: [[w.jian-zhou-enlai]], 587 n.88b, gives the *Peking Review*''s text of the speech as of Aug. 22, 1968; the text has it Aug. 23. To check: [[w.benliang-kangke-shijian-yu-zhou]], 36–44 (cited by [[w.macfarquhar-maos-last-revolution]], 308 n.2); [[w.zhou-enlai-nianpu-1949]], III, 252–253 (cited by [[w.khoo-collateral-damage]], 48 n.23b); [[w.wich-sino-soviet-crisis-politics]], 56 (cited by [[w.khoo-collateral-damage]], 48 n.23c); "Chinese Government and People Strongly Condemn Soviet Revisionist Clique''s Armed Occupation of Czechoslovakia," Peking Review Supp. to no. 34, Aug. 23, 1968, 3–4; FBIS (China), Aug. 26, 1968, A1–3 (cited by [[w.khoo-collateral-damage]], 48 nn.24a, 25); Foreign Broadcast Information Service (China), Aug. 26, 1968, A1–3 (the Chinese government''s and people''s condemnation of the occupation of Czechoslovakia) (cited by [[w.khoo-collateral-damage]], 48 n.24b). See [[cal.1968-08-23.china-leadership]]. Names: Zhou Enlai.'
     src:
       c: 98f8ca20
       rows:
@@ -5684,6 +5715,7 @@ entries:
         - 'w.khoo-collateral-damage 48: ?'
         - 'via x.1968-08-23.prc-government-condemns-soviet-occupation-of-czechoslovakia: ?'
         - 'via x.1968-08-26.fbis-china-aug-26-1968-a1-3: ?'
+        - 'w.jian-zhou-enlai 587: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1968-08-23T11:00Z
@@ -5720,6 +5752,23 @@ entries:
       rows:
         - 'w.zhou-enlai-waijiao-huodong 528–29: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc+romania]
+    time_zone: Asia/Shanghai
+  - id: cal.1968-08-23.china-leadership-6
+    when: Aug. 23
+    date: '1968-08-23'
+    thread: china-leadership
+    also: [soviet-union-czechoslovakia]
+    c: By Jiang Benlian's account, Zhou Enlai spends two hours revising his notes for the address at the Romanian reception.
+    n: '[[w.jian-zhou-enlai]], 587 ("The next morning"). Made public: 2007 ([[w.jiang-benlian-gei-gongheguo-lingdaoren]], the work the note names; not seen). To check: [[w.jiang-benlian-gei-gongheguo-lingdaoren]], 80 (cited by [[w.jian-zhou-enlai]], 587 n.86). See [[cal.1968-08-22.china-leadership-5]]. Names: Zhou Enlai.'
+    src:
+      c: '42401997'
+      rows:
+        - 'w.jian-zhou-enlai 587: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+    time_range:
+      - 1968-08-22T22:00Z
+      - 1968-08-23T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1968-08-24.specials
     when: Aug. 24
