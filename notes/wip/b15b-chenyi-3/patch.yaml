@@ -1,0 +1,1771 @@
+patch: 2026-11-20-b15b-chenyi-3
+by: Claude (batch 15b, Chen Yi nianpu, run 3), Nov. 20–21, 2026
+ops:
+- edit:
+    id: cal.1963-02-17.china-leadership-2
+    base: 64dd4c98
+    set:
+      time_range:
+      - 1963-02-16T22:00Z
+      - 1963-02-17T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: shanghai
+- edit:
+    id: cal.1963-03-06.china-leadership-4
+    base: '34493643'
+    set:
+      time: 1963-03-06T07:00Z
+      time_zone: Asia/Shanghai
+    unset:
+    - time_range
+    - time_band
+- edit:
+    id: cal.1963-03-08.china-leadership
+    base: cfd8c539
+    set:
+      time: 1963-03-08T07:10Z
+      time_zone: Asia/Shanghai
+    unset:
+    - time_range
+    - time_band
+- edit:
+    id: cal.1963-03-23.china-leadership-3
+    base: 63581a52
+    set:
+      time_range:
+      - 1963-03-23T11:00Z
+      - 1963-03-23T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1963-04-12.china-leadership-3
+    base: 9c0ded2f
+    set:
+      time_range:
+      - 1963-04-11T16:00Z
+      - 1963-04-11T22:00Z
+      time_band: predawn
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1963-04-13.china-leadership-4
+    base: 23e59cda
+    set:
+      place: jakarta
+- edit:
+    id: cal.1963-04-13.china-leadership-3
+    base: 8cfb3918
+    set:
+      time: 1963-04-13T11:30Z
+      time_zone: Asia/Jakarta
+      place: jakarta
+- edit:
+    id: cal.1963-04-18.china-leadership-2
+    base: b5cdf32a
+    set:
+      time_range:
+      - 1963-04-17T22:00Z
+      - 1963-04-18T04:00Z
+      time_band: morning
+      time_zone: Asia/Makassar
+- edit:
+    id: cal.1963-04-18.china-leadership-3
+    base: 810912b3
+    set:
+      time_range:
+      - 1963-04-18T04:00Z
+      - 1963-04-18T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Makassar
+- edit:
+    id: cal.1963-04-19.china-leadership-3
+    base: 3b5b168a
+    set:
+      time_range:
+      - 1963-04-18T22:30Z
+      - 1963-04-19T04:30Z
+      time_band: morning
+      time_zone: Asia/Jakarta
+- edit:
+    id: cal.1963-04-20.china-leadership-4
+    base: '27056753'
+    set:
+      time_range:
+      - 1963-04-19T22:30Z
+      - 1963-04-20T04:30Z
+      time_band: morning
+      time_zone: Asia/Jakarta
+      place: jakarta
+- edit:
+    id: cal.1963-04-20.china-leadership-5
+    base: 700fb4c7
+    set:
+      time: 1963-04-20T01:30Z
+      time_zone: Asia/Jakarta
+- edit:
+    id: cal.1963-04-21.china-leadership-4
+    base: 4b498c1a
+    set:
+      time_range:
+      - 1963-04-20T23:30Z
+      - 1963-04-21T05:30Z
+      time_band: morning
+      time_zone: Asia/Yangon
+- edit:
+    id: cal.1963-04-21.china-leadership-5
+    base: 04a1e2df
+    set:
+      time_range:
+      - 1963-04-21T12:30Z
+      - 1963-04-21T15:30Z
+      time_band: evening
+      time_zone: Asia/Yangon
+      place: rangoon
+- edit:
+    id: cal.1963-04-22.china-leadership-5
+    base: cf4b13d7
+    set:
+      time_range:
+      - 1963-04-21T23:30Z
+      - 1963-04-22T05:30Z
+      time_band: morning
+      time_zone: Asia/Yangon
+- edit:
+    id: cal.1963-04-23.china-leadership-4
+    base: a96a5f65
+    set:
+      time_range:
+      - 1963-04-22T23:30Z
+      - 1963-04-23T05:30Z
+      time_band: morning
+      time_zone: Asia/Yangon
+      place: ngapali
+- edit:
+    id: cal.1963-04-24.china-leadership-6
+    base: 868ef468
+    set:
+      time_range:
+      - 1963-04-23T23:30Z
+      - 1963-04-24T05:30Z
+      time_band: morning
+      time_zone: Asia/Yangon
+      place: ngapali
+- edit:
+    id: cal.1963-04-25.china-leadership-5
+    base: 8834c84e
+    set:
+      time_range:
+      - 1963-04-24T23:30Z
+      - 1963-04-25T05:30Z
+      time_band: morning
+      time_zone: Asia/Yangon
+- edit:
+    id: cal.1963-05-01.china-leadership-5
+    base: 2d9200c4
+    set:
+      time_range:
+      - 1963-04-30T22:00Z
+      - 1963-05-01T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1963-05-05.china-leadership-3
+    base: ca119174
+    set:
+      time_range:
+      - 1963-05-05T05:00Z
+      - 1963-05-05T07:00Z
+      time_band: workday midday
+      time_zone: Asia/Phnom_Penh
+- edit:
+    id: cal.1963-05-05.china-leadership-4
+    base: 3f64aa00
+    set:
+      time: 1963-05-05T10:45Z
+      time_zone: Asia/Phnom_Penh
+- edit:
+    id: cal.1963-05-06.china-leadership-2
+    base: 6f8f5fe4
+    set:
+      time_range:
+      - 1963-05-06T04:00Z
+      - 1963-05-06T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+- place-key:
+    key: yangshuo
+    name: Yangshuo
+    zone: Asia/Shanghai
+    in: prc
+- add:
+    entry:
+      id: cal.1963-02-05.china-leadership-5
+      when: Feb. 5
+      date: '1963-02-05'
+      thread: china-leadership
+      c: Kofi Asante Ofori-Atta 科菲·阿桑特·奥弗里-阿塔, Ghana's Minister of Justice and head of its government's friendship delegation, writes to Chen Yi 陈毅, thanking him for his part in the visit's success and in strengthening the two countries' fraternal relations.
+      n: '[[w.chen-yi-nianpu]], 954. Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:ghana
+      - name:chen-yi
+      - ok:fields-place
+      - vis:only:prc+ghana
+- add:
+    entry:
+      id: cal.1963-02-12.china-leadership-7
+      when: Feb. 12
+      date: '1963-02-12'
+      time_range:
+      - 1963-02-12T11:00Z
+      - 1963-02-12T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: shanghai
+      thread: china-leadership
+      c: Shanghai 上海. Chen Yi 陈毅 receives the Syrian Arab Republic's economic delegation, its head Subhi Kahhaleh 苏卜希·卡哈勒, Minister of Communications, his wife and the delegation's members, and then gives them a banquet.
+      n: '[[w.chen-yi-nianpu]], 954. The words: 晚上 (954). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:syria
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1963-02-15.china-leadership-10
+      when: Feb. 15
+      date: '1963-02-15'
+      time_range:
+      - 1963-02-15T04:00Z
+      - 1963-02-15T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: shanghai
+      thread: china-leadership
+      also:
+      - cuba
+      c: Shanghai 上海. Chen Yi 陈毅 receives the Cuban government's economic delegation led by Alberto Mora 阿尔贝托·莫拉, Minister of Foreign Trade.
+      n: '[[w.chen-yi-nianpu]], 954. The words: 下午 (954). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:cuba
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1963-02-17.china-leadership-5
+      when: Feb. 17
+      date: '1963-02-17'
+      thread: china-leadership
+      c: Chen Yi 陈毅 cables Tulsi Giri 图尔西·吉里, Nepal's Minister of Foreign Affairs, on the twelfth anniversary of Nepal's Democracy Day.
+      n: '[[w.chen-yi-nianpu]], 955. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-02-18.china-leadership-7
+      when: Feb. 18
+      date: '1963-02-18'
+      time_range:
+      - 1963-02-18T04:00Z
+      - 1963-02-18T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: shanghai
+      thread: china-leadership
+      c: Shanghai 上海, Longhua airport 龙华机场. Chen Yi 陈毅 welcomes Prince Norodom Sihanouk, Cambodia's chief of state.
+      n: '[[w.chen-yi-nianpu]], 955. The words: 中午 (955). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1963-02-18.china-leadership-8
+      when: Feb. 18
+      date: '1963-02-18'
+      time_range:
+      - 1963-02-18T11:00Z
+      - 1963-02-18T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: shanghai
+      thread: china-leadership
+      c: Shanghai 上海. Chen Yi 陈毅 at the banquet of Cao Diqiu 曹荻秋, Vice-Mayor of Shanghai, and his wife for Sihanouk, his wife and the Cambodian guests; toasts.
+      n: '[[w.chen-yi-nianpu]], 955. The words: 晚上 (955). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1963-02-19.china-leadership-4
+      when: Feb. 19
+      date: '1963-02-19'
+      place: shanghai
+      thread: china-leadership
+      c: 'Shanghai 上海. Chen Yi 陈毅 meets the city''s democratic personages: thought reform should flow slowly and steadily, like a spring breeze.'
+      n: '[[w.chen-yi-nianpu]], 955. Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - ok:fields-time
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1963-02-20.china-leadership-7
+      when: Feb. 20
+      date: '1963-02-20'
+      time_range:
+      - 1963-02-20T04:00Z
+      - 1963-02-20T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: shanghai
+      thread: china-leadership
+      c: Shanghai 上海. Sihanouk calls on Soong Ching-ling 宋庆龄, Vice-Chairman of the People's Republic; Chen Yi 陈毅 present.
+      n: '[[w.chen-yi-nianpu]], 955. The words: 下午 (955). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1963-02-20.china-leadership-8
+      when: Feb. 20
+      date: '1963-02-20'
+      time_range:
+      - 1963-02-20T11:00Z
+      - 1963-02-20T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: shanghai
+      thread: china-leadership
+      c: Shanghai 上海. Chen Yi 陈毅 at the Cambodian Royal Ballet's performance.
+      n: '[[w.chen-yi-nianpu]], 955. The words: 晚上 (955). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1963-02-21.china-leadership-9
+      when: Feb. 21
+      date: '1963-02-21'
+      place: shanghai
+      thread: china-leadership
+      c: Shanghai 上海. Chen Yi 陈毅 takes Sihanouk and his wife to the Shanghai Museum of Revolutionary History 上海革命历史纪念馆 and Sun Yat-sen's former residence 中山故居, and about the city.
+      n: '[[w.chen-yi-nianpu]], 955. Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1963-02-21.china-leadership-10
+      when: Feb. 21
+      date: '1963-02-21'
+      time_range:
+      - 1963-02-21T11:00Z
+      - 1963-02-21T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: shanghai
+      thread: china-leadership
+      c: Shanghai 上海. Chen Yi 陈毅 and his wife give an informal dinner for Sihanouk, his wife and the other Cambodian guests.
+      n: '[[w.chen-yi-nianpu]], 955. The words: 晚上 (955). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1963-02-22.china-leadership-9
+      when: Feb. 22
+      date: '1963-02-22'
+      time_range:
+      - 1963-02-21T22:00Z
+      - 1963-02-22T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place:
+      - shanghai
+      - changsha
+      thread: china-leadership
+      c: Chen Yi 陈毅 and his wife bring Sihanouk and his wife from Shanghai 上海 to Changsha 长沙.
+      n: '[[w.chen-yi-nianpu]], 955. The words: 上午 (955). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1963-02-22.china-leadership-10
+      when: Feb. 22
+      date: '1963-02-22'
+      time_range:
+      - 1963-02-22T04:00Z
+      - 1963-02-22T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: shaoshan
+      thread: china-leadership
+      c: Shaoshan 韶山, Xiangtan 湘潭. Chen Yi 陈毅 takes Sihanouk and his wife to Mao's 毛泽东 old home.
+      n: '[[w.chen-yi-nianpu]], 955. The words: 中午 (955). Names: Chen Yi, Sihanouk, Mao Zedong.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+      - name:mao-zedong
+      follows:
+      - cal.1963-02-22.china-leadership-9
+- add:
+    entry:
+      id: cal.1963-02-22.china-leadership-11
+      when: Feb. 22
+      date: '1963-02-22'
+      time_range:
+      - 1963-02-22T11:00Z
+      - 1963-02-22T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: changsha
+      thread: china-leadership
+      c: Changsha 长沙. Chen Yi 陈毅 speaks at the banquet of Zhang Bolin 章伯林, Vice-Governor of Hunan 湖南, and his wife for Sihanouk and the Cambodian guests.
+      n: '[[w.chen-yi-nianpu]], 955. The words: 晚上 (955). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1963-02-22.china-leadership-12
+      when: Feb. 22
+      date: '1963-02-22'
+      time: 1963-02-22T13:00Z
+      time_zone: Asia/Shanghai
+      place: changsha
+      thread: china-leadership
+      c: Chen Yi 陈毅 leaves Changsha 长沙 with Sihanouk.
+      n: '[[w.chen-yi-nianpu]], 955. The words: 晚上9时 (955). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+      follows:
+      - cal.1963-02-22.china-leadership-11
+- add:
+    entry:
+      id: cal.1963-02-23.china-leadership-10
+      when: Feb. 23
+      date: '1963-02-23'
+      time: 1963-02-23T02:00Z
+      time_approx: true
+      time_zone: Asia/Shanghai
+      place: guilin
+      thread: china-leadership
+      c: Chen Yi 陈毅 reaches Guilin 桂林 with Sihanouk.
+      n: '[[w.chen-yi-nianpu]], 955. The words: 上午10时许 (955). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1963-02-23.china-leadership-11
+      when: Feb. 23
+      date: '1963-02-23'
+      time_range:
+      - 1963-02-23T04:00Z
+      - 1963-02-23T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: guilin
+      thread: china-leadership
+      c: Guilin 桂林. Chen Yi 陈毅 takes Sihanouk to the Reed Flute Cave 芦笛岩 on Guangming Hill 光明山, then Diecai Hill 叠彩山 and the Huanzhu Cave 还珠洞 under Fubo Hill 伏波山.
+      n: '[[w.chen-yi-nianpu]], 956. The words: 下午 (956). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1963-02-24.china-leadership-5
+      when: Feb. 24
+      date: '1963-02-24'
+      place:
+      - guilin
+      - yangshuo
+      thread: china-leadership
+      c: Chen Yi 陈毅 and Sihanouk go by boat down the Li River 漓江 to Yangshuo 阳朔.
+      n: '[[w.chen-yi-nianpu]], 956. Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1963-02-25.china-leadership-6
+      when: Feb. 25
+      date: '1963-02-25'
+      time_range:
+      - 1963-02-24T22:00Z
+      - 1963-02-25T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: guilin
+      thread: china-leadership
+      c: Guilin 桂林. Chen Yi 陈毅 takes Sihanouk to the Chuanshan People's Commune 穿山人民公社 outside the city.
+      n: '[[w.chen-yi-nianpu]], 956. The words: 上午 (956). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1963-02-25.china-leadership-7
+      when: Feb. 25
+      date: '1963-02-25'
+      place: guilin
+      thread: china-leadership
+      c: Chen Yi 陈毅 writes the poems "Touring Guilin" 《游桂林》 and "Touring Yangshuo" 《游阳朔》 for the comrades of Guilin 桂林 and Yangshuo county 阳朔县.
+      n: '[[w.chen-yi-nianpu]], 956. The words: 之后 (956). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the two poems. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - ok:fields-time
+      follows:
+      - cal.1963-02-25.china-leadership-6
+- add:
+    entry:
+      id: cal.1963-02-25.china-leadership-8
+      when: Feb. 25–26
+      date: '1963-02-25'
+      time_range:
+      - 1963-02-25T11:00Z
+      - 1963-02-25T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place:
+      - guilin
+      - nanning
+      thread: china-leadership
+      c: Chen Yi 陈毅 leaves Guilin 桂林 with Sihanouk; they reach Nanning 南宁 on the 26th.
+      n: '[[w.chen-yi-nianpu]], 956. The time is the first day''s. The words: 晚上……于26日到达南宁 (956). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1963-02-27.china-leadership-7
+      when: Feb. 27
+      date: '1963-02-27'
+      place: nanning
+      thread: china-leadership
+      c: Nanning 南宁. Chen Yi 陈毅 takes Sihanouk to the Guangxi Nationalities Institute 广西民族学院.
+      n: '[[w.chen-yi-nianpu]], 956. Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1963-02-27.china-leadership-8
+      when: Feb. 27
+      date: '1963-02-27'
+      time_range:
+      - 1963-02-27T11:00Z
+      - 1963-02-27T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: nanning
+      thread: china-leadership
+      c: Nanning 南宁. Chen Yi 陈毅 speaks at the banquet of Qin Yingji 覃应机, Vice-Chairman of the Guangxi Zhuang Autonomous Region 广西壮族自治区, for Sihanouk and his wife; praises Cambodia's independence and Sihanouk's efforts for direct Sino-Indian talks; Cambodia will keep China's support.
+      n: '[[w.chen-yi-nianpu]], 956. The words: 晚上 (956). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1963-02-28.china-leadership-6
+      when: Feb. 28
+      date: '1963-02-28'
+      time_range:
+      - 1963-02-27T22:00Z
+      - 1963-02-28T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: nanning
+      thread: china-leadership
+      c: Nanning 南宁. Chen Yi 陈毅 at the airport sees Sihanouk and the Cambodian guests off home.
+      n: '[[w.chen-yi-nianpu]], 956. The words: 上午 (956). Names: Chen Yi, Sihanouk.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+- add:
+    entry:
+      id: cal.1963-03-01.china-leadership-7
+      when: Mar. 1
+      date: '1963-03-01'
+      time_range:
+      - 1963-03-01T04:00Z
+      - 1963-03-01T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Peking 北京, the Capital Airport 首都机场. Chen Yi 陈毅 welcomes the Pakistani government delegation led by Foreign Minister Zulfikar Ali Bhutto, and speaks of the boundary agreement soon to be signed.
+      n: '[[w.chen-yi-nianpu]], 956. The words: 中午 (956). Names: Chen Yi, Bhutto.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:bhutto-zulfikar-ali
+- add:
+    entry:
+      id: cal.1963-03-01.china-leadership-8
+      when: Mar. 1
+      date: '1963-03-01'
+      time_range:
+      - 1963-03-01T11:00Z
+      - 1963-03-01T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 meets Bhutto and holds talks.
+      n: '[[w.chen-yi-nianpu]], 956. The words: 晚上 (956). Made public: 1995. Names: Chen Yi, Bhutto.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:bhutto-zulfikar-ali
+      - ok:fields-place
+      - vis:only:prc+pakistan
+- add:
+    entry:
+      id: cal.1963-03-01.china-leadership-9
+      when: Mar. 1
+      date: '1963-03-01'
+      time_range:
+      - 1963-03-01T11:00Z
+      - 1963-03-01T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - south-asia
+      c: 'Peking 北京, the Great Hall of the People 人民大会堂. Chen Yi 陈毅 gives a banquet for Bhutto''s delegation and speaks: the boundary agreement marks a new stage; disputes between Asian-African countries to be settled by consultation; hopes India answers China''s efforts, and that the Pakistan–India dispute is settled by negotiation.'
+      n: '[[w.chen-yi-nianpu]], 956. The words: 晚上 (956). Names: Chen Yi, Bhutto.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:bhutto-zulfikar-ali
+- add:
+    entry:
+      id: cal.1963-03-02.china-leadership-8
+      when: Mar. 2
+      date: '1963-03-02'
+      thread: china-leadership
+      c: Sihanouk cables his thanks to Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 957. Names: Sihanouk, Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:norodom-sihanouk
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-04.china-leadership-9
+      when: Mar. 4
+      date: '1963-03-04'
+      time_range:
+      - 1963-03-03T22:00Z
+      - 1963-03-04T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: 'Chen Yi 陈毅 at the airport sees off Bhutto''s delegation and speaks: the boundary agreement fulfils the two peoples'' common wish, "a great event."'
+      n: '[[w.chen-yi-nianpu]], 958. The words: 上午……这是一件大事 (958). Names: Chen Yi, Bhutto.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:bhutto-zulfikar-ali
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-04.china-leadership-10
+      when: Mar. 4
+      date: '1963-03-04'
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Bhutto cables his thanks to Chen Yi 陈毅 before leaving China.
+      n: '[[w.chen-yi-nianpu]], 958. Names: Bhutto, Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:bhutto-zulfikar-ali
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-05.china-leadership-7
+      when: Mar. 5
+      date: '1963-03-05'
+      time_range:
+      - 1963-03-04T22:00Z
+      - 1963-03-05T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - laos
+      c: Khamking Souvanlasy 坎京·苏万拉西, Laos' first Ambassador to China, calls on Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 958. The words: 上午 (958). Names: Chen Yi, Khamking Souvanlasy.'
+      tags:
+      - polity:prc
+      - polity:laos
+      - name:chen-yi
+      - name:khamking-souvanlasy
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03.china-leadership-10
+      when: Mar., after the 5th
+      date: 1963-03
+      at: after 1963-03-05
+      thread: china-leadership
+      c: Chen Yi 陈毅 writes the poem "Learn from Comrade Lei Feng" 《向雷锋同志学习》.
+      n: '[[w.chen-yi-nianpu]], 958. See [[cal.1963-03-05.china-leadership-2]]. The words: 之后 (958). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-06.china-leadership-12
+      when: Mar. 6
+      date: '1963-03-06'
+      time_range:
+      - 1963-03-05T22:00Z
+      - 1963-03-06T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - japan
+      c: Chen Yi 陈毅 receives the delegation of the Japan Afro-Asian Solidarity Committee, in China after the third Afro-Asian People's Solidarity Conference.
+      n: '[[w.chen-yi-nianpu]], 958. The words: 上午 (958). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:japan
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-06.china-leadership-13
+      when: Mar. 6
+      date: '1963-03-06'
+      time_range:
+      - 1963-03-05T22:00Z
+      - 1963-03-06T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 receives Mrs. 莱翁, a Guatemalan women's representative, and Mrs. 别德玛, a Paraguayan women's representative.
+      n: '[[w.chen-yi-nianpu]], 958. The words: 上午 (958). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:guatemala
+      - polity:paraguay
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-07.china-leadership-11
+      when: Mar. 7
+      date: '1963-03-07'
+      time_range:
+      - 1963-03-07T11:00Z
+      - 1963-03-07T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - laos
+      c: Chen Yi 陈毅 at the evening of the Ministry of Culture 文化部 and the China–Laos Friendship Association 中国老挝友好协会 for King Savang Vatthana and the Laotian guests.
+      n: '[[w.chen-yi-nianpu]], 958. The words: 晚上 (958). Names: Chen Yi, Savang Vatthana.'
+      tags:
+      - polity:prc
+      - polity:laos
+      - name:chen-yi
+      - name:savang-vatthana
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-08.china-leadership-6
+      when: Mar. 8
+      date: '1963-03-08'
+      time_range:
+      - 1963-03-07T22:00Z
+      - 1963-03-08T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - laos
+      c: Peking 北京. Chen Yi 陈毅 takes King Savang Vatthana and the Laotian guests to the Peking No. 2 Cotton Mill 北京第二棉纺织厂.
+      n: '[[w.chen-yi-nianpu]], 958. The words: 上午 (958). Names: Chen Yi, Savang Vatthana.'
+      tags:
+      - polity:prc
+      - polity:laos
+      - name:chen-yi
+      - name:savang-vatthana
+- add:
+    entry:
+      id: cal.1963-03-09.china-leadership-10
+      when: Mar. 9
+      date: '1963-03-09'
+      time_range:
+      - 1963-03-08T22:00Z
+      - 1963-03-09T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Stoychev 斯托伊切夫, Bulgaria's new Ambassador, calls on Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 959. The words: 上午 (959). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:bulgaria
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-09.china-leadership-11
+      when: Mar. 9
+      date: '1963-03-09'
+      time_range:
+      - 1963-03-08T22:00Z
+      - 1963-03-09T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Lennart Petri 佩特里, Sweden's new Ambassador, calls on Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 959. The words: 上午 (959). Names: Chen Yi, Petri.'
+      tags:
+      - polity:prc
+      - polity:sweden
+      - name:chen-yi
+      - name:petri-lennart
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-10.china-leadership-4
+      when: Mar. 10
+      date: '1963-03-10'
+      time_range:
+      - 1963-03-09T22:00Z
+      - 1963-03-10T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place:
+      - peking
+      - nanning
+      thread: china-leadership
+      also:
+      - laos
+      c: Chen Yi 陈毅 leaves Peking 北京 with King Savang Vatthana for Nanning 南宁.
+      n: '[[w.chen-yi-nianpu]], 959. The words: 上午 (959). Names: Chen Yi, Savang Vatthana.'
+      tags:
+      - polity:prc
+      - polity:laos
+      - name:chen-yi
+      - name:savang-vatthana
+- add:
+    entry:
+      id: cal.1963-03-10.china-leadership-5
+      when: Mar. 10
+      date: '1963-03-10'
+      time_range:
+      - 1963-03-10T04:00Z
+      - 1963-03-10T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: nanning
+      thread: china-leadership
+      also:
+      - laos
+      c: Nanning 南宁. Chen Yi 陈毅 at the airport sees King Savang Vatthana off from China.
+      n: '[[w.chen-yi-nianpu]], 959. The words: 下午 (959). Names: Chen Yi, Savang Vatthana.'
+      tags:
+      - polity:prc
+      - polity:laos
+      - name:chen-yi
+      - name:savang-vatthana
+- add:
+    entry:
+      id: cal.1963-03-14.china-leadership-6
+      when: Mar. 14
+      date: '1963-03-14'
+      time_range:
+      - 1963-03-14T04:00Z
+      - 1963-03-14T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: nanning
+      thread: china-leadership
+      c: 'Nanning 南宁. Chen Yi 陈毅 speaks at the rally of the city''s nationalities and circles for the fifth anniversary of the Guangxi Zhuang Autonomous Region 广西壮族自治区, bringing the Center''s and the State Council''s greetings: all nationalities equal; regional autonomy a new development of Marxism-Leninism on the national question, Mao Zedong Thought''s contribution; the situation at home and abroad.'
+      n: '[[w.chen-yi-nianpu]], 959. The words: 下午 (959). Names: Chen Yi, Mao Zedong.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1963-03-15.china-leadership-6
+      when: Mar. 15
+      date: '1963-03-15'
+      time_range:
+      - 1963-03-15T04:00Z
+      - 1963-03-15T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: nanning
+      thread: china-leadership
+      c: Nanning 南宁. Chen Yi 陈毅 at the gala of the city's nationalities and circles at the Mingyuan Club 明园俱乐部 for the autonomous region's fifth anniversary.
+      n: '[[w.chen-yi-nianpu]], 959. The words: 下午 (959). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1963-03-16.china-leadership-6
+      when: Mar. 16
+      date: '1963-03-16'
+      thread: china-leadership
+      c: Chen Yi 陈毅 and Zhou Enlai 周恩来 cable Mohammad Yusuf 穆罕默德·优素福, congratulating him on becoming Afghanistan's Prime Minister and Foreign Minister.
+      n: '[[w.chen-yi-nianpu]], 959. Names: Chen Yi, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:chen-yi
+      - name:zhou-enlai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-22.china-leadership-7
+      when: Mar. 22
+      date: '1963-03-22'
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 cables Bhutto, Pakistan's Foreign Minister, on Pakistan's national day.
+      n: '[[w.chen-yi-nianpu]], 959–960. Names: Chen Yi, Bhutto.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:bhutto-zulfikar-ali
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-25.china-leadership-5
+      when: Mar. 25
+      date: '1963-03-25'
+      time_range:
+      - 1963-03-25T11:00Z
+      - 1963-03-25T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 and his wife meet Queen Thérèse 德雷丝王后 of Burundi and give a banquet for her and her party.
+      n: '[[w.chen-yi-nianpu]], 960. The words: 晚上 (960). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:burundi
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-28.china-leadership-5
+      when: Mar. 28
+      date: '1963-03-28'
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Subandrio cables Chen Yi 陈毅 his greetings on the second anniversary of the Indonesia–China treaty of friendship.
+      n: '[[w.chen-yi-nianpu]], 960. Names: Subandrio, Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:subandrio
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-29.china-leadership-6
+      when: Mar. 29
+      date: '1963-03-29'
+      time_range:
+      - 1963-03-29T04:00Z
+      - 1963-03-29T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 receives the Moroccan government's trade delegation, its head the Ambassador, Abdellatif Zniber 阿卜杜勒·拉赫曼·兹尼贝尔, its deputy Mohammed Benhadda 穆罕默德·本赫达 of the Ministry of Commerce and Industry, and its members.
+      n: '[[w.chen-yi-nianpu]], 960. The words: 下午 (960). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:morocco
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-30.china-leadership-6
+      when: Mar. 30
+      date: '1963-03-30'
+      time_range:
+      - 1963-03-30T04:00Z
+      - 1963-03-30T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅, with Mao Zedong 毛泽东, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Peng Zhen 彭真, Li Fuchun 李富春, Tan Zhenlin 谭震林 and Bo Yibo 薄一波, receives all those at the national conferences on commerce, chemicals, coal, oil, geology, building, textiles, communications, water conservancy and power.
+      n: '[[w.chen-yi-nianpu]], 960. The words: 下午 (960). Names: Chen Yi, Mao Zedong, Zhou Enlai, Deng Xiaoping, Peng Zhen, Li Fuchun, Tan Zhenlin, Bo Yibo.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:mao-zedong
+      - name:zhou-enlai
+      - name:deng-xiaoping
+      - name:peng-zhen
+      - name:li-fuchun
+      - name:tan-zhenlin
+      - name:bo-yibo
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-30.china-leadership-7
+      when: Mar. 30
+      date: '1963-03-30'
+      time_range:
+      - 1963-03-30T11:00Z
+      - 1963-03-30T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - indonesia
+      c: 'Chen Yi 陈毅 speaks at the China–Indonesia Friendship Association''s 中国印度尼西亚友好协会 cocktail party for the second anniversary of the treaty of friendship and the cultural agreement: backs Sukarno''s call for games of the new emerging forces, thanks Indonesia for barring the Chiang Kai-shek clique from the Asian Games and for its fair stand on the Sino-Indian boundary; hails the Indonesian flag in West Irian.'
+      n: '[[w.chen-yi-nianpu]], 960. The words: 晚上 (960). Names: Chen Yi, Sukarno.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:sukarno
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-31.china-leadership-6
+      when: Mar. 31
+      date: '1963-03-31'
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Chen Yi 陈毅 cables Subandrio, Indonesia's First Deputy First Minister and Foreign Minister, on the second anniversary of the treaty of friendship.
+      n: '[[w.chen-yi-nianpu]], 960. Names: Chen Yi, Subandrio.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:subandrio
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03-31.china-leadership-7
+      when: Mar. 31
+      date: '1963-03-31'
+      time_range:
+      - 1963-03-31T11:00Z
+      - 1963-03-31T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Chen Yi 陈毅 speaks at the reception of 苏弗雷·尤淑夫, the Indonesian chargé d'affaires, and his wife at the embassy for the treaty's second anniversary.
+      n: '[[w.chen-yi-nianpu]], 960–961. The words: 晚上 (960–961). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-04-03.china-leadership-7
+      when: Apr. 3
+      date: '1963-04-03'
+      thread: china-leadership
+      c: Chen Yi 陈毅 cables Péter János 彼得·亚诺什, Hungary's Foreign Minister, on the eighteenth anniversary of Hungary's liberation.
+      n: '[[w.chen-yi-nianpu]], 961. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:hungary
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-04-03.china-leadership-8
+      when: Apr. 3
+      date: '1963-04-03'
+      thread: china-leadership
+      also:
+      - indonesia
+      c: The Foreign Ministry's 外交部 press communique announces that Liu Shaoqi 刘少奇, Chairman of the People's Republic, and his wife Wang Guangmei 王光美 will visit Indonesia and Burma, with Chen Yi 陈毅 and his wife.
+      n: '[[w.chen-yi-nianpu]], 961. Names: Liu Shaoqi, Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - polity:indonesia
+      - name:chen-yi
+      - name:liu-shaoqi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-04.china-leadership-12
+      when: Apr., early
+      date: 1963-04
+      at: before 1963-04-01
+      thread: china-leadership
+      c: Chen Yi 陈毅 writes an inscription for the martyr Zhao Shiyan 赵世炎, a Marxist-Leninist political activist of the revolution's early days, killed in 1927.
+      n: '[[w.chen-yi-nianpu]], 961. The words: 4月上旬 (961). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-04.china-leadership-13
+      when: Apr., before the 12th
+      date: 1963-04
+      at: before 1963-04-12
+      place: kunming
+      thread: china-leadership
+      c: Kunming 昆明. Chen Yi 陈毅 visits the Cuihu 翠湖 azalea show and writes the poem "Visiting the Cuihu azalea show" 《参观翠湖杜鹃展览》.
+      n: '[[w.chen-yi-nianpu]], 961. The words: 在离昆明之前 (961). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1963-04-13.china-leadership-9
+      when: Apr. 13
+      date: '1963-04-13'
+      time: 1963-04-13T11:15Z
+      time_zone: Asia/Jakarta
+      place: jakarta
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Jakarta 雅加达, the Merdeka Palace 独立宫. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 and his wife on their courtesy call on President Sukarno.
+      n: '[[w.chen-yi-nianpu]], 961–962. The words: 晚上18时45分 (961–962). Names: Chen Yi, Liu Shaoqi, Sukarno.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:liu-shaoqi
+      - name:sukarno
+- add:
+    entry:
+      id: cal.1963-04-13.china-leadership-10
+      when: Apr. 13
+      date: '1963-04-13'
+      time_range:
+      - 1963-04-13T11:30Z
+      - 1963-04-13T14:30Z
+      time_band: evening
+      time_zone: Asia/Jakarta
+      place: jakarta
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Jakarta 雅加达, the Istana Negara 国家宫. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 at a performance.
+      n: '[[w.chen-yi-nianpu]], 962. The words: 晚上 (962). Names: Chen Yi, Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1963-04-14.china-leadership-5
+      when: Apr. 14
+      date: '1963-04-14'
+      time_range:
+      - 1963-04-13T22:30Z
+      - 1963-04-14T04:30Z
+      time_band: morning
+      time_zone: Asia/Jakarta
+      place: jakarta
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Jakarta 雅加达. After the wreath at the heroes' cemetery, Liu Shaoqi 刘少奇 and his party, Chen Yi 陈毅 among them, visit the Senayan stadium of the Asian Games 苏加诺体育场.
+      n: '[[w.chen-yi-nianpu]], 962. See [[cal.1963-04-13.china-leadership-4]]. The words: 上午……随后 (962). Names: Liu Shaoqi, Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1963-04-14.china-leadership-6
+      when: Apr. 14
+      date: '1963-04-14'
+      time: 1963-04-14T03:00Z
+      time_zone: Asia/Jakarta
+      place: jakarta
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Jakarta 雅加达, the Istana Negara 国家宫. Liu Shaoqi 刘少奇 receives senior Indonesian officials; Chen Yi 陈毅 present.
+      n: '[[w.chen-yi-nianpu]], 962. The words: 上午10时30分 (962). Names: Liu Shaoqi, Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1963-04-15.china-leadership-6
+      when: Apr. 15
+      date: '1963-04-15'
+      place: bandung
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Bandung 万隆, the Homann Hotel 霍曼饭店. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 and his wife at the performance given by Col. Mashudi 马舒迪, Governor of West Java.
+      n: '[[w.chen-yi-nianpu]], 962. Names: Chen Yi, Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:liu-shaoqi
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1963-04-19.china-leadership-6
+      when: Apr. 19
+      date: '1963-04-19'
+      time_range:
+      - 1963-04-19T04:30Z
+      - 1963-04-19T06:30Z
+      time_band: workday midday
+      time_zone: Asia/Jakarta
+      place: jakarta
+      thread: china-leadership
+      c: Jakarta 雅加达, the Chinese embassy. Chen Yi 陈毅, with Liu Shaoqi 刘少奇 and Wang Guangmei 王光美, receives the embassy's whole staff; a photograph taken.
+      n: '[[w.chen-yi-nianpu]], 962–963. The words: 中午 (962–963). Made public: 1995. Names: Chen Yi, Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:liu-shaoqi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1963-04-19.china-leadership-7
+      when: Apr. 19
+      date: '1963-04-19'
+      place: jakarta
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Jakarta 雅加达, the Istana Negara 国家宫. Sukarno gives presents to Liu Shaoqi 刘少奇 and his wife and to Chen Yi 陈毅 and his wife.
+      n: '[[w.chen-yi-nianpu]], 963. Names: Sukarno, Liu Shaoqi, Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:sukarno
+      - name:liu-shaoqi
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1963-04-20.china-leadership-11
+      when: Apr. 20
+      date: '1963-04-20'
+      time_range:
+      - 1963-04-20T12:30Z
+      - 1963-04-20T15:30Z
+      time_band: evening
+      time_zone: Asia/Yangon
+      place: rangoon
+      thread: china-leadership
+      c: Rangoon 仰光, the state guesthouse. Ne Win, Chairman of Burma's Revolutionary Council, and his wife dine with Liu Shaoqi 刘少奇 and Wang Guangmei 王光美; Chen Yi 陈毅 present.
+      n: '[[w.chen-yi-nianpu]], 963. The words: 晚上 (963). Names: Ne Win, Liu Shaoqi, Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - name:chen-yi
+      - name:ne-win
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1963-04-21.china-leadership-11
+      when: Apr. 21
+      date: '1963-04-21'
+      time_range:
+      - 1963-04-21T05:30Z
+      - 1963-04-21T07:30Z
+      time_band: workday midday
+      time_zone: Asia/Yangon
+      place: rangoon
+      thread: china-leadership
+      c: Rangoon 仰光. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 and Wang Guangmei 王光美 calls on General Ne Win and his wife; then Ne Win's luncheon at his residence for them.
+      n: '[[w.chen-yi-nianpu]], 963. The words: 中午……拜会后 (963). Names: Chen Yi, Liu Shaoqi, Ne Win.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - name:chen-yi
+      - name:liu-shaoqi
+      - name:ne-win
+- add:
+    entry:
+      id: cal.1963-04-21.china-leadership-12
+      when: Apr. 21
+      date: '1963-04-21'
+      time_range:
+      - 1963-04-21T12:30Z
+      - 1963-04-21T15:30Z
+      time_band: evening
+      time_zone: Asia/Yangon
+      place: rangoon
+      thread: china-leadership
+      c: Rangoon 仰光, the state guesthouse. Ne Win returns Liu Shaoqi's 刘少奇 call; Chen Yi 陈毅 present.
+      n: '[[w.chen-yi-nianpu]], 963. The words: 晚上 (963). Names: Ne Win, Liu Shaoqi, Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - name:chen-yi
+      - name:ne-win
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1963-04-21.china-leadership-13
+      when: Apr. 21
+      date: '1963-04-21'
+      time_range:
+      - 1963-04-21T12:30Z
+      - 1963-04-21T15:30Z
+      time_band: evening
+      time_zone: Asia/Yangon
+      place: rangoon
+      thread: china-leadership
+      c: Rangoon 仰光. Chen Yi 陈毅 at a performance; after it he, Liu Shaoqi 刘少奇, Wang Guangmei 王光美 and Zhang Qian 张茜 present flower baskets to the artists.
+      n: '[[w.chen-yi-nianpu]], 963. The words: 晚上……表演结束后 (963). Names: Chen Yi, Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - name:chen-yi
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1963-04-22.china-leadership-9
+      when: Apr. 22
+      date: '1963-04-22'
+      time_range:
+      - 1963-04-22T12:30Z
+      - 1963-04-22T15:30Z
+      time_band: evening
+      time_zone: Asia/Yangon
+      place: taunggyi
+      thread: china-leadership
+      c: Taunggyi 东枝. Chen Yi 陈毅 at the informal dinner of 貌瑞, the military region's commander, in his headquarters' garden for Liu Shaoqi 刘少奇 and his wife; then the Shan State peoples' folk dances.
+      n: '[[w.chen-yi-nianpu]], 963. The words: 晚上……晚宴后 (963). Names: Chen Yi, Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - name:chen-yi
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1963-04-25.china-leadership-13
+      when: Apr. 25
+      date: '1963-04-25'
+      time_range:
+      - 1963-04-25T05:30Z
+      - 1963-04-25T07:30Z
+      time_band: workday midday
+      time_zone: Asia/Yangon
+      place: rangoon
+      thread: china-leadership
+      c: Rangoon 仰光, the Chinese embassy. Chen Yi 陈毅 at the luncheon of Liu Shaoqi 刘少奇 and Wang Guangmei 王光美 for Ne Win and his wife and Burma's senior military and civil officials.
+      n: '[[w.chen-yi-nianpu]], 964. The words: 中午 (964). Names: Chen Yi, Liu Shaoqi, Ne Win.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - name:chen-yi
+      - name:liu-shaoqi
+      - name:ne-win
+- add:
+    entry:
+      id: cal.1963-04-25.china-leadership-14
+      when: Apr. 25
+      date: '1963-04-25'
+      time_range:
+      - 1963-04-25T05:30Z
+      - 1963-04-25T11:30Z
+      time_band: afternoon
+      time_zone: Asia/Yangon
+      place: rangoon
+      thread: china-leadership
+      c: Rangoon 仰光. Chen Yi 陈毅 calls on U Thi Han 吴蒂汉, Burma's Foreign Minister, and signs a joint communique of China and Burma.
+      n: '[[w.chen-yi-nianpu]], 964. The words: 下午 (964). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1963-04-25.china-leadership-15
+      when: Apr. 25
+      date: '1963-04-25'
+      place: rangoon
+      thread: china-leadership
+      c: Rangoon 仰光, the Chinese embassy. Chen Yi 陈毅, with Liu Shaoqi 刘少奇, Wang Guangmei 王光美 and Zhang Qian 张茜, receives the embassy's staff.
+      n: '[[w.chen-yi-nianpu]], 964. Made public: 1995. Names: Chen Yi, Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:liu-shaoqi
+      - ok:fields-time
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1963-04-27.china-leadership-4
+      when: Apr. 27
+      date: '1963-04-27'
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: The Foreign Ministry's 外交部 press communique announces that Liu Shaoqi 刘少奇 and Wang Guangmei 王光美 will visit Cambodia and Vietnam, with Chen Yi 陈毅 and his wife.
+      n: '[[w.chen-yi-nianpu]], 964. Names: Liu Shaoqi, Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - polity:drv
+      - name:chen-yi
+      - name:liu-shaoqi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-05-03.china-leadership-8
+      when: May 3
+      date: '1963-05-03'
+      place: phnom-penh
+      thread: china-leadership
+      c: Phnom Penh 金边, the Chinese embassy. Chen Yi 陈毅, with Liu Shaoqi 刘少奇, Wang Guangmei 王光美 and Zhang Qian 张茜, receives the embassy's whole staff.
+      n: '[[w.chen-yi-nianpu]], 964–965. Made public: 1995. Names: Chen Yi, Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:liu-shaoqi
+      - ok:fields-time
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1963-05-05.china-leadership-7
+      when: May 5
+      date: '1963-05-05'
+      time_range:
+      - 1963-05-04T23:00Z
+      - 1963-05-05T05:00Z
+      time_band: morning
+      time_zone: Asia/Phnom_Penh
+      place: phnom-penh
+      thread: china-leadership
+      c: Chen Yi 陈毅 with Liu Shaoqi 刘少奇 back from Kirirom to Phnom Penh 金边; calls on Prince Norodom Kantol 诺罗敦·康托尔, Cambodia's Prime Minister.
+      n: '[[w.chen-yi-nianpu]], 965. The words: 上午 (965). Names: Chen Yi, Liu Shaoqi, Kantol.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:liu-shaoqi
+      - name:norodom-kantol
+- add:
+    entry:
+      id: cal.1963-05-05.china-leadership-8
+      when: May 5
+      date: '1963-05-05'
+      place: phnom-penh
+      thread: china-leadership
+      c: Phnom Penh 金边, the royal palace. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 and Wang Guangmei 王光美 takes leave of the Queen.
+      n: '[[w.chen-yi-nianpu]], 965. Names: Chen Yi, Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:liu-shaoqi
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1963-05-06.china-leadership-6
+      when: May 6
+      date: '1963-05-06'
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 cables Ahmed Ben Bella, Algeria's Prime Minister, his condolences on the death of the Foreign Minister, Mohamed Khemisti 穆罕默德·赫米斯提.
+      n: '[[w.chen-yi-nianpu]], 965. Names: Chen Yi, Ben Bella.'
+      tags:
+      - polity:prc
+      - polity:algeria
+      - name:chen-yi
+      - name:ben-bella-ahmed
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-05-08.china-leadership-11
+      when: May 8
+      date: '1963-05-08'
+      thread: china-leadership
+      c: Chen Yi 陈毅 cables Václav David, Czechoslovakia's Foreign Minister, on the eighteenth anniversary of the country's liberation.
+      n: '[[w.chen-yi-nianpu]], 965. Names: Chen Yi, David.'
+      tags:
+      - polity:prc
+      - polity:czechoslovakia
+      - name:chen-yi
+      - name:david-vaclav
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-05-08.china-leadership-12
+      when: May 8
+      date: '1963-05-08'
+      time_range:
+      - 1963-05-07T22:00Z
+      - 1963-05-08T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: kunming
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Kunming 昆明, the airport. Chen Yi 陈毅 welcomes Hoàng Minh Giám 黄明鉴, the DRV's Minister of Culture and chairman of its reception committee, Trần Tử Bình 陈子平, its Ambassador to China, and Hà Thị Quế 何氏桂 of the Vietnam Women's Union, come to take Liu Shaoqi 刘少奇 and his wife to the DRV.
+      n: '[[w.chen-yi-nianpu]], 965. The words: 上午 (965). Names: Chen Yi, Hoàng Minh Giám, Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - polity:drv
+      - name:chen-yi
+      - name:hoang-minh-giam
+      - name:liu-shaoqi
+- cite:
+    id: cal.1963-02-12.china
+    item: '[[w.chen-yi-nianpu]], 954 (Feb. 12, 1963; Chen Yi''s cable to Taleb Hussein Shabib, Iraq''s Foreign Minister, that China recognizes the new government of the Republic of Iraq)'
+- cite:
+    id: cal.1963-02-17.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 955 (Feb. 17, 1963, morning, Shanghai; Chen Yi''s television interview with Karlsson of Swedish Radio)'
+- cite:
+    id: cal.1963-03-02.china-leadership
+    item: '[[w.chen-yi-nianpu]], 957 (Mar. 2, 1963, morning, Chen Yi present at Zhou''s reception of Bhutto; Mar. 3, 11 a.m., Diaoyutai 钓鱼台, Chen Yi and Zhou in talks with Bhutto)'
+- cite:
+    id: cal.1963-03-02.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 957 (Mar. 2, 1963, afternoon; Chen Yi present)'
+- cite:
+    id: cal.1963-03-02.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 957 (Mar. 2, 1963, 2:20 p.m.; Chen Yi signs for China the agreement on the boundary between Xinjiang and the areas whose defense Pakistan controls)'
+- variant:
+    id: cal.1963-03-02.china-leadership-2
+    unit: A
+    witness: w.chen-yi-nianpu
+    reads: The agreement is signed at 2:20 p.m., Chen Yi signing for the Chinese government
+    at: '957'
+- cite:
+    id: cal.1963-03-02.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 957 (Mar. 2, 1963, afternoon, the Great Hall of the People; Chen Yi present)'
+- cite:
+    id: cal.1963-03-02.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 957 (Mar. 2, 1963, evening; Chen Yi speaks; on Kashmir China stands aside and hopes for a peaceful settlement between Pakistan and India, the agreement having allowed for the area''s undetermined status; China ready for direct talks with India; praises Pakistan''s UN vote for China''s seat)'
+- cite:
+    id: cal.1963-03-03.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 957 (Mar. 3, 1963, evening; a private dinner of the Pakistani Ambassador and his wife for Zhou, Chen Yi and his wife, and Bhutto)'
+- cite:
+    id: cal.1963-03-03.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 957–958 (Mar. 3, 1963, evening, the Peking Hotel 北京饭店; Chen Yi speaks, praising Morocco and African independence, and hoping India returns to talks)'
+- cite:
+    id: cal.1963-03-05.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 958 (Mar. 5, 1963)'
+- cite:
+    id: cal.1963-03-06.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 958 (Mar. 6, 1963, 3 p.m.; Chen Yi at the airport welcomes King Savang Vatthana and Prince Souvanna Phouma)'
+- cite:
+    id: cal.1963-03-06.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 958 (Mar. 6, 1963, evening; Chen Yi present at Liu Shaoqi''s reception of the King and at his banquet)'
+- cite:
+    id: cal.1963-03-07.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 958 (Mar. 7, 1963, afternoon; Chen Yi with Liu Shaoqi on the return call)'
+- cite:
+    id: cal.1963-03-06.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 958 (Mar. 7, 1963, afternoon; Chen Yi in Zhou''s talks with the King)'
+- cite:
+    id: cal.1963-03-07.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 958 (Mar. 7, 1963, evening; Chen Yi present at Mao''s meeting with and banquet for the King)'
+- cite:
+    id: cal.1963-03-08.china-leadership
+    item: '[[w.chen-yi-nianpu]], 958–959 (Mar. 8, 1963, 3:10 p.m.; Chen Yi at the meeting)'
+- cite:
+    id: cal.1963-03-08.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 959 (Mar. 8, 1963, evening, the Great Hall of the People; Chen Yi present)'
+- cite:
+    id: cal.1963-03-09.china-leadership
+    item: '[[w.chen-yi-nianpu]], 959 (Mar. 9, 1963, afternoon; Chen Yi with Zhou)'
+- cite:
+    id: cal.1963-03-09.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 959 (Mar. 9, 1963, evening; Chen Yi present)'
+- cite:
+    id: cal.1963-03-15.china
+    item: '[[w.chen-yi-nianpu]], 959 (Mar. 15, 1963; Chen Yi''s cable to Bitar)'
+- cite:
+    id: cal.1963-03-23.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 960 (Mar. 23, 1963, evening, the Peking Hotel; Chen Yi speaks; the boundary settlement another example for Asian-African countries; condemns India''s refusals and war preparations)'
+- cite:
+    id: cal.1963-04-02.china-leadership-7
+    item: '[[w.chen-yi-nianpu]], 961 (Apr. 2, 1963, afternoon; Chen Yi with Mao, Zhou, Deng Xiaoping, Peng Zhen, Li Fuchun, Tan Zhenlin, Kang Sheng and Bo Yibo)'
+- cite:
+    id: cal.1963-04-03.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 961 (Apr. 3, 1963)'
+- cite:
+    id: cal.1963-04-12.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 961 (Apr. 12, 1963, before dawn, Chen Yi and his wife Zhang Qian 张茜 leave Kunming with Liu and Wang Guangmei, stop at Rangoon airport, and reach Jakarta that morning; afternoon, at the flower and orchid show at the Istana Negara 国家宫)'
+- cite:
+    id: cal.1963-04-13.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 961 (Apr. 13, 1963; Chen Yi with Liu at the Air Force Day celebrations at Kemayoran airfield 马腰兰机场 and the aviation show there)'
+- variant:
+    id: cal.1963-04-13.china-leadership-4
+    unit: A
+    witness: w.chen-yi-nianpu
+    reads: Liu Shaoqi lays the wreath at the heroes' cemetery outside Jakarta on the morning of Apr. 14
+    at: '962'
+- cite:
+    id: cal.1963-04-13.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 962 (Apr. 13, 1963, 7 p.m., the Merdeka Palace; Chen Yi at Sukarno''s state banquet)'
+- cite:
+    id: cal.1963-04-14.china-leadership
+    item: '[[w.chen-yi-nianpu]], 962 (Apr. 14, 1963, afternoon, Chen Yi with Liu and his wife from Jakarta to Bogor 茂物; Apr. 15, morning, Liu and Wang Guangmei at the Bogor palace and botanical garden, then with Chen Yi, Zhang Qian and the party at the summer palace at Cipanas 芝班那斯 and a performance there; noon, Chen Yi with them to Bandung 万隆)'
+- cite:
+    id: cal.1963-04-16.china-leadership
+    item: '[[w.chen-yi-nianpu]], 962 (Apr. 16, 1963; Chen Yi with Liu and his wife from Bandung to Yogyakarta 日惹 and at the handicraft show)'
+- cite:
+    id: cal.1963-04-17.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 962 (Apr. 17, 1963; Chen Yi with Liu and his wife at Borobudur 婆罗浮屠; they leave Yogyakarta at noon and reach the airport of Denpasar 巴塘, Bali''s capital, at 2:30 p.m.)'
+- cite:
+    id: cal.1963-04-18.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 962 (Apr. 18, 1963, morning; Chen Yi at the rally, after the people''s traditional parade on the square; Bali''s representatives give presents to Liu and his wife and to Chen Yi and his wife)'
+- cite:
+    id: cal.1963-04-18.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 962 (Apr. 18, 1963, afternoon; Chen Yi in the talks)'
+- cite:
+    id: cal.1963-04-19.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 962 (Apr. 19, 1963, morning; Chen Yi back to Jakarta)'
+- cite:
+    id: cal.1963-04-19.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 962–963 (Apr. 19, 1963, morning, Chen Yi back in Jakarta with Liu; evening, at Liu and Wang Guangmei''s farewell banquet in the Istana Negara)'
+- cite:
+    id: cal.1963-04-20.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 963 (Apr. 20, 1963, morning, the Merdeka Palace 独立宫; Chen Yi at the signing)'
+- cite:
+    id: cal.1963-04-20.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 963 (Apr. 20, 1963; Chen Yi with Liu and his wife leaves Jakarta at 9 a.m. and reaches Rangoon 仰光 at 1:50 p.m.)'
+- cite:
+    id: cal.1963-04-21.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 963 (Apr. 21, 1963, morning; Chen Yi with Liu and Wang Guangmei at the Shwedagon pagoda 瑞光大金塔, and at the wreath at General Aung San''s 昂山 tomb)'
+- cite:
+    id: cal.1963-04-21.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 963 (Apr. 21, 1963, evening, the garden of the state guesthouse; Chen Yi present)'
+- cite:
+    id: cal.1963-04-22.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 963 (Apr. 22, 1963, morning; Chen Yi with Liu and Wang Guangmei to Taunggyi 东枝)'
+- cite:
+    id: cal.1963-04-23.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 963–964 (Apr. 23, 1963, morning; Chen Yi with Liu and Wang Guangmei from Taunggyi to Ngapali 额不里; a day on the beach, and a football match of two mixed Chinese and Burmese teams)'
+- cite:
+    id: cal.1963-04-24.china-leadership-6
+    item: '[[w.chen-yi-nianpu]], 964 (Apr. 24, 1963, morning, Ngapali; Chen Yi present)'
+- cite:
+    id: cal.1963-04-25.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 964 (Apr. 25, 1963, morning, Chen Yi with Liu and his wife back to Rangoon; at Liu and Wang Guangmei''s farewell banquet)'
+- cite:
+    id: cal.1963-04-26.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 964 (Apr. 26, 1963, 7 a.m.; Chen Yi leaves Rangoon with Liu, back to Kunming)'
+- cite:
+    id: cal.1963-05-01.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 964 (May 1, 1963, morning, the Tuodong stadium 拓东体育场; Chen Yi at the rally and gala of the Kunming people''s circles, and the performances of twelve troupes)'
+- cite:
+    id: cal.1963-05-01.china-leadership-6
+    item: '[[w.chen-yi-nianpu]], 964 (May 1, 1963; Chen Yi with Liu and Wang Guangmei leaves Kunming for Cambodia and reaches Phnom Penh 金边; 5 p.m., with them in the throne hall of the royal palace calls on the Queen and Sihanouk, Cambodia''s head of state)'
+- variant:
+    id: cal.1963-05-01.china-leadership-6
+    unit: A
+    witness: w.chen-yi-nianpu
+    reads: Liu Shaoqi, Chen Yi and the party leave Kunming in the morning (上午)
+    at: '964'
+- variant:
+    id: cal.1963-05-01.china-leadership-6
+    unit: B
+    witness: w.chen-yi-nianpu
+    reads: The permanent exhibition on the Sangkum's achievements is seen at Siem Reap on May 2, with the Angkor ruins
+    at: '964'
+- cite:
+    id: cal.1963-05-02.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 964 (May 2, 1963; Chen Yi with Liu and Wang Guangmei at Siem Reap 暹粒, at the permanent exhibition on the Sangkum''s achievements and at Angkor 吴哥)'
+- cite:
+    id: cal.1963-05-03.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 964–965 (May 3, 1963, morning, Chen Yi with Liu and Wang Guangmei from Siem Reap to Kompong Cham 磅湛 and the Cambodia–China Friendship Textile Mill, where they are given the mill''s and Kompong Cham''s products and sign the visitors'' book; 8:30 p.m., Sihanouk''s state banquet in the guesthouse of the Prince''s villa, the performance after it, and flowers to Princess Bopha Devi 帕花·德维 and the artists)'
+- cite:
+    id: cal.1963-05-04.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 965 (May 4, 1963, 9:30 a.m., Chen Yi with Liu and Wang Guangmei leaves Phnom Penh for Kirirom 基里隆; afternoon, in the talks)'
+- cite:
+    id: cal.1963-05-05.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 965 (May 5, 1963, noon, the government hotel 政府饭店; Chen Yi present)'
+- cite:
+    id: cal.1963-05-05.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 965 (May 5, 1963, 5:45 p.m., the Moon Pavilion 月亭 in the royal palace; Chen Yi at the signing)'
+- cite:
+    id: cal.1963-05-06.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 965 (May 6, 1963; Chen Yi leaves Phnom Penh with Liu and Wang Guangmei at 8:30 a.m. and reaches Kunming at noon)'

@@ -1,6 +1,11 @@
 patch: 2026-11-20-b15b-chenjian-1
 by: 'Claude (batch 15b, Chen Jian, Zhou Enlai: A Life, run 1), Nov. 20–21, 2026'
 ops:
+- place-key:
+    key: bern
+    name: Bern
+    zone: Europe/Zurich
+    in: switzerland
 - add:
     entry:
       id: cal.1960-04-12.china-leadership-7
@@ -259,6 +264,7 @@ ops:
       - vis:only:prc
       - name:zhou-enlai
       - name:chiang-kai-shek
+      place: peking
 - add:
     entry:
       id: cal.1962-05-31.china-leadership-5
@@ -619,6 +625,7 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+      - ok:fields-place
 - add:
     entry:
       id: cal.1963-02-09.china-leadership-8
@@ -733,6 +740,518 @@ ops:
       - polity:prc
       - vis:only:prc
       - name:mao-zedong
+- add:
+    entry:
+      id: cal.1962.china-leadership-57
+      when: 1962, summer
+      date: '1962'
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      at: before 1962-06
+      c: Zhou Enlai tells Hồ Chí Minh and Nguyễn Chí Thanh, secretary of the Lao Động Party's Southern Bureau, that China fully supports the Southern Revolution. They speak of the rising likelihood of American intervention by air or ground forces, or an attack on the North.
+      n: '[[w.jian-zhou-enlai]], 494. Made public: 1992. To check: [[w.ming-zhongyue-guanxi-yanbian-sishinian]], 67 (cited by [[w.jian-zhou-enlai]], 494 n.9); [[w.aiguo-yuanyue-kangmei]], 8 (cited by [[w.jian-zhou-enlai]], 494 n.9). Names: Zhou Enlai, Hồ Chí Minh.'
+      src:
+        c: 076f11eb
+        rows:
+        - 'w.jian-zhou-enlai 494: all'
+      tags:
+      - polity:prc
+      - vis:only:prc+drv
+      - name:zhou-enlai
+      - name:ho-chi-minh
+- add:
+    entry:
+      id: cal.1961.china-leadership-69
+      when: 1961, end
+      date: '1961'
+      thread: china-leadership
+      also:
+      - indonesia
+      at: before 1961-09
+      c: Sukarno asks Zhou Enlai in confidence for help with his kidney disease; Zhou sends a team of specialists under Dr. Wu Jieping to Jakarta, who treat him with Chinese and Western medicine.
+      n: '[[w.jian-zhou-enlai]], 498–499. Made public: 2017. To check: [[w.yang-wu-jieping-treated-sukarno]], 9–15 (cited by [[w.jian-zhou-enlai]], 499 n.28); [[w.cox-fill-walking-a-tightrope]], 145 (cited by [[w.jian-zhou-enlai]], 499 n.28). Names: Zhou Enlai, Sukarno.'
+      src:
+        c: 0d797383
+        rows:
+        - 'w.jian-zhou-enlai 498–499: all'
+      tags:
+      - polity:prc
+      - vis:only:prc+indonesia
+      - name:zhou-enlai
+      - name:sukarno
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1962-01.china
+      when: Jan.
+      date: 1962-01
+      thread: china
+      also:
+      - indonesia
+      c: China offers Indonesia a special loan of 129.5 million Swiss francs, Indonesia seeking China's support over West Irian.
+      n: '[[w.jian-zhou-enlai]], 498. Made public: 1998. To check: [[w.taiping-zhonghua-renmin-gongheguo-waijiaoshi]], II, 58 (cited by [[w.jian-zhou-enlai]], 498 n.26); Liu Shaoqi to Sukarno, April 27, 1963 (cited by [[w.jian-zhou-enlai]], 498 n.26).'
+      src:
+        c: 22acaff0
+        rows:
+        - 'w.jian-zhou-enlai 498: all'
+        - 'via x.1963-04-27.liu-shaoqi-to-sukarno: all'
+      tags:
+      - polity:prc
+      - vis:only:prc+indonesia
+- add:
+    entry:
+      id: cal.1963-06.china
+      when: June
+      date: 1963-06
+      thread: china
+      also:
+      - japan
+      c: China signs with Japan, Zhou Enlai taking part, its first semiofficial agreement, to import a whole-set vinylon plant, US$22.77 million on delayed payment.
+      n: '[[w.jian-zhou-enlai]], 505. To check: [[w.zhonghua-renmin-gongheguo-jingji]], 432–433, 469–471 (cited by [[w.jian-zhou-enlai]], 505 n.50); [[w.xianzhi-mao-zedong-zhuan-1949]], 1256–1257 (cited by [[w.jian-zhou-enlai]], 505 n.50). Names: Zhou Enlai.'
+      src:
+        c: dfa36eed
+        rows:
+        - 'w.jian-zhou-enlai 505: all'
+      tags:
+      - polity:prc
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1963.china-leadership-22
+      when: '1963'
+      date: '1963'
+      thread: china-leadership
+      c: 'Under Zhou Enlai''s direction China begins importing whole-set equipment and technology from the West for oil, mining, chemicals, metals, electronics and precision instruments: eighty-four projects in all, worth US$2.2 billion.'
+      n: '[[w.jian-zhou-enlai]], 508. Made public: 2011. To check: [[w.zhonghua-renmin-gongheguo-jingji]], 9 (cited by [[w.jian-zhou-enlai]], 508 n.59). Names: Zhou Enlai.'
+      src:
+        c: ad958eff
+        rows:
+        - 'w.jian-zhou-enlai 508: all'
+      tags:
+      - polity:prc
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1963-12-12.china-3
+      when: Dec. 12
+      date: '1963-12-12'
+      thread: china
+      also:
+      - europe-and-the-alliance
+      c: Bern. Li Qingquan, the Chinese Ambassador to Switzerland, and Jacques de Beaumarchais, head of the French Foreign Ministry's European office, open talks on the "more concrete issues" of relations, Zhou Enlai supervising.
+      n: '[[w.jian-zhou-enlai]], 507–508 (the passage has no note). Made public: 1994. To check: [[w.lianqing-da-waijiaojia-zhou-enlai]], V, 77–78 (so cited) (cited by [[w.jian-zhou-enlai]], 508 n.58); [[w.taiping-zhonghua-renmin-gongheguo-waijiaoshi]], III, 368–369 (cited by [[w.jian-zhou-enlai]], 508 n.58). Names: Zhou Enlai.'
+      src:
+        c: b2114e34
+        rows:
+        - 'w.jian-zhou-enlai 507–508: all'
+      tags:
+      - polity:prc
+      - vis:only:prc+fr
+      - name:zhou-enlai
+      place: bern
+- add:
+    entry:
+      id: cal.1963-12.china-leadership-9
+      when: Dec., at Algiers
+      date: 1963-12
+      thread: china-leadership
+      also:
+      - china
+      - europe-and-the-alliance
+      at: after 1963-12-21
+      c: Zhou Enlai, at Algiers, told that Paris will not have "the PRC is the sole legal government representing the whole of the Chinese people" in the communiqué, has Li Qingquan fly there to report in person; he decides the sentence may go if France keeps to no "two Chinas," Peking to publish an explanation after the communiqué and France to confirm it.
+      n: '[[w.jian-zhou-enlai]], 507–508. Made public: 1994. To check: [[w.lianqing-da-waijiaojia-zhou-enlai]], V, 77–78 (so cited) (cited by [[w.jian-zhou-enlai]], 508 n.58); [[w.taiping-zhonghua-renmin-gongheguo-waijiaoshi]], III, 368–369 (cited by [[w.jian-zhou-enlai]], 508 n.58). Names: Zhou Enlai.'
+      src:
+        c: a88cff01
+        rows:
+        - 'w.jian-zhou-enlai 507–508: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      place: algiers
+- add:
+    entry:
+      id: cal.1964-02-10.china-2
+      when: Feb. 10
+      date: '1964-02-10'
+      thread: china
+      also:
+      - europe-and-the-alliance
+      c: Paris tells Taipei that once the PRC's diplomats arrive in Paris, Taiwan will have no reason to keep its embassy there; Taiwan breaks relations with France the same day.
+      n: '[[w.jian-zhou-enlai]], 508 (the passage has no note).'
+      src:
+        c: 688800f9
+        rows:
+        - 'w.jian-zhou-enlai 508: all'
+      tags:
+      - polity:prc
+      - polity:roc
+      - polity:fr
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-01-05.china-leadership-5
+      when: Jan. 5
+      date: '1964-01-05'
+      thread: china-leadership
+      c: 'Zhou Enlai and Chen Yi, a special report to Peking on the visit to Morocco: Egypt, Algeria and Morocco have used foreign aid to build new industries with modern equipment, less investment, quicker returns and fewer workers, a new subject for China''s import of foreign plant and use of foreign aid.'
+      n: '[[w.jian-zhou-enlai]], 501. Made public: 1994. To check: Zhou and Chen Yi''s report on the visit to Morocco, January 5, 1964 (cited by [[w.jian-zhou-enlai]], 501 n.36); [[w.lianqing-da-waijiaojia-zhou-enlai]], V, 145 (so cited) (cited by [[w.jian-zhou-enlai]], 501 n.36). Names: Zhou Enlai, Chen Yi.'
+      src:
+        c: ef7d6527
+        rows:
+        - 'w.jian-zhou-enlai 501: all'
+        - 'via x.1964-01-05.zhou-chen-yi-report-visit-morocco: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-09-02.soviet-union
+      when: Sept. 2
+      date: '1964-09-02'
+      thread: soviet-union
+      also:
+      - china
+      c: '*Pravda* prints a long article rebutting Mao''s remarks of July 10 on the territories the Soviet Union holds.'
+      n: '[[w.jian-zhou-enlai]], 509–510. To check: [[w.pravda]], Sept. 2, 1964 (cited by [[w.jian-zhou-enlai]], 510 n.63). See [[cal.1964-07-10.china-leadership-3]]. Names: Mao Zedong.'
+      src:
+        c: 689cc350
+        rows:
+        - 'w.jian-zhou-enlai 509–510: all'
+      tags:
+      - polity:ussr
+      - name:mao-zedong
+      place: moscow
+- add:
+    entry:
+      id: cal.1964-10-15.china-leadership-8
+      when: Oct. 15
+      date: '1964-10-15'
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Peking, late at night. Chervonenko, the Soviet Ambassador, urgently asks to see Mao, and tells Wu Xiuquan, deputy head of the Central Liaison Department, that Khrushchev has resigned.
+      n: '[[w.jian-zhou-enlai]], 510. The words: "Late that night" (510). Made public: 2015. To check: [[w.mingfu-yan-mingfu-huiyilu]], II, 859 (cited by [[w.jian-zhou-enlai]], 510 n.64). Names: Chervonenko, Mao Zedong, Khrushchev.'
+      src:
+        c: 8ac58d3b
+        rows:
+        - 'w.jian-zhou-enlai 510: all'
+      tags:
+      - polity:prc
+      - vis:only:prc+ussr
+      - name:chervonenko-stepan-v
+      - name:mao-zedong
+      - name:khrushchev-nikita-s
+      place: peking
+      time_range:
+      - 1964-10-15T14:00Z
+      - 1964-10-15T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
+- add:
+    entry:
+      id: cal.1964-10-15.china-leadership-9
+      when: Oct. 15
+      date: '1964-10-15'
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: 'Zhou Enlai, on Khrushchev''s fall: a "very good thing"; he reports it at once to Mao and the other leaders and proposes a meeting to study it immediately.'
+      n: '[[w.jian-zhou-enlai]], 510. Made public: 1994. To check: [[w.lianqing-da-waijiaojia-zhou-enlai]], V, 275 (so cited) (cited by [[w.jian-zhou-enlai]], 510 n.65). See [[cal.1964-10-15.china-leadership-8]]. Names: Zhou Enlai, Mao Zedong, Khrushchev.'
+      src:
+        c: 42f90a46
+        rows:
+        - 'w.jian-zhou-enlai 510: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:mao-zedong
+      - name:khrushchev-nikita-s
+- add:
+    entry:
+      id: cal.1964-11-12.china-leadership-11
+      when: Nov. 12
+      date: '1964-11-12'
+      thread: china-leadership
+      also:
+      - soviet-union
+      - vietnam-hanoi
+      c: 'Moscow. Zhou Enlai to Lê Duẩn: after the contacts of the past days, the situation is worse than expected.'
+      n: '[[w.jian-zhou-enlai]], 513. Made public: 1997. To check: [[w.zhou-enlai-nianpu-1949]], II, 686–687 (cited by [[w.jian-zhou-enlai]], 513 n.81). Names: Zhou Enlai, Lê Duẩn. Check: the day: the book prints "October 12," the note citing the Zhou chronology at II, 686–687, among the Moscow talks of Nov. 1964.'
+      src:
+        c: 273f3962
+        rows:
+        - 'w.jian-zhou-enlai 513: all'
+      tags:
+      - polity:prc
+      - vis:only:prc+drv
+      - name:zhou-enlai
+      - name:le-duan
+      place: moscow
+- add:
+    entry:
+      id: cal.1961-07-16.china-leadership-7
+      when: July 16
+      date: '1961-07-16'
+      thread: china-leadership
+      c: 'The Center''s decision on strengthening the building of the nuclear industry: the whole country''s resources to be mobilized for it.'
+      n: '[[w.jian-zhou-enlai]], 515. Made public: 2013. To check: [[w.zhonggong-zhongyang-wenjian-xuanji]], XXXVII, 222–224 (the CC''s decision on strengthening the nuclear industry, July 16, 1961) (cited by [[w.jian-zhou-enlai]], 515 n.95).'
+      src:
+        c: d177749d
+        rows:
+        - 'w.jian-zhou-enlai 515: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-11-29.china-leadership-6
+      when: Nov. 29
+      date: '1961-11-29'
+      thread: china-leadership
+      c: The Center conveys Luo Ruiqing's report on setting up an Office of National Defense Industry in the State Council, reporting directly to Zhou Enlai and the Center; Zhou approving.
+      n: '[[w.jian-zhou-enlai]], 515. Made public: 2024. To check: Conveying Luo Ruiqing''s report on establishing the Office of National Defense Industry by the CCP CC, November 29, 1961 (the note prints "Rui Ruiqing") (cited by [[w.jian-zhou-enlai]], 515 n.98). Names: Luo Ruiqing, Zhou Enlai.'
+      src:
+        c: 9a53f6a2
+        rows:
+        - 'w.jian-zhou-enlai 515: all'
+        - 'via x.1961-11-29.cc-conveying-luo-ruiqing-report-office-national-defense-industry: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:luo-ruiqing
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1962-08.china
+      when: Aug.
+      date: 1962-08
+      thread: china
+      also:
+      - soviet-union
+      c: Moscow tells Peking the Soviet government has agreed to the American proposal on nuclear nonproliferation.
+      n: '[[w.jian-zhou-enlai]], 516. Made public: 1988. To check: [[w.bianjibu-dangdai-zhongguo-waijiao]], 119–120 (Xue Mouhong et al., as cited) (cited by [[w.jian-zhou-enlai]], 516 n.103).'
+      src:
+        c: c460b206
+        rows:
+        - 'w.jian-zhou-enlai 516: all'
+      tags:
+      - polity:prc
+      - polity:ussr
+      - vis:only:prc+ussr
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1962-08.china-2
+      when: Aug.
+      date: 1962-08
+      thread: china
+      also:
+      - soviet-union
+      c: 'Peking answers Moscow at once: the Soviet Union seeks to "monopolize nuclear technology"; it is not to sabotage China''s sovereignty or take responsibility for China.'
+      n: '[[w.jian-zhou-enlai]], 516. Made public: 1988. To check: [[w.bianjibu-dangdai-zhongguo-waijiao]], 119–120 (Xue Mouhong et al., as cited) (cited by [[w.jian-zhou-enlai]], 516 n.103). See [[cal.1962-08.china]].'
+      src:
+        c: 7d4bf768
+        rows:
+        - 'w.jian-zhou-enlai 516: all'
+      tags:
+      - polity:prc
+      - vis:only:prc+ussr
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-03.china-leadership-9
+      when: Mar.
+      date: 1963-03
+      thread: china-leadership
+      c: The theoretical design of the atomic bomb is completed.
+      n: '[[w.jian-zhou-enlai]], 516 (the passage has no note).'
+      src:
+        c: 12abdd38
+        rows:
+        - 'w.jian-zhou-enlai 516: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1963-07.china-leadership-3
+      when: July
+      date: 1963-07
+      thread: china-leadership
+      c: 'Zhou Enlai: besides the detonation, China must acquire the means of "practical use of the nuclear weapon."'
+      n: '[[w.jian-zhou-enlai]], 516. Made public: 1987. To check: [[w.bujinde-sinian]], 321 (Liu Jie, "An Outstanding Decisionmaker and Organizer of Our Country''s Nuclear Project") (cited by [[w.jian-zhou-enlai]], 516 n.105). Names: Zhou Enlai.'
+      src:
+        c: be871892
+        rows:
+        - 'w.jian-zhou-enlai 516: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1963.china-leadership-23
+      when: 1963, end
+      date: '1963'
+      thread: china-leadership
+      at: before 1963-09
+      c: 'Zhou Enlai: the development of missiles to be the main task, air-dropping the bomb the supplementary one.'
+      n: '[[w.jian-zhou-enlai]], 516. Made public: 1987. To check: [[w.bujinde-sinian]], 321 (Liu Jie, "An Outstanding Decisionmaker and Organizer of Our Country''s Nuclear Project") (cited by [[w.jian-zhou-enlai]], 516 n.105). Names: Zhou Enlai.'
+      src:
+        c: d23c1428
+        rows:
+        - 'w.jian-zhou-enlai 516: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1963-12-24.china-leadership-9
+      when: Dec. 24
+      date: '1963-12-24'
+      thread: china-leadership
+      c: The atomic bomb passes a comprehensive examination and test at its base in the Northwest.
+      n: '[[w.jian-zhou-enlai]], 516. Made public: 1998. To check: [[w.zhou-enlai-zhuan-1949]], 796 (cited by [[w.jian-zhou-enlai]], 516 n.106).'
+      src:
+        c: d8fe0871
+        rows:
+        - 'w.jian-zhou-enlai 516: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-01-14.china-leadership-7
+      when: Jan. 14
+      date: '1964-01-14'
+      thread: china-leadership
+      c: The enriched uranium for the bomb passes its tests. Zhou Enlai hails the achievements and urges all in the project to go on fulfilling every task with persistence.
+      n: '[[w.jian-zhou-enlai]], 516. Made public: 1998. To check: [[w.zhou-enlai-zhuan-1949]], 796 (cited by [[w.jian-zhou-enlai]], 516 n.106). Names: Zhou Enlai.'
+      src:
+        c: 916e40ac
+        rows:
+        - 'w.jian-zhou-enlai 516: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1964-06-06.china-leadership-4
+      when: June 6
+      date: '1964-06-06'
+      thread: china-leadership
+      c: The trial explosion for the atomic bomb succeeds.
+      n: '[[w.jian-zhou-enlai]], 516 (the passage has no note).'
+      src:
+        c: 6407bb74
+        rows:
+        - 'w.jian-zhou-enlai 516: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-08-19.china-leadership-7
+      when: Aug. 19
+      date: '1964-08-19'
+      thread: china-leadership
+      c: The assembly of the first atomic bomb is finished.
+      n: '[[w.jian-zhou-enlai]], 516 (the passage has no note).'
+      src:
+        c: 6fcfe32a
+        rows:
+        - 'w.jian-zhou-enlai 516: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09-01.china-leadership-6
+      when: Sept. 1
+      date: '1964-09-01'
+      thread: china-leadership
+      c: An exercise imitating the nuclear test goes without a hitch.
+      n: '[[w.jian-zhou-enlai]], 516 (the passage has no note).'
+      src:
+        c: 8c0866a2
+        rows:
+        - 'w.jian-zhou-enlai 516: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09.china-leadership-6
+      when: Sept., after the 21st
+      date: 1964-09
+      thread: china-leadership
+      at: after 1964-09-21
+      c: 'Zhou Enlai to the officials in charge of the test, after Mao''s approval: four good days in October, a second chance in late October if mid-October is missed; the wind''s changes and the radius of radioactive debris to be calculated; absolute secrecy.'
+      n: '[[w.jian-zhou-enlai]], 517. Made public: 1998. To check: [[w.he-zhang-aiping-zhuan]], II, 776–778 (cited by [[w.jian-zhou-enlai]], 517 n.111); [[w.zhou-enlai-zhuan-1949]], 799–800 (cited by [[w.jian-zhou-enlai]], 517 n.111). See [[cal.1964-09-21.china-leadership]]. Names: Zhou Enlai.'
+      src:
+        c: 51b475a9
+        rows:
+        - 'w.jian-zhou-enlai 517: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1964-10-11.china-leadership-9
+      when: Oct. 11
+      date: '1964-10-11'
+      thread: china-leadership
+      c: 'Zhou Enlai to Mao, Liu Shaoqi, Lin Biao, Deng Xiaoping, Peng Zhen, He Long, Nie Rongzhen and Luo Ruiqing: everything ready; the day and hour of the detonation to be set by the weather between Oct. 15 and 20.'
+      n: '[[w.jian-zhou-enlai]], 517. Made public: 1994. To check: Zhou Enlai''s letter to Mao Zedong, Liu Shaoqi, Lin Biao, Deng Xiaoping, Peng Zhen, He Long, Nie Rongzhen and Luo Ruiqing, October 11, 1964, printed in *Dang de wenxian*, no. 3 (1994): 23 (cited by [[w.jian-zhou-enlai]], 517 n.112). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Lin Biao, Deng Xiaoping, Peng Zhen, He Long, Nie Rongzhen, Luo Ruiqing.'
+      src:
+        c: 7d333ae7
+        rows:
+        - 'w.jian-zhou-enlai 517: all'
+        - 'via x.1964-10-11.zhou-letter-mao-liu-lin-deng-nuclear-test: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:lin-biao
+      - name:deng-xiaoping
+      - name:peng-zhen
+      - name:he-long
+      - name:nie-rongzhen
+      - name:luo-ruiqing
+- add:
+    entry:
+      id: cal.1964-10-16.china-leadership-8
+      when: Oct. 16
+      date: '1964-10-16'
+      thread: china-leadership
+      c: 'Zhang Aiping, commanding at the site, four minutes after the 3 p.m. explosion, telegraphs Zhou Enlai: "It is a success!" Zhou: a genuine explosion? Zhang: yes. Zhou passes on Mao''s instruction to confirm it was a genuine nuclear explosion; Zhang again: yes.'
+      n: '[[w.jian-zhou-enlai]], 517. The words: "The bomb exploded at 15:00"; Zhang "waited four minutes" (517). Made public: 1987. To check: [[w.bujinde-sinian]], 322–323 (Liu Jie) (cited by [[w.jian-zhou-enlai]], 517 n.113). See [[cal.1964-10-16.testing]]. Names: Zhang Aiping, Zhou Enlai, Mao Zedong.'
+      src:
+        c: 0f327fae
+        rows:
+        - 'w.jian-zhou-enlai 517: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhang-aiping
+      - name:zhou-enlai
+      - name:mao-zedong
+      - ok:fields-place
+      time: 1964-10-16T07:04Z
+      time_zone: Asia/Shanghai
 - cite:
     id: cal.1960-01-07.china-leadership
     item: '[[w.jian-zhou-enlai]], 442 (January, the Politburo at Shanghai: Mao sets the tone, a greater leap than 1959''s; Li Fuchun presents the plans for 1960 and the next three and eight years, Zhou listening; the goals of overtaking Britain in three years and a "comprehensive industrial system" in eight reconfirmed)'
@@ -1481,16 +2000,6 @@ ops:
     rows:
     - 'via x.1962-08-17.zhou-speech-beidaihe: ?'
 - cite:
-    id: cal.1962-09-26.china
-    item: '[[w.jian-zhou-enlai]], 470–471 (Zhou at the plenum: better this year than last; class struggle as Mao''s method; the collective economy the central task; the center of world revolution moved from Moscow to Beijing; three tasks abroad; the war, if forced, to open the way to negotiation)'
-- to-check:
-    id: cal.1962-09-26.china
-    add: Zhou's speech at the Tenth Plenum of the Eighth CC, September 26, 1962 (cited by [[w.jian-zhou-enlai]], 470 n.23); Zhou's speech at the Tenth Plenum of the Eighth CC, September 26, 1962 (cited by [[w.jian-zhou-enlai]], 470 n.24); Zhou's speech at the Tenth Plenum of the Eighth CC, September 26, 1962 (cited by [[w.jian-zhou-enlai]], 483 n.87).
-- src:
-    id: cal.1962-09-26.china
-    rows:
-    - 'via x.1962-09-26.zhou-speech-tenth-plenum: ?'
-- cite:
     id: cal.1962-09-24.china-leadership-5
     item: '[[w.jian-zhou-enlai]], 471 (Zhou: the lesson of Lushan 1959; oppose the right and fend off the ultraleft, no mass movement this time; Mao endorses "routine work should not be sidelined"; the plenum adopts Zhou''s documents on the economy)'
 - to-check:
@@ -1608,39 +2117,6 @@ ops:
     id: cal.1962-08-18.china-leadership
     item: '[[w.jian-zhou-enlai]], 479 (Beidaihe, mid-August: the Military Commission''s report for "tit-for-tat struggles against the Indian encroachment"; Mao approves)'
 - cite:
-    id: cal.1962-09.south-asia-3
-    item: '[[w.jian-zhou-enlai]], 479 (early September: the troops on both sectors not to retreat before Indian pushes, nor fire first unless ordered from the top)'
-- cite:
-    id: cal.1962-10-05.south-asia
-    item: '[[w.jian-zhou-enlai]], 479 (Oct. 5: Zhou''s comment in the margin: if the enemy moves in the east, strike him there and take some of his western strongholds; Luo to submit plans for the Center)'
-- cite:
-    id: cal.1962-10-08.south-asia
-    item: '[[w.jian-zhou-enlai]], 479 (Oct. 8, the enlarged Standing Committee: the General Staff''s briefing; Mao decides on a "war of self-defense")'
-- cite:
-    id: cal.1962-10-08.south-asia-4
-    item: '[[w.jian-zhou-enlai]], 479 (Luo''s Military Commission work meeting at once: Mao''s instructions, final mobilization)'
-- cite:
-    id: cal.1962-10-08.south-asia-3
-    item: '[[w.jian-zhou-enlai]], 479 (Zhou to Chervonenko the same day: India may launch a large offensive; if attacked, China will act in self-defense)'
-- to-check:
-    id: cal.1962-10-08.south-asia-3
-    add: Zhou's conversation with Soviet ambassador Chervonenko, October 8, 1962 (cited by [[w.jian-zhou-enlai]], 479 n.73).
-- src:
-    id: cal.1962-10-08.south-asia-3
-    rows:
-    - 'via x.1962-10-08.zhou-conversation-chervonenko: ?'
-- cite:
-    id: cal.1962-10-13.soviet-union
-    item: '[[w.jian-zhou-enlai]], 480 (Khrushchev to Liu Xiao: Moscow on Peking''s side, the Presidium''s unanimous choice after Zhou''s talk with Chervonenko; "due diplomatic action")'
-- to-check:
-    id: cal.1962-10-13.soviet-union
-    add: Khrushchev's conversation with Liu Xiao, October 13, 1962 (cited by [[w.jian-zhou-enlai]], 480 n.74); Khrushchev's talk at the farewell banquet for Liu Xiao, October 14, 1962 (cited by [[w.jian-zhou-enlai]], 480 n.74); Khrushchev's conversation with Liu Xiao, October 13, 1962 (cited by [[w.jian-zhou-enlai]], 486 n.98).
-- src:
-    id: cal.1962-10-13.soviet-union
-    rows:
-    - 'via x.1962-10-13.khrushchev-conversation-liu-xiao: ?'
-    - 'via x.1962-10-14.khrushchev-talk-farewell-banquet-liu-xiao: ?'
-- cite:
     id: cal.1962-10-12.south-asia-2
     item: '[[w.jian-zhou-enlai]], 480 (Oct. 12, Nehru to the press: "Our instructions are to free our territory")'
 - to-check:
@@ -1650,83 +2126,12 @@ ops:
     id: cal.1962-10-12.south-asia-2
     rows:
     - 'via x.1962-10-13.statesman: ?'
-- cite:
-    id: cal.1962-10-15.china-2
-    item: '[[w.jian-zhou-enlai]], 480 (Xinhua''s rendering: "Our orders are to cleanse all of them from our territory")'
-- to-check:
-    id: cal.1962-10-15.china-2
-    add: '[[w.renmin-ribao]], Oct. 15, 1962 (cited by [[w.jian-zhou-enlai]], 480 n.76).'
-- cite:
-    id: cal.1962-10-17.south-asia
-    item: '[[w.jian-zhou-enlai]], 480 (1:30 p.m., Oct. 17, the final discussion: Luo, no way out but a war of self-defense; Mao: wait for the order to fire; both sectors)'
-- to-check:
-    id: cal.1962-10-17.south-asia
-    add: '[[w.peng-zhen-nianpu-1902]], IV, 220 (cited by [[w.jian-zhou-enlai]], 480 n.77).'
-- cite:
-    id: cal.1962-10-17.south-asia-2
-    item: '[[w.jian-zhou-enlai]], 480 (that evening Mao signs the order for operations to eliminate the invading Indian troops)'
-- to-check:
-    id: cal.1962-10-17.south-asia-2
-    add: '[[w.zhongyin-bianjie-ziwei-fanji]], 179–180 (cited by [[w.jian-zhou-enlai]], 480 n.78).'
-- cite:
-    id: cal.1962-10-18.south-asia-2
-    item: '[[w.jian-zhou-enlai]], 480 (the next afternoon the Military Commission orders the "border campaign of self-defense")'
-- cite:
-    id: cal.1962-10-20.india-and-china
-    item: '[[w.jian-zhou-enlai]], 480–481 (the offensive, early on Oct. 20; within three days the western strongholds of the "forward policy" gone; by Oct. 29 at the line of Nov. 1959; in the east Tawang taken, Walong approached)'
-- cite:
-    id: cal.1962-10-20.china-2
-    item: '[[w.jian-zhou-enlai]], 483 (Oct. 20, the State Council: once Nehru''s "head was broken and bleeding," back to negotiation)'
-- cite:
-    id: cal.1962-10-21.china-2
-    item: '[[w.jian-zhou-enlai]], 481 (Oct. 21, the State Council: for negotiation, but Nehru refused, called for war and attacked; no endless concessions)'
-- cite:
-    id: cal.1962-10-24.south-asia
-    item: '[[w.jian-zhou-enlai]], 481 (Oct. 24, the government''s statement, drafted under Zhou: three proposals; the line of actual control of Nov. 7, 1959; each side twenty kilometers back)'
-- to-check:
-    id: cal.1962-10-24.south-asia
-    add: '[[w.renmin-ribao]], Oct. 25, 1962 (cited by [[w.jian-zhou-enlai]], 481 n.81).'
-- cite:
-    id: cal.1962-10-24.south-asia-3
-    item: '[[w.jian-zhou-enlai]], 481 (the same day, Zhou to Nehru, "extremely pained," the three proposals again)'
-- cite:
-    id: cal.1962-10-29.china
-    item: '[[w.jian-zhou-enlai]], 481–482 (Zhou to the Burmese Ambassador: Nehru''s line of Sept. 8, 1962 means India keeps Aksai Chin''s gains and China retreats further in the east; "This is to ask us to surrender")'
-- to-check:
-    id: cal.1962-10-29.china
-    add: Zhou's conversation with Burmese ambassador Kyaw Win, October 29, 1962 (cited by [[w.jian-zhou-enlai]], 482 n.83).
-- src:
-    id: cal.1962-10-29.china
-    rows:
-    - 'via x.1962-10-29.zhou-conversation-kyaw-win: ?'
-- cite:
-    id: cal.1962-10-29.south-asia
-    item: '[[w.jian-zhou-enlai]], 482 (Oct. 29: Peking orders the troops to halt all operations)'
-- to-check:
-    id: cal.1962-10-29.south-asia
-    add: Zhou's conversation with Burmese ambassador Kyaw Win, October 29, 1962 (cited by [[w.jian-zhou-enlai]], 482 n.83); [[w.zhou-enlai-nianpu-1949]], II, 571 (so printed) (cited by [[w.jian-zhou-enlai]], 482 n.83).
-- src:
-    id: cal.1962-10-29.south-asia
-    rows:
-    - 'via x.1962-10-29.zhou-conversation-kyaw-win: ?'
-- cite:
-    id: cal.1962-11-16.india-and-china
-    item: '[[w.jian-zhou-enlai]], 482 (Nov. 14, the Indian offensive at Walong; two days later the Chinese counteroffensive; Nehru proclaims a national emergency)'
-- cite:
-    id: cal.1962-11-19.south-asia
-    item: '[[w.jian-zhou-enlai]], 482 (Mao reads in *Cankao ziliao* Radhakrishnan''s interest in negotiation and sends it to Zhou: why talk so loudly of a peaceful settlement? the Foreign Ministry to study it; Zhou at Mao''s half an hour later: something new)'
-- to-check:
-    id: cal.1962-11-19.south-asia
-    add: '[[w.zhou-enlai-nianpu-1949]], II, 513–514 (cited by [[w.jian-zhou-enlai]], 482 n.85).'
 - variant:
     id: cal.1962-11-19.south-asia
     unit: B
     witness: w.jian-zhou-enlai
     reads: Mao reads the report on Nov. 18
     at: '482'
-- cite:
-    id: cal.1962-11-19.south-asia-2
-    item: '[[w.jian-zhou-enlai]], 482 (at midnight Zhou calls in Banerjee: he agrees with Radhakrishnan; talks at once; friends in the long view; ready to go to New Delhi a fifth time; report to Nehru at once)'
 - variant:
     id: cal.1962-11-19.south-asia-2
     unit: A
@@ -1736,47 +2141,6 @@ ops:
 - cite:
     id: cal.1962-11-21.china-leadership
     item: '[[w.jian-zhou-enlai]], 482 (Nov. 21: the troops to stop fighting from 12:00 a.m. Nov. 22 and from Dec. 1 to withdraw twenty kilometers behind the line of Nov. 7, 1959)'
-- cite:
-    id: cal.1962-11-14.china
-    item: '[[w.jian-zhou-enlai]], 484 (Nov. 14: the Center''s document: the war exposed "the true face of Indian reactionaries")'
-- to-check:
-    id: cal.1962-11-14.china
-    add: CCP CC's Notice on the Chinese-Indian Border Clashes and Questions Concerning Chinese-Indian Relations, November 14, 1962 (cited by [[w.jian-zhou-enlai]], 484 n.91).
-- src:
-    id: cal.1962-11-14.china
-    rows:
-    - 'via x.1962-11-14.ccp-cc-notice-chinese-indian-border-clashes: ?'
-- cite:
-    id: cal.1962-11-24.china
-    item: '[[w.jian-zhou-enlai]], 484 (Zhou to the People''s Congress leaders: Nehru''s "great Indian empire"; a big war needed; the withdrawal, lest China seem to change the status quo by force)'
-- to-check:
-    id: cal.1962-11-24.china
-    add: Zhou's speech at a meeting of the Standing Committee of the People's Congress, November 24, 1962 (cited by [[w.jian-zhou-enlai]], 484 n.94); [[w.zhou-enlai-junshi-huodong]], 575–577 (no volume given) (cited by [[w.jian-zhou-enlai]], 484 n.94); [[w.enlai-zhou-enlai-junshi-wenxuan]], IV, 469–477 (cited by [[w.jian-zhou-enlai]], 484 n.94).
-- src:
-    id: cal.1962-11-24.china
-    rows:
-    - 'via x.1962-11-24.zhou-speech-npc-standing-committee: ?'
-- cite:
-    id: cal.1962-10-26.china-2
-    item: '[[w.jian-zhou-enlai]], 485 (Zhou writes to the leaders of dozens of Asian and African countries as the war begins: the dispute''s course; China fights in self-defense; negotiation its aim)'
-- to-check:
-    id: cal.1962-10-26.china-2
-    add: Zhou to President Nasser and other leaders of Asian and African countries, October 26, 1962 (cited by [[w.jian-zhou-enlai]], 485 n.95).
-- src:
-    id: cal.1962-10-26.china-2
-    rows:
-    - 'via x.1962-10-26.zhou-to-nasser-and-asian-african-leaders: ?'
-- cite:
-    id: cal.1962-11-26.china
-    item: '[[w.jian-zhou-enlai]], 485 (after the cease-fire, Zhou''s exchanges with the "Colombo Six")'
-- to-check:
-    id: cal.1962-11-26.china
-    add: Zhou's letter to the leaders of the "Columbo Six," November 26, 1962 (cited by [[w.jian-zhou-enlai]], 485 n.96); Zhou's conversation with Madam Bandaranaike and Subandrio, January 3, 1963 (cited by [[w.jian-zhou-enlai]], 485 n.96).
-- src:
-    id: cal.1962-11-26.china
-    rows:
-    - 'via x.1962-11-26.zhou-letter-colombo-six: ?'
-    - 'via x.1963-01-03.zhou-conversation-bandaranaike-subandrio: ?'
 - cite:
     id: cal.1963-01-03.china-leadership
     item: '[[w.jian-zhou-enlai]], 485 (the note: Zhou''s talk with Bandaranaike and Subandrio, Jan. 3, 1963)'
@@ -1788,22 +2152,6 @@ ops:
     rows:
     - 'via x.1962-11-26.zhou-letter-colombo-six: ?'
     - 'via x.1963-01-03.zhou-conversation-bandaranaike-subandrio: ?'
-- cite:
-    id: cal.1962-10-22.soviet-union-4
-    item: '[[w.jian-zhou-enlai]], 485–486 (the Soviet memo of Oct. 22: Moscow endorses China''s position; the McMahon Line no established border but "a legacy of the tragic historical past")'
-- to-check:
-    id: cal.1962-10-22.soviet-union-4
-    add: Memo of the Soviet government to the Chinese government, October 22, 1962 (cited by [[w.jian-zhou-enlai]], 486 n.97).
-- src:
-    id: cal.1962-10-22.soviet-union-4
-    rows:
-    - 'via x.1962-10-22.soviet-government-memo-to-chinese-government: ?'
-- cite:
-    id: cal.1962-10-28.china
-    item: '[[w.jian-zhou-enlai]], 486 (Oct. 28, the rally of over ten thousand Zhou chairs; a telegram of solidarity to Castro)'
-- to-check:
-    id: cal.1962-10-28.china
-    add: '[[w.renmin-ribao]], Oct. 29, 1962 (cited by [[w.jian-zhou-enlai]], 486 n.99).'
 - cite:
     id: cal.1963-02-06.china-leadership-3
     item: '[[w.jian-zhou-enlai]], 486–487 (at the enlarged Politburo and Secretariat Liu chairs, Mao intervenes: will revisionism appear here? only socialist education will avoid it)'
@@ -1858,3 +2206,547 @@ ops:
 - cite:
     id: cal.1964-06-11.china-leadership
     item: '[[w.jian-zhou-enlai]], 490 (Liu on fighting revisionism; could China turn revisionist? Mao: "It is possible")'
+- cite:
+    id: cal.1963-01-09.china-leadership-3
+    item: '[[w.jian-zhou-enlai]], 491 (January 1963: Zhou receives from Mao a poem, the first Mao has sent him; its last line "Away with all pests!")'
+- to-check:
+    id: cal.1963-01-09.china-leadership-3
+    add: '[[w.zedong-mao-zedong-nianpu]], V, 184 (cited by [[w.jian-zhou-enlai]], 491 n.1).'
+- cite:
+    id: cal.1960-05.china
+    item: '[[w.jian-zhou-enlai]], 493 (Hanoi, May 1960: not against the Southern Revolution, but a "flexible approach combining political and military struggles"; not to abandon political action)'
+- to-check:
+    id: cal.1960-05.china
+    add: Summary of Premier Zhou's meetings with Phạm Văn Đồng during his visit to Vietnam, May 11, 1960 (cited by [[w.jian-zhou-enlai]], 493 n.6); Zhou Enlai's second conversation with Hồ Chí Minh, Lê Duẩn and others, May 12, 1960 (cited by [[w.jian-zhou-enlai]], 493 n.6); [[w.zhou-enlai-waijiao-huodong]], 279–280 (cited by [[w.jian-zhou-enlai]], 493 n.6).
+- src:
+    id: cal.1960-05.china
+    rows:
+    - 'via x.1960-05-11.summary-zhou-meetings-pham-van-dong: ?'
+    - 'via x.1960-05-12.zhou-second-conversation-ho-le-duan: ?'
+- cite:
+    id: cal.1961-06-15.china-leadership
+    item: '[[w.jian-zhou-enlai]], 493 (June 1961: Mao for armed struggle in the South; Zhou: the South must be liberated, the tactics flexible, illegal with legal, armed with political struggle)'
+- to-check:
+    id: cal.1961-06-15.china-leadership
+    add: Mao's conversation with Đồng, June 15, 1961 (cited by [[w.jian-zhou-enlai]], 493 n.7); Zhou Enlai's first and third conversations with Đồng, June 12 and June 15, 1961 (cited by [[w.jian-zhou-enlai]], 493 n.7); [[w.ming-zhongyue-guanxi-yanbian-sishinian]], 67 (cited by [[w.jian-zhou-enlai]], 493 n.7).
+- src:
+    id: cal.1961-06-15.china-leadership
+    rows:
+    - 'via x.1961-06-15.mao-conversation-pham-van-dong: ?'
+    - 'via x.1961-06-12.zhou-first-third-conversations-pham-van-dong: ?'
+- cite:
+    id: cal.1961-06-15.china-leadership-8
+    item: '[[w.jian-zhou-enlai]], 493 (Zhou to Đồng: tactics flexible and multiple)'
+- to-check:
+    id: cal.1961-06-15.china-leadership-8
+    add: Mao's conversation with Đồng, June 15, 1961 (cited by [[w.jian-zhou-enlai]], 493 n.7); Zhou Enlai's first and third conversations with Đồng, June 12 and June 15, 1961 (cited by [[w.jian-zhou-enlai]], 493 n.7); [[w.ming-zhongyue-guanxi-yanbian-sishinian]], 67 (cited by [[w.jian-zhou-enlai]], 493 n.7).
+- src:
+    id: cal.1961-06-15.china-leadership-8
+    rows:
+    - 'via x.1961-06-15.mao-conversation-pham-van-dong: ?'
+    - 'via x.1961-06-12.zhou-first-third-conversations-pham-van-dong: ?'
+- cite:
+    id: cal.1962-08-27.china-leadership
+    item: '[[w.jian-zhou-enlai]], 494 (late August: Zhou to Đồng: the southern comrades to depend mainly on themselves; Washington''s reaction to be watched; no promise to defend the North)'
+- to-check:
+    id: cal.1962-08-27.china-leadership
+    add: Zhou and Chen's meeting with Đồng, August 27, 1962 (cited by [[w.jian-zhou-enlai]], 494 n.10); Zhou's conversation with Đồng about the Southern Revolution and support to Laos, August 28, 1962 (cited by [[w.jian-zhou-enlai]], 494 n.10); [[w.zhou-enlai-junshi-huodong]], II, 567 (cited by [[w.jian-zhou-enlai]], 494 n.10).
+- src:
+    id: cal.1962-08-27.china-leadership
+    rows:
+    - 'via x.1962-08-27.zhou-chen-meeting-pham-van-dong: ?'
+    - 'via x.1962-08-28.zhou-conversation-dong-southern-revolution-laos: ?'
+- cite:
+    id: cal.1963-03.vietnam-hanoi
+    item: '[[w.jian-zhou-enlai]], 494 (March 1963: Luo Ruiqing in Hanoi on what China might do if the North is attacked)'
+- to-check:
+    id: cal.1963-03.vietnam-hanoi
+    add: '[[w.aiguo-yuanyue-kangmei]], 9 (cited by [[w.jian-zhou-enlai]], 494 n.12).'
+- cite:
+    id: cal.1963-05-11.china-leadership
+    item: '[[w.jian-zhou-enlai]], 494 (May 1963, Liu to Hồ in Hanoi: "you can count China as your rear area")'
+- to-check:
+    id: cal.1963-05-11.china-leadership
+    add: '[[w.aiguo-yuanyue-kangmei]], 8–9 (cited by [[w.jian-zhou-enlai]], 494 n.13).'
+- cite:
+    id: cal.1963-06-04.china-leadership
+    item: '[[w.jian-zhou-enlai]], 494 (June 4, Mao to Lê Duẩn and others: on South Vietnam "we have been wrong")'
+- to-check:
+    id: cal.1963-06-04.china-leadership
+    add: Mao's conversation with a VLP delegation, June 4, 1963 (cited by [[w.jian-zhou-enlai]], 494 n.14).
+- src:
+    id: cal.1963-06-04.china-leadership
+    rows:
+    - 'via x.1963-06-04.mao-conversation-vlp-delegation: ?'
+- cite:
+    id: cal.1963-09-21.china-leadership
+    item: '[[w.jian-zhou-enlai]], 494–495 (September 1963, Conghua: Zhou with Hồ, Kaysone and Aidit on "promoting revolutions in Southeast Asia"; China "the Great Rear")'
+- to-check:
+    id: cal.1963-09-21.china-leadership
+    add: '[[w.xiaopeng-fengyu-sishi-nian]], II, 219–220 (cited by [[w.jian-zhou-enlai]], 495 n.15).'
+- cite:
+    id: cal.1964-06-24.china-leadership
+    item: '[[w.jian-zhou-enlai]], 495 (June 1964, Mao to Văn Tiến Dũng: Chinese troops to go to the North as volunteers if the Americans bring the war there)'
+- to-check:
+    id: cal.1964-06-24.china-leadership
+    add: Mao's conversation with Văn Tiến Dũng et al., June 24, 1964, 18:30–19:45 (cited by [[w.jian-zhou-enlai]], 495 n.16).
+- src:
+    id: cal.1964-06-24.china-leadership
+    rows:
+    - 'via x.1964-06-24.mao-conversation-van-tien-dung: ?'
+- cite:
+    id: cal.1964-07-05.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 495–496 (early July, Hanoi: Zhou with Hồ and Kaysone: Southeast Asia the "focal point"; the "special war"; when America takes a step, China takes a step)'
+- to-check:
+    id: cal.1964-07-05.china-leadership-2
+    add: '[[w.xiaopeng-fengyu-sishi-nian]], II, 220–221 (cited by [[w.jian-zhou-enlai]], 496 n.17).'
+- cite:
+    id: cal.1964-08-05.china
+    item: '[[w.jian-zhou-enlai]], 496 (Zhou and Luo cable Hồ, Đồng and Dũng: clarify the situation, set policy, be prepared)'
+- to-check:
+    id: cal.1964-08-05.china
+    add: '[[w.ke-wenhua-dageming-zhong-de]], 408 (cited by [[w.jian-zhou-enlai]], 496 n.18).'
+- cite:
+    id: cal.1964-08-06.china-leadership-4
+    item: '[[w.jian-zhou-enlai]], 496 (Aug. 6: the clash of Aug. 2 genuine but unexpected; the second attack "made up by the Americans"; six motives)'
+- to-check:
+    id: cal.1964-08-06.china-leadership-4
+    add: Zhou's meeting with North Korean and Romanian ambassadors, August 6 and August 8, 1964 (cited by [[w.jian-zhou-enlai]], 496 n.19).
+- src:
+    id: cal.1964-08-06.china-leadership-4
+    rows:
+    - 'via x.1964-08-06.zhou-meeting-north-korean-romanian-ambassadors: ?'
+- cite:
+    id: cal.1964-08-13.china-leadership
+    item: '[[w.jian-zhou-enlai]], 497 (mid-August, Lê Duẩn secretly in Peking: Hanoi did not order the attack; Mao: the war will not happen; "we Chinese also have legs"; "visible action")'
+- to-check:
+    id: cal.1964-08-13.china-leadership
+    add: Mao's conversation with Lê Duẩn, August 13, 1964, 16:00–18:00 (cited by [[w.jian-zhou-enlai]], 497 n.20).
+- src:
+    id: cal.1964-08-13.china-leadership
+    rows:
+    - 'via x.1964-08-13.mao-conversation-le-duan: ?'
+- cite:
+    id: cal.1964-10-05.china-leadership
+    item: '[[w.jian-zhou-enlai]], 497 (Oct. 5, Mao to Đồng: defeat Saigon, avoid direct conflict with the Americans; Zhou with Đồng on collapsing the Saigon regime)'
+- cite:
+    id: cal.1965-01-22.china-leadership
+    item: '[[w.jian-zhou-enlai]], 497 (January 1965: Zhou proposes a coordinated general offensive against the strategic hamlets; victory "earlier than we had originally expected")'
+- to-check:
+    id: cal.1965-01-22.china-leadership
+    add: Zhou's conversation with a Vietnamese military delegation, January 22, 1965 (cited by [[w.jian-zhou-enlai]], 497 n.22).
+- src:
+    id: cal.1965-01-22.china-leadership
+    rows:
+    - 'via x.1965-01-22.zhou-conversation-vietnamese-military-delegation: ?'
+- cite:
+    id: cal.1960-11-30.china-leadership
+    item: '[[w.jian-zhou-enlai]], 498 (November 1960: Zhou promises Guevara support despite the natural disaster)'
+- to-check:
+    id: cal.1960-11-30.china-leadership
+    add: Zhou's conversation with Che Guevara, October 18, 1960 (so dated) (cited by [[w.jian-zhou-enlai]], 498 n.24).
+- src:
+    id: cal.1960-11-30.china-leadership
+    rows:
+    - 'via x.1960-10-18.zhou-conversation-che-guevara: ?'
+- check:
+    id: cal.1960-11-30.china-leadership
+    text: 'Check: [[w.jian-zhou-enlai]], 498 n.24, dates the record of Zhou''s conversation with Guevara Oct. 18, 1960, before Guevara reached China.'
+- cite:
+    id: cal.1960-11-19.china-leadership
+    item: '[[w.jian-zhou-enlai]], 498 (Zhou receives Guevara and goes with him to Mao; Mao on the Cuban Revolution''s impact; Guevara: imperialism was dozing)'
+- to-check:
+    id: cal.1960-11-19.china-leadership
+    add: Zhou's conversation with Che Guevara, October 18, 1960 (so dated) (cited by [[w.jian-zhou-enlai]], 498 n.24).
+- src:
+    id: cal.1960-11-19.china-leadership
+    rows:
+    - 'via x.1960-10-18.zhou-conversation-che-guevara: ?'
+- cite:
+    id: cal.1965-01-24.china-leadership
+    item: '[[w.jian-zhou-enlai]], 499 (January 1965: Zhou to Subandrio: wider political, economic, technical and military cooperation)'
+- to-check:
+    id: cal.1965-01-24.china-leadership
+    add: Zhou's series of meetings with Subandrio, January 1965 (cited by [[w.jian-zhou-enlai]], 499 n.29).
+- src:
+    id: cal.1965-01-24.china-leadership
+    rows:
+    - 'via x.1965-01.zhou-series-meetings-subandrio: ?'
+- cite:
+    id: cal.1963-01-03.china-leadership
+    item: '[[w.jian-zhou-enlai]], 499 (Zhou explains to the Colombo Six''s leaders the "customary lines" and the line of actual control)'
+- to-check:
+    id: cal.1963-01-03.china-leadership
+    add: Zhou's conversations with Madame Bandaranaike and Subandrio, January 5, 1963 (cited by [[w.jian-zhou-enlai]], 499 n.31).
+- src:
+    id: cal.1963-01-03.china-leadership
+    rows:
+    - 'via x.1963-01-05.zhou-conversations-bandaranaike-subandrio: ?'
+- cite:
+    id: cal.1963-12-19.china-leadership
+    item: '[[w.jian-zhou-enlai]], 500 (Cairo, three meetings with Nasser: support for the Arabs; Washington to blame; "forced to be anti-American"; India; a ten-year interest-free loan of 335 million Swiss francs)'
+- to-check:
+    id: cal.1963-12-19.china-leadership
+    add: '[[w.renmin-ribao]], Dec. 16, 1963 (cited by [[w.jian-zhou-enlai]], 500 n.32); Zhou''s one-on-one meeting with Nasser, December 20, 1963 (cited by [[w.jian-zhou-enlai]], 500 n.33); Zhou''s third meeting with Nasser, December 19, 1963 (cited by [[w.jian-zhou-enlai]], 500 n.33).'
+- src:
+    id: cal.1963-12-19.china-leadership
+    rows:
+    - 'via x.1963-12-20.zhou-one-on-one-nasser: ?'
+    - 'via x.1963-12-19.zhou-third-meeting-nasser: ?'
+- cite:
+    id: cal.1963-12-20.china-leadership
+    item: '[[w.jian-zhou-enlai]], 500 (the one-on-one meeting with Nasser)'
+- to-check:
+    id: cal.1963-12-20.china-leadership
+    add: Zhou's one-on-one meeting with Nasser, December 20, 1963 (cited by [[w.jian-zhou-enlai]], 500 n.33); Zhou's third meeting with Nasser, December 19, 1963 (cited by [[w.jian-zhou-enlai]], 500 n.33).
+- src:
+    id: cal.1963-12-20.china-leadership
+    rows:
+    - 'via x.1963-12-20.zhou-one-on-one-nasser: ?'
+    - 'via x.1963-12-19.zhou-third-meeting-nasser: ?'
+- cite:
+    id: cal.1963-12-21.china-leadership-3
+    item: '[[w.jian-zhou-enlai]], 500–501 (Dec. 21, Algiers: the revolution "almost a miracle"; four meetings with Ben Bella; not to rush to socialism; two issues with the Americans; war with China unlikely soon)'
+- to-check:
+    id: cal.1963-12-21.china-leadership-3
+    add: Zhou's third meeting with Ben Bella, December 24, 1963 (cited by [[w.jian-zhou-enlai]], 500 n.34); Zhou's fourth meeting with Ben Bella, December 26, 1963 (cited by [[w.jian-zhou-enlai]], 501 n.35).
+- src:
+    id: cal.1963-12-21.china-leadership-3
+    rows:
+    - 'via x.1963-12-24.zhou-third-meeting-ben-bella: ?'
+    - 'via x.1963-12-26.zhou-fourth-meeting-ben-bella: ?'
+- cite:
+    id: cal.1963-12-27.china-leadership-4
+    item: '[[w.jian-zhou-enlai]], 501 (Morocco, Dec. 27–31: King Hassan II; the oil refinery)'
+- to-check:
+    id: cal.1963-12-27.china-leadership-4
+    add: Zhou and Chen Yi's report on the visit to Morocco, January 5, 1964 (cited by [[w.jian-zhou-enlai]], 501 n.36); [[w.lianqing-da-waijiaojia-zhou-enlai]], V, 145 (so cited) (cited by [[w.jian-zhou-enlai]], 501 n.36).
+- src:
+    id: cal.1963-12-27.china-leadership-4
+    rows:
+    - 'via x.1964-01-05.zhou-chen-yi-report-visit-morocco: ?'
+- cite:
+    id: cal.1964-01-02.china-leadership
+    item: '[[w.jian-zhou-enlai]], 501 (Albania: Hoxha on fighting Khrushchev; Zhou accepts nearly all of Hoxha''s requests for aid)'
+- to-check:
+    id: cal.1964-01-02.china-leadership
+    add: '[[w.taiping-zhonghua-renmin-gongheguo-waijiaoshi]], III, 271–273 (cited by [[w.jian-zhou-enlai]], 501 n.37).'
+- cite:
+    id: cal.1964-01-10.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 501 (Tunisia: Zhou and Bourguiba sign a communiqué that the two countries will establish relations)'
+- cite:
+    id: cal.1964-01-06.china-leadership
+    item: '[[w.jian-zhou-enlai]], 501–502 (Nkrumah nearly assassinated; Zhou refuses to drop the visit and offers to meet him at Osu Castle)'
+- to-check:
+    id: cal.1964-01-06.china-leadership
+    add: Premier Zhou plans to visit Ghana as originally scheduled, January 6–9, 1964 (cited by [[w.jian-zhou-enlai]], 502 n.38).
+- src:
+    id: cal.1964-01-06.china-leadership
+    rows:
+    - 'via x.1964-01-06.premier-zhou-plans-visit-ghana-as-scheduled: ?'
+- cite:
+    id: cal.1964-01-15.china-leadership
+    item: '[[w.jian-zhou-enlai]], 502 (Jan. 15, Accra: the eight principles of China''s economic and technical aid)'
+- to-check:
+    id: cal.1964-01-15.china-leadership
+    add: '[[w.zhou-enlai-waijiao-wenxuan]], 388–389 (cited by [[w.jian-zhou-enlai]], 502 n.39).'
+- cite:
+    id: cal.1964-02-14.china-leadership
+    item: '[[w.jian-zhou-enlai]], 502 (Feb. 14, after ten days at Kunming and Chengdu, Zhou goes on to Burma and Pakistan)'
+- cite:
+    id: cal.1964-02-20.china-leadership
+    item: '[[w.jian-zhou-enlai]], 502 (Ayub Khan: "no war and no conflict"; Zhou: negotiation without giving up principle; support for Pakistan''s independence)'
+- to-check:
+    id: cal.1964-02-20.china-leadership
+    add: '[[w.lianqing-da-waijiaojia-zhou-enlai]], V, 214–218 (so cited) (cited by [[w.jian-zhou-enlai]], 502 n.40).'
+- cite:
+    id: cal.1964-02-23.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 503 (the joint communiqué: Kashmir to be settled by the Kashmiri people''s will, China''s first pro-Pakistan statement on it)'
+- to-check:
+    id: cal.1964-02-23.china-leadership-2
+    add: '[[w.zhonghua-renmin-gongheguo-guowuyuan]], no. 5 (Mar. 12, 1964), 84 (the PRC-Pakistan joint communiqué, Feb. 23, 1964) (cited by [[w.jian-zhou-enlai]], 503 n.41).'
+- cite:
+    id: cal.1964-02-26.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 503 (Feb. 26, Dhaka: Song Qingling joins Zhou; together to Ceylon)'
+- cite:
+    id: cal.1964-02-29.china-leadership-3
+    item: '[[w.jian-zhou-enlai]], 503 (Zhou to Mrs. Bandaranaike: China twenty kilometers back from the line; the Colombo Six to mediate if India advances)'
+- to-check:
+    id: cal.1964-02-29.china-leadership-3
+    add: Zhou's third conversation with Madame Bandaranaike, February 29, 1964 (cited by [[w.jian-zhou-enlai]], 503 n.42).
+- src:
+    id: cal.1964-02-29.china-leadership-3
+    rows:
+    - 'via x.1964-02-29.zhou-third-conversation-bandaranaike: ?'
+- cite:
+    id: cal.1964-03-01.china-leadership
+    item: '[[w.jian-zhou-enlai]], 503 (Zhou and Song back in Kunming Mar. 1)'
+- cite:
+    id: cal.1964-03-30.china-leadership
+    item: '[[w.jian-zhou-enlai]], 503 (Zhou''s report to the National People''s Congress on the trip: Africa a continent of awakening)'
+- to-check:
+    id: cal.1964-03-30.china-leadership
+    add: '[[w.lianqing-da-waijiaojia-zhou-enlai]], V, 227–228 (so cited) (cited by [[w.jian-zhou-enlai]], 503 n.43).'
+- cite:
+    id: cal.1960-08-27.china-leadership
+    item: '[[w.jian-zhou-enlai]], 504 (Aug. 27, 1960: the three political principles reiterated, the three trade principles introduced)'
+- to-check:
+    id: cal.1960-08-27.china-leadership
+    add: Zhou's talk with Kazuo Suzuki, Senior Director of Japan-China Trade Promotion Council, August 27, 1960 (cited by [[w.jian-zhou-enlai]], 504 n.47); [[w.zhou-enlai-waijiao-wenxuan]], 289–290 (cited by [[w.jian-zhou-enlai]], 504 n.47).
+- src:
+    id: cal.1960-08-27.china-leadership
+    rows:
+    - 'via x.1960-08-27.zhou-talk-suzuki-kazuo: ?'
+- cite:
+    id: cal.1960-10-12.china-leadership
+    item: '[[w.jian-zhou-enlai]], 504 (Takasaki in Peking in mid-October 1960; Zhou''s three "minimum conditions")'
+- to-check:
+    id: cal.1960-10-12.china-leadership
+    add: Zhou's conversation with Takasaki, October 13 and November 1, 1960 (cited by [[w.jian-zhou-enlai]], 504 n.48).
+- src:
+    id: cal.1960-10-12.china-leadership
+    rows:
+    - 'via x.1960-10-13.zhou-conversations-takasaki: ?'
+- cite:
+    id: cal.1962-10-29.china-leadership
+    item: '[[w.jian-zhou-enlai]], 505 (late October: Takasaki''s large delegation; Zhou speaks with him)'
+- cite:
+    id: cal.1963-10-23.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 506 (Faure back in China with de Gaulle''s letter (Oct. 21), in Peking Oct. 22; Zhou, the next morning: three options; Faure: France wants ambassadors)'
+- to-check:
+    id: cal.1963-10-23.china-leadership-2
+    add: Zhou's first conversation with Faure, October 23, 1963 (cited by [[w.jian-zhou-enlai]], 506 n.54).
+- src:
+    id: cal.1963-10-23.china-leadership-2
+    rows:
+    - 'via x.1963-10-23.zhou-first-conversation-faure: ?'
+- cite:
+    id: cal.1963-10-25.china-leadership-4
+    item: '[[w.jian-zhou-enlai]], 506–507 (Oct. 25: Faure''s "personal proposal": France recognizes Peking, Peking answers that this means France has cut off Taiwan)'
+- to-check:
+    id: cal.1963-10-25.china-leadership-4
+    add: Zhou and Chen Yi's conversation with Faure, October 25, 1964 (so printed; 1963 by the text) (cited by [[w.jian-zhou-enlai]], 507 n.56).
+- src:
+    id: cal.1963-10-25.china-leadership-4
+    rows:
+    - 'via x.1963-10-25.zhou-chen-yi-conversation-faure: ?'
+- cite:
+    id: cal.1963-11-02.china-leadership-3
+    item: '[[w.jian-zhou-enlai]], 507 (with Mao''s approval, no prior break with Taiwan required; Nov. 2, the three-step plan in writing to Faure)'
+- to-check:
+    id: cal.1963-11-02.china-leadership-3
+    add: Zhou's letter to Mao, Liu, and Deng et al., November 1, 1963 (cited by [[w.jian-zhou-enlai]], 507 n.57); Zhou and Chen Yi's conversation with Faure, November 1, 1963, 21:15–22:00 (cited by [[w.jian-zhou-enlai]], 507 n.57).
+- src:
+    id: cal.1963-11-02.china-leadership-3
+    rows:
+    - 'via x.1963-11-01.zhou-letter-mao-liu-deng-faure: ?'
+    - 'via x.1963-11-01.zhou-chen-yi-conversation-faure-2115: ?'
+- cite:
+    id: cal.1964-01-27.europe-and-the-alliance
+    item: '[[w.jian-zhou-enlai]], 508 (the communiqué issued Jan. 27)'
+- cite:
+    id: cal.1964-07-10.china-leadership-3
+    item: '[[w.jian-zhou-enlai]], 509 (July 10: Mao to the Japanese Socialist Party: Outer Mongolia; too many lands occupied; the Kurils smaller; not discussed with Zhou beforehand)'
+- to-check:
+    id: cal.1964-07-10.china-leadership-3
+    add: Mao's conversation with a delegation of the Japanese Socialist Party, July 10, 1964 (cited by [[w.jian-zhou-enlai]], 509 n.61).
+- src:
+    id: cal.1964-07-10.china-leadership-3
+    rows:
+    - 'via x.1964-07-10.mao-conversation-japanese-socialist-party: ?'
+- cite:
+    id: cal.1964-07-19.china-leadership-3
+    item: '[[w.jian-zhou-enlai]], 509 (July 19: Zhou: China''s consistent support for Japan''s demand for the northern islands)'
+- to-check:
+    id: cal.1964-07-19.china-leadership-3
+    add: Zhou's conversation with a group of the Japanese Socialist Party, July 19, 1964 (105-01897-04) (cited by [[w.jian-zhou-enlai]], 509 n.62).
+- src:
+    id: cal.1964-07-19.china-leadership-3
+    rows:
+    - 'via x.1964-07-19.zhou-conversation-japanese-socialist-party: ?'
+- cite:
+    id: cal.1964-10-16.china-leadership
+    item: '[[w.jian-zhou-enlai]], 510 (the next afternoon, Mao: changes in Moscow, not very big or very rapid; wait and see)'
+- to-check:
+    id: cal.1964-10-16.china-leadership
+    add: Zhou's speech on the situation, October 19, 1964 (cited by [[w.jian-zhou-enlai]], 510 n.66).
+- src:
+    id: cal.1964-10-16.china-leadership
+    rows:
+    - 'via x.1964-10-19.zhou-speech-on-situation: ?'
+- cite:
+    id: cal.1964-10-19.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 510 (the note: Zhou''s speech on the situation, Oct. 19, 1964)'
+- to-check:
+    id: cal.1964-10-19.china-leadership-2
+    add: '[[w.zedong-mao-zedong-nianpu]], V, 419 (cited by [[w.jian-zhou-enlai]], 510 n.66); Zhou''s speech on the situation, October 19, 1964 (cited by [[w.jian-zhou-enlai]], 510 n.66).'
+- src:
+    id: cal.1964-10-19.china-leadership-2
+    rows:
+    - 'via x.1964-10-19.zhou-speech-on-situation: ?'
+- cite:
+    id: cal.1964-10-22.china-leadership
+    item: '[[w.jian-zhou-enlai]], 510 ("five days later": Zhou and others for a positive stand; Mao: let the dust settle; "I am a center-leftist"; a vice premier to Moscow)'
+- cite:
+    id: cal.1964-10-29.china-leadership
+    item: '[[w.jian-zhou-enlai]], 510 (a few days later Mao: "We should act"; a delegation under Zhou to the October celebrations; watch patiently)'
+- cite:
+    id: cal.1964-10-28.china
+    item: '[[w.jian-zhou-enlai]], 510–511 (Oct. 28: Zhou tells Chervonenko he will lead a delegation; proposes all twelve socialist countries meet at Moscow)'
+- to-check:
+    id: cal.1964-10-28.china
+    add: PRC Foreign Ministry and CCP Central Liaison Department to Ambassador Pan Zili, about Zhou's conversation with the Soviet ambassador, October 29, 1964 (cited by [[w.jian-zhou-enlai]], 511 n.70); Chervonenko's meeting with Zhou, October 29, 1964 (cited by [[w.jian-zhou-enlai]], 511 n.70).
+- src:
+    id: cal.1964-10-28.china
+    rows:
+    - 'via x.1964-10-29.fm-liaison-dept-to-pan-zili-zhou-soviet-ambassador: ?'
+    - 'via x.1964-10-29.chervonenko-meeting-zhou-avprf: ?'
+- cite:
+    id: cal.1964-10-29.china-leadership-5
+    item: '[[w.jian-zhou-enlai]], 511 (Zhou to the ambassadors of North Korea, North Vietnam, Romania, Albania and Cuba: delegations, ideally prime ministers, to Moscow; support positive change)'
+- to-check:
+    id: cal.1964-10-29.china-leadership-5
+    add: Zhou's conversation with the Vietnamese, Romanian, Albanian, Cuban and North Korean ambassadors, October 29, 1964 (cited by [[w.jian-zhou-enlai]], 511 n.71).
+- src:
+    id: cal.1964-10-29.china-leadership-5
+    rows:
+    - 'via x.1964-10-29.zhou-conversation-five-ambassadors: ?'
+- variant:
+    id: cal.1964-10-29.china-leadership-5
+    unit: A
+    witness: w.jian-zhou-enlai
+    reads: Zhou meets the five ambassadors on the evening of Oct. 28
+    at: '511'
+- cite:
+    id: cal.1964-10-30.china-leadership-3
+    item: '[[w.jian-zhou-enlai]], 511 (the next day the same proposal to the East German, Bulgarian, Hungarian, Czechoslovak, Polish and Mongolian ambassadors)'
+- to-check:
+    id: cal.1964-10-30.china-leadership-3
+    add: Zhou's conversation with the Bulgarian, Hungarian, Czechoslovakian, Polish, Mongolian and East German ambassadors, October 30, 1965 (so printed; 1964 by the text) (cited by [[w.jian-zhou-enlai]], 511 n.72).
+- src:
+    id: cal.1964-10-30.china-leadership-3
+    rows:
+    - 'via x.1964-10-30.zhou-conversation-six-ambassadors: ?'
+- cite:
+    id: cal.1964-10-31.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 511 (Oct. 31: Chervonenko''s urgent call: the new leaders welcome Zhou; "an international festival")'
+- to-check:
+    id: cal.1964-10-31.china-leadership-2
+    add: Zhou's conversation with Chervonenko, October 30, 1965 (so printed; Oct. 31, 1964 by the text) (cited by [[w.jian-zhou-enlai]], 511 n.73).
+- src:
+    id: cal.1964-10-31.china-leadership-2
+    rows:
+    - 'via x.1964-10-31.zhou-conversation-chervonenko: ?'
+- cite:
+    id: cal.1964-11-05.china-leadership-5
+    item: '[[w.jian-zhou-enlai]], 511 (Nov. 5, with Phạm Văn Đồng; Kosygin himself at the airport)'
+- to-check:
+    id: cal.1964-11-05.china-leadership-5
+    add: Chinese Embassy in Moscow to Chinese Foreign Ministry, November 6, 1964 (cited by [[w.jian-zhou-enlai]], 511 n.74).
+- src:
+    id: cal.1964-11-05.china-leadership-5
+    rows:
+    - 'via x.1964-11-06.chinese-embassy-moscow-to-foreign-ministry: ?'
+- cite:
+    id: cal.1964-11-06.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 511–512 (from 11:10 a.m., Brezhnev, Kosygin and Mikoyan; Mikoyan: plans to restore relations of ten or fifteen years before?)'
+- to-check:
+    id: cal.1964-11-06.china-leadership-2
+    add: '[[w.mingfu-yan-mingfu-huiyilu]], II, 862 (cited by [[w.jian-zhou-enlai]], 512 n.75).'
+- cite:
+    id: cal.1964-11-07.china-leadership-7
+    item: '[[w.jian-zhou-enlai]], 512 (the banquet, evening of Nov. 7: Malinovsky to He Long, "Why can''t you get rid of Mao?"; Zhou and He Long at once to Brezhnev: "a serious provocation")'
+- to-check:
+    id: cal.1964-11-07.china-leadership-7
+    add: '[[w.mingfu-yan-mingfu-huiyilu]], II, 864 (cited by [[w.jian-zhou-enlai]], 512 n.76); [[w.mingfu-yan-mingfu-huiyilu]], II, 864–865 (cited by [[w.jian-zhou-enlai]], 512 n.77).'
+- cite:
+    id: cal.1964-11-07.china-leadership-8
+    item: '[[w.jian-zhou-enlai]], 512 (that evening Zhou checks the words with the interpreters and cables the Center, "the highest urgency")'
+- to-check:
+    id: cal.1964-11-07.china-leadership-8
+    add: '[[w.mingfu-yan-mingfu-huiyilu]], 868 (cited by [[w.jian-zhou-enlai]], 512 n.78).'
+- cite:
+    id: cal.1964-11-08.china-leadership-4
+    item: '[[w.jian-zhou-enlai]], 512 (the reply next morning: "take the offensive")'
+- to-check:
+    id: cal.1964-11-08.china-leadership-4
+    add: '[[w.mingfu-yan-mingfu-huiyilu]], 868 (cited by [[w.jian-zhou-enlai]], 512 n.78).'
+- cite:
+    id: cal.1964-11-08.china
+    item: '[[w.jian-zhou-enlai]], 512 (Zhou to Brezhnev and others: "Do you want the Chinese party to overturn Chairman Mao''s leadership?"; "When liquor goes in, the truth comes out")'
+- to-check:
+    id: cal.1964-11-08.china
+    add: Brezhnev and Zhou meeting records, November 8, 1964 (cited by [[w.jian-zhou-enlai]], 512 n.79); [[w.mingfu-yan-mingfu-huiyilu]], II, 865–866 (cited by [[w.jian-zhou-enlai]], 512 n.79).
+- src:
+    id: cal.1964-11-08.china
+    rows:
+    - 'via x.1964-11-08.brezhnev-zhou-meeting-records-rgani: ?'
+- cite:
+    id: cal.1964-11-12.china-leadership
+    item: '[[w.jian-zhou-enlai]], 512–513 (three more days of meetings; Mikoyan: "we are not different from Khrushchev")'
+- to-check:
+    id: cal.1964-11-12.china-leadership
+    add: '[[w.mingfu-yan-mingfu-huiyilu]], II, 866–867 (cited by [[w.jian-zhou-enlai]], 513 n.80).'
+- cite:
+    id: cal.1964-11-13.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 513 (the last meeting with Brezhnev: the door to consultation still open)'
+- to-check:
+    id: cal.1964-11-13.china-leadership-2
+    add: '[[w.zedong-mao-zedong-nianpu]], V, 434 (cited by [[w.jian-zhou-enlai]], 513 n.82).'
+- cite:
+    id: cal.1964-11-14.china-leadership
+    item: '[[w.jian-zhou-enlai]], 513 (Mao and nearly the whole leadership meet Zhou at the airport; that afternoon Zhou to the Standing Committee: the new leaders unhappy with Khrushchev''s style, not his line)'
+- variant:
+    id: cal.1962-10-30.china
+    unit: A
+    witness: w.jian-zhou-enlai
+    reads: Luo Ruiqing makes the proposal to Zhou on Oct. 10, 1962
+    at: '515'
+- cite:
+    id: cal.1962-11-29.china-leadership
+    item: '[[w.jian-zhou-enlai]], 516 (three meetings before the month is out; Zhou''s principles: respect facts, go step by step, persist, stay modest)'
+- to-check:
+    id: cal.1962-11-29.china-leadership
+    add: '[[w.zhou-enlai-zhuan-1949]], 796 (cited by [[w.jian-zhou-enlai]], 516 n.102).'
+- cite:
+    id: cal.1963-07-31.china
+    item: '[[w.jian-zhou-enlai]], 516 (Peking condemns the treaty as binding others'' arms and legs while the nuclear powers go on building, storing and using the weapons)'
+- to-check:
+    id: cal.1963-07-31.china
+    add: '[[w.yixian-zhongguo-waijiao-shi-1949]], 302–303 (cited by [[w.jian-zhou-enlai]], 516 n.104).'
+- cite:
+    id: cal.1963-08-15.china
+    item: '[[w.jian-zhou-enlai]], 516 (Peking: the more countries have the bomb, the less likely its use)'
+- to-check:
+    id: cal.1963-08-15.china
+    add: '[[w.yixian-zhongguo-waijiao-shi-1949]], 302–303 (cited by [[w.jian-zhou-enlai]], 516 n.104).'
+- cite:
+    id: cal.1964-04-11.china-leadership
+    item: '[[w.jian-zhou-enlai]], 516 (Apr. 11: the special commission under Zhou: preparations for the first test done by Sept. 10, "in one test")'
+- to-check:
+    id: cal.1964-04-11.china-leadership
+    add: '[[w.jue-dangdai-zhongguo-de-hegongye]], 54 (cited by [[w.jian-zhou-enlai]], 516 n.107); [[w.zhou-enlai-zhuan-1949]], 796 (cited by [[w.jian-zhou-enlai]], 516 n.107).'
+- cite:
+    id: cal.1964-09-16.china-leadership
+    item: '[[w.jian-zhou-enlai]], 516–517 (mid-September: Zhou prefers the test earlier; the date to be fixed before National Day; Mao: the bomb is "used to scare others," better earlier)'
+- to-check:
+    id: cal.1964-09-16.china-leadership
+    add: '[[w.enlai-zhou-enlai-junshi-wenxuan]], IV, 484 (cited by [[w.jian-zhou-enlai]], 516 n.108); [[w.zhou-enlai-zhuan-1949]], 797–798 (cited by [[w.jian-zhou-enlai]], 516 n.108); [[w.he-zhang-aiping-zhuan]], II, 776 (cited by [[w.jian-zhou-enlai]], 517 n.109).'
+- cite:
+    id: cal.1964-09-21.china-leadership
+    item: '[[w.jian-zhou-enlai]], 517 (Sept. 21: Zhou to Mao, the test no later than Oct. 24; Mao approves the same day)'
+- to-check:
+    id: cal.1964-09-21.china-leadership
+    add: '[[w.enlai-zhou-enlai-junshi-wenxuan]], IV, 484–485 (cited by [[w.jian-zhou-enlai]], 517 n.110); [[w.zhou-enlai-zhuan-1949]], 798 (cited by [[w.jian-zhou-enlai]], 517 n.110).'
+- cite:
+    id: cal.1964-10-16.testing
+    item: '[[w.jian-zhou-enlai]], 517 (Oct. 16, the explosion at 15:00)'
+- to-check:
+    id: cal.1964-10-16.testing
+    add: '[[w.bujinde-sinian]], 322–323 (Liu Jie) (cited by [[w.jian-zhou-enlai]], 517 n.113).'
+- cite:
+    id: cal.1964-10-16.china-leadership-5
+    item: '[[w.jian-zhou-enlai]], 517 (that evening Zhou, with Mao, announces at the Great Hall: "We have successfully tested our first atomic bomb!")'
+- to-check:
+    id: cal.1964-10-16.china-leadership-5
+    add: '[[w.zhou-enlai-zhuan-1949]], II, 806 (cited by [[w.jian-zhou-enlai]], 517 n.114).'
