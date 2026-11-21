@@ -1,0 +1,54 @@
+# Odd Arne Westad, ed., *Brothers in Arms: The Rise and Fall of the Sino-Soviet Alliance, 1945–1963* (1998)
+
+## Run 1 (reader b15b-westad-1, Nov. 20–21, 2026): the span Jan. 1960 to 1963
+
+**The copy.** Drive `1NERZgA6DQ-d577Kx4mUG_Fsk_g5yLX1-`, an EPUB (netLibrary-style): one XHTML file a printed page (`page_1.xml` … `page_403.xml`, the front matter `page_i` … `page_xxii`), each headed "Page N" in red. So the keying is the printed page itself; no folio offset. The copyright page (iv): © 1998 Woodrow Wilson International Center for Scholars; Woodrow Wilson Center Press and Stanford University Press; Cold War International History Project series; LC CIP "edited by Odd Arne Westad". An open printing (no internal-circulation mark). Downloaded and text deleted at the end of the run.
+
+**The chapters.** The table of contents (v) is not the brief's list: there are no chapters by Zubok, Kramer or Mastny (Zubok and Kramer appear only as the finders of appendix documents). It is: Introduction (Westad, 1–46); 1 Niu Jun, origins (47–89); 2 Weathersby, Korea (90–116); 3 Kaple, advisers (117–140); 4 Goncharenko, military cooperation (141–164); 5 Westad, the alliance and the United States (165–188); 6 Zhang Shu Guang, economic cooperation (189–225); 7 Pleshakov, Khrushchev (226–245); 8 Chen Jian and Yang Kuisong, Chinese politics and the collapse (246–294); Appendix, seventeen documents, 1948–63 (295–390).
+
+**The cards.** The volume `w.brothers-in-arms` (`kind: volume`, editor Westad), and a chapter card for each chapter cited, `kind: chapter`, `page:` its first page, `in: w.brothers-in-arms`, the form of `w.hershberg-informing-the-enemy` in `w.roberts-behind-the-bamboo-curtain-2006`: `w.westad-introduction`, `w.goncharenko-sino-soviet-military-cooperation`, `w.westad-sino-soviet-alliance-and`, `w.zhang-sino-soviet-economic-cooperation`, `w.pleshakov-nikita-khrushchev-and-sino`, `w.jian-chinese-politics-and-the`. The appendix is the editor's and is cited by the volume card and page ("[[w.brothers-in-arms]], 365–369"). Cards made for works the notes cite on entries: `w.china-and-the-soviet` (Jones and Kevill, comps., 1985), `w.dittmer-sino-soviet-normalization-and`, `w.soviet-naval-diplomacy` (Dismukes and McConnell, eds.), `w.cheng-zhonghua-renmin-gongheguo-shilu` (Li Cheng, chief ed., 1994), `w.cold-war-international-history` (the *CWIHP Bulletin*, periodical). Twelve cards in all.
+
+**The edges.** The brief asked for one by-work file, `westad-brothers-in-arms.yaml`; `witnesses.py` keys a by-work file to one card by its name and refuses a file naming no card, so the edges are in seven files, each under `# run 1`: `brothers-in-arms.yaml` (the appendix's records, edge `translation`, anchored "364 n.source", the document's source line), and one a chapter (`westad-introduction.yaml`, `westad-sino-soviet-alliance-and.yaml`, `goncharenko-sino-soviet-military-cooperation.yaml`, `zhang-sino-soviet-economic-cooperation.yaml`, `pleshakov-nikita-khrushchev-and-sino.yaml`, `jian-chinese-politics-and-the.yaml`).
+
+**Notes and their anchors.** Endnotes at each chapter's end, numbered through the chapter. A note is cited and anchored by the text page that calls it and its number ("26 n.90", "179 n.40"), not the notes page where it is printed; several items of one note lettered in the note's order ("26 n.90a" … "e"). The appendix has no notes but the editor's glosses (its footnotes 23–36, no witnesses) and each document's source line.
+
+## What was read (printed pages)
+
+Introduction 18–31 (the text from 1959 to the end) and its notes 43–46 (nn.80–109); ch. 4 141, 148–160 and notes 162–164; ch. 5 177–181 and notes 185–188; ch. 6 189, 212–216 and notes 224–225; ch. 7 226–228, 236–240 and notes 244–245; ch. 8 274–277 and notes 293–294; the appendix XIII–XVII, 361–390 (XII and earlier documents are of 1948–59). Every page of chs. 1–3 and the rest of chs. 4–8 searched for 1960–63 by date: none but 3, 5, 19, 33–34, 40–41 (retrospect, bibliography, the 1963 record cited for 1956), out of the run. Every page cited has its notes registered (rows or edges); 160's apartment sentence and 238–239's text have notes nearby only for other sentences, and 361–390 have none.
+
+## What was entered and cited
+
+Patch `inbox/2026-11-20-b15b-westad-1.yaml`; witness rows `inbox/witnesses/2026-11-20-b15b-westad-1.yaml`; edges as above.
+
+- **35 new entries**, each claimed in the ledger: the CPSU's oral presentation on the Indian border (Feb. 1960); Deng–Chervonenko, June 1; *Sovetskaya Rossiya*, June 10; the Chinese leaders' quiet nuclear campaign (early summer 1960); the CPSU plenum and Kozlov's report (July); Chen Yi's consultation at Beidaihe and his talk with Chervonenko, Aug. 4 (the record printed here, 361–364; the calendar had no entry); the Foreign Ministry's notes of Aug. 13 and Oct. 24; Zhou–Chervonenko, Aug. 23; Liu–Brezhnev on the train, Dec. 4; the Soviet small-apartment decision (1960); Chervonenko–Pino Santos, Jan. 2, 1961; Liu to Chervonenko, Feb. 28; Chervonenko–Ma Zikun, Apr. 18; the Foreign Ministry notes of May 18 and Nov. 30, 1961; Mao's angina (June 1961); Chervonenko's request of Apr. 5, 1962; Khrushchev's MiG-21 decision (summer 1962); the Soviet notice on nonproliferation, Aug. 25; Mao on no war over Cuba and his propaganda turn (Oct.); the MiG-21 sale (mid-Nov.); the Qiu Chuangcheng conversation and Mao's instruction on revisionism (Dec.); Harriman, Dec. 9 and 18; Rusk, Jan. 11, 1963; the Soviet assurance of June 9; the Presidium's decision before the July talks; Khrushchev's word to Mao on the test ban (late July); the Politburo report of July 25; *Pravda*'s Soviet statement, Sept. 1; Mao at Beidaihe against Wang Jiaxiang (summer 1962). Five carry `place:` (moscow, beidaihe ×2, peking, moscow). None has a clock time in the record.
+- **66 cites** on 47 existing entries (units only where every word of the unit is the page's; else a parenthetical alone), **4 variants** (July 5, 1963: the five-hour speech is July 8 and the Cuban, Algerian and Iraqi parties July 12; July 12, 1963: Ponomarev's speech headed July 13; Apr. 7, 1962: the letter handed Apr. 9; July 25, 1963: Pleshakov has the treaty signed), **5 checks** (the 1963 talks' "Made public", on the Soviet record printed here in 1998 against the entries' 1999; the heading July 13 over the excerpts of July 19), **20 to-check**, **29 src**, **1 place** (Apr. 9, 1962, the CC building: Peking).
+- **7 edits** at the head: "Made public" on Dec. 26, 1960 (1996, the *CWIHP Bulletin* translation, 179 n.40) and Mar. 1 and Apr. 9, 1962 (1998, the Soviet records); the old text item "Westad … in *Brothers in Arms* (1998), 180, 385–86" in the July 5, 1963 To check (Fursenko's citation) replaced by the cards cited; the times of June 25, 1961 (9 p.m., Peking), July 10 and July 12, 1963 (10 a.m., Moscow: "the day after tomorrow, at 10 A.M.", 383; "until ten o'clock", 385).
+- **64 witness rows** (the appendix's six records read in print, `read: true`; the archive files, papers and press the notes name), **112 edges**.
+
+Rule followed for the notes' archive papers: a paper or conversation the text or note treats as an act (a note sent, a talk held, a report given) is an entry (R5, R8); a paper cited only as the author's source, with no act told (the embassy's political letters and annual reports, the Apr. 12, 1960 paper, the report of the Dalian visit of Dec. 26–31, 1961, the 1961 working-conditions paper, Safronov's reports), is a witness row. The speeches in the record of July 1963 are entered as their sessions; what they assert of earlier events is matter of the speech, cited on those events where the calendar has them, entered only where it had none (the Soviet notice of Aug. 25, 1962; Harriman; Rusk; the oral presentation of Feb. 1960).
+
+## Passed over (R44)
+
+Made by reading every dated event on the pages read against the calendar and the ledger.
+
+| page | date | event | why |
+|---|---|---|---|
+| 29, 239 | 1964 | Boundary talks from Feb. 1964; Mao on Outer Mongolia, July 1964; the 1964 threat from the Soviet side | outside this run's span (the volume ends 1963), for a later run |
+| 26 | 1964 | Brezhnev's supporters on the pull-out as "impulsive" | outside this run's span |
+| 46 n.106–107 | 1964–69 | the war-preparation directive of Apr. 12, 1965; Mao's talk of Oct. 10, 1965; the marshals' advice of 1969 | outside this run's span |
+| 386 | 1960–62 | Ponomarev's figures of Soviet arms to Algeria | matter of the speech entered (July 12, 1963 session) |
+| 377–383 | 1956–59 | the earlier events in Deng's speech of July 8, 1963 | outside the calendar's span, or matter of the speech |
+
+## Doubts and leads
+
+- Leads (undated): Mao's instruction to the Foreign and Defense Ministries to plan support for Cuba (178); his alternative instructions to Peng Zhen for Bucharest (25 n.85, from Chinese historians; perhaps those of [[cal.1960-06-11.china-leadership]]); Chervonenko's attempt to change Khrushchev's mind on the recall (26); the Soviet embassy note on communications in the Northeast (27 n.96); the Chervonenko–Zhang Hanfu record of the Soviet appeal to end the Indian fighting (28 n.100); the embassy's reports on China and the Cuban crisis (28 n.101); the Chinese press's support of Moscow in the Cuban crisis (28).
+- Andropov's remarks on the shelling of 1958, the Warsaw talks and Japan are printed among the excerpts headed July 13, 1963 (386–387); the calendar has Andropov speaking July 17. Not cited; the day is for a reader of the full record.
+- The appendix's source line for Dec. 26, 1960 gives op. 55; the notes (26 n.90, 179 n.40) op. 53: the row follows the notes.
+- Ch. 8's notes print Cong Jin's title three ways (*Quzhe fazhan de suiyue*, *Quzhe qianjin de shinian*, *Quzhe qianjin de suiyue*); Chen Jian's own later citation of 275 n.148's item gives *Quzhe fazhan de suiyue*, 364 ([[cal.1960-07.china]]), so the edges go to `w.jin-1949-1989-niande-zhongguo`. The registry also holds that book as `x.1989.cong-jin-quzhe-fazhan-de-suiyue`, and *Dangdai Zhongguo waijiao* both as `w.bianjibu-dangdai-zhongguo-waijiao` and `x.1988.xue-mouhong-dangdai-zhongguo-waijiao`: for the merger to join.
+- Goncharenko's "September 1963 statement" with *Pravda* of Sept. 1, 1963 (149 n.19): the calendar knows Soviet statements of Aug. 3 and Aug. 21; the day is left to a Check.
+- Persons with no name entry: Yang Shangkun, Wang Jiaxiang, Ma Zikun, Qiu Chuangcheng, Oscar Pino Santos, Liu Ningyi, Grishin, Sudarikov, Rakhmanin, Yan Mingfu, Zhu Jueren, Safronov, Liu Xiao, Wu Xiuquan, Iudin.
+- No characters added: the volume prints none.
+
+## Where run 2 starts
+
+The span Jan. 1960–1963 is read whole. A second run, if wanted, takes the volume before 1960 (Introduction 1–23, chs. 1–8 to 1959, the appendix I–XII) for the calendar's January 1960 boundary and any 1960 retrospect, and the leads above.
