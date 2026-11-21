@@ -1,0 +1,402 @@
+patch: 2026-11-21-b15b-chenyi-6
+by: Claude (batch 15b, Chen Yi nianpu, run 6), Nov. 21, 2026
+ops:
+- edit:
+    id: cal.1967-06-22.china-leadership
+    base: ae41704a
+    set:
+      time_range:
+      - 1967-06-21T22:00Z
+      - 1967-06-22T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1967-06-30.china-leadership
+    base: 07394b96
+    set:
+      time_range:
+      - 1967-06-29T22:00Z
+      - 1967-06-30T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+- edit:
+    id: cal.1967-07-07.china-leadership-2
+    base: e3ab4f62
+    set:
+      time_range:
+      - 1967-07-07T04:00Z
+      - 1967-07-07T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1967-07-11.china-leadership-2
+    base: 13a9c245
+    set:
+      time: 1967-07-11T09:00Z
+      time_approx: true
+      time_zone: Asia/Shanghai
+    unset:
+    - time_range
+    - time_band
+- edit:
+    id: cal.1967-08-07.china-leadership
+    base: 139e7a1e
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 7, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 173 (Aug. 7, 1967; Wang Li receives the Foreign Ministry rebels and stirs them to seize its power; he reports to Jiang Qing and Chen Boda, who back him; mid-month the rebels storm and smash the ministry''s political department, declare they hold the Party committees power and seal all vice-ministers offices); [[w.macfarquhar-maos-last-revolution]], 228 (with Yao Dengshan and the Foreign Ministry''s rebels: replace the "bureaucrats" with "twenty-somethings"; Chen Yi may be attacked by name, Mao having agreed; the rebels have not seized power well); [[w.mao-zedong-zhuan]], VI, ch. 76 n.66 (Aug. 7, in the evening, Wang Li, just back from Wuhan to a great welcome and elated, sends for representatives of the Foreign Ministry''s ''revolutionary rebel liaison station'' and incites them to seize the power of the Ministry: ''diplomacy, it frightens, no one else can do it, you make it mysterious, only a few experts; is diplomacy so hard? I think handling the Red Guards'' internal problems is much harder; can the Red Guards not do diplomacy?''; ''the Ministry''s Party committee not touched? so great a revolution and the committee not moved? why may it not be moved?''; ''to haul Chen Yi out, the main direction is right, why may they not haul him?''; ''I think you have not got the power now, with some power you have prestige''; the rebels then smash the Ministry and ''seize'' the committee''s power; Aug. 22 at night the foreign-affairs rebels and Peking Red Guards storm and burn the British chargé''s office, the gravest breach of law toward foreigners since the founding, n.66). [[w.yang-jisheng-tiandi-fanfu]], I, 543 (Wang Li, of his own accord, to the Foreign Ministry''s rebels: "the Chairman and the Premier want me to look into the Foreign Ministry"; foreign affairs made a mystery; "can Red Guards not do diplomacy?"; "how much power did you seize in January? the ministry''s Party committee untouched?"; "at twenty one may be a minister"); [[w.yang-jisheng-tiandi-fanfu]], II, 1098 (evening, his Diaoyutai office; Yao Dengshan and the Liaison Station''s chief Wang Zhongqi 王中琪 and five others). Made public: 1995. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], VI, ch. 76), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if the 1997 edition of the Zhou chronology ([[w.zhou-enlai-nianpu-1949]]), cited here, prints it. To check: [[w.hongweibing-jiu-ping-wang-li]], 22–26 (cited by [[w.macfarquhar-maos-last-revolution]], 228 n.27a); Wang Li''s talk of Aug. 7, 1967, in [[w.hongweibing-jiu-ping-wang-li]], 22–26 (cited by [[w.macfarquhar-maos-last-revolution]], 228 n.27b); [[w.li-insiders-account-of-the]], 77–79 (cited by [[w.macfarquhar-maos-last-revolution]], 228 n.28a); [[w.li-xianchang-lishi]], 47–65 (cited by [[w.macfarquhar-maos-last-revolution]], 228 n.28b); [[w.barnouin-chinese-foreign-policy-during]], 155–159 (cited by [[w.macfarquhar-maos-last-revolution]], 228 n.29a); [[w.ge-zai-waijiaobu-duoquan-qian]], 230–234 (cited by [[w.macfarquhar-maos-last-revolution]], 228 n.29b); Wang Li 王力, talk on the seizure of power in the Foreign Ministry 关于外交部夺权问题的讲话 (record 讲话记录), Aug. 7, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.66); the record of the Foreign Ministry stenographer Ye Jiwen 葉紀文, quoted in Yang Rongjia 楊榮甲, *Gongheguo waijiaobu mixin* 《共和國外交部秘辛》 (Dashan wenhua, Hong Kong, 2011), 119–121 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 543 n.72); Huang Hua 黃華, 〈文革時期的荒誕外交〉 (Gongshi wang, Dec. 5, 2014) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1098 n.20). Names: Wang Li, Chen Yi.'
+- edit:
+    id: cal.1967-08-07.china-leadership-3
+    base: 024c4a1a
+    set:
+      time_range:
+      - 1967-08-07T04:00Z
+      - 1967-08-07T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 173 (Aug. 7, 1967). Made public: 1995. Names: Zhou Enlai, Chen Yi.'
+- edit:
+    id: cal.1967-08-27.china-leadership
+    base: 33624b7e
+    set:
+      time_range:
+      - 1967-08-26T16:00Z
+      - 1967-08-26T22:00Z
+      time_band: predawn
+      time_zone: Asia/Shanghai
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 179 (Aug. 27, 1967); [[w.macfarquhar-maos-last-revolution]], 230 (at dawn a severe attack of angina; out of action thirty-six hours). Made public: 1995. To check: [[w.hua-zhou-enlai-he-tade]], 525–556 (cited by [[w.macfarquhar-maos-last-revolution]], 230 n.39a); [[w.zhou-enlai-zhuan-1949]], II, 972 (cited by [[w.macfarquhar-maos-last-revolution]], 230 n.39b). Names: Zhou Enlai, Chen Yi.'
+- edit:
+    id: cal.1967-08-31.china-leadership
+    base: bd27860f
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 179 (Aug. 31, 1967). Made public: 1995. Names: Zhou Enlai, Chen Yi.'
+- add:
+    entry:
+      id: cal.1967-06-27.china-leadership-3
+      when: June 27
+      date: '1967-06-27'
+      time_range:
+      - 1967-06-26T22:00Z
+      - 1967-06-27T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 at the Capital Airport 首都机场, Peking 北京, to meet the Chinese diplomats badly beaten by Indian mobs.
+      n: '[[w.chen-yi-nianpu]], 1192. The words: 上午 (1192). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:india
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1967-07-03.china-leadership-2
+      when: July 3
+      date: '1967-07-03'
+      place: peking
+      thread: china-leadership
+      c: Chen Yi 陈毅 at the Capital Airport 首都机场, Peking 北京, to meet the ashes of Liu Yi 刘逸, the Chinese aid expert to Burma stabbed to death by Burmese mobs, and to welcome the diplomatic couriers 遭达林 (so printed) and 张瑞琏, beaten by them.
+      n: '[[w.chen-yi-nianpu]], 1192. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1967-07-05.china-leadership-3
+      when: July 5
+      date: '1967-07-05'
+      time_range:
+      - 1967-07-05T04:00Z
+      - 1967-07-05T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 at the airport to meet the ashes of 傅体广, chargé d'affaires of the Chinese Embassy in the GDR, the attaché 杨先文 and the staff members 程信泉 and 黄小康, killed on duty, and the embassy's third secretary 王仲龙, gravely injured.
+      n: '[[w.chen-yi-nianpu]], 1192. The words: 下午 (1192). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:gdr
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-07-10.china-leadership-10
+      when: July 10
+      date: '1967-07-10'
+      time_range:
+      - 1967-07-10T11:00Z
+      - 1967-07-10T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 at the banquet of 哈图, military attaché of the Albanian Embassy, for the twenty-fourth anniversary of the Albanian People's Army.
+      n: '[[w.chen-yi-nianpu]], 1193. The words: 晚上 (1193). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:albania
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-07-11.china-leadership-3
+      when: July 11
+      date: '1967-07-11'
+      thread: china-leadership
+      also:
+      - korea
+      c: Chen Yi 陈毅 at the reception of 玄峻极, North Korea's Ambassador, for the sixth anniversary of the Sino-Korean Treaty of Friendship, Cooperation and Mutual Assistance.
+      n: '[[w.chen-yi-nianpu]], 1193. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:dprk
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-07-15.china-leadership-4
+      when: July 15
+      date: '1967-07-15'
+      place: peking
+      thread: china-leadership
+      c: The rebels of the First and Second Foreign Languages Institutes 一外、二外, formed as a "Grand Army to Seize Chen" 揪陈大军, begin to camp at the gate of the Foreign Ministry 外交部, Peking 北京, demanding to drag out and struggle Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1193. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1967-07-19.china-leadership-10
+      when: July 19
+      date: '1967-07-19'
+      time: 1967-07-19T12:00Z
+      time_approx: true
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Chen Yi 陈毅 at the Capital Airport 首都机场, Peking 北京, to welcome 于民生, Xinhua's 新华社 correspondent at Rangoon, back from Burma after his expulsion.
+      n: '[[w.chen-yi-nianpu]], 1193. The words: 下午8时许 (1193). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1967-08-03.china-leadership-8
+      when: Aug. 3
+      date: '1967-08-03'
+      time_range:
+      - 1967-08-03T11:00Z
+      - 1967-08-03T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 at the airport to welcome the Malian government delegation led by Seydou Badian Kouyaté 塞杜·巴迪安·库亚特.
+      n: '[[w.chen-yi-nianpu]], 1193. The words: 晚上 (1193). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-08-03.china-leadership-9
+      when: Aug. 3
+      date: '1967-08-03'
+      time_range:
+      - 1967-08-03T11:00Z
+      - 1967-08-03T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Chen Yi 陈毅 at the film reception of Ngô Minh Loan 吴明鸾, the DRV's Ambassador, for the Vietnamese government economic delegation led by Lê Thanh Nghị 黎清毅.
+      n: '[[w.chen-yi-nianpu]], 1193. The words: 晚上 (1193). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:drv
+      - name:chen-yi
+      - name:ngo-minh-loan
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-08-05.china-leadership-7
+      when: Aug. 5
+      date: '1967-08-05'
+      time_range:
+      - 1967-08-05T11:00Z
+      - 1967-08-05T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Chen Yi 陈毅 at Li Xiannian's 李先念 banquet seeing off the Vietnamese government economic delegation led by Lê Thanh Nghị 黎清毅.
+      n: '[[w.chen-yi-nianpu]], 1193. The words: 晚上 (1193). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:drv
+      - name:chen-yi
+      - name:li-xiannian
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-08-05.china-leadership-8
+      when: Aug. 5
+      date: '1967-08-05'
+      thread: china-leadership
+      c: Chen Yi 陈毅 receives the Cambodia–China Friendship Association's delegation led by its second vice-chairman 披天来 and after it gives a banquet for the Cambodian friends.
+      n: '[[w.chen-yi-nianpu]], 1193–1194. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-08-15.china-leadership-5
+      when: Aug. 15
+      date: '1967-08-15'
+      place: peking
+      thread: china-leadership
+      c: 'Xie Fuzhi 谢富治 chairs a meeting at the Great Hall of the People 人民大会堂, Peking 北京, to criticize and struggle Chen Yi 陈毅. Zhou Enlai 周恩来 rebukes Xie: "If Comrade Chen Yi is discredited, who is to be foreign minister? You?"'
+      n: '[[w.chen-yi-nianpu]], 1194. Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:xie-fuzhi
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1967-08-15.china-leadership-6
+      when: Aug. 15
+      date: '1967-08-15'
+      time_range:
+      - 1967-08-15T11:00Z
+      - 1967-08-15T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 gives a banquet welcoming Norodom Phurissara 富里萨拉, Cambodia's Foreign Minister, and in his speech, on the world situation, states support for the Cambodian people's fight against imperialism.
+      n: '[[w.chen-yi-nianpu]], 1194. The words: 晚上 (1194). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-08-18.china-leadership-8
+      when: Aug. 18
+      date: '1967-08-18'
+      time_range:
+      - 1967-08-18T11:00Z
+      - 1967-08-18T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 at the banquet of 张岗, Cambodia's Ambassador, for Foreign Minister Norodom Phurissara's 富里萨拉 visit to China, and in a speech restates the Chinese people's support for the Cambodian people's fight against the United States.
+      n: '[[w.chen-yi-nianpu]], 1195. The words: 晚上 (1195). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-08-26.china-leadership-13
+      when: Aug. 26
+      date: '1967-08-26'
+      place: peking
+      thread: china-leadership
+      c: Rebels of the Foreign Languages Institute 外语学院 break up the Foreign Ministry's 外交部 criticism meeting, burst into the ministry's compound, Peking 北京, let the air out of Chen Yi's 陈毅 car tires and surround the office building to seize him; he is trapped in the ministry for several hours.
+      n: '[[w.chen-yi-nianpu]], 1195. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- cite:
+    id: cal.1967-06-12.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1191–1192 (June 12, 1967; Chen Yi''s speech at the reception of 伦迪尔·苏巴, Nepal''s Ambassador, for King Mahendra''s birthday: praises China–Nepal friendship and, on the Middle East, restates China''s support of the Arab people against American, British and Israeli aggression and denounces the Soviet revisionists'' "sham support, real betrayal")'
+- cite:
+    id: cal.1967-06-16.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1192 (June 16, 1967; Chen Yi receives all the members of the youth delegation led by 榎本庸夫)'
+- cite:
+    id: cal.1967-06-21.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1192 (June 21, 1967, afternoon; Chen Yi at the airport to welcome Kaunda)'
+- cite:
+    id: cal.1967-06-21.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1192 (June 21, 1967, evening; Chen Yi at Zhou''s banquet for Kaunda)'
+- cite:
+    id: cal.1967-06-22.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1192 (June 22, 1967, morning; Chen Yi takes part in the talks)'
+- cite:
+    id: cal.1967-06-24.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1192 (June 24, 1967; Chen Yi at the luncheon of the envoys of the UAR, Algeria, Guinea, Mali, Congo (Brazzaville), Tanzania and Kenya for Kaunda)'
+- cite:
+    id: cal.1967-06-24.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1192 (June 24, 1967, afternoon; Mao and Lin Biao receive Kaunda, Chen Yi with Zhou and Li Xiannian accompanying)'
+- cite:
+    id: cal.1967-06-24.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1192 (June 24, 1967, evening; Chen Yi at Kaunda''s return banquet)'
+- cite:
+    id: cal.1967-06-25.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1192 (June 25, 1967, morning; Chen Yi at the airport to see Kaunda off)'
+- cite:
+    id: cal.1967-06-30.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1192 (June 30, 1967, morning; Chen Yi at the memorial meeting for Ye Jizhuang 叶季壮, Minister of Foreign Trade, at Babaoshan 八宝山)'
+- cite:
+    id: cal.1967-07-07.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1192–1193 (July 7, 1967, afternoon)'
+- cite:
+    id: cal.1967-07-11.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1193 (July 11, 1967, a little after 5 p.m.; Chen Yi with Zhou accompanies Mao)'
+- cite:
+    id: cal.1967-07-12.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1193 (July 12, 1967; Chen Yi receives 本阿勒姆·本·哈穆达 and the members of his delegation)'
+- cite:
+    id: cal.1967-07-14.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1193 (July 14, 1967, 10:30 a.m., the Fujian Hall of the Great Hall of the People; Chen Yi with Zhou meets the delegation led by Hoàng Văn Hoan 黄文欢)'
+- cite:
+    id: cal.1967-07-31.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1193 (July 31, 1967, evening, the Great Hall of the People)'
+- cite:
+    id: cal.1967-08-05.vietnam-2
+    item: '[[w.chen-yi-nianpu]], 1193 (Aug. 5, 1967; Chen Yi takes part in the signing)'
+- cite:
+    id: cal.1967-08-07.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1194 (Aug. 7, 1967; Wang Li 王力 of the Central Cultural Revolution Group, receiving the Foreign Ministry''s rebels, openly urges that the ministry''s power may be seized, "Wang''s Aug. 7 talk")'
+- cite:
+    id: cal.1967-08-07.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1194 (Aug. 7, 1967; Zhou goes under the noon sun to the Foreign Ministry''s small auditorium for the rebels'' meeting to criticize Chen Yi; finding the banner "Down with the three-anti element Chen Yi," he stops at the door and stands for an hour on the steps in the sun until the rebels take it down)'
+- cite:
+    id: cal.1967-08-09.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1194 (Aug. 9, 1967; Chen Yi present)'
+- cite:
+    id: cal.1967-08-11.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1194 (Aug. 11, 1967; the meeting to criticize Chen Yi at the Great Hall of the People, set on foot by the Central Cultural Revolution Group; the rebels, against Zhou''s instructions and the agreement not to shout "Down with Chen Yi," hang a great banner with those words from the second floor, and some try to rush the rostrum to seize him; Zhou orders the guards to protect Chen Yi and leaves in anger)'
+- cite:
+    id: cal.1967-08-14.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1194 (Aug. 14, 1967, afternoon; Chen Yi at the signing of the agreement on Chinese economic aid to Mali)'
+- cite:
+    id: cal.1967-08-16.china-leadership-6
+    item: '[[w.chen-yi-nianpu]], 1194–1195 (Aug. 16, 1967; the Foreign Ministry''s rebels, backed by Wang Li and others, declare a formal seizure of power, seal the ministry''s Party committee and Political Department and raise the adverse current against Zhou and for the overthrow of Chen Yi, throwing China''s diplomacy into confusion)'
+- cite:
+    id: cal.1967-08-17.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1195 (Aug. 17, 1967, evening; Chen Yi present at Zhou''s reception and banquet for 富里萨拉)'
+- cite:
+    id: cal.1967-08-22.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1195 (Aug. 22, 1967; the rebels'' burning of the British chargé d''affaires'' office)'
+- cite:
+    id: cal.1967-08-27.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1195 (Aug. 27, 1967, before dawn; Zhou''s warning to the rebels that he will stand at the door and let them walk over him)'
+- cite:
+    id: cal.1967-08-25.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1195 (late August 1967; Zhou sends Mao the record of Wang Li''s Aug. 7 talk; Mao writes on it "a great, great, great poisonous weed"; soon Wang Li, Guan Feng 关锋 and Qi Benyu 戚本禹 are arrested and the Foreign Ministry begins the movement to "criticize the ultra-left and seize the bad men")'
+- cite:
+    id: cal.1967-08-31.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1195 (Aug. 31, 1967; Zhou sharply criticizes the rebel leader acting as "acting minister" after the "seizure of power" and restates that power over foreign affairs belongs to the Center; Chen Yi again appears often in public as Vice-Premier and Foreign Minister)'
