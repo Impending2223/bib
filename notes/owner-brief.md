@@ -1020,3 +1020,9 @@ Do our readers and auditors not have permission to add to the entries? Is there 
 "Red Guard records: do Zhou's 1967 talks, known from Red Guard records later printed in the Wenku, count as "Made public: 1967"? Four new entries say so, as similar entries already in the calendar do."
 
 Is that right? Is that what we do for "similar entries already in the calendar"? Would someone in Paris or Bonn or New York, or even Hong Kong, have been able to access these Red Guard records "as of 1967"?"
+
+## Nov. 21, 2026, 11:2x a.m. (Pacific)
+
+"Apply your public-date rule."
+
+(The rule proposed: a Red Guard printing makes an act public in China from its date, if it was sold or posted openly, not marked 内部, and the printing, or a work quoting it, has been read; elsewhere, from the first printing that reached abroad (a Consulate translation, a foreign press report) or the later open printing (the 1975 reprint, the *Wenku*, a published book); where not known, the later open printing, the earlier one behind "To check:".)
