@@ -268,6 +268,25 @@ entries:
     c: 'Zhu De 朱德 writes an inscription for the Nie Er Memorial Hall 聂耳纪念馆 in Yunnan 云南: "The people''s musician."'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1907. Names: Zhu De.'
     tags: [polity:prc, ok:fields-place, name:zhu-de]
+  - id: cal.1964-05.china-leadership-4
+    when: May 1
+    date: '1964-05-01'
+    thread: china-leadership
+    c: '*Mao Zhuxi Yulu*, the quotations from Mao for the PLA, published.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 436; [[w.dikotter-cultural-revolution]], 36 n.27 (a fuller version of the quotations distributed to the army in May, in red plastic, palm-sized; Lin Biao''s inscription from Lei Feng''s diary; a mimeographed compendium in Jan. 1964, a new edition in Aug. 1965); [[w.teiwes-tragedy-of-lin-biao]], 201 (published by the General Political Department, May 1). To check: [[w.zedong-mao-zhuxi-yulu]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 436 n.41a). Names: Mao Zedong.'
+    src:
+      c: 7b76ba47
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 436: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 436 n.41a: all'
+        - 'w.dikotter-cultural-revolution 36 n.27: ?'
+        - 'w.teiwes-tragedy-of-lin-biao 201: ?'
+    tags: [polity:prc, name:mao-zedong]
+    variants:
+      - unit: A
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: the *Quotations from Chairman Mao* were first printed in the army in 1961, at Lin Biao's proposal (I, 52), and were in vogue in the army from the end of 1963 (I, 53)
+        at: I, 52–53
   - id: cal.1964-05-02.elections-1964
     when: May 2
     date: '1964-05-02'
@@ -2144,12 +2163,13 @@ entries:
     date: '1964-05-09'
     thread: china-leadership
     c: 'Lin Biao 林彪, hearing Liu Zhijian 刘志坚, Fu Zhong 傅钟 and Chen Qitong 陈其通 report on the army''s third arts festival, talks on army arts: proletarian art to unite and educate the people and destroy the enemy; creation is the key, the leaders, professionals and masses joined; three things to master: Chairman Mao''s works, life, the basic skills; political and artistic standards fused; "champions" through contests, army-wide, national and world.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 259–260 (May 9, 1964; note 1). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: General Political Department, Gongzuo tongxun no. 131, June 2, 1964, printing Lin Biao''s talk of May 9 on army arts (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 259 n.1). Names: Lin Biao, Liu Zhijian, Fu Zhong, Chen Qitong. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 259–260 (May 9, 1964; note 1); [[w.teiwes-tragedy-of-lin-biao]], 201 (after a briefing on the third arts festival: two criteria for revolutionary art, a political and an aesthetic, "chemically combined, not simply lumped together"; issued as his "Instruction on the PLA''s literature and art work"). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: General Political Department, Gongzuo tongxun no. 131, June 2, 1964, printing Lin Biao''s talk of May 9 on army arts (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 259 n.1); [[w.gaoju-mao-zedong-sixiang]], 183 (cited by [[w.teiwes-tragedy-of-lin-biao]], 201 n.76). Names: Lin Biao, Liu Zhijian, Fu Zhong, Chen Qitong. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
     src:
       c: 3ce5bd57
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 259–260: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 259 n.1: all'
+        - 'w.teiwes-tragedy-of-lin-biao 201: D'
     tags: [polity:prc, name:lin-biao, vis:only:prc]
   - id: cal.1964-05-09.china-leadership-3
     when: May 9
@@ -2381,6 +2401,17 @@ entries:
     c: The Peking Exhibition Hall 北京展览馆, Peking 北京. Zhu De 朱德 visits the exhibition of new products 新产品展览会.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1908. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1964-05-10.china-leadership-10
+    when: May 10
+    date: '1964-05-10'
+    thread: china-leadership
+    c: The army's third arts festival closes, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De 朱德, Deng Xiaoping 邓小平, He Long 贺龙, Lu Dingyi 陆定一, Nie Rongzhen 聂荣臻 and Luo Ruiqing 罗瑞卿 at the closing ceremony.
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 201. See [[cal.1964-05-09.china-leadership-2]]. Names: Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, He Long, Lu Dingyi, Nie Rongzhen, Luo Ruiqing.'
+    src:
+      c: e9a05cb0
+      rows:
+        - 'w.teiwes-tragedy-of-lin-biao 201: all'
+    tags: [polity:prc, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:he-long, name:lu-dingyi, name:nie-rongzhen, name:luo-ruiqing]
   - id: cal.1964-05-11.desegregation-public-places-cambridge
     when: May 11
     date: '1964-05-11'
@@ -8292,24 +8323,6 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 388 n.47a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 388 n.47b: all'
     tags: [polity:prc, name:jiang-qing, vis:only:prc]
-  - id: cal.1964-05.china-leadership-4
-    when: May
-    date: 1964-05
-    thread: china-leadership
-    c: '*Mao Zhuxi Yulu*, the quotations from Mao for the PLA, published.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 436; [[w.dikotter-cultural-revolution]], 36 n.27 (a fuller version of the quotations distributed to the army in May, in red plastic, palm-sized; Lin Biao''s inscription from Lei Feng''s diary; a mimeographed compendium in Jan. 1964, a new edition in Aug. 1965). To check: [[w.zedong-mao-zhuxi-yulu]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 436 n.41a). Names: Mao Zedong.'
-    src:
-      c: 7b76ba47
-      rows:
-        - 'w.macfarquhar-origins-of-the-cultural III, 436: all'
-        - 'via w.macfarquhar-origins-of-the-cultural III, 436 n.41a: all'
-        - 'w.dikotter-cultural-revolution 36 n.27: ?'
-    tags: [polity:prc, name:mao-zedong]
-    variants:
-      - unit: A
-        witness: w.yang-jisheng-tiandi-fanfu
-        reads: the *Quotations from Chairman Mao* were first printed in the army in 1961, at Lin Biao's proposal (I, 52), and were in vogue in the army from the end of 1963 (I, 53)
-        at: I, 52–53
   - id: cal.1964-05.china-leadership-3
     when: May
     date: 1964-05

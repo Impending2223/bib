@@ -264,6 +264,18 @@ entries:
     c: Changsha 长沙. Zhu De 朱德 pays his respects at the Changsha martyrs' cemetery 长沙烈士陵园.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1863. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1963-02-02.china-leadership-8
+    when: Feb. 2
+    date: '1963-02-02'
+    place: peking
+    thread: china-leadership
+    c: Peking. The PLA's political work conference opens (to Feb. 27).
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 198.'
+    src:
+      c: 9dc79a00
+      rows:
+        - 'w.teiwes-tragedy-of-lin-biao 198: all'
+    tags: [polity:prc]
   - id: cal.1963-02-03.opinion
     when: Feb. 3
     date: '1963-02-03'
@@ -5194,12 +5206,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Mao, hearing a report on the success in the Himalayas, says it proves that the PLA has grasped politics.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 311. Made public: 1997. To check: [[w.zedong-xuexi-ziliao-materials-of]], 3, 49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.88). Names: Mao Zedong. Check: the day.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 311; [[w.teiwes-tragedy-of-lin-biao]], 198 (Mao, commenting at a briefing on the war in February 1963, credits political work and the "four firsts"). Made public: 1997. To check: [[w.zedong-xuexi-ziliao-materials-of]], 3, 49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 311 n.88); [[w.yao-luo-ruiqing]], 188–189 (cited by [[w.teiwes-tragedy-of-lin-biao]], 198 n.66a); [[w.mao-zedong-sixiang-wansui-beijing-1967]], 419 (cited by [[w.teiwes-tragedy-of-lin-biao]], 198 n.66b). Names: Mao Zedong. Check: the day.'
     src:
       c: 75e5b0f3
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 311: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 311 n.88: all'
+        - 'w.teiwes-tragedy-of-lin-biao 198: ?'
     tags: [polity:prc, vis:only:prc, name:mao-zedong]
   - id: cal.1963-02.china-leadership-4
     when: Feb., after the 11th
@@ -5358,3 +5371,15 @@ entries:
     c: 'Mao Zedong 毛泽东, speaking to the Central Work Conference 中共中央工作会议: some argued with Chen Yun 陈云 over raising the question of the three balances 三大平衡, and the facts proved Chen Yun right.'
     n: '[[w.chen-yun-nianpu-xiuding]], III, 140. Made public: 2015. Names: Mao Zedong, Chen Yun.'
     tags: [polity:prc, name:mao-zedong, name:chen-yun, vis:only:prc]
+  - id: cal.1963-02.china-leadership-11
+    when: Feb., at the political work conference
+    date: 1963-02
+    at: after 1963-02-02
+    thread: china-leadership
+    c: Lin Biao 林彪, presumably absent, sends the army's political work conference an instruction holding to the "four firsts" and the "three eight work style."
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 198. Made public: 1996 ([[w.teiwes-tragedy-of-lin-biao]], no source named, 169 n.1). See [[cal.1963-02-02.china-leadership-8]]. Names: Lin Biao.'
+    src:
+      c: f650e43a
+      rows:
+        - 'w.teiwes-tragedy-of-lin-biao 198: all'
+    tags: [polity:prc, name:lin-biao, vis:only:prc]
