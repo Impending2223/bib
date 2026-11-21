@@ -89,3 +89,62 @@ def test_without_the_prefix_the_tabloid_counts_everywhere():
     p = pols(entry("Made public: *Xin Beida*, June 28, 1967 (a Red Guard tabloid)."))
     assert p["us"]["A"] == ["1967-01-08", "1967-06-28"]
     assert p["prc"]["A"] == ["1967-01-08", "1967-06-28"]
+
+
+# A registered witness marked `local: prc` (sources/witnesses/, inbox/witnesses/: a Red Guard tabloid, poster, leaflet
+# or faction's compilation; R27): public from its date in that polity only, like a "Made public: in China" item.
+WROWS = {"x.1967-12-21.yejin-fenglei-no-3": {"id": "x.1967-12-21.yejin-fenglei-no-3", "what": "Yejin fenglei, no. 3",
+                                             "kind": "press", "date": "1967-12-21", "local": "prc"},
+         "x.1967-12-21.some-paper": {"id": "x.1967-12-21.some-paper", "what": "Some paper, Dec. 21, 1967",
+                                     "kind": "press", "date": "1967-12-21"},
+         "x.1966-08.handbill": {"id": "x.1966-08.handbill", "what": "Mingling, handbill", "kind": "other",
+                                "date": "1966-08", "local": "prc"}}
+
+
+@pytest.fixture
+def wrows(monkeypatch):
+    monkeypatch.setattr(vis, "_witness_rows", lambda series: (WROWS, {}))
+
+
+def test_from_witness_local_row(wrows):
+    w = vis.from_witness(None, "x.1967-12-21.yejin-fenglei-no-3", "1967-11-01", ["prc", "us"])
+    assert (w["kind"], w["pub"], w["public"], w.get("local")) == ("press", "prc", "1967-12-21", True)
+
+
+def test_from_witness_local_row_of_any_kind_is_public_there(wrows):
+    """A handbill (kind `other`, an archive's record otherwise, never public) is public in its polity from its date."""
+    w = vis.from_witness(None, "x.1966-08.handbill", "1966-08-01", ["prc"])
+    assert (w["pub"], w["public"], w.get("local")) == ("prc", "1966-08-01", True)
+
+
+def test_from_witness_unmarked_row_unchanged(wrows):
+    w = vis.from_witness(None, "x.1967-12-21.some-paper", "1967-11-01", ["prc", "us"])
+    assert (w["kind"], w["public"], w.get("local")) == ("press", "1967-12-21", None)
+
+
+def via_pols(monkeypatch, wid, mp=""):
+    e = entry(mp)
+    row = (f"via {wid}: all", "witness", wid, None, None, None, None)
+    monkeypatch.setattr(vis, "claims_of", lambda series, lst, e: [{"unit": "all", "text": e["c"], "map": "reader",
+                                                                    "unmapped": False, "rows": [row]}])
+    return pols(e)
+
+
+def test_via_local_row_public_in_china_only(wrows, monkeypatch):
+    p = via_pols(monkeypatch, "x.1967-12-21.yejin-fenglei-no-3", "Made public: *Wenku* (2002).")
+    assert p["prc"]["P"] == [None, "1967-12-21"]
+    assert p["prc"]["A"] == ["1967-01-08", "1967-12-21"]
+    assert p["us"]["A"] == ["1967-01-08", "2002-01-01"]       # elsewhere: the later open printing
+    assert p["ussr"]["A"] == ["1967-01-08", "2002-01-01"]
+    assert "P" not in p["us"]
+
+
+def test_via_local_row_alone_leaves_others_unpublished(wrows, monkeypatch):
+    p = via_pols(monkeypatch, "x.1967-12-21.yejin-fenglei-no-3")
+    assert p["prc"]["A"] == ["1967-01-08", "1967-12-21"]
+    assert p["us"]["A"] == ["1967-01-08", None]
+
+
+def test_via_unmarked_row_counts_everywhere(wrows, monkeypatch):
+    p = via_pols(monkeypatch, "x.1967-12-21.some-paper")
+    assert p["us"]["A"] == ["1967-01-08", "1967-12-21"]

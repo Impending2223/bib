@@ -38,6 +38,31 @@ index b8c96fe..211dcb2 100644
  - One event with several matters (a news conference, a session with several decisions): a parent entry states what is true of all (who, where, when; the common bibliography), and each matter is a subentry, `part_of: <parent id>`, with its own thread, statement and sources, set a hair indented under the parent; `follows:` between siblings gives their order (`tools/bib/subentries.py`). A parent carries its subentries' threads for the highlight. Converted so far: the news conferences of Feb. 17 and Sept. 7, 1960, and July 19, 1961.
  
  **The note as footnotes** (the owner, Nov. 18, 2026: "Implement A and superscript"; `tools/bib/footnotes.py`, its STYLE). Where an entry's map (`src`, else the mechanical one) gives its claims two or more different sets of sources, the build shows the note's sources as footnotes: a superscript numeral after each run of claims with the same sources, numbered afresh in each entry, the footnotes under the line, the first line of each indented with its number, the rest flush; then the note's other sentences ("Made public", "To check", "See", "Names", "Check") as before. One footnote or none: the note is shown as one block, as before. A work cited again straight after itself is "*id*." ("*id*. at 89 n.35"; capitalized at a footnote's head; across footnotes only after a footnote of that one work): "id" in italics, its full stop roman (the owner's departure from the Bluebook). Nothing is written in the data for this: a reader maps the claims (`src`), and the footnotes follow.
+diff --git a/sources/frus-joins.yaml b/sources/frus-joins.yaml
+index 167c516..642c410 100644
+--- a/sources/frus-joins.yaml
++++ b/sources/frus-joins.yaml
+@@ -170,6 +170,9 @@ join:
+     why: Counselor of the French Embassy in Washington to 1952; Permanent Representative to the United Nations; Ambassador to the Soviet Union. François's brother.
+   - keys: [bandaranaike-solomon-w-r-d, bandaranaike-s-w-r-d]
+     why: Prime Minister of Ceylon, Minister of Defense and External Affairs, 1956–59, in both. Not Sirimavo, his widow.
++  - keys: [khan-nur, khan-malik-nur]
++    name: Khan, Nur
++    why: Air Marshal Malik Nur Khan. Commander in Chief of the Pakistani Air Force from July 1965 (1964–68, XXV); Deputy Martial Law Administrator of Pakistan (1969–76, E-7), 1969.
+   # persons the series holds
+   - keys: [beckett-john-a, beckett-j-angus]
+     why: John Angus Beckett, of the British Ministry of Fuel and Power, its Petroleum Division, and its petroleum attaché in Washington.
+@@ -179,6 +182,10 @@ join:
+     why: Deputy Assistant Secretary of State for Inter-American Affairs; Deputy Chief of Mission in Buenos Aires from 1969.
+   - keys: [connally-john, connelly-john, connolly-john-b-jr]
+     why: John B. Connally, Jr. Secretary of the Navy, 1961; Governor of Texas; Secretary of the Treasury, Feb. 1971–May 1972.
++  - keys: [nasser-gamal-abdel, nasser, nasser-colonel-gamal-abdel]
++    why: Gamal Abdel Nasser. The surname alone (1955–57, XII–XVII) is the Egyptian Head of Government, President from June 24, 1956; the misparsed 'Nasser Colonel Gamal Abdel' (1958–60, XI) the President of Egypt, then of the United Arab Republic, as his own entry's lists have him.
++  - keys: [moyers-bill, moyers-william]
++    why: Bill Moyers. 'Moyers, William (Bill)' (1964–68, VI) is the Special Assistant to the President, 1964–67, the post every other list gives him.
+ 
+ apart:
+   - keys: [elliot-william, elliott-william-y]
 diff --git a/sources/name-forms.yaml b/sources/name-forms.yaml
 index cae3ac5..1312a51 100644
 --- a/sources/name-forms.yaml
@@ -86,6 +111,18 @@ index cae3ac5..1312a51 100644
 +Hussein ibn Talal: [King Hussein]
 +Idris I: [King Idris]
 +Hassan II: [King Hassan]
+diff --git a/sources/polities.yaml b/sources/polities.yaml
+index 4e0454f..296c61a 100644
+--- a/sources/polities.yaml
++++ b/sources/polities.yaml
+@@ -2276,7 +2276,6 @@ names:
+   morrison-norman-r: {polity: us, basis: 'kjc III.K'}
+   morrisroe-richard-f: {polity: us, basis: 'kjc III.K'}
+   morrow-e-frederic: {polity: us, basis: roster}
+-  morse-bradford: {polity: us, basis: roster}
+   morse-frank-b: {polity: us, basis: congress}
+   morse-richard-s: {polity: us, basis: roster}
+   morse-wayne: {polity: us, basis: 'kjc III.B'}
 diff --git a/sources/witnesses/1984.yaml b/sources/witnesses/1984.yaml
 index 643a500..290666e 100644
 --- a/sources/witnesses/1984.yaml
@@ -99,10 +136,10 @@ index 643a500..290666e 100644
    kind: interview
    date: '1984'
 diff --git a/tests/golden/expected/build-files.txt b/tests/golden/expected/build-files.txt
-index 02bd0a4..8938e95 100644
+index 02bd0a4..6b74531 100644
 --- a/tests/golden/expected/build-files.txt
 +++ b/tests/golden/expected/build-files.txt
-@@ -1,8 +1,8 @@
+@@ -1,13 +1,13 @@
  27e8840352c465cd      25944  adm.html
  33a12b55462c8d59      62475  cal.html
  8123c2767195790e       9541  cal1961.html
@@ -113,15 +150,72 @@ index 02bd0a4..8938e95 100644
  3df6c9a53d8ccc1e       9539  cal63.html
  f57986a4a4e61604       9539  cal66.html
  022003ab2ebb8eef      27982  cong.html
-@@ -64,7 +64,7 @@ af04b3cf342be3d1      80743  names-w.html
- 616f21e86027e791     136349  names-z.html
+ 9d13931031ae900b      24350  ebooks.html
+-aaf002cf41f3b1d6    2075165  executive.html
++7b85a00a85f7b1e6    2075165  executive.html
+ 6cd82aa94a3e698c      57408  kja.html
+ b6ed893051ced29b      39656  kjc.html
+ 4d8823eecdea1e44      31366  l68.html
+@@ -38,36 +38,36 @@ bda1548cf55ecc03        260  lives-y.html
+ 491ec44ba21977dc        260  lives-z.html
+ b0dfed76c3fece7e        252  lives.html
+ 1bf0befa8252a6e1      58730  names-a.html
+-8716dbedecada008     244172  names-b.html
+-754cc96c456a4ecc     136329  names-c.html
+-52638d3cfffa2b56     149553  names-d.html
+-6fb6dbb60952f451      48225  names-e.html
+-b7f1ea8667bd147c      74904  names-f.html
+-05cf099c5b83476e     114970  names-g.html
+-b799a0fb42cca84d     103149  names-h.html
+-f76cd537ffec0de0      34373  names-i.html
+-6a3629da4f0fd337      66684  names-j.html
+-976e0ddec38869cc     360652  names-k.html
+-fae8e3e58e561771     166973  names-l.html
+-065c19915b3db009     246087  names-m.html
+-24d7811571d08ce8      73028  names-n.html
+-ac3679aa85d952a6      50448  names-o.html
+-8e9c2da2827d2f02      63206  names-p.html
++184bb005fa9addcc     244172  names-b.html
++811fc5f70805a947     136329  names-c.html
++6c102d97fe6625d0     149553  names-d.html
++238c63b64ff9d085      48225  names-e.html
++d4f3b822327b4d24      74904  names-f.html
++cf9f06aa91f7190d     114970  names-g.html
++6e8fd5c8387e8fe3     103149  names-h.html
++efe1584aa35af845      34373  names-i.html
++4a3e7ab7ae158795      66684  names-j.html
++dd78e3a4f0d2c41e     360652  names-k.html
++5c4f676593ae6b7c     166973  names-l.html
++2052f4892cd1e75a     246087  names-m.html
++2763087c6464d90d      73028  names-n.html
++d6f20cee1fc427ad      50448  names-o.html
++68b21756004575f8      63206  names-p.html
+ 6e85b978920a0289      29934  names-q.html
+-2854ba04622ccddc     146192  names-r.html
+-df365417c01bfe23     177851  names-s.html
+-bf969ed876e084a3      86076  names-t.html
++475be4dea23652e2     146192  names-r.html
++26eeae4fd290dc23     177851  names-s.html
++6b772ab9b4ca93b8      86076  names-t.html
+ 3a46144e1126cd5c      36170  names-u.html
+ 618c5dba3384463c      32074  names-v.html
+-af04b3cf342be3d1      80743  names-w.html
+-1609c907ebef65b9      40857  names-y.html
+-616f21e86027e791     136349  names-z.html
++c0b6551c7d1b2803      80743  names-w.html
++3c76212709c2f3fb      40857  names-y.html
++f5b3bc55fdd5150c     136349  names-z.html
  66b1f3bc318b57a3      91614  names.html
  ae14786cffbb676b      30228  opp.html
 -76a0e87917d2e10a    2401997  series.html
 +8d25d33aabc6ca8f    2328434  series.html
  754b9ade6f6609fe      34051  vn.html
  d3f9d97897ba9add      24906  wg.html
- fc48d2a2f303bb91     216217  works.html
+-fc48d2a2f303bb91     216217  works.html
++2fcab3d7e70124d5     216217  works.html
+ 2079b79399263216        206  feeds/recordings.opml
+ 0785fc06ef6b594b       9492  vis/vispage-741e2afd75.js
+ dc91930de1b6c2b9       4972  vis/vispage-d4a57b591e.css
 diff --git a/tests/golden/expected/build-output.txt b/tests/golden/expected/build-output.txt
 index d29f98b..e8e3515 100644
 --- a/tests/golden/expected/build-output.txt

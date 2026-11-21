@@ -1705,10 +1705,10 @@ index a938ec4..32b41f0 100644
  
  
 diff --git a/tools/bib/vis.py b/tools/bib/vis.py
-index 466e84c..f0e358b 100644
+index 466e84c..0c9a811 100644
 --- a/tools/bib/vis.py
 +++ b/tools/bib/vis.py
-@@ -17,7 +17,8 @@ STYLE
+@@ -17,12 +17,15 @@ STYLE
      mechanical one) that ground it. An entry with no map, or whose rows are all `?`, is one claim, `all`, marked
      unmapped; a `?` row joins every unit's witnesses and marks the unit unmapped (it may ground any of them); a unit
      no row covers takes the whole entry's witnesses, unmapped. "Made public:" (the note's sentence for a private act)
@@ -1718,7 +1718,23 @@ index 466e84c..f0e358b 100644
   2. A witness (a row's source) is classified by the registry: a card by `works` (its kind, country, year; a periodical
      card by its series), a link by the first series whose `url` its address holds, an item without a link by the first
      whose `text` it names, a registered witness (`via` rows; sources/witnesses/) by its kind, its agents and its copies
-@@ -490,8 +491,32 @@ def from_witness(series, wid, event, addressed):
+-    (a FRUS copy: the volume's year). Each gives: kind (KINDS); where published (a polity, or `?`); when public (a
+-    date, `?` known public but not when, or never so far as the record shows); and who knew it privately (parties).
++    (a FRUS copy: the volume's year); a row marked `local: prc` (a Red Guard tabloid, poster, leaflet or faction's
++    compilation; R27) is a local witness, public from its date in that polity only, as a "Made public: in China" item.
++    Each gives: kind (KINDS); where published (a polity, or `?`); when public (a date, `?` known public but not when,
++    or never so far as the record shows); and who knew it privately (parties).
+  3. Dates: the claim's own is the entry's `date` (the first day of a loose one: '1961-02' is 1961-02-01; a span's
+     first day). "At the time" (the default reference, §5, ruled Nov. 11) is that day and the next morning's papers:
+     a witness public by the next day counts (REF_DAYS). A year is its Jan. 1 (§5: "a memoir of 1976 is public from
+@@ -487,11 +490,39 @@ def from_witness(series, wid, event, addressed):
+                 pub, public = "us", min(public or "9999", f"{y}-01-01")
+     if k in ("memoir", "scholarship", "diary", "oral history", "document series") and public is None:
+         public = "?"
++    if w.get("local"):              # `local: prc`, a Red Guard printing (R27): public from its date there only
++        out = W(wid, k, str(w["local"]), d, privity, "witnesses")
++        out["local"] = True
++        return out
      return W(wid, k, pub, public, privity if k != "official" else privity, "witnesses")
  
  
@@ -1752,7 +1768,7 @@ index 466e84c..f0e358b 100644
      from .claims import note_parts
      out = []
      for s in note_parts(e.get("n"))[1]:
-@@ -499,6 +524,12 @@ def made_public(e, event, addressed):
+@@ -499,6 +530,12 @@ def made_public(e, event, addressed):
              continue
          body = re.sub(r"^Made public[^:]*:\s*", "", s).rstrip(".")
          for it in re.split(r";\s+", body):
@@ -1765,7 +1781,7 @@ index 466e84c..f0e358b 100644
              lk = LINK.search(it)
              ser = (series_for_url(lk.group(2)) if lk else None) or series_for_text(it)
              card = re.search(r"\[\[(w\.[^\]|]+)", it)
-@@ -516,10 +547,15 @@ def made_public(e, event, addressed):
+@@ -516,10 +553,15 @@ def made_public(e, event, addressed):
                  pub, kind = row.get("country") or "?", row.get("kind") or "scholarship"
              else:
                  pub, kind = "?", "made public"
@@ -1783,7 +1799,7 @@ index 466e84c..f0e358b 100644
      return out
  
  
-@@ -787,16 +823,20 @@ def compute(series, lst, e):
+@@ -787,16 +829,20 @@ def compute(series, lst, e):
          late = {X: max(d, date) for X, d in late.items()}   # a day not after the event's: privy from the event
          privy |= set(late)
          pubs = {}
@@ -1807,7 +1823,7 @@ index 466e84c..f0e358b 100644
          unknown_in = {w["pub"] for w in known if w["public"] == "?" and w["pub"]}   # where an undated one is published
          pol = {}
          for X in sorted(set(addr) | privy | set(pubs), key=order_key):
-@@ -807,9 +847,10 @@ def compute(series, lst, e):
+@@ -807,9 +853,10 @@ def compute(series, lst, e):
                  np_from = d0 if X in privy and (p_pub is None or p_pub > d0) else None
                  rec["P"] = [np_from, p_pub or ("?" if X in privy and (X in unknown_in or "?" in unknown_in) else None)]
              if X in addr:
@@ -1846,6 +1862,40 @@ index 9d5abc0..297e17a 100644
      return out
  
  
+diff --git a/tools/bib/witnesses.py b/tools/bib/witnesses.py
+index de31b3d..30ce44f 100644
+--- a/tools/bib/witnesses.py
++++ b/tools/bib/witnesses.py
+@@ -21,6 +21,9 @@ A witness:
+       open: closed archive                      # OPEN: why the branch ends here
+       copies: [FRUS 1964–68, II, doc. 84]       # a copy the series can read (FRUS, the Papers, a recording, a scan)
+       read: false                               # read and cited as an entry's primary record
++      local: prc                                # a printing that circulated in that polity only (R27: a Red Guard
++                                                # tabloid, poster, leaflet, faction's compilation): public there alone
++      base: true                                # a work's whole source base, never joined to a claim (footnotes.py)
+ 
+ Readers at work together write their new witnesses to `inbox/witnesses/<patch name>.yaml` (the same rows), never to the
+ year files, so no two write one file; check reads them with the registry, and the merger folds them in
+@@ -249,6 +252,8 @@ def problems(series):
+     from . import claims
+     rows, edges, where = load()
+     errors, warns = [], []
++    from . import vis
++    pols = set(vis.polities()["polities"]) if os.path.exists(vis.POL) else None   # `local:` (R27)
+     for at, msg in where.get("_bad", []):
+         errors.append((at, msg))
+     for d in where.get("_dup", []):
+@@ -279,6 +284,10 @@ def problems(series):
+                     errors.append((at, f"an edge to no card: {f['of']}"))
+             elif f.get("of") not in rows:
+                 errors.append((at, f"an edge to nothing: {f.get('of')}"))
++        if r.get("local") is not None and (pols is None or str(r["local"]) not in pols):
++            errors.append((at, f"local {r['local']!r}: not a polity of sources/polities.yaml"))
++        if r.get("base") is not None and not isinstance(r["base"], bool):
++            errors.append((at, f"base {r['base']!r}: true or false"))
+         po = r.get("part_of")
+         if po and po not in rows and not (str(po).startswith("w.") and series.works.get(po) is not None):
+             errors.append((at, f"part_of {po!r}: no such witness or card"))
 diff --git a/tools/bib/works.py b/tools/bib/works.py
 index f59ceb7..2ca8d73 100644
 --- a/tools/bib/works.py
