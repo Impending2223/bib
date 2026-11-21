@@ -21,3 +21,12 @@ def test_other_where_kept():
     assert cw(s) == s
     assert cw("RGANI f.5 o.55 d.116; cited by Friedman (2015), 31 n.18") == "RGANI f.5 o.55 d.116; cited by Friedman (2015), 31 n.18"
     assert cw(None) == ""
+
+
+def test_no_is_an_abbreviation():
+    """"no. 10" ends no unit (the owner, Nov. 21, 2026: the footnote "catches" on the full stop in "no. 10")."""
+    from bib import claims
+    c = 'Nguyễn Chí Thanh in *Học Tập* no. 10: "rightism" rooted in the old regime; the North\'s comfort no excuse.'
+    assert claims.units(c)[0].startswith("Nguyễn Chí Thanh in *Học Tập* no. 10:")
+    assert len(claims.units(c)) == 2
+    assert len(claims.units("Resolutions nos. 3 and 4 adopted. The plenum closes.")) == 2

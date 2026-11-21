@@ -23,6 +23,10 @@ STYLE
     stay as written; the line's characters are dropped (a 'Names:' person's given after his name, a quoted original
     in "The words:", cjk.py, STYLE 3, 7), and its units rendered the same way, so the marks still land.
  6. The marks sit inside the last claim's span (vispage.py), so a hidden claim takes its mark with it.
+ 7. A record the map names (`via x.…`) that no reader has read (its row's `read` not true) is no source of a claim and
+    is not printed in a footnote (the owner, Nov. 21, 2026: "the citation block has unmarked citations to unread works,
+    which should be behind 'To check:' with a 'via'/'cited by' note"). Where it stands in the note, it stands behind
+    "To check:" with the note that cites it, as the reader wrote it; one the note does not name is the reader's to add.
 """
 import re
 
@@ -71,7 +75,7 @@ def _cites(series, e):
         p = f"{pin} & n.{note}" if joined else f"{pin} n.{note}"
         return dict(kind="card", key=key, pin=p, paren=f"(citing {what})", text=f"[[{key}]], {p} (citing {what})")
 
-    per = []
+    per, unread = [], {}
     for i, _ in enumerate(us):
         L = claims.LETTERS[i]
         mine = [(k, key, pin, note, item) for r, k, key, pin, note, u, item in rows
@@ -90,6 +94,10 @@ def _cites(series, e):
             elif k == "card":
                 out.append(card(key, pin, item, pin))
             elif k == "witness":
+                w = witnesses.load()[0].get(key) or {}
+                if not w.get("read"):            # a record no reader has read: behind "To check:" (STYLE 7)
+                    unread.setdefault(key, None)
+                    continue
                 text = claims._render_row(series, e, "witness", key, pin, note, item, reg)
                 out.append(dict(kind="text", key=text, pin="", paren="", text=text))
             else:
@@ -107,7 +115,7 @@ def _cites(series, e):
         if it not in used and not any(it == c["text"] for p in per for c in p):
             used.add(it)
             tail.append(dict(kind="text", key=it, pin="", paren="", text=it))
-    return us, per, tail
+    return us, per, tail, list(unread)
 
 
 def _id(cur, prev, head):
@@ -138,7 +146,7 @@ def build(series, e):
     src = e.get("src")
     if isinstance(src, dict) and src.get("c") and src.get("c") != claims.chash(c):
         return None                       # a stale map: its letters may not fit (claims.py, STYLE 4)
-    us, per, tail = _cites(series, e)
+    us, per, tail, unread = _cites(series, e)
     runs = []
     for i in range(len(us)):
         key = [(x["kind"], x["key"], x["pin"]) for x in per[i]]

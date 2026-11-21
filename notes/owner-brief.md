@@ -950,3 +950,29 @@ Put them in the "gloss" on the most appropriate entry, or the opening or closing
 ## Nov. 21, 2026, 10:27 a.m. Pacific
 
 "I don't know how the reader or auditor agents tag names, but could an alias or "ghost name" entry help here?"
+
+## Nov. 21, 2026, 10:36 a.m. Pacific
+
+"Could we correct the chronological sort on the Names entries to match the calendar? I don't want the calendar sort to be a one-off, ad hoc, page-specific sort. It's just "the chronological sort"
+Please do build the missing name tag check and run the sweep. 
+Two issues with this October 1963 VN: Hanoi entry.
+
+First, the footnote "catches" on the full stop in "no. 10" rather than the sentence-ending full stop. 
+
+Second, the citation block has unmarked citations to unread works, which should be behind "To check:" with a "via"/"cited by" note.
+
+>>> Nguyễn Chí Thanh in Học Tập no.1 10: “rightism” rooted in the old regime, revisionism its ground;2 the North’s comfort no excuse to slacken the struggle in the South.3
+1 Pierre Asselin, Hanoi’s Road to the Vietnam War, 1954–1965, at 147–48 (2013); Nguyen Chi Thanh, “Let Us Improve Our Proletarian Stand and Ideology,” Hoc tap, no. 10 (October 1963), trans. in Folder 02, Box 25, DPC Unit 06, VATTU.
+2 Asselin, Hanoi’s Road to the Vietnam War, 1954–1965, at 147–48; Nguyen Chi Thanh, “Let Us Improve Our Proletarian Stand and Ideology,” Hoc tap, no. 10 (October 1963), trans. in Folder 02, Box 25, DPC Unit 06, VATTU; “Chi thi cua Bo Chinh tri, so 74-CT/TW, ngay 27 thang 1 nam 1964” [Politburo instruction no. 74, the study of the Ninth Plenum’s resolution], VKD, vol. 25 (1964), 43-59.
+3 Asselin, Hanoi’s Road to the Vietnam War, 1954–1965, at 147–48.
+To check: Nguyễn Chí Thanh, “Let Us Improve Our Proletarian Stand and Ideology,” Học Tập, no. 10 (October 1963), translated in the Pike Collection, Texas Tech (cited by Pierre Asselin, Hanoi’s Road to the Vietnam War, 1954–1965, at 147 n.10, 148 nn.15–17 (2013)). Names: Nguyễn Chí Thanh."
+
+## Nov. 21, 2026, 10:45 a.m. Pacific
+
+"Are we not able to identify and match the names given in CJK here? 
+
+At the very least, could we not give the 普通話 Pinyin for the names?
+
+>>> China: Leadership
+Peking · afternoon
+Chen Yi receives foreign trade-union delegations and representatives in China for National Day (Albania’s under 培利卡·比库里, Indonesia’s SOBSI under 普梭诺, the Japanese national railway and locomotive unions’ under 神户世志夫, the Fukuoka prefectural council’s under Ono Akira, the Algerian General Union of Workers’ under 阿比卜·穆罕默德, Ghana’s agricultural union’s under Benjamin Annan, Portuguese Guinea’s under 贝比阿诺·达尔玛达, the Australian building unions’ under 达纳赫, and New Zealand’s and 博恩)."
