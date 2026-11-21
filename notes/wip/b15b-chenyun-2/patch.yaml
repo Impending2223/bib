@@ -15,6 +15,7 @@ ops:
       set:
         place: peking
         n: '[[w.macfarquhar-origins-of-the-cultural]], III, 144–145. Made public: 1986 ([[w.chen-yun-wenxuan-1956]], the speech in part, as the *Chen Yun nianpu* says, III, 122); 1997 (the work conference). To check: [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e). Names: Chen Yun, Liu Shaoqi. Check: the day, Feb. 8 or 9.'
+        when: Feb. 8
         time_range: ['1962-02-07T22:00Z', '1962-02-08T04:00Z']
         time_band: morning
         time_zone: Asia/Shanghai
@@ -71,6 +72,10 @@ ops:
       base: dd3d44a7
       set: {date: '1963-07-08', when: July 8, place: suzhou}
       unset: [at]
+  - edit:
+      id: cal.1962-02-21.china-leadership-3
+      base: e9db011b
+      set: {date: '1962-02-23', when: Feb. 23}
   - place-key: {key: qingpu, name: 'Qingpu', zone: Asia/Shanghai, in: prc}
   - place-key: {key: xiaoshan, name: 'Xiaoshan', zone: Asia/Shanghai, in: prc}
   - add:
