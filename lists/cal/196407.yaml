@@ -3479,6 +3479,20 @@ entries:
       - 1964-07-11T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-07-11.china-leadership-10
+    when: July 11
+    date: '1964-07-11'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia, soviet-union]
+    c: 'The Chinese Embassy in Indonesia to the Foreign Ministry and the Liaison Department: Aidit is sure Sukarno and Subandrio only humor Moscow to get arms.'
+    n: '[[w.friedman-shadow-cold-war]], 142. Made public: 2015. To check: PRC embassy Indonesia to MFA and Zhonglianbu, July 11, 1964, CFMA doc. 105-01231-02, 1–2 (cited by [[w.friedman-shadow-cold-war]], 142 n.201a). Names: Aidit, Sukarno, Subandrio.'
+    src:
+      c: c682291c
+      rows:
+        - 'w.friedman-shadow-cold-war 142: all'
+        - 'via x.1964-07-11.prc-embassy-indonesia-mfa-zhonglianbu-july-11-1964: ?'
+    tags: [polity:prc, polity:indonesia, name:aidit-dipa-nusantara, name:sukarno, name:subandrio, vis:only:prc]
   - id: cal.1964-07-12.elections-1964
     when: July 12
     date: '1964-07-12'
@@ -10448,3 +10462,17 @@ entries:
         - 'via x.1964-07-31.mfa-embassies-uar-algeria-july-31-1964: ?'
         - 'via x.1964-08-01.embassy-uar-mfa-august-1-1964-2: ?'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-07.soviet-union
+    when: July
+    date: 1964-07
+    place: moscow
+    thread: soviet-union
+    also: [indonesia]
+    c: Subandrio in Moscow; the Soviet promises of military aid go on.
+    n: '[[w.friedman-shadow-cold-war]], 142. To check: PRC embassy Moscow to MFA on Subandrio''s visit to USSR, July 17, 1964, CFMA doc. 109-03525-02, 18–20 (cited by [[w.friedman-shadow-cold-war]], 142 n.201b). Names: Subandrio. Check: the days; the Chinese Embassy''s report on the visit is of July 17, 1964 (142 n.201b).'
+    src:
+      c: 5f961fbf
+      rows:
+        - 'w.friedman-shadow-cold-war 142: all'
+        - 'via x.1964-07-17.prc-embassy-moscow-mfa-subandrio-s-visit-ussr: ?'
+    tags: [polity:ussr, polity:indonesia, name:subandrio]

@@ -2580,6 +2580,20 @@ entries:
       - 1965-05-11T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-11.china-leadership-7
+    when: May 11
+    date: '1965-05-11'
+    place: algiers
+    thread: china-leadership
+    also: [africa-algeria-morocco]
+    c: 'The Chinese Embassy in Algeria to the Foreign Ministry: Algeria, in Ben Bella''s words at the "crossroads of contemporary international political trends," will waver the more as the conference nears; his anti-imperialism "tough talk, weak action," and has he the courage for "revolutionary means" against the economic troubles? Still his "active side is leading"; "the Algerian ruling group is very arrogant and conceited, but its tiger''s ass can still be petted."'
+    n: '[[w.friedman-shadow-cold-war]], 138. Made public: 2015. To check: PRC embassy Algeria to MFA, May 11, 1965, CFMA doc. 109-03645-02, 5–6 (cited by [[w.friedman-shadow-cold-war]], 138 n.177); PRC embassy Algeria to MFA, May 11, 1965, CFMA doc. 109-03645-02, 9 (cited by [[w.friedman-shadow-cold-war]], 138 n.178); PRC embassy Algeria to MFA, May 11, 1965, CFMA doc. 109-03645-02, 10 (cited by [[w.friedman-shadow-cold-war]], 138 n.179). Names: Ben Bella.'
+    src:
+      c: cca82a76
+      rows:
+        - 'w.friedman-shadow-cold-war 138: all'
+        - 'via x.1965-05-11.prc-embassy-algeria-mfa-may-11-1965: ?'
+    tags: [polity:prc, polity:algeria, name:ben-bella-ahmed, vis:only:prc]
   - id: cal.1965-05-12.vietnam
     when: May 12
     date: '1965-05-12'
@@ -2933,6 +2947,19 @@ entries:
       - 1965-05-12T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-12.soviet-union
+    when: May 12
+    date: '1965-05-12'
+    thread: soviet-union
+    also: [vietnam]
+    c: 'The KGB to the Central Committee: a draft resolution for a worldwide campaign against American involvement in Vietnam, the KGB to "take measures for the organization through its channels of presentations by visible political and social activists of foreign countries," the press among them, against "the aggressive policy of Johnson."'
+    n: '[[w.friedman-shadow-cold-war]], 171. Made public: 2015. To check: KGB to CC, May 12, 1965, RGANI f.5 o.30 d.480, 53–55 (cited by [[w.friedman-shadow-cold-war]], 171 n.106).'
+    src:
+      c: 426596ef
+      rows:
+        - 'w.friedman-shadow-cold-war 171: all'
+        - 'via x.1965-05-12.kgb-cc-may-12-1965: ?'
+    tags: [polity:ussr, vis:only:ussr]
   - id: cal.1965-05-13.vietnam-mayflower
     when: May 13
     date: '1965-05-13'
@@ -7578,3 +7605,16 @@ entries:
     c: Chen Yi 陈毅 writes the poem "For President Hồ Chí Minh's birthday" 《为胡志明主席祝寿》.
     n: '[[w.chen-yi-nianpu]], 1101. Names: Chen Yi, Hồ Chí Minh.'
     tags: [polity:prc, name:chen-yi, name:ho-chi-minh, ok:fields-place]
+  - id: cal.1965-05.africa
+    when: May, late
+    date: 1965-05
+    at: before 1965-05-21
+    thread: africa
+    also: [china]
+    c: Ben Bella sends out the official invitations to the second Afro-Asian conference, to open June 29; Soviet attendance still in question.
+    n: '[[w.friedman-shadow-cold-war]], 145. Names: Ben Bella.'
+    src:
+      c: 8a2468f4
+      rows:
+        - 'w.friedman-shadow-cold-war 145: all'
+    tags: [polity:algeria, name:ben-bella-ahmed]

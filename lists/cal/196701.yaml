@@ -4028,11 +4028,12 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking, the Foreign Ministry 外交部. At noon the Liaison Station decides to seize power from the ministry''s Party committee; Zhou Enlai 周恩來 and Chen Yi 陳毅 back it and congratulate it, but Zhou rules that foreign affairs belong to the Center and cannot be seized: the seizure is to lead the movement and supervise the work, with supervision groups at ministry and department level; "a document without the supervision group''s signature I will not read."'
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 566. The words: 1月18日中午 (I, 566). Made public: 2016. Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 566; [[w.friedman-shadow-cold-war]], 152 (within days of the Shanghai seizure, which Mao condones, Zhou encourages the Liaison Station to seize power, to forestall Red Guards from outside the ministry and keep foreign policy out of the rebels'' hands). The words: 1月18日中午 (I, 566). Made public: 2016. To check: [[w.jisen-cultural-revolution-in-the]], 57–60 (cited by [[w.friedman-shadow-cold-war]], 152 n.13). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 15b37a6e
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 566: all'
+        - 'w.friedman-shadow-cold-war 152: ?'
     tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:chen-yi]
     time_zone: Asia/Shanghai
   - id: cal.1967-01-18.china-leadership-9
@@ -6152,6 +6153,19 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 483: all'
     tags: [polity:prc, vis:only:prc, name:jiang-qing]
+  - id: cal.1967-01-28.soviet-union
+    when: Jan. 28
+    date: '1967-01-28'
+    thread: soviet-union
+    also: [vietnam-hanoi, china]
+    c: 'The Soviet Foreign Ministry''s Southeast Asia Department, on the Vietnamese and the transit of weapons through China: the DRV press attacks Western "rumors" of Chinese delays and thefts; the Soviets ask the North Vietnamese where such rumors might come from.'
+    n: '[[w.friedman-shadow-cold-war]], 168. Made public: 2015. To check: Report of Southeast Asia Department MFA "On the Question of Vietnamese Presentations in Connection with the Transit of Weapons through China," January 28, 1967, AVPRF f.079 o.22 papka 60 d.27, 10 (cited by [[w.friedman-shadow-cold-war]], 168 n.86).'
+    src:
+      c: 6199b423
+      rows:
+        - 'w.friedman-shadow-cold-war 168: all'
+        - 'via x.1967-01-28.southeast-asia-department-mfa-question-vietnamese-presentations-connection: ?'
+    tags: [polity:ussr, vis:only:ussr]
   - id: cal.1967-01-29.baker
     when: Jan. 29
     date: '1967-01-29'
@@ -9597,3 +9611,57 @@ entries:
     c: Chen Yi 陈毅 cables his sympathy to the Chinese students in France beaten and unlawfully detained by the French police.
     n: '[[w.chen-yi-nianpu]], 1182. Names: Chen Yi.'
     tags: [polity:prc, polity:fr, name:chen-yi, ok:fields-place]
+  - id: cal.1967.china-leadership-147
+    when: 1967, early
+    date: '1967'
+    at: before 1967-01
+    thread: china-leadership
+    c: Zhou Enlai 周恩来 orders all Chinese ambassadors home except Huang Hua 黄华, lately moved from Accra to Cairo.
+    n: '[[w.friedman-shadow-cold-war]], 151. To check: [[w.huang-hua-memoirs]], 197 (cited by [[w.friedman-shadow-cold-war]], 151 n.10). Names: Zhou Enlai, Huang Hua.'
+    src:
+      c: 4ba2940c
+      rows:
+        - 'w.friedman-shadow-cold-war 151: all'
+    gloss:
+      title: Estimates
+      text:
+        - 'Friedman, by one estimate: over 5 billion copies of *Quotations from Chairman Mao* distributed, the world''s population roughly 3 billion ([[w.friedman-shadow-cold-war]], 154, citing [[w.jisen-cultural-revolution-in-the]], 155).'
+        - 'Friedman: African delegations visiting China, 116 in 1966 (on invitations given earlier), twelve in 1968; Chinese delegations to Africa, forty-eight in 1966, fourteen in 1968 ([[w.friedman-shadow-cold-war]], 154, citing [[w.ogunsanwo-chinas-policy-in-africa]], 195).'
+    tags: [polity:prc, name:zhou-enlai, name:huang-hua, ok:fields-place]
+  - id: cal.1967.soviet-union
+    when: 1967–72
+    date: '1967'
+    thread: soviet-union
+    c: Soviet seminars for underdeveloped countries on economic development begin, at Baku, Alma-Ata, Frunze and Tashkent, to 1972.
+    n: '[[w.friedman-shadow-cold-war]], 163.'
+    src:
+      c: 8528483c
+      rows:
+        - 'w.friedman-shadow-cold-war 163: all'
+    tags: [polity:ussr, ok:fields-place]
+  - id: cal.1967.china-leadership-148
+    when: 1967, early
+    date: '1967'
+    at: before 1967-01
+    place: peking
+    thread: china-leadership
+    c: 'As Friedman reports it: the staff of each recalled embassy, with its ambassador, housed in a large room of an old condemned Foreign Ministry building, there to struggle against the embassy''s "bourgeois elements"; each staff split into conservative and radical factions, the larger leading the struggle in its room, often to the torture of the ambassador.'
+    n: '[[w.friedman-shadow-cold-war]], 151–52. To check: [[w.barnouin-chinese-foreign-policy-during]], 13–14 (cited by [[w.friedman-shadow-cold-war]], 152 n.11); [[w.barnouin-chinese-foreign-policy-during]], 14 (cited by [[w.friedman-shadow-cold-war]], 152 n.12a); [[w.jisen-cultural-revolution-in-the]], 77–81 (cited by [[w.friedman-shadow-cold-war]], 152 n.12b). See [[cal.1967.china-leadership-147]].'
+    src:
+      c: 28c8a2d2
+      rows:
+        - 'w.friedman-shadow-cold-war 151–52: all'
+    tags: [form:state, polity:prc]
+  - id: cal.1967.africa
+    when: 1967, after Feb. 7
+    date: '1967'
+    at: before 1967-03
+    thread: africa
+    also: [china]
+    c: Tanzania. Young Tanzanians in green shirts christened the "Green Guards," issued "little green books" of President Nyerere's quotations.
+    n: '[[w.friedman-shadow-cold-war]], 155. To check: [[w.snow-star-raft]], 101–2 (cited by [[w.friedman-shadow-cold-war]], 155 n.32). Names: Nyerere. Check: the date; the text has it "soon" after the Arusha Declaration ([[cal.1967-02-07.africa]]).'
+    src:
+      c: 119b50f4
+      rows:
+        - 'w.friedman-shadow-cold-war 155: all'
+    tags: [polity:tanzania, name:nyerere-julius-k, ok:fields-place]

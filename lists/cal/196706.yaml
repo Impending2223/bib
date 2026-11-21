@@ -463,6 +463,19 @@ entries:
         witness: w.jian-zhou-enlai
         reads: Zhou reviews the draft without comment; Chen Boda revises it at his request
         at: '580'
+  - id: cal.1967-06-03.middle-east-2
+    when: June 3
+    date: '1967-06-03'
+    thread: middle-east
+    also: [soviet-union]
+    c: The head of the UAR's operational General Staff tells a senior group of Soviet military specialists in the UAR that not all Egyptian commanders approve Nasser's line "for restraint."
+    n: '[[w.friedman-shadow-cold-war]], 158–59. Made public: 2015. To check: Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 20 (cited by [[w.friedman-shadow-cold-war]], 159 n.46). Names: Nasser. Check: by Brezhnev''s account to the plenum of June 20, 1967, from the embassy''s data (159 n.46).'
+    src:
+      c: 58e731cb
+      rows:
+        - 'w.friedman-shadow-cold-war 158–59: all'
+        - 'via x.1967-06-20.brezhnev-speech-communist-party-plenum-june-20-1967: ?'
+    tags: [polity:uar, polity:ussr, name:nasser-gamal-abdel, vis:only:uar+ussr]
   - id: cal.1967-06-04.middle-east
     when: June 4
     date: '1967-06-04'
@@ -778,11 +791,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou attends the closing of the symposium held by the Afro-Asian Writers' Permanent Bureau for the twenty-fifth anniversary of Mao's *Talks at the Yan'an Forum on Literature and Art*.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (June 5, 1967; evening; Beijing). Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (June 5, 1967; evening; Beijing); [[w.friedman-shadow-cold-war]], 155 (the "International Seminar" on the twenty-fifth anniversary of the Yan''an talks, Peking, late May and early June 1967, representatives of thirty-four countries). To check: Embassy Beijing, report on preparation in Beijing for "Solidarity Conference of Afro-Asian Writers and Journalists," September 14, 1967, AVPRF f.100 o.54 papka 231 d.30, 105 (cited by [[w.friedman-shadow-cold-war]], 155 n.30). Names: Zhou Enlai, Mao Zedong.'
     src:
       c: c9cea8bd
       rows:
         - 'w.zhou-enlai-waijiao-huodong 512: all'
+        - 'w.friedman-shadow-cold-war 155: ?'
+        - 'via x.1967-09-14.embassy-beijing-preparation-beijing-solidarity-conference-afro-asian: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong]
     time_range:
       - 1967-06-05T11:00Z
@@ -1979,11 +1994,13 @@ entries:
     thread: soviet-union-leadership
     also: [middle-east]
     c: 'Moscow. Brezhnev and other leaders with Boumediene, flown in after the Six-Day War. Brezhnev''s list for the talks: how the war began and its results, the Security Council and the General Assembly, a four-power meeting, the slogan of liquidating Israel unpopular, whether to renew the war now. Boumediene''s account, as Brezhnev noted it: the Arabs have lost the first battle; Israel an imperialist base; the defeat may cost the Soviet Union its revolutionary standing in the Third World, and Moscow should ask whether to revise peaceful coexistence; the aim at least the withdrawal of troops.'
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 221–24 (№ 58, "К переговорам с Бумедьеном — 12го июня" (for the talks with Boumediene, June 12) and the notes of the talks), 283 n.192 (the editors: urgent help to the forces of the UAR, Syria and Algeria on the Politburo''s decisions). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 196 (the secretaries'' record, June 12–13: Moscow. Brezhnev negotiates with Boumediene in the Kremlin, 7 p.m. to 1 a.m). Made public: 2016. To check: the Soviet and Algerian records of the talks; which of the notes are Brezhnev''s questions and which Boumediene''s words (the book does not mark them). Names: Boumediene, Brezhnev.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 221–24 (№ 58, "К переговорам с Бумедьеном — 12го июня" (for the talks with Boumediene, June 12) and the notes of the talks), 283 n.192 (the editors: urgent help to the forces of the UAR, Syria and Algeria on the Politburo''s decisions). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 196 (the secretaries'' record, June 12–13: Moscow. Brezhnev negotiates with Boumediene in the Kremlin, 7 p.m. to 1 a.m); [[w.friedman-shadow-cold-war]], 159 (Boumediene in Moscow for talks, June 12 and 13, asks for "more decisive" Soviet action and an end to "peaceful coexistence"). Made public: 2016. To check: the Soviet and Algerian records of the talks; which of the notes are Brezhnev''s questions and which Boumediene''s words (the book does not mark them); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 51 (cited by [[w.friedman-shadow-cold-war]], 159 n.49). Names: Boumediene, Brezhnev.'
     src:
       c: 4e398163
       rows:
         - 'w.brezhnev-rabochie-i-dnevnikovye II, 196: ?'
+        - 'w.friedman-shadow-cold-war 159: ?'
+        - 'via x.1967-06-20.brezhnev-speech-communist-party-plenum-june-20-1967: ?'
     tags: [polity:ussr, polity:algeria, name:brezhnev-leonid, name:boumediene-houari, vis:only:ussr+algeria]
   - id: cal.1967-06-12.china-leadership
     when: June 12
@@ -2407,6 +2424,20 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 1095: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1967-06-14.soviet-union
+    when: June 14
+    date: '1967-06-14'
+    place: peking
+    thread: soviet-union
+    also: [china]
+    c: 'The Soviet Embassy in Peking on the Chinese press: January to May, more than 110 articles praising the Cultural Revolution by representatives of forty-two Afro-Asian countries, many of them foreigners living in Peking under the regime''s patronage.'
+    n: '[[w.friedman-shadow-cold-war]], 154. Made public: 2015. To check: Embassy Beijing, report on Chinese press, June 14, 1967, AVPRF f.100 o.54 papka 231 d.30, 71 (cited by [[w.friedman-shadow-cold-war]], 154 n.29).'
+    src:
+      c: 42a137ae
+      rows:
+        - 'w.friedman-shadow-cold-war 154: all'
+        - 'via x.1967-06-14.embassy-beijing-chinese-press-june-14-1967: ?'
+    tags: [polity:ussr, vis:only:ussr]
   - id: cal.1967-06-15.health-ca
     when: June 15
     date: '1967-06-15'
@@ -3246,12 +3277,18 @@ entries:
     thread: soviet-union-leadership
     also: [middle-east]
     c: Moscow. The Central Committee's June plenum. Brezhnev reports, "On the Policy of the Soviet Union in Connection With Israel's Aggression in the Middle East," June 20, 10 to 2, and presides 4 to 6; June 21, at the plenum, 10 to 4.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 198 (June 20–21); [[w.schattenberg-brezhnev]], 181, 250 (Brezhnev asks for comments on the anniversary speech; Andropov a candidate member of the Politburo; 181 n.77, 250 n.52). The Politburo of 8 to 11:45 p.m. is in the record of June 20; the plenum is public. To check: RGANI, f. 2, op. 3, d. 70, l. 4, 200 (stenographic report, June 20–21, 1967); d. 57 (Protocol no. 5), l. 5 (cited by [[w.schattenberg-brezhnev]], 181 n.77, 250 n.52). Names: Brezhnev.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 198 (June 20–21); [[w.schattenberg-brezhnev]], 181, 250 (Brezhnev asks for comments on the anniversary speech; Andropov a candidate member of the Politburo; 181 n.77, 250 n.52); [[w.friedman-shadow-cold-war]], 157 (Brezhnev groups the Cubans with the Chinese, putting their national interests before the socialist world''s; the Politburo taking "certain measures" against those tendencies in the Cuban leadership); [[w.friedman-shadow-cold-war]], 158 (Brezhnev: Nasser''s order of May 19 a "not-well-thought-out step," taken without consulting Moscow; Soviet arms to the Arab states only, the PLO left to seek support from Peking); [[w.friedman-shadow-cold-war]], 158–59 (Brezhnev: the UAR''s generals for a preventive strike; Syria''s Prime Minister Zayen to the Soviet ambassador, several times: "now is the best time for a decisive blow against imperialist forces in the Near East"); [[w.friedman-shadow-cold-war]], 159 (Brezhnev: Zhou Enlai calls on the Arab states "to continue the war at any cost"; the Arab leaders, Nasser too, did not consult their socialist "friends," not yet Marxists and open to petty-bourgeois nationalism, to be cured by deeper Soviet ties); [[w.friedman-shadow-cold-war]], 160 (the Arabs now willing to take hands-on Soviet help in training and planning, military and diplomatic). The Politburo of 8 to 11:45 p.m. is in the record of June 20; the plenum is public. To check: RGANI, f. 2, op. 3, d. 70, l. 4, 200 (stenographic report, June 20–21, 1967); d. 57 (Protocol no. 5), l. 5 (cited by [[w.schattenberg-brezhnev]], 181 n.77, 250 n.52); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 55–57 (cited by [[w.friedman-shadow-cold-war]], 157 n.38); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 57 (cited by [[w.friedman-shadow-cold-war]], 157 n.39); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 54 (cited by [[w.friedman-shadow-cold-war]], 158 n.42a); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 15 (cited by [[w.friedman-shadow-cold-war]], 158 n.44); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 20 (cited by [[w.friedman-shadow-cold-war]], 159 n.46); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 21 (cited by [[w.friedman-shadow-cold-war]], 159 n.47); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 53 (cited by [[w.friedman-shadow-cold-war]], 159 n.48); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 46 (cited by [[w.friedman-shadow-cold-war]], 159 n.50); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65 (cited by [[w.friedman-shadow-cold-war]], 159 n.51); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 70–73 (cited by [[w.friedman-shadow-cold-war]], 160 n.52). Names: Brezhnev.'
     src:
       c: 3246fc5f
       rows:
         - 'w.brezhnev-rabochie-i-dnevnikovye II, 198: ?'
         - 'w.schattenberg-brezhnev 181, 250: B'
+        - 'w.friedman-shadow-cold-war 157: ?'
+        - 'via x.1967-06-20.brezhnev-speech-communist-party-plenum-june-20-1967: ?'
+        - 'w.friedman-shadow-cold-war 158: ?'
+        - 'w.friedman-shadow-cold-war 158–59: ?'
+        - 'w.friedman-shadow-cold-war 159: ?'
+        - 'w.friedman-shadow-cold-war 160: ?'
     tags: [name:brezhnev-leonid, polity:ussr, polity:israel]
   - id: cal.1967-06-20.china-leadership-2
     when: June 20
@@ -3375,13 +3412,14 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zambia's President Kaunda visits China; Zhou Enlai receives him and holds talks with him from the 21st to the 25th.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 159–160 (June 21–25, 1967); [[w.zhou-enlai-waijiao-huodong]], 513 (June 21–25, 1967; June 21, afternoon, the airport welcome and the evening banquet; June 22, 10:30 a.m., Building 18, Diaoyutai guesthouse, the first talks; June 23, 5:30 p.m., Fujian Hall, Great Hall of the People, the second talks); [[w.zhonghua-renmin-gongheguo-waijiao]], 162 (June 21–25, 1967; Kaunda''s visit, June 21–25; Zhou''s talks). Made public: 1993. Names: Zhou Enlai, Kaunda.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 159–160 (June 21–25, 1967); [[w.zhou-enlai-waijiao-huodong]], 513 (June 21–25, 1967; June 21, afternoon, the airport welcome and the evening banquet; June 22, 10:30 a.m., Building 18, Diaoyutai guesthouse, the first talks; June 23, 5:30 p.m., Fujian Hall, Great Hall of the People, the second talks); [[w.zhonghua-renmin-gongheguo-waijiao]], 162 (June 21–25, 1967; Kaunda''s visit, June 21–25; Zhou''s talks); [[w.friedman-shadow-cold-war]], 155 (Kaunda will not endorse the Cultural Revolution even while negotiating Chinese aid for the Tanzam railway). Made public: 1993. Names: Zhou Enlai, Kaunda.'
     src:
       c: 59f61154
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 159–160: ?'
         - 'w.zhou-enlai-waijiao-huodong 513: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao 162: A'
+        - 'w.friedman-shadow-cold-war 155: ?'
     tags: [name:zhou-enlai, name:kaunda-kenneth-d, polity:prc, vis:only:prc+zambia]
   - id: cal.1967-06-21.china-leadership-4
     when: June 21

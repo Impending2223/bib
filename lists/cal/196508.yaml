@@ -4547,6 +4547,17 @@ entries:
       - 1965-08-17T15:00Z
     time_band: evening
     time_zone: Asia/Jakarta
+  - id: cal.1965-08-17.indonesia
+    when: Aug. 17
+    date: '1965-08-17'
+    thread: indonesia
+    c: Sukarno, in a speech, proclaims a "Jakarta–Phnom Penh–Hanoi–Beijing–Pyongyang axis."
+    n: '[[w.friedman-shadow-cold-war]], 143. To check: [[w.simpson-economists-with-guns]], 167 (cited by [[w.friedman-shadow-cold-war]], 143 n.207a); [[w.simon-broken-triangle]], 108 (cited by [[w.friedman-shadow-cold-war]], 143 n.207b). Names: Sukarno.'
+    src:
+      c: 1552818c
+      rows:
+        - 'w.friedman-shadow-cold-war 143: all'
+    tags: [polity:indonesia, name:sukarno, ok:fields-place]
   - id: cal.1965-08-18.vietnam
     when: Aug. 18–24
     date: '1965-08-18'
@@ -8224,3 +8235,27 @@ entries:
     c: Chen Yi 陈毅 at the opening of the Vietnamese film week of the Committee for Cultural Relations with Foreign Countries and the Ministry of Culture for the DRV's twentieth anniversary, at the Cultural Palace of Nationalities 民族文化宫, Peking 北京.
     n: '[[w.chen-yi-nianpu]], 1117. Names: Chen Yi.'
     tags: [polity:prc, polity:drv, name:chen-yi]
+  - id: cal.1965-08.china-leadership-6
+    when: Aug.
+    date: 1965-08
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅, it seems, indicates that China would at least consider passing nuclear technology to Indonesia.
+    n: '[[w.friedman-shadow-cold-war]], 143. Made public: 2015. To check: Report of ambassador in Indonesia to CC on Soviet-Indonesian relations, April 1965, AVPRF f.091 o.21 papka 33 d.1, 19 (cited by [[w.friedman-shadow-cold-war]], 143 n.206a). Names: Chen Yi. Check: the note (143 n.206a) gives "ibid., 19," the file of the Soviet Ambassador''s report of April 1965: a report of April cannot tell an act of August; perhaps another paper of the file, which also holds the report of Nov. 18, 1965 (144 n.213).'
+    src:
+      c: 606e9b12
+      rows:
+        - 'w.friedman-shadow-cold-war 143: all'
+        - 'via x.1965-04.ambassador-indonesia-cc-soviet-indonesian-relations-april-1965: ?'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, vis:only:prc+indonesia]
+  - id: cal.1965-08.indonesia
+    when: Aug.
+    date: 1965-08
+    thread: indonesia
+    c: 'As the PKI reports it: more than 26 million people, of a population of roughly 100 million, members of the party or of its affiliated organizations.'
+    n: '[[w.friedman-shadow-cold-war]], 144. To check: [[w.mozingo-chinese-policy-towards-indonesia]], 225 (cited by [[w.friedman-shadow-cold-war]], 144 n.211).'
+    src:
+      c: 8e3feeef
+      rows:
+        - 'w.friedman-shadow-cold-war 144: all'
+    tags: [form:state, polity:indonesia, ok:fields-place]

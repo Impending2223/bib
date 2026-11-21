@@ -232,6 +232,19 @@ entries:
         - 'via x.undated.teiwes-sun-interview-military-party-historian: ?'
         - 'via x.undated.teiwes-sun-oral-sources: ?'
     tags: [polity:prc, name:tao-zhu, name:mao-zedong, name:lin-biao, vis:only:prc]
+  - id: cal.1966-10-01.vietnam-hanoi
+    when: Oct. 1
+    date: '1966-10-01'
+    thread: vietnam-hanoi
+    also: [china]
+    c: At the PRC's seventeenth anniversary, under Chinese pressure, the DRV's first public mention of the Cultural Revolution.
+    n: '[[w.friedman-shadow-cold-war]], 169. To check: Report of Southeast Asia Department "Relations of the DRV and VWP Leadership to the ''Cultural Revolution'' in China," October 11, 1966, AVPRF f.079 o.21 papka 55 d.30, vol. II, 126–29 (cited by [[w.friedman-shadow-cold-war]], 169 n.96). Check: the day.'
+    src:
+      c: cc91a31c
+      rows:
+        - 'w.friedman-shadow-cold-war 169: all'
+        - 'via x.1966-10-11.southeast-asia-department-relations-drv-vwp-leadership-cultural: ?'
+    tags: [polity:drv, polity:prc]
   - id: cal.1966-10-02.opinion
     when: Oct. 2
     date: '1966-10-02'
@@ -1266,6 +1279,20 @@ entries:
       - 1966-10-06T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1966-10-06.cuba
+    when: Oct. 6
+    date: '1966-10-06'
+    place: havana
+    thread: cuba
+    also: [soviet-union, china]
+    c: 'Havana. Julio Le Riverend, vice president of the Cuban Academy of Sciences, back from China, to O. V. Kvasov of the Soviet Embassy: "it is hard to imagine, to what type of idiocy" the Red Guards reach; "The Hitlerites could have learned something from them."'
+    n: '[[w.friedman-shadow-cold-war]], 154. Made public: 2015. To check: Conversation of O. V. Kvasov, advisor embassy Havana, with VP Cuban Academy of Sciences Julio Le Riverend, October 6, 1966, AVPRF f.104 o.21 papka 17 d.4, 65 (cited by [[w.friedman-shadow-cold-war]], 154 n.27).'
+    src:
+      c: e8b72a7c
+      rows:
+        - 'w.friedman-shadow-cold-war 154: all'
+        - 'via x.1966-10-06.conversation-o-v-kvasov-advisor-embassy-havana-vp: ?'
+    tags: [polity:ussr, polity:cuba, vis:only:ussr+cuba]
   - id: cal.1966-10-07.europe-and-the-alliance
     when: Oct. 7
     date: '1966-10-07'
@@ -5516,3 +5543,18 @@ entries:
     c: In late autumn Chen Yi 陈毅 writes the poem "On the red leaves of the Western Hills" 《题西山红叶》.
     n: '[[w.chen-yi-nianpu]], 1171–1172. Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi]
+  - id: cal.1966-10.vietnam-hanoi-4
+    when: Oct., by the 11th
+    date: 1966-10
+    at: before 1966-10-11
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [china]
+    c: 'Hanoi. The PRC''s chargé d''affaires to the DRV''s Foreign Minister: the Cultural Revolution has for the PRC the significance the armed struggle has for the DRV; Vietnamese support is required.'
+    n: '[[w.friedman-shadow-cold-war]], 169. Made public: 2015. To check: Report of Southeast Asia Department "Relations of the DRV and VWP Leadership to the ''Cultural Revolution'' in China," October 11, 1966, AVPRF f.079 o.21 papka 55 d.30, vol. II, 125 (cited by [[w.friedman-shadow-cold-war]], 169 n.95). Check: the day; the Soviet Foreign Ministry department''s report on it is of Oct. 11, 1966 (169 n.95).'
+    src:
+      c: e4764e80
+      rows:
+        - 'w.friedman-shadow-cold-war 169: all'
+        - 'via x.1966-10-11.southeast-asia-department-relations-drv-vwp-leadership-cultural: ?'
+    tags: [polity:prc, polity:drv, vis:only:prc+drv]

@@ -2454,6 +2454,20 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 454: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-12-14.china-leadership-5
+    when: Dec. 14
+    date: '1965-12-14'
+    place: algiers
+    thread: china-leadership
+    also: [africa-algeria-morocco, soviet-union]
+    c: 'The Chinese Embassy in Algeria to the Foreign Ministry, Boumediene leaving again for Moscow: Soviet influence in Algeria will never match the French.'
+    n: '[[w.friedman-shadow-cold-war]], 139. Made public: 2015. To check: Embassy Algeria to MFA, December 14, 1965, CFMA doc. 109-03645-02, 53–55 (cited by [[w.friedman-shadow-cold-war]], 139 n.184). Names: Boumediene.'
+    src:
+      c: 60aabd36
+      rows:
+        - 'w.friedman-shadow-cold-war 139: all'
+        - 'via x.1965-12-14.embassy-algeria-mfa-december-14-1965: ?'
+    tags: [polity:prc, polity:algeria, name:boumediene-houari, vis:only:prc]
   - id: cal.1965-12-15.space
     when: Dec. 15
     date: '1965-12-15'
@@ -2628,11 +2642,12 @@ entries:
     place: moscow
     thread: soviet-union-leadership
     c: 'Moscow. Brezhnev with Boumediene, the Algerian head of state, on his visit (Dec. 13–18). His notes: "we feel the imperialists'' pressure"; the Algerian events a moral success for imperialism; Boumediene''s requests; the French Communists not to attack him; the regime changed without democratic institutions.'
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 116 (№ 22, Brezhnev''s notes, Dec. 15–16), 130 nn.141–42 (the editors: the visit Dec. 13–18 by the Presidium''s decision of Dec. 11; the army''s removal of Ben Bella in June). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 96–97 (the secretaries'' record, Dec. 15–17: Moscow. Brezhnev receives Boumediene, chairman of Algeria''s Revolutionary Council, Dec. 15, and attends the Kremlin dinner in his honor Dec. 17, 6 to 9). Made public: 2016. To check: the requests, not set down in the notes. Names: Boumediene, Brezhnev.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 116 (№ 22, Brezhnev''s notes, Dec. 15–16), 130 nn.141–42 (the editors: the visit Dec. 13–18 by the Presidium''s decision of Dec. 11; the army''s removal of Ben Bella in June). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 96–97 (the secretaries'' record, Dec. 15–17: Moscow. Brezhnev receives Boumediene, chairman of Algeria''s Revolutionary Council, Dec. 15, and attends the Kremlin dinner in his honor Dec. 17, 6 to 9); [[w.friedman-shadow-cold-war]], 139 (by December Boumediene on his way back to Moscow; Peking''s comfort that Soviet influence in Algeria will never match the French). Made public: 2016. To check: the requests, not set down in the notes. Names: Boumediene, Brezhnev.'
     src:
       c: a09e3455
       rows:
         - 'w.brezhnev-rabochie-i-dnevnikovye II, 96–97: ?'
+        - 'w.friedman-shadow-cold-war 139: ?'
     tags: [polity:ussr, polity:algeria, name:brezhnev-leonid, name:boumediene-houari, vis:only:ussr+algeria]
   - id: cal.1965-12-15.china-leadership
     when: Dec. 15
@@ -4007,6 +4022,19 @@ entries:
       - 1965-12-22T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-12-22.soviet-union
+    when: Dec. 22
+    date: '1965-12-22'
+    thread: soviet-union
+    also: [vietnam-hanoi, china]
+    c: 'The Soviet Foreign Ministry''s Far Eastern and Southeast Asia Departments to Gromyko, Andropov, Shelepin, Ustinov and others on PRC–DRV relations: great Chinese influence on the DRV''s policy at home and abroad, the DRV''s near-uniform support of Chinese positions; the Chinese line "constrains the actions of the Vietnamese" against political means of struggle; the Chinese want the conflict sharpened to bring on a Soviet–American clash.'
+    n: '[[w.friedman-shadow-cold-war]], 165–66. Made public: 2015. To check: Report of Far Eastern and Southeast Asia Departments MFA to Gromyko, Andropov, Shelepin, Ustinov, et al. on PRC-DRV relations, December 22, 1965, AVPRF f.079 o.20 papka 49 d.26, 144 (cited by [[w.friedman-shadow-cold-war]], 165 n.71); Report of Far Eastern and Southeast Asia Departments MFA to Gromyko, Andropov, Shelepin, Ustinov, et al. on PRC-DRV relations, December 22, 1965, AVPRF f.079 o.20 papka 49 d.26, 143 (cited by [[w.friedman-shadow-cold-war]], 166 n.79a). Names: Gromyko, Andropov, Shelepin. Check: the text has it a report of the Soviet Embassy at Hanoi, December 1965 (165).'
+    src:
+      c: cf1b6476
+      rows:
+        - 'w.friedman-shadow-cold-war 165–66: all'
+        - 'via x.1965-12-22.far-eastern-southeast-asia-departments-mfa-gromyko-andropov: ?'
+    tags: [polity:ussr, vis:only:ussr, name:gromyko-andrei, name:andropov-yuriy-vladimirovich, name:shelepin-aleksandr-n]
   - id: cal.1965-12-23.vietnam-congress
     when: Dec. 23
     date: '1965-12-23'

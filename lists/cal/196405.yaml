@@ -4637,6 +4637,20 @@ entries:
       - 1964-05-19T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-19.china-leadership-6
+    when: May 19
+    date: '1964-05-19'
+    place: algiers
+    thread: china-leadership
+    also: [africa-algeria-morocco]
+    c: 'The Chinese Embassy in Algeria to the Foreign Ministry, on Ben Bella''s visit to the Soviet Union: he made the fewest concessions he could, for all his "illusions" about the USSR and the Aswan Dam''s hold on his economic imagination. Invite him to Peking as soon as possible.'
+    n: '[[w.friedman-shadow-cold-war]], 138. Made public: 2015. To check: PRC embassy Algeria to MFA, report on Ben Bella''s visit to USSR, May 19, 1964, CFMA doc. 109-03526-08, 14–17 (cited by [[w.friedman-shadow-cold-war]], 138 n.176). Names: Ben Bella.'
+    src:
+      c: b905aaeb
+      rows:
+        - 'w.friedman-shadow-cold-war 138: all'
+        - 'via x.1964-05-19.prc-embassy-algeria-mfa-ben-bella-s-visit: ?'
+    tags: [polity:prc, polity:algeria, name:ben-bella-ahmed, vis:only:prc]
   - id: cal.1964-05-20.opinion
     when: May 20
     date: '1964-05-20'
@@ -8079,3 +8093,19 @@ entries:
       - 1964-05-31T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1964-05.soviet-union-3
+    when: May, before the 9th
+    date: 1964-05
+    at: before 1964-05-09
+    place: moscow
+    thread: soviet-union
+    also: [africa-algeria-morocco]
+    c: Ben Bella in the Soviet Union, after the FLN congress, to a hero's welcome. A new loan of about $126.5 million, for projects from mines to technical schools. Ben Bella calls the Soviet Union Algeria's "loyal friend" and backs the test ban treaty, but repeats the Chinese line that while oppressed and oppressing nations exist there can be no real peace; he will not enter the Sino-Soviet quarrel or legalize the Communist Party.
+    n: '[[w.friedman-shadow-cold-war]], 137–38. To check: MFA intelligence report to CC on Ben Bella''s visit to USSR, May 9, 1964, CFMA doc. 109-03526-08, 5–7 (cited by [[w.friedman-shadow-cold-war]], 138 n.175); PRC embassy Algeria to MFA, report on Ben Bella''s visit to USSR, May 19, 1964, CFMA doc. 109-03526-08, 14–17 (cited by [[w.friedman-shadow-cold-war]], 138 n.176). Names: Ben Bella. Check: the days; the text has him come "on the heels of" the April congress; the Chinese Foreign Ministry''s intelligence report on the visit is of May 9 (138 n.175).'
+    src:
+      c: 8f5362fc
+      rows:
+        - 'w.friedman-shadow-cold-war 137–38: all'
+        - 'via x.1964-05-09.mfa-intelligence-cc-ben-bella-s-visit-ussr: ?'
+        - 'via x.1964-05-19.prc-embassy-algeria-mfa-ben-bella-s-visit: ?'
+    tags: [polity:ussr, polity:algeria, name:ben-bella-ahmed]

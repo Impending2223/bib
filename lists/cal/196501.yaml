@@ -948,6 +948,23 @@ entries:
     c: Chen Yi 陈毅 and Subandrio exchange cables of congratulation on the China–Indonesia air service, opening Jan. 6.
     n: '[[w.chen-yi-nianpu]], 1078. Names: Chen Yi.'
     tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio, ok:fields-place]
+  - id: cal.1965-01-05.foreign-aid
+    when: Jan. 5
+    date: '1965-01-05'
+    thread: foreign-aid
+    also: [middle-east]
+    c: The Johnson administration suspends its sales of wheat to Cairo indefinitely, a week after Shelepin leaves.
+    n: '[[w.friedman-shadow-cold-war]], 133. To check: Jesse Ferris, "Egypt, the Cold War, and the Civil War in Yemen, 1962–1966" (Ph.D. diss., Princeton University, 2008) (cited by [[w.friedman-shadow-cold-war]], 133 n.147).'
+    src:
+      c: 717828e1
+      rows:
+        - 'w.friedman-shadow-cold-war 133: all'
+        - 'via x.undated.jesse-ferris-egypt-cold-war-civil-war-3: ?'
+    gloss:
+      title: Estimates
+      text:
+        - 'Friedman: by 1962 roughly 50 percent of the UAR''s wheat provided by the United States under Food for Peace ([[w.friedman-shadow-cold-war]], 133).'
+    tags: [polity:us, polity:uar, ok:fields-place]
   - id: cal.1965-01-06.legislatures-ny
     when: Jan. 6
     date: '1965-01-06'
@@ -1322,6 +1339,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 1: all'
     tags: [polity:prc, polity:nepal, name:liu-shaoqi]
+  - id: cal.1965-01-07.indonesia
+    when: Jan. 7
+    date: '1965-01-07'
+    thread: indonesia
+    also: [china]
+    c: Malaysia voted onto the Security Council, Sukarno announces that Indonesia is leaving the United Nations.
+    n: '[[w.friedman-shadow-cold-war]], 143. Names: Sukarno.'
+    src:
+      c: 39ec5db3
+      rows:
+        - 'w.friedman-shadow-cold-war 143: all'
+    tags: [polity:indonesia, polity:un, name:sukarno]
   - id: cal.1965-01-08.vietnam-congress
     when: Jan. 8
     date: '1965-01-08'
@@ -7076,3 +7105,69 @@ entries:
     c: Mao Zedong 毛泽东 reads the biographies of Huang Qiong 黄琼 and Li Gu 李固 in the *Hou Han shu* 后汉书, finds them worth reading and marks them, "for Liu, Zhou, Deng and Peng to read" and "for Comrade Chen Yi to read"; Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Peng Zhen 彭真 and Chen Yi 陈毅 read them.
     n: '[[w.chen-yi-nianpu]], 1136. Made public: 1995. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi.'
     tags: [polity:prc, name:chen-yi, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-01.soviet-union
+    when: Jan., after the 7th
+    date: 1965-01
+    at: after 1965-01-07
+    thread: soviet-union
+    also: [indonesia]
+    c: Kosygin writes Sukarno criticizing the withdrawal from the UN; the Soviet press speaks for the UN.
+    n: '[[w.friedman-shadow-cold-war]], 143. To check: MFA International Department report on Soviet attitude toward Indonesia leaving UN, April 1, 1965, CFMA doc. 109-03641-02, 4–5 (cited by [[w.friedman-shadow-cold-war]], 143 n.204). Names: Kosygin, Sukarno. Check: the day; the note gives the Chinese Foreign Ministry''s report of Apr. 1, 1965 (143 n.204).'
+    src:
+      c: '24691207'
+      rows:
+        - 'w.friedman-shadow-cold-war 143: all'
+        - 'via x.1965-04-01.mfa-international-department-soviet-attitude-toward-indonesia-leaving: ?'
+    tags: [polity:ussr, polity:indonesia, name:kosygin-aleksei, name:sukarno]
+  - id: cal.1965.middle-east
+    when: 1965, first half
+    date: '1965'
+    at: before 1965-01
+    thread: middle-east
+    also: [soviet-union]
+    c: The Soviets promise the UAR 300,000 tons of wheat.
+    n: '[[w.friedman-shadow-cold-war]], 133.'
+    src:
+      c: 010f1373
+      rows:
+        - 'w.friedman-shadow-cold-war 133: all'
+    tags: [polity:ussr, polity:uar]
+  - id: cal.1965.soviet-union
+    when: '1965'
+    date: '1965'
+    thread: soviet-union
+    also: [china]
+    c: 'As Friedman reports it: through 1965, under Soviet diplomacy and aid, India, the UAR, Ghana, Cyprus, Iraq, Laos, Senegal, Nigeria and others come out for Soviet attendance at the second Afro-Asian conference.'
+    n: '[[w.friedman-shadow-cold-war]], 145. To check: Gromyko to Suslov, June 5, 1965, RGANI f.5 o.30 d.480, 94–126 (cited by [[w.friedman-shadow-cold-war]], 145 n.218a); Gromyko to Suslov, June 17, 1965, RGANI f.5 o.30 d.480, 94–126 (cited by [[w.friedman-shadow-cold-war]], 145 n.218b); Gromyko to Suslov, June 18, 1965, RGANI f.5 o.30 d.480, 94–126 (cited by [[w.friedman-shadow-cold-war]], 145 n.218c).'
+    src:
+      c: e71a5d53
+      rows:
+        - 'w.friedman-shadow-cold-war 145: all'
+        - 'via x.1965-06-05.gromyko-suslov-june-5-1965: ?'
+        - 'via x.1965-06-17.gromyko-suslov-june-17-1965: ?'
+        - 'via x.1965-06-18.gromyko-suslov-june-18-1965: ?'
+    tags: [form:state, polity:ussr, ok:fields-place]
+  - id: cal.1965.indonesia-2
+    when: 1965, by August
+    date: '1965'
+    at: before 1965-08
+    thread: indonesia
+    c: The PKI calls for a "Fifth Force" of armed workers and peasants.
+    n: '[[w.friedman-shadow-cold-war]], 144. To check: [[w.simon-broken-triangle]], 107–8 (cited by [[w.friedman-shadow-cold-war]], 144 n.210a); [[w.mozingo-chinese-policy-towards-indonesia]], 223–24 (cited by [[w.friedman-shadow-cold-war]], 144 n.210b). Check: the date; the text sets it after the PKI''s land seizures of mid-1964 and before August 1965 (143–44).'
+    src:
+      c: dd198222
+      rows:
+        - 'w.friedman-shadow-cold-war 144: all'
+    tags: [polity:indonesia, ok:fields-place]
+  - id: cal.1965.indonesia-3
+    when: 1965, by August
+    date: '1965'
+    at: before 1965-08
+    thread: indonesia
+    c: Sukarno endorses the PKI's "Fifth Force."
+    n: '[[w.friedman-shadow-cold-war]], 144. To check: [[w.simon-broken-triangle]], 107–8 (cited by [[w.friedman-shadow-cold-war]], 144 n.210a); [[w.mozingo-chinese-policy-towards-indonesia]], 223–24 (cited by [[w.friedman-shadow-cold-war]], 144 n.210b). See [[cal.1965.indonesia-2]]. Names: Sukarno. Check: the date, as [[cal.1965.indonesia-2]].'
+    src:
+      c: 7a07f0d9
+      rows:
+        - 'w.friedman-shadow-cold-war 144: all'
+    tags: [polity:indonesia, name:sukarno, ok:fields-place]
