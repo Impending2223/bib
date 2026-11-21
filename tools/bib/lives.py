@@ -1777,8 +1777,9 @@ def calendar_tagged(series):
 
 
 def calendar_of(ptrs, subs, key=None, series=None):
-    """The calendar entries of a person, by date: those whose 'Names:' line names one of his Part III entries, and
-    those tagged 'name:<his key>' (every person the entry's statement names, President included)."""
+    """The calendar entries of a person, in the calendar's order (chron.py): those whose 'Names:' line names one of
+    his Part III entries, and those tagged 'name:<his key>' (every person the entry's statement names, President
+    included)."""
     out, seen = [], set()
     for l, s, x in subs:
         for e in ptrs.calx.get(x["id"], []):
@@ -1791,7 +1792,8 @@ def calendar_of(ptrs, subs, key=None, series=None):
         if e.get("date") and e["id"] not in seen:
             seen.add(e["id"])
             out.append(e)
-    return sorted(out, key=lambda e: str(e["date"]))
+    from . import chron
+    return chron.sort(series if series is not None else ptrs.series, out)
 
 
 def series_lines(subs, cal):
@@ -1803,6 +1805,7 @@ def series_lines(subs, cal):
 
 
 def calendar_sentences(ptrs, cal):
+    from . import loose
     out = []
     for e in cal:
         if True:
@@ -1811,7 +1814,9 @@ def calendar_sentences(ptrs, cal):
             n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", e.get("n") or "").strip(), "cal", e) if e.get("n") else ""
             # each calendar entry a paragraph of its own, its sources and pointer after it
             wy = esc(e["when"]) if str(e["when"]).startswith(e["date"][:4]) else f"{esc(e['when'])}, {e['date'][:4]}"
-            out.append(sent(e["date"], f"{wy}: {c}", [n] if n else [],
+            # keyed by the day it is shown at (loose.place_day), so the life keeps the calendar's order (chron.py)
+            day = loose.place_day(e)
+            out.append(sent(day.isoformat() if day else e["date"], f"{wy}: {c}", [n] if n else [],
                             [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {wy}")], para=True,
                             kind="cal"))
     return out

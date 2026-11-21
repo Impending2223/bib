@@ -1,0 +1,206 @@
+diff --git a/notes/briefs/batch12-press.md b/notes/briefs/batch12-press.md
+index a623366..d02c1d4 100644
+--- a/notes/briefs/batch12-press.md
++++ b/notes/briefs/batch12-press.md
+@@ -14,7 +14,7 @@ The owner reads the *New York Times* day by day (TimesMachine) and sends the ite
+ A condition of public importance that has no day of its own, reported as such: a senator who has not endorsed the ticket ("the failure of Senator Harry F. Byrd of Virginia to endorse the Democratic ticket"), a governor not yet committed, a bill still in committee, a principal's silence. The report makes it a matter of public knowledge on the paper's day; the entry goes on that day, not on the day the condition ends.
+ 
+ - `c`: "As the *Times* reports it: Byrd of Virginia has not endorsed the Democratic ticket; neither of Georgia's Senators, Russell or Talmadge, has spoken for Kennedy." The condition, as the paper states it; no inference beyond it.
+-- `tags`: `form:state` (it renders as a condition, not an act: the label "As reported"; the index's register by thread), the `name:` tags of the persons, `state:` tags.
++- `tags`: the `name:` tags of the persons, `state:` tags; no `form:state` and no label (the owner, Nov. 21, 2026: "Just drop the label altogether"; notes/guide/entries.md, "Standing conditions"). The opener "As the *Times* reports it:" is the paper's alone: what an archive, an embassy, a ministry or a historian reports is a normal entry, its source in the note ("Why isn't this just a normal entry?").
+ - `thread`: the condition's (the campaign's thread for an endorsement).
+ - `n`: the paper, linked, at the page. A later report of the same condition ("still silent") is its own entry on its own day, its note "See [[the earlier]]". The day the condition ends (an endorsement, a first appearance) is an event: an entry, pointing back to the state entries.
+ - Not a standing condition: what the paper predicts, guesses or argues; a columnist's view; a condition of no public importance.
+diff --git a/notes/guide/entries.md b/notes/guide/entries.md
+index b8c96fe..211dcb2 100644
+--- a/notes/guide/entries.md
++++ b/notes/guide/entries.md
+@@ -37,7 +37,7 @@ A `gloss` is a note under an entry, in the calendar's voice, on what the entry r
+ - *The record* (or a title of its own, as *Style*): the record behind a name or a date laid out, quotations marked and cited, what each piece of it is and is not, stated plainly and without a side (Jan. 30, 1961, the Address to the Joint Session, *Style*; Feb. 19, 1962, *The record*).
+ - *Estimates*: an author's own estimates and totals that bear on the entry (a historian's figure for a county's deaths; the aid a power gave), each as its author's and cited by card and page: "Yang Jisheng puts the county's dead at … ([[w.yang-jisheng-mubei]], I, 123)." The owner, Nov. 21, 2026: "Put those numbers in too. Put them in the 'gloss' on the most appropriate entry, or the opening or closing of the most appropriate thread." A figure for a whole thread's matter (the famine's national toll) goes in the gloss of the thread's first or last entry, not in the thread's statement (the owner, the same night: "not the opening or closing of each thread's 'statement.' The first or last entry in a thread").
+ 
+-An entry that has both takes one gloss: the estimates a paragraph of it, opening "Estimates." A gloss is not for a condition a source reports for a date, which is an entry as reported (`form:state`, above), nor for a dated report, which is an entry (R8).
++An entry that has both takes one gloss: the estimates a paragraph of it, opening "Estimates." A gloss is not for a condition a source reports for a date, which is an entry on that date (a paper's report, "As the *Times* reports it: ...", above; an archive's or anyone else's, a normal entry), nor for a dated report, which is an entry (R8).
+ 
+ Spans (the owner's ruling, Oct. 20, 2026): an entry is an event-day. Spans of two or three days are good, under a week tolerable; anything longer deserves close scrutiny, and an entry never bundles several events (an announcement and the act it announces, hearings and the vote, a note and its reply): each gets its own entry, dated to the day its record bears, the first keeping the event's bibliography and the rest pointing back. A day's "Continuing" line names what is under way; it should say something. 1961 is the model.
+ 
+@@ -74,11 +74,11 @@ Places in the calendar's entries (`c`): a city or town of the United States unde
+ 
+ Vietnamese names and places carry their diacritics (Ngô Đình Diệm; Diệm, Khánh, Kỳ; Huế, Đà Nẵng), except where the verbatim prints none: a quotation, a title, the byline of a work printed without them (Ky, *Twenty Years and Twenty Days*; a Vietnamese-language work's byline has them), a writer who publishes without them (Lien-Hang T. Nguyen), the FRUS and APP forms. English names stay: Saigon, Hanoi, Haiphong, Cholon, Dalat, Vietnam, Tonkin, the Mekong, Tet, Viet Cong, Viet Minh, the Ho Chi Minh Trail. A person's entry in `sources/name-forms.yaml` lists the plain form first, for the sources that print it; `check` warns on a plain form in the series' own prose (the calendar, every list's notes and roles, persons' subject lines; [diacritics]; places: `VIET_PLACES` in `tools/bib/check.py`). Keys and anchors fold the marks, Đ to d (`ngo-dinh-diem`).
+ 
+-**Characters** (Chinese, Japanese, Korean). Readers record them as before: a term, a phrase or slogan, a title, a document's name, an organ, a person or a place given in romanization (Pinyin, Hepburn, McCune–Reischauer) in `c` or `n` is followed by its characters, a space between, in the script of the source the entry is read from (simplified for the PRC's own books of the span; traditional where the source prints traditional), from the page, never from memory (R4): "fentian dangan 分田单干", "Tian Jiaying 田家英", "Xiyang 昔阳", "the *Hongqi* 红旗 editorial", "(the "buying-out," 赎买)". The build takes them out of the line (the owner, Nov. 19, 2026: "I've changed my mind on writing CJK after place, personal names, and titles in the body text. Drop them. Keep them in the citation block."; and, about 10:45 a.m.: "What? I'm just saying that the substantive notes in the citation block should give the full CJK, and that Names in 'Names:' should as well."). In the shown line a run of characters glossing the words before it is dropped with its space (a parenthesis of characters alone goes whole; "(Mai Ye, 麦耶)" shows "(Mai Ye)") and is not collected anywhere: there is no "Characters:" sentence. A person in "Names:" takes his characters after his name at their first appearance on the page (a calendar half, the entries in the page's order): "Names: Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平.", from the line where it glosses his name, or from his name entry where its subject line records them ("Huang Hua 黄华"); not again later on the page. The note keeps all its own characters, as written, every time: the documents and titles it cites, "To check:", the witnesses, "The words:". A quoted original in characters with its English beside it in the line ("中央决定进行反击战役" (the Center has decided on a counterattack)) shows the English, in the quotation marks, and its original goes to the entry's own citation block, as written, "The words: 中央决定进行反击战役." (R25's form), in every entry (the owner, the same: "Move them, keep English"); a quotation with no English beside it stays on the line. Characters standing as a sentence's own words ("the departing Romanian ambassador, 乔治乌"; "led by 莫纳·孟杜"; "the slogan 三面红旗") stay where they are. Nothing is written in the data for this, and nothing in the data changes: `tools/bib/cjk.py`, its STYLE. Works keep their characters on the card, not in the cite: a Chinese, Japanese or Korean work's card carries `script`, its title in its own characters, taken from a source that prints them (the book's own title page, a catalogue record, a work that cites it in characters), never made up from a romanization (`tools/bib/works.py`, STYLE 10); the build gives them at the card's first cite on a page (FIRST CITE).
++**Characters** (Chinese, Japanese, Korean). Readers record them as before: a term, a phrase or slogan, a title, a document's name, an organ, a person or a place given in romanization (Pinyin, Hepburn, McCune–Reischauer) in `c` or `n` is followed by its characters, a space between, in the script of the source the entry is read from (simplified for the PRC's own books of the span; traditional where the source prints traditional), from the page, never from memory (R4): "fentian dangan 分田单干", "Tian Jiaying 田家英", "Xiyang 昔阳", "the *Hongqi* 红旗 editorial", "(the "buying-out," 赎买)". The build takes them out of the line (the owner, Nov. 19, 2026: "I've changed my mind on writing CJK after place, personal names, and titles in the body text. Drop them. Keep them in the citation block."; and, about 10:45 a.m.: "What? I'm just saying that the substantive notes in the citation block should give the full CJK, and that Names in 'Names:' should as well."). In the shown line a run of characters glossing the words before it is dropped with its space (a parenthesis of characters alone goes whole; "(Mai Ye, 麦耶)" shows "(Mai Ye)") and is not collected anywhere: there is no "Characters:" sentence. A person in "Names:" takes his characters after his name at their first appearance on the page (a calendar half, the entries in the page's order): "Names: Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平.", from the line where it glosses his name, or from his name entry where its subject line records them ("Huang Hua 黄华"); not again later on the page. The note keeps all its own characters, as written, every time: the documents and titles it cites, "To check:", the witnesses, "The words:". A quoted original in characters with its English beside it in the line ("中央决定进行反击战役" (the Center has decided on a counterattack)) shows the English, in the quotation marks, and its original goes to the entry's own citation block, as written, "The words: 中央决定进行反击战役." (R25's form), in every entry (the owner, the same: "Move them, keep English"); a quotation with no English beside it stays on the line. Characters standing as a sentence's own words ("the departing Romanian ambassador, 乔治乌"; "led by 莫纳·孟杜"; "the slogan 三面红旗") stay where they are. Nothing is written in the data for this, and nothing in the data changes: `tools/bib/cjk.py`, its STYLE. A foreign person (not Chinese) the source gives only in Chinese characters (a transliteration, "培利卡·比库里", or a Japanese or Korean name in kanji or hanja) is written, where the evidence identifies him (the same person romanized elsewhere in the tree, by the same visit, delegation or office; a name entry; the entry's own sources; never from memory), by his romanized name alone, the characters dropped ("Öberg", "Miyoshi Hajime"); where it does not, by the Hanyu Pinyin of the characters first, in italics, then the characters, "*Peilika Bikuli* 培利卡·比库里", so the Pinyin is not taken for his own name (the owner, Nov. 21, 2026: "drop the CJK rendering of the found names—that's what we do elsewhere—and put the Pinyin ahead of the CJK, in italics"); a Japanese or Korean name takes the reading a source or the tree gives. A Japanese, Korean or Vietnamese name the source gives only in characters, unidentified, takes its Mandarin reading in quotation marks, the reading not being phonetic: "*Shenhu Shizhifu*" 神户世志夫 (the owner, Nov. 21, 2026: "give quotation marks around pinyin renderings of non-Chinese CJK names, to indicate that they reading is non-phonetic in a way that pinyin renderings of non-CJK names are not"); a Burmese name, a phonetic transliteration, takes none. Chinese persons keep their characters as above. Works keep their characters on the card, not in the cite: a Chinese, Japanese or Korean work's card carries `script`, its title in its own characters, taken from a source that prints them (the book's own title page, a catalogue record, a work that cites it in characters), never made up from a romanization (`tools/bib/works.py`, STYLE 10); the build gives them at the card's first cite on a page (FIRST CITE).
+ 
+ ## Standing conditions and subentries (the owner, Nov. 12, 2026)
+ 
+-- A condition of public importance a paper reports as such (a senator who has not endorsed the ticket; a bill held in committee) is an entry on the paper's day, `c` "As the *Times* reports it: ...", tagged `form:state` (notes/briefs/batch12-press.md). On the day it is set off by a rule and the label "As reported"; the calendar's index gathers every such entry by thread, "Standing conditions, as reported" (`tools/bib/standing.py`; the owner: "As reported. Every standing condition, grouped by thread.").
++- A condition of public importance a paper reports as such (a senator who has not endorsed the ticket; a bill held in committee) is an entry on the paper's day, `c` "As the *Times* reports it: ..." (notes/briefs/batch12-press.md). No tag and no label: it is set out on its day as any other entry (the owner, Nov. 21, 2026: "Just drop the label altogether"; the tag `form:state` and the label "As reported" of Nov. 12 are retired; `tools/bib/standing.py`). Only a newspaper's (wire's, broadcast's) report of a standing condition on its day takes that opener; an archive's, an embassy's, a ministry's or a historian's report is a normal entry, its source in the note ("Shanghai 上海: on a single day ..."; a dated dispatch as the event, "British embassy in Peking to the Foreign Office: ...") (the owner, Nov. 21, 2026: "Why isn't this just a normal entry?"). `check` warns on a `c` opening "As ... has it:" or "As ... reports it:" (or gives, counts, reckons it) whose note cites no newspaper, wire or broadcast [report-opener] (the press as `sources/provenance.yaml` files it); `ok:report-opener` silences an entry.
+ - One event with several matters (a news conference, a session with several decisions): a parent entry states what is true of all (who, where, when; the common bibliography), and each matter is a subentry, `part_of: <parent id>`, with its own thread, statement and sources, set a hair indented under the parent; `follows:` between siblings gives their order (`tools/bib/subentries.py`). A parent carries its subentries' threads for the highlight. Converted so far: the news conferences of Feb. 17 and Sept. 7, 1960, and July 19, 1961.
+ 
+ **The note as footnotes** (the owner, Nov. 18, 2026: "Implement A and superscript"; `tools/bib/footnotes.py`, its STYLE). Where an entry's map (`src`, else the mechanical one) gives its claims two or more different sets of sources, the build shows the note's sources as footnotes: a superscript numeral after each run of claims with the same sources, numbered afresh in each entry, the footnotes under the line, the first line of each indented with its number, the rest flush; then the note's other sentences ("Made public", "To check", "See", "Names", "Check") as before. One footnote or none: the note is shown as one block, as before. A work cited again straight after itself is "*id*." ("*id*. at 89 n.35"; capitalized at a footnote's head; across footnotes only after a footnote of that one work): "id" in italics, its full stop roman (the owner's departure from the Bluebook). Nothing is written in the data for this: a reader maps the claims (`src`), and the footnotes follow.
+diff --git a/tests/golden/expected/build-files.txt b/tests/golden/expected/build-files.txt
+index 02bd0a4..6b74531 100644
+--- a/tests/golden/expected/build-files.txt
++++ b/tests/golden/expected/build-files.txt
+@@ -1,13 +1,13 @@
+ 27e8840352c465cd      25944  adm.html
+ 33a12b55462c8d59      62475  cal.html
+ 8123c2767195790e       9541  cal1961.html
+-7db0e690cb37c6cb    1315914  cal1961H1.html
+-480c676929afc790     840522  cal1961H2.html
++132c88d174ac4547    1266671  cal1961H1.html
++9f76b4410eab7d60     815970  cal1961H2.html
+ 3df6c9a53d8ccc1e       9539  cal63.html
+ f57986a4a4e61604       9539  cal66.html
+ 022003ab2ebb8eef      27982  cong.html
+ 9d13931031ae900b      24350  ebooks.html
+-aaf002cf41f3b1d6    2075165  executive.html
++7b85a00a85f7b1e6    2075165  executive.html
+ 6cd82aa94a3e698c      57408  kja.html
+ b6ed893051ced29b      39656  kjc.html
+ 4d8823eecdea1e44      31366  l68.html
+@@ -38,36 +38,36 @@ bda1548cf55ecc03        260  lives-y.html
+ 491ec44ba21977dc        260  lives-z.html
+ b0dfed76c3fece7e        252  lives.html
+ 1bf0befa8252a6e1      58730  names-a.html
+-8716dbedecada008     244172  names-b.html
+-754cc96c456a4ecc     136329  names-c.html
+-52638d3cfffa2b56     149553  names-d.html
+-6fb6dbb60952f451      48225  names-e.html
+-b7f1ea8667bd147c      74904  names-f.html
+-05cf099c5b83476e     114970  names-g.html
+-b799a0fb42cca84d     103149  names-h.html
+-f76cd537ffec0de0      34373  names-i.html
+-6a3629da4f0fd337      66684  names-j.html
+-976e0ddec38869cc     360652  names-k.html
+-fae8e3e58e561771     166973  names-l.html
+-065c19915b3db009     246087  names-m.html
+-24d7811571d08ce8      73028  names-n.html
+-ac3679aa85d952a6      50448  names-o.html
+-8e9c2da2827d2f02      63206  names-p.html
++184bb005fa9addcc     244172  names-b.html
++811fc5f70805a947     136329  names-c.html
++6c102d97fe6625d0     149553  names-d.html
++238c63b64ff9d085      48225  names-e.html
++d4f3b822327b4d24      74904  names-f.html
++cf9f06aa91f7190d     114970  names-g.html
++6e8fd5c8387e8fe3     103149  names-h.html
++efe1584aa35af845      34373  names-i.html
++4a3e7ab7ae158795      66684  names-j.html
++dd78e3a4f0d2c41e     360652  names-k.html
++5c4f676593ae6b7c     166973  names-l.html
++2052f4892cd1e75a     246087  names-m.html
++2763087c6464d90d      73028  names-n.html
++d6f20cee1fc427ad      50448  names-o.html
++68b21756004575f8      63206  names-p.html
+ 6e85b978920a0289      29934  names-q.html
+-2854ba04622ccddc     146192  names-r.html
+-df365417c01bfe23     177851  names-s.html
+-bf969ed876e084a3      86076  names-t.html
++475be4dea23652e2     146192  names-r.html
++26eeae4fd290dc23     177851  names-s.html
++6b772ab9b4ca93b8      86076  names-t.html
+ 3a46144e1126cd5c      36170  names-u.html
+ 618c5dba3384463c      32074  names-v.html
+-af04b3cf342be3d1      80743  names-w.html
+-1609c907ebef65b9      40857  names-y.html
+-616f21e86027e791     136349  names-z.html
++c0b6551c7d1b2803      80743  names-w.html
++3c76212709c2f3fb      40857  names-y.html
++f5b3bc55fdd5150c     136349  names-z.html
+ 66b1f3bc318b57a3      91614  names.html
+ ae14786cffbb676b      30228  opp.html
+-76a0e87917d2e10a    2401997  series.html
++8d25d33aabc6ca8f    2328434  series.html
+ 754b9ade6f6609fe      34051  vn.html
+ d3f9d97897ba9add      24906  wg.html
+-fc48d2a2f303bb91     216217  works.html
++2fcab3d7e70124d5     216217  works.html
+ 2079b79399263216        206  feeds/recordings.opml
+ 0785fc06ef6b594b       9492  vis/vispage-741e2afd75.js
+ dc91930de1b6c2b9       4972  vis/vispage-d4a57b591e.css
+diff --git a/tests/golden/expected/build-output.txt b/tests/golden/expected/build-output.txt
+index d29f98b..e8e3515 100644
+--- a/tests/golden/expected/build-output.txt
++++ b/tests/golden/expected/build-output.txt
+@@ -1,8 +1,8 @@
+ build/kja.html 56 KB
+ build/kjc.html 38 KB
+ build/opp.html 29 KB
+-build/cal1961H1.html 1285 KB
+-build/cal1961H2.html 820 KB
++build/cal1961H1.html 1236 KB
++build/cal1961H2.html 796 KB
+ build/cal.html 61 KB
+ build/cal63.html 9 KB
+ build/cal66.html 9 KB
+@@ -12,7 +12,7 @@ build/adm.html 25 KB
+ build/cong.html 27 KB
+ build/wg.html 24 KB
+ build/vn.html 33 KB
+-build/series.html 2345 KB
++build/series.html 2273 KB
+ build/executive.html 2026 KB
+ build/works.html 211 KB
+ build/names-a.html 57 KB
+@@ -69,6 +69,6 @@ build/names.html 89 KB
+ build/lives.html 0 KB
+ build/feeds/recordings.opml 0 KB
+ build/ebooks.html 23 KB
+-visibility (every page and the reader): 1,796 entries rendered, 4,696 claim spans (724 unmapped, 1,674 US:all), 0 entries one span (units not found in their rendering)
++visibility (every page and the reader): 1,796 entries rendered, 4,696 claim spans (730 unmapped, 1,674 US:all), 0 entries one span (units not found in their rendering)
+ 
+ --- exit 0
+diff --git a/tests/golden/expected/check.txt b/tests/golden/expected/check.txt
+index 1baba28..e58e353 100644
+--- a/tests/golden/expected/check.txt
++++ b/tests/golden/expected/check.txt
+@@ -1337,10 +1337,13 @@ warn   cal.thread.elections-1972: statement: an untagged sentence names a year a
+ warn   cal.thread.elections-1976: statement: an untagged sentence names a year and shows on every page the thread is on: "The 1976 nominations: the primaries, Feb. 24 to June 8 (CQ's returns), and the conventions"  [statements]
+ warn   cal.thread.march-on-washington: statement: an untagged sentence names a year and shows on every page the thread is on: 'The March on Washington for Jobs and Freedom, Aug. 28, 1963, and its planning.'  [statements]
+ warn   cal.1961-04-24.china-leadership-7: '100,000 to 320,000': W to L without its share: add ", p percent"  [result-form]
++warn   cal.1961-04-22.china-leadership: c names 'Prince Souphanouvong', Souphanouvong, without the tag name:souphanouvong: add it, and the name to 'Names:' (the names op), or tag ok:name-untagged  [name-untagged]
++warn   cal.1961-04-25.china-leadership-2: c names 'Prince Sihanouk', Norodom Sihanouk, without the tag name:norodom-sihanouk: add it, and the name to 'Names:' (the names op), or tag ok:name-untagged  [name-untagged]
++warn   cal.1961-08-21.china-leadership-2: c names 'Ung Văn Khiêm', Ưng Văn Khiêm, without the tag name:ung-van-khiem: add it, and the name to 'Names:' (the names op), or tag ok:name-untagged  [name-untagged]
+ warn   notes/state-sources.md: stale against sources/states.yaml: rerun python3 tools/sources/make_listing.py  [state-sources]
+ warn   sources/witnesses: 172 roots do not say why (`open` blank): each reader fills them for the entries it touches (memo §5)  [witnesses]
+ warn   lists/cal/: 17 entries with a source in the note and no row for it  [claims]
+-warn   lists/cal/: 3 entries with a unit no source covers  [claims]
++warn   lists/cal/: 4 entries with a unit no source covers  [claims]
+ warn   lists/cal/: 195 rows not yet mapped to units (`?`: the note's parenthetical, to be turned into letters)  [claims]
+ warn   cal.1961-04-01.laos: vis:only:ussr+drv: no such polity drv, ussr (sources/polities.yaml)  [vis]
+ warn   cal.1961-04-01.china-leadership: vis:only:prc: no such polity prc (sources/polities.yaml)  [vis]
+@@ -2038,6 +2041,6 @@ warn   lists/cal/196108.yaml:4618: a Public Papers link whose page is no item's
+ warn   lists/cal/196108.yaml:4812: a Public Papers link whose page is no item's first page: https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=642  [ppp-app]
+ warn   lists/cal/th.yaml: threads out of alphabetical order at 'China: Leadership'  [thread-order]
+ warn   cal.1961-04-28.vietnam: 'Diem' without its diacritics (sources/name-forms.yaml, VIET_PLACES)  [diacritics]
+-698 errors, 1342 warnings
++698 errors, 1345 warnings
+ 
+ --- exit 1
+diff --git a/tests/unit/test_cjk.py b/tests/unit/test_cjk.py
+index 0cc24a2..e871f1b 100644
+--- a/tests/unit/test_cjk.py
++++ b/tests/unit/test_cjk.py
+@@ -278,9 +278,20 @@ def test_other_renderers_drop(monkeypatch):
+     e = {"id": "cal.x", "date": "1961-04-01", "when": "Apr. 1", "thread": "t", "tags": ["form:state"],
+          "c": "Yang Shangkun 杨尚昆 in Hangzhou 杭州.", "n": "Names: Yang Shangkun."}
+ 
+-    class L:
++    class S:
++        entries = [e]
++
++    class L:                            # a calendar of one entry, no thread index (chron.sort reads walk, threads)
++        key = "cal"
++
+         def entries(self):
+             return [(None, e)]
++
++        def walk(self):
++            return [S]
++
++        def threads(self):
++            return {}
+     monkeypatch.setattr(calsplit, "half_of_date", lambda lst, d: 1)
+     monkeypatch.setattr(calsplit, "href", lambda lst, h, i: "cal.html#x")
+     out = standing.register_html(L(), lambda l, t: t, lambda l, t: t)

@@ -331,7 +331,7 @@ entries:
       rows:
         - 'w.dikotter-maos-great-famine 109: all'
         - 'via w.dikotter-maos-great-famine 109 n.8: all'
-    tags: [form:state, polity:prc, ok:fields-place]
+    tags: [polity:prc, ok:fields-place]
   - id: cal.1961-06-03.berlin-and-vienna
     when: June 3–4
     date: '1961-06-03'
@@ -538,7 +538,7 @@ entries:
     date: '1961-06-03'
     place: geneva
     thread: china-leadership
-    c: Geneva 日内瓦. Chen Yi 陈毅 and his wife give a banquet for 卡梅霍·阿古丁, Cuba's permanent representative at the UN's European Office, and his wife, and 阿曼多·巴约, Cuba's chargé in Switzerland.
+    c: Geneva 日内瓦. Chen Yi 陈毅 and his wife give a banquet for *Kameihuo Aguding* 卡梅霍·阿古丁, Cuba's permanent representative at the UN's European Office, and his wife, and *Amanduo Bayue* 阿曼多·巴约, Cuba's chargé in Switzerland.
     n: '[[w.chen-yi-nianpu]], 875. The words: 晚上 (875). Names: Chen Yi.'
     tags: [polity:prc, polity:cuba, name:chen-yi]
     time_range:
@@ -797,13 +797,13 @@ entries:
     thread: china-leadership
     also: [laos, china]
     c: Zhou Enlai meets Prime Minister Souvanna Phouma and Prince Souphanouvong, passing through Peking to the widened Geneva conference, on American interference in Laos' internal affairs and the formation of a coalition by the three Laotian sides.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 414 (June 5, 1961); [[w.zhou-enlai-waijiao-huodong]], 312 (June 5, 1961; 晚6时30分, 中南海西花厅, 会见并宴请). Made public: 1993. Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 414 (June 5, 1961); [[w.zhou-enlai-waijiao-huodong]], 312 (June 5, 1961; 晚6时30分, 中南海西花厅, 会见并宴请). Made public: 1993. Names: Zhou Enlai, Souvanna Phouma, Souphanouvong.'
     src:
       c: 6095fb97
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 414: ?'
         - 'w.zhou-enlai-waijiao-huodong 312: A'
-    tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:souvanna-phouma, vis:only:prc+laos+pathet-lao]
+    tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:souvanna-phouma, vis:only:prc+laos+pathet-lao, name:souphanouvong]
     time_zone: Asia/Shanghai
   - id: cal.1961-06-05.china-leadership-2
     when: June 5
@@ -1129,8 +1129,8 @@ entries:
     thread: china-leadership
     also: [laos]
     c: Geneva 日内瓦. Jean Chauvel 肖维尔, acting head of the French delegation, calls on Chen Yi 陈毅, who then gives a banquet for him and his party.
-    n: '[[w.chen-yi-nianpu]], 875. The words: 晚上 (875). Names: Chen Yi.'
-    tags: [polity:prc, polity:fr, name:chen-yi]
+    n: '[[w.chen-yi-nianpu]], 875. The words: 晚上 (875). Names: Chen Yi, Chauvel.'
+    tags: [polity:prc, polity:fr, name:chen-yi, name:chauvel-jean]
     time_range:
       - 1961-06-06T18:00Z
       - 1961-06-06T21:00Z
@@ -1185,15 +1185,15 @@ entries:
     place: hubei
     thread: china-leadership
     also: [china]
-    c: 'As a Hubei 湖北 report has it: cultivators, without even straw hats, made to work at noon in the blazing sun; thousands suffer from the heat, some thirty die.'
+    c: 'Hubei 湖北: cultivators, without even straw hats, made to work at noon in the blazing sun; thousands suffer from the heat, some thirty die.'
     n: '[[w.dikotter-maos-great-famine]], 277. Made public: 2010. To check: Hubei Provincial Archives, June 6, 1961, SZ1-2-906, p. 29 (cited by [[w.dikotter-maos-great-famine]], 277 n.19a); Hubei Provincial Archives, July 21, 1961, SZ1-2-898, pp. 49–52 (cited by [[w.dikotter-maos-great-famine]], 277 n.19b). Check: the day; the note gives files of June 6 and July 21, 1961.'
     src:
-      c: 8993082f
+      c: 291e41a2
       rows:
         - 'w.dikotter-maos-great-famine 277: all'
         - 'via w.dikotter-maos-great-famine 277 n.19a: all'
         - 'via w.dikotter-maos-great-famine 277 n.19b: all'
-    tags: [form:state, polity:prc, vis:only:prc, ok:fields-time]
+    tags: [polity:prc, vis:only:prc, ok:fields-time]
   - id: cal.1961-06-06.china-leadership-12
     when: June 6
     date: '1961-06-06'
@@ -1267,11 +1267,12 @@ entries:
     date: '1961-06-07'
     thread: laos
     c: Padong falls. A Pathet Lao ground and artillery assault drives the Hmong from their base camp; Vang Pao sets up some ten miles southwest.
-    n: '[[w.schulimson-joint-chiefs-of-staff]], 88. See [[cal.1961-05-30.laos-2]].'
+    n: '[[w.schulimson-joint-chiefs-of-staff]], 88. See [[cal.1961-05-30.laos-2]]. Names: Vang Pao.'
     src:
       c: 89b30374
       rows:
         - 'w.schulimson-joint-chiefs-of-staff 88: all'
+    tags: [name:vang-pao]
   - id: cal.1961-06-07.china-leadership-2
     when: June 7
     date: '1961-06-07'
@@ -1550,7 +1551,7 @@ entries:
     date: '1961-06-08'
     place: peking
     thread: china-leadership
-    c: Peking 北京. Zhu De 朱德 meets the delegation of the Cuban transport workers' union 古巴运输工人联合会 led by 冈萨雷斯.
+    c: Peking 北京. Zhu De 朱德 meets the delegation of the Cuban transport workers' union 古巴运输工人联合会 led by *Gangsaleisi* 冈萨雷斯.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1808. Names: Zhu De.'
     tags: [polity:prc, polity:cuba, name:zhu-de]
   - id: cal.1961-06-09.opinion
@@ -1675,7 +1676,7 @@ entries:
     date: '1961-06-09'
     thread: china-leadership
     also: [china]
-    c: Liu Shaoqi, receiving the German Democratic Republic's ambassador (黑根 in the chronology), says China is taking measures to encourage the working people's zeal. The farm harvest affects the whole economy; with so many people China cannot rely on buying grain abroad; it plans to buy five million tons of grain this year, a great quantity but little for such a country, and still not enough. It is considering moving some industrial and other population to the villages.
+    c: Liu Shaoqi, receiving the German Democratic Republic's ambassador (Josef Hegen), says China is taking measures to encourage the working people's zeal. The farm harvest affects the whole economy; with so many people China cannot rely on buying grain abroad; it plans to buy five million tons of grain this year, a great quantity but little for such a country, and still not enough. It is considering moving some industrial and other population to the villages.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 526 (June 9, 1961). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, polity:gdr, name:liu-shaoqi, vis:only:prc+gdr]
   - id: cal.1961-06-09.china-leadership-4
@@ -1700,10 +1701,10 @@ entries:
     date: '1961-06-09'
     thread: china-leadership
     also: [soviet-union]
-    c: Deng Xiaoping 邓小平 receives the Albanian Ambassador, 帕里夫蒂 as the page prints his name.
+    c: Deng Xiaoping 邓小平 receives the Albanian Ambassador, Parifti.
     n: '[[w.deng-xiaoping-nianpu-1904]], III, 1644 (June 9, 1961). The words: 上午 (III, 1644). Made public: 2009 (the nianpu). Names: Deng Xiaoping. Check: the ambassador''s name in Albanian (帕里夫蒂 on the page, read on the image). Zhou received the departing Albanian Ambassador that evening ([[cal.1961-06-09.china-leadership]]).'
     src:
-      c: eae6d767
+      c: 57168c88
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1644: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc+albania]
@@ -2123,7 +2124,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'The Huairen Tang. Mao closes the work conference: the Zhengzhou meetings hurried, he did not yet understand socialism; after Lushan the resolution on Peng, Huang, Zhang and Zhou should not have gone below the counties: good men, truth-tellers made "right opportunists," even "counterrevolutionaries"; his six points of 1959 "a fart"; the "five big drives" of 1960 the "communist wind" again; Beidaihe of 1960 abroad, the Twelve Articles the turn.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 12, 1961; [[w.macfarquhar-origins-of-the-cultural]], III, 63 (Mao''s closing speech; his later claim of a self-criticism); [[w.macfarquhar-origins-of-the-cultural]], III, 235 (Mao''s view, "that summer," that the campaign against right opportunism had spread too widely, with reversals of verdicts proposed); [[w.yang-shangkun-riji]], II, 41 (June 12, 1961; the plenary, 11 a.m. to 2 p.m.; Mao: sum up experience, educate cadres, learn Marxism-Leninism from three years'' work, sum up eleven years of building; it may take another eleven); [[w.deng-xiaoping-nianpu-1904]], III, 1645 (June 12, 1961; Deng at the plenary; Mao on summing up experience and educating cadres; city work this year; Lushan in August on rectification in the cities and industry); [[w.mao-zedong-zhuan]], V, ch. 68 n.19 (June 12, morning: Mao closes the conference, reviewing the years since Zhengzhou; the first Zhengzhou meeting copied Stalin, the second hurried; the Beidaihe talks of 1960 mostly on foreign affairs, the twelve articles of November the turn; he asks all to read Stalin''s *Economic Problems of Socialism in the USSR* again). [[w.yang-jisheng-mubei]], II, 918 n.147 (after Lushan the mistake was to pass the resolution on Peng, Huang, Zhang and Zhou below the county; it should have stopped at the county, with the Zhengzhou minutes and the Shanghai eighteen questions still carried out below and the left still opposed; fighting the right made a false picture; good people who spoke the truth were made right opportunists, even counterrevolutionaries); [[w.peng-zhen-nianpu-1902]], IV, 133 (June 12, 1961; Peng Zhen at the plenary; Mao on summing up experience and educating cadres); [[w.friedman-shadow-cold-war]], 62 (Mao makes some self-criticism at a Central Work Conference in Peking in June 1961, not circulated to the lower levels); [[w.chen-yun-nianpu-xiuding]], III, 93 (morning: Chen Yun at the plenary; when Li Fuchun says the plan must first meet the needs of farming and the market, Mao interjects: "Comrade Chen Yun said before that the market comes first; many opposed it then, and I did not speak; now are we not back on that track?"). Made public: 2013. Check: the book places Mao''s view only "that summer"; its source is Wang Bangzuo ([[w.bangzuo-zhongguo-gongchan-dang-tongyi]], 530–31). Check: Yang Shangkun''s diary has the closing plenary from 11 a.m. to 2 p.m., Li Fuchun on adjusting the industrial targets, Zhou Enlai on rural grain and cutting staff and Li Xiannian on oil crops and foreign trade speaking after Mao ([[w.yang-shangkun-riji]], II, 41); a time field. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 41) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 68), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.mao-zedong-sixiang-wan-1969]], 406 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.132a); [[w.gailong-dangdai-zhongguo-zhengzhi-dashidian]], 631 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.132b); [[w.lieberthal-research-guide-to-central-1989]], 118 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.132c); [[w.mao-zedong-sixiang-wan]], xia, 332–34 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.133); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 223 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.134); [[w.bangzuo-zhongguo-gongchan-dang-tongyi]], 530–31 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 235 n.10); Mao Zedong 毛泽东, speech at the Central Work Conference 中央工作会议, Peking, June 12, 1961 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.19); Kenneth Lieberthal, “The Great Leap Forward and the Split in the Yan’an leadership, 1958–1965,” in The Politics of China, ed. Roderick Macfarquhar, 112 (cited by [[w.friedman-shadow-cold-war]], 62 n.5). Names: Mao Zedong, Peng Dehuai, Huang Kecheng, Zhang Wentian, Zhou Xiaozhou.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 12, 1961; [[w.macfarquhar-origins-of-the-cultural]], III, 63 (Mao''s closing speech; his later claim of a self-criticism); [[w.macfarquhar-origins-of-the-cultural]], III, 235 (Mao''s view, "that summer," that the campaign against right opportunism had spread too widely, with reversals of verdicts proposed); [[w.yang-shangkun-riji]], II, 41 (June 12, 1961; the plenary, 11 a.m. to 2 p.m.; Mao: sum up experience, educate cadres, learn Marxism-Leninism from three years'' work, sum up eleven years of building; it may take another eleven); [[w.deng-xiaoping-nianpu-1904]], III, 1645 (June 12, 1961; Deng at the plenary; Mao on summing up experience and educating cadres; city work this year; Lushan in August on rectification in the cities and industry); [[w.mao-zedong-zhuan]], V, ch. 68 n.19 (June 12, morning: Mao closes the conference, reviewing the years since Zhengzhou; the first Zhengzhou meeting copied Stalin, the second hurried; the Beidaihe talks of 1960 mostly on foreign affairs, the twelve articles of November the turn; he asks all to read Stalin''s *Economic Problems of Socialism in the USSR* again). [[w.yang-jisheng-mubei]], II, 918 n.147 (after Lushan the mistake was to pass the resolution on Peng, Huang, Zhang and Zhou below the county; it should have stopped at the county, with the Zhengzhou minutes and the Shanghai eighteen questions still carried out below and the left still opposed; fighting the right made a false picture; good people who spoke the truth were made right opportunists, even counterrevolutionaries); [[w.peng-zhen-nianpu-1902]], IV, 133 (June 12, 1961; Peng Zhen at the plenary; Mao on summing up experience and educating cadres); [[w.friedman-shadow-cold-war]], 62 (Mao makes some self-criticism at a Central Work Conference in Peking in June 1961, not circulated to the lower levels); [[w.chen-yun-nianpu-xiuding]], III, 93 (morning: Chen Yun at the plenary; when Li Fuchun says the plan must first meet the needs of farming and the market, Mao interjects: "Comrade Chen Yun said before that the market comes first; many opposed it then, and I did not speak; now are we not back on that track?"); [[w.teiwes-tragedy-of-lin-biao]], 194 (Mao there praises Lin''s field investigations in the combat units, "once at Guangzhou, once at Yangcun"). Made public: 2013. Check: the book places Mao''s view only "that summer"; its source is Wang Bangzuo ([[w.bangzuo-zhongguo-gongchan-dang-tongyi]], 530–31). Check: Yang Shangkun''s diary has the closing plenary from 11 a.m. to 2 p.m., Li Fuchun on adjusting the industrial targets, Zhou Enlai on rural grain and cutting staff and Li Xiannian on oil crops and foreign trade speaking after Mao ([[w.yang-shangkun-riji]], II, 41); a time field. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 41) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 68), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.mao-zedong-sixiang-wan-1969]], 406 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.132a); [[w.gailong-dangdai-zhongguo-zhengzhi-dashidian]], 631 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.132b); [[w.lieberthal-research-guide-to-central-1989]], 118 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.132c); [[w.mao-zedong-sixiang-wan]], xia, 332–34 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.133); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 223 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.134); [[w.bangzuo-zhongguo-gongchan-dang-tongyi]], 530–31 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 235 n.10); Mao Zedong 毛泽东, speech at the Central Work Conference 中央工作会议, Peking, June 12, 1961 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.19); Kenneth Lieberthal, “The Great Leap Forward and the Split in the Yan’an leadership, 1958–1965,” in The Politics of China, ed. Roderick Macfarquhar, 112 (cited by [[w.friedman-shadow-cold-war]], 62 n.5); [[w.mao-zedong-sixiang-wansui-beijing-1967]], 365 (cited by [[w.teiwes-tragedy-of-lin-biao]], 194 n.57). Names: Mao Zedong, Peng Dehuai, Huang Kecheng, Zhang Wentian, Zhou Xiaozhou.'
     src:
       c: c9ac4802
       rows:
@@ -2146,6 +2147,7 @@ entries:
         - 'w.friedman-shadow-cold-war 62: ?'
         - 'via x.undated.kenneth-lieberthal-great-leap-forward-split-yanan: ?'
         - 'w.chen-yun-nianpu-xiuding III, 93: ?'
+        - 'w.teiwes-tragedy-of-lin-biao 194: ?'
     tags: [polity:prc, name:mao-zedong, name:peng-dehuai, vis:only:prc]
     time_range:
       - 1961-06-11T22:00Z
@@ -2292,7 +2294,7 @@ entries:
     place: geneva
     thread: china-leadership
     also: [laos]
-    c: Geneva 日内瓦. Chen Yi 陈毅 at the banquet of Ung Văn Khiêm 雍文谦 for Souvanna Phouma, Souphanouvong and Souvanna's daughter, Princess 慕纳.
+    c: Geneva 日内瓦. Chen Yi 陈毅 at the banquet of Ung Văn Khiêm 雍文谦 for Souvanna Phouma, Souphanouvong and Souvanna's daughter, Princess *Muna* 慕纳.
     n: '[[w.chen-yi-nianpu]], 877. The words: 晚上 (877). Names: Chen Yi, Souvanna Phouma, Souphanouvong, Ung Văn Khiêm.'
     tags: [polity:prc, polity:drv, name:chen-yi, name:souvanna-phouma, name:souphanouvong, name:ung-van-khiem]
     time_range:
@@ -2306,8 +2308,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. The enlarged meeting of the Military Commission 中央军委扩大会议 opens (to July 14); Ye Jianying 叶剑英 attends. Its vice-chairmen Lin Biao 林彪, He Long 贺龙 and Nie Rongzhen 聂荣臻 and its standing members Liu Bocheng 刘伯承, Luo Ronghuan 罗荣桓 and Xu Xiangqian 徐向前 preside in turn. On meeting a sudden emergency and on building the army; it draws up and approves the militia work regulations, the regulations on company management and education 《连队管理教育工作条例》 and the decision on stabilizing the cadre ranks 《稳定干部队伍的决定》. In the first half of July it reviews and revises the draft operational plan of Ye's group.
-    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 883, 890–891. Made public: 2007. Names: Ye Jianying, Lin Biao, He Long, Nie Rongzhen, Liu Bocheng, Luo Ronghuan, Xu Xiangqian.'
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 883, 890–891; [[w.teiwes-tragedy-of-lin-biao]], 194 (the enlarged Military Commission, June 12–July 15; it approves cutting defense spending to support local economic construction). Made public: 2007. Names: Ye Jianying, Lin Biao, He Long, Nie Rongzhen, Liu Bocheng, Luo Ronghuan, Xu Xiangqian.'
     tags: [polity:prc, name:ye-jianying, name:lin-biao, name:he-long, name:nie-rongzhen, name:liu-bocheng, name:luo-ronghuan, name:xu-xiangqian, vis:only:prc]
+    variants:
+      - unit: B
+        witness: w.teiwes-tragedy-of-lin-biao
+        reads: the enlarged meeting held June 12–July 15
+        at: '194'
   - id: cal.1961-06-13.cuba
     when: June 13
     date: '1961-06-13'
@@ -2421,7 +2428,7 @@ entries:
     thread: china-leadership
     also: [indonesia, china]
     c: 'The Qinzheng Hall, evening. Mao receives Sukarno, President of Indonesia; Liu Shaoqi and Zhou Enlai present. While Chiang''s man is in the United Nations, China stays out: eleven years waited, eleven more no matter. One step only: Taiwan returned, China in; its system may stay for its people to settle; one seat, not two like the Ukraine''s.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 13, 1961; [[w.zhou-enlai-waijiao-huodong]], 313 (June 13, 1961; 晚6时20分, the Qinzheng Hall); [[w.lengxi-shinian-lunzhan-1956-1966]], 453 (Sukarno invited in June); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 526 (June 13, 1961; Liu, with Dong Biwu, Zhu De and Zhou Enlai, talks with Sukarno; June 14 he attends the capital''s mass welcome rally for Sukarno and the exchange of the instruments of ratification of the China–Indonesia friendship treaty, and receives from Sukarno the Order of the Republic of Indonesia, first class); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 198 (June 13–15, 1961; President Sukarno visits on invitation; Mao receives him, Liu and Zhou talk with him on matters of common interest and the main international questions). Made public: 1993. Names: Mao Zedong, Sukarno, Liu Shaoqi, Zhou Enlai, Chiang Kai-shek.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 13, 1961; [[w.zhou-enlai-waijiao-huodong]], 313 (June 13, 1961; 晚6时20分, the Qinzheng Hall); [[w.lengxi-shinian-lunzhan-1956-1966]], 453 (Sukarno invited in June); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 526 (June 13, 1961; Liu, with Dong Biwu, Zhu De and Zhou Enlai, talks with Sukarno; June 14 he attends the capital''s mass welcome rally for Sukarno and the exchange of the instruments of ratification of the China–Indonesia friendship treaty, and receives from Sukarno the Order of the Republic of Indonesia, first class); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 198 (June 13–15, 1961; President Sukarno visits on invitation; Mao receives him, Liu and Zhou talk with him on matters of common interest and the main international questions); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 375–377 (the record of the talk with Sukarno printed in part as "China can have only one representative in the United Nations" 《中国在联合国只能有一个代表》, from [[w.mao-zedong-waijiao-wenxuan]]: while Chiang Kai-shek''s representative is in the United Nations China will not enter; "we have waited eleven years"; Sukarno gives the two views abroad, China and Taiwan in as one, or China in first and Chiang''s man expelled after; the note on West Irian). Made public: 1993. Names: Mao Zedong, Sukarno, Liu Shaoqi, Zhou Enlai, Chiang Kai-shek.'
     src:
       c: e1c78d6e
       rows:
@@ -2430,6 +2437,7 @@ entries:
         - 'w.lengxi-shinian-lunzhan-1956-1966 453: B'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 526: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 198: B'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 375–377: ?'
     tags: [polity:prc, polity:indonesia, name:mao-zedong, name:sukarno, name:liu-shaoqi, name:zhou-enlai, name:chiang-kai-shek, vis:only:prc+indonesia]
   - id: cal.1961-06-13.china-leadership-2
     when: June 13
@@ -2912,7 +2920,7 @@ entries:
     date: '1961-06-15'
     thread: china-leadership
     c: 'The revised Sixty Articles on Agriculture are issued: only eight articles unchanged; mess-halls allowed to close and the supply system ended except for cases of need; secret ballot for the commune''s bodies; private plots from 5 to 7 per cent; peasants own their houses in perpetuity; the team no longer in control of livelihood.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 63–65; [[w.peng-dehuai-nianpu]], 763–764 (June 15, 1961: the Center issues the revised draft of the Working Regulations for the Rural People''s Communes 《农村人民公社工作条例（修正草案）》, the "Sixty Articles on Agriculture" 农业六十条: the public mess halls and the supply system dropped; cadres and members wrongly criticized or punished in recent years to be screened, and wholly wronged men restored to name and post). Made public: 1997. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 925, 924 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.136a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 542 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.136b); [[w.xuexi-lishi-jueyi-zhuanji]], 122 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.137a); [[w.zhongguo-gongchan-dang-jianshi]], 2, 360 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.137b); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 306–07 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.137c); [[w.zhonghua-renmin-gongheguo-jingji-n-d]], 514 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.137d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 925–33 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.137e); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, arts. 1–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 64 n.139a); [[w.nongye-jitihua-zhongyao-wenjian]], arts. 1–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 64 n.139b); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, art. 37 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 64 n.144a); [[w.nongye-jitihua-zhongyao-wenjian]], art. 39 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 64 n.144b); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, arts. 42, 43, 45, 46, 48, 49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 64 n.145a); [[w.nongye-jitihua-zhongyao-wenjian]], art. 43 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 64 n.145b).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 63–65; [[w.peng-dehuai-nianpu]], 763–764 (June 15, 1961: the Center issues the revised draft of the Working Regulations for the Rural People''s Communes 《农村人民公社工作条例（修正草案）》, the "Sixty Articles on Agriculture" 农业六十条: the public mess halls and the supply system dropped; cadres and members wrongly criticized or punished in recent years to be screened, and wholly wronged men restored to name and post); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 378–384 (the Center''s directive of June 15 on discussing and trying out the revised draft 《关于讨论和试行〈农村人民公社工作条例（修正草案）〉的指示》, printed in full: the draft of Mar. 22 discussed and tried; the work conference of late May to early June revised it; the revised draft to be read and explained to every Party member and commune member in the slack seasons; every Party committee to make investigation a regular system of work); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 385–411 (the "Working Regulations for the Rural People''s Communes (Revised Draft)" 《农村人民公社工作条例（修正草案）》, June 15, printed in full: three levels, commune, brigade and team; ownership at three levels, the brigade''s the base; the brigade the basic accounting unit; the note gives the changes from the March draft: whether a team runs a mess hall for its members to decide, rations distributed to households; the supply and wage parts of distribution, three to seven, dropped, all by work points; most hills and woods fixed to the teams, small patches to teams and members; the "Three Main Rules and Eight Points" for cadres added; the revised draft approved by Mao June 15, 224 n.1). Made public: 1997. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 925, 924 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.136a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 542 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.136b); [[w.xuexi-lishi-jueyi-zhuanji]], 122 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.137a); [[w.zhongguo-gongchan-dang-jianshi]], 2, 360 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.137b); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 306–07 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.137c); [[w.zhonghua-renmin-gongheguo-jingji-n-d]], 514 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.137d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 925–33 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 63 n.137e); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, arts. 1–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 64 n.139a); [[w.nongye-jitihua-zhongyao-wenjian]], arts. 1–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 64 n.139b); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, art. 37 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 64 n.144a); [[w.nongye-jitihua-zhongyao-wenjian]], art. 39 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 64 n.144b); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, arts. 42, 43, 45, 46, 48, 49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 64 n.145a); [[w.nongye-jitihua-zhongyao-wenjian]], art. 43 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 64 n.145b).'
     src:
       c: e22b9b71
       rows:
@@ -2931,6 +2939,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 64 n.145a: E'
         - 'via w.macfarquhar-origins-of-the-cultural III, 64 n.145b: E'
         - 'w.peng-dehuai-nianpu 763–764: ?'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 378–384: ?'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 385–411: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1961-06-15.china
     when: June 15
@@ -3168,7 +3178,7 @@ entries:
     date: '1961-06-16'
     thread: china-leadership
     c: 'The Center issues the nine-point plan to reduce the urban population by 20 million in three years: 10 million in 1961, 8 in 1962, 2 in 1963. The first 10 million are moved between June and September; by mid-1963, about 26 million.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 32–33; [[w.yang-jisheng-mubei]], II, 832 (the nine measures to cut the town population and urban grain sales, dated June 18, 1961 by the book; over 20 million fewer townspeople in three years on the 1960 base); [[w.dikotter-maos-great-famine]], 238 n.37 (the leadership in Peking sends 20 million people from the cities back to the countryside, 10 million of them before the end of 1961, the rest in 1962 and the stragglers by 1963; the order "came on 18 June 1961"); [[w.yang-jisheng-tiandi-fanfu]], I, 369 (on Chen Yun''s proposal the Center issues the nine measures 〈關於減少城鎮人口和壓縮城鎮糧食銷量的九條辦法〉 on June 18, 1961: over 20 million fewer townspeople in three years on the 1960 base). Made public: 1997. To check: [[w.zhonghua-renmin-gongheguo-caizheng]], 212 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 438 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55b); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 403 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55c); [[w.politics-of-the-chinese]], 459 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55d); [[w.macfarquhar-origins-of-the-cultural]], II, 330 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55e); [[w.jin-1949-1989-niande-zhongguo]], 381–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.56); [[w.dangdai-zhongguo-jingji]], 360 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.57); Gansu copy of the Center''s order to reduce the urban population (zhong [61] 420), file of June 16, 1961, Gansu Provincial Archives, 91-18-211, pp. 116–119 (cited by [[w.dikotter-maos-great-famine]], 238 n.37).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 32–33; [[w.yang-jisheng-mubei]], II, 832 (the nine measures to cut the town population and urban grain sales, dated June 18, 1961 by the book; over 20 million fewer townspeople in three years on the 1960 base); [[w.dikotter-maos-great-famine]], 238 n.37 (the leadership in Peking sends 20 million people from the cities back to the countryside, 10 million of them before the end of 1961, the rest in 1962 and the stragglers by 1963; the order "came on 18 June 1961"); [[w.yang-jisheng-tiandi-fanfu]], I, 369 (on Chen Yun''s proposal the Center issues the nine measures 〈關於減少城鎮人口和壓縮城鎮糧食銷量的九條辦法〉 on June 18, 1961: over 20 million fewer townspeople in three years on the 1960 base); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 412–415 (the "Nine measures of the Central Work Conference on reducing the town population and cutting grain sales in the towns" 《中央工作会议关于减少城镇人口和压缩城镇粮食销量的九条办法》, approved by the Center June 16, printed in full: the towns may only lose people, never gain; from the base of 129 million town people at the end of 1960; to restore farming within three years; some matters left to the work conference of August). Made public: 1997. To check: [[w.zhonghua-renmin-gongheguo-caizheng]], 212 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 438 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55b); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 403 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55c); [[w.politics-of-the-chinese]], 459 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55d); [[w.macfarquhar-origins-of-the-cultural]], II, 330 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.55e); [[w.jin-1949-1989-niande-zhongguo]], 381–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.56); [[w.dangdai-zhongguo-jingji]], 360 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 32 n.57); Gansu copy of the Center''s order to reduce the urban population (zhong [61] 420), file of June 16, 1961, Gansu Provincial Archives, 91-18-211, pp. 116–119 (cited by [[w.dikotter-maos-great-famine]], 238 n.37).'
     src:
       c: 60e18b4f
       rows:
@@ -3183,6 +3193,7 @@ entries:
         - 'w.yang-jisheng-mubei II, 832: A'
         - 'w.dikotter-maos-great-famine 238 n.37: ?'
         - 'w.yang-jisheng-tiandi-fanfu I, 369: ?'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 412–415: ?'
     tags: [polity:prc, vis:only:prc]
     variants:
       - unit: A
@@ -3355,12 +3366,13 @@ entries:
     date: '1961-06-17'
     thread: china-leadership
     c: 'Mao revises the directive again, on the draft of June 15, and sends it to Yang Shangkun to handle at once; he adds that every Party committee must make investigation and study a regular system of work. On the final text: "Jiang Qing read closely. Two good documents; study material for cadres of every level; all cadres, upper, middle and lower, must now be taught afresh."'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 62–65 (June 17, 1961). Made public: 2023. To check: the directive of June 15, issued June 19, 1961 (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 64 n.1b). Names: Mao Zedong, Yang Shangkun, Jiang Qing. Check: the day of the comment on the final text; the volume dates the items June 11 and 17. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 62–65 (June 17, 1961); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 378–384 (the directive as issued, dated June 15: every Party committee to make investigation and study a regular system of work). Made public: 2023. Names: Mao Zedong, Yang Shangkun, Jiang Qing. Check: the day of the comment on the final text; the volume dates the items June 11 and 17. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
     src:
       c: 9186569e
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 62–65: all'
         - 'via x.1961-06-15.cc-directive-on-discussing-and-trying-out-the-revised-regulations: all'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 378–384: ?'
     tags: [polity:prc, name:mao-zedong, name:jiang-qing, vis:only:prc]
   - id: cal.1961-06-17.china-leadership-5
     when: June 17
@@ -3415,6 +3427,20 @@ entries:
     c: Chen Yun 陈云 goes from Peking 北京 to Shanghai 上海.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 94. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun]
+  - id: cal.1961-06-17.china-leadership-7
+    when: June 17
+    date: '1961-06-17'
+    thread: china-leadership
+    c: 'The Center 中共中央 forwards for reference the Propaganda Department''s 中央宣传部 report of May 19, "On the teaching line of the liberal arts in the higher schools and the compiling of textbooks" 《关于高等学校文科教学方针和教材编选工作的报告》: textbooks a key to settled teaching and better quality; the Party committees of the regions charged with writing them to supply men and means.'
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 419–428 (the Center''s comment, June 17, and the report, May 19; printed from the Central Committee''s document). Made public: 1997. See [[cal.1961-05-19.china-leadership-9]], [[cal.1961-04-11.china-leadership-11]].'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-06-17.china-leadership-8
+    when: June 17
+    date: '1961-06-17'
+    thread: china-leadership
+    c: 'The Ministry of Finance Party group 财政部党组 reports to the Center 中共中央 "On adjusting the burden of the agricultural tax" 《关于调整农业税负担的报告》: the tax not cut for the poor harvests of 1959 and 1960, the burden uneven between regions and heavier in the high-yield grain areas; tax and local surcharge to average no more than 10 percent of farm income.'
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 492–495. Made public: 1997.'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-06-18.opinion
     when: June 18
     date: '1961-06-18'
@@ -3489,7 +3515,7 @@ entries:
     date: '1961-06-18'
     thread: china-leadership
     c: The Center issues an urgent instruction on verifying the urban population and the grain supply 《關於核實城市人口和糧食供應的緊急指示》, the same day as the nine measures to cut the town population 《關於減少城鎮人口和壓縮城鎮糧食銷量的九條辦法》.
-    n: '[[w.yang-jisheng-mubei]], II, 832; [[w.dikotter-maos-great-famine]], 238 n.37 (the order of June 18, 1961 to send back 20 million from the cities: 10 million before the end of the year, saving 2 million tonnes of grain; the rest in 1962, stragglers by 1963); [[w.yang-jisheng-tiandi-fanfu]], I, 369 (the same day as the nine measures; the localities carry them out, and great numbers of townspeople go back to the villages). Made public: 2008. To check: Central Committee, "Urgent instruction on verifying the urban population and grain supply," June 18, 1961 (named by [[w.yang-jisheng-mubei]], II, 832; no note). Check: the book dates both papers June 18; the calendar''s nine-point plan is June 16 (see [[cal.1961-06-16.china-leadership-2]]).'
+    n: '[[w.yang-jisheng-mubei]], II, 832; [[w.dikotter-maos-great-famine]], 238 n.37 (the order of June 18, 1961 to send back 20 million from the cities: 10 million before the end of the year, saving 2 million tonnes of grain; the rest in 1962, stragglers by 1963); [[w.yang-jisheng-tiandi-fanfu]], I, 369 (the same day as the nine measures; the localities carry them out, and great numbers of townspeople go back to the villages); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 416–418 (the urgent directive, dated June 16, printed in full: from now to the end of July, a month and a half, a full count of the people and grain supply of the towns, chiefly the 183 large and medium cities; one ration a person, rations by labor and age, collective households first). Made public: 1997 ([[w.jianguo-yilai-zhongyao-wenxian]], XIV, 416–418). Check: the book dates both papers June 18; the calendar''s nine-point plan is June 16 (see [[cal.1961-06-16.china-leadership-2]]).'
     src:
       c: c7a3a538
       rows:
@@ -3497,7 +3523,13 @@ entries:
         - 'via w.yang-jisheng-mubei II, 832 n.t2: all'
         - 'w.dikotter-maos-great-famine 238 n.37: ?'
         - 'w.yang-jisheng-tiandi-fanfu I, 369: ?'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 416–418: ?'
     tags: [polity:prc, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.jianguo-yilai-zhongyao-wenxian
+        reads: June 16 (一九六一年六月十六日), the urgent directive's own date
+        at: XIV, 416
   - id: cal.1961-06-19.court
     when: June 19
     date: '1961-06-19'
@@ -3589,7 +3621,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai at the joint meeting of the Propaganda Department''s literary and art symposium and the Culture Ministry''s film conference criticizes "left" thinking in arts work: "free the mind, break superstition, dare think, speak and act"; a democratic atmosphere; first change the style of cadres, leading cadres, "beginning with us few"; let others differ; no "putting on hats" and clubs. He treats the dialectic of material and spiritual production, class struggle and united front, whom and how to serve, art''s laws, heritage and creation, leadership and the masses, and asks them to criticize his talk as a "live target."'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 417 (June 19, 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 114–116 (Zhou''s "impromptu remarks," prepared in two days: against judging and labelling by fixed patterns; the 1956 policies on intellectuals stand); [[w.macfarquhar-origins-of-the-cultural]], III, 241 (Zhou''s remarks of June 1961 on his 1959 speech: not everything he said then was right, and he was uneasy that it drew no response); [[w.chen-yun-nianpu-xiuding]], III, 94 (Zhou on Chen Yun: his view is reasonable; he is weak and very tired and needs another setting to rest in, listening to pingtan 评弹, so as to do more for the Party; pingtan teaches too; Zhou prefers the northern quyi, the Suzhou dialect being hard for him, but each takes what he needs; art replaced by politics is no art). Made public: 1997. To check: [[w.selected-works-of-zhou]], 2, 333, 353 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 114 n.130a); Zhou Enlai, speech of June 19, 1961, in [[w.selected-works-of-zhou]], 332 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 241 n.50). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 417 (June 19, 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 114–116 (Zhou''s "impromptu remarks," prepared in two days: against judging and labelling by fixed patterns; the 1956 policies on intellectuals stand); [[w.macfarquhar-origins-of-the-cultural]], III, 241 (Zhou''s remarks of June 1961 on his 1959 speech: not everything he said then was right, and he was uneasy that it drew no response); [[w.chen-yun-nianpu-xiuding]], III, 94 (Zhou on Chen Yun: his view is reasonable; he is weak and very tired and needs another setting to rest in, listening to pingtan 评弹, so as to do more for the Party; pingtan teaches too; Zhou prefers the northern quyi, the Suzhou dialect being hard for him, but each takes what he needs; art replaced by politics is no art); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 462–490 (the speech printed in full from *Zhou Enlai xuanji*, II: not enough democratic style; many dare not think, speak or act, though Mao called for daring at Nanning in 1958). Made public: 1984 ([[w.enlai-zhou-enlai-xuanji-selected]], II (Renmin chubanshe, Nov. 1984, by CiNii Books NCID BA53138644), from which [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 462–490 prints the speech). To check: [[w.selected-works-of-zhou]], 2, 333, 353 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 114 n.130a); Zhou Enlai, speech of June 19, 1961, in [[w.selected-works-of-zhou]], 332 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 241 n.50). Names: Zhou Enlai.'
     src:
       c: e04ad14e
       rows:
@@ -3605,6 +3637,7 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 241: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 241 n.50: ?'
         - 'w.chen-yun-nianpu-xiuding III, 94: ?'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 462–490: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-06-19.china-leadership
     when: June 19
@@ -3624,7 +3657,7 @@ entries:
     date: '1961-06-19'
     thread: china-leadership
     c: 'The Center issues, as an experimental draft, the Forty Articles on Commerce, put on the Peking work conference''s agenda by Mao: state commerce, supply and marketing co-operatives and rural fairs to carry the flow of goods; contracts with the peasants; consumer councils; Commerce Minister Yao Yilin speaks for it in June: "open the cage to release the chicken," not the bird.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 73–74. Made public: 1997. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 512 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 73 n.3a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 484–89 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 73 n.3b); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 485 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 73 n.10); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 486 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 74 n.11); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 487–88 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 74 n.13); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 486 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 74 n.14); [[w.jiti-he-geti-shangye]], 195–96 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 74 n.16). Names: Mao Zedong.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 73–74; [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 450–461 (the "Provisions on improving commercial work (trial draft)" 《关于改进商业工作的若干规定（试行草案）》, printed in full: socialist commerce the bridge between the whole people''s and the collective economy, industry and farming, production and consumption; the line "develop the economy, ensure supply"). Made public: 1997. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 512 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 73 n.3a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 484–89 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 73 n.3b); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 485 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 73 n.10); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 486 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 74 n.11); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 487–88 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 74 n.13); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 486 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 74 n.14); [[w.jiti-he-geti-shangye]], 195–96 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 74 n.16). Names: Mao Zedong.'
     src:
       c: 4685e337
       rows:
@@ -3636,13 +3669,14 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 74 n.13: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 74 n.14: C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 74 n.16: D'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 450–461: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-06-19.china-leadership-4
     when: June 19
     date: '1961-06-19'
     thread: china-leadership
     c: 'The Center issues the Thirty-five Articles on the Handicraft Industry, as an experimental draft: collective ownership the main form, individual and family handicrafts allowed; the state enterprises that took over handicrafts in the Leap bear the losses of re-established collectives.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 77–78. Made public: 1997. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 512 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 77 n.35a); [[w.zhongguo-gongye-jingji-fagui]], 18–23 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 77 n.35b); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 225 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 77 n.35c); [[w.zhongguo-gongye-jingji-fagui]], 18 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 77 n.36); [[w.zhongguo-gongye-jingji-fagui]], 19 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 78 n.38); [[w.zhongguo-gongye-jingji-fagui]], 19 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 78 n.39).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 77–78; [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 436–449 (the "Provisions on some policy questions of handicrafts in town and country (trial draft)" 《关于城乡手工业若干政策问题的规定（试行草案）》, printed in full: three kinds of ownership through the socialist stage, the whole people''s, the collective and individual under the socialist economy''s lead, the collective the main one). Made public: 1997. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 512 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 77 n.35a); [[w.zhongguo-gongye-jingji-fagui]], 18–23 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 77 n.35b); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 225 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 77 n.35c); [[w.zhongguo-gongye-jingji-fagui]], 18 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 77 n.36); [[w.zhongguo-gongye-jingji-fagui]], 19 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 78 n.38); [[w.zhongguo-gongye-jingji-fagui]], 19 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 78 n.39).'
     src:
       c: bb314262
       rows:
@@ -3653,6 +3687,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 77 n.36: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 78 n.38: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 78 n.39: B'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 436–449: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1961-06-19.china
     when: June 19
@@ -3768,7 +3803,7 @@ entries:
     date: '1961-06-19'
     thread: china-leadership
     c: The Center 中共中央 issues its rules on resolutely correcting the errors of "equalization and transfer" and making full restitution 《关于坚决纠正平调错误，彻底退赔的规定》.
-    n: '[[w.chen-yun-nianpu-xiuding]], III, 122 n.1. See [[cal.1961-06-09.china-leadership-6]]. Made public: 2015.'
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 122 n.1; [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 429–435 (printed in full: since the urgent directive letter of Nov. 3, 1960 and the work conference''s minutes of Jan. 20 the restitution of transferred goods far from thorough; every Party organization to make up its mind to repay in full). See [[cal.1961-06-09.china-leadership-6]]. Made public: 1997 ([[w.jianguo-yilai-zhongyao-wenxian]], XIV, 429–435).'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1961-06-20.transition-and-staff
     when: June 20–22
@@ -3916,6 +3951,13 @@ entries:
       - 1961-06-20T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-06-20.china-leadership-8
+    when: June 20
+    date: '1961-06-20'
+    thread: china-leadership
+    c: Nie Rongzhen 聂荣臻 asks the Center's 中共中央 instructions on some questions of policy in present natural science work 《关于当前自然科学工作中若干政策问题的请示报告》.
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 517–546 (printed after the Center''s comment of July 19). Made public: 1997. Sent on: [[cal.1961-07-19.china-leadership]]. Names: Nie Rongzhen.'
+    tags: [polity:prc, vis:only:prc, name:nie-rongzhen]
   - id: cal.1961-06-21.opinion
     when: June 21
     date: '1961-06-21'
@@ -4449,12 +4491,12 @@ entries:
     when: June 23
     date: '1961-06-23'
     thread: laos
-    c: 'As the British embassy in Vientiane reports it: the Pathet Lao took no part in the fighting for Vientiane in December 1960.'
+    c: 'British embassy in Vientiane to the Foreign Office: the Pathet Lao took no part in the fighting for Vientiane in December 1960.'
     n: '[[w.guan-vietnamese-communists-relations-with]], 172. Made public: 1997. To check: FO 371/159811, DF 1011/1, 23 June 1961, from Vientiane to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 172 n.86).'
     src:
       rows:
         - 'via x.1961-06-23.fo-159811-df-1011-1: ?'
-    tags: [form:state, polity:uk, polity:pathet-lao, vis:only:uk, ok:fields-place]
+    tags: [polity:uk, polity:pathet-lao, vis:only:uk, ok:fields-place]
   - id: cal.1961-06-23.china-leadership-8
     when: June 23
     date: '1961-06-23'
@@ -4475,6 +4517,13 @@ entries:
     c: 'Zhu De 朱德 to Zhou Enlai 周恩来 and Chen Yun 陈云, for the departments concerned, on the North China Pharmaceutical Works 华北制药厂 at Shijiazhuang 石家庄 and the Baoding chemical fiber works 保定化学纤维厂: the pharmaceutical works short above all of maize and wrapping paper, needing 85,000 tons of maize this year and allotted 35,000; its heads say 3,000 tons of maize made into medicines and glucose for export buy back 18,000 tons; maize imported by the import corporation and worked up for export would keep the works going and earn foreign exchange, an "import to feed export" 以进养出 trade, its by-products for the home market; the fiber works trying rayon from cotton-stalk bark, which if it succeeds could give 2 million tons a year from the nation''s stalks; small rough pulp mills in the mountain areas for the fiber and paper works; the big cities'' industrial grain, at Shanghai 上海, Tianjin 天津, Peking 北京 and in Guangdong 广东, may be dealt with the same way.'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1809–1810. Made public: 2016. Names: Zhu De, Zhou Enlai, Chen Yun.'
     tags: [polity:prc, ok:fields-place, name:zhu-de, name:zhou-enlai, name:chen-yun, vis:only:prc]
+  - id: cal.1961-06-23.china-leadership-10
+    when: June 23
+    date: '1961-06-23'
+    thread: china-leadership
+    c: 'The Center 中共中央 forwards the Finance Ministry Party group''s 财政部党组 report of June 17, "On adjusting the burden of the agricultural tax" 《关于调整农业税负担的报告》, to be carried out. The report: the tax not cut for the poor harvests of 1959 and 1960; the real burden, tax and local surcharge, to average no more than 10 percent of farm income, the old "tithe"; for 1961 about 24 billion jin of fine grain, 9.14 percent of the 262 billion jin of contracted output, the regular tax 21.76 billion and the surcharge 2.18 billion, the surcharge cut from 15–30 percent of the tax to no more than 10. The comment: the heavy burden of the high-yield grain areas to be put right county by county.'
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 491–495 (the Center''s comment, June 23, and the report, June 17; printed from the Central Committee''s document). Made public: 1997. See [[cal.1961-06-17.china-leadership-8]].'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-06-24.cuba
     when: June 24
     date: '1961-06-24'
@@ -4669,8 +4718,8 @@ entries:
     thread: china-leadership
     also: [laos, soviet-union, vietnam-hanoi, china]
     c: 'Zhou Enlai had proposed to the Center that Chen Yi return for the Party''s fortieth anniversary, and on the way talk with Gromyko and Phạm Văn Đồng on the conference''s next stage; with the conference changed, he now cables Chen Yi: stay a week more at Geneva; if America shows signs of agreement or insists on a recess, no need to come; if the conference drags on weeks, come back after working on Sihanouk and the three princes.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 418 (June 25, 1961). Made public: 1997. Names: Zhou Enlai, Chen Yi.'
-    tags: [polity:prc, polity:ussr, polity:drv, name:zhou-enlai, name:chen-yi, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 418 (June 25, 1961). Made public: 1997. Names: Zhou Enlai, Chen Yi, Phạm Văn Đồng.'
+    tags: [polity:prc, polity:ussr, polity:drv, name:zhou-enlai, name:chen-yi, vis:only:prc, name:pham-van-dong]
   - id: cal.1961-06-25.china-leadership-3
     when: June 25
     date: '1961-06-25'
@@ -4982,14 +5031,21 @@ entries:
     date: '1961-06-26'
     place: peking
     thread: china
-    c: 'As a Beijing report has it: state enterprises use the shortages to sell "deluxe" goods at a premium, from vegetables, cinema tickets and tea leaves to simple pails.'
+    c: 'Peking: state enterprises use the shortages to sell "deluxe" goods at a premium, from vegetables, cinema tickets and tea leaves to simple pails.'
     n: '[[w.dikotter-maos-great-famine]], 161. To check: Beijing Municipal Archives, June 26, 1961, 2-13-89, pp. 2–3 (cited by [[w.dikotter-maos-great-famine]], 161 n.30).'
     src:
-      c: 62ba3bc3
+      c: 3473041d
       rows:
         - 'w.dikotter-maos-great-famine 161: all'
         - 'via w.dikotter-maos-great-famine 161 n.30: all'
-    tags: [form:state, polity:prc]
+    tags: [polity:prc]
+  - id: cal.1961-06-26.china-leadership-6
+    when: June 26
+    date: '1961-06-26'
+    thread: china-leadership
+    c: 'The Center 中共中央 issues its "Provisions on some policies for fixing forest rights, protecting hills and woods and developing forestry (trial draft)" 《关于确定林权、保护山林和发展林业的若干政策规定（试行草案）》: natural forests and the hills made state property before the communes stay the state''s; the woods of the higher cooperatives stay the brigades'', teams'' and members''; trees planted since, "who plants, owns"; ownership fixed for the life of the trees, the boundaries marked.'
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 496–504 (printed from the Central Committee''s document). Made public: 1997. See [[cal.1961-06-02.china-leadership-4]], [[cal.1961-06-09.china-leadership-6]].'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-06-27.economy
     when: June 27
     date: '1961-06-27'
@@ -5288,7 +5344,7 @@ entries:
     date: '1961-06-28'
     thread: china-leadership
     c: 'The Center''s circular on rusticating workers: those who started work since January 1958, temporary, contract, apprentice and regular, go home to the farms, except where vital; earlier arrivals may go voluntarily. Wages: half a month to those leaving before the middle of a month; severance by length of service, from none to 2.5 months; the units pay.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 35; [[w.deng-xiaoping-nianpu-1904]], III, 1646 (June 28, 1961; Deng issues the Center''s notice on some questions of streamlining staff and workers). Made public: 1997. To check: [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 489–91 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 35 n.67); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 489–90 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 35 n.68); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 490 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 35 n.69).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 35; [[w.deng-xiaoping-nianpu-1904]], III, 1646 (June 28, 1961; Deng issues the Center''s notice on some questions of streamlining staff and workers); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 505–510 (the "Notice on some questions in the work of cutting staff" 《关于精减职工工作若干问题的通知》, printed in full: to supplement the nine measures; those to go chiefly the new staff from the villages who joined since January 1958, temporary and contract workers among them). Made public: 1997. To check: [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 489–91 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 35 n.67); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 489–90 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 35 n.68); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 490 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 35 n.69).'
     src:
       c: 2e3e709b
       rows:
@@ -5297,6 +5353,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 35 n.68: A-B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 35 n.69: C-E'
         - 'w.deng-xiaoping-nianpu-1904 III, 1646: ?'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 505–510: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1961-06-28.china-leadership-5
     when: June 28
@@ -5343,7 +5400,7 @@ entries:
     date: '1961-06-28'
     place: geneva
     thread: china-leadership
-    c: Geneva 日内瓦. Chen Yi 陈毅 gives a banquet for 爱德华·夏迈, president of the Geneva cantonal parliament, its vice-president, a member of the city council and their wives.
+    c: Geneva 日内瓦. Chen Yi 陈毅 gives a banquet for *Aidehua Xiamai* 爱德华·夏迈, president of the Geneva cantonal parliament, its vice-president, a member of the city council and their wives.
     n: '[[w.chen-yi-nianpu]], 878. See [[cal.1961-06-28.china-leadership-7]]. The words: 晚上 (878). Names: Chen Yi.'
     tags: [polity:prc, polity:switzerland, name:chen-yi]
     time_range:
@@ -5549,13 +5606,13 @@ entries:
     thread: jobs-and-wages
     also: [civil-rights-the-executive]
     c: 'Kennedy''s morning memoranda, to Evelyn Lincoln: to Dutton, "Speak to me about the Negro unemployment"; something should be done about it.'
-    n: '[[w.reeves-president-kennedy]], 189. To check: the Lincoln Dictation File, POF Box 62, JFK Library (cited by [[w.reeves-president-kennedy]], 189). Names: Kennedy, Dutton.'
+    n: '[[w.reeves-president-kennedy]], 189. To check: the Lincoln Dictation File, POF Box 62, JFK Library (cited by [[w.reeves-president-kennedy]], 189). Names: Kennedy, Dutton, Lincoln.'
     src:
       c: cad46a5d
       rows:
         - 'w.reeves-president-kennedy 189: all'
         - 'via w.reeves-president-kennedy 189 n.his-usual-run-of-morning-memos: all'
-    tags: [name:kennedy-john-f, name:dutton-frederick-g]
+    tags: [name:kennedy-john-f, name:dutton-frederick-g, name:lincoln-evelyn]
   - id: cal.1961-06-29.middle-east
     when: June 29
     date: '1961-06-29'
@@ -6513,3 +6570,21 @@ entries:
       - 1961-06-30T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-06.china-leadership-16
+    when: June
+    date: 1961-06
+    thread: china-leadership
+    c: 'Lin Biao 林彪 to Luo Ruiqing 罗瑞卿, of Luo Ronghuan 罗荣桓: "He maintains that the army should bombard the localities. Isn''t this anti-Party?"'
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 193–194 ("reportedly"; the authors take it to refer to Luo Ronghuan''s proposal of Nov. 3, 1960). Made public: 1991 ([[w.yao-luo-ruiqing]]). To check: [[w.yao-luo-ruiqing]], 203 (cited by [[w.teiwes-tragedy-of-lin-biao]], 193 n.56). See [[cal.1960-11-03.china-leadership-16]]. Names: Lin Biao, Luo Ruiqing, Luo Ronghuan.'
+    src:
+      c: 28487b96
+      rows:
+        - 'w.teiwes-tragedy-of-lin-biao 193–194: all'
+    tags: [polity:prc, name:lin-biao, name:luo-ruiqing, name:luo-ronghuan, vis:only:prc]
+  - id: cal.1961-06.china-leadership-17
+    when: June
+    date: 1961-06
+    thread: china-leadership
+    c: The Party groups of the State Science Commission 国家科委 and the Academy of Sciences 中国科学院 draw up the "Fourteen opinions on the present work of the natural science research organs (draft)" 《关于自然科学研究机构当前工作的十四条意见（草案）》.
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 546–570 (sent with Nie Rongzhen''s report of June 20). Made public: 1997. Sent on: [[cal.1961-07-19.china-leadership]].'
+    tags: [polity:prc, vis:only:prc]

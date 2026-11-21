@@ -1079,14 +1079,14 @@ entries:
     time: 1964-02-04T22:10Z
     thread: elections-1964
     c: 'Yarborough to Johnson by telephone, 5:10 p.m., spared a primary opponent: thanks for "many kindnesses," told of them by Albert Thomas and Jack Brooks.'
-    n: '[Johnson and Ralph Yarborough, 5:10 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ralph-yarborough-february-4-1964), Conversation WH6402-05-1883 (Miller Center). [[w.taking-charge]], 218–219. Names: Yarborough, Johnson, Brooks.'
+    n: '[Johnson and Ralph Yarborough, 5:10 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ralph-yarborough-february-4-1964), Conversation WH6402-05-1883 (Miller Center). [[w.taking-charge]], 218–219. Names: Yarborough, Johnson, Brooks, Thomas.'
     src:
       c: 65392ec2
       rows:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ralph-yarborough-february-4-1964: A'
         - 'w.taking-charge 218–219: all'
         - 'via x.1964-02-04.johnson-ralph-yarborough-telephone-1710: all'
-    tags: [name:yarborough-ralph, name:johnson-lyndon-b, name:brooks-jack-b, state:tx]
+    tags: [name:yarborough-ralph, name:johnson-lyndon-b, name:brooks-jack-b, state:tx, name:thomas-albert]
   - id: cal.1964-02-04.china-leadership
     when: Feb. 4
     date: '1964-02-04'
@@ -2511,8 +2511,8 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou wires the Central Committee and Mao: back four days; poor sleep and no spare time, so he has not telephoned Shangkun, and has not started the report on the trip, "feeling very uneasy". Five days before going abroad again: an outline first, settled with Chen Yi and others and wired to the Center; the full report after the next return.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 619 (Feb. 9, 1964). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Yang Shangkun.'
-    tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 619 (Feb. 9, 1964). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Yang Shangkun, Chen Yi.'
+    tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc, name:chen-yi]
   - id: cal.1964-02-09.china-leadership-2
     when: Feb. 9
     date: '1964-02-09'
@@ -3365,12 +3365,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Deng Xiaoping 邓小平 welcomes at the airport the delegation of the Vietnam Workers' Party under its first secretary Lê Duẩn 黎笋, passing through Peking 北京 on an invited visit to the Soviet Union.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1797 (Feb. 11, 1964). Names: Deng Xiaoping. Check: the nianpu has the airport welcome on Feb. 11 (the send-off, the 13th, is [[cal.1964-02-13.china-leadership-3]]); Yang Shangkun''s diary has the party arrive Jan. 28 ([[cal.1964-01-28.china-leadership-8]]).'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1797 (Feb. 11, 1964). Names: Deng Xiaoping, Lê Duẩn. Check: the nianpu has the airport welcome on Feb. 11 (the send-off, the 13th, is [[cal.1964-02-13.china-leadership-3]]); Yang Shangkun''s diary has the party arrive Jan. 28 ([[cal.1964-01-28.china-leadership-8]]).'
     src:
       c: c3f0e86e
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1797: all'
-    tags: [polity:prc, name:deng-xiaoping]
+    tags: [polity:prc, name:deng-xiaoping, name:le-duan]
   - id: cal.1964-02-11.china-leadership-4
     when: Feb. 11
     date: '1964-02-11'
@@ -3840,6 +3840,17 @@ entries:
     c: 'Wujiahuayuan 吴家花园, Peking 北京. The lunar New Year: Peng Dehuai 彭德怀 keeps it with his niece and nephew; a film in the evening.'
     n: '[[w.peng-dehuai-nianpu]], 781. Made public: 1998. Names: Peng Dehuai.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai, ok:fields-time]
+  - id: cal.1964-02-13.china-leadership-9
+    when: Feb. 13
+    date: '1964-02-13'
+    thread: china-leadership
+    c: Liu Yalou 刘亚楼 and Wu Faxian 吴法宪 call on Lin Biao 林彪 for the New Year. Lin praises their work and urges the other units to learn from the air force.
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 200–201. Made public: 1991 ([[w.yao-luo-ruiqing]]). To check: [[w.yao-luo-ruiqing]], 221 (cited by [[w.teiwes-tragedy-of-lin-biao]], 201 n.75a). Names: Wu Faxian, Lin Biao.'
+    src:
+      c: 1fe67869
+      rows:
+        - 'w.teiwes-tragedy-of-lin-biao 200–201: all'
+    tags: [polity:prc, name:wu-faxian, name:lin-biao, vis:only:prc]
   - id: cal.1964-02-14.vietnam
     when: Feb. 14
     date: '1964-02-14'
@@ -4129,6 +4140,17 @@ entries:
         - 'w.friedman-shadow-cold-war 106–107: all'
         - 'via x.1964-02-14.speech-mikhail-suslov-communist-party-plenum-february: ?'
     tags: [polity:ussr, vis:only:ussr, name:suslov-mikhail-a, name:khrushchev-nikita-s]
+  - id: cal.1964-02-14.china-leadership-7
+    when: Feb. 14
+    date: '1964-02-14'
+    thread: china-leadership
+    c: Yang Chengwu 杨成武 calls on Lin Biao 林彪 with New Year greetings.
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 200. Made public: 1991 ([[w.yao-luo-ruiqing]]). To check: [[w.yao-luo-ruiqing]], 221 (cited by [[w.teiwes-tragedy-of-lin-biao]], 201 n.75a). See [[cal.1964-02-13.china-leadership-9]]. Names: Lin Biao.'
+    src:
+      c: 8f2e0d43
+      rows:
+        - 'w.teiwes-tragedy-of-lin-biao 200: all'
+    tags: [polity:prc, name:lin-biao, vis:only:prc]
   - id: cal.1964-02-15.europe-and-the-alliance-cyprus
     when: Feb. 15
     date: '1964-02-15'
@@ -4424,6 +4446,17 @@ entries:
       - 1964-02-15T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1964-02-15.china-leadership-10
+    when: Feb. 15
+    date: '1964-02-15'
+    thread: china-leadership
+    c: Luo Ruiqing 罗瑞卿 calls on Lin Biao 林彪 for the New Year.
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 201. Made public: 1991 ([[w.yao-luo-ruiqing]]). To check: [[w.yao-luo-ruiqing]], 221 (cited by [[w.teiwes-tragedy-of-lin-biao]], 201 n.75a). See [[cal.1964-02-13.china-leadership-9]]. Names: Luo Ruiqing, Lin Biao.'
+    src:
+      c: 1d17c644
+      rows:
+        - 'w.teiwes-tragedy-of-lin-biao 201: all'
+    tags: [polity:prc, name:luo-ruiqing, name:lin-biao, vis:only:prc]
   - id: cal.1964-02-16.opinion
     when: Feb. 16
     date: '1964-02-16'
@@ -5836,10 +5869,10 @@ entries:
     date: '1964-02-21'
     place: peking
     thread: china-leadership
-    c: Peking 北京. Peng Zhen 彭真 receives the Korean heating network study group under Chon Song-gun 全松根 and the Korean trolleybus study group under 深锡焕.
+    c: Peking 北京. Peng Zhen 彭真 receives the Korean heating network study group under Chon Song-gun 全松根 and the Korean trolleybus study group under "*Shen Xihuan*" 深锡焕.
     n: '[[w.peng-zhen-nianpu-1902]], IV, 320. The words: 下午 (IV, 320). Names: Peng Zhen.'
     src:
-      c: 8188d989
+      c: 1e0da99f
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 320: all'
     tags: [polity:prc, name:peng-zhen]
@@ -6083,12 +6116,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Deng Xiaoping 邓小平, as acting premier, meets the new Norwegian ambassador, Helge Aakre 黑尔格·阿克雷. On Taiwan: the American ''two Chinas'' aims at long occupation of Taiwan; without a settlement the Chinese cannot settle state relations with the United States; Taiwan is wholly China''s internal affair and the Chinese can settle it themselves; China''s entry into the United Nations is wholly legal; Chiang Kai-shek''s group cannot and has no right to represent the Chinese people; while his representatives stay in the UN the Chinese will not accept entry even if a two-thirds majority votes it.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1798 (Feb. 22, 1964). The words: 下午 (III, 1798). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1798 (Feb. 22, 1964). The words: 下午 (III, 1798). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Chiang Kai-shek.'
     src:
       c: 80a563ef
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1798: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+norway]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+norway, name:chiang-kai-shek]
     time_range:
       - 1964-02-22T04:00Z
       - 1964-02-22T10:00Z
@@ -7447,7 +7480,7 @@ entries:
       c: 6ddcebbe
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Feb. 27, 1964: all'
-        - 'w.lengxi-shinian-lunzhan-1956-1966 670–675: B, D'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 670–675: A, C'
         - 'w.yang-shangkun-riji II, 355–356: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 321: ?'
     tags: [name:mao-zedong, name:kim-il-sung, name:liu-shaoqi, name:peng-zhen, name:li-fuchun, polity:prc, polity:dprk, vis:only:prc+dprk]
@@ -8617,11 +8650,11 @@ entries:
       c: 3eed1bde
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Feb. 29, 1964: all'
-        - 'w.lengxi-shinian-lunzhan-1956-1966 677–681: A, B'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 677–681: A'
         - 'w.macfarquhar-origins-of-the-cultural III, 281: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 281 n.113: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1801–1802: ?'
-        - 'w.mao-zedong-zhuan V, ch. 71: G, H'
+        - 'w.mao-zedong-zhuan V, ch. 71: F, G'
     tags: [name:mao-zedong, name:kim-il-sung, polity:prc, polity:dprk, vis:only:prc+dprk]
   - id: cal.1964-02-29.china-leadership-2
     when: Feb. 29
@@ -8953,3 +8986,38 @@ entries:
     c: Chen Yun 陈云 flies from Canton 广州 to Sanya 三亚, Hainan Island 海南岛.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 144. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun]
+  - id: cal.1964-02.china-leadership-10
+    when: Feb.–Apr.
+    date: 1964-02
+    thread: china-leadership
+    c: Lin Biao 林彪, further instructions on the *Jiefangjun bao*, in the months before the army's journalism work conference in April.
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 200. Made public: 1996 ([[w.teiwes-tragedy-of-lin-biao]], no source named, 169 n.1). See [[cal.1964-01.china-leadership-14]]. Names: Lin Biao.'
+    src:
+      c: 1543dabb
+      rows:
+        - 'w.teiwes-tragedy-of-lin-biao 200: all'
+    tags: [polity:prc, name:lin-biao, vis:only:prc]
+  - id: cal.1964-02.china-leadership-11
+    when: Feb., at the New Year calls
+    date: 1964-02
+    at: after 1964-02-13
+    thread: china-leadership
+    c: Lin Biao 林彪, instructions on overhauling the military institutions.
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 201. Made public: 1996 ([[w.teiwes-tragedy-of-lin-biao]]). To check: [[w.gaoju-mao-zedong-sixiang]], 179 (cited by [[w.teiwes-tragedy-of-lin-biao]], 201 n.75b). See [[cal.1964-02-13.china-leadership-9]]. Names: Lin Biao.'
+    src:
+      c: ce0b5927
+      rows:
+        - 'w.teiwes-tragedy-of-lin-biao 201: all'
+    tags: [polity:prc, name:lin-biao, vis:only:prc]
+  - id: cal.1964-02.china-leadership-12
+    when: Feb., after the 15th
+    date: 1964-02
+    at: after 1964-02-15
+    thread: china-leadership
+    c: 'A report to the Center on overhauling institutions repeats Lin Biao''s 林彪 instructions, among them to cut red tape by "grasping the two ends": what comes from above passed down in good time, what comes from below sent up swiftly.'
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 201. Made public: 1996 ([[w.teiwes-tragedy-of-lin-biao]]). To check: [[w.gaoju-mao-zedong-sixiang]], 179 (cited by [[w.teiwes-tragedy-of-lin-biao]], 201 n.75b). See [[cal.1964-02.china-leadership-11]]. Names: Lin Biao.'
+    src:
+      c: 9c1d6f64
+      rows:
+        - 'w.teiwes-tragedy-of-lin-biao 201: all'
+    tags: [polity:prc, name:lin-biao, vis:only:prc]

@@ -950,3 +950,172 @@ Put them in the "gloss" on the most appropriate entry, or the opening or closing
 ## Nov. 21, 2026, 10:27 a.m. Pacific
 
 "I don't know how the reader or auditor agents tag names, but could an alias or "ghost name" entry help here?"
+
+## Nov. 21, 2026, 10:36 a.m. Pacific
+
+"Could we correct the chronological sort on the Names entries to match the calendar? I don't want the calendar sort to be a one-off, ad hoc, page-specific sort. It's just "the chronological sort"
+Please do build the missing name tag check and run the sweep. 
+Two issues with this October 1963 VN: Hanoi entry.
+
+First, the footnote "catches" on the full stop in "no. 10" rather than the sentence-ending full stop. 
+
+Second, the citation block has unmarked citations to unread works, which should be behind "To check:" with a "via"/"cited by" note.
+
+>>> Nguyễn Chí Thanh in Học Tập no.1 10: “rightism” rooted in the old regime, revisionism its ground;2 the North’s comfort no excuse to slacken the struggle in the South.3
+1 Pierre Asselin, Hanoi’s Road to the Vietnam War, 1954–1965, at 147–48 (2013); Nguyen Chi Thanh, “Let Us Improve Our Proletarian Stand and Ideology,” Hoc tap, no. 10 (October 1963), trans. in Folder 02, Box 25, DPC Unit 06, VATTU.
+2 Asselin, Hanoi’s Road to the Vietnam War, 1954–1965, at 147–48; Nguyen Chi Thanh, “Let Us Improve Our Proletarian Stand and Ideology,” Hoc tap, no. 10 (October 1963), trans. in Folder 02, Box 25, DPC Unit 06, VATTU; “Chi thi cua Bo Chinh tri, so 74-CT/TW, ngay 27 thang 1 nam 1964” [Politburo instruction no. 74, the study of the Ninth Plenum’s resolution], VKD, vol. 25 (1964), 43-59.
+3 Asselin, Hanoi’s Road to the Vietnam War, 1954–1965, at 147–48.
+To check: Nguyễn Chí Thanh, “Let Us Improve Our Proletarian Stand and Ideology,” Học Tập, no. 10 (October 1963), translated in the Pike Collection, Texas Tech (cited by Pierre Asselin, Hanoi’s Road to the Vietnam War, 1954–1965, at 147 n.10, 148 nn.15–17 (2013)). Names: Nguyễn Chí Thanh."
+
+## Nov. 21, 2026, 10:45 a.m. Pacific
+
+"Are we not able to identify and match the names given in CJK here? 
+
+At the very least, could we not give the 普通話 Pinyin for the names?
+
+>>> China: Leadership
+Peking · afternoon
+Chen Yi receives foreign trade-union delegations and representatives in China for National Day (Albania’s under 培利卡·比库里, Indonesia’s SOBSI under 普梭诺, the Japanese national railway and locomotive unions’ under 神户世志夫, the Fukuoka prefectural council’s under Ono Akira, the Algerian General Union of Workers’ under 阿比卜·穆罕默德, Ghana’s agricultural union’s under Benjamin Annan, Portuguese Guinea’s under 贝比阿诺·达尔玛达, the Australian building unions’ under 达纳赫, and New Zealand’s and 博恩)."
+
+## Nov. 21, 2026, 11:10 a.m. Pacific
+
+"The citation block to the October 1, 1963 entry seems to suggest that, as one would expect, far more people were at the 14th anniversary National Day parade than Yang Shangkun. 
+
+Shouldn't this material go out of the citation block and into the entry, and the name tags?
+
+[the entry and its citation block, quoted]
+
+We should probably put the 普通話 CJK in the aliases once we've settled on it, no?
+"The Senate sat from noon to 7:02 p.m." should only be in the first footnote here. 
+
+The balance of the footnotes, after the Daily Digest, appear to be garbled, but I'm not sure how. 
+
+If those are notes about what's in the cited matter, they should be in parentheticals. If they're not meant to be there at all, I'm not sure why the Daily Digest citation that precedes them would end with a semicolon. If something else is supposed to be there, it's not clear to me what it might be. 
+
+If we are going to cite as-enacted statutes in the footnotes, though, we should give the full Bluebook form on their first appearance, rather than the bare "XXX Stat. YYY" we give them in the body text.
+
+[the Civil rights: the executive entry, Oct. 1963, quoted]
+
+Could we give the CJK in the "Names" entries, following the Romanization? And could we properly link the CJK given in the "Names:"? 
+The October 2, 1963 entry on JFK, RSM, and Maxwell Taylor meeting seems like a more egregious example of the National Day problem I highlighted earlier. 
+
+That is, there's a lot of material, of added detail, in the citation block that seems should be in the entry. 
+
+Do our readers and auditors not have permission to add to the entries? Is there a way we could permit them to build on what's already there?
+
+[the Vietnam: Force levels entry, Oct. 2, 1963, and its four footnotes, quoted]"
+
+## Nov. 21, 2026, 11:14 a.m. Pacific
+
+"Claude, I don't want to drop the unread works. Can you check and fix the doubles instead?"
+
+## Nov. 21, 2026, 11:16 a.m. Pacific
+
+"Claude, instead of "If they're found, the entry reads "Real Name 培利卡·比库里". If not, it reads "培利卡·比库里 (Peilika Bikuli)"", drop the CJK rendering of the found names—that's what we do elsewhere—and put the Pinyin ahead of the CJK, in italics."
+
+## Nov. 21, 2026, 11:17 a.m. Pacific
+
+"You asked: 
+
+"Red Guard records: do Zhou's 1967 talks, known from Red Guard records later printed in the Wenku, count as "Made public: 1967"? Four new entries say so, as similar entries already in the calendar do."
+
+Is that right? Is that what we do for "similar entries already in the calendar"? Would someone in Paris or Bonn or New York, or even Hong Kong, have been able to access these Red Guard records "as of 1967"?"
+
+## Nov. 21, 2026, 11:2x a.m. (Pacific)
+
+"Apply your public-date rule."
+
+(The rule proposed: a Red Guard printing makes an act public in China from its date, if it was sold or posted openly, not marked 内部, and the printing, or a work quoting it, has been read; elsewhere, from the first printing that reached abroad (a Consulate translation, a foreign press report) or the later open printing (the 1975 reprint, the *Wenku*, a published book); where not known, the later open printing, the earlier one behind "To check:".)
+
+## Nov. 21, 2026, about 11:35 a.m. (Pacific)
+
+"\"Peking's house searches of August 1966: which count should lead cal.1966-08.china-leadership-21, MacFarquhar's 33,695 households or the Peking histories' 114,000?\"
+
+Do we know the source, authority, or reasoned basis for the two different numbers?"
+
+## Nov. 21, 2026, about 11:40 a.m. (Pacific)
+
+"Claude, what's the \"as reported\" doing here? What's with the goofy formatting? Why isn't this just a normal entry?" (a screenshot of two August 1966 China entries: Changsha, workers' posters against their superiors (Dikötter 70 n.13), a normal entry; and, set off with a rule and "AS REPORTED / CHINA: LEADERSHIP, AUG.", "As a Shanghai report has it: on a single day more than 400 factory cadres are paraded through the streets in dunces' caps; over a million workers take part in the Cultural Revolution over the summer." (Dikötter 121 n.16; Made public: 2016; To check: Shanghai Municipal Archives, Aug. 1966, A36-2-757, pp. 103–112; Check: the day.))
+
+## Nov. 21, 2026, about 11:50 a.m. (Pacific)
+
+""In Wuhan during this period there are 32 murders and 62 successful attempts at suicide."
+
+Shouldn't this just be "62 suicides"? Shouldn't "this period" be specified in the text of the entry?"
+
+## Nov. 21, 2026, about noon (Pacific)
+
+"Could we rename the "As reported" label to save future readers/auditors from this error? It's not a particularly lucid label.
+Actually, yes. Just drop the label altogether."
+
+## Nov. 21, 2026, before 12:15 p.m. (Pacific; the clock time misread when logged)
+
+"Could we create a "Threads", akin to our "Names", compiling the entries in each thread in calendar-chronological order?
+For this entry, we can't figure out "the day" of "the weekend before Aug. 14"?
+
+>>> Korea, Aug.
+North Korea issues "a declaration of independence against both Russia and China," by Schlesinger's journal (the news at Hyannis Port, the weekend before Aug. 14).
+Schlesinger, Journals, 252 (the entry of Aug. 14). Check: the day."
+
+## Nov. 21, 2026, before 12:15 p.m. (Pacific; the clock time misread when logged)
+
+"Haven't I given you Nongye jitihua zhongyao wenjian huibian (1981)?"
+
+## Nov. 21, 2026, before 12:15 p.m. (Pacific; the clock time misread when logged)
+
+"Could the Names and Threads entries also get the full footnote treatment?"
+
+## Nov. 21, 2026, before 12:15 p.m. (Pacific; the clock time misread when logged)
+
+"Could we give the full-width 中点 for CJK surnames and given names rather than the simple, unspaced "·"? "巴巴卡・尼昂"?
+
+For the suspected kanji/Japanese names, I suppose we should go with (b), but I'm not entirely happy with it. How do Chinese speakers read these, where they're only given in CJK?"
+
+## Nov. 21, 2026, before 12:15 p.m. (Pacific; the clock time misread when logged)
+
+"Let's go with (a), but give quotation marks around pinyin renderings of non-Chinese CJK names, to indicate that they reading is non-phonetic in a way that pinyin renderings of non-CJK names are not."
+
+## Nov. 21, 2026, about 12:15 p.m. (Pacific)
+
+"Alright, we're reaching the end of our token budget. Could we wrap things up and leave the rest to the post-Tuesday 4 p.m. PT reset?
+That is, I'm going to call a "pause" from here until Tuesday."
+
+## Nov. 21, 2026, about 12:30 p.m. (Pacific)
+
+"Immediate. Finish stopped open audit, the chronological sort, and everything finished and saved but not committed.
+
+One block.
+
+Keep the roll-call citation form for now. But there must be a normative/standard form, and there must be a better authority than Voteview. (Or is there?) Where were these recorded? In the journals? Just CR?
+
+Drop the Rusk taped interviews.
+
+Notes that name an act count as a printing of it.
+
+What turns on the report/comment question?
+
+Yes, a second pass should read the full texts.
+
+Yes, an entry holding two acts should be split. (Did you need to pass this one to me? This is the plain language of the rule, right? Is there something more involved that got dropped from your summary here?)"
+
+## Nov. 21, 2026, about 1 p.m. (Pacific)
+
+""Made public" doesn't require a source to have been read, does it?"
+
+## Nov. 21, 2026, about 1:10 p.m. (Pacific)
+
+"The reason I endorsed your proposed rule in full initially is because works that are (a) "briefly available in public circulation, then suppressed," and (b) "only 'published' in small-batch, limited-circulation printings" are hard to square with either the rationale behind the "Made public" rule or its "once and for all" setting.
+
+Suppose it's 1972, or 1978, or 1984, or 1990, or 1996. Would a citizen of the PRC have been able to access these publications or documents in the way "Made public:" and the visibility rule implies?"
+
+## Nov. 21, 2026, about 1:20 p.m. (Pacific)
+
+"I've added another book to the shared drive. What is it? Is it useful to us?"
+
+"That sounds right to me re: R27.
+
+But I'd like to see the language of the current rule and your proposed rule before I endorse the change."
+
+## Nov. 21, 2026, about 1:25 p.m. (Pacific)
+
+"I endorse your revised R27."

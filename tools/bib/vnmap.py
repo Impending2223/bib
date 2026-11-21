@@ -71,7 +71,7 @@ import os
 import re
 import shutil
 
-from . import contents, store
+from . import chron, contents, store
 
 SRC = os.path.join(store.ROOT, "sources", "vn-provinces-1966")
 LAYERS = os.path.join(store.ROOT, "sources", "indochina")
@@ -319,8 +319,9 @@ def by_year(series):
         pl, pv = placed(e)
         if pl or pv:
             out.setdefault(str(e["date"])[:4], []).append((e, pl, pv))
-    for y in out:
-        out[y].sort(key=lambda t: str(t[0]["date"]))
+    for y, rows in out.items():                     # in the calendar's order (chron.py)
+        at = chron.position(lst, [e for e, _, _ in rows])
+        rows.sort(key=lambda t: at[t[0]["id"]])
     return out
 
 

@@ -21,6 +21,9 @@ A witness:
       open: closed archive                      # OPEN: why the branch ends here
       copies: [FRUS 1964–68, II, doc. 84]       # a copy the series can read (FRUS, the Papers, a recording, a scan)
       read: false                               # read and cited as an entry's primary record
+      local: prc                                # a printing that circulated in that polity only (R27: a Red Guard
+                                                # tabloid, poster, leaflet, faction's compilation): public there alone
+      base: true                                # a work's whole source base, never joined to a claim (footnotes.py)
 
 Readers at work together write their new witnesses to `inbox/witnesses/<patch name>.yaml` (the same rows), never to the
 year files, so no two write one file; check reads them with the registry, and the merger folds them in
@@ -249,6 +252,8 @@ def problems(series):
     from . import claims
     rows, edges, where = load()
     errors, warns = [], []
+    from . import vis
+    pols = set(vis.polities()["polities"]) if os.path.exists(vis.POL) else None   # `local:` (R27)
     for at, msg in where.get("_bad", []):
         errors.append((at, msg))
     for d in where.get("_dup", []):
@@ -279,6 +284,12 @@ def problems(series):
                     errors.append((at, f"an edge to no card: {f['of']}"))
             elif f.get("of") not in rows:
                 errors.append((at, f"an edge to nothing: {f.get('of')}"))
+        if r.get("local") is not None and (pols is None or str(r["local"]) not in pols):
+            errors.append((at, f"local {r['local']!r}: not a polity of sources/polities.yaml"))
+        if r.get("circulated") is not None and (pols is None or str(r["circulated"]) not in pols):
+            errors.append((at, f"circulated {r['circulated']!r}: not a polity of sources/polities.yaml"))
+        if r.get("base") is not None and not isinstance(r["base"], bool):
+            errors.append((at, f"base {r['base']!r}: true or false"))
         po = r.get("part_of")
         if po and po not in rows and not (str(po).startswith("w.") and series.works.get(po) is not None):
             errors.append((at, f"part_of {po!r}: no such witness or card"))

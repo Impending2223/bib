@@ -17,7 +17,7 @@ import os
 import re
 from collections import Counter, defaultdict
 
-from . import contents, datelist, namelinks, specials, store
+from . import chron, contents, datelist, namelinks, specials, store
 from .markup import to_html, plain
 
 DIR = os.path.join(store.ROOT, "congress")
@@ -174,7 +174,7 @@ class Pointers:
                     seen.add(e["id"])
                     cal.append(e)
         if cal:
-            cal.sort(key=lambda e: e["date"])
+            cal = chron.sort(self.series, cal)      # in the calendar's order (chron.py)
             out.append("Cal. " + datelist.run([(e["date"], f'<a href="{href("cal", e["id"])}">{esc(e["when"])}</a>')
                                                for e in cal]))     # by year (datelist STYLE)
         return out

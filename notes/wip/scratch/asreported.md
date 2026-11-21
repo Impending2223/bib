@@ -1,0 +1,253 @@
+# Report openers converted (Nov. 21, 2026)
+
+232 entries carried `form:state`; the tag is removed from all 232. 227 rewritten as normal entries; 5 true press conditions keep their `c`.
+
+## By thread (converted)
+
+- china-leadership: 150
+- china: 39
+- laos: 20
+- vietnam-diplomacy: 8
+- vietnam-hanoi: 3
+- soviet-union: 3
+- vietnam: 2
+- indonesia: 1
+- africa: 1
+
+## Kept (a paper's report; only the tag dropped)
+
+- `cal.1960-02-18.cuba-2` (cuba): As the *Times* reports it: the Administration's policy of "patience and forbearance" toward Cuba is …
+- `cal.1960-09-07.elections-1960-kennedy-7` (elections-1960-kennedy): As the *Times* reports it: Byrd of Virginia has not endorsed the Democratic ticket; neither of Georg…
+- `cal.1960-09-07.berlin-and-vienna-2` (berlin-and-vienna): As the *Times* reports it: the United States, Britain, France and West Germany have undertaken a stu…
+- `cal.1961-06-02.china-2` (china): As *Time* reports it: the yuan, falling on the black market since 1960, drops in January 1961, as ne…
+- `cal.1966-09-10.vietnam` (vietnam): As the *New York Times* reports it: Western diplomats in Moscow find that North Vietnam has moved "i…
+
+## Converted: old opening → new opening
+
+- `cal.1960.china-leadership-108`: As a Guangdong 广东 file has it: people intimidated by m → Guangdong 广东: people intimidated by m
+- `cal.1960.china-leadership-109`: As the Foreign Ministry's accounts have it: Moscow lent Peking some 9 → Moscow lent Peking some 9
+- `cal.1960.china-8`: As the Guangzhou 廣州 files have it: workers' dormitories so → Guangzhou 廣州: workers' dormitories so
+- `cal.1960.china-leadership-111`: As a Sichuan 四川 file has it: hundreds poisoned after → Sichuan 四川: hundreds poisoned after
+- `cal.1960.china-leadership-115`: As the Yanshan 硯山 county committee's statistics of 1960 have it: after the autumn distri → Yanshan 硯山 county committee's statistics of 1960: after the autumn distri
+- `cal.1960-02-11.vietnam-diplomacy`: As the British consulate-general in Hanoi reports it: the North Vietnamese ta → British consulate-general in Hanoi to the Foreign Office: the North Vietnamese ta
+- `cal.1960-04-08.vietnam-diplomacy`: As British officials in Hanoi report it: until March the North V → British officials in Hanoi to the Foreign Office: until March the North V
+- `cal.1960-04-09.vietnam-hanoi-2`: As the British consulate-general in Hanoi reports it, from the Czechoslovak a → British consulate-general in Hanoi to the Foreign Office, from the Czechoslovak a
+- `cal.1960-04-13.laos`: As the British embassy in Vientiane reports it: over the past months th → British embassy in Vientiane to the Foreign Office: over the past months th
+- `cal.1960-04-26.china`: As a Hebei 河北 report has it: followers travel from H → Hebei 河北: followers travel from H
+- `cal.1960-05-07.china-leadership-12`: As a Beijing report has it: an investigation team,  → Beijing: an investigation team, 
+- `cal.1960-05-18.china`: The Operations Coordinating Board's "Report on U.S. Policy Toward Taiwan and the Government of the Republic of China" (NSC 5723), as Chang g… → The Operations Coordinating Board's "Report on U.S. Policy Toward Taiwan and the Government of the Republic of China" (NSC 5723): Taiwan's s…
+- `cal.1960-06-18.china-leadership-7`: As a report has it: in a cotton factory in Zhe → In a cotton factory in Zhe
+- `cal.1960-06-27.china-leadership-12`: As *Neibu cankao* 内部参考 reports it: farmers woken in the middl → Farmers woken in the middl
+- `cal.1960-06-30.laos`: As the Foreign Office has it, to Vientiane: the Pathet → Foreign Office to Vientiane: the Pathet
+- `cal.1960-07-01.china-leadership-6`: As a Foreign Ministry file has it: China has given foreign c → China has given foreign c
+- `cal.1960-07-09.china-leadership-5`: As a Sichuan 四川 report has it: in several counties hun → Sichuan 四川: in several counties hun
+- `cal.1960-08-03.soviet-union`: As INR's Intelligence Report no. 8307 has it: by a more militant fore → INR's Intelligence Report no. 8307: by a more militant fore
+- `cal.1960-08-15.china-leadership-10`: As the British embassy in Peking reports it: the Chinese taken by su → British embassy in Peking to the Foreign Office: the Chinese taken by su
+- `cal.1960-08-18.china`: As *Neibu cankao* 内部参考 reports it: in some communes of Jingha → In some communes of Jingha
+- `cal.1960-09-02.vietnam-diplomacy`: As the State Department's Information Brief no. 319 reports it: Soviet aid's effect on  → The State Department's Information Brief no. 319: Soviet aid's effect on 
+- `cal.1960-09-03.laos`: As British officials in Vientiane report it: the Pathet Lao show ast → British officials in Vientiane to the Foreign Office: the Pathet Lao show ast
+- `cal.1960-09-05.china-leadership-8`: As a Guangdong 广东 report has it: the feasting and drinki → Guangdong 广东: the feasting and drinki
+- `cal.1960-09-26.china-leadership-12`: As the British embassy in Peking reports it: the Chinese not incline → British embassy in Peking to the Foreign Office: the Chinese not incline
+- `cal.1960-10-05.laos`: As British officials in Vientiane report it: with the Savannakhet fo → British officials in Vientiane to the Foreign Office: with the Savannakhet fo
+- `cal.1960-10-08.china`: As a Shanghai 上海 report has it: in Xuhui some canteens  → Shanghai 上海: in Xuhui some canteens 
+- `cal.1960-10-21.china-leadership-9`: As *Neibu cankao* 内部参考 reports it: in the countryside people  → In the countryside people 
+- `cal.1960-10-23.china-leadership-11`: As a Hebei 河北 public security report has it: about 800 people shot i → Hebei 河北: about 800 people shot i
+- `cal.1960-10-24.china-leadership-6`: As a Nanjing 南京 report has it: some 60 per cent of the → Nanjing 南京: some 60 per cent of the
+- `cal.1960-11-15.china-leadership-12`: As a Hunan 湖南 report has it: a fifth of the grain in → Hunan 湖南: a fifth of the grain in
+- `cal.1960-11-23.china`: As *Neibu cankao* 内部参考 reports it: in Wuhan 武汉 up to 200 peop → In Wuhan 武汉 up to 200 peop
+- `cal.1960-11-25.china`: As *Neibu cankao* 内部参考 reports it: at the iron and steel plan → At the iron and steel plan
+- `cal.1960-11-29.china-leadership-11`: As a Beijing report has it: well over 50 tonnes of  → Beijing: well over 50 tonnes of 
+- `cal.1960-11.china-leadership-30`: As the *Chen Yun nianpu* reports it: in November Peking 北京, Tia → In November Peking 北京, Tia
+- `cal.1960-12-02.china`: As *Neibu cankao* 内部参考 reports it: in Jinan 济南 some factory w → In Jinan 济南 some factory w
+- `cal.1960-12-10.china-leadership-3`: As a Guangdong 广东 report has it: in one commune the loca → Guangdong 广东: in one commune the loca
+- `cal.1960-12-14.china-leadership-6`: As a Yunnan 雲南 report has it: in Kunming 昆明 some 15 t → Yunnan 雲南: in Kunming 昆明 some 15 t
+- `cal.1960-12-19.laos`: As the British embassy in Vientiane has it: American officials ther → British embassy in Vientiane to the Foreign Office: American officials ther
+- `cal.1960-12-24.china-leadership-10`: As the British embassy in Peking reports it: the Chinese press follo → British embassy in Peking to the Foreign Office: the Chinese press follo
+- `cal.1960-12-26.china-leadership-8`: As the British embassy in Peking reports it: the Chinese follow Laos → British embassy in Peking to the Foreign Office: the Chinese follow Laos
+- `cal.1960-12-26.china`: As *Neibu cankao* 内部参考 reports it: in the Dongcheng 东城 distri → In the Dongcheng 东城 distri
+- `cal.1961-01-03.laos`: As the State Department has it, by the British embassy in Washington: in the battle for Vient → British embassy in Washington to the Foreign Office, from the State Department: in the battle for Vient
+- `cal.1961-01-13.china-leadership-9`: As a Hubei 湖北 report has it: in the Wuhan 武汉 region  → Hubei 湖北: in the Wuhan 武汉 region 
+- `cal.1961-01-15.china`: As a Hunan 湖南 report has it: in the winter of 1960–6 → Hunan 湖南: in the winter of 1960–6
+- `cal.1961-01-15.china-leadership-8`: As a Hunan 湖南 report has it: 600,000 pigs die in the → Hunan 湖南: 600,000 pigs die in the
+- `cal.1961-01-20.china-leadership-9`: As a Guangdong 广东 report has it: in Diaofang commune, wh → Guangdong 广东: in Diaofang commune, wh
+- `cal.1961-01-24.china-leadership-10`: As a Hebei 河北 report has it: even in a city such as  → Hebei 河北: even in a city such as 
+- `cal.1961-01-25.china-leadership-7`: As a Guangdong 广东 report has it: needles inserted under  → Guangdong 广东: needles inserted under 
+- `cal.1961-01-27.china`: As a Shanghai 上海 report has it: in the canteens of the  → Shanghai 上海: in the canteens of the 
+- `cal.1961.china-leadership-73`: As a Guangdong 广东 report has it: the province's childcar → Guangdong 广东: the province's childcar
+- `cal.1961.china-leadership-74`: As a Shanghai 上海 file has it: in parts of Jiangyin count → In parts of Jiangyin count
+- `cal.1961.china-leadership-75`: As a Shanghai 上海 file has it: the plan allots each pe → Shanghai 上海: the plan allots each pe
+- `cal.1961-01.china-leadership-24`: As a Shanghai 上海 report has it: in December 1960 the Ch → Shanghai 上海: in December 1960 the Ch
+- `cal.1961.china-leadership-76`: As a Shanghai 上海 file has it: some 50,000 officials c → Shanghai 上海: some 50,000 officials c
+- `cal.1961.china-leadership-77`: As a Hubei 湖北 file has it: one person in five in t → Hubei 湖北: one person in five in t
+- `cal.1961.china-leadership-78`: As a Wuxi 無錫 file has it: in the summer of 1960 u → Wuxi 無錫: in the summer of 1960 u
+- `cal.1961-01.china-leadership-25`: As a Shanghai 上海 report has it: oedema spreads among th → Shanghai 上海: oedema spreads among th
+- `cal.1961.china-leadership-79`: As a Hebei 河北 file has it: one in five at Nankai 南 → Hebei 河北: one in five at Nankai 南
+- `cal.1961.china-leadership-80`: As a file of 1961 has it: at Huangshui, Sichuan 四川,  → At Huangshui, Sichuan 四川, 
+- `cal.1961-02-05.china-leadership-8`: As a Guangdong 广东 report has it: suicides in Puning 普寧 " → Guangdong 广东: suicides in Puning 普寧 "
+- `cal.1961-02-06.china-leadership-9`: As a Yunnan 雲南 report has it: the temperature in some → Yunnan 雲南: the temperature in some
+- `cal.1961-02-10.laos`: As Australian intelligence has it, by the Australian High Commissioner's office in London: the Pathet Lao not expl → Australian High Commissioner's office in London to the Foreign Office, from Australian intelligence: the Pathet Lao not expl
+- `cal.1961-02-24.china`: As a Guangzhou 廣州 report has it: gambling an ingrained h → Guangzhou 廣州: gambling an ingrained h
+- `cal.1961-03-15.china-leadership-10`: As a Guangdong 广东 report has it: 10 per cent of the spro → Guangdong 广东: 10 per cent of the spro
+- `cal.1961-03-23.china-leadership-10`: As a Guangdong 广东 report has it: people burned with red- → Guangdong 广东: people burned with red-
+- `cal.1961-03-23.china-leadership-11`: As a Guangdong 广东 report has it: boiling water poured ov → Guangdong 广东: boiling water poured ov
+- `cal.1961-03-23.china-leadership-12`: As a Guangdong 广东 report has it: in a commune of Qingyua → Guangdong 广东: in a commune of Qingyua
+- `cal.1961-03-24.china-leadership-7`: As a Beijing report has it: by 1961 up to half of t → Beijing: by 1961 up to half of t
+- `cal.1961-03.china-3`: As an East German report has it: in the Guangzhou 廣州 market → In the Guangzhou 廣州 market
+- `cal.1961-04-03.china-leadership-14`: As a Hunan 湖南 report has it: in Huaminglou, Liu Shao → Hunan 湖南: in Huaminglou, Liu Shao
+- `cal.1961-04-04.china-leadership-9`: As a Shanghai 上海 file has it: the state's procurement prices differ by province; early in 1961 maize fetches 124 yuan a tonne in Guangxi 廣西 … → The state's procurement prices differ by province; early in 1961 maize fetches 124 yuan a tonne in Guangxi 廣西 and 152 in Guangdong 广东 across…
+- `cal.1961-04-16.china-leadership-11`: As a Hebei 河北 report has it: in the model commune of → Hebei 河北: in the model commune of
+- `cal.1961-05-07.china`: As a Shanghai 上海 report has it: workers queue for the f → Shanghai 上海: workers queue for the f
+- `cal.1961-05-17.china`: As *Neibu cankao* 内部参考 reports it: about one primary school c → About one primary school c
+- `cal.1961-05-17.china-leadership-7`: As a Xuancheng report has it: a team of fishermen on Cha → A team of fishermen on Cha
+- `cal.1961-05-20.china-leadership-6`: As a Guangdong 广东 report has it: in Dongguan 東莞 county t → Guangdong 广东: in Dongguan 東莞 county t
+- `cal.1961-06-06.china-leadership-11`: As a Hubei 湖北 report has it: cultivators, without ev → Hubei 湖北: cultivators, without ev
+- `cal.1961-06-23.laos`: As the British embassy in Vientiane reports it: the Pathet Lao took no  → British embassy in Vientiane to the Foreign Office: the Pathet Lao took no 
+- `cal.1961-06-26.china-2`: As a Beijing report has it: state enterprises use t → Beijing: state enterprises use t
+- `cal.1961-07-03.china-leadership-8`: As a Beijing report has it: in Huairou county starv → Beijing: in Huairou county starv
+- `cal.1961-07-07.china-leadership-5`: As a Hubei 湖北 report has it: snail fever, thousands  → Hubei 湖北: snail fever, thousands 
+- `cal.1961-07-24.vietnam-diplomacy`: As the British embassy in Moscow reports it: nothing conclusive from → British embassy in Moscow to the Foreign Office: nothing conclusive from
+- `cal.1961-08-02.vietnam-hanoi`: As a Foreign Office minute has it: the North Vietnamese ar → Foreign Office minute: the North Vietnamese ar
+- `cal.1961-08-07.china`: As a Hubei 湖北 report has it: a third of the workers  → Hubei 湖北: a third of the workers 
+- `cal.1961-08-07.china-leadership-6`: As a Guangdong 广东 report has it: at the Quren coal mine  → Guangdong 广东: at the Quren coal mine 
+- `cal.1961-08-16.china-leadership-12`: As a Wuhan 武汉 report has it: some 2,000 known cases  → Wuhan 武汉: some 2,000 known cases 
+- `cal.1961-08-17.china-leadership-10`: As a Hebei 河北 report has it: in some villages of Jin → Hebei 河北: in some villages of Jin
+- `cal.1961-08-24.china-leadership-8`: As a Shanghai 上海 report has it: corporal punishment use → Shanghai 上海: corporal punishment use
+- `cal.1961-08-30.laos`: As British officials at Geneva report it: in the last week of Aug → British officials at Geneva to the Foreign Office: in the last week of Aug
+- `cal.1961-08.china-leadership-11`: As a Shanghai 上海 report has it: in the first half of 19 → Shanghai 上海: in the first half of 19
+- `cal.1961-09-18.china-leadership-7`: As a Hubei 湖北 report has it: some 21,000 children pl → Hubei 湖北: some 21,000 children pl
+- `cal.1961-09-20.china-leadership-11`: As a Yunnan 雲南 report has it: some 240,000 tonnes of  → Yunnan 雲南: some 240,000 tonnes of 
+- `cal.1961-10-12.china-leadership-9`: As a Guangdong 广东 report has it: quarantine broken down, → Guangdong 广东: quarantine broken down,
+- `cal.1961-10-30.vietnam`: As British intelligence has it, by the Commissioner-General in Singapore: the attacks around Ple → Commissioner-General in Singapore to the Foreign Office, from British intelligence: the attacks around Ple
+- `cal.1961-10.china-leadership-6`: As a Sichuan 四川 report has it: rats eaten, dead ones s → Sichuan 四川: rats eaten, dead ones s
+- `cal.1961-11-14.china-leadership-9`: As a Nanjing 南京 report has it: of the children inspect → Nanjing 南京: of the children inspect
+- `cal.1961-11-25.laos`: As the British delegation at Geneva reports it: eight items left on the → British delegation at Geneva to the Foreign Office: eight items left on the
+- `cal.1961-12-02.laos`: As the British delegation at Geneva reports it: four items left on the  → British delegation at Geneva to the Foreign Office: four items left on the 
+- `cal.1961-12-15.china-leadership-9`: As a Hunan 湖南 report has it: in Yueyang county some  → Hunan 湖南: in Yueyang county some 
+- `cal.1961-12-18.laos`: As a Foreign Office minute has it: two items left on the G → Foreign Office minute: two items left on the G
+- `cal.1961-12-21.vietnam-diplomacy`: As the British embassy in Paris reports the Quai d'Orsay: its So → British embassy in Paris to the Foreign Office, from the Quai d'Orsay: its So
+- `cal.1962-01-02.vietnam-2`: As the British embassy's annual report for 1961 from Saigon has it: by the end of 1961 trav → British embassy in Saigon to the Foreign Office, its annual report for 1961: by the end of 1961 trav
+- `cal.1962-01-03.china-leadership-9`: As the British embassy in Peking reports it: China's state at the en → British embassy in Peking to the Foreign Office: China's state at the en
+- `cal.1962-01-22.laos`: As a Foreign Office minute has it: no more work at Geneva  → Foreign Office minute: no more work at Geneva 
+- `cal.1962.china-7`: As a Sichuan 四川 report has it: in one unit in Chongqin → Sichuan 四川: in one unit in Chongqin
+- `cal.1962.china-8`: As a Sichuan 四川 report has it: in Chengdu 成都 the share → Sichuan 四川: in Chengdu 成都 the share
+- `cal.1962.china-9`: As a Sichuan 四川 report has it: in Changshou 長壽 county  → Sichuan 四川: in Changshou 長壽 county 
+- `cal.1962.china-leadership-58`: As the Foreign Ministry's files have it: some 160 million rubles se → Some 160 million rubles se
+- `cal.1962.china-leadership-59`: As an East German file has it: China imports 5.96 millio → China imports 5.96 millio
+- `cal.1962.china-10`: As an East German report has it: China's cotton and textil → China's cotton and textil
+- `cal.1962.china-leadership-60`: As the Yunnan 雲南 Office for Statistics' notes of a national conference of the Bureau for Statistics have it: grain procured national → The Yunnan 雲南 Office for Statistics' notes of a national conference of the Bureau for Statistics: grain procured national
+- `cal.1962.china-leadership-61`: As a Guizhou 貴州 file has it: grain procured in Zunyi → Guizhou 貴州: grain procured in Zunyi
+- `cal.1962.china-leadership-63`: As a Hebei 河北 file has it: the province has 3.8 mi → Hebei 河北: the province has 3.8 mi
+- `cal.1962.china-leadership-64`: As a Hunan 湖南 file has it: some 7,500 children die → Hunan 湖南: some 7,500 children die
+- `cal.1962-02-15.vietnam-diplomacy`: As the British annual report on North Vietnam for 1961, from Saigon, has it: Soviet and East Europea → British annual report on North Vietnam for 1961, from Saigon to the Foreign Office: Soviet and East Europea
+- `cal.1962-02-15.laos`: As the Foreign Office has it, to Washington: the Russi → Foreign Office to Washington: the Russi
+- `cal.1962-02-16.laos`: As J. M. Addis, the British Ambassador, reports it: in his February talks w → J. M. Addis, the British Ambassador, to the Foreign Office: in his February talks w
+- `cal.1962-02-17.laos`: As the British Ambassador reports it: Abramov has tried hard, → The British Ambassador to the Foreign Office: Abramov has tried hard,
+- `cal.1962-02-19.china-leadership-5`: As a Wuhan 武汉 report has it: well over 2,000 lepers  → Wuhan 武汉: well over 2,000 lepers 
+- `cal.1962-02-28.laos`: As the British embassy in Vientiane reports it, from a junior member of → British embassy in Vientiane to the Foreign Office, from a junior member of
+- `cal.1962-04-23.vietnam-diplomacy`: As the British consulate-general in Hanoi reports it: China's aid to North Vi → British consulate-general in Hanoi to the Foreign Office: China's aid to North Vi
+- `cal.1962-05-10.laos-2`: As the Commonwealth Relations Office has it: Peking believed to have → Commonwealth Relations Office to the Foreign Office: Peking believed to have
+- `cal.1962-07-30.laos`: As Malcolm MacDonald's report on the Geneva conference has it: the Chinese, for its fi → Malcolm MacDonald to the Foreign Office, his report on the Geneva conference: the Chinese, for its fi
+- `cal.1962-07-31.china-leadership-10`: As a Beijing report has it: in the Red Star commune → Beijing: in the Red Star commune
+- `cal.1962-09-06.china`: As an East German report has it: thousands travel each day  → Thousands travel each day 
+- `cal.1963-01-01.china-leadership-9`: As the British embassy's annual report from Peking for 1962 has it: an uneasy restraint in  → British embassy in Peking to the Foreign Office, its annual report for 1962: an uneasy restraint in 
+- `cal.1963-01-15.laos`: As the British embassy's report from Vientiane has it: Nam Tha not the Communi → British embassy in Vientiane to the Foreign Office: Nam Tha not the Communi
+- `cal.1963-01-17.china-leadership-7`: As the British embassy's economic report for 1962 has it: little change in China' → British embassy in Peking to the Foreign Office, its economic report for 1962: little change in China'
+- `cal.1963-04-02.china-4`: As *Neibu cankao* reports it: over 2,000 merchants in Xi → Over 2,000 merchants in Xi
+- `cal.1963-04-16.china-2`: As *Neibu cankao* reports it: in Wuhan 武汉 hundreds of un → In Wuhan 武汉 hundreds of un
+- `cal.1963-04.china-leadership-14`: As *Neibu cankao* reports it: in the Xingtai region of H → In the Xingtai region of H
+- `cal.1963-04.china-leadership-15`: As *Neibu cankao* reports it: the Anhui 安徽 countryside i → The Anhui 安徽 countryside i
+- `cal.1963-04.china-leadership-16`: As *Neibu cankao* reports it: in Guizhou 贵州, where Zhou  → In Guizhou 贵州, where Zhou 
+- `cal.1963-06-16.china-leadership-8`: As the Shaanxi 陕西 propaganda office reports it: plays inspired by the W → Shaanxi 陕西: plays inspired by the W
+- `cal.1963-06.china-2`: As *Neibu cankao* reports it: in the Xingtai region of H → In the Xingtai region of H
+- `cal.1963-06.china-3`: As *Neibu cankao* reports it: hundreds of women sold int → Hundreds of women sold int
+- `cal.1963-07-20.china-leadership-12`: As the Shandong 山东 provincial committee's office reports it: hundreds of Christians  → Shandong 山东: hundreds of Christians 
+- `cal.1963-07-23.china-leadership-10`: As a paper in the Shandong 山东 files has it: in Peking 北京 some students → In Peking 北京 some students
+- `cal.1963-08-20.china-leadership-4`: As a Foreign Ministry file has it: by the end of 1962 Peking' → By the end of 1962 Peking'
+- `cal.1963-09-06.china-leadership-10`: As a Foreign Ministry file has it, China's trade with the So → China's trade with the So
+- `cal.1963-09-20.vietnam-diplomacy`: As a Foreign Office minute has it: Sihanouk, in a private  → Foreign Office minute: Sihanouk, in a private 
+- `cal.1963-10.china-leadership-6`: As the Youth League's central secretariat reports it: in Qingdao 青岛 a third of a → In Qingdao 青岛 a third of a
+- `cal.1964.china-leadership-37`: As a Hunan 湖南 file has it: the province's land und → Hunan 湖南: the province's land und
+- `cal.1964.china-leadership-38`: As a Hunan 湖南 file has it: the province's industri → Hunan 湖南: the province's industri
+- `cal.1964-06-15.china-leadership-6`: As a Hunan 湖南 report has it: in Daoxian 道縣 county on → Hunan 湖南: in Daoxian 道縣 county on
+- `cal.1964-10.china-leadership-14`: As Hunan 湖南 reports have it: the work teams find up  → Hunan 湖南: the work teams find up 
+- `cal.1965.soviet-union`: As Friedman reports it: through 1965, under Soviet → Through 1965, under Soviet
+- `cal.1965-05.china-leadership-9`: As the Hunan 湖南 Office for Statistics reckons it, going back over the com → Hunan 湖南 Office for Statistics, going back over the com
+- `cal.1965-08.indonesia`: As the PKI reports it: more than 26 million pe → The PKI: more than 26 million pe
+- `cal.1966.china-leadership-52`: As a count of the time has it, by Jiang Weiqing's 江渭清 account: in Jiangsu 江苏, after the Wutaishan rall → Jiangsu 江苏, by a count of the time in Jiang Weiqing's 江渭清 account: after the Wutaishan rall
+- `cal.1966-03-18.china-leadership-8`: As a report on market conditions has it: in Nanjing 南京 meat still rationed, the → Nanjing 南京: meat still rationed, the
+- `cal.1966-04.china-leadership-20`: As a Shandong 山东 report has it: in the spring of 1966 1 → Shandong 山东: in the spring of 1966 1
+- `cal.1966-05-06.china-leadership-7`: Peking 北京. As Zhang Chunqiao 张春桥 reports it to the enlarged Politbur → Peking 北京. Zhang Chunqiao 张春桥 to the enlarged Politbur
+- `cal.1966-05-17.china-leadership-9`: As a Shandong 山东 report has it: in a Jinan 济南 middle sc → Shandong 山东: in a Jinan 济南 middle sc
+- `cal.1966-06-07.china`: As Donald Hopson of the British mission reports it, from Shandong 山东: in Jinan 济南  → Shandong 山东: in Jinan 济南 
+- `cal.1966-06-21.china-2`: As Alan Donald of the British mission reports it, from a journey along th → Alan Donald of the British mission writes, from a journey along th
+- `cal.1966-07.china-leadership-26`: As Shanghai 上海 reports have it: at the Guangming Watch  → Shanghai 上海: at the Guangming Watch 
+- `cal.1966-08-28.china-leadership-11`: As a Shanghai 上海 report has it: Red Guards destroy thou → Shanghai 上海: Red Guards destroy thou
+- `cal.1966-08-29.china-leadership-14`: As an internal Party document reports it: Red Guards in Peking 北 → An internal Party document: Red Guards in Peking 北
+- `cal.1966-08-29.china`: As K. Godwin reports it from Shanghai 上海: Red Guards c → Shanghai 上海: Red Guards c
+- `cal.1966-08.vietnam-hanoi-5`: As Friedman reports it: from August, Chinese press → From August, Chinese press
+- `cal.1966-08-31.china`: As John Boyd of the British mission reports it: an old man shuffles out → John Boyd of the British mission writes: an old man shuffles out
+- `cal.1966-08.china-leadership-59`: As a Shanghai 上海 report has it: on a single day more th → Shanghai 上海: on a single day more th
+- `cal.1966-09-04.china-leadership-2`: As a Jiangsu 江苏 report has it: in Nanjing 南京 the autho → Jiangsu 江苏: in Nanjing 南京 the autho
+- `cal.1966-09-21.china-leadership-4`: As the Shanghai 上海 Office for Finance and Trade reports it: shops renamed Red Flag, → Shanghai 上海: shops renamed Red Flag,
+- `cal.1966-09-28.china`: As Leonard Appleyard of the British mission reports it ("Manifestations of the  → Leonard Appleyard of the British mission writes ("Manifestations of the 
+- `cal.1966-09-28.china-2`: As John Boyd of the British mission reports it ("Invasion of Peking"): Red Guards from the provi → Red Guards from the provi
+- `cal.1966-10.china-leadership-30`: As the Red Guards' exhibition of the spoils of their raids counts it, by Ding Dahua's account, an incomplete count: from June to early → The Red Guards' exhibition of the spoils of their raids, an incomplete count, by Ding Dahua's account: from June to early
+- `cal.1966-11-07.china`: As a Shanghai 上海 report has it: sales of goods that mig → Shanghai 上海: sales of goods that mig
+- `cal.1966-11-09.china-leadership-8`: As reports of the Shanghai 上海 People's Congress have it: visitors squat on sitti → Shanghai 上海: visitors squat on sitti
+- `cal.1966-11-25.china`: As a Jiangsu 江苏 report has it: in Nanjing 南京 the numbe → Jiangsu 江苏: in Nanjing 南京 the numbe
+- `cal.1966-11.china-leadership-32`: As a Shanghai 上海 report has it: Red Guards order the ra → Shanghai 上海: Red Guards order the ra
+- `cal.1966-12.china-leadership-25`: As Shanghai 上海 reports have it: except for a few revolu → Shanghai 上海: except for a few revolu
+- `cal.1966-12.china-leadership-26`: As Shanghai 上海 reports have it: the State Council 国务院 demands that every product be purged of the feudal past in label, packaging and design… → The State Council 国务院 demands that every product be purged of the feudal past in label, packaging and design; in Shanghai 上海 alone close to …
+- `cal.1966-12.china-leadership-27`: As a Nanjing 南京 report has it: scuffles across all ind → Nanjing 南京: scuffles across all ind
+- `cal.1967-01-04.china-leadership-14`: As the Shanghai 上海 People's Congress reports it: the city needs 3,500 to → Shanghai 上海: the city needs 3,500 to
+- `cal.1967-01-06.china-leadership-17`: As the Jiangxi 江西 provincial committee reports it: by December more than 6 → Jiangxi 江西: by December more than 6
+- `cal.1967.china-leadership-148`: As Friedman reports it: the staff of each recalled → The staff of each recalled
+- `cal.1967.china-leadership-149`: As Hunan 湖南 reports have it: in Changsha 长沙 villager → Hunan 湖南: in Changsha 长沙 villager
+- `cal.1967-02-07.china-leadership-7`: As the Shanxi Revolutionary Committee's circular no. 3 reports it: in Shanxi 山西 some peopl → Shanxi Revolutionary Committee, circular no. 3: in Shanxi 山西 some peopl
+- `cal.1967-03-11.china-leadership-5`: As the Bureau for Grain reports it: 14 million people starving in Shandong 山东. → Shandong 山东: 14 million people starving.
+- `cal.1967-03.china-leadership-37`: As the Fujian 福建 military control committee counts it: troops, armed forces d → Fujian 福建, by the military control committee's count: troops, armed forces d
+- `cal.1967-03.china-leadership-41`: As Shanghai 上海 reports have it: less than half of the c → Shanghai 上海: less than half of the c
+- `cal.1967-04-06.china-leadership-5`: As the Gansu Bureau for Forestry reports it: some people's communes in Gansu 甘肃 broken up, villagers dou → Gansu 甘肃: some people's communes broken up, villagers dou
+- `cal.1967-05-02.china-leadership-4`: As a Shanghai 上海 report has it: seventy-five factories  → Shanghai 上海: seventy-five factories 
+- `cal.1967-05-12.china-leadership-4`: As a Shanghai 上海 report has it: close to a million post → Shanghai 上海: close to a million post
+- `cal.1967-05.china-leadership-29`: As a Shanghai 上海 report has it: in May the police arres → Shanghai 上海: in May the police arres
+- `cal.1967-05.china-leadership-28`: As Shanghai 上海 reports have it: across the city "railwa → Shanghai 上海: across the city "railwa
+- `cal.1967-05.china-leadership-34`: As Shaanxi 陕西 reports have it: in the spring of 1967 s → Shaanxi 陕西: in the spring of 1967 s
+- `cal.1967-06-06.china-leadership-6`: As a Guangdong 广东 report has it: some 20,000 people had  → Guangdong 广东: some 20,000 people had 
+- `cal.1967-06.china-leadership-15`: As a State Council 国务院 report has it: freight workers and lo → State Council 国务院 report: freight workers and lo
+- `cal.1967-07.china-leadership-35`: As Shanghai 上海 reports have it: more than thirty illega → Shanghai 上海: more than thirty illega
+- `cal.1967-08-03.china-leadership-10`: As a Shanghai 上海 report has it: department stores charg → Shanghai 上海: department stores charg
+- `cal.1967-08-21.china-leadership-5`: As a Jiangsu 江苏 report has it: in parts of Jiangsu vil → Jiangsu 江苏: in parts of Jiangsu vil
+- `cal.1967-08-31.china-leadership-2`: As the nianpu reports it: with the Foreign Ministry' → With the Foreign Ministry'
+- `cal.1967-08.china-leadership-47`: As Gansu 甘肃 reports have it: in Lanzhou 兰州 everyone  → Gansu 甘肃: in Lanzhou 兰州 everyone 
+- `cal.1967-08.china-leadership-48`: As Shaanxi 陕西 reports have it: in a survey of thirty c → Shaanxi 陕西: in a survey of thirty c
+- `cal.1967-09.china-leadership-16`: As Gansu 甘肃 reports have it: after Peking's recognit → Gansu 甘肃: after Peking's recognit
+- `cal.1967-10-07.china`: As Hopson reports it: in Peking 北京 posters scraped from wal → Peking 北京: posters scraped from wal
+- `cal.1967-12-11.china-leadership`: As a Shanghai 上海 report has it: seven new factories, 16 → Shanghai 上海: seven new factories, 16
+- `cal.1967-12-20.china-leadership-3`: As the Guangzhou 广州 military committee reports it: in Guangzhou 广州 whole underground factor → Guangzhou 广州: whole underground factor
+- `cal.1968-01-13.china-leadership-3`: As a Shaanxi 陕西 report has it: at the county seat of Y → Shaanxi 陕西: at the county seat of Y
+- `cal.1968.china-leadership-102`: As Chen Jian reports it: revolutionary committees s → Revolutionary committees s
+- `cal.1968.africa-2`: As Friedman reports it: a long drought in the Sahe → A long drought in the Sahe
+- `cal.1968.china-leadership-117`: As Shanghai 上海 reports have it: more than 600,000 statu → Shanghai 上海: more than 600,000 statu
+- `cal.1968-02-27.china-leadership`: As a Hubei 湖北 report has it: in Wuhan 武汉 20,000 home → Hubei 湖北: in Wuhan 武汉 20,000 home
+- `cal.1968-04-09.china-leadership-4`: As a Shanghai 上海 report has it: stickers with a warning → Shanghai 上海: stickers with a warning
+- `cal.1968-06.china`: As Cradock reports it: in Peking 北京 miniature shrines on sal → Peking 北京: miniature shrines on sal
+- `cal.1968-07.china-leadership-16`: As Hunan 湖南 reports have it: between a quarter and h → Hunan 湖南: between a quarter and h
+- `cal.1968-08.china-leadership-8`: As Ru Qi's diary of the "support the left" work has it: within a week or two of th → Within a week or two of th
+- `cal.1968-11-22.china-leadership`: As a Shanghai 上海 report has it: the China Textile Compa → Shanghai 上海: the China Textile Compa
+- `cal.1969-01-26.china-leadership`: As a Shanghai 上海 report has it: some 600 confiscated pi → Shanghai 上海: some 600 confiscated pi
+- `cal.1969.china-leadership-68`: As Chen Jian reports it, from Wang Nianyi: in 1969 China's gross indu → In 1969 China's gross indu
+- `cal.1969.soviet-union-3`: As Friedman reports it: by the end of the year SAL → By the end of the year SAL
+- `cal.1969.china-leadership-69`: As Yin Shusheng's account of the Anhui 安徽 files has it: by the spring of 1969 t → Anhui 安徽: by the spring of 1969 t
+- `cal.1969-03.china-leadership-15`: As a Shandong 山东 report has it: the coal sold to the pe → Shandong 山东: the coal sold to the pe
+- `cal.1969-04.china-leadership-24`: As the Anhui 安徽 count of April 1969 has it, by Yin Shusheng's account o → Anhui 安徽, by the count of April 1969 in Yin Shusheng's account o
+- `cal.1969-04.china-leadership-25`: As Hebei 河北 reports have it: more than 76,000 people → Hebei 河北: more than 76,000 people
+- `cal.1969-05.china-leadership-5`: As a Hebei 河北 report has it: at Shijiazhuang 石家庄 an  → Hebei 河北: at Shijiazhuang 石家庄 an 
+- `cal.1969-08.china-leadership-7`: As Chen Jian reports it: rumors spread that Moscow  → Rumors spread that Moscow 
+- `cal.1969-09-01.china-leadership-3`: As a Gansu 甘肃 report has it: private plots of more t → Gansu 甘肃: private plots of more t
+- `cal.1969-09-07.china-leadership-2`: As a Shanghai 上海 report has it: 30,000 families have ha → Shanghai 上海: 30,000 families have ha
+- `cal.1969-11.china-leadership-9`: As a Hebei 河北 report has it: tens of thousands of un → Hebei 河北: tens of thousands of un
+- `cal.1969-12.china-3`: As Garside reports it: in Shanghai 上海 booklets handed out on t → Shanghai 上海: booklets handed out on t
+- `cal.1969-12.china-2`: As Garside reports it: the war scare used to spee → The war scare used to spee
+- `cal.1969-12.china-leadership-7`: As Hebei 河北 reports have it: in the war scare some a → Hebei 河北: in the war scare some a
+- `cal.1969-12.china-4`: As British reports have it: workers, officials and sch → Workers, officials and sch

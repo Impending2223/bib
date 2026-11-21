@@ -154,15 +154,15 @@ entries:
     date: '1960-07-01'
     thread: china-leadership
     also: [china]
-    c: 'As a Foreign Ministry file has it: China has given foreign countries 4 billion yuan from 1950 to July 1960, 2.8 billion as free economic aid and 1.2 billion in loans free of interest or at low interest; most of it from 1958.'
+    c: China has given foreign countries 4 billion yuan from 1950 to July 1960, 2.8 billion as free economic aid and 1.2 billion in loans free of interest or at low interest; most of it from 1958.
     n: '[[w.dikotter-maos-great-famine]], 113. Made public: 2010. To check: Ministry of Foreign Affairs, Beijing, July 1, 1960, 102-15-1, pp. 26–39; MfAA, Berlin, July 11, 1962, A17334, pp. 89–94 (cited by [[w.dikotter-maos-great-famine]], 113 n.28a, n.28b).'
     src:
-      c: 34440c83
+      c: a78bb74a
       rows:
         - 'w.dikotter-maos-great-famine 113: all'
         - 'via w.dikotter-maos-great-famine 113 n.28a: all'
         - 'via w.dikotter-maos-great-famine 113 n.28b: all'
-    tags: [form:state, polity:prc, vis:only:prc, ok:fields-place]
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
   - id: cal.1960-07-01.china-leadership-7
     when: July 1
     date: '1960-07-01'
@@ -704,7 +704,7 @@ entries:
     date: '1960-07-04'
     thread: china-leadership
     also: [japan]
-    c: Chen Yi 陈毅 receives the whole agricultural delegation of the Japan Socialist Party, led by 竹内猛.
+    c: Chen Yi 陈毅 receives the whole agricultural delegation of the Japan Socialist Party, led by "*Zhunei Meng*" 竹内猛.
     n: '[[w.chen-yi-nianpu]], 823. The words: 上午 (823). Names: Chen Yi.'
     tags: [polity:prc, polity:japan, name:chen-yi]
     time_range:
@@ -716,9 +716,9 @@ entries:
     when: July 4
     date: '1960-07-04'
     thread: china-leadership
-    c: Chen Yi 陈毅 receives the whole Chilean agricultural delegation, led by Clodomiro Almeyda Medina 克洛多米罗·阿耳梅达·梅迪纳, with 卡斯东·卡瓦洛·德里恩 and 爱德华多·罗哈斯.
-    n: '[[w.chen-yi-nianpu]], 823. The words: 下午 (823). Names: Chen Yi.'
-    tags: [polity:prc, polity:chile, name:chen-yi]
+    c: Chen Yi 陈毅 receives the whole Chilean agricultural delegation, led by Clodomiro Almeyda Medina 克洛多米罗·阿耳梅达·梅迪纳, with *Kasidong Kawaluo Deli'en* 卡斯东·卡瓦洛·德里恩 and *Aidehuaduo Luohasi* 爱德华多·罗哈斯.
+    n: '[[w.chen-yi-nianpu]], 823. The words: 下午 (823). Names: Chen Yi, Almeyda Medina.'
+    tags: [polity:prc, polity:chile, name:chen-yi, name:almeyda-medina-clodomiro]
     time_range:
       - 1960-07-04T04:00Z
       - 1960-07-04T10:00Z
@@ -747,6 +747,13 @@ entries:
       - 1960-07-04T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-04.china-leadership-13
+    when: July 4
+    date: '1960-07-04'
+    thread: china-leadership
+    c: 'The Center''s directive on strengthening the people''s communes'' financial work 《中共中央关于加强农村人民公社财务工作的指示》: each commune a great enterprise of thousands of laborers and millions of yuan a year; thrift and democratic management, a sound system of accounts and cost-keeping.'
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 427–437 (printed from the Center''s document). Made public: 1996.'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-07-05.state-constitutions-ok
     when: July 5
     date: '1960-07-05'
@@ -909,7 +916,7 @@ entries:
     when: July 5
     date: '1960-07-05'
     thread: china-leadership
-    c: Chen Yi 陈毅 receives the whole Argentine youth delegation, led by 米盖尔·哥曼斯·贝斯西埃.
+    c: Chen Yi 陈毅 receives the whole Argentine youth delegation, led by *Migai'er Gemansi Beisixi'ai* 米盖尔·哥曼斯·贝斯西埃.
     n: '[[w.chen-yi-nianpu]], 823. The words: 下午 (823). Names: Chen Yi.'
     tags: [polity:prc, polity:argentina, name:chen-yi]
     time_range:
@@ -1428,14 +1435,21 @@ entries:
     place: sichuan
     thread: china-leadership
     also: [china]
-    c: 'As a Sichuan 四川 report has it: in several counties hundreds of villagers go berserk, talking gibberish and bursting into convulsive laughter.'
+    c: 'Sichuan 四川: in several counties hundreds of villagers go berserk, talking gibberish and bursting into convulsive laughter.'
     n: '[[w.dikotter-maos-great-famine]], 278. Made public: 2010. To check: Sichuan Provincial Archives, July 9, 1960, JC133-219, p. 106 (cited by [[w.dikotter-maos-great-famine]], 278 n.25).'
     src:
-      c: 07d6ce06
+      c: 9e3fd278
       rows:
         - 'w.dikotter-maos-great-famine 278: all'
         - 'via w.dikotter-maos-great-famine 278 n.25: all'
-    tags: [form:state, polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-07-09.china-leadership-6
+    when: July 9
+    date: '1960-07-09'
+    thread: china-leadership
+    c: The Heilongjiang committee 黑龙江省委 to the Center 中共中央, a report on consolidating the "two participations, one reform, three combinations" 两参一改三结合 and raising enterprise management 《关于巩固发展“两参一改三结合”、全面提高企业管理水平向中央的报告》, on the model of the Qinghua tool plant 庆华工具厂 of Bei'an 北安, the first to make it.
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 628–638 (printed with the Center''s directive of Oct. 4, 1960; printed from the Center''s document). Made public: 1996.'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1960-07-10.elections-1960-2
     when: July 10
     date: '1960-07-10'
@@ -1969,7 +1983,7 @@ entries:
     when: July 11
     date: '1960-07-11'
     thread: china-leadership
-    c: Chen Yi 陈毅 speaks at the reception of 沙拉布, the Mongolian Ambassador, for the 39th anniversary of the revolution; condemns American intervention against Cuba, American backing of Belgium in the Congo and of the Netherlands against Indonesia and its holding of West Irian; praises Mongolia's socialist construction.
+    c: Chen Yi 陈毅 speaks at the reception of Sharab, the Mongolian Ambassador, for the 39th anniversary of the revolution; condemns American intervention against Cuba, American backing of Belgium in the Congo and of the Netherlands against Indonesia and its holding of West Irian; praises Mongolia's socialist construction.
     n: '[[w.chen-yi-nianpu]], 824; [[w.zhu-de-nianpu-xinbian]], III, 1780 (July 11, 1960; Zhu De 朱德, with Soong Ching Ling 宋庆龄, Guo Moruo 郭沫若, Chen Shutong 陈叔通, Chen Yi 陈毅, Xi Zhongxun 习仲勋 and others, at the reception of 沙拉布, the Mongolian Ambassador, for the thirty-ninth anniversary of the Mongolian people''s revolution). The words: 下午 (824). Names: Chen Yi.'
     tags: [polity:prc, polity:mongolia, name:chen-yi]
     time_range:
@@ -2327,7 +2341,7 @@ entries:
     date: '1960-07-12'
     thread: china-leadership
     also: [south-asia]
-    c: Chen Yi 陈毅 receives five Nepalese youth and student leaders (克·普·什雷斯塔 and others); expresses regret at the recent unlucky incident on the Sino-Nepalese border and thanks Koirala for his friendly handling of it.
+    c: Chen Yi 陈毅 receives five Nepalese youth and student leaders (*Ke Pu Shileisita* 克·普·什雷斯塔 and others); expresses regret at the recent unlucky incident on the Sino-Nepalese border and thanks Koirala for his friendly handling of it.
     n: '[[w.chen-yi-nianpu]], 824. See [[cal.1960-06-30.china-leadership-2]]. The words: 下午 (824). Names: Chen Yi, Koirala.'
     tags: [polity:prc, polity:nepal, name:chen-yi, name:koirala-bisweswar-prasad]
     time_range:
@@ -2659,7 +2673,7 @@ entries:
     when: July 13
     date: '1960-07-13'
     thread: china-leadership
-    c: Chen Yi 陈毅 receives the Polish radio and television delegation, led by 索科尔斯基, chairman of the Polish Radio and Television Committee.
+    c: Chen Yi 陈毅 receives the Polish radio and television delegation, led by *Suoke'ersiji* 索科尔斯基, chairman of the Polish Radio and Television Committee.
     n: '[[w.chen-yi-nianpu]], 824. The words: 上午 (824). Names: Chen Yi.'
     tags: [polity:prc, polity:poland, name:chen-yi]
     time_range:
@@ -2695,12 +2709,15 @@ entries:
   - id: cal.1960-07-14.elections-1960
     when: July 14
     date: '1960-07-14'
+    time: 1960-07-14T17:15Z
+    time_approx: true
+    place: los-angeles
     thread: elections-1960-los-angeles
     also: [robert-kennedy]
-    c: Kennedy offers Johnson second place; Robert Kennedy to Johnson's suite that afternoon; the accounts of what he said differ. Johnson nominated by acclamation that night, the rules suspended over shouts from the galleries.
-    n: '[[w.caro-passage-of-power]], 109–43 (the accounts of the day); [[w.schlesinger-robert-kennedy-and-his]], 206–11 (Robert Kennedy''s account, and Graham''s against it); [[w.mann-walls-of-jericho]], 276–78 (the offer, about 10 a.m.; Robert Kennedy''s call; the accounts); [[w.white-making-of-the-president]], 172–77 (Kennedy to Johnson''s suite at 10:15; the labor leaders against; Johnson accepts by telephone; the decision after three); [[w.guthman-we-band-of-brothers]], 77–80 (the choice of Johnson, by Jackson''s account; Robert Kennedy''s comments on Potter''s draft, 78–79); [[w.shesol-mutual-contempt]], 48–56 (the offer; Robert Kennedy''s visits to Johnson''s suite; the accounts: Robert Kennedy''s, Connally''s, Graham''s, Rowe''s); [[w.bernstein-guns-or-butter]], 5; [[w.thomas-robert-kennedy]], 97–98 (Robert Kennedy''s account; Kennedy on the telephone with Johnson half an hour before Robert Kennedy reached his suite; Conway to Robert Kennedy: "If you do this, you''re going to fuck everything up"); [[w.white-making-of-the-president-1965]], 411–15 (by Graham''s account: Robert Kennedy with Rayburn, about 1:30; Graham to Kennedy about 2:30, "in three minutes," then "It''s all set"; Robert Kennedy back, saying there is opposition; Kennedy to Graham: "Bobby''s been out of touch"; Johnson''s statement); [[w.wofford-of-kennedys-and-kings]], 53–57 (Shriver told about 2:30 a.m. Johnson would accept; Kennedy to Johnson at ten; the liberals'' and labor''s protests in the suite; Robert Kennedy to Johnson''s suite in the early afternoon; the offer confirmed about three); [[w.odonnell-johnny-we-hardly-knew]], 216, 220–23 (after Graham''s call, Robert Kennedy to Johnson''s suite, where Rayburn and Connally were: "Do you think he might be interested in being chairman of the national committee?" Rayburn: "Shit!"; Graham to Kennedy, "Bobby''s down here telling Rayburn and Lyndon that there''s opposition"; Johnson: "If the candidate will have me, I''ll join with him in making a fight for it"; the nomination by acclamation, McCormack''s motion, 223; not the hours or the galleries); [[w.schlesinger-journals]], 75–76 (Graham''s account to Schlesinger at dinner on July 15: Kennedy called Johnson early Thursday and called on him about 10:30 without raising the ticket; after 3 o''clock he telephoned him to ask him to go on it; Robert Kennedy came to Rayburn, then into Johnson''s suite, saying Johnson would face a floor fight and should withdraw; Graham got Kennedy on the telephone, who said it was too late, his statement already released; not the nomination by acclamation); [[w.obrien-no-final-victories]], 85–86 (the nomination: to avoid a roll call, with Reuther and Governor Williams of Michigan opposed, McCormack moves to suspend the rules and nominate by voice vote, Ribicoff, with O''Brien beside him, ready if anything fails; Collins rules two-thirds needed and, to a chorus of ayes and a scattering of no''s, declares Johnson nominated by acclamation; not the offer, Robert Kennedy''s visits or the galleries). [[w.kallina-kennedy-v-nixon]], 74–79 (the offer; Robert Kennedy''s two calls on Johnson; the nomination). [[w.sorensen-kennedy]], 165–66. See [[cal.1960-07-12.elections-1960]]. Names: Kennedy, Johnson, Robert Kennedy. Check: Caro gives the voice vote in the hall about evenly divided, Rayburn calling "Say ''aye''!" (143), not shouts from the galleries. Check: Sorensen has Robert Kennedy go to Johnson at his brother''s request, and mention the National Committee chairmanship as an alternative (166).'
+    c: Kennedy offers Johnson second place; Robert Kennedy to Johnson's suite that afternoon; the accounts of what he said differ. Johnson nominated by acclamation that night, the rules suspended over shouts from the galleries. Kennedy to Johnson's suite about 10:15 a.m.; the labor leaders and liberals protest in Kennedy's. Rayburn and Connally with Johnson when Robert Kennedy comes. McCormack moves to suspend the rules; Collins rules two-thirds needed and declares Johnson nominated by acclamation.
+    n: '[[w.caro-passage-of-power]], 109–43 (the accounts of the day); [[w.schlesinger-robert-kennedy-and-his]], 206–11 (Robert Kennedy''s account, and Graham''s against it); [[w.mann-walls-of-jericho]], 276–78 (the offer, about 10 a.m.; Robert Kennedy''s call; the accounts); [[w.white-making-of-the-president]], 172–77 (Kennedy to Johnson''s suite at 10:15; the labor leaders against; Johnson accepts by telephone; the decision after three); [[w.guthman-we-band-of-brothers]], 77–80 (the choice of Johnson, by Jackson''s account; Robert Kennedy''s comments on Potter''s draft, 78–79); [[w.shesol-mutual-contempt]], 48–56 (the offer; Robert Kennedy''s visits to Johnson''s suite; the accounts: Robert Kennedy''s, Connally''s, Graham''s, Rowe''s); [[w.bernstein-guns-or-butter]], 5; [[w.thomas-robert-kennedy]], 97–98 (Robert Kennedy''s account; Kennedy on the telephone with Johnson half an hour before Robert Kennedy reached his suite; Conway to Robert Kennedy: "If you do this, you''re going to fuck everything up"); [[w.white-making-of-the-president-1965]], 411–15 (by Graham''s account: Robert Kennedy with Rayburn, about 1:30; Graham to Kennedy about 2:30, "in three minutes," then "It''s all set"; Robert Kennedy back, saying there is opposition; Kennedy to Graham: "Bobby''s been out of touch"; Johnson''s statement); [[w.wofford-of-kennedys-and-kings]], 53–57 (Shriver told about 2:30 a.m. Johnson would accept; Kennedy to Johnson at ten; the liberals'' and labor''s protests in the suite; Robert Kennedy to Johnson''s suite in the early afternoon; the offer confirmed about three); [[w.odonnell-johnny-we-hardly-knew]], 216, 220–23 (after Graham''s call, Robert Kennedy to Johnson''s suite, where Rayburn and Connally were: "Do you think he might be interested in being chairman of the national committee?" Rayburn: "Shit!"; Graham to Kennedy, "Bobby''s down here telling Rayburn and Lyndon that there''s opposition"; Johnson: "If the candidate will have me, I''ll join with him in making a fight for it"; the nomination by acclamation, McCormack''s motion, 223; not the hours or the galleries); [[w.schlesinger-journals]], 75–76 (Graham''s account to Schlesinger at dinner on July 15: Kennedy called Johnson early Thursday and called on him about 10:30 without raising the ticket; after 3 o''clock he telephoned him to ask him to go on it; Robert Kennedy came to Rayburn, then into Johnson''s suite, saying Johnson would face a floor fight and should withdraw; Graham got Kennedy on the telephone, who said it was too late, his statement already released; not the nomination by acclamation); [[w.obrien-no-final-victories]], 85–86 (the nomination: to avoid a roll call, with Reuther and Governor Williams of Michigan opposed, McCormack moves to suspend the rules and nominate by voice vote, Ribicoff, with O''Brien beside him, ready if anything fails; Collins rules two-thirds needed and, to a chorus of ayes and a scattering of no''s, declares Johnson nominated by acclamation; not the offer, Robert Kennedy''s visits or the galleries). [[w.kallina-kennedy-v-nixon]], 74–79 (the offer; Robert Kennedy''s two calls on Johnson; the nomination). [[w.sorensen-kennedy]], 165–66. See [[cal.1960-07-12.elections-1960]]. Names: Kennedy, Johnson, Robert Kennedy, Rayburn, Connally, McCormack, Collins. Check: Caro gives the voice vote in the hall about evenly divided, Rayburn calling "Say ''aye''!" (143), not shouts from the galleries. Check: Sorensen has Robert Kennedy go to Johnson at his brother''s request, and mention the National Committee chairmanship as an alternative (166).'
     src:
-      c: 608e1df6
+      c: 18d30e34
       rows:
         - 'w.caro-passage-of-power 122–23: A'
         - 'w.caro-passage-of-power 130–34: B-C'
@@ -2718,10 +2735,10 @@ entries:
         - 'w.kallina-kennedy-v-nixon 79: D'
         - 'via w.kallina-kennedy-v-nixon 78 n.72: A'
         - 'via w.kallina-kennedy-v-nixon 79 n.76: D'
-        - 'w.sorensen-kennedy 165–66: all'
+        - 'w.sorensen-kennedy 165–66: A-D'
         - 'w.mann-walls-of-jericho 276–78: A-C'
         - 'via w.mann-walls-of-jericho 276 n.on-the-morning-of-july-14: A-C'
-        - 'w.white-making-of-the-president 172–77: A-C'
+        - 'w.white-making-of-the-president 172–77: A-C, E-F'
         - 'w.guthman-we-band-of-brothers 77–80: A'
         - 'via x.1964-04.potter-draft-article-selection-of-johnson: A'
         - 'w.shesol-mutual-contempt 48–56: A'
@@ -2731,12 +2748,13 @@ entries:
         - 'via w.thomas-robert-kennedy 97 n.if-you-do-this: A-C'
         - 'via w.thomas-robert-kennedy 98 n.i-always-suspected: A-C'
         - 'w.white-making-of-the-president-1965 411–15: ?'
-        - 'via x.1960-07-19.philip-l-graham-notes-on-the: all'
-        - 'w.wofford-of-kennedys-and-kings 53–57: A-C'
-        - 'w.odonnell-johnny-we-hardly-knew 216, 220–23: A, B'
+        - 'via x.1960-07-19.philip-l-graham-notes-on-the: A-D'
+        - 'w.wofford-of-kennedys-and-kings 53–57: A-C, E-F'
+        - 'w.odonnell-johnny-we-hardly-knew 216, 220–23: A, B, D, G-H'
         - 'w.schlesinger-journals 75–76: A, B'
-        - 'w.obrien-no-final-victories 85–86: ?'
-    tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:kennedy-robert-f]
+        - 'w.obrien-no-final-victories 85–86: D, H-I'
+    tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:kennedy-robert-f, name:rayburn-sam, name:connally-john, name:mccormack-john-w, name:collins-leroy]
+    time_zone: America/Los_Angeles
   - id: cal.1960-07-14.immigration
     when: July 14
     date: '1960-07-14'
@@ -3108,7 +3126,7 @@ entries:
     when: July 14
     date: '1960-07-14'
     thread: china-leadership
-    c: Chen Yi 陈毅 receives 唐纳·加比唐, the French public figure, professor of law and economics at the University of Paris, and his wife.
+    c: Chen Yi 陈毅 receives *Tangna Jiabitang* 唐纳·加比唐, the French public figure, professor of law and economics at the University of Paris, and his wife.
     n: '[[w.chen-yi-nianpu]], 825. The words: 上午 (825). Names: Chen Yi.'
     tags: [polity:prc, polity:fr, name:chen-yi, ok:fields-place]
     time_range:
@@ -3271,6 +3289,13 @@ entries:
     c: Hanoi. The Second National Assembly's first session closes (July 7–15). Hồ Chí Minh President, Tôn Đức Thắng Vice President, Trường Chinh chairman of the Standing Committee, Phạm Văn Đồng Premier; a National Defense Council elected. Laws on the organization of the Assembly, the Council of Government, the Supreme People's Procuracy and the Supreme People's Court.
     n: '[[w.lich-su-khang-chien-chong-my]], II, 160; 152 (the law on the Council of Government). [[w.guan-vietnamese-communists-relations-with]], 151 (July 7–15; Trường Chinh chairman of the Standing Committee; Giáp elected in absentia to the Assembly''s presidium and made chairman of the National Scientific Research Commission, Trường Chinh vice-chairman). Check: the history gives the session, not the day of the elections within it. To check: FO 371/152747, DV 1016/29, 26 August 1960, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 151 n.79a); VNA, 7 July 1960, SWB/FE/381/B/1-8 (cited by [[w.guan-vietnamese-communists-relations-with]], 151 n.79b). Names: Hồ Chí Minh, Tôn Đức Thắng, Trường Chinh, Phạm Văn Đồng.'
     tags: [polity:drv, name:ho-chi-minh, name:ton-duc-thang, name:truong-chinh, name:pham-van-dong]
+  - id: cal.1960-07-15.china-leadership-4
+    when: July 15
+    date: '1960-07-15'
+    thread: china-leadership
+    c: 'Li Fuchun 李富春 and Bo Yibo 薄一波, "Main measures for industrial and transport output in the third quarter of 1960" 《关于一九六〇年第三季度工业交通生产中的主要措施》: to reverse the fall in the main products since the second quarter; the "loose" and "scattered" in industrial management to end; capital construction cut, output kept; steel, iron, coal and transport pushed up.'
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 498–511 (printed with the Center''s approval of Aug. 5, 1960; printed from the Center''s document). Made public: 1996. Names: Li Fuchun, Bo Yibo.'
+    tags: [polity:prc, vis:only:prc, name:li-fuchun, name:bo-yibo]
   - id: cal.1960-07-16.democratic-party
     when: July 16
     date: '1960-07-16'
@@ -3376,6 +3401,13 @@ entries:
         - 'w.chen-yun-nianpu-xiuding III, 40: ?'
     tags: [name:khrushchev-nikita-s]
     short: the Soviet experts recalled
+  - id: cal.1960-07-16.china-leadership-3
+    when: July 16
+    date: '1960-07-16'
+    thread: china-leadership
+    c: '*Jiankang bao* 健康报, an editorial: the "comprehensive quick therapy" 综合快速疗法 for chronic illness the fruit of applying Mao''s "On Contradiction" 矛盾论 in theory and practice.'
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 218 (the Propaganda Department''s report of Feb. 23, 1961, which names it among the faults in the propaganda of Mao Zedong Thought). To check: *Jiankang bao*, July 16, 1960.'
+    tags: [polity:prc]
   - id: cal.1960-07-18.cuba
     when: July 17–18
     date: '1960-07-17'
@@ -4122,7 +4154,7 @@ entries:
     date: '1960-07-22'
     thread: china-leadership
     c: Zhou Enlai, with Liu Shaoqi, Soong Ching-ling, Deng Xiaoping, Chen Yi and Lu Dingyi, attends the opening of the Third National Congress of Writers and Artists.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 334 (July 22, 1960); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 22, 1960; Liu, with Zhou Enlai and Zhu De, attends the opening and receives the presidium); [[w.yang-shangkun-riji]], I, 528 (July 22, 1960; 3 to 5:30 p.m.; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1567 (July 22, 1960; afternoon; Deng, with Liu Shaoqi, Zhou Enlai, Zhu De, Soong Ching-ling and others, at the opening); [[w.chen-yi-nianpu]], 825 (July 22, 1960, afternoon; Chen Yi at the opening of the Third Congress of Writers and Artists); [[w.peng-zhen-nianpu-1902]], IV, 47 (July 22, 1960, afternoon; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Zhu De, Song Qingling, Deng Xiaoping and others, at the opening; with them receives the presidium); [[w.zhu-de-nianpu-xinbian]], III, 1780 (July 22, 1960; Zhu De 朱德, with Liu Shaoqi, Zhou Enlai, Soong Ching Ling, Deng Xiaoping, Peng Zhen, Chen Yi, Lu Dingyi and others, at the opening of the Third Congress of Chinese Writers and Artists 中国文学艺术工作者第三次代表大会). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Chen Yi, Lu Dingyi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 334 (July 22, 1960); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 491 (July 22, 1960; Liu, with Zhou Enlai and Zhu De, attends the opening and receives the presidium); [[w.yang-shangkun-riji]], I, 528 (July 22, 1960; 3 to 5:30 p.m.; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1567 (July 22, 1960; afternoon; Deng, with Liu Shaoqi, Zhou Enlai, Zhu De, Soong Ching-ling and others, at the opening); [[w.chen-yi-nianpu]], 825 (July 22, 1960, afternoon; Chen Yi at the opening of the Third Congress of Writers and Artists); [[w.peng-zhen-nianpu-1902]], IV, 47 (July 22, 1960, afternoon; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Zhu De, Song Qingling, Deng Xiaoping and others, at the opening; with them receives the presidium); [[w.zhu-de-nianpu-xinbian]], III, 1780 (July 22, 1960; Zhu De 朱德, with Liu Shaoqi, Zhou Enlai, Soong Ching Ling, Deng Xiaoping, Peng Zhen, Chen Yi, Lu Dingyi and others, at the opening of the Third Congress of Chinese Writers and Artists 中国文学艺术工作者第三次代表大会); [[w.jianguo-yilai-zhongyao-wenxian]], XIII, 438–493 (Zhou Yang''s 周扬 report to the congress on its opening day, "The road of our socialist literature and art" 我国社会主义文学艺术的道路, July 22, 1960, in full, printed from the *Renmin ribao* of Sept. 4, 1960). Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Chen Yi, Lu Dingyi.'
     src:
       c: fd1d4e91
       rows:
@@ -4133,6 +4165,7 @@ entries:
         - 'w.chen-yi-nianpu 825: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 47: ?'
         - 'w.zhu-de-nianpu-xinbian III, 1780: ?'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIII, 438–493: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, name:chen-yi, name:lu-dingyi]
     time_range:
       - 1960-07-22T04:00Z
@@ -4888,6 +4921,20 @@ entries:
     c: Zhu De 朱德 leaves Peking 北京 for Beidaihe 北戴河 and the Central Work Conference 中共中央工作会议.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1780. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1960-07-24.china-leadership-8
+    when: July 24
+    date: '1960-07-24'
+    place: yilong
+    thread: china-leadership
+    c: 'Yilong 仪陇, night. Zhou Yi 周颐 reports by telephone, in a report the Sichuan committee 四川省委 sends on to the Center, on rural labor and the "three antis" at Nanbu 南部 and Yilong, which he passed through that day 《关于南部、仪陇两地农村劳动力问题和“三反”情况的电话报告》: labor drawn off the fields into commune plants, service trades and grain stations, cadres'' kin placed there; after the clearing, in one management district of Jianxing 建兴, Nanbu, farm labor up from 56 to 76 percent.'
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 547–550 (printed with the Center''s directive of Aug. 20, 1960; printed from the Center''s document). Made public: 1996.'
+    tags: [polity:prc, vis:only:prc]
+    time_band: night
+    time_zone: Asia/Shanghai
+    time_range:
+      - 1960-07-24T14:00Z
+      - 1960-07-24T16:00Z
+    range_basis: record
   - id: cal.1960-07-25.elections-1960
     when: July 25
     date: '1960-07-25'
@@ -5410,7 +5457,7 @@ entries:
     date: '1960-07-26'
     thread: china-leadership
     also: [japan]
-    c: 'Chen Yi 陈毅 receives four Japanese delegations: the China Research Institute''s 中国研究所, led by Hirano Yoshitarō 平野义太郎; the national metal miners'' union''s, led by 泽田政治; the National Relief Association''s 国民救援会, led by 冈本光雄; the fishery workers'', led by 笠原千鹤; the Japanese people''s just struggle heartens the world; the imperialists'' charge that China "instigates" their anti-American struggle a fabrication.'
+    c: 'Chen Yi 陈毅 receives four Japanese delegations: the China Research Institute''s 中国研究所, led by Hirano Yoshitarō 平野义太郎; the national metal miners'' union''s, led by "*Zetian Zhengzhi*" 泽田政治; the National Relief Association''s 国民救援会, led by "*Gangben Guangxiong*" 冈本光雄; the fishery workers'', led by "*Liyuan Qianhe*" 笠原千鹤; the Japanese people''s just struggle heartens the world; the imperialists'' charge that China "instigates" their anti-American struggle a fabrication.'
     n: '[[w.chen-yi-nianpu]], 826–827. Names: Chen Yi.'
     tags: [polity:prc, polity:japan, name:chen-yi]
   - id: cal.1960-07-26.china-leadership-6
@@ -6281,11 +6328,12 @@ entries:
     date: '1960-07-30'
     thread: china-leadership
     c: Qi Yanming 齊燕銘, deputy secretary-general of the State Council 國務院, reports on giving senior cadres and senior intellectuals in Peking 北京 a favored supply of non-staple foods.
-    n: '[[w.yang-jisheng-mubei]], II, 1171 (the book''s chronology). Made public: 2008. To check: Qi Yanming, "Report on giving consideration to senior cadres and senior intellectuals in Peking in the supply of non-staple foods," July 30, 1960 (named by [[w.yang-jisheng-mubei]], II, 1171; no note). Check: Qi''s title is the calendar''s ([[cal.1960-03-14.china-leadership-5]]), not the book''s.'
+    n: '[[w.yang-jisheng-mubei]], II, 1171 (the book''s chronology); [[w.jianguo-yilai-zhongyao-wenxian]], XIII, 684–686 (the report in extract, dated July 30, 1960, as the Center sent it out Nov. 9, under the title 《齐燕铭关于对在京高级干部和高级知识分子在副食品供应方面给予照顾问题的报告》: three classes of special supply, the first a jin of meat a day for each household, six jin of eggs, two of sugar and two cartons of first-grade cigarettes a month; printed from the Center''s document). Made public: 1996 ([[w.jianguo-yilai-zhongyao-wenxian]], XIII, 684–686, in extract).'
     src:
       c: e681e0e7
       rows:
         - 'w.yang-jisheng-mubei II, 1171: all'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIII, 684–686: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1960-07-30.vietnam-hanoi
     when: July 30
@@ -6301,7 +6349,7 @@ entries:
     when: July 30
     date: '1960-07-30'
     thread: china-leadership
-    c: Chen Yi 陈毅 speaks at the banquet of 叫温, the Burmese Ambassador, for Aung Gyi's 昂季 delegation to the boundary commission's second session; praises the friendly and sincere attitude of both countries' leaders and delegations in the talks.
+    c: Chen Yi 陈毅 speaks at the banquet of *Jiao Wen* 叫温, the Burmese Ambassador, for Aung Gyi's 昂季 delegation to the boundary commission's second session; praises the friendly and sincere attitude of both countries' leaders and delegations in the talks.
     n: '[[w.chen-yi-nianpu]], 827. See [[cal.1960-07-23.china-leadership-3]]. The words: 晚上 (827). Names: Chen Yi, Aung Gyi.'
     tags: [polity:prc, polity:burma, name:chen-yi, name:aung-gyi]
     time_range:
@@ -6456,8 +6504,8 @@ entries:
     place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the convention. Two Puerto Rican delegations seek the Credentials Committee''s approval: Luis Muñoz Marín''s, for Johnson, and José Benítez''s, allied with Kennedy. Sorensen mediates: every member of both given a seat on the floor and a half vote, committed to Kennedy.'
-    n: '[[w.sorensen-counselor]], 183–84 (Sorensen''s account, written in 2008; Muñoz Marín''s delegation on the advice of Fortas and Porter; "An excellent compromise"; not the committee''s action or the day). Names: Sorensen, Johnson, Kennedy. Check: the day.'
-    tags: [name:sorensen-theodore-c, name:kennedy-john-f, name:johnson-lyndon-b]
+    n: '[[w.sorensen-counselor]], 183–84 (Sorensen''s account, written in 2008; Muñoz Marín''s delegation on the advice of Fortas and Porter; "An excellent compromise"; not the committee''s action or the day). Names: Sorensen, Johnson, Kennedy, Muñoz Marín. Check: the day.'
+    tags: [name:sorensen-theodore-c, name:kennedy-john-f, name:johnson-lyndon-b, name:munoz-marin-luis]
   - id: cal.1960-07.vietnam-hanoi-2
     when: July, late
     date: 1960-07

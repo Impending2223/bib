@@ -1337,10 +1337,13 @@ warn   cal.thread.elections-1972: statement: an untagged sentence names a year a
 warn   cal.thread.elections-1976: statement: an untagged sentence names a year and shows on every page the thread is on: "The 1976 nominations: the primaries, Feb. 24 to June 8 (CQ's returns), and the conventions"  [statements]
 warn   cal.thread.march-on-washington: statement: an untagged sentence names a year and shows on every page the thread is on: 'The March on Washington for Jobs and Freedom, Aug. 28, 1963, and its planning.'  [statements]
 warn   cal.1961-04-24.china-leadership-7: '100,000 to 320,000': W to L without its share: add ", p percent"  [result-form]
+warn   cal.1961-04-22.china-leadership: c names 'Prince Souphanouvong', Souphanouvong, without the tag name:souphanouvong: add it, and the name to 'Names:' (the names op), or tag ok:name-untagged  [name-untagged]
+warn   cal.1961-04-25.china-leadership-2: c names 'Prince Sihanouk', Norodom Sihanouk, without the tag name:norodom-sihanouk: add it, and the name to 'Names:' (the names op), or tag ok:name-untagged  [name-untagged]
+warn   cal.1961-08-21.china-leadership-2: c names 'Ung Văn Khiêm', Ưng Văn Khiêm, without the tag name:ung-van-khiem: add it, and the name to 'Names:' (the names op), or tag ok:name-untagged  [name-untagged]
 warn   notes/state-sources.md: stale against sources/states.yaml: rerun python3 tools/sources/make_listing.py  [state-sources]
 warn   sources/witnesses: 172 roots do not say why (`open` blank): each reader fills them for the entries it touches (memo §5)  [witnesses]
 warn   lists/cal/: 17 entries with a source in the note and no row for it  [claims]
-warn   lists/cal/: 3 entries with a unit no source covers  [claims]
+warn   lists/cal/: 4 entries with a unit no source covers  [claims]
 warn   lists/cal/: 195 rows not yet mapped to units (`?`: the note's parenthetical, to be turned into letters)  [claims]
 warn   cal.1961-04-01.laos: vis:only:ussr+drv: no such polity drv, ussr (sources/polities.yaml)  [vis]
 warn   cal.1961-04-01.china-leadership: vis:only:prc: no such polity prc (sources/polities.yaml)  [vis]
@@ -1645,7 +1648,7 @@ warn   cal.1961-08.china: vis:only:prc: no such polity prc (sources/polities.yam
 warn   cal.1961-08.china-leadership: vis:only:prc: no such polity prc (sources/polities.yaml)  [vis]
 warn   cal.1961-08.china-leadership-3: vis:only:prc: no such polity prc (sources/polities.yaml)  [vis]
 warn   cal.1961-08-31.china-leadership-3: vis:only:prc: no such polity prc (sources/polities.yaml)  [vis]
-warn   lists/cal/: 837 of 2,359 claims (363 entries) with no computable tag, the placeholder US:all (e.g. cal.1961-04-01.civil-rights-the-executive, cal.1961-04-01.civil-rights-the-executive-2, cal.1961-04-01.defense; `./bib show ID`)  [vis]
+warn   lists/cal/: 837 of 2,348 claims (363 entries) with no computable tag, the placeholder US:all (e.g. cal.1961-04-01.civil-rights-the-executive, cal.1961-04-01.civil-rights-the-executive-2, cal.1961-04-01.defense; `./bib show ID`)  [vis]
 warn   cal.1961-04-04.berlin-and-vienna: name:acheson-dean-g: no polity in sources/polities.yaml (names; python3 -I tools/vis/seed.py adds it)  [vis]
 warn   cal.1961-04-13.elections-1960-chicago: name:adamowski-benjamin-s: no polity in sources/polities.yaml (names; python3 -I tools/vis/seed.py adds it)  [vis]
 warn   cal.1961-04-13.european-community: name:adenauer-konrad: no polity in sources/polities.yaml (names; python3 -I tools/vis/seed.py adds it)  [vis]
@@ -2038,6 +2041,6 @@ warn   lists/cal/196108.yaml:4618: a Public Papers link whose page is no item's 
 warn   lists/cal/196108.yaml:4812: a Public Papers link whose page is no item's first page: https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=642  [ppp-app]
 warn   lists/cal/th.yaml: threads out of alphabetical order at 'China: Leadership'  [thread-order]
 warn   cal.1961-04-28.vietnam: 'Diem' without its diacritics (sources/name-forms.yaml, VIET_PLACES)  [diacritics]
-698 errors, 1342 warnings
+698 errors, 1345 warnings
 
 --- exit 1

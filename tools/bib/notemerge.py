@@ -24,7 +24,7 @@ from . import store
 ITEM =(r"\[\[w\.[^\]]+\]\](?:,[^;.\[\]()]*(?:\.[^;\s][^;.\[\]()]*)*)?(?: \((?:[^()]|\([^()]*\))*\))?")
 CARD = re.compile(r"\[\[(w\.[^\]|]+)")
 # a sentence ends at ". " before a capital, a bracket, a quotation or an asterisk; abbreviations kept by a short list
-ABBR = re.compile(r"(?:\b(?:v|Jan|Feb|Mar|Apr|Aug|Sept|Oct|Nov|Dec|Pub|Rec|Cong|Res|Rep|Doc|No|Nos|Stat|Op|Att|Gen|Sess|Mr|"
+ABBR = re.compile(r"(?:\b(?:v|Jan|Feb|Mar|Apr|Aug|Sept|Oct|Nov|Dec|Pub|Rec|Cong|Res|Rep|Doc|No|Nos|no|nos|Stat|Op|Att|Gen|Sess|Mr|"
                   r"Dr|St|Jr|Sr|Ft|Mt|vol|vols|ed|eds|pt|doc|docs|p|pp|n|nn|ch|sec|art|cl|U\.S|D\.C|N\.Y|"
                   r"[A-Z]))$")
 
@@ -63,8 +63,14 @@ def _sentences(n):
     return tuple(out)
 
 
+# An item that opens on a bare pinpoint ("doc. [170](…)", "pp. 3–4") is the rest of the cite before it: "FRUS
+# 1961–63, IV, docs. 167, 169; doc. 170" is one cite (the owner, Nov. 21, 2026)
+PIN_ONLY = re.compile(r"^(?:docs?|nos?|pp?|vols?|nn?|chs?|pts?|§§?)\.?\s*[\[\d]")
+
+
 def items(s):
-    """A sentence's top-level items (split at semicolons outside brackets and parentheses)."""
+    """A sentence's top-level items (split at semicolons outside brackets and parentheses; an item that is only a
+    pinpoint kept with the cite before it, PIN_ONLY)."""
     out, depth, cur = [], 0, ""
     for ch in s:
         depth += (ch in "([") - (ch in ")]")
@@ -73,7 +79,17 @@ def items(s):
             cur = ""
         else:
             cur += ch
-    return [x for x in out + [cur.strip()] if x]
+    joined = []
+    for x in out + [cur.strip()]:
+        # the cite a bare pinpoint continues: the nearest before it that is not a work's card ("FRUS ..., doc. 127;
+        # [[w.x]], 854–55; doc. 119": doc. 119 is FRUS's, never the card's, whose pinpoint it would break)
+        host = next((i for i in range(len(joined) - 1, -1, -1) if not CARD.match(joined[i].strip())), None) \
+            if x and PIN_ONLY.match(x) else None
+        if host is not None:
+            joined[host] += "; " + x
+        elif x:
+            joined.append(x)
+    return joined
 
 
 def card(x):

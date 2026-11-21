@@ -278,9 +278,20 @@ def test_other_renderers_drop(monkeypatch):
     e = {"id": "cal.x", "date": "1961-04-01", "when": "Apr. 1", "thread": "t", "tags": ["form:state"],
          "c": "Yang Shangkun 杨尚昆 in Hangzhou 杭州.", "n": "Names: Yang Shangkun."}
 
-    class L:
+    class S:
+        entries = [e]
+
+    class L:                            # a calendar of one entry, no thread index (chron.sort reads walk, threads)
+        key = "cal"
+
         def entries(self):
             return [(None, e)]
+
+        def walk(self):
+            return [S]
+
+        def threads(self):
+            return {}
     monkeypatch.setattr(calsplit, "half_of_date", lambda lst, d: 1)
     monkeypatch.setattr(calsplit, "href", lambda lst, h, i: "cal.html#x")
     out = standing.register_html(L(), lambda l, t: t, lambda l, t: t)

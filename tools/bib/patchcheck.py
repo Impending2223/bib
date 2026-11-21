@@ -50,6 +50,9 @@ STYLE
     leaves unheld; a tag the tree already left unheld is not the patch's. The lives cache is cleared before each
     build (the series has changed under it); who the series held before is built only for a patch with an op
     outside the calendar.
+14. A person `c` names without his `name:` tag, on each calendar entry the patch adds or edits, as the dry run leaves
+    it: check's [name-untagged] (tools/bib/nametags.py), a warning; on an edited entry only what the edit brings
+    (a finding the entry had before is the tree's). Fixed by the `names` op, or silenced by `ok:name-untagged`.
 """
 import collections
 import os
@@ -191,6 +194,7 @@ def check(series, path, legacy=False):
     dbefore = set(dayorder.problems(series))              # follower of an entry the patch moves or deletes)
     nbefore = name_tags(lst)                              # STYLE 13: the calendar's name tags, and who the series
     kbefore = person_keys(series) if people_ops(ops, lst) else None   # held where the patch may change it (Part III)
+    ubefore = untagged_before(series, ops, lst)          # STYLE 14: the edited entries as they stood
     rep = merge.Report()
     merge.apply_patch(series, d, name, rep, dry=True)
     addops.join_clean(series, name, save=False)          # as the rolling merge will join them
@@ -207,6 +211,7 @@ def check(series, path, legacy=False):
             errors.append(f"{eid}: {msg}")
     errors += [f"{w}: {m} [day-order]" for w, m in sorted(set(dayorder.problems(series)) - dbefore)]
     errors += name_tag_errors(series, lst, nbefore, kbefore)  # STYLE 13
+    warnings += untagged_warnings(series, ops, lst, ubefore)  # STYLE 14
     for l in rep.lines:
         if l.startswith("error"):
             msg = l.split(None, 1)[1]
@@ -248,7 +253,7 @@ def person_keys(series):
     from . import lives
     if not os.path.isdir(os.path.join(store.ROOT, "congress")):
         return None
-    for k in ("people", "everyone", "frus-alias", "frus-union"):
+    for k in ("people", "everyone", "frus-alias", "frus-union", "name-untagged", "name-untagged-chars"):
         lives._CACHE.pop(k, None)
     return {lives.key_of(p["name"]) for p in lives.everyone(series)} | set(lives._CACHE.get("frus-alias", {}))
 
@@ -267,6 +272,51 @@ def name_tag_errors(series, lst, before, kbefore=None):
     bad = {(i, t) for i, t in after if t[5:] not in keys} - {(i, t) for i, t in before if t[5:] not in kb}
     return [f"{i}: tag {t} names no person (a name entry's key, or leave the person in c untagged) [name-tag]"
             for i, t in sorted(bad)]
+
+
+def cal_ids(ops, lst, kinds=("add", "edit")):
+    """The calendar entries (not threads) the patch adds or edits, by kind: {id: kind}."""
+    out = {}
+    if lst is None:
+        return out
+    for op in ops:
+        if isinstance(op, dict) and len(op) == 1:
+            (kind, body), = op.items()
+            body = body if isinstance(body, dict) else {}
+            eid = str(body.get("id") or (body.get("entry") or {}).get("id") or "")
+            if kind in kinds and eid.startswith(f"{lst.key}.") and not eid.startswith(f"{lst.key}.thread."):
+                out.setdefault(eid, kind)
+    return out
+
+
+def untagged_before(series, ops, lst):
+    """STYLE 14: copies of the entries the patch edits, as they stand before it."""
+    import copy
+    out = {}
+    for eid, kind in cal_ids(ops, lst).items():
+        hit = series.get(eid) if kind == "edit" else None
+        if hit:
+            out[eid] = copy.deepcopy(hit[2])
+    return out
+
+
+def untagged_warnings(series, ops, lst, before):
+    """STYLE 14: check's [name-untagged] on the calendar entries the patch adds or edits, as the dry run left them;
+    an edited entry's findings it had before are not the patch's. None in a tree without the people's sources."""
+    from . import nametags
+    ids = cal_ids(ops, lst)
+    ents = [series.get(i)[2] for i in ids if series.get(i)]
+    if not ents or person_keys_ready(series) is None:
+        return []
+    _, names = nametags.table(series)
+    old = {(i, k) for i, k, _ in nametags.findings(series, list(before.values()))}
+    return [f"{i}: {nametags.message(k, w, names)} [{nametags.RULE}]"
+            for i, k, w in nametags.findings(series, ents) if (i, k) not in old]
+
+
+def person_keys_ready(series):
+    """Whether the people's sources are in the tree (a test's may lack them): lives.everyone can be built."""
+    return True if os.path.isdir(os.path.join(store.ROOT, "congress")) else None
 
 
 def fields_problems(series, ops, path=None):

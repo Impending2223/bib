@@ -2,6 +2,12 @@ patch: 2026-11-21-b15b-buweihua-6
 by: Claude (batch 15b, Bu Weihua, *Zalan jiu shijie* (2008), run 6), Nov. 21, 2026
 ops:
   - edit:
+      id: cal.1966-11.china-leadership-4
+      base: afee8bb4
+      set:
+        when: Nov. 8
+        date: '1966-11-08'
+  - edit:
       id: cal.1966-08-27.china-leadership-6
       base: a9b01240
       set:
@@ -26,7 +32,7 @@ ops:
         gloss:
           title: Estimates
           text:
-            - Bu Weihua puts at 4,922 the cultural relics and old sites of Peking destroyed of the 6,843 the survey of 1958 had kept, most of them in August and September 1966, with over two hundred old buildings pulled down ([[w.pu-weihua-zalan-jiu-shijie]], 234). By an incomplete count he gives from Zhao Xuexun 趙學勳 (1985), 117 tons of metal relics were later saved from the copper smelters and over 320 tons of books and papers from the paper mills, and 185,000 paintings and calligraphies, 2,357,000 volumes of old books and 538,000 other relics were picked out at the depots of confiscated goods ([[w.pu-weihua-zalan-jiu-shijie]], 235, 235 n.70).
+            - Bu Weihua puts at 4,922 the cultural relics and old sites of Peking destroyed of the 6,843 the survey of 1958 had kept, most of them in August and September 1966, with over two hundred old buildings pulled down ([[w.pu-weihua-zalan-jiu-shijie]], 234). By an incomplete count he gives from Zhao Xuexun 赵学勋 (1985), 117 tons of metal relics were later saved from the copper smelters and over 320 tons of books and papers from the paper mills, and 185,000 paintings and calligraphies, 2,357,000 volumes of old books and 538,000 other relics were picked out at the depots of confiscated goods ([[w.pu-weihua-zalan-jiu-shijie]], 235, 235 n.70).
   - edit:
       id: cal.1966-08-16.china-leadership-4
       base: 32c67e21
@@ -58,7 +64,7 @@ ops:
         date: '1966-08-27'
         place: peking
         thread: china-leadership
-        c: 'Peking 北京. Jiang Qing 江青, at the founding meeting of the Capital Colleges'' Red Guard Headquarters 首都大专院校红卫兵司令部 (the First Headquarters 一司), with Xie Fuzhi 谢富治, Yang Chengwu 杨成武, Liu Zhijian 刘志坚 and Wang Dongxing 汪东兴 present: she comes herself and believes the Cultural Revolution Group 中央文革小组 backs them too; she proposes Yang Chengwu and Liu Zhijian as their advisers, and gives them a task: to help the People''s Liberation Army guard Zhongnanhai 中南海, the Great Hall 大会堂 and the Diaoyutai 钓鱼台.'
+        c: 'Peking 北京. Jiang Qing 江青, at the founding meeting of the Capital Colleges'' Red Guard Headquarters 首都大专院校红卫兵司令部 (the First Headquarters 一司), with Xie Fuzhi 谢富治, Yang Chengwu 杨成武, Liu Zhijian 刘志坚 and Wang Dongxing 汪东兴 present: she comes herself and believes the Cultural Revolution Group 中央文革小组 backs them too; she proposes Yang Chengwu and Liu Zhijian as their advisers, and gives them a task: to help the People''s Liberation Army 人民解放军 guard Zhongnanhai 中南海, the Great Hall 大会堂 and the Diaoyutai 钓鱼台.'
         n: '[[w.pu-weihua-zalan-jiu-shijie]], 224. The words: 我个人参加你们的大会; 协助人民解放军保护中南海、大会堂、钓鱼台 (224); the founding 昨天下午 (224, the Mining Institute Red Guards'' words of Aug. 28). See [[cal.1966-08-27.china-leadership-6]]. Names: Jiang Qing, Xie Fuzhi.'
         src:
           rows:
@@ -103,11 +109,11 @@ ops:
         place: peking
         thread: china-leadership
         c: 'Peking 北京. Kang Sheng 康生 receives the Peking Mining Institute''s 北京矿业学院 Mao Zedong Thought Red Guards 毛泽东思想红卫兵. Of the First Headquarters 一司: neither the Center 中央 nor the city committee 市委 knew of it beforehand; inquiry after the fact shows a few dozen schools set it up themselves. The Red Guards put three points: they do not recognize the headquarters founded the afternoon before; a general headquarters to be founded anew; failing that, they will ask Mao 毛泽东 directly. Kang: those that have not joined may found one of their own.'
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 224. The words: 我们中央、市委事前也不晓得; 没有加入的,你们重新成立一个 (224). See [[cal.1966-08-28.china-leadership-13]]. Names: Kang Sheng.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 224. The words: 我们中央、市委事前也不晓得; 没有加入的,你们重新成立一个 (224). See [[cal.1966-08-28.china-leadership-13]]. Names: Kang Sheng, Mao Zedong.'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 224: all'
-        tags: [polity:prc, name:kang-sheng]
+        tags: [polity:prc, name:kang-sheng, name:mao-zedong]
   - cite:
       id: cal.1966-09-05.china-leadership-8
       item: '[[w.pu-weihua-zalan-jiu-shijie]], 224–225 (forty-eight bodies of forty-eight colleges, over 11,000; Zhou Taian 周太安 of People''s University, son of the Navy''s deputy commander Zhou Xihan 周希汉, acting commander; very few minority bodies in it, Beihang''s Red Flag among them, the majority bodies overwhelming, called by the rebels the "royalist headquarters"; Jiang Qing, Xie Fuzhi, Yang Chengwu, Liu Zhijian and Wang Dongxing at its founding meeting, Jiang and Liu speaking; Yang Chengwu and Liu Zhijian its advisers)'
@@ -328,7 +334,7 @@ ops:
         date: '1966-08-20'
         place: taiyuan
         thread: china-leadership
-        c: Taiyuan 太原, the May First Square 五一广场. The Shanxi committee 中共山西省委 holds a rally of 150,000 "to carry the Cultural Revolution deeper", the heads of the committee, the provincial people's council 省人委, the military district and the troops in Shanxi attending, and announces a preparatory leading body for the province's Red Guards, to lead the Red Guard movement.
+        c: Taiyuan 太原, the May First Square 五一广场. The Shanxi committee 中共山西省委 holds a rally of 150,000, the "rally to celebrate the Cultural Revolution" 欢庆文化大革命大会, the heads of the committee, the provincial people's council 省人委, the military district and the troops in Shanxi attending, and announces a preparatory leading body for the province's Red Guards, to lead the Red Guard movement.
         n: '[[w.pu-weihua-zalan-jiu-shijie]], 227.'
         src:
           rows:
@@ -428,7 +434,7 @@ ops:
         date: '1966-09-03'
         place: canton
         thread: china-leadership
-        c: Canton 广州, the Sun Yat-sen Memorial Hall 中山纪念堂. The city's first Red Guard congress, the chief officers of the Central-South Bureau 中南局, the Guangdong committee, the Canton committee, the Canton forces and the Guangdong Military District attending, adopts the "Red Guard Declaration" 《红卫兵宣言》.
+        c: Canton 广州, the Sun Yat-sen Memorial Hall 中山纪念堂. The city's first Red Guard congress, the chief officers of the Central-South Bureau 中南局, the Guangdong committee 广东省委, the Canton committee 广州市委, the Canton forces 广州部队 and the Guangdong Military District 广东省军区 attending, adopts the "Red Guard Declaration" 《红卫兵宣言》.
         n: '[[w.pu-weihua-zalan-jiu-shijie]], 228.'
         src:
           rows:
@@ -552,7 +558,7 @@ ops:
   - cite:
       id: cal.1966-08-19.china
       item: '[[w.pu-weihua-zalan-jiu-shijie]], 230–231, 230 n.63 (the leaflet of the Peking No. 2 Middle School 北京二中 Red Guards, "Last ultimatum: declaring war on the old world" 〈最后通牒——向旧世界宣战〉, put up in the city''s streets on Aug. 17: barbers, tailors, photographers and second-hand bookshops serving the bourgeoisie no exception; "jet" haircuts, cowboy trousers and shirts and Hong Kong-style dresses, yellow photographs and books; the trousers to be cut to shorts, high heels to flat)'
-      units: A, B
+      units: A
   - variant:
       id: cal.1966-08-19.china
       unit: A
@@ -605,12 +611,12 @@ ops:
         at: after 1966-08-19
         place: peking
         thread: china-leadership
-        c: 'Peking 北京. Red Guards rename streets, shops, factories and schools: Chang''an Avenue 长安街 East Is Red Avenue 东方红大路; Dongjiaominxiang 东交民巷 Anti-Imperialism Road 反帝路; Xijiaominxiang and Wangfujing 王府井 Anti-Revisionism Road 反修路; Guanghua Road 光华路, the seat of the Democratic Republic of Vietnam''s embassy, Aid Vietnam Road 援越路; the Wangfujing Department Store, the Peking Department Store; the Dong''an Market 东安市场, the East Wind Market 东风市场; the Peking Union Medical College Hospital 协和医院, the Anti-Imperialism Hospital; the Tongren Hospital 同仁医院, the Workers, Peasants and Soldiers Hospital. In Zhongnanhai 中南海 Zhou Enlai''s 周恩来 Xihua Hall 西花厅 is renamed the "Facing the Sun Hall" 向阳厅.'
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 231–232.'
+        c: 'Peking 北京. Red Guards rename streets, shops, factories and schools: Chang''an Avenue 长安街 East Is Red Avenue 东方红大路; Dongjiaominxiang 东交民巷 Anti-Imperialism Road 反帝路; Xijiaominxiang and Wangfujing 王府井 Anti-Revisionism Road 反修路; Guanghua Road 光华路, the seat of the Democratic Republic of Vietnam''s embassy, Aid Vietnam Road 援越路; the Wangfujing Department Store, the Peking Department Store; the Dong''an Market 东安市场, the East Wind Market 东风市场; the Peking Union Medical College Hospital 协和医院, the Anti-Imperialism Hospital 反帝医院; the Tongren Hospital 同仁医院, the Workers, Peasants and Soldiers Hospital 工农兵医院. In Zhongnanhai 中南海 Zhou Enlai''s 周恩来 Xihua Hall 西花厅 is renamed the "Facing the Sun Hall" 向阳厅.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 231–232. Names: Zhou Enlai.'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 231–232: all'
-        tags: [polity:prc]
+        tags: [polity:prc, name:zhou-enlai]
   - add:
       entry:
         id: cal.1966-08-31.china-leadership-15
@@ -699,7 +705,7 @@ ops:
         date: '1966-08-24'
         place: peking
         thread: china-leadership
-        c: Peking 北京, Dongdan Santiao 东单三条. Red Guards of a dozen middle schools, with the direct backing of the Cultural Revolution Group 中央文革 and the public security organs, burst into the Franciscan Missionaries of Mary's convent 玛利亚方济格修女会 and demand the expulsion of the "Roman nuns" spying "under religion's cloak."
+        c: Peking 北京, Dongdan Santiao 东单三条. Red Guards of a dozen middle schools, with the direct backing of the Cultural Revolution Group 中央文革 and the public security organs 公安机关, burst into the Franciscan Missionaries of Mary's convent 玛利亚方济格修女会 and demand the expulsion of the "Roman nuns" spying "under religion's cloak."
         n: '[[w.pu-weihua-zalan-jiu-shijie]], 232.'
         src:
           rows:
@@ -757,7 +763,7 @@ ops:
         when: Aug. 31
         date: '1966-08-31'
         thread: china-leadership
-        c: Eight foreign nuns of the Franciscan convent in Peking, escorted by the police and Red Guards, are driven out across China's border.
+        c: Eight foreign nuns of the Franciscan convent in Peking 北京, escorted by the police and Red Guards, are driven out across China's border.
         n: '[[w.pu-weihua-zalan-jiu-shijie]], 233. See [[cal.1966-08-28.china-leadership-15]].'
         src:
           rows:
@@ -1172,11 +1178,10 @@ ops:
         place: jiaozuo
         thread: china-leadership
         c: Jiaozuo 焦作, Henan. In the four olds the Zhongzhan district 中站区 grain bureau stops the September grain of the "five categories" and their families; three neighborhoods of Zhongzhan confiscate the grain-and-oil books of twenty-six households of them, 119 people, stopping 3,104 jin of grain.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 237, 237 n.74; [[w.zhonggong-jiaozuo-lishi-dashiji]], 198 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 237 n.74). Made public: 1996 ([[w.zhonggong-jiaozuo-lishi-dashiji]]).'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 237, 237 n.74. Made public: 1996 ([[w.zhonggong-jiaozuo-lishi-dashiji]]). To check: [[w.zhonggong-jiaozuo-lishi-dashiji]], 198 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 237 n.74).'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 237: all'
-            - 'w.zhonggong-jiaozuo-lishi-dashiji 198: all'
         tags: [polity:prc, vis:only:prc]
   - cite:
       id: cal.1966-08-27.china-leadership-3
@@ -1185,12 +1190,6 @@ ops:
   - cite:
       id: cal.1966-11.china-leadership-4
       item: '[[w.pu-weihua-zalan-jiu-shijie]], 237–238 (Nov. 8 to Dec. 6: Tan Houlan''s Peking Normal University Jinggangshan Red Guards at Qufu, by the Cultural Revolution Group''s instruction, with Red Guards of some local schools; they send the State Council a letter of protest at its listing of the Confucius Temple among the national key relics in 1958)'
-  - variant:
-      id: cal.1966-11.china-leadership-4
-      unit: A
-      witness: w.pu-weihua-zalan-jiu-shijie
-      reads: Nov. 8 to Dec. 6, at the Cultural Revolution Group's instruction
-      at: '237'
   - cite:
       id: cal.1966-11.china-leadership-5
       item: '[[w.pu-weihua-zalan-jiu-shijie]], 237–238 (in about a month they destroy a Ming statue of Confucius, two great tablets, six graves of the Kong family dug up, over forty steles, seventeen clay statues and a great many paintings, books and genealogies; the grave of Kong Lingyi 孔令贻, Confucius''s seventy-sixth descendant, opened and the corpse thrown out; the Duke of Zhou''s temple nearby damaged)'
@@ -1241,7 +1240,7 @@ ops:
         date: '1968-01-08'
         place: peking
         thread: china-leadership
-        c: 'Peking 北京, the Peking Geological Institute 北京地质学院. The rebels'' "liaison station for smashing the revisionist high-salary system" 砸烂修正主义高薪制度联络站, with the Red Guard headquarters'' approval, cancels the high salaries of the institute''s "capitalist roaders" and "reactionary academic authorities": they are to live on no more than Peking''s lowest standard, 25 yuan, their families on no more than its middling, 18 yuan.'
+        c: 'Peking 北京, the Peking Geological Institute 北京地质学院. The rebels'' "liaison station for smashing the revisionist high-salary system" 砸烂修正主义高薪制度联络站, with the Red Guard headquarters'' approval, cancels the high salaries of the institute''s "capitalist roaders" and "reactionary academic authorities": they are to live on no more than Peking''s lowest standard, 12.5 yuan, their families on no more than its middling, 18 yuan.'
         n: '[[w.pu-weihua-zalan-jiu-shijie]], 238, 238 n.75.'
         src:
           rows:
@@ -1255,26 +1254,24 @@ ops:
         date: '1966'
         at: before 1966-09
         thread: china-leadership
-        c: Bao Huiseng 包惠僧, a delegate to the Party's First Congress, out of the Party since the 1920s, a counsellor of the State Council since 1949, beaten with sticks in the four olds 破四旧, has his children burn all the hundred-odd letters Chen Duxiu 陈独秀 wrote him from 1920, which he had mounted and bound as *Chen Zhongfu xiansheng yimo* 《陈仲甫先生遗墨》.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 239, 239 n.76; [[w.mingren-chenfu-lu]], 39 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 239 n.76). Made public: 1992 ([[w.mingren-chenfu-lu]]).'
+        c: Bao Huiseng 包惠僧, a delegate to the Party's First Congress 中共第一次全国代表大会, out of the Party since the 1920s, a counsellor of the State Council 国务院参事室 since 1949, beaten with sticks in the four olds 破四旧, has his children burn all the hundred-odd letters Chen Duxiu 陈独秀 wrote him from 1920, which he had mounted and bound as *Chen Zhongfu xiansheng yimo* 《陈仲甫先生遗墨》.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 239, 239 n.76. Made public: 1992 ([[w.mingren-chenfu-lu]]). To check: [[w.mingren-chenfu-lu]], 39 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 239 n.76).'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 239: all'
-            - 'w.mingren-chenfu-lu 39: all'
         tags: [polity:prc, vis:only:prc]
   - add:
       entry:
-        id: cal.1966-12.china-leadership-33
-        when: Dec., before his death
-        date: 1966-12
-        at: before 1966-12-21
+        id: cal.1966.china-leadership-125
+        when: 1966, before his suicide in December
+        date: '1966'
+        at: before 1966-12
         thread: china-leadership
-        c: 'Zhou Xiaozhou 周小舟, once Hunan''s first secretary, branded a member of the anti-Party clique at Lushan in 1959, from 1962 vice-president of the Central-South branch of the Academy of Sciences 中国科学院中南分院, burns the historical relics he had collected all his life, weeping aloud: "this is the real crime."'
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 239, 239 n.77; [[w.mao-zedong-he-ta-1993]], 207 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 239 n.77). Made public: 1993 ([[w.mao-zedong-he-ta-1993]]).'
+        c: 'Zhou Xiaozhou 周小舟, once Hunan''s first secretary, branded a member of the anti-Party clique 反党集团 at the Lushan meeting 庐山会议 in 1959, from 1962 vice-president of the Central-South branch of the Academy of Sciences 中国科学院中南分院, burns the historical relics he had collected all his life, weeping aloud: "this is the real crime."'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 239, 239 n.77. Made public: 1993 ([[w.mao-zedong-he-ta-1993]]). To check: [[w.mao-zedong-he-ta-1993]], 207 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 239 n.77).'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 239: all'
-            - 'w.mao-zedong-he-ta-1993 207: all'
         tags: [polity:prc, vis:only:prc, ok:fields-place]
   - add:
       entry:
@@ -1283,7 +1280,7 @@ ops:
         date: 1966-12
         thread: china-leadership
         c: Zhou Xiaozhou 周小舟, persecuted since the Cultural Revolution began, kills himself.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 239, 239 n.77. To check: [[w.mao-zedong-he-ta-1993]], 207 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 239 n.77). See [[cal.1966-12.china-leadership-33]].'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 239, 239 n.77. To check: [[w.mao-zedong-he-ta-1993]], 207 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 239 n.77). See [[cal.1966.china-leadership-125]].'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 239: all'
@@ -1348,7 +1345,6 @@ ops:
   - cite:
       id: cal.1966-10-14.china-leadership-3
       item: '[[w.pu-weihua-zalan-jiu-shijie]], 240, 243, 243 n.87a (397,400 "ox-demons and snake-spirits" driven from the cities, Aug. 23 to Oct. 3, by the count of the Central Work Conference''s fourth reference paper (240); 85,198 driven from Peking to their native places in August and September 1966 (243, from *Dangdai Zhongguo de Beijing*, I, 168))'
-      units: B
   - variant:
       id: cal.1966-10-14.china-leadership-3
       unit: A
@@ -1411,7 +1407,7 @@ ops:
         when: Aug.
         date: 1966-08
         thread: china-leadership
-        c: 'Xie Fuzhi 谢富治, at a forum of the public security chiefs of Gansu, Shaanxi, Hubei, Peking and other provinces and cities: whether Red Guards who beat people to death should be held? "If they kill, they kill; we do not take it up"; such cases are not to be handled by the rules as criminal cases; to detain or arrest those who beat is an error.'
+        c: 'Xie Fuzhi 谢富治, at a forum of the public security chiefs 公安局长 of Gansu 甘肃, Shaanxi 陕西, Hubei 湖北, Peking and other provinces and cities: whether Red Guards who beat people to death should be held? "If they kill, they kill; we do not take it up"; such cases are not to be handled by the rules as criminal cases; to detain or arrest those who beat is an error.'
         n: '[[w.pu-weihua-zalan-jiu-shijie]], 241. The words: 打死了就打死了,我们根本不管 (241); the date, "at the time" 当时 (241). Made public: 2008. See [[cal.1966-08-26.china-leadership-9]]. Names: Xie Fuzhi.'
         src:
           rows:
@@ -1432,11 +1428,11 @@ ops:
         tags: [polity:prc]
   - cite:
       id: cal.1966-08-13.china-leadership-5
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 241, 241 n.83 (Aug. 13: with the new Peking committee''s consent the middle-school Red Guards hold a rally of 100,000 at the Workers'' Stadium against five "hooligans," after a Red Guard of No. 47 Middle School was stabbed on Aug. 2; some Red Guards, against the organizers, rush up and belt them; Zhou Enlai''s speech of Sept. 20, 1967 (241 n.83): a rally of 10,000 Wang Renzhong organized in August 1966, the youths under eighteen bent and beaten before the crowd)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 241, 241 n.83 (Aug. 13: with the new Peking committee''s consent the middle-school Red Guards hold a rally of 100,000 at the Workers'' Stadium against five "hooligans," after a Red Guard of No. 47 Middle School was stabbed on Aug. 2; some Red Guards, against the organizers, rush up and belt them; Zhou Enlai''s speech of Sept. 20, 1967 (241 n.83): a rally of 100,000 Wang Renzhong organized in August 1966, the youths under eighteen bent and beaten before the crowd)'
       units: A
   - variant:
       id: cal.1966-08-13.china-leadership-5
-      unit: A
+      unit: B
       witness: w.pu-weihua-zalan-jiu-shijie
       reads: a rally of 100,000 of the middle-school Red Guards against five "hooligans"
       at: '241'
@@ -1534,12 +1530,11 @@ ops:
         at: after 1966-09-21
         place: peking
         thread: china-leadership
-        c: Peking 北京. By the count of *Dangdai Zhongguo de Beijing* 《当代中国的北京》 (1989), 85,198 people are driven back to their native places by the Red Guards in August and September 1966, and 114,000 households have their homes searched.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 243, 243 n.87a; [[w.dangdai-zhongguode-beijing-contemporary]], I, 168 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 243 n.87a). See [[cal.1966-10-14.china-leadership-3]].'
+        c: Peking 北京. By the count of *Dangdai Zhongguo de Beijing* 《当代中国的北京》 (1989), 114,000 households have their homes searched by the Red Guards in August and September 1966.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 243, 243 n.87a. To check: [[w.dangdai-zhongguode-beijing-contemporary]], I, 168 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 243 n.87a). See [[cal.1966-10-14.china-leadership-3]] (the 85,198 sent back from Peking, by the same count).'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 243: all'
-            - 'w.dangdai-zhongguode-beijing-contemporary I, 168: all'
         tags: [polity:prc]
         gloss:
           title: Estimates
@@ -1553,20 +1548,18 @@ ops:
         place: shanghai
         thread: china-leadership
         c: Shanghai 上海. By the incomplete count of the *Zhonggong Shanghai dangzhi* 《中共上海党志》 (2001), from Aug. 23 to Sept. 25, 1966, over 157,700 households in the city have their homes searched, 6.5 percent of all; some again and again; almost none of the former industrialists and merchants escapes.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 243, 243 n.87b; [[w.zhonggong-shanghai-dangzhi]], 755 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 243 n.87b). See [[cal.1966-08-23.china-leadership-5]].'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 243, 243 n.87b. To check: [[w.zhonggong-shanghai-dangzhi]], 755 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 243 n.87b). See [[cal.1966-08-23.china-leadership-5]].'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 243: all'
-            - 'w.zhonggong-shanghai-dangzhi 755: all'
         tags: [polity:prc]
         gloss:
           title: Estimates
           text:
             - 'By other local gazetteers Bu Weihua lists, the households whose homes were searched: Suzhou 64,056; Wuhan 21,000; Kunming 1,749; Chuansha county, Shanghai, over 7,800; Putuo district, Shanghai, 5,363; a county of Zhejiang over 8,000; the Jiangcheng Hani and Yi autonomous county, Yunnan, 565; Weihai, Shandong, 273 of the business and cultural circles alone; a commune of Jiangsu 308; Qingcun commune of Fengxian county, Shanghai, 315 ([[w.pu-weihua-zalan-jiu-shijie]], 243 n.87).'
-            - Estimates. Over 80,000 people of Shanghai were sent away by force to other places, by the count of *Zhongguo gongchandang zai Shanghai 80 nian* ([[w.zhongguo-gongchandang-zai-shanghai]], 645, cited by [[w.pu-weihua-zalan-jiu-shijie]], 255 n.109).
   - cite:
       id: cal.1966-08-23.china-leadership-8
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 234, 243–244, 264 n.88–89 (Aug. 23, afternoon: Red Guards of the Peking half-work, half-study printing school and other schools pile the opera costumes and props gathered at the city Culture Bureau in the four olds in the courtyard of the Confucius Temple at the Guozijian and burn them (234); the rebels of the city Culture Bureau and the Federation, with rebel students of Peking University and the Girls'' No. 8 Middle School, drag out some twenty or thirty: Zhao Dingxin 赵鼎新, the bureau''s head, Lao She, Xiao Jun 萧军, Luo Binji 骆宾基, Duanmu Hongliang 端木蕻良, the actors Xun Huisheng 荀慧生 and Hou Xirui 侯喜瑞; placarded, taken by two trucks to the Confucius Temple at the Guozijian, made to kneel before the fire of books and costumes and beaten for three hours (Xiao Jun''s account in Wang Youqin, 227); then brought back to the Federation and struggled again, Lao She belted by girl students on the steps (Yang Mo''s diary, written up three months later); a writer denounces him for taking American money (Cao Ming, by Hao Ran))'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 234, 243–244, 244 n.88–89 (Aug. 23, afternoon: Red Guards of the Peking half-work, half-study printing school and other schools pile the opera costumes and props gathered at the city Culture Bureau in the four olds in the courtyard of the Confucius Temple at the Guozijian and burn them (234); the rebels of the city Culture Bureau and the Federation, with rebel students of Peking University and the Girls'' No. 8 Middle School, drag out some twenty or thirty: Zhao Dingxin 赵鼎新, the bureau''s head, Lao She, Xiao Jun 萧军, Luo Binji 骆宾基, Duanmu Hongliang 端木蕻良, the actors Xun Huisheng 荀慧生 and Hou Xirui 侯喜瑞; placarded, taken by two trucks to the Confucius Temple at the Guozijian, made to kneel before the fire of books and costumes and beaten for three hours (Xiao Jun''s account in Wang Youqin, 227); then brought back to the Federation and struggled again, Lao She belted by girl students on the steps (Yang Mo''s diary, written up three months later); a writer denounces him for taking American money (Cao Ming, by Hao Ran))'
       units: A
   - add:
       entry:
@@ -1575,11 +1568,11 @@ ops:
         date: '1966-08-23'
         place: peking
         thread: china-leadership
-        c: Peking 北京. Lao She 老舍 is taken to the public security bureau after the beatings, let go home only at midnight, and told to come back to his office next day for more "criticism."
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 264–265. The words: 当晚 … 半夜才获准回家 (264). See [[cal.1966-08-23.china-leadership-8]].'
+        c: Peking 北京. Lao She 老舍 is taken to the public security bureau 公安局 after the beatings, let go home only at midnight, and told to come back to his office next day for more "criticism."
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 244–245. The words: 当晚 … 半夜才获准回家 (244). See [[cal.1966-08-23.china-leadership-8]].'
         src:
           rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 264–265: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 244–245: all'
         tags: [polity:prc]
         follows:
           - cal.1966-08-23.china-leadership-8
@@ -1595,11 +1588,11 @@ ops:
         date: '1966-08-24'
         place: peking
         thread: china-leadership
-        c: Peking 北京. Hao Ran's 浩然 rebel body goes with others to Lao She's 老舍 house early in the morning to "rebel" and put up posters; Lao She, who left home that morning, does not go to his office.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 265, 264 n.89. The words: 第二天一早 (265). To check: [[w.wo-de-rensheng]] (cited by [[w.pu-weihua-zalan-jiu-shijie]], 264 n.89). See [[cal.1966-08-23.china-leadership-26]].'
+        c: Peking 北京. Hao Ran's 浩然 rebel body goes with others to Lao She's 老舍 house early in the morning to "rebel" and put up posters.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 245, 244 n.89. The words: 第二天一早 (245). To check: [[w.wo-de-rensheng]] (cited by [[w.pu-weihua-zalan-jiu-shijie]], 244 n.89). See [[cal.1966-08-23.china-leadership-26]]; Lao She, gone from home that morning: [[cal.1966-08-24.china-leadership-7]].'
         src:
           rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 265: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 245: all'
         tags: [polity:prc]
         time_range:
           - 1966-08-23T22:00Z
@@ -1608,7 +1601,7 @@ ops:
         time_zone: Asia/Shanghai
   - cite:
       id: cal.1966-08-24.china-leadership-7
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 265 (he leaves home the morning of Aug. 24 and does not go to his office; his body is found on the morning of Aug. 25 in the Taiping Lake 太平湖, West City)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 245 (he leaves home the morning of Aug. 24 and does not go to his office; his body is found on the morning of Aug. 25 in the Taiping Lake 太平湖, West City)'
   - add:
       entry:
         id: cal.1966-08-25.china-leadership-23
@@ -1617,10 +1610,10 @@ ops:
         place: peking
         thread: china-leadership
         c: Peking 北京. Lao She's 老舍 body is found in the Taiping Lake 太平湖, West City.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 265. The words: 8月25日早晨 (265). See [[cal.1966-08-24.china-leadership-7]].'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 245. The words: 8月25日早晨 (245). See [[cal.1966-08-24.china-leadership-7]].'
         src:
           rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 265: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 245: all'
         tags: [polity:prc]
         time_range:
           - 1966-08-24T22:00Z
@@ -1629,14 +1622,14 @@ ops:
         time_zone: Asia/Shanghai
   - cite:
       id: cal.1966-08-27.china-leadership-7
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 265, 265 n.90 (Aug. 28: the police, on a report that the family of the old woman Li Xiurong 李秀蓉 is moving its property, call in Red Guards of No. 38 Middle School to search the house; all are beaten; her grandson Huang Ruiwu 黄瑞五, her granddaughter Huang Weiyan 黄玮琰 and the manservant of twelve years die that day)'
-      units: A, B
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 245, 245 n.90 (Aug. 28: the police, on a report that the family of the old woman Li Xiurong 李秀蓉 is moving its property, call in Red Guards of No. 38 Middle School to search the house; all are beaten; her grandson Huang Ruiwu 黄瑞五, her granddaughter Huang Weiyan 黄玮琰 and the manservant of twelve years die that day)'
+      units: A
   - variant:
       id: cal.1966-08-27.china-leadership-7
       unit: C
       witness: w.pu-weihua-zalan-jiu-shijie
       reads: three die on the 28th, Huang Ruiwu, his sister Huang Weiyan and the manservant; Li Xiurong's daughter Chen Yurun 陈玉润 two days later; Li Xiurong, eighty, a few days after
-      at: '265'
+      at: '245'
   - add:
       entry:
         id: cal.1966-08-30.china-leadership-14
@@ -1644,11 +1637,11 @@ ops:
         date: '1966-08-30'
         place: peking
         thread: china-leadership
-        c: Peking 北京. Chen Yurun 陈玉润, Li Xiurong's 李秀蓉 daughter, beaten by Red Guards of No. 38 Middle School at 20 Dahongluochang South Lane on the 28th, dies.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 265, 265 n.90. The words: 两天后 (265). To check: Li Xiang 李相, 〈北京大紅羅廠南巷20號駭人一幕——五人死於紅衛兵之手〉, *Nanfang zhoumo* 《南方周末》, Mar. 31, 2000 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 265 n.90). See [[cal.1966-08-27.china-leadership-7]].'
+        c: Peking 北京. Chen Yurun 陈玉润, Li Xiurong's 李秀蓉 daughter, beaten by Red Guards of No. 38 Middle School 三十八中 at 20 Dahongluochang South Lane 大红罗厂南巷 on the 28th, dies.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 245, 245 n.90. The words: 两天后 (245). To check: Li Xiang 李相, 〈北京大紅羅廠南巷20號駭人一幕——五人死於紅衛兵之手〉, *Nanfang zhoumo* 《南方周末》, Mar. 31, 2000 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 245 n.90). See [[cal.1966-08-27.china-leadership-7]].'
         src:
           rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 265: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 245: all'
             - 'via x.2000-03-31.li-xiang-beijing-dahongluochang-ershihao-xuean-nanfang-zhoumo: all'
         tags: [polity:prc]
   - add:
@@ -1660,22 +1653,22 @@ ops:
         place: peking
         thread: china-leadership
         c: Peking 北京. Li Xiurong 李秀蓉, eighty, who saw her grandson, granddaughter and daughter beaten to death by Red Guards, dies of the shock.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 265, 265 n.90. The words: 几天以后 (265). See [[cal.1966-08-30.china-leadership-14]].'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 245, 245 n.90. The words: 几天以后 (245). See [[cal.1966-08-30.china-leadership-14]].'
         src:
           rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 265: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 245: all'
             - 'via x.2000-03-31.li-xiang-beijing-dahongluochang-ershihao-xuean-nanfang-zhoumo: all'
         tags: [polity:prc]
   - cite:
       id: cal.1966-08-24.china-leadership-6
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 265 (Aug. 25: in a house search by junior Red Guards of the Girls'' No. 15 Middle School in Chongwen district, the "capitalist" Li Wenbo wounds a Red Guard with a kitchen knife and is beaten to death on the spot)'
-      units: A, B
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 245 (Aug. 25: in a house search by junior Red Guards of the Girls'' No. 15 Middle School in Chongwen district, the "capitalist" Li Wenbo wounds a Red Guard with a kitchen knife and is beaten to death on the spot)'
+      units: A
   - variant:
       id: cal.1966-08-24.china-leadership-6
       unit: E
       witness: w.pu-weihua-zalan-jiu-shijie
       reads: beaten to death on the spot
-      at: '265'
+      at: '245'
   - add:
       entry:
         id: cal.1966-08.china-leadership-90
@@ -1684,46 +1677,52 @@ ops:
         at: after 1966-08-25
         thread: china-leadership
         c: Zhou Enlai 周恩来, by repeated persuasion, stops the rally of 100,000 the Red Guards demand, after Li Wenbo's 李文波 death, to try his wife in public for the capitalists' "class revenge."
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 265, 265 n.91. To check: 周恩來在國慶籌備動員大會上的講話 (Sept. 20, 1967) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 265 n.91). See [[cal.1966-08-24.china-leadership-6]]. Names: Zhou Enlai.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 245, 245 n.91. Made public: 1967 (Zhou''s speech at the mobilization meeting for the National Day preparations, Sept. 20, 1967). To check: 周恩來在國慶籌備動員大會上的講話 (Sept. 20, 1967) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 245 n.91). See [[cal.1966-08-24.china-leadership-6]]. Names: Zhou Enlai.'
         src:
           rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 265: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 245: all'
             - 'via x.1967-09-20.zhou-enlai-speech-national-day-preparation-mobilization: all'
         tags: [polity:prc, vis:only:prc, name:zhou-enlai]
   - cite:
       id: cal.1967-09-20.china-leadership-2
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 241 n.83, 265 n.91 (in the speech: the bad habit of beating, from Peking; the rally of 10,000 Wang Renzhong organized in August 1966 to try young "hooligans" in public, bent and beaten on the stage; two later rallies of 100,000 stopped, one to try a counter-revolutionary''s widow)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 241 n.83, 245 n.91 (in the speech: the bad habit of beating, from Peking; the rally of 100,000 Wang Renzhong organized in August 1966 to try young "hooligans" in public, bent and beaten on the stage; two later rallies of 100,000 stopped, one to try a counter-revolutionary''s widow)'
   - cite:
       id: cal.1966-08.china-leadership-24
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 265, 265 n.92 (in Peking''s city districts the killings are worst in the last week of August, 840 dead; in the suburban counties from Aug. 29 to Sept. 1, 684; 1,772 in August and September (the Peking party chronology, 224))'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 245, 245 n.92 (in Peking''s city districts the killings are worst in the last week of August, 840 dead; in the suburban counties from Aug. 29 to Sept. 1, 684; 1,772 in August and September (the Peking party chronology, 224))'
       units: A
   - cite:
       id: cal.1966-08-29.china-leadership-14
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 265 n.92 (the dead in Peking day by day, from Wang Youqin''s count (224): Aug. 24, 44; 25, 86; 26, 125; 27, 228; 28, 184; 29, 200; 30, 224; 31, 145; Sept. 1, 282; 2, 39; 3, 24; 4, 21; 5, 13; 6, 8; 7, 7; 8, 5; 9, 4; 10, 2; after the 11th, 20 with known dates; 88 of unknown date)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 245 n.92 (the dead in Peking day by day, from Wang Youqin''s count (224): Aug. 24, 44; 25, 86; 26, 125; 27, 228; 28, 184; 29, 200; 30, 224; 31, 145; Sept. 1, 282; 2, 39; 3, 24; 4, 21; 5, 13; 6, 8; 7, 7; 8, 5; 9, 4; 10, 2; after the 11th, 20 with known dates; 88 of unknown date)'
+  - variant:
+      id: cal.1966-08-29.china-leadership-14
+      unit: A
+      witness: w.pu-weihua-zalan-jiu-shijie
+      reads: 125 dead on Aug. 26, by Wang Youqin's count as Bu gives it from her *Wenge shounanzhe*, 224
+      at: 245 n.92
   - variant:
       id: cal.1966-09-01.china-leadership-11
       unit: B
       witness: w.pu-weihua-zalan-jiu-shijie
-      reads: 282 on Sept. 1, by Wang Youqin's count as the Peking party chronology and Bu give it
-      at: 265 n.92
+      reads: 282 on Sept. 1, by Wang Youqin's daily count as Bu gives it from her *Wenge shounanzhe*, 224
+      at: 245 n.92
   - cite:
       id: cal.1966-09-01.china-leadership-11
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 265 n.92 (Sept. 1: 282 dead in Peking, the highest of the daily counts)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 245 n.92 (Sept. 1: 282 dead in Peking, the highest of the daily counts)'
       units: A
   - cite:
       id: cal.1966-08-26.china-leadership-6
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 266 (Aug. 26: the Daxing county public security bureau''s meeting relays Xie Fuzhi''s speech at the city bureau''s enlarged meeting: do not be bound by the rules of the past; "if the masses beat people to death, I am not for it, but ... we cannot stop them, so do not force it"; the police to stand with the Red Guards and tell them of the "five categories"; the rumor that the commune, county, city and Zhou Enlai all back the killing)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 246 (Aug. 26: the Daxing county public security bureau''s meeting relays Xie Fuzhi''s speech at the city bureau''s enlarged meeting: do not be bound by the rules of the past; "if the masses beat people to death, I am not for it, but ... we cannot stop them, so do not force it"; the police to stand with the Red Guards and tell them of the "five categories"; the rumor that the commune, county, city and Zhou Enlai all back the killing)'
       units: A
   - cite:
       id: cal.1966-08-31.china-leadership-6
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 266 (from Aug. 27 to Sept. 1 thirteen communes and forty-eight brigades of Daxing kill 325 of the "four categories" and their families, the oldest eighty, the youngest thirty-eight days, twenty-two households wiped out; the Daxinzhuang commune worst, dozens killed on Aug. 31 alone, a well filled with corpses; the killing stopped only when Ma Li came to the county)'
-      units: A
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 246 (from Aug. 27 to Sept. 1 thirteen communes and forty-eight brigades of Daxing kill 325 of the "four categories" and their families, the oldest eighty, the youngest thirty-eight days, twenty-two households wiped out; the Daxinzhuang commune worst, dozens killed on Aug. 31 alone, a well filled with corpses; the killing stopped only when Ma Li came to the county)'
+      units: B, C
   - cite:
       id: cal.1966-09-01.china-leadership-12
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 266 (Ma Li, secretary of the city committee, goes to Daxing and stops it)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 246 (Ma Li, secretary of the city committee, goes to Daxing and stops it)'
   - cite:
       id: cal.1966-09-02.china-leadership-6
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 266, 266 n.93 (Sept. 2: the Peking committee''s "urgent notice" to stop the killings in town and country: the Party committees, the people''s councils'' Party groups and the public security to stop every killing; giving out lists of "hooligans" for struggle forbidden, on pain of discipline; the lists of the five categories not to be given to the masses)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 246, 246 n.93 (Sept. 2: the Peking committee''s "urgent notice" to stop the killings in town and country: the Party committees, the people''s councils'' Party groups and the public security to stop every killing; giving out lists of "hooligans" for struggle forbidden, on pain of discipline; the lists of the five categories not to be given to the masses)'
       units: A
   - cite:
       id: cal.1966-08-30.china-leadership-9
@@ -1733,31 +1732,31 @@ ops:
       add: 張連和 (so the note), 〈五進馬村勸停殺〉, in [[w.nage-niandai-zhong-de]], I, 399–403 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 248 n.95a); 遇羅文, 〈大興屠殺調查〉, *Xin yusi* (www.xys.org) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 248 n.95b).
   - cite:
       id: cal.1966-08-20.china-leadership-3
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 269, 269 n.97 (Aug. 20: Mao on the *Jiefangjun bao* editors'' office''s *Wenhua dageming qingkuang jianbao* no. 109, which Lin Biao forwards: "Seen. A very good thing ... exposes the ox-demons completely"; "No wonder: this can strike out a road, good for the masses")'
-      units: A
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 249, 249 n.97 (Aug. 20: Mao on the *Jiefangjun bao* editors'' office''s *Wenhua dageming qingkuang jianbao* no. 109, which Lin Biao forwards: "Seen. A very good thing ... exposes the ox-demons completely"; "No wonder: this can strike out a road, good for the masses")'
+      units: A, B, C
   - cite:
       id: cal.1966-08.china-leadership-36
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 269, 269 n.98 (one day at the height of the four olds Mao calls Wu De to report; Wu De, hoping to check it, says the city committee cannot control the disorder; Mao, slowly: nobody had touched the old remnants of several dynasties in Peking; the four olds have touched them, "that is good too" (Wu De, 2004, 27))'
-      units: A
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 249, 249 n.98 (one day at the height of the four olds Mao calls Wu De to report; Wu De, hoping to check it, says the city committee cannot control the disorder; Mao, slowly: nobody had touched the old remnants of several dynasties in Peking; the four olds have touched them, "that is good too" (Wu De, 2004, 27))'
+      units: A, B, C
   - cite:
       id: cal.1966-07-21.china-leadership
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 269 n.96 (July 21: Mao, on the draft "The situation of the Great Proletarian Cultural Revolution and some questions of the Party''s policy," the forerunner of the Sixteen Points, changes "the Cultural Revolution is to make every work better, more, faster, cheaper" to "is to revolutionize men''s thought, and so make every work better, more, faster, cheaper" (the *Wengao*, XII, 83))'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 249 n.96 (July 21: Mao, on the draft "The situation of the Great Proletarian Cultural Revolution and some questions of the Party''s policy," the forerunner of the Sixteen Points, changes "the Cultural Revolution is to make every work better, more, faster, cheaper" to "is to revolutionize men''s thought, and so make every work better, more, faster, cheaper" (the *Wengao*, XII, 83))'
   - cite:
       id: cal.1966-08-23.china-leadership-3
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 270 (Aug. 23: the front-page headline "The tide of the Great Proletarian Cultural Revolution sweeps the capital''s streets," and two editorials, "Excellent!" 〈好得很〉 and "Workers, peasants and soldiers must firmly support the revolutionary students": in a few days the Red Guards'' iron brooms have swept away the names and customs of the exploiting classes)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 250 (Aug. 23: the front-page headline "The tide of the Great Proletarian Cultural Revolution sweeps the capital''s streets," and two editorials, "Excellent!" 〈好得很〉 and "Workers, peasants and soldiers must firmly support the revolutionary students": in a few days the Red Guards'' iron brooms have swept away the names and customs of the exploiting classes)'
   - cite:
       id: cal.1966-08-29.china-leadership-6
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 270 (Aug. 29: the editorial "Salute our Red Guards": the old customs swept out like rubbish; the bloodsuckers dragged out one by one, their hidden gold and silver, "change-of-heaven accounts" and weapons shown to the public)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 250 (Aug. 29: the editorial "Salute our Red Guards": the old customs swept out like rubbish; the bloodsuckers dragged out one by one, their hidden gold and silver, "change-of-heaven accounts" and weapons shown to the public)'
   - cite:
       id: cal.1966-08-31.china-leadership-8
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 270–271, 271 n.100 (Aug. 31, at Mao''s second reception of the teachers, students and Red Guards come to Peking: the Red Guards "take to the streets and sweep away the four olds"; the struggle-criticize-reform of the schools has gone out into society; Mao read and approved the speech beforehand)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 250–251, 251 n.100 (Aug. 31, at Mao''s second reception of the teachers, students and Red Guards come to Peking: the Red Guards "take to the streets and sweep away the four olds"; the struggle-criticize-reform of the schools has gone out into society; Mao read and approved the speech beforehand)'
       units: A
   - cite:
       id: cal.1966-09-15.china-leadership
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 271, 271 n.101 (Sept. 15, Lin Biao at the third reception, in Tiananmen Square: "Red Guard fighters ... your revolutionary actions have shaken the whole society ... you have done right and done well"; the speech read and approved by Mao beforehand)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 251, 251 n.101 (Sept. 15, Lin Biao at the third reception, in Tiananmen Square: "Red Guard fighters ... your revolutionary actions have shaken the whole society ... you have done right and done well"; the speech read and approved by Mao beforehand)'
   - cite:
       id: cal.1966-09-25.china-leadership-5
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 271–272, 271 n.102 (Sept. 25: Ye Jianying, with Qi Benyu and Xie Tangzhong, receiving delegates of teachers and students of art academies and troupes: the Red Guards'' "immortal merit"; Peking''s ten thousand "black households" no one had entered in sixteen years; a convent primary school foreigners ran for years; "the little generals ... whatever the law ... swept it all away"; it may break a little policy, but the greater gain is to sweep away bad men)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 251–252, 251 n.102 (Sept. 25: Ye Jianying, with Qi Benyu and Xie Tangzhong, receiving delegates of teachers and students of art academies and troupes: the Red Guards'' "immortal merit"; Peking''s ten thousand "black households" no one had entered in sixteen years; a convent primary school foreigners ran for years; "the little generals ... whatever the law ... swept it all away"; it may break a little policy, but the greater gain is to sweep away bad men)'
   - add:
       entry:
         id: cal.1966-08-24.china-leadership-19
@@ -1766,18 +1765,18 @@ ops:
         place: shanghai
         thread: china-leadership
         c: 'Shanghai 上海. The Shanghai committee 上海市委, while backing the Red Guards'' four olds 破四旧, gives ten oral rules: no house searches; no damage to public property; no dealings with foreign nationals; no taking off shoes or cutting trousers in the streets; no stopping cars at will; no burning of archives; books and pictures to be protected, and others.'
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 272 n.103. To check: [[w.zhonggong-shanghai-dangzhi]] (cited by [[w.pu-weihua-zalan-jiu-shijie]], 272 n.103). Made public: 2001 ([[w.zhonggong-shanghai-dangzhi]]).'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 252 n.103. To check: [[w.zhonggong-shanghai-dangzhi]] (cited by [[w.pu-weihua-zalan-jiu-shijie]], 252 n.103). Made public: 2001 ([[w.zhonggong-shanghai-dangzhi]]).'
         src:
           rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 272 n.103: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 252 n.103: all'
         tags: [polity:prc, vis:only:prc]
   - cite:
       id: cal.1966-12-15.china-leadership-4
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 272 n.104 (the draft directive on the Cultural Revolution in the villages, Dec. 15, 1966: its point to rectify the handful in power in the Party on the capitalist road and the unreformed landlords, rich peasants, counter-revolutionaries, bad elements and rightists)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 252 n.104 (the draft directive on the Cultural Revolution in the villages, Dec. 15, 1966: its point to rectify the handful in power in the Party on the capitalist road and the unreformed landlords, rich peasants, counter-revolutionaries, bad elements and rightists)'
       units: A
   - cite:
       id: cal.1966-12-28.china-leadership
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 272 n.104 (Dec. 28, 1966: Mao has a telegram sent to Heilongjiang approving its report on the Cultural Revolution in the streets: the struggle against the handful of power-holders on the capitalist road in the Party (heads of the street offices and above) and the unreformed landlords, rich peasants, counter-revolutionaries, bad elements, rightists and reactionary capitalists)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 252 n.104 (Dec. 28, 1966: Mao has a telegram sent to Heilongjiang approving its report on the Cultural Revolution in the streets: the struggle against the handful of power-holders on the capitalist road in the Party (heads of the street offices and above) and the unreformed landlords, rich peasants, counter-revolutionaries, bad elements, rightists and reactionary capitalists)'
   - add:
       entry:
         id: cal.1966-09-24.china-leadership-6
@@ -1785,11 +1784,10 @@ ops:
         date: '1966-09-24'
         thread: china-leadership
         c: 'The Center 中共中央 forwards the report of the State Council''s Finance and Trade Office 国务院财贸办公室 and the State Economic Commission 国家经济委员会 on some policy questions of finance, trade and handicrafts, approving demands the Red Guards made in the four olds 破四旧: joint state-private enterprises to become state enterprises; the capitalists'' fixed interest abolished altogether; cooperative shops to become state shops by conditions and steps; lipstick, rouge, perfume and other dear cosmetics no longer sold at home.'
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 273, 273 n.105; [[w.wenhua-dageming-yanjiu-ziliao]], I, 126–127 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 273 n.105). Made public: 2008. Printed for internal circulation: [[w.wenhua-dageming-yanjiu-ziliao]], I, 126–127 (1988).'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 253, 253 n.105. Made public: 2008. Printed for internal circulation: [[w.wenhua-dageming-yanjiu-ziliao]], I, 126–127 (1988). To check: [[w.wenhua-dageming-yanjiu-ziliao]], I, 126–127 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 253 n.105).'
         src:
           rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 273: all'
-            - 'w.wenhua-dageming-yanjiu-ziliao I, 126–127: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 253: all'
         tags: [polity:prc, vis:only:prc]
   - add:
       entry:
@@ -1800,10 +1798,10 @@ ops:
         place: peking
         thread: china-leadership
         c: Peking 北京. The Capital Work Group 首都工作组, after its founding, sends a batch of the "four categories" to Xinjiang 新疆 and other places; the work goes on to about mid-June.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 273, 274 n.106. Made public: 2008. See [[cal.1966-05-15.china-leadership-4]].'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 253, 254 n.106. Made public: 1967 (Zhou''s account to the Academy of Sciences'' delegates, Jan. 21, 1967). See [[cal.1966-05-15.china-leadership-4]].'
         src:
           rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 273: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 253: all'
         tags: [polity:prc, vis:only:prc]
   - add:
       entry:
@@ -1811,11 +1809,11 @@ ops:
         when: June 10
         date: '1966-06-10'
         thread: china-leadership
-        c: 'Zhou Enlai 周恩来 asks Mao 毛泽东 about the Capital Work Group''s sending away of the "four categories" and other unsteady persons from Peking, which he fears may spread. Mao: apart from a few labor-reform convicts, let each unit absorb its own; do not push the contradictions up or down.'
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 273–274, 274 n.106 (Zhou''s account of Jan. 21, 1967). The words: 六月十日我请示过主席 (273). Made public: 2008. To check: 周恩來接見科學院京區各單位代表談話紀要 (Jan. 21, 1967), in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.pu-weihua-zalan-jiu-shijie]], 274 n.106). See [[cal.1966-05.china-leadership-49]]. Names: Zhou Enlai, Mao Zedong.'
+        c: 'Zhou Enlai 周恩来 asks Mao 毛泽东 about the Capital Work Group''s 首都工作组 sending away of the "four categories" and other unsteady persons from Peking, which he fears may spread. Mao: apart from a few labor-reform convicts, let each unit absorb its own; do not push the contradictions up or down.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 253–254, 254 n.106 (Zhou''s account of Jan. 21, 1967). The words: 六月十日我请示过主席 (253). Made public: 1967 (Zhou''s account to the Academy of Sciences'' delegates, Jan. 21, 1967). To check: 周恩來接見科學院京區各單位代表談話紀要 (Jan. 21, 1967), in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.pu-weihua-zalan-jiu-shijie]], 254 n.106). See [[cal.1966-05.china-leadership-49]]. Names: Zhou Enlai, Mao Zedong.'
         src:
           rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 273–274: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 253–254: all'
             - 'via x.1967-01-21.zhou-enlai-talk-academy-of-sciences-peking-units-summary: all'
         tags: [polity:prc, vis:only:prc, ok:fields-place, name:zhou-enlai, name:mao-zedong]
   - add:
@@ -1825,15 +1823,15 @@ ops:
         date: '1966-06-13'
         thread: china-leadership
         c: Zhou Enlai 周恩来, back, conveys Mao's 毛泽东 instruction, and the sending away of the "four categories" from Peking stops; by mid-June the order to stop has gone down, though some departments may not have passed it on.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 273–274, 274 n.106 (Zhou''s account of Jan. 21, 1967). The words: 六月十三日回来、传达主席指示 (273–274). Made public: 2008. To check: 周恩來接見科學院京區各單位代表談話紀要 (Jan. 21, 1967), in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.pu-weihua-zalan-jiu-shijie]], 274 n.106). See [[cal.1966-06-10.china-leadership-11]]. Names: Zhou Enlai, Mao Zedong.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 253–254, 254 n.106 (Zhou''s account of Jan. 21, 1967). The words: 六月十三日回来、传达主席指示 (253–254). Made public: 1967 (Zhou''s account to the Academy of Sciences'' delegates, Jan. 21, 1967). To check: 周恩來接見科學院京區各單位代表談話紀要 (Jan. 21, 1967), in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.pu-weihua-zalan-jiu-shijie]], 254 n.106). See [[cal.1966-06-10.china-leadership-11]]. Names: Zhou Enlai, Mao Zedong.'
         src:
           rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 273–274: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 253–254: all'
             - 'via x.1967-01-21.zhou-enlai-talk-academy-of-sciences-peking-units-summary: all'
         tags: [polity:prc, vis:only:prc, ok:fields-place, name:zhou-enlai, name:mao-zedong]
   - cite:
       id: cal.1967-01-21.china-leadership-6
-      item: '[[w.pu-weihua-zalan-jiu-shijie]], 273–274, 274 n.106 (Zhou, explaining the papers on the sending away of the "four categories" the rebels found in the "black materials": early in the Cultural Revolution the landlords, rich peasants, counter-revolutionaries and bad elements were to be moved out, and a work group set up; he asked Mao June 10 and conveyed his instruction June 13; perhaps too many were sent; it has nothing to do with the Liu–Deng line''s branding the masses counter-revolutionary; the Red Guards'' driving the four categories back to the villages went too far)'
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 253–254, 254 n.106 (Zhou, explaining the papers on the sending away of the "four categories" the rebels found in the "black materials": early in the Cultural Revolution the landlords, rich peasants, counter-revolutionaries and bad elements were to be moved out, and a work group set up; he asked Mao June 10 and conveyed his instruction June 13; perhaps too many were sent; it has nothing to do with the Liu–Deng line''s branding the masses counter-revolutionary; the Red Guards'' driving the four categories back to the villages went too far)'
   - add:
       entry:
         id: cal.1966-07-16.china-leadership-6
@@ -1842,11 +1840,10 @@ ops:
         place: tianjin
         thread: china-leadership
         c: Tianjin 天津. The city public security bureau 天津市公安局, on the Tianjin committee's instruction to cut the city's population, reports a plan to send over 4,500 of the "four categories" (landlords, rich peasants, counter-revolutionaries, bad elements) with no proper work in the city and native to the villages of Hebei 河北 back home under supervision.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 274, 274 n.107; [[w.zhongguo-gongchandang-tianjin-lishi]], 276 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 274 n.107). Made public: 2001 ([[w.zhongguo-gongchandang-tianjin-lishi]]).'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 254, 254 n.107. Made public: 2001 ([[w.zhongguo-gongchandang-tianjin-lishi]]). To check: [[w.zhongguo-gongchandang-tianjin-lishi]], 276 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 254 n.107).'
         src:
           rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 274: all'
-            - 'w.zhongguo-gongchandang-tianjin-lishi 276: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 254: all'
         tags: [polity:prc, vis:only:prc]
   - add:
       entry:
@@ -1854,15 +1851,15 @@ ops:
         when: Mar. 18
         date: '1967-03-18'
         thread: china-leadership
-        c: 'The Center 中共中央 forwards the notice of the Peking public security bureau''s military control commission 北京市公安局军管会, "Rules for handling persons sent away in the Cultural Revolution who have come back to Peking" 〈关于在文化大革命中被遣返后返京人员的处理办法〉: the Red Guards'' sending the landlords, rich peasants, counter-revolutionaries, bad elements, rightists and the "dregs of society" back to the villages for labor under supervision is of great weight for the proletarian dictatorship; seven classes of those sent away may in principle not come back, and those back are to return at once. Most provinces make their own rules on Peking''s model.'
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 274, 274 n.108. See [[cal.1966-10-14.china-leadership-3]].'
+        c: 'The Center 中共中央 forwards the notice of the Peking public security bureau''s military control commission 北京市公安局军管会, "Rules for handling persons sent away in the Cultural Revolution who have come back to Peking" 〈关于在文化大革命中被遣返后返京人员的处理办法〉: the Red Guards'' sending the landlords, rich peasants, counter-revolutionaries, bad elements, rightists and the "dregs of society" back to the villages for labor under supervision is of great weight for the proletarian dictatorship; ten classes of those sent away may in principle not come back, and those back are to return at once. Most provinces make their own rules on Peking''s model.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 254, 254 n.108. See [[cal.1966-10-14.china-leadership-3]].'
         src:
           rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 274: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 254: all'
         tags: [polity:prc, ok:fields-place]
   - to-check:
       id: cal.1967-03-18.china-leadership-6
-      add: '[[w.wenhua-dageming-yanjiu-ziliao]], I, 360 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 274 n.108).'
+      add: '[[w.wenhua-dageming-yanjiu-ziliao]], I, 360 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 254 n.108).'
   - add:
       entry:
         id: cal.1966-09-20.china-leadership-5
@@ -1870,12 +1867,11 @@ ops:
         date: '1966-09-20'
         place: yinchuan
         thread: china-leadership
-        c: 'Yinchuan 银川. The Ningxia regional committee 宁夏区党委 sets the "four drives" 四赶 going, the driving out of the landlords, rich peasants, counter-revolutionaries, bad elements and rightists, many dealt with for historical questions or errors, and their families: but for a few sent to their native places, most are settled in the Guyuan 固原, Haiyuan 海原, Longde 隆德, Jingyuan 泾源, Xiji 西吉, Tongxin 同心 and Yanchi 盐池 counties.'
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 255, 255 n.110; [[w.zhonggong-ningxia-dangshi-dashiji]], 357 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 255 n.110). Made public: 1991 ([[w.zhonggong-ningxia-dangshi-dashiji]]).'
+        c: 'Yinchuan 银川. The Ningxia regional committee 宁夏区党委 sets the "four drives" 四赶 going, the driving out of the landlords, rich peasants, counter-revolutionaries, bad elements and rightists, many dealt with for historical questions or errors, and their families: but for a few sent to their native places, most are settled in the Guyuan 固原, Haiyuan 海原, Longde 隆德, Jingyuan 泾源, Yanchi 盐池, Tongxin 同心 and Taole 陶乐 counties.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 255, 255 n.110. Made public: 1991 ([[w.zhonggong-ningxia-dangshi-dashiji]]). To check: [[w.zhonggong-ningxia-dangshi-dashiji]], 357 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 255 n.110).'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 255: all'
-            - 'w.zhonggong-ningxia-dangshi-dashiji 357: all'
         tags: [polity:prc, vis:only:prc]
   - cite:
       id: cal.1966-06-10.china-leadership-2
@@ -1964,12 +1960,11 @@ ops:
         date: '1966-08-19'
         place: peking
         thread: china-leadership
-        c: Peking 北京. Zhou Enlai 周恩来 has Zhou Rongxin 周荣鑫, the State Council's secretary-general, and his deputy Xu Ming 许明 call an emergency meeting to arrange the reception of the teachers and students come to Peking for the exchange; Lü Hong 吕鸿, deputy secretary-general of the new Peking committee, is named head of the State Council's general reception station and of the Peking committee for receiving the teachers and students from elsewhere 北京市外地革命师生大串连接待委员会, with groups for reception, political work, living, transport, medical care, finance, supply and military affairs.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 257, 257 n.114; [[w.hong-wo-ren-hongweibing-jiedai]], 44 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 257 n.114). Made public: 1998 ([[w.hong-wo-ren-hongweibing-jiedai]]). Names: Zhou Enlai.'
+        c: Peking 北京. Zhou Enlai 周恩来 has Zhou Rongxin 周荣鑫, the State Council's secretary-general, and his deputy Xu Ming 许明 call an emergency meeting to arrange the reception of the teachers and students come to Peking for the exchange; Lü Hong 吕鸿, deputy secretary-general of the new Peking committee, is named head of the State Council's general reception station 国务院接待总站 and of the Peking committee for receiving the teachers and students from elsewhere 北京市外地革命师生大串连接待委员会, with groups for reception, political work, living, transport, medical care, finance, supply and military affairs.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 257, 257 n.114. Made public: 1998 ([[w.hong-wo-ren-hongweibing-jiedai]]). To check: [[w.hong-wo-ren-hongweibing-jiedai]], 44 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 257 n.114). Names: Zhou Enlai.'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 257: all'
-            - 'w.hong-wo-ren-hongweibing-jiedai 44: all'
         tags: [polity:prc, vis:only:prc, name:zhou-enlai]
         gloss:
           title: Estimates
@@ -1993,11 +1988,10 @@ ops:
         place: yinchuan
         thread: china-leadership
         c: Yinchuan 银川. Four Red Guards of the Peking No. 55 and No. 30 middle schools 北京第五十五中学和北京第三十中学 come from Lanzhou 兰州 to "fan the wind and light the fire."
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119; [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119). The words: 上午11时半 (259).'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119. The words: 上午11时半 (259). To check: [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119).'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 259: all'
-            - 'w.zhonggong-ningxia-dangshi-dashiji 355: all'
         tags: [polity:prc]
         time: 1966-08-22T03:30Z
         time_zone: Asia/Shanghai
@@ -2009,11 +2003,10 @@ ops:
         place: yinchuan
         thread: china-leadership
         c: 'Yinchuan 银川. The Peking Red Guards put up a dozen posters at the gate of the Ningxia regional committee 宁夏回族自治区党委: "measure the regional committee by Mao Zedong Thought."'
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119; [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119). The words: 晚7时半 (259). See [[cal.1966-08-22.china-leadership-12]].'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119. The words: 晚7时半 (259). To check: [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119). See [[cal.1966-08-22.china-leadership-12]].'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 259: all'
-            - 'w.zhonggong-ningxia-dangshi-dashiji 355: all'
         tags: [polity:prc]
         follows:
           - cal.1966-08-22.china-leadership-12
@@ -2027,11 +2020,10 @@ ops:
         place: yinchuan
         thread: china-leadership
         c: Yinchuan 银川. Students of the Yinchuan No. 1 Middle School 银川一中, the girls' middle school and others put up posters welcoming the Peking Red Guards to Ningxia.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119; [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119). The words: 晚11时许 (259). See [[cal.1966-08-22.china-leadership-13]].'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119. The words: 晚11时许 (259). To check: [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119). See [[cal.1966-08-22.china-leadership-13]].'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 259: all'
-            - 'w.zhonggong-ningxia-dangshi-dashiji 355: all'
         tags: [polity:prc]
         follows:
           - cal.1966-08-22.china-leadership-13
@@ -2046,12 +2038,11 @@ ops:
         place: yinchuan
         thread: china-leadership
         c: Yinchuan 银川. Yang Jingren 杨静仁, the regional committee's first secretary, receives the Peking Red Guards.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119; [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119). See [[cal.1966-08-22.china-leadership-12]]. Made public: 1991 ([[w.zhonggong-ningxia-dangshi-dashiji]]).'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119. To check: [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119). See [[cal.1966-08-22.china-leadership-12]].'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 259: all'
-            - 'w.zhonggong-ningxia-dangshi-dashiji 355: all'
-        tags: [polity:prc, vis:only:prc]
+        tags: [polity:prc]
   - add:
       entry:
         id: cal.1966-08-23.china-leadership-27
@@ -2060,11 +2051,10 @@ ops:
         place: yinchuan
         thread: china-leadership
         c: 'Yinchuan 银川. A mobilization meeting of the city''s middle schools for the Cultural Revolution: the head of the city''s socialist education work group 社教工作团 makes a self-criticism; students'' delegates "expose" the work groups'' errors; the Peking Red Guards speak briefly; Yang Jingren 杨静仁 criticizes himself for the regional committee''s sending of work groups and pledges to carry the Cultural Revolution through with the masses.'
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119; [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119). The words: 8月23日下午2时 (259). See [[cal.1966-08-22.china-leadership-15]].'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119. The words: 8月23日下午2时 (259). To check: [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119). See [[cal.1966-08-22.china-leadership-15]].'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 259: all'
-            - 'w.zhonggong-ningxia-dangshi-dashiji 355: all'
         tags: [polity:prc]
         time: 1966-08-23T06:00Z
         time_zone: Asia/Shanghai
@@ -2076,11 +2066,10 @@ ops:
         place: yinchuan
         thread: china-leadership
         c: Yinchuan 银川. The Ningxia University 宁夏大学 Mao Zedong Thought Red Guards 毛泽东思想红卫兵 are founded; other colleges' and middle schools' Red Guard bodies follow.
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119; [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119).'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119. To check: [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119).'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 259: all'
-            - 'w.zhonggong-ningxia-dangshi-dashiji 355: all'
         tags: [polity:prc]
   - add:
       entry:
@@ -2090,11 +2079,10 @@ ops:
         place: yinchuan
         thread: china-leadership
         c: Yinchuan 银川. The Ningxia regional committee 宁夏区党委 holds a "rally to celebrate the Great Proletarian Cultural Revolution" of 100,000; the Peking Red Guards on the exchange speak, "to fan the wind of revolution and light its fire."
-        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119; [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119). See [[cal.1966-08-23.china-leadership-27]].'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 259, 259 n.119. To check: [[w.zhonggong-ningxia-dangshi-dashiji]], 355 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 259 n.119). See [[cal.1966-08-23.china-leadership-27]].'
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 259: all'
-            - 'w.zhonggong-ningxia-dangshi-dashiji 355: all'
         tags: [polity:prc]
   - add:
       entry:
@@ -2135,3 +2123,66 @@ ops:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 259: all'
         tags: [polity:prc]
+  - cite:
+      id: cal.1966-08.china-leadership-10
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 249, 249 n.99 (Aug. 23, at the Central Work Conference, from the *Shilu*: the chief question the so-called disorder everywhere; let it go on some months; most are good, the bad few; no matter if there is no provincial committee, there are still the prefectural and county committees; workers, peasants and soldiers not to interfere with the students, as the *Renmin ribao* editorial says; struggle by reason, not by force; Peking''s disorder not serious; the students'' rally of 100,000, the "murderers" caught, panic; Peking too civilized; hooligans few, not to be interfered with now)'
+      units: A
+  - to-check:
+      id: cal.1966-08.china-leadership-10
+      add: '[[w.cheng-zhonghua-renmin-gongheguo-shilu]], III, pt. 1, 151–152 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 249 n.99).'
+  - check:
+      id: cal.1966-08-27.china-leadership
+      text: 'Check: whether the "meeting of the capital''s Red Guard delegates" 首都红卫兵代表会议 of Aug. 27 at which Bu Weihua (235) has Zhou grant the No. 15 Middle School''s request that the police wear the army''s uniform is this reception of the First Headquarters'' delegates.'
+  - add:
+      entry:
+        id: cal.1966-08.china-leadership-93
+        when: Aug., early
+        date: 1966-08
+        at: before 1966-08-11
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. A few Peking students begin to go out to other places on the exchange of experience 串连; from mid-August more go.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 256. The words: 从8月上旬开始 (256). See [[cal.1966-08.china-leadership-91]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 256: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-11.china-leadership-33
+        when: Nov. and after
+        date: 1966-11
+        place: shanghai
+        thread: china-leadership
+        c: Shanghai 上海. With the criticism of the "bourgeois reactionary line" 资产阶级反动路线, the Shanghai Red Guard General Headquarters 上海市红卫兵总部 and the Red Guards' Shanghai Colleges' General Headquarters 红卫兵上海市大专院校总部, now held conservative bodies, collapse one after the other.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 228. The words: 11月以后相继垮台散伙 (228). See [[cal.1966-09-26.china-leadership-4]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 228: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966.china-leadership-126
+        when: 1966, in the four olds
+        date: '1966'
+        at: before 1966-09
+        place: shanghai
+        thread: china-leadership
+        c: Shanghai 上海. By the count of *Zhongguo gongchandang zai Shanghai 80 nian* 《中国共产党在上海80年》 (2001), over 80,000 people of the city are sent away by force to other places in the expulsions of the four olds 破四旧.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 255, 255 n.109. To check: [[w.zhongguo-gongchandang-zai-shanghai]], 645 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 255 n.109). See [[cal.1966-08-23.china-leadership-25]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 255: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1969.china-leadership-76
+        when: 1969 or 1970
+        date: '1969'
+        thread: china-leadership
+        c: 'Daxing county 大兴县, Peking 北京. About three or four years after the killings of 1966, some of those chiefly responsible are punished: Gao Fuxing 高福兴, head of the Daxinzhuang commune 大辛庄公社, and Hu Defu 胡德福, secretary of its Youth League committee, eight years'' imprisonment each; Yang Wanjie 杨万杰, Party secretary of the Liming brigade 黎明大队, which killed over sixty, eight years (he later kills himself in prison); the chairman of the brigade''s poor peasants'' association 贫协, eight years.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 248. The words: 大约是在三四年后 (248). See [[cal.1966-08-31.china-leadership-6]]. Check: the year; Bu gives only "about three or four years" after the killings of 1966, so 1969 or 1970.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 248: all'
+        tags: [polity:prc, ok:fields-place]

@@ -13,6 +13,7 @@ import os
 import re
 
 from . import calsplit, daybook, governors, legislatures, loose, primaries, specials, statefin, store, vispage, vnmap
+from . import chron
 from . import conventions
 from . import oilworld
 from . import budgets
@@ -77,8 +78,8 @@ _MEMBERS = {}
 
 
 def thread_members(lst):
-    """thread slug -> entries in document order (primary thread or 'also'). Kept for the list while its sections'
-    entry counts stand (it is asked for under every thread entry and every `to:` line)."""
+    """thread slug -> entries in the calendar's order (primary thread or 'also'; chron.py). Kept for the list while
+    its sections' entry counts stand (it is asked for under every thread entry and every `to:` line)."""
     key = (id(lst), tuple(len(s.entries) for s in lst.walk()))
     if _MEMBERS.get(id(lst), (None,))[0] == key:
         return _MEMBERS[id(lst)][1]
@@ -88,8 +89,8 @@ def thread_members(lst):
             continue
         for t in entry_threads(lst, e):
             out.setdefault(t, []).append(e)
-    for ms in out.values():               # in the calendar's order: a loose date where it is shown (loose.py, STYLE 2)
-        ms.sort(key=loose.order_key)
+    for t, ms in out.items():             # in the calendar's order (chron.py)
+        out[t] = chron.sort(lst, ms)
     _MEMBERS[id(lst)] = (key, out)
     return out
 
@@ -99,9 +100,10 @@ _OWN = {}
 
 def index_members(lst):
     """thread slug -> the entries the thread index dates under it: those that name it as their `thread` or in `also`,
-    in document order. Not a subthread's: an entry filed under a subthread is dated on the subthread's line (a ghost's
-    too), not its parent's, unless `also:` lists it in the parent (the owner's memo, Nov. 4, 2026: volume.md, section 2;
-    calsplit.py, STYLE 15). The thread-nav line, the highlight and the statements keep the family (thread_members)."""
+    in the calendar's order (chron.py). Not a subthread's: an entry filed under a subthread is dated on the
+    subthread's line (a ghost's too), not its parent's, unless `also:` lists it in the parent (the owner's memo, Nov.
+    4, 2026: volume.md, section 2; calsplit.py, STYLE 15). The thread-nav line, the highlight and the statements keep
+    the family (thread_members)."""
     key = (id(lst), tuple(len(s.entries) for s in lst.walk()))
     if _OWN.get(id(lst), (None,))[0] == key:
         return _OWN[id(lst)][1]
@@ -111,8 +113,8 @@ def index_members(lst):
             continue
         for t in dict.fromkeys([e["thread"]] + list(e.get("also") or [])):
             out.setdefault(t, []).append(e)
-    for ms in out.values():
-        ms.sort(key=loose.order_key)
+    for t, ms in out.items():             # in the calendar's order (chron.py)
+        out[t] = chron.sort(lst, ms)
     _OWN[id(lst)] = (key, out)
     return out
 
@@ -175,7 +177,8 @@ def program_html(series, lst, e, year, text_html):
     fwd, back = program_links(lst)
     out = []
     if e["id"] in fwd:
-        items = sorted(fwd[e["id"]], key=lambda x: str((series.get(x[1]) or (0, 0, {}))[2].get("date", "")))
+        at = chron.position(lst, [series.get(t)[2] for _, t in fwd[e["id"]] if series.get(t)])   # (chron.py)
+        items = sorted(fwd[e["id"]], key=lambda x: at.get(x[1], len(at)))
         out.append(("To:", " · ".join(f"{thread_name(lst, slug)}, [[{tid}]]" for slug, tid in items)))
     if e["id"] in back:
         names = []
@@ -300,7 +303,11 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         parts.append(f'<span class="r">{text_html(e["r"], "r")}</span>')
     if lst.kind == "calendar" and e.get("polls_close"):   # "Polls close 6 p.m. CST: …" (tools/bib/dayorder.py, STYLE 7)
         parts.append(f'<span class="n">{text_html(e["polls_close"], "n")}</span>')
-    n = year_qualified(series, e.get("n"), year)
+    n = e.get("n")
+    if lst.kind == "calendar" and not is_thread and n:   # the unread records behind "To check:" (footnotes.py, STYLE 7)
+        from . import footnotes
+        n = footnotes.with_unread(series, e, n)
+    n = year_qualified(series, n, year)
     fn_html = None
     printed = frozenset()               # the characters the block's full cites print (cjk.py, STYLE 3)
     if fns:                             # the footnotes, then the note's other sentences (footnotes.py, STYLE 1, 5)

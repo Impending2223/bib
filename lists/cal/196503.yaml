@@ -200,7 +200,6 @@ entries:
       rows:
         - 'w.asselin-hanois-road-to-the 206: all'
         - 'via x.1965-03-01.chi-thi-90-ct-tw: A'
-        - 'via x.1965-03-01.chi-thi-90-ct-tw: B'
         - 'w.van-kien-dang-toan XXVI, 41–53: all'
     tags: [name:le-duc-tho]
     time_range:
@@ -2092,7 +2091,7 @@ entries:
     when: Mar. 5
     date: '1965-03-05'
     thread: china-leadership
-    c: Chen Yi 陈毅 receives the delegation of the Italian state hydrocarbons corporation (ENI) 意大利国家碳化氢公司 led by Dr. 斯开利罗.
+    c: Chen Yi 陈毅 receives the delegation of the Italian state hydrocarbons corporation (ENI) 意大利国家碳化氢公司 led by Dr. *Sikaililuo* 斯开利罗.
     n: '[[w.chen-yi-nianpu]], 1088. The words: 上午 (1088). Names: Chen Yi.'
     tags: [polity:prc, polity:italy, name:chen-yi, ok:fields-place]
     time_range:
@@ -2545,8 +2544,8 @@ entries:
     thread: vietnam-saigon
     also: [vietnam]
     c: A coup against Phan Huy Quát's government fails, Mar. 6, the first of three, by the history's list of coups.
-    n: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1. Check: the day, against the American record.'
-    tags: [polity:rvn, ok:fields-place]
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1. Check: the day, against the American record. Names: Phan Huy Quát.'
+    tags: [polity:rvn, ok:fields-place, name:phan-huy-quat]
   - id: cal.1965-03-06.china-leadership-13
     when: Mar. 6
     date: '1965-03-06'
@@ -3158,7 +3157,7 @@ entries:
     thread: press-and-broadcasting
     also: [vietnam]
     c: I. F. Stone, "Reply to the White Paper," from the Pentagon's figures and the White Paper's own appendix.
-    n: '[[w.bird-color-of-truth]], 313; [[w.wells-war-within]], 21 (Stone''s critique in his *Weekly*); [[w.zaroulis-who-spoke-up]], 35 (Stone''s attack on the White Paper in his Weekly a week after it appeared; his argument from its own record). Check: where it appeared; Bird gives the day.'
+    n: '[[w.bird-color-of-truth]], 313; [[w.wells-war-within]], 21 (Stone''s critique in his *Weekly*); [[w.zaroulis-who-spoke-up]], 35 (Stone''s attack on the White Paper in his Weekly a week after it appeared; his argument from its own record). Check: where it appeared; Bird gives the day. Names: Stone.'
     src:
       c: 28bd8cfc
       rows:
@@ -3166,6 +3165,7 @@ entries:
         - 'via w.bird-color-of-truth 313 n.27a: all'
         - 'w.wells-war-within 21: A'
         - 'w.zaroulis-who-spoke-up 35: ?'
+    tags: [name:stone-i-f]
   - id: cal.1965-03-08.voting-rights-selma-5
     when: Mar. 8
     date: '1965-03-08'
@@ -5245,7 +5245,7 @@ entries:
     thread: china-leadership
     c: Zhou calls Zhao Erlu, Yang Chengwu, Zheng Hantao and the economic and planning heads of the regions on the small third front. Hearing Zhao on the local arms conference, agrees that first- and second-line provinces build twenty-one rear bases; defense industry to join local people and militia; keep to convenience for the people. The Third Plan to take care of the small third front, fifteen years to build the national system and layout; but farming, unlike industry, must stabilize high yield and raise yield per area.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 716–17 (Mar. 13, 1965). Made public: 1997. Names: Zhou Enlai, Zhao Erlu, Yang Chengwu, Zheng Hantao.'
-    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc, name:zhao-erlu]
   - id: cal.1965-03-13.china-leadership-2
     when: Mar. 13
     date: '1965-03-13'
@@ -5482,12 +5482,12 @@ entries:
     time: 1965-03-14T01:30Z
     thread: china-leadership
     c: 'Yang Shangkun 杨尚昆, with Yang Zhilin 杨植霖, Han Jincao 韩劲草, Wang Yuming 王愈明 and Zhou Yuanqing 周元青, drives at 9:30 a.m. to the Changning Palace 长宁宫 south of Chang''an 长安: Chiang Kai-shek''s 蒋介石 lodging when in Xi''an 西安, his rooms and air-raid shelter kept, now the province''s sanatorium, under He Sanduo 贺三多, an old acquaintance; then the cave where Ma Jianling 马健翎, the playwright (the editors'' note), lived; lunch at Zhangbagou 丈八沟; back in Xi''an at 3.'
-    n: '[[w.yang-shangkun-riji]], II, 523 (Mar. 14, 1965). The words: 9时半与植霖、劲草、愈明、元青等同志乘车去长安南之长宁宫游玩……休息到3时返回西安 (II, 523). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Yang Zhilin, Han Jincao, Wang Yuming, Zhou Yuanqing, He Sanduo, Ma Jianling.'
+    n: '[[w.yang-shangkun-riji]], II, 523 (Mar. 14, 1965). The words: 9时半与植霖、劲草、愈明、元青等同志乘车去长安南之长宁宫游玩……休息到3时返回西安 (II, 523). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Yang Zhilin, Han Jincao, Wang Yuming, Zhou Yuanqing, He Sanduo, Ma Jianling, Chiang Kai-shek.'
     src:
       c: 15529c68
       rows:
         - 'w.yang-shangkun-riji II, 523: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:chiang-kai-shek]
     time_zone: Asia/Shanghai
   - id: cal.1965-03-14.china-leadership-3
     when: Mar. 14
@@ -5544,7 +5544,7 @@ entries:
     when: Mar. 14
     date: '1965-03-14'
     thread: china-leadership
-    c: Chen Yi 陈毅 receives Captain 山温, head of the Burma News Agency's delegation, and its member 吴伦昂.
+    c: Chen Yi 陈毅 receives Captain *Shan Wen* 山温, head of the Burma News Agency's delegation, and its member *Wu Lun Ang* 吴伦昂.
     n: '[[w.chen-yi-nianpu]], 1089. The words: 下午 (1089). Names: Chen Yi.'
     tags: [polity:prc, polity:burma, name:chen-yi, ok:fields-place]
     time_range:
@@ -5657,7 +5657,7 @@ entries:
     thread: voting-rights-selma
     also: [king]
     c: 'Selma, Brown Chapel. The memorial service for Reeb, Bishop Hines, Walter Reuther, Archbishop Iakovos and members of Congress among the speakers. King, late from Judge Johnson''s hearing: "His crime was that he dared to live his faith." Judge Thomas orders Clark to permit a march to the courthouse; some 3,500 march at 5:08 p.m., a memorial on its steps. King stays in Alabama, declining the President''s invitation to the joint session.'
-    n: '[[w.branch-at-canaans-edge]], 104–08; [[w.kotz-judgment-days]], 307–08, 312 (King kept in Alabama by Reeb''s memorial service; he watches the address with Lewis at the Jacksons'', in tears); [[w.bernstein-guns-or-butter]], 231 (after a battle led by Collins and Baker; King preaches). Check: Bernstein, 231, gives a crowd of 2,000 on the courthouse steps. To check: Mobile LHM, Mar. 19, 1965, FBI file 44-12831-693; *Washington Post*, Mar. 16, 1965, at 1 (cited by [[w.branch-at-canaans-edge]], 108). See [[cal.1965-03-14.voting-rights]]. Names: Reeb, Reuther, Martin Luther King, Frank Johnson, Clark.'
+    n: '[[w.branch-at-canaans-edge]], 104–08; [[w.kotz-judgment-days]], 307–08, 312 (King kept in Alabama by Reeb''s memorial service; he watches the address with Lewis at the Jacksons'', in tears); [[w.bernstein-guns-or-butter]], 231 (after a battle led by Collins and Baker; King preaches). Check: Bernstein, 231, gives a crowd of 2,000 on the courthouse steps. To check: Mobile LHM, Mar. 19, 1965, FBI file 44-12831-693; *Washington Post*, Mar. 16, 1965, at 1 (cited by [[w.branch-at-canaans-edge]], 108). See [[cal.1965-03-14.voting-rights]]. Names: Reeb, Reuther, Martin Luther King, Frank Johnson, Clark, Iakovos.'
     src:
       c: ba041634
       rows:
@@ -5666,7 +5666,7 @@ entries:
         - 'via w.branch-at-canaans-edge 108 n.a-march-of: C'
         - 'w.kotz-judgment-days 307–08, 312: F'
         - 'w.bernstein-guns-or-butter 231: A-B, D-E'
-    tags: [name:reeb-james-j, name:reuther-walter, name:king-martin-luther-jr, name:johnson-frank-m-jr, name:clark-james-g-jr]
+    tags: [name:reeb-james-j, name:reuther-walter, name:king-martin-luther-jr, name:johnson-frank-m-jr, name:clark-james-g-jr, name:iakovos]
   - id: cal.1965-03-15.voting-rights-2
     when: Mar. 15
     date: '1965-03-15'
@@ -6080,7 +6080,7 @@ entries:
     date: '1965-03-15'
     thread: china-leadership
     c: Ye Jianying's 叶剑英 article in *Jiefangjun bao* 解放军报, "Hold high the great red banner of Mao Zedong Thought, make the academies and schools thoroughly proletarian and thoroughly combat-ready" 《高举毛泽东思想伟大红旗，把院校办得非常无产阶级化非常战斗化》.
-    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 928. Names: Ye Jianying, Mao Zedong.'
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 928; [[w.teiwes-tragedy-of-lin-biao]], 204 (the main test of the academies'' work how well they carry out political and ideological work). Names: Ye Jianying, Mao Zedong.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, name:mao-zedong]
   - id: cal.1965-03-16.vietnam
     when: Mar. 16
@@ -7061,14 +7061,14 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: 'Zhou receives the Palestine Liberation Organization delegation under chairman Ahmad Shukairy. Shukairy praises his contribution at Bandung ten years ago; Zhou: Bandung''s success was all''s, above all Sukarno, Indonesia''s premier Ali Sastroamidjojo and Nasser; we cooperated well; "our achievement, strength and contribution are limited; I am not content with the past; I am, to the people and to friends abroad, a servant."'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 719 (Mar. 18, 1965); [[w.zhou-enlai-waijiao-huodong]], 440–41 (Mar. 18, 1965; 6:30 p.m., Fujian Hall, Great Hall of the People; the book has Shukairy recalling Bandung and the Palestine question, and Zhou saying China has kept its word for ten years not to have relations with Israel and has supported the Palestinian Arabs'' struggle for their rights); [[w.zhonghua-renmin-gongheguo-waijiao]], 13 (Mar. 16–27, 1965; Shukairy''s visit, Mar. 16 to 27; Mao receives him at Wuhan; Liu Shaoqi, Zhou and Chen Yi receive him). Names: Zhou Enlai, Shukairy.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 719 (Mar. 18, 1965); [[w.zhou-enlai-waijiao-huodong]], 440–41 (Mar. 18, 1965; 6:30 p.m., Fujian Hall, Great Hall of the People; the book has Shukairy recalling Bandung and the Palestine question, and Zhou saying China has kept its word for ten years not to have relations with Israel and has supported the Palestinian Arabs'' struggle for their rights); [[w.zhonghua-renmin-gongheguo-waijiao]], 13 (Mar. 16–27, 1965; Shukairy''s visit, Mar. 16 to 27; Mao receives him at Wuhan; Liu Shaoqi, Zhou and Chen Yi receive him). Names: Zhou Enlai, Shukairy, Sukarno, Ali Sastroamidjojo.'
     src:
       c: bc41fe0e
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 719: ?'
         - 'w.zhou-enlai-waijiao-huodong 440–41: A-E'
         - 'w.zhonghua-renmin-gongheguo-waijiao 13: A'
-    tags: [name:zhou-enlai, name:shukairy-ahmad, polity:prc]
+    tags: [name:zhou-enlai, name:shukairy-ahmad, polity:prc, name:sukarno, name:ali-sastroamidjojo]
   - id: cal.1965-03-18.china-leadership-3
     when: Mar. 18
     date: '1965-03-18'
@@ -7276,6 +7276,18 @@ entries:
       - 1965-03-18T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-03-18.china-leadership-16
+    when: Mar. 18
+    date: '1965-03-18'
+    thread: china-leadership
+    c: A *Jiefangjun bao* editorial cites Lin Biao's 林彪 instructions on political work.
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 204 (by the authors, earlier statements recycled, not new initiatives of Lin''s). To check: *Jiefangjun bao* editorial of Mar. 18, 1965, citing Lin Biao''s instructions on political work, as Teiwes and Sun report it (cited by [[w.teiwes-tragedy-of-lin-biao]], 204 n.88a). Names: Lin Biao.'
+    src:
+      c: f69c28fc
+      rows:
+        - 'w.teiwes-tragedy-of-lin-biao 204: all'
+        - 'via x.1965-03-18.jiefangjun-bao-editorial-lin-biao-political-work: all'
+    tags: [polity:prc, name:lin-biao]
   - id: cal.1965-03-19.vietnam-force-levels
     when: Mar. 19–21
     date: '1965-03-19'
@@ -7932,8 +7944,8 @@ entries:
     date: '1965-03-20'
     thread: china-leadership
     c: Chen Yi 陈毅 cables Corneliu Mănescu, Romania's Foreign Minister, his condolences on the death of Gheorghe Gheorghiu-Dej, first secretary of the Workers' Party and President of the State Council.
-    n: '[[w.chen-yi-nianpu]], 1090. Names: Chen Yi.'
-    tags: [polity:prc, polity:romania, name:chen-yi, name:manescu-corneliu, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 1090. Names: Chen Yi, Gheorghiu-Dej.'
+    tags: [polity:prc, polity:romania, name:chen-yi, name:manescu-corneliu, ok:fields-place, name:gheorghiu-dej-gheorghe]
   - id: cal.1965-03-21.voting-rights
     when: Mar. 21–25
     date: '1965-03-21'
@@ -8999,8 +9011,8 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Kabul 喀布尔, the Prime Minister's office. Chen Yi 陈毅 holds talks with Mohammad Yusuf, the Prime Minister, and Abdul Zahir 阿卜杜勒·查希尔, the Deputy Prime Minister, from 10 a.m. to 12:45 p.m.
-    n: '[[w.chen-yi-nianpu]], 1091. The words: 上午10时到12时45分 (1091). Made public: 1995. Names: Chen Yi, Yusuf.'
-    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:yusuf-mohammed, vis:only:prc+afghanistan]
+    n: '[[w.chen-yi-nianpu]], 1091. The words: 上午10时到12时45分 (1091). Made public: 1995. Names: Chen Yi, Yusuf, Zahir.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:yusuf-mohammed, vis:only:prc+afghanistan, name:zahir-abdul]
     time_zone: Asia/Kabul
   - id: cal.1965-03-23.china-leadership-12
     when: Mar. 23
@@ -9009,8 +9021,8 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Kabul 喀布尔, Qargha 卡拉加 outside the city. Abdul Zahir 阿卜杜勒·查希尔, the Deputy Prime Minister, gives a luncheon for Chen Yi 陈毅.
-    n: '[[w.chen-yi-nianpu]], 1091. The words: 午宴 (1091). Names: Chen Yi.'
-    tags: [polity:prc, polity:afghanistan, name:chen-yi]
+    n: '[[w.chen-yi-nianpu]], 1091. The words: 午宴 (1091). Names: Chen Yi, Zahir.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:zahir-abdul]
     time_range:
       - 1965-03-23T07:30Z
       - 1965-03-23T09:30Z
@@ -9525,8 +9537,8 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Kabul 喀布尔, the Prime Minister's office. Chen Yi 陈毅 continues the talks with Mohammad Yusuf and Abdul Zahir 阿卜杜勒·查希尔.
-    n: '[[w.chen-yi-nianpu]], 1091. The words: 上午 (1091). Made public: 1995. Names: Chen Yi, Yusuf.'
-    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:yusuf-mohammed, vis:only:prc+afghanistan]
+    n: '[[w.chen-yi-nianpu]], 1091. The words: 上午 (1091). Made public: 1995. Names: Chen Yi, Yusuf, Zahir.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:yusuf-mohammed, vis:only:prc+afghanistan, name:zahir-abdul]
     time_range:
       - 1965-03-24T01:30Z
       - 1965-03-24T07:30Z
@@ -9539,8 +9551,8 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Kabul 喀布尔. Chen Yi 陈毅 signs for China, with Abdul Zahir 阿卜杜勒·查希尔, Sayyid Kasim Rishtiya, Minister of Finance, and Mohammad Anas 穆罕默德·阿纳斯, Minister of Education, for Afghanistan, the China–Afghanistan boundary protocol, the agreement on cultural cooperation and three papers on economic and technical cooperation; speaks: the Bandung spirit runs through them all; aid is always mutual.'
-    n: '[[w.chen-yi-nianpu]], 1091–1092. The words: 下午 (1091–1092). Names: Chen Yi, Rishtiya.'
-    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:rishtiya-sayyid-mohammed-kasim]
+    n: '[[w.chen-yi-nianpu]], 1091–1092. The words: 下午 (1091–1092). Names: Chen Yi, Rishtiya, Zahir.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:rishtiya-sayyid-mohammed-kasim, name:zahir-abdul]
     time_range:
       - 1965-03-24T07:30Z
       - 1965-03-24T13:30Z
@@ -9660,14 +9672,14 @@ entries:
     time: 1965-03-25T17:44Z
     thread: immigration
     c: 'Johnson and Edward Kennedy by telephone, 12:44 p.m. Kennedy, with his brother and Jacqueline Kennedy, to represent the country at the Runnymede memorial. Johnson: "Where is my immigration bill, goddam it?" Kennedy: four weeks lost to the voting rights hearings in Judiciary. Johnson: push it while Selma has the Southern Senators on their heels.'
-    n: '[Johnson and Edward Kennedy, 12:44 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-edward-kennedy-march-25-1965), Conversation WH6503-13-7156 (Miller Center). [[w.branch-at-canaans-edge]], 159 (the words). Names: Johnson, Edward Kennedy.'
+    n: '[Johnson and Edward Kennedy, 12:44 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-edward-kennedy-march-25-1965), Conversation WH6503-13-7156 (Miller Center). [[w.branch-at-canaans-edge]], 159 (the words). Names: Johnson, Edward Kennedy, Kennedy.'
     src:
       c: c259d405
       rows:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-edward-kennedy-march-25-1965: A'
         - 'w.branch-at-canaans-edge 159: all'
         - 'via w.branch-at-canaans-edge 159 n.where-is-my: all'
-    tags: [name:johnson-lyndon-b, name:kennedy-edward-m]
+    tags: [name:johnson-lyndon-b, name:kennedy-edward-m, name:kennedy-jacqueline]
   - id: cal.1965-03-25.civil-rights-the-executive
     when: Mar. 25
     date: '1965-03-25'
@@ -9984,7 +9996,7 @@ entries:
     date: '1965-03-26'
     thread: vietnam-congress
     c: 'McGovern with Johnson, at his own request, half an hour; by McGovern''s account, Johnson, at the sight of his memorandum: "Don''t give me another goddamn history lesson. I''ve got a drawerful of memos from Mansfield." Johnson: "I''m going up old Ho Chi Minh''s leg an inch at a time." The Chinese want "to take over the world."'
-    n: '[[w.gibbons-u-s-government-and]], III, 208 (McGovern''s account, *Grassroots*, 104–05). [[w.mann-grand-delusion]], 419–21. To check: McGovern''s memorandum, Office Files of Horace Busby, LBJ Library (cited by [[w.gibbons-u-s-government-and]], III, 208 n.179). Names: McGovern, Johnson, Mansfield.'
+    n: '[[w.gibbons-u-s-government-and]], III, 208 (McGovern''s account, *Grassroots*, 104–05). [[w.mann-grand-delusion]], 419–21. To check: McGovern''s memorandum, Office Files of Horace Busby, LBJ Library (cited by [[w.gibbons-u-s-government-and]], III, 208 n.179). Names: McGovern, Johnson, Mansfield, Hồ Chí Minh.'
     src:
       c: 7a834688
       rows:
@@ -9993,7 +10005,7 @@ entries:
         - 'w.mann-grand-delusion 419–21: A-D'
         - 'via w.mann-grand-delusion 421 n.16a: A-D'
         - 'via w.mann-grand-delusion 421 n.16b: A-D'
-    tags: [name:mcgovern-george, name:johnson-lyndon-b, name:mansfield-mike]
+    tags: [name:mcgovern-george, name:johnson-lyndon-b, name:mansfield-mike, name:ho-chi-minh]
     time_range:
       - 1965-03-26T14:00Z
       - 1965-03-26T22:00Z
@@ -10604,7 +10616,7 @@ entries:
     date: '1965-03-27'
     thread: china-leadership
     also: [south-asia]
-    c: 法鲁克, former Governor of East Pakistan, gives a banquet for Chen Yi 陈毅.
+    c: '*Faluke* 法鲁克, former Governor of East Pakistan, gives a banquet for Chen Yi 陈毅.'
     n: '[[w.chen-yi-nianpu]], 1092. The words: 中午 (1092). Names: Chen Yi.'
     tags: [polity:prc, polity:pakistan, name:chen-yi, ok:fields-place]
     time_range:
@@ -12284,13 +12296,13 @@ entries:
     date: 1965-03
     thread: congress
     c: Foreign Relations hires James Lowenstein, a Foreign Service officer once Kennan's political officer at Belgrade, as its Southeast Asia expert, in John Newhouse's place, after an interview with Fulbright and the committee.
-    n: '[[w.woods-fulbright]], 370. Check: the day. Names: Fulbright, Kennan.'
+    n: '[[w.woods-fulbright]], 370. Check: the day. Names: Fulbright, Kennan, Newhouse.'
     src:
       c: 99aaec3f
       rows:
         - 'w.woods-fulbright 370: all'
         - 'via w.woods-fulbright 370 n.34: all'
-    tags: [name:fulbright-j-william, name:kennan-george-f]
+    tags: [name:fulbright-j-william, name:kennan-george-f, name:newhouse-john]
   - id: cal.1965-03-31.medicare
     when: Mar. 31
     date: '1965-03-31'

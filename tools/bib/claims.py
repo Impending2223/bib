@@ -44,6 +44,13 @@ STYLE
     by the note's text for it; a cited record "citing" its description, joined to the work's page where both ground
     the unit, Bluebook's "70 & n.36 (citing ...)"); the `?` rows in a last footnote with the
     note's parenthetical; then the note's other sentences (To check, See, Names, Check) as they stand.
+ 7. A label (the reader's brief, R32: a sentence of the note that states a fact with its source, "The Senate sat from
+    noon to 7:02 p.m.: [Daily Digest, D468](…)", "Votes: ...") stands for the unit it bears on, not the whole line;
+    the mechanical map cannot tell which, and gives its items the first unit, where the entry's date and its day's
+    facts sit (the owner, Nov. 21, 2026: "'The Senate sat from noon to 7:02 p.m.' should only be in the first
+    footnote here"), never all; a reader's map says otherwise where it should. The label stays the item's head
+    (note_labels). An item that only points to a themed list's section, "(Viet. II.I.3)", is no source: it goes
+    with the note's other sentences (is_xref).
 """
 import collections
 import hashlib
@@ -160,10 +167,47 @@ def note_parts(n):
     return list(src), list(other)
 
 
+def note_labels(n):
+    """{item: its label}: the items of a sentence that opens on a label (STYLE 7), each with it."""
+    return dict(_note_parts3(n)[2])
+
+
 @store.memo
 def _note_parts(n):
+    src, other, _ = _note_parts3(n)
+    return src, other
+
+
+# A label (R32: "Votes: ...", "The Senate sat from noon to 7:02 p.m.: [Daily Digest, D468](…)"): prose before ": " at a
+# source sentence's head, words in it, no brackets, its italics and quotations closed, a cite after it
+LABEL = re.compile(r"^(?P<label>(?:[^\[\]():;]|(?<=\d):(?=\d\d)|\([^()\[\]]*\)){2,120}?):\s+(?=\S)")
+# A pointer to a themed list's section, "(Viet. II.I.3)", "(K–J Cong. II.J.2)": no source (STYLE 5)
+XREF = re.compile(r"\((?:[A-Z][\w–'’]*\.?|\d{4})(?: [A-Z][\w–'’]*\.?)? [IVX]+(?:\.[A-Z0-9]+)*\)")
+
+
+def label_of(item):
+    """The label an item opens on (LABEL), or None."""
+    m = LABEL.match(item or "")
+    if not m or item.startswith(NOT_SOURCE):
+        return None
+    lab = m.group("label").strip()
+    if not item[m.end():].startswith(("[", "FRUS ")):     # a cite after it, not a title's subtitle ("Special Message
+        return None                                       # to the Congress: Program for ...")
+    if not re.search(r"[a-z]{3}", lab) or lab.count("*") % 2 or lab.count('"') % 2 or re.search(r"\d{4}[–-]\d", lab):
+        return None
+    return lab
+
+
+def is_xref(item):
+    """An item that points to a themed list's section and cites nothing ("Report of McNamara and Taylor to the President
+    (Viet. II.I.3)")."""
+    return bool(XREF.search(item or "")) and "[[" not in item and "](" not in item
+
+
+@store.memo
+def _note_parts3(n):
     from .notemerge import items, sentences
-    src, other = [], []
+    src, other, labels = [], [], []
     chunks = []
     for s in sentences(n or ""):        # a sentence the splitter ran on past an abbreviation ("86th Cong. To check: ...")
         chunks += [c.strip() for c in OWN_SENTENCE.split(s) if c.strip()]
@@ -172,8 +216,16 @@ def _note_parts(n):
             other.append(s)
         else:
             body = s[:-1] if s.endswith(".") else s
-            src += items(body)
-    return tuple(src), tuple(other)
+            its = items(body)
+            lab = label_of(its[0]) if its else None
+            for it in its:
+                if is_xref(it):
+                    other.append(it.rstrip(".") + ".")
+                    continue
+                src.append(it)
+                if lab:
+                    labels.append((it, lab))
+    return tuple(src), tuple(other), tuple(labels)
 
 
 CARD_ITEM = re.compile(r"^\[\[(w\.[^\]|]+)(?:\|[^\]]*)?\]\](?:, ([^(]+?))?\s*(\((?:[^()]|\([^()]*\))*\))?$")
@@ -214,13 +266,15 @@ def mechanical(e):
     c, rows = e.get("c") or "", []
     us = units(c) if isinstance(c, str) else []
     srcs, _ = note_parts(e.get("n"))
+    labels = note_labels(e.get("n"))
     for it in srcs:
         k = item_key(it)
+        whole = "A" if it in labels and len(us) > 1 else "all"   # a label's item: the first unit (STYLE 7)
         if k[0] == "card":
             if k[2]:
-                rows.append(f"{k[1]} {k[2]}: {'?' if k[3] else 'all'}")
+                rows.append(f"{k[1]} {k[2]}: {'?' if k[3] else whole}")
         elif k[0] == "url":
-            rows.append(f"{k[1]}: all")
+            rows.append(f"{k[1]}: {whole}")
         # an unlinked item is no row of the mechanical map: in the notes it is nearly always prose (a work's version of
         # the event, "Johnson gives 7:40 p.m."), seldom a source; a reader's map names an unlinked source by its words
     for i, u in enumerate(us):
