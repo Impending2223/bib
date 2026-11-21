@@ -634,3 +634,90 @@ Opus audit of patch `2026-11-21-b15b-buweihua-4` (pp. 129–168: the law student
 **For the merger.** (1) Keep (`--take keep`) the duplicate flags patch-check raises on all 146 adds (same day, month or year; read and distinct). The nearest: `cal.1966.china-leadership-108` (the secret detention of Zhao Shouyi and Li Qiming; the criticism within the Party is `cal.1966.china-leadership-74`), `cal.1966.china-leadership-84` (Shandong's standing committee on three; the plenum on Yu Xiu is `cal.1966.china-leadership-65`), `cal.1966-05-26.china-leadership-6` (Check against `cal.1966.china-leadership-73`), `cal.1966-06-01.china-leadership-12` (Mao's telephone call, held in the tree only in a parenthetical of June 1), `cal.1966-06-06.china-leadership-13` and `-14` (the June 6 incident, which `cal.1966-06-07.china-leadership-11` names only as its preface), `cal.1966-06-21.china-leadership-13` (the East China Bureau's report; the Shanghai criticism by name is `cal.1966-06.china-leadership-38`), `cal.1966-06-10.china-leadership-9` (the Secretariat's decision; Tao Zhu's announcement is June 15), `cal.1966-06-02.china-leadership-12` (Deng and Hu Keshi; their meeting with Hu Qili is June 20), `cal.1966-06-20.china-leadership-22` (the poster; Liu's talk that afternoon is `-6`), `cal.1966-05.china-leadership-47`, `cal.1966-06.china-leadership-61`. (2) No Check to strike by hand. (3) The two edits that set `n` strike the plain-text To check for this book that the run's cites replace; the two `c` edits (Gu Jiguang) need fresh bases if another merge touches those entries first.
 
 **For the owner.** Whether *Zhonggong dangshi ziliao* (no. 70, 1999, Bu's own article) was printed for internal circulation (as asked of no. 30 in run 2): three adds of this run (May 20, May 31, June 4, 1966) rest "Made public: 1999" on it.
+
+## Run 5 (reader b15b-buweihua-5, Nov. 21, 2026): ch. 2 from the Tsinghua middle school work group's report to its end, and ch. 3 to the rebel Red Guards, pp. 168–223
+
+Patch `inbox/2026-11-21-b15b-buweihua-5.yaml`; witness rows `inbox/witnesses/2026-11-21-b15b-buweihua-5.yaml`; edges `sources/witnesses/by-work/pu-weihua-zalan-jiu-shijie.yaml` under `# run 5`. Nothing merged or committed. Run 4's patch (pending) was scripted against as the tree; its audit, appended while this run worked, was read before hand-in and applied: characters at first appearance for organs, cities and persons in `c` (a last pass added 北京, 上海, 中共中央, 中央文革小组, 八届十一中全会, 毛泽东 and the rest where a first mention lacked them); no forward "See" (four struck); public acts and the press without `vis:`; every held person named in `c` tagged and in "Names:". Every add was scripted against the tree and the pending inbox (Bu run 4, Chen Yun 1–2, Zhu De 4–5) by day, month and year, Latin names and runs of characters, and the candidates read.
+
+**The copy and its keying.** The same Drive PDF (849 pages, a scan with no text layer), fetched afresh into a new directory. PDF 186–300 taken out with `pdfimages -png` (the images come out inverted, white on black; tesseract reads them so) and OCRed with tesseract `chi_tra --psm 6`; after another agent's `pkill` of tesseract every page was checked: PDF 204 and 290 are blank versos (367 and 437 bytes), PDF 205 the chapter's half-title. Pages used were read on the OCR and, for every line in doubt, on 2× crops of the image, inverted to black on white (about 30 crops: 7月11日 at 171, not "7月1日"; 一百多人 at 171; 李富春 at 171; 胡啟立 for the Xicheng work team at 179; 李雪峰 announcing the withdrawal at 178; 中央團校 and 繆子玲 at 180; 劉林元 and 1995 no. 11 at 174 n.123; 1966年8月21日 at 170 n.120; 姬鵬飛 at 185 n.1; 7月23日 at 175; 王力反思錄 618 at 196 n.15; 紅鷹兵團, 8月17日, 8月11日, 孫月珠, 勞元一 at 209 n.34–35; 翦伯贊 at 206 n.28; 徐浩淵 at 220 n.55; 9月5日, 9月14日, 9月21日晚, 11月19日上午10點 at 221–223; 中學文革報 創刊號 1967年1月18日 at 216 n.48). The folio held throughout: printed = PDF − 20. The download, images, OCR text and crops were deleted at the end.
+
+**The chapter map.** Ch. 2 ends at p. 183 (n.131); p. 184 is blank. Ch. 3 「再發動」 runs from p. 185 (its notes restart at n.1): part 一, the Eleventh Plenum (§1 the meeting, p. 186; §2 "Bombard the Headquarters", p. 190; §3 the Sixteen Points, p. 196; §4 the reorganization of the Center, p. 199); part 二, the Red Guard movement (§1 Mao's letter, p. 204; §2 the rally of Aug. 18, p. 206; §3 the couplet debate, p. 209; §4 the Urgent Appeal, p. 217; §5 the rebel Red Guards, p. 220; §6 the Red Guard headquarters, p. 223).
+
+**What was read.** Ch. 2 part 六 from the foot of p. 168 (the Tsinghua middle school work group's report) through §5 (Mao's letter of July 8) and §6 (the withdrawal of the work groups) to p. 183; ch. 3 pp. 185–223, to the head of §6. All notes of these pages read (ch. 2 n.116–131; ch. 3 n.1–59).
+
+**What was entered.**
+- 120 new entries: 89 with `place`, 23 with a time (among them the afternoons of the plenum's sessions of Aug. 2 and 3 and of the Fujian Hall meeting of Aug. 4, the evenings of July 25 and 28 and Aug. 8, 10 a.m. of Nov. 19 at Chongqing University), 32 with `at`; 53 with a `vis:` ruling. By year: 1966 115, 1967 5. None `form:state`. One *Estimates* gloss, by an `edit`, on the last of Mao's receptions (`cal.1966-11-25.china-leadership-2`): Bu's eleven million received in the eight receptions, the commoner figure, against others' twelve or thirteen million (208, 208 n.31).
+- 75 cites, 24 with units, each unit claimed only where the page bears every place, person, figure and claim in it; elsewhere the parenthetical says what the page bears.
+- 7 variants: Bu's morning at the Yinian Tang 頤年堂 for Mao's meeting of July 24 (his note gives Mu Xin's afternoon at Diaoyutai Building 12); the second Peking University rally the evening of July 26, not July 27 (`cal.1966-07-27.china-leadership-4`); the withdrawal decision drafted by the Cultural Revolution Group and revised by Mao, not by Deng (`cal.1966-07-27.china-leadership-8`); Mao's interjection on the work groups during Liu Shaoqi's speech, not Chen Boda's (`cal.1966-08-01.china-leadership`); Tan Lifu's poster of Aug. 12 as a qualifying of the couplet, not an endorsement (`cal.1966-08-12.china-leadership-6`); the People's University middle school, not Peking University's, among the three signers of the Urgent Appeal (`cal.1966-08-06.china-leadership-4`); the Tsinghua Jinggangshan corps founded Sept. 23, not 24.
+- 24 `to-check` ops, 4 `place` ops (Peking on the plenum's entries of Aug. 2, 3 and 8 and Lin Biao's speech of Aug. 13).
+- 9 `edit` ops: the afternoon of Aug. 1, 2 and 4 and the morning of Aug. 8 (the plenum's sessions) and the evening of Aug. 8 (Lin Biao and the Group); "Made public: 1997" from the 1997 *Zhou Enlai nianpu* on Zhou's speech of Aug. 2 (190 n.9, the run 3 audit's ruling); the *Estimates* gloss above; and three striking the earlier readers' plain-text To check items for this book that this run's cites replace: 191–192 on `cal.1966-08-04.china-leadership-5`, 194 on `cal.1966-08-07.china-leadership-6`, 206 on `cal.1966-08-18.china-leadership-4`.
+- Witnesses: 29 rows (among them the Tsinghua middle school work group's report in the League's *Wenge jianxun* no. 10; the Peking committee's decision of July 28 and the four speeches of July 29 in the *Wenku*; Lin Biao's talk to the Group of Aug. 8; the speeches of Aug. 5 at Tsinghua and Aug. 6 at the Tianqiao Theatre; Tao Zhu's of Aug. 21 and 25; Zhou Enlai's of Aug. 18; Wang Li's of Nov. 18; Guan Feng's of Sept. 28; the posters and speeches of Tan Lifu; "On family background" in the *Zhongxue wenge bao* no. 1; the Beihang *Hongqi* of Feb. 2, 1967; the *Guangming ribao* of Aug. 10 and the *Renmin ribao* editorial of Aug. 23, 1966; the studies and memoirs of Liu Linyuan, Mu Xin, Zheng Guang, Xu Haoyuan, Zhou Ziren and Li Zhijian; a Red Guard tabloid unnamed). Rows reused: the work group's report of July 4 (run 4), the *Hongqi* no. 11 of 1966 (MacFarquhar), Li Xuefeng's "fifty days" memoir and the plenum's record of Aug. 1 (Tiandi, the *Mao zhuan*), Zhang Chengxian's article (run 2), Mao Mao's *Wenge suiyue* and Wang Li's *Fansilu* (Tiandi), Qian Gang's article of 1980 (Tiandi), Zhou Enlai's speech of Sept. 10 (Tiandi). 69 edges under `# run 5`.
+- 6 new cards, each with `script` from Bu's note: `w.mao-zedong-zaoqi-wengao` (1990), `w.zhongguo-gongchandang-zhejiang-lishi` (1996), `w.yong-huo-xie-zai` (the Ma Shijiang memorial volume, 2002), `w.zhongguo-gongchandang-beijing-lishi` (2001), `w.chen-yun-zhuan` (Jin Chongji and Chen Qun, 2005, the edition Bu cites; the 2015 card `w.jin-chongji-chen-yun-zhuan` now `edition_of` it), `w.xingxing-sese-de-zaofan` (Xu Youyu, 1999). The Zhejiang and Peking chronologies made with `--force` beside the national and Sichuan ones `works new` matched.
+- The ledger holds 120 claims under the patch, matching the adds. Two released: `cal.1966-08.china-leadership-66` (Chen Yi's "emperor deciding alone" to Ji Pengfei, which the tree holds as `cal.1966-08.china-leadership-58`: made a cite) and `cal.1966-09-24.china-leadership-6` (the Jinggangshan corps' attack on the broadcasting station, which the tree's entry of Sept. 24 holds: a cite and a variant).
+
+**Visibility and "Made public."** Internal acts carry `vis:only:prc` and "Made public: 2008" where Bu's note names no earlier printing; otherwise the earliest printing the note names: 1994 (Mu Xin), 1995 (the *Chen Yi nianpu*), 1997 (the *Zhou Enlai nianpu*; Xu Haoyuan), 1998 (the *Liu Shaoqi zhuan*), 1999 (Xu Youyu), 2000 (Mao Mao), 2001 (Wang Li; the Peking chronology), 2002 (the Ma Shijiang volume), 2005 (the *Chen Yun zhuan*). The posters, rallies, marches, sit-ins, the press, Xinhua, criticism by name and the Red Guards' public acts carry none.
+
+**Duplicates.** Most of the leadership's acts of July–Aug. 1966 are in the tree (the Mao, Zhou, Liu, Deng and Ye chronologies, MacFarquhar and Schoenhals, Tiandi) and were made cites: Mao's letter of July 8 and its sequel (July 11, 14, 15); July 18, 19, 22, 23, 24, 25, 26, 27, 28, 29; the plenum's sessions of Aug. 1–12 and the Center's documents (Aug. 4, 5, 6, 7, 8, 12, 13); Mao's letter to the Tsinghua middle school Red Guards and Wang Renzhong's showing it; the rally of Aug. 18; the couplet (Aug. 2, 6); Tan Lifu (Aug. 12, 20); the admissions notice (July 24); Kang Sheng's "February mutiny" and Deng's denial; the Urgent Appeal; Yu Luoke's arrest; Zhou of Sept. 10; Chen Boda's report of Oct. 16; Mao of Oct. 25. This run's adds are the acts the tree lacked: the Tsinghua and Peking University middle schools against their work groups (June–July); Chongqing University (June 18) and Zhejiang University (June 28); Liu Shaoqi's instruction of July 14; the PKU rallies of July 25, the Haidian and Xicheng congresses and the beating of the work groups; the plenum's speeches (Li Xuefeng, Bo Yibo, Song Renqiong, Li Jingquan, Wei Wenbo, Deng in the Central-South group, Kang, Jiang, Qi, Zhang, Chen Boda, Lin Biao, Jiang Qing on Tao Zhu); the drafts of the Sixteen Points; the Center's notices of Aug. 14–15; the Red Guards' foundings and the rally's side acts; the Urgent Appeal's printing and recall; the rebels' storming of the Ministry of Geology and the Defense Science Commission and the broadcast seizures of Sept.–Nov.
+
+## Passed over (run 5; R44, R18's grounds only)
+
+Made by reading every dated act on pp. 168–223 and their notes against the tree and the patch.
+
+| page | date | event | why |
+|---|---|---|---|
+| 173 | May 1972 | the letter of July 8 printed as a document of the criticize-Lin rectification meeting; Jiang Qing's gloss on it | outside the span |
+| 174 | 1970 | Mao to Snow on the personality cult | outside the span |
+| 199 n.15 | 1977; 1983 | Chen Zaidao made railway corps commander; the corps abolished (Bu's correction of Wang Li) | outside the span |
+| 217 | Mar. 1970 | Yu Luoke executed | outside the span |
+
+## Leads (run 5; undated, R50)
+
+- 173: the original of the letter of July 8 destroyed on Mao's instruction, a copy kept (no date).
+- 191 n.10: Liu Shaoqi's later self-examination for his "five not-afraids" (Huang Zheng, 173; no date).
+- 200: Tao Zhu's account of the "first and second lines" (entered for October); Lin Biao alone called vice-chairman thereafter (a state, no date).
+- 209: Mao's sayings of 1919 and 1927 taken up as the Red Guards' mottoes (no date of the taking up).
+- 215–216: Tan Lifu's father's ashes smashed at Babaoshan (in the add of May 29, 1967; no date of its own); Tan Zhengwen's death "in 1961" (the tree holds his encoffining of Dec. 13, 1961).
+- 216: the "old Red Guards" in eclipse after the criticism of the bourgeois reactionary line (no date).
+- 217: the rebels' criticism of "On family background" after Qi Benyu's words (in the add of Apr. 14, 1967).
+- 220–221: the majority and minority factions in the schools (a state, no date).
+
+## Doubts (run 5)
+
+- **The edition of the *Liu Shaoqi nianpu*.** Bu cites the 1996 edition, 下卷, 1027 and 647 (175 n.124, 188 n.6); the tree cites `w.shaoqi-liu-shaoqi-nianpu-chronology` (the card says 1996) at II, 645–648 for the same days. The edges here carry Bu's pages; whether the card's pagination is another printing is for the owner.
+- **The *Chen Yun zhuan*.** Bu's 2005 edition (下冊, 1358–1359) is a new card; the 2015 card held is set `edition_of` it. If the 2015 is a reprint, not a revision, the two may be combined.
+- **Dates by Bu against the tree.** The second Peking University rally (July 26 in Bu, July 27 in the *Zhou Enlai nianpu*); Zhou's words on the "children's associations" early on Aug. 5 (Bu) at the Tsinghua meeting the tree dates the evening of Aug. 4 (one meeting past midnight: cited, no variant); the Jinggangshan corps (Sept. 23 against 24): variants or parentheticals as listed.
+- **The Urgent Appeal's signers.** Bu (217) and Tiandi: the People's University middle school; MacFarquhar (the tree's `c`): Peking University's. A variant; Kang Sheng's own words named Peking University's, which Bu corrects to Beihang's.
+- **Mu Xin's account of the Appeal** (219 n.54): Bu marks its errors (the West District pickets not yet formed). The six adds resting on it carry "Made public: 1994" from it and Bu's caution.
+- **Hu Keshi's instructions** (171): dated "1966, June–July" by the work group's stay at the Tsinghua middle school (June 8 to the withdrawal); Bu gives no day.
+- **Mao's turn against the Appeal** and **Jiang Qing's meetings against Wang Renzhong** are set "Aug., later" (`at: after 1966-08-13`, after the Workers' Stadium rally of Aug. 13, which "the rally of 100,000 against three middle-school students" appears to be); Bu does not name the rally's date.
+- ***Zhonggong dangshi ziliao*, *Dangshi tongxun* and the *Yanjiu ziliao***: none cited for "Made public" in this run except the *Yanjiu ziliao* (internal, 1988), named only in To check items.
+
+## Persons named in `c` with no name entry (run 5; not tagged)
+
+- *The schools and the work groups*: Liu Jin, Hu Keshi, Hu Qili, Hu Yaobang, Zhang Dehua, Zhang Chengxian, Kuai Dafu, Peng Xiaomeng, Luo Xiaohai, Kuang Taosheng, Han Jun, Song Bolin, Bu Dahua, Xu Haoyuan, Qi Xiangdong, Miao Ziling, Ma Shijiang, Zhou Jie, Sun Yuezhu, Lao Yuanyi, Tan Lifu, Tan Zhengwen, Yu Luoke, Nie Yuanzi, Song Binbin.
+- *The Group and the Peking committee*: Wang Li, Guan Feng, Qi Benyu, Mu Xin, Wang Renzhong, Li Xuefeng, Wu De.
+- *The plenum and the ministries*: Song Renqiong, Wei Wenbo, Liu Zhijian, Jian Bozan, Zou Jiayou, He Changgong, Zhou Rongxin, Zhuo Xiong, Zhao Ruzhang, Luo Shunchu.
+
+## The notes (run 5)
+
+Every item of every note on the pages cited is a row or an edge (lettered 175 n.124a–b, 179 n.127a–c, 180 n.129a–b, 182 n.131a–d, 188 n.6a–b, 189 n.7a–b). Notes with no item: 170 n.118 and n.119 (glosses, in the adds), 171 n.121 (a fact, entered), 187 n.5 (the list of non-voting members, in the cite), 201 n.20 (Liu's statement of July 22, in the cite), 202 n.21 (a gloss), 203 n.24 (Mao's words of Oct. 25, a statement, cited), 206 n.27 (a gloss, in the add), 208 n.31 (the estimates, in the gloss), 209 n.34–35 (the foundings, entered), 216 n.47 (a gloss), 219 n.53 (Mao's words of Aug. 23, a statement without a record, entered), 221 n.57 (a gloss). 209 n.36 (Mao's early writings, 1990, for a lead) is an edge to a new card, `w.mao-zedong-zaoqi-wengao`. P. 168's notes (n.114–115) are run 4's edges. Pages cited with no notes of their own: 173, 177, 181, 183, 192, 195, 197, 204. `./bib notes-coverage` reads only the tree, so this run's pages show there after the merge.
+
+## Where run 6 starts
+
+P. 223, foot: ch. 3 part 二 §6 「紅衛兵司令部」 (the capital's Red Guard headquarters, the First, Second and Third Headquarters), then the great exchanges and the breaking of the four olds. The earlier readers' plain-text "To check:" items for this book still to be read: pp. 449–460, 533 and 540, and the "51" of `cal.1967-05-13.china-leadership-5`; in card form 310, 356, 449–450 and 504–506. Pp. 191–194 and 206 are now struck by this run's edits.
+
+## Counts (run 5)
+
+| | |
+|---|---|
+| new entries | 120 (89 with place, 23 with time, 32 with `at`, 53 with `vis:`; none `form:state`) |
+| cites | 75 (24 with units) |
+| variants | 7 |
+| `check` ops | 0 |
+| `to-check` ops | 24 |
+| `src` ops | 0 |
+| `place` ops | 4 |
+| `edit` ops | 9 (5 times, 1 "Made public", 1 *Estimates* gloss, 3 striking plain-text To check items) |
+| witness rows | 29 |
+| edges | 69 |
+| cards | 6 new, 1 amended |

@@ -36,6 +36,36 @@ ops:
     name: Weiyuan
     zone: Asia/Shanghai
     in: prc
+- place-key:
+    key: emei
+    name: Emei
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: dukou
+    name: Dukou
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: dazu
+    name: Dazu
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: huili
+    name: Huili
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: shimian
+    name: Shimian
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: mianning
+    name: Mianning
+    zone: Asia/Shanghai
+    in: prc
 - add:
     entry:
       id: cal.1960-01.china-leadership-20
@@ -1575,6 +1605,7 @@ ops:
       - polity:prc
       - vis:only:prc
       - name:peng-dehuai
+      - ok:fields-time
 - add:
     entry:
       id: cal.1964-03-02.china-leadership-10
@@ -1599,6 +1630,7 @@ ops:
       - polity:prc
       - vis:only:prc
       - name:peng-dehuai
+      - ok:fields-place
 - add:
     entry:
       id: cal.1964-05-05.china-leadership-8
@@ -1714,6 +1746,7 @@ ops:
       - polity:prc
       - vis:only:prc
       - name:peng-dehuai
+      - ok:fields-time
 - add:
     entry:
       id: cal.1964-07-17.china-leadership-13
@@ -2322,4 +2355,823 @@ ops:
       n: '[[w.peng-dehuai-nianpu]], 793. Names: Peng Dehuai.'
       tags:
       - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-01-06.china-leadership-4
+      when: Jan. 6
+      date: '1966-01-06'
+      place: dayi
+      thread: china-leadership
+      c: Dayi county 大邑县. Peng Dehuai 彭德怀 sees the exhibition of "the evil landlord's manor" 万恶的地主庄园.
+      n: '[[w.peng-dehuai-nianpu]], 794. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-01-14.china-leadership-4
+      when: Jan. 14–20
+      date: '1966-01-14'
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Peng Dehuai 彭德怀 at the third-front construction committee's 三线建设委员会 conference summing up the third front's building in 1965.
+      n: '[[w.peng-dehuai-nianpu]], 794. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-02-08.china-leadership-8
+      when: Feb. 8
+      date: '1966-02-08'
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 at the third-front construction committee's 三线建设委员会 meeting on the capital construction projects of 1966.
+      n: '[[w.peng-dehuai-nianpu]], 794. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-03-22.china-leadership-10
+      when: Mar. 22
+      date: '1966-03-22'
+      place:
+      - chengdu
+      - emei
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 goes from Chengdu 成都 to Emei county 峨眉县 and lodges at Villa No. 2 of Hongzhushan 红珠山, one of four built in 1960. To build so lavishly in such hard times, he says, was wrong.
+      n: '[[w.peng-dehuai-nianpu]], 794. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc@B
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-03-23.china-leadership-6
+      when: Mar. 23
+      date: '1966-03-23'
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 inspects the Chengdu–Kunming railway 成昆铁路 works of the 48th Regiment, 10th Division of the Railway Corps 铁道兵.
+      n: '[[w.peng-dehuai-nianpu]], 794. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-03-25.china-leadership-5
+      when: Mar. 25
+      date: '1966-03-25'
+      place: shimian
+      thread: china-leadership
+      c: Shimian county 石棉县. Peng Dehuai 彭德怀 visits the asbestos mine; he finds Shuai Shigao 帅仕高, the old boatman who helped the Red Army 红军 force the Dadu River 大渡河, and gives him ten yuan to treat his eyes.
+      n: '[[w.peng-dehuai-nianpu]], 794. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-03-26.china-leadership-6
+      when: Mar. 26
+      date: '1966-03-26'
+      place: mianning
+      thread: china-leadership
+      c: Mianning 冕宁 county town. Peng Dehuai 彭德怀 sees the houses the Red Army 红军 lodged in on the Long March 长征 through the Yi 彝族 country.
+      n: '[[w.peng-dehuai-nianpu]], 794. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-03-27.china-leadership-14
+      when: Mar. 27
+      date: '1966-03-27'
+      place: xichang
+      thread: china-leadership
+      c: Xichang 西昌. Peng Dehuai 彭德怀 sees the Xichang steel works 西昌钢铁厂.
+      n: '[[w.peng-dehuai-nianpu]], 794. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-03-28.china-leadership-7
+      when: Mar. 28
+      date: '1966-03-28'
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 visits the Luojishan 螺吉山 (so printed) livestock farm run by Xichang prefecture 西昌专区, and lunches there.
+      n: '[[w.peng-dehuai-nianpu]], 794. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-03-28.china-leadership-8
+      when: Mar. 28
+      date: '1966-03-28'
+      place: xichang
+      thread: china-leadership
+      c: 'Xichang 西昌. Finding that his party of ten paid only two yuan for their lunch at the farm, Peng Dehuai 彭德怀 writes to its head, "Comrade Tian" 田同志: twenty cents a head is far too little; six jin of meat at seventy cents a jin is 4.20 yuan, besides the rest, and ten yuan would be fair; he encloses eight yuan more; every enterprise must keep strict accounts.'
+      n: '[[w.peng-dehuai-nianpu]], 794. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1966-03-28.china-leadership-7
+- add:
+    entry:
+      id: cal.1966-03-29.china-leadership-10
+      when: Mar. 29
+      date: '1966-03-29'
+      place: huili
+      thread: china-leadership
+      c: Huili county 会理县. Peng Dehuai 彭德怀 sees the battlefield of the Third Army Group's 红三军团 attack on the county town and the site of the Huili meeting 会理会议.
+      n: '[[w.peng-dehuai-nianpu]], 795. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-03-30.china-leadership-9
+      when: Mar. 30
+      date: '1966-03-30'
+      place: dukou
+      thread: china-leadership
+      c: Dukou 渡口. Peng Dehuai 彭德怀 inspects the Panzhihua 攀枝花 iron mine.
+      n: '[[w.peng-dehuai-nianpu]], 795. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-03-31.china-leadership-8
+      when: Mar. 31
+      date: '1966-03-31'
+      place: dukou
+      thread: china-leadership
+      c: Dukou 渡口. Peng Dehuai 彭德怀 inspects the Baoding 宝顶 coal mine, a cement works and a power station.
+      n: '[[w.peng-dehuai-nianpu]], 795. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-04-01.china-leadership-7
+      when: Apr. 1
+      date: '1966-04-01'
+      place: dukou
+      thread: china-leadership
+      c: Dukou 渡口. Li Feiping 李非平, first deputy secretary of the Dukou city committee 中共渡口市委, and Xu Chi 徐池, its secretary, report to Peng Dehuai 彭德怀 on the building of the Panzhihua steel works 攀枝花钢铁厂.
+      n: '[[w.peng-dehuai-nianpu]], 795. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-04-02.china-leadership-8
+      when: Apr. 2
+      date: '1966-04-02'
+      place: dukou
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 leaves Dukou 渡口 for Chengdu 成都.
+      n: '[[w.peng-dehuai-nianpu]], 795. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-04-08.china-leadership-6
+      when: Apr. 8
+      date: '1966-04-08'
+      place: chengdu
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 back in Chengdu 成都.
+      n: '[[w.peng-dehuai-nianpu]], 795. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-04-19.china-leadership-5
+      when: Apr. 19
+      date: '1966-04-19'
+      place:
+      - chengdu
+      - zigong
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 goes from Chengdu 成都 to Zigong 自贡, beginning a tour of investigation of southern Sichuan 川南 to Apr. 28.
+      n: '[[w.peng-dehuai-nianpu]], 795. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-04-20.china-leadership-5
+      when: Apr. 20
+      date: '1966-04-20'
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀 at the Furong 芙蓉 mining area: he inspects the Baijiao 白皎 coal mine. He hears the area''s heads on its building.'
+      n: '[[w.peng-dehuai-nianpu]], 795. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc@B
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-04-23.china-leadership-6
+      when: Apr. 23
+      date: '1966-04-23'
+      place: luzhou
+      thread: china-leadership
+      c: Luzhou 泸州. Peng Dehuai 彭德怀 sees the Luzhou chemical works 泸州化工厂 and the rice research institute.
+      n: '[[w.peng-dehuai-nianpu]], 795. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-04-25.china-leadership-9
+      when: Apr. 25
+      date: '1966-04-25'
+      place: yibin
+      thread: china-leadership
+      c: Yibin 宜宾. Peng Dehuai 彭德怀 visits the orchards.
+      n: '[[w.peng-dehuai-nianpu]], 795. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-04-26.china-leadership-6
+      when: Apr. 26–27
+      date: '1966-04-26'
+      place: yongchuan
+      thread: china-leadership
+      c: Yongchuan county 永川县. Peng Dehuai 彭德怀 holds a forum of workers on "both worker and peasant" 亦工亦农 and "rotating workers" 轮换工.
+      n: '[[w.peng-dehuai-nianpu]], 795. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-04-28.china-leadership-6
+      when: Apr. 28
+      date: '1966-04-28'
+      place:
+      - yongchuan
+      - chengdu
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 returns from Yongchuan 永川 to Chengdu 成都.
+      n: '[[w.peng-dehuai-nianpu]], 795. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-05.china-leadership-48
+      when: May, early
+      date: '1966-05'
+      at: before 1966-05-01
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Peng Dehuai 彭德怀 at a meeting called by the Ministry of Building 建工部.
+      n: '[[w.peng-dehuai-nianpu]], 795. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- cite:
+    id: cal.1966-05-04.china-leadership
+    item: '[[w.peng-dehuai-nianpu]], 795 (May 4–26, 1966: the enlarged Politburo meeting at Peking 北京; its explanation of the decision of the enlarged meeting, May 24, touching Peng Dehuai 彭德怀: the "Peng Dehuai anti-Party clique" exposed and criticized early in 1960)'
+- cite:
+    id: cal.1966-05-16.china-leadership
+    item: '[[w.peng-dehuai-nianpu]], 795 (May 16, 1966: the meeting adopts the Center''s notice 《通知》, the "May 16 Notice" 五一六通知: the February Outline 二月提纲 does not mention the gravity of the struggle; they forbade touching the crux in criticizing Wu Han 吴晗, the dismissal of the Right opportunists at Lushan 庐山 in 1959)'
+- add:
+    entry:
+      id: cal.1966-05-26.china-leadership-7
+      when: May 26
+      date: '1966-05-26'
+      place: dazu
+      thread: china-leadership
+      c: Dazu county 大足县. Peng Dehuai 彭德怀, with Yang Pei 杨沛, inspects the heavy truck works 重型汽车厂, meaning to go on through Chongqing 重庆 and Zunyi 遵义 to Guiyang 贵阳 to look at the third front's plants and mines.
+      n: '[[w.peng-dehuai-nianpu]], 796. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-05-27.china-leadership-7
+      when: May 27
+      date: '1966-05-27'
+      place: dazu
+      thread: china-leadership
+      c: 'Dazu 大足, the heavy truck works. The third-front construction committee 三线建设委员会 telephones Peng Dehuai 彭德怀 without warning: he is to return to Chengdu 成都 to study.'
+      n: '[[w.peng-dehuai-nianpu]], 796. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-05-28.china-leadership-5
+      when: May 28
+      date: '1966-05-28'
+      place: chengdu
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 returns to Chengdu 成都.
+      n: '[[w.peng-dehuai-nianpu]], 796. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-06.china-leadership-62
+      when: June, early
+      date: '1966-06'
+      at: before 1966-06-01
+      thread: china-leadership
+      c: The third-front construction committee's 三线建设委员会 cadres of bureau rank and above meet to study the Center's Notice 《中国共产党中央委员会通知》 and criticize Peng Dehuai's 彭德怀 "anti-Party errors."
+      n: '[[w.peng-dehuai-nianpu]], 796. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-06-04.china-leadership-10
+      when: June 4
+      date: '1966-06-04'
+      thread: china-leadership
+      c: The Southwest Bureau 中共中央西南局 sends the Center 中共中央 and Mao Zedong 毛泽东 the "Briefing by the Southwest Bureau's third-front committee office on Comrade Peng Dehuai's chief conduct over half a year" 《西南局三线建委办公室关于彭德怀同志半年主要情况简报》, on five matters.
+      n: '[[w.peng-dehuai-nianpu]], 796. Made public: 1998. Names: Peng Dehuai, Mao Zedong.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1966-06-27.china-leadership-11
+      when: June 27–July 19
+      date: '1966-06-27'
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 goes from Chengdu 成都 to the Liupanshui 六盘水 area of Guizhou 贵州 for the on-the-spot meeting on its plan for comprehensive use.
+      n: '[[w.peng-dehuai-nianpu]], 796. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- cite:
+    id: cal.1966-08-01.china-leadership
+    item: '[[w.peng-dehuai-nianpu]], 796 (Aug. 1–12, 1966: the Eleventh Plenum 中国共产党八届十一中全会 at Peking 北京; Aug. 5, Mao''s "Bombard the headquarters: my big-character poster"; Aug. 8, the Decision on the Great Proletarian Cultural Revolution 《关于无产阶级文化大革命的决定》, the "Sixteen Articles" 十六条)'
+- cite:
+    id: cal.1966-08-18.china-leadership-12
+    item: '[[w.peng-dehuai-nianpu]], 796 (Aug. 18, 1966: Mao Zedong 毛泽东 and others receive the masses and Red Guards 红卫兵 from all over the country at Tiananmen 天安门)'
+- add:
+    entry:
+      id: cal.1966-09-01.china-leadership-15
+      when: Sept. 1
+      date: '1966-09-01'
+      thread: china-leadership
+      c: The Southwest Bureau's Secretariat 西南局书记处 twice tells Peng Dehuai 彭德怀 to leave Chengdu 成都 for Dazu county 大足县 for his safety; he refuses.
+      n: '[[w.peng-dehuai-nianpu]], 796. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-09.china-leadership-35
+      when: Sept., early, to the 20th
+      date: '1966-09'
+      at: before 1966-09-11
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Peng Dehuai 彭德怀 at the third-front construction committee's 三线建设委员会 conference on capital construction, to Sept. 20.
+      n: '[[w.peng-dehuai-nianpu]], 796. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-12-04.china-leadership-7
+      when: Dec. 4
+      date: '1966-12-04'
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀 drafts a letter to Mao Zedong 毛泽东: a year in the southwest; Mao had asked him to write often, but with nothing achieved he had not; with Mao''s seventy-third birthday near, his good wishes and his views on building the southwest; an account of his tours and meetings; the Southwest Bureau and the committee distrust him and fear his influence spreading: so he asks to go into farm work.'
+      n: '[[w.peng-dehuai-nianpu]], 796. Made public: 1998. Names: Peng Dehuai, Mao Zedong.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1966-12-11.china-leadership-4
+      when: Dec. 11
+      date: '1966-12-11'
+      thread: china-leadership
+      c: Jiang Qing 江青, Kang Sheng 康生 and Chen Boda 陈伯达 of the Central Cultural Revolution Group 中央文革小组 decide on their own to have "Hai Rui" 海瑞, Peng Dehuai 彭德怀, seized and brought back to Peking 北京.
+      n: '[[w.peng-dehuai-nianpu]], 797. Made public: 1998. Names: Jiang Qing, Kang Sheng, Chen Boda, Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:jiang-qing
+      - name:kang-sheng
+      - name:chen-boda
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-12-11.china-leadership-5
+      when: Dec. 11
+      date: '1966-12-11'
+      thread: china-leadership
+      c: 'Qi Benyu 戚本禹 tells the head of the East Is Red headquarters of the Peking Geology Institute 北京地质学院东方红总部 to seize Peng Dehuai 彭德怀; the head telephones the institute''s Red Guard liaison station at Chengdu 成都: find Peng at the third-front construction committee and bring him safely back to Peking 北京, by the order of Qi Benyu of the Central Cultural Revolution Group.'
+      n: '[[w.peng-dehuai-nianpu]], 797. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+      follows:
+      - cal.1966-12-11.china-leadership-4
+- add:
+    entry:
+      id: cal.1966-12-12.china-leadership-8
+      when: Dec. 12
+      date: '1966-12-12'
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Cadres and Red Guards 红卫兵 of the Peking Geology Institute's East Is Red liaison station 北京地质学院东方红成都联络站 call at Peng Dehuai's 彭德怀 lodging to learn his attitude to the Cultural Revolution, the first of three calls.
+      n: '[[w.peng-dehuai-nianpu]], 797. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-12-13.china-leadership-4
+      when: Dec. 13
+      date: '1966-12-13'
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. The Peking Geology Institute's East Is Red liaison station's cadres and Red Guards call at Peng Dehuai's 彭德怀 lodging a second time.
+      n: '[[w.peng-dehuai-nianpu]], 797. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-12-16.china-leadership-7
+      when: Dec. 16
+      date: '1966-12-16'
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀 sends Mao Zedong 毛泽东 a letter headed "My understanding and views of the Great Proletarian Cultural Revolution" 我对无产阶级文化大革命的体会和看法, on the Cultural Revolution throughout. To his guard: if only he could see Chairman Mao now.'
+      n: '[[w.peng-dehuai-nianpu]], 797. Made public: 1998. Names: Peng Dehuai, Mao Zedong.'
+      tags:
+      - polity:prc
+      - vis:only:prc@B
+      - name:peng-dehuai
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1966-12-18.china-leadership-6
+      when: Dec. 18
+      date: '1966-12-18'
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. The Peking Geology Institute's East Is Red liaison station's cadres and Red Guards call at Peng Dehuai's 彭德怀 lodging a third time.
+      n: '[[w.peng-dehuai-nianpu]], 797. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-12-20.china-leadership-4
+      when: Dec. 20
+      date: '1966-12-20'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. The Peking Geology Institute''s East Is Red Red Guards, back from Chengdu 成都, report their talks with Peng Dehuai 彭德怀 to their headquarters: Peng is in the right, their impression of him good; they doubt he should be seized.'
+      n: '[[w.peng-dehuai-nianpu]], 797. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-12-20.china-leadership-5
+      when: Dec. 20
+      date: '1966-12-20'
+      thread: china-leadership
+      c: The head of the Peking Geology Institute's East Is Red headquarters tells Qi Benyu 戚本禹 that the Chengdu 成都 liaison station's men are unwilling to seize Peng Dehuai 彭德怀; Qi rebukes them as wavering and deceived, and decides to send others.
+      n: '[[w.peng-dehuai-nianpu]], 797. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+      follows:
+      - cal.1966-12-20.china-leadership-4
+- add:
+    entry:
+      id: cal.1966-12-20.china-leadership-6
+      when: Dec. 20
+      date: '1966-12-20'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京, the Great Hall of the People 人民大会堂. The Central Cultural Revolution Group 中央文革小组 receives the representatives of the military academies; Qi Benyu 戚本禹 to those of the Peking Aeronautics Institute 北京航空学院: leave Ye Jianying 叶剑英 alone for now; "Hai Rui" 海瑞 has not yet been struggled against; Peng Dehuai 彭德怀 is at Chengdu 成都, deputy commander of the third front: bring him back.'
+      n: '[[w.peng-dehuai-nianpu]], 797. Made public: 1998. Names: Ye Jianying, Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-12-20.china-leadership-7
+      when: Dec. 20
+      date: '1966-12-20'
+      thread: china-leadership
+      c: The Peking Aeronautics Institute's 北京航空学院 representatives, back from the Central Cultural Revolution Group's reception, at once decide to send men to Chengdu 成都 for Peng Dehuai 彭德怀.
+      n: '[[w.peng-dehuai-nianpu]], 797. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+      follows:
+      - cal.1966-12-20.china-leadership-6
+- add:
+    entry:
+      id: cal.1966-12-23.china-leadership-5
+      when: Dec. 23
+      date: '1966-12-23'
+      time_range:
+      - '1966-12-22T16:00Z'
+      - '1966-12-22T22:00Z'
+      time_band: predawn
+      time_zone: Asia/Shanghai
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Six Red Guards 红卫兵 of the Peking Aeronautics Institute's Red Flag 北京航空学院红旗 break into No. 7 Yongxing Lane 永兴巷 before dawn and carry off Peng Dehuai 彭德怀 from his sleep; by six he is held at the Chengdu Geology Institute 成都地质学院.
+      n: '[[w.peng-dehuai-nianpu]], 797. The words: 凌晨; 凌晨六点 (6 a.m.) (797). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-12-23.china-leadership-6
+      when: Dec. 23
+      date: '1966-12-23'
+      time_range:
+      - '1966-12-22T22:00Z'
+      - '1966-12-23T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Red Guards of the Peking Geology Institute's East Is Red 北京地质学院东方红 come to No. 7 Yongxing Lane 永兴巷 to seize Peng Dehuai 彭德怀 and find him gone; told that the Aeronautics Institute's liaison station has taken him, they drive a truck to the Chengdu Geology Institute 成都地质学院, take him away and move him to the Sichuan Geology Bureau 四川省地质局.
+      n: '[[w.peng-dehuai-nianpu]], 797. The words: 上午 (797). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1966-12-23.china-leadership-5
+- add:
+    entry:
+      id: cal.1966-12-23.china-leadership-7
+      when: Dec. 23
+      date: '1966-12-23'
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. The Peking Aeronautics Institute's 北京航空学院 men demand Peng Dehuai 彭德怀 back from the Geology Institute's; by agreement the Aeronautics Institute gives him to the Geology Institute, to bring "Hai Rui" 海瑞 back to Peking 北京 in the names of both.
+      n: '[[w.peng-dehuai-nianpu]], 797–798. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1966-12-23.china-leadership-6
+- add:
+    entry:
+      id: cal.1966-12-23.china-leadership-8
+      when: Dec. 23
+      date: '1966-12-23'
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. A dozen men of the Peking Geology Institute 北京地质学院 go back and search Peng Dehuai's 彭德怀 house, carrying off two suitcases of his telegrams, historical papers and books.
+      n: '[[w.peng-dehuai-nianpu]], 798. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1966-12-23.china-leadership-6
+- add:
+    entry:
+      id: cal.1966-12-23.china-leadership-9
+      when: Dec. 23
+      date: '1966-12-23'
+      thread: china-leadership
+      c: The third-front construction committee 三线建设委员会, after Peng Dehuai's 彭德怀 seizure by the Aeronautics Institute's Red Guards, telephones Zhou Enlai's 周恩来 office for instructions.
+      n: '[[w.peng-dehuai-nianpu]], 798. Made public: 1998. Names: Peng Dehuai, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:zhou-enlai
+      - ok:fields-place
+      follows:
+      - cal.1966-12-23.china-leadership-5
+- cite:
+    id: cal.1966-12-24.china-leadership-2
+    item: '[[w.peng-dehuai-nianpu]], 798 (Dec. 24, 1966: Zhou Enlai 周恩来 minutes on the telephone record: tell the General Staff 总参 that if he is brought to Peking it is to be by train, not by air; Zhou''s office telephones the Red Guards'' heads of the two institutes, the third-front committee and the Chengdu Military Region 成都军区: do not struggle Peng Dehuai 彭德怀 in Chengdu 成都; bring him to Peking 北京 quickly, by train, not by air, the Geology Institute''s East Is Red with the army in charge of the escort; the Premier''s office to see to all on the way, the Peking Garrison 北京卫戍区 to send troops to wait in Peking and see to his living and study)'
+- add:
+    entry:
+      id: cal.1966-12-25.china-leadership-6
+      when: Dec. 25
+      date: '1966-12-25'
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Red Guards 红卫兵 put Peng Dehuai 彭德怀 on the train for Peking 北京; the Chengdu Military Region 成都军区 sends a cadre, Gu Zhengling 谷正岭, and a few soldiers as his escort.
+      n: '[[w.peng-dehuai-nianpu]], 798. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-12-27.china-leadership-9
+      when: Dec. 27
+      date: '1966-12-27'
+      time_range:
+      - '1966-12-27T09:00Z'
+      - '1966-12-27T11:00Z'
+      time_band: after-workday daytime
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京, the station. Peng Dehuai 彭德怀 arrives; the head of the Peking Garrison's political department 北京卫戍区政治部 and the chief of staff of the Guard First Division 警卫一师 wait to take him over, but the Red Guards, on Qi Benyu's 戚本禹 instructions, refuse and carry him off to the Peking Geology Institute 北京地质学院.
+      n: '[[w.peng-dehuai-nianpu]], 798. The words: 傍晚 (798). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-12-27.china-leadership-10
+      when: Dec. 27
+      date: '1966-12-27'
+      time_range:
+      - '1966-12-27T11:00Z'
+      - '1966-12-27T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Zhou Enlai 周恩来 instructs Fu Chongbi 傅崇碧, commander of the Peking Garrison 北京卫戍区: he has told Qi Benyu 戚本禹 to talk with the Red Guards; Peng Dehuai 彭德怀 is still to be in the Garrison''s charge, with the Geology Institute''s East Is Red taking part.'
+      n: '[[w.peng-dehuai-nianpu]], 798. The words: 晚上 (798). Made public: 1998. Names: Zhou Enlai, Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:peng-dehuai
+      - ok:fields-place
+      follows:
+      - cal.1966-12-27.china-leadership-9
+- add:
+    entry:
+      id: cal.1966-12-28.china-leadership-7
+      when: Dec. 28
+      date: '1966-12-28'
+      time: '1966-12-27T19:00:00Z'
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Dehuai 彭德怀 is taken at 3 a.m. to the quarters of a Peking Garrison 北京卫戍区 company at Wukesong 五棵松 and held under guard there, sleeping and eating as the soldiers do; four Red Guards of the Aeronautics Institute's Red Flag and the Geology Institute's East Is Red guard and question him together.
+      n: '[[w.peng-dehuai-nianpu]], 798. The words: 凌晨3点 (3 a.m.) (798). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-12-28.china-leadership-8
+      when: Dec. 28
+      date: '1966-12-28'
+      time_range:
+      - '1966-12-27T21:00Z'
+      - '1966-12-28T00:00Z'
+      time_band: early morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wukesong 五棵松, Peking 北京. Peng Dehuai 彭德怀 to the head of the guard post: papers of his taken from his safe in Sichuan 四川 by the Aeronautics Institute''s (in fact the Geology Institute''s) men and brought to Peking should be collected; he wrote to the Chairman in November (December) on the Cultural Revolution in the southwest, and the draft is with his guard Jing Xizhen 景希珍, hidden in a radio; he wants to see Chairman Mao 毛主席, Premier Zhou 周总理 or Chen Boda 陈伯达; he does not know why he has been brought to Peking, for the Cultural Revolution or old accounts; he asks for the *Renmin ribao* 《人民日报》 and the *Jiefangjun bao* 《解放军报》 daily, and for the shirts, socks and transistor radio his guard has.'
+      n: '[[w.peng-dehuai-nianpu]], 798–799. The words: 早晨起床后 (on rising) (798–799). Made public: 1998. Names: Peng Dehuai, Mao Zedong, Zhou Enlai, Chen Boda.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:mao-zedong
+      - name:zhou-enlai
+      - name:chen-boda
+      follows:
+      - cal.1966-12-28.china-leadership-7
+- add:
+    entry:
+      id: cal.1966-12-28.china-leadership-9
+      when: Dec. 28
+      date: '1966-12-28'
+      time: '1966-12-28T05:00:00Z'
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wukesong 五棵松, Peking 北京. The Red Guards 红卫兵 question Peng Dehuai 彭德怀: what did he do, in what great events did he take part and how did he stand, from 1950 to 1953, 1953 to 1955, 1955 to 1959 and 1959 to now? He is to prepare.'
+      n: '[[w.peng-dehuai-nianpu]], 799. The words: 下午1时 (1 p.m.) (799). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1966-12-28.china-leadership-8
+- add:
+    entry:
+      id: cal.1966-12-28.china-leadership-10
+      when: Dec. 28
+      date: '1966-12-28'
+      time_range:
+      - '1966-12-28T11:00Z'
+      - '1966-12-28T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Wukesong 五棵松, Peking 北京. Peng Dehuai 彭德怀 tells the Red Guards of his years from 1950 to 1956.
+      n: '[[w.peng-dehuai-nianpu]], 799. The words: 晚上 (799). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1966-12-28.china-leadership-9
+- add:
+    entry:
+      id: cal.1966-12-29.china-leadership-8
+      when: Dec. 29
+      date: '1966-12-29'
+      time_range:
+      - '1966-12-28T21:00Z'
+      - '1966-12-29T00:00Z'
+      time_band: early morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wukesong 五棵松, Peking 北京. Peng Dehuai 彭德怀, to himself: they have held him seven days.'
+      n: '[[w.peng-dehuai-nianpu]], 799. The words: 早晨 (799). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1966-12-29.china-leadership-9
+      when: Dec. 29
+      date: '1966-12-29'
+      time_range:
+      - '1966-12-29T11:00Z'
+      - '1966-12-29T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wukesong 五棵松, Peking 北京. Peng Dehuai 彭德怀 tells the Red Guards of the Lushan meeting 庐山会议: he trusts them and tells them all; what do they want? The Cultural Revolution is aimed at the power-holders in the Party, and he is not one; the old accounts can be settled later. May he see their big-character posters? They will think about it, they say.'
+      n: '[[w.peng-dehuai-nianpu]], 799. The words: 晚上 (799). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1966-12-29.china-leadership-8
+- add:
+    entry:
+      id: cal.1966-12-30.china-leadership-6
+      when: Dec. 30
+      date: '1966-12-30'
+      place: peking
+      thread: china-leadership
+      c: Wukesong 五棵松, Peking 北京. Peng Dehuai 彭德怀 tells the Red Guards of the years after the Lushan meeting 庐山会议.
+      n: '[[w.peng-dehuai-nianpu]], 799. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
       - name:peng-dehuai
