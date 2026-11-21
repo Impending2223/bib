@@ -1806,6 +1806,19 @@ entries:
         - 'via w.yang-jisheng-tiandi-fanfu I, 476 n.31c: all'
         - 'w.yang-jisheng-tiandi-fanfu II, 960: ?'
     tags: [polity:prc]
+  - id: cal.1967-06-11.china
+    when: June 11
+    date: '1967-06-11'
+    place: shanghai
+    thread: china
+    c: 'Shanghai 上海: a mob kills a man accused by his second wife of having abused her six-year-old daughter.'
+    n: '[[w.dikotter-cultural-revolution]], 148 n.4. To check: Shanghai Municipal Archives, June 19, 1967, B168-3-136, pp. 29–32 (cited by [[w.dikotter-cultural-revolution]], 148 n.4).'
+    src:
+      c: 59f24747
+      rows:
+        - 'w.dikotter-cultural-revolution 148: all'
+        - 'via w.dikotter-cultural-revolution 148 n.4: all'
+    tags: [polity:prc]
   - id: cal.1967-06-12.civil-disorders
     when: June 12
     date: '1967-06-12'
@@ -3875,13 +3888,15 @@ entries:
     thread: china-leadership
     also: [china]
     c: Wuhan. The Million Heroes take the rebel workers' headquarters, killing twenty-five of its defenders.
-    n: '[[w.macfarquhar-maos-last-revolution]], 204; [[w.yang-jisheng-tiandi-fanfu]], I, 472 (the Million Heroes attack the Workers'' Rebel General Headquarters in arms, and at the same time the Hanyang steel rolling mill and the Railway Ministry''s Fourth Design Institute at Yangyuan, Wuchang; 28 of the General Headquarters'' men killed and over 60 badly wounded). Check: the book (204) names no source; the note before it (204 n.26) is on the Center''s appeal. To check: Wu Yanjin 吳焱金, *Sishisan nian wangzhong youji* 《四十三年望中猶記》, ed. Zhong Yi (electronic ed.) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 472 n.26).'
+    n: '[[w.macfarquhar-maos-last-revolution]], 204; [[w.yang-jisheng-tiandi-fanfu]], I, 472 (the Million Heroes attack the Workers'' Rebel General Headquarters in arms, and at the same time the Hanyang steel rolling mill and the Railway Ministry''s Fourth Design Institute at Yangyuan, Wuchang; 28 of the General Headquarters'' men killed and over 60 badly wounded); [[w.dikotter-cultural-revolution]], 149–151 n.5 (in June the Million Heroes commandeer lorries to assault the rebels'' stronghold across the Yangtze River Bridge, where the Wuhan Iron and Steel Company is; dozens of defenders die as the rebel headquarters are taken). Check: the book (204) names no source; the note before it (204 n.26) is on the Center''s appeal. To check: Wu Yanjin 吳焱金, *Sishisan nian wangzhong youji* 《四十三年望中猶記》, ed. Zhong Yi (electronic ed.) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 472 n.26); [[w.milton-wind-will-not-subside]], 253–258 (cited by [[w.dikotter-cultural-revolution]], 151 n.5a); [[w.robinson-wuhan-incident]], 413–438 (cited by [[w.dikotter-cultural-revolution]], 151 n.5b); Zhang Guanghua, *Zhenshi de huiyi* (2010), 66–69 (cited by [[w.dikotter-cultural-revolution]], 151 n.5c).'
     src:
       c: e1a1b7ba
       rows:
         - 'w.macfarquhar-maos-last-revolution 204: all'
         - 'w.yang-jisheng-tiandi-fanfu I, 472: ?'
         - 'via w.yang-jisheng-tiandi-fanfu I, 472 n.26: ?'
+        - 'w.dikotter-cultural-revolution 149–151 n.5: ?'
+        - 'via w.dikotter-cultural-revolution 151 n.5c: ?'
     tags: [polity:prc]
     variants:
       - unit: A
@@ -5298,3 +5313,39 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 1096: all'
     tags: [polity:prc, polity:burma, ok:fields-place]
+  - id: cal.1967-06.china-leadership-15
+    when: June
+    date: 1967-06
+    thread: china-leadership
+    c: 'As a State Council 国务院 report has it: freight workers and longshoremen no longer turn up in the main ports from Dalian 大连 to Guangzhou 广州; of an average of 138 ships a day to be berthed and unloaded, more than half wait a month at anchorage; in Manchuria scores of factories that rely on shipping stop production; in Shanghai 上海 the revolutionary committee turns schools, temples and other public spaces into storage as hundreds of lorries clear 400,000 tonnes of abandoned freight; at Chongqing 重庆 the army tackles the backlog in the inland port.'
+    n: '[[w.dikotter-cultural-revolution]], 147 n.1. Made public: 2016. To check: Report by the State Council, June 1967, Guangdong Provincial Archives, 235-2-261, pp. 39–41 (cited by [[w.dikotter-cultural-revolution]], 147 n.1a); Guangdong Provincial Archives, May 29, 1967, 235-2-261, pp. 24–28 (cited by [[w.dikotter-cultural-revolution]], 147 n.1b).'
+    src:
+      c: 4d077ea5
+      rows:
+        - 'w.dikotter-cultural-revolution 147: all'
+        - 'via w.dikotter-cultural-revolution 147 n.1a: all'
+        - 'via w.dikotter-cultural-revolution 147 n.1b: all'
+    tags: [polity:prc, vis:only:prc, form:state, ok:fields-place]
+  - id: cal.1967-06.china-leadership-16
+    when: June
+    date: 1967-06
+    thread: china-leadership
+    c: Mao 毛泽东 sends Zhou Enlai 周恩来 to negotiate the release of Hua Guofeng 华国锋 from the hands of a rebel organization.
+    n: '[[w.dikotter-cultural-revolution]], 153–154 n.13. Made public: 2016 at the latest. To check: [[w.heng-son-of-the-revolution]], 128–137 (cited by [[w.dikotter-cultural-revolution]], 154 n.13). Names: Mao Zedong, Zhou Enlai, Hua Guofeng.'
+    src:
+      c: 90c6f840
+      rows:
+        - 'w.dikotter-cultural-revolution 153–154: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:zhou-enlai, name:hua-guofeng]
+  - id: cal.1967-06.china-leadership-17
+    when: June
+    date: 1967-06
+    thread: china-leadership
+    c: Kang Sheng 康生 denounces Wu Jinnan 伍晉南, the deputy secretary of Guangxi 广西 who had joined the rebels, as a traitor.
+    n: '[[w.dikotter-cultural-revolution]], 174 n.30. To check: Shen Xiaoyun, "The Revolutionary Committee Grows out of the Barrel of a Gun during the Great Proletarian Cultural Revolution: The Unknown Truth of ''Armed Conflict'' in Guangxi," *Modern China Studies* 20, no. 1 (2013), 141–182 (cited by [[w.dikotter-cultural-revolution]], 174 n.30). See [[cal.1967-04-19.china-leadership-4]]. Names: Kang Sheng.'
+    src:
+      c: a6c0c772
+      rows:
+        - 'w.dikotter-cultural-revolution 174: all'
+        - 'via w.dikotter-cultural-revolution 174 n.30: all'
+    tags: [polity:prc, name:kang-sheng, ok:fields-place]
