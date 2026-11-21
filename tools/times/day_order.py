@@ -1,4 +1,4 @@
-"""Print each day's calendar entries in the order the build lays them out (tools/bib/dayorder.py, `order`), for a
+"""Print each day's calendar entries in the order the build lays them out (tools/bib/chron.py, `sort`), for a
 reader checking the day's order: `python3 -I tools/times/day_order.py 1964 [--from 1964-03] [--until 1964-04]
 [--all]`. By default only the days with two or more entries; --all, every day.
 
@@ -13,7 +13,7 @@ import zoneinfo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, ROOT)
-from tools.bib import store, dayorder  # noqa: E402
+from tools.bib import chron, store, dayorder  # noqa: E402
 
 DC = zoneinfo.ZoneInfo("America/New_York")
 
@@ -65,7 +65,7 @@ def main():
         if len(es) < 2 and not a.all:
             continue
         print(f"== {d}")
-        for e in dayorder.order(lst, es):
+        for e in chron.sort(lst, es):
             f = store.as_list(e.get("follows"))
             fl = f" <{','.join(x.split('.', 2)[-1] for x in f)}" if f else ""
             c = " ".join(str(e.get("c") or "").split())[:150]

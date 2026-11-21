@@ -440,6 +440,16 @@ def run(series, only=None):
     from . import lives
     for where, msg in lives.problems(series):
         add(ERROR, where, msg, "lives")
+    # a person the calendar's `c` names without his name: tag (tools/bib/nametags.py; the owner, Nov. 21, 2026)
+    if not only or series.lists.get(only) is not None and series.lists[only].kind == "calendar":
+        from . import nametags
+        for where, msg in nametags.problems(series):
+            add(WARN, where, msg, nametags.RULE)
+    # "As X has it:" / "As X reports it:" only on a paper's report (tools/bib/standing.py, STYLE 3; the owner, Nov. 21, 2026)
+    if not only or series.lists.get(only) is not None and series.lists[only].kind == "calendar":
+        from . import standing
+        for where, msg in standing.problems(series):
+            add(WARN, where, msg, standing.RULE)
     # the register of State election sources (sources/states.yaml)
     from . import sources
     for where, msg in sources.problems():

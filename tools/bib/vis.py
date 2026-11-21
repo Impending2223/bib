@@ -17,12 +17,15 @@ STYLE
     mechanical one) that ground it. An entry with no map, or whose rows are all `?`, is one claim, `all`, marked
     unmapped; a `?` row joins every unit's witnesses and marks the unit unmapped (it may ground any of them); a unit
     no row covers takes the whole entry's witnesses, unmapped. "Made public:" (the note's sentence for a private act)
-    is a witness of every unit: its items' dates and series.
+    is a witness of every unit: its items' dates and series; an item "in China, ..." (LOCAL_NAMES; R27, a Red Guard
+    printing) is a local witness, public in that polity only (its P and A), and "elsewhere, ..." an ordinary one.
  2. A witness (a row's source) is classified by the registry: a card by `works` (its kind, country, year; a periodical
     card by its series), a link by the first series whose `url` its address holds, an item without a link by the first
     whose `text` it names, a registered witness (`via` rows; sources/witnesses/) by its kind, its agents and its copies
-    (a FRUS copy: the volume's year). Each gives: kind (KINDS); where published (a polity, or `?`); when public (a
-    date, `?` known public but not when, or never so far as the record shows); and who knew it privately (parties).
+    (a FRUS copy: the volume's year); a row marked `local: prc` (a Red Guard tabloid, poster, leaflet or faction's
+    compilation; R27) is a local witness, public from its date in that polity only, as a "Made public: in China" item.
+    Each gives: kind (KINDS); where published (a polity, or `?`); when public (a date, `?` known public but not when,
+    or never so far as the record shows); and who knew it privately (parties).
  3. Dates: the claim's own is the entry's `date` (the first day of a loose one: '1961-02' is 1961-02-01; a span's
     first day). "At the time" (the default reference, §5, ruled Nov. 11) is that day and the next morning's papers:
     a witness public by the next day counts (REF_DAYS). A year is its Jan. 1 (§5: "a memoir of 1976 is public from
@@ -487,11 +490,42 @@ def from_witness(series, wid, event, addressed):
                 pub, public = "us", min(public or "9999", f"{y}-01-01")
     if k in ("memoir", "scholarship", "diary", "oral history", "document series") and public is None:
         public = "?"
+    if w.get("circulated"):         # `circulated: prc`: briefly available then suppressed, or a small-batch printing
+        return W(wid, k, str(w["circulated"]), None, privity, "witnesses")   # (R27 revised, the owner, Nov. 21, 2026):
+                                    # not publication anywhere; the record dates the act, nothing more
+    if w.get("local"):              # `local: prc`, a Red Guard printing (R27): public from its date there only
+        out = W(wid, k, str(w["local"]), d, privity, "witnesses")
+        out["local"] = True
+        return out
     return W(wid, k, pub, public, privity if k != "official" else privity, "witnesses")
 
 
+# "Made public: in China, *Xin Beida*, June 28, 1967 (a Red Guard tabloid); elsewhere, [[w.x]] (2002)." (R27, the
+# owner, Nov. 21, 2026): an item opening "in <country>, " is a printing that circulated there only, public in that
+# polity alone; a country not in this map is looked up by its name in sources/polities.yaml ("France"; "China (the
+# People's Republic)" without its parenthesis). "elsewhere, " opens an ordinary item.
+LOCAL_NAMES = {"China": "prc", "the PRC": "prc", "the People's Republic of China": "prc", "the USSR": "ussr",
+               "the Soviet Union": "ussr", "the United States": "us", "France": "fr", "West Germany": "frg",
+               "Britain": "uk", "North Vietnam": "drv", "South Vietnam": "rvn", "Taiwan": "roc"}
+LOCAL_RX = re.compile(r"^in ([^,;]{2,40}),\s+")
+ELSEWHERE_RX = re.compile(r"^elsewhere,\s+")
+
+
+def local_polity(name):
+    """A "Made public:" item's "in <country>, " -> the polity's code, or None where the words name no polity."""
+    name = (name or "").strip().replace("’", "'")
+    if name in LOCAL_NAMES:
+        return LOCAL_NAMES[name]
+    for pid, p in polities()["polities"].items():
+        nm = str((p or {}).get("name") or "")
+        if name and name in (nm, re.sub(r"\s*\(.*\)$", "", nm), "the " + nm):
+            return pid
+    return None
+
+
 def made_public(e, event, addressed):
-    """The witnesses the note's "Made public:" sentence names (STYLE 1): each item's series and date."""
+    """The witnesses the note's "Made public:" sentence names (STYLE 1): each item's series and date; an item "in
+    China, ..." a local witness (pub that polity, `local`: it makes the act public there only)."""
     from .claims import note_parts
     out = []
     for s in note_parts(e.get("n"))[1]:
@@ -499,6 +533,12 @@ def made_public(e, event, addressed):
             continue
         body = re.sub(r"^Made public[^:]*:\s*", "", s).rstrip(".")
         for it in re.split(r";\s+", body):
+            m = LOCAL_RX.match(it)
+            local = local_polity(m.group(1)) if m else None
+            if local:
+                it = it[m.end():]
+            else:
+                it = ELSEWHERE_RX.sub("", it)
             lk = LINK.search(it)
             ser = (series_for_url(lk.group(2)) if lk else None) or series_for_text(it)
             card = re.search(r"\[\[(w\.[^\]|]+)", it)
@@ -516,10 +556,15 @@ def made_public(e, event, addressed):
                 pub, kind = row.get("country") or "?", row.get("kind") or "scholarship"
             else:
                 pub, kind = "?", "made public"
+            if local:
+                pub = local
             if public == "?" and kind == "made public":
                 continue
-            out.append(W("Made public: " + it.strip()[:60], kind if kind != "archive" else "press", pub, public,
-                         basis="made public"))
+            w = W("Made public: " + (f"in {m.group(1)}, " if local else "") + it.strip()[:60],
+                  kind if kind != "archive" else "press", pub, public, basis="made public")
+            if local:
+                w["local"] = True
+            out.append(w)
     return out
 
 
@@ -787,16 +832,20 @@ def compute(series, lst, e):
         late = {X: max(d, date) for X, d in late.items()}   # a day not after the event's: privy from the event
         privy |= set(late)
         pubs = {}
-        any_public = None
+        any_public, local_public = None, {}     # a local witness (R27: "in China, ...") makes it public there only
         for w in known:
             d = w["public"]
             if d and d != "?":
                 d = max(d, date) if w["kind"] in PUBLIC_KINDS else d
-                any_public = min(any_public or d, d)
+                if w.get("local"):
+                    local_public[w["pub"]] = min(local_public.get(w["pub"], d), d)
+                else:
+                    any_public = min(any_public or d, d)
                 for p in ([w["pub"]] if w["pub"] else []) + list(w.get("pubs") or []):
                     if p != "?" and not is_org(p):
                         pubs[p] = min(pubs.get(p, d), d)
-        unknown_public = any(w["public"] == "?" for w in known)
+        unknown_public = any(w["public"] == "?" and not w.get("local") for w in known)
+        unknown_local = {w["pub"] for w in known if w["public"] == "?" and w.get("local")}
         unknown_in = {w["pub"] for w in known if w["public"] == "?" and w["pub"]}   # where an undated one is published
         pol = {}
         for X in sorted(set(addr) | privy | set(pubs), key=order_key):
@@ -807,9 +856,10 @@ def compute(series, lst, e):
                 np_from = d0 if X in privy and (p_pub is None or p_pub > d0) else None
                 rec["P"] = [np_from, p_pub or ("?" if X in privy and (X in unknown_in or "?" in unknown_in) else None)]
             if X in addr:
-                a_pub = any_public if any_public and any_public > date else (date if any_public else None)
-                rec["A"] = [d0 if not any_public or any_public > d0 else None,
-                            a_pub or ("?" if unknown_public else None)]
+                xp = min([d for d in (any_public, local_public.get(X)) if d] or [None])
+                a_pub = xp if xp and xp > date else (date if xp else None)
+                rec["A"] = [d0 if not xp or xp > d0 else None,
+                            a_pub or ("?" if unknown_public or X in unknown_local else None)]
             pol[X] = rec
         res2 = dict(res, polities=pol, tags=tags_at(pol, ref, date), computed=True)
         fp = frame_ruling(e)

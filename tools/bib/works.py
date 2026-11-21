@@ -1338,14 +1338,15 @@ def first_cites(series):
     """{(entry id, card id)}: each card's first citation in each half of the calendar, in the order the pages show
     the entries (dayorder.page_rows: page by page, by date, a day's entries in the day's own order)."""
     if getattr(series, "_first_cites", None) is None:
-        from . import cjk
+        from . import cjk, footnotes
         cat, out = series.works, set()
         for lst in series.lists.values():
             if lst.kind != "calendar":
                 continue
             seen = set()
             for h, e in cjk.page_rows(series, lst):
-                for m in re.finditer(r"\[\[(w\.[^\]|]+)(\|[^\]]*)?\]\]", e.get("n") or ""):
+                shown = (e.get("n") or "") + "".join(" " + t for _, t in footnotes.unread(series, e)[0])   # STYLE 7
+                for m in re.finditer(r"\[\[(w\.[^\]|]+)(\|[^\]]*)?\]\]", shown):
                     cid = cat.alias.get(m.group(1).strip(), m.group(1).strip())
                     if (h, cid) not in seen:
                         seen.add((h, cid))
@@ -1358,7 +1359,10 @@ def first_cites(series):
 # its parenthetical whole, one level of parentheses within ("(the rising, from Jan. 17; the attack)"). A pinpoint
 # stops at a parenthesis, so a work inside another's "(cited by [[w.a]], 54 n.10)" never joins a run outside it.
 _PAREN = r"\((?:[^()]|\([^()]*\))*\)"
-PIN = r"[^;.()\[\]]*(?:\.[^;\s()][^;.()\[\]]*)*"
+# A pinpoint's own abbreviations take a space after their period ("ch. 3 at nn.37–40", "pp. 12–14"); a date's do not.
+_PIN_ABBR = "|".join(f"(?<=\\b{a})" for a in ("ch", "chs", "p", "pp", "n", "nn", "no", "nos", "vol", "vols", "pt", "doc",
+                                              "docs", "app", "sec"))
+PIN = r"[^;.()\[\]]*(?:(?:\.[^;\s()]|(?:" + _PIN_ABBR + r")\.\s)[^;.()\[\]]*)*"
 WORK_ITEM = r"\[\[w\.[^\]]+\]\](?:," + PIN + r")?(?:\s*" + _PAREN + r")?"
 WORK_RUN = re.compile(WORK_ITEM + r"(?:;\s+" + WORK_ITEM + r")+")
 

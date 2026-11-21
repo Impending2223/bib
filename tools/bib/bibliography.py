@@ -36,7 +36,7 @@ STYLE:
 import html
 import re
 
-from . import datelist, pages, store, works
+from . import chron, datelist, pages, store, works
 from .markup import ITAL_RE, REF_RE, plain, to_html
 
 esc = html.escape
@@ -217,7 +217,7 @@ def pages_(series, linker, template):
                 seen.append((lab, f'<a href="{lst.key}.html#{esc(e["id"])}">{esc(lab)}</a>'))
         if seen:
             out.append(", ".join(h for _, h in seen))
-        es = sorted(cal.get(cid, []), key=lambda e: str(e.get("date") or ""))
+        es = chron.sort(series, cal.get(cid, []))      # in the calendar's order (chron.py)
         if es:
             out.append("Cal. " + nostop(datelist.run((e.get("date"), f'<a href="cal.html#{esc(e["id"])}">{esc(e.get("when") or "")}</a>')
                                               for e in es)))

@@ -7,8 +7,8 @@ now; a page a year next). For a part, from its first day to its last (`calsplit.
 
     the scope      the text of `c` outside span tags, on every page the thread is on
     the spans      each `{{FROM..TO|text}}` inside `c`, without its tag, where FROM..TO meets the part's range
-    the events     the names (`short:`) of the thread's events whose first entry falls in the part, in date order, as
-                   one clipped sentence: "Bay of Pigs; Mongoose." (`render`)
+    the events     the names (`short:`) of the thread's events whose first entry falls in the part, in the calendar's
+                   order (chron.py), as one clipped sentence: "Bay of Pigs; Mongoose." (`render`)
 
 A thread that still has `c2` or `c3` keeps the old choice, a statement a part (`calsplit.statement`), until it is
 converted; `tools/statements/apply.py` converts one (it writes `c` and drops `c2`, `c3`), `tools/statements/show.py`
@@ -105,8 +105,9 @@ def spans(text, lo, hi):
 
 
 def _index(lst):
-    """slug -> [(first day, file order, id, name)]: the entries carrying `short:`, under their primary thread and, where
-    that is a ghost, its parent (and so on up while the parent is a ghost too) (STYLE 3). Kept while the sections' entry counts stand."""
+    """slug -> [(first day, file order, id, name, last day)] in the calendar's order (chron.py): the entries carrying
+    `short:`, under their primary thread and, where that is a ghost, its parent (and so on up while the parent is a
+    ghost too) (STYLE 3). Kept while the sections' entry counts stand."""
     key = (id(lst), tuple(len(s.entries) for s in lst.walk()))
     if _EVENTS.get(id(lst), (None,))[0] == key:
         return _EVENTS[id(lst)][1]
@@ -127,8 +128,10 @@ def _index(lst):
             if t != prim and _summarized_child(lst, prim, t):
                 continue
             out.setdefault(t, []).append(row)
-    for v in out.values():
-        v.sort()
+    from . import chron
+    at = chron.position(lst, [e for _, e in lst.entries() if e.get("short") and e.get("date") and e.get("thread")])
+    for v in out.values():                # in the calendar's order (chron.py)
+        v.sort(key=lambda r: at[r[2]])
     _EVENTS[id(lst)] = (key, out)
     return out
 
@@ -144,7 +147,7 @@ def _summarized_child(lst, child, parent):
 
 
 def events(lst, slug, lo, hi):
-    """[(id, name)]: the thread's events whose first entry falls in lo..hi, in date order (STYLE 3)."""
+    """[(id, name)]: the thread's events whose first entry falls in lo..hi, in the calendar's order (STYLE 3)."""
     return [(eid, name) for d, _, eid, name, last in _index(lst).get(slug, []) if d <= hi and last >= lo]
 
 
