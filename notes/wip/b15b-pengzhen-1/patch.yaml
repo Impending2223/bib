@@ -236,6 +236,11 @@ ops:
       - 1963-11-14T10:00Z
       time_band: afternoon
       time_zone: Asia/Shanghai
+- edit:
+    id: cal.1964-02-26.china-leadership-6
+    base: fe090578
+    set:
+      place: peking
 - place-key:
     key: huairou
     name: Huairou
@@ -6243,7 +6248,7 @@ ops:
       place: peking
       thread: china-leadership
       c: 'Peking 北京. Peng Zhen 彭真 hears the reports of the work conference''s groups: many, provincial cadres among them, hold "dispersionism" not the chief cause of the difficulties, subjectivism first; "man-made calamity" the main cause, some say; on the 16th Mao Zedong 毛泽东 decides the conference first settle the principal contradiction and sets up a drafting committee of twenty-one under Liu Shaoqi 刘少奇: Zhou Enlai 周恩来, Chen Yun 陈云, Deng Xiaoping 邓小平, Peng Zhen, Li Fuchun 李富春, Li Xiannian 李先念, Bo Yibo 薄一波, Chen Boda 陈伯达, Ke Qingshi 柯庆施, Song Renqiong 宋任穷, Ulanhu 乌兰夫, Tao Zhu 陶铸, Liu Lantao 刘澜涛, Li Jingquan 李井泉, Wang Renzhong 王任重 and others.'
-      n: '[[w.peng-zhen-nianpu-1902]], IV, 167–168. Made public: 2012. See [[cal.1962-01-16.china-leadership-8]]. Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Li Fuchun, Li Xiannian, Chen Boda, Ke Qingshi, Tao Zhu, Li Jingquan.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 167–168. Made public: 2012. Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Li Fuchun, Li Xiannian, Chen Boda, Ke Qingshi, Tao Zhu, Li Jingquan.'
       src:
         c: c098fabc
         rows:
@@ -6904,7 +6909,7 @@ ops:
       place: peking
       thread: china-leadership
       c: Peking 北京. Peng Zhen 彭真 leads the National People's Congress delegation, Chen Shutong 陈叔通 and Zhang Zhizhong 张治中 its deputy heads, by train for a friendly visit to the Democratic People's Republic of Korea.
-      n: '[[w.peng-zhen-nianpu-1902]], IV, 191–192. The page''s notes on the members: Zhang Zhizhong, vice-chairman of the National Defense Council; Yang Mingxuan, vice-chairman of the Democratic League; Li Zhuchen, vice-chairman of the Federation of Industry and Commerce; Wang Ping, political commissar of the PLA Military Academy; Yang Zhihua, vice-chairman of the Women''s Federation (IV, 192). The words: 上午 (IV, 191–192). See [[cal.1962-04-23.china]]. Names: Peng Zhen.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 191–192. The page''s notes on the members: Zhang Zhizhong, vice-chairman of the National Defense Council; Yang Mingxuan, vice-chairman of the Democratic League; Li Zhuchen, vice-chairman of the Federation of Industry and Commerce; Wang Ping, political commissar of the PLA Military Academy; Yang Zhihua, vice-chairman of the Women''s Federation (IV, 192). The words: 上午 (IV, 191–192). Names: Peng Zhen.'
       src:
         c: 5f68cea1
         rows:
@@ -8919,7 +8924,7 @@ ops:
       place: peking
       thread: china-leadership
       c: Peking 北京. The national political and legal work conference 全国政法工作会议 opens (to Nov. 15).
-      n: '[[w.peng-zhen-nianpu-1902]], IV, 226. The opening day is given with Peng Zhen''s speech of Nov. 12 (IV, 226). See [[cal.1962-10-19.china-leadership-4]]. Made public: 2012. Names: Peng Zhen.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 226. The opening day is given with Peng Zhen''s speech of Nov. 12 (IV, 226). Made public: 2012. Names: Peng Zhen.'
       src:
         c: 004e5f69
         rows:
@@ -11951,7 +11956,7 @@ ops:
       place: peking
       thread: china-leadership
       c: Peking 北京. Peng Zhen 彭真 accompanies Zhu De 朱德 in meeting Adam Sapi Mkwawa, Speaker of Tanganyika's National Assembly, and his party, and at Zhu's welcoming banquet.
-      n: '[[w.peng-zhen-nianpu-1902]], IV, 294. The words: 晚 (IV, 294). See [[cal.1963-10-24.china-leadership-3]]. Names: Peng Zhen, Zhu De.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 294. The words: 晚 (IV, 294). Names: Peng Zhen, Zhu De.'
       src:
         c: 382e85ab
         rows:
@@ -12976,6 +12981,2913 @@ ops:
       - polity:prc
       - name:peng-zhen
       - name:deng-xiaoping
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-01-01.china-leadership-6
+      when: Jan. 1
+      date: '1964-01-01'
+      time_range:
+      - 1964-01-01T04:00Z
+      - 1964-01-01T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with Zhu De 朱德, Guo Moruo 郭沫若, Huang Yanpei 黄炎培 and others, at the national CPPCC's 全国政协 luncheon for NPC deputies, CPPCC members, heads of the democratic parties, State Council departments' heads and counselors in Peking aged seventy and over, with their wives, and wishes them a happy New Year for Mao, Liu Shaoqi, Zhou Enlai and the others.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 313. The words: 中午 (IV, 313). Names: Peng Zhen, Zhu De.'
+      src:
+        c: 2bc3e908
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 313: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhu-de
+- add:
+    entry:
+      id: cal.1964-01-01.china-leadership-7
+      when: Jan. 1
+      date: '1964-01-01'
+      time_range:
+      - 1964-01-01T11:00Z
+      - 1964-01-01T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 accompanies Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhu De 朱德, Deng Xiaoping 邓小平 and others to the Henan Yu Opera Theater's 河南豫剧院 Third Troupe in the modern play *Chaoyanggou* 《朝阳沟》.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 313. The words: 晚 (IV, 313). Made public: 2012. Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhu De, Deng Xiaoping.'
+      src:
+        c: 1f5e0f3c
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 313: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:zhu-de
+      - name:deng-xiaoping
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-01-02.china-leadership-7
+      when: Jan. 2
+      date: '1964-01-02'
+      thread: china-leadership
+      c: Peng Zhen 彭真 prints for the Politburo and the Secretariat the compiled bulletins of the industry and communications departments, the PLA's political work conference and the Peking committee on Daqing's 大庆 experience.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 313. Made public: 2012. See [[cal.1963-12-27.china-leadership-9]]. Names: Peng Zhen.'
+      src:
+        c: ccf59779
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 313: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-01-04.china-leadership-7
+      when: Jan. 4–6
+      date: '1964-01-04'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. The Peking committee 中共北京市委 calls 162 leading Party cadres of the city's arts, art schools and university literature departments to a forum (to Jan. 6) to study Mao's comment of Dec. 12 on the arts, hear Liu Shaoqi's and Deng Xiaoping's talks, and review the work.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 314. Under Peng Zhen''s days; his part is not stated. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: '65643904'
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 314: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-02-04.china-leadership-9
+      when: Feb. 4
+      date: '1964-02-04'
+      place: peking
+      thread: china-leadership
+      c: 'The Peking committee 中共北京市委 reports to Mao, the Center and the North China Bureau on carrying out Mao''s comment on the arts: 3,491 in Peking''s arts, 2,692 in opera, 230 in spoken drama, 119 in quyi, only 29 young actors trained since liberation; of 69 plays for the tenth anniversary only 4 of socialist life; most of its 51 playwrights and writers now living below; modern plays without fixed quotas, of good quality, writers, actors and directors in the three great struggles, questions of art settled by discussion.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 314. Under Peng Zhen''s day of Jan. 4–6; his part in the report is not stated. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 40d87e5e
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 314: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-01-05.china-leadership-4
+      when: Jan. 5
+      date: '1964-01-05'
+      time_range:
+      - 1964-01-05T11:00Z
+      - 1964-01-05T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: The Nationalities Cultural Palace 民族文化宫, Peking 北京. Peng Zhen 彭真 sees the Harbin Drama Theater's 哈尔滨话剧院 *Never Forget* 《千万不要忘记》.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 314. The words: 晚 (IV, 314). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 7f36788c
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 314: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-01-07.china-leadership-6
+      when: Jan. 7
+      date: '1964-01-07'
+      time_range:
+      - 1964-01-07T11:00Z
+      - 1964-01-07T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 sees the China Pingju Theater's 中国评剧院 modern play *The Sunward Shop* 《向阳商店》.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 315. The words: 晚 (IV, 315). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: e6f85df0
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 315: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-01-10.china-leadership-11
+      when: Jan. 10
+      date: '1964-01-10'
+      time_range:
+      - 1964-01-10T11:00Z
+      - 1964-01-10T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 sees the China Pingju Theater's 中国评剧院 *The Girl Accountant* 《会计姑娘》, and tells its head and players they have gathered a first experience of renewing pingju, to be summed up and carried on.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 315. The words: 晚 (IV, 315). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 868330ec
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 315: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-01-08.china-leadership-9
+      when: Jan. 8
+      date: '1964-01-08'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. The Peking committee''s 中共北京市委 Standing Committee studies the Center''s directive on learning from one another and overcoming complacency and conceit; on the 23rd it reports to the North China Bureau and the Center: conceit "对北京各项工作，为害甚大"; in rural rectification and socialist education slow to see and to move, long missing class struggle; slack in learning from Shanghai and others.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 316. Under Peng Zhen''s day; his part is not stated. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: '10389638'
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 316: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-01-09.china-leadership-12
+      when: Jan. 9
+      date: '1964-01-09'
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 sends Mao 毛泽东 the report "He is our Lei Feng" 《他就是我们的“雷锋”》 on Zhang Hongchi 张洪池, Communist and model of the Daqing 大庆 campaign: very good; someone to look into it before it is put out.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 316–317. Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+      src:
+        c: b26ee9cb
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 316–317: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-01-11.china-leadership-6
+      when: Jan. 11
+      date: '1964-01-11'
+      place: peking
+      thread: china-leadership
+      c: The Peking committee 中共北京市委 decides on a movement to learn from and catch up with Daqing 大庆 in every trade.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 317. Under Peng Zhen''s day; his part is not stated. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 8f3a0a2a
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 317: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-01-23.china-leadership-7
+      when: Jan. 23
+      date: '1964-01-23'
+      time_range:
+      - 1964-01-22T22:00Z
+      - 1964-01-23T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 meets Henry Muli, Kenya's former ambassador to China.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 317. The words: 上午 (IV, 317). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: b4bdb34b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 317: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc+kenya
+- add:
+    entry:
+      id: cal.1964-01-27.china-leadership-11
+      when: Jan. 27
+      date: '1964-01-27'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 reports on the situation to the navy''s Party congress and the colonels and above of the forces in Peking: a world united front against the United States, the struggle with international revisionism, the situation at home.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 317. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 85f290ca
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 317: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-02-09.china-leadership-6
+      when: Feb. 9
+      date: '1964-02-09'
+      place: peking
+      thread: china-leadership
+      c: 'The Peking committee 中共北京市委 reports again to the Center and the North China Bureau on the directive against complacency, after its Secretariat''s and Standing Committee''s meetings of Jan. 26 and 27: the "five antis," "four clean-ups," learning from the PLA and Daqing and the socialist revolution in art one red thread, to re-educate and remold, against revisionism and restoration; this year a battle of annihilation, 1.04 million of the 1.33 million due already in the "five antis," the first rural batch of a million done by March, the second of 1.4 million after the Spring Festival; leading groups rebuilt with younger men; the gongs of class struggle and of production both to sound; leaders split, one group for output, one for class struggle.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 318–319. Under Peng Zhen''s day; his part is not stated. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: d07ec385
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 318–319: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-02-12.china-leadership-6
+      when: Feb. 12
+      date: '1964-02-12'
+      time_range:
+      - 1964-02-12T04:00Z
+      - 1964-02-12T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at Mao's 毛泽东 to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 319. The words: 中午 (IV, 319). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+      src:
+        c: '64872439'
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 319: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-02-12.china-leadership-7
+      when: Feb. 12
+      date: '1964-02-12'
+      time_range:
+      - 1964-02-12T11:00Z
+      - 1964-02-12T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平, Li Fuchun 李富春, Li Xiannian 李先念 and others, receives the representatives of the PLA's and the public security forces' "four-good" companies and units, "five-good" soldiers, marksmen and skilled men, and of martyrs' and soldiers' families and veterans, at the gathering for supporting the army.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 319. The words: 晚 (IV, 319). Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Deng Xiaoping, Li Fuchun, Li Xiannian.'
+      src:
+        c: a84fef79
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 319: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:deng-xiaoping
+      - name:li-fuchun
+      - name:li-xiannian
+- add:
+    entry:
+      id: cal.1964-02-14.china-leadership-6
+      when: Feb. 14
+      date: '1964-02-14'
+      time_range:
+      - 1964-02-14T04:00Z
+      - 1964-02-14T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at Deng Xiaoping's 邓小平 to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 319. The words: 下午 (IV, 319). Made public: 2012. Names: Peng Zhen, Deng Xiaoping.'
+      src:
+        c: 83b28a7b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 319: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-02-15.china-leadership-9
+      when: Feb. 15
+      date: '1964-02-15'
+      time_range:
+      - 1964-02-14T22:00Z
+      - 1964-02-15T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 meets the Japanese local assemblymen's delegation for international trade under Saitō Usuke.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 319. The words: 上午 (IV, 319). Names: Peng Zhen.'
+      src:
+        c: 2df5d7a6
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 319: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-02-18.china-leadership-9
+      when: Feb. 18
+      date: '1964-02-18'
+      thread: china-leadership
+      c: 'Mao 毛泽东 to Peng Zhen 彭真, on Ambassador Yao Zhongming''s 姚仲明 reports of Aidit''s talks with the Soviet delegation and the earlier talks: to be passed at once to the eleven left parties and to the left parties of Australia, Ceylon, Belgium, Cuba and Brazil; "请你急办为要."'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 319–320. The page''s note: Yao Zhongming, ambassador to Indonesia (IV, 319). Made public: 2012. Names: Mao Zedong, Peng Zhen.'
+      src:
+        c: 2b07d9a9
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 319–320: all'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-02-19.china-leadership-8
+      when: Feb. 19
+      date: '1964-02-19'
+      thread: china-leadership
+      c: Peng Zhen 彭真 sends Mao 毛泽东, Liu Shaoqi 刘少奇 and Deng Xiaoping 邓小平 the first drafts of the Center's letters to the CPSU Central Committee and to the brother parties, proposing that a summary of Mao's talk with the Soviet Ambassador Chervonenko go to the brother parties.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 320. Made public: 2012. Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Deng Xiaoping.'
+      src:
+        c: 9c7b7811
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 320: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:deng-xiaoping
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-02-20.china-leadership-7
+      when: Feb. 20–21
+      date: '1964-02-20'
+      time_range:
+      - 1964-02-20T04:00Z
+      - 1964-02-20T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at Mao's 毛泽东 to talk, two afternoons running (to Feb. 21).
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 320. The words: 连续两天下午 (IV, 320). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+      src:
+        c: 917220df
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 320: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-02-21.china-leadership-4
+      when: Feb. 21
+      date: '1964-02-21'
+      time_range:
+      - 1964-02-21T04:00Z
+      - 1964-02-21T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 receives the Korean heating network study group under Chon Song-gun 全松根 and the Korean trolleybus study group under 深锡焕, and gives them a dinner.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 320. The words: 下午……晚 (IV, 320). Names: Peng Zhen.'
+      src:
+        c: ca762f91
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 320: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-02-22.china-leadership-8
+      when: Feb. 22
+      date: '1964-02-22'
+      time: 1964-02-22T07:00Z
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: Pyongyang. Peng Zhen 彭真, arrived at 11 a.m., meets Kim Il Sung and others at 4 p.m. and tells them of the recent dealings with brother parties, Zhou Enlai's 周恩来 African visit and the establishment of relations with France.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 320. Made public: 2012. Names: Peng Zhen, Kim Il Sung, Zhou Enlai.'
+      src:
+        c: f33fe7c7
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 320: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:kim-il-sung
+      - name:zhou-enlai
+      - vis:only:prc+dprk
+- add:
+    entry:
+      id: cal.1964-02-22.china-leadership-9
+      when: Feb. 22
+      date: '1964-02-22'
+      time: 1964-02-22T13:00Z
+      time_zone: Asia/Pyongyang
+      place:
+      - pyongyang
+      - peking
+      thread: china-leadership
+      c: 'Pyongyang. Peng Zhen 彭真 cables Mao 毛泽东 and the Center: the talks most cordial, all agreed; back to Peking on the 24th.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 320. Made public: 2012. See [[cal.1964-02-22.china-leadership-8]]. Names: Peng Zhen, Mao Zedong.'
+      src:
+        c: fadfcabd
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 320: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-02-24.china-leadership-11
+      when: Feb. 24
+      date: '1964-02-24'
+      time_range:
+      - 1964-02-24T04:00Z
+      - 1964-02-24T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at Mao's 毛泽东 to report on his talks with Kim Il Sung.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 320. The words: 下午 (IV, 320). Made public: 2012. See [[cal.1964-02-22.china-leadership-8]]. Names: Peng Zhen, Mao Zedong, Kim Il Sung.'
+      src:
+        c: 821606c1
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 320: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:kim-il-sung
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-02-25.china-leadership-10
+      when: Feb. 25
+      date: '1964-02-25'
+      place: peking
+      thread: china-leadership
+      c: The Zhongshan Hall 中山堂, Peking 北京. Peng Zhen 彭真 pays condolence for Zhou Baozhong 周保中, who died Feb. 22; at the public memorial of the 26th he presides as chief mourner.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 321. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 15eb08f5
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 321: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-02-29.china-leadership-10
+      when: Feb. 29
+      date: '1964-02-29'
+      place: peking
+      thread: china-leadership
+      c: 'The Peking committee 中共北京市委 reports to the Center and the North China Bureau on carrying out the second city work conference: city building, jobs, birth control and vocational schools; few old houses could be pulled down, so most building went to the near suburbs, the old city''s face little changed, and the near suburbs'' peasants lost half their land, two mu a head before; ministries build each its own, the city unable to build street by street; new building to the outer satellite towns, defense industry and research "dispersed, hidden, by the hills"; housing, offices and services planned, built and run as one.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 322. Under Peng Zhen''s day; his part in the report is not stated. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: f5132306
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 322: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-03-12.china-leadership-5
+      when: Mar. 12
+      date: '1964-03-12'
+      thread: china-leadership
+      c: Peng Zhen 彭真 asks the Peking committee's university department and the Ministry of Education 教育部 to report to the Center and the Propaganda Department what their men at the base have learned of the students' load.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 323. Made public: 2012. See [[cal.1964-03-10.china-leadership-3]]. Names: Peng Zhen.'
+      src:
+        c: e2542ef1
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 323: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-03-10.china-leadership-5
+      when: Mar. 10
+      date: '1964-03-10'
+      time_range:
+      - 1964-03-10T11:00Z
+      - 1964-03-10T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with Deng Xiaoping 邓小平, Kang Sheng 康生 and others, accompanies the Romanian Workers' Party's delegation to the Ministry of Culture's 文化部 concert.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 323. The words: 晚 (IV, 323). See [[cal.1964-03-02.china-leadership]]. Names: Peng Zhen, Deng Xiaoping, Kang Sheng.'
+      src:
+        c: 651f0867
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 323: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+      - name:kang-sheng
+- add:
+    entry:
+      id: cal.1964-03-12.china-leadership-6
+      when: Mar. 12
+      date: '1964-03-12'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 presides at the Peking committee''s Secretariat, which hears of the national education conference, and speaks: Mao''s criticism of the students'' load means textbooks, examinations and cramming, the whole system to be studied; "the more books, the more stupid," against dead reading; fewer courses, time to rest and read; typical cases first, no hasty changes; a "Kangda" kind of college for the villages, half study, half labor; writers and actors "driven" down; the cadres know anti-imperialism and anti-feudalism, not anti-revisionism; the "four clean-ups," learning from the PLA and Daqing to run some years, class struggle for centuries; cadres able to fight hard battles, judged by the general line and the troops they can lead; "cool promoters," the *Beijing ribao* 北京日报 not to forget "one divides into two."'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 323–324. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 36abaa0d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 323–324: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-03-13.china-leadership-5
+      when: Mar. 13
+      date: '1964-03-13'
+      time_range:
+      - 1964-03-13T04:00Z
+      - 1964-03-13T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 explains to the second NPC Standing Committee's 全国人大常委会 114th session the regulations on foreigners' entry, exit, transit, residence and travel, which it approves; and analyzes the problems of the socialist camp and the international Communist movement.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 324. The words: 下午 (IV, 324). Names: Peng Zhen.'
+      src:
+        c: 768930a1
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 324: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-03-20.china-leadership-7
+      when: Mar. 20
+      date: '1964-03-20'
+      time_range:
+      - 1964-03-20T11:00Z
+      - 1964-03-20T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 sees the Peking art work team''s play *Sisters of the Mountain Village* 《山村姐妹》, and tells the company to go deep into life: Party and government workers, teachers and artists all must go down; "人像树一样，总得有根"; our ground the life of workers and peasants.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 325. The words: 晚 (IV, 325). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 5c93fe92
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 325: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-03-27.china-leadership-7
+      when: Mar. 27
+      date: '1964-03-27'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 at the Peking Opera Troupe''s 北京京剧团 dress rehearsal of *The Commune Head''s Daughter* 《社长的女儿》: at Yan''an in 1943 Peking opera was reformed, *Driven to Join the Liangshan Rebels* 《逼上梁山》 and *Three Attacks on the Zhu Village* 《三打祝家庄》 newly written, but not kept up; modern plays since 1958 to be summed up; Peking''s audiences know the opera, so reform carefully; time and strength as needed.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 325–326. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 512a7601
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 325–326: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-03-31.china-leadership-5
+      when: Mar. 31
+      date: '1964-03-31'
+      thread: china-leadership
+      c: Peng Zhen 彭真, as mayor of Peking 北京市市长, gives Kang Hui-won 姜希源, chairman of Pyongyang's People's Committee, plants, among them pepper trees, dawn redwoods, pines and cypresses.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 326. See [[cal.1963-12-13.china-leadership-10]]. Names: Peng Zhen.'
+      src:
+        c: 30fa1fec
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 326: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-04-02.china-leadership-8
+      when: Apr. 2
+      date: '1964-04-02'
+      place: peking
+      thread: china-leadership
+      c: 'The suburbs and the Shijingshan steel works 石景山钢铁厂, Peking 北京. Peng Zhen 彭真, with Liu Ren 刘仁, Zheng Tianxiang 郑天翔, Jia Tingsan 贾庭三 and others, investigates; to Zhou Guanwu 周冠五, the works'' Party secretary, and others: industry''s reform has two tasks, to re-educate men and regroup the class ranks, and to fit the superstructure to the base; some parts of it hold back the productive forces; managers to command at the front and serve the front.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 326. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 5692b214
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 326: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-04-05.china-leadership-10
+      when: Apr. 5
+      date: '1964-04-05'
+      time_range:
+      - 1964-04-04T22:00Z
+      - 1964-04-05T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the airport meets the Japanese Communist Party's delegation back from Shenyang 沈阳.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 326. The words: 上午 (IV, 326). Names: Peng Zhen.'
+      src:
+        c: 96cd35dc
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 326: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-04-05.china-leadership-11
+      when: Apr. 5
+      date: '1964-04-05'
+      time_range:
+      - 1964-04-05T04:00Z
+      - 1964-04-05T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 meets the Korean Workers' Party's delegation.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 326. The words: 下午 (IV, 326). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: '86932741'
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 326: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-04-07.china-leadership-6
+      when: Apr. 7
+      date: '1964-04-07'
+      thread: china-leadership
+      c: Inner Mongolia 内蒙古. Peng Zhen 彭真 looks into industry's learning from Daqing and the "five antis."
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 326. Made public: 2012. See [[cal.1964-04-07.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 0103d30e
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 326: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-04-12.china-leadership-9
+      when: Apr. 12
+      date: '1964-04-12'
+      place: lanzhou
+      thread: china-leadership
+      c: Lanzhou 兰州. Peng Zhen 彭真, with Deng Xiaoping 邓小平, Kang Sheng 康生 and others, inspects the Lanzhou chemical works 兰州化工厂.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 326. Made public: 2012. See [[cal.1964-04-07.china-leadership-2]]. Names: Peng Zhen, Deng Xiaoping, Kang Sheng.'
+      src:
+        c: bee36480
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 326: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+      - name:kang-sheng
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-04-13.china-leadership-12
+      when: Apr. 13
+      date: '1964-04-13'
+      place: lanzhou
+      thread: china-leadership
+      c: 'Lanzhou 兰州. Peng Zhen 彭真 with Wang Feng 汪锋 and others: industry relies on the workers'' majority; learning from Daqing on the basis of the "five antis," not in their place; work and rest balanced, pay by work, the tide of a movement checked, no endless storming; too many visitors to Daqing, the Lanzhou refinery and Yumen 玉门, each region to sum up its own models; old cadres to bring on the first, second and third in command, leaders to learn a technique.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 327. The page''s notes: Wang Feng, first secretary of the Gansu committee; Daqing, the Lanzhou refinery and the Yumen oilfield (IV, 327). Made public: 2012. See [[cal.1964-04-07.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 32426aeb
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 327: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-04-14.china-leadership-8
+      when: Apr. 14–16
+      date: '1964-04-14'
+      place: xian
+      thread: china-leadership
+      c: 'Xi''an 西安. Peng Zhen 彭真 inspects (to Apr. 16); the Xi''an committee 中共西安市委 tells of too many meetings and side tasks hurting the "five antis," the masses weary, and in learning from Daqing and the PLA haste, too little sleep, "high-yield days," "Saturday battles," commandism; to the Shaanxi committee''s heads: two attitudes to the three years'' leap, denial or "one divides into two"; some do no solid work but loud show, formalism, long, empty meetings, impossible forms, overtime, spending the masses'' zeal; the central ministries to go to the front, needless meetings, papers and forms dropped, no boasting in the press, overtime stopped, visits cut, no "touring" inspections; the masses'' zeal not doused but cherished.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 327–328. Made public: 2012. See [[cal.1964-04-07.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 60d6d4b1
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 327–328: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-04-20.china-leadership-8
+      when: Apr. 20
+      date: '1964-04-20'
+      thread: china-leadership
+      c: Peng Zhen 彭真 sends Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and Li Fuchun 李富春 eight bulletins of the Peking committee on too many meetings and forms, typical material from its exhibition of Mar. 6 on the "three manys" (meetings, papers, forms), showing how grave bureaucracy and paper-shuffling are.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 328. Made public: 2012. Names: Peng Zhen, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Li Fuchun.'
+      src:
+        c: cb4aa3df
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 328: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:deng-xiaoping
+      - name:li-fuchun
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-04-23.china-leadership-5
+      when: Apr. 23
+      date: '1964-04-23'
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 sends Deng Xiaoping 邓小平 the Center''s draft notice on some questions to heed in present work: in learning from the PLA and Daqing, "solid, scientific, cool promoters"; some leading organs, instead of going down to study, call unprepared meetings, send tedious forms and long papers, set unreal targets, breeding formalism and boasting; meetings and forms cut, formalist reporting and broadcasting stopped, work and rest balanced, eight hours'' sleep and some free time, local models raised, the "five antis," "four clean-ups" and socialist education pressed.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 328–329. Made public: 2012. Names: Peng Zhen, Deng Xiaoping.'
+      src:
+        c: 3dacbaec
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 328–329: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-05-18.china-leadership-8
+      when: May 18
+      date: '1964-05-18'
+      thread: china-leadership
+      c: The Center 中共中央, Deng Xiaoping 邓小平 having approved it, issues the notice on some questions to heed in present work, against formalism, too many meetings and forms, and overwork.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 329. Made public: 2012. See [[cal.1964-04-23.china-leadership-5]]. Names: Deng Xiaoping, Peng Zhen.'
+      src:
+        c: 9f65b517
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 329: all'
+      tags:
+      - polity:prc
+      - name:deng-xiaoping
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-04-23.china-leadership-6
+      when: Apr. 23
+      date: '1964-04-23'
+      time: 1964-04-23T01:30Z
+      time_zone: Asia/Shanghai
+      place:
+      - peking
+      - taiyuan
+      thread: china-leadership
+      c: Peng Zhen 彭真 leaves Peking 北京 for Taiyuan 太原.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 329. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 3c353bfc
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 329: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-04-24.china-leadership-7
+      when: Apr. 24–25
+      date: '1964-04-24'
+      place: taiyuan
+      thread: china-leadership
+      c: 'The Jinci Guesthouse 晋祠宾馆, Taiyuan 太原. Peng Zhen 彭真 with Tao Lujia 陶鲁笳, Wang Daren 王大任 and others on the "five antis" and learning from Daqing (to Apr. 25): cadres'' labor of deep meaning against revisionism, many thought the revolution over when they entered the cities; the class struggle of the transition the socialist or capitalist road, but many workers know capitalist exploitation only in the abstract; two kinds of bourgeoisie, the old, bought out, the new, speculators, enemies of socialism; labor models too "one divides into two," "banners" not deified, nine fingers and one normal; learn the spirit, no haste or formalism.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 329. The page''s note: Wang Daren, alternate secretary of the Shanxi committee''s Secretariat (IV, 329). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 2b691e72
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 329: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-04-28.china-leadership-7
+      when: Apr. 28
+      date: '1964-04-28'
+      place: houma
+      thread: china-leadership
+      c: Zeshang 择上村, Houma 侯马. Peng Zhen 彭真 at his old home, visiting his family.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 330. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: '89396651'
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 330: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-04-28.china-leadership-8
+      when: Apr. 28
+      date: '1964-04-28'
+      place: houma
+      thread: china-leadership
+      c: 'Houma 侯马. Peng Zhen 彭真 talks with the labor models Zhou Mingshan 周明山 and Meng Fengming 孟凤鸣: to the young Zhou, read Mao''s works and learn to see two sides, start from the facts; to Meng, who took the road of school and back to the farm, many books read, but political struggle, production and experiment still wanting.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 330. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 325dd66a
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 330: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-04-30.china-leadership-7
+      when: Apr. 30
+      date: '1964-04-30'
+      time_range:
+      - 1964-04-29T22:00Z
+      - 1964-04-30T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peng Zhen 彭真 back in Peking 北京.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 330. The words: 上午 (IV, 330). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 01e404b5
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 330: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-04-30.china-leadership-10
+      when: Apr. 30
+      date: '1964-04-30'
+      time_range:
+      - 1964-04-30T04:00Z
+      - 1964-04-30T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 meets the Italian General Confederation of Labor's delegation under Francesco Doro; then the Polish trade unions' under Stanisław Konarski, the Romanian under Anton Stoianovici and the Mongolian under Dashiin Sambuu.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 330. The words: 下午 (IV, 330). Names: Peng Zhen.'
+      src:
+        c: 322120b7
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 330: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-04-30.china-leadership-12
+      when: Apr. 30
+      date: '1964-04-30'
+      time_range:
+      - 1964-04-30T11:00Z
+      - 1964-04-30T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the reception of the All-China Federation of Trade Unions 全国总工会 and eleven other people's bodies for the foreign friends in Peking on May Day.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 330. The words: 晚 (IV, 330). Names: Peng Zhen.'
+      src:
+        c: 090ccb53
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 330: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-05-01.china-leadership-6
+      when: May 1
+      date: '1964-05-01'
+      time_range:
+      - 1964-05-01T04:00Z
+      - 1964-05-01T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 meets the delegation of the Kawasaki city assembly under Aoyama Shōichi and the Japanese local self-government friendship delegation under Kinoshita Tomotaka; then the South Vietnamese women's delegation under 阮玉鞭 and the South Vietnamese youth and students' under 青海.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 330. The words: 下午 (IV, 330). Names: Peng Zhen.'
+      src:
+        c: 4bf19dec
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 330: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-05-03.china-leadership-6
+      when: May 3
+      date: '1964-05-03'
+      time_range:
+      - 1964-05-02T22:00Z
+      - 1964-05-03T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: changchun
+      thread: china-leadership
+      c: Peng Zhen 彭真 goes to Changchun 长春 to inspect.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 330. The words: 上午 (IV, 330). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 5debd6d8
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 330: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-05-04.china-leadership-5
+      when: May 4
+      date: '1964-05-04'
+      place: changchun
+      thread: china-leadership
+      c: 'Changchun 长春. Peng Zhen 彭真 hears Zhao Lin 赵林 on the "five antis" and "four clean-ups" in Jilin 吉林: these and cadres'' labor a basic question of carrying the revolution through, three to five years'' work; the Soviet revolution turned revisionist after 46 years; "two stricts and one lenient," criticism and repayment strict, punishment lenient; base cadres who erred mostly peasants who stood up, to be cured; the Center''s directive (of Jan. 2) remits much: ordinary graft before the Seven Thousand not punished if repaid, taking more not graft, punishment held to about 1 percent, handled late.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 331. The page''s notes: Zhao Lin, second secretary of the Jilin committee; the Center''s forwarding (Jan. 2, 1964) of the Control Commission''s report on handling graft, theft and speculation in the "five antis" (IV, 331). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 1c71c6f8
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 331: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-05-05.china-leadership-5
+      when: May 5
+      date: '1964-05-05'
+      place: harbin
+      thread: china-leadership
+      c: 'Harbin 哈尔滨. Peng Zhen 彭真 hears the heads of the turbine and electric machinery works on learning from Daqing: the Party''s mass line carried into management; the Soviet model of the first plan necessary; "我的脑子也发过热" in 1958; "cool promoters" learned by practice; Lenin''s "the will of thousands subordinated to one" and Stalin''s late "technique decides everything," "cadres decide everything": what of politics and the masses?; politics in command, not without technique; in 1958 too much broken, some not superstitions; to lead, study theory.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 331–332. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: ebe98331
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 331–332: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-05-06.china-leadership
+      when: May 6
+      date: '1964-05-06'
+      place:
+      - harbin
+      - daqing
+      thread: china-leadership
+      c: Peng Zhen 彭真 leaves Harbin 哈尔滨 for the Daqing 大庆 oilfield.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 332. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: aaeef8b3
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 332: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-05-07.china-leadership-5
+      when: May 7
+      date: '1964-05-07'
+      place: daqing
+      thread: china-leadership
+      c: 'The Daqing 大庆 oilfield. Peng Zhen 彭真 hears Yu Qiuli 余秋里, Kang Shi''en 康世恩 and others on the "five antis" and the year''s growth of Daqing''s experience, and sums it up: one divides into two, gaps found against high standards; "five-good" reviews monthly; work and rest balanced but for special battles; communist spirit with pay by work; rules kept without binding zeal; central unity within the enterprise; more output and thrift with socialist education; workers, peasants, traders, students and soldiers joined, families in collective farming for the workers far from cities; cool promoters.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 332. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 9179ee79
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 332: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-05-10.china-leadership-7
+      when: May 10
+      date: '1964-05-10'
+      time_range:
+      - 1964-05-10T04:00Z
+      - 1964-05-10T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peng Zhen 彭真 back in Peking 北京.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 332. The words: 中午 (IV, 332). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 01e404b5
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 332: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-05-16.china-leadership-4
+      when: May 16–25
+      date: '1964-05-16'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真, with Liu Ren 刘仁, Chen Kehan 陈克寒 and others, sees the Peking workers'' amateur art festival (to May 25): eight programs written and played by the workers, serving politics and production, small and varied.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 333. Names: Peng Zhen.'
+      src:
+        c: 1316c064
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 333: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-05-16.china-leadership-5
+      when: May 16
+      date: '1964-05-16'
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, on Luo Ruiqing''s 罗瑞卿 report of a tank school''s training crushing the people''s wheat: the school''s needed training ground assured, its faults sternly criticized by the Military Commission; Liu Ren 刘仁, Zheng Tianxiang 郑天翔, Feng Jiping 冯基平 and the county and district committees to check their own and the teams'' cadres'' errors; local cadres and masses to see the whole, supporting army training a sacred duty, not to grab what they can.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 333–334. Made public: 2012. Names: Peng Zhen, Luo Ruiqing.'
+      src:
+        c: 10980aa4
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 333–334: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:luo-ruiqing
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-05-18.china-leadership-9
+      when: May 18
+      date: '1964-05-18'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 speaks at the capital''s meeting welcoming General Ibrahim Abboud, Chairman of the Supreme Council of the Armed Forces and President of the Council of Ministers of the Republic of the Sudan: the Sudanese people, after long struggle, free of colonial rule, have achieved much; China with Asia, Africa and Latin America against imperialist aggression.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 334. See [[cal.1964-05-16.china-leadership]]. Names: Peng Zhen.'
+      src:
+        c: 6e6fc8c4
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 334: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-05-18.china-leadership-10
+      when: May 18
+      date: '1964-05-18'
+      time_range:
+      - 1964-05-18T04:00Z
+      - 1964-05-18T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Chen Yi 陈毅 and others, accompanies Mao Zedong 毛泽东 in meeting General Abboud and his party.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 334. The words: 下午 (IV, 334). See [[cal.1964-05-16.china-leadership]]. Names: Peng Zhen, Liu Shaoqi, Zhou Enlai, Chen Yi, Mao Zedong.'
+      src:
+        c: 00ec7838
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 334: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:chen-yi
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1964-06-02.china-leadership-8
+      when: June 2
+      date: '1964-06-02'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真, at the meeting of the Standing Committee, the Secretariat and the regional bureaus'' first secretaries on socialist education in town and country: the villages'' problems much exposed, the cities'' now look graver, so a joint attack of the "five antis" and "four clean-ups"; the class ranks impure if those people get into the Party; the cities'' "five antis" in three great batches, the leading organs, larger enterprises, colleges and great hospitals first, then cooperatives, small enterprises, schools, clinics, theatres and cinemas, then the streets; leaders'' style revolutionized by labor; class status, family origin and political record cleared; the movement the Party''s and League''s rectification, new members after; in the organs bureaucracy, too many papers, forms and meetings.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 334–335. Made public: 2012. See [[cal.1964-05-15.china-leadership]]. Names: Peng Zhen.'
+      src:
+        c: 75ae9128
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 334–335: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-06-04.china-leadership-7
+      when: June 4
+      date: '1964-06-04'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the airport meets the Belgian Communist Party's delegation under Jacques Grippa, back from Korea to continue its visit.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 335. See [[cal.1964-05-22.china-leadership-3]]. Names: Peng Zhen.'
+      src:
+        c: f15b0c5d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 335: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-06-07.china-leadership-5
+      when: June 7
+      date: '1964-06-07'
+      place: peking
+      thread: china-leadership
+      c: The Great Hall of the People 人民大会堂, Peking 北京. Peng Zhen 彭真 at the capital's meeting welcoming the Chinese mountaineers back from the summit of Shishapangma 希夏邦马峰.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 336. Names: Peng Zhen.'
+      src:
+        c: 9ba672bf
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 336: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-06-07.china-leadership-6
+      when: June 7
+      date: '1964-06-07'
+      time_range:
+      - 1964-06-07T11:00Z
+      - 1964-06-07T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真, at the Peking committee''s and council''s dinner and film party for the mountaineers, toasts them: after Everest 珠穆朗玛峰 another brilliant feat; all fronts to learn their hard training and dogged spirit.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 336. The words: 当晚 (IV, 336). Names: Peng Zhen.'
+      src:
+        c: 7f8d4218
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 336: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-06-10.china-leadership-7
+      when: June 10
+      date: '1964-06-10'
+      time_range:
+      - 1964-06-10T04:00Z
+      - 1964-06-10T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Liu Ren 刘仁 and Zheng Tianxiang 郑天翔 at Peng Zhen's 彭真 home on the Peking committee's work.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 336. The words: 下午 (IV, 336). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: e9493892
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 336: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-06-12.china-leadership-3
+      when: June 12
+      date: '1964-06-12'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the airport meets the Indonesian Communist Party's delegation under Anwar Kadir, secretary of its Central Committee, arriving from Korea.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 337. Names: Peng Zhen.'
+      src:
+        c: cfb170c6
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 337: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-06-13.china-leadership-5
+      when: June 13
+      date: '1964-06-13'
+      time_range:
+      - 1964-06-13T04:00Z
+      - 1964-06-13T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 meets the Indonesian Communist Party's delegation under Anwar Kadir and gives it a dinner.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 337. The words: 十三日下午 (IV, 337). Made public: 2012. See [[cal.1964-06-12.china-leadership-3]]. Names: Peng Zhen.'
+      src:
+        c: 6ebe198b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 337: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-06-14.china-leadership-9
+      when: June 14
+      date: '1964-06-14'
+      time_range:
+      - 1964-06-14T11:00Z
+      - 1964-06-14T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Liu Ren 刘仁, Zheng Tianxiang 郑天翔 and others at Peng Zhen's 彭真 home on the Peking committee's work.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 337. The words: 晚 (IV, 337). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: ac0f8a0b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 337: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-06-15.china-leadership-3
+      when: June 15
+      date: '1964-06-15'
+      time_range:
+      - 1964-06-14T22:00Z
+      - 1964-06-15T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: 'Peking 北京. Peng Zhen 彭真 receives the Vietnamese public security delegation: as the Party relies on the masses, so must the police; power is firm only on the workers and the poor and lower-middle peasants.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 337. The words: 上午 (IV, 337). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: ee31269a
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 337: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc+drv
+- add:
+    entry:
+      id: cal.1964-06-16.china-leadership-6
+      when: June 16
+      date: '1964-06-16'
+      time_range:
+      - 1964-06-15T22:00Z
+      - 1964-06-16T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 in talks with Kawawa, vice-chairman of the Tanganyika African National Union and Second Vice-President, and Swai, the union''s treasurer and Minister of State: without independence nothing for the oppressed; full independence political, military, economic and cultural; without military independence political independence empty; the economy the base, army, politics and culture serving it.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 337–338. The words: 上午 (IV, 337–338). Made public: 2012. See [[cal.1964-06-11.china-leadership-5]]. Names: Peng Zhen.'
+      src:
+        c: 9f199308
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 337–338: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc+tanzania
+- add:
+    entry:
+      id: cal.1964-06-16.china-leadership-7
+      when: June 16
+      date: '1964-06-16'
+      time_range:
+      - 1964-06-16T11:00Z
+      - 1964-06-16T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the signing of the economic and technical cooperation agreement of the People's Republic and the United Republic of Tanganyika and Zanzibar, then at Kawawa's farewell banquet.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 338. The words: 晚 (IV, 338). See [[cal.1964-06-11.china-leadership-5]]. Names: Peng Zhen.'
+      src:
+        c: ab9bf617
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 338: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-06-17.china-leadership-4
+      when: June 17
+      date: '1964-06-17'
+      time_range:
+      - 1964-06-16T22:00Z
+      - 1964-06-17T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 speaks to the work conference''s East China group: Mao''s three lines, local forces and arsenals, and successors strategic plans for a century; Khrushchev calls himself a Marxist-Leninist but stands for the high-paid stratum, kulaks and capitalists; the highest interest of the great majority the test of truth; Communists to unite with those who opposed them; democratic style of special weight for a ruling party, now one who offends a branch secretary may lose his rice bowl, men watch the first secretary''s face; high democracy, high centralism; Mao says the Party is no "Mao clan temple"; self-criticism above all for first secretaries, governors, commanders and commissars.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 338–339. The words: 上午 (IV, 338–339). Made public: 2012. See [[cal.1964-05-15.china-leadership]]. Names: Peng Zhen, Khrushchev, Mao Zedong.'
+      src:
+        c: 36b0b5a4
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 338–339: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:khrushchev-nikita-s
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-06-17.china-leadership-5
+      when: June 17
+      date: '1964-06-17'
+      time_range:
+      - 1964-06-17T04:00Z
+      - 1964-06-17T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the work conference's closing plenary, Deng Xiaoping 邓小平 summing up.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 339. The words: 下午 (IV, 339). Made public: 2012. See [[cal.1964-05-15.china-leadership]]. Names: Peng Zhen, Deng Xiaoping.'
+      src:
+        c: ab328ac1
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 339: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-06-19.china-leadership-10
+      when: June 19
+      date: '1964-06-19'
+      place: peking
+      thread: china-leadership
+      c: Tongxian county 通县, Peking 北京. Peng Zhen 彭真 inspects.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 339. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: a27826b5
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 339: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-06-19.china-leadership-12
+      when: June 19
+      date: '1964-06-19'
+      time_range:
+      - 1964-06-19T11:00Z
+      - 1964-06-19T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with He Long 贺龙, Yang Chengwu 杨成武, Liu Zhijian 刘志坚 and others, accompanies Mao 毛泽东 to the Canton forces' soldiers' drama troupe in *The Great Wall of the South Sea* 《南海长城》.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 339. The page''s note: Liu Zhijian, deputy head of the General Political Department and head of its Propaganda Department (IV, 339). The words: 晚 (IV, 339). Made public: 2012. Names: Peng Zhen, He Long, Mao Zedong.'
+      src:
+        c: 33976baf
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 339: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:he-long
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-06-20.china-leadership-5
+      when: June 20
+      date: '1964-06-20'
+      place: peking
+      thread: china-leadership
+      c: The Dongbeiwang commune 东北旺公社, Haidian district 海淀区, Peking 北京. Peng Zhen 彭真 inspects.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 339. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: c929e8c0
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 339: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-06-24.china-leadership-5
+      when: June 24
+      date: '1964-06-24'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 at the Peking Opera Troupe''s rehearsal of the revolutionary modern opera *Azalea Mountain* 《杜鹃山》, and talks with the players: a play of the Red Army''s struggle at Jinggangshan good and lasting; most of the script to be settled first, part revised; views on the chief figures, officers and men, army and people; to Ma Lianliang 马连良, at sixty-four, praise for the labor of learning his lines; any kind of opera that does not reflect present life and the workers, peasants and soldiers abolishes itself.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 339–340. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 4c8603a8
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 339–340: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-06-24.china-leadership-6
+      when: June 24
+      date: '1964-06-24'
+      time: 1964-06-24T15:00Z
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Jiang Qing 江青 at Peng Zhen's 彭真 home to talk, from 11 p.m. to 1:30 a.m.; his wife Zhang Jieqing 张洁清 there.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 340. Made public: 2012. Names: Peng Zhen, Jiang Qing.'
+      src:
+        c: dfa47229
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 340: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:jiang-qing
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-06-25.china-leadership-9
+      when: June 25
+      date: '1964-06-25'
+      time_range:
+      - 1964-06-25T04:00Z
+      - 1964-06-25T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Zheng Tianxiang 郑天翔, Li Qi 李琪 and Deng Tuo 邓拓 at Peng Zhen's 彭真 home to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 340. The words: 中午 (IV, 340). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: c4114133
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 340: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-06-25.china-leadership-10
+      when: June 25
+      date: '1964-06-25'
+      time_range:
+      - 1964-06-25T11:00Z
+      - 1964-06-25T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: The Great Hall of the People 人民大会堂, Peking 北京. Peng Zhen 彭真, with He Long 贺龙 and others, accompanies Mao 毛泽东, Zhu De 朱德 and others to the Vietnam People's Army General Political Department's song and dance troupe in the revolutionary dance drama *Fire of Nghệ Tĩnh* 《义静烈火》.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 340. The words: 晚 (IV, 340). Names: Peng Zhen, He Long, Mao Zedong, Zhu De.'
+      src:
+        c: a5f64f70
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 340: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:he-long
+      - name:mao-zedong
+      - name:zhu-de
+- add:
+    entry:
+      id: cal.1964-06-26.china-leadership-9
+      when: June 26
+      date: '1964-06-26'
+      time_range:
+      - 1964-06-26T04:00Z
+      - 1964-06-26T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De 朱德, Dong Biwu 董必武 and others, receives the delegates to the public security forces' meeting of "four-good" companies and "five-good" soldiers, the graduates of the PLA Political Academy's local cadres' course and those of its army course, and the students of the central political and legal cadres' school.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 340. The words: 下午 (IV, 340). Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu.'
+      src:
+        c: 12242f45
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 340: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:zhu-de
+      - name:dong-biwu
+- add:
+    entry:
+      id: cal.1964-06-27.china-leadership-7
+      when: June 27
+      date: '1964-06-27'
+      time_range:
+      - 1964-06-27T04:00Z
+      - 1964-06-27T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the airport meets the Indonesian Communist Party's delegation under Jusuf Adjitorop, deputy general secretary.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 340. The words: 下午 (IV, 340). Names: Peng Zhen.'
+      src:
+        c: a74dcb99
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 340: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-07-01.china-leadership-11
+      when: July 1
+      date: '1964-07-01'
+      time_range:
+      - 1964-07-01T11:00Z
+      - 1964-07-01T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 hears Hu Yaobang 胡耀邦, Hu Keshi 胡克实 and others: typical experience from one good and one poor factory, team and school; young cadres promoted for their great integrity, loyalty to the proletarian cause and the Party''s line, Marxism-Leninism not revisionism; the League''s center upright; the League a school of communism, larger, recommending fit members to the Party; more time and means for it; the Soviet revolution forty-odd years old, new forces of restoration still rising.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 341. The page''s note: Hu Keshi, secretary of the Youth League Central Committee''s Secretariat (IV, 341). The words: 晚 (IV, 341). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 64e9a5e0
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 341: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-07-03.china-leadership-7
+      when: July 3
+      date: '1964-07-03'
+      time_range:
+      - 1964-07-03T11:00Z
+      - 1964-07-03T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 meets the Albanian Ambassador, Nesti Nase.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 342. The words: 晚 (IV, 342). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: a3a6b4c7
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 342: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc+albania
+- add:
+    entry:
+      id: cal.1964-07-04.china-leadership-2
+      when: July 4
+      date: '1964-07-04'
+      time_range:
+      - 1964-07-04T04:00Z
+      - 1964-07-04T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at Mao's 毛泽东 to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 342. The words: 中午 (IV, 342). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+      src:
+        c: '64872439'
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 342: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-07-06.china-leadership-7
+      when: July 6
+      date: '1964-07-06'
+      time_range:
+      - 1964-07-06T04:00Z
+      - 1964-07-06T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at Mao's 毛泽东 to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 342. The words: 中午 (IV, 342). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+      src:
+        c: '64872439'
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 342: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-07-06.china-leadership-8
+      when: July 6
+      date: '1964-07-06'
+      thread: china-leadership
+      c: Peng Zhen 彭真 sends Mao 毛泽东, Lu Dingyi 陆定一, Kang Sheng 康生, Zhou Yang 周扬 and Wu Lengxi 吴冷西 Peking's *Wenyi zhanxian* 《文艺战线》 no. 27, reporting the People's Art Theatre's players gone to mines, sites and villages, with good effect.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 342. Made public: 2012. Names: Peng Zhen, Mao Zedong, Lu Dingyi, Kang Sheng.'
+      src:
+        c: a909809b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 342: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:lu-dingyi
+      - name:kang-sheng
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-07-07.china-leadership-6
+      when: July 7
+      date: '1964-07-07'
+      time_range:
+      - 1964-07-06T22:00Z
+      - 1964-07-07T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 meets the French Ambassador, Lucien Paye.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 342. The words: 上午 (IV, 342). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 47bbc33b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 342: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc+fr
+- add:
+    entry:
+      id: cal.1964-07-07.china-leadership-7
+      when: July 7
+      date: '1964-07-07'
+      time_range:
+      - 1964-07-07T11:00Z
+      - 1964-07-07T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Jiang Qing 江青 at Peng Zhen's 彭真 home to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 343. The words: 晚 (IV, 343). Made public: 2012. Names: Peng Zhen, Jiang Qing.'
+      src:
+        c: 0c2c97df
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 343: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:jiang-qing
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-07-11.china-leadership-8
+      when: July 11
+      date: '1964-07-11'
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, on two Higher Party School students'' points against Yang Xianzhen 杨献珍, sent by Kang Sheng 康生 to Mao, Peng, He Long and Luo Ruiqing: the Secretariat has decided that the school write articles exposing Yang''s "two combine into one" and in time criticize him by name.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 343. Made public: 2012. See [[cal.1964-07-07.china-leadership]]. Names: Peng Zhen, Kang Sheng.'
+      src:
+        c: d47a0f32
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 343: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:kang-sheng
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-07-11.china-leadership-9
+      when: July 11
+      date: '1964-07-11'
+      time_range:
+      - 1964-07-11T11:00Z
+      - 1964-07-11T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with He Long 贺龙 and others, at the Korean Embassy's banquet for the third anniversary of the treaty of friendship.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 343. The words: 晚 (IV, 343). Names: Peng Zhen, He Long.'
+      src:
+        c: ca02ccc9
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 343: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:he-long
+- add:
+    entry:
+      id: cal.1964-07-14.china-leadership-8
+      when: July 14
+      date: '1964-07-14'
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 sends Mao 毛泽东 a sketch map of Chinese territory seized by Tsarist Russia: 1.54 million square kilometers, not counting the 170,000 of Tannu Uriankhai taken in Stalin''s time or 10,000 in the central Pamirs.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 343. Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+      src:
+        c: d9e22dc0
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 343: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-07-14.china-leadership-9
+      when: July 14
+      date: '1964-07-14'
+      time_range:
+      - 1964-07-14T04:00Z
+      - 1964-07-14T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: The CPPCC auditorium 政协礼堂, Peking 北京. Peng Zhen 彭真 at the capital's meeting celebrating the air force's third downing of a U.S.-made U-2 of the Chiang Kai-shek clique.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 343. The words: 下午 (IV, 343). Names: Peng Zhen.'
+      src:
+        c: b2b9841c
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 343: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-07-14.china-leadership-10
+      when: July 14
+      date: '1964-07-14'
+      time_range:
+      - 1964-07-14T11:00Z
+      - 1964-07-14T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the French Ambassador Lucien Paye's banquet for France's national day.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 343–344. The words: 晚 (IV, 343–344). Names: Peng Zhen.'
+      src:
+        c: fdaa5f2f
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 343–344: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-07-16.china-leadership-6
+      when: July 16
+      date: '1964-07-16'
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 approves the publication of "On ''two combine into one'': a discussion with Comrade Yang Xianzhen" 《关于“合二而一”问题和杨献珍同志商榷》, and to Wu Lengxi 吴冷西: men to study the question fully and prepare a series of articles to a rough conclusion, an outline first, for theoretical polemic cannot be done in haste.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 344. Made public: 2012. See [[cal.1964-07-07.china-leadership]]. Names: Peng Zhen.'
+      src:
+        c: 037a8977
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 344: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-07-17.china-leadership-6
+      when: July 17
+      date: '1964-07-17'
+      time_range:
+      - 1964-07-17T04:00Z
+      - 1964-07-17T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 accompanies Mao Zedong 毛泽东, Zhou Enlai 周恩来 and others in receiving all the players and observers at the 1964 festival of Peking opera on contemporary themes, the delegates to the conference on political courses in colleges and schools, and the Xinjiang class graduating from the Central Academy of Drama.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 344. The words: 下午 (IV, 344). Names: Peng Zhen, Mao Zedong, Zhou Enlai.'
+      src:
+        c: e46c9c03
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 344: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1964-07-17.china-leadership-7
+      when: July 17
+      date: '1964-07-17'
+      time_range:
+      - 1964-07-17T11:00Z
+      - 1964-07-17T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 accompanies Mao Zedong 毛泽东, Zhou Enlai 周恩来 and others to the Shanghai company's modern Peking opera *Taking Tiger Mountain by Strategy* 《智取威虎山》.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 344. The words: 晚上 (IV, 344). Made public: 2012. Names: Peng Zhen, Mao Zedong, Zhou Enlai.'
+      src:
+        c: 071ff8cc
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 344: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-07-18.china-leadership-8
+      when: July 18
+      date: '1964-07-18'
+      time_range:
+      - 1964-07-18T04:00Z
+      - 1964-07-18T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 telephones Xiang Ziming 项子明 for the Peking committee: in the spirit of Mao''s late talks, the committee to study military affairs and take up theory; the *Beijing ribao* 北京日报 not bad but wanting in politics, a paper judged by its politics, with theoretical articles; it is the committee''s organ, not the editors'', and the committee must see to it.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 344. The words: 中午 (IV, 344). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: c19e4377
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 344: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-07-20.china-leadership-6
+      when: July 20
+      date: '1964-07-20'
+      time_range:
+      - 1964-07-20T04:00Z
+      - 1964-07-20T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Peking 北京. Peng Zhen 彭真, with Zhou Enlai 周恩来 and others, at the capital's meeting of 10,000 marking the tenth anniversary of the Geneva agreements and supporting the Vietnamese people's patriotic struggle against the United States, Mao Dun 茅盾, vice-chairman of the China Afro-Asian Solidarity Committee, presiding.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 344. The words: 下午 (IV, 344). Names: Peng Zhen, Zhou Enlai.'
+      src:
+        c: 6f222388
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 344: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1964-07-22.china-leadership-5
+      when: July 22
+      date: '1964-07-22'
+      time_range:
+      - 1964-07-22T04:00Z
+      - 1964-07-22T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 presides at the Secretariat''s 书记处 381st meeting: socialist education of the coastal fishermen, the ranks rectified in three steps; an Institute of Marxism-Leninism, on Liu Shaoqi''s 刘少奇 proposal with Mao''s and Deng Xiaoping''s assent, Chen Boda 陈伯达 its president, Hu Qiaomu 胡乔木, Zhou Yang 周扬 and Wu Lengxi 吴冷西 vice-presidents, An Ziwen 安子文 and Luo Ruiqing 罗瑞卿 to name one from the army; some tendencies of the Party papers.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 345. The words: 下午 (IV, 345). Made public: 2012. Names: Peng Zhen, Liu Shaoqi, Chen Boda.'
+      src:
+        c: c681036d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 345: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - name:chen-boda
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-07-23.china-leadership-7
+      when: July 23
+      date: '1964-07-23'
+      time_range:
+      - 1964-07-23T11:00Z
+      - 1964-07-23T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 accompanies Mao 毛泽东 and others to the Peking Opera Troupe's modern opera *Sparks amid the Reeds* 《芦荡火种》.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 345. The words: 晚上 (IV, 345). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+      src:
+        c: a89a3a50
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 345: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-07-24.china-leadership-4
+      when: July 24
+      date: '1964-07-24'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 hears the Ministry of Public Security''s Party group: the basic contradiction of the socialist revolution the struggle of proletariat and bourgeoisie, of the socialist and capitalist roads, to be made clear on the public security front too.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 345. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: e099cc00
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 345: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-07-24.china-leadership-5
+      when: July 24
+      date: '1964-07-24'
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 sends Mao 毛泽东 Chen Boda''s 陈伯达 written views on trial trusts in industry and communications and on new techniques: steel and machine-building trusts, first regional subsidiaries, a national parent company after; on Aug. 2 Mao writes: "退彭真办."'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 345–346. Made public: 2012. Names: Peng Zhen, Mao Zedong, Chen Boda.'
+      src:
+        c: ddbd9a52
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 345–346: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:chen-boda
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-07-25.china-leadership-10
+      when: July 25
+      date: '1964-07-25'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 speaks to the Peking committee''s 中共北京市委 work conference: the "four clean-ups" and "five antis" not thorough for three fears, of hurting cadres, of a one-finger error, of harming the unity of 95 percent; criticism of "four unclean" cadres saves them; unity on principle, on Marxism-Leninism and the socialist road, not "two combine into one" or unity with grafters'' cliques; in Peking the masses not overroused but too little, some places not at all; leaders to squat at points; successors on Mao''s standard a plan for a century, from the Center to the branch, shop and company.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 346. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 363d719c
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 346: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-07-31.china-leadership-6
+      when: July 31
+      date: '1964-07-31'
+      time_range:
+      - 1964-07-31T04:00Z
+      - 1964-07-31T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真, with Zhou Enlai 周恩来, Lu Dingyi 陆定一 and others, at the closing of the 1964 festival of Peking opera on contemporary themes, and speaks: the systematic revolution of Peking opera only begun, a first victory; its workers to be thorough revolutionaries among workers, peasants and soldiers, creating under Mao Zedong Thought; setbacks and one-finger faults may come, but with a force set on serving them it will become the workers'', peasants'' and soldiers'' opera.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 347. The words: 下午 (IV, 347). See [[cal.1964-07-01.china-leadership-5]]. Names: Peng Zhen, Zhou Enlai, Lu Dingyi.'
+      src:
+        c: d296b074
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 347: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - name:lu-dingyi
+- add:
+    entry:
+      id: cal.1964-07-31.china-leadership-7
+      when: July 31
+      date: '1964-07-31'
+      time_range:
+      - 1964-07-31T11:00Z
+      - 1964-07-31T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: The Military Museum of the Chinese People's Revolution 中国人民革命军事博物馆, Peking 北京. Peng Zhen 彭真, with Zhou Enlai 周恩来, Li Xiannian 李先念 and others, at the capital's evening party for the thirty-seventh anniversary of the PLA, and receives the representatives of "four-good" companies, "five-good" soldiers, marksmen, skilled men, soldiers' and martyrs' families and Peking's militia.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 347–348. The words: 晚 (IV, 347–348). Names: Peng Zhen, Zhou Enlai, Li Xiannian.'
+      src:
+        c: a6278a2b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 347–348: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - name:li-xiannian
+- add:
+    entry:
+      id: cal.1964-08-01.china-leadership-5
+      when: Aug. 1
+      date: '1964-08-01'
+      time_range:
+      - 1964-07-31T22:00Z
+      - 1964-08-01T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 telephones the Peking committee''s university department: Party members only 3.6 percent of the country''s students, fewer than the secret members at Peking and Tsinghua universities at Peiping''s liberation, and many League members overage, a closed-door tendency; without branches in the classes the schools'' Party work has no base; agreed with Zhou Enlai 周恩来 and Deng Xiaoping 邓小平: the year''s graduates trained a month or so on world outlook, political line and the intellectuals'' revolutionary road, then members taken in, the papers of those not ready sent to their employers.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 348. The words: 上午 (IV, 348). Made public: 2012. Names: Peng Zhen, Zhou Enlai, Deng Xiaoping.'
+      src:
+        c: 96e61ad9
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 348: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - name:deng-xiaoping
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-08-01.china-leadership-6
+      when: Aug. 1
+      date: '1964-08-01'
+      time_range:
+      - 1964-08-01T11:00Z
+      - 1964-08-01T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Zhou Enlai 周恩来 at Peng Zhen's 彭真 home to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 348. The words: 晚 (IV, 348). Made public: 2012. Names: Peng Zhen, Zhou Enlai.'
+      src:
+        c: 6783e1e9
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 348: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-08-04.china-leadership-7
+      when: Aug. 4
+      date: '1964-08-04'
+      place:
+      - peking
+      - beidaihe
+      thread: china-leadership
+      c: Peng Zhen 彭真 goes by train to Beidaihe 北戴河, where, before his return to Peking 北京 in late August, he attends a series of meetings.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 348. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: be81de5b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 348: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-08-06.china-leadership-9
+      when: Aug. 6
+      date: '1964-08-06'
+      place: beidaihe
+      thread: china-leadership
+      c: 'Beidaihe 北戴河. Peng Zhen 彭真 with Lin Mohan 林默涵 on the revolution in Peking opera and ideological criticism: the festival right, proving the opera can play modern life and easing the doubts of Ma Lianliang 马连良, Zhou Xinfang 周信芳 and Tan Fuying 谭富英; modern opera young but alive; lead the direction, the line, creation, artists joined to workers, peasants and soldiers, art left to the artists; a festival every year or two; the base socialist, art behind, the Party grown in the democratic revolution and many unready for the socialist one; mostly good men who erred, apart from enemies; many said wrong things of the leap, to be cured; systematic errors criticized openly, good works and cadres praised too; the ideological struggle and socialist education two sides of the socialist revolution.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 349–350. Made public: 2012. See [[cal.1964-08-04.china-leadership-7]]. Names: Peng Zhen.'
+      src:
+        c: 7fbc9b70
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 349–350: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-08-10.china-leadership-5
+      when: Aug. 10
+      date: '1964-08-10'
+      time_range:
+      - 1964-08-10T04:00Z
+      - 1964-08-10T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: beidaihe
+      thread: china-leadership
+      c: Beidaihe 北戴河. Peng Zhen 彭真 with Deng Xiaoping 邓小平 to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 350. The words: 下午 (IV, 350). Made public: 2012. See [[cal.1964-08-04.china-leadership-7]]. Names: Peng Zhen, Deng Xiaoping.'
+      src:
+        c: a275adfd
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 350: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-08-14.china-leadership-4
+      when: Aug. 14
+      date: '1964-08-14'
+      time_range:
+      - 1964-08-14T04:00Z
+      - 1964-08-14T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: beidaihe
+      thread: china-leadership
+      c: Beidaihe 北戴河. Peng Zhen 彭真 with Zhu De 朱德, Deng Xiaoping 邓小平 and Chen Boda 陈伯达 to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 350. The words: 下午 (IV, 350). Made public: 2012. See [[cal.1964-08-04.china-leadership-7]]. Names: Peng Zhen, Zhu De, Deng Xiaoping, Chen Boda.'
+      src:
+        c: 3270e3ff
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 350: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhu-de
+      - name:deng-xiaoping
+      - name:chen-boda
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-08-21.china-leadership-7
+      when: Aug. 21
+      date: '1964-08-21'
+      time_range:
+      - 1964-08-21T11:00Z
+      - 1964-08-21T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the Romanian Embassy's reception for the twentieth anniversary of Romania's liberation.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 351. The words: 晚 (IV, 351). Names: Peng Zhen.'
+      src:
+        c: f1f365cd
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 351: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-08-22.china-leadership-6
+      when: Aug. 22
+      date: '1964-08-22'
+      time_range:
+      - 1964-08-21T22:00Z
+      - 1964-08-22T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 receives the Belgian Communist Party''s (Marxist-Leninist) delegation writing its Party school''s textbooks: class struggle while capitalism lives anywhere; Khrushchev''s revisionism a lesson; against revisionism and restoration a struggle of a hundred to several hundred years.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 351. The words: 上午 (IV, 351). Made public: 2012. Names: Peng Zhen, Khrushchev.'
+      src:
+        c: fe976d76
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 351: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:khrushchev-nikita-s
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-08-24.china-leadership-3
+      when: Aug. 24
+      date: '1964-08-24'
+      time_range:
+      - 1964-08-23T22:00Z
+      - 1964-08-24T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 meets the Algerian Ambassador, Mohamed Yala.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 351. The words: 上午 (IV, 351). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 52a8e278
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 351: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc+algeria
+- add:
+    entry:
+      id: cal.1964-08-24.china-leadership-4
+      when: Aug. 24
+      date: '1964-08-24'
+      time_range:
+      - 1964-08-23T22:00Z
+      - 1964-08-24T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 meets the Syrian Ambassador, Hilal Raslan.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 351. The words: 上午 (IV, 351). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 639bac14
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 351: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc+syria
+- add:
+    entry:
+      id: cal.1964-08-25.china-leadership-4
+      when: Aug. 25
+      date: '1964-08-25'
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, on Cheng Zihua''s 程子华 letter on sending construction, geology and prospecting men at once to the Panzhihua 攀枝花 steel base: the whole plan surveyed and laid out quickly, work begun at many points in a fighting spirit, the railway first at top speed.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 352. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: '26757884'
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 352: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-08-26.china-leadership-2
+      when: Aug. 26
+      date: '1964-08-26'
+      time_range:
+      - 1964-08-25T22:00Z
+      - 1964-08-26T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 meets Mrs. Flo Russell of the leadership of the Australian Communist Party (Marxist-Leninist).
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 352. The words: 上午 (IV, 352). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 12a64c01
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 352: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-08-27.china-leadership-7
+      when: Aug. 27
+      date: '1964-08-27'
+      time: 1964-08-27T03:00Z
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at Zhou Enlai's 周恩来 to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 352. Made public: 2012. Names: Peng Zhen, Zhou Enlai.'
+      src:
+        c: d5ed41c6
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 352: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-08-27.china-leadership-8
+      when: Aug. 27
+      date: '1964-08-27'
+      time_range:
+      - 1964-08-27T11:00Z
+      - 1964-08-27T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: The Workers' Stadium, Peking 北京. Peng Zhen 彭真, at the Peking committee's and council's meeting closing the training of the capital's year's college graduates, urges them to keep the socialist road, join the workers, peasants and soldiers of their own will and become revolutionary, laboring intellectuals of the working class.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 352. The words: 晚 (IV, 352). Names: Peng Zhen.'
+      src:
+        c: 6b8a9fa6
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 352: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-08-27.china-leadership-9
+      when: Aug. 27
+      date: '1964-08-27'
+      thread: china-leadership
+      c: 'Mao 毛泽东 has the "four clean-ups" report of the Taoyuan 桃园 brigade, Luwangzhuang commune, Funing county 抚宁县, Hebei (the "Taoyuan experience"), recommended by Liu Shaoqi 刘少奇 and Chen Boda 陈伯达, printed for the coming meeting of the regional bureaus'' first secretaries: work teams first "strike roots and link up," both relying and not relying on the base organizations and cadres; on Sept. 1 the Center forwards it as a full and careful typical experience, for reference only.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 352. Made public: 2012. See [[cal.1964-08-22.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Chen Boda, Peng Zhen.'
+      src:
+        c: b91bc936
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 352: all'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:chen-boda
+      - name:peng-zhen
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-09-01.china-leadership-4
+      when: Sept. 1
+      date: '1964-09-01'
+      time_range:
+      - 1964-08-31T22:00Z
+      - 1964-09-01T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 calls the members of the Peking committee 中共北京市委 together.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 353. The words: 上午 (IV, 353). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: dffedd3f
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 353: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09-01.china-leadership-5
+      when: Sept. 1
+      date: '1964-09-01'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 speaks to the regional bureaus'' first secretaries: Liu Shaoqi''s 刘少奇 proposal of battles of annihilation in rural socialist education goes to the root; three conditions, teams owing lessons of the democratic and socialist revolutions, peaceful land-reform areas with clans unbroken; teams thoroughly revolutionized whose cadres were dragged down; cadres corrupted and used but not yet degenerate; Mao''s estimate, a third of the leadership not ours; county committees good, rotten or faulty, the faulty relied on after "washing hands and bathing"; class aliens in the Party purged; the attack narrow at first, clans reckoned grave; handling slow; even 1 percent perhaps too many; the masses fully roused.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 353–354. Made public: 2012. See [[cal.1964-08-29.china-leadership]]. Names: Peng Zhen, Liu Shaoqi.'
+      src:
+        c: 9d60ff14
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 353–354: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09-02.china-leadership
+      when: Sept. 2
+      date: '1964-09-02'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Liu Ren 刘仁 calls Peking''s county and district secretaries 中共北京市县、区委书记: in the spirit of the bureaus'' meeting, a concentrated "four clean-ups" battle in Tongxian 通县, 10,000 cadres of the city and those of the central organs squatting at points to enter the villages after the winter wheat is sown in early October; Liu Ren, Deng Tuo 邓拓, Chen Kehan 陈克寒, Yu Diqing 余涤清 and Jia Xingwu 贾星五 each at a brigade; a general headquarters under Zhao Fan 赵凡, a Tongxian general Party committee and the *Rural Four Clean-ups News* 《农村四清报》.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 354. Under Peng Zhen''s day; his part is not stated. The page''s note: Yu Diqing, member of the Peking committee''s Standing Committee and head of its Organization Department (IV, 354). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 5bc05520
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 354: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09-02.china-leadership-2
+      when: Sept. 2
+      date: '1964-09-02'
+      time_range:
+      - 1964-09-02T11:00Z
+      - 1964-09-02T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the Vietnamese Embassy's national day reception.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 354. The words: 晚 (IV, 354). Names: Peng Zhen.'
+      src:
+        c: 2972367b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 354: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-09-03.china-leadership-3
+      when: Sept. 3
+      date: '1964-09-03'
+      time_range:
+      - 1964-09-03T14:00Z
+      - 1964-09-03T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Liu Ren 刘仁, Zheng Tianxiang 郑天翔 and others at Peng Zhen's 彭真 home on the work.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 354. The words: 夜 (IV, 354). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: fafebf0f
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 354: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09-03.china-leadership-4
+      when: Sept. 3–12
+      date: '1964-09-03'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the first session of the fifth Peking People's Congress 北京市五届人大一次会议 (to Sept. 12), which on the 12th elects him a deputy to the third National People's Congress and mayor again.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 354. Names: Peng Zhen.'
+      src:
+        c: da15a254
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 354: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-09-04.china-leadership-5
+      when: Sept. 4
+      date: '1964-09-04'
+      time_range:
+      - 1964-09-04T04:00Z
+      - 1964-09-04T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 presides at the Secretariat 书记处 on building the third line, those concerned there.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 354. The words: 下午 (IV, 354). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 182b97ca
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 354: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09-05.china-leadership-2
+      when: Sept. 5
+      date: '1964-09-05'
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, after the Propaganda Department''s inquiry group''s report of Aug. 29 on the impure ranks of Peking University''s 北京大学 Party leaders and a department head''s comment, "there is a question of seizing the seal there," writes to Deng Xiaoping 邓小平, Kang Sheng 康生, Lu Dingyi 陆定一, Zhang Ziyi 张子意 and Zhang Panshi 张磐石: the families, connections and records of senior intellectuals and some leaders of the colleges complex, some surely bad or bourgeois, some revolutionary but not cut from bourgeois and reactionary families; agrees with Lu to print it in the *Xuanjiao dongtai* supplement; the university''s whole leadership studied one by one and its leadership settled as a model; a group of five, Zhang Panshi head, Pang Da 庞达, Liu Yangqiao 刘仰峤, Xu Zirong 徐子荣 and Song Shuo 宋硕, to clear the cadres'' political records.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 354–355. The page''s notes: Zhang Panshi, deputy head of the Propaganda Department; Pang Da, deputy head of its education office; Liu Yangqiao, Vice-Minister of Higher Education; Song Shuo, deputy head of the Peking committee''s university and science department (IV, 355). Made public: 2012. Names: Peng Zhen, Deng Xiaoping, Kang Sheng, Lu Dingyi.'
+      src:
+        c: ca618277
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 354–355: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+      - name:kang-sheng
+      - name:lu-dingyi
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-09-07.china-leadership-3
+      when: Sept. 7
+      date: '1964-09-07'
+      time_range:
+      - 1964-09-07T11:00Z
+      - 1964-09-07T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 calls Liu Ren 刘仁, Zheng Tianxiang 郑天翔 and others to a meeting at his home.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 355. The words: 晚 (IV, 355). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: d78cd982
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 355: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09-08.china-leadership-4
+      when: Sept. 8
+      date: '1964-09-08'
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, on the Ministry of Metallurgy''s 冶金部 report on the third line: its leading groups, as when cadres for the new areas went south with the army, supplied whole by suitable old enterprises, each to finish its charge in time; new techniques and new equipment as far as may be.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 355. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: b4923e68
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 355: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-09-08.china-leadership-5
+      when: Sept. 8
+      date: '1964-09-08'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the airport meets the Chinese Party and government delegation under Li Xiannian 李先念, back from the twentieth anniversary of Romania's liberation.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 355–356. Names: Peng Zhen, Li Xiannian.'
+      src:
+        c: 92dc3e93
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 355–356: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:li-xiannian
+- add:
+    entry:
+      id: cal.1964-09-08.china-leadership-6
+      when: Sept. 8
+      date: '1964-09-08'
+      time_range:
+      - 1964-09-08T04:00Z
+      - 1964-09-08T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: The Great Hall of the People 人民大会堂, Peking 北京. Peng Zhen 彭真 reports on the situation and socialist education to the deputies of Peking's fifth People's Congress, the members of the city's CPPCC, the delegates to the conference of "five-good" collectives and workers of industry, transport, construction and trade, and the leaders of the city's organs.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 356. The words: 下午 (IV, 356). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: bac1c938
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 356: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09-09.china-leadership-2
+      when: Sept. 9
+      date: '1964-09-09'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the airport meets Miyamoto Kenji, general secretary of the Japanese Communist Party, and his party.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 356. Names: Peng Zhen.'
+      src:
+        c: b0a306bd
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 356: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-09-11.china-leadership-4
+      when: Sept. 11
+      date: '1964-09-11'
+      time_range:
+      - 1964-09-11T04:00Z
+      - 1964-09-11T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 presides at the Five-Man Group of the Cultural Revolution 中央文化革命五人小组 on rectification in the arts and in scholarship.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 356. The words: 下午 (IV, 356). Made public: 2012. See [[cal.1964-07-07.china-leadership]]. Names: Peng Zhen.'
+      src:
+        c: 02304094
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 356: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09-12.china-leadership
+      when: Sept. 12
+      date: '1964-09-12'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 calls on Soong Ching-ling 宋庆龄.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 356. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 918097ce
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 356: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09-12.china-leadership-2
+      when: Sept. 12
+      date: '1964-09-12'
+      time_range:
+      - 1964-09-12T04:00Z
+      - 1964-09-12T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 meets the Sudanese Ambassador, Fakhr al-Din Mohammed, and tells him of China's economic building and the principles of its aid abroad and its experts.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 356. The words: 下午 (IV, 356). Made public: 2012. See [[cal.1964-09-07.china]]. Names: Peng Zhen.'
+      src:
+        c: 91ecb5d9
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 356: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc+sudan
+- add:
+    entry:
+      id: cal.1964-09-12.china-leadership-3
+      when: Sept. 12
+      date: '1964-09-12'
+      time_range:
+      - 1964-09-12T11:00Z
+      - 1964-09-12T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 presides at the first session of the fifth Peking People''s Council 北京市人民委员会: the general line of socialist construction carried out, socialist education and construction pressed.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 356. The words: 晚 (IV, 356). Names: Peng Zhen.'
+      src:
+        c: 865c5878
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 356: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1964-09-14.china-leadership-3
+      when: Sept. 14
+      date: '1964-09-14'
+      place: peking
+      thread: china-leadership
+      c: Peng Zhen 彭真, back in Peking 北京, passes to Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and others Mao's proposal to invite delegations of the brother parties of some socialist countries and of some Asian capitalist countries to National Day.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 356. Made public: 2012. Names: Peng Zhen, Liu Shaoqi, Zhou Enlai, Mao Zedong.'
+      src:
+        c: a1eec42e
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 356: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09-15.china-leadership-6
+      when: Sept. 15
+      date: '1964-09-15'
+      time_range:
+      - 1964-09-15T11:00Z
+      - 1964-09-15T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Liu Ren 刘仁 at Peng Zhen's 彭真 home to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 356. The words: 晚 (IV, 356). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 0bcfcc24
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 356: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09-16.china-leadership-4
+      when: Sept. 16
+      date: '1964-09-16'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 calls the members of the Peking committee 中共北京市委 together.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 356. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: dffedd3f
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 356: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-09-17.china-leadership-3
+      when: Sept. 17
+      date: '1964-09-17'
+      time_range:
+      - 1964-09-16T22:00Z
+      - 1964-09-17T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 with Liu Ren 刘仁 to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 356. The words: 上午 (IV, 356). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 3fcb160a
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 356: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
       - vis:only:prc
 - cite:
     id: cal.1960-01-06.china-leadership-4
@@ -15879,3 +18791,310 @@ ops:
 - cite:
     id: cal.1963-12-28.china-leadership-4
     item: '[[w.peng-zhen-nianpu-1902]], IV, 311 (Dec. 28, 1963; Peng Zhen presides at the meeting of 56,000 cadres of the central departments hearing Yu Qiuli on Daqing, and speaks: Daqing studied Mao''s works, began with the two essays, kept the mass line and the general line and the leap''s spirit; it made errors and corrected them daily; it joined the PLA''s political work and style to science and management; a model in the basic things, with some special features, but of general meaning for enterprises, commerce, finance, the government and Party, mass bodies and culture; used well, it will also guard against revisionism)'
+- cite:
+    id: cal.1964-01-03.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 313–314 (Jan. 3, 1964, afternoon; Peng Zhen at Liu Shaoqi''s forum on the arts, on Mao''s comment of Dec. 12, hearing Zhou Yang; Deng Xiaoping, Kang Sheng, Chen Boda, Guo Moruo, Mao Dun, Liu Ren, Zheng Tianxiang, Li Qi and others of the Propaganda Department, the Ministry of Culture and the Peking committee, 43 in all; Peng Zhen: the comment first for Peking, behind in art, living in peace with feudal and capitalist works; "我们领导有责任"; creation the key; most in the arts with problems of understanding; the young to eat, live and labor with workers and peasants, the old to keep ties; past works judged case by case; people re-educated, ranks regrouped)'
+- cite:
+    id: cal.1964-01-06.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 314–315 (Jan. 6, 1964, afternoon; the Secretariat''s 371st meeting; Peng Zhen there; Bo Yibo on the national industry and communications conference; Peng Zhen: departments to share news of Daqing, not each grope or go far for what is near; for political organs in enterprises, with Deng Xiaoping, young and lively men; "不按德才标准，只讲资格，要亡国的")'
+- cite:
+    id: cal.1964-01-08.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 315 (Jan. 8, 1964; Peng Zhen speaks to the trade union chairmen of the provinces at the federation''s meeting: the unions'' range, the state''s tasks and the workers'' thought and living, as Daqing tucks in quilts and minds families; the class''s purity by class and communist education, few hostile elements left; small takings of the hard years by "washing hands and bathing," lenient for the past, strict hereafter; learn from Daqing; membership registration after trials; enterprise political organs and unions divided, the unions working more from below)'
+- cite:
+    id: cal.1964-01-08.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 316 (Jan. 8, 1964, afternoon; Peng Zhen, with Mao, Liu Shaoqi, Deng Xiaoping, Li Fuchun, Bo Yibo, Luo Ruiqing, Yang Shangkun and others, receives those at the PLA''s political work and logistics conferences, the public security forces'' cadres, the industry and communications conference, the union chairmen, the First Machine Building Ministry''s design conference and the complete equipment conference)'
+- cite:
+    id: cal.1964-01-09.china-leadership-10
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 316 (Jan. 9, 1964; the Secretariat''s 372nd meeting; Peng Zhen there; Han Guang on the Science Commission Party group''s report on degrees and titles, and the central group''s report on placing youths sent down; Peng Zhen: degrees and titles by contribution to socialism, direct or indirect, and creation; the standard for new members to be discussed; schooling shortened without adding courses; textbooks kept stable; graduates and youths sent down not scattered, to salt land and hills, trained first, not where land is short and they would take the peasants'' points)'
+- cite:
+    id: cal.1964-01-23.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 317 (Jan. 23, 1964, afternoon; the Secretariat''s 373rd meeting; Peng Zhen there; Luo Ruiqing on the outline of war preparations in Xinjiang; Yao Yilin and Wang Lei on the commerce planning conference and 1964''s profit targets; Li Xiannian asked to study bank credit against usury, still found; the plan of commerce and the People''s Bank for clearing teams'' debts to the state approved)'
+- cite:
+    id: cal.1964-01-24.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 317 (Jan. 24, 1964; Peng Zhen, with Mao and Liu Shaoqi, reads the draft notice and the propaganda points on China–France relations drafted under Deng Xiaoping)'
+- cite:
+    id: cal.1964-01-25.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 317 (Jan. 25, 1964; Peng Zhen, with Mao and Liu Shaoqi, reads the *Renmin ribao* editorial "Congratulations on the establishment of China–France relations")'
+- cite:
+    id: cal.1964-01-26.china-leadership-9
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 317 (Jan. 26, 1964; Peng Zhen, with Liu Shaoqi, Li Fuchun, Li Xiannian, Bo Yibo and others, receives the delegates to the national conferences on geology, water, machinery, farm machinery, oil, metallurgy, light industry, building, railways, posts, weather, science, surveying, statistics, banks, finance, education, medicine and rural publishing, and to the PLA''s special conferences)'
+- cite:
+    id: cal.1964-02-04.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 317 (Feb. 4, 1964; Peng Zhen, with Liu Shaoqi, reads the Foreign Ministry''s request on the French advance party coming to China and the Chinese mission staff going to France)'
+- cite:
+    id: cal.1964-02-07.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 318 (Feb. 7, 1964; Peng Zhen, with Mao and Liu Shaoqi, reads the Foreign Ministry''s report on the line and tasks of the chargé d''affaires going to France)'
+- cite:
+    id: cal.1964-02-13.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 319 (Feb. 13, 1964; Peng Zhen, with Liu Shaoqi, Deng Xiaoping, Lu Dingyi, Kang Sheng, Guo Moruo, Lin Feng, Yang Xiufeng, Jiang Nanxiang, Zhang Jingfu, Lu Ping, Zhu Muzhi, Chen Shutong, Huang Yanpei, Xu Deheng, Zhang Shizhao and others, at Mao''s forum on education in the Great Hall of the People (the Spring Festival forum); Mao: schooling may be shortened, courses cut by half; trick questions in exams a way to treat enemies; too much Marxism undigested makes bookworms and dogmatists)'
+- cite:
+    id: cal.1964-02-25.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 320 (Feb. 25, 1964, 8 p.m.; Peng Zhen cables the embassy in Vietnam for Deng Xiaoping: on Premier Phạm''s statement on the struggle against the United States, discussed at the Chairman''s, Deng''s view agreed; on the 24th Deng had written on Ambassador Zhu Qiwen''s report: "请彭核," the Vietnamese not to hurry a statement, the Americans unlikely to bomb the North now)'
+- cite:
+    id: cal.1964-02-26.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 320 (Feb. 26, 1964, morning; the Zhongshan Hall, Zhongshan Park; Peng Zhen at the public memorial for Zhou Baozhong (the page''s note: Zhou Baozhong, 1902–1964, alternate member of the Central Committee, CPPCC standing member, member of the National Defense Council))'
+- cite:
+    id: cal.1964-02-26.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 321 (Feb. 26, 1964; Peng Zhen receives Mao''s comment: the visit of Souvanna Phouma, Prime Minister of Laos, set for Mar. 15, better put off fifteen days, as Zhou and Chen (the page''s note: Zhou Enlai and Chen Yi) may have an important meeting Mar. 15–20)'
+- cite:
+    id: cal.1964-02-27.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 321 (Feb. 27, 1964; Peng Zhen revises the Center''s reply to the CPSU''s letter of the 22nd: the CPSU had written on Feb. 12 to the other parties behind the Chinese back for "collective measures," and its February plenum resolved to "rebuff" the Chinese; the Chinese letter of Feb. 20 called it open factional and splitting activity and "demanded" a copy; the Soviet letter of the 22nd "refused," for "demand" was not "request"; the reply: "我们现在遵从你们的意思，请求你们……也发给我们")'
+- cite:
+    id: cal.1964-02-27.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 321 (Feb. 27 and 29, 1964; Diaoyutai; Peng Zhen, with Li Fuchun, Yang Shangkun and others, accompanies Mao, Liu Shaoqi and others in meeting Kim Il Sung, asking the Korean views on the Center''s reply to the CPSU''s letter of Nov. 29, 1963)'
+- cite:
+    id: cal.1964-02-29.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 321–322 (Feb. 29, 1964, afternoon; Peng Zhen at the enlarged Politburo, Liu Shaoqi presiding, which adopts the reply to the CPSU''s letter of Nov. 29, 1963: the border, aid, the Soviet experts, trade and a halt to open polemic; proposals on halting the polemic, preparing a meeting of the parties, the talks to go on in Peking in October and a meeting of seventeen parties after; delivered Mar. 1 (the page''s note: signed Feb. 29); on May 9 the *Renmin ribao* prints the seven letters exchanged since Nov. 29, 1963)'
+- cite:
+    id: cal.1964-03-02.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 322 (Mar. 2, 1964, afternoon; Peng Zhen, with Liu Shaoqi, Deng Xiaoping and others, at the airport meeting the Romanian Workers'' Party''s delegation under Ion Gheorghe Maurer, member of its Politburo)'
+- cite:
+    id: cal.1964-03-03.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 322 (Mar. 3–10, 1964; Peng Zhen in the Chinese delegation, Liu Shaoqi its head, Deng Xiaoping, Kang Sheng and others its members, in the talks with the Romanian delegation, which hopes to mediate in the fast worsening Sino-Soviet relations)'
+- cite:
+    id: cal.1964-03-05.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 322 (Mar. 5, 1964, toward evening; Peng Zhen accompanies Mao, Liu Shaoqi and Deng Xiaoping in talks again with Kim Il Sung)'
+- cite:
+    id: cal.1964-03-06.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 322–323 (Mar. 6 and 7, 1964, evenings; Peng Zhen, with Kang Sheng, sits in at Mao''s Standing Committee on the talks with the Romanian delegation)'
+- cite:
+    id: cal.1964-03-09.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 323 (Mar. 9, 1964; the Secretariat''s 374th meeting; Peng Zhen there; preparing the April Central Work Conference and other matters)'
+- cite:
+    id: cal.1964-03-09.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 323 (Mar. 9, 1964; Peng Zhen sits in at Mao''s Standing Committee and reports the Romanian delegation''s wish to prolong the talks; one more round decided)'
+- cite:
+    id: cal.1964-03-10.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 323 (Mar. 10, 1964; Peng Zhen, with Liu Shaoqi and Deng Xiaoping, receives Mao''s instruction on school courses, teaching and examinations)'
+- cite:
+    id: cal.1964-03-10.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 323 (Mar. 10, 1964, afternoon; Peng Zhen, with Liu Shaoqi, Deng Xiaoping and others, accompanies Mao in meeting the Romanian delegation and at the dinner; Mao: the open polemic was started by them, it needs a fair settlement; the talks good, both sides felt equal, "今晚是个团结的会见")'
+- cite:
+    id: cal.1964-03-12.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 323 (Mar. 12, 1964, morning; Peng Zhen, with Liu Shaoqi, Deng Xiaoping, Kang Sheng, Yang Shangkun, Wu Xiuquan and others, at the airport seeing off Maurer''s delegation to Korea)'
+- cite:
+    id: cal.1964-03-13.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 324 (Mar. 13, 1964, afternoon; Peng Zhen at the airport meeting the Japanese party''s delegation under Hakamada Satomi, member of its Politburo and secretary of its Secretariat)'
+- cite:
+    id: cal.1964-03-14.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 324–325 (Mar. 14, 1964; the Center issues *Qunzhong fanying* no. 16 of Mar. 6, with the letter of Wei Lianyi, head of Peking Railway No. 2 Middle School, on lightening the pupils'' load, and Mao''s comment: copies to the Propaganda and Education Ministry''s heads, the Peking committee and council, the Youth League; too many courses, poor teaching, examinations treating pupils as enemies with surprise attacks)'
+- cite:
+    id: cal.1964-03-15.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 325 (Mar. 15, 1964, afternoon; Peng Zhen, with Mao, Liu Shaoqi, Deng Xiaoping and others, at the airport meeting Zhou Enlai and his party, back from ten African countries, Albania and three Asian countries)'
+- cite:
+    id: cal.1964-03-19.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 325 (Mar. 19, 1964; Peng Zhen, with Deng Xiaoping, Li Fuchun, Bo Yibo, An Ziwen and others, on changes of personnel in some ministries and commissions)'
+- cite:
+    id: cal.1964-03-21.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 325 (Mar. 21 and 25, 1964; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping and others, in talks with the Japanese party''s delegation)'
+- cite:
+    id: cal.1964-03-23.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 325 (Mar. 23, 1964, evening; Peng Zhen, with Liu Shaoqi, Deng Xiaoping, Kang Sheng and others, accompanies Mao in meeting the Japanese party''s delegation)'
+- cite:
+    id: cal.1964-03-26.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 325 (Mar. 26, 1964, afternoon; Peng Zhen sits in at Mao''s Standing Committee, hearing Zhou Enlai on his African visit and discussing Sino-Soviet relations)'
+- cite:
+    id: cal.1964-04-01.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 326 (Apr. 1, 1964; the Secretariat''s 375th meeting; Peng Zhen there; Bo Yibo and Gu Mu on political departments in industry and communications; on the political work regulations Peng Zhen hopes for typical experience soon, failures too, good and bad examples more convincing)'
+- cite:
+    id: cal.1964-04-03.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 326 (Apr. 3, 1964; Peng Zhen, with Zhou Enlai, Deng Xiaoping and others, at Liu Shaoqi''s meeting on Sino-Soviet relations)'
+- cite:
+    id: cal.1964-04-07.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 326 (Apr. 5, 1964, 11 p.m.; Peng Zhen, with Deng Xiaoping and Kang Sheng, leads the anti-revisionist drafting group by train to the northwest and elsewhere)'
+- variant:
+    id: cal.1964-04-07.china-leadership-2
+    unit: A
+    witness: w.peng-zhen-nianpu-1902
+    reads: the train leaves Peking Apr. 5, at 11 p.m. ("晚十一时")
+    at: IV, 326
+- cite:
+    id: cal.1964-04-17.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 328 (Apr. 17, 1964; Peng Zhen inspects the Sanmenxia reservoir)'
+- cite:
+    id: cal.1964-04-18.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 328 (Apr. 18, 1964, morning; Peng Zhen, with Deng Xiaoping and others, by train to Yanzhou, Shandong, and by car to Qufu, to the Confucius temple)'
+- cite:
+    id: cal.1964-04-18.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 328 (Apr. 18, 1964, afternoon; Peng Zhen by car to Jinan)'
+- cite:
+    id: cal.1964-04-20.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 328 (Apr. 20, 1964, morning; Peng Zhen back in Peking)'
+- cite:
+    id: cal.1964-04-21.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 328 (Apr. 21, 1964; Peng Zhen, with Deng Xiaoping and others, calls in the Ministry of Water Conservancy''s heads on harnessing the Yellow and Huai rivers and others; the rebuilding of the Sanmenxia works raised)'
+- cite:
+    id: cal.1964-05-01.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 330 (May 1, 1964, morning; Peng Zhen, with Liu Shaoqi, Zhu De and Zhou Enlai, joins the crowds at the Working People''s Cultural Palace, then Zhongshan Park, Jingshan Park and other places)'
+- cite:
+    id: cal.1964-05-01.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 330 (May 1, 1964, evening; Peng Zhen at the gathering of more than a million on Tiananmen Square and the Chang''an avenues, and with Zhou Enlai, Chen Yi and others meets foreign guests on the gate and watches the fireworks)'
+- cite:
+    id: cal.1964-05-14.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 333 (May 14, 1964; the Secretariat''s 377th meeting; Peng Zhen there; the main subjects of the Central Work Conference)'
+- cite:
+    id: cal.1964-05-15.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 333 (May 15–June 17, 1964; Peng Zhen at the Central Work Conference in Peking: farm plans and rural work, socialist education, the first ideas of the Third Five-Year Plan (1966–70), political work in the systems, industry and communications above all, and finance and trade; also the third line, against revisionism, successors, the two systems of labor and of education; before it Mao: agriculture and defense the fist, basic industry the backside, which must sit firm; in it Mao, on the danger of a new world war, without a rear none in the atomic age, the country divided into first, second and third lines, the third line to be built; on socialist education, a third of the base''s power not in our hands, the masses to be roused and the "four uncleans''" patrons above traced; Mao fears revisionism in the Center and raises the training of successors; the directive and draft regulations of the poor and lower-middle peasants'' associations discussed)'
+- cite:
+    id: cal.1964-05-20.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 334 (May 20, 1964; Peng Zhen, with Chen Yi and He Long, accompanies Zhou Enlai to a unit at Yangcun to see a military exercise; in the evening, in the rain, the "Night Tiger Company''s" display; back to Peking at midnight)'
+- cite:
+    id: cal.1964-05-22.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 334 (May 22, 1964, evening; Peng Zhen at Liu Shaoqi''s, Zhu De''s and Deng Xiaoping''s dinner welcoming the Belgian Communist Party''s delegation under Jacques Grippa, secretary of its Central Committee)'
+- cite:
+    id: cal.1964-05-28.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 334 (May 28, 1964; Peng Zhen at the meeting Liu Shaoqi chairs of the Standing Committee, the Secretariat and the regional bureaus'' first secretaries, on the line of the Third Five-Year Plan)'
+- cite:
+    id: cal.1964-06-01.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 334 (June 1, 1964, afternoon; Peng Zhen, with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai and others, at the airport welcoming Marshal Abdullah al-Sallal, President of the Yemen Arab Republic, and his delegation)'
+- cite:
+    id: cal.1964-06-04.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 335 (June 4, 1964, morning; Peng Zhen at the work conference''s plenary, Liu Shaoqi presiding, hearing Bo Yibo on the decision to set up political organs in industry and on political work in industry and communications, and Li Xiannian on finance and trade)'
+- cite:
+    id: cal.1964-06-04.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 335–336 (June 4, 1964, afternoon; Peng Zhen speaks at the capital''s meeting welcoming President Sallal and his delegation: the Chinese people will fight to the end with the Arab peoples and those of Asia, Africa and the world against imperialism and colonialism old and new, for national liberation and peace)'
+- cite:
+    id: cal.1964-06-08.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 336 (June 8, 1964; Peng Zhen at Mao''s enlarged Standing Committee, some Politburo members and the regional bureaus'' first secretaries there; on preventing revisionism Mao, Peng Zhen and Zhou Enlai breaking in, many places below held by the enemy; Mao: "我看我们这个国家有三分之一的权力不在我们手里")'
+- cite:
+    id: cal.1964-06-10.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 336 (June 10, 1964; the Secretariat''s 378th meeting; Peng Zhen there; the Youth League Central Committee''s report to its Ninth Congress and other decisions agreed; Peng Zhen: youth''s outlook set at 22 or 23; for students joining the League politics first, studies second; members may be taken from third- and fourth-year students; Party spirit grown step by step)'
+- cite:
+    id: cal.1964-06-11.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 336 (June 11, 1964, morning; Peng Zhen, with Zhou Enlai, Guo Moruo and others, at the airport welcoming the economic delegation of the United Republic of Tanganyika and Zanzibar under Rashidi Mfaume Kawawa, Second Vice-President; in the evening at Zhou''s welcoming banquet)'
+- cite:
+    id: cal.1964-06-11.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 336 (June 11, 1964, morning; Peng Zhen, with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai and others, seeing off President Sallal''s delegation home)'
+- cite:
+    id: cal.1964-06-11.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 337 (June 11, 1964, afternoon; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping and the provincial first secretaries at the work conference, at the opening of the Youth League''s Ninth Congress)'
+- cite:
+    id: cal.1964-06-11.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 337 (June 11, 1964, afternoon; Peng Zhen at the work conference''s plenary, Mao presiding, hearing Liu Shaoqi''s report on the struggle against revisionism)'
+- cite:
+    id: cal.1964-06-14.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 337 (June 14, 1964, afternoon; Peng Zhen speaks at the capital''s meeting of more than 10,000 welcoming Kawawa and his economic delegation, Zhou Enlai and Chen Yi there: the Chinese people share Africa''s fate, back its independence and its unity in ways of its own choosing; the friendship with Tanganyika and Zanzibar unbreakable)'
+- cite:
+    id: cal.1964-06-15.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 337 (June 15, 1964, afternoon and evening; the western suburbs of Peking; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu, Deng Xiaoping and others, at the display of the Peking and Jinan forces)'
+- cite:
+    id: cal.1964-06-16.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 338 (June 16, 1964, afternoon; the Ming Tombs reservoir''s office; Peng Zhen at Mao''s meeting of the Standing Committee and the regional bureaus'' first secretaries: the local committees to take up military affairs; revolutionary successors, five conditions: Marxism-Leninism, not revisionism; the majority''s interests; uniting the majority; consulting comrades; self-criticism; successors at several levels from the regional bureaus down to the branches)'
+- cite:
+    id: cal.1964-06-17.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 338 (June 17, 1964, morning; Peng Zhen at the airport seeing off Kawawa and his party to Shanghai)'
+- cite:
+    id: cal.1964-06-17.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 339 (June 17, 1964, afternoon; the Secretariat''s 379th meeting; Peng Zhen there; Tan Zhenlin to revise the Later Ten Points and the poor and lower-middle peasants'' associations'' regulations; Peng Zhen to draft the Center''s directive on socialist education in the cities; class lines in the cities tried first in each region, reported by the regional bureaus)'
+- cite:
+    id: cal.1964-06-27.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 340 (June 27, 1964; Mao''s comment on the Propaganda Department''s report of May 8 on the rectification of the Federation of Literary and Art Circles and the associations: most of them and their journals, for fifteen years, did not carry out the Party''s policy, acted as officials and lords, kept from the workers, peasants and soldiers, did not reflect the socialist revolution, and lately fell to the edge of revisionism; unremolded, some day a Petőfi Club; sent to Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Kang Sheng, Lu Dingyi, Zhou Yang, Wu Lengxi and Chen Boda)'
+- cite:
+    id: cal.1964-06-27.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 340 (June 27, 1964; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu and others, receives the whole staff and students of the Higher Party School)'
+- cite:
+    id: cal.1964-07-01.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 340–341 (July 1, 1964, afternoon; Peng Zhen reports to the players, observers and some of the capital''s artists at the festival of Peking opera on contemporary themes: "京剧一定要改革，非改革不可"; to serve socialism and the workers, peasants and soldiers, not the old society''s relics and the landlords, rich peasants, counter-revolutionaries, bad elements and rightists; live men, heroes, modern plays, fewer emperors, kings, generals and ministers; revolutionary content in the opera''s own style; despise in strategy, heed in tactics, every scene, role, line and gesture; writers, directors and players among the workers, peasants and soldiers, the work revolutionized in thought)'
+- cite:
+    id: cal.1964-07-02.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 341–342 (July 2, 1964; Mao talks on military work and strategy with Zhou Enlai, Peng Zhen, He Long, Kang Sheng, Yang Chengwu and others: the picked units of the Peking and Jinan forces good, to be spread through the army; not only the east but the west, not only imperialism but revisionism; prepared, the enemy may not come; unprepared, he may)'
+- cite:
+    id: cal.1964-07-04.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 342 (July 4, 1964; Mao sends that day''s *Renmin ribao* report on the Yiduhe branch of Huairou county, Peking, promoting new forces, to Peng Zhen, An Ziwen, Lu Dingyi and Luo Ruiqing, and tells Wu Lengxi to cover and reprint such reports widely, true and typical, and some of complacency too)'
+- cite:
+    id: cal.1964-07-07.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 342–343 (July 7, 1964, afternoon; Peng Zhen presides at the Secretariat''s 380th meeting, He Long, Zhou Yang, Wu Lengxi, Lin Mohan and others sitting in; he relays: Mao lately on art, philosophy and social science, the arts "very confused," some associations at the edge of revisionism, a Petőfi Club ahead; the Ministry of Culture not serving the workers, peasants and soldiers, this front badly staffed since 1949; Mao would even make revolution against the ministry and associations from the localities; in philosophy Yang Xianzhen''s "two combine into one"; high salaries; Peng Zhen: great questions of principle; the Secretariat had not taken up the revolution in ideology, the criticism of Hu Feng, of *Dream of the Red Chamber* studies and of *The Life of Wu Xun* all Mao''s own; ideology tied to successors, or children lost and a Petőfi Club and counter-revolutionary restoration; decided: a five-man group, on Mao''s nomination, Peng Zhen head, Lu
+      Dingyi, Kang Sheng, Zhou Yang and Wu Lengxi, to lead the carrying out of the Center''s and Mao''s directions on literature, art, philosophy and social science (later the Five-Man Group of the Cultural Revolution); Yang Xianzhen''s views criticized in public; Mao''s comment of June 27 and Song Renqiong''s report on rural branches training successors printed for senior cadres)'
+- cite:
+    id: cal.1964-07-14.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 343 (July 14, 1964, morning; Peng Zhen at the airport meeting Zhou Enlai and Chen Yi back from Burma)'
+- cite:
+    id: cal.1964-07-15.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 344 (July 15, 1964, afternoon; the Yinian Tang; Peng Zhen, with Zhou Enlai, He Long, Chen Yi, Luo Ruiqing, Kang Sheng, Wu Xiuquan, Yang Chengwu, Wu Lengxi and others, hears Mao on military questions: from where will the enemy come; local forces, an arsenal in some provinces; the Panzhihua and Jiuquan steel bases to be settled; if materials are short, other railways left, the Chengdu–Kunming line built)'
+- cite:
+    id: cal.1964-07-20.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 344 (July 20, 1964, afternoon; Peng Zhen, with Zhou Enlai, Lu Dingyi and others, meets the Vietnam Committee for the Defense of World Peace''s delegation)'
+- cite:
+    id: cal.1964-07-23.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 345 (July 23, 1964; Mao, having read Peng Zhen''s report of July 1 to the Peking opera festival: "此件已阅，讲得很好"; the edited text sent on the 18th to the Five-Man Group, Lin Mohan, Chen Boda, Jiang Qing and others, on the 22nd to Mao; printed that year in *Hongqi* no. 14)'
+- cite:
+    id: cal.1964-07-23.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 345 (July 23, 1964, afternoon; Peng Zhen, with Mao, Zhou Enlai, Zhu De and others, receives the officers and men of the air force unit that again shot down a U.S.-made U-2 of the Chiang clique, the delegates to three conferences and the trade unions'' cadre trainees)'
+- cite:
+    id: cal.1964-07-25.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 346–347 (July 25, 1964; Peng Zhen at the Center''s forum of democratic personages, relaying the work conference ended June 17: the economy much helped by the eight-character line and the Sixty Articles; 1958 short of realism and coolness; socialist education from the lesson of revisionism''s seizure of power in the Soviet Union; no great restoration in China, but graft, speculation and going it alone in the hard years, and restoration in some mines, shops and cooperatives; the "four clean-ups" and "five antis" a socialist revolutionary movement of all the people; the arts long complex, to be rectified; Mao''s five conditions for successors; the parties'' friends to pass the test of the two roads)'
+- cite:
+    id: cal.1964-07-28.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 347 (July 28, 1964; Peng Zhen at the enlarged Politburo, Liu Shaoqi presiding, which adopts the Center''s reply to the CPSU''s letter of June 15, printed in the *Renmin ribao* July 31: China holds to a well-prepared meeting of brother parties united on Marxism-Leninism and opposes the CPSU''s splitting meeting, and will attend neither it nor its preparatory meeting)'
+- cite:
+    id: cal.1964-07-31.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 347 (July 31, 1964; the Peking Workers'' Stadium; Peng Zhen, with Zhou Enlai, at the meeting of more than 50,000 of the capital''s graduates of colleges, technical and high schools and students abroad, Zhou reporting on revolution and labor)'
+- cite:
+    id: cal.1964-08-01.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 348 (Aug. 1, 1964; Zhou Enlai approves Zhou Yang''s request on staging the great song and dance *The East Is Red* 《东方红》 at National Day, the recitations and lyrics, once set, to be passed finally by Peng Zhen, Chen Yi, Lu Dingyi and Kang Sheng)'
+- cite:
+    id: cal.1964-08-03.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 348 (Aug. 3, 1964, afternoon; the Fujian Room of the Great Hall of the People; Peng Zhen, with Zhou Enlai, meets the DRV Ambassador Trần Tử Bình, the Albanian Ambassador Nase and the Korean Ambassador Pak Se-chang)'
+- cite:
+    id: cal.1964-08-04.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 348 (Aug. 4, 1964; Beidaihe; Peng Zhen, with Deng Xiaoping and others, at Mao''s meeting on the CPSU''s letter of July 30)'
+- cite:
+    id: cal.1964-08-04.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 348–349 (Aug. 4, 1964 (continued); Mao: Khrushchev jumps at a touch, our letter of the 28th answered on the 30th, the essay carried to the end; no talks now, no international meeting or its preparation to think of, for his order to meet is a decision to split; a simple answer enough (the page''s note: the CPSU''s letter fixing the preparatory meeting of 26 parties for Dec. 15, 1964, to meet whoever did not come, the international meeting about mid-1965))'
+- cite:
+    id: cal.1964-08-05.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 349 (Aug. 5, 1964; the Secretariat''s 382nd meeting; Peng Zhen there; the Later Ten Points revised under Liu Shaoqi; a headquarters of the "four clean-ups" and "five antis" under Liu; Bo Yibo to draft the directive on socialist education in the cities and streets by month''s end for the October work conference; foreign guests at National Day)'
+- cite:
+    id: cal.1964-08-06.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 349 (Aug. 6, 1964, morning; Peng Zhen, with Deng Xiaoping and others, at Mao''s meeting: Khrushchev resolved on a splitting meeting, China will never attend; at National Day no great invitation of the left, no meeting of left parties, some of their men invited and a Soviet delegate too, as usual courtesy, no meeting and no dispute)'
+- cite:
+    id: cal.1964-08-12.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 350 (Aug. 12, 1964; the Secretariat''s 383rd meeting; Peng Zhen there; the Organization and United Front Work Departments'' draft list of candidates for the third NPC and other matters)'
+- cite:
+    id: cal.1964-08-13.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 350 (Aug. 13, 1964; Peng Zhen, with Deng Xiaoping and others, accompanies Mao in meeting Lê Duẩn, First Secretary of the Lao Động Party)'
+- cite:
+    id: cal.1964-08-15.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 351 (Aug. 15, 1964; Peng Zhen, with Deng Xiaoping and others, at Mao''s meeting, which decides on a short reply to the CPSU''s letter of July 30, condemning its order to hold the preparatory meeting by force)'
+- cite:
+    id: cal.1964-08-17.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 351 (Aug. 17, 1964; the Secretariat''s 384th meeting; Peng Zhen there; Luo Ruiqing relays Mao''s instructions on defense; decisions accordingly)'
+- cite:
+    id: cal.1964-08-19.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 351 (Aug. 19, 1964, afternoon; Peng Zhen, with Deng Xiaoping and others, at Mao''s meeting, which decides again not to attend the CPSU''s preparatory meeting of 26 parties)'
+- cite:
+    id: cal.1964-08-30.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 351 (Aug. 30, 1964; the Center''s reply to the CPSU: firm against its splitting international meeting; the Chinese party will never attend it or its preparatory meeting)'
+- cite:
+    id: cal.1964-08-20.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 351 (Aug. 20, 1964; Peng Zhen back from Beidaihe to Peking)'
+- cite:
+    id: cal.1964-08-22.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 351 (Aug. 22, 1964; Peng Zhen, with Deng Xiaoping, meets and gives a dinner for M. Williams, chairman of the New Zealand party''s national committee)'
+- cite:
+    id: cal.1964-08-23.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 351 (Aug. 23, 1964, afternoon; Peng Zhen, with Mao, Deng Xiaoping and others, receives the presidium and all the Chinese and foreign scientists of the 1964 Peking Science Symposium)'
+- cite:
+    id: cal.1964-08-25.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 352 (Aug. 25, 1964; Peng Zhen, with Deng Xiaoping, meets and gives a dinner for the Venezuelan Communist Party''s delegation under Eduardo Gallegos, member of its Politburo; on the 29th at the airport he sees it off to Vietnam)'
+- cite:
+    id: cal.1964-08-27.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 352 (Aug. 27, 1964; the Secretariat''s 385th meeting; Peng Zhen there; Liu Shaoqi to call the regional bureaus'' first secretaries on the rural "four clean-ups" and the revised Later Ten Points; the central organs streamlined, men sent to socialist education)'
+- cite:
+    id: cal.1964-08-29.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 352–353 (Aug. 29–Sept. 1, 1964; Peng Zhen at Liu Shaoqi''s meeting of the regional bureaus'' first secretaries on the deployment of socialist education and the revised Later Ten Points)'
+- cite:
+    id: cal.1964-09-18.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 353 (Sept. 18, 1964; the Center prints the revised draft for the whole Party: a movement wider, more complex and deeper than land reform; in some areas the democratic revolution''s lessons to be made up; the enemy''s chief form, winning over and corrupting cadres, counter-revolutionary two-faced power; the whole movement led by the work teams, base organizations and cadres relied on where they can be)'
+- cite:
+    id: cal.1964-08-29.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 353 (Aug. 29, 1964, afternoon; Mao with Li Fuchun, Bo Yibo and Chen Boda on planning; to Li''s proposal to merge the planning and economic commissions, Mao agrees to a deciding body under himself, Liu Shaoqi, Deng Xiaoping, Zhou Enlai and Peng Zhen, the six economic sectors'' heads Li Fuchun, Li Xiannian, Bo Yibo, Tan Zhenlin, Nie Rongzhen and Luo Ruiqing, and Chen Boda, twelve; fifteen years on, time to sum up the economy)'
+- cite:
+    id: cal.1964-09-05.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 355 (Sept. 5, 1964; the Secretariat''s 386th meeting; Peng Zhen there; the central organs'' men for the "four clean-ups" and "five antis," those to the villages arranged by the Organization Department, those to the cities by the industry and communications political department)'
+- cite:
+    id: cal.1964-09-10.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 356 (Sept. 10, 1964, afternoon; Peng Zhen at Liu Shaoqi''s talks with Miyamoto Kenji)'
+- cite:
+    id: cal.1964-09-13.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 356 (Sept. 13, 1964; Peng Zhen in the morning accompanies Miyamoto Kenji and his party to Hangzhou to meet Mao; that evening Miyamoto leaves by Canton for home)'

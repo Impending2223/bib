@@ -1,0 +1,983 @@
+patch: 2026-11-20-b15c-tiandi-5
+by: 'Claude (batch 15c, run 5, Yang Jisheng, *Tiandi fanfu*, Tiandi 2016 ed.: vol. 下 chs. 18, 21, 30 whole; vol. 上 ch. 1, ch. 2 pp. 107–119, ch. 9 leftovers; the leads of runs 3–4),
+  Nov. 20–21, 2026'
+ops:
+- edit:
+    id: cal.1969-04-01.china-leadership
+    base: 0ca0c776
+    set:
+      time: 1969-04-01T09:00Z
+      time_zone: Asia/Shanghai
+- place-key:
+    key: yumin
+    name: Yumin
+    zone: Asia/Shanghai
+    in: prc
+- add:
+    entry:
+      id: cal.1969-03.china-leadership-7
+      when: Mar., late
+      date: 1969-03
+      at: before 1969-03-21
+      place: peking
+      thread: china-leadership
+      c: 'The delegates to the Ninth Congress move into the Beijing Hotel 北京飯店, the Qianmen Hotel 前門飯店 and the Jingxi Hotel 京西賓館 in Peking 北京, under guard: the gates shut, no going out,
+        the room telephones taken out, the street windows not to be opened, curtains drawn at night.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 715. Made public: 2003 ([[w.zehou-zhonggong-jiuda-neimu-suoyi]]). To check: [[w.zehou-zhonggong-jiuda-neimu-suoyi]] (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 715 n.3).'
+      src:
+        c: dae98202
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 715: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-time
+- cite:
+    id: cal.1969-03-27.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 715 (the delegates gathered in Peking; the sounding-out of the presidium''s list begins, in secret)'
+- cite:
+    id: cal.1969-03-25.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 715 (Mao''s instruction that the presidium have no standing committee, only a chairman, a vice-chairman and a secretary-general, given
+      after Mar. 27 by the page''s order, no day)'
+- to-check:
+    id: cal.1969-03-25.china-leadership-2
+    add: '[[w.zedong-mao-zedong-nianpu]], VI, 238 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 715 n.4)'
+- cite:
+    id: cal.1969-04-01.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 715–716 (the opening at 5 p.m., 下午 5 時, not 9 a.m.; the presidium of 176, its list given out beforehand, passed by applause and hands;
+      Mao proposes Lin Biao as the presidium''s chairman, Lin turns it back to him; Mao chairman, Lin vice-chairman, Zhou Enlai secretary-general, each by hands; Mao''s opening speech,
+      under 800 characters as the secretariat edited it, broken dozens of times by slogans)'
+- cite:
+    id: cal.1969-04-14.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 717 (Mao presides and asks that no slogans be shouted; the day''s three items: Lin Biao''s report, the constitution, and speeches)'
+- add:
+    entry:
+      id: cal.1969-04-14.china-leadership-3
+      when: Apr. 14
+      date: '1969-04-14'
+      place: peking
+      thread: china-leadership
+      c: 'Huang Yongsheng 黃永勝 to the Ninth Congress: the decades of the Party''s and the army''s struggle prove that away from the leadership of Mao Zedong 毛澤東, his Thought and his line
+        "the revolution goes back, fails, loses everything"; following him close, "it advances, wins, has everything."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 717. Made public: 2016. See [[cal.1969-04-14.china-leadership]]. Names: Huang Yongsheng, Mao Zedong.'
+      src:
+        c: 0f7f2cf4
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 717: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:huang-yongsheng
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1969-02.china-leadership-2
+      when: Feb., after the 7th
+      date: 1969-02
+      at: after 1969-02-07
+      thread: china-leadership
+      c: 'Chen Boda 陳伯達 asks Xie Fuzhi 謝富治, head of the Peking revolutionary committee 北京市革委會, for the city''s economic material; Xie refuses: the Cultural Revolution Group takes all
+        it asks for, but Chen may not, "please understand me."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 719–720. Made public: 2014. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu,
+        Hong Kong, 2014), 138 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 720 n.7). Names: Chen Boda, Xie Fuzhi. Check: the month (between the meeting of Feb. 7 and the change of
+        drafters of Mar. 13, by the page''s order).'
+      src:
+        c: b8c192b7
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 719–720: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 720 n.7: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:chen-boda
+      - name:xie-fuzhi
+      - ok:fields-place
+- cite:
+    id: cal.1969-03-03.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 720 (Mar. 3: still no word of the report from Chen Boda; Mao angry)'
+- cite:
+    id: cal.1969-03-07.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 720 (Mar. 7: still no word; Mao more displeased)'
+- add:
+    entry:
+      id: cal.1969-02.china-leadership-3
+      when: Feb., after the 7th
+      date: 1969-02
+      at: after 1969-02-07
+      thread: china-leadership
+      c: 'Lin Biao 林彪, at his house, with Chen Boda 陳伯達, Zhang Chunqiao 張春橋 and Yao Wenyuan 姚文元: he leaves the report to them, its content Chen''s to weigh; he will not look into it
+        much.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 720. Made public: 1988 ([[w.yunsheng-maojiawan-jishi]]). To check: [[w.yunsheng-maojiawan-jishi]], 210–212 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 720 n.9). Names: Lin Biao, Chen Boda, Zhang Chunqiao, Yao Wenyuan. Check: the month (between the meeting of Feb. 7 and the change of drafters of Mar. 13, by the page''s order).'
+      src:
+        c: f6b54a2a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 720: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:chen-boda
+      - name:zhang-chunqiao
+      - name:yao-wenyuan
+- add:
+    entry:
+      id: cal.1969-02.china-leadership-4
+      when: Feb., after the 7th
+      date: 1969-02
+      at: after 1969-02-07
+      thread: china-leadership
+      c: 'Lin Biao 林彪 has his secretaries draw up notes for a spoken report, on the six heads of his speech to the Twelfth Plenum: the Cultural Revolution''s meaning, its victory, the
+        struggle of the two lines in it, Mao''s development of Marxism-Leninism, the Chinese revolution''s part in the world, and what is to be done.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 720. Made public: 1988 ([[w.yunsheng-maojiawan-jishi]]). To check: [[w.yunsheng-maojiawan-jishi]], 210–212 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 720 n.9). Names: Lin Biao, Mao Zedong. Check: the month (between the meeting of Feb. 7 and the change of drafters of Mar. 13, by the page''s order).'
+      src:
+        c: e61a7e81
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 720: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1969-02.china-leadership-5
+      when: Feb., after the 7th
+      date: 1969-02
+      at: after 1969-02-07
+      thread: china-leadership
+      c: Chen Boda 陳伯達, back from Lin Biao's, writes an outline of the report under the title "Strive to build our country into a strong socialist state" 《為把我國建設成為強大的社會主義國家而奮鬥》, with
+        a few subheads.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 720. Made public: 2014. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu,
+        Hong Kong, 2014), 137 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 720 n.10). Names: Chen Boda, Lin Biao. Check: the month (between the meeting of Feb. 7 and the change of
+        drafters of Mar. 13, by the page''s order).'
+      src:
+        c: 2d2e07b9
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 720: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 720 n.10: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:chen-boda
+      - name:lin-biao
+- add:
+    entry:
+      id: cal.1969-02.china-leadership-6
+      when: Feb., after the 7th
+      date: 1969-02
+      at: after 1969-02-07
+      thread: china-leadership
+      c: Chen Boda 陳伯達 takes his outline to Lin Biao 林彪 for a second talk; he recasts it as ten subheads under the title.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 720. Made public: 2014. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu,
+        Hong Kong, 2014), 137 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 720 n.10). Names: Chen Boda, Lin Biao. Check: the month (between the meeting of Feb. 7 and the change of
+        drafters of Mar. 13, by the page''s order).'
+      src:
+        c: 7806d5d7
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 720: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 720 n.10: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:chen-boda
+      - name:lin-biao
+- add:
+    entry:
+      id: cal.1969-02.china-leadership-7
+      when: Feb., after the 7th
+      date: 1969-02
+      at: after 1969-02-07
+      thread: china-leadership
+      c: Chen Boda 陳伯達 sends Mao Zedong 毛澤東 the outline, fair-copied by a secretary, with a report in his own hand.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 720. Made public: 2014. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu,
+        Hong Kong, 2014), 137 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 720 n.10). Names: Chen Boda, Mao Zedong. Check: the month (between the meeting of Feb. 7 and the change of
+        drafters of Mar. 13, by the page''s order).'
+      src:
+        c: b1894e60
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 720: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 720 n.10: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:chen-boda
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1969-02.china-leadership-8
+      when: Feb., after the 7th
+      date: 1969-02
+      at: after 1969-02-07
+      thread: china-leadership
+      c: Mao Zedong 毛澤東 circles Chen Boda's 陳伯達 outline as read and sends it back.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 720. Made public: 2014. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu,
+        Hong Kong, 2014), 140, 144 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 721 n.11). Names: Mao Zedong, Chen Boda. Check: the month (between the meeting of Feb. 7 and the change
+        of drafters of Mar. 13, by the page''s order).'
+      src:
+        c: 346ee1da
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 720: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - name:chen-boda
+- add:
+    entry:
+      id: cal.1969-02.china-leadership-9
+      when: Feb., after the 7th
+      date: 1969-02
+      at: after 1969-02-07
+      thread: china-leadership
+      c: 'Chen Boda 陳伯達, writing the report alone, will not take Yao Wenyuan''s 姚文元 telephone calls; to his secretaries Wang Wenyao 王文耀 and Wang Baochun 王保春, who warn him that the two
+        will report it: the Center decided that he is to write it, and this time he will not let them in.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 720–721. Made public: 2014. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu,
+        Hong Kong, 2014), 140, 144 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 721 n.11). Names: Chen Boda, Yao Wenyuan. Check: the month (between the meeting of Feb. 7 and the change
+        of drafters of Mar. 13, by the page''s order).'
+      src:
+        c: 7076825e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 720–721: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:chen-boda
+      - name:yao-wenyuan
+- add:
+    entry:
+      id: cal.1969-02.china-leadership-10
+      when: Feb., after the 7th
+      date: 1969-02
+      at: after 1969-02-07
+      thread: china-leadership
+      c: Chen Boda 陳伯達 sends Mao Zedong 毛澤東 the first part of his draft of the political report; no answer comes.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 721. Made public: 2014. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu,
+        Hong Kong, 2014), 140, 144 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 721 n.11). Names: Chen Boda, Mao Zedong. Check: the month (between the meeting of Feb. 7 and the change
+        of drafters of Mar. 13, by the page''s order).'
+      src:
+        c: 7e50559a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 721: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:chen-boda
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1969-04.china-leadership-11
+      when: Apr., after the Congress
+      date: 1969-04
+      at: after 1969-04-24
+      thread: china-leadership
+      c: 'Mao Zedong''s 毛澤東 office sends back to Chen Boda''s 陳伯達 a bag of papers: Chen''s first draft of the political report; his secretaries find that Mao has not opened it.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 721. Made public: 2014. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu,
+        Hong Kong, 2014), 140, 144 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 721 n.11). Names: Mao Zedong, Chen Boda. Check: the month (the page: after the Congress ended).'
+      src:
+        c: bb04e1eb
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 721: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - name:chen-boda
+- add:
+    entry:
+      id: cal.1969-03.china-leadership-9
+      when: Mar., after the 13th
+      date: 1969-03
+      at: after 1969-03-13
+      thread: china-leadership
+      c: 'Chen Boda 陳伯達, his draft rejected, to Zhou Enlai 周恩來: "only a little of my draft is left, what shall I do?" Zhou: finish it, then, "as a keepsake."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 721. Made public: 2014. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu,
+        Hong Kong, 2014), 140 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 721 n.12). Names: Chen Boda, Zhou Enlai.'
+      src:
+        c: d18bb4d2
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 721: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 721 n.12: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:chen-boda
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1969-03.china-leadership-10
+      when: Mar., after the 13th
+      date: 1969-03
+      at: after 1969-03-13
+      thread: china-leadership
+      c: 'Ye Qun 葉群 telephones Chen Boda 陳伯達 to console him: never mind that his draft is not used, let them write theirs; "Comrade Lin Biao understands you"; he is to mind his health.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 721. Made public: 2014. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu,
+        Hong Kong, 2014), 141 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 721 n.13). Names: Ye Qun, Chen Boda, Lin Biao.'
+      src:
+        c: 13edad95
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 721: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 721 n.13: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-qun
+      - name:chen-boda
+      - name:lin-biao
+- cite:
+    id: cal.1969.china-leadership-16
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 721 (at Zhou Enlai''s word Chen Boda gives the finished part of his draft to the Cultural Revolution Group''s liaison meeting; Zhang Chunqiao
+      and Yao Wenyuan call it the "theory of productive forces"; Chen of theirs: "This is Bernstein''s! The movement is everything, the goal is nothing!")'
+- add:
+    entry:
+      id: cal.1969.china-leadership-49
+      when: 1969, before Apr. 1
+      date: '1969'
+      at: before 1969-04
+      thread: china-leadership
+      c: Zhang Chunqiao 張春橋 asks Lin Biao 林彪 to sign the draft of the political report; Lin refuses outright.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 722. Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008), 741–742 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 722 n.17). Names: Zhang Chunqiao, Lin Biao.'
+      src:
+        c: 377fed6a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 722: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 722 n.17: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhang-chunqiao
+      - name:lin-biao
+- add:
+    entry:
+      id: cal.1969.china-leadership-50
+      when: 1969, before Apr. 1
+      date: '1969'
+      at: before 1969-04
+      thread: china-leadership
+      c: Lin Biao 林彪 gives up his plan of a spoken report and will read only the text Mao Zedong 毛澤東 settled.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 722. Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008), 741–742 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 722 n.17). Names: Lin Biao, Mao Zedong.'
+      src:
+        c: 9557544c
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 722: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 722 n.17: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1969-04.china-leadership-12
+      when: Apr., before the 23rd
+      date: 1969-04
+      at: before 1969-04-23
+      thread: china-leadership
+      c: The Ninth Congress presidium's secretariat 主席團秘書處 rules that the ten "opposites" (Zhu De, Chen Yun, Li Fuchun, Chen Yi, Xu Xiangqian, Nie Rongzhen, Ye Jianying, Deng Zihui,
+        Li Xiannian, Zhang Dingcheng) are to be elected, but not with high votes; each delegation is told, man by man, who is to vote for them and who not.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 724–725. Made public: 2003 ([[w.zehou-zhonggong-jiuda-neimu-suoyi]]). To check: [[w.zehou-zhonggong-jiuda-neimu-suoyi]] (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 725 n.26). Names: Zhu De, Chen Yun, Li Fuchun, Chen Yi, Xu Xiangqian, Nie Rongzhen, Ye Jianying, Li Xiannian.'
+      src:
+        c: 004b9388
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 724–725: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhu-de
+      - name:chen-yun
+      - name:li-fuchun
+      - name:chen-yi
+      - name:xu-xiangqian
+      - name:nie-rongzhen
+      - name:ye-jianying
+      - name:li-xiannian
+- cite:
+    id: cal.1969-04-23.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 724 (Mao tells the delegates that the men are to be elected the next day)'
+- cite:
+    id: cal.1969-04-24.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 722–723, 725 (the afternoon, the third and last plenary session, for the vote; seven zones each with a box, and one on the platform; 1,510
+      present, 2 on leave; two ballots; Mao every vote, Lin Biao 1,508, Zhou Enlai 1,509, Jiang Qing 1,502; Zhu De 809, Chen Yun 815, Li Fuchun 886, Chen Yi 867, Xu Xiangqian 808, Nie
+      Rongzhen 838, Ye Jianying 821, Deng Zihui 827, Li Xiannian 922, Zhang Dingcheng 1,099; 170 members and 109 alternates, 53 of them of the Eighth''s 167 living; at the close young
+      delegates seize the leaders'' cups, pencils and papers)'
+- to-check:
+    id: cal.1969-04-24.china-leadership
+    add: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu, Hong Kong, 2014), 143–144 (cited by [[w.yang-jisheng-tiandi-fanfu]], II,
+      723 n.20)
+- cite:
+    id: cal.1969-04-24.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 722 (the first a young delegate who vaults onto the platform and shakes hands with Mao, Lin Biao and Zhou Enlai in turn; the staff form
+      a wall of men in front of the platform)'
+- add:
+    entry:
+      id: cal.1969-04.china-leadership-13
+      when: Apr., before the 24th
+      date: 1969-04
+      at: before 1969-04-24
+      thread: china-leadership
+      c: 'Ye Qun 葉群 to Wu Faxian 吳法憲 and others, before the vote: "Lin says" Jiang Qing is too rampant now; Zhang Chunqiao and Yao Wenyuan, once nobodies, will be elected, but they are
+        to get a few votes less, not all, "to take the edge off them."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 723. Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008), 744 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 723 n.21). Names: Ye Qun, Wu Faxian, Jiang Qing, Zhang Chunqiao, Yao Wenyuan, Lin Biao.'
+      src:
+        c: 26a58d54
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 723: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 723 n.21: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-qun
+      - name:wu-faxian
+      - name:jiang-qing
+      - name:zhang-chunqiao
+      - name:yao-wenyuan
+      - name:lin-biao
+- add:
+    entry:
+      id: cal.1969-04.china-leadership-14
+      when: Apr., before the 24th
+      date: 1969-04
+      at: before 1969-04-24
+      thread: china-leadership
+      c: Wu Faxian 吳法憲 and others arrange for some of the army's delegates not to vote for Jiang Qing 江青 and the others.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 723. Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008), 744 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 723 n.21). Names: Wu Faxian, Jiang Qing.'
+      src:
+        c: 59c9f33a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 723: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 723 n.21: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:wu-faxian
+      - name:jiang-qing
+- add:
+    entry:
+      id: cal.1969-04-24.china-leadership-5
+      when: Apr. 24
+      date: '1969-04-24'
+      time_range:
+      - 1969-04-24T04:00Z
+      - 1969-04-24T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'At lunch Huang Yongsheng 黃永勝, Wu Faxian 吳法憲, Li Zuopeng 李作鵬 and Qiu Huizuo 邱會作 have a word with the old comrades'' delegates of the General Staff, the Rear Services, the Navy,
+        the Air Force and the Canton Military Region, and with their own old comrades; Huang talks with Yuan Shengping 袁升平, political commissar of the Jinan Military Region 濟南軍區, who
+        jokes after: "so it is not votes for yourselves."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 723. The words: 午飯時 (II, 723). Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011),
+        645 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 723 n.22). Names: Huang Yongsheng, Wu Faxian, Li Zuopeng, Qiu Huizuo.'
+      src:
+        c: 026c305e
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 723: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 723 n.22: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:huang-yongsheng
+      - name:wu-faxian
+      - name:li-zuopeng
+      - name:qiu-huizuo
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-04-24.china-leadership-6
+      when: Apr. 24
+      date: '1969-04-24'
+      place: peking
+      thread: china-leadership
+      c: Jiang Qing 江青, hearing the count of her votes, leaves the hall.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 723. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 647 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 724 n.23a). Names: Jiang Qing.'
+      src:
+        c: 3ca7407a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 723: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:jiang-qing
+- add:
+    entry:
+      id: cal.1969-04-24.china-leadership-7
+      when: Apr. 24
+      date: '1969-04-24'
+      thread: china-leadership
+      c: Jiang Qing 江青, eight votes short, holds that someone has worked behind her back and demands an inquiry.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 723. Made public: 2016. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu,
+        Hong Kong, 2014), 143–144 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 723 n.20). Names: Jiang Qing. Check: the day and the occasion (the page gives the demand after the count,
+        with no occasion; Zhang Chunqiao''s words that evening follow).'
+      src:
+        c: ea5d10c7
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 723: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:jiang-qing
+- add:
+    entry:
+      id: cal.1969-04-24.china-leadership-8
+      when: Apr. 24
+      date: '1969-04-24'
+      thread: china-leadership
+      c: 'Qiu Huizuo 邱會作, after the vote, with Xiao Jinguang 蕭勁光 and Su Yu 粟裕: the vote''s question is who is elected and who not, a few votes more or less mean nothing. Su: nothing
+        to most, much to special persons.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 723. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 647 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 724 n.23a). Names: Qiu Huizuo.'
+      src:
+        c: dbd8d94b
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 723: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:qiu-huizuo
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-04-24.china-leadership-9
+      when: Apr. 24
+      date: '1969-04-24'
+      time_range:
+      - 1969-04-24T11:00Z
+      - 1969-04-24T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'The Center''s liaison meeting 中央碰頭會, the evening the Congress closes. Zhang Chunqiao 張春橋: someone played tricks in the vote, to be traced to the bottom; those who did not vote
+        for Jiang Qing 江青 are "no small delegates but big ones"; "a political struggle that cannot bear the light." Yao Wenyuan 姚文元 too asks that it be cleared up.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 723–724. The words: 閉幕當晚 (II, 723). Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong,
+        2011), 647 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 724 n.23a). Names: Zhang Chunqiao, Jiang Qing, Yao Wenyuan.'
+      src:
+        c: 75d0f2bd
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 723–724: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhang-chunqiao
+      - name:jiang-qing
+      - name:yao-wenyuan
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-04.china-leadership-15
+      when: Apr., after the 24th
+      date: 1969-04
+      at: after 1969-04-24
+      thread: china-leadership
+      c: 'Huang Yongsheng 黃永勝, uneasy, to Li Zuopeng 李作鵬 and Qiu Huizuo 邱會作: "we may have stirred up trouble; did you see it?"'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 724. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 647 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 724 n.23a). Names: Huang Yongsheng, Li Zuopeng, Qiu Huizuo. Check: the day (after the liaison meeting of the evening of Apr. 24, by the page''s order).'
+      src:
+        c: fdbd06c5
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 724: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:huang-yongsheng
+      - name:li-zuopeng
+      - name:qiu-huizuo
+- add:
+    entry:
+      id: cal.1969-04.china-leadership-16
+      when: Apr., after the 24th
+      date: 1969-04
+      at: after 1969-04-24
+      thread: china-leadership
+      c: 'Zhou Enlai 周恩來 reports to Mao Zedong 毛澤東 that Jiang Qing''s group wants the ballots checked. Mao: let them check; "I join no chorus against the Party constitution," by Qiu
+        Huizuo''s account.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 724 (Qiu Huizuo''s account; Wu Faxian''s, n.23b, has Mao say nothing). Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin
+        shiji chubanshe 新世紀出版社, Hong Kong, 2011), 647 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 724 n.23a); *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008),
+        745 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 724 n.23b). Names: Zhou Enlai, Mao Zedong, Jiang Qing, Qiu Huizuo. Check: the day (before Zhou''s word to Qiu Huizuo on the
+        afternoon of Apr. 25, by the page''s order).'
+      src:
+        c: a70374bd
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 724: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:mao-zedong
+      - name:jiang-qing
+      - name:qiu-huizuo
+- add:
+    entry:
+      id: cal.1969-04.china-leadership-17
+      when: Apr., before the 26th
+      date: 1969-04
+      at: before 1969-04-26
+      thread: china-leadership
+      c: Mao Zedong 毛澤東 names Zhou Enlai 周恩來, Kang Sheng 康生 and Huang Yongsheng 黃永勝 a three-man group 三人小組 to propose the list of the Politburo for the First Plenum; the group takes
+        no telephone calls but Mao's and Lin Biao's.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 727. Made public: 2016. Names: Mao Zedong, Zhou Enlai, Kang Sheng, Huang Yongsheng, Lin Biao.'
+      src:
+        c: 5cbafe00
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 727: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - name:zhou-enlai
+      - name:kang-sheng
+      - name:huang-yongsheng
+      - name:lin-biao
+- add:
+    entry:
+      id: cal.1969-04.china-leadership-18
+      when: Apr., before the 26th
+      date: 1969-04
+      at: before 1969-04-26
+      thread: china-leadership
+      c: 'The three-man group sends up its first list of Politburo members, 23 names: Mao Zedong, Lin Biao, Zhou Enlai, Dong Biwu, Zhu De, Liu Bocheng, Chen Boda, Kang Sheng, Jiang Qing,
+        Zhang Chunqiao, Yao Wenyuan, Huang Yongsheng, Wu Faxian, Li Zuopeng, Qiu Huizuo, Xu Shiyou, Chen Xilian, Wang Dongxing 汪東興, Ye Jianying, Xie Fuzhi, Li Xiannian, Li Xuefeng 李雪峰,
+        Wang Xiaoyu 王效禹.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 728. Made public: 2016. Names: Mao Zedong, Lin Biao, Zhou Enlai, Dong Biwu, Zhu De, Liu Bocheng, Chen Boda, Kang Sheng, Jiang Qing, Zhang
+        Chunqiao, Yao Wenyuan, Huang Yongsheng, Wu Faxian, Li Zuopeng, Qiu Huizuo, Xu Shiyou, Chen Xilian, Ye Jianying, Xie Fuzhi, Li Xiannian.'
+      src:
+        c: f3f5bec7
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 728: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - name:lin-biao
+      - name:zhou-enlai
+      - name:dong-biwu
+      - name:zhu-de
+      - name:liu-bocheng
+      - name:chen-boda
+      - name:kang-sheng
+      - name:jiang-qing
+      - name:zhang-chunqiao
+      - name:yao-wenyuan
+      - name:huang-yongsheng
+      - name:wu-faxian
+      - name:li-zuopeng
+      - name:qiu-huizuo
+      - name:xu-shiyou
+      - name:chen-xilian
+      - name:ye-jianying
+      - name:xie-fuzhi
+      - name:li-xiannian
+- add:
+    entry:
+      id: cal.1969-04.china-leadership-19
+      when: Apr., before the 26th
+      date: 1969-04
+      at: before 1969-04-26
+      thread: china-leadership
+      c: 'The three-man group. Huang Yongsheng 黃永勝: Jiang Qing 江青 has merit in the Cultural Revolution and it should be counted, but she need not be in the Politburo, for the whole and
+        for the Chairman. Kang Sheng 康生 flares up.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 728. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 650 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 728 n.32). Names: Huang Yongsheng, Jiang Qing, Kang Sheng.'
+      src:
+        c: 646d8cee
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 728: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 728 n.32: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:huang-yongsheng
+      - name:jiang-qing
+      - name:kang-sheng
+- add:
+    entry:
+      id: cal.1969-04.china-leadership-20
+      when: Apr., before the 26th
+      date: 1969-04
+      at: before 1969-04-26
+      thread: china-leadership
+      c: 'Zhou Enlai 周恩來, after the three-man group''s meeting, to Huang Yongsheng 黃永勝: "You understand too little!"; he does not say what.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 728. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 650 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 728 n.32). Names: Zhou Enlai, Huang Yongsheng.'
+      src:
+        c: 43cccb20
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 728: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 728 n.32: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:huang-yongsheng
+- cite:
+    id: cal.1969-04-28.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 735–736 (Mao at the plenum: the Soviet revisionists, TASS, Wang Ming''s material and *Kommunist* call China a "military-bureaucratic dictatorship")'
+- add:
+    entry:
+      id: cal.1969-04.china-leadership-21
+      when: Apr., during the Congress
+      date: 1969-04
+      at: after 1969-04-01
+      place: peking
+      thread: china-leadership
+      c: Huang Yongsheng 黃永勝, Wu Faxian 吳法憲, Li Zuopeng 李作鵬 and Qiu Huizuo 邱會作, in the big east room on the eighth floor of the Jingxi Hotel 京西賓館, Peking, talk from 8 p.m. to 6 a.m.
+        the next morning, ten hours, of the relations of Lin Biao 林彪 and Jiang Qing 江青.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 733. The words: 從晚上八時談到第二天早晨六點 (II, 733). Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong
+        Kong, 2011), 582 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 733 n.46). Names: Huang Yongsheng, Wu Faxian, Li Zuopeng, Qiu Huizuo, Lin Biao, Jiang Qing. Check: the day (the
+        page: one day during the Congress).'
+      src:
+        c: d1eda0a7
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 733: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 733 n.46: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:huang-yongsheng
+      - name:wu-faxian
+      - name:li-zuopeng
+      - name:qiu-huizuo
+      - name:lin-biao
+      - name:jiang-qing
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1967-02.china-leadership-38
+      when: Feb., mid-
+      date: 1967-02
+      at: before 1967-02-10
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京, the Jingxi Hotel 京西賓館. A small meeting of the Military Commission 中央軍委, the Cultural Revolution Group 中央文革 and the All-Army Cultural Revolution Group 全軍文革. Chen
+        Boda 陳伯達 attacks Xiao Hua 肖華: "a bourgeois politician" who has led the army''s political work onto the bourgeois track; the army''s Cultural Revolution, all rules and bans, kept
+        cold and cheerless, the army on the edge of revisionism; Sanzuomen 三座門, the Commission''s seat, "a hall of the King of Hell," "we none of us go in."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 731. Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008), 651–656 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 731 n.39). Names: Chen Boda. Check: the month: the tree puts the enlarged Military Commission meeting at which Jiang Qing and Chen Boda moved against Xiao Hua, and the raid
+        on his house, on Jan. 19, 1967 ([[cal.1967-01-19.china-leadership-3]], [[cal.1967-01-19.china-leadership-8]]).'
+      src:
+        c: 778f1a83
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 731: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 731 n.39: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:chen-boda
+- add:
+    entry:
+      id: cal.1967-02.china-leadership-39
+      when: Feb., mid-
+      date: 1967-02
+      at: before 1967-02-10
+      thread: china-leadership
+      c: Ye Jianying 葉劍英, the morning after the Jingxi Hotel meeting, reports to Lin Biao 林彪 Chen Boda's attack on Xiao Hua and the raid on Xiao's house.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 731. The words: 第二天上午 (II, 731). Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008),
+        651–656 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 731 n.39). Names: Ye Jianying, Lin Biao, Chen Boda. Check: the month: the tree puts the enlarged Military Commission meeting
+        at which Jiang Qing and Chen Boda moved against Xiao Hua, and the raid on his house, on Jan. 19, 1967 ([[cal.1967-01-19.china-leadership-3]], [[cal.1967-01-19.china-leadership-8]]).'
+      src:
+        c: 75c5772a
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 731: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 731 n.39: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+      - name:lin-biao
+      - name:chen-boda
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1967-02.china-leadership-40
+      when: Feb., mid-
+      date: 1967-02
+      at: before 1967-02-10
+      thread: china-leadership
+      c: 'Lin Biao 林彪, enraged, has a secretary telephone for Jiang Qing 江青 and, when she comes, rails at her: they hate the army and its leaders; abusing Xiao Hua, stirring up the raid
+        on his house and the seizure of files, going round the Military Commission to break the General Political Department; he will resign, go to the Chairman and ask to be relieved
+        of every post. He calls for a car to go with her to Mao; Ye Qun 葉群, weeping, kneels and holds his legs; Jiang apologizes: he may criticize or curse her, why go to the Chairman?'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 731. Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008), 651–656 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 731 n.39). Names: Lin Biao, Jiang Qing, Ye Qun, Mao Zedong. Check: the month: the tree puts the enlarged Military Commission meeting at which Jiang Qing and Chen Boda moved
+        against Xiao Hua, and the raid on his house, on Jan. 19, 1967 ([[cal.1967-01-19.china-leadership-3]], [[cal.1967-01-19.china-leadership-8]]).'
+      src:
+        c: 739aa0e4
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 731: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 731 n.39: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:jiang-qing
+      - name:ye-qun
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1967-02.china-leadership-41
+      when: Feb., mid-
+      date: 1967-02
+      at: before 1967-02-10
+      thread: china-leadership
+      c: 'Lin Biao 林彪, the day after he rails at Jiang Qing 江青, tells Ye Jianying 葉劍英 and Xu Xiangqian 徐向前 to hold a Military Commission meeting that evening, Chen Boda 陳伯達, Jiang and
+        Kang Sheng 康生 of the Cultural Revolution Group to attend and Xiao Hua 肖華 himself, to relay Mao''s view on Xiao: seizing him, raiding his house and taking his files were wrong;
+        let him write a self-criticism and pass.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 731. Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008), 651–656 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 731 n.39). Names: Lin Biao, Jiang Qing, Ye Jianying, Xu Xiangqian, Chen Boda, Kang Sheng, Mao Zedong. Check: the month: the tree puts the enlarged Military Commission meeting
+        at which Jiang Qing and Chen Boda moved against Xiao Hua, and the raid on his house, on Jan. 19, 1967 ([[cal.1967-01-19.china-leadership-3]], [[cal.1967-01-19.china-leadership-8]]).'
+      src:
+        c: bbcd2adf
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 731: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 731 n.39: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:jiang-qing
+      - name:ye-jianying
+      - name:xu-xiangqian
+      - name:chen-boda
+      - name:kang-sheng
+      - name:mao-zedong
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1967-02.china-leadership-42
+      when: Feb., mid-
+      date: 1967-02
+      at: before 1967-02-10
+      thread: china-leadership
+      c: 'The Military Commission''s meeting, evening, Ye Jianying 葉劍英 and Xu Xiangqian 徐向前 presiding. Of the Cultural Revolution Group only Guan Feng 關鋒 comes: Chen Boda spoke as he
+        did after a little drink, Jiang Qing criticized him in the Group and he made a self-criticism, owning he had not first consulted her. The soldiers'' criticism grows the sharper.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 731. The words: 第二天晚 (II, 731). Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008), 651–656
+        (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 731 n.39). Names: Ye Jianying, Xu Xiangqian, Chen Boda, Jiang Qing. Check: the month: the tree puts the enlarged Military Commission
+        meeting at which Jiang Qing and Chen Boda moved against Xiao Hua, and the raid on his house, on Jan. 19, 1967 ([[cal.1967-01-19.china-leadership-3]], [[cal.1967-01-19.china-leadership-8]]).'
+      src:
+        c: dfd4f9d9
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 731: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 731 n.39: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+      - name:xu-xiangqian
+      - name:chen-boda
+      - name:jiang-qing
+      - ok:fields-time
+      - ok:fields-place
+- variant:
+    id: cal.1967-01-19.china-leadership-8
+    unit: B
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: the raid on Xiao Hua's house, by the rebels of the Peking Military Region's song and dance troupe and of some army schools, who take part of his files, falls in the days of
+      the Jingxi Hotel meeting of mid-February 1967, by Wu Faxian's account
+    at: II, 731
+- add:
+    entry:
+      id: cal.1969-08-13.china-2
+      when: Aug. 13
+      date: '1969-08-13'
+      place: yumin
+      thread: china
+      also:
+      - soviet-union
+      c: The Tielekti 鐵列克提 area of Yumin county 裕民縣, Xinjiang 新疆, on the western stretch of the Sino-Soviet border, in dispute. Soviet helicopters, tanks and armored cars fall on a Chinese
+        border patrol of 38, carrying light arms; all are killed.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 736 n.60.'
+      src:
+        c: a0d768be
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 736 n.60: all'
+      tags:
+      - polity:prc
+      - polity:ussr
+- cite:
+    id: cal.1969-03-02.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 736 (Mar. 2, the Zhenbao Island incident)'
+- add:
+    entry:
+      id: cal.1969-09.soviet-union-leadership
+      when: Sept., after the 11th
+      date: 1969-09
+      at: after 1969-09-11
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - china-leadership
+      c: Moscow. Kosygin, back from his talk with Zhou Enlai 周恩來 at the Peking airport, is met by none of the chief figures of the Soviet party.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 736. Names: Kosygin, Zhou Enlai.'
+      src:
+        c: d82bf708
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 736: all'
+      tags:
+      - polity:prc
+      - name:zhou-enlai
+      - polity:ussr
+      - name:kosygin-aleksei
+- cite:
+    id: cal.1969-09-18.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 736 (afterward China asks that the two governments exchange notes confirming the understanding Zhou and Kosygin reached; the page has
+      the Soviet Union refuse, no day given)'
+- cite:
+    id: cal.1969-09-26.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 737 (Kosygin''s letter to Zhou proposing that the boundary talks begin in Peking, no day given)'
+- cite:
+    id: cal.1969-10-14.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 738 (Mao goes to Wuhan on the 14th)'
+- cite:
+    id: cal.1969-10-16.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 737–738 (Lin Biao to Suzhou on the 16th, "evacuated" there two days by Oct. 17)'
+- add:
+    entry:
+      id: cal.1969-10-17.china-leadership-3
+      when: Oct. 17
+      date: '1969-10-17'
+      thread: china-leadership
+      c: 'Ye Qun 葉群, before Lin Biao''s 林彪 six points go to Huang Yongsheng 黃永勝, has a secretary add a line: the six points have been sent through Wang Dongxing 汪東興 to Mao Zedong 毛澤東;
+        should he have other instructions, his are to prevail.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 737. Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008), 767 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 737 n.63). Names: Ye Qun, Lin Biao, Huang Yongsheng, Mao Zedong.'
+      src:
+        c: 9d452609
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 737: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 737 n.63: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-qun
+      - name:lin-biao
+      - name:huang-yongsheng
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1969-10.china-leadership-9
+      when: Oct., after the 17th
+      date: 1969-10
+      at: after 1969-10-17
+      thread: china-leadership
+      c: 'Wang Dongxing 汪東興 telephones Ye Qun 葉群: Mao Zedong 毛澤東 has no view on Lin Biao''s 林彪 six points.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 737. Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008), 767 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 737 n.63). Names: Ye Qun, Mao Zedong, Lin Biao. Check: the day (the page: "later").'
+      src:
+        c: d5201df2
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 737: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 737 n.63: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-qun
+      - name:mao-zedong
+      - name:lin-biao
+- cite:
+    id: cal.1969-10-18.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 738 (under the "first order" 95 divisions, some 940,000 men, 4,100 aircraft, many tanks and guns and 600 ships dispersed and hidden)'
