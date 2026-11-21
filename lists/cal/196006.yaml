@@ -2476,6 +2476,19 @@ entries:
       - 1960-06-21T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-21.china-leadership-6
+    when: June 21
+    date: '1960-06-21'
+    place: peking
+    thread: china-leadership
+    also: [china]
+    c: The *Renmin ribao* 人民日報 editorial, "Grasp livelihood as we grasp production" 《像抓生產一樣抓生活》. Since the spring's general rectification the rural mess halls are run better and better; they have entered a new period of sound growth.
+    n: '[[w.yang-jisheng-mubei]], II, 756.'
+    src:
+      c: ccc3dc24
+      rows:
+        - 'w.yang-jisheng-mubei II, 756: all'
+    tags: [polity:prc]
   - id: cal.1960-06-22.japan-and-korea
     when: June 22–23
     date: '1960-06-22'
@@ -4432,14 +4445,17 @@ entries:
   - id: cal.1960-06.china-leadership-4
     when: June
     date: 1960-06
+    place: jiangkou
     thread: china-leadership
     c: Jiangkou 江口 county, Guizhou 貴州. Peasants dying in numbers rise; among their leaders are commune Party secretaries. A motorized armed convoy puts the rising down. The county head, who had opened the granaries, shoots himself; the county secretary, whose false grain figures had set off the rising, drowns himself.
-    n: '[[w.yang-jisheng-mubei]], II, 1170 (the book''s chronology); [[w.yang-jisheng-mubei]], I, 575 (the "Jiangkou incident" of June 1960 in a county of Tongren 銅仁 prefecture that has lost almost half its people: the peasants rise, some commune Party secretaries among their leaders; the unarmed peasants are soon put down; the county head who had opened the granaries on his own shoots himself; n.13). Made public: 1993 (Zheng Yi 鄭義, in *Zhengming* 爭鳴, Hong Kong, Jan. 1993, as [[w.yang-jisheng-mubei]], I, 575 n.13 cites it). Check: the book gives the month only. Check: the chapter (I, 575) has the county head shoot himself and says nothing of the county secretary''s drowning (II, 1170); it says the incident is to be verified when the archives open. To check: Zheng Yi 鄭義, "Dayuejin shiqi nongcun beiju: Jiangkou shijian gengai" 《大躍進時期農村悲劇：江口事件梗概》, *Zhengming* 爭鳴 (Hong Kong), Jan. 1993 (cited by [[w.yang-jisheng-mubei]], I, 575 n.13).'
+    n: '[[w.yang-jisheng-mubei]], II, 1170 (the book''s chronology); [[w.yang-jisheng-mubei]], I, 575 (the "Jiangkou incident" of June 1960 in a county of Tongren 銅仁 prefecture that has lost almost half its people: the peasants rise, some commune Party secretaries among their leaders; the unarmed peasants are soon put down; the county head who had opened the granaries on his own shoots himself; n.13); [[w.yang-jisheng-mubei]], II, 1043 n.21 (the rising, among its leaders commune Party secretaries; its putting down by troops; the county head, who had opened the granaries, shooting himself; the county secretary, whose false figures had set it off, drowning himself). Made public: 1993 (Zheng Yi 鄭義, in *Zhengming* 爭鳴, Hong Kong, Jan. 1993, as [[w.yang-jisheng-mubei]], I, 575 n.13 cites it). Check: the book gives the month only. To check: Zheng Yi 鄭義, "Dayuejin shiqi nongcun beiju: Jiangkou shijian gengai" 《大躍進時期農村悲劇：江口事件梗概》, *Zhengming* 爭鳴 (Hong Kong), Jan. 1993 (cited by [[w.yang-jisheng-mubei]], I, 575 n.13).'
     src:
       c: 081e3dc5
       rows:
         - 'w.yang-jisheng-mubei II, 1170: all'
         - 'w.yang-jisheng-mubei I, 575: A, B, C, E'
+        - 'w.yang-jisheng-mubei II, 1043 n.21: A-F'
+        - 'via x.1993.zheng-yi-dayuejin-shiqi-nongcun-beiju-jiangkou-shijian-gaishi: A-F'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1960-06.china-leadership-5
     when: June
