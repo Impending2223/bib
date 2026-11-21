@@ -1,0 +1,2284 @@
+patch: 2026-11-21-b15b-zhude-6
+by: Claude (batch 15b, Zhu De nianpu, run 6), Nov. 21, 2026
+ops:
+  - edit:
+      id: cal.1965-09-01.china-leadership-2
+      base: 846791d2
+      set: {place: peking}
+  - edit:
+      id: cal.1966-05-11.china-leadership-9
+      base: f682c4cd
+      set: {place: peking}
+  - edit:
+      id: cal.1966-11-12.china-leadership-2
+      base: 84d99816
+      set: {place: peking}
+  - edit:
+      id: cal.1966-12-15.china-leadership-4
+      base: c16ea845
+      set: {place: peking}
+  - edit:
+      id: cal.1968-12.china-leadership-13
+      base: d64f9f20
+      set: {when: Dec. 10–11, date: '1968-12-10'}
+  - place-key: {key: xiaoshan, name: 'Xiaoshan', zone: Asia/Shanghai, in: prc}
+  - place-key: {key: dongying, name: 'Dongying', zone: Asia/Shanghai, in: prc}
+  - place-key: {key: xinhui, name: 'Xinhui', zone: Asia/Shanghai, in: prc}
+  - place-key: {key: jiangmen, name: 'Jiangmen', zone: Asia/Shanghai, in: prc}
+  - cite: {id: cal.1965-07-07.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1936–1937 (printed under July 8, 1965; Zhu De 朱德, with Deng Xiaoping 邓小平, Peng Zhen 彭真, He Long 贺龙, Li Xiannian 李先念, Tan Zhenlin 谭震林, Nie Rongzhen 聂荣臻, Luo Ruiqing 罗瑞卿, Yang Shangkun 杨尚昆, Liu Ningyi 刘宁一 and others, at the airport to welcome Zhou Enlai 周恩来 and Chen Yi 陈毅 back from their visit to the United Arab Republic 阿拉伯联合共和国)'}
+  - add:
+      entry:
+        id: cal.1965-07-09.china-leadership-6
+        when: July 9
+        date: '1965-07-09'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 attends the capital''s public memorial for Li Genyuan 李根源 and is chief mourner. The nianpu''s note: Li Genyuan died in Peking on July 6, 1965, a member of the National Committee of the CPPCC 政协全国委员会.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1937. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-07-09.china-leadership-7
+        when: July 9
+        date: '1965-07-09'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 at a meeting Mao Zedong 毛泽东 presides over.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1937. Made public: 2016. Names: Zhu De, Mao Zedong.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - cite: {id: cal.1965-07-12.china-leadership-12, item: '[[w.zhu-de-nianpu-xinbian]], III, 1937 (July 12, 1965; Zhu De 朱德 meets Hoàng Văn Hoan 黄文欢, vice-chairman of the Standing Committee of Vietnam''s National Assembly 越南国会常务委员会 and member of the Vietnam Workers'' Party Politburo 越南劳动党中央政治局, and the National Assembly''s friendship delegation he leads)'}
+  - cite: {id: cal.1965-07-13.china-leadership-8, item: '[[w.zhu-de-nianpu-xinbian]], III, 1937 (July 13, 1965; Zhu De 朱德 gives the banquet for Hoàng Văn Hoan 黄文欢 and the delegation and speaks: the Chinese people resolutely and without reserve support the fraternal Vietnamese people''s war of resistance to the end, until the American aggressors are driven out of Vietnam cleanly, thoroughly and wholly)'}
+  - add:
+      entry:
+        id: cal.1965-07-15.china-leadership-11
+        when: July 15
+        date: '1965-07-15'
+        time_range: ['1965-07-15T04:00Z', '1965-07-15T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        thread: china-leadership
+        c: Zhu De 朱德 at a meeting at Mao Zedong's 毛泽东.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1937. The words: 下午，到毛泽东处开会 (1937). Made public: 2016. Names: Zhu De, Mao Zedong.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - cite: {id: cal.1965-07-16.china-leadership-9, item: '[[w.zhu-de-nianpu-xinbian]], III, 1937 (printed under July 17, 1965; Zhu De 朱德 at the airport to see off Deng Xiaoping 邓小平 and the Chinese Communist Party''s delegation leaving Peking for the Fourth Congress of the Romanian Workers'' Party 罗马尼亚工人党)'}
+  - add:
+      entry:
+        id: cal.1965-07-20.china-leadership-12
+        when: July 20
+        date: '1965-07-20'
+        place: [peking, beidaihe]
+        thread: china-leadership
+        c: Zhu De 朱德 leaves Peking 北京 for Beidaihe 北戴河.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1937. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-07-21.china-leadership-12
+        when: July 21
+        date: '1965-07-21'
+        place: beidaihe
+        thread: china-leadership
+        c: Beidaihe 北戴河. Zhu De 朱德 talks with Li Fuchun 李富春 and his wife Cai Chang 蔡畅, who come to see him.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1937. Made public: 2016. Names: Zhu De, Li Fuchun.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:li-fuchun', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-07-27.china-leadership-14
+        when: July 27
+        date: '1965-07-27'
+        place: [beidaihe, peking]
+        thread: china-leadership
+        c: Zhu De 朱德 returns to Peking 北京.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1937. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1965-07-28.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1937 (July 28, 1965; Zhu De 朱德, in the Huairen Tang 怀仁堂, calls Tan Zhenlin 谭震林, Yao Yilin 姚依林 and others to talk on the supply and marketing cooperatives 供销合作社)'}
+  - add:
+      entry:
+        id: cal.1965-07-29.china-leadership-11
+        when: July 29
+        date: '1965-07-29'
+        thread: china-leadership
+        c: Zhu De 朱德 calls on Mao Zedong 毛泽东 at his residence.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1937. Made public: 2016. Names: Zhu De, Mao Zedong.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-07-30.china-leadership-9
+        when: July 30
+        date: '1965-07-30'
+        place: beidaihe
+        thread: china-leadership
+        c: Zhu De 朱德 reaches Beidaihe 北戴河.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1937. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-08-06.china-leadership-9
+        when: Aug. 6–7
+        date: '1965-08-06'
+        place: beidaihe
+        thread: china-leadership
+        c: 'Beidaihe 北戴河. Zhu De 朱德 hears Pan Fusheng 潘复生, director of the council of the All-China Federation of Supply and Marketing Cooperatives 中华全国供销合作总社. His remarks: the cooperatives'' chief task is not the profit they hand up but to support production; only with more production will state and people grow rich; they are to be the bridge between the state and the peasants and one of the state''s economic strongholds in the countryside.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1937. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-08-10.china-leadership-8
+        when: Aug. 10
+        date: '1965-08-10'
+        place: beidaihe
+        thread: china-leadership
+        c: Beidaihe 北戴河. Zhu De 朱德 talks with Cheng Qian 程潜, vice-chairman of the NPC Standing Committee 全国人大常委会, who comes to see him.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1937. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-08-19.china-leadership-12
+        when: Aug. 19
+        date: '1965-08-19'
+        place: beidaihe
+        thread: china-leadership
+        c: Beidaihe 北戴河. Zhu De 朱德 talks with Zhang Zhizhong 张治中, vice-chairman of the NPC Standing Committee 全国人大常委会, who comes to see him.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1938. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-08-20.china-leadership-12
+        when: Aug. 20
+        date: '1965-08-20'
+        place: beidaihe
+        thread: china-leadership
+        c: Beidaihe 北戴河. Zhu De 朱德 meets Li Zongren 李宗仁, former acting President of the Nationalist government 国民党政府, back from abroad on July 20, and his wife Guo Dejie 郭德洁.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1938. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-08-21.china-leadership-7
+        when: Aug. 21
+        date: '1965-08-21'
+        time_range: ['1965-08-21T11:00Z', '1965-08-21T14:00Z']
+        time_band: evening
+        time_zone: Asia/Shanghai
+        place: beidaihe
+        thread: china-leadership
+        c: Beidaihe 北戴河. Zhu De 朱德 gives a banquet for Li Zongren 李宗仁 and his wife Guo Dejie 郭德洁.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1938. The words: 二十一日晚，设宴招待李宗仁夫妇 (1938). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-08-21.china-leadership-8
+        when: Aug. 21
+        date: '1965-08-21'
+        place: beidaihe
+        thread: china-leadership
+        c: Beidaihe 北戴河. Zhu De 朱德 talks with Ouyang Qin 欧阳钦, first secretary of the Heilongjiang provincial committee 中共黑龙江省委, and Wu De 吴德, first secretary of the Jilin provincial committee 中共吉林省委, who come to see him.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1938. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-08-25.china-leadership-9
+        when: Aug. 25
+        date: '1965-08-25'
+        place: beidaihe
+        thread: china-leadership
+        c: Beidaihe 北戴河. Zhu De 朱德 talks with Li Zongren 李宗仁, who comes to see him.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1938. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-08-27.china-leadership-9
+        when: Aug. 27
+        date: '1965-08-27'
+        place: qinhuangdao
+        thread: china-leadership
+        c: Qinhuangdao 秦皇岛. Zhu De 朱德 inspects the Qinhuangdao glass-fibre works 秦皇岛玻璃纤维厂 and the new wharf 新建码头.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1938. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-08-31.china-leadership-9
+        when: Aug. 31
+        date: '1965-08-31'
+        place: [beidaihe, peking]
+        thread: china-leadership
+        c: Zhu De 朱德 returns to Peking 北京.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1938. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1965-09-01.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1938 (Sept. 1, 1965; Zhu De 朱德, with Zhou Enlai 周恩来, Dong Biwu 董必武, Deng Xiaoping 邓小平 and others, receives the Vietnam–China Friendship Association''s delegation 越南越中友好代表团; then at the capital''s rally for the twentieth anniversary of the Democratic Republic of Vietnam)'}
+  - cite: {id: cal.1965-09-01.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1938 (Sept. 1, 1965; Zhu De 朱德 at the capital''s rally for the twentieth anniversary of the founding of the Democratic Republic of Vietnam 越南民主共和国, after receiving the Vietnam–China Friendship Association''s delegation)'}
+  - add:
+      entry:
+        id: cal.1965-09-01.china-leadership-12
+        when: Sept. 1
+        date: '1965-09-01'
+        thread: china-leadership
+        c: 'Zhu De 朱德 inscribes for the twentieth anniversary of the Central Broadcasting Bureau 中央广播事业局: "Keep close to the masses and to reality; do broadcast propaganda better still; serve the socialist revolution and construction; serve the world revolution."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1938. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-09-02.china-leadership-10
+        when: Sept. 2
+        date: '1965-09-02'
+        place: peking
+        thread: china-leadership
+        c: The Yinian Tang 颐年堂, Peking 北京. Zhu De 朱德 at a meeting.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1938. Made public: 2016. Names: Zhu De. Check: Whether this is the meeting at Mao Zedong''s 毛泽东 that Peng Zhen 彭真 attends at 4 p.m. that day ([[cal.1965-09-02.china-leadership-8]]); the nianpu gives no hour.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1965-09-03.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1938 (Sept. 3, 1965; Zhu De 朱德, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, at the capital''s rally for the twentieth anniversary of victory in the war of resistance against Japan 抗日战争)'}
+  - cite: {id: cal.1965-09-04.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1938 (Sept. 4, 1965; Zhu De 朱德 at the Politburo 中共中央政治局 meeting, which hears Qian Xinzhong 钱信忠, Minister of Health, and in the main agrees to the Ministry''s Party group''s report on shifting the weight of health work to the countryside 《关于把卫生工作重点转向农村的报告》)'}
+  - cite: {id: cal.1965-09-06.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1938 (Sept. 6, 1965; Zhu De 朱德 at the Politburo 中共中央政治局 meeting, which hears Xiao Wangdong 萧望东, Vice-Minister of Culture, on cultural work)'}
+  - add:
+      entry:
+        id: cal.1965-09-08.china-leadership-8
+        when: Sept. 8
+        date: '1965-09-08'
+        thread: china-leadership
+        c: Zhu De 朱德 meets Pierre Pasquini 皮埃尔·帕斯基尼, vice-president of the French National Assembly 法国国民议会, and the deputies' delegation he leads.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1938. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:fr', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-09-10.china-leadership-9
+        when: Sept. 10
+        date: '1965-09-10'
+        thread: china-leadership
+        c: 'Zhu De 朱德 inscribes for the Second National Games 第二届全国运动会: "Hard in thought, hard in technique; pool wisdom and strength; win glory for the country!"'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1938. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
+  - cite: {id: cal.1965-09-11.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1939 (Sept. 11, 1965; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平 and others, at the opening of the Second National Games 第二届全国运动会)'}
+  - add:
+      entry:
+        id: cal.1965-09-11.china-leadership-13
+        when: Sept. 11
+        date: '1965-09-11'
+        thread: china-leadership
+        c: Zhu De 朱德 at a meeting at Mao Zedong's 毛泽东.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1939. Made public: 2016. Names: Zhu De, Mao Zedong. Check: Whether this is the meeting at Mao Zedong''s 毛泽东 that Peng Zhen 彭真 attends that evening ([[cal.1965-09-11.china-leadership-8]]); the nianpu gives no hour.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-09-12.china-leadership-4
+        when: Sept. 12
+        date: '1965-09-12'
+        thread: china-leadership
+        c: 'Zhu De 朱德 hears Lin Haiyun 林海云, acting Minister of Foreign Trade 外贸部. His remarks: the foreign trade departments are to work with the supply and marketing cooperatives 供销社, which are the ones truly close to the masses; some export goods must be bought through them.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1939. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1965-09-15.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1939 (Sept. 15, 1965; Zhu De 朱德 at the meeting at Mao Zedong''s 毛泽东 on the coming Central Work Conference 中共中央工作会议)'}
+  - cite: {id: cal.1965-09-18.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1939 (Sept. 18–Oct. 12, 1965; Zhu De 朱德 attends the Central Work Conference 中共中央工作会议 in Peking 北京, chiefly on the Third Five-Year Plan and the 1966 plan, and on finance and trade and Party building; Mao Zedong 毛泽东 in his talks during it: the Center 中共中央 may go revisionist, and if it does the provinces may rebel; what is wrong need not be carried out, whoever says it)'}
+  - cite: {id: cal.1965-10-12.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1939 (Oct. 12, 1965; Zhu De 朱德 speaks at the conference on building the Party''s theory and training successors: study Marxism-Leninism, reading Marx, Engels, Lenin and Stalin as well as Chairman Mao; keep learning into old age; train the successors well, the Communist Youth League 共青团 and the Young Pioneers 少先队 above all, with socialist education)'}
+  - cite: {id: cal.1965-09-23.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1939 (Sept. 23, 1965, morning; Zhu De 朱德 to a meeting at the Yinian Tang 颐年堂)'}
+  - add:
+      entry:
+        id: cal.1965-09-23.china-leadership-13
+        when: Sept. 23
+        date: '1965-09-23'
+        time_range: ['1965-09-23T04:00Z', '1965-09-23T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        place: peking
+        thread: china-leadership
+        c: The Diaoyutai 钓鱼台, Peking 北京. Zhu De 朱德 at a meeting.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1939. The words: 下午，到钓鱼台开会 (1939). Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-09-25.china-leadership-7
+        when: Sept. 25
+        date: '1965-09-25'
+        place: peking
+        thread: china-leadership
+        c: The Round City 团城, Beihai 北海, Peking 北京. Zhu De 朱德 at the exhibition of Sichuan handicrafts 四川手工艺品展览.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1939. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-09-26.china-leadership-4
+        when: Sept. 26
+        date: '1965-09-26'
+        place: peking
+        thread: china-leadership
+        c: The National Agricultural Exhibition Hall 全国农业展览馆, Peking 北京. Zhu De 朱德 at the national exhibition of Dazhai-type farming models 全国大寨式农业典型展览.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1939. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-09-27.china-leadership-12
+        when: Sept. 27
+        date: '1965-09-27'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 at the airport to welcome Chaerul Saleh 哈鲁尔·萨勒, chairman of Indonesia's Provisional People's Consultative Congress 印度尼西亚临时人民协商会议, and the delegation he leads.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1939. Names: Zhu De, Chaerul Saleh.'
+        tags: ['polity:prc', 'polity:indonesia', 'name:zhu-de', 'name:saleh-chaerul']
+  - add:
+      entry:
+        id: cal.1965-09-27.china-leadership-13
+        when: Sept. 27
+        date: '1965-09-27'
+        time_range: ['1965-09-27T11:00Z', '1965-09-27T14:00Z']
+        time_band: evening
+        time_zone: Asia/Shanghai
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 gives a dinner for Chaerul Saleh 哈鲁尔·萨勒 and the Indonesian delegation.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1939. The words: 并设晚宴招待客人 (1939). Names: Zhu De, Chaerul Saleh.'
+        tags: ['polity:prc', 'polity:indonesia', 'name:zhu-de', 'name:saleh-chaerul']
+  - cite: {id: cal.1965-09-28.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1939–1940 (Sept. 28, 1965; Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来 and others, at the airport to welcome Prince Sihanouk 西哈努克, Cambodia''s head of state, and his party, come for the sixteenth anniversary of the People''s Republic and a state visit)'}
+  - cite: {id: cal.1965-09-28.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1940 (Sept. 28, 1965; Zhu De 朱德 at the closing of the Second National Games 第二届全国运动会)'}
+  - add:
+      entry:
+        id: cal.1965-09-29.china-leadership-12
+        when: Sept. 29
+        date: '1965-09-29'
+        thread: china-leadership
+        c: Zhu De 朱德 meets 苏巴米亚, vice-speaker of the Gotong Royong parliament 互助合作国会 of the Republic of Indonesia 印度尼西亚共和国, and his wife.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1940. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:indonesia', 'name:zhu-de']
+  - cite: {id: cal.1965-09-30.china-leadership-3, item: '[[w.zhu-de-nianpu-xinbian]], III, 1940 (Sept. 30, 1965; Zhu De 朱德 at Zhou Enlai''s 周恩来 reception in the Great Hall of the People 人民大会堂 for the sixteenth anniversary of the People''s Republic)'}
+  - cite: {id: cal.1965-10-01.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1940 (Oct. 1, 1965; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Soong Ching Ling 宋庆龄, Dong Biwu 董必武, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, at the rally of 500,000 of the capital in Tiananmen Square 天安门广场 for the sixteenth anniversary, reviewing the parade from the Tiananmen tower)'}
+  - cite: {id: cal.1965-10-01.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1940 (Oct. 1, 1965, evening; Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来, Peng Zhen 彭真 and others and the guests from abroad, on the Tiananmen tower 天安门城楼 at the capital''s National Day evening gala and its fireworks)'}
+  - add:
+      entry:
+        id: cal.1965-10-02.china-leadership-7
+        when: Oct. 2
+        date: '1965-10-02'
+        place: peking
+        thread: china-leadership
+        c: The Yinian Tang 颐年堂, Peking 北京. Zhu De 朱德 at a meeting.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1940. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1965-10-02.china-leadership-9, item: '[[w.zhu-de-nianpu-xinbian]], III, 1940 (Oct. 2, 1965, evening; Zhu De 朱德, with Chen Yi 陈毅, Bo Yibo 薄一波 and others, at the reception of Camara Mamadi 卡马拉·马马迪, Guinea''s Ambassador, for the seventh anniversary of the Republic of Guinea)'}
+  - cite: {id: cal.1965-10-04.china, item: '[[w.zhu-de-nianpu-xinbian]], III, 1940 (Oct. 4, 1965; Zhu De 朱德 at the signing of the joint statement of the NPC Standing Committee 全国人民代表大会常务委员会 and Indonesia''s Provisional People''s Consultative Congress 印度尼西亚共和国临时人民协商会议, and signs it for the Standing Committee)'}
+  - add:
+      entry:
+        id: cal.1965-10-05.china-leadership-3
+        when: Oct. 5
+        date: '1965-10-05'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 receives the whole delegation of the Federation of Japanese Women's Organizations 日本妇女团体联合会 visiting China.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1940. Names: Zhu De. Check: Whether one reception: the nianpu prints the reception of the whole delegation of the Federation of Japanese Women''s Organizations under Oct. 5 and again under Dec. 5, 1965 (1940, 1944); another record has Zhu De receive it on Dec. 5 ([[cal.1965-12-05.china-leadership-3]]).'
+        tags: ['polity:prc', 'polity:japan', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-10-05.china-leadership-4
+        when: Oct. 5
+        date: '1965-10-05'
+        place: peking
+        thread: china-leadership
+        c: The Palace Museum 故宫博物院, Peking 北京. Zhu De 朱德 at the exhibition of calligraphy 书法展览.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1940. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-10-06.china-leadership-10
+        when: Oct. 6
+        date: '1965-10-06'
+        place: peking
+        thread: china-leadership
+        c: Zhu De 朱德, with Peng Zhen 彭真 and others, receives the heads of the minority visiting groups 少数民族参观团 and the minority youth study groups 少数民族青年学习参观团 come to Peking 北京 for the National Day.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1940. Names: Zhu De, Peng Zhen.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:peng-zhen']
+  - add:
+      entry:
+        id: cal.1965-10-10.china-leadership-8
+        when: Oct. 10
+        date: '1965-10-10'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 inspects the works of the Peking underground railway 北京地下铁道工程.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1940. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1965-10-10.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1940–1941 (Oct. 10, 1965; Zhu De 朱德, with Mao Zedong 毛泽东, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, receives the industrial and agricultural model workers, the PLA''s 中国人民解放军 delegates and men of merit in battle at the National Day review, the minority delegates of Tibet 西藏, Xinjiang 新疆, Inner Mongolia 内蒙古, Guangxi 广西, Ningxia 宁夏, Yunnan 云南, Gansu 甘肃, Qinghai 青海, Guizhou 贵州, Sichuan 四川, Guangdong 广东 and Hunan 湖南, and the minority youth study groups)'}
+  - cite: {id: cal.1965-10-15.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1941 (Oct. 15, 1965; Zhu De 朱德 at the forum Zhou Enlai 周恩来 presides over of the secretaries of the six regional bureaus of the Center 中共中央局, the heads of the large military regions and of the Central departments, where Zhou speaks on the international situation)'}
+  - add:
+      entry:
+        id: cal.1965-10-17.china-leadership-4
+        when: Oct. 17
+        date: '1965-10-17'
+        place: peking
+        thread: china-leadership
+        c: 'The Fragrant Hills 香山, Peking 北京. Zhu De 朱德 climbs the hills to see the red leaves and writes a poem: the old pine fears no autumn wind, its needles fine, its boughs hard; shaken for many years, it shelters the red wood and keeps it true.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1941. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-10-18.china-leadership-5
+        when: Oct. 18
+        date: '1965-10-18'
+        thread: china-leadership
+        c: Zhu De 朱德 at a meeting at Mao Zedong's 毛泽东.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1941. Made public: 2016. Names: Zhu De, Mao Zedong.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-10-18.china-leadership-6
+        when: Oct. 18
+        date: '1965-10-18'
+        thread: china-leadership
+        c: Zhu De 朱德 meets 伦迪尔·苏巴, Nepal's 尼泊尔 new Ambassador to China.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1941. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:nepal', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-10-21.china-leadership-8
+        when: Oct. 21
+        date: '1965-10-21'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 at the Peking exhibition of radio products 北京无线电产品展览会.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1941. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1965-10-23.china-leadership-3, item: '[[w.zhu-de-nianpu-xinbian]], III, 1941 (Oct. 23, 1965; Zhu De 朱德 meets José Manuel Isla 何塞·曼那埃尔·伊斯拉, first vice-president of Chile''s Chamber of Deputies 智利众议院, and the deputies'' delegation he leads)'}
+  - cite: {id: cal.1965-10-26.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1941 (Oct. 26, 1965; Zhu De 朱德 at the Politburo 中共中央政治局 meeting, which hears Zhao Erlu 赵尔陆 on the defense industry conference and the defense industry''s political work conference)'}
+  - variant: {id: cal.1965-10-26.china-leadership, unit: A, witness: w.zhu-de-nianpu-xinbian, reads: 'Oct. 26, 1965: the meeting that hears Zhao Erlu is a meeting of the Politburo, Zhu De present', at: 'III, 1941'}
+  - cite: {id: cal.1965-10-28.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1941 (Oct. 28, 1965; Zhu De 朱德 presides over the sixteenth meeting of the Third NPC Standing Committee 第三届全国人大常委会, which hears Zhang Jingwu 张经武, deputy head of the Central delegation to the founding of the Tibet Autonomous Region 西藏自治区, on the region)'}
+  - cite: {id: cal.1965-10-30.china-leadership-6, item: '[[w.zhu-de-nianpu-xinbian]], III, 1941 (Oct. 30, 1965; Zhu De 朱德 presides over the seventeenth meeting of the Third NPC Standing Committee 第三届全国人大常委会, which hears Liu Chun 刘春, deputy head of the Central delegation to the tenth anniversary of the Xinjiang Uighur Autonomous Region 新疆维吾尔自治区, on the region)'}
+  - cite: {id: cal.1965-10-31.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1941 (Oct. 31, 1965; Zhu De 朱德 at the first meeting of the preparatory committee for the centenary of Sun Yat-sen''s 孙中山 birth, which adopts the plan of commemoration)'}
+  - add:
+      entry:
+        id: cal.1965-11-01.china-leadership-8
+        when: Nov. 1
+        date: '1965-11-01'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The exhibition of Dazhai-type farming models 大寨式农业典型展览 opens at the National Agricultural Exhibition Hall 全国农业展览馆.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1941–1942. See [[cal.1965-10-30.china-leadership]].'
+        tags: ['polity:prc']
+  - cite: {id: cal.1965-10-30.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1942 (under Nov. 1, 1965, the exhibition''s opening; earlier Zhu De 朱德, with Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Dong Biwu 董必武 and others, visits its preview)'}
+  - add:
+      entry:
+        id: cal.1965-11-02.china-leadership-13
+        when: Nov. 2
+        date: '1965-11-02'
+        place: peking
+        thread: china-leadership
+        c: The Wuying Hall 武英殿 of the Palace Museum 故宫博物院, Peking 北京. Zhu De 朱德 at the exhibition of new techniques of the Third, Fourth, Fifth and Sixth Ministries of Machine Building 第三、第四、第五、第六机械工业部新工艺展览.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1942. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-11-04.china-leadership-8
+        when: Nov. 4
+        date: '1965-11-04'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 presides over the eighteenth meeting of the Third NPC Standing Committee 第三届全国人大常委会, which discusses the two reports on the Tibet Autonomous Region 西藏自治区 and the Xinjiang Uighur Autonomous Region 新疆维吾尔自治区.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1942. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1965-11-06.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1942 (Nov. 6, 1965; Zhu De 朱德 at the Politburo 中共中央政治局 meeting on the half-work, half-study system of education in the cities 城市半工半读教育制度; Liu Shaoqi 刘少奇 speaks: five years of trial and ten of spreading it; three basic measures against revisionism and a capitalist restoration, the socialist education campaign carried through, the reform of the school system, and cadres in labor; with them China may avoid it, or may not)'}
+  - add:
+      entry:
+        id: cal.1965-11-09.china-leadership-8
+        when: Nov. 9
+        date: '1965-11-09'
+        thread: china-leadership
+        c: 'Zhu De 朱德 inscribes in the campaign to learn from Wang Jie 王杰: "Learn from Comrade Wang Jie''s revolutionary spirit of fearing neither hardship nor death." The nianpu''s note: Wang Jie, squad leader in the first engineer company of an armored unit of the PLA''s Jinan forces 中国人民解放军济南部队, died in July 1965 at Zhanglou commune 张楼公社, Pi county 邳县, Jiangsu 江苏省, while training militia, shielding twelve militiamen and cadres when explosives went off by accident.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1942. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-11-25.china-leadership-9
+        when: Nov. 25
+        date: '1965-11-25'
+        thread: china-leadership
+        c: The *Renmin ribao* 《人民日报》 prints Zhu De's 朱德 inscription on learning from Wang Jie 王杰.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1942. See [[cal.1965-11-09.china-leadership-8]]. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
+  - cite: {id: cal.1965-11-10.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1942 (Nov. 10, 1965; Shanghai''s *Wenhui bao* 《文汇报》 prints Yao Wenyuan''s 姚文元 "On the new historical play *Hai Rui Dismissed from Office*" 《评新编历史剧〈海瑞罢官〉》; worked by Jiang Qing 江青 and Zhang Chunqiao 张春桥, it grows into a campaign of criticism and becomes the fuse of the "Cultural Revolution")'}
+  - cite: {id: cal.1965-11-10.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1942 (Nov. 10, 1965; the Center''s 中共中央 notice relieving Yang Shangkun 杨尚昆 as director of its General Office 中共中央办公厅 and naming Wang Dongxing 汪东兴 director)'}
+  - add:
+      entry:
+        id: cal.1965-11-12.china-leadership-8
+        when: Nov. 12
+        date: '1965-11-12'
+        place: peking
+        thread: china-leadership
+        c: The China Art Gallery 中国美术馆, Peking 北京. Zhu De 朱德 at the exhibition of Jingdezhen 景德镇 porcelain.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1942. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-11-14.china-leadership-6
+        when: Nov. 14
+        date: '1965-11-14'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 inspects the Peking organic chemical works 北京有机化工厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1943. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-11-14.china-leadership-7
+        when: Nov. 14
+        date: '1965-11-14'
+        time: 1965-11-14T12:00Z
+        time_zone: Asia/Shanghai
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 at Liu Shaoqi's 刘少奇 to talk, 8 p.m.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1943. The words: 晚八时，到刘少奇处谈话 (1943). Made public: 2016. Names: Zhu De, Liu Shaoqi.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:liu-shaoqi', 'vis:only:prc']
+  - cite: {id: cal.1965-11-15.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1943 (Nov. 15–16, 1965; Zhu De 朱德 at the enlarged Politburo meeting 中共中央政治局扩大会议, again on half-work, half-study in the cities; Nov. 17–18, at the enlarged Politburo meeting, which hears Yu Qiuli 余秋里, first deputy chairman of the State Planning Commission 国家计委, on the national planning conference, Gu Mu 谷牧, chairman of the State Construction Commission 国家建委, on capital construction, Zhao Erlu 赵尔陆, standing deputy director of the National Defense Industry Office 国防工办, on the defense industry, and Wu Bo 吴波, Vice-Minister of Finance, on the finances, and approves in principle the 1966 plan and its construction priorities)'}
+  - add:
+      entry:
+        id: cal.1965-11-19.china-leadership-9
+        when: Nov. 19
+        date: '1965-11-19'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 inspects the Peking vinylon works 北京维尼纶厂 and inscribes for it: "Speed the building of the chemical fibre industry; catch up with and pass the world''s level."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1943. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1965-11-20.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1943 (Nov. 20, 1965; Zhu De 朱德 presides over the enlarged nineteenth meeting of the Third NPC Standing Committee 第三届全国人大常委会, which hears Wu Zhen 吴振, Vice-Minister of Agriculture, on the year''s farm output, and approves abolishing the Tibet branches of the Supreme People''s Court 最高人民法院西藏分院 and the Supreme People''s Procuratorate 最高人民检察院西藏分院)'}
+  - add:
+      entry:
+        id: cal.1965-11-21.china-leadership-4
+        when: Nov. 21
+        date: '1965-11-21'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 at the Peking hall of farm machinery 北京农业机械展览馆.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1943. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-11-24.china-leadership-10
+        when: Nov. 24
+        date: '1965-11-24'
+        thread: china-leadership
+        c: Zhu De 朱德 calls on Liu Shaoqi 刘少奇, ill.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1943. Made public: 2016. Names: Zhu De, Liu Shaoqi.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:liu-shaoqi', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-11-27.china-leadership-10
+        when: Nov. 27
+        date: '1965-11-27'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 presides over the enlarged twentieth meeting of the Third NPC Standing Committee 第三届全国人大常委会, which hears Liang Yingyong 梁膺庸, Vice-Minister of the Chemical Industry 化学工业部, on the chemical industry.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1943. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1965-11-28.china-leadership-10, item: '[[w.zhu-de-nianpu-xinbian]], III, 1943 (Nov. 28, 1965; Zhu De 朱德, with Zhou Enlai 周恩来, Peng Zhen 彭真, He Long 贺龙 and others, receives in turn those at the PLA''s 中国人民解放军, the Ministry of Building Materials'' 建筑材料工业部 and the Ministry of Health''s 卫生部 specialized conferences in Peking, the national conference of young amateur writers 全国青年业余文学创作积极分子大会, the troupes of the Central South 中南 and Northwest 西北 come to Peking to perform, and the fourteenth class of the Communist Youth League''s central school 共青团中央团校)'}
+  - cite: {id: cal.1965-11-29.china-leadership-3, item: '[[w.zhu-de-nianpu-xinbian]], III, 1943–1944 (Nov. 29, 1965; Zhu De 朱德, with Zhou Enlai 周恩来, Peng Zhen 彭真, He Long 贺龙 and others, at the reception of Nesti Nase 奈斯蒂·纳赛, Albania''s Ambassador, for the twenty-first anniversary of Albania''s liberation)'}
+  - cite: {id: cal.1965-12-02.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1944 (Dec. 2, 1965; Zhu De 朱德 at the dinner Li Zongren 李宗仁 gives to thank the Party and state leaders and the heads of the democratic parties for their welcome and care)'}
+  - add:
+      entry:
+        id: cal.1965-12-03.china-leadership-5
+        when: Dec. 3
+        date: '1965-12-03'
+        thread: china-leadership
+        c: Zhu De 朱德 meets 瓦齐里·朱马, Tanzania's 坦桑尼亚 new Ambassador to China.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1944. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:tanzania', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-12-04.china-leadership-5
+        when: Dec. 4
+        date: '1965-12-04'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 presides over the enlarged twenty-first meeting of the Third NPC Standing Committee 第三届全国人大常委会, which hears He Wei 何伟, Minister of Education 教育部, on half-work, half-study and half-farming, half-study education 半工半读、半农半读教育.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1944. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1965-12-05.china-leadership-3, item: '[[w.zhu-de-nianpu-xinbian]], III, 1944 (Dec. 5, 1965; Zhu De 朱德 receives the whole delegation of the Federation of Japanese Women''s Organizations 日本妇女团体联合会 visiting China)'}
+  - add:
+      entry:
+        id: cal.1965-12-07.china-leadership-8
+        when: Dec. 7
+        date: '1965-12-07'
+        place: peking
+        thread: china-leadership
+        c: The Peking Hospital 北京医院, Peking 北京. Zhu De 朱德 has a medical examination.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1944. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-12-08.china-leadership-7
+        when: Dec. 8
+        date: '1965-12-08'
+        place: [peking, shanghai]
+        thread: china-leadership
+        c: Zhu De 朱德 flies from Peking 北京 to Shanghai 上海.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1944. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1965-12-08.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1944 (Dec. 8–15, 1965; Zhu De 朱德 at the enlarged Politburo Standing Committee 中共中央政治局常委扩大会议 Mao Zedong 毛泽东 calls at Shanghai 上海; those attending learn only at the meeting that it is to criticize Luo Ruiqing 罗瑞卿; Ye Qun 叶群, Lin Biao''s 林彪 wife, speaks three times, some ten hours, inventing how Luo pressed Lin Biao to "yield his place"; Luo, called to Shanghai on Dec. 11, is given no chance to answer at the meeting; Lin Biao, Wu Faxian 吴法宪, commander of the Air Force, Li Zuopeng 李作鹏, political commissar of the Navy, and others charge him with "usurping the army and opposing the Party," opposing "giving prominence to politics" and the "living study and living use" of Mao Zedong Thought; Zhu De says at the meeting that Mao Zedong Thought cannot be called the summit of Marxism-Leninism, for a summit cannot develop further; the nianpu''s note: from Sept. 1959, when he took over the Ministry of Defense and the Military Commission''s 中央军委 work, Lin Biao had often trumpeted Mao Zedong Thought as "the summit of Marxism-Leninism of our time")'}
+  - add:
+      entry:
+        id: cal.1965-12-16.china-leadership
+        when: Dec. 16
+        date: '1965-12-16'
+        place: [shanghai, peking]
+        thread: china-leadership
+        c: Zhu De 朱德 flies back to Peking 北京.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1944. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1965-12-21.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1944 (Dec. 21, 1965; Zhu De 朱德 at the Peking Hospital 北京医院 to take leave of the body of Huang Yanpei 黄炎培; the nianpu''s note: Huang Yanpei died in Peking Dec. 21, 1965, vice-chairman of the NPC Standing Committee 全国人大常委会, vice-chairman of the CPPCC National Committee and chairman of the China Democratic National Construction Association 中国民主建国会)'}
+  - cite: {id: cal.1965-12-24.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1944–1945 (Dec. 24, 1965; Zhu De 朱德 at Zhongshan Hall in Zhongshan Park 中山公园中山堂 to condole, at the capital''s public memorial for Huang Yanpei 黄炎培, and is chief mourner)'}
+  - add:
+      entry:
+        id: cal.1965-12-22.china-leadership-6
+        when: Dec. 22
+        date: '1965-12-22'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 receives the credentials of Don Bernard Rupasinghe Gunawardena 古纳瓦德纳, Ceylon's 锡兰 Ambassador to China. He speaks briefly of the history of the Chinese revolution and of the policy of welcoming all patriots to take part in building the motherland.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1945. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:ceylon', 'name:zhu-de', 'vis:only:prc+ceylon@C']
+  - cite: {id: cal.1965-12-22.china-leadership-3, item: '[[w.zhu-de-nianpu-xinbian]], III, 1945 (Dec. 22, 1965; Zhu De 朱德 meets Joseph-Gambéré Mamadou 马马杜, the Central African Republic''s first Ambassador to China, and receives his credentials)'}
+  - add:
+      entry:
+        id: cal.1965-12-25.china-leadership-5
+        when: Dec. 25
+        date: '1965-12-25'
+        place: peking
+        thread: china-leadership
+        c: Zhu De 朱德, with Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, receives those at the specialized conferences held in Peking 北京 by the Supreme People's Court 最高人民法院, the Ministries of Food 粮食部, the Second Light Industry 第二轻工业部, State Farms and Land Reclamation 农垦部, Commerce 商业部, Building Materials 建筑材料工业部 and the Fourth Ministry of Machine Building 第四机械工业部, the State Council's Finance and Trade Office 国务院财贸办公室, the Ministry of Culture 文化部, the People's Bank 人民银行, the Center's North China Bureau 中共中央华北局, the Air Force 空军 and others; with them the cadre trainees in politics and law, water and power, and food studying in Peking, the Ulan Muqi 乌兰牧骑 touring troupe of Inner Mongolia 内蒙古, the song and dance troupe of Hotan prefecture 和田专区, Xinjiang 新疆, and the Guangdong Cantonese Opera Theatre 广东粤剧院.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1945. Names: Zhu De, Zhou Enlai, Deng Xiaoping.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:zhou-enlai', 'name:deng-xiaoping']
+  - add:
+      entry:
+        id: cal.1965-12-28.china-leadership-3
+        when: Dec. 28
+        date: '1965-12-28'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 presides over the enlarged twenty-third meeting of the Third NPC Standing Committee 第三届全国人大常委会, which hears Liang Yao 梁耀, deputy director of the All-China Federation of Supply and Marketing Cooperatives 全国供销合作总社, on developing rural sideline production.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1945. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1965-12-30.china-leadership-7
+        when: Dec. 30
+        date: '1965-12-30'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 presides over the enlarged twenty-fourth meeting of the Third NPC Standing Committee 第三届全国人大常委会, which hears Cao Lu 曹鲁, Vice-Minister of the First Light Industry 第一工业部 (so printed), on light industry''s goods for the countryside. Zhu De speaks: the basic aim of building socialism is to better the people''s life; once we learned from the Soviet Union 苏联; now, led by Chairman Mao, we build socialism of a Chinese kind. The meeting decides to put off the Third NPC''s 第三届全国人大 second session to the first half of 1966.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1945. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C-E']
+  - add:
+      entry:
+        id: cal.1966-01-01.china-leadership-4
+        when: Jan. 1
+        date: '1966-01-01'
+        thread: china-leadership
+        c: Zhu De 朱德 at the exhibition of the many kinds of economy 多种经济展览会 held by the national supply and marketing cooperatives 全国供销合作社.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1946. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01-08.china-leadership-6
+        when: Jan. 8
+        date: '1966-01-08'
+        thread: china-leadership
+        c: Zhu De 朱德 sees the clay sculptures *The Rent Collection Courtyard* 《收租院》, of the life of Sichuan's 四川 peasants under the landlords before the liberation.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1946. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
+  - cite: {id: cal.1966-01-09.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1946 (Jan. 9, 1966; Zhu De 朱德, with Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Peng Zhen 彭真, Li Fuchun 李富春, Li Xiannian 李先念, Tan Zhenlin 谭震林, Lu Dingyi 陆定一, Bo Yibo 薄一波, Ye Jianying 叶剑英 and others, receives all those at the meetings in Peking of the PLA 中国人民解放军, the Chinese People''s Public Security Forces 中国人民公安部队, the Ministries of Agriculture, Building Materials, Building, the Chemical Industry and Higher Education, and the Vanguard troupe 前卫文工团 of the Jinan forces 济南部队 come to Peking to perform)'}
+  - add:
+      entry:
+        id: cal.1966-01-10.china-leadership-5
+        when: Jan. 10
+        date: '1966-01-10'
+        place: peking
+        thread: china-leadership
+        c: Zhu De 朱德 leaves Peking 北京 to inspect Shandong 山东, Jiangsu 江苏, Zhejiang 浙江, Jiangxi 江西, Guangdong 广东 and other provinces.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1946. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01-10.china-leadership-6
+        when: Jan. 10
+        date: '1966-01-10'
+        place: tianjin
+        thread: china-leadership
+        c: Tanggu 塘沽, Tianjin 天津. On the way Zhu De 朱德 inspects the new port of Tanggu 塘沽新港. He hears Hu Zhaoheng 胡昭衡, mayor of Tianjin 天津市.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1946. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C']
+  - add:
+      entry:
+        id: cal.1966-01-11.china-leadership
+        when: Jan. 11
+        date: '1966-01-11'
+        place: jinan
+        thread: china-leadership
+        c: Zhu De 朱德 reaches Jinan 济南, Shandong 山东省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1946. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01-11.china-leadership-2
+        when: Jan. 11
+        date: '1966-01-11'
+        place: jinan
+        thread: china-leadership
+        c: Jinan 济南. Zhu De 朱德 inspects the Jinan automobile works 济南汽车制造厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1946. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01-12.china-leadership-5
+        when: Jan. 12
+        date: '1966-01-12'
+        place: dongying
+        thread: china-leadership
+        c: Dongying 东营. Zhu De 朱德, with Tan Qilong 谭启龙, first secretary of the Shandong provincial committee 中共山东省委, inspects the Dongying (Shengli) oilfield 东营油田（即胜利油田） and watches two high-yield wells shown flowing.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1946. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01-13.china-leadership-4
+        when: Jan. 13
+        date: '1966-01-13'
+        thread: china-leadership
+        c: 'Zhu De 朱德 hears Tan Qilong 谭启龙 and the other heads of the Shandong provincial committee 中共山东省委 on the socialist education campaign and on production, finance and trade. His remarks: act by materialist dialectics and the laws of nature, as Chairman Mao applied Marxism-Leninism to China''s reality; revolution is to develop the productive forces, and the relations of production must keep up with them; no one has seen what socialism looks like, and until it is given a shape people will not be clear; with production done well, people settled, life bettered and falsehood ended, they will have faith in socialism.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1946–1947. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-01-14.china-leadership-3
+        when: Jan. 14
+        date: '1966-01-14'
+        place: nanjing
+        thread: china-leadership
+        c: Zhu De 朱德 reaches Nanjing 南京, Jiangsu 江苏省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01-15.china-leadership-4
+        when: Jan. 15
+        date: '1966-01-15'
+        place: nanjing
+        thread: china-leadership
+        c: Nanjing 南京. Zhu De 朱德 hears the heads of the Jiangsu provincial committee 中共江苏省委 on grain, cotton and sideline production.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-01-16.china-leadership-5
+        when: Jan. 16
+        date: '1966-01-16'
+        place: nanjing
+        thread: china-leadership
+        c: Nanjing 南京. Zhu De 朱德 inspects the PLA's Nanjing Military Academy 解放军南京军事学院.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01-16.china-leadership-6
+        when: Jan. 16
+        date: '1966-01-16'
+        place: nanjing
+        thread: china-leadership
+        c: 'Nanjing 南京. Zhu De 朱德, at his residence, hears Zhang Zhen 张震, president of the Military Academy 军事学院, and Xie Liquan 谢立全, president of the Naval Academy 海军学院, on the reform of teaching in the two academies, and Du Ping 杜平, political commissar of the Nanjing Military Region 南京军区, on the building of the forces. His remarks: the army''s schools must study both sides, the enemy''s as well as their own; strengthen the army''s building.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-01-17.china-leadership-5
+        when: Jan. 17
+        date: '1966-01-17'
+        place: nanjing
+        thread: china-leadership
+        c: Nanjing 南京. Zhu De 朱德 inspects the Purple Mountain Observatory 紫金山天文台. He urges the heads of its Party committee to do their work with the intellectuals well.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C']
+  - add:
+      entry:
+        id: cal.1966-01-17.china-leadership-6
+        when: Jan. 17
+        date: '1966-01-17'
+        place: nanjing
+        thread: china-leadership
+        c: Nanjing 南京. Zhu De 朱德 visits the Nanjing Institute of Botany 南京植物研究所 and the Nanjing chemical fibre works 南京化纤厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01-18.china-leadership-4
+        when: Jan. 18
+        date: '1966-01-18'
+        place: hangzhou
+        thread: china-leadership
+        c: Zhu De 朱德 reaches Hangzhou 杭州, Zhejiang 浙江省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01-20.china-leadership-2
+        when: Jan. 20
+        date: '1966-01-20'
+        place: hangzhou
+        thread: china-leadership
+        c: Hangzhou 杭州. Zhu De 朱德 tours the Huanglong Cave 黄龙洞 and Yuquan 玉泉.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01-25.china-leadership-2
+        when: Jan. 25
+        date: '1966-01-25'
+        place: hangzhou
+        thread: china-leadership
+        c: Hangzhou 杭州. Zhu De 朱德 inspects the Longjing commune 龙井公社 and its Waitongwu brigade 外桐坞生产大队.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01-26.china-leadership-4
+        when: Jan. 26
+        date: '1966-01-26'
+        place: hangzhou
+        thread: china-leadership
+        c: Hangzhou 杭州. Zhu De 朱德 inspects the Hangzhou combined silk printing and dyeing works 杭州丝绸联合印染厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01-27.china-leadership-3
+        when: Jan. 27
+        date: '1966-01-27'
+        thread: china-leadership
+        c: 'Zhu De 朱德 cables the Center 中共中央 and Zhou Enlai 周恩来 on industry and farming and the socialist education campaign in the countryside of Shandong 山东 and Jiangsu 江苏. The Dongying oilfield 东营油田, he says, is another large field after Daqing 大庆油田, rich and flowing well: win time, sink more wells, bring out more oil.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Made public: 2016. Names: Zhu De, Zhou Enlai.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:zhou-enlai', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-01-27.china-leadership-4
+        when: Jan. 27
+        date: '1966-01-27'
+        place: xiaoshan
+        thread: china-leadership
+        c: Xiaoshan county 萧山县. Zhu De 朱德 inspects the Dongfanghong commune 东方红公社.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01-30.china-leadership-5
+        when: Jan. 30
+        date: '1966-01-30'
+        place: hangzhou
+        thread: china-leadership
+        c: Hangzhou 杭州. Zhu De 朱德 hears the heads of Zhejiang's foreign trade bureau 浙江省对外贸易局 on foreign trade.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-01-31.china-leadership-5
+        when: Jan. 31
+        date: '1966-01-31'
+        place: hangzhou
+        thread: china-leadership
+        c: Hangzhou 杭州. Zhu De 朱德 inspects the Hangzhou oxygen-machine works 杭州制氧机厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-01.china-leadership-16
+        when: Jan., late
+        date: 1966-01
+        at: before 1966-01-21
+        place: hangzhou
+        thread: china-leadership
+        c: Hangzhou 杭州. Zhu De 朱德 keeps the Spring Festival with his wife Kang Keqing 康克清, then in the Four Cleanups 四清 at Qianshan county 铅山县, Jiangxi 江西省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-02-01.china-leadership-9
+        when: Feb. 1
+        date: '1966-02-01'
+        place: nanchang
+        thread: china-leadership
+        c: Zhu De 朱德 reaches Nanchang 南昌, Jiangxi 江西省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1966-02-02.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1948 (Feb. 2–20, 1966; Jiang Qing 江青, entrusted by Lin Biao 林彪, holds the forum on literature and art in the forces 部队文艺工作座谈会 at Shanghai 上海)'}
+  - add:
+      entry:
+        id: cal.1966-02-03.china-leadership-7
+        when: Feb. 3
+        date: '1966-02-03'
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 hears Liu Junxiu 刘俊秀, secretary of the Jiangxi provincial committee's Secretariat 中共江西省委书记处, on farm and sideline output.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1948. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-02-04.china-leadership-4
+        when: Feb. 4
+        date: '1966-02-04'
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 hears Huang Xian 黄先, alternate secretary of the Jiangxi provincial committee's Secretariat 中共江西省委书记处, on industrial output.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1948. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-02-04.china-leadership-5
+        when: Feb. 4
+        date: '1966-02-04'
+        thread: china-leadership
+        c: 'Zhu De 朱德 inspects the Jiangxi sericulture reclamation farm 江西蚕桑垦殖场. He hears the heads of its fifth branch farm on its production, and remarks: Jiangxi''s wide red soils can be opened up for mulberry, tea and fruit, for the people''s needs and for export.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1948. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc@B']
+  - add:
+      entry:
+        id: cal.1966-02-07.china-leadership-9
+        when: Feb. 7
+        date: '1966-02-07'
+        place: nanchang
+        thread: china-leadership
+        c: 'Nanchang 南昌. Zhu De 朱德 inspects the Jiangxi Communist Labor University 江西共产主义劳动大学 and inscribes: "The Communist Labor University is a new kind of school joining theory and practice, mental and manual labor, production and education. In eight years you have had great success in developing this socialist system of education, and have led the way."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1948. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1966-02-07.china-leadership-3, item: '[[w.zhu-de-nianpu-xinbian]], III, 1948 (Feb. 7, 1966; the Five-Man Group of the Cultural Revolution 文化革命五人小组 under Peng Zhen 彭真 puts to the Center 中共中央 its "Outline report on the present academic discussion" 《关于当前学术讨论的汇报提纲》 (the "February Outline" 二月提纲); after report to Mao Zedong 毛泽东, the Center agrees and circulates it on Feb. 12; soon Mao repudiates and criticizes it)'}
+  - cite: {id: cal.1966-02-12.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1948 (under Feb. 7, 1966; the Center 中共中央 agrees to the Five-Man Group''s 文化革命五人小组 Outline 二月提纲 and circulates it on Feb. 12)'}
+  - add:
+      entry:
+        id: cal.1966-02-08.china-leadership-6
+        when: Feb. 8
+        date: '1966-02-08'
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 inspects the farming of the Nanchang suburbs.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1948. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-02-08.china-leadership-7
+        when: Feb. 8
+        date: '1966-02-08'
+        time_range: ['1966-02-08T04:00Z', '1966-02-08T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 inspects the Nanchang gear works 南昌齿轮厂 and the tractor parts works 拖拉机配件厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1948. The words: 下午，视察南昌齿轮厂和拖拉机配件厂 (1948). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-02-09.china-leadership-7
+        when: Feb. 9
+        date: '1966-02-09'
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 inspects the Nanchang tractor works 南昌拖拉机制造厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1948. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-02-09.china-leadership-8
+        when: Feb. 9
+        date: '1966-02-09'
+        time_range: ['1966-02-09T04:00Z', '1966-02-09T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        place: nanchang
+        thread: china-leadership
+        c: Zhu De 朱德 leaves Nanchang 南昌.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1948. The words: 下午，离开南昌 (1948). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-02-10.china-leadership-3
+        when: Feb. 10
+        date: '1966-02-10'
+        place: canton
+        thread: china-leadership
+        c: Zhu De 朱德 reaches Canton 广州, Guangdong 广东省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1948. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-02-10.china-leadership-4
+        when: Feb. 10
+        date: '1966-02-10'
+        place: xinhui
+        thread: china-leadership
+        c: Xinhui county 新会县. Zhu De 朱德 inspects the county.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1948. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-02-12.china-leadership-10
+        when: Feb. 12
+        date: '1966-02-12'
+        thread: china-leadership
+        c: 'Zhu De 朱德 cables the Center 中共中央 and Mao Zedong 毛泽东 on Zhejiang 浙江 and Jiangxi 江西: he approves Zhejiang''s foreign trade work and Jiangxi''s planting of masson pine 马尾松 to green its bare hills, and holds wide planting of masson pine in the southern provinces a lasting way to meet the country''s need for timber.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1948. Made public: 2016. Names: Zhu De, Mao Zedong.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-02-12.china-leadership-11
+        when: Feb. 12
+        date: '1966-02-12'
+        place: conghua
+        thread: china-leadership
+        c: Zhu De 朱德 goes to the Conghua 从化 hot springs.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1948. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-02-20.china-leadership-4
+        when: Feb. 20
+        date: '1966-02-20'
+        place: conghua
+        thread: china-leadership
+        c: Conghua 从化. Zhu De 朱德 inspects the Liuxi River reservoir 流溪河水库.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1948. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-03-05.china-leadership-6
+        when: Mar. 5
+        date: '1966-03-05'
+        place: [conghua, canton]
+        thread: china-leadership
+        c: Zhu De 朱德 returns to Canton 广州.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1949. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-03-07.china-leadership-4
+        when: Mar. 7
+        date: '1966-03-07'
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Zhu De 朱德 inspects the Canton cannery 广州罐头食品厂 and the ramie textile mill 苎麻纺织厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1949. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-03-10.china-leadership-8
+        when: Mar. 10
+        date: '1966-03-10'
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Zhu De 朱德 inspects the institute of tropical plants of the Yantang farm 燕塘农场热带植物研究所.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1949. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-03-11.china-leadership-7
+        when: Mar. 11
+        date: '1966-03-11'
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Zhu De 朱德 inspects the Canton polyethylene works 广州聚乙烯厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1949. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-03-12.china-leadership-6
+        when: Mar. 12
+        date: '1966-03-12'
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Zhu De 朱德 inspects the Canton Baihua perfume works 广州百花香料厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1949. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-03-12.china-leadership-7
+        when: Mar. 12
+        date: '1966-03-12'
+        time_range: ['1966-03-12T04:00Z', '1966-03-12T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Zhu De 朱德 hears the heads of the Guangdong provincial committee 中共广东省委 on farm output.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1949. The words: 下午，听取中共广东省委负责人汇报农业生产情况 (1949). Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-03.china-leadership-20
+        when: Mar., at Canton
+        date: 1966-03
+        at: after 1966-03-05
+        place: canton
+        thread: china-leadership
+        c: 'Canton 广州. Zhu De 朱德 writes a poem to the rhymes of a poem by Tao Zhu 陶铸: glad to see the hot springs'' sky changed, the lakes ringed and dammed across the streams, the hills wooded and fine, water led to plant the rice.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1949. The nianpu prints it under Mar. 12, "while in Canton" (在广州期间). Names: Zhu De, Tao Zhu.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:tao-zhu']
+  - add:
+      entry:
+        id: cal.1966-03-14.china-leadership-3
+        when: Mar. 14
+        date: '1966-03-14'
+        place: jiangmen
+        thread: china-leadership
+        c: Jiangmen 江门. Zhu De 朱德 inspects the bagasse works 蔗渣厂, the palm-leaf goods works 葵叶制品厂 and the tractor works 拖拉机制造厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1949. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-03-16.china-leadership-6
+        when: Mar. 16
+        date: '1966-03-16'
+        place: [canton, hangzhou]
+        thread: china-leadership
+        c: Zhu De 朱德 leaves Canton 广州 for Hangzhou 杭州.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1949. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1966-03-17.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1949 (Mar. 18–20, 1966; Zhu De 朱德 at the enlarged Politburo Standing Committee 中共中央政治局常委扩大会议 Mao Zedong 毛泽东 calls at Hangzhou 杭州, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, the first secretaries of the regional bureaus and heads of Central departments; Mao says the academic and educational worlds are "in fact held by the bourgeoisie and petty bourgeoisie," "a grave class struggle, or else those who make revisionism later will be these people"; the nianpu: a wrong estimate of the class struggle at home)'}
+  - variant: {id: cal.1966-03-17.china-leadership, unit: B, witness: w.zhu-de-nianpu-xinbian, reads: 'Mar. 18–20, 1966: the enlarged Politburo Standing Committee meets at Hangzhou, Zhu De present', at: 'III, 1949'}
+  - add:
+      entry:
+        id: cal.1966-03-21.china-leadership-10
+        when: Mar. 21
+        date: '1966-03-21'
+        place: [hangzhou, peking]
+        thread: china-leadership
+        c: Zhu De 朱德 flies back to Peking 北京.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1949. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1966-03-22.china-leadership-3, item: '[[w.zhu-de-nianpu-xinbian]], III, 1949 (Mar. 22, 1966; Zhu De 朱德, with Zhou Enlai 周恩来, gives a banquet to welcome Lê Duẩn 黎笋, First Secretary of the Vietnam Workers'' Party''s Central Committee 越南劳动党中央委员会, and the delegation he leads)'}
+  - add:
+      entry:
+        id: cal.1966-03-24.china-leadership-5
+        when: Mar. 24
+        date: '1966-03-24'
+        place: peking
+        thread: china-leadership
+        c: The Peking Exhibition Hall 北京展览馆, Peking 北京. Zhu De 朱德 at the exhibition of new instruments and meters 仪器仪表新产品展览会.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1949. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1966-03-26.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1949 (Mar. 26, 1966; Zhu De 朱德 at the capital''s rally welcoming the Japanese Communist Party''s delegation under Miyamoto Kenji 宫本显治, general secretary of its Central Committee 日本共产党中央委员会)'}
+  - cite: {id: cal.1966-03-25.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1949–1950 (printed under Mar. 26, 1966; Zhu De 朱德, with Zhou Enlai 周恩来, Peng Zhen 彭真, Kang Sheng 康生, Guo Moruo 郭沫若, Li Xiannian 李先念, Tan Zhenlin 谭震林 and others, at the capital''s airport 首都机场 to see Liu Shaoqi 刘少奇 and Chen Yi 陈毅 off on their visits to Pakistan 巴基斯坦, Afghanistan 阿富汗 and Burma 缅甸)'}
+  - add:
+      entry:
+        id: cal.1966-03-27.china-leadership-13
+        when: Mar. 27
+        date: '1966-03-27'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 at the rally of the capital and of friends from more than forty countries of the five continents in Peking in support of the American people's just struggle against American imperialism's 美帝国主义 aggression in Vietnam 越南.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1950. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1966-03-28.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1950 (Mar. 28–30, 1966; Mao Zedong 毛泽东, at Hangzhou 杭州, talks three times with Kang Sheng 康生, Jiang Qing 江青 and others: the Peking municipal committee 北京市委 and the Propaganda Department 中宣部 shield bad men and do not back the left; Peking is "a needle cannot get in, water cannot splash in," the municipal committee to be dissolved; the Propaganda Department is "the Palace of the King of Hell," "overthrow the King of Hell, free the little devils"; he calls for "the localities to rebel and attack the Center 中共中央")'}
+  - variant: {id: cal.1966-03-28.china-leadership-2, unit: A, witness: w.zhu-de-nianpu-xinbian, reads: 'Mar. 28–30, 1966: Mao talks three times at Hangzhou with Kang Sheng, Jiang Qing and others', at: 'III, 1950'}
+  - cite: {id: cal.1966-03-30.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1950 (Mar. 28–30, 1966; the third of Mao Zedong''s 毛泽东 three talks with Kang Sheng 康生, Jiang Qing 江青 and others, at Hangzhou 杭州 by the nianpu)'}
+  - variant: {id: cal.1966-03-30.china-leadership, unit: A, witness: w.zhu-de-nianpu-xinbian, reads: 'Mar. 28–30, 1966: Mao''s three talks with Kang Sheng, Jiang Qing and others are at Hangzhou', at: 'III, 1950'}
+  - cite: {id: cal.1966-03-29.china-leadership-7, item: '[[w.zhu-de-nianpu-xinbian]], III, 1950 (Mar. 29, 1966; Zhu De 朱德 presides over the twenty-ninth meeting of the Third NPC Standing Committee 第三届全国人大常委会, which decides on the special pardon of war criminals of the Chiang Kai-shek clique 蒋介石集团, Manchukuo 伪满洲国 and the Mengjiang autonomous government 伪蒙疆自治政府 truly reformed after a period of remolding)'}
+  - add:
+      entry:
+        id: cal.1966-03-30.china-leadership-8
+        when: Mar. 30
+        date: '1966-03-30'
+        thread: china-leadership
+        c: Zhu De 朱德 at the exhibition of research results of Peking's 北京 universities and colleges 北京高等院校科研成果展览会.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1950. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-04-03.china-leadership-7
+        when: Apr. 3
+        date: '1966-04-03'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 votes at the polling station of the Zhongnanhai 中南海 constituency of the Xicheng district 西城区 for the district's Sixth People's Congress.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1950. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-04-03.china-leadership-8
+        when: Apr. 3
+        date: '1966-04-03'
+        time_range: ['1966-04-03T04:00Z', '1966-04-03T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        place: peking
+        thread: china-leadership
+        c: Babaoshan 八宝山, in Peking's 北京 western suburbs. Zhu De 朱德 visits the building site of the underground railway 地下铁道.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1950. The words: 下午，前往北京西郊八宝山参观地下铁道建筑工地 (1950). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-04-06.china-leadership-6
+        when: Apr. 6
+        date: '1966-04-06'
+        thread: china-leadership
+        c: Zhu De 朱德 at the exhibition of research results of Peking's 北京 universities and colleges again.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1950. See [[cal.1966-03-30.china-leadership-8]]. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-04-10.china-leadership-6
+        when: Apr. 10
+        date: '1966-04-10'
+        thread: china-leadership
+        also: [laos]
+        c: Zhu De 朱德 sees a performance of the song and dance troupe of the Lao Patriotic Front 老挝爱国战线党 and receives its head and leading performers.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1950. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:pathet-lao', 'name:zhu-de']
+  - cite: {id: cal.1966-04-10.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1950 (Apr. 10, 1966; the Center 中共中央 approves the "Summary of the forum on literature and art in the forces that Comrade Lin Biao entrusted Comrade Jiang Qing to hold" 《林彪同志委托江青同志召开的部队文艺工作座谈会纪要》, which says a black line against Chairman Mao''s thought has held sway over literature and art since 1949, and calls for a great socialist revolution on the cultural front to root it out)'}
+  - add:
+      entry:
+        id: cal.1966-04-14.china-leadership-9
+        when: Apr. 14
+        date: '1966-04-14'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 presides over the enlarged thirtieth meeting of the Third NPC Standing Committee 第三届全国人大常委会, which hears Shi Ximin 石西民, Vice-Minister of Culture 文化部, on the cultural revolution. Zhu De speaks, asking all to read the thirty-two books of Marx, Engels, Lenin and Stalin: "Now, when I have nothing else to do, I read every day, new books and old. The new books are Chairman Mao''s; the old, those of Marx, Engels, Lenin and Stalin. I find them interesting, and urge you all to read them."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1950–1951. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C']
+  - add:
+      entry:
+        id: cal.1966-04-16.china-leadership-10
+        when: Apr. 16
+        date: '1966-04-16'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 at the Iraqi Embassy 伊拉克驻中国大使馆 to condole on the death of Abdul Salam Arif 穆罕默德·阿里夫 (so printed), President of the Republic of Iraq 伊拉克共和国.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1951. Names: Zhu De, Arif.'
+        tags: ['polity:prc', 'polity:iraq', 'name:zhu-de', 'name:arif-abdul-salam-muhammad']
+  - add:
+      entry:
+        id: cal.1966-04-16.china-leadership-11
+        when: Apr. 16
+        date: '1966-04-16'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 meets Vasil Nathanaili 瓦西里·纳塔奈利, Albania's 阿尔巴尼亚 new Ambassador to China.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1951. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:albania', 'name:zhu-de']
+  - cite: {id: cal.1966-04-16.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1951 (Apr. 17–25, 1966; Mao Zedong 毛泽东 presides over the enlarged Politburo Standing Committee 中共中央政治局常委扩大会议 at Hangzhou 杭州, with Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Peng Zhen 彭真, Ye Jianying 叶剑英 and others and the heads of the regional bureaus; Liu Shaoqi 刘少奇 and Chen Yi 陈毅, called by urgent cable, come from Kunming 昆明 on Apr. 20; Zhu De 朱德 is not told to attend; the meeting dissolves the Five-Man Group 文化革命五人小组 and its office and sets up a drafting group for the Cultural Revolution''s documents under the Politburo Standing Committee; Peng Zhen is wrongly criticized)'}
+  - variant: {id: cal.1966-04-16.china-leadership, unit: B, witness: w.zhu-de-nianpu-xinbian, reads: 'Apr. 17–25, 1966: Mao presides over the enlarged Politburo Standing Committee at Hangzhou', at: 'III, 1951'}
+  - add:
+      entry:
+        id: cal.1966-04-20.china-leadership-4
+        when: Apr. 20
+        date: '1966-04-20'
+        place: hangzhou
+        thread: china-leadership
+        c: Hangzhou 杭州. Kang Sheng 康生, at the enlarged Politburo Standing Committee 中共中央政治局常委扩大会议, slanders Zhu De 朱德, absent, as one who "joined the Party in organization but not yet in thought, still a man outside the Party," "the capitalist stuff."
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1951. Made public: 2016. See [[cal.1966-04-16.china-leadership]]. Names: Kang Sheng, Zhu De.'
+        tags: ['polity:prc', 'name:kang-sheng', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-04-21.china-leadership-5
+        when: Apr. 21
+        date: '1966-04-21'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 presides over the enlarged thirty-first meeting of the Third NPC Standing Committee 第三届全国人大常委会, which hears Xun Changwu 荀昌五, Vice-Minister of Forestry 林业部, on forestry.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1951. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-04-22.china-leadership-5
+        when: Apr. 22
+        date: '1966-04-22'
+        thread: china-leadership
+        c: Zhu De 朱德 at the Secretariat 中共中央书记处, on the "Cultural Revolution" 文化大革命.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1951. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-04-23.china-leadership-5
+        when: Apr. 23
+        date: '1966-04-23'
+        thread: china-leadership
+        also: [vietnam-hanoi]
+        c: Zhu De 朱德 meets 阮春林, Vietnam's 越南 Vice-Minister of Heavy Industry 重工业部, and the government's science and technology delegation 越南政府科学技术代表团 he leads.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1951. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:drv', 'name:zhu-de']
+  - cite: {id: cal.1966-04-24.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1951 (Apr. 24, 1966; Zhu De 朱德 meets Djawoto 查禾多, secretary-general of the Afro-Asian Journalists'' Association 亚非新闻工作者协会, and the delegates of nineteen countries and regions at the fourth (enlarged) plenary meeting of its Secretariat 书记处)'}
+  - add:
+      entry:
+        id: cal.1966-04-25.china-leadership-7
+        when: Apr. 25
+        date: '1966-04-25'
+        thread: china-leadership
+        c: Zhu De 朱德 at the Secretariat 中共中央书记处, on the Cultural Revolution 文化大革命.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1951. Made public: 2016. See [[cal.1966-04-22.china-leadership-5]]. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-04-25.china-leadership-8
+        when: Apr. 25
+        date: '1966-04-25'
+        thread: china-leadership
+        c: Zhu De 朱德, with Dong Biwu 董必武, He Long 贺龙, Li Fuchun 李富春, Tan Zhenlin 谭震林, Bo Yibo 薄一波 and Yang Chengwu 杨成武, seven together, writes to Mao Zedong 毛泽东 and the Politburo Standing Committee 中央政治局常委 in support of the Center's 中央 decision of Apr. 17 to "dissolve the so-called Five-Man Group of the Cultural Revolution 文化革命五人小组 and its office, and set up anew a drafting group for the Cultural Revolution's documents under the Politburo Standing Committee."
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1952. Made public: 2016. Names: Zhu De, Dong Biwu, He Long, Li Fuchun, Tan Zhenlin, Bo Yibo, Mao Zedong.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:dong-biwu', 'name:he-long', 'name:li-fuchun', 'name:tan-zhenlin', 'name:bo-yibo', 'name:mao-zedong', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-04-26.china-leadership-5
+        when: Apr. 26
+        date: '1966-04-26'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 presides over the enlarged thirty-second meeting of the Third NPC Standing Committee 第三届全国人大常委会, which hears Lin Haiyun 林海云, acting Minister of Foreign Trade 对外贸易部, on foreign trade.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1952. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-04-27.china-leadership-8
+        when: Apr. 27
+        date: '1966-04-27'
+        place: peking
+        thread: china-leadership
+        c: The Huairen Tang 怀仁堂, Peking 北京. Zhu De 朱德 at a meeting.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1952. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1966-04-28.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1952 (Apr. 28, 1966; Zhu De 朱德, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, at the capital''s airport 首都机场 to welcome Albania''s party and government delegation under Mehmet Shehu 穆罕默德·谢胡, member of the Politburo 中央政治局 of the Albanian Party of Labor 阿尔巴尼亚劳动党 and chairman of its Council of Ministers)'}
+  - add:
+      entry:
+        id: cal.1966-04-28.china-leadership-4
+        when: Apr. 28
+        date: '1966-04-28'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 takes part in the talks with Mehmet Shehu 穆罕默德·谢胡, chairman of Albania's Council of Ministers 阿尔巴尼亚部长会议.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1952. Made public: 2016. See [[cal.1966-04-28.china-leadership-2]]. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:albania', 'name:zhu-de', 'vis:only:prc+albania']
+  - add:
+      entry:
+        id: cal.1966-04-30.china-leadership-8
+        when: Apr. 30
+        date: '1966-04-30'
+        place: peking
+        thread: china-leadership
+        c: The Great Hall of the People 人民大会堂, Peking 北京. Zhu De 朱德 at the reception of the All-China Federation of Trade Unions 中华全国总工会 welcoming the trade union delegations of fifty countries and regions come to Peking for May Day, and gives a toast.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1952. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1966-05-01.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1952 (May 1, 1966; Zhu De 朱德, with Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, at the May Day garden party in the Working People''s Cultural Palace 劳动人民文化宫)'}
+  - cite: {id: cal.1966-05-01.china-leadership-8, item: '[[w.zhu-de-nianpu-xinbian]], III, 1952 (May 1, 1966, evening; Zhu De 朱德 on the Tiananmen tower 天安门城楼 at the evening gala and the festival fireworks)'}
+  - cite: {id: cal.1966-05-04.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1952–1953 (May 4–26, 1966; Zhu De 朱德 at the enlarged Politburo meeting 中共中央政治局扩大会议 in Peking 北京, which wrongly criticizes the so-called "anti-Party group of Peng Zhen 彭真, Luo Ruiqing 罗瑞卿, Lu Dingyi 陆定一 and Yang Shangkun 杨尚昆"; on Mao Zedong''s 毛泽东 advice it suspends Peng Zhen, Luo Ruiqing and Lu Dingyi as secretaries of the Secretariat 中共中央书记处, removes Peng Zhen as first secretary of the Peking committee and mayor and Lu Dingyi as head of the Propaganda Department 中宣部, suspends Yang Shangkun as alternate secretary, dissolves the Five-Man Group 文化革命五人小组 and sets up the Cultural Revolution Group 文化革命小组 (later the Central Cultural Revolution Group 中央文革小组) under the Politburo Standing Committee 中央政治局常委)'}
+  - cite: {id: cal.1966-05-16.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1952 (May 16, 1966; the enlarged Politburo meeting 中共中央政治局扩大会议 adopts the Central Committee''s Notice 《中国共产党中央委员会通知》 (the "May 16 Notice" 五一六通知))'}
+  - cite: {id: cal.1966-05-18.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1952 (May 18, 1966; Lin Biao 林彪 speaks at the meeting, pressing the cult of Mao Zedong''s person and, gathering cases ancient and modern, Chinese and foreign, making up the lie that some are plotting a coup)'}
+  - add:
+      entry:
+        id: cal.1966-05-12.china-leadership-5
+        when: May 12
+        date: '1966-05-12'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 speaks in the first group of the enlarged Politburo meeting 中共中央政治局扩大会议: he means to read the books of Marx and Lenin seriously, and to finish them in a year or two.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1953. Made public: 2016. See [[cal.1966-05-04.china-leadership]]. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1966-05-23.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1953 ("in the days after" May 12, 1966, the day not given; at the meeting Lin Biao 林彪, Kang Sheng 康生 and others attack Zhu De 朱德, making his objection to calling Mao Zedong Thought the summit of Marxism-Leninism into "using Marxism against Chairman Mao," and calling him "ambitious," "wanting the yellow robe put on him," "a time bomb in the Party")'}
+  - add:
+      entry:
+        id: cal.1966-05-06.china-leadership-8
+        when: May 6
+        date: '1966-05-06'
+        place: peking
+        thread: china-leadership
+        c: The Great Hall of the People 人民大会堂, Peking 北京. Zhu De 朱德, with Xu Xiangqian 徐向前, Yang Mingxuan 杨明轩, Lin Feng 林枫, Liu Ningyi 刘宁一, Zhang Zhizhong 张治中 and others, receives the fifteen minority visiting groups come to Peking for May Day and the heads of the troupe of the Liangshan Yi Autonomous Prefecture 凉山彝族自治州, Sichuan 四川省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1953. Names: Zhu De, Xu Xiangqian.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:xu-xiangqian']
+  - cite: {id: cal.1966-05-11.china, item: '[[w.zhu-de-nianpu-xinbian]], III, 1953 (May 11, 1966; Zhu De 朱德, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and Deng Xiaoping 邓小平, at the signing of the joint statement of the People''s Republic of China and the People''s Republic of Albania 中华人民共和国和阿尔巴尼亚人民共和国联合声明)'}
+  - cite: {id: cal.1966-05-11.china-leadership-9, item: '[[w.zhu-de-nianpu-xinbian]], III, 1953 (May 11, 1966; after the signing Zhu De 朱德 at the capital''s airport 首都机场 to see off Shehu 谢胡 and the Albanian party and government delegation)'}
+  - add:
+      entry:
+        id: cal.1966-05-15.china-leadership-5
+        when: May 15
+        date: '1966-05-15'
+        thread: china-leadership
+        c: Zhu De 朱德 meets the Korean trade union delegation led by 金国三, head of the organization department of the Central Committee of the General Federation of Trade Unions of Korea 朝鲜职业总同盟中央委员会.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1953. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:dprk', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-05-19.china-leadership-7
+        when: May 19
+        date: '1966-05-19'
+        thread: china-leadership
+        c: Zhu De 朱德 meets Matsumura Kenzō 松村谦三, adviser of Japan's Liberal Democratic Party 日本自由民主党, and his party.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1953. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:japan', 'name:zhu-de']
+  - cite: {id: cal.1966-05-28.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1953 (May 28, 1966; the Center''s 中共中央 notice on the list of the Central Cultural Revolution Group 《关于中央文化革命小组名单的通知》, set up under the Politburo Standing Committee 中央政治局常委: Chen Boda 陈伯达 head, Kang Sheng 康生 adviser, Jiang Qing 江青, Zhang Chunqiao 张春桥 and others deputy heads, Wang Li 王力, Guan Feng 关锋, Qi Benyu 戚本禹, Yao Wenyuan 姚文元 and others members)'}
+  - add:
+      entry:
+        id: cal.1966-05-31.china-leadership-5
+        when: May 31
+        date: '1966-05-31'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. With Mao Zedong's 毛泽东 consent Chen Boda 陈伯达 leads a work team 工作组 to take over the *Renmin ribao* 《人民日报》.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1953. Made public: 2016. Names: Chen Boda, Mao Zedong.'
+        tags: ['polity:prc', 'name:chen-boda', 'name:mao-zedong', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-06-01.china-leadership-17
+        when: June 1
+        date: '1966-06-01'
+        thread: china-leadership
+        c: Zhu De 朱德 meets Aurel Duma 奥列尔·杜马, Romania's 罗马尼亚 new Ambassador to China. In the talk he tells him of the lines and policies of China's economic construction.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1953. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:romania', 'name:zhu-de', 'vis:only:prc+romania@B']
+  - cite: {id: cal.1966-06-02.china-leadership-7, item: '[[w.zhu-de-nianpu-xinbian]], III, 1953–1954 (June 2, 1966; the *Renmin ribao* 《人民日报》 prints the wall poster of Nie Yuanzi 聂元梓 and others at Peking University 北京大学 attacking the university''s Party committee and the Peking municipal committee 中共北京市委, with a commentator''s article, "Hail Peking University''s wall poster" 《欢呼北大的一张大字报》, calling it "the first Marxist wall poster")'}
+  - cite: {id: cal.1966-06-04.china-leadership-7, item: '[[w.zhu-de-nianpu-xinbian]], III, 1954 (June 4, 1966; the *Renmin ribao* 《人民日报》 prints the Center''s 中共中央 decision to reorganize the Peking municipal committee 中共北京市委 and the new committee''s decision to reorganize Peking University''s Party committee and send in a work team 工作组)'}
+  - add:
+      entry:
+        id: cal.1966-06-05.china-leadership-9
+        when: June 5
+        date: '1966-06-05'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. The *Renmin ribao* 《人民日报》 prints "Be proletarian revolutionaries, or bourgeois royalists?" 《做无产阶级革命派，还是做资产阶级保皇派？》, calling on the masses in culture and education to rise and fight the bourgeois "royalists." The nianpu: after it some young students in many places rise to "rebel."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1954.'
+        tags: ['polity:prc']
+  - cite: {id: cal.1966-06-10.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1954 (June 10, 1966; Mao Zedong 毛泽东, at Hangzhou 杭州, talks with Hồ Chí Minh 胡志明: revisionism has appeared in China too; Peng Zhen 彭真, Luo Ruiqing 罗瑞卿, Lu Dingyi 陆定一 and Yang Shangkun 杨尚昆 are friends of his and of Mao''s; Peking was an independent kingdom no one could question; this time hundreds or thousands, great and small, may be brought down, in learning, education, the press, publishing, literature and art, and the universities and schools)'}
+  - cite: {id: cal.1966-06-11.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1954 (June 11, 1966; Zhu De 朱德, with Bo Yibo 薄一波 and others, at the reception of Nepal''s Ambassador for the birthday of King Mahendra 马亨德拉 of the Kingdom of Nepal)'}
+  - add:
+      entry:
+        id: cal.1966-06-12.china-leadership-6
+        when: June 12
+        date: '1966-06-12'
+        thread: china-leadership
+        c: Zhu De 朱德 meets 马丁·比尔巴赫, the new Ambassador of the German Democratic Republic 德意志民主共和国 to China.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1954. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:gdr', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-06-25.china-leadership-8
+        when: June 25
+        date: '1966-06-25'
+        thread: china-leadership
+        c: Zhu De 朱德 meets 吉塞·提迪亚尼, Mali's 马里 new Ambassador to China.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1954. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:mali', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-07-05.china-leadership-8
+        when: July 5
+        date: '1966-07-05'
+        thread: china-leadership
+        c: Zhu De 朱德 meets 欧斯曼·达纳, former minister and deputy of the Republic of Lebanon 黎巴嫩共和国.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1954. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:lebanon', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-07-07.china-leadership-11
+        when: July 7
+        date: '1966-07-07'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 presides over the thirty-third meeting of the Third NPC Standing Committee 第三届全国人大常委会, which decides to put off the Third NPC's 第三届全国人大 second session to a later date.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1954. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1966-07-09.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1954 (July 9, 1966; Zhu De 朱德 meets the writers of many countries at the Afro-Asian Writers'' Emergency Meeting 亚非作家紧急会议)'}
+  - add:
+      entry:
+        id: cal.1966-07-16.china-leadership-5
+        when: July 16
+        date: '1966-07-16'
+        thread: china-leadership
+        c: Zhu De 朱德, with Wu Xiuquan 伍修权, at Bo Yibo's 薄一波 banquet seeing off the delegation of Romania's 罗马尼亚 party workers.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1954. Names: Zhu De, Bo Yibo.'
+        tags: ['polity:prc', 'polity:romania', 'name:zhu-de', 'name:bo-yibo']
+  - cite: {id: cal.1966-07-18.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1955 (July 18, 1966; Mao Zedong 毛泽东 returns to Peking 北京 from Wuhan 武汉)'}
+  - add:
+      entry:
+        id: cal.1966-07-19.china-leadership-7
+        when: July 19
+        date: '1966-07-19'
+        thread: china-leadership
+        c: Zhu De 朱德 meets Sultan Mohammad Khan 苏尔坦·穆罕默德·汗, Pakistan's 巴基斯坦 new Ambassador to China.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1955. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:pakistan', 'name:zhu-de']
+  - cite: {id: cal.1966-07-20.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1955 (July 20, 1966; Zhu De 朱德 at a meeting at Mao Zedong''s 毛泽东)'}
+  - cite: {id: cal.1966-07-22.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1955 (July 22, 1966; Zhu De 朱德, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, at the rally of a million of the capital in Tiananmen Square 天安门广场 in support of the Vietnamese people''s struggle against America to save their country)'}
+  - cite: {id: cal.1966-07-22.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1955 (July 22, 1966; Zhu De 朱德 cables Trường Chinh 长征, chairman of the Standing Committee of the DRV''s National Assembly 越南民主共和国国会常务委员会, in support of the just stand of President Hồ Chí Minh''s 胡志明 "Appeal to the compatriots" 《告全国同胞书》 sternly condemning American imperialism''s aggression in Vietnam)'}
+  - cite: {id: cal.1966-07-26.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1955 (July 26, 1966; the enlarged Politburo meeting 中共中央政治局扩大会议 decides to withdraw the work teams 工作组 sent to lead the movement in the colleges)'}
+  - cite: {id: cal.1966-07-27.china-leadership-7, item: '[[w.zhu-de-nianpu-xinbian]], III, 1955 (July 27–31, 1966; Zhu De 朱德 at the preparatory meeting for the Eleventh Plenum of the Eighth Central Committee 中共八届十一中全会)'}
+  - add:
+      entry:
+        id: cal.1966-07-28.china-leadership-13
+        when: July 28
+        date: '1966-07-28'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德, in the Southwest group 西南小组 of the preparatory meeting for the Eleventh Plenum 八届十一中全会, on the Sixteen Points 十六条: "True gold fears no fire."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1955. Made public: 2016. See [[cal.1966-07-27.china-leadership-7]]. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1966-07-29.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1955 (July 29, 1966; Zhu De 朱德 at the Peking new municipal committee''s 中共北京新市委 meeting of the activists of the Cultural Revolution among the teachers and students of the capital''s colleges and middle schools (the "meeting of ten thousand" 万人大会), which announces the withdrawal of the work teams 工作组; Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others speak and take the blame for sending them, "old revolutionaries meeting a new problem")'}
+  - cite: {id: cal.1966-07-31.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1955 (July 31, 1966; Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, receives the delegations and scientists of thirty-three countries and a regional academic body at the 1966 summer physics colloquium of the Peking Science Symposium 北京科学讨论会)'}
+  - cite: {id: cal.1966-08-01.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1955–1956 (Aug. 1–12, 1966; Zhu De 朱德 at the Eleventh Plenum of the Eighth Central Committee 中共八届十一中全会 in Peking, whose chief business is the decision on the Great Proletarian Cultural Revolution and the approval of the Center''s 中共中央 chief decisions on home and foreign questions since the Tenth Plenum; the nianpu: the plenum marks the full launching of the "Cultural Revolution")'}
+  - cite: {id: cal.1966-08-07.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1955–1956 (Aug. 7, 1966; Mao Zedong''s 毛泽东 "Bombard the Headquarters: My Wall Poster" 《炮打司令部——我的一张大字报》 is distributed at the plenum 八届十一中全会, which then turns to exposing and criticizing Liu Shaoqi 刘少奇)'}
+  - add:
+      entry:
+        id: cal.1966-08.china-leadership-73
+        when: Aug., after the 7th
+        date: 1966-08
+        at: after 1966-08-07
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. At the Eleventh Plenum 八届十一中全会, after Mao Zedong's 毛泽东 wall poster is distributed and the plenum turns on Liu Shaoqi 刘少奇, Zhu De 朱德 and Chen Yun 陈云 are also criticized in varying degree.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1956. Made public: 2016. See [[cal.1966-08-07.china-leadership-5]]. Names: Zhu De, Chen Yun, Liu Shaoqi, Mao Zedong.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:chen-yun', 'name:liu-shaoqi', 'name:mao-zedong', 'vis:only:prc']
+  - cite: {id: cal.1966-08-08.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1956 (Aug. 8, 1966; the plenum 八届十一中全会 adopts the Central Committee''s "Decision on the Great Proletarian Cultural Revolution" 《中国共产党中央委员会关于无产阶级文化大革命的决定》 (the "Sixteen Points" 十六条): "a great revolution that touches people''s souls"; "the movement''s chief target is those within the Party in authority taking the capitalist road")'}
+  - cite: {id: cal.1966-08-12.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1956 (Aug. 12, 1966; on Mao Zedong''s 毛泽东 proposal the plenum 八届十一中全会 reorganizes the Center''s 中共中央 leading bodies and elects Mao, Lin Biao 林彪, Zhou Enlai 周恩来, Tao Zhu 陶铸, Chen Boda 陈伯达, Deng Xiaoping 邓小平, Kang Sheng 康生, Liu Shaoqi 刘少奇, Zhu De 朱德, Li Fuchun 李富春 and Chen Yun 陈云 to the Politburo Standing Committee 中央政治局常委, four more than the seven before, Lin Biao second and Zhu De down to ninth; no chairman or vice-chairmen are elected anew, but thereafter, Lin Biao apart, Liu Shaoqi, Zhou Enlai, Zhu De and Chen Yun no longer act as vice-chairmen of the Center)'}
+  - cite: {id: cal.1966-08-04.china-leadership-7, item: '[[w.zhu-de-nianpu-xinbian]], III, 1956 (Aug. 4, 1966; Zhu De 朱德 speaks at the meeting of ten thousand at Peking University 北京大学万人大会: the youth of the Mao Zedong era are stronger in thought and deed than the youth of any age before; after school they should take any work, the work of workers, peasants and soldiers)'}
+  - add:
+      entry:
+        id: cal.1966-08-07.china-leadership-11
+        when: Aug. 7
+        date: '1966-08-07'
+        time_range: ['1966-08-06T22:00Z', '1966-08-07T04:00Z']
+        time_band: morning
+        time_zone: Asia/Shanghai
+        place: peking
+        thread: china-leadership
+        c: The capital's airport 首都机场, Peking 北京. Zhu De 朱德, with his wife Kang Keqing 康克清 and others, welcomes Abdul Jabbar Khan 阿卜杜勒·贾巴尔·汗, Speaker of Pakistan's National Assembly 巴基斯坦国民议会, his wife and the parliamentary delegation he leads.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1956. The words: 上午，与夫人康克清等到首都机场迎接 (1956). Names: Zhu De.'
+        tags: ['polity:prc', 'polity:pakistan', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-08-07.china-leadership-12
+        when: Aug. 7
+        date: '1966-08-07'
+        time_range: ['1966-08-07T04:00Z', '1966-08-07T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 meets and gives a banquet for the Pakistani delegation and speaks: the two countries have settled smoothly the border question history left them; their friendship accords with the basic interests of both peoples.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1956. The words: 下午，会见并宴请巴基斯坦访华代表团 (1956). Names: Zhu De.'
+        tags: ['polity:prc', 'polity:pakistan', 'name:zhu-de']
+  - cite: {id: cal.1966-08-13.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1956 (Aug. 13, 1966; Zhu De 朱德 at the Central Work Conference 中共中央工作会议 Lin Biao 林彪 presides over)'}
+  - cite: {id: cal.1966-08-18.india-and-china-cultural-revolution, item: '[[w.zhu-de-nianpu-xinbian]], III, 1956 (Aug. 18, 1966; Zhu De 朱德 at the rally of a million of the capital in Tiananmen Square 天安门广场 celebrating the Great Proletarian Cultural Revolution; Mao Zedong 毛泽东 receives for the first time the Red Guards, students and teachers from all over the country; after it students everywhere go on the "great revolutionary exchanges" 革命大串连)'}
+  - cite: {id: cal.1966-08-20.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1956 (Aug. 20, 1966; the Red Guards of Peking and the big cities take to the streets to sweep away the "four olds" 四旧, seizing and struggling "ox-demons and snake-spirits" 牛鬼蛇神 at will)'}
+  - add:
+      entry:
+        id: cal.1966-08-28.china-leadership-12
+        when: Aug. 28
+        date: '1966-08-28'
+        thread: china-leadership
+        c: Zhu De 朱德 meets and gives a banquet for Mouyabi 穆亚比·安德烈·乔治, Speaker of the National Assembly of the Republic of the Congo (Brazzaville) 刚果共和国（布）国民议会, his wife and the parliamentary delegation he leads.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1957. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:congo-brazzaville', 'ok:fields-place', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-08-29.china-leadership-15
+        when: Aug. 29
+        date: '1966-08-29'
+        thread: china-leadership
+        c: Zhu De 朱德, on a Standing Committee 常委 member's proposal at the enlarged Politburo 中共中央政治局扩大会议 that reading notes be written, revises his "notes and thoughts on reading" 读书纪要和感想.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1957. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1966-08-31.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1957 (Aug. 31, 1966; Zhu De 朱德 at Mao Zedong''s 毛泽东 second reception in Tiananmen Square 天安门广场 of more than 500,000 Red Guards, teachers and students from all over the country)'}
+  - add:
+      entry:
+        id: cal.1966-09-04.china-leadership-3
+        when: Sept. 4
+        date: '1966-09-04'
+        place: peking
+        thread: china-leadership
+        c: The capital's airport 首都机场, Peking 北京. Zhu De 朱德 sees off the parliamentary delegation of the Congo (Brazzaville) 刚果（布）, leaving Peking for other parts.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1957. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:congo-brazzaville', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-09-04.china-leadership-4
+        when: Sept. 4
+        date: '1966-09-04'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 receives Bashir Sadiq 萨迪克, Syria's 叙利亚 new Ambassador to China.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1957. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:syria', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-09-08.china-leadership-10
+        when: Sept. 8
+        date: '1966-09-08'
+        thread: china-leadership
+        c: Zhu De 朱德 meets and gives a banquet for 穆罕默德·侯赛因, Speaker of Somalia's National Assembly 索马里国民议会, and the Assembly's friendship delegation he leads.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1957. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:somalia', 'name:zhu-de']
+  - cite: {id: cal.1966-09-09.china-leadership-6, item: '[[w.zhu-de-nianpu-xinbian]], III, 1957 (Sept. 9, 1966; Zhu De 朱德, with Chen Yi 陈毅, Li Xiannian 李先念 and others, at the reception of Kim Jae-suk 金在淑, the DPRK''s chargé d''affaires, for the eighteenth anniversary of the Democratic People''s Republic of Korea)'}
+  - add:
+      entry:
+        id: cal.1966-09-10.china-leadership-5
+        when: Sept. 10
+        date: '1966-09-10'
+        time_range: ['1966-09-10T11:00Z', '1966-09-10T14:00Z']
+        time_band: evening
+        time_zone: Asia/Shanghai
+        thread: china-leadership
+        c: Zhu De 朱德 goes with the Somali National Assembly's friendship delegation to the dance drama *The Congo River Is Roaring* 《刚果河在怒吼》.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1957. The words: 晚，陪同索马里国民议会友好代表团观看舞剧《刚果河在怒吼》 (1957). Names: Zhu De.'
+        tags: ['polity:prc', 'polity:somalia', 'ok:fields-place', 'name:zhu-de']
+  - cite: {id: cal.1966-09-15.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1957 (Sept. 15, 1966; Zhu De 朱德 at Mao Zedong''s 毛泽东 third reception in Tiananmen Square 天安门广场 of a million Red Guards, teachers and students from all over the country)'}
+  - cite: {id: cal.1966-09-30.china-leadership-6, item: '[[w.zhu-de-nianpu-xinbian]], III, 1957 (Sept. 30, 1966; Zhu De 朱德 at Zhou Enlai''s 周恩来 reception in the banquet hall of the Great Hall of the People 人民大会堂 for the seventeenth anniversary of the People''s Republic)'}
+  - cite: {id: cal.1966-10-01.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1957 (Oct. 1, 1966; Zhu De 朱德 at the rally and parade of 1,500,000 of the capital and from all over the country in Tiananmen Square 天安门广场 for the seventeenth anniversary of the People''s Republic)'}
+  - add:
+      entry:
+        id: cal.1966-10-01.china-leadership-12
+        when: Oct. 1
+        date: '1966-10-01'
+        place: peking
+        thread: china-leadership
+        c: 'The Tiananmen tower 天安门城楼, Peking 北京. Zhu De 朱德 receives the National Day delegates from Yilong county 仪陇县, Sichuan 四川省, and Liu Guangyou 刘光友, mother of Zhang Side 张思德, and tells her: Comrade Zhang Side died for the people''s good; you are a hero''s mother, come to the people''s capital, and should be welcomed. The nianpu''s note: Zhang Side, of Yilong, a soldier of the Center''s guard regiment 中共中央警卫团 and a member of the Communist Party 共产党, joined the revolution in 1932 and died on Sept. 5, 1944, when a charcoal kiln fell in at Ansai county 安塞县, northern Shaanxi 陕北.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1957–1958. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1966-10-02.china-leadership-8
+        when: Oct. 2
+        date: '1966-10-02'
+        thread: china-leadership
+        c: Zhu De 朱德 has Liu Guangyou 刘光友 brought to his home, talks with her at length and gives her a meal of their home district's food.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1958. Made public: 2016. See [[cal.1966-10-01.china-leadership-12]]. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1966-10-01.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1958 (under Oct. 1, 1966; the *Hongqi* 《红旗》, issue 13, prints the editorial "Advance on the broad road of Mao Zedong Thought" 《在毛泽东思想的大路上前进》, calling for "thorough criticism" of the "bourgeois reactionary line" 资产阶级反动路线; after it the criticism of the "bourgeois reactionary line" begins all over the country)'}
+  - add:
+      entry:
+        id: cal.1966-10-03.china-leadership-9
+        when: Oct. 3
+        date: '1966-10-03'
+        place: peking
+        thread: china-leadership
+        c: The capital's airport 首都机场, Peking 北京. Zhu De 朱德 sees off the Somali National Assembly's friendship delegation 索马里国民议会友好代表团, leaving Peking for a visit to Korea 朝鲜.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1958. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:somalia', 'name:zhu-de']
+  - cite: {id: cal.1966-10-09.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1958 (Oct. 9–28, 1966; Zhu De 朱德 at the Central Work Conference 中共中央工作会议 Mao Zedong 毛泽东 presides over, its chief business the criticism of the "bourgeois reactionary line" 资产阶级反动路线, to clear further the so-called "resistance" of the Party''s cadres at every level)'}
+  - add:
+      entry:
+        id: cal.1966-10-17.china-leadership-5
+        when: Oct. 17
+        date: '1966-10-17'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 speaks in the sixth group of the Central Work Conference 中央工作会议: in the Cultural Revolution 文化大革命 mind to "grasp revolution, promote production" 抓革命，促生产; this is the first year of the Third Five-Year Plan 第三个五年计划, and industry and farming should grow by a wide margin.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1958. Made public: 2016. See [[cal.1966-10-09.china-leadership]]. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1966-10-25.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1958 (Oct. 9–28, 1966, the day not given; Lin Biao 林彪, speaking at the conference, again attacks Zhu De 朱德, distorting history)'}
+  - cite: {id: cal.1966-10-18.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1958 (Oct. 18, 1966; Zhu De 朱德 in Tiananmen Square 天安门广场 at Mao Zedong''s 毛泽东 fifth reception of more than 1,500,000 Red Guards, teachers and students from all over the country)'}
+  - cite: {id: cal.1966-11-03.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1958 (Nov. 3, 1966; Zhu De 朱德 in Tiananmen Square 天安门广场 at Mao Zedong''s 毛泽东 sixth reception of the Red Guards, teachers and students from all over the country)'}
+  - cite: {id: cal.1966-11-10.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1958 (Nov. 10–11, 1966; Zhu De 朱德 in Tiananmen Square 天安门广场 at Mao Zedong''s 毛泽东 seventh reception of more than two million Red Guards, teachers and students from all over the country)'}
+  - cite: {id: cal.1966-11-12.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1958 (Nov. 12, 1966; Zhu De 朱德 at the meeting of the capital marking the centenary of Sun Yat-sen''s 孙中山 birth)'}
+  - cite: {id: cal.1966-11-25.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1958 (Nov. 25–26, 1966; Zhu De 朱德 in Tiananmen Square 天安门广场 at Mao Zedong''s 毛泽东 eighth reception of 2,500,000 Red Guards, teachers and students from all over the country)'}
+  - cite: {id: cal.1966-12-04.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1958 (Dec. 4–6, 1966; Zhu De 朱德 at the enlarged Politburo meeting 中共中央政治局扩大会议 in Peking 北京, which takes up the Center''s 中共中央 "Ten provisions on grasping revolution and promoting production (draft)" 《中共中央关于抓革命、促生产的十条规定（草案）》)'}
+  - add:
+      entry:
+        id: cal.1966-12-06.china-leadership-11
+        when: Dec. 6
+        date: '1966-12-06'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 speaks at the enlarged Politburo meeting 中共中央政治局扩大会议: the masses have risen; he is somewhat afraid of disorder, above all of disorder in production.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1958. Made public: 2016. See [[cal.1966-12-04.china-leadership]]. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-12-10.china-leadership-3
+        when: Dec. 10
+        date: '1966-12-10'
+        thread: china-leadership
+        c: Zhu De 朱德 writes in his notebook of Mao Zedong's 毛泽东 achievements and the history of the Chinese Communist Party 中国共产党.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1959. Made public: 2016. Names: Zhu De, Mao Zedong.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - cite: {id: cal.1966-12-12.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1959 (Dec. 12, 1966; Zhu De 朱德 at the Peking Hospital 北京医院 to take leave of the body of Wu Yuzhang 吴玉章; the nianpu''s note: Wu Yuzhang died in Peking on Dec. 12, "1967" (so printed), a member of the Central Committee and of the NPC Standing Committee 全国人大常委会 and president of the Chinese People''s University 中国人民大学)'}
+  - cite: {id: cal.1966-12-14.china-leadership-6, item: '[[w.zhu-de-nianpu-xinbian]], III, 1959 (Dec. 14, 1966; Zhu De 朱德 at the memorial meeting for Wu Yuzhang 吴玉章)'}
+  - cite: {id: cal.1966-12-15.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1959 (Dec. 15, 1966; Zhu De 朱德 at the enlarged Politburo meeting 中共中央政治局扩大会议 in Peking 北京, which draws up the Center''s 中共中央 "Directive on the Great Proletarian Cultural Revolution in the countryside (draft)" 《中共中央关于农村无产阶级文化大革命的指示（草案）》, reversing the Center''s decision that factories and the countryside in principle not carry on the "Cultural Revolution")'}
+  - add:
+      entry:
+        id: cal.1966-12-15.china-leadership-7
+        when: Dec. 15
+        date: '1966-12-15'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 speaks at the enlarged Politburo meeting 中共中央政治局扩大会议: there is now a problem of branding this man and that a counter-revolutionary; unless a man is a counter-revolutionary, his error, however grave, can be put right; once branded he has no way out; this must be settled.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1959. Made public: 2016. See [[cal.1966-12-15.china-leadership-4]]. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-12.china-leadership-31
+        when: Dec.
+        date: 1966-12
+        place: peking
+        thread: china-leadership
+        c: Zhongnanhai 中南海, Peking 北京. At Jiang Qing's 江青 bidding the "rebels" of the Zhongnanhai offices 中南海机关 put up wall posters slandering Zhu De 朱德, shout "Down with Zhu De" and "Bombard Zhu De," and threaten to drive him and his family out of Zhongnanhai. Many of his activities are restricted; he still cares for production and fears its harm.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1959. Made public: 2016. Names: Jiang Qing, Zhu De.'
+        tags: ['polity:prc', 'name:jiang-qing', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-12.china-leadership-32
+        when: Dec.
+        date: 1966-12
+        thread: china-leadership
+        c: Kang Sheng 康生, minuting a bulletin of the International Liaison Department 中联部, slanders Liu Shaoqi 刘少奇, Zhu De 朱德 and others as "men against Mao Zedong Thought."
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1959. Made public: 2016. Names: Kang Sheng, Liu Shaoqi, Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:kang-sheng', 'name:liu-shaoqi', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1967-01-01.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1960 (Jan. 1, 1967; the *Renmin ribao* 《人民日报》 and *Hongqi* 《红旗》 New Year editorial, passed by Mao Zedong 毛泽东, "Carry the Great Proletarian Cultural Revolution through to the end" 《把无产阶级文化大革命进行到底》: 1967 will be "a year of all-round class struggle across the country," "of general attack" on the handful in the Party in authority taking the capitalist road and the ox-demons and snake-spirits in society)'}
+  - cite: {id: cal.1967-01-02.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1960 (Jan. 2, 1967; Zhu De 朱德, with Zhou Enlai 周恩来, Xiao Hua 萧华, Yang Chengwu 杨成武 and others, receives the Romanian army''s song and dance ensemble 罗马尼亚军队歌舞团 and watches its performance)'}
+  - cite: {id: cal.1967-01-06.china-leadership-3, item: '[[w.zhu-de-nianpu-xinbian]], III, 1960 (Jan. 6, 1967; planned and directed by Zhang Chunqiao 张春桥 and Yao Wenyuan 姚文元, Shanghai''s "rebels" under Wang Hongwen 王洪文 seize the power of Shanghai''s Party and government, raising the so-called "January Storm" 一月风暴)'}
+  - cite: {id: cal.1967-01-08.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1960 (Jan. 8, 1967; Mao Zedong 毛泽东 affirms the Shanghai rebels'' seizure of power: "This is a great revolution, a great revolution of one class overthrowing another"; after it the seizure of the leadership at every level of Party and government by "rebels" sweeps the country, and the Cultural Revolution enters the stage of "all-round seizure of power")'}
+  - cite: {id: cal.1967-01-11.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1960 (Jan. 11, 1967; Zhu De 朱德 at the enlarged Politburo meeting 中共中央政治局扩大会议 Lin Biao 林彪 presides over, which adopts the Center''s 中共中央 notice against economism 《中共中央关于反对经济主义的通知》 and other papers and names Xu Xiangqian 徐向前 head of the All-Army Cultural Revolution Group 全军文革小组, Jiang Qing 江青 adviser and Xiao Hua 萧华 and Yang Chengwu 杨成武 deputy heads; Zhu De speaks: the movement has gone so far as to harm production, forgetting "grasp revolution, promote production," a new problem to be solved; armed fighting goes on though long forbidden, even to smashing machines and burning houses, with counter-revolutionaries making trouble among them)'}
+  - variant: {id: cal.1967-01-11.china-leadership-2, unit: B, witness: w.zhu-de-nianpu-xinbian, reads: 'Jan. 11, 1967: an enlarged Politburo meeting, Lin Biao presiding', at: 'III, 1960'}
+  - add:
+      entry:
+        id: cal.1967-01-14.china-leadership-9
+        when: Jan. 14
+        date: '1967-01-14'
+        thread: china-leadership
+        also: [vietnam-hanoi]
+        c: 'Zhu De 朱德, after reading the papers, writes in his notebook: America 美国 sends 100,000 more troops to Vietnam 越南 and adds $12 to $15 billion to the war''s cost, to prepare a long war there; we must strengthen national defense the more.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1961. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1967-01.china-leadership-45
+        when: Jan., late
+        date: 1967-01
+        at: before 1967-01-21
+        place: peking
+        thread: china-leadership
+        c: 'The Chinese People''s University 中国人民大学, Peking 北京. Qi Benyu 戚本禹, for the Central Cultural Revolution Group 中央文革, reads the wall posters and receives the heads of the two factions'' mass organizations: "Sun Yang 孙泱 was Zhu De''s 朱德 secretary; through Sun Yang''s question you can clear up Zhu De''s." The nianpu''s note: Sun Yang, then vice-president of the University, son of the revolutionary martyr Sun Bingwen 孙炳文, once Zhu De''s secretary.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1961. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1967-01.china-leadership-46
+        when: Jan., late
+        date: 1967-01
+        at: before 1967-01-21
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. That evening the mass organizations cover the Chinese People's University 中国人民大学 and the streets and lanes of Peking with great slogans, "Down with Zhu De 朱德," "Zhu De is a great warlord."
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1961. See [[cal.1967-01.china-leadership-45]]. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-time', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1967-01.china-leadership-47
+        when: Jan., late
+        date: 1967-01
+        at: before 1967-01-21
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Nie Yuanzi 聂元梓, head of the Peking University 北京大学 rebels, hearing of Qi Benyu''s 戚本禹 words: "Tsinghua 清华大学 dragged out Liu Shaoqi 刘少奇; this time we must do a big one too." She has the "New Peking University Commune" 新北大公社 and the "Revolutionary Rebel Corps" of the Chinese Writers'' Association 中国作家协会 form a "joint criticism group" 联合批判班子 to concoct articles slandering Zhu De 朱德, in the name of criticizing *Biography of General Zhu De* 《朱德将军传》, the manuscript the writer Liu Baiyu 刘白羽 wrote in the war years.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1961. Made public: 2016. See [[cal.1967-01.china-leadership-45]]. Names: Zhu De, Liu Shaoqi.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:liu-shaoqi', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1967-01.china-leadership-48
+        when: Jan., late
+        date: 1967-01
+        at: before 1967-01-21
+        thread: china-leadership
+        c: 'Mao Zedong 毛泽东, at the Military Commission''s briefing meeting 中共中央军委碰头会: "Zhu De 朱德 must still be protected."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1961. Made public: 2016. Names: Mao Zedong, Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:mao-zedong', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1967-02-02.china-leadership-7
+        when: Feb. 2
+        date: '1967-02-02'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Several rebel bodies of the Chinese People's University 中国人民大学 hold a rally denouncing the "monstrous crimes against the Party, socialism and Mao Zedong Thought of the great warlord and great careerist Zhu De 朱德," then parade through the city. They found a "Seize-Zhu liaison station" 揪朱联络站 of the rebel bodies of a dozen units, whose notice calls on the rebels of the country and of Peking to "drag out the black commander Zhu and struggle him down, struggle him flat, struggle him till he stinks!", and resolve to hold a "rally to criticize and struggle Zhu De" in the Peking Workers' Stadium 北京工人体育场 on Feb. 20.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1961. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1967-02.china-leadership-48
+        when: Feb., before the 20th
+        date: 1967-02
+        at: before 1967-02-20
+        thread: china-leadership
+        c: Zhou Enlai 周恩来 intervenes, and the rally against Zhu De 朱德 set for Feb. 20 is not held. Smaller criticism meetings, "Seize-Zhu" 揪朱 parades, wall posters, great slogans, handbills and tabloids go on in numbers.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1961. Made public: 2016. See [[cal.1967-02-02.china-leadership-7]]. Names: Zhou Enlai, Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhou-enlai', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1967-02.china-leadership-49
+        when: Feb., early
+        date: 1967-02
+        at: before 1967-02-01
+        thread: china-leadership
+        c: The "Seize-Zhu liaison station" 揪朱联络站 sends many men from Peking 北京 across the country to "investigate" Zhu De's 朱德 "problems" through his secretaries, colleagues, kin and friends.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1961–1962. See [[cal.1967-02-02.china-leadership-7]]. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1967-02.china-leadership-50
+        when: Feb., early
+        date: 1967-02
+        at: before 1967-02-01
+        place: yilong
+        thread: china-leadership
+        c: 'Yilong county 仪陇县, Sichuan 四川省, Zhu De''s 朱德 home district. Men of the Chinese People''s University 中国人民大学, as a "Seize-Zhu corps" 揪朱兵团, stir the people against him: a "denunciation" rally in the county cinema; they break into the "exhibition room of Zhu De''s old home" 朱德旧居陈列室 and wreck relics and fittings.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1962. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1967-02.china-leadership-51
+        when: Feb., early
+        date: 1967-02
+        at: before 1967-02-01
+        place: tianjin
+        thread: china-leadership
+        c: Tianjin 天津. Men of the "Seize-Zhu liaison station" 揪朱联络站 raid the home of Zhu Qi 朱琦, Zhu De's 朱德 son, and force his wife Zhao Liping 赵力平 to tell Zhu De's "crimes."
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1962. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1967-02.china-leadership-52
+        when: Feb., early
+        date: 1967-02
+        at: before 1967-02-01
+        thread: china-leadership
+        c: Zhu Qi 朱琦, Zhu De's 朱德 son, is held by the rebels of his own unit.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1962. See [[cal.1967-02.china-leadership-51]]. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1967-02-16.china-leadership-10
+        when: Feb. 16
+        date: '1967-02-16'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The *Xin Beida* 《新北大》, the paper of the Peking University 北京大学 rebels, prints "The self-confession of Zhu De 朱德, great careerist usurping the Party and the army" 《篡党篡军大野心家朱德的自供状》. The paper is printed in more than 500,000 copies and sent all over the country.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1962. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1967-02.china-leadership-53
+        when: Feb., after the 16th
+        date: 1967-02
+        at: after 1967-02-16
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. The *Xin Beida* 《新北大》 puts out "Forger of history, anti-Party careerist: the great plot of *Biography of General Zhu De* exposed again" 《历史的伪造者、反党的野心家——再揭〈朱德将军传〉的大阴谋》.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1962. See [[cal.1967-02-16.china-leadership-10]]. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1967-02-22.china-leadership-6
+        when: Feb. 22
+        date: '1967-02-22'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. The *Hongwei zhanbao* 《红卫战报》 of the Chinese People''s University 中国人民大学 rebels, issue 7, prints a short comment, "Down with Zhu De" 《打倒朱德》: Zhu De 朱德 "has become one of the greatest in authority taking the capitalist road in our Party, a great time bomb planted at Chairman Mao''s side"; with it "Zhu De''s ''three-anti'' words" 《朱德"三反"言论》 and "The ''three-anti'' old hand Zhu De''s crimes are many" 《"三反"老手朱德罪恶累累》.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1962. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1967-02.china-leadership-54
+        when: Feb.
+        date: 1967-02
+        thread: china-leadership
+        c: 'Zhu De 朱德, at his residence, receives Jiang Weiqing 江渭清, first secretary of the Jiangsu provincial committee 中共江苏省委: "Stopping work to make revolution is neither the Chairman''s view nor the Center''s; it is the rebels who would have it so, and they punish people very harshly." He urges him: "Be patient; bear a moment''s anger and spare a hundred days'' grief; without patience a small matter grows big."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1962. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1967-02.china-leadership-55
+        when: Feb.
+        date: 1967-02
+        thread: china-leadership
+        c: 'Zhu De 朱德 to his wife Kang Keqing 康克清, struggled by the rebels in the offices of the All-China Women''s Federation 全国妇联: "Do not fear their struggle meetings; go to the office every day. The masses are reasonable; be with them, and they will not struggle you every day."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1962. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1967-02-25.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1963 (Feb.–Mar. 1967; the Center 中共中央 meets many times to criticize the so-called "February adverse current" 二月逆流; Zhu De 朱德 too is wrongly criticized; after it the Politburo 中共中央政治局 in effect stops working, replaced by the Central Cultural Revolution Group 中央文革小组)'}
+  - cite: {id: cal.1967-02-16.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1963 (the nianpu''s note: at the Politburo briefing meetings 中共中央政治局碰头会 Zhou Enlai 周恩来 presides over, Feb. 11–16, 1967, Tan Zhenlin 谭震林, Chen Yi 陈毅, Ye Jianying 叶剑英, Li Fuchun 李富春, Li Xiannian 李先念, Xu Xiangqian 徐向前, Nie Rongzhen 聂荣臻 and others fight back against Lin Biao''s 林彪 and Jiang Qing''s 江青 persecution of old cadres and disordering of Party and army, their views coming to one point, whether the Party''s leadership is still wanted; their resistance is slandered as the "February adverse current")'}
+  - add:
+      entry:
+        id: cal.1967-03-04.china-leadership-2
+        when: Mar. 4
+        date: '1967-03-04'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Qi Benyu 戚本禹 calls the delegates of the rebels of the Chinese People''s University 中国人民大学 and urges them on against Zhu De 朱德: "Do it yourselves and it will be done. Say I told you to, and it will not. You think yourselves clever; in fact you are the stupidest. Whether to do it, think it over yourselves."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1963. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1967-03.china-leadership-44, item: '[[w.zhu-de-nianpu-xinbian]], III, 1963 (Mar. 1967; the Center''s General Office 中共中央办公厅 stops sending Zhu De 朱德, Chen Yun 陈云 and Li Fuchun 李富春 documents, Xinhua''s *Cankao ziliao* 《参考资料》 and *Cankao xiaoxi* 《参考消息》, and the papers other than the *Renmin ribao* 《人民日报》)'}
+  - cite: {id: cal.1967-05-01.china-leadership-3, item: '[[w.zhu-de-nianpu-xinbian]], III, 1963 (May 1, 1967; Zhu De 朱德 at the capital''s evening gala for May Day in Tiananmen Square 天安门广场)'}
+  - add:
+      entry:
+        id: cal.1967-07-01.china-leadership-4
+        when: July 1
+        date: '1967-07-01'
+        thread: china-leadership
+        c: Zhu De 朱德 writes in his notebook a short account of the forty-six years of the Chinese Communist Party's 中国共产党 history.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1963. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1967-07-31.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1963 (July 31, 1967; before the reception Lin Biao 林彪, Jiang Qing 江青 and others oppose Xu Xiangqian 徐向前, Nie Rongzhen 聂荣臻 and Ye Jianying 叶剑英 attending; Zhou Enlai 周恩来 asks Mao Zedong 毛泽东, away from Peking, who answers that Zhu De 朱德, Xu Xiangqian and the other old marshals under attack are all to attend)'}
+  - cite: {id: cal.1967-07-31.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1963 (July 31, 1967; Zhu De 朱德 at the Ministry of National Defense''s 国防部 reception for the fortieth anniversary of the PLA 中国人民解放军)'}
+  - add:
+      entry:
+        id: cal.1967-08-17.china-leadership-5
+        when: Aug. 17
+        date: '1967-08-17'
+        thread: china-leadership
+        c: The Military Commission's Administrative Group 中共中央军委办事组 is made up of Wu Faxian 吴法宪, Ye Qun 叶群, Qiu Huizuo 邱会作 and Zhang Xiuchuan 张秀川, Wu Faxian in charge, chiefly to run the Cultural Revolution 文化大革命 in the forces stationed in Peking 北京 and their organs.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1963–1964. Made public: 2016. Names: Wu Faxian, Ye Qun, Qiu Huizuo.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:wu-faxian', 'name:ye-qun', 'name:qiu-huizuo', 'vis:only:prc']
+  - cite: {id: cal.1967-09.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1964 (under Aug. 17, 1967: on Sept. 24 Yang Chengwu 杨成武 is added as head of the Military Commission''s Administrative Group 中共中央军委办事组, Wu Faxian 吴法宪 deputy head)'}
+  - variant: {id: cal.1967-09.china-leadership, unit: A, witness: w.zhu-de-nianpu-xinbian, reads: 'Sept. 24, 1967: Yang Chengwu is added as head of the Military Commission''s Administrative Group, Wu Faxian deputy head', at: 'III, 1964'}
+  - cite: {id: cal.1967-10-01.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1964 (Oct. 1, 1967; Zhu De 朱德 at the capital''s rally in Tiananmen Square 天安门广场 for the eighteenth anniversary of the People''s Republic, reviewing the parade)'}
+  - add:
+      entry:
+        id: cal.1967-11-17.china-leadership-2
+        when: Nov. 17
+        date: '1967-11-17'
+        thread: china-leadership
+        c: 'Zhu De 朱德 writes an answer to the inquiry of the Artillery''s organs 炮兵直属机关 into Ouyang Yi 欧阳毅, the Artillery''s deputy political commissar, in the Fourth Front Army 红四方面军: throughout his work there Ouyang Yi stood with the Center 党中央 headed by Chairman Mao against Zhang Guotao''s 张国焘 line; to control the Fifth Army Group 五军团 Zhang sent his confidant Huang Chao 黄超 to take Ouyang Yi''s place as head of its security bureau; Zhang, "a base opportunist," charged comrades loyal to Chairman Mao and the Center with "treason," hid murders as "missing" and set soldiers fighting one another; the three matters Ouyang Yi names are all true, "the third I handled myself."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1964. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1967-11.china-leadership-15
+        when: Nov.–Dec.
+        date: 1967-11
+        thread: china-leadership
+        c: Zhu De 朱德 studies Engels's *Dialectics of Nature* 《自然辩证法》, Lenin's *Philosophical Notebooks* 《哲学笔记》 and other works, and takes notes.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1964. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1967-12-30.china-leadership-3
+        when: Dec. 30
+        date: '1967-12-30'
+        thread: china-leadership
+        c: 'Zhu De 朱德 writes to Mao Zedong 毛泽东: this year he has not gone into the great wind and waves to wash away all his past errors and faults, but has only read with a whole heart the revolutionary books of Marx, Engels, Lenin, Stalin and Mao, and the papers, to make up for past wrongs.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1964. Made public: 2016. Names: Zhu De, Mao Zedong.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1967.china-leadership-153
+        when: '1967'
+        date: '1967'
+        thread: china-leadership
+        c: 'As the nianpu reports it, of 1967: Zhu De''s 朱德 position is very hard; some no longer dare come near him; his children are barred from his home in Zhongnanhai 中南海.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1964. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'form:state', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1967.china-leadership-154
+        when: '1967'
+        date: '1967'
+        thread: china-leadership
+        c: One or two who once worked at Zhu De's 朱德 side write wall posters and false "exposures" against him.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1964. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1967.china-leadership-155
+        when: '1967'
+        date: '1967'
+        thread: china-leadership
+        c: Kang Keqing 康克清, Zhu De's 朱德 wife, is put under control by the rebels of the All-China Women's Federation 全国妇联, paraded through the streets and struggled.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1964. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1967.china-leadership-156
+        when: '1967'
+        date: '1967'
+        thread: china-leadership
+        c: 'As the nianpu reports it, of 1967: Zhu De 朱德 goes every week to see factories and villages: "I go out only from care for production. Seeing the crops grow, seeing the trees grow, seeing the masses, my heart finds a kind of comfort."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1964. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'form:state', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1967-10.china-leadership-11
+        when: Oct.
+        date: 1967-10
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. A counter-revolutionary leaflet case, the leaflets signed "Extraordinary Committee of the Communist Party of China's Central Committee" 中共中央非常委员会. The nianpu's note, under Dec. 10–11, 1968.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1967. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1967-11.china-leadership-12, item: '[[w.zhu-de-nianpu-xinbian]], III, 1967 (the nianpu''s note, under Dec. 10–11, 1968: the case of the leaflets of the "Extraordinary Committee of the Communist Party of China''s Central Committee" 中共中央非常委员会 is broken at Tianjin 天津 in November 1967, the culprit, the leaflets'' draft and his tools all taken)'}
+  - cite: {id: cal.1968-03-25.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1965 (Mar. 25, 1968; Lin Biao 林彪 and Jiang Qing 江青 make the "Yang, Yu, Fu" affair 杨、余、傅事件, slandering Yang Chengwu 杨成武, acting chief of the General Staff, Yu Lijin 余立金, political commissar of the Air Force, and Fu Chongbi 傅崇碧, commander of the Peking Garrison 北京卫戍区, as "reversing the verdict on the February adverse current"; the three are removed from their army posts; Huang Yongsheng 黄永胜 is named chief of the General Staff and head of the Military Commission''s Administrative Group, a new group of five formed of Huang Yongsheng, Wu Faxian 吴法宪, Ye Qun 叶群, Li Zuopeng 李作鹏 and Qiu Huizuo 邱会作; after it the group in effect takes the place of the Military Commission''s Standing Committee)'}
+  - cite: {id: cal.1968-03-22.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1965 (printed under Mar. 25, 1968; Yang Chengwu 杨成武, Yu Lijin 余立金 and Fu Chongbi 傅崇碧 are removed from their posts in the army)'}
+  - add:
+      entry:
+        id: cal.1968-04-12.china-leadership
+        when: Apr. 12
+        date: '1968-04-12'
+        thread: china-leadership
+        c: Zhu De 朱德 finishes studying the conclusion of the *History of the Communist Party of the Soviet Union (Bolsheviks)* 《联共党史》 and takes notes.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1965. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1968-04-28.china-leadership-2
+        when: Apr. 28
+        date: '1968-04-28'
+        thread: china-leadership
+        c: Xie Fuzhi 谢富治, with Chen Boda 陈伯达 and Wu Faxian 吴法宪, receives the members of the leading group of the Ministry of Public Security 公安部, using the broken leaflet case of the "Extraordinary Committee" 非常委员会 to seek its "backers." The nianpu's note, under Dec. 10–11, 1968.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1967. Made public: 2016. Names: Xie Fuzhi, Chen Boda, Wu Faxian.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:xie-fuzhi', 'name:chen-boda', 'name:wu-faxian', 'vis:only:prc']
+  - cite: {id: cal.1968-05-01.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1965 (May 1, 1968; Zhu De 朱德 at the capital''s May Day evening gala in Tiananmen Square 天安门广场)'}
+  - cite: {id: cal.1968-07-01.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1965 (July 1, 1968; Zhu De 朱德 at the arts evening for the forty-seventh anniversary of the Party: the piano-accompanied singing of *The Red Lantern* 《红灯记》 and the symphonic music *Shajiabang* 《沙家浜》)'}
+  - add:
+      entry:
+        id: cal.1968-07-21.china-leadership-7
+        when: July 21
+        date: '1968-07-21'
+        thread: china-leadership
+        c: 'Kang Sheng 康生, to prepare the personnel of the Ninth Congress 中共九大, writes to Jiang Qing 江青, with a list in his own hand sorting and labeling the Eighth Central Committee''s 八届中央委员会 members and alternates: Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平 and 87 others are "spies," "traitors," "men with illicit foreign ties," "anti-Party elements"; Zhu De 朱德, Chen Yun 陈云 and 27 others are among those "with errors or historical questions to be examined." The two together are 61 percent of the members and alternates.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1965. Made public: 2016. Names: Kang Sheng, Jiang Qing, Liu Shaoqi, Deng Xiaoping, Zhu De, Chen Yun.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:kang-sheng', 'name:jiang-qing', 'name:liu-shaoqi', 'name:deng-xiaoping', 'name:zhu-de', 'name:chen-yun', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1968-08-19.china-leadership-3
+        when: Aug. 19
+        date: '1968-08-19'
+        thread: china-leadership
+        c: 'Xie Fuzhi 谢富治, with Chen Boda 陈伯达 and Wu Faxian 吴法宪, receives the leading group of the Ministry of Public Security 公安部 again: "Breaking the case is the starting point, not the end"; "the key is that the root has not been found; the root is men of the black headquarters of Liu and Deng, the work of certain black generals of the ''February adverse current'' 二月逆流"; the "backers" are to be dragged out. The nianpu''s note, under Dec. 10–11, 1968.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1967. Made public: 2016. See [[cal.1968-04-28.china-leadership-2]]. Names: Xie Fuzhi, Chen Boda, Wu Faxian.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:xie-fuzhi', 'name:chen-boda', 'name:wu-faxian', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1968-08-27.china-leadership-3
+        when: Aug. 27
+        date: '1968-08-27'
+        thread: china-leadership
+        c: 'The Center''s Organization Department 中共中央组织部 reports to Kang Sheng 康生 on the political standing of the members of the Third NPC Standing Committee 第三届全国人大常委会: of its 115 members ten, among them Zhu De 朱德, Zhang Yunyi 张云逸, Wang Weizhou 王维舟, Hu Qiaomu 胡乔木, Ye Jianying 叶剑英, Xu Xiangqian 徐向前 and Xiao Jinguang 萧劲光, have "grave errors, not yet characterized."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1965–1966. Made public: 2016. Names: Kang Sheng, Zhu De, Ye Jianying, Xu Xiangqian.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:kang-sheng', 'name:zhu-de', 'name:ye-jianying', 'name:xu-xiangqian', 'vis:only:prc']
+  - cite: {id: cal.1968-10-01.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1966 (Oct. 1, 1968; Zhu De 朱德 at the capital''s rally in Tiananmen Square 天安门广场 for the nineteenth anniversary of the People''s Republic, reviewing the parade)'}
+  - cite: {id: cal.1968-10-13.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1966 (Oct. 13–31, 1968; Zhu De 朱德 at the enlarged Twelfth Plenum of the Eighth Central Committee 中共扩大的八届十二中全会 in Peking, Mao Zedong 毛泽东 presiding; in most abnormal conditions it adopts the "Report on the examination of the crimes of the traitor, hidden enemy and scab Liu Shaoqi" 《关于叛徒、内奸、工贼刘少奇罪行的审查报告》, written by Jiang Qing 江青, Kang Sheng 康生 and others on false evidence, expels Liu Shaoqi 刘少奇 from the Party forever and strips him of all posts, and decides to convene the Ninth Congress 中共九大)'}
+  - add:
+      entry:
+        id: cal.1968-10-15.china-leadership-4
+        when: Oct. 15
+        date: '1968-10-15'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. In a group of the Twelfth Plenum 八届十二中全会, while Zhang Chunqiao 张春桥, Wu Faxian 吴法宪, Xie Fuzhi 谢富治 and others besiege Chen Yi 陈毅, Ye Jianying 叶剑英, Li Fuchun 李富春, Tan Zhenlin 谭震林, Li Xiannian 李先念, Xu Xiangqian 徐向前 and Nie Rongzhen 聂荣臻 of the so-called "February adverse current" 二月逆流, Zhu De 朱德 speaks: "Every question must be made clear; for how to deal with it the Chairman has a whole set of policies: strict in criticism, handled by the Chairman''s line. Tan Zhenlin and these marshals, do they truly oppose Chairman Mao?" Wu Faxian at once attacks him: "you have always opposed Chairman Mao and Mao Zedong Thought." Zhu De: "I follow Chairman Mao." Wu Faxian: "From Jinggangshan to now, when did you stand with Chairman Mao? You were commander-in-chief in name; the one who truly commanded us in battle, the true commander-in-chief, was Chairman Mao."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1966. Made public: 2016. See [[cal.1968-10-13.china-leadership]]. Names: Zhu De, Zhang Chunqiao, Wu Faxian, Xie Fuzhi, Chen Yi, Ye Jianying, Li Fuchun, Tan Zhenlin, Li Xiannian, Xu Xiangqian, Nie Rongzhen, Mao Zedong.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:zhang-chunqiao', 'name:wu-faxian', 'name:xie-fuzhi', 'name:chen-yi', 'name:ye-jianying', 'name:li-fuchun', 'name:tan-zhenlin', 'name:li-xiannian', 'name:xu-xiangqian', 'name:nie-rongzhen', 'name:mao-zedong', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1968-10-17.china-leadership-6
+        when: Oct. 17
+        date: '1968-10-17'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Xie Fuzhi 谢富治, in a group of the Twelfth Plenum 八届十二中全会: "Comrade Zhu De 朱德 opposed Chairman Mao from the first day at Jinggangshan 井冈山. Comrade Zhu De and Comrade Chen Yi 陈毅 joined to drive Chairman Mao out of the army; Chen Yi was Zhu De''s chief of staff. All these must be criticized." "Liu and Deng made counter-revolutionary revisionism; Comrade Zhu De and Comrade Chen Yun 陈云 made revisionism too. The ''February adverse current'' 二月逆流 men have not given up." The nianpu''s note: Xie Fuzhi, then alternate member of the Politburo 中共中央政治局 and secretary of the Secretariat 书记处.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1966. Made public: 2016. See [[cal.1968-10-13.china-leadership]]. Names: Xie Fuzhi, Zhu De, Chen Yi, Mao Zedong, Chen Yun.'
+        tags: ['polity:prc', 'name:xie-fuzhi', 'name:zhu-de', 'name:chen-yi', 'name:mao-zedong', 'name:chen-yun', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1968-11-04.china-leadership-3
+        when: Nov. 4–18
+        date: '1968-11-04'
+        thread: china-leadership
+        c: Zhu De 朱德, at home, reads through again 380 of his speeches and papers of 1950 to 1966, examining his words and deeds.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1967. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1968-12-01.china-leadership-2
+        when: Dec. 1
+        date: '1968-12-01'
+        thread: china-leadership
+        c: 'Qiu Huizuo 邱会作, speaking at the tenth (enlarged) plenary of the Third Party Committee of the General Logistics Department 总后勤部党委三届十次全体（扩大）会议, slanders Zhu De 朱德: "very ambitious, wants to be the leader."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1967. Made public: 2016. Names: Qiu Huizuo, Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:qiu-huizuo', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1968-12.china-leadership-13, item: '[[w.zhu-de-nianpu-xinbian]], III, 1967 (Dec. 10–11, 1968; the Ministry of Public Security 公安部, in Xie Fuzhi''s 谢富治 hands, by inducing and forcing those under the "May 16" 五一六 case inquiry, makes up a monstrous false case of a "false party" 伪党, charging some tens of leading cadres of the Center 中共中央 and the localities, Zhu De 朱德, Dong Biwu 董必武, Ye Jianying 叶剑英, Li Xiannian 李先念, Li Fuchun 李富春, Chen Yi 陈毅, He Long 贺龙, Liu Bocheng 刘伯承, Xu Xiangqian 徐向前, Nie Rongzhen 聂荣臻, Tan Zhenlin 谭震林, Yu Qiuli 余秋里 among them, with forming a "Communist Party of China (Marxist-Leninist)" 中国（马列）共产党, "illicit ties with the Soviet revisionists" and "plotting a coup"; Zhu De its "secretary," Chen Yi "deputy secretary and minister of defense," Li Fuchun "premier"; the nianpu''s note: in December 1968 Xie Fuzhi used the inquiry into the so-called "May 16" to trace the backers of the "Extraordinary Committee" case)'}
+  - add:
+      entry:
+        id: cal.1968-12-13.china-leadership-2
+        when: Dec. 13
+        date: '1968-12-13'
+        thread: china-leadership
+        c: 'Xie Fuzhi 谢富治, when the men on the "false party" 伪党 case find it "absurd" and "bizarre": "It cannot all be believed; if it is right, it is a great achievement."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1967. Made public: 2016. See [[cal.1968-12.china-leadership-13]]. Names: Xie Fuzhi.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:xie-fuzhi', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1969-08-21.china-leadership-4
+        when: Aug. 21
+        date: '1969-08-21'
+        thread: china-leadership
+        c: 'Xie Fuzhi 谢富治 to the special case group 专案组 of the "false party" 伪党: "Where no evidence can be found yet, resolve to struggle; the suspects'' confessions count too." The nianpu tells it under Dec. 10–11, 1968.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1967. Made public: 2016. See [[cal.1968-12.china-leadership-13]]. Names: Xie Fuzhi.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:xie-fuzhi', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1969-01-02.china-leadership
+        when: Jan. 2
+        date: '1969-01-02'
+        thread: china-leadership
+        c: Zhu De 朱德 writes in his notebook what he has gained from studying philosophy.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1968. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1969-01-10.china-leadership
+        when: Jan. 10
+        date: '1969-01-10'
+        thread: china-leadership
+        c: Zhu De 朱德 fills in the registration form of a delegate to the Ninth Congress 中共九大.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1968. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1969-03-05.china-leadership-2
+        when: Mar. 5
+        date: '1969-03-05'
+        thread: china-leadership
+        c: Zhu De 朱德 writes in his notebook what he has gained from studying philosophy.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1968. Made public: 2016. See [[cal.1969-01-02.china-leadership]]. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1969-03-09.china-leadership-3
+        when: Mar. 9
+        date: '1969-03-09'
+        thread: china-leadership
+        c: Zhu De 朱德 writes in his notebook what he has gained from studying philosophy.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1968. Made public: 2016. See [[cal.1969-03-05.china-leadership-2]]. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1969-03-31.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1968 (Mar. 31, 1969; Mao Zedong 毛泽东, minuting Zhou Enlai''s 周恩来 request on the forming of the Ninth Congress 中共九大''s presidium: the rostrum at the opening should have Dong Biwu 董必武, Liu Bocheng 刘伯承, Zhu De 朱德 and Chen Yun 陈云)'}
+  - cite: {id: cal.1969-04-01.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1968 (Apr. 1, 1969, "the next day"; Zhou Enlai 周恩来 writes Mao Zedong 毛泽东 and Lin Biao 林彪, proposing twelve men and a list for the rostrum, Dong Biwu 董必武, Liu Bocheng 刘伯承, Zhu De 朱德 and Chen Yun 陈云 among them)'}
+  - cite: {id: cal.1969-04-01.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1968–1969 (Apr. 1–24, 1969; Zhu De 朱德 at the Ninth National Congress of the Chinese Communist Party 中国共产党第九次全国代表大会 in Peking)'}
+  - cite: {id: cal.1969-04-11.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1968 (Apr. 11, 1969; Mao Zedong 毛泽东 calls the Congress secretariat and some conveners of the large groups: mind the tendency to widen the cleansing of the class ranks; elect ten to the Central Committee, Zhu De 朱德, Chen Yun 陈云, Deng Zihui 邓子恢, Zhang Dingcheng 张鼎丞, Ye Jianying 叶剑英, Xu Xiangqian 徐向前, Nie Rongzhen 聂荣臻, Li Fuchun 李富春, Li Xiannian 李先念 and Chen Yi 陈毅)'}
+  - add:
+      entry:
+        id: cal.1969-04-21.china-leadership-2
+        when: Apr. 21
+        date: '1969-04-21'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 speaks at the sixth plenary of the North China group 华北组 of the Ninth Congress 中共九大: he has been with Chairman Mao more than forty years, nearly every day; decades of experience show he did not oppose Chairman Mao; to call him a "three-anti element" 三反分子 does not fit the facts, so he has not admitted it. The nianpu''s note: three-anti, against the Chinese Communist Party, socialism and Mao Zedong Thought.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1968. Made public: 2016. See [[cal.1969-04-01.china-leadership]]. Names: Zhu De, Mao Zedong.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1969-04.china-leadership-28
+        when: Apr., after the 21st
+        date: 1969-04
+        at: after 1969-04-21
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. In the group discussions of the Ninth Congress 中共九大 Zhu De 朱德 is still besieged and told to write a self-criticism.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1968. Made public: 2016. See [[cal.1969-04-21.china-leadership-2]]. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1969-04-22.china-leadership-2
+        when: Apr. 22
+        date: '1969-04-22'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De's 朱德 "My written self-criticism" 《我的书面检讨》 is printed and circulated as a bulletin of the Ninth Congress 中共九大.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1968–1969. Made public: 2016. See [[cal.1969-04.china-leadership-28]]. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1969-04-24.china-leadership-10
+        when: Apr. 24
+        date: '1969-04-24'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Mao Zedong 毛泽东, on the election at the Ninth Congress 中共九大: the difficulty is likely still these ten old comrades; to be elected, Zhu De 朱德, say, cannot make his self-criticism clear; let him not write it, written it will only please people less; he is not to be blamed, he is old, past eighty; "I think it is about enough; watch what he does from now."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1969. Made public: 2016. See [[cal.1969-04-11.china-leadership]]. Names: Mao Zedong, Zhu De.'
+        tags: ['polity:prc', 'name:mao-zedong', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1969-04-24.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1969 (Apr. 24, 1969; Zhu De 朱德 is elected a member of the Central Committee at the Congress)'}
+  - add:
+      entry:
+        id: cal.1969-04.china-leadership-29
+        when: Apr., during the Ninth Congress
+        date: 1969-04
+        at: after 1969-04-01
+        thread: china-leadership
+        c: 'Zhu De 朱德, home during the Ninth Congress 中共九大, to his wife Kang Keqing 康克清: Wu Faxian 吴法宪, Qiu Huizuo 邱会作 and Li Zuopeng 李作鹏 "have all gone ''left'' past saving."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1969. Made public: 2016. Names: Zhu De, Wu Faxian, Qiu Huizuo, Li Zuopeng.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:wu-faxian', 'name:qiu-huizuo', 'name:li-zuopeng', 'vis:only:prc']
+  - cite: {id: cal.1969-04-28.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1969 (Apr. 28, 1969; Zhu De 朱德 at the First Plenum of the Ninth Central Committee 中共九届一中全会 in Peking, and is elected to the Politburo 中央政治局; after the Ninth Congress 中共九大 the Central Cultural Revolution Group 中央文革小组 stops its work)'}
+  - cite: {id: cal.1969-04-28.china-leadership-6, item: '[[w.zhu-de-nianpu-xinbian]], III, 1969 (Apr. 28, 1969; the plenum 九届一中全会 adopts the list of the new Military Commission 中共中央军委: Mao Zedong 毛泽东 chairman; Lin Biao 林彪, Liu Bocheng 刘伯承, Chen Yi 陈毅, Xu Xiangqian 徐向前, Nie Rongzhen 聂荣臻 and Ye Jianying 叶剑英 vice-chairmen)'}
+  - cite: {id: cal.1969-05-01.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1969 (May 1, 1969; Zhu De 朱德 at the capital''s May Day gala in Tiananmen Square 天安门广场)'}
+  - add:
+      entry:
+        id: cal.1969-05-20.china-leadership-3
+        when: May 20
+        date: '1969-05-20'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 inspects the Peking North Suburb timber mill 北京北郊木材厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1969. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1969-05-26.china-leadership-4
+        when: May 26
+        date: '1969-05-26'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 inspects the Peking No. 3 chemical works 北京化工三厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1969. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1969-05-28.china-leadership-3
+        when: May 28
+        date: '1969-05-28'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 inspects the Peking general knitwear mill 北京针织总厂, the Peking February Seventh rolling stock works 北京二七机车车辆厂 and the Nankou rolling stock machinery works 南口机车车辆机械厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1969. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1969-06-07.china-leadership-2
+        when: June 7
+        date: '1969-06-07'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 inspects the Peking Xinhua printing works 北京新华印刷厂 and Tsinghua University 清华大学.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1969. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1969-06-18.china-leadership-2
+        when: June 18
+        date: '1969-06-18'
+        thread: china-leadership
+        c: 'Zhu De 朱德, having seen the "six factories and one school" 六厂一校 of Peking 北京, writes his thoughts in his notebook: for cadres who made the errors of capitalist-roaders, stress "help"; for active counter-revolutionaries, stress only "accuracy," accurate in judgment and in blows, leaving room and not making too many enemies; those who may or may not be, all to count among the people; for historical counter-revolutionaries, look above all at present political conduct. The nianpu''s note: the six factories and one school were Mao Zedong''s 毛泽东 models, whose workers'' and army propaganda teams, military control committees and revolutionary committees showed the way for the country''s "struggle, criticism, reform."'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1969–1970. Made public: 2016. See [[cal.1969-06-07.china-leadership-2]]. Names: Zhu De, Mao Zedong.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - cite: {id: cal.1969-09-30.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1970 (Sept. 30, 1969, evening; Zhu De 朱德 at Zhou Enlai''s 周恩来 reception in the banquet hall of the Great Hall of the People 人民大会堂 for the twentieth anniversary of the People''s Republic)'}
+  - cite: {id: cal.1969-10-01.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1970 (Oct. 1, 1969; Zhu De 朱德 at the capital''s rally in Tiananmen Square 天安门广场 for the twentieth anniversary of the People''s Republic, reviewing the parade)'}
+  - cite: {id: cal.1969-10-17.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1970 (Oct. 17, 1969, afternoon; Zhu De 朱德, as the Center''s General Office 中共中央办公厅 arranges, at the sports display at the Capital Gymnasium 首都体育馆)'}
+  - variant: {id: cal.1969-10-17.china-leadership-4, unit: A, witness: w.zhu-de-nianpu-xinbian, reads: 'Oct. 17, 1969, afternoon: the sports display at the Capital Gymnasium, Zhu De present', at: 'III, 1970'}
+  - cite: {id: cal.1969-10-17.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1970 (Oct. 17, 1969; after the display Zhu De 朱德, with Dong Biwu 董必武, Chen Yun 陈云, Ye Jianying 叶剑英, Chen Yi 陈毅, Deng Zihui 邓子恢, Li Fuchun 李富春, Zhang Dingcheng 张鼎丞 and others, at the meeting Zhou Enlai 周恩来 calls in the gymnasium; Zhou announces the decision of Mao Zedong 毛泽东 and the Center 中共中央 on dispersal for war readiness: on the present situation the Chairman has decided that some comrades leave Peking 北京 for other places by or soon after the 20th, each to the place he names; Zhou to arrange their settling by telephone, the General Office to ready special planes or trains)'}
+  - cite: {id: cal.1969-10-18.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1970 (Oct. 17, 1969; Lin Biao 林彪 issues an "urgent instruction" putting the whole army on emergency war readiness; on the 18th Huang Yongsheng 黄永胜, chief of the General Staff, and others send it down formally as "Vice-Chairman Lin''s Order No. 1" 林副主席第一个号令)'}
+  - variant: {id: cal.1969-10-18.china-leadership, unit: A, witness: w.zhu-de-nianpu-xinbian, reads: 'Oct. 17, 1969: Lin Biao issues his "urgent instruction" on emergency war readiness; Huang Yongsheng and others send it down formally on the 18th', at: 'III, 1970'}
+  - add:
+      entry:
+        id: cal.1969-10-18.china-leadership-9
+        when: Oct. 18
+        date: '1969-10-18'
+        thread: china-leadership
+        c: 'Zhu De 朱德, of Lin Biao''s 林彪 "Order No. 1" 第一个号令, to his wife Kang Keqing 康克清: "The drinker''s mind is not on the wine." There is no sign of war now; a war does not start from nothing; before it come many signs; it is not children fighting; no such signs are to be seen now.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1970. Made public: 2016. See [[cal.1969-10-18.china-leadership]]. Names: Zhu De, Lin Biao.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:lin-biao', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1969-10-20.china-leadership-9
+        when: Oct. 20
+        date: '1969-10-20'
+        place: [canton, conghua]
+        thread: china-leadership
+        c: Zhu De 朱德, with Zhang Yunyi 张云逸, Chen Qihan 陈奇涵 and others, lands by one plane at Canton's Baiyun airport 广州白云机场. The chief men of the Canton Military Region 广州军区 do not let them into the city; after a short rest at the airport they are taken straight to Conghua 从化.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1970. Made public: 2016. See [[cal.1969-10-17.china-leadership]]. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1969-10-20.china-leadership-10
+        when: Oct. 20
+        date: '1969-10-20'
+        place: conghua
+        thread: china-leadership
+        c: 'As the nianpu reports it: from now until July 1970 Zhu De''s 朱德 movements at Conghua 从化 are restricted; he may not leave his residence or go to see factories or villages.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1970. Made public: 2016. See [[cal.1969-10-20.china-leadership-9]]. Names: Zhu De.'
+        tags: ['polity:prc', 'form:state', 'name:zhu-de', 'vis:only:prc']

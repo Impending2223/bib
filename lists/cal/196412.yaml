@@ -628,6 +628,13 @@ entries:
       - 1964-12-02T15:00Z
     time_band: evening
     time_zone: Asia/Jakarta
+  - id: cal.1964-12-02.china-leadership-10
+    when: Dec. 2
+    date: '1964-12-02'
+    thread: china-leadership
+    c: Zhu De 朱德 goes to a meeting at Liu Shaoqi's 刘少奇.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1923. Made public: 2016. Names: Zhu De, Liu Shaoqi.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, name:liu-shaoqi, vis:only:prc]
   - id: cal.1964-12-03.civil-rights-bill
     when: Dec. 3–4
     date: '1964-12-03'
@@ -2058,11 +2065,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Deng Xiaoping 邓小平 attends the Politburo 政治局 Standing Committee 政治局常委会 meeting Mao Zedong 毛泽东 presides over, which hears reports on Chen Yi's 陈毅 visit to Indonesia and Burma, Li Xiannian's 李先念 and Wu Xiuquan's 伍修权 to Albania, and Liao Chengzhi's 廖承志 and Zhao Yimin's to Italy.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1839 (Dec. 8, 1964). The words: 下午 (III, 1839). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong, Chen Yi, Li Xiannian.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1839 (Dec. 8, 1964); [[w.zhu-de-nianpu-xinbian]], III, 1923 (Dec. 8, 1964; Zhu De 朱德 at the meeting Mao Zedong 毛泽东 presides over). The words: 下午 (III, 1839). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong, Chen Yi, Li Xiannian.'
     src:
       c: '62456238'
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1839: all'
+        - 'w.zhu-de-nianpu-xinbian III, 1923: ?'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:chen-yi, name:li-xiannian, vis:only:prc]
     time_range:
       - 1964-12-08T04:00Z
@@ -2353,6 +2361,16 @@ entries:
       - 1964-12-09T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-12-09.china-leadership-2
+    when: Dec. 9
+    date: '1964-12-09'
+    place:
+      - shanghai
+      - canton
+    thread: china-leadership
+    c: Chen Yun 陈云 goes from Shanghai 上海 to Canton 广州.
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 147. Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun]
   - id: cal.1964-12-10.laos
     when: Dec. 10
     date: '1964-12-10'
@@ -2694,7 +2712,7 @@ entries:
     date: '1964-12-11'
     thread: china-leadership
     c: 'Zhou writes Peng Zhen on the new list of vice-premiers of the State Council, order proposed: Lin Biao, Chen Yun, Deng Xiaoping, He Long, Chen Yi, Ke Qingshi, Ulanhu, Li Fuchun, Li Xiannian, Tan Zhenlin, Nie Rongzhen, Bo Yibo, Lu Dingyi, Luo Ruiqing, Song Renqiong, Xie Fuzhi.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 692 (Dec. 11, 1964); [[w.peng-zhen-nianpu-1902]], IV, 377 (Dec. 11, 1964; Peng Zhen receives Zhou Enlai''s letter with the new list of vice-premiers, in the order Lin Biao, Chen Yun, Deng Xiaoping, He Long, Chen Yi, Ke Qingshi, Ulanhu, Li Fuchun, Li Xiannian, Tan Zhenlin, Nie Rongzhen, Bo Yibo, Lu Dingyi, Luo Ruiqing, Song Renqiong, Xie Fuzhi). Made public: 1997. Names: Zhou Enlai, Peng Zhen, Lin Biao, Chen Yun, Deng Xiaoping, He Long, Chen Yi, Ke Qingshi, Ulanhu, Li Fuchun, Li Xiannian, Tan Zhenlin, Nie Rongzhen, Bo Yibo, Lu Dingyi, Luo Ruiqing, Song Renqiong, Xie Fuzhi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 692 (Dec. 11, 1964); [[w.peng-zhen-nianpu-1902]], IV, 377 (Dec. 11, 1964; Peng Zhen receives Zhou Enlai''s letter with the new list of vice-premiers, in the order Lin Biao, Chen Yun, Deng Xiaoping, He Long, Chen Yi, Ke Qingshi, Ulanhu, Li Fuchun, Li Xiannian, Tan Zhenlin, Nie Rongzhen, Bo Yibo, Lu Dingyi, Luo Ruiqing, Song Renqiong, Xie Fuzhi); [[w.chen-yun-nianpu-xiuding]], III, 147 (the list in order: Lin Biao, Chen Yun, Deng Xiaoping, He Long, Chen Yi, Ke Qingshi, Ulanhu, Li Fuchun, Li Xiannian, Tan Zhenlin, Nie Rongzhen, Bo Yibo, Lu Dingyi, Luo Ruiqing, Song Renqiong, Xie Fuzhi). Made public: 1997. Names: Zhou Enlai, Peng Zhen, Lin Biao, Chen Yun, Deng Xiaoping, He Long, Chen Yi, Ke Qingshi, Ulanhu, Li Fuchun, Li Xiannian, Tan Zhenlin, Nie Rongzhen, Bo Yibo, Lu Dingyi, Luo Ruiqing, Song Renqiong, Xie Fuzhi.'
     tags: [name:zhou-enlai, name:peng-zhen, name:lin-biao, name:chen-yun, name:deng-xiaoping, name:he-long, name:chen-yi, name:ke-qingshi, name:li-fuchun, name:li-xiannian, name:tan-zhenlin, name:nie-rongzhen, name:bo-yibo, name:lu-dingyi, name:luo-ruiqing, name:xie-fuzhi, polity:prc, vis:only:prc]
   - id: cal.1964-12-11.china-leadership-2
     when: Dec. 11
@@ -2953,13 +2971,21 @@ entries:
     place: peking
     thread: china-leadership
     c: The NPC Standing Committee's 135th meeting adopts the notice publishing the list of deputies to the Third National People's Congress; Chen Yi 陈毅 a deputy for Shanghai 上海.
-    n: '[[w.chen-yi-nianpu]], 1072. The words: 上午 (1072). Names: Chen Yi.'
+    n: '[[w.chen-yi-nianpu]], 1072; [[w.zhu-de-nianpu-xinbian]], III, 1923 (Dec. 12, 1964; Zhu De 朱德 presides over the 135th meeting of the Second NPC Standing Committee 第二届全国人大常委会第一百三十五次会议, which adopts the notice publishing the list of deputies to the Third National People''s Congress 第三届全国人民代表大会, ratifies the treaty of friendship of China and the Republic of Mali, and decides on the special pardon 特赦 of war criminals of the Chiang Kai-shek clique 蒋介石集团, Manchukuo 伪满洲国 and the Mengjiang autonomous government 伪蒙疆自治政府 who have truly reformed). The words: 上午 (1072). Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi, ok:fields-place]
     time_range:
       - 1964-12-11T22:00Z
       - 1964-12-12T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1964-12-12.china-leadership-9
+    when: Dec. 12
+    date: '1964-12-12'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Zhu De 朱德 speaks at the 135th meeting of the NPC Standing Committee 全国人大常委会 on the pardon of war criminals 战犯: the proletariat is lenient to them, and so are the masses of workers and peasants, our policy all along; reformed, they may still join the revolution and build socialism with us; we must win them over as far as we can; once they repent, they are welcome.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1923. Made public: 2016. See [[cal.1964-12-12.china-leadership-8]]. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
   - id: cal.1964-12-13.china-leadership
     when: Dec. 13
     date: '1964-12-13'
@@ -3259,7 +3285,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'The Central Work Conference opens, Beijing, the Hall of the People, Hebei Hall, afternoon, Mao presiding (to Jan. 14, 1965): on the rural socialist education movement, to adopt a document on it. Zhou Enlai on Khrushchev''s fall and the Moscow trip: Brezhnev follows Khrushchevism without Khrushchev, new struggles to be prepared. Liu Shaoqi opens the movement''s problems. Mao interjects: this is a plenum, enlarged; he is for clearing out some millions of Party members; no levy on grain where concealed land is reported. A plenary every afternoon at 3:30.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 15, 1964 (the session), and Dec. 15, 1964–Jan. 14, 1965 (the conference). [[w.zhou-enlai-nianpu-1949]], II, 692–93 (Dec. 15, 1964: Zhou, at the Central Work Conference, reports on the Moscow visit and the Sino-Soviet party talks; says China must first do its own work well, lay the base at home and finish the socialist education movement, to have more strength in the world (Dec. 15–28; the conference met on rural socialist education)); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 609 (Dec. 15, 1964–Jan. 14, 1965; Liu attends the national work conference the Politburo calls; Mao criticizes the leadership method of the movement''s first stage); [[w.macfarquhar-origins-of-the-cultural]], III, 419 (the conference opens on Dec. 15 with Liu Shaoqi''s report on the movement''s problems, then breaks into small groups); [[w.deng-xiaoping-nianpu-1904]], III, 1839 (Dec. 15, 1964–Jan. 14, 1965; Deng attends the Central Work Conference 中央工作会议 Mao presides over; its main subject is the present rural socialist education movement, the adoption of papers on it and the solving of problems of the movement''s former stage; from Mao''s repeated remarks the conference''s minutes, ''Some problems now raised in the rural socialist education movement'', are put together in draft, listing twenty-three problems, later called the ''Twenty-three Articles''; on Dec. 15–19 Deng attends the plenary every afternoon); [[w.mao-zedong-zhuan]], VI, ch. 73 (Dec. 15 the Central Work Conference, Dec. 15–28, from the Standing Committee''s decision of Nov. 25; Mao presides in the afternoon; Liu raises Tao Zhu''s letter on a new rich stratum, the length of the front, landlord families in the organs; Mao: no extra levy on grain; Zhou: none in the whole period (n.34)). [[w.yang-jisheng-mubei]], II, 1144 (the Central Work Conference, Dec. 15, 1964 to Jan. 14, 1965, held to discuss the four cleans and draw up the 23 Articles); [[w.peng-zhen-nianpu-1902]], IV, 378 (Dec. 15, 1964–Jan. 14, 1965; Peng Zhen at the Central Work Conference, chiefly on rural socialist education; Mao criticizes the movement''s leaders for an unclear view of the struggle''s nature, human-sea tactics and no mass line; set to end Dec. 28, it runs into January over Mao''s and Liu Shaoqi''s differences on its nature and methods; at its end Mao revises "Some current problems raised in the rural socialist education movement" (the "Twenty-three Articles"): most cadres good or fairly good, the lightly "unclean" freed soon; teams to rely on the masses and cadres, a three-way union; some "left" deviations corrected; but the stress "整党内那些走资本主义道路的当权派," in front of or behind the scenes, with backers below and above, even in the provinces and central departments; issued Jan. 14, 1965 to the provincial committees, the central ministries'' Party groups and the General Political Department); [[w.jian-zhou-enlai]], 518 (at the conference Liu speaks on the movement and Mao interrupts him again and again: "bourgeois" in "new bourgeois elements" the peasants do not understand; against Liu''s wish to drop "rectifying the Party," Mao supports it, millions of members "not true Communists"; Zhou silent; not the day); [[w.pu-weihua-zalan-jiu-shijie]], 5 (the conference of December 1964 to January 1965: Mao and Liu Shaoqi divided on the movement''s nature, Liu holding to the contradiction of the four cleans and four uncleans, Mao to that of socialism and capitalism, its point to rectify the power holders on the capitalist road). Made public: 1996. Check: the conference''s close; some sources end it Dec. 28, with the seventeen articles, others Jan. 14, 1965, with the Twenty-three (III, 419 n.106). To check: [[w.huaxuan-zhongguo-gongchan-dang-huiyi]], 508, 507 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106a); [[w.history-of-the-chinese]], 314–15 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106b); [[w.zhonggong-dangshi-dashi-nianbiao]], 337 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106c); [[w.zhonghua-renmin-gongheguo-fengyun]], 1, 962 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106d); [[w.jiaoyanshi-zhongguo-gongchan-dang-qishi]], 515–16 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106e); [[w.en-zhou-zongli-shengping-dashiji]], 448 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106f); [[w.zheng-liu-shaoqi-yi-sheng]], 398 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106g); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1128, 1130, 1132 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106h); Central Work Conference 中央工作会议, record 记录, Dec. 15, 1964 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.34); [[w.xianzhi-mao-zedong-zhuan-1949]], II, 1366–1371; [[w.liu-shaoqi-zhuan]], II, 965–967 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 5 n.11). Names: Mao Zedong, Zhou Enlai, Liu Shaoqi, Khrushchev, Brezhnev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 15, 1964 (the session), and Dec. 15, 1964–Jan. 14, 1965 (the conference). [[w.zhou-enlai-nianpu-1949]], II, 692–93 (Dec. 15, 1964: Zhou, at the Central Work Conference, reports on the Moscow visit and the Sino-Soviet party talks; says China must first do its own work well, lay the base at home and finish the socialist education movement, to have more strength in the world (Dec. 15–28; the conference met on rural socialist education)); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 609 (Dec. 15, 1964–Jan. 14, 1965; Liu attends the national work conference the Politburo calls; Mao criticizes the leadership method of the movement''s first stage); [[w.macfarquhar-origins-of-the-cultural]], III, 419 (the conference opens on Dec. 15 with Liu Shaoqi''s report on the movement''s problems, then breaks into small groups); [[w.deng-xiaoping-nianpu-1904]], III, 1839 (Dec. 15, 1964–Jan. 14, 1965; Deng attends the Central Work Conference 中央工作会议 Mao presides over; its main subject is the present rural socialist education movement, the adoption of papers on it and the solving of problems of the movement''s former stage; from Mao''s repeated remarks the conference''s minutes, ''Some problems now raised in the rural socialist education movement'', are put together in draft, listing twenty-three problems, later called the ''Twenty-three Articles''; on Dec. 15–19 Deng attends the plenary every afternoon); [[w.mao-zedong-zhuan]], VI, ch. 73 (Dec. 15 the Central Work Conference, Dec. 15–28, from the Standing Committee''s decision of Nov. 25; Mao presides in the afternoon; Liu raises Tao Zhu''s letter on a new rich stratum, the length of the front, landlord families in the organs; Mao: no extra levy on grain; Zhou: none in the whole period (n.34)). [[w.yang-jisheng-mubei]], II, 1144 (the Central Work Conference, Dec. 15, 1964 to Jan. 14, 1965, held to discuss the four cleans and draw up the 23 Articles); [[w.peng-zhen-nianpu-1902]], IV, 378 (Dec. 15, 1964–Jan. 14, 1965; Peng Zhen at the Central Work Conference, chiefly on rural socialist education; Mao criticizes the movement''s leaders for an unclear view of the struggle''s nature, human-sea tactics and no mass line; set to end Dec. 28, it runs into January over Mao''s and Liu Shaoqi''s differences on its nature and methods; at its end Mao revises "Some current problems raised in the rural socialist education movement" (the "Twenty-three Articles"): most cadres good or fairly good, the lightly "unclean" freed soon; teams to rely on the masses and cadres, a three-way union; some "left" deviations corrected; but the stress "整党内那些走资本主义道路的当权派," in front of or behind the scenes, with backers below and above, even in the provinces and central departments; issued Jan. 14, 1965 to the provincial committees, the central ministries'' Party groups and the General Political Department); [[w.jian-zhou-enlai]], 518 (at the conference Liu speaks on the movement and Mao interrupts him again and again: "bourgeois" in "new bourgeois elements" the peasants do not understand; against Liu''s wish to drop "rectifying the Party," Mao supports it, millions of members "not true Communists"; Zhou silent; not the day); [[w.pu-weihua-zalan-jiu-shijie]], 5 (the conference of December 1964 to January 1965: Mao and Liu Shaoqi divided on the movement''s nature, Liu holding to the contradiction of the four cleans and four uncleans, Mao to that of socialism and capitalism, its point to rectify the power holders on the capitalist road); [[w.zhu-de-nianpu-xinbian]], III, 1924 (Dec. 15, 1964–Jan. 14, 1965; Zhu De 朱德 attends the work conference the Politburo calls at Peking 北京 on the socialist education movement: its first part under Liu Shaoqi 刘少奇, which draws up the *Summary of the national work conference called by the Politburo* 《中央政治局召集的全国工作会议讨论纪要》; its second under Mao Zedong 毛泽东, which takes the adopted summary up again and draws up *Some questions now arising in the rural socialist education movement* 《农村社会主义教育运动中目前提出的一些问题》, the "Twenty-three Articles" 二十三条); [[w.chen-yun-nianpu-xiuding]], III, 147 (Dec. 15–Jan. 14, 1965, Mao presiding: the Twenty-three Articles, the movement aimed at those in authority in the Party taking the capitalist road; Mao criticizes Liu Shaoqi''s "four clean and four unclean" and the overlapping contradictions, and the two "independent kingdoms" in Peking, the Secretariat and the Planning Commission; Chen Yun absent, ill). Made public: 1996. Check: the conference''s close; some sources end it Dec. 28, with the seventeen articles, others Jan. 14, 1965, with the Twenty-three (III, 419 n.106). To check: [[w.huaxuan-zhongguo-gongchan-dang-huiyi]], 508, 507 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106a); [[w.history-of-the-chinese]], 314–15 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106b); [[w.zhonggong-dangshi-dashi-nianbiao]], 337 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106c); [[w.zhonghua-renmin-gongheguo-fengyun]], 1, 962 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106d); [[w.jiaoyanshi-zhongguo-gongchan-dang-qishi]], 515–16 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106e); [[w.en-zhou-zongli-shengping-dashiji]], 448 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106f); [[w.zheng-liu-shaoqi-yi-sheng]], 398 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106g); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1128, 1130, 1132 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 419 n.106h); Central Work Conference 中央工作会议, record 记录, Dec. 15, 1964 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.34); [[w.xianzhi-mao-zedong-zhuan-1949]], II, 1366–1371; [[w.liu-shaoqi-zhuan]], II, 965–967 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 5 n.11). Names: Mao Zedong, Zhou Enlai, Liu Shaoqi, Khrushchev, Brezhnev.'
     src:
       c: 43355ea9
       rows:
@@ -3281,6 +3307,8 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 378: ?'
         - 'w.jian-zhou-enlai 518: ?'
         - 'w.pu-weihua-zalan-jiu-shijie 5: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1924: ?'
+        - 'w.chen-yun-nianpu-xiuding III, 147: ?'
     tags: [name:mao-zedong, name:zhou-enlai, name:liu-shaoqi, name:khrushchev-nikita-s, name:brezhnev-leonid, polity:prc, vis:only:prc]
     variants:
       - unit: A
@@ -3297,13 +3325,14 @@ entries:
     date: '1964-12-15'
     thread: china-leadership
     c: 'Zhou attends the Politburo meeting, which discusses his draft Government Work Report for the Third National People''s Congress, first session. Explains the report in detail and presents the paragraph Mao added to it. Announces the abolition of the State Council''s Premier''s Office and a cut in secretaries. (Mao''s paragraph stresses Marxist theory of knowledge and dialectics: history moves ever from necessity to freedom and never ends; mankind must keep summing up experience, discovering, inventing, creating, advancing; talk of halt, pessimism, inaction and complacency is wrong.)'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 692 (Dec. 15, 1964); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 610 (Dec. 15, 1964; Liu presides at the Politburo meeting, which discusses and adopts Zhou Enlai''s government work report for the First Session of the Third NPC); [[w.peng-zhen-nianpu-1902]], IV, 378 (Dec. 15, 1964; Peng Zhen at the Politburo on Zhou Enlai''s draft Government Work Report for the third NPC''s first session; in the afternoon at the work conference''s plenary, Mao presiding, hearing Zhou on his Soviet visit and the talks of the two parties). Made public: 1996. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 692 (Dec. 15, 1964); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 610 (Dec. 15, 1964; Liu presides at the Politburo meeting, which discusses and adopts Zhou Enlai''s government work report for the First Session of the Third NPC); [[w.peng-zhen-nianpu-1902]], IV, 378 (Dec. 15, 1964; Peng Zhen at the Politburo on Zhou Enlai''s draft Government Work Report for the third NPC''s first session; in the afternoon at the work conference''s plenary, Mao presiding, hearing Zhou on his Soviet visit and the talks of the two parties); [[w.zhu-de-nianpu-xinbian]], III, 1923–1924 (Dec. 15, 1964; Zhu De 朱德 at the Politburo meeting 中共中央政治局会议 on the draft *Report on the Work of the Government* 《政府工作报告》 Zhou Enlai 周恩来 is to give at the first session of the Third NPC 第三届全国人大第一次会议; Zhou explains it and reads the passage Mao Zedong 毛泽东 has added: human history a constant development from the realm of necessity to the realm of freedom, never to end; theories of standstill, pessimism, inaction and complacency all wrong). Made public: 1996. Names: Zhou Enlai, Mao Zedong.'
     src:
       c: d355af40
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 692: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 610: A'
         - 'w.peng-zhen-nianpu-1902 IV, 378: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1923–1924: ?'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1964-12-15.china-leadership-3
     when: Dec. 15
@@ -3342,6 +3371,13 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 378: all'
     tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, vis:only:prc, ok:fields-place]
+  - id: cal.1964-12-15.china-leadership-6
+    when: Dec. 15, 1964–Jan. 14, 1965
+    date: '1964-12-15'
+    thread: china-leadership
+    c: Zhu De 朱德, during the Central Work Conference 中央工作会议, seeks out Liu Shaoqi 刘少奇 for a talk, hoping he will put the whole first, be modest and respect Mao Zedong 毛泽东.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1928. Made public: 2016. Names: Zhu De, Liu Shaoqi, Mao Zedong. Check: the day; the nianpu has the talk during the conference, Dec. 15, 1964–Jan. 14, 1965, and gives no day.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
   - id: cal.1964-12-16.transition-and-staff
     when: Dec. 16
     date: '1964-12-16'
@@ -3551,6 +3587,16 @@ entries:
         - 'w.chang-friends-and-enemies 261–62: all'
         - 'via x.1964-12-16.bundy-to-johnson: all'
     tags: [polity:us, vis:only:us, name:bundy-mcgeorge, name:johnson-lyndon-b]
+  - id: cal.1964-12-16.china-leadership-9
+    when: Dec. 16
+    date: '1964-12-16'
+    place:
+      - canton
+      - conghua
+    thread: china-leadership
+    c: Chen Yun 陈云 goes from Canton 广州 to Conghua 从化 to rest.
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 147. Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun]
   - id: cal.1964-12-17.vietnam
     when: Dec. 17
     date: '1964-12-17'
@@ -3675,7 +3721,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi attends the national work conference, which hears Song Renqiong, first secretary of the Northeast Bureau, and Liu Lantao, first secretary of the Northwest Bureau, on the socialist-education movement.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 610 (Dec. 17, 1964); [[w.peng-zhen-nianpu-1902]], IV, 379 (Dec. 17, 1964, afternoon; Peng Zhen at the work conference''s plenary, Mao presiding, hearing Song Renqiong and Liu Lantao on socialist education). Made public: 1996. See [[cal.1964-12-15.china-leadership]]. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 610 (Dec. 17, 1964); [[w.peng-zhen-nianpu-1902]], IV, 379 (Dec. 17, 1964, afternoon; Peng Zhen at the work conference''s plenary, Mao presiding, hearing Song Renqiong and Liu Lantao on socialist education); [[w.zhu-de-nianpu-xinbian]], III, 1924 (Dec. 17, 1964; Zhu De 朱德 attends the Central Work Conference 中央工作会议). Made public: 1996. See [[cal.1964-12-15.china-leadership]]. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
     time_range:
       - 1964-12-17T04:00Z
@@ -3705,11 +3751,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真, at the second NPC Standing Committee's 全国人大常委会 136th session, Zhu De 朱德 presiding, explains the drafts of the third NPC's first session's procedure, agenda, presidium and secretary-general and of the chairmen and members of its nationalities, bills, budget, credentials and motions committees, and the Standing Committee's work report.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 379. Names: Peng Zhen, Zhu De.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 379; [[w.zhu-de-nianpu-xinbian]], III, 1924 (Dec. 17, 1964; Zhu De 朱德 presides over the 136th meeting of the Second NPC Standing Committee 第二届全国人大常委会第一百三十六次会议, on the agenda of the first session of the Third NPC 第三届全国人大第一次会议). Names: Peng Zhen, Zhu De.'
     src:
       c: c9292402
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 379: all'
+        - 'w.zhu-de-nianpu-xinbian III, 1924: ?'
     tags: [polity:prc, name:peng-zhen, name:zhu-de]
   - id: cal.1964-12-17.china-leadership-6
     when: Dec. 17
@@ -3873,13 +3920,14 @@ entries:
     date: '1964-12-18'
     thread: china-leadership
     c: 'Zhou attends the 20th Supreme State Conference and explains parts of the Government Work Report: on construction, the relation of farming, light and heavy industry, self-reliance and international cooperation, frugality as basic line; on revolution, class and class struggle, revolutionizing cadres, learning from the army. The conference approves the report in principle.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 694 (Dec. 18, 1964); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 610 (Dec. 18, 1964; Liu presides at the Supreme State Conference, which hears Zhou Enlai explain the government work report for the First Session of the Third NPC and Peng Zhen explain the session''s agenda); [[w.peng-zhen-nianpu-1902]], IV, 379 (Dec. 18, 1964; Peng Zhen at Liu Shaoqi''s Supreme State Conference, hearing Zhou Enlai on the draft Government Work Report; Peng Zhen explains the agendas of the third NPC''s first session and the fourth CPPCC''s first session). Made public: 1996. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 694 (Dec. 18, 1964); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 610 (Dec. 18, 1964; Liu presides at the Supreme State Conference, which hears Zhou Enlai explain the government work report for the First Session of the Third NPC and Peng Zhen explain the session''s agenda); [[w.peng-zhen-nianpu-1902]], IV, 379 (Dec. 18, 1964; Peng Zhen at Liu Shaoqi''s Supreme State Conference, hearing Zhou Enlai on the draft Government Work Report; Peng Zhen explains the agendas of the third NPC''s first session and the fourth CPPCC''s first session); [[w.zhu-de-nianpu-xinbian]], III, 1924 (Dec. 18, 1964; Zhu De 朱德 at the Supreme State Conference 最高国务会议 Liu Shaoqi 刘少奇 calls, which hears and discusses Zhou Enlai''s 周恩来 account of the chief contents of the *Report on the Work of the Government* and Peng Zhen''s 彭真 of the agendas of the first sessions of the Third NPC 第三届全国人大 and of the Fourth CPPCC National Committee 政协第四届全国委员会). Made public: 1996. Names: Zhou Enlai.'
     src:
       c: 7340af12
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 694: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 610: A'
         - 'w.peng-zhen-nianpu-1902 IV, 379: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1924: ?'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1964-12-18.china-leadership-2
     when: Dec. 18
@@ -3899,7 +3947,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi attends the national work conference, which hears Li Xuefeng, first secretary of the North China Bureau, on the socialist-education movement.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 610 (Dec. 18, 1964); [[w.peng-zhen-nianpu-1902]], IV, 379 (Dec. 18, 1964, afternoon; Peng Zhen at the work conference''s plenary, Mao presiding, hearing Li Xuefeng on socialist education). Made public: 1996. See [[cal.1964-12-15.china-leadership]]. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 610 (Dec. 18, 1964); [[w.peng-zhen-nianpu-1902]], IV, 379 (Dec. 18, 1964, afternoon; Peng Zhen at the work conference''s plenary, Mao presiding, hearing Li Xuefeng on socialist education); [[w.zhu-de-nianpu-xinbian]], III, 1924 (Dec. 18, 1964; Zhu De 朱德 attends the Central Work Conference 中央工作会议). Made public: 1996. See [[cal.1964-12-15.china-leadership]]. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
     time_range:
       - 1964-12-18T04:00Z
@@ -3930,6 +3978,20 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1839–1840: all'
         - 'w.peng-zhen-nianpu-1902 IV, 379–380: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1964-12-18.china-leadership-6
+    when: Dec. 18
+    date: '1964-12-18'
+    thread: china-leadership
+    c: Zhu De 朱德 meets the parliamentary delegation of Lebanon 黎巴嫩 led by Kamal Jumblatt 卡迈勒·琼卜拉特, chairman of the Progressive Socialist Party 黎巴嫩社会进步党.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1924. Names: Zhu De, Kamal Jumblatt.'
+    tags: [polity:prc, polity:lebanon, name:zhu-de, name:jumblatt-kamal]
+  - id: cal.1964-12-18.china-leadership-7
+    when: Dec. 18
+    date: '1964-12-18'
+    thread: china-leadership
+    c: Zhu De 朱德 meets Alphonse Bayonne 阿方斯·贝约纳, Ambassador of the Congo (Brazzaville) 刚果（布）.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1924. Names: Zhu De.'
+    tags: [polity:prc, polity:congo-brazzaville, ok:fields-place, name:zhu-de]
   - id: cal.1964-12-19.japan-and-korea
     when: Dec. 19
     date: '1964-12-19'
@@ -4053,7 +4115,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi attends the national work conference, which hears Wei Wenbo, secretary of the Secretariat of the East China Bureau, and Tan Zhenlin, Vice-Premier, on the socialist-education movement.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 610 (Dec. 19, 1964); [[w.peng-zhen-nianpu-1902]], IV, 380 (Dec. 19, 1964, afternoon; Peng Zhen at the work conference''s plenary, Mao presiding, hearing Wei Wenbo (the page''s note: secretary of the East China Bureau''s Secretariat) and Tan Zhenlin on socialist education; Mao adjourns the conference for some days). Made public: 1996. See [[cal.1964-12-15.china-leadership]]. Names: Liu Shaoqi, Tan Zhenlin.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 610 (Dec. 19, 1964); [[w.peng-zhen-nianpu-1902]], IV, 380 (Dec. 19, 1964, afternoon; Peng Zhen at the work conference''s plenary, Mao presiding, hearing Wei Wenbo (the page''s note: secretary of the East China Bureau''s Secretariat) and Tan Zhenlin on socialist education; Mao adjourns the conference for some days); [[w.zhu-de-nianpu-xinbian]], III, 1924 (Dec. 19, 1964; Zhu De 朱德 attends the Central Work Conference 中央工作会议). Made public: 1996. See [[cal.1964-12-15.china-leadership]]. Names: Liu Shaoqi, Tan Zhenlin.'
     tags: [polity:prc, name:liu-shaoqi, name:tan-zhenlin, vis:only:prc]
     time_range:
       - 1964-12-19T04:00Z
@@ -4102,6 +4164,14 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 380: all'
     tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, vis:only:prc, ok:fields-place]
+  - id: cal.1964-12-19.china-leadership-8
+    when: Dec. 19
+    date: '1964-12-19'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zhu De 朱德 presides over the 137th meeting of the Second NPC Standing Committee 第二届全国人大常委会, which adopts several bills to go to the preparatory meeting of the Third NPC's first session 第三届全国人民代表大会第一次会议预备会议.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1924. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1964-12-20.vietnam
     when: Dec. 20
     date: '1964-12-20'
@@ -4248,13 +4318,14 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真, at the preparatory meeting of the third National People's Congress's 全国人大 first session, is chosen for its presidium and explains the preparations and agenda.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 380; [[w.chen-yi-nianpu]], 1074 (Dec. 20, 1964, morning; Chen Yi chosen for the presidium of the first session of the Third NPC by its preparatory meeting); [[w.liu-jixian-ye-jianying-nianpu]], II, 925 (Dec. 20, 1964; Ye Jianying 叶剑英 at the preparatory meeting of the Third National People''s Congress''s first session 第三届全国人大第一次会议, elected to its presidium 主席团). The words: 上午 (IV, 380). Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 380; [[w.chen-yi-nianpu]], 1074 (Dec. 20, 1964, morning; Chen Yi chosen for the presidium of the first session of the Third NPC by its preparatory meeting); [[w.liu-jixian-ye-jianying-nianpu]], II, 925 (Dec. 20, 1964; Ye Jianying 叶剑英 at the preparatory meeting of the Third National People''s Congress''s first session 第三届全国人大第一次会议, elected to its presidium 主席团); [[w.zhu-de-nianpu-xinbian]], III, 1924 (Dec. 20, 1964; Zhu De 朱德 presides over the preparatory meeting of the Third NPC''s first session 第三届全国人大第一次会议预备会议, which elects the session''s presidium and secretary-general and adopts its agenda). The words: 上午 (IV, 380). Names: Peng Zhen.'
     src:
       c: cd59149a
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 380: all'
         - 'w.chen-yi-nianpu 1074: ?'
         - 'w.liu-jixian-ye-jianying-nianpu II, 925: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1924: ?'
     tags: [polity:prc, name:peng-zhen]
     time_range:
       - 1964-12-19T22:00Z
@@ -4357,7 +4428,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Zhou, at the first session of the Third National People''s Congress (Dec. 21–Jan. 4), gives the Government Work Report on two successive days. Three parts. First, the economy''s gains and tasks: the readjustment basically done, farm and industry on the rise, the economy turned and about to enter a new period; in 1965 finish the unfinished readjustment and prepare the Third Five-Year Plan from 1966; the main task is to build in a not too long period a socialist power with modern agriculture, industry, defense, science and technology, catching up with and passing the world''s best; two steps from the Third Plan: first a whole independent industrial and economic system, then modernization of all four to put China in front. "We cannot take the old path of other countries'' technical growth, crawling after them; we must break rules and use advanced technique." Second, socialist revolution and the people''s democratic united front: classes and class struggle remain; the socialist education movement in town and country is the chief content of the revolution now; revolution on the ideological and cultural front is one of its great sides; offices and cadres to be revolutionized and learn from the army; against the "five too-manys": offices, staff, forms, papers, meetings. Third, the international situation and foreign work.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 695–96 (Dec. 21–22, 1964); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 610 (Dec. 21, 1964–Jan. 4, 1965; Liu attends the First Session of the Third NPC, which adopts the government work report and the work reports of the NPC Standing Committee, the Supreme People''s Court and the Supreme People''s Procuratorate); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 376–377 (Dec. 22, 1964; Zhou gives the Government Work Report at the first session of the Third National People''s Congress; on foreign policy he says China will go on carrying out its line, struggling with the peoples of the world firmly against U.S. imperialism and its running dogs, for new victories in the struggle for world peace, national liberation, people''s democracy and socialism; on the Sino-Indian boundary, China too strives to get India to settle through peaceful negotiation; Zhou denounces the U.S. for long occupying Taiwan, blocking the restoration of China''s lawful rights in the United Nations and plotting "two Chinas" or "one China, one Taiwan"; the People''s Republic is the only legal government representing the whole Chinese people, no other person or group may represent China or a part of its territory in any name or hold its seat in the United Nations; unless the United Nations drives out the Chiang Kai-shek clique''s representatives and fully restores China''s lawful rights, China will have nothing to do with it); [[w.jianguo-yilai-mao-zedong]], XVII, 472–476 (Dec. 13, 1964; the sentence is Mao''s addition to the fourth draft); [[w.deng-xiaoping-nianpu-1904]], III, 1840 (Dec. 21, 1964–Jan. 4, 1965; Deng attends the First Session of the Third National People''s Congress; Zhou Enlai gives the Government Work Report on the afternoons of the 21st and 22nd); [[w.yang-jisheng-tiandi-fanfu]], II, 1073, 1075 (Zhou''s government work report: Daqing''s experience, and the call "industry learn from Daqing, agriculture from Dazhai, the nation from the PLA"; Dazhai an advanced model of self-reliant rural building by the commune''s collective strength; Yang dates the report Jan. 4, 1965 at II, 1073, December 1964 at II, 1075); [[w.peng-zhen-nianpu-1902]], IV, 380–381 (Dec. 21, 1964, afternoon; Peng Zhen at the opening of the third NPC''s first session, an executive chairman with Mao, Liu Shaoqi, Zhu De, Zhou Enlai, Soong Ching-ling, Deng Xiaoping, Kang Sheng, Guo Moruo and others; Zhou''s Government Work Report; on the 22nd at the plenary for its rest: in a not too long time a strong socialist country with modern agriculture, industry, defense and science and technology, catching up with and passing the world''s advanced levels); [[w.chen-yi-nianpu]], 1074–1075 (Dec. 21, 1964–Jan. 4, 1965, the Great Hall of the People; Chen Yi at the session; Zhou''s report first raises the four modernizations; Liu Shaoqi elected Chairman, Zhou named Premier, and Chen Yi named Vice-Premier and Foreign Minister and Vice-Chairman of the National Defense Council); [[w.jian-zhou-enlai]], 520 (the report''s highlight, "in not too long a historical period," China "a socialist power, with modern agriculture, modern industry, modern national defense, and modern science and technology"; Mao, reviewing the speech, adds the paragraph: not to repeat other countries'' old path of technical growth, creeping behind; break the norms; "This is what we have called the ''Great Leap Forward''"). To check: [[w.zhou-enlai-jingji-wenxuan]], 563 (cited by [[w.jian-zhou-enlai]], 520 n.9); [[w.mao-zedong-wenji]], VIII, 325, 341 (cited by [[w.jian-zhou-enlai]], 520 n.10). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 695–96 (Dec. 21–22, 1964); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 610 (Dec. 21, 1964–Jan. 4, 1965; Liu attends the First Session of the Third NPC, which adopts the government work report and the work reports of the NPC Standing Committee, the Supreme People''s Court and the Supreme People''s Procuratorate); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 376–377 (Dec. 22, 1964; Zhou gives the Government Work Report at the first session of the Third National People''s Congress; on foreign policy he says China will go on carrying out its line, struggling with the peoples of the world firmly against U.S. imperialism and its running dogs, for new victories in the struggle for world peace, national liberation, people''s democracy and socialism; on the Sino-Indian boundary, China too strives to get India to settle through peaceful negotiation; Zhou denounces the U.S. for long occupying Taiwan, blocking the restoration of China''s lawful rights in the United Nations and plotting "two Chinas" or "one China, one Taiwan"; the People''s Republic is the only legal government representing the whole Chinese people, no other person or group may represent China or a part of its territory in any name or hold its seat in the United Nations; unless the United Nations drives out the Chiang Kai-shek clique''s representatives and fully restores China''s lawful rights, China will have nothing to do with it); [[w.jianguo-yilai-mao-zedong]], XVII, 472–476 (Dec. 13, 1964; the sentence is Mao''s addition to the fourth draft); [[w.deng-xiaoping-nianpu-1904]], III, 1840 (Dec. 21, 1964–Jan. 4, 1965; Deng attends the First Session of the Third National People''s Congress; Zhou Enlai gives the Government Work Report on the afternoons of the 21st and 22nd); [[w.yang-jisheng-tiandi-fanfu]], II, 1073, 1075 (Zhou''s government work report: Daqing''s experience, and the call "industry learn from Daqing, agriculture from Dazhai, the nation from the PLA"; Dazhai an advanced model of self-reliant rural building by the commune''s collective strength; Yang dates the report Jan. 4, 1965 at II, 1073, December 1964 at II, 1075); [[w.peng-zhen-nianpu-1902]], IV, 380–381 (Dec. 21, 1964, afternoon; Peng Zhen at the opening of the third NPC''s first session, an executive chairman with Mao, Liu Shaoqi, Zhu De, Zhou Enlai, Soong Ching-ling, Deng Xiaoping, Kang Sheng, Guo Moruo and others; Zhou''s Government Work Report; on the 22nd at the plenary for its rest: in a not too long time a strong socialist country with modern agriculture, industry, defense and science and technology, catching up with and passing the world''s advanced levels); [[w.chen-yi-nianpu]], 1074–1075 (Dec. 21, 1964–Jan. 4, 1965, the Great Hall of the People; Chen Yi at the session; Zhou''s report first raises the four modernizations; Liu Shaoqi elected Chairman, Zhou named Premier, and Chen Yi named Vice-Premier and Foreign Minister and Vice-Chairman of the National Defense Council); [[w.jian-zhou-enlai]], 520 (the report''s highlight, "in not too long a historical period," China "a socialist power, with modern agriculture, modern industry, modern national defense, and modern science and technology"; Mao, reviewing the speech, adds the paragraph: not to repeat other countries'' old path of technical growth, creeping behind; break the norms; "This is what we have called the ''Great Leap Forward''"); [[w.zhu-de-nianpu-xinbian]], III, 1925 (Dec. 21–Jan. 4, 1965; Zhu De 朱德 attends the first session of the Third National People''s Congress 第三届全国人民代表大会第一次会议 at Peking 北京 and presides over its opening; Zhou Enlai''s 周恩来 *Report on the Work of the Government* 《政府工作报告》 announces that within a not too long historical period China will be built into a strong socialist country with modern agriculture, industry, national defense and science and technology, in two steps; Dec. 22, Zhu De hears the rest of the report); [[w.chen-yun-nianpu-xiuding]], III, 147–148 (Zhou''s Government Work Report: the task of adjusting the economy basically done; from the Third Five-Year Plan two steps, an independent, fairly complete industrial and economic system, then the four modernizations). To check: [[w.zhou-enlai-jingji-wenxuan]], 563 (cited by [[w.jian-zhou-enlai]], 520 n.9); [[w.mao-zedong-wenji]], VIII, 325, 341 (cited by [[w.jian-zhou-enlai]], 520 n.10). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi.'
     src:
       c: ce96bebc
       rows:
@@ -4370,6 +4441,8 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 380–381: ?'
         - 'w.chen-yi-nianpu 1074–1075: ?'
         - 'w.jian-zhou-enlai 520: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1925: ?'
+        - 'w.chen-yun-nianpu-xiuding III, 147–148: ?'
     tags: [name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, polity:prc]
   - id: cal.1964-12-21.china-leadership-2
     when: Dec. 21–Jan. 4
@@ -4795,6 +4868,14 @@ entries:
       - 1964-12-23T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-12-23.china-leadership-6
+    when: Dec. 23
+    date: '1964-12-23'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zhu De 朱德 takes part in the group discussions of the first session of the Third NPC 第三届全国人大第一次会议.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1925. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1964-12-24.vietnam
     when: Dec. 24
     date: '1964-12-24'
@@ -4946,7 +5027,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi presides at an enlarged meeting of the Politburo Standing Committee, which goes on discussing the socialist-education movement.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 611 (Dec. 24, 1964); [[w.deng-xiaoping-nianpu-1904]], III, 1840 (Dec. 24, 1964; morning, 上午; Deng at the enlarged Politburo Standing Committee meeting Mao presides over, which discusses and revises ''Some problems now raised in the socialist education movement'' (unsettled draft)); [[w.peng-zhen-nianpu-1902]], IV, 381 (Dec. 24, 1964; Peng Zhen at the enlarged Standing Committee, which revises "Some problems now raised in the socialist education movement (unsettled draft)"). Made public: 1996. Check: the nianpu has Mao preside at this enlarged Standing Committee meeting, on the morning of Dec. 24 ([[w.deng-xiaoping-nianpu-1904]], III, 1840). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 611 (Dec. 24, 1964); [[w.deng-xiaoping-nianpu-1904]], III, 1840 (Dec. 24, 1964; morning, 上午; Deng at the enlarged Politburo Standing Committee meeting Mao presides over, which discusses and revises ''Some problems now raised in the socialist education movement'' (unsettled draft)); [[w.peng-zhen-nianpu-1902]], IV, 381 (Dec. 24, 1964; Peng Zhen at the enlarged Standing Committee, which revises "Some problems now raised in the socialist education movement (unsettled draft)"); [[w.zhu-de-nianpu-xinbian]], III, 1925 (Dec. 24, 1964; Zhu De 朱德 attends the Central Work Conference 中央工作会议, so the nianpu names the day''s meeting). Made public: 1996. Check: the nianpu has Mao preside at this enlarged Standing Committee meeting, on the morning of Dec. 24 ([[w.deng-xiaoping-nianpu-1904]], III, 1840). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
     variants:
       - unit: A
@@ -5182,11 +5263,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真, at the enlarged meeting of the standing chairmen of the third NPC's first session's presidium, explains the policy of "learning from past mistakes to avoid future ones, curing the sickness to save the patient."
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 381. The words: 上午 (IV, 381). Made public: 2012. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 381; [[w.zhu-de-nianpu-xinbian]], III, 1925 (Dec. 25, 1964; Zhu De 朱德 at the meeting of the presidium 主席团会议 of the first session of the Third NPC 第三届全国人大第一次会议, so the nianpu names it). The words: 上午 (IV, 381). Made public: 2012. Names: Peng Zhen.'
     src:
       c: 3aeb2c75
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 381: all'
+        - 'w.zhu-de-nianpu-xinbian III, 1925: ?'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
     time_range:
       - 1964-12-24T22:00Z
@@ -5333,7 +5415,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao presides over the Central Work Conference, Hebei Hall, afternoon, on its minutes, the 17 points. Chen Boda: the main contradiction, the four-cleans and the socialism-capitalism contradiction. Mao: the Party has at least two factions, a socialist and a capitalist; and, Beijing has two "independent kingdoms", not the municipal committee. Orders the text issued as "the discussion minutes of the national work conference called by the Politburo", dated Dec. 27; Dec. 28 issued (Central Committee [64] no. 811). Dec. 31: the Central''s General Office stops it, to be destroyed.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 27, 1964. [[w.macfarquhar-maos-last-revolution]], 13 (a CC directive on the movement''s next stages rescinded); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 611 (Dec. 27, 1964; Liu attends the national work conference, at which Zhu De, Chen Boda, Dong Biwu, Lu Dingyi and Sai Fuding speak on how to carry on the socialist-education movement); [[w.macfarquhar-origins-of-the-cultural]], III, 424–25 (Chen Boda derides the formulations of the four cleans and of the overlapping contradictions; Mao: at least two factions in the Party, socialist and capitalist; Mao again approves the document, a seventeenth clause added; Dec. 28, Peng Zhen authorizes its printing and distribution as central document No. 811; Dec. 31, with Liu''s agreement, the General Office cancels it); [[w.jianguo-yilai-mao-zedong]], XVII, 482–486 (Dec. 27, 1964; note 1: the seventeenth point added; the title made "rural"; Mao''s "issue" (照发) dated Dec. 27; issued as Zhongfa [64] 811 Dec. 28; the General Office''s notice of Dec. 31 stopping it); [[w.deng-xiaoping-nianpu-1904]], III, 1840 (Dec. 27 and 28, 1964; Deng attends the plenary of the Central Work Conference on both afternoons); [[w.mao-zedong-zhuan]], VI, ch. 73 (Dec. 27, afternoon, the Hebei Hall of the Great Hall: Mao presides; Zhu De, Chen Boda, Dong Biwu, Lu Dingyi speak; the text of 17 articles issued Dec. 28; Dec. 31 the Center''s General Office stops its circulation and orders it destroyed). [[w.yang-jisheng-tiandi-fanfu]], I, 90–91 (Mao: "this Party has at least two factions, a socialist one and a capitalist one"; to Dong Biwu: two independent kingdoms in Peking, "guess"); [[w.peng-zhen-nianpu-1902]], IV, 381–382 (Dec. 27, 1964; Peng Zhen at the work conference''s plenary, Mao presiding, hearing Zhu De, Chen Boda, Dong Biwu, Lu Dingyi and Saifuddin on socialist education; during Chen Boda''s speech Mao: our Party has at least two factions, a socialist and a capitalist; during Dong Biwu''s: in Peking, "I don''t mean the Peking committee," there are two independent kingdoms, "你们去猜"); [[w.dikotter-cultural-revolution]], 25 n.35 (two factions, a socialist and a capitalist; "In Beijing, and I don''t mean the Beijing party committee, there are two independent kingdoms"); [[w.pu-weihua-zalan-jiu-shijie]], 6 (December 1964, no day: two "independent kingdoms" in Peking, the Secretariat under Deng Xiaoping and the State Planning Commission under Li Fuchun). Made public: 1996. Check: MacFarquhar (13) does not date the rescinding, nor name the directive. Check: the number of the directive of Dec. 31; the book has No. 814, the Wengao No. 815 (III, 425 n.142). Check: units F–G, the issue of Dec. 28 and the General Office''s notice of Dec. 31 (XVII, 485 n.1), are acts of other days. See [[cal.1964-12-15.china-leadership]]. To check: the document "Some Problems Now Raised in the Rural Socialist Education Movement" (Central Committee [64] 811, stopped Dec. 31, 1964; named by [[w.zedong-mao-zedong-nianpu]], V, Dec. 15, 1964); [[w.tse-tung-miscellany-of-mao-tse]], 2, 427 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 424 n.134a); [[w.jin-1949-1989-niande-zhongguo]], 603 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 424 n.134b); the seventeen articles, the work conference''s minutes of Dec. 27, 1964, in [[w.zedong-jianguo-yilai-mao-zedong]], 11, 280, 283–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 424 n.135b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1128 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 425 n.139); the Center''s directive No. 814 of Dec. 31, 1964, cancelling No. 811, in [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1131–2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 425 n.142c); Central Committee, Zhongfa [64] 811, Dec. 28, 1964, issuing the minutes (seventeen points) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 485 n.1b); Central Committee General Office, notice of Dec. 31, 1964 stopping the issue of Zhongfa [64] 811, to be destroyed (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 485 n.1c); [[w.xianzhi-mao-zedong-zhuan-1949]], 1373 (cited by [[w.dikotter-cultural-revolution]], 25 n.35); [[w.zhongguo-gongchandang-lishi-dashiji]], 269 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 6 n.12). Names: Mao Zedong, Chen Boda, Zhu De, Dong Biwu, Lu Dingyi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 27, 1964. [[w.macfarquhar-maos-last-revolution]], 13 (a CC directive on the movement''s next stages rescinded); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 611 (Dec. 27, 1964; Liu attends the national work conference, at which Zhu De, Chen Boda, Dong Biwu, Lu Dingyi and Sai Fuding speak on how to carry on the socialist-education movement); [[w.macfarquhar-origins-of-the-cultural]], III, 424–25 (Chen Boda derides the formulations of the four cleans and of the overlapping contradictions; Mao: at least two factions in the Party, socialist and capitalist; Mao again approves the document, a seventeenth clause added; Dec. 28, Peng Zhen authorizes its printing and distribution as central document No. 811; Dec. 31, with Liu''s agreement, the General Office cancels it); [[w.jianguo-yilai-mao-zedong]], XVII, 482–486 (Dec. 27, 1964; note 1: the seventeenth point added; the title made "rural"; Mao''s "issue" (照发) dated Dec. 27; issued as Zhongfa [64] 811 Dec. 28; the General Office''s notice of Dec. 31 stopping it); [[w.deng-xiaoping-nianpu-1904]], III, 1840 (Dec. 27 and 28, 1964; Deng attends the plenary of the Central Work Conference on both afternoons); [[w.mao-zedong-zhuan]], VI, ch. 73 (Dec. 27, afternoon, the Hebei Hall of the Great Hall: Mao presides; Zhu De, Chen Boda, Dong Biwu, Lu Dingyi speak; the text of 17 articles issued Dec. 28; Dec. 31 the Center''s General Office stops its circulation and orders it destroyed). [[w.yang-jisheng-tiandi-fanfu]], I, 90–91 (Mao: "this Party has at least two factions, a socialist one and a capitalist one"; to Dong Biwu: two independent kingdoms in Peking, "guess"); [[w.peng-zhen-nianpu-1902]], IV, 381–382 (Dec. 27, 1964; Peng Zhen at the work conference''s plenary, Mao presiding, hearing Zhu De, Chen Boda, Dong Biwu, Lu Dingyi and Saifuddin on socialist education; during Chen Boda''s speech Mao: our Party has at least two factions, a socialist and a capitalist; during Dong Biwu''s: in Peking, "I don''t mean the Peking committee," there are two independent kingdoms, "你们去猜"); [[w.dikotter-cultural-revolution]], 25 n.35 (two factions, a socialist and a capitalist; "In Beijing, and I don''t mean the Beijing party committee, there are two independent kingdoms"); [[w.pu-weihua-zalan-jiu-shijie]], 6 (December 1964, no day: two "independent kingdoms" in Peking, the Secretariat under Deng Xiaoping and the State Planning Commission under Li Fuchun); [[w.zhu-de-nianpu-xinbian]], III, 1925 (Dec. 27, 1964; Zhu De 朱德 attends the Central Work Conference 中央工作会议). Made public: 1996. Check: MacFarquhar (13) does not date the rescinding, nor name the directive. Check: the number of the directive of Dec. 31; the book has No. 814, the Wengao No. 815 (III, 425 n.142). Check: units F–G, the issue of Dec. 28 and the General Office''s notice of Dec. 31 (XVII, 485 n.1), are acts of other days. See [[cal.1964-12-15.china-leadership]]. To check: the document "Some Problems Now Raised in the Rural Socialist Education Movement" (Central Committee [64] 811, stopped Dec. 31, 1964; named by [[w.zedong-mao-zedong-nianpu]], V, Dec. 15, 1964); [[w.tse-tung-miscellany-of-mao-tse]], 2, 427 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 424 n.134a); [[w.jin-1949-1989-niande-zhongguo]], 603 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 424 n.134b); the seventeen articles, the work conference''s minutes of Dec. 27, 1964, in [[w.zedong-jianguo-yilai-mao-zedong]], 11, 280, 283–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 424 n.135b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1128 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 425 n.139); the Center''s directive No. 814 of Dec. 31, 1964, cancelling No. 811, in [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1131–2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 425 n.142c); Central Committee, Zhongfa [64] 811, Dec. 28, 1964, issuing the minutes (seventeen points) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 485 n.1b); Central Committee General Office, notice of Dec. 31, 1964 stopping the issue of Zhongfa [64] 811, to be destroyed (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 485 n.1c); [[w.xianzhi-mao-zedong-zhuan-1949]], 1373 (cited by [[w.dikotter-cultural-revolution]], 25 n.35); [[w.zhongguo-gongchandang-lishi-dashiji]], 269 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 6 n.12). Names: Mao Zedong, Chen Boda, Zhu De, Dong Biwu, Lu Dingyi.'
     src:
       c: 37265a82
       rows:
@@ -5357,6 +5439,7 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 381–382: ?'
         - 'w.dikotter-cultural-revolution 25 n.35: ?'
         - 'w.pu-weihua-zalan-jiu-shijie 6: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1925: ?'
     tags: [name:mao-zedong, name:chen-boda, name:zhu-de, name:dong-biwu, name:lu-dingyi, polity:prc, vis:only:prc]
     time_range:
       - 1964-12-27T04:00Z
@@ -5471,6 +5554,14 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 382: all'
     tags: [polity:prc, name:peng-zhen, name:zhou-enlai, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1964-12-27.china-leadership-9
+    when: Dec. 27
+    date: '1964-12-27'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Zhu De 朱德 speaks at the Central Work Conference 中央工作会议 on the "four clean-ups" 四清 and "five-antis" 五反: a great revolution, to be waged in order, the Chairman''s thought put to work, every matter handled in the Chairman''s spirit of one dividing into two 一分为二, the basic-level organs of power too, some good, some bad; of those in power, the points'' findings show few good, but the good should be the many; set the organs of power right and the economy will come right. Some comrades, seeing so many problems, grow rash and would solve them by killing more; remolding is long; do not always reach for killing, set up no tribunals, try those to be tried by law; kill few, work with care, remold bad men as men into good ones.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1925. Made public: 2016. See [[cal.1964-12-27.china-leadership]]. Names: Zhu De, Mao Zedong.'
+    tags: [polity:prc, name:zhu-de, name:mao-zedong, vis:only:prc]
   - id: cal.1964-12-28.vietnam-operations
     when: Dec. 28
     date: '1964-12-28'
@@ -5555,7 +5646,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao presides over the Central Work Conference, Hebei Hall, afternoon, after Luo Ruiqing, Chen Yi and Xie Fuzhi speak: the nature of the movement; he takes the third of three formulations, the main contradiction that between socialism and capitalism; the target, those in power in the Party taking the capitalist road. And article 16, the work style: more democracy; "what frightens people has less reason". Tells them to read the Party constitution, the 8th Congress documents, pp. 100–104, and the Constitution''s article 85.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 28, 1964. [[w.macfarquhar-maos-last-revolution]], 13 (the Party card and the constitution); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 611 (Dec. 28, 1964; Liu attends the national work conference, at which Luo Ruiqing, Chen Yi and Xie Fuzhi speak; Mao, speaking, criticizes the formulations of the nature of the movement as a contradiction between the "four clean-ups" and the "four unclean," a crossing of contradictions inside and outside the Party, a crossing of enemy and people''s contradictions; its nature is the contradiction between socialism and capitalism and its main point the rectifying of those in power in the Party who take the capitalist road); [[w.macfarquhar-origins-of-the-cultural]], III, 424–25 (at the end of a long monologue on the movement''s nature Mao brandishes the state and Party constitutions: as citizen and member he may speak; one colleague would keep him from the meeting, another from speaking); [[w.macfarquhar-origins-of-the-cultural]], III, 431 (by Mao''s account to Snow of Dec. 1970, Liu Shaoqi opposed the "capitalist roader" formulation at the conference; by Hu Qiaomu''s, he spoke only of overlapping contradictions); [[w.mao-zedong-zhuan]], VI, ch. 73 (Dec. 28, afternoon, the Hebei Hall of the Great Hall: Mao presides, Luo Ruiqing, Chen Yi and Xie Fuzhi speak; on article 1 the third formulation, socialism against capitalism, and article 16, democracy and fear; he tells them to read the Party constitution and the Eighth Congress papers, pp. 100–104 (n.38)). [[w.yang-jisheng-mubei]], II, 1146 n.69 (at the conference on the four cleans Mao comes into a meeting Deng Xiaoping chairs, the state Constitution 憲法 in one hand and the Party Constitution 黨章 in the other: one does not let him attend a meeting, one does not let him speak, why take away the rights the two give him? Deng had told him beforehand he need not attend, being unwell; in Chen Boda''s account to his son Chen Xiaonong, Liu Shaoqi had broken in on Mao''s speech at the meeting on the 23 Articles the day before and gone on speaking; the book dates the scene Jan. 28, 1965); [[w.yang-jisheng-tiandi-fanfu]], I, 91 (Mao reads the constitution and the Party constitution on free speech; Deng Xiaoping had told him he need not come; Chen Boda''s later account to his son: Liu interrupted Mao and talked on); [[w.peng-zhen-nianpu-1902]], IV, 382 (Dec. 28, 1964; Peng Zhen at the work conference''s plenary, Mao presiding, on its minutes; after Luo Ruiqing, Chen Yi and Xie Fuzhi speak, Mao criticizes calling the movement''s nature the contradiction of "four cleans" and "four uncleans," or a crossing of contradictions inside and outside the Party and of enemy and people: its name socialist education, its stress "整党内那些走资本主义道路的当权派"); [[w.jian-zhou-enlai]], 519 (two days after the banquet, "at a Politburo meeting," so Chen: Mao brings the PRC constitution and the Party charter; "Am I a party member? Am I a citizen?"; barred from one meeting and not invited to speak at another; the movement to "expose those capitalist roaders in power"; Liu and Deng at a loss for words); [[w.dikotter-cultural-revolution]], 25–26 n.36 (Deng having suggested Mao need not attend, Mao brandishes the Party and state constitutions and reads out his right to speak; "One person told me not to attend the meeting, and another didn''t want me to speak"; outside the room: "Somebody is shitting on my head"); [[w.pu-weihua-zalan-jiu-shijie]], 24 (at a Politburo meeting Mao, holding the Party constitution and the state constitution, raps Liu Shaoqi and Deng Xiaoping). Made public: 1996. Check: MacFarquhar (13), at a top-level conference "by the end of 1964", undated: Mao challenges Liu Shaoqi''s handling of the Socialist Education Movement, accuses Liu and Deng Xiaoping of trying to keep him from speaking by leaving him out, and produces his Party card and a copy of the constitution to show his right to be there and be heard. Check: [[w.yang-jisheng-mubei]], II, 1146, dates the scene with the two constitutions Jan. 28, 1965, "still at this meeting" on the four cleans, a fortnight after the conference (Dec. 15 to Jan. 14, [[cal.1964-12-15.china-leadership]]) closed, and has Deng Xiaoping chair the meeting. To check: [[w.jin-1949-1989-niande-zhongguo]], 604 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 425 n.136a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1131 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 425 n.136b); [[w.zhisui-private-life-of-chairman]], 411–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 425 n.136c); Mao Zedong, speech of Dec. 28, 1964, to the work conference, in [[w.tse-tung-miscellany-of-mao-tse]], 2, 429–32 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 425 n.136d); [[w.snow-long-revolution]], 17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 431 n.1a); [[w.thomas-season-of-high-adventure]], 312–15 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 431 n.1b); [[w.zhonggong-dangshi-renwuzhuan]], 48, 120 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 431 n.3); Central Work Conference 中央工作会议, record 记录, Dec. 28, 1964 (Mao''s remarks) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.38); [[w.chen-boda-zuihou-koushu]] (the Dongfang chubanshe ed., 2010), 277 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 91 n.126); The chairman''s speech, December 28, 1964, 101-12-255, pp. 1–9, Fujian Provincial Archive (cited by [[w.jian-zhou-enlai]], 519 n.5a); [[w.shangkun-yang-shangkun-riji-2]], 478–482 (cited by [[w.jian-zhou-enlai]], 519 n.5b); [[w.xianzhi-mao-zedong-zhuan-1949]], 1372–1375 (cited by [[w.jian-zhou-enlai]], 519 n.5c); [[w.xiao-donglian-qiusuo-zhongguo]], II, 787, 791 (cited by [[w.dikotter-cultural-revolution]], 26 n.36). Names: Mao Zedong, Luo Ruiqing, Chen Yi, Xie Fuzhi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 28, 1964. [[w.macfarquhar-maos-last-revolution]], 13 (the Party card and the constitution); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 611 (Dec. 28, 1964; Liu attends the national work conference, at which Luo Ruiqing, Chen Yi and Xie Fuzhi speak; Mao, speaking, criticizes the formulations of the nature of the movement as a contradiction between the "four clean-ups" and the "four unclean," a crossing of contradictions inside and outside the Party, a crossing of enemy and people''s contradictions; its nature is the contradiction between socialism and capitalism and its main point the rectifying of those in power in the Party who take the capitalist road); [[w.macfarquhar-origins-of-the-cultural]], III, 424–25 (at the end of a long monologue on the movement''s nature Mao brandishes the state and Party constitutions: as citizen and member he may speak; one colleague would keep him from the meeting, another from speaking); [[w.macfarquhar-origins-of-the-cultural]], III, 431 (by Mao''s account to Snow of Dec. 1970, Liu Shaoqi opposed the "capitalist roader" formulation at the conference; by Hu Qiaomu''s, he spoke only of overlapping contradictions); [[w.mao-zedong-zhuan]], VI, ch. 73 (Dec. 28, afternoon, the Hebei Hall of the Great Hall: Mao presides, Luo Ruiqing, Chen Yi and Xie Fuzhi speak; on article 1 the third formulation, socialism against capitalism, and article 16, democracy and fear; he tells them to read the Party constitution and the Eighth Congress papers, pp. 100–104 (n.38)). [[w.yang-jisheng-mubei]], II, 1146 n.69 (at the conference on the four cleans Mao comes into a meeting Deng Xiaoping chairs, the state Constitution 憲法 in one hand and the Party Constitution 黨章 in the other: one does not let him attend a meeting, one does not let him speak, why take away the rights the two give him? Deng had told him beforehand he need not attend, being unwell; in Chen Boda''s account to his son Chen Xiaonong, Liu Shaoqi had broken in on Mao''s speech at the meeting on the 23 Articles the day before and gone on speaking; the book dates the scene Jan. 28, 1965); [[w.yang-jisheng-tiandi-fanfu]], I, 91 (Mao reads the constitution and the Party constitution on free speech; Deng Xiaoping had told him he need not come; Chen Boda''s later account to his son: Liu interrupted Mao and talked on); [[w.peng-zhen-nianpu-1902]], IV, 382 (Dec. 28, 1964; Peng Zhen at the work conference''s plenary, Mao presiding, on its minutes; after Luo Ruiqing, Chen Yi and Xie Fuzhi speak, Mao criticizes calling the movement''s nature the contradiction of "four cleans" and "four uncleans," or a crossing of contradictions inside and outside the Party and of enemy and people: its name socialist education, its stress "整党内那些走资本主义道路的当权派"); [[w.jian-zhou-enlai]], 519 (two days after the banquet, "at a Politburo meeting," so Chen: Mao brings the PRC constitution and the Party charter; "Am I a party member? Am I a citizen?"; barred from one meeting and not invited to speak at another; the movement to "expose those capitalist roaders in power"; Liu and Deng at a loss for words); [[w.dikotter-cultural-revolution]], 25–26 n.36 (Deng having suggested Mao need not attend, Mao brandishes the Party and state constitutions and reads out his right to speak; "One person told me not to attend the meeting, and another didn''t want me to speak"; outside the room: "Somebody is shitting on my head"); [[w.pu-weihua-zalan-jiu-shijie]], 24 (at a Politburo meeting Mao, holding the Party constitution and the state constitution, raps Liu Shaoqi and Deng Xiaoping); [[w.zhu-de-nianpu-xinbian]], III, 1925–1926 (Dec. 28, 1964, afternoon; Zhu De 朱德 attends the Central Work Conference 中央工作会议; Mao Zedong 毛泽东 criticizes the minutes'' formulas of the movement''s nature (the "four clean" against the "four unclean," the crossing of contradictions inside and outside the Party, of the enemy''s and the people''s), holds it the contradiction of socialism and capitalism, its point to rectify those in power in the Party taking the capitalist road; the conference, due to close that day, goes on after New Year). Made public: 1996. Check: MacFarquhar (13), at a top-level conference "by the end of 1964", undated: Mao challenges Liu Shaoqi''s handling of the Socialist Education Movement, accuses Liu and Deng Xiaoping of trying to keep him from speaking by leaving him out, and produces his Party card and a copy of the constitution to show his right to be there and be heard. Check: [[w.yang-jisheng-mubei]], II, 1146, dates the scene with the two constitutions Jan. 28, 1965, "still at this meeting" on the four cleans, a fortnight after the conference (Dec. 15 to Jan. 14, [[cal.1964-12-15.china-leadership]]) closed, and has Deng Xiaoping chair the meeting. To check: [[w.jin-1949-1989-niande-zhongguo]], 604 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 425 n.136a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1131 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 425 n.136b); [[w.zhisui-private-life-of-chairman]], 411–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 425 n.136c); Mao Zedong, speech of Dec. 28, 1964, to the work conference, in [[w.tse-tung-miscellany-of-mao-tse]], 2, 429–32 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 425 n.136d); [[w.snow-long-revolution]], 17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 431 n.1a); [[w.thomas-season-of-high-adventure]], 312–15 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 431 n.1b); [[w.zhonggong-dangshi-renwuzhuan]], 48, 120 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 431 n.3); Central Work Conference 中央工作会议, record 记录, Dec. 28, 1964 (Mao''s remarks) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.38); [[w.chen-boda-zuihou-koushu]] (the Dongfang chubanshe ed., 2010), 277 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 91 n.126); The chairman''s speech, December 28, 1964, 101-12-255, pp. 1–9, Fujian Provincial Archive (cited by [[w.jian-zhou-enlai]], 519 n.5a); [[w.shangkun-yang-shangkun-riji-2]], 478–482 (cited by [[w.jian-zhou-enlai]], 519 n.5b); [[w.xianzhi-mao-zedong-zhuan-1949]], 1372–1375 (cited by [[w.jian-zhou-enlai]], 519 n.5c); [[w.xiao-donglian-qiusuo-zhongguo]], II, 787, 791 (cited by [[w.dikotter-cultural-revolution]], 26 n.36). Names: Mao Zedong, Luo Ruiqing, Chen Yi, Xie Fuzhi.'
     src:
       c: 48a5a286
       rows:
@@ -5583,6 +5674,7 @@ entries:
         - 'via x.1964-12-28.mao-speech-work-conference-fpa-101-12-255: ?'
         - 'w.dikotter-cultural-revolution 25–26 n.36: ?'
         - 'w.pu-weihua-zalan-jiu-shijie 24: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1925–1926: ?'
     tags: [name:mao-zedong, name:luo-ruiqing, name:chen-yi, name:xie-fuzhi, polity:prc, vis:only:prc]
     time_range:
       - 1964-12-28T04:00Z
@@ -5660,6 +5752,19 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 23: all'
     tags: [polity:prc, vis:only:prc, name:lin-biao]
+  - id: cal.1964-12-28.china-leadership-6
+    when: Dec. 28
+    date: '1964-12-28'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zhu De 朱德 attends the first session of the Third NPC 第三届全国人大第一次会议.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1925. The words: 上午 (1925). Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
+    time_range:
+      - 1964-12-27T22:00Z
+      - 1964-12-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-12-29.congress
     when: Dec. 29
     date: '1964-12-29'
@@ -5919,6 +6024,19 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 449 n.110: A, B'
         - 'w.pu-weihua-zalan-jiu-shijie 24: ?'
     tags: [polity:prc, name:lin-biao, vis:only:prc]
+  - id: cal.1964-12-29.china-leadership-7
+    when: Dec. 29
+    date: '1964-12-29'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zhu De 朱德 attends the first session of the Third NPC 第三届全国人大第一次会议.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1926. The words: 上午 (1926). Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
+    time_range:
+      - 1964-12-28T22:00Z
+      - 1964-12-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-12-30.legislatures-mo
     when: Dec. 30
     date: '1964-12-30'
@@ -5985,7 +6103,7 @@ entries:
     date: '1964-12-30'
     thread: china-leadership
     c: Zhou attends the Supreme State Conference Liu Shaoqi calls, on the Government Work Report and the list.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 698 (Dec. 30, 1964); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 612 (Dec. 30, 1964; Liu presides at the Supreme State Conference and speaks on the international and home situation, the socialist-education movement and the two labor and two education systems; the movement''s main point is to rectify those in power in our Party who stubbornly take the capitalist road, in the production brigades, teams and communes, some in the counties, some in the special districts and provinces, and a few departments of the Center; on remolding he says not to fear it, for he too at first was no Marxist and believed in Confucius, in feudal literati, then in capitalism and the Kuomintang, and last found Marxism; if China itself is done well and its people and society remolded, a quarter of the world is done well); [[w.peng-zhen-nianpu-1902]], IV, 382–383 (Dec. 30, 1964; Peng Zhen speaks at the twenty-first Supreme State Conference, Liu Shaoqi presiding, on the lists of the state''s leaders and the CPPCC''s chairman, vice-chairmen and standing members; Liu on the situation, socialist education and the two systems of labor and of education). Made public: 1996. Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 698 (Dec. 30, 1964); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 612 (Dec. 30, 1964; Liu presides at the Supreme State Conference and speaks on the international and home situation, the socialist-education movement and the two labor and two education systems; the movement''s main point is to rectify those in power in our Party who stubbornly take the capitalist road, in the production brigades, teams and communes, some in the counties, some in the special districts and provinces, and a few departments of the Center; on remolding he says not to fear it, for he too at first was no Marxist and believed in Confucius, in feudal literati, then in capitalism and the Kuomintang, and last found Marxism; if China itself is done well and its people and society remolded, a quarter of the world is done well); [[w.peng-zhen-nianpu-1902]], IV, 382–383 (Dec. 30, 1964; Peng Zhen speaks at the twenty-first Supreme State Conference, Liu Shaoqi presiding, on the lists of the state''s leaders and the CPPCC''s chairman, vice-chairmen and standing members; Liu on the situation, socialist education and the two systems of labor and of education); [[w.zhu-de-nianpu-xinbian]], III, 1926 (Dec. 30, 1964; Zhu De 朱德 at the Supreme State Conference 最高国务会议 Liu Shaoqi 刘少奇 presides over, which consults on the lists of leaders to be proposed to the first sessions of the Third NPC 第三届全国人大 and of the Fourth CPPCC National Committee 政协第四届全国委员会). Made public: 1996. Names: Zhou Enlai, Liu Shaoqi.'
     tags: [name:zhou-enlai, name:liu-shaoqi, polity:prc, vis:only:prc]
   - id: cal.1964-12-30.china-leadership-3
     when: Dec. 30
@@ -7023,9 +7141,10 @@ entries:
   - id: cal.1964-12-31.china-leadership-14
     when: Dec. 31
     date: '1964-12-31'
+    place: peking
     thread: china-leadership
     c: Chen Yi 陈毅, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇 and the other leaders, at the capital's New Year gala of 50,000 soldiers and civilians for support of the army and the people.
-    n: '[[w.chen-yi-nianpu]], 1077. The words: 晚上 (1077). Names: Chen Yi, Mao Zedong, Liu Shaoqi.'
+    n: '[[w.chen-yi-nianpu]], 1077; [[w.zhu-de-nianpu-xinbian]], III, 1926 (Dec. 31, 1964; Zhu De 朱德 at the capital''s New Year gala 首都拥军优属、拥政爱民新年联欢晚会; before it, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and others, receives the representatives of the "four-good" companies and "five-good" soldiers, marksmen and gunners of the PLA and public security forces 解放军和公安部队, the men who shot down American-made Nationalist spy planes 美制蒋军间谍飞机, the East China Sea militia 东海民兵 who took a Nationalist pilot alive, labor models, militia and the families of soldiers and martyrs). The words: 晚上 (1077). Names: Chen Yi, Mao Zedong, Liu Shaoqi.'
     tags: [polity:prc, name:chen-yi, name:mao-zedong, name:liu-shaoqi, ok:fields-place]
     time_range:
       - 1964-12-31T11:00Z
@@ -7077,3 +7196,22 @@ entries:
     c: Peking 北京. Ye Jianying 叶剑英 is elected a vice-chairman and a member of the standing committee of the Fourth National Committee of the CPPCC 政协第四届全国委员会.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 925. Names: Ye Jianying. Check: the day: the nianpu says only during the session, which opened Dec. 20.'
     tags: [polity:prc, name:ye-jianying]
+  - id: cal.1964-12.china-leadership-13
+    when: Dec.
+    date: 1964-12
+    place: shaanxi
+    thread: china-leadership
+    c: Shaanxi 陕西. Hu Yaobang 胡耀邦, in charge of the committee, decides to suspend seizures of power, the "double expulsions" 双开 (from the Party and from public posts) and arrests in the socialist education movement.
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 133. Made public: 2000 ([[w.zhongguo-gongchandang-zuzhishi-ziliao]]). To check: [[w.zhongguo-gongchandang-zuzhishi-ziliao]], V, 770–771 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 133 n.79).'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 133: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-12-31.china-leadership-15
+    when: Dec. 31
+    date: '1964-12-31'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zhu De 朱德 meets Burma's new Ambassador, 沙马杜瓦·信拟瑙.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1926. Names: Zhu De.'
+    tags: [polity:prc, polity:burma, name:zhu-de]

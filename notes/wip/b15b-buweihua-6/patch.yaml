@@ -1,0 +1,529 @@
+patch: 2026-11-21-b15b-buweihua-6
+by: Claude (batch 15b, Bu Weihua, *Zalan jiu shijie* (2008), run 6), Nov. 21, 2026
+ops:
+  - edit:
+      id: cal.1966-08-27.china-leadership-6
+      base: a9b01240
+      set:
+        time_range:
+          - 1966-08-27T04:00Z
+          - 1966-08-27T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - edit:
+      id: cal.1966-09-06.china-leadership-3
+      base: 5129661e
+      set:
+        time_range:
+          - 1966-09-05T22:00Z
+          - 1966-09-06T04:00Z
+        time_band: morning
+        time_zone: Asia/Shanghai
+  - cite:
+      id: cal.1966-08-27.china-leadership-6
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 224 (founded Aug. 27, the afternoon by the Mining Institute Red Guards'' words next day, "昨天下午成立"; twenty-nine bodies of twenty-seven colleges, about 6,000; Wang Yanqun 汪延群 of the Peking Light Industry Institute, Wang Dongxing''s daughter, commander; Liu Pingfan 刘平凡, Liu Zhijian''s daughter, among the deputies; all but a few bodies majority factions that had backed the work groups)'
+      units: A
+  - variant:
+      id: cal.1966-08-27.china-leadership-6
+      unit: A
+      witness: w.pu-weihua-zalan-jiu-shijie
+      reads: the commander Wang Yanqun 汪延群
+      at: '224'
+  - add:
+      entry:
+        id: cal.1966-08-27.china-leadership-20
+        when: Aug. 27
+        date: '1966-08-27'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Jiang Qing 江青, at the founding meeting of the Capital Colleges'' Red Guard Headquarters 首都大专院校红卫兵司令部 (the First Headquarters 一司), with Xie Fuzhi 谢富治, Yang Chengwu 杨成武, Liu Zhijian 刘志坚 and Wang Dongxing 汪东兴 present: she comes herself and believes the Cultural Revolution Group 中央文革小组 backs them too; she proposes Yang Chengwu and Liu Zhijian as their advisers, and gives them a task: to help the People''s Liberation Army guard Zhongnanhai 中南海, the Great Hall 大会堂 and the Diaoyutai 钓鱼台.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 224. The words: 我个人参加你们的大会; 协助人民解放军保护中南海、大会堂、钓鱼台 (224); the founding 昨天下午 (224, the Mining Institute Red Guards'' words of Aug. 28). See [[cal.1966-08-27.china-leadership-6]]. Names: Jiang Qing, Xie Fuzhi.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 224: all'
+        tags: [polity:prc, name:jiang-qing, name:xie-fuzhi]
+        time_range:
+          - 1966-08-27T04:00Z
+          - 1966-08-27T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-09-01.china-leadership-16
+        when: Sept. 1
+        date: '1966-09-01'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The First Headquarters 一司 of the capital's college Red Guards puts out the first issue of its paper, *Hongweibing* 《红卫兵》.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 224. See [[cal.1966-08-27.china-leadership-6]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 224: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-28.china-leadership-13
+        when: Aug. 28
+        date: '1966-08-28'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Thirty-eight college mass organizations outside the First Headquarters 一司, the Peking Mining Institute''s 北京矿业学院 Mao Zedong Thought Red Guards 毛泽东思想红卫兵 among them, issue a statement: its founding illegal and splittist; it cannot speak for the capital''s college Red Guards.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 224. See [[cal.1966-08-27.china-leadership-6]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 224: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-28.china-leadership-14
+        when: Aug. 28
+        date: '1966-08-28'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Kang Sheng 康生 receives the Peking Mining Institute''s 北京矿业学院 Mao Zedong Thought Red Guards 毛泽东思想红卫兵. Of the First Headquarters 一司: neither the Center 中央 nor the city committee 市委 knew of it beforehand; inquiry after the fact shows a few dozen schools set it up themselves. The Red Guards put three points: they do not recognize the headquarters founded the afternoon before; a general headquarters to be founded anew; failing that, they will ask Mao 毛泽东 directly. Kang: those that have not joined may found one of their own.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 224. The words: 我们中央、市委事前也不晓得; 没有加入的,你们重新成立一个 (224). See [[cal.1966-08-28.china-leadership-13]]. Names: Kang Sheng.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 224: all'
+        tags: [polity:prc, name:kang-sheng]
+  - cite:
+      id: cal.1966-09-05.china-leadership-8
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 224–225 (forty-eight bodies of forty-eight colleges, over 11,000; Zhou Taian 周太安 of People''s University, son of the Navy''s deputy commander Zhou Xihan 周希汉, acting commander; very few minority bodies in it, Beihang''s Red Flag among them, the majority bodies overwhelming, called by the rebels the "royalist headquarters"; Jiang Qing, Xie Fuzhi, Yang Chengwu, Liu Zhijian and Wang Dongxing at its founding meeting, Jiang and Liu speaking; Yang Chengwu and Liu Zhijian its advisers)'
+      units: A, B
+  - add:
+      entry:
+        id: cal.1966-10-01.china-leadership-13
+        when: Oct. 1
+        date: '1966-10-01'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The Second Headquarters 二司 of the capital's college Red Guards puts out the first issue of its paper, *Dongfanghong* 《东方红》.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 225. See [[cal.1966-09-05.china-leadership-8]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 225: all'
+        tags: [polity:prc]
+  - cite:
+      id: cal.1966-09-06.china-leadership-3
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 225, 225 n.60 (founded the morning of Sept. 6, 9月6日上午; nineteen bodies of seventeen schools, about 4,000, nearly all minority factions, the Geological Institute''s East Is Red, the Tsinghua "Maoism Red Guards" 毛泽东主义红卫兵, the Posts and Telecommunications Institute''s East Is Red, the Foreign Languages Institute''s Red Flag battalion and the Politics and Law Institute''s commune among them; its conveners Zhou Yongzhang 周永璋 of the Geological Institute and Tang Jin 唐晋 of Tsinghua, Zhou soon removed and Zhu Chengzhao 朱成昭 in his place (225 n.60); Liu Zhijian, Zhou Rongxin and Qi Benyu at its founding meeting, Liu speaking; Yang Chengwu and Liu Zhijian its advisers)'
+  - variant:
+      id: cal.1966-09-06.china-leadership-3
+      unit: A
+      witness: w.pu-weihua-zalan-jiu-shijie
+      reads: its conveners Zhou Yongzhang 周永璋 and Tang Jin 唐晋; Zhu Chengzhao in Zhou's place only after Zhou's removal
+      at: 225, 225 n.60
+  - variant:
+      id: cal.1966-09-06.china-leadership-3
+      unit: C
+      witness: w.pu-weihua-zalan-jiu-shijie
+      reads: the Tsinghua "Maoism Red Guards" 毛泽东主义红卫兵
+      at: '225'
+  - add:
+      entry:
+        id: cal.1966-09-13.china-leadership-6
+        when: Sept. 13
+        date: '1966-09-13'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The Third Headquarters 三司 of the capital's college Red Guards puts out the first issue of its paper, *Shoudu hongweibing* 《首都红卫兵》.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 225. See [[cal.1966-09-06.china-leadership-3]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 225: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-10-16.china-leadership-5
+        when: Oct. 16
+        date: '1966-10-16'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Red Guards of the Peking Industrial Institute 北京工业学院 and some other colleges found the Capital Colleges'' Red Guard Liaison Committee 首都大专院校红卫兵联络委员会, then called the "Fourth Headquarters" 第四司令部: small, of little weight, soon gone.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 225.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 225: all'
+        tags: [polity:prc]
+  - cite:
+      id: cal.1966-08-25.china-leadership-4
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 225 (the Red Guard bodies of thirty-one West City middle schools meet at the girls'' middle school of Peking Normal University 师大女附中 and decide to found the Pickets'' West City detachment; nineteen more West City schools'' bodies join soon after; its declared duties: to study, carry out, spread and defend Mao Zedong Thought; to suppress the landlords, rich peasants, counter-revolutionaries, bad elements, rightists, the bourgeoisie and their "filial sons"; to annul propaganda and bans not in line with Mao Zedong Thought; to inspect every unit''s Red Guards; to hold false Red Guards and hooligans; to guard the important state organs and main streets)'
+      units: A, B
+  - add:
+      entry:
+        id: cal.1966-08.china-leadership-66
+        when: Aug., from the 25th
+        date: 1966-08
+        at: after 1966-08-25
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The West City Pickets 西纠, after their founding, issue thirteen general orders 通令 one after another, detailed rules on guarding the Center's Party and government organs, protecting old cadres, keeping state secrets and the capital's order, against force and corporal punishment in struggle and house searches, on the policy toward the national bourgeoisie and on the reception of foreign guests.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 225–226. See [[cal.1966-08-25.china-leadership-4]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 225–226: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966.china-leadership-117
+        when: 1966, after Aug. 25
+        date: '1966'
+        at: before 1966-09
+        thread: china-leadership
+        c: Zhou Enlai 周恩来 sends Zhou Rongxin 周荣鑫, secretary-general of the State Council 国务院, his deputy Yong Wentao 雍文涛 and Xu Ming 许明 to guide the West City Pickets 西纠.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 226, 226 n.61. Made public: 2008. Printed for internal circulation: Kong Dan 孔丹, in the *Renmin ribao*''s *Qingkuang huibao* 《情況匯報》, no. 1107 (Apr. 3, 1979) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 226 n.61). To check: 孔丹, 〈鎮壓「西糾」是林彪、「四人幫」一夥反對周總理的險惡陰謀〉 (1979) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 226 n.61). See [[cal.1966-08-25.china-leadership-4]]. Names: Zhou Enlai.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 226: all'
+            - 'via x.1979-04-03.kong-dan-zhenya-xijiu-qingkuang-huibao-1107: all'
+        tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+  - add:
+      entry:
+        id: cal.1966.china-leadership-118
+        when: 1966, after Aug. 25
+        date: '1966'
+        at: before 1966-09
+        place: peking
+        thread: china-leadership
+        c: Peking 北京, the State Council 国务院. Zhou Enlai 周恩来 receives the members of the West City Pickets' 西纠 headquarters, sets them in detail to keep order at the Peking railway station 北京火车站, and tells Zhou Rongxin 周荣鑫 on the spot to give them housing, transport and printing.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 226, 226 n.61. Made public: 2008. Printed for internal circulation: Kong Dan 孔丹, in the *Renmin ribao*''s *Qingkuang huibao* 《情況匯報》, no. 1107 (Apr. 3, 1979) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 226 n.61). To check: 孔丹, 〈鎮壓「西糾」是林彪、「四人幫」一夥反對周總理的險惡陰謀〉 (1979) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 226 n.61). See [[cal.1966.china-leadership-117]]. Names: Zhou Enlai.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 226: all'
+            - 'via x.1979-04-03.kong-dan-zhenya-xijiu-qingkuang-huibao-1107: all'
+        tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+  - add:
+      entry:
+        id: cal.1966.china-leadership-119
+        when: 1966, after Aug. 25
+        date: '1966'
+        at: before 1966-09
+        thread: china-leadership
+        c: 'Zhou Enlai 周恩来, through Zhou Rongxin 周荣鑫 and Xu Ming 许明, gives the West City Pickets 西纠 tasks: the Panchen Lama''s 班禅 safety at the Nationalities Institute 民族学院 students'' meeting to struggle him; the houses of Song Qingling 宋庆龄, He Xiangning 何香凝, Guo Moruo 郭沫若, Fu Zuoyi 傅作义, Zhang Zhizhong 张治中, Shao Lizi 邵力子, Zhang Shizhao 章士钊, Cheng Qian 程潜, Jiang Guangnai 蒋光鼐, Cai Tingkai 蔡廷锴, Sha Qianli 沙千里, Zhang Xiruo 张奚若, Li Zongren 李宗仁, Cheng Yanqiu 程砚秋 and others to be kept from house searches.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 226, 226 n.61. Made public: 2008. Printed for internal circulation: Kong Dan 孔丹, in the *Renmin ribao*''s *Qingkuang huibao* 《情況匯報》, no. 1107 (Apr. 3, 1979) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 226 n.61). To check: 孔丹, 〈鎮壓「西糾」是林彪、「四人幫」一夥反對周總理的險惡陰謀〉 (1979) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 226 n.61). See [[cal.1966.china-leadership-118]]. Names: Zhou Enlai.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 226: all'
+            - 'via x.1979-04-03.kong-dan-zhenya-xijiu-qingkuang-huibao-1107: all'
+        tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+  - add:
+      entry:
+        id: cal.1966-08-31.china-leadership-12
+        when: Aug. 31
+        date: '1966-08-31'
+        place: peking
+        thread: china-leadership
+        c: Tiananmen 天安门, Peking 北京. Fifteen delegates of the West City Pickets 西纠, named by Zhou Enlai 周恩来 himself, are on the gate tower for Mao's 毛泽东 second reception of the Red Guards.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 226, 226 n.61. To check: 孔丹, 〈鎮壓「西糾」是林彪、「四人幫」一夥反對周總理的險惡陰謀〉 (1979) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 226 n.61). See [[cal.1966-08-31.china-leadership-2]]. Names: Zhou Enlai, Mao Zedong.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 226: all'
+            - 'via x.1979-04-03.kong-dan-zhenya-xijiu-qingkuang-huibao-1107: all'
+        tags: [polity:prc, name:zhou-enlai, name:mao-zedong]
+  - add:
+      entry:
+        id: cal.1966-08-31.china-leadership-13
+        when: Aug. 31
+        date: '1966-08-31'
+        place: peking
+        thread: china-leadership
+        c: Tiananmen 天安门, Peking 北京. Ye Jianying 叶剑英, on the gate tower, meeting Kong Dan 孔丹 and other delegates of the West City Pickets 西纠, praises their general orders, asks in detail of their difficulties with propaganda equipment, and says on the spot he will give them what they need.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 226, 226 n.61. Made public: 2008. Printed for internal circulation: Kong Dan 孔丹, in the *Renmin ribao*''s *Qingkuang huibao* 《情況匯報》, no. 1107 (Apr. 3, 1979) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 226 n.61). To check: 孔丹, 〈鎮壓「西糾」是林彪、「四人幫」一夥反對周總理的險惡陰謀〉 (1979) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 226 n.61). See [[cal.1966-08-31.china-leadership-12]]. Names: Ye Jianying.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 226: all'
+            - 'via x.1979-04-03.kong-dan-zhenya-xijiu-qingkuang-huibao-1107: all'
+        tags: [polity:prc, vis:only:prc, name:ye-jianying]
+  - add:
+      entry:
+        id: cal.1966-09-10.china-leadership-6
+        when: Sept. 10
+        date: '1966-09-10'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The East City district's 东城区 Red Guard pickets, the "Dongjiu" 东纠, are founded after the West City Pickets' model; they do little.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 226. See [[cal.1966-08-25.china-leadership-4]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 226: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-09-16.china-leadership-7
+        when: Sept. 16
+        date: '1966-09-16'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Minority Red Guards of the No. 2, No. 5 and No. 25 middle schools 北京二中、五中、二十五中 and others found a joint body, the Mao Zedong Thought Red Guards' Capital Corps 毛泽东思想红卫兵首都兵团, later one of the chief rebel middle-school bodies of Peking.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 226.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 226: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-17.china-leadership-6
+        when: Aug. 17
+        date: '1966-08-17'
+        place: changsha
+        thread: china-leadership
+        c: Changsha 长沙. The "Red Political Power Defense Army" 红色政权保卫军, the city's first citywide mass organization, is founded; many members children of cadres of the Hunan committee 省委 and military district 省军区.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 227.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 227: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-09.china-leadership-36
+        when: Sept., by the 14th
+        date: 1966-09
+        at: before 1966-09-14
+        place: changsha
+        thread: china-leadership
+        c: Changsha 长沙. The workers' "Defend Mao Zedong Thought Workers' Red Guards" 保卫毛泽东思想工人赤卫队 and the "Proletarian Dictatorship Army" 无产阶级专政军 are founded.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 227. The words: 到9月14日 (227). See [[cal.1966-08-17.china-leadership-6]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 227: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-09-28.china-leadership-12
+        when: Sept. 28
+        date: '1966-09-28'
+        place: changsha
+        thread: china-leadership
+        c: Changsha 长沙, the provincial stadium 省体育馆. The Red Political Power Defense Army's Hunan colleges' general command 红色政权保卫军湖南高等院校总指挥部 holds its founding meeting; Wan Da 万达, a secretary of the Hunan committee 中共湖南省委, and others come to congratulate it, and Zhang Pinghua 张平化, the first secretary, is engaged as its adviser.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 227. See [[cal.1966-08-17.china-leadership-6]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 227: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-20.china-leadership-10
+        when: Aug. 20
+        date: '1966-08-20'
+        place: taiyuan
+        thread: china-leadership
+        c: Taiyuan 太原, the May First Square 五一广场. The Shanxi committee 中共山西省委 holds a rally of 150,000 "to carry the Cultural Revolution deeper", the heads of the committee, the provincial people's council 省人委, the military district and the troops in Shanxi attending, and announces a preparatory leading body for the province's Red Guards, to lead the Red Guard movement.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 227.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 227: all'
+        tags: [polity:prc]
+  - cite:
+      id: cal.1966-08-24.china-leadership-10
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 227 (Aug. 24: on the city leaders'' arrangement every college founds the Mao Zedong Thought Red Defense Army 毛泽东思想赤卫军, at first the colleges'' "red five categories" students and some staff, later mostly staff and workers as the students move to the Maoism Red Guards)'
+      units: A, B
+  - add:
+      entry:
+        id: cal.1966-08-24.china-leadership-15
+        when: Aug. 24
+        date: '1966-08-24'
+        place: chongqing
+        thread: china-leadership
+        c: Chongqing 重庆, the Chongqing Medical College 重庆医学院. "Red five categories" students, mostly cadres' children, with the backing of the Party and government leaders, found the "Maoism Red Guards" 毛泽东主义红卫兵.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 227.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 227: all'
+        tags: [polity:prc]
+  - cite:
+      id: cal.1966-09-03.china-leadership-5
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 227 (Sept. 3: with the city committee''s backing the Maoism Red Guards hold a delegates'' congress at the city''s Working People''s Cultural Palace and adopt their founding declaration; the committee sends an orchestra and reporters)'
+      units: A, B
+  - add:
+      entry:
+        id: cal.1966-09-08.china-leadership-11
+        when: Sept. 8
+        date: '1966-09-08'
+        place: chongqing
+        thread: china-leadership
+        c: Chongqing 重庆. The headquarters of the Maoism Red Guards 毛泽东主义红卫兵 is formally founded; on the city committee's proposal, with the Chengdu Military Region's 成都军区 approval, Wei Tongtai 韦统泰, commander of the 54th Army 五十四军, and Liang Damen 梁大门, its political department's director, are its advisers.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 227. See [[cal.1966-09-03.china-leadership-5]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 227: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-09-09.china-leadership-7
+        when: Sept. 9
+        date: '1966-09-09'
+        place: chongqing
+        thread: china-leadership
+        c: 'Chongqing 重庆. The *Chongqing ribao* 《重庆日报》 reports the founding of the Maoism Red Guards'' 毛泽东主义红卫兵 headquarters under red banner headlines, with an editorial, "Salute to the heroic Red Guards" 〈向英雄的红卫兵致敬〉: "a great happy event" of the city''s Cultural Revolution.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 227. See [[cal.1966-09-08.china-leadership-11]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 227: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-09.china-leadership-37
+        when: Sept., after the 9th
+        date: 1966-09
+        at: after 1966-09-09
+        place: chongqing
+        thread: china-leadership
+        c: Chongqing 重庆. The city committee calls on every unit to have "red five categories" parents "send their sons to the army," to put their children into the Maoism Red Guards 毛泽东主义红卫兵; the *Chongqing ribao* 《重庆日报》 plays it up, and model workers and old workers across the city follow.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 227. See [[cal.1966-09-09.china-leadership-7]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 227: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-25.china-leadership-18
+        when: Aug. 25
+        date: '1966-08-25'
+        place: nanning
+        thread: china-leadership
+        c: Nanning 南宁, the Red Star Theatre 红星剧院. The city's Red Guard united headquarters 红卫兵联合司令部 holds its founding meeting, heads of the Guangxi regional committee 自治区党委 and the Nanning committee attending; it calls for "destroying the four olds and building the four news" 破四旧、立四新.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 228.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 228: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-08-31.china-leadership-14
+        when: Aug. 31
+        date: '1966-08-31'
+        place: hangzhou
+        thread: china-leadership
+        c: Hangzhou 杭州. The Hangzhou colleges' and middle schools' Red Guard headquarters 杭州市大中学校红卫兵司令部 ("Red First Headquarters" 红一司) is founded, with Red Guard pickets under it.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 228.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 228: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-09-03.china-leadership-9
+        when: Sept. 3
+        date: '1966-09-03'
+        place: canton
+        thread: china-leadership
+        c: Canton 广州, the Sun Yat-sen Memorial Hall 中山纪念堂. The city's first Red Guard congress, the chief officers of the Central-South Bureau 中南局, the Guangdong committee, the Canton committee, the Canton forces and the Guangdong Military District attending, adopts the "Red Guard Declaration" 《红卫兵宣言》.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 228.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 228: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-09-07.china-leadership-8
+        when: Sept. 7
+        date: '1966-09-07'
+        place: xinjiang
+        thread: china-leadership
+        c: The Xinjiang regional committee 新疆自治区党委 sends the schools a notice on preparing an Ürümqi 乌鲁木齐 colleges' and middle schools' "Red Guard General Headquarters" 红卫兵总部.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 228. Made public: 2008.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 228: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966-09-09.china-leadership-8
+        when: Sept. 9
+        date: '1966-09-09'
+        place: urumqi
+        thread: china-leadership
+        c: Ürümqi 乌鲁木齐. A congress of the area's Red Guard delegates, the regional committee's and the Xinjiang Military District's 新疆军区 leaders attending, announces the preparatory committee of the Ürümqi colleges' and middle schools' Red Guard General Headquarters 乌鲁木齐大中学校红卫兵总部筹委会 (later the "Red First Headquarters" 红一司).
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 228. See [[cal.1966-09-07.china-leadership-8]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 228: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-09-10.china-leadership-7
+        when: Sept. 10
+        date: '1966-09-10'
+        place: kunming
+        thread: china-leadership
+        c: Kunming 昆明. The Red Guard General Headquarters 红卫兵总部 of the Kunming area's colleges is founded, with Qin Jiwei 秦基伟, commander of the Kunming Military Region 昆明军区, its chief adviser, and Wang Yanquan 王砚泉, the region's deputy chief of staff, and Xu Zhifen 许志奋, deputy director of its political department, advisers; the rebels later mock it as the "royalist headquarters."
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 228.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 228: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-09.china-leadership-38
+        when: Sept., mid
+        date: 1966-09
+        at: before 1966-09-11
+        place: jinan
+        thread: china-leadership
+        c: 'Jinan 济南. Red Guard bodies of some colleges and middle schools found two opposed bodies: the "Jinan Red Guard Division" 济南红卫兵师, mostly students backing their schools'' leaders, and the "Red Guard Jinan Command" 红卫兵济南指挥部, mostly students against them.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 228.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 228: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-10.china-leadership-34
+        when: Oct., late
+        date: 1966-10
+        at: before 1966-10-21
+        place: jinan
+        thread: china-leadership
+        c: Jinan 济南. At the height of the criticism of the "bourgeois reactionary line" the Red Guard Division 红卫兵师 and its bodies break up; the Red Guard Jinan Command grows into a province-wide body and is renamed the "Red Guard Shandong Command" 红卫兵山东指挥部.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 228. See [[cal.1966-09.china-leadership-38]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 228: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-09-12.china-leadership-10
+        when: Sept. 12
+        date: '1966-09-12'
+        place: shanghai
+        thread: china-leadership
+        c: Shanghai 上海. The Shanghai Red Guard General Headquarters 上海市红卫兵总部 is founded; it holds that the movement be led by the Party committees.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 228.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 228: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-09-26.china-leadership-4
+        when: Sept. 26
+        date: '1966-09-26'
+        place: shanghai
+        thread: china-leadership
+        c: Shanghai 上海. The Red Guards' Shanghai Colleges' General Headquarters 红卫兵上海市大专院校总部 is founded; it holds that the movement be led by the Party committees.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 228. See [[cal.1966-09-12.china-leadership-10]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 228: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-10.china-leadership-35
+        when: Oct. and after
+        date: 1966-10
+        place: shanghai
+        thread: china-leadership
+        c: 'Shanghai 上海. Citywide rebel Red Guard bodies appear, the chief: the Red Guards'' Shanghai Colleges'' Revolutionary Committee 红卫兵上海市大专院校革命委员会 ("Hongge hui" 红革会), the Shanghai Bombard the Headquarters United Corps 上海炮打司令部联合兵团 ("Paosi" 炮司), the Shanghai Red Guards'' Third Headquarters 上海红卫兵第三司令部 and the Red Third Headquarters 红三司 split from it; among the middle schools, the Maoism Red Guards'' Northeast Shanghai Command 毛泽东主义红卫兵上海东北地区指挥部, the Southwest Shanghai Command 红卫兵上海西南地区指挥部 and the Shanghai Red Guard Revolutionary Rebel Committee 红卫兵上海市革命造反派委员会.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 228–229. See [[cal.1966-09-26.china-leadership-4]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 228–229: all'
+        tags: [polity:prc]
+  - cite:
+      id: cal.1966-08-08.china-leadership-2
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 229 (the Sixteen Points the first to put "destroy the four olds, build the four news": the old thought, culture, customs and habits of the exploiting classes; the Points do not say what is old and what new)'
+  - cite:
+      id: cal.1966-05-16.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 229 (the passage "no construction without destruction ... put destruction first, and construction is in it" 破字当头,立也就在其中了, written by Mao when revising the Notice, later the ground of the "great criticism" and the four olds)'
+  - cite:
+      id: cal.1966-10-25.china-leadership-5
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 229 n.62 (in the speech: the old culture and thought are at root the old "private" 私, the new the "public" 公)'

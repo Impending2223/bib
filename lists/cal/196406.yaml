@@ -811,6 +811,13 @@ entries:
       - 1964-06-02T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-06-02.china-leadership-12
+    when: June 2
+    date: '1964-06-02'
+    thread: china-leadership
+    c: Zhu De 朱德 meets 纳瓦拉奇·苏贝亚, treasurer of the central committee of the Kingdom of Nepal's youth organization 尼泊尔王国青年组织中央委员会 and member of the National Panchayat 全国评议会, and the youth delegation he leads.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1909. Names: Zhu De.'
+    tags: [polity:prc, polity:nepal, name:zhu-de]
   - id: cal.1964-06-03.japan-and-korea
     when: June 3
     date: '1964-06-03'
@@ -1139,10 +1146,11 @@ entries:
   - id: cal.1964-06-04.china-leadership-3
     when: June 4
     date: '1964-06-04'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi presides at a plenary session of the Central Work Conference, which hears Bo Yibo explain the drafting of the Central Committee's decision on setting up political organs in the industrial system and the Regulations on political work, and Li Xiannian report on finance and trade.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 593 (June 4, 1964); [[w.yang-shangkun-riji]], II, 381 (June 4, 1964; 10 a.m. to 12:30 p.m.; Bo Yibo and Li Xiannian report; Yang there; Liu not named); [[w.peng-zhen-nianpu-1902]], IV, 335 (June 4, 1964, morning; Peng Zhen at the work conference''s plenary, Liu Shaoqi presiding, hearing Bo Yibo on the decision to set up political organs in industry and on political work in industry and communications, and Li Xiannian on finance and trade). Made public: 1996. See [[cal.1964-05-15.china-leadership]]. Names: Liu Shaoqi, Bo Yibo, Li Xiannian.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 593 (June 4, 1964); [[w.yang-shangkun-riji]], II, 381 (June 4, 1964; 10 a.m. to 12:30 p.m.; Bo Yibo and Li Xiannian report; Yang there; Liu not named); [[w.peng-zhen-nianpu-1902]], IV, 335 (June 4, 1964, morning; Peng Zhen at the work conference''s plenary, Liu Shaoqi presiding, hearing Bo Yibo on the decision to set up political organs in industry and on political work in industry and communications, and Li Xiannian on finance and trade); [[w.zhu-de-nianpu-xinbian]], III, 1909–1910 (June 4, 1964; Zhu De 朱德 at the plenary session, which hears Bo Yibo 薄一波 on the draft decision on political organs in industry and the *Regulations on political work* 《政治工作条例》 and Li Xiannian 李先念 on finance and trade). Made public: 1996. See [[cal.1964-05-15.china-leadership]]. Names: Liu Shaoqi, Bo Yibo, Li Xiannian.'
     tags: [polity:prc, name:liu-shaoqi, name:bo-yibo, name:li-xiannian, vis:only:prc]
     time_range:
       - 1964-06-03T22:00Z
@@ -2073,6 +2081,15 @@ entries:
       - 1964-06-06T11:00Z
     time_band: after-workday daytime
     time_zone: Asia/Shanghai
+  - id: cal.1964-06-06.china-leadership-6
+    when: June 6
+    date: '1964-06-06'
+    place: peking
+    thread: china-leadership
+    also: [laos]
+    c: Peking 北京. Zhu De 朱德 attends the 118th meeting of the Second NPC Standing Committee 第二届全国人大常委会, which hears Liu Chun 刘春, the Ambassador to Laos 中国驻老挝大使, on Laos.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1910. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1964-06-07.opinion
     when: June 7
     date: '1964-06-07'
@@ -2367,6 +2384,28 @@ entries:
     c: Shanghai 上海. Ye Jianying 叶剑英 sees the Navy's 海军 picked units trained by Guo Xingfu's 郭兴福 method show their skills.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 918. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, name:ye-jianying, vis:only:prc]
+  - id: cal.1964-06-07.china-leadership-8
+    when: June 7
+    date: '1964-06-07'
+    place: shanghai
+    thread: china-leadership
+    c: The *Jiefang ribao* 解放日报, Shanghai 上海, carries criticism of "ancient-costume heads" 古装头, odd hairstyles, bizarre clothes 奇装异服, perfume, unhealthy trademark designs or advertisements for health remedies.
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 144 n.86c (the six issues named together for these matters; which of them this one treats not given). To check: 《解放日报》, June 7, 1964 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 144 n.86c).'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 144 n.86c: all'
+        - 'via x.1964-06-07.jiefang-ribao-criticism-bizarre-clothes: all'
+    tags: [polity:prc]
+  - id: cal.1964-06-07.china-leadership-9
+    when: June 7
+    date: '1964-06-07'
+    place:
+      - suzhou
+      - peking
+    thread: china-leadership
+    c: 'Chen Yun 陈云 returns from Suzhou 苏州 to Peking 北京. On his doctors'' advice he lives at the Xinliusuo 新六所 in the western suburbs (the nianpu''s note: six houses built in the first years for the main leaders, long empty, the air good for the sick).'
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 146–147. Made public: 2015. Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc@B]
   - id: cal.1964-06-08.laos
     when: June 8
     date: '1964-06-08'
@@ -2628,7 +2667,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao presides over an enlarged Politburo Standing Committee meeting at the Central Work Conference, and speaks; the first time he meets the conference in 20-odd days. Liu Shaoqi on two education systems; on the French party giving up arms; on whether China may turn revisionist. Mao: it already has, as at the Baiyin works and at Xiaozhan commune near Tianjin, which Chen Boda investigated; a third of the power is in enemy hands. The "two into one" is revisionism, class conciliation; the Selected Works, second edition, a fifth volume: "nothing to put in it." Each province to have grenade, explosive and arms plants; cadres in three lines against sudden death.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, June 8, 1964; [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 593 (June 8, 1964; Liu attends the small meeting Mao presides over at the Central Work Conference, of some Politburo members and the bureaus'' first secretaries; Mao says a third of the country''s power is not in our hands but in the enemy''s, and takes up Liu''s proposal of two labor systems and two education systems); [[w.macfarquhar-origins-of-the-cultural]], III, 395 (Mao: "one divides into two" is dialectics, "two combine into one" revisionism and class reconciliation); [[w.macfarquhar-origins-of-the-cultural]], III, 403 (Mao tells the work conference that about a third of power is not in the Party''s hands); [[w.jianguo-yilai-mao-zedong]], XVII, 261–262 (June 8, 1964; an extract of Mao''s speech at the enlarged Politburo Standing Committee, printed from *Mao zhuxi lun jiaoyu geming* (Renmin Chubanshe, Dec. 1967): learn by oneself; Xiao Chunü 萧楚女, who never went to school, taught at the Peasant Movement Institute; university lectures to be printed and given out, both sides of the material; his "Strategic problems of China''s revolutionary war" was the Red Army College''s lectures); [[w.deng-xiaoping-nianpu-1904]], III, 1815 (June 8, 1964; Deng attends the enlarged Politburo Standing Committee meeting Mao presides over); [[w.mao-zedong-zhuan]], VI, ch. 73 (June 8, at the conference in Peking, the first time Mao speaks to the conference after 20-odd days: against revisionism: some already, Baiyin works and the Xiaozhan commune Chen Boda surveyed, a third of power not in our hands (n.2); successors; each region and province to make arms and build militia and local forces; cadres in first, second and third lines; at the enlarged Standing Committee, "one divides into two" is dialectics, "two combine into one" revisionism and class conciliation (n.51)). [[w.jian-zhou-enlai]], 490 (June 8, Mao: a third of the power in the country not in our hands; Zhou echoes him: revisionists control many grassroots units); [[w.yang-jisheng-tiandi-fanfu]], II, 1066–1067 (Mao at the Central Work Conference: while imperialism exists there is danger of war; conventional arms, not the atom bomb, decide; build the third-line industrial base, some arms industry in the first and second lines, every province its own; Yang gives June 6, after Bo Yibo, and notes the nianpu''s June 8); [[w.yang-jisheng-tiandi-fanfu]], I, 98 (Mao: "one divides into two" is dialectics; "two combine into one" perhaps revisionism, class reconciliation); [[w.peng-zhen-nianpu-1902]], IV, 336 (June 8, 1964; Peng Zhen at Mao''s enlarged Standing Committee, some Politburo members and the regional bureaus'' first secretaries there; on preventing revisionism Mao, Peng Zhen and Zhou Enlai breaking in, many places below held by the enemy; Mao: "我看我们这个国家有三分之一的权力不在我们手里"); [[w.dikotter-cultural-revolution]], 22 n.25 (Liu: could revisionism appear in China? Mao: it has already appeared, Baiyin; a third of the power not in our hands; Liu: the problems at the top; the Funing peasants'' saying; Mao: if a revisionist centre appears, we will have to stop it); [[w.pu-weihua-zalan-jiu-shijie]], 53 n.73 (Mao at the Central Work Conference: "one divides into two" is dialectics; "two combine into one", I''m afraid, is revisionism, class conciliation); [[w.pu-weihua-zalan-jiu-shijie]], 83 n.8 (Mao at the Central Work Conference: pass it down to the counties; what to do if a Khrushchev appears, if China has a revisionist Center; the provincial committees to resist a revisionist Center; with such a Center "a province can rebel, can be independent"). Made public: 1996. Check: the Wengao prints this talk from *Mao zhuxi lun jiaoyu geming* (Renmin Chubanshe, Dec. 1967), which Mao checked before it came out ([[w.jianguo-yilai-mao-zedong]], XVII, 261 n.1); if that printing was open, it was made public in 1967, not 1996. To check: [[w.jin-1949-1989-niande-zhongguo]], 565 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 395 n.89); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1116 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 403 n.27b); Mao Zedong 毛泽东, speech at the Central Work Conference 中央工作会议, June 8, 1964 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.2); Mao Zedong 毛泽东, speech at the enlarged Politburo Standing Committee 中共中央政治局常委扩大会议, June 8, 1964 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.51); Song Renqiong 宋任穷, report on a village party branch''s training of successors, May 13, 1964 (printed for the Central Work Conference May 18) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.1); Luo Pinghan 羅平漢, *"Wenge" qianye de Zhongguo* 《「文革」前夜的中國》 (Renmin chubanshe, 2007), 257 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 98 n.144); Yang Shengqun 楊勝群 and Tian Songnian 田松年, 〈「文革」前意識形態領域的大批判運動真相〉, in [[w.zhongguo-gongchandang-zhongda-shishi]], IV, 1886 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 53 n.73). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Peng Zhen, Kang Sheng, Tao Zhu, Li Xuefeng, Chen Boda.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, June 8, 1964; [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 593 (June 8, 1964; Liu attends the small meeting Mao presides over at the Central Work Conference, of some Politburo members and the bureaus'' first secretaries; Mao says a third of the country''s power is not in our hands but in the enemy''s, and takes up Liu''s proposal of two labor systems and two education systems); [[w.macfarquhar-origins-of-the-cultural]], III, 395 (Mao: "one divides into two" is dialectics, "two combine into one" revisionism and class reconciliation); [[w.macfarquhar-origins-of-the-cultural]], III, 403 (Mao tells the work conference that about a third of power is not in the Party''s hands); [[w.jianguo-yilai-mao-zedong]], XVII, 261–262 (June 8, 1964; an extract of Mao''s speech at the enlarged Politburo Standing Committee, printed from *Mao zhuxi lun jiaoyu geming* (Renmin Chubanshe, Dec. 1967): learn by oneself; Xiao Chunü 萧楚女, who never went to school, taught at the Peasant Movement Institute; university lectures to be printed and given out, both sides of the material; his "Strategic problems of China''s revolutionary war" was the Red Army College''s lectures); [[w.deng-xiaoping-nianpu-1904]], III, 1815 (June 8, 1964; Deng attends the enlarged Politburo Standing Committee meeting Mao presides over); [[w.mao-zedong-zhuan]], VI, ch. 73 (June 8, at the conference in Peking, the first time Mao speaks to the conference after 20-odd days: against revisionism: some already, Baiyin works and the Xiaozhan commune Chen Boda surveyed, a third of power not in our hands (n.2); successors; each region and province to make arms and build militia and local forces; cadres in first, second and third lines; at the enlarged Standing Committee, "one divides into two" is dialectics, "two combine into one" revisionism and class conciliation (n.51)). [[w.jian-zhou-enlai]], 490 (June 8, Mao: a third of the power in the country not in our hands; Zhou echoes him: revisionists control many grassroots units); [[w.yang-jisheng-tiandi-fanfu]], II, 1066–1067 (Mao at the Central Work Conference: while imperialism exists there is danger of war; conventional arms, not the atom bomb, decide; build the third-line industrial base, some arms industry in the first and second lines, every province its own; Yang gives June 6, after Bo Yibo, and notes the nianpu''s June 8); [[w.yang-jisheng-tiandi-fanfu]], I, 98 (Mao: "one divides into two" is dialectics; "two combine into one" perhaps revisionism, class reconciliation); [[w.peng-zhen-nianpu-1902]], IV, 336 (June 8, 1964; Peng Zhen at Mao''s enlarged Standing Committee, some Politburo members and the regional bureaus'' first secretaries there; on preventing revisionism Mao, Peng Zhen and Zhou Enlai breaking in, many places below held by the enemy; Mao: "我看我们这个国家有三分之一的权力不在我们手里"); [[w.dikotter-cultural-revolution]], 22 n.25 (Liu: could revisionism appear in China? Mao: it has already appeared, Baiyin; a third of the power not in our hands; Liu: the problems at the top; the Funing peasants'' saying; Mao: if a revisionist centre appears, we will have to stop it); [[w.pu-weihua-zalan-jiu-shijie]], 53 n.73 (Mao at the Central Work Conference: "one divides into two" is dialectics; "two combine into one", I''m afraid, is revisionism, class conciliation); [[w.pu-weihua-zalan-jiu-shijie]], 83 n.8 (Mao at the Central Work Conference: pass it down to the counties; what to do if a Khrushchev appears, if China has a revisionist Center; the provincial committees to resist a revisionist Center; with such a Center "a province can rebel, can be independent"); [[w.zhu-de-nianpu-xinbian]], III, 1910 (June 8, 1964; Zhu De 朱德 at the small meeting Mao Zedong 毛泽东 presides over, of some members of the Politburo 中共中央政治局 and the first secretaries of the regional bureaus 中央局; Mao says a third of the country''s power is not in our hands but the enemy''s). Made public: 1996. Check: the Wengao prints this talk from *Mao zhuxi lun jiaoyu geming* (Renmin Chubanshe, Dec. 1967), which Mao checked before it came out ([[w.jianguo-yilai-mao-zedong]], XVII, 261 n.1); if that printing was open, it was made public in 1967, not 1996. To check: [[w.jin-1949-1989-niande-zhongguo]], 565 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 395 n.89); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1116 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 403 n.27b); Mao Zedong 毛泽东, speech at the Central Work Conference 中央工作会议, June 8, 1964 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.2); Mao Zedong 毛泽东, speech at the enlarged Politburo Standing Committee 中共中央政治局常委扩大会议, June 8, 1964 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.51); Song Renqiong 宋任穷, report on a village party branch''s training of successors, May 13, 1964 (printed for the Central Work Conference May 18) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.1); Luo Pinghan 羅平漢, *"Wenge" qianye de Zhongguo* 《「文革」前夜的中國》 (Renmin chubanshe, 2007), 257 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 98 n.144); Yang Shengqun 楊勝群 and Tian Songnian 田松年, 〈「文革」前意識形態領域的大批判運動真相〉, in [[w.zhongguo-gongchandang-zhongda-shishi]], IV, 1886 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 53 n.73). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Peng Zhen, Kang Sheng, Tao Zhu, Li Xuefeng, Chen Boda.'
     src:
       c: 8fd049da
       rows:
@@ -2652,6 +2691,7 @@ entries:
         - 'w.pu-weihua-zalan-jiu-shijie 53 n.73: H'
         - 'via x.2001.yang-shengqun-tian-songnian-wenge-qian-yishi-xingtai-lingyu-da-pipan: H'
         - 'w.pu-weihua-zalan-jiu-shijie 83 n.8: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1910: ?'
     tags: [name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:peng-zhen, name:kang-sheng, name:tao-zhu, name:chen-boda, polity:prc, vis:only:prc]
     variants:
       - unit: A
@@ -3202,13 +3242,14 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: 'Zhou attends the signing of the Sino-Yemeni treaty of friendship and the cultural and economic and technical cooperation agreements. That evening at Sallal''s farewell banquet: the one effective way to solve the Laotian question is an international conference of the Geneva states; any attempt to exclude some of them or any of the three Lao parties runs against Geneva and settles nothing.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 646 (June 9, 1964); [[w.zhou-enlai-waijiao-huodong]], 409 (June 9, 1964; 参加中国和也门友好条约签字仪式; 晚上, 人民大会堂, 萨拉勒元帅举行的盛大宴会); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 341 (June 9, 1964, the book''s day for the joint communique of Liu and Sallal; and the day of Zhou''s speech at the reception given by Sallal: the one effective way to settle the Laos question is an international conference of the states attending the Geneva conference; any attempt to exclude some of the participants or any of the three Lao sides is against the spirit of the Geneva agreement and cannot solve the question). Names: Zhou Enlai, Sallal.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 646 (June 9, 1964); [[w.zhou-enlai-waijiao-huodong]], 409 (June 9, 1964; 参加中国和也门友好条约签字仪式; 晚上, 人民大会堂, 萨拉勒元帅举行的盛大宴会); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 341 (June 9, 1964, the book''s day for the joint communique of Liu and Sallal; and the day of Zhou''s speech at the reception given by Sallal: the one effective way to settle the Laos question is an international conference of the states attending the Geneva conference; any attempt to exclude some of the participants or any of the three Lao sides is against the spirit of the Geneva agreement and cannot solve the question); [[w.zhu-de-nianpu-xinbian]], III, 1910 (June 9, 1964; Zhu De 朱德 at the signing of the treaty of friendship and of the joint communique of Liu Shaoqi 刘少奇 and President Abdullah al-Sallal 阿卜杜拉·萨拉勒). Names: Zhou Enlai, Sallal.'
     src:
       c: 0ef2c5dd
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 646: ?'
         - 'w.zhou-enlai-waijiao-huodong 409: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 341: B-C'
+        - 'w.zhu-de-nianpu-xinbian III, 1910: ?'
     tags: [name:zhou-enlai, name:sallal-abdullah-al, polity:prc, polity:yemen]
   - id: cal.1964-06-09.china-leadership-3
     when: June 9
@@ -3308,6 +3349,22 @@ entries:
         - 'w.chang-friends-and-enemies 255: all'
         - 'via x.1964-06-09.cia-trends-in-the-world-situation: all'
     tags: [polity:us, vis:only:us]
+  - id: cal.1964-06-09.china-leadership-6
+    when: June 9
+    date: '1964-06-09'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zhu De 朱德 presides over the 119th meeting of the Second NPC Standing Committee 第二届全国人大常委会. It reviews the treaty of friendship of China and the Yemen Arab Republic 《中华人民共和国和阿拉伯也门共和国友好条约》 and has Liu Shaoqi 刘少奇 sign it; it sets up the Commission for Economic Relations with Foreign Countries 对外经济联络委员会 and approves the State Council's 国务院 abolition of the General Bureau for Economic Relations with Foreign Countries 对外经济联络总局.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1910. Names: Zhu De, Liu Shaoqi.'
+    tags: [polity:prc, polity:yemen, name:zhu-de, name:liu-shaoqi]
+  - id: cal.1964-06-09.china-leadership-7
+    when: June 9
+    date: '1964-06-09'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zhu De 朱德 meets Lucien Paye 吕西恩·佩耶, France's first Ambassador to China.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1910. Names: Zhu De.'
+    tags: [polity:prc, polity:fr, name:zhu-de]
   - id: cal.1964-06-10.civil-rights-bill
     when: June 10
     date: '1964-06-10'
@@ -4207,7 +4264,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao presides over a plenary session of the Central Work Conference, Hall of the People, Room 118, afternoon; Liu Shaoqi reports on the struggle against modern revisionism. Liu: if the Soviet Union went revisionist in 40 years and Lenin''s party was transformed, will China''s? Mao: it will if no attention is paid; and may anyhow; it would be a matter of months, years, decades, then a turn back. Prepare now for the day. Mass movements against it, the five-antis and four-cleans; theory and the arts. Do not arrest, expel or kill at random. "The sky may darken."'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, June 11, 1964; [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 593 (June 11, 1964; Liu reports at the Central Work Conference on the struggle against modern revisionism: the development of the international situation since the conference of last September, the present line of that struggle and how to guard against revisionism and the restoration of capitalism at home; mass movements, "four clean-ups" and "five-antis," are to be launched regularly across the country to prevent revisionism); [[w.yang-shangkun-riji]], II, 383 (June 11, 1964; 4:10 to 7 p.m.; Yang there; the room not named); [[w.deng-xiaoping-nianpu-1904]], III, 1815–1816 (June 11, 1964; afternoon, 下午; Deng at the plenary of the Central Work Conference Mao presides over, which hears Liu Shaoqi''s report on the struggle against modern revisionism); [[w.mao-zedong-zhuan]], VI, ch. 73 (June 11 Liu reports on the struggle against modern revisionism at the Central Work Conference; Mao''s short speech after it: much cannot be foreseen; the sky may darken, but with faith (n.3)). [[w.jian-zhou-enlai]], 490 (Liu on fighting revisionism; could China turn revisionist? Mao: "It is possible"); [[w.peng-zhen-nianpu-1902]], IV, 337 (June 11, 1964, afternoon; Peng Zhen at the work conference''s plenary, Mao presiding, hearing Liu Shaoqi''s report on the struggle against revisionism). Made public: 1996. To check: Central Work Conference 中央工作会议, record 记录, June 11, 1964 (Liu Shaoqi''s report; Mao''s remarks) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.3). Names: Mao Zedong, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, June 11, 1964; [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 593 (June 11, 1964; Liu reports at the Central Work Conference on the struggle against modern revisionism: the development of the international situation since the conference of last September, the present line of that struggle and how to guard against revisionism and the restoration of capitalism at home; mass movements, "four clean-ups" and "five-antis," are to be launched regularly across the country to prevent revisionism); [[w.yang-shangkun-riji]], II, 383 (June 11, 1964; 4:10 to 7 p.m.; Yang there; the room not named); [[w.deng-xiaoping-nianpu-1904]], III, 1815–1816 (June 11, 1964; afternoon, 下午; Deng at the plenary of the Central Work Conference Mao presides over, which hears Liu Shaoqi''s report on the struggle against modern revisionism); [[w.mao-zedong-zhuan]], VI, ch. 73 (June 11 Liu reports on the struggle against modern revisionism at the Central Work Conference; Mao''s short speech after it: much cannot be foreseen; the sky may darken, but with faith (n.3)). [[w.jian-zhou-enlai]], 490 (Liu on fighting revisionism; could China turn revisionist? Mao: "It is possible"); [[w.peng-zhen-nianpu-1902]], IV, 337 (June 11, 1964, afternoon; Peng Zhen at the work conference''s plenary, Mao presiding, hearing Liu Shaoqi''s report on the struggle against revisionism); [[w.zhu-de-nianpu-xinbian]], III, 1910 (June 11, 1964; Zhu De 朱德 at the plenary session, which hears Liu Shaoqi 刘少奇 on the struggle against modern revisionism; the report: mass movements, "four clean-ups" 四清 and "five-antis" 五反, to be waged regularly across the country, so as to prevent revisionism). Made public: 1996. To check: Central Work Conference 中央工作会议, record 记录, June 11, 1964 (Liu Shaoqi''s report; Mao''s remarks) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.3). Names: Mao Zedong, Liu Shaoqi.'
     src:
       c: 46212b0c
       rows:
@@ -4219,6 +4276,7 @@ entries:
         - 'via w.mao-zedong-zhuan VI, ch.73 n.3: B, K'
         - 'w.jian-zhou-enlai 490: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 337: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1910: ?'
     tags: [name:mao-zedong, name:liu-shaoqi, polity:prc, vis:only:prc]
     time_range:
       - 1964-06-11T04:00Z
@@ -4249,9 +4307,10 @@ entries:
   - id: cal.1964-06-11.china-leadership-3
     when: June 11
     date: '1964-06-11'
+    place: peking
     thread: china-leadership
     c: Zhou, with Mao, Liu Shaoqi, Zhu De and others, attends the opening of the Communist Youth League's ninth national congress.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 648 (June 11, 1964); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 593 (June 11, 1964; Liu, with Mao, Zhou Enlai, Zhu De and Deng Xiaoping, attends the opening of the Communist Youth League''s ninth national congress and meets the delegates); [[w.yang-shangkun-riji]], II, 383 (June 11, 1964; the photograph and the opening, 3 to 4 p.m.; Mao and the Standing Committee there; Yang there; Zhou not named); [[w.deng-xiaoping-nianpu-1904]], III, 1815 (June 11, 1964; 下午; Deng, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De 朱德 and others, attends the opening of the Ninth National Congress of the Communist Youth League 共青团第九次全国代表大会); [[w.peng-zhen-nianpu-1902]], IV, 337 (June 11, 1964, afternoon; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping and the provincial first secretaries at the work conference, at the opening of the Youth League''s Ninth Congress); [[w.chen-yi-nianpu]], 1034 (June 11, 1964, afternoon; Chen Yi at the opening of the Youth League''s ninth congress, and before it with Mao, Liu Shaoqi, Zhou and the other leaders receives the delegates). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Zhu De.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 648 (June 11, 1964); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 593 (June 11, 1964; Liu, with Mao, Zhou Enlai, Zhu De and Deng Xiaoping, attends the opening of the Communist Youth League''s ninth national congress and meets the delegates); [[w.yang-shangkun-riji]], II, 383 (June 11, 1964; the photograph and the opening, 3 to 4 p.m.; Mao and the Standing Committee there; Yang there; Zhou not named); [[w.deng-xiaoping-nianpu-1904]], III, 1815 (June 11, 1964; 下午; Deng, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De 朱德 and others, attends the opening of the Ninth National Congress of the Communist Youth League 共青团第九次全国代表大会); [[w.peng-zhen-nianpu-1902]], IV, 337 (June 11, 1964, afternoon; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping and the provincial first secretaries at the work conference, at the opening of the Youth League''s Ninth Congress); [[w.chen-yi-nianpu]], 1034 (June 11, 1964, afternoon; Chen Yi at the opening of the Youth League''s ninth congress, and before it with Mao, Liu Shaoqi, Zhou and the other leaders receives the delegates); [[w.zhu-de-nianpu-xinbian]], III, 1910 (June 11, 1964; Zhu De 朱德 at the opening of the Communist Youth League''s 中国共产主义青年团 ninth national congress at Peking 北京). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Zhu De.'
     tags: [name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:zhu-de, polity:prc]
     time_range:
       - 1964-06-11T04:00Z
@@ -4679,6 +4738,14 @@ entries:
     c: Prince Souphanouvong cables Chen Yi 陈毅 his condolences on the members of the Chinese economic and cultural mission in Laos killed by American aircraft.
     n: '[[w.chen-yi-nianpu]], 1035. Names: Chen Yi, Souphanouvong.'
     tags: [polity:prc, polity:laos, name:chen-yi, name:souphanouvong, ok:fields-place]
+  - id: cal.1964-06-12.china-leadership-4
+    when: June 12
+    date: '1964-06-12'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zhu De 朱德 attends the 120th meeting of the NPC Standing Committee 全国人大常委会, which hears Lai Yali 赖亚力, the Ambassador to Mali 中国驻马里大使, on Mali.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1910. Names: Zhu De.'
+    tags: [polity:prc, polity:mali, name:zhu-de]
   - id: cal.1964-06-13.desegregation-public-places
     when: June 13
     date: '1964-06-13'
@@ -5401,7 +5468,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, the firing range 射击场, 4 to 9 p.m. A military exercise; Mao 毛泽东 and the Standing Committee watch; Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], II, 384 (June 15, 1964); [[w.deng-xiaoping-nianpu-1904]], III, 1816 (June 15–16, 1964; Deng with Mao, Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai and others watches the military report performance of the Peking and Jinan military regions'' units in the western suburbs); [[w.peng-zhen-nianpu-1902]], IV, 337 (June 15, 1964, afternoon and evening; the western suburbs of Peking; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu, Deng Xiaoping and others, at the display of the Peking and Jinan forces); [[w.pu-weihua-zalan-jiu-shijie]], 23 (June 15 and 16: Mao and the Party''s and state''s leaders review the competition displays of the Peking and Jinan units). The words: 下午4时到晚间9时，去射击场看军事演习，主席和常委都去了，很好 (II, 384). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 384 (June 15, 1964); [[w.deng-xiaoping-nianpu-1904]], III, 1816 (June 15–16, 1964; Deng with Mao, Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai and others watches the military report performance of the Peking and Jinan military regions'' units in the western suburbs); [[w.peng-zhen-nianpu-1902]], IV, 337 (June 15, 1964, afternoon and evening; the western suburbs of Peking; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu, Deng Xiaoping and others, at the display of the Peking and Jinan forces); [[w.pu-weihua-zalan-jiu-shijie]], 23 (June 15 and 16: Mao and the Party''s and state''s leaders review the competition displays of the Peking and Jinan units); [[w.zhu-de-nianpu-xinbian]], III, 1910 (June 15–16, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, in the Western Hills 西山 of Peking reviews the training of the crack 尖子 units of the PLA''s Peking and Jinan forces 解放军北京部队、济南部队, receives the troops and praises their display). The words: 下午4时到晚间9时，去射击场看军事演习，主席和常委都去了，很好 (II, 384). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
     src:
       c: 7242f96f
       rows:
@@ -5409,6 +5476,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1816: C'
         - 'w.peng-zhen-nianpu-1902 IV, 337: ?'
         - 'w.pu-weihua-zalan-jiu-shijie 23: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1910: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1964-06-15.china-leadership-3
@@ -5670,7 +5738,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao, at the Ming Tombs Reservoir, afternoon: after watching the Beijing and Jinan troops'' display, presides over a meeting of the Politburo Standing Committee and the first secretaries of the Party''s regional bureaus. Two things: local Party committees to take up military matters, and successors. Each province to build a militia, local troops, an arms plant. For successors, five conditions: know some Marxism-Leninism; serve the majority at home and abroad; unite most, even those once opposed; consult, no one-man talk; criticize oneself. Three tiers of successors, from the bureaus to the branches.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, June 16, 1964; [[w.zhou-enlai-nianpu-1949]], II, 648 (June 15–16, 1964: Zhou, with Mao, Liu Shaoqi, Dong Biwu, Zhu De, Deng Xiaoping and others, reviews the exercises of the Beijing and Jinan units); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 594 (June 15 and 16, 1964; Liu, with Mao, Dong Biwu, Zhu De, Zhou Enlai and Deng Xiaoping, inspects the military skill display of the Peking and Jinan troops); [[w.macfarquhar-origins-of-the-cultural]], III, 363 n.97 (Mao speaks on revolutionary successors, in a speech to a central work conference on June 16); [[w.jianguo-yilai-mao-zedong]], XVII, 263–266 (June 16, 1964; an extract, printed from *Mao zhuxi lun jiaoyu geming* (Renmin Chubanshe, Dec. 1967); note 1: at the Ming Tombs Reservoir''s administration office, to the Standing Committee and the regional bureaus'' first secretaries; the five conditions as the entry gives them, with Gao Gang, Rao Shushi, Peng Dehuai and Huang Kecheng named as plotters, and "successors grow in great storms"); [[w.macfarquhar-origins-of-the-cultural]], III, 448 (a two-day display at the Ming Tombs before Mao, Liu Shaoqi, Zhou Enlai, Zhu De and Deng Xiaoping; by post-Cultural Revolution accounts Mao approves; by Li Zhisui''s, he remarks on Luo Ruiqing caustically); [[w.yang-shangkun-riji]], II, 384 (June 16, 1964; Yang leaves at 2:15, reaches the Ming Tombs 十三陵 at 3:30 and watches the display on the water, 5 to 6 p.m.; 385: Li Xuefeng relays to the group on June 17 Mao''s words at the meeting near the reservoir the day before); [[w.deng-xiaoping-nianpu-1904]], III, 1816 (June 16, 1964; 下午; Deng attends the meeting Mao Zedong 毛泽东 calls of the Politburo 政治局 Standing Committee 政治局常委会 and the regional bureaus'' first secretaries, at which Mao speaks on the question of successors); [[w.mao-zedong-zhuan]], V, ch. 71 (June 16, afternoon 下午, at the Ming Tombs reservoir administration''s meeting room, Changping county: five conditions for successors; printed in the ninth commentary (n.43)). [[w.jian-zhou-enlai]], 488–489 (June 1964: Mao on raising successors to the proletarian cause); [[w.peng-zhen-nianpu-1902]], IV, 338 (June 16, 1964, afternoon; the Ming Tombs reservoir''s office; Peng Zhen at Mao''s meeting of the Standing Committee and the regional bureaus'' first secretaries: the local committees to take up military affairs; revolutionary successors, five conditions: Marxism-Leninism, not revisionism; the majority''s interests; uniting the majority; consulting comrades; self-criticism; successors at several levels from the regional bureaus down to the branches); [[w.chen-yi-nianpu]], 1035 (June 15–16, 1964; Chen Yi with Mao, Liu Shaoqi, Dong Biwu, Zhu De, Zhou, Deng Xiaoping, Peng Zhen and others at the Ming Tombs Reservoir reviews the training display of the Peking and Jinan forces); [[w.pu-weihua-zalan-jiu-shijie]], 23 (June 15 and 16: Mao and the Party''s and state''s leaders review the competition displays of the Peking and Jinan units; Mao praises them and has the experience of the "picked men" spread through the army). Made public: 1989 ([[w.al-zhongguo-gongchan-dang-zhizheng]]). Check: the Wengao prints this talk from *Mao zhuxi lun jiaoyu geming* (Renmin Chubanshe, Dec. 1967), which Mao checked before it came out ([[w.jianguo-yilai-mao-zedong]], XVII, 265 n.1); if that printing was open, it was made public in 1967, not 1996. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1158–62 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 363 n.97a); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 87 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 363 n.97b); [[w.al-zhongguo-gongchan-dang-zhizheng]], 248 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 448 n.107a); [[w.zhisui-private-life-of-chairman]], 97–8, 157–9, 184–6, 435 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 448 n.107b); Mao Zedong 毛泽东, talk on training successors, Ming Tombs reservoir 十三陵水库, June 16, 1964 (printed in *Mao zhuxi lun jiaoyu geming* 《毛主席论教育革命》, Renmin chubanshe, Dec. 1967, 18-21) (cited by [[w.mao-zedong-zhuan]], V, ch. 71 n.43). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, June 16, 1964; [[w.zhou-enlai-nianpu-1949]], II, 648 (June 15–16, 1964: Zhou, with Mao, Liu Shaoqi, Dong Biwu, Zhu De, Deng Xiaoping and others, reviews the exercises of the Beijing and Jinan units); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 594 (June 15 and 16, 1964; Liu, with Mao, Dong Biwu, Zhu De, Zhou Enlai and Deng Xiaoping, inspects the military skill display of the Peking and Jinan troops); [[w.macfarquhar-origins-of-the-cultural]], III, 363 n.97 (Mao speaks on revolutionary successors, in a speech to a central work conference on June 16); [[w.jianguo-yilai-mao-zedong]], XVII, 263–266 (June 16, 1964; an extract, printed from *Mao zhuxi lun jiaoyu geming* (Renmin Chubanshe, Dec. 1967); note 1: at the Ming Tombs Reservoir''s administration office, to the Standing Committee and the regional bureaus'' first secretaries; the five conditions as the entry gives them, with Gao Gang, Rao Shushi, Peng Dehuai and Huang Kecheng named as plotters, and "successors grow in great storms"); [[w.macfarquhar-origins-of-the-cultural]], III, 448 (a two-day display at the Ming Tombs before Mao, Liu Shaoqi, Zhou Enlai, Zhu De and Deng Xiaoping; by post-Cultural Revolution accounts Mao approves; by Li Zhisui''s, he remarks on Luo Ruiqing caustically); [[w.yang-shangkun-riji]], II, 384 (June 16, 1964; Yang leaves at 2:15, reaches the Ming Tombs 十三陵 at 3:30 and watches the display on the water, 5 to 6 p.m.; 385: Li Xuefeng relays to the group on June 17 Mao''s words at the meeting near the reservoir the day before); [[w.deng-xiaoping-nianpu-1904]], III, 1816 (June 16, 1964; 下午; Deng attends the meeting Mao Zedong 毛泽东 calls of the Politburo 政治局 Standing Committee 政治局常委会 and the regional bureaus'' first secretaries, at which Mao speaks on the question of successors); [[w.mao-zedong-zhuan]], V, ch. 71 (June 16, afternoon 下午, at the Ming Tombs reservoir administration''s meeting room, Changping county: five conditions for successors; printed in the ninth commentary (n.43)). [[w.jian-zhou-enlai]], 488–489 (June 1964: Mao on raising successors to the proletarian cause); [[w.peng-zhen-nianpu-1902]], IV, 338 (June 16, 1964, afternoon; the Ming Tombs reservoir''s office; Peng Zhen at Mao''s meeting of the Standing Committee and the regional bureaus'' first secretaries: the local committees to take up military affairs; revolutionary successors, five conditions: Marxism-Leninism, not revisionism; the majority''s interests; uniting the majority; consulting comrades; self-criticism; successors at several levels from the regional bureaus down to the branches); [[w.chen-yi-nianpu]], 1035 (June 15–16, 1964; Chen Yi with Mao, Liu Shaoqi, Dong Biwu, Zhu De, Zhou, Deng Xiaoping, Peng Zhen and others at the Ming Tombs Reservoir reviews the training display of the Peking and Jinan forces); [[w.pu-weihua-zalan-jiu-shijie]], 23 (June 15 and 16: Mao and the Party''s and state''s leaders review the competition displays of the Peking and Jinan units; Mao praises them and has the experience of the "picked men" spread through the army); [[w.zhu-de-nianpu-xinbian]], III, 1910–1911 (June 16, 1964, afternoon; the nianpu tells, under Zhu De''s review of the troops, Mao Zedong''s 毛泽东 meeting of the Politburo Standing Committee 中共政治局常委 and the regional bureaus'' first secretaries 中央局第一书记 at the office of the Ming Tombs reservoir 十三陵水库管理处: his talk on successors, a strategic measure against revisionism; the regions and provinces each to run arms works 军工厂, militia and local forces). Made public: 1989 ([[w.al-zhongguo-gongchan-dang-zhizheng]]). Check: the Wengao prints this talk from *Mao zhuxi lun jiaoyu geming* (Renmin Chubanshe, Dec. 1967), which Mao checked before it came out ([[w.jianguo-yilai-mao-zedong]], XVII, 265 n.1); if that printing was open, it was made public in 1967, not 1996. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1158–62 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 363 n.97a); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 87 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 363 n.97b); [[w.al-zhongguo-gongchan-dang-zhizheng]], 248 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 448 n.107a); [[w.zhisui-private-life-of-chairman]], 97–8, 157–9, 184–6, 435 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 448 n.107b); Mao Zedong 毛泽东, talk on training successors, Ming Tombs reservoir 十三陵水库, June 16, 1964 (printed in *Mao zhuxi lun jiaoyu geming* 《毛主席论教育革命》, Renmin chubanshe, Dec. 1967, 18-21) (cited by [[w.mao-zedong-zhuan]], V, ch. 71 n.43). Names: Mao Zedong.'
     src:
       c: a0b325f6
       rows:
@@ -5692,6 +5760,7 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 338: ?'
         - 'w.chen-yi-nianpu 1035: ?'
         - 'w.pu-weihua-zalan-jiu-shijie 23: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1910–1911: ?'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
     time_range:
       - 1964-06-16T04:00Z
@@ -5786,12 +5855,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真 at the signing of the economic and technical cooperation agreement of the People's Republic and the United Republic of Tanganyika and Zanzibar, then at Kawawa's farewell banquet.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 338; [[w.chen-yi-nianpu]], 1036 (June 16, 1964, evening; Chen Yi at the signing). The words: 晚 (IV, 338). See [[cal.1964-06-11.china-leadership-5]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 338; [[w.chen-yi-nianpu]], 1036 (June 16, 1964, evening; Chen Yi at the signing); [[w.zhu-de-nianpu-xinbian]], III, 1911 (June 16, 1964; Zhu De 朱德 at the signing of the agreement on economic and technical cooperation of the governments of China and the United Republic of Tanganyika and Zanzibar 坦噶尼喀和桑给巴尔联合共和国). The words: 晚 (IV, 338). See [[cal.1964-06-11.china-leadership-5]]. Names: Peng Zhen.'
     src:
       c: ab9bf617
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 338: all'
         - 'w.chen-yi-nianpu 1036: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1911: ?'
     tags: [polity:prc, name:peng-zhen]
     time_range:
       - 1964-06-16T11:00Z
@@ -6528,6 +6598,14 @@ entries:
         - 'w.friedman-shadow-cold-war 110: all'
         - 'via x.1964-06-18.deputy-chairman-gkks-ideological-department-june-18: ?'
     tags: [polity:ussr, vis:only:ussr]
+  - id: cal.1964-06-18.china-leadership-6
+    when: June 18
+    date: '1964-06-18'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Zhu De 朱德 attends the 121st meeting of the NPC Standing Committee 全国人大常委会, which hears Wang Bingnan 王炳南, back from his post as Ambassador to Poland 中国驻波兰大使, on Poland.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1911. Names: Zhu De.'
+    tags: [polity:prc, polity:poland, name:zhu-de]
   - id: cal.1964-06-19.civil-rights-bill
     when: June 19
     date: '1964-06-19'
@@ -6780,10 +6858,16 @@ entries:
   - id: cal.1964-06-19.china-leadership
     when: June 19
     date: '1964-06-19'
+    place: peking
     thread: china-leadership
     c: 'Mao presides over the Politburo Standing Committee, the Fujian Hall, afternoon. Mao on the People''s Daily: it spread "ghosts do no harm" in 1961 and never accounted for it; after the 10th plenum all the Party pursued class struggle, the paper did not criticize it; it talks class struggle abroad, none at home; no paper is free of error, the answer is to correct it. Wu Lengxi relays this to the staffs of the paper and Xinhua on June 23.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, June 19, 1964. Made public: 2013. To check: the People''s Daily''s 1961 pieces on ghosts (named by [[w.zedong-mao-zedong-nianpu]], V, June 19, 1964). Names: Mao Zedong, Wu Lengxi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, June 19, 1964; [[w.zhu-de-nianpu-xinbian]], III, 1911 (June 19, 1964; Zhu De 朱德 at the small meeting Mao Zedong 毛泽东 calls in the Fujian Room of the Great Hall of the People 人民大会堂福建厅). Made public: 2013. To check: the People''s Daily''s 1961 pieces on ghosts (named by [[w.zedong-mao-zedong-nianpu]], V, June 19, 1964). Names: Mao Zedong, Wu Lengxi.'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
+    time_range:
+      - 1964-06-19T04:00Z
+      - 1964-06-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-19.china-leadership-2
     when: June 19, 20 and 25
     date: '1964-06-19'
@@ -8402,6 +8486,14 @@ entries:
       - 1964-06-23T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1964-06-23.china-leadership-5
+    when: June 23
+    date: '1964-06-23'
+    place: peking
+    thread: china-leadership
+    c: The Peking Room of the Great Hall of the People 人民大会堂北京厅, Peking 北京. Zhu De 朱德 at the small meeting Mao Zedong 毛泽东 calls.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1911. Made public: 2016. Names: Zhu De, Mao Zedong.'
+    tags: [polity:prc, name:zhu-de, name:mao-zedong, vis:only:prc]
   - id: cal.1964-06-24.opinion
     when: June 24
     date: '1964-06-24'
@@ -8992,11 +9084,12 @@ entries:
     place: peking
     thread: china-leadership
     c: The Great Hall of the People 人民大会堂, Peking 北京. Peng Zhen 彭真, with He Long 贺龙 and others, accompanies Mao 毛泽东, Zhu De 朱德 and others to the Vietnam People's Army General Political Department's song and dance troupe in the revolutionary dance drama *Fire of Nghệ Tĩnh* 《义静烈火》.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 340. The words: 晚 (IV, 340). Names: Peng Zhen, He Long, Mao Zedong, Zhu De.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 340; [[w.zhu-de-nianpu-xinbian]], III, 1911 (June 25, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Peng Zhen 彭真, Nie Rongzhen 聂荣臻 and others, sees the song and dance troupe of the Vietnam People''s Army''s General Political Department 越南人民军总政治局歌舞团 in the dance drama *Flames of Nghệ Tĩnh* 《义静烈火》). The words: 晚 (IV, 340). Names: Peng Zhen, He Long, Mao Zedong, Zhu De.'
     src:
       c: a5f64f70
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 340: all'
+        - 'w.zhu-de-nianpu-xinbian III, 1911: ?'
     tags: [polity:prc, name:peng-zhen, name:he-long, name:mao-zedong, name:zhu-de]
     time_range:
       - 1964-06-25T11:00Z
@@ -9055,6 +9148,15 @@ entries:
     c: Chen Yi 陈毅 writes to Huot Sambath 胡森巴, Cambodia's Foreign Minister, praising the Cambodian government's and people's just stand on the American bombing of Khang Khay 康开 and of the Chinese economic and cultural mission.
     n: '[[w.chen-yi-nianpu]], 1038. Names: Chen Yi.'
     tags: [polity:prc, polity:cambodia, name:chen-yi, name:sambath-huot, ok:fields-place]
+  - id: cal.1964-06-25.china-leadership-15
+    when: June 25
+    date: '1964-06-25'
+    place: peking
+    thread: china-leadership
+    also: [berlin-and-vienna]
+    c: Peking 北京. Zhu De 朱德 attends the 122nd meeting of the NPC Standing Committee 全国人大常委会, which hears Wang Guoquan 王国权, back from his post as Ambassador to the GDR 中国驻德意志民主共和国大使, on East and West Berlin 东西柏林 and East Germany.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1911. Names: Zhu De.'
+    tags: [polity:prc, polity:gdr, name:zhu-de]
   - id: cal.1964-06-26.robert-kennedy
     when: June 26–July 1
     date: '1964-06-26'
@@ -9253,7 +9355,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou, with Mao, Liu, Zhu De and Dong Biwu, receives delegates to the meeting of "four-good" companies and "five-good" soldiers of the public security forces and students of the PLA Political Institute and the Central Political Cadre School.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 650 (June 26, 1964); [[w.peng-zhen-nianpu-1902]], IV, 340 (June 26, 1964, afternoon; Peng Zhen, with Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu and others, receives the delegates to the public security forces'' meeting of "four-good" companies and "five-good" soldiers, the graduates of the PLA Political Academy''s local cadres'' course and those of its army course, and the students of the central political and legal cadres'' school). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Zhu De, Dong Biwu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 650 (June 26, 1964); [[w.peng-zhen-nianpu-1902]], IV, 340 (June 26, 1964, afternoon; Peng Zhen, with Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu and others, receives the delegates to the public security forces'' meeting of "four-good" companies and "five-good" soldiers, the graduates of the PLA Political Academy''s local cadres'' course and those of its army course, and the students of the central political and legal cadres'' school); [[w.zhu-de-nianpu-xinbian]], III, 1911 (June 26, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Dong Biwu 董必武, Peng Zhen 彭真, Liu Bocheng 刘伯承, He Long 贺龙, Li Xiannian 李先念 and others, receives the delegates to the meeting of "four-good" companies and "five-good" soldiers of the public security forces 公安部队 and the graduates of the PLA Political Institute''s 解放军政治学院 local and army cadres'' classes). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Zhu De, Dong Biwu.'
     tags: [name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:dong-biwu, polity:prc]
     time_range:
       - 1964-06-26T04:00Z
@@ -9439,7 +9541,7 @@ entries:
     date: '1964-06-27'
     thread: china-leadership
     c: Zhou, with Mao, Liu, Zhu De, Dong Biwu, Peng Zhen and others, receives the whole staff and students of the Central Party School.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 651 (June 27, 1964); [[w.peng-zhen-nianpu-1902]], IV, 340 (June 27, 1964; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu and others, receives the whole staff and students of the Higher Party School). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Zhu De, Dong Biwu, Peng Zhen.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 651 (June 27, 1964); [[w.peng-zhen-nianpu-1902]], IV, 340 (June 27, 1964; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu and others, receives the whole staff and students of the Higher Party School); [[w.zhu-de-nianpu-xinbian]], III, 1911 (June 27, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and others, receives the whole staff and students of the Central Higher Party School 中共中央高级党校). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Zhu De, Dong Biwu, Peng Zhen.'
     tags: [name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:dong-biwu, name:peng-zhen, polity:prc]
   - id: cal.1964-06-27.china-leadership-2
     when: June 27
@@ -9626,6 +9728,21 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 388: all'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-06-28.china-leadership-3
+    when: June 28
+    date: '1964-06-28'
+    place:
+      - peking
+      - chengde
+    thread: china-leadership
+    c: Zhu De 朱德, with Dong Biwu 董必武 and others, leaves Peking 北京 to inspect the Northeast 东北 and Inner Mongolia 内蒙古自治区, and spends the night at Chengde 承德, Hebei 河北省.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1911. The words: 当晚，宿河北省承德市 (1911). Names: Zhu De, Dong Biwu.'
+    tags: [polity:prc, name:zhu-de, name:dong-biwu]
+    time_range:
+      - 1964-06-28T11:00Z
+      - 1964-06-28T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1964-06-29.economy-debt-limit
     when: June 29
@@ -9891,6 +10008,14 @@ entries:
       - 1964-06-29T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1964-06-29.china-leadership-10
+    when: June 29
+    date: '1964-06-29'
+    place: chengde
+    thread: china-leadership
+    c: Chengde 承德. Zhu De 朱德 visits the eight great temples outside the city 承德城外八大寺.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1912. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1964-06-30.states-and-cities
     when: June 30
     date: '1964-06-30'
@@ -10833,3 +10958,11 @@ entries:
         - 'via x.1964-03-30.prc-embassy-indonesia-mfa-march-30-1964: ?'
         - 'via x.1964-07-11.prc-embassy-indonesia-mfa-zhonglianbu-july-11-1964: ?'
     tags: [polity:ussr, polity:indonesia, name:mikoyan-anastas, name:aidit-dipa-nusantara, vis:only:ussr+indonesia, ok:fields-place]
+  - id: cal.1964-06-30.china-leadership-7
+    when: June 30
+    date: '1964-06-30'
+    place: chifeng
+    thread: china-leadership
+    c: Zhu De 朱德 reaches Chifeng 赤峰, Inner Mongolia 内蒙古自治区, and inspects the Chifeng afforestation of the sands 赤峰沙地造林 and the Chifeng pharmaceutical works 赤峰制药厂.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1912. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]

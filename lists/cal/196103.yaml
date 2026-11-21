@@ -271,6 +271,25 @@ entries:
     c: Conghua 从化. Zhu De 朱德 inspects the dam of the Wenquan 温泉 artificial lake.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1961-03-01.china-leadership-12
+    when: Mar. 1
+    date: '1961-03-01'
+    thread: china-leadership
+    c: Chen Yun 陈云 presides at a working meeting of the State Council's Finance and Trade Office 国务院财贸办公室 on market supply.
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 76. The words: 上午 (76). Made public: 2015. Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc]
+    time_range:
+      - 1961-02-28T22:00Z
+      - 1961-03-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-03-01.china-leadership-13
+    when: Mar. 1
+    date: '1961-03-01'
+    thread: china-leadership
+    c: 'Chen Yun 陈云, by letter to Wu Zongxi 吴宗锡: Qin Jiwen''s 秦纪文 recollections of adapting the ballad *Meng Lijun* 《孟丽君》 interest him; the storytellers'' pieces in the press are on their own change of mind and old and new society, almost none on the art; they should write of their experience in storytelling.'
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 76. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc]
   - id: cal.1961-03-02.testing
     when: Mar. 2
     date: '1961-03-02'
@@ -401,11 +420,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真 at the enlarged Politburo Standing Committee, Liu Shaoqi 刘少奇 presiding, hearing Li Xiannian 李先念 on the Albanian Party of Labor's congress.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 109. The words: 下午 (IV, 109). Made public: 2012. Names: Peng Zhen, Liu Shaoqi, Li Xiannian.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 109; [[w.chen-yun-nianpu-xiuding]], III, 76 (afternoon: Chen Yun at the Standing Committee hearing Li Xiannian on the Albanian Party''s congress). The words: 下午 (IV, 109). Made public: 2012. Names: Peng Zhen, Liu Shaoqi, Li Xiannian.'
     src:
       c: 80c61b01
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 109: all'
+        - 'w.chen-yun-nianpu-xiuding III, 76: ?'
     tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:li-xiannian, vis:only:prc]
     time_range:
       - 1961-03-02T04:00Z
@@ -591,11 +611,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking 北京. Peng Zhen 彭真 at the enlarged Politburo Standing Committee, Liu Shaoqi 刘少奇 presiding: Deng Xiaoping 邓小平 on his tour; the Soviet offer of a million tons of grain on loan and 500,000 tons of Cuban sugar in transit.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 109. The words: 晚 (IV, 109). Made public: 2012. Names: Peng Zhen, Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 109; [[w.chen-yun-nianpu-xiuding]], III, 76 (evening: Chen Yun at the enlarged Standing Committee hearing Deng Xiaoping and others on their tours and on foreign trade). The words: 晚 (IV, 109). Made public: 2012. Names: Peng Zhen, Liu Shaoqi, Deng Xiaoping.'
     src:
       c: 9faca18c
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 109: all'
+        - 'w.chen-yun-nianpu-xiuding III, 76: ?'
     tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
     time_range:
       - 1961-03-03T11:00Z
@@ -806,6 +827,13 @@ entries:
     c: Conghua county 从化县. Zhu De 朱德 inspects the Liangkou People's Commune 良口人民公社.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1961-03-04.china-leadership-9
+    when: Mar. 4
+    date: '1961-03-04'
+    thread: china-leadership
+    c: 'Chen Yun 陈云 hears the heads of the Ministry of the Chemical Industry 化工部 on fertilizer: of the big, middle and small synthetic-ammonia works (25,000–50,000 tons, 10,000 tons and 800–2,000 tons a year, the nianpu''s note), the small have failed and the middle are not proven; the big, copied from abroad, are proven and need only more plant and materials, which can be imported: "build big"; the middle works to be argued further, with "opponents" from outside the ministry heard; to hear no contrary view is sure to fail; technical innovation good, but much of it unripe.'
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 77. Made public: 2015. Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc]
   - id: cal.1961-03-05.economy
     when: Mar. 5
     date: '1961-03-05'
@@ -1104,12 +1132,13 @@ entries:
     follows:
       - cal.1961-03-06.china-leadership-5
     c: Peking 北京. Deng Xiaoping 邓小平, Zhou Enlai 周恩来 and Peng Zhen 彭真 report the Canton 广州 Standing Committee to Liu Shaoqi's 刘少奇 Politburo Standing Committee.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1620 (Mar. 6, 1961); [[w.peng-zhen-nianpu-1902]], IV, 110 (Mar. 6, 1961, evening; Peng Zhen sits in at Liu Shaoqi''s Standing Committee, and with Zhou and Deng reports the Canton meeting; the three northern bureaus'' meeting discussed). The words: 晚 (III, 1620). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Zhou Enlai, Peng Zhen, Liu Shaoqi.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1620 (Mar. 6, 1961); [[w.peng-zhen-nianpu-1902]], IV, 110 (Mar. 6, 1961, evening; Peng Zhen sits in at Liu Shaoqi''s Standing Committee, and with Zhou and Deng reports the Canton meeting; the three northern bureaus'' meeting discussed); [[w.chen-yun-nianpu-xiuding]], III, 78 (evening: Chen Yun at the Standing Committee hearing Zhou Enlai, Deng Xiaoping and Peng Zhen on their report to Mao at Canton). The words: 晚 (III, 1620). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Zhou Enlai, Peng Zhen, Liu Shaoqi.'
     src:
       c: d1f64a9e
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1620: all'
         - 'w.peng-zhen-nianpu-1902 IV, 110: ?'
+        - 'w.chen-yun-nianpu-xiuding III, 78: ?'
     tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:peng-zhen, name:liu-shaoqi, vis:only:prc]
     time_range:
       - 1961-03-06T11:00Z
@@ -1124,6 +1153,13 @@ entries:
     c: 'Zhu De 朱德 to the Center 中共中央 and Mao Zedong 毛泽东, a report on Fujian 福建 and Jiangxi 江西: where the Center''s urgent letter of directives on the communes'' present policy 《关于农村人民公社当前政策问题的紧急指示信》 was truly carried out and the rectification of work style and of the communes 整风整社 done, the masses'' zeal much higher, farm output much changed, the members content; Jiangxi''s great gains in opening and building the mountain areas; the southern provinces'' wide and rich mountain areas to be developed, of great political and economic weight for the old base areas and the nation''s building.'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1799. Made public: 2016. Names: Zhu De, Mao Zedong.'
     tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-03-06.china-leadership-10
+    when: Mar. 6–8
+    date: '1961-03-06'
+    thread: china-leadership
+    c: 'Chen Yun 陈云 goes on hearing the heads of the Ministry of the Chemical Industry 化工部 on basic and organic chemicals, rubber, medicine and the defense frontier industries: calcium-magnesium phosphate costs high because the works are small and scattered; reform to be tried before it is spread, "crossing the river by feeling the stones"; Hou Debang''s 侯德榜 combined soda process, in the textbooks twenty years, took six or seven years from a 3,000-ton trial to an 80,000-ton works; hear both sides, not "left" or right; ten big ammonia works of 25,000 tons a year, or five of 50,000, which he prefers.'
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 77–78. See [[cal.1961-03-04.china-leadership-9]]. Made public: 2015. Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc]
   - id: cal.1961-03-07.confirmations
     when: Mar. 7–8
     date: '1961-03-07'
@@ -2007,6 +2043,18 @@ entries:
     c: Canton 广州. Zhu De 朱德 inspects the farms of the city's outskirts.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1799. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1961-03-09.china-leadership-5
+    when: Mar. 9
+    date: '1961-03-09'
+    thread: china-leadership
+    c: Chen Yun 陈云 presides at a working meeting of the State Council's Finance and Trade Office 国务院财贸办公室 on grain.
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 78. The words: 上午 (78). Made public: 2015. Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc]
+    time_range:
+      - 1961-03-08T22:00Z
+      - 1961-03-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-10.latin-america
     when: Mar. 10
     date: '1961-03-10'
@@ -2346,7 +2394,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking. Liu Shaoqi, Zhou Enlai, Chen Yun and Deng Xiaoping hold the "Three North" conference of the North China, Northeast and Northwest bureaus and their provinces, on the communes' system and working regulations.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 10, 1961 (the entry for Mar. 10–13). [[w.zhou-enlai-nianpu-1949]], II, 397, Mar. 11–13, 1961 (Zhou with Liu at the "Three North" conference). [[w.macfarquhar-origins-of-the-cultural]], III, 41–42 (the Three North conference); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 507–508 (Mar. 11–13, 1961; Liu presides over the "Three North" work conference of the responsible persons of the Northwest, Northeast and North China bureaus and their provinces, municipalities and autonomous regions, on rural work; at the same time Mao holds the "Three South" conference at Canton; on the 13th Mao proposes merging them in Canton into a Central Work Conference on rural work and the draft Rural People''s Commune Work Regulations, the "Sixty Articles"); [[w.yang-shangkun-riji]], I, 662 (Mar. 11, 1961; the Three North conference 三北会议 formally opened (note 1: the North China, Northeast and Northwest leaders, at Peking)); [[w.deng-xiaoping-nianpu-1904]], III, 1621–1622 (Mar. 11–13, 1961; Deng at the Three North conference, Liu Shaoqi presiding, on the communes'' system; at Canton Mao holds the Three South conference on the same); [[w.peng-zhen-nianpu-1902]], IV, 111 (Mar. 11–13, 1961; Peng Zhen attends; the reports and discussion on making the communes smaller and the regulations; Mao''s Three South conference at Canton on the same; from the 15th the two merged at Canton as the Central Work Conference). Made public: 1996. To check: [[w.zhongguo-gongchan-dang-liushi]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.19a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 454–55 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.19b); [[w.jin-1949-1989-niande-zhongguo]], 218 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 42 n.20b). Names: Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 10, 1961 (the entry for Mar. 10–13). [[w.zhou-enlai-nianpu-1949]], II, 397, Mar. 11–13, 1961 (Zhou with Liu at the "Three North" conference). [[w.macfarquhar-origins-of-the-cultural]], III, 41–42 (the Three North conference); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 507–508 (Mar. 11–13, 1961; Liu presides over the "Three North" work conference of the responsible persons of the Northwest, Northeast and North China bureaus and their provinces, municipalities and autonomous regions, on rural work; at the same time Mao holds the "Three South" conference at Canton; on the 13th Mao proposes merging them in Canton into a Central Work Conference on rural work and the draft Rural People''s Commune Work Regulations, the "Sixty Articles"); [[w.yang-shangkun-riji]], I, 662 (Mar. 11, 1961; the Three North conference 三北会议 formally opened (note 1: the North China, Northeast and Northwest leaders, at Peking)); [[w.deng-xiaoping-nianpu-1904]], III, 1621–1622 (Mar. 11–13, 1961; Deng at the Three North conference, Liu Shaoqi presiding, on the communes'' system; at Canton Mao holds the Three South conference on the same); [[w.peng-zhen-nianpu-1902]], IV, 111 (Mar. 11–13, 1961; Peng Zhen attends; the reports and discussion on making the communes smaller and the regulations; Mao''s Three South conference at Canton on the same; from the 15th the two merged at Canton as the Central Work Conference); [[w.chen-yun-nianpu-xiuding]], III, 78 (Chen Yun with Liu Shaoqi, Zhou Enlai and Deng Xiaoping presides at the Three North conference in Peking, Mar. 11–13, on the communes'' system and work regulations). Made public: 1996. To check: [[w.zhongguo-gongchan-dang-liushi]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.19a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 454–55 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 41 n.19b); [[w.jin-1949-1989-niande-zhongguo]], 218 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 42 n.20b). Names: Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping.'
     src:
       c: 5f477d42
       rows:
@@ -2361,6 +2409,7 @@ entries:
         - 'w.yang-shangkun-riji I, 662: A-B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1621–1622: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 111: ?'
+        - 'w.chen-yun-nianpu-xiuding III, 78: ?'
     tags: [polity:prc, name:liu-shaoqi, name:zhou-enlai, name:chen-yun, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-03-11.china-leadership
     when: Mar. 11
@@ -2748,7 +2797,7 @@ entries:
     place: canton
     thread: china-leadership
     c: 'Mao, 8 a.m., to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the Three North conference, by Tao Zhu: the two egalitarianisms, between teams in a brigade and between members in a team, "two extremely grave questions," to be studied in person; Deng and Peng to spend ten days in Miyun, Shunyi, Huairou: are they "still unclear"?'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 13, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 42–43 (Mao''s letter on the two egalitarianisms); [[w.jianguo-yilai-mao-zedong]], XV, 501–503 (Mar. 13, 1961; Mao''s letter of Mar. 13, 8 a.m., Canton, to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the Peking conference, carried by Tao Zhu, who goes and returns the next day; Liao Luyan to go north in a few days; the conference of three days too short, five to seven needed; printed from the Center''s document (with the manuscript)); [[w.deng-xiaoping-nianpu-1904]], III, 1622 (Mar. 13, 1961; Mao''s letter to Liu, Zhou, Chen Yun, Deng, Peng Zhen and the Three North conference: the two egalitarianisms, between teams and within the team, "extremely grave"; Deng and Peng Zhen to spend ten days after the meeting at Miyun, Shunyi and Huairou, each level apart; "busy with routine", no typical inquiry in person; Tao Zhu to come to Peking (footnote 1: Tao, then first secretary of the Central-South Bureau and in Guangdong)); [[w.mao-zedong-zhuan]], V, ch. 67 n.26 (Mar. 13, early morning, the letter to Liu Shaoqi and the others: to study the two egalitarianisms, among teams of a brigade and among members of a team; Tao Zhu sent to the Peking meeting; Deng Xiaoping and Zhou Enlai propose joining the two meetings, Mao agrees, at Canton, and Tao Zhu does not go). [[w.peng-zhen-nianpu-1902]], IV, 112 (Mar. 13, 1961; Peng Zhen receives Mao''s letter on the two egalitarianisms, between teams within a brigade and between persons within a team, "两个极端严重的大问题"; Deng and Peng to take some ten days after the meeting to investigate at Miyun, Shunyi, Huairou and elsewhere, level by level, not all together). Made public: 2013. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 67), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 440–41 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 448 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24b); [[w.jin-1949-1989-niande-zhongguo]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24c); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 904–05 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24d); Mao Zedong 毛泽东, letter to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the comrades at the Peking meeting, Mar. 13, 1961; in [[w.mao-zedong-wenji]], VIII, 250 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.26). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 13, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 42–43 (Mao''s letter on the two egalitarianisms); [[w.jianguo-yilai-mao-zedong]], XV, 501–503 (Mar. 13, 1961; Mao''s letter of Mar. 13, 8 a.m., Canton, to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the Peking conference, carried by Tao Zhu, who goes and returns the next day; Liao Luyan to go north in a few days; the conference of three days too short, five to seven needed; printed from the Center''s document (with the manuscript)); [[w.deng-xiaoping-nianpu-1904]], III, 1622 (Mar. 13, 1961; Mao''s letter to Liu, Zhou, Chen Yun, Deng, Peng Zhen and the Three North conference: the two egalitarianisms, between teams and within the team, "extremely grave"; Deng and Peng Zhen to spend ten days after the meeting at Miyun, Shunyi and Huairou, each level apart; "busy with routine", no typical inquiry in person; Tao Zhu to come to Peking (footnote 1: Tao, then first secretary of the Central-South Bureau and in Guangdong)); [[w.mao-zedong-zhuan]], V, ch. 67 n.26 (Mar. 13, early morning, the letter to Liu Shaoqi and the others: to study the two egalitarianisms, among teams of a brigade and among members of a team; Tao Zhu sent to the Peking meeting; Deng Xiaoping and Zhou Enlai propose joining the two meetings, Mao agrees, at Canton, and Tao Zhu does not go). [[w.peng-zhen-nianpu-1902]], IV, 112 (Mar. 13, 1961; Peng Zhen receives Mao''s letter on the two egalitarianisms, between teams within a brigade and between persons within a team, "两个极端严重的大问题"; Deng and Peng to take some ten days after the meeting to investigate at Miyun, Shunyi, Huairou and elsewhere, level by level, not all together); [[w.chen-yun-nianpu-xiuding]], III, 78 (Mao''s letter on egalitarianism in the communes, routine and investigation, to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the Three North conference, moving them to Canton). Made public: 2013. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 67), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 440–41 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24a); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 448 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24b); [[w.jin-1949-1989-niande-zhongguo]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24c); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 904–05 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.24d); Mao Zedong 毛泽东, letter to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the comrades at the Peking meeting, Mar. 13, 1961; in [[w.mao-zedong-wenji]], VIII, 250 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.26). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Tao Zhu.'
     src:
       c: ef3aa923
       rows:
@@ -2762,6 +2811,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1622: ?'
         - 'w.mao-zedong-zhuan V, ch. 67 n.26: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 112: ?'
+        - 'w.chen-yun-nianpu-xiuding III, 78: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:tao-zhu, vis:only:prc]
   - id: cal.1961-03-13.china-leadership-2
     when: Mar. 13
@@ -3093,6 +3143,21 @@ entries:
     c: Canton 广州. Ye Jianying 叶剑英 writes six poems, "For the Liu Sanjie troupe and its actors" 《赠刘三姐剧团及演员》.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 887. Names: Ye Jianying.'
     tags: [polity:prc, name:ye-jianying]
+  - id: cal.1961-03-14.china-leadership-10
+    when: Mar. 14
+    date: '1961-03-14'
+    place:
+      - peking
+      - canton
+    thread: china-leadership
+    c: Chen Yun 陈云 flies from Peking 北京 to Canton 广州.
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 78. The words: 上午 (78). Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun]
+    time_range:
+      - 1961-03-13T22:00Z
+      - 1961-03-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-15.africa
     when: Mar. 15
     date: '1961-03-15'
@@ -3241,7 +3306,7 @@ entries:
     place: canton
     thread: china-leadership
     c: 'Canton, morning. Zeng Xisheng and Tan Qilong report to Mao on Anhui''s "responsibility fields." Mao: "Try it!"; if it goes wrong, a self-criticism; a billion jin more grain would be a big thing. Zeng telephones Anhui: "it has reached the top." Mao later, through Ke Qingshi: on a small scale.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 15, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 212 (Mar. 15 and 16: Zeng reports to Mao, who says to experiment, with a self-criticism if it goes wrong; Ke Qingshi then relays Mao''s limit to a small-scale experiment); [[w.yang-jisheng-mubei]], I, 333 (Mar. 15 and 16 at the Canton conference: Zeng reports to Mao the method; Mao''s answer; Mao then has Ke Qingshi tell Zeng the fields may be tried in a small area; Zeng has his secretary telegraph Mao''s words to the province: "it has reached the top"); [[w.yang-jisheng-mubei]], II, 830 (Mao to Zeng Xisheng 曾希聖, Mar. 15, 1961: try it; if it goes wrong, check; if it brings a billion jin more grain, a great thing). Made public: 2013. Check: MacFarquhar gives Zeng''s two reports to Mao as Mar. 15 and 16. To check: [[w.kunchi-60-niandai-zeng-xisheng]], 58 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 212 n.17a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1079–80 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 212 n.17b); [[w.kunchi-60-niandai-zeng-xisheng]], 58 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 212 n.18a); [[w.ren-gongheguo-zhongda-shijian-jishi]], 68–69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 212 n.18b). Names: Mao Zedong, Zeng Xisheng, Tan Qilong, Ke Qingshi, Tian Jiaying.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 15, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 212 (Mar. 15 and 16: Zeng reports to Mao, who says to experiment, with a self-criticism if it goes wrong; Ke Qingshi then relays Mao''s limit to a small-scale experiment); [[w.yang-jisheng-mubei]], I, 333 (Mar. 15 and 16 at the Canton conference: Zeng reports to Mao the method; Mao''s answer; Mao then has Ke Qingshi tell Zeng the fields may be tried in a small area; Zeng has his secretary telegraph Mao''s words to the province: "it has reached the top"); [[w.yang-jisheng-mubei]], II, 830 (Mao to Zeng Xisheng 曾希聖, Mar. 15, 1961: try it; if it goes wrong, check; if it brings a billion jin more grain, a great thing); [[w.chen-yun-nianpu-xiuding]], III, 79 (during the Canton conference, Mar. 15–23, the day not given: Zeng Xisheng reports to Mao on the responsibility fields of some Anhui production teams; Mao: they may be tried on a small scale). Made public: 2013. Check: MacFarquhar gives Zeng''s two reports to Mao as Mar. 15 and 16. To check: [[w.kunchi-60-niandai-zeng-xisheng]], 58 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 212 n.17a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1079–80 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 212 n.17b); [[w.kunchi-60-niandai-zeng-xisheng]], 58 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 212 n.18a); [[w.ren-gongheguo-zhongda-shijian-jishi]], 68–69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 212 n.18b). Names: Mao Zedong, Zeng Xisheng, Tan Qilong, Ke Qingshi, Tian Jiaying.'
     src:
       c: 00e723a6
       rows:
@@ -3253,6 +3318,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 212 n.18b: G'
         - 'w.yang-jisheng-mubei I, 333: B-G'
         - 'w.yang-jisheng-mubei II, 830: C-E'
+        - 'w.chen-yun-nianpu-xiuding III, 79: ?'
     tags: [polity:prc, name:mao-zedong, name:ke-qingshi, vis:only:prc]
   - id: cal.1961-03-15.china-leadership-2
     when: Mar. 15–23
@@ -3260,7 +3326,7 @@ entries:
     place: canton
     thread: china-leadership
     c: 'Canton. The Central Work Conference, Mao presiding: the regional bureaus'' and provinces'' secretaries. It adopts the draft Working Regulations for the Rural People''s Communes (the "Sixty Articles"), the Center''s letter to all members on discussing them, and its letter on investigation. The draft holds down the commune''s power, makes the brigade the main accounting unit, part of the ownership with the team, and restores the higher cooperatives'' rules. Mao: the first time since the communes that the center sat down together on farming.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 15, 1961 (the entry for Mar. 15–23, with Deng Xiaoping''s report of it, Mar. 27 and 29). [[w.zhou-enlai-nianpu-1949]], II, 398–99, Mar. 15–23, 1961 (Zhou at the conference, with his speeches of Mar. 19, 20 and 22). [[w.macfarquhar-origins-of-the-cultural]], III, 43–48 (the Canton conference; the Sixty Articles); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 15–23, 1961; Liu attends the Central Work Conference at Canton, which drafts the Rural People''s Commune Work Regulations (draft) and a "Letter on conscientiously carrying out investigation" to the bureaus and the provincial committees; Liu presides on the 20th, 22nd and 23rd); [[w.jianguo-yilai-mao-zedong]], XV, 516 (note 3: the draft Working Regulations for the Rural People''s Communes, the ''Sixty Articles'', adopted by the conference Mar. 22, 1961; note 2: Canton, Mar. 15–23; the place and the regulations only); [[w.deng-xiaoping-nianpu-1904]], III, 1623 (Mar. 15–23, 1961; Deng attends; the draft Working Regulations (the Sixty Articles on agriculture), the Center''s letter to all comrades on discussing them, and its letter to the bureaus and provinces on investigation adopted; in his speeches of the 19th and the 23rd Deng makes a self-criticism for the Secretariat: investigation a basic, permanent method, "less sitting and talking, more rising and doing"; the draft then tried and discussed across the countryside); [[w.peng-zhen-nianpu-1902]], IV, 112 (Mar. 15–23, 1961; Peng Zhen attends; the draft "Regulations on the work of the rural people''s communes" (the "Sixty Articles") adopted, against communes too big, control too tight and the two egalitarianisms; the letter to the whole Party on the regulations and the letter on investigation); [[w.zhu-de-nianpu-xinbian]], III, 1800–1801 (Mar. 14–23, 1961; Zhu De 朱德 at the Central Work Conference 中共中央工作会议 at Canton 广州, which adopts the draft Working Regulations for the Rural People''s Communes 《农村人民公社工作条例（草案）》 (the "Sixty Articles on agriculture" 农业六十条) and the Center''s letter to the bureaus and committees on investigation and study; its note: the conference in effect began Mar. 10, at Canton as the Three South conference 三南会议 under Mao Zedong 毛泽东 and at Peking 北京 as the Three North 三北会议 under Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Chen Yun 陈云 and Deng Xiaoping 邓小平, the Three North''s members going to Canton on Mar. 14 and the two joined as the Canton work conference). Made public: 1996. To check: the Working Regulations for the Rural People''s Communes (draft), Mar. 1961; [[w.zhongguo-gongchan-dang-liushi]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25a); [[w.xin-zhongguo-biannianshi-1949]], 185 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25b); [[w.zhongguo-gongchan-dang-lici]], xia, 148 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25c); [[w.bian-mao-zedong-he-tade]], 48 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 905 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25e); [[w.jin-1949-1989-niande-zhongguo]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25f); [[w.zhongguo-gongchan-dang-lishi]], 253 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25g); [[w.zhonggong-dangshi-dashi-nianbiao]], 312 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25h); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 300 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25i); [[w.yanjiushi-liu-shaoqi-lun-dangde]], 685 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25j); [[w.huaxuan-zhongguo-gongchan-dang-huiyi]], 455, 457 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25k); Informant S, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25l); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 443 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25m); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 452–61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41a); [[w.nongye-jitihua-zhongyao-wenjian]], xia, 455–69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41b); [[w.politics-of-the-chinese]], 465–70, 491–98, 515–26, 582 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41d); [[w.shanxi-sishi-nian-1949]], III-79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.45a); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 222 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58b); [[w.mao-zedong-shuxin-xuanji]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58d); Central Work Conference, "Working Regulations for the Rural People''s Communes (draft)" (the Sixty Articles), adopted Mar. 22, 1961 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 516 n.3). Names: Mao Zedong, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 15, 1961 (the entry for Mar. 15–23, with Deng Xiaoping''s report of it, Mar. 27 and 29). [[w.zhou-enlai-nianpu-1949]], II, 398–99, Mar. 15–23, 1961 (Zhou at the conference, with his speeches of Mar. 19, 20 and 22). [[w.macfarquhar-origins-of-the-cultural]], III, 43–48 (the Canton conference; the Sixty Articles); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 15–23, 1961; Liu attends the Central Work Conference at Canton, which drafts the Rural People''s Commune Work Regulations (draft) and a "Letter on conscientiously carrying out investigation" to the bureaus and the provincial committees; Liu presides on the 20th, 22nd and 23rd); [[w.jianguo-yilai-mao-zedong]], XV, 516 (note 3: the draft Working Regulations for the Rural People''s Communes, the ''Sixty Articles'', adopted by the conference Mar. 22, 1961; note 2: Canton, Mar. 15–23; the place and the regulations only); [[w.deng-xiaoping-nianpu-1904]], III, 1623 (Mar. 15–23, 1961; Deng attends; the draft Working Regulations (the Sixty Articles on agriculture), the Center''s letter to all comrades on discussing them, and its letter to the bureaus and provinces on investigation adopted; in his speeches of the 19th and the 23rd Deng makes a self-criticism for the Secretariat: investigation a basic, permanent method, "less sitting and talking, more rising and doing"; the draft then tried and discussed across the countryside); [[w.peng-zhen-nianpu-1902]], IV, 112 (Mar. 15–23, 1961; Peng Zhen attends; the draft "Regulations on the work of the rural people''s communes" (the "Sixty Articles") adopted, against communes too big, control too tight and the two egalitarianisms; the letter to the whole Party on the regulations and the letter on investigation); [[w.zhu-de-nianpu-xinbian]], III, 1800–1801 (Mar. 14–23, 1961; Zhu De 朱德 at the Central Work Conference 中共中央工作会议 at Canton 广州, which adopts the draft Working Regulations for the Rural People''s Communes 《农村人民公社工作条例（草案）》 (the "Sixty Articles on agriculture" 农业六十条) and the Center''s letter to the bureaus and committees on investigation and study; its note: the conference in effect began Mar. 10, at Canton as the Three South conference 三南会议 under Mao Zedong 毛泽东 and at Peking 北京 as the Three North 三北会议 under Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Chen Yun 陈云 and Deng Xiaoping 邓小平, the Three North''s members going to Canton on Mar. 14 and the two joined as the Canton work conference); [[w.chen-yun-nianpu-xiuding]], III, 78–79 (Chen Yun at the Canton conference, Mar. 15–23; the "Sixty Articles" draft and the letter on investigation adopted). Made public: 1996. To check: the Working Regulations for the Rural People''s Communes (draft), Mar. 1961; [[w.zhongguo-gongchan-dang-liushi]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25a); [[w.xin-zhongguo-biannianshi-1949]], 185 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25b); [[w.zhongguo-gongchan-dang-lici]], xia, 148 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25c); [[w.bian-mao-zedong-he-tade]], 48 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 905 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25e); [[w.jin-1949-1989-niande-zhongguo]], 376 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25f); [[w.zhongguo-gongchan-dang-lishi]], 253 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25g); [[w.zhonggong-dangshi-dashi-nianbiao]], 312 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25h); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 300 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25i); [[w.yanjiushi-liu-shaoqi-lun-dangde]], 685 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25j); [[w.huaxuan-zhongguo-gongchan-dang-huiyi]], 455, 457 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25k); Informant S, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25l); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 443 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 43 n.25m); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 452–61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41a); [[w.nongye-jitihua-zhongyao-wenjian]], xia, 455–69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41b); [[w.politics-of-the-chinese]], 465–70, 491–98, 515–26, 582 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.41d); [[w.shanxi-sishi-nian-1949]], III-79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 45 n.45a); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 222 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58b); [[w.mao-zedong-shuxin-xuanji]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 48 n.58d); Central Work Conference, "Working Regulations for the Rural People''s Communes (draft)" (the Sixty Articles), adopted Mar. 22, 1961 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 516 n.3). Names: Mao Zedong, Deng Xiaoping.'
     src:
       c: e83e5d0d
       rows:
@@ -3302,6 +3368,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1623: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 112: ?'
         - 'w.zhu-de-nianpu-xinbian III, 1800–1801: B-C'
+        - 'w.chen-yun-nianpu-xiuding III, 78–79: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
     variants:
       - unit: B
@@ -4621,6 +4688,14 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 111: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1961-03-21.china-leadership-12
+    when: Mar. 21
+    date: '1961-03-21'
+    place: canton
+    thread: china-leadership
+    c: 'Canton 广州. Chen Yun 陈云 speaks to the Southwest and Northwest groups 西南组、西北组 of the work conference: in January he feared quotas and told Li Xiannian 李先念 grain could not be contracted; after Yao Yilin''s 姚依林 meetings, with the local committees and the peasants asking for it, he now favors contracting, since fixing output by household rouses zeal, and favors deciding now; grain will be tight two years, in places three; four ways out: tighter supply, townspeople to the villages, imports, more output; to cut the towns by 12 million in three years would save about 5 billion jin, as much as 2.5 million tons imported; grain to be imported this year and next, for reserves too, though none can be kept now; more output through policy and measures in the key areas, the counties that supply marketable grain being few; the small and middle fertilizer works unproven, so back to the big.'
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 79–80. Made public: 2015. Names: Chen Yun, Li Xiannian.'
+    tags: [polity:prc, name:chen-yun, name:li-xiannian, vis:only:prc]
   - id: cal.1961-03-22.foreign-aid
     when: Mar. 22
     date: '1961-03-22'
@@ -5843,6 +5918,22 @@ entries:
     c: Xi'an 西安. Zhu De 朱德 talks with Liu Lantao 刘澜涛, first secretary of the Northwest Bureau 中共中央西北局, and Zhang Desheng 张德生, first secretary of the Shaanxi committee 中共陕西省委.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
+  - id: cal.1961-03-27.china-leadership-14
+    when: Mar. 27–29
+    date: '1961-03-27'
+    place: shaoguan
+    thread: china-leadership
+    c: Shaoguan 韶关. Chen Yun 陈云 inspects the city.
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 80. The nianpu: at Shaoguan Mar. 27–29. Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun]
+  - id: cal.1961-03-27.china-leadership-15
+    when: Mar. 27–29
+    date: '1961-03-27'
+    place: shaoguan
+    thread: china-leadership
+    c: Shaoguan 韶关. Chen Yun 陈云 hears the heads of the Shaoguan prefectural committee 中共韶关地委 on their work.
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 80. The nianpu: at Shaoguan Mar. 27–29. Made public: 2015. Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc]
   - id: cal.1961-03-28.defense
     when: Mar. 28
     date: '1961-03-28'
@@ -6653,6 +6744,21 @@ entries:
     c: 'Chengdu 成都. Zhu De 朱德, in his diary 日记: in eleven years Chengdu built truly a garden; the orchids of the high mountains all gathered at its flower market; the potted flowers of the past now grown into groves.'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
+  - id: cal.1961-03-30.china-leadership-10
+    when: Mar. 30
+    date: '1961-03-30'
+    thread: china-leadership
+    c: 'Chen Yun 陈云 has a letter from Li Xiannian 李先念: the Australians concerned are at Hong Kong 香港 talking with the Chinese on importing grain, and in about ten days an agreement to import grain from Canada 加拿大 can be signed.'
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 80. Made public: 2015. Names: Chen Yun, Li Xiannian.'
+    tags: [polity:prc, ok:fields-place, name:chen-yun, name:li-xiannian, vis:only:prc]
+  - id: cal.1961-03-30.china-leadership-11
+    when: Mar. 30–Apr. 1
+    date: '1961-03-30'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Chen Yun 陈云 has a medical examination; the doctors find his heart somewhat worse than before and tell him to work still less than in the past three months.
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 80. Made public: 2015. Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc]
   - id: cal.1961-03-31.opinion
     when: Mar. 31
     date: '1961-03-31'
@@ -7679,3 +7785,21 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 9: all'
     tags: [polity:prc]
+  - id: cal.1961-03.china-leadership-29
+    when: Mar., at Canton, during the work conference (Mar. 15–23)
+    date: 1961-03
+    at: after 1961-03-15
+    place: canton
+    thread: china-leadership
+    c: 'Canton 广州. Chen Yun 陈云, against other views on the "responsibility fields" 责任田 of some Anhui 安徽 production teams (output fixed by field and responsibility by person, in effect by household, the nianpu''s note), which Zeng Xisheng 曾希圣, first secretary of the Anhui committee 中共安徽省委, has reported to Mao Zedong 毛泽东: Anhui should be allowed to try fixing output by household 包产到户.'
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 79. See [[cal.1961-03-15.china-leadership]], Zeng''s report to Mao. Made public: 2015. Names: Chen Yun, Mao Zedong.'
+    tags: [polity:prc, name:mao-zedong, name:chen-yun, vis:only:prc]
+  - id: cal.1961-03.china-leadership-30
+    when: Mar., at Canton, during the work conference (Mar. 15–23)
+    date: 1961-03
+    at: after 1961-03-15
+    place: canton
+    thread: china-leadership
+    c: Canton 广州. Chen Yun 陈云 and Mao Zedong 毛泽东 discuss using foreign exchange to import plant so as to make more fertilizer, faster, for more grain.
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 80. Made public: 2015. Names: Chen Yun, Mao Zedong.'
+    tags: [polity:prc, name:chen-yun, name:mao-zedong, vis:only:prc]

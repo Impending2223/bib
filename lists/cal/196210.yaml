@@ -748,6 +748,16 @@ entries:
       - 1962-10-03T11:00Z
     time_band: afternoon
     time_zone: Asia/Bangkok
+  - id: cal.1962-10-03.china-leadership-8
+    when: Oct. 3
+    date: '1962-10-03'
+    place:
+      - beidaihe
+      - peking
+    thread: china-leadership
+    c: Chen Yun 陈云 returns from Beidaihe 北戴河 to Peking 北京.
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 138. Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun]
   - id: cal.1962-10-04.middle-east-johnson-plan
     when: Oct. 4
     date: '1962-10-04'
@@ -2435,6 +2445,16 @@ entries:
       - 1962-10-10T15:00Z
     time_band: evening
     time_zone: Asia/Bangkok
+  - id: cal.1962-10-10.china-leadership-6
+    when: Oct. 10
+    date: '1962-10-10'
+    place:
+      - peking
+      - suzhou
+    thread: china-leadership
+    c: Chen Yun 陈云 goes from Peking 北京 to Suzhou 苏州 to rest.
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 138. Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun]
   - id: cal.1962-10-11.trade
     when: Oct. 11
     date: '1962-10-11'
@@ -10271,7 +10291,7 @@ entries:
     date: 1962-10
     thread: china
     c: Nine groups of armed Nationalist agents, 217 men in all, landed from the sea or parachuted in, are reportedly liquidated in Guangdong.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 273; [[w.chang-friends-and-enemies]], 226 (as 1962 wore on, scores of twelve-man teams sent to the mainland, killed or captured, no rebellion). To check: [[w.al-zhongguo-gongchan-dang-zhizheng]], 221, 223 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 273 n.71a); Clough to State, Mar. 13, 1963, Johnson Papers, VPSF, Government Agencies, box 13; [[w.hilsman-to-move-a-nation]], 319 (cited by [[w.chang-friends-and-enemies]], 226 n.55). Check: the days of each group; the book gives the whole period.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 273; [[w.chang-friends-and-enemies]], 226 (as 1962 wore on, scores of twelve-man teams sent to the mainland, killed or captured, no rebellion); [[w.chen-yun-nianpu-xiuding]], III, 138 (Oct. 1–Dec. 6: the army and people of the Guangdong 广东 coast wipe out nine bands of Nationalist armed agents landed by sea or dropped by air). To check: [[w.al-zhongguo-gongchan-dang-zhizheng]], 221, 223 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 273 n.71a); Clough to State, Mar. 13, 1963, Johnson Papers, VPSF, Government Agencies, box 13; [[w.hilsman-to-move-a-nation]], 319 (cited by [[w.chang-friends-and-enemies]], 226 n.55). Check: the days of each group; the book gives the whole period.'
     src:
       c: 1b07fada
       rows:
@@ -10279,6 +10299,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 273 n.71a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 273 n.71b: all'
         - 'w.chang-friends-and-enemies 226: ?'
+        - 'w.chen-yun-nianpu-xiuding III, 138: ?'
     tags: [polity:prc, polity:roc]
   - id: cal.1962-10.south-asia-3
     when: Oct.
@@ -10497,3 +10518,22 @@ entries:
     c: 'Ye Jianying 叶剑英 hears the Academy of Military Science''s 军事科学院 war history department 战史部 on its work, and speaks on writing war history: the army''s war history a highly political historical science, to follow the Center''s 党中央 and the Military Commission''s 中央军委 intent; what to write and how decided by them; important questions referred to the Center; strict scholarship, and something of foreign ways of writing history.'
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 896. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
+  - id: cal.1962-10.china-leadership-7
+    when: Oct.
+    date: 1962-10
+    thread: china-leadership
+    c: Deng Tuo 邓拓, in "To the readers" 〈奉告读者〉, written for the fifth collection of *Yanshan yehua* 燕山夜话, names the *Yunnan ribao*'s 云南日报 column *Dianyun mantan* 滇云漫谭 among the papers' columns he wishes long life.
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 139.'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 139: all'
+    tags: [polity:prc, ok:fields-place]
+  - id: cal.1962-10.china-leadership-8
+    when: Oct., at Suzhou, after the 10th
+    date: 1962-10
+    at: after 1962-10-10
+    place: suzhou
+    thread: china-leadership
+    c: 'Suzhou 苏州. Chen Yun 陈云 talks with the heads of the city''s culture bureau and pingtan 评弹 troupe on adapting *Meng Lijun* 《孟丽君》: the ancients in places speak like moderns, which will not do: "Confucius cannot wear a Lenin suit."'
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 138–139. Made public: 2015. Names: Chen Yun.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc]
