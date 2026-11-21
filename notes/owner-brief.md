@@ -916,3 +916,7 @@ Civil disorder killings and lesser crimes would also go in, wouldn't they? Don't
 Could you clarify or restate the "crime" rule? Maybe drop it? Heck, just drop it." (Nov. 20, about 1:10 a.m. Pacific.) Applied: the crime clause struck from R18; every dated crime the source records is an entry, as any other event (R5).
 
 "I believe the crime rule is too recent to have had much of an effect. Do you have it dated? Don't search anything before its date." (Nov. 20, about 1:15 a.m. Pacific.) Dated: the crime clause entered R18 on Nov. 14, about 7:23 p.m. Pacific (commit ad55daa, from the owner's words of that evening); the sweep limited to work after it.
+
+## Nov. 21, 2026, 12:10 a.m. Pacific
+
+"Sorry, Claude, but what's this new "conditions"/"events" exclusion condition you've made up?"
