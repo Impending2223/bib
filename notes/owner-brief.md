@@ -1074,3 +1074,8 @@ For the suspected kanji/Japanese names, I suppose we should go with (b), but I'm
 ## Nov. 21, 2026, about 1:50 p.m. (Pacific)
 
 "Let's go with (a), but give quotation marks around pinyin renderings of non-Chinese CJK names, to indicate that they reading is non-phonetic in a way that pinyin renderings of non-CJK names are not."
+
+## Nov. 21, 2026, about 2:45 p.m. (Pacific)
+
+"Alright, we're reaching the end of our token budget. Could we wrap things up and leave the rest to the post-Tuesday 4 p.m. PT reset?
+That is, I'm going to call a "pause" from here until Tuesday."
