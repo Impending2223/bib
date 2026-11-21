@@ -563,7 +563,7 @@ ops:
       place: peking
 - edit:
     id: cal.1966-11-29.china-leadership
-    base: 193f5a78
+    base: cca5184d
     set:
       time_range:
       - 1966-11-29T04:00Z
@@ -595,6 +595,51 @@ ops:
       - 1967-01-04T11:00Z
       - 1967-01-04T14:00Z
       time_band: evening
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1967-03-17.china-leadership-4
+    base: fedf994e
+    set:
+      time_range:
+      - 1967-03-16T22:00Z
+      - 1967-03-17T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1967-05-02.china-leadership-2
+    base: fe51ec41
+    set:
+      time_range:
+      - 1967-05-02T04:00Z
+      - 1967-05-02T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1967-05-04.china-leadership-4
+    base: 766eeaaf
+    set:
+      time_range:
+      - 1967-05-04T04:00Z
+      - 1967-05-04T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1967-05-22.china-leadership-2
+    base: 03dfbb9b
+    set:
+      time_range:
+      - 1967-05-22T04:00Z
+      - 1967-05-22T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1967-06-07.china-leadership
+    base: 65b5d7f6
+    set:
+      time_range:
+      - 1967-06-06T22:00Z
+      - 1967-06-07T04:00Z
+      time_band: morning
       time_zone: Asia/Shanghai
 - place-key:
     key: segou
@@ -10894,6 +10939,613 @@ ops:
       - polity:drv
       - name:chen-yi
       - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-02-12.china-leadership-6
+      when: Feb. 12
+      date: '1967-02-12'
+      time_range:
+      - 1967-02-12T11:00Z
+      - 1967-02-12T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 gives a banquet for the Mauritanian delegation of Birane Mamadou Wane 比拉尼·马马杜·瓦尼 and speaks, condemning American imperialism's "peace talks" plot covering its widened bombing and the Soviet revisionist leading group's working with the United States at the Vietnamese people's expense.
+      n: '[[w.chen-yi-nianpu]], 1185–1186. The words: 晚上 (1185–1186). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mauritania
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-02-14.china-leadership-7
+      when: Feb. 14
+      date: '1967-02-14'
+      time_range:
+      - 1967-02-14T11:00Z
+      - 1967-02-14T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Chen Yi 陈毅 at the banquet of the PLA's General Staff and General Political Department for the sixth anniversary of the unification of the South Vietnam Liberation Armed Forces.
+      n: '[[w.chen-yi-nianpu]], 1186. The words: 晚上 (1186). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nlf
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-02-14.china-leadership-8
+      when: Feb. 14
+      date: '1967-02-14'
+      time_range:
+      - 1967-02-14T11:00Z
+      - 1967-02-14T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 takes the Mauritanian delegation to the ballet *The Red Detachment of Women* 《红色娘子军》 and on the stage after it.
+      n: '[[w.chen-yi-nianpu]], 1186. The words: 晚上 (1186). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mauritania
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-02-15.china-leadership-3
+      when: Feb. 15
+      date: '1967-02-15'
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 speaks at the farewell banquet of Birane Mamadou Wane 比拉尼·马马杜·瓦尼, restating the principles Zhou set out in 1963 for China's relations with African states and condemning Kosygin's attempt, on his visit to Britain, to lay the worsening of Sino-Soviet relations on China.
+      n: '[[w.chen-yi-nianpu]], 1186. Names: Chen Yi, Zhou Enlai, Kosygin.'
+      tags:
+      - polity:prc
+      - polity:mauritania
+      - name:chen-yi
+      - name:zhou-enlai
+      - name:kosygin-aleksei
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-02-16.china-leadership-8
+      when: Feb. 16
+      date: '1967-02-16'
+      time_range:
+      - 1967-02-16T11:00Z
+      - 1967-02-16T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 at the airport to see off the Mauritanian delegation.
+      n: '[[w.chen-yi-nianpu]], 1186. The words: 晚上 (1186). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mauritania
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-02-16.china-leadership-9
+      when: Feb. 16
+      date: '1967-02-16'
+      time: 1967-02-16T13:00Z
+      time_approx: true
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'In the conference room of the West Building of Zhongnanhai 中南海, Peking 北京, Chen Yi 陈毅 receives representatives of the students come home from abroad and speaks for over two hours: do not climb up on others'' shoulders or dye your cap red with others'' blood; posting Liu Shaoqi''s 刘少奇 "hundred crimes" at Wangfujing leaks secrets; Zhu De 朱德 a warlord, He Long 贺龙 a bandit?; if only eleven in the great Party are clean, he does not want to be clean; a Communist who does not dare speak out now is not worth a copper; the Cultural Revolution''s after-effects will last ten or twenty years; power will not be handed to careerists and double-dealers.'
+      n: '[[w.chen-yi-nianpu]], 1186–1187. The words: 晚上9时许 (1186–1187). Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:liu-shaoqi
+      - name:zhu-de
+      - name:he-long
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1967-02-17.china-leadership-7
+      when: Feb. 17
+      date: '1967-02-17'
+      time_range:
+      - 1967-02-17T11:00Z
+      - 1967-02-17T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 at the China–Africa Friendship Association's reception for the second anniversary of the China–Tanzania treaty of friendship.
+      n: '[[w.chen-yi-nianpu]], 1187. The words: 晚上 (1187). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:tanzania
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-02-18.china-leadership-10
+      when: Feb. 18
+      date: '1967-02-18'
+      thread: china-leadership
+      c: 'Talking with the representatives of the "preparatory office of the rally to accuse the reactionary line''s crimes in the missions abroad," Chen Yi 陈毅 says angrily that the posters grow more and bigger and their level lower: how is Zhu De 朱德 a great warlord, He Long 贺龙, Politburo member and marshal, a great bandit? the Center cannot agree.'
+      n: '[[w.chen-yi-nianpu]], 1187. Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhu-de
+      - name:he-long
+      - ok:fields-place
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1967-02-18.china-leadership-11
+      when: Feb. 18
+      date: '1967-02-18'
+      time_range:
+      - 1967-02-18T11:00Z
+      - 1967-02-18T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 speaks at the reception of 伦迪尔·苏巴, Nepal's Ambassador, for Nepal's National Democracy Day.
+      n: '[[w.chen-yi-nianpu]], 1187. The words: 晚上 (1187). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-02-20.china-leadership-3
+      when: Feb. 20
+      date: '1967-02-20'
+      time_range:
+      - 1967-02-20T11:00Z
+      - 1967-02-20T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 at the reception of Paul Elieli Mwaluko 保罗·埃利埃尔·姆瓦卢科, Tanzania's Ambassador, at the embassy for the second anniversary of the treaty of friendship.
+      n: '[[w.chen-yi-nianpu]], 1187. The words: 晚上 (1187). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:tanzania
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-02-22.china-leadership-5
+      when: Feb. 22
+      date: '1967-02-22'
+      time_range:
+      - 1967-02-21T22:00Z
+      - 1967-02-22T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Chen Yi 陈毅 receives 怀青, head of the Vietnamese writers' delegation, and a member.
+      n: '[[w.chen-yi-nianpu]], 1187–1188. The words: 上午 (1187–1188). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:drv
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-03-03.china-leadership-4
+      when: Mar. 3
+      date: '1967-03-03'
+      time_range:
+      - 1967-03-03T11:00Z
+      - 1967-03-03T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 speaks at the reception of Abdellatif Filali 阿卜杜·拉蒂夫·菲拉利, Morocco's Ambassador, for Morocco's national day; China will join with all countries invaded, controlled or bullied by imperialism, on the Five Principles.
+      n: '[[w.chen-yi-nianpu]], 1188. The words: 晚上 (1188). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:morocco
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-03-11.china-leadership-4
+      when: Mar. 11
+      date: '1967-03-11'
+      thread: china-leadership
+      c: Norodom Phurissara 诺罗敦·富里萨拉, Cambodia's Foreign Minister, writes to Chen Yi 陈毅, thanking the Foreign Ministry for its statement of Feb. 25 on the American imperialists' and their lackeys' provocations and armed intrusions.
+      n: '[[w.chen-yi-nianpu]], 1188. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-03-13.china-leadership-4
+      when: Mar. 13
+      date: '1967-03-13'
+      time_range:
+      - 1967-03-13T11:00Z
+      - 1967-03-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 at the reception of Bashir Sadiq 巴希尔·萨迪克, Syria's Ambassador, for the Mar. 8 revolution day.
+      n: '[[w.chen-yi-nianpu]], 1188. The words: 晚上 (1188). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:syria
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-03-19.china-leadership-5
+      when: Mar. 19
+      date: '1967-03-19'
+      place: peking
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Chen Yi 陈毅 at the capital's rally supporting the Vietnamese people's fight against the United States, in the CPPCC Auditorium 政协礼堂, Peking 北京.
+      n: '[[w.chen-yi-nianpu]], 1188. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:drv
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1967-03-23.china-leadership-6
+      when: Mar. 23
+      date: '1967-03-23'
+      time_range:
+      - 1967-03-23T11:00Z
+      - 1967-03-23T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 speaks at the national day reception of Sultan Mohammad Khan 苏尔坦·穆罕默德·汗, Pakistan's Ambassador; the Guam conference aimed not only at Vietnam but at Indochina and the peoples of Asia.
+      n: '[[w.chen-yi-nianpu]], 1188. The words: 晚上 (1188). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-04-06.china-leadership-4
+      when: Apr. 6
+      date: '1967-04-06'
+      place: peking
+      thread: china-leadership
+      c: The Capital Red Guards' Congress 首都大专院校红代会 sets up a "Liaison Station to Criticize Chen Yi" 批判陈毅联络站, the Central Cultural Revolution Group having spread, distorted and altered the old comrades' words at the Center's meetings in breach of the discipline Zhou announced.
+      n: '[[w.chen-yi-nianpu]], 1188. Names: Chen Yi, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1967-05-12.china-leadership-3
+      when: May 12
+      date: '1967-05-12'
+      thread: china-leadership
+      c: Zhou Enlai 周恩来 tells the representatives of the "Liaison Station to Criticize Chen Yi" that he does not agree to overthrowing Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1188. See [[cal.1967-04-06.china-leadership-4]]. Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+      - ok:fields-place
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1967-04-17.china-leadership-4
+      when: Apr. 17
+      date: '1967-04-17'
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 at the reception of Bashir Sadiq 巴希尔·萨迪克, Syria's Ambassador, for Syria's national day.
+      n: '[[w.chen-yi-nianpu]], 1189. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:syria
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-04-26.china-leadership-6
+      when: Apr. 26
+      date: '1967-04-26'
+      time_range:
+      - 1967-04-26T11:00Z
+      - 1967-04-26T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 speaks at the reception of Paul Elieli Mwaluko 保罗·埃利埃尔·姆瓦卢科, Tanzania's Ambassador, for the third anniversary of the United Republic, condemning the Johnson government's widening of the war in Vietnam and the Indonesian government's anti-Chinese measures.
+      n: '[[w.chen-yi-nianpu]], 1189. The words: 晚上 (1189). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:tanzania
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-05-07.china-leadership-6
+      when: May 7
+      date: '1967-05-07'
+      place: peking
+      thread: china-leadership
+      c: The Capital Red Guards' Congress's "Liaison Station to Criticize Chen Yi" prints *The Black History of Chen Yi* 《陈毅黑史》, smearing him from his past to the present.
+      n: '[[w.chen-yi-nianpu]], 1189. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1967-05-11.china-leadership-8
+      when: May 11
+      date: '1967-05-11'
+      time_range:
+      - 1967-05-10T22:00Z
+      - 1967-05-11T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Rebels and Red Guard bodies of the foreign affairs system storm the Foreign Ministry one after another and march in the capital's main streets with slogans "Down with Chen Yi" 打倒陈毅.
+      n: '[[w.chen-yi-nianpu]], 1189. The words: 上午 (1189). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1967-05-13.china-leadership-9
+      when: May 13
+      date: '1967-05-13'
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 at the airport to welcome Gohar Ayub Khan 古哈·阿尤布·汗, member of Pakistan's National Assembly, and his wife.
+      n: '[[w.chen-yi-nianpu]], 1189. Names: Chen Yi, Ayub Khan.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:ayub-khan-mohammad
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-05-16.china-leadership-8
+      when: May 16
+      date: '1967-05-16'
+      time_range:
+      - 1967-05-16T11:00Z
+      - 1967-05-16T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 receives 雅本塘, secretary of Cambodia's Foreign Ministry.
+      n: '[[w.chen-yi-nianpu]], 1190. The words: 晚上 (1190). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-05-17.china-leadership-6
+      when: May 17
+      date: '1967-05-17'
+      thread: china-leadership
+      c: Chen Yi 陈毅 at the reception of 奥尔高, Norway's Ambassador, for Norway's Constitution Day.
+      n: '[[w.chen-yi-nianpu]], 1190. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:norway
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-05-18.china-leadership-11
+      when: May 18
+      date: '1967-05-18'
+      place: peking
+      thread: china-leadership
+      c: Chen Yi 陈毅 at the Peking 北京 rally at the Workers' Stadium 工人体育场 denouncing the British imperialists' repression of the patriotic compatriots in Hong Kong 香港.
+      n: '[[w.chen-yi-nianpu]], 1190. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:uk
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1967-05-26.china-leadership-7
+      when: May 26
+      date: '1967-05-26'
+      time_range:
+      - 1967-05-26T11:00Z
+      - 1967-05-26T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 at the Ministry of Defense's banquet for Vice-Admiral Afzal Rahman Khan 阿夫扎尔·拉赫曼·汗, Pakistan's Minister of Defense, and Yusuf 优素福, its foreign secretary.
+      n: '[[w.chen-yi-nianpu]], 1190. The words: 晚上 (1190). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-05-27.china-leadership-8
+      when: May 27
+      date: '1967-05-27'
+      time_range:
+      - 1967-05-27T04:00Z
+      - 1967-05-27T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Imam 伊马姆, the UAR's Ambassador, calls on Chen Yi 陈毅, thanks China for its support against American imperialism and Zionism and describes the Arab states' fight against the United States and Israel; Chen Yi says the Chinese people are forever the Arab people's comrades in arms.
+      n: '[[w.chen-yi-nianpu]], 1190. The words: 下午 (1190). Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:uar
+      - name:chen-yi
+      - ok:fields-place
+      - vis:only:prc+uar
+- add:
+    entry:
+      id: cal.1967-05-29.china-leadership-5
+      when: May 29
+      date: '1967-05-29'
+      time_range:
+      - 1967-05-29T11:00Z
+      - 1967-05-29T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 at the banquet of Vice-Admiral Afzal Rahman Khan 阿夫扎尔·拉赫曼·汗 for his visit to China.
+      n: '[[w.chen-yi-nianpu]], 1191. The words: 晚上 (1191). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-05-30.china-leadership-4
+      when: May 30
+      date: '1967-05-30'
+      time_range:
+      - 1967-05-30T04:00Z
+      - 1967-05-30T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Zhou Enlai 周恩来 gives an informal dinner for Vice-Admiral Afzal Rahman Khan 阿夫扎尔·拉赫曼·汗 and Yusuf 优素福, Chen Yi 陈毅 present.
+      n: '[[w.chen-yi-nianpu]], 1191. The words: 中午 (1191). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:zhou-enlai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-06-02.china-leadership-4
+      when: June 2
+      date: '1967-06-02'
+      time_range:
+      - 1967-06-02T11:00Z
+      - 1967-06-02T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Chen Yi 陈毅 at the evening of the Committee for Cultural Relations with Foreign Countries and the Association for Friendship with Foreign Countries, at the Great Hall of the People 人民大会堂, Peking 北京, for the diplomatic corps and foreign friends, on the twenty-fifth anniversary of Mao's "Talks at the Yan'an Forum on Literature and Art."
+      n: '[[w.chen-yi-nianpu]], 1191. The words: 晚上 (1191). Names: Chen Yi, Mao Zedong.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1967-06-05.china-leadership-4
+      when: June 5
+      date: '1967-06-05'
+      time_range:
+      - 1967-06-05T11:00Z
+      - 1967-06-05T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 at the reception of Oldenburg 奥尔登伯格, Denmark's Ambassador, for Denmark's Constitution Day.
+      n: '[[w.chen-yi-nianpu]], 1191. The words: 晚上 (1191). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:denmark
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-06-07.china-leadership-2
+      when: June 7
+      date: '1967-06-07'
+      time_range:
+      - 1967-06-06T22:00Z
+      - 1967-06-07T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 receives Teodoro Locsin 迪奥多罗·洛辛, publisher and editor of the Philippine weekly *Free Press* 《自由新闻》, and his deputy editor.
+      n: '[[w.chen-yi-nianpu]], 1191. The words: 上午 (1191). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:philippines
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-06-08.china-leadership-4
+      when: June 8
+      date: '1967-06-08'
+      time_range:
+      - 1967-06-08T04:00Z
+      - 1967-06-08T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 and Zhou Enlai 周恩来 receive Imam 伊马姆, the UAR's Ambassador, and declare firm support for the Arab people's just fight against American, British and Israeli aggression.
+      n: '[[w.chen-yi-nianpu]], 1191. The words: 下午 (1191). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:uar
+      - name:chen-yi
+      - name:zhou-enlai
+      - ok:fields-place
 - cite:
     id: cal.1965-04-09.china-leadership-2
     item: '[[w.chen-yi-nianpu]], 1096 (Apr. 9, 1965; Chen Yi at Sabri''s banquet for China''s leaders and speaks, wishing the friendship of China and the UAR for generations, praising Sabri''s condemnation of the American aggression in Vietnam)'
@@ -11764,3 +12416,66 @@ ops:
 - cite:
     id: cal.1967-02-11.china-leadership-8
     item: '[[w.chen-yi-nianpu]], 1185 (Feb. 11, 1967; with Toyoda Masako 丰田正子, Hagiwara Teiji 萩原定司 and Kimura Ichizō 木村一三 of the Japan International Trade Promotion Association, its regional branch heads and 安井正幸 of the Tōhō Shoten)'
+- cite:
+    id: cal.1967-02-15.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1186 (Feb. 15, 1967, afternoon; Chen Yi present)'
+- variant:
+    id: cal.1967-02-15.china-leadership
+    unit: A
+    witness: w.chen-yi-nianpu
+    reads: Mao receives the Mauritanian delegation in the afternoon of Feb. 15
+    at: '1186'
+- cite:
+    id: cal.1967-02-16.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1186 (Feb. 16, 1967, afternoon; Chen Yi and Wane sign for their governments the trade, economic and technical cooperation and cultural cooperation agreements)'
+- cite:
+    id: cal.1967-02-25.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1188 (Feb. 25 to Mar. 18, 1967; Chen Yi at the seven Politburo "life meetings" at Huairen Hall, Zhongnanhai, on the so-called "February adverse current," besieged and criticized by Jiang Qing and others)'
+- cite:
+    id: cal.1967-03-17.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1188 (Mar. 17, 1967, morning; the delegation''s head 川瀬一贯 and its secretary-general Hagiwara Teiji 萩原定司)'
+- cite:
+    id: cal.1967-03-23.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1188 (Mar. 23, 1967, 7 p.m., the Peking Hotel; Ambassador Mwaluko 姆瓦鲁科)'
+- cite:
+    id: cal.1967-04.china-leadership-14
+    item: '[[w.chen-yi-nianpu]], 1189 (Apr. 30, 1967, afternoon; Chen Yi at the airport to welcome Yao Dengshan 姚登山, chargé d''affaires in Indonesia, and 徐仁, consul at Jakarta, ordered out by the Indonesian government)'
+- check:
+    id: cal.1967-04.china-leadership-14
+    text: 'Check: The Chen Yi nianpu (1189) puts the airport welcome on the afternoon of Apr. 30, Chen Yi there.'
+- cite:
+    id: cal.1967-05-01.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1189 (May 1, 1967, evening; Chen Yi on the Tiananmen tower for the May Day night)'
+- cite:
+    id: cal.1967-05-02.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1189 (May 2, 1967, afternoon; Léon Bouffard 利昂·布法 and his wife and the vice-president 费尔南·奥利维尔 and his wife)'
+- cite:
+    id: cal.1967-05-04.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1189 (May 4, 1967, afternoon)'
+- cite:
+    id: cal.1967-05-11.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1189 (May 11, 1967, evening to the small hours, five hours in the State Council''s conference room)'
+- cite:
+    id: cal.1967-05-15.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1189–1190 (May 15, 1967, before dawn; told that the Foreign Languages Institute''s rebels have forced their way into the Foreign Ministry to seize Chen Yi, Zhou gives the final warning; he will send troops; whoever storms will be held; "you think you can bring Chen Yi down by shouting? absurd")'
+- cite:
+    id: cal.1967-05-16.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1190 (May 16, 1967; Chen Yi present)'
+- cite:
+    id: cal.1967-05-22.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1190 (May 22, 1967, afternoon; Lê Chung 黎终始 hands Chen Yi the DRV government''s statement of May 21 on the mass dispatch of American and puppet troops into the demilitarized zone)'
+- cite:
+    id: cal.1967-05-27.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1190 (May 27, 1967, evening; the speech condemns the British repression of the compatriots in Hong Kong, which China cannot sit by)'
+- cite:
+    id: cal.1967-05-27.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1190–1191 (May 27, 1967, evening; for Zhou, Chen Yi receives Imam, Sahli 萨赫利 of Algeria, Sadiq of Syria, 拉希德 of Iraq, Morocco''s chargé 阿洛伊 and 加尔布 of the PLO''s Peking office)'
+- cite:
+    id: cal.1967-05-29.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1191 (May 29, 1967; Mao, seeing that rebels of the foreign affairs system use Chen Yi''s "problems" to besiege Zhou, writes that the ultra-left''s view is wrong, and the rebels'' "seizing Chen" is for a time held back)'
+- cite:
+    id: cal.1967-06-07.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1191 (June 7, 1967, morning; with José Sison 何塞·西松 and his wife among them)'
+- cite:
+    id: cal.1967-06-12.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1191 (June 12, 1967; Chen Yi speaks at the reception of 伦迪尔·苏巴)'
