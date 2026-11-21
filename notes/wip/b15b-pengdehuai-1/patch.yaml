@@ -1,9 +1,39 @@
-patch: 2026-11-21-b15b-pengdehuai-1
+patch: '2026-11-21-b15b-pengdehuai-1'
 by: Claude (batch 15b, Peng Dehuai nianpu, run 1), Nov. 21, 2026
 ops:
+- edit:
+    id: cal.1961-11-03.china-leadership-2
+    base: '69da2efc'
+    set:
+      place: wushi
+      time_range:
+      - '1961-11-03T00:00Z'
+      - '1961-11-03T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1962-06-18.china-leadership-4
+    base: '8662d256'
+    set:
+      place: peking
+- edit:
+    id: cal.1965-10-06.china-leadership-6
+    base: b88928c6
+    set:
+      place: peking
 - place-key:
     key: wushi
     name: Wushi
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: deyang
+    name: Deyang
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: weiyuan
+    name: Weiyuan
     zone: Asia/Shanghai
     in: prc
 - add:
@@ -87,7 +117,7 @@ ops:
 - add:
     entry:
       id: cal.1960.china-leadership-118
-      when: 1960, spring
+      when: '1960, spring'
       date: '1960'
       at: before 1960-03-20
       place: peking
@@ -115,7 +145,7 @@ ops:
 - add:
     entry:
       id: cal.1960.china-leadership-119
-      when: 1960, fall
+      when: '1960, fall'
       date: '1960'
       at: before 1960-09-22
       place: peking
@@ -148,8 +178,8 @@ ops:
       when: Nov. 15
       date: '1960-11-15'
       time_range:
-      - 1960-11-15T04:00Z
-      - 1960-11-15T10:00Z
+      - '1960-11-15T04:00Z'
+      - '1960-11-15T10:00Z'
       time_band: afternoon
       time_zone: Asia/Shanghai
       thread: china-leadership
@@ -167,8 +197,8 @@ ops:
       when: Nov. 18
       date: '1960-11-18'
       time_range:
-      - 1960-11-18T04:00Z
-      - 1960-11-18T10:00Z
+      - '1960-11-18T04:00Z'
+      - '1960-11-18T10:00Z'
       time_band: afternoon
       time_zone: Asia/Shanghai
       thread: china-leadership
@@ -193,3 +223,2103 @@ ops:
       - vis:only:prc
       - name:peng-dehuai
       - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-01-02.china-leadership-12
+      when: Jan. 2
+      date: '1961-01-02'
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀, by letter to Mao Zedong 毛泽东, reports what he has gained from reading the *Selected Works of Mao Zedong* 《毛泽东选集》.
+      n: '[[w.peng-dehuai-nianpu]], 763. Made public: 1998. Names: Peng Dehuai, Mao Zedong.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:mao-zedong
+- cite:
+    id: cal.1961-01-14.china-leadership
+    item: '[[w.peng-dehuai-nianpu]], 763 (Jan. 14–18, 1961: the Ninth Plenum 中共八届九中全会 at Peking 北京 adopts the policy of "readjustment, consolidation, filling out and raising standards" 调整、巩固、充实、提高; Mao Zedong 毛泽东 speaks several times, for seeking truth from facts and investigation)'
+- cite:
+    id: cal.1961-03-23.china-leadership-3
+    item: '[[w.peng-dehuai-nianpu]], 763 (Mar. 23, 1961: the Center''s letter to the regional bureaus and the provincial, city and autonomous-region committees on conducting investigation seriously 《关于认真进行调查研究工作问题给各中央局，各省、市、自治区党委的一封信》; then Liu Shaoqi 刘少奇 to Changsha 长沙 and Ningxiang 宁乡, Zhu De 朱德 to Sichuan 四川, Hunan 湖南 and Shaanxi 陕西, Deng Xiaoping 邓小平 and Peng Zhen 彭真 to Shunyi 顺义 and Huairou 怀柔; Peng Dehuai 彭德怀 glad of it, and wishing himself to go to the villages)'
+- cite:
+    id: cal.1961-06-15.china-leadership-2
+    item: '[[w.peng-dehuai-nianpu]], 763–764 (June 15, 1961: the Center issues the revised draft of the Working Regulations for the Rural People''s Communes 《农村人民公社工作条例（修正草案）》, the "Sixty Articles on Agriculture" 农业六十条: the public mess halls and the supply system dropped; cadres and members wrongly criticized or punished in recent years to be screened, and wholly wronged men restored to name and post)'
+- cite:
+    id: cal.1961-09-15.china-leadership-2
+    item: '[[w.peng-dehuai-nianpu]], 764 (Sept. 15, 1961: the Center''s directive on current industrial problems 《关于当前工业问题的指示》, made at the Lushan 庐山 work conference, on the gravity of industry''s state and the urgency of the "eight characters")'
+- add:
+    entry:
+      id: cal.1961-09.china-leadership-7
+      when: Sept., after the 15th
+      date: '1961-09'
+      at: after 1961-09-15
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀, on reading the "eight characters" 八字方针 in the Center''s directive on industry and the "Sixty Articles on Agriculture" 农业六十条: "Very happy!"'
+      n: '[[w.peng-dehuai-nianpu]], 764. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-09-19.china-leadership-10
+      when: Sept. 19
+      date: '1961-09-19'
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀, by letter to the Center 中共中央, asks to go to the villages to investigate: first three months in Hunan 湖南, back to Peking 北京 for the winter, then next spring to the Taihang 太行 region; if not allowed, to retire home to farm and live by his own labor; if not that, to read.'
+      n: '[[w.peng-dehuai-nianpu]], 764. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- cite:
+    id: cal.1961-10-23.china-leadership-4
+    item: '[[w.peng-dehuai-nianpu]], 764 (late October 1961: Yang Shangkun 杨尚昆 conveys Mao Zedong''s 毛泽东 instruction: he may go wherever he wishes, half a year will do)'
+- add:
+    entry:
+      id: cal.1961-10-30.china-leadership-8
+      when: Oct. 30
+      date: '1961-10-30'
+      place:
+      - peking
+      - changsha
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 leaves Peking 北京 by train for Hunan 湖南 to investigate, with Jin Shi 金石, secretary of the Center's General Office 中共中央办公厅, the guard Jing Xizhen 景希珍, the driver Zhao Fengchi 赵凤池 and the medic Lü Shaojun 吕少俊.
+      n: '[[w.peng-dehuai-nianpu]], 764. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-01.china-leadership-7
+      when: Nov. 1
+      date: '1961-11-01'
+      time_range:
+      - '1961-10-31T22:00Z'
+      - '1961-11-01T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: changsha
+      thread: china-leadership
+      c: Changsha 长沙. Peng Dehuai 彭德怀 arrives.
+      n: '[[w.peng-dehuai-nianpu]], 764. The words: 上午 (764). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-01.china-leadership-8
+      when: Nov. 1
+      date: '1961-11-01'
+      time_range:
+      - '1961-11-01T04:00Z'
+      - '1961-11-01T10:00Z'
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: changsha
+      thread: china-leadership
+      c: Changsha 长沙. Hu Jizong 胡继宗, a secretary of the Hunan committee 中共湖南省委, receives Peng Dehuai 彭德怀 and reports on Hunan's 湖南 villages.
+      n: '[[w.peng-dehuai-nianpu]], 764. The words: 下午 (764). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1961-11-01.china-leadership-7
+- add:
+    entry:
+      id: cal.1961-11-02.china-leadership-6
+      when: Nov. 2
+      date: '1961-11-02'
+      time_range:
+      - '1961-11-01T22:00Z'
+      - '1961-11-02T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: xiangtan
+      thread: china-leadership
+      c: 'Xiangtan county 湘潭县. Peng Dehuai 彭德怀 arrives by car in the morning; Hua Guofeng 华国锋, secretary of the Xiangtan prefectural committee 中共湘潭地委, receives him and gives him lunch. After the meal Hua briefs him. Hua later says privately: "It seems Peng Dehuai was right."'
+      n: '[[w.peng-dehuai-nianpu]], 764–765. The words: 上午 (764–765). Made public: 1998. Names: Peng Dehuai, Hua Guofeng.'
+      tags:
+      - polity:prc
+      - vis:only:prc@D-E
+      - name:peng-dehuai
+      - name:hua-guofeng
+- cite:
+    id: cal.1961-11-03.china-leadership-2
+    item: '[[w.peng-dehuai-nianpu]], 765 (Nov. 3, 1961, morning: Peng Dehuai 彭德怀 back at Pengjiaweizi 彭家围子 of the Weimin team 为民生产队, Wushi brigade 乌石大队, Wushi commune 乌石公社, Xiangtan county 湘潭县, living in his old home; he leaves Wushi Dec. 9 and Changsha 长沙 by train Dec. 24, at Peking 北京 Dec. 26)'
+- variant:
+    id: cal.1961-11-03.china-leadership-2
+    unit: A
+    witness: w.peng-dehuai-nianpu
+    reads: Nov. 3–Dec. 9, 1961 at his old home (27 days); in Hunan from Nov. 1 to Dec. 24, leaving Changsha by train that day
+    at: '765–770'
+- add:
+    entry:
+      id: cal.1961-11-04.china-leadership-5
+      when: Nov. 4–7
+      date: '1961-11-04'
+      place: wushi
+      thread: china-leadership
+      c: 'Wushi 乌石, Xiangtan county 湘潭县. Peng Dehuai 彭德怀 receives at his home the local cadres, villagers, teachers, kin and friends who come to see him, from the nearby counties and from Changsha 长沙, some walking a hundred or two hundred li; from the afternoon of Nov. 3 to the 15th, a hundred or two a day, a thousand or two in all, until the county and commune send men to turn them back on the roads. Their chief complaints: no faith in the collective in the hard times, and calls to fix output by household and divide the land 包产到户、分田到户, which he refuses dozens of times, hoarse, for the Party''s aim was the collective road; cadres who beat people, swear and coerce, which he has his secretary note for the county committee; the hard life; the Leap 大跃进 of 1958. Before the villagers he guards Mao''s 毛泽东 prestige in all he says.'
+      n: '[[w.peng-dehuai-nianpu]], 765. Made public: 1998. Names: Peng Dehuai, Mao Zedong.'
+      tags:
+      - polity:prc
+      - vis:only:prc@D-H
+      - name:peng-dehuai
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1961-11-04.china-leadership-6
+      when: Nov. 4–7
+      date: '1961-11-04'
+      place: wushi
+      thread: china-leadership
+      c: 'Wushi 乌石, Xiangtan county 湘潭县. Peng Dehuai 彭德怀 breaks waste ground on the Huangni Daping 黄泥大坪 outside his old home: in the twenty-seven days of this stay he opens two mu of paddy himself, and asks the brigade to open the plain''s fifty or sixty mu of waste with the water of the Wushi reservoir 乌石水库; the brigade has done it all from 1962.'
+      n: '[[w.peng-dehuai-nianpu]], 765. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-08.china-leadership-6
+      when: Nov. 8
+      date: '1961-11-08'
+      time_range:
+      - '1961-11-07T22:00Z'
+      - '1961-11-08T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: wushi
+      thread: china-leadership
+      c: Wushi 乌石, the brigade's office. Xiong Yunkai 熊云凯, head of Wushi commune 乌石公社, reports to Peng Dehuai 彭德怀 on the commune's grain output, procurement and rations year by year from 1958 to 1961, and its problems.
+      n: '[[w.peng-dehuai-nianpu]], 765. The words: 上午 (765). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-08.china-leadership-7
+      when: Nov. 8
+      date: '1961-11-08'
+      time_range:
+      - '1961-11-08T04:00Z'
+      - '1961-11-08T10:00Z'
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: wushi
+      thread: china-leadership
+      c: Wushi 乌石. Yan Ruilin 颜瑞林, the Wushi brigade's Party secretary, reports to Peng Dehuai 彭德怀; Peng asks to be entered on the brigade's rolls as a member, and will invest 100 yuan a year in it, more if production goes well.
+      n: '[[w.peng-dehuai-nianpu]], 765. The words: 下午 (765). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1961-11-08.china-leadership-6
+- add:
+    entry:
+      id: cal.1961-11-09.china-leadership-2
+      when: Nov. 9
+      date: '1961-11-09'
+      time_range:
+      - '1961-11-08T22:00Z'
+      - '1961-11-09T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: wushi
+      thread: china-leadership
+      c: Wushi 乌石. Peng Dehuai 彭德怀 visits the Wushi reservoir 乌石水库, built by the brigade from 1957 with money he sent, 500 yuan in three remittances; it waters thirty or forty mu. He will come back, he says, raise chickens and ducks on it and live in his little house there.
+      n: '[[w.peng-dehuai-nianpu]], 765–766. The words: 上午 (765–766). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc@D
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-09.china-leadership-3
+      when: Nov. 9
+      date: '1961-11-09'
+      time_range:
+      - '1961-11-09T04:00Z'
+      - '1961-11-09T10:00Z'
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: wushi
+      thread: china-leadership
+      c: Wushi 乌石. Peng Dehuai 彭德怀 receives teachers and villagers at home.
+      n: '[[w.peng-dehuai-nianpu]], 766. The words: 下午 (766). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1961-11-09.china-leadership-2
+- add:
+    entry:
+      id: cal.1961-11-10.china-leadership-3
+      when: Nov. 10–14
+      date: '1961-11-10'
+      place: wushi
+      thread: china-leadership
+      c: 'Wushi 乌石. In the rain, Peng Dehuai 彭德怀 holds a forum of peasants at his home: they have heard the "Sixty Articles on Agriculture" 农业六十条 are good but not what they say; he reads them out article by article, and they approve, the closing of the mess halls above all. He sends his staff to the brigade''s teams to investigate.'
+      n: '[[w.peng-dehuai-nianpu]], 766. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-15.china-leadership-4
+      when: Nov. 15
+      date: '1961-11-15'
+      place: wushi
+      thread: china-leadership
+      c: 'Wushi 乌石. Peng Dehuai 彭德怀 at the Wushi brigade Party branch''s 乌石大队党支部 general meeting on production: the "five winds" 五风 did great harm here; production must be raised and the members'' life bettered. He gives 200 yuan for walnut saplings for the brigade and 250 yuan for fish fry.'
+      n: '[[w.peng-dehuai-nianpu]], 766. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-16.china-leadership-7
+      when: Nov. 16–20
+      date: '1961-11-16'
+      place: wushi
+      thread: china-leadership
+      c: Wushi 乌石. Peng Dehuai 彭德怀 investigates within the Wushi brigade 乌石大队.
+      n: '[[w.peng-dehuai-nianpu]], 766. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-19.china-leadership-2
+      when: Nov. 19
+      date: '1961-11-19'
+      time_range:
+      - '1961-11-19T11:00Z'
+      - '1961-11-19T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: wushi
+      thread: china-leadership
+      c: 'Wushi 乌石. Peng Dehuai 彭德怀 holds a forum of craftsmen at his home: six or seven of the Wushi brigade''s carpenters, smiths and tailors.'
+      n: '[[w.peng-dehuai-nianpu]], 766. The words: 19日晚上 (766). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-21.china-leadership-8
+      when: Nov. 21
+      date: '1961-11-21'
+      place: wushi
+      thread: china-leadership
+      c: Wushi commune 乌石公社. Peng Dehuai 彭德怀 walks to the Qitou brigade 旗头大队, good at diversified farming; sees its fruit-tree nursery and pig farm, well pleased. He hears its Party secretary's report, and says he will buy fruit saplings to give each household of the Wushi brigade 乌石大队 a tree.
+      n: '[[w.peng-dehuai-nianpu]], 766. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc@D
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-22.china-leadership-6
+      when: Nov. 22
+      date: '1961-11-22'
+      place: wushi
+      thread: china-leadership
+      c: Wushi 乌石. Peng Dehuai 彭德怀 at the wedding of his nephew Peng Kangzhi 彭康志.
+      n: '[[w.peng-dehuai-nianpu]], 766. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-23.china-leadership-6
+      when: Nov. 23
+      date: '1961-11-23'
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 goes by car to the market ground 墟场 of Huangjingping commune 黄荆坪公社 to look into market prices. He hears the commune's secretary, Liu Guangxiao 柳光孝.
+      n: '[[w.peng-dehuai-nianpu]], 766. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc@B
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-24.china-leadership-6
+      when: Nov. 24
+      date: '1961-11-24'
+      time_range:
+      - '1961-11-23T22:00Z'
+      - '1961-11-24T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: wushi
+      thread: china-leadership
+      c: 'Wushi commune 乌石公社. Peng Dehuai 彭德怀 at the Jinxing brigade 金星大队: its Party secretary, Chen Xiting 陈喜庭, reports on production; Peng pleased with its 80,000 jin and more above quota.'
+      n: '[[w.peng-dehuai-nianpu]], 766. The words: 上午 (766). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-24.china-leadership-7
+      when: Nov. 24
+      date: '1961-11-24'
+      time_range:
+      - '1961-11-24T04:00Z'
+      - '1961-11-24T10:00Z'
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 investigates at the Dulun brigade 独仑大队; thirty li and more on foot that day.
+      n: '[[w.peng-dehuai-nianpu]], 766. The words: 下午 (766). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1961-11-24.china-leadership-6
+- add:
+    entry:
+      id: cal.1961-11-25.china-leadership-5
+      when: Nov. 25–30
+      date: '1961-11-25'
+      place: wushi
+      thread: china-leadership
+      c: Wushi 乌石. Peng Dehuai 彭德怀 rests at home, receives villagers, puts his investigation material in order, and digs sweet potatoes on his sister-in-law's private plot.
+      n: '[[w.peng-dehuai-nianpu]], 766. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-11-25.china-leadership-6
+      when: Nov. 25–30
+      date: '1961-11-25'
+      place: wushi
+      thread: china-leadership
+      c: Wushi 乌石. The villagers having no entertainment, Peng Dehuai 彭德怀 pays 16 yuan for a troupe to give the shadow play *Tao Shu fang Jiangnan* 《陶述访江南》, praising a loyal minister, at the Wushi brigade's office, and watches it to the end with them.
+      n: '[[w.peng-dehuai-nianpu]], 766. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-12-01.china-leadership-5
+      when: Dec. 1
+      date: '1961-12-01'
+      time_range:
+      - '1961-11-30T22:00Z'
+      - '1961-12-01T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 goes by car to Shitan district 石潭区 to investigate.
+      n: '[[w.peng-dehuai-nianpu]], 766. The words: 上午 (766). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-12-04.china-leadership-6
+      when: Dec. 4
+      date: '1961-12-04'
+      time_range:
+      - '1961-12-03T22:00Z'
+      - '1961-12-04T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 walks to Jingquan commune 景泉公社 and hears its secretary, Liu Huaying 刘华应; holds investigation meetings and visits villagers in five or six brigades nearby, the farthest over twenty li off, on foot, never by car.
+      n: '[[w.peng-dehuai-nianpu]], 767. The words: 早饭后 (after breakfast) (767). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-12-08.china-leadership-5
+      when: Dec. 8
+      date: '1961-12-08'
+      time_range:
+      - '1961-12-08T11:00Z'
+      - '1961-12-08T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: wushi
+      thread: china-leadership
+      c: 'Wushi 乌石. The Weimin team 为民生产队 holds a members'' meeting at Peng Dehuai''s 彭德怀 house to thank him for his investment. No thanks are due, he says: some of his own family are members, and he has a share in it.'
+      n: '[[w.peng-dehuai-nianpu]], 767. The words: 晚上 (767). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc@C
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-12-09.china-leadership-6
+      when: Dec. 9
+      date: '1961-12-09'
+      time_range:
+      - '1961-12-08T22:00Z'
+      - '1961-12-09T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place:
+      - wushi
+      - xiangtan
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 leaves Wushi 乌石 for the Xiangtan county committee 湘潭县委 and lodges at its guesthouse.
+      n: '[[w.peng-dehuai-nianpu]], 767. The words: 上午 (767). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-12-12.china-leadership-5
+      when: Dec. 12
+      date: '1961-12-12'
+      time_range:
+      - '1961-12-11T22:00Z'
+      - '1961-12-12T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 moves to the guesthouse of the manganese mine 锰矿, fifteen kilometers from the Xiangtan 湘潭 county town; Ding Renyun 丁韧云, deputy secretary of the Xiangtang district committee 响塘区委, and Hu Anzhe 胡安哲, secretary of Xiangshui commune 响水公社, report on the district and commune.
+      n: '[[w.peng-dehuai-nianpu]], 767. The words: 上午 (767). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-12-12.china-leadership-6
+      when: Dec. 12
+      date: '1961-12-12'
+      time_range:
+      - '1961-12-12T11:00Z'
+      - '1961-12-12T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'The manganese mine 锰矿 near Xiangtan 湘潭. The mine''s director, Zhao Qihui 赵其惠, reports to Peng Dehuai 彭德怀. To them Peng: he is a man who erred, as they know; in his letter to Mao of July 14, 1959 he wrote "gains and losses," and someone copied it "losses and gains"; now he has seen the villages, he put it too lightly.'
+      n: '[[w.peng-dehuai-nianpu]], 767. The words: 晚上 (767). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+      follows:
+      - cal.1961-12-12.china-leadership-5
+- add:
+    entry:
+      id: cal.1961-12-13.china-leadership-9
+      when: Dec. 13
+      date: '1961-12-13'
+      time_range:
+      - '1961-12-12T22:00Z'
+      - '1961-12-13T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 investigates at the Huanglong brigade 黄龙大队 of Xiangshui commune 响水公社.
+      n: '[[w.peng-dehuai-nianpu]], 767. The words: 上午 (767). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-12-14.china-leadership-8
+      when: Dec. 14
+      date: '1961-12-14'
+      time_range:
+      - '1961-12-13T22:00Z'
+      - '1961-12-14T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 at the Heling brigade 合岭大队 of Xiangtang commune 响塘公社.
+      n: '[[w.peng-dehuai-nianpu]], 767. The words: 上午 (767). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-12-14.china-leadership-9
+      when: Dec. 14
+      date: '1961-12-14'
+      time_range:
+      - '1961-12-14T11:00Z'
+      - '1961-12-14T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'The manganese mine 锰矿. Peng Dehuai 彭德怀 receives a dozen of the mine''s leading cadres. On the villages: collectivization (the mess halls and the like) was not wrong in itself but premature; the communes are what the masses wanted, and good, but began too big and are now back to the advanced cooperative: could it not have waited a few years?'
+      n: '[[w.peng-dehuai-nianpu]], 767. The words: 晚上 (767). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1961-12-14.china-leadership-8
+- add:
+    entry:
+      id: cal.1961-12-15.china-leadership-10
+      when: Dec. 15
+      date: '1961-12-15'
+      time_range:
+      - '1961-12-14T22:00Z'
+      - '1961-12-15T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀 investigates at the Chenpu brigade 陈蒲大队 of Nangu commune 南谷公社, a backward brigade. Told of the Leap 大跃进, he says the iron smelting cost the nation dearly, toiling the people and wasting wealth, and the masses have lost faith; on the refunds: the nation''s losses are too large to repay easily, the losses of 1958, 1959 and 1960 not repaid if the whole nation went a year without eating.'
+      n: '[[w.peng-dehuai-nianpu]], 767. The words: 上午 (767). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc@B-C
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-12-17.china-leadership-3
+      when: Dec. 17
+      date: '1961-12-17'
+      time_range:
+      - '1961-12-16T22:00Z'
+      - '1961-12-17T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀 at the Heling brigade 合岭大队 again; to its cadres, on Lushan 庐山 and the fight against the right: his nature is stubborn, a peasant''s son, and he had seen the peasants'' hard life.'
+      n: '[[w.peng-dehuai-nianpu]], 767–768. The words: 上午 (767–768). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-12-17.china-leadership-4
+      when: Dec. 17
+      date: '1961-12-17'
+      time_range:
+      - '1961-12-17T04:00Z'
+      - '1961-12-17T06:00Z'
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'The manganese mine 锰矿. Hua Guofeng 华国锋 and Zhao Chuqi 赵处琪 call on Peng Dehuai 彭德怀; after lunch they tell him of the Center''s notice of a conference of cadres from county secretaries up, to open Jan. 10. It is important, he says: go back for it.'
+      n: '[[w.peng-dehuai-nianpu]], 768. The words: 中午 (back to the mine); 午饭后 (after lunch) (768). Made public: 1998. Names: Peng Dehuai, Hua Guofeng.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:hua-guofeng
+      follows:
+      - cal.1961-12-17.china-leadership-3
+- add:
+    entry:
+      id: cal.1961-12-18.china-leadership-4
+      when: Dec. 18
+      date: '1961-12-18'
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀 stays in all day. To Dai Ding 戴鼎, a county committee cadre: by the ten standards of a Party member he falls short in all but one, a Communist''s duty to say all he knows; at his home in Wushi 乌石 he saw an old duck-keeper who works for himself and for the collective, and does well; this year he has seen his home, next year he will see Shanxi 山西, the year after go home for good.'
+      n: '[[w.peng-dehuai-nianpu]], 768. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-12-19.china-leadership-7
+      when: Dec. 19
+      date: '1961-12-19'
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 at the Chenpu brigade 陈蒲大队 a second time; he has the brigade draw up a table of its teams' lost output to be made good 分队赔产情况调查表.
+      n: '[[w.peng-dehuai-nianpu]], 768. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc@B
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-12-20.china-leadership-14
+      when: Dec. 20
+      date: '1961-12-20'
+      place: xiangtan
+      thread: china-leadership
+      c: Xiangtan 湘潭. Peng Dehuai 彭德怀 back from the manganese mine at the county committee's guesthouse; he receives the cadres attending the district secretaries' meeting there, but makes no speech.
+      n: '[[w.peng-dehuai-nianpu]], 768. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-12-20.china-leadership-15
+      when: Dec. 20
+      date: '1961-12-20'
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀 puts five investigation reports in order: the all-round increase of the Jinxing brigade 金星大队 of Wushi commune 乌石公社 this year; the Wushi brigade 乌石大队; the craftsmen of the Jinxing, Xinping 新坪 and Wushi brigades; a brigade whose output fell (the Chenpu brigade 陈蒲大队 of Nangu commune 南谷公社); the market trade of Huangjingping 黄荆坪, Huashi district 花石区. The Wushi report: grain up this year, but members have lost faith in the collective and want to farm alone and fix output by household, a view most can be argued out of by the "Sixty Articles" kept, refunds and pay by work; egalitarianism in distribution; life better than last year; the team the best accounting unit. Jinxing: grain up 18.2 percent, 45.7 percent on last year; after procurement 500 jin of paddy a head, a net 45.40 yuan a member, 95 percent with more income. Chenpu: by February 1962, seventy percent of its people out of grain; without measures, more dropsy, flight and "abnormal deaths," and part of the procured grain should be returned. Crafts and markets, restored rightly, enliven the village economy.'
+      n: '[[w.peng-dehuai-nianpu]], 768–770. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-12-21.china-leadership-6
+      when: Dec. 21
+      date: '1961-12-21'
+      time_range:
+      - '1961-12-20T22:00Z'
+      - '1961-12-21T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 goes by car to Jiangshe 姜畲; he gives Hua Guofeng 华国锋 a set of his investigation reports.
+      n: '[[w.peng-dehuai-nianpu]], 770. The words: 上午 (770). Made public: 1998. Names: Peng Dehuai, Hua Guofeng.'
+      tags:
+      - polity:prc
+      - vis:only:prc@B
+      - name:peng-dehuai
+      - name:hua-guofeng
+- add:
+    entry:
+      id: cal.1961-12-21.china-leadership-7
+      when: Dec. 21
+      date: '1961-12-21'
+      time_range:
+      - '1961-12-21T11:00Z'
+      - '1961-12-21T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀, to Yao Xin 姚欣 and Wen Lantian 温兰田, secretaries of the county committee: the "five winds" 五风 of these years came of the pride that grew in the Party after easy successes, from the war against Japan to the Korean War, the "three-anti" and "five-anti" 三反、五反 and the transformation of capitalism.'
+      n: '[[w.peng-dehuai-nianpu]], 770. The words: 晚上 (770). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1961-12-21.china-leadership-6
+- add:
+    entry:
+      id: cal.1961-12-22.china-leadership-6
+      when: Dec. 22
+      date: '1961-12-22'
+      place: changsha
+      thread: china-leadership
+      c: Changsha 长沙. Peng Dehuai 彭德怀, back by car, reports to the Hunan committee 湖南省委.
+      n: '[[w.peng-dehuai-nianpu]], 770. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-12-24.china-leadership-5
+      when: Dec. 24
+      date: '1961-12-24'
+      place: changsha
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 leaves Changsha 长沙 by train for Peking 北京. On the train he tells Jin Shi 金石 to send the five reports to the Center through Yang Shangkun 杨尚昆.
+      n: '[[w.peng-dehuai-nianpu]], 770. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc@B
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-12-26.china-leadership-8
+      when: Dec. 26
+      date: '1961-12-26'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Dehuai 彭德怀 back from Hunan 湖南.
+      n: '[[w.peng-dehuai-nianpu]], 770. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1961-12-26.china-leadership-9
+      when: Dec. 26
+      date: '1961-12-26'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀 sends the Center 中共中央 his investigation reports with a covering letter: this is all he did in going down to investigate, and any error in them is his alone.'
+      n: '[[w.peng-dehuai-nianpu]], 770. Printed later, in parts, for internal circulation: Xinhua''s 新华社 《内部参考》 (the nianpu, 770). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1961-12-26.china-leadership-8
+- cite:
+    id: cal.1962-01-11.china-leadership
+    item: '[[w.peng-dehuai-nianpu]], 771 (Jan. 11–Feb. 7, 1962: the enlarged work conference 扩大的工作会议, the "Seven Thousand Cadres conference" 七千人大会; about it the Center rehabilitated Party members wrongly criticized in the campaigns of past years, but not Peng Dehuai 彭德怀, whose charges were raised)'
+- cite:
+    id: cal.1962-01-27.china-leadership
+    item: '[[w.peng-dehuai-nianpu]], 771 (Liu Shaoqi 刘少奇, in the written report and his speech, on Peng Dehuai 彭德怀: many of the concrete matters in his letter fitted the facts, and a Politburo member writing to the Chairman commits no error even if some of his views are wrong; but he long had a small group in the Party, took part in the Gao Gang–Rao Shushi 高岗、饶漱石 anti-Party group as a chief member, had "international backing," and carried on factional activity behind the Center''s back; all may be rehabilitated but Peng. Mao Zedong 毛泽东 interjects: "So long as it is not illicit relations with foreign countries" 里通外国)'
+- add:
+    entry:
+      id: cal.1962-01.china-leadership-8
+      when: Jan., after the 27th
+      date: '1962-01'
+      at: after 1962-01-27
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀, having read Liu Shaoqi''s 刘少奇 speech at the work conference, telephones Yang Shangkun 杨尚昆 in anger: tell the Chairman and Liu Shaoqi that he denies it. To others: he had been calm of late, but since the speech he cannot read or sleep; he had meant to go to the old base area of the Taihang 太行山 after the spring to investigate, but cannot now, for it would embarrass his hosts.'
+      n: '[[w.peng-dehuai-nianpu]], 771. Made public: 1998. Names: Peng Dehuai, Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1962-01.china-leadership-9
+      when: Jan., after the 27th
+      date: '1962-01'
+      at: after 1962-01-27
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀 writes "On Comrade Liu Shaoqi''s written report and speech at the enlarged central work conference" 《评刘少奇同志在扩大的中央工作会议上的书面报告和讲话》: that he had a small group in the Party, and that its activities were bound up with foreigners'' subversion in China, is made of nothing; Liu''s conclusion, from motives imagined, subjective, and will be proved wrong; he has no anti-Party group and no part in any foreigner''s subversion; it slanders him.'
+      n: '[[w.peng-dehuai-nianpu]], 771–772. Made public: 1998. Names: Peng Dehuai, Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1962-02.china-leadership-15
+      when: Feb., end
+      date: '1962-02'
+      at: before 1962-02-19
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 begins writing his appeal to Mao Zedong 毛泽东 and the Center 中共中央 on the charges of "illicit relations with foreign countries" 里通外国, the "small group" 小集团 and his "history" 历史.
+      n: '[[w.peng-dehuai-nianpu]], 772. Made public: 1998. Names: Peng Dehuai, Mao Zedong.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:mao-zedong
+- cite:
+    id: cal.1962-06-16.china-leadership-2
+    item: '[[w.peng-dehuai-nianpu]], 772–775 (June 16, 1962: Peng Dehuai 彭德怀 finishes the letter to "the Chairman and the Center" 主席并中央, the "eighty-thousand-character letter" 八万言书, written because of Liu Shaoqi''s 刘少奇 report and speech at the January conference, to ask the Center to clear up his case by the facts, not to attack the leaders or plot against the Party; its five parts: Lushan 庐山, his talks there with Zhou Xiaozhou 周小舟 and Zhang Wentian 张闻天 and why he wrote to Mao on July 14, 1959, and the "military club" 军事俱乐部, which he would not invent; Gao Gang 高岗 and the "Gao–Rao alliance"; his ten contacts with foreigners, above all the tour of eight East European countries before Lushan; his history, merits and errors, and "great-power chauvinism" in Korea; the "bourgeois military line" charged at the Military Commission''s enlarged meeting of October 1960, answered under army-building, the command system, strategy and the militia)'
+- cite:
+    id: cal.1962-06-18.china-leadership-4
+    item: '[[w.peng-dehuai-nianpu]], 775 (printed under June 16, 1962: Peng Dehuai 彭德怀 goes to Zhongnanhai 中南海 and hands the long letter to Yang Shangkun 杨尚昆 himself, with a short note asking that copies be printed for the central leaders, the letter being long and hastily written; Yang has it printed and sent to Mao Zedong 毛泽东 and the Politburo''s members)'
+- variant:
+    id: cal.1962-06-18.china-leadership-4
+    unit: B
+    witness: w.peng-dehuai-nianpu
+    reads: 'June 16, 1962: Peng goes to Zhongnanhai and hands the long letter to Yang Shangkun'
+    at: '775'
+- add:
+    entry:
+      id: cal.1962-07.china-leadership-16
+      when: July, end
+      date: '1962-07'
+      at: before 1962-07-21
+      place: peking
+      thread: china-leadership
+      c: Wujiahuayuan 吴家花园, Peking 北京, in the heaviest rain the Peking 北京 region has seen since 1949. Before dawn one day Peng Dehuai 彭德怀 runs through the rain to the villager Lu Xing's 卢兴 house, whose two old rooms leak badly, and urges the family to stay with him; they will not, and he has the guards bring reed mats and goes up to cover the roof. He goes house to house, brings the families in danger into Wujiahuayuan, and hands each of them a bowl of ginger soup.
+      n: '[[w.peng-dehuai-nianpu]], 775. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1962-08.china-leadership-13
+      when: Aug.
+      date: '1962-08'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. The rain swells the stream in the courtyard and many fish escape the pond: let the people eat them, Peng Dehuai 彭德怀 says.'
+      n: '[[w.peng-dehuai-nianpu]], 775. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- cite:
+    id: cal.1962-08-22.china-leadership
+    item: '[[w.peng-dehuai-nianpu]], 775 (Aug. 22, 1962: Peng Dehuai 彭德怀, to Mao Zedong 毛泽东 and the Center 中共中央: his letter of June 16 meant only to make clear the nature of his errors; he has no "small group," no ambition to usurp the Party, no part in foreigners'' subversion; asks that a special investigation be set up, and if real evidence is found he will accept Party discipline and the law, death and expulsion included, without complaint; once it is cleared he will trouble them no more)'
+- add:
+    entry:
+      id: cal.1962-09.china-leadership-9
+      when: Sept.
+      date: '1962-09'
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀, by letter to Mao Zedong 毛泽东 and the Center 中共中央, on the Military Commission''s enlarged meeting 军委扩大会议 of mid-August to early September 1959 at Peking 北京: three years on the facts are plainer. The "usurping of the army" 篡军: pressed then for the organization, list, program and aims of a "military club," he said there was none, and says again he had no such ambition. The "rewriting of the army''s history" 篡改军史: his talk at a forum of the Academy of Military Science 军事科学院 on Feb. 20, 1959, printed in part by the General Political Department 总政治部 for the meeting as evidence, said too little of the Nanchang 南昌 rising, but to treat the Pingjiang 平江 rising as a signal of the tide was no plot. On Mao: his words at the Academy, that Mao is a man, with a part in history, deciding at the turning points but not the whole of history, were faulty, but no "usurping." Other charges answered one by one.'
+      n: '[[w.peng-dehuai-nianpu]], 775–776. Made public: 1998. Names: Peng Dehuai, Mao Zedong.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:mao-zedong
+      - ok:fields-place
+      - ok:fields-at
+- add:
+    entry:
+      id: cal.1962-09-22.china-leadership-9
+      when: Sept. 22
+      date: '1962-09-22'
+      thread: china-leadership
+      c: The Center 中共中央 sets up a review committee 审查委员会 of twenty, to examine above all Peng Dehuai 彭德怀, Huang Kecheng 黄克诚 and Zhang Wentian 张闻天; it holds its first meeting the same day. Its office is at Sanzuomen 三座门.
+      n: '[[w.peng-dehuai-nianpu]], 776. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- cite:
+    id: cal.1962-09-24.china-leadership
+    item: '[[w.peng-dehuai-nianpu]], 776–777 (Sept. 24–27, 1962: the Tenth Plenum 中国共产党八届十中全会 at Peking 北京, on the economy beginning to recover; Mao Zedong''s 毛泽东 speech on classes, the situation, contradictions and unity in the Party; the "anti-Party activity" of Xi Zhongxun 习仲勋 and others through the novel *Liu Zhidan* 《刘志丹》 exposed; the plenum sets up a Peng Dehuai special case committee 彭德怀专案委员会 and a Xi Zhongxun special case committee 习仲勋专案委员会 to examine them)'
+- cite:
+    id: cal.1962-09-24.china-leadership-3
+    item: '[[w.peng-dehuai-nianpu]], 777 (the plenum sets up the Xi Zhongxun special case committee 习仲勋专案委员会 beside Peng Dehuai''s)'
+- add:
+    entry:
+      id: cal.1962-09.china-leadership-10
+      when: Sept., before the plenum
+      date: '1962-09'
+      at: before 1962-09-24
+      thread: china-leadership
+      c: The Center 中共中央 tells Peng Dehuai 彭德怀 not to attend the Tenth Plenum 八届十中全会 nor take part in the National Day 国庆 celebrations.
+      n: '[[w.peng-dehuai-nianpu]], 777. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1962-12-14.china-leadership-10
+      when: Dec. 14
+      date: '1962-12-14'
+      place: peking
+      thread: china-leadership
+      c: Wujiahuayuan 吴家花园, Peking 北京. The guards begin to keep a secret record of Peng Dehuai's 彭德怀 words and acts and his dealings with the outside.
+      n: '[[w.peng-dehuai-nianpu]], 777. The nianpu''s postscript: the guards'' watch notes, kept at two-hour intervals, are among its sources for his years under guard (856). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1962-12-23.china-leadership-6
+      when: Dec. 23
+      date: '1962-12-23'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 asks to see the films *Huaishuzhuang* 《槐树庄》 and *Li Shuangshuang* 《李双双》: a good film; collectivization is the road all must take, and farming alone, without machines, is weak; but the individual economy was ended rather early, for China''s villages had farmed alone for thousands of years; collectives still plow with oxen and mules, and output cannot rise much nor stand a natural disaster while farm machinery is so far behind.'
+      n: '[[w.peng-dehuai-nianpu]], 777. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-01.china-leadership-9
+      when: Jan., early and mid-
+      date: '1963-01'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 buys wire, poles and meters with his own money and carries Wujiahuayuan''s power outside the wall: electric light for fifteen neighboring households.'
+      n: '[[w.peng-dehuai-nianpu]], 778. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+      - ok:fields-at
+- add:
+    entry:
+      id: cal.1963-01-25.china-leadership-7
+      when: Jan. 25
+      date: '1963-01-25'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. The lunar New Year: Peng Dehuai 彭德怀 keeps it with kin who come to see him.'
+      n: '[[w.peng-dehuai-nianpu]], 778. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-02-01.china-leadership-7
+      when: Feb. 1
+      date: '1963-02-01'
+      time_range:
+      - '1963-02-01T11:00Z'
+      - '1963-02-01T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. On his walk after supper Peng Dehuai 彭德怀 calls on the team leader, Wei Dongfang 未东方: his share this year, 1,100 yuan and more; his grain, 450 jin a head, enough to eat. He often walks out of the village after supper and asks the members how they farm and live.'
+      n: '[[w.peng-dehuai-nianpu]], 778. The words: 晚饭后 (after supper) (778). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-02-14.china-leadership-5
+      when: Feb. 14
+      date: '1963-02-14'
+      place: peking
+      thread: china-leadership
+      c: Wujiahuayuan 吴家花园, Peking 北京. The Administration Bureau of the Center's General Office 中央办公厅管理局 sinks a new pump well in Wujiahuayuan for Peng Dehuai 彭德怀.
+      n: '[[w.peng-dehuai-nianpu]], 778. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-02-14.china-leadership-6
+      when: Feb. 14
+      date: '1963-02-14'
+      time_range:
+      - '1963-02-14T11:00Z'
+      - '1963-02-14T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 means to pipe the new well''s water outside the wall for the villagers; to the guards'' staff officer, Jing Xizhen 景希珍: they will do a good deed; find out about pipes, and he will pay to lay them.'
+      n: '[[w.peng-dehuai-nianpu]], 778. The words: 晚上 (778). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      follows:
+      - cal.1963-02-14.china-leadership-5
+- add:
+    entry:
+      id: cal.1963-02-21.china-leadership-11
+      when: Feb. 21
+      date: '1963-02-21'
+      time_range:
+      - '1963-02-20T22:00Z'
+      - '1963-02-21T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 goes to the gate to see whether the pipe is mended, finds the guards keeping the members out from drawing water, and, angry, has the sentry open the gate and let them in.
+      n: '[[w.peng-dehuai-nianpu]], 778. The words: 上午 (778). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-03-11.china-leadership-9
+      when: Mar. 11
+      date: '1963-03-11'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 asks Jing Xizhen 景希珍 why the members are being asked to pay for the water pipes: if the money is for materials, he will pay it himself.'
+      n: '[[w.peng-dehuai-nianpu]], 778. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-03-15.china-leadership-8
+      when: Mar. 15
+      date: '1963-03-15'
+      time_range:
+      - '1963-03-15T11:00Z'
+      - '1963-03-15T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Near Wujiahuayuan 吴家花园, Peking 北京. On his walk after supper Peng Dehuai 彭德怀 calls at a household; coming out: why have the private plots on the west side been taken back? He will ask the team leader again what the policy is.'
+      n: '[[w.peng-dehuai-nianpu]], 778. The words: 晚饭后 (after supper) (778). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-04-11.china-leadership-5
+      when: Apr. 11
+      date: '1963-04-11'
+      place: peking
+      thread: china-leadership
+      c: Wujiahuayuan 吴家花园, Peking 北京. Outside the gate Peng Dehuai 彭德怀 carries bricks with the sentries to build a water trough for the members.
+      n: '[[w.peng-dehuai-nianpu]], 779. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-04-22.china-leadership-11
+      when: Apr. 22
+      date: '1963-04-22'
+      time_range:
+      - '1963-04-22T11:00Z'
+      - '1963-04-22T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Wujiahuayuan 吴家花园, Peking 北京. Back from his walk, Peng Dehuai 彭德怀 meets a small girl carrying water at the gate and carries it home for her.
+      n: '[[w.peng-dehuai-nianpu]], 779. The words: 晚上 (779). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-04-23.china-leadership-12
+      when: Apr. 23
+      date: '1963-04-23'
+      place: peking
+      thread: china-leadership
+      c: Wujiahuayuan 吴家花园, Peking 北京. Finding at the gate that the pipe no longer carries water out, Peng Dehuai 彭德怀 runs it out by hose twice a day from then on.
+      n: '[[w.peng-dehuai-nianpu]], 779. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-06-07.china-leadership-13
+      when: June 7
+      date: '1963-06-07'
+      time_range:
+      - '1963-06-07T11:00Z'
+      - '1963-06-07T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Dehuai 彭德怀 goes to the Xiyuan cemetery 西苑公墓 to learn to grow and graft fruit trees from its gardener, Liu Fuxian 刘富先; seeing the peach seedlings: he will clear the big trees from his courtyard, give up smoking and plant fruit trees.'
+      n: '[[w.peng-dehuai-nianpu]], 779. The words: 晚上 (779). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-06-16.china-leadership-9
+      when: June 16
+      date: '1963-06-16'
+      time_range:
+      - '1963-06-15T22:00Z'
+      - '1963-06-16T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: badaling
+      thread: china-leadership
+      c: Badaling 八达岭. Peng Dehuai 彭德怀 on an outing, a Sunday.
+      n: '[[w.peng-dehuai-nianpu]], 779. The words: 星期日。上午 (779). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-07-05.china-leadership-10
+      when: July 5
+      date: '1963-07-05'
+      time_range:
+      - '1963-07-05T09:00Z'
+      - '1963-07-05T11:00Z'
+      time_band: after-workday daytime
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 waters the rice; on his walk at dusk: in his later years Stalin was somewhat simple in his thinking and gave little thought to how he dealt with matters.'
+      n: '[[w.peng-dehuai-nianpu]], 779. The words: 傍晚 (779). Made public: 1998. Names: Peng Dehuai, Stalin.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:stalin-joseph
+- add:
+    entry:
+      id: cal.1963-07-08.china-leadership-6
+      when: July 8
+      date: '1963-07-08'
+      time_range:
+      - '1963-07-08T11:00Z'
+      - '1963-07-08T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Near Wujiahuayuan 吴家花园, Peking 北京. At supper time Peng Dehuai 彭德怀 goes to a family of Jiaoyangju 教养局 to mourn an old woman who has died, bowing twice.
+      n: '[[w.peng-dehuai-nianpu]], 779. The words: 晚饭时 (at supper time) (779). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-08-02.china-leadership-7
+      when: Aug. 2
+      date: '1963-08-02'
+      time_range:
+      - '1963-08-02T11:00Z'
+      - '1963-08-02T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. At the gate, Peng Dehuai 彭德怀 to the sentry: have they read the papers? The three-power meeting the Soviet Union called attacks China; since the Twenty-second Congress Khrushchev 赫鲁晓夫 has done many bad things, more than ten, counting them on his fingers; he sells out China and the socialist countries.'
+      n: '[[w.peng-dehuai-nianpu]], 779. The words: 晚上 (779). Made public: 1998. Names: Peng Dehuai, Khrushchev.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:khrushchev-nikita-s
+- add:
+    entry:
+      id: cal.1963-08-04.china-leadership-9
+      when: Aug. 4
+      date: '1963-08-04'
+      time_range:
+      - '1963-08-04T11:00Z'
+      - '1963-08-04T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. A Sunday. At the gate in the evening, Peng Dehuai 彭德怀 to the sentry: this year''s rice at home is the best in decades, his nephew writes.'
+      n: '[[w.peng-dehuai-nianpu]], 779. The words: 星期日……晚上 (779). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-08-09.china-leadership-11
+      when: Aug. 9
+      date: '1963-08-09'
+      place: peking
+      thread: china-leadership
+      c: Near Wujiahuayuan 吴家花园, Peking 北京. In the rain Peng Dehuai 彭德怀 goes to Jiaoyangju 教养局 nos. 6, 8 and 13 to see whether the members' houses leak.
+      n: '[[w.peng-dehuai-nianpu]], 779. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-08-24.china-leadership-3
+      when: Aug. 24
+      date: '1963-08-24'
+      time_range:
+      - '1963-08-24T11:00Z'
+      - '1963-08-24T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Near Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 calls on the Wang family at Hucheng 虎城 no. 19 and asks whether they have a free market there: ten-odd li away, he is told.'
+      n: '[[w.peng-dehuai-nianpu]], 779. The words: 晚上 (779). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-09-08.china-leadership-5
+      when: Sept. 8
+      date: '1963-09-08'
+      time_range:
+      - '1963-09-08T11:00Z'
+      - '1963-09-08T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Near Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 calls on Li Fengzhang 李凤章 at Jiaoyangju 教养局 no. 13 on his wedding day and gives him six teacups and a landscape painted on cloth.
+      n: '[[w.peng-dehuai-nianpu]], 779. The words: 晚上 (779). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-09-25.china-leadership-9
+      when: Sept. 25
+      date: '1963-09-25'
+      place: peking
+      thread: china-leadership
+      c: Near Wujiahuayuan 吴家花园, Peking 北京. Walking by the rice fields to the west, Peng Dehuai 彭德怀 recalls the hard labor of his years before 1949.
+      n: '[[w.peng-dehuai-nianpu]], 779. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-09-29.china-leadership-9
+      when: Sept. 29
+      date: '1963-09-29'
+      time_range:
+      - '1963-09-28T22:00Z'
+      - '1963-09-29T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 cleans up with all the guards, and has Jing Xizhen 景希珍 buy fruit, wine, sweets and fish to treat them: the country is fourteen years old, he says, and he has been here four.'
+      n: '[[w.peng-dehuai-nianpu]], 780. The words: 上午 (780). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-10-01.china-leadership-15
+      when: Oct. 1
+      date: '1963-10-01'
+      time_range:
+      - '1963-09-30T22:00Z'
+      - '1963-10-01T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. National Day 国庆: Peng Dehuai 彭德怀 watches on television the celebration of the Republic''s fourteenth anniversary in Tiananmen Square 天安门广场, and in the evening the fireworks from outside the small south gate. The time is the morning''s.'
+      n: '[[w.peng-dehuai-nianpu]], 780. The words: 上午 (the television); 晚上 (the fireworks) (780). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-10-01.china-leadership-16
+      when: Oct. 1
+      date: '1963-10-01'
+      time_range:
+      - '1963-10-01T04:00Z'
+      - '1963-10-01T10:00Z'
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Near Wujiahuayuan 吴家花园, Peking 北京. Walking round the Xiyuan cemetery 西苑公墓, Peng Dehuai 彭德怀: the Soviet greeting in today''s papers speaks of the Soviet help in liberating the Northeast 东北; we know it without being told; it is all self-praise.'
+      n: '[[w.peng-dehuai-nianpu]], 780. The words: 下午 (780). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-10-16.china-leadership-13
+      when: Oct. 16
+      date: '1963-10-16'
+      place: peking
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 packs walnuts and mails them to the Wushi brigade 乌石大队 at home, Xiangtan county 湘潭县, for the village to plant walnut trees and diversify.
+      n: '[[w.peng-dehuai-nianpu]], 780. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1963-11-15.china-leadership-6
+      when: Nov. 15
+      date: '1963-11-15'
+      time_range:
+      - '1963-11-14T22:00Z'
+      - '1963-11-15T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Wujiahuayuan 吴家花园, Peking 北京. Wu Huiwen 伍辉文, deputy secretary of the Central Higher Party School's Party committee 中共中央高级党校党委, tells Peng Dehuai 彭德怀 that the Center's General Office 中央办公厅 says he is not to attend the fourth session of the Second National People's Congress 第二届全国人民代表大会第四次会议 but to ask leave; he may see its papers. Peng lies awake all night, thinking of raising before the Congress the question of his government posts.
+      n: '[[w.peng-dehuai-nianpu]], 780. The words: 上午 (780). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-01.china-leadership-12
+      when: Jan.
+      date: '1964-01'
+      thread: china-leadership
+      c: The Peng Dehuai special case office 彭德怀专案办公室, from November 1963 to January 1964, writes the first draft of its "Report on the examination of Peng Dehuai's anti-Party question" 《关于彭德怀反党问题审查报告》, ninety thousand characters.
+      n: '[[w.peng-dehuai-nianpu]], 781. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-at
+- add:
+    entry:
+      id: cal.1964-02-13.china-leadership-8
+      when: Feb. 13
+      date: '1964-02-13'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. The lunar New Year: Peng Dehuai 彭德怀 keeps it with his niece and nephew; a film in the evening.'
+      n: '[[w.peng-dehuai-nianpu]], 781. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-03-02.china-leadership-10
+      when: Mar. 2
+      date: '1964-03-02'
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 buys forty jin of fine Xinjiang 新疆 walnuts from the Xiangshan 香山 botanical institute 植物研究所.
+      n: '[[w.peng-dehuai-nianpu]], 781. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-03-16.china-leadership-6
+      when: Mar. 16
+      date: '1964-03-16'
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀 mails walnuts to the Wushi brigade 乌石大队 at home for seed, and writes to the brigade that he wants to come home as a member, if they agree. The brigade''s secretary later writes back: they will come to fetch him; he is welcome.'
+      n: '[[w.peng-dehuai-nianpu]], 781. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-05-05.china-leadership-8
+      when: May 5
+      date: '1964-05-05'
+      time_range:
+      - '1964-05-04T22:00Z'
+      - '1964-05-05T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Near Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 calls on Li Wenlin 李文林, sick at Mubanqiao 木板桥 no. 2 outside the west wall, and has Jing Xizhen 景希珍 borrow a car in his name to take him, who has no money for a hospital, to the Haidian 海淀 hospital.
+      n: '[[w.peng-dehuai-nianpu]], 781. The words: 上午 (781). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-05-08.china-leadership-11
+      when: May 8
+      date: '1964-05-08'
+      time_range:
+      - '1964-05-08T04:00Z'
+      - '1964-05-08T10:00Z'
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Near Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 calls again at Li Wenlin''s 李文林 house to ask how he does in hospital; his wife, moved: "It is all thanks to you!"'
+      n: '[[w.peng-dehuai-nianpu]], 781. The words: 下午 (781). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-05-14.china-leadership-8
+      when: May 14
+      date: '1964-05-14'
+      time_range:
+      - '1964-05-14T11:00Z'
+      - '1964-05-14T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Near Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 goes to the house across the way, bows three times to the dead Mother Guo 郭母 and gives five yuan.
+      n: '[[w.peng-dehuai-nianpu]], 781. The words: 晚上 (781). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-05-16.china-leadership-7
+      when: May 16
+      date: '1964-05-16'
+      time_range:
+      - '1964-05-15T22:00Z'
+      - '1964-05-16T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 on an outing to the Ming Tombs 十三陵.
+      n: '[[w.peng-dehuai-nianpu]], 781. The words: 上午 (781). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-05-20.china-leadership-6
+      when: May 20
+      date: '1964-05-20'
+      time_range:
+      - '1964-05-20T09:00Z'
+      - '1964-05-20T11:00Z'
+      time_band: after-workday daytime
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. At the gate at dusk Peng Dehuai 彭德怀 says he will take the bus to the Zizhuyuan park 紫竹院公园; the sentry will not let him: that cuts him off from the masses, he says. And: Lushan 庐山 in 1959 was hard to bear; he spoke out at what he saw, matters that touched the Center, and as a Politburo member he bore a share of blame; the "Twelve Articles" 十二条 and the "Sixty Articles" 六十条 made him glad; he wrote to the Center asking for light labor and investigation in the villages and had no answer; he has no work and nothing to be done.'
+      n: '[[w.peng-dehuai-nianpu]], 781–782. The words: 黄昏 (dusk) (781–782). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-06-25.china-leadership-16
+      when: June 25
+      date: '1964-06-25'
+      time_range:
+      - '1964-06-24T22:00Z'
+      - '1964-06-25T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 lays out a place outside the gate to show films: he has always had the members in to watch, against the sentries, who held them back; now the films will be shown in the lane outside the gate, and he will watch them with the members.'
+      n: '[[w.peng-dehuai-nianpu]], 782. The words: 上午 (782). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-07-10.china-leadership-14
+      when: July 10
+      date: '1964-07-10'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. The guards'' platoon leader 警卫排长 orders the sentries, in the guard log, to record and report on Peng Dehuai 彭德怀: his words and conduct; when and where he goes out; his visitors and letters; the staff who work for him; a report each Sunday afternoon.'
+      n: '[[w.peng-dehuai-nianpu]], 782. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-07-17.china-leadership-13
+      when: July 17
+      date: '1964-07-17'
+      time_range:
+      - '1964-07-16T21:00Z'
+      - '1964-07-17T00:00Z'
+      time_band: early morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Near Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 goes out to plant maize and weed for a member: one should do a good deed a day, like Lei Feng 雷锋.'
+      n: '[[w.peng-dehuai-nianpu]], 782. The words: 早晨 (782). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-08-16.china-leadership-11
+      when: Aug. 16
+      date: '1964-08-16'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀, to a sentry, on the merits of cremation: when he dies, let him be burned and buried under an apple tree; or his ashes kept in a box in a room with his history and a photograph, to remember those before and teach those after.'
+      n: '[[w.peng-dehuai-nianpu]], 782. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-08-20.china-leadership-12
+      when: Aug. 20
+      date: '1964-08-20'
+      time_range:
+      - '1964-08-20T04:00Z'
+      - '1964-08-20T10:00Z'
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 takes the No. 32 bus to the Zizhuyuan 紫竹院 park.
+      n: '[[w.peng-dehuai-nianpu]], 782. The words: 下午 (782). Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-09-05.china-leadership-5
+      when: Sept. 5
+      date: '1964-09-05'
+      time_range:
+      - '1964-09-05T04:00Z'
+      - '1964-09-05T10:00Z'
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Near Wujiahuayuan 吴家花园, Peking 北京. Standing by the rice fields, Peng Dehuai 彭德怀: good harvests this year and next; the country is better; in thirty years, if the leaders make no errors, it will be mechanized.'
+      n: '[[w.peng-dehuai-nianpu]], 782. The words: 下午 (782). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-10-21.china-leadership-6
+      when: Oct. 21
+      date: '1964-10-21'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀, in the courtyard, to the sentry Peng Caiming 彭才明: his shoulder aches; it was frozen on the Korean front 朝鲜战场. He warms it at the fire indoors.'
+      n: '[[w.peng-dehuai-nianpu]], 782–783. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-11-02.china-leadership-9
+      when: Nov. 2
+      date: '1964-11-02'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. The new platoon leader of the guards writes on the first page of the new guard log: their chief task is to ensure Peng Dehuai''s 彭德怀 safety and not let him run away.'
+      n: '[[w.peng-dehuai-nianpu]], 783. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-11-03.china-leadership-10
+      when: Nov. 3
+      date: '1964-11-03'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 damps the fire in the boiler room, angry: what was the boilerman, Zhang Laili 张来礼, doing, burning it so hot? Burning so takes four hundred jin of coal a day.'
+      n: '[[w.peng-dehuai-nianpu]], 783. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1964-11-22.china-leadership-8
+      when: Nov. 22
+      date: '1964-11-22'
+      time_range:
+      - '1964-11-22T04:00Z'
+      - '1964-11-22T10:00Z'
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Near Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 calls at the house of the technician Meng 孟技术员 at Hucheng 虎城; to his wife, over thirty, with four children: "Don''t be feudal; it is time to use contraception; plan your family: two children each are enough."'
+      n: '[[w.peng-dehuai-nianpu]], 783. The words: 下午 (783). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- cite:
+    id: cal.1965-01-04.china-leadership
+    item: '[[w.peng-dehuai-nianpu]], 784 (Dec. 20, 1964–Jan. 4, 1965: the first session of the Third National People''s Congress 全国人民代表大会第三届第一次会议 at Peking 北京 removes Peng Dehuai 彭德怀 as vice-premier of the State Council 国务院副总理)'
+- add:
+    entry:
+      id: cal.1965-01.china-leadership-15
+      when: Jan., after the 4th
+      date: '1965-01'
+      at: after 1965-01-04
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀, hearing that the National People''s Congress has removed him as vice-premier: "It should have been done long ago."'
+      n: '[[w.peng-dehuai-nianpu]], 784. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-01-19.china-leadership-9
+      when: Jan. 19
+      date: '1965-01-19'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀, on his walk: in Moscow 莫斯科 in 1955 the Soviets said they kept nothing secret from Chinese comrades; he asked to see the navy and was shown two things; a lesson to him. In the Korean War the Soviet tanks sent as aid were old, newly painted; some had shell holes stopped with putty.'
+      n: '[[w.peng-dehuai-nianpu]], 784. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-01-20.china-leadership-7
+      when: Jan. 20
+      date: '1965-01-20'
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀: the truly good works of philosophy, without an error in them, are Mao Zedong''s 毛泽东 *On Contradiction* 《矛盾论》 and *On Practice* 《实践论》.'
+      n: '[[w.peng-dehuai-nianpu]], 784. Made public: 1998. Names: Peng Dehuai, Mao Zedong.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1965-02-07.china-leadership-5
+      when: Feb. 7
+      date: '1965-02-07'
+      time_range:
+      - '1965-02-07T11:00Z'
+      - '1965-02-07T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀, after supper: next year lotus in the fishpond and a few jujube trees in the courtyard; he will not be here to eat them.'
+      n: '[[w.peng-dehuai-nianpu]], 784. The words: 晚饭后 (after supper) (784). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-02-09.china-leadership-7
+      when: Feb. 9
+      date: '1965-02-09'
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀, on the Long March 长征: eighty thousand set out, seven thousand were left after the Snow Mountains and the grasslands; many died in the thin air of the heights, and he would have died too had his guard not pulled him down.'
+      n: '[[w.peng-dehuai-nianpu]], 784. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-02-14.china-leadership-5
+      when: Feb. 14
+      date: '1965-02-14'
+      thread: china-leadership
+      c: 'The Center''s General Office 中央办公厅, by notice: the Center has decided to merge the Peng Dehuai special case review committee 彭德怀专案审查委员会 and the Xi Zhongxun special case review committee 习仲勋专案审查委员会 into one, the Peng Dehuai and Xi Zhongxun special case review committee.'
+      n: '[[w.peng-dehuai-nianpu]], 784. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-02-17.china-leadership-13
+      when: Feb. 17
+      date: '1965-02-17'
+      thread: china-leadership
+      c: The standing committee of the Center's special case review committee 中央专案审查委员会常委会 relays the General Office's notice of Feb. 14 merging the Peng Dehuai and Xi Zhongxun 习仲勋 case committees.
+      n: '[[w.peng-dehuai-nianpu]], 784. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-04-15.china-leadership-9
+      when: Apr. 15
+      date: '1965-04-15'
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀, on his walk: he wants to go to the villages; there is much to be learned about farming.'
+      n: '[[w.peng-dehuai-nianpu]], 785. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-05-05.china-leadership-8
+      when: May 5
+      date: '1965-05-05'
+      thread: china-leadership
+      c: 'Kang Sheng 康生, twice at meetings of the Politburo 政治局会议: he has put it to Chairman Mao 毛主席 that *Hai Rui Dismissed from Office* 《海瑞罢官》 is bound up with Peng Dehuai 彭德怀 and the Lushan meeting 庐山会议.'
+      n: '[[w.peng-dehuai-nianpu]], 785. Made public: 1998. Names: Kang Sheng, Mao Zedong, Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:kang-sheng
+      - name:mao-zedong
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-07-07.china-leadership-5
+      when: July 7
+      date: '1965-07-07'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. On He Long''s 贺龙 and Kang Sheng''s 康生 instructions, the Central Party School 中央党校 sends its vice-presidents Jia Zhen 贾震, Li Yifei 李一非 and Yang Changchun 杨长春 to talk with Peng Dehuai 彭德怀. He tells them of his study of Lenin in the Central Soviet Area 中央苏区, of Mao''s *On Contradiction* and *On Practice* at Yan''an 延安, and of Stalin''s *Economic Problems* at Wujiahuayuan; his letter at Lushan 庐山 need not have been written, for the Chairman would have corrected matters, yet being who he is he could not but write it. He has no complaint of Lushan, but two charges he will not accept: subversion with foreigners (if any treason is found, let him be dealt with by the law, he says, striking the tea table with both hands) and a faction, which he never had nor thought of. Six idle years sit on his conscience; at sixty-seven and well he can live ten years more. Until the Tenth Plenum he had the Center''s papers, and liked *Jingji xiaoxi* 《经济消息》 best; since, nothing, and no Party life: he is like a man who has left the Party. He will not kill himself like Gao Gang 高岗. He wants to go to the villages of the Yunnan 云南 or Guizhou 贵州 hills to labor and investigate at the grass roots; here the villagers call him "Old Peng," the children "Grandpa Peng." Let them tell the Center and Yang Shangkun 杨尚昆; if the Center will not have it, a move elsewhere; if he must stay, withdraw his staff and car, and leave him a gatekeeper and three rooms.'
+      n: '[[w.peng-dehuai-nianpu]], 785–786. Made public: 1998. Names: He Long, Kang Sheng, Peng Dehuai, Mao Zedong.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:he-long
+      - name:kang-sheng
+      - name:peng-dehuai
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1965-07-12.china-leadership-14
+      when: July 12
+      date: '1965-07-12'
+      thread: china-leadership
+      c: 'Lin Feng 林枫, president of the Central Higher Party School 中共中央高级党校, minutes on the "Summary of Jia Zhen''s, Li Yifei''s and Yang Changchun''s talk with Peng Dehuai" 《贾震、李一非、杨长春同彭德怀谈话纪要》: to be printed and sent to the Chairman, the Politburo Standing Committee, the Secretariat''s members, He Long 贺龙 and An Ziwen 安子文.'
+      n: '[[w.peng-dehuai-nianpu]], 786. Made public: 1998. Names: He Long, Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:he-long
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-09-07.china-leadership-12
+      when: Sept. 7
+      date: '1965-09-07'
+      time_range:
+      - '1965-09-06T22:00Z'
+      - '1965-09-07T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 'The Peng Dehuai and Xi Zhongxun special case review committee 彭、习专案审查委员会, second meeting. Kang Sheng 康生: the Center is giving these men work, and some may think their cases settled; two sides to it: it makes it easier to examine their activities, so there is to be no slackening; and it shows the Party''s hope that they will turn round, which is up to them.'
+      n: '[[w.peng-dehuai-nianpu]], 786. The words: 上午 (786). Made public: 1998. Names: Kang Sheng, Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:kang-sheng
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-09-07.china-leadership-13
+      when: Sept. 7
+      date: '1965-09-07'
+      time_range:
+      - '1965-09-07T11:00Z'
+      - '1965-09-07T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀, on his walk: the grain policy is bad; tax less and buy more, taking fifteen to twenty percent as tax and buying the rest, and the peasants'' zeal would revive; members with no other income could sell a little grain for cash.'
+      n: '[[w.peng-dehuai-nianpu]], 786. The words: 晚上 (786). Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-09-10.china-leadership-10
+      when: Sept. 10
+      date: '1965-09-10'
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 tells Qiao Mingfu 乔明甫, deputy head of the Organization Department 中共中央组织部, that he will talk with Peng Dehuai 彭德怀 the next day, with Qiao and Jia Zhen 贾震 present. Jia Zhen tells Peng to go with him to the Great Hall of the People 人民大会堂 next day: someone of the Center will talk with him.'
+      n: '[[w.peng-dehuai-nianpu]], 786. Made public: 1998. Names: Peng Zhen, Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-zhen
+      - name:peng-dehuai
+      - ok:fields-place
+- cite:
+    id: cal.1965-09-11.china-leadership-3
+    item: '[[w.peng-dehuai-nianpu]], 786–787 (Sept. 11, 1965, morning: to the Great Hall of the People 人民大会堂 with Jia Zhen 贾震; Peng Zhen 彭真, for the Center: he is to go to the third front 三线 as deputy commander, Li Jingquan 李井泉 commander; Peng Dehuai 彭德怀: a Communist, he will go where sent, but no one heeds an erring man; he asks to investigate in the villages instead, having no experience; on the forty days of criticism at Yan''an 延安 and the Korean War; on the Military Commission''s charge of "mountain-stronghold" sectarianism and Liu Shaoqi''s 刘少奇 "illicit relations with foreign countries" at the conference of seven thousand; Peng Zhen: the verdict cannot be reversed; go and work in peace; Peng Dehuai: after his removal as vice-premier this is natural; let the Ninth Congress next year remove him from the Politburo)'
+- add:
+    entry:
+      id: cal.1965-09-14.china-leadership-8
+      when: Sept. 14
+      date: '1965-09-14'
+      time_range:
+      - '1965-09-14T04:00Z'
+      - '1965-09-14T10:00Z'
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. On Peng Zhen''s 彭真 and Lin Feng''s 林枫 instructions, Jia Zhen 贾震 and Li Yifei 李一非 come to hear how Peng Dehuai 彭德怀 takes the talk of the 11th. Peng: he does not know whether his objections reached the Center; he wants to settle in a village; quick-tempered, he would not be cursed there nor curse back; give him three rooms and take away the car and staff; he fears the third front, where men work hard and he would make them uneasy: never has he been so afraid. On the "trial of strength" 较量 charge: untrue, a guess; his troops were reorganized several times without complaint, and after the grasslands he took on the remnant of ten thousand himself. He did not know Mao 毛泽东 at the Pingjiang 平江 rising, met him only in 1928, read the Gutian 古田 resolution only at Yan''an 延安, and was won over until the Yan''an rectification, crying "Long live Mao Zedong" himself. He speaks too of Khrushchev''s 赫鲁晓夫 plots, and why at Lushan he spoke of "petty-bourgeois fanaticism" rather than subjectivism.'
+      n: '[[w.peng-dehuai-nianpu]], 787–788. The words: 下午 (787–788). Made public: 1998. Names: Peng Zhen, Peng Dehuai, Mao Zedong, Khrushchev.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-zhen
+      - name:peng-dehuai
+      - name:mao-zedong
+      - name:khrushchev-nikita-s
+- cite:
+    id: cal.1965-09-24.china-leadership-6
+    item: '[[w.peng-dehuai-nianpu]], 788–789 (Sept. 21, 1965, evening: Peng Dehuai 彭德怀 to Mao Zedong 毛泽东: six years since the Eighth Plenum; he has read, learned grafting and gathered farming knowledge; after the Tenth Plenum told his case was under review, he wrote to the Center only once, in March 1963, asking to live in a village, and had no answer; Peng Zhen 彭真 on the 11th gave him the Center''s decision for the southwest''s third front, which took him aback; he knows nothing of defense industry and would rather work at a smaller post, a village or a plant, but will obey whatever is decided; once it is, he asks to see Mao, or Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 or Deng Xiaoping 邓小平)'
+- variant:
+    id: cal.1965-09-24.china-leadership-6
+    unit: A
+    witness: w.peng-dehuai-nianpu
+    reads: 'Sept. 21, 1965, evening: Peng writes to Mao'
+    at: '788'
+- cite:
+    id: cal.1965-09-23.china-leadership
+    item: '[[w.peng-dehuai-nianpu]], 789–790 (Sept. 23, 1965: at 7:30 a.m. Mao''s 毛泽东 secretary telephones that the Chairman will see him at 8:30, and Peng Dehuai 彭德怀 drives to the Yinian Tang 颐年堂, Zhongnanhai 中南海; by Peng''s own record of the talk, 《毛主席谈话纪要》: Mao had not slept, glad of his letter received the afternoon before; the southwest, with the most investment and the strategic rear, is fit for him, and he may yet lead troops and recover his name; Peng''s three pledges at Lushan 庐山; Mao: "Perhaps the truth is on your side"; Deng Xiaoping 邓小平 and Peng Zhen 彭真 come, then Liu Shaoqi 刘少奇, by 8:40; Mao: a third-front headquarters under the Party''s single lead, Li Jingquan 李井泉 first, Peng second, and Cheng Zihua 程子华; Mao''s past opposition to Peng was in earnest, his support now sincere; Peng to be seen as one divided into two; his deeds from the Li Lisan line to the Northwest; it ends at 1:30 p.m., after five and a half hours)'
+- add:
+    entry:
+      id: cal.1965-09-27.china-leadership-14
+      when: Sept. 27
+      date: '1965-09-27'
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀 to Deng Xiaoping 邓小平, by letter: he had taken it from Peng Zhen''s 彭真 talk of Sept. 11 that he was to go to the southwest as Li Jingquan''s 李井泉 assistant, chiefly on defense work, and needed to learn of defense industry''s production, the army''s equipment and advanced technology; but recalling the Chairman''s talk of the 23rd, it did not settle that he would do defense industry, so those briefings may be spared; he asks to see Deng when convenient.'
+      n: '[[w.peng-dehuai-nianpu]], 790–791. Made public: 1998. Names: Peng Dehuai, Deng Xiaoping, Li Jingquan.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:deng-xiaoping
+      - name:li-jingquan
+- cite:
+    id: cal.1965-10-06.china-leadership-6
+    item: '[[w.peng-dehuai-nianpu]], 791 (Oct. 6, 1965: Deng Xiaoping 邓小平 sees Peng Dehuai 彭德怀 in the Huairen Tang 怀仁堂: the meeting of the southwest''s men at the work conference the Chairman asked for must wait for Liu Shaoqi''s 刘少奇 return from the Northeast; Peng may start preparing; all are laymen at the work; in politics, mutual trust, as the Chairman said)'
+- cite:
+    id: cal.1965-10-19.china-leadership-6
+    item: '[[w.peng-dehuai-nianpu]], 791 (printed under Oct. 6, 1965: Peng Dehuai 彭德怀 goes to Yang Shangkun''s 杨尚昆 home to ask him to see to things before he leaves)'
+- variant:
+    id: cal.1965-10-19.china-leadership-6
+    unit: A
+    witness: w.peng-dehuai-nianpu
+    reads: 'Oct. 6, 1965: Peng goes to Yang Shangkun''s home on what he needs done before leaving'
+    at: '791'
+- cite:
+    id: cal.1965-10-16.china-leadership-2
+    item: '[[w.peng-dehuai-nianpu]], 791 (Oct. 16, 1965, evening: Liu Shaoqi 刘少奇 calls the southwest group, Li Jingquan 李井泉, Cheng Zihua 程子华, Li Dazhang 李大章, Jia Qiyun 贾启允, Liao Zhigao 廖志高 and Yan Hongyan 阎红彦, Deng Xiaoping 邓小平 and Peng Zhen 彭真 attending: the Center has decided to send Peng Dehuai 彭德怀 to the southwest; his past is the Center''s business, not the Southwest Bureau''s; Peng: he committed no anti-Party crime at all; Deng: he may keep his views, work well and keep his integrity to the end; after Peng leaves they settle his living, papers and briefings)'
+- variant:
+    id: cal.1965-10-16.china-leadership-2
+    unit: A
+    witness: w.peng-dehuai-nianpu
+    reads: 'Oct. 16, 1965, evening: Liu Shaoqi calls the meeting'
+    at: '791'
+- add:
+    entry:
+      id: cal.1965-10-17.china-leadership-5
+      when: Oct. 17
+      date: '1965-10-17'
+      place: peking
+      thread: china-leadership
+      c: Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 has the apples picked, and holds a meeting with his staff.
+      n: '[[w.peng-dehuai-nianpu]], 791. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-10-24.china-leadership-3
+      when: Oct. 24
+      date: '1965-10-24'
+      thread: china-leadership
+      c: 'The Central Party School 中央党校 sends men to Guajiatun 挂甲屯 to look into Peng Dehuai 彭德怀, and they write a report, "Some of Peng Dehuai''s activities at Guajiatun" 《彭德怀在挂甲屯的一些活动》: by small favors and a show of care, playing on the masses'' feudal backwardness, he has won over a good many; grown-ups call him "Old Peng," children "Grandpa Peng"; some say that he has done what the state could not (the electric lights), and old women vow never to forget him.'
+      n: '[[w.peng-dehuai-nianpu]], 791–792. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-10.china-leadership-5
+      when: Oct., late
+      date: '1965-10'
+      at: before 1965-10-21
+      place: peking
+      thread: china-leadership
+      c: Wujiahuayuan 吴家花园, Peking 北京. Cheng Zihua 程子华, deputy director of the southwest's third-front construction committee 西南三线建设委员会, calls on Peng Dehuai 彭德怀 and tells him of the committee's work.
+      n: '[[w.peng-dehuai-nianpu]], 792. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- cite:
+    id: cal.1965-11-10.china-leadership
+    item: '[[w.peng-dehuai-nianpu]], 792 (Nov. 10, 1965: Shanghai''s *Wenhui bao* 《文汇报》 prints Yao Wenyuan''s 姚文元 "On the new historical play *Hai Rui Dismissed from Office*" 《评新编历史剧〈海瑞罢官〉》, which ties the play''s "returning the land" and "redressing wrongs" to the "go-it-alone wind" and the "wind of reversing verdicts," and those to Lushan 庐山 and Peng Dehuai 彭德怀)'
+- add:
+    entry:
+      id: cal.1965-11-12.china-leadership-9
+      when: Nov. 12
+      date: '1965-11-12'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Dehuai 彭德怀 goes by car to the Peking Hospital 北京医院 for a checkup.
+      n: '[[w.peng-dehuai-nianpu]], 792. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-11-12.china-leadership-10
+      when: Nov. 12
+      date: '1965-11-12'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Dehuai 彭德怀, about this time, writes of his going to the southwest''s third front to his wife, Pu Anxiu 浦安修, who lives at Peking Normal University 北京师范大学; she comes to Wujiahuayuan 吴家花园 to see him off: he is to go first, she will follow him to Chengdu 成都.'
+      n: '[[w.peng-dehuai-nianpu]], 792. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-11-24.china-leadership-11
+      when: Nov. 24
+      date: '1965-11-24'
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀, to Jia Zhen 贾震 and Li Yifei 李一非, who call: he would like a copy of whatever teaching material the Party School prints; he is still its pupil.'
+      n: '[[w.peng-dehuai-nianpu]], 792. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-11-28.china-leadership-8
+      when: Nov. 28
+      date: '1965-11-28'
+      time_range:
+      - '1965-11-27T22:00Z'
+      - '1965-11-28T04:00Z'
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Wujiahuayuan 吴家花园, Peking 北京. Jia Zhen 贾震 and Li Yifei 李一非 come to see Peng Dehuai 彭德怀 off: he is leaving, he says; he had meant to call at the Party School, his six years there; he thanks them, and asks for Ai Siqi''s 艾思奇 lecture on studying Mao''s 毛泽东 "four essays."'
+      n: '[[w.peng-dehuai-nianpu]], 792. The words: 上午 (792). Made public: 1998. Names: Peng Dehuai, Mao Zedong.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:mao-zedong
+- cite:
+    id: cal.1965-11-28.china-leadership-6
+    item: '[[w.peng-dehuai-nianpu]], 792 (Nov. 28, 1965, afternoon: Peng Dehuai 彭德怀 leaves Peking 北京 for Chengdu 成都; Yang Xianzhen 杨献珍, Jia Zhen 贾震 and other leaders of the Central Party School 中央党校 see him off at the station)'
+- cite:
+    id: cal.1965-11-30.china-leadership-6
+    item: '[[w.peng-dehuai-nianpu]], 792 (Nov. 30, 1965: Peng Dehuai 彭德怀 arrives at Chengdu 成都; Yang Pei 杨沛, deputy secretary-general of the third-front construction committee 三线建设委员会, meets him at the station and sees to his affairs; he lodges at No. 7 Yongxing Lane 永兴巷, Chunxi Road 春熙路)'
+- add:
+    entry:
+      id: cal.1965-12.china-leadership-19
+      when: Dec., early
+      date: '1965-12'
+      at: before 1965-12-01
+      place: chengdu
+      thread: china-leadership
+      c: 'Chengdu 成都. Liao Zhigao 廖志高, at a meeting of Sichuan''s 四川 department and bureau heads, relays the Center''s instruction: to strengthen the southwest''s work and the third front the Center has sent Marshal Peng 彭总; he is to be respected, not looked on with old eyes; Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平 and Peng Zhen 彭真 all talked with him; he is to be reported to, and may read top-secret papers; nothing is to be kept from him; the Center trusts him.'
+      n: '[[w.peng-dehuai-nianpu]], 792–793. Made public: 1998. Names: Peng Dehuai, Liu Shaoqi, Deng Xiaoping, Peng Zhen.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:liu-shaoqi
+      - name:deng-xiaoping
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1965-12-02.china-leadership-10
+      when: Dec. 2–6
+      date: '1965-12-02'
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Peng Dehuai 彭德怀 hears the heads of the third-front construction committee's 三线建设委员会 bureaus on the third front's work.
+      n: '[[w.peng-dehuai-nianpu]], 793. Made public: 1998. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-12-07.china-leadership-9
+      when: Dec. 7–8
+      date: '1965-12-07'
+      place: chengdu
+      thread: china-leadership
+      c: 'Chengdu 成都. Peng Dehuai 彭德怀, with Yang Pei 杨沛 and others, inspects Chengdu''s Plant 65 成都六五厂 (the seamless steel tube works): its building and output.'
+      n: '[[w.peng-dehuai-nianpu]], 793. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-12-09.china-leadership-4
+      when: Dec. 9–10
+      date: '1965-12-09'
+      place: deyang
+      thread: china-leadership
+      c: Deyang 德阳. Peng Dehuai 彭德怀 inspects the No. 2 heavy steel works 第二重型钢铁厂 (so printed) and the Dongfang electrical machinery works 东方电机厂.
+      n: '[[w.peng-dehuai-nianpu]], 793. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-12-12.china-leadership
+      when: Dec. 12–26
+      date: '1965-12-12'
+      place: chongqing
+      thread: china-leadership
+      c: 'Chongqing 重庆. Peng Dehuai 彭德怀 at the political work conference of the third-front construction committee 三线建设委员会. In its course he goes to Guang''an county 广安县, sees the rammed-earth houses of Plants 338 三三八厂 and 308 三〇八厂, and to Nanchong 南充 to learn how factories lead communes, and visits the Nanchong silk works 南充丝绸厂. Near its end Li Jingquan 李井泉 comes to the meeting: "Peng Dehuai has come."'
+      n: '[[w.peng-dehuai-nianpu]], 793. Made public: 1998. Names: Peng Dehuai, Li Jingquan.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:peng-dehuai
+      - name:li-jingquan
+- add:
+    entry:
+      id: cal.1965-12-27.china-leadership-5
+      when: Dec. 27–28
+      date: '1965-12-27'
+      place:
+      - chongqing
+      - neijiang
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 goes from Chongqing 重庆 to Neijiang 内江 and Zigong 自贡 to see the natural gas and salt wells at work, and a coking plant.
+      n: '[[w.peng-dehuai-nianpu]], 793. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-12-29.china-leadership-4
+      when: Dec. 29
+      date: '1965-12-29'
+      place: weiyuan
+      thread: china-leadership
+      c: Weiyuan county 威远县. Peng Dehuai 彭德怀 sees the natural gas wells and other works.
+      n: '[[w.peng-dehuai-nianpu]], 793. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
+- add:
+    entry:
+      id: cal.1965-12-30.china-leadership-8
+      when: Dec. 30
+      date: '1965-12-30'
+      place: chengdu
+      thread: china-leadership
+      c: Peng Dehuai 彭德怀 returns to Chengdu 成都.
+      n: '[[w.peng-dehuai-nianpu]], 793. Names: Peng Dehuai.'
+      tags:
+      - polity:prc
+      - name:peng-dehuai
