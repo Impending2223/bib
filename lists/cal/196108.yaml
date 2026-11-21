@@ -487,6 +487,16 @@ entries:
       - 1961-08-02T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-02.vietnam-hanoi
+    when: Aug. 2
+    date: '1961-08-02'
+    thread: vietnam-hanoi
+    c: 'As a Foreign Office minute has it: the North Vietnamese army''s military role given more weight since March.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 186. Made public: 1997. To check: FO 371/160123, DV 1016/22, Aug. 2, 1961, Foreign Office minutes (cited by [[w.guan-vietnamese-communists-relations-with]], 186 n.27).'
+    src:
+      rows:
+        - 'via x.1961-08-02.fo-160123-dv-1016-22-fo-minutes: ?'
+    tags: [form:state, polity:uk, polity:drv, vis:only:uk, ok:fields-place]
   - id: cal.1961-08-03.crime-and-hijacking
     when: Aug. 3
     date: '1961-08-03'
@@ -922,12 +932,13 @@ entries:
     thread: china-leadership
     also: [laos, vietnam-hanoi]
     c: Zhou Enlai receives Hoàng Văn Hoan and Kaysone, analyzing the five contradictions America faces and the position they make; a nation or state wins only by relying on its people, foreign aid secondary; self-reliance first, foreign help second.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 426 (Aug. 5, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (Aug. 5, 1961; 中南海). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 426 (Aug. 5, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (Aug. 5, 1961; 中南海); [[w.guan-vietnamese-communists-relations-with]], 199–200 (Zhongnanhai; victory to rest on the masses, foreign help secondary; Laos near China and North Vietnam may count on some help from both, but in the end on itself). Made public: 1993. Names: Zhou Enlai.'
     src:
       c: 7cf9ac2a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 426: ?'
         - 'w.zhou-enlai-waijiao-huodong 317: A'
+        - 'w.guan-vietnamese-communists-relations-with 199–200: ?'
     tags: [polity:prc, polity:drv, polity:laos, name:zhou-enlai, vis:only:prc+drv]
   - id: cal.1961-08-05.china-leadership
     when: Aug. 5
@@ -1275,6 +1286,34 @@ entries:
       - 1961-08-07T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-07.china
+    when: Aug. 7
+    date: '1961-08-07'
+    place: hubei
+    thread: china
+    c: 'As a Hubei 湖北 report has it: a third of the workers in the big factories live on loans; some, deep in debt, sell their blood.'
+    n: '[[w.dikotter-maos-great-famine]], 206. To check: Hubei Provincial Archives, Aug. 7, 1961, SZ29-1-13, pp. 73–4 (cited by [[w.dikotter-maos-great-famine]], 206 n.43a); July 1962, SZ29-1-13, pp. 76–7 (cited by [[w.dikotter-maos-great-famine]], 206 n.43b). Check: the day; the note gives two files, of Aug. 7, 1961 and July 1962, and does not divide the passage between them.'
+    src:
+      c: c2524dbf
+      rows:
+        - 'w.dikotter-maos-great-famine 206: all'
+        - 'via w.dikotter-maos-great-famine 206 n.43a: all'
+        - 'via w.dikotter-maos-great-famine 206 n.43b: all'
+    tags: [form:state, polity:prc]
+  - id: cal.1961-08-07.china-leadership-6
+    when: Aug. 7
+    date: '1961-08-07'
+    place: shaoguan
+    thread: china-leadership
+    also: [china]
+    c: 'As a Guangdong 广东 report has it: at the Quren coal mine near Shaoguan the workers take the pit props and mine timber for furniture and fuel; one worker in seven has silicosis, no masks being given.'
+    n: '[[w.dikotter-maos-great-famine]], 149. Made public: 2010. To check: Guangdong Provincial Archives, Aug. 7, 1961, 219-2-319, pp. 17–31 (cited by [[w.dikotter-maos-great-famine]], 149 n.20).'
+    src:
+      c: c8102e31
+      rows:
+        - 'w.dikotter-maos-great-famine 149: all'
+        - 'via w.dikotter-maos-great-famine 149 n.20: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1961-08-08.state-and-city-finance-tx
     when: Aug. 8
     date: '1961-08-08'
@@ -1942,6 +1981,17 @@ entries:
       - 1961-08-11T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-11.laos
+    when: Aug. 11
+    date: '1961-08-11'
+    thread: laos
+    also: [soviet-union]
+    c: 'Khrushchev to Macmillan, privately, by the Moscow telegram: he wants the Geneva conference on Laos to succeed.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 199 n.78. Made public: 1997. To check: FO 371/159947, DF 2231/381, Aug. 11, 1961, Foreign Office minutes: extract of Moscow telegram 1447 on a private communication from Khrushchev to Macmillan (cited by [[w.guan-vietnamese-communists-relations-with]], 199 n.78b). Names: Khrushchev, Macmillan. Check: the day: the Foreign Office minute''s.'
+    src:
+      rows:
+        - 'via x.1961-08-11.fo-159947-df-2231-381-fo-minutes: ?'
+    tags: [polity:ussr, polity:uk, name:khrushchev-nikita-s, name:macmillan-harold, vis:only:ussr+uk, ok:fields-place]
   - id: cal.1961-08-12.japan-and-korea
     when: Aug. 12
     date: '1961-08-12'
@@ -1973,12 +2023,13 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi, laos]
     c: Peking. Zhou Enlai meets Phạm Văn Đồng and talks of the Laos question.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 12, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 201 (Aug. 12–21, 1961; Phạm Văn Đồng, after visiting Korea, the Soviet Union and other countries, continues his visit in China; Zhou meets him on the Laotian question). Made public: 1993. Names: Zhou Enlai, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 12, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 201 (Aug. 12–21, 1961; Phạm Văn Đồng, after visiting Korea, the Soviet Union and other countries, continues his visit in China; Zhou meets him on the Laotian question); [[w.guan-vietnamese-communists-relations-with]], 200. Made public: 1993. Names: Zhou Enlai, Phạm Văn Đồng.'
     src:
       c: 66b1d4e4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 318: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 201: B'
+        - 'w.guan-vietnamese-communists-relations-with 200: all'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
   - id: cal.1961-08-12.china-leadership-4
     when: Aug. 12
@@ -2856,6 +2907,15 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 147: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-08-15.vietnam-diplomacy
+    when: Aug. 15
+    date: '1961-08-15'
+    place: peking
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Phạm Văn Đồng at the Ming Tombs outside Peking. Lê Thanh Nghị, Deputy Premier, leaves Peking for home.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 200. Names: Phạm Văn Đồng.'
+    tags: [polity:drv, name:pham-van-dong]
   - id: cal.1961-08-16.berlin-and-vienna
     when: Aug. 16
     date: '1961-08-16'
@@ -2944,11 +3004,12 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking. Zhou Enlai goes to the airport to see off Phạm Văn Đồng, leaving for a visit to Kunming.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 上午). Names: Zhou Enlai, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 上午); [[w.guan-vietnamese-communists-relations-with]], 200 (to Kunming by way of Xi''an; in Kunming to Aug. 21, then home). Names: Zhou Enlai, Phạm Văn Đồng.'
     src:
       c: 8c265a37
       rows:
         - 'w.zhou-enlai-waijiao-huodong 319: all'
+        - 'w.guan-vietnamese-communists-relations-with 200: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong]
     time_range:
       - 1961-08-15T22:00Z
@@ -3129,6 +3190,31 @@ entries:
     c: Chen Yi 陈毅 telegraphs Subandrio on the sixteenth anniversary of Indonesia's independence.
     n: '[[w.chen-yi-nianpu]], 886. Names: Chen Yi, Subandrio.'
     tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio]
+  - id: cal.1961-08-16.vietnam
+    when: Aug. 16
+    date: '1961-08-16'
+    thread: vietnam
+    also: [laos]
+    c: 'NIE 14.3/53-61, "Prospects for North and South Vietnam": Pathet Lao and North Vietnamese forces hold most of southern Laos but the Mekong towns; a major Hanoi-directed offensive against Diệm under way.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 203. Made public: 1979 ([[w.vietnam-1979]], the earliest printing the note names). To check: NIE 14.3/53-61, "Prospects for North and South Vietnam," Aug. 16, 1961 (cited by [[w.guan-vietnamese-communists-relations-with]], 203 n.95a); [[w.vietnam-1979]], II (cited by [[w.guan-vietnamese-communists-relations-with]], 203 n.95b).'
+    src:
+      rows:
+        - 'via x.1961-08-16.nie-14-3-53-61-prospects-north-south-vietnam: ?'
+    tags: [polity:us, vis:only:us, ok:fields-place]
+  - id: cal.1961-08-16.china-leadership-12
+    when: Aug. 16
+    date: '1961-08-16'
+    place: wuhan
+    thread: china-leadership
+    also: [china]
+    c: 'As a Wuhan 武汉 report has it: some 2,000 known cases of mental illness in the city without specialist care; thirty beds for psychotic patients in all Wuhan.'
+    n: '[[w.dikotter-maos-great-famine]], 278. Made public: 2010. To check: Wuhan Municipal Archives, Aug. 16, 1961, 71-1-1400, pp. 9–10 (cited by [[w.dikotter-maos-great-famine]], 278 n.26).'
+    src:
+      c: c7695573
+      rows:
+        - 'w.dikotter-maos-great-famine 278: all'
+        - 'via w.dikotter-maos-great-famine 278 n.26: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1961-08-17.latin-america
     when: Aug. 17
     date: '1961-08-17'
@@ -3468,6 +3554,20 @@ entries:
       - 1961-08-17T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-17.china-leadership-10
+    when: Aug. 17
+    date: '1961-08-17'
+    place: jinghai
+    thread: china-leadership
+    also: [china]
+    c: 'As a Hebei 河北 report has it: in some villages of Jinghai county children of four or five cannot walk; those who can go barefoot through the snow in winter in a single unlined garment.'
+    n: '[[w.dikotter-maos-great-famine]], 252. Made public: 2010. To check: Hebei Provincial Archives, Aug. 17, 1961, 878-2-17, pp. 142–5 (cited by [[w.dikotter-maos-great-famine]], 252 n.40).'
+    src:
+      c: c5a56808
+      rows:
+        - 'w.dikotter-maos-great-famine 252: all'
+        - 'via w.dikotter-maos-great-famine 252 n.40: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1961-08-18.berlin-and-vienna
     when: Aug. 18
     date: '1961-08-18'
@@ -4019,7 +4119,7 @@ entries:
     thread: vietnam-diplomacy
     also: [china]
     c: Peking. Ung Văn Khiêm, the DRV's foreign minister, arrives at 3 p.m. from the Soviet Union, which he left on the 19th, by his word to Zhou the next day.
-    n: '"[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (Ung: "I set out from the Soviet Union on the 19th and arrived here in Beijing yesterday at 3 o''clock in the afternoon"; back from Geneva by way of several fraternal countries). Names: Ung Văn Khiêm, Zhou Enlai. Check: the year the Archive posted the document.'
+    n: '"[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (Ung: "I set out from the Soviet Union on the 19th and arrived here in Beijing yesterday at 3 o''clock in the afternoon"; back from Geneva by way of several fraternal countries). [[w.guan-vietnamese-communists-relations-with]], 200 (Ưng Văn Khiêm, Foreign Minister and formal head of the delegation at Geneva, in Peking from Moscow; home to Hanoi Aug. 23). Names: Ung Văn Khiêm, Zhou Enlai. Check: the year the Archive posted the document.'
     tags: [polity:drv, name:ung-van-khiem, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1961-08-20.china-leadership-7
@@ -4151,13 +4251,14 @@ entries:
     thread: china-leadership
     also: [laos, soviet-union, vietnam-hanoi]
     c: Zhou Enlai receives the DRV's Foreign Minister, Ung Văn Khiêm, on the Laotian question and on Hồ Chí Minh's mediation between the Soviet Union and Albania.
-    n: '"[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (top secret document 559, the Premier not having reviewed it; 5:30 p.m., Xihua Hall, with Ji Pengfei; recorder Ni Liyu. The record is on Hồ Chí Minh''s mediation: Zhou says it was well meant but ill judged, that Albania fears the Soviet Union and the main fault is Moscow''s, and asks Ung to tell Lê Duẩn and Phạm Văn Đồng so; Ung says Hồ went to Sochi meaning no pressure on Albania). [[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 21, 1961); [[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 21, 1961; 下午5时30分, 中南海西花厅). Made public: 1993. Names: Zhou Enlai, Hồ Chí Minh, Ung Văn Khiêm.'
+    n: '"[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (top secret document 559, the Premier not having reviewed it; 5:30 p.m., Xihua Hall, with Ji Pengfei; recorder Ni Liyu. The record is on Hồ Chí Minh''s mediation: Zhou says it was well meant but ill judged, that Albania fears the Soviet Union and the main fault is Moscow''s, and asks Ung to tell Lê Duẩn and Phạm Văn Đồng so; Ung says Hồ went to Sochi meaning no pressure on Albania). [[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 21, 1961); [[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 21, 1961; 下午5时30分, 中南海西花厅); [[w.guan-vietnamese-communists-relations-with]], 200. Made public: 1993. Names: Zhou Enlai, Hồ Chí Minh, Ung Văn Khiêm.'
     src:
       c: a916acfa
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 428: ?'
         - 'w.zhou-enlai-waijiao-huodong 320: A'
         - 'https://digitalarchive.umd.edu/document/176892: A'
+        - 'w.guan-vietnamese-communists-relations-with 200: all'
     tags: [polity:prc, polity:drv, polity:ussr, polity:albania, name:zhou-enlai, name:ho-chi-minh, vis:only:prc+drv, name:ung-van-khiem, name:ji-pengfei]
     time_zone: Asia/Shanghai
     variants:
@@ -4272,6 +4373,14 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 149: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-08-21.vietnam-diplomacy
+    when: Aug. 21
+    date: '1961-08-21'
+    place: hanoi
+    thread: vietnam-diplomacy
+    c: Phạm Văn Đồng home to Hanoi from Kunming.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 200. Names: Phạm Văn Đồng.'
+    tags: [polity:drv, name:pham-van-dong]
   - id: cal.1961-08-22.economy
     when: Aug. 22
     date: '1961-08-22'
@@ -4538,7 +4647,7 @@ entries:
     place: lushan
     thread: china-leadership
     c: 'Lushan. The Central Work Conference, Mao presiding (its order set by the enlarged Standing Committee with the regional first secretaries, Aug. 23): grain, markets, the plans for 1961–62 and industry, the regulations for state enterprises and the higher schools, the training of cadres. Adopted: the Center''s directive on industry ("retreat where we must, and enough"; seven years of "adjust, consolidate, fill out, raise," three with adjustment first); the "Seventy Articles" on industry; the "Sixty Articles" on the higher schools; the decision on training cadres. Coal over 500 million and steel over 15 million tons for the two years; 1961''s steel from 11 to 8.5 million.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 23, 1961 (the entries for Aug. 23–Sept. 16 and Aug. 23). [[w.zhou-enlai-nianpu-1949]], II, 429, Aug. 23–Sept. 16, 1961 (the conference''s decisions as Zhou''s chronology lists them). [[w.macfarquhar-origins-of-the-cultural]], III, 67 (Mao''s opening remarks; the Rural Work Department''s report); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 538 (Aug. 23–Sept. 16, 1961; Liu attends the Central Work Conference at Lushan: industry, grain, finance and education; it makes the "Instruction on current industrial problems" and passes the Education Ministry''s directly run colleges'' work regulations (draft), the "Sixty Articles on Higher Education," and the work regulations of state industrial enterprises (draft), the "Seventy Articles on Industry"); [[w.deng-xiaoping-nianpu-1904]], III, 1656 (Aug. 23–Sept. 5, 1961; Deng attends; industry, grain, finance and trade, education; adopted, the draft regulations for state industrial enterprises and for the higher schools, the directive on current industrial problems, the decision on training cadres in rotation; seven years of readjustment, consolidation, filling out and raising standards; coal and steel the center; Deng sums up on Sept. 5 and leaves early for Korea; the conference ends Sept. 16. Aug. 23, Deng at Mao''s meeting of the Standing Committee and the regional first secretaries); [[w.mao-zedong-zhuan]], V, ch. 68 nn.20, 21 (Aug. 23, Lushan: Mao convenes the Standing Committee and the regional leaders to set the conference''s agenda, asks of the harvests and the sixty articles; socialist construction not yet understood, "we shall hit more nails"; the economy, he says, has reached bottom (Wang Renzhong''s diary); the conference runs Aug. 23 to Sept. 16). [[w.yang-jisheng-mubei]], II, 1174 (the second Lushan conference, Aug. 23–Sept. 16, 1961: grain, markets, the two-year plan, industry and its management; Mao holds the economy hit bottom in 1961 and is improving daily); [[w.dikotter-maos-great-famine]], 122 (Li Fuchun, the month after his July speech at Beidaihe, gives a similar report at a top-level party meeting at Lushan, again exempting Mao from responsibility; Mao praises it); [[w.jian-zhou-enlai]], 459 (Lushan, August: Zhou stresses the difficulties; Mao: the mistakes few, the low ebb reached, things to improve day by day); [[w.peng-zhen-nianpu-1902]], IV, 149 (Aug. 23–Sept. 16, 1961; Peng Zhen attends; industry, grain, finance and trade, education; the directive on present industrial questions revised under Deng; the draft regulations for state industrial enterprises; Zhou''s rules for grain in 1961–62; the provisional regulations for the colleges; the decision on retraining cadres). Made public: 1996. Check: Yang Shangkun''s diary heads Aug. 24 "the work conference begins," its first plenary that afternoon ([[w.yang-shangkun-riji]], II, 62). Check: the day of Li Fuchun''s report at Lushan: [[w.dikotter-maos-great-famine]], 122, gives only "the following month" after July; Li Fuchun on the plan, Aug. 31: [[cal.1961-08-31.china-leadership]]. To check: the Working Regulations for State Industrial Enterprises (draft), Sept. 1961; [[w.bian-mao-zedong-he-tade]], 57–58 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 548–49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154b); [[w.rui-lushan-huiyi-shilu]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154c); Relayed record of Mao Zedong''s 毛泽东 speech to the Standing Committee and the regional leaders 中央常委和大区负责人会议, Lushan, Aug. 23, 1961 (传达记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.20); Wang Renzhong 王任重, diary, Aug. 23, 1961 (王任重日记) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.21); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], II, 1073 (cited by [[w.jian-zhou-enlai]], 459 n.76). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 23, 1961 (the entries for Aug. 23–Sept. 16 and Aug. 23). [[w.zhou-enlai-nianpu-1949]], II, 429, Aug. 23–Sept. 16, 1961 (the conference''s decisions as Zhou''s chronology lists them). [[w.macfarquhar-origins-of-the-cultural]], III, 67 (Mao''s opening remarks; the Rural Work Department''s report); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 538 (Aug. 23–Sept. 16, 1961; Liu attends the Central Work Conference at Lushan: industry, grain, finance and education; it makes the "Instruction on current industrial problems" and passes the Education Ministry''s directly run colleges'' work regulations (draft), the "Sixty Articles on Higher Education," and the work regulations of state industrial enterprises (draft), the "Seventy Articles on Industry"); [[w.deng-xiaoping-nianpu-1904]], III, 1656 (Aug. 23–Sept. 5, 1961; Deng attends; industry, grain, finance and trade, education; adopted, the draft regulations for state industrial enterprises and for the higher schools, the directive on current industrial problems, the decision on training cadres in rotation; seven years of readjustment, consolidation, filling out and raising standards; coal and steel the center; Deng sums up on Sept. 5 and leaves early for Korea; the conference ends Sept. 16. Aug. 23, Deng at Mao''s meeting of the Standing Committee and the regional first secretaries); [[w.mao-zedong-zhuan]], V, ch. 68 nn.20, 21 (Aug. 23, Lushan: Mao convenes the Standing Committee and the regional leaders to set the conference''s agenda, asks of the harvests and the sixty articles; socialist construction not yet understood, "we shall hit more nails"; the economy, he says, has reached bottom (Wang Renzhong''s diary); the conference runs Aug. 23 to Sept. 16). [[w.yang-jisheng-mubei]], II, 1174 (the second Lushan conference, Aug. 23–Sept. 16, 1961: grain, markets, the two-year plan, industry and its management; Mao holds the economy hit bottom in 1961 and is improving daily); [[w.dikotter-maos-great-famine]], 122 (Li Fuchun, the month after his July speech at Beidaihe, gives a similar report at a top-level party meeting at Lushan, again exempting Mao from responsibility; Mao praises it); [[w.jian-zhou-enlai]], 459 (Lushan, August: Zhou stresses the difficulties; Mao: the mistakes few, the low ebb reached, things to improve day by day); [[w.peng-zhen-nianpu-1902]], IV, 149 (Aug. 23–Sept. 16, 1961; Peng Zhen attends; industry, grain, finance and trade, education; the directive on present industrial questions revised under Deng; the draft regulations for state industrial enterprises; Zhou''s rules for grain in 1961–62; the provisional regulations for the colleges; the decision on retraining cadres); [[w.dikotter-maos-great-famine]], 166 n.13 (a report to the conference: 99.6 billion yuan spent on capital construction in the three years to September 1961, a further 9.2 billion on housing). Made public: 1996. Check: Yang Shangkun''s diary heads Aug. 24 "the work conference begins," its first plenary that afternoon ([[w.yang-shangkun-riji]], II, 62). Check: the day of Li Fuchun''s report at Lushan: [[w.dikotter-maos-great-famine]], 122, gives only "the following month" after July; Li Fuchun on the plan, Aug. 31: [[cal.1961-08-31.china-leadership]]. To check: the Working Regulations for State Industrial Enterprises (draft), Sept. 1961; [[w.bian-mao-zedong-he-tade]], 57–58 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 548–49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154b); [[w.rui-lushan-huiyi-shilu]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154c); Relayed record of Mao Zedong''s 毛泽东 speech to the Standing Committee and the regional leaders 中央常委和大区负责人会议, Lushan, Aug. 23, 1961 (传达记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.20); Wang Renzhong 王任重, diary, Aug. 23, 1961 (王任重日记) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.21); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], II, 1073 (cited by [[w.jian-zhou-enlai]], 459 n.76). Names: Mao Zedong.'
     src:
       c: ddfbd867
       rows:
@@ -4558,6 +4667,7 @@ entries:
         - 'w.dikotter-maos-great-famine 122: ?'
         - 'w.jian-zhou-enlai 459: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 149: ?'
+        - 'w.dikotter-maos-great-famine 166 n.13: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-08-23.china-leadership-6
     when: Aug. 23
@@ -4661,6 +4771,19 @@ entries:
       - 1961-08-23T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-23.cuba
+    when: Aug. 23
+    date: '1961-08-23'
+    thread: cuba
+    also: [china]
+    c: 'Kaysen to Schlesinger: Guevara reportedly sought "some kind of accommodation with us"; a "real possibility that if we are willing to make the gamble, we can buy another Yugoslavia."'
+    n: '[[w.chang-friends-and-enemies]], 221. Made public: 1990 ([[w.chang-friends-and-enemies]], 221). To check: Kaysen to Schlesinger, Aug. 23, 1961, Schlesinger Papers, box 16, Subject S-1961–64, NSC 5/5/61–10/30/61 (cited by [[w.chang-friends-and-enemies]], 221 n.37). Names: Kaysen, Schlesinger, Guevara.'
+    src:
+      c: 921ae159
+      rows:
+        - 'w.chang-friends-and-enemies 221: all'
+        - 'via x.1961-08-23.kaysen-to-schlesinger: all'
+    tags: [polity:us, vis:only:us, name:kaysen-carl, name:schlesinger-arthur-m-jr, name:guevara-ernesto]
   - id: cal.1961-08-24.confirmations
     when: Aug. 24
     date: '1961-08-24'
@@ -4829,6 +4952,22 @@ entries:
         - 'w.yang-jisheng-mubei I, 265, 273: all'
         - 'via w.yang-jisheng-mubei I, 265 n.16b: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-08-24.china-leadership-8
+    when: Aug. 24
+    date: '1961-08-24'
+    place: shanghai
+    thread: china-leadership
+    also: [china]
+    c: 'As a Shanghai 上海 report has it: corporal punishment used in the city''s kindergartens; toddlers go about all day with faeces in their pants.'
+    n: '[[w.dikotter-maos-great-famine]], 246. Made public: 2010. To check: Shanghai Municipal Archives, Aug. 24, 1961, A20-1-54, pp. 16–24 (cited by [[w.dikotter-maos-great-famine]], 246 n.4b, n.5b); Shanghai Municipal Archives, May 7, 1961, A20-1-60, pp. 60–2 (cited by [[w.dikotter-maos-great-famine]], 246 n.5a). Check: the day; the note on the toddlers (n.5) gives a file of May 7, 1961 beside this one.'
+    src:
+      c: '18850717'
+      rows:
+        - 'w.dikotter-maos-great-famine 246: all'
+        - 'via w.dikotter-maos-great-famine 246 n.4b: all'
+        - 'via w.dikotter-maos-great-famine 246 n.5b: all'
+        - 'via w.dikotter-maos-great-famine 246 n.5a: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1961-08-25.latin-america
     when: Aug. 25
     date: '1961-08-25'
@@ -4998,6 +5137,18 @@ entries:
     c: João Goulart telegraphs Chen Yi 陈毅 his thanks.
     n: '[[w.chen-yi-nianpu]], 887. Names: Chen Yi, Goulart.'
     tags: [polity:prc, polity:brazil, name:chen-yi, name:goulart-joao]
+  - id: cal.1961-08-25.vietnam-diplomacy
+    when: Aug. 25–27
+    date: '1961-08-25'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Souvanna Phouma's unofficial visit to Hanoi.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 200. To check: FO 371/159867, DF 1015/1105, 25 August 1961, from Hanoi to Foreign Office (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 200 n.83). Names: Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1961-08-25.fo-159867-df-1015-1105: ?'
+    tags: [polity:laos, polity:drv, name:souvanna-phouma]
   - id: cal.1961-08-26.berlin-and-vienna
     when: Aug. 26
     date: '1961-08-26'
@@ -5617,6 +5768,16 @@ entries:
       - 1961-08-30T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-30.laos
+    when: Aug. 30
+    date: '1961-08-30'
+    thread: laos
+    c: 'As British officials at Geneva report it: in the last week of August the first signs that the Communist states may be ready to negotiate seriously.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 201. Made public: 1997. To check: FO 371/159947, DF 2231/397(A), 30 August 1961, from Geneva to Foreign Office (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 201 n.87).'
+    src:
+      rows:
+        - 'via x.1961-08-30.fo-159947-df-2231-397-a: ?'
+    tags: [form:state, polity:uk, vis:only:uk, ok:fields-place]
   - id: cal.1961-08-31.rules
     when: Aug. 31
     date: '1961-08-31'
@@ -6510,3 +6671,28 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 149: all'
     tags: [polity:prc, name:peng-zhen, name:deng-xiaoping, name:li-xiannian, vis:only:prc]
+  - id: cal.1961-08.china-leadership-12
+    when: Aug.
+    date: 1961-08
+    thread: china-leadership
+    also: [laos, vietnam-diplomacy]
+    c: 'As Hanoi later tells it: the Chinese advise the Vietnamese to take the greatest care not to be drawn directly into the war in Laos, warning of American involvement and its cost to North Vietnam, Yunnan and Guangxi; Peking proposes Laos divided north and south, the north along China''s border to the revolutionary forces, the south to Phoumi Nosavan. The Laotian revolutionaries propose instead east and west zones, the east, along the cordillera, theirs, a corridor between North and South Vietnam.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 200 (by the Vietnamese disclosures of 1979 and 1984; the author doubts). Made public: 1979 (the SRV Foreign Ministry''s White Paper, Oct. 4–6, 1979). To check: The Socialist Republic of Vietnam Foreign Ministry''s White Paper on relations with China, Hanoi Home Service, Oct. 4–6, 1979, SWB/FE/6238/A3/13 (cited by [[w.guan-vietnamese-communists-relations-with]], 200 n.84a); [[w.affairs-chinese-rulers-crimes-against]], 30–31 (cited by [[w.guan-vietnamese-communists-relations-with]], 200 n.84b). Names: Phoumi Nosavan.'
+    src:
+      rows:
+        - 'via x.1979-10-04.srv-white-paper-relations-with-china: ?'
+    tags: [polity:prc, polity:drv, name:phoumi-nosavan, vis:only:prc+drv, ok:fields-place]
+  - id: cal.1961-08.china-leadership-11
+    when: Aug.
+    date: 1961-08
+    place: shanghai
+    thread: china-leadership
+    also: [china]
+    c: 'As a Shanghai 上海 report has it: in the first half of 1961 the coal due to Shanghai is cut by 15 per cent, and a third of that never arrives; close to half the iron and timber its heavy industry needs is missing.'
+    n: '[[w.dikotter-maos-great-famine]], 154. Made public: 2010. To check: Shanghai Municipal Archives, Aug. 1961, B29-2-655, p. 92 (cited by [[w.dikotter-maos-great-famine]], 154 n.40). Check: the day.'
+    src:
+      c: 18d1d3ee
+      rows:
+        - 'w.dikotter-maos-great-famine 154: all'
+        - 'via w.dikotter-maos-great-famine 154 n.40: all'
+    tags: [form:state, polity:prc, vis:only:prc, ok:fields-at]

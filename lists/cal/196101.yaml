@@ -144,6 +144,14 @@ entries:
       - 1961-01-01T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-01-01.vietnam-diplomacy
+    when: Jan. 1
+    date: '1961-01-01'
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: 'Sihanouk to the two Geneva co-chairmen and other heads of government, by letter: a new, enlarged conference on Laos, Thailand, South Vietnam and Burma in it.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 174. Names: Sihanouk.'
+    tags: [polity:cambodia, name:norodom-sihanouk, ok:fields-place]
   - id: cal.1961-01-02.laos
     when: Jan. 2–3
     date: '1961-01-02'
@@ -175,12 +183,13 @@ entries:
     date: '1961-01-02'
     thread: vietnam
     c: Lansdale in Vietnam.
-    n: '[FRUS 1961–63, I, doc. 2](https://history.state.gov/historicaldocuments/frus1961-63v01/d2) (editorial note). [[w.marolda-united-states-navy-and]], 98. Names: Lansdale.'
+    n: '[FRUS 1961–63, I, doc. 2](https://history.state.gov/historicaldocuments/frus1961-63v01/d2) (editorial note). [[w.marolda-united-states-navy-and]], 98; [[w.guan-vietnamese-communists-relations-with]], 180 (Jan. 2–14). Names: Lansdale.'
     src:
       c: 3635e7e8
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d2: all'
         - 'w.marolda-united-states-navy-and 98: all'
+        - 'w.guan-vietnamese-communists-relations-with 180: ?'
     tags: [name:lansdale-edward-g]
   - id: cal.1961-01-02.laos-2
     when: Jan. 2
@@ -322,6 +331,18 @@ entries:
         - 'w.westad-sino-soviet-alliance-and 178: all'
         - 'via x.1961-01-02.chervonenko-pino-santos-record-avprf: all'
     tags: [polity:ussr, polity:cuba, polity:prc, vis:only:ussr+cuba, name:chervonenko-stepan-v, name:mao-zedong]
+  - id: cal.1961-01-02.china-leadership-10
+    when: Jan. 2
+    date: '1961-01-02'
+    thread: china-leadership
+    c: Zhu De 朱德 at the meeting of the Politburo Standing Committee 中共中央政治局常委 and the first and second secretaries of the regional bureaus 中央局 Mao Zedong 毛泽东 presides, on the 1961 plan; to 1:30 the next morning.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1791. The words: 晚至次日凌晨一时半 (1791). Made public: 2016. Names: Zhu De, Mao Zedong.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1961-01-02T11:00Z
+      - 1961-01-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-01-03.rules
     when: Jan. 3
     date: '1961-01-03'
@@ -451,7 +472,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'The Yinian Tang, 10:20 p.m. Mao''s meeting of the Standing Committee, the departments and the regional bureaus hears Li Fuchun on the 1961 plan: the 1960 plan one for industry and transport, farming squeezed, targets high, power sent down too far; steel for 1961 at 19.5, 19 or 18.7 million tons. Mao: as coal, ore and transport allow.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 3, 1961. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 501 (Jan. 3, 1961; the Central Work Conference''s third report session, on the 1961 plan; Liu: raising steel the year before from 18.4 to 20.4 million tons was an error; this year''s plan to ease the situation and the contradictions and leave margin in every item); [[w.yang-shangkun-riji]], I, 639 (Jan. 3, 1961; the meeting at Mao''s, 晚间...10 时在主席处开会; Li Fuchun: 20 million tons of steel leaves gaps in iron, coal, transport and timber, to be cut to 19 or 19.5 million for margin; Mao: report so tomorrow for discussion; high targets and strain for three years squeezed farming, and even 19 million may bring the same strain in the fourth quarter, to be avoided; the meeting broke up at 1:45 a.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1609 (Jan. 3, 1961; night; Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries hears Li Fuchun on the 1961 plan, steel at most 19 million tons; asked whether "great leap" can still be said in 1961, Deng: the New Year editorials of *Hongqi* and the *Renmin ribao* did not, saying "new victories in socialist construction"); [[w.mao-zedong-zhuan]], V, ch. 67 n.6 (Jan. 3, evening, the fourth report: Li Fuchun on the plan for 1961, steel at 19.5, 19 or 18.7 million tons, Mao: 19 million looks safe, agriculture first and steel after). [[w.peng-zhen-nianpu-1902]], IV, 90 (Jan. 3, 1961, 10:20 p.m. to 1:30 a.m.; Peng Zhen at Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries, hearing Li Fuchun on the 1961 plan). Made public: 1996. To check: Mao Zedong 毛泽东, interjections at the report meeting of the Central Work Conference 中央工作会议汇报会, Jan. 3, 1961 (record 插话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.6). Names: Mao Zedong, Li Fuchun, Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Li Xiannian, Tan Zhenlin, Chen Boda, Bo Yibo.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 3, 1961. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 501 (Jan. 3, 1961; the Central Work Conference''s third report session, on the 1961 plan; Liu: raising steel the year before from 18.4 to 20.4 million tons was an error; this year''s plan to ease the situation and the contradictions and leave margin in every item); [[w.yang-shangkun-riji]], I, 639 (Jan. 3, 1961; the meeting at Mao''s, 晚间...10 时在主席处开会; Li Fuchun: 20 million tons of steel leaves gaps in iron, coal, transport and timber, to be cut to 19 or 19.5 million for margin; Mao: report so tomorrow for discussion; high targets and strain for three years squeezed farming, and even 19 million may bring the same strain in the fourth quarter, to be avoided; the meeting broke up at 1:45 a.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1609 (Jan. 3, 1961; night; Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries hears Li Fuchun on the 1961 plan, steel at most 19 million tons; asked whether "great leap" can still be said in 1961, Deng: the New Year editorials of *Hongqi* and the *Renmin ribao* did not, saying "new victories in socialist construction"); [[w.mao-zedong-zhuan]], V, ch. 67 n.6 (Jan. 3, evening, the fourth report: Li Fuchun on the plan for 1961, steel at 19.5, 19 or 18.7 million tons, Mao: 19 million looks safe, agriculture first and steel after). [[w.peng-zhen-nianpu-1902]], IV, 90 (Jan. 3, 1961, 10:20 p.m. to 1:30 a.m.; Peng Zhen at Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries, hearing Li Fuchun on the 1961 plan); [[w.zhu-de-nianpu-xinbian]], III, 1791 (Jan. 3, 1961, from 10 p.m. to 1:30 the next morning; Zhu De 朱德 at the meeting of the Politburo Standing Committee 中共中央政治局常委 and the regional bureaus'' first and second secretaries on the 1961 plan). Made public: 1996. To check: Mao Zedong 毛泽东, interjections at the report meeting of the Central Work Conference 中央工作会议汇报会, Jan. 3, 1961 (record 插话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.6). Names: Mao Zedong, Li Fuchun, Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Li Xiannian, Tan Zhenlin, Chen Boda, Bo Yibo.'
     src:
       c: da2a1516
       rows:
@@ -462,12 +483,17 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 67 n.6: B-D'
         - 'via w.mao-zedong-zhuan V, ch.67 n.6: B-D'
         - 'w.peng-zhen-nianpu-1902 IV, 90: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1791: ?'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, name:liu-shaoqi, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:li-xiannian, name:tan-zhenlin, name:chen-boda, name:bo-yibo, vis:only:prc]
     variants:
       - unit: A
         witness: w.yang-shangkun-riji
         reads: the meeting at Mao's at 10 p.m. (晚间...10 时在主席处开会), broken up at 1:45 a.m.
         at: I, 639
+      - unit: A
+        witness: w.zhu-de-nianpu-xinbian
+        reads: The meeting of the Standing Committee and the regional bureaus' first and second secretaries begins at 10 p.m. and ends at 1:30 a.m.
+        at: III, 1791
   - id: cal.1961-01-03.china-leadership-3
     when: Jan. 3
     date: '1961-01-03'
@@ -735,6 +761,17 @@ entries:
       - 1961-01-03T11:30Z
     time_band: afternoon
     time_zone: Asia/Yangon
+  - id: cal.1961-01-03.laos
+    when: Jan. 3
+    date: '1961-01-03'
+    thread: laos
+    also: [soviet-union]
+    c: 'As the State Department has it, by the British embassy in Washington: in the battle for Vientiane Soviet Il-14s flew in 105-mm howitzers, ammunition, gasoline, rations; North Vietnamese military personnel landed and parachuted to reinforce Kong Le outside the city; Soviet heavy transports through China to Hanoi and Haiphong backed the airlift. Since Kong Le''s withdrawal on Dec. 15, at least 180 sorties seen around Vang Vieng, Phong Hong, Sam Neua and Xieng Khouang, war matériel and many North Vietnamese parachuted in.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 172, 176. Made public: 1997. To check: FO 371/159813, DF 1015/21, 3 January 1961, from Washington to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 172 n.88). Names: Kong Le.'
+    src:
+      rows:
+        - 'via x.1961-01-03.fo-159813-df-1015-21: ?'
+    tags: [form:state, polity:us, polity:uk, polity:ussr, polity:drv, name:kong-le, vis:only:us+uk, ok:fields-place]
   - id: cal.1961-01-04.cuba-bay-of-pigs
     when: Jan. 4
     date: '1961-01-04'
@@ -882,7 +919,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai attends Burma's thirteenth independence day ceremony and the exchange of ratifications of the Sino-Burmese boundary treaty; receives from President Win Maung a specially made medal of the "Holder of the Noble, Great, Philanthropic and Glorious."
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 383 (Jan. 4, 1961); [[w.zhou-enlai-waijiao-huodong]], 299–300 (Jan. 4, 1961; 上午, 8时, 缅甸独立节庆祝仪式; 下午, 总统府, 互换边界条约批准书仪式; 下午, 接受勋章); [[w.lengxi-shinian-lunzhan-1956-1966]], 452 (Zhou led the government delegation to Burma in January 1961 to exchange the instruments of ratification of the boundary treaty and complete its legal steps; signed before the Moscow conference); [[w.chen-yi-nianpu]], 852–853 (Jan. 4, 1961; Chen Yi with Zhou Enlai on the central reviewing stand at the independence day ceremony in the morning, and at the exchange of the boundary treaty''s ratifications in the President''s House in the afternoon). Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 383 (Jan. 4, 1961); [[w.zhou-enlai-waijiao-huodong]], 299–300 (Jan. 4, 1961; 上午, 8时, 缅甸独立节庆祝仪式; 下午, 总统府, 互换边界条约批准书仪式; 下午, 接受勋章); [[w.lengxi-shinian-lunzhan-1956-1966]], 452 (Zhou led the government delegation to Burma in January 1961 to exchange the instruments of ratification of the boundary treaty and complete its legal steps; signed before the Moscow conference); [[w.chen-yi-nianpu]], 852–853 (Jan. 4, 1961; Chen Yi with Zhou Enlai on the central reviewing stand at the independence day ceremony in the morning, and at the exchange of the boundary treaty''s ratifications in the President''s House in the afternoon); [[w.guan-vietnamese-communists-relations-with]], 173 (Rangoon). To check: Peking Review IV, no. 1, Jan. 6, 1961, 13–18 (cited by [[w.guan-vietnamese-communists-relations-with]], 173 n.94b). Names: Zhou Enlai, U Nu.'
     src:
       c: 362b6265
       rows:
@@ -890,6 +927,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 299–300: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 452: A'
         - 'w.chen-yi-nianpu 852–853: ?'
+        - 'w.guan-vietnamese-communists-relations-with 173: ?'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
     time_range:
       - 1961-01-03T23:30Z
@@ -1129,6 +1167,22 @@ entries:
       - 1961-01-04T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-01-04.vietnam-diplomacy
+    when: Jan. 4
+    date: '1961-01-04'
+    thread: vietnam-diplomacy
+    also: [laos, china-leadership]
+    c: 'Phạm Văn Đồng to Zhou Enlai, by telegram: an international conference on Laos proposed.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 175. Names: Phạm Văn Đồng, Zhou Enlai.'
+    tags: [polity:drv, name:pham-van-dong, name:zhou-enlai, ok:fields-place]
+  - id: cal.1961-01-04.china-leadership-15
+    when: Jan. 4
+    date: '1961-01-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Peking Hotel 北京饭店. Zhu De 朱德 at the reception of 吴翁钦, the Burmese Embassy's chargé d'affaires, for the thirteenth anniversary of the Union of Burma's independence.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1791. Names: Zhu De.'
+    tags: [polity:prc, polity:burma, name:zhu-de]
   - id: cal.1961-01-05.economy
     when: Jan. 5
     date: '1961-01-05'
@@ -1550,13 +1604,22 @@ entries:
       - 1961-01-05T11:30Z
     time_band: afternoon
     time_zone: Asia/Yangon
+  - id: cal.1961-01-05.china-leadership-18
+    when: Jan. 5
+    date: '1961-01-05'
+    time: 1961-01-05T11:00Z
+    thread: china-leadership
+    c: Zhu De 朱德 calls on Mao Zedong 毛泽东.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1791. The words: 晚七时 (1791). Made public: 2016. Names: Zhu De, Mao Zedong.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-01-06.berlin-and-vienna
     when: Jan. 6
     date: '1961-01-06'
     thread: berlin-and-vienna
     also: [soviet-union]
     c: Khrushchev reports to party organizations on the Moscow meeting of 81 communist parties. World war avoidable; wars of national liberation inevitable, and to be supported. Kennedy reads it to his staff and quotes it to the cabinet.
-    n: '[FRUS 1961–63, V, doc. 15](https://history.state.gov/historicaldocuments/frus1961-63v05/d15) (Jan. 26, 1961). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 35 (the speech); [[w.marolda-united-states-navy-and]], 98 (the speech; wars of liberation); [[w.futrell-united-states-air-force]], 56 (the speech); [[w.fursenko-khrushchevs-cold-war]], 336 ("sacred war," Vietnam and Algeria); [[w.sorensen-kennedy]], 625 (the speech: piecemeal expansion by limited war and subversion); [[w.poole-joint-chiefs-of-staff]], 23 (wars of national liberation); [[w.selverstone-kennedy-withdrawal]], 20 (Khrushchev, Jan. 6, to a closed session of Kremlin officials on the meeting of Communist parties: wars of national liberation "inevitable" and "sacred"; Kennedy treats it as a statement of Soviet intentions); [[w.schlesinger-robert-kennedy-and-his]], 422–23 (Khrushchev''s speech of Jan. 6, 1961: communism to triumph neither through world war, nuclear war destroying civilization, nor through local war, but through "national liberation wars" in the Third World, with full Soviet support; the President had everyone on the National Security Council and the military read it, by Robert Kennedy''s later account; not the audience, the eighty-one parties, world war "avoidable" or the word "inevitable"); [[w.friedman-shadow-cold-war]], 60 (Khrushchev to a gathering of party and academic officials: Communists must notice "newly arising possibilities"; the new possibilities in Asia, Africa and Latin America, and the state of national democracy of the Moscow Declaration). [[w.fursenko-one-hell-of-a]], 73, 78 (the speech; Kennedy''s "Read, mark, learn and inwardly digest" and its distribution). To check: [[w.beschloss-crisis-years]]; [[w.taubman-khrushchev]]; "Declaration on Granting Independence to Colonial Countries and Peoples," Khrushchev in New York (New York, 1961), p 90 (cited by [[w.futrell-united-states-air-force]], 56 n.30a); Hearing before the Subcommittee to Investigate the Administration of the Internal Security Act and Internal Security Laws of the Committee on the Judiciary, US Senate, Analysis of the Khrushchev Speech of January 6, 1961, 87th Cong, 1st sess (Washington, 1961), pp 64–65, 77–78 (cited by [[w.futrell-united-states-air-force]], 56 n.30b); the speech, [[w.current-documents-1961]], 555–58 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 35 n.72); N. S. Khrushchev, “Za Novye Pobedy Mirovogo Kommunisticheskogo Dvizheniia,” Kommunist, 28 (cited by [[w.friedman-shadow-cold-war]], 60 n.1). Names: Khrushchev.'
+    n: '[FRUS 1961–63, V, doc. 15](https://history.state.gov/historicaldocuments/frus1961-63v05/d15) (Jan. 26, 1961). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 35 (the speech); [[w.marolda-united-states-navy-and]], 98 (the speech; wars of liberation); [[w.futrell-united-states-air-force]], 56 (the speech); [[w.fursenko-khrushchevs-cold-war]], 336 ("sacred war," Vietnam and Algeria); [[w.sorensen-kennedy]], 625 (the speech: piecemeal expansion by limited war and subversion); [[w.poole-joint-chiefs-of-staff]], 23 (wars of national liberation); [[w.selverstone-kennedy-withdrawal]], 20 (Khrushchev, Jan. 6, to a closed session of Kremlin officials on the meeting of Communist parties: wars of national liberation "inevitable" and "sacred"; Kennedy treats it as a statement of Soviet intentions); [[w.schlesinger-robert-kennedy-and-his]], 422–23 (Khrushchev''s speech of Jan. 6, 1961: communism to triumph neither through world war, nuclear war destroying civilization, nor through local war, but through "national liberation wars" in the Third World, with full Soviet support; the President had everyone on the National Security Council and the military read it, by Robert Kennedy''s later account; not the audience, the eighty-one parties, world war "avoidable" or the word "inevitable"); [[w.friedman-shadow-cold-war]], 60 (Khrushchev to a gathering of party and academic officials: Communists must notice "newly arising possibilities"; the new possibilities in Asia, Africa and Latin America, and the state of national democracy of the Moscow Declaration); [[w.guan-vietnamese-communists-relations-with]], 181 (to the party organizations of the Higher Party School, the Academy of Social Sciences and the Institute of Marxism–Leninism: wars of national liberation inevitable while imperialism lasts; Vietnam the example, the Americans kept out by the aid China, the Soviet Union and the others would give; the Soviet Union to "fully support such just wars"). [[w.fursenko-one-hell-of-a]], 73, 78 (the speech; Kennedy''s "Read, mark, learn and inwardly digest" and its distribution). To check: [[w.beschloss-crisis-years]]; [[w.taubman-khrushchev]]; "Declaration on Granting Independence to Colonial Countries and Peoples," Khrushchev in New York (New York, 1961), p 90 (cited by [[w.futrell-united-states-air-force]], 56 n.30a); Hearing before the Subcommittee to Investigate the Administration of the Internal Security Act and Internal Security Laws of the Committee on the Judiciary, US Senate, Analysis of the Khrushchev Speech of January 6, 1961, 87th Cong, 1st sess (Washington, 1961), pp 64–65, 77–78 (cited by [[w.futrell-united-states-air-force]], 56 n.30b); the speech, [[w.current-documents-1961]], 555–58 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 35 n.72); N. S. Khrushchev, “Za Novye Pobedy Mirovogo Kommunisticheskogo Dvizheniia,” Kommunist, 28 (cited by [[w.friedman-shadow-cold-war]], 60 n.1); Moscow Home Service, 19 January 1961, SWB/SU/544/C/1-29 (cited by [[w.guan-vietnamese-communists-relations-with]], 181 n.8). Names: Khrushchev.'
     src:
       c: 6a450300
       rows:
@@ -1575,6 +1638,7 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 422–23: ?'
         - 'w.friedman-shadow-cold-war 60: ?'
         - 'via x.undated.n-s-khrushchev-za-novye-pobedy-mirovogo: ?'
+        - 'w.guan-vietnamese-communists-relations-with 181: ?'
     tags: [name:khrushchev-nikita-s, name:kennedy-john-f]
   - id: cal.1961-01-06.desegregation-schools
     when: Jan. 6
@@ -1680,12 +1744,13 @@ entries:
     thread: china-leadership
     also: [cuba]
     c: 'Peking Hotel. Mao and Liu Shaoqi at the Cuban Ambassador''s reception for the revolution''s second anniversary. To the Ambassador, Santos (桑托斯 in the chronology; perhaps Oscar Pino Santos), on the tension with America since Dec. 30: against American troops, guerrilla war, not head on; "America is a bone, not meat": bite it a piece at a time.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 6, 1961. [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 182 (Jan. 6, 1961; Mao, Liu and Zhu De attend the Cuban ambassador''s reception for the second anniversary of the revolution; Zhu De''s speech condemns the U.S. plan for open military attack on Cuba and says China will always be Cuba''s reliable friend). Made public: 2001. Names: Mao Zedong, Liu Shaoqi, Santos. Check: the Ambassador''s full name.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 6, 1961. [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 182 (Jan. 6, 1961; Mao, Liu and Zhu De attend the Cuban ambassador''s reception for the second anniversary of the revolution; Zhu De''s speech condemns the U.S. plan for open military attack on Cuba and says China will always be Cuba''s reliable friend); [[w.zhu-de-nianpu-xinbian]], III, 1791 (Jan. 6, 1961; Zhu De 朱德, with Mao Zedong, Liu Shaoqi, Li Xiannian 李先念, Nie Rongzhen 聂荣臻, Xi Zhongxun 习仲勋, Li Weihan 李维汉, Saifuddin 赛福鼎, Lin Feng 林枫, Zhang Zhizhong 张治中, Fu Zuoyi 傅作义 and others, at the reception of Oscar Pino Santos 桑托斯, the Cuban Ambassador, for the second anniversary of the revolution; speaks: the Cuban people''s victory shows that any oppressed country, great or small, near imperialism or far, can win its revolution if its people hold to unity and struggle). Made public: 2001. Names: Mao Zedong, Liu Shaoqi, Santos. Check: the Ambassador''s full name.'
     src:
       c: de46aca8
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Jan. 6, 1961: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 182: B'
+        - 'w.zhu-de-nianpu-xinbian III, 1791: ?'
     tags: [polity:prc, polity:cuba, name:mao-zedong, name:liu-shaoqi, vis:only:prc+cuba]
   - id: cal.1961-01-06.china-leadership-2
     when: Jan. 6
@@ -1872,6 +1937,14 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 90: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-01-06.vietnam-diplomacy
+    when: Jan. 6
+    date: '1961-01-06'
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Hồ Chí Minh answers Sihanouk's proposal favorably.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 174. Names: Hồ Chí Minh, Sihanouk.'
+    tags: [polity:drv, name:ho-chi-minh, name:norodom-sihanouk, ok:fields-place]
   - id: cal.1961-01-07.cuba
     when: Jan. 7
     date: '1961-01-07'
@@ -2156,6 +2229,17 @@ entries:
     c: 'The Secretariat, after the Industry Department''s report, on the Hồng Quảng Zone: a coal-mining industrial zone, the "Hồng Quảng Mining Zone", with the farmland it needs; the return of Đông Triều district from Hải Dương to be studied and settled by mid-1961 at the latest; the zone ranked as a first-class province; its committee to lead the central coal enterprises in its bounds, within the powers the Center delegates.'
     n: 'Recorded in resolution no. 15-NQ/TW, Mar. 24, 1961, *Nghị quyết của Ban Bí thư số 15-NQ/TW, ngày 24-3-1961, Về tổ chức, vị trí và nhiệm vụ của Khu uỷ Hồng Quảng*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXII, 271–75. Made public: 2002. The session: "Ngày 7-1-1961" (Jan. 7); the resolution is dated Mar. 24.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1961-01-07.laos-4
+    when: Jan. 7
+    date: '1961-01-07'
+    thread: laos
+    also: [soviet-union]
+    c: 'Khrushchev, by letters to Sihanouk, Phạm Văn Đồng and Souvanna Phouma: for a new conference.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 174–175. To check: TASS in English, 12 January 1961, SWB/SU/538/A3/3 (cited by [[w.guan-vietnamese-communists-relations-with]], 175 n.101). Names: Khrushchev, Sihanouk, Phạm Văn Đồng, Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1961-01-12.tass-in-english-su-538-a3-3: ?'
+    tags: [polity:ussr, name:khrushchev-nikita-s, name:norodom-sihanouk, name:pham-van-dong, name:souvanna-phouma, ok:fields-place]
   - id: cal.1961-01-08.opinion
     when: Jan. 8
     date: '1961-01-08'
@@ -2373,7 +2457,7 @@ entries:
     follows:
       - cal.1961-01-09.china-leadership-9
     c: 'The Yinian Tang. Mao''s meeting of the Standing Committee and the regional secretaries on Hu Qiaomu''s draft "Three Main Rules and Eight Points" for Party and government cadres and the order of the work conference and the Ninth Plenum. Mao''s rules: start from the facts; raise the political level (exchange of equal values, pay by work); practice democratic centralism; the points in the positive ("speak kindly," not "beatings to be punished"). Whether to issue them now, when power is to be taken back in a fifth of the counties: to be discussed.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 9, 1961. [[w.jianguo-yilai-mao-zedong]], XV, 472–473 (Jan. 9, 1961; Mao''s comment of Jan. 9 on Hu Qiaomu''s report of Jan. 8 with the draft, which he titles ''Three Main Rules and Eight Points (draft)'': to the groups to discuss; whether to issue it now, when power is being taken in 20 percent of the counties, communes and teams, or wait; too complex, less plain than the Red Army''s; note 1: the meeting at the Yinian Tang that afternoon and Mao''s revised rules and points; printed from the manuscript; not the order of the work conference and the plenum); [[w.yang-shangkun-riji]], I, 642 (Jan. 9, 1961; after the Secretariat''s forty minutes; the regions'' men report; the plenum to begin the 13th); [[w.deng-xiaoping-nianpu-1904]], III, 1610–1611 (Jan. 9, 1961; 3:35 p.m.; Deng at Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries: the bureaus'' reports, the draft "Three main rules of discipline and eight points for attention for Party and government cadres", the Ninth Plenum); [[w.mao-zedong-zhuan]], V, ch. 67 n.7 (Jan. 9, the fifth report: Hu Qiaomu''s draft "three great disciplines and eight points of attention" for Party and government cadres handed round, Mao not satisfied: it is to be short and easy to remember, and not to do harm; he adds the item "no investigation, no right to speak"; Liu Zihou on two Hebei counties; Mao: the false Communist, the real Kuomintang; issued Jan. 27). [[w.yang-jisheng-mubei]], II, 1138 n.57 (Mao''s comment of Jan. 9, 1961 on the draft "Three Great Disciplines and Eight Points" for Party and government cadres, the book''s source for his putting the third-class communes at times at 20 percent); [[w.peng-zhen-nianpu-1902]], IV, 91 (Jan. 9, 1961, afternoon; Peng Zhen at Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries, hearing the bureaus and discussing the draft "Three main rules of discipline and eight points for attention for Party and government cadres" and the Ninth Plenum). Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], I, 642) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 67). Names: Mao Zedong, Hu Qiaomu, Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Li Fuchun, Li Xiannian, Tan Zhenlin, Bo Yibo, Ke Qingshi, Li Jingquan, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 9, 1961. [[w.jianguo-yilai-mao-zedong]], XV, 472–473 (Jan. 9, 1961; Mao''s comment of Jan. 9 on Hu Qiaomu''s report of Jan. 8 with the draft, which he titles ''Three Main Rules and Eight Points (draft)'': to the groups to discuss; whether to issue it now, when power is being taken in 20 percent of the counties, communes and teams, or wait; too complex, less plain than the Red Army''s; note 1: the meeting at the Yinian Tang that afternoon and Mao''s revised rules and points; printed from the manuscript; not the order of the work conference and the plenum); [[w.yang-shangkun-riji]], I, 642 (Jan. 9, 1961; after the Secretariat''s forty minutes; the regions'' men report; the plenum to begin the 13th); [[w.deng-xiaoping-nianpu-1904]], III, 1610–1611 (Jan. 9, 1961; 3:35 p.m.; Deng at Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries: the bureaus'' reports, the draft "Three main rules of discipline and eight points for attention for Party and government cadres", the Ninth Plenum); [[w.mao-zedong-zhuan]], V, ch. 67 n.7 (Jan. 9, the fifth report: Hu Qiaomu''s draft "three great disciplines and eight points of attention" for Party and government cadres handed round, Mao not satisfied: it is to be short and easy to remember, and not to do harm; he adds the item "no investigation, no right to speak"; Liu Zihou on two Hebei counties; Mao: the false Communist, the real Kuomintang; issued Jan. 27). [[w.yang-jisheng-mubei]], II, 1138 n.57 (Mao''s comment of Jan. 9, 1961 on the draft "Three Great Disciplines and Eight Points" for Party and government cadres, the book''s source for his putting the third-class communes at times at 20 percent); [[w.peng-zhen-nianpu-1902]], IV, 91 (Jan. 9, 1961, afternoon; Peng Zhen at Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries, hearing the bureaus and discussing the draft "Three main rules of discipline and eight points for attention for Party and government cadres" and the Ninth Plenum); [[w.zhu-de-nianpu-xinbian]], III, 1791 (Jan. 9, 1961, afternoon; Zhu De 朱德 at the meeting of the Politburo Standing Committee and the regional bureaus'' first and second secretaries, on the draft "Three Main Rules of Discipline and Eight Points for Attention for Party and Government Cadres" 《党政干部三大纪律、八项注意》 and the Ninth Plenum). Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], I, 642) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 67). Names: Mao Zedong, Hu Qiaomu, Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Li Fuchun, Li Xiannian, Tan Zhenlin, Bo Yibo, Ke Qingshi, Li Jingquan, Tao Zhu.'
     src:
       c: d5d16ae2
       rows:
@@ -2386,6 +2470,7 @@ entries:
         - 'via w.mao-zedong-zhuan V, ch.67 n.7: B'
         - 'w.yang-jisheng-mubei II, 1138 n.57: B'
         - 'w.peng-zhen-nianpu-1902 IV, 91: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1791: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:li-fuchun, name:li-xiannian, name:tan-zhenlin, name:bo-yibo, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc]
     time_range:
       - 1961-01-09T04:00Z
@@ -3100,7 +3185,7 @@ entries:
     thread: china-leadership
     also: [laos]
     c: The Huairen Tang, evening. Mao's meeting of the Standing Committee and the heads of the Ninth Plenum's groups on the plenum's order; Zhou Enlai on his visit to Burma and on Laos.
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 12, 1961. [[w.zhou-enlai-nianpu-1949]], II, 384, Jan. 12, 1961 (Zhou''s report on Burma and Laos). [[w.deng-xiaoping-nianpu-1904]], III, 1611 (Jan. 12, 1961; evening; Deng at Mao''s meeting of the Standing Committee and the plenum''s group heads; Zhou on Burma and Laos); [[w.peng-zhen-nianpu-1902]], IV, 91 (Jan. 12, 1961, evening; Peng Zhen at Mao''s meeting of the Standing Committee and the plenum''s group heads on the plenum''s arrangements, hearing Zhou on his visit to Burma and on Laos). Made public: 1997. Names: Mao Zedong, Zhou Enlai, Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Li Xuefeng, Liu Lantao, Tao Zhu, Song Renqiong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 12, 1961. [[w.zhou-enlai-nianpu-1949]], II, 384, Jan. 12, 1961 (Zhou''s report on Burma and Laos). [[w.deng-xiaoping-nianpu-1904]], III, 1611 (Jan. 12, 1961; evening; Deng at Mao''s meeting of the Standing Committee and the plenum''s group heads; Zhou on Burma and Laos); [[w.peng-zhen-nianpu-1902]], IV, 91 (Jan. 12, 1961, evening; Peng Zhen at Mao''s meeting of the Standing Committee and the plenum''s group heads on the plenum''s arrangements, hearing Zhou on his visit to Burma and on Laos); [[w.zhu-de-nianpu-xinbian]], III, 1792 (Jan. 12, 1961, evening; Zhu De 朱德 at the Politburo Standing Committee 中共中央政治局常委 meeting on the arrangements for the Ninth Plenum, hearing Zhou Enlai 周恩来 on the visit to Burma). Made public: 1997. Names: Mao Zedong, Zhou Enlai, Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Li Xuefeng, Liu Lantao, Tao Zhu, Song Renqiong.'
     src:
       c: 32a5bae6
       rows:
@@ -3108,6 +3193,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 384, Jan. 12, 1961: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1611: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 91: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1792: ?'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:liu-shaoqi, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc]
     time_range:
       - 1961-01-12T11:00Z
@@ -3121,13 +3207,14 @@ entries:
     thread: china-leadership
     also: [laos, china]
     c: Zhou Enlai back in Peking.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 384 (Jan. 12, 1961); [[w.zhou-enlai-waijiao-huodong]], 301 (Jan. 12, 1961; 中午, 乘专机回到北京); [[w.yang-shangkun-riji]], I, 643 (Jan. 12, 1961; Zhou back that day, as Yang hears it; the plenum now to begin the 14th). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 384 (Jan. 12, 1961); [[w.zhou-enlai-waijiao-huodong]], 301 (Jan. 12, 1961; 中午, 乘专机回到北京); [[w.yang-shangkun-riji]], I, 643 (Jan. 12, 1961; Zhou back that day, as Yang hears it; the plenum now to begin the 14th); [[w.zhu-de-nianpu-xinbian]], III, 1791 (Jan. 12, 1961; Zhu De 朱德, with Chen Yun 陈云, Deng Xiaoping 邓小平 and others, at the airport to welcome Zhou Enlai 周恩来 and the government delegation back from Burma). Made public: 1993. Names: Zhou Enlai.'
     src:
       c: d26914a6
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 384: ?'
         - 'w.zhou-enlai-waijiao-huodong 301: A'
         - 'w.yang-shangkun-riji I, 643: A'
+        - 'w.zhu-de-nianpu-xinbian III, 1791: ?'
     tags: [polity:prc, polity:burma, name:zhou-enlai, vis:only:prc]
     time_range:
       - 1961-01-12T04:00Z
@@ -3204,6 +3291,24 @@ entries:
       - 1961-01-12T15:30Z
     time_band: evening
     time_zone: Asia/Yangon
+  - id: cal.1961-01-12.laos-2
+    when: Jan. 12
+    date: '1961-01-12'
+    thread: laos
+    c: Pathet Lao and North Vietnamese forces take Tha Vieng, a southern gateway of Xieng Khouang.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176.'
+    tags: [polity:pathet-lao, polity:drv, ok:fields-place]
+  - id: cal.1961-01-12.vietnam-hanoi
+    when: Jan. 12
+    date: '1961-01-12'
+    thread: vietnam-hanoi
+    also: [soviet-union]
+    c: VNA carries the Lao Động Central Committee's resolution on the Moscow conference.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 181 n.7. To check: The Lao Động Central Committee''s resolution on the Moscow conference, VNA, Jan. 12, 1961, SWB/FE/539/A2/2-6 (cited by [[w.guan-vietnamese-communists-relations-with]], 181 n.7b). See [[cal.1960-12-30.vietnam-hanoi]].'
+    src:
+      rows:
+        - 'via x.1961-01-12.vna-lao-dong-resolution-moscow-conference: ?'
+    tags: [polity:drv, ok:fields-place]
   - id: cal.1961-01-13.desegregation-schools-uga
     when: Jan. 13–16
     date: '1961-01-13'
@@ -3314,7 +3419,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'The Huairen Tang. Mao closes the Central Work Conference: "make investigation and study the fashion"; each leader to study a brigade or two, a commune, a factory; "clear facts, great resolve, right methods"; "go bankrupt to pay the debts": the laborer never expropriated; building cut, no new works this year; socialism not to be built in such haste.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 13, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 13 (Mao on investigation); [[w.yang-shangkun-riji]], I, 643 (Jan. 13, 1961; the work conference ends; Mao speaks at 11 a.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1611–1612 (Jan. 13, 1961; morning; Deng at the closing plenary; on Mao''s remarks on productivity Deng interjects: big, middle and small together; small first, but in the long run the middle road, the stress on the middle); [[w.mao-zedong-zhuan]], V, ch. 67 n.8 (Jan. 13: Mao closes the conference on investigation and research: the facts clear, the resolve great, the methods right; "a year of seeking truth from facts"; each leader to take a team or two for a survey). [[w.peng-zhen-nianpu-1902]], IV, 91 (Jan. 13, 1961, morning; Peng Zhen at the plenary hearing Mao on investigation and seeking truth from facts; when Mao says industry should seek quality, specifications and variety, not quantity, Peng interjects: productivity low for three reasons, too many non-productive staff, too many trainees and apprentices, the low technique of the "small native and foreign groups"). Made public: 2013. Check: Yang Shangkun''s diary has Mao speak at 11 a.m. ([[w.yang-shangkun-riji]], I, 643); and the conference resumes Jan. 19 (I, 644). Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], I, 643) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 67), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.xin-zhongguo-biannianshi-1949]], 182 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.16); [[w.mao-zedong-sixiang-wan]], xia, 323–24 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.17); Mao Zedong 毛泽东, speech closing the Central Work Conference 中央工作会议, Jan. 13, 1961; in [[w.mao-zedong-wenji]], VIII, 233–234, 237 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.8). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 13, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 13 (Mao on investigation); [[w.yang-shangkun-riji]], I, 643 (Jan. 13, 1961; the work conference ends; Mao speaks at 11 a.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1611–1612 (Jan. 13, 1961; morning; Deng at the closing plenary; on Mao''s remarks on productivity Deng interjects: big, middle and small together; small first, but in the long run the middle road, the stress on the middle); [[w.mao-zedong-zhuan]], V, ch. 67 n.8 (Jan. 13: Mao closes the conference on investigation and research: the facts clear, the resolve great, the methods right; "a year of seeking truth from facts"; each leader to take a team or two for a survey). [[w.peng-zhen-nianpu-1902]], IV, 91 (Jan. 13, 1961, morning; Peng Zhen at the plenary hearing Mao on investigation and seeking truth from facts; when Mao says industry should seek quality, specifications and variety, not quantity, Peng interjects: productivity low for three reasons, too many non-productive staff, too many trainees and apprentices, the low technique of the "small native and foreign groups"); [[w.zhu-de-nianpu-xinbian]], III, 1790 (Jan. 13, 1961; Zhu De 朱德 speaks to the plenary session: a good meeting, the state of the villages and of agriculture, light and heavy industry seen to the bottom; we said agriculture, light, heavy but did heavy, light, agriculture; light industry and handicrafts to be developed; less building of steel, more investment in light industry, as a long-term line; light industry''s goods, not farm and sideline products, to be the main exports). Made public: 2013. Check: Yang Shangkun''s diary has Mao speak at 11 a.m. ([[w.yang-shangkun-riji]], I, 643); and the conference resumes Jan. 19 (I, 644). Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], I, 643) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 67), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.xin-zhongguo-biannianshi-1949]], 182 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.16); [[w.mao-zedong-sixiang-wan]], xia, 323–24 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.17); Mao Zedong 毛泽东, speech closing the Central Work Conference 中央工作会议, Jan. 13, 1961; in [[w.mao-zedong-wenji]], VIII, 233–234, 237 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.8). Names: Mao Zedong.'
     src:
       c: 2561d342
       rows:
@@ -3327,6 +3432,7 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 67 n.8: B-D'
         - 'via w.mao-zedong-zhuan V, ch.67 n.8: B-D'
         - 'w.peng-zhen-nianpu-1902 IV, 91: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1790: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
     time_range:
       - 1961-01-12T22:00Z
@@ -3339,8 +3445,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai presides at a meeting on foreign work.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 384 (Jan. 13, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 384 (Jan. 13, 1961); [[w.zhu-de-nianpu-xinbian]], III, 1792 (Jan. 13, 1961; Zhu De 朱德 at the meeting on foreign affairs work 外事工作会议, Liu Shaoqi 刘少奇 presiding). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.zhu-de-nianpu-xinbian
+        reads: Liu Shaoqi presides at the meeting on foreign affairs work; Zhu De there
+        at: III, 1792
   - id: cal.1961-01-13.china-leadership-3
     when: Jan. 13
     date: '1961-01-13'
@@ -3421,6 +3532,27 @@ entries:
       - 1961-01-13T15:30Z
     time_band: evening
     time_zone: Asia/Yangon
+  - id: cal.1961-01-13.laos-2
+    when: Jan. 13
+    date: '1961-01-13'
+    thread: laos
+    c: 'The British Prime Minister''s reply: the proposal to be seriously weighed, but the fighting to be stopped first; Britain prefers the Commission reactivated at once, a conference after if still needed.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 175. Names: Macmillan.'
+    tags: [polity:uk, name:macmillan-harold, ok:fields-place]
+  - id: cal.1961-01-13.china-leadership-9
+    when: Jan. 13
+    date: '1961-01-13'
+    place: wuhan
+    thread: china-leadership
+    also: [china]
+    c: 'As a Hubei 湖北 report has it: in the Wuhan 武汉 region just over half of the 37,000 hectares available are tilled.'
+    n: '[[w.dikotter-maos-great-famine]], 136. Made public: 2010. To check: Hubei Provincial Archives, Jan. 13, 1961, SZ18-2-200, p. 27 (cited by [[w.dikotter-maos-great-famine]], 136 n.24).'
+    src:
+      c: 7b9cc83b
+      rows:
+        - 'w.dikotter-maos-great-famine 136: all'
+        - 'via w.dikotter-maos-great-famine 136 n.24: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1961-01-14.economy
     when: Jan. 14
     date: '1961-01-14'
@@ -3477,7 +3609,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Huairen Tang. The Ninth Plenum of the Eighth Central Committee, Mao presiding. Deng Xiaoping on the Moscow conference: the delegation approved, the Statement and the Appeal endorsed. Li Fuchun on the plans for 1960 and 1961; Chen Yun on steel and grain. Agriculture first; building cut; "adjust, consolidate, fill out, raise"; rural markets revived; rectification by stages; six regional bureaus of the Center set up.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 14, 1961 (the entry for Jan. 14–18). [[w.zhou-enlai-nianpu-1949]], II, 384–85, Jan. 14–18, 1961 (Zhou present; the plenum''s decisions). [[w.lengxi-shinian-lunzhan-1956-1966]], 442–445 (the plenum on Deng''s report on the Moscow meeting: the meeting the largest, longest, fiercest yet, its result fairly good; the open argument from TASS''s statement of Sept. 9, 1959 to the meeting, fifteen months; the CPSU''s means, cold treatment, watching, pressure, siege, fatigue, and its two trumps, pressure and the majority; Deng''s four gains: a good statement, the lid off, the Marxist-Leninist ranks tempered, consultation to agreement set up between the parties; Wu has the plenum decide to put its strength into home adjustment from 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 13–17, 19–21 (the plenum: Mao''s speech; Li Fuchun''s opinions on the 1961 plan; Deng Xiaoping''s report and the resolution on the Moscow conference; the six regional bureaux); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 502 (Jan. 14–18, 1961; Liu attends the Ninth Plenum: the 1960 plan''s fulfillment and the 1961 plan''s main targets; agriculture as the base and big grain; the capital construction line shortened, heavy industry''s pace somewhat lowered; "adjust, consolidate, fill out, raise" adopted; the Twelve Articles and the rectification of the communes to go deep; Mao on a great wind of investigation and study); [[w.yang-shangkun-riji]], I, 643 (Jan. 14–15, 1961; opened 4 p.m. Jan. 14, Deng Xiaoping and Li Fuchun reporting; note 1: Deng on the Moscow meeting of the parties of Nov. 1960, Li on the 1960 plan''s execution and the 1961 plan''s chief targets; Jan. 15 the groups on the two reports); [[w.deng-xiaoping-nianpu-1904]], III, 1612–1613 (Jan. 14–18, 1961; Deng attends; his report on the Moscow meeting and Li Fuchun''s on the 1960 plan and the 1961 targets adopted; "readjustment, consolidation, filling out and raising standards"; agriculture the base; capital construction cut; the twelve articles carried through; the six regional bureaus approved. Deng''s report, the 14th: the meeting unprecedented in size, length and sharpness; the paper on the whole good and revolutionary; the lid lifted; "unanimity through consultation" established; the struggle paused, not ended); [[w.mao-zedong-zhuan]], V, ch. 67 (Jan. 14–18, the Ninth Plenum at Peking: Deng Xiaoping''s report on the Moscow conference, endorsed; Li Fuchun on the plan of 1960 and the main figures of 1961). [[w.yang-jisheng-mubei]], II, 1173 (the Ninth Plenum of the Eighth Central Committee, Jan. 14–18, 1961, in Peking: "adjust, consolidate, fill out, raise"; the real adjustment begins in the second half of 1961); [[w.dikotter-maos-great-famine]], 122 n.22 (Li Fuchun at the plenum, in the Hunan file of Zhongfa [61] 52: the shortages explained as a socialist economy not developing in a straight line, the Soviet Union too having had falls in grain output); [[w.yang-jisheng-mubei]], II, 1032 (the Ninth Plenum in mid-Jan. announces the policy of adjusting, consolidating, filling out and raising to the whole Party and country, with building cut and the pace adjusted, "on the basis of victories already won"); [[w.yang-jisheng-tiandi-fanfu]], I, 63 (the Ninth Plenum adopts the policy of "adjustment, consolidation, filling out and raising standards"); [[w.peng-zhen-nianpu-1902]], IV, 91–92 (Jan. 14–18, 1961; Peng Zhen attends; Deng''s report on the Moscow meeting adopted; Li Fuchun''s report on the 1960 plan and the main 1961 targets; the eight-character line, "adjust, consolidate, fill out, raise"; capital construction cut, heavy industry slowed, agriculture strengthened; the twelve-article letter carried out; the six regional bureaus (so the page''s note) approved; on the 18th Mao calls for investigation, 1961 a year of investigation; Liu Shaoqi on the Moscow meeting, Chen Yun on markets and grain); [[w.friedman-shadow-cold-war]], 62 (the Ninth Plenum, Jan. 14–18, 1961: the end of the Great Leap Forward, "agriculture as base"). Made public: 1996. Check: MacFarquhar has Li Fuchun give his opinions on the first day. Check: Yang Shangkun''s diary has the plenum open at 4 p.m. Jan. 14 ([[w.yang-shangkun-riji]], I, 643); a time field. To check: [[w.bank-china]], 71 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.18a); [[w.mao-zedong-sixiang-wan]], 258–59, 265–66 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.36a); [[w.xuexi-lishi-jueyi-zhuanji]], 121 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.36b); [[w.selections-from-china-mainland]], No. 633, 18 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37b); [[w.dangshi-yanjiu]], 21–33 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37d); [[w.xiaozu-huainian-zhou-enlai]], 38 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37e); [[w.dangdai-zhongguo-jingji]], 353–61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37f); [[w.peking-review]], No. 4, 1961, 7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40a); [[w.history-of-the-chinese]], 286 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40b); [[w.renqiong-song-renqiong-huiyilu]], 361–62 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40c); [[w.schurmann-ideology-and-organization-in]], 147–49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40d); [[w.teiwes-politics-at-maos-court]], passim (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40e); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 434–45 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 17 n.45); [[w.zhongguo-nongye-nianjian-1980]], 34–35 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 17 n.49c); [[w.lardy-chen-yuns-strategy-for]], 174 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 19 n.53); [[w.sino-soviet-dispute]], 207–21, 33–34, 206–207 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 21 n.57b); [[w.zagoria-sino-soviet-conflict-1956]], 367–69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 21 n.57c); [[w.gittings-survey-of-the-sino]], 144–53 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 21 n.57d); Li Fuchun, speech of Jan. 14, 1961, to the Ninth Plenum on the 1961 plan (not published) (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 19 n.55); Deng Xiaoping, report to the Ninth Plenum on the Moscow meeting of the communist and workers'' parties, Jan. 14, 1961 (cited by [[w.yang-shangkun-riji]], I, 643 n.1a); Li Fuchun, speech of Jan. 14, 1961, to the Ninth Plenum on the 1961 plan (not published) (cited by [[w.yang-shangkun-riji]], I, 643 n.1b); Li Fuchun, speech at the Ninth Plenum of the Eighth Central Committee, Jan. 14, 1961 (Zhongfa [61] 52), Hunan Provincial Archives, 186-1-505, pp. 1–28 (cited by [[w.dikotter-maos-great-famine]], 122 n.22); Kenneth Lieberthal, “The Great Leap Forward and the Split in the Yan’an leadership, 1958–1965,” in The Politics of China, ed. Roderick Macfarquhar, 114 (cited by [[w.friedman-shadow-cold-war]], 62 n.4). Names: Mao Zedong, Deng Xiaoping, Li Fuchun, Chen Yun, Liu Shaoqi. Check: the communique as printed, *Renmin ribao*, Jan. 21, 1961; the plenum itself secret until then.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 14, 1961 (the entry for Jan. 14–18). [[w.zhou-enlai-nianpu-1949]], II, 384–85, Jan. 14–18, 1961 (Zhou present; the plenum''s decisions). [[w.lengxi-shinian-lunzhan-1956-1966]], 442–445 (the plenum on Deng''s report on the Moscow meeting: the meeting the largest, longest, fiercest yet, its result fairly good; the open argument from TASS''s statement of Sept. 9, 1959 to the meeting, fifteen months; the CPSU''s means, cold treatment, watching, pressure, siege, fatigue, and its two trumps, pressure and the majority; Deng''s four gains: a good statement, the lid off, the Marxist-Leninist ranks tempered, consultation to agreement set up between the parties; Wu has the plenum decide to put its strength into home adjustment from 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 13–17, 19–21 (the plenum: Mao''s speech; Li Fuchun''s opinions on the 1961 plan; Deng Xiaoping''s report and the resolution on the Moscow conference; the six regional bureaux); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 502 (Jan. 14–18, 1961; Liu attends the Ninth Plenum: the 1960 plan''s fulfillment and the 1961 plan''s main targets; agriculture as the base and big grain; the capital construction line shortened, heavy industry''s pace somewhat lowered; "adjust, consolidate, fill out, raise" adopted; the Twelve Articles and the rectification of the communes to go deep; Mao on a great wind of investigation and study); [[w.yang-shangkun-riji]], I, 643 (Jan. 14–15, 1961; opened 4 p.m. Jan. 14, Deng Xiaoping and Li Fuchun reporting; note 1: Deng on the Moscow meeting of the parties of Nov. 1960, Li on the 1960 plan''s execution and the 1961 plan''s chief targets; Jan. 15 the groups on the two reports); [[w.deng-xiaoping-nianpu-1904]], III, 1612–1613 (Jan. 14–18, 1961; Deng attends; his report on the Moscow meeting and Li Fuchun''s on the 1960 plan and the 1961 targets adopted; "readjustment, consolidation, filling out and raising standards"; agriculture the base; capital construction cut; the twelve articles carried through; the six regional bureaus approved. Deng''s report, the 14th: the meeting unprecedented in size, length and sharpness; the paper on the whole good and revolutionary; the lid lifted; "unanimity through consultation" established; the struggle paused, not ended); [[w.mao-zedong-zhuan]], V, ch. 67 (Jan. 14–18, the Ninth Plenum at Peking: Deng Xiaoping''s report on the Moscow conference, endorsed; Li Fuchun on the plan of 1960 and the main figures of 1961). [[w.yang-jisheng-mubei]], II, 1173 (the Ninth Plenum of the Eighth Central Committee, Jan. 14–18, 1961, in Peking: "adjust, consolidate, fill out, raise"; the real adjustment begins in the second half of 1961); [[w.dikotter-maos-great-famine]], 122 n.22 (Li Fuchun at the plenum, in the Hunan file of Zhongfa [61] 52: the shortages explained as a socialist economy not developing in a straight line, the Soviet Union too having had falls in grain output); [[w.yang-jisheng-mubei]], II, 1032 (the Ninth Plenum in mid-Jan. announces the policy of adjusting, consolidating, filling out and raising to the whole Party and country, with building cut and the pace adjusted, "on the basis of victories already won"); [[w.yang-jisheng-tiandi-fanfu]], I, 63 (the Ninth Plenum adopts the policy of "adjustment, consolidation, filling out and raising standards"); [[w.peng-zhen-nianpu-1902]], IV, 91–92 (Jan. 14–18, 1961; Peng Zhen attends; Deng''s report on the Moscow meeting adopted; Li Fuchun''s report on the 1960 plan and the main 1961 targets; the eight-character line, "adjust, consolidate, fill out, raise"; capital construction cut, heavy industry slowed, agriculture strengthened; the twelve-article letter carried out; the six regional bureaus (so the page''s note) approved; on the 18th Mao calls for investigation, 1961 a year of investigation; Liu Shaoqi on the Moscow meeting, Chen Yun on markets and grain); [[w.friedman-shadow-cold-war]], 62 (the Ninth Plenum, Jan. 14–18, 1961: the end of the Great Leap Forward, "agriculture as base"); [[w.zhu-de-nianpu-xinbian]], III, 1792 (Jan. 14–18, 1961; Zhu De 朱德 at the Ninth Plenum of the Eighth Central Committee 中共八届九中全会, the Huairen Tang 怀仁堂, Zhongnanhai 中南海: the line of "readjustment, consolidation, filling out and raising standards" 调整、巩固、充实、提高; the plan in the order agriculture, light industry, heavy industry; Deng Xiaoping''s report on the Moscow conference and Li Fuchun''s on the 1960 plan and the main targets of 1961; the "Twelve Articles" to be carried through in the villages). Made public: 1996. Check: MacFarquhar has Li Fuchun give his opinions on the first day. Check: Yang Shangkun''s diary has the plenum open at 4 p.m. Jan. 14 ([[w.yang-shangkun-riji]], I, 643); a time field. To check: [[w.bank-china]], 71 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.18a); [[w.mao-zedong-sixiang-wan]], 258–59, 265–66 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.36a); [[w.xuexi-lishi-jueyi-zhuanji]], 121 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.36b); [[w.selections-from-china-mainland]], No. 633, 18 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37b); [[w.dangshi-yanjiu]], 21–33 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37d); [[w.xiaozu-huainian-zhou-enlai]], 38 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37e); [[w.dangdai-zhongguo-jingji]], 353–61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37f); [[w.peking-review]], No. 4, 1961, 7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40a); [[w.history-of-the-chinese]], 286 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40b); [[w.renqiong-song-renqiong-huiyilu]], 361–62 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40c); [[w.schurmann-ideology-and-organization-in]], 147–49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40d); [[w.teiwes-politics-at-maos-court]], passim (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40e); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 434–45 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 17 n.45); [[w.zhongguo-nongye-nianjian-1980]], 34–35 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 17 n.49c); [[w.lardy-chen-yuns-strategy-for]], 174 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 19 n.53); [[w.sino-soviet-dispute]], 207–21, 33–34, 206–207 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 21 n.57b); [[w.zagoria-sino-soviet-conflict-1956]], 367–69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 21 n.57c); [[w.gittings-survey-of-the-sino]], 144–53 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 21 n.57d); Li Fuchun, speech of Jan. 14, 1961, to the Ninth Plenum on the 1961 plan (not published) (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 19 n.55); Deng Xiaoping, report to the Ninth Plenum on the Moscow meeting of the communist and workers'' parties, Jan. 14, 1961 (cited by [[w.yang-shangkun-riji]], I, 643 n.1a); Li Fuchun, speech of Jan. 14, 1961, to the Ninth Plenum on the 1961 plan (not published) (cited by [[w.yang-shangkun-riji]], I, 643 n.1b); Li Fuchun, speech at the Ninth Plenum of the Eighth Central Committee, Jan. 14, 1961 (Zhongfa [61] 52), Hunan Provincial Archives, 186-1-505, pp. 1–28 (cited by [[w.dikotter-maos-great-famine]], 122 n.22); Kenneth Lieberthal, “The Great Leap Forward and the Split in the Yan’an leadership, 1958–1965,” in The Politics of China, ed. Roderick Macfarquhar, 114 (cited by [[w.friedman-shadow-cold-war]], 62 n.4). Names: Mao Zedong, Deng Xiaoping, Li Fuchun, Chen Yun, Liu Shaoqi. Check: the communique as printed, *Renmin ribao*, Jan. 21, 1961; the plenum itself secret until then.'
     src:
       c: 104ea280
       rows:
@@ -3531,6 +3663,7 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 91–92: ?'
         - 'w.friedman-shadow-cold-war 62: ?'
         - 'via x.undated.kenneth-lieberthal-great-leap-forward-split-yanan: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1792: ?'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:li-fuchun, name:chen-yun, name:liu-shaoqi, vis:only:prc]
     variants:
       - unit: C
@@ -3543,13 +3676,14 @@ entries:
     thread: china-leadership
     also: [laos]
     c: 'Zhou Enlai to Sihanouk, by letter: China supports his proposal of a widened Geneva conference to settle the Laotian question.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 384 (Jan. 14, 1961); [[w.zhou-enlai-waijiao-huodong]], 301 (Jan. 14, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 182 (Jan. 14, 1961; Zhou''s reply to Sihanouk, agreeing to the proposal to convene an enlarged Geneva conference to preserve the Geneva agreements and restore peace in Laos). Made public: 1993. Names: Zhou Enlai, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 384 (Jan. 14, 1961); [[w.zhou-enlai-waijiao-huodong]], 301 (Jan. 14, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 182 (Jan. 14, 1961; Zhou''s reply to Sihanouk, agreeing to the proposal to convene an enlarged Geneva conference to preserve the Geneva agreements and restore peace in Laos); [[w.guan-vietnamese-communists-relations-with]], 175 (Jan. 15, answering Sihanouk''s letter of Jan. 1: an enlarged conference urgently). Made public: 1993. Check: the day: Jan. 15 by [[w.guan-vietnamese-communists-relations-with]], 175. Names: Zhou Enlai, Sihanouk.'
     src:
       c: 491f0d8c
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 384: ?'
         - 'w.zhou-enlai-waijiao-huodong 301: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 182: A'
+        - 'w.guan-vietnamese-communists-relations-with 175: ?'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, vis:only:prc+cambodia]
   - id: cal.1961-01-14.china-leadership-4
     when: Jan. 14
@@ -3557,12 +3691,13 @@ entries:
     thread: china-leadership
     also: [china, laos]
     c: Zhou Enlai writes to Souvanna Phouma, Prince and Prime Minister of Laos, supporting his proposal of an international conference to settle the Laos question; it is in spirit one with Sihanouk's Jan. 1 proposal of an enlarged Geneva conference. China welcomes and supports every proposal to stop American aggression in Laos and the wrecking of the Geneva agreements.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 302 (Jan. 14, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 182–183 (Jan. 14, 1961; Zhou''s reply to Souvanna Phouma, backing his proposal for an international conference on Laos; China has always welcomed and supported every move to stop U.S. aggression in Laos and its wrecking of the Geneva agreement). Made public: 1993. Names: Zhou Enlai, Souvanna Phouma, Sihanouk.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 302 (Jan. 14, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 182–183 (Jan. 14, 1961; Zhou''s reply to Souvanna Phouma, backing his proposal for an international conference on Laos; China has always welcomed and supported every move to stop U.S. aggression in Laos and its wrecking of the Geneva agreement); [[w.guan-vietnamese-communists-relations-with]], 175 (replying to Souvanna Phouma''s letter of Dec. 30 and Phạm Văn Đồng''s telegram of Jan. 4; American aggression condemned, a new conference supported). Made public: 1993. To check: NCNA, 17 January 1961, SWB/FE/543/B/3 (cited by [[w.guan-vietnamese-communists-relations-with]], 175 n.102). Names: Zhou Enlai, Souvanna Phouma, Sihanouk.'
     src:
       c: 5b43e157
       rows:
         - 'w.zhou-enlai-waijiao-huodong 302: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 182–183: A, C'
+        - 'w.guan-vietnamese-communists-relations-with 175: ?'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma, name:norodom-sihanouk, vis:only:prc+laos]
   - id: cal.1961-01-14.china-leadership-5
     when: Jan. 14
@@ -3791,6 +3926,33 @@ entries:
         - 'w.friedman-shadow-cold-war 64: all'
         - 'via x.1961-01-15.zhu-ziqi-prc-representative-aapso-secretariat-liaison: ?'
     tags: [polity:prc, polity:ussr, vis:only:prc, ok:fields-place]
+  - id: cal.1961-01-15.china
+    when: Jan. 15
+    date: '1961-01-15'
+    place: hunan
+    thread: china
+    c: 'As a Hunan 湖南 report has it: in the winter of 1960–61 gambling is rife in the province, some players losing their trousers.'
+    n: '[[w.dikotter-maos-great-famine]], 204. To check: Hunan Provincial Archives, Jan. 15, 1961, 146-1-580, p. 15 (cited by [[w.dikotter-maos-great-famine]], 204 n.31).'
+    src:
+      c: 27799e34
+      rows:
+        - 'w.dikotter-maos-great-famine 204: all'
+        - 'via w.dikotter-maos-great-famine 204 n.31: all'
+    tags: [form:state, polity:prc]
+  - id: cal.1961-01-15.china-leadership-8
+    when: Jan. 15
+    date: '1961-01-15'
+    place: hunan
+    thread: china-leadership
+    also: [china]
+    c: 'As a Hunan 湖南 report has it: 600,000 pigs die in the province in December 1960 alone.'
+    n: '[[w.dikotter-maos-great-famine]], 141. Made public: 2010. To check: Hunan Provincial Archives, Jan. 15, 1961, 146-1-580, p. 13 (cited by [[w.dikotter-maos-great-famine]], 141 n.55). See [[cal.1961-01-15.china]].'
+    src:
+      c: fc595b39
+      rows:
+        - 'w.dikotter-maos-great-famine 141: all'
+        - 'via w.dikotter-maos-great-famine 141 n.55: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1961-01-16.economy
     when: Jan. 16
     date: '1961-01-16'
@@ -4066,13 +4228,14 @@ entries:
     date: '1961-01-17'
     thread: vietnam
     c: 'Lansdale to Gates, on his trip: Vietnam "in a critical condition," to be treated "as a combat area of the cold war, as an area requiring emergency treatment." Unless the Vietnamese mobilize and Washington reorients its support, "the free Vietnamese and their government probably will be able to do no more than postpone eventual defeat."'
-    n: '[FRUS 1961–63, I, doc. 2](https://history.state.gov/historicaldocuments/frus1961-63v01/d2) (editorial note, quoting the first). [[w.marolda-united-states-navy-and]], 98–99 (the second, "postpone eventual defeat"). To check: [[w.united-states-vietnam-relations]], bk. 11, 1–12 (the memorandum, as FRUS cites it). See [[cal.1961-01-02.vietnam]]. Names: Lansdale, Gates.'
+    n: '[FRUS 1961–63, I, doc. 2](https://history.state.gov/historicaldocuments/frus1961-63v01/d2) (editorial note, quoting the first). [[w.marolda-united-states-navy-and]], 98–99 (the second, "postpone eventual defeat"); [[w.guan-vietnamese-communists-relations-with]], 180–181 (the Communists much farther along than he had understood in Washington: much of the 1st and 5th Military Regions theirs; the richest areas infiltrated and held but the corridors Diệm''s forces guard; the region from the High Plateau foothills north of Saigon to the Gulf of Siam; only Saigon–Cholon not theirs). To check: [[w.united-states-vietnam-relations]], bk. 11, 1–12 (the memorandum, as FRUS cites it). See [[cal.1961-01-02.vietnam]]. Names: Lansdale, Gates.'
     src:
       c: 450be825
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d2: A'
         - 'w.marolda-united-states-navy-and 98–99: A-B'
         - 'via w.marolda-united-states-navy-and 99 n.29: A-B'
+        - 'w.guan-vietnamese-communists-relations-with 180–181: ?'
     tags: [name:lansdale-edward-g, name:gates-thomas-s-jr]
   - id: cal.1961-01-17.china-leadership
     when: Jan. 17
@@ -4381,7 +4544,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'The Huairen Tang, the Ninth Plenum''s last session; Mao speaks. Too little investigation; the "communist wind" not known; Lushan''s fight on the right broke the fight on the left; last year the center''s leaders were absorbed abroad. One account only; equal exchange, pay by work; repay the "communist wind." Steel to stay at 18.45 million tons (Ye Jianying''s and Li Weihan''s view): quality now, not quantity. "On the economy we lack experience"; can it be learned in twenty years, not twenty-eight?'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 18, 1961. [[w.lengxi-shinian-lunzhan-1956-1966]], 445–448 (Liu Shaoqi''s speech of Jan. 18 on the Moscow conference, as Wu summarizes it: Mao rightly kept out and made Liu head, in the second line, not arguing openly with Khrushchev; his seniority from Moscow in 1921 counted a little; the Soviets looked strong and were weak at heart: the letter of Nov. 5, then the call of Nov. 9 to say it had nothing to do with the conference; after *Long Live Leninism* they had to grant imperialism unchanged, to seize on the 1957 Declaration, to write in anti-imperialism and support of national liberation, and to sign a statement for unity; Mikoyan and Kozlov came Nov. 26, after Hồ''s petition, to feel China out with the lure of restored aid; Hồ''s invitation of the 28th to meet Khrushchev refused; the Soviets had asked Liu to visit from fear of a split; the struggle may ease: lengthen it, put the strength into home work, start no debate, study basic theory, Stalin''s among it; Mao interjects: not afraid to print their pieces or of a split, only trade would stop; be ready for cultural and economic ties cut, diplomatic ones alone; Liu: the struggle to rise and fall ten years at least; some parties new Social Democrats; capitalism can come back where there is revisionism, as Mao has said; *Pravda* cut the Irkutsk passage); [[w.lengxi-shinian-lunzhan-1956-1966]], 448–449 (Chen Yun at the plenum''s close, mainly on planning and agriculture, also on the Moscow conference: a success, the delegation''s work good; revisionism abroad no wonder; right to fight it, or owe history as a communist; the struggle bears long on the fate of the world''s peoples); [[w.lengxi-shinian-lunzhan-1956-1966]], 449–451 (Mao''s long speech before the plenum closed on the 18th: of the international matter, the Center investigated well and so was resolute; Khrushchev rushed to Bucharest and to the decision sent down to the branches, fearing the three articles; he called them and Deng''s speech ("Nov. 10") China''s factional programme; the 81-party meeting a great success; unity now, even with parties that cursed China; no struggle now, last year''s was needed; Marxism-Leninism to be made concrete in each country, as trunk and branches); [[w.macfarquhar-origins-of-the-cultural]], III, 15–16 (Mao''s speech on the final day); [[w.yang-shangkun-riji]], I, 644 (Jan. 18, 1961; the closing session, 3 to 6 p.m., Yang present; Mao stresses investigation and learning to do construction work; Chen Yun on the market and grain; Liu Shaoqi on the Moscow meeting (note 1: of Nov. 1960)); [[w.deng-xiaoping-nianpu-1904]], III, 1614 (Jan. 18, 1961; Deng at the closing session; Mao asks 1961 to be a year of investigation); [[w.mao-zedong-zhuan]], V, ch. 67 n.9 (Jan. 18: Mao asks that 1961 be a year of investigation, a wind of investigation and research). [[w.peng-zhen-nianpu-1902]], IV, 93 (Jan. 18, 1961; Peng Zhen at the closing session). Made public: 1999. Check: the speakers: Wu (445–449) has Liu Shaoqi and Chen Yun speak on the Moscow conference at the plenum''s close, Jan. 18, as well as Mao. Check: Yang Shangkun''s diary has the closing session from 3 to 6 p.m., with Chen Yun on the market and grain and Liu Shaoqi on the Moscow meeting after Mao ([[w.yang-shangkun-riji]], I, 644); a time field. Check: [[w.dikotter-maos-great-famine]], 118 n.15 (Mao Zedong, speech of Jan. 18, 1961, Gansu Provincial Archives, 91-6-79, p. 4) has Mao surprised that so many counter-revolutionaries held the countryside, seized power at the village level and took cruel class revenge; whether it is this speech. To check: [[w.tse-tung-miscellany-of-mao-tse]], 2, 239 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 15 n.24); [[w.mao-zedong-sixiang-wan]], 263 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 15 n.25b); [[w.mao-zedong-sixiang-yuanli]], 338 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 15 n.25c); [[w.schoenhals-paper-presented-to-the]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 15 n.25d); [[w.selections-from-china-mainland]], No. 633, 18 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37b); [[w.dangshi-yanjiu]], 21–33 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37d); [[w.xiaozu-huainian-zhou-enlai]], 38 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37e); [[w.dangdai-zhongguo-jingji]], 353–61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37f); Mao Zedong 毛泽东, speech at the Ninth Plenum of the Eighth Central Committee 中共八届九中全会, Jan. 18, 1961 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.9). Names: Mao Zedong, Ye Jianying, Li Weihan, Li Fuchun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 18, 1961. [[w.lengxi-shinian-lunzhan-1956-1966]], 445–448 (Liu Shaoqi''s speech of Jan. 18 on the Moscow conference, as Wu summarizes it: Mao rightly kept out and made Liu head, in the second line, not arguing openly with Khrushchev; his seniority from Moscow in 1921 counted a little; the Soviets looked strong and were weak at heart: the letter of Nov. 5, then the call of Nov. 9 to say it had nothing to do with the conference; after *Long Live Leninism* they had to grant imperialism unchanged, to seize on the 1957 Declaration, to write in anti-imperialism and support of national liberation, and to sign a statement for unity; Mikoyan and Kozlov came Nov. 26, after Hồ''s petition, to feel China out with the lure of restored aid; Hồ''s invitation of the 28th to meet Khrushchev refused; the Soviets had asked Liu to visit from fear of a split; the struggle may ease: lengthen it, put the strength into home work, start no debate, study basic theory, Stalin''s among it; Mao interjects: not afraid to print their pieces or of a split, only trade would stop; be ready for cultural and economic ties cut, diplomatic ones alone; Liu: the struggle to rise and fall ten years at least; some parties new Social Democrats; capitalism can come back where there is revisionism, as Mao has said; *Pravda* cut the Irkutsk passage); [[w.lengxi-shinian-lunzhan-1956-1966]], 448–449 (Chen Yun at the plenum''s close, mainly on planning and agriculture, also on the Moscow conference: a success, the delegation''s work good; revisionism abroad no wonder; right to fight it, or owe history as a communist; the struggle bears long on the fate of the world''s peoples); [[w.lengxi-shinian-lunzhan-1956-1966]], 449–451 (Mao''s long speech before the plenum closed on the 18th: of the international matter, the Center investigated well and so was resolute; Khrushchev rushed to Bucharest and to the decision sent down to the branches, fearing the three articles; he called them and Deng''s speech ("Nov. 10") China''s factional programme; the 81-party meeting a great success; unity now, even with parties that cursed China; no struggle now, last year''s was needed; Marxism-Leninism to be made concrete in each country, as trunk and branches); [[w.macfarquhar-origins-of-the-cultural]], III, 15–16 (Mao''s speech on the final day); [[w.yang-shangkun-riji]], I, 644 (Jan. 18, 1961; the closing session, 3 to 6 p.m., Yang present; Mao stresses investigation and learning to do construction work; Chen Yun on the market and grain; Liu Shaoqi on the Moscow meeting (note 1: of Nov. 1960)); [[w.deng-xiaoping-nianpu-1904]], III, 1614 (Jan. 18, 1961; Deng at the closing session; Mao asks 1961 to be a year of investigation); [[w.mao-zedong-zhuan]], V, ch. 67 n.9 (Jan. 18: Mao asks that 1961 be a year of investigation, a wind of investigation and research). [[w.peng-zhen-nianpu-1902]], IV, 93 (Jan. 18, 1961; Peng Zhen at the closing session); [[w.zhu-de-nianpu-xinbian]], III, 1792 (Jan. 18, 1961; Zhu De 朱德 speaks to the plenary session: the plan in the order agriculture, light, heavy, good, to be pressed; farming needs land opened and water works; railways and shipping, backward, to be developed, freeing labor from carrying for farming and light industry. Mao Zedong''s 毛泽东 summing up: investigation and study, start from the facts, 1961 a year of "investigation and study, seeking truth from facts"). Made public: 1999. Check: the speakers: Wu (445–449) has Liu Shaoqi and Chen Yun speak on the Moscow conference at the plenum''s close, Jan. 18, as well as Mao. Check: Yang Shangkun''s diary has the closing session from 3 to 6 p.m., with Chen Yun on the market and grain and Liu Shaoqi on the Moscow meeting after Mao ([[w.yang-shangkun-riji]], I, 644); a time field. Check: [[w.dikotter-maos-great-famine]], 118 n.15 (Mao Zedong, speech of Jan. 18, 1961, Gansu Provincial Archives, 91-6-79, p. 4) has Mao surprised that so many counter-revolutionaries held the countryside, seized power at the village level and took cruel class revenge; whether it is this speech. To check: [[w.tse-tung-miscellany-of-mao-tse]], 2, 239 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 15 n.24); [[w.mao-zedong-sixiang-wan]], 263 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 15 n.25b); [[w.mao-zedong-sixiang-yuanli]], 338 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 15 n.25c); [[w.schoenhals-paper-presented-to-the]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 15 n.25d); [[w.selections-from-china-mainland]], No. 633, 18 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37b); [[w.dangshi-yanjiu]], 21–33 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37d); [[w.xiaozu-huainian-zhou-enlai]], 38 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37e); [[w.dangdai-zhongguo-jingji]], 353–61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37f); Mao Zedong 毛泽东, speech at the Ninth Plenum of the Eighth Central Committee 中共八届九中全会, Jan. 18, 1961 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.9). Names: Mao Zedong, Ye Jianying, Li Weihan, Li Fuchun.'
     src:
       c: 2ffae472
       rows:
@@ -4408,6 +4571,7 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 67 n.9: B-C'
         - 'via w.mao-zedong-zhuan V, ch.67 n.9: B-C'
         - 'w.peng-zhen-nianpu-1902 IV, 93: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1792: ?'
     tags: [polity:prc, name:mao-zedong, name:ye-jianying, name:li-fuchun, vis:only:prc]
   - id: cal.1961-01-18.china-leadership-2
     when: Jan. 18
@@ -4460,6 +4624,13 @@ entries:
         - 'w.yang-jisheng-mubei I, 214: all'
         - 'via w.yang-jisheng-mubei I, 214 n.60: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-01-18.laos-2
+    when: Jan. 18
+    date: '1961-01-18'
+    thread: laos
+    c: Pathet Lao and North Vietnamese forces take Tha Thom, a southern gateway of Xieng Khouang.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176.'
+    tags: [polity:pathet-lao, polity:drv, ok:fields-place]
   - id: cal.1961-01-19.laos
     when: Jan. 19
     date: '1961-01-19'
@@ -4467,7 +4638,7 @@ entries:
     thread: laos
     also: [cuba-bay-of-pigs]
     c: 'Eisenhower–Kennedy transition meeting, the two alone, then with the outgoing and incoming secretaries. Laos called the key to Southeast Asia; accounts of what Eisenhower advised conflict. Cuba: help the anti-Castro guerrillas "to the utmost"; the training in Guatemala continued and accelerated.'
-    n: 'FRUS 1961–63, XXIV, docs. [7](https://history.state.gov/historicaldocuments/frus1961-63v24/d7) (Kennedy''s notes, dictated), [8](https://history.state.gov/historicaldocuments/frus1961-63v24/d8) (Persons), [9](https://history.state.gov/historicaldocuments/frus1961-63v24/d9) (Herter), [11](https://history.state.gov/historicaldocuments/frus1961-63v24/d11) (McNamara''s, Jan. 24: "If Laos is lost ... we will lose all of Southeast Asia"); X, doc. [22](https://history.state.gov/historicaldocuments/frus1961-63v10/d22) (Clifford''s and McNamara''s memoranda, on Cuba). [[w.gibbons-u-s-government-and]], II, 9 (the meeting, Laos at the top of the agenda; Laos the "key to the whole area," by Clifford''s memorandum); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 174, 231 (Laos, by McNamara''s account; the training in Guatemala); [[w.marolda-united-states-navy-and]], 98 (Eisenhower on Laos); [[w.schulimson-joint-chiefs-of-staff]], 29 (the meeting; Laos the key); [[w.clifford-counsel-to-the-president-2]], 342–45 (the meeting with the secretaries in the Cabinet Room; Laos, Herter for intervening alone if need be, a division in twelve to seventeen days by Gates; Cuba, "to the utmost," the training in Guatemala; China, by Clifford''s account); [[w.fursenko-one-hell-of-a]], 77–78 ("To the utmost"); [[w.jones-bay-of-pigs]], 44 (Eisenhower''s recommendation to speed the training); [[w.rusk-as-i-saw-it-1990]], 428 (the meeting; Eisenhower''s advice, by Rusk''s account); [[w.sorensen-kennedy]], 231, 640 (the meeting; Laos); [[w.fursenko-khrushchevs-cold-war]], 336–37 ("It is the cork in the bottle"); [[w.mcnamara-in-retrospect]], ch. 2 at nn.5–9 (the meeting, its emphasis on Laos; the accounts: Clifford''s memorandum, Eisenhower "willing, ''as a last desperate hope, to intervene unilaterally''"; McNamara''s, "President Eisenhower advised against unilateral action by the United States in connection with Laos"). [[w.schlesinger-thousand-days-1965]], 163–64; [[w.moyar-triumph-forsaken]], 125–26 (the meeting; Herter on SEATO and Laos); [[w.poole-joint-chiefs-of-staff]], 124; [[w.reeves-president-kennedy]], 29–33 (the meeting; Laos the "cork in the bottle"; "To the utmost"); [[w.wofford-of-kennedys-and-kings]], 98 (Eisenhower to Kennedy the day before the inauguration: Laos "the key to all Southeast Asia"; Cuba, "helping train anti-Castro forces in Guatemala," aid the guerrillas "to the utmost," the effort "continued and accelerated"); [[w.ball-past-has-another-pattern]], 361 (Eisenhower tells Kennedy "just before the inauguration" that Laos is the key to Southeast Asia, "unbelievable pressure" on Thailand, Cambodia and South Vietnam; "as a last desperate hope, to intervene unilaterally," n.2; not the day or the place); [[w.schlesinger-robert-kennedy-and-his]], 702 (Eisenhower''s pre-inaugural briefing of Kennedy: he ignored Vietnam and called Laos the "present key to the entire area"; by Clark Clifford''s record of the meeting, he would be willing "to intervene unilaterally" if others could not be persuaded to act; not the Cuba talk, those present or the day); [[w.mann-grand-delusion]], 228–29 (the meeting of Jan. 19: Herter, the outgoing Secretary of State, argues the United States duty-bound to intervene if Laos asks under SEATO, "the cork in the bottle"; Eisenhower "felt we should intervene," by Kennedy''s record that day; Clifford, present, recalls Eisenhower willing "as a last desperate hope, to intervene unilaterally"; not the order of the meeting or the Cuba talk); [[w.odonnell-johnny-we-hardly-knew]], 275–76 (the morning briefing at the White House with Eisenhower and the outgoing secretaries; Cuba, Berlin, Africa, the balance of payments and Laos in the Cabinet Room; Eisenhower "urged him to keep on supporting this plan to overthrow Castro" and talked mostly of Laos, American combat troops possibly alone there; not the two alone; the date printed "January 19, 1960" is an error for 1961). Check: Rusk names those with Eisenhower as Kennedy, McNamara, Clifford and himself and gives two pieces of advice: no recognition of Communist China; troops into Laos, "with others if possible, alone if necessary" (428; also 283). To check: [[w.greenstein-what-did-eisenhower-tell]] (compares the five accounts); Clifford to Kennedy, memorandum of the conference of Jan. 19, 1961, on Laos, *U.S.–Vietnam Relations*, bk. 10, 1360–64 (cited by [[w.schulimson-joint-chiefs-of-staff]], 29 n.147); Clifford''s memorandum for Johnson (1969), *Pentagon Papers*, Gravel ed., II, 635–37, and Clifford to Kennedy, Jan. 24, 1961, POF, Kennedy Library (cited by [[w.gibbons-u-s-government-and]], II, 9 n.19). Check: the Taylor report, [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), 578–79 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 174 n.8), read: it gives no account of Jan. 19; its "continuation and accentuation" of the CIA''s activities is the President''s authorization of Jan. 28. See [[cal.1961-01-02.laos]]. Names: Eisenhower.'
+    n: 'FRUS 1961–63, XXIV, docs. [7](https://history.state.gov/historicaldocuments/frus1961-63v24/d7) (Kennedy''s notes, dictated), [8](https://history.state.gov/historicaldocuments/frus1961-63v24/d8) (Persons), [9](https://history.state.gov/historicaldocuments/frus1961-63v24/d9) (Herter), [11](https://history.state.gov/historicaldocuments/frus1961-63v24/d11) (McNamara''s, Jan. 24: "If Laos is lost ... we will lose all of Southeast Asia"); X, doc. [22](https://history.state.gov/historicaldocuments/frus1961-63v10/d22) (Clifford''s and McNamara''s memoranda, on Cuba). [[w.gibbons-u-s-government-and]], II, 9 (the meeting, Laos at the top of the agenda; Laos the "key to the whole area," by Clifford''s memorandum); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 174, 231 (Laos, by McNamara''s account; the training in Guatemala); [[w.marolda-united-states-navy-and]], 98 (Eisenhower on Laos); [[w.schulimson-joint-chiefs-of-staff]], 29 (the meeting; Laos the key); [[w.clifford-counsel-to-the-president-2]], 342–45 (the meeting with the secretaries in the Cabinet Room; Laos, Herter for intervening alone if need be, a division in twelve to seventeen days by Gates; Cuba, "to the utmost," the training in Guatemala; China, by Clifford''s account); [[w.fursenko-one-hell-of-a]], 77–78 ("To the utmost"); [[w.jones-bay-of-pigs]], 44 (Eisenhower''s recommendation to speed the training); [[w.rusk-as-i-saw-it-1990]], 428 (the meeting; Eisenhower''s advice, by Rusk''s account); [[w.sorensen-kennedy]], 231, 640 (the meeting; Laos); [[w.fursenko-khrushchevs-cold-war]], 336–37 ("It is the cork in the bottle"); [[w.mcnamara-in-retrospect]], ch. 2 at nn.5–9 (the meeting, its emphasis on Laos; the accounts: Clifford''s memorandum, Eisenhower "willing, ''as a last desperate hope, to intervene unilaterally''"; McNamara''s, "President Eisenhower advised against unilateral action by the United States in connection with Laos"). [[w.schlesinger-thousand-days-1965]], 163–64; [[w.moyar-triumph-forsaken]], 125–26 (the meeting; Herter on SEATO and Laos); [[w.poole-joint-chiefs-of-staff]], 124; [[w.reeves-president-kennedy]], 29–33 (the meeting; Laos the "cork in the bottle"; "To the utmost"); [[w.wofford-of-kennedys-and-kings]], 98 (Eisenhower to Kennedy the day before the inauguration: Laos "the key to all Southeast Asia"; Cuba, "helping train anti-Castro forces in Guatemala," aid the guerrillas "to the utmost," the effort "continued and accelerated"); [[w.ball-past-has-another-pattern]], 361 (Eisenhower tells Kennedy "just before the inauguration" that Laos is the key to Southeast Asia, "unbelievable pressure" on Thailand, Cambodia and South Vietnam; "as a last desperate hope, to intervene unilaterally," n.2; not the day or the place); [[w.schlesinger-robert-kennedy-and-his]], 702 (Eisenhower''s pre-inaugural briefing of Kennedy: he ignored Vietnam and called Laos the "present key to the entire area"; by Clark Clifford''s record of the meeting, he would be willing "to intervene unilaterally" if others could not be persuaded to act; not the Cuba talk, those present or the day); [[w.mann-grand-delusion]], 228–29 (the meeting of Jan. 19: Herter, the outgoing Secretary of State, argues the United States duty-bound to intervene if Laos asks under SEATO, "the cork in the bottle"; Eisenhower "felt we should intervene," by Kennedy''s record that day; Clifford, present, recalls Eisenhower willing "as a last desperate hope, to intervene unilaterally"; not the order of the meeting or the Cuba talk); [[w.odonnell-johnny-we-hardly-knew]], 275–76 (the morning briefing at the White House with Eisenhower and the outgoing secretaries; Cuba, Berlin, Africa, the balance of payments and Laos in the Cabinet Room; Eisenhower "urged him to keep on supporting this plan to overthrow Castro" and talked mostly of Laos, American combat troops possibly alone there; not the two alone; the date printed "January 19, 1960" is an error for 1961); [[w.guan-vietnamese-communists-relations-with]], 164, 177 (by Eisenhower, some sign that the Soviet Union was concerned at the Communist pressure in Laos and Southeast Asia from China and North Vietnam; Laos the key to all Southeast Asia, its fall to bring South Vietnam, Cambodia, Thailand and Burma after it; Vietnam less critical). Check: Rusk names those with Eisenhower as Kennedy, McNamara, Clifford and himself and gives two pieces of advice: no recognition of Communist China; troops into Laos, "with others if possible, alone if necessary" (428; also 283). To check: [[w.greenstein-what-did-eisenhower-tell]] (compares the five accounts); Clifford to Kennedy, memorandum of the conference of Jan. 19, 1961, on Laos, *U.S.–Vietnam Relations*, bk. 10, 1360–64 (cited by [[w.schulimson-joint-chiefs-of-staff]], 29 n.147); Clifford''s memorandum for Johnson (1969), *Pentagon Papers*, Gravel ed., II, 635–37, and Clifford to Kennedy, Jan. 24, 1961, POF, Kennedy Library (cited by [[w.gibbons-u-s-government-and]], II, 9 n.19); [[w.united-states-vietnam-relations]], 1360–1364 (memorandum of the Eisenhower–Kennedy conference of Jan. 19, 1961, on Laos) (cited by [[w.guan-vietnamese-communists-relations-with]], 164 n.45); [[w.pentagon-papers]], II, 635–637 (Gravel ed.) (cited by [[w.guan-vietnamese-communists-relations-with]], 177 n.112b). Check: the Taylor report, [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), 578–79 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 174 n.8), read: it gives no account of Jan. 19; its "continuation and accentuation" of the CIA''s activities is the President''s authorization of Jan. 28. See [[cal.1961-01-02.laos]]. Names: Eisenhower.'
     src:
       c: e855c73b
       rows:
@@ -4510,6 +4681,7 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 702: B'
         - 'w.mann-grand-delusion 228–29: ?'
         - 'w.odonnell-johnny-we-hardly-knew 275–76: ?'
+        - 'w.guan-vietnamese-communists-relations-with 164, 177: ?'
     tags: [name:eisenhower-dwight-d, name:kennedy-john-f, name:herter-christian-a, name:persons-wilton-b]
     short: Eisenhower's warning at the transition
     time_range:
@@ -4966,6 +5138,48 @@ entries:
         - 'w.dikotter-maos-great-famine 225: all'
         - 'via w.dikotter-maos-great-famine 225 n.9: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-01-20.laos
+    when: Jan. 20
+    date: '1961-01-20'
+    thread: laos
+    also: [soviet-union]
+    c: 'Khrushchev to the British Prime Minister: the Commission''s reactivation supported, but Laos not as in 1954; a conference needed urgently.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 175. Names: Khrushchev, Macmillan.'
+    tags: [polity:ussr, polity:uk, name:khrushchev-nikita-s, name:macmillan-harold, ok:fields-place]
+  - id: cal.1961-01-20.vietnam-diplomacy
+    when: Jan. 20
+    date: '1961-01-20'
+    place: peking
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Nguyễn Duy Trinh and the DRV economic and trade delegation back in Peking, having been only to Moscow, Budapest and Bucharest.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 182. To check: NCNA, 20 January 1961, SWB/FE/546/A3/3 (cited by [[w.guan-vietnamese-communists-relations-with]], 182 n.13). Names: Nguyễn Duy Trinh.'
+    src:
+      rows:
+        - 'via x.1961-01-20.ncna-fe-546-a3-3: ?'
+    tags: [polity:drv, polity:prc, name:nguyen-duy-trinh]
+  - id: cal.1961-01-20.china-leadership-9
+    when: Jan. 20
+    date: '1961-01-20'
+    place: guangdong
+    thread: china-leadership
+    also: [china]
+    c: 'As a Guangdong 广东 report has it: in Diaofang commune, where thousands starve to death, some eighty houses are pulled down for timber and bricks for a People''s Hall to seat 1,500.'
+    n: '[[w.dikotter-maos-great-famine]], 166. Made public: 2010. To check: Guangdong Provincial Archives, Jan. 20, 1961, 217-1-645, pp. 15–19 (cited by [[w.dikotter-maos-great-famine]], 166 n.12).'
+    src:
+      c: 1fcb2da1
+      rows:
+        - 'w.dikotter-maos-great-famine 166: all'
+        - 'via w.dikotter-maos-great-famine 166 n.12: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961-01-20.china-leadership-10
+    when: Jan. 20
+    date: '1961-01-20'
+    place: peking
+    thread: china-leadership
+    c: Zhu De 朱德 leaves Peking 北京 to inspect the south.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1792. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1961-01-21.governors-ct
     when: Jan. 21
     date: '1961-01-21'
@@ -5214,6 +5428,39 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 93: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-01-21.laos-2
+    when: Jan. 21
+    date: '1961-01-21'
+    thread: laos
+    c: 'The British to the Russians: a draft joint message of the co-chairmen asking India, the Commission''s chairman, to send a representative to Laos at once to propose its reactivation to the King.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 175.'
+    tags: [polity:uk, polity:ussr, ok:fields-place]
+  - id: cal.1961-01-21.china-leadership-8
+    when: Jan. 21
+    date: '1961-01-21'
+    place: shanghai
+    thread: china-leadership
+    c: Zhu De 朱德 arrives at Shanghai 上海.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1792. The words: 下午 (1792). Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
+    time_range:
+      - 1961-01-21T04:00Z
+      - 1961-01-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-01-21.china-leadership-9
+    when: Jan. 21
+    date: '1961-01-21'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Zhu De 朱德, at his lodging, hears Cao Diqiu 曹荻秋 and Ma Tianshui 马天水, secretaries of the Shanghai committee's Secretariat 中共上海市委书记处.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1792–1793. The words: 晚上 (1792–1793). Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    time_range:
+      - 1961-01-21T11:00Z
+      - 1961-01-21T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-01-22.opinion
     when: Jan. 22
     date: '1961-01-22'
@@ -5344,6 +5591,22 @@ entries:
       - 1961-01-22T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-01-22.china-leadership-6
+    when: Jan. 22
+    date: '1961-01-22'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Zhu De 朱德 calls on Soong Ching Ling 宋庆龄.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1793. Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+  - id: cal.1961-01-22.china-leadership-7
+    when: Jan. 22
+    date: '1961-01-22'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Zhu De 朱德 visits the Longhua nursery 龙华苗圃.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1793. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1961-01-23.court
     when: Jan. 23
     date: '1961-01-23'
@@ -5565,6 +5828,22 @@ entries:
       - 1961-01-23T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-01-23.china-leadership-10
+    when: Jan. 23
+    date: '1961-01-23'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Zhu De 朱德 hears the heads of the Shanghai committee 中共上海市委 on foreign trade.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1793. Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+  - id: cal.1961-01-23.china-leadership-11
+    when: Jan. 23
+    date: '1961-01-23'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Zhu De 朱德 visits the Xijiao Park 西郊公园.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1793. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1961-01-24.states-and-cities-us
     when: Jan. 24
     date: '1961-01-24'
@@ -5677,7 +5956,7 @@ entries:
     place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo''s instruction on the direction and tasks of the revolution in the South, after its first session: no sudden "explosion" from "relative calmness"; war likely needed in time, the forces there to be built and readied for a protracted fight; political struggle still central, no military adventures.'
-    n: '[[w.asselin-hanois-road-to-the]], 92–93; [[w.van-kien-dang-toan]], XXII, 149–69 (the Politburo''s instruction: the revolution on the road to a general uprising, the peaceful road "almost" gone, the general offensive and uprising to come, 157; a protracted struggle, 162; against impatience and adventurism, 169; not the "explosion" or the "relative calmness"); [[w.lich-su-khang-chien-chong-my]], III, 32–34 (the Politburo''s session on the South, Jan. 24, through the instruction, *Văn kiện Đảng toàn tập*, XXII, 152–59). Made public: 2002. Check: the history (III, 34) calls the decision the Politburo''s resolution of Jan. 31, 1961; see [[cal.1961-02-25.vietnam]]. To check: the Reunification Committee''s draft presentation on the South, undated [1962], Hồ sơ 252, Vietnam National Archives Center 3 (cited by [[w.asselin-hanois-road-to-the]], 93 n.3). Check: the instruction (XXII, 157–58) raises armed struggle "song song" (parallel) with political: military struggle the chief form in the mountains, the two equal in the lowlands, political chief in the cities.'
+    n: '[[w.asselin-hanois-road-to-the]], 92–93; [[w.van-kien-dang-toan]], XXII, 149–69 (the Politburo''s instruction: the revolution on the road to a general uprising, the peaceful road "almost" gone, the general offensive and uprising to come, 157; a protracted struggle, 162; against impatience and adventurism, 169; not the "explosion" or the "relative calmness"); [[w.lich-su-khang-chien-chong-my]], III, 32–34 (the Politburo''s session on the South, Jan. 24, through the instruction, *Văn kiện Đảng toàn tập*, XXII, 152–59); [[w.guan-vietnamese-communists-relations-with]], 183–184 (dated Jan. 31: the North more able to defend itself and to serve as the base; the South''s revolution toward a general rising, no peaceful way; political and military struggle stepped up to par; the military first in the jungle and mountains, both together in the lowlands, the political in the cities). Made public: 2002. Check: the history (III, 34) calls the decision the Politburo''s resolution of Jan. 31, 1961; see [[cal.1961-02-25.vietnam]]. Check: the day: the resolution of Jan. 31, 1961, by [[w.guan-vietnamese-communists-relations-with]], 183–184, and the Politburo''s session of Jan. 31 in [[cal.1961-02-25.vietnam]]. To check: the Reunification Committee''s draft presentation on the South, undated [1962], Hồ sơ 252, Vietnam National Archives Center 3 (cited by [[w.asselin-hanois-road-to-the]], 93 n.3); [[w.war-experiences-recapitulation-committee]], 45–46 (cited by [[w.guan-vietnamese-communists-relations-with]], 184 n.20). Check: the instruction (XXII, 157–58) raises armed struggle "song song" (parallel) with political: military struggle the chief form in the mountains, the two equal in the lowlands, political chief in the cities.'
     src:
       c: 85f39641
       rows:
@@ -5685,6 +5964,7 @@ entries:
         - 'w.van-kien-dang-toan XXII, 149–69: ?'
         - 'via x.undated.du-thao-de-cuong-tinh-hinh-mien-nam-1962: B'
         - 'w.lich-su-khang-chien-chong-my III, 32–34: A, B'
+        - 'w.guan-vietnamese-communists-relations-with 183–184: ?'
     time_range:
       - 1961-01-24T02:00Z
       - 1961-01-24T10:00Z
@@ -5904,6 +6184,28 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 94: all'
     tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:li-fuchun, name:tan-zhenlin, vis:only:prc]
+  - id: cal.1961-01-24.china-leadership-10
+    when: Jan. 24
+    date: '1961-01-24'
+    place: shijiazhuang
+    thread: china-leadership
+    also: [china]
+    c: 'As a Hebei 河北 report has it: even in a city such as Shijiazhuang half the babies die, their mothers having no milk.'
+    n: '[[w.dikotter-maos-great-famine]], 252. Made public: 2010. To check: Hebei Provincial Archives, Jan. 24, 1961, 878-2-17, pp. 1–5 (cited by [[w.dikotter-maos-great-famine]], 252 n.41).'
+    src:
+      c: 55c577a7
+      rows:
+        - 'w.dikotter-maos-great-famine 252: all'
+        - 'via w.dikotter-maos-great-famine 252 n.41: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961-01-24.china-leadership-11
+    when: Jan. 24
+    date: '1961-01-24'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Zhu De 朱德 visits the exhibition of light industry's products 轻工业产品展览会.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1793. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1961-01-25.press-and-broadcasting
     when: Jan. 25
     date: '1961-01-25'
@@ -6108,6 +6410,36 @@ entries:
       - 1961-01-25T04:00Z
       - 1961-01-25T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-01-25.china-leadership-7
+    when: Jan. 25
+    date: '1961-01-25'
+    place: guangdong
+    thread: china-leadership
+    also: [china]
+    c: 'As a Guangdong 广东 report has it: needles inserted under people''s nails.'
+    n: '[[w.dikotter-maos-great-famine]], 296. Made public: 2010. To check: Guangdong Provincial Archives, Apr. 16, 1961, 217-1-643, pp. 123–31 (cited by [[w.dikotter-maos-great-famine]], 296 n.36a); Guangdong Provincial Archives, Jan. 25, 1961, 217-1-646, pp. 15–17 (cited by [[w.dikotter-maos-great-famine]], 296 n.36b). Check: the day; the note gives two files, of Apr. 16 and Jan. 25, 1961, and does not divide the passage between them.'
+    src:
+      c: da5f1cae
+      rows:
+        - 'w.dikotter-maos-great-famine 296: all'
+        - 'via w.dikotter-maos-great-famine 296 n.36a: all'
+        - 'via w.dikotter-maos-great-famine 296 n.36b: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961-01-25.china-leadership-8
+    when: Jan. 25
+    date: '1961-01-25'
+    place:
+      - shanghai
+      - hangzhou
+    thread: china-leadership
+    c: Zhu De 朱德 arrives at Hangzhou 杭州, Zhejiang 浙江, and in the afternoon visits the Guodong garden 郭东花园.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1793. The words: 上午; 下午 (1793). Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
+    time_range:
+      - 1961-01-24T22:00Z
+      - 1961-01-25T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1961-01-26.economy
     when: Jan. 26
@@ -6324,6 +6656,14 @@ entries:
       - 1961-01-26T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-01-26.china-leadership-7
+    when: Jan. 26
+    date: '1961-01-26'
+    place: hangzhou
+    thread: china-leadership
+    c: 'Hangzhou 杭州. Zhu De 朱德 inspects the Longjing 龙井 tea team of the West Lake People''s Commune 西湖人民公社 and climbs Lion Peak 狮子峰. To those with him, looking down on the terraced fields and the tea: so many barren hills; opened like this, tea and oranges in the south, walnuts and persimmons in the north, what wealth; the land''s full use.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1793. Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc@C-E]
   - id: cal.1961-01-27.opinion
     when: Jan. 27
     date: '1961-01-27'
@@ -6585,6 +6925,38 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 96: all'
     tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:chen-yun, vis:only:prc]
+  - id: cal.1961-01-27.laos
+    when: Jan. 27
+    date: '1961-01-27'
+    thread: laos
+    also: [vietnam-diplomacy]
+    c: 'Pathet Lao radio: trade with the DRV going well; the local governments of Phong Saly, Luang Prabang, Sam Neua, Xieng Khouang, Cammon and other provinces organize the people to take goods to the border for salt, farm tools and "other items."'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176 ("at the end of January 1961"). To check: VINA, 27 January 1961, SWB/FE/551/B/4 (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.107).'
+    src:
+      rows:
+        - 'via x.1961-01-27.vina-fe-551-b-4: ?'
+    tags: [polity:pathet-lao, ok:fields-place]
+  - id: cal.1961-01-27.china
+    when: Jan. 27
+    date: '1961-01-27'
+    place: shanghai
+    thread: china
+    c: 'As a Shanghai 上海 report has it: in the canteens of the Shanghai Machine Tool Factory rice is washed so carelessly that several kilos a day are dug out of the sewers, to feed the pigs; on the night shift, under slack supervision, workers eat their fill, some in eating contests, a champion managing about two kilos of rice at a sitting.'
+    n: '[[w.dikotter-maos-great-famine]], 196. To check: Shanghai Municipal Archives, Jan. 27, 1961, A36-1-246, pp. 9–17 (cited by [[w.dikotter-maos-great-famine]], 196 n.22).'
+    src:
+      c: ff86f865
+      rows:
+        - 'w.dikotter-maos-great-famine 196: all'
+        - 'via w.dikotter-maos-great-famine 196 n.22: all'
+    tags: [form:state, polity:prc, ok:fields-time]
+  - id: cal.1961-01-27.china-leadership-11
+    when: Jan. 27
+    date: '1961-01-27'
+    place: hangzhou
+    thread: china-leadership
+    c: Hangzhou 杭州. Zhu De 朱德 walks in the northern hills of West Lake 西湖 and writes the poem "Climbing the Northern Peak at West Lake" 《登西湖北高峰》 (three hundred and thirty meters; an hour and a half's slow walk; ten years of planting, of road building, of tending; paradise come among men).
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1793. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1961-01-28.vietnam
     when: Jan. 28
     date: '1961-01-28'
@@ -6861,6 +7233,14 @@ entries:
       - 1961-01-28T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-01-28.china-leadership-13
+    when: Jan. 28
+    date: '1961-01-28'
+    place: hangzhou
+    thread: china-leadership
+    c: Hangzhou 杭州. Zhu De 朱德 inspects the Hangzhou chlorophyll plant 杭州叶绿素厂.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1793. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1961-01-29.economy
     when: Jan. 29
     date: '1961-01-29'
@@ -6949,13 +7329,17 @@ entries:
     thread: china-leadership
     also: [china]
     c: A Zhejiang 浙江 report puts the grain lost in 1960 to snout moth, leafhopper, pink bollworm, red spider and other pests at 500,000 to 750,000 tonnes, about 10 per cent of the harvest; insecticide is short.
-    n: '[[w.dikotter-maos-great-famine]], 188; [[w.dikotter-maos-great-famine]], 138 n.40 (in Zhejiang one village in five lacks the seed to plant its fields). Made public: 2010. To check: Zhejiang Provincial Archives, Jan. 29, 1961, J116-15-115, p. 11 (cited by [[w.dikotter-maos-great-famine]], 188 n.83). Check: the day.'
+    n: '[[w.dikotter-maos-great-famine]], 188; [[w.dikotter-maos-great-famine]], 138 n.40 (in Zhejiang one village in five lacks the seed to plant its fields); [[w.dikotter-maos-great-famine]], 136 n.23 (some 65,000 hectares of Zhejiang''s cultivated land vanish each year, about a tenth by 1961; the note gives this file, p. 29, and a Zhejiang file of 1961, J116-15-139, p. 1); [[w.dikotter-maos-great-famine]], 141 n.54 (tens of thousands of pigs die of hunger in Cixi county in a single winter month; pp. 16–21 of the file); [[w.dikotter-maos-great-famine]], 142 n.57 (in some counties of Zhejiang a pig death rate of 600 per cent, six pigs dying for every birth; pp. 16–21); [[w.dikotter-maos-great-famine]], 143 n.67 (in Wuxing, Huzhou, one fishing boat in five unseaworthy for want of tung oil; pp. 5 and 16). Made public: 2010. To check: Zhejiang Provincial Archives, Jan. 29, 1961, J116-15-115, p. 11 (cited by [[w.dikotter-maos-great-famine]], 188 n.83). Check: the day.'
     src:
       c: 0f0dcb48
       rows:
         - 'w.dikotter-maos-great-famine 188: all'
         - 'via w.dikotter-maos-great-famine 188 n.83: all'
         - 'w.dikotter-maos-great-famine 138 n.40: ?'
+        - 'w.dikotter-maos-great-famine 136 n.23: ?'
+        - 'w.dikotter-maos-great-famine 141 n.54: ?'
+        - 'w.dikotter-maos-great-famine 142 n.57: ?'
+        - 'w.dikotter-maos-great-famine 143 n.67: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1961-01-29.china-leadership-6
     when: Jan. 29
@@ -6969,6 +7353,17 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 97: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-01-29.vietnam-hanoi
+    when: Jan. 29
+    date: '1961-01-29'
+    thread: vietnam-hanoi
+    also: [china-leadership]
+    c: VNA and NCNA report the "recent" founding of the National Liberation Front of South Vietnam, citing Reuters and papers of Phnom Penh.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 179 n.2, 182. To check: VNA and NCNA, 29 January 1961, SWB/FE/553/A3/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 182 n.14). See [[cal.1960-12-20.vietnam]].'
+    src:
+      rows:
+        - 'via x.1961-01-29.vna-and-ncna-fe-553-a3-2: ?'
+    tags: [polity:drv, polity:prc, ok:fields-place]
   - id: cal.1961-01-30.program
     when: Jan. 30
     date: '1961-01-30'
@@ -7240,6 +7635,22 @@ entries:
       - 1961-01-30T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-01-30.china-leadership-9
+    when: Jan. 30
+    date: '1961-01-30'
+    thread: china-leadership
+    also: [china]
+    c: 'Zhu De 朱德 to the Center 中共中央 and Mao Zedong 毛泽东, a report on Shanghai 上海 and Hangzhou 杭州: Shanghai''s industry "not fed enough," the textile mills at 50 percent of capacity and over 30 percent of light industry''s idle; domestic raw materials cannot fill it soon; "import to feed export" 以进养出, raw materials in, finished and semi-finished goods out, with five gains (exports, industry, foreign exchange, revenue, the home market); any industry so placed may follow Shanghai, best with deferred payment. Zhejiang''s 浙江 silkworm brigades contract with their teams for output, value, work points and cost, with a bonus for excess ("four contracts and one reward" 四包一奖); where peasants make their own silk floss, cocoons beyond the state''s quota split thirty to the state, seventy to the members; there contracts go smoothly and quotas rise 10 to 12 percent on last year.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1794. Made public: 2016. Names: Zhu De, Mao Zedong.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-01-30.china-leadership-10
+    when: Jan. 30
+    date: '1961-01-30'
+    place: hangzhou
+    thread: china-leadership
+    c: Hangzhou 杭州. Zhu De 朱德 inspects the Jinxing brigade 金星生产大队 of the Liuxia People's Commune 柳霞人民公社 in the city's outskirts.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1794. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1961-01-31.georgia-ga
     when: Jan. 31
     date: '1961-01-31'
@@ -7839,22 +8250,24 @@ entries:
     thread: china-leadership
     also: [china]
     c: Mao, finding that his flirtations with a female attendant have been taped, is livid. Several of Yang Shangkun's subordinates are blamed, demoted or sent away from the General Office. At Mao's insistence all existing tapes are destroyed, after a team of secretaries under Deng Xiaoping has transcribed part of them.
-    n: '[[w.macfarquhar-maos-last-revolution]], 36–37; [[w.yang-shangkun-riji]], I, 725 (note 1; Mao, finding on his tour of Jan.–Apr. 1961 that he was still recorded, criticizes it severely and has Wang Dongxing report to the Secretariat; in April the Secretariat''s warnings to Ye Zilong, Kang Yimin and Wu Zhenying). Made public: 2006. Check: the year made public; [[w.shangkun-yang-shangkun-riji-2]] (2001) prints the editors'' note on the recordings ([[w.yang-shangkun-riji]], I, 725 n.1, where 2001''s page, as MacFarquhar cites it, is I, 716). To check: [[w.shangkun-yang-shangkun-riji-2]], I, 716 (cited by [[w.macfarquhar-maos-last-revolution]], 37 n.21a); [[w.zilong-ye-zilong-huiyilu]], 223–231 (cited by [[w.macfarquhar-maos-last-revolution]], 37 n.21b); Su Shaozhi, interview by Michael Schoenhals, April 1992 (cited by [[w.macfarquhar-maos-last-revolution]], 37 n.21c). Names: Mao Zedong, Deng Xiaoping. Check: the day.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 36–37; [[w.yang-shangkun-riji]], I, 725 (note 1; Mao, finding on his tour of Jan.–Apr. 1961 that he was still recorded, criticizes it severely and has Wang Dongxing report to the Secretariat; in April the Secretariat''s warnings to Ye Zilong, Kang Yimin and Wu Zhenying); [[w.dikotter-cultural-revolution]], 45 n.8 (Mao''s flirtations with Zhang Yufeng caught on tape in 1961; Yang Shangkun spared, his underlings take the fall). Made public: 2006. Check: the year made public; [[w.shangkun-yang-shangkun-riji-2]] (2001) prints the editors'' note on the recordings ([[w.yang-shangkun-riji]], I, 725 n.1, where 2001''s page, as MacFarquhar cites it, is I, 716). To check: [[w.shangkun-yang-shangkun-riji-2]], I, 716 (cited by [[w.macfarquhar-maos-last-revolution]], 37 n.21a); [[w.zilong-ye-zilong-huiyilu]], 223–231 (cited by [[w.macfarquhar-maos-last-revolution]], 37 n.21b); Su Shaozhi, interview by Michael Schoenhals, April 1992 (cited by [[w.macfarquhar-maos-last-revolution]], 37 n.21c). Names: Mao Zedong, Deng Xiaoping. Check: the day.'
     src:
       c: 3b8b2d12
       rows:
         - 'w.macfarquhar-maos-last-revolution 36–37: all'
         - 'via w.macfarquhar-maos-last-revolution 37 n.21c: all'
         - 'w.yang-shangkun-riji I, 725: B'
+        - 'w.dikotter-cultural-revolution 45 n.8: ?'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961.china-leadership-9
     when: 1961, early
     date: '1961'
     at: before 1961-01
+    place: peking
     thread: china-leadership
     also: [china]
     c: A Peking opera company performs Wu Han's *Hai Rui Dismissed from Office*, a play it commissioned.
-    n: '[[w.macfarquhar-maos-last-revolution]], 15; [[w.macfarquhar-origins-of-the-cultural]], III, 253 (the play commissioned by a Peking opera company, staged early in 1961); [[w.yang-jisheng-tiandi-fanfu]], I, 107 (first staged in Peking in January 1961). Check: the day. Check: Cong Jin dates the performance January; Su and Wang''s chronology gives month 11 of 1961, which the book takes for a misprint for month 1. To check: [[w.nai-wu-hande-xueshu-shengya]], 112–14 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.35d); [[w.han-wu-han-he-hai]], 2–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.35e); [[w.shuangbi-wu-han-zhuan]], 310–12, 356–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.35f); [[w.jin-1949-1989-niande-zhongguo]], 609 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.36b).'
+    n: '[[w.macfarquhar-maos-last-revolution]], 15; [[w.macfarquhar-origins-of-the-cultural]], III, 253 (the play commissioned by a Peking opera company, staged early in 1961); [[w.yang-jisheng-tiandi-fanfu]], I, 107 (first staged in Peking in January 1961); [[w.dikotter-cultural-revolution]], 48 n.15 (a revised play by Wu Han performed in Peking in February 1961); [[w.pu-weihua-zalan-jiu-shijie]], 9 (from January 1961, at the Peking Workers'' Club 北京工人俱樂部; Ma Lianliang and Qiu Shengrong 裘盛戎 in the chief parts, praised on all sides). Check: the day. Check: Cong Jin dates the performance January; Su and Wang''s chronology gives month 11 of 1961, which the book takes for a misprint for month 1. To check: [[w.nai-wu-hande-xueshu-shengya]], 112–14 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.35d); [[w.han-wu-han-he-hai]], 2–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.35e); [[w.shuangbi-wu-han-zhuan]], 310–12, 356–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.35f); [[w.jin-1949-1989-niande-zhongguo]], 609 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.36b).'
     src:
       c: aeb96277
       rows:
@@ -7867,6 +8280,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.36b: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.36c: A'
         - 'w.yang-jisheng-tiandi-fanfu I, 107: ?'
+        - 'w.dikotter-cultural-revolution 48 n.15: ?'
+        - 'w.pu-weihua-zalan-jiu-shijie 9: ?'
     tags: [polity:prc]
   - id: cal.1961-01-31.china-leadership-3
     when: Jan. 31
@@ -7876,12 +8291,13 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the signing of the agreement on a long-term Chinese loan and complete sets of equipment for Vietnam.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Jan. 31, 1961; 晚6时); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 174 (Dec. 3–11, 1960, Jan. 20–Feb. 3, 1961; the agreement on long-term credits and complete plants for Vietnam and the protocol on the exchange of goods in 1961 among the documents signed during Nguyễn Duy Trinh''s visits, the day not given). See [[cal.1961-01-31.china-leadership]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Jan. 31, 1961; 晚6时); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 174 (Dec. 3–11, 1960, Jan. 20–Feb. 3, 1961; the agreement on long-term credits and complete plants for Vietnam and the protocol on the exchange of goods in 1961 among the documents signed during Nguyễn Duy Trinh''s visits, the day not given); [[w.guan-vietnamese-communists-relations-with]], 182–183 (the economic agreement and the protocol for 1961: a long-term loan of 141,750,000 yuan, to be used 1961–67 for Chinese equipment and technical help; 28 industrial and transport enterprises built or enlarged, in metallurgy, power, light industry, railways; China to send steel, cotton, tires, coal, chemicals, machinery, medicines, the DRV anthracite, apatite, timber, cement, chromate, poultry, livestock, fruit). To check: [[w.guoan-zhongyue-guanxi-jianbian]], 194–195 (cited by [[w.guan-vietnamese-communists-relations-with]], 182 n.15). See [[cal.1961-01-31.china-leadership]]. Names: Zhou Enlai.'
     src:
       c: b04266ac
       rows:
         - 'w.zhou-enlai-waijiao-huodong 303: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 174: B'
+        - 'w.guan-vietnamese-communists-relations-with 182–183: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1961-01-31.china-leadership-4
@@ -7892,12 +8308,13 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi, laos, foreign-aid]
     c: 'Peking, the Great Hall of the People. Zhou Enlai, at the banquet for the Vietnamese economic and trade delegation, says China fully supports the Vietnamese government''s proposal of an international conference to secure Laos''s peace and neutrality. Per the Chinese record, Zhou with Nguyễn Duy Trinh at the banquet: Poland having declined, the DRV asks China to build a paper mill beside the Polish-aided Vạn Điểm sugar mill, and Zhou says China can consider it. The DRV asks for an aerial survey and mapping of North Vietnam; Zhou says China cannot do it in the first half of 1961, for Laos and for want of equipment, and the two sides will look again in the second half.'
-    n: '"[Record of Conversation from Premier Zhou Enlai''s Reception of Vietnamese Deputy Prime Minister Nguyen Duy Trinh](https://digitalarchive.umd.edu/document/176278)" (Jan. 31, 1961), PRC FMA 106-00602-02, 18–19, trans. Stephen Mercado, Wilson Center Digital Archive. The words: "8:30 p. m., 31 January 1961", Anhui Hall, Great Hall of the People (the record). [[w.zhou-enlai-waijiao-huodong]], 303 (Jan. 31, 1961; 晚上). See [[cal.1961-01-31.china-leadership]]. Names: Zhou Enlai, Nguyễn Duy Trinh.'
+    n: '"[Record of Conversation from Premier Zhou Enlai''s Reception of Vietnamese Deputy Prime Minister Nguyen Duy Trinh](https://digitalarchive.umd.edu/document/176278)" (Jan. 31, 1961), PRC FMA 106-00602-02, 18–19, trans. Stephen Mercado, Wilson Center Digital Archive. The words: "8:30 p. m., 31 January 1961", Anhui Hall, Great Hall of the People (the record). [[w.zhou-enlai-waijiao-huodong]], 303 (Jan. 31, 1961; 晚上); [[w.guan-vietnamese-communists-relations-with]], 183 (peace in Indochina broken by the Americans, Thailand and South Vietnam; the war in Laos threatening Southeast Asia and the security of North Vietnam and China; a conference needed even with the Commission revived). See [[cal.1961-01-31.china-leadership]]. Names: Zhou Enlai, Nguyễn Duy Trinh.'
     src:
       c: de76cdf9
       rows:
         - 'w.zhou-enlai-waijiao-huodong 303: A, B'
         - 'https://digitalarchive.umd.edu/document/176278: A, C-E'
+        - 'w.guan-vietnamese-communists-relations-with 183: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:nguyen-duy-trinh, vis:only:prc+drv@C-E]
     time_zone: Asia/Shanghai
   - id: cal.1961-01-31.china-leadership-5
@@ -8169,9 +8586,10 @@ entries:
   - id: cal.1961.china-leadership-16
     when: '1961'
     date: '1961'
+    place: peking
     thread: china-leadership
     c: Mao invites Ma Lianliang, who plays Hai Rui, to dinner at his residence, has him recite lines of the part, and says the play is good, Hai Rui a good man, and *Hai Rui Dismissed from Office* well written.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 253. Made public: 1984. To check: [[w.zhongguo-ge-minzhu-dangpai]], 347 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.38a); [[w.shuangbi-wu-han-zhuan]], 312 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.38b); [[w.fisher-wu-han]], 165 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.38c); [[w.qingshan-kang-sheng-waizhuan]], 257 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.38d). Names: Mao Zedong. Check: the day, which the book places shortly after the play was staged and published; whether Mao had seen the play: Yan Qi''s wording allows either, Fisher assumes he had, Lin Qingshan has Mao call it well acted ([[w.qingshan-kang-sheng-waizhuan]], 257).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 253; [[w.pu-weihua-zalan-jiu-shijie]], 9 (Mao calls Ma Lianliang into Zhongnanhai, hears him sing and keeps him to supper; at table he praises the play, "Hai Rui is a good man," "people like Hai Rui should be learned from"). Made public: 1984. To check: [[w.zhongguo-ge-minzhu-dangpai]], 347 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.38a); [[w.shuangbi-wu-han-zhuan]], 312 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.38b); [[w.fisher-wu-han]], 165 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.38c); [[w.qingshan-kang-sheng-waizhuan]], 257 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.38d); Yang Shengqun 楊勝群 and Tian Songnian 田松年, 〈批判歷史劇《海瑞罷官》的前因後果〉, in [[w.zhongguo-gongchandang-zhongda-shishi]], IV, 1929 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 9 n.16). Names: Mao Zedong. Check: the day, which the book places shortly after the play was staged and published; whether Mao had seen the play: Yan Qi''s wording allows either, Fisher assumes he had, Lin Qingshan has Mao call it well acted ([[w.qingshan-kang-sheng-waizhuan]], 257).'
     src:
       c: 3e99ee0f
       rows:
@@ -8180,6 +8598,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.38b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.38c: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.38d: all'
+        - 'w.pu-weihua-zalan-jiu-shijie 9: A'
+        - 'via x.2001.yang-shengqun-tian-songnian-pipan-hai-rui-baguan-qianyin-houguo: A'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-01.china-leadership-5
     when: Jan.
@@ -8187,13 +8607,14 @@ entries:
     place: peking
     thread: china-leadership
     c: Wu Han's *Hai Rui Dismissed from Office* is published in *Beijing Wenyi*.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 253. To check: [[w.han-wu-han-wenji]], 4, 376–427 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.35a); Wu Han, Hai Rui Ba Guan (Beijing Wenyi, Jan. 1961), in [[w.beijing-wenyi]], Jan. 1961 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.35b).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 253; [[w.pu-weihua-zalan-jiu-shijie]], 9 (the text in full in *Beijing wenyi*''s January number). To check: [[w.han-wu-han-wenji]], 4, 376–427 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.35a); Wu Han, Hai Rui Ba Guan (Beijing Wenyi, Jan. 1961), in [[w.beijing-wenyi]], Jan. 1961 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.35b).'
     src:
       c: 6548b186
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 253: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.35a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.35b: all'
+        - 'w.pu-weihua-zalan-jiu-shijie 9: A'
     tags: [polity:prc]
   - id: cal.1961-01.south-asia
     when: Jan.
@@ -8478,6 +8899,13 @@ entries:
       rows:
         - 'w.yang-jisheng-mubei II, 972: all'
         - 'via w.yang-jisheng-mubei II, 972 n.t1: all'
+    gloss:
+      title: Estimates
+      text:
+        - Estimates of the famine, 1958–62 (the famine has no thread of its own; set here, on the leadership's own national count of its toll, as the most fitting entry, by the owner's rule of Nov. 21, 2026).
+        - 'Dikötter: at least 45 million deaths above the normal rate in 1958–62, Chen Yizi''s 43 to 46 million borne out by the archives; of the victims at least 6 to 8 per cent, some 2.5 million, beaten or tortured to death; 1 to 3 million suicides, 3 to 6 per cent of the avoidable deaths; perhaps half of all cadres regularly beating the people they served; 30 to 40 per cent of all houses turned to rubble ([[w.dikotter-maos-great-famine]], 325, 333; 298; 304; 294; 169). He takes Cao Shuji''s 32.5 million, from the county gazetteers, as a conservative baseline (325, 329).'
+        - 'Yang Jisheng: about 36 million abnormal deaths in the famine, between 35 and 37 million with the 1.81 million of 1958 and 0.42 million of 1962 by the provinces'' official figures; some 40 million births lost; a loss of about 76 million people in all ([[w.yang-jisheng-mubei]], II, 1004–1005; the same 36 million, [[w.yang-jisheng-tiandi-fanfu]], I, 54). Cases of people eating people, by his reckoning, several thousand in the country (I, 55).'
+        - 'Yang Jisheng, by the official figures for Qinghai: 102,900 abnormal deaths there, 5 per cent of the province ([[w.yang-jisheng-tiandi-fanfu]], I, 395).'
     tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:mao-zedong]
   - id: cal.1961.china-leadership-34
     when: '1961'
@@ -8625,7 +9053,7 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam]
     c: 'The General Military Commission''s directive setting up the South Vietnam Liberation Army, "a part of the Vietnam People''s Army": main forces, local troops, militia and guerrillas, the concentrated units first.'
-    n: '[[w.lich-su-khang-chien-chong-my]], III, 36–37 (the directive, from the Institute of Military History''s archive). Made public: 2013.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 36–37 (the directive, from the Institute of Military History''s archive); [[w.guan-vietnamese-communists-relations-with]], 180 (the Central Military Committee''s directive of Jan. 1, 1961: the Army for the Liberation of South Vietnam part of the VPA, a fighting and a producing army, of main, regional and guerrilla forces; to free the South from imperialism and feudalism, as conditions and its strength allow). Made public: 2013. Check: the day: Jan. 1, 1961, by [[w.guan-vietnamese-communists-relations-with]], 180. To check: [[w.lich-su-quan-doi]], 120–121 (cited by [[w.guan-vietnamese-communists-relations-with]], 180 n.4).'
     tags: [polity:drv, vis:only:drv]
   - id: cal.1961-01.vietnam-hanoi-2
     when: Jan.
@@ -8714,13 +9142,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Foreign aid for 1961 is slated at some 660 million yuan. Its beneficiaries include Burma, US$84 million; Cambodia, US$11.2 million; Vietnam, 142 million rubles; Albania, 112.5 million rubles.
-    n: '[[w.dikotter-maos-great-famine]], 113 n.30, n.31a. The book: Peking "refused new loans or even deferment of payments" offered by its socialist allies (113). Made public: 2010. To check: Report from the Ministry of Finance, July 1, 1961, Gansu Provincial Archives, 91-18-211, pp. 22–5; MfAA, Berlin, Jan. 4, 1962, A6836, p. 33 (cited by [[w.dikotter-maos-great-famine]], 113 n.30, n.31a, n.32). Check: the day.'
+    n: '[[w.dikotter-maos-great-famine]], 113 n.30, n.31a; [[w.dikotter-maos-great-famine]], 113 (n.32, the same report: the state''s income shrinking by 45 per cent, to 35 billion yuan, 1.4 billion cut from health and education). The book: Peking "refused new loans or even deferment of payments" offered by its socialist allies (113). Made public: 2010. To check: Report from the Ministry of Finance, July 1, 1961, Gansu Provincial Archives, 91-18-211, pp. 22–5; MfAA, Berlin, Jan. 4, 1962, A6836, p. 33 (cited by [[w.dikotter-maos-great-famine]], 113 n.30, n.31a, n.32). Check: the day.'
     src:
       c: 74f5e3d6
       rows:
         - 'w.dikotter-maos-great-famine 113: all'
         - 'via w.dikotter-maos-great-famine 113 n.30: all'
         - 'via w.dikotter-maos-great-famine 113 n.31a: all'
+        - 'w.dikotter-maos-great-famine 113: ?'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
   - id: cal.1961.china-leadership-45
     when: '1961'
@@ -9195,13 +9624,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Hunan 湖南 officials, fanning out over the province and sweeping up every bale, including the reserves of teams and communes, procure 15,530 tonnes of cotton against an output of 15,130.
-    n: '[[w.dikotter-maos-great-famine]], 139–140 (Table 7). Made public: 2010. To check: Hunan Provincial Archives, 1962, 187-1-1021, p. 33, and Mar. 1964, 187-1-1154, pp. 80 and 97 (the sources of [[w.dikotter-maos-great-famine]], 139, Table 7). Check: the day.'
+    n: '[[w.dikotter-maos-great-famine]], 139–140 (Table 7); [[w.dikotter-maos-great-famine]], 139–141 (Tables 7 and 8, from the same Hunan file: cotton output 21,557 tonnes in 1957, 23,681 in 1958, 32,500 in 1959, 21,000 in 1960, 15,130 in 1961; procured 17,235, 15,330, 28,410, 19,950 and 15,530; pigs in the province 10.9 million in 1957, 12.7 in 1958, 7.95 in 1959, 4.4 in 1960, 3.4 in 1961). Made public: 2010. To check: Hunan Provincial Archives, 1962, 187-1-1021, p. 33, and Mar. 1964, 187-1-1154, pp. 80 and 97 (the sources of [[w.dikotter-maos-great-famine]], 139, Table 7). Check: the day.'
     src:
       c: ea873dd2
       rows:
         - 'w.dikotter-maos-great-famine 139–140: all'
         - 'via w.dikotter-maos-great-famine 139 n.table-7a: all'
         - 'via w.dikotter-maos-great-famine 139 n.table-7b: all'
+        - 'w.dikotter-maos-great-famine 139–141: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1961.china-leadership-60
     when: '1961'
@@ -9603,3 +10033,255 @@ entries:
       rows:
         - 'w.friedman-shadow-cold-war 140: all'
     tags: [polity:indonesia, polity:ussr]
+  - id: cal.1961.laos
+    when: 1961, early
+    date: '1961'
+    at: before 1961-01
+    thread: laos
+    also: [vietnam-hanoi]
+    c: 'North Vietnam sends into Laos infantry, artillery and engineer battalions of the 316th and 335th Brigades (Northwest Military Region), the 325th Division and the 271st Regiment (Military Region IV): 12,000 troops in all, advisers, forming armed units and training the Pathet Lao; a military school set up for them; arms and ammunition.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 175–176 (by the army''s history; the DRV then denied it). Made public: 1988 ([[w.lich-su-quan-doi]]). To check: [[w.lich-su-quan-doi]], 152–153 (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.106a); FO 371/159812, DF 1015/2, 1 January 1961, from Washington to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.106b); FO 371/159824, DF 1015/243, 10 February 1961, from Vientiane to Foreign Office (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.106c).'
+    tags: [polity:drv, polity:pathet-lao, vis:only:drv+pathet-lao]
+  - id: cal.1961-01-31.vietnam-hanoi-2
+    when: Jan. 31
+    date: '1961-01-31'
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: 'The NLF''s Provisional Committee strengthens itself in the Saigon–Cholon area: the Saigon–Cholon–Gia Định Committee formed.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 181 n.6. Made public: 1986 ([[w.tang-journal-of-a-vietcong]]). To check: [[w.tang-journal-of-a-vietcong]], 81–84 (cited by [[w.guan-vietnamese-communists-relations-with]], 181 n.6b).'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1961.soviet-union-5
+    when: 1961, early
+    date: '1961'
+    at: before 1961-01
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Soviet intelligence obtains copies of a secret letter circulated to Chinese party cadres, opening an internal campaign on the Sino-Soviet differences: the Soviet Union blamed for the movement''s disunity, for planning to attack China, for China''s economic troubles, for abandoning Communism.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 181–182 (by Jan Šejna). Made public: 1982 ([[w.sejna-we-will-bury-you]]). To check: [[w.sejna-we-will-bury-you]], 58–59 (cited by [[w.guan-vietnamese-communists-relations-with]], 182 n.10).'
+    tags: [polity:ussr, polity:prc, vis:only:ussr, ok:fields-place]
+  - id: cal.1961.vietnam-hanoi-6
+    when: '1961'
+    date: '1961'
+    place: hanoi
+    thread: vietnam-hanoi
+    c: 'Hanoi, the Foreign Languages Publishing House: an English edition of Võ Nguyên Giáp''s essay *People''s War, People''s Army*, first published Dec. 22, 1959.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 187. To check: [[w.giap-peoples-war-peoples-army]] (cited by [[w.guan-vietnamese-communists-relations-with]], 187 n.33). Names: Võ Nguyên Giáp.'
+    tags: [polity:drv, name:vo-nguyen-giap]
+  - id: cal.1961.vietnam-diplomacy
+    when: '1961'
+    date: '1961'
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Hoàng Văn Hoan takes charge of the secret CP38 Committee, directing operations in Laos and Cambodia.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 195–196. Made public: 1988 ([[w.hoan-drop-in-the-ocean]]). To check: [[w.hoan-drop-in-the-ocean]], 382 (cited by [[w.guan-vietnamese-communists-relations-with]], 195 n.60).'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1961.china-leadership-73
+    when: '1961'
+    date: '1961'
+    place: guangdong
+    thread: china-leadership
+    also: [china]
+    c: 'As a Guangdong 广东 report has it: the province''s childcare institutions fall from 35,000 to 5,400 in 1961.'
+    n: '[[w.dikotter-maos-great-famine]], 246. Made public: 2010. To check: Guangdong Provincial Archives, 1961, 314-1-208, p. 16 (cited by [[w.dikotter-maos-great-famine]], 246 n.12). Check: the day.'
+    src:
+      c: 37ba92f0
+      rows:
+        - 'w.dikotter-maos-great-famine 246: all'
+        - 'via w.dikotter-maos-great-famine 246 n.12: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961.china-leadership-74
+    when: '1961'
+    date: '1961'
+    thread: china-leadership
+    also: [china]
+    c: 'As a Shanghai 上海 file has it: in parts of Jiangyin county many pigs freeze to death, and quite a few are eaten by larger hogs.'
+    n: '[[w.dikotter-maos-great-famine]], 142. Made public: 2010. To check: Shanghai Municipal Archives, 1961, B181-1-510, pp. 17–20 (cited by [[w.dikotter-maos-great-famine]], 142 n.59). Check: the day.'
+    src:
+      c: 118f72f5
+      rows:
+        - 'w.dikotter-maos-great-famine 142: all'
+        - 'via w.dikotter-maos-great-famine 142 n.59: all'
+    tags: [form:state, polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1961.china-leadership-75
+    when: '1961'
+    date: '1961'
+    place: shanghai
+    thread: china-leadership
+    also: [china]
+    c: 'As a Shanghai 上海 file has it: the plan allots each person in Shanghai 4.5 kilos of meat in ration tickets in 1960, against some twenty kilos eaten a head in 1953; much less in fact to be had.'
+    n: '[[w.dikotter-maos-great-famine]], 143. Made public: 2010. To check: Shanghai Municipal Archives, 1961, B29-2-980, p. 143 (cited by [[w.dikotter-maos-great-famine]], 143 n.65). Check: the day.'
+    src:
+      c: cc7fc992
+      rows:
+        - 'w.dikotter-maos-great-famine 143: all'
+        - 'via w.dikotter-maos-great-famine 143 n.65: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961-01.china-leadership-24
+    when: Jan.
+    date: 1961-01
+    place: shanghai
+    thread: china-leadership
+    also: [china]
+    c: 'As a Shanghai 上海 report has it: in December 1960 the China Machinery Plant works at a third of its capacity for want of electricity; the Number One Cotton Mill has 2,000 workers idle all day.'
+    n: '[[w.dikotter-maos-great-famine]], 153–154. Made public: 2010. To check: Shanghai Municipal Archives, Jan. 1961, A36-1-246, pp. 2–3 (cited by [[w.dikotter-maos-great-famine]], 154 n.39). Check: the day.'
+    src:
+      c: eecbdcf7
+      rows:
+        - 'w.dikotter-maos-great-famine 153-154: all'
+        - 'via w.dikotter-maos-great-famine 154 n.39: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961.china-leadership-76
+    when: '1961'
+    date: '1961'
+    place: shanghai
+    thread: china-leadership
+    also: [china]
+    c: 'As a Shanghai 上海 file has it: some 50,000 officials came to conferences in Shanghai in 1958, 100,000 in 1960, lodged in state hotels and fed at state banquets, the Donghu Hotel charging for nothing; roughly one high-level conference a day in 1960, some lasting over a month.'
+    n: '[[w.dikotter-maos-great-famine]], 193. Made public: 2010. To check: Shanghai Municipal Archives, 1961, B50-2-324, pp. 15–24 (cited by [[w.dikotter-maos-great-famine]], 193 n.7). Check: the day.'
+    src:
+      c: b22e26b0
+      rows:
+        - 'w.dikotter-maos-great-famine 193: all'
+        - 'via w.dikotter-maos-great-famine 193 n.7: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961.china-leadership-77
+    when: '1961'
+    date: '1961'
+    place: hubei
+    thread: china-leadership
+    also: [china]
+    c: 'As a Hubei 湖北 file has it: one person in five in the province''s cities has hepatitis in 1961; in Wuhan 武汉 some 270,000 of 900,000 tested positive.'
+    n: '[[w.dikotter-maos-great-famine]], 277. Made public: 2010. To check: Hubei Provincial Archives, 1961, SZ1-2-898, pp. 18–45 (cited by [[w.dikotter-maos-great-famine]], 277 n.13). Check: the day.'
+    src:
+      c: dfb17de9
+      rows:
+        - 'w.dikotter-maos-great-famine 277: all'
+        - 'via w.dikotter-maos-great-famine 277 n.13: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961.china-leadership-78
+    when: '1961'
+    date: '1961'
+    place: wuxi
+    thread: china-leadership
+    also: [china]
+    c: 'As a Wuxi 無錫 file has it: in the summer of 1960 up to a quarter of the villagers in parts of Wuxi have malaria.'
+    n: '[[w.dikotter-maos-great-famine]], 277. Made public: 2010. To check: Wuxi, 1961, B1-2-164, pp. 58–66 (cited by [[w.dikotter-maos-great-famine]], 277 n.15). Check: the day.'
+    src:
+      c: bdf9f0ae
+      rows:
+        - 'w.dikotter-maos-great-famine 277: all'
+        - 'via w.dikotter-maos-great-famine 277 n.15: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961-01.china-leadership-25
+    when: Jan.
+    date: 1961-01
+    place: shanghai
+    thread: china-leadership
+    also: [china]
+    c: 'As a Shanghai 上海 report has it: oedema spreads among the city''s high school students in 1960–61.'
+    n: '[[w.dikotter-maos-great-famine]], 286. Made public: 2010. To check: Shanghai Municipal Archives, Jan.–Feb. 1961, B242-1-1285, pp. 1–3 and 17–27 (cited by [[w.dikotter-maos-great-famine]], 286 n.60). Check: the day; the file is of January–February 1961.'
+    src:
+      c: cc23de83
+      rows:
+        - 'w.dikotter-maos-great-famine 286: all'
+        - 'via w.dikotter-maos-great-famine 286 n.60: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961.china-leadership-79
+    when: '1961'
+    date: '1961'
+    place: tianjin
+    thread: china-leadership
+    also: [china]
+    c: 'As a Hebei 河北 file has it: one in five at Nankai 南開 University, Tianjin 天津, has oedema.'
+    n: '[[w.dikotter-maos-great-famine]], 286. Made public: 2010. To check: Hebei Provincial Archives, 1961, 878-1-7, pp. 12–14 (cited by [[w.dikotter-maos-great-famine]], 286 n.61). Check: the day.'
+    src:
+      c: b923acc5
+      rows:
+        - 'w.dikotter-maos-great-famine 286: all'
+        - 'via w.dikotter-maos-great-famine 286 n.61: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961.china-leadership-80
+    when: '1961'
+    date: '1961'
+    place: sichuan
+    thread: china-leadership
+    also: [china]
+    c: 'As a file of 1961 has it: at Huangshui, Sichuan 四川, more than a third of the camp''s inmates starve to death.'
+    n: '[[w.dikotter-maos-great-famine]], 289. Made public: 2010. To check: Guangdong Provincial Archives, 1961, 216-1-252, pp. 5–7 and 20 (cited by [[w.dikotter-maos-great-famine]], 289 n.7). Check: the day; the note cites a Guangdong file for the Sichuan camp.'
+    src:
+      c: 2da02ce4
+      rows:
+        - 'w.dikotter-maos-great-famine 289: all'
+        - 'via w.dikotter-maos-great-famine 289 n.7: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961.china-5
+    when: 1961, early
+    date: '1961'
+    at: before 1961-01
+    place: anhui
+    thread: china
+    c: Anhui 安徽. Early in 1961, 65 more seizures of grain across the province, over 10,000 jin taken; by an inquiry into 22 seizures in 13 counties, Huainan 淮南 among them, 5,495 took part.
+    n: '[[w.yang-jisheng-mubei]], II, 1047. Made public: 1993. To check: Anhui sheng zhi: Gong''an zhi 《安徽省志·公安志》 (Hefei: Anhui renmin chubanshe, 1993), p. 238 (cited by [[w.yang-jisheng-mubei]], II, 1047 n.39). See [[cal.1960-12.china-5]]. Check: the day.'
+    src:
+      c: 004eeba2
+      rows:
+        - 'w.yang-jisheng-mubei II, 1047: all'
+        - 'via w.yang-jisheng-mubei II, 1047 n.39: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-01.china-6
+    when: Jan., after the inauguration
+    date: 1961-01
+    at: after 1961-01-20
+    thread: china
+    also: [soviet-union]
+    c: Kennedy orders an intensive study of the "Sino-Soviet dispute."
+    n: '[[w.chang-friends-and-enemies]], 220 ("as soon as he entered office"). Made public: 1990 ([[w.chang-friends-and-enemies]], 220). To check: Bohlen to Bundy, Feb. 16, 1961, Kennedy Papers, POF, box 106, Sino-Soviet Relations (cited by [[w.chang-friends-and-enemies]], 220 n.35a); Bowles to Kennedy, Mar. 29, 1961, Kennedy Papers, POF, box 88, State 4/61–5/61 (cited by [[w.chang-friends-and-enemies]], 220 n.35b). Names: Kennedy. Check: the day.'
+    src:
+      c: ba0d46d7
+      rows:
+        - 'w.chang-friends-and-enemies 220: all'
+        - 'via x.1961-02-16.bohlen-to-bundy: ?'
+        - 'via x.1961-03-29.bowles-to-kennedy: ?'
+    tags: [polity:us, vis:only:us, name:kennedy-john-f]
+  - id: cal.1961-01.testing
+    when: Jan.
+    date: 1961-01
+    thread: testing
+    also: [china]
+    c: 'CINCPAC''s "Pacific General War Plan": China might explode an atomic device by the end of 1962 and have a small arsenal of nuclear weapons by 1965.'
+    n: '[[w.chang-friends-and-enemies]], 229. Made public: 1990 ([[w.chang-friends-and-enemies]], 229). To check: Commander-in-Chief Pacific, "Pacific General War Plan (U)," Jan. 1961, D-9, RG 218, JCS 1961, box 44, CCS 3146, National Archives (cited by [[w.chang-friends-and-enemies]], 229 n.2a); Ciro E. Zoppo and Alice L. Hsieh, "The Accession of Other Nations to the Nuclear Test Ban," Mar. 8, 1961, 57, RG 218, JCS 1961, box 23 (cited by [[w.chang-friends-and-enemies]], 229 n.2b); [[w.hsieh-communist-chinas-strategy-in]], 154 (cited by [[w.chang-friends-and-enemies]], 229 n.2c).'
+    src:
+      c: 637241c4
+      rows:
+        - 'w.chang-friends-and-enemies 229: all'
+        - 'via x.1961-01.cincpac-pacific-general-war-plan: all'
+    tags: [polity:us, vis:only:us]
+  - id: cal.1961.china-leadership-81
+    when: '1961'
+    date: '1961'
+    thread: china-leadership
+    c: Lin Biao 林彪 and Luo Ronghuan 罗荣桓, head of the General Political Department 总政治部, differ over the study of Mao's works, Luo for its stand, viewpoint and method, against Lin's "study with problems in mind" 带着问题学. Lin, taking Luo Ruiqing 罗瑞卿 for Luo Ronghuan's side, turns on him.
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 22. Made public: 2008. Names: Lin Biao, Luo Ronghuan, Luo Ruiqing.'
+    src:
+      c: 504a94f0
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 22: all'
+    tags: [polity:prc, vis:only:prc, name:lin-biao, name:luo-ronghuan, name:luo-ruiqing]
+  - id: cal.1961.china-leadership-82
+    when: '1961'
+    date: '1961'
+    thread: china-leadership
+    c: 'Tian Han 田汉 rewrites the Shaanxi local opera *Nü xun''an* 〈女巡按〉 as the Peking opera *Xie Yaohuan* 〈谢瑶环〉: under the empress Wu Zetian a woman official pleads for the people and is killed by treacherous ministers.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 15 n.31.'
+    src:
+      c: 8ca54707
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 15 n.31: all'
+    tags: [polity:prc, ok:fields-place]
+  - id: cal.1961-01-31.china-leadership-13
+    when: Jan. 31
+    date: '1961-01-31'
+    thread: china-leadership
+    c: Zhu De 朱德 inspects the Xin'anjiang hydroelectric station 新安江水电站, Zhejiang 浙江.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1794. Names: Zhu De.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de]

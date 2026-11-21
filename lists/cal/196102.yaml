@@ -369,6 +369,38 @@ entries:
       - 1961-02-01T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-01.china-leadership-9
+    when: Feb. 1
+    date: '1961-02-01'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-diplomacy]
+    c: '*Renmin ribao*''s editorial hails the Sino-Vietnamese aid agreement: the unbreakable friendship of the two fraternal countries strengthened.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 183. To check: NCNA, 31 January 1961, SWB/FE/555/A3/1-5 (cited by [[w.guan-vietnamese-communists-relations-with]], 183 n.17).'
+    src:
+      rows:
+        - 'via x.1961-01-31.ncna-fe-555-a3-1-5: ?'
+    tags: [polity:prc]
+  - id: cal.1961-02-01.vietnam-hanoi
+    when: Feb. 1
+    date: '1961-02-01'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam-diplomacy]
+    c: '*Nhân Dân*''s editorial gives the agreement''s details and thanks China; the economic agreements with the Soviet Union and the bloc mentioned in passing.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 183. To check: NCNA, 31 January 1961, SWB/FE/555/A3/1-5 (cited by [[w.guan-vietnamese-communists-relations-with]], 183 n.17).'
+    src:
+      rows:
+        - 'via x.1961-01-31.ncna-fe-555-a3-1-5: ?'
+    tags: [polity:drv]
+  - id: cal.1961-02-01.china-leadership-10
+    when: Feb. 1
+    date: '1961-02-01'
+    place: jinhua
+    thread: china-leadership
+    c: Jinhua county 金华县, Zhejiang 浙江. Zhu De 朱德 inspects the flower and fruit team of the Luodian People's Commune 罗店人民公社.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1794. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1961-02-02.program
     when: Feb. 2
     date: '1961-02-02'
@@ -494,12 +526,13 @@ entries:
     place: fuzhou
     thread: china-leadership
     c: Fuzhou 福州 station, 5 p.m. Zhu De 朱德, just arrived, and Yang Shangkun 杨尚昆, boarding the train north for Zhangzhou 漳州, shake hands.
-    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 2, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1617 (Feb. 2, 1961; 5 p.m.; Deng leaves Fuzhou; Yang Shangkun not named). The words: 5时 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhu De, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 650 (Feb. 2, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1617 (Feb. 2, 1961; 5 p.m.; Deng leaves Fuzhou; Yang Shangkun not named); [[w.zhu-de-nianpu-xinbian]], III, 1794 (Feb. 2, 1961; Zhu De 朱德 arrives at Fuzhou 福州, Fujian 福建). The words: 5时 (I, 650). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhu De, Yang Shangkun.'
     src:
       c: 3e00da19
       rows:
         - 'w.yang-shangkun-riji I, 650: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1617: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1794: ?'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1961-02-02.china-leadership-6
@@ -748,6 +781,57 @@ entries:
       - 1961-02-03T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-03.vietnam-hanoi
+    when: Feb. 3
+    date: '1961-02-03'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam-diplomacy]
+    c: '*Nhân Dân*, an article by the DRV minister of light industry: these three years China has given long-term loans and helped build and restore many enterprises.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 183. To check: VNA, 3 February 1961, SWB/FE/558/A3/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 183 n.18).'
+    src:
+      rows:
+        - 'via x.1961-02-03.vna-fe-558-a3-2: ?'
+    tags: [polity:drv]
+  - id: cal.1961-02-03.china-leadership-7
+    when: Feb. 3
+    date: '1961-02-03'
+    place: fuzhou
+    thread: china-leadership
+    c: Fuzhou 福州. Zhu De 朱德 hears Zhang Jizhong 张技中 and He Minxue 贺敏学, heads of the Fuzhou committee 中共福州市委.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1794. The words: 上午 (1794). Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    time_range:
+      - 1961-02-02T22:00Z
+      - 1961-02-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-03.china-leadership-8
+    when: Feb. 3
+    date: '1961-02-03'
+    place: fuzhou
+    thread: china-leadership
+    c: Fuzhou 福州. Zhu De 朱德 sees the city.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1794. The words: 上午 (1794). Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
+    time_range:
+      - 1961-02-02T22:00Z
+      - 1961-02-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-03.china-leadership-9
+    when: Feb. 3
+    date: '1961-02-03'
+    place: fuzhou
+    thread: china-leadership
+    c: Fuzhou 福州. Zhu De 朱德 and Chen Shizhang 陈时璋, horticulturist of the city's parks office 福州市园林管理处, exchange their experience of growing and tending orchids.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1794. The words: 下午 (1794). Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
+    time_range:
+      - 1961-02-03T04:00Z
+      - 1961-02-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-04.defense
     when: Feb. 4–5
     date: '1961-02-04'
@@ -913,6 +997,25 @@ entries:
       - 1961-02-04T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-04.china-leadership-10
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    c: 'Zhu De 朱德 inspects the Fujian 福建 front and climbs Mount Gu 鼓山 on the north bank of the mouth of the Min River 闽江. Hearing the Fujian committee 中共福建省委 on coastal defense: the defense works needed, not to be slighted, but the true wall of bronze and iron is the people; armed for people''s war, they will catch the enemy whether he comes by sky or by sea.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1795. Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc@B-C]
+  - id: cal.1961-02-04.china-leadership-11
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    c: Zhu De 朱德 writes the poem "Visiting Mount Gu" 《游鼓山》 (the mountain shields Fuzhou 福州; typhoons never reach it).
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1795. The words: 晚 (1795). Names: Zhu De.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de]
+    time_range:
+      - 1961-02-04T11:00Z
+      - 1961-02-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-05.china-leadership
     when: Feb. 5
     date: '1961-02-05'
@@ -1009,6 +1112,27 @@ entries:
         - 'w.dikotter-maos-great-famine 293: all'
         - 'via w.dikotter-maos-great-famine 293 n.6: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-05.china-leadership-8
+    when: Feb. 5
+    date: '1961-02-05'
+    place: puning
+    thread: china-leadership
+    also: [china]
+    c: 'As a Guangdong 广东 report has it: suicides in Puning 普寧 "ceaseless"; some take their lives out of shame at having stolen from fellow villagers.'
+    n: '[[w.dikotter-maos-great-famine]], 304. Made public: 2010. To check: Guangdong Provincial Archives, Feb. 5, 1961, 217-1-119, p. 45 (cited by [[w.dikotter-maos-great-famine]], 304 n.73).'
+    src:
+      c: 1e571b7f
+      rows:
+        - 'w.dikotter-maos-great-famine 304: all'
+        - 'via w.dikotter-maos-great-famine 304 n.73: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961-02-05.china-leadership-9
+    when: Feb. 5
+    date: '1961-02-05'
+    thread: china-leadership
+    c: Zhu De 朱德, with Xu Teli 徐特立, Xie Juezai 谢觉哉 and others, goes by boat on the Min River 闽江, accompanied by Ye Fei 叶飞, first secretary of the Fujian committee and commander and political commissar of the Fuzhou Military Region 福州军区.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1795. Names: Zhu De.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de]
   - id: cal.1961-02-06.defense
     when: Feb. 6
     date: '1961-02-06'
@@ -1222,6 +1346,28 @@ entries:
     c: 'Zhang Hanfu gives Sudarikov China''s reply on Laos in writing, after the two Soviet memoranda Chervonenko had given Chen Yi, as Chen Yi and Chervonenko speak of it on Feb. 8: the two governments of one view.'
     n: '"[Transcript of Vice Premier Cheny Yi and Soviet Ambassador S.V. Chervonenko discussing the Laos Issue](https://digitalarchive.umd.edu/document/120874)" (Feb. 8, 1961), PRC FMA 109-03754-03, 72–82, obtained by Yiming Feng, trans. Marian Rosenberg, Wilson Center Digital Archive (Chen Yi: on "the sixth" Zhang Hanfu "gave our response" to Sudarikov; Chervonenko: "the documents given to us by Comrade Zhang Hanfu on February 6th"). The record gives no place, hour or titles. Check: the year the Archive posted the document.'
     tags: [polity:prc, polity:ussr, vis:only:prc+ussr]
+  - id: cal.1961-02-06.china-leadership-9
+    when: Feb. 6
+    date: '1961-02-06'
+    place: yunnan
+    thread: china-leadership
+    also: [china]
+    c: 'As a Yunnan 雲南 report has it: the temperature in some of the province''s granaries reaches 39 to 43 degrees Celsius.'
+    n: '[[w.dikotter-maos-great-famine]], 137. Made public: 2010. To check: Yunnan Provincial Archives, Feb. 6, 1961, 120-1-193, pp. 108–9 (cited by [[w.dikotter-maos-great-famine]], 137 n.33).'
+    src:
+      c: fe850b2f
+      rows:
+        - 'w.dikotter-maos-great-famine 137: all'
+        - 'via w.dikotter-maos-great-famine 137 n.33: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961-02-06.china-leadership-10
+    when: Feb. 6
+    date: '1961-02-06'
+    place: fuzhou
+    thread: china-leadership
+    c: 'Fuzhou 福州. Zhu De 朱德 visits the West Lake Park 西湖公园; at its orchid garden, to Chen Shizhang 陈时璋: the orchids of Liuxiang Gorge 留香涧 in the Wuyi Mountains 武夷山 are many; gather them widely and breed them in quantity for export, for cultural exchange and the orchid catalogue.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1794–1795. Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc@C-D]
   - id: cal.1961-02-07.king
     when: Feb. 7
     date: '1961-02-07'
@@ -1257,13 +1403,14 @@ entries:
     date: '1961-02-07'
     thread: vietnam-hanoi
     c: 'Lê Duẩn to "Mười Cúc" and the Nam Bộ comrades: not the Chinese road of a long war from the countryside, but struggle in town and country at once, toward a general uprising; political forces built with the armed; "We are weaker than the enemy"; "We must know to exploit time."'
-    n: '[[w.asselin-hanois-road-to-the]], 94; [[w.lich-su-khang-chien-chong-my]], III, 34–35 (the letter, to Nguyễn Văn Linh: base areas, forces, the enemy''s forces to be destroyed). Made public: Lê Duẩn, *Thư vào Nam* (Hanoi), by Asselin''s note (94 n.6; Check: the first printing). To check: Lê Duẩn, *Thư vào Nam* (Hanoi, 2005), 7–15 (cited by [[w.asselin-hanois-road-to-the]], 94 n.6). See [[cal.1961-01-24.vietnam-hanoi]]. Names: Lê Duẩn.'
+    n: '[[w.asselin-hanois-road-to-the]], 94; [[w.lich-su-khang-chien-chong-my]], III, 34–35 (the letter, to Nguyễn Văn Linh: base areas, forces, the enemy''s forces to be destroyed); [[w.guan-vietnamese-communists-relations-with]], 184–185 (separate but coordinated risings to make base areas, guerrilla war, a general rising at the last; political struggle backed by armed the leading role now; the armed forces too few, the Central Highlands not held; cities taken could not be kept; the Highlands the pivot, the countryside and deltas around them the objectives, the cities last; in 1961 the Center to help Interzone V and Nam Bộ form twelve battalions and send Nam Bộ cadres for seven). Made public: Lê Duẩn, *Thư vào Nam* (Hanoi), by Asselin''s note (94 n.6; Check: the first printing). To check: Lê Duẩn, *Thư vào Nam* (Hanoi, 2005), 7–15 (cited by [[w.asselin-hanois-road-to-the]], 94 n.6); [[w.duan-thu-vao-nam]], 31–38 (cited by [[w.guan-vietnamese-communists-relations-with]], 185 n.21). See [[cal.1961-01-24.vietnam-hanoi]]. Names: Lê Duẩn.'
     src:
       c: e76224f9
       rows:
         - 'w.asselin-hanois-road-to-the 94: all'
         - 'via x.1961-02-07.le-duan-gui-anh-muoi-cuc: all'
         - 'w.lich-su-khang-chien-chong-my III, 34–35: A'
+        - 'w.guan-vietnamese-communists-relations-with 184–185: ?'
     tags: [name:le-duan]
     time_range:
       - 1961-02-07T02:00Z
@@ -1358,6 +1505,32 @@ entries:
       - 1961-02-06T22:00Z
       - 1961-02-07T04:00Z
     time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-07.china-leadership-7
+    when: Feb. 7
+    date: '1961-02-07'
+    place: fuzhou
+    thread: china-leadership
+    c: Fuzhou 福州. Zhu De 朱德 inspects the Fuzhou No. 2 bodiless lacquerware works 福州第二脱胎漆器厂, the Fuzhou wood-picture works 福州木画厂 and the Fuzhou stone-carving works 福州石雕厂.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1795. The words: 上午 (1795). Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
+    time_range:
+      - 1961-02-06T22:00Z
+      - 1961-02-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-07.china-leadership-8
+    when: Feb. 7
+    date: '1961-02-07'
+    place: fuzhou
+    thread: china-leadership
+    c: 'Fuzhou 福州. Zhu De 朱德 hears Liang Lingguang 梁灵光, alternate secretary of the Fujian committee''s Secretariat and vice-governor, and Gao Panjiu 高盘九, vice-governor, on finance, trade and industry: value foreign trade, more and better exports into the world market, for foreign exchange and capital; beside modern industry, handicrafts and craft goods, for jobs and exports.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1795. The words: 下午 (1795). Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    time_range:
+      - 1961-02-07T04:00Z
+      - 1961-02-07T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1961-02-08.cuba
     when: Feb. 8
@@ -1616,6 +1789,27 @@ entries:
       - 1961-02-08T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-08.china-leadership-8
+    when: Feb. 8
+    date: '1961-02-08'
+    thread: china-leadership
+    c: Zhu De 朱德 inspects the Gutian 古田 reservoir's power station, Fujian 福建, and hears its report.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1795. Names: Zhu De.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de]
+  - id: cal.1961-02-08.china-leadership-9
+    when: Feb. 8
+    date: '1961-02-08'
+    thread: china-leadership
+    c: Zhu De 朱德 writes a poem to the rhymes of Xie Juezai's 谢觉哉 "Boating on the Gutian reservoir" 《和谢老〈泛舟古田水库〉原韵》 (four-stage power stations; irrigation, shipping and fish).
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1796. Names: Zhu De.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de]
+  - id: cal.1961-02-08.china-leadership-10
+    when: Feb. 8
+    date: '1961-02-08'
+    thread: china-leadership
+    c: 'Zhu De 朱德 inspects western Fujian 闽西. Passing the Wuyi Mountains 武夷山, he recalls the Red Army''s 红军 attack on Ganzhou 赣州 in the spring of 1932: Wang Ming''s 王明 "left" opportunism pressed the wrong line of attacking central cities, and Ganzhou was not taken; Mao Zedong 毛泽东 proposed pushing into the Fujian–Zhejiang–Jiangxi region toward Zhejiang, was not heeded, and the forces were scattered, until Mao took Zhangzhou 漳州. The same day he writes the poem "Thoughts on passing western Fujian" 《经闽西感怀》.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1796. Made public: 2016. Names: Zhu De, Mao Zedong. Check: the day: the *Zhu De nianpu* prints this trip under Feb. 9, 1961, after that day''s items, as "the day before" (昨日), when it has Zhu De at the Gutian reservoir.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, vis:only:prc@B-C]
   - id: cal.1961-02-09.medicare
     when: Feb. 9
     date: '1961-02-09'
@@ -1770,6 +1964,31 @@ entries:
       - 1961-02-09T11:00Z
       - 1961-02-09T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-09.china-leadership-6
+    when: Feb. 9
+    date: '1961-02-09'
+    thread: china-leadership
+    c: Zhu De 朱德 hears Guo Liang 郭良, alternate secretary of the Fujian committee's Secretariat 中共福建省委书记处, on farm output.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1796. The words: 上午 (1796). Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, vis:only:prc]
+    time_range:
+      - 1961-02-08T22:00Z
+      - 1961-02-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-09.china-leadership-7
+    when: Feb. 9
+    date: '1961-02-09'
+    place: fuzhou
+    thread: china-leadership
+    c: Fuzhou 福州. Zhu De 朱德 inspects the Fuzhou tea works 福州制茶厂.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1796. The words: 下午 (1796). Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
+    time_range:
+      - 1961-02-09T04:00Z
+      - 1961-02-09T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1961-02-10.opinion
     when: Feb. 10–15
@@ -2054,19 +2273,30 @@ entries:
       - 1961-02-10T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-10.laos
+    when: Feb. 10
+    date: '1961-02-10'
+    thread: laos
+    c: 'As Australian intelligence has it, by the Australian High Commissioner''s office in London: the Pathet Lao not exploiting Phoumi Nosavan''s slow advance; with Vietnamese help they could probably beat him quickly, but are holding back.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 177. Made public: 1997. To check: FO 371/159824, DF 1015/241, 10 February 1961, from the Office of the High Commissioner for Australia (London) to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 177 n.111). Names: Phoumi Nosavan.'
+    src:
+      rows:
+        - 'via x.1961-02-10.fo-159824-df-1015-241: ?'
+    tags: [form:state, polity:australia, polity:uk, polity:pathet-lao, name:phoumi-nosavan, vis:only:australia+uk, ok:fields-place]
   - id: cal.1961-02-11.soviet-union
     when: Feb. 11–13
     date: '1961-02-11'
     place: washington
     thread: soviet-union
     c: 'Cabinet Room, on the thinking of the Soviet leadership: Kennedy, Johnson and Rusk with Thompson, home for consultation, Harriman, Bohlen and Kennan. Khrushchev strong at home, agriculture his weakness; he wants a quiet time abroad and progress on disarmament; Berlin not brought to a boil unless talks break down. Feb. 13, Thompson before the Foreign Relations Committee in executive session.'
-    n: 'FRUS 1961–63, V, docs. [26](https://history.state.gov/historicaldocuments/frus1961-63v05/d26) (Bundy''s notes), [27](https://history.state.gov/historicaldocuments/frus1961-63v05/d27). [[w.fursenko-one-hell-of-a]], 87–88 (the meeting on a summit); [[w.sorensen-kennedy]], 541–42. To check: [[w.bohlen-witness-to-history-1929]]. See [[cal.1961-01-20.soviet-union]]. Names: Johnson, Rusk, Thompson, Harriman, Bohlen, Kennan, Khrushchev.'
+    n: 'FRUS 1961–63, V, docs. [26](https://history.state.gov/historicaldocuments/frus1961-63v05/d26) (Bundy''s notes), [27](https://history.state.gov/historicaldocuments/frus1961-63v05/d27). [[w.fursenko-one-hell-of-a]], 87–88 (the meeting on a summit); [[w.sorensen-kennedy]], 541–42; [[w.chang-friends-and-enemies]], 229–30 (Kennedy, Johnson, Rusk, Harriman, Thompson, Bohlen, Kennan and Bundy at the White House on "the thinking of the Soviet leadership": Khrushchev perhaps eager for a success with the West on arms control; after the United States, Germany and China the Soviet Union''s "great long-run worries"; restraining the Chinese "a continuing task of the Soviet government"). To check: [[w.bohlen-witness-to-history-1929]]; Bundy, "Notes on Discussion of the Thinking of the Soviet Leadership, Cabinet Room, Feb. 11, 1961," 1–6, Kennedy Papers, NSF, CF, box 176 (cited by [[w.chang-friends-and-enemies]], 230 n.3a); [[w.bohlen-witness-to-history-1929]], 475 (cited by [[w.chang-friends-and-enemies]], 230 n.3e). See [[cal.1961-01-20.soviet-union]]. Names: Johnson, Rusk, Thompson, Harriman, Bohlen, Kennan, Khrushchev.'
     src:
       c: ccc16f81
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v05/d26: all'
         - 'w.fursenko-one-hell-of-a 87–88: A'
         - 'w.sorensen-kennedy 541–42: all'
+        - 'w.chang-friends-and-enemies 229–30: ?'
     tags: [name:khrushchev-nikita-s, name:kennedy-john-f, name:johnson-lyndon-b, name:rusk-dean, name:thompson-llewellyn-e, name:harriman-w-averell, name:bohlen-charles-e, name:kennan-george-f]
   - id: cal.1961-02-11.cuba
     when: Feb. 11
@@ -2185,6 +2415,14 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 102: all'
     tags: [polity:prc, name:peng-zhen, name:chen-yi, name:liu-shaoqi, name:zhou-enlai, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1961-02-11.soviet-union-leadership
+    when: Feb. 11
+    date: '1961-02-11'
+    thread: soviet-union-leadership
+    also: [soviet-union]
+    c: Khrushchev, touring the farm regions, is suddenly called back to Moscow; his rivals in the Presidium, it was believed, had met and demanded a tougher line toward the United States.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 182 (by Beschloss, who names no source). Made public: 1991 ([[w.beschloss-crisis-years]]). To check: [[w.beschloss-crisis-years]], 77–78, 157–158 (cited by [[w.guan-vietnamese-communists-relations-with]], 182 n.12). Names: Khrushchev.'
+    tags: [polity:ussr, name:khrushchev-nikita-s, vis:only:ussr, ok:fields-place]
   - id: cal.1961-02-12.opinion
     when: Feb. 12
     date: '1961-02-12'
@@ -2764,7 +3002,7 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam]
     c: War Zone D. The South's armed forces unified as the South Vietnam Liberation Army, its first parade. Trần Văn Quang over its military work, Trần Lương its political. About the same time Nam Bộ divided into four military regions (Eastern, Central, Western Nam Bộ, Saigon–Gia Định), Nguyễn Hữu Xuyến, Lê Quốc Sản, Cao Hoài Phô and Trần Hải Phụng their commanders.
-    n: '[[w.lich-su-khang-chien-chong-my]], III, 36 n.4, 43. Made public: 2013. Names: Trần Văn Quang, Trần Lương, Nguyễn Hữu Xuyến, Lê Quốc Sản, Cao Hoài Phô, Trần Hải Phụng.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 36 n.4, 43; [[w.guan-vietnamese-communists-relations-with]], 185 ("the Armed Forces for the Liberation of South Vietnam"). Made public: 2013. To check: [[w.lich-su-quan-doi]], 116–122 (printed "16-122") (cited by [[w.guan-vietnamese-communists-relations-with]], 185 n.22a); Liberation Press Agency, Feb. 15, 1971, SWB/FE/3612/A3/5-9 (the tenth anniversary of the unification of the South Vietnamese People''s Liberation Armed Forces) (cited by [[w.guan-vietnamese-communists-relations-with]], 185 n.22b). Names: Trần Văn Quang, Trần Lương, Nguyễn Hữu Xuyến, Lê Quốc Sản, Cao Hoài Phô, Trần Hải Phụng.'
     tags: [polity:drv, vis:only:drv]
   - id: cal.1961-02-15.china-leadership-8
     when: Feb. 15
@@ -2877,7 +3115,7 @@ entries:
     date: '1961-02-16'
     thread: china-leadership
     c: '*Beijing Wanbao* prints Liao Mosha''s article "''History'' and ''Drama''," asking Wu Han whether historical and dramatic truth differ; the exchange between them follows, and other commentaries on Wu Han''s play.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 253. To check: [[w.mosha-liao-mosha-wenji]], 2, 80–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37a); [[w.mosha-liao-mosha-wenji]], 2, 447 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37b); Liao Mosha, "''History'' and ''Drama,''" [[w.beijing-wanbao]], Feb. 16, 1961, in [[w.mosha-liao-mosha-wenji]], 2, 80–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37c).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 253; [[w.pu-weihua-zalan-jiu-shijie]], 9 (Liao Mosha as Fan Xing 繁星, three questions put to Wu Han; Wu answers on the 28th; more pieces in the *Beijing wanbao* after). To check: [[w.mosha-liao-mosha-wenji]], 2, 80–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37a); [[w.mosha-liao-mosha-wenji]], 2, 447 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37b); Liao Mosha, "''History'' and ''Drama,''" [[w.beijing-wanbao]], Feb. 16, 1961, in [[w.mosha-liao-mosha-wenji]], 2, 80–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37c).'
     src:
       c: f400cda3
       rows:
@@ -2885,7 +3123,13 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.37a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.37b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.37c: all'
+        - 'w.pu-weihua-zalan-jiu-shijie 9: ?'
     tags: [polity:prc]
+    variants:
+      - unit: A
+        witness: w.pu-weihua-zalan-jiu-shijie
+        reads: the article printed Feb. 26, 1961
+        at: '9'
   - id: cal.1961-02-16.china-leadership-2
     when: Feb. 16
     date: '1961-02-16'
@@ -3241,6 +3485,17 @@ entries:
       - 1961-02-18T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-18.laos
+    when: Feb. 18
+    date: '1961-02-18'
+    thread: laos
+    also: [soviet-union]
+    c: 'The Soviet reply: no need to consult the King, the prisoner of the Phoumi Nosavan–Boun Oum rebels; Souvanna Phouma''s legal government has already agreed that the Commission resume.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 175. To check: BBC, Summary of World Broadcasts, Dec. 1960–Feb. 1961 (the sequence of exchanges on a conference on Laos, as the author directs) (cited by [[w.guan-vietnamese-communists-relations-with]], 175 n.103). Names: Phoumi Nosavan, Boun Oum, Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1961-01.swb-laos-conference-sequence: ?'
+    tags: [polity:ussr, polity:uk, name:phoumi-nosavan, name:boun-oum-na-champassak, name:souvanna-phouma, ok:fields-place]
   - id: cal.1961-02-19.china-leadership
     when: Feb. 19
     date: '1961-02-19'
@@ -3538,6 +3793,20 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 106: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-20.china-leadership-6
+    when: Feb. 20
+    date: '1961-02-20'
+    thread: china-leadership
+    also: [china]
+    c: 'A document of the Center, Zhongfa [61] 145: in Zhucheng county, Shandong 山東, each kilo of grain crawls with hundreds of insects; in the Anshan 鞍山 region, Liaoning 遼寧, 400 tonnes of grain a month were lost in 1960 to theft and corruption.'
+    n: '[[w.dikotter-maos-great-famine]], 137–138. Made public: 2010. To check: Zhongfa [61] 145, Feb. 20, 1961, Gansu Provincial Archives, 91-18-211, pp. 91–2 (cited by [[w.dikotter-maos-great-famine]], 137 n.30, 138 n.36).'
+    src:
+      c: b2822af2
+      rows:
+        - 'w.dikotter-maos-great-famine 137-138: all'
+        - 'via w.dikotter-maos-great-famine 137 n.30: all'
+        - 'via w.dikotter-maos-great-famine 138 n.36: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
   - id: cal.1961-02-21.africa
     when: Feb. 21
     date: '1961-02-21'
@@ -3680,6 +3949,18 @@ entries:
       - 1961-02-21T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-21.vietnam-diplomacy
+    when: Feb. 21–22
+    date: '1961-02-21'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Souvanna Phouma passes through Hanoi on his way to Xieng Khouang, without publicity.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176. Made public: 1997. To check: FO 371/159826, DF 1015/300, 26 February 1961, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.109a). Names: Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1961-02-26.fo-159826-df-1015-300: ?'
+    tags: [polity:laos, polity:drv, name:souvanna-phouma, vis:only:laos+drv]
   - id: cal.1961-02-22.berlin-and-vienna
     when: Feb. 22
     date: '1961-02-22'
@@ -4194,6 +4475,31 @@ entries:
       - 1961-02-24T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-24.vietnam-diplomacy
+    when: Feb. 24–26
+    date: '1961-02-24'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Souvanna Phouma again through Hanoi, on his way to Phong Saly, without publicity.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176. Made public: 1997. To check: FO 371/159826, DF 1015/300, 26 February 1961, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.109a). See [[cal.1961-02-21.vietnam-diplomacy]]. Names: Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1961-02-26.fo-159826-df-1015-300: ?'
+    tags: [polity:laos, polity:drv, name:souvanna-phouma, vis:only:laos+drv]
+  - id: cal.1961-02-24.china
+    when: Feb. 24
+    date: '1961-02-24'
+    place: canton
+    thread: china
+    c: 'As a Guangzhou 廣州 report has it: gambling an ingrained habit the authorities cannot stamp out; factory workers play poker for food rather than money, some staking up to 3,500 yuan.'
+    n: '[[w.dikotter-maos-great-famine]], 204. To check: Guangzhou Municipal Archives, Feb. 24, 1961, 92-1-275, p. 75 (cited by [[w.dikotter-maos-great-famine]], 204 n.29).'
+    src:
+      c: 65312ce6
+      rows:
+        - 'w.dikotter-maos-great-famine 204: all'
+        - 'via w.dikotter-maos-great-famine 204 n.29: all'
+    tags: [form:state, polity:prc]
   - id: cal.1961-02-25.vietnam
     when: Feb. 25
     date: '1961-02-25'
@@ -4201,7 +4507,7 @@ entries:
     thread: vietnam
     also: [vietnam-hanoi]
     c: 'The Politburo, sessions of Jan. 31 and Feb. 25, on the military tasks of 1961–65: peace in the North the first task; in the South armed struggle raised to equal weight with the political, ten to fifteen main-force regiments to be built; the Central Military Party Committee to direct the war there. Hồ Chí Minh to the closing session. The same day, its resolution 12-NQ/TW: a rectification campaign in the spring of 1961, ideological work tied to life and production, finished by the end of June; a Central Rectification Board under Trường Chinh.'
-    n: '[[w.vietnam-victory-in-vietnam]], 74–77, 455 nn.2, 5–7; [[w.asselin-hanois-road-to-the]], 92–94 (the session of January; Lê Duẩn''s letter to the South, Feb. 7); [[w.van-kien-dang-toan]], XXII, 205–14 (*Nghị quyết của Bộ Chính trị số 12-NQ/TW về cuộc vận động chỉnh huấn mùa xuân 1961*, Feb. 25, signed for the Politburo by Lê Duẩn; it names no session); [[w.lich-su-khang-chien-chong-my]], III, 102–05 (the Politburo''s resolution of Feb. 25 on the military tasks of 1961–65 and the South: peace in the North "the chief task"; a large American intervention to be avoided); [[w.lich-su-khang-chien-chong-my]], III, 38–39 (the session of Feb. 25: the General Military Commission renamed the Central Military Commission, fourteen members, Võ Nguyên Giáp secretary, Văn Tiến Dũng and Song Hào deputies; its charge, the military work in the South); [[w.lich-su-khang-chien-chong-my]], III, 64 (the spring rectification, decided in February). To check: the Politburo''s resolution of Feb. 25, 1961 (cited by [[w.vietnam-victory-in-vietnam]], 74 n.2); Hồ Chí Minh''s speech to the session of Feb. 25, 1961 (cited by [[w.vietnam-victory-in-vietnam]], 77 n.7); the Politburo''s instruction of Jan. 24, 1961, *Văn kiện Đảng toàn tập*, 22:153–55 (cited by [[w.asselin-hanois-road-to-the]], 92 n.1). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing); resolution 12-NQ/TW, 2002. Names: Hồ Chí Minh, Trường Chinh. Check: Asselin, 93, reads the January directive as preparation for war, the political struggle still first; his is the Politburo''s instruction of Jan. 24 (92 n.1).'
+    n: '[[w.vietnam-victory-in-vietnam]], 74–77, 455 nn.2, 5–7; [[w.asselin-hanois-road-to-the]], 92–94 (the session of January; Lê Duẩn''s letter to the South, Feb. 7); [[w.van-kien-dang-toan]], XXII, 205–14 (*Nghị quyết của Bộ Chính trị số 12-NQ/TW về cuộc vận động chỉnh huấn mùa xuân 1961*, Feb. 25, signed for the Politburo by Lê Duẩn; it names no session); [[w.lich-su-khang-chien-chong-my]], III, 102–05 (the Politburo''s resolution of Feb. 25 on the military tasks of 1961–65 and the South: peace in the North "the chief task"; a large American intervention to be avoided); [[w.lich-su-khang-chien-chong-my]], III, 38–39 (the session of Feb. 25: the General Military Commission renamed the Central Military Commission, fourteen members, Võ Nguyên Giáp secretary, Văn Tiến Dũng and Song Hào deputies; its charge, the military work in the South); [[w.lich-su-khang-chien-chong-my]], III, 64 (the spring rectification, decided in February); [[w.guan-vietnamese-communists-relations-with]], 185 (the Politburo approves the plan of the Central Military Committee and the Defense Ministry: four tasks, the North''s defense with an air-defense force, the start of an air force and navy, the army regular and modern; the South''s armed forces, platoons in the districts, companies and battalions in the provinces, ten to fifteen regiments with artillery; the Pathet Lao''s forces trained, Vietnamese troops to Laos as needed; a command system in the South; the Central Military Committee charged with the South. Hồ: a people''s army, a people''s war). To check: the Politburo''s resolution of Feb. 25, 1961 (cited by [[w.vietnam-victory-in-vietnam]], 74 n.2); Hồ Chí Minh''s speech to the session of Feb. 25, 1961 (cited by [[w.vietnam-victory-in-vietnam]], 77 n.7); the Politburo''s instruction of Jan. 24, 1961, *Văn kiện Đảng toàn tập*, 22:153–55 (cited by [[w.asselin-hanois-road-to-the]], 92 n.1); [[w.lich-su-quan-doi]], 130–135 (cited by [[w.guan-vietnamese-communists-relations-with]], 185 n.23). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing); resolution 12-NQ/TW, 2002. Names: Hồ Chí Minh, Trường Chinh. Check: Asselin, 93, reads the January directive as preparation for war, the political struggle still first; his is the Politburo''s instruction of Jan. 24 (92 n.1).'
     src:
       c: 9b942ce2
       rows:
@@ -4214,6 +4520,7 @@ entries:
         - 'w.lich-su-khang-chien-chong-my III, 102–05: A'
         - 'w.lich-su-khang-chien-chong-my III, 38–39: C'
         - 'w.lich-su-khang-chien-chong-my III, 64: E'
+        - 'w.guan-vietnamese-communists-relations-with 185: ?'
     tags: [name:ho-chi-minh, name:truong-chinh]
   - id: cal.1961-02-25.republican-party
     when: Feb. 25
@@ -5537,3 +5844,46 @@ entries:
       rows:
         - 'w.friedman-shadow-cold-war 61: all'
     tags: [polity:portugal]
+  - id: cal.1961-02.vietnam-diplomacy
+    when: Feb.
+    date: 1961-02
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Phạm Văn Đồng and Souvanna Phouma agree to exchange economic and cultural missions.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176. To check: FO 371/159826, DF 1015/300, 26 February 1961, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.109a). Names: Phạm Văn Đồng, Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1961-02-26.fo-159826-df-1015-300: ?'
+    tags: [polity:drv, polity:laos, name:pham-van-dong, name:souvanna-phouma, ok:fields-place]
+  - id: cal.1961-02.vietnam-diplomacy-2
+    when: Feb.
+    date: 1961-02
+    place:
+      - hanoi
+      - peking
+    thread: vietnam-diplomacy
+    also: [laos, china-leadership]
+    c: Sisana Sisane, editor of the Pathet Lao paper *Lao Hak Xat*, visits Hanoi and Peking after the Afro-Asian Solidarity conference at Cairo.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176.'
+    tags: [polity:pathet-lao, polity:drv, polity:prc]
+  - id: cal.1961-02.vietnam-diplomacy-3
+    when: Feb., after the 1st
+    date: 1961-02
+    at: after 1961-02-01
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: 'Nguyễn Duy Trinh''s economic delegation from Peking back to Eastern Europe by way of Moscow: Bucharest again; Tirana, where Trinh represents the Lao Động Party at the Albanian Party of Labor''s Fourth Congress; Warsaw; the Leipzig Fair; Sofia; Prague.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 183. Names: Nguyễn Duy Trinh.'
+    tags: [polity:drv, name:nguyen-duy-trinh, ok:fields-place]
+  - id: cal.1961-02-28.china-leadership-9
+    when: Feb. 28
+    date: '1961-02-28'
+    place: peking
+    thread: china-leadership
+    c: 'Wu Han 吴晗 answers Liao Mosha 廖沫沙 in the *Beijing wanbao* 北京晚报: "Some questions on historical plays" 〈关于历史剧的一些问题〉.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 9. See [[cal.1961-02-16.china-leadership]].'
+    src:
+      c: 8c058116
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 9: all'
+    tags: [polity:prc]

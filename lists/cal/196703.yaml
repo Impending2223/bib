@@ -2759,6 +2759,19 @@ entries:
         - 'w.friedman-shadow-cold-war 148–49: all'
         - 'via x.1967-03-15.scscaa-presidium-session-march-15-1967: ?'
     tags: [polity:ussr, vis:only:ussr, polity:cuba, ok:fields-place]
+  - id: cal.1967-03-15.china
+    when: Mar. 15
+    date: '1967-03-15'
+    thread: china
+    also: [soviet-union]
+    c: 'Denny, of INR, to Rusk: the Kremlin believes Peking regards "Moscow and not the West as its major enemy."'
+    n: '[[w.chang-friends-and-enemies]], 277 ("By March 1967 U.S. intelligence officials concluded"). Made public: 1990 ([[w.chang-friends-and-enemies]], 277). To check: Denny to Rusk, Mar. 15, 1967, Johnson Papers, NSF, CF, China, box 241, Memos (9) 3/67–6/67 (cited by [[w.chang-friends-and-enemies]], 277 n.48c). Names: Rusk.'
+    src:
+      c: 2903e837
+      rows:
+        - 'w.chang-friends-and-enemies 277: all'
+        - 'via x.1967-03-15.denny-to-rusk: all'
+    tags: [polity:us, vis:only:us, name:rusk-dean, ok:fields-place]
   - id: cal.1967-03-16.soviet-union
     when: Mar. 16
     date: '1967-03-16'
@@ -5300,11 +5313,12 @@ entries:
     thread: europe-and-the-alliance
     also: [elections-1968]
     c: 'Nixon with Adenauer, on his trip from Mar. 5, by Nixon''s account: the Communists in France and Italy to gain once de Gaulle goes; the Soviets "want the world"; a tilt toward Communist China against the Soviet threat.'
-    n: '[[w.nixon-rn]], 280–81. Names: Nixon, Adenauer, de Gaulle. Check: the day.'
+    n: '[[w.nixon-rn]], 280–81; [[w.chang-friends-and-enemies]], 283 (in Europe in March Nixon hears officials attack the belief that Moscow wants reconciliation with the West; Adenauer: to counterbalance the Soviet threat the United States should lean toward China). To check: Robert Scheer, "Nixon Urges Sharing Data on ''Star Wars,''" *Los Angeles Times*, July 1, 1984, part 1, 6 (cited by [[w.chang-friends-and-enemies]], 283 n.61). Names: Nixon, Adenauer, de Gaulle. Check: the day.'
     src:
       c: d0bf7f64
       rows:
         - 'w.nixon-rn 280–81: all'
+        - 'w.chang-friends-and-enemies 283: ?'
     tags: [name:nixon-richard-m, name:adenauer-konrad, name:de-gaulle-charles]
   - id: cal.1967-03.china
     when: Mar.
@@ -6321,3 +6335,31 @@ entries:
       rows:
         - 'w.teiwes-tragedy-of-lin-biao 49: all'
     tags: [polity:prc, name:lin-biao, name:ye-qun, vis:only:prc]
+  - id: cal.1967-03.china-leadership-37
+    when: Mar., after the 22nd
+    date: 1967-03
+    at: after 1967-03-22
+    thread: china-leadership
+    also: [china]
+    c: 'As the Fujian 福建 military control committee counts it: troops, armed forces departments and military control organs across the province seize and detain over 2,000 people and ban or dissolve over 80 mass organizations; 8 arrested and 65 detained in the army and the Military Region''s organs for breaking the "eight-article order."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 405. Made public: 2008. To check: 卜偉華:《砸爛舊世界》,第460頁 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 405 n.44). See [[cal.1967-03-22.china-leadership-3]]. Check: the day of the count.'
+    src:
+      c: c88ae166
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 405: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 405 n.44: all'
+    tags: [form:state, polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1967-03.china-leadership-38
+    when: Mar.
+    date: 1967-03
+    thread: china-leadership
+    c: The Central Committee 中共中央 orders every trace of Liu Shaoqi 刘少奇 obliterated, his calligraphy and photographs on objects and official papers among them; the Ministry of Internal Affairs, overwhelmed, delegates the removal of the pages to its local offices.
+    n: '[[w.dikotter-cultural-revolution]], 95–96 n.7. Made public: 2016. To check: Jiangsu Provincial Archives, Aug. 26, Dec. 8 and 15, 1966, 4016-3-119, pp. 1–19 (cited by [[w.dikotter-cultural-revolution]], 96 n.7a); Shanghai Municipal Archives, Mar. 24, 1967, B123-8-24, p. 24 (cited by [[w.dikotter-cultural-revolution]], 96 n.7b); Shanghai Municipal Archives, May 15, 1967, B168-3-132, pp. 49–50 (cited by [[w.dikotter-cultural-revolution]], 96 n.7c). Names: Liu Shaoqi. Check: the day.'
+    src:
+      c: 72f54901
+      rows:
+        - 'w.dikotter-cultural-revolution 95–96: all'
+        - 'via w.dikotter-cultural-revolution 96 n.7a: all'
+        - 'via w.dikotter-cultural-revolution 96 n.7b: all'
+        - 'via w.dikotter-cultural-revolution 96 n.7c: all'
+    tags: [polity:prc, vis:only:prc, name:liu-shaoqi, ok:fields-place]

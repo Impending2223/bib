@@ -4536,6 +4536,19 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 265–266: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1963-05-17.china-2
+    when: May 17
+    date: '1963-05-17'
+    thread: china
+    also: [soviet-union]
+    c: 'CIA, "Growth of Chinese Influence Among World Communists": the Chinese party still in the "distinct minority," but each attempt of Khrushchev''s to isolate it has alienated more Communist leaders; Khrushchev and his colleagues more concerned with the Communist world than with any other issue.'
+    n: '[[w.chang-friends-and-enemies]], 238–39. Made public: 1990 ([[w.chang-friends-and-enemies]], 239). To check: CIA, "Growth of Chinese Influence Among World Communists," May 17, 1963, cited by Bundy, Kennedy Papers, NSF, box 318, Index of Weekend Papers (cited by [[w.chang-friends-and-enemies]], 239 n.18). Names: Khrushchev.'
+    src:
+      c: a5e8480b
+      rows:
+        - 'w.chang-friends-and-enemies 238–39: all'
+        - 'via x.1963-05-17.cia-growth-chinese-influence-world-communists: all'
+    tags: [polity:us, vis:only:us, name:khrushchev-nikita-s]
   - id: cal.1963-05-18.middle-east
     when: May 18
     date: '1963-05-18'
@@ -5345,6 +5358,18 @@ entries:
       - 1963-05-22T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-22.testing
+    when: May 22
+    date: '1963-05-22'
+    thread: testing
+    c: 'News conference. Kennedy on the test ban: the Soviet position on the number of inspections unchanged. Asked where the genie is: "neither in nor out right now."'
+    n: 'The President''s News Conference, [1963 Pub. Papers 418](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476) (May 22, 1963). [[w.chang-friends-and-enemies]], 239 (no Soviet interest in a ban, their position unchanged for five months). Names: Kennedy. Check: the "genie" Chang gives as Kennedy''s words of May 22 is Kennedy''s of May 8 ([1963 Pub. Papers 377–78](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=435)) and the questioner''s on May 22.'
+    src:
+      c: ca8faf34
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476: all'
+        - 'w.chang-friends-and-enemies 239: ?'
+    tags: [polity:us, name:kennedy-john-f]
   - id: cal.1963-05-23.alabama-birmingham
     when: May 23
     date: '1963-05-23'
@@ -6145,6 +6170,19 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 269: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1963-05-26.china-leadership-9
+    when: May 26
+    date: '1963-05-26'
+    thread: china-leadership
+    also: [china]
+    c: 'The Center''s document Zhongfa (63) 368: opium is being grown again, fields from Heilongjiang 黑龙江 to Shanxi 山西; in Zunyi 遵义, Guizhou, dozens of opium dens operate with impunity.'
+    n: '[[w.dikotter-cultural-revolution]], 19 n.17. Made public: 2016. To check: Zhongfa (63) 368, May 26, 1963, Shandong Provincial Archives, A1-2-1157, pp. 11–14 (cited by [[w.dikotter-cultural-revolution]], 19 n.17).'
+    src:
+      c: d03b6a7c
+      rows:
+        - 'w.dikotter-cultural-revolution 19: all'
+        - 'via w.dikotter-cultural-revolution 19 n.17: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
   - id: cal.1963-05-27.court
     when: May 27
     date: '1963-05-27'
@@ -7825,3 +7863,29 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 270: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1963-05.testing-3
+    when: May
+    date: 1963-05
+    place: washington
+    thread: testing
+    also: [china]
+    c: 'Foster, for ACDA, before the Senate Preparedness Investigating Subcommittee: "no illusions that China would sign a test ban treaty in the near future"; a treaty would strengthen the Soviet effort against China''s program, leave China no excuse in American or Soviet testing, and have "a divisive effect on Sino-Soviet relations."'
+    n: '[[w.chang-friends-and-enemies]], 237–38. To check: Senate Preparedness Investigating Subcommittee, *Military Aspects*, 7–11 (cited by [[w.chang-friends-and-enemies]], 238 n.17a); [[w.bundy-danger-and-survival]], 461 (cited by [[w.chang-friends-and-enemies]], 238 n.17b). Names: Foster, Stennis. Check: the day.'
+    src:
+      c: c97b746d
+      rows:
+        - 'w.chang-friends-and-enemies 237–38: all'
+        - 'via x.1963.senate-preparedness-military-aspects-test-ban: all'
+    tags: [polity:us, name:foster-william-c, name:stennis-john-c]
+  - id: cal.1963-05.testing-4
+    when: May, after the 22nd
+    date: 1963-05
+    at: after 1963-05-22
+    thread: testing
+    c: 'Rusk, news conference: as pessimistic as the President on the test ban.'
+    n: '[[w.chang-friends-and-enemies]], 239 ("the following week"). To check: U.S., Arms Control and Disarmament Agency, *Documents on Disarmament, 1963*, 194; the *New York Times*, May 30, 1963, 1 (cited by [[w.chang-friends-and-enemies]], 239 n.20). Names: Rusk. Check: the day.'
+    src:
+      c: c7862316
+      rows:
+        - 'w.chang-friends-and-enemies 239: all'
+    tags: [polity:us, name:rusk-dean]

@@ -141,6 +141,14 @@ entries:
       - 1961-12-01T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-01.laos
+    when: Dec. 1
+    date: '1961-12-01'
+    place: khang-khay
+    thread: laos
+    c: Khang Khay. The Chinese now assent to the princes' meeting at Vientiane, refused before; Marek Thee, arriving, finds the Laotians, Vietnamese and Chinese agreed on it, a test of American and Vientiane intentions. The meeting later set for Dec. 27.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 209 (by Thee). Made public: 1973 ([[w.thee-notes-of-a-witness]]). To check: [[w.thee-notes-of-a-witness]], 202 (cited by [[w.guan-vietnamese-communists-relations-with]], 209 n.24).'
+    tags: [polity:prc, polity:drv, polity:laos, vis:only:prc+drv+laos+poland]
   - id: cal.1961-12-02.cuba
     when: Dec. 2
     date: '1961-12-02'
@@ -238,6 +246,17 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 161: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-12-02.laos
+    when: Dec. 2
+    date: '1961-12-02'
+    place: geneva
+    thread: laos
+    c: 'As the British delegation at Geneva reports it: four items left on the agenda.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 209. Made public: 1997. To check: FO 371/159953, DF 2231/519, 2 December 1961, from Geneva to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 209 n.23b); FO 371/159954, DF 2231/527, 4 December 1961, from Geneva to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 209 n.23c).'
+    src:
+      rows:
+        - 'via x.1961-12-02.fo-159953-df-2231-519: ?'
+    tags: [form:state, polity:uk, vis:only:uk]
   - id: cal.1961-12-03.soviet-union-leadership
     when: Dec. 3
     date: '1961-12-03'
@@ -385,11 +404,12 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: The Soviet Union formally notifies Albania 阿尔巴尼亚 that it breaks off diplomatic relations, as the Albanian Embassy telephones Yang Shangkun 杨尚昆 on Dec. 5.
-    n: '[[w.yang-shangkun-riji]], II, 96 (Dec. 5, 1961; the Albanian Embassy''s word that day: the notice came "yesterday"). Names: Yang Shangkun. Check: the day: [[w.lengxi-shinian-lunzhan-1956-1966]] gives the break Dec. 3 in Liu Shaoqi''s speech (483) and the Soviet diplomats'' withdrawal Dec. 15 (481), as the calendar cites it under Dec. 21.'
+    n: '[[w.yang-shangkun-riji]], II, 96 (Dec. 5, 1961; the Albanian Embassy''s word that day: the notice came "yesterday"); [[w.guan-vietnamese-communists-relations-with]], 206 (neither China nor North Vietnam follows suit). Names: Yang Shangkun. Check: the day: [[w.lengxi-shinian-lunzhan-1956-1966]] gives the break Dec. 3 in Liu Shaoqi''s speech (483) and the Soviet diplomats'' withdrawal Dec. 15 (481), as the calendar cites it under Dec. 21.'
     src:
       c: c705e9fc
       rows:
         - 'w.yang-shangkun-riji II, 96: all'
+        - 'w.guan-vietnamese-communists-relations-with 206: ?'
     tags: [polity:ussr]
   - id: cal.1961-12-04.china-leadership-4
     when: Dec. 4
@@ -730,6 +750,18 @@ entries:
       - 1961-12-06T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-06.vietnam-diplomacy
+    when: Dec. 6
+    date: '1961-12-06'
+    place: peking
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Peking. Marshal Ye Jianying's military delegation, to visit North Vietnam at Giáp's invitation, at the banquet of the Vietnamese chargé d'affaires.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 210. To check: BBC, Summary of World Broadcasts, Far East, SWB/FE/816/(i) (Dec. 1961) (cited by [[w.guan-vietnamese-communists-relations-with]], 210 n.28). Names: Ye Jianying, Võ Nguyên Giáp.'
+    src:
+      rows:
+        - 'via x.1961-12.swb-fe-816-i: ?'
+    tags: [polity:prc, polity:drv, name:ye-jianying, name:vo-nguyen-giap]
   - id: cal.1961-12-07.states-and-cities-nh
     when: Dec. 7
     date: '1961-12-07'
@@ -1022,6 +1054,14 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 162–163: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-time]
+  - id: cal.1961-12-08.vietnam-diplomacy
+    when: Dec. 8
+    date: '1961-12-08'
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: The DRV Defense Ministry's communiqué on the Chinese military delegation's visit, to fall on the army's seventeenth anniversary, Dec. 22.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 210.'
+    tags: [polity:drv, ok:fields-place]
   - id: cal.1961-12-09.crime-and-hijacking
     when: Dec. 9
     date: '1961-12-09'
@@ -1047,7 +1087,7 @@ entries:
     place: peking
     thread: china-leadership
     c: At the Changguanlou, a building near the Peking Zoo, the Peking Party committee's task force under Deng Tuo reviews central documents under nine heads; by a Cultural Revolution account it produces a 20,000-word "Extracts from central documents," prefaced by a note dating the directives that caused problems to the two upsurges of the Leap.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 182–83; [[w.macfarquhar-origins-of-the-cultural]], III, 257 (Deng Tuo''s leading part in compiling the Peking Party''s dossiers on the Leap at the Changguanlou); [[w.yang-jisheng-tiandi-fanfu]], I, 59 (by the Red Guard exposé, Jan. 1961: Peng Zhen has Xiang Ziming 項子明, secretary-general of the Peking committee, organize and Deng Tuo guide some ten men, ten days and more, in going through the Center''s documents since 1958; nearly 20,000 characters, "Extracts from central documents," sent to Peng as top secret; the note: December 1961, not January, at the Secretariat''s behest, for the Seven Thousand Cadres Conference). Made public: 1997. Check: the analysis the book cites (III, 257) places the Changguanlou compilation in November. To check: [[w.jingxin-dongpode-gongting-zhenbian]], 1–13 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.5a); [[w.dangdai-zhongguode-beijing-contemporary]], 1, 155–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.5b); [[w.wang-beijing-shi-wenhua-da]], 215–33, 220 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7a); [[w.peng-zei-huairou-diaocha]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7b); Survey of China Mainland Press, Supplement 187 (translation of a Red Guard newspaper article), 23–36 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7c); Survey of China Mainland Press, No. 4014 (translation of a Red Guard newspaper article), 1–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7d); Joint Publications Research Service, No. 42,966, 92–101 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7e); [[w.center-for-chinese-research]], IV, 1760–74 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7f); 〈大野心家、大陰謀家彭真罪惡史〉, comp. by the Red Flag Corps of the Peking committee''s organs (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 59 n.38a); Liu Zheng 劉政 and Zhang Chunsheng 張春生, 〈從歷史的幾個重大關節看彭真和毛澤東的關係〉, *Lingdaozhe* 《領導者》, 2013, no. 4, 149 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 59 n.38c). Check: the days; they are those of a hostile Cultural Revolution account.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 182–83; [[w.macfarquhar-origins-of-the-cultural]], III, 257 (Deng Tuo''s leading part in compiling the Peking Party''s dossiers on the Leap at the Changguanlou); [[w.yang-jisheng-tiandi-fanfu]], I, 59 (by the Red Guard exposé, Jan. 1961: Peng Zhen has Xiang Ziming 項子明, secretary-general of the Peking committee, organize and Deng Tuo guide some ten men, ten days and more, in going through the Center''s documents since 1958; nearly 20,000 characters, "Extracts from central documents," sent to Peng as top secret; the note: December 1961, not January, at the Secretariat''s behest, for the Seven Thousand Cadres Conference); [[w.dikotter-cultural-revolution]], 11 n.10 (as rumoured: a couple of months before the conference Peng Zhen has Deng Tuo compile a dossier of documents critical of the famine and of Mao''s part in it, with Liu Shaoqi''s and Deng Xiaoping''s knowledge; meetings away from view in a palace in the Peking Zoo). Made public: 1997. Check: the analysis the book cites (III, 257) places the Changguanlou compilation in November. To check: [[w.jingxin-dongpode-gongting-zhenbian]], 1–13 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.5a); [[w.dangdai-zhongguode-beijing-contemporary]], 1, 155–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.5b); [[w.wang-beijing-shi-wenhua-da]], 215–33, 220 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7a); [[w.peng-zei-huairou-diaocha]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7b); Survey of China Mainland Press, Supplement 187 (translation of a Red Guard newspaper article), 23–36 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7c); Survey of China Mainland Press, No. 4014 (translation of a Red Guard newspaper article), 1–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7d); Joint Publications Research Service, No. 42,966, 92–101 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7e); [[w.center-for-chinese-research]], IV, 1760–74 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7f); 〈大野心家、大陰謀家彭真罪惡史〉, comp. by the Red Flag Corps of the Peking committee''s organs (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 59 n.38a); Liu Zheng 劉政 and Zhang Chunsheng 張春生, 〈從歷史的幾個重大關節看彭真和毛澤東的關係〉, *Lingdaozhe* 《領導者》, 2013, no. 4, 149 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 59 n.38c); Pitman B. Potter, *From Leninist Discipline to Socialist Legalism: Peng Zhen on Law and Political Authority in the PRC* (2003), 18, 85–86 (cited by [[w.dikotter-cultural-revolution]], 11 n.10). Check: the days; they are those of a hostile Cultural Revolution account.'
     src:
       c: ec83edcd
       rows:
@@ -1062,6 +1102,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 183 n.7f: all'
         - 'w.macfarquhar-origins-of-the-cultural III, 257: ?'
         - 'w.yang-jisheng-tiandi-fanfu I, 59: ?'
+        - 'w.dikotter-cultural-revolution 11 n.10: ?'
+        - 'via x.2003.potter-from-leninist-discipline-to-socialist-legalism: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1961-12-09.china
     when: Dec. 9
@@ -1135,6 +1177,14 @@ entries:
       - 1961-12-09T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-09.laos
+    when: Dec. 9
+    date: '1961-12-09'
+    thread: laos
+    also: [vietnam-diplomacy]
+    c: 'Lunch, Nguyễn Chính Giao, head of the Laos desk of the Lao Động Central Committee, with Marek Thee: Hanoi nearer Peking than Moscow on Laos; Peking insists the NLHX and neutralists keep two-thirds of a coalition''s portfolios, Moscow would give more; Hanoi and Peking for the NLHX keeping its own forces, Moscow for merging the armies at once; Hanoi fears Souvanna Phouma may swing right, Moscow trusts him; Hanoi troubled by the partial withdrawal of Soviet aircraft and the cut in aid.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 209 (by Thee). Made public: 1973 ([[w.thee-notes-of-a-witness]]). To check: [[w.thee-notes-of-a-witness]], 205–209 (cited by [[w.guan-vietnamese-communists-relations-with]], 209 n.25). Names: Souvanna Phouma.'
+    tags: [polity:drv, polity:poland, name:souvanna-phouma, vis:only:drv+poland, ok:fields-place]
   - id: cal.1961-12-10.albany
     when: Dec. 10–13
     date: '1961-12-10'
@@ -1244,7 +1294,7 @@ entries:
     place: saigon
     thread: vietnam
     c: USNS *Core* docks at Saigon with two Army helicopter companies.
-    n: 'FRUS 1961–63, I, docs. [314](https://history.state.gov/historicaldocuments/frus1961-63v01/d314), [334](https://history.state.gov/historicaldocuments/frus1961-63v01/d334). [[w.marolda-united-states-navy-and]], 219 (the Core at Saigon); [[w.moyar-triumph-forsaken]], 145–46; [[w.schlesinger-robert-kennedy-and-his]], 706 ("On December 11, 1961, the Times reported the arrival of two U.S. Army helicopter companies in Saigon," "the first direct military support by the United States for South Vietnam''s war against Communist guerrilla forces" (n.25 cites the Times of Dec. 12); the day of the report, not of the docking or the ship). To check: [[w.spector-united-states-army-in]]. See [[cal.1961-01-28.vietnam]].'
+    n: 'FRUS 1961–63, I, docs. [314](https://history.state.gov/historicaldocuments/frus1961-63v01/d314), [334](https://history.state.gov/historicaldocuments/frus1961-63v01/d334). [[w.marolda-united-states-navy-and]], 219 (the Core at Saigon); [[w.moyar-triumph-forsaken]], 145–46; [[w.schlesinger-robert-kennedy-and-his]], 706 ("On December 11, 1961, the Times reported the arrival of two U.S. Army helicopter companies in Saigon," "the first direct military support by the United States for South Vietnam''s war against Communist guerrilla forces" (n.25 cites the Times of Dec. 12); the day of the report, not of the docking or the ship); [[w.guan-vietnamese-communists-relations-with]], 210 (two American helicopter companies, with 400 troops). To check: [[w.spector-united-states-army-in]]. See [[cal.1961-01-28.vietnam]].'
     src:
       c: fd842251
       rows:
@@ -1252,6 +1302,7 @@ entries:
         - 'w.marolda-united-states-navy-and 219: A'
         - 'w.moyar-triumph-forsaken 145–46: A'
         - 'w.schlesinger-robert-kennedy-and-his 706: ?'
+        - 'w.guan-vietnamese-communists-relations-with 210: ?'
     tags: [place:saigon]
   - id: cal.1961-12-11.court
     when: Dec. 11
@@ -1980,7 +2031,7 @@ entries:
     date: '1961-12-15'
     thread: vietnam
     c: Diệm's request and Kennedy's pledge of more aid published.
-    n: '[FRUS 1961–63, I, doc. 322](https://history.state.gov/historicaldocuments/frus1961-63v01/d322). [[w.gibbons-u-s-government-and]], II, 103 (the letters; Kennedy''s dated Dec. 14); [[w.taylor-swords-and-plowshares]], 248–49 (Diệm''s resistance; his agreement cabled by Nolting Dec. 4; the letters a few days later, Diệm''s "the gravest crisis in Vietnamese history"); [[w.reeves-president-kennedy]], 262. [[w.sorensen-kennedy]], 655. To check: State to Saigon 635, Nov. 17, 1961, the draft of Diệm''s letter, NSF, Country File, Vietnam, Kennedy Library (cited by [[w.gibbons-u-s-government-and]], II, 103 n.67). See [[cal.1961-01-28.vietnam]]. Names: Diệm.'
+    n: '[FRUS 1961–63, I, doc. 322](https://history.state.gov/historicaldocuments/frus1961-63v01/d322). [[w.gibbons-u-s-government-and]], II, 103 (the letters; Kennedy''s dated Dec. 14); [[w.taylor-swords-and-plowshares]], 248–49 (Diệm''s resistance; his agreement cabled by Nolting Dec. 4; the letters a few days later, Diệm''s "the gravest crisis in Vietnamese history"); [[w.reeves-president-kennedy]], 262; [[w.guan-vietnamese-communists-relations-with]], 211 (the letters made known the day the Chinese mission arrives: Kennedy agrees the campaign of force and terror is backed and directed by Hanoi; American help to rise at once, the orders given). [[w.sorensen-kennedy]], 655. To check: State to Saigon 635, Nov. 17, 1961, the draft of Diệm''s letter, NSF, Country File, Vietnam, Kennedy Library (cited by [[w.gibbons-u-s-government-and]], II, 103 n.67); The exchange of letters of Kennedy and Diệm, Public Papers of the Presidents: John F. Kennedy, 1961, 505–506 (cited by [[w.guan-vietnamese-communists-relations-with]], 211 n.30). See [[cal.1961-01-28.vietnam]]. Names: Diệm.'
     src:
       c: 9616bad2
       rows:
@@ -1991,6 +2042,7 @@ entries:
         - 'w.sorensen-kennedy 655: all'
         - 'w.taylor-swords-and-plowshares 248–49: A'
         - 'w.reeves-president-kennedy 262: A'
+        - 'w.guan-vietnamese-communists-relations-with 211: ?'
     tags: [name:kennedy-john-f, name:ngo-dinh-diem]
   - id: cal.1961-12-15.albany
     when: Dec. 15–18
@@ -2188,6 +2240,32 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 164: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-12-15.vietnam-diplomacy
+    when: Dec. 15
+    date: '1961-12-15'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: 'Hanoi. Ye Jianying''s military goodwill mission arrives: Liu Yalou, Xiao Hua, Yang Chengwu, Huang Yongsheng, Xiao Xiangrong, Vice Adm. Wu Ruilin, Maj. Gen. Lei Yingfu, Sr. Col. Liu Zhongkui. Met by Giáp, Văn Tiến Dũng, Song Hào, Hoàng Văn Thái, Trần Văn Trà, Trần Quý Hai, Phạm Kiệt, Hoàng Văn Tiến and Trần Duy Hưng, Hanoi''s mayor. Evening, the banquets: Giáp and Ye, China and Vietnam "as close as lips and teeth."'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 210–211. To check: Peking Review IV, no. 51, Dec. 22, 1961, 16–17 (cited by [[w.guan-vietnamese-communists-relations-with]], 210 n.29a); FO 371/166713, DV 103110/2, 3 January 1962, from Hanoi to Foreign Office: visit of the Chinese military delegation to North Vietnam (cited by [[w.guan-vietnamese-communists-relations-with]], 210 n.29b). Names: Ye Jianying, Huang Yongsheng, Xiao Xiangrong, Võ Nguyên Giáp, Văn Tiến Dũng, Hoàng Văn Thái, Trần Văn Trà.'
+    src:
+      rows:
+        - 'via x.1962-01-03.fo-166713-dv-103110-2: ?'
+    tags: [polity:prc, polity:drv, name:ye-jianying, name:huang-yongsheng, name:xiao-xiangrong, name:vo-nguyen-giap, name:van-tien-dung, name:hoang-van-thai, name:tran-van-tra, ok:fields-time]
+  - id: cal.1961-12-15.china-leadership-9
+    when: Dec. 15
+    date: '1961-12-15'
+    place: hunan
+    thread: china-leadership
+    also: [china]
+    c: 'As a Hunan 湖南 report has it: in Yueyang county some 22,000 people lose their homes to the Tieshan 鐵山 Reservoir; their bricks, furniture, tools and cattle taken for a collective farm in the mountains, where they are sent; the reservoir abandoned, the evacuees, going home, find ghost villages stripped bare and shelter in huts, privies, pig sheds and caves, some of which collapse on them; 10 kilos of grain a month; few with padded clothes or blankets.'
+    n: '[[w.dikotter-maos-great-famine]], 170–171. Made public: 2010. To check: Hunan Provincial Archives, Dec. 15, 1961 and Mar. 21, 1962, 207-1-753, pp. 103–5 and 106–9 (cited by [[w.dikotter-maos-great-famine]], 171 n.36). Check: the day; the note gives files of Dec. 15, 1961 and Mar. 21, 1962.'
+    src:
+      c: 105388c1
+      rows:
+        - 'w.dikotter-maos-great-famine 170-171: all'
+        - 'via w.dikotter-maos-great-famine 171 n.36: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1961-12-16.latin-america
     when: Dec. 16–17
     date: '1961-12-16'
@@ -2348,6 +2426,34 @@ entries:
       - 1961-12-16T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-16.vietnam-hanoi
+    when: Dec. 16
+    date: '1961-12-16'
+    thread: vietnam-hanoi
+    c: 'A People''s Army spokesman, by VINA: the situation in South Vietnam "more serious than ever owing to the U.S.''s first step of armed aggression."'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 211. To check: VINA, 16 December 1961, SWB/FE/827/A3/4 (cited by [[w.guan-vietnamese-communists-relations-with]], 211 n.31).'
+    src:
+      rows:
+        - 'via x.1961-12-16.vina-fe-827-a3-4: ?'
+    tags: [polity:drv, ok:fields-place]
+  - id: cal.1961-12-16.vietnam-diplomacy
+    when: Dec. 16
+    date: '1961-12-16'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Hanoi. The Chinese military mission meets Hồ Chí Minh and Phạm Văn Đồng, visits the Revolutionary Museum; evening, Hồ's dinner.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 211. Names: Hồ Chí Minh, Phạm Văn Đồng.'
+    tags: [polity:prc, polity:drv, name:ho-chi-minh, name:pham-van-dong, ok:fields-time]
+  - id: cal.1961-12-16.laos
+    when: Dec. 16
+    date: '1961-12-16'
+    place: hanoi
+    thread: laos
+    also: [vietnam-diplomacy]
+    c: 'Hanoi. Ưng Văn Khiêm to Albert Morski and Marek Thee: the international climate favors a political settlement over renewed fighting; but the balance in Laos uncertain, not decisively the NLHX''s and neutralists''; the United States, the key, against a compromise, bent on reasserting itself in Laos.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 211 (by Thee). Made public: 1973 ([[w.thee-notes-of-a-witness]]). To check: [[w.thee-notes-of-a-witness]], 205–209 (cited by [[w.guan-vietnamese-communists-relations-with]], 211 n.32). Names: Ưng Văn Khiêm.'
+    tags: [polity:drv, polity:poland, name:ung-van-khiem, vis:only:drv+poland]
   - id: cal.1961-12-17.opinion
     when: Dec. 17
     date: '1961-12-17'
@@ -2559,6 +2665,24 @@ entries:
         - 'w.yang-shangkun-riji II, 101: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-18.laos
+    when: Dec. 18
+    date: '1961-12-18'
+    thread: laos
+    c: 'As a Foreign Office minute has it: two items left on the Geneva agenda, SEATO''s protection of Laos and the Pathet Lao''s integration in the army, neither to be settled without a united Laotian delegation; China and North Vietnam for abolishing SEATO outright, the Soviet Union only its protection of Laos; the coalition the pivot.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 209–210. Made public: 1997. To check: FO 371/159955, DF 2231/547, Dec. 18, 1961, Foreign Office minutes (cited by [[w.guan-vietnamese-communists-relations-with]], 210 n.26a); FO 371/166496, DF 2231/12, 22 December 1961, from Foreign Office to certain of Her Majesty''s Representatives (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 210 n.26b).'
+    src:
+      rows:
+        - 'via x.1961-12-18.fo-159955-df-2231-547-fo-minutes: ?'
+    tags: [form:state, polity:uk, vis:only:uk, ok:fields-place]
+  - id: cal.1961-12-18.vietnam-diplomacy
+    when: Dec. 18–20
+    date: '1961-12-18'
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: The Chinese military mission, with Trần Văn Trà, at an artillery officers' school; then to Nghệ An and the 4th Military Region; Hồ's native village, Nam Liên; a performance by the 5th Interzone's ensemble. Back to Hanoi Dec. 20, a program of the General Political Department's ensemble.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 211–212. Names: Trần Văn Trà, Hồ Chí Minh.'
+    tags: [polity:prc, polity:drv, name:tran-van-tra, name:ho-chi-minh, ok:fields-place]
   - id: cal.1961-12-19.transition-and-staff
     when: Dec. 19
     date: '1961-12-19'
@@ -2762,6 +2886,30 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 69: all'
         - 'via w.mao-zedong-zhuan V, ch.69 n.6: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-12-19.vietnam-diplomacy
+    when: Dec. 19
+    date: '1961-12-19'
+    thread: vietnam-diplomacy
+    also: [china-leadership, vietnam]
+    c: 'Nghệ An, the 4th Military Region''s welcoming banquet. Ye Jianying: American intervention and aggression in South Vietnam "extremely serious"; "the Chinese people would never be indifferent to this adventurist action."'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 211–212. To check: NCNA, 20 December 1961, SWB/FE/827/A3/3-4 (cited by [[w.guan-vietnamese-communists-relations-with]], 212 n.33). Names: Ye Jianying.'
+    src:
+      rows:
+        - 'via x.1961-12-20.ncna-fe-827-a3-3-4: ?'
+    tags: [polity:prc, polity:drv, name:ye-jianying, ok:fields-place]
+  - id: cal.1961-12-19.china-2
+    when: Dec. 19
+    date: '1961-12-19'
+    thread: china
+    also: [soviet-union]
+    c: '"The Sino-Soviet Conflict and U.S. Policy," a 77-page paper, apparently the Policy Planning Council''s, with its "Summary": monolithic unity and control gone from the Communist camp; a clash of national interests; no reconciliation expected; the conflict of great long-run benefit to the United States, which may deal "with Russia as Russia and China as China"; in the short run, as in Southeast Asia, Chinese militancy a danger.'
+    n: '[[w.chang-friends-and-enemies]], 222–23. Made public: 1990 ([[w.chang-friends-and-enemies]], 222). To check: "The Sino-Soviet Conflict and U.S. Policy" and "Summary," Dec. 19, 1961, Thomson Papers, box 14 (cited by [[w.chang-friends-and-enemies]], 221 n.36d), (cited by [[w.chang-friends-and-enemies]], 223 n.41). Discussed: [[cal.1962-01-02.china]].'
+    src:
+      c: 6ea4256e
+      rows:
+        - 'w.chang-friends-and-enemies 222–23: all'
+        - 'via x.1961-12-19.sino-soviet-conflict-and-us-policy: all'
+    tags: [polity:us, vis:only:us]
   - id: cal.1961-12-20.middle-east-johnson-plan
     when: Dec. 20
     date: '1961-12-20'
@@ -3123,6 +3271,16 @@ entries:
       - 1961-12-21T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-21.vietnam-diplomacy
+    when: Dec. 21
+    date: '1961-12-21'
+    thread: vietnam-diplomacy
+    c: 'As the British embassy in Paris reports the Quai d''Orsay: its Soviet specialists in the Direction d''Europe think North Vietnam gone wholly into China''s fold since the Twenty-second Congress; the Direction d''Asie sees a large swing toward China in late 1961, but Hanoi loath to provoke the Russians into cutting off aid.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 214. Made public: 1997. To check: FO 371/160125, DV 1022/4, 21 December 1961, from Paris to Foreign Office (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 214 n.42).'
+    src:
+      rows:
+        - 'via x.1961-12-21.fo-160125-dv-1022-4: ?'
+    tags: [form:state, polity:uk, polity:fr, vis:only:uk+fr, ok:fields-place]
   - id: cal.1961-12-22.vietnam
     when: Dec. 22
     date: '1961-12-22'
@@ -3275,6 +3433,15 @@ entries:
         - 'w.friedman-shadow-cold-war 90: all'
         - 'via x.1961-12-22.report-deputy-chairman-apn-s-i-belgin: ?'
     tags: [polity:ussr, vis:only:ussr]
+  - id: cal.1961-12-22.vietnam-diplomacy
+    when: Dec. 22
+    date: '1961-12-22'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [china-leadership, soviet-union]
+    c: Hanoi, the People's Army's seventeenth anniversary; no message from the Soviet Defense Minister, against custom. Ye Jianying gives Hồ a mottled bamboo fan of the Ming dynasty, for himself and his four sons; the mission visits a unit; evening, the anniversary reception, Hồ, Phạm Văn Đồng, Trường Chinh and Lê Duẩn there.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 212. Names: Ye Jianying, Hồ Chí Minh, Phạm Văn Đồng, Trường Chinh, Lê Duẩn.'
+    tags: [polity:prc, polity:drv, name:ye-jianying, name:ho-chi-minh, name:pham-van-dong, name:truong-chinh, name:le-duan, ok:fields-time]
   - id: cal.1961-12-23.china-leadership
     when: Dec. 23
     date: '1961-12-23'
@@ -3355,6 +3522,15 @@ entries:
         - 'w.friedman-shadow-cold-war 80: all'
         - 'via x.1961-12-23.letter-b-burkov-chairman-novosti-passing-report: ?'
     tags: [polity:ussr, vis:only:ussr, ok:fields-place]
+  - id: cal.1961-12-23.vietnam-diplomacy
+    when: Dec. 23–24
+    date: '1961-12-23'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Hanoi. Gen. Xiao Hua at the People's Army's General Political Department, Dec. 23 and 24.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 212.'
+    tags: [polity:prc, polity:drv]
   - id: cal.1961-12-24.latin-america
     when: Dec. 24
     date: '1961-12-24'
@@ -3426,6 +3602,29 @@ entries:
       - 1961-12-24T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-24.vietnam-diplomacy
+    when: Dec. 24
+    date: '1961-12-24'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Hanoi. Yang Chengwu, Lei Yingfu and Liu Zhongkui with Văn Tiến Dũng; evening, Maj. Gen. Bằng Giang's "big banquet" for the mission.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 212. To check: William S. Turley, "Origins and Development of Communist Military Leadership in Vietnam," Armed Forces and Society 3, no. 2 (Feb. 1977), 227 (cited by [[w.guan-vietnamese-communists-relations-with]], 212 n.34). Names: Văn Tiến Dũng.'
+    tags: [polity:prc, polity:drv, name:van-tien-dung, ok:fields-time]
+  - id: cal.1961-12-24.china-leadership-4
+    when: Dec. 24
+    date: '1961-12-24'
+    place: henan
+    thread: china-leadership
+    also: [china]
+    c: 'Liu Jianxun 劉建勳 reports on salinisation: in many counties of northern Henan 河南 the alkaline land has doubled, up to 28 per cent.'
+    n: '[[w.dikotter-maos-great-famine]], 184. Made public: 2010. To check: Report by Liu Jianxun, Dec. 24, 1961, Hunan Provincial Archives, 141-2-142, p. 225 (cited by [[w.dikotter-maos-great-famine]], 184 n.63).'
+    src:
+      c: f4ac094c
+      rows:
+        - 'w.dikotter-maos-great-famine 184: all'
+        - 'via w.dikotter-maos-great-famine 184 n.63: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-12-25.china-leadership-2
     when: Dec. 25
     date: '1961-12-25'
@@ -3556,6 +3755,17 @@ entries:
       - 1961-12-25T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-25.vietnam-diplomacy
+    when: Dec. 25
+    date: '1961-12-25'
+    place:
+      - dien-bien-phu
+      - haiphong
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: The Chinese military mission at Điện Biên Phủ, then to Haiphong, Giáp joining it; evening, a banquet of the military region.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 212. Names: Võ Nguyên Giáp.'
+    tags: [polity:prc, polity:drv, name:vo-nguyen-giap, ok:fields-time]
   - id: cal.1961-12-26.robert-kennedy
     when: Dec. 26
     date: '1961-12-26'
@@ -3676,6 +3886,14 @@ entries:
       rows:
         - 'https://digitalarchive.umd.edu/document/121089: all'
     tags: [polity:ussr, name:ngo-dinh-diem, vis:only:ussr]
+  - id: cal.1961-12-26.vietnam-diplomacy
+    when: Dec. 26
+    date: '1961-12-26'
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: The Chinese military mission at a coal basin and a coal mine ("Hon Quang" and "Cuc Tho" in the book) and a naval unit.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 212.'
+    tags: [polity:prc, polity:drv, ok:fields-place]
   - id: cal.1961-12-27.china-leadership
     when: Dec. 27
     date: '1961-12-27'
@@ -3741,6 +3959,14 @@ entries:
         - 'w.yang-shangkun-riji II, 103: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-27.laos
+    when: Dec. 27
+    date: '1961-12-27'
+    place: vientiane
+    thread: laos
+    c: The princes' meeting set for Vientiane does not take place, Boun Oum and Phoumi Nosavan refusing; no government of national union, the new Geneva agreement unsigned.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 212. Names: Boun Oum, Phoumi Nosavan.'
+    tags: [polity:laos, name:boun-oum-na-champassak, name:phoumi-nosavan]
   - id: cal.1961-12-28.middle-east-kuwait
     when: Dec. 28
     date: '1961-12-28'
@@ -3912,6 +4138,20 @@ entries:
       - 1961-12-29T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-29.vietnam-diplomacy
+    when: Dec. 29
+    date: '1961-12-29'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Hanoi, evening. He Wei's reception for the Chinese military mission.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 212.'
+    tags: [polity:prc, polity:drv]
+    time_range:
+      - 1961-12-29T12:00Z
+      - 1961-12-29T15:00Z
+    time_band: evening
+    time_zone: Asia/Bangkok
   - id: cal.1961-12-30.congo
     when: Dec. 30
     date: '1961-12-30'
@@ -4004,6 +4244,27 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1681: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-12-30.vietnam-diplomacy
+    when: Dec. 30
+    date: '1961-12-30'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Hanoi. The Lao Động Central Committee receives the Chinese military mission, every member but Phạm Văn Đồng and Lê Duẩn there, "extreme cordiality"; a farewell reception that evening.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 212. Names: Phạm Văn Đồng, Lê Duẩn.'
+    tags: [polity:prc, polity:drv, name:pham-van-dong, name:le-duan, ok:fields-time]
+  - id: cal.1961-12-30.vietnam-diplomacy-2
+    when: Dec. 30
+    date: '1961-12-30'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: 'Hanoi. Nguyễn Duy Trinh and the Soviet Ambassador sign an agreement on Soviet loans to North Vietnam, 3.5 billion rubles for Soviet goods. Reported with it: the Soviet–Vietnamese commission for scientific and technical cooperation''s joint plan for the first half of 1962, Soviet technical papers on construction, foundries, electrical goods and forestry, Vietnamese help in testing equipment in the tropics.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 214. To check: VINA, 30 and 31 December 1961, SWB/FE/834/A2/1 (cited by [[w.guan-vietnamese-communists-relations-with]], 214 n.43). Names: Nguyễn Duy Trinh.'
+    src:
+      rows:
+        - 'via x.1961-12-30.vina-fe-834-a2-1: ?'
+    tags: [polity:drv, polity:ussr, name:nguyen-duy-trinh]
   - id: cal.1961-12-31.opinion-5
     when: Dec. 31
     date: '1961-12-31'
@@ -4278,7 +4539,7 @@ entries:
     thread: china
     also: [vietnam-hanoi]
     c: 'Hanoi. Marshal Ye Jianying heads a Chinese military delegation. In public, the North an "outpost" of the camp in Southeast Asia, the Americans aggressors; no word of the Soviet Union. By Bùi Tín''s account the mission came to urge caution: attacks in the South at section or company level only. Giáp, during the visit: the key to victory the camp''s solidarity "with the great Soviet Union as the nucleus."'
-    n: '[[w.asselin-hanois-road-to-the]], 114–15; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 212 (Dec. 15–31, 1961; Ye Jianying leads a Chinese military friendship delegation to Vietnam on invitation; Hồ Chí Minh and Phạm Văn Đồng receive all its members). Check: the dashiji gives the visit as Dec. 15–31, 1961 ([[w.zhonghua-renmin-gongheguo-waijiao-2001]], 212). To check: the British Consulate General at Hanoi, "Visit of Chinese Military Delegation to North Vietnam," Jan. 3, 1962, FO 371/166713 (cited by [[w.asselin-hanois-road-to-the]], 114–15 nn.155, 158–59); [[w.tin-following-ho-chi-minh]], 45 (cited by [[w.asselin-hanois-road-to-the]], 115 n.156); [[w.zhai-china-and-the-vietnam]], 113 (cited by [[w.asselin-hanois-road-to-the]], 115 n.157). Names: Yeh, Bùi Tín, Võ Nguyên Giáp. Check: the days.'
+    n: '[[w.asselin-hanois-road-to-the]], 114–15; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 212 (Dec. 15–31, 1961; Ye Jianying leads a Chinese military friendship delegation to Vietnam on invitation; Hồ Chí Minh and Phạm Văn Đồng receive all its members); [[w.guan-vietnamese-communists-relations-with]], 210–213 (Dec. 15–31; by Bùi Tín, the Chinese urge guerrilla war in the mountains, the southerners to fight only by sections or companies so as not to draw American counterattack). Check: the dashiji gives the visit as Dec. 15–31, 1961 ([[w.zhonghua-renmin-gongheguo-waijiao-2001]], 212). To check: the British Consulate General at Hanoi, "Visit of Chinese Military Delegation to North Vietnam," Jan. 3, 1962, FO 371/166713 (cited by [[w.asselin-hanois-road-to-the]], 114–15 nn.155, 158–59); [[w.tin-following-ho-chi-minh]], 45 (cited by [[w.asselin-hanois-road-to-the]], 115 n.156); [[w.zhai-china-and-the-vietnam]], 113 (cited by [[w.asselin-hanois-road-to-the]], 115 n.157); Peking Review IV, no. 51, Dec. 22, 1961, 16–17 (cited by [[w.guan-vietnamese-communists-relations-with]], 210 n.29a); FO 371/166713, DV 103110/2, 3 January 1962, from Hanoi to Foreign Office: visit of the Chinese military delegation to North Vietnam (cited by [[w.guan-vietnamese-communists-relations-with]], 210 n.29b). Names: Yeh, Bùi Tín, Võ Nguyên Giáp. Check: the days.'
     src:
       c: e062d46f
       rows:
@@ -4287,6 +4548,7 @@ entries:
         - 'via x.1995.tin-following-ho-chi-minh-45: C'
         - 'via x.1962-01-03.bcgh-visit-of-chinese-military-delegation: D'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 212: A-B'
+        - 'w.guan-vietnamese-communists-relations-with 210–213: ?'
     tags: [name:ye-jianying, name:bui-tin, name:vo-nguyen-giap, place:hanoi]
     variants:
       - unit: B
@@ -4829,3 +5091,22 @@ entries:
         - 'w.friedman-shadow-cold-war 89, 97: all'
         - 'via x.1962-01-08.scscaa-presidium-session-january-8-1962: ?'
     tags: [polity:prc, polity:ussr, polity:algeria]
+  - id: cal.1961-12.laos-2
+    when: Dec., early
+    date: 1961-12
+    at: before 1961-12-01
+    place: hanoi
+    thread: laos
+    also: [vietnam-hanoi]
+    c: Hanoi. The North Vietnamese Politburo meets on Laos; the Polish commissioners in Vientiane, Albert Morski, and Marek Thee are then asked to Hanoi for Dec. 16.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 210 (by Thee). Made public: 1973 ([[w.thee-notes-of-a-witness]]). To check: [[w.thee-notes-of-a-witness]], 205–209 (cited by [[w.guan-vietnamese-communists-relations-with]], 211 n.32).'
+    tags: [polity:drv, vis:only:drv]
+  - id: cal.1961-12-31.vietnam-diplomacy
+    when: Dec. 31
+    date: '1961-12-31'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: 'The Chinese military mission leaves Hanoi for Canton after two weeks. Giáp: a powerful spur to building socialism and reunifying the country peacefully. Ye: the friendship of the two peoples and armies, on Marxism–Leninism and proletarian internationalism, unbreakable.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 213. Names: Võ Nguyên Giáp, Ye Jianying.'
+    tags: [polity:prc, polity:drv, name:vo-nguyen-giap, name:ye-jianying]

@@ -192,6 +192,15 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1667–1668: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-11-01.laos
+    when: Nov. 1
+    date: '1961-11-01'
+    place: geneva
+    thread: laos
+    also: [vietnam, china-leadership]
+    c: 'Geneva, the conference''s fortieth restricted session. Zhang Hanfu, on Taylor''s visit: events in South Vietnam bound to touch Laos; the United States tears up the agreements on Vietnam by sending military men there, so what use another agreement on Laos? Harriman: South Vietnam out of order at the Laos conference.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 205–206. To check: [[w.modelski-international-conference-on-the]], 128–129 (cited by [[w.guan-vietnamese-communists-relations-with]], 206 n.6). Names: Harriman.'
+    tags: [polity:prc, polity:us, name:harriman-w-averell]
   - id: cal.1961-11-02.right-and-the-military
     when: Nov. 2
     date: '1961-11-02'
@@ -373,6 +382,33 @@ entries:
         - 'w.yang-jisheng-mubei II, 1055–1056: all'
         - 'via w.yang-jisheng-mubei II, 1056 n.62: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-11-02.laos
+    when: Nov. 2
+    date: '1961-11-02'
+    place: geneva
+    thread: laos
+    c: 'Geneva airport, morning. Harriman and MacDonald with Nehru in his hour''s stop: the prospects at Geneva good if the three princes can be brought to complete their agreement.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 205, 207. Made public: 1997. To check: FO 371/159951, DF 2231/467, 4 November 1961, from Geneva to Foreign Office: Harriman and MacDonald''s meeting with Nehru at Geneva airport, Nov. 2, 1961 (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 205 n.5b). Names: Harriman, MacDonald, Nehru.'
+    src:
+      rows:
+        - 'via x.1961-11-04.fo-159951-df-2231-467: ?'
+    tags: [polity:us, polity:uk, polity:india, name:harriman-w-averell, name:macdonald-malcolm-john, name:nehru-jawaharlal, vis:only:us+uk+india]
+    time_range:
+      - 1961-11-02T05:00Z
+      - 1961-11-02T11:00Z
+    time_band: morning
+    time_zone: Europe/Zurich
+  - id: cal.1961-11-02.laos-2
+    when: Nov. 2
+    date: '1961-11-02'
+    thread: laos
+    also: [soviet-union]
+    c: 'The American delegation at Geneva to State, by telegram: Pushkin has agreed the Russians will answer for the bloc''s keeping the agreements once made, and no corridor traffic through Laos to South Vietnam.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 207–208 (by Harriman). Made public: 1972 ([[w.rostow-diffusion-of-power]]). To check: Telegram from the Delegation to the Conference on Laos to the Department of State, Nov. 2, 1961 (cited by [[w.guan-vietnamese-communists-relations-with]], 208 n.17a); [[w.rostow-diffusion-of-power]], 287–288 (cited by [[w.guan-vietnamese-communists-relations-with]], 208 n.17b). Names: Pushkin.'
+    src:
+      rows:
+        - 'via x.1961-11-02.delegation-laos-conference-telegram-frus-219: ?'
+    tags: [polity:us, polity:ussr, name:pushkin-georgiyi-maksimovich, vis:only:us, ok:fields-place]
   - id: cal.1961-11-03.vietnam
     when: Nov. 3
     date: '1961-11-03'
@@ -670,6 +706,15 @@ entries:
       - 1961-11-03T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-11-03.vietnam-diplomacy
+    when: Nov. 3
+    date: '1961-11-03'
+    place: peking
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Lê Duẩn and Xuân Thủy back in Peking from the Twenty-second Congress; in China to Nov. 7, then home to Hanoi.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 207. Names: Lê Duẩn, Xuân Thủy.'
+    tags: [polity:drv, name:le-duan, name:xuan-thuy]
   - id: cal.1961-11-04.specials
     when: Nov. 4
     date: '1961-11-04'
@@ -934,13 +979,14 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking. Zhou Enlai and Deng Xiaoping meet Lê Duẩn, First Secretary of the Lao Động Party's Central Committee, and Xuân Thủy, a member of the Central Committee, passing through.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 6, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1670 (Nov. 6, 1961; Deng and Zhou meet Lê Duẩn and give him a dinner; on the 7th Deng sees him off at the airport); [[w.chen-yi-nianpu]], 899 (Nov. 6, 1961; Chen Yi with Zhou and Deng at the meeting and the banquet). Made public: 1993. Names: Zhou Enlai, Deng Xiaoping, Lê Duẩn, Xuân Thủy.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 6, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1670 (Nov. 6, 1961; Deng and Zhou meet Lê Duẩn and give him a dinner; on the 7th Deng sees him off at the airport); [[w.chen-yi-nianpu]], 899 (Nov. 6, 1961; Chen Yi with Zhou and Deng at the meeting and the banquet); [[w.guan-vietnamese-communists-relations-with]], 207 (with Xuân Thủy). Made public: 1993. Names: Zhou Enlai, Deng Xiaoping, Lê Duẩn, Xuân Thủy.'
     src:
       c: 0ecc62b6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 326: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1670: ?'
         - 'w.chen-yi-nianpu 899: ?'
+        - 'w.guan-vietnamese-communists-relations-with 207: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:deng-xiaoping, name:le-duan, name:xuan-thuy, vis:only:prc+drv]
   - id: cal.1961-11-06.china-leadership-3
     when: Nov. 6
@@ -1321,6 +1367,35 @@ entries:
         - 'w.yang-jisheng-mubei I, 280: all'
         - 'via w.yang-jisheng-mubei I, 280 n.50: all'
     tags: [polity:prc, vis:only:prc, ok:fields-time]
+  - id: cal.1961-11-07.vietnam-hanoi
+    when: Nov. 7
+    date: '1961-11-07'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [soviet-union]
+    c: 'The Hanoi papers praise the "great and far-reaching changes" of forty-four years in the Soviet Union and the new CPSU program, Khrushchev''s and Brezhnev''s pictures on their front pages; *Nhân Dân* reprints Hồ Chí Minh''s article for *Pravda*: "under the leadership of the glorious CPSU headed by Comrade Khrushchev," the Soviet people will build Communism.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 207. To check: VNA, 7 November 1961, SWB/FE/791/C2/6 (cited by [[w.guan-vietnamese-communists-relations-with]], 207 n.11). Names: Hồ Chí Minh, Khrushchev, Brezhnev.'
+    src:
+      rows:
+        - 'via x.1961-11-07.vna-fe-791-c2-6: ?'
+    tags: [polity:drv, name:ho-chi-minh, name:khrushchev-nikita-s, name:brezhnev-leonid]
+  - id: cal.1961-11-07.vietnam-diplomacy
+    when: Nov. 7
+    date: '1961-11-07'
+    place: moscow
+    thread: vietnam-diplomacy
+    also: [laos, soviet-union]
+    c: 'Moscow, the Kremlin reception, night. Hồ Chí Minh to the Canadian Ambassador: the prospects at Geneva good if the three Laotian princes can be brought to complete their agreement.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 207. Made public: 1997. To check: FO 371/159879, DF 1015/1341, 8 November 1961, from Moscow to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 207 n.12). Names: Hồ Chí Minh.'
+    src:
+      rows:
+        - 'via x.1961-11-08.fo-159879-df-1015-1341: ?'
+    tags: [polity:drv, polity:canada, name:ho-chi-minh, vis:only:drv+canada]
+    time_range:
+      - 1961-11-07T19:00Z
+      - 1961-11-07T21:00Z
+    time_band: night
+    time_zone: Europe/Moscow
   - id: cal.1961-11-08.vietnam
     when: Nov. 8
     date: '1961-11-08'
@@ -1660,6 +1735,18 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1670: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 159: ?'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-11-09.vietnam-diplomacy
+    when: Nov. 9
+    date: '1961-11-09'
+    place: moscow
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: Moscow. Khrushchev receives Hồ Chí Minh.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 207. To check: TASS in Russian for Abroad, 11 November 1961, SWB/SU/793/A3/3 (cited by [[w.guan-vietnamese-communists-relations-with]], 207 n.13). Names: Khrushchev, Hồ Chí Minh.'
+    src:
+      rows:
+        - 'via x.1961-11-11.tass-russian-for-abroad-su-793: ?'
+    tags: [polity:drv, polity:ussr, name:khrushchev-nikita-s, name:ho-chi-minh]
   - id: cal.1961-11-10.health-ct
     when: Nov. 10
     date: '1961-11-10'
@@ -1872,6 +1959,13 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 88: all'
     tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1961-11-11.laos
+    when: Nov. 11
+    date: '1961-11-11'
+    thread: laos
+    c: Souphanouvong, to bring Boun Oum and Phoumi Nosavan back to the table, gives way on the coalition's terms and accepts Vientiane, Phoumi's headquarters, for the princes' meeting; Moscow welcomes it, and at first Hanoi.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 207. Names: Souphanouvong, Boun Oum, Phoumi Nosavan.'
+    tags: [polity:pathet-lao, name:souphanouvong, name:boun-oum-na-champassak, name:phoumi-nosavan, ok:fields-place]
   - id: cal.1961-11-12.vietnam
     when: Nov. 12
     date: '1961-11-12'
@@ -1929,13 +2023,14 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi, indonesia]
     c: Peking. Zhou Enlai goes to the airport to meet Hồ Chí Minh, head of the Lao Động Party's delegation, and Aidit, head of the Indonesian delegation, on their way home from the CPSU's 22nd Congress.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 12, 1961; 下午); [[w.yang-shangkun-riji]], II, 89 (Nov. 12, 1961; the Eastern Suburb airport, 2:30 p.m.: Hồ Chí Minh and Aidit; Yang takes Hồ to Diaoyutai, Building 6); [[w.deng-xiaoping-nianpu-1904]], III, 1670 (Nov. 12, 1961; afternoon; Deng and Zhou meet Hồ and Aidit at the airport). Names: Zhou Enlai, Hồ Chí Minh, Aidit.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 12, 1961; 下午); [[w.yang-shangkun-riji]], II, 89 (Nov. 12, 1961; the Eastern Suburb airport, 2:30 p.m.: Hồ Chí Minh and Aidit; Yang takes Hồ to Diaoyutai, Building 6); [[w.deng-xiaoping-nianpu-1904]], III, 1670 (Nov. 12, 1961; afternoon; Deng and Zhou meet Hồ and Aidit at the airport); [[w.guan-vietnamese-communists-relations-with]], 207. Names: Zhou Enlai, Hồ Chí Minh, Aidit.'
     src:
       c: 1c4b6b1a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 326: all'
         - 'w.yang-shangkun-riji II, 89: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1670: ?'
+        - 'w.guan-vietnamese-communists-relations-with 207: all'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:ho-chi-minh, name:aidit-dipa-nusantara]
     time_range:
       - 1961-11-12T04:00Z
@@ -2272,7 +2367,7 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking. Zhou Enlai, with Mao Zedong, Liu Shaoqi and Deng Xiaoping, meets Hồ Chí Minh, chairman of the Lao Động Party's Central Committee, and dines with him.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 14, 1961; 下午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 543 (Nov. 14, 1961; Liu, with Mao, Zhou Enlai and Deng Xiaoping, meets Hồ Chí Minh, chairman of the Vietnam Workers'' Party Central Committee); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 209 (Nov. 14, 1961; Mao, Liu, Zhou and Deng Xiaoping receive Ho Chi Minh, chairman of the Lao Động Party''s Central Committee, passing through Peking on the way home from the CPSU''s 22nd Congress); [[w.yang-shangkun-riji]], II, 89 (Nov. 14, 1961; Mao gives Hồ dinner and talks with him, 5:30 to 8 p.m.; Yang present); [[w.deng-xiaoping-nianpu-1904]], III, 1670 (Nov. 14, 1961; Deng, with Mao, Liu and Zhou, in talks with Hồ); [[w.peng-zhen-nianpu-1902]], IV, 159 (Nov. 14, 1961; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Deng Xiaoping and others, meets and dines Hồ Chí Minh on his way home from the congress). Made public: 1993. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping, Hồ Chí Minh.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 14, 1961; 下午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 543 (Nov. 14, 1961; Liu, with Mao, Zhou Enlai and Deng Xiaoping, meets Hồ Chí Minh, chairman of the Vietnam Workers'' Party Central Committee); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 209 (Nov. 14, 1961; Mao, Liu, Zhou and Deng Xiaoping receive Ho Chi Minh, chairman of the Lao Động Party''s Central Committee, passing through Peking on the way home from the CPSU''s 22nd Congress); [[w.yang-shangkun-riji]], II, 89 (Nov. 14, 1961; Mao gives Hồ dinner and talks with him, 5:30 to 8 p.m.; Yang present); [[w.deng-xiaoping-nianpu-1904]], III, 1670 (Nov. 14, 1961; Deng, with Mao, Liu and Zhou, in talks with Hồ); [[w.peng-zhen-nianpu-1902]], IV, 159 (Nov. 14, 1961; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Deng Xiaoping and others, meets and dines Hồ Chí Minh on his way home from the congress); [[w.guan-vietnamese-communists-relations-with]], 207 (the Taylor mission hardening the Chinese, ready for a long struggle, as it quickened the Russians'' wish for a settlement). Made public: 1993. To check: [[w.thee-notes-of-a-witness]], 191–192, 196–201 (cited by [[w.guan-vietnamese-communists-relations-with]], 207 n.16). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping, Hồ Chí Minh.'
     src:
       c: 46f52217
       rows:
@@ -2282,6 +2377,7 @@ entries:
         - 'w.yang-shangkun-riji II, 89: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1670: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 159: ?'
+        - 'w.guan-vietnamese-communists-relations-with 207: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:ho-chi-minh, vis:only:prc+drv]
     time_range:
       - 1961-11-14T04:00Z
@@ -2335,6 +2431,32 @@ entries:
     c: Peng Tao 彭涛, alternate member of the Central Committee, Minister of Chemical Industry and deputy director of the State Planning Commission, dies in Peking 北京, aged 48.
     n: '[[w.chen-yi-nianpu]], 900.'
     tags: [polity:prc]
+  - id: cal.1961-11-14.laos
+    when: Nov. 14–17
+    date: '1961-11-14'
+    place: khang-khay
+    thread: laos
+    also: [china-leadership]
+    c: 'Khang Khay. He Wei, the Chinese Ambassador in Hanoi, with Souvanna Phouma, Pheng Phongsavan and Kong Le: Souphanouvong''s concessions would undo the gains of the talks; Vientiane a danger to Souvanna and Souphanouvong; the Americans mean to partition Laos and make the south a bridgehead between South Vietnam and Thailand. Back in Hanoi Nov. 17.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 208 (by Marek Thee). Made public: 1973 ([[w.thee-notes-of-a-witness]]), the talk at Khang Khay. To check: NCNA, 14 November 1961, SWB/FE/796/C/1-2 (cited by [[w.guan-vietnamese-communists-relations-with]], 208 n.18); [[w.thee-notes-of-a-witness]], 197–198 (cited by [[w.guan-vietnamese-communists-relations-with]], 208 n.19). Names: Souvanna Phouma, Kong Le, Pheng Phongsavan.'
+    src:
+      rows:
+        - 'via x.1961-11-14.ncna-fe-796-c-1-2: ?'
+    tags: [polity:prc, polity:laos, name:souvanna-phouma, name:kong-le, vis:only:prc+laos, name:pheng-phongsavan]
+  - id: cal.1961-11-14.china-leadership-9
+    when: Nov. 14
+    date: '1961-11-14'
+    place: nanjing
+    thread: china-leadership
+    also: [china]
+    c: 'As a Nanjing 南京 report has it: of the children inspected in one kindergarten two in three have oedema; many have trachoma and hepatitis.'
+    n: '[[w.dikotter-maos-great-famine]], 246. Made public: 2010. To check: Nanjing Municipal Archives, Nov. 14, 1961, 5012-3-584, p. 79 (cited by [[w.dikotter-maos-great-famine]], 246 n.8).'
+    src:
+      c: 8a1a317f
+      rows:
+        - 'w.dikotter-maos-great-famine 246: all'
+        - 'via w.dikotter-maos-great-famine 246 n.8: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1961-11-15.vietnam
     when: Nov. 15
     date: '1961-11-15'
@@ -2342,7 +2464,7 @@ entries:
     place: washington
     thread: vietnam
     c: 'NSC, 10 a.m., on Rusk''s draft memorandum on South Vietnam. Kennedy fears being involved on two fronts at once; Vietnam not Korea, its issue obscure; he could make "a rather strong case against intervening in an area 10,000 miles away against 16,000 guerrillas with a native army of 200,000." McNamara: action would become clear if American forces went in, against the sources of Viet Cong power, those in North Vietnam among them. The contrast with Berlin "could even make leading Democrats wary."'
-    n: '[FRUS 1961–63, I, doc. 254](https://history.state.gov/historicaldocuments/frus1961-63v01/d254) (notes, probably by Burris). [[w.miller-misalliance]], 229 (Kennedy against the troops; the rest of the partnership endorsed); [[w.mcnamara-in-retrospect]], ch. 2 at n.15. [[w.selverstone-kennedy-withdrawal]], 46 (the meeting; the two fronts); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 273. [[w.reeves-president-kennedy]], 259–60 (the NSC; Kennedy''s case against intervening). [[w.mann-grand-delusion]], 250 (Kennedy; the Democrats). To check: Kennedy to Rusk and McNamara, Nov. 14, 1961, President''s Office Files, box 128, Kennedy Library (cited by [[w.reeves-president-kennedy]], 259). See [[cal.1961-11-11.vietnam]]. Names: Kennedy, Rusk, McNamara.'
+    n: '[FRUS 1961–63, I, doc. 254](https://history.state.gov/historicaldocuments/frus1961-63v01/d254) (notes, probably by Burris). [[w.miller-misalliance]], 229 (Kennedy against the troops; the rest of the partnership endorsed); [[w.mcnamara-in-retrospect]], ch. 2 at n.15. [[w.selverstone-kennedy-withdrawal]], 46 (the meeting; the two fronts); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 273. [[w.reeves-president-kennedy]], 259–60 (the NSC; Kennedy''s case against intervening). [[w.mann-grand-delusion]], 250 (Kennedy; the Democrats). To check: Kennedy to Rusk and McNamara, Nov. 14, 1961, President''s Office Files, box 128, Kennedy Library (cited by [[w.reeves-president-kennedy]], 259); Notes on the NSC meeting, Nov. 15, 1961, Johnson Papers, VPSF, NSF, box 4, NSC (II) (cited by [[w.chang-friends-and-enemies]], 221 n.36b). See [[cal.1961-11-11.vietnam]]. Names: Kennedy, Rusk, McNamara.'
     src:
       c: e24eab9f
       rows:
@@ -2430,6 +2552,17 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1670: ?'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:aidit-dipa-nusantara, vis:only:prc+indonesia]
     time_zone: Asia/Shanghai
+  - id: cal.1961-11-15.china-leadership-3
+    when: Nov. 15
+    date: '1961-11-15'
+    thread: china-leadership
+    also: [laos, vietnam]
+    c: '*Ta Kung Pao*''s editorial: the Americans'' doings in South Vietnam bound up with their plan to intervene in Laos, South Vietnam their springboard.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 208. To check: NCNA, 15 November 1961, SWB/FE/796/A3/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 208 n.20).'
+    src:
+      rows:
+        - 'via x.1961-11-15.ncna-fe-796-a3-2: ?'
+    tags: [polity:prc, ok:fields-place]
   - id: cal.1961-11-16.congress
     when: Nov. 16
     date: '1961-11-16'
@@ -2544,13 +2677,14 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking. Zhou Enlai and Deng Xiaoping and others go to the airport to see off Hồ Chí Minh.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 16, 1961); [[w.yang-shangkun-riji]], II, 90 (Nov. 16, 1961; the Western Suburb airport, 9:30 a.m.; Yang sees Hồ Chí Minh off to Vietnam); [[w.deng-xiaoping-nianpu-1904]], III, 1670 (Nov. 16, 1961; Deng and Zhou see Hồ off at the airport). Names: Zhou Enlai, Deng Xiaoping, Hồ Chí Minh.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 326 (Nov. 16, 1961); [[w.yang-shangkun-riji]], II, 90 (Nov. 16, 1961; the Western Suburb airport, 9:30 a.m.; Yang sees Hồ Chí Minh off to Vietnam); [[w.deng-xiaoping-nianpu-1904]], III, 1670 (Nov. 16, 1961; Deng and Zhou see Hồ off at the airport); [[w.guan-vietnamese-communists-relations-with]], 208. Names: Zhou Enlai, Deng Xiaoping, Hồ Chí Minh.'
     src:
       c: 5b70c6d4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 326: all'
         - 'w.yang-shangkun-riji II, 90: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1670: ?'
+        - 'w.guan-vietnamese-communists-relations-with 208: all'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:deng-xiaoping, name:ho-chi-minh]
   - id: cal.1961-11-16.china-leadership-2
     when: Nov. 16
@@ -3315,6 +3449,14 @@ entries:
         - 'w.friedman-shadow-cold-war 91: all'
         - 'via x.1961-11-21.scscaa-presidium-session-november-21-1961: ?'
     tags: [polity:ussr, vis:only:ussr]
+  - id: cal.1961-11-21.laos
+    when: Nov. 21–24
+    date: '1961-11-21'
+    place: khang-khay
+    thread: laos
+    c: 'Khang Khay. Marek Thee''s talks. Phạm Văn Thuyên, head of the DRV''s economic and cultural mission to Laos: the balance of forces "did not favor a conclusion of the negotiations"; "only a demonstration of military supremacy could break the deadlock." By Thee, the Chinese think a new operation perhaps needed and welcome, the North Vietnamese prefer the status quo, the NLHX would consolidate its gains; Souvanna Phouma sure only military pressure will bring Boun Oum and Phoumi to terms.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 208–209 (by Thee, after this rift the Soviet Union decides to disengage from Laos by degrees). Made public: 1973 ([[w.thee-notes-of-a-witness]]). To check: [[w.thee-notes-of-a-witness]], 191–192, 196–201 (cited by [[w.guan-vietnamese-communists-relations-with]], 209 n.21). Names: Souvanna Phouma, Boun Oum, Phoumi Nosavan.'
+    tags: [polity:drv, polity:poland, polity:laos, name:souvanna-phouma, name:boun-oum-na-champassak, name:phoumi-nosavan, vis:only:drv+poland+laos]
   - id: cal.1961-11-22.vietnam
     when: Nov. 22
     date: '1961-11-22'
@@ -3950,6 +4092,17 @@ entries:
         - 'w.yang-jisheng-mubei I, 175–176: all'
         - 'via w.yang-jisheng-mubei I, 175 n.t2: all'
     tags: [polity:prc, name:tan-zhenlin, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1961-11-25.laos
+    when: Nov. 25
+    date: '1961-11-25'
+    place: geneva
+    thread: laos
+    c: 'As the British delegation at Geneva reports it: eight items left on the conference''s agenda.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 209. Made public: 1997. To check: FO 371/159953, DF 2231/501, 25 November 1961, from Geneva to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 209 n.23a).'
+    src:
+      rows:
+        - 'via x.1961-11-25.fo-159953-df-2231-501: ?'
+    tags: [form:state, polity:uk, vis:only:uk]
   - id: cal.1961-11-26.transition-and-staff
     when: Nov. 26
     date: '1961-11-26'
@@ -4461,6 +4614,18 @@ entries:
         - 'w.jian-zhou-enlai 515: all'
         - 'via x.1961-11-29.cc-conveying-luo-ruiqing-report-office-national-defense-industry: all'
     tags: [polity:prc, vis:only:prc, name:luo-ruiqing, name:zhou-enlai]
+  - id: cal.1961-11-29.china-leadership-7
+    when: Nov. 29
+    date: '1961-11-29'
+    place: peking
+    thread: china-leadership
+    also: [vietnam]
+    c: 'The Chinese Foreign Ministry''s statement: the 1954 Geneva states and others to mark the "grave activities" of the United States against the Geneva agreements; the co-chairmen and the International Commission in Vietnam to check American aggression.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 209. To check: Peking Review no. 48, Dec. 1, 1961, 9–10 (cited by [[w.guan-vietnamese-communists-relations-with]], 209 n.22).'
+    src:
+      rows:
+        - 'via x.1961-12-01.peking-review-48-9-10: ?'
+    tags: [polity:prc, ok:fields-place]
   - id: cal.1961-11-30.cuba
     when: Nov. 30
     date: '1961-11-30'
@@ -4636,13 +4801,14 @@ entries:
     thread: soviet-union
     also: [vietnam-hanoi, laos]
     c: Moscow suspends aid deliveries to Hanoi for a time, suspecting that supplies meant for Laos go to South Vietnam.
-    n: '[[w.asselin-hanois-road-to-the]], 122. To check: Zubok and Pleshakov, *Inside the Kremlin''s Cold War* (1997), 258; Marek Thee, *Notes of a Witness* (1973), 201, 205 (cited by [[w.asselin-hanois-road-to-the]], 122 n.29). Check: the day.'
+    n: '[[w.asselin-hanois-road-to-the]], 122; [[w.guan-vietnamese-communists-relations-with]], 209 (air deliveries to Tchepone stopped some time in November–December, the North Vietnamese suspected of using them for the South rather than the Laotian units). To check: Zubok and Pleshakov, *Inside the Kremlin''s Cold War* (1997), 258; Marek Thee, *Notes of a Witness* (1973), 201, 205 (cited by [[w.asselin-hanois-road-to-the]], 122 n.29). Check: the day.'
     src:
       c: f9855367
       rows:
         - 'w.asselin-hanois-road-to-the 122: all'
         - 'via x.1997.zubok-pleshakov-inside-the-kremlins: all'
         - 'via x.1973.thee-notes-of-a-witness: all'
+        - 'w.guan-vietnamese-communists-relations-with 209: ?'
   - id: cal.1961-11.vietnam-hanoi
     when: Nov.
     date: 1961-11
@@ -4831,12 +4997,13 @@ entries:
     thread: laos
     also: [china]
     c: Peking intercedes with the Pathet Lao and scuttles an agreement for a coalition under Souvanna Phouma.
-    n: '[[w.fursenko-khrushchevs-cold-war]], 411. Check: the day. To check: Marek Thee, *Notes of a Witness* (1973), 180–205; spravka, before Souphanouvong''s visit to the USSR, Jan. 26, 1962, 0570, 8/8/15, MFA (cited by [[w.fursenko-khrushchevs-cold-war]], 411 n.8). Names: Souvanna Phouma.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 411; [[w.guan-vietnamese-communists-relations-with]], 208 (after He Wei''s visit the NLHX goes back on its concession: the time not ripe for a coalition, Vientiane only with security assured; Hanoi likewise). Check: the day. To check: Marek Thee, *Notes of a Witness* (1973), 180–205; spravka, before Souphanouvong''s visit to the USSR, Jan. 26, 1962, 0570, 8/8/15, MFA (cited by [[w.fursenko-khrushchevs-cold-war]], 411 n.8). Names: Souvanna Phouma.'
     src:
       c: 4ef901eb
       rows:
         - 'w.fursenko-khrushchevs-cold-war 411: all'
         - 'via w.fursenko-khrushchevs-cold-war 411 n.8: all'
+        - 'w.guan-vietnamese-communists-relations-with 208: ?'
     tags: [name:souvanna-phouma]
   - id: cal.1961-11.goldwater
     when: Nov., after the separation
@@ -4983,7 +5150,7 @@ entries:
     thread: vietnam-hanoi
     also: [soviet-union, china]
     c: The Central Committee's sixth plenum, Hanoi. Lê Duẩn reports for the delegation, led by Hồ Chí Minh, to the Soviet party's Twenty-second Congress; the plenum approves the report and the delegation's acts, studies Khrushchev's report on the new program "for building communism," to be spread in the Party and among the people. The Politburo to put the Central Committee's view of the Albanian-Soviet quarrel to the Soviet, Albanian and fraternal parties when it can. Unity with the Soviet and Chinese parties, the Soviet Union "the center."
-    n: '*Báo cáo của Đoàn đại biểu Đảng Lao động Việt Nam dự Đại hội lần thứ XXII của Đảng Cộng sản Liên Xô do đồng chí Lê Duẩn trình bày ...*; *Kết luận của Hội nghị Ban Chấp hành Trung ương lần thứ sáu ...*; *Thông cáo về Hội nghị lần thứ sáu ...*. [[w.van-kien-dang-toan]], XXII, 568–608 (the report, 568–602; the conclusions, 603–04; the communiqué, 605–08). See [[cal.1961-11.vietnam-hanoi]]. Made public: 2002 (the report, the conclusions); the communiqué the plenum''s public statement. Names: Lê Duẩn, Hồ Chí Minh, Khrushchev.'
+    n: '*Báo cáo của Đoàn đại biểu Đảng Lao động Việt Nam dự Đại hội lần thứ XXII của Đảng Cộng sản Liên Xô do đồng chí Lê Duẩn trình bày ...*; *Kết luận của Hội nghị Ban Chấp hành Trung ương lần thứ sáu ...*; *Thông cáo về Hội nghị lần thứ sáu ...*. [[w.van-kien-dang-toan]], XXII, 568–608 (the report, 568–602; the conclusions, 603–04; the communiqué, 605–08); [[w.guan-vietnamese-communists-relations-with]], 210 (Nov. 30–Dec. 2, to hear Hồ''s report on the Twenty-second Congress). To check: VINA, 4 December 1961, SWB/FE/812/A2/1 (cited by [[w.guan-vietnamese-communists-relations-with]], 210 n.27). See [[cal.1961-11.vietnam-hanoi]]. Made public: 2002 (the report, the conclusions); the communiqué the plenum''s public statement. Names: Lê Duẩn, Hồ Chí Minh, Khrushchev.'
     tags: [name:le-duan, name:ho-chi-minh, name:khrushchev-nikita-s, polity:ussr, polity:prc, polity:drv]
   - id: cal.1961-11.soviet-union-leadership
     when: Nov.

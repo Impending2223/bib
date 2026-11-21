@@ -75,13 +75,14 @@ entries:
     place: nam-tha
     thread: laos
     c: Nam Tha's airfield mortared, Feb. 1; the five remaining Laotian T-6s withdrawn to Luang Prabang. Feb. 3, the shells reach the town; Phoumi airlifts several hundred paratroopers fresh from training in Thailand, against Boyle's advice. The first rounds had fallen on the outskirts Jan. 25.
-    n: '[[w.anthony-war-in-northern-laos]], 64–65. To check: History, CINCPAC, 1962, p. 202 (cited by [[w.anthony-war-in-northern-laos]], 65 n.18a); Andrew J. Boyle, interview by the author, Sept. 18, 1974 (cited by [[w.anthony-war-in-northern-laos]], 65 n.18b). Names: Phoumi Nosavan.'
+    n: '[[w.anthony-war-in-northern-laos]], 64–65; [[w.guan-vietnamese-communists-relations-with]], 217 (the first time; seven infantry battalions and other units of the North Vietnamese 316th, 335th and 330th Brigades into Laos to fight beside the Pathet Lao and neutralists, North Vietnam''s first campaign since 1954 against the enemy''s rear, the first great breach of the cease-fire since Ban Padong). To check: History, CINCPAC, 1962, p. 202 (cited by [[w.anthony-war-in-northern-laos]], 65 n.18a); Andrew J. Boyle, interview by the author, Sept. 18, 1974 (cited by [[w.anthony-war-in-northern-laos]], 65 n.18b). Names: Phoumi Nosavan.'
     src:
       c: 268dd527
       rows:
         - 'w.anthony-war-in-northern-laos 64–65: all'
         - 'via w.anthony-war-in-northern-laos 65 n.18a: all'
         - 'via w.anthony-war-in-northern-laos 65 n.18b: all'
+        - 'w.guan-vietnamese-communists-relations-with 217: ?'
     tags: [name:phoumi-nosavan]
   - id: cal.1962-02-01.defense
     when: Feb. 1
@@ -398,6 +399,13 @@ entries:
       - 1962-02-02T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1962-02-02.laos
+    when: Feb. 2
+    date: '1962-02-02'
+    thread: laos
+    c: The meeting of King Savang Vatthana and the three princes called off at the last minute, Boun Oum refusing to come with fighting at Nam Tha.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 217. Names: Savang Vatthana, Boun Oum.'
+    tags: [polity:laos, name:savang-vatthana, name:boun-oum-na-champassak, ok:fields-place]
   - id: cal.1962-02-03.cuba
     when: Feb. 3
     date: '1962-02-03'
@@ -423,12 +431,13 @@ entries:
     place: saigon
     thread: vietnam
     c: 'Diệm''s decree sets up the Interministerial Committee for Strategic Hamlets: the ministers of the interior, civic action and rural affairs, the deputy minister of defense, army, police and intelligence officers; Nhu presides. The strategic hamlets the government''s first priority since January.'
-    n: '[[w.miller-misalliance]], 231–39 (the program''s design; 238: the committee, its members, Nhu in the chair, the priority of January). To check: [[w.catton-diems-final-failure]]; "Translation of Decree Establishing Interministerial Committee for Strategic Hamlets," Feb. 3, 1962, folder 12, box 6, Donnell Collection, Vietnam Archive, Texas Tech University (cited by [[w.miller-misalliance]], 238 n.61). See [[cal.1962-02-02.vietnam]]. Names: Diệm, Nhu.'
+    n: '[[w.miller-misalliance]], 231–39 (the program''s design; 238: the committee, its members, Nhu in the chair, the priority of January); [[w.guan-vietnamese-communists-relations-with]], 216 ("In February 1962," a high-level interagency committee to run the program nationally). To check: [[w.catton-diems-final-failure]]; "Translation of Decree Establishing Interministerial Committee for Strategic Hamlets," Feb. 3, 1962, folder 12, box 6, Donnell Collection, Vietnam Archive, Texas Tech University (cited by [[w.miller-misalliance]], 238 n.61). See [[cal.1962-02-02.vietnam]]. Names: Diệm, Nhu.'
     src:
       c: be1bab46
       rows:
         - 'w.miller-misalliance 231–39: all'
         - 'via w.miller-misalliance 238 n.61: A'
+        - 'w.guan-vietnamese-communists-relations-with 216: ?'
     tags: [name:ngo-dinh-diem, name:ngo-dinh-nhu, place:saigon]
     time_range:
       - 1962-02-03T01:00Z
@@ -918,6 +927,17 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 172–173: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1962-02-06.laos
+    when: Feb. 6
+    date: '1962-02-06'
+    place: khang-khay
+    thread: laos
+    c: 'After talks in Moscow of Frank Roberts and Pushkin, the British and Soviet Ambassadors in Laos and the International Commission fly to Khang Khay to press Souphanouvong for a cease-fire. Souphanouvong to the British Ambassador: the pressure at Nam Tha political, no intent to take it.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 217. Made public: 1997. To check: FO 371/166430, DF 1015/109/G, 12 February 1962, from Vientiane to Foreign Office (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 217 n.58). Names: Roberts, Pushkin, Souphanouvong.'
+    src:
+      rows:
+        - 'via x.1962-02-12.fo-166430-df-1015-109-g: ?'
+    tags: [polity:uk, polity:ussr, polity:pathet-lao, name:roberts-frank-l, name:pushkin-georgiyi-maksimovich, name:souphanouvong, vis:only:uk+laos+pathet-lao+ussr@B]
   - id: cal.1962-02-07.crime-and-hijacking
     when: Feb. 7
     date: '1962-02-07'
@@ -1056,7 +1076,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'The Great Hall, 4:30 p.m. Plenary, Mao presiding. Zhou Enlai: for the past years'' faults the State Council and its commissions bear much; leap targets set against fact; if proportions are not kept, laws of objective reality punish; the economy still in serious difficulty; farm recovery needs three to five years; 1962 the key year of adjustment. Mao closes the conference: nearly a month, the lines of communication opened, policy settled; a small conference of the first secretaries on Feb. 8.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 7, 1962. [[w.zhou-enlai-nianpu-1949]], II, 455–56 (Feb. 7, 1962: Zhou Enlai''s closing speech: the State Council and its commissions bear much of the blame; grain short by about 10 billion jin in 1962; eight measures, the first to cut offices, urban population, staff and grain supply); [[w.macfarquhar-origins-of-the-cultural]], III, 175–78 (Zhou Enlai''s speech: the five highs, planning, his own errors, devolution of powers); [[w.macfarquhar-origins-of-the-cultural]], III, 184–86 (Zhou''s figures: grain output, procurement and rural ration; the surplus provinces; grain to the cities; foreign debts); [[w.macfarquhar-origins-of-the-cultural]], III, 134, 144 (Zhou''s closing address: blockade, debts, the aid programme); [[w.yang-shangkun-riji]], II, 121 (Feb. 7, 1962; the enlarged Central Work Conference closes; Yang Shangkun, ill, absent; the delegates to leave from the next day); [[w.deng-xiaoping-nianpu-1904]], III, 1690 (Feb. 7, 1962; afternoon; Deng at the closing plenary; Zhou on the difficulties and their remedies; the resolution on Liu''s report read and passed by applause); [[w.mao-zedong-zhuan]], V, ch. 69 (Feb. 7, Great Hall: the last day, Zhou Enlai on the economy''s difficulties and the way out; the resolution on Liu''s written report adopted; Mao closes the conference). [[w.dikotter-maos-great-famine]], 336 n.4 (Zhou takes the blame himself: the excessive grain procurements, the inflated output figures, the draining of grain from the provinces and the growing food exports, "my mistake"; the errors came when the general line and Mao''s instructions were contravened); [[w.jian-zhou-enlai]], 462 (Zhou''s speech: Mao not to take the responsibility; "it is we who have made the mistakes"; the Party to listen to the helmsman); [[w.yang-jisheng-tiandi-fanfu]], I, 72 (the conference closes Feb. 7); [[w.peng-zhen-nianpu-1902]], IV, 173 (Feb. 7, 1962, afternoon; Peng Zhen at the plenary, Mao presiding, hearing Zhou on the difficulties and how to overcome them; the resolution on Liu Shaoqi''s report adopted, the conference closes). Made public: 1997. To check: the conference''s resolution on Liu Shaoqi''s report (the nianpu, Jan.–Feb. entry: Mao added "and the speeches of several Standing Committee comrades" and "restore democratic centralism"); [[w.qi-qian-ren-dahui]], 79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 175 n.186); [[w.qi-qian-ren-dahui]], 81 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 176 n.187); [[w.qi-qian-ren-dahui]], 83 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 176 n.189); [[w.qi-qian-ren-dahui]], 83–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 177 n.190); [[w.qi-qian-ren-dahui]], 79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 177 n.193); [[w.griffith-albania-and-the-sino]], 104 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 134 n.81b); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); Zhou Enlai, speech of Feb. 7, 1962, Gansu Provincial Archives, 91-18-493, p. 87 (cited by [[w.dikotter-maos-great-famine]], 336 n.4); [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 109–110 (cited by [[w.jian-zhou-enlai]], 462 n.86a). See [[cal.1962-02-06.china-leadership]]. Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 7, 1962. [[w.zhou-enlai-nianpu-1949]], II, 455–56 (Feb. 7, 1962: Zhou Enlai''s closing speech: the State Council and its commissions bear much of the blame; grain short by about 10 billion jin in 1962; eight measures, the first to cut offices, urban population, staff and grain supply); [[w.macfarquhar-origins-of-the-cultural]], III, 175–78 (Zhou Enlai''s speech: the five highs, planning, his own errors, devolution of powers); [[w.macfarquhar-origins-of-the-cultural]], III, 184–86 (Zhou''s figures: grain output, procurement and rural ration; the surplus provinces; grain to the cities; foreign debts); [[w.macfarquhar-origins-of-the-cultural]], III, 134, 144 (Zhou''s closing address: blockade, debts, the aid programme); [[w.yang-shangkun-riji]], II, 121 (Feb. 7, 1962; the enlarged Central Work Conference closes; Yang Shangkun, ill, absent; the delegates to leave from the next day); [[w.deng-xiaoping-nianpu-1904]], III, 1690 (Feb. 7, 1962; afternoon; Deng at the closing plenary; Zhou on the difficulties and their remedies; the resolution on Liu''s report read and passed by applause); [[w.mao-zedong-zhuan]], V, ch. 69 (Feb. 7, Great Hall: the last day, Zhou Enlai on the economy''s difficulties and the way out; the resolution on Liu''s written report adopted; Mao closes the conference). [[w.dikotter-maos-great-famine]], 336 n.4 (Zhou takes the blame himself: the excessive grain procurements, the inflated output figures, the draining of grain from the provinces and the growing food exports, "my mistake"; the errors came when the general line and Mao''s instructions were contravened); [[w.jian-zhou-enlai]], 462 (Zhou''s speech: Mao not to take the responsibility; "it is we who have made the mistakes"; the Party to listen to the helmsman); [[w.yang-jisheng-tiandi-fanfu]], I, 72 (the conference closes Feb. 7); [[w.peng-zhen-nianpu-1902]], IV, 173 (Feb. 7, 1962, afternoon; Peng Zhen at the plenary, Mao presiding, hearing Zhou on the difficulties and how to overcome them; the resolution on Liu Shaoqi''s report adopted, the conference closes); [[w.dikotter-cultural-revolution]], 13 n.18 (Zhou takes on himself the excessive procurements, the inflated figures, the draining of grain from the provinces and the growing food exports: the faults came where the general line and Mao''s instructions were contravened). Made public: 1997. To check: the conference''s resolution on Liu Shaoqi''s report (the nianpu, Jan.–Feb. entry: Mao added "and the speeches of several Standing Committee comrades" and "restore democratic centralism"); [[w.qi-qian-ren-dahui]], 79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 175 n.186); [[w.qi-qian-ren-dahui]], 81 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 176 n.187); [[w.qi-qian-ren-dahui]], 83 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 176 n.189); [[w.qi-qian-ren-dahui]], 83–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 177 n.190); [[w.qi-qian-ren-dahui]], 79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 177 n.193); [[w.griffith-albania-and-the-sino]], 104 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 134 n.81b); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); Zhou Enlai, speech of Feb. 7, 1962, Gansu Provincial Archives, 91-18-493, p. 87 (cited by [[w.dikotter-maos-great-famine]], 336 n.4); [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 109–110 (cited by [[w.jian-zhou-enlai]], 462 n.86a). See [[cal.1962-02-06.china-leadership]]. Names: Mao Zedong, Zhou Enlai.'
     src:
       c: 90946a48
       rows:
@@ -1084,6 +1104,8 @@ entries:
         - 'w.jian-zhou-enlai 462: ?'
         - 'w.yang-jisheng-tiandi-fanfu I, 72: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 173: ?'
+        - 'w.dikotter-cultural-revolution 13 n.18: ?'
+        - 'via w.dikotter-cultural-revolution 13 n.18: ?'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-02-07.china-leadership-2
     when: Feb. 7
@@ -1110,7 +1132,7 @@ entries:
     time: 1962-02-08T16:00Z
     thread: vietnam
     c: MACV established. Harkins commands.
-    n: '[FRUS 1961–63, II, doc. 53](https://history.state.gov/historicaldocuments/frus1961-63v02/d53). [[w.gibbons-u-s-government-and]], II, 103 (February 1962; not the day); [[w.marolda-united-states-navy-and]], 220; [[w.futrell-united-states-air-force]], 97; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 274; [[w.taylor-swords-and-plowshares]], 250 (Harkins in command in February; his directive); [[w.reeves-president-kennedy]], 283; [[w.selverstone-kennedy-withdrawal]], 55 (MACV comes into existence Feb. 8; Harkins raised to four stars); [[w.macfarquhar-origins-of-the-cultural]], III, 368 (the Military Assistance Advisory Group becomes the Military Assistance Command, Vietnam, a four-star general replacing a three-star); [[w.lich-su-khang-chien-chong-my]], III, 23 (Feb. 8, 1962, MAAG becomes MACV under Gen. Paul Harkins, who replaces McGarr). Check: the day; Reeves, 283, has the MAAG upgraded to MACV, with Harkins in command, on Feb. 2. To check: [[w.cosmas-united-states-army-in]]; CNO, minutes of meeting, Thursday, 4 Jan 1962 (cited by [[w.marolda-united-states-navy-and]], 220 n.2a); CNO, minutes of meeting, Thursday, 16 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2b); CNO, minutes of meeting, Friday, 24 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2c); msgs, CP 141212Z Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2d); JCS 282248Z (cited by [[w.marolda-united-states-navy-and]], 220 n.2e); CP 290301Z (cited by [[w.marolda-united-states-navy-and]], 220 n.2f); 081600Z Feb 1962 (cited by [[w.marolda-united-states-navy-and]], 220 n.2g); CINCPAC, Command History, 1962, p. 154 (cited by [[w.marolda-united-states-navy-and]], 220 n.2h); memos, Shoup to Anderson, of 18 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2i); OP-60 to CNO, ser BM727-61 of 22 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2j); Military Assistant to SECDEF to SECARM/SECNAV/SECAF/CHJCS, of 29 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2k); OSD, of 29 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2l); Msg, PACAF to 13th AF and 2d ADVON, Feb 20, 1962 (cited by [[w.futrell-united-states-air-force]], 97 n.20); [[w.gelb-irony-of-vietnam]], 80 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 368 n.118). See [[cal.1961-01-28.vietnam]]. Names: Harkins.'
+    n: '[FRUS 1961–63, II, doc. 53](https://history.state.gov/historicaldocuments/frus1961-63v02/d53). [[w.gibbons-u-s-government-and]], II, 103 (February 1962; not the day); [[w.marolda-united-states-navy-and]], 220; [[w.futrell-united-states-air-force]], 97; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 274; [[w.taylor-swords-and-plowshares]], 250 (Harkins in command in February; his directive); [[w.reeves-president-kennedy]], 283; [[w.selverstone-kennedy-withdrawal]], 55 (MACV comes into existence Feb. 8; Harkins raised to four stars); [[w.macfarquhar-origins-of-the-cultural]], III, 368 (the Military Assistance Advisory Group becomes the Military Assistance Command, Vietnam, a four-star general replacing a three-star); [[w.lich-su-khang-chien-chong-my]], III, 23 (Feb. 8, 1962, MAAG becomes MACV under Gen. Paul Harkins, who replaces McGarr); [[w.guan-vietnamese-communists-relations-with]], 215 (Gen. Paul D. Harkins). Check: the day; Reeves, 283, has the MAAG upgraded to MACV, with Harkins in command, on Feb. 2. To check: [[w.cosmas-united-states-army-in]]; CNO, minutes of meeting, Thursday, 4 Jan 1962 (cited by [[w.marolda-united-states-navy-and]], 220 n.2a); CNO, minutes of meeting, Thursday, 16 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2b); CNO, minutes of meeting, Friday, 24 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2c); msgs, CP 141212Z Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2d); JCS 282248Z (cited by [[w.marolda-united-states-navy-and]], 220 n.2e); CP 290301Z (cited by [[w.marolda-united-states-navy-and]], 220 n.2f); 081600Z Feb 1962 (cited by [[w.marolda-united-states-navy-and]], 220 n.2g); CINCPAC, Command History, 1962, p. 154 (cited by [[w.marolda-united-states-navy-and]], 220 n.2h); memos, Shoup to Anderson, of 18 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2i); OP-60 to CNO, ser BM727-61 of 22 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2j); Military Assistant to SECDEF to SECARM/SECNAV/SECAF/CHJCS, of 29 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2k); OSD, of 29 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2l); Msg, PACAF to 13th AF and 2d ADVON, Feb 20, 1962 (cited by [[w.futrell-united-states-air-force]], 97 n.20); [[w.gelb-irony-of-vietnam]], 80 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 368 n.118). See [[cal.1961-01-28.vietnam]]. Names: Harkins.'
     src:
       c: b1e548d7
       rows:
@@ -1138,6 +1160,7 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 368: A, B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 368 n.118: A, B'
         - 'w.lich-su-khang-chien-chong-my III, 23: A, B'
+        - 'w.guan-vietnamese-communists-relations-with 215: ?'
     tags: [name:harkins-paul-d]
     short: MACV
   - id: cal.1962-02-08.cuba
@@ -1284,6 +1307,18 @@ entries:
     c: Tây Ninh. Battalions 1 and 2 and their attached units, brought to full strength, hold the formal ceremony of Q761 at Trảng Dài, Feb. 9, and the regiment takes the name of the 1st Infantry Regiment.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 47. Made public: 2013. Check: the history gives two ceremonies, the battalions'' Feb. 9, 1961 at Dương Minh Châu and the regiment''s Feb. 9, 1962 at Trảng Dài (III, 47); the first, before the regiment''s founding in July 1961, is not entered (the book-check, for the next run).'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1962-02-09.china-leadership-2
+    when: Feb. 9
+    date: '1962-02-09'
+    place: peking
+    thread: china-leadership
+    also: [laos]
+    c: '*Renmin ribao*: the Royal Laotian government and the Pathet Lao have kept the cease-fire since May 3, 1961, but the United States has used it to build up Phoumi and Boun Oum; retaliation inevitable and just; a cease-fire at Nam Tha no precondition for the princes'' talks.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 218. To check: NCNA, 9 February 1962, SWB/FE/867/C/1-2 (cited by [[w.guan-vietnamese-communists-relations-with]], 218 n.63). Names: Phoumi Nosavan, Boun Oum.'
+    src:
+      rows:
+        - 'via x.1962-02-09.ncna-fe-867-c-1-2: ?'
+    tags: [polity:prc, name:phoumi-nosavan, name:boun-oum-na-champassak]
   - id: cal.1962-02-10.berlin-and-vienna
     when: Feb. 10
     date: '1962-02-10'
@@ -2021,6 +2056,27 @@ entries:
       - 1962-02-15T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-02-15.vietnam-diplomacy
+    when: Feb. 15
+    date: '1962-02-15'
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: 'As the British annual report on North Vietnam for 1961, from Saigon, has it: Soviet and East European economic aid to the DRV in 1961 greater than China''s.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 183. Made public: 1997. To check: FO 371/166697, DV 1011/2, 15 February 1962, from Saigon to Foreign Office (1961 annual report on North Vietnam) (cited by [[w.guan-vietnamese-communists-relations-with]], 183 n.19).'
+    src:
+      rows:
+        - 'via x.1962-02-15.fo-166697-dv-1011-2: ?'
+    tags: [form:state, polity:uk, polity:drv, vis:only:uk, ok:fields-place]
+  - id: cal.1962-02-15.laos
+    when: Feb. 15
+    date: '1962-02-15'
+    thread: laos
+    c: 'As the Foreign Office has it, to Washington: the Russians may no longer hold Souphanouvong and the North Vietnamese if there is no settlement soon.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 218. Made public: 1997. To check: FO 371/166497, DF 2231/31, 15 February 1962, from Foreign Office to Washington (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 218 n.64); FO 371/166432, DF 1015/143, Feb. 26, 1962, Foreign Office minutes (cited by [[w.guan-vietnamese-communists-relations-with]], 218 n.65). Names: Souphanouvong.'
+    src:
+      rows:
+        - 'via x.1962-02-15.fo-166497-df-2231-31: ?'
+    tags: [form:state, polity:uk, name:souphanouvong, vis:only:uk, ok:fields-place]
   - id: cal.1962-02-16.opinion
     when: Feb. 16
     date: '1962-02-16'
@@ -2163,6 +2219,16 @@ entries:
       - 1962-02-16T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-02-16.laos
+    when: Feb. 16
+    date: '1962-02-16'
+    thread: laos
+    c: 'As J. M. Addis, the British Ambassador, reports it: in his February talks with Souvanna Phouma and Souphanouvong much strain and difference between them, unlike his first visits to the Plain of Jars in September 1961 and the princes'' visit to Vientiane in late December; the Russians and Souvanna against the Nam Tha offensive, Souvanna''s troops not in it.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 217–218. Made public: 1997. To check: FO 371/166430, DF 1015/117, 16 February 1962, from Vientiane to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 218 n.59a); FO 371/166432, DF 1015/141, 21 February 1962, from Vientiane to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 218 n.59b). Names: Souvanna Phouma, Souphanouvong.'
+    src:
+      rows:
+        - 'via x.1962-02-16.fo-166430-df-1015-117: ?'
+    tags: [form:state, polity:uk, name:souvanna-phouma, name:souphanouvong, vis:only:uk, ok:fields-place]
   - id: cal.1962-02-17.conservative-movement
     when: Feb. 17
     date: '1962-02-17'
@@ -2261,6 +2327,16 @@ entries:
         - 'w.yang-shangkun-riji II, 125: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-02-17.laos
+    when: Feb. 17
+    date: '1962-02-17'
+    thread: laos
+    c: 'As the British Ambassador reports it: Abramov has tried hard, without success, to get Souphanouvong to lift the pressure at Nam Tha. (By Marek Thee, the Soviet Union neither backed nor condemned the operation.)'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 218. Made public: 1997. To check: FO 371/166430, DF 1015/118, 17 February 1962, from Vientiane to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 218 n.61a). Names: Abramov, Souphanouvong.'
+    src:
+      rows:
+        - 'via x.1962-02-17.fo-166430-df-1015-118: ?'
+    tags: [form:state, polity:uk, polity:ussr, name:abramov-aleksandr-n, name:souphanouvong, vis:only:uk, ok:fields-place]
   - id: cal.1962-02-18.vietnam
     when: Feb. 18
     date: '1962-02-18'
@@ -2291,12 +2367,13 @@ entries:
     date: '1962-02-18'
     thread: vietnam-diplomacy
     c: Ten days after MACV's creation, Hanoi asks the Soviet and British governments, as co-chairmen of the Geneva conference, to "urgently study effective measures to end U.S. aggression in South Vietnam." Repeated later in February and in March and April.
-    n: '[[w.asselin-hanois-road-to-the]], 127. To check: the Foreign Office''s minutes, "Demands for an International Conference on Vietnam, 1960–September 1963," Sept. 20, 1963, FO 371/170153 (cited by [[w.asselin-hanois-road-to-the]], 127 n.58). See [[cal.1962-02-08.vietnam]].'
+    n: '[[w.asselin-hanois-road-to-the]], 127; [[w.guan-vietnamese-communists-relations-with]], 215 (MACV a most serious act of military aggression, a direct threat to the North and to peace in Southeast Asia and the Pacific; the co-chairmen to study urgently how to end it). To check: the Foreign Office''s minutes, "Demands for an International Conference on Vietnam, 1960–September 1963," Sept. 20, 1963, FO 371/170153 (cited by [[w.asselin-hanois-road-to-the]], 127 n.58); VINA, 18 February 1962, SWB/FE/875/A3/3-4 (cited by [[w.guan-vietnamese-communists-relations-with]], 215 n.50). See [[cal.1962-02-08.vietnam]].'
     src:
       c: 51b2fae3
       rows:
         - 'w.asselin-hanois-road-to-the 127: all'
         - 'via x.1963-09-20.fo-minutes-demands-for-a-conference: all'
+        - 'w.guan-vietnamese-communists-relations-with 215: ?'
     time_range:
       - 1962-02-18T02:00Z
       - 1962-02-18T10:00Z
@@ -2605,6 +2682,20 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1692: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1962-02-19.china-leadership-5
+    when: Feb. 19
+    date: '1962-02-19'
+    place: wuhan
+    thread: china-leadership
+    also: [china]
+    c: 'As a Wuhan 武汉 report has it: well over 2,000 lepers known in the city, too few hospital beds, left to roam the streets scavenging for food.'
+    n: '[[w.dikotter-maos-great-famine]], 278. Made public: 2010. To check: Wuhan Municipal Archives, Feb. 19, 1962, 71-1-1400, pp. 18–21 (cited by [[w.dikotter-maos-great-famine]], 278 n.21).'
+    src:
+      c: 4cfee0b4
+      rows:
+        - 'w.dikotter-maos-great-famine 278: all'
+        - 'via w.dikotter-maos-great-famine 278 n.21: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1962-02-20.space
     when: Feb. 20
     date: '1962-02-20'
@@ -2936,7 +3027,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking, the Xilou meeting room. The enlarged Standing Committee, Liu Shaoqi presiding, Feb. 21–23, on the 1962 state budget and the economy ("the Xilou meeting"): bad harvests, short markets, rising prices, a budget deficit of 3 billion yuan. Held to be like an emergency; a period of recovery to be fixed, the whole economy adjusted. Measures proposed. Mao is in the south.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 21, 1962 (the entry for Feb. 21–23). [[w.zhou-enlai-nianpu-1949]], II, 460 (Feb. 21–23, 1962: Zhou Enlai attends; the discussion found a deficit of 5 billion yuan in that year''s budget; Chen Yun''s two stages, five years of recovery and then development; Zhou agrees); [[w.macfarquhar-origins-of-the-cultural]], III, 187–88 (Feb. 21–23: the Finance and Trade Office''s report, balanced at 30 billion yuan each side, found to hide a 1962 deficit of 5 to 6 billion; credit and currency figures; Liu orders a new report); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 549 (Feb. 21–23, 1962; Liu presides at the enlarged Politburo Standing Committee meeting at Xilou on the 1962 state budget and the economy; Liu: the work conference did not bring the difficulties fully to light; "if there is a problem, who does not wish to uncover it, afraid to say all is black?"; the present is a period of recovery, unlike the three years after 1949, an abnormal period with the character of an emergency, and not to be met by normal means; Chen Yun speaks on the economic situation and ways to overcome the difficulties, Liu approving, and Liu proposes a State Council meeting at which Chen Yun speaks more fully; Feb. 26 Chen Yun gives his report "Some measures for the present financial and economic situation and for overcoming difficulties" to the Party-group members of the State Council''s departments, with Li Fuchun and Li Xiannian on industry, construction, finance, credit and the market; afterward Liu proposes that the Center forward Chen Yun''s and the others'' reports to the whole country); [[w.yang-shangkun-riji]], II, 126 (Feb. 21, 1962; 3 to 7:30 p.m., at the Xilou 西楼, Liu Shaoqi''s meeting on finance and commerce; Yao Yilin reports on trade; to go on the next day); [[w.deng-xiaoping-nianpu-1904]], III, 1692 (Feb. 21–23, 1962; Deng at the West Building meeting, Liu presiding: the 1962 budget and the economy; the difficulties graver than reckoned at the enlarged work conference; a period of recovery, a broad readjustment; Chen Yun''s speech on the 23rd); [[w.mao-zedong-zhuan]], V, ch. 69 (Feb. 21–23, the Xilou meeting, Liu Shaoqi presiding over the enlarged Standing Committee at the west building 西楼 of Zhongnanhai, the three days, Chen Yun speaking on the 23rd). [[w.yang-jisheng-mubei]], II, 1174 (the Xilou meeting, Feb. 21–23, 1962, Liu Shaoqi presiding in the West Building of Zhongnanhai; Chen Yun''s grave estimate of the economy); [[w.yang-jisheng-mubei]], II, 1118–1119 n.18 (Liu at the Xilou meeting: the Seven Thousand conference was not frank enough on the difficulties; the present is a period of recovery but an abnormal, almost emergency one, to be met by extraordinary means; the book calls the meeting an enlarged Standing Committee, held Feb. 21 in the Xilou meeting room, Zhongnanhai); [[w.jian-zhou-enlai]], 463 (the Xilou Conference, Liu presiding, Chen Yun and Liu the main actors; Liu: the Seven Thousand Cadres Conference did not expose the difficulties; abnormal methods for an abnormal time; Zhou: the financial difficulties very serious, a decade of recovery needed); [[w.yang-jisheng-tiandi-fanfu]], I, 72 (the Xilou meeting room, Zhongnanhai; Liu: at the Seven Thousand conference the difficulties were not laid bare; "pitch dark," what is there to fear; an extraordinary time needs extraordinary means; Liu calls himself "president of an extraordinary time"); [[w.peng-zhen-nianpu-1902]], IV, 175 (Feb. 21–23, 1962; Peng Zhen at Liu Shaoqi''s enlarged Standing Committee in the Xilou (the "Xilou meeting") on the 1962 budget and the economy: farm output down, the market tight, prices up, inflation, a deficit of over 3 billion yuan, worse than thought at the Seven Thousand; an extraordinary time, agriculture first; ten years, first adjustment and recovery, then growth; Chen Yun speaks on the 23rd; Chen Yun, Li Fuchun and Li Xiannian to relay it to the State Council''s Party groups). Made public: 1996. Check: Zhou''s nianpu gives the deficit as 5 billion yuan, this entry 3 billion. Check: MacFarquhar gives the deficit found as 5 to 6 billion yuan (Li Xiannian''s estimate 6), this entry 3 billion. To check: [[w.gongheguo-zhuxi-liu-shaoqi]], 50–51 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 187 n.5); [[w.jin-1949-1989-niande-zhongguo]], 414 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 187 n.6a); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 331 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 187 n.6b); [[w.deng-liqun-guoshi-jiangtan]], II, 456 (cited by [[w.jian-zhou-enlai]], 463 n.88); [[w.zhou-enlai-zhuan-1949]], II, 674 (cited by [[w.jian-zhou-enlai]], 463 n.90); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], II, 1051–1052 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 72 n.72); [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 285 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 72 n.73). Names: Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 21, 1962 (the entry for Feb. 21–23). [[w.zhou-enlai-nianpu-1949]], II, 460 (Feb. 21–23, 1962: Zhou Enlai attends; the discussion found a deficit of 5 billion yuan in that year''s budget; Chen Yun''s two stages, five years of recovery and then development; Zhou agrees); [[w.macfarquhar-origins-of-the-cultural]], III, 187–88 (Feb. 21–23: the Finance and Trade Office''s report, balanced at 30 billion yuan each side, found to hide a 1962 deficit of 5 to 6 billion; credit and currency figures; Liu orders a new report); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 549 (Feb. 21–23, 1962; Liu presides at the enlarged Politburo Standing Committee meeting at Xilou on the 1962 state budget and the economy; Liu: the work conference did not bring the difficulties fully to light; "if there is a problem, who does not wish to uncover it, afraid to say all is black?"; the present is a period of recovery, unlike the three years after 1949, an abnormal period with the character of an emergency, and not to be met by normal means; Chen Yun speaks on the economic situation and ways to overcome the difficulties, Liu approving, and Liu proposes a State Council meeting at which Chen Yun speaks more fully; Feb. 26 Chen Yun gives his report "Some measures for the present financial and economic situation and for overcoming difficulties" to the Party-group members of the State Council''s departments, with Li Fuchun and Li Xiannian on industry, construction, finance, credit and the market; afterward Liu proposes that the Center forward Chen Yun''s and the others'' reports to the whole country); [[w.yang-shangkun-riji]], II, 126 (Feb. 21, 1962; 3 to 7:30 p.m., at the Xilou 西楼, Liu Shaoqi''s meeting on finance and commerce; Yao Yilin reports on trade; to go on the next day); [[w.deng-xiaoping-nianpu-1904]], III, 1692 (Feb. 21–23, 1962; Deng at the West Building meeting, Liu presiding: the 1962 budget and the economy; the difficulties graver than reckoned at the enlarged work conference; a period of recovery, a broad readjustment; Chen Yun''s speech on the 23rd); [[w.mao-zedong-zhuan]], V, ch. 69 (Feb. 21–23, the Xilou meeting, Liu Shaoqi presiding over the enlarged Standing Committee at the west building 西楼 of Zhongnanhai, the three days, Chen Yun speaking on the 23rd). [[w.yang-jisheng-mubei]], II, 1174 (the Xilou meeting, Feb. 21–23, 1962, Liu Shaoqi presiding in the West Building of Zhongnanhai; Chen Yun''s grave estimate of the economy); [[w.yang-jisheng-mubei]], II, 1118–1119 n.18 (Liu at the Xilou meeting: the Seven Thousand conference was not frank enough on the difficulties; the present is a period of recovery but an abnormal, almost emergency one, to be met by extraordinary means; the book calls the meeting an enlarged Standing Committee, held Feb. 21 in the Xilou meeting room, Zhongnanhai); [[w.jian-zhou-enlai]], 463 (the Xilou Conference, Liu presiding, Chen Yun and Liu the main actors; Liu: the Seven Thousand Cadres Conference did not expose the difficulties; abnormal methods for an abnormal time; Zhou: the financial difficulties very serious, a decade of recovery needed); [[w.yang-jisheng-tiandi-fanfu]], I, 72 (the Xilou meeting room, Zhongnanhai; Liu: at the Seven Thousand conference the difficulties were not laid bare; "pitch dark," what is there to fear; an extraordinary time needs extraordinary means; Liu calls himself "president of an extraordinary time"); [[w.peng-zhen-nianpu-1902]], IV, 175 (Feb. 21–23, 1962; Peng Zhen at Liu Shaoqi''s enlarged Standing Committee in the Xilou (the "Xilou meeting") on the 1962 budget and the economy: farm output down, the market tight, prices up, inflation, a deficit of over 3 billion yuan, worse than thought at the Seven Thousand; an extraordinary time, agriculture first; ten years, first adjustment and recovery, then growth; Chen Yun speaks on the 23rd; Chen Yun, Li Fuchun and Li Xiannian to relay it to the State Council''s Party groups); [[w.dikotter-cultural-revolution]], 16–17 n.8 (after the conference, in Mao''s absence, Liu: lack of modesty and of experience the main reasons for the mess; the market to be put on top of everything; he and others propose contracting the fields to households). Made public: 1996. Check: Zhou''s nianpu gives the deficit as 5 billion yuan, this entry 3 billion. Check: MacFarquhar gives the deficit found as 5 to 6 billion yuan (Li Xiannian''s estimate 6), this entry 3 billion. To check: [[w.gongheguo-zhuxi-liu-shaoqi]], 50–51 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 187 n.5); [[w.jin-1949-1989-niande-zhongguo]], 414 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 187 n.6a); [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 331 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 187 n.6b); [[w.deng-liqun-guoshi-jiangtan]], II, 456 (cited by [[w.jian-zhou-enlai]], 463 n.88); [[w.zhou-enlai-zhuan-1949]], II, 674 (cited by [[w.jian-zhou-enlai]], 463 n.90); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], II, 1051–1052 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 72 n.72); [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 285 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 72 n.73); Extracts of the minutes of the Xilou meeting, Oct. 1967, Shanghai Municipal Archives, B104-3-41, pp. 7–9, 13 (cited by [[w.dikotter-cultural-revolution]], 17 n.8). Names: Liu Shaoqi.'
     src:
       c: c0bb1bb8
       rows:
@@ -2955,6 +3046,8 @@ entries:
         - 'w.jian-zhou-enlai 463: ?'
         - 'w.yang-jisheng-tiandi-fanfu I, 72: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 175: ?'
+        - 'w.dikotter-cultural-revolution 16–17 n.8: ?'
+        - 'via w.dikotter-cultural-revolution 17 n.8: ?'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
     variants:
       - unit: B
@@ -3042,6 +3135,15 @@ entries:
       - 1962-02-21T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-02-21.vietnam-diplomacy
+    when: Feb. 21–Mar. 2
+    date: '1962-02-21'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: Hanoi. The CPSU delegation under B. N. Ponomarev, secretary of the Central Committee, a return for Lê Đức Thọ's of July 1961; after Titov and Soviet health, trade-union and foreign-trade delegations. Ponomarev's speeches on the CPSU program; Soviet support promised.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 218–219. To check: FO 371/170153, DV 2231/1, Sept. 20, 1963, Foreign Office minutes (cited by [[w.guan-vietnamese-communists-relations-with]], 219 n.68). Names: Ponomarev, Lê Đức Thọ.'
+    tags: [polity:ussr, polity:drv, name:ponomarev-boris-n, name:le-duc-tho]
   - id: cal.1962-02-22.robert-kennedy-trip
     when: Feb. 22–24
     date: '1962-02-22'
@@ -3207,6 +3309,18 @@ entries:
         - 'via x.1962-02-22.report-tursun-zade-second-afro-asian-writers: ?'
         - 'via x.1962-02-22.report-tursun-zade-visit-scscaa-delegation-latin: ?'
     tags: [polity:ussr, vis:only:ussr]
+  - id: cal.1962-02-22.vietnam-diplomacy
+    when: Feb. 22
+    date: '1962-02-22'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: Hanoi. The Soviet party delegation meets the Lao Động Central Committee; only Hồ, Trường Chinh, Phạm Văn Đồng and Lê Đức Thọ named.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 219. To check: VINA, 22 February 1962, SWB/FE/881/A2/1 (cited by [[w.guan-vietnamese-communists-relations-with]], 219 n.66). Names: Hồ Chí Minh, Trường Chinh, Phạm Văn Đồng, Lê Đức Thọ.'
+    src:
+      rows:
+        - 'via x.1962-02-22.vina-fe-881-a2-1: ?'
+    tags: [polity:ussr, polity:drv, name:ho-chi-minh, name:truong-chinh, name:pham-van-dong, name:le-duc-tho]
   - id: cal.1962-02-23.opinion
     when: Feb. 23
     date: '1962-02-23'
@@ -3369,6 +3483,18 @@ entries:
       - 1962-02-23T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-02-23.vietnam-diplomacy
+    when: Feb. 23
+    date: '1962-02-23'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: Hanoi. The Soviet delegation with a Vietnamese delegation under Lê Đức Thọ, to "exchange experiences on Party work."
+    n: '[[w.guan-vietnamese-communists-relations-with]], 219. To check: VINA, 24 February 1962, SWB/FE/881/A2/1 (cited by [[w.guan-vietnamese-communists-relations-with]], 219 n.67). Names: Lê Đức Thọ.'
+    src:
+      rows:
+        - 'via x.1962-02-24.vina-fe-881-a2-1: ?'
+    tags: [polity:ussr, polity:drv, name:le-duc-tho]
   - id: cal.1962-02-24.robert-kennedy
     when: Feb. 24
     date: '1962-02-24'
@@ -3443,11 +3569,13 @@ entries:
     thread: china
     also: [vietnam-hanoi]
     c: The Foreign Ministry issues a statement fully backing the DRV government's statement of Feb. 18 and its stern stand and just demands. The United States must at once stop its armed intervention in South Vietnam and withdraw its military men and equipment. On Feb. 18 the DRV had condemned the U.S. armed intervention in South Vietnam and asked the two co-chairmen and the states concerned to take effective measures to stop it.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 219 (Feb. 24, 1962).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 219 (Feb. 24, 1962); [[w.guan-vietnamese-communists-relations-with]], 215 (in full support of the DRV''s statement of Feb. 18: American armed intervention in South Vietnam a direct threat to the DRV, to China and to the peace of Asia). To check: NCNA, 24 February 1962, SWB/FE/880/A3/1-2 (cited by [[w.guan-vietnamese-communists-relations-with]], 215 n.51).'
     src:
       c: 203595b1
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 219: all'
+        - 'w.guan-vietnamese-communists-relations-with 215: ?'
+        - 'via x.1962-02-24.ncna-fe-880-a3-1-2: ?'
     tags: [polity:prc, polity:drv, polity:us]
   - id: cal.1962-02-24.china-leadership-3
     when: Feb. 24
@@ -4116,6 +4244,18 @@ entries:
     c: Quảng Nam. Region 5's Battalion 90 with the province's forces attacks the district seat of Trà Mi, Feb. 27.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 173.'
     tags: [polity:drv]
+  - id: cal.1962-02-27.vietnam-diplomacy
+    when: Feb. 27
+    date: '1962-02-27'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [soviet-union, vietnam]
+    c: 'Hanoi. A Soviet Foreign Ministry official suddenly tells J. F. Ford, the British Consul-General: the co-chairmen must urgently convene a conference on South Vietnam.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 219. Made public: 1997. To check: FO 371/170153, DV 2231/1, Sept. 20, 1963, Foreign Office minutes (cited by [[w.guan-vietnamese-communists-relations-with]], 219 n.68).'
+    src:
+      rows:
+        - 'via x.1963-09-20.fo-170153-dv-2231-1-fo-minutes: ?'
+    tags: [polity:ussr, polity:uk, vis:only:ussr+uk]
   - id: cal.1962-02-28.jobs-and-wages
     when: Feb. 28
     date: '1962-02-28'
@@ -4488,12 +4628,13 @@ entries:
     at: before 1962-02-01
     thread: china-leadership
     c: 'Seven Thousand Cadres Conference: Zhou Lin, Guizhou first secretary: peasants were subjected to excessive procurement and persecuted on the assumption that they were hiding and sharing surplus grain.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 172–73. Made public: 1997. To check: [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 173 n.169a). Check: the day; the book places the self-criticisms after Mao''s speech of Jan. 30 and before the close on Feb. 7.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 172–73; [[w.dikotter-cultural-revolution]], 13–14 n.19 (Zhou Lin, the boss of Guizhou, acknowledges that under him the villagers were wrongly persecuted for hiding grain). Made public: 1997. To check: [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 173 n.169a); [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 176–183 (cited by [[w.dikotter-cultural-revolution]], 14 n.19a). Check: the day; the book places the self-criticisms after Mao''s speech of Jan. 30 and before the close on Feb. 7.'
     src:
       c: 7de1d4bc
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 172–73: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 173 n.169a: all'
+        - 'w.dikotter-cultural-revolution 13–14 n.19: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1962-02.china-leadership-4
     when: Feb., early
@@ -4669,3 +4810,57 @@ entries:
         - 'w.friedman-shadow-cold-war 89–90: all'
         - 'via x.1962-02-22.report-tursun-zade-second-afro-asian-writers: ?'
     tags: [polity:uar, polity:prc, polity:ussr]
+  - id: cal.1962-02.vietnam-hanoi-3
+    when: Feb.
+    date: 1962-02
+    thread: vietnam-hanoi
+    c: 'The Politburo sets the tasks of the armed forces in the South: the initiative to destroy the enemy, striking in small groups at his main force, ranger teams, posts and aircraft; and to destroy the strategic hamlet program.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 216. Made public: 1980 ([[w.war-experiences-recapitulation-committee]], the earliest printing the note names). To check: [[w.lich-su-quan-doi]], 196 (cited by [[w.guan-vietnamese-communists-relations-with]], 216 n.52a); [[w.war-experiences-recapitulation-committee]], 48–49 (cited by [[w.guan-vietnamese-communists-relations-with]], 216 n.52b).'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1962-02-28.laos
+    when: Feb. 28
+    date: '1962-02-28'
+    thread: laos
+    c: 'As the British embassy in Vientiane reports it, from a junior member of the Soviet embassy: the Chinese and North Vietnamese urge Souphanouvong to keep up the pressure at Nam Tha.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 218. Made public: 1997. To check: FO 371/166432, DF 1015/151, 28 February 1962, from Vientiane to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 218 n.62). Names: Souphanouvong.'
+    src:
+      rows:
+        - 'via x.1962-02-28.fo-166432-df-1015-151: ?'
+    tags: [form:state, polity:uk, name:souphanouvong, vis:only:uk, ok:fields-place]
+  - id: cal.1962-02-28.vietnam-diplomacy
+    when: Feb. 28
+    date: '1962-02-28'
+    thread: vietnam-diplomacy
+    also: [vietnam]
+    c: The DRV government's memorandum, pressing still harder the points of its statement of Feb. 18.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 219. To check: VINA, 28 February 1962, SWB/FE/884/A3/2-5 (cited by [[w.guan-vietnamese-communists-relations-with]], 219 n.69). See [[cal.1962-02-18.vietnam-diplomacy]].'
+    src:
+      rows:
+        - 'via x.1962-02-28.vina-fe-884-a3-2-5: ?'
+    tags: [polity:drv, ok:fields-place]
+  - id: cal.1962-02.china-leadership-11
+    when: Feb., early
+    date: 1962-02
+    at: before 1962-02-01
+    place: peking
+    thread: china-leadership
+    c: 'Seven Thousand Cadres Conference, Peking 北京: Wang Renzhong 王任重, Party secretary of Hubei 湖北, confesses that his province misled the Center 中央 by inflating its output figures.'
+    n: '[[w.dikotter-cultural-revolution]], 13–14 n.19 (the conference in the Great Hall, Peking, 3). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 172, the earliest printing the note names). To check: [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 176–183 (cited by [[w.dikotter-cultural-revolution]], 14 n.19a); [[w.macfarquhar-origins-of-the-cultural]], III, 172 (cited by [[w.dikotter-cultural-revolution]], 14 n.19b). See [[cal.1962-02.china-leadership-3]]. Check: the day; the book sets the confessions after Mao''s speech of Jan. 30 and before the close of Feb. 7.'
+    src:
+      c: 4b7a4184
+      rows:
+        - 'w.dikotter-cultural-revolution 13–14: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-02.china-leadership-12
+    when: Feb., early
+    date: 1962-02
+    at: before 1962-02-01
+    place: peking
+    thread: china-leadership
+    c: 'Seven Thousand Cadres Conference, Peking 北京: Liu Zihou 刘子厚 accepts that Hebei 河北, the province in his charge, invented the bumper harvests of several counties the Center 中央 had hailed as models.'
+    n: '[[w.dikotter-cultural-revolution]], 13–14 n.19 (the conference in the Great Hall, Peking, 3). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 172, the earliest printing the note names). To check: [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 176–183 (cited by [[w.dikotter-cultural-revolution]], 14 n.19a); [[w.macfarquhar-origins-of-the-cultural]], III, 172 (cited by [[w.dikotter-cultural-revolution]], 14 n.19b). See [[cal.1962-02.china-leadership-3]]. Check: the day; the book sets the confessions after Mao''s speech of Jan. 30 and before the close of Feb. 7.'
+    src:
+      c: 412213ef
+      rows:
+        - 'w.dikotter-cultural-revolution 13–14: all'
+    tags: [polity:prc, vis:only:prc]

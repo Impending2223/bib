@@ -896,6 +896,18 @@ entries:
       - 1963-09-05T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-09-05.china
+    when: Sept. 5
+    date: '1963-09-05'
+    thread: china
+    c: 'Chiang Kai-shek to Kennedy, his last letter: Khrushchev and Mao in a mortal fight for the bloc, unable to "tolerate each other''s existence"; Khrushchev would not come to Mao''s side against a Nationalist counterattack. Chiang would airdrop trained guerrillas 100 to 300 at a time and launch commando raids of 300 to 500, more than ten sorties each, to touch off an "anti-tyranny revolutionary movement," American forces not needed.'
+    n: '[[w.chang-friends-and-enemies]], 226–27. Made public: 1990 ([[w.chang-friends-and-enemies]], 226). To check: Chiang to Kennedy, Sept. 5, 1963, with an attachment, Kennedy Papers, POF, box 113a, China-General 1963 (cited by [[w.chang-friends-and-enemies]], 227 n.56). Names: Chiang Kai-shek, Kennedy, Khrushchev, Mao.'
+    src:
+      c: b56fe3b1
+      rows:
+        - 'w.chang-friends-and-enemies 226–27: all'
+        - 'via x.1963-09-05.chiang-to-kennedy: all'
+    tags: [polity:roc, polity:us, vis:only:us+roc, name:chiang-kai-shek, name:kennedy-john-f, name:khrushchev-nikita-s, name:mao-zedong]
   - id: cal.1963-09-06.vietnam
     when: Sept. 6
     date: '1963-09-06'
@@ -1152,6 +1164,35 @@ entries:
       - 1963-09-06T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1963-09-06.china-leadership-10
+    when: Sept. 6
+    date: '1963-09-06'
+    thread: china-leadership
+    also: [soviet-union, china]
+    c: 'As a Foreign Ministry file has it, China''s trade with the Soviet Union in million rubles: imports 556 in 1957, 576 in 1958, 881 in 1959, 761 in 1960, 262 in 1961, 190 in 1962 (plant equipment 245, 174, 310, 283, 55, 9; military equipment 121, 78, 79, 72, 12, 11); exports 672, 809, 1,006, 737, 483, 441. Grain exported 806,000 tonnes in 1957, 934,000 in 1958, 1,418,000 in 1959, 640,000 in 1960, 12,000 in 1961.'
+    n: '[[w.dikotter-maos-great-famine]], 74–76 (Tables 1–3). Made public: 2010. To check: Ministry of Foreign Affairs, Beijing, Sept. 6, 1963, 109-3321-2, pp. 66–8, 70–1 and 88–9 (cited by [[w.dikotter-maos-great-famine]], 74 n.table-1, 76 n.table-2, 76 n.table-3).'
+    src:
+      c: 1c9cdf6b
+      rows:
+        - 'w.dikotter-maos-great-famine 74-76: all'
+        - 'via w.dikotter-maos-great-famine 74 n.table-1: all'
+        - 'via w.dikotter-maos-great-famine 76 n.table-2: all'
+        - 'via w.dikotter-maos-great-famine 76 n.table-3: all'
+    tags: [form:state, polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1963-09-06.testing
+    when: Sept. 6
+    date: '1963-09-06'
+    place: moscow
+    thread: testing
+    also: [china, soviet-union]
+    c: 'The embassy in Moscow, "Motivations for Moscow''s Signature of the Test Ban Agreement": "the outbreak of virtually undeclared war between Moscow and Peiping [in the] spring" explains the Soviet acceptance of a partial ban "which it could have had at any time during the past year."'
+    n: '[[w.chang-friends-and-enemies]], 240. Made public: 1990 ([[w.chang-friends-and-enemies]], 240). To check: Embassy, Moscow, to SD, "Motivations for Moscow''s Signature of the Test Ban Agreement," Sept. 6, 1963, 4–5, FOIA release (cited by [[w.chang-friends-and-enemies]], 240 n.21b), (cited by [[w.chang-friends-and-enemies]], 240 n.22a); [[w.jonsson-soviet-bargaining-behavior]] (cited by [[w.chang-friends-and-enemies]], 240 n.22b).'
+    src:
+      c: c850d304
+      rows:
+        - 'w.chang-friends-and-enemies 240: all'
+        - 'via x.1963-09-06.embassy-moscow-motivations-test-ban: all'
+    tags: [polity:us, vis:only:us]
   - id: cal.1963-09-07.cuba
     when: Sept. 7
     date: '1963-09-07'
@@ -3871,6 +3912,17 @@ entries:
       - 1963-09-20T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-09-20.vietnam-diplomacy
+    when: Sept. 20
+    date: '1963-09-20'
+    thread: vietnam-diplomacy
+    also: [vietnam]
+    c: 'As a Foreign Office minute has it: Sihanouk, in a private conversation with a "delicate source," on his call of March and April 1962 for a conference on South Vietnam: the Chinese encouraged him to take it up, the Russians said they would back him.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 223. Made public: 1997. To check: FO 371/170153, DV 2231/1, Sept. 20, 1963, Foreign Office minutes (cited by [[w.guan-vietnamese-communists-relations-with]], 223 n.86). See [[cal.1962-04-05.vietnam-diplomacy]]. Names: Sihanouk.'
+    src:
+      rows:
+        - 'via x.1963-09-20.fo-170153-dv-2231-1-fo-minutes: ?'
+    tags: [form:state, polity:uk, polity:cambodia, name:norodom-sihanouk, vis:only:uk+cambodia, ok:fields-place]
   - id: cal.1963-09-21.vietnam
     when: Sept. 21
     date: '1963-09-21'

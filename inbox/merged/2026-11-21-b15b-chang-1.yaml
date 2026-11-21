@@ -1,0 +1,2896 @@
+patch: 2026-11-21-b15b-chang-1
+by: Claude (batch 15b, Chang, Friends and Enemies, run 1), Nov. 21, 2026
+ops:
+- edit:
+    id: cal.1963-01.china-2
+    base: c1676acf
+    set:
+      when: Jan., early
+      at: before 1963-01-11
+- edit:
+    id: cal.1963-04.republican-party-3
+    base: 6460f5a8
+    set:
+      when: Apr. 20
+      date: '1963-04-20'
+      place: washington
+      n: '[[w.perlstein-before-the-storm]], 198. To check: the packaging of the speech, F. Clifton White Papers, box 19/California (cited by [[w.perlstein-before-the-storm]], 198 n.3). Names: Nixon.'
+- edit:
+    id: cal.1965-12.vietnam
+    base: 581812ed
+    set:
+      gloss:
+        title: Estimates
+        text:
+        - Chang puts the American ground forces in Vietnam at approximately 17,000 at the beginning of 1964 and almost 185,000 by the end of 1965 ([[w.chang-friends-and-enemies]], 263).
+- edit:
+    id: cal.1968-12.vietnam
+    base: bf54ca2c
+    set:
+      gloss:
+        title: Estimates
+        text:
+        - Chang puts the American troops in Vietnam at their peak, 542,400, in January 1969 ([[w.chang-friends-and-enemies]], 263).
+- edit:
+    id: cal.1965-06-06.vietnam
+    base: 090b64a7
+    set:
+      gloss:
+        title: Estimates
+        text:
+        - Chang puts the Chinese support personnel in North Vietnam (engineers, workers, technicians) at 40,000 during the first part of 1966 ([[w.chang-friends-and-enemies]], 272, after [[w.rogers-sino-american-relations-and]], 306–9, [[w.kahin-intervention]], 340–41, and René Dabernat, "How a French Authority Sees U.S. Role in Asia," *U.S. News and World Report*, Jan. 23, 1967, 93–97, 272 n.41).
+- place-key:
+    key: baguio
+    name: Baguio
+    zone: Asia/Manila
+    in: philippines
+- add:
+    entry:
+      id: cal.1960-01-19.soviet-union
+      when: Jan. 19
+      date: '1960-01-19'
+      thread: soviet-union
+      also:
+      - china
+      - japan
+      c: 'Eisenhower to Kishi: Khrushchev''s recent deportment gives grounds to be a little more hopeful; Khrushchev must consider his allies, Communist China among them, and might fear that a strong Red China would challenge the Soviet Union.'
+      n: '[FRUS 1958–60, XVIII, doc. 135](https://history.state.gov/historicaldocuments/frus1958-60v18/d135) (Washington, Jan. 19, 1960, the morning''s talk, "Summit Prospects and East-West Relations"). [[w.chang-friends-and-enemies]], 213 (soon after Camp David, Eisenhower to Kishi: the summit had made him more hopeful; Khrushchev might fear a strong Red China). Made public: 1990 ([[w.chang-friends-and-enemies]], 213). To check: memorandum, meeting with Kishi, Jan. 19, 1960, Eisenhower Papers (Ann Whitman File), Diaries, box 47, Staff Notes 1/60 (2) (cited by [[w.chang-friends-and-enemies]], 213 n.21). Names: Eisenhower, Kishi, Khrushchev. Check: the hour; FRUS heads doc. 135 "10–11:40 p.m.," the morning''s other memoranda of the same talk (docs. 132, 134, 137) "10–11:40 a.m."'
+      src:
+        c: dfd40c34
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v18/d135: all'
+        - 'w.chang-friends-and-enemies 213: ?'
+        - 'via x.1960-01-19.memorandum-eisenhower-kishi-summit-prospects: all'
+      tags:
+      - polity:us
+      - polity:japan
+      - vis:only:us+japan
+      - name:eisenhower-dwight-d
+      - name:kishi-nobusuke
+      - name:khrushchev-nikita-s
+      place: washington
+      time: 1960-01-19T15:00Z
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1960-04.china
+      when: Apr.
+      date: 1960-04
+      thread: china
+      c: 'Bowles, in *Foreign Affairs*, "The ''China Problem'' Reconsidered": the Sino-Soviet relationship not "rigid, monolithic, unchangeable"; a two-China policy, to protect the Nationalists on Taiwan and leave room for dealings with the mainland, some trade among them.'
+      n: '[[w.chang-friends-and-enemies]], 218. To check: [[w.bowles-china-problem-reconsidered]] (cited by [[w.chang-friends-and-enemies]], 218 n.30b); Thomson to Read, Sept. 1, 1960, Thomson Papers, box 7, Far East and Middle East (cited by [[w.chang-friends-and-enemies]], 218 n.30a). Names: Bowles.'
+      src:
+        c: 2c7b1d0e
+        rows:
+        - 'w.chang-friends-and-enemies 218: all'
+      tags:
+      - polity:us
+      - name:bowles-chester
+- add:
+    entry:
+      id: cal.1960-05-18.china
+      when: May 18
+      date: '1960-05-18'
+      thread: china
+      c: 'The Operations Coordinating Board''s "Report on U.S. Policy Toward Taiwan and the Government of the Republic of China" (NSC 5723), as Chang gives it: Taiwan''s standard of living among the highest in Asia, the people''s morale good, its forces a credible deterrent to the mainland; the Nationalists hold China''s seat in the United Nations; some 13 percent of the gross national product to the military, the forces close to 700,000 of a population of 11,000,000.'
+      n: '[[w.chang-friends-and-enemies]], 224. Made public: 1990 ([[w.chang-friends-and-enemies]], 224). To check: Operations Coordinating Board, "Report on U.S. Policy Toward Taiwan and the Government of the Republic of China," May 18, 1960, Eisenhower Library, WHO OSANSA, NSC, Policy Papers, box 22 (cited by [[w.chang-friends-and-enemies]], 224 nn.45–46).'
+      src:
+        c: 5f2fb72d
+        rows:
+        - 'w.chang-friends-and-enemies 224: all'
+        - 'via x.1960-05-18.ocb-report-policy-toward-taiwan-and-grc: all'
+      tags:
+      - polity:us
+      - polity:roc
+      - vis:only:us
+      - form:state
+- add:
+    entry:
+      id: cal.1960-08-15.elections-1960
+      when: Aug. 15
+      date: '1960-08-15'
+      thread: elections-1960
+      also:
+      - china
+      c: 'Bowles to Archibald Cox, a rough draft for a Kennedy campaign speech: the Republicans have badly underestimated the "inherently imperialistic and expansionist" nature of any Chinese regime; China likened to Nazi Germany and Japan, seeking "living space," fuel and food; Mao in many ways the new Hitler. A Democratic administration would see the possible differences between the Soviet Union and China, without "wishful thinking."'
+      n: '[[w.chang-friends-and-enemies]], 218–19. Made public: 1990 ([[w.chang-friends-and-enemies]], 219). To check: Bowles to Archibald Cox, Aug. 15, 1960, Bowles Papers, box 205, folder 0056 (cited by [[w.chang-friends-and-enemies]], 219 n.31). Names: Bowles, Cox, Kennedy, Mao.'
+      src:
+        c: 09dfe0a1
+        rows:
+        - 'w.chang-friends-and-enemies 218–19: all'
+        - 'via x.1960-08-15.bowles-to-cox-draft-campaign-speech: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:bowles-chester
+      - name:cox-archibald
+      - name:kennedy-john-f
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1960-10-06.elections-1960-3
+      when: Oct. 6
+      date: '1960-10-06'
+      thread: elections-1960
+      also:
+      - china
+      - soviet-union
+      c: 'Bowles to Kennedy: "As a practical matter, the only force that can effectively contain and restrain China during the next decade is the Soviet Union, which largely controls her oil and which is advantageously postured in a military sense."'
+      n: '[[w.chang-friends-and-enemies]], 219 (Bowles held that the Soviets wanted to moderate Chinese behavior). Made public: 1990 ([[w.chang-friends-and-enemies]], 219). To check: Bowles to Kennedy, Oct. 6, 1960, Bowles Papers, box 210, folder 164 (cited by [[w.chang-friends-and-enemies]], 219 n.32a); Bowles, speech, "The Soviet-United States Conflict in the 1960''s," Oct. 21, 1960, Thomson Papers, box 7 (cited by [[w.chang-friends-and-enemies]], 219 n.32c). Names: Bowles, Kennedy.'
+      src:
+        c: 8ed7db36
+        rows:
+        - 'w.chang-friends-and-enemies 219: all'
+        - 'via x.1960-10-06.bowles-to-kennedy: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:bowles-chester
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1961-01.china-6
+      when: Jan., after the inauguration
+      date: 1961-01
+      at: after 1961-01-20
+      thread: china
+      also:
+      - soviet-union
+      c: Kennedy orders an intensive study of the "Sino-Soviet dispute."
+      n: '[[w.chang-friends-and-enemies]], 220 ("as soon as he entered office"). Made public: 1990 ([[w.chang-friends-and-enemies]], 220). To check: Bohlen to Bundy, Feb. 16, 1961, Kennedy Papers, POF, box 106, Sino-Soviet Relations (cited by [[w.chang-friends-and-enemies]], 220 n.35a); Bowles to Kennedy, Mar. 29, 1961, Kennedy Papers, POF, box 88, State 4/61–5/61 (cited by [[w.chang-friends-and-enemies]], 220 n.35b). Names: Kennedy. Check: the day.'
+      src:
+        c: ba0d46d7
+        rows:
+        - 'w.chang-friends-and-enemies 220: all'
+        - 'via x.1961-02-16.bohlen-to-bundy: ?'
+        - 'via x.1961-03-29.bowles-to-kennedy: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1961-04-01.china
+      when: Apr. 1
+      date: '1961-04-01'
+      thread: china
+      also:
+      - soviet-union
+      c: '"The Sino-Soviet Dispute and Its Significance," a staff paper for the White House: cautious, limited conclusions on the depth, permanence and prospects of the split.'
+      n: '[[w.chang-friends-and-enemies]], 220–21 (the staff researchers'' conclusions). Made public: 1990 ([[w.chang-friends-and-enemies]], 221). To check: "The Sino-Soviet Dispute and Its Significance," Apr. 1, 1961, Kennedy Papers, NSF, box 22, China-General (cited by [[w.chang-friends-and-enemies]], 221 n.36a). Check: the author; Chang''s note gives only the title, and Whiting, as the Ang reading registers him, makes it the CIA''s (TS #142274-b).'
+      src:
+        c: 82b74343
+        rows:
+        - 'w.chang-friends-and-enemies 220–21: all'
+        - 'via x.1961-04-01.cia-sino-soviet-dispute-and-its-significance: all'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1961-04-01.china-2
+      when: Apr. 1
+      date: '1961-04-01'
+      thread: china
+      c: 'Chiang Kai-shek to Kennedy: "no possibility of a split" between China and the Soviet Union; the Chinese party the "offspring of the Russian Communist Party" and "totally dependent upon the Soviet Union for material support."'
+      n: '[[w.chang-friends-and-enemies]], 227 (spring 1961). Made public: 1990 ([[w.chang-friends-and-enemies]], 227). To check: Chiang to Kennedy, Apr. 1, 1961, Kennedy Papers, POF, box 113a, China-General 1/61–4/61 (cited by [[w.chang-friends-and-enemies]], 227 n.58). Names: Chiang Kai-shek, Kennedy.'
+      src:
+        c: e468f0ab
+        rows:
+        - 'w.chang-friends-and-enemies 227: all'
+        - 'via x.1961-04-01.chiang-to-kennedy: all'
+      tags:
+      - polity:roc
+      - polity:us
+      - vis:only:us+roc
+      - name:chiang-kai-shek
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1961-07-01.china
+      when: July 1
+      date: '1961-07-01'
+      thread: china
+      also:
+      - soviet-union
+      c: 'Bowles, "Some Requirements of American Foreign Policy," to Kennedy: explore ways of involving the Russians in the long-term containment of Communist China.'
+      n: '[[w.chang-friends-and-enemies]], 219 ("By July 1961"). Made public: 1990 ([[w.chang-friends-and-enemies]], 219). To check: Bowles, "Some Requirements of American Foreign Policy," July 1, 1961, Bowles Papers, box 297, folder 495 (cited by [[w.chang-friends-and-enemies]], 219 n.32b). Names: Bowles, Kennedy. Check: whether this is the memorandum of late June on new directions in [[cal.1961-07.transition-and-staff]].'
+      src:
+        c: f39362d6
+        rows:
+        - 'w.chang-friends-and-enemies 219: all'
+        - 'via x.1961-07-01.bowles-some-requirements-of-american-foreign-policy: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:bowles-chester
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1961-07.china-4
+      when: July
+      date: 1961-07
+      thread: china
+      also:
+      - soviet-union
+      c: 'Rusk, news conference: there is evidence of Sino-Soviet tensions, but the two still share a "certain doctrinal framework"; the United States cannot base its policy on the tensions between them.'
+      n: '[[w.chang-friends-and-enemies]], 221–22 ("one of Rusk''s first press conferences in 1961"). To check: [[w.department-of-state-bulletin]], [July 31, 1961, 179](https://archive.org/details/departmentofstat451961unit/page/179/mode/1up) (cited by [[w.chang-friends-and-enemies]], 222 n.39). Names: Rusk. Check: the day; Chang gives the Bulletin of July 31.'
+      src:
+        c: 284a2f8c
+        rows:
+        - 'w.chang-friends-and-enemies 221–22: all'
+        - 'via x.1961-07-31.dsb-rusk-news-conference: all'
+      tags:
+      - polity:us
+      - name:rusk-dean
+- add:
+    entry:
+      id: cal.1961-08-23.cuba
+      when: Aug. 23
+      date: '1961-08-23'
+      thread: cuba
+      also:
+      - china
+      c: 'Kaysen to Schlesinger: Guevara reportedly sought "some kind of accommodation with us"; a "real possibility that if we are willing to make the gamble, we can buy another Yugoslavia."'
+      n: '[[w.chang-friends-and-enemies]], 221. Made public: 1990 ([[w.chang-friends-and-enemies]], 221). To check: Kaysen to Schlesinger, Aug. 23, 1961, Schlesinger Papers, box 16, Subject S-1961–64, NSC 5/5/61–10/30/61 (cited by [[w.chang-friends-and-enemies]], 221 n.37). Names: Kaysen, Schlesinger, Guevara.'
+      src:
+        c: 921ae159
+        rows:
+        - 'w.chang-friends-and-enemies 221: all'
+        - 'via x.1961-08-23.kaysen-to-schlesinger: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kaysen-carl
+      - name:schlesinger-arthur-m-jr
+      - name:guevara-ernesto
+- add:
+    entry:
+      id: cal.1961-09-28.china-2
+      when: Sept. 28
+      date: '1961-09-28'
+      thread: china
+      also:
+      - testing
+      c: 'SNIE 13-2-61, "Communist China in 1971," the Intelligence Board concurring: the food-population race and the Sino-Soviet dispute the primary factors; by 1971 a modest stockpile of domestically produced nuclear weapons, short-range and probably medium-range missiles; the people still on a barely adequate diet.'
+      n: '[FRUS 1961–63, XXII, doc. 62](https://history.state.gov/historicaldocuments/frus1961-63v22/d62) (Washington, Sept. 28, 1961; the FBI''s representative abstaining). [[w.chang-friends-and-enemies]], 221 n.36 (among the papers of the staff studies of the split). Made public: 1996 (FRUS 1961–63, XXII, doc. 62); its title, 1990 ([[w.chang-friends-and-enemies]], 221 n.36). To check: CIA, SNIE 13-2-61, "Communist China in 1971," Thomson Papers, box 14 (cited by [[w.chang-friends-and-enemies]], 221 n.36c).'
+      src:
+        c: b57e01c0
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v22/d62: all'
+        - 'via x.1961-09-28.snie-13-2-61-communist-china-in-1971: all'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1961-12-19.china-2
+      when: Dec. 19
+      date: '1961-12-19'
+      thread: china
+      also:
+      - soviet-union
+      c: '"The Sino-Soviet Conflict and U.S. Policy," a 77-page paper, apparently the Policy Planning Council''s, with its "Summary": monolithic unity and control gone from the Communist camp; a clash of national interests; no reconciliation expected; the conflict of great long-run benefit to the United States, which may deal "with Russia as Russia and China as China"; in the short run, as in Southeast Asia, Chinese militancy a danger.'
+      n: '[[w.chang-friends-and-enemies]], 222–23. Made public: 1990 ([[w.chang-friends-and-enemies]], 222). To check: "The Sino-Soviet Conflict and U.S. Policy" and "Summary," Dec. 19, 1961, Thomson Papers, box 14 (cited by [[w.chang-friends-and-enemies]], 221 n.36d), (cited by [[w.chang-friends-and-enemies]], 223 n.41). Discussed: [[cal.1962-01-02.china]].'
+      src:
+        c: 6ea4256e
+        rows:
+        - 'w.chang-friends-and-enemies 222–23: all'
+        - 'via x.1961-12-19.sino-soviet-conflict-and-us-policy: all'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1962-01-02.china
+      when: Jan. 2
+      date: '1962-01-02'
+      thread: china
+      also:
+      - soviet-union
+      c: 'The State Department. Rusk''s policy planning meeting on "The Sino-Soviet Conflict and U.S. Policy." Rostow: the split historic and unprecedented, but "no one knows what to do about it." Bohlen: "the Russians have become the Mensheviks, while the Chinese are Bolsheviks." Rusk: more study, in and out of government, and of the Chinese regime''s stability.'
+      n: '[FRUS 1961–63, XXII, doc. 82](https://history.state.gov/historicaldocuments/frus1961-63v22/d82) (Thomson to Harriman, Jan. 12, 1962, from his notes of the meeting). [[w.chang-friends-and-enemies]], 222–23 ("that morning," by Thomson''s recollection in Hilsman, 344). See [[cal.1961-12-19.china-2]]. Made public: 1967 ([[w.hilsman-to-move-a-nation]], 344, Thomson''s recollection); the notes, 1990 ([[w.chang-friends-and-enemies]], 223). To check: [[w.hilsman-to-move-a-nation]], 344 (cited by [[w.chang-friends-and-enemies]], 222 n.40). Names: Rusk, Rostow, Bohlen, Thomson. The words: "that morning" ([[w.chang-friends-and-enemies]], 222).'
+      src:
+        c: 5738fc5e
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v22/d82: all'
+        - 'w.chang-friends-and-enemies 222–23: all'
+        - 'via x.1962-01-12.thomson-to-harriman-secretary-policy-planning-meeting: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:rusk-dean
+      - name:rostow-walt-w
+      - name:bohlen-charles-e
+      - name:thomson-james-c-jr
+      place: washington
+      time_range:
+      - 1962-01-02T11:00Z
+      - 1962-01-02T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1962.china-11
+      when: 1962, early
+      date: '1962'
+      at: before 1962-01
+      thread: china
+      c: 'Chiang Kai-shek: "There is no doubt that we can annihilate the Communists, reunify our country and restore freedom to the people on the mainland in the nearest future." He speaks openly of invading the mainland.'
+      n: '[[w.chang-friends-and-enemies]], 224 (Chiang''s words by [[w.hilsman-to-move-a-nation]], 310–11, 224 n.47). To check: [[w.sorensen-kennedy]], 661–62; [[w.hilsman-to-move-a-nation]], 310–11 (cited by [[w.chang-friends-and-enemies]], 225 n.47); Drumright to Rusk, Jan. 11, Feb. 13, 1962, Rusk to Drumright, Jan. 8, 17, 1962, Kennedy Papers, NSF, box 23, China-General-Return to the Mainland; [[w.hilsman-to-move-a-nation]], 310–320 (cited by [[w.chang-friends-and-enemies]], 225 n.49). Names: Chiang Kai-shek.'
+      src:
+        c: faf3ac94
+        rows:
+        - 'w.chang-friends-and-enemies 224: all'
+      tags:
+      - polity:roc
+      - name:chiang-kai-shek
+- add:
+    entry:
+      id: cal.1962-03-08.china
+      when: Mar. 8
+      date: '1962-03-08'
+      thread: china
+      c: 'Kohler to Rostow, against easing the hard line on China to entice it toward the West: the Soviet Union might even welcome American help with China''s food crisis, which would remove "an important source of friction" between them.'
+      n: '[[w.chang-friends-and-enemies]], 225. Made public: 1990 ([[w.chang-friends-and-enemies]], 225). To check: Kohler to Rostow, Mar. 8, 1962, Thomson Papers, box 15, Food for China 3/62–5/62 (cited by [[w.chang-friends-and-enemies]], 225 n.51f); [[w.hilsman-to-move-a-nation]], 315–16 (cited by [[w.chang-friends-and-enemies]], 225 n.51a). Names: Kohler, Rostow.'
+      src:
+        c: d6247a5f
+        rows:
+        - 'w.chang-friends-and-enemies 225: all'
+        - 'via x.1962-03-08.kohler-to-rostow: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kohler-foy-d
+      - name:rostow-walt-w
+- add:
+    entry:
+      id: cal.1962-04-13.china-2
+      when: Apr. 13
+      date: '1962-04-13'
+      thread: china
+      c: Harriman to Rusk, on shipments of medicines and food grains to Communist China, answering Alexis Johnson's memorandum of Apr. 6 against them, which Ball had supported.
+      n: '[FRUS 1961–63, XXII, doc. 104](https://history.state.gov/historicaldocuments/frus1961-63v22/d104) (Washington, Apr. 13, 1962). [[w.chang-friends-and-enemies]], 225 (Harriman and Bowles for the food program; Harriman toys with opening the door to Chinese technical and medical students). Made public: 1990 ([[w.chang-friends-and-enemies]], 225). To check: notes, meeting of Bowles and Harriman, June 8, 1962; INR/RSB, "Chinese Communist Food Deficits and U.S. Policy," Jan. 5, 1962 (cited by [[w.chang-friends-and-enemies]], 225 n.51b–c). Names: Harriman, Rusk, Alexis Johnson, Ball. Check: the students; not in the memorandum as FRUS prints it.'
+      src:
+        c: 4a47510f
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v22/d104: all'
+        - 'via x.1962-04-13.harriman-to-rusk-medicines-food-grains: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:harriman-w-averell
+      - name:rusk-dean
+      - name:ball-george-w
+      - name:johnson-u-alexis
+      place: washington
+- add:
+    entry:
+      id: cal.1962-05-16.china
+      when: May 16
+      date: '1962-05-16'
+      thread: china
+      also:
+      - soviet-union
+      c: 'A draft paper, "Guidelines for Co-Ordinated Information Policy Re: The Sino-Soviet Dispute": in public, a circumscribed attitude to the troubles of the Communist world, no overt effort to exploit the rift.'
+      n: '[[w.chang-friends-and-enemies]], 221. Made public: 1990 ([[w.chang-friends-and-enemies]], 221). To check: "Guidelines for Co-Ordinated Information Policy Re: The Sino-Soviet Dispute," May 16, 1962, Hilsman Papers, box 1, Communist China-Sino-Soviet Dispute, U.S. Overt Attitude, 5/62 (cited by [[w.chang-friends-and-enemies]], 221 n.38b); the President''s news conference of Nov. 8, 1961, [1961 Pub. Papers 705](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf) (cited by [[w.chang-friends-and-enemies]], 221 n.38a); [[w.hilsman-to-move-a-nation]], 344 (cited by [[w.chang-friends-and-enemies]], 221 n.38c). Check: who drafted it.'
+      src:
+        c: 1297406f
+        rows:
+        - 'w.chang-friends-and-enemies 221: all'
+        - 'via x.1962-05-16.guidelines-coordinated-information-policy-sino-soviet: all'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1962-05-23.china-2
+      when: May 23
+      date: '1962-05-23'
+      thread: china
+      c: Bowles to Kennedy, for pursuing the food program for China.
+      n: '[[w.chang-friends-and-enemies]], 225. Made public: 1990 ([[w.chang-friends-and-enemies]], 225). To check: Bowles to Kennedy, May 23, 1962, Thomson Papers, box 15, Food for China 3/62–5/62 (cited by [[w.chang-friends-and-enemies]], 225 n.51e). Names: Bowles, Kennedy. Check: Chang''s note lists the paper among five; its matter not given apart.'
+      src:
+        c: b75e0946
+        rows:
+        - 'w.chang-friends-and-enemies 225: all'
+        - 'via x.1962-05-23.bowles-to-kennedy: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:bowles-chester
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1962-06-22.china-2
+      when: June 22
+      date: '1962-06-22'
+      thread: china
+      also:
+      - soviet-union
+      c: 'Washington, Harriman''s house, a drink at 6. Harriman to Dobrynin: the United States will not support a Nationalist attack on the mainland, holding that force not be used by either side to change the situation; Cabot will tell Wang the same at Warsaw the next day; should the Chinese buildup be more ominous, Khrushchev should understand the treaty with the Nationalists.'
+      n: '[FRUS 1961–63, XXII, doc. 127](https://history.state.gov/historicaldocuments/frus1961-63v22/d127) (Harriman''s memorandum). [[w.chang-friends-and-enemies]], 226 (the American position told the Soviets). Made public: 1990 ([[w.chang-friends-and-enemies]], 226). Names: Harriman, Dobrynin, Khrushchev, Cabot. The words: "come to my house for a drink at 6 o''clock Friday, June 22" (FRUS, doc. 127).'
+      src:
+        c: 7c2f4b73
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v22/d127: all'
+        - 'w.chang-friends-and-enemies 226: ?'
+        - 'via x.1962-06-22.memo-harriman-dobrynin: all'
+      tags:
+      - polity:us
+      - polity:ussr
+      - vis:only:us+ussr
+      - name:harriman-w-averell
+      - name:dobrynin-anatoly
+      - name:khrushchev-nikita-s
+      - name:cabot-john-m
+      place: washington
+      time: 1962-06-22T22:00Z
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1962-08-08.china
+      when: Aug. 8
+      date: '1962-08-08'
+      thread: china
+      c: 'Harriman to Kennedy, on Chiang''s requests for military aid: material usable for a major assault on the mainland refused; planes and equipment for airdrops of commando teams and for amphibious operations supplied.'
+      n: '[[w.chang-friends-and-enemies]], 226. Made public: 1990 ([[w.chang-friends-and-enemies]], 226). To check: Harriman to Kennedy, Aug. 8, 1962; Harriman to Kirk, n.d.; Kennedy Papers, POF, box 88, State 8/62–12/62 (cited by [[w.chang-friends-and-enemies]], 226 n.54). Names: Harriman, Kennedy, Chiang Kai-shek. Check: Chang gives the policy, his note the papers; which paper says what is not stated.'
+      src:
+        c: 8dc32823
+        rows:
+        - 'w.chang-friends-and-enemies 226: all'
+        - 'via x.1962-08-08.harriman-to-kennedy: ?'
+      tags:
+      - polity:us
+      - polity:roc
+      - vis:only:us
+      - name:harriman-w-averell
+      - name:kennedy-john-f
+      - name:chiang-kai-shek
+- add:
+    entry:
+      id: cal.1962-09-18.china
+      when: Sept. 18
+      date: '1962-09-18'
+      thread: china
+      also:
+      - soviet-union
+      c: 'The State Department''s paper "1962 Public Attitudes Toward U.S. Policy on China," as Chang draws on it: Brzezinski for continuing to ostracize Peking, to put further strain on Moscow; Nixon: the United States "could no more encourage a split between Red China and Russia than fly without wings."'
+      n: '[[w.chang-friends-and-enemies]], 223–24. Made public: 1990 ([[w.chang-friends-and-enemies]], 224). To check: Department of State, "1962 Public Attitudes Toward U.S. Policy on China," Sept. 18, 1962, Thomson Papers, box 15, General 7/62–12/62 (cited by [[w.chang-friends-and-enemies]], 224 n.44). Names: Brzezinski, Nixon.'
+      src:
+        c: 2f11149c
+        rows:
+        - 'w.chang-friends-and-enemies 223–24: all'
+        - 'via x.1962-09-18.state-1962-public-attitudes-china-policy: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:brzezinski-zbigniew
+      - name:nixon-richard-m
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1962-11-08.china-2
+      when: Nov. 8
+      date: '1962-11-08'
+      thread: china
+      also:
+      - soviet-union
+      - testing
+      c: 'Hilsman, director of State''s Bureau of Intelligence and Research, the first official public report on the Sino-Soviet split: a Chinese nuclear explosion, however "dramatic," "will not change the balance of power in Asia, much less throughout the world."'
+      n: '[[w.chang-friends-and-enemies]], 223 n.43 (the first official public report on the split); [[w.chang-friends-and-enemies]], 251 (Hilsman in public in 1962, on a Chinese explosion, and on the Chinese as rather cautious in the Taiwan Strait). To check: [[w.department-of-state-bulletin]], [Nov. 26, 1962, 807–11](https://archive.org/details/departmentofstat4762unit/page/807/mode/1up) (cited by [[w.chang-friends-and-enemies]], 223 n.43), (cited by [[w.chang-friends-and-enemies]], 251 n.47b). Names: Hilsman.'
+      src:
+        c: c4207636
+        rows:
+        - 'w.chang-friends-and-enemies 223 n.43: A'
+        - 'w.chang-friends-and-enemies 251: ?'
+        - 'via x.1962-11-08.hilsman-speech-sino-soviet-split: all'
+      tags:
+      - polity:us
+      - name:hilsman-roger
+- add:
+    entry:
+      id: cal.1963-09-05.china
+      when: Sept. 5
+      date: '1963-09-05'
+      thread: china
+      c: 'Chiang Kai-shek to Kennedy, his last letter: Khrushchev and Mao in a mortal fight for the bloc, unable to "tolerate each other''s existence"; Khrushchev would not come to Mao''s side against a Nationalist counterattack. Chiang would airdrop trained guerrillas 100 to 300 at a time and launch commando raids of 300 to 500, more than ten sorties each, to touch off an "anti-tyranny revolutionary movement," American forces not needed.'
+      n: '[[w.chang-friends-and-enemies]], 226–27. Made public: 1990 ([[w.chang-friends-and-enemies]], 226). To check: Chiang to Kennedy, Sept. 5, 1963, with an attachment, Kennedy Papers, POF, box 113a, China-General 1963 (cited by [[w.chang-friends-and-enemies]], 227 n.56). Names: Chiang Kai-shek, Kennedy, Khrushchev, Mao.'
+      src:
+        c: b56fe3b1
+        rows:
+        - 'w.chang-friends-and-enemies 226–27: all'
+        - 'via x.1963-09-05.chiang-to-kennedy: all'
+      tags:
+      - polity:roc
+      - polity:us
+      - vis:only:us+roc
+      - name:chiang-kai-shek
+      - name:kennedy-john-f
+      - name:khrushchev-nikita-s
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1965-03-09.china
+      when: Mar. 9
+      date: '1965-03-09'
+      thread: china
+      also:
+      - testing
+      c: 'Baguio, the chiefs of mission conference, the afternoon, by Thomson''s notes. The ambassador to Taiwan: since China''s test of October 1964 Chiang wants the "wherewithal to take out [Peking''s] nukes"; the "Gimo and Madame eat-sleep-love-dream ''counterattack.''" Reischauer: the Soviet Union, not China, the bigger enemy.'
+      n: '[[w.chang-friends-and-enemies]], 227 (Chiang''s wish and the ambassador''s words); [[w.chang-friends-and-enemies]], 263 (Reischauer''s view). Made public: 1990 ([[w.chang-friends-and-enemies]], 227). To check: handwritten notes of Mar. 9, 1965, P.M., Thomson Papers, box 19, Baguio 2, 3/65 (cited by [[w.chang-friends-and-enemies]], 227 n.59a), (cited by [[w.chang-friends-and-enemies]], 263 n.21b); [[w.schoenbaum-waging-war-and-peace]], 454 (by 1967 Chiang against the bomb''s use on his countrymen) (cited by [[w.chang-friends-and-enemies]], 227 n.59b). Names: Chiang Kai-shek, Reischauer. The words: "P.M." (227 n.59).'
+      src:
+        c: fb703d6c
+        rows:
+        - 'w.chang-friends-and-enemies 227: A, B'
+        - 'w.chang-friends-and-enemies 263: C'
+        - 'via x.1965-03-09.thomson-notes-baguio-chiefs-of-mission-pm: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:chiang-kai-shek
+      - name:reischauer-edwin-o
+      - name:thomson-james-c-jr
+      place: baguio
+      time_range:
+      - 1965-03-09T04:00Z
+      - 1965-03-09T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Manila
+- add:
+    entry:
+      id: cal.1961-01.testing
+      when: Jan.
+      date: 1961-01
+      thread: testing
+      also:
+      - china
+      c: 'CINCPAC''s "Pacific General War Plan": China might explode an atomic device by the end of 1962 and have a small arsenal of nuclear weapons by 1965.'
+      n: '[[w.chang-friends-and-enemies]], 229. Made public: 1990 ([[w.chang-friends-and-enemies]], 229). To check: Commander-in-Chief Pacific, "Pacific General War Plan (U)," Jan. 1961, D-9, RG 218, JCS 1961, box 44, CCS 3146, National Archives (cited by [[w.chang-friends-and-enemies]], 229 n.2a); Ciro E. Zoppo and Alice L. Hsieh, "The Accession of Other Nations to the Nuclear Test Ban," Mar. 8, 1961, 57, RG 218, JCS 1961, box 23 (cited by [[w.chang-friends-and-enemies]], 229 n.2b); [[w.hsieh-communist-chinas-strategy-in]], 154 (cited by [[w.chang-friends-and-enemies]], 229 n.2c).'
+      src:
+        c: 637241c4
+        rows:
+        - 'w.chang-friends-and-enemies 229: all'
+        - 'via x.1961-01.cincpac-pacific-general-war-plan: all'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1961-03-23.soviet-union
+      when: Mar. 23
+      date: '1961-03-23'
+      thread: soviet-union
+      also:
+      - china
+      - berlin-and-vienna
+      c: 'Bohlen to Rusk: Khrushchev may act more "Bolshevik" at a meeting with Kennedy, so as not to be outflanked from the left by the Chinese.'
+      n: '[[w.chang-friends-and-enemies]], 232 ("before the Vienna meeting"). Made public: 1990 ([[w.chang-friends-and-enemies]], 232). To check: Bohlen to SecState, Mar. 23, 1961, Kennedy Papers, NSF, CF, box 180, USSR-General 3/23/61–5/8/61 (cited by [[w.chang-friends-and-enemies]], 232 n.6). Names: Bohlen, Rusk, Khrushchev, Kennedy.'
+      src:
+        c: 5c09cd54
+        rows:
+        - 'w.chang-friends-and-enemies 232: all'
+        - 'via x.1961-03-23.bohlen-to-secstate: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:bohlen-charles-e
+      - name:rusk-dean
+      - name:khrushchev-nikita-s
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1961-05-25.berlin-and-vienna-2
+      when: May 25
+      date: '1961-05-25'
+      thread: berlin-and-vienna
+      also:
+      - china
+      - testing
+      c: 'Position paper for the President''s meeting with Khrushchev, "Communist China": "so long as Peiping adheres to a doctrine of ''unremitting struggle''" against the United States and its allies, it keeps its security arrangements; a Soviet Union that "sincerely desires peace" should urge Peking to renounce force; neither power''s interest to let China risk a general war; Kennedy to ask Khrushchev whether a nuclear China would not lessen the chances of avoiding nuclear war.'
+      n: '[[w.chang-friends-and-enemies]], 230–31. Made public: 1990 ([[w.chang-friends-and-enemies]], 230). To check: President''s Meeting with Khrushchev Position Papers: "Communist China," May 25, 1961, Kennedy Papers, POF, box 126, USSR-Vienna Meeting-Background Documents 1953–61 (G-2) (cited by [[w.chang-friends-and-enemies]], 231 n.4b). Names: Kennedy, Khrushchev. Check: Chang quotes the papers of 231 n.4 together; which paper holds each phrase he does not say.'
+      src:
+        c: affe148b
+        rows:
+        - 'w.chang-friends-and-enemies 230–31: all'
+        - 'via x.1961-05-25.vienna-position-paper-communist-china: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kennedy-john-f
+      - name:khrushchev-nikita-s
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-05-25.berlin-and-vienna-3
+      when: May 25
+      date: '1961-05-25'
+      thread: berlin-and-vienna
+      also:
+      - testing
+      - china
+      c: 'Position papers for the Vienna meeting, "Soviet Aims and Expectations" and "Soviet Positions on Various Disarmament Questions": the Soviet Union might want a nonproliferation treaty to frustrate China''s atomic program.'
+      n: '[[w.chang-friends-and-enemies]], 231 ("Background papers for the Vienna meeting"). Made public: 1990 ([[w.chang-friends-and-enemies]], 231). To check: "Soviet Aims and Expectations," May 25, 1961, and "Soviet Positions on Various Disarmament Questions," May 25, 1961, 5–7, Kennedy Papers, POF, box 126 (G-3) (cited by [[w.chang-friends-and-enemies]], 231 n.4c–d).'
+      src:
+        c: 4a36086a
+        rows:
+        - 'w.chang-friends-and-enemies 231: all'
+        - 'via x.1961-05-25.vienna-position-paper-soviet-positions-disarmament: ?'
+        - 'via x.1961-05-25.vienna-position-paper-soviet-aims-and-expectations: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-05-26.berlin-and-vienna-2
+      when: May 26
+      date: '1961-05-26'
+      thread: berlin-and-vienna
+      also:
+      - china
+      - testing
+      c: 'Position paper for the Vienna meeting, "Progress Toward a Viable World Order": stress China''s threat to both powers, to gain Soviet help in restraining Chinese aggressiveness and a common interest in a "stable viable world order"; Kennedy to take the initiative for halting the spread of nuclear weapons.'
+      n: '[[w.chang-friends-and-enemies]], 230–31. Made public: 1990 ([[w.chang-friends-and-enemies]], 230). To check: "Progress Toward a Viable World Order," May 26, 1961, Kennedy Papers, POF, box 126 (G-2) (cited by [[w.chang-friends-and-enemies]], 231 n.4a).'
+      src:
+        c: 2ee29e44
+        rows:
+        - 'w.chang-friends-and-enemies 230–31: all'
+        - 'via x.1961-05-26.vienna-position-paper-progress-toward-viable-world-order: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-07-17.china
+      when: July 17
+      date: '1961-07-17'
+      thread: china
+      c: 'CIA paper, "The Signs of Chinese Communist Friendliness": Wang Bingnan, at the bilateral talks, has made "friendly gestures" at Geneva and Warsaw since Kennedy took office.'
+      n: '[[w.chang-friends-and-enemies]], 251. Made public: 1990 ([[w.chang-friends-and-enemies]], 251). To check: CIA, "The Signs of Chinese Communist Friendliness," July 17, 1961, Kennedy Papers, NSF, box 22, China-General 7/15/61–7/24/61 (cited by [[w.chang-friends-and-enemies]], 252 n.48b); Hilsman to McConaughy, July 7, 1961, NSF, box 22 (cited by [[w.chang-friends-and-enemies]], 252 n.48d); Bundy, no. 7, misc. papers for Hyannisport, July 21–23, 1961, NSF, box 318 (cited by [[w.chang-friends-and-enemies]], 252 n.48a). Check: whether the gestures are the paper''s matter; Chang gives the paper''s title and the gestures, not its text.'
+      src:
+        c: 9036c174
+        rows:
+        - 'w.chang-friends-and-enemies 251: all'
+        - 'via x.1961-07-17.cia-signs-of-chinese-communist-friendliness: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1961-09.china-2
+      when: Sept.
+      date: 1961-09
+      thread: china
+      c: 'Bowles, in public: Communist China "far more dangerous, in many ways, than even the Committee of One Million would have us think."'
+      n: '[[w.chang-friends-and-enemies]], 229 ("in the fall of 1961"). To check: [[w.department-of-state-bulletin]], [Sept. 18, 1961, 487](https://archive.org/details/departmentofstat451961unit/page/487/mode/1up) (cited by [[w.chang-friends-and-enemies]], 229 n.2f). Names: Bowles. Check: the day and the occasion; Chang gives the Bulletin of Sept. 18.'
+      src:
+        c: 774849f0
+        rows:
+        - 'w.chang-friends-and-enemies 229: all'
+        - 'via x.1961-09.dsb-bowles-communist-china-dangerous: all'
+      tags:
+      - polity:us
+      - name:bowles-chester
+- add:
+    entry:
+      id: cal.1961-06-17.china
+      when: June 17
+      date: '1961-06-17'
+      thread: china
+      c: 'Rostow to Kennedy: China''s food needs might force its leaders to moderate their aggressive policies and turn less hostile to the West.'
+      n: '[[w.chang-friends-and-enemies]], 258 ("early in the administration"); [[w.chang-friends-and-enemies]], 229. Made public: 1990 ([[w.chang-friends-and-enemies]], 258). To check: Rostow to Kennedy, June 17, 1961, Kennedy Papers, POF, box 65, Rostow 6/61–12/61 (cited by [[w.chang-friends-and-enemies]], 258 n.11a); Rostow to Stevenson, May 31, 1960, Stevenson Papers, box 797, Rostow 1960 (cited by [[w.chang-friends-and-enemies]], 258 n.11b), (cited by [[w.chang-friends-and-enemies]], 229 n.2e); interview with Rostow, 1985 (cited by [[w.chang-friends-and-enemies]], 229 n.2d). Names: Rostow, Kennedy.'
+      src:
+        c: 81b8d1e6
+        rows:
+        - 'w.chang-friends-and-enemies 258: all'
+        - 'via x.1961-06-17.rostow-to-kennedy: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:rostow-walt-w
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1962-01-18.china
+      when: Jan. 18
+      date: '1962-01-18'
+      thread: china
+      also:
+      - testing
+      - vietnam
+      c: 'The 496th NSC. Kennedy''s remarks: among the special unsolved problems, "When the Chinese get missiles and bombs and nuclear weapons ... what effect will that have on our dispositions in Southeast Asia?"'
+      n: '[FRUS 1961–63, VIII, doc. 69](https://history.state.gov/historicaldocuments/frus1961-63v08/d69) ("Summary of President Kennedy''s Remarks to the 496th Meeting of the National Security Council," Washington, Jan. 18, 1962). [[w.chang-friends-and-enemies]], 232 (Kennedy directs the NSC to settle the problem). Made public: 1990 ([[w.chang-friends-and-enemies]], 232). Names: Kennedy.'
+      src:
+        c: 77a81835
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v08/d69: all'
+        - 'w.chang-friends-and-enemies 232: ?'
+        - 'via x.1962-01-18.summary-president-remarks-nsc: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kennedy-john-f
+      place: washington
+- add:
+    entry:
+      id: cal.1962-07-30.testing
+      when: July 30
+      date: '1962-07-30'
+      thread: testing
+      also:
+      - china
+      c: 'Kennedy with his chief advisers on arms control and national security, by Seaborg''s journal. Nitze presents the report Kennedy asked for on the spread of nuclear weapons without a comprehensive test ban: a ban "necessary, but not a sufficient, condition for inhibiting this proliferation"; to prevent it would take American and Soviet collaboration.'
+      n: '[[w.chang-friends-and-enemies]], 234. Made public: 1981 ([[w.seaborg-kennedy-khrushchev-and-the]], 162–71, Seaborg''s journal, as Chang cites it). To check: [[w.seaborg-kennedy-khrushchev-and-the]], 162–71; [[w.jacobson-diplomats-scientists-and-politicians]], 381–416 (cited by [[w.chang-friends-and-enemies]], 234 n.10). Names: Kennedy, Seaborg, Nitze.'
+      src:
+        c: '84931873'
+        rows:
+        - 'w.chang-friends-and-enemies 234: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kennedy-john-f
+      - name:seaborg-glenn-t
+      - name:nitze-paul
+- add:
+    entry:
+      id: cal.1963-01-14.china
+      when: Jan. 14
+      date: '1963-01-14'
+      thread: china
+      also:
+      - soviet-union
+      c: 'Cline, for the CIA, sends on its paper "Sino-Soviet Relations at a New Crisis": the conflict so fundamental that "for most practical purposes, a ''split'' has already occurred"; the Soviet Union and China "two separate powers whose interests conflict on almost every major issue"; the alliance probably not openly repudiated, but neither side can count on its treaty in a crisis short of survival.'
+      n: '[FRUS 1961–63, XXII, doc. 163](https://history.state.gov/historicaldocuments/frus1961-63v22/d163) (Cline''s covering memorandum, Washington, Jan. 14, 1963: the split, the two powers; the paper itself not printed, nor the alliance and the treaty). [[w.chang-friends-and-enemies]], 235–36 ("By January 1963"). Made public: 1990 ([[w.chang-friends-and-enemies]], 235). To check: CIA, "Sino-Soviet Relations at a New Crisis," 6, Kennedy Papers, NSF, CF, box 180, USSR-General 1/9/63–1/14/63 (cited by [[w.chang-friends-and-enemies]], 235 n.12c), (cited by [[w.chang-friends-and-enemies]], 236 n.13). Names: Cline.'
+      src:
+        c: 3acb4c17
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v22/d163: A, B'
+        - 'w.chang-friends-and-enemies 235–36: all'
+        - 'via x.1963-01-14.cline-sino-soviet-relations-cover: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:cline-ray-s
+- add:
+    entry:
+      id: cal.1963-01-22.testing
+      when: Jan. 22
+      date: '1963-01-22'
+      thread: testing
+      also:
+      - china
+      c: 'The NSC. Kennedy on the test ban: important for one reason, "Chicom." By Hilsman''s notes: "If the Soviets want this and if it can help in keeping the Chinese Communists from getting a full nuclear capacity, then it is worth it ... Chinese Communists are a grave danger."'
+      n: '[FRUS 1961–63, VIII, doc. 125](https://history.state.gov/historicaldocuments/frus1961-63v08/d125) (the record of the 508th meeting, Washington, Jan. 22, 1963: "Our primary purpose in trying to get a treaty with Russia is to halt or delay the development of an atomic capability by the Chinese Communists"; not Hilsman''s notes). [[w.chang-friends-and-enemies]], 237. Made public: 1990 ([[w.chang-friends-and-enemies]], 237). To check: "Mr. Hilsman''s Remarks at Director''s Meeting," Jan. 22, 1963, Hilsman Papers, box 5 (cited by [[w.chang-friends-and-enemies]], 237 n.15b); William C. Foster oral history, 36–37 (cited by [[w.chang-friends-and-enemies]], 237 n.15a). Names: Kennedy, Hilsman.'
+      src:
+        c: fe40bee5
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v08/d125: ?'
+        - 'w.chang-friends-and-enemies 237: all'
+        - 'via x.1963-01-22.hilsman-remarks-directors-meeting: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kennedy-john-f
+      - name:hilsman-roger
+      place: washington
+- add:
+    entry:
+      id: cal.1963-02-12.testing
+      when: Feb. 12
+      date: '1963-02-12'
+      thread: testing
+      also:
+      - china
+      c: 'McNamara, a draft memorandum for Kennedy on the "diffusion of nuclear weapons": the spread "clearly not in the interest of the US"; the pressures the powers will use more important than a test ban; American-Soviet cooperation of "potential importance"; positive incentives (the sharing of weapons information with France or Israel) and "penalties (economic or military)."'
+      n: '[[w.chang-friends-and-enemies]], 244. Made public: 1990 ([[w.chang-friends-and-enemies]], 244). To check: SecDefense to President, draft memo, Feb. 12, 1963, Johnson Papers, VPSF, box 7, Disarmament Proposals 2/63 (cited by [[w.chang-friends-and-enemies]], 244 n.32). Names: McNamara, Kennedy.'
+      src:
+        c: 325fa2c2
+        rows:
+        - 'w.chang-friends-and-enemies 244: all'
+        - 'via x.1963-02-12.secdef-to-president-draft-memo-diffusion: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:mcnamara-robert-s
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1963-03-07.china
+      when: Mar. 7
+      date: '1963-03-07'
+      thread: china
+      also:
+      - soviet-union
+      c: 'Hilsman to Rusk, an INR research memorandum, which Bundy passes to the President: extensive troop movements on the Sino-Soviet border and clashes between the two sides.'
+      n: '[[w.chang-friends-and-enemies]], 239. Made public: 1990 ([[w.chang-friends-and-enemies]], 239). To check: Hilsman to Rusk, research memo, and cover memo, Mar. 7, 1963, Kennedy Papers, NSF, box 318, Index of Weekend Papers 1/63–3/63 (cited by [[w.chang-friends-and-enemies]], 239 n.19b). Names: Hilsman, Rusk, Bundy. Check: whether the troop movements and clashes are this memorandum''s matter.'
+      src:
+        c: efd70bc4
+        rows:
+        - 'w.chang-friends-and-enemies 239: all'
+        - 'via x.1963-03-07.hilsman-to-rusk-research-memo-sino-soviet: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:hilsman-roger
+      - name:rusk-dean
+      - name:bundy-mcgeorge
+- add:
+    entry:
+      id: cal.1963-03-16.soviet-union
+      when: Mar. 16
+      date: '1963-03-16'
+      thread: soviet-union
+      also:
+      - testing
+      - china
+      c: 'Moscow. Kohler, a long telegram on the chill in Soviet-American relations: no progress on the test ban, Germany or anything else until the Soviet leaders decide "how to deal with Chicoms and starts to do so."'
+      n: '[[w.chang-friends-and-enemies]], 239. Made public: 1990 ([[w.chang-friends-and-enemies]], 239). To check: Kohler to SD (cable), Mar. 16, 1963, Johnson Papers, VPSF, box 4, SD-Misc. Cables 1961–63 (cited by [[w.chang-friends-and-enemies]], 239 n.19a). Names: Kohler.'
+      src:
+        c: e4ed1cde
+        rows:
+        - 'w.chang-friends-and-enemies 239: all'
+        - 'via x.1963-03-16.kohler-to-state: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kohler-foy-d
+      place: moscow
+- add:
+    entry:
+      id: cal.1963-05.testing-3
+      when: May
+      date: 1963-05
+      thread: testing
+      also:
+      - china
+      c: 'Foster, for ACDA, before the Senate Preparedness Investigating Subcommittee: "no illusions that China would sign a test ban treaty in the near future"; a treaty would strengthen the Soviet effort against China''s program, leave China no excuse in American or Soviet testing, and have "a divisive effect on Sino-Soviet relations."'
+      n: '[[w.chang-friends-and-enemies]], 237–38. To check: Senate Preparedness Investigating Subcommittee, *Military Aspects*, 7–11 (cited by [[w.chang-friends-and-enemies]], 238 n.17a); [[w.bundy-danger-and-survival]], 461 (cited by [[w.chang-friends-and-enemies]], 238 n.17b). Names: Foster, Stennis. Check: the day.'
+      src:
+        c: c97b746d
+        rows:
+        - 'w.chang-friends-and-enemies 237–38: all'
+        - 'via x.1963.senate-preparedness-military-aspects-test-ban: all'
+      tags:
+      - polity:us
+      - name:foster-william-c
+      - name:stennis-john-c
+      place: washington
+- add:
+    entry:
+      id: cal.1963-05-17.china-2
+      when: May 17
+      date: '1963-05-17'
+      thread: china
+      also:
+      - soviet-union
+      c: 'CIA, "Growth of Chinese Influence Among World Communists": the Chinese party still in the "distinct minority," but each attempt of Khrushchev''s to isolate it has alienated more Communist leaders; Khrushchev and his colleagues more concerned with the Communist world than with any other issue.'
+      n: '[[w.chang-friends-and-enemies]], 238–39. Made public: 1990 ([[w.chang-friends-and-enemies]], 239). To check: CIA, "Growth of Chinese Influence Among World Communists," May 17, 1963, cited by Bundy, Kennedy Papers, NSF, box 318, Index of Weekend Papers (cited by [[w.chang-friends-and-enemies]], 239 n.18). Names: Khrushchev.'
+      src:
+        c: a5e8480b
+        rows:
+        - 'w.chang-friends-and-enemies 238–39: all'
+        - 'via x.1963-05-17.cia-growth-chinese-influence-world-communists: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:khrushchev-nikita-s
+- add:
+    entry:
+      id: cal.1963-05-22.testing
+      when: May 22
+      date: '1963-05-22'
+      thread: testing
+      c: 'News conference. Kennedy on the test ban: the Soviet position on the number of inspections unchanged. Asked where the genie is: "neither in nor out right now."'
+      n: 'The President''s News Conference, [1963 Pub. Papers 418](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476) (May 22, 1963). [[w.chang-friends-and-enemies]], 239 (no Soviet interest in a ban, their position unchanged for five months). Names: Kennedy. Check: the "genie" Chang gives as Kennedy''s words of May 22 is Kennedy''s of May 8 ([1963 Pub. Papers 377–78](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=435)) and the questioner''s on May 22.'
+      src:
+        c: ca8faf34
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476: all'
+        - 'w.chang-friends-and-enemies 239: ?'
+      tags:
+      - polity:us
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1963-05.testing-4
+      when: May, after the 22nd
+      date: 1963-05
+      at: after 1963-05-22
+      thread: testing
+      c: 'Rusk, news conference: as pessimistic as the President on the test ban.'
+      n: '[[w.chang-friends-and-enemies]], 239 ("the following week"). To check: U.S., Arms Control and Disarmament Agency, *Documents on Disarmament, 1963*, 194; the *New York Times*, May 30, 1963, 1 (cited by [[w.chang-friends-and-enemies]], 239 n.20). Names: Rusk. Check: the day.'
+      src:
+        c: c7862316
+        rows:
+        - 'w.chang-friends-and-enemies 239: all'
+      tags:
+      - polity:us
+      - name:rusk-dean
+- add:
+    entry:
+      id: cal.1963-06-12.testing-2
+      when: June 12
+      date: '1963-06-12'
+      thread: testing
+      also:
+      - china
+      c: 'Arthur Barber''s "Briefing Book on US-Soviet Non-Diffusion Agreement for Discussion at the Moscow Meeting": the likely Soviet answer to an American proposal "to take radical steps, in cooperation with the USSR," against the spread of nuclear capabilities; accepting, the Soviets would be "obliged to see it through to the very end," perhaps "Soviet, or possibly joint US-USSR, use of military force" against China.'
+      n: '[[w.chang-friends-and-enemies]], 244–45. Made public: 1990 ([[w.chang-friends-and-enemies]], 245). To check: Arthur Barber, "Briefing Book on US-Soviet Non-Diffusion Agreement for Discussion at the Moscow Meeting," June 12, 1963, 1: 1–7, Kennedy Papers, NSF, box 265, ACDA Disarmament (cited by [[w.chang-friends-and-enemies]], 245 n.34). Names: Barber.'
+      src:
+        c: d89a2efd
+        rows:
+        - 'w.chang-friends-and-enemies 244–45: all'
+        - 'via x.1963-06-12.barber-briefing-book-non-diffusion: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:barber-arthur-w
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-06-14.testing-2
+      when: June 14
+      date: '1963-06-14'
+      thread: testing
+      also:
+      - china
+      c: 'Hughes, director of INR, to Rusk: whether Khrushchev''s turn on the test ban is meant as a lever, or an implied threat, against the Chinese.'
+      n: '[[w.chang-friends-and-enemies]], 239–40 ("American intelligence experts wondered"). Made public: 1990 ([[w.chang-friends-and-enemies]], 240). To check: Hughes to Rusk, June 14, 1963, 1, 4, FOIA release (cited by [[w.chang-friends-and-enemies]], 240 n.21a). Names: Hughes, Rusk, Khrushchev.'
+      src:
+        c: c44d6265
+        rows:
+        - 'w.chang-friends-and-enemies 239–40: all'
+        - 'via x.1963-06-14.hughes-to-rusk: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:hughes-thomas-l
+      - name:rusk-dean
+      - name:khrushchev-nikita-s
+- add:
+    entry:
+      id: cal.1963-06-20.testing-2
+      when: June 20
+      date: '1963-06-20'
+      thread: testing
+      also:
+      - china
+      c: The Defense Department's "Harriman Trip to Moscow—Briefing Book," top secret, one section headed "Military and Other Sanctions Against Communist China."
+      n: '[[w.chang-friends-and-enemies]], 244. Made public: 1990 ([[w.chang-friends-and-enemies]], 244), the section still classified. To check: Defense Dept., "Harriman Trip to Moscow-Briefing Book," June 20, 1963, Kennedy Papers, NSF, box 265, ACDA Disarmament, 2: tab D (cited by [[w.chang-friends-and-enemies]], 244 n.33).'
+      src:
+        c: 0051d4ba
+        rows:
+        - 'w.chang-friends-and-enemies 244: all'
+        - 'via x.1963-06-20.defense-harriman-trip-briefing-book: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-06.testing-2
+      when: June
+      date: 1963-06
+      thread: testing
+      also:
+      - china
+      c: 'LeMay before the Stennis subcommittee in executive session: doubts a treaty would stop the spread of nuclear weapons, to China above all; no agreement likely on common Soviet-American interests against China; the Soviets might give China nuclear weapons.'
+      n: '[[w.chang-friends-and-enemies]], 248 (the military''s testimony in June, during the preparations for Harriman''s trip). Made public: 1963, the hearings, *Military Aspects and Implications of Nuclear Test Ban Proposals*, 300–305, 376, as Chang lists them. To check: Senate Preparedness Investigating Subcommittee, *Military Aspects*, 300–305, 376 (cited by [[w.chang-friends-and-enemies]], 248 n.42a). Names: LeMay, Stennis. Check: the day; perhaps the testimony LeMay gave the day after Anderson''s ([[cal.1963-06-26.testing]]).'
+      src:
+        c: 1558e527
+        rows:
+        - 'w.chang-friends-and-enemies 248: all'
+        - 'via x.1963.senate-preparedness-military-aspects-test-ban: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:lemay-curtis-e
+      - name:stennis-john-c
+      place: washington
+- add:
+    entry:
+      id: cal.1963-06-24.testing-2
+      when: June 24
+      date: '1963-06-24'
+      thread: testing
+      also:
+      - china
+      - europe-and-the-alliance
+      c: 'Bonn, the Foreign Ministry, a news conference. Kennedy: the signers of a test ban would use their influence "to persuade others not to grasp the nuclear nettle"; those who refuse "will get the false security which goes with nuclear diffusion."'
+      n: 'The President''s News Conference at the Foreign Ministry in Bonn, [1963 Pub. Papers 505](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=563) (June 24, 1963). [[w.chang-friends-and-enemies]], 240–41. To check: the *New York Times*, June 25, 1963, 1, 10 (cited by [[w.chang-friends-and-enemies]], 241 n.24). Names: Kennedy.'
+      src:
+        c: 54ee21bc
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=563: all'
+        - 'w.chang-friends-and-enemies 240–41: all'
+      tags:
+      - polity:us
+      - name:kennedy-john-f
+      place: bonn
+- add:
+    entry:
+      id: cal.1963-07-01.testing
+      when: July 1
+      date: '1963-07-01'
+      thread: testing
+      also:
+      - china
+      c: 'Harriman to the Danish ambassador, Knuth-Winterfeldt: "Khrushchev''s main preoccupation" the Chinese; "There has never been close confidence between Moscow and Peiping."'
+      n: '[[w.chang-friends-and-enemies]], 241. Made public: 1990 ([[w.chang-friends-and-enemies]], 241). To check: Barr memo, meeting of Harriman and Kield Gustav Knuth-Winterfeldt, July 1, 1963, FOIA release (cited by [[w.chang-friends-and-enemies]], 241 n.25a), (cited by [[w.chang-friends-and-enemies]], 243 n.31d); Stackhouse memo, meeting of Rusk and Mongi Slim, July 15, 1963, FOIA release (cited by [[w.chang-friends-and-enemies]], 241 n.25b). Names: Harriman, Khrushchev.'
+      src:
+        c: d1a7274a
+        rows:
+        - 'w.chang-friends-and-enemies 241: all'
+        - 'via x.1963-07-01.barr-memo-harriman-knuth-winterfeldt: all'
+      tags:
+      - polity:us
+      - polity:denmark
+      - vis:only:us+denmark
+      - name:harriman-w-averell
+      - name:khrushchev-nikita-s
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-07-03.testing
+      when: July 3
+      date: '1963-07-03'
+      thread: testing
+      also:
+      - china
+      c: The State Department's paper "Elements for a Package Deal with Moscow," one of the recommendations for Harriman's mission.
+      n: '[[w.chang-friends-and-enemies]], 241 (the recommendations "invariably" called for Harriman to sound the Soviets on action against China''s nuclear program, in phrases such as "removing the potential capability" or "action to deny the Chicoms a nuclear capability"). Made public: 1990 ([[w.chang-friends-and-enemies]], 241). To check: SD, "Elements for a Package Deal with Moscow," July 3, 1963, Kennedy Papers, NSF, box 265, ACDA Disarmament-Harriman Trip to Moscow Part III (cited by [[w.chang-friends-and-enemies]], 241 n.26e).'
+      src:
+        c: b8f1f7f2
+        rows:
+        - 'w.chang-friends-and-enemies 241: all'
+        - 'via x.1963-07-03.state-elements-package-deal-moscow: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-07-05.testing
+      when: July 5
+      date: '1963-07-05'
+      thread: testing
+      also:
+      - china
+      c: Rostow, a memorandum on Harriman's mission, among the recommendations that he sound the Soviets on action against China's nuclear program.
+      n: '[[w.chang-friends-and-enemies]], 241. Made public: 1990 ([[w.chang-friends-and-enemies]], 241). To check: Rostow memo, July 5, 1963, Kennedy Papers, NSF, box 265 (cited by [[w.chang-friends-and-enemies]], 241 n.26f). Names: Rostow, Harriman. Check: its matter; Chang gives the recommendations together.'
+      src:
+        c: 01d72c1e
+        rows:
+        - 'w.chang-friends-and-enemies 241: all'
+        - 'via x.1963-07-05.rostow-memo: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:rostow-walt-w
+      - name:harriman-w-averell
+- add:
+    entry:
+      id: cal.1963-07-09.testing-2
+      when: July 9
+      date: '1963-07-09'
+      thread: testing
+      also:
+      - china
+      c: Col. Jackson to Johnson, on Harriman's mission, among the recommendations that he sound the Soviets on action against China's nuclear program.
+      n: '[[w.chang-friends-and-enemies]], 241. Made public: 1990 ([[w.chang-friends-and-enemies]], 241). To check: Col. Jackson to Johnson, July 9, 1963, and an unsigned, undated "personal & confidential" memo to Johnson, Johnson Papers, PSF, box 5, Col. Burris-NSC 1962–63 (cited by [[w.chang-friends-and-enemies]], 241 n.26h–i). Names: Johnson, Harriman. Check: its matter; Chang gives the recommendations together.'
+      src:
+        c: e537210d
+        rows:
+        - 'w.chang-friends-and-enemies 241: all'
+        - 'via x.1963-07-09.jackson-to-johnson: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:johnson-lyndon-b
+      - name:harriman-w-averell
+- add:
+    entry:
+      id: cal.1963-07-12.testing
+      when: July 12
+      date: '1963-07-12'
+      thread: testing
+      also:
+      - china
+      c: 'Foster to Kennedy, at his request, an ACDA memorandum, "Political Implications of a Nuclear Test Ban": less tension, a controlled arms race; "The U.S. might be able to develop something approaching a community of interest with the Soviet Union, at least insofar as Communist China''s external conduct is concerned."'
+      n: '[[w.chang-friends-and-enemies]], 238 n.17; [[w.chang-friends-and-enemies]], 241. Made public: 1990 ([[w.chang-friends-and-enemies]], 238 n.17). To check: Foster to Kennedy, July 12, 1963, Kennedy Papers, NSF, box 265, ACDA Disarmament-Harriman Trip (cited by [[w.chang-friends-and-enemies]], 238 n.17c), (cited by [[w.chang-friends-and-enemies]], 241 n.26g). Names: Foster, Kennedy.'
+      src:
+        c: c69b6413
+        rows:
+        - 'w.chang-friends-and-enemies 238 n.17: all'
+        - 'via x.1963-07-12.foster-to-kennedy-political-implications-test-ban: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:foster-william-c
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1963-07.testing
+      when: July, before the 14th
+      date: 1963-07
+      at: before 1963-07-14
+      thread: testing
+      also:
+      - china
+      c: 'Kennedy to Harriman, before he leaves for Moscow: he "could go as far as he wished in exploring the possibility of a Soviet-American understanding with regard to China." By Schlesinger''s account.'
+      n: '[[w.chang-friends-and-enemies]], 241 (Schlesinger''s account). Made public: 1965 ([[w.schlesinger-thousand-days-1965]], 825, as Chang cites it). To check: [[w.schlesinger-thousand-days-1965]], 825; [[w.seaborg-kennedy-khrushchev-and-the]], 228; Llewellyn Thompson oral history, Mar. 25, 1964, 25–28 (cited by [[w.chang-friends-and-enemies]], 241 n.26). Names: Kennedy, Harriman. Check: the day.'
+      src:
+        c: 1dabbcc9
+        rows:
+        - 'w.chang-friends-and-enemies 241: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kennedy-john-f
+      - name:harriman-w-averell
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-07.testing-2
+      when: July, during the Moscow talks
+      date: 1963-07
+      at: after 1963-07-14
+      thread: testing
+      c: 'Kennedy controls the monitoring of the Moscow talks: messages from Moscow hand-delivered, "for-your-eyes-only," to six outside the White House, Rusk, Ball, McNamara, McCone, Thompson and Foster; all messages to the delegation cleared through the President. By Read, who handles the communications.'
+      n: '[[w.chang-friends-and-enemies]], 242. Made public: 1965 ([[w.sorensen-kennedy]], 734–35, as Chang cites it). To check: [[w.sorensen-kennedy]], 734–35; Benjamin Read oral history, Feb. 22, 1966, 3 (cited by [[w.chang-friends-and-enemies]], 242 n.28). Names: Kennedy, Rusk, Ball, McNamara, McCone, Thompson, Foster, Read.'
+      src:
+        c: be6e7349
+        rows:
+        - 'w.chang-friends-and-enemies 242: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kennedy-john-f
+      - name:rusk-dean
+      - name:ball-george-w
+      - name:mcnamara-robert-s
+      - name:mccone-john-a
+      - name:thompson-llewellyn-e
+      - name:foster-william-c
+      - name:read-benjamin-h
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-07-15.testing-2
+      when: July 15
+      date: '1963-07-15'
+      thread: testing
+      also:
+      - china
+      c: 'Kennedy to Harriman, by cable 191, drafted in his own hand and given to Read: the Chinese problem "more serious than Khrushchev comments in first meeting suggest"; press it in private; "relatively small forces in hands of people like ChiComs could be very dangerous to us all"; even a limited ban a means to limit diffusion; elicit Khrushchev''s view of means of preventing Chinese nuclear development and "his willingness either to take Soviet action or to accept US action aimed in this direction."'
+      n: '[FRUS 1961–63, VII, doc. 326](https://history.state.gov/historicaldocuments/frus1961-63v07/d326) (Washington, July 15, 1963, 9:01 p.m.). [[w.chang-friends-and-enemies]], 242–43 ("the same evening"; drafted in longhand). Made public: 1990 ([[w.chang-friends-and-enemies]], 243). Names: Kennedy, Harriman, Khrushchev, Read.'
+      src:
+        c: 2d1fb368
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v07/d326: all'
+        - 'w.chang-friends-and-enemies 242–43: all'
+        - 'via x.1963-07-15.kennedy-to-harriman-cable-191-july: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kennedy-john-f
+      - name:harriman-w-averell
+      - name:khrushchev-nikita-s
+      - name:read-benjamin-h
+      place: washington
+      time: 1963-07-16T01:01Z
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1963-07-18.testing
+      when: July 18
+      date: '1963-07-18'
+      thread: testing
+      also:
+      - europe-and-the-alliance
+      c: 'Rusk to the ambassador in Bonn: tell the Federal Republic''s government a ban in three environments is "likely to be agreed upon"; no commitment to a "nonaggression arrangement" without consultation.'
+      n: '[[w.chang-friends-and-enemies]], 245. Made public: 1990 ([[w.chang-friends-and-enemies]], 245). To check: Rusk to ambassador, Bonn (cable), July 18, 1963, FOIA release (cited by [[w.chang-friends-and-enemies]], 246 n.36a). Names: Rusk.'
+      src:
+        c: eacd7e86
+        rows:
+        - 'w.chang-friends-and-enemies 245: all'
+        - 'via x.1963-07-18.rusk-to-ambassador-bonn: all'
+      tags:
+      - polity:us
+      - polity:frg
+      - vis:only:us+frg
+      - name:rusk-dean
+      place: washington
+- add:
+    entry:
+      id: cal.1963-07-19.china-2
+      when: July 19
+      date: '1963-07-19'
+      thread: china
+      also:
+      - soviet-union
+      c: 'Bundy, in the President''s weekend reading, summarizes a CIA report: the Sino-Soviet split "largely our accomplishment."'
+      n: '[[w.chang-friends-and-enemies]], 252; [[w.chang-friends-and-enemies]], 203 (the chapter''s epigraph). Made public: 1990 ([[w.chang-friends-and-enemies]], 203). To check: Bundy, Weekend Reading, July 19, 1963, Kennedy Papers, NSF, box 318, Index of Weekend Papers 7/63–11/63 (cited by [[w.chang-friends-and-enemies]], 252 n.49b); Hilsman to Harriman, Aug. 13, 1963, Hilsman Papers, box 5, Test Ban Treaty 7/63 (cited by [[w.chang-friends-and-enemies]], 252 n.49a). Names: Bundy.'
+      src:
+        c: 9635cdab
+        rows:
+        - 'w.chang-friends-and-enemies 252: all'
+        - 'via x.1963-07-19.bundy-weekend-reading: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:bundy-mcgeorge
+- add:
+    entry:
+      id: cal.1963-07-23.testing
+      when: July 23
+      date: '1963-07-23'
+      thread: testing
+      also:
+      - china
+      c: 'Moscow, noon. Harriman, cable 277: "crystal clear" that the Soviets mean to isolate the Chinese; they want the pressure "to appear to come on ChiComs from other countries, particularly the underdeveloped."'
+      n: '[FRUS 1961–63, VII, doc. 342](https://history.state.gov/historicaldocuments/frus1961-63v07/d342) (Moscow, July 23, 1963, noon). [[w.chang-friends-and-enemies]], 246. Made public: 1990 ([[w.chang-friends-and-enemies]], 246). Names: Harriman.'
+      src:
+        c: 56a77358
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v07/d342: all'
+        - 'w.chang-friends-and-enemies 246: all'
+        - 'via x.1963-07-23.harriman-to-kennedy-cable-277: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:harriman-w-averell
+      place: moscow
+      time: 1963-07-23T09:00Z
+      time_zone: Europe/Moscow
+- add:
+    entry:
+      id: cal.1963-07-23.testing-2
+      when: July 23
+      date: '1963-07-23'
+      thread: testing
+      also:
+      - china
+      c: 'Moscow, later in the day. The delegation''s second message, cable 294: Khrushchev and Gromyko have "clearly shown that their way of getting nondissemination is through adherence of maximum number of states to test ban treaty, thus isolating and bringing pressure on Chicoms."'
+      n: '[[w.chang-friends-and-enemies]], 246 ("Another Harriman message later in the day"). Made public: 1990 ([[w.chang-friends-and-enemies]], 246). To check: Kohler to Rusk (cable 294), July 23, 1963, FOIA release (cited by [[w.chang-friends-and-enemies]], 246 n.37c); interview with George Bunn, 1987 (cited by [[w.chang-friends-and-enemies]], 246 n.37d). Names: Khrushchev, Gromyko, Kohler, Harriman. Check: whose cable; Chang says Harriman''s message, his note "Kohler to Rusk (cable 294)."'
+      src:
+        c: 214e1c70
+        rows:
+        - 'w.chang-friends-and-enemies 246: all'
+        - 'via x.1963-07-23.kohler-to-rusk-cable-294: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:khrushchev-nikita-s
+      - name:gromyko-andrei
+      - name:kohler-foy-d
+      - name:harriman-w-averell
+      place: moscow
+      follows:
+      - cal.1963-07-23.testing
+- add:
+    entry:
+      id: cal.1963-07-23.testing-3
+      when: July 23
+      date: '1963-07-23'
+      thread: testing
+      also:
+      - china
+      c: 'Washington, that night. Rusk to Harriman, for the President: he "still hopes very much you will find an opportunity for private discussion with Khrushchev on China."'
+      n: '[[w.chang-friends-and-enemies]], 246. Made public: 1990 ([[w.chang-friends-and-enemies]], 246). To check: Rusk to Harriman (cable), July 23, 1963, FOIA release (cited by [[w.chang-friends-and-enemies]], 247 n.38a). Names: Rusk, Harriman, Kennedy, Khrushchev.'
+      src:
+        c: c1fa7c56
+        rows:
+        - 'w.chang-friends-and-enemies 246: all'
+        - 'via x.1963-07-23.rusk-to-harriman: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:rusk-dean
+      - name:harriman-w-averell
+      - name:kennedy-john-f
+      - name:khrushchev-nikita-s
+      place: washington
+      time_range:
+      - 1963-07-24T02:00Z
+      - 1963-07-24T04:00Z
+      time_band: night
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1963-07.testing-3
+      when: July, after the 23rd
+      date: 1963-07
+      at: after 1963-07-23
+      thread: testing
+      also:
+      - china
+      c: Moscow. Harriman, cornering Khrushchev at last on China's nuclear weapons, asks what he would do if Chinese missiles were aimed at his country. Khrushchev does not answer.
+      n: '[[w.chang-friends-and-enemies]], 246–47 (by [[w.schlesinger-thousand-days-1965]], 829, 247 n.38b). Made public: 1965 ([[w.schlesinger-thousand-days-1965]], 829, as Chang cites it). To check: [[w.schlesinger-thousand-days-1965]], 829 (cited by [[w.chang-friends-and-enemies]], 247 n.38b); [[w.schurmann-logic-of-world-power]], 385–95; [[w.segal-great-power-triangle]], 124–25 (cited by [[w.chang-friends-and-enemies]], 247 n.38c–d). Names: Harriman, Khrushchev. Check: the day; the post-dinner talk of July 26 ([FRUS 1961–63, V, doc. 339](https://history.state.gov/historicaldocuments/frus1961-63v05/d339)) has China and the border, not this question.'
+      src:
+        c: 0cb3f7b0
+        rows:
+        - 'w.chang-friends-and-enemies 246–47: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:harriman-w-averell
+      - name:khrushchev-nikita-s
+      place: moscow
+- add:
+    entry:
+      id: cal.1963-07-24.testing-3
+      when: July 24
+      date: '1963-07-24'
+      thread: testing
+      also:
+      - china
+      c: 'Rusk to the ambassador in Bonn: wide acceptance of the treaty would put "powerful pressures on Peiping not to go down the nuclear path"; if China persists, "other action might have to be taken to prevent this."'
+      n: '[[w.chang-friends-and-enemies]], 247–48. Made public: 1990 ([[w.chang-friends-and-enemies]], 248). To check: Rusk to ambassador, Bonn (cable), July 24, 1963, FOIA release (cited by [[w.chang-friends-and-enemies]], 248 n.40), (cited by [[w.chang-friends-and-enemies]], 243 n.31c); Rusk to Harriman (cable), July 24, 1963, FOIA release (cited by [[w.chang-friends-and-enemies]], 246 n.37a). Names: Rusk.'
+      src:
+        c: bf74a5e7
+        rows:
+        - 'w.chang-friends-and-enemies 247–48: all'
+        - 'via x.1963-07-24.rusk-to-ambassador-bonn: all'
+      tags:
+      - polity:us
+      - polity:frg
+      - vis:only:us+frg
+      - name:rusk-dean
+      place: washington
+- add:
+    entry:
+      id: cal.1963-07-26.testing-3
+      when: July 26
+      date: '1963-07-26'
+      thread: testing
+      also:
+      - china
+      c: 'Rusk to Harriman, hours before the President''s address: the draft for his opinion. Among the passages later dropped: "I do not, of course, expect the Communist Chinese to sign this treaty ... if it can encourage other nations to apply sanctions against their nuclear development—then the outlook is not altogether gloomy"; the "communist split" credited with the agreement.'
+      n: '[[w.chang-friends-and-enemies]], 247 (his footnote). Made public: 1990 ([[w.chang-friends-and-enemies]], 247). To check: Rusk to Harriman (cable), July 26, 1963, FOIA release (cited by [[w.chang-friends-and-enemies]], 247 n.star-b); the *New York Times*, July 22, 1963, 2 (cited by [[w.chang-friends-and-enemies]], 247 n.star-a). Names: Rusk, Harriman, Kennedy.'
+      src:
+        c: ab1d4e57
+        rows:
+        - 'w.chang-friends-and-enemies 247: all'
+        - 'via x.1963-07-26.rusk-to-harriman-draft-speech: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:rusk-dean
+      - name:harriman-w-averell
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1963-07-31.china-3
+      when: July 31
+      date: '1963-07-31'
+      thread: china
+      c: 'CIA, SNIE 13-4-63, "Possibilities of Greater Militancy by the Chinese Communists": "over the past few years, in spite of [their] warlike oratory, they have followed a generally cautious policy," with "marked respect for US power"; no change expected.'
+      n: '[[w.chang-friends-and-enemies]], 251 ("In late July 1963"). Made public: 1990 ([[w.chang-friends-and-enemies]], 251). To check: CIA, "Possibilities of Greater Militancy by the Chinese Communists—SNIE 13-4-63," July 31, 1963, Johnson Papers, VPSF, Nations and Regions, container 11 (cited by [[w.chang-friends-and-enemies]], 251 n.47c); [[w.cohen-dean-rusk]], 169 (cited by [[w.chang-friends-and-enemies]], 251 n.47a). See the NSC of the same day, [FRUS 1961–63, XXII, doc. 181](https://history.state.gov/historicaldocuments/frus1961-63v22/d181).'
+      src:
+        c: bfddc6a7
+        rows:
+        - 'w.chang-friends-and-enemies 251: all'
+        - 'via x.1963-07-31.snie-13-4-63-greater-militancy: all'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1963-08-07.china
+      when: Aug. 7
+      date: '1963-08-07'
+      thread: china
+      also:
+      - testing
+      c: Warsaw, the 116th meeting of the ambassadorial talks, three hours and thirty-five minutes. Cabot reports that he believes China wants an arms control agreement, its public attacks on the treaty notwithstanding.
+      n: '[FRUS 1961–63, XXII, doc. 183](https://history.state.gov/historicaldocuments/frus1961-63v22/d183) (Warsaw, Aug. 7, 1963, 8 p.m., telegram 255: the meeting; not Cabot''s belief). [[w.chang-friends-and-enemies]], 251–52 (Cabot''s report). Made public: 1990 ([[w.chang-friends-and-enemies]], 251). To check: Cabot to Rusk (cable nos. 255, 258), Aug. 8, 1963, and Forrestal to Kennedy, Aug. 10, 1963, Kennedy Papers, NSF, box 153, CF, Poland, Cabot-Wang talks (cited by [[w.chang-friends-and-enemies]], 252 n.48e–f). Names: Cabot. Check: Cabot''s belief, which Chang gives from cables 255 and 258, dated by his note Aug. 8; FRUS prints 255, of Aug. 7, without it.'
+      src:
+        c: 210268cc
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v22/d183: A'
+        - 'w.chang-friends-and-enemies 251–52: all'
+        - 'via x.1963-08-07.cabot-to-rusk-cables-255-258: all'
+      tags:
+      - polity:us
+      - polity:prc
+      - vis:only:us+prc
+      - name:cabot-john-m
+      - ok:fields-time
+      place: warsaw
+- add:
+    entry:
+      id: cal.1963-08-13.testing-2
+      when: Aug. 13
+      date: '1963-08-13'
+      thread: testing
+      also:
+      - china
+      c: 'Rusk with the Joint Chiefs on the test ban treaty. Asked by LeMay about its political advantages: aggravating the Sino-Soviet split; perhaps "further favorable developments in our relations with the Soviets."'
+      n: '[[w.chang-friends-and-enemies]], 249 n.43. Made public: 1990 ([[w.chang-friends-and-enemies]], 249 n.43). To check: memo for the record, Aug. 15, 1963, FOIA release (cited by [[w.chang-friends-and-enemies]], 249 n.43c). Names: Rusk, LeMay.'
+      src:
+        c: 31ed2bce
+        rows:
+        - 'w.chang-friends-and-enemies 249 n.43: all'
+        - 'via x.1963-08-15.memo-for-record-rusk-jcs: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:rusk-dean
+      - name:lemay-curtis-e
+- add:
+    entry:
+      id: cal.1963-08-20.testing-2
+      when: Aug. 20
+      date: '1963-08-20'
+      thread: testing
+      c: '*National Review* on the Moscow treaty: a "diplomatic Pearl Harbor for America."'
+      n: '[[w.chang-friends-and-enemies]], 247. To check: *National Review*, Aug. 20, 1963, 6 (cited by [[w.chang-friends-and-enemies]], 247 n.39). Names: Buckley.'
+      src:
+        c: 7dedc540
+        rows:
+        - 'w.chang-friends-and-enemies 247: all'
+        - 'via x.1963-08-20.national-review-diplomatic-pearl-harbor: all'
+      tags:
+      - polity:us
+      - name:buckley-william-f-jr
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-08-28.testing
+      when: Aug. 28
+      date: '1963-08-28'
+      thread: testing
+      also:
+      - china
+      c: 'Rusk before the Senate Foreign Relations Committee in executive session, on the treaty: the Sino-Soviet split "getting wider and deeper."'
+      n: '[[w.chang-friends-and-enemies]], 248. Made public: 1990 ([[w.chang-friends-and-enemies]], 248). To check: Senate Committee on Foreign Relations, "Declassified Portions of Nuclear Test Ban Treaty," Aug. 28, 1963, 71, RG 46, National Archives (cited by [[w.chang-friends-and-enemies]], 248 n.41). Names: Rusk.'
+      src:
+        c: 1f69287e
+        rows:
+        - 'w.chang-friends-and-enemies 248: all'
+        - 'via x.1963-08-28.sfrc-declassified-portions-test-ban: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:rusk-dean
+      place: washington
+- add:
+    entry:
+      id: cal.1963-09-06.testing
+      when: Sept. 6
+      date: '1963-09-06'
+      thread: testing
+      also:
+      - china
+      - soviet-union
+      c: 'The embassy in Moscow, "Motivations for Moscow''s Signature of the Test Ban Agreement": "the outbreak of virtually undeclared war between Moscow and Peiping [in the] spring" explains the Soviet acceptance of a partial ban "which it could have had at any time during the past year."'
+      n: '[[w.chang-friends-and-enemies]], 240. Made public: 1990 ([[w.chang-friends-and-enemies]], 240). To check: Embassy, Moscow, to SD, "Motivations for Moscow''s Signature of the Test Ban Agreement," Sept. 6, 1963, 4–5, FOIA release (cited by [[w.chang-friends-and-enemies]], 240 n.21b), (cited by [[w.chang-friends-and-enemies]], 240 n.22a); [[w.jonsson-soviet-bargaining-behavior]] (cited by [[w.chang-friends-and-enemies]], 240 n.22b).'
+      src:
+        c: c850d304
+        rows:
+        - 'w.chang-friends-and-enemies 240: all'
+        - 'via x.1963-09-06.embassy-moscow-motivations-test-ban: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      place: moscow
+- add:
+    entry:
+      id: cal.1964-07-13.china
+      when: July 13
+      date: '1964-07-13'
+      thread: china
+      also:
+      - testing
+      c: 'CINCPAC to the Defense Intelligence Agency: China''s first atomic test predicted to within days; CINCPAC still urges "action" to impede China''s nuclear program.'
+      n: '[[w.chang-friends-and-enemies]], 250. Made public: 1990 ([[w.chang-friends-and-enemies]], 250). To check: CINCPAC to DIA, July 13, 1964, Johnson Papers, NSF, CF, China, boxes 237–38, Cables (1) 12/63–9/64 (cited by [[w.chang-friends-and-enemies]], 250 n.44).'
+      src:
+        c: 5b086736
+        rows:
+        - 'w.chang-friends-and-enemies 250: all'
+        - 'via x.1964-07-13.cincpac-to-dia: all'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1964-11-18.china
+      when: Nov. 18
+      date: '1964-11-18'
+      thread: china
+      also:
+      - soviet-union
+      c: 'Hilsman, out of government, "Remarks to the Council on World Affairs": Khrushchev''s poor handling of the dispute with China a major reason for his ouster.'
+      n: '[[w.chang-friends-and-enemies]], 250. To check: Hilsman, "Remarks to the Council on World Affairs," Nov. 18, 1964, Thomson Papers, box 16, General 11/64–12/64 (cited by [[w.chang-friends-and-enemies]], 250 n.46a); Sergei Khrushchev, "My Father Nikita''s Downfall," *Time*, Nov. 14, 1988, 44 (cited by [[w.chang-friends-and-enemies]], 250 n.46b). Names: Hilsman, Khrushchev.'
+      src:
+        c: 6c9666ea
+        rows:
+        - 'w.chang-friends-and-enemies 250: all'
+        - 'via x.1964-11-18.hilsman-remarks-council-on-world-affairs: all'
+      tags:
+      - polity:us
+      - name:hilsman-roger
+      - name:khrushchev-nikita-s
+- add:
+    entry:
+      id: cal.1965-01-12.china-2
+      when: Jan. 12
+      date: '1965-01-12'
+      thread: china
+      also:
+      - testing
+      c: '*National Review*, "Should We Bomb Red China''s Bomb?": the United States should "destroy—destroy literally, physically—the present Chinese nuclear capability," a mission feasible by "an unimpeachable, fully qualified source within our military command structure"; the proposal "deserves serious discussion by serious men."'
+      n: '[[w.chang-friends-and-enemies]], 228. To check: "Should We Bomb Red China''s Bomb?," *National Review*, Jan. 12, 1965, 8–10 (cited by [[w.chang-friends-and-enemies]], 228 n.1a); *National Review*, June 1, 1965, 449–50 (the call repeated) (cited by [[w.chang-friends-and-enemies]], 228 n.1b). Names: Buckley.'
+      src:
+        c: 2d650d63
+        rows:
+        - 'w.chang-friends-and-enemies 228: all'
+        - 'via x.1965-01-12.national-review-should-we-bomb-red-chinas-bomb: all'
+      tags:
+      - polity:us
+      - name:buckley-william-f-jr
+- add:
+    entry:
+      id: cal.1963-12-13.china
+      when: Dec. 13
+      date: '1963-12-13'
+      thread: china
+      c: 'San Francisco. Hilsman, with Rusk''s leave, on China policy: the United States not implacably hostile to Peking; an American "open door" waiting for the day its leaders change their ways.'
+      n: '[[w.chang-friends-and-enemies]], 271 (where Dulles six years before had called Communist China a "passing phase"). See [[cal.1963-12-24.china-leadership]] (the day, by the Mao chronology). To check: [[w.department-of-state-bulletin]], [Jan. 6, 1964, 11–17](https://archive.org/details/departmentofstat501964unit/page/11/mode/1up) (cited by [[w.chang-friends-and-enemies]], 271 n.37). Names: Hilsman, Rusk. Check: Chang dates the speech December 1964; the Bulletin he cites is of Jan. 6, 1964.'
+      src:
+        c: 8a512e34
+        rows:
+        - 'w.chang-friends-and-enemies 271: all'
+        - 'via x.1963-12-13.hilsman-san-francisco-address-china: all'
+      tags:
+      - polity:us
+      - name:hilsman-roger
+      - name:rusk-dean
+      place: san-francisco
+- add:
+    entry:
+      id: cal.1964-02-06.china
+      when: Feb. 6
+      date: '1964-02-06'
+      thread: china
+      c: 'Van Fleet, retired, in the *New York Post*: for recognizing Peking; the Chinese "our future friends" and natural ally against the Soviet Union, the Russians "our very bad enemy"; Washington''s relations with the two "should be just the reverse."'
+      n: '[[w.chang-friends-and-enemies]], 263 ("in early 1964"). To check: the *New York Post*, Feb. 6, 1964 (cited by [[w.chang-friends-and-enemies]], 263 n.21a). Names: Van Fleet.'
+      src:
+        c: 6c0150ba
+        rows:
+        - 'w.chang-friends-and-enemies 263: all'
+        - 'via x.1964-02-06.new-york-post-van-fleet: all'
+      tags:
+      - polity:us
+      - name:van-fleet-james-a
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-06-09.china-3
+      when: June 9
+      date: '1964-06-09'
+      thread: china
+      also:
+      - soviet-union
+      - vietnam
+      c: 'CIA, "Trends in the World Situation": the Communist world''s problems "spectacular"; its national and doctrinal antagonisms "may occasionally lead to armed conflict"; "World power is proliferating"; in the disorderly Third World, outside powers once involved may find their prestige engaged "to a degree incommensurate with the intrinsic or strategic value of the area itself."'
+      n: '[[w.chang-friends-and-enemies]], 255 ("in mid-1964"). Made public: 1990 ([[w.chang-friends-and-enemies]], 255). To check: CIA, "Trends in the World Situation," June 9, 1964, 13, 39, 43, Johnson Papers, NSF, Agency, box 5 (cited by [[w.chang-friends-and-enemies]], 255 nn.4–5); [[w.dulles-american-policy-toward-communist]], 211–12 (cited by [[w.chang-friends-and-enemies]], 255 n.3).'
+      src:
+        c: 431122a0
+        rows:
+        - 'w.chang-friends-and-enemies 255: all'
+        - 'via x.1964-06-09.cia-trends-in-the-world-situation: all'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1964-10-28.china-2
+      when: Oct. 28
+      date: '1964-10-28'
+      thread: china
+      c: 'A memorandum for Bundy, "The US and Communist China in the Months Ahead," by an aide: after the test, China''s admission to the United Nations a "virtual certainty" in the foreseeable future.'
+      n: '[[w.chang-friends-and-enemies]], 261. Made public: 1990 ([[w.chang-friends-and-enemies]], 261). To check: memo for Bundy, "The US and Communist China in the Months Ahead," Oct. 28, 1964, quoted in the State Department''s Administrative History, ch. 7, part C, Johnson Papers, NSC, CF, China, boxes 244–45 (cited by [[w.chang-friends-and-enemies]], 261 n.17a); L. Grant, "Visit of Prime Minister Harold Wilson: China Problem, December 4, 1964," NSF, CF, UK, box 213 (cited by [[w.chang-friends-and-enemies]], 261 n.17b). Names: Bundy.'
+      src:
+        c: 8fd23d20
+        rows:
+        - 'w.chang-friends-and-enemies 261: all'
+        - 'via x.1964-10-28.memo-for-bundy-us-and-communist-china-months-ahead: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:bundy-mcgeorge
+- add:
+    entry:
+      id: cal.1964-10-31.vietnam
+      when: Oct. 31
+      date: '1964-10-31'
+      thread: vietnam
+      also:
+      - china
+      c: 'Cleveland to Ball: American military punishment of Hanoi together with offers to negotiate may "drive the wedge more deeply between the CHICOMS and the USSR"; the Soviets'' concern at war in Asia will grow with escalation, their interests coinciding more with America''s in an end to it.'
+      n: '[[w.chang-friends-and-enemies]], 262. Made public: 1990 ([[w.chang-friends-and-enemies]], 262). To check: Cleveland to Ball, Oct. 31, 1964, Johnson Papers, NSF, CF, UN, box 290, UN-Chinese Representation (cited by [[w.chang-friends-and-enemies]], 262 n.19). Names: Cleveland, Ball.'
+      src:
+        c: 3259013b
+        rows:
+        - 'w.chang-friends-and-enemies 262: all'
+        - 'via x.1964-10-31.cleveland-to-ball: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:cleveland-harland
+      - name:ball-george-w
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-11-06.china-2
+      when: Nov. 6
+      date: '1964-11-06'
+      thread: china
+      c: 'Hong Kong. The consul general: estranged from Moscow, Peking''s leaders should reconsider their relations with the United States; in "strictly balance-of-power terms" one should not be hostile both to "the principal land power along one''s borders and the principal sea-air power off one''s coast"; no sign yet of a change.'
+      n: '[[w.chang-friends-and-enemies]], 262–63. Made public: 1990 ([[w.chang-friends-and-enemies]], 262). To check: memo, ConGen Hong Kong, Nov. 6, 1964, Johnson Papers, NSF, CF, China, boxes 237–38 (cited by [[w.chang-friends-and-enemies]], 263 n.20).'
+      src:
+        c: 1d1118fe
+        rows:
+        - 'w.chang-friends-and-enemies 262–63: all'
+        - 'via x.1964-11-06.consulate-general-hong-kong-memo: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      place: hong-kong
+- add:
+    entry:
+      id: cal.1964-12-11.soviet-union
+      when: Dec. 11
+      date: '1964-12-11'
+      thread: soviet-union
+      also:
+      - china
+      c: 'Kennan to Roger Hagan: despite ideological antagonism, a real wish on both sides for a fruitful American-Soviet relationship; Russia "in spiritual and cultural character largely a western country"; China marked by a "basic xenophobia and national arrogance."'
+      n: '[[w.chang-friends-and-enemies]], 264 (the footnote). Made public: 1990 ([[w.chang-friends-and-enemies]], 264). To check: Kennan to Roger Hagan, Dec. 11, 1964, Kennan Papers, Princeton, box 31, Outgoing Letters (cited by [[w.chang-friends-and-enemies]], 264 n.star-a). Names: Kennan.'
+      src:
+        c: 6b253443
+        rows:
+        - 'w.chang-friends-and-enemies 264: all'
+        - 'via x.1964-12-11.kennan-to-hagan: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kennan-george-f
+- add:
+    entry:
+      id: cal.1964-12-16.china
+      when: Dec. 16
+      date: '1964-12-16'
+      thread: china
+      also:
+      - soviet-union
+      c: 'Bundy to Johnson, before a news conference: policy toward the Soviets "Firm on essentials, but always friendly"; bridges to Eastern Europe; "Communist China is quite a different problem," her explosion and aggressive attitudes a problem "for all peaceful people"; no time to reward her belligerence, "at the UN or elsewhere."'
+      n: '[[w.chang-friends-and-enemies]], 261–62 ("a month after his landslide"). Made public: 1990 ([[w.chang-friends-and-enemies]], 261). To check: Bundy to Johnson, Dec. 16, 1964, Johnson Papers, NSF, Aides, box 2, Bundy-Memos to President (cited by [[w.chang-friends-and-enemies]], 262 n.18), (cited by [[w.chang-friends-and-enemies]], 271 n.38c). Names: Bundy, Johnson.'
+      src:
+        c: e2aa1c56
+        rows:
+        - 'w.chang-friends-and-enemies 261–62: all'
+        - 'via x.1964-12-16.bundy-to-johnson: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:bundy-mcgeorge
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1965-03.china
+      when: Mar.
+      date: 1965-03
+      thread: china
+      also:
+      - soviet-union
+      - vietnam
+      c: 'Kennan before the House Subcommittee on the Far East and the Pacific, its hearings on the Sino-Soviet conflict: Vietnam "a classic example of the sort of situation we ought to avoid," not vital; the United States "will find it easier to deal with the Chinese in the long run ... if the Russians remain in a reasonably close and intimate relationship with the West"; local regimes left alone would develop "Titoist tendencies"; but the United States cannot "afford simply to get out."'
+      n: '[[w.chang-friends-and-enemies]], 264–65. To check: U.S., House Subcommittee on the Far East, *Report on the Sino-Soviet Conflict*, 76–79, 89, 106 (cited by [[w.chang-friends-and-enemies]], 265 n.22). Names: Kennan. Check: the day; Chang gives eight days of hearings in March.'
+      src:
+        c: 288174d7
+        rows:
+        - 'w.chang-friends-and-enemies 264–65: all'
+        - 'via x.1965.house-subcommittee-far-east-sino-soviet-conflict: all'
+      tags:
+      - polity:us
+      - name:kennan-george-f
+      place: washington
+- add:
+    entry:
+      id: cal.1965-03.china-2
+      when: Mar.
+      date: 1965-03
+      thread: china
+      also:
+      - soviet-union
+      - vietnam
+      c: 'Zagoria before the House Subcommittee on the Far East and the Pacific: the United States "a silent, if largely unwitting, participant" in the dispute, the three powers a "triangle"; "the most significant consequence of the American bombing of North Vietnam ... the widening of the Sino-Soviet split"; a settlement the Soviets'' "only way out"; end the war on terms acceptable to both and "help substitute Soviet for Chinese influence in Hanoi."'
+      n: '[[w.chang-friends-and-enemies]], 265–66. To check: U.S., House Subcommittee on the Far East, *Report on the Sino-Soviet Conflict*, 112–16, 146–47, 150 (cited by [[w.chang-friends-and-enemies]], 266 n.24); Zagoria testimony, Nov. 19, 1975, House Subcommittee on Future Foreign Policy, *Great Power Triangle*, part 1, 62 (cited by [[w.chang-friends-and-enemies]], 266 n.23). Check: the day.'
+      src:
+        c: 1299fd2e
+        rows:
+        - 'w.chang-friends-and-enemies 265–66: all'
+        - 'via x.1965.house-subcommittee-far-east-sino-soviet-conflict: all'
+      tags:
+      - polity:us
+      place: washington
+- add:
+    entry:
+      id: cal.1965-03-23.china-2
+      when: Mar. 23
+      date: '1965-03-23'
+      thread: china
+      also:
+      - soviet-union
+      c: 'Marshall Green before the House Subcommittee on the Far East and the Pacific: in State''s view firmness, as in Vietnam, has "produced a continuation of the rift rather than a bringing together" of Moscow and Peking.'
+      n: '[[w.chang-friends-and-enemies]], 267. To check: U.S., House Subcommittee on the Far East, *Report on the Sino-Soviet Conflict*, 337–38, 354–57, 364–65 (cited by [[w.chang-friends-and-enemies]], 267 n.25a). Names: Green.'
+      src:
+        c: cf003bec
+        rows:
+        - 'w.chang-friends-and-enemies 267: all'
+        - 'via x.1965.house-subcommittee-far-east-sino-soviet-conflict: all'
+      tags:
+      - polity:us
+      - name:green-marshall
+      place: washington
+- add:
+    entry:
+      id: cal.1965-03-31.china-2
+      when: Mar. 31
+      date: '1965-03-31'
+      thread: china
+      also:
+      - soviet-union
+      c: 'Rusk before the House Subcommittee on the Far East and the Pacific: little talk with the Soviet leaders about the Chinese; he is "quite convinced" that "the Russians as Russians are concerned about the prospect of living next to a billion Chinese armed with nuclear weapons"; China must be forced the way the Russians have gone. In a passage then deleted: "If I were a Communist, I would be a Peiping Communist."'
+      n: '[[w.chang-friends-and-enemies]], 267; [[w.chang-friends-and-enemies]], 269 (the footnote). Made public: 1965 (the testimony, by the subcommittee''s print); the deleted passage, 1990 ([[w.chang-friends-and-enemies]], 269). To check: U.S., House Subcommittee on the Far East, *Report on the Sino-Soviet Conflict*, 337–38, 354–57, 364–65; the declassified deletion, in a letter from Helen C. Mattas to the author, Mar. 9, 1988 (cited by [[w.chang-friends-and-enemies]], 267 n.25), (cited by [[w.chang-friends-and-enemies]], 270 n.star-b). Names: Rusk.'
+      src:
+        c: 113e8114
+        rows:
+        - 'w.chang-friends-and-enemies 267: all'
+        - 'via x.1965.house-subcommittee-far-east-sino-soviet-conflict: A, B'
+        - 'via x.1988-03-09.mattas-to-chang-declassified-deletion: C'
+      tags:
+      - polity:us
+      - name:rusk-dean
+      place: washington
+- add:
+    entry:
+      id: cal.1965-07-02.soviet-union
+      when: July 2
+      date: '1965-07-02'
+      thread: soviet-union
+      also:
+      - china
+      - vietnam
+      c: 'The State Department to the embassy in Paris, as Chang gives the department''s estimate: the Sino-Soviet split will continue and the Communist world splinter further; the Soviets'' commitment to better relations with the West comes before their support of Hanoi.'
+      n: '[[w.chang-friends-and-enemies]], 268 ("By mid-1965"). Made public: 1990 ([[w.chang-friends-and-enemies]], 268). To check: SD to Embassy, Paris, July 2, 1965, Johnson Papers, CF, France, box 171 (cited by [[w.chang-friends-and-enemies]], 268 n.27b); Bundy to Johnson, Apr. 20, 1965, NSF, Aides, box 3 (cited by [[w.chang-friends-and-enemies]], 268 n.27a).'
+      src:
+        c: 5a89e5c8
+        rows:
+        - 'w.chang-friends-and-enemies 268: all'
+        - 'via x.1965-07-02.state-to-embassy-paris: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-07-20.vietnam-2
+      when: July 20
+      date: '1965-07-20'
+      thread: vietnam
+      also:
+      - soviet-union
+      - china
+      c: 'SNIE 10-9-65, "Communist and Free World Reactions to a Possible US Course of Action": Moscow does "not wish the kind of Communist victory [in Vietnam] which would magnify the prestige and power of China."'
+      n: '[[w.chang-friends-and-enemies]], 268. Made public: 1990 ([[w.chang-friends-and-enemies]], 268). To check: CIA, SNIE 10-9-65, July 20, 1965, Johnson Papers, NSF, NSC History, box 43, Deployment of Major U.S. Forces to Vietnam, July 1965, 6: tabs 384–400 (cited by [[w.chang-friends-and-enemies]], 268 n.28a).'
+      src:
+        c: 234503f7
+        rows:
+        - 'w.chang-friends-and-enemies 268: all'
+        - 'via x.1965-07-20.snie-10-9-65-reactions-possible-us-course: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-08-21.china
+      when: Aug. 21
+      date: '1965-08-21'
+      thread: china
+      c: Thomson to Bundy, on Paul Dudley White, Eisenhower's cardiologist, who asks the administration's approval to visit China to break the deadlock.
+      n: '[[w.chang-friends-and-enemies]], 271 ("sought administration approval in 1965"). Made public: 1990 ([[w.chang-friends-and-enemies]], 271). To check: Thomson to Bundy, Aug. 21, 1965, Johnson Papers, NSF, CF, China, boxes 237–38 (cited by [[w.chang-friends-and-enemies]], 271 n.38b); Bundy memos to the President, Aug. 24 and Dec. 2, 1965 (cited by [[w.chang-friends-and-enemies]], 271 n.38d–e). Names: Thomson, Bundy, Eisenhower. Check: whether this memorandum is the request''s; Chang''s note lists it with others.'
+      src:
+        c: 79ac9ac7
+        rows:
+        - 'w.chang-friends-and-enemies 271: all'
+        - 'via x.1965-08-21.thomson-to-bundy: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:thomson-james-c-jr
+      - name:bundy-mcgeorge
+      - name:eisenhower-dwight-d
+- add:
+    entry:
+      id: cal.1965.china-2
+      when: 1965, fall
+      date: '1965'
+      at: before 1965-09
+      thread: china
+      c: A special joint State–Defense study group begins nine months' work on long-term China policy.
+      n: '[[w.chang-friends-and-enemies]], 274. See [[cal.1966-06-16.china]]. Made public: 1990 ([[w.chang-friends-and-enemies]], 274).'
+      src:
+        c: 5b59d97b
+        rows:
+        - 'w.chang-friends-and-enemies 274: all'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1965.china-3
+      when: 1965, late
+      date: '1965'
+      at: before 1965-09
+      thread: china
+      also:
+      - vietnam
+      c: Foreign policy officials begin to debate whether China would intervene in Vietnam, what American acts would bring it in, and whether to create a buffer zone in North Vietnam near the Chinese border, and how large, against accidental intrusions; the review leads to a decision at a high level to back away from a confrontation with China.
+      n: '[[w.chang-friends-and-enemies]], 270–71 (by the State Department''s internal history). Made public: 1990 ([[w.chang-friends-and-enemies]], 270). To check: SD, Administrative History, ch. 7, part C, Johnson Papers (cited by [[w.chang-friends-and-enemies]], 271 n.36). Check: the decision''s day.'
+      src:
+        c: 2eb0bcef
+        rows:
+        - 'w.chang-friends-and-enemies 270–71: all'
+        - 'via x.1969-01.state-administrative-history-ch7-china: all'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1966-01-17.china
+      when: Jan. 17
+      date: '1966-01-17'
+      thread: china
+      c: 'Kennan to David Horowitz: his distaste for Chinese communism, its regimentation and emotionalism.'
+      n: '[[w.chang-friends-and-enemies]], 264 (the footnote: "In early 1966 Kennan frequently expressed his distaste"). Made public: 1990 ([[w.chang-friends-and-enemies]], 264). To check: Kennan to David Horowitz, Jan. 17, 1966, Kennan Papers, Princeton (cited by [[w.chang-friends-and-enemies]], 264 n.star-b). Names: Kennan.'
+      src:
+        c: c65afd2b
+        rows:
+        - 'w.chang-friends-and-enemies 264: all'
+        - 'via x.1966-01-17.kennan-to-horowitz: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kennan-george-f
+- add:
+    entry:
+      id: cal.1966-02-12.china-2
+      when: Feb. 12
+      date: '1966-02-12'
+      thread: china
+      c: 'William Bundy, "The United States and Communist China": China "the most serious and perplexing problem that confronts our foreign policy today"; its leaders "have not wished to seek a confrontation of military power with us"; Mao not "another Hitler"; the hope "over time" of more contacts, Peking the obstacle; the capital now "Peking," not "Peiping."'
+      n: '[[w.chang-friends-and-enemies]], 272. To check: [[w.department-of-state-bulletin]], [Feb. 28, 1966, 310–18](https://archive.org/details/departmentofstat541966unit/page/310/mode/1up) (cited by [[w.chang-friends-and-enemies]], 272 n.40a); [[w.rogers-sino-american-relations-and]] (cited by [[w.chang-friends-and-enemies]], 272 n.40b). Names: William Bundy, Mao.'
+      src:
+        c: b697df96
+        rows:
+        - 'w.chang-friends-and-enemies 272: all'
+        - 'via x.1966-02-12.william-bundy-united-states-and-communist-china: all'
+      tags:
+      - polity:us
+      - name:bundy-william
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-02-27.china-2
+      when: Feb. 27–Mar. 2
+      date: '1966-02-27'
+      thread: china
+      c: 'Baguio, the chiefs of mission conference. Rice, consul general at Hong Kong, for lifting the embargo on food and medicines and a "live and let live relationship" with China. William Bundy: the United States out of step "with very large circles [of people] in western Europe and very considerable circles in Japan."'
+      n: '[[w.chang-friends-and-enemies]], 271–72 ("At a meeting in early 1966"). Made public: 1990 ([[w.chang-friends-and-enemies]], 271). To check: Beaman memo, chiefs of mission meeting, Highlights-Chiefs of Mission Conference 2/27/66–3/2/66, 6–8, 11–12, 36–38, Thomson Papers, box 19, Baguio 3 (cited by [[w.chang-friends-and-enemies]], 271 n.38a), (cited by [[w.chang-friends-and-enemies]], 272 n.39a). Names: Rice, William Bundy.'
+      src:
+        c: 596e91d8
+        rows:
+        - 'w.chang-friends-and-enemies 271–72: all'
+        - 'via x.1966-03.beaman-memo-chiefs-of-mission-baguio: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:rice-edward-e
+      - name:bundy-william
+      place: baguio
+- add:
+    entry:
+      id: cal.1966-03.china
+      when: Mar., during the Fulbright hearings
+      date: 1966-03
+      at: after 1966-03-08
+      thread: china
+      c: Two hundred Asian specialists, in a *New York Times* advertisement, call for talks with Peking on formal relations.
+      n: '[[w.chang-friends-and-enemies]], 274. To check: Thomson to Jenkins, July 25, 1966, Johnson Papers, NSF, CF, China, box 239 (cited by [[w.chang-friends-and-enemies]], 274 n.43a). Check: the day.'
+      src:
+        c: 76593b3b
+        rows:
+        - 'w.chang-friends-and-enemies 274: all'
+      tags:
+      - polity:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966.china-2
+      when: 1966, spring
+      date: '1966'
+      at: before 1966-03
+      thread: china
+      also:
+      - vietnam
+      c: Peking lets Washington know that its forces will not enter the Vietnam war unless the United States invades China or North Vietnam or bombs the Red River dikes. Johnson and other officials signal their acceptance.
+      n: '[[w.chang-friends-and-enemies]], 272. To check: [[w.rogers-sino-american-relations-and]], 306–9; [[w.kahin-intervention]], 340–41 (cited by [[w.chang-friends-and-enemies]], 272 n.41a–b). Names: Johnson. Check: the channel and the day.'
+      src:
+        c: 9c6701fc
+        rows:
+        - 'w.chang-friends-and-enemies 272: all'
+      tags:
+      - polity:prc
+      - polity:us
+      - name:johnson-lyndon-b
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-06-16.china
+      when: June 16
+      date: '1966-06-16'
+      thread: china
+      also:
+      - soviet-union
+      c: 'The Special State–Defense Study Group''s "China-Communist China: Long-Range Study," some 700 pages, top secret: seek to "induce present or future Communist leaders to reappraise US intentions" and "arouse Peking''s interest in developing a more constructive relationship with us."'
+      n: '[[w.chang-friends-and-enemies]], 274. Made public: 1990 ([[w.chang-friends-and-enemies]], 274), the study then still classified. To check: SIP 66-71-2a, "China-Communist China: Long-Range Study by the Special State-Defense Study Group," June 16, 1966, Johnson Papers, NSF, CF, China, boxes 244–45 (cited by [[w.chang-friends-and-enemies]], 274 n.45a), (cited by [[w.chang-friends-and-enemies]], 273 n.42c); Thomson to Rostow et al., Apr. 2, 1966, Thomson Papers, box 17 (cited by [[w.chang-friends-and-enemies]], 274 n.45b).'
+      src:
+        c: e7dcc63f
+        rows:
+        - 'w.chang-friends-and-enemies 274: all'
+        - 'via x.1966-06-16.special-state-defense-study-group-long-range-study: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-06.china
+      when: June, about the time of the long-range study
+      date: 1966-06
+      thread: china
+      also:
+      - soviet-union
+      c: 'Rusk to Johnson, a draft memorandum, "New Approach to Trade and Transaction Controls with Communist China": offering Peking better relations might "preclude the possibility that the only place they can move for improving their international position is through reconciliation with the USSR."'
+      n: '[[w.chang-friends-and-enemies]], 274 ("At about the same time"). Made public: 1990 ([[w.chang-friends-and-enemies]], 274). To check: SecState to Johnson, n.d., draft memo, "New Approach to Trade and Transaction Controls with Communist China," quoted in SD, Administrative History, ch. 7, part C (cited by [[w.chang-friends-and-enemies]], 274 n.45c). Names: Rusk, Johnson. Check: the date; the memorandum is undated.'
+      src:
+        c: 9e3d096a
+        rows:
+        - 'w.chang-friends-and-enemies 274: all'
+        - 'via x.1966.rusk-to-johnson-new-approach-trade-controls-china: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:rusk-dean
+      - name:johnson-lyndon-b
+      - ok:fields-at
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966.china-3
+      when: 1966, after the July speech
+      date: '1966'
+      at: before 1966-08
+      thread: china
+      c: The administration relaxes its ban on travel to China.
+      n: '[[w.chang-friends-and-enemies]], 273 ("Soon"). Check: the day.'
+      src:
+        c: 2792fbd3
+        rows:
+        - 'w.chang-friends-and-enemies 273: all'
+      tags:
+      - polity:us
+- add:
+    entry:
+      id: cal.1966-08-03.china
+      when: Aug. 3
+      date: '1966-08-03'
+      thread: china
+      c: 'Jenkins to Rostow, of Rusk: "On the one issue of China, his style scares me."'
+      n: '[[w.chang-friends-and-enemies]], 272. Made public: 1990 ([[w.chang-friends-and-enemies]], 272). To check: Jenkins to Rostow, Aug. 3, 1966, Johnson Papers, NSF, CF, China, box 239 (cited by [[w.chang-friends-and-enemies]], 272 n.39b). Names: Jenkins, Rostow, Rusk.'
+      src:
+        c: 10cdffb7
+        rows:
+        - 'w.chang-friends-and-enemies 272: all'
+        - 'via x.1966-08-03.jenkins-to-rostow: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:jenkins-alfred-les
+      - name:rostow-walt-w
+      - name:rusk-dean
+- add:
+    entry:
+      id: cal.1966.china-4
+      when: 1966, from September
+      date: '1966'
+      at: before 1966-09
+      thread: china
+      c: At the Warsaw talks the American representatives end any mention of Chinese Communist designs on Asia.
+      n: '[[w.chang-friends-and-enemies]], 273. Made public: 1990 ([[w.chang-friends-and-enemies]], 273). To check: Jenkins to Rostow, Sept. 1, 1966, Johnson Papers, NSF, CF, China, box 240 (cited by [[w.chang-friends-and-enemies]], 273 n.42b).'
+      src:
+        c: 4a6b2773
+        rows:
+        - 'w.chang-friends-and-enemies 273: all'
+      tags:
+      - polity:us
+      - vis:only:us+prc
+      place: warsaw
+- add:
+    entry:
+      id: cal.1966.china-5
+      when: 1966, about September
+      date: '1966'
+      at: before 1966-09
+      thread: china
+      c: The State Department authorizes selected diplomats to seek, discreetly, "informal social contacts with the Chinese Communists," to learn of their officials.
+      n: '[[w.chang-friends-and-enemies]], 273. Made public: 1990 ([[w.chang-friends-and-enemies]], 273). Check: the day; Chang gives "At the same time" as the change at Warsaw.'
+      src:
+        c: 35ada09b
+        rows:
+        - 'w.chang-friends-and-enemies 273: all'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1966.china-6
+      when: 1966, about September
+      date: '1966'
+      at: before 1966-09
+      thread: china
+      c: The Defense Department decides to endorse moving toward a two-China policy in the United Nations.
+      n: '[[w.chang-friends-and-enemies]], 273. Made public: 1990 ([[w.chang-friends-and-enemies]], 273). Check: the day.'
+      src:
+        c: 7488683c
+        rows:
+        - 'w.chang-friends-and-enemies 273: all'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1966-09-10.vietnam
+      when: Sept. 10
+      date: '1966-09-10'
+      thread: vietnam
+      also:
+      - soviet-union
+      c: 'As the *New York Times* reports it: Western diplomats in Moscow find that North Vietnam has moved "into the Soviet political sphere," away from China.'
+      n: '[[w.chang-friends-and-enemies]], 278. To check: the *New York Times*, Sept. 10, 1966, 1 (cited by [[w.chang-friends-and-enemies]], 278 n.51).'
+      src:
+        c: b6aa5ff7
+        rows:
+        - 'w.chang-friends-and-enemies 278: all'
+        - 'via x.1966-09-10.new-york-times: all'
+      tags:
+      - polity:us
+      - polity:ussr
+      - polity:drv
+      - form:state
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-11.china
+      when: Nov.
+      date: 1966-11
+      thread: china
+      also:
+      - testing
+      - soviet-union
+      c: American officials discuss among themselves, in secret, whether to cooperate with the Soviets in a strike on China's nuclear facilities.
+      n: '[[w.chang-friends-and-enemies]], 275. Made public: 1990 ([[w.chang-friends-and-enemies]], 275). To check: various memos by John Roche, Nov. 1966, Johnson Papers, NSF, CF, China, box 241 (cited by [[w.chang-friends-and-enemies]], 275 n.46c).'
+      src:
+        c: b5c5a0c5
+        rows:
+        - 'w.chang-friends-and-enemies 275: all'
+        - 'via x.1966-11.roche-memos-china: ?'
+      tags:
+      - polity:us
+      - vis:only:us
+- add:
+    entry:
+      id: cal.1966-12-06.soviet-union
+      when: Dec. 6
+      date: '1966-12-06'
+      thread: soviet-union
+      also:
+      - vietnam
+      c: 'Kosygin to the press: he would like to develop the "community of interests" between the United States and the Soviet Union, if only the war in Vietnam could be ended.'
+      n: '[[w.chang-friends-and-enemies]], 275. Names: Kosygin.'
+      src:
+        c: 17d20a2a
+        rows:
+        - 'w.chang-friends-and-enemies 275: all'
+      tags:
+      - polity:ussr
+      - name:kosygin-aleksei
+- add:
+    entry:
+      id: cal.1966-12-10.china
+      when: Dec. 10
+      date: '1966-12-10'
+      thread: china
+      also:
+      - soviet-union
+      c: Chen Yi condemns the Soviet Union for plotting "world domination with the United States" and threatening a joint Soviet-American attack on China.
+      n: '[[w.chang-friends-and-enemies]], 275. Names: Chen Yi.'
+      src:
+        c: 696f565b
+        rows:
+        - 'w.chang-friends-and-enemies 275: all'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1966.soviet-union-3
+      when: 1966, by the year's end
+      date: '1966'
+      thread: soviet-union
+      also:
+      - china
+      - vietnam
+      c: The Soviets condemn what they call American-Chinese collusion against North Vietnam.
+      n: '[[w.chang-friends-and-enemies]], 273. To check: [[w.gittings-survey-of-the-sino]], 259–60 (cited by [[w.chang-friends-and-enemies]], 273 n.42d).'
+      src:
+        c: 6cc9eddc
+        rows:
+        - 'w.chang-friends-and-enemies 273: all'
+      tags:
+      - polity:ussr
+      - ok:fields-at
+- add:
+    entry:
+      id: cal.1967-01.china-2
+      when: Jan., late
+      date: 1967-01
+      at: before 1967-01-21
+      thread: china
+      also:
+      - soviet-union
+      - india-and-china-cultural-revolution
+      c: Peking. For days tens of thousands of demonstrators surround the Soviet embassy, its walls posted "Shoot Brezhnev" and "Fry Kosygin."
+      n: '[[w.chang-friends-and-enemies]], 277. To check: U.S., *China and U.S. Far East Policy*, 219; [[w.medvedev-china-and-the-superpowers]], 40–47 (cited by [[w.chang-friends-and-enemies]], 277 n.48a–b). Names: Brezhnev, Kosygin.'
+      src:
+        c: 31be8fc3
+        rows:
+        - 'w.chang-friends-and-enemies 277: all'
+      tags:
+      - polity:prc
+      - polity:ussr
+      - name:brezhnev-leonid
+      - name:kosygin-aleksei
+      place: peking
+- add:
+    entry:
+      id: cal.1967-03-15.china
+      when: Mar. 15
+      date: '1967-03-15'
+      thread: china
+      also:
+      - soviet-union
+      c: 'Denny, of INR, to Rusk: the Kremlin believes Peking regards "Moscow and not the West as its major enemy."'
+      n: '[[w.chang-friends-and-enemies]], 277 ("By March 1967 U.S. intelligence officials concluded"). Made public: 1990 ([[w.chang-friends-and-enemies]], 277). To check: Denny to Rusk, Mar. 15, 1967, Johnson Papers, NSF, CF, China, box 241, Memos (9) 3/67–6/67 (cited by [[w.chang-friends-and-enemies]], 277 n.48c). Names: Rusk.'
+      src:
+        c: 2903e837
+        rows:
+        - 'w.chang-friends-and-enemies 277: all'
+        - 'via x.1967-03-15.denny-to-rusk: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:rusk-dean
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-04-07.china
+      when: Apr. 7
+      date: '1967-04-07'
+      thread: china
+      also:
+      - india-and-china-cultural-revolution
+      c: Goodpaster briefs Eisenhower for Johnson. Eisenhower asks whether any of the "anti-Mao factions" have ties with Moscow; if so, perhaps the United States should "not be too anxious to see Mao defeated."
+      n: '[[w.chang-friends-and-enemies]], 282 ("In the spring of 1967"). Made public: 1990 ([[w.chang-friends-and-enemies]], 282). To check: Goodpaster memo, meeting with Eisenhower, Apr. 7, 1967, Johnson Papers, NSF, Names, box 2, Eisenhower (cited by [[w.chang-friends-and-enemies]], 282 n.58). Names: Goodpaster, Eisenhower, Johnson, Mao.'
+      src:
+        c: 25455d3a
+        rows:
+        - 'w.chang-friends-and-enemies 282: all'
+        - 'via x.1967-04-07.goodpaster-memo-meeting-eisenhower: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:goodpaster-andrew-j
+      - name:eisenhower-dwight-d
+      - name:johnson-lyndon-b
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-04-27.elections-1968
+      when: Apr. 27
+      date: '1967-04-27'
+      thread: elections-1968
+      also:
+      - china
+      c: 'Bowles, ambassador in India, to Rusk, on Nixon''s visit: Nixon would "stop falling all over ourselves" to improve relations with Russia, which would "make better relationships with China impossible"; Bowles disagrees, "the door to Moscow was ajar while the door to Peking was locked and bolted."'
+      n: '[[w.chang-friends-and-enemies]], 283. Made public: 1990 ([[w.chang-friends-and-enemies]], 283). To check: Bowles to Rusk, Apr. 27, 1967, Bowles Papers, box 336, folder 0187 (cited by [[w.chang-friends-and-enemies]], 283 n.62). Names: Bowles, Rusk, Nixon.'
+      src:
+        c: e6a9d50e
+        rows:
+        - 'w.chang-friends-and-enemies 283: all'
+        - 'via x.1967-04-27.bowles-to-rusk-nixon: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:bowles-chester
+      - name:rusk-dean
+      - name:nixon-richard-m
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-07-03.soviet-union
+      when: July 3
+      date: '1967-07-03'
+      thread: soviet-union
+      also:
+      - china
+      c: 'A CIA cable: a Soviet official tells American contacts in confidence that if things in China do not improve for the Soviet Union, Moscow will have to act against Peking; "Times have changed ... the Soviet Union would expect the United States to help."'
+      n: '[[w.chang-friends-and-enemies]], 275 ("The following summer"). Made public: 1990 ([[w.chang-friends-and-enemies]], 275). To check: CIA cable, July 3, 1967, Johnson Papers, NSF, CF, USSR, box 7, Cables (15) 4/67–5/67 (cited by [[w.chang-friends-and-enemies]], 275 n.47b); U.S., *China and U.S. Far East Policy*, 209 (cited by [[w.chang-friends-and-enemies]], 275 n.47c).'
+      src:
+        c: e969a9dd
+        rows:
+        - 'w.chang-friends-and-enemies 275: all'
+        - 'via x.1967-07-03.cia-cable-soviet-official-china: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-02-02.china
+      when: Feb. 2
+      date: '1968-02-02'
+      thread: china
+      c: 'The White House. A delegation of the new National Committee on United States-China Relations, Reischauer among them, with Johnson: induce Chiang to quit the offshore islands; widen the Warsaw talks; fewer trade restrictions; Peking seated in the United Nations, Taipei kept.'
+      n: '[[w.chang-friends-and-enemies]], 280. Made public: 1990 ([[w.chang-friends-and-enemies]], 280). To check: Jenkins memo, China Experts Meeting, Feb. 2, 1968, Johnson Papers, Special Files, Meeting Notes, box 2 (cited by [[w.chang-friends-and-enemies]], 280 n.55c). Names: Reischauer, Johnson, Chiang Kai-shek.'
+      src:
+        c: b7ce5bf1
+        rows:
+        - 'w.chang-friends-and-enemies 280: all'
+        - 'via x.1968-02-02.jenkins-memo-china-experts-meeting: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:reischauer-edwin-o
+      - name:johnson-lyndon-b
+      - name:chiang-kai-shek
+      place: washington
+- add:
+    entry:
+      id: cal.1968-02-22.china
+      when: Feb. 22
+      date: '1968-02-22'
+      thread: china
+      c: 'Rostow to Johnson, against the China experts'' proposals: "It takes two to play some games"; Peking not interested.'
+      n: '[[w.chang-friends-and-enemies]], 280. Made public: 1990 ([[w.chang-friends-and-enemies]], 280). To check: Rostow to Johnson, Feb. 22, 1968, Johnson Papers, WHCF, box 22, CO 50-2 (cited by [[w.chang-friends-and-enemies]], 280 n.56b). Names: Rostow, Johnson.'
+      src:
+        c: 0d0169dd
+        rows:
+        - 'w.chang-friends-and-enemies 280: all'
+        - 'via x.1968-02-22.rostow-to-johnson: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:rostow-walt-w
+      - name:johnson-lyndon-b
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-09.china
+      when: Sept.
+      date: 1968-09
+      thread: china
+      also:
+      - soviet-union
+      c: China, in public, lists the Soviet Union ahead of the United States as a threat.
+      n: '[[w.chang-friends-and-enemies]], 277 ("by September 1968, a month after the Soviet invasion of Czechoslovakia"). To check: [[w.sutter-china-watch]], 69; [[w.quested-sino-russian-relations]], 139 (cited by [[w.chang-friends-and-enemies]], 277 n.49). Check: the act and the day.'
+      src:
+        c: ff731f9f
+        rows:
+        - 'w.chang-friends-and-enemies 277: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-11.china-3
+      when: Nov., after the 25th
+      date: 1968-11
+      at: after 1968-11-25
+      thread: china
+      c: President-elect Nixon answers positively the Chinese wish to resume the Warsaw talks.
+      n: '[[w.chang-friends-and-enemies]], 287. Names: Nixon. Check: the day and how.'
+      src:
+        c: 00c40cec
+        rows:
+        - 'w.chang-friends-and-enemies 287: all'
+      tags:
+      - polity:us
+      - name:nixon-richard-m
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-02-05.china
+      when: Feb. 5
+      date: '1969-02-05'
+      thread: china
+      c: 'National Security Study Memorandum 14: Kissinger''s NSC staff to make a comprehensive review of China policy and of other approaches, one of Nixon''s first directives.'
+      n: '[[w.chang-friends-and-enemies]], 288. Made public: 1990 ([[w.chang-friends-and-enemies]], 288). To check: National Security Study Memorandum 14, Feb. 5, 1969, RG 273, National Archives (cited by [[w.chang-friends-and-enemies]], 288 n.5a); [[w.kissinger-white-house-years]], 182 (cited by [[w.chang-friends-and-enemies]], 288 n.5c). Names: Kissinger, Nixon.'
+      src:
+        c: 7ec790f1
+        rows:
+        - 'w.chang-friends-and-enemies 288: all'
+        - 'via x.1969-02-05.nssm-14-china-policy: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kissinger-henry-a
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1969-03.soviet-union-2
+      when: Mar., after the Ussuri clash
+      date: 1969-03
+      at: after 1969-03-02
+      thread: soviet-union
+      also:
+      - china
+      c: 'New York. Malik, the Soviet ambassador to the United Nations, on the clash: "Now those squint-eyed bastards will get a lesson they''ll never forget." By Shevchenko''s recollection.'
+      n: '[[w.chang-friends-and-enemies]], 285. Made public: 1985 ([[w.shevchenko-breaking-with-moscow]], 164–66, as Chang cites it). To check: [[w.shevchenko-breaking-with-moscow]], 164–66 (cited by [[w.chang-friends-and-enemies]], 285 n.1). Names: Malik.'
+      src:
+        c: ac81b33f
+        rows:
+        - 'w.chang-friends-and-enemies 285: all'
+      tags:
+      - polity:ussr
+      - vis:only:ussr
+      - name:malik-yakov-aleksandrovich
+      place: nyc
+- add:
+    entry:
+      id: cal.1969.soviet-union-4
+      when: 1969, after the March clashes
+      date: '1969'
+      at: before 1969-04
+      thread: soviet-union
+      also:
+      - china
+      c: 'Moscow. The Soviet leaders debate a nuclear strike to "once and for all get rid of the Chinese threat": Grechko for a massive attack with weapons of high fallout; others for limited operations against China''s nuclear facilities; the Politburo stalled for months. By Shevchenko''s account.'
+      n: '[[w.chang-friends-and-enemies]], 285. Made public: 1985 ([[w.shevchenko-breaking-with-moscow]], 164–66, as Chang cites it). To check: [[w.shevchenko-breaking-with-moscow]], 164–66 (cited by [[w.chang-friends-and-enemies]], 285 n.1). Names: Grechko.'
+      src:
+        c: 80549ef0
+        rows:
+        - 'w.chang-friends-and-enemies 285: all'
+      tags:
+      - polity:ussr
+      - vis:only:ussr
+      - name:grechko-andrei-a
+      place: moscow
+- add:
+    entry:
+      id: cal.1969-07-03.china
+      when: July 3
+      date: '1969-07-03'
+      thread: china
+      also:
+      - soviet-union
+      c: 'National Security Study Memorandum 63: a study of the Sino-Soviet differences and of what a military clash between the two would mean for American policy.'
+      n: '[[w.chang-friends-and-enemies]], 288 ("Several months later, as Sino-Soviet frictions escalated"). Made public: 1990 ([[w.chang-friends-and-enemies]], 288). To check: National Security Study Memorandum 63, July 3, 1969, RG 273, National Archives (cited by [[w.chang-friends-and-enemies]], 288 n.5b); Richard C. Thornton, "Strategic Change and American Foreign Policy," in Ilpyong J. Kim, ed., *The Strategic Triangle* (1987), 57–58 (cited by [[w.chang-friends-and-enemies]], 288 n.5d). Names: Nixon.'
+      src:
+        c: fdab6163
+        rows:
+        - 'w.chang-friends-and-enemies 288: all'
+        - 'via x.1969-07-03.nssm-63-sino-soviet-differences: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1969.china-7
+      when: 1969, mid-year
+      date: '1969'
+      at: before 1969-05
+      thread: china
+      also:
+      - soviet-union
+      c: Nixon and Kissinger arrive at the "revolutionary thesis" that a Soviet military smashing of China would not serve American interests.
+      n: '[[w.chang-friends-and-enemies]], 288 (by [[w.kissinger-white-house-years]], 182). Made public: 1979 ([[w.kissinger-white-house-years]], 182). To check: [[w.kissinger-white-house-years]], 182 (cited by [[w.chang-friends-and-enemies]], 288 n.5c). See [[cal.1969.china-2]]. Names: Nixon, Kissinger.'
+      src:
+        c: '64636099'
+        rows:
+        - 'w.chang-friends-and-enemies 288: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:nixon-richard-m
+      - name:kissinger-henry-a
+- add:
+    entry:
+      id: cal.1969.soviet-union-5
+      when: 1969, after the State Department's answer
+      date: '1969'
+      at: before 1969-09
+      thread: soviet-union
+      also:
+      - china
+      c: Dobrynin reports that the American government, by his discreet inquiries, is not sympathetic to a Soviet attack on China; the Soviet leaders drop a preemptive strike and take Brezhnev's course of fortifications and nuclear-armed troops along the border. By Shevchenko's account.
+      n: '[[w.chang-friends-and-enemies]], 285–86. Made public: 1985 ([[w.shevchenko-breaking-with-moscow]], 164–66, as Chang cites it). To check: [[w.shevchenko-breaking-with-moscow]], 164–66; [[w.sulzberger-coldest-war]] (cited by [[w.chang-friends-and-enemies]], 286 n.2a–b). Names: Dobrynin, Brezhnev. Check: the day; Chang does not date the report.'
+      src:
+        c: 0f8c68c8
+        rows:
+        - 'w.chang-friends-and-enemies 285–86: all'
+      tags:
+      - polity:ussr
+      - vis:only:ussr
+      - name:dobrynin-anatoly
+      - name:brezhnev-leonid
+- add:
+    entry:
+      id: cal.1962.testing
+      when: 1962, mid-year
+      date: '1962'
+      at: before 1962-05
+      thread: testing
+      also:
+      - china
+      c: Kennedy orders a review of the Western position on nuclear testing and the drafting of new treaty proposals.
+      n: '[[w.chang-friends-and-enemies]], 233. Made public: 1981 ([[w.seaborg-kennedy-khrushchev-and-the]], 162–71, as Chang cites it). To check: [[w.seaborg-kennedy-khrushchev-and-the]], 162–71 (cited by [[w.chang-friends-and-enemies]], 234 n.10b). Names: Kennedy. Check: the day.'
+      src:
+        c: bab932ce
+        rows:
+        - 'w.chang-friends-and-enemies 233: all'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1965-03-05.china-5
+      when: Mar. 5
+      date: '1965-03-05'
+      thread: china
+      also:
+      - vietnam
+      - soviet-union
+      c: Rostow, "Some Reflections on National Security Policy," for the Policy Planning Council.
+      n: '[[w.chang-friends-and-enemies]], 259 n.13 (cited with his draft of the Basic National Security Policy of 1962 for views Chang finds consistent through 1965: the split "definitely in the U.S. interest"; South Vietnam''s independence "critically important"). Made public: 1990 ([[w.chang-friends-and-enemies]], 259 n.13). To check: Rostow, "Some Reflections on National Security Policy," Mar. 5, 1965, Johnson Papers, box 1, NSF, Agency File-State, Policy Planning (4) (cited by [[w.chang-friends-and-enemies]], 259 n.13b). See [[cal.1962-03-26.defense]]. Names: Rostow. Check: which of the two papers holds the words Chang quotes on 259.'
+      tags:
+      - polity:us
+      - vis:only:us
+      - name:rostow-walt-w
+      - ok:fields-place
+      src:
+        c: a36c2e39
+        rows:
+        - 'w.chang-friends-and-enemies 259 n.13: all'
+        - 'via x.1965-03-05.rostow-some-reflections-national-security-policy: all'
+- cite:
+    id: cal.1960-04-16.china-leadership
+    item: '[[w.chang-friends-and-enemies]], 213–14 (in April 1960, for Lenin''s ninetieth anniversary, the CCP''s essays against "modern revisionism," the CPSU and Khrushchev not named; as printed in *Long Live Leninism*, 3d ed., 1960, 1–55, 214 n.22)'
+- to-check:
+    id: cal.1960-04-16.china-leadership
+    add: Interviews in China, 1985 (cited by [[w.chang-friends-and-enemies]], 214 n.23).
+- cite:
+    id: cal.1960-05-01.soviet-union
+    item: '[[w.chang-friends-and-enemies]], 215 (the plane shot down two weeks after "Long Live Leninism!" and its pilot captured; Khrushchev releases the news)'
+- to-check:
+    id: cal.1960-05-01.soviet-union
+    add: '[[w.ulam-expansion-and-coexistence]], 633–35; [[w.lafeber-america-russia-and-the]], 213–15; the *New York Times*, May 26, 1960, 1, 7 (Salisbury) (cited by [[w.chang-friends-and-enemies]], 215 n.24).'
+- cite:
+    id: cal.1960-05-11.soviet-union-u2-2
+    item: '[[w.chang-friends-and-enemies]], 215 (the President, unexpectedly, accepts responsibility for the flight)'
+- cite:
+    id: cal.1960-06-20.soviet-union
+    item: '[[w.chang-friends-and-enemies]], 215 (in June Khrushchev assails the Chinese party before the leading parties at the Romanian congress in Bucharest, most falling in line behind him)'
+- cite:
+    id: cal.1960-07.china
+    item: '[[w.chang-friends-and-enemies]], 216 (in July Khrushchev orders all Soviet technicians and advisers withdrawn and ends hundreds of agreements and contracts; almost 1,400 specialists leave, taking blueprints and plans)'
+- to-check:
+    id: cal.1960-07.china
+    add: '[[w.sino-soviet-dispute]], 132–40; [[w.schurmann-logic-of-world-power]], 311–12; [[w.nogee-soviet-foreign-policy-since]], 227; the *Renmin ribao*, Dec. 4 (no year given: 1,390 experts withdrawn, 343 contracts torn up, 257 items of cooperation annulled) (cited by [[w.chang-friends-and-enemies]], 216 n.25).'
+- cite:
+    id: cal.1960-06-18.japan-and-korea-far-east
+    item: '[[w.chang-friends-and-enemies]], 227 (Chiang to Eisenhower in Taipei: the theory of a Sino-Soviet split a Soviet trick to make the West believe in Moscow''s wish for détente and get Peking into the United Nations; if Mao opposed the Kremlin he would be overthrown)'
+- to-check:
+    id: cal.1960-06-18.japan-and-korea-far-east
+    add: Embassy, Taipei, to SecState, June 19, 1960, Eisenhower Library, WHO, Office of Staff Secretary, International Trips and Meetings, box 12 (cited by [[w.chang-friends-and-enemies]], 227 n.57).
+- cite:
+    id: cal.1960-08-17.elections-1960
+    item: '[[w.chang-friends-and-enemies]], 220 (Kennan to Kennedy: "Nothing is more important to us, in this coming period ... than to assure a divergence of outlook and policy as between the Russians and the Chinese")'
+- cite:
+    id: cal.1960-08-17.elections-1960
+    item: '[[w.chang-friends-and-enemies]], 230 (the main target of diplomacy, to heighten the divisive tendencies in the Soviet bloc, by better relations with Moscow; p. 7 of the letter, 230 n.3)'
+- cite:
+    id: cal.1960-08-17.elections-1960
+    item: '[[w.chang-friends-and-enemies]], 215 (Kennan concludes that the U-2 episode strengthened the Chinese in the bloc)'
+- cite:
+    id: cal.1960-10-07.elections-1960
+    item: '[[w.chang-friends-and-enemies]], 217 (in the televised debates Kennedy questions the value of the small islands to Taiwan''s defense, Nixon defends the Eisenhower record of 1958; neither presses it)'
+- cite:
+    id: cal.1960-10-13.elections-1960
+    item: '[[w.chang-friends-and-enemies]], 217 (the debates, Kennedy on the islands'' value; no debate named)'
+- cite:
+    id: cal.1960-11-12.transition-and-staff
+    item: '[[w.chang-friends-and-enemies]], 230 (Harriman sends the President-elect reports of his talks with Soviet leaders on their differences with Peking)'
+- cite:
+    id: cal.1960-11-15.transition-and-staff
+    item: '[[w.chang-friends-and-enemies]], 230 (the same; 230 n.3, 241 n.26)'
+- to-check:
+    id: cal.1961-11-15.vietnam
+    add: Notes on the NSC meeting, Nov. 15, 1961, Johnson Papers, VPSF, NSF, box 4, NSC (II) (cited by [[w.chang-friends-and-enemies]], 221 n.36b).
+- cite:
+    id: cal.1962.china-2
+    item: '[[w.chang-friends-and-enemies]], 225–26 (in the early summer of 1962 Chiang orders immediate, extensive efforts to put agents on the mainland and presses for American backing; the CIA''s top man in Taiwan flies to Washington to argue for an expanded Bay of Pigs-type operation; Felt favors Chiang''s plans)'
+- to-check:
+    id: cal.1962.china-2
+    add: Burris to Johnson, June 5, 1962, Johnson Papers, VPSF, Col. Burris, box 5; Bundy, Weekend Reading 4/20/62, Kennedy Papers, NSF, box 318; [[w.hilsman-to-move-a-nation]], 314, 317–18 (cited by [[w.chang-friends-and-enemies]], 226 n.52).
+- cite:
+    id: cal.1962-06-10.china-leadership
+    item: '[[w.chang-friends-and-enemies]], 226 (the PRC adds half a million men to its forces opposite Taiwan in June)'
+- cite:
+    id: cal.1962-06-20.china-2
+    item: '[[w.chang-friends-and-enemies]], 226 (after Kennedy meets his advisers on June 20, the United States tells the Nationalists, the Chinese Communists and the Soviets that it will neither encourage nor support a Nationalist attack, while upholding the defense of the territories the Nationalists hold, the offshore islands among them)'
+- to-check:
+    id: cal.1962-06-20.china-2
+    add: Notes, meeting of Kennedy et al., June 20, 1962, Hilsman Papers, box 1, China-Offshore Island Crisis 6/62, printed in [FRUS 1961–63, XXII, doc. 122](https://history.state.gov/historicaldocuments/frus1961-63v22/d122) (cited by [[w.chang-friends-and-enemies]], 226 n.53a); [[w.hilsman-to-move-a-nation]], 318–19 (cited by [[w.chang-friends-and-enemies]], 226 n.53c).
+- cite:
+    id: cal.1962-06-23.china-2
+    item: '[[w.chang-friends-and-enemies]], 226 (the American position told the Chinese Communists)'
+- cite:
+    id: cal.1962-10.china
+    item: '[[w.chang-friends-and-enemies]], 226 (as 1962 wore on, scores of twelve-man teams sent to the mainland, killed or captured, no rebellion)'
+- to-check:
+    id: cal.1962-10.china
+    add: Clough to State, Mar. 13, 1963, Johnson Papers, VPSF, Government Agencies, box 13; [[w.hilsman-to-move-a-nation]], 319 (cited by [[w.chang-friends-and-enemies]], 226 n.55).
+- cite:
+    id: cal.1961-02-11.soviet-union
+    item: '[[w.chang-friends-and-enemies]], 229–30 (Kennedy, Johnson, Rusk, Harriman, Thompson, Bohlen, Kennan and Bundy at the White House on "the thinking of the Soviet leadership": Khrushchev perhaps eager for a success with the West on arms control; after the United States, Germany and China the Soviet Union''s "great long-run worries"; restraining the Chinese "a continuing task of the Soviet government")'
+- to-check:
+    id: cal.1961-02-11.soviet-union
+    add: Bundy, "Notes on Discussion of the Thinking of the Soviet Leadership, Cabinet Room, Feb. 11, 1961," 1–6, Kennedy Papers, NSF, CF, box 176 (cited by [[w.chang-friends-and-enemies]], 230 n.3a); [[w.bohlen-witness-to-history-1929]], 475 (cited by [[w.chang-friends-and-enemies]], 230 n.3e).
+- cite:
+    id: cal.1961-04-29.laos
+    item: '[[w.chang-friends-and-enemies]], 232 (the administration already suspects Chinese involvement in the Laotian insurgency)'
+- to-check:
+    id: cal.1961-04-29.laos
+    add: Memorandum, meeting of Rusk, McNamara et al., Apr. 29, 1961, Kennedy Papers, NSF, CF, box 130, Laos-General (cited by [[w.chang-friends-and-enemies]], 232 n.7b).
+- cite:
+    id: cal.1961-06-03.berlin-and-vienna
+    item: '[[w.chang-friends-and-enemies]], 231–32 (Khrushchev firm for China''s U.N. seat and Taiwan; Kennedy''s proverb of the long journey''s first step; Khrushchev: Kennedy knows the Chinese well, so does he; Kennedy: the Soviets may get to know them "even better"; the day not given)'
+- to-check:
+    id: cal.1961-06-03.berlin-and-vienna
+    add: '[[w.sorensen-kennedy]], 548–49; [[w.schlesinger-thousand-days-1965]], 344 (cited by [[w.chang-friends-and-enemies]], 232 n.5).'
+- cite:
+    id: cal.1961-10.vietnam-force-levels
+    item: '[[w.chang-friends-and-enemies]], 232 (Kennedy to Krock in October 1961: the "domino theory" no longer valid; China bound to have the bomb, and then all Southeast Asia would fall to the Chinese Communists)'
+- to-check:
+    id: cal.1961-10.vietnam-force-levels
+    add: Memo 393, Krock Papers, Memoranda, book 3, 10/61 (cited by [[w.chang-friends-and-enemies]], 232 n.7a).
+- check:
+    id: cal.1961-10.vietnam-force-levels
+    text: 'Check: whether Krock''s memorandum 393, which Chang cites for the falling dominoes ([[w.chang-friends-and-enemies]], 232 n.7), records this talk.'
+- cite:
+    id: cal.1962-01-29.testing
+    item: '[[w.chang-friends-and-enemies]], 233 (the trilateral meetings at Geneva collapse altogether in January 1962)'
+- to-check:
+    id: cal.1962-01-29.testing
+    add: '[[w.divine-blowing-on-the-wind]]; [[w.bloomfield-khrushchev-and-the-arms]]; [[w.control-nuclear-arms-control]], 187–90 (cited by [[w.chang-friends-and-enemies]], 233 n.9).'
+- cite:
+    id: cal.1962-08-27.testing
+    item: '[[w.chang-friends-and-enemies]], 234 (Dean tables a comprehensive ban and a backup ban in the atmosphere, outer space and under water, the second almost the treaty of a year later; the Soviets reject both)'
+- to-check:
+    id: cal.1962-08-27.testing
+    add: '[[w.dean-test-ban-and-disarmament]], 90–91; [[w.jacobson-diplomats-scientists-and-politicians]], 397–413 (cited by [[w.chang-friends-and-enemies]], 234 n.11).'
+- cite:
+    id: cal.1960-02-13.testing
+    item: '[[w.chang-friends-and-enemies]], 235 (France''s first atomic device, February 1960)'
+- cite:
+    id: cal.1962-11-05.south-asia
+    item: '[[w.chang-friends-and-enemies]], 235 (in November Moscow takes a neutral attitude to China''s border fight with India)'
+- to-check:
+    id: cal.1962-11-05.south-asia
+    add: Hilsman to Rusk, Nov. 20, 1962, Hilsman Papers, box 1, India-Sino-Indian Border Clash, 1962 (cited by [[w.chang-friends-and-enemies]], 235 n.12a).
+- cite:
+    id: cal.1962-12-17.press-and-broadcasting
+    item: '[[w.chang-friends-and-enemies]], 235 n.12 (Kennedy links the worsening of Sino-Soviet relations to the American stand in the missile crisis; [1962 Pub. Papers 901–2](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf))'
+- cite:
+    id: cal.1963-01.china-2
+    item: '[[w.chang-friends-and-enemies]], 236 (early January, over dinner in the White House, as Tyler recalls; Kennedy hoped to bring France into arms talks)'
+- to-check:
+    id: cal.1963-01.china-2
+    add: William R. Tyler oral history, Mar. 7, 1964, 37–39, and Tyler to LaFeber, Dec. 10, 1971 (cited by [[w.chang-friends-and-enemies]], 236 n.14).
+- place:
+    id: cal.1963-01.china-2
+    at: washington
+    basis: n
+    note: 'Chang, 236: "Over dinner in the White House"'
+- cite:
+    id: cal.1963-02-08.testing
+    item: '[[w.chang-friends-and-enemies]], 237 (Kennedy: "the principal reason" for a treaty its possible effect on the spread of nuclear weapons, "particularly China"; he would accept some Soviet cheating on a comprehensive ban if China were denied the bomb)'
+- to-check:
+    id: cal.1963-02-08.testing
+    add: '[[w.seaborg-kennedy-khrushchev-and-the]], 188; [[w.dean-test-ban-and-disarmament]], 82 (cited by [[w.chang-friends-and-enemies]], 237 n.16).'
+- check:
+    id: cal.1963-06-08.testing
+    text: 'Check: Chang ([[w.chang-friends-and-enemies]], 239) has Khrushchev accept the tripartite conference on June 7.'
+- cite:
+    id: cal.1963-06-08.testing
+    item: '[[w.chang-friends-and-enemies]], 239 (on June 7 Khrushchev accepts the high-level tripartite conference Kennedy and Macmillan proposed in April)'
+- cite:
+    id: cal.1963-06-10.testing
+    item: '[[w.chang-friends-and-enemies]], 239 (the speech reveals Khrushchev''s acceptance; the Soviets print and broadcast it whole)'
+- cite:
+    id: cal.1963-06-14.china-leadership
+    item: '[[w.chang-friends-and-enemies]], 240 (the Chinese party''s letter of June 14 to the CPSU''s Central Committee, setting out the differences between the parties)'
+- cite:
+    id: cal.1963-07-02.testing
+    item: '[[w.chang-friends-and-enemies]], 241 (Khrushchev ready to accept a limited ban, with a non-aggression pact between NATO and the Warsaw Pact signed at the same time)'
+- cite:
+    id: cal.1963-07-09.testing
+    item: '[[w.chang-friends-and-enemies]], 248 (Taylor, two days before Harriman was to leave, questions even a limited treaty at a White House meeting with the President; the Chiefs want more study; Kennedy rebuffs him; by [[w.seaborg-kennedy-khrushchev-and-the]], 228–29)'
+- check:
+    id: cal.1963-07-09.testing
+    text: 'Check: whether Taylor''s objection that Chang places "two days before Harriman was to leave for Moscow" ([[w.chang-friends-and-enemies]], 248) was made at this meeting.'
+- cite:
+    id: cal.1963-07-14.soviet-union
+    item: '[[w.chang-friends-and-enemies]], 241–42 (the day Zorin welcomes Harriman to Moscow the CPSU''s letter against the Chinese is on Pravda''s first page)'
+- to-check:
+    id: cal.1963-07-14.soviet-union
+    add: '*Time*, July 19, 1963, 24–25; the *New York Times*, July 14, 1963, 1, 3, July 15, 1, July 16, 1963, 1, 3; *Peking Review*, July 19, 1963, 10 (cited by [[w.chang-friends-and-enemies]], 242 n.27).'
+- cite:
+    id: cal.1963-07-15.testing
+    item: '[[w.chang-friends-and-enemies]], 242 (Khrushchev himself opens the talks, three and a half hours, "relaxed and jovial" by the press, China among the matters)'
+- cite:
+    id: cal.1963-07-26.testing
+    item: '[[w.chang-friends-and-enemies]], 247 (Kennedy refers to China several times, quotes Khrushchev that the Chinese "would envy the dead," and ends with the proverb of a journey of a thousand miles)'
+- cite:
+    id: cal.1963-08-15.testing
+    item: '[[w.chang-friends-and-enemies]], 249 (Taylor: certain military disadvantages, but "major political achievements" with "important and favorable military implications")'
+- cite:
+    id: cal.1963-08-15.testing
+    item: '[[w.chang-friends-and-enemies]], 251 (Taylor during the hearings: no evidence the Chinese believed they would gain from a nuclear war; "a pretty hardheaded group of Chinese in Peking")'
+- cite:
+    id: cal.1963-08-19.testing
+    item: '[[w.chang-friends-and-enemies]], 249 (LeMay before Stennis: Rusk and Harriman''s biggest advantage "if we could really divide the Chinese and Russians"; Wheeler: "always a sound military principle to divide your enemies"; Khrushchev "would enjoy seeing the Chinese Communists get a bloody nose"; McDonald alike)'
+- to-check:
+    id: cal.1963-08-19.testing
+    add: Senate Committee on Foreign Relations, *Nuclear Test Ban Treaty*, 274–75, 397; Senate Preparedness Investigating Subcommittee, *Military Aspects*, 676–77, 707, 738 (cited by [[w.chang-friends-and-enemies]], 249 n.43a–b).
+- cite:
+    id: cal.1964-09-15.china
+    item: '[[w.chang-friends-and-enemies]], 250 (Bundy''s memorandum of the luncheon at State and the meeting with the President in the Cabinet Room: no unprovoked unilateral strike now; joint action with the Soviets, "even a possible agreement to cooperate in preventive military action"; Rusk to sound Dobrynin; the President''s approval)'
+- to-check:
+    id: cal.1964-09-15.china
+    add: '[[w.dulles-american-policy-toward-communist]], 222–23 (Stewart Alsop and Rivers call in public for strikes at about this time); [[w.segal-great-power-triangle]], 127 (the Gilpatric panel and a "surgical strike") (cited by [[w.chang-friends-and-enemies]], 250 n.45b–c).'
+- cite:
+    id: cal.1964-10-16.testing
+    item: '[[w.chang-friends-and-enemies]], 250 (China''s first device, Oct. 16; U.S. intelligence had predicted it to within days)'
+- cite:
+    id: cal.1964-10-15.soviet-union
+    item: '[[w.chang-friends-and-enemies]], 250 (at almost the same time Khrushchev replaced, officially for "health reasons")'
+- cite:
+    id: cal.1963-11-24.vietnam
+    item: '[[w.chang-friends-and-enemies]], 254 (Johnson to Lodge soon after taking office: "I am not going to lose Vietnam ... the President who saw Southeast Asia go the way China went")'
+- to-check:
+    id: cal.1963-11-24.vietnam
+    add: '[[w.schurmann-logic-of-world-power]], 460 (cited by [[w.chang-friends-and-enemies]], 254 n.2).'
+- cite:
+    id: cal.1964-01-27.europe-and-the-alliance
+    item: '[[w.chang-friends-and-enemies]], 261 (France, breaking with the ROC and recognizing the PRC, infuriates Washington)'
+- cite:
+    id: cal.1964-04-03.soviet-union
+    item: '[[w.chang-friends-and-enemies]], 259 (a leading Soviet official in April 1964: Peking would pit the yellow and black races "against the whites," "no different from Nazism")'
+- to-check:
+    id: cal.1964-04-03.soviet-union
+    add: '[[w.gittings-survey-of-the-sino]], 212–17; U.S., *China and U.S. Far East Policy, 1945–1966*, 137 (cited by [[w.chang-friends-and-enemies]], 259 n.14).'
+- cite:
+    id: cal.1964-09-09.vietnam
+    item: '[[w.chang-friends-and-enemies]], 256 (Wheeler: if the Communists win in South Vietnam, "country after country on the periphery would give way and look toward Communist China as the rising power"; Rusk agrees)'
+- to-check:
+    id: cal.1964-09-09.vietnam
+    add: Memo, meeting with Rusk, McNamara, and others on Sept. 9, 1964, Sept. 14, 1964, Johnson Papers, Special Files, Meeting Notes, box 1 (cited by [[w.chang-friends-and-enemies]], 256 n.6c); [[w.geyelin-lyndon-b-johnson-and]], 197; [[w.goldman-tragedy-of-lyndon-johnson]], 223 (cited by [[w.chang-friends-and-enemies]], 256 n.6a–b).
+- cite:
+    id: cal.1964-10-16.testing
+    item: '[[w.chang-friends-and-enemies]], 261 (Johnson: "its military significance should not be overestimated")'
+- variant:
+    id: cal.1965-02-06.soviet-union
+    unit: A
+    witness: w.chang-friends-and-enemies
+    reads: the bombing of the North begins "even as Soviet Foreign Minister Andrei Gromyko was visiting Hanoi"
+    at: '263'
+- cite:
+    id: cal.1965-07-27.vietnam
+    item: '[[w.chang-friends-and-enemies]], 268 (Rusk to the NSC: "no real reason for a basic difference between the U.S. and the U.S.S.R. on Vietnam ... At the other end of the spectrum was Peking")'
+- to-check:
+    id: cal.1965-07-27.vietnam
+    add: Bundy memo on the NSC's meeting of July 27, 1965, Johnson Papers, Special File, Meeting Notes, box 1 (cited by [[w.chang-friends-and-enemies]], 268 n.27c).
+- cite:
+    id: cal.1965-09-03.china
+    item: '[[w.chang-friends-and-enemies]], 269 (Lin Biao''s essay; the "rural areas" of Asia, Africa and Latin America to encircle the "cities" of North America and Europe; Rusk repeatedly likens it to *Mein Kampf*)'
+- to-check:
+    id: cal.1965-09-03.china
+    add: '[[w.zagoria-vietnam-triangle]], 78; [[w.cohen-dean-rusk]], 285–86 (cited by [[w.chang-friends-and-enemies]], 269 n.33); [[w.d-p-mozingo-and]] (cited by [[w.chang-friends-and-enemies]], 270 n.34c).'
+- cite:
+    id: cal.1965-11-10.china-leadership-8
+    item: '[[w.chang-friends-and-enemies]], 267–68 ("United action is impossible with those who transpose enemies and friends"; the Soviet Union regards American imperialism "as its closest friend")'
+- to-check:
+    id: cal.1965-11-10.china-leadership-8
+    add: '*Refutation of the New Leaders of the CPSU on "United Action"* (Peking, 1965), 10; [[w.gittings-survey-of-the-sino]], 254–55 (cited by [[w.chang-friends-and-enemies]], 268 n.26).'
+- cite:
+    id: cal.1965-11-27.vietnam-pause
+    item: '[[w.chang-friends-and-enemies]], 268 (a pause in Rolling Thunder considered, among its hopes that Moscow could press Hanoi to negotiate)'
+- cite:
+    id: cal.1965-12-18.vietnam-pause
+    item: '[[w.chang-friends-and-enemies]], 268 (the meeting with advisers on the pause)'
+- to-check:
+    id: cal.1965-12-18.vietnam-pause
+    add: Memo, meeting with advisers on bombing pause, Dec. 18, 1965, Johnson Papers, Special Files, Meeting Notes, box 1 (cited by [[w.chang-friends-and-enemies]], 268 n.28c).
+- cite:
+    id: cal.1966-01-27.vietnam-pause
+    item: '[[w.chang-friends-and-enemies]], 270 (Rusk, McNamara and others fear an American clash with China)'
+- to-check:
+    id: cal.1966-01-27.vietnam-pause
+    add: Memo on meeting with advisers on resumption of bombing, Jan. 27, 1966, Johnson Papers, Special Files, Meeting Notes, box 1; Bundy to Johnson, Dec. 3, 1965, NSF, Aides, box 5 (cited by [[w.chang-friends-and-enemies]], 270 n.34a–b).
+- to-check:
+    id: cal.1966-01-28.vietnam-pause
+    add: Memo on meeting with advisers on resumption of bombing, Jan. 28, 1966, Johnson Papers, Special Files, Meeting Notes, box 1 (cited by [[w.chang-friends-and-enemies]], 275 n.47a).
+- cite:
+    id: cal.1966-01-28.vietnam-congress
+    item: '[[w.chang-friends-and-enemies]], 260 (Rusk: "although Hanoi is the prime actor ... it is the policy of Peking that has greatly stimulated Hanoi"; Peking''s doctrines "perhaps the most important single problem of peace"; a foreign minister "on the other side of the [iron] curtain" agrees)'
+- to-check:
+    id: cal.1966-01-28.vietnam-congress
+    add: '[[w.vietnam-hearings]], 4–5, 18, 21 (cited by [[w.chang-friends-and-enemies]], 260 n.15).'
+- cite:
+    id: cal.1966-03-08.india-and-china
+    item: '[[w.chang-friends-and-enemies]], 273–74 (the Fulbright committee''s hearings on China policy in March 1966, Barnett, Schwartz, Fairbank, Scalapino and Morgenthau among the witnesses, most for softening the approach to the PRC; Taylor and Judd against)'
+- to-check:
+    id: cal.1966-03-08.india-and-china
+    add: U.S., Senate Committee on Foreign Relations, *U.S. Policy with Respect to Mainland China* (cited by [[w.chang-friends-and-enemies]], 274 n.43b).
+- cite:
+    id: cal.1966-07-12.india-and-china
+    item: '[[w.chang-friends-and-enemies]], 273 (the most conciliatory gesture to China by a President in fifteen years: "reconciliation between nations that now call themselves enemies"; "Cooperation, not hostility")'
+- to-check:
+    id: cal.1966-07-12.india-and-china
+    add: Lyndon Johnson, "The Essentials for Peace in Asia," July 12, 1966, in U.S., *China and U.S. Far East Policy*, 331 (cited by [[w.chang-friends-and-enemies]], 273 n.42a); [[w.gittings-survey-of-the-sino]], 259–60 (cited by [[w.chang-friends-and-enemies]], 273 n.42d).
+- cite:
+    id: cal.1966-10-10.soviet-union
+    item: '[[w.chang-friends-and-enemies]], 275 (Gromyko tells Johnson and Rusk of the Soviets'' growing concern at China''s military threat; the talks, by an American official, the "most direct, honest, objective and non-ideological in several years")'
+- check:
+    id: cal.1966-10-10.soviet-union
+    text: 'Check: Chang ([[w.chang-friends-and-enemies]], 275) puts Gromyko''s talks with Johnson and Rusk "in late November 1966," citing the *New York Times*, Nov. 22, 1966, 1.'
+- to-check:
+    id: cal.1966-10-10.soviet-union
+    add: The *New York Times*, Nov. 22, 1966, 1; U.S., *China and U.S. Far East Policy*, 208 (cited by [[w.chang-friends-and-enemies]], 275 n.46a–b).
+- cite:
+    id: cal.1966-10-27.china-leadership
+    item: '[[w.chang-friends-and-enemies]], 279 (China''s fourth nuclear device, carried some 400 miles on a missile)'
+- cite:
+    id: cal.1967-01-30.vietnam-congress
+    item: '[[w.chang-friends-and-enemies]], 280–81 (Kennan finds the Cultural Revolution repugnant, China "ugly and menacing," its leaders "divorced from reality"; détente with Moscow "essential," even an alliance against China a future possibility)'
+- to-check:
+    id: cal.1967-01-30.vietnam-congress
+    add: U.S., Senate Committee on Foreign Relations, *The Communist World in 1967*, 7–15 (cited by [[w.chang-friends-and-enemies]], 281 n.57a).
+- cite:
+    id: cal.1967-04-29.vietnam-congress
+    item: '[[w.chang-friends-and-enemies]], 280 (Mansfield: the road to a settlement runs "by way of Peking rather than Moscow"; a "clearly conciliatory approach to China," Mansfield himself sent to Peking)'
+- to-check:
+    id: cal.1967-04-29.vietnam-congress
+    add: Mansfield to Johnson, Apr. 29, 1967, Johnson Papers, NSF, Names, boxes 5–6, Mansfield (cited by [[w.chang-friends-and-enemies]], 280 n.55a).
+- cite:
+    id: cal.1967-06-23.soviet-union
+    item: '[[w.chang-friends-and-enemies]], 279 (a Soviet leader to Johnson: "How would you feel ... if there were a billion Chinese in Canada who had nuclear weapons"; by Rostow''s interview with the author)'
+- to-check:
+    id: cal.1967-06-23.soviet-union
+    add: Interview with Walt W. Rostow, 1985 (cited by [[w.chang-friends-and-enemies]], 279 n.53).
+- cite:
+    id: cal.1967-10.elections-1968
+    item: '[[w.chang-friends-and-enemies]], 283–84 (China not "forever outside the family of nations"; "firm restraint ... no reward ... creative counterpressure"; an alliance with the Soviet Union against China rejected as racist in its connotation)'
+- to-check:
+    id: cal.1967-10.elections-1968
+    add: '[[w.nixon-asia-after-viet-nam]], 122, 123 (cited by [[w.chang-friends-and-enemies]], 284 n.63).'
+- cite:
+    id: cal.1968-07-25.elections-1968-4
+    item: '[[w.chang-friends-and-enemies]], 282 ("In a subtle triangle of relations between Washington, Peking, and Moscow, we improve the possibilities of accommodations with each as we increase our options toward both"; Kissinger later claims the approach)'
+- to-check:
+    id: cal.1968-07-25.elections-1968-4
+    add: '[[w.kissinger-white-house-years]], 164–65 (cited by [[w.chang-friends-and-enemies]], 282 n.59).'
+- cite:
+    id: cal.1968-11-25.china
+    item: '[[w.chang-friends-and-enemies]], 287 (in November Chinese emissaries at Warsaw notify the United States that Peking wants to resume the talks, suspended for a year)'
+- cite:
+    id: cal.1969-03-02.china-leadership-5
+    item: '[[w.chang-friends-and-enemies]], 277 (Chinese and Soviet troops clash around Zhenbao Island in the Ussuri, scores killed or wounded)'
+- cite:
+    id: cal.1969-11-03.vietnam
+    item: '[[w.chang-friends-and-enemies]], 288 (Nixon: the United States "shall provide a shield if a nuclear power threatens the freedom of a nation allied with us or of a nation whose survival we consider vital to our security"; the Soviet Union and China meant, not named)'
+- check:
+    id: cal.1969-11-03.vietnam
+    text: 'Check: Chang ([[w.chang-friends-and-enemies]], 288) calls it "a November 1969 speech on Guam"; the Guam remarks were of July 25 ([[cal.1969-07-25.vietnam]]).'
+- cite:
+    id: cal.1963-04-24.testing
+    item: '[[w.chang-friends-and-enemies]], 239 (the proposal Kennedy and Macmillan made to Khrushchev in a secret message in April for a high-level tripartite conference)'
+- cite:
+    id: cal.1963-07-21.china-leadership
+    item: '[[w.chang-friends-and-enemies]], 246 (the whole leadership at the Peking airport gives Deng a hero''s welcome; Chang has the delegation leave Moscow on the evening of July 20)'
+- cite:
+    id: cal.1962-06-27.court
+    item: '[[w.chang-friends-and-enemies]], 226 (Kennedy''s public statement of the administration''s stand in the Taiwan Strait; the day not given)'
+- cite:
+    id: cal.1963-06-23.europe-and-the-alliance
+    item: '[[w.chang-friends-and-enemies]], 240, 243 (in Germany in late June, Kennedy to Adenauer: Khrushchev has a real problem with the Chinese and no way to bring them into a test ban; by Rusk''s cable of June 25, 240 n.23)'
+- to-check:
+    id: cal.1963-06-23.europe-and-the-alliance
+    add: Rusk to SD (cable), June 25, 1963, FOIA release (cited by [[w.chang-friends-and-enemies]], 240 n.23, 243 n.30a).
+- cite:
+    id: cal.1967-03.europe-and-the-alliance
+    item: '[[w.chang-friends-and-enemies]], 283 (in Europe in March Nixon hears officials attack the belief that Moscow wants reconciliation with the West; Adenauer: to counterbalance the Soviet threat the United States should lean toward China)'
+- to-check:
+    id: cal.1967-03.europe-and-the-alliance
+    add: Robert Scheer, "Nixon Urges Sharing Data on 'Star Wars,'" *Los Angeles Times*, July 1, 1984, part 1, 6 (cited by [[w.chang-friends-and-enemies]], 283 n.61).
+- cite:
+    id: cal.1967-04-30.vietnam-congress
+    item: '[[w.chang-friends-and-enemies]], 280 (Rusk resists Mansfield''s going to Peking; by Rostow, "the Soviet Union would be upset and suspicious")'
+- cite:
+    id: cal.1969-08-13.soviet-union
+    item: '[[w.chang-friends-and-enemies]], 286 n.2 (by Kissinger: a Soviet embassy official to a middle-level State Department specialist in Soviet affairs, on the American reaction to a Soviet attack on China''s nuclear facilities; the encounter reported to the highest levels; dated Aug. 18, 1969)'
+- to-check:
+    id: cal.1969-08-13.soviet-union
+    add: '[[w.kissinger-white-house-years]], 183 (cited by [[w.chang-friends-and-enemies]], 286 n.2c).'
+- check:
+    id: cal.1969-08-13.soviet-union
+    text: 'Check: Chang ([[w.chang-friends-and-enemies]], 286 n.2), after Kissinger, also gives Aug. 18, 1969.'
+- cite:
+    id: cal.1962-03-26.defense
+    item: '[[w.chang-friends-and-enemies]], 258–59 (Rostow''s 284-page "Basic National Security Policy": the "diffusion of power"; a "certain mellowing" in Soviet policy since Stalin; China''s belligerence unlikely to ease soon, a "capability for directly harassing Communist China" to be kept; two Chinas; the split "definitely in the U.S. interest"; 258 n.12, 259 n.13)'
+- cite:
+    id: cal.1963-04.republican-party-3
+    item: '[[w.chang-friends-and-enemies]], 282–83 (the United States could not "take too much comfort" in the Sino-Soviet dispute; "victory" over communism, a "free China"; coexistence "another word for creeping surrender"; dated Apr. 20, 1963, Washington, by Chang''s Sources)'

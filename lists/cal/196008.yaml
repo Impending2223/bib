@@ -159,7 +159,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'At the Swiss Ambassador''s national day reception, Zhou Enlai says China will live in peace with all states and keep world peace, and proposes that the states of Asia and the Pacific coast, the United States included, sign a nonaggression peace pact and make the whole region free of nuclear weapons: a long-term aim, to be worked for.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 337 (Aug. 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 1, 1960; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 155 (Aug. 1, 1960; Zhou at the Swiss ambassador''s national-day reception: aggressive military blocs such as SEATO, which includes the United States, encircle China; China opposes it but still seeks peaceful coexistence; it proposes a mutual non-aggression pact of the Asian and Pacific coastal states, the United States included, and a nuclear-free region); [[w.chen-yi-nianpu]], 828 (Aug. 1, 1960, afternoon; the reception of 纳维义, the Swiss Ambassador; Chen Yi speaks, on neutral Switzerland''s efforts to ease tension). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 337 (Aug. 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 285 (Aug. 1, 1960; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 155 (Aug. 1, 1960; Zhou at the Swiss ambassador''s national-day reception: aggressive military blocs such as SEATO, which includes the United States, encircle China; China opposes it but still seeks peaceful coexistence; it proposes a mutual non-aggression pact of the Asian and Pacific coastal states, the United States included, and a nuclear-free region); [[w.chen-yi-nianpu]], 828 (Aug. 1, 1960, afternoon; the reception of 纳维义, the Swiss Ambassador; Chen Yi speaks, on neutral Switzerland''s efforts to ease tension); [[w.guan-vietnamese-communists-relations-with]], 159 (China''s fear of encirclement by a hostile bloc, SEATO; the pact of mutual nonaggression among the states of Asia and the Pacific, the United States among them, the region free of nuclear weapons). To check: NCNA, 1 August 1960, SWB/FE/400/A1/1 (cited by [[w.guan-vietnamese-communists-relations-with]], 159 n.23). Names: Zhou Enlai.'
     src:
       c: ea03cbc1
       rows:
@@ -167,6 +167,8 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 285: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 155: A'
         - 'w.chen-yi-nianpu 828: ?'
+        - 'w.guan-vietnamese-communists-relations-with 159: ?'
+        - 'via x.1960-08-01.ncna-fe-400-a1-1: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1960-08-01T04:00Z
@@ -298,6 +300,27 @@ entries:
       - 1960-08-01T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-08-01.vietnam-hanoi
+    when: Aug. 1
+    date: '1960-08-01'
+    place: hanoi
+    thread: vietnam-hanoi
+    c: The chairman of the International Commission visits Hanoi; he cannot see Giáp.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 158 n.16 (there was talk of Giáp in Algeria, unproved). To check: FO 371/152747, DV 1016/29, 26 August 1960, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 158 n.16). Names: Võ Nguyên Giáp.'
+    src:
+      rows:
+        - 'via x.1960-08-26.fo-152747-dv-1016-29: ?'
+    tags: [polity:drv, name:vo-nguyen-giap]
+  - id: cal.1960-08-01.china-leadership-11
+    when: Aug. 1
+    date: '1960-08-01'
+    thread: china-leadership
+    c: At the Swiss national day reception Chen Yi again stresses China's need "for a peaceful international environment for a long time to come."
+    n: '[[w.guan-vietnamese-communists-relations-with]], 159. To check: NCNA, 1 August 1960, SWB/FE/400/A1/1 (cited by [[w.guan-vietnamese-communists-relations-with]], 159 n.23). See [[cal.1960-08-01.china-leadership-3]]. Names: Chen Yi.'
+    src:
+      rows:
+        - 'via x.1960-08-01.ncna-fe-400-a1-1: ?'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
   - id: cal.1960-08-02.governors-mi
     when: Aug. 2
     date: '1960-08-02'
@@ -576,6 +599,17 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1569: all'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1960-08-03.soviet-union
+    when: Aug. 3
+    date: '1960-08-03'
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'As INR''s Intelligence Report no. 8307 has it: by a more militant foreign policy Moscow also hopes to undercut support for China in the bloc.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 164. Made public: 1997. To check: Department of State, Bureau of Intelligence and Research, Intelligence Report no. 8307, Aug. 3, 1960 (cited by [[w.guan-vietnamese-communists-relations-with]], 164 n.44).'
+    src:
+      rows:
+        - 'via x.1960-08-03.inr-intelligence-report-8307: ?'
+    tags: [form:state, polity:us, polity:ussr, ok:fields-place, vis:only:us]
   - id: cal.1960-08-04.middle-east
     when: Aug. 4
     date: '1960-08-04'
@@ -812,6 +846,13 @@ entries:
         - 'w.dikotter-maos-great-famine 105: all'
         - 'via w.dikotter-maos-great-famine 105 n.8: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-08-05.china-leadership-3
+    when: Aug. 5
+    date: '1960-08-05'
+    thread: china-leadership
+    c: Zhu De 朱德 talks with Mao Zedong 毛泽东.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1780. Made public: 2016. Names: Zhu De, Mao Zedong.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, vis:only:prc]
   - id: cal.1960-08-06.cuba
     when: Aug. 6
     date: '1960-08-06'
@@ -911,7 +952,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe, Building 95. The enlarged Politburo Standing Committee, Mao presiding, on the Soviet experts'' going and other matters: Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 6, 1960. [[w.deng-xiaoping-nianpu-1904]], III, 1570 (Aug. 6, 1960; afternoon; Deng at Mao''s enlarged Standing Committee on the Soviet experts'' withdrawal and other matters); [[w.peng-zhen-nianpu-1902]], IV, 49 (Aug. 6, 1960, afternoon; Peng Zhen at Mao''s enlarged Standing Committee on the Soviet experts'' withdrawal). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 6, 1960. [[w.deng-xiaoping-nianpu-1904]], III, 1570 (Aug. 6, 1960; afternoon; Deng at Mao''s enlarged Standing Committee on the Soviet experts'' withdrawal and other matters); [[w.peng-zhen-nianpu-1902]], IV, 49 (Aug. 6, 1960, afternoon; Peng Zhen at Mao''s enlarged Standing Committee on the Soviet experts'' withdrawal); [[w.zhu-de-nianpu-xinbian]], III, 1780 (Aug. 6, 1960; Zhu De 朱德 at the Politburo Standing Committee 中共中央政治局常委 meeting Mao Zedong 毛泽东 presides, on the Soviet experts'' going). Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc]
     time_range:
       - 1960-08-06T04:00Z
@@ -1066,6 +1107,14 @@ entries:
       - 1960-08-07T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-08-07.china-leadership-5
+    when: Aug. 7
+    date: '1960-08-07'
+    place: qinhuangdao
+    thread: china-leadership
+    c: Qinhuangdao 秦皇岛. Zhu De 朱德 inspects the new wharf and the Yaohua glass works 耀华玻璃厂.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1780. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1960-08-08.congress
     when: Aug. 8
     date: '1960-08-08'
@@ -1229,10 +1278,11 @@ entries:
   - id: cal.1960-08-09.laos
     when: Aug. 9
     date: '1960-08-09'
+    time: 1960-08-08T20:00Z
     place: vientiane
     thread: laos
     c: Kong Le's paratroop battalion takes Vientiane, the night of Aug. 8–9, the cabinet away at Luang Prabang.
-    n: 'FRUS 1958–60, XVI, docs. [355](https://history.state.gov/historicaldocuments/frus1958-60v16/d355), [359](https://history.state.gov/historicaldocuments/frus1958-60v16/d359) (NSC, Aug. 12), [361](https://history.state.gov/historicaldocuments/frus1958-60v16/d361). [[w.vietnam-victory-in-vietnam]], 86–87, 456 n.20 (the coup); [[w.watson-into-the-missile-age]], 650 (the coup, Aug. 9); [[w.marolda-united-states-navy-and]], 46 (the coup, Aug. 9); [[w.anthony-war-in-northern-laos]], 28–29; [[w.moyar-triumph-forsaken]], 117; [[w.fursenko-khrushchevs-cold-war]], 323 (Kong Le''s Second Battalion, trained by American advisers a week before in taking the capital at night); [[w.poole-joint-chiefs-of-staff]], 121; [[w.ball-past-has-another-pattern]], 362 (Kong Le, a young paratroop captain, seizes power and asks Souvanna to form a neutralist government; Ball gives no day); [[w.lich-su-khang-chien-chong-my]], III, 9 (Aug. 9, 1960, Capt. Kong Le, commanding the 2d Paratroop Battalion, overthrows the pro-American Phoumi Nosavan government; Vietnam is asked for help in the Lao resistance). To check: [[w.rust-before-the-quagmire]]; [[w.jacobs-universe-unraveling]]; [[w.dommen-conflict-in-laos]]; [[w.fall-anatomy-of-a-crisis]]; [[w.stevenson-end-of-nowhere]]; [[w.conboy-shadow-war]]; msg, AmEmb Vientiane to SECSTATE, 266, Aug 12, 1960 (cited by [[w.anthony-war-in-northern-laos]], 29 n.59a); memo, Dept of State (PA to PAI), subj: Visit to Vientiane, Sep 30, 1960, n.d., ca Oct 60 (cited by [[w.anthony-war-in-northern-laos]], 29 n.59b); rprt, AIRA Saigon, Semi-annual FWAIS Capabilities—Laos, Mar 22, 1961 (cited by [[w.anthony-war-in-northern-laos]], 29 n.59c); the Army attaché''s telegram 237 from Vientiane, 091715Z Aug. 1960, and the JUSMAG Thailand''s 7715, 101955Z Aug. 1960, OSD Hist. (cited by [[w.watson-into-the-missile-age]], 650 n.126). Names: Kong Le.'
+    n: 'FRUS 1958–60, XVI, docs. [355](https://history.state.gov/historicaldocuments/frus1958-60v16/d355), [359](https://history.state.gov/historicaldocuments/frus1958-60v16/d359) (NSC, Aug. 12), [361](https://history.state.gov/historicaldocuments/frus1958-60v16/d361). [[w.vietnam-victory-in-vietnam]], 86–87, 456 n.20 (the coup); [[w.watson-into-the-missile-age]], 650 (the coup, Aug. 9); [[w.marolda-united-states-navy-and]], 46 (the coup, Aug. 9); [[w.anthony-war-in-northern-laos]], 28–29; [[w.moyar-triumph-forsaken]], 117; [[w.fursenko-khrushchevs-cold-war]], 323 (Kong Le''s Second Battalion, trained by American advisers a week before in taking the capital at night); [[w.poole-joint-chiefs-of-staff]], 121; [[w.ball-past-has-another-pattern]], 362 (Kong Le, a young paratroop captain, seizes power and asks Souvanna to form a neutralist government; Ball gives no day); [[w.lich-su-khang-chien-chong-my]], III, 9 (Aug. 9, 1960, Capt. Kong Le, commanding the 2d Paratroop Battalion, overthrows the pro-American Phoumi Nosavan government; Vietnam is asked for help in the Lao resistance); [[w.guan-vietnamese-communists-relations-with]], 155 ("3:00 A.M. Vientiane time," the 2nd Paratroop Battalion under Capt. Kong Le; by the author''s sources, Kong Le of no party and acting on his own). To check: [[w.rust-before-the-quagmire]]; [[w.jacobs-universe-unraveling]]; [[w.dommen-conflict-in-laos]]; [[w.fall-anatomy-of-a-crisis]]; [[w.stevenson-end-of-nowhere]]; [[w.conboy-shadow-war]]; msg, AmEmb Vientiane to SECSTATE, 266, Aug 12, 1960 (cited by [[w.anthony-war-in-northern-laos]], 29 n.59a); memo, Dept of State (PA to PAI), subj: Visit to Vientiane, Sep 30, 1960, n.d., ca Oct 60 (cited by [[w.anthony-war-in-northern-laos]], 29 n.59b); rprt, AIRA Saigon, Semi-annual FWAIS Capabilities—Laos, Mar 22, 1961 (cited by [[w.anthony-war-in-northern-laos]], 29 n.59c); the Army attaché''s telegram 237 from Vientiane, 091715Z Aug. 1960, and the JUSMAG Thailand''s 7715, 101955Z Aug. 1960, OSD Hist; Vientiane Home Service in French, 9 August 1960, SWB/FE/406/B/1 (cited by [[w.guan-vietnamese-communists-relations-with]], 155 n.1); [[w.burchett-furtive-war]], 188–191 (cited by [[w.guan-vietnamese-communists-relations-with]], 155 n.2a); Senate Committee on Foreign Relations, top-secret hearings: briefing by Dean Rusk, Secretary of State, Feb. 28, 1961 (cited by [[w.guan-vietnamese-communists-relations-with]], 155 n.2b). (cited by [[w.watson-into-the-missile-age]], 650 n.126). Names: Kong Le.'
     src:
       c: 36d9ca5b
       rows:
@@ -1251,11 +1301,10 @@ entries:
         - 'w.poole-joint-chiefs-of-staff 121: A'
         - 'w.ball-past-has-another-pattern 362: ?'
         - 'w.lich-su-khang-chien-chong-my III, 9: A'
+        - 'w.guan-vietnamese-communists-relations-with 155: ?'
+        - 'via x.1960-08-09.vientiane-home-service-in-french-fe-406-b-1: ?'
     tags: [name:kong-le, place:vientiane]
     short: Kong Le
-    time_range:
-      - 1960-08-08T11:00Z
-      - 1960-08-08T23:00Z
     time_zone: Asia/Vientiane
   - id: cal.1960-08-09.congo
     when: Aug. 9
@@ -1427,6 +1476,67 @@ entries:
       - 1960-08-09T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-08-09.laos-2
+    when: Aug. 9
+    date: '1960-08-09'
+    place: vientiane
+    thread: laos
+    c: 'Vientiane radio. Kong Le''s Revolutionary Committee gives its reasons: to stop the civil war, end corruption among officials and commanders, and rid the country of foreign forces, the Americans'' above all, who bought officials and commanders; Laos to stay neutral, friendly with all.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 155. To check: Vientiane Home Service, 9 August 1960, SWB/FE/407/B/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 155 n.3). See [[cal.1960-08-09.laos]]. Names: Kong Le.'
+    src:
+      rows:
+        - 'via x.1960-08-09.vientiane-home-service-fe-407-b-2: ?'
+    tags: [polity:laos, name:kong-le]
+  - id: cal.1960-08-09.vietnam-diplomacy
+    when: Aug. 9
+    date: '1960-08-09'
+    time: 1960-08-09T02:00Z
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: VNA reports the coup at 2 a.m. GMT, from Vientiane radio as monitored.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 155. To check: BBC, Summary of World Broadcasts, Far East, SWB/FE/407/(i) (Aug. 9, 1960) (cited by [[w.guan-vietnamese-communists-relations-with]], 155 n.4). See [[cal.1960-08-09.laos]].'
+    src:
+      rows:
+        - 'via x.1960-08-09.swb-fe-407-i: ?'
+    tags: [polity:drv]
+    time_zone: Asia/Bangkok
+  - id: cal.1960-08-09.vietnam-diplomacy-2
+    when: Aug. 9
+    date: '1960-08-09'
+    time: 1960-08-09T11:00Z
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: 'Hanoi Radio first broadcasts the coup, 11 a.m. GMT: a summary of the Revolutionary Committee''s communiqués.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 155. To check: BBC, Summary of World Broadcasts, Far East, SWB/FE/407/(i) (Aug. 9, 1960) (cited by [[w.guan-vietnamese-communists-relations-with]], 155 n.4).'
+    src:
+      rows:
+        - 'via x.1960-08-09.swb-fe-407-i: ?'
+    tags: [polity:drv]
+    time_zone: Asia/Bangkok
+  - id: cal.1960-08-09.laos-3
+    when: Aug. 9
+    date: '1960-08-09'
+    thread: laos
+    c: The NLHX Central Committee's statement for the Revolutionary Committee, printed the same day in the *Lao Hak Xat Bulletin*.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 155 (VNA and NCNA report it only on Aug. 12; whether Hanoi or Peking approved it first not known; no report of the coup from Peking radio or NCNA monitored until Aug. 10). To check: NCNA, 12 August 1960, SWB/FE/410/B/10-11 (cited by [[w.guan-vietnamese-communists-relations-with]], 155 n.5).'
+    src:
+      rows:
+        - 'via x.1960-08-12.ncna-fe-410-b-10-11: ?'
+    tags: [polity:pathet-lao, polity:laos]
+  - id: cal.1960-08-09.laos-4
+    when: Aug. 9
+    date: '1960-08-09'
+    thread: laos
+    c: Morning. Souphanouvong, with Singkapo and Nouhak Phoumsavan, on foot toward Sam Neua since the escape, hears of the coup on their transistor radio; he is to go ahead as fast as he can and reach Kong Le.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 156 (by Souphanouvong''s account). To check: [[w.burchett-furtive-war]], 186–188 (cited by [[w.guan-vietnamese-communists-relations-with]], 156 n.6). Names: Souphanouvong, Kong Le.'
+    tags: [polity:pathet-lao, name:souphanouvong, name:kong-le, ok:fields-place]
+    time_range:
+      - 1960-08-08T23:00Z
+      - 1960-08-09T05:00Z
+    time_band: morning
+    time_zone: Asia/Vientiane
   - id: cal.1960-08-10.testing
     when: Aug. 10
     date: '1960-08-10'
@@ -1494,7 +1604,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Beidaihe, 11 a.m. The work conference''s last plenary session; Mao speaks. Hồ Chí Minh''s peacemaking "basically" welcome, his order of steps (the two parties, a preparatory committee, all the parties) the best of it. Ninety percent good people. At home: grain, autumn sowing wide and thin as well as close, come what may ("the mother marries when she will"), all rests on China.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 10, 1960. [[w.lengxi-shinian-lunzhan-1956-1966]], 339–343 (Mao''s closing words: the Sino-Soviet matter neither large nor small; 90 percent of Soviet people and experts good, to be seen off well; hold out ten years; then Deng (a year to catch breath, 2 billion rubles of exports next year, six regional bureaus of the Center) and Liu Shaoqi (revisionism a stage of Leninism''s growth)); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 492 (Aug. 10, 1960; Liu presides at the plenary session and speaks, summing up: the capital construction line compressed, agriculture put first for some years at least and industry to serve it; cadres'' labor, education joined to labor and a small gap between top and bottom pay to be kept up and handed down); [[w.yang-shangkun-riji]], I, 533 (Aug. 10, 1960; 11 a.m. to 3:30 p.m.; the conference ends; Mao speaks); [[w.deng-xiaoping-nianpu-1904]], III, 1570 (Aug. 10, 1960; Deng at the closing plenary: a year of difficulty, grain above all; no Party congresses in the provinces this year, as the local comrades wish; the Center''s strength on the international struggle, the localities'' on agriculture, industry, the market, the three antis; regional bureaus of the Center 中央局 set up, six strategic regions); [[w.mao-zedong-zhuan]], V, ch. 66 n.48 (Aug. 10: Mao''s last speech, an hour: 90 percent of the people good, Soviet people included; on the Soviet side hold out; at home, grain first, the field management, the autumn harvest and sowing; Deng Xiaoping announces his rest; at the close Deng Xiaoping announces that Mao is to stop work for a time, Liu Shaoqi presiding, Mao to look over only the reply to the CPSU''s notice; Mao agrees and asks to see fewer papers; Kang Sheng asks when Mao will read the added notes to the fourth volume of the *Selected Works*, Peng Zhen and Deng: no need). [[w.peng-zhen-nianpu-1902]], IV, 49–50 (Aug. 10, 1960, morning; Peng Zhen at the plenary, Mao presiding; Liu Shaoqi''s summing-up: capital construction cut, agriculture''s front line strengthened, industry, but for the advanced, to serve agriculture; Mao speaks, the conference ends). Made public: 1996. To check: Liu Shaoqi 刘少奇 and others, remarks at the Beidaihe Central Work Conference 北戴河中央工作会议, Aug. 10, 1960 (record 讲话记录): Deng Xiaoping''s announcement that Mao will rest, with Mao, Kang Sheng and Peng Zhen replying (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.48). Names: Mao Zedong, Hồ Chí Minh.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Aug. 10, 1960. [[w.lengxi-shinian-lunzhan-1956-1966]], 339–343 (Mao''s closing words: the Sino-Soviet matter neither large nor small; 90 percent of Soviet people and experts good, to be seen off well; hold out ten years; then Deng (a year to catch breath, 2 billion rubles of exports next year, six regional bureaus of the Center) and Liu Shaoqi (revisionism a stage of Leninism''s growth)); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 492 (Aug. 10, 1960; Liu presides at the plenary session and speaks, summing up: the capital construction line compressed, agriculture put first for some years at least and industry to serve it; cadres'' labor, education joined to labor and a small gap between top and bottom pay to be kept up and handed down); [[w.yang-shangkun-riji]], I, 533 (Aug. 10, 1960; 11 a.m. to 3:30 p.m.; the conference ends; Mao speaks); [[w.deng-xiaoping-nianpu-1904]], III, 1570 (Aug. 10, 1960; Deng at the closing plenary: a year of difficulty, grain above all; no Party congresses in the provinces this year, as the local comrades wish; the Center''s strength on the international struggle, the localities'' on agriculture, industry, the market, the three antis; regional bureaus of the Center 中央局 set up, six strategic regions); [[w.mao-zedong-zhuan]], V, ch. 66 n.48 (Aug. 10: Mao''s last speech, an hour: 90 percent of the people good, Soviet people included; on the Soviet side hold out; at home, grain first, the field management, the autumn harvest and sowing; Deng Xiaoping announces his rest; at the close Deng Xiaoping announces that Mao is to stop work for a time, Liu Shaoqi presiding, Mao to look over only the reply to the CPSU''s notice; Mao agrees and asks to see fewer papers; Kang Sheng asks when Mao will read the added notes to the fourth volume of the *Selected Works*, Peng Zhen and Deng: no need). [[w.peng-zhen-nianpu-1902]], IV, 49–50 (Aug. 10, 1960, morning; Peng Zhen at the plenary, Mao presiding; Liu Shaoqi''s summing-up: capital construction cut, agriculture''s front line strengthened, industry, but for the advanced, to serve agriculture; Mao speaks, the conference ends); [[w.zhu-de-nianpu-xinbian]], III, 1779 (Aug. 10, 1960; Zhu De 朱德 speaks to the plenary session). Made public: 1996. To check: Liu Shaoqi 刘少奇 and others, remarks at the Beidaihe Central Work Conference 北戴河中央工作会议, Aug. 10, 1960 (record 讲话记录): Deng Xiaoping''s announcement that Mao will rest, with Mao, Kang Sheng and Peng Zhen replying (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.48). Names: Mao Zedong, Hồ Chí Minh.'
     src:
       c: 84e09734
       rows:
@@ -1506,6 +1616,7 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 66 n.48: C, E-F'
         - 'via w.mao-zedong-zhuan V, ch.66 n.48: C, E-F'
         - 'w.peng-zhen-nianpu-1902 IV, 49–50: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1779: ?'
     tags: [polity:prc, name:mao-zedong, name:ho-chi-minh, vis:only:prc]
   - id: cal.1960-08-10.china-leadership-4
     when: Aug. 10
@@ -1576,6 +1687,33 @@ entries:
         - 'w.yang-shangkun-riji I, 534: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1960-08-10.laos
+    when: Aug. 10
+    date: '1960-08-10'
+    time: 1960-08-10T03:46Z
+    place: vientiane
+    thread: laos
+    c: 'Vientiane Home Service, 3:46 a.m. GMT: the military coup accomplished.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 156. To check: Vientiane Home Service in French, 10 August 1960, SWB/FE/408/B/3 (cited by [[w.guan-vietnamese-communists-relations-with]], 156 n.7).'
+    src:
+      rows:
+        - 'via x.1960-08-10.vientiane-home-service-in-french-fe-408-b-3: ?'
+    tags: [polity:laos]
+    time_zone: Asia/Vientiane
+  - id: cal.1960-08-10.vietnam-diplomacy
+    when: Aug. 10
+    date: '1960-08-10'
+    time: 1960-08-10T14:48Z
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Hanoi Radio, 2:48 p.m. GMT, a background talk on the Laotians' sufferings under the Somsanith government.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 156. To check: BBC, Summary of World Broadcasts, Far East, SWB/FE/408/(i) (Aug. 10, 1960) (cited by [[w.guan-vietnamese-communists-relations-with]], 156 n.8). Names: Somsanith.'
+    src:
+      rows:
+        - 'via x.1960-08-10.swb-fe-408-i: ?'
+    tags: [polity:drv, name:somsanith]
+    time_zone: Asia/Bangkok
   - id: cal.1960-08-11.defense
     when: Aug. 11
     date: '1960-08-11'
@@ -1751,6 +1889,46 @@ entries:
       - 1960-08-11T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-08-11.vietnam-diplomacy
+    when: Aug. 11
+    date: '1960-08-11'
+    time: 1960-08-10T23:17Z
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Hanoi Radio, a two-minute dispatch on the coup, quoting the Revolutionary Committee.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 156 ("11:17 P.M. (GMT)" of Aug. 10). To check: BBC, Summary of World Broadcasts, Far East, SWB/FE/408/(i) (Aug. 10, 1960) (cited by [[w.guan-vietnamese-communists-relations-with]], 156 n.8).'
+    src:
+      rows:
+        - 'via x.1960-08-10.swb-fe-408-i: ?'
+    tags: [polity:drv]
+    time_zone: Asia/Bangkok
+  - id: cal.1960-08-11.laos-2
+    when: Aug. 11
+    date: '1960-08-11'
+    thread: laos
+    c: Afternoon, a rally. Kong Le announces Souvanna Phouma chosen premier of the Revolutionary Government.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 156. Names: Kong Le, Souvanna Phouma.'
+    tags: [polity:laos, name:kong-le, name:souvanna-phouma, ok:fields-place]
+    time_range:
+      - 1960-08-11T05:00Z
+      - 1960-08-11T11:00Z
+    time_band: afternoon
+    time_zone: Asia/Vientiane
+  - id: cal.1960-08-11.vietnam-diplomacy-2
+    when: Aug. 11
+    date: '1960-08-11'
+    time: 1960-08-11T14:52Z
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: 'Hanoi Home Service, a commentary, 2:52 p.m.: the coup and the policy of peace and neutrality fit the Laotian people''s aspirations; the Vietnamese follow events and trust the Revolutionary Committee to reach its goals. Hanoi''s first direct word of support.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 156. To check: Hanoi Home Service, 11 August 1960, SWB/FE/409/B/5 (cited by [[w.guan-vietnamese-communists-relations-with]], 156 n.9).'
+    src:
+      rows:
+        - 'via x.1960-08-11.hanoi-home-service-fe-409-b-5: ?'
+    tags: [polity:drv]
+    time_zone: Asia/Bangkok
   - id: cal.1960-08-12.congo
     when: Aug. 12
     date: '1960-08-12'
@@ -1926,18 +2104,84 @@ entries:
       - 1960-08-12T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-08-12.china-leadership-8
+    when: Aug. 12
+    date: '1960-08-12'
+    time: 1960-08-11T17:12Z
+    place: peking
+    thread: china-leadership
+    also: [laos]
+    c: NCNA tells the local press that word of the coup is to be sent out.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 156 ("5:12 P.M. (GMT)" of Aug. 11). To check: BBC, Summary of World Broadcasts, Far East, SWB/FE/409/(i) (Aug. 11, 1960) (cited by [[w.guan-vietnamese-communists-relations-with]], 156 n.10).'
+    src:
+      rows:
+        - 'via x.1960-08-11.swb-fe-409-i: ?'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-12.china-leadership-9
+    when: Aug. 12
+    date: '1960-08-12'
+    time: 1960-08-11T18:20Z
+    place: peking
+    thread: china-leadership
+    also: [laos]
+    c: 'NCNA''s report of the coup: summaries of the Revolutionary Committee''s communiqués and messages, the anti-American parts of Kong Le''s statement stressed.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 156–157 ("6:20 P.M. (GMT)" of Aug. 11). To check: Hanoi Home Service, 11 August 1960, SWB/FE/409/B/5 (cited by [[w.guan-vietnamese-communists-relations-with]], 157 n.11). Names: Kong Le.'
+    src:
+      rows:
+        - 'via x.1960-08-11.hanoi-home-service-fe-409-b-5: ?'
+    tags: [polity:prc, name:kong-le]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-12.china-leadership-10
+    when: Aug. 12
+    date: '1960-08-12'
+    time: 1960-08-11T21:05Z
+    place: peking
+    thread: china-leadership
+    also: [laos]
+    c: 'Peking Home Service first mentions the coup, a news bulletin, the only foreign news: reports from Hanoi, Kong Le''s message to the people, the Laotian situation.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 156 ("9:05 P.M. (GMT)" of Aug. 11). To check: BBC, Summary of World Broadcasts, Far East, SWB/FE/409/(i) (Aug. 11, 1960) (cited by [[w.guan-vietnamese-communists-relations-with]], 156 n.10). Names: Kong Le.'
+    src:
+      rows:
+        - 'via x.1960-08-11.swb-fe-409-i: ?'
+    tags: [polity:prc, name:kong-le]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-12.china-leadership-11
+    when: Aug. 12
+    date: '1960-08-12'
+    place: peking
+    thread: china-leadership
+    also: [laos]
+    c: 'The Peking papers give the coup prominence: a Revolutionary Committee in power, for neutrality, against American interference, to end the civil war. Kong Le''s message to the nation printed.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 157. To check: Hanoi Home Service, 11 August 1960, SWB/FE/409/B/5 (cited by [[w.guan-vietnamese-communists-relations-with]], 157 n.11). Names: Kong Le.'
+    src:
+      rows:
+        - 'via x.1960-08-11.hanoi-home-service-fe-409-b-5: ?'
+    tags: [polity:prc, name:kong-le]
+  - id: cal.1960-08-12.laos
+    when: Aug. 12
+    date: '1960-08-12'
+    thread: laos
+    also: [vietnam-diplomacy, china-leadership]
+    c: VNA and NCNA report the NLHX statement of Aug. 9 for the Revolutionary Committee. Later Chinese reports plain, datelined Hanoi.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 157. To check: NCNA, 12 August 1960, SWB/FE/410/B/10-11 (cited by [[w.guan-vietnamese-communists-relations-with]], 155 n.5).'
+    src:
+      rows:
+        - 'via x.1960-08-12.ncna-fe-410-b-10-11: ?'
+    tags: [polity:drv, polity:prc, ok:fields-place]
   - id: cal.1960-08-13.laos
     when: Aug. 13–14
     date: '1960-08-13'
     place: vientiane
     thread: laos
     c: The Laotian Assembly censures the Somsanith government, Aug. 13; it resigns Aug. 14, and the King names Souvanna Phouma.
-    n: 'FRUS 1958–60, XVI, doc. [366](https://history.state.gov/historicaldocuments/frus1958-60v16/d366) (Brown, Aug. 15). [[w.fursenko-khrushchevs-cold-war]], 328 (the Assembly''s vote, the King names Souvanna Phouma). Check: Fursenko and Naftali have Kong Le hand power to Souvanna Phouma Aug. 17 (328). See [[cal.1960-08-09.laos]]. Names: Somsanith, Savang Vatthana, Souvanna Phouma.'
+    n: 'FRUS 1958–60, XVI, doc. [366](https://history.state.gov/historicaldocuments/frus1958-60v16/d366) (Brown, Aug. 15). [[w.fursenko-khrushchevs-cold-war]], 328 (the Assembly''s vote, the King names Souvanna Phouma); [[w.guan-vietnamese-communists-relations-with]], 157 (reported Aug. 15: the government''s resignation to the King, Souvanna Phouma appointed to form a new one). Check: Fursenko and Naftali have Kong Le hand power to Souvanna Phouma Aug. 17 (328). See [[cal.1960-08-09.laos]]. Names: Somsanith, Savang Vatthana, Souvanna Phouma.'
     src:
       c: 9e7547ee
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1958-60v16/d366: all'
         - 'w.fursenko-khrushchevs-cold-war 328: all'
+        - 'w.guan-vietnamese-communists-relations-with 157: ?'
     tags: [name:souvanna-phouma, name:savang-vatthana, name:somsanith]
   - id: cal.1960-08-13.china-leadership-4
     when: Aug. 13
@@ -2194,6 +2438,34 @@ entries:
         witness: w.jian-zhou-enlai
         reads: the Center issues the instruction on the "protection of grain and steel production" on Aug. 10, 1960, with the instruction on foreign trade
         at: '455'
+  - id: cal.1960-08-14.china-leadership-11
+    when: Aug. 14
+    date: '1960-08-14'
+    place:
+      - beidaihe
+      - peking
+    thread: china-leadership
+    c: Zhu De 朱德 leaves Beidaihe 北戴河, back to Peking 北京.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1781. The words: 上午 (1781). Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
+    time_range:
+      - 1960-08-13T22:00Z
+      - 1960-08-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-14.china-leadership-12
+    when: Aug. 14
+    date: '1960-08-14'
+    thread: china-leadership
+    also: [korea]
+    c: Zhu De 朱德, with Zhou Enlai 周恩来, Li Xiannian 李先念, Xi Zhongxun 习仲勋, Guo Moruo 郭沫若 and others, at the capital's evening gala for the fifteenth anniversary of Korea's liberation.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1781. The words: 晚 (1781). Names: Zhu De, Zhou Enlai, Li Xiannian.'
+    tags: [polity:prc, polity:dprk, ok:fields-place, name:zhu-de, name:zhou-enlai, name:li-xiannian]
+    time_range:
+      - 1960-08-14T11:00Z
+      - 1960-08-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-15.space
     when: Aug. 15
     date: '1960-08-15'
@@ -2415,6 +2687,69 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 51: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1960-08-15.china-leadership-10
+    when: Aug. 15
+    date: '1960-08-15'
+    thread: china-leadership
+    also: [laos]
+    c: 'As the British embassy in Peking reports it: the Chinese taken by surprise by the coup, slow to back Kong Le.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 157. Made public: 1997. To check: FO 371/152343, DF 1015/390(E), 15 August 1960, from Beijing to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 157 n.12). Names: Kong Le.'
+    src:
+      rows:
+        - 'via x.1960-08-15.fo-152343-df-1015-390-e: ?'
+    tags: [form:state, polity:uk, polity:prc, name:kong-le, vis:only:uk, ok:fields-place]
+  - id: cal.1960-08-15.vietnam-diplomacy
+    when: Aug. 15
+    date: '1960-08-15'
+    place: moscow
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: Moscow. Hồ Chí Minh, on a secret trip, visits the Hungarian exhibition; *Népszabadság*, the Hungarian party paper, lets out that he is there. Hanoi's foreign ministry denies knowing of the visit.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 158. To check: FO 371/152747, DV 1016/36, 24 September 1960, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 158 n.17); [[w.china-news-analysis]], Mar. 16, 1962 (P. J. Honey, "The Position of the DRV in the Sino-Soviet Dispute") (cited by [[w.guan-vietnamese-communists-relations-with]], 158 n.18); FO 371/150425, FC 10338/70, 10 October 1960, from Beijing to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 158 n.19a); FO 371/152752, DV 10338/2, 2 November 1960, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 158 n.19b). See [[cal.1960-08-11.china-leadership-2]]. Names: Hồ Chí Minh.'
+    src:
+      rows:
+        - 'via x.1960-10-10.fo-150425-fc-10338-70: ?'
+    tags: [polity:drv, polity:ussr, polity:hungary, name:ho-chi-minh]
+  - id: cal.1960-08-15.elections-1960
+    when: Aug. 15
+    date: '1960-08-15'
+    thread: elections-1960
+    also: [china]
+    c: 'Bowles to Archibald Cox, a rough draft for a Kennedy campaign speech: the Republicans have badly underestimated the "inherently imperialistic and expansionist" nature of any Chinese regime; China likened to Nazi Germany and Japan, seeking "living space," fuel and food; Mao in many ways the new Hitler. A Democratic administration would see the possible differences between the Soviet Union and China, without "wishful thinking."'
+    n: '[[w.chang-friends-and-enemies]], 218–19. Made public: 1990 ([[w.chang-friends-and-enemies]], 219). To check: Bowles to Archibald Cox, Aug. 15, 1960, Bowles Papers, box 205, folder 0056 (cited by [[w.chang-friends-and-enemies]], 219 n.31). Names: Bowles, Cox, Kennedy, Mao.'
+    src:
+      c: 09dfe0a1
+      rows:
+        - 'w.chang-friends-and-enemies 218–19: all'
+        - 'via x.1960-08-15.bowles-to-cox-draft-campaign-speech: all'
+    tags: [polity:us, vis:only:us, name:bowles-chester, name:cox-archibald, name:kennedy-john-f, name:mao-zedong]
+  - id: cal.1960-08-15.china-leadership-12
+    when: Aug. 15
+    date: '1960-08-15'
+    thread: china-leadership
+    also: [latin-america]
+    c: Zhu De 朱德 meets the delegation of the Costa Rican legislature 哥斯达黎加议会代表团.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1781. The words: 上午 (1781). Names: Zhu De.'
+    tags: [polity:prc, polity:costa-rica, ok:fields-place, name:zhu-de]
+    time_range:
+      - 1960-08-14T22:00Z
+      - 1960-08-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-08-15.china-leadership-13
+    when: Aug. 15
+    date: '1960-08-15'
+    place: peking
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhu De 朱德 presides at the enlarged twenty-seventh session of the Standing Committee of the Second National People's Congress 第二届全国人大常委会. It names Chen Yi 陈毅, Vice Premier, plenipotentiary to sign the Treaty of Friendship and Mutual Non-Aggression with the Kingdom of Afghanistan, and approves the consular treaty with Czechoslovakia and the Treaty of Friendship and Mutual Assistance with the Mongolian People's Republic.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1781. The words: 下午 (1781). Names: Zhu De, Chen Yi.'
+    tags: [polity:prc, polity:afghanistan, polity:czechoslovakia, polity:mongolia, name:zhu-de, name:chen-yi]
+    time_range:
+      - 1960-08-15T04:00Z
+      - 1960-08-15T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-16.latin-america
     when: Aug. 16–21
     date: '1960-08-16'
@@ -2497,11 +2832,12 @@ entries:
     place: vientiane
     thread: laos
     c: Vientiane. The National Assembly, having ended the old government's tenure, votes Souvanna Phouma prime minister.
-    n: '[[w.marolda-united-states-navy-and]], 46. See [[cal.1960-08-09.laos]]. Names: Souvanna Phouma.'
+    n: '[[w.marolda-united-states-navy-and]], 46; [[w.guan-vietnamese-communists-relations-with]], 157 (Souvanna Phouma presents his government to the Assembly; his policy statement: the 1957 agreements with the Pathet Lao to be carried out). See [[cal.1960-08-09.laos]]. Names: Souvanna Phouma.'
     src:
       c: 8f3b51d1
       rows:
         - 'w.marolda-united-states-navy-and 46: all'
+        - 'w.guan-vietnamese-communists-relations-with 157: ?'
     tags: [place:vientiane, name:souvanna-phouma]
     time_range:
       - 1960-08-16T07:00Z
@@ -2662,6 +2998,13 @@ entries:
       - 1960-08-16T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-08-16.laos-3
+    when: Aug. 16–17
+    date: '1960-08-16'
+    thread: laos
+    c: After seven more days' travel, Souphanouvong close enough to Vientiane to reach Kong Le, who sends a helicopter for him.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 156 (by Souphanouvong''s account; the days the author''s reckoning, "sometime around 16–17 August"; whether he went to Vientiane or Sam Neua not clear). To check: [[w.burchett-furtive-war]], 186–188 (cited by [[w.guan-vietnamese-communists-relations-with]], 156 n.6). Names: Souphanouvong, Kong Le. Check: the day.'
+    tags: [polity:pathet-lao, name:souphanouvong, name:kong-le, ok:fields-place]
   - id: cal.1960-08-17.soviet-union
     when: Aug. 17–19
     date: '1960-08-17'
@@ -2681,12 +3024,15 @@ entries:
     thread: elections-1960-kennedy
     also: [soviet-union]
     c: 'Kennan to Kennedy: "We may, by January, be faced with an extremely disturbing if not calamitous situation"; a stronger defense, in conventional weapons above all; no commitments about summit meetings, private talks with Moscow.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 420–21. To check: Kennan to Kennedy, Aug. 17, 1960, JFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 421 n.19). Names: Kennan, Kennedy.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 420–21; [[w.chang-friends-and-enemies]], 220 (Kennan to Kennedy: "Nothing is more important to us, in this coming period ... than to assure a divergence of outlook and policy as between the Russians and the Chinese"); [[w.chang-friends-and-enemies]], 230 (the main target of diplomacy, to heighten the divisive tendencies in the Soviet bloc, by better relations with Moscow; p. 7 of the letter, 230 n.3); [[w.chang-friends-and-enemies]], 215 (Kennan concludes that the U-2 episode strengthened the Chinese in the bloc). To check: Kennan to Kennedy, Aug. 17, 1960, JFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 421 n.19). Names: Kennan, Kennedy.'
     src:
       c: 1f987ae5
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 420–21: all'
         - 'via w.schlesinger-robert-kennedy-and-his 421 n.19: all'
+        - 'w.chang-friends-and-enemies 220: ?'
+        - 'w.chang-friends-and-enemies 230: ?'
+        - 'w.chang-friends-and-enemies 215: ?'
     tags: [name:kennan-george-f, name:kennedy-john-f]
     time_range:
       - 1960-08-17T13:00Z
@@ -2779,12 +3125,13 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Peking. Zhou Enlai attends the national day reception given by the Indonesian chargé d'affaires.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 17, 1960; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 158 (Aug. 17, 1960; Zhou and Li Xiannian attend the Indonesian chargé d''affaires'' national-day reception; Li speaks: China backs Indonesia''s anti-colonial struggle; on the five principles, friendly cooperation and mutual accommodation can settle the overseas Chinese question in full and with reason). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 17, 1960; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 158 (Aug. 17, 1960; Zhou and Li Xiannian attend the Indonesian chargé d''affaires'' national-day reception; Li speaks: China backs Indonesia''s anti-colonial struggle; on the five principles, friendly cooperation and mutual accommodation can settle the overseas Chinese question in full and with reason); [[w.zhu-de-nianpu-xinbian]], III, 1781 (Aug. 17, 1960, evening; Zhu De 朱德, with Zhou Enlai 周恩来, Li Xiannian 李先念 and others, at the reception of the Indonesian chargé d''affaires, 苏雷曼, for the fifteenth anniversary of Indonesia''s independence). Names: Zhou Enlai.'
     src:
       c: 520ed025
       rows:
         - 'w.zhou-enlai-waijiao-huodong 286: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 158: B'
+        - 'w.zhu-de-nianpu-xinbian III, 1781: ?'
     tags: [polity:prc, polity:indonesia, name:zhou-enlai]
     time_range:
       - 1960-08-17T11:00Z
@@ -2824,6 +3171,20 @@ entries:
       - 1960-08-17T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-08-17.laos
+    when: Aug. 17
+    date: '1960-08-17'
+    thread: laos
+    c: The paratroopers hand the administration over to Souvanna Phouma and his cabinet.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 157. Names: Souvanna Phouma.'
+    tags: [polity:laos, name:souvanna-phouma, ok:fields-place]
+  - id: cal.1960-08-17.china-leadership-5
+    when: Aug. 17
+    date: '1960-08-17'
+    thread: china-leadership
+    c: Zhu De 朱德 receives Hungary's Ambassador, Martin Ferenc 费伦茨, in a friendly talk.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1781. Names: Zhu De.'
+    tags: [polity:prc, polity:hungary, ok:fields-place, name:zhu-de]
   - id: cal.1960-08-18.congo-2
     when: Aug. 18
     date: '1960-08-18'
@@ -3049,6 +3410,41 @@ entries:
       - 1960-08-18T11:00Z
     time_band: daytime
     time_zone: Asia/Shanghai
+  - id: cal.1960-08-18.vietnam-diplomacy
+    when: Aug. 18
+    date: '1960-08-18'
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: 'Phạm Văn Đồng greets Souvanna Phouma: the DRV ready for friendly relations with Laos in every field.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 157. To check: VNA, 18 August 1960, SWB/FE/414/B/6 (cited by [[w.guan-vietnamese-communists-relations-with]], 157 n.13). Names: Phạm Văn Đồng, Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1960-08-18.vna-fe-414-b-6: ?'
+    tags: [polity:drv, polity:laos, name:pham-van-dong, name:souvanna-phouma, ok:fields-place]
+  - id: cal.1960-08-18.vietnam-diplomacy-2
+    when: Aug. 18
+    date: '1960-08-18'
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: The DRV government's statement for Souvanna Phouma's government.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 157. To check: VNA, 18 August 1960, SWB/FE/414/B/6 (cited by [[w.guan-vietnamese-communists-relations-with]], 157 n.13). Names: Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1960-08-18.vna-fe-414-b-6: ?'
+    tags: [polity:drv, name:souvanna-phouma, ok:fields-place]
+  - id: cal.1960-08-18.china
+    when: Aug. 18
+    date: '1960-08-18'
+    place: jinghai
+    thread: china
+    c: 'As *Neibu cankao* 内部参考 reports it: in some communes of Jinghai county, Hebei 河北, money all but gone, coupons stand in for wages: coupons for goods and services from pumpkin seeds to haircuts, worth from one fen to five yuan.'
+    n: '[[w.dikotter-maos-great-famine]], 204. To check: *Neibu cankao*, Aug. 18, 1960, p. 16 (cited by [[w.dikotter-maos-great-famine]], 204 n.33).'
+    src:
+      c: 3e6f38fd
+      rows:
+        - 'w.dikotter-maos-great-famine 204: all'
+        - 'via w.dikotter-maos-great-famine 204 n.33: all'
+    tags: [form:state, polity:prc]
   - id: cal.1960-08-19.latin-america
     when: Aug. 19
     date: '1960-08-19'
@@ -3209,17 +3605,30 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking 北京. Peng Zhen 彭真, at the National People's Congress Standing Committee's 全国人大常委会 twenty-eighth session (enlarged), speaks at length on the Sino-Soviet differences, some members having been puzzled and worried in discussing Zhou Enlai's 周恩来 report on his visits to six Asian countries; their keen sense, he says, shows the democratic parties more advanced than some countries' proletarian parties.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 52. The words: 下午 (IV, 52). Made public: 2012. Names: Peng Zhen, Zhou Enlai.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 52; [[w.zhu-de-nianpu-xinbian]], III, 1781 (Aug. 19, 1960; Zhu De 朱德 presides at the enlarged twenty-eighth session of the Standing Committee of the Second National People''s Congress, on Zhou Enlai''s report on the world situation to the twenty-seventh). The words: 下午 (IV, 52). Made public: 2012. Names: Peng Zhen, Zhou Enlai.'
     src:
       c: 13483aef
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 52: all'
+        - 'w.zhu-de-nianpu-xinbian III, 1781: ?'
     tags: [polity:prc, name:peng-zhen, name:zhou-enlai, vis:only:prc]
     time_range:
       - 1960-08-19T04:00Z
       - 1960-08-19T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-08-19.china-leadership-9
+    when: Aug. 19
+    date: '1960-08-19'
+    place: peking
+    thread: china-leadership
+    also: [laos]
+    c: '*Renmin ribao*, a very long commentary on the Laotian coup: a blow to American imperialism. China''s first clear word of support.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 157. To check: NCNA, 19 August 1960, SWB/FE/415/A3/1-3 (cited by [[w.guan-vietnamese-communists-relations-with]], 157 n.14).'
+    src:
+      rows:
+        - 'via x.1960-08-19.ncna-fe-415-a3-1-3: ?'
+    tags: [polity:prc]
   - id: cal.1960-08-20.elections-1960
     when: Aug. 20
     date: '1960-08-20'
@@ -3510,7 +3919,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi, with Mao Zedong, Zhou Enlai and Zhu De, receives the delegates to the enlarged meetings of the central committees of the Kuomintang Revolutionary Committee, the Democratic League, the Association for Promoting Democracy, the Peasants' and Workers' Democratic Party, the Zhi Gong Party and the Jiusan Society.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 492 (Aug. 22, 1960); [[w.peng-zhen-nianpu-1902]], IV, 52–53 (Aug. 22, 1960, afternoon; Peng Zhen, with Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De and others, receives the delegates to the enlarged plenums of the central committees of six democratic parties (the Revolutionary Committee of the Kuomintang, the Democratic League, the Association for Promoting Democracy, the Peasants'' and Workers'' Democratic Party, the Zhi Gong Dang and the Jiusan Society) and talks with their chairmen and vice-chairmen). Names: Liu Shaoqi, Mao Zedong, Zhou Enlai, Zhu De.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 492 (Aug. 22, 1960); [[w.peng-zhen-nianpu-1902]], IV, 52–53 (Aug. 22, 1960, afternoon; Peng Zhen, with Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De and others, receives the delegates to the enlarged plenums of the central committees of six democratic parties (the Revolutionary Committee of the Kuomintang, the Democratic League, the Association for Promoting Democracy, the Peasants'' and Workers'' Democratic Party, the Zhi Gong Dang and the Jiusan Society) and talks with their chairmen and vice-chairmen); [[w.zhu-de-nianpu-xinbian]], III, 1781 (Aug. 22, 1960, afternoon; Zhu De 朱德 with Mao Zedong, Liu Shaoqi, Zhou Enlai, Peng Zhen and others meets the delegates to the enlarged plenums of the six democratic parties'' central committees). Names: Liu Shaoqi, Mao Zedong, Zhou Enlai, Zhu De.'
     tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, name:zhou-enlai, name:zhu-de]
     time_range:
       - 1960-08-22T04:00Z
@@ -3671,13 +4080,14 @@ entries:
     place: washington
     thread: vietnam
     c: 'SNIE 63.1-60, "Short-Term Trends in South Vietnam": a "marked deterioration since January"; criticism of Diệm''s rule mounting, the Viet Cong''s terror and guerrilla war markedly up. Unchecked, the trends "will almost certainly in time cause the collapse of Diem''s regime."'
-    n: '[FRUS 1958–60, I, doc. 185](https://history.state.gov/historicaldocuments/frus1958-60v01/d185). [[w.gibbons-u-s-government-and]], I, 341. Made public: [[w.def-u-s-viet-rels]], Book 10, 1298–1301 (1971). Names: Ngô Đình Diệm.'
+    n: '[FRUS 1958–60, I, doc. 185](https://history.state.gov/historicaldocuments/frus1958-60v01/d185). [[w.gibbons-u-s-government-and]], I, 341; [[w.guan-vietnamese-communists-relations-with]], 152 (by the Country Team, Communist terror rising through the first five months of 1960, the North''s support apparently increased; senior cadres and supplies, communications gear among them, thought to move south through Laos and Cambodia and by junk along the coast). Made public: [[w.def-u-s-viet-rels]], Book 10, 1298–1301 (1971). To check: [[w.united-states-vietnam-relations]], "US Perceptions of the Insurgency 1954–1960," 48–52 (cited by [[w.guan-vietnamese-communists-relations-with]], 152 n.81). Names: Ngô Đình Diệm.'
     src:
       c: '30945490'
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1958-60v01/d185: all'
         - 'w.gibbons-u-s-government-and I, 341: all'
         - 'via w.gibbons-u-s-government-and I, 341 n.166: all'
+        - 'w.guan-vietnamese-communists-relations-with 152: ?'
     tags: [name:ngo-dinh-diem]
     time_range:
       - 1960-08-23T13:00Z
@@ -3813,6 +4223,23 @@ entries:
         - 'w.westad-introduction 26: all'
         - 'via x.1960-08-23.chervonenko-zhou-record-avprf: all'
     tags: [polity:prc, polity:ussr, vis:only:prc+ussr, name:zhou-enlai, name:chervonenko-stepan-v, name:mao-zedong]
+  - id: cal.1960-08-23.laos-2
+    when: Aug. 23
+    date: '1960-08-23'
+    thread: laos
+    c: 'Souphanouvong''s statement, twelve minutes, broadcast: the new government''s domestic and foreign policies endorsed; the NLHX ready to negotiate every issue with the Royal Government in the spirit of the 1957 Vientiane agreement; the people to back Souvanna Phouma against American imperialism and Phoumi Nosavan''s "rebels."'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 157. To check: Voice of the Pathet Lao, 23 August 1960, SWB/FE/419/B/6 (cited by [[w.guan-vietnamese-communists-relations-with]], 157 n.15). Names: Souphanouvong, Souvanna Phouma, Phoumi Nosavan.'
+    src:
+      rows:
+        - 'via x.1960-08-23.voice-of-the-pathet-lao-fe-419-b-6: ?'
+    tags: [polity:pathet-lao, name:souphanouvong, name:souvanna-phouma, name:phoumi-nosavan, ok:fields-place]
+  - id: cal.1960-08-23.china-leadership-6
+    when: Aug. 23
+    date: '1960-08-23'
+    thread: china-leadership
+    c: Zhu De 朱德, with Zhou Enlai 周恩来, Li Xiannian 李先念, Xi Zhongxun 习仲勋, Shen Junru 沈钧儒, Burhan 包尔汉 and others, at the reception of the Romanian chargé d'affaires, 巴什基洛, for the sixteenth anniversary of Romania's liberation.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1781–1782. Names: Zhu De, Zhou Enlai, Li Xiannian.'
+    tags: [polity:prc, polity:romania, ok:fields-place, name:zhu-de, name:zhou-enlai, name:li-xiannian]
   - id: cal.1960-08-24.press-and-broadcasting
     when: Aug. 24
     date: '1960-08-24'
@@ -3947,7 +4374,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi presides at the symposium of the Communist Party and the democratic parties on Sino-Soviet relations. On the 26th he tells the parties the Central Committee''s attitude and line on the Soviet government''s recent tearing up of contracts, withdrawal of experts in China and halt of main equipment supplies: the unity of the members'' speeches is a good spirit; China, oppressed for over a hundred years, will not be crushed; policy: hold position, hold principle, hold unity, and handle it with care.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 492–493 (Aug. 24, 26, 1960); [[w.yang-shangkun-riji]], I, 538 (Aug. 26, 1960; Aug. 26, 3:30 to 9 p.m., at the Great Hall); [[w.deng-xiaoping-nianpu-1904]], III, 1571 (Aug. 24, 1960; afternoon; Deng at Liu Shaoqi''s symposium with the democratic parties'' leaders, held in the Central Committee''s name; Zhou on Sino-Soviet relations); [[w.peng-zhen-nianpu-1902]], IV, 53 (Aug. 24 and 26, 1960; Peng Zhen, with Zhu De, Deng Xiaoping and others, at the symposium of the democratic parties'' leaders called in the Center''s name in the Great Hall of the People; Zhou and Liu on the differences and their nature and the Center''s stand, principle and unity). Made public: 1996. Check: whether it is the enlarged plenary meetings of the six parties'' central committees where Zhou Enlai spoke Aug. 24 ([[cal.1960-08-24.china-leadership]]). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 492–493 (Aug. 24, 26, 1960); [[w.yang-shangkun-riji]], I, 538 (Aug. 26, 1960; Aug. 26, 3:30 to 9 p.m., at the Great Hall); [[w.deng-xiaoping-nianpu-1904]], III, 1571 (Aug. 24, 1960; afternoon; Deng at Liu Shaoqi''s symposium with the democratic parties'' leaders, held in the Central Committee''s name; Zhou on Sino-Soviet relations); [[w.peng-zhen-nianpu-1902]], IV, 53 (Aug. 24 and 26, 1960; Peng Zhen, with Zhu De, Deng Xiaoping and others, at the symposium of the democratic parties'' leaders called in the Center''s name in the Great Hall of the People; Zhou and Liu on the differences and their nature and the Center''s stand, principle and unity); [[w.zhu-de-nianpu-xinbian]], III, 1782 (Aug. 24, 1960; Zhu De 朱德 at the Center''s symposium with the democratic parties'' leaders on Sino-Soviet relations; Zhou Enlai 周恩来 reports on them). Made public: 1996. Check: whether it is the enlarged plenary meetings of the six parties'' central committees where Zhou Enlai spoke Aug. 24 ([[cal.1960-08-24.china-leadership]]). Names: Liu Shaoqi.'
     src:
       c: dd0c04db
       rows:
@@ -3955,6 +4382,7 @@ entries:
         - 'w.yang-shangkun-riji I, 538: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1571: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 53: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1782: ?'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1960-08-24.china-leadership-3
     when: Aug. 24
@@ -4563,6 +4991,29 @@ entries:
       - 1960-08-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-08-27.vietnam-hanoi
+    when: Aug. 27
+    date: '1960-08-27'
+    thread: vietnam-hanoi
+    c: Võ Nguyên Giáp, out of public view almost four months, reappears at a "cordial evening party" of the State Scientific Research Board; reported to replace Trường Chinh as its chairman.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 158. To check: FO 371/152747, DV 1016/29, 26 August 1960, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 158 n.16). Names: Võ Nguyên Giáp, Trường Chinh. Check: the day: the dispatch the note cites is dated Aug. 26.'
+    src:
+      rows:
+        - 'via x.1960-08-26.fo-152747-dv-1016-29: ?'
+    tags: [polity:drv, name:vo-nguyen-giap, name:truong-chinh, ok:fields-place]
+  - id: cal.1960-08-27.china-leadership-9
+    when: Aug. 27
+    date: '1960-08-27'
+    thread: china-leadership
+    also: [latin-america]
+    c: 'Zhu De 朱德 gives a banquet for the Costa Rican legislature''s delegation and speaks: both peoples victims of imperialist aggression, facing a common enemy; united and helping each other against American imperialism and for national independence; the Chinese people always with the peoples of Latin America.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1781. The words: 二十七日晚 (1781). Names: Zhu De.'
+    tags: [polity:prc, polity:costa-rica, ok:fields-place, name:zhu-de]
+    time_range:
+      - 1960-08-27T11:00Z
+      - 1960-08-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-08-28.cuba
     when: Aug. 28–29
     date: '1960-08-28'
@@ -4680,17 +5131,23 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真 at the United Front Department's 中央统战部 banquet for the leaders of the democratic parties.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 54. The words: 下午……接见结束后 (IV, 54). Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 54; [[w.zhu-de-nianpu-xinbian]], III, 1781 (Aug. 28, 1960, evening; Zhu De 朱德, with Dong Biwu 董必武, Peng Zhen 彭真 and others, at the United Front Work Department''s 中共中央统战部 banquet for the delegates to the six parties'' plenums, the other democratic parties'' leaders and non-party democrats). The words: 下午……接见结束后 (IV, 54). Names: Peng Zhen.'
     src:
       c: 8981d849
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 54: all'
+        - 'w.zhu-de-nianpu-xinbian III, 1781: ?'
     tags: [polity:prc, name:peng-zhen]
     time_range:
       - 1960-08-28T04:00Z
       - 1960-08-28T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+    variants:
+      - unit: B
+        witness: w.zhu-de-nianpu-xinbian
+        reads: In the evening, Peng Zhen, with Zhu De, Dong Biwu and others, at the United Front Work Department's banquet
+        at: III, 1781
   - id: cal.1960-08-29.elections-1960
     when: Aug. 29
     date: '1960-08-29'
@@ -5009,12 +5466,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai takes Edgar Snow to the Miyun reservoir. On the way he reviews relations with the United States over the eleven years, before the Warsaw talks'' 100th meeting on Sept. 6: since the Korean war''s start in June 1950 America took a policy of aggression, China wants talks on the disputes; a principle agreement first, with two points: all disputes, Taiwan''s included, settled by peaceful consultation without force or its threat; the United States to withdraw its forces from Taiwan and the Strait, when and how for the next step.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 345 (Aug. 30, 1960); [[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 30, 1960; 赴密云水库途中在火车上). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 345 (Aug. 30, 1960); [[w.zhou-enlai-waijiao-huodong]], 286 (Aug. 30, 1960; 赴密云水库途中在火车上); [[w.guan-vietnamese-communists-relations-with]], 159 (the talk with Snow: the nonaggression pact no new idea, raised again against rumors that China had dropped peaceful coexistence; no other matter to be discussed until Taiwan''s was settled; no pact without China and the United States). Made public: 1993. To check: [[w.snow-other-side-of-the]], 77, 85–92 (cited by [[w.guan-vietnamese-communists-relations-with]], 159 n.24). Names: Zhou Enlai.'
     src:
       c: d38c693a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 345: ?'
         - 'w.zhou-enlai-waijiao-huodong 286: A'
+        - 'w.guan-vietnamese-communists-relations-with 159: ?'
     tags: [polity:prc, polity:us, name:zhou-enlai, vis:only:prc+us]
   - id: cal.1960-08-30.china-leadership-2
     when: Aug. 30
@@ -5551,11 +6009,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: The Soviet experts in China are in the main withdrawn.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1566. See [[cal.1960-07-25.china-leadership-6]].'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1566; [[w.guan-vietnamese-communists-relations-with]], 150 (August 1960, a large exodus of Soviet experts from China). To check: FO 371/150424, FC 10338/31, 15 August 1960, from Beijing to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 150 n.75a); FO 371/150424, FC 10338/39C, 9 September 1960, from Moscow to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 150 n.75b); FO 371/150424, FC 10338/57, 12 September 1960, from Beijing to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 150 n.75c); [[w.zong-huaiwen-years-of-trial-turmoil]], 102 (cited by [[w.guan-vietnamese-communists-relations-with]], 150 n.76). See [[cal.1960-07-25.china-leadership-6]].'
     src:
       c: a093613e
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1566: all'
+        - 'w.guan-vietnamese-communists-relations-with 150: ?'
+        - 'via x.1960-08-15.fo-150424-fc-10338-31: ?'
     tags: [polity:prc]
   - id: cal.1960-08.china-leadership-6
     when: Aug.
@@ -5640,13 +6100,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Beijing reports on the kindergartens of the suburbs: in Daxing county a dozen of 475 boarding kindergartens have rudimentary equipment, children eat and sleep on the floor, and in one several children of three and four cannot walk. The Women''s Federation calls a third of the suburbs'' kindergartens "backward."'
-    n: '[[w.dikotter-maos-great-famine]], 245. Made public: 2010. To check: Beijing Municipal Archives, Aug. 4, 1960, 84-1-167, pp. 43–52 (cited by [[w.dikotter-maos-great-famine]], 245 n.2a); Beijing Municipal Archives, Aug. 18, 1960, 84-1-167, pp. 1–9 (cited by [[w.dikotter-maos-great-famine]], 245 n.2b). Check: the days; the note does not divide the passage between its two files.'
+    n: '[[w.dikotter-maos-great-famine]], 245; [[w.dikotter-maos-great-famine]], 246 (the file of Aug. 4, n.6: in Beijing''s Number Two Cotton Factory 90 per cent of the children sick, mostly with measles and chickenpox; scabies and worms widespread; death rates high); [[w.dikotter-maos-great-famine]], 246 (the file of Aug. 18, n.7: in the suburbs flies everywhere, the kindergartens reeking of urine; food poisoning common, killing many children; diarrhoea in four children of five, some with rickets). Made public: 2010. To check: Beijing Municipal Archives, Aug. 4, 1960, 84-1-167, pp. 43–52 (cited by [[w.dikotter-maos-great-famine]], 245 n.2a); Beijing Municipal Archives, Aug. 18, 1960, 84-1-167, pp. 1–9 (cited by [[w.dikotter-maos-great-famine]], 245 n.2b). Check: the days; the note does not divide the passage between its two files.'
     src:
       c: 9ee30b5a
       rows:
         - 'w.dikotter-maos-great-famine 245: all'
         - 'via w.dikotter-maos-great-famine 245 n.2a: all'
         - 'via w.dikotter-maos-great-famine 245 n.2b: all'
+        - 'w.dikotter-maos-great-famine 246: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1960-08.china-leadership-13
     when: Aug., by the 8th
@@ -5764,3 +6225,44 @@ entries:
         - 'w.friedman-shadow-cold-war 54: all'
         - 'via x.1960-08.letter-mfa-party-committees-shenyang-harbin-changchun: ?'
     tags: [polity:prc, vis:only:prc, name:cabral-amilcar, ok:fields-place]
+  - id: cal.1960-08.vietnam-diplomacy
+    when: Aug.
+    date: 1960-08
+    place: yalta
+    thread: vietnam-diplomacy
+    also: [soviet-union, china-leadership]
+    c: Yalta. Hồ Chí Minh, with Hoàng Văn Hoan and Xuân Thủy, meets Khrushchev, to reconcile the Soviet Union and China; Khrushchev keeps interrupting him, holds to his anti-Chinese line. The mission fails.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 158 (by Hoàng Văn Hoan, 1981). Made public: 1981 (Hoàng Văn Hoan, *Beijing Review*, Sept. 14, 1981). To check: Hoàng Văn Hoan, "Ho Chi Minh''s Last Will Was Tampered With," Beijing Review no. 37, Sept. 14, 1981 (cited by [[w.guan-vietnamese-communists-relations-with]], 158 n.20a); [[w.hoan-drop-in-the-ocean]], 314 (cited by [[w.guan-vietnamese-communists-relations-with]], 158 n.20b). See [[cal.1960-08-11.china-leadership-2]]. Names: Hồ Chí Minh, Xuân Thủy, Khrushchev.'
+    src:
+      rows:
+        - 'via x.1981-09-14.hoang-van-hoan-ho-chi-minh-last-will-tampered: ?'
+    tags: [polity:drv, polity:ussr, name:ho-chi-minh, name:xuan-thuy, name:khrushchev-nikita-s, vis:only:drv+ussr]
+  - id: cal.1960-08.laos
+    when: Aug., after the 18th
+    date: 1960-08
+    at: after 1960-08-18
+    place: savannakhet
+    thread: laos
+    c: Savannakhet. Negotiations between Phoumi Nosavan and Souvanna Phouma.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 157. Names: Phoumi Nosavan, Souvanna Phouma.'
+    tags: [polity:laos, name:phoumi-nosavan, name:souvanna-phouma]
+  - id: cal.1960-08.laos-2
+    when: Aug., after the 18th
+    date: 1960-08
+    at: after 1960-08-18
+    thread: laos
+    c: Negotiations between the Pathet Lao and Souvanna Phouma.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 157. Names: Souvanna Phouma.'
+    tags: [polity:laos, polity:pathet-lao, name:souvanna-phouma]
+  - id: cal.1960-08.vietnam-diplomacy-2
+    when: Aug., the week before the 19th
+    date: 1960-08
+    at: after 1960-08-11
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: 'Cambodia. Sihanouk, in talks with Malcolm MacDonald: on his next visit to Peking he will sign a treaty like Burma''s, Indonesia''s and Nepal''s, "innocuous documents that he could not refuse"; MacDonald to tell the British and Americans. Still anti-Communist; no closer to Moscow than prudent; friendly to China. Thailand and South Vietnam the danger; no Soviet or Chinese military aid wanted, though offered any arms these two years.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 172–173 ("sometime during the week before 19 August 1960"). Made public: 1997. To check: FO 371/152692, DU 1015/107, 20 August 1960, from Saigon to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 173 n.90a); FO 371/152692, DU 1015/108, 25 August 1960, from the Commonwealth Relations Office to Foreign Office (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 173 n.90b). Names: Sihanouk, MacDonald.'
+    src:
+      rows:
+        - 'via x.1960-08-20.fo-152692-du-1015-107: ?'
+    tags: [polity:cambodia, polity:uk, name:norodom-sihanouk, name:macdonald-malcolm-john, vis:only:cambodia+uk, ok:fields-place]

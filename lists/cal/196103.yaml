@@ -555,7 +555,7 @@ entries:
     date: '1961-03-03'
     thread: vietnam-hanoi
     c: Hồ Chí Minh's decree no. 09/SL names Lt. Gen. Song Hào head of the People's Army's General Political Department.
-    n: '[[w.lich-su-khang-chien-chong-my]], III, 40. Names: Hồ Chí Minh, Song Hào.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 40; [[w.guan-vietnamese-communists-relations-with]], 186 (Song Hào, Thanh''s deputy, his successor). Names: Hồ Chí Minh, Song Hào.'
     tags: [polity:drv, name:ho-chi-minh]
   - id: cal.1961-03-03.china-leadership-3
     when: Mar. 3
@@ -1359,6 +1359,13 @@ entries:
         - 'w.friedman-shadow-cold-war 91: all'
         - 'via x.1961-03-07.report-strengthening-soviet-radio-propaganda-africa-head: ?'
     tags: [polity:ussr, vis:only:ussr, ok:fields-place]
+  - id: cal.1961-03-07.laos-3
+    when: Mar. 7
+    date: '1961-03-07'
+    thread: laos
+    c: Pathet Lao and North Vietnamese forces take Xala Phukhun, an important road junction north of Vientiane, helped by the continuing Soviet airlift.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 177.'
+    tags: [polity:pathet-lao, polity:drv, ok:fields-place]
   - id: cal.1961-03-08.africa
     when: Mar. 8
     date: '1961-03-08'
@@ -1476,11 +1483,12 @@ entries:
     thread: china
     also: [laos]
     c: 'Hanoi. He Wei, the Chinese ambassador to Vietnam, answers the Laotian government''s note for the Chinese government: it fully agrees to the Laotian proposal that China and Laos exchange economic and cultural delegations.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 187 (Mar. 8, 1961). See [[cal.1961-03-07.china]].'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 187 (Mar. 8, 1961); [[w.guan-vietnamese-communists-relations-with]], 176 (in March, Quinim Pholsena, neutralist minister of national defense, finance and foreign affairs, and He Wei agree to exchange economic and cultural missions between Laos and China). To check: NCNA, 9 March 1961, SWB/FE/586/(i) (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.110). See [[cal.1961-03-07.china]].'
     src:
       c: 38a3e431
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 187: all'
+        - 'w.guan-vietnamese-communists-relations-with 176: ?'
     tags: [polity:prc, polity:laos]
   - id: cal.1961-03-08.china-leadership-4
     when: Mar. 8
@@ -3226,6 +3234,20 @@ entries:
       - 1961-03-15T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-15.china-leadership-10
+    when: Mar. 15
+    date: '1961-03-15'
+    place: guangdong
+    thread: china-leadership
+    also: [china]
+    c: 'As a Guangdong 广东 report has it: 10 per cent of the sprouts rot, the seed weak; in some communes of Zhongshan 中山 county half the fields wilt.'
+    n: '[[w.dikotter-maos-great-famine]], 138. Made public: 2010. To check: Guangdong Provincial Archives, Mar. 15, 1961, 217-1-119, p. 78 (cited by [[w.dikotter-maos-great-famine]], 138 n.41).'
+    src:
+      c: efb9d5a1
+      rows:
+        - 'w.dikotter-maos-great-famine 138: all'
+        - 'via w.dikotter-maos-great-famine 138 n.41: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1961-03-16.middle-east
     when: Mar. 16
     date: '1961-03-16'
@@ -4152,6 +4174,14 @@ entries:
       - 1961-03-20T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-20.china-leadership-9
+    when: Mar. 20
+    date: '1961-03-20'
+    thread: china-leadership
+    also: [laos]
+    c: 'The PLA General Political Department''s *Bulletin of Activities* no. 13 carries "Concerning the Struggle of the Laotian People": Laos, to the Americans the "stopper of the bottle" of Indochina, a base they mean to use against China; Kong Le''s and the Pathet Lao''s forces stronger than Phoumi Nosavan''s but fewer, in need of time and training; no early solution, the armed struggle decisive. China, the Soviet Union and North Vietnam for a peaceful settlement on Geneva''s lines; a conference first, then the Commission revived, both to deal only with Souvanna Phouma''s government; the Americans stalling for military advantage.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 187–188. Made public: 1966 ([[w.politics-of-the-chinese]]). To check: [[w.politics-of-the-chinese]], 365–369 (cited by [[w.guan-vietnamese-communists-relations-with]], 188 n.35). Names: Kong Le, Phoumi Nosavan, Souvanna Phouma.'
+    tags: [polity:prc, name:kong-le, name:phoumi-nosavan, name:souvanna-phouma, vis:only:prc, ok:fields-place]
   - id: cal.1961-03-21.states-and-cities-el-paso
     when: Mar. 21
     date: '1961-03-21'
@@ -4620,7 +4650,7 @@ entries:
     place: washington
     thread: laos
     c: Televised press conference with maps of the Pathet Lao advance. Seventh Fleet and Marines moved; SEATO consulted.
-    n: 'News Conference, [1961 Pub. Papers 213](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=271) (Mar. 23, 1961); [FRUS 1961–63, XXIV, doc. 39](https://history.state.gov/historicaldocuments/frus1961-63v24/d39) (editorial note: the three maps). [[w.gibbons-u-s-government-and]], II, 21 (on television, Mar. 23; the carriers and Marines moved; SEATO action to follow; not the maps); [[w.vietnam-victory-in-vietnam]], 86–88, 456 n.21 (North Vietnamese battalions in Laos from early 1961, some 12,000 men; Tchepone taken, Apr. 11–May 3, before the cease-fire); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 237 (the news conference); [[w.poole-joint-chiefs-of-staff]], 126 (the address; SEATO); [[w.anthony-war-in-northern-laos]], 46 (the press conference and its maps; the moves of JTF 116, the carriers and the Marines); [[w.clifford-counsel-to-the-president-2]], 344 (the nationally televised press conference, Kennedy before three maps of Laos showing the advance of the communist guerrillas; not the fleet, the Marines or SEATO); [[w.ball-past-has-another-pattern]], 363 (the Seventh Fleet into the South China Sea, combat troops in Okinawa alerted, five hundred marines with helicopters into Thailand, as Kennedy''s warning to the Soviets; Ball gives no day and puts them before the Bay of Pigs); [[w.mann-grand-delusion]], 229 (Mar. 23: Kennedy on national television, pointing to large maps of the region: "The security of all Southeast Asia will be endangered if Laos loses its neutral independence"; in late March the Seventh Fleet on alert for possible deployment off Thailand; not a press conference, the Pathet Lao''s advance, the Marines or SEATO). [FRUS vol. 24](https://history.state.gov/historicaldocuments/frus1961-63v24); [[w.moyar-triumph-forsaken]], 127. [[w.reeves-president-kennedy]], 75 (the maps; the fleet). [[w.sorensen-kennedy]], 643, 646. To check: [[w.rust-so-much-to-lose]]; [[w.freedman-kennedys-wars]]; [[w.hilsman-to-move-a-nation]]; Hist, CINCPAC, 1961, pt 2, p 84 (cited by [[w.anthony-war-in-northern-laos]], 46 n.60); State Department circular 1489, Mar. 29, 1961 (cited by [[w.poole-joint-chiefs-of-staff]], 126 n.19); [*New York Times*, Mar. 24, 1961](https://timesmachine.nytimes.com/timesmachine/1961/03/24/issue.html) (cited by [[w.moyar-triumph-forsaken]], 127 n.18). Names: Harriman.'
+    n: 'News Conference, [1961 Pub. Papers 213](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=271) (Mar. 23, 1961); [FRUS 1961–63, XXIV, doc. 39](https://history.state.gov/historicaldocuments/frus1961-63v24/d39) (editorial note: the three maps). [[w.gibbons-u-s-government-and]], II, 21 (on television, Mar. 23; the carriers and Marines moved; SEATO action to follow; not the maps); [[w.vietnam-victory-in-vietnam]], 86–88, 456 n.21 (North Vietnamese battalions in Laos from early 1961, some 12,000 men; Tchepone taken, Apr. 11–May 3, before the cease-fire); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 237 (the news conference); [[w.poole-joint-chiefs-of-staff]], 126 (the address; SEATO); [[w.anthony-war-in-northern-laos]], 46 (the press conference and its maps; the moves of JTF 116, the carriers and the Marines); [[w.clifford-counsel-to-the-president-2]], 344 (the nationally televised press conference, Kennedy before three maps of Laos showing the advance of the communist guerrillas; not the fleet, the Marines or SEATO); [[w.ball-past-has-another-pattern]], 363 (the Seventh Fleet into the South China Sea, combat troops in Okinawa alerted, five hundred marines with helicopters into Thailand, as Kennedy''s warning to the Soviets; Ball gives no day and puts them before the Bay of Pigs); [[w.mann-grand-delusion]], 229 (Mar. 23: Kennedy on national television, pointing to large maps of the region: "The security of all Southeast Asia will be endangered if Laos loses its neutral independence"; in late March the Seventh Fleet on alert for possible deployment off Thailand; not a press conference, the Pathet Lao''s advance, the Marines or SEATO); [[w.guan-vietnamese-communists-relations-with]], 188 (for an international conference on Laos if a cease-fire comes at once). [FRUS vol. 24](https://history.state.gov/historicaldocuments/frus1961-63v24); [[w.moyar-triumph-forsaken]], 127. [[w.reeves-president-kennedy]], 75 (the maps; the fleet). [[w.sorensen-kennedy]], 643, 646. To check: [[w.rust-so-much-to-lose]]; [[w.freedman-kennedys-wars]]; [[w.hilsman-to-move-a-nation]]; Hist, CINCPAC, 1961, pt 2, p 84 (cited by [[w.anthony-war-in-northern-laos]], 46 n.60); State Department circular 1489, Mar. 29, 1961 (cited by [[w.poole-joint-chiefs-of-staff]], 126 n.19); [*New York Times*, Mar. 24, 1961](https://timesmachine.nytimes.com/timesmachine/1961/03/24/issue.html) (cited by [[w.moyar-triumph-forsaken]], 127 n.18). Names: Harriman.'
     src:
       c: 763538e6
       rows:
@@ -4645,6 +4675,7 @@ entries:
         - 'w.clifford-counsel-to-the-president-2 344: A'
         - 'w.ball-past-has-another-pattern 363: ?'
         - 'w.mann-grand-delusion 229: ?'
+        - 'w.guan-vietnamese-communists-relations-with 188: ?'
     tags: [name:kennedy-john-f, name:harriman-w-averell]
     short: the March maps
   - id: cal.1961-03-23.cuba-bay-of-pigs
@@ -4686,11 +4717,12 @@ entries:
     thread: laos
     also: [europe-and-the-alliance, soviet-union]
     c: 'The British aide-mémoire to the Soviet Union: an immediate cease-fire in Laos, verified by the International Control Commission; the Geneva conference reconvened once it holds; a neutral government of national unity soon.'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 238. See [[cal.1961-03-23.laos]].'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 238; [[w.guan-vietnamese-communists-relations-with]], 189. See [[cal.1961-03-23.laos]].'
     src:
       c: 1d1b4593
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 238: all'
+        - 'w.guan-vietnamese-communists-relations-with 189: all'
   - id: cal.1961-03-23.transition-and-staff
     when: Mar. 23
     date: '1961-03-23'
@@ -4885,6 +4917,61 @@ entries:
       - 1961-03-22T22:00Z
     time_band: predawn
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-23.china-leadership-10
+    when: Mar. 23
+    date: '1961-03-23'
+    place: guangdong
+    thread: china-leadership
+    also: [china]
+    c: 'As a Guangdong 广东 report has it: people burned with red-hot tools; hot needles used to singe navels.'
+    n: '[[w.dikotter-maos-great-famine]], 295. Made public: 2010. To check: Guangdong Provincial Archives, Mar. 23, 1961, 217-1-643, pp. 10–13 (cited by [[w.dikotter-maos-great-famine]], 295 n.21).'
+    src:
+      c: 49afc631
+      rows:
+        - 'w.dikotter-maos-great-famine 295: all'
+        - 'via w.dikotter-maos-great-famine 295 n.21: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961-03-23.china-leadership-11
+    when: Mar. 23
+    date: '1961-03-23'
+    place: guangdong
+    thread: china-leadership
+    also: [china]
+    c: 'As a Guangdong 广东 report has it: boiling water poured over people; more often, fuel being scarce, they are covered in urine and excrement.'
+    n: '[[w.dikotter-maos-great-famine]], 295. Made public: 2010. To check: Guangdong Provincial Archives, Mar. 23, 1961, 217-1-642, p. 33 (cited by [[w.dikotter-maos-great-famine]], 295 n.26).'
+    src:
+      c: 924ea880
+      rows:
+        - 'w.dikotter-maos-great-famine 295: all'
+        - 'via w.dikotter-maos-great-famine 295 n.26: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961-03-23.china-leadership-12
+    when: Mar. 23
+    date: '1961-03-23'
+    place: guangdong
+    thread: china-leadership
+    also: [china]
+    c: 'As a Guangdong 广东 report has it: in a commune of Qingyuan, once Guangdong''s granary, 40 per cent of the villagers had oedema in 1960.'
+    n: '[[w.dikotter-maos-great-famine]], 286. Made public: 2010. To check: Guangdong Provincial Archives, Mar. 23, 1961, 217-1-643, pp. 10–13 (cited by [[w.dikotter-maos-great-famine]], 286 n.59). See [[cal.1961-03-23.china-leadership-10]].'
+    src:
+      c: b66536ba
+      rows:
+        - 'w.dikotter-maos-great-famine 286: all'
+        - 'via w.dikotter-maos-great-famine 286 n.59: all'
+    tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961-03-23.soviet-union
+    when: Mar. 23
+    date: '1961-03-23'
+    thread: soviet-union
+    also: [china, berlin-and-vienna]
+    c: 'Bohlen to Rusk: Khrushchev may act more "Bolshevik" at a meeting with Kennedy, so as not to be outflanked from the left by the Chinese.'
+    n: '[[w.chang-friends-and-enemies]], 232 ("before the Vienna meeting"). Made public: 1990 ([[w.chang-friends-and-enemies]], 232). To check: Bohlen to SecState, Mar. 23, 1961, Kennedy Papers, NSF, CF, box 180, USSR-General 3/23/61–5/8/61 (cited by [[w.chang-friends-and-enemies]], 232 n.6). Names: Bohlen, Rusk, Khrushchev, Kennedy.'
+    src:
+      c: 5c09cd54
+      rows:
+        - 'w.chang-friends-and-enemies 232: all'
+        - 'via x.1961-03-23.bohlen-to-secstate: all'
+    tags: [polity:us, vis:only:us, name:bohlen-charles-e, name:rusk-dean, name:khrushchev-nikita-s, name:kennedy-john-f]
   - id: cal.1961-03-24.program
     when: Mar. 24
     date: '1961-03-24'
@@ -5087,6 +5174,20 @@ entries:
         - 'w.friedman-shadow-cold-war 66: all'
         - 'via x.1961-03-24.zhu-ziqi-liu-ningyi-march-24-1961: ?'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1961-03-24.china-leadership-7
+    when: Mar. 24
+    date: '1961-03-24'
+    place: peking
+    thread: china-leadership
+    also: [china]
+    c: 'As a Beijing report has it: by 1961 up to half of the city''s workforce has famine oedema.'
+    n: '[[w.dikotter-maos-great-famine]], 150. Made public: 2010. To check: Beijing Municipal Archives, Mar. 24, 1961, 1-28-28, p. 6 (cited by [[w.dikotter-maos-great-famine]], 150 n.23).'
+    src:
+      c: fc1b8fce
+      rows:
+        - 'w.dikotter-maos-great-famine 150: all'
+        - 'via w.dikotter-maos-great-famine 150 n.23: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1961-03-25.soviet-union
     when: Mar. 25
     date: '1961-03-25'
@@ -7241,3 +7342,54 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 115–116: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03.vietnam-hanoi-4
+    when: Mar.
+    date: 1961-03
+    thread: vietnam-hanoi
+    also: [laos]
+    c: 'The General Staff''s new battle order: the 325th Division, 341st Brigade and 244th Regiment to Military Region IV; the 316th and 335th Brigades and 148th Regiment to the Northwest Military Region, ready for Battlefield B, the South, and C, Laos. The 338th Division set up to train all soldiers bound for the South.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 185–186. Made public: 1988 ([[w.lich-su-quan-doi]]). To check: [[w.lich-su-quan-doi]], 136–138 (cited by [[w.guan-vietnamese-communists-relations-with]], 186 n.24).'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1961-03.vietnam-hanoi-5
+    when: Mar.
+    date: 1961-03
+    thread: vietnam-hanoi
+    c: 'The Central Military Commission forms a committee to review the army''s strategy, the armed struggle and the resistance war''s lessons, the army''s part in construction and war: Lt. Gen. Hoàng Văn Thái, deputy chief of staff, at its head.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 186. Made public: 1973 (*Vietnam Documents and Research Notes*, doc. no. 114, July 1973, the earliest printing the note names). To check: Vietnam Documents and Research Notes, doc. no. 114, part 1, July 1973, "VWP-DRV Leadership, 1960–1973," 60–61 (cited by [[w.guan-vietnamese-communists-relations-with]], 186 n.25); [[w.lich-su-quan-doi]], 60–61 (cited by [[w.guan-vietnamese-communists-relations-with]], 186 n.26). Names: Hoàng Văn Thái.'
+    tags: [polity:drv, name:hoang-van-thai, vis:only:drv, ok:fields-place]
+  - id: cal.1961-03.vietnam-hanoi-6
+    when: Mar., early
+    date: 1961-03
+    at: before 1961-03-01
+    thread: vietnam-hanoi
+    c: 'Nguyễn Chí Thanh, moved from the head of the army''s General Political Directorate to agricultural cooperatives: from early March the press calls him not by his rank but "Rural Affairs Chairman of the Party Central Committee."'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 186 (by P. J. Honey). To check: FO 371/166697, DV 1011/2, 15 February 1962, from Saigon to Foreign Office (1961 annual report on North Vietnam) (cited by [[w.guan-vietnamese-communists-relations-with]], 186 n.29); Hanoi Radio, 15 March 1961, SWB/FE/593/B/1 (cited by [[w.guan-vietnamese-communists-relations-with]], 186 n.30); [[w.honey-communism-in-north-vietnam]], 97 (cited by [[w.guan-vietnamese-communists-relations-with]], 186 n.31). See [[cal.1961-03-03.vietnam-hanoi]]. Names: Nguyễn Chí Thanh.'
+    src:
+      rows:
+        - 'via x.1961-03-15.hanoi-radio-fe-593-b-1: ?'
+    tags: [polity:drv, name:nguyen-chi-thanh, ok:fields-place]
+  - id: cal.1961-03.china-3
+    when: Mar.
+    date: 1961-03
+    place: canton
+    thread: china
+    c: 'As an East German report has it: in the Guangzhou 廣州 market trade is open; many of the sellers are children, some six or seven years old, the older ones smoking and haggling.'
+    n: '[[w.dikotter-maos-great-famine]], 206. To check: MfAA, Berlin, March–April 1961, A17009, pp. 3–4 (cited by [[w.dikotter-maos-great-famine]], 206 n.39). Check: the day; the file is of March–April 1961.'
+    src:
+      c: 517c43a3
+      rows:
+        - 'w.dikotter-maos-great-famine 206: all'
+        - 'via w.dikotter-maos-great-famine 206 n.39: all'
+    tags: [form:state, polity:prc]
+  - id: cal.1961-03.china-leadership-28
+    when: Mar.
+    date: 1961-03
+    place: peking
+    thread: china-leadership
+    c: '*Beijing wenyi* 北京文艺, March number, prints Qu Liuyi''s 曲六乙 "Ashamed to be licorice, daring to be the southern Bao Gong" 〈羞为甘草剂,敢做南包公〉 and Deng Yunjian''s 邓允健 "On *Hai Rui baguan*" 〈评《海瑞罢官》〉. Qu: the play true to history with the fiction it needs.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 9. See [[cal.1961-02-16.china-leadership]].'
+    src:
+      c: 5d5eb147
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 9: all'
+    tags: [polity:prc]

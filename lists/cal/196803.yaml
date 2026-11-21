@@ -310,6 +310,14 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XIX, 224: all'
     tags: [polity:prc, name:lin-biao, name:mao-zedong, vis:only:prc]
+  - id: cal.1968-03-02.china-leadership-3
+    when: Mar. 2
+    date: '1968-03-02'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives four guests of the China International Travel Service, among them 菅沼不二男, president of the Japan–China Travel Company, and 久保专治, president of the Kansai International Travel Company.
+    n: '[[w.chen-yi-nianpu]], 1200. Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
   - id: cal.1968-03-03.opinion
     when: Mar. 3
     date: '1968-03-03'
@@ -414,11 +422,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou, with Chen Yi, receives Romania's ambassador in the Fujian Hall of the Great Hall of the People.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 522 (Mar. 3, 1968; 8 p.m., Fujian Hall, Great Hall of the People). The book names the ambassador 杜马. Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 522 (Mar. 3, 1968; 8 p.m., Fujian Hall, Great Hall of the People); [[w.chen-yi-nianpu]], 1200 (Mar. 3, 1968, 8 p.m., the Fujian Hall of the Great Hall of the People; Chen Yi and Zhou receive 杜马). The book names the ambassador 杜马. Names: Zhou Enlai, Chen Yi.'
     src:
       c: e2d66de9
       rows:
         - 'w.zhou-enlai-waijiao-huodong 522: all'
+        - 'w.chen-yi-nianpu 1200: ?'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi]
     time_zone: Asia/Shanghai
   - id: cal.1968-03-04.vietnam
@@ -714,6 +723,19 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 263–264: all'
         - 'via x.1968-03-04.beijing-ribao-mar-4-1968: all'
     tags: [polity:prc, name:mao-zedong]
+  - id: cal.1968-03-04.china-leadership-4
+    when: Mar. 4
+    date: '1968-03-04'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 at the reception of 拉克米里, Morocco's chargé d'affaires, for Morocco's national day.
+    n: '[[w.chen-yi-nianpu]], 1200. The words: 晚上 (1200). Names: Chen Yi.'
+    tags: [polity:prc, polity:morocco, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1968-03-04T11:00Z
+      - 1968-03-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1968-03-05.students-los-angeles
     when: Mar. 5–8
     date: '1968-03-05'
@@ -1439,6 +1461,13 @@ entries:
         - 'https://digitalarchive.umd.edu/document/300554: all'
     tags: [polity:ussr, polity:romania, name:brezhnev-leonid, name:ceausescu-nicolae, vis:only:ussr+romania]
     time_zone: Europe/Sofia
+  - id: cal.1968-03-07.china-leadership-2
+    when: Mar. 7
+    date: '1968-03-07'
+    thread: china-leadership
+    c: Mao Zedong 毛泽东 and others, Chen Yi 陈毅 among them, receive the delegates to the congress of activists in the study of Mao's works of the PLA's 中国人民解放军 artillery, armored forces, engineers, railway troops, signal corps, chemical defense troops, the Higher Military Academy and the Political Academy, and the delegates to specialized conferences in Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 1200. Names: Chen Yi, Mao Zedong.'
+    tags: [polity:prc, name:chen-yi, name:mao-zedong, ok:fields-place]
   - id: cal.1968-03-08.conservation
     when: Mar. 8
     date: '1968-03-08'
@@ -5008,6 +5037,22 @@ entries:
       - 1968-03-18T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1968-03-18.china-leadership-2
+    when: Mar. 18
+    date: '1968-03-18'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 at the airport to welcome the delegation of South Vietnam's youth and American-killing heroes.
+    n: '[[w.chen-yi-nianpu]], 1200–1201. Names: Chen Yi.'
+    tags: [polity:prc, polity:nlf, name:chen-yi, ok:fields-place]
+  - id: cal.1968-03-18.china-leadership-3
+    when: Mar. 18
+    date: '1968-03-18'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 and Li Fuchun 李富春 give a banquet welcoming the delegation of South Vietnam's youth and American-killing heroes led by 武公中.
+    n: '[[w.chen-yi-nianpu]], 1201. Names: Chen Yi, Li Fuchun.'
+    tags: [polity:prc, polity:nlf, name:chen-yi, name:li-fuchun, ok:fields-place]
   - id: cal.1968-03-19.students
     when: Mar. 19–23
     date: '1968-03-19'
@@ -6064,7 +6109,7 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: The Center, the State Council, the Military Commission and the Cultural Revolution Group order Yang Chengwu, Yu Lijin and Fu Chongbi removed from their posts; Huang Yongsheng chief of the General Staff, Wen Yucheng also commander of the Peking Garrison.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Mar. 22, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 221 (Mar. 22, 1968); [[w.jianguo-yilai-mao-zedong]], XIX, 440 n.15 (Mar. 1968; the editors'' note: Yang Chengwu, Yu Lijin and Fu Chongbi removed from their posts, and detained, in the "Yang, Yu, Fu incident"; it gives no day and no issuing bodies); [[w.macfarquhar-maos-last-revolution]], 246 (Huang Yongsheng, Lin Biao''s man, made chief of staff at once in full, not acting; Yu Lijin''s going leaves Wu Faxian more firmly in charge of the air force; Wen Yucheng the new garrison commander); [[w.mao-zedong-zhuan]], VI, ch. 77 n.5 (the book puts the fall of Yang Chengwu, Yu Lijin 余立金 and Fu Chongbi in March 1968 without the day, a stroke planned by Lin Biao 林彪 and Jiang Qing with Mao''s consent beforehand: Zhou Enlai told Yang after his release in 1974 that Lin denounced him to Mao repeatedly and it was studied four times before Mao agreed; Yang was acting chief of the General Staff, Yu political commissar of the Air Force, Fu commander of the Peking Garrison; Mao held back somewhat, n.5, n.6 (Apr. 6, 1968), n.7). [[w.teiwes-tragedy-of-lin-biao]], 90, 101–102 (on the 22nd Yang and Yu arrested and Fu transferred; Huang Yongsheng the new chief of staff); [[w.jian-zhou-enlai]], 584 (in March Yang Chengwu, acting chief of staff, Yu Lijin, the Air Force''s political commissar, and Fu Chongbi, the Peking Garrison''s commander, arrested without warning; on Mar. 22 removed from their posts). Made public: 2013. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], VI, ch. 77), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if the 1997 edition of the Zhou chronology ([[w.zhou-enlai-nianpu-1949]]), cited here, prints it. To check: [[w.jiaoyanshi-zhongguo-gongchan-dang-qishi]], 555–557 (cited by [[w.macfarquhar-maos-last-revolution]], 246 n.32a); [[w.huang-factionalism-in-chinese-communist]], 311–314 (cited by [[w.macfarquhar-maos-last-revolution]], 246 n.32c); [[w.wenqian-wannian-zhou-enlai]], 265 (cited by [[w.macfarquhar-maos-last-revolution]], 246 n.32d); [[w.yunsheng-maojiawan-jishi]], 215–220 (cited by [[w.macfarquhar-maos-last-revolution]], 246 n.33); [[w.yang-chengwu-jiangjun-zishu]], 303, 339–340, 374 (cited by [[w.mao-zedong-zhuan]], VI, ch. 77 n.5); Mao Zedong 毛泽东, talk with all attending the Military Commission meeting 中央军委会议 (record 讲话记录), Dec. 21, 1973, in which he says the ''Yang, Yu, Fu affair'' was Lin Biao''s doing and that he heard one side only and made a mistake (cited by [[w.mao-zedong-zhuan]], VI, ch. 77 n.7); [[w.kau-lin-piao-affair]], 488–489 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97a); [[w.yunsheng-maojiawan-jishi]], 151 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97b); [[w.weixun-wo-suo-zhidaode-ye]], 225 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97c); [[w.nianyi-da-dongluande-niandai]], 290 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97d); Teiwes and Sun''s unnamed oral sources (interviews with Party and military historians and with persons connected to the actors, early 1990s), as they report them (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97e). Names: Lin Biao, Huang Yongsheng, Yang Chengwu, Yu Lijin, Fu Chongbi, Wen Yucheng. Check: the chronology''s note 2 (Lin Biao and Jiang Qing framing them; rehabilitated 1974, 1979) is the editors''.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Mar. 22, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 221 (Mar. 22, 1968); [[w.jianguo-yilai-mao-zedong]], XIX, 440 n.15 (Mar. 1968; the editors'' note: Yang Chengwu, Yu Lijin and Fu Chongbi removed from their posts, and detained, in the "Yang, Yu, Fu incident"; it gives no day and no issuing bodies); [[w.macfarquhar-maos-last-revolution]], 246 (Huang Yongsheng, Lin Biao''s man, made chief of staff at once in full, not acting; Yu Lijin''s going leaves Wu Faxian more firmly in charge of the air force; Wen Yucheng the new garrison commander); [[w.mao-zedong-zhuan]], VI, ch. 77 n.5 (the book puts the fall of Yang Chengwu, Yu Lijin 余立金 and Fu Chongbi in March 1968 without the day, a stroke planned by Lin Biao 林彪 and Jiang Qing with Mao''s consent beforehand: Zhou Enlai told Yang after his release in 1974 that Lin denounced him to Mao repeatedly and it was studied four times before Mao agreed; Yang was acting chief of the General Staff, Yu political commissar of the Air Force, Fu commander of the Peking Garrison; Mao held back somewhat, n.5, n.6 (Apr. 6, 1968), n.7). [[w.teiwes-tragedy-of-lin-biao]], 90, 101–102 (on the 22nd Yang and Yu arrested and Fu transferred; Huang Yongsheng the new chief of staff); [[w.jian-zhou-enlai]], 584 (in March Yang Chengwu, acting chief of staff, Yu Lijin, the Air Force''s political commissar, and Fu Chongbi, the Peking Garrison''s commander, arrested without warning; on Mar. 22 removed from their posts); [[w.chen-yi-nianpu]], 1201 (March 1968; Lin Biao and Jiang Qing make up the "Yang Chengwu, Yu Lijin, Fu Chongbi affair," charging the three with an armed assault on the Central Cultural Revolution Group and a reversal of the "February adverse current"; on the 22nd the Center, State Council, Military Commission and the Group order Yang removed as acting chief of the General Staff and from the Commission''s Standing Committee, Yu as air force political commissar and arrested as a "traitor," Fu as commander of the Peking Garrison; Huang Yongsheng 黄永胜 named chief of the General Staff, Wen Yucheng 温玉成 also commander of the garrison). Made public: 1995. To check: [[w.jiaoyanshi-zhongguo-gongchan-dang-qishi]], 555–557 (cited by [[w.macfarquhar-maos-last-revolution]], 246 n.32a); [[w.huang-factionalism-in-chinese-communist]], 311–314 (cited by [[w.macfarquhar-maos-last-revolution]], 246 n.32c); [[w.wenqian-wannian-zhou-enlai]], 265 (cited by [[w.macfarquhar-maos-last-revolution]], 246 n.32d); [[w.yunsheng-maojiawan-jishi]], 215–220 (cited by [[w.macfarquhar-maos-last-revolution]], 246 n.33); [[w.yang-chengwu-jiangjun-zishu]], 303, 339–340, 374 (cited by [[w.mao-zedong-zhuan]], VI, ch. 77 n.5); Mao Zedong 毛泽东, talk with all attending the Military Commission meeting 中央军委会议 (record 讲话记录), Dec. 21, 1973, in which he says the ''Yang, Yu, Fu affair'' was Lin Biao''s doing and that he heard one side only and made a mistake (cited by [[w.mao-zedong-zhuan]], VI, ch. 77 n.7); [[w.kau-lin-piao-affair]], 488–489 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97a); [[w.yunsheng-maojiawan-jishi]], 151 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97b); [[w.weixun-wo-suo-zhidaode-ye]], 225 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97c); [[w.nianyi-da-dongluande-niandai]], 290 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97d); Teiwes and Sun''s unnamed oral sources (interviews with Party and military historians and with persons connected to the actors, early 1990s), as they report them (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97e). Names: Lin Biao, Huang Yongsheng, Yang Chengwu, Yu Lijin, Fu Chongbi, Wen Yucheng. Check: the chronology''s note 2 (Lin Biao and Jiang Qing framing them; rehabilitated 1974, 1979) is the editors''.'
     src:
       c: 98d7ecc4
       rows:
@@ -6076,6 +6121,7 @@ entries:
         - 'w.teiwes-tragedy-of-lin-biao 90, 101–102: ?'
         - 'via x.undated.teiwes-sun-oral-sources: ?'
         - 'w.jian-zhou-enlai 584: ?'
+        - 'w.chen-yi-nianpu 1201: ?'
     tags: [polity:prc, name:lin-biao, name:huang-yongsheng, vis:only:prc]
   - id: cal.1968-03-22.china-leadership-2
     when: Mar. 22
@@ -6118,6 +6164,27 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 499: all'
     tags: [polity:prc]
+  - id: cal.1968-03-22.china-leadership-5
+    when: Mar. 22
+    date: '1968-03-22'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 at the cocktail party of 巴赞加, the Congo (Brazzaville)'s Ambassador, for the fourth anniversary of diplomatic relations between the two countries.
+    n: '[[w.chen-yi-nianpu]], 1201. Names: Chen Yi.'
+    tags: [polity:prc, polity:congo-brazzaville, name:chen-yi, ok:fields-place]
+  - id: cal.1968-03-22.china-leadership-6
+    when: Mar. 22
+    date: '1968-03-22'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 at the reception of the China–Pakistan Friendship Association 中国巴基斯坦友好协会 for the twelfth anniversary of the Islamic Republic of Pakistan.
+    n: '[[w.chen-yi-nianpu]], 1201. The words: 晚上 (1201). Names: Chen Yi.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1968-03-22T11:00Z
+      - 1968-03-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1968-03-23.vietnam-abrams
     when: Mar. 23
     date: '1968-03-23'
@@ -6341,12 +6408,18 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Chen Yi, Guo Moruo and Saifudin attend the reception of Pakistan''s ambassador, Sultan, for Pakistan''s National Day. Chen Yi: China firmly backs the Pakistani government and people against foreign aggression and interference, for national sovereignty and independence, and the Kashmiri people''s just struggle for national self-determination.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 191 (Mar. 23, 1968). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 191 (Mar. 23, 1968); [[w.chen-yi-nianpu]], 1201 (Mar. 23, 1968, evening; Chen Yi''s speech at the reception of Sultan Mohammad Khan 苏尔坦·穆罕默德·汗: praises Pakistan''s tradition against imperialism and colonialism; the failure of the American war in Vietnam brings grave economic consequences and the shadow of crisis over the capitalist world; the modern revisionists, imperialism''s accomplices, are at the end of their road, the "February black meeting" exposing them). Names: Chen Yi.'
     src:
       c: 6155f21e
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 191: all'
+        - 'w.chen-yi-nianpu 1201: ?'
     tags: [polity:prc, polity:pakistan, name:chen-yi]
+    time_range:
+      - 1968-03-23T11:00Z
+      - 1968-03-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1968-03-23.china-leadership-2
     when: Mar. 23
     date: '1968-03-23'
@@ -6590,7 +6663,7 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Lin Biao, Great Hall, to a meeting of army cadres of regiment level and above: announces the "errors" of Yang Chengwu, Yu Lijin and Fu Chongbi and the decision on them.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Mar. 22, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 221–222 (Mar. 24, 1968; Lin''s announcement, note 1); [[w.yang-jisheng-tiandi-fanfu]], I, 442–444 (the meeting of 10,000 cadres of regiment level and above of the army organs, units and academies in Peking in the Great Hall''s auditorium, waiting from 9 p.m. and beginning after midnight; Yang Chengwu removed as acting chief of staff, Yu Lijin arrested, Fu Chongbi removed as garrison commander; Lin, on Mao''s three points (against factionalism, against double-dealing, the relative and the absolute): "a matter neither large nor small"; Yang with Yu to bring down Wu Faxian, with Fu to bring down Xie Fuzhi; praise of Jiang Qing; Zhou: a new "February adverse current," praise of Jiang Qing in the thirties, and leads the cry "down with whoever opposes Comrade Jiang Qing"; Jiang Qing, Chen Boda and Kang Sheng speak; Mao appears on the platform); [[w.yang-jisheng-tiandi-fanfu]], II, 1146 (a rally of ten thousand at the Great Hall: Yang Chengwu, Yu Lijin and Fu Chongbi removed, Yu arrested); [[w.teiwes-tragedy-of-lin-biao]], 52, 92–101 (Lin, two hours late, speaks from an outline Mao gave him: Yang''s "mountaintopism," trusting a small gang from one district of Jin-Cha-Ji; "double dealing," a "Luo Ruiqing element"; the "distortion of Marxism," the "absolute authority" theory; Yang meant to remove Wu Faxian, Xie Fuzhi, Xu Shiyou, Han Xianchu, Huang Yongsheng, Chen Xilian and Yang Dezhi; the minority to be knocked down; the top leadership met Mao four times to decide; nothing of a "rightist wind" or a backer; of Jiang Qing: she "loyally executed Chairman Mao''s instructions" and "has been very creative herself"); [[w.jian-zhou-enlai]], 584 ("Two days later," at a mass rally, standing before Mao, Lin lists their crimes, factionalism and opposition to Mao Thought, mistakes "neither very big nor very small"). Made public: 2013. Check: [[w.zhou-enlai-nianpu-1949-2020]], III, 221–222 (Mar. 24, 1968), has Zhou speak at the meeting after Lin: he supports Mao''s decision and the order Lin announced, speaks of the three men''s "errors", and affirms and praises Jiang Qing. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2008), 727 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 442 n.57); Lin Biao 林彪, 《在軍隊幹部大會上講話》, Mar. 24, 1968, in the *Wenku* (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 443 n.58); 《中央首長在接見軍隊幹部會議上的講話》 (Zhou Enlai, Jiang Qing, Chen Boda), Mar. 24, 1968 (printed 1967), in the *Wenku* (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 443 n.59); [[w.nianyi-da-dongluande-niandai]], 273–284, 286, 293 (cited by [[w.teiwes-tragedy-of-lin-biao]], 92 n.73a); [[w.harding-chinese-state-in-crisis-1991]], 186 (cited by [[w.teiwes-tragedy-of-lin-biao]], 92 n.73b); [[w.teiwes-provincial-leadership-in-china]], 12, 22–24, 31 (cited by [[w.teiwes-tragedy-of-lin-biao]], 92 n.73c); [[w.kau-lin-piao-affair]], 488–500 (cited by [[w.teiwes-tragedy-of-lin-biao]], 92 n.73d); [[w.barnouin-ten-years-of-turbulence]], 165, 167 (cited by [[w.teiwes-tragedy-of-lin-biao]], 92 n.73e); [[w.kau-lin-piao-affair]], 489–490, 494 (cited by [[w.teiwes-tragedy-of-lin-biao]], 92 n.74); [[w.kau-lin-piao-affair]], 488 (cited by [[w.teiwes-tragedy-of-lin-biao]], 93 n.78); [[w.kau-lin-piao-affair]], 493–494 (cited by [[w.teiwes-tragedy-of-lin-biao]], 94 n.79a); [[w.kau-lin-piao-affair]], 490, 495 (cited by [[w.teiwes-tragedy-of-lin-biao]], 96 n.84a); [[w.zhonggong-dangshi-jiaoxue-cankao]], XXVI, 88, 90 (cited by [[w.teiwes-tragedy-of-lin-biao]], 96 n.84b); [[w.kau-lin-piao-affair]], 489, 497–499 (cited by [[w.teiwes-tragedy-of-lin-biao]], 100 n.93); [[w.kau-lin-piao-affair]], 488–489 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97a); [[w.yunsheng-maojiawan-jishi]], 151 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97b); [[w.weixun-wo-suo-zhidaode-ye]], 225 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97c); [[w.nianyi-da-dongluande-niandai]], 290 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97d); Teiwes and Sun''s unnamed oral sources (interviews with Party and military historians and with persons connected to the actors, early 1990s), as they report them (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97e); [[w.kau-lin-piao-affair]], 496 (cited by [[w.teiwes-tragedy-of-lin-biao]], 52 n.103); Lin Biao''s speech at a conference of commanders above army level, Mar. 24, 1968, in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.jian-zhou-enlai]], 584 n.73). See [[cal.1968-03-22.china-leadership]]. Names: Lin Biao, Yang Chengwu, Yu Lijin, Fu Chongbi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Mar. 22, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 221–222 (Mar. 24, 1968; Lin''s announcement, note 1); [[w.yang-jisheng-tiandi-fanfu]], I, 442–444 (the meeting of 10,000 cadres of regiment level and above of the army organs, units and academies in Peking in the Great Hall''s auditorium, waiting from 9 p.m. and beginning after midnight; Yang Chengwu removed as acting chief of staff, Yu Lijin arrested, Fu Chongbi removed as garrison commander; Lin, on Mao''s three points (against factionalism, against double-dealing, the relative and the absolute): "a matter neither large nor small"; Yang with Yu to bring down Wu Faxian, with Fu to bring down Xie Fuzhi; praise of Jiang Qing; Zhou: a new "February adverse current," praise of Jiang Qing in the thirties, and leads the cry "down with whoever opposes Comrade Jiang Qing"; Jiang Qing, Chen Boda and Kang Sheng speak; Mao appears on the platform); [[w.yang-jisheng-tiandi-fanfu]], II, 1146 (a rally of ten thousand at the Great Hall: Yang Chengwu, Yu Lijin and Fu Chongbi removed, Yu arrested); [[w.teiwes-tragedy-of-lin-biao]], 52, 92–101 (Lin, two hours late, speaks from an outline Mao gave him: Yang''s "mountaintopism," trusting a small gang from one district of Jin-Cha-Ji; "double dealing," a "Luo Ruiqing element"; the "distortion of Marxism," the "absolute authority" theory; Yang meant to remove Wu Faxian, Xie Fuzhi, Xu Shiyou, Han Xianchu, Huang Yongsheng, Chen Xilian and Yang Dezhi; the minority to be knocked down; the top leadership met Mao four times to decide; nothing of a "rightist wind" or a backer; of Jiang Qing: she "loyally executed Chairman Mao''s instructions" and "has been very creative herself"); [[w.jian-zhou-enlai]], 584 ("Two days later," at a mass rally, standing before Mao, Lin lists their crimes, factionalism and opposition to Mao Thought, mistakes "neither very big nor very small"); [[w.chen-yi-nianpu]], 1201 (Mar. 24, 1968; the meeting of 10,000 of the organs and units in Peking at the Great Hall of the People announcing the order). Made public: 1995. Check: [[w.zhou-enlai-nianpu-1949-2020]], III, 221–222 (Mar. 24, 1968), has Zhou speak at the meeting after Lin: he supports Mao''s decision and the order Lin announced, speaks of the three men''s "errors", and affirms and praises Jiang Qing. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2008), 727 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 442 n.57); Lin Biao 林彪, 《在軍隊幹部大會上講話》, Mar. 24, 1968, in the *Wenku* (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 443 n.58); 《中央首長在接見軍隊幹部會議上的講話》 (Zhou Enlai, Jiang Qing, Chen Boda), Mar. 24, 1968 (printed 1967), in the *Wenku* (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 443 n.59); [[w.nianyi-da-dongluande-niandai]], 273–284, 286, 293 (cited by [[w.teiwes-tragedy-of-lin-biao]], 92 n.73a); [[w.harding-chinese-state-in-crisis-1991]], 186 (cited by [[w.teiwes-tragedy-of-lin-biao]], 92 n.73b); [[w.teiwes-provincial-leadership-in-china]], 12, 22–24, 31 (cited by [[w.teiwes-tragedy-of-lin-biao]], 92 n.73c); [[w.kau-lin-piao-affair]], 488–500 (cited by [[w.teiwes-tragedy-of-lin-biao]], 92 n.73d); [[w.barnouin-ten-years-of-turbulence]], 165, 167 (cited by [[w.teiwes-tragedy-of-lin-biao]], 92 n.73e); [[w.kau-lin-piao-affair]], 489–490, 494 (cited by [[w.teiwes-tragedy-of-lin-biao]], 92 n.74); [[w.kau-lin-piao-affair]], 488 (cited by [[w.teiwes-tragedy-of-lin-biao]], 93 n.78); [[w.kau-lin-piao-affair]], 493–494 (cited by [[w.teiwes-tragedy-of-lin-biao]], 94 n.79a); [[w.kau-lin-piao-affair]], 490, 495 (cited by [[w.teiwes-tragedy-of-lin-biao]], 96 n.84a); [[w.zhonggong-dangshi-jiaoxue-cankao]], XXVI, 88, 90 (cited by [[w.teiwes-tragedy-of-lin-biao]], 96 n.84b); [[w.kau-lin-piao-affair]], 489, 497–499 (cited by [[w.teiwes-tragedy-of-lin-biao]], 100 n.93); [[w.kau-lin-piao-affair]], 488–489 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97a); [[w.yunsheng-maojiawan-jishi]], 151 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97b); [[w.weixun-wo-suo-zhidaode-ye]], 225 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97c); [[w.nianyi-da-dongluande-niandai]], 290 (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97d); Teiwes and Sun''s unnamed oral sources (interviews with Party and military historians and with persons connected to the actors, early 1990s), as they report them (cited by [[w.teiwes-tragedy-of-lin-biao]], 101 n.97e); [[w.kau-lin-piao-affair]], 496 (cited by [[w.teiwes-tragedy-of-lin-biao]], 52 n.103); Lin Biao''s speech at a conference of commanders above army level, Mar. 24, 1968, in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.jian-zhou-enlai]], 584 n.73). See [[cal.1968-03-22.china-leadership]]. Names: Lin Biao, Yang Chengwu, Yu Lijin, Fu Chongbi.'
     src:
       c: e13fbea9
       rows:
@@ -6604,6 +6677,7 @@ entries:
         - 'via x.undated.teiwes-sun-oral-sources: ?'
         - 'w.jian-zhou-enlai 584: ?'
         - 'via x.1968-03-24.lin-biao-speech-army-cadres-meeting-mar-24: ?'
+        - 'w.chen-yi-nianpu 1201: ?'
     tags: [polity:prc, name:lin-biao, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1968-03-24.china-leadership-2
@@ -6907,7 +6981,7 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao, Peking: approves Lin Biao''s new Military Commission Office Group: Huang Yongsheng head, Wu Faxian deputy, Ye Qun, Li Zuopeng, Qiu Huizuo.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Mar. 25, 1968. [[w.yang-jisheng-tiandi-fanfu]], I, 448 (the Military Commission''s Administrative Group reorganized: Huang Yongsheng head, chief of staff and commander at Canton; Wu Faxian deputy head; Ye Qun, Li Zuopeng and Qiu Huizuo members); [[w.teiwes-tragedy-of-lin-biao]], 102 (the purge enhances, nominally, Lin''s control of the army: Huang Yongsheng chief of staff; Mao''s order that the Military Commission''s Standing Committee cease all work; army documents denied the old marshals). Made public: 2013. To check: [[w.nianyi-da-dongluande-niandai]], 285, 288, 297, 397 (cited by [[w.teiwes-tragedy-of-lin-biao]], 102 n.99a); Nie Rongzhen, "Several questions concerning Lin Biao," *Xinhua ribao* (Nanjing), Oct. 18–26, 1984, parts of his memoirs serialized, translated in FBIS, Nov. 5–7, 1984, Oct. 19, 1984 (FBIS, Nov. 5, 1984, K19) (cited by [[w.teiwes-tragedy-of-lin-biao]], 102 n.99b); [[w.barnouin-ten-years-of-turbulence]], 167, 171, 320 (cited by [[w.teiwes-tragedy-of-lin-biao]], 102 n.99c). Names: Mao Zedong, Lin Biao, Huang Yongsheng, Wu Faxian, Ye Qun, Li Zuopeng, Qiu Huizuo.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Mar. 25, 1968. [[w.yang-jisheng-tiandi-fanfu]], I, 448 (the Military Commission''s Administrative Group reorganized: Huang Yongsheng head, chief of staff and commander at Canton; Wu Faxian deputy head; Ye Qun, Li Zuopeng and Qiu Huizuo members); [[w.teiwes-tragedy-of-lin-biao]], 102 (the purge enhances, nominally, Lin''s control of the army: Huang Yongsheng chief of staff; Mao''s order that the Military Commission''s Standing Committee cease all work; army documents denied the old marshals); [[w.chen-yi-nianpu]], 1201 (Mar. 25, 1968; the Military Commission''s Office Group reorganized under Huang Yongsheng in Yang Chengwu''s place, giving Lin Biao''s group much of the Commission''s power). Made public: 2013. To check: [[w.nianyi-da-dongluande-niandai]], 285, 288, 297, 397 (cited by [[w.teiwes-tragedy-of-lin-biao]], 102 n.99a); Nie Rongzhen, "Several questions concerning Lin Biao," *Xinhua ribao* (Nanjing), Oct. 18–26, 1984, parts of his memoirs serialized, translated in FBIS, Nov. 5–7, 1984, Oct. 19, 1984 (FBIS, Nov. 5, 1984, K19) (cited by [[w.teiwes-tragedy-of-lin-biao]], 102 n.99b); [[w.barnouin-ten-years-of-turbulence]], 167, 171, 320 (cited by [[w.teiwes-tragedy-of-lin-biao]], 102 n.99c). Names: Mao Zedong, Lin Biao, Huang Yongsheng, Wu Faxian, Ye Qun, Li Zuopeng, Qiu Huizuo.'
     src:
       c: 691f99d2
       rows:
@@ -6915,6 +6989,7 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 448: ?'
         - 'w.teiwes-tragedy-of-lin-biao 102: ?'
         - 'via x.1984-10.nie-rongzhen-several-questions-concerning-lin-biao: ?'
+        - 'w.chen-yi-nianpu 1201: ?'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:huang-yongsheng, name:wu-faxian, name:ye-qun, name:li-zuopeng, name:qiu-huizuo, vis:only:prc]
   - id: cal.1968-03-25.china-leadership-2
     when: Mar. 25–28
@@ -7887,7 +7962,7 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Mao with Lin Biao and Zhou Enlai, Zhongnanhai (swimming pool), with Huang Yongsheng, Wu Faxian and Wen Yucheng: his own secretaries only handle papers, staffs must be small; the Military Commission is the Office Group, its standing committee need not meet, the Office Group to add Liu Xianquan and answer to Lin directly, the political work group may go; small transfers of commanders first, large later; Nie Fengzhi not suspended, to study as Chen Zaidao does.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Mar. 28, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 222–223 (Mar. 28, 1968); [[w.yang-jisheng-tiandi-fanfu]], I, 449 (Mao, with Lin Biao, receiving Huang Yongsheng and others: "the Military Commission is the Administrative Group; its Standing Committee need not meet; from now Vice-Chairman Lin runs the Administrative Group directly"); [[w.jian-zhou-enlai]], 585 (at a meeting on Mar. 28 Mao: no need for the Military Commission to meet any more, its role to be filled by an executive military group headed by Lin Biao). Made public: 2013. To check: [[w.zedong-mao-zedong-nianpu]], VI, 157 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 449 n.69). Names: Mao Zedong, Lin Biao, Zhou Enlai, Huang Yongsheng, Wu Faxian, Wen Yucheng, Liu Xianquan, Nie Fengzhi, Chen Zaidao.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Mar. 28, 1968. [[w.zhou-enlai-nianpu-1949-2020]], III, 222–223 (Mar. 28, 1968); [[w.yang-jisheng-tiandi-fanfu]], I, 449 (Mao, with Lin Biao, receiving Huang Yongsheng and others: "the Military Commission is the Administrative Group; its Standing Committee need not meet; from now Vice-Chairman Lin runs the Administrative Group directly"); [[w.jian-zhou-enlai]], 585 (at a meeting on Mar. 28 Mao: no need for the Military Commission to meet any more, its role to be filled by an executive military group headed by Lin Biao); [[w.chen-yi-nianpu]], 1201 (March 1968, "soon after" Mar. 25; on Mao''s view the Military Commission''s Standing Committee is to meet no more, the Office Group in effect replacing it). Made public: 2013. To check: [[w.zedong-mao-zedong-nianpu]], VI, 157 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 449 n.69). Names: Mao Zedong, Lin Biao, Zhou Enlai, Huang Yongsheng, Wu Faxian, Wen Yucheng, Liu Xianquan, Nie Fengzhi, Chen Zaidao.'
     src:
       c: a738acc3
       rows:
@@ -7895,6 +7970,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 222–223: A, B'
         - 'w.yang-jisheng-tiandi-fanfu I, 449: ?'
         - 'w.jian-zhou-enlai 585: ?'
+        - 'w.chen-yi-nianpu 1201: ?'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, name:zhou-enlai, name:huang-yongsheng, name:wu-faxian, vis:only:prc]
   - id: cal.1968-03-28.vietnam-khe-sanh
     when: Mar. 28
