@@ -6864,12 +6864,13 @@ entries:
     thread: vietnam-hanoi
     also: [soviet-union]
     c: The Kremlin invites the National Liberation Front of South Vietnam to open a permanent mission in Moscow.
-    n: '[[w.friedman-shadow-cold-war]], 129. To check: Report of Soviet-East European Department of MFA on foreign policy of new Soviet leadership, February 15, 1965, CFMA doc. 109-03652-01, 8 (cited by [[w.friedman-shadow-cold-war]], 129 n.123a); [[w.gaiduk-soviet-union-and-the]], 20 (cited by [[w.friedman-shadow-cold-war]], 129 n.123b).'
+    n: '[[w.friedman-shadow-cold-war]], 129; [[w.khoo-collateral-damage]], 24 (on Dec. 24, 1964; a harbinger of the more active Soviet policy). Check: the day: Dec. 24, 1964, by [[w.khoo-collateral-damage]], 24, citing [[w.gaiduk-soviet-union-and-the]], 20. To check: Report of Soviet-East European Department of MFA on foreign policy of new Soviet leadership, February 15, 1965, CFMA doc. 109-03652-01, 8 (cited by [[w.friedman-shadow-cold-war]], 129 n.123a); [[w.gaiduk-soviet-union-and-the]], 20 (cited by [[w.friedman-shadow-cold-war]], 129 n.123b).'
     src:
       c: 2cf5fa1c
       rows:
         - 'w.friedman-shadow-cold-war 129: all'
         - 'via x.1965-02-15.report-soviet-east-european-department-mfa-foreign: ?'
+        - 'w.khoo-collateral-damage 24: ?'
     tags: [polity:ussr, polity:nlf, ok:fields-place]
   - id: cal.1964-12.china-leadership-9
     when: Dec., after the 8th
@@ -6941,3 +6942,20 @@ entries:
       - 1964-12-31T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-12.soviet-union-leadership
+    when: Dec.
+    date: 1964-12
+    place: moscow
+    thread: soviet-union-leadership
+    also: [vietnam-hanoi]
+    c: The Presidium discusses Soviet military aid to North Vietnam again, by Zhang Xiaoming.
+    n: '[[w.khoo-collateral-damage]], 24 (what was said not known). Made public: 2000 ([[w.zhang-communist-powers-divided]], the earliest printing the note names). To check: [[w.zhang-communist-powers-divided]], 86 (cited by [[w.khoo-collateral-damage]], 24 n.88). See [[cal.1964-11.soviet-union-leadership]]. Check: the session.'
+    tags: [polity:ussr, vis:only:ussr]
+  - id: cal.1964-12.china
+    when: Dec.
+    date: 1964-12
+    thread: china
+    also: [vietnam-hanoi]
+    c: 'China and the DRV sign a military assistance agreement: PLA infantry and artillery to go to North Vietnam, freeing Vietnamese troops for the South.'
+    n: '[[w.khoo-collateral-damage]], 30–31 (to bolster the threat of Chinese intervention). Made public: 1996 ([[w.scholars-bulletin-of-the-cold-1996]], the earliest printing the note names). To check: [[w.scholars-bulletin-of-the-cold-1996]], 250 (Ilya V. Gaiduk, "Vietnam War and Soviet-American Relations, 1964–73") (cited by [[w.khoo-collateral-damage]], 31 n.155). Check: the day.'
+    tags: [polity:prc, polity:drv, vis:only:prc+drv]

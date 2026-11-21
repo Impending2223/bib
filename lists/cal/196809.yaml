@@ -51,14 +51,20 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: 'Mao, Lin Biao and Zhou Enlai telegraph Hồ Chí Minh and others on the DRV''s twenty-third anniversary: the Vietnamese victory a contribution to peoples against American imperialism; seven hundred million Chinese will support the war to the end.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 1, 1968. [[w.zhonghua-renmin-gongheguo-waijiao]], 201 (Sept. 1, 1968; the greetings on the 23rd anniversary: the protracted war); [[w.jianguo-yilai-mao-zedong]], XIX, 307–308 (Sept. 1, 1968; printed from the *Renmin ribao* of Sept. 2, 1968, dated Peking, Sept. 1; addressed to Hồ Chí Minh, Trường Chinh and Phạm Văn Đồng). Names: Mao Zedong, Lin Biao, Zhou Enlai, Hồ Chí Minh.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Sept. 1, 1968. [[w.zhonghua-renmin-gongheguo-waijiao]], 201 (Sept. 1, 1968; the greetings on the 23rd anniversary: the protracted war); [[w.jianguo-yilai-mao-zedong]], XIX, 307–308 (Sept. 1, 1968; printed from the *Renmin ribao* of Sept. 2, 1968, dated Peking, Sept. 1; addressed to Hồ Chí Minh, Trường Chinh and Phạm Văn Đồng); [[w.khoo-collateral-damage]], 45, 51–52 (Mao, early September, for the DRV''s anniversary: "Your struggle is our struggle"; seven hundred million Chinese behind the Vietnamese, China their "dependable rear-area"; in his message of Sept. 2 the Soviet revisionists, long the Americans'' accomplices, seek to make the Vietnamese give up the struggle). To check: [[w.yanjiusuo-xiandai-zhong-yue-guanxishi]], IV, 933–934 (cited by [[w.khoo-collateral-damage]], 45 n.1); [[w.zedong-jianguo-yilai-mao-zedong]], XII, 549 (cited by [[w.khoo-collateral-damage]], 51 n.45, 52 n.46). Names: Mao Zedong, Lin Biao, Zhou Enlai, Hồ Chí Minh.'
     src:
       c: 4ecb98ff
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, Sept. 1, 1968: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 201: A'
         - 'w.jianguo-yilai-mao-zedong XIX, 307–308: A-B'
+        - 'w.khoo-collateral-damage 45, 51–52: ?'
     tags: [polity:prc, polity:drv, name:mao-zedong, name:lin-biao, name:zhou-enlai, name:ho-chi-minh]
+    variants:
+      - unit: A
+        witness: w.khoo-collateral-damage
+        reads: Mao to the Vietnamese ambassador at a banquet for the anniversary, early September
+        at: '45'
   - id: cal.1968-09-01.china-leadership-2
     when: Sept. 1
     date: '1968-09-01'
@@ -110,13 +116,15 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: 'Zhou Enlai attends and speaks at the reception given by Vietnam''s ambassador, Ngô Minh Loan, for the 23rd anniversary of Vietnam''s independence: if the Vietnamese people hold to protracted war and oppose capitulation and compromise they will certainly win final victory in the war against the Americans for national salvation.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 251 (Sept. 2, 1968); [[w.zhou-enlai-waijiao-huodong]], 529 (Sept. 2, 1968; the reception given by Vietnam''s ambassador Ngô Minh Loan for the twenty-third anniversary of Vietnam''s independence; the book has Zhou saying the Vietnamese people, holding to protracted war and opposing surrender and compromise, will win the final victory in the war against the U.S.); [[w.zhonghua-renmin-gongheguo-waijiao]], 201 (Sept. 2, 1968; Zhou''s speech: protracted war, no surrender or compromise). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 251 (Sept. 2, 1968); [[w.zhou-enlai-waijiao-huodong]], 529 (Sept. 2, 1968; the reception given by Vietnam''s ambassador Ngô Minh Loan for the twenty-third anniversary of Vietnam''s independence; the book has Zhou saying the Vietnamese people, holding to protracted war and opposing surrender and compromise, will win the final victory in the war against the U.S.); [[w.zhonghua-renmin-gongheguo-waijiao]], 201 (Sept. 2, 1968; Zhou''s speech: protracted war, no surrender or compromise); [[w.khoo-collateral-damage]], 52 (Zhou at the Vietnamese national day reception, Sept. 2: Soviet "fascist aggression"; "sham support but real betrayal"; "high time" all with illusions about Soviet revisionism and U.S. imperialism woke up). To check: "Premier Chou En-lai Makes Important Speech," Peking Review 36 (Sept. 6, 1968), 6–7 (Zhou at the DRV national day reception in Peking, Sept. 2, 1968) (cited by [[w.khoo-collateral-damage]], 52 nn.48a, 49, 50); [[w.wich-sino-soviet-crisis-politics]], 58–73 (cited by [[w.khoo-collateral-damage]], 52 n.48b). Names: Zhou Enlai.'
     src:
       c: bf209961
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 251: ?'
         - 'w.zhou-enlai-waijiao-huodong 529: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 201: all'
+        - 'w.khoo-collateral-damage 52: ?'
+        - 'via x.1968-09-02.zhou-enlai-speech-drv-national-day-peking: ?'
     tags: [polity:prc, name:zhou-enlai]
   - id: cal.1968-09-02.china-leadership-3
     when: Sept. 2
@@ -131,6 +139,19 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu II, 598–599: all'
         - 'via w.yang-jisheng-tiandi-fanfu II, 599 n.13: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1968-09-02.soviet-union
+    when: Sept. 2
+    date: '1968-09-02'
+    thread: soviet-union
+    also: [vietnam-hanoi, soviet-union-czechoslovakia]
+    c: '*Pravda*''s editorial, "The People of Vietnam Will Win!": the DRV has approved the Soviet and other socialist countries'' action to rebuff counterrevolution in Czechoslovakia.'
+    n: '[[w.khoo-collateral-damage]], 50. To check: Editorial, "The People of Vietnam Will Win!," Pravda, Sept. 2, 1968 (cited in Gaiduk, The Soviet Union and the Vietnam War, 177) (cited by [[w.khoo-collateral-damage]], 50 n.39a); [[w.gaiduk-soviet-union-and-the]], 177 (cited by [[w.khoo-collateral-damage]], 50 n.39b).'
+    src:
+      c: e06152a9
+      rows:
+        - 'w.khoo-collateral-damage 50: all'
+        - 'via x.1968-09-02.pravda-the-people-of-vietnam-will-win: ?'
+    tags: [polity:ussr]
   - id: cal.1968-09-03.governors-ia
     when: Sept. 3
     date: '1968-09-03'
@@ -1580,11 +1601,12 @@ entries:
     thread: china
     also: [soviet-union]
     c: 'Foreign Ministry note to the Soviet embassy: strong protest at 29 sorties by Soviet military aircraft, Aug. 9 to 29, into the airspace of an area of China''s Heilongjiang province to scout, harass and provoke.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 202 (Sept. 16, 1968). Check: the area, from the Chinese 同化.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 202 (Sept. 16, 1968); [[w.khoo-collateral-damage]], 48 (reported in the *Renmin ribao* of Sept. 17: the violations after the invasion of Czechoslovakia "absolutely not coincidental"). Check: the area, from the Chinese 同化. To check: [[w.fravel-strong-borders-secure-nation]], 208 (cited by [[w.khoo-collateral-damage]], 48 nn.28–29).'
     src:
       c: 11264d02
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 202: all'
+        - 'w.khoo-collateral-damage 48: ?'
     tags: [polity:prc, polity:ussr]
   - id: cal.1968-09-16.china-leadership-2
     when: Sept. 16
@@ -3431,13 +3453,20 @@ entries:
     thread: vietnam
     also: [vietnam-paris]
     c: 'Phạm Văn Đồng''s National Day speech: Hanoi fighting on three fronts, military, political and diplomatic; a halt to the bombing would have "a positive effect" toward a settlement; beyond it the United States must withdraw its own and the "satellite" troops, recognize the NLF and talk with it. The Four Points not called "the basis for a correct political settlement," as in 1967; the Soviet Union and China not named.'
-    n: '[[w.macv-command-history-1968]], 41–44. Check: the day (the History: "Annual National Day speech"; the State cable on it, Sept. 7). To check: SECSTATE to AMEMB PARIS, 070006Z Sep 68, "INTL Note: North Vietnam Premier Speaks on National Day" (cited by [[w.macv-command-history-1968]], 44 n.8). Names: Phạm Văn Đồng.'
+    n: '[[w.macv-command-history-1968]], 41–44; [[w.khoo-collateral-damage]], 49–50, 52 (Phạm Văn Đồng on Sept. 2: the Soviet Union and four other socialist countries obliged to defend socialism in Czechoslovakia, by force; he calls it defending the socialist camp). Check: the day (the History: "Annual National Day speech"; the State cable on it, Sept. 7). Check: the day: Sept. 2 by [[w.khoo-collateral-damage]], 49, 52 (the speech in FBIS, Asia-Pacific, Sept. 3, 1968, K1–13). To check: SECSTATE to AMEMB PARIS, 070006Z Sep 68, "INTL Note: North Vietnam Premier Speaks on National Day" (cited by [[w.macv-command-history-1968]], 44 n.8); Phạm Văn Đồng''s speech on the DRV''s twenty-third anniversary, Sept. 2, 1968, in Foreign Broadcast Information Service (Asia-Pacific), Sept. 3, 1968, K1–13 (cited by [[w.khoo-collateral-damage]], 50 n.38). Names: Phạm Văn Đồng.'
     src:
       c: 7398321a
       rows:
         - 'w.macv-command-history-1968 41–44: all'
         - 'via w.macv-command-history-1968 44 n.8: all'
+        - 'w.khoo-collateral-damage 49–50, 52: ?'
+        - 'via x.1968-09-02.pham-van-dong-speech-drv-23rd-anniversary: A'
     tags: [name:pham-van-dong]
+    variants:
+      - unit: E
+        witness: w.khoo-collateral-damage
+        reads: 'the Soviet Union named: its intervention in Czechoslovakia, with four other socialist countries, defended'
+        at: 49–50
   - id: cal.1968-09-30.vietnam
     when: Sept. 30
     date: '1968-09-30'
@@ -3917,3 +3946,11 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 705: all'
     tags: [polity:prc, vis:only:prc, name:jiang-qing, name:zhou-enlai]
+  - id: cal.1968-09.laos
+    when: Sept.
+    date: 1968-09
+    thread: laos
+    also: [china-leadership, vietnam-hanoi]
+    c: Kaysone Phomvihane, under pressure from Hanoi, asks Li Wenzheng, head of the Chinese team at Sam Neua, to go back to China. Peking takes it as a sign that the Vietnamese no longer want it there.
+    n: '[[w.khoo-collateral-damage]], 42–43. Made public: 1990 ([[w.quan-yanshi-gongheguo-mishi]], the earliest printing the note names). To check: [[w.zhai-china-and-the-vietnam]], 180–181 (cited by [[w.khoo-collateral-damage]], 43 n.225); [[w.quan-yanshi-gongheguo-mishi]], 250–251 (cited by [[w.khoo-collateral-damage]], 43 n.226). Check: the day. Names: Kaysone.'
+    tags: [ok:fields-place, polity:pathet-lao, polity:drv, polity:prc, vis:only:prc+pathet-lao+drv, name:kaysone-phomvihan]

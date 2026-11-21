@@ -254,6 +254,7 @@ Opus audit of patch `2026-11-20-b15b-chenyi-4` (printed 1021–1095, Apr. 12, 19
 
 
 
+
 ## Run 5 (batch 15b, Nov. 21, 2026; patch `inbox/2026-11-21-b15b-chenyi-5.yaml`)
 
 **The copy.** The same Drive file (`1ZjtHvjH3dHIQ-Iv0xcQfLEM50RLHiU0I`), fetched again into a new directory; the map printed = PDF − 13 holds on every page read. Two OCR passes over PDF 1108–1230 (tesseract `chi_sim`, 200 dpi, and 300 dpi `--psm 6`), set against each other by a diff script; every name, time word and date where the passes differ, and every name in an add or a cite's parenthetical in doubt, read on a 400-dpi crop of the page image. Never 正午 from the OCR: in these pages the OCR's 正午 is 下午 on the image every time it was read (July 15, Aug. 22 and 23, 1965). The audits' rules 1–16 and the run 4 audit's rules 17–18 (appended while this run was at work) applied. No footnote met. The chronology has no notes (R3.3).
@@ -262,9 +263,9 @@ Opus audit of patch `2026-11-20-b15b-chenyi-4` (printed 1021–1095, Apr. 12, 19
 
 ## Pages read, run 5
 
-Read, every item in the book's order: 1965, pp. 1096–1136 (PDF 1109–1149), Apr. 9 to the year's end, with the year's undated item (Mao's *Hou Han shu* biographies); 1966, pp. 1137–1158 (PDF 1150–1171), Jan. 1 to July 31 (the Army Day evening). The run stopped there at a clean point. **Run 6 starts at the late-July 1966 item, p. 1158 (PDF 1171)**: the Foreign Ministry's wall posters against Chen Yi.
+Read, every item in the book's order: 1965, pp. 1096–1136 (PDF 1109–1149), Apr. 9 to the year's end, with the year's undated item (Mao's *Hou Han shu* biographies); 1966, pp. 1137–1176 (PDF 1150–1189), Jan. 1 to Nov. 29 (the Albanian reception). The run stopped there at a clean point. **Run 6 starts at Nov. 30, 1966, p. 1176 (PDF 1189)**: the speech to the workers come to Peking, at the Workers' Gymnasium.
 
-**Counts, run 5.** 406 new entries (1965: 276, 1966: 130); 185 with `place`, 3 with a clock `time`, 290 with a band, 8 with `at`; 28 with a visibility ruling. 203 cites on calendar entries (no units); 53 `edit`s; 8 variants; 1 checks; 3 `place-key` ops. Ledger: every add claimed under the patch; claims of adds turned to cites released.
+**Counts, run 5.** 517 new entries (1965: 276, 1966: 241); 205 with `place`, 10 with a clock `time`, 360 with a band, 16 with `at`; 44 with a visibility ruling. 252 cites on calendar entries (no units); 64 `edit`s; 8 variants; 1 checks; 3 `place-key` ops. Ledger: every add claimed under the patch; claims of adds turned to cites released.
 
 **Variants.** `1965-05-31.vietnam` (1100): Britain's new chargé d'affaires, Hopson, calls on Chen Yi on the morning of May 31 (a call on him, not a summons); `1965-06-01.china-leadership-2` (1101): Chen Yi sees Zhou off at the airport on the morning of June 2; `1965-09-10.china-leadership-3` (1120): Chen Yi gives the reception and speaks at Bamako on the evening of Sept. 12; `1965-09-20.china-leadership` (1122): Chen Yi calls on Mohammad Yusuf at the Prime Minister's residence, taken there by the Minister of Information during his stop at Kabul; `1965-10-04.china` (1127): The joint statement is signed on Oct. 3, Chen Yi present; `1965-10-21.china-leadership-3` (1130): Mrs. Massamba-Débat gives her farewell banquet on the evening of Oct. 22; `1966-03-22.china-leadership-4` (1139): Liu Shaoqi, with Chen Yi, leaves Peking on Mar. 25 and reaches Urumqi that day; `1966-05-03.china` (1146): Chen Yi and Rijal sign the agreement on the afternoon of May 2.
 

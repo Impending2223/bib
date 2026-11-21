@@ -205,6 +205,14 @@ entries:
     c: Bến Tre. The people and forces of Giồng Trôm, Mỏ Cày and Châu Thành combine attack and uprising, destroy pacification support forces and break some strategic hamlets. In the delta the artillery raids Mỹ Tho, Cai Lậy, Cái Bè, An Hữu and the Bình Đức base, and the Mỹ Tho commandos hit the Saigon 6th Armored Regiment's base. The history judges the phase's early stage weak.
     n: '[[w.lich-su-khang-chien-chong-my]], VI, 133. See [[cal.1969-08-11.vietnam-hanoi]]. Check: the days of the Mỹ Tho actions; the history gives the phase only.'
     tags: [polity:drv]
+  - id: cal.1969-08-12.intelligence
+    when: Aug. 12
+    date: '1969-08-12'
+    thread: intelligence
+    also: [soviet-union, china]
+    c: 'A National Intelligence Estimate: the Soviet proposal for collective security in Asia "an effort to capitalize on an anticipated reduction in Western presence" and to forestall Chinese gains.'
+    n: '[[w.khoo-collateral-damage]], 63. Made public: 2004 ([[w.council-tracking-the-dragon]], 543). To check: [[w.council-tracking-the-dragon]], 543 (cited by [[w.khoo-collateral-damage]], 63 n.147).'
+    tags: [polity:us, vis:only:us]
   - id: cal.1969-08-13.china-leadership
     when: Aug. 13
     date: '1969-08-13'
@@ -233,12 +241,21 @@ entries:
     thread: china
     also: [soviet-union]
     c: The Tielekti 鐵列克提 area of Yumin county 裕民縣, Xinjiang 新疆, on the western stretch of the Sino-Soviet border, in dispute. Soviet helicopters, tanks and armored cars fall on a Chinese border patrol of 38, carrying light arms; all are killed.
-    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 736 n.60. Check: the count; the Foreign Ministry''s note of the day speaks of several killed and wounded on the spot (see [[cal.1969-08-13.china]]).'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 736 n.60; [[w.khoo-collateral-damage]], 57 (the most serious clash, at Lake Zhalanashkol on the border with Kazakhstan, Aug. 13). Check: the count; the Foreign Ministry''s note of the day speaks of several killed and wounded on the spot (see [[cal.1969-08-13.china]]). To check: [[w.gobarev-soviet-policy-toward-china]], 46 (cited by [[w.khoo-collateral-damage]], 57 nn.90, 91a); [[w.xie-yixian-zhongguo-dangdai-waijiaoshi]], 246–247 (cited by [[w.khoo-collateral-damage]], 57 n.91b).'
     src:
       c: a0d768be
       rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 736 n.60: all'
+        - 'w.khoo-collateral-damage 57: ?'
     tags: [polity:prc, polity:ussr]
+  - id: cal.1969-08-13.soviet-union
+    when: Aug. 13
+    date: '1969-08-13'
+    thread: soviet-union
+    also: [china]
+    c: A mid-level Soviet official asks an American official how the United States would react to a Soviet strike on Chinese nuclear facilities.
+    n: '[[w.khoo-collateral-damage]], 57. Made public: 1977 ([[w.barnett-china-and-the-major]], 50, the earliest printing the note names). To check: [[w.goldstein-do-nascent-wmd-arsenals]], 60 (cited by [[w.khoo-collateral-damage]], 57 n.94a); [[w.lawson-sino-vietnamese-conflict]], 170 (so cited: "Sino-Vietnamese Alliance") (cited by [[w.khoo-collateral-damage]], 57 n.94b); [[w.barnett-china-and-the-major]], 50 (cited by [[w.khoo-collateral-damage]], 57 n.94c). Check: the day.'
+    tags: [polity:ussr, polity:us, vis:only:ussr+us, ok:fields-place]
   - id: cal.1969-08-14.vietnam-hanoi
     when: Aug. 14
     date: '1969-08-14'
@@ -506,7 +523,7 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution, defense]
     c: The national leading group for civil air defense is set up, with Mao's approval, Zhou Enlai its head.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 310 (Aug. 28, 1969); [[w.mao-zedong-zhuan]], VI, ch. 78 (late in August Mao approves the report ''On strengthening the people''s air defense of the whole country'' 《关于加强全国人民防空工作的报告》 sent on by the Center and the Military Commission; the book does not say a leading group was set up or who heads it). Made public: 2020. See [[cal.1969-08-27.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 310 (Aug. 28, 1969); [[w.mao-zedong-zhuan]], VI, ch. 78 (late in August Mao approves the report ''On strengthening the people''s air defense of the whole country'' 《关于加强全国人民防空工作的报告》 sent on by the Center and the Military Commission; the book does not say a leading group was set up or who heads it). [[w.khoo-collateral-damage]], 57 (Mao orders the National Civil Air Defense Leading Group set up, Aug. 28). Made public: 2020. To check: [[w.lewis-imagined-enemies]], 56 (cited by [[w.khoo-collateral-damage]], 57 n.95). See [[cal.1969-08-27.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
     variants:
       - unit: A
@@ -544,13 +561,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Center 中共中央 issues its order (the "Aug. 28" order, Ba''erba mingling 八二八命令) to the revolutionary committees of the border provinces, cities and regions, their peoples and the troops on the border: be ready to destroy invaders and to smash armed provocations by the American imperialists and the Soviet revisionists; unity of army and people; border troops to hold their posts; cross-trade mass organizations dissolved; the July 23 notice carried out, armed fighting stopped; no attacks on the army; communications protected; those away from work to return; counterrevolutionaries suppressed.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 461–463 n.1 (Aug. 28, 1969); [[w.macfarquhar-maos-last-revolution]], 317 (Zhongfa [1969] 55, after the Xinjiang clash of Aug. 13: rival factions and leftist guerrilla bands to stop fighting at once); [[w.mao-zedong-zhuan]], VI, ch. 78 (late in August Mao approves the Center''s order of Aug. 28, ''Ba''erba'' 《“八·二八”命令》, which requires the army and people of the frontier regions ''to be ready at any moment to smash armed provocations of American imperialism and Soviet revisionism and to prevent their surprise attack''; the book gives no other points of the order). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 78); the text in full, 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Central Committee, order of Aug. 28, 1969 on further stabilizing the border regions (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 461 n.1b); [[w.kuisong-mao-zedong-yu-mosikede]], 504 (cited by [[w.macfarquhar-maos-last-revolution]], 317 n.39). See [[cal.1969-08-22.china-leadership]]. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 461–463 n.1 (Aug. 28, 1969); [[w.macfarquhar-maos-last-revolution]], 317 (Zhongfa [1969] 55, after the Xinjiang clash of Aug. 13: rival factions and leftist guerrilla bands to stop fighting at once); [[w.mao-zedong-zhuan]], VI, ch. 78 (late in August Mao approves the Center''s order of Aug. 28, ''Ba''erba'' 《“八·二八”命令》, which requires the army and people of the frontier regions ''to be ready at any moment to smash armed provocations of American imperialism and Soviet revisionism and to prevent their surprise attack''; the book gives no other points of the order). [[w.khoo-collateral-damage]], 57 (the "Order for General Mobilization in Border Provinces and Regions," nine articles, the "August 28 Order"). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 78); the text in full, 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Central Committee, order of Aug. 28, 1969 on further stabilizing the border regions (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 461 n.1b); [[w.kuisong-mao-zedong-yu-mosikede]], 504 (cited by [[w.macfarquhar-maos-last-revolution]], 317 n.39); [[w.lewis-imagined-enemies]], 56 (cited by [[w.khoo-collateral-damage]], 57 nn.96–97). See [[cal.1969-08-22.china-leadership]]. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
     src:
       c: 4591f338
       rows:
         - 'via w.jianguo-yilai-mao-zedong XIX, 461 n.1b: all'
         - 'w.macfarquhar-maos-last-revolution 317: A, E'
         - 'w.mao-zedong-zhuan VI, ch. 78: ?'
+        - 'w.khoo-collateral-damage 57: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1969-08-28.china-leadership-5
     when: Aug. 28
@@ -662,3 +680,27 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 573: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1969-08.china-leadership-6
+    when: Aug.
+    date: 1969-08
+    thread: china-leadership
+    also: [vietnam-hanoi, vietnam-paris]
+    c: Peking ties further aid to Hanoi's playing down or giving up the talks with the Americans, by Hanoi's account of 1979.
+    n: '[[w.khoo-collateral-damage]], 64. Made public: 1979 ([[w.truth-about-vietnamo-chinese]], 42). To check: [[w.truth-about-vietnamo-chinese]], 42 (cited by [[w.khoo-collateral-damage]], 64 n.153). Check: the day.'
+    tags: [ok:fields-place, polity:prc, polity:drv, vis:only:prc+drv]
+  - id: cal.1969-08.soviet-union
+    when: Aug.
+    date: 1969-08
+    thread: soviet-union
+    also: [china]
+    c: Soviet bomber units moved from Eastern Europe to the Russian Far East; practice strikes on targets in northwest China, where the Chinese nuclear facilities lie.
+    n: '[[w.khoo-collateral-damage]], 57. Made public: 2006 ([[w.lewis-imagined-enemies]], 55, the earliest printing the note names). To check: [[w.lewis-imagined-enemies]], 55 (cited by [[w.khoo-collateral-damage]], 57 n.92). Check: the day.'
+    tags: [polity:ussr, vis:only:ussr, ok:fields-place]
+  - id: cal.1969-08.soviet-union-2
+    when: Aug.
+    date: 1969-08
+    thread: soviet-union
+    also: [china]
+    c: The Soviets tell their Eastern European allies that a strike on the Chinese will be made, and leak it on purpose to foreign intelligence.
+    n: '[[w.khoo-collateral-damage]], 57. Made public: 1999 ([[w.gobarev-soviet-policy-toward-china]], 46, the earliest printing the note names). To check: [[w.gobarev-soviet-policy-toward-china]], 46 (cited by [[w.khoo-collateral-damage]], 57 n.93). Check: the day.'
+    tags: [polity:ussr, vis:only:ussr, ok:fields-place]
