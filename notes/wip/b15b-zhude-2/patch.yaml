@@ -1,0 +1,1231 @@
+patch: 2026-11-21-b15b-zhude-2
+by: Claude (batch 15b, Zhu De nianpu, run 2), Nov. 21, 2026
+ops:
+  - edit:
+      id: cal.1961-03-05.china-leadership
+      base: 158ab8da
+      set: {time: '1961-03-05T13:00Z', time_zone: Asia/Shanghai}
+      unset: [time_range, time_band]
+  - edit:
+      id: cal.1961-06-08.china-leadership
+      base: 78113e19
+      set: {time: '1961-06-08T01:30Z', time_zone: Asia/Shanghai}
+      unset: [time_range, time_band]
+  - place-key: {key: nanping, name: 'Nanping', zone: Asia/Shanghai, in: prc}
+  - place-key: {key: sanming, name: 'Sanming', zone: Asia/Shanghai, in: prc}
+  - place-key: {key: xinjian, name: 'Xinjian', zone: Asia/Shanghai, in: prc}
+  - place-key: {key: xindu, name: 'Xindu', zone: Asia/Shanghai, in: prc}
+  - place-key: {key: longchang, name: 'Longchang', zone: Asia/Shanghai, in: prc}
+  - place-key: {key: yibin, name: 'Yibin', zone: Asia/Shanghai, in: prc}
+  - add:
+      entry:
+        id: cal.1961-02-10.china-leadership-13
+        when: Feb. 10
+        date: '1961-02-10'
+        place: fuzhou
+        thread: china-leadership
+        c: Fuzhou 福州. Zhu De 朱德 calls on Chen Shaokuan 陈绍宽, deputy to the Second National People's Congress 第二届全国人大 and vice-governor of Fujian 福建省, once the Nationalists' Minister of the Navy 国民党海军部部长 and commander-in-chief of the navy, who declared for the Communists 中国共产党 on the eve of Fuzhou's fall (the nianpu's note).
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1796–1797. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-10.china-leadership-15
+        when: Feb. 10
+        date: '1961-02-10'
+        place: fuzhou
+        thread: china-leadership
+        c: Fuzhou 福州. Zhu De 朱德 receives the heads of the Fujian committee 中共福建省委, the Fuzhou committee 中共福州市委 and the Fuzhou Military Region 福州军区.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1797. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-11.china-leadership-8
+        when: Feb. 11
+        date: '1961-02-11'
+        thread: china-leadership
+        c: Chen Shaokuan 陈绍宽 returns Zhu De's 朱德 call of the day before and gives him a bunch of flowers of his own growing; Zhu De gives him a pot of a prized orchid.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1797. See [[cal.1961-02-10.china-leadership-13]]. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-11.china-leadership-9
+        when: Feb. 11
+        date: '1961-02-11'
+        place: nanping
+        thread: china-leadership
+        c: Nanping 南平, Fujian 福建. Zhu De 朱德 arrives and inspects the Nanping paper mill 南平造纸厂, the Nanping timber-processing works 南平木材加工厂 and the Jianxi reservoir's power station 建溪水库发电站.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1797. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-12.china-leadership-6
+        when: Feb. 12
+        date: '1961-02-12'
+        place: sanming
+        thread: china-leadership
+        c: Sanming 三明, Fujian 福建. Zhu De 朱德 arrives and inspects the Sanming heavy mining machinery works 三明重型矿山机械厂, the Sanming iron and steel works 三明钢铁厂, the Sanming chemical works 三明化工厂, the Sanming food works 三明食品厂 and the logging works of the Wutai People's Commune 五台人民公社伐木厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1797. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-12.china-leadership-7
+        when: Feb. 12
+        date: '1961-02-12'
+        time_range: ['1961-02-12T11:00Z', '1961-02-12T14:00Z']
+        time_band: evening
+        time_zone: Asia/Shanghai
+        place: sanming
+        thread: china-leadership
+        c: Sanming 三明. Zhu De 朱德 writes the poem "The new city of Sanming" 《三明新市》 (the Shangrao concentration camp 上饶集中营, its prisoners moved to Sanming after the army crossed the Yangtze 长江 and many put to death there; the killing ground now an industrial city).
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1797. The words: 晚 (1797). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-13.china-leadership-6
+        when: Feb. 13
+        date: '1961-02-13'
+        place: nanchang
+        thread: china-leadership
+        c: Zhu De 朱德 arrives at Nanchang 南昌, Jiangxi 江西省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1797. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-13.china-leadership-7
+        when: Feb. 13
+        date: '1961-02-13'
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 talks with Yang Shangkui 杨尚奎, first secretary of the Jiangxi committee 中共江西省委.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1797. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-02-15.china-leadership-10
+        when: Feb. 15
+        date: '1961-02-15'
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 spends the Spring Festival 春节 there and meets the local cadres.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1797. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-16.china-leadership-6
+        when: Feb. 16
+        date: '1961-02-16'
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 visits the memorial hall of the Nanchang Uprising 南昌起义纪念馆.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1797. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-18.china-leadership-5
+        when: Feb. 18
+        date: '1961-02-18'
+        place: xinjian
+        thread: china-leadership
+        c: Xinjian county 新建县, Jiangxi 江西. Zhu De 朱德 inspects the Xishan People's Commune 西山人民公社.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1797. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-19.china-leadership-8
+        when: Feb. 19
+        date: '1961-02-19'
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 inspects the Jiangxi tractor works 江西拖拉机制造厂, the Jiangxi electrical machinery works 江西电机厂 and the Jiangxi diesel engine works 江西柴油机厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1797. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-20.china-leadership-7
+        when: Feb. 20
+        date: '1961-02-20'
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 inspects the Jiangxi aircraft works 江西飞机制造厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-21.china-leadership-6
+        when: Feb. 21
+        date: '1961-02-21'
+        time_range: ['1961-02-20T22:00Z', '1961-02-21T04:00Z']
+        time_band: morning
+        time_zone: Asia/Shanghai
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 hears Yang Shangkui 杨尚奎, first secretary of the Jiangxi committee 中共江西省委, Liu Junxiu 刘俊秀, a secretary of its Secretariat 书记处, and others on Jiangxi's industry and foreign trade.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. The words: 上午 (1798). Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-02-21.china-leadership-7
+        when: Feb. 21
+        date: '1961-02-21'
+        time_range: ['1961-02-21T04:00Z', '1961-02-21T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 inspects the Jiangxi Communist Labor University 江西共产主义劳动大学.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. The words: 下午 (1798). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-22.china-leadership-7
+        when: Feb. 22
+        date: '1961-02-22'
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 hears Yang Shangkui 杨尚奎 and Liu Junxiu 刘俊秀 on Jiangxi's 江西 farming.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-02-22.china-leadership-8
+        when: Feb. 22
+        date: '1961-02-22'
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 hears the report of the Jiangxi committee's United Front Work Department 江西省委统战部.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-02-22.china-leadership-9
+        when: Feb. 22
+        date: '1961-02-22'
+        place: nanchang
+        thread: china-leadership
+        c: Nanchang 南昌. Zhu De 朱德 receives Jiangxi's 江西 democratic personages 民主人士.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-23.china-leadership-6
+        when: Feb. 23
+        date: '1961-02-23'
+        place: nanchang
+        thread: china-leadership
+        c: Zhu De 朱德 leaves Nanchang 南昌 for an inspection of Guangdong 广东省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-23.china-leadership-7
+        when: Feb. 23
+        date: '1961-02-23'
+        place: hengyang
+        thread: china-leadership
+        c: Hengyang 衡阳, Hunan 湖南省, on the way to Guangdong. Zhu De 朱德 hears the heads of the Hengyang prefectural committee 中共衡阳地委 and the Hengyang city committee 衡阳市委.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-02-24.china-leadership-5
+        when: Feb. 24
+        date: '1961-02-24'
+        place: canton
+        thread: china-leadership
+        c: Zhu De 朱德 arrives at Canton 广州.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-25.china-leadership-4
+        when: Feb. 25
+        date: '1961-02-25'
+        place: canton
+        thread: china-leadership
+        c: 'Canton 广州. Zhu De 朱德 visits the Yuexiu Hill Park 越秀山公园 and the South China Botanical Garden 华南植物园, and inscribes for the garden: south to north and north to south, tropical and frigid plants exchanged, more and better new breeds for China''s farming, forestry, herding and greening.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-27.china-leadership-13
+        when: Feb. 27
+        date: '1961-02-27'
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Zhu De 朱德 discusses the draft Working Regulations for the Rural People's Communes 《农村人民公社工作条例（草案）》 with Chen Boda 陈伯达, alternate member of the Politburo 中共中央政治局 and deputy head of the Propaganda Department 中共中央宣传部, and Hu Qiaomu 胡乔木, alternate secretary of the Secretariat 中共中央书记处 and deputy head of the Propaganda Department, both at Canton.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Made public: 2016. Names: Zhu De, Chen Boda.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:chen-boda', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-02-28.china-leadership-10
+        when: Feb. 28
+        date: '1961-02-28'
+        place: conghua
+        thread: china-leadership
+        c: Zhu De 朱德 arrives at Wenquan 温泉, Conghua county 从化县, Guangdong 广东.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-02-28.china-leadership-11
+        when: Feb. 28
+        date: '1961-02-28'
+        time_range: ['1961-02-28T04:00Z', '1961-02-28T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        place: conghua
+        thread: china-leadership
+        c: Wenquan 温泉, Conghua 从化. Zhu De 朱德 talks with Dong Biwu 董必武, Nie Rongzhen 聂荣臻 and others, there before him.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. The words: 下午 (1798). Made public: 2016. Names: Zhu De, Dong Biwu, Nie Rongzhen.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:dong-biwu', 'name:nie-rongzhen', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-03-01.china-leadership-11
+        when: Mar. 1
+        date: '1961-03-01'
+        place: conghua
+        thread: china-leadership
+        c: Conghua 从化. Zhu De 朱德 inspects the dam of the Wenquan 温泉 artificial lake.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-02.china-leadership-7
+        when: Mar. 2
+        date: '1961-03-02'
+        place: conghua
+        thread: china-leadership
+        c: Conghua 从化. Zhu De 朱德 inspects the Liuxi River reservoir 流溪河水库.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-03.china-leadership-5
+        when: Mar. 3
+        date: '1961-03-03'
+        place: conghua
+        thread: china-leadership
+        c: Conghua 从化. Zhu De 朱德 writes the poem "Visiting the Yuexiu Park" 《游越秀公园》 (of all its flowers the orchid's scent the best, famed in the City of Rams 五羊城).
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-04.china-leadership-8
+        when: Mar. 4
+        date: '1961-03-04'
+        place: conghua
+        thread: china-leadership
+        c: Conghua county 从化县. Zhu De 朱德 inspects the Liangkou People's Commune 良口人民公社.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-05.china-leadership-4
+        when: Mar. 5
+        date: '1961-03-05'
+        time_range: ['1961-03-04T22:00Z', '1961-03-05T04:00Z']
+        time_band: morning
+        time_zone: Asia/Shanghai
+        place: [conghua, canton]
+        thread: china-leadership
+        c: Zhu De 朱德 goes back from Wenquan 温泉, Conghua 从化, to Canton 广州.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798. The words: 上午 (1798). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-05.china-leadership-5
+        when: Mar. 5
+        date: '1961-03-05'
+        time_range: ['1961-03-05T04:00Z', '1961-03-05T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Zhu De 朱德 talks with Zhou Enlai 周恩来, who arrived at Canton the day before.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1798–1799. The words: 下午 (1798–1799). Made public: 2016. Names: Zhu De, Zhou Enlai.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:zhou-enlai', 'vis:only:prc']
+  - cite: {id: cal.1961-03-05.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1799 (Mar. 5, 1961, 9 p.m.; Zhu De 朱德 at the enlarged Politburo Standing Committee 中共中央政治局常委扩大会议 Mao Zedong 毛泽东 chairs at Canton 广州, which hears Zhou Enlai 周恩来 on industry and farming and Mao on the communes'' system and industrial output; Zhu De: a commune he saw in Fujian 福建 had a good harvest, output contracted to the production team, the brigade doing what the team cannot, the commune the tractors and the like. The words: 晚九时)'}
+  - add:
+      entry:
+        id: cal.1961-03-06.china-leadership-9
+        when: Mar. 6
+        date: '1961-03-06'
+        thread: china-leadership
+        also: [china]
+        c: 'Zhu De 朱德 to the Center 中共中央 and Mao Zedong 毛泽东, a report on Fujian 福建 and Jiangxi 江西: where the Center''s urgent letter of directives on the communes'' present policy 《关于农村人民公社当前政策问题的紧急指示信》 was truly carried out and the rectification of work style and of the communes 整风整社 done, the masses'' zeal much higher, farm output much changed, the members content; Jiangxi''s great gains in opening and building the mountain areas; the southern provinces'' wide and rich mountain areas to be developed, of great political and economic weight for the old base areas and the nation''s building.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1799. Made public: 2016. Names: Zhu De, Mao Zedong.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-03-08.china-leadership-9
+        when: Mar. 8
+        date: '1961-03-08'
+        thread: china-leadership
+        c: Zhu De 朱德 hears Lin Tie 林铁, third secretary of the North China Bureau 中共中央华北局 and first secretary of the Hebei committee 河北省委, and others, who propose bringing Yellow River 黄河 water by way of Peking 北京 to eastern Hebei 冀东; he calls it a good way to remake North China's water control at the root.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1799. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-03-09.china-leadership-4
+        when: Mar. 9
+        date: '1961-03-09'
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Zhu De 朱德 inspects the farms of the city's outskirts.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1799. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1961-03-10.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1799 (Mar. 10–13, 1961; Zhu De 朱德 at the meeting Mao Zedong 毛泽东 chairs at Canton 广州 of the first secretaries of the Central-South, Southwest and East China 中南、西南、华东 regions'' provinces, on rural work)'}
+  - add:
+      entry:
+        id: cal.1961-03-10.china-leadership-9
+        when: Mar. 10
+        date: '1961-03-10'
+        time_range: ['1961-03-10T04:00Z', '1961-03-10T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Zhu De 朱德 hears Li Jingquan 李井泉, first secretary of the Sichuan committee 中共四川省委, on rural work.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1799. The words: 十日下午 (1799). Made public: 2016. Names: Zhu De, Li Jingquan.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:li-jingquan', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-03-10.china-leadership-10
+        when: Mar. 10
+        date: '1961-03-10'
+        time_range: ['1961-03-10T11:00Z', '1961-03-10T14:00Z']
+        time_band: evening
+        time_zone: Asia/Shanghai
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Zhu De 朱德 talks with Tao Zhu 陶铸.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1799. The words: 晚 (1799). Made public: 2016. Names: Zhu De, Tao Zhu.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:tao-zhu', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-03-11.china-leadership-10
+        when: Mar. 11
+        date: '1961-03-11'
+        place: canton
+        thread: china-leadership
+        c: 'Canton 广州. Zhu De 朱德 hears Zhang Pinghua 张平化, first secretary of the Hunan committee 中共湖南省委, and others on rural work: the production team''s power should be greater, the brigade''s is too great.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1799. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-03-12.china-leadership-10
+        when: Mar. 12
+        date: '1961-03-12'
+        place: canton
+        thread: china-leadership
+        c: 'Canton 广州. Zhu De 朱德 hears Tan Qilong 谭启龙, first secretary of the Shandong committee 中共山东省委, and others on rural work: agriculture the base; the communes'' power now too great and too centralized.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1799–1800. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-03-12.china-leadership-11
+        when: Mar. 12
+        date: '1961-03-12'
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Zhu De 朱德 talks with Lei Renmin 雷任民, vice-minister of trade 贸易部 (so printed), and Liu Jing 刘靖, deputy manager of the China Resources Company 华润公司 of Hong Kong 香港, on foreign trade.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1800. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-03-13.china-leadership-12
+        when: Mar. 13
+        date: '1961-03-13'
+        place: canton
+        thread: china-leadership
+        also: [china]
+        c: 'Canton 广州. Zhu De 朱德 at the conference on exports to Hong Kong and Macao 对港、澳出口工作会议, in a speech: of late more trade with the socialist countries, less with the capitalist, which should grow; Hong Kong and Macao 港、澳, free ports near at hand, a good position for exports to the capitalist countries, to be held; mind "import to feed export" 以进养出 and "export to bring imports" 以出带进, both decided by the Center; trade for the long run, with lasting positions; the goods'' sizes and quality to the buyers'' wants; six hundred million pairs of hands can work any wonder.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1800. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1961-03-15.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1800–1801 (Mar. 14–23, 1961; Zhu De 朱德 at the Central Work Conference 中共中央工作会议 at Canton 广州, which adopts the draft Working Regulations for the Rural People''s Communes 《农村人民公社工作条例（草案）》 (the "Sixty Articles on agriculture" 农业六十条) and the Center''s letter to the bureaus and committees on investigation and study; its note: the conference in effect began Mar. 10, at Canton as the Three South conference 三南会议 under Mao Zedong 毛泽东 and at Peking 北京 as the Three North 三北会议 under Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Chen Yun 陈云 and Deng Xiaoping 邓小平, the Three North''s members going to Canton on Mar. 14 and the two joined as the Canton work conference)', units: B-C}
+  - variant: {id: cal.1961-03-15.china-leadership-2, unit: B, witness: w.zhu-de-nianpu-xinbian, reads: 'The Central Work Conference at Canton meets Mar. 14–23', at: 'III, 1800'}
+  - add:
+      entry:
+        id: cal.1961-03-19.china-leadership-10
+        when: Mar. 19
+        date: '1961-03-19'
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Zhu De 朱德 visits Xu Haidong 徐海东, Senior General of the People's Liberation Army 中国人民解放军大将 and member of the Eighth Central Committee 中共第八届中央委员 (the nianpu's note), recuperating there.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1961-03-21.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1801 (Mar. 21, 1961, afternoon; Zhu De 朱德 goes to Mao Zedong''s 毛泽东 for the meeting)'}
+  - add:
+      entry:
+        id: cal.1961-03-24.china-leadership-8
+        when: Mar. 24
+        date: '1961-03-24'
+        place: canton
+        thread: china-leadership
+        c: Zhu De 朱德 leaves Canton 广州 for an inspection of Henan 河南省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-26.china-leadership-4
+        when: Mar. 26
+        date: '1961-03-26'
+        place: zhengzhou
+        thread: china-leadership
+        c: Zhu De 朱德 arrives at Zhengzhou 郑州, Henan 河南省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-26.china-leadership-5
+        when: Mar. 26
+        date: '1961-03-26'
+        place: zhengzhou
+        thread: china-leadership
+        c: Zhengzhou 郑州. Zhu De 朱德 hears Zhao Wenfu 赵文甫, a secretary of the Henan committee's Secretariat 中共河南省委书记处.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-03-26.china-leadership-6
+        when: Mar. 26
+        date: '1961-03-26'
+        place: luoyang
+        thread: china-leadership
+        c: Luoyang 洛阳, Henan. Zhu De 朱德 arrives and inspects the No. 1 Tractor Works 第一拖拉机制造厂 and the Luoyang Bearing Works 洛阳轴承厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-26.china-leadership-7
+        when: Mar. 26
+        date: '1961-03-26'
+        place: sanmenxia
+        thread: china-leadership
+        c: Zhu De 朱德 arrives at Sanmenxia 三门峡, Henan.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-27.china-leadership-11
+        when: Mar. 27
+        date: '1961-03-27'
+        place: sanmenxia
+        thread: china-leadership
+        c: Sanmenxia 三门峡. Zhu De 朱德 inspects the Sanmenxia reservoir 三门峡水库 and holds a forum 座谈 with its engineers and technicians.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-27.china-leadership-12
+        when: Mar. 27
+        date: '1961-03-27'
+        place: xian
+        thread: china-leadership
+        c: Zhu De 朱德 arrives at Xi'an 西安, Shaanxi 陕西省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-27.china-leadership-13
+        when: Mar. 27
+        date: '1961-03-27'
+        place: xian
+        thread: china-leadership
+        c: Xi'an 西安. Zhu De 朱德 talks with Liu Lantao 刘澜涛, first secretary of the Northwest Bureau 中共中央西北局, and Zhang Desheng 张德生, first secretary of the Shaanxi committee 中共陕西省委.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-03-28.china-leadership-9
+        when: Mar. 28
+        date: '1961-03-28'
+        place: xian
+        thread: china-leadership
+        c: Zhu De 朱德 leaves Xi'an 西安 for an inspection of Sichuan 四川省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-29.china-leadership-9
+        when: Mar. 29
+        date: '1961-03-29'
+        place: chengdu
+        thread: china-leadership
+        c: Zhu De 朱德 arrives at Chengdu 成都, Sichuan 四川省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-30.china-leadership-8
+        when: Mar. 30
+        date: '1961-03-30'
+        place: chengdu
+        thread: china-leadership
+        c: Chengdu 成都. Zhu De 朱德 visits the Chengdu flower fair 成都花会 and the handicrafts exhibition 手工艺展览.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-03-30.china-leadership-9
+        when: Mar. 30
+        date: '1961-03-30'
+        place: chengdu
+        thread: china-leadership
+        c: 'Chengdu 成都. Zhu De 朱德, in his diary 日记: in eleven years Chengdu built truly a garden; the orchids of the high mountains all gathered at its flower market; the potted flowers of the past now grown into groves.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-04-05.china-leadership-9
+        when: Apr. 5
+        date: '1961-04-05'
+        place: chengdu
+        thread: china-leadership
+        c: Chengdu 成都. Zhu De 朱德 visits the Wuhou Temple 武侯祠 and the Zhaojue Temple 昭觉寺.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-04-06.china-leadership-6
+        when: Apr. 6
+        date: '1961-04-06'
+        place: chengdu
+        thread: china-leadership
+        c: Chengdu 成都. Zhu De 朱德 inspects the dairy farm of the Friendship brigade 友谊大队 of the Jinniuba People's Commune 金牛坝人民公社 and calls on peasant households nearby.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-04-07.china-leadership-7
+        when: Apr. 7
+        date: '1961-04-07'
+        place: chengdu
+        thread: china-leadership
+        c: Chengdu 成都. Zhu De 朱德 inspects the Chengdu comprehensive timber-processing works 成都木材综合加工厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-04-08.china-leadership-12
+        when: Apr. 8
+        date: '1961-04-08'
+        place: chengdu
+        thread: china-leadership
+        c: 'Chengdu 成都. Zhu De 朱德 inspects the Chengdu measuring and cutting tools works 成都量具刃具厂, his third visit there since 1957. On the visit: the country in a time of difficulty from natural calamities and other causes; some take the chance to seize us by the throat, press for debts, blockade, bring pressure, making it harder; the Chinese people are not to be bullied, the greater the pressure the harder they strive; hard struggle the family heirloom; we can learn the lessons and overcome every difficulty.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1801–1802. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C-G']
+  - add:
+      entry:
+        id: cal.1961-04-09.china-leadership-7
+        when: Apr. 9
+        date: '1961-04-09'
+        place: xindu
+        thread: china-leadership
+        c: Xindu county 新都县, Sichuan. Zhu De 朱德 inspects the Tianyuan People's Commune 天元人民公社 and sees its old people's home 敬老院.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1802. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-04-10.china-leadership-9
+        when: Apr. 10
+        date: '1961-04-10'
+        thread: china-leadership
+        c: Zhu De 朱德 meets Liu Shouchuan 刘寿川.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1802. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-04-11.china-leadership-10
+        when: Apr. 11
+        date: '1961-04-11'
+        place: chengdu
+        thread: china-leadership
+        c: Chengdu 成都. Zhu De 朱德 visits the Sichuan agricultural exhibition hall 四川省农业展览馆 and the light industry exhibition hall 轻工业展览馆.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1802. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-04-12.china-leadership-13
+        when: Apr. 12
+        date: '1961-04-12'
+        place: chengdu
+        thread: china-leadership
+        c: Chengdu 成都. Zhu De 朱德 hears Xu Mengxia 许梦侠, a secretary of the Sichuan committee's Secretariat 中共四川省委书记处, and the heads of the Sichuan federation of handicraft producers' cooperatives 四川省手工业生产合作社联社 on farming and handicrafts.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1802. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-04-13.china-leadership-10
+        when: Apr. 13
+        date: '1961-04-13'
+        place: yibin
+        thread: china-leadership
+        c: 'Yibin 宜宾, Sichuan. Zhu De 朱德 arrives and inspects the Anbian People''s Commune 安边人民公社 of Yibin county 宜宾县. He hears its report, and on the masses'' hardships interjects: the difficulties a fact; the Communist Party''s leaders must face them and press on, not shrink; difficulty is passing, morale to be raised; the leaders'' chief task now the masses'' livelihood; our revolution began in the mountain gullies, the mountain areas'' building to be sped and the people''s life bettered.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1802. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C-G']
+  - add:
+      entry:
+        id: cal.1961-04-14.china-leadership-9
+        when: Apr. 14
+        date: '1961-04-14'
+        place: yibin
+        thread: china-leadership
+        c: Yibin 宜宾. Zhu De 朱德 goes up Cuiping Hill 翠屏山, watches at Hejiangmen 合江门 the Jinsha 金沙江 and the Min 岷江 join in the bed of the Yangtze 长江, and then inspects the Yibin chemical works 宜宾化工厂, the Yibin paper mill 宜宾造纸厂 and the Yibin electromagnetic works 宜宾电磁厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1802. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-04-14.china-leadership-10
+        when: Apr. 14
+        date: '1961-04-14'
+        time_range: ['1961-04-14T11:00Z', '1961-04-14T14:00Z']
+        time_band: evening
+        time_zone: Asia/Shanghai
+        place: zigong
+        thread: china-leadership
+        c: Zhu De 朱德 arrives at Zigong 自贡, Sichuan.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1802. The words: 晚 (1802). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-04-15.china-leadership-12
+        when: Apr. 15
+        date: '1961-04-15'
+        place: zigong
+        thread: china-leadership
+        c: Zigong 自贡. Zhu De 朱德 inspects the flowing well of Dengguan town 邓关镇自流井, the Ziliujing No. 2 well 自流井二号井 and the Zigong salt works 自贡制盐厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1802. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-04-15.china-leadership-13
+        when: Apr. 15
+        date: '1961-04-15'
+        place: zigong
+        thread: china-leadership
+        c: Zigong 自贡. Zhu De 朱德 hears the heads of the Zigong committee 中共自贡市委.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1802. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-04-16.china-leadership-12
+        when: Apr. 16
+        date: '1961-04-16'
+        place: neijiang
+        thread: china-leadership
+        c: Neijiang 内江, Sichuan. Zhu De 朱德 arrives and visits the Neijiang chemical works 内江化工厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1802. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-04-17.china-leadership-11
+        when: Apr. 17
+        date: '1961-04-17'
+        place: neijiang
+        thread: china-leadership
+        c: 'Neijiang 内江. Zhu De 朱德 hears the heads of the Neijiang prefectural committee 中共内江地委 on their work and on the natural gas reserves of southern Sichuan 川南: Sichuan has many people and many medicinal herbs, and old handicraft trades, bamboo weaving and straw hats; handicrafts and a many-sided economy, sericulture 蚕丝业 among them, to be grown.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1802. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-04-17.china-leadership-12
+        when: Apr. 17
+        date: '1961-04-17'
+        place: longchang
+        thread: china-leadership
+        c: Longchang 隆昌, Sichuan. Zhu De 朱德 inspects the Longchang natural gas field 隆昌天然气矿. Told that the gas, besides fuel, power and carbon black, can be made into fertilizer, rubber, man-made fiber and other chemical goods, he asks them to produce as much gas as they can and use it fully.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1803. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C']
+  - add:
+      entry:
+        id: cal.1961-04-17.china-leadership-13
+        when: Apr. 17
+        date: '1961-04-17'
+        place: neijiang
+        thread: china-leadership
+        c: 'Neijiang 内江. Zhu De 朱德 inspects the second team of the second brigade of the Zhumu People''s Commune 株木人民公社. At a forum with the peasants: thanks for speaking the truth; a good meeting, no blockade of news, much said from the heart, much learned that is true.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1803. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C-D']
+  - add:
+      entry:
+        id: cal.1961-04-18.china-leadership-18
+        when: Apr. 18
+        date: '1961-04-18'
+        place: [neijiang, chengdu]
+        thread: china-leadership
+        c: Zhu De 朱德 goes back from Neijiang 内江 to Chengdu 成都.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1803. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-04-20.china-leadership-13
+        when: Apr. 20
+        date: '1961-04-20'
+        place: chengdu
+        thread: china-leadership
+        c: 'Chengdu 成都. Zhu De 朱德 hears Yang Chao 杨超, deputy secretary of the Sichuan committee''s Secretariat 中共四川省委书记处, on Sichuan''s foreign trade and handicrafts: some countries'' handicrafts never matched ours, and capitalism''s growth crushed them; handicrafts are China''s strength, with good craft traditions; craft goods to be developed and exported for foreign exchange, a good bargain.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1803. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-04-26.china-leadership-10
+        when: Apr. 26
+        date: '1961-04-26'
+        place: chengdu
+        thread: china-leadership
+        c: Chengdu 成都. Zhu De 朱德 talks with Lü Zhengcao 吕正操, vice-minister of railways 铁道部, then at Chengdu, on building the railway from Chengdu to Kunming 昆明.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1803. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-04-28.china-leadership-10
+        when: Apr. 28
+        date: '1961-04-28'
+        place: chengdu
+        thread: china-leadership
+        c: 'Chengdu 成都. Zhu De 朱德 inspects the Qianjin brigade 前进大队 of the Yingmenkou People''s Commune 营门口人民公社, Jinniu district 金牛区. At its bonsai garden, to the local heads: people love beauty, and flower growing has a future; but first the members must eat their fill, and labor be protected.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1803. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C-D']
+  - add:
+      entry:
+        id: cal.1961-04-30.china-leadership-8
+        when: Apr. 30
+        date: '1961-04-30'
+        place: chengdu
+        thread: china-leadership
+        c: 'Zhu De 朱德, in his notes 笔记 on the Sichuan 四川 inspection: a full month in Sichuan; since the Center''s "Twelve Articles" 十二条 were relayed, Sichuan moved fast, its handicrafts, private plots and rural fairs restored early; small goods, vegetables and food not short; the fairs lively, the peasants happiest; a market more prosperous than before quite possible, and more handicraft and farm side products could make every peasant household well off.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1803. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-04-30.china-leadership-9
+        when: Apr. 30
+        date: '1961-04-30'
+        place: chengdu
+        thread: china-leadership
+        c: Chengdu 成都. Zhu De 朱德 receives the heads of the Party, government and army, the democratic parties and the people's bodies of Sichuan 四川省 and Chengdu, and the foreign experts helping China's building at Chengdu.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1803–1804. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-04-30.china-leadership-10
+        when: Apr. 30
+        date: '1961-04-30'
+        time_range: ['1961-04-30T11:00Z', '1961-04-30T14:00Z']
+        time_band: evening
+        time_zone: Asia/Shanghai
+        place: chengdu
+        thread: china-leadership
+        c: Chengdu 成都. Zhu De 朱德 at the evening gala of Sichuan 四川省 and Chengdu for May Day 五一国际劳动节.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1803–1804. The words: 晚会; 晚会前 (the reception before it) (1803–1804). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-05-01.china-leadership-8
+        when: May 1
+        date: '1961-05-01'
+        place: chengdu
+        thread: china-leadership
+        c: Chengdu 成都. Zhu De 朱德 at the May Day 五一国际劳动节 rally of Sichuan 四川省 and Chengdu in the Renmin Nandao square 人民南道广场 (so printed).
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1804. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-05-01.china-leadership-9
+        when: May 1
+        date: '1961-05-01'
+        place: chengdu
+        thread: china-leadership
+        c: 'Chengdu 成都. Zhu De 朱德 receives Chengdu''s advanced producers in industry and farming. In talk: the masses to be roused to more sideline production; with sidelines grown, the members'' income and living standard rise.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1804. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C-D']
+  - add:
+      entry:
+        id: cal.1961-05-01.china-leadership-13
+        when: May 1
+        date: '1961-05-01'
+        time_range: ['1961-05-01T11:00Z', '1961-05-01T14:00Z']
+        time_band: evening
+        time_zone: Asia/Shanghai
+        place: chengdu
+        thread: china-leadership
+        c: Zhu De 朱德 leaves Chengdu 成都 for an inspection of Shaanxi 陕西省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1804. The words: 晚 (1804). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-05-02.china-leadership-8
+        when: May 2
+        date: '1961-05-02'
+        place: baoji
+        thread: china-leadership
+        c: 'Baoji 宝鸡, Shaanxi 陕西省. Zhu De 朱德 arrives and inspects the 212 instrument works 二一二仪表厂. Told that the workers, in technical innovation, made a "one cutter, many edges" 一刀多刃 tool and a "many-headed drill" 多头钻 and turned out "top products" 尖端产品, he says: by your own strength you broke through in hard times and made top products; remarkable.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1804. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C-D']
+  - add:
+      entry:
+        id: cal.1961-05-02.china-leadership-9
+        when: May 2
+        date: '1961-05-02'
+        place: xian
+        thread: china-leadership
+        c: Zhu De 朱德 arrives at Xi'an 西安.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1804. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-05-03.china-leadership-10
+        when: May 3
+        date: '1961-05-03'
+        place: xian
+        thread: china-leadership
+        c: Xi'an 西安. Zhu De 朱德 hears Liu Lantao 刘澜涛, Zhang Desheng 张德生 and others on farm output and the peasants' life since the Center's urgent letter of directives on the communes' present policy 《关于农村人民公社当前政策问题的紧急指示信》 and the draft Working Regulations for the Rural People's Communes 《农村人民公社工作条例（草案）》 were carried out.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1804. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-05-04.china-leadership-10
+        when: May 4
+        date: '1961-05-04'
+        place: zhengzhou
+        thread: china-leadership
+        c: Zhu De 朱德 arrives at Zhengzhou 郑州, Henan 河南省.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1804. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-05-04.china-leadership-13
+        when: May 4
+        date: '1961-05-04'
+        place: zhengzhou
+        thread: china-leadership
+        c: Zhengzhou 郑州. Zhu De 朱德 hears Wen Minsheng 文敏生, second secretary of the Henan committee 中共河南省委, and Shi Xiangsheng 史向生 and Zhao Wenfu 赵文甫, secretaries of its Secretariat, on farm output and the peasants' life since the Center's urgent letter of directives and the draft Working Regulations for the Rural People's Communes were carried out.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1804. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-05-05.china-leadership-10
+        when: May 5
+        date: '1961-05-05'
+        place: shijiazhuang
+        thread: china-leadership
+        c: Shijiazhuang 石家庄, Hebei 河北省. Zhu De 朱德 arrives and inspects the North China Pharmaceutical Works 华北制药厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1804. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-05-05.china-leadership-11
+        when: May 5
+        date: '1961-05-05'
+        place: shijiazhuang
+        thread: china-leadership
+        c: Shijiazhuang 石家庄. Zhu De 朱德 hears the heads of the Shijiazhuang prefectural committee 中共石家庄地委.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1804. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-05-05.china-leadership-12
+        when: May 5
+        date: '1961-05-05'
+        place: baoding
+        thread: china-leadership
+        c: Baoding 保定, Hebei. Zhu De 朱德 arrives and inspects the Baoding man-made fiber works 保定人造纤维厂.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1804. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-05-05.china-leadership-13
+        when: May 5
+        date: '1961-05-05'
+        place: baoding
+        thread: china-leadership
+        c: Baoding 保定. Zhu De 朱德 hears the heads of the Baoding prefectural committee 中共保定地委.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1804. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-05-05.china-leadership-14
+        when: May 5
+        date: '1961-05-05'
+        time_range: ['1961-05-05T11:00Z', '1961-05-05T14:00Z']
+        time_band: evening
+        time_zone: Asia/Shanghai
+        place: [baoding, peking]
+        thread: china-leadership
+        c: Zhu De 朱德 goes back to Peking 北京.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1804. The words: 晚 (1804). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1961-05-07.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1804 (May 7, 1961; Zhu De 朱德 meets the Brazilian economic delegation 巴西经济代表团)'}
+  - cite: {id: cal.1961-05-09.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1804–1805 (May 9, 1961; Zhu De 朱德 to Mao Zedong 毛泽东 on his inspection of Sichuan, Shaanxi, Henan and Hebei 四川、陕西、河南、河北, with proposals: since the urgent letter and the draft Sixty Articles the masses'' zeal high and household sidelines spreading, their chief fear the policy not kept; Henan better, but over two million still with oedema and disease and many animals dead; the mess halls Sichuan''s "two smokes" 两道烟 and Shaanxi''s "five bads" (short rations, labor and time wasted, no meals in the rain, mush all year); in eastern Henan 豫东 oedema down 40 to 50 percent within a month of letting members cook at home; the three provinces for restoring handicrafts, made state-owned too widely in 1958; the fairs lively, speculation with them, state commerce to lead; blockades between counties and communes to be broken; the ban on long-distance trading to be weighed case by case, peddlers being useful; farming, handicrafts and supply cooperatives one whole)'}
+  - variant: {id: cal.1961-05-09.china-leadership, unit: A, witness: w.zhu-de-nianpu-xinbian, reads: 'Zhu De to Mao on his inspection of four provinces, Sichuan, Shaanxi, Henan and Hebei', at: 'III, 1804'}
+  - add:
+      entry:
+        id: cal.1961-05-11.china-leadership-10
+        when: May 11
+        date: '1961-05-11'
+        place: peking
+        thread: china-leadership
+        c: Zhu De 朱德 at the regular meeting of the Ministry of Culture 国家文化部部委例会, which hears Xia Yan 夏衍, vice-minister of culture, on the growth of China's film industry.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1805. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1961-05-15.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1805–1806 (May 15, 1961, afternoon; Zhu De 朱德 at the enlarged Politburo Standing Committee 中共中央政治局常委扩大会议 on the villages, foreign affairs and other questions)'}
+  - add:
+      entry:
+        id: cal.1961-05-21.china-leadership-8
+        when: May 21
+        date: '1961-05-21'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Ulanhu 乌兰夫, Deng Zihui 邓子恢, Li Weihan 李维汉 and others, receives the minority nationalities' visiting groups 少数民族参观团 come to Peking for May Day.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1806. Names: Zhu De, Liu Shaoqi, Dong Biwu.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:liu-shaoqi', 'name:dong-biwu']
+  - cite: {id: cal.1961-05-21.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1806 (May 21–June 12, 1961; Zhu De 朱德 at the Central Work Conference 中共中央工作会议 (the "Peking work conference" 北京工作会议), which draws up the revised draft Sixty Articles 《农村人民公社工作条例（修正草案）》, the "Forty Articles on commerce" 商业四十条, the "Thirty-five Articles on handicrafts" 手工业三十五条 and the nine measures to cut the town population and town grain sales 《关于减少城镇人口和压缩城镇粮食销量的九条办法》; the supply cooperatives to keep their own accounts, cooperative shops and peddlers restored, rural fairs opened, purchase contracts for farm products; the town population cut by over 20 million in three years, 10 million this year; the year''s steel cut from 20 million tons to 11 million; Mao Zedong 毛泽东, closing, criticizes himself, the fight on the right should not have been carried to the masses, and those wrongly criticized and punished after Lushan to be reviewed and cleared)'}
+  - add:
+      entry:
+        id: cal.1961-05-31.china-leadership-5
+        when: May 31
+        date: '1961-05-31'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 speaks at the Central Work Conference 中共中央工作会议 on restoring the economy: the peasants look back fondly on 1957, when the higher cooperatives'' work was on track; after 1958 things were thrown into disorder; the chief question now grain; works and cooperatives wrongly merged to be restored, works taken by levelling and transfer returned; the market towns'' teahouses, wine shops and eating houses, which the peasants much need, to be reopened; the peasants'' surplus grain not to be bought up by the state but left to meet the towns'' own needs.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1806. See [[cal.1961-05-21.china-leadership]]. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-06-06.china-leadership-12
+        when: June 6
+        date: '1961-06-06'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德, at the Central Work Conference 中共中央工作会议, on farming and cutting the town population: the conference has found a good way with grain, quotas fixed below with a margin, so that output grows and the peasants have hope; grain to the household, members cooking for themselves, saves grain; the buying of farm and side products too rigid and too narrow, and its prices unreasonable, the year''s fruit crop up but little of it bought; two years of wheat and rice for the cities, which clash in the south, so some coarse grains to be grown; draft animals and tools lost, the forces of production damaged; the market towns'' smiths and masons to be organized fast to help the peasants set up house; the villages to take in the 20 or even 30 million sent down from the towns, a great political task, ownership to be set right and those sent down well settled, or there will be trouble in town and country.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1806–1807. See [[cal.1961-05-21.china-leadership]]. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-05-26.china-leadership-6
+        when: May 26
+        date: '1961-05-26'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 meets 墨根, the new Ambassador of the German Democratic Republic. In the talk the Ambassador: the Long March moved the young revolutionaries of his day, and Zhu De''s name was a banner of their movement. Zhu De, on farm cooperation: cooperatives to be run democratically, and the peasants will run them well; with the peasants'' life bettered, output steadies and the state gets more farm products.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1807. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:gdr', 'name:zhu-de', 'vis:only:prc+gdr@C-E']
+  - add:
+      entry:
+        id: cal.1961-05-26.china-leadership-7
+        when: May 26
+        date: '1961-05-26'
+        time: 1961-05-26T12:00Z
+        time_zone: Asia/Shanghai
+        place: peking
+        thread: china-leadership
+        c: Zhu De 朱德 goes to the Yinian Tang 颐年堂, Peking 北京, for a meeting.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1807. The words: 晚八时 (1807). Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1961-05-27.china-leadership-3
+        when: May 27
+        date: '1961-05-27'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 meets Kobina Kesse 克西, Ghana''s first Ambassador to China. He says: Africa is being liberated, a great advance; your independence helps us; our experience in winning independence and liberation can be passed on to you; after so many years of imperialist rule Africa''s people will rise against it; unity is strength, Africa''s people should unite.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1807. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:ghana', 'name:zhu-de', 'vis:only:prc+ghana@C-G']
+  - add:
+      entry:
+        id: cal.1961-05-27.china-leadership-4
+        when: May 27
+        date: '1961-05-27'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 meets Diaka Beinadun 贝纳顿, the Congo's first Ambassador to China.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1807. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:congo', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-05-27.china-leadership-5
+        when: May 27
+        date: '1961-05-27'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 meets Camara Moussa Sanguiana 桑吉亚纳, Guinea's first Ambassador to China.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1807. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:guinea', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-05-29.china-leadership-9
+        when: May 29
+        date: '1961-05-29'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 meets Koba Prea 普莱亚, Mali''s first Ambassador to China. He says: our two countries have established relations and begun trade, and will be good friends, helping and learning from each other; Africa is revolutionary, a great base of national revolution, against imperialism and building its own countries; free now to establish diplomatic and trade relations, you can break imperialism''s unequal trade.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1807–1808. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:mali', 'name:zhu-de', 'vis:only:prc+mali@C-E']
+  - add:
+      entry:
+        id: cal.1961-05-29.china-leadership-10
+        when: May 29
+        date: '1961-05-29'
+        time: 1961-05-29T12:30Z
+        time_zone: Asia/Shanghai
+        place: peking
+        thread: china-leadership
+        c: Zhu De 朱德 goes to the Yinian Tang 颐年堂, Peking 北京, for a meeting.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1808. The words: 晚八时半 (1808). Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1961-05-30.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1808 (May 30, 1961; Zhu De 朱德 meets the Peruvian parliamentary delegation 秘鲁议员代表团 led by 罗德里格斯)'}
+  - add:
+      entry:
+        id: cal.1961-05-31.china-leadership-6
+        when: May 31
+        date: '1961-05-31'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 meets Abdelrahman Kiouane 基万, head of the Algerian Provisional Government's 阿尔及利亚临时政府 first diplomatic mission to China, and all its members.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1808. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:algeria', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-06-01.china-leadership-7
+        when: June 1
+        date: '1961-06-01'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 at the thirty-eighth session of the Second National People's Congress Standing Committee 第二届全国人大常委会第三十八次会议, which hears the Ministry of Light Industry's 轻工业部 heads on the making of arts and crafts goods.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1808. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-06-03.china-leadership-10
+        when: June 3
+        date: '1961-06-03'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Zhu De 朱德 meets Parifti 帕里夫蒂, the Albanian Ambassador. He says: yours is a heroic country, small in land and people, enemies on every side, yet it holds out and builds, which shows the unity of your Party and people and your strength; our Party has led China''s people in revolution and building for forty years; we have faults in our building, but we tell them openly to the masses and with their help correct them, and so go forward the better.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1808. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:albania', 'name:zhu-de', 'vis:only:prc+albania@C-E']
+  - cite: {id: cal.1961-06-06.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1808 (June 6, 1961; Zhu De 朱德, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Dong Biwu 董必武, Peng Zhen 彭真, Wang Jiaxiang 王稼祥 and others, meets the Indonesian Communist Party''s 印度尼西亚共产党 delegation under Aidit 艾地 and gives it a banquet)'}
+  - add:
+      entry:
+        id: cal.1961-06-08.china-leadership-12
+        when: June 8
+        date: '1961-06-08'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 meets the delegation of the Cuban transport workers' union 古巴运输工人联合会 led by 冈萨雷斯.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1808. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:cuba', 'name:zhu-de']
+  - cite: {id: cal.1961-06-08.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1808 (June 8, 1961, 9:30 a.m.; Zhu De 朱德 goes to Mao Zedong''s 毛泽东 for the meeting. The words: 上午九时半)'}
+  - cite: {id: cal.1961-06-12.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1808 (June 12, 1961; Zhu De 朱德, with Liu Shaoqi 刘少奇, Soong Ching Ling 宋庆龄, Dong Biwu 董必武 and Zhou Enlai 周恩来, meets the DRV''s government delegation under Phạm Văn Đồng 范文同)'}
+  - cite: {id: cal.1961-06-13.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1808–1809 (June 13, 1961, morning; Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来, He Long 贺龙, Luo Ruiqing 罗瑞卿 and others, at the airport to welcome Sukarno 苏加诺, President of Indonesia. The words: 上午)'}
+  - add:
+      entry:
+        id: cal.1961-06-13.china-leadership-9
+        when: June 13
+        date: '1961-06-13'
+        time_range: ['1961-06-13T04:00Z', '1961-06-13T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德, with Dong Biwu 董必武, Zhou Enlai 周恩来 and others, attends Liu Shaoqi 刘少奇 in talks 会谈 with Sukarno 苏加诺, President of Indonesia.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1809. The words: 下午 (1809). Made public: 2016. Names: Zhu De, Dong Biwu, Zhou Enlai, Liu Shaoqi, Sukarno.'
+        tags: ['polity:prc', 'polity:indonesia', 'name:zhu-de', 'name:dong-biwu', 'name:zhou-enlai', 'name:liu-shaoqi', 'name:sukarno', 'vis:only:prc+indonesia']
+  - cite: {id: cal.1961-06-14.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1809 (June 14, 1961; Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来 and others, at the signing of the instruments of ratification of the Treaty of Friendship between China and Indonesia 《中华人民共和国与印度尼西亚共和国友好条约》)'}
+  - cite: {id: cal.1961-06-15.china-leadership-11, item: '[[w.zhu-de-nianpu-xinbian]], III, 1809 (June 15, 1961; Zhu De 朱德 at the signing of the joint communique of China and the DRV 中华人民共和国和越南民主共和国联合公报)'}
+  - cite: {id: cal.1961-06-15.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1809 (June 15, 1961; Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来 and others, at the airport to see Sukarno 苏加诺 off)'}
+  - add:
+      entry:
+        id: cal.1961-06-16.china-leadership-8
+        when: June 16
+        date: '1961-06-16'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 meets Shiga Yoshio 志贺义雄, member of the Japanese Communist Party's Politburo 日本共产党中央政治局 and of the House of Representatives, and the Party's Diet members' delegation he leads.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1809. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:japan', 'name:zhu-de']
+  - cite: {id: cal.1961-06-20.china-leadership-7, item: '[[w.zhu-de-nianpu-xinbian]], III, 1809 (June 20, 1961; Zhu De 朱德 presides at the thirty-ninth session of the Second National People''s Congress Standing Committee 第二届全国人大常委会第三十九次会议, which sends a delegation of the Congress under Peng Zhen 彭真 to hold talks with the Japanese Communist Party''s Diet members'' delegation and sign a joint communique; the Standing Committee and the CPPCC''s Standing Committee 全国政协常委 meet jointly on the commune regulations)'}
+  - cite: {id: cal.1961-06-22.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1809 (June 22, 1961; Zhu De 朱德 at the signing of the joint statement of the National People''s Congress delegation and the Japanese Communist Party''s Diet members'' delegation)'}
+  - cite: {id: cal.1961-06-23.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1809 (June 23, 1961; Zhu De 朱德 at the Politburo Standing Committee 中共中央政治局常委 on the celebration of the Party''s fortieth anniversary)'}
+  - add:
+      entry:
+        id: cal.1961-06-23.china-leadership-9
+        when: June 23
+        date: '1961-06-23'
+        thread: china-leadership
+        also: [china]
+        c: 'Zhu De 朱德 to Zhou Enlai 周恩来 and Chen Yun 陈云, for the departments concerned, on the North China Pharmaceutical Works 华北制药厂 at Shijiazhuang 石家庄 and the Baoding chemical fiber works 保定化学纤维厂: the pharmaceutical works short above all of maize and wrapping paper, needing 85,000 tons of maize this year and allotted 35,000; its heads say 3,000 tons of maize made into medicines and glucose for export buy back 18,000 tons; maize imported by the import corporation and worked up for export would keep the works going and earn foreign exchange, an "import to feed export" 以进养出 trade, its by-products for the home market; the fiber works trying rayon from cotton-stalk bark, which if it succeeds could give 2 million tons a year from the nation''s stalks; small rough pulp mills in the mountain areas for the fiber and paper works; the big cities'' industrial grain, at Shanghai 上海, Tianjin 天津, Peking 北京 and in Guangdong 广东, may be dealt with the same way.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1809–1810. Made public: 2016. Names: Zhu De, Zhou Enlai, Chen Yun.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:zhou-enlai', 'name:chen-yun', 'vis:only:prc']
+  - cite: {id: cal.1961-06-29.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1810 (June 29, 1961; Zhu De 朱德 at the Politburo 中共中央政治局, which adopts Liu Shaoqi''s 刘少奇 speech for the fortieth anniversary rally)'}
+  - cite: {id: cal.1961-06-29.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1810 (June 29, 1961; Zhu De 朱德 at the reception of 金·约瑟夫, chargé d''affaires of the Republic of the Congo 刚果共和国, for the first anniversary of the Congo''s independence)'}
+  - cite: {id: cal.1961-06-30.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1810 (June 30, 1961; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Soong Ching Ling 宋庆龄, Dong Biwu 董必武 and others, at the capital''s rally for the Party''s fortieth anniversary)'}
+  - add:
+      entry:
+        id: cal.1961-07-01.china-leadership-3
+        when: July 1
+        date: '1961-07-01'
+        thread: china-leadership
+        c: Zhu De 朱德 publishes thirteen poems in *Renmin ribao* 《人民日报》 for the fortieth anniversary of the Chinese Communist Party 中国共产党.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1810. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-07-01.china-leadership-4
+        when: July 1
+        date: '1961-07-01'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德, with Dong Biwu 董必武, at the reception of Kobina Kesse 克西, Ghana's Ambassador, for the first anniversary of the Republic of Ghana 加纳共和国.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1810. Names: Zhu De, Dong Biwu.'
+        tags: ['polity:prc', 'polity:ghana', 'name:zhu-de', 'name:dong-biwu']
+  - add:
+      entry:
+        id: cal.1961-07-05.china-leadership-10
+        when: July 5
+        date: '1961-07-05'
+        thread: china-leadership
+        c: '*Zhongguo qingnian* 《中国青年》, for the Party''s fortieth anniversary, prints "Comrade Zhu De talks to youth about study" 《朱德同志对青年谈学习》: the young to study political theory and raise their political consciousness, to study science and its spirit and join revolutionary zeal to it; science no mystery to the diligent; by humble, hard, earnest and stubborn study they can climb its heights.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1810–1811. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-07-05.china-leadership-11
+        when: July 5
+        date: '1961-07-05'
+        time: 1961-07-05T01:00Z
+        time_zone: Asia/Shanghai
+        place: [peking, beidaihe]
+        thread: china-leadership
+        c: Zhu De 朱德 leaves Peking 北京 for Beidaihe 北戴河.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1811. The words: 上午九时 (1811). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1961-07-29.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1811 (July 29, 1961; Zhu De 朱德 to the Center 中共中央 and Mao Zedong 毛泽东, sending the material of an inquiry into handicrafts in Peking''s suburbs 《关于北京市郊区手工业情况的调查材料》: the villages'' handicrafts and sidelines of great promise, if labor is well placed and pay fair, the key small contracts for jobs and household responsibility in farming 小段包工和家庭责任制, to free time for them; the Peking urban communes'' enterprises, on unified accounts and sharing profit and loss, repeat the "levelling and transfer" 一平二调 error, separate accounts better, the communes taking 10 to 15 percent of a profitable works'' earnings as a building fund; their wages and welfare in disorder, which separate accounts would let each works set right)'}
+  - add:
+      entry:
+        id: cal.1961-08-09.china-leadership-9
+        when: Aug. 9
+        date: '1961-08-09'
+        thread: china-leadership
+        c: 'Zhu De 朱德 inscribes for the memorial hall of the martyr Zhao Yiman 赵一曼烈士纪念馆 at Yibin 宜宾, Sichuan 四川省: the revolutionary hero Zhao Yiman immortal.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1811. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1961-08-13.china-leadership-11
+        when: Aug. 13
+        date: '1961-08-13'
+        time_range: ['1961-08-12T22:00Z', '1961-08-13T04:00Z']
+        time_band: morning
+        time_zone: Asia/Shanghai
+        place: [beidaihe, peking]
+        thread: china-leadership
+        c: Zhu De 朱德 flies from Beidaihe 北戴河 back to Peking 北京.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1811. The words: 上午; 下午 (the meeting with Goulart) (1811). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1961-08-13.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1811 (Aug. 13, 1961, afternoon; Zhu De 朱德, with Zhou Enlai 周恩来, Chen Yi 陈毅, Li Xiannian 李先念 and others, attends Dong Biwu 董必武 in meeting Goulart 古拉特, Vice President of Brazil)'}
+  - cite: {id: cal.1961-08-14.china-leadership-12, item: '[[w.zhu-de-nianpu-xinbian]], III, 1811 (Aug. 14, 1961; Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来 and others, at the airport to welcome Nkrumah 恩克鲁玛, President of Ghana)'}
+  - cite: {id: cal.1961-08-14.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1811 (Aug. 14, 1961; Zhu De 朱德, with Dong Biwu 董必武, Zhou Enlai 周恩来, Li Xiannian 李先念, Nie Rongzhen 聂荣臻 and others, attends Liu Shaoqi 刘少奇 in talks with Nkrumah 恩克鲁玛)'}
+  - cite: {id: cal.1961-08-15.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1811–1812 (Aug. 15, 1961; Zhu De 朱德, with Dong Biwu 董必武, Chen Yi 陈毅 and others, at the reception of 马东山, the DPRK embassy''s chargé d''affaires, for the sixteenth anniversary of Korea''s liberation)'}
