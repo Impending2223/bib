@@ -2060,6 +2060,19 @@ entries:
       - 1960-10-08T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-10-08.china
+    when: Oct. 8
+    date: '1960-10-08'
+    place: shanghai
+    thread: china
+    c: 'As a Shanghai 上海 report has it: in Xuhui some canteens have glass doors and fluorescent lamps throughout, others radios; one canteen in Putuo has a basin of goldfish.'
+    n: '[[w.dikotter-maos-great-famine]], 195. To check: Shanghai Municipal Archives, Oct. 8, 1960, A20-1-10, pp. 19 ff. (cited by [[w.dikotter-maos-great-famine]], 195 n.19).'
+    src:
+      c: 9a6b98e8
+      rows:
+        - 'w.dikotter-maos-great-famine 195: all'
+        - 'via w.dikotter-maos-great-famine 195 n.19: all'
+    tags: [form:state, polity:prc]
   - id: cal.1960-10-09.elections-1960
     when: Oct. 9
     date: '1960-10-09'
@@ -4964,12 +4977,13 @@ entries:
     date: '1960-10-19'
     thread: china-leadership
     c: The Zhenjiang 鎮江 prefectural committee's work group reports on the rectification of the Lishui 溧水 county committee's standing committee 關於溧水縣委常委整風情況的報告. The book takes from it that the county's first secretary, Yan Jingzhan 顏景詹, in spring 1959 saw ten edema patients die on the road.
-    n: '[[w.yang-jisheng-mubei]], I, 393. Made public: 2008. To check: Zhenjiang Prefectural Committee work group, "Report on the rectification of the standing committee of the Lishui county committee," Oct. 19, 1960 (Jiangsu committee, Lishui work group) (cited by [[w.yang-jisheng-mubei]], I, 393 n.49). Check: the book places his sight of the dead in spring 1959; the Lishui gazetteer of 1990, p. 94, stands at n.50.'
+    n: '[[w.yang-jisheng-mubei]], I, 393; [[w.yang-jisheng-mubei]], I, 393 (Lishui county: by early March 1960 at least 23,000 ill and 3,500 dead; in January–June 1960 29,200 with edema, 1,840 with cyanosis, 6,831 dead, 420 infants abandoned; the page''s notes n.49 and n.50, the report and the county gazetteer). Made public: 2008. To check: Zhenjiang Prefectural Committee work group, "Report on the rectification of the standing committee of the Lishui county committee," Oct. 19, 1960 (Jiangsu committee, Lishui work group) (cited by [[w.yang-jisheng-mubei]], I, 393 n.49). Check: the book places his sight of the dead in spring 1959; the Lishui gazetteer of 1990, p. 94, stands at n.50.'
     src:
       c: '81591267'
       rows:
         - 'w.yang-jisheng-mubei I, 393: all'
         - 'via w.yang-jisheng-mubei I, 393 n.49: all'
+        - 'w.yang-jisheng-mubei I, 393: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-19.china-leadership-10
     when: Oct. 19
@@ -5539,6 +5553,20 @@ entries:
       rows:
         - 'w.jian-zhou-enlai 456: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1960-10-21.china-leadership-9
+    when: Oct. 21
+    date: '1960-10-21'
+    thread: china-leadership
+    also: [china]
+    c: 'As *Neibu cankao* 内部参考 reports it: in the countryside people are made to stand in the summer sun with arms spread out, or to kneel on stones or broken glass; hair is ripped out.'
+    n: '[[w.dikotter-maos-great-famine]], 295 (the book: "from Sichuan in the south to Liaoning in the north"). Made public: 2010. To check: *Neibu cankao*, Oct. 21, 1960, p. 12 (cited by [[w.dikotter-maos-great-famine]], 295 n.20a, n.30); Sichuan Provincial Archives, May 25, 1959, JC1-1721, p. 3 (cited by [[w.dikotter-maos-great-famine]], 295 n.20b). Check: which of the note''s two records (n.20) gives the sun and the kneeling; the second is of 1959.'
+    src:
+      c: 73e7c0c1
+      rows:
+        - 'w.dikotter-maos-great-famine 295: all'
+        - 'via w.dikotter-maos-great-famine 295 n.20a: all'
+        - 'via w.dikotter-maos-great-famine 295 n.30: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1960-10-22.elections-1960
     when: Oct. 22
     date: '1960-10-22'
@@ -6085,6 +6113,20 @@ entries:
     c: Chen Yi 陈毅 receives Stuart Gelder 斯图尔特·吉耳德, a British freelance journalist.
     n: '[[w.chen-yi-nianpu]], 840. Names: Chen Yi.'
     tags: [polity:prc, polity:uk, name:chen-yi]
+  - id: cal.1960-10-23.china-leadership-11
+    when: Oct. 23
+    date: '1960-10-23'
+    place: hebei
+    thread: china-leadership
+    also: [china]
+    c: 'As a Hebei 河北 public security report has it: about 800 people shot in the province in 1959.'
+    n: '[[w.dikotter-maos-great-famine]], 288. Made public: 2010. To check: Hebei Provincial Archives, Oct. 23, 1960, 884-1-183, p. 4 (cited by [[w.dikotter-maos-great-famine]], 288 n.6).'
+    src:
+      c: 1d96936f
+      rows:
+        - 'w.dikotter-maos-great-famine 288: all'
+        - 'via w.dikotter-maos-great-famine 288 n.6: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1960-10-24.cuba
     when: Oct. 24
     date: '1960-10-24'
@@ -6289,13 +6331,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'A document of the Center, Zhongfa [60] 865: the Zunyi 遵义 region of Guizhou 贵州 has taken some 4 million yuan of state funds, relief for the poor among them, for new buildings, dance halls, photo studios, private toilets and elevators; Tongzi 桐梓 county has put the funds of six middle schools into a theatre.'
-    n: '[[w.dikotter-maos-great-famine]], 166, 200. Made public: 2010. To check: Center, zhongfa (60) 865, Oct. 24, 1960, Gansu Provincial Archives, 91-18-164, pp. 169–172 (cited by [[w.dikotter-maos-great-famine]], 166 n.14; 200 n.11). Check: the sum: 4 million yuan (166), 5 million (200).'
+    n: '[[w.dikotter-maos-great-famine]], 166, 200; [[w.yang-jisheng-mubei]], I, 569 (the Zunyi region''s 93 unplanned capital projects of January–June 1960, over 4 million yuan of state funds; n.10, Yan Yuebin). Made public: 2010. To check: Center, zhongfa (60) 865, Oct. 24, 1960, Gansu Provincial Archives, 91-18-164, pp. 169–172 (cited by [[w.dikotter-maos-great-famine]], 166 n.14; 200 n.11). Check: the sum: 4 million yuan (166), 5 million (200).'
     src:
       c: fe66e676
       rows:
         - 'w.dikotter-maos-great-famine 166, 200: all'
         - 'via w.dikotter-maos-great-famine 166 n.14: all'
         - 'via w.dikotter-maos-great-famine 200 n.11: all'
+        - 'w.yang-jisheng-mubei I, 569: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1960-10-24.china
     when: Oct. 24
@@ -6310,6 +6353,20 @@ entries:
         - 'w.zhang-sino-soviet-economic-cooperation 214 n.95: all'
         - 'via x.1960-10-24.prc-foreign-ministry-note-avprf: all'
     tags: [polity:prc, polity:ussr, vis:only:prc+ussr]
+  - id: cal.1960-10-24.china-leadership-6
+    when: Oct. 24
+    date: '1960-10-24'
+    place: nanjing
+    thread: china-leadership
+    also: [china]
+    c: 'As a Nanjing 南京 report has it: some 60 per cent of the fields around the city suffer insect damage in the autumn of 1960; vegetables severely short.'
+    n: '[[w.dikotter-maos-great-famine]], 188. Made public: 2010. To check: Nanjing Municipal Archives, Oct. 24, 1960, 4003-1-203, pp. 20–1 (cited by [[w.dikotter-maos-great-famine]], 188 n.82).'
+    src:
+      c: c4f963c9
+      rows:
+        - 'w.dikotter-maos-great-famine 188: all'
+        - 'via w.dikotter-maos-great-famine 188 n.82: all'
+    tags: [form:state, polity:prc, vis:only:prc]
   - id: cal.1960-10-25.economy
     when: Oct. 25
     date: '1960-10-25'
@@ -7929,15 +7986,17 @@ entries:
   - id: cal.1960-10-30.china-leadership-2
     when: Oct. 30
     date: '1960-10-30'
+    place: xuzhou
     thread: china-leadership
     c: Yang 楊, director at the Shanghai Bureau 上海局, reports to the prefectural committee on the situation in Feng 豐, Pei 沛 and Donghai 東海 counties. The book takes from it that Pei's grain fell from 349.86 million jin in 1955 to 260 million in 1960, and Feng's draft animals from 72,000 to 31,000.
-    n: '[[w.yang-jisheng-mubei]], I, 384. Made public: 2008. To check: Director Yang of the Shanghai Bureau, report to the prefectural committee on the situation in Feng, Pei and Donghai counties, Oct. 30, 1960 (cited by [[w.yang-jisheng-mubei]], I, 384 n.36). Check: the note gives the director''s surname only; the figures are the book''s, from the passage the note closes.'
+    n: '[[w.yang-jisheng-mubei]], I, 384; [[w.yang-jisheng-mubei]], I, 392 (Yang, of the Shanghai Bureau''s office, sent by Ke Qingshi 柯慶施 in late October to "take a look" at the three counties, reports at the Nanguan 南關 guesthouse, Xuzhou 徐州: in three years land under the plough, grain and draught animals sharply down, births down, deaths up; the members'' ration half a jin; the counties do not own to the edema; Pei county 587,049 people in 1958, 534,528 in the first half of 1960). Made public: 2008. To check: Director Yang of the Shanghai Bureau, report to the prefectural committee on the situation in Feng, Pei and Donghai counties, Oct. 30, 1960 (cited by [[w.yang-jisheng-mubei]], I, 384 n.36). Check: the note gives the director''s surname only; the figures are the book''s, from the passage the note closes. Names: Ke Qingshi.'
     src:
       c: 5118a222
       rows:
         - 'w.yang-jisheng-mubei I, 384: all'
         - 'via w.yang-jisheng-mubei I, 384 n.36: all'
-    tags: [polity:prc, vis:only:prc]
+        - 'w.yang-jisheng-mubei I, 392: ?'
+    tags: [polity:prc, vis:only:prc, name:ke-qingshi]
   - id: cal.1960-10-31.economy
     when: Oct. 31
     date: '1960-10-31'
