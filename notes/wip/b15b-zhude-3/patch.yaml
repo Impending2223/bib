@@ -1,6 +1,19 @@
 patch: 2026-11-21-b15b-zhude-3
 by: Claude (batch 15b, Zhu De nianpu, run 3), Nov. 21, 2026
 ops:
+  - edit:
+      id: cal.1962-07-30.china-leadership
+      base: 58bf10f5
+      set: {time: '1962-07-30T11:30Z', time_zone: Asia/Shanghai}
+      unset: [time_range, time_band]
+  - edit:
+      id: cal.1962-09-03.china-leadership
+      base: 83683dc3
+      set:
+        place: peking
+        time_range: ['1962-09-03T04:00Z', '1962-09-03T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
   - place-key: {key: xichang, name: 'Xichang', zone: Asia/Shanghai, in: prc}
   - place-key: {key: yuxi, name: 'Yuxi', zone: Asia/Shanghai, in: prc}
   - place-key: {key: tonghai, name: 'Tonghai', zone: Asia/Shanghai, in: prc}
@@ -86,7 +99,6 @@ ops:
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1837. Made public: 2016. Names: Zhu De.'
         tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
   - cite: {id: cal.1962-05-09.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1837 (May 8, 1962; Zhu De 朱德 at the reception of Sedivy 塞迪维, the Czechoslovak Ambassador, for the seventeenth anniversary of Czechoslovakia''s liberation)'}
-  - variant: {id: cal.1962-05-09.china-leadership-2, unit: A, witness: w.zhu-de-nianpu-xinbian, reads: 'Zhu De attends the Czechoslovak Ambassador''s reception for the seventeenth anniversary of the liberation on May 8', at: 'III, 1837'}
   - cite: {id: cal.1962-05-13.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1837 (May 13, 1962; Zhu De 朱德 at the meeting of the Politburo Standing Committee and the Secretariat 中共中央政治局常委和中央书记处会议 Liu Shaoqi 刘少奇 chairs, no hour given)'}
   - cite: {id: cal.1962-05-14.china-leadership-6, item: '[[w.zhu-de-nianpu-xinbian]], III, 1837 (May 14, 1962; Zhu De 朱德 presides at the fifty-fourth session of the Second National People''s Congress Standing Committee 第二届全国人大常委会第五十四次会议, which hears Peng Zhen 彭真 on the NPC delegation''s visit to the Democratic People''s Republic of Korea and decides appointments and removals)'}
   - add:
@@ -288,7 +300,7 @@ ops:
         date: '1962-05-24'
         place: kunming
         thread: china-leadership
-        c: 'Kunming 昆明. Zhu De 朱德 visits the Black Dragon Pool park 黑龙潭公园 at the foot of Longquan Hill 龙泉山 in the northern suburbs and writes the poem "Revisiting the Black Dragon Pool" 《重游黑龙潭》, recalling his quarters in its old temple at the Double Ninth restoration 重阳光复 (the nianpu''s note: the Yunnan rising of Oct. 30, 1911, led by Cai E 蔡锷 and others in answer to the Wuchang 武昌 rising, in which Zhu De took part, his troops quartered in the park''s temple).'
+        c: 'Kunming 昆明. Zhu De 朱德 visits the Black Dragon Pool park 黑龙潭公园 at the foot of Longquan Hill 龙泉山 in the northern suburbs and writes the poem "Revisiting the Black Dragon Pool" 《重游黑龙潭》, recalling his quarters in its old temple at the Double Ninth restoration 重阳光复 (the nianpu''s note: the Yunnan rising 云南起义 of Oct. 30, 1911, led by Cai E 蔡锷 and others in answer to the Wuchang 武昌 rising, in which Zhu De took part, his troops quartered in the park''s temple).'
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1840. Names: Zhu De.'
         tags: ['polity:prc', 'name:zhu-de']
   - add:
@@ -402,7 +414,7 @@ ops:
         date: '1962-06-07'
         place: yuxi
         thread: china-leadership
-        c: Yuxi 玉溪, Yunnan. Zhu De 朱德 arrives and inspects the county's Dongfeng reservoir 玉溪县东风水库.
+        c: Yuxi 玉溪, Yunnan 云南. Zhu De 朱德 arrives and inspects the county's Dongfeng reservoir 玉溪县东风水库.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1842. Names: Zhu De.'
         tags: ['polity:prc', 'name:zhu-de']
   - add:
@@ -432,7 +444,7 @@ ops:
         date: '1962-06-08'
         place: tonghai
         thread: china-leadership
-        c: Tonghai 通海, Yunnan. Zhu De 朱德 arrives. He hears the heads of the Tonghai county committee 中共通海县委 on their work.
+        c: Tonghai 通海, Yunnan 云南. Zhu De 朱德 arrives. He hears the heads of the Tonghai county committee 中共通海县委 on their work.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1842. Made public: 2016. Names: Zhu De.'
         tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C']
   - add:
@@ -442,7 +454,7 @@ ops:
         date: '1962-06-08'
         place: jianshui
         thread: china-leadership
-        c: Jianshui 建水 (once Lin'an 临安), Yunnan. Zhu De 朱德 arrives. He hears the heads of the Jianshui county committee 中共建水县委 on their work.
+        c: Jianshui 建水 (once Lin'an 临安), Yunnan 云南. Zhu De 朱德 arrives. He hears the heads of the Jianshui county committee 中共建水县委 on their work.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1842. Made public: 2016. Names: Zhu De.'
         tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C']
   - add:
@@ -462,7 +474,7 @@ ops:
         date: '1962-06-09'
         place: gejiu
         thread: china-leadership
-        c: 'Gejiu 个旧, Yunnan. Zhu De 朱德 arrives. He hears the heads of the Honghe Hani and Yi Autonomous Prefecture committee 中共红河哈尼族彝族自治州委 on their work. Told that the dependents'' grain is the chief difficulty, he says: much waste land, water and grass here, for herds; told the farms have over 200,000 people, the Hekou 河口 rubber farm alone 10,000: they are to grow their own grain; small industry and primary teachers sent down to the teams, all to set to work, standing on their own feet, the conditions good.'
+        c: 'Gejiu 个旧, Yunnan 云南. Zhu De 朱德 arrives. He hears the heads of the Honghe Hani and Yi Autonomous Prefecture committee 中共红河哈尼族彝族自治州委 on their work. Told that the dependents'' grain is the chief difficulty, he says: much waste land, water and grass here, for herds; told the farms have over 200,000 people, the Hekou 河口 rubber farm alone 10,000: they are to grow their own grain; small industry and primary teachers sent down to the teams, all to set to work, standing on their own feet, the conditions good.'
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1842. Made public: 2016. Names: Zhu De.'
         tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C-F']
   - add:
@@ -492,7 +504,7 @@ ops:
         date: '1962-06-11'
         place: kaiyuan-yunnan
         thread: china-leadership
-        c: Kaiyuan 开远, Yunnan. Zhu De 朱德 arrives and inspects the chemical fertilizer works the local garrison runs. He hears its report.
+        c: Kaiyuan 开远, Yunnan 云南. Zhu De 朱德 arrives and inspects the chemical fertilizer works the local garrison runs. He hears its report.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1843. Made public: 2016. Names: Zhu De.'
         tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C']
   - add:
@@ -502,7 +514,7 @@ ops:
         date: '1962-06-12'
         place: mile
         thread: china-leadership
-        c: Mile 弥勒, Yunnan. Zhu De 朱德, passing through, hears the heads of the Mile county committee 中共弥勒县委.
+        c: Mile 弥勒, Yunnan 云南. Zhu De 朱德, passing through, hears the heads of the Mile county committee 中共弥勒县委.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1843. Made public: 2016. Names: Zhu De.'
         tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
   - add:
@@ -512,7 +524,7 @@ ops:
         date: '1962-06-12'
         place: yiliang
         thread: china-leadership
-        c: Yiliang 宜良, Yunnan. Zhu De 朱德 arrives. He hears the heads of the Yiliang county committee 中共宜良县委.
+        c: Yiliang 宜良, Yunnan 云南. Zhu De 朱德 arrives. He hears the heads of the Yiliang county committee 中共宜良县委.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1843. Made public: 2016. Names: Zhu De.'
         tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C']
   - add:
@@ -578,3 +590,303 @@ ops:
         c: 'Zhu De 朱德 to the Center 中共中央 and Mao Zedong 毛泽东, a report on his inspection of Sichuan 四川 and Yunnan 云南 with proposals: most of Yunnan''s handicraft and supply cooperatives restored and output rising, but prices of the handicraft cooperatives'' goods made from materials they buy themselves held so tight they lose money, to be let rise to cover costs with a small profit; the village population eating commodity grain to be cut, the market towns'' craftsmen and the communes'' service units firmly streamlined to strengthen farming, those kept fed by the teams, not on state-sold grain; the policy allowing members to keep one or more draft animals not carried out, horses, mules, cattle and donkeys much fewer; the "horse caravans" 马帮 of Yunnan and Sichuan still needed for years, they and their inns to be run by the basic cooperatives or the teams, farming in season and hauling out of it; below the county, communes larger, teams smaller: since the Sixty Articles 六十条 the communes and brigades made smaller and the full-time and subsidized cadres more, a commune to a township or larger, under the county, no district above it, to free cadres for the base; Yunnan the country''s base for nonferrous metals, over a million tons proved, tin the most, output to be raised, not cut; Yunnan''s hills, forests, warmth, rain and water works promise much for opening waste land, over ten million mu by estimate (perhaps tens of millions in fact), a good place to settle those sent down and open the hills.'
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1843–1845. Made public: 2016. Names: Zhu De, Mao Zedong.'
         tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - cite: {id: cal.1962-06-25.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1845 (June 25, 1962; Zhu De 朱德, with Deng Xiaoping 邓小平, Peng Zhen 彭真 and others, at the capital''s rally, so printed, for the twelfth anniversary of the "liberation" of the Democratic People''s Republic of Korea 首都各界人民纪念朝鲜民主主义人民共和国解放十二周年集会)'}
+  - add:
+      entry:
+        id: cal.1962-06-26.china-leadership-6
+        when: June 26
+        date: '1962-06-26'
+        thread: china-leadership
+        c: 'Zhu De 朱德 talks with Chen Qihan 陈奇涵, vice-president of the Supreme People''s Court 最高人民法院, and Yang Zhicheng 杨至诚, vice-president of the Higher Military Academy 高等军事学院, on the army''s history from the Nanchang rising 南昌起义 to the Jinggangshan 井冈山: the Party''s 党 military work in the first civil war, its gains and lessons; why the Nanchang rising was launched and how its army went south; the chief lesson of its failure, that it was not joined with Jiangxi''s 江西 peasant movement; how the remnant held on, the South Hunan rising 湘南起义 of early 1928, the meeting on the Jinggangshan in April with the Autumn Harvest rising''s troops 秋收起义部队 under Mao Zedong 毛泽东, and the battles that founded and held the Jinggangshan base. The summary of the talks, "From the Nanchang Rising to the Jinggangshan," is in his *Selected Works* 《朱德选集》.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1845. Made public: 1983 ([[w.de-zhu-de-xuanji-selected]], where the nianpu says the record is collected as 《从南昌起义到上井冈山》). Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1962-06-29.china-leadership-3, item: '[[w.zhu-de-nianpu-xinbian]], III, 1845 (June 29, 1962; Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Peng Zhen 彭真 and others, at the farewell banquet of Pak Kum Chol 朴金哲, head of the Supreme People''s Assembly delegation, and speaks: Korea''s internal affairs admit no foreign interference; the aggressor troops of American imperialism have no ground to stay in South Korea)'}
+  - cite: {id: cal.1962-06-29.china-leadership-9, item: '[[w.zhu-de-nianpu-xinbian]], III, 1845 (June 29, 1962; Zhu De 朱德 at the NPC Standing Committee''s 全国人大常委会 ceremony presenting old Korean books held in China to the Korean people)'}
+  - cite: {id: cal.1962-07-03.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1845 (July 3, 1962; Zhu De 朱德 at the Politburo Standing Committee 中共中央政治局常委会议, which hears Zhou Enlai 周恩来 on his inspection of streamlining in the Northeast, the country''s grain procurement and big enterprises running farm sidelines)'}
+  - cite: {id: cal.1962-07-06.china, item: '[[w.zhu-de-nianpu-xinbian]], III, 1845–1846 (July 6, 1962; Zhu De 朱德 presides at the fifty-sixth session of the Second National People''s Congress Standing Committee 第二届全国人大常委会第五十六次会议, which adopts the resolution supporting the Korean Supreme People''s Assembly''s letter to the world''s parliaments for forcing the American troops out of South Korea and Korea''s peaceful reunification)'}
+  - add:
+      entry:
+        id: cal.1962-07-06.china-leadership-8
+        when: July 6
+        date: '1962-07-06'
+        time: 1962-07-06T13:30Z
+        time_zone: Asia/Shanghai
+        thread: china-leadership
+        c: Zhu De 朱德 calls on Mao Zedong 毛泽东.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1846. The words: 晚九时半，到毛泽东处看望 (1846). Made public: 2016. Names: Zhu De, Mao Zedong.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1962-07-13.china-leadership-4
+        when: July 13
+        date: '1962-07-13'
+        place: peking
+        thread: china-leadership
+        c: Building 10 of the Diaoyutai 钓鱼台十号楼, Peking 北京. Zhu De 朱德 at the Politburo Standing Committee 中共中央政治局常委会.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1846. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1962-07-15.china-leadership-10
+        when: July 15
+        date: '1962-07-15'
+        time_range: ['1962-07-15T11:00Z', '1962-07-15T14:00Z']
+        time_band: evening
+        time_zone: Asia/Shanghai
+        place: [peking, beidaihe]
+        thread: china-leadership
+        c: Zhu De 朱德 leaves Peking 北京 by train for Beidaihe 北戴河.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1846. The words: 晚，乘火车离京赴北戴河 (1846). Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1962-07-19.china-leadership-15
+        when: July 19
+        date: '1962-07-19'
+        place: beidaihe
+        thread: china-leadership
+        c: 'Beidaihe 北戴河. Zhu De 朱德 talks with his staff 身边工作人员, the first of two talks: under a single policy, the methods to suit each place, with local rules and differences in ownership, responsibility and management; the main thing now to oppose the "left," not the right, which anyone can do; people to dare to speak; the coast''s "export of labor," building companies too to work abroad; commerce wholly centralized a problem, the grain departments to make a small profit, not lose money; collective and household sidelines side by side, much to be met by the family, not society, the family not to be broken up, or the peasants will idle; peasants to be urged to open waste land, untaxed for some years; draft animals collectively owned and privately kept, or privately owned; enterprises run by their directors under rules, each man answerable; taxes the state''s basic revenue, the enterprises'' taxes, depreciation and profits to be reckoned apart. The nianpu gives the points for the two talks together.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1846. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1962-07-19.china-leadership-16
+        when: July 19
+        date: '1962-07-19'
+        place: beidaihe
+        thread: china-leadership
+        c: Beidaihe 北戴河. Zhu De 朱德 talks with Dong Biwu 董必武, who calls on him.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1846. Made public: 2016. Names: Zhu De, Dong Biwu. Check: The nianpu prints the talk under its item of July 19 and 22, without saying which day.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:dong-biwu', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1962-07-22.china-leadership-14
+        when: July 22
+        date: '1962-07-22'
+        thread: china-leadership
+        c: Zhu De 朱德 talks again with Chen Qihan 陈奇涵 and Yang Zhicheng 杨至诚 on the army's history from the Nanchang rising 南昌起义 to the Jinggangshan 井冈山.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1845. See [[cal.1962-06-26.china-leadership-6]]. Made public: 1983 ([[w.de-zhu-de-xuanji-selected]], where the nianpu says the record is collected as 《从南昌起义到上井冈山》). Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1962-07-22.china-leadership-15
+        when: July 22
+        date: '1962-07-22'
+        place: beidaihe
+        thread: china-leadership
+        c: Beidaihe 北戴河. Zhu De 朱德 talks again with his staff 身边工作人员 on policy, the second of two talks.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1846. See [[cal.1962-07-19.china-leadership-15]]. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1962-08-06.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1846–1847 (July 25–Aug. 24, 1962; Zhu De 朱德 at the Central Work Conference 中共中央工作会议 (the "Beidaihe conference" 北戴河会议), in its center group 中心小组 of Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De, Deng Xiaoping 邓小平, the State Council''s sector heads and the regional bureaus'' secretaries; meant for farming, grain, commerce and state aid to farming; Zhu De in the East China, Southwest, Northeast and North China groups, saying the task is to raise output, grain above all; Mao on Aug. 6 on "classes, the situation, contradictions," and six times in the center group against the "go-it-alone wind" 单干风, the "reversal-of-verdicts wind" 翻案风 and the "dark wind" 黑暗风, the agenda overturned)'}
+  - variant: {id: cal.1962-08-06.china-leadership, unit: B, witness: w.zhu-de-nianpu-xinbian, reads: 'The Central Work Conference at Beidaihe meets July 25–Aug. 24', at: 'III, 1846'}
+  - cite: {id: cal.1962-07-30.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1847 (July 30, 1962; Zhu De 朱德 at the Politburo Standing Committee 中共中央政治局常委会议 in Building No. 1 一号楼 at 7:30 p.m.)'}
+  - add:
+      entry:
+        id: cal.1962-08-01.china-leadership-12
+        when: Aug. 1
+        date: '1962-08-01'
+        place: beidaihe
+        thread: china-leadership
+        c: 'Beidaihe 北戴河. Zhu De 朱德 writes the poem "For the Thirty-fifth Anniversary of the Founding of the Chinese People''s Liberation Army" 《庆祝中国人民解放军建军三十五周年》: the Party commands the gun, the gun never the Party; guerrilla war first, then the wars against Japan, of liberation and against America in Korea; China and Korea friends and neighbors.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1847. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1962-08-15.china-leadership-9, item: '[[w.zhu-de-nianpu-xinbian]], III, 1848 (Aug. 15, 1962; Zhu De 朱德 returns from Beidaihe 北戴河 to Peking 北京)'}
+  - cite: {id: cal.1962-08-15.china-leadership-10, item: '[[w.zhu-de-nianpu-xinbian]], III, 1848 (Aug. 15, 1962; Zhu De 朱德, with Chen Yi 陈毅, at the reception of Han Ik-su 韩益洙, the Korean Ambassador, for the seventeenth anniversary of Korea''s liberation)'}
+  - add:
+      entry:
+        id: cal.1962-08-16.china-leadership-6
+        when: Aug. 16
+        date: '1962-08-16'
+        thread: china-leadership
+        c: Zhu De 朱德 receives 库姆比利耶夫, Bulgaria's new Ambassador.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1848. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:bulgaria', 'ok:fields-place', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1962-08-17.china-leadership-9
+        when: Aug. 17
+        date: '1962-08-17'
+        thread: china-leadership
+        c: Zhu De 朱德 receives 策伯格, Mongolia's new Ambassador.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1848. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:mongolia', 'ok:fields-place', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1962-08-17.china-leadership-10
+        when: Aug. 17
+        date: '1962-08-17'
+        thread: china-leadership
+        c: Zhu De 朱德 receives Zakaria Adli Imam 伊马姆, the United Arab Republic's new Ambassador.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1848. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:uar', 'ok:fields-place', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1962-08-17.china-leadership-11
+        when: Aug. 17
+        date: '1962-08-17'
+        place: [peking, beidaihe]
+        thread: china-leadership
+        c: Zhu De 朱德 leaves Peking 北京 for Beidaihe 北戴河.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1848. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1962-08-20.china-leadership-6
+        when: Aug. 20
+        date: '1962-08-20'
+        place: beidaihe
+        thread: china-leadership
+        c: 'Beidaihe 北戴河. Zhu De 朱德 writes in his notebook his views on the economy and policy: the organs'' production not to be written off for its embezzlers, who are to be dealt with by Party policy and the law; prices a tangled question not yet worked out; the Sixty Articles on agriculture 农业六十条 and the Seventy Articles on industry 工业七十条, once adopted, to be carried out, some works not doing so; the relations of state, collective and individual to be settled: with no house, food or family, how can the collective hold?; in foreign trade, imports to feed exports works; the "three guarantees" 三包 to the group workable in some areas; China a semi-feudal base where capitalism never grew, so the transition slower; seek truth from facts and suit each place, a single national rule, like a national maize campaign, not; for settled lives and work, main work and sidelines both, families to be made.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1848. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1962-08-21.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1848 (Aug. 21, 1962; Zhu De 朱德 at the meeting at Mao Zedong''s 毛泽东 in the afternoon)'}
+  - add:
+      entry:
+        id: cal.1962-08-25.china-leadership-8
+        when: Aug. 25
+        date: '1962-08-25'
+        place: qinhuangdao
+        thread: china-leadership
+        c: 'Qinhuangdao 秦皇岛. Zhu De 朱德 inspects the Qinhuangdao docks 秦皇岛码头 and the Yaohua glass works 耀华玻璃厂. Hearing the heads of the port bureau 秦皇岛港务局, he says: they are to take up exports and find trade; a dock is for carrying trade, ore, salt, coal; through the docks to deal with every country, trade on a world scale; without grain there are always stones, the goods to be found; socialism always goes forward, at times blocked, pausing, readjusting, then on again, not always pressed down.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1848–1849. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc@C-G']
+  - add:
+      entry:
+        id: cal.1962-08-26.china-leadership-8
+        when: Aug. 26
+        date: '1962-08-26'
+        place: peking
+        thread: china-leadership
+        c: Zhu De 朱德 returns to Peking 北京.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1849. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1962-08-26.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1849 (Aug. 26–Sept. 23, 1962; Zhu De 朱德 at the preparatory meeting of the Eighth Central Committee''s Tenth Plenum 中共中央八届十中全会预备会议)'}
+  - add:
+      entry:
+        id: cal.1962-08-28.china-leadership-5
+        when: Aug. 28
+        date: '1962-08-28'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 presides at the sixty-first session of the National People's Congress Standing Committee 全国人大常委会第六十一次会议, which hears Huang Zhen 黄镇, Vice-Minister of Foreign Affairs 外交部, on the international situation, and decides appointments and removals.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1849. Names: Zhu De, Huang Zhen.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:huang-zhen']
+  - cite: {id: cal.1962-09-03.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1849 (Sept. 3, 1962; Zhu De 朱德 at the meeting at the Yinian Tang 颐年堂 in the afternoon)'}
+  - add:
+      entry:
+        id: cal.1962-09-04.china-leadership-3
+        when: Sept. 4
+        date: '1962-09-04'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 presides at the sixty-second session of the Second National People's Congress Standing Committee 第二届全国人大常委会第六十二次会议, which hears Zhang Zhixiang 张致祥, deputy director of the Commission for Cultural Relations with Foreign Countries 对外文化联络委员会, on the translation, publication and distribution of Mao Zedong's 毛泽东 works.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1849. Names: Zhu De, Mao Zedong.'
+        tags: ['polity:prc', 'name:zhu-de', 'name:mao-zedong']
+  - add:
+      entry:
+        id: cal.1962-09-06.china-leadership-3
+        when: Sept. 6
+        date: '1962-09-06'
+        thread: china-leadership
+        c: 'Zhu De 朱德 to Li Xiannian 李先念 and Chen Boda 陈伯达, by letter: he agrees in the main with the draft "Decision on Questions of Commerce Work" 《关于商业工作问题的决定》（草案）, with four points: to "promote production, enliven the economy, join town and country, trade at home and abroad," the supply and marketing cooperatives'' channels to be restored and made sound at once; under unified leadership the market to be livelier, ending "chaos without unity, death with it," no one rule for every place; the Party''s lead in commerce strengthened, members called to learn to trade, good cadres sent to its offices and enterprises; with goods short, full exchange at equal value hard, the price scissors to be narrowed step by step, in the long run by the law of value, care now that readjusting prices does not widen the gap, and later the inverted grain price, the grain-cotton price gap and industry''s losses to be resolved.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1849. Made public: 2016. Names: Zhu De, Li Xiannian, Chen Boda.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:li-xiannian', 'name:chen-boda', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1962-09-11.china-leadership-6
+        when: Sept. 11
+        date: '1962-09-11'
+        thread: china-leadership
+        c: Zhu De 朱德 talks with others on the Party's history and the errors of Gao Gang 高岗 and others. The nianpu names six such days, Sept. 11, 13, 16, 18, 20 and 24, during the preparatory meeting of the Tenth Plenum 中共中央八届十中全会预备会议.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1849. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1962-09-12.china-leadership-4
+        when: Sept. 12
+        date: '1962-09-12'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Zhu De 朱德 presides at the sixty-third session of the Second National People's Congress Standing Committee 第二届全国人大常委会第六十三次会议, which settles the list of the NPC delegation to visit the Democratic Republic of Vietnam 越南民主共和国 and hears the Central Meteorological Bureau 中央气象局 on its work.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1850. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de']
+  - add:
+      entry:
+        id: cal.1962-09-13.china-leadership-7
+        when: Sept. 13
+        date: '1962-09-13'
+        thread: china-leadership
+        c: Zhu De 朱德 talks with others on the Party's history and the errors of Gao Gang 高岗 and others.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1849. See [[cal.1962-09-11.china-leadership-6]]. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1962-09-16.china-leadership
+        when: Sept. 16
+        date: '1962-09-16'
+        thread: china-leadership
+        c: Zhu De 朱德 talks with others on the Party's history and the errors of Gao Gang 高岗 and others.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1849. See [[cal.1962-09-11.china-leadership-6]]. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1962-09-17.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1850 (Sept. 17, 1962; Zhu De 朱德 at the meeting at the Yinian Tang 颐年堂)'}
+  - add:
+      entry:
+        id: cal.1962-09-18.china-leadership-3
+        when: Sept. 18
+        date: '1962-09-18'
+        place: peking
+        thread: china-leadership
+        c: The Yinian Tang 颐年堂, Peking. Zhu De 朱德 at a meeting.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1850. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1962-09-18.china-leadership-4
+        when: Sept. 18
+        date: '1962-09-18'
+        thread: china-leadership
+        c: Zhu De 朱德 talks with others on the Party's history and the errors of Gao Gang 高岗 and others.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1849. See [[cal.1962-09-11.china-leadership-6]]. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1962-09-20.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1850 (Sept. 20, 1962; Zhu De 朱德 at the meeting at the Yinian Tang 颐年堂)'}
+  - add:
+      entry:
+        id: cal.1962-09-20.china-leadership-6
+        when: Sept. 20
+        date: '1962-09-20'
+        thread: china-leadership
+        c: Zhu De 朱德 talks with others on the Party's history and the errors of Gao Gang 高岗 and others.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1849. See [[cal.1962-09-11.china-leadership-6]]. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1962-09-20.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1850 (Sept. 20, 1962; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, receives all the delegates to the Chinese Communist Party''s third Air Force congress 中国共产党空军第三届代表大会)'}
+  - cite: {id: cal.1962-09-22.china-leadership-7, item: '[[w.zhu-de-nianpu-xinbian]], III, 1850 (Sept. 22, 1962; Zhu De 朱德, with Chen Yi 陈毅 and others, at the reception of 比特拉奥雷 (so printed), the Malian Ambassador, for the second anniversary of the Republic of Mali)'}
+  - cite: {id: cal.1962-09-24.china, item: '[[w.zhu-de-nianpu-xinbian]], III, 1850–1851 (Sept. 24–27, 1962; Zhu De 朱德 at the Eighth Central Committee''s Tenth Plenum 中共八届十中全会 in the Huairen Tang 怀仁堂, Zhongnanhai 中南海, which adopts the decisions on further consolidating the communes'' collective economy and developing farming, on commerce work, on the planned exchange of leading Party and government cadres and on strengthening the Party''s control organs, and the Work Regulations for the Rural People''s Communes; elects Lu Dingyi 陆定一, Kang Sheng 康生 and Luo Ruiqing 罗瑞卿 secretaries of the Secretariat; announces the special investigation of Peng Dehuai 彭德怀 and Xi Zhongxun 习仲勋; removes Huang Kecheng 黄克诚 and Tan Zheng 谭政 from the Secretariat; Mao Zedong 毛泽东 on class struggle, to be spoken of "every year, every month"; the plenum also puts economic work "first")'}
+  - cite: {id: cal.1962-09-25.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1850–1851 (Sept. 25, 1962; Zhu De 朱德 speaks at the plenary: with the "eight-character policy" 八字方针 in industry and the Twelve Articles 十二条 and Sixty Articles 六十条 in farming the situation much better, the market livelier with the private plots and fairs, the peasants glad; the situation not to be judged all black; to learn to trade the most urgent thing, not for the commerce departments alone but for the Party committees and all; many countries want China''s goods; China''s climates and many hands can grow a great variety, several thousand Chinese medicines alone; the teams, well organized, to run many lines, sell to the state, and grow rich, not a few but all together)'}
+  - add:
+      entry:
+        id: cal.1962-09-24.china-leadership-10
+        when: Sept. 24
+        date: '1962-09-24'
+        thread: china-leadership
+        c: Zhu De 朱德 talks with others on the Party's history and the errors of Gao Gang 高岗 and others.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1849. See [[cal.1962-09-11.china-leadership-6]]. Made public: 2016. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1962-09-28.china-leadership-7
+        when: Sept. 28
+        date: '1962-09-28'
+        thread: china-leadership
+        c: Zhu De 朱德 receives Zniber 阿卜杜勒·拉赫曼·兹尼贝尔, Morocco's first Ambassador to China.
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1851. Names: Zhu De.'
+        tags: ['polity:prc', 'polity:morocco', 'ok:fields-place', 'name:zhu-de']
+  - cite: {id: cal.1962-09-30.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1851 (Sept. 30, 1962; Zhu De 朱德, with Liu Shaoqi 刘少奇 and others, at the reception for the thirteenth anniversary of the People''s Republic over which Zhou Enlai 周恩来 presides)'}
+  - add:
+      entry:
+        id: cal.1962-09.china-leadership-8
+        when: 1962, Sept.
+        date: 1962-09
+        thread: china-leadership
+        c: 'Zhu De 朱德 writes an inscription for the memorial hall of the martyr Huang Jiguang 黄继光烈士纪念馆 in Zhongjiang county 中江县, Sichuan 四川省: to carry on Huang Jiguang''s patriotic and internationalist spirit and fight to defend and build the great socialist motherland. (The nianpu''s note: Huang Jiguang, of Zhongjiang, a special-class hero of the Chinese People''s Volunteers 中国人民志愿军, who in October 1952, at the battle of Shangganling 上甘岭, blocked an enemy gun-port with his chest so his comrades could charge, and died.)'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1851. Names: Zhu De.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
