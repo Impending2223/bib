@@ -1,6 +1,15 @@
 patch: 2026-11-20-b15b-chenjian-2
 by: 'Claude (batch 15b, Chen Jian, Zhou Enlai: A Life, run 2), Nov. 20–21, 2026'
 ops:
+- edit:
+    id: cal.1966-04-02.china-leadership
+    base: a5d9e30d
+    set:
+      time_range:
+      - '1966-04-02T11:00Z'
+      - '1966-04-02T14:00Z'
+      time_band: evening
+      time_zone: Asia/Shanghai
 - cite:
     id: cal.1964-12-15.china-leadership
     item: '[[w.jian-zhou-enlai]], 518 (at the conference Liu speaks on the movement and Mao interrupts him again and again: "bourgeois" in "new bourgeois elements" the peasants do not understand; against Liu''s wish to drop "rectifying the Party," Mao supports it, millions of members "not true Communists"; Zhou silent; not the day)'
@@ -294,7 +303,7 @@ ops:
       also:
       - indonesia
       c: Aidit tells Yao Zhongmin, the Chinese ambassador, Peking's "sole contact" with him by Zhou's assignment, that the PKI "is determined to take resolute action to seize political power in Indonesia."
-      n: '[[w.jian-zhou-enlai]], 528. Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146; interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35). See [[cal.1965-08-05.china-leadership]]. Names: Aidit.'
+      n: '[[w.jian-zhou-enlai]], 528. Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146; interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35). See [[cal.1965-08-05.china-leadership]].'
       src:
         c: 5291e6e6
         rows:
@@ -316,7 +325,7 @@ ops:
       also:
       - indonesia
       c: 'Yao Zhongmin gives Aidit Peking''s reply: the PKI to "be determined and well prepared and move forward resolutely; in the event of setbacks, be determined to persist in struggles in the countryside."'
-      n: '[[w.jian-zhou-enlai]], 528. Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146; interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35). See [[cal.1965-08.china-leadership-5]]. Names: Aidit.'
+      n: '[[w.jian-zhou-enlai]], 528. Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146; interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35). See [[cal.1965-08.china-leadership-5]].'
       src:
         c: d3e1d31f
         rows:
@@ -338,7 +347,7 @@ ops:
       also:
       - indonesia
       c: Aidit tells Yao Zhongmin that the PKI will make the "decisive move" on Sept. 30.
-      n: '[[w.jian-zhou-enlai]], 528 ("Then"). Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146; interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35). See [[cal.1965-08.china-leadership-5]]. Names: Aidit. Check: the day.'
+      n: '[[w.jian-zhou-enlai]], 528 ("Then"). Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146; interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35). See [[cal.1965-08.china-leadership-5]]. Check: the day.'
       src:
         c: 658055fe
         rows:
@@ -360,7 +369,7 @@ ops:
       also:
       - indonesia
       c: 'Zhou cables Aidit in support of the PKI''s decision: after the uprising succeeds, keep Sukarno as president and maintain "Nasakom," which may be useful abroad.'
-      n: '[[w.jian-zhou-enlai]], 528 ("a few days later"). Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146; interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35). See [[cal.1965-08.china-leadership-5]]. Names: Zhou Enlai, Aidit, Sukarno. Check: the day; whether before Sept. 30.'
+      n: '[[w.jian-zhou-enlai]], 528 ("a few days later"). Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146; interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35). See [[cal.1965-08.china-leadership-5]]. Names: Zhou Enlai, Sukarno. Check: the day; whether before Sept. 30.'
       src:
         c: 4e158746
         rows:
@@ -458,7 +467,7 @@ ops:
       at: before 1965-11-21
       thread: indonesia
       c: Aidit, chairman of the Indonesian Communist Party, executed.
-      n: '[[w.jian-zhou-enlai]], 529. Names: Aidit. Check: the day.'
+      n: '[[w.jian-zhou-enlai]], 529. Check: the day.'
       src:
         c: 7bb492d2
         rows:
@@ -531,10 +540,10 @@ ops:
       when: Nov. 27
       date: '1965-11-27'
       thread: china-leadership
-      c: Shanghai. Zhou Enlai, seeing Chen Pixian, the city's Party secretary, thanks him for the word on Yao Wenyuan's essay passed through Luo Ruiqing.
-      n: '[[w.jian-zhou-enlai]], 530 ("the next day"). Made public: 2005 ([[w.pixian-chen-pixian-huiyilu]]). To check: [[w.zhou-enlai-nianpu-1949]], II, 767 (cited by [[w.jian-zhou-enlai]], 530 n.48a); [[w.pixian-chen-pixian-huiyilu]], 34 (cited by [[w.jian-zhou-enlai]], 530 n.48b). See [[cal.1965-11-26.china-leadership-2]]. Names: Zhou Enlai, Chen Pixian 陈丕显, Yao Wenyuan, Luo Ruiqing.'
+      c: Shanghai. Zhou Enlai, seeing Chen Pixian 陈丕显, the city's Party secretary, thanks him for the word on Yao Wenyuan's essay passed through Luo Ruiqing.
+      n: '[[w.jian-zhou-enlai]], 530 ("the next day"). Made public: 2005 ([[w.pixian-chen-pixian-huiyilu]]). To check: [[w.zhou-enlai-nianpu-1949]], II, 767 (cited by [[w.jian-zhou-enlai]], 530 n.48a); [[w.pixian-chen-pixian-huiyilu]], 34 (cited by [[w.jian-zhou-enlai]], 530 n.48b). See [[cal.1965-11-26.china-leadership-2]]. Names: Zhou Enlai, Yao Wenyuan, Luo Ruiqing.'
       src:
-        c: 61798db7
+        c: 1b5c7033
         rows:
         - 'w.jian-zhou-enlai 530: all'
       tags:
@@ -670,3 +679,200 @@ ops:
 - cite:
     id: cal.1965-11-10.china-leadership-2
     item: '[[w.jian-zhou-enlai]], 532 ("Around the same time" Yang Shangkun dismissed as head of the General Office at Mao''s behest; Wang Dongxing, long head of Mao''s bodyguards, his successor; Zhou, Liu, Deng and the others silent)'
+- cite:
+    id: cal.1966-02-05.china-leadership
+    item: '[[w.jian-zhou-enlai]], 533 (Feb. 5, the Standing Committee chaired by Liu and Deng, Zhou there: Peng reports how the outlines were composed, Wu Han''s problems academic, no tie to Peng Dehuai; Liu and Deng endorse, Zhou concurs; Deng relays the decision and text to Mao)'
+- to-check:
+    id: cal.1966-02-05.china-leadership
+    add: '[[w.peng-zhen-nianpu-1902]], IV, 486–487 (cited by [[w.jian-zhou-enlai]], 533 n.61).'
+- cite:
+    id: cal.1966-02-08.china-leadership
+    item: '[[w.jian-zhou-enlai]], 533 (Peng, Kang Sheng and Lu Dingyi report to Mao at Wuhan, Feb. 8; Mao: "Can Wu Han be considered an anti-Party and antisocialist figure?" Peng: "No, he cannot, but he has been very nervous"; Wu may stay vice mayor)'
+- to-check:
+    id: cal.1966-02-08.china-leadership
+    add: '[[w.peng-zhen-nianpu-1902]], IV, 468–469 (cited by [[w.jian-zhou-enlai]], 533 n.62b).'
+- cite:
+    id: cal.1966-02-12.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 532–533 (the Outlines: the *Hai Rui* criticism "a big struggle in the sphere of ideology," "part of the struggles between socialism and capitalism," yet "all being equal before the truth"; relayed to the whole Party Feb. 12 after Deng signs it)'
+- to-check:
+    id: cal.1966-02-12.china-leadership-2
+    add: CCP CC Document (66), No. 267, February 12, 1966 (cited by [[w.jian-zhou-enlai]], 533 n.60); [[w.yang-shengqun-deng-xiaoping-zhuan-1904]], 1326 (cited by [[w.jian-zhou-enlai]], 533 n.63b).
+- src:
+    id: cal.1966-02-12.china-leadership-2
+    rows:
+    - 'via x.1966-02-12.ccp-cc-document-66-no-267: ?'
+- cite:
+    id: cal.1966-02-02.china-leadership
+    item: '[[w.jian-zhou-enlai]], 533 (the summary, revised with Mao''s input: since 1949 "fierce class struggles on the cultural front," "an anti-Party and antisocialist black line"; "a great socialist revolution on the cultural front"; Lin Biao no part in it)'
+- variant:
+    id: cal.1966-02-02.china-leadership
+    unit: A
+    witness: w.jian-zhou-enlai
+    reads: Jiang Qing organizes the roundtable on Feb. 20
+    at: '533'
+- cite:
+    id: cal.1966-03-17.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 533 (Mao, revising the summary, adds to its title that it was done "with Comrade Lin Biao''s entrustment"; not the day)'
+- cite:
+    id: cal.1966-03-04.china-leadership
+    item: '[[w.jian-zhou-enlai]], 534 (from Mar. 4 Deng, Peng and Ye Jianying, at Mao''s instruction, chair a Military Commission meeting to go on criticizing Luo and settle his case)'
+- to-check:
+    id: cal.1966-03-04.china-leadership
+    add: '[[w.yao-luo-ruiqing-zhuan-a]], 566–572 (cited by [[w.jian-zhou-enlai]], 534 n.66).'
+- cite:
+    id: cal.1966-03-18.china-leadership-3
+    item: '[[w.jian-zhou-enlai]], 534 (Luo, finding the proceedings "truly intolerable," tries to kill himself Mar. 18; his leg broken, he is disabled for life)'
+- to-check:
+    id: cal.1966-03-18.china-leadership-3
+    add: '[[w.yao-luo-ruiqing-zhuan-a]], 566–572 (cited by [[w.jian-zhou-enlai]], 534 n.66).'
+- cite:
+    id: cal.1966-03-05.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 534 (Liu, Zhou, Deng and the others, after deliberating back and forth and guessing Mao''s intentions, "had decided to send a CCP delegation to Moscow"; not the day)'
+- check:
+    id: cal.1966-03-05.china-leadership-2
+    text: 'Check: [[w.jian-zhou-enlai]], 534, citing [[w.lengxi-shinian-lunzhan-1956-1966]], 935–936 (n.67), has the leaders decide to send a delegation to the 23rd Congress; this entry, from the same pages of Wu, has them lean to sending none.'
+- cite:
+    id: cal.1966-03-17.china-leadership
+    item: '[[w.jian-zhou-enlai]], 534 (Mar. 17–20, Hangzhou, the leaders on whether to send a delegation to the CPSU''s 23rd Congress)'
+- cite:
+    id: cal.1966-03-18.china-leadership
+    item: '[[w.jian-zhou-enlai]], 534 (Mao rejects the leaders'' decision: the Soviets meet amid great troubles at home and abroad; "We should not go there. We should not leave them with any illusions. There is no need for us to even send them a congratulatory telegram. We only need to tell them that we are not coming"; not the day)'
+- to-check:
+    id: cal.1966-03-18.china-leadership
+    add: '[[w.yan-mingfu-huiyilu]], II, 885–887 (cited by [[w.jian-zhou-enlai]], 534 n.68c).'
+- add:
+    entry:
+      id: cal.1966-02.japan
+      when: Feb., mid-
+      date: '1966-02'
+      at: before 1966-02-11
+      thread: japan
+      also:
+      - china-leadership
+      - vietnam-diplomacy
+      c: Miyamoto Kenji, general secretary of the Japanese Communist Party, arrives in China, seeking an "international united front of assisting Vietnam and resisting America."
+      n: '[[w.jian-zhou-enlai]], 535 (then meetings with Peng Zhen at Shanghai and Canton before he goes on to Hanoi). Names: Miyamoto Kenji, Peng Zhen. Check: the day.'
+      src:
+        c: 7a6a626d
+        rows:
+        - 'w.jian-zhou-enlai 535: all'
+      tags:
+      - 'polity:japan'
+      - 'polity:prc'
+      - 'name:miyamoto-kenji'
+      - 'name:peng-zhen'
+      - 'ok:fields-place'
+- cite:
+    id: cal.1966-02-28.china-leadership-3
+    item: '[[w.jian-zhou-enlai]], 535 (Miyamoto back in Peking at the end of February)'
+- cite:
+    id: cal.1966-03-03.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 535 (Miyamoto with Liu and Deng: supporting Vietnam the highest task; Moscow, giving Vietnam more since Khrushchev''s fall, could be in a broader front against U.S. imperialism; Liu and Deng: anti-imperialism linked with antirevisionism, no illusions about the new Soviet leaders; deadlock)'
+- variant:
+    id: cal.1966-03-03.china-leadership-2
+    unit: A
+    witness: w.jian-zhou-enlai
+    reads: the meetings with Liu and Deng run from Mar. 4 to Mar. 8
+    at: '535'
+- to-check:
+    id: cal.1966-03-03.china-leadership-2
+    add: '[[w.kojima-record-of-the-talks-between]], 137–160; [[w.peng-zhen-nianpu-1902]], IV, 469–470 (cited by [[w.jian-zhou-enlai]], 535 n.69a, n.69c).'
+- cite:
+    id: cal.1966-03-11.china-leadership
+    item: '[[w.jian-zhou-enlai]], 535 (Miyamoto in North Korea eleven days from Mar. 11)'
+- add:
+    entry:
+      id: cal.1966-03.korea
+      when: Mar., after the 11th
+      date: '1966-03'
+      at: after 1966-03-11
+      thread: korea
+      also:
+      - japan
+      - vietnam-diplomacy
+      c: Miyamoto Kenji and Kim Il Sung agree to establish an anti-American front.
+      n: '[[w.jian-zhou-enlai]], 535 (eleven days in North Korea from Mar. 11). Made public: 1980 ([[w.kojima-record-of-the-talks-between]]). To check: [[w.kojima-record-of-the-talks-between]], 163–168 (cited by [[w.jian-zhou-enlai]], 535 n.70). Names: Miyamoto Kenji, Kim Il Sung. Check: the day.'
+      src:
+        c: 5809205f
+        rows:
+        - 'w.jian-zhou-enlai 535: all'
+      tags:
+      - 'polity:dprk'
+      - 'polity:japan'
+      - 'vis:only:dprk+japan'
+      - 'name:miyamoto-kenji'
+      - 'name:kim-il-sung'
+- add:
+    entry:
+      id: cal.1966-03.china-leadership-8
+      when: Mar., after the 21st
+      date: '1966-03'
+      at: after 1966-03-21
+      thread: china-leadership
+      also:
+      - japan
+      c: Peking. Liu Shaoqi and Deng Xiaoping, meeting Miyamoto again after he reports the Vietnamese and Korean comrades for a front with Moscow, agree at the last minute on a joint communiqué criticizing revisionism without naming the Soviets; the two sides' aides begin drafting it.
+      n: '[[w.jian-zhou-enlai]], 535. Made public: 1980 ([[w.kojima-record-of-the-talks-between]]). To check: [[w.kojima-record-of-the-talks-between]], 169–173 (cited by [[w.jian-zhou-enlai]], 535 n.71). See [[cal.1966-03-03.china-leadership-2]]. Names: Liu Shaoqi, Deng Xiaoping, Miyamoto Kenji. Check: the day.'
+      src:
+        c: 5c22a11b
+        rows:
+        - 'w.jian-zhou-enlai 535: all'
+      tags:
+      - 'polity:prc'
+      - 'polity:japan'
+      - 'vis:only:prc+japan'
+      - 'name:liu-shaoqi'
+      - 'name:deng-xiaoping'
+      - 'name:miyamoto-kenji'
+      place: peking
+- cite:
+    id: cal.1966-03-26.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 536 (Zhou, who has not attended the talks, chairs the rally of over sixteen thousand to welcome the delegation as the communiqué nears completion)'
+- cite:
+    id: cal.1966-03-27.china-leadership-3
+    item: '[[w.jian-zhou-enlai]], 536 (the text settled, Zhou meets the delegation again with "warm congratulations": the text sent urgently to Mao, a formal signing "at a time that the Japanese comrades feel appropriate"; then the farewell banquet in the Great Hall)'
+- to-check:
+    id: cal.1966-03-27.china-leadership-3
+    add: '[[w.kojima-record-of-the-talks-between]], 188–189; [[w.zedong-mao-zedong-nianpu]], V, 570 (cited by [[w.jian-zhou-enlai]], 536 n.72a, n.72c).'
+- cite:
+    id: cal.1966-03-27.china-leadership
+    item: '[[w.jian-zhou-enlai]], 536 (Mao, reviewing the communiqué: by not naming "Soviet revisionism" it misses the point, a "nameless announcement"; he adds the "Soviet-led clique" in three places)'
+- check:
+    id: cal.1966-03-27.china-leadership
+    text: 'Check: [[w.jian-zhou-enlai]], 536 n.73a, dates Mao''s comments on the draft communiqué Mar. 28, 1966.'
+- to-check:
+    id: cal.1966-03-27.china-leadership
+    add: Mao's comments on the CCP-JCP delegations' joint communiqué (draft), March 28, 1966, Chinese Central Archive (cited by [[w.jian-zhou-enlai]], 536 n.73a).
+- src:
+    id: cal.1966-03-27.china-leadership
+    rows:
+    - 'via x.1966-03-28.mao-comments-ccp-jcp-joint-communique-draft: ?'
+- cite:
+    id: cal.1966-03-28.china-leadership
+    item: '[[w.jian-zhou-enlai]], 536 (Mao to Miyamoto at Shanghai, Mar. 28: the agreements with Liu and Deng do not count, no communiqué; Miyamoto: both parties fight imperialism and revisionism, a communiqué on that consensus desirable; Mao: "your attitude is what the Soviet leadership welcomes. And second, it is what we do not welcome"; Miyamoto leaves enraged)'
+- to-check:
+    id: cal.1966-03-28.china-leadership
+    add: Mao's first conversation with the JCP delegation led by Miyamoto, March 28, 1966, Chinese Central Archive (cited by [[w.jian-zhou-enlai]], 536 n.74a).
+- src:
+    id: cal.1966-03-28.china-leadership
+    rows:
+    - 'via x.1966-03-28.mao-first-conversation-jcp-delegation-miyamoto: ?'
+- cite:
+    id: cal.1966-03-29.china-leadership
+    item: '[[w.jian-zhou-enlai]], 536 (Mao kills the communiqué; the note cites the second conversation, Mar. 29)'
+- to-check:
+    id: cal.1966-03-29.china-leadership
+    add: Mao's second conversation with the JCP delegation led by Miyamoto, March 29, 1966, Chinese Central Archive (cited by [[w.jian-zhou-enlai]], 536 n.74b).
+- src:
+    id: cal.1966-03-29.china-leadership
+    rows:
+    - 'via x.1966-03-29.mao-second-conversation-jcp-delegation-miyamoto: ?'
+- cite:
+    id: cal.1966-03-28.china-leadership-2
+    item: '[[w.jian-zhou-enlai]], 537 ("In late March," Mao summons Kang Sheng to Shanghai and talks with him three days running: the Peking committee and the Propaganda Department "protected the bad guys," "stood on the side of revisionism," to be dissolved; "if revisionism has emerged at the Party Center, rebellions against it should arise everywhere")'
+- cite:
+    id: cal.1966-03-31.china-leadership
+    item: '[[w.jian-zhou-enlai]], 537 (Kang, back in Peking Mar. 31, at once conveys Mao''s opinions to Zhou and Peng Zhen)'
+- cite:
+    id: cal.1966-04-02.china-leadership
+    item: '[[w.jian-zhou-enlai]], 537 (on the evening of Apr. 2, two days on, Zhou busy with the Xingtai earthquake: "by consulting with Peng Zhen and Kang Sheng" he will "follow the chairman''s instructions and hold high the banner of proletarian cultural revolution"; "a question concerning the seizure of the leadership position in the cultural sphere"; the Group of Five''s report "is wrong," to be replaced by another Center notice for Mao''s approval)'
