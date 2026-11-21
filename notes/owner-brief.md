@@ -1012,3 +1012,11 @@ Do our readers and auditors not have permission to add to the entries? Is there 
 ## Nov. 21, 2026, 11:16 a.m. Pacific
 
 "Claude, instead of "If they're found, the entry reads "Real Name 培利卡·比库里". If not, it reads "培利卡·比库里 (Peilika Bikuli)"", drop the CJK rendering of the found names—that's what we do elsewhere—and put the Pinyin ahead of the CJK, in italics."
+
+## Nov. 21, 2026, 11:17 a.m. Pacific
+
+"You asked: 
+
+"Red Guard records: do Zhou's 1967 talks, known from Red Guard records later printed in the Wenku, count as "Made public: 1967"? Four new entries say so, as similar entries already in the calendar do."
+
+Is that right? Is that what we do for "similar entries already in the calendar"? Would someone in Paris or Bonn or New York, or even Hong Kong, have been able to access these Red Guard records "as of 1967"?"
