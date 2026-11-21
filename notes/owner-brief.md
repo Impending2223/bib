@@ -1042,3 +1042,8 @@ Do we know the source, authority, or reasoned basis for the two different number
 ""In Wuhan during this period there are 32 murders and 62 successful attempts at suicide."
 
 Shouldn't this just be "62 suicides"? Shouldn't "this period" be specified in the text of the entry?"
+
+## Nov. 21, 2026, about noon (Pacific)
+
+"Could we rename the "As reported" label to save future readers/auditors from this error? It's not a particularly lucid label.
+Actually, yes. Just drop the label altogether."
