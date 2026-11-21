@@ -1,6 +1,14 @@
 patch: 2026-11-21-b15b-dikcr-1
 by: 'Claude (batch 15b, Dikotter, The Cultural Revolution, run 1: 1962-Jan. 1970), Nov. 21, 2026'
 ops:
+- edit:
+    id: cal.1966-06.china-leadership-26
+    base: c68f32a9
+    set:
+      gloss:
+        title: Estimates
+        text:
+        - 'Dikötter: within weeks more than 10,000 students in the capital alone branded "rightists" ([[w.dikotter-cultural-revolution]], 64).'
 - place-key:
     key: fujian
     name: Fujian
@@ -19,13 +27,13 @@ ops:
       at: before 1962-02-01
       thread: china-leadership
       place: peking
-      c: 'Seven Thousand Cadres Conference, Peking: Wang Renzhong 王任重, first secretary of Hubei 湖北, confesses that his province misled the Center by inflating its output figures.'
-      n: '[[w.dikotter-cultural-revolution]], 13–14 n.19 (the conference in the Great Hall, Peking, 3). Made public: 2006 ([[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], the earliest printing the note names). To check: [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 176–183 (cited by [[w.dikotter-cultural-revolution]], 14 n.19a); [[w.macfarquhar-origins-of-the-cultural]], III, 172 (cited by [[w.dikotter-cultural-revolution]], 14 n.19b). See [[cal.1962-02.china-leadership-3]]. Check: the day; the book sets the confessions after Mao''s speech of Jan. 30 and before the close of Feb. 7.'
+      c: 'Seven Thousand Cadres Conference, Peking 北京: Wang Renzhong 王任重, Party secretary of Hubei 湖北, confesses that his province misled the Center 中央 by inflating its output figures.'
+      n: '[[w.dikotter-cultural-revolution]], 13–14 n.19 (the conference in the Great Hall, Peking, 3). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 172, the earliest printing the note names). To check: [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 176–183 (cited by [[w.dikotter-cultural-revolution]], 14 n.19a); [[w.macfarquhar-origins-of-the-cultural]], III, 172 (cited by [[w.dikotter-cultural-revolution]], 14 n.19b). See [[cal.1962-02.china-leadership-3]]. Check: the day; the book sets the confessions after Mao''s speech of Jan. 30 and before the close of Feb. 7.'
       tags:
       - polity:prc
       - vis:only:prc
       src:
-        c: c66d8afe
+        c: 4b7a4184
         rows:
         - 'w.dikotter-cultural-revolution 13–14: all'
 - add:
@@ -36,13 +44,13 @@ ops:
       at: before 1962-02-01
       thread: china-leadership
       place: peking
-      c: 'Seven Thousand Cadres Conference, Peking: Liu Zihou 刘子厚 accepts that Hebei 河北, the province in his charge, invented the bumper harvests of several counties the Center had hailed as models.'
-      n: '[[w.dikotter-cultural-revolution]], 13–14 n.19 (the conference in the Great Hall, Peking, 3). Made public: 2006 ([[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], the earliest printing the note names). To check: [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 176–183 (cited by [[w.dikotter-cultural-revolution]], 14 n.19a); [[w.macfarquhar-origins-of-the-cultural]], III, 172 (cited by [[w.dikotter-cultural-revolution]], 14 n.19b). See [[cal.1962-02.china-leadership-3]]. Check: the day; the book sets the confessions after Mao''s speech of Jan. 30 and before the close of Feb. 7.'
+      c: 'Seven Thousand Cadres Conference, Peking 北京: Liu Zihou 刘子厚 accepts that Hebei 河北, the province in his charge, invented the bumper harvests of several counties the Center 中央 had hailed as models.'
+      n: '[[w.dikotter-cultural-revolution]], 13–14 n.19 (the conference in the Great Hall, Peking, 3). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 172, the earliest printing the note names). To check: [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 176–183 (cited by [[w.dikotter-cultural-revolution]], 14 n.19a); [[w.macfarquhar-origins-of-the-cultural]], III, 172 (cited by [[w.dikotter-cultural-revolution]], 14 n.19b). See [[cal.1962-02.china-leadership-3]]. Check: the day; the book sets the confessions after Mao''s speech of Jan. 30 and before the close of Feb. 7.'
       tags:
       - polity:prc
       - vis:only:prc
       src:
-        c: 628cea54
+        c: 412213ef
         rows:
         - 'w.dikotter-cultural-revolution 13–14: all'
 - cite:
@@ -135,7 +143,7 @@ ops:
       date: '1962-03'
       thread: china-leadership
       place: baiyin
-      c: 'Baiyin 白银, Gansu 甘肃: the local Party committee criticizes not only Zhang Zhongliang 張仲良, the provincial first secretary, but Liu Shaoqi, Zhou Enlai and Mao himself: "If Chairman Mao is not examined and corrected, he will commit the same errors as the later Stalin."'
+      c: 'Baiyin 白银, Gansu 甘肃: the local Party committee criticizes not only Zhang Zhongliang 張仲良, the provincial first secretary, but Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and Mao himself: "If Chairman Mao is not examined and corrected, he will commit the same errors as the later Stalin."'
       n: '[[w.dikotter-cultural-revolution]], 22 n.24. Made public: 2007 (Dai Yushan in *Zhengming*, the printing the note names). To check: Dai Yushan, "Siqing dayuan''an de zhenxiang," *Zhengming*, Jan. 2007, 82–83 (cited by [[w.dikotter-cultural-revolution]], 22 n.24). Names: Liu Shaoqi, Zhou Enlai, Mao Zedong.'
       tags:
       - polity:prc
@@ -144,7 +152,7 @@ ops:
       - name:zhou-enlai
       - name:mao-zedong
       src:
-        c: 24b6f641
+        c: 12a0560b
         rows:
         - 'w.dikotter-cultural-revolution 22: all'
         - 'via w.dikotter-cultural-revolution 22 n.24: all'
@@ -197,14 +205,14 @@ ops:
       at: before 1963-04-09
       thread: china-leadership
       place: guizhou
-      c: 'As *Neibu cankao* reports it: in Guizhou 贵州, where Zhou Lin 周林 had followed a path like Zeng Xisheng''s, land is claimed back from individual households.'
+      c: 'As *Neibu cankao* reports it: in Guizhou 贵州, where Zhou Lin 周林 had followed a path like Zeng Xisheng 曾希圣''s, land is claimed back from individual households.'
       n: '[[w.dikotter-cultural-revolution]], 19 n.15. Made public: 2016. To check: *Neibu cankao*, Mar. 1, 1963, 7–9; Apr. 5, 1963, 6–9; Apr. 9, 1963, 2–5 (cited by [[w.dikotter-cultural-revolution]], 19 n.15a–c). Check: the day; the note gives three reports for the paragraph.'
       tags:
       - polity:prc
       - vis:only:prc
       - form:state
       src:
-        c: f8e6d900
+        c: 4582d891
         rows:
         - 'w.dikotter-cultural-revolution 19: all'
         - 'via w.dikotter-cultural-revolution 19 n.15a: all'
@@ -273,7 +281,7 @@ ops:
       at: before 1964-10-10
       thread: china-leadership
       place: hunan
-      c: 'As Hunan 湖南 reports have it: the work teams find up to 80 percent of the province''s rural cadres corrupt, in league with people of bad class background; the slogan "class struggle is a struggle to the death"; in every commune several victims beaten to death.'
+      c: 'As Hunan 湖南 reports have it: the work teams find up to 80 percent of the province''s rural cadres corrupt, in league with people of bad class background; in every commune several victims beaten to death. The slogan of the day, by Xie Chengnian''s later account: "class struggle is a struggle to the death."'
       n: '[[w.dikotter-cultural-revolution]], 21 n.22. Made public: 2016. To check: Hunan Provincial Archives, May 6, 1964, 146-1-743, pp. 103–108 (cited by [[w.dikotter-cultural-revolution]], 21 n.22a); Hunan Provincial Archives, Oct. 10, 1964, 146-1-776, p. 163 (cited by [[w.dikotter-cultural-revolution]], 21 n.22b); Xie Chengnian, "Wo qinli de ''siqing'' yundong naxie shi," *Wenshi tiandi*, no. 6 (June 2012), 8–9, the slogan (cited by [[w.dikotter-cultural-revolution]], 21 n.22c). Check: the day; the note gives two reports, of May 6 and Oct. 10, 1964.'
       tags:
       - polity:prc
@@ -293,7 +301,7 @@ ops:
       date: '1964'
       at: before 1964-06-21
       thread: china-leadership
-      c: 'Liu Shaoqi, touring the provinces in charge of the socialist education, tells their leaders that the fight against revisionism abroad is to be tied to its suppression at home; Mao may have been too cautious: "It may well be more than a third."'
+      c: 'Liu Shaoqi 刘少奇, touring the provinces in charge of the socialist education, tells their leaders that the fight against revisionism abroad is to be tied to its suppression at home; Mao may have been too cautious: "It may well be more than a third."'
       n: '[[w.dikotter-cultural-revolution]], 23 n.28. Made public: 2005 (Guo Dehong and Lin Xiaobo, *Siqing yundong shilu*, the earliest printing the note names). To check: Guo Dehong and Lin Xiaobo, *Siqing yundong shilu* (2005), 130–132 (cited by [[w.dikotter-cultural-revolution]], 23 n.28a); Gao Hua, "Zai Guizhou ''siqing yundong'' de beihou," *Ershiyi shiji*, no. 93 (Feb. 2006), 83 (cited by [[w.dikotter-cultural-revolution]], 23 n.28b). See [[cal.1964-06-08.china-leadership]]. Names: Liu Shaoqi, Mao Zedong. Check: the day.'
       tags:
       - polity:prc
@@ -301,7 +309,7 @@ ops:
       - name:liu-shaoqi
       - name:mao-zedong
       src:
-        c: c963eee8
+        c: 386f1f13
         rows:
         - 'w.dikotter-cultural-revolution 23: all'
         - 'via w.dikotter-cultural-revolution 23 n.28a: all'
@@ -313,14 +321,14 @@ ops:
       date: '1964'
       at: before 1964-06-21
       thread: china-leadership
-      c: Wang Renzhong 王任重 declares that he, too, deserves to be criticized thoroughly by Liu Shaoqi.
+      c: Wang Renzhong 王任重 declares that he, too, deserves to be criticized thoroughly by Liu Shaoqi 刘少奇.
       n: '[[w.dikotter-cultural-revolution]], 23 n.28. Made public: 2005 (the earliest printing the note names). To check: Guo Dehong and Lin Xiaobo, *Siqing yundong shilu* (2005), 130–132 (cited by [[w.dikotter-cultural-revolution]], 23 n.28a); Gao Hua, "Zai Guizhou ''siqing yundong'' de beihou," *Ershiyi shiji*, no. 93 (Feb. 2006), 83 (cited by [[w.dikotter-cultural-revolution]], 23 n.28b). Names: Liu Shaoqi. Check: the day.'
       tags:
       - polity:prc
       - vis:only:prc
       - name:liu-shaoqi
       src:
-        c: e8478b65
+        c: c525635d
         rows:
         - 'w.dikotter-cultural-revolution 23: all'
         - 'via w.dikotter-cultural-revolution 23 n.28a: all'
@@ -333,7 +341,7 @@ ops:
       at: before 1964-09
       thread: china-leadership
       place: guizhou
-      c: 'Guizhou 贵州: the work team denounces the whole provincial leadership as "rightist," Guiyang 贵阳 a "nest of counter-revolutionaries," a "small Taiwan"; it searches homes, sets people to denounce each other and holds public trials; Zhou Lin 周林 is purged. In the two months after the team''s head takes over the province, in September, up to a quarter of the Party members of some counties vanish from view, some warned, some arrested or sent to the camps.'
+      c: 'Guizhou 贵州: the work team denounces the whole provincial leadership as "rightist," Guiyang 贵阳 a "nest of counter-revolutionaries," a "small Taiwan"; it searches homes, sets people to denounce each other and holds public trials; In the two months after the team''s head takes over the province, in September, up to a quarter of the Party members of some counties vanish from view, some warned, some arrested or sent to the camps.'
       n: '[[w.dikotter-cultural-revolution]], 24 n.30. Made public: 2006 (Gao Hua in *Ershiyi shiji*, the earliest printing the note names). To check: Gao Hua, "Zai Guizhou ''siqing yundong'' de beihou," *Ershiyi shiji*, no. 93 (Feb. 2006), 75–89 (cited by [[w.dikotter-cultural-revolution]], 24 n.30a); Yan Lebin, *Wo suo jingli de nage shidai* (2012), 90–91 (cited by [[w.dikotter-cultural-revolution]], 24 n.30b). See [[cal.1964-10.china-leadership-8]].'
       tags:
       - polity:prc
@@ -342,6 +350,7 @@ ops:
         title: Estimates
         text:
         - 'Dikötter, after Luo Bing: over 5 million Party members punished in the socialist education campaign Liu Shaoqi conducted, more than 77,000 hounded to their deaths, most of them innocent ([[w.dikotter-cultural-revolution]], 24 n.31).'
+        - 'Estimates. Yang Jisheng gives Luo Bing''s figures: 77,560 driven to death, 5,327,350 rectified, 5,760 cliques, 276,256 enemies and 558,220 more treated as among the people; Bu Weihua doubts them ([[w.yang-jisheng-tiandi-fanfu]], I, 87).'
       src:
         c: afaba240
         rows:
@@ -433,9 +442,6 @@ ops:
 - cite:
     id: cal.1964-06-08.china-leadership
     item: '[[w.dikotter-cultural-revolution]], 22 n.25 (Liu: could revisionism appear in China? Mao: it has already appeared, Baiyin; a third of the power not in our hands; Liu: the problems at the top; the Funing peasants'' saying; Mao: if a revisionist centre appears, we will have to stop it)'
-- check:
-    id: cal.1964-06-08.china-leadership
-    text: 'Check: [[w.dikotter-cultural-revolution]], 22 n.25 dates the exchange July 8, 1964, citing [[w.xianzhi-mao-zedong-zhuan-1949]], 1345.'
 - cite:
     id: cal.1964-09-08.china-leadership
     item: '[[w.dikotter-cultural-revolution]], 23 n.28 (Jiang Weiqing, who had dared to doubt the extent of the counter-revolution, made by Liu to make an abject self-criticism; the book gives no day)'
@@ -479,9 +485,6 @@ ops:
 - to-check:
     id: cal.1964-12-28.china-leadership
     add: '[[w.xiao-donglian-qiusuo-zhongguo]], II, 787, 791 (cited by [[w.dikotter-cultural-revolution]], 26 n.36).'
-- src:
-    id: cal.1964-12-28.china-leadership
-    rows: null
 - cite:
     id: cal.1965-01.china-leadership-10
     item: '[[w.dikotter-cultural-revolution]], 26 n.37 (Mao demands that the accusations against Zhou Lin be retracted; Liu Shaoqi had been placing his own men, some trained in Moscow, in power in Guizhou)'
@@ -495,14 +498,14 @@ ops:
       date: '1963-06-16'
       thread: china-leadership
       place: shaanxi
-      c: 'As the Shaanxi 陕西 propaganda office reports it: plays inspired by the West performed in the cities, feudal opera reviving in the countryside; tutors in private schools of the Wei River valley return to the Confucian classics; in Xi''an 西安 counter-revolutionary publications, some following Hu Feng, some praising Chiang Kai-shek, openly on sale at bookstalls; units order reading from abroad, the Xi''an Foreign Language Institute subscribing to scores of foreign papers; at Hanzhong University the first English lesson is "The United States'' Today is Our Tomorrow."'
+      c: 'As the Shaanxi 陕西 propaganda office reports it: plays inspired by the West performed in the cities, feudal opera reviving in the countryside; tutors in private schools of the Wei River valley return to the Confucian classics; in Xi''an 西安 counter-revolutionary publications, some following Hu Feng, some praising Chiang Kai-shek 蒋介石, openly on sale at bookstalls; units order reading from abroad, the Xi''an Foreign Language Institute subscribing to scores of foreign papers; at Hanzhong University the first English lesson is "The United States'' Today is Our Tomorrow."'
       n: '[[w.dikotter-cultural-revolution]], 30–31 n.9. Made public: 2016. To check: Report from the Shaanxi Office for Propaganda, June 16, 1963, Shandong Provincial Archives, A1-2-1153, pp. 74–88 (cited by [[w.dikotter-cultural-revolution]], 31 n.9b).'
       tags:
       - polity:prc
       - vis:only:prc
       - form:state
       src:
-        c: 3fa8b1a9
+        c: bcc9993f
         rows:
         - 'w.dikotter-cultural-revolution 30–31: all'
         - 'via w.dikotter-cultural-revolution 31 n.9b: all'
@@ -513,7 +516,7 @@ ops:
       date: '1963-07-25'
       thread: china-leadership
       c: 'The Center''s document Zhongfa (63) 504, with the Shaanxi propaganda office''s report: "right now there is a serious, acute class struggle taking place inside the country relating to ideology, education, theory, science, arts, newspapers, periodicals, broadcasting, publishing, health, physical education and other fields."'
-      n: '[[w.dikotter-cultural-revolution]], 30–31 n.9. Made public: 2016. To check: Zhongfa (63) 504, July 25, 1963, Shandong Provincial Archives, A1-2-1153, pp. 74–88 (cited by [[w.dikotter-cultural-revolution]], 31 n.9a). See [[cal.1963-06-16.china-leadership-8]]. Check: the day; the book dates the warning June 1963.'
+      n: '[[w.dikotter-cultural-revolution]], 30–31 n.9 (the text: "In June 1963"; the note gives the document of July 25 with the Shaanxi report of June 16). Made public: 2016. To check: Zhongfa (63) 504, July 25, 1963, Shandong Provincial Archives, A1-2-1153, pp. 74–88 (cited by [[w.dikotter-cultural-revolution]], 31 n.9a). See [[cal.1963-06-16.china-leadership-8]].'
       tags:
       - polity:prc
       - vis:only:prc
@@ -548,7 +551,7 @@ ops:
       date: '1963-06'
       at: before 1963-06-18
       thread: china
-      c: 'As *Neibu cankao* reports it: in the Xingtai region of Hebei 河北 cadres have joined reactionary elements to build temples, stage plays, burn incense and invoke the spirits; in the Qujiang region of Jiangxi more than a hundred Buddhist temples have been rebuilt; idols appear across the country.'
+      c: 'As *Neibu cankao* reports it: in the Xingtai region of Hebei 河北 cadres have joined reactionary elements to build temples, stage plays, burn incense and invoke the spirits; in the Qujiang region of Jiangxi 江西 more than a hundred Buddhist temples have been rebuilt; idols appear across the country.'
       n: '[[w.dikotter-cultural-revolution]], 31–32 n.11. Made public: 2016. To check: *Neibu cankao*, June 18, 1963, 5; June 12, 1963, 14–15; June 4, 1963, 7–8 (cited by [[w.dikotter-cultural-revolution]], 32 n.11a–c). Check: the day; the note gives three reports for the paragraph.'
       tags:
       - polity:prc
@@ -556,7 +559,7 @@ ops:
       - form:state
       - ok:fields-place
       src:
-        c: 419b9b67
+        c: c2a5c5a3
         rows:
         - 'w.dikotter-cultural-revolution 31–32: all'
         - 'via w.dikotter-cultural-revolution 32 n.11a: all'
@@ -628,14 +631,14 @@ ops:
       date: '1963-07-23'
       thread: china-leadership
       place: peking
-      c: 'As a paper in the Shandong 山东 files has it: in Peking some students call themselves "Tito" or "Khrushchev"; a few speak openly of overthrowing the Party.'
+      c: 'As a paper in the Shandong 山东 files has it: in Peking 北京 some students call themselves "Tito" or "Khrushchev"; a few speak openly of overthrowing the Party.'
       n: '[[w.dikotter-cultural-revolution]], 32–33 n.14. Made public: 2016. To check: Shandong Provincial Archives, July 23, 1963, A1-2-1154, pp. 185–188 (cited by [[w.dikotter-cultural-revolution]], 33 n.14a).'
       tags:
       - polity:prc
       - vis:only:prc
       - form:state
       src:
-        c: 3b312ffc
+        c: 65296e98
         rows:
         - 'w.dikotter-cultural-revolution 32–33: all'
         - 'via w.dikotter-cultural-revolution 33 n.14a: all'
@@ -646,14 +649,14 @@ ops:
       date: '1962'
       at: before 1962-03-20
       thread: china
-      place: peking
-      c: Wang Cuiwen, twenty-seven, a graduate student in biology at Peking University who calls the Party the worst of all dictatorships, tries with his friends to flee to Hong Kong, and fails.
+      c: Wang Cuiwen, twenty-seven, a graduate student in biology at Peking University 北京大学 who calls the Party the worst of all dictatorships, tries with his friends to flee to Hong Kong 香港, and fails.
       n: '[[w.dikotter-cultural-revolution]], 32–33 n.14. Made public: 2016. To check: Shandong Provincial Archives, July 23, 1963, A1-2-1154, pp. 185–188 (cited by [[w.dikotter-cultural-revolution]], 33 n.14a). See [[cal.1962-05-15.china-leadership-5]].'
       tags:
       - polity:prc
       - vis:only:prc
+      - ok:fields-place
       src:
-        c: 99ed82e2
+        c: ef618ba8
         rows:
         - 'w.dikotter-cultural-revolution 32–33: all'
         - 'via w.dikotter-cultural-revolution 33 n.14a: all'
@@ -664,7 +667,7 @@ ops:
       date: '1963'
       thread: china-leadership
       place: peking
-      c: 'Zhongnanhai, Peking: a historical play about a concubine put to death by a jealous despot after she praises a young scholar within his hearing is staged before the top leaders. Mao looks glum, claps three or four times and walks out in silence.'
+      c: 'Zhongnanhai 中南海, Peking 北京: a historical play about a concubine put to death by a jealous despot after she praises a young scholar within his hearing is staged before the top leaders. Mao looks glum, claps three or four times and walks out in silence.'
       n: '[[w.dikotter-cultural-revolution]], 40 n.39. Made public: 1994 ([[w.zhisui-private-life-of-chairman]]). To check: [[w.zhisui-private-life-of-chairman]], 402–403 (cited by [[w.dikotter-cultural-revolution]], 40 n.39). Names: Mao Zedong. Check: the day.'
       tags:
       - polity:prc
@@ -676,37 +679,19 @@ ops:
       when: Jan.
       date: '1964-01'
       thread: china-leadership
-      c: Liu Shaoqi condemns Tian Han, the author of the play that offended Mao, his work "aimed at the communist party"; as over a third of power in the countryside is in enemy hands, so over a third of art and culture, from the universities to the village schools, is revisionist and ought to be overthrown.
-      n: '[[w.dikotter-cultural-revolution]], 40 n.41. Made public: 2005 at the latest (the note''s works of 2005 and 2011). To check: [[w.xiao-donglian-qiusuo-zhongguo]], II, 773 (cited by [[w.dikotter-cultural-revolution]], 40 n.41a); Guo Dehong and Lin Xiaobo, *Siqing yundong shilu* (2005), 132 (cited by [[w.dikotter-cultural-revolution]], 40 n.41b). See [[cal.1963.china-leadership-25]]. Names: Liu Shaoqi. Check: the day.'
+      c: Liu Shaoqi 刘少奇 condemns Tian Han 田汉, the author of the play that offended Mao, his work "aimed at the communist party"; as over a third of power in the countryside is in enemy hands, so over a third of art and culture, from the universities to the village schools, is revisionist and ought to be overthrown.
+      n: '[[w.dikotter-cultural-revolution]], 40 n.41. Made public: 2005 at the latest (the note''s works of 2005 and 2011). To check: [[w.xiao-donglian-qiusuo-zhongguo]], II, 773 (cited by [[w.dikotter-cultural-revolution]], 40 n.41a); Guo Dehong and Lin Xiaobo, *Siqing yundong shilu* (2005), 132 (cited by [[w.dikotter-cultural-revolution]], 40 n.41b). See [[cal.1963.china-leadership-25]]. Names: Liu Shaoqi, Mao Zedong. Check: the day.'
       tags:
       - polity:prc
       - vis:only:prc
       - name:liu-shaoqi
       - ok:fields-place
+      - name:mao-zedong
       src:
-        c: 1e48abb5
+        c: 08e173e0
         rows:
         - 'w.dikotter-cultural-revolution 40: all'
         - 'via w.dikotter-cultural-revolution 40 n.41b: all'
-- add:
-    entry:
-      id: cal.1964.china-leadership-42
-      when: 1964, summer, at the Peking opera festival
-      date: '1964'
-      at: before 1964-06-21
-      thread: china-leadership
-      place: peking
-      c: 'Peking opera festival: Kang Sheng, with Jiang Qing beside him, takes Tian Han to task, denouncing his work as "poisonous weeds that are anti-party and anti-socialist."'
-      n: '[[w.dikotter-cultural-revolution]], 41 n.42. Made public: 2011 (Hu Jinzhao, the printing the note names). To check: Hu Jinzhao, *Wenren luonan ji* (2011), 18–20 (cited by [[w.dikotter-cultural-revolution]], 41 n.42). See [[cal.1964-06-05.china-leadership-3]]. Names: Kang Sheng, Jiang Qing. Check: the day.'
-      tags:
-      - polity:prc
-      - name:kang-sheng
-      - name:jiang-qing
-      src:
-        c: ce025fff
-        rows:
-        - 'w.dikotter-cultural-revolution 41: all'
-        - 'via w.dikotter-cultural-revolution 41 n.42: all'
 - add:
     entry:
       id: cal.1965.china
@@ -749,10 +734,7 @@ ops:
     item: '[[w.dikotter-cultural-revolution]], 37 n.30 (the army''s show on Tiananmen; Peng Zhen: the people "armed with Mao Zedong Thought" can overcome capitalist and feudal attempts at restoration)'
 - cite:
     id: cal.1964-02-13.china-leadership
-    item: '[[w.dikotter-cultural-revolution]], 37 n.31 (Mao compares the examinations to the eight-legged essay; questions to be published in advance, answers with books; copying a good answer to count; dozing at tedious lectures praised)'
-- check:
-    id: cal.1964-02-13.china-leadership
-    text: 'Check: [[w.dikotter-cultural-revolution]], 37, dates the remarks Feb. 13, 1963; its note (37 n.31) gives Feb. 13, 1964.'
+    item: '[[w.dikotter-cultural-revolution]], 37 n.31 (Mao compares the examinations to the eight-legged essay; questions to be published in advance, answers with books; copying a good answer to count; dozing at tedious lectures praised; the text dates the remarks Feb. 13, 1963, its note Feb. 13, 1964)'
 - cite:
     id: cal.1963-11.china-leadership-2
     item: '[[w.dikotter-cultural-revolution]], 38 n.34 (Mao attacks the Ministry of Culture: to be renamed the "Ministry of Gifted Scholars and Beautiful Ladies," better the "Ministry of Foreign Dead People")'
@@ -794,91 +776,24 @@ ops:
       date: '1964-07'
       thread: china-leadership
       place: peking
-      c: Kang Sheng sends a work group to Peking University. With Nie Yuanzi 聂元梓, Party secretary of the philosophy department, as its willing ally, it secretly examines every cadre's file and declares the university's Party committee "rotten to the core."
-      n: '[[w.dikotter-cultural-revolution]], 46–47 n.12. Made public: 1996 (Hao Ping in *China Review International*, the printing the note names). To check: Hao Ping, "Reassessing the Starting Point of the Cultural Revolution," *China Review International* 3, no. 1 (Spring 1996), 66–86 (cited by [[w.dikotter-cultural-revolution]], 47 n.12). Names: Kang Sheng.'
+      c: Kang Sheng 康生 sends a work group to Peking University 北京大学. With Nie Yuanzi 聂元梓, Party secretary of the philosophy department, as its willing ally, it secretly examines every cadre's file and declares the university's Party committee "rotten to the core."
+      n: '[[w.dikotter-cultural-revolution]], 46–47 n.12. Made public: 1996 ([[w.ping-reassessing-the-starting-point]], the printing the note names). To check: [[w.ping-reassessing-the-starting-point]], 66–86 (cited by [[w.dikotter-cultural-revolution]], 47 n.12). Names: Kang Sheng.'
       tags:
       - polity:prc
       - vis:only:prc
       - name:kang-sheng
       src:
-        c: f24de1f9
+        c: 12d8f4cf
         rows:
         - 'w.dikotter-cultural-revolution 46–47: all'
         - 'via w.dikotter-cultural-revolution 47 n.12: all'
-- add:
-    entry:
-      id: cal.1965-01.china-leadership-13
-      when: Jan.
-      date: '1965-01'
-      thread: china-leadership
-      place: peking
-      c: Peng Zhen, with several members of the Peking Party committee, denounces the "wild criticisms" of the Peking University work team; a second inquiry, of hundreds of investigators, had found the university and the city in collusion on a "bourgeois line."
-      n: '[[w.dikotter-cultural-revolution]], 47 n.12. Made public: 1996 (the printing the note names). To check: Hao Ping, "Reassessing the Starting Point of the Cultural Revolution," *China Review International* 3, no. 1 (Spring 1996), 66–86 (cited by [[w.dikotter-cultural-revolution]], 47 n.12). See [[cal.1964-07.china-leadership-7]]. Names: Peng Zhen.'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:peng-zhen
-      src:
-        c: 8d8b1b85
-        rows:
-        - 'w.dikotter-cultural-revolution 47: all'
-        - 'via w.dikotter-cultural-revolution 47 n.12: all'
-- add:
-    entry:
-      id: cal.1965-03.china-leadership-6
-      when: Mar.
-      date: '1965-03'
-      thread: china-leadership
-      place: peking
-      c: Deng Xiaoping takes Peng Zhen's side, condemning the Peking University work team for having gone too far; Kang Sheng criticized in all but name; more than sixty cadres accused of "anti-party" activities rehabilitated.
-      n: '[[w.dikotter-cultural-revolution]], 47 n.12. Made public: 1996 (the printing the note names). To check: Hao Ping, "Reassessing the Starting Point of the Cultural Revolution," *China Review International* 3, no. 1 (Spring 1996), 66–86 (cited by [[w.dikotter-cultural-revolution]], 47 n.12). See [[cal.1964-07.china-leadership-7]]. Names: Deng Xiaoping, Peng Zhen, Kang Sheng.'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:deng-xiaoping
-      - name:peng-zhen
-      - name:kang-sheng
-      src:
-        c: 6f252a3c
-        rows:
-        - 'w.dikotter-cultural-revolution 47: all'
-        - 'via w.dikotter-cultural-revolution 47 n.12: all'
-- add:
-    entry:
-      id: cal.1965-09-03.china-leadership-7
-      when: Sept. 3
-      date: '1965-09-03'
-      thread: china-leadership
-      place: peking
-      c: 'Peking, a rally in the Great Hall of the People: Luo Ruiqing, flanked by Liu Shaoqi and Deng Xiaoping, repeats the key points of his spring speech, the same day the *Renmin ribao* prints Lin Biao''s statement.'
-      n: '[[w.dikotter-cultural-revolution]], 44 n.6. To check: [[w.milton-wind-will-not-subside]], 94–95 (cited by [[w.dikotter-cultural-revolution]], 44 n.6a). See [[cal.1965-05-10.china-leadership-2]]. Names: Luo Ruiqing, Liu Shaoqi, Deng Xiaoping.'
-      tags:
-      - polity:prc
-      - name:luo-ruiqing
-      - name:liu-shaoqi
-      - name:deng-xiaoping
-- add:
-    entry:
-      id: cal.1965-11.china-leadership-19
-      when: Nov., after the 10th
-      date: '1965-11'
-      at: after 1965-11-10
-      thread: china-leadership
-      c: 'Zhou Enlai telephones Peng Zhen: the Chairman himself is behind Yao Wenyuan''s polemic. Peng, who had forbidden the Peking papers to reprint it, gives way, holding that the link between Hai Rui and Peng Dehuai is a purely academic matter.'
-      n: '[[w.dikotter-cultural-revolution]], 49 n.16. Made public: 1994 at the latest (the note''s works of 1994 and 2006). To check: [[w.zhisui-private-life-of-chairman]], 440–441 (cited by [[w.dikotter-cultural-revolution]], 49 n.16a); [[w.macfarquhar-maos-last-revolution]], 17 (cited by [[w.dikotter-cultural-revolution]], 49 n.16b). See [[cal.1965-11-10.china-leadership]]. Names: Zhou Enlai, Peng Zhen. Check: the day.'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:zhou-enlai
-      - name:peng-zhen
-      - ok:fields-place
 - add:
     entry:
       id: cal.1964-12.china-leadership-10
       when: Dec.
       date: '1964-12'
       thread: china-leadership
-      c: Lu Dingyi declares the Ministry of Culture "entirely rotten," run by the joint forces of capitalism and feudalism; he purges it from top to bottom.
+      c: Lu Dingyi 陆定一 declares the Ministry of Culture 文化部 "entirely rotten," run by the joint forces of capitalism and feudalism; he purges it from top to bottom.
       n: '[[w.dikotter-cultural-revolution]], 49 n.18. Made public: 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]], the printing the note names). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], 1373 (cited by [[w.dikotter-cultural-revolution]], 49 n.18). See [[cal.1965-04-07.china-leadership]]. Names: Lu Dingyi.'
       tags:
       - polity:prc
@@ -899,7 +814,7 @@ ops:
     item: '[[w.dikotter-cultural-revolution]], 43–44 n.4 (Luo: "active defence"; escalation towards a "local war of the Korean type"; the Party ready "to send our men to fight together with the people of Vietnam when they need us")'
 - check:
     id: cal.1965-05-10.china-leadership-2
-    text: 'Check: [[w.dikotter-cultural-revolution]], 43, dates Luo''s speech May 5, 1965.'
+    text: 'Check: [[w.dikotter-cultural-revolution]], 43, dates Luo''s article May 5, 1965 (its note, 43 n.4, the Foreign Languages Press pamphlet); the broadcast here is of May 10.'
 - cite:
     id: cal.1965-05-22.china-leadership-2
     item: '[[w.dikotter-cultural-revolution]], 44 ("in June" saluting, epaulettes, peaked caps, medals and badges of rank abolished; every fighter a single red star on an identical cap)'
@@ -959,13 +874,13 @@ ops:
       date: '1966-05'
       thread: china
       place: nanjing
-      c: 'Nanjing 南京, Purple Mountain, by the Ming tomb: Chen Zhigao, twenty-three, a worker at a Yangzhou scissor factory, swallows a vial of cyanide after a child glued a poster reading "Embrace Deng Tuo!" on his door.'
+      c: 'Nanjing 南京, Purple Mountain, by the Ming tomb: Chen Zhigao, twenty-three, a worker at a Yangzhou 揚州 scissor factory, swallows a vial of cyanide after a child glued a poster reading "Embrace Deng Tuo!" on his door.'
       n: '[[w.dikotter-cultural-revolution]], 53 n.1. Made public: 2016. To check: Nanjing Municipal Archives, May 30, 1966, 5003-3-1154, p. 40 (cited by [[w.dikotter-cultural-revolution]], 53 n.1). Check: the day.'
       tags:
       - polity:prc
       - vis:only:prc
       src:
-        c: b1420b0b
+        c: c3e84344
         rows:
         - 'w.dikotter-cultural-revolution 53: all'
         - 'via w.dikotter-cultural-revolution 53 n.1: all'
@@ -976,14 +891,15 @@ ops:
       date: '1966-05-17'
       thread: china-leadership
       place: jinan
-      c: 'As a Shandong 山东 report has it: in a Jinan 济南 middle school an entire article is written to refute Yao Wenyuan; most teachers keep quiet, a few volunteer confessions to the school''s Party secretary; posters question some teachers'' backgrounds. A teacher labelled a rightist in 1957: "It will be even worse than the Anti-Rightist Campaign."'
-      n: '[[w.dikotter-cultural-revolution]], 55 n.5. Made public: 2016. To check: Shandong Provincial Archives, May 17, 1966, A1-2-1356, pp. 185–186, 191–192 (cited by [[w.dikotter-cultural-revolution]], 55 n.5).'
+      c: 'As a Shandong 山东 report has it: in a Jinan 济南 middle school an entire article is written to refute Yao Wenyuan 姚文元; most teachers keep quiet, a few volunteer confessions to the school''s Party secretary; posters question some teachers'' backgrounds. A teacher labelled a rightist in 1957: "It will be even worse than the Anti-Rightist Campaign."'
+      n: '[[w.dikotter-cultural-revolution]], 55 n.5. Made public: 2016. To check: Shandong Provincial Archives, May 17, 1966, A1-2-1356, pp. 185–186, 191–192 (cited by [[w.dikotter-cultural-revolution]], 55 n.5). Names: Yao Wenyuan.'
       tags:
       - polity:prc
       - vis:only:prc
       - form:state
+      - name:yao-wenyuan
       src:
-        c: a649b3c0
+        c: 4c953511
         rows:
         - 'w.dikotter-cultural-revolution 55: all'
         - 'via w.dikotter-cultural-revolution 55 n.5: all'
@@ -994,12 +910,12 @@ ops:
       date: '1966-06-13'
       thread: china
       place: peking
-      c: 'Peking, the Workers'' Stadium: a mass trial, before television cameras and a crowd of 13,000, of Yang Guoqing, nineteen, accused of stabbing two foreigners a month earlier; the crowd chants "Never Forget Class Struggle."'
-      n: '[[w.dikotter-cultural-revolution]], 58 n.14. To check: Douwe W. Fokkema, *Report from Peking* (1971), 9–10 (cited by [[w.dikotter-cultural-revolution]], 58 n.14).'
+      c: 'Peking 北京, the Workers'' Stadium 工人体育场: a mass trial, before television cameras and a crowd of 13,000, of Yang Guoqing 楊國慶, nineteen, accused of stabbing two foreigners a month earlier; the crowd chants "Never Forget Class Struggle."'
+      n: '[[w.dikotter-cultural-revolution]], 58 n.14. To check: [[w.fokkema-report-from-peking]], 9–10 (cited by [[w.dikotter-cultural-revolution]], 58 n.14).'
       tags:
       - polity:prc
       src:
-        c: 3e5576fe
+        c: 423d9098
         rows:
         - 'w.dikotter-cultural-revolution 58: all'
         - 'via w.dikotter-cultural-revolution 58 n.14: all'
@@ -1011,9 +927,11 @@ ops:
       thread: china
       place: shandong
       c: 'As Donald Hopson of the British mission reports it, from Shandong 山东: in Jinan 济南 factories model aeroplanes strung on wires between buildings for anti-aircraft practice; in Qingdao 青岛 squads of militia in the streets with rifles and light machine guns; girls of six in bayonet drill.'
-      n: '[[w.dikotter-cultural-revolution]], 58 n.15. To check: Donald C. Hopson, "Some Impressions of Shantung," June 7, 1966, FO 371/186986, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 58 n.15).'
+      n: '[[w.dikotter-cultural-revolution]], 58 n.15. Made public: 2016. To check: Donald C. Hopson, "Some Impressions of Shantung," June 7, 1966, FO 371/186986, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 58 n.15).'
       tags:
       - polity:prc
+      - vis:only:uk
+      - polity:uk
       - form:state
       src:
         c: cd76b265
@@ -1027,9 +945,11 @@ ops:
       date: '1966-06-21'
       thread: china
       c: 'As Alan Donald of the British mission reports it, from a journey along the Yellow River: "such a visual and aural attack on the propaganda plane" as he had never seen in China; slogans on walls, in papers, over loudspeakers, on moveable boards in the fields; Yan''an 延安 the capital of red tourism, "The Foolish Old Man who Moved the Mountain" the most read text in its communes and factories.'
-      n: '[[w.dikotter-cultural-revolution]], 58–59 n.16, n.17. To check: Alan E. Donald, "A Journey in the Yellow River Valley," June 21, 1966, FO 371/186986, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 58 n.16, 59 n.17).'
+      n: '[[w.dikotter-cultural-revolution]], 58–59 n.16, n.17 (the text has him travelling along the Yangtze; the report''s title, the Yellow River valley). Made public: 2016. To check: Alan E. Donald, "A Journey in the Yellow River Valley," June 21, 1966, FO 371/186986, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 58 n.16, 59 n.17).'
       tags:
       - polity:prc
+      - vis:only:uk
+      - polity:uk
       - form:state
       - ok:fields-place
       src:
@@ -1045,7 +965,7 @@ ops:
       thread: china
       place: fujian
       c: In June and into July, on the campuses of Fujian 福建, dozens die or commit suicide after being tormented by students, some forced in Xiamen 厦门 to kneel on broken glass.
-      n: '[[w.dikotter-cultural-revolution]], 63 n.26. Made public: 2002 (Ye Qing''s dissertation, the printing the note names). To check: Ken Ling, *The Revenge of Heaven* (1972), 9–10 (cited by [[w.dikotter-cultural-revolution]], 63 n.26a); Ye Qing, "''Wenge'' shiqi Fujian qunzhong zuzhi yanjiu," doctoral dissertation, Fujian Normal University, 2002, I, 39 (cited by [[w.dikotter-cultural-revolution]], 63 n.26b).'
+      n: '[[w.dikotter-cultural-revolution]], 63 n.26. To check: Ken Ling, *The Revenge of Heaven* (1972), 9–10 (cited by [[w.dikotter-cultural-revolution]], 63 n.26a); Ye Qing, "''Wenge'' shiqi Fujian qunzhong zuzhi yanjiu," doctoral dissertation, Fujian Normal University, 2002, I, 39 (cited by [[w.dikotter-cultural-revolution]], 63 n.26b).'
       tags:
       - polity:prc
       - ok:fields-at
@@ -1062,39 +982,16 @@ ops:
       date: '1966-06'
       thread: china-leadership
       place: lanzhou
-      c: 'Lanzhou 兰州: the work team broadcasts a warning that students who send telegrams of complaint to the leaders in Peking will be named counter-revolutionaries. One student throws himself in front of a train, another jumps from a building.'
+      c: 'Lanzhou 兰州: the work team broadcasts a warning that students who send telegrams of complaint to the leaders in Peking 北京 will be named counter-revolutionaries. One student throws himself in front of a train, another jumps from a building.'
       n: '[[w.dikotter-cultural-revolution]], 65 n.32. Made public: 2010 (Jiang Hongsheng''s dissertation, the printing the note names). To check: Jiang Hongsheng, "The Paris Commune in Shanghai: The Masses, the State, and Dynamics of ''Continuous Revolution''," doctoral dissertation, Duke University, 2010, 217, 230–231 (cited by [[w.dikotter-cultural-revolution]], 65 n.32). Check: the day; the note''s work is on Shanghai.'
       tags:
       - polity:prc
       - vis:only:prc
       src:
-        c: 7db6d243
+        c: efdc001d
         rows:
         - 'w.dikotter-cultural-revolution 65: all'
         - 'via w.dikotter-cultural-revolution 65 n.32: all'
-- add:
-    entry:
-      id: cal.1966.china-leadership-52
-      when: 1966, June–July
-      date: '1966'
-      at: before 1966-06
-      thread: china-leadership
-      c: 'Liu Shaoqi sets a quota: 1 percent of the students and teachers in schools and universities to be denounced as rightists, some 300,000 for the country as a whole.'
-      n: '[[w.dikotter-cultural-revolution]], 64 n.30 (the quota and the 300,000 from Song Yongyi). Made public: 2007 (Song Yongyi, the printing the note names). To check: [[w.macfarquhar-maos-last-revolution]], 72–73 (cited by [[w.dikotter-cultural-revolution]], 64 n.30a); [[w.xiaoxia-repressive-movements-and-the]], 74 (cited by [[w.dikotter-cultural-revolution]], 64 n.30b); Song Yongyi, "Bei yancang de lishi: Liu Shaoqi dui ''wenge'' de dute gongxian" (2007) (cited by [[w.dikotter-cultural-revolution]], 64 n.30c). See [[cal.1966-06-20.china-leadership-6]]. Names: Liu Shaoqi. Check: the day.'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:liu-shaoqi
-      - ok:fields-place
-      gloss:
-        title: Estimates
-        text:
-        - 'Dikötter: within weeks more than 10,000 students in the capital alone branded "rightists" ([[w.dikotter-cultural-revolution]], 64).'
-      src:
-        c: 3975e8b9
-        rows:
-        - 'w.dikotter-cultural-revolution 64: all'
-        - 'via w.dikotter-cultural-revolution 64 n.30c: all'
 - cite:
     id: cal.1966-05-16.china-leadership-4
     item: '[[w.dikotter-cultural-revolution]], 53 ("on 16 May" the *Renmin ribao* demands blood: Deng Tuo a traitor)'
@@ -1156,12 +1053,12 @@ ops:
       date: '1966-07-17'
       thread: china
       place: nanjing
-      c: 'Nanjing 南京: a section of Xuanwu Lake is cordoned off and opened as an outdoor pool; thousands flock to it each day; several people drown every day.'
+      c: 'Nanjing 南京: a section of Xuanwu Lake 玄武湖 is cordoned off and opened as an outdoor pool; thousands flock to it each day; several people drown every day.'
       n: '[[w.dikotter-cultural-revolution]], 66–67 n.2. To check: Nanjing Municipal Archives, July 26 and Aug. 3, 1966, 5003-3-1155 (cited by [[w.dikotter-cultural-revolution]], 67 n.2e). See [[cal.1966-07-16.china-leadership]].'
       tags:
       - polity:prc
       src:
-        c: 2699b347
+        c: 647385d3
         rows:
         - 'w.dikotter-cultural-revolution 66–67: all'
         - 'via w.dikotter-cultural-revolution 67 n.2e: all'
@@ -1172,14 +1069,14 @@ ops:
       date: '1966-07-19'
       thread: china-leadership
       place: nanjing
-      c: 'Nanjing 南京: Jiang Qing, on her way back to Peking, meets cadres of the city Party committee''s secretariat: support for the work teams is not support for the Chairman; "Don''t blindly put your faith in the work teams"; the power of those against us is to be seized.'
+      c: 'Nanjing 南京: Jiang Qing 江青, on her way back to Peking 北京, meets cadres of the city Party committee''s secretariat: support for the work teams is not support for the Chairman; "Don''t blindly put your faith in the work teams"; the power of those against us is to be seized.'
       n: '[[w.dikotter-cultural-revolution]], 67 n.4. Made public: 2016. To check: "Jiang Qing Meets Cadres from the Secretariat of the Municipal Party Committee," July 19, 1966, Nanjing Municipal Archives, 4003-1-293, pp. 77–84 (cited by [[w.dikotter-cultural-revolution]], 67 n.4). Names: Jiang Qing.'
       tags:
       - polity:prc
       - vis:only:prc
       - name:jiang-qing
       src:
-        c: 8d8f23d1
+        c: 8926c427
         rows:
         - 'w.dikotter-cultural-revolution 67: all'
         - 'via w.dikotter-cultural-revolution 67 n.4: all'
@@ -1206,12 +1103,13 @@ ops:
       date: '1966-08-04'
       thread: china
       place: peking
-      c: 'Peking, the middle school attached to Tsinghua University: three days after Mao''s letter, the students make the principal and vice-principal wear labels as "Heads of a Black Gang"; over the following days Red Guards take turns beating them with clubs, whips and copper-buckled belts; the vice-principal''s hair is burned.'
-      n: '[[w.dikotter-cultural-revolution]], 73 n.18. To check: [[w.youqin-student-attacks-against-teachers]] (cited by [[w.dikotter-cultural-revolution]], 73 n.18). See [[cal.1966-07-31.china-leadership]].'
+      c: 'Peking 北京, the middle school attached to Tsinghua University 清华大学: three days after Mao''s letter, the students make the principal and vice-principal wear labels as "Heads of a Black Gang"; over the following days Red Guards take turns beating them with clubs, whips and copper-buckled belts; the vice-principal''s hair is burned.'
+      n: '[[w.dikotter-cultural-revolution]], 73 n.18. To check: Wang Youqin, "Student Attacks against Teachers: The Revolution of 1966," *Issues and Studies* 37, no. 2 (Mar. 2001), 29–79 (cited by [[w.dikotter-cultural-revolution]], 73 n.18). See [[cal.1966-07-31.china-leadership]]. Names: Mao Zedong.'
       tags:
       - polity:prc
+      - name:mao-zedong
       src:
-        c: aac9da98
+        c: 36c2b9d9
         rows:
         - 'w.dikotter-cultural-revolution 73: all'
 - add:
@@ -1222,8 +1120,8 @@ ops:
       at: after 1966-08-18
       thread: china
       place: peking
-      c: 'Peking, the middle school attached to the Peking Teachers'' College: a biology teacher is knocked down, beaten and dragged by her legs down the steps; she dies after hours of torment, and the other teachers are made to take turns beating her body.'
-      n: '[[w.dikotter-cultural-revolution]], 75 n.22. To check: [[w.youqin-student-attacks-against-teachers]] (cited by [[w.dikotter-cultural-revolution]], 75 n.22). Check: the day.'
+      c: 'Peking 北京, the middle school attached to the Peking Teachers'' College: a biology teacher is knocked down, beaten and dragged by her legs down the steps; she dies after hours of torment, and the other teachers are made to take turns beating her body.'
+      n: '[[w.dikotter-cultural-revolution]], 75 n.22. To check: Wang Youqin, "Student Attacks against Teachers: The Revolution of 1966," *Issues and Studies* 37, no. 2 (Mar. 2001), 29–79 (cited by [[w.dikotter-cultural-revolution]], 75 n.22). Check: the day.'
       tags:
       - polity:prc
 - add:
@@ -1234,8 +1132,8 @@ ops:
       at: after 1966-08-18
       thread: china
       place: peking
-      c: Tian Han, the dramatist, is dragged again and again on to an improvised stage with a heavy placard round his neck, made to kneel and beaten, the crowd cheering "Down with Tian Han!"
-      n: '[[w.dikotter-cultural-revolution]], 76 n.24. To check: [[w.youqin-student-attacks-against-teachers]] (cited by [[w.dikotter-cultural-revolution]], 76 n.24). See [[cal.1964-01.china-leadership-7]]. Check: the day and the place.'
+      c: Tian Han 田汉, the dramatist, is dragged again and again on to an improvised stage with a heavy placard round his neck, made to kneel and beaten, the crowd cheering "Down with Tian Han!"
+      n: '[[w.dikotter-cultural-revolution]], 76 n.24. To check: Wang Youqin, "Student Attacks against Teachers: The Revolution of 1966," *Issues and Studies* 37, no. 2 (Mar. 2001), 29–79 (cited by [[w.dikotter-cultural-revolution]], 76 n.24). See [[cal.1964-01.china-leadership-7]]. Check: the day and the place.'
       tags:
       - polity:prc
 - add:
@@ -1246,12 +1144,12 @@ ops:
       at: after 1966-08-18
       thread: china
       place: peking
-      c: 'Peking: Red Guards, on the street committee''s denunciation, track down the family of Nan Baoshan, one of the "hooligans" paraded at the Workers'' Stadium; the old man is clubbed to death in the street; his second son, beaten and locked in at home, dies of thirst days later.'
+      c: 'Peking 北京: Red Guards, on the street committee''s denunciation, track down the family of Nan Baoshan, one of the "hooligans" paraded at the Workers'' Stadium 工人体育场; the old man is clubbed to death in the street; his second son, beaten and locked in at home, dies of thirst days later.'
       n: '[[w.dikotter-cultural-revolution]], 76–77 n.26. To check: Wang Youqin, "Da ''xiao liumang'' he Nan Baoshan fuzi zhi si," Chinese Holocaust Memorial (cited by [[w.dikotter-cultural-revolution]], 77 n.26). See [[cal.1966-08-13.china-leadership-5]]. Check: the day.'
       tags:
       - polity:prc
       src:
-        c: af9c6ab1
+        c: f25055c3
         rows:
         - 'w.dikotter-cultural-revolution 76–77: all'
         - 'via w.dikotter-cultural-revolution 77 n.26: all'
@@ -1263,9 +1161,11 @@ ops:
       thread: china
       place: peking
       c: 'As John Boyd of the British mission reports it: an old man shuffles out of a covered market the Red Guards have made a prison, a denunciation hanging to his knees, his face blackened, blood on his shirt; "a close second to this spectacle was the sight of two old ladies being stoned by small children."'
-      n: '[[w.dikotter-cultural-revolution]], 77 n.27. To check: John D. I. Boyd to David Wilson, letter, Aug. 31, 1966, FO 371/186982, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 77 n.27).'
+      n: '[[w.dikotter-cultural-revolution]], 77 n.27. Made public: 2016. To check: John D. I. Boyd to David Wilson, letter, Aug. 31, 1966, FO 371/186982, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 77 n.27).'
       tags:
       - polity:prc
+      - vis:only:uk
+      - polity:uk
       - form:state
       src:
         c: a0d6f557
@@ -1281,8 +1181,8 @@ ops:
       also:
       - china
       place: peking
-      c: 'As an internal Party document reports it: Red Guards in Peking kill 126 people on Aug. 26, 228 on the 27th, 184 on the 28th, 200 on the 29th.'
-      n: '[[w.dikotter-cultural-revolution]], 78–79 n.33. Made public: 2001 ([[w.youqin-student-attacks-against-teachers]], the printing the note names). To check: [[w.youqin-student-attacks-against-teachers]] (cited by [[w.dikotter-cultural-revolution]], 79 n.33). Check: the document''s date.'
+      c: 'As an internal Party document reports it: Red Guards in Peking 北京 kill 126 people on Aug. 26, 228 on the 27th, 184 on the 28th, 200 on the 29th.'
+      n: '[[w.dikotter-cultural-revolution]], 78–79 n.33. Made public: 2001 (Wang Youqin in *Issues and Studies*, the printing the note names). To check: Wang Youqin, "Student Attacks against Teachers: The Revolution of 1966," *Issues and Studies* 37, no. 2 (Mar. 2001), 29–79 (cited by [[w.dikotter-cultural-revolution]], 79 n.33). Check: the document''s date.'
       tags:
       - polity:prc
       - vis:only:prc
@@ -1306,9 +1206,6 @@ ops:
 - cite:
     id: cal.1966-07-24.china-leadership
     item: '[[w.dikotter-cultural-revolution]], 67 n.6 (Mao, in white pyjamas, on the ground floor of his Diaoyutai residence, scolds the leaders for fearing the masses and suppressing the students, and demands the work teams be dismissed)'
-- check:
-    id: cal.1966-07-24.china-leadership
-    text: 'Check: [[w.dikotter-cultural-revolution]], 67 n.3, sets Mao''s rebuke of Liu at Diaoyutai ("cold and cheerless") on July 19, the day after his return, after Ye Yonglie, noting that other historians date it July 24.'
 - cite:
     id: cal.1966-07.china-leadership-8
     item: '[[w.dikotter-cultural-revolution]], 67 n.5 (sent by Chen Boda to Kuai Dafu, still detained at Tsinghua, "on 21 July": a snub to Wang Guangmei)'
@@ -1362,16 +1259,13 @@ ops:
     item: '[[w.dikotter-cultural-revolution]], 78 n.32 (Xie Fuzhi to the police: "We must support the Red Guards ... If in anger they beat someone to death, then so be it"; widely circulated; the book: a week before Daxing)'
 - cite:
     id: cal.1966-08-20.china-leadership-4
-    item: '[[w.dikotter-cultural-revolution]], 87 (the house searches, the targets'' names, ages and addresses passed to the Red Guards by the police or the street committees; the book: they "started on 23 August and peaked in the following days")'
+    item: '[[w.dikotter-cultural-revolution]], 81, 87 (81: from the evening of Aug. 20 bands of Red Guards rove the streets of Peking, renaming streets and attacking tailors and barbers; by the morning of Aug. 22 they cut people''s hair in the streets, slash narrow trousers and chop off high heels; 87: the house searches, the targets'' names, ages and addresses passed to the Red Guards by the police or the street committees; the book: they "started on 23 August and peaked in the following days")'
 - cite:
     id: cal.1966-11-28.china-leadership-4
     item: '[[w.dikotter-cultural-revolution]], 84–85 n.14 (the Qufu authorities had repelled the local Red Guards; more than 200 Red Guards from Peking desecrate the tombs; five well-preserved female corpses tied together and hung from a tree)'
 - cite:
     id: cal.1966-11.china-leadership-3
     item: '[[w.dikotter-cultural-revolution]], 85 n.14 (Chen Boda wires his instructions: the graves may be dug up, the main edifice kept as a "museum of class education")'
-- cite:
-    id: cal.1966.china-leadership-18
-    item: '[[w.dikotter-cultural-revolution]], 90 n.31 (in Shanghai more than a quarter of a million households searched; three million antiques and works of art to the warehouses; jewellery and currency put at 600 million yuan)'
 - add:
     entry:
       id: cal.1966-08.china-2
@@ -1381,7 +1275,7 @@ ops:
       thread: china
       place: shanghai
       c: 'Shanghai 上海: students of the Huadong Teachers University arrest more than 150 faculty at their homes and parade them on campus in dunces'' caps and boards reading "Reactionary Academic Authorities"; at the Fuxing Middle School students attack teachers with hammers, one skull fractured.'
-      n: '[[w.dikotter-cultural-revolution]], 80 n.1. To check: [[w.youqin-student-attacks-against-teachers]] (cited by [[w.dikotter-cultural-revolution]], 80 n.1). Check: the day.'
+      n: '[[w.dikotter-cultural-revolution]], 80 n.1. To check: Wang Youqin, "Student Attacks against Teachers: The Revolution of 1966," *Issues and Studies* 37, no. 2 (Mar. 2001), 29–79 (cited by [[w.dikotter-cultural-revolution]], 80 n.1). Check: the day.'
       tags:
       - polity:prc
       src:
@@ -1396,12 +1290,13 @@ ops:
       at: after 1966-08-18
       thread: china
       place: changsha
-      c: 'Changsha 长沙: Red Guards begin beating students and teachers from "bad families" the moment they return from meeting Mao on Tiananmen Square.'
-      n: '[[w.dikotter-cultural-revolution]], 80 n.2. To check: [[w.youqin-student-attacks-against-teachers]] (cited by [[w.dikotter-cultural-revolution]], 80 n.2a); Chen Yinan, *Qingchun wuhen: Yige zaofanpai gongren de shinian wenge* (2006), ch. 2 (cited by [[w.dikotter-cultural-revolution]], 80 n.2b). Check: the day.'
+      c: 'Changsha 长沙: Red Guards begin beating students and teachers from "bad families" the moment they return from meeting Mao on Tiananmen Square 天安门广场.'
+      n: '[[w.dikotter-cultural-revolution]], 80 n.2. To check: Wang Youqin, "Student Attacks against Teachers: The Revolution of 1966," *Issues and Studies* 37, no. 2 (Mar. 2001), 29–79 (cited by [[w.dikotter-cultural-revolution]], 80 n.2a); Chen Yinan, *Qingchun wuhen: Yige zaofanpai gongren de shinian wenge* (2006), ch. 2 (cited by [[w.dikotter-cultural-revolution]], 80 n.2b). Names: Mao Zedong. Check: the day.'
       tags:
       - polity:prc
+      - name:mao-zedong
       src:
-        c: 18b39872
+        c: 8ed422e1
         rows:
         - 'w.dikotter-cultural-revolution 80: all'
         - 'via w.dikotter-cultural-revolution 80 n.2b: all'
@@ -1413,12 +1308,12 @@ ops:
       at: after 1966-08-18
       thread: china
       place: canton
-      c: 'Canton: a teacher is made to drink a bottle of ink and kicked in the stomach until he brings it up with blood; he later kills himself.'
-      n: '[[w.dikotter-cultural-revolution]], 80 n.2. To check: [[w.youqin-student-attacks-against-teachers]] (cited by [[w.dikotter-cultural-revolution]], 80 n.2a); Chen Yinan, *Qingchun wuhen* (2006), ch. 2 (cited by [[w.dikotter-cultural-revolution]], 80 n.2b). Check: the day.'
+      c: 'Canton 广州: a teacher is made to drink a bottle of ink and kicked in the stomach until he brings it up with blood; he later kills himself.'
+      n: '[[w.dikotter-cultural-revolution]], 80 n.2. To check: Wang Youqin, "Student Attacks against Teachers: The Revolution of 1966," *Issues and Studies* 37, no. 2 (Mar. 2001), 29–79 (cited by [[w.dikotter-cultural-revolution]], 80 n.2a); Chen Yinan, *Qingchun wuhen* (2006), ch. 2 (cited by [[w.dikotter-cultural-revolution]], 80 n.2b). Check: the day.'
       tags:
       - polity:prc
       src:
-        c: e2db70b3
+        c: 75d2d082
         rows:
         - 'w.dikotter-cultural-revolution 80: all'
         - 'via w.dikotter-cultural-revolution 80 n.2b: all'
@@ -1446,12 +1341,12 @@ ops:
       date: '1966-08-19'
       thread: china
       place: peking
-      c: 'Peking: Red Guards put up posters declaring war on the old world: barbers, tailors, photographers, book pedlars at the service of the bourgeoisie no exception; high heels, fancy haircuts, short skirts, jeans, bad books to go at once. The printers of the *Zhongguo qingnian bao* run off thousands of copies.'
-      n: '[[w.dikotter-cultural-revolution]], 81–82 n.4. Made public: |. To check: Theo Peters, "The Cultural Revolution Stage III," Sept. 19, 1966, FO 371/186982, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 82 n.4a); Huang Yanmin, "Posijiu yundong de fazhan mailuo," *Ershiyi shiji*, no. 137 (June 2013), 71–82 (cited by [[w.dikotter-cultural-revolution]], 82 n.4b).'
+      c: 'Peking 北京: Red Guards put up posters declaring war on the old world: barbers, tailors, photographers, book pedlars at the service of the bourgeoisie no exception; high heels, fancy haircuts, short skirts, jeans, bad books to go at once. The printers of the *Zhongguo qingnian bao* run off thousands of copies.'
+      n: '[[w.dikotter-cultural-revolution]], 81–82 n.4. To check: Theo Peters, "The Cultural Revolution Stage III," Sept. 19, 1966, FO 371/186982, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 82 n.4a); Huang Yanmin, "Posijiu yundong de fazhan mailuo," *Ershiyi shiji*, no. 137 (June 2013), 71–82 (cited by [[w.dikotter-cultural-revolution]], 82 n.4b).'
       tags:
       - polity:prc
       src:
-        c: 6bfd07b6
+        c: 23d3220e
         rows:
         - 'w.dikotter-cultural-revolution 81–82: all'
         - 'via w.dikotter-cultural-revolution 82 n.4a: all'
@@ -1463,12 +1358,12 @@ ops:
       date: '1966-08-22'
       thread: china
       place: peking
-      c: Xinhua hails the Red Guards as "Mao's little generals," sweeping away the old culture; the Central People's Radio carries it to the country in a special broadcast. The morning before, Red Guards in Peking had begun cutting people's hair in the streets, slashing narrow trousers, chopping off high heels.
+      c: Xinhua 新华社 hails the Red Guards as "Mao's little generals," sweeping away the old culture; the Central People's Radio carries it to the country in a special broadcast.
       n: '[[w.dikotter-cultural-revolution]], 81–82 n.4. To check: Theo Peters, "The Cultural Revolution Stage III," Sept. 19, 1966, FO 371/186982 (cited by [[w.dikotter-cultural-revolution]], 82 n.4a); Huang Yanmin, "Posijiu yundong de fazhan mailuo," *Ershiyi shiji*, no. 137 (June 2013), 71–82 (cited by [[w.dikotter-cultural-revolution]], 82 n.4b). See [[cal.1966-08-20.china-leadership-4]].'
       tags:
       - polity:prc
       src:
-        c: 02d36669
+        c: 06a74dc3
         rows:
         - 'w.dikotter-cultural-revolution 81–82: all'
         - 'via w.dikotter-cultural-revolution 82 n.4a: all'
@@ -1482,12 +1377,13 @@ ops:
       also:
       - china
       place: peking
-      c: 'The *Jiefangjun bao*, under Lin Biao''s hand, to the Red Guards: "What you did was right, and you did it well!"'
-      n: '[[w.dikotter-cultural-revolution]], 83 n.8. Made public: |. To check: Lu Hong, *Junbao neibu xiaoxi* (2006), 109–110 (cited by [[w.dikotter-cultural-revolution]], 83 n.8).'
+      c: 'The *Jiefangjun bao*, under Lin Biao 林彪''s hand, to the Red Guards: "What you did was right, and you did it well!"'
+      n: '[[w.dikotter-cultural-revolution]], 83 n.8. To check: Lu Hong, *Junbao neibu xiaoxi* (2006), 109–110 (cited by [[w.dikotter-cultural-revolution]], 83 n.8). Names: Lin Biao.'
       tags:
       - polity:prc
+      - name:lin-biao
       src:
-        c: 87ead0d1
+        c: 732f64a4
         rows:
         - 'w.dikotter-cultural-revolution 83: all'
         - 'via w.dikotter-cultural-revolution 83 n.8: all'
@@ -1518,7 +1414,7 @@ ops:
       thread: china
       place: zhengding
       c: 'Zhengding 正定: the middle-school Red Guards rename streets, tear down shop signs, make an old woman with bound feet stand four hours in the sun as a "prostitute," pull down an ancient archway with ropes and crowbars, and, hundreds of them, the onion dome of the mosque; its old watchman made to wear a pig''s tail.'
-      n: '[[w.dikotter-cultural-revolution]], 82 n.5. Made public: 1987 ([[w.yuan-born-red]]). To check: [[w.yuan-born-red]], 92 (cited by [[w.dikotter-cultural-revolution]], 82 n.5). Check: the day.'
+      n: '[[w.dikotter-cultural-revolution]], 82 n.5. To check: [[w.yuan-born-red]], 92 (cited by [[w.dikotter-cultural-revolution]], 82 n.5). Check: the day.'
       tags:
       - polity:prc
       src:
@@ -1534,7 +1430,7 @@ ops:
       thread: china
       place: xiamen
       c: 'Xiamen 厦门: Red Guard teams, with addresses from the street committees, destroy brass knockers, shop signs and temple cornices, cut the hair of returned overseas students and long braids, slit trousers too narrow for two bottles, slice off high heels.'
-      n: '[[w.dikotter-cultural-revolution]], 82–83 n.6. Made public: 1972 (Ken Ling). To check: Ken Ling, *The Revenge of Heaven* (1972), 36–38 (cited by [[w.dikotter-cultural-revolution]], 83 n.6). Check: the day.'
+      n: '[[w.dikotter-cultural-revolution]], 82–83 n.6. To check: Ken Ling, *The Revenge of Heaven* (1972), 36–38 (cited by [[w.dikotter-cultural-revolution]], 83 n.6). Check: the day.'
       tags:
       - polity:prc
       src:
@@ -1550,9 +1446,11 @@ ops:
       thread: china
       place: shanghai
       c: 'As K. Godwin reports it from Shanghai 上海: Red Guards chip, drill and burn the ornaments off the Bund''s buildings, the Bund now Revolutionary Boulevard; curio and flower shops smashed; mattresses, silk, velvet and cosmetics carted away; old people frogmarched barefoot to the railway station, placards round their necks.'
-      n: '[[w.dikotter-cultural-revolution]], 83, 92–93 n.7, n.43. Made public: |. To check: K. Godwin, letter from Shanghai ("Report from Shanghai"), Aug. 29, 1966, FO 371/186982, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 83 n.7a); Nien Cheng, *Life and Death in Shanghai* (Penguin, 2008), 62–63 (cited by [[w.dikotter-cultural-revolution]], 83 n.7b); the same, FO 371/186982 (cited by [[w.dikotter-cultural-revolution]], 93 n.43a).'
+      n: '[[w.dikotter-cultural-revolution]], 83, 92–93 n.7, n.43. Made public: 2016. To check: K. Godwin, letter from Shanghai ("Report from Shanghai"), Aug. 29, 1966, FO 371/186982, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 83 n.7a); Nien Cheng, *Life and Death in Shanghai* (Penguin, 2008), 62–63 (cited by [[w.dikotter-cultural-revolution]], 83 n.7b); the same, FO 371/186982 (cited by [[w.dikotter-cultural-revolution]], 93 n.43a).'
       tags:
       - polity:prc
+      - vis:only:uk
+      - polity:uk
       - form:state
       gloss:
         title: Estimates
@@ -1574,7 +1472,7 @@ ops:
       thread: china
       place: xiamen
       c: 'Xiamen 厦门: a book burning, the flames three storeys high on sixty litres of kerosene; onlookers bring chairs and crowd the roofs.'
-      n: '[[w.dikotter-cultural-revolution]], 83–84 n.9. Made public: 1972 (Ken Ling). To check: Ken Ling, *The Revenge of Heaven* (1972), 46–47 (cited by [[w.dikotter-cultural-revolution]], 84 n.9). Check: the day.'
+      n: '[[w.dikotter-cultural-revolution]], 83–84 n.9. To check: Ken Ling, *The Revenge of Heaven* (1972), 46–47 (cited by [[w.dikotter-cultural-revolution]], 84 n.9). Check: the day.'
       tags:
       - polity:prc
       src:
@@ -1592,7 +1490,7 @@ ops:
       - china
       place: shanghai
       c: 'As a Shanghai 上海 report has it: Red Guards destroy thousands of books of the Zikawei Library (over 200,000 volumes, begun by the Jesuits in 1847); in Huangpu district lorries carry books round the clock to the paper mill; in a few days eighteen listed monuments are pulled down, among them Xu Guangqi''s tomb, the Longhua Pagoda (its 3,000 scriptures burned) and the Confucius Temple; St Ignatius Cathedral''s spires, ceiling and windows smashed.'
-      n: '[[w.dikotter-cultural-revolution]], 84 n.10, n.11. Made public: 2016 |. To check: Shanghai Municipal Archives, Aug. 28, 1966, B3-2-198, pp. 41–44 (cited by [[w.dikotter-cultural-revolution]], 84 n.10a); the same (cited by [[w.dikotter-cultural-revolution]], 84 n.11a); Shanghai Municipal Archives, May 29 and Oct. 13, 1967, B172-3-5, pp. 20–21, 31–36 (cited by [[w.dikotter-cultural-revolution]], 84 n.11b).'
+      n: '[[w.dikotter-cultural-revolution]], 84 n.10, n.11. Made public: 2016. To check: Shanghai Municipal Archives, Aug. 28, 1966, B3-2-198, pp. 41–44 (cited by [[w.dikotter-cultural-revolution]], 84 n.10a); the same (cited by [[w.dikotter-cultural-revolution]], 84 n.11a); Shanghai Municipal Archives, May 29 and Oct. 13, 1967, B172-3-5, pp. 20–21, 31–36 (cited by [[w.dikotter-cultural-revolution]], 84 n.11b).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -1629,12 +1527,12 @@ ops:
       thread: china-leadership
       also:
       - china
-      c: 'Mount Hengshan, Hunan 湖南: local cadres and Red Guards take down every temple and statue, feeding a fire for three nights.'
-      n: '[[w.dikotter-cultural-revolution]], 84 n.13. Made public: 2002 (Ying Shanhong). To check: Ying Shanhong, ed., *Yanzheng jinghan: Hunan Hengyang ''wenge'' shishi* (2002), 155–157 (cited by [[w.dikotter-cultural-revolution]], 84 n.13). Check: the day.'
+      c: 'Mount Hengshan 衡山, Hunan 湖南: local cadres and Red Guards take down every temple and statue, feeding a fire for three nights.'
+      n: '[[w.dikotter-cultural-revolution]], 84 n.13. To check: Ying Shanhong, ed., *Yanzheng jinghan: Hunan Hengyang ''wenge'' shishi* (2002), 155–157 (cited by [[w.dikotter-cultural-revolution]], 84 n.13). Check: the day.'
       tags:
       - polity:prc
       src:
-        c: 6db9d531
+        c: 6b9208fa
         rows:
         - 'w.dikotter-cultural-revolution 84: all'
         - 'via w.dikotter-cultural-revolution 84 n.13: all'
@@ -1685,14 +1583,14 @@ ops:
       date: '1966-09-04'
       thread: china-leadership
       place: nanjing
-      c: 'As a Jiangsu report has it: in Nanjing 南京 the authorities ban burials; Red Guards smash all the coffins taken from the funeral parlours.'
-      n: '[[w.dikotter-cultural-revolution]], 85 n.16. Made public: 2016 |. To check: Jiangsu Provincial Archives, Sept. 4, 1966, 4007-3-1308 (cited by [[w.dikotter-cultural-revolution]], 85 n.16d).'
+      c: 'As a Jiangsu 江苏 report has it: in Nanjing 南京 the authorities ban burials; Red Guards smash all the coffins taken from the funeral parlours.'
+      n: '[[w.dikotter-cultural-revolution]], 85 n.16. Made public: 2016. To check: Jiangsu Provincial Archives, Sept. 4, 1966, 4007-3-1308 (cited by [[w.dikotter-cultural-revolution]], 85 n.16d).'
       tags:
       - polity:prc
       - vis:only:prc
       - form:state
       src:
-        c: c5979c8d
+        c: 68af7e47
         rows:
         - 'w.dikotter-cultural-revolution 85: all'
         - 'via w.dikotter-cultural-revolution 85 n.16d: all'
@@ -1704,7 +1602,7 @@ ops:
       thread: china
       place: hainan
       c: 'Hainan 海南: Red Guards destroy the tomb of Hai Rui.'
-      n: '[[w.dikotter-cultural-revolution]], 85 n.18. Made public: 2006 ([[w.macfarquhar-maos-last-revolution]]). To check: [[w.macfarquhar-maos-last-revolution]], 120 (cited by [[w.dikotter-cultural-revolution]], 85 n.18). Check: the day.'
+      n: '[[w.dikotter-cultural-revolution]], 85 n.18. To check: [[w.macfarquhar-maos-last-revolution]], 120 (cited by [[w.dikotter-cultural-revolution]], 85 n.18). Check: the day.'
       tags:
       - polity:prc
       src:
@@ -1719,7 +1617,7 @@ ops:
       thread: china
       place: shanghai
       c: 'Shanghai 上海: Red Guards attack some thirty-six flower shops; in the following days they rampage through the flowerbeds and hothouses of the city''s parks, smashing rockeries and goldfish ponds.'
-      n: '[[w.dikotter-cultural-revolution]], 85–86 n.19. Made public: |. To check: Shanghai Municipal Archives, Oct. 13 and 17, 1966, B326-5-531, pp. 1–3, 18–23 (cited by [[w.dikotter-cultural-revolution]], 86 n.19).'
+      n: '[[w.dikotter-cultural-revolution]], 85–86 n.19. To check: Shanghai Municipal Archives, Oct. 13 and 17, 1966, B326-5-531, pp. 1–3, 18–23 (cited by [[w.dikotter-cultural-revolution]], 86 n.19).'
       tags:
       - polity:prc
       src:
@@ -1735,12 +1633,12 @@ ops:
       at: before 1966-08-21
       thread: china
       place: peking
-      c: 'Peking: Red Guards do the rounds killing cats as bourgeois; dead cats lie by the roadside, their front paws tied.'
+      c: 'Peking 北京: Red Guards do the rounds killing cats as bourgeois; dead cats lie by the roadside, their front paws tied.'
       n: '[[w.dikotter-cultural-revolution]], 86 n.21. To check: [[w.yang-spider-eaters]], 127 (cited by [[w.dikotter-cultural-revolution]], 86 n.21a); John D. I. Boyd to David Wilson, Aug. 31, 1966, FO 371/186982 (cited by [[w.dikotter-cultural-revolution]], 86 n.21b). Check: the day.'
       tags:
       - polity:prc
       src:
-        c: 2ce393fc
+        c: e84b0f82
         rows:
         - 'w.dikotter-cultural-revolution 86: all'
         - 'via w.dikotter-cultural-revolution 86 n.21b: all'
@@ -1778,7 +1676,7 @@ ops:
       thread: china
       place: shanghai
       c: 'Shanghai 上海, evening: thirty or forty Red Guards loot the house of Nien Cheng, widow of Shell''s former manager; porcelain smashed, silks and furs torn, books burned on the lawn; she is kicked in the chest.'
-      n: '[[w.dikotter-cultural-revolution]], 87–88 n.24. Made public: 1986 ([[w.cheng-life-and-death-in]]) |. To check: Nien Cheng, *Life and Death in Shanghai* (Penguin, 2008), 70–82, 105–107 (cited by [[w.dikotter-cultural-revolution]], 88 n.24).'
+      n: '[[w.dikotter-cultural-revolution]], 87–88 n.24. To check: Nien Cheng, *Life and Death in Shanghai* (Penguin, 2008), 70–82, 105–107 (cited by [[w.dikotter-cultural-revolution]], 88 n.24).'
       tags:
       - polity:prc
       src:
@@ -1794,12 +1692,12 @@ ops:
       at: before 1966-09-11
       thread: china
       place: shanghai
-      c: 'Shanghai 上海: Red Guards from Peking, armed with leather whips, search Nien Cheng''s house for hidden treasure: mattresses ripped, tiles prised off, floorboards lifted, the garden dug up.'
-      n: '[[w.dikotter-cultural-revolution]], 88 n.24. Made public: 1986 ([[w.cheng-life-and-death-in]]). To check: Nien Cheng, *Life and Death in Shanghai* (Penguin, 2008), 70–82, 105–107 (cited by [[w.dikotter-cultural-revolution]], 88 n.24). See [[cal.1966-08-30.china]]. Check: the day ("a couple of weeks later").'
+      c: 'Shanghai 上海: Red Guards from Peking 北京, armed with leather whips, search Nien Cheng''s house for hidden treasure: mattresses ripped, tiles prised off, floorboards lifted, the garden dug up.'
+      n: '[[w.dikotter-cultural-revolution]], 88 n.24. To check: Nien Cheng, *Life and Death in Shanghai* (Penguin, 2008), 70–82, 105–107 (cited by [[w.dikotter-cultural-revolution]], 88 n.24). See [[cal.1966-08-30.china]]. Check: the day ("a couple of weeks later").'
       tags:
       - polity:prc
       src:
-        c: 0bf62987
+        c: c3917621
         rows:
         - 'w.dikotter-cultural-revolution 88: all'
         - 'via w.dikotter-cultural-revolution 88 n.24: all'
@@ -1810,12 +1708,12 @@ ops:
       date: '1966'
       thread: china-leadership
       place: canton
-      c: 'Canton: the city Party committee takes over the Sacred Heart Cathedral, vandalized by Red Guards, as the sorting house for confiscated goods: furniture, books and clothes in the nave, silver and gold bars in the gatekeepers'' rooms, more than a hundred musical boxes.'
+      c: 'Canton 广州: the city Party committee takes over the Sacred Heart Cathedral, vandalized by Red Guards, as the sorting house for confiscated goods: furniture, books and clothes in the nave, silver and gold bars in the gatekeepers'' rooms, more than a hundred musical boxes.'
       n: '[[w.dikotter-cultural-revolution]], 89 n.29. To check: David Tsui, interview, July 26, 2012 (cited by [[w.dikotter-cultural-revolution]], 89 n.29). Check: the day.'
       tags:
       - polity:prc
       src:
-        c: 21f35640
+        c: 35d0654b
         rows:
         - 'w.dikotter-cultural-revolution 89: all'
         - 'via w.dikotter-cultural-revolution 89 n.29: all'
@@ -1827,7 +1725,7 @@ ops:
       thread: china-leadership
       place: wuhan
       c: 'As a Hubei 湖北 report has it: in Wuhan 武汉 20,000 homes were raided; the loot 319,933 silver dollars, over 3 million yuan in deposits, 560,130 yuan in cash, 91,000 pieces of porcelain, 971.1 kilos of gold, 1,717 kilos of silver, 22 rifles, 8 Nationalist flags; across the province 1 percent of households raided, the seized assets put at 200 million yuan, over 4 tonnes of gold; in the unguarded stores most of the plunder since stolen or ruined.'
-      n: '[[w.dikotter-cultural-revolution]], 89–91 n.30, n.38. Made public: 2016 |. To check: Hubei Provincial Archives, Feb. 27, 1968, SZ139-6-49, pp. 54–55 (cited by [[w.dikotter-cultural-revolution]], 90 n.30); the same (cited by [[w.dikotter-cultural-revolution]], 91 n.38).'
+      n: '[[w.dikotter-cultural-revolution]], 89–91 n.30, n.38. Made public: 2016. To check: Hubei Provincial Archives, Feb. 27, 1968, SZ139-6-49, pp. 54–55 (cited by [[w.dikotter-cultural-revolution]], 90 n.30); the same (cited by [[w.dikotter-cultural-revolution]], 91 n.38).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -1881,13 +1779,13 @@ ops:
       at: before 1967-10-13
       thread: china-leadership
       place: shanghai
-      c: 'Shanghai 上海: a team of specialists from Peking, put in charge of what remains of the loot, saves 281,000 objects and 368,000 books.'
+      c: 'Shanghai 上海: a team of specialists from Peking 北京, put in charge of what remains of the loot, saves 281,000 objects and 368,000 books.'
       n: '[[w.dikotter-cultural-revolution]], 91 n.37. Made public: 2016. To check: Shanghai Municipal Archives, May 29 and Oct. 13, 1967, B172-3-5, pp. 20–21, 31–36 (cited by [[w.dikotter-cultural-revolution]], 91 n.37). Check: the day.'
       tags:
       - polity:prc
       - vis:only:prc
       src:
-        c: ae95826d
+        c: e136efee
         rows:
         - 'w.dikotter-cultural-revolution 91: all'
         - 'via w.dikotter-cultural-revolution 91 n.37: all'
@@ -1899,7 +1797,7 @@ ops:
       thread: china-leadership
       place: shanghai
       c: 'As a Shanghai 上海 report has it: 30,000 families have had to hand over their property deeds to the state, many left 3 to 5 square metres a family, rent due; most classed as "bad elements exploiting the proletariat."'
-      n: '[[w.dikotter-cultural-revolution]], 92 n.42. Made public: 2016 |. To check: Shanghai Municipal Archives, Sept. 7, 1969, B246-1-269, pp. 142–147 (cited by [[w.dikotter-cultural-revolution]], 92 n.42).'
+      n: '[[w.dikotter-cultural-revolution]], 92 n.42. Made public: 2016. To check: Shanghai Municipal Archives, Sept. 7, 1969, B246-1-269, pp. 142–147 (cited by [[w.dikotter-cultural-revolution]], 92 n.42).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -1936,14 +1834,14 @@ ops:
       date: '1966-11-25'
       thread: china
       place: nanjing
-      c: 'As a Jiangsu report has it: in Nanjing 南京 the number of jobseekers has risen tenfold: florists, greengrocers, cobblers, tanners, coppersmiths, printers, photographers, dressmakers, undertakers and others, their shops closed or their trade gone, most of them poor.'
-      n: '[[w.dikotter-cultural-revolution]], 94 n.1. Made public: 2016 |. To check: Jiangsu Provincial Archives, Nov. 25, 1966, 4007-3-1287, pp. 1–11 (cited by [[w.dikotter-cultural-revolution]], 94 n.1).'
+      c: 'As a Jiangsu 江苏 report has it: in Nanjing 南京 the number of jobseekers has risen tenfold: florists, greengrocers, cobblers, tanners, coppersmiths, printers, photographers, dressmakers, undertakers and others, their shops closed or their trade gone, most of them poor.'
+      n: '[[w.dikotter-cultural-revolution]], 94 n.1. Made public: 2016. To check: Jiangsu Provincial Archives, Nov. 25, 1966, 4007-3-1287, pp. 1–11 (cited by [[w.dikotter-cultural-revolution]], 94 n.1).'
       tags:
       - polity:prc
       - vis:only:prc
       - form:state
       src:
-        c: 5ff55fc3
+        c: 57eb38a0
         rows:
         - 'w.dikotter-cultural-revolution 94: all'
         - 'via w.dikotter-cultural-revolution 94 n.1: all'
@@ -1956,14 +1854,14 @@ ops:
       also:
       - china
       place: guangdong
-      c: 'As a Guangdong 广东 report has it: some 20,000 people had made goods now condemned as "superstitious," joss sticks to spirit money, worth 40 million yuan a year; only a third redeployed, on half-pay or without tools; in a small town outside Shantou one in five lives on less than 3 yuan a month.'
-      n: '[[w.dikotter-cultural-revolution]], 94–95 n.2. Made public: 2016 |. To check: Guangdong Provincial Archives, June 6, 1967, 286-1-93, pp. 119–122 (cited by [[w.dikotter-cultural-revolution]], 95 n.2).'
+      c: 'As a Guangdong 广东 report has it: some 20,000 people had made goods now condemned as "superstitious," joss sticks to spirit money, worth 40 million yuan a year; only a third redeployed, on half-pay or without tools; in a small town outside Shantou 汕头 one in five lives on less than 3 yuan a month.'
+      n: '[[w.dikotter-cultural-revolution]], 94–95 n.2. Made public: 2016. To check: Guangdong Provincial Archives, June 6, 1967, 286-1-93, pp. 119–122 (cited by [[w.dikotter-cultural-revolution]], 95 n.2).'
       tags:
       - polity:prc
       - vis:only:prc
       - form:state
       src:
-        c: a98e9ca3
+        c: 1b9c5269
         rows:
         - 'w.dikotter-cultural-revolution 94–95: all'
         - 'via w.dikotter-cultural-revolution 95 n.2: all'
@@ -1975,14 +1873,14 @@ ops:
       at: before 1966-12-29
       thread: china-leadership
       place: shanghai
-      c: 'As Shanghai 上海 reports have it: the State Council demands that every product be purged of the feudal past in label, packaging and design; in Shanghai alone close to 6,000 products have a label or design evoking the past.'
+      c: 'As Shanghai 上海 reports have it: the State Council 国务院 demands that every product be purged of the feudal past in label, packaging and design; in Shanghai alone close to 6,000 products have a label or design evoking the past.'
       n: '[[w.dikotter-cultural-revolution]], 95 n.3. Made public: 2016. To check: Shanghai Municipal Archives, Dec. 29, 1966, B123-6-1362, pp. 187–190 (cited by [[w.dikotter-cultural-revolution]], 95 n.3a); Shanghai Municipal Archives, Nov. 2, 1966, B134-6-1406, p. 4 (cited by [[w.dikotter-cultural-revolution]], 95 n.3b). Check: the day.'
       tags:
       - polity:prc
       - vis:only:prc
       - form:state
       src:
-        c: a2c2d60b
+        c: fce19091
         rows:
         - 'w.dikotter-cultural-revolution 95: all'
         - 'via w.dikotter-cultural-revolution 95 n.3a: all'
@@ -1995,7 +1893,7 @@ ops:
       thread: china-leadership
       place: shanghai
       c: 'As a Shanghai 上海 report has it: the China Textile Company still holds 20,000 quilt covers and 15,000 metres of silk made useless by "feudal" patterns.'
-      n: '[[w.dikotter-cultural-revolution]], 95 n.4. Made public: 2016 |. To check: Shanghai Municipal Archives, Nov. 22, 1968, B123-8-117, pp. 57–58 (cited by [[w.dikotter-cultural-revolution]], 95 n.4).'
+      n: '[[w.dikotter-cultural-revolution]], 95 n.4. Made public: 2016. To check: Shanghai Municipal Archives, Nov. 22, 1968, B123-8-117, pp. 57–58 (cited by [[w.dikotter-cultural-revolution]], 95 n.4).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2013,7 +1911,7 @@ ops:
       thread: china-leadership
       place: shanghai
       c: 'As a Shanghai 上海 report has it: stickers with a warning added to offending goods, feudal or bourgeois brand names struck out with a large red cross, from toys and figurines to playing cards.'
-      n: '[[w.dikotter-cultural-revolution]], 95 n.5. Made public: 2016 |. To check: Shanghai Municipal Archives, Apr. 9, 1968, B123-8-117, pp. 51–55 (cited by [[w.dikotter-cultural-revolution]], 95 n.5).'
+      n: '[[w.dikotter-cultural-revolution]], 95 n.5. Made public: 2016. To check: Shanghai Municipal Archives, Apr. 9, 1968, B123-8-117, pp. 51–55 (cited by [[w.dikotter-cultural-revolution]], 95 n.5).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2031,7 +1929,7 @@ ops:
       thread: china
       place: shanghai
       c: 'As a Shanghai 上海 report has it: sales of goods that might be denounced fall steeply; a chopstick jar with a unicorn finds no buyers, the same jar with revolutionary slogans sells out at twice the price.'
-      n: '[[w.dikotter-cultural-revolution]], 95 n.6. Made public: 2016 |. To check: Shanghai Municipal Archives, Nov. 7, 1966, B163-2-2192, p. 22 (cited by [[w.dikotter-cultural-revolution]], 95 n.6).'
+      n: '[[w.dikotter-cultural-revolution]], 95 n.6. Made public: 2016. To check: Shanghai Municipal Archives, Nov. 7, 1966, B163-2-2192, p. 22 (cited by [[w.dikotter-cultural-revolution]], 95 n.6).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2047,7 +1945,7 @@ ops:
       when: Mar.
       date: '1967-03'
       thread: china-leadership
-      c: The Central Committee orders every trace of Liu Shaoqi obliterated, his calligraphy and photographs on objects and official papers among them; the Ministry of Internal Affairs, overwhelmed, delegates the removal of the pages to its local offices.
+      c: The Central Committee 中共中央 orders every trace of Liu Shaoqi 刘少奇 obliterated, his calligraphy and photographs on objects and official papers among them; the Ministry of Internal Affairs, overwhelmed, delegates the removal of the pages to its local offices.
       n: '[[w.dikotter-cultural-revolution]], 95–96 n.7. Made public: 2016. To check: Jiangsu Provincial Archives, Aug. 26, Dec. 8 and 15, 1966, 4016-3-119, pp. 1–19 (cited by [[w.dikotter-cultural-revolution]], 96 n.7a); Shanghai Municipal Archives, Mar. 24, 1967, B123-8-24, p. 24 (cited by [[w.dikotter-cultural-revolution]], 96 n.7b); Shanghai Municipal Archives, May 15, 1967, B168-3-132, pp. 49–50 (cited by [[w.dikotter-cultural-revolution]], 96 n.7c). Names: Liu Shaoqi. Check: the day.'
       tags:
       - polity:prc
@@ -2055,7 +1953,7 @@ ops:
       - name:liu-shaoqi
       - ok:fields-place
       src:
-        c: 19beae63
+        c: 72f54901
         rows:
         - 'w.dikotter-cultural-revolution 95–96: all'
         - 'via w.dikotter-cultural-revolution 96 n.7a: all'
@@ -2067,7 +1965,7 @@ ops:
       when: Aug.
       date: '1966-08'
       thread: china-leadership
-      c: The works of Peng Zhen and Lu Dingyi are to be destroyed; a list of books with "political errors" grows by the month.
+      c: The works of Peng Zhen 彭真 and Lu Dingyi 陆定一 are to be destroyed; a list of books with "political errors" grows by the month.
       n: '[[w.dikotter-cultural-revolution]], 95–96 n.7. Made public: 2016. To check: Jiangsu Provincial Archives, Aug. 26, Dec. 8 and 15, 1966, 4016-3-119, pp. 1–19 (cited by [[w.dikotter-cultural-revolution]], 96 n.7a). Names: Peng Zhen, Lu Dingyi. Check: the day.'
       tags:
       - polity:prc
@@ -2076,7 +1974,7 @@ ops:
       - name:lu-dingyi
       - ok:fields-place
       src:
-        c: 8d589547
+        c: aecb6407
         rows:
         - 'w.dikotter-cultural-revolution 95–96: all'
         - 'via w.dikotter-cultural-revolution 96 n.7a: all'
@@ -2088,7 +1986,7 @@ ops:
       thread: china-leadership
       place: shanghai
       c: 'As the Shanghai 上海 Office for Finance and Trade reports it: shops renamed Red Flag, Red Guard, The East is Red, Workers, Peasants and Soldiers; more than a hundred called Red Guard; of 230 pharmacies 200 share a name; their windows all alike, Mao''s portrait in the middle.'
-      n: '[[w.dikotter-cultural-revolution]], 96 n.8. Made public: 2016 |. To check: Report from the Office for Finance and Trade, Shanghai Municipal Archives, Sept. 21, 1966, B6-1-130, pp. 195–196 (cited by [[w.dikotter-cultural-revolution]], 96 n.8a); Goodwin to Wilson, Sept. 19, 1966, FO 371/186982, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 96 n.8b).'
+      n: '[[w.dikotter-cultural-revolution]], 96 n.8. Made public: 2016. To check: Report from the Office for Finance and Trade, Shanghai Municipal Archives, Sept. 21, 1966, B6-1-130, pp. 195–196 (cited by [[w.dikotter-cultural-revolution]], 96 n.8a); Goodwin to Wilson, Sept. 19, 1966, FO 371/186982, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 96 n.8b).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2106,13 +2004,15 @@ ops:
       date: '1966-09-28'
       thread: china
       place: peking
-      c: 'As Leonard Appleyard of the British mission reports it ("Manifestations of the Mao Cult"): all records for slogans broken, every clean stretch of wall with its quotation or tribute to Mao; brick structures with slogans at key points of Peking; quotations on buses and lorries, Mao''s photograph on the engines of trains, cards on bicycles.'
-      n: '[[w.dikotter-cultural-revolution]], 96–97 n.9. Made public: |. To check: Leonard Appleyard to John Benson, "Manifestations of the Mao Cult," Sept. 28, 1966, FO 371/186983, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 97 n.9).'
+      c: 'As Leonard Appleyard of the British mission reports it ("Manifestations of the Mao Cult"): all records for slogans broken, every clean stretch of wall with its quotation or tribute to Mao; brick structures with slogans at key points of Peking 北京; quotations on buses and lorries, Mao''s photograph on the engines of trains, cards on bicycles.'
+      n: '[[w.dikotter-cultural-revolution]], 96–97 n.9. Made public: 2016. To check: Leonard Appleyard to John Benson, "Manifestations of the Mao Cult," Sept. 28, 1966, FO 371/186983, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 97 n.9).'
       tags:
       - polity:prc
+      - vis:only:uk
+      - polity:uk
       - form:state
       src:
-        c: 902530be
+        c: 42ec4544
         rows:
         - 'w.dikotter-cultural-revolution 96–97: all'
         - 'via w.dikotter-cultural-revolution 97 n.9: all'
@@ -2122,14 +2022,14 @@ ops:
       when: Aug. 27
       date: '1966-08-27'
       thread: china-leadership
-      c: 'A directive from Peking: only portraits of the Chairman to be displayed on public occasions.'
-      n: '[[w.dikotter-cultural-revolution]], 97 n.11. Made public: 2016 |. To check: Shandong Provincial Archives, Aug. 27, 1966, A1-1-1010, pp. 183–184 (cited by [[w.dikotter-cultural-revolution]], 97 n.11).'
+      c: 'A directive from Peking 北京: only portraits of the Chairman to be displayed on public occasions.'
+      n: '[[w.dikotter-cultural-revolution]], 97 n.11. Made public: 2016. To check: Shandong Provincial Archives, Aug. 27, 1966, A1-1-1010, pp. 183–184 (cited by [[w.dikotter-cultural-revolution]], 97 n.11).'
       tags:
       - polity:prc
       - vis:only:prc
       - ok:fields-place
       src:
-        c: 6fb8b2d2
+        c: cb71b28b
         rows:
         - 'w.dikotter-cultural-revolution 97: all'
         - 'via w.dikotter-cultural-revolution 97 n.11: all'
@@ -2139,14 +2039,14 @@ ops:
       when: July 11
       date: '1966-07-11'
       thread: china-leadership
-      c: 'The Ministry of Culture: the print run of the two editions of the *Selected Readings* of Mao''s works to rise from 40 million to 60 million in 1966; "unnecessary books," leisure magazines among them, curbed, only reprints of important political works allowed.'
-      n: '[[w.dikotter-cultural-revolution]], 97–98 n.12. Made public: 2016 |. To check: Ministry of Culture, July 11, 1966 (the Shandong file), A1-1-1010, pp. 67–69 (cited by [[w.dikotter-cultural-revolution]], 98 n.12a).'
+      c: 'The Ministry of Culture 文化部: the print run of the two editions of the *Selected Readings* of Mao''s works to rise from 40 million to 60 million in 1966; "unnecessary books," leisure magazines among them, curbed, only reprints of important political works allowed.'
+      n: '[[w.dikotter-cultural-revolution]], 97–98 n.12. Made public: 2016. To check: Ministry of Culture, July 11, 1966 (the Shandong file), A1-1-1010, pp. 67–69 (cited by [[w.dikotter-cultural-revolution]], 98 n.12a).'
       tags:
       - polity:prc
       - vis:only:prc
       - ok:fields-place
       src:
-        c: 9795a1d2
+        c: cdd0989d
         rows:
         - 'w.dikotter-cultural-revolution 97–98: all'
         - 'via w.dikotter-cultural-revolution 98 n.12a: all'
@@ -2176,7 +2076,7 @@ ops:
       thread: china-leadership
       place: shanghai
       c: 'As a Shanghai 上海 report has it: seven new factories, 16,400 square metres in all, built for Mao''s photographs, portraits, posters and books; factories making red ink work round the clock and still run dry.'
-      n: '[[w.dikotter-cultural-revolution]], 98 n.13. Made public: 2016 |. To check: Shanghai Municipal Archives, Dec. 11, 1967, B167-3-21, pp. 70–73 (cited by [[w.dikotter-cultural-revolution]], 98 n.13a); Instructions from the Centre, Apr. 5 and July 12, 1967, Nanjing Municipal Archives, 5038-2-107, pp. 2, 58–59 (cited by [[w.dikotter-cultural-revolution]], 98 n.13b).'
+      n: '[[w.dikotter-cultural-revolution]], 98 n.13. Made public: 2016. To check: Shanghai Municipal Archives, Dec. 11, 1967, B167-3-21, pp. 70–73 (cited by [[w.dikotter-cultural-revolution]], 98 n.13a); Instructions from the Centre, Apr. 5 and July 12, 1967, Nanjing Municipal Archives, 5038-2-107, pp. 2, 58–59 (cited by [[w.dikotter-cultural-revolution]], 98 n.13b).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2194,7 +2094,7 @@ ops:
       date: '1966-08-30'
       thread: china-leadership
       c: A directive of the Ministry of Trade curbs the making of plastic shoes, slippers and toys, the plastic to go to the covers of the Little Red Book.
-      n: '[[w.dikotter-cultural-revolution]], 98 n.14. Made public: 2016 |. To check: Directive from the Ministry of Trade, Aug. 30, 1966, Hebei Provincial Archives, 999-4-761, p. 149 (cited by [[w.dikotter-cultural-revolution]], 98 n.14).'
+      n: '[[w.dikotter-cultural-revolution]], 98 n.14. Made public: 2016. To check: Directive from the Ministry of Trade, Aug. 30, 1966, Hebei Provincial Archives, 999-4-761, p. 149 (cited by [[w.dikotter-cultural-revolution]], 98 n.14).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2212,7 +2112,7 @@ ops:
       thread: china-leadership
       place: shanghai
       c: 'As a Shanghai 上海 report has it: close to a million posters of the Chairman withheld after buyers complain of a faint character reading "pickpocket" on his shoulder; the Bureau for Public Security investigates and finds a mechanical error.'
-      n: '[[w.dikotter-cultural-revolution]], 98 n.16. Made public: 2016 |. To check: Shanghai Municipal Archives, May 12, 1967, B244-2-116, pp. 52–54 (cited by [[w.dikotter-cultural-revolution]], 98 n.16a); Shanghai Municipal Archives, Apr. 13, 1968, B244-3-66, pp. 42–45 (cited by [[w.dikotter-cultural-revolution]], 98 n.16b).'
+      n: '[[w.dikotter-cultural-revolution]], 98 n.16. Made public: 2016. To check: Shanghai Municipal Archives, May 12, 1967, B244-2-116, pp. 52–54 (cited by [[w.dikotter-cultural-revolution]], 98 n.16a); Shanghai Municipal Archives, Apr. 13, 1968, B244-3-66, pp. 42–45 (cited by [[w.dikotter-cultural-revolution]], 98 n.16b).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2231,7 +2131,7 @@ ops:
       thread: china-leadership
       place: shanghai
       c: 'As a Shanghai 上海 report has it: department stores charge different prices for an eighteen-centimetre plaster bust of the Chairman; a fixed price of 0.37 yuan is introduced, and some shops then offer discounts.'
-      n: '[[w.dikotter-cultural-revolution]], 99 n.17. Made public: 2016 |. To check: Shanghai Municipal Archives, Aug. 3, 1967, B167-3-17, p. 31 (cited by [[w.dikotter-cultural-revolution]], 99 n.17).'
+      n: '[[w.dikotter-cultural-revolution]], 99 n.17. Made public: 2016. To check: Shanghai Municipal Archives, Aug. 3, 1967, B167-3-17, p. 31 (cited by [[w.dikotter-cultural-revolution]], 99 n.17).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2249,7 +2149,7 @@ ops:
       thread: china-leadership
       place: shanghai
       c: 'As a Shanghai 上海 report has it: seventy-five factories work overtime to make 15 million Mao badges a month; a black market thrives, underground factories stealing aluminium buckets, kettles and pans and stripping machinery.'
-      n: '[[w.dikotter-cultural-revolution]], 99 n.18, n.19. Made public: 2016 |. To check: Shanghai Municipal Archives, May 2, 1967, B182-2-8, pp. 5–8 (cited by [[w.dikotter-cultural-revolution]], 99 n.18a); the same (cited by [[w.dikotter-cultural-revolution]], 99 n.19).'
+      n: '[[w.dikotter-cultural-revolution]], 99 n.18, n.19. Made public: 2016. To check: Shanghai Municipal Archives, May 2, 1967, B182-2-8, pp. 5–8 (cited by [[w.dikotter-cultural-revolution]], 99 n.18a); the same (cited by [[w.dikotter-cultural-revolution]], 99 n.19).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2268,7 +2168,7 @@ ops:
       thread: china-leadership
       place: nanjing
       c: Nanjing 南京, making only a million Mao badges a month, asks for 90 tonnes more of pure aluminium to treble its output in 1967.
-      n: '[[w.dikotter-cultural-revolution]], 99 n.18. Made public: 2016 |. To check: Nanjing Municipal Archives, Feb. 4, 1967, 5020-2-42, pp. 1–13 (cited by [[w.dikotter-cultural-revolution]], 99 n.18b).'
+      n: '[[w.dikotter-cultural-revolution]], 99 n.18. Made public: 2016. To check: Nanjing Municipal Archives, Feb. 4, 1967, 5020-2-42, pp. 1–13 (cited by [[w.dikotter-cultural-revolution]], 99 n.18b).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2283,14 +2183,14 @@ ops:
       when: Feb. 7
       date: '1968-02-07'
       thread: china-leadership
-      c: A directive from the Center on Mao badges; the national output by 1968 more than 50 million a month.
+      c: A directive from the Center 中央 on Mao badges; the national output by 1968 more than 50 million a month.
       n: '[[w.dikotter-cultural-revolution]], 99 n.18. Made public: 2016. To check: Directive from the Centre, Feb. 7, 1968, Hebei Provincial Archives, 999-4-765, pp. 40–41 (cited by [[w.dikotter-cultural-revolution]], 99 n.18c). Check: the directive''s matter; the book gives only the output.'
       tags:
       - polity:prc
       - vis:only:prc
       - ok:fields-place
       src:
-        c: 0d53885d
+        c: e222dca9
         rows:
         - 'w.dikotter-cultural-revolution 99: all'
         - 'via w.dikotter-cultural-revolution 99 n.18c: all'
@@ -2320,7 +2220,7 @@ ops:
       when: Dec. 26
       date: '1966-12-26'
       thread: china-leadership
-      c: Ye Qun presents her collection of Mao badges, thousands of them, to Mao on his seventy-third birthday.
+      c: Ye Qun 叶群 presents her collection of Mao badges, thousands of them, to Mao on his seventy-third birthday.
       n: '[[w.dikotter-cultural-revolution]], 100 n.22. Made public: 2008 (Helen Wang). To check: Xu Xiaodi, interview, Hong Kong, Mar. 13, 2013 (cited by [[w.dikotter-cultural-revolution]], 100 n.22a); Helen Wang, *Chairman Mao Badges* (2008), 19 (cited by [[w.dikotter-cultural-revolution]], 100 n.22b). Names: Ye Qun, Mao Zedong.'
       tags:
       - polity:prc
@@ -2329,7 +2229,7 @@ ops:
       - name:mao-zedong
       - ok:fields-place
       src:
-        c: 721f2a25
+        c: 5e4b2a07
         rows:
         - 'w.dikotter-cultural-revolution 100: all'
         - 'via w.dikotter-cultural-revolution 100 n.22a: all'
@@ -2377,13 +2277,13 @@ ops:
       also:
       - china
       place: peking
-      c: 'Peking: Chen Boda meets the students from Tianjin who had marched to the capital through wind and rain (the Cultural Revolution Group then sent a special train for them), praises them for coming to the "proletarian revolutionary capital" and tells them to take the revolution back home.'
+      c: 'Peking 北京: Chen Boda 陈伯达 meets the students from Tianjin 天津 who had marched to the capital through wind and rain (the Cultural Revolution Group 中央文革小组 then sent a special train for them), praises them for coming to the "proletarian revolutionary capital" and tells them to take the revolution back home.'
       n: '[[w.dikotter-cultural-revolution]], 102 n.4. To check: [[w.zhenhua-red-flower-of-china]], 110 (cited by [[w.dikotter-cultural-revolution]], 102 n.4a); [[w.nianyi-da-dongluande-niandai]], 77 (cited by [[w.dikotter-cultural-revolution]], 102 n.4b). Names: Chen Boda.'
       tags:
       - polity:prc
       - name:chen-boda
       src:
-        c: ccd4b53f
+        c: a45300f3
         rows:
         - 'w.dikotter-cultural-revolution 102: all'
 - add:
@@ -2393,12 +2293,12 @@ ops:
       date: '1966-08-21'
       thread: china-leadership
       place: fuzhou
-      c: 'Fuzhou 福州: Ye Fei, the provincial leader, a red armband on his sleeve, presides over a rally of 20,000 Red Guards.'
-      n: '[[w.dikotter-cultural-revolution]], 103–104 n.5. Made public: |. To check: Ken Ling, *The Revenge of Heaven* (1972), 86–87 (cited by [[w.dikotter-cultural-revolution]], 104 n.5a); Ye Qing, "''Wenge'' shiqi Fujian qunzhong zuzhi yanjiu" (2002), I, 56–63 (cited by [[w.dikotter-cultural-revolution]], 104 n.5b).'
+      c: 'Fuzhou 福州: Ye Fei 叶飞, the provincial leader, a red armband on his sleeve, presides over a rally of 20,000 Red Guards.'
+      n: '[[w.dikotter-cultural-revolution]], 103–104 n.5. To check: Ken Ling, *The Revenge of Heaven* (1972), 86–87 (cited by [[w.dikotter-cultural-revolution]], 104 n.5a); Ye Qing, "''Wenge'' shiqi Fujian qunzhong zuzhi yanjiu" (2002), I, 56–63 (cited by [[w.dikotter-cultural-revolution]], 104 n.5b).'
       tags:
       - polity:prc
       src:
-        c: 67dabf99
+        c: d38b9788
         rows:
         - 'w.dikotter-cultural-revolution 103–104: all'
         - 'via w.dikotter-cultural-revolution 104 n.5a: all'
@@ -2410,12 +2310,12 @@ ops:
       date: '1966-08-26'
       thread: china
       place: fuzhou
-      c: 'Fuzhou 福州: some 300 Red Guards from Xiamen, Ken Ling among them, come to a rally addressed by Wang Yugeng, head of the provincial education department and Ye Fei''s wife; one seizes the microphone and calls the meeting a cover-up; she is led off and her supporters, thousands in the stadium, beat the rebels back.'
-      n: '[[w.dikotter-cultural-revolution]], 103–104 n.5. To check: Ken Ling, *The Revenge of Heaven* (1972), 86–87 (cited by [[w.dikotter-cultural-revolution]], 104 n.5a); Ye Qing, "''Wenge'' shiqi Fujian qunzhong zuzhi yanjiu" (2002), I, 56–63 (cited by [[w.dikotter-cultural-revolution]], 104 n.5b). Check: the day ("three days" before Aug. 29).'
+      c: 'Fuzhou 福州: some 300 Red Guards from Xiamen, Ken Ling among them, come to a rally addressed by Wang Yugeng, head of the provincial education department and Ye Fei 叶飞''s wife; one seizes the microphone and calls the meeting a cover-up; she is led off and her supporters, thousands in the stadium, beat the rebels back.'
+      n: '[[w.dikotter-cultural-revolution]], 103–104 n.5 (the rally "three days" before the hunger strike of Aug. 29). To check: Ken Ling, *The Revenge of Heaven* (1972), 86–87 (cited by [[w.dikotter-cultural-revolution]], 104 n.5a); Ye Qing, "''Wenge'' shiqi Fujian qunzhong zuzhi yanjiu" (2002), I, 56–63 (cited by [[w.dikotter-cultural-revolution]], 104 n.5b).'
       tags:
       - polity:prc
       src:
-        c: 052f3729
+        c: 9e99b8ec
         rows:
         - 'w.dikotter-cultural-revolution 103–104: all'
         - 'via w.dikotter-cultural-revolution 104 n.5a: all'
@@ -2427,12 +2327,12 @@ ops:
       date: '1966-08-29'
       thread: china
       place: fuzhou
-      c: 'Fuzhou 福州: more than a thousand protesters, Red Guards from Peking among them, begin a hunger strike on the square before the provincial Party committee; they call themselves "rebel Red Guards" against the "royalist Red Guards"; the committee raises some 20,000 activists and workers as Scarlet Guards against them.'
-      n: '[[w.dikotter-cultural-revolution]], 103–104 n.5. Made public: |. To check: Ken Ling, *The Revenge of Heaven* (1972), 86–87 (cited by [[w.dikotter-cultural-revolution]], 104 n.5a); Ye Qing, "''Wenge'' shiqi Fujian qunzhong zuzhi yanjiu" (2002), I, 56–63 (cited by [[w.dikotter-cultural-revolution]], 104 n.5b).'
+      c: 'Fuzhou 福州: more than a thousand protesters, Red Guards from Peking 北京 among them, begin a hunger strike on the square before the provincial Party committee; they call themselves "rebel Red Guards" against the "royalist Red Guards"; the committee raises some 20,000 activists and workers as Scarlet Guards against them.'
+      n: '[[w.dikotter-cultural-revolution]], 103–104 n.5. To check: Ken Ling, *The Revenge of Heaven* (1972), 86–87 (cited by [[w.dikotter-cultural-revolution]], 104 n.5a); Ye Qing, "''Wenge'' shiqi Fujian qunzhong zuzhi yanjiu" (2002), I, 56–63 (cited by [[w.dikotter-cultural-revolution]], 104 n.5b).'
       tags:
       - polity:prc
       src:
-        c: ee00a603
+        c: 363ff961
         rows:
         - 'w.dikotter-cultural-revolution 103–104: all'
         - 'via w.dikotter-cultural-revolution 104 n.5a: all'
@@ -2449,12 +2349,12 @@ ops:
       time_zone: Asia/Shanghai
       thread: china
       place: fuzhou
-      c: 'Fuzhou 福州, afternoon: more than 30,000 rebel Red Guards from all over the country join the protesters, clamouring for Ye Fei''s dismissal; the two factions fight in the streets.'
-      n: '[[w.dikotter-cultural-revolution]], 104 n.5. Made public: |. To check: Ken Ling, *The Revenge of Heaven* (1972), 86–87 (cited by [[w.dikotter-cultural-revolution]], 104 n.5a); Ye Qing, "''Wenge'' shiqi Fujian qunzhong zuzhi yanjiu" (2002), I, 56–63 (cited by [[w.dikotter-cultural-revolution]], 104 n.5b).'
+      c: 'Fuzhou 福州, afternoon: more than 30,000 rebel Red Guards from all over the country join the protesters, clamouring for Ye Fei 叶飞''s dismissal; the two factions fight in the streets.'
+      n: '[[w.dikotter-cultural-revolution]], 104 n.5. To check: Ken Ling, *The Revenge of Heaven* (1972), 86–87 (cited by [[w.dikotter-cultural-revolution]], 104 n.5a); Ye Qing, "''Wenge'' shiqi Fujian qunzhong zuzhi yanjiu" (2002), I, 56–63 (cited by [[w.dikotter-cultural-revolution]], 104 n.5b).'
       tags:
       - polity:prc
       src:
-        c: e6b428aa
+        c: b5dc473f
         rows:
         - 'w.dikotter-cultural-revolution 104: all'
         - 'via w.dikotter-cultural-revolution 104 n.5a: all'
@@ -2466,12 +2366,12 @@ ops:
       date: '1966-09-04'
       thread: china
       place: shanghai
-      c: 'Shanghai 上海: Red Guards from Peking and Tianjin besiege the Party headquarters, demanding to see Cao Diqiu, the mayor, a "capitalist roader."'
-      n: '[[w.dikotter-cultural-revolution]], 104 n.6. Made public: |. To check: K. Godwin, "Letter from Shanghai," Aug. 29, 1966, FO 371/186982 (cited by [[w.dikotter-cultural-revolution]], 104 n.6a); Wang Duanyang, *Yige hongweibing de riji* (2007), 63 (cited by [[w.dikotter-cultural-revolution]], 104 n.6b).'
+      c: 'Shanghai 上海: Red Guards from Peking 北京 and Tianjin 天津 besiege the Party headquarters, demanding to see Cao Diqiu 曹荻秋, the mayor, a "capitalist roader."'
+      n: '[[w.dikotter-cultural-revolution]], 104 n.6. To check: K. Godwin, "Letter from Shanghai," Aug. 29, 1966, FO 371/186982 (cited by [[w.dikotter-cultural-revolution]], 104 n.6a); Wang Duanyang, *Yige hongweibing de riji* (2007), 63 (cited by [[w.dikotter-cultural-revolution]], 104 n.6b).'
       tags:
       - polity:prc
       src:
-        c: 99adec1b
+        c: 9e6d1564
         rows:
         - 'w.dikotter-cultural-revolution 104: all'
         - 'via w.dikotter-cultural-revolution 104 n.6a: all'
@@ -2483,13 +2383,15 @@ ops:
       date: '1966-09-28'
       thread: china
       place: peking
-      c: 'As John Boyd of the British mission reports it ("Invasion of Peking"): Red Guards from the provinces pour into Peking by bus and train, as many as thirty coaches from Shanxi alone parked on the main boulevard at once.'
-      n: '[[w.dikotter-cultural-revolution]], 104–105 n.7. Made public: |. To check: Boyd to Wilson, "Invasion of Peking," Sept. 28, 1966, FO 371/186982, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 105 n.7).'
+      c: 'As John Boyd of the British mission reports it ("Invasion of Peking"): Red Guards from the provinces pour into Peking 北京 by bus and train, as many as thirty coaches from Shanxi 山西 alone parked on the main boulevard at once.'
+      n: '[[w.dikotter-cultural-revolution]], 104–105 n.7. Made public: 2016. To check: Boyd to Wilson, "Invasion of Peking," Sept. 28, 1966, FO 371/186982, The National Archives, London (cited by [[w.dikotter-cultural-revolution]], 105 n.7).'
       tags:
       - polity:prc
+      - vis:only:uk
+      - polity:uk
       - form:state
       src:
-        c: '23499248'
+        c: 13517f3f
         rows:
         - 'w.dikotter-cultural-revolution 104–105: all'
         - 'via w.dikotter-cultural-revolution 105 n.7: all'
@@ -2501,7 +2403,7 @@ ops:
       thread: china-leadership
       place: shanghai
       c: 'As reports of the Shanghai 上海 People''s Congress have it: visitors squat on sitting toilets; cleaners who refuse to go on for the stench are told that "what stinks is not so much the excrement as your own ideology."'
-      n: '[[w.dikotter-cultural-revolution]], 107 n.13. Made public: 2016 |. To check: Reports from the People''s Congress, Nov. 1 and 9, 1966, Shanghai Municipal Archives, B172-5-1085, pp. 15, 20 (cited by [[w.dikotter-cultural-revolution]], 107 n.13).'
+      n: '[[w.dikotter-cultural-revolution]], 107 n.13. Made public: 2016. To check: Reports from the People''s Congress, Nov. 1 and 9, 1966, Shanghai Municipal Archives, B172-5-1085, pp. 15, 20 (cited by [[w.dikotter-cultural-revolution]], 107 n.13).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2521,6 +2423,7 @@ ops:
       n: '[[w.dikotter-cultural-revolution]], 109 n.19. Made public: 2006 (the *New York Times*). To check: Howard W. French, "Hearts Still Scarred 40 Years after China''s Upheaval," *New York Times*, June 10, 2006 (cited by [[w.dikotter-cultural-revolution]], 109 n.19a); Yu Xiguang, *Weibei weigan wang youguo* (cited by [[w.dikotter-cultural-revolution]], 109 n.19b). Names: Mao Zedong. Check: the day ("a month later" than Aug. 18).'
       tags:
       - polity:prc
+      - vis:only:prc
       - name:mao-zedong
       src:
         c: d87aff1d
@@ -2535,12 +2438,12 @@ ops:
       date: '1966-11-26'
       thread: china
       place: peking
-      c: 'The last rally, at an airfield outside Peking, ends in a stampede: 2 million rush for the only exit, flatten wheat fields and mud huts; a wooden bridge collapses; many lose their shoes in the cold; army lorries carry clothes, and some carry mutilated bodies.'
-      n: '[[w.dikotter-cultural-revolution]], 110 n.23. Made public: 1972 (Ken Ling). To check: Ken Ling, *The Revenge of Heaven* (1972), 179–180 (cited by [[w.dikotter-cultural-revolution]], 110 n.23). See [[cal.1966-11-25.china-leadership-2]].'
+      c: 'The last rally, at an airfield outside Peking 北京, ends in a stampede: 2 million rush for the only exit, flatten wheat fields and mud huts; a wooden bridge collapses; many lose their shoes in the cold; army lorries carry clothes, and some carry mutilated bodies.'
+      n: '[[w.dikotter-cultural-revolution]], 110 n.23. To check: Ken Ling, *The Revenge of Heaven* (1972), 179–180 (cited by [[w.dikotter-cultural-revolution]], 110 n.23). See [[cal.1966-11-25.china-leadership-2]].'
       tags:
       - polity:prc
       src:
-        c: f27b1b9e
+        c: 4499863c
         rows:
         - 'w.dikotter-cultural-revolution 110: all'
         - 'via w.dikotter-cultural-revolution 110 n.23: all'
@@ -2551,33 +2454,16 @@ ops:
       date: '1966-10-22'
       thread: china-leadership
       place: peking
-      c: The Cultural Revolution Group encourages Red Guards to travel on foot in Long March teams, to relieve the railways.
-      n: '[[w.dikotter-cultural-revolution]], 112–113 n.29. Made public: |. To check: Liang Heng and Judith Shapiro, *Son of the Revolution* (1983), 104 (cited by [[w.dikotter-cultural-revolution]], 113 n.29a); Wong Siu Kuan, "Why the Cultural Revolution?," *Eastern Horizon* 6, no. 2 (Feb. 1967), 15 (cited by [[w.dikotter-cultural-revolution]], 113 n.29b).'
+      c: The Cultural Revolution Group 中央文革小组 encourages Red Guards to travel on foot in Long March teams, to relieve the railways.
+      n: '[[w.dikotter-cultural-revolution]], 112–113 n.29. To check: [[w.heng-son-of-the-revolution]], 104 (cited by [[w.dikotter-cultural-revolution]], 113 n.29a); Wong Siu Kuan, "Why the Cultural Revolution?," *Eastern Horizon* 6, no. 2 (Feb. 1967), 15 (cited by [[w.dikotter-cultural-revolution]], 113 n.29b).'
       tags:
       - polity:prc
       src:
-        c: f6541dc6
+        c: a8b134d4
         rows:
         - 'w.dikotter-cultural-revolution 112–113: all'
         - 'via w.dikotter-cultural-revolution 113 n.29a: all'
         - 'via w.dikotter-cultural-revolution 113 n.29b: all'
-- add:
-    entry:
-      id: cal.1966-12-21.china-leadership-5
-      when: Dec. 21
-      date: '1966-12-21'
-      thread: china-leadership
-      c: Free board and travel for the Red Guards abolished.
-      n: '[[w.dikotter-cultural-revolution]], 113 n.30. Made public: |. To check: Li Zhengan, interview, Chengdu, Apr. 2006 (cited by [[w.dikotter-cultural-revolution]], 113 n.30a); Liu Zuneng, *Wo de gushi* (2011), 330 (cited by [[w.dikotter-cultural-revolution]], 113 n.30b).'
-      tags:
-      - polity:prc
-      - ok:fields-place
-      src:
-        c: e302366b
-        rows:
-        - 'w.dikotter-cultural-revolution 113: all'
-        - 'via w.dikotter-cultural-revolution 113 n.30a: all'
-        - 'via w.dikotter-cultural-revolution 113 n.30b: all'
 - add:
     entry:
       id: cal.1967-01-06.china-leadership-17
@@ -2585,14 +2471,14 @@ ops:
       date: '1967-01-06'
       thread: china-leadership
       place: jiangxi
-      c: 'As the Jiangxi provincial committee reports it: by December more than 60,000 Red Guards a day reach Jinggangshan, a month later thirty times more visitors than locals; the army drops food and medicine by helicopter and sends a hundred lorries to evacuate the area.'
-      n: '[[w.dikotter-cultural-revolution]], 112 n.28. Made public: 2016 |. To check: Report from the Jiangxi Provincial Party Committee, Jan. 6, 1967, Shanghai Municipal Archives, B243-2-754, p. 2 (cited by [[w.dikotter-cultural-revolution]], 112 n.28a); Liang Heng and Judith Shapiro, *Son of the Revolution* (1983), 109–110 (cited by [[w.dikotter-cultural-revolution]], 112 n.28b).'
+      c: 'As the Jiangxi 江西 provincial committee reports it: by December more than 60,000 Red Guards a day reach Jinggangshan 井岡山, a month later thirty times more visitors than locals; the army drops food and medicine by helicopter and sends a hundred lorries to evacuate the area.'
+      n: '[[w.dikotter-cultural-revolution]], 112 n.28. Made public: 2016. To check: Report from the Jiangxi Provincial Party Committee, Jan. 6, 1967, Shanghai Municipal Archives, B243-2-754, p. 2 (cited by [[w.dikotter-cultural-revolution]], 112 n.28a); [[w.heng-son-of-the-revolution]], 109–110 (cited by [[w.dikotter-cultural-revolution]], 112 n.28b).'
       tags:
       - polity:prc
       - vis:only:prc
       - form:state
       src:
-        c: 8329fe49
+        c: d1b27432
         rows:
         - 'w.dikotter-cultural-revolution 112: all'
         - 'via w.dikotter-cultural-revolution 112 n.28a: all'
@@ -2603,16 +2489,12 @@ ops:
       when: Feb.
       date: '1967-02'
       thread: china-leadership
-      c: Meningitis, spread by the travelling Red Guards since August 1966, now epidemic along the railways; antibiotics so short that the government buys several hundred tonnes of medicine from firms in Western Europe and Asia; control centres set up. An American offer of help goes unanswered.
+      c: Meningitis, spread by the travelling Red Guards since August 1966, now epidemic along the railways; antibiotics so short that the government buys several hundred tonnes of medicine from firms in Western Europe and Asia; control centres set up.
       n: '[[w.dikotter-cultural-revolution]], 114 n.31. Made public: 2014 (Fan Ka Wai). To check: Fan Ka Wai, "Epidemic Cerebrospinal Meningitis during the Cultural Revolution," *Extrême-Orient, Extrême-Occident* 37 (Sept. 2014), 197–232 (cited by [[w.dikotter-cultural-revolution]], 114 n.31). Check: the day.'
       tags:
       - polity:prc
       - vis:only:prc
       - ok:fields-place
-      gloss:
-        title: Estimates
-        text:
-        - 'Dikötter, after Fan Ka Wai: by the time the epidemic was brought under control more than 160,000 had died ([[w.dikotter-cultural-revolution]], 114 n.31).'
       src:
         c: 15aaa376
         rows:
@@ -2623,10 +2505,7 @@ ops:
     item: '[[w.dikotter-cultural-revolution]], 115 n.2 (Tan Lifu''s speech of Aug. 20 on keeping those not born red out of the Red Guards; millions of copies printed at every level of government)'
 - cite:
     id: cal.1966-10-01.china-leadership-4
-    item: '[[w.dikotter-cultural-revolution]], 116 n.4 (the editorial, edited by Chen Boda: the power holders taking the capitalist road "a small bunch of counter-revolutionary revisionists" who "raise the red flag in order to fight the red flag"; the "bourgeois reactionary line")'
-- check:
-    id: cal.1966-10-01.china-leadership-4
-    text: 'Check: [[w.dikotter-cultural-revolution]], 116, dates the editorial Oct. 3; its note (116 n.4) gives *Hongqi*, no. 13, Oct. 1, 1966.'
+    item: '[[w.dikotter-cultural-revolution]], 116 n.4 (the editorial, edited by Chen Boda: the power holders taking the capitalist road "a small bunch of counter-revolutionary revisionists" who "raise the red flag in order to fight the red flag"; the "bourgeois reactionary line"; the text has it published Oct. 3, its note gives *Hongqi*, no. 13, Oct. 1, 1966)'
 - cite:
     id: cal.1966-10-16.china-leadership-4
     item: '[[w.dikotter-cultural-revolution]], 116 n.5 (Chen Boda names Liu Shaoqi and Deng Xiaoping the main targets, sets their "bourgeois reactionary line" against Mao''s line, and savages Tan Lifu''s bloodline couplet; the talk widely disseminated on Mao''s instructions)'
@@ -2650,37 +2529,19 @@ ops:
     item: '[[w.dikotter-cultural-revolution]], 127 (the "January Storm": "If you have power, you have everything ... Seize power! Seize power!! Seize power!!!")'
 - add:
     entry:
-      id: cal.1966-09.china-4
-      when: Sept., late
-      date: '1966-09'
-      at: before 1966-09-21
-      thread: china
-      place: peking
-      c: 'Peking: Wang Guanghua, a student of the No. 6 Middle School from a "capitalist family," is seized by a control squad on his return from linking up and tortured to death for travelling without the school Red Guards'' leave.'
-      n: '[[w.dikotter-cultural-revolution]], 115 n.1. To check: Boyd to Wilson, "Invasion of Peking," Sept. 28, 1966, FO 371/186982 (cited by [[w.dikotter-cultural-revolution]], 115 n.1a); Wang Duanyang, *Yige hongweibing de riji* (2007), 62 (cited by [[w.dikotter-cultural-revolution]], 115 n.1b); [[w.youqin-student-attacks-against-teachers]] (cited by [[w.dikotter-cultural-revolution]], 115 n.1c). Check: the day.'
-      tags:
-      - polity:prc
-      src:
-        c: f1f80dca
-        rows:
-        - 'w.dikotter-cultural-revolution 115: all'
-        - 'via w.dikotter-cultural-revolution 115 n.1a: all'
-        - 'via w.dikotter-cultural-revolution 115 n.1b: all'
-- add:
-    entry:
       id: cal.1966-10.china-leadership-31
       when: Oct., early
       date: '1966-10'
       at: before 1966-10-01
       thread: china-leadership
       place: fuzhou
-      c: 'Fuzhou 福州: the provincial Party committee telegraphs the Central Committee, denouncing the rebels'' hunger strike as a counter-revolutionary act of hooligans backed by Taiwan.'
+      c: 'Fuzhou 福州: the provincial Party committee telegraphs the Central Committee 中共中央, denouncing the rebels'' hunger strike as a counter-revolutionary act of hooligans backed by Taiwan.'
       n: '[[w.dikotter-cultural-revolution]], 116 n.4. Made public: 2002 (Ye Qing). To check: Ye Qing, "''Wenge'' shiqi Fujian qunzhong zuzhi yanjiu" (2002), I, 63–64 (cited by [[w.dikotter-cultural-revolution]], 116 n.4b). Check: the day.'
       tags:
       - polity:prc
       - vis:only:prc
       src:
-        c: 6f5d0e4c
+        c: 29ac4e1c
         rows:
         - 'w.dikotter-cultural-revolution 116: all'
         - 'via w.dikotter-cultural-revolution 116 n.4b: all'
@@ -2691,12 +2552,12 @@ ops:
       date: '1966-11-01'
       thread: china
       place: fuzhou
-      c: 'Fuzhou 福州: the rebels seize the provincial Party headquarters; Ken Ling and his friends storm Ye Fei''s residence as he is served breakfast; he is paraded through the streets in the following days and appeals to Han Xianchu, the army commander, who refuses to step in.'
-      n: '[[w.dikotter-cultural-revolution]], 117–118 n.7. Made public: |. To check: Shui Luzhou, *Wenge jianlun*, web version, ch. 46 (cited by [[w.dikotter-cultural-revolution]], 118 n.7a); Ken Ling, *The Revenge of Heaven* (1972), 135 (cited by [[w.dikotter-cultural-revolution]], 118 n.7b); Wang Shengze, "''Wenge'' fengbao zhong de Ye Fei shangjiang," *Dangshi bolan*, no. 12 (Dec. 2008), 41–46 (cited by [[w.dikotter-cultural-revolution]], 118 n.7c).'
+      c: 'Fuzhou 福州: the rebels seize the provincial Party headquarters; Ken Ling and his friends storm Ye Fei 叶飞''s residence as he is served breakfast; he is paraded through the streets in the following days and appeals to Han Xianchu 韩先楚, the army commander, who refuses to step in.'
+      n: '[[w.dikotter-cultural-revolution]], 117–118 n.7. To check: Shui Luzhou, *Wenge jianlun*, web version, ch. 46 (cited by [[w.dikotter-cultural-revolution]], 118 n.7a); Ken Ling, *The Revenge of Heaven* (1972), 135 (cited by [[w.dikotter-cultural-revolution]], 118 n.7b); Wang Shengze, "''Wenge'' fengbao zhong de Ye Fei shangjiang," *Dangshi bolan*, no. 12 (Dec. 2008), 41–46 (cited by [[w.dikotter-cultural-revolution]], 118 n.7c).'
       tags:
       - polity:prc
       src:
-        c: 1507b6a6
+        c: d89a4120
         rows:
         - 'w.dikotter-cultural-revolution 117–118: all'
         - 'via w.dikotter-cultural-revolution 118 n.7a: all'
@@ -2712,7 +2573,7 @@ ops:
       - china
       place: peking
       c: 'The *Hongqi* editorial "Victory for the Proletarian Revolutionary Line Represented by Chairman Mao": leading Party members treat the masses as ignorant and incapable, turn the spearhead on them, brand them "anti-party elements" and "rightists"; the work teams'' dossiers to be destroyed and their verdicts overturned.'
-      n: '[[w.dikotter-cultural-revolution]], 118, 122 n.8, n.17. Made public: |. To check: "Yi Mao zhuxi daibiao de wuchanjieji geming luxian de shengli," *Hongqi*, no. 14, Nov. 1, 1966, 1–3 (cited by [[w.dikotter-cultural-revolution]], 118 n.8); the same (cited by [[w.dikotter-cultural-revolution]], 122 n.17a).'
+      n: '[[w.dikotter-cultural-revolution]], 118, 122 n.8, n.17. To check: "Yi Mao zhuxi daibiao de wuchanjieji geming luxian de shengli," *Hongqi*, no. 14, Nov. 1, 1966, 1–3 (cited by [[w.dikotter-cultural-revolution]], 118 n.8); the same (cited by [[w.dikotter-cultural-revolution]], 122 n.17a).'
       tags:
       - polity:prc
       src:
@@ -2766,12 +2627,12 @@ ops:
       at: after 1966-11-01
       thread: china
       place: shanghai
-      c: 'Shanghai 上海: some 40,000 workers sent to the countryside return to show their discontent; some occupy Shanghai Mansions, kept for the leaders since 1949; others hunger-strike before the Labour Bureau; many join the siege of the city Party committee.'
+      c: 'Shanghai 上海: some 40,000 workers sent to the countryside return to show their discontent; some occupy Shanghai Mansions 上海大厦, kept for the leaders since 1949; others hunger-strike before the Labour Bureau; many join the siege of the city Party committee.'
       n: '[[w.dikotter-cultural-revolution]], 122–123 n.19. To check: Shanghai Municipal Archives, Aug. 7, 1975, B127-4-77, pp. 1–5 (cited by [[w.dikotter-cultural-revolution]], 123 n.19). Check: the day.'
       tags:
       - polity:prc
       src:
-        c: adb98046
+        c: 3b40f90b
         rows:
         - 'w.dikotter-cultural-revolution 122–123: all'
         - 'via w.dikotter-cultural-revolution 123 n.19: all'
@@ -2782,14 +2643,14 @@ ops:
       date: '1966-12'
       thread: china-leadership
       place: nanjing
-      c: 'As a Nanjing 南京 report has it: scuffles across all industry; officials telephone and petition the higher authorities about plots and losses, rebel workers send delegations against their leaders; from the Nanjing Machine Tool and Electrical Apparatus Factory alone a third of its 185 workers had gone to Peking by the end of October.'
+      c: 'As a Nanjing 南京 report has it: scuffles across all industry; officials telephone and petition the higher authorities about plots and losses, rebel workers send delegations against their leaders; from the Nanjing Machine Tool and Electrical Apparatus Factory alone a third of its 185 workers had gone to Peking 北京 by the end of October.'
       n: '[[w.dikotter-cultural-revolution]], 123 n.21. Made public: 2016. To check: Report from the Nanjing Municipal Revolutionary Committee, Dec. 1966, Nanjing Municipal Archives, 5020-2-8, pp. 111–122 (cited by [[w.dikotter-cultural-revolution]], 123 n.21). Check: the day.'
       tags:
       - polity:prc
       - vis:only:prc
       - form:state
       src:
-        c: 3a880a92
+        c: 6d67d505
         rows:
         - 'w.dikotter-cultural-revolution 123: all'
         - 'via w.dikotter-cultural-revolution 123 n.21: all'
@@ -2802,7 +2663,7 @@ ops:
       thread: china
       place: shanghai
       c: 'Shanghai 上海: factory administrations buy off the rebels with bonuses, wage rises and travel vouchers; some 38 million yuan, nearly twice the usual, withdrawn from the banks in the first week of January; a run on the banks, a spree, then panic buying of briquettes and cooking oil.'
-      n: '[[w.dikotter-cultural-revolution]], 126 n.26. Made public: |. To check: Jiang Hongsheng, "The Paris Commune in Shanghai" (2010), 281 (cited by [[w.dikotter-cultural-revolution]], 126 n.26a); Yiching Wu, *The Cultural Revolution at the Margins* (2014), 110 (cited by [[w.dikotter-cultural-revolution]], 126 n.26b).'
+      n: '[[w.dikotter-cultural-revolution]], 126 n.26. To check: Jiang Hongsheng, "The Paris Commune in Shanghai" (2010), 281 (cited by [[w.dikotter-cultural-revolution]], 126 n.26a); Yiching Wu, *The Cultural Revolution at the Margins* (2014), 110 (cited by [[w.dikotter-cultural-revolution]], 126 n.26b).'
       tags:
       - polity:prc
       src:
@@ -2819,7 +2680,7 @@ ops:
       thread: china-leadership
       place: shanghai
       c: 'As the Shanghai 上海 People''s Congress reports it: the city needs 3,500 tonnes of grain a day, and by New Year''s Eve its provisions do not cover a week; coal for no more than five days; around the city only women and the old left to till some fields.'
-      n: '[[w.dikotter-cultural-revolution]], 126–127 n.27. Made public: 2016 |. To check: Shanghai Municipal Archives, Jan. 1966 [sic], B250-1-1, pp. 33–38 (cited by [[w.dikotter-cultural-revolution]], 127 n.27a); Report by the People''s Congress, Jan. 4, 1967, Shanghai Municipal Archives, B248-2-4, pp. 1–3 (cited by [[w.dikotter-cultural-revolution]], 127 n.27b).'
+      n: '[[w.dikotter-cultural-revolution]], 126–127 n.27. Made public: 2016. To check: Shanghai Municipal Archives, Jan. 1966 [sic], B250-1-1, pp. 33–38 (cited by [[w.dikotter-cultural-revolution]], 127 n.27a); Report by the People''s Congress, Jan. 4, 1967, Shanghai Municipal Archives, B248-2-4, pp. 1–3 (cited by [[w.dikotter-cultural-revolution]], 127 n.27b).'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2830,3 +2691,103 @@ ops:
         - 'w.dikotter-cultural-revolution 126–127: all'
         - 'via w.dikotter-cultural-revolution 127 n.27a: all'
         - 'via w.dikotter-cultural-revolution 127 n.27b: all'
+- cite:
+    id: cal.1964.china-leadership-15
+    item: '[[w.dikotter-cultural-revolution]], 41 n.42 (at the Peking opera festival Kang Sheng, before a radiant Jiang Qing, takes Tian Han to task, denouncing his work as "poisonous weeds that are anti-party and anti-socialist")'
+- to-check:
+    id: cal.1964.china-leadership-15
+    add: Hu Jinzhao, *Wenren luonan ji* (2011), 18–20 (cited by [[w.dikotter-cultural-revolution]], 41 n.42).
+- src:
+    id: cal.1964.china-leadership-15
+    rows:
+    - 'via w.dikotter-cultural-revolution 41 n.42: ?'
+- cite:
+    id: cal.1965-01-23.china-leadership-12
+    item: '[[w.dikotter-cultural-revolution]], 47 n.12 (in January 1965, the day not given, Peng Zhen, with several members of the Peking committee, denounces the "wild criticisms" of the Peking University work team, after a second inquiry of hundreds of investigators had found the university and the city in collusion on a "bourgeois line")'
+- to-check:
+    id: cal.1965-01-23.china-leadership-12
+    add: '[[w.ping-reassessing-the-starting-point]], 66–86 (cited by [[w.dikotter-cultural-revolution]], 47 n.12).'
+- src:
+    id: cal.1965-01-23.china-leadership-12
+    rows:
+    - 'via w.dikotter-cultural-revolution 47 n.12: ?'
+- cite:
+    id: cal.1965-03-03.china-leadership-4
+    item: '[[w.dikotter-cultural-revolution]], 47 n.12 ("two months later," March 1965: Deng Xiaoping takes Peng Zhen''s side, condemning the Peking University work team for having gone too far; Kang Sheng criticized in all but name; more than sixty cadres accused of "anti-party" activities rehabilitated)'
+- to-check:
+    id: cal.1965-03-03.china-leadership-4
+    add: '[[w.ping-reassessing-the-starting-point]], 66–86 (cited by [[w.dikotter-cultural-revolution]], 47 n.12).'
+- src:
+    id: cal.1965-03-03.china-leadership-4
+    rows:
+    - 'via w.dikotter-cultural-revolution 47 n.12: ?'
+- cite:
+    id: cal.1965-09-03.china-leadership-2
+    item: '[[w.dikotter-cultural-revolution]], 44 n.6 (at the rally in the Great Hall of the People Luo Ruiqing, flanked by Liu Shaoqi and Deng Xiaoping, repeats the key points of his spring talk, the day Lin Biao''s piece appears in the *Renmin ribao*)'
+- to-check:
+    id: cal.1965-09-03.china-leadership-2
+    add: '[[w.milton-wind-will-not-subside]], 94–95 (cited by [[w.dikotter-cultural-revolution]], 44 n.6a).'
+- cite:
+    id: cal.1965-11-26.china-leadership-3
+    item: '[[w.dikotter-cultural-revolution]], 49 n.16 (after Zhou Enlai telephones him that the Chairman himself is behind the polemic, Peng Zhen, who had forbidden the Peking papers to reprint it, gives way, holding the link between Hai Rui and Peng Dehuai a purely academic matter)'
+- to-check:
+    id: cal.1965-11-26.china-leadership-3
+    add: '[[w.zhisui-private-life-of-chairman]], 440–441 (cited by [[w.dikotter-cultural-revolution]], 49 n.16a).'
+- cite:
+    id: cal.1966-06.china-leadership-26
+    item: '[[w.dikotter-cultural-revolution]], 64 n.30 (Liu Shaoqi sets a quota of 1 percent of the students and teachers of schools and universities to be denounced as rightists, some 300,000 for the country; the book gives no day; the quota and the figure from Song Yongyi, 64 n.30c)'
+- to-check:
+    id: cal.1966-06.china-leadership-26
+    add: '[[w.macfarquhar-maos-last-revolution]], 72–73 (cited by [[w.dikotter-cultural-revolution]], 64 n.30a); [[w.xiaoxia-repressive-movements-and-the]], 74 (cited by [[w.dikotter-cultural-revolution]], 64 n.30b); Song Yongyi, "Bei yancang de lishi: Liu Shaoqi dui ''wenge'' de dute gongxian" (2007) (cited by [[w.dikotter-cultural-revolution]], 64 n.30c).'
+- src:
+    id: cal.1966-06.china-leadership-26
+    rows:
+    - 'via w.dikotter-cultural-revolution 64 n.30c: ?'
+- cite:
+    id: cal.1966-12-02.china-leadership
+    item: '[[w.dikotter-cultural-revolution]], 113 n.30 (free board and travel for the Red Guards abolished only on Dec. 21, 1966)'
+- to-check:
+    id: cal.1966-12-02.china-leadership
+    add: Li Zhengan, interview, Chengdu, Apr. 2006 (cited by [[w.dikotter-cultural-revolution]], 113 n.30a); Liu Zuneng, *Wo de gushi* (2011), 330 (cited by [[w.dikotter-cultural-revolution]], 113 n.30b).
+- src:
+    id: cal.1966-12-02.china-leadership
+    rows:
+    - 'via w.dikotter-cultural-revolution 113 n.30a: ?'
+    - 'via w.dikotter-cultural-revolution 113 n.30b: ?'
+- cite:
+    id: cal.1966-09-27.china-leadership-5
+    item: '[[w.dikotter-cultural-revolution]], 115 n.1 (Wang Guanghua, a No. 6 Middle School student from a "capitalist family," seized by a control squad after returning home in late September and tortured to death for travelling without his school Red Guards'' leave)'
+- to-check:
+    id: cal.1966-09-27.china-leadership-5
+    add: 'Boyd to Wilson, "Invasion of Peking," Sept. 28, 1966, FO 371/186982 (cited by [[w.dikotter-cultural-revolution]], 115 n.1a); Wang Duanyang, *Yige hongweibing de riji* (2007), 62 (cited by [[w.dikotter-cultural-revolution]], 115 n.1b); Wang Youqin, "Student Attacks against Teachers: The Revolution of 1966," *Issues and Studies* 37, no. 2 (Mar. 2001), 29–79 (cited by [[w.dikotter-cultural-revolution]], 115 n.1c).'
+- src:
+    id: cal.1966-09-27.china-leadership-5
+    rows:
+    - 'via w.dikotter-cultural-revolution 115 n.1a: ?'
+    - 'via w.dikotter-cultural-revolution 115 n.1b: ?'
+- variant:
+    id: cal.1964-06-08.china-leadership
+    unit: A
+    witness: w.dikotter-cultural-revolution
+    reads: 8 July 1964 (citing Pang and Jin, Mao Zedong zhuan, 1949–1976, 1345)
+    at: 22 n.25
+- cite:
+    id: cal.1966-07-19.china-leadership-3
+    item: '[[w.dikotter-cultural-revolution]], 67 n.3 (Liu Shaoqi summoned to Diaoyutai the day after Mao''s return; Mao opens fire: aggrieved since his return, the place "cold and cheerless," some colleges closed, some suppressing the student movement; the note, after Ye Yonglie, says other historians date the encounter July 24)'
+- to-check:
+    id: cal.1966-07-19.china-leadership-3
+    add: Ye Yonglie, *Chen Boda zhuan* (1993), 305 (cited by [[w.dikotter-cultural-revolution]], 67 n.3).
+- src:
+    id: cal.1966-07-19.china-leadership-3
+    rows:
+    - 'via w.dikotter-cultural-revolution 67 n.3: ?'
+- cite:
+    id: cal.1967-12.china-leadership
+    item: '[[w.dikotter-cultural-revolution]], 114 n.31 (after Fan Ka Wai: by the time the epidemic was brought under control more than 160,000 dead; the United States offered help and China did not respond, the day not given)'
+- to-check:
+    id: cal.1967-12.china-leadership
+    add: Fan Ka Wai, "Epidemic Cerebrospinal Meningitis during the Cultural Revolution," *Extrême-Orient, Extrême-Occident* 37 (Sept. 2014), 197–232 (cited by [[w.dikotter-cultural-revolution]], 114 n.31).
+- src:
+    id: cal.1967-12.china-leadership
+    rows:
+    - 'via w.dikotter-cultural-revolution 114 n.31: ?'

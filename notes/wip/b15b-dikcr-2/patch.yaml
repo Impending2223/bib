@@ -1,0 +1,969 @@
+patch: 2026-11-21-b15b-dikcr-2
+by: 'Claude (batch 15b, Dikotter, The Cultural Revolution, run 2: ch. 11-19, Jan. 1967-Jan. 1970), Nov. 21, 2026'
+ops:
+- edit:
+    id: cal.1967-02-05.china-leadership-2
+    base: 6ec04b21
+    set:
+      time_range:
+      - 1967-02-05T04:00Z
+      - 1967-02-05T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- place-key:
+    key: zhengding
+    name: Zhengding
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: fujian
+    name: Fujian
+    zone: Asia/Shanghai
+    in: prc
+- add:
+    entry:
+      id: cal.1967-01-04.china-leadership-15
+      when: Jan. 4–5
+      date: '1967-01-04'
+      thread: china-leadership
+      place: peking
+      c: 'Peking 北京, the Workers'' Stadium: Luo Ruiqing 罗瑞卿, unable to walk since his attempt at suicide, his left leg bandaged, carried in a basket before two days of Red Guard delegations voicing their hatred on the stage. Photographs of Luo, held in the jet-plane position by two soldiers, widely disseminated.'
+      'n': '[[w.dikotter-cultural-revolution]], 128–129 n.1. To check: Wang Chenglin, *Chongqing zalan gong, jian, fa qinli ji* (2003), 20–40 (cited by [[w.dikotter-cultural-revolution]], 129 n.1a); Douwe W. Fokkema, *Report from Peking* (1971), 62 (cited by [[w.dikotter-cultural-revolution]], 129 n.1b). The time is the first day''s. Names: Luo Ruiqing. Check: whether one meeting with Peng Zhen''s at the Workers'' Gymnasium the same day ([[cal.1967-01-04.china-leadership-12]]).'
+      tags:
+      - polity:prc
+      - name:luo-ruiqing
+      src:
+        c: 7c5a489e
+        rows:
+        - 'w.dikotter-cultural-revolution 128–129: all'
+        - 'via w.dikotter-cultural-revolution 129 n.1a: all'
+        - 'via w.dikotter-cultural-revolution 129 n.1b: all'
+- add:
+    entry:
+      id: cal.1967-01-20.china-leadership-8
+      when: Jan. 20
+      date: '1967-01-20'
+      thread: china-leadership
+      c: 'Shanxi 山西: the provincial military commander who backed Liu Geping''s big-character poster announcing a rebel seizure of power at Taiyuan, the two facing opposition from their colleagues, writes to Lin Biao for his support.'
+      'n': '[[w.dikotter-cultural-revolution]], 129 n.3. Made public: 2016 at the latest. To check: Zhang Guanghua, *Zhenshi de huiyi* (2010), 232 (cited by [[w.dikotter-cultural-revolution]], 129 n.3a); Liu Zuneng, *Wo de gushi* (2011), 351–353 (cited by [[w.dikotter-cultural-revolution]], 129 n.3b); [[w.macfarquhar-maos-last-revolution]], 170–171 (cited by [[w.dikotter-cultural-revolution]], 129 n.3c). See [[cal.1967-01-12.china-leadership-7]]. Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - ok:fields-place
+      src:
+        c: d7e4a713
+        rows:
+        - 'w.dikotter-cultural-revolution 129: all'
+        - 'via w.dikotter-cultural-revolution 129 n.3a: all'
+        - 'via w.dikotter-cultural-revolution 129 n.3b: all'
+- add:
+    entry:
+      id: cal.1967-01-22.china
+      when: Jan. 22
+      date: '1967-01-22'
+      thread: china
+      place: shanghai
+      c: 'Shanghai 上海, by revolutionary decree: all parks closed, against their use by counter-revolutionaries; the cinemas shut; the museum closed; the Great World amusement arcade, renamed East is Red, locked.'
+      'n': '[[w.dikotter-cultural-revolution]], 131 n.8. To check: P. M. Hewitt, "Letter from Shanghai," Jan. 31, 1967, FCO 21-8, Public Record Office (cited by [[w.dikotter-cultural-revolution]], 131 n.8).'
+      tags:
+      - polity:prc
+      src:
+        c: c3f54629
+        rows:
+        - 'w.dikotter-cultural-revolution 131: all'
+        - 'via w.dikotter-cultural-revolution 131 n.8: all'
+- add:
+    entry:
+      id: cal.1967-01-24.china
+      when: Jan. 24
+      date: '1967-01-24'
+      thread: china
+      place: shanghai
+      c: 'Shanghai 上海: more than a dozen lorries loaded with soldiers chanting slogans and waving the Little Red Book roll down Nanjing Road.'
+      'n': '[[w.dikotter-cultural-revolution]], 131 n.8. To check: P. M. Hewitt, "Letter from Shanghai," Jan. 31, 1967, FCO 21-8, Public Record Office (cited by [[w.dikotter-cultural-revolution]], 131 n.8). See [[cal.1967-01-22.china]].'
+      tags:
+      - polity:prc
+      src:
+        c: c1e1173b
+        rows:
+        - 'w.dikotter-cultural-revolution 131: all'
+        - 'via w.dikotter-cultural-revolution 131 n.8: all'
+- add:
+    entry:
+      id: cal.1967-01-27.china-2
+      when: Jan. 27
+      date: '1967-01-27'
+      thread: china
+      place: shanghai
+      c: 'Shanghai 上海: pamphlets airdropped over the city: the People''s Liberation Army the most important tool of the Cultural Revolution; all genuine revolutionaries to support it.'
+      'n': '[[w.dikotter-cultural-revolution]], 131 n.8. To check: P. M. Hewitt, "Letter from Shanghai," Jan. 31, 1967, FCO 21-8, Public Record Office (cited by [[w.dikotter-cultural-revolution]], 131 n.8). See [[cal.1967-01-22.china]].'
+      tags:
+      - polity:prc
+      src:
+        c: 2666701d
+        rows:
+        - 'w.dikotter-cultural-revolution 131: all'
+        - 'via w.dikotter-cultural-revolution 131 n.8: all'
+- add:
+    entry:
+      id: cal.1967-01.china-4
+      when: Jan.
+      date: '1967-01'
+      thread: china
+      place: shanghai
+      c: 'Shanghai 上海: the army takes over the Shanghai Radio Station, less than a week after rebel workers stormed it.'
+      'n': '[[w.dikotter-cultural-revolution]], 131 n.8. To check: P. M. Hewitt, "Letter from Shanghai," Jan. 31, 1967, FCO 21-8, Public Record Office (cited by [[w.dikotter-cultural-revolution]], 131 n.8). See [[cal.1967-01-22.china]]. Check: the day.'
+      tags:
+      - polity:prc
+      src:
+        c: abdc9909
+        rows:
+        - 'w.dikotter-cultural-revolution 131: all'
+        - 'via w.dikotter-cultural-revolution 131 n.8: all'
+- add:
+    entry:
+      id: cal.1967-01.china-leadership-41
+      when: Jan., late
+      date: '1967-01'
+      at: before 1967-01-21
+      thread: china-leadership
+      place: shanghai
+      c: 'Shanghai 上海: Zhang Chunqiao 张春桥, stressing discipline and obedience and reading out Lin Biao''s instructions, turns on his former allies: raids on them; a detachment of soldiers sent to Fudan University to occupy the offices of a rival organization; a run of directives ordering members of revolutionary organizations back to work.'
+      'n': '[[w.dikotter-cultural-revolution]], 131 n.9. To check: [[w.hunter-shanghai-journal]], 232–243 (cited by [[w.dikotter-cultural-revolution]], 131 n.9). Names: Zhang Chunqiao, Lin Biao. Check: the day.'
+      tags:
+      - polity:prc
+      - name:zhang-chunqiao
+      - name:lin-biao
+      src:
+        c: a4c1513f
+        rows:
+        - 'w.dikotter-cultural-revolution 131: all'
+- add:
+    entry:
+      id: cal.1967-01.china-5
+      when: Jan., by the 31st
+      date: '1967-01'
+      at: before 1967-01-31
+      thread: china
+      place: shihezi
+      c: 'Shihezi 石河子, Xinjiang 新疆: the military, siding with the old order, assaults rebel organizations it portrays as remnants of the Nationalist party and bad elements; by the end of January dozens mown down by machine guns.'
+      'n': '[[w.dikotter-cultural-revolution]], 133 n.14. To check: Song Yongyi, "Chronology of Mass Killings during the Chinese Cultural Revolution (1966–1976)," *Online Encyclopedia of Mass Violence*, Aug. 25, 2011 (cited by [[w.dikotter-cultural-revolution]], 133 n.14). Check: the day.'
+      tags:
+      - polity:prc
+      src:
+        c: 01cfff7b
+        rows:
+        - 'w.dikotter-cultural-revolution 133: all'
+        - 'via w.dikotter-cultural-revolution 133 n.14: all'
+- add:
+    entry:
+      id: cal.1967.china-3
+      when: 1967, early
+      date: '1967'
+      at: before 1967-01
+      thread: china
+      place: hunan
+      c: 'As Dikötter has it: the Xiang River Group (Xiangjiang Fenglei), a loose coalition of rebel bodies formed after Mao''s call of October to "educate and liberate themselves," agitating for those branded counter-revolutionaries and rightists at Changsha in August 1966, claims a membership of 1 million all over Hunan 湖南: workers, teachers, shop assistants, government employees, local cadres.'
+      'n': '[[w.dikotter-cultural-revolution]], 133 n.15. To check: Yiching Wu, *The Cultural Revolution at the Margins* (2014), 151–152 (cited by [[w.dikotter-cultural-revolution]], 133 n.15a); Wang Guangyu, *Qingshi nanyin* (2011), 142 (cited by [[w.dikotter-cultural-revolution]], 133 n.15b); Chen Yinan, *Qingchun wuhen* (2006), 97–108 (cited by [[w.dikotter-cultural-revolution]], 133 n.15c); Yu Xiguang, "Hunan," in *Wenge zaofan duoquan dadian*, web text (cited by [[w.dikotter-cultural-revolution]], 133 n.15d). See [[cal.1967-02.china-leadership-31]].'
+      tags:
+      - polity:prc
+      - form:state
+      src:
+        c: 3b38d134
+        rows:
+        - 'w.dikotter-cultural-revolution 133: all'
+        - 'via w.dikotter-cultural-revolution 133 n.15a: all'
+        - 'via w.dikotter-cultural-revolution 133 n.15b: all'
+        - 'via w.dikotter-cultural-revolution 133 n.15c: all'
+        - 'via w.dikotter-cultural-revolution 133 n.15d: all'
+- add:
+    entry:
+      id: cal.1967.china-7
+      when: 1967, early
+      date: '1967'
+      at: before 1967-01
+      thread: china
+      place: fujian
+      c: 'Fujian 福建: some mass organizations, until now in close touch with the military command under Han Xianchu, denounce it as an adherent of the bourgeois reactionary line and demand that Han step down; rumours that Chen Boda is secretly encouraging them.'
+      'n': '[[w.dikotter-cultural-revolution]], 134 n.16. To check: Ken Ling, *The Revenge of Heaven* (1972), 254–298 (cited by [[w.dikotter-cultural-revolution]], 134 n.16a); Shui Luzhou, *Wenge jianlun*, web version, ch. 46 (cited by [[w.dikotter-cultural-revolution]], 134 n.16b). Names: Chen Boda. Check: the month.'
+      tags:
+      - polity:prc
+      - name:chen-boda
+      src:
+        c: f44a0e82
+        rows:
+        - 'w.dikotter-cultural-revolution 134: all'
+        - 'via w.dikotter-cultural-revolution 134 n.16a: all'
+        - 'via w.dikotter-cultural-revolution 134 n.16b: all'
+- add:
+    entry:
+      id: cal.1967.china-4
+      when: 1967, early
+      date: '1967'
+      at: before 1967-01
+      thread: china
+      place: xiamen
+      c: 'Xiamen 厦门: after the call to seize power Ken Ling and the rebels beat the municipal Party committee and its defenders and set up the Xiamen People''s Commune, on Shanghai''s lead; within days whole sections of the local government hand power over to them.'
+      'n': '[[w.dikotter-cultural-revolution]], 134 n.16. To check: Ken Ling, *The Revenge of Heaven* (1972), 254–298 (cited by [[w.dikotter-cultural-revolution]], 134 n.16a); Shui Luzhou, *Wenge jianlun*, web version, ch. 46 (cited by [[w.dikotter-cultural-revolution]], 134 n.16b). Check: the month.'
+      tags:
+      - polity:prc
+      src:
+        c: a798b0b3
+        rows:
+        - 'w.dikotter-cultural-revolution 134: all'
+        - 'via w.dikotter-cultural-revolution 134 n.16a: all'
+        - 'via w.dikotter-cultural-revolution 134 n.16b: all'
+- add:
+    entry:
+      id: cal.1967.china-5
+      when: 1967, early
+      date: '1967'
+      at: before 1967-01
+      thread: china
+      place: xiamen
+      c: 'Xiamen 厦门: rebels, rebel workers and local gangs storm the three-storey Public Security Bureau, held by the royalists with the local police behind them, ripping off the policemen''s badges; more than a hundred injured.'
+      'n': '[[w.dikotter-cultural-revolution]], 134 n.16. To check: Ken Ling, *The Revenge of Heaven* (1972), 254–298 (cited by [[w.dikotter-cultural-revolution]], 134 n.16a); Shui Luzhou, *Wenge jianlun*, web version, ch. 46 (cited by [[w.dikotter-cultural-revolution]], 134 n.16b). See [[cal.1967.china-4]]. Check: the month.'
+      tags:
+      - polity:prc
+      src:
+        c: dfcd3d8b
+        rows:
+        - 'w.dikotter-cultural-revolution 134: all'
+        - 'via w.dikotter-cultural-revolution 134 n.16a: all'
+        - 'via w.dikotter-cultural-revolution 134 n.16b: all'
+- add:
+    entry:
+      id: cal.1967.china-6
+      when: 1967, early
+      date: '1967'
+      at: before 1967-01
+      thread: china
+      place: xiamen
+      c: 'Xiamen 厦门: Han Xianchu and the provincial military command condemning the attack on the Public Security Bureau, the military in Xiamen orders the rebels to surrender; hundreds arrested and tried in public on the square before the Workers'' Palace of Culture, the rebels'' headquarters. Ken Ling, on a blacklist, flees the province.'
+      'n': '[[w.dikotter-cultural-revolution]], 134 n.16. To check: Ken Ling, *The Revenge of Heaven* (1972), 254–298 (cited by [[w.dikotter-cultural-revolution]], 134 n.16a); Shui Luzhou, *Wenge jianlun*, web version, ch. 46 (cited by [[w.dikotter-cultural-revolution]], 134 n.16b). See [[cal.1967.china-4]]. Check: the month.'
+      tags:
+      - polity:prc
+      src:
+        c: a9e6b792
+        rows:
+        - 'w.dikotter-cultural-revolution 134: all'
+        - 'via w.dikotter-cultural-revolution 134 n.16a: all'
+        - 'via w.dikotter-cultural-revolution 134 n.16b: all'
+- add:
+    entry:
+      id: cal.1967-02.china-2
+      when: Feb., after the 23rd
+      date: '1967-02'
+      at: after 1967-02-23
+      thread: china
+      place: qinghai
+      c: 'Qinghai 青海: in the week after the army''s assault on the *Qinghai Daily* some 10,000 people arrested, many of them tried as counter-revolutionaries and sent off to the camps.'
+      'n': '[[w.dikotter-cultural-revolution]], 135 n.17. To check: Ding Shu, "L''Événement du 23 février au Qinghai," in Song Yongyi, *Les Massacres de la Révolution Culturelle* (2009), 67–88 (cited by [[w.dikotter-cultural-revolution]], 135 n.17a); Liu Guokai, *A Brief Analysis of the Cultural Revolution* (1987), 61 (cited by [[w.dikotter-cultural-revolution]], 135 n.17b). See [[cal.1967-02-23.china-leadership-4]].'
+      tags:
+      - polity:prc
+      src:
+        c: b0cd37ec
+        rows:
+        - 'w.dikotter-cultural-revolution 135: all'
+        - 'via w.dikotter-cultural-revolution 135 n.17a: all'
+        - 'via w.dikotter-cultural-revolution 135 n.17b: all'
+- add:
+    entry:
+      id: cal.1967-02.china-leadership-46
+      when: Feb., after the 16th
+      date: '1967-02'
+      at: after 1967-02-16
+      thread: china-leadership
+      c: Mao, having won Lin Biao over against the marshals, orders the Cultural Revolution Group to stop circulating any document critical of Zhou Enlai.
+      'n': '[[w.dikotter-cultural-revolution]], 137 n.20. Made public: 2007 at the latest. To check: Gao Wenqian, *Zhou Enlai: The Last Perfect Revolutionary* (2007), 159 (cited by [[w.dikotter-cultural-revolution]], 137 n.20). See [[cal.1967-02-16.china-leadership]]. Names: Mao Zedong, Lin Biao, Zhou Enlai. Check: the day.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - name:lin-biao
+      - name:zhou-enlai
+      - ok:fields-place
+      src:
+        c: b7cb902f
+        rows:
+        - 'w.dikotter-cultural-revolution 137: all'
+        - 'via w.dikotter-cultural-revolution 137 n.20: all'
+- add:
+    entry:
+      id: cal.1967-03.china-leadership-39
+      when: Mar.
+      date: '1967-03'
+      thread: china-leadership
+      c: 'Zhou Enlai to Jiang Qing, the marshals'' opposition broken and the Cultural Revolution Group running the show: "From now on you make all the decisions, and I will make sure that they are carried out."'
+      'n': '[[w.dikotter-cultural-revolution]], 138 n.22. Made public: 2007 at the latest. To check: Gao Wenqian, *Zhou Enlai: The Last Perfect Revolutionary* (2007), 164 (cited by [[w.dikotter-cultural-revolution]], 138 n.22). See [[cal.1967-02-25.china-leadership-5]]. Names: Zhou Enlai, Jiang Qing. Check: the day.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:jiang-qing
+      src:
+        c: 2dd7665d
+        rows:
+        - 'w.dikotter-cultural-revolution 138: all'
+        - 'via w.dikotter-cultural-revolution 138 n.22: all'
+- add:
+    entry:
+      id: cal.1967-03.china-leadership-40
+      when: Mar., after the 8th
+      date: '1967-03'
+      at: after 1967-03-08
+      thread: china-leadership
+      c: Ye Jianying and Xu Xiangqian, Mao having turned against the suppression in Qinghai, are made to write self-criticisms accepting that their handling of Qinghai was a serious error.
+      'n': '[[w.dikotter-cultural-revolution]], 138 n.23. Made public: 2009 at the latest. To check: Ding Shu, "L''Événement du 23 février au Qinghai," in Song Yongyi, *Les Massacres de la Révolution Culturelle* (2009), 86–87 (cited by [[w.dikotter-cultural-revolution]], 138 n.23a); Xue Tingchen, *Wuhui rensheng* (2011), 180–193 (cited by [[w.dikotter-cultural-revolution]], 138 n.23b). See [[cal.1967-03-11.china-leadership]]. Names: Ye Jianying, Xu Xiangqian. Check: the day.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-jianying
+      - name:xu-xiangqian
+      - ok:fields-place
+      src:
+        c: ee01c482
+        rows:
+        - 'w.dikotter-cultural-revolution 138: all'
+        - 'via w.dikotter-cultural-revolution 138 n.23a: all'
+        - 'via w.dikotter-cultural-revolution 138 n.23b: all'
+- add:
+    entry:
+      id: cal.1967-03.china-2
+      when: Mar.
+      date: '1967-03'
+      thread: china
+      place: peking
+      c: 'Peking: a military team arrives at Zhai Zhenhua''s school and, holding no meeting with the Red Guards, tells the gathered students that the Red Guards helped the work teams push the bourgeois reactionary line, persecuting students of bad class background instead of the capitalist roaders; the students are told to rise against them, the Red Guards made to confess their errors in class; a new set of student leaders under a platoon leader.'
+      'n': '[[w.dikotter-cultural-revolution]], 139 n.25. To check: [[w.zhenhua-red-flower-of-china]], 119 (cited by [[w.dikotter-cultural-revolution]], 139 n.25). Check: the day.'
+      tags:
+      - polity:prc
+      src:
+        c: 8485e718
+        rows:
+        - 'w.dikotter-cultural-revolution 139: all'
+- add:
+    entry:
+      id: cal.1967.china-8
+      when: 1967, spring
+      date: '1967'
+      at: before 1967-03-21
+      thread: china
+      place: zhengding
+      c: 'Zhengding: thirty-six soldiers with backpacks march into Gao Yuan''s school; the students, back in one room for the first time since September, drilled on the sports field each day from before dawn; much time given to Mao Zedong Thought.'
+      'n': '[[w.dikotter-cultural-revolution]], 139 n.26. To check: [[w.yuan-born-red]], 200–202 (cited by [[w.dikotter-cultural-revolution]], 139 n.26). Check: the month.'
+      tags:
+      - polity:prc
+      - ok:fields-time
+      src:
+        c: 8f660fdc
+        rows:
+        - 'w.dikotter-cultural-revolution 139: all'
+- add:
+    entry:
+      id: cal.1967.china-9
+      when: 1967, spring
+      date: '1967'
+      at: before 1967-03-21
+      thread: china
+      place: peking
+      c: 'As Fokkema reports it: in the capital posters and slogans taken off the buses and shop windows scraped clean; a few young couples walk hand in hand; people sit in the sun on their doorsteps, a few play badminton in the side streets.'
+      'n': '[[w.dikotter-cultural-revolution]], 139 n.27. To check: Douwe W. Fokkema, *Report from Peking* (1971), 79–80 (cited by [[w.dikotter-cultural-revolution]], 139 n.27).'
+      tags:
+      - polity:prc
+      - form:state
+      src:
+        c: dd5648aa
+        rows:
+        - 'w.dikotter-cultural-revolution 139: all'
+        - 'via w.dikotter-cultural-revolution 139 n.27: all'
+- add:
+    entry:
+      id: cal.1967-03.china-leadership-41
+      when: Mar., by the 21st
+      date: '1967-03'
+      at: before 1967-03-21
+      thread: china-leadership
+      place: shanghai
+      c: 'As Shanghai reports have it: less than half of the city''s schools escaped major destruction and one in five must be written off; classes, where resumed, intermittent, some schools open two or three hours a week; at the Ningbo Road and Nanjing East Road Primary Schools gangs of pupils ("Tokyo," "Field Army") steal light bulbs, telephones, microphones, bicycles, locks, windowpanes and cables, and beat people up for a fee, 10 yuan a victim in March; teachers spat at, excrement thrown on them from the upper floors.'
+      'n': '[[w.dikotter-cultural-revolution]], 139–140 n.28. Made public: 2016. To check: Shanghai Municipal Archives, Mar. 4, 16 and 21, 1967, B105-4-58, pp. 1–3, 36–37 and 74–76 (cited by [[w.dikotter-cultural-revolution]], 140 n.28). Check: the day.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - form:state
+      src:
+        c: 5897a290
+        rows:
+        - 'w.dikotter-cultural-revolution 140: all'
+        - 'via w.dikotter-cultural-revolution 140 n.28: all'
+- add:
+    entry:
+      id: cal.1967-04-07.china-2
+      when: Apr. 7
+      date: '1967-04-07'
+      thread: china
+      place: peking
+      c: 'Peking: the *Beijing ribao* opens fire on Liu Shaoqi, under house arrest since August 1966.'
+      'n': '[[w.dikotter-cultural-revolution]], 141 n.32. To check: Wang Guangyu, *Qingshi nanyin* (2011), 144–147 (cited by [[w.dikotter-cultural-revolution]], 141 n.32a); [[w.zhenhua-red-flower-of-china]], 126 (cited by [[w.dikotter-cultural-revolution]], 141 n.32b); Ken Ling, *The Revenge of Heaven* (1972), 214–215 (cited by [[w.dikotter-cultural-revolution]], 141 n.32c). See [[cal.1967-04.china-leadership-2]]. Names: Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - name:liu-shaoqi
+      src:
+        c: 9f4d3800
+        rows:
+        - 'w.dikotter-cultural-revolution 141: all'
+        - 'via w.dikotter-cultural-revolution 141 n.32a: all'
+        - 'via w.dikotter-cultural-revolution 141 n.32c: all'
+- add:
+    entry:
+      id: cal.1967-04.china-2
+      when: Apr.
+      date: '1967-04'
+      thread: china
+      place: zhengding
+      c: 'Zhengding: the students of Gao Yuan''s school given copies of a *Hongqi* article criticizing Liu Shaoqi; Gao and his schoolmates write posters against him.'
+      'n': '[[w.dikotter-cultural-revolution]], 141 n.33. To check: [[w.yuan-born-red]], 203 (cited by [[w.dikotter-cultural-revolution]], 141 n.33). Names: Liu Shaoqi. Check: the day.'
+      tags:
+      - polity:prc
+      - name:liu-shaoqi
+      src:
+        c: a3a34ef7
+        rows:
+        - 'w.dikotter-cultural-revolution 141: all'
+- add:
+    entry:
+      id: cal.1967-07.china-5
+      when: July, mid
+      date: '1967-07'
+      at: before 1967-07-11
+      thread: china
+      place: zhengding
+      c: 'Zhengding: Gao Yuan''s faction, backed by a missile-engineering institute under the General Staff, besieges its opponents, backed by the military command at Shijiazhuang, in a building of the Public Security Bureau, with catapults shooting bricks into the compound; a schoolmate of Gao''s on the other side throws herself from a third-floor window wrapped in her organization''s red flag, shouting "Long live Chairman Mao!" A white flag goes up; the resistance ends.'
+      'n': '[[w.dikotter-cultural-revolution]], 143–144 n.37. To check: [[w.yuan-born-red]], 251 (cited by [[w.dikotter-cultural-revolution]], 144 n.37). Check: the day; by mid-July the opposition had been driven into the building.'
+      tags:
+      - polity:prc
+      src:
+        c: 13d3a581
+        rows:
+        - 'w.dikotter-cultural-revolution 144: all'
+- add:
+    entry:
+      id: cal.1965.china-leadership-30
+      when: '1965'
+      date: '1965'
+      thread: china-leadership
+      c: Zhang Xiting and her husband Liu Jieting, cadres at Yibin, Sichuan, who used their posts for persecutions and vendettas and caused starvation across the county, silencing critics of the famine, are expelled from the Party.
+      'n': '[[w.dikotter-cultural-revolution]], 144–145 n.39. Made public: 1991 at the latest. To check: [[w.chang-wild-swans]], 435 (cited by [[w.dikotter-cultural-revolution]], 145 n.39).'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+      src:
+        c: 7710daca
+        rows:
+        - 'w.dikotter-cultural-revolution 145: all'
+- add:
+    entry:
+      id: cal.1967-03.china-leadership-42
+      when: Mar.
+      date: '1967-03'
+      thread: china-leadership
+      c: Zhang Xiting and Liu Jieting, expelled from the Party in 1965, appeal to Chen Boda, who introduces them to Jiang Qing; they are rehabilitated and empowered to organize a Sichuan Revolutionary Committee.
+      'n': '[[w.dikotter-cultural-revolution]], 145 n.39. Made public: 1991 at the latest. To check: [[w.chang-wild-swans]], 435 (cited by [[w.dikotter-cultural-revolution]], 145 n.39). See [[cal.1965.china-leadership-30]]. Names: Chen Boda, Jiang Qing. Check: the day.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:chen-boda
+      - name:jiang-qing
+      - ok:fields-place
+      src:
+        c: 483488bf
+        rows:
+        - 'w.dikotter-cultural-revolution 145: all'
+- add:
+    entry:
+      id: cal.1967-04.china-3
+      when: Apr.–May
+      date: '1967-04'
+      thread: china
+      place: chengdu
+      c: 'Chengdu 成都: hundreds wounded in battles between the two factions; Jung Chang sees processions of tens of thousands of rebels carrying the bloody corpses of the dead; in the city of the arms industry some workers fight with hand grenades, automatic rifles, mortars and rocket-propelled grenade launchers.'
+      'n': '[[w.dikotter-cultural-revolution]], 145. Check: the days.'
+      tags:
+      - polity:prc
+      src:
+        c: b22cba91
+        rows:
+        - 'w.dikotter-cultural-revolution 145: all'
+- add:
+    entry:
+      id: cal.1967-04.china-4
+      when: Apr.–May
+      date: '1967-04'
+      thread: china
+      place: chengdu
+      c: 'Chengdu 成都: Jung Chang''s father, who had incurred the wrath of Zhang Xiting and Liu Jieting, arrested, denounced and paraded through the streets.'
+      'n': '[[w.dikotter-cultural-revolution]], 145. See [[cal.1967-04.china-3]]. Check: the day.'
+      tags:
+      - polity:prc
+      src:
+        c: 3a6f8ff4
+        rows:
+        - 'w.dikotter-cultural-revolution 145: all'
+- cite:
+    id: cal.1967-01-11.china-leadership-6
+    item: '[[w.dikotter-cultural-revolution]], 129 n.2 (the State Council turns to soldiers for law enforcement, banks being forced to remit funds to mass organizations: on Jan. 11 soldiers with machine guns begin to appear on their premises)'
+- to-check:
+    id: cal.1967-01-11.china-leadership-6
+    add: Report from the Center, Jan. 11, 1967, Hebei Provincial Archives, 921-5-3, p. 41 (cited by [[w.dikotter-cultural-revolution]], 129 n.2a).
+- src:
+    id: cal.1967-01-11.china-leadership-6
+    rows:
+    - 'via w.dikotter-cultural-revolution 129 n.2a: ?'
+- cite:
+    id: cal.1967-01-11.china-leadership-7
+    item: '[[w.dikotter-cultural-revolution]], 129 n.2 (the next day soldiers ordered to take over public security at radio stations, prisons, wharves, granaries and key bridges across the country)'
+- to-check:
+    id: cal.1967-01-11.china-leadership-7
+    add: Report from the Center, Jan. 11, 1967, Hebei Provincial Archives, 921-5-3, p. 41 (cited by [[w.dikotter-cultural-revolution]], 129 n.2a).
+- src:
+    id: cal.1967-01-11.china-leadership-7
+    rows:
+    - 'via w.dikotter-cultural-revolution 129 n.2a: ?'
+- check:
+    id: cal.1967-01-11.china-leadership-7
+    text: 'Check: the day; [[w.dikotter-cultural-revolution]], 129, has the order of Jan. 12.'
+- cite:
+    id: cal.1967-01-12.china-leadership-7
+    item: '[[w.dikotter-cultural-revolution]], 129 n.3 (Liu Geping, deputy governor of Shanxi and close to Kang Sheng, in Peking when Wang Hongwen stormed the Shanghai city hall; Kang urges him on: Mao backs the rebels and hopes for a string of such revolutions; Liu hurries back to Taiyuan and, with one of the provincial military commanders, puts up a poster announcing a rebel seizure of power)'
+- to-check:
+    id: cal.1967-01-12.china-leadership-7
+    add: Zhang Guanghua, *Zhenshi de huiyi* (2010), 232 (cited by [[w.dikotter-cultural-revolution]], 129 n.3a).
+- to-check:
+    id: cal.1967-01-12.china-leadership-7
+    add: Liu Zuneng, *Wo de gushi* (2011), 351–353 (cited by [[w.dikotter-cultural-revolution]], 129 n.3b).
+- src:
+    id: cal.1967-01-12.china-leadership-7
+    rows:
+    - 'via w.dikotter-cultural-revolution 129 n.3a: ?'
+    - 'via w.dikotter-cultural-revolution 129 n.3b: ?'
+- cite:
+    id: cal.1967-01-25.china-leadership-4
+    item: '[[w.dikotter-cultural-revolution]], 129 n.3 (the *Renmin ribao* celebrates the country''s second seizure of power, a sign from Lin Biao having tipped the balance)'
+- to-check:
+    id: cal.1967-01-25.china-leadership-4
+    add: Zhang Guanghua, *Zhenshi de huiyi* (2010), 232 (cited by [[w.dikotter-cultural-revolution]], 129 n.3a).
+- to-check:
+    id: cal.1967-01-25.china-leadership-4
+    add: Liu Zuneng, *Wo de gushi* (2011), 351–353 (cited by [[w.dikotter-cultural-revolution]], 129 n.3b).
+- src:
+    id: cal.1967-01-25.china-leadership-4
+    rows:
+    - 'via w.dikotter-cultural-revolution 129 n.3a: ?'
+    - 'via w.dikotter-cultural-revolution 129 n.3b: ?'
+- cite:
+    id: cal.1967-01-21.china-leadership
+    item: '[[w.dikotter-cultural-revolution]], 129 n.4 (the request from Anhui reaches the Cultural Revolution Group on Jan. 21: some 200,000 rebels about to denounce the provincial committee at a mass meeting fear failure without the army; Mao''s note to Lin Biao: "The military must be sent to support the broad masses on the left"; the neutral attitude "fake"; Lin agrees)'
+- to-check:
+    id: cal.1967-01-21.china-leadership
+    add: Zhang Guanghua, *Zhenshi de huiyi* (2010), 232 (cited by [[w.dikotter-cultural-revolution]], 129 n.4b).
+- src:
+    id: cal.1967-01-21.china-leadership
+    rows:
+    - 'via w.dikotter-cultural-revolution 129 n.4b: ?'
+- cite:
+    id: cal.1967-01-23.china-leadership
+    item: '[[w.dikotter-cultural-revolution]], 129 n.4 (two days after Mao''s note the army ordered to send troops wherever the proletarian left asks for help; on Sept. 5, 1966 the armed forces had been told to stay out of the Cultural Revolution)'
+- to-check:
+    id: cal.1967-01-23.china-leadership
+    add: Zhang Guanghua, *Zhenshi de huiyi* (2010), 232 (cited by [[w.dikotter-cultural-revolution]], 129 n.4b).
+- src:
+    id: cal.1967-01-23.china-leadership
+    rows:
+    - 'via w.dikotter-cultural-revolution 129 n.4b: ?'
+- cite:
+    id: cal.1966-12-24.china-leadership-2
+    item: '[[w.dikotter-cultural-revolution]], 130 n.5 (in December Peng Dehuai hunted down in Sichuan and brought back to Peking by Red Guards acting on Jiang Qing''s orders; dragged out of prison to struggle meetings; a bystander sees him in an open lorry, a student hitting him on the neck to make him bow)'
+- to-check:
+    id: cal.1966-12-24.china-leadership-2
+    add: Pamela Tan, *The Chinese Factor* (2008), 132 (cited by [[w.dikotter-cultural-revolution]], 130 n.5).
+- src:
+    id: cal.1966-12-24.china-leadership-2
+    rows:
+    - 'via w.dikotter-cultural-revolution 130 n.5: ?'
+- cite:
+    id: cal.1966-12.china-leadership-3
+    item: '[[w.dikotter-cultural-revolution]], 130 n.6 (in December dozens of Red Guards try to track He Long down; Zhou Enlai shelters him in his own residence)'
+- to-check:
+    id: cal.1966-12.china-leadership-3
+    add: 'Gao Wenqian, *Zhou Enlai: The Last Perfect Revolutionary* (2007), 145–147 (cited by [[w.dikotter-cultural-revolution]], 130 n.6).'
+- src:
+    id: cal.1966-12.china-leadership-3
+    rows:
+    - 'via w.dikotter-cultural-revolution 130 n.6: ?'
+- cite:
+    id: cal.1967-01-25.china-leadership-5
+    item: '[[w.dikotter-cultural-revolution]], 130 n.7 (Xu Xiangqian, Ye Jianying and other marshals demand that order be restored first within the military; Lin Biao submits to Mao a document drafted with the veterans, shielding the army from rebel assaults and letting it take "resolute measures" against proven counter-revolutionaries and their organizations)'
+- to-check:
+    id: cal.1967-01-25.china-leadership-5
+    add: '[[w.xianzhi-mao-zedong-zhuan-1949]], 1474–1475 (cited by [[w.dikotter-cultural-revolution]], 130 n.7a).'
+- to-check:
+    id: cal.1967-01-25.china-leadership-5
+    add: Liu Guokai, *A Brief Analysis of the Cultural Revolution* (1987), 59–60 (cited by [[w.dikotter-cultural-revolution]], 130 n.7b).
+- src:
+    id: cal.1967-01-25.china-leadership-5
+    rows:
+    - 'via w.dikotter-cultural-revolution 130 n.7b: ?'
+- cite:
+    id: cal.1967-01-29.china-leadership-6
+    item: '[[w.dikotter-cultural-revolution]], 131 n.9 (the Cultural Revolution Group''s telegram in support of Zhang Chunqiao, accusing some rebel leaders of having "turned the spearhead of struggle" against him)'
+- to-check:
+    id: cal.1967-01-29.china-leadership-6
+    add: '[[w.hunter-shanghai-journal]], 232–243 (cited by [[w.dikotter-cultural-revolution]], 131 n.9).'
+- cite:
+    id: cal.1967-02-05.china-leadership-2
+    item: '[[w.dikotter-cultural-revolution]], 131–132 n.10, n.11 (a large rally in People''s Square establishes the Shanghai People''s Commune; "a bright Sunday afternoon," thousands of banners, balloons fired from mortars, armed troops on the roofs over the square; Zhang Chunqiao, with Yao Wenyuan: "We have the mighty People''s Liberation Army standing on our side"; half the rebels left outside)'
+- to-check:
+    id: cal.1967-02-05.china-leadership-2
+    add: P. M. Hewitt, "Letter from Shanghai," Feb. 14, 1967, FCO 21-8, Public Record Office (cited by [[w.dikotter-cultural-revolution]], 132 n.10).
+- to-check:
+    id: cal.1967-02-05.china-leadership-2
+    add: Yiching Wu, *The Cultural Revolution at the Margins* (2014), 129 (cited by [[w.dikotter-cultural-revolution]], 132 n.11).
+- src:
+    id: cal.1967-02-05.china-leadership-2
+    rows:
+    - 'via w.dikotter-cultural-revolution 132 n.10: ?'
+    - 'via w.dikotter-cultural-revolution 132 n.11: ?'
+- cite:
+    id: cal.1967-02-05.china-leadership-3
+    item: '[[w.dikotter-cultural-revolution]], 132 n.11 (Zhang''s first decree: the army and police to "resolutely suppress active counter-revolutionaries" who undermine the Cultural Revolution, the Commune and the socialist economy)'
+- to-check:
+    id: cal.1967-02-05.china-leadership-3
+    add: Yiching Wu, *The Cultural Revolution at the Margins* (2014), 129 (cited by [[w.dikotter-cultural-revolution]], 132 n.11).
+- src:
+    id: cal.1967-02-05.china-leadership-3
+    rows:
+    - 'via w.dikotter-cultural-revolution 132 n.11: ?'
+- cite:
+    id: cal.1967-02-12.china-leadership
+    item: '[[w.dikotter-cultural-revolution]], 132 n.12 (Mao, "a few weeks later": if every province, city and region were called a people''s commune, the country would have to become the People''s Commune of China; where would the party be placed? "There must be a party somehow!")'
+- to-check:
+    id: cal.1967-02-12.china-leadership
+    add: Yiching Wu, *The Cultural Revolution at the Margins* (2014), 129–130 (cited by [[w.dikotter-cultural-revolution]], 132 n.12).
+- src:
+    id: cal.1967-02-12.china-leadership
+    rows:
+    - 'via w.dikotter-cultural-revolution 132 n.12: ?'
+- cite:
+    id: cal.1967-02-24.china-leadership-2
+    item: '[[w.dikotter-cultural-revolution]], 132 n.13 (the Commune quietly renamed the Shanghai Municipal Revolutionary Committee "in the early hours of 25 February," cleaners having worked all night)'
+- to-check:
+    id: cal.1967-02-24.china-leadership-2
+    add: P. J. Weston, "Letter from Shanghai," Mar. 1, 1967, FCO 21-21, Public Record Office (cited by [[w.dikotter-cultural-revolution]], 132 n.13).
+- src:
+    id: cal.1967-02-24.china-leadership-2
+    rows:
+    - 'via w.dikotter-cultural-revolution 132 n.13: ?'
+- check:
+    id: cal.1967-02-24.china-leadership-2
+    text: 'Check: the day; [[w.dikotter-cultural-revolution]], 132, has the change in the early hours of Feb. 25, from a British consular letter of Mar. 1 (132 n.13).'
+- cite:
+    id: cal.1967-02.china-leadership-31
+    item: '[[w.dikotter-cultural-revolution]], 133 n.15 (veterans affiliated with the Xiang River Group assault a local command post; the military portrays it as an armed uprising of counter-revolutionaries abetted by ex-convicts)'
+- to-check:
+    id: cal.1967-02.china-leadership-31
+    add: Yiching Wu, *The Cultural Revolution at the Margins* (2014), 151–152 (cited by [[w.dikotter-cultural-revolution]], 133 n.15a).
+- to-check:
+    id: cal.1967-02.china-leadership-31
+    add: Chen Yinan, *Qingchun wuhen* (2006), 97–108 (cited by [[w.dikotter-cultural-revolution]], 133 n.15c).
+- to-check:
+    id: cal.1967-02.china-leadership-31
+    add: Yu Xiguang, "Hunan," in *Wenge zaofan duoquan dadian*, web text (cited by [[w.dikotter-cultural-revolution]], 133 n.15d).
+- src:
+    id: cal.1967-02.china-leadership-31
+    rows:
+    - 'via w.dikotter-cultural-revolution 133 n.15a: ?'
+    - 'via w.dikotter-cultural-revolution 133 n.15c: ?'
+    - 'via w.dikotter-cultural-revolution 133 n.15d: ?'
+- cite:
+    id: cal.1967-02-04.china-leadership-4
+    item: '[[w.dikotter-cultural-revolution]], 133 n.15 (Chen Boda personally orders a crackdown)'
+- to-check:
+    id: cal.1967-02-04.china-leadership-4
+    add: Yiching Wu, *The Cultural Revolution at the Margins* (2014), 151–152 (cited by [[w.dikotter-cultural-revolution]], 133 n.15a).
+- to-check:
+    id: cal.1967-02-04.china-leadership-4
+    add: Chen Yinan, *Qingchun wuhen* (2006), 97–108 (cited by [[w.dikotter-cultural-revolution]], 133 n.15c).
+- to-check:
+    id: cal.1967-02-04.china-leadership-4
+    add: Yu Xiguang, "Hunan," in *Wenge zaofan duoquan dadian*, web text (cited by [[w.dikotter-cultural-revolution]], 133 n.15d).
+- src:
+    id: cal.1967-02-04.china-leadership-4
+    rows:
+    - 'via w.dikotter-cultural-revolution 133 n.15a: ?'
+    - 'via w.dikotter-cultural-revolution 133 n.15c: ?'
+    - 'via w.dikotter-cultural-revolution 133 n.15d: ?'
+- cite:
+    id: cal.1967-02.china-leadership-35
+    item: '[[w.dikotter-cultural-revolution]], 133 n.15 (martial law proclaimed; a massive manhunt by the army for tens of thousands of students, teachers, workers and veterans; schools and factories made prisons; a rival rebel group helps the army)'
+- to-check:
+    id: cal.1967-02.china-leadership-35
+    add: Yiching Wu, *The Cultural Revolution at the Margins* (2014), 151–152 (cited by [[w.dikotter-cultural-revolution]], 133 n.15a).
+- to-check:
+    id: cal.1967-02.china-leadership-35
+    add: Wang Guangyu, *Qingshi nanyin* (2011), 142 (cited by [[w.dikotter-cultural-revolution]], 133 n.15b).
+- to-check:
+    id: cal.1967-02.china-leadership-35
+    add: Chen Yinan, *Qingchun wuhen* (2006), 97–108 (cited by [[w.dikotter-cultural-revolution]], 133 n.15c).
+- to-check:
+    id: cal.1967-02.china-leadership-35
+    add: Yu Xiguang, "Hunan," in *Wenge zaofan duoquan dadian*, web text (cited by [[w.dikotter-cultural-revolution]], 133 n.15d).
+- src:
+    id: cal.1967-02.china-leadership-35
+    rows:
+    - 'via w.dikotter-cultural-revolution 133 n.15a: ?'
+    - 'via w.dikotter-cultural-revolution 133 n.15b: ?'
+    - 'via w.dikotter-cultural-revolution 133 n.15c: ?'
+    - 'via w.dikotter-cultural-revolution 133 n.15d: ?'
+- cite:
+    id: cal.1967-02-23.china-leadership-4
+    item: '[[w.dikotter-cultural-revolution]], 134–135 n.17 (after weeks of skirmishes the deputy commander sends his troops against the organization holding the main newspaper; loudspeakers shot down, then a barrage killing the defenders of the entrance; flamethrowers ready, the rebels unarmed; the building taken in under twenty minutes; more than a hundred killed, a seven-year-old girl among them; a mass grave)'
+- to-check:
+    id: cal.1967-02-23.china-leadership-4
+    add: Ding Shu, "L'Événement du 23 février au Qinghai," in Song Yongyi, *Les Massacres de la Révolution Culturelle* (2009), 67–88 (cited by [[w.dikotter-cultural-revolution]], 135 n.17a).
+- to-check:
+    id: cal.1967-02-23.china-leadership-4
+    add: Liu Guokai, *A Brief Analysis of the Cultural Revolution* (1987), 61 (cited by [[w.dikotter-cultural-revolution]], 135 n.17b).
+- src:
+    id: cal.1967-02-23.china-leadership-4
+    rows:
+    - 'via w.dikotter-cultural-revolution 135 n.17a: ?'
+    - 'via w.dikotter-cultural-revolution 135 n.17b: ?'
+- cite:
+    id: cal.1967-02.china-leadership-8
+    item: '[[w.dikotter-cultural-revolution]], 135 n.17 (the deputy commander telegraphs his report to Ye Jianying, who compliments him; Lin Biao and Mao do not intervene)'
+- to-check:
+    id: cal.1967-02.china-leadership-8
+    add: Ding Shu, "L'Événement du 23 février au Qinghai," in Song Yongyi, *Les Massacres de la Révolution Culturelle* (2009), 67–88 (cited by [[w.dikotter-cultural-revolution]], 135 n.17a).
+- to-check:
+    id: cal.1967-02.china-leadership-8
+    add: Liu Guokai, *A Brief Analysis of the Cultural Revolution* (1987), 61 (cited by [[w.dikotter-cultural-revolution]], 135 n.17b).
+- src:
+    id: cal.1967-02.china-leadership-8
+    rows:
+    - 'via w.dikotter-cultural-revolution 135 n.17a: ?'
+    - 'via w.dikotter-cultural-revolution 135 n.17b: ?'
+- cite:
+    id: cal.1967-02-10.china-leadership
+    item: '[[w.dikotter-cultural-revolution]], 135–136 n.18 (Mao, irritated with the Group, calls it politically inexperienced and arrogant, Chen Boda an "opportunist," and tells Jiang Qing she has great aspirations but not an ounce of talent: "You don''t report to me, you block me out!")'
+- to-check:
+    id: cal.1967-02-10.china-leadership
+    add: '[[w.xianzhi-mao-zedong-zhuan-1949]], 1480–1481 (cited by [[w.dikotter-cultural-revolution]], 136 n.18a).'
+- to-check:
+    id: cal.1967-02-10.china-leadership
+    add: '[[w.pu-weihua-zalan-jiu-shijie]], 447–448 (cited by [[w.dikotter-cultural-revolution]], 136 n.18b).'
+- cite:
+    id: cal.1967-02-11.china-leadership-3
+    item: '[[w.dikotter-cultural-revolution]], 136 n.19 (at a meeting of the central leadership the day after, Ye Jianying lays into Chen Boda: "You have made a mess of the government, a mess of the party ..."; Xu Xiangqian bangs the table: "For people like Kuai Dafu to lead the army?")'
+- to-check:
+    id: cal.1967-02-11.china-leadership-3
+    add: Wang Guangyu, *Qingshi nanyin* (2011), 121 (cited by [[w.dikotter-cultural-revolution]], 136 n.19).
+- src:
+    id: cal.1967-02-11.china-leadership-3
+    rows:
+    - 'via w.dikotter-cultural-revolution 136 n.19: ?'
+- cite:
+    id: cal.1967-02-16.china-leadership
+    item: '[[w.dikotter-cultural-revolution]], 136 n.19 (five days later, at a second session, Tan Zhenlin to Zhang Chunqiao: "What masses? ... Your aim is to purge the old cadres"; Chen Yi on Liu, Deng and Peng Zhen as Mao''s keenest supporters at Yan''an, and Khrushchev''s embrace of Stalin; Zhou says little, and pounds the table to make Tan return to the meeting)'
+- to-check:
+    id: cal.1967-02-16.china-leadership
+    add: Wang Guangyu, *Qingshi nanyin* (2011), 121 (cited by [[w.dikotter-cultural-revolution]], 136 n.19).
+- src:
+    id: cal.1967-02-16.china-leadership
+    rows:
+    - 'via w.dikotter-cultural-revolution 136 n.19: ?'
+- cite:
+    id: cal.1967-02-18.china-leadership-8
+    item: '[[w.dikotter-cultural-revolution]], 137 n.20 (Mao wins Lin Biao over, quoting Chen Yi''s words on Khrushchev as Stalin''s most faithful follower, and reaches out to Ye Qun, asking her to join the Cultural Revolution Group)'
+- to-check:
+    id: cal.1967-02-18.china-leadership-8
+    add: 'Gao Wenqian, *Zhou Enlai: The Last Perfect Revolutionary* (2007), 159 (cited by [[w.dikotter-cultural-revolution]], 137 n.20).'
+- src:
+    id: cal.1967-02-18.china-leadership-8
+    rows:
+    - 'via w.dikotter-cultural-revolution 137 n.20: ?'
+- cite:
+    id: cal.1967-02-19.china-leadership
+    item: '[[w.dikotter-cultural-revolution]], 137–138 n.21 (the meeting "in the early hours of 19 February": the meetings that attacked the Group aimed at him and Lin Biao; to Ye Qun: "you tell Lin Biao that he is not safe either"; the Group''s errors "no more than two or three per cent"; he and Lin Biao would go to the mountains for a guerrilla war; "Arrest and execute Chen Boda and Jiang Qing, send Kang Sheng into exile. I, too, will step down!")'
+- to-check:
+    id: cal.1967-02-19.china-leadership
+    add: '[[w.xianzhi-mao-zedong-zhuan-1949]], 1482–1483 (cited by [[w.dikotter-cultural-revolution]], 138 n.21a).'
+- to-check:
+    id: cal.1967-02-19.china-leadership
+    add: '[[w.pu-weihua-zalan-jiu-shijie]], 452–453 (cited by [[w.dikotter-cultural-revolution]], 138 n.21b).'
+- to-check:
+    id: cal.1967-02-19.china-leadership
+    add: 'Gao Wenqian, *Zhou Enlai: The Last Perfect Revolutionary* (2007), 160 (cited by [[w.dikotter-cultural-revolution]], 138 n.21c).'
+- src:
+    id: cal.1967-02-19.china-leadership
+    rows:
+    - 'via w.dikotter-cultural-revolution 138 n.21c: ?'
+- check:
+    id: cal.1967-02-19.china-leadership
+    text: 'Check: the hour; [[w.dikotter-cultural-revolution]], 137, has the meeting in the early hours of Feb. 19.'
+- cite:
+    id: cal.1967-02-19.china-leadership-8
+    item: '[[w.dikotter-cultural-revolution]], 138 n.21 (Kang Sheng later: he had never seen the Chairman so angry; "He was in a proletarian rage")'
+- to-check:
+    id: cal.1967-02-19.china-leadership-8
+    add: '[[w.xianzhi-mao-zedong-zhuan-1949]], 1482–1483 (cited by [[w.dikotter-cultural-revolution]], 138 n.21a).'
+- to-check:
+    id: cal.1967-02-19.china-leadership-8
+    add: '[[w.pu-weihua-zalan-jiu-shijie]], 452–453 (cited by [[w.dikotter-cultural-revolution]], 138 n.21b).'
+- to-check:
+    id: cal.1967-02-19.china-leadership-8
+    add: 'Gao Wenqian, *Zhou Enlai: The Last Perfect Revolutionary* (2007), 160 (cited by [[w.dikotter-cultural-revolution]], 138 n.21c).'
+- src:
+    id: cal.1967-02-19.china-leadership-8
+    rows:
+    - 'via w.dikotter-cultural-revolution 138 n.21c: ?'
+- cite:
+    id: cal.1967-02-25.china-leadership-5
+    item: '[[w.dikotter-cultural-revolution]], 138 n.22 (struggle meetings against Tan Zhenlin, Chen Yi and Xu Xiangqian, all chaired by Zhou Enlai, in the room in Zhongnanhai where they had attacked the Group; the Standing Committee paralysed, the Group running the show)'
+- to-check:
+    id: cal.1967-02-25.china-leadership-5
+    add: 'Gao Wenqian, *Zhou Enlai: The Last Perfect Revolutionary* (2007), 164 (cited by [[w.dikotter-cultural-revolution]], 138 n.22).'
+- src:
+    id: cal.1967-02-25.china-leadership-5
+    rows:
+    - 'via w.dikotter-cultural-revolution 138 n.22: ?'
+- cite:
+    id: cal.1967-03.china-leadership-22
+    item: '[[w.dikotter-cultural-revolution]], 138 n.23 (on Mar. 8 Ye Jianying invites the Qinghai deputy commander to Peking; at the Capital West Hotel, built in 1964, he is feted as a model and for three days explains his methods of pacification to military leaders from other regions)'
+- to-check:
+    id: cal.1967-03.china-leadership-22
+    add: Ding Shu, "L'Événement du 23 février au Qinghai," in Song Yongyi, *Les Massacres de la Révolution Culturelle* (2009), 86–87 (cited by [[w.dikotter-cultural-revolution]], 138 n.23a).
+- to-check:
+    id: cal.1967-03.china-leadership-22
+    add: Xue Tingchen, *Wuhui rensheng* (2011), 180–193 (cited by [[w.dikotter-cultural-revolution]], 138 n.23b).
+- src:
+    id: cal.1967-03.china-leadership-22
+    rows:
+    - 'via w.dikotter-cultural-revolution 138 n.23a: ?'
+    - 'via w.dikotter-cultural-revolution 138 n.23b: ?'
+- check:
+    id: cal.1967-03.china-leadership-22
+    text: 'Check: the day; [[w.dikotter-cultural-revolution]], 138, has Ye Jianying''s invitation of Mar. 8 and three days at the Capital West Hotel.'
+- cite:
+    id: cal.1967-03-11.china-leadership
+    item: '[[w.dikotter-cultural-revolution]], 138 n.23 (Mao, who had gone along with the suppression in Qinghai for several weeks, intervenes)'
+- to-check:
+    id: cal.1967-03-11.china-leadership
+    add: Ding Shu, "L'Événement du 23 février au Qinghai," in Song Yongyi, *Les Massacres de la Révolution Culturelle* (2009), 86–87 (cited by [[w.dikotter-cultural-revolution]], 138 n.23a).
+- to-check:
+    id: cal.1967-03-11.china-leadership
+    add: Xue Tingchen, *Wuhui rensheng* (2011), 180–193 (cited by [[w.dikotter-cultural-revolution]], 138 n.23b).
+- src:
+    id: cal.1967-03-11.china-leadership
+    rows:
+    - 'via w.dikotter-cultural-revolution 138 n.23a: ?'
+    - 'via w.dikotter-cultural-revolution 138 n.23b: ?'
+- cite:
+    id: cal.1967-03.china-leadership-10
+    item: '[[w.dikotter-cultural-revolution]], 138 n.23 (the deputy commander and his allies thrown into prison; the rebels in Qinghai hailed as martyrs)'
+- to-check:
+    id: cal.1967-03.china-leadership-10
+    add: Ding Shu, "L'Événement du 23 février au Qinghai," in Song Yongyi, *Les Massacres de la Révolution Culturelle* (2009), 86–87 (cited by [[w.dikotter-cultural-revolution]], 138 n.23a).
+- to-check:
+    id: cal.1967-03.china-leadership-10
+    add: Xue Tingchen, *Wuhui rensheng* (2011), 180–193 (cited by [[w.dikotter-cultural-revolution]], 138 n.23b).
+- src:
+    id: cal.1967-03.china-leadership-10
+    rows:
+    - 'via w.dikotter-cultural-revolution 138 n.23a: ?'
+    - 'via w.dikotter-cultural-revolution 138 n.23b: ?'
+- cite:
+    id: cal.1967-03-19.china-leadership-4
+    item: '[[w.dikotter-cultural-revolution]], 138–139 n.24 (the Military Affairs Commission, in Lin Biao''s hands, asks the army to exert control, taking over government units from schools and factories to ministries and whole provinces)'
+- to-check:
+    id: cal.1967-03-19.china-leadership-4
+    add: '[[w.macfarquhar-maos-last-revolution]], 160 (cited by [[w.dikotter-cultural-revolution]], 139 n.24).'
+- cite:
+    id: cal.1967-03.china-leadership-6
+    item: '[[w.dikotter-cultural-revolution]], 139 n.24 (a few days later, Kang Sheng: "Military control is autocratic rule. You obey me in everything.")'
+- cite:
+    id: cal.1967-04-01.china-leadership
+    item: '[[w.dikotter-cultural-revolution]], 140 n.29 (in April a new directive limits the military''s power to brand people counter-revolutionaries and arrest them; those arrested for storming military commands to be rehabilitated)'
+- cite:
+    id: cal.1967-02.china-leadership-6
+    item: '[[w.dikotter-cultural-revolution]], 140 n.29 (in February the rebels besiege the military command in Chengdu for a full week)'
+- cite:
+    id: cal.1967-02.china-leadership-12
+    item: '[[w.dikotter-cultural-revolution]], 140 n.29 (the army in Sichuan arrests over 100,000)'
+- cite:
+    id: cal.1967-04-20.china-leadership-4
+    item: '[[w.dikotter-cultural-revolution]], 140 n.29 (some 28,000 released from prison in Sichuan)'
+- cite:
+    id: cal.1967-04-02.china-leadership
+    item: '[[w.dikotter-cultural-revolution]], 140–141 n.30 (the *Renmin ribao* begins to praise the "revolutionary young generals," who had followed the correct line all along)'
+- to-check:
+    id: cal.1967-04-02.china-leadership
+    add: '"Zhengque de duidai geming xiaojiang," *Renmin ribao*, Apr. 2, 1967 (cited by [[w.dikotter-cultural-revolution]], 141 n.30a).'
+- to-check:
+    id: cal.1967-04-02.china-leadership
+    add: 'CIA, Intelligence Report RSS 0028/68, "Mao''s ''Cultural Revolution'' in 1967: The Struggle to ''Seize Power''," May 24, 1968 (cited by [[w.dikotter-cultural-revolution]], 141 n.30c).'
+- to-check:
+    id: cal.1967-04-02.china-leadership
+    add: '"Zhongyang junwei shitiao mingling" (Ten-point command from the Military Commission), Apr. 6, 1967, Cultural Revolution Database (cited by [[w.dikotter-cultural-revolution]], 141 n.30b).'
+- src:
+    id: cal.1967-04-02.china-leadership
+    rows:
+    - 'via w.dikotter-cultural-revolution 141 n.30a: ?'
+    - 'via w.dikotter-cultural-revolution 141 n.30c: ?'
+    - 'via w.dikotter-cultural-revolution 141 n.30b: ?'
+- cite:
+    id: cal.1967-04-06.china-leadership-3
+    item: '[[w.dikotter-cultural-revolution]], 140–141 n.30 (the Military Affairs Commission under Lin Biao forbids the army to fire on rebels, disband mass organizations or retaliate against those who raided military commands; the documents widely copied and posted)'
+- to-check:
+    id: cal.1967-04-06.china-leadership-3
+    add: '"Zhengque de duidai geming xiaojiang," *Renmin ribao*, Apr. 2, 1967 (cited by [[w.dikotter-cultural-revolution]], 141 n.30a).'
+- to-check:
+    id: cal.1967-04-06.china-leadership-3
+    add: 'CIA, Intelligence Report RSS 0028/68, "Mao''s ''Cultural Revolution'' in 1967: The Struggle to ''Seize Power''," May 24, 1968 (cited by [[w.dikotter-cultural-revolution]], 141 n.30c).'
+- to-check:
+    id: cal.1967-04-06.china-leadership-3
+    add: '"Zhongyang junwei shitiao mingling" (Ten-point command from the Military Commission), Apr. 6, 1967, Cultural Revolution Database (cited by [[w.dikotter-cultural-revolution]], 141 n.30b).'
+- src:
+    id: cal.1967-04-06.china-leadership-3
+    rows:
+    - 'via w.dikotter-cultural-revolution 141 n.30a: ?'
+    - 'via w.dikotter-cultural-revolution 141 n.30c: ?'
+    - 'via w.dikotter-cultural-revolution 141 n.30b: ?'
+- cite:
+    id: cal.1967-04-10.china-leadership-2
+    item: '[[w.dikotter-cultural-revolution]], 141 n.32 (Kuai Dafu, on detailed instructions from Jiang Qing and Zhou Enlai, assembles 300,000 at Tsinghua to humiliate Wang Guangmei: forced into a tight dress, high heels and a necklace of ping-pong balls mocking her dress in Indonesia in 1963; posters and caricatures the next day)'
+- to-check:
+    id: cal.1967-04-10.china-leadership-2
+    add: Wang Guangyu, *Qingshi nanyin* (2011), 144–147 (cited by [[w.dikotter-cultural-revolution]], 141 n.32a).
+- to-check:
+    id: cal.1967-04-10.china-leadership-2
+    add: '[[w.zhenhua-red-flower-of-china]], 126 (cited by [[w.dikotter-cultural-revolution]], 141 n.32b).'
+- to-check:
+    id: cal.1967-04-10.china-leadership-2
+    add: Ken Ling, *The Revenge of Heaven* (1972), 214–215 (cited by [[w.dikotter-cultural-revolution]], 141 n.32c).
+- src:
+    id: cal.1967-04-10.china-leadership-2
+    rows:
+    - 'via w.dikotter-cultural-revolution 141 n.32a: ?'
+    - 'via w.dikotter-cultural-revolution 141 n.32c: ?'
+- cite:
+    id: cal.1967-04-30.china-leadership-5
+    item: '[[w.dikotter-cultural-revolution]], 142 n.35 (Mao, wary of Lin Biao, tries in April to reconcile the marshals: they too part of his plan for unity; he promises them a place on the Tiananmen rostrum for the May Day parade)'
+- to-check:
+    id: cal.1967-04-30.china-leadership-5
+    add: 'Gao Wenqian, *Zhou Enlai: The Last Perfect Revolutionary* (2007), 166 (cited by [[w.dikotter-cultural-revolution]], 142 n.35).'
+- src:
+    id: cal.1967-04-30.china-leadership-5
+    rows:
+    - 'via w.dikotter-cultural-revolution 142 n.35: ?'
