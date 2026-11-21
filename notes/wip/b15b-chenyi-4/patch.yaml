@@ -244,6 +244,120 @@ ops:
       - 1965-02-04T14:00Z
       time_band: evening
       time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-02-22.china-leadership-3
+    base: da6f0fb0
+    set:
+      time: 1965-02-22T03:40Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-02-28.china-leadership-4
+    base: 7d2b9b74
+    set:
+      time_range:
+      - 1965-02-28T04:00Z
+      - 1965-02-28T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-03-06.china-leadership
+    base: 9eb43965
+    set:
+      time_range:
+      - 1965-03-05T22:00Z
+      - 1965-03-06T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-04-06.china-leadership
+    base: db980183
+    set:
+      time_range:
+      - 1965-04-06T04:00Z
+      - 1965-04-06T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-01-12.china-leadership
+    base: 9efe0ba4
+    set:
+      time_range:
+      - 1965-01-12T04:00Z
+      - 1965-01-12T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-02-18.china-leadership
+    base: 4712bf9f
+    set:
+      time_range:
+      - 1965-02-18T04:00Z
+      - 1965-02-18T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-02-18.china-leadership-3
+    base: 49d1765b
+    set:
+      place: peking
+- edit:
+    id: cal.1965-02-20.china-leadership
+    base: 8c4b2175
+    set:
+      time_range:
+      - 1965-02-20T04:00Z
+      - 1965-02-20T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-02-21.china-leadership-4
+    base: ff533acf
+    set:
+      time_range:
+      - 1965-02-20T22:00Z
+      - 1965-02-21T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-03-02.china-leadership-3
+    base: c098e159
+    set:
+      time_range:
+      - 1965-03-02T04:00Z
+      - 1965-03-02T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-03-04.china-leadership
+    base: 70dc2133
+    set:
+      time_range:
+      - 1965-03-04T04:00Z
+      - 1965-03-04T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-03-07.china-leadership
+    base: 91732a7f
+    set:
+      time_range:
+      - 1965-03-06T22:00Z
+      - 1965-03-07T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place:
+      - peking
+      - hangzhou
+- edit:
+    id: cal.1965-03-25.china-leadership-5
+    base: 5e24d326
+    set:
+      time_range:
+      - 1965-03-25T01:00Z
+      - 1965-03-25T07:00Z
+      time_band: morning
+      time_zone: Asia/Karachi
+      place: rawalpindi
 - place-key:
     key: emei-shan
     name: Emei Shan
@@ -6346,28 +6460,6 @@ ops:
       - ok:fields-place
 - add:
     entry:
-      id: cal.1965-01-12.china-leadership-5
-      when: Jan. 12
-      date: '1965-01-12'
-      time_range:
-      - 1965-01-12T04:00Z
-      - 1965-01-12T10:00Z
-      time_band: afternoon
-      time_zone: Asia/Shanghai
-      thread: china-leadership
-      also:
-      - indonesia
-      c: Chen Yi 陈毅, with Liu Shaoqi 刘少奇 and Zhou Enlai 周恩来, receives the Indonesian friendship delegation led by Iskandar 伊斯坎达, Minister of Air Communications.
-      n: '[[w.chen-yi-nianpu]], 1079. The words: 下午 (1079). Names: Chen Yi, Liu Shaoqi, Zhou Enlai.'
-      tags:
-      - polity:prc
-      - polity:indonesia
-      - name:chen-yi
-      - name:liu-shaoqi
-      - name:zhou-enlai
-      - ok:fields-place
-- add:
-    entry:
       id: cal.1965-01-12.china-leadership-6
       when: Jan. 12
       date: '1965-01-12'
@@ -6426,36 +6518,6 @@ ops:
       - ok:fields-place
 - add:
     entry:
-      id: cal.1965-01-17.china-leadership-7
-      when: Jan. 17
-      date: '1965-01-17'
-      time_range:
-      - 1965-01-17T04:00Z
-      - 1965-01-17T10:00Z
-      time_band: afternoon
-      time_zone: Asia/Shanghai
-      thread: china-leadership
-      c: Chen Yi 陈毅, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Dong Biwu 董必武, Peng Zhen 彭真, Li Fuchun 李富春, He Long 贺龙, Chen Boda 陈伯达, Kang Sheng 康生, Bo Yibo 薄一波, Ye Jianying 叶剑英 and Xie Fuzhi 谢富治, receives those at national conferences in Peking (the PLA's logistics, cadres, public security forces, railway corps and air force meetings, the men who twice shot down American pilotless reconnaissance planes, the soldiers' amateur troupe, the Youth Federation, the students' congress, the sports conference and the Agricultural Bank's meetings).
-      n: '[[w.chen-yi-nianpu]], 1080. The words: 下午 (1080). Names: Chen Yi, Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Dong Biwu, Peng Zhen, Li Fuchun, He Long, Chen Boda, Kang Sheng, Bo Yibo, Ye Jianying, Xie Fuzhi.'
-      tags:
-      - polity:prc
-      - name:chen-yi
-      - name:mao-zedong
-      - name:liu-shaoqi
-      - name:zhou-enlai
-      - name:deng-xiaoping
-      - name:dong-biwu
-      - name:peng-zhen
-      - name:li-fuchun
-      - name:he-long
-      - name:chen-boda
-      - name:kang-sheng
-      - name:bo-yibo
-      - name:ye-jianying
-      - name:xie-fuzhi
-      - ok:fields-place
-- add:
-    entry:
       id: cal.1965-01-25.china-leadership-8
       when: Jan. 25
       date: '1965-01-25'
@@ -6487,27 +6549,6 @@ ops:
       - polity:prc
       - polity:burma
       - name:chen-yi
-      - ok:fields-place
-- add:
-    entry:
-      id: cal.1965-01-28.china-leadership-6
-      when: Jan. 28
-      date: '1965-01-28'
-      time_range:
-      - 1965-01-27T22:00Z
-      - 1965-01-28T04:00Z
-      time_band: morning
-      time_zone: Asia/Shanghai
-      thread: china-leadership
-      also:
-      - indonesia
-      c: Chen Yi 陈毅 and Subandrio sign for their governments the China–Indonesia joint statement and two agreements.
-      n: '[[w.chen-yi-nianpu]], 1082. The words: 上午 (1082). Names: Chen Yi.'
-      tags:
-      - polity:prc
-      - polity:indonesia
-      - name:chen-yi
-      - name:subandrio
       - ok:fields-place
 - add:
     entry:
@@ -6558,6 +6599,1730 @@ ops:
       - polity:prc
       - polity:indonesia
       - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-02-08.china-leadership-6
+      when: Feb. 8
+      date: '1965-02-08'
+      time_range:
+      - 1965-02-08T04:00Z
+      - 1965-02-08T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 at the airport to meet Liu Yufeng 柳雨峰, the Ambassador withdrawn from Burundi, and the whole embassy staff.
+      n: '[[w.chen-yi-nianpu]], 1084. The words: 下午 (1084). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:burundi
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-02-08.china-leadership-7
+      when: Feb. 8
+      date: '1965-02-08'
+      time_range:
+      - 1965-02-08T04:00Z
+      - 1965-02-08T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 receives Ambassador Liu Yufeng 柳雨峰 and the staff withdrawn from Burundi; the Burundian people will one day drive out the American and Belgian imperialist forces, and normal relations will one day be restored.
+      n: '[[w.chen-yi-nianpu]], 1084. The words: 下午 (1084). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:burundi
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-02-08.china-leadership-8
+      when: Feb. 8
+      date: '1965-02-08'
+      time_range:
+      - 1965-02-08T04:00Z
+      - 1965-02-08T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Tanzania's first Ambassador to China calls on Chen Yi 陈毅 about presenting his credentials.
+      n: '[[w.chen-yi-nianpu]], 1084. The words: 下午 (1084). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:tanzania
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-02-13.china-leadership-7
+      when: Feb. 13
+      date: '1965-02-13'
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Chen Yi 陈毅 and Gromyko exchange cables on the fifteenth anniversary of the Sino-Soviet treaty of friendship, alliance and mutual assistance.
+      n: '[[w.chen-yi-nianpu]], 1084. Names: Chen Yi, Gromyko.'
+      tags:
+      - polity:prc
+      - polity:ussr
+      - name:chen-yi
+      - name:gromyko-andrei
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-02-13.china-leadership-8
+      when: Feb. 13
+      date: '1965-02-13'
+      time_range:
+      - 1965-02-13T11:00Z
+      - 1965-02-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Peking 北京, the Huairen Tang 怀仁堂, Zhongnanhai 中南海. Before the capital's meeting for the treaty's anniversary, Chen Yi 陈毅 and Guo Moruo 郭沫若 receive the Soviet–Chinese Friendship Society's delegation led by Kozhevnikov 科热夫尼科夫.
+      n: '[[w.chen-yi-nianpu]], 1084–1085. The words: 晚上 (1084–1085). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:ussr
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-02-13.china-leadership-9
+      when: Feb. 13
+      date: '1965-02-13'
+      time_range:
+      - 1965-02-13T11:00Z
+      - 1965-02-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Peking 北京, the Huairen Tang 怀仁堂, Zhongnanhai 中南海. Chen Yi 陈毅 at the capital's meeting for the fifteenth anniversary of the Sino-Soviet treaty.
+      n: '[[w.chen-yi-nianpu]], 1084–1085. The words: 晚上 (1084–1085). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:ussr
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-02-16.china-leadership-4
+      when: Feb. 16
+      date: '1965-02-16'
+      time_range:
+      - 1965-02-15T22:00Z
+      - 1965-02-16T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 receives Lars P. Jensen 拉尔斯·普·任生, Denmark's Minister of Commerce, his wife and party.
+      n: '[[w.chen-yi-nianpu]], 1085. The words: 上午 (1085). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:denmark
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-02-17.china-leadership-11
+      when: Feb. 17
+      date: '1965-02-17'
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 cables Bista 比斯塔, Nepal's Foreign Minister, on Nepal's Democracy Day.
+      n: '[[w.chen-yi-nianpu]], 1085. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-02-18.china-leadership-11
+      when: Feb. 18
+      date: '1965-02-18'
+      time_range:
+      - 1965-02-17T22:00Z
+      - 1965-02-18T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - africa
+      c: Peking 北京. Chen Yi 陈毅 takes President Nyerere, his wife and party to the Peking No. 3 Cotton Mill 北京第三棉纺织厂.
+      n: '[[w.chen-yi-nianpu]], 1085. The words: 上午 (1085). Names: Chen Yi, Nyerere.'
+      tags:
+      - polity:prc
+      - polity:tanzania
+      - name:chen-yi
+      - name:nyerere-julius-k
+- add:
+    entry:
+      id: cal.1965-02-18.china-leadership-12
+      when: Feb. 18
+      date: '1965-02-18'
+      time_range:
+      - 1965-02-18T11:00Z
+      - 1965-02-18T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 accompanies President Nyerere and his wife to the evening of arts of the Ministry of Culture and the China–Africa Friendship Association, *The Red Detachment of Women*.
+      n: '[[w.chen-yi-nianpu]], 1086. The words: 晚上 (1086). Names: Chen Yi, Nyerere.'
+      tags:
+      - polity:prc
+      - polity:tanzania
+      - name:chen-yi
+      - name:nyerere-julius-k
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-02-21.china-leadership-9
+      when: Feb. 21
+      date: '1965-02-21'
+      time_range:
+      - 1965-02-21T11:00Z
+      - 1965-02-21T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: nanjing
+      thread: china-leadership
+      also:
+      - africa
+      c: Nanjing 南京. Chen Yi 陈毅 at the banquet of Feng Jixin 冯纪新, vice-governor of Jiangsu 江苏, and his wife for President Nyerere and his wife.
+      n: '[[w.chen-yi-nianpu]], 1086. The words: 晚上 (1086). Names: Chen Yi, Nyerere.'
+      tags:
+      - polity:prc
+      - polity:tanzania
+      - name:chen-yi
+      - name:nyerere-julius-k
+- add:
+    entry:
+      id: cal.1965-02-22.china-leadership-10
+      when: Feb. 22
+      date: '1965-02-22'
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 cables Ganao 加纳奥, Foreign Minister of Congo (Brazzaville), on the first anniversary of relations.
+      n: '[[w.chen-yi-nianpu]], 1087. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:congo-brazzaville
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-02-22.china-leadership-11
+      when: Feb. 22
+      date: '1965-02-22'
+      time_range:
+      - 1965-02-22T11:00Z
+      - 1965-02-22T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Shanghai 上海. Chen Yi 陈毅 at the banquet of Cao Diqiu 曹荻秋, vice mayor of Shanghai, and his wife for President and Mrs. Nyerere.
+      n: '[[w.chen-yi-nianpu]], 1087. The words: 晚上 (1087). Names: Chen Yi, Nyerere.'
+      tags:
+      - polity:prc
+      - polity:tanzania
+      - name:chen-yi
+      - name:nyerere-julius-k
+- add:
+    entry:
+      id: cal.1965-03.china-leadership-5
+      when: Mar.
+      date: 1965-03
+      thread: china-leadership
+      c: Chen Yi 陈毅 writes the poems "The face of the American aggressors" 《美国侵略者的嘴脸》 and "Cavalry charge" 《马队冲锋》.
+      n: '[[w.chen-yi-nianpu]], 1087. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-01.china-leadership-9
+      when: Mar. 1
+      date: '1965-03-01'
+      time_range:
+      - 1965-02-28T22:00Z
+      - 1965-03-01T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Kenya's new Ambassador calls on Chen Yi 陈毅 about presenting his credentials.
+      n: '[[w.chen-yi-nianpu]], 1087. The words: 上午 (1087). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:kenya
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-01.china-leadership-10
+      when: Mar. 1
+      date: '1965-03-01'
+      time_range:
+      - 1965-02-28T22:00Z
+      - 1965-03-01T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Abdellatif Filali 菲拉利, Morocco's new Ambassador, calls on Chen Yi 陈毅 about presenting his credentials.
+      n: '[[w.chen-yi-nianpu]], 1087. The words: 上午 (1087). Names: Chen Yi, Filali.'
+      tags:
+      - polity:prc
+      - polity:morocco
+      - name:chen-yi
+      - name:filali-abdellatif
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-01.china-leadership-11
+      when: Mar. 1
+      date: '1965-03-01'
+      time_range:
+      - 1965-03-01T04:00Z
+      - 1965-03-01T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - korea
+      c: Chen Yi 陈毅 at the capital's meeting supporting the Korean and Japanese peoples against the "ROK–Japan talks" and the "ROK–Japan basic treaty."
+      n: '[[w.chen-yi-nianpu]], 1087. The words: 下午 (1087). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:dprk
+      - polity:japan
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-04.china-leadership-17
+      when: Mar. 4
+      date: '1965-03-04'
+      time_range:
+      - 1965-03-03T22:00Z
+      - 1965-03-04T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Peking 北京. Chen Yi 陈毅 and his wife take President Ayub Khan and his party to the Peking No. 2 Cotton Mill 北京第二棉纺织厂 and then the Palace Museum 故宫.
+      n: '[[w.chen-yi-nianpu]], 1088. The words: 上午 (1088). Names: Chen Yi, Ayub Khan.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:ayub-khan-mohammad
+- add:
+    entry:
+      id: cal.1965-03-05.china-leadership-15
+      when: Mar. 5
+      date: '1965-03-05'
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 cables Kojo Botsio 博齐约, Ghana's Foreign Minister, on Ghana's national day.
+      n: '[[w.chen-yi-nianpu]], 1088. Names: Chen Yi, Botsio.'
+      tags:
+      - polity:prc
+      - polity:ghana
+      - name:chen-yi
+      - name:botsio-kojo
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-05.china-leadership-16
+      when: Mar. 5
+      date: '1965-03-05'
+      time_range:
+      - 1965-03-04T22:00Z
+      - 1965-03-05T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 receives the delegation of the Italian state hydrocarbons corporation (ENI) 意大利国家碳化氢公司 led by Dr. 斯开利罗.
+      n: '[[w.chen-yi-nianpu]], 1088. The words: 上午 (1088). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:italy
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-06.china-leadership-14
+      when: Mar. 6
+      date: '1965-03-06'
+      time_range:
+      - 1965-03-06T04:00Z
+      - 1965-03-06T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 receives Altaf Gauhar 阿勒塔夫·古哈尔, secretary of Pakistan's Ministry of Information and Broadcasting, and the Pakistani journalists with President Ayub Khan.
+      n: '[[w.chen-yi-nianpu]], 1088. The words: 下午 (1088). Names: Chen Yi, Ayub Khan.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:ayub-khan-mohammad
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-10.china-leadership-8
+      when: Mar. 10
+      date: '1965-03-10'
+      place: shanghai
+      thread: china-leadership
+      c: Shanghai 上海, the Wusong 吴淞 wharf. Chen Yi 陈毅 and Zhou Enlai 周恩来 review a naval formation's display of tactics.
+      n: '[[w.chen-yi-nianpu]], 1089. Made public: 1995. Names: Chen Yi, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1965-03-14.china-leadership-6
+      when: Mar. 14
+      date: '1965-03-14'
+      time_range:
+      - 1965-03-14T04:00Z
+      - 1965-03-14T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 receives Captain 山温, head of the Burma News Agency's delegation, and its member 吴伦昂.
+      n: '[[w.chen-yi-nianpu]], 1089. The words: 下午 (1089). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-15.china-leadership-9
+      when: Mar. 15
+      date: '1965-03-15'
+      time_range:
+      - 1965-03-15T04:00Z
+      - 1965-03-15T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 at the airport to welcome the Syrian friendship delegation led by Dr. Hassan Muraywid 哈桑·穆拉维德, Syria's Foreign Minister.
+      n: '[[w.chen-yi-nianpu]], 1089. The words: 中午 (1089). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:syria
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-15.china-leadership-10
+      when: Mar. 15
+      date: '1965-03-15'
+      time_range:
+      - 1965-03-15T04:00Z
+      - 1965-03-15T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 meets Hassan Muraywid 哈桑·穆拉维德 and the Syrian delegation. Then he holds talks with Muraywid.
+      n: '[[w.chen-yi-nianpu]], 1089. The words: 下午 (1089). Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:syria
+      - name:chen-yi
+      - ok:fields-place
+      - vis:only:prc+syria@B
+- add:
+    entry:
+      id: cal.1965-03-15.china-leadership-11
+      when: Mar. 15
+      date: '1965-03-15'
+      time_range:
+      - 1965-03-15T11:00Z
+      - 1965-03-15T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 gives a banquet for the Syrian friendship delegation and speaks first, supporting the Arab peoples' struggle against imperialism.
+      n: '[[w.chen-yi-nianpu]], 1089–1090. The words: 晚上 (1089–1090). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:syria
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-16.china-leadership-9
+      when: Mar. 16
+      date: '1965-03-16'
+      time_range:
+      - 1965-03-15T22:00Z
+      - 1965-03-16T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 returns the call of Hassan Muraywid 哈桑·穆拉维德 at the guesthouse.
+      n: '[[w.chen-yi-nianpu]], 1090. The words: 上午 (1090). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:syria
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-17.china-leadership-11
+      when: Mar. 17
+      date: '1965-03-17'
+      time_range:
+      - 1965-03-17T04:00Z
+      - 1965-03-17T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 at the airport to welcome the delegation of the Palestine Liberation Organization led by its chairman, Ahmad Shukairy.
+      n: '[[w.chen-yi-nianpu]], 1090. The words: 下午 (1090). Names: Chen Yi, Shukairy.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:shukairy-ahmad
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-17.china-leadership-12
+      when: Mar. 17
+      date: '1965-03-17'
+      time_range:
+      - 1965-03-17T11:00Z
+      - 1965-03-17T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 at the banquet of Zhang Xiruo 张奚若, president of the Chinese People's Institute of Foreign Affairs, welcoming Ahmad Shukairy's PLO delegation.
+      n: '[[w.chen-yi-nianpu]], 1090. The words: 晚上 (1090). Names: Chen Yi, Shukairy.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:shukairy-ahmad
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-18.china-leadership-11
+      when: Mar. 18
+      date: '1965-03-18'
+      time_range:
+      - 1965-03-17T22:00Z
+      - 1965-03-18T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 receives Ahmad Shukairy.
+      n: '[[w.chen-yi-nianpu]], 1090. The words: 上午 (1090). Names: Chen Yi, Shukairy.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:shukairy-ahmad
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-18.china-leadership-12
+      when: Mar. 18
+      date: '1965-03-18'
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 and Hassan Muraywid 哈桑·穆拉维德, Syria's Foreign Minister, sign the China–Syria agreement on cultural cooperation.
+      n: '[[w.chen-yi-nianpu]], 1090. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:syria
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-18.china-leadership-13
+      when: Mar. 18
+      date: '1965-03-18'
+      time_range:
+      - 1965-03-18T04:00Z
+      - 1965-03-18T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Peking 北京, the theater of the Peking Exhibition Hall 北京展览馆剧场. Chen Yi 陈毅 at the capital's meeting welcoming the Syrian friendship delegation.
+      n: '[[w.chen-yi-nianpu]], 1090. The words: 下午 (1090). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:syria
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-20.china-leadership-14
+      when: Mar. 20
+      date: '1965-03-20'
+      thread: china-leadership
+      c: Chen Yi 陈毅 cables Corneliu Mănescu, Romania's Foreign Minister, his condolences on the death of Gheorghe Gheorghiu-Dej, first secretary of the Workers' Party and President of the State Council.
+      n: '[[w.chen-yi-nianpu]], 1090. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:romania
+      - name:chen-yi
+      - name:manescu-corneliu
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-22.china-leadership-9
+      when: Mar. 22
+      date: '1965-03-22'
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 cables Bhutto, Pakistan's Foreign Minister, on Pakistan's national day.
+      n: '[[w.chen-yi-nianpu]], 1091. Names: Chen Yi, Bhutto.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:bhutto-zulfikar-ali
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-22.china-leadership-10
+      when: Mar. 22
+      date: '1965-03-22'
+      time_range:
+      - 1965-03-22T07:30Z
+      - 1965-03-22T13:30Z
+      time_band: afternoon
+      time_zone: Asia/Kabul
+      place: kabul
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 reaches Kabul 喀布尔.
+      n: '[[w.chen-yi-nianpu]], 1091. The words: 下午 (1091). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-22.china-leadership-11
+      when: Mar. 22
+      date: '1965-03-22'
+      time_range:
+      - 1965-03-22T07:30Z
+      - 1965-03-22T13:30Z
+      time_band: afternoon
+      time_zone: Asia/Kabul
+      place: kabul
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kabul 喀布尔, the royal palace. King Mohammed Zahir Shah receives Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1091. The words: 下午 (1091). Names: Chen Yi, Zahir Shah.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:chen-yi
+      - name:zahir-shah-mohammed
+- add:
+    entry:
+      id: cal.1965-03-22.china-leadership-12
+      when: Mar. 22
+      date: '1965-03-22'
+      time_range:
+      - 1965-03-22T07:30Z
+      - 1965-03-22T13:30Z
+      time_band: afternoon
+      time_zone: Asia/Kabul
+      place: kabul
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kabul 喀布尔. Chen Yi 陈毅 calls on Mohammad Yusuf, Afghanistan's Prime Minister.
+      n: '[[w.chen-yi-nianpu]], 1091. The words: 下午 (1091). Names: Chen Yi, Yusuf.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:chen-yi
+      - name:yusuf-mohammed
+- add:
+    entry:
+      id: cal.1965-03-22.china-leadership-13
+      when: Mar. 22
+      date: '1965-03-22'
+      time_range:
+      - 1965-03-22T07:30Z
+      - 1965-03-22T13:30Z
+      time_band: afternoon
+      time_zone: Asia/Kabul
+      place: kabul
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kabul 喀布尔. Chen Yi 陈毅 signs the visitors' book at the Dilkusha 迪尔库沙 palace and lays a wreath at the tomb of the late King Nadir Shah.
+      n: '[[w.chen-yi-nianpu]], 1091. The words: 下午 (1091). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-22.china-leadership-14
+      when: Mar. 22
+      date: '1965-03-22'
+      time_range:
+      - 1965-03-22T14:30Z
+      - 1965-03-22T17:30Z
+      time_band: evening
+      time_zone: Asia/Kabul
+      place: kabul
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kabul 喀布尔. Chen Yi 陈毅 speaks at the Prime Minister's banquet for him, glad to keep the Afghan New Year with Afghan friends.
+      n: '[[w.chen-yi-nianpu]], 1091. The words: 晚上 (1091). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-23.china-leadership-11
+      when: Mar. 23
+      date: '1965-03-23'
+      time: 1965-03-23T05:30Z
+      time_zone: Asia/Kabul
+      place: kabul
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kabul 喀布尔, the Prime Minister's office. Chen Yi 陈毅 holds talks with Mohammad Yusuf, the Prime Minister, and Abdul Zahir 阿卜杜勒·查希尔, the Deputy Prime Minister, from 10 a.m. to 12:45 p.m.
+      n: '[[w.chen-yi-nianpu]], 1091. The words: 上午10时到12时45分 (1091). Made public: 1995. Names: Chen Yi, Yusuf.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:chen-yi
+      - name:yusuf-mohammed
+      - vis:only:prc+afghanistan
+- add:
+    entry:
+      id: cal.1965-03-23.china-leadership-12
+      when: Mar. 23
+      date: '1965-03-23'
+      time_range:
+      - 1965-03-23T07:30Z
+      - 1965-03-23T09:30Z
+      time_band: workday midday
+      time_zone: Asia/Kabul
+      place: kabul
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kabul 喀布尔, Qargha 卡拉加 outside the city. Abdul Zahir 阿卜杜勒·查希尔, the Deputy Prime Minister, gives a luncheon for Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1091. The words: 午宴 (1091). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-23.china-leadership-13
+      when: Mar. 23
+      date: '1965-03-23'
+      time_range:
+      - 1965-03-23T14:30Z
+      - 1965-03-23T17:30Z
+      time_band: evening
+      time_zone: Asia/Kabul
+      place: kabul
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kabul 喀布尔, the royal palace. King Mohammed Zahir Shah gives a banquet for Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1091. The words: 晚上 (1091). Names: Chen Yi, Zahir Shah.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:chen-yi
+      - name:zahir-shah-mohammed
+- add:
+    entry:
+      id: cal.1965-03-24.china-leadership-15
+      when: Mar. 24
+      date: '1965-03-24'
+      time_range:
+      - 1965-03-24T01:30Z
+      - 1965-03-24T07:30Z
+      time_band: morning
+      time_zone: Asia/Kabul
+      place: kabul
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kabul 喀布尔, the Prime Minister's office. Chen Yi 陈毅 continues the talks with Mohammad Yusuf and Abdul Zahir 阿卜杜勒·查希尔.
+      n: '[[w.chen-yi-nianpu]], 1091. The words: 上午 (1091). Made public: 1995. Names: Chen Yi, Yusuf.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:chen-yi
+      - name:yusuf-mohammed
+      - vis:only:prc+afghanistan
+- add:
+    entry:
+      id: cal.1965-03-24.china-leadership-16
+      when: Mar. 24
+      date: '1965-03-24'
+      time_range:
+      - 1965-03-24T07:30Z
+      - 1965-03-24T13:30Z
+      time_band: afternoon
+      time_zone: Asia/Kabul
+      place: kabul
+      thread: china-leadership
+      also:
+      - south-asia
+      c: 'Kabul 喀布尔. Chen Yi 陈毅 signs for China, with Abdul Zahir 阿卜杜勒·查希尔, Sayyid Kasim Rishtiya, Minister of Finance, and Mohammad Anas 穆罕默德·阿纳斯, Minister of Education, for Afghanistan, the China–Afghanistan boundary protocol, the agreement on cultural cooperation and three papers on economic and technical cooperation; speaks: the Bandung spirit runs through them all; aid is always mutual.'
+      n: '[[w.chen-yi-nianpu]], 1091–1092. The words: 下午 (1091–1092). Names: Chen Yi, Rishtiya.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:chen-yi
+      - name:rishtiya-sayyid-mohammed-kasim
+- add:
+    entry:
+      id: cal.1965-03-24.china-leadership-17
+      when: Mar. 24
+      date: '1965-03-24'
+      time_range:
+      - 1965-03-24T14:30Z
+      - 1965-03-24T17:30Z
+      time_band: evening
+      time_zone: Asia/Kabul
+      place: kabul
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kabul 喀布尔. Chen Yi 陈毅 at the reception of Hao Ting 郝汀, the Chinese Ambassador, for his visit.
+      n: '[[w.chen-yi-nianpu]], 1092. The words: 晚上 (1092). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-25.china-leadership-10
+      when: Mar. 25
+      date: '1965-03-25'
+      thread: china-leadership
+      c: Chen Yi 陈毅 cables Corneliu Mănescu his congratulations on his appointment as Romania's Foreign Minister.
+      n: '[[w.chen-yi-nianpu]], 1092. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:romania
+      - name:chen-yi
+      - name:manescu-corneliu
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-25.china-leadership-11
+      when: Mar. 25
+      date: '1965-03-25'
+      place: rawalpindi
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Rawalpindi 拉瓦尔品第. Chen Yi 陈毅 calls on President Ayub Khan, who then gives a luncheon for him.
+      n: '[[w.chen-yi-nianpu]], 1092. Names: Chen Yi, Ayub Khan.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:ayub-khan-mohammad
+- add:
+    entry:
+      id: cal.1965-03-25.china-leadership-12
+      when: Mar. 25
+      date: '1965-03-25'
+      time_range:
+      - 1965-03-25T07:00Z
+      - 1965-03-25T13:00Z
+      time_band: afternoon
+      time_zone: Asia/Karachi
+      place: islamabad
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅, with Bhutto, sees Islamabad 伊斯兰堡, the new capital under construction.
+      n: '[[w.chen-yi-nianpu]], 1092. The words: 下午 (1092). Names: Chen Yi, Bhutto.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:bhutto-zulfikar-ali
+- add:
+    entry:
+      id: cal.1965-03-25.china-leadership-13
+      when: Mar. 25
+      date: '1965-03-25'
+      time_range:
+      - 1965-03-25T14:00Z
+      - 1965-03-25T17:00Z
+      time_band: evening
+      time_zone: Asia/Karachi
+      place: rawalpindi
+      thread: china-leadership
+      also:
+      - south-asia
+      c: 'Rawalpindi 拉瓦尔品第. Bhutto and his wife give a banquet for Chen Yi 陈毅; he speaks: the boundary marking done; Asian and African boundary questions can be settled by equality and consultation without great-power chauvinism.'
+      n: '[[w.chen-yi-nianpu]], 1092. The words: 晚上 (1092). Names: Chen Yi, Bhutto.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:bhutto-zulfikar-ali
+- add:
+    entry:
+      id: cal.1965-03-26.china-leadership-15
+      when: Mar. 26
+      date: '1965-03-26'
+      time_range:
+      - 1965-03-26T01:00Z
+      - 1965-03-26T07:00Z
+      time_band: morning
+      time_zone: Asia/Karachi
+      place: rawalpindi
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Rawalpindi 拉瓦尔品第. Chen Yi 陈毅 and Bhutto sign the China–Pakistan boundary protocol and the agreement on cultural cooperation.
+      n: '[[w.chen-yi-nianpu]], 1092. The words: 上午 (1092). Names: Chen Yi, Bhutto.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:bhutto-zulfikar-ali
+- add:
+    entry:
+      id: cal.1965-03-26.china-leadership-16
+      when: Mar. 26
+      date: '1965-03-26'
+      time_range:
+      - 1965-03-26T07:00Z
+      - 1965-03-26T09:00Z
+      time_band: workday midday
+      time_zone: Asia/Karachi
+      place: rawalpindi
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Rawalpindi 拉瓦尔品第. Khan Abdus Sabur Khan 汗·阿卜杜勒·萨布尔·汗, Pakistan's Minister of Communications, gives a luncheon for Chen Yi 陈毅, who speaks of the two countries' friendship.
+      n: '[[w.chen-yi-nianpu]], 1092. The words: 午宴 (1092). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-26.china-leadership-17
+      when: Mar. 26
+      date: '1965-03-26'
+      time_range:
+      - 1965-03-26T07:00Z
+      - 1965-03-26T13:00Z
+      time_band: afternoon
+      time_zone: Asia/Karachi
+      place: taxila
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅, with Khan Abdus Sabur Khan, sees the ruins of the Buddhist city of Taxila 泰格西拉.
+      n: '[[w.chen-yi-nianpu]], 1092. The words: 下午 (1092). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-26.china-leadership-18
+      when: Mar. 26
+      date: '1965-03-26'
+      time_range:
+      - 1965-03-26T14:00Z
+      - 1965-03-26T17:00Z
+      time_band: evening
+      time_zone: Asia/Karachi
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Mohammed Shoaib 沙伊卜, Pakistan's Minister of Finance, gives a banquet for Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1092. The words: 晚上 (1092). Names: Chen Yi, Shoaib.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:shoaib-mohammed
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-27.china-leadership-9
+      when: Mar. 27
+      date: '1965-03-27'
+      time_range:
+      - 1965-03-27T07:00Z
+      - 1965-03-27T09:00Z
+      time_band: workday midday
+      time_zone: Asia/Karachi
+      thread: china-leadership
+      also:
+      - south-asia
+      c: 法鲁克, former Governor of East Pakistan, gives a banquet for Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1092. The words: 中午 (1092). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-27.china-leadership-10
+      when: Mar. 27
+      date: '1965-03-27'
+      time_range:
+      - 1965-03-27T07:00Z
+      - 1965-03-27T13:00Z
+      time_band: afternoon
+      time_zone: Asia/Karachi
+      place:
+      - rawalpindi
+      - karachi
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 goes from Rawalpindi 拉瓦尔品第 to Karachi 卡拉奇.
+      n: '[[w.chen-yi-nianpu]], 1092. The words: 下午 (1092). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-27.china-leadership-11
+      when: Mar. 27
+      date: '1965-03-27'
+      time_range:
+      - 1965-03-27T07:00Z
+      - 1965-03-27T13:00Z
+      time_band: afternoon
+      time_zone: Asia/Karachi
+      place: karachi
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Karachi 卡拉奇. Chen Yi 陈毅 lays a wreath at the tomb of Mohammed Ali Jinnah, Pakistan's first Governor-General.
+      n: '[[w.chen-yi-nianpu]], 1092–1093. The words: 下午 (1092–1093). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-27.china-leadership-12
+      when: Mar. 27
+      date: '1965-03-27'
+      time_range:
+      - 1965-03-27T14:00Z
+      - 1965-03-27T17:00Z
+      time_band: evening
+      time_zone: Asia/Karachi
+      place: karachi
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Karachi 卡拉奇. Chen Yi 陈毅 speaks at the Karachi municipal corporation's banquet for him on the boundary protocol and the cultural agreement, great fruits of the two countries' cooperation.
+      n: '[[w.chen-yi-nianpu]], 1093. The words: 晚上 (1093). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-28.china-leadership-11
+      when: Mar. 28
+      date: '1965-03-28'
+      time_range:
+      - 1965-03-28T01:00Z
+      - 1965-03-28T07:00Z
+      time_band: morning
+      time_zone: Asia/Karachi
+      place: karachi
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Karachi 卡拉奇. Chen Yi 陈毅, with Bhutto, tours the seaside and lunches there.
+      n: '[[w.chen-yi-nianpu]], 1093. The words: 上午 (1093). Names: Chen Yi, Bhutto.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:bhutto-zulfikar-ali
+- add:
+    entry:
+      id: cal.1965-03-28.china-leadership-12
+      when: Mar. 28
+      date: '1965-03-28'
+      time_range:
+      - 1965-03-28T14:00Z
+      - 1965-03-28T17:00Z
+      time_band: evening
+      time_zone: Asia/Karachi
+      place: karachi
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Karachi 卡拉奇. Ding Guoyu 丁国钰, the Chinese Ambassador, and his wife give a banquet for Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1093. The words: 晚上 (1093). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-29.china-leadership-9
+      when: Mar. 29
+      date: '1965-03-29'
+      place:
+      - karachi
+      - dacca
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 goes from Karachi 卡拉奇 to Dacca 达卡, capital of East Pakistan.
+      n: '[[w.chen-yi-nianpu]], 1093. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-29.china-leadership-10
+      when: Mar. 29
+      date: '1965-03-29'
+      time_range:
+      - 1965-03-29T13:00Z
+      - 1965-03-29T16:00Z
+      time_band: evening
+      time_zone: Asia/Dhaka
+      place: dacca
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Dacca 达卡, Government House. Abdul Monem Khan 阿卜杜勒·穆奈姆·汗, Governor of East Pakistan, gives a banquet for Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1093. The words: 晚上 (1093). Names: Chen Yi, Monem Khan.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:khan-abdul-monem
+- add:
+    entry:
+      id: cal.1965-03-30.china-leadership-15
+      when: Mar. 30
+      date: '1965-03-30'
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Ahmad Shukairy cables Chen Yi 陈毅 and Zhang Xiruo 张奚若 his thanks for China's support of the Palestinian Arabs' struggle.
+      n: '[[w.chen-yi-nianpu]], 1093. Names: Chen Yi, Shukairy.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:shukairy-ahmad
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-30.china-leadership-16
+      when: Mar. 30
+      date: '1965-03-30'
+      place: katmandu
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kathmandu 加德满都, the Singha Durbar. Chen Yi 陈毅 calls on Kirti Nidhi Bista 基尔提·尼迪·比斯塔, Vice-Chairman of the Council of Ministers and Foreign Minister.
+      n: '[[w.chen-yi-nianpu]], 1093. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-30.china-leadership-17
+      when: Mar. 30
+      date: '1965-03-30'
+      time_range:
+      - 1965-03-30T06:30Z
+      - 1965-03-30T12:30Z
+      time_band: afternoon
+      time_zone: Asia/Kathmandu
+      place: katmandu
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kathmandu 加德满都. Chen Yi 陈毅 lays a wreath at the martyrs' memorial by the central square and sees Kathmandu and Patan 帕坦.
+      n: '[[w.chen-yi-nianpu]], 1093. The words: 下午 (1093). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-30.china-leadership-18
+      when: Mar. 30
+      date: '1965-03-30'
+      time_range:
+      - 1965-03-30T13:30Z
+      - 1965-03-30T16:30Z
+      time_band: evening
+      time_zone: Asia/Kathmandu
+      place: katmandu
+      thread: china-leadership
+      also:
+      - south-asia
+      c: 'Kathmandu 加德满都. Kirti Nidhi Bista 基尔提·尼迪·比斯塔 gives a banquet for Chen Yi 陈毅, who speaks: thanks for Nepal''s support in world affairs; "a peaceful border, a road of friendship, a treaty of peace and friendship" the best witness of the friendship.'
+      n: '[[w.chen-yi-nianpu]], 1093. The words: 晚上 (1093). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-31.china-leadership-13
+      when: Mar. 31
+      date: '1965-03-31'
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Chen Yi 陈毅 cables Subandrio on the fourth anniversary of the China–Indonesia treaty of friendship.
+      n: '[[w.chen-yi-nianpu]], 1093–1094. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:subandrio
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-31.china-leadership-14
+      when: Mar. 31
+      date: '1965-03-31'
+      time_range:
+      - 1965-03-31T00:30Z
+      - 1965-03-31T06:30Z
+      time_band: morning
+      time_zone: Asia/Kathmandu
+      place: katmandu
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kathmandu 加德满都. Kirti Nidhi Bista 基尔提·尼迪·比斯塔 returns Chen Yi's 陈毅 call.
+      n: '[[w.chen-yi-nianpu]], 1094. The words: 上午 (1094). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-31.china-leadership-15
+      when: Mar. 31
+      date: '1965-03-31'
+      time_range:
+      - 1965-03-31T00:30Z
+      - 1965-03-31T06:30Z
+      time_band: morning
+      time_zone: Asia/Kathmandu
+      place: katmandu
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kathmandu 加德满都. Chen Yi 陈毅 calls on Surya Bahadur Thapa 苏里雅·巴哈杜尔·塔帕, Chairman of the Council of Ministers.
+      n: '[[w.chen-yi-nianpu]], 1094. The words: 上午 (1094). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-31.china-leadership-16
+      when: Mar. 31
+      date: '1965-03-31'
+      time_range:
+      - 1965-03-31T06:30Z
+      - 1965-03-31T08:30Z
+      time_band: workday midday
+      time_zone: Asia/Kathmandu
+      place: katmandu
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kathmandu 加德满都. Surya Bahadur Thapa 苏里雅·巴哈杜尔·塔帕 gives a luncheon for Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1094. The words: 中午 (1094). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-31.china-leadership-17
+      when: Mar. 31
+      date: '1965-03-31'
+      time_range:
+      - 1965-03-31T06:30Z
+      - 1965-03-31T12:30Z
+      time_band: afternoon
+      time_zone: Asia/Kathmandu
+      place: katmandu
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kathmandu 加德满都, the royal palace. King Mahendra receives Chen Yi 陈毅 and gives him tea.
+      n: '[[w.chen-yi-nianpu]], 1094. The words: 下午 (1094). Names: Chen Yi, Mahendra.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+      - name:mahendra-bir-bikram-shah-deva
+- add:
+    entry:
+      id: cal.1965-03-31.china-leadership-18
+      when: Mar. 31
+      date: '1965-03-31'
+      time_range:
+      - 1965-03-31T13:30Z
+      - 1965-03-31T16:30Z
+      time_band: evening
+      time_zone: Asia/Kathmandu
+      place: katmandu
+      thread: china-leadership
+      also:
+      - south-asia
+      c: 'Kathmandu 加德满都. Chen Yi 陈毅 speaks at the Nepal–China Friendship Association''s reception for his visit: Nepal, peaceful, neutral and freedom-loving, has its own view of world affairs; true neutrality is support for the truth.'
+      n: '[[w.chen-yi-nianpu]], 1094. The words: 晚上 (1094). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-03-31.china-leadership-19
+      when: Mar. 31
+      date: '1965-03-31'
+      time_range:
+      - 1965-03-31T13:30Z
+      - 1965-03-31T16:30Z
+      time_band: evening
+      time_zone: Asia/Kathmandu
+      place: katmandu
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kathmandu 加德满都, the National Theater. Chen Yi 陈毅 at the evening of arts in his welcome; at its end goes on the stage to be photographed with the performers.
+      n: '[[w.chen-yi-nianpu]], 1094. The words: 晚上 (1094). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-04-01.china-leadership-8
+      when: Apr. 1
+      date: '1965-04-01'
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 and Lu Dingyi 陆定一, Vice-Premier and Minister of Culture, receive the thanks cable of Hassan Muraywid 哈桑·穆拉维德, Syria's Foreign Minister.
+      n: '[[w.chen-yi-nianpu]], 1094. Names: Chen Yi, Lu Dingyi.'
+      tags:
+      - polity:prc
+      - polity:syria
+      - name:chen-yi
+      - name:lu-dingyi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-04-01.china-leadership-9
+      when: Apr. 1
+      date: '1965-04-01'
+      time_range:
+      - 1965-04-01T00:30Z
+      - 1965-04-01T06:30Z
+      time_band: morning
+      time_zone: Asia/Kathmandu
+      place: katmandu
+      thread: china-leadership
+      c: Kathmandu 加德满都, the Chinese Embassy. Chen Yi 陈毅 receives the embassy's staff and the Chinese experts working in Nepal and is photographed with them.
+      n: '[[w.chen-yi-nianpu]], 1094. The words: 上午 (1094). Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1965-04-01.china-leadership-10
+      when: Apr. 1
+      date: '1965-04-01'
+      time_range:
+      - 1965-04-01T00:30Z
+      - 1965-04-01T06:30Z
+      time_band: morning
+      time_zone: Asia/Kathmandu
+      place: katmandu
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Kathmandu 加德满都. Chen Yi 陈毅 sees the tannery and shoe factory being built northwest of the city.
+      n: '[[w.chen-yi-nianpu]], 1094. The words: 上午 (1094). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-04-02.china-leadership-14
+      when: Apr. 2
+      date: '1965-04-02'
+      time_range:
+      - 1965-04-02T00:30Z
+      - 1965-04-02T06:30Z
+      time_band: morning
+      time_zone: Asia/Kathmandu
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 sees the Kathmandu–Kodari road under construction at 巴内巴, some 30 miles from Kathmandu, and on the way back the old city of Bhaktapur 巴克塔普尔.
+      n: '[[w.chen-yi-nianpu]], 1094. The words: 上午 (1094). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-04-03.china-leadership-6
+      when: Apr. 3
+      date: '1965-04-03'
+      thread: china-leadership
+      c: Chen Yi 陈毅 cables Péter János on the twentieth anniversary of Hungary's liberation.
+      n: '[[w.chen-yi-nianpu]], 1094. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:hungary
+      - name:chen-yi
+      - name:peter-janos
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-04-03.china-leadership-7
+      when: Apr. 3
+      date: '1965-04-03'
+      time_range:
+      - 1965-04-03T00:30Z
+      - 1965-04-03T06:30Z
+      time_band: morning
+      time_zone: Asia/Kathmandu
+      place: katmandu
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 leaves Kathmandu 加德满都 for home.
+      n: '[[w.chen-yi-nianpu]], 1094. The words: 上午 (1094). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-04.china-leadership-3
+      when: Apr., after the 3rd
+      date: 1965-04
+      at: after 1965-04-03
+      thread: china-leadership
+      c: Chen Yi 陈毅 writes three *ci* to the tune "Die lian hua," "Visiting three Asian countries" 《蝶恋花·访问亚洲三国》.
+      n: '[[w.chen-yi-nianpu]], 1094. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-04-03.china-leadership-8
+      when: Apr. 3
+      date: '1965-04-03'
+      thread: china-leadership
+      c: 'On his way home, Chen Yi 陈毅 stops at Airfield No. 14 of the PLA''s No. 20 Training Base 第20训练基地 in the northwest, the atomic bomb and missile launching base, inspects its technical and launching positions and reports on the world situation to its cadres: "make the two bombs quickly, and the Foreign Minister''s back will be straighter."'
+      n: '[[w.chen-yi-nianpu]], 1094–1095. Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - ok:fields-place
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1965-04-03.china-leadership-9
+      when: Apr. 3
+      date: '1965-04-03'
+      time_range:
+      - 1965-04-03T04:00Z
+      - 1965-04-03T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: kunming
+      thread: china-leadership
+      c: Chen Yi 陈毅 leaves the base for Kunming 昆明; to the base's leaders seeing him off, 栗在山 among them, he says he will have the Premier come and see it.
+      n: '[[w.chen-yi-nianpu]], 1095. The words: 下午 (1095). Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1965-04-04.china-leadership-7
+      when: Apr. 4
+      date: '1965-04-04'
+      place: kunming
+      thread: china-leadership
+      c: Kunming 昆明. At the Qingming festival (the third of the third lunar month) Chen Yi 陈毅 joins the great outing to the Western Hills 西山 and writes the poem "Touring the Western Hills at Kunming" 《昆明游西山》.
+      n: '[[w.chen-yi-nianpu]], 1095. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1965-04-06.china-leadership-10
+      when: Apr. 6
+      date: '1965-04-06'
+      time_range:
+      - 1965-04-06T04:00Z
+      - 1965-04-06T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 at the airport to welcome Zulfikar Sabri, adviser on foreign affairs to the UAR's President, and his wife.
+      n: '[[w.chen-yi-nianpu]], 1095. The words: 下午 (1095). Names: Chen Yi, Sabri.'
+      tags:
+      - polity:prc
+      - polity:uar
+      - name:chen-yi
+      - name:sabri-zulficar
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-04-07.china-leadership-7
+      when: Apr. 7
+      date: '1965-04-07'
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Chen Yi 陈毅 cables Nguyễn Duy Trinh, the DRV's Deputy Prime Minister, congratulating him on his appointment as Foreign Minister.
+      n: '[[w.chen-yi-nianpu]], 1095. Names: Chen Yi, Nguyễn Duy Trinh.'
+      tags:
+      - polity:prc
+      - polity:drv
+      - name:chen-yi
+      - name:nguyen-duy-trinh
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-04-07.china-leadership-8
+      when: Apr. 7
+      date: '1965-04-07'
+      time_range:
+      - 1965-04-06T22:00Z
+      - 1965-04-07T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 meets Zulfikar Sabri and holds talks with him.
+      n: '[[w.chen-yi-nianpu]], 1095. The words: 上午 (1095). Made public: 1995. Names: Chen Yi, Sabri.'
+      tags:
+      - polity:prc
+      - polity:uar
+      - name:chen-yi
+      - name:sabri-zulficar
+      - ok:fields-place
+      - vis:only:prc+uar
+- add:
+    entry:
+      id: cal.1965-04-07.china-leadership-9
+      when: Apr. 7
+      date: '1965-04-07'
+      thread: china-leadership
+      c: 'Chen Yi 陈毅 writes an inscription for the Foreign Ministry''s exhibition on studying Chairman Mao''s works: learn his method of analyzing and solving problems, not dead phrases.'
+      n: '[[w.chen-yi-nianpu]], 1095. Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - ok:fields-place
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1965-04-07.china-leadership-10
+      when: Apr. 7
+      date: '1965-04-07'
+      time_range:
+      - 1965-04-07T11:00Z
+      - 1965-04-07T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: 'Chen Yi 陈毅 gives a banquet for Zulfikar Sabri and speaks: condemns American imperialism''s collusion with West German militarism and Zionism against the Arab states; the UAR''s important place in the Arab struggle.'
+      n: '[[w.chen-yi-nianpu]], 1095. The words: 晚上 (1095). Names: Chen Yi, Sabri.'
+      tags:
+      - polity:prc
+      - polity:uar
+      - name:chen-yi
+      - name:sabri-zulficar
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-04-07.china-leadership-11
+      when: Apr. 7
+      date: '1965-04-07'
+      time_range:
+      - 1965-04-07T11:00Z
+      - 1965-04-07T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 receives the delegation of the Arab Socialist Union's youth organization led by 哈迪迪.
+      n: '[[w.chen-yi-nianpu]], 1095. The words: 晚上 (1095). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:uar
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-04-08.china-leadership-8
+      when: Apr. 8
+      date: '1965-04-08'
+      time_range:
+      - 1965-04-07T22:00Z
+      - 1965-04-08T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 continues the talks with Zulfikar Sabri.
+      n: '[[w.chen-yi-nianpu]], 1095. The words: 上午 (1095). Made public: 1995. Names: Chen Yi, Sabri.'
+      tags:
+      - polity:prc
+      - polity:uar
+      - name:chen-yi
+      - name:sabri-zulficar
+      - ok:fields-place
+      - vis:only:prc+uar
+- add:
+    entry:
+      id: cal.1965-04-08.china-leadership-9
+      when: Apr. 8
+      date: '1965-04-08'
+      time_range:
+      - 1965-04-08T04:00Z
+      - 1965-04-08T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 toasts at the luncheon of Imam 伊马姆, the UAR's Ambassador, and his wife at the embassy for Sabri and his wife.
+      n: '[[w.chen-yi-nianpu]], 1095. The words: 午宴 (1095). Names: Chen Yi, Sabri.'
+      tags:
+      - polity:prc
+      - polity:uar
+      - name:chen-yi
+      - name:sabri-zulficar
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-04-08.china-leadership-10
+      when: Apr. 8
+      date: '1965-04-08'
+      time_range:
+      - 1965-04-08T04:00Z
+      - 1965-04-08T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Chen Yi 陈毅 at the capital's meeting welcoming Zulfikar Sabri.
+      n: '[[w.chen-yi-nianpu]], 1095. The words: 下午 (1095). Names: Chen Yi, Sabri.'
+      tags:
+      - polity:prc
+      - polity:uar
+      - name:chen-yi
+      - name:sabri-zulficar
       - ok:fields-place
 - cite:
     id: cal.1964-04-26.china-leadership-2
@@ -6774,7 +8539,7 @@ ops:
     item: '[[w.chen-yi-nianpu]], 1037 (June 24, 1964, evening; Chen Yi speaks at the banquet of Birama Traoré 比拉马·特拉奥雷, Mali''s Ambassador: the American talk of widening the war in Indochina; the Chinese people will not let the fire come to their door; whoever takes China''s call for a Geneva conference for weakness will regret it)'
 - variant:
     id: cal.1964-06-24.china-leadership-2
-    unit: A
+    unit: B
     witness: w.chen-yi-nianpu
     reads: The Malian government delegation is led by Jean-Marie Koné (让-马里·科奈), Minister of State for the coordination of planning and financial affairs
     at: '1037'
@@ -6936,7 +8701,7 @@ ops:
     item: '[[w.chen-yi-nianpu]], 1059 (Oct. 3, 1964, afternoon, the Moroccan Embassy; Moulay Abdallah''s banquet for Zhou and Chen Yi)'
 - variant:
     id: cal.1964-10-03.china-leadership-6
-    unit: A
+    unit: B
     witness: w.chen-yi-nianpu
     reads: Prince Abdallah's banquet for Zhou Enlai and Chen Yi at the Moroccan Embassy is in the afternoon (下午)
     at: '1059'
@@ -7121,6 +8886,9 @@ ops:
     id: cal.1965-01-08.china-leadership-3
     item: '[[w.chen-yi-nianpu]], 1078 (Jan. 8, 1965, afternoon; Paye calls on Chen Yi)'
 - cite:
+    id: cal.1965-01-12.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1079 (Jan. 12, 1965, afternoon; Chen Yi with Liu Shaoqi and Zhou receives the delegation, led by Iskandar 伊斯坎达, Minister of Air Communications)'
+- cite:
     id: cal.1965-01-13.china-2
     item: '[[w.chen-yi-nianpu]], 1079 (Jan. 13, 1965; the reply to Xuân Thủy''s cable of Jan. 10)'
 - cite:
@@ -7129,6 +8897,9 @@ ops:
 - cite:
     id: cal.1965-01-17.china-leadership-3
     item: '[[w.chen-yi-nianpu]], 1080 (Jan. 17, 1965, morning; Utsunomiya and his party)'
+- cite:
+    id: cal.1965-01-17.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1080 (Jan. 17, 1965, afternoon; Chen Yi with Mao, Liu Shaoqi, Zhou, Deng Xiaoping, Dong Biwu, Peng Zhen, Li Fuchun, He Long, Chen Boda, Kang Sheng, Bo Yibo, Ye Jianying and Xie Fuzhi; also the men who twice shot down American pilotless reconnaissance planes and the soldiers'' amateur troupe)'
 - cite:
     id: cal.1965-01-20.china-2
     item: '[[w.chen-yi-nianpu]], 1080 (Jan. 20, 1965; to Gromyko and Gordon Walker, on the F-100s'' and F-105s'' bombing of Ban Ban in the liberated area)'
@@ -7157,6 +8928,9 @@ ops:
     id: cal.1965-01-27.china-leadership-4
     item: '[[w.chen-yi-nianpu]], 1082 (Jan. 27, 1965, evening, the banquet hall of the Great Hall of the People; Chen Yi speaks: the talks'' great results, a joint statement to come; the truly strong are the awakened peoples; Indonesia''s confrontation of "Malaysia" and leaving the United Nations a new stage of the anti-imperialist struggle)'
 - cite:
+    id: cal.1965-01-28.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1082 (Jan. 28, 1965, morning; Chen Yi and Subandrio sign for their governments the joint statement and the two agreements)'
+- cite:
     id: cal.1965-01-28.china-leadership-2
     item: '[[w.chen-yi-nianpu]], 1082 (Jan. 28, 1965, morning; Chen Yi at the airport)'
 - cite:
@@ -7180,3 +8954,165 @@ ops:
 - cite:
     id: cal.1965-02-06.china-leadership-2
     item: '[[w.chen-yi-nianpu]], 1083 (Feb. 6, 1965, morning; Chen Yi at the airport)'
+- cite:
+    id: cal.1965-02-09.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1084 (Feb. 9, 1965, evening; Chen Yi with Zhou receives Babu, Minister of Commerce and Cooperatives, and the delegation)'
+- cite:
+    id: cal.1965-02-10.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1084 (Feb. 10, 1965, morning, Tiananmen Square; Chen Yi with Mao, Liu Shaoqi and the other leaders)'
+- cite:
+    id: cal.1965-02-10.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1084 (Feb. 10, 1965, afternoon; Chen Yi at the airport)'
+- cite:
+    id: cal.1965-02-10.china-leadership-6
+    item: '[[w.chen-yi-nianpu]], 1084 (Feb. 10, 1965, evening; Chen Yi and Zhou give the banquet and take the guests to *The Red Detachment of Women*)'
+- cite:
+    id: cal.1965-02-11.soviet-union
+    item: '[[w.chen-yi-nianpu]], 1084 (Feb. 11, 1965, morning; Mao and Liu Shaoqi receive Kosygin and the Soviet delegation, Chen Yi present)'
+- cite:
+    id: cal.1965-02-11.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1084 (Feb. 11, 1965, noon; Chen Yi present)'
+- cite:
+    id: cal.1965-02-11.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1084 (Feb. 11, 1965, afternoon; Chen Yi at the airport to see off Kosygin''s delegation, leaving for Korea)'
+- cite:
+    id: cal.1965-02-12.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1084 (Feb. 12, 1965, afternoon; Chen Yi with Zhou receives the delegation''s head, Jaber al-Ahmad al-Sabah 贾比尔·艾哈迈德, Minister of Finance and Industry and of Commerce)'
+- cite:
+    id: cal.1965-02-15.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1085 (Feb. 15, 1965, evening; Chen Yi speaks: the treaty the fruit of the two peoples'' fighting friendship; weakening the alliance serves only imperialism headed by the United States; China has always treasured Sino-Soviet unity)'
+- cite:
+    id: cal.1965-02-16.china
+    item: '[[w.chen-yi-nianpu]], 1085 (Feb. 16, 1965)'
+- cite:
+    id: cal.1965-02-17.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1085 (Feb. 17, 1965, morning; Chen Yi at the airport)'
+- cite:
+    id: cal.1965-02-17.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1085 (Feb. 17, 1965, evening; Liu Shaoqi and Wang Guangmei, Zhou and Deng Yingchao meet the Nyereres, Chen Yi present)'
+- cite:
+    id: cal.1965-02-17.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1085 (Feb. 17, 1965, evening, the banquet hall of the Great Hall of the People; Chen Yi present)'
+- cite:
+    id: cal.1965-02-18.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1085 (Feb. 18, 1965, afternoon, Liu Shaoqi and Zhou return Nyerere''s call at the guesthouse and hold talks, Chen Yi taking part; Feb. 19, afternoon, Mao receives Nyerere, Chen Yi present)'
+- cite:
+    id: cal.1965-02-18.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1085–1086 (Feb. 18, 1965, evening, the Peking Hotel; Chen Yi speaks at the reception of 山谢尔·巴哈杜尔, Nepal''s Ambassador: China ready to be the firm rear of the Vietnamese people; condemns the American and West German build-up of Israel against the Arab states)'
+- cite:
+    id: cal.1965-02-19.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1086 (Feb. 19, 1965, evening, the Great Hall of the People; Chen Yi present)'
+- cite:
+    id: cal.1965-02-20.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1086 (Feb. 20, 1965, noon; the banquet of the envoys of the UAR, Mali, Guinea, Ghana, Algeria, Congo (Brazzaville), Kenya, Morocco and Tanzania; Chen Yi present)'
+- cite:
+    id: cal.1965-02-20.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1086 (Feb. 20, 1965, afternoon; Chen Yi at the signing)'
+- cite:
+    id: cal.1965-02-20.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1086 (Feb. 20, 1965, afternoon; Chen Yi present)'
+- cite:
+    id: cal.1965-02-20.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1086 (Feb. 20, 1965, evening, the Great Hall of the People; Chen Yi present)'
+- cite:
+    id: cal.1965-02-21.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1086 (Feb. 21, 1965, morning, Chen Yi with Liu Shaoqi and Wang Guangmei accompanies the Nyereres from Peking to Nanjing; afternoon, with Liu, Wang and Xu Shiyou 许世友, at the display of a PLA unit and the Nanjing militia in rain and snow)'
+- cite:
+    id: cal.1965-02-22.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1087 (Feb. 22, 1965, 11:40 a.m.; Chen Yi with Liu Shaoqi accompanies the Nyereres from Nanjing to Shanghai)'
+- cite:
+    id: cal.1965-02-23.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1087 (Feb. 23, 1965; Chen Yi at the Shanghai airport)'
+- cite:
+    id: cal.1965-02-28.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1087 (Feb. 28, 1965, afternoon)'
+- cite:
+    id: cal.1965-03-02.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1087 (Mar. 2, 1965, afternoon; Chen Yi at the airport)'
+- cite:
+    id: cal.1965-03-02.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1087 (Mar. 2, 1965, evening, the banquet hall of the Great Hall of the People; Liu Shaoqi meets Ayub Khan, Chen Yi present; Chen Yi at the banquet)'
+- cite:
+    id: cal.1965-03-02.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1087 (Mar. 3, 1965, afternoon; Liu Shaoqi returns Ayub Khan''s call at the guesthouse and holds talks, Chen Yi taking part)'
+- cite:
+    id: cal.1965-03-03.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1087–1088 (Mar. 3, 1965, evening; Chen Yi with Liu Shaoqi and Zhou accompanies Ayub Khan, his daughter Begum Aurangzeb, Bhutto and his wife; Peking opera)'
+- cite:
+    id: cal.1965-03-04.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1088 (Mar. 4, 1965, afternoon)'
+- cite:
+    id: cal.1965-03-04.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1088 (Mar. 4, 1965, evening, at Raza''s home; Chen Yi present)'
+- cite:
+    id: cal.1965-03-05.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1088 (Mar. 5, 1965, afternoon, the Great Hall of the People; Chen Yi present)'
+- cite:
+    id: cal.1965-03-05.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1088 (Mar. 5, 1965, evening; Chen Yi present)'
+- cite:
+    id: cal.1965-03-05.china-leadership-6
+    item: '[[w.chen-yi-nianpu]], 1088 (Mar. 5, 1965, evening, the Peking Hotel; Chen Yi speaks at Filali''s reception: Morocco''s part in world affairs; the five principles of China''s relations with the Arab states; condemns the American and West German arms for Israel and the interference in the UAR''s relations with East Germany; China will never bargain with the enemy behind its friends'' backs)'
+- cite:
+    id: cal.1965-03-06.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1088 (Mar. 6, 1965, morning; Chen Yi with Zhou accompanies Ayub Khan to Badaling, the Ming Tombs Reservoir and the Dingling)'
+- cite:
+    id: cal.1965-03-06.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1088–1089 (Mar. 6, 1965, evening; Chen Yi present)'
+- cite:
+    id: cal.1965-03-07.china
+    item: '[[w.chen-yi-nianpu]], 1089 (Mar. 7, 1965; Chen Yi and Bhutto sign the joint communiqué for their sides)'
+- cite:
+    id: cal.1965-03-07.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1089 (Mar. 7, 1965, morning, Chen Yi with Zhou and Zhang Qian accompanies Ayub Khan from Peking to Hangzhou; Mar. 8, morning, to Shanghai; Mar. 9, afternoon, Soong Ching-ling meets Ayub Khan, Zhou and Chen Yi present)'
+- cite:
+    id: cal.1965-03-07.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1089 (Mar. 7, 1965, afternoon; Chen Yi with Zhou, Zhang Qian, Zhou Jianren and others)'
+- cite:
+    id: cal.1965-03-07.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1089 (Mar. 7, 1965, evening; the banquet of Zhou Jianren and his wife; Chen Yi present)'
+- cite:
+    id: cal.1965-03-08.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1089 (Mar. 8, 1965; Chen Yi with Zhou at Wusongkou)'
+- cite:
+    id: cal.1965-03-08.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1089 (Mar. 8, 1965, evening; Chen Yi present)'
+- cite:
+    id: cal.1965-03-09.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1089 (Mar. 9, 1965, evening; Chen Yi at the Shanghai airport)'
+- cite:
+    id: cal.1965-03-18.china
+    item: '[[w.chen-yi-nianpu]], 1090 (Mar. 17, 1965; the reply to Koun Wick''s 坤·维克 cable of Mar. 15, which passed on the Indochinese People''s Conference''s call for an international conference on Cambodia)'
+- variant:
+    id: cal.1965-03-18.china
+    unit: A
+    witness: w.chen-yi-nianpu
+    reads: Chen Yi cables his reply to Cambodia's Foreign Minister on Mar. 17
+    at: '1090'
+- cite:
+    id: cal.1965-03-18.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1090 (Mar. 18, 1965, evening; Chen Yi speaks: support for the Arab peoples against the United States and its tool Israel and against West German militarism; for the Palestinian Arabs'' return home)'
+- cite:
+    id: cal.1965-03-19.china-leadership-7
+    item: '[[w.chen-yi-nianpu]], 1090 (Mar. 19, 1965; Chen Yi leaves Peking for Afghanistan and the other countries)'
+- cite:
+    id: cal.1965-03-22.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1090–1091 (Chen Yi leaves Peking on Mar. 19, 1965, and reaches Kabul on the afternoon of Mar. 22)'
+- variant:
+    id: cal.1965-03-22.china-leadership-4
+    unit: A
+    witness: w.chen-yi-nianpu
+    reads: Chen Yi leaves Peking on Mar. 19 (Yang Shangkun's diary has him at Xi'an that day); on Mar. 22 he reaches Kabul in the afternoon
+    at: 1090–1091
+- cite:
+    id: cal.1965-03-20.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1090–1091 (Mar. 20, 1965; in the Romanian Embassy''s hall, under Gheorghiu-Dej''s portrait, the wreaths of Mao, Liu Shaoqi, Zhou, Zhu De, Soong Ching-ling, Dong Biwu, Lin Biao and Chen Yi)'
+- cite:
+    id: cal.1965-03-25.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1092 (Mar. 25, 1965, morning; Chen Yi flies from Kabul to Rawalpindi, cabling his thanks to Afghanistan''s leaders from the plane)'
+- cite:
+    id: cal.1965-03-30.china-leadership-6
+    item: '[[w.chen-yi-nianpu]], 1093 (Mar. 30, 1965; Chen Yi flies from Dacca to Kathmandu, cabling his thanks to Bhutto as he leaves Pakistan)'
+- cite:
+    id: cal.1965-04-06.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1095 (Apr. 6, 1965, noon; Chen Yi back in Peking)'
