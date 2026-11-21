@@ -274,3 +274,7 @@ Opus audit of patch `2026-11-20-b15c-dikotter-5`, against a fresh fetch of the s
 - `- {at: '143 n.63', of: x.1961.shanghai-file-b181-1-510, kind: citation}`
 
 Keep (`./bib resolve ID --take keep`) the possible-duplicate flags on all four adds: `cal.1960-12.china-4` (against `cal.1960-12.china`, `-2`), `cal.1961-05-05.china-leadership-7` (against `cal.1961-05-05.china-leadership` to `-6`, the day's), `cal.1961.china-leadership-53` and `cal.1961-01.china-leadership-22` (against their year's and month's entries in the thread): none is one event with another. A lead for a later pass: `cal.1961.china-leadership-49` (Luoding) lacks `place:`; the key `luoding` arrives with this patch.
+
+## Correction, Nov. 21 (the lead)
+
+The audits' rule that "a condition — a share, a prevalence, a habit, a count — is not an entry" was the lead's error (the briefs' "narrative of conditions"), not a ruling: the owner questioned it on Nov. 21 ("what's this new "conditions"/"events" exclusion condition you've made up?"). R5 decides and R18 alone removes; a condition a source reports for a date is an entry as reported (`form:state`, notes/guide/entries.md), and a dated report or file is an entry by R8. The items dropped or passed over on that ground are being restored (patch `2026-11-21-conditions-restore`). The author's own estimates and interpretation stay out pending the owner's answer.

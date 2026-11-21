@@ -172,3 +172,7 @@ Made by listing every date on the pages read and setting each against the calend
 ## Where run 3 starts
 
 Ch. 5 is out of the span after p. 183 except its retrospects (p. 196 above); the book is read for the span. A run 3, if wanted, takes p. 196's retrospect and the leads.
+
+## Correction, Nov. 21 (the lead)
+
+The audits' rule that "a condition — a share, a prevalence, a habit, a count — is not an entry" was the lead's error (the briefs' "narrative of conditions"), not a ruling: the owner questioned it on Nov. 21 ("what's this new "conditions"/"events" exclusion condition you've made up?"). R5 decides and R18 alone removes; a condition a source reports for a date is an entry as reported (`form:state`, notes/guide/entries.md), and a dated report or file is an entry by R8. The items dropped or passed over on that ground are being restored (patch `2026-11-21-conditions-restore`). The author's own estimates and interpretation stay out pending the owner's answer.

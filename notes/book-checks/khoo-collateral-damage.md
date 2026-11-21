@@ -97,3 +97,7 @@ Opus audit, Saturday, Nov. 21, 2026, early morning, Pacific. The Drive copy fetc
 6. Date an act by the record its notes name, and where another entry of the tree names that record's day (a reply naming the letter it answers), take the day with a Check.
 7. A closed session, a secret letter or an internal report is `vis:only:` from the first writing; a public statement none; an act whose forum the page does not name, none, with the Check "to whom, and whether in public."
 8. Run 2 begins with the passing mentions of chs. 4–6 listed under "Where run 2 starts"; read their notes whole and decode the calls as here.
+
+## Correction, Nov. 21 (the lead)
+
+The audits' rule that "a condition — a share, a prevalence, a habit, a count — is not an entry" was the lead's error (the briefs' "narrative of conditions"), not a ruling: the owner questioned it on Nov. 21 ("what's this new "conditions"/"events" exclusion condition you've made up?"). R5 decides and R18 alone removes; a condition a source reports for a date is an entry as reported (`form:state`, notes/guide/entries.md), and a dated report or file is an entry by R8. The items dropped or passed over on that ground are being restored (patch `2026-11-21-conditions-restore`). The author's own estimates and interpretation stay out pending the owner's answer.

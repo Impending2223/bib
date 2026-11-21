@@ -233,3 +233,7 @@ Made by reading each page for dated acts and setting each against the calendar; 
 ## Where run 4 starts
 
 The span is read to its end (Jan. 19, 1970). Left for another reader: p. 639's Mansfield speech of 1968 (n.111); the chapters before ch. 21 for any act of 1960 or later they flash forward to (run 1 read ch. 20 to its end).
+
+## Correction, Nov. 21 (the lead)
+
+The audits' rule that "a condition — a share, a prevalence, a habit, a count — is not an entry" was the lead's error (the briefs' "narrative of conditions"), not a ruling: the owner questioned it on Nov. 21 ("what's this new "conditions"/"events" exclusion condition you've made up?"). R5 decides and R18 alone removes; a condition a source reports for a date is an entry as reported (`form:state`, notes/guide/entries.md), and a dated report or file is an entry by R8. The items dropped or passed over on that ground are being restored (patch `2026-11-21-conditions-restore`). The author's own estimates and interpretation stay out pending the owner's answer.
