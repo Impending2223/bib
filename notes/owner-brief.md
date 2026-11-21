@@ -976,3 +976,31 @@ At the very least, could we not give the 普通話 Pinyin for the names?
 >>> China: Leadership
 Peking · afternoon
 Chen Yi receives foreign trade-union delegations and representatives in China for National Day (Albania’s under 培利卡·比库里, Indonesia’s SOBSI under 普梭诺, the Japanese national railway and locomotive unions’ under 神户世志夫, the Fukuoka prefectural council’s under Ono Akira, the Algerian General Union of Workers’ under 阿比卜·穆罕默德, Ghana’s agricultural union’s under Benjamin Annan, Portuguese Guinea’s under 贝比阿诺·达尔玛达, the Australian building unions’ under 达纳赫, and New Zealand’s and 博恩)."
+
+## Nov. 21, 2026, 11:10 a.m. Pacific
+
+"The citation block to the October 1, 1963 entry seems to suggest that, as one would expect, far more people were at the 14th anniversary National Day parade than Yang Shangkun. 
+
+Shouldn't this material go out of the citation block and into the entry, and the name tags?
+
+[the entry and its citation block, quoted]
+
+We should probably put the 普通話 CJK in the aliases once we've settled on it, no?
+"The Senate sat from noon to 7:02 p.m." should only be in the first footnote here. 
+
+The balance of the footnotes, after the Daily Digest, appear to be garbled, but I'm not sure how. 
+
+If those are notes about what's in the cited matter, they should be in parentheticals. If they're not meant to be there at all, I'm not sure why the Daily Digest citation that precedes them would end with a semicolon. If something else is supposed to be there, it's not clear to me what it might be. 
+
+If we are going to cite as-enacted statutes in the footnotes, though, we should give the full Bluebook form on their first appearance, rather than the bare "XXX Stat. YYY" we give them in the body text.
+
+[the Civil rights: the executive entry, Oct. 1963, quoted]
+
+Could we give the CJK in the "Names" entries, following the Romanization? And could we properly link the CJK given in the "Names:"? 
+The October 2, 1963 entry on JFK, RSM, and Maxwell Taylor meeting seems like a more egregious example of the National Day problem I highlighted earlier. 
+
+That is, there's a lot of material, of added detail, in the citation block that seems should be in the entry. 
+
+Do our readers and auditors not have permission to add to the entries? Is there a way we could permit them to build on what's already there?
+
+[the Vietnam: Force levels entry, Oct. 2, 1963, and its four footnotes, quoted]"
