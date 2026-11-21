@@ -300,6 +300,17 @@ entries:
         - 'w.friedman-shadow-cold-war 84: all'
         - 'via x.1962-06-02.prc-embassy-moscow-mfa-june-2-1962: ?'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-06-02.vietnam-hanoi
+    when: June 2
+    date: '1962-06-02'
+    place: hanoi
+    thread: vietnam-hanoi
+    c: Hanoi, Children's Day; Hồ Chí Minh, seldom absent, not there, nor seen in public in Hanoi in June.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 226. To check: FO 371/166709, DV 1016/18, 2 July 1962, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 226 n.103a). Names: Hồ Chí Minh.'
+    src:
+      rows:
+        - 'via x.1962-07-02.fo-166709-dv-1016-18: ?'
+    tags: [polity:drv, name:ho-chi-minh]
   - id: cal.1962-06-03.robert-kennedy
     when: June 3
     date: '1962-06-03'
@@ -1261,6 +1272,13 @@ entries:
       - 1962-06-07T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-06-07.laos
+    when: June 7
+    date: '1962-06-07'
+    thread: laos
+    c: The negotiations of the three princes reopen.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 225.'
+    tags: [polity:laos, ok:fields-place]
   - id: cal.1962-06-08.soviet-union-space
     when: June 8
     date: '1962-06-08'
@@ -1739,13 +1757,14 @@ entries:
     date: '1962-06-11'
     thread: laos
     c: 'Phoumi, moved by his relative Sarit, accepts a government under Souvanna: Souvanna premier and defense minister; Phoumi and Souphanouvong deputy premiers with a veto, Phoumi finance minister; seven seats for the neutralists, four each for the Phoumists and the Pathet Lao, four for right-wing neutralists.'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 255; [[w.poole-joint-chiefs-of-staff]], 137; [[w.lich-su-khang-chien-chong-my]], III, 133 (June 12, 1962: the three Lao parties agree to form a coalition government). Names: Phoumi Nosavan, Sarit, Souvanna Phouma, Souphanouvong.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 255; [[w.poole-joint-chiefs-of-staff]], 137; [[w.lich-su-khang-chien-chong-my]], III, 133 (June 12, 1962: the three Lao parties agree to form a coalition government); [[w.guan-vietnamese-communists-relations-with]], 225 (June 12, the Plain of Jars: the three princes agree on the coalition). Check: the day: the princes'' agreement on the Plain of Jars June 12 by [[w.guan-vietnamese-communists-relations-with]], 225. Names: Phoumi Nosavan, Sarit, Souvanna Phouma, Souphanouvong.'
     src:
       c: 3d6c35f7
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 255: all'
         - 'w.poole-joint-chiefs-of-staff 137: A'
         - 'w.lich-su-khang-chien-chong-my III, 133: A'
+        - 'w.guan-vietnamese-communists-relations-with 225: ?'
     tags: [name:phoumi-nosavan, name:sarit-thanarat, name:souvanna-phouma, name:souphanouvong]
     variants:
       - unit: A
@@ -3058,13 +3077,14 @@ entries:
     thread: laos
     also: [robert-kennedy, soviet-union]
     c: 'Robert Kennedy to the President: Khrushchev, by Bolshakov, "very pleased with the settlement in Laos," hopes the American troops can now leave Thailand.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 500; [[w.thomas-robert-kennedy]], 206 n. (Robert Kennedy to the President of his meeting with Bolshakov: troops in Thailand). To check: Robert Kennedy to the President, June 19, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 500 n.11). See [[cal.1962-05.laos]]. Names: Robert Kennedy, Kennedy, Khrushchev, Bolshakov.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 500; [[w.thomas-robert-kennedy]], 206 n. (Robert Kennedy to the President of his meeting with Bolshakov: troops in Thailand). [[w.guan-vietnamese-communists-relations-with]], 226–227 (by Beschloss: Khrushchev very pleased with the Laos settlement, understands why the troops went to Thailand, hopes they can now be withdrawn; no day). To check: Robert Kennedy to the President, June 19, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 500 n.11); [[w.beschloss-crisis-years]], 398 (cited by [[w.guan-vietnamese-communists-relations-with]], 227 n.106). See [[cal.1962-05.laos]]. Names: Robert Kennedy, Kennedy, Khrushchev, Bolshakov.'
     src:
       c: 8dece029
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 500: all'
         - 'via w.schlesinger-robert-kennedy-and-his 500 n.11: all'
         - 'w.thomas-robert-kennedy 206 n.: A'
+        - 'w.guan-vietnamese-communists-relations-with 226–227: ?'
     tags: [name:kennedy-robert-f, name:kennedy-john-f, name:khrushchev-nikita-s, name:bolshakov-georgi]
     time_range:
       - 1962-06-19T13:00Z
@@ -3688,18 +3708,31 @@ entries:
       - 1962-06-22T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-06-22.vietnam-diplomacy
+    when: June 22
+    date: '1962-06-22'
+    place: moscow
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: Moscow. Hồ Chí Minh seen in a theater, as the Indian press reports June 24; by the British, come to discuss Vietnam with the Russians.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 226. To check: FO 371/166710, DV 1016/30, 2 August 1962, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 226 n.103b); FO 371/166710, DV 1016/27, 10 July 1962, from Hanoi to Foreign Office: report by the Indonesian consul-general in Hanoi on North Vietnam (cited by [[w.guan-vietnamese-communists-relations-with]], 226 n.103c); FO 371/170088, DV 1011/1, 2 January 1963, from Saigon to Foreign Office: annual report on North Vietnam for 1962 (printed "2 January 1962") (cited by [[w.guan-vietnamese-communists-relations-with]], 226 n.103d). Names: Hồ Chí Minh.'
+    src:
+      rows:
+        - 'via x.1963-01-02.fo-170088-dv-1011-1: ?'
+    tags: [polity:drv, polity:ussr, name:ho-chi-minh]
   - id: cal.1962-06-23.laos
     when: June 23
     date: '1962-06-23'
     thread: laos
     c: Souvanna Phouma's coalition formed, with Souphanouvong and Phoumi.
-    n: 'Message to Chairman Khrushchev following the formation of a Coalition Government in Laos, [1962 Pub. Papers 479](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=539) (June 13, 1962). [[w.sorensen-kennedy]], 647 (in June, the coalition and its tripartite Cabinet); [[w.poole-joint-chiefs-of-staff]], 137. See [[cal.1961-03-23.laos]]. Names: Souvanna Phouma, Souphanouvong, Phoumi Nosavan.'
+    n: 'Message to Chairman Khrushchev following the formation of a Coalition Government in Laos, [1962 Pub. Papers 479](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=539) (June 13, 1962). [[w.sorensen-kennedy]], 647 (in June, the coalition and its tripartite Cabinet); [[w.poole-joint-chiefs-of-staff]], 137; [[w.guan-vietnamese-communists-relations-with]], 225 (the Government of National Union). See [[cal.1961-03-23.laos]]. Names: Souvanna Phouma, Souphanouvong, Phoumi Nosavan.'
     src:
       c: 37ea438f
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=539: all'
         - 'w.sorensen-kennedy 647: A'
         - 'w.poole-joint-chiefs-of-staff 137: A'
+        - 'w.guan-vietnamese-communists-relations-with 225: ?'
     tags: [name:souvanna-phouma, name:souphanouvong, name:phoumi-nosavan]
     short: the coalition
   - id: cal.1962-06-23.king
@@ -5510,3 +5543,12 @@ entries:
       - 1962-06-30T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1962-06.vietnam-diplomacy
+    when: June, after the 22nd
+    date: 1962-06
+    at: after 1962-06-22
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: 'By a Chinese source: Khrushchev, asked by the North Vietnamese for military aid, offers 3,000 guns the Russians took from the Germans in the war; Hồ Chí Minh, angry: they belong in a museum.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 226 (by a Chinese source). Made public: 1992 ([[w.xiangen-yuanyue-kangmei-shilu]]). To check: [[w.xiangen-yuanyue-kangmei-shilu]], 18 (cited by [[w.guan-vietnamese-communists-relations-with]], 226 n.104). See [[cal.1962-06-22.vietnam-diplomacy]]. Names: Khrushchev, Hồ Chí Minh. Check: the date: the book sets it beside Hồ''s stay in Moscow of June 1962 but does not date it.'
+    tags: [polity:drv, polity:ussr, name:khrushchev-nikita-s, name:ho-chi-minh, vis:only:drv+ussr, ok:fields-place]

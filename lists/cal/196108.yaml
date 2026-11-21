@@ -487,6 +487,16 @@ entries:
       - 1961-08-02T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-02.vietnam-hanoi
+    when: Aug. 2
+    date: '1961-08-02'
+    thread: vietnam-hanoi
+    c: 'As a Foreign Office minute has it: the North Vietnamese army''s military role given more weight since March.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 186. Made public: 1997. To check: FO 371/160123, DV 1016/22, Aug. 2, 1961, Foreign Office minutes (cited by [[w.guan-vietnamese-communists-relations-with]], 186 n.27).'
+    src:
+      rows:
+        - 'via x.1961-08-02.fo-160123-dv-1016-22-fo-minutes: ?'
+    tags: [form:state, polity:uk, polity:drv, vis:only:uk, ok:fields-place]
   - id: cal.1961-08-03.crime-and-hijacking
     when: Aug. 3
     date: '1961-08-03'
@@ -922,12 +932,13 @@ entries:
     thread: china-leadership
     also: [laos, vietnam-hanoi]
     c: Zhou Enlai receives Hoàng Văn Hoan and Kaysone, analyzing the five contradictions America faces and the position they make; a nation or state wins only by relying on its people, foreign aid secondary; self-reliance first, foreign help second.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 426 (Aug. 5, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (Aug. 5, 1961; 中南海). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 426 (Aug. 5, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (Aug. 5, 1961; 中南海); [[w.guan-vietnamese-communists-relations-with]], 199–200 (Zhongnanhai; victory to rest on the masses, foreign help secondary; Laos near China and North Vietnam may count on some help from both, but in the end on itself). Made public: 1993. Names: Zhou Enlai.'
     src:
       c: 7cf9ac2a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 426: ?'
         - 'w.zhou-enlai-waijiao-huodong 317: A'
+        - 'w.guan-vietnamese-communists-relations-with 199–200: ?'
     tags: [polity:prc, polity:drv, polity:laos, name:zhou-enlai, vis:only:prc+drv]
   - id: cal.1961-08-05.china-leadership
     when: Aug. 5
@@ -1942,6 +1953,17 @@ entries:
       - 1961-08-11T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-11.laos
+    when: Aug. 11
+    date: '1961-08-11'
+    thread: laos
+    also: [soviet-union]
+    c: 'Khrushchev to Macmillan, privately, by the Moscow telegram: he wants the Geneva conference on Laos to succeed.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 199 n.78. Made public: 1997. To check: FO 371/159947, DF 2231/381, Aug. 11, 1961, Foreign Office minutes: extract of Moscow telegram 1447 on a private communication from Khrushchev to Macmillan (cited by [[w.guan-vietnamese-communists-relations-with]], 199 n.78b). Names: Khrushchev, Macmillan. Check: the day: the Foreign Office minute''s.'
+    src:
+      rows:
+        - 'via x.1961-08-11.fo-159947-df-2231-381-fo-minutes: ?'
+    tags: [polity:ussr, polity:uk, name:khrushchev-nikita-s, name:macmillan-harold, vis:only:ussr+uk, ok:fields-place]
   - id: cal.1961-08-12.japan-and-korea
     when: Aug. 12
     date: '1961-08-12'
@@ -1973,12 +1995,13 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi, laos]
     c: Peking. Zhou Enlai meets Phạm Văn Đồng and talks of the Laos question.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 12, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 201 (Aug. 12–21, 1961; Phạm Văn Đồng, after visiting Korea, the Soviet Union and other countries, continues his visit in China; Zhou meets him on the Laotian question). Made public: 1993. Names: Zhou Enlai, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 12, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 201 (Aug. 12–21, 1961; Phạm Văn Đồng, after visiting Korea, the Soviet Union and other countries, continues his visit in China; Zhou meets him on the Laotian question); [[w.guan-vietnamese-communists-relations-with]], 200. Made public: 1993. Names: Zhou Enlai, Phạm Văn Đồng.'
     src:
       c: 66b1d4e4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 318: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 201: B'
+        - 'w.guan-vietnamese-communists-relations-with 200: all'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
   - id: cal.1961-08-12.china-leadership-4
     when: Aug. 12
@@ -2856,6 +2879,15 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 147: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-08-15.vietnam-diplomacy
+    when: Aug. 15
+    date: '1961-08-15'
+    place: peking
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Phạm Văn Đồng at the Ming Tombs outside Peking. Lê Thanh Nghị, Deputy Premier, leaves Peking for home.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 200. Names: Phạm Văn Đồng.'
+    tags: [polity:drv, name:pham-van-dong]
   - id: cal.1961-08-16.berlin-and-vienna
     when: Aug. 16
     date: '1961-08-16'
@@ -2944,11 +2976,12 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking. Zhou Enlai goes to the airport to see off Phạm Văn Đồng, leaving for a visit to Kunming.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 上午). Names: Zhou Enlai, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 上午); [[w.guan-vietnamese-communists-relations-with]], 200 (to Kunming by way of Xi''an; in Kunming to Aug. 21, then home). Names: Zhou Enlai, Phạm Văn Đồng.'
     src:
       c: 8c265a37
       rows:
         - 'w.zhou-enlai-waijiao-huodong 319: all'
+        - 'w.guan-vietnamese-communists-relations-with 200: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong]
     time_range:
       - 1961-08-15T22:00Z
@@ -3129,6 +3162,17 @@ entries:
     c: Chen Yi 陈毅 telegraphs Subandrio on the sixteenth anniversary of Indonesia's independence.
     n: '[[w.chen-yi-nianpu]], 886. Names: Chen Yi, Subandrio.'
     tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio]
+  - id: cal.1961-08-16.vietnam
+    when: Aug. 16
+    date: '1961-08-16'
+    thread: vietnam
+    also: [laos]
+    c: 'NIE 14.3/53-61, "Prospects for North and South Vietnam": Pathet Lao and North Vietnamese forces hold most of southern Laos but the Mekong towns; a major Hanoi-directed offensive against Diệm under way.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 203. Made public: 1979 ([[w.vietnam-1979]], the earliest printing the note names). To check: NIE 14.3/53-61, "Prospects for North and South Vietnam," Aug. 16, 1961 (cited by [[w.guan-vietnamese-communists-relations-with]], 203 n.95a); [[w.vietnam-1979]], II (cited by [[w.guan-vietnamese-communists-relations-with]], 203 n.95b).'
+    src:
+      rows:
+        - 'via x.1961-08-16.nie-14-3-53-61-prospects-north-south-vietnam: ?'
+    tags: [polity:us, vis:only:us, ok:fields-place]
   - id: cal.1961-08-17.latin-america
     when: Aug. 17
     date: '1961-08-17'
@@ -4019,7 +4063,7 @@ entries:
     thread: vietnam-diplomacy
     also: [china]
     c: Peking. Ung Văn Khiêm, the DRV's foreign minister, arrives at 3 p.m. from the Soviet Union, which he left on the 19th, by his word to Zhou the next day.
-    n: '"[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (Ung: "I set out from the Soviet Union on the 19th and arrived here in Beijing yesterday at 3 o''clock in the afternoon"; back from Geneva by way of several fraternal countries). Names: Ung Văn Khiêm, Zhou Enlai. Check: the year the Archive posted the document.'
+    n: '"[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (Ung: "I set out from the Soviet Union on the 19th and arrived here in Beijing yesterday at 3 o''clock in the afternoon"; back from Geneva by way of several fraternal countries). [[w.guan-vietnamese-communists-relations-with]], 200 (Ưng Văn Khiêm, Foreign Minister and formal head of the delegation at Geneva, in Peking from Moscow; home to Hanoi Aug. 23). Names: Ung Văn Khiêm, Zhou Enlai. Check: the year the Archive posted the document.'
     tags: [polity:drv, name:ung-van-khiem, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1961-08-20.china-leadership-7
@@ -4151,13 +4195,14 @@ entries:
     thread: china-leadership
     also: [laos, soviet-union, vietnam-hanoi]
     c: Zhou Enlai receives the DRV's Foreign Minister, Ung Văn Khiêm, on the Laotian question and on Hồ Chí Minh's mediation between the Soviet Union and Albania.
-    n: '"[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (top secret document 559, the Premier not having reviewed it; 5:30 p.m., Xihua Hall, with Ji Pengfei; recorder Ni Liyu. The record is on Hồ Chí Minh''s mediation: Zhou says it was well meant but ill judged, that Albania fears the Soviet Union and the main fault is Moscow''s, and asks Ung to tell Lê Duẩn and Phạm Văn Đồng so; Ung says Hồ went to Sochi meaning no pressure on Albania). [[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 21, 1961); [[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 21, 1961; 下午5时30分, 中南海西花厅). Made public: 1993. Names: Zhou Enlai, Hồ Chí Minh, Ung Văn Khiêm.'
+    n: '"[Record of Conversation between Premier Zhou Enlai and Comrade Foreign Minister Ung Van Khiem](https://digitalarchive.umd.edu/document/176892)" (Aug. 21, 1961), PRC FMA 109-03747-02, 85–94, trans. Stephen Mercado, Wilson Center Digital Archive (top secret document 559, the Premier not having reviewed it; 5:30 p.m., Xihua Hall, with Ji Pengfei; recorder Ni Liyu. The record is on Hồ Chí Minh''s mediation: Zhou says it was well meant but ill judged, that Albania fears the Soviet Union and the main fault is Moscow''s, and asks Ung to tell Lê Duẩn and Phạm Văn Đồng so; Ung says Hồ went to Sochi meaning no pressure on Albania). [[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 21, 1961); [[w.zhou-enlai-waijiao-huodong]], 320 (Aug. 21, 1961; 下午5时30分, 中南海西花厅); [[w.guan-vietnamese-communists-relations-with]], 200. Made public: 1993. Names: Zhou Enlai, Hồ Chí Minh, Ung Văn Khiêm.'
     src:
       c: a916acfa
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 428: ?'
         - 'w.zhou-enlai-waijiao-huodong 320: A'
         - 'https://digitalarchive.umd.edu/document/176892: A'
+        - 'w.guan-vietnamese-communists-relations-with 200: all'
     tags: [polity:prc, polity:drv, polity:ussr, polity:albania, name:zhou-enlai, name:ho-chi-minh, vis:only:prc+drv, name:ung-van-khiem, name:ji-pengfei]
     time_zone: Asia/Shanghai
     variants:
@@ -4272,6 +4317,14 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 149: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-08-21.vietnam-diplomacy
+    when: Aug. 21
+    date: '1961-08-21'
+    place: hanoi
+    thread: vietnam-diplomacy
+    c: Phạm Văn Đồng home to Hanoi from Kunming.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 200. Names: Phạm Văn Đồng.'
+    tags: [polity:drv, name:pham-van-dong]
   - id: cal.1961-08-22.economy
     when: Aug. 22
     date: '1961-08-22'
@@ -4998,6 +5051,18 @@ entries:
     c: João Goulart telegraphs Chen Yi 陈毅 his thanks.
     n: '[[w.chen-yi-nianpu]], 887. Names: Chen Yi, Goulart.'
     tags: [polity:prc, polity:brazil, name:chen-yi, name:goulart-joao]
+  - id: cal.1961-08-25.vietnam-diplomacy
+    when: Aug. 25–27
+    date: '1961-08-25'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Souvanna Phouma's unofficial visit to Hanoi.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 200. To check: FO 371/159867, DF 1015/1105, 25 August 1961, from Hanoi to Foreign Office (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 200 n.83). Names: Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1961-08-25.fo-159867-df-1015-1105: ?'
+    tags: [polity:laos, polity:drv, name:souvanna-phouma]
   - id: cal.1961-08-26.berlin-and-vienna
     when: Aug. 26
     date: '1961-08-26'
@@ -5617,6 +5682,16 @@ entries:
       - 1961-08-30T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-30.laos
+    when: Aug. 30
+    date: '1961-08-30'
+    thread: laos
+    c: 'As British officials at Geneva report it: in the last week of August the first signs that the Communist states may be ready to negotiate seriously.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 201. Made public: 1997. To check: FO 371/159947, DF 2231/397(A), 30 August 1961, from Geneva to Foreign Office (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 201 n.87).'
+    src:
+      rows:
+        - 'via x.1961-08-30.fo-159947-df-2231-397-a: ?'
+    tags: [form:state, polity:uk, vis:only:uk, ok:fields-place]
   - id: cal.1961-08-31.rules
     when: Aug. 31
     date: '1961-08-31'
@@ -6510,3 +6585,14 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 149: all'
     tags: [polity:prc, name:peng-zhen, name:deng-xiaoping, name:li-xiannian, vis:only:prc]
+  - id: cal.1961-08.china-leadership-12
+    when: Aug.
+    date: 1961-08
+    thread: china-leadership
+    also: [laos, vietnam-diplomacy]
+    c: 'As Hanoi later tells it: the Chinese advise the Vietnamese to take the greatest care not to be drawn directly into the war in Laos, warning of American involvement and its cost to North Vietnam, Yunnan and Guangxi; Peking proposes Laos divided north and south, the north along China''s border to the revolutionary forces, the south to Phoumi Nosavan. The Laotian revolutionaries propose instead east and west zones, the east, along the cordillera, theirs, a corridor between North and South Vietnam.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 200 (by the Vietnamese disclosures of 1979 and 1984; the author doubts). Made public: 1979 (the SRV Foreign Ministry''s White Paper, Oct. 4–6, 1979). To check: The Socialist Republic of Vietnam Foreign Ministry''s White Paper on relations with China, Hanoi Home Service, Oct. 4–6, 1979, SWB/FE/6238/A3/13 (cited by [[w.guan-vietnamese-communists-relations-with]], 200 n.84a); [[w.affairs-chinese-rulers-crimes-against]], 30–31 (cited by [[w.guan-vietnamese-communists-relations-with]], 200 n.84b). Names: Phoumi Nosavan.'
+    src:
+      rows:
+        - 'via x.1979-10-04.srv-white-paper-relations-with-china: ?'
+    tags: [polity:prc, polity:drv, name:phoumi-nosavan, vis:only:prc+drv, ok:fields-place]

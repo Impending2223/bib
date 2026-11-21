@@ -1912,6 +1912,16 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 35: all'
     tags: [polity:prc, name:peng-zhen, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1960-06-12.vietnam-diplomacy
+    when: June 12
+    date: '1960-06-12'
+    thread: vietnam-diplomacy
+    c: Gen. Nguyễn Chí Thanh at the banquet for the Albanian delegation, in North Vietnam from June 12; Giáp absent.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 149, 151. To check: FO 371/152747, DV 1016/29, 26 August 1960, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 151 n.79a). Names: Nguyễn Chí Thanh, Võ Nguyên Giáp.'
+    src:
+      rows:
+        - 'via x.1960-08-26.fo-152747-dv-1016-29: ?'
+    tags: [polity:drv, polity:albania, name:nguyen-chi-thanh, name:vo-nguyen-giap, ok:fields-place]
   - id: cal.1960-06-13.china-leadership
     when: June 13
     date: '1960-06-13'
@@ -2135,6 +2145,18 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 35: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1960-06-14.vietnam-diplomacy
+    when: June 14
+    date: '1960-06-14'
+    place: moscow
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: 'Moscow. A North Vietnamese–Soviet economic agreement: Soviet help with perennial tropical crops and their processing, the state farms and a repair shop for them, a tea factory, coffee and fruit-canning plants; a long-term loan of 350 million rubles for Soviet equipment and machines, repaid in kind over ten years from 1970 at 2 percent.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 149. To check: Hanoi Radio in French, 15 June 1960, SWB/FE/362/A2/1-2 (cited by [[w.guan-vietnamese-communists-relations-with]], 149 n.68).'
+    src:
+      rows:
+        - 'via x.1960-06-15.hanoi-radio-in-french-fe-362-a2-1-2: ?'
+    tags: [polity:drv, polity:ussr]
   - id: cal.1960-06-15.japan-and-korea
     when: June 15–16
     date: '1960-06-15'
@@ -2293,6 +2315,20 @@ entries:
       - 1960-06-15T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-15.vietnam-diplomacy
+    when: June 15
+    date: '1960-06-15'
+    place:
+      - moscow
+      - bucharest
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: The Vietnamese delegation under Lê Duẩn leaves Moscow for Bucharest and the Romanian party's third congress.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 149 (Lê Duẩn absent from Hanoi for the Albanian delegation''s visit from June 12). To check: VINA, 16 June 1960, SWB/FE/362/A2/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 149 n.71). Names: Lê Duẩn.'
+    src:
+      rows:
+        - 'via x.1960-06-16.vina-fe-362-a2-2: ?'
+    tags: [polity:drv, name:le-duan]
   - id: cal.1960-06-16.democratic-party
     when: June 16
     date: '1960-06-16'
@@ -2493,6 +2529,18 @@ entries:
       - 1960-06-16T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-16.vietnam-hanoi-2
+    when: June 16
+    date: '1960-06-16'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam-diplomacy]
+    c: '*Nhân Dân*''s editorial on the Soviet agreement: the aid the more valuable as the DRV is still backward and short of equipment and technicians.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 149. To check: VINA, 16 June 1960, SWB/FE/362/A2/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 149 n.69).'
+    src:
+      rows:
+        - 'via x.1960-06-16.vina-fe-362-a2-2: ?'
+    tags: [polity:drv]
   - id: cal.1960-06-17.elections-1960-rockefeller
     when: June 17
     date: '1960-06-17'
@@ -2696,6 +2744,15 @@ entries:
         - 'via w.yang-jisheng-mubei I, 38 n.8: A-B'
         - 'via w.yang-jisheng-mubei I, 56 n.29: C'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-06-18.soviet-union
+    when: June 18
+    date: '1960-06-18'
+    place: bucharest
+    thread: soviet-union
+    also: [china-leadership]
+    c: Khrushchev arrives in Bucharest; only now is it announced that he will attend the Romanian congress.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 150. Names: Khrushchev.'
+    tags: [polity:ussr, name:khrushchev-nikita-s]
   - id: cal.1960-06-19.japan-and-korea-far-east
     when: June 19–20
     date: '1960-06-19'
@@ -2828,13 +2885,16 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: 'Bucharest. The Romanian Workers'' Party''s third congress, June 20–25. Khrushchev''s long speech is cheered; Peng Zhen''s greeting, on the views of the three Lenin articles, is applauded by the hall and coldly met on the platform. The Chinese delegation is shut off: other delegations do not call, the Romanian liaison will not say where they stay, visits are not arranged.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 280; [[w.westad-introduction]], 25 (the Romanian congress at Bucharest, June 20–25, 1960; Khrushchev decides at the last moment to lead the Soviet delegation and defend his line; his words on the two world systems and on Lenin); [[w.peng-zhen-nianpu-1902]], IV, 36 (June 20, 1960, 9 a.m. local time; Peng Zhen leads the delegation at the congress; the delegations or representatives of the parties of forty-six countries invited). Made public: 1999. To check: [[w.china-and-the-soviet]], 19–20 (cited by [[w.westad-introduction]], 25 n.86). Names: Khrushchev, Peng Zhen. Check: the delegation''s account as relayed; Khrushchev''s speech date within the congress.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 280; [[w.westad-introduction]], 25 (the Romanian congress at Bucharest, June 20–25, 1960; Khrushchev decides at the last moment to lead the Soviet delegation and defend his line; his words on the two world systems and on Lenin); [[w.peng-zhen-nianpu-1902]], IV, 36 (June 20, 1960, 9 a.m. local time; Peng Zhen leads the delegation at the congress; the delegations or representatives of the parties of forty-six countries invited); [[w.guan-vietnamese-communists-relations-with]], 150 (a routine congress of a minor party at first; Hồ represented by Lê Duẩn. The Soviets circulate an eight-page letter on China''s shortcomings, the first detailed Soviet case against China for the bloc''s senior members: China has reneged on the 1957 Moscow Conference; Peng Zhen rebuts it and turns the charge back). Made public: 1999. To check: [[w.china-and-the-soviet]], 19–20 (cited by [[w.westad-introduction]], 25 n.86); [[w.crankshaw-new-cold-war]], ch. 10 (cited by [[w.guan-vietnamese-communists-relations-with]], 150 n.72a); [[w.whiting-sino-soviet-split-in]] (cited by [[w.guan-vietnamese-communists-relations-with]], 150 n.72b); Central Intelligence Agency, "The Sino-Soviet Dispute and Its Significance," Apr. 1, 1961, TS #142274-b (cited by Whiting) (cited by [[w.guan-vietnamese-communists-relations-with]], 150 n.72c); Agerpres in English, 19 June 1960, SWB/EE/C/11 (cited by [[w.guan-vietnamese-communists-relations-with]], 150 n.73a); Bucharest Home Service, 23 June 1960, SWB/EE/370/C/23 (cited by [[w.guan-vietnamese-communists-relations-with]], 150 n.73c). Names: Khrushchev, Peng Zhen. Check: the delegation''s account as relayed; Khrushchev''s speech date within the congress.'
     src:
       c: bb2d5b36
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 280: all'
         - 'w.westad-introduction 25: A'
         - 'w.peng-zhen-nianpu-1902 IV, 36: ?'
+        - 'w.guan-vietnamese-communists-relations-with 150: ?'
+        - 'via x.1961-04-01.cia-sino-soviet-dispute-and-its-significance: ?'
+        - 'via x.1960-06-19.agerpres-in-english-ee-c-11: ?'
     tags: [polity:prc, name:khrushchev-nikita-s, name:peng-zhen]
   - id: cal.1960-06-20.china-leadership
     when: June 20
@@ -3210,6 +3270,23 @@ entries:
         - 'w.friedman-shadow-cold-war 46: all'
         - 'via x.1960-06-22.chinese-peace-committee-ccp-report-second-aapso: ?'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1960-06-22.vietnam-diplomacy
+    when: June 22
+    date: '1960-06-22'
+    place: bucharest
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: Bucharest, afternoon, the congress's third day. Lê Duẩn, secretary of the Lao Động Central Committee, with Nguyễn Văn Kinh, speaks.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 150 n.73. To check: Lê Duẩn''s speech at the Romanian Workers'' Party congress, SWB/EE/367/C/11 (cited by [[w.guan-vietnamese-communists-relations-with]], 150 n.73b); Bucharest Home Service, 23 June 1960, SWB/EE/370/C/23 (cited by [[w.guan-vietnamese-communists-relations-with]], 150 n.73c). See [[cal.1960-06-20.soviet-union]]. Names: Lê Duẩn.'
+    src:
+      rows:
+        - 'via x.1960-06-22.le-duan-speech-bucharest-swb-ee-367: ?'
+    tags: [polity:drv, name:le-duan]
+    time_range:
+      - 1960-06-22T10:00Z
+      - 1960-06-22T16:00Z
+    time_band: afternoon
+    time_zone: Europe/Bucharest
   - id: cal.1960-06-23.medicare
     when: June 23
     date: '1960-06-23'
@@ -3457,7 +3534,7 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: Bucharest, morning. The twelve parties' "talks," Gheorghiu-Dej presiding, turn on China from the CPSU notice; Bulgarian, Czechoslovak and East German delegates the sharpest, the Albanians, Koreans and Vietnamese against such a meeting. Khrushchev's closing attack. Peng Zhen answers him alone, on Khrushchev's own words, and objects to a communique not announced beforehand; Khrushchev demands signature; a half-hour recess; Gheorghiu-Dej calls on China for unity. That night the delegation cables Peking, inclined to sign with a statement.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 285–288 ("the morning of the 24th", 285); [[w.yang-jisheng-mubei]], II, 1150 (June 24, the communist and workers'' parties of the socialist countries in talks at Bucharest, Peng Zhen leading the Chinese delegation; Khrushchev leads the criticism of the Chinese party''s line); [[w.westad-introduction]], 25 (losing his temper at a small session of party heads, Khrushchev calls Mao "an ultra-leftist, an ultra-dogmatist, indeed, a left revisionist"; no day given); [[w.peng-zhen-nianpu-1902]], IV, 38–39 (June 24, 1960; Peng Zhen leads the delegation at the first meeting of the twelve parties'' delegations, Gheorghiu-Dej presiding, Khrushchev leading the Soviet delegation; Peng asks whether it is to exchange views as the CPSU''s letter of June 7 proposed or to condemn the Chinese party; Khrushchev: views; after the Bulgarian and Czech speakers Peng names five differences (the epoch; war and peace, disarmament no line for revolution; peaceful transition; unity on Marxism–Leninism; the Indian border and the WFTU council), "one finger of ten" but not trivial; a surprise attack, the delegation not authorized to sign; when Khrushchev calls the ten others by name, Peng: no vote possible today, not their responsibility; asks two or three days more, at least forty-eight hours, to ask the Center). Made public: 1999. To check: [[w.china-and-the-soviet]], 20 (cited by [[w.westad-introduction]], 25 n.87); "Zusammenkunft der Delegationen der KPdSU und der KPCh im Juli 1963," raw translation, SAPMO-BArch, DY J IV 2/201, Aktenband 696, 128–30 (cited by [[w.westad-introduction]], 25 n.87). See [[cal.1960-06-23.soviet-union]]. Names: Khrushchev, Peng Zhen. Check: the account is the delegation''s, by cable and later telling.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 285–288 ("the morning of the 24th", 285); [[w.yang-jisheng-mubei]], II, 1150 (June 24, the communist and workers'' parties of the socialist countries in talks at Bucharest, Peng Zhen leading the Chinese delegation; Khrushchev leads the criticism of the Chinese party''s line); [[w.westad-introduction]], 25 (losing his temper at a small session of party heads, Khrushchev calls Mao "an ultra-leftist, an ultra-dogmatist, indeed, a left revisionist"; no day given); [[w.peng-zhen-nianpu-1902]], IV, 38–39 (June 24, 1960; Peng Zhen leads the delegation at the first meeting of the twelve parties'' delegations, Gheorghiu-Dej presiding, Khrushchev leading the Soviet delegation; Peng asks whether it is to exchange views as the CPSU''s letter of June 7 proposed or to condemn the Chinese party; Khrushchev: views; after the Bulgarian and Czech speakers Peng names five differences (the epoch; war and peace, disarmament no line for revolution; peaceful transition; unity on Marxism–Leninism; the Indian border and the WFTU council), "one finger of ten" but not trivial; a surprise attack, the delegation not authorized to sign; when Khrushchev calls the ten others by name, Peng: no vote possible today, not their responsibility; asks two or three days more, at least forty-eight hours, to ask the Center); [[w.guan-vietnamese-communists-relations-with]], 150 (the communiqué of June 24 hides the bloc''s differences, reaffirms the 1957 Moscow declaration and peace manifesto; a conference of all parties at Moscow in November 1960 to settle them). Made public: 1999. To check: [[w.china-and-the-soviet]], 20 (cited by [[w.westad-introduction]], 25 n.87); "Zusammenkunft der Delegationen der KPdSU und der KPCh im Juli 1963," raw translation, SAPMO-BArch, DY J IV 2/201, Aktenband 696, 128–30 (cited by [[w.westad-introduction]], 25 n.87). See [[cal.1960-06-23.soviet-union]]. Names: Khrushchev, Peng Zhen. Check: the account is the delegation''s, by cable and later telling.'
     src:
       c: 2ae2ebcf
       rows:
@@ -3466,6 +3543,7 @@ entries:
         - 'w.westad-introduction 25: ?'
         - 'via x.1963-07.cpsu-ccp-meetings-rohuebersetzung-sapmo: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 38–39: ?'
+        - 'w.guan-vietnamese-communists-relations-with 150: ?'
     tags: [polity:prc, name:khrushchev-nikita-s, name:peng-zhen, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia, vis:only:prc@I]
     time_range:
       - 1960-06-24T04:00Z
@@ -3936,7 +4014,7 @@ entries:
     place: geneva
     thread: testing
     c: Geneva. The five Communist delegations walk out of the Ten-Nation Disarmament Committee before the American plan is tabled.
-    n: '[FRUS 1958–60, III, microfiche supp., doc. 587](https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d587) (the delegation''s report). [[w.watson-into-the-missile-age]], 725. To check: [[w.divine-eisenhower-and-the-cold]]; [[w.hitchcock-age-of-eisenhower]]; *Documents on Disarmament, 1960*, 126–36, and the [*New York Times*, June 28, 1960](https://timesmachine.nytimes.com/timesmachine/1960/06/28/issue.html) (cited by [[w.watson-into-the-missile-age]], 725 n.193).'
+    n: '[FRUS 1958–60, III, microfiche supp., doc. 587](https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d587) (the delegation''s report). [[w.watson-into-the-missile-age]], 725; [[w.guan-vietnamese-communists-relations-with]], 147 (the ten-nation disarmament talks at Geneva broken off June 27, 1960; by INR, one sign of a harder Soviet line after the summit). To check: [[w.divine-eisenhower-and-the-cold]]; [[w.hitchcock-age-of-eisenhower]]; *Documents on Disarmament, 1960*, 126–36, and the [*New York Times*, June 28, 1960](https://timesmachine.nytimes.com/timesmachine/1960/06/28/issue.html) (cited by [[w.watson-into-the-missile-age]], 725 n.193); Department of State, Bureau of Intelligence and Research, Intelligence Report no. 8306, July 21, 1960 (cited by [[w.guan-vietnamese-communists-relations-with]], 147 n.60).'
     src:
       c: 229f195f
       rows:
@@ -3944,6 +4022,7 @@ entries:
         - 'w.watson-into-the-missile-age 725: all'
         - 'via w.watson-into-the-missile-age 725 n.193a: all'
         - 'via w.watson-into-the-missile-age 725 n.193b: all'
+        - 'w.guan-vietnamese-communists-relations-with 147: ?'
     time_range:
       - 1960-06-27T08:00Z
       - 1960-06-27T16:00Z
@@ -4376,6 +4455,15 @@ entries:
         - 'w.friedman-shadow-cold-war 47: all'
         - 'via x.1960-07.report-soviet-delegation-visit-ghana-june-28: ?'
     tags: [polity:ussr, polity:ghana, polity:guinea, name:nkrumah-kwame, name:toure-ahmed-sekou]
+  - id: cal.1960-06-28.vietnam-hanoi
+    when: June 28
+    date: '1960-06-28'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [soviet-union, china-leadership]
+    c: '*Nhân Dân* prints the Bucharest communiqué in full with an editorial, "To strengthen solidarity and unity of mind among the brother-parties is constantly our foremost task." The Vietnamese take no side.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 150.'
+    tags: [polity:drv]
   - id: cal.1960-06-29.cuba
     when: June 29
     date: '1960-06-29'
@@ -5380,3 +5468,13 @@ entries:
         - 'w.friedman-shadow-cold-war 53: all'
         - 'via x.1960-06-27.letter-mfa-prc-embassy-london-june-27: ?'
     tags: [polity:prc]
+  - id: cal.1960-06-30.laos
+    when: June 30
+    date: '1960-06-30'
+    thread: laos
+    c: 'As the Foreign Office has it, to Vientiane: the Pathet Lao could win quick successes against the Royal Laotian Army and administration if they chose to step up the fighting.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 148 ("the end of June"). Made public: 1997. To check: FO 371/152339, DF 1015/321, 30 June 1960, from Foreign Office to Vientiane (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 148 n.67).'
+    src:
+      rows:
+        - 'via x.1960-06-30.fo-152339-df-1015-321: ?'
+    tags: [form:state, polity:uk, polity:pathet-lao, vis:only:uk, ok:fields-place]

@@ -92,12 +92,13 @@ entries:
     date: '1960-10-01'
     thread: china-leadership
     c: The fourth volume of Mao's *Selected Works*, edited by the Central Committee's publication commission, goes on sale across the country (People's Publishing House).
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 1, 1960. [[w.mao-zedong-zhuan]], V, ch. 65 (Sept. 1960: the fourth volume appears, and a wave of study follows across the country). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 1, 1960. [[w.mao-zedong-zhuan]], V, ch. 65 (Sept. 1960: the fourth volume appears, and a wave of study follows across the country). [[w.guan-vietnamese-communists-relations-with]], 167 ("published" Sept. 30). To check: [[w.gittings-role-of-the-chinese]], 235 (cited by [[w.guan-vietnamese-communists-relations-with]], 167 n.53). Names: Mao Zedong.'
     src:
       c: 55674c21
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Oct. 1, 1960: all'
         - 'w.mao-zedong-zhuan V, ch. 65: A'
+        - 'w.guan-vietnamese-communists-relations-with 167: ?'
     tags: [polity:prc, name:mao-zedong]
     variants:
       - unit: A
@@ -519,6 +520,18 @@ entries:
     c: Chen Yi 陈毅 speaks at the cocktail party of Guo Moruo 郭沫若, Liao Chengzhi 廖承志, Chu Tunan 楚图南 and Li Yingbo 李颉伯 for the Japanese delegations at the National Day; praises the Japanese people's struggle against American imperialism.
     n: '[[w.chen-yi-nianpu]], 838. Names: Chen Yi.'
     tags: [polity:prc, polity:japan, name:chen-yi]
+  - id: cal.1960-10-02.vietnam-hanoi
+    when: Oct. 2
+    date: '1960-10-02'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [laos]
+    c: '*Nhân Dân* welcomes the NLHX''s proposal of immediate negotiations with Souvanna Phouma''s government, "fully conforming to the interests of Laos and peace in Indochina."'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 165. To check: VINA, 2 October 1960, SWB/FE/455/B/14 (cited by [[w.guan-vietnamese-communists-relations-with]], 165 n.49). Names: Souvanna Phouma. Check: the day: the dispatch the note cites is dated Oct. 2, the NLHX''s appointment of its negotiators Oct. 3.'
+    src:
+      rows:
+        - 'via x.1960-10-02.vina-fe-455-b-14: ?'
+    tags: [polity:drv, name:souvanna-phouma]
   - id: cal.1960-10-03.court
     when: Oct. 3
     date: '1960-10-03'
@@ -889,6 +902,13 @@ entries:
       - 1960-10-03T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-10-03.laos
+    when: Oct. 3
+    date: '1960-10-03'
+    thread: laos
+    c: The NLHX Central Committee names Phoumi Vongvichit, Nouhak Phoumsavan and Singkapo Chounlamany to negotiate with Souvanna Phouma's government on the basis of the 1957 Vientiane agreement.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 165. Names: Phoumi Vongvichit, Souvanna Phouma.'
+    tags: [polity:pathet-lao, name:phoumi-vongvichit, name:souvanna-phouma, ok:fields-place]
   - id: cal.1960-10-04.elections-1960-kennedy
     when: Oct. 4
     date: '1960-10-04'
@@ -1295,6 +1315,16 @@ entries:
       - 1960-10-05T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-10-05.laos
+    when: Oct. 5
+    date: '1960-10-05'
+    thread: laos
+    c: 'As British officials in Vientiane report it: with the Savannakhet forces in retreat Souvanna Phouma sees no need to compromise with Phoumi Nosavan; Pathet Lao strength up across the country; Souvanna has lost what control he had over Kong Le, wholly dependent on the Pathet Lao.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 165. Made public: 1997. To check: FO 371/152359, DF 1015/685, 5 October 1960, from Vientiane to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 165 n.48). Names: Souvanna Phouma, Phoumi Nosavan, Kong Le.'
+    src:
+      rows:
+        - 'via x.1960-10-05.fo-152359-df-1015-685: ?'
+    tags: [form:state, polity:uk, polity:laos, name:souvanna-phouma, name:phoumi-nosavan, name:kong-le, vis:only:uk, ok:fields-place]
   - id: cal.1960-10-06.elections-1960
     when: Oct. 6
     date: '1960-10-06'
@@ -1583,6 +1613,14 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 63: all'
     tags: [polity:prc, name:liu-shaoqi, name:li-fuchun, vis:only:prc]
+  - id: cal.1960-10-06.laos
+    when: Oct. 6
+    date: '1960-10-06'
+    thread: laos
+    also: [soviet-union]
+    c: Laos and the Soviet Union open diplomatic relations, it is announced; A. N. Abramov, the Soviet Ambassador to Cambodia, to serve also in Laos.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 165. Names: Abramov. Check: the day: [[w.fursenko-khrushchevs-cold-war]], 330 ([[cal.1960-10-13.laos-3]]), has Abramov named to Laos Oct. 8.'
+    tags: [polity:laos, polity:ussr, name:abramov-aleksandr-n, ok:fields-place]
   - id: cal.1960-10-07.elections-1960
     when: Oct. 7
     date: '1960-10-07'
@@ -1856,6 +1894,13 @@ entries:
       - 1960-10-07T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-10-07.laos
+    when: Oct. 7
+    date: '1960-10-07'
+    thread: laos
+    c: The United States suspends its cash grant to Souvanna Phouma's government.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 165. Names: Souvanna Phouma.'
+    tags: [polity:us, polity:laos, name:souvanna-phouma]
   - id: cal.1960-10-08.laos
     when: Oct. 8
     date: '1960-10-08'
@@ -2953,6 +2998,13 @@ entries:
       - 1960-10-12T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-10-12.laos
+    when: Oct. 12
+    date: '1960-10-12'
+    thread: laos
+    c: 'Graham Parsons, Assistant Secretary for Far Eastern Affairs, flies into Laos to see Souvanna Phouma. Three conditions for resuming aid: the talks with the NLHX suspended, reconciliation with Phoumi Nosavan''s faction, the capital moved to Luang Prabang; Souvanna finds none acceptable.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 165–166. See [[cal.1960-10-08.laos]]. Names: Parsons, Souvanna Phouma, Phoumi Nosavan.'
+    tags: [polity:us, polity:laos, name:parsons-j-graham, name:souvanna-phouma, name:phoumi-nosavan, ok:fields-place]
   - id: cal.1960-10-13.elections-1960
     when: Oct. 13
     date: '1960-10-13'
@@ -3800,6 +3852,17 @@ entries:
       - 1960-10-15T16:00Z
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1960-10-15.laos
+    when: Oct. 15
+    date: '1960-10-15'
+    place: vientiane
+    thread: laos
+    c: 'Vientiane Home Service: the talks of Parsons and Souvanna Phouma have failed.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 166 ("by 15 October"). To check: Vientiane Home Service, 15 October 1960, SWB/FE/465/B/6 (cited by [[w.guan-vietnamese-communists-relations-with]], 166 n.51). Names: Parsons, Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1960-10-15.vientiane-home-service-fe-465-b-6: ?'
+    tags: [polity:laos, name:parsons-j-graham, name:souvanna-phouma]
   - id: cal.1960-10-16.elections-1960
     when: Oct. 16
     date: '1960-10-16'
@@ -4916,6 +4979,16 @@ entries:
     c: 'Modibo Keita, Prime Minister of Mali, writes to Chen Yi 陈毅: Mali is ready to talk with China on diplomatic relations.'
     n: '[[w.chen-yi-nianpu]], 840. See [[cal.1960-10-17.china-leadership-8]]. Names: Keita, Chen Yi.'
     tags: [polity:prc, polity:mali, name:chen-yi, name:keita-modibo]
+  - id: cal.1960-10-19.laos
+    when: Oct. 19
+    date: '1960-10-19'
+    thread: laos
+    c: The NLHX delegation, in the talks with the government, puts forward six points, diplomatic relations with China and North Vietnam among them. The talks drag on almost a month.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 165. To check: NCNA, 30 October 1960, SWB/FE/477/B/5 (cited by [[w.guan-vietnamese-communists-relations-with]], 165 n.50).'
+    src:
+      rows:
+        - 'via x.1960-10-30.ncna-fe-477-b-5: ?'
+    tags: [polity:pathet-lao, ok:fields-place]
   - id: cal.1960-10-20.cuba
     when: Oct. 20
     date: '1960-10-20'
@@ -5654,13 +5727,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The drafting committee''s last session, Suslov 苏斯洛夫 in the chair, noon to 1:30 p.m. Ponomarev 波诺马廖夫 reports the secretariat''s work: chapters 1, 2 and 4 agreed; in 3 and 5 open the ending of war, the Twentieth and Twenty-first Congresses, the cult of personality, Yugoslavia''s wording, group and factional activity. Deng Xiaoping 邓小平 speaks from his text. The draft goes to the November meeting; the Soviet delegation to report there, on Koucký''s 考茨基 motion; Miyamoto 宫本 asks for full agreement in November. A peace appeal to be drafted by the American, British, Italian, French and Polish parties.'
-    n: '[[w.yang-shangkun-riji]], I, 580–583 (Oct. 22, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1588 (Oct. 22, 1960; noon; Deng''s brief statement: the method of repeated discussion has made a paper broadly acceptable, unlike Bucharest; the draft much improved; regrets that some major questions of principle remain unagreed; the committee ends at 1:30 p.m.); [[w.peng-zhen-nianpu-1902]], IV, 67–68 (Oct. 22, 1960, noon to 1:30 p.m.; Peng Zhen at the last session, Suslov presiding; Ponomarev: a draft of twenty-six, chapters one, two and four agreed, some paragraphs of three and five not (war''s elimination: China, Albania, Indonesia, Korea; the two Congresses; the "cult of the individual"; Yugoslavia, China proposing "bourgeois nationalism" for "national communism"; "factional activity"); after Deng speaks the report adopted, the draft sent to the November meeting, the CPSU to report there). The words: 12时起草委员会继续开会……13时半起草委员会会议结束 (I, 580). See [[cal.1960-10-02.soviet-union]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Suslov, Ponomarev, Deng Xiaoping, Koucký, Miyamoto Kenji.'
+    n: '[[w.yang-shangkun-riji]], I, 580–583 (Oct. 22, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1588 (Oct. 22, 1960; noon; Deng''s brief statement: the method of repeated discussion has made a paper broadly acceptable, unlike Bucharest; the draft much improved; regrets that some major questions of principle remain unagreed; the committee ends at 1:30 p.m.); [[w.peng-zhen-nianpu-1902]], IV, 67–68 (Oct. 22, 1960, noon to 1:30 p.m.; Peng Zhen at the last session, Suslov presiding; Ponomarev: a draft of twenty-six, chapters one, two and four agreed, some paragraphs of three and five not (war''s elimination: China, Albania, Indonesia, Korea; the two Congresses; the "cult of the individual"; Yugoslavia, China proposing "bourgeois nationalism" for "national communism"; "factional activity"); after Deng speaks the report adopted, the draft sent to the November meeting, the CPSU to report there); [[w.guan-vietnamese-communists-relations-with]], 166 (the commission sits in Moscow Sept. 30–Oct. 22, Deng Xiaoping and Peng Zhen for China, North Vietnam there, its delegates not known; no draft satisfies all. By what the delegates are told before November: China backed at the commission by Albania, North Vietnam and Indonesia; on factions within the bloc, by the Japanese, North Koreans, Indonesians, North Vietnamese and Australians). The words: 12时起草委员会继续开会……13时半起草委员会会议结束 (I, 580). To check: [[w.crankshaw-new-cold-war]], chs. 11–12 (cited by [[w.guan-vietnamese-communists-relations-with]], 166 n.52a); [[w.whiting-sino-soviet-split-in]] (cited by [[w.guan-vietnamese-communists-relations-with]], 166 n.52b); Central Intelligence Agency, "The Sino-Soviet Dispute and Its Significance," Apr. 1, 1961, TS #142274-b (cited by Whiting) (cited by [[w.guan-vietnamese-communists-relations-with]], 166 n.52c). See [[cal.1960-10-02.soviet-union]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Suslov, Ponomarev, Deng Xiaoping, Koucký, Miyamoto Kenji.'
     src:
       c: 28417c88
       rows:
         - 'w.yang-shangkun-riji I, 580–583: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1588: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 67–68: ?'
+        - 'w.guan-vietnamese-communists-relations-with 166: ?'
     tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, name:ponomarev-boris-n, vis:only:prc+ussr]
     time_zone: Europe/Moscow
   - id: cal.1960-10-22.china-leadership-4
@@ -7169,6 +7243,14 @@ entries:
       - 1960-10-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-10-27.laos-2
+    when: Oct. 27
+    date: '1960-10-27'
+    thread: laos
+    also: [soviet-union]
+    c: 'Souvanna Phouma, at a press conference: Soviet aid accepted in principle.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 166. See [[cal.1960-10-27.laos]]. Names: Souvanna Phouma.'
+    tags: [polity:laos, name:souvanna-phouma, ok:fields-place]
   - id: cal.1960-10-28.elections-1960
     when: Oct. 28
     date: '1960-10-28'
@@ -7689,6 +7771,18 @@ entries:
         - 'w.yang-jisheng-mubei I, 459-460: all'
         - 'via w.yang-jisheng-mubei I, 455 n.27: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-10-29.vietnam-hanoi
+    when: Oct. 29
+    date: '1960-10-29'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [china-leadership]
+    c: Hanoi. The fourth volume of Mao's works sold out as soon as it reaches the bookshops.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 167 (as reported). To check: NCNA, 1 November 1960, SWB/FE/479/(i) (cited by [[w.guan-vietnamese-communists-relations-with]], 167 n.55). Names: Mao.'
+    src:
+      rows:
+        - 'via x.1960-11-01.ncna-fe-479-i: ?'
+    tags: [polity:drv, name:mao-zedong]
   - id: cal.1960-10-30.cuba
     when: Oct. 30
     date: '1960-10-30'
@@ -8782,3 +8876,13 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 83: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 83 n.106: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1960-10.vietnam-diplomacy
+    when: Oct., early
+    date: 1960-10
+    at: before 1960-10-01
+    place: hainan
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: 'Hồ Chí Minh to Hainan Island for a holiday of almost a month: factories, farms, military units, shops, kindergartens, the Institute of Tropical Condiments; the foot of Wuzhishan, the Luhuitou peninsula, Tianya Haijiao; among the people, in the public eye.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 163. To check: [[w.zheng-hu-zhiming-yu-zhongguo]], 158–159 (cited by [[w.guan-vietnamese-communists-relations-with]], 163 n.39). Names: Hồ Chí Minh.'
+    tags: [polity:drv, polity:prc, name:ho-chi-minh]

@@ -369,6 +369,30 @@ entries:
       - 1961-02-01T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-01.china-leadership-9
+    when: Feb. 1
+    date: '1961-02-01'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-diplomacy]
+    c: '*Renmin ribao*''s editorial hails the Sino-Vietnamese aid agreement: the unbreakable friendship of the two fraternal countries strengthened.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 183. To check: NCNA, 31 January 1961, SWB/FE/555/A3/1-5 (cited by [[w.guan-vietnamese-communists-relations-with]], 183 n.17).'
+    src:
+      rows:
+        - 'via x.1961-01-31.ncna-fe-555-a3-1-5: ?'
+    tags: [polity:prc]
+  - id: cal.1961-02-01.vietnam-hanoi
+    when: Feb. 1
+    date: '1961-02-01'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam-diplomacy]
+    c: '*Nhân Dân*''s editorial gives the agreement''s details and thanks China; the economic agreements with the Soviet Union and the bloc mentioned in passing.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 183. To check: NCNA, 31 January 1961, SWB/FE/555/A3/1-5 (cited by [[w.guan-vietnamese-communists-relations-with]], 183 n.17).'
+    src:
+      rows:
+        - 'via x.1961-01-31.ncna-fe-555-a3-1-5: ?'
+    tags: [polity:drv]
   - id: cal.1961-02-02.program
     when: Feb. 2
     date: '1961-02-02'
@@ -748,6 +772,18 @@ entries:
       - 1961-02-03T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-03.vietnam-hanoi
+    when: Feb. 3
+    date: '1961-02-03'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam-diplomacy]
+    c: '*Nhân Dân*, an article by the DRV minister of light industry: these three years China has given long-term loans and helped build and restore many enterprises.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 183. To check: VNA, 3 February 1961, SWB/FE/558/A3/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 183 n.18).'
+    src:
+      rows:
+        - 'via x.1961-02-03.vna-fe-558-a3-2: ?'
+    tags: [polity:drv]
   - id: cal.1961-02-04.defense
     when: Feb. 4–5
     date: '1961-02-04'
@@ -1257,13 +1293,14 @@ entries:
     date: '1961-02-07'
     thread: vietnam-hanoi
     c: 'Lê Duẩn to "Mười Cúc" and the Nam Bộ comrades: not the Chinese road of a long war from the countryside, but struggle in town and country at once, toward a general uprising; political forces built with the armed; "We are weaker than the enemy"; "We must know to exploit time."'
-    n: '[[w.asselin-hanois-road-to-the]], 94; [[w.lich-su-khang-chien-chong-my]], III, 34–35 (the letter, to Nguyễn Văn Linh: base areas, forces, the enemy''s forces to be destroyed). Made public: Lê Duẩn, *Thư vào Nam* (Hanoi), by Asselin''s note (94 n.6; Check: the first printing). To check: Lê Duẩn, *Thư vào Nam* (Hanoi, 2005), 7–15 (cited by [[w.asselin-hanois-road-to-the]], 94 n.6). See [[cal.1961-01-24.vietnam-hanoi]]. Names: Lê Duẩn.'
+    n: '[[w.asselin-hanois-road-to-the]], 94; [[w.lich-su-khang-chien-chong-my]], III, 34–35 (the letter, to Nguyễn Văn Linh: base areas, forces, the enemy''s forces to be destroyed); [[w.guan-vietnamese-communists-relations-with]], 184–185 (separate but coordinated risings to make base areas, guerrilla war, a general rising at the last; political struggle backed by armed the leading role now; the armed forces too few, the Central Highlands not held; cities taken could not be kept; the Highlands the pivot, the countryside and deltas around them the objectives, the cities last; in 1961 the Center to help Interzone V and Nam Bộ form twelve battalions and send Nam Bộ cadres for seven). Made public: Lê Duẩn, *Thư vào Nam* (Hanoi), by Asselin''s note (94 n.6; Check: the first printing). To check: Lê Duẩn, *Thư vào Nam* (Hanoi, 2005), 7–15 (cited by [[w.asselin-hanois-road-to-the]], 94 n.6); [[w.duan-thu-vao-nam]], 31–38 (cited by [[w.guan-vietnamese-communists-relations-with]], 185 n.21). See [[cal.1961-01-24.vietnam-hanoi]]. Names: Lê Duẩn.'
     src:
       c: e76224f9
       rows:
         - 'w.asselin-hanois-road-to-the 94: all'
         - 'via x.1961-02-07.le-duan-gui-anh-muoi-cuc: all'
         - 'w.lich-su-khang-chien-chong-my III, 34–35: A'
+        - 'w.guan-vietnamese-communists-relations-with 184–185: ?'
     tags: [name:le-duan]
     time_range:
       - 1961-02-07T02:00Z
@@ -2054,6 +2091,16 @@ entries:
       - 1961-02-10T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-10.laos
+    when: Feb. 10
+    date: '1961-02-10'
+    thread: laos
+    c: 'As Australian intelligence has it, by the Australian High Commissioner''s office in London: the Pathet Lao not exploiting Phoumi Nosavan''s slow advance; with Vietnamese help they could probably beat him quickly, but are holding back.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 177. Made public: 1997. To check: FO 371/159824, DF 1015/241, 10 February 1961, from the Office of the High Commissioner for Australia (London) to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 177 n.111). Names: Phoumi Nosavan.'
+    src:
+      rows:
+        - 'via x.1961-02-10.fo-159824-df-1015-241: ?'
+    tags: [form:state, polity:australia, polity:uk, polity:pathet-lao, name:phoumi-nosavan, vis:only:australia+uk, ok:fields-place]
   - id: cal.1961-02-11.soviet-union
     when: Feb. 11–13
     date: '1961-02-11'
@@ -2185,6 +2232,14 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 102: all'
     tags: [polity:prc, name:peng-zhen, name:chen-yi, name:liu-shaoqi, name:zhou-enlai, name:khrushchev-nikita-s, vis:only:prc]
+  - id: cal.1961-02-11.soviet-union-leadership
+    when: Feb. 11
+    date: '1961-02-11'
+    thread: soviet-union-leadership
+    also: [soviet-union]
+    c: Khrushchev, touring the farm regions, is suddenly called back to Moscow; his rivals in the Presidium, it was believed, had met and demanded a tougher line toward the United States.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 182 (by Beschloss, who names no source). Made public: 1991 ([[w.beschloss-crisis-years]]). To check: [[w.beschloss-crisis-years]], 77–78, 157–158 (cited by [[w.guan-vietnamese-communists-relations-with]], 182 n.12). Names: Khrushchev.'
+    tags: [polity:ussr, name:khrushchev-nikita-s, vis:only:ussr, ok:fields-place]
   - id: cal.1961-02-12.opinion
     when: Feb. 12
     date: '1961-02-12'
@@ -2764,7 +2819,7 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam]
     c: War Zone D. The South's armed forces unified as the South Vietnam Liberation Army, its first parade. Trần Văn Quang over its military work, Trần Lương its political. About the same time Nam Bộ divided into four military regions (Eastern, Central, Western Nam Bộ, Saigon–Gia Định), Nguyễn Hữu Xuyến, Lê Quốc Sản, Cao Hoài Phô and Trần Hải Phụng their commanders.
-    n: '[[w.lich-su-khang-chien-chong-my]], III, 36 n.4, 43. Made public: 2013. Names: Trần Văn Quang, Trần Lương, Nguyễn Hữu Xuyến, Lê Quốc Sản, Cao Hoài Phô, Trần Hải Phụng.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 36 n.4, 43; [[w.guan-vietnamese-communists-relations-with]], 185 ("the Armed Forces for the Liberation of South Vietnam"). Made public: 2013. To check: [[w.lich-su-quan-doi]], 116–122 (printed "16-122") (cited by [[w.guan-vietnamese-communists-relations-with]], 185 n.22a); Liberation Press Agency, Feb. 15, 1971, SWB/FE/3612/A3/5-9 (the tenth anniversary of the unification of the South Vietnamese People''s Liberation Armed Forces) (cited by [[w.guan-vietnamese-communists-relations-with]], 185 n.22b). Names: Trần Văn Quang, Trần Lương, Nguyễn Hữu Xuyến, Lê Quốc Sản, Cao Hoài Phô, Trần Hải Phụng.'
     tags: [polity:drv, vis:only:drv]
   - id: cal.1961-02-15.china-leadership-8
     when: Feb. 15
@@ -3241,6 +3296,17 @@ entries:
       - 1961-02-18T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-18.laos
+    when: Feb. 18
+    date: '1961-02-18'
+    thread: laos
+    also: [soviet-union]
+    c: 'The Soviet reply: no need to consult the King, the prisoner of the Phoumi Nosavan–Boun Oum rebels; Souvanna Phouma''s legal government has already agreed that the Commission resume.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 175. To check: BBC, Summary of World Broadcasts, Dec. 1960–Feb. 1961 (the sequence of exchanges on a conference on Laos, as the author directs) (cited by [[w.guan-vietnamese-communists-relations-with]], 175 n.103). Names: Phoumi Nosavan, Boun Oum, Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1961-01.swb-laos-conference-sequence: ?'
+    tags: [polity:ussr, polity:uk, name:phoumi-nosavan, name:boun-oum-na-champassak, name:souvanna-phouma, ok:fields-place]
   - id: cal.1961-02-19.china-leadership
     when: Feb. 19
     date: '1961-02-19'
@@ -3680,6 +3746,18 @@ entries:
       - 1961-02-21T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-21.vietnam-diplomacy
+    when: Feb. 21–22
+    date: '1961-02-21'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Souvanna Phouma passes through Hanoi on his way to Xieng Khouang, without publicity.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176. Made public: 1997. To check: FO 371/159826, DF 1015/300, 26 February 1961, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.109a). Names: Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1961-02-26.fo-159826-df-1015-300: ?'
+    tags: [polity:laos, polity:drv, name:souvanna-phouma, vis:only:laos+drv]
   - id: cal.1961-02-22.berlin-and-vienna
     when: Feb. 22
     date: '1961-02-22'
@@ -4194,6 +4272,18 @@ entries:
       - 1961-02-24T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-24.vietnam-diplomacy
+    when: Feb. 24–26
+    date: '1961-02-24'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Souvanna Phouma again through Hanoi, on his way to Phong Saly, without publicity.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176. Made public: 1997. To check: FO 371/159826, DF 1015/300, 26 February 1961, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.109a). See [[cal.1961-02-21.vietnam-diplomacy]]. Names: Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1961-02-26.fo-159826-df-1015-300: ?'
+    tags: [polity:laos, polity:drv, name:souvanna-phouma, vis:only:laos+drv]
   - id: cal.1961-02-25.vietnam
     when: Feb. 25
     date: '1961-02-25'
@@ -4201,7 +4291,7 @@ entries:
     thread: vietnam
     also: [vietnam-hanoi]
     c: 'The Politburo, sessions of Jan. 31 and Feb. 25, on the military tasks of 1961–65: peace in the North the first task; in the South armed struggle raised to equal weight with the political, ten to fifteen main-force regiments to be built; the Central Military Party Committee to direct the war there. Hồ Chí Minh to the closing session. The same day, its resolution 12-NQ/TW: a rectification campaign in the spring of 1961, ideological work tied to life and production, finished by the end of June; a Central Rectification Board under Trường Chinh.'
-    n: '[[w.vietnam-victory-in-vietnam]], 74–77, 455 nn.2, 5–7; [[w.asselin-hanois-road-to-the]], 92–94 (the session of January; Lê Duẩn''s letter to the South, Feb. 7); [[w.van-kien-dang-toan]], XXII, 205–14 (*Nghị quyết của Bộ Chính trị số 12-NQ/TW về cuộc vận động chỉnh huấn mùa xuân 1961*, Feb. 25, signed for the Politburo by Lê Duẩn; it names no session); [[w.lich-su-khang-chien-chong-my]], III, 102–05 (the Politburo''s resolution of Feb. 25 on the military tasks of 1961–65 and the South: peace in the North "the chief task"; a large American intervention to be avoided); [[w.lich-su-khang-chien-chong-my]], III, 38–39 (the session of Feb. 25: the General Military Commission renamed the Central Military Commission, fourteen members, Võ Nguyên Giáp secretary, Văn Tiến Dũng and Song Hào deputies; its charge, the military work in the South); [[w.lich-su-khang-chien-chong-my]], III, 64 (the spring rectification, decided in February). To check: the Politburo''s resolution of Feb. 25, 1961 (cited by [[w.vietnam-victory-in-vietnam]], 74 n.2); Hồ Chí Minh''s speech to the session of Feb. 25, 1961 (cited by [[w.vietnam-victory-in-vietnam]], 77 n.7); the Politburo''s instruction of Jan. 24, 1961, *Văn kiện Đảng toàn tập*, 22:153–55 (cited by [[w.asselin-hanois-road-to-the]], 92 n.1). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing); resolution 12-NQ/TW, 2002. Names: Hồ Chí Minh, Trường Chinh. Check: Asselin, 93, reads the January directive as preparation for war, the political struggle still first; his is the Politburo''s instruction of Jan. 24 (92 n.1).'
+    n: '[[w.vietnam-victory-in-vietnam]], 74–77, 455 nn.2, 5–7; [[w.asselin-hanois-road-to-the]], 92–94 (the session of January; Lê Duẩn''s letter to the South, Feb. 7); [[w.van-kien-dang-toan]], XXII, 205–14 (*Nghị quyết của Bộ Chính trị số 12-NQ/TW về cuộc vận động chỉnh huấn mùa xuân 1961*, Feb. 25, signed for the Politburo by Lê Duẩn; it names no session); [[w.lich-su-khang-chien-chong-my]], III, 102–05 (the Politburo''s resolution of Feb. 25 on the military tasks of 1961–65 and the South: peace in the North "the chief task"; a large American intervention to be avoided); [[w.lich-su-khang-chien-chong-my]], III, 38–39 (the session of Feb. 25: the General Military Commission renamed the Central Military Commission, fourteen members, Võ Nguyên Giáp secretary, Văn Tiến Dũng and Song Hào deputies; its charge, the military work in the South); [[w.lich-su-khang-chien-chong-my]], III, 64 (the spring rectification, decided in February); [[w.guan-vietnamese-communists-relations-with]], 185 (the Politburo approves the plan of the Central Military Committee and the Defense Ministry: four tasks, the North''s defense with an air-defense force, the start of an air force and navy, the army regular and modern; the South''s armed forces, platoons in the districts, companies and battalions in the provinces, ten to fifteen regiments with artillery; the Pathet Lao''s forces trained, Vietnamese troops to Laos as needed; a command system in the South; the Central Military Committee charged with the South. Hồ: a people''s army, a people''s war). To check: the Politburo''s resolution of Feb. 25, 1961 (cited by [[w.vietnam-victory-in-vietnam]], 74 n.2); Hồ Chí Minh''s speech to the session of Feb. 25, 1961 (cited by [[w.vietnam-victory-in-vietnam]], 77 n.7); the Politburo''s instruction of Jan. 24, 1961, *Văn kiện Đảng toàn tập*, 22:153–55 (cited by [[w.asselin-hanois-road-to-the]], 92 n.1); [[w.lich-su-quan-doi]], 130–135 (cited by [[w.guan-vietnamese-communists-relations-with]], 185 n.23). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing); resolution 12-NQ/TW, 2002. Names: Hồ Chí Minh, Trường Chinh. Check: Asselin, 93, reads the January directive as preparation for war, the political struggle still first; his is the Politburo''s instruction of Jan. 24 (92 n.1).'
     src:
       c: 9b942ce2
       rows:
@@ -4214,6 +4304,7 @@ entries:
         - 'w.lich-su-khang-chien-chong-my III, 102–05: A'
         - 'w.lich-su-khang-chien-chong-my III, 38–39: C'
         - 'w.lich-su-khang-chien-chong-my III, 64: E'
+        - 'w.guan-vietnamese-communists-relations-with 185: ?'
     tags: [name:ho-chi-minh, name:truong-chinh]
   - id: cal.1961-02-25.republican-party
     when: Feb. 25
@@ -5537,3 +5628,34 @@ entries:
       rows:
         - 'w.friedman-shadow-cold-war 61: all'
     tags: [polity:portugal]
+  - id: cal.1961-02.vietnam-diplomacy
+    when: Feb.
+    date: 1961-02
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Phạm Văn Đồng and Souvanna Phouma agree to exchange economic and cultural missions.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176. To check: FO 371/159826, DF 1015/300, 26 February 1961, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.109a). Names: Phạm Văn Đồng, Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1961-02-26.fo-159826-df-1015-300: ?'
+    tags: [polity:drv, polity:laos, name:pham-van-dong, name:souvanna-phouma, ok:fields-place]
+  - id: cal.1961-02.vietnam-diplomacy-2
+    when: Feb.
+    date: 1961-02
+    place:
+      - hanoi
+      - peking
+    thread: vietnam-diplomacy
+    also: [laos, china-leadership]
+    c: Sisana Sisane, editor of the Pathet Lao paper *Lao Hak Xat*, visits Hanoi and Peking after the Afro-Asian Solidarity conference at Cairo.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176.'
+    tags: [polity:pathet-lao, polity:drv, polity:prc]
+  - id: cal.1961-02.vietnam-diplomacy-3
+    when: Feb., after the 1st
+    date: 1961-02
+    at: after 1961-02-01
+    thread: vietnam-diplomacy
+    also: [soviet-union]
+    c: 'Nguyễn Duy Trinh''s economic delegation from Peking back to Eastern Europe by way of Moscow: Bucharest again; Tirana, where Trinh represents the Lao Động Party at the Albanian Party of Labor''s Fourth Congress; Warsaw; the Leipzig Fair; Sofia; Prague.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 183. Names: Nguyễn Duy Trinh.'
+    tags: [polity:drv, name:nguyen-duy-trinh, ok:fields-place]

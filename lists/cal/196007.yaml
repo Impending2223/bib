@@ -341,6 +341,17 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 44: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc+poland]
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-02.vietnam-diplomacy
+    when: July 2
+    date: '1960-07-02'
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: 'Sihanouk discloses that Zhou Enlai, on his visit, gave him an informal guarantee: China would support Cambodia if her frontiers were threatened.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 142–143. To check: Keesing''s Contemporary Archives, Apr. 1–8, 1961, 18013 (cited by [[w.guan-vietnamese-communists-relations-with]], 143 n.48). See [[cal.1960-05-08.china-leadership-3]]. Names: Sihanouk, Zhou Enlai.'
+    src:
+      rows:
+        - 'via x.1961-04.keesings-contemporary-archives-18013: ?'
+    tags: [polity:cambodia, name:norodom-sihanouk, name:zhou-enlai, ok:fields-place]
   - id: cal.1960-07-03.elections-1960
     when: July 3–4
     date: '1960-07-03'
@@ -1020,6 +1031,18 @@ entries:
       - 1960-07-07T11:00Z
     time_band: daytime
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-07.vietnam-hanoi
+    when: July 7
+    date: '1960-07-07'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [vietnam-diplomacy, laos]
+    c: 'Hanoi, the Second National Assembly''s first session opens; Giáp not reported present. Phạm Văn Đồng''s report on the government''s work in the first half of 1960: no quick victory in the struggle for reunification, imperialism''s collapse sure under the Soviet Union and China; the 1957 Moscow Declaration, reaffirmed at Bucharest; support for Cambodia''s peace and neutrality; Laos a threat to the DRV and to peace in Indochina; reunification a sacred task, the United States the enemy; the anti-Diệm struggle in the South not begun by the North.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 151; 151 n.79 (Giáp not reported at the opening). To check: VNA, 7 July 1960, SWB/FE/381/B/1-8 (cited by [[w.guan-vietnamese-communists-relations-with]], 151 n.78). Names: Phạm Văn Đồng, Võ Nguyên Giáp.'
+    src:
+      rows:
+        - 'via x.1960-07-07.vna-fe-381-b-1-8: ?'
+    tags: [polity:drv, name:pham-van-dong, name:vo-nguyen-giap]
   - id: cal.1960-07-08.elections-1960
     when: July 8
     date: '1960-07-08'
@@ -1153,6 +1176,17 @@ entries:
       - 1960-07-08T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-08.vietnam-hanoi
+    when: July 8
+    date: '1960-07-08'
+    place: hanoi
+    thread: vietnam-hanoi
+    c: '*Quân Đội Nhân Dân* prints Maj. Gen. Nguyễn Văn Vịnh''s speech at the High Command Office: no need for the North to organize the overthrow of the "U.S.-Diệm" administration, the task of the South Vietnamese, who are more than able to do it.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 152. To check: VNA, 8 July 1960, SWB/FE/382/A3/3 (cited by [[w.guan-vietnamese-communists-relations-with]], 152 n.80).'
+    src:
+      rows:
+        - 'via x.1960-07-08.vna-fe-382-a3-3: ?'
+    tags: [polity:drv]
   - id: cal.1960-07-09.cuba
     when: July 9
     date: '1960-07-09'
@@ -1299,6 +1333,18 @@ entries:
       - 1960-07-09T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-09.vietnam-hanoi-2
+    when: July 9
+    date: '1960-07-09'
+    place: hanoi
+    thread: vietnam-hanoi
+    also: [soviet-union, china-leadership]
+    c: '*Nhân Dân* again prints the Bucharest communiqué in full, with the *Pravda* and *Renmin ribao* editorials of June 29 on it.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 151. To check: VNA, 9 July 1960, SWB/FE/382/A2/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 151 n.77).'
+    src:
+      rows:
+        - 'via x.1960-07-09.vna-fe-382-a2-2: ?'
+    tags: [polity:drv]
   - id: cal.1960-07-10.elections-1960-2
     when: July 10
     date: '1960-07-10'
@@ -1566,6 +1612,17 @@ entries:
     c: Chen Yi 陈毅 telegraphs Shagdarsüren 沙格达尔苏伦, the Mongolian Foreign Minister, on the 39th anniversary of the Mongolian people's revolution.
     n: '[[w.chen-yi-nianpu]], 824. Names: Chen Yi.'
     tags: [polity:prc, polity:mongolia, name:chen-yi]
+  - id: cal.1960-07-10.vietnam-diplomacy
+    when: July 10
+    date: '1960-07-10'
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Sihanouk sends three of his sons to Peking for their education.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 143. To check: FO 371/152697, DV 10310/8, 28 July 1960, from Phnom Penh to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 143 n.49). See [[cal.1960-07-24.china-leadership-2]]. Names: Sihanouk.'
+    src:
+      rows:
+        - 'via x.1960-07-28.fo-152697-dv-10310-8: ?'
+    tags: [polity:cambodia, polity:prc, name:norodom-sihanouk, ok:fields-place]
   - id: cal.1960-07-11.congo
     when: July 11
     date: '1960-07-11'
@@ -3092,7 +3149,7 @@ entries:
     place: hanoi
     thread: vietnam-hanoi
     c: Hanoi. The Second National Assembly's first session closes (July 7–15). Hồ Chí Minh President, Tôn Đức Thắng Vice President, Trường Chinh chairman of the Standing Committee, Phạm Văn Đồng Premier; a National Defense Council elected. Laws on the organization of the Assembly, the Council of Government, the Supreme People's Procuracy and the Supreme People's Court.
-    n: '[[w.lich-su-khang-chien-chong-my]], II, 160; 152 (the law on the Council of Government). Check: the history gives the session, not the day of the elections within it. Names: Hồ Chí Minh, Tôn Đức Thắng, Trường Chinh, Phạm Văn Đồng.'
+    n: '[[w.lich-su-khang-chien-chong-my]], II, 160; 152 (the law on the Council of Government). [[w.guan-vietnamese-communists-relations-with]], 151 (July 7–15; Trường Chinh chairman of the Standing Committee; Giáp elected in absentia to the Assembly''s presidium and made chairman of the National Scientific Research Commission, Trường Chinh vice-chairman). Check: the history gives the session, not the day of the elections within it. To check: FO 371/152747, DV 1016/29, 26 August 1960, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 151 n.79a); VNA, 7 July 1960, SWB/FE/381/B/1-8 (cited by [[w.guan-vietnamese-communists-relations-with]], 151 n.79b). Names: Hồ Chí Minh, Tôn Đức Thắng, Trường Chinh, Phạm Văn Đồng.'
     tags: [polity:drv, name:ho-chi-minh, name:ton-duc-thang, name:truong-chinh, name:pham-van-dong]
   - id: cal.1960-07-16.democratic-party
     when: July 16
@@ -3165,7 +3222,7 @@ entries:
     thread: china
     also: [soviet-union]
     c: Khrushchev recalls all Soviet experts from China and sharply cuts Soviet material and military aid.
-    n: '[[w.jian-maos-china-and-the]], 82 (by the Chinese histories); [[w.zedong-mao-zedong-nianpu]], IV, July 16, 1960 (the Soviet note of July 16 recalling the experts); [[w.lengxi-shinian-lunzhan-1956-1966]], 335–336, 338 (the CPSU Central Committee''s note handed July 16, decided at its plenum of July 13–16: all experts out between July 28 and Sept. 1; 1,299 experts and over 1,700 dependents; 304 projects, 156 of Stalin''s time and 148 of Khrushchev''s, 109 done by 1959, 48 due in 1960, 147 left); [[w.macfarquhar-maos-last-revolution]], 7 (July; almost 1,400 Soviet specialists); [[w.yang-jisheng-mubei]], II, 1171 (July 16: the Soviet government tears up 600 contracts, 343 for experts and 257 for science and technology, and tells the Chinese government it will withdraw its 1,390 experts between July 28 and Sept. 1 and send no more of the 900-odd due); [[w.deng-xiaoping-nianpu-1904]], III, 1566 (July 16, 1960: the Soviet government''s note to the Chinese Foreign Ministry, recalling on its own decision the Soviet experts working in China); [[w.dikotter-maos-great-famine]], 105 n.5 (the letter of recall of July 16, 1960; Khrushchev pulls the Soviet advisers out of China); [[w.chen-yi-nianpu]], 825 (July 16, 1960; the Soviet Union decides on its own to recall its experts, notifying that all are to leave between July 28 and Sept. 1; Chen Yi, "赫公把文章做绝" (Khrushchev has written the piece to its end): it forces China to rely on itself, and China will not bow); [[w.jian-zhou-enlai]], 453 (July 16: Moscow recalls all its experts and cuts military and other support); [[w.jian-chinese-politics-and-the]], 275 (July 1960); [[w.zhang-sino-soviet-economic-cooperation]], 214 (July 16: Beijing told that all Soviet advisers and experts will soon be withdrawn); [[w.westad-introduction]], 25 (July 16: the Soviet government informs Liu Shaoqi that it has ordered all Soviet technicians in China home by the end of August); [[w.westad-sino-soviet-alliance-and]], 178 (most Soviet advisers withdrawn in July and early August); [[w.pleshakov-nikita-khrushchev-and-sino]], 239 (the advisors and technicians withdrawn in August); [[w.brothers-in-arms]], 362 (Chen Yi to Chervonenko, Aug. 4, 1960: the Chinese told July 16; some 1,400 to 1,500 specialists); [[w.brothers-in-arms]], 381 (Deng Xiaoping''s speech of July 8, 1963, in the Soviet record: on July 16 the Soviet side decided to withdraw over 1,300 specialists between July 28 and Sept. 1; over 900 recalled from business trips; contracts and agreements broken); [[w.peng-zhen-nianpu-1902]], IV, 46 (July 16, 1960; Sudarikov, the Soviet chargé d''affaires, hands Zhang Hanfu, Vice Foreign Minister, the Soviet government''s note recalling its experts and advisers, the military among them); [[w.peng-zhen-nianpu-1902]], IV, 46–47 (on July 25, 1960, without waiting for China''s answer, the Soviet side gives notice that all its experts will leave between July 28 and Sept. 1; the page''s note: from July 28 to Sept. 1, 1,390 experts recalled, over 900 not sent, 343 contracts and supplements torn up, 257 scientific and technical projects ended); [[w.friedman-shadow-cold-war]], 52 (Khrushchev suddenly decides to remove all Soviet specialists from the PRC; Peking notified "two days after the conclusion of the plenum"). Washington''s knowledge: [FRUS 1958–60, XIX, doc. 348](https://history.state.gov/historicaldocuments/frus1958-60v19/d348) (State''s Bureau of Intelligence and Research, Aug. 26: "an unusual exodus of Soviet technicians" reported from Peking since Aug. 12; 2,000 to 3,000 in China in all; "no firm evidence" yet that it is tied to the dispute). Check: the day: Wu (335, 338) has the note handed July 16, as the Mao nianpu. To check: [[w.bianjibu-dangdai-zhongguo-waijiao]], 116–19 (cited by [[w.jian-maos-china-and-the]], 82 n.158a); [[w.jin-1949-1989-niande-zhongguo]], 364 (cited by [[w.jian-maos-china-and-the]], 82 n.158b); Chen Jian, "A Crucial Step toward the Breakdown of the Sino-Soviet Alliance," *Cold War International History Project Bulletin*, nos. 8–9 (1996–97), 246, 249–50 (cited by [[w.jian-maos-china-and-the]], 82 n.158); [[w.sino-soviet-dispute]], 174–205 (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.17a); [[w.macfarquhar-origins-of-the-cultural]], II, 264–292 (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.17b); Letter of recall, in Russian and Chinese, Ministry of Foreign Affairs Archives, Peking, July 16, 1960, 109-924-1, pp. 4–8 (cited by [[w.dikotter-maos-great-famine]], 105 n.5); Soviet embassy''s note to the Chinese Foreign Ministry about recalling all Soviet experts in China, July 16, 1960 (cited by [[w.jian-zhou-enlai]], 453 n.43); Report of Frol Kozlov at CC CPSU plenum, July 7, 1960, RGANI f.2 o.1 d.458, 65 (cited by [[w.friedman-shadow-cold-war]], 52 n.106). Names: Khrushchev. Check: the day of the recall.'
+    n: '[[w.jian-maos-china-and-the]], 82 (by the Chinese histories); [[w.zedong-mao-zedong-nianpu]], IV, July 16, 1960 (the Soviet note of July 16 recalling the experts); [[w.lengxi-shinian-lunzhan-1956-1966]], 335–336, 338 (the CPSU Central Committee''s note handed July 16, decided at its plenum of July 13–16: all experts out between July 28 and Sept. 1; 1,299 experts and over 1,700 dependents; 304 projects, 156 of Stalin''s time and 148 of Khrushchev''s, 109 done by 1959, 48 due in 1960, 147 left); [[w.macfarquhar-maos-last-revolution]], 7 (July; almost 1,400 Soviet specialists); [[w.yang-jisheng-mubei]], II, 1171 (July 16: the Soviet government tears up 600 contracts, 343 for experts and 257 for science and technology, and tells the Chinese government it will withdraw its 1,390 experts between July 28 and Sept. 1 and send no more of the 900-odd due); [[w.deng-xiaoping-nianpu-1904]], III, 1566 (July 16, 1960: the Soviet government''s note to the Chinese Foreign Ministry, recalling on its own decision the Soviet experts working in China); [[w.dikotter-maos-great-famine]], 105 n.5 (the letter of recall of July 16, 1960; Khrushchev pulls the Soviet advisers out of China); [[w.chen-yi-nianpu]], 825 (July 16, 1960; the Soviet Union decides on its own to recall its experts, notifying that all are to leave between July 28 and Sept. 1; Chen Yi, "赫公把文章做绝" (Khrushchev has written the piece to its end): it forces China to rely on itself, and China will not bow); [[w.jian-zhou-enlai]], 453 (July 16: Moscow recalls all its experts and cuts military and other support); [[w.jian-chinese-politics-and-the]], 275 (July 1960); [[w.zhang-sino-soviet-economic-cooperation]], 214 (July 16: Beijing told that all Soviet advisers and experts will soon be withdrawn); [[w.westad-introduction]], 25 (July 16: the Soviet government informs Liu Shaoqi that it has ordered all Soviet technicians in China home by the end of August); [[w.westad-sino-soviet-alliance-and]], 178 (most Soviet advisers withdrawn in July and early August); [[w.pleshakov-nikita-khrushchev-and-sino]], 239 (the advisors and technicians withdrawn in August); [[w.brothers-in-arms]], 362 (Chen Yi to Chervonenko, Aug. 4, 1960: the Chinese told July 16; some 1,400 to 1,500 specialists); [[w.brothers-in-arms]], 381 (Deng Xiaoping''s speech of July 8, 1963, in the Soviet record: on July 16 the Soviet side decided to withdraw over 1,300 specialists between July 28 and Sept. 1; over 900 recalled from business trips; contracts and agreements broken); [[w.peng-zhen-nianpu-1902]], IV, 46 (July 16, 1960; Sudarikov, the Soviet chargé d''affaires, hands Zhang Hanfu, Vice Foreign Minister, the Soviet government''s note recalling its experts and advisers, the military among them); [[w.peng-zhen-nianpu-1902]], IV, 46–47 (on July 25, 1960, without waiting for China''s answer, the Soviet side gives notice that all its experts will leave between July 28 and Sept. 1; the page''s note: from July 28 to Sept. 1, 1,390 experts recalled, over 900 not sent, 343 contracts and supplements torn up, 257 scientific and technical projects ended); [[w.friedman-shadow-cold-war]], 52 (Khrushchev suddenly decides to remove all Soviet specialists from the PRC; Peking notified "two days after the conclusion of the plenum"); [[w.guan-vietnamese-communists-relations-with]], 150 (the Chinese told July 16, the Central Committee in session July 5–Aug. 10: 1,390 experts recalled without consultation, 343 contracts and 257 projects of scientific and technical cooperation ended, the blueprints taken home). Washington''s knowledge: [FRUS 1958–60, XIX, doc. 348](https://history.state.gov/historicaldocuments/frus1958-60v19/d348) (State''s Bureau of Intelligence and Research, Aug. 26: "an unusual exodus of Soviet technicians" reported from Peking since Aug. 12; 2,000 to 3,000 in China in all; "no firm evidence" yet that it is tied to the dispute). Check: the day: Wu (335, 338) has the note handed July 16, as the Mao nianpu. To check: [[w.bianjibu-dangdai-zhongguo-waijiao]], 116–19 (cited by [[w.jian-maos-china-and-the]], 82 n.158a); [[w.jin-1949-1989-niande-zhongguo]], 364 (cited by [[w.jian-maos-china-and-the]], 82 n.158b); Chen Jian, "A Crucial Step toward the Breakdown of the Sino-Soviet Alliance," *Cold War International History Project Bulletin*, nos. 8–9 (1996–97), 246, 249–50 (cited by [[w.jian-maos-china-and-the]], 82 n.158); [[w.sino-soviet-dispute]], 174–205 (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.17a); [[w.macfarquhar-origins-of-the-cultural]], II, 264–292 (cited by [[w.macfarquhar-maos-last-revolution]], 7 n.17b); Letter of recall, in Russian and Chinese, Ministry of Foreign Affairs Archives, Peking, July 16, 1960, 109-924-1, pp. 4–8 (cited by [[w.dikotter-maos-great-famine]], 105 n.5); Soviet embassy''s note to the Chinese Foreign Ministry about recalling all Soviet experts in China, July 16, 1960 (cited by [[w.jian-zhou-enlai]], 453 n.43); Report of Frol Kozlov at CC CPSU plenum, July 7, 1960, RGANI f.2 o.1 d.458, 65 (cited by [[w.friedman-shadow-cold-war]], 52 n.106); [[w.zong-huaiwen-years-of-trial-turmoil]], 102 (cited by [[w.guan-vietnamese-communists-relations-with]], 150 n.74). Names: Khrushchev. Check: the day of the recall.'
     src:
       c: 10806d51
       rows:
@@ -3194,6 +3251,7 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 46–47: ?'
         - 'w.friedman-shadow-cold-war 52: ?'
         - 'via x.1960-07-13.kozlov-report-plenum-draft: ?'
+        - 'w.guan-vietnamese-communists-relations-with 150: ?'
     tags: [name:khrushchev-nikita-s]
     short: the Soviet experts recalled
   - id: cal.1960-07-18.cuba
@@ -3281,6 +3339,16 @@ entries:
     c: 'Bình Thuận. July 17 a reconnaissance team under Phạm Hoài Chương goes to prepare the ground for the attack on the Hoài Đức subsector. The Provincial Committee had decided on a secret, surprise attack to break the Bắc Ruộng camp and take the people to the base by the end of July. The command: Phạm Hoài Chương, chief; Lê Triều, commissar; Nguyễn Thành and Nguyễn Thanh Đức, deputies.'
     n: '[[w.lich-su-khang-chien-chong-my]], II, 373. Names: Phạm Hoài Chương. Check: the day of the decision.'
     tags: [polity:drv]
+  - id: cal.1960-07-17.vietnam-hanoi-2
+    when: July 17–21
+    date: '1960-07-17'
+    thread: vietnam-hanoi
+    c: The All-Army Party Congress. Nguyễn Chí Thanh gives the main speech; Hồ Chí Minh at the closing. Giáp not reported there; by a British source he may be in Algeria.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 152. To check: FO 371/152747, DV 1016/29, 26 August 1960, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 152 n.82). Names: Nguyễn Chí Thanh, Hồ Chí Minh, Võ Nguyên Giáp.'
+    src:
+      rows:
+        - 'via x.1960-08-26.fo-152747-dv-1016-29: ?'
+    tags: [polity:drv, name:nguyen-chi-thanh, name:ho-chi-minh, name:vo-nguyen-giap, ok:fields-place]
   - id: cal.1960-07-18.republican-party
     when: July 18–20
     date: '1960-07-18'
@@ -5879,9 +5947,10 @@ entries:
   - id: cal.1960-07.vietnam-hanoi
     when: July
     date: 1960-07
+    place: war-zone-d
     thread: vietnam-hanoi
     c: 'The Nam Bộ Executive Committee''s fifth plenum: the political struggle''s results disappointing, propaganda among Saigon''s soldiers and officials ineffective; the armed forces weak, their weapons, buried since 1954, "archaic" and few. Hanoi asked to back a more forward strategy.'
-    n: '[[w.asselin-hanois-road-to-the]], 76; [[w.van-kien-dang-toan]], XXI, 1059–94 (the resolution, July 1960: the proselytizing of the enemy''s troops and officials weak, 1063; not the weapons'' age, nor a request to Hanoi); [[w.lich-su-khang-chien-chong-my]], II, 356–57 (the fifth plenum''s resolution, July 1960, quoted; the Regional Committee''s order for the Nam Bộ provinces to rise together in September). Made public: 2002. To check: Khuất Biên Hòa, *Đại tướng Lê Đức Anh* (2005), 61–62 (cited by [[w.asselin-hanois-road-to-the]], 76 n.18). See [[cal.1960-05-04.vietnam-hanoi]]. Check: Asselin, 76, has the political struggle''s results disappointing; the resolution reports gains in the countryside since the fourth plenum of September 1959 (XXI, 1059–62) and faults too little push in the political struggle (1063).'
+    n: '[[w.asselin-hanois-road-to-the]], 76; [[w.van-kien-dang-toan]], XXI, 1059–94 (the resolution, July 1960: the proselytizing of the enemy''s troops and officials weak, 1063; not the weapons'' age, nor a request to Hanoi); [[w.lich-su-khang-chien-chong-my]], II, 356–57 (the fifth plenum''s resolution, July 1960, quoted; the Regional Committee''s order for the Nam Bộ provinces to rise together in September); [[w.guan-vietnamese-communists-relations-with]], 152 (in War Zone D; pressure to be stepped up and more risings made; Sept. 23, the fifteenth anniversary of the resistance in the South, chosen for simultaneous risings across the region). Made public: 2002. To check: Khuất Biên Hòa, *Đại tướng Lê Đức Anh* (2005), 61–62 (cited by [[w.asselin-hanois-road-to-the]], 76 n.18); [[w.lich-su-quan-doi]], 115 (cited by [[w.guan-vietnamese-communists-relations-with]], 153 n.84). See [[cal.1960-05-04.vietnam-hanoi]]. Check: Asselin, 76, has the political struggle''s results disappointing; the resolution reports gains in the countryside since the fourth plenum of September 1959 (XXI, 1059–62) and faults too little push in the political struggle (1063).'
     src:
       c: bf23672b
       rows:
@@ -5889,6 +5958,7 @@ entries:
         - 'via x.2005.khuat-bien-hoa-dai-tuong-le-duc-anh: B'
         - 'w.van-kien-dang-toan XXI, 1059–94: ?'
         - 'w.lich-su-khang-chien-chong-my II, 356–57: A'
+        - 'w.guan-vietnamese-communists-relations-with 152: ?'
     variants:
       - unit: A
         witness: w.lich-su-khang-chien-chong-my
@@ -6213,7 +6283,13 @@ entries:
     place: hanoi
     thread: vietnam-hanoi
     c: 'The Central Committee''s eighteenth plenum, Hanoi. Lê Duẩn reports on the meeting of the communist and workers'' parties of the socialist countries at Bucharest, June 24; the plenum endorses its communiqué: socialist unity, with the Soviet Union at its head, to be guarded "like the apple of the eye." The reports of the Party''s congresses at every level and their views on the drafts heard; the political report, the report on the statute and the revised draft statute adopted; the Third Congress to open Sept. 5.'
-    n: '[[w.van-kien-dang-toan]], XXI, 439–41, 442 (the plenum''s two communiqués of Aug. 15, 1960). Names: Lê Duẩn. Check: the day.'
+    n: '[[w.van-kien-dang-toan]], XXI, 439–41, 442 (the plenum''s two communiqués of Aug. 15, 1960); [[w.guan-vietnamese-communists-relations-with]], 152 ("sometime around the end of July," to hear Lê Duẩn on Bucharest; Giáp not named there. Its communiqué, published Aug. 14: the socialist camp''s unity, peace possible and a new world war avoidable but imperialism to be watched; the Third Congress from Sept. 5). Check: the communiqué''s day: published Aug. 14 by VINA ([[w.guan-vietnamese-communists-relations-with]], 152), the *Văn kiện*''s Aug. 15. To check: FO 371/152747, DV 1016/29, 26 August 1960, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 152 n.82); VINA, 14 August 1960, SWB/FE/412/B/1-2 (cited by [[w.guan-vietnamese-communists-relations-with]], 152 n.83). Names: Lê Duẩn. Check: the day.'
+    src:
+      c: eaa757fd
+      rows:
+        - 'w.van-kien-dang-toan XXI, 439–41, 442: ?'
+        - 'w.guan-vietnamese-communists-relations-with 152: ?'
+        - 'via x.1960-08-14.vina-fe-412-b-1-2: ?'
     tags: [name:le-duan, polity:ussr, polity:drv]
   - id: cal.1960-07-31.intelligence
     when: July 31
@@ -6664,3 +6740,11 @@ entries:
         - 'w.friedman-shadow-cold-war 47: all'
         - 'via x.1960-07.report-soviet-delegation-visit-ghana-june-28: ?'
     tags: [polity:ussr, vis:only:ussr, ok:fields-place, name:nkrumah-kwame, name:toure-ahmed-sekou]
+  - id: cal.1960-07.vietnam-hanoi-5
+    when: July
+    date: 1960-07
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: The provincial committees of south-central Vietnam and Interzone V decide likewise on a new wave of armed activity from September 1960, to help the masses to self-rule.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 153. Made public: 1988 ([[w.lich-su-quan-doi]]). To check: [[w.lich-su-quan-doi]], 115 (cited by [[w.guan-vietnamese-communists-relations-with]], 153 n.84). See [[cal.1960-07.vietnam-hanoi]].'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]

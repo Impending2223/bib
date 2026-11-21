@@ -557,12 +557,24 @@ entries:
       - 1961-05-02T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-05-02.laos-3
+    when: May 2
+    date: '1961-05-02'
+    thread: laos
+    also: [soviet-union]
+    c: 'The Soviet Ambassador to Thailand to Marshal Sarit: Soviet activity in Laos meant in part to keep China from intervening there.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 164–165. Made public: 1997. To check: FO 371/159846, DF 1015/734, 4 May 1961, from Bangkok to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 165 n.46). Names: Sarit.'
+    src:
+      rows:
+        - 'via x.1961-05-04.fo-159846-df-1015-734: ?'
+    tags: [polity:ussr, polity:thailand, name:sarit-thanarat, vis:only:ussr+thailand, ok:fields-place]
   - id: cal.1961-05-03.laos
     when: May 3
     date: '1961-05-03'
+    time: 1961-05-03T01:00Z
     thread: laos
     c: Cease-fire in Laos.
-    n: FRUS 1961–63, XXIV, docs. [78](https://history.state.gov/historicaldocuments/frus1961-63v24/d78), [80](https://history.state.gov/historicaldocuments/frus1961-63v24/d80). [[w.moyar-triumph-forsaken]], 128; [[w.sorensen-kennedy]], 646; [[w.anthony-war-in-northern-laos]], 51 (the cease-fire agreed by May 3; the Pathet Lao take Muong Phalane that morning); [[w.reeves-president-kennedy]], 115. See [[cal.1961-03-23.laos]].
+    n: FRUS 1961–63, XXIV, docs. [78](https://history.state.gov/historicaldocuments/frus1961-63v24/d78), [80](https://history.state.gov/historicaldocuments/frus1961-63v24/d80). [[w.moyar-triumph-forsaken]], 128; [[w.sorensen-kennedy]], 646; [[w.anthony-war-in-northern-laos]], 51 (the cease-fire agreed by May 3; the Pathet Lao take Muong Phalane that morning); [[w.reeves-president-kennedy]], 115; [[w.guan-vietnamese-communists-relations-with]], 192 (8:00 A.M., the deadline; the North Vietnamese–Pathet Lao operation in southern Laos from Apr. 11 done by then). See [[cal.1961-03-23.laos]].
     src:
       c: ced87af0
       rows:
@@ -571,12 +583,14 @@ entries:
         - 'w.sorensen-kennedy 646: A'
         - 'w.anthony-war-in-northern-laos 51: ?'
         - 'w.reeves-president-kennedy 115: A'
+        - 'w.guan-vietnamese-communists-relations-with 192: ?'
     short: the cease-fire
     variants:
       - unit: A
         witness: w.reeves-president-kennedy
         reads: May 5, a cease-fire document agreed
         at: '115'
+    time_zone: Asia/Vientiane
   - id: cal.1961-05-03.africa
     when: May 3–5
     date: '1961-05-03'
@@ -2415,6 +2429,13 @@ entries:
         - 'w.friedman-shadow-cold-war 65: all'
         - 'via x.1961-05-08.scscaa-presidium-session-may-8-1961: ?'
     tags: [polity:ussr, vis:only:ussr]
+  - id: cal.1961-05-08.laos
+    when: May 8
+    date: '1961-05-08'
+    thread: laos
+    c: The International Commission arrives in Laos.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 192.'
+    tags: [polity:india, polity:poland, polity:canada, ok:fields-place]
   - id: cal.1961-05-09.press-and-broadcasting
     when: May 9
     date: '1961-05-09'
@@ -3454,6 +3475,13 @@ entries:
     c: Geneva 日内瓦. Chen Yi 陈毅 at the airport to welcome the Burmese government delegation to the conference on Laos, led by 昆卓, the Foreign Minister.
     n: '[[w.chen-yi-nianpu]], 872. Names: Chen Yi.'
     tags: [polity:prc, polity:burma, name:chen-yi]
+  - id: cal.1961-05-11.laos
+    when: May 11
+    date: '1961-05-11'
+    thread: laos
+    c: 'The International Commission to the co-chairmen: a general, demonstrable cessation of hostilities since the cease-fire order of May 3.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 192.'
+    tags: [polity:india, polity:poland, polity:canada, ok:fields-place]
   - id: cal.1961-05-12.vietnam
     when: May 12
     date: '1961-05-12'
@@ -4277,6 +4305,20 @@ entries:
       - 1961-05-15T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-05-15.vietnam-diplomacy
+    when: May 15
+    date: '1961-05-15'
+    place: guilin
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Guilin. Hồ Chí Minh, on holiday in China before the Geneva conference, arrives by air with He Wei; in the afternoon climbs Diecai Shan, sails down the Li River, sees the Rong caves; at Yangshuo climbs the Wangjiang tower.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 193. To check: [[w.zheng-hu-zhiming-yu-zhongguo]], 161–163 (cited by [[w.guan-vietnamese-communists-relations-with]], 194 n.55). Names: Hồ Chí Minh.'
+    tags: [polity:drv, polity:prc, name:ho-chi-minh]
+    time_range:
+      - 1961-05-15T04:00Z
+      - 1961-05-15T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-05-16.laos
     when: May 16
     date: '1961-05-16'
@@ -4284,7 +4326,7 @@ entries:
     place: geneva
     thread: laos
     c: The Geneva conference on Laos opens. Rusk heads the delegation; Harriman after Rusk goes home.
-    n: '[FRUS 1961–63, XXIV, doc. 87](https://history.state.gov/historicaldocuments/frus1961-63v24/d87); [doc. 91](https://history.state.gov/historicaldocuments/frus1961-63v24/d91). [[w.gibbons-u-s-government-and]], II, 26 (the negotiations begun May 16; Harriman to head the team; not Rusk); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 243, 246; [[w.asselin-hanois-road-to-the]], 122–25 (the opening; Hanoi at the conference); [[w.zhai-china-and-the-vietnam]], 101 (the first session, May 16; Chen Yi for China, speaking first); [[w.sorensen-kennedy]], 646–47; [[w.sorensen-kennedy]], 646 (a new Geneva conference, late spring 1961); [[w.schulimson-joint-chiefs-of-staff]], 87 (Rusk leaves Geneva for Washington May 20; Harriman heads the delegation); [[w.lengxi-shinian-lunzhan-1956-1966]], 453–454 (the Chinese delegation under Chen Yi, Vice-Premier and Foreign Minister, at the first stage of the conference, May to July; it settled the Chinese plan first with the DRV and the Soviets, then with the three princes; Gromyko''s delegation in a supporting part; China and Vietnam in the front line against the Americans, with Souphanouvong; China and the USSR little at odds); [[w.macfarquhar-origins-of-the-cultural]], III, 124 (the conference, to July 1962); [[w.chen-yi-nianpu]], 872 (May 16, 1961, 6:10 p.m., the Palais des Nations; the conference opens, then goes into closed session for the general debate); [[w.khoo-collateral-damage]], 42 (the conference on Laos, May 1961 to July 1962, thirteen states). [[w.rusk-as-i-saw-it-1990]], 428–29 (the conference). To check: [[w.abramson-spanning-the-century]]; [[w.taylor-china-and-southeast-asia]], 21 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 124 n.25); [[w.whiting-sino-soviet-split-in]], 525 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 124 n.26); [[w.sagar-major-political-events-in]], 54, 59 (cited by [[w.khoo-collateral-damage]], 42 n.221). See [[cal.1961-03-23.laos]]. Names: Rusk, Harriman.'
+    n: '[FRUS 1961–63, XXIV, doc. 87](https://history.state.gov/historicaldocuments/frus1961-63v24/d87); [doc. 91](https://history.state.gov/historicaldocuments/frus1961-63v24/d91). [[w.gibbons-u-s-government-and]], II, 26 (the negotiations begun May 16; Harriman to head the team; not Rusk); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 243, 246; [[w.asselin-hanois-road-to-the]], 122–25 (the opening; Hanoi at the conference); [[w.zhai-china-and-the-vietnam]], 101 (the first session, May 16; Chen Yi for China, speaking first); [[w.sorensen-kennedy]], 646–47; [[w.sorensen-kennedy]], 646 (a new Geneva conference, late spring 1961); [[w.schulimson-joint-chiefs-of-staff]], 87 (Rusk leaves Geneva for Washington May 20; Harriman heads the delegation); [[w.lengxi-shinian-lunzhan-1956-1966]], 453–454 (the Chinese delegation under Chen Yi, Vice-Premier and Foreign Minister, at the first stage of the conference, May to July; it settled the Chinese plan first with the DRV and the Soviets, then with the three princes; Gromyko''s delegation in a supporting part; China and Vietnam in the front line against the Americans, with Souphanouvong; China and the USSR little at odds); [[w.macfarquhar-origins-of-the-cultural]], III, 124 (the conference, to July 1962); [[w.chen-yi-nianpu]], 872 (May 16, 1961, 6:10 p.m., the Palais des Nations; the conference opens, then goes into closed session for the general debate); [[w.khoo-collateral-damage]], 42 (the conference on Laos, May 1961 to July 1962, thirteen states); [[w.guan-vietnamese-communists-relations-with]], 194 (May 16, 1961–July 23, 1962; the Chinese under Chen Yi, expecting to stay long, the Soviets under Pushkin, six weeks; the North Vietnamese under Ưng Văn Khiêm, Hoàng Văn Hoan special adviser; Souvanna Phouma''s government under Quinim Pholsena, the NLHX under Phoumi Vongvichit). [[w.rusk-as-i-saw-it-1990]], 428–29 (the conference). To check: [[w.abramson-spanning-the-century]]; [[w.taylor-china-and-southeast-asia]], 21 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 124 n.25); [[w.whiting-sino-soviet-split-in]], 525 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 124 n.26); [[w.sagar-major-political-events-in]], 54, 59 (cited by [[w.khoo-collateral-damage]], 42 n.221); [[w.thee-notes-of-a-witness]], 18–19 (cited by [[w.guan-vietnamese-communists-relations-with]], 194 n.56a); [[w.hoan-drop-in-the-ocean]], 384 (cited by [[w.guan-vietnamese-communists-relations-with]], 194 n.57). See [[cal.1961-03-23.laos]]. Names: Rusk, Harriman.'
     src:
       c: 8e08cd3b
       rows:
@@ -4306,6 +4348,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 124 n.26: A'
         - 'w.chen-yi-nianpu 872: ?'
         - 'w.khoo-collateral-damage 42: ?'
+        - 'w.guan-vietnamese-communists-relations-with 194: ?'
     tags: [name:rusk-dean, name:harriman-w-averell]
     short: the conference
     time_zone: Europe/Zurich
@@ -4694,6 +4737,15 @@ entries:
     c: Chen Yi 陈毅 calls on Prince Sihanouk at his villa near Geneva 日内瓦.
     n: '[[w.chen-yi-nianpu]], 872. Names: Chen Yi, Sihanouk.'
     tags: [polity:prc, polity:cambodia, name:chen-yi, name:norodom-sihanouk, ok:fields-place]
+  - id: cal.1961-05-16.vietnam-diplomacy
+    when: May 16
+    date: '1961-05-16'
+    place: guilin
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Hồ Chí Minh sails up the Li River back to Guilin.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 193. To check: [[w.zheng-hu-zhiming-yu-zhongguo]], 161–163 (cited by [[w.guan-vietnamese-communists-relations-with]], 194 n.55). Names: Hồ Chí Minh.'
+    tags: [polity:drv, name:ho-chi-minh]
   - id: cal.1961-05-17.europe-and-the-alliance
     when: May 17
     date: '1961-05-17'
@@ -4880,6 +4932,15 @@ entries:
     c: Chen Yi 陈毅 telegraphs the Finnish Foreign Ministry in condolence on the death of Ralf Törngren 拉尔夫·陶格伦, the Foreign Minister.
     n: '[[w.chen-yi-nianpu]], 873. Names: Chen Yi.'
     tags: [polity:prc, polity:finland, name:chen-yi]
+  - id: cal.1961-05-17.vietnam-diplomacy
+    when: May 17
+    date: '1961-05-17'
+    place: nanjing
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: 'Nanjing. Hồ Chí Minh at the Sun Yat-sen memorial; then to Wuxi and Lake Tai, and Hunan: Shaoshan, Mao''s birthplace, Changsha, Yuelu Hill, the Aiwan pavilion, the First Normal School, the Xiang River and its long island. He spends his seventy-first birthday in China.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 193–194. To check: [[w.zheng-hu-zhiming-yu-zhongguo]], 161–163 (cited by [[w.guan-vietnamese-communists-relations-with]], 194 n.55). Names: Hồ Chí Minh, Mao.'
+    tags: [polity:drv, name:ho-chi-minh, name:mao-zedong]
   - id: cal.1961-05-18.european-community
     when: May 18
     date: '1961-05-18'
@@ -9194,3 +9255,12 @@ entries:
         - 'w.friedman-shadow-cold-war 73, 79–80, 132: all'
         - 'via x.1961-05.boris-ponomarev-gosudarstve-natsionalnoi-demokratii-kommunist-8: ?'
     tags: [polity:ussr, name:ponomarev-boris-n]
+  - id: cal.1961-05.laos-2
+    when: May, after the 3rd
+    date: 1961-05
+    at: after 1961-05-03
+    thread: laos
+    also: [vietnam-hanoi]
+    c: By the army's history, at the cease-fire North Vietnamese and Pathet Lao forces hold Sam Neua, Phong Saly and Xieng Khouang provinces, much of Luang Prabang, the Plain of Jars and Highways 7, 8, 9 and 12, the cover for the Trường Sơn road and Group 559.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 192. To check: [[w.lich-su-quan-doi]], 154 (cited by [[w.guan-vietnamese-communists-relations-with]], 192 n.51); [[w.warner-reporting-south-east-asia]], 171 (cited by [[w.guan-vietnamese-communists-relations-with]], 193 n.52).'
+    tags: [polity:drv, polity:pathet-lao, ok:fields-place]

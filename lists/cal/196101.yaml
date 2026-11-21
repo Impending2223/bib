@@ -144,6 +144,14 @@ entries:
       - 1961-01-01T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-01-01.vietnam-diplomacy
+    when: Jan. 1
+    date: '1961-01-01'
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: 'Sihanouk to the two Geneva co-chairmen and other heads of government, by letter: a new, enlarged conference on Laos, Thailand, South Vietnam and Burma in it.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 174. Names: Sihanouk.'
+    tags: [polity:cambodia, name:norodom-sihanouk, ok:fields-place]
   - id: cal.1961-01-02.laos
     when: Jan. 2–3
     date: '1961-01-02'
@@ -175,12 +183,13 @@ entries:
     date: '1961-01-02'
     thread: vietnam
     c: Lansdale in Vietnam.
-    n: '[FRUS 1961–63, I, doc. 2](https://history.state.gov/historicaldocuments/frus1961-63v01/d2) (editorial note). [[w.marolda-united-states-navy-and]], 98. Names: Lansdale.'
+    n: '[FRUS 1961–63, I, doc. 2](https://history.state.gov/historicaldocuments/frus1961-63v01/d2) (editorial note). [[w.marolda-united-states-navy-and]], 98; [[w.guan-vietnamese-communists-relations-with]], 180 (Jan. 2–14). Names: Lansdale.'
     src:
       c: 3635e7e8
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d2: all'
         - 'w.marolda-united-states-navy-and 98: all'
+        - 'w.guan-vietnamese-communists-relations-with 180: ?'
     tags: [name:lansdale-edward-g]
   - id: cal.1961-01-02.laos-2
     when: Jan. 2
@@ -735,6 +744,17 @@ entries:
       - 1961-01-03T11:30Z
     time_band: afternoon
     time_zone: Asia/Yangon
+  - id: cal.1961-01-03.laos
+    when: Jan. 3
+    date: '1961-01-03'
+    thread: laos
+    also: [soviet-union]
+    c: 'As the State Department has it, by the British embassy in Washington: in the battle for Vientiane Soviet Il-14s flew in 105-mm howitzers, ammunition, gasoline, rations; North Vietnamese military personnel landed and parachuted to reinforce Kong Le outside the city; Soviet heavy transports through China to Hanoi and Haiphong backed the airlift. Since Kong Le''s withdrawal on Dec. 15, at least 180 sorties seen around Vang Vieng, Phong Hong, Sam Neua and Xieng Khouang, war matériel and many North Vietnamese parachuted in.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 172, 176. Made public: 1997. To check: FO 371/159813, DF 1015/21, 3 January 1961, from Washington to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 172 n.88). Names: Kong Le.'
+    src:
+      rows:
+        - 'via x.1961-01-03.fo-159813-df-1015-21: ?'
+    tags: [form:state, polity:us, polity:uk, polity:ussr, polity:drv, name:kong-le, vis:only:us+uk, ok:fields-place]
   - id: cal.1961-01-04.cuba-bay-of-pigs
     when: Jan. 4
     date: '1961-01-04'
@@ -882,7 +902,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai attends Burma's thirteenth independence day ceremony and the exchange of ratifications of the Sino-Burmese boundary treaty; receives from President Win Maung a specially made medal of the "Holder of the Noble, Great, Philanthropic and Glorious."
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 383 (Jan. 4, 1961); [[w.zhou-enlai-waijiao-huodong]], 299–300 (Jan. 4, 1961; 上午, 8时, 缅甸独立节庆祝仪式; 下午, 总统府, 互换边界条约批准书仪式; 下午, 接受勋章); [[w.lengxi-shinian-lunzhan-1956-1966]], 452 (Zhou led the government delegation to Burma in January 1961 to exchange the instruments of ratification of the boundary treaty and complete its legal steps; signed before the Moscow conference); [[w.chen-yi-nianpu]], 852–853 (Jan. 4, 1961; Chen Yi with Zhou Enlai on the central reviewing stand at the independence day ceremony in the morning, and at the exchange of the boundary treaty''s ratifications in the President''s House in the afternoon). Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 383 (Jan. 4, 1961); [[w.zhou-enlai-waijiao-huodong]], 299–300 (Jan. 4, 1961; 上午, 8时, 缅甸独立节庆祝仪式; 下午, 总统府, 互换边界条约批准书仪式; 下午, 接受勋章); [[w.lengxi-shinian-lunzhan-1956-1966]], 452 (Zhou led the government delegation to Burma in January 1961 to exchange the instruments of ratification of the boundary treaty and complete its legal steps; signed before the Moscow conference); [[w.chen-yi-nianpu]], 852–853 (Jan. 4, 1961; Chen Yi with Zhou Enlai on the central reviewing stand at the independence day ceremony in the morning, and at the exchange of the boundary treaty''s ratifications in the President''s House in the afternoon); [[w.guan-vietnamese-communists-relations-with]], 173 (Rangoon). To check: Peking Review IV, no. 1, Jan. 6, 1961, 13–18 (cited by [[w.guan-vietnamese-communists-relations-with]], 173 n.94b). Names: Zhou Enlai, U Nu.'
     src:
       c: 362b6265
       rows:
@@ -890,6 +910,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 299–300: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 452: A'
         - 'w.chen-yi-nianpu 852–853: ?'
+        - 'w.guan-vietnamese-communists-relations-with 173: ?'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
     time_range:
       - 1961-01-03T23:30Z
@@ -1129,6 +1150,14 @@ entries:
       - 1961-01-04T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-01-04.vietnam-diplomacy
+    when: Jan. 4
+    date: '1961-01-04'
+    thread: vietnam-diplomacy
+    also: [laos, china-leadership]
+    c: 'Phạm Văn Đồng to Zhou Enlai, by telegram: an international conference on Laos proposed.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 175. Names: Phạm Văn Đồng, Zhou Enlai.'
+    tags: [polity:drv, name:pham-van-dong, name:zhou-enlai, ok:fields-place]
   - id: cal.1961-01-05.economy
     when: Jan. 5
     date: '1961-01-05'
@@ -1556,7 +1585,7 @@ entries:
     thread: berlin-and-vienna
     also: [soviet-union]
     c: Khrushchev reports to party organizations on the Moscow meeting of 81 communist parties. World war avoidable; wars of national liberation inevitable, and to be supported. Kennedy reads it to his staff and quotes it to the cabinet.
-    n: '[FRUS 1961–63, V, doc. 15](https://history.state.gov/historicaldocuments/frus1961-63v05/d15) (Jan. 26, 1961). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 35 (the speech); [[w.marolda-united-states-navy-and]], 98 (the speech; wars of liberation); [[w.futrell-united-states-air-force]], 56 (the speech); [[w.fursenko-khrushchevs-cold-war]], 336 ("sacred war," Vietnam and Algeria); [[w.sorensen-kennedy]], 625 (the speech: piecemeal expansion by limited war and subversion); [[w.poole-joint-chiefs-of-staff]], 23 (wars of national liberation); [[w.selverstone-kennedy-withdrawal]], 20 (Khrushchev, Jan. 6, to a closed session of Kremlin officials on the meeting of Communist parties: wars of national liberation "inevitable" and "sacred"; Kennedy treats it as a statement of Soviet intentions); [[w.schlesinger-robert-kennedy-and-his]], 422–23 (Khrushchev''s speech of Jan. 6, 1961: communism to triumph neither through world war, nuclear war destroying civilization, nor through local war, but through "national liberation wars" in the Third World, with full Soviet support; the President had everyone on the National Security Council and the military read it, by Robert Kennedy''s later account; not the audience, the eighty-one parties, world war "avoidable" or the word "inevitable"); [[w.friedman-shadow-cold-war]], 60 (Khrushchev to a gathering of party and academic officials: Communists must notice "newly arising possibilities"; the new possibilities in Asia, Africa and Latin America, and the state of national democracy of the Moscow Declaration). [[w.fursenko-one-hell-of-a]], 73, 78 (the speech; Kennedy''s "Read, mark, learn and inwardly digest" and its distribution). To check: [[w.beschloss-crisis-years]]; [[w.taubman-khrushchev]]; "Declaration on Granting Independence to Colonial Countries and Peoples," Khrushchev in New York (New York, 1961), p 90 (cited by [[w.futrell-united-states-air-force]], 56 n.30a); Hearing before the Subcommittee to Investigate the Administration of the Internal Security Act and Internal Security Laws of the Committee on the Judiciary, US Senate, Analysis of the Khrushchev Speech of January 6, 1961, 87th Cong, 1st sess (Washington, 1961), pp 64–65, 77–78 (cited by [[w.futrell-united-states-air-force]], 56 n.30b); the speech, [[w.current-documents-1961]], 555–58 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 35 n.72); N. S. Khrushchev, “Za Novye Pobedy Mirovogo Kommunisticheskogo Dvizheniia,” Kommunist, 28 (cited by [[w.friedman-shadow-cold-war]], 60 n.1). Names: Khrushchev.'
+    n: '[FRUS 1961–63, V, doc. 15](https://history.state.gov/historicaldocuments/frus1961-63v05/d15) (Jan. 26, 1961). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 35 (the speech); [[w.marolda-united-states-navy-and]], 98 (the speech; wars of liberation); [[w.futrell-united-states-air-force]], 56 (the speech); [[w.fursenko-khrushchevs-cold-war]], 336 ("sacred war," Vietnam and Algeria); [[w.sorensen-kennedy]], 625 (the speech: piecemeal expansion by limited war and subversion); [[w.poole-joint-chiefs-of-staff]], 23 (wars of national liberation); [[w.selverstone-kennedy-withdrawal]], 20 (Khrushchev, Jan. 6, to a closed session of Kremlin officials on the meeting of Communist parties: wars of national liberation "inevitable" and "sacred"; Kennedy treats it as a statement of Soviet intentions); [[w.schlesinger-robert-kennedy-and-his]], 422–23 (Khrushchev''s speech of Jan. 6, 1961: communism to triumph neither through world war, nuclear war destroying civilization, nor through local war, but through "national liberation wars" in the Third World, with full Soviet support; the President had everyone on the National Security Council and the military read it, by Robert Kennedy''s later account; not the audience, the eighty-one parties, world war "avoidable" or the word "inevitable"); [[w.friedman-shadow-cold-war]], 60 (Khrushchev to a gathering of party and academic officials: Communists must notice "newly arising possibilities"; the new possibilities in Asia, Africa and Latin America, and the state of national democracy of the Moscow Declaration); [[w.guan-vietnamese-communists-relations-with]], 181 (to the party organizations of the Higher Party School, the Academy of Social Sciences and the Institute of Marxism–Leninism: wars of national liberation inevitable while imperialism lasts; Vietnam the example, the Americans kept out by the aid China, the Soviet Union and the others would give; the Soviet Union to "fully support such just wars"). [[w.fursenko-one-hell-of-a]], 73, 78 (the speech; Kennedy''s "Read, mark, learn and inwardly digest" and its distribution). To check: [[w.beschloss-crisis-years]]; [[w.taubman-khrushchev]]; "Declaration on Granting Independence to Colonial Countries and Peoples," Khrushchev in New York (New York, 1961), p 90 (cited by [[w.futrell-united-states-air-force]], 56 n.30a); Hearing before the Subcommittee to Investigate the Administration of the Internal Security Act and Internal Security Laws of the Committee on the Judiciary, US Senate, Analysis of the Khrushchev Speech of January 6, 1961, 87th Cong, 1st sess (Washington, 1961), pp 64–65, 77–78 (cited by [[w.futrell-united-states-air-force]], 56 n.30b); the speech, [[w.current-documents-1961]], 555–58 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 35 n.72); N. S. Khrushchev, “Za Novye Pobedy Mirovogo Kommunisticheskogo Dvizheniia,” Kommunist, 28 (cited by [[w.friedman-shadow-cold-war]], 60 n.1); Moscow Home Service, 19 January 1961, SWB/SU/544/C/1-29 (cited by [[w.guan-vietnamese-communists-relations-with]], 181 n.8). Names: Khrushchev.'
     src:
       c: 6a450300
       rows:
@@ -1575,6 +1604,7 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 422–23: ?'
         - 'w.friedman-shadow-cold-war 60: ?'
         - 'via x.undated.n-s-khrushchev-za-novye-pobedy-mirovogo: ?'
+        - 'w.guan-vietnamese-communists-relations-with 181: ?'
     tags: [name:khrushchev-nikita-s, name:kennedy-john-f]
   - id: cal.1961-01-06.desegregation-schools
     when: Jan. 6
@@ -1872,6 +1902,14 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 90: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-01-06.vietnam-diplomacy
+    when: Jan. 6
+    date: '1961-01-06'
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Hồ Chí Minh answers Sihanouk's proposal favorably.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 174. Names: Hồ Chí Minh, Sihanouk.'
+    tags: [polity:drv, name:ho-chi-minh, name:norodom-sihanouk, ok:fields-place]
   - id: cal.1961-01-07.cuba
     when: Jan. 7
     date: '1961-01-07'
@@ -2156,6 +2194,17 @@ entries:
     c: 'The Secretariat, after the Industry Department''s report, on the Hồng Quảng Zone: a coal-mining industrial zone, the "Hồng Quảng Mining Zone", with the farmland it needs; the return of Đông Triều district from Hải Dương to be studied and settled by mid-1961 at the latest; the zone ranked as a first-class province; its committee to lead the central coal enterprises in its bounds, within the powers the Center delegates.'
     n: 'Recorded in resolution no. 15-NQ/TW, Mar. 24, 1961, *Nghị quyết của Ban Bí thư số 15-NQ/TW, ngày 24-3-1961, Về tổ chức, vị trí và nhiệm vụ của Khu uỷ Hồng Quảng*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXII, 271–75. Made public: 2002. The session: "Ngày 7-1-1961" (Jan. 7); the resolution is dated Mar. 24.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1961-01-07.laos-4
+    when: Jan. 7
+    date: '1961-01-07'
+    thread: laos
+    also: [soviet-union]
+    c: 'Khrushchev, by letters to Sihanouk, Phạm Văn Đồng and Souvanna Phouma: for a new conference.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 174–175. To check: TASS in English, 12 January 1961, SWB/SU/538/A3/3 (cited by [[w.guan-vietnamese-communists-relations-with]], 175 n.101). Names: Khrushchev, Sihanouk, Phạm Văn Đồng, Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1961-01-12.tass-in-english-su-538-a3-3: ?'
+    tags: [polity:ussr, name:khrushchev-nikita-s, name:norodom-sihanouk, name:pham-van-dong, name:souvanna-phouma, ok:fields-place]
   - id: cal.1961-01-08.opinion
     when: Jan. 8
     date: '1961-01-08'
@@ -3204,6 +3253,24 @@ entries:
       - 1961-01-12T15:30Z
     time_band: evening
     time_zone: Asia/Yangon
+  - id: cal.1961-01-12.laos-2
+    when: Jan. 12
+    date: '1961-01-12'
+    thread: laos
+    c: Pathet Lao and North Vietnamese forces take Tha Vieng, a southern gateway of Xieng Khouang.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176.'
+    tags: [polity:pathet-lao, polity:drv, ok:fields-place]
+  - id: cal.1961-01-12.vietnam-hanoi
+    when: Jan. 12
+    date: '1961-01-12'
+    thread: vietnam-hanoi
+    also: [soviet-union]
+    c: VNA carries the Lao Động Central Committee's resolution on the Moscow conference.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 181 n.7. To check: The Lao Động Central Committee''s resolution on the Moscow conference, VNA, Jan. 12, 1961, SWB/FE/539/A2/2-6 (cited by [[w.guan-vietnamese-communists-relations-with]], 181 n.7b). See [[cal.1960-12-30.vietnam-hanoi]].'
+    src:
+      rows:
+        - 'via x.1961-01-12.vna-lao-dong-resolution-moscow-conference: ?'
+    tags: [polity:drv, ok:fields-place]
   - id: cal.1961-01-13.desegregation-schools-uga
     when: Jan. 13–16
     date: '1961-01-13'
@@ -3421,6 +3488,13 @@ entries:
       - 1961-01-13T15:30Z
     time_band: evening
     time_zone: Asia/Yangon
+  - id: cal.1961-01-13.laos-2
+    when: Jan. 13
+    date: '1961-01-13'
+    thread: laos
+    c: 'The British Prime Minister''s reply: the proposal to be seriously weighed, but the fighting to be stopped first; Britain prefers the Commission reactivated at once, a conference after if still needed.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 175. Names: Macmillan.'
+    tags: [polity:uk, name:macmillan-harold, ok:fields-place]
   - id: cal.1961-01-14.economy
     when: Jan. 14
     date: '1961-01-14'
@@ -3543,13 +3617,14 @@ entries:
     thread: china-leadership
     also: [laos]
     c: 'Zhou Enlai to Sihanouk, by letter: China supports his proposal of a widened Geneva conference to settle the Laotian question.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 384 (Jan. 14, 1961); [[w.zhou-enlai-waijiao-huodong]], 301 (Jan. 14, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 182 (Jan. 14, 1961; Zhou''s reply to Sihanouk, agreeing to the proposal to convene an enlarged Geneva conference to preserve the Geneva agreements and restore peace in Laos). Made public: 1993. Names: Zhou Enlai, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 384 (Jan. 14, 1961); [[w.zhou-enlai-waijiao-huodong]], 301 (Jan. 14, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 182 (Jan. 14, 1961; Zhou''s reply to Sihanouk, agreeing to the proposal to convene an enlarged Geneva conference to preserve the Geneva agreements and restore peace in Laos); [[w.guan-vietnamese-communists-relations-with]], 175 (Jan. 15, answering Sihanouk''s letter of Jan. 1: an enlarged conference urgently). Made public: 1993. Check: the day: Jan. 15 by [[w.guan-vietnamese-communists-relations-with]], 175. Names: Zhou Enlai, Sihanouk.'
     src:
       c: 491f0d8c
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 384: ?'
         - 'w.zhou-enlai-waijiao-huodong 301: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 182: A'
+        - 'w.guan-vietnamese-communists-relations-with 175: ?'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, vis:only:prc+cambodia]
   - id: cal.1961-01-14.china-leadership-4
     when: Jan. 14
@@ -3557,12 +3632,13 @@ entries:
     thread: china-leadership
     also: [china, laos]
     c: Zhou Enlai writes to Souvanna Phouma, Prince and Prime Minister of Laos, supporting his proposal of an international conference to settle the Laos question; it is in spirit one with Sihanouk's Jan. 1 proposal of an enlarged Geneva conference. China welcomes and supports every proposal to stop American aggression in Laos and the wrecking of the Geneva agreements.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 302 (Jan. 14, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 182–183 (Jan. 14, 1961; Zhou''s reply to Souvanna Phouma, backing his proposal for an international conference on Laos; China has always welcomed and supported every move to stop U.S. aggression in Laos and its wrecking of the Geneva agreement). Made public: 1993. Names: Zhou Enlai, Souvanna Phouma, Sihanouk.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 302 (Jan. 14, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 182–183 (Jan. 14, 1961; Zhou''s reply to Souvanna Phouma, backing his proposal for an international conference on Laos; China has always welcomed and supported every move to stop U.S. aggression in Laos and its wrecking of the Geneva agreement); [[w.guan-vietnamese-communists-relations-with]], 175 (replying to Souvanna Phouma''s letter of Dec. 30 and Phạm Văn Đồng''s telegram of Jan. 4; American aggression condemned, a new conference supported). Made public: 1993. To check: NCNA, 17 January 1961, SWB/FE/543/B/3 (cited by [[w.guan-vietnamese-communists-relations-with]], 175 n.102). Names: Zhou Enlai, Souvanna Phouma, Sihanouk.'
     src:
       c: 5b43e157
       rows:
         - 'w.zhou-enlai-waijiao-huodong 302: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 182–183: A, C'
+        - 'w.guan-vietnamese-communists-relations-with 175: ?'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma, name:norodom-sihanouk, vis:only:prc+laos]
   - id: cal.1961-01-14.china-leadership-5
     when: Jan. 14
@@ -4066,13 +4142,14 @@ entries:
     date: '1961-01-17'
     thread: vietnam
     c: 'Lansdale to Gates, on his trip: Vietnam "in a critical condition," to be treated "as a combat area of the cold war, as an area requiring emergency treatment." Unless the Vietnamese mobilize and Washington reorients its support, "the free Vietnamese and their government probably will be able to do no more than postpone eventual defeat."'
-    n: '[FRUS 1961–63, I, doc. 2](https://history.state.gov/historicaldocuments/frus1961-63v01/d2) (editorial note, quoting the first). [[w.marolda-united-states-navy-and]], 98–99 (the second, "postpone eventual defeat"). To check: [[w.united-states-vietnam-relations]], bk. 11, 1–12 (the memorandum, as FRUS cites it). See [[cal.1961-01-02.vietnam]]. Names: Lansdale, Gates.'
+    n: '[FRUS 1961–63, I, doc. 2](https://history.state.gov/historicaldocuments/frus1961-63v01/d2) (editorial note, quoting the first). [[w.marolda-united-states-navy-and]], 98–99 (the second, "postpone eventual defeat"); [[w.guan-vietnamese-communists-relations-with]], 180–181 (the Communists much farther along than he had understood in Washington: much of the 1st and 5th Military Regions theirs; the richest areas infiltrated and held but the corridors Diệm''s forces guard; the region from the High Plateau foothills north of Saigon to the Gulf of Siam; only Saigon–Cholon not theirs). To check: [[w.united-states-vietnam-relations]], bk. 11, 1–12 (the memorandum, as FRUS cites it). See [[cal.1961-01-02.vietnam]]. Names: Lansdale, Gates.'
     src:
       c: 450be825
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d2: A'
         - 'w.marolda-united-states-navy-and 98–99: A-B'
         - 'via w.marolda-united-states-navy-and 99 n.29: A-B'
+        - 'w.guan-vietnamese-communists-relations-with 180–181: ?'
     tags: [name:lansdale-edward-g, name:gates-thomas-s-jr]
   - id: cal.1961-01-17.china-leadership
     when: Jan. 17
@@ -4460,6 +4537,13 @@ entries:
         - 'w.yang-jisheng-mubei I, 214: all'
         - 'via w.yang-jisheng-mubei I, 214 n.60: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-01-18.laos-2
+    when: Jan. 18
+    date: '1961-01-18'
+    thread: laos
+    c: Pathet Lao and North Vietnamese forces take Tha Thom, a southern gateway of Xieng Khouang.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176.'
+    tags: [polity:pathet-lao, polity:drv, ok:fields-place]
   - id: cal.1961-01-19.laos
     when: Jan. 19
     date: '1961-01-19'
@@ -4467,7 +4551,7 @@ entries:
     thread: laos
     also: [cuba-bay-of-pigs]
     c: 'Eisenhower–Kennedy transition meeting, the two alone, then with the outgoing and incoming secretaries. Laos called the key to Southeast Asia; accounts of what Eisenhower advised conflict. Cuba: help the anti-Castro guerrillas "to the utmost"; the training in Guatemala continued and accelerated.'
-    n: 'FRUS 1961–63, XXIV, docs. [7](https://history.state.gov/historicaldocuments/frus1961-63v24/d7) (Kennedy''s notes, dictated), [8](https://history.state.gov/historicaldocuments/frus1961-63v24/d8) (Persons), [9](https://history.state.gov/historicaldocuments/frus1961-63v24/d9) (Herter), [11](https://history.state.gov/historicaldocuments/frus1961-63v24/d11) (McNamara''s, Jan. 24: "If Laos is lost ... we will lose all of Southeast Asia"); X, doc. [22](https://history.state.gov/historicaldocuments/frus1961-63v10/d22) (Clifford''s and McNamara''s memoranda, on Cuba). [[w.gibbons-u-s-government-and]], II, 9 (the meeting, Laos at the top of the agenda; Laos the "key to the whole area," by Clifford''s memorandum); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 174, 231 (Laos, by McNamara''s account; the training in Guatemala); [[w.marolda-united-states-navy-and]], 98 (Eisenhower on Laos); [[w.schulimson-joint-chiefs-of-staff]], 29 (the meeting; Laos the key); [[w.clifford-counsel-to-the-president-2]], 342–45 (the meeting with the secretaries in the Cabinet Room; Laos, Herter for intervening alone if need be, a division in twelve to seventeen days by Gates; Cuba, "to the utmost," the training in Guatemala; China, by Clifford''s account); [[w.fursenko-one-hell-of-a]], 77–78 ("To the utmost"); [[w.jones-bay-of-pigs]], 44 (Eisenhower''s recommendation to speed the training); [[w.rusk-as-i-saw-it-1990]], 428 (the meeting; Eisenhower''s advice, by Rusk''s account); [[w.sorensen-kennedy]], 231, 640 (the meeting; Laos); [[w.fursenko-khrushchevs-cold-war]], 336–37 ("It is the cork in the bottle"); [[w.mcnamara-in-retrospect]], ch. 2 at nn.5–9 (the meeting, its emphasis on Laos; the accounts: Clifford''s memorandum, Eisenhower "willing, ''as a last desperate hope, to intervene unilaterally''"; McNamara''s, "President Eisenhower advised against unilateral action by the United States in connection with Laos"). [[w.schlesinger-thousand-days-1965]], 163–64; [[w.moyar-triumph-forsaken]], 125–26 (the meeting; Herter on SEATO and Laos); [[w.poole-joint-chiefs-of-staff]], 124; [[w.reeves-president-kennedy]], 29–33 (the meeting; Laos the "cork in the bottle"; "To the utmost"); [[w.wofford-of-kennedys-and-kings]], 98 (Eisenhower to Kennedy the day before the inauguration: Laos "the key to all Southeast Asia"; Cuba, "helping train anti-Castro forces in Guatemala," aid the guerrillas "to the utmost," the effort "continued and accelerated"); [[w.ball-past-has-another-pattern]], 361 (Eisenhower tells Kennedy "just before the inauguration" that Laos is the key to Southeast Asia, "unbelievable pressure" on Thailand, Cambodia and South Vietnam; "as a last desperate hope, to intervene unilaterally," n.2; not the day or the place); [[w.schlesinger-robert-kennedy-and-his]], 702 (Eisenhower''s pre-inaugural briefing of Kennedy: he ignored Vietnam and called Laos the "present key to the entire area"; by Clark Clifford''s record of the meeting, he would be willing "to intervene unilaterally" if others could not be persuaded to act; not the Cuba talk, those present or the day); [[w.mann-grand-delusion]], 228–29 (the meeting of Jan. 19: Herter, the outgoing Secretary of State, argues the United States duty-bound to intervene if Laos asks under SEATO, "the cork in the bottle"; Eisenhower "felt we should intervene," by Kennedy''s record that day; Clifford, present, recalls Eisenhower willing "as a last desperate hope, to intervene unilaterally"; not the order of the meeting or the Cuba talk); [[w.odonnell-johnny-we-hardly-knew]], 275–76 (the morning briefing at the White House with Eisenhower and the outgoing secretaries; Cuba, Berlin, Africa, the balance of payments and Laos in the Cabinet Room; Eisenhower "urged him to keep on supporting this plan to overthrow Castro" and talked mostly of Laos, American combat troops possibly alone there; not the two alone; the date printed "January 19, 1960" is an error for 1961). Check: Rusk names those with Eisenhower as Kennedy, McNamara, Clifford and himself and gives two pieces of advice: no recognition of Communist China; troops into Laos, "with others if possible, alone if necessary" (428; also 283). To check: [[w.greenstein-what-did-eisenhower-tell]] (compares the five accounts); Clifford to Kennedy, memorandum of the conference of Jan. 19, 1961, on Laos, *U.S.–Vietnam Relations*, bk. 10, 1360–64 (cited by [[w.schulimson-joint-chiefs-of-staff]], 29 n.147); Clifford''s memorandum for Johnson (1969), *Pentagon Papers*, Gravel ed., II, 635–37, and Clifford to Kennedy, Jan. 24, 1961, POF, Kennedy Library (cited by [[w.gibbons-u-s-government-and]], II, 9 n.19). Check: the Taylor report, [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), 578–79 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 174 n.8), read: it gives no account of Jan. 19; its "continuation and accentuation" of the CIA''s activities is the President''s authorization of Jan. 28. See [[cal.1961-01-02.laos]]. Names: Eisenhower.'
+    n: 'FRUS 1961–63, XXIV, docs. [7](https://history.state.gov/historicaldocuments/frus1961-63v24/d7) (Kennedy''s notes, dictated), [8](https://history.state.gov/historicaldocuments/frus1961-63v24/d8) (Persons), [9](https://history.state.gov/historicaldocuments/frus1961-63v24/d9) (Herter), [11](https://history.state.gov/historicaldocuments/frus1961-63v24/d11) (McNamara''s, Jan. 24: "If Laos is lost ... we will lose all of Southeast Asia"); X, doc. [22](https://history.state.gov/historicaldocuments/frus1961-63v10/d22) (Clifford''s and McNamara''s memoranda, on Cuba). [[w.gibbons-u-s-government-and]], II, 9 (the meeting, Laos at the top of the agenda; Laos the "key to the whole area," by Clifford''s memorandum); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 174, 231 (Laos, by McNamara''s account; the training in Guatemala); [[w.marolda-united-states-navy-and]], 98 (Eisenhower on Laos); [[w.schulimson-joint-chiefs-of-staff]], 29 (the meeting; Laos the key); [[w.clifford-counsel-to-the-president-2]], 342–45 (the meeting with the secretaries in the Cabinet Room; Laos, Herter for intervening alone if need be, a division in twelve to seventeen days by Gates; Cuba, "to the utmost," the training in Guatemala; China, by Clifford''s account); [[w.fursenko-one-hell-of-a]], 77–78 ("To the utmost"); [[w.jones-bay-of-pigs]], 44 (Eisenhower''s recommendation to speed the training); [[w.rusk-as-i-saw-it-1990]], 428 (the meeting; Eisenhower''s advice, by Rusk''s account); [[w.sorensen-kennedy]], 231, 640 (the meeting; Laos); [[w.fursenko-khrushchevs-cold-war]], 336–37 ("It is the cork in the bottle"); [[w.mcnamara-in-retrospect]], ch. 2 at nn.5–9 (the meeting, its emphasis on Laos; the accounts: Clifford''s memorandum, Eisenhower "willing, ''as a last desperate hope, to intervene unilaterally''"; McNamara''s, "President Eisenhower advised against unilateral action by the United States in connection with Laos"). [[w.schlesinger-thousand-days-1965]], 163–64; [[w.moyar-triumph-forsaken]], 125–26 (the meeting; Herter on SEATO and Laos); [[w.poole-joint-chiefs-of-staff]], 124; [[w.reeves-president-kennedy]], 29–33 (the meeting; Laos the "cork in the bottle"; "To the utmost"); [[w.wofford-of-kennedys-and-kings]], 98 (Eisenhower to Kennedy the day before the inauguration: Laos "the key to all Southeast Asia"; Cuba, "helping train anti-Castro forces in Guatemala," aid the guerrillas "to the utmost," the effort "continued and accelerated"); [[w.ball-past-has-another-pattern]], 361 (Eisenhower tells Kennedy "just before the inauguration" that Laos is the key to Southeast Asia, "unbelievable pressure" on Thailand, Cambodia and South Vietnam; "as a last desperate hope, to intervene unilaterally," n.2; not the day or the place); [[w.schlesinger-robert-kennedy-and-his]], 702 (Eisenhower''s pre-inaugural briefing of Kennedy: he ignored Vietnam and called Laos the "present key to the entire area"; by Clark Clifford''s record of the meeting, he would be willing "to intervene unilaterally" if others could not be persuaded to act; not the Cuba talk, those present or the day); [[w.mann-grand-delusion]], 228–29 (the meeting of Jan. 19: Herter, the outgoing Secretary of State, argues the United States duty-bound to intervene if Laos asks under SEATO, "the cork in the bottle"; Eisenhower "felt we should intervene," by Kennedy''s record that day; Clifford, present, recalls Eisenhower willing "as a last desperate hope, to intervene unilaterally"; not the order of the meeting or the Cuba talk); [[w.odonnell-johnny-we-hardly-knew]], 275–76 (the morning briefing at the White House with Eisenhower and the outgoing secretaries; Cuba, Berlin, Africa, the balance of payments and Laos in the Cabinet Room; Eisenhower "urged him to keep on supporting this plan to overthrow Castro" and talked mostly of Laos, American combat troops possibly alone there; not the two alone; the date printed "January 19, 1960" is an error for 1961); [[w.guan-vietnamese-communists-relations-with]], 164, 177 (by Eisenhower, some sign that the Soviet Union was concerned at the Communist pressure in Laos and Southeast Asia from China and North Vietnam; Laos the key to all Southeast Asia, its fall to bring South Vietnam, Cambodia, Thailand and Burma after it; Vietnam less critical). Check: Rusk names those with Eisenhower as Kennedy, McNamara, Clifford and himself and gives two pieces of advice: no recognition of Communist China; troops into Laos, "with others if possible, alone if necessary" (428; also 283). To check: [[w.greenstein-what-did-eisenhower-tell]] (compares the five accounts); Clifford to Kennedy, memorandum of the conference of Jan. 19, 1961, on Laos, *U.S.–Vietnam Relations*, bk. 10, 1360–64 (cited by [[w.schulimson-joint-chiefs-of-staff]], 29 n.147); Clifford''s memorandum for Johnson (1969), *Pentagon Papers*, Gravel ed., II, 635–37, and Clifford to Kennedy, Jan. 24, 1961, POF, Kennedy Library (cited by [[w.gibbons-u-s-government-and]], II, 9 n.19); [[w.united-states-vietnam-relations]], 1360–1364 (memorandum of the Eisenhower–Kennedy conference of Jan. 19, 1961, on Laos) (cited by [[w.guan-vietnamese-communists-relations-with]], 164 n.45); [[w.pentagon-papers]], II, 635–637 (Gravel ed.) (cited by [[w.guan-vietnamese-communists-relations-with]], 177 n.112b). Check: the Taylor report, [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), 578–79 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 174 n.8), read: it gives no account of Jan. 19; its "continuation and accentuation" of the CIA''s activities is the President''s authorization of Jan. 28. See [[cal.1961-01-02.laos]]. Names: Eisenhower.'
     src:
       c: e855c73b
       rows:
@@ -4510,6 +4594,7 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 702: B'
         - 'w.mann-grand-delusion 228–29: ?'
         - 'w.odonnell-johnny-we-hardly-knew 275–76: ?'
+        - 'w.guan-vietnamese-communists-relations-with 164, 177: ?'
     tags: [name:eisenhower-dwight-d, name:kennedy-john-f, name:herter-christian-a, name:persons-wilton-b]
     short: Eisenhower's warning at the transition
     time_range:
@@ -4966,6 +5051,26 @@ entries:
         - 'w.dikotter-maos-great-famine 225: all'
         - 'via w.dikotter-maos-great-famine 225 n.9: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-01-20.laos
+    when: Jan. 20
+    date: '1961-01-20'
+    thread: laos
+    also: [soviet-union]
+    c: 'Khrushchev to the British Prime Minister: the Commission''s reactivation supported, but Laos not as in 1954; a conference needed urgently.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 175. Names: Khrushchev, Macmillan.'
+    tags: [polity:ussr, polity:uk, name:khrushchev-nikita-s, name:macmillan-harold, ok:fields-place]
+  - id: cal.1961-01-20.vietnam-diplomacy
+    when: Jan. 20
+    date: '1961-01-20'
+    place: peking
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Nguyễn Duy Trinh and the DRV economic and trade delegation back in Peking, having been only to Moscow, Budapest and Bucharest.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 182. To check: NCNA, 20 January 1961, SWB/FE/546/A3/3 (cited by [[w.guan-vietnamese-communists-relations-with]], 182 n.13). Names: Nguyễn Duy Trinh.'
+    src:
+      rows:
+        - 'via x.1961-01-20.ncna-fe-546-a3-3: ?'
+    tags: [polity:drv, polity:prc, name:nguyen-duy-trinh]
   - id: cal.1961-01-21.governors-ct
     when: Jan. 21
     date: '1961-01-21'
@@ -5214,6 +5319,13 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 93: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-01-21.laos-2
+    when: Jan. 21
+    date: '1961-01-21'
+    thread: laos
+    c: 'The British to the Russians: a draft joint message of the co-chairmen asking India, the Commission''s chairman, to send a representative to Laos at once to propose its reactivation to the King.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 175.'
+    tags: [polity:uk, polity:ussr, ok:fields-place]
   - id: cal.1961-01-22.opinion
     when: Jan. 22
     date: '1961-01-22'
@@ -5677,7 +5789,7 @@ entries:
     place: hanoi
     thread: vietnam-hanoi
     c: 'The Politburo''s instruction on the direction and tasks of the revolution in the South, after its first session: no sudden "explosion" from "relative calmness"; war likely needed in time, the forces there to be built and readied for a protracted fight; political struggle still central, no military adventures.'
-    n: '[[w.asselin-hanois-road-to-the]], 92–93; [[w.van-kien-dang-toan]], XXII, 149–69 (the Politburo''s instruction: the revolution on the road to a general uprising, the peaceful road "almost" gone, the general offensive and uprising to come, 157; a protracted struggle, 162; against impatience and adventurism, 169; not the "explosion" or the "relative calmness"); [[w.lich-su-khang-chien-chong-my]], III, 32–34 (the Politburo''s session on the South, Jan. 24, through the instruction, *Văn kiện Đảng toàn tập*, XXII, 152–59). Made public: 2002. Check: the history (III, 34) calls the decision the Politburo''s resolution of Jan. 31, 1961; see [[cal.1961-02-25.vietnam]]. To check: the Reunification Committee''s draft presentation on the South, undated [1962], Hồ sơ 252, Vietnam National Archives Center 3 (cited by [[w.asselin-hanois-road-to-the]], 93 n.3). Check: the instruction (XXII, 157–58) raises armed struggle "song song" (parallel) with political: military struggle the chief form in the mountains, the two equal in the lowlands, political chief in the cities.'
+    n: '[[w.asselin-hanois-road-to-the]], 92–93; [[w.van-kien-dang-toan]], XXII, 149–69 (the Politburo''s instruction: the revolution on the road to a general uprising, the peaceful road "almost" gone, the general offensive and uprising to come, 157; a protracted struggle, 162; against impatience and adventurism, 169; not the "explosion" or the "relative calmness"); [[w.lich-su-khang-chien-chong-my]], III, 32–34 (the Politburo''s session on the South, Jan. 24, through the instruction, *Văn kiện Đảng toàn tập*, XXII, 152–59); [[w.guan-vietnamese-communists-relations-with]], 183–184 (dated Jan. 31: the North more able to defend itself and to serve as the base; the South''s revolution toward a general rising, no peaceful way; political and military struggle stepped up to par; the military first in the jungle and mountains, both together in the lowlands, the political in the cities). Made public: 2002. Check: the history (III, 34) calls the decision the Politburo''s resolution of Jan. 31, 1961; see [[cal.1961-02-25.vietnam]]. Check: the day: the resolution of Jan. 31, 1961, by [[w.guan-vietnamese-communists-relations-with]], 183–184, and the Politburo''s session of Jan. 31 in [[cal.1961-02-25.vietnam]]. To check: the Reunification Committee''s draft presentation on the South, undated [1962], Hồ sơ 252, Vietnam National Archives Center 3 (cited by [[w.asselin-hanois-road-to-the]], 93 n.3); [[w.war-experiences-recapitulation-committee]], 45–46 (cited by [[w.guan-vietnamese-communists-relations-with]], 184 n.20). Check: the instruction (XXII, 157–58) raises armed struggle "song song" (parallel) with political: military struggle the chief form in the mountains, the two equal in the lowlands, political chief in the cities.'
     src:
       c: 85f39641
       rows:
@@ -5685,6 +5797,7 @@ entries:
         - 'w.van-kien-dang-toan XXII, 149–69: ?'
         - 'via x.undated.du-thao-de-cuong-tinh-hinh-mien-nam-1962: B'
         - 'w.lich-su-khang-chien-chong-my III, 32–34: A, B'
+        - 'w.guan-vietnamese-communists-relations-with 183–184: ?'
     time_range:
       - 1961-01-24T02:00Z
       - 1961-01-24T10:00Z
@@ -6585,6 +6698,17 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 96: all'
     tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:chen-yun, vis:only:prc]
+  - id: cal.1961-01-27.laos
+    when: Jan. 27
+    date: '1961-01-27'
+    thread: laos
+    also: [vietnam-diplomacy]
+    c: 'Pathet Lao radio: trade with the DRV going well; the local governments of Phong Saly, Luang Prabang, Sam Neua, Xieng Khouang, Cammon and other provinces organize the people to take goods to the border for salt, farm tools and "other items."'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176 ("at the end of January 1961"). To check: VINA, 27 January 1961, SWB/FE/551/B/4 (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.107).'
+    src:
+      rows:
+        - 'via x.1961-01-27.vina-fe-551-b-4: ?'
+    tags: [polity:pathet-lao, ok:fields-place]
   - id: cal.1961-01-28.vietnam
     when: Jan. 28
     date: '1961-01-28'
@@ -6969,6 +7093,17 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 97: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-01-29.vietnam-hanoi
+    when: Jan. 29
+    date: '1961-01-29'
+    thread: vietnam-hanoi
+    also: [china-leadership]
+    c: VNA and NCNA report the "recent" founding of the National Liberation Front of South Vietnam, citing Reuters and papers of Phnom Penh.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 179 n.2, 182. To check: VNA and NCNA, 29 January 1961, SWB/FE/553/A3/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 182 n.14). See [[cal.1960-12-20.vietnam]].'
+    src:
+      rows:
+        - 'via x.1961-01-29.vna-and-ncna-fe-553-a3-2: ?'
+    tags: [polity:drv, polity:prc, ok:fields-place]
   - id: cal.1961-01-30.program
     when: Jan. 30
     date: '1961-01-30'
@@ -7876,12 +8011,13 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the signing of the agreement on a long-term Chinese loan and complete sets of equipment for Vietnam.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Jan. 31, 1961; 晚6时); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 174 (Dec. 3–11, 1960, Jan. 20–Feb. 3, 1961; the agreement on long-term credits and complete plants for Vietnam and the protocol on the exchange of goods in 1961 among the documents signed during Nguyễn Duy Trinh''s visits, the day not given). See [[cal.1961-01-31.china-leadership]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Jan. 31, 1961; 晚6时); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 174 (Dec. 3–11, 1960, Jan. 20–Feb. 3, 1961; the agreement on long-term credits and complete plants for Vietnam and the protocol on the exchange of goods in 1961 among the documents signed during Nguyễn Duy Trinh''s visits, the day not given); [[w.guan-vietnamese-communists-relations-with]], 182–183 (the economic agreement and the protocol for 1961: a long-term loan of 141,750,000 yuan, to be used 1961–67 for Chinese equipment and technical help; 28 industrial and transport enterprises built or enlarged, in metallurgy, power, light industry, railways; China to send steel, cotton, tires, coal, chemicals, machinery, medicines, the DRV anthracite, apatite, timber, cement, chromate, poultry, livestock, fruit). To check: [[w.guoan-zhongyue-guanxi-jianbian]], 194–195 (cited by [[w.guan-vietnamese-communists-relations-with]], 182 n.15). See [[cal.1961-01-31.china-leadership]]. Names: Zhou Enlai.'
     src:
       c: b04266ac
       rows:
         - 'w.zhou-enlai-waijiao-huodong 303: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 174: B'
+        - 'w.guan-vietnamese-communists-relations-with 182–183: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1961-01-31.china-leadership-4
@@ -7892,12 +8028,13 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi, laos, foreign-aid]
     c: 'Peking, the Great Hall of the People. Zhou Enlai, at the banquet for the Vietnamese economic and trade delegation, says China fully supports the Vietnamese government''s proposal of an international conference to secure Laos''s peace and neutrality. Per the Chinese record, Zhou with Nguyễn Duy Trinh at the banquet: Poland having declined, the DRV asks China to build a paper mill beside the Polish-aided Vạn Điểm sugar mill, and Zhou says China can consider it. The DRV asks for an aerial survey and mapping of North Vietnam; Zhou says China cannot do it in the first half of 1961, for Laos and for want of equipment, and the two sides will look again in the second half.'
-    n: '"[Record of Conversation from Premier Zhou Enlai''s Reception of Vietnamese Deputy Prime Minister Nguyen Duy Trinh](https://digitalarchive.umd.edu/document/176278)" (Jan. 31, 1961), PRC FMA 106-00602-02, 18–19, trans. Stephen Mercado, Wilson Center Digital Archive. The words: "8:30 p. m., 31 January 1961", Anhui Hall, Great Hall of the People (the record). [[w.zhou-enlai-waijiao-huodong]], 303 (Jan. 31, 1961; 晚上). See [[cal.1961-01-31.china-leadership]]. Names: Zhou Enlai, Nguyễn Duy Trinh.'
+    n: '"[Record of Conversation from Premier Zhou Enlai''s Reception of Vietnamese Deputy Prime Minister Nguyen Duy Trinh](https://digitalarchive.umd.edu/document/176278)" (Jan. 31, 1961), PRC FMA 106-00602-02, 18–19, trans. Stephen Mercado, Wilson Center Digital Archive. The words: "8:30 p. m., 31 January 1961", Anhui Hall, Great Hall of the People (the record). [[w.zhou-enlai-waijiao-huodong]], 303 (Jan. 31, 1961; 晚上); [[w.guan-vietnamese-communists-relations-with]], 183 (peace in Indochina broken by the Americans, Thailand and South Vietnam; the war in Laos threatening Southeast Asia and the security of North Vietnam and China; a conference needed even with the Commission revived). See [[cal.1961-01-31.china-leadership]]. Names: Zhou Enlai, Nguyễn Duy Trinh.'
     src:
       c: de76cdf9
       rows:
         - 'w.zhou-enlai-waijiao-huodong 303: A, B'
         - 'https://digitalarchive.umd.edu/document/176278: A, C-E'
+        - 'w.guan-vietnamese-communists-relations-with 183: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:nguyen-duy-trinh, vis:only:prc+drv@C-E]
     time_zone: Asia/Shanghai
   - id: cal.1961-01-31.china-leadership-5
@@ -8625,7 +8762,7 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam]
     c: 'The General Military Commission''s directive setting up the South Vietnam Liberation Army, "a part of the Vietnam People''s Army": main forces, local troops, militia and guerrillas, the concentrated units first.'
-    n: '[[w.lich-su-khang-chien-chong-my]], III, 36–37 (the directive, from the Institute of Military History''s archive). Made public: 2013.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 36–37 (the directive, from the Institute of Military History''s archive); [[w.guan-vietnamese-communists-relations-with]], 180 (the Central Military Committee''s directive of Jan. 1, 1961: the Army for the Liberation of South Vietnam part of the VPA, a fighting and a producing army, of main, regional and guerrilla forces; to free the South from imperialism and feudalism, as conditions and its strength allow). Made public: 2013. Check: the day: Jan. 1, 1961, by [[w.guan-vietnamese-communists-relations-with]], 180. To check: [[w.lich-su-quan-doi]], 120–121 (cited by [[w.guan-vietnamese-communists-relations-with]], 180 n.4).'
     tags: [polity:drv, vis:only:drv]
   - id: cal.1961-01.vietnam-hanoi-2
     when: Jan.
@@ -9603,3 +9740,45 @@ entries:
       rows:
         - 'w.friedman-shadow-cold-war 140: all'
     tags: [polity:indonesia, polity:ussr]
+  - id: cal.1961.laos
+    when: 1961, early
+    date: '1961'
+    at: before 1961-01
+    thread: laos
+    also: [vietnam-hanoi]
+    c: 'North Vietnam sends into Laos infantry, artillery and engineer battalions of the 316th and 335th Brigades (Northwest Military Region), the 325th Division and the 271st Regiment (Military Region IV): 12,000 troops in all, advisers, forming armed units and training the Pathet Lao; a military school set up for them; arms and ammunition.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 175–176 (by the army''s history; the DRV then denied it). Made public: 1988 ([[w.lich-su-quan-doi]]). To check: [[w.lich-su-quan-doi]], 152–153 (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.106a); FO 371/159812, DF 1015/2, 1 January 1961, from Washington to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.106b); FO 371/159824, DF 1015/243, 10 February 1961, from Vientiane to Foreign Office (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.106c).'
+    tags: [polity:drv, polity:pathet-lao, vis:only:drv+pathet-lao]
+  - id: cal.1961-01-31.vietnam-hanoi-2
+    when: Jan. 31
+    date: '1961-01-31'
+    thread: vietnam-hanoi
+    also: [vietnam]
+    c: 'The NLF''s Provisional Committee strengthens itself in the Saigon–Cholon area: the Saigon–Cholon–Gia Định Committee formed.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 181 n.6. Made public: 1986 ([[w.tang-journal-of-a-vietcong]]). To check: [[w.tang-journal-of-a-vietcong]], 81–84 (cited by [[w.guan-vietnamese-communists-relations-with]], 181 n.6b).'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1961.soviet-union-5
+    when: 1961, early
+    date: '1961'
+    at: before 1961-01
+    thread: soviet-union
+    also: [china-leadership]
+    c: 'Soviet intelligence obtains copies of a secret letter circulated to Chinese party cadres, opening an internal campaign on the Sino-Soviet differences: the Soviet Union blamed for the movement''s disunity, for planning to attack China, for China''s economic troubles, for abandoning Communism.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 181–182 (by Jan Šejna). Made public: 1982 ([[w.sejna-we-will-bury-you]]). To check: [[w.sejna-we-will-bury-you]], 58–59 (cited by [[w.guan-vietnamese-communists-relations-with]], 182 n.10).'
+    tags: [polity:ussr, polity:prc, vis:only:ussr, ok:fields-place]
+  - id: cal.1961.vietnam-hanoi-6
+    when: '1961'
+    date: '1961'
+    place: hanoi
+    thread: vietnam-hanoi
+    c: 'Hanoi, the Foreign Languages Publishing House: an English edition of Võ Nguyên Giáp''s essay *People''s War, People''s Army*, first published Dec. 22, 1959.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 187. To check: [[w.giap-peoples-war-peoples-army]] (cited by [[w.guan-vietnamese-communists-relations-with]], 187 n.33). Names: Võ Nguyên Giáp.'
+    tags: [polity:drv, name:vo-nguyen-giap]
+  - id: cal.1961.vietnam-diplomacy
+    when: '1961'
+    date: '1961'
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Hoàng Văn Hoan takes charge of the secret CP38 Committee, directing operations in Laos and Cambodia.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 195–196. Made public: 1988 ([[w.hoan-drop-in-the-ocean]]). To check: [[w.hoan-drop-in-the-ocean]], 382 (cited by [[w.guan-vietnamese-communists-relations-with]], 195 n.60).'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]

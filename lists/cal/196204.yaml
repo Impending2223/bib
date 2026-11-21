@@ -779,6 +779,37 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 186: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1962-04-05.laos
+    when: Apr. 5
+    date: '1962-04-05'
+    thread: laos
+    c: 'Gens. Lê Chương and Tống Dy to Marek Thee: no big frontal attack on Nam Tha that might bring American retaliation.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 222 (by Thee). Made public: 1973 ([[w.thee-notes-of-a-witness]]).'
+    tags: [polity:drv, polity:poland, vis:only:drv+poland, ok:fields-place]
+  - id: cal.1962-04-05.china-leadership-6
+    when: Apr. 5
+    date: '1962-04-05'
+    place: peking
+    thread: china-leadership
+    also: [laos]
+    c: 'Peking. Michael Stewart, the British chargé, on his farewell call on Chen Yi: China still hopes for a united neutral government under Souvanna Phouma, room to be found for Phoumi Nosavan; Laos not to grow worse; China will not expand into Southeast Asia, no help for its food and economy; but it would intervene in South Vietnam if it judged the North Vietnamese regime seriously threatened. The tone, by the British, far from China''s bellicose statements on Laos.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 222. Made public: 1997. To check: FO 371/166435, DF 1015/216, 6 April 1962, from Beijing to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 222 n.84). Names: Chen Yi, Souvanna Phouma, Phoumi Nosavan.'
+    src:
+      rows:
+        - 'via x.1962-04-06.fo-166435-df-1015-216: ?'
+    tags: [polity:prc, polity:uk, name:chen-yi, name:souvanna-phouma, name:phoumi-nosavan, vis:only:prc+uk]
+  - id: cal.1962-04-05.vietnam-diplomacy
+    when: Apr. 5
+    date: '1962-04-05'
+    place: phnom-penh
+    thread: vietnam-diplomacy
+    also: [vietnam]
+    c: 'Phnom Penh, the Ministry of Religious Affairs. Sihanouk''s speech: a conference on South Vietnam.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 223. To check: Phnom Penh Radio, 6 April 1962, SWB/FE/919/A3/1 (cited by [[w.guan-vietnamese-communists-relations-with]], 223 n.85). Names: Sihanouk.'
+    src:
+      rows:
+        - 'via x.1962-04-06.phnom-penh-radio-fe-919-a3-1: ?'
+    tags: [polity:cambodia, name:norodom-sihanouk]
   - id: cal.1962-04-06.opinion
     when: Apr. 6
     date: '1962-04-06'
@@ -949,12 +980,13 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: 'The Chinese Central Committee''s reply to the CPSU letter of Feb. 22 is handed to the Soviet ambassador at Peking and, the same day, by the Chinese ambassador at Moscow to the CPSU Central Committee. It proposes a conference of the brother parties in five steps: CPSU–CCP talks, CPSU–Albanian talks, a meeting of the CPSU, Albania and the CCP, the twelve ruling parties, then the 81.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 494 (the Standing Committee settled the text in early April after a week of drafting; "formally sent" Apr. 7, to the Soviet ambassador in China and by the Chinese ambassador in the USSR to the CPSU Central Committee); [[w.brothers-in-arms]], 375 (the letter of Apr. 7: the two parties must close ranks and settle their problems in unity). Made public: 1998 ([[w.brothers-in-arms]], 375, the Soviet record of Apr. 9, 1962). See [[cal.1962-04-07.china-leadership]]. Check: the hour and the Chinese ambassador at Moscow are not named; the nianpu does not date the delivery.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 494 (the Standing Committee settled the text in early April after a week of drafting; "formally sent" Apr. 7, to the Soviet ambassador in China and by the Chinese ambassador in the USSR to the CPSU Central Committee); [[w.brothers-in-arms]], 375 (the letter of Apr. 7: the two parties must close ranks and settle their problems in unity); [[w.guan-vietnamese-communists-relations-with]], 222 (proposing a conference to settle the differences). Made public: 1998 ([[w.brothers-in-arms]], 375, the Soviet record of Apr. 9, 1962). To check: Wu Xiuquan''s speech at the Sixth Congress of the Socialist Unity Party of Germany, Jan. 18, 1963, Peking Review no. 4, 1963 (cited by [[w.guan-vietnamese-communists-relations-with]], 222 n.82a); [[w.dallin-diversity-in-international-communism]] (cited by [[w.guan-vietnamese-communists-relations-with]], 222 n.82b); [[w.hoxha-reflections-on-china-vol]], I, 7–29 (cited by [[w.guan-vietnamese-communists-relations-with]], 222 n.82d). See [[cal.1962-04-07.china-leadership]]. Check: the hour and the Chinese ambassador at Moscow are not named; the nianpu does not date the delivery.'
     src:
       c: 041c25d2
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 494: all'
         - 'w.brothers-in-arms 375: ?'
+        - 'w.guan-vietnamese-communists-relations-with 222: ?'
     tags: [polity:prc, vis:only:prc+ussr]
     variants:
       - unit: A
@@ -1985,6 +2017,16 @@ entries:
       - 1962-04-13T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-04-13.vietnam-hanoi
+    when: Apr. 13
+    date: '1962-04-13'
+    thread: vietnam-hanoi
+    c: VINA's report of the National Liberation Front's first congress and its resolutions, the first Communist broadcast of it monitored.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 216. To check: VINA, 13 April 1962, SWB/FE/923/B/3-4 (cited by [[w.guan-vietnamese-communists-relations-with]], 216 n.54). See [[cal.1962-03-03.vietnam-2]].'
+    src:
+      rows:
+        - 'via x.1962-04-13.vina-fe-923-b-3-4: ?'
+    tags: [polity:drv, ok:fields-place]
   - id: cal.1962-04-14.soviet-union-leadership
     when: Apr. 14
     date: '1962-04-14'
@@ -2032,6 +2074,17 @@ entries:
         - 'w.yang-shangkun-riji II, 143: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-04-14.china-leadership-4
+    when: Apr. 14
+    date: '1962-04-14'
+    thread: china-leadership
+    also: [vietnam]
+    c: NCNA reports the National Liberation Front's first congress and its resolutions, a day after Hanoi.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 223. To check: VINA, Apr. 13, 1962, and NCNA, Apr. 14, 1962, SWB/FE/923/B/3-4 (cited by [[w.guan-vietnamese-communists-relations-with]], 223 n.88). See [[cal.1962-03-03.vietnam-2]].'
+    src:
+      rows:
+        - 'via x.1962-04-14.vina-ncna-fe-923-b-3-4: ?'
+    tags: [polity:prc, ok:fields-place]
   - id: cal.1962-04-15.middle-east-johnson-plan
     when: Apr. 15–17
     date: '1962-04-15'
@@ -2060,11 +2113,12 @@ entries:
     place: soc-trang
     thread: vietnam
     c: The Marine medium helicopter squadron HMM-362, 24 aircraft, flies from the *Princeton* to the old Japanese airstrip at Sóc Trăng in the Delta, the fourth American helicopter unit in Vietnam (Shufly).
-    n: '[[w.schulimson-joint-chiefs-of-staff]], 194–95. Farm Gate''s men to reach 2,429, more than double the end of 1961 (194). See [[cal.1962-03-19.vietnam]].'
+    n: '[[w.schulimson-joint-chiefs-of-staff]], 194–95; [[w.guan-vietnamese-communists-relations-with]], 223 (450 Marines and 15 UH-34Ds, near Sóc Trăng, 100 miles southwest of Saigon, to reinforce the two Army helicopter companies). Farm Gate''s men to reach 2,429, more than double the end of 1961 (194). See [[cal.1962-03-19.vietnam]].'
     src:
       c: 6965c076
       rows:
         - 'w.schulimson-joint-chiefs-of-staff 194–95: all'
+        - 'w.guan-vietnamese-communists-relations-with 223: ?'
     tags: [place:soc-trang]
   - id: cal.1962-04-15.china-leadership
     when: Apr. 15
@@ -3144,6 +3198,13 @@ entries:
       - 1962-04-22T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1962-04-22.laos
+    when: Apr. 22
+    date: '1962-04-22'
+    thread: laos
+    c: Fighting breaks out southeast of Nam Tha, each side blaming the other.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 223. See [[cal.1962-01.laos-2]].'
+    tags: [polity:laos, polity:pathet-lao, ok:fields-place]
   - id: cal.1962-04-23.china-leadership
     when: Apr. 23
     date: '1962-04-23'
@@ -3274,6 +3335,17 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 192: all'
     tags: [polity:prc, name:peng-zhen]
     time_zone: Asia/Pyongyang
+  - id: cal.1962-04-23.vietnam-diplomacy
+    when: Apr. 23
+    date: '1962-04-23'
+    thread: vietnam-diplomacy
+    also: [soviet-union, china-leadership]
+    c: 'As the British consulate-general in Hanoi reports it: China''s aid to North Vietnam in 1962 short of its promises, Soviet aid larger.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 214. Made public: 1997. To check: FO 371/166712, DV 1022/8, 23 April 1962, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 214 n.45).'
+    src:
+      rows:
+        - 'via x.1962-04-23.fo-166712-dv-1022-8: ?'
+    tags: [form:state, polity:uk, polity:drv, vis:only:uk, ok:fields-place]
   - id: cal.1962-04-24.japan-and-korea
     when: Apr. 24
     date: '1962-04-24'
@@ -5049,3 +5121,34 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 193: all'
     tags: [polity:prc, name:peng-zhen]
+  - id: cal.1962-04.china-leadership-5
+    when: Apr.
+    date: 1962-04
+    thread: china-leadership
+    c: He Wei becomes second secretary of the Party committee of his native Henan.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 221.'
+    tags: [polity:prc, ok:fields-place]
+  - id: cal.1962-04.laos-2
+    when: Apr., early
+    date: 1962-04
+    at: before 1962-04-01
+    thread: laos
+    also: [vietnam]
+    c: 'Abramov to Marek Thee: perhaps useful to force the United States into talks on South Vietnam within the 1954 Geneva framework. Liu Chun: Peking much of the same mind.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 223 (by Thee; Chen Yi, by Thee, suggested to Gromyko that he stay on as a permanent co-chairman, the Chinese hoping to neutralize all Southeast Asia). Made public: 1973 ([[w.thee-notes-of-a-witness]]). To check: [[w.thee-notes-of-a-witness]], 245–250 (cited by [[w.guan-vietnamese-communists-relations-with]], 223 n.87). Names: Abramov.'
+    tags: [polity:ussr, polity:poland, name:abramov-aleksandr-n, vis:only:ussr+poland, ok:fields-place]
+  - id: cal.1962-04.vietnam-hanoi-2
+    when: Apr.
+    date: 1962-04
+    thread: vietnam-hanoi
+    c: 'A conference of the Nam Bộ Regional Committee: the all-out offensive foreseen in October 1961 not yet possible; political and military struggle together for some time yet.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 223. Made public: 1981 ([[w.duiker-communist-road-to-power]], the earliest printing the note dates). To check: Document no. 855, Douglas Pike, Catalog of Viet Cong Documents, series 20 (cited by Duiker) (cited by [[w.guan-vietnamese-communists-relations-with]], 223 n.89a); [[w.duiker-communist-road-to-power]], 207, 362 n.8 (so cited, 1981) (cited by [[w.guan-vietnamese-communists-relations-with]], 223 n.89b). See [[cal.1961-10.vietnam]].'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1962-04.laos-3
+    when: Apr., end
+    date: 1962-04
+    at: before 1962-04-21
+    thread: laos
+    c: A further North Vietnamese battalion, the 3rd of the 330th Brigade, sent to the combined Pathet Lao–Vietnamese forces at Nam Tha.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 223. Made public: 1997.'
+    tags: [polity:drv, vis:only:drv, ok:fields-place]

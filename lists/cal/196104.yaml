@@ -91,11 +91,12 @@ entries:
     thread: laos
     also: [soviet-union]
     c: The Soviet Union accepts the American and British proposal for a reconvened Geneva conference on Laos.
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 238–39. See [[cal.1961-03-23.laos-3]]. Check: the calendar has Moscow''s support for a cease-fire announced Apr. 7.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 238–39; [[w.guan-vietnamese-communists-relations-with]], 189 (Britain and the Soviet Union to appeal for a cease-fire as the conference opens). To check: [[w.foreign-relations-of-the]], XXIV, 111 (Moscow telegram 2366, Apr. 1, 1961) (cited by [[w.guan-vietnamese-communists-relations-with]], 189 n.36); [[w.george-limits-of-coercive-diplomacy]], ch. 2 (David K. Hall, "The Laos Crisis, 1960–61") (cited by [[w.guan-vietnamese-communists-relations-with]], 189 n.37). See [[cal.1961-03-23.laos-3]]. Check: the calendar has Moscow''s support for a cease-fire announced Apr. 7.'
     src:
       c: d83cdb4b
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 238–39: all'
+        - 'w.guan-vietnamese-communists-relations-with 189: ?'
     time_range:
       - 1961-04-01T06:00Z
       - 1961-04-01T14:00Z
@@ -970,6 +971,14 @@ entries:
       - 1961-04-04T05:30Z
     time_band: morning
     time_zone: Asia/Yangon
+  - id: cal.1961-04-04.laos-2
+    when: Apr. 4
+    date: '1961-04-04'
+    thread: laos
+    also: [soviet-union, vietnam-diplomacy]
+    c: The Russians appeal to the Vietnamese "to help create a favorable atmosphere for negotiations."
+    n: '[[w.guan-vietnamese-communists-relations-with]], 189 (by Hilsman). Made public: 1967 ([[w.hilsman-to-move-a-nation]]). To check: [[w.hilsman-to-move-a-nation]], 133 (cited by [[w.guan-vietnamese-communists-relations-with]], 189 n.41).'
+    tags: [polity:ussr, polity:drv, vis:only:ussr+drv, ok:fields-place]
   - id: cal.1961-04-05.opinion
     when: Apr. 5
     date: '1961-04-05'
@@ -1224,6 +1233,14 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 117: all'
     tags: [polity:prc, name:peng-zhen]
+  - id: cal.1961-04-05.laos-4
+    when: Apr. 5
+    date: '1961-04-05'
+    thread: laos
+    also: [soviet-union]
+    c: 'Moscow. Sir Frank Roberts, the British Ambassador, gives Pushkin, Deputy Foreign Minister for Southeast Asia, draft texts: an appeal for a cease-fire in Laos, a report to Nehru on the Commission, the conference''s announcement. The cease-fire to be verified before the conference opens.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 189. To check: [[w.foreign-relations-of-the]], XXIV, 124 (cited by [[w.guan-vietnamese-communists-relations-with]], 189 n.38). Names: Roberts, Pushkin, Nehru.'
+    tags: [polity:uk, polity:ussr, name:roberts-frank-l, name:pushkin-georgiyi-maksimovich, name:nehru-jawaharlal, ok:fields-place]
   - id: cal.1961-04-06.opinion
     when: Apr. 6–11
     date: '1961-04-06'
@@ -4000,11 +4017,12 @@ entries:
     thread: laos
     also: [soviet-union]
     c: 'Moscow. Gromyko hands the British ambassador a counterproposal on a cease-fire and a conference: the essentials accepted, the cease-fire at once, the Control Commission to verify it.'
-    n: '[[w.schulimson-joint-chiefs-of-staff]], 70. Check: Kaplan dates the Communists'' agreement to a cease-fire Apr. 17 ([[w.kaplan-mcnamara-ascendancy-1961-1965]], 241); the calendar has the cease-fire of May 3. Names: Gromyko.'
+    n: '[[w.schulimson-joint-chiefs-of-staff]], 70; [[w.guan-vietnamese-communists-relations-with]], 189 (Gromyko''s draft message for a cease-fire and a draft message to India on reconvening the Commission). Check: Kaplan dates the Communists'' agreement to a cease-fire Apr. 17 ([[w.kaplan-mcnamara-ascendancy-1961-1965]], 241); the calendar has the cease-fire of May 3. To check: [[w.foreign-relations-of-the]], XXIV, 135 (cited by [[w.guan-vietnamese-communists-relations-with]], 189 n.39). Names: Gromyko.'
     src:
       c: 508a105c
       rows:
         - 'w.schulimson-joint-chiefs-of-staff 70: all'
+        - 'w.guan-vietnamese-communists-relations-with 189: ?'
     tags: [name:gromyko-andrei]
     time_range:
       - 1961-04-16T06:00Z
@@ -4170,6 +4188,18 @@ entries:
       - 1961-04-16T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-16.laos-2
+    when: Apr. 16–21
+    date: '1961-04-16'
+    place: moscow
+    thread: laos
+    also: [soviet-union]
+    c: Souvanna Phouma, Souphanouvong and Quinim Pholsena in the Soviet Union; the Russians press on Souvanna their sincere wish for a neutral Laos.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 190. To check: BBC, Summary of World Broadcasts, Soviet Union, SWB/SU/616/A3/1; SWB/SU/618/A3/1; SWB/SU/620/A3/2; SWB/SU/621/A3/3 (Souvanna Phouma''s visit to Moscow) (cited by [[w.guan-vietnamese-communists-relations-with]], 190 n.43). Names: Souvanna Phouma, Souphanouvong, Quinim Pholsena.'
+    src:
+      rows:
+        - 'via x.1961-04.swb-su-616-621-souvanna-phouma-moscow: ?'
+    tags: [polity:laos, polity:pathet-lao, polity:ussr, name:souvanna-phouma, name:souphanouvong, name:quinim-pholsena]
   - id: cal.1961-04-17.right-and-the-military
     when: Apr. 17
     date: '1961-04-17'
@@ -5668,6 +5698,17 @@ entries:
       - 1961-04-19T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-19.laos
+    when: Apr. 19
+    date: '1961-04-19'
+    thread: laos
+    also: [soviet-union]
+    c: Gromyko assures the British of an immediate cease-fire in Laos.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 190. Made public: 1997. To check: FO 371/159931, DF 2231/69, May 8, 1961, Foreign Office minutes (cited by [[w.guan-vietnamese-communists-relations-with]], 190 n.45). Names: Gromyko.'
+    src:
+      rows:
+        - 'via x.1961-05-08.fo-159931-df-2231-69-fo-minutes: ?'
+    tags: [polity:ussr, polity:uk, name:gromyko-andrei, vis:only:ussr+uk, ok:fields-place]
   - id: cal.1961-04-20.cuba
     when: Apr. 20
     date: '1961-04-20'
@@ -6143,7 +6184,7 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam]
     c: 'Lê Duẩn to "Mười Cúc" (Nguyễn Văn Linh) and the Nam Bộ Committee: the first years a rising of the masses that took the villages; the enemy''s army almost intact, the war to widen; armed struggle from now on more and more decisive. Main forces of zone and region to be built, with local troops and guerrillas.'
-    n: '[[w.lich-su-khang-chien-chong-my]], III, 35–36. Made public: Lê Duẩn, *Thư vào Nam* (1985), by the history''s note (III, 35 n.3). See [[cal.1961-02-07.vietnam-hanoi]]. Names: Lê Duẩn, Nguyễn Văn Linh.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 35–36; [[w.guan-vietnamese-communists-relations-with]], 189–190 (political struggle first, armed in support; the armed forces to be built; risings fail unless the enemy''s army is beaten; Diệm''s 450,000 more troops). Made public: Lê Duẩn, *Thư vào Nam* (1985), by the history''s note (III, 35 n.3). To check: [[w.duan-thu-vao-nam]], 39–49 (cited by [[w.guan-vietnamese-communists-relations-with]], 189 n.42). See [[cal.1961-02-07.vietnam-hanoi]]. Names: Lê Duẩn, Nguyễn Văn Linh.'
     tags: [polity:drv, vis:only:drv, name:le-duan]
   - id: cal.1961-04-20.china-leadership-11
     when: Apr. 20
@@ -6703,13 +6744,14 @@ entries:
     thread: china-leadership
     also: [laos, china]
     c: 'Zhou Enlai welcomes at Peking airport Souvanna Phouma, Prime Minister of Laos, and Prince Souphanouvong, chairman of the Lao Patriotic Front: the policy of independence, national concord and peace and neutrality of the government under Prince Souvanna Phouma is the wish of all Laotians; the Chinese people actively support the Laotian people''s patriotic and just struggle.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 22, 1961; 下午3时, 机场); [[w.chen-yi-nianpu]], 868 (Apr. 22, 1961, 3:10 p.m. (下午3时10分); Chen Yi at the airport to welcome Souvanna Phouma and Souphanouvong; present when Zhou Enlai meets them; at the informal dinner of Zhou and his wife that evening). Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 22, 1961; 下午3时, 机场); [[w.chen-yi-nianpu]], 868 (Apr. 22, 1961, 3:10 p.m. (下午3时10分); Chen Yi at the airport to welcome Souvanna Phouma and Souphanouvong; present when Zhou Enlai meets them; at the informal dinner of Zhou and his wife that evening); [[w.guan-vietnamese-communists-relations-with]], 190 (in China Apr. 22–26, Quinim Pholsena with them). To check: BBC, Summary of World Broadcasts, Far East, SWB/FE/621/B/3; SWB/FE/622/B/1-4; SWB/FE/623/B/3-4 (Souvanna Phouma''s visit to Peking) (cited by [[w.guan-vietnamese-communists-relations-with]], 190 n.44a); [[w.press-chinas-foreign-relations]], 191 (cited by [[w.guan-vietnamese-communists-relations-with]], 190 n.44c). Names: Zhou Enlai, Souvanna Phouma.'
     src:
       c: 3e980eb9
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 407: ?'
         - 'w.zhou-enlai-waijiao-huodong 310: A'
         - 'w.chen-yi-nianpu 868: ?'
+        - 'w.guan-vietnamese-communists-relations-with 190: ?'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:souvanna-phouma]
     time_zone: Asia/Shanghai
   - id: cal.1961-04-22.china-leadership-2
@@ -6720,7 +6762,7 @@ entries:
     thread: china-leadership
     also: [laos, china]
     c: Zhou Enlai's talks with the Laotian side on Apr. 22 and 23, on the Laotian situation, Sino-Laotian relations and the convening of a widened Geneva conference.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 22, 1961; 晚6时, 中南海紫光阁, 会见并共进晚餐); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 23, 1961; 上午9时30分, 中南海西花厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 192–193 (Apr. 22–25, 1961; Zhou''s talks with Souvanna Phouma on the Lao situation, bilateral relations and major international questions, reaching common views); [[w.chen-yi-nianpu]], 868 (Apr. 23, 1961, morning; Chen Yi in the talks of Zhou Enlai with Souvanna Phouma and Souphanouvong). Made public: 1993. Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 22, 1961; 晚6时, 中南海紫光阁, 会见并共进晚餐); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 23, 1961; 上午9时30分, 中南海西花厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 192–193 (Apr. 22–25, 1961; Zhou''s talks with Souvanna Phouma on the Lao situation, bilateral relations and major international questions, reaching common views); [[w.chen-yi-nianpu]], 868 (Apr. 23, 1961, morning; Chen Yi in the talks of Zhou Enlai with Souvanna Phouma and Souphanouvong); [[w.guan-vietnamese-communists-relations-with]], 190 (Apr. 23, "in a cordial and friendly atmosphere"). Made public: 1993. Names: Zhou Enlai, Souvanna Phouma.'
     src:
       c: d23c690f
       rows:
@@ -6728,6 +6770,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 310: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 192–193: A'
         - 'w.chen-yi-nianpu 868: ?'
+        - 'w.guan-vietnamese-communists-relations-with 190: ?'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:souvanna-phouma, vis:only:prc+laos+pathet-lao]
     time_zone: Asia/Shanghai
   - id: cal.1961-04-22.china-leadership-3
@@ -6836,7 +6879,7 @@ entries:
     place: vang-vieng
     thread: laos
     c: Kong Le and the Pathet Lao take Vang Vieng. Brown, his ban on heavy ordnance reversed, asks standby authority to arm the B-26s with bombs.
-    n: '[[w.anthony-war-in-northern-laos]], 48. To check: Roswell L. Gilpatric to Dean Rusk, Apr. 10, 1961 (cited by [[w.anthony-war-in-northern-laos]], 48 n.73a); AmEmb Vientiane to SECSTATE, 1884, Apr. 17, 1961 (cited by [[w.anthony-war-in-northern-laos]], 48 n.73b); History, CINCPAC, 1961, pt. 2, pp. 88–89 (cited by [[w.anthony-war-in-northern-laos]], 48 n.73c). Names: Kong Le, Brown.'
+    n: '[[w.anthony-war-in-northern-laos]], 48; [[w.guan-vietnamese-communists-relations-with]], 190 (North Vietnamese and Pathet Lao troops take Vang Vieng, on the road from Vientiane to Luang Prabang). To check: Roswell L. Gilpatric to Dean Rusk, Apr. 10, 1961 (cited by [[w.anthony-war-in-northern-laos]], 48 n.73a); AmEmb Vientiane to SECSTATE, 1884, Apr. 17, 1961 (cited by [[w.anthony-war-in-northern-laos]], 48 n.73b); History, CINCPAC, 1961, pt. 2, pp. 88–89 (cited by [[w.anthony-war-in-northern-laos]], 48 n.73c). Names: Kong Le, Brown.'
     src:
       c: 319d2770
       rows:
@@ -6844,6 +6887,7 @@ entries:
         - 'via w.anthony-war-in-northern-laos 48 n.73a: all'
         - 'via w.anthony-war-in-northern-laos 48 n.73b: all'
         - 'via w.anthony-war-in-northern-laos 48 n.73c: all'
+        - 'w.guan-vietnamese-communists-relations-with 190: ?'
     tags: [name:kong-le, name:brown-winthrop-g]
   - id: cal.1961-04-23.china-leadership
     when: Apr. 23
@@ -6979,7 +7023,7 @@ entries:
     thread: laos
     also: [soviet-union, europe-and-the-alliance]
     c: The co-chairmen, the Soviet Union and Britain, call the conference on Laos, on a cease-fire in place before it meets.
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 243; [[w.poole-joint-chiefs-of-staff]], 128 (London and Moscow appeal for an armistice, Nehru asked to reconvene the ICC, a fourteen-nation conference); [[w.schulimson-joint-chiefs-of-staff]], 70 (the co-chairmen''s agreement of Apr. 24: the control commission reconstituted, a cease-fire appealed for, the conference called for May 12 at Geneva). To check: "Extracts from the Report of the US Delegation, Geneva," Taylor Papers, NDU, 4–5 (cited by [[w.schulimson-joint-chiefs-of-staff]], 70 n.32). See [[cal.1961-04-01.laos-2]].'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 243; [[w.poole-joint-chiefs-of-staff]], 128 (London and Moscow appeal for an armistice, Nehru asked to reconvene the ICC, a fourteen-nation conference); [[w.schulimson-joint-chiefs-of-staff]], 70 (the co-chairmen''s agreement of Apr. 24: the control commission reconstituted, a cease-fire appealed for, the conference called for May 12 at Geneva); [[w.guan-vietnamese-communists-relations-with]], 191 (the joint appeal for a cease-fire; India to convene the Commission; the conference at Geneva from May 12). To check: "Extracts from the Report of the US Delegation, Geneva," Taylor Papers, NDU, 4–5 (cited by [[w.schulimson-joint-chiefs-of-staff]], 70 n.32). See [[cal.1961-04-01.laos-2]].'
     src:
       c: ce45ca30
       rows:
@@ -6987,6 +7031,7 @@ entries:
         - 'w.poole-joint-chiefs-of-staff 128: ?'
         - 'w.schulimson-joint-chiefs-of-staff 70: A'
         - 'via w.schulimson-joint-chiefs-of-staff 70 n.32: A'
+        - 'w.guan-vietnamese-communists-relations-with 191: ?'
   - id: cal.1961-04-24.vietnam
     when: Apr. 24
     date: '1961-04-24'
@@ -7049,7 +7094,7 @@ entries:
     thread: china-leadership
     also: [laos]
     c: 'Hangzhou, the Hangzhou Hotel, evening. Mao receives Souvanna Phouma and Prince Souphanouvong, brought by Zhou Enlai that afternoon; Chen Yi and Wu Xiuquan present. Souvanna will answer the call of the Geneva co-chairmen, Gromyko and Home, for a cease-fire with a statement and talks with Vientiane on its means. Mao: the statement good, the Savannakhet group invited to Khang Khay; they want peace now only because of nine months'' fighting; keep alert.'
-    n: '"[Transcript of Talks during Chairman Mao''s reception of Prince Souvanna Phouma and Prince Souphanouvong](https://digitalarchive.umd.edu/document/120883)" (Apr. 24, 1961), PRC FMA 204-01438-01, 24–29, obtained by Yiming Feng, trans. Marian Rosenberg, Wilson Center Digital Archive (secret, not reviewed; the Hangzhou Hotel, with Zhou and Chen Yi speaking; the record gives no hour and does not say when Zhou brought the princes, A and B; Souvanna says they asked Zhou to arrange the visit. Souvanna says he and his brother will give statements after the co-chairs'' appeal and watch Vientiane''s answer; Mao calls the statement very good, says the enemy wants peace only because of the nine months'' offensive and will break agreements, and advises keeping guard, moving the capital to the Plain of Jars and weighing the elections). [[w.zedong-mao-zedong-nianpu]], IV, Apr. 24, 1961. [[w.zhou-enlai-nianpu-1949]], II, 407, Apr. 24, 1961 (Zhou takes the two princes to Hangzhou (the reception by Mao itself is not named)). [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 24, 1961; 晚10时, 杭州; 陪同毛泽东主席会见); [[w.macfarquhar-origins-of-the-cultural]], III, 123 (Souvanna Phouma''s visit: the road to Yunnan); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 192 (Apr. 22–25, 1961; Souvanna Phouma, Prime Minister, and Prince Souphanouvong, chairman of the Neo Lao Hak Xat, visit; Mao receives them (at Hangzhou, as the entry has it)); [[w.chen-yi-nianpu]], 869 (Apr. 24, 1961, evening; Chen Yi present when Mao receives Souvanna Phouma and Souphanouvong at Hangzhou). Made public: 1993. To check: [[w.survey-of-china-mainland]], No. 2486, 24–26 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 123 n.24a); [[w.cheng-jianguo-yilai-jun-shi]], 189 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 123 n.24b). Names: Mao Zedong, Souvanna Phouma, Souphanouvong, Zhou Enlai, Chen Yi, Wu Xiuquan, Gromyko, Home.'
+    n: '"[Transcript of Talks during Chairman Mao''s reception of Prince Souvanna Phouma and Prince Souphanouvong](https://digitalarchive.umd.edu/document/120883)" (Apr. 24, 1961), PRC FMA 204-01438-01, 24–29, obtained by Yiming Feng, trans. Marian Rosenberg, Wilson Center Digital Archive (secret, not reviewed; the Hangzhou Hotel, with Zhou and Chen Yi speaking; the record gives no hour and does not say when Zhou brought the princes, A and B; Souvanna says they asked Zhou to arrange the visit. Souvanna says he and his brother will give statements after the co-chairs'' appeal and watch Vientiane''s answer; Mao calls the statement very good, says the enemy wants peace only because of the nine months'' offensive and will break agreements, and advises keeping guard, moving the capital to the Plain of Jars and weighing the elections). [[w.zedong-mao-zedong-nianpu]], IV, Apr. 24, 1961. [[w.zhou-enlai-nianpu-1949]], II, 407, Apr. 24, 1961 (Zhou takes the two princes to Hangzhou (the reception by Mao itself is not named)). [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 24, 1961; 晚10时, 杭州; 陪同毛泽东主席会见); [[w.macfarquhar-origins-of-the-cultural]], III, 123 (Souvanna Phouma''s visit: the road to Yunnan); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 192 (Apr. 22–25, 1961; Souvanna Phouma, Prime Minister, and Prince Souphanouvong, chairman of the Neo Lao Hak Xat, visit; Mao receives them (at Hangzhou, as the entry has it)); [[w.chen-yi-nianpu]], 869 (Apr. 24, 1961, evening; Chen Yi present when Mao receives Souvanna Phouma and Souphanouvong at Hangzhou); [[w.guan-vietnamese-communists-relations-with]], 190. Made public: 1993. To check: [[w.survey-of-china-mainland]], No. 2486, 24–26 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 123 n.24a); [[w.cheng-jianguo-yilai-jun-shi]], 189 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 123 n.24b). Names: Mao Zedong, Souvanna Phouma, Souphanouvong, Zhou Enlai, Chen Yi, Wu Xiuquan, Gromyko, Home.'
     src:
       c: 55a333c0
       rows:
@@ -7062,6 +7107,7 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 192: B'
         - 'https://digitalarchive.umd.edu/document/120883: A, B, D, E, F, G'
         - 'w.chen-yi-nianpu 869: ?'
+        - 'w.guan-vietnamese-communists-relations-with 190: all'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:mao-zedong, name:souvanna-phouma, name:souphanouvong, name:zhou-enlai, name:chen-yi, name:gromyko-andrei, name:douglas-home-alec, vis:only:prc+laos+pathet-lao]
     time_zone: Asia/Shanghai
   - id: cal.1961-04-24.china-leadership-3
@@ -7330,7 +7376,7 @@ entries:
     thread: china-leadership
     also: [laos, china]
     c: 'Zhou Enlai and Souvanna Phouma issue a joint statement: a widened Geneva conference of fourteen states, as Prince Sihanouk proposed, is the only effective way to a peaceful settlement in Laos; the two governments decide to establish diplomatic relations and exchange ambassadors. On the next day Zhou returns to Peking.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 25, 1961); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 25, 1961; 杭州); [[w.lengxi-shinian-lunzhan-1956-1966]], 453 (relations with the Kingdom of Laos established "in April 1961"); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 193 (Apr. 25, 1961; the joint statement: an international conference to ensure Laos''s sovereignty, independence, unity and territorial integrity and freedom from interference; protest at the U.S. military aid advisory group; the remnant Kuomintang troops in Laos to be cleared; formal diplomatic relations and an exchange of ambassador-level missions, with more economic and cultural cooperation). Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 25, 1961); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 25, 1961; 杭州); [[w.lengxi-shinian-lunzhan-1956-1966]], 453 (relations with the Kingdom of Laos established "in April 1961"); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 193 (Apr. 25, 1961; the joint statement: an international conference to ensure Laos''s sovereignty, independence, unity and territorial integrity and freedom from interference; protest at the U.S. military aid advisory group; the remnant Kuomintang troops in Laos to be cleared; formal diplomatic relations and an exchange of ambassador-level missions, with more economic and cultural cooperation); [[w.guan-vietnamese-communists-relations-with]], 190 (the Kuomintang remnants on the border to be cleared from Laos; China to help build a highway between the two; relations at the level of ambassadors). To check: [[w.dangdai-zhongguo-jundui-de]], I, 560–561 (the road) (cited by [[w.guan-vietnamese-communists-relations-with]], 190 n.44d). Names: Zhou Enlai, Souvanna Phouma.'
     src:
       c: 1e5fe181
       rows:
@@ -7338,6 +7384,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 310: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 453: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 193: A-B'
+        - 'w.guan-vietnamese-communists-relations-with 190: ?'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:souvanna-phouma]
   - id: cal.1961-04-25.china-leadership-3
     when: Apr. 25
@@ -7461,6 +7508,37 @@ entries:
         - 'w.friedman-shadow-cold-war 76: all'
         - 'via x.1961-04-25.report-indonesian-socialism-third-secretary-soviet-embassy: ?'
     tags: [polity:ussr, vis:only:ussr, name:sukarno]
+  - id: cal.1961-04-25.laos-2
+    when: Apr. 25
+    date: '1961-04-25'
+    place: kunming
+    thread: laos
+    also: [china-leadership]
+    c: The Laotian delegation from Hangzhou to Kunming, on its way to Hanoi.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 190.'
+    tags: [polity:laos]
+  - id: cal.1961-04-25.china-leadership-9
+    when: Apr. 25
+    date: '1961-04-25'
+    thread: china-leadership
+    also: [laos]
+    c: 'The PLA *Bulletin of Activities* no. 17, for cadres of regimental rank and above, carries "Several Important Problems Concerning the Current International Situation": three ways to settle the world''s problems, sharing the spoils, refused, China wanting "one inch of land from others" from no one; peaceful coexistence, firm against the United States, at peace with as many others as may be, but coexistence and neutralism transitional; and the socialist camp and the national independence movements strengthened. Africa the center of the anticolonial struggle; the Congo, Cuba, Laos. Nothing of North Vietnam''s struggle.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 190–191. Made public: 1966 ([[w.politics-of-the-chinese]]). To check: [[w.politics-of-the-chinese]], 480–487 (cited by [[w.guan-vietnamese-communists-relations-with]], 191 n.46).'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1961-04-25.laos-3
+    when: Apr. 25
+    date: '1961-04-25'
+    place: moscow
+    thread: laos
+    also: [soviet-union]
+    c: 'Moscow, morning. The senior members of the International Commission for Laos, on their way to New Delhi and Indochina, consult the Soviet Foreign Ministry, Pushkin presiding: a political settlement the Russians'' aim; war with the United States to be avoided, concessions to the neutrals at the left''s expense; the conference to last no more than six weeks. No one from Peking, Hanoi or the NLHX asked.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 191 (by Marek Thee, of the Polish delegation). Made public: 1973 ([[w.thee-notes-of-a-witness]]). To check: [[w.thee-notes-of-a-witness]], 16–18 (cited by [[w.guan-vietnamese-communists-relations-with]], 191 n.47). Names: Pushkin.'
+    tags: [polity:ussr, polity:poland, polity:india, name:pushkin-georgiyi-maksimovich, vis:only:ussr+poland+india+canada]
+    time_range:
+      - 1961-04-25T03:00Z
+      - 1961-04-25T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
   - id: cal.1961-04-26.laos
     when: Apr. 26
     date: '1961-04-26'
@@ -7774,6 +7852,40 @@ entries:
       - 1961-04-26T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-26.vietnam-diplomacy
+    when: Apr. 26
+    date: '1961-04-26'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Hanoi, morning. The Laotian delegation arrives and meets Hồ Chí Minh.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 191. To check: BBC, Summary of World Broadcasts, Far East, SWB/FE/625/B/7; SWB/FE/626/B/5-8 (Souvanna Phouma''s visit to Hanoi) (cited by [[w.guan-vietnamese-communists-relations-with]], 192 n.48). Names: Hồ Chí Minh.'
+    src:
+      rows:
+        - 'via x.1961-04.swb-fe-625-626-souvanna-phouma-hanoi: ?'
+    tags: [polity:laos, polity:drv, name:ho-chi-minh]
+    time_range:
+      - 1961-04-25T23:00Z
+      - 1961-04-26T05:00Z
+    time_band: morning
+    time_zone: Asia/Bangkok
+  - id: cal.1961-04-26.vietnam-diplomacy-2
+    when: Apr. 26
+    date: '1961-04-26'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Hanoi, afternoon. The Laotian delegation's talks with Phạm Văn Đồng, "in an atmosphere of cordiality, friendship and mutual understanding."
+    n: '[[w.guan-vietnamese-communists-relations-with]], 191–192. To check: BBC, Summary of World Broadcasts, Far East, SWB/FE/625/B/7; SWB/FE/626/B/5-8 (Souvanna Phouma''s visit to Hanoi) (cited by [[w.guan-vietnamese-communists-relations-with]], 192 n.48). Names: Phạm Văn Đồng.'
+    src:
+      rows:
+        - 'via x.1961-04.swb-fe-625-626-souvanna-phouma-hanoi: ?'
+    tags: [polity:laos, polity:drv, name:pham-van-dong]
+    time_range:
+      - 1961-04-26T05:00Z
+      - 1961-04-26T11:00Z
+    time_band: afternoon
+    time_zone: Asia/Bangkok
   - id: cal.1961-04-27.press-and-broadcasting
     when: Apr. 27
     date: '1961-04-27'
@@ -8066,6 +8178,17 @@ entries:
     c: The Labor Liberation Association of South Vietnam founded, Apr. 27 (later the Liberation Trade Union Federation).
     n: '[[w.lich-su-khang-chien-chong-my]], III, 143. Check: the place.'
     tags: [polity:drv]
+  - id: cal.1961-04-27.laos-5
+    when: Apr. 27
+    date: '1961-04-27'
+    thread: laos
+    also: [soviet-union]
+    c: 'The British to Gromyko: further Pathet Lao moves endanger the conference; an effective cease-fire at once.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 192. Made public: 1997. To check: FO 371/159843, DF 1015/626A, 27 April 1961, from Ankara to Foreign Office (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 192 n.49a). Names: Gromyko.'
+    src:
+      rows:
+        - 'via x.1961-04-27.fo-159843-df-1015-626a: ?'
+    tags: [polity:uk, polity:ussr, name:gromyko-andrei, vis:only:uk+ussr, ok:fields-place]
   - id: cal.1961-04-28.opinion
     when: Apr. 28–May 3
     date: '1961-04-28'
@@ -8323,6 +8446,29 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 124–125: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-04-28.vietnam-diplomacy
+    when: Apr. 28
+    date: '1961-04-28'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: 'Hanoi. The joint communiqué at the end of the Laotian visit: Souvanna Phouma for Vietnam''s reunification; Phạm Văn Đồng for a neutral, independent Laos; the Five Principles; Hanoi to help build and repair communication lines in Laos, train Laotian technicians, send specialists.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 192. To check: BBC, Summary of World Broadcasts, Far East, SWB/FE/625/B/7; SWB/FE/626/B/5-8 (Souvanna Phouma''s visit to Hanoi) (cited by [[w.guan-vietnamese-communists-relations-with]], 192 n.48). Names: Souvanna Phouma, Phạm Văn Đồng. Check: the day: the communiqué''s, "at the end of the visit," Apr. 26–28.'
+    src:
+      rows:
+        - 'via x.1961-04.swb-fe-625-626-souvanna-phouma-hanoi: ?'
+    tags: [polity:laos, polity:drv, name:souvanna-phouma, name:pham-van-dong]
+  - id: cal.1961-04-28.laos-2
+    when: Apr. 28
+    date: '1961-04-28'
+    thread: laos
+    also: [soviet-union]
+    c: 'The British to Gromyko again: hourly harder to avoid the impression that the delay is deliberate.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 192. Made public: 1997. To check: FO 371/159843, DF 1015/638/G, 28 April 1961, from Foreign Office to Moscow (Secret) (cited by [[w.guan-vietnamese-communists-relations-with]], 192 n.49b). Names: Gromyko.'
+    src:
+      rows:
+        - 'via x.1961-04-28.fo-159843-df-1015-638-g: ?'
+    tags: [polity:uk, polity:ussr, name:gromyko-andrei, vis:only:uk+ussr, ok:fields-place]
   - id: cal.1961-04-29.laos
     when: Apr. 29
     date: '1961-04-29'
@@ -9424,7 +9570,7 @@ entries:
     thread: vietnam-hanoi
     also: [laos]
     c: 'The People''s Army with the Pathet Lao opens the Central Laos campaign along Route 9: Cha Ky, Ban Dong, Xê Pôn and Muong Phine taken, the base in central and southern Laos widened; the Lao Party agrees to the strategic supply road''s moving west of the Trường Sơn. Before it, Campaign 128, Military Region 4''s battalions with the Pathet Lao along Route 12 to Nadu and Nhommarath.'
-    n: '[[w.lich-su-khang-chien-chong-my]], III, 129. Made public: 2013.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 129; [[w.guan-vietnamese-communists-relations-with]], 189 (the Central Military Committee, with the Lao Động and NLHX Central Committees'' consent, approves the plan of Military Region V and Group 559 for the Route 9 region and southern Laos; the 325th Division, the 19th border-defense battalion of Military Region IV, the 927th Battalion of Hà Tĩnh and the Pathet Lao, under the 325th Division and Group 559; opened Apr. 11). Made public: 2013. Check: the day: opened Apr. 11, 1961, by [[w.guan-vietnamese-communists-relations-with]], 189. To check: [[w.bam-opening-the-trail]], 9–15 (cited by [[w.guan-vietnamese-communists-relations-with]], 189 n.40).'
     tags: [polity:drv, vis:only:drv]
   - id: cal.1961-04.vietnam-hanoi-4
     when: Apr., late
@@ -9584,3 +9730,15 @@ entries:
         - 'via x.1961-04-21.liu-ningyi-liaison-department-april-21-1961: ?'
         - 'via x.1961-12-24.zhu-ziqi-liaison-department-december-24-1961: ?'
     tags: [polity:indonesia, polity:prc, polity:ussr, polity:japan]
+  - id: cal.1961-04-30.vietnam-diplomacy
+    when: Apr. 30
+    date: '1961-04-30'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: Souvanna Phouma in Hanoi again.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 176. To check: FO 371/159845, DF 1015/6641, 30 April 1961, from Hanoi to Foreign Office (cited by [[w.guan-vietnamese-communists-relations-with]], 176 n.109b). Names: Souvanna Phouma.'
+    src:
+      rows:
+        - 'via x.1961-04-30.fo-159845-df-1015-6641: ?'
+    tags: [polity:laos, polity:drv, name:souvanna-phouma]

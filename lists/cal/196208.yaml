@@ -272,6 +272,17 @@ entries:
       - 1962-08-01T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-01.china-leadership-11
+    when: Aug. 1
+    date: '1962-08-01'
+    thread: china-leadership
+    also: [vietnam]
+    c: 'Chen Yi: China supports Sihanouk''s proposal of a conference on South Vietnam, but with so few answering the time perhaps not ripe; at a certain stage of the struggle a conference inevitable.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 228. To check: NCNA, Aug. 1, 1962, SWB/FE/1012/C1/1 (cited by [[w.guan-vietnamese-communists-relations-with]], 228 n.110). See [[cal.1962-08-01.china-leadership-5]]. Names: Chen Yi, Sihanouk.'
+    src:
+      rows:
+        - 'via x.1962-08-01.ncna-fe-1012-c1-1: ?'
+    tags: [polity:prc, name:chen-yi, name:norodom-sihanouk, ok:fields-place]
   - id: cal.1962-08-02.governors-tn
     when: Aug. 2
     date: '1962-08-02'
@@ -3202,6 +3213,15 @@ entries:
       - 1962-08-18T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-18.vietnam-diplomacy
+    when: Aug. 18
+    date: '1962-08-18'
+    place: hanoi
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Hanoi. Zhu Qiwen, the new Chinese Ambassador, arrives; takes up his post Aug. 21.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 229.'
+    tags: [polity:prc, polity:drv]
   - id: cal.1962-08-19.middle-east
     when: Aug. 19
     date: '1962-08-19'
@@ -3312,12 +3332,13 @@ entries:
     thread: vietnam-diplomacy
     also: [china]
     c: Cambodia, threatened by South Vietnam and Thailand, asks Kennedy for a neutral status like Laos's; Diệm resents the implication. Sihanouk's letter of the day to Zhou Enlai, by Huang Zhen's account to him of Nov. 30, proposes an international conference to recognize and guarantee Cambodia's neutrality and territorial integrity.
-    n: '"[Minutes of Conversation between Chinese Vice Foreign Minister Huang Zhen and Cambodian King Norodom Sihanouk](https://digitalarchive.umd.edu/document/121900)" (Nov. 30, 1962), PRC FMA 106-01398-04, 57–61, obtained by Dai Chaowu, trans. 7Brands, Wilson Center Digital Archive. [[w.futrell-united-states-air-force]], 140. Names: Diệm, Sihanouk, Zhou Enlai.'
+    n: '"[Minutes of Conversation between Chinese Vice Foreign Minister Huang Zhen and Cambodian King Norodom Sihanouk](https://digitalarchive.umd.edu/document/121900)" (Nov. 30, 1962), PRC FMA 106-01398-04, 57–61, obtained by Dai Chaowu, trans. 7Brands, Wilson Center Digital Archive. [[w.futrell-united-states-air-force]], 140; [[w.guan-vietnamese-communists-relations-with]], 228 (Sihanouk, his interest in a conference on Vietnam gone, begins to call for an international conference on Cambodia). Names: Diệm, Sihanouk, Zhou Enlai.'
     src:
       c: 8a2087ae
       rows:
         - 'w.futrell-united-states-air-force 140: A, B'
         - 'https://digitalarchive.umd.edu/document/121900: C'
+        - 'w.guan-vietnamese-communists-relations-with 228: ?'
     tags: [name:ngo-dinh-diem, name:norodom-sihanouk, name:zhou-enlai, polity:cambodia, polity:prc]
     time_range:
       - 1962-08-20T02:00Z
@@ -5660,3 +5681,11 @@ entries:
         - 'w.friedman-shadow-cold-war 91–92, 98: all'
         - 'via x.1962-08-31.prc-embassy-moscow-mfa-top-secret-report: ?'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-08.vietnam-diplomacy
+    when: Aug.
+    date: 1962-08
+    thread: vietnam-diplomacy
+    also: [china-leadership]
+    c: Hồ Chí Minh on holiday at the Stone Forest in Yunnan, at the Shilin Hotel, the guest of the Yunnan soprano Du Lihua.
+    n: '[[w.guan-vietnamese-communists-relations-with]], 229. To check: [[w.zheng-hu-zhiming-yu-zhongguo]], 164–165 (cited by [[w.guan-vietnamese-communists-relations-with]], 229 n.118). Names: Hồ Chí Minh.'
+    tags: [polity:drv, polity:prc, name:ho-chi-minh, ok:fields-place]
