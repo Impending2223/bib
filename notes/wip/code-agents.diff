@@ -104,10 +104,10 @@ index b3208d8..af8d163 100644
      printed = frozenset()               # the characters the block's full cites print (cjk.py, STYLE 3)
      if fns:                             # the footnotes, then the note's other sentences (footnotes.py, STYLE 1, 5)
 diff --git a/tools/bib/check.py b/tools/bib/check.py
-index 27c26b7..3c9e16b 100644
+index 27c26b7..7cb01a6 100644
 --- a/tools/bib/check.py
 +++ b/tools/bib/check.py
-@@ -440,6 +440,11 @@ def run(series, only=None):
+@@ -440,6 +440,16 @@ def run(series, only=None):
      from . import lives
      for where, msg in lives.problems(series):
          add(ERROR, where, msg, "lives")
@@ -116,9 +116,118 @@ index 27c26b7..3c9e16b 100644
 +        from . import nametags
 +        for where, msg in nametags.problems(series):
 +            add(WARN, where, msg, nametags.RULE)
++    # "As X has it:" / "As X reports it:" only on a paper's report (tools/bib/standing.py, STYLE 3; the owner, Nov. 21, 2026)
++    if not only or series.lists.get(only) is not None and series.lists[only].kind == "calendar":
++        from . import standing
++        for where, msg in standing.problems(series):
++            add(WARN, where, msg, standing.RULE)
      # the register of State election sources (sources/states.yaml)
      from . import sources
      for where, msg in sources.problems():
+diff --git a/tools/bib/claims.py b/tools/bib/claims.py
+index 1d5ba88..b5b0f6d 100644
+--- a/tools/bib/claims.py
++++ b/tools/bib/claims.py
+@@ -39,6 +39,13 @@ STYLE
+     prose, a work's version of the event; a reader's map names an unlinked source by its first words). The note's
+     sources are its sentences other than "To check:", "See ...", "Names:", "Check:", "Made public:" and the pointers
+     ("Reply:", "The order:", "Bibliography:", "Statute (", "Opinion (").
++ 7. A label (the reader's brief, R32: a sentence of the note that states a fact with its source, "The Senate sat from
++    noon to 7:02 p.m.: [Daily Digest, D468](…)", "Votes: ...") stands for the unit it bears on, not the whole line;
++    the mechanical map cannot tell which, and gives its items the first unit, where the entry's date and its day's
++    facts sit (the owner, Nov. 21, 2026: "'The Senate sat from noon to 7:02 p.m.' should only be in the first
++    footnote here"), never all; a reader's map says otherwise where it should. The label stays the item's head
++    (note_labels). An item that only points to a themed list's section, "(Viet. II.I.3)", is no source: it goes
++    with the note's other sentences (is_xref).
+  6. Verbose (verbose()): the units in order, a run of units with the same sources closed by one footnote (or one
+     parenthetical, inline); each source in its form in the note (a work by its short form and the row's page; a link
+     by the note's text for it; a cited record "citing" its description, joined to the work's page where both ground
+@@ -160,10 +167,47 @@ def note_parts(n):
+     return list(src), list(other)
+ 
+ 
++def note_labels(n):
++    """{item: its label}: the items of a sentence that opens on a label (STYLE 7), each with it."""
++    return dict(_note_parts3(n)[2])
++
++
+ @store.memo
+ def _note_parts(n):
++    src, other, _ = _note_parts3(n)
++    return src, other
++
++
++# A label (R32: "Votes: ...", "The Senate sat from noon to 7:02 p.m.: [Daily Digest, D468](…)"): prose before ": " at a
++# source sentence's head, words in it, no brackets, its italics and quotations closed, a cite after it
++LABEL = re.compile(r"^(?P<label>(?:[^\[\]():;]|(?<=\d):(?=\d\d)|\([^()\[\]]*\)){2,120}?):\s+(?=\S)")
++# A pointer to a themed list's section, "(Viet. II.I.3)", "(K–J Cong. II.J.2)": no source (STYLE 5)
++XREF = re.compile(r"\((?:[A-Z][\w–'’]*\.?|\d{4})(?: [A-Z][\w–'’]*\.?)? [IVX]+(?:\.[A-Z0-9]+)*\)")
++
++
++def label_of(item):
++    """The label an item opens on (LABEL), or None."""
++    m = LABEL.match(item or "")
++    if not m or item.startswith(NOT_SOURCE):
++        return None
++    lab = m.group("label").strip()
++    if not item[m.end():].startswith(("[", "FRUS ")):     # a cite after it, not a title's subtitle ("Special Message
++        return None                                       # to the Congress: Program for ...")
++    if not re.search(r"[a-z]{3}", lab) or lab.count("*") % 2 or lab.count('"') % 2 or re.search(r"\d{4}[–-]\d", lab):
++        return None
++    return lab
++
++
++def is_xref(item):
++    """An item that points to a themed list's section and cites nothing ("Report of McNamara and Taylor to the President
++    (Viet. II.I.3)")."""
++    return bool(XREF.search(item or "")) and "[[" not in item and "](" not in item
++
++
++@store.memo
++def _note_parts3(n):
+     from .notemerge import items, sentences
+-    src, other = [], []
++    src, other, labels = [], [], []
+     chunks = []
+     for s in sentences(n or ""):        # a sentence the splitter ran on past an abbreviation ("86th Cong. To check: ...")
+         chunks += [c.strip() for c in OWN_SENTENCE.split(s) if c.strip()]
+@@ -172,8 +216,16 @@ def _note_parts(n):
+             other.append(s)
+         else:
+             body = s[:-1] if s.endswith(".") else s
+-            src += items(body)
+-    return tuple(src), tuple(other)
++            its = items(body)
++            lab = label_of(its[0]) if its else None
++            for it in its:
++                if is_xref(it):
++                    other.append(it.rstrip(".") + ".")
++                    continue
++                src.append(it)
++                if lab:
++                    labels.append((it, lab))
++    return tuple(src), tuple(other), tuple(labels)
+ 
+ 
+ CARD_ITEM = re.compile(r"^\[\[(w\.[^\]|]+)(?:\|[^\]]*)?\]\](?:, ([^(]+?))?\s*(\((?:[^()]|\([^()]*\))*\))?$")
+@@ -214,13 +266,15 @@ def mechanical(e):
+     c, rows = e.get("c") or "", []
+     us = units(c) if isinstance(c, str) else []
+     srcs, _ = note_parts(e.get("n"))
++    labels = note_labels(e.get("n"))
+     for it in srcs:
+         k = item_key(it)
++        whole = "A" if it in labels and len(us) > 1 else "all"   # a label's item: the first unit (STYLE 7)
+         if k[0] == "card":
+             if k[2]:
+-                rows.append(f"{k[1]} {k[2]}: {'?' if k[3] else 'all'}")
++                rows.append(f"{k[1]} {k[2]}: {'?' if k[3] else whole}")
+         elif k[0] == "url":
+-            rows.append(f"{k[1]}: all")
++            rows.append(f"{k[1]}: {whole}")
+         # an unlinked item is no row of the mechanical map: in the notes it is nearly always prose (a work's version of
+         # the event, "Johnson gives 7:40 p.m."), seldom a source; a reader's map names an unlinked source by its words
+     for i, u in enumerate(us):
 diff --git a/tools/bib/congress.py b/tools/bib/congress.py
 index 6779ecf..2c3cbf3 100644
 --- a/tools/bib/congress.py
@@ -142,10 +251,10 @@ index 6779ecf..2c3cbf3 100644
                                                 for e in cal]))     # by year (datelist STYLE)
          return out
 diff --git a/tools/bib/daybook.py b/tools/bib/daybook.py
-index 539c2bc..25ec803 100644
+index 539c2bc..10f6047 100644
 --- a/tools/bib/daybook.py
 +++ b/tools/bib/daybook.py
-@@ -550,30 +550,22 @@ def section_days(lst, sec, entry_li, thread_name, prefix=""):
+@@ -550,41 +550,25 @@ def section_days(lst, sec, entry_li, thread_name, prefix=""):
      undated, year_only, ix = [], [], {}
      dated = {}
      running = {}
@@ -173,6 +282,10 @@ index 539c2bc..25ec803 100644
 -    year_only = loose_order(year_only)
 -    ix = {k: loose_order(v) for k, v in ix.items()}
 -    dated = {k: subentries.nest(lst, dayorder.order(lst, v), dayorder.order) for k, v in dated.items()}
+-
+-    from . import standing           # a standing condition, set off and labeled (standing.py, STYLE 1)
+-
+-    def li(e, sub):
 +    from . import chron              # the chronological sort: by place, then the day's order (chron.py; dayorder STYLE 1-2, 6)
 +    for k, rows in chron.groups(lst, ents):
 +        if k[1] == 1:                       # a day: its entries by time, thread and text, `follows` honored
@@ -189,9 +302,27 @@ index 539c2bc..25ec803 100644
 +            while k <= min(end_of(e), hi):
 +                running.setdefault(k, []).append(e)
 +                k += datetime.timedelta(days=1)
- 
-     from . import standing           # a standing condition, set off and labeled (standing.py, STYLE 1)
- 
++
++    def li(e, sub):                  # a standing condition as any other entry: no label, no rule (standing.py, STYLE 1)
+         h = entry_li(e, rubric(lst, e, thread_name))
+-        if standing.is_state(e):
+-            head = h[:h.index(">") + 1]
+-            cls = "st sub" if sub else "st"
+-            h = h.replace(' class="', f' class="{cls} ', 1) if ' class="' in head else h.replace("<li", f'<li class="{cls}"', 1)
+-            h = h.replace(">", f'><span class="stl">{standing.LABEL}</span>', 1)
+-            return h
+         if not sub:
+             return h
+         head = h[:h.index(">") + 1]
+@@ -674,8 +658,6 @@ STYLE = """<style>
+ .day ol.e>li{padding:.8rem 0 .45rem;border-bottom:0}
+ .day ol.e>li+li{border-top:1px dotted var(--rule)}
+ .day ol.e>li.sub{margin-left:.7rem;padding-top:.5rem}
+-.day ol.e>li.st{border-left:2px solid var(--rule);padding-left:.6rem}
+-.stl{display:block;font-family:var(--sans);font-size:.66rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin-bottom:.1rem}
+ .day ol.e>li+li.sub{border-top:1px dotted var(--rule);border-top-color:color-mix(in srgb,var(--rule) 55%,transparent)}
+ .s.rub{display:block;font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.06em;
+   text-transform:uppercase;color:var(--muted);line-height:1.2;margin:0}
 diff --git a/tools/bib/dayorder.py b/tools/bib/dayorder.py
 index e0631c1..abd0b6f 100644
 --- a/tools/bib/dayorder.py
@@ -819,6 +950,41 @@ index f64d600..8db6c50 100644
                              [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {wy}")], para=True,
                              kind="cal"))
      return out
+diff --git a/tools/bib/notemerge.py b/tools/bib/notemerge.py
+index 4442604..b33ab17 100644
+--- a/tools/bib/notemerge.py
++++ b/tools/bib/notemerge.py
+@@ -63,8 +63,14 @@ def _sentences(n):
+     return tuple(out)
+ 
+ 
++# An item that opens on a bare pinpoint ("doc. [170](…)", "pp. 3–4") is the rest of the cite before it: "FRUS
++# 1961–63, IV, docs. 167, 169; doc. 170" is one cite (the owner, Nov. 21, 2026)
++PIN_ONLY = re.compile(r"^(?:docs?|nos?|pp?|vols?|nn?|chs?|pts?|§§?)\.?\s*[\[\d]")
++
++
+ def items(s):
+-    """A sentence's top-level items (split at semicolons outside brackets and parentheses)."""
++    """A sentence's top-level items (split at semicolons outside brackets and parentheses; an item that is only a
++    pinpoint kept with the cite before it, PIN_ONLY)."""
+     out, depth, cur = [], 0, ""
+     for ch in s:
+         depth += (ch in "([") - (ch in ")]")
+@@ -73,7 +79,13 @@ def items(s):
+             cur = ""
+         else:
+             cur += ch
+-    return [x for x in out + [cur.strip()] if x]
++    joined = []
++    for x in out + [cur.strip()]:
++        if x and joined and PIN_ONLY.match(x):
++            joined[-1] += "; " + x
++        elif x:
++            joined.append(x)
++    return joined
+ 
+ 
+ def card(x):
 diff --git a/tools/bib/patchcheck.py b/tools/bib/patchcheck.py
 index 3afcc1d..a7c694e 100644
 --- a/tools/bib/patchcheck.py
@@ -911,19 +1077,57 @@ index 3afcc1d..a7c694e 100644
      """STYLE 10: R25a's fields on each calendar entry the patch adds, as the dry run left it (tools/bib/fields.py)."""
      from . import fields
 diff --git a/tools/bib/standing.py b/tools/bib/standing.py
-index 71b2e65..75d61aa 100644
+index 71b2e65..bb9f015 100644
 --- a/tools/bib/standing.py
 +++ b/tools/bib/standing.py
-@@ -13,7 +13,7 @@ STYLE
+@@ -1,24 +1,40 @@
+ """Standing conditions (the owner, Nov. 12, 2026): a condition of public importance a paper reports as such (a senator who
+-has not endorsed the ticket, a bill held in committee) is an entry on the paper's day, tagged `form:state`
+-(notes/briefs/batch12-press.md). "As reported. Every standing condition, grouped by thread."
++has not endorsed the ticket, a bill held in committee) is an entry on the paper's day, `c` "As the *Times* reports it:
++..." (notes/briefs/batch12-press.md), an entry like any other. "As reported. Every standing condition, grouped by thread."
++
++    ./bib check        [report-opener] warnings: a `c` opening "As ... has it:" or "As ... reports it:" whose note cites
++                       no newspaper, wire or broadcast
+ 
+ STYLE
+-1. On the day: a state entry is set off by a rule at its left and the label "As reported" above its rubric, so it does
+-   not read as an act (daybook.py).
++1. No label, no rule, no tag (the owner, Nov. 21, 2026: "Could we rename the "As reported" label to save future
++   readers/auditors from this error? It's not a particularly lucid label. Actually, yes. Just drop the label
++   altogether."): a standing condition renders on its day exactly as any other entry (daybook.py), and the tag
++   `form:state`, which made the label and the left rule of Nov. 12, is retired from every entry. is_state and
++   register_html below read the retired tag and so find nothing; nothing in the build calls them.
+ 2. No register (the owner, Nov. 18, 2026: "They shouldn't have a separate human-readable bucket at all. They're just a
+    kind of calendar entry ... they should sit in the calendar with all the others"): the index's register of Nov. 12
+    is taken off; register_html stays for a reader's own query, called by nothing in the build. A later report of the
+    same condition is an entry of its own (its note points back, "See [[...]]").
++3. The opener is the press's alone (the owner, Nov. 21, 2026: "Why isn't this just a normal entry?"): only a
++   newspaper's, a wire's or a broadcast's report of a standing condition on its day opens "As the *Times* reports
++   it: ..."; an archive's, an embassy's, a ministry's or a historian's report is a normal entry, its source in the
++   note ("Shanghai 上海: on a single day ..."; a dated dispatch as the event, "British embassy in Peking to the
++   Foreign Office: ..."). `check` warns [report-opener] (problems()) on a `c` opening "As X has it:" or "As X
++   reports it:" (X up to the first colon; "have it", "report it" too) whose note cites no press: a link to a host,
++   a run of words or a card that the provenance registry (sources/provenance.yaml) files as `press`, its series or
++   its works (vis.registry). `ok:report-opener` silences an entry.
+ """
  import html
  import re
  
 -from . import calsplit, cjk, loose, markup, store
 +from . import calsplit, chron, cjk, loose, markup, store
  
- LABEL = "As reported"
+-LABEL = "As reported"
++RULE = "report-opener"
++OPENER = re.compile(r"^As\s[^:]{1,300}?\b(?:has|have|reports|report)\s+it\b[^:]{0,200}:")
  
-@@ -43,7 +43,7 @@ def register_html(lst, thread_name, thread_key):
+ 
+ def is_state(e):
++    """The retired tag (STYLE 1): no entry carries it."""
+     return "form:state" in store.as_list(e.get("tags"))
+ 
+ 
+@@ -43,7 +59,7 @@ def register_html(lst, thread_name, thread_key):
             '(a senator who has not endorsed the ticket, a bill held in committee), by thread.</p>']
      for t in sorted(rows, key=lambda t: thread_key(lst, t)):
          out.append(f'<h3>{html.escape(thread_name(lst, t))}</h3><ul>')
@@ -932,6 +1136,58 @@ index 71b2e65..75d61aa 100644
              half = calsplit.half_of_date(lst, loose.place_iso(e))
              link = calsplit.href(lst, half, e["id"])
              out.append(f'<li><a href="{html.escape(link)}">{html.escape(str(e.get("when") or e["date"]))}, '
+@@ -59,3 +75,51 @@ STYLE = """<style>
+ .streg ul{list-style:none;margin:0;padding:0}.streg li{padding:.3rem 0;border-top:1px dotted var(--rule)}
+ .streg .stn{font-size:.9rem;color:var(--muted)}
+ </style>"""
++
++
++def opener(c):
++    """True where `c` opens with a report's frame, "As X has it:" or "As X reports it:" (STYLE 3)."""
++    return bool(OPENER.match(str(c or "")))
++
++
++def _press_series():
++    from . import vis
++    return [s for s in vis.registry()["series"] if s.get("kind") == "press"]
++
++
++def press_cited(n, press=None):
++    """True where the note cites the press: a link to a press series' host, a press series' words, or a card the
++    registry files as press (its works' kind, or a press series' cards)."""
++    from . import vis
++    n = str(n or "")
++    press = _press_series() if press is None else press
++    for m in markup.LINK_RE.finditer(n):
++        s = vis.series_for_url(m.group(2))
++        if s and s.get("kind") == "press":
++            return True
++    for s in press:
++        if any(pat and pat in n for pat in store.as_list(s.get("text"))):
++            return True
++    works = vis.registry().get("works") or {}
++    for cid in re.findall(r"\[\[(w\.[^\]|]+)", n):
++        if (works.get(cid) or {}).get("kind") == "press" or any(cid in store.as_list(s.get("cards")) for s in press):
++            return True
++    return False
++
++
++def problems(series):
++    """[report-opener] (STYLE 3): (id, message) for each calendar entry whose `c` opens with a report's frame and whose
++    note cites no newspaper, wire or broadcast."""
++    out, press = [], None
++    for lst in series.lists.values():
++        if lst.kind != "calendar":
++            continue
++        for _, e in lst.entries():
++            if not opener(e.get("c")):
++                continue
++            press = _press_series() if press is None else press
++            if not press_cited(e.get("n"), press):
++                out.append((e.get("id", "?"), "c opens \"As ... has it:\" or \"As ... reports it:\" but the note cites no "
++                            "newspaper, wire or broadcast: write it as a normal entry, the source in the note "
++                            "(standing.py, STYLE 3)"))
++    return out
 diff --git a/tools/bib/vis.py b/tools/bib/vis.py
 index 466e84c..f0e358b 100644
 --- a/tools/bib/vis.py
