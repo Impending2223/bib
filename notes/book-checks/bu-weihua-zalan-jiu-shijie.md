@@ -379,3 +379,93 @@ Opus audit of patch `2026-11-21-b15b-buweihua-2` (pp. 41–99: ch. 1 §§4–5 a
 **Leads (added).** Zhou Enlai's own forum on national music, after Jiang Qing's ("separate first, then merge"), undated (42); Kuang Yaming 匡亞明 at Nanjing University, the demand to parade him, undated (95).
 
 **For the merger.** (1) Keep (`--take keep`) the duplicate flags patch-check raises on the 88 adds (same day, month or year), each read and distinct; the nearest: `cal.1965-12.china-leadership-13` (Xu Shiyou, by Xiao Hua's account; the tree's coup question of Mar.–Apr. 1966 is cited with it), `cal.1965-12-23.china-leadership-3` (Check against Dec. 22), `cal.1967-05.china-leadership-33` (Check against the military delegation), `cal.1966-09-22.china-leadership-3` and `cal.1966-05-10.china-leadership-8` (acts the tree holds only inside other entries), `cal.1966-04-29.china-leadership-9`, `cal.1966-05-24.china-leadership-3`, `cal.1966-03-27.china-leadership-12`. (2) Checks to strike by hand once the edits land (patch-check refuses an edit that drops a Check): on `cal.1966-04-16.china-leadership-8`, "Check: whether the rewritten note replaced the one issued Apr. 10."; on `cal.1967-04.china-leadership` and `cal.1967-05.china-leadership-4`, "Check: the day."; on `cal.1966-05.china-leadership`, "Check: the day; MacFarquhar (47) has Kang say it …; whether in his speech of May 5–6." (3) Fold run 2's witness file with its amendment row after maozhuan-2's.
+
+## Run 3 (reader b15b-buweihua-3, Nov. 21, 2026): ch. 2 from the provincial purges to the Nie Yuanzi poster, pp. 99–128
+
+Patch `inbox/2026-11-21-b15b-buweihua-3.yaml`; witness rows `inbox/witnesses/2026-11-21-b15b-buweihua-3.yaml`; edges `sources/witnesses/by-work/pu-weihua-zalan-jiu-shijie.yaml` under `# run 3`. Nothing merged or committed. Run 2 and its audit were merged while this run worked; the audit's rulings (read before hand-in) were applied to this run: characters at first appearance for persons, places, organs, meetings and titles in `c`; the province as `place:` on a provincial organ's act; criticism by name (點名批判) a public act; every held person named in `c` tagged and in "Names:". Every add was scripted against the tree as merged (run 2 included) and the pending inbox (Dikötter's *Cultural Revolution* run 2, Ye Jianying runs 1–2, Zhu De run 3), by day, month and year, Latin names and runs of characters, and the candidates read.
+
+**The copy and its keying.** The same Drive PDF (849 pages, a scan with no text layer), fetched afresh into a new directory. PDF 119–260 taken out with `pdfimages -png` at the native resolution and OCRed with tesseract `chi_tra --psm 6`; every page used was read on the page image itself (the full page at screen size reads well), the OCR used only to copy characters; names in doubt zoomed (2×) and OCRed again (程光遠, 任琛, 劉明鑾, 蕭澤寬, 李止舟, 蕭李廖). The folio held on every page read: printed = PDF − 20. The download, its images, its OCR text and the crops were deleted at the end.
+
+**What was read.** Ch. 2 §2 part 1 from p. 99 (the Jilin standing committee of Aug. 3, 1966) to its end (p. 102); §2 part 2, the Qianmen Hotel meeting (102–106); §3, the May 7 directive (106–108); §4, the deaths of Deng Tuo and Tian Jiaying (108–113); §5, the Capital Work Group (113–116); §6, the Central Cultural Revolution Group (116–119); §7, the army's turmoil (120–125); and ch. 2 part 三, the "first Marxist-Leninist poster", to the foot of p. 128. All notes of these pages read (ch. 2 n.29–71).
+
+**What was entered.**
+- 140 new entries: 72 with `place`, 7 with a time (Deng Tuo's letter, night; Ding Yilan, early morning; Tian Jiaying's last talk, about 8 a.m.; the General Staff's meeting, morning, and the Signal Corps poster, afternoon, of Aug. 22; the foreign affairs bureau's protest, afternoon of Aug. 25; Peking University's committee, 4 p.m. May 24), 56 with `at`; 114 with a `vis:` ruling. By year: 1962 1, 1963 1, 1964 2, 1965 2, 1966 129, 1967 3, 1968 2. None `form:state`.
+- 53 cites, 13 with units, each unit claimed only where the page bears every place, person, figure and claim in it; elsewhere the parenthetical says what the page gives.
+- 6 variants: the Qianmen Hotel meeting's attendance (143 by the organization history, 146 by the gazetteer) and its dates (May 23 to July 20 in Li Xuefeng's later account); Deng Tuo's death, May 18 before dawn, not the night of the 17th; Zhou Enlai's instruction on patrolling the two universities, June 6, not 7; the "International Hotel meeting" held at the Peking Hotel; Nie Yuanzi's own account (2004) that Cao Yi'ou did not prompt the poster.
+- 3 `check` ops: the Hebei standing committee's dates, June 24–July 15 (`cal.1966.china-leadership-58`); "Made public" by the 1997 *Zhou Enlai nianpu* on `cal.1966-05-18.china-leadership-3` and `cal.1966-05-31.china-leadership-2` (both 2020 in the tree; Bu cites the 1997 edition, 114 n.46, 115 n.47). 5 "Check:" sentences in adds.
+- 13 `to-check`, 16 `src`, 1 `place` op (Peking on `cal.1966-05-22.china-leadership-2`).
+- 5 `edit` ops: the afternoon of May 22 and the morning of May 23 on Tian Jiaying's two entries; 2 p.m. on the Nie Yuanzi poster (`cal.1966-05-25.china-leadership`); two *Estimates* glosses, Bu's "over 100,000" for the Peking Garrison during the Cultural Revolution (`cal.1966-06-03.china-leadership-5`) and his count of nine of the Cultural Revolution Group's fourteen members gone by the Ninth Congress (`cal.1969-04-28.china-leadership`).
+- Witnesses: 12 rows (Li Danlin on Li Xuefeng, 2002; Ren Jie's interview of Ding Yilan, 1999; Wang Fan on Tian Jiaying, 2004; Zhou Enlai's talk to the Academy of Sciences' units, Jan. 21, 1967; Wang Yi, 1998; He Tingyi, 2001; Fan Shuo, 2000; Chen Hong, 1999; and for 128 n.71 Xiang Luo and Meng Jin, 2002, Liu Yangqiao's statement of 1979, Yang Keming's report of July 1967, Nie Yuanzi, 2004). Rows reused: the Liu–Deng talk with Ulanfu of July 2, 1966; the *Hongqi* editorial of July 1, 1966; Wang Li's *Fansilu*, II (an edge with pin 599 to the row registered at 573). 37 edges under `# run 3`.
+- 5 new cards, each with `script` from Bu's note: `w.nei-menggu-zizhiqu-zhi` (Ren Yaping, ed., 1999), `w.zhongguo-sixiang-yundong-shi` (Li Honglin, 1999), `w.shinian-fengyu-jishi` (Wu De, 2004), `w.wo-zai-renmin-jundui` (Liang Biye, 1997), `w.ouyang-yi-huiyilu` (1998).
+- The ledger holds 140 claims under the patch, matching the adds.
+
+**Visibility and "Made public."** Internal acts carry `vis:only:prc` and "Made public: 2008" where Bu's note names no earlier printing; otherwise the earliest printing his note names: 1988 (Wang Nianyi; Xiao Jingguang's memoir as Bu dates it), 1989 (Pang Xianzhi in *Mao Zedong he tade mishu Tian Jiaying*), 1997 (Liang Biye), 1998 (Ouyang Yi), 1999 (Fu Chongbi; Chen Hong; the Ding Yilan interview), 2000 (the organization history), 2001 (He Tingyi; Yin Hongbiao), 2002 (Li Danlin; Xiang Luo and Meng Jin), 2004 (Wu De). Zhang Enci's paper of May 5 notes the *Wengao*'s internal printing (XII, 57, 1998). The press items (the provincial papers, the *Renmin ribao* of Aug. 25), the posters, the public meetings and criticism by name carry none.
+
+**Duplicates.** Acts first drafted or read as adds that the tree holds, made cites: the Guizhou plenum on Wang Xiaochuan (`cal.1966-05.china-leadership-18`), Zheng Siqun's suspension, suicide and expulsion, Ren Baige's fall; the Qianmen Hotel meeting (May 21), the Liu–Deng talk with Ulanfu (July 2) and Deng's words there (`cal.1966-07.china-leadership-2`), Ulanfu's dismissal (Aug. 16), the Hebei standing committee (run 2's), the Tianjin group; Mao's letter of May 7, his comment of May 14, the Center's forwarding of May 15, the *Renmin ribao* of Aug. 1; Deng Tuo's death, Qi Benyu's article and its reprint; Tian Jiaying's cut of Mao's words, the three-man group's visit and his death; the capital's guard (May 15 ×2, 18, 26, 31; June 3, 5, 7; the garrison's enlargement); Zhou's talk of Jan. 21, 1967; the Group's list (May 28), its Shanghai meeting, Chen Boda's leave (Aug. 30), the Twelfth Plenum's communique, the *Hongqi* editorial of July 1; Liu Yalou's death; the Navy and Air Force meetings of July 3, 4, 7 and 11 (Ye Jianying run 1's entries and the tree's); Xiao Xiangrong (Nov. 15, 1965); the General Staff's poster and Mao's reception of Aug. 25; the Peking University Socialist Education entries (Nov. 11, 1964; Jan. 23, Mar. 3 and March 1965); Cao Yi'ou's group (May 14), Zhang Enci's paper (May 11), the poster (May 25).
+
+## Passed over (run 3; R44, R18's grounds only)
+
+Made by reading every dated act on pp. 99–128 and their notes against the tree and the patch.
+
+| page | date | event | why |
+|---|---|---|---|
+| 103 | Dec. 20, 1935 | the Declaration to the people of Inner Mongolia issued in Mao's name | outside the span |
+| 103 n.31 | Oct. 1925; May 1947 | the Inner Mongolian People's Revolutionary Party founded; ceases with the region's founding | outside the span |
+| 108 | 1956–58 | the *Renmin ribao* editorial against rash advance; Mao's "dead men running the paper"; Deng Tuo moved | outside the span |
+| 111 | 1979 | Deng Tuo's letter reaches Ding Yilan after his rehabilitation | outside the span |
+| 112 | 1948; 1959 | Tian Jiaying becomes Mao's secretary; his words at Lushan to Li Rui | outside the span |
+| 119 n.58 | summer 1955 | Chen Boda and Chen Zhengren made deputy heads of the Rural Work Department | outside the span |
+| 126 n.67 | May 19, 1957 | the history department's poster at the same wall | outside the span |
+| 128 n.71a | July 16, 1979 | Liu Yangqiao's statement on the poster | outside the span (registered) |
+| 128 n.71d | Nov. 17, 2004 | Nie Yuanzi's article on the poster | outside the span (registered; its account a variant) |
+
+## Leads (run 3; undated, R50)
+
+- 99: the persecution to death of Wu Tianshi 吳天石, Jiangsu's head of education, and his wife Li Jingyi 李敬宜 (no date).
+- 104: the Inner Mongolia Military Region's later "ferreting out" of Wu Tao 吳濤, Kong Fei 孔飛, Ting Mao 廷懋, Tala 塔拉 and Bao Yinzhabu 鮑蔭扎布 ("later", no year).
+- 113: Wang Li's judgment that Tian Jiaying was one of the very few who dared criticize Mao to his face (no date).
+- 114 n.46, 115: the 70th Division in Peking in place of the 193rd; Ye Jianying's later instruction putting the 112th, 196th and 193rd divisions at the garrison's call (in the cite on `cal.1966-06.china-leadership-10`, no date of their own).
+- 118: Mao's absences from the Politburo, his "Peking's air is bad" and "I do not read the *Renmin ribao*" in "the years before the Cultural Revolution" (no year).
+- 119 n.58: Chen Boda placed as a deputy head of the Planning Commission (no date).
+
+## Doubts (run 3)
+
+- **Two names illegible in the copy** (101): the Ningxia regional committee's former standing member and vice-chairman (劉?寰) and Shanxi University's secretary-general (宋華?) are named by office in their entries (`cal.1966.china-leadership-78`, `cal.1966-08-05.china-leadership-13`), not romanized; a clearer copy should give them.
+- **The Qianmen Hotel meeting's dates**: May 21 in Bu's text (102), May 23 to July 20 in Li Xuefeng's later account (105); the exposure of Ulanfu June 7 to July 20 (104). Both readings stand as variants on `cal.1966-05-21.china-leadership-4`; acts "at the meeting" with no day are dated "1966, May–July" (`at: before 1966-06`).
+- **Cites resting on likely matches**: Zheng Siqun's suspension (Bu, undated) on the tree's June 21 entry; the Guizhou plenum (Bu, undated) on the tree's May entry (Tiandi: "throws out"); the Dong Bian report and Mao's masthead both dated Aug. 25 by Bu's one sentence.
+- **Checks put to the owner**: whether Mao's talk "on the eve of May Day, 1967" (106 n.34) is the meeting of Apr. 30 with Zhou and the marshals; whether Zhou's words on the Group at the Twelfth Plenum are the speech of `cal.1968-10.china-leadership-4`; whether Liu and Deng's talks with Lin Tie are the ones Li Xuefeng names (105); who named Liu Zhijian and Xie Tangzhong (Ye Jianying in Wang Nianyi, Lin Biao in Wang Li); the second Air Force standing member who did not sign (121 n.61).
+- ***Xiao Jingguang huiyilu xuji***: Bu's note (120 n.59) dates it 1988; the card says 1989.
+- **The provinces as places**: year-dated provincial acts carry the province's key, as the run 2 audit ruled for Hebei and Henan.
+
+## Persons named in `c` with no name entry (run 3; not tagged)
+
+- *The provinces*: Chen Jingbo, Fu Zhensheng (Jilin); Tao Bai, Qian Jingren, Zhou Cun, Wu Baitao, Sun Shuping (Jiangsu); Qin Mu (Guangdong); Gu Linguang, Shi Linghe, Li Dingkun (Jiangxi); Li Fanfu (Anhui); Yu Xiu, Liu Dishi, Liu Mingluan, Wang Zhongyin, Liu Zhixia (Shandong); Chen Yixin, Zeng Dun, Liu Jisun (Hubei); Lu Di, Zhong Lin (Guangxi); Qin Tianzhen, Xu Jiansheng (Guizhou); Li Mengbei, Gao Zhiguo, Xia Yu, Zhou Zhongde (Yunnan); Zhao Shouyi, Li Qiming, Feng Jiping, Liu Ziyi (Shaanxi); Ruan Dimin, Wu Jian (Gansu); Liu Dan, Lin Danqiu, Xia Chengtao (Zhejiang); Wu Shengxiu, Yang Xin (Ningxia); Wang Zhongqing, Liu Mei, Zhao Shuli, Li Shuwei, Yuan Zhen (Shanxi); Zhang Liqun, Li Yaqun, Ma Shitu, Sha Ting, Li Banli, Cheng Zijian, Ge Bizhou, Xiao Zekuan, Li Zhizhou, Liao Bokang, Ren Baige, Zheng Siqun, Mu Xin (Sichuan, Chongqing); Cheng Guangyuan, Huang Jingtao, Ren Chen (Qinghai); Kang Zhuo, Kong Anmin, Wang Qunwu, Han Shuguang, Zhang Huimin (Hunan).
+- *North China and Inner Mongolia*: Li Xuefeng, Xie Xuegong, Ulanfu, Kui Bi, Ji Yatai, Bilige Batu'er, Lin Tie, Liu Zihou, Hu Zhaoheng.
+- *Deng Tuo, Tian Jiaying*: Deng Tuo, Ding Yilan, Liu Ren, Tian Jiaying, Dong Bian, Pang Xianzhi, He Jun.
+- *The capital and the Group*: Wu De, Yang Shangkun, Wang Li, Guan Feng, Qi Benyu, Yin Da, Liu Zhijian, Xie Tangzhong, Wang Renzhong, Yang Yongzhi, Guo Yingqiu, Zheng Jiqiao, Yang Zhilin, Liu Wenzhen, Tang Pingzhu, Hu Chi, Wang Dongxing, Zhou Rongxin, Cao Yi'ou.
+- *The army*: Zhang Xiuchuan, Xiao Jingguang, Su Zhenhua, Wang Hongkun, Liu Yalou, Yu Lijin, Zhang Tingfa, Wang Bingzhang, Cheng Jun, Liu Zhen, Cao Lihuai, Tan Jiashu, Chang Qiankun, Xu Shenji, Wang Huiqiu, Yang Chengwu, Lu Yang, Xiao Hua, Liang Biye, Pan Zhenwu, Xu Yefu, Wang Shangrong, Lei Yingfu, Chen Renqi, Wu Kehua, Su Jin, Liao Dingxiang, Ouyang Yi.
+- *Peking University*: Nie Yuanzi, Lu Ping, Peng Peiyun, Song Shuo, Zhang Enci, Chen Shouyi, Yang Keming, Song Bainian, Gao Aijun, Xu Zhaowen; and Gao Gang, Lu Xun, Wang Ming, Zhou Yang.
+
+## The notes (run 3)
+
+Every item of every note on the pages cited is a row or an edge (lettered 103 n.30a–b, 117 n.49a–b, 128 n.71a–d). Notes with no item: 102 n.29 (Huang Jingtao's posts, in the add), 103 n.31 (the party's history), 108 n.37 (Deng Tuo's seal), 117 n.50, n.51, n.53 and 121 n.61 (facts, entered), 121 n.60 (Liu Yalou's death, cited), 126 n.68 (the group's lodging, in the cite); 106 n.34 is a statement without a record (an entry, no row, R38). Pages cited with no notes: 99, 100, 101, 105, 109. `./bib notes-coverage` reads only the tree, so this run's pages show there after the merge.
+
+## Where run 4 starts
+
+P. 129: the law students' poster of May 26 in full, then the poster's course from May 25 (Zhou Enlai's night dispatch, Kang Sheng's sending it to Mao, the broadcast of June 1). The earlier readers' plain-text "To check:" items for this book are still to be read where run 4 reaches them: pp. 165–166 (`cal.1966-06-23.china-leadership-8`, `cal.1966-07-13.china-leadership-6`), 191–194 (`cal.1966-08-04.china-leadership-5`, `cal.1966-08-05.china-leadership`, `cal.1966-08-07.china-leadership-6`), 206 (`cal.1966-08-18.china-leadership-4`), 449–460, 533 and 540, and the "51" of `cal.1967-05-13.china-leadership-5`; in card form 310, 356, 449–450 and 504–506. Run 3 did not reach them.
+
+## Counts (run 3)
+
+| | |
+|---|---|
+| new entries | 140 (72 with place, 7 with time, 56 with `at`; none `form:state`) |
+| cites | 53 (13 with units) |
+| variants | 6 |
+| `check` ops | 3 (5 "Check:" sentences in adds) |
+| `to-check` ops | 13 |
+| `src` ops | 16 |
+| `place` ops | 1 |
+| `edit` ops | 5 (3 times, 2 *Estimates* glosses) |
+| witness rows | 12 |
+| edges | 37 |
+| cards | 5 new |

@@ -21,7 +21,7 @@ ops:
         time_zone: Asia/Shanghai
   - edit:
       id: cal.1966-06-03.china-leadership-5
-      base: fcc2c306
+      base: 6f5c5c85
       set:
         gloss:
           title: Estimates
@@ -2112,4 +2112,100 @@ ops:
         src:
           rows:
             - 'w.pu-weihua-zalan-jiu-shijie 127: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - to-check:
+      id: cal.1966-05.china-leadership-40
+      add: Xiang Luo 向洛 and Meng Jin 孟金, 〈全國「第一張大字報」出籠真相〉, *Zhonggong dangshi ziliao* 《中共黨史資料》, no. 83 (2002), 113–127 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 128 n.71c); Nie Yuanzi 聶元梓, 〈「第一張馬列主義大字報」的由來〉, *Wangshi* 《往事》, no. 4, Nov. 17, 2004 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 128 n.71d)
+  - src:
+      id: cal.1966-05.china-leadership-40
+      rows:
+        - 'via x.2002.xiang-luo-meng-jin-diyizhang-dazibao-chulong-zhenxiang: ?'
+  - variant:
+      id: cal.1966-05.china-leadership-40
+      unit: A
+      witness: w.pu-weihua-zalan-jiu-shijie
+      reads: 'Nie Yuanzi''s account (2004): they asked Cao Yi''ou only as a matter of Party principle, telling her nothing of the content; the poster was not written on Cao''s prompting'
+      at: 128 n.71d
+  - add:
+      entry:
+        id: cal.1967-07.china-leadership-37
+        when: July
+        date: 1967-07
+        thread: china-leadership
+        c: 'Yang Keming 杨克明 sends Qi Benyu 戚本禹 and Jiang Qing 江青 a special report, "How Peking University''s first Marxist-Leninist poster in the country came about" 〈北京大学的全国第一张马列主义大字报的产生经过〉: Zhang Enci 张恩慈 was the center of the philosophy department''s leftists; at the crucial moment Kang Sheng 康生 and Cao Yi''ou 曹轶欧, through Zhang, told them they could write a poster.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 128 n.71b. Made public: 2002 (Xiang Luo and Meng Jin). To check: Xiang Luo 向洛 and Meng Jin 孟金, 〈全國「第一張大字報」出籠真相〉, *Zhonggong dangshi ziliao* 《中共黨史資料》, no. 83 (2002), 113–127 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 128 n.71c). Names: Jiang Qing, Kang Sheng.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 128 n.71b: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place, name:jiang-qing, name:kang-sheng]
+  - src:
+      id: cal.1967-07.china-leadership-37
+      rows:
+        - 'via x.1967-07.yang-keming-report-first-marxist-leninist-poster: all'
+  - add:
+      entry:
+        id: cal.1966-05-24.china-leadership-4
+        when: May 24, 4 p.m.
+        date: '1966-05-24'
+        place: peking
+        thread: china-leadership
+        c: Peking University 北京大学. The Party committee's enlarged meeting 党委扩大会 conveys the Center's instructions on the Cultural Revolution; Nie Yuanzi 聂元梓, of the committee, hears them. By the poster of Song Bainian and others.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 128. Made public: 2008. The words: 五月二十四日下午四點 (128).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 128: all'
+        tags: [polity:prc, vis:only:prc]
+        time: 1966-05-24T08:00Z
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-05-25.china-leadership-8
+        when: May 25
+        date: '1966-05-25'
+        place: peking
+        thread: china-leadership
+        c: 'Peking University 北京大学. The day Nie Yuanzi''s 聂元梓 poster goes up, over a thousand posters follow it on the campus, at first mostly for her, then mostly against; the two sides face each other, with pushing and shoving where hers was posted and the cry: "classmates, the class struggle is complex; do not be fooled; do not take the road of the rightists of 1957 against the Party!"'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 128. See [[cal.1966-05-25.china-leadership]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 128: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-05.china-leadership-41
+        when: May, after the 25th
+        date: 1966-05
+        at: after 1966-05-25
+        place: peking
+        thread: china-leadership
+        c: 'Peking University 北京大学. Song Bainian 宋柏年, Gao Aijun 高艾军 and nine others of the university''s office for foreign students 留学生工作办公室 post "See Nie Yuanzi''s evil doings: her poster an anti-Party poisonous weed" 〈请看聂元梓的罪恶勾当——聂元梓的大字报是反党的大毒草〉: she heard the Center''s instructions at the committee''s enlarged meeting at 4 p.m. on the 24th, yet within a day put up a poster on inner matters in the big dining hall.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 128. See [[cal.1966-05-24.china-leadership-4]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 128: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-05-26.china-leadership-5
+        when: May 26
+        date: '1966-05-26'
+        place: peking
+        thread: china-leadership
+        c: Peking University 北京大学. Xu Zhaowen 徐昭文 and seventeen other law students post "You are Khrushchev-style conspirators" 〈你们是赫秃子式的阴谋家〉, against Nie Yuanzi 聂元梓 and her co-signers.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 128–129. See [[cal.1966-05-25.china-leadership]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 128–129: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1965.china-leadership-34
+        when: '1965'
+        date: '1965'
+        thread: china-leadership
+        c: 'The State Nationalities Affairs Commission 国家民委 is still of two views on whether to draw class lines in the minority areas, where since liberation the policy has been "no struggle, no division, no drawing of class lines" 不斗不分不划阶级; Ulanfu 乌兰夫 is against drawing them: Inner Mongolia''s 内蒙古 output has grown without it.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 104. Made public: 2008. See [[cal.1966-07-02.china-leadership-3]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 104: all'
         tags: [polity:prc, vis:only:prc, ok:fields-place]
