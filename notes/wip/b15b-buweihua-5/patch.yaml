@@ -1,6 +1,62 @@
 patch: 2026-11-21-b15b-buweihua-5
 by: Claude (batch 15b, Bu Weihua, *Zalan jiu shijie* (2008), run 5), Nov. 21, 2026
 ops:
+  - edit:
+      id: cal.1966-08-01.china-leadership
+      base: 7fb1801c
+      set:
+        time_range:
+          - 1966-08-01T04:00Z
+          - 1966-08-01T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - edit:
+      id: cal.1966-08-02.china-leadership
+      base: b73f7f0e
+      set:
+        time_range:
+          - 1966-08-02T04:00Z
+          - 1966-08-02T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 44 (Aug. 2, 1966); [[w.jian-zhou-enlai]], 549 (Zhou, just back from a meeting at Mao''s: from Yao''s essay to the poster and "the chairman''s decision to recall all work teams," "The political line" at the center; "the determination to rebel by joining the masses to make revolution"; it may "temporarily bring Beijing into a chaotic situation," but "to fear is not compatible with the chairman''s thought"; his self-criticism for the decision to send work teams in early June, to "preserve the old order"). Made public: 1997 ([[w.zhou-enlai-nianpu-1949]], III, 45). To check: [[w.zhou-enlai-nianpu-1949]], III, 45 (cited by [[w.jian-zhou-enlai]], 549 n.26a); [[w.jin-chongji-liu-shaoqi-zhuan]], 1033–1034 (cited by [[w.jian-zhou-enlai]], 549 n.26b); [[w.xie-xuegong-diary-on-the-eleventh-plenum]], 52–53 (cited by [[w.jian-zhou-enlai]], 549 n.26c). Names: Zhou Enlai, Mao Zedong, Nie Yuanzi.'
+  - edit:
+      id: cal.1966-08-04.china-leadership
+      base: 04c80f2e
+      set:
+        time_range:
+          - 1966-08-04T04:00Z
+          - 1966-08-04T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - edit:
+      id: cal.1966-08-04.china-leadership-5
+      base: a69b5a00
+      set:
+        n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 648 (Aug. 4, 1966); [[w.deng-xiaoping-nianpu-1904]], III, 1928 (Aug. 4, 1966; afternoon, 下午; Deng with Liu Shaoqi at the Central-South group of the Eleventh Plenum, Tao Zhu presiding and conveying Mao''s repeated instructions; Deng makes a self-criticism in his speech); [[w.yang-jisheng-tiandi-fanfu]], I, 221 (that afternoon Liu speaks in the Central-South group and withdraws his note on Bulletin no. 9 of Peking University on the June 18 incident but still holds to catching rightists: "now the rightists make trouble and seize the leadership, do not be afraid, let them lead for a time and it will be clear, and then counter-revolutionaries can be caught"). Made public: 1996. Names: Liu Shaoqi, Mao Zedong.'
+  - edit:
+      id: cal.1966-08-07.china-leadership-6
+      base: 332a997c
+      set:
+        n: '[[w.yang-jisheng-tiandi-fanfu]], I, 222–223. The words: 1966年8月7日晨3時 (I, 223). Made public: 2008. See [[cal.1966-08-05.china-leadership]]. Names: Mao Zedong.'
+  - edit:
+      id: cal.1966-08-08.china-leadership-2
+      base: 214327f9
+      set:
+        time_range:
+          - 1966-08-07T22:00Z
+          - 1966-08-08T04:00Z
+        time_band: morning
+        time_zone: Asia/Shanghai
+  - edit:
+      id: cal.1966-08-08.china-leadership-7
+      base: 1562ec9f
+      set:
+        time_range:
+          - 1966-08-08T11:00Z
+          - 1966-08-08T14:00Z
+        time_band: evening
+        time_zone: Asia/Shanghai
   - add:
       entry:
         id: cal.1966-07-04.china-leadership-7
@@ -273,14 +329,14 @@ ops:
   - cite:
       id: cal.1966-07-19.china-leadership
       item: '[[w.pu-weihua-zalan-jiu-shijie]], 174–175, 175 n.124 (Chen Boda: "work groups are not necessarily wiser than the students"; Zhou Enlai, Kang Sheng, Chen Yi and Tao Zhu support him; Deng Xiaoping: bad work groups may be withdrawn first, good ones stay; Liu Shaoqi backs the majority; Li Xuefeng''s memoir has Deng stand up and speak in anger (175 n.124))'
-      units: B, C, D
+      units: C, D
   - to-check:
       id: cal.1966-07-19.china-leadership
       add: 李雪峰, 〈回憶「文化大革命」初期的「五十天路線錯誤」——從「6.18」事件到「7.29」大會〉, in [[w.huishou-wenge-2-vols]], II, 657 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 175 n.124b)
   - cite:
       id: cal.1966-07-22.china-leadership-7
       item: '[[w.pu-weihua-zalan-jiu-shijie]], 175 (the enlarged Standing Committee on the Peking colleges'' preliminary plan; Chen Boda again proposes ending the work groups and most oppose; Deng: "some schools without a work team may not do"; Liu: most work groups are good; Ye Jianying and Liu Zhijian, for the army, oppose withdrawing them)'
-      units: A, E
+      units: E
   - add:
       entry:
         id: cal.1966-07-23.china-leadership-8
@@ -296,7 +352,7 @@ ops:
   - cite:
       id: cal.1966-07-24.china-leadership
       item: '[[w.pu-weihua-zalan-jiu-shijie]], 176, 176 n.125 (Mao convenes the Standing Committee and the Cultural Revolution Group; no work groups, at most observers who investigate and give no orders; the *Renmin ribao*, the Propaganda and Culture departments and the Peking committee not in our hands; some comrades fear the masses; Mu Xin puts the meeting in the afternoon at Diaoyutai Building 12 (176 n.125))'
-      units: A, B, C, G, H
+      units: B, C, G, H
   - variant:
       id: cal.1966-07-24.china-leadership
       unit: A
@@ -519,3 +575,530 @@ ops:
   - cite:
       id: cal.1966-07-24.china-leadership-7
       item: '[[w.pu-weihua-zalan-jiu-shijie]], 183 (still dissatisfied, Mao decides to call the Eleventh Plenum and to draw up a document on the Cultural Revolution)'
+  - add:
+      entry:
+        id: cal.1966-08.china-leadership-66
+        when: Aug., early
+        date: 1966-08
+        at: before 1966-08-11
+        thread: china-leadership
+        c: 'Chen Yi 陈毅, asked by Ji Pengfei 姬鹏飞 in a talk between the two how the work groups could be withdrawn just like that, after the Cultural Revolution Group announced it: "I don''t know what it is about either. Do as you are told: now we have the emperor deciding alone."'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 185, 185 n.1. Made public: 1995 ([[w.chen-yi-nianpu]], II, 1159, Ji Pengfei''s recollection). To check: [[w.chen-yi-nianpu]], II, 1159 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 185 n.1). The words: 乾綱獨斷 (185). Names: Chen Yi, Ji Pengfei.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 185: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 185 n.1: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place, name:chen-yi, name:ji-pengfei]
+  - add:
+      entry:
+        id: cal.1967.china-leadership-152
+        when: '1967'
+        date: '1967'
+        thread: china-leadership
+        c: 'Mao 毛泽东: at the enlarged Politburo 中央政治局扩大会议 of May most did not agree with him, at times he was left alone, his views called out of date; he had to take them to the Eleventh Plenum 八届十一中全会.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 185, 185 n.2. Made public: 1998 ([[w.liu-shaoqi-zhuan]], II, 1031). To check: [[w.liu-shaoqi-zhuan]], II, 1031 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 185 n.2). Names: Mao Zedong.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 185: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place, name:mao-zedong]
+  - cite:
+      id: cal.1966-08-08.china-leadership-7
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 185, 185 n.3 (the movement began vigorously, then cold water was poured on it; Chairman Mao turned it round, or the Cultural Revolution would have died young; "now we regroup and attack again" 重整旗鼓再進攻, to wipe out bourgeois thought and change men''s souls)'
+  - to-check:
+      id: cal.1966-08-08.china-leadership-7
+      add: 林彪接見中央文革小組成員時的講話 (Aug. 8, 1966), in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (2002) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 185 n.3)
+  - cite:
+      id: cal.1966-07-21.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 186, 186 n.4 (early in July Mao had the Cultural Revolution Group draft a document, the Twenty-three Points; his note on the twenty-second draft: good; the work group to meet once or twice, then the bureaus'' meeting two or three days; publish in the Central Committee''s name, best Aug. 1; so no plenum was yet planned)'
+      units: A
+  - to-check:
+      id: cal.1966-07-21.china-leadership
+      add: '[[w.zedong-jianguo-yilai-mao-zedong]], XII, 80 (1998) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 186 n.4)'
+  - cite:
+      id: cal.1966-07-24.china-leadership-7
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 186 (July 24 Mao criticizes Liu and Deng and first proposes withdrawing the work groups, and at the same time the plenum is decided on)'
+  - add:
+      entry:
+        id: cal.1966-07-25.china-leadership-8
+        when: July 25
+        date: '1966-07-25'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Twenty-six members and alternates of the Central Committee and heads of provincial and city committees report in for the plenum; others follow.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 186. Made public: 2008. See [[cal.1966-07-24.china-leadership-7]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 186: all'
+        tags: [polity:prc, vis:only:prc]
+  - cite:
+      id: cal.1966-08-01.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 186–189, 187 n.5, 188 n.6, 189 n.7 (Aug. 1 to 12, in Peking; 141 members and alternates present of 195, eleven dead, forty-three absent, among them the fallen (Peng Dehuai, Huang Kecheng, Zhang Wentian, Xi Zhongxun, Peng Zhen, Luo Ruiqing, Lu Dingyi, Yang Shangkun, Ulanfu and others); forty-seven non-voting, among them teachers and students of the capital (187 n.5: Cao Yi''ou, Zhang Chengxian, Nie Yuanzi, Kong Dan and others); of the Standing Committee Chen Yun absent; Lin Biao, ill, comes back from Dalian Aug. 6; the afternoon of Aug. 1 Mao presides in the East Hall of the Great Hall; Deng gives the agenda (the Decision; the measures since the Tenth Plenum; the personnel changes, Tao Zhu to the Secretariat''s standing secretary, Ye Jianying a secretary; a communiqué); Liu tells of Chen Boda''s proposal and the majority against it, and takes the chief responsibility for the work groups; his speech never printed; Mao''s interjections; Chen Boda: the work groups did what Lu Ping dared not; Mao: necessity hides in chance; a decision is to be made (the record, 189 n.7))'
+      units: A, B, C, D, E, F, G
+  - variant:
+      id: cal.1966-08-01.china-leadership
+      unit: H
+      witness: w.pu-weihua-zalan-jiu-shijie
+      reads: during Liu Shaoqi's speech on the work groups
+      at: '188'
+  - to-check:
+      id: cal.1966-08-01.china-leadership
+      add: '[[w.liu-shaoqi-zhuan]], II, 1033 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 188 n.6a); 中共八屆十一中全會記錄 (Aug. 1, 1966), in [[w.xianzhi-mao-zedong-zhuan-1949]], II, 1426 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 189 n.7)'
+  - cite:
+      id: cal.1966-07-27.china-leadership-7
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 187 (July 27 to 30; Mao''s talks of July 24 and 25 conveyed and discussed; all for withdrawing the work groups; many still think sending them a matter of method; how the Party leads after the withdrawal raised; the Sixteen Points discussed; the East China group asks that the Party organization''s core leadership and the three styles of work go in; the Northwest group, an article of its own on the Party''s leadership)'
+  - add:
+      entry:
+        id: cal.1966-07-29.china-leadership-5
+        when: July 29
+        date: '1966-07-29'
+        thread: china-leadership
+        c: The draft on the Cultural Revolution, the former Twenty-three Points 二十三条, much revised and cut to sixteen articles, is printed as a document of the plenum under the title "Decision concerning the Great Proletarian Cultural Revolution" 〈关于无产阶级文化大革命的决定〉.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 187. Made public: 2008. See [[cal.1966-07-21.china-leadership]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 187: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - cite:
+      id: cal.1966-08-02.china-leadership-4
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 189 (the mornings of Aug. 2 and 3 the plenum meets in groups; each speaks of his understanding and examines himself for not keeping up with the Chairman; the mood tense; no one offers a systematic view of how to carry on the Cultural Revolution)'
+      units: A
+  - add:
+      entry:
+        id: cal.1966-08-02.china-leadership-11
+        when: Aug. 2, afternoon
+        date: '1966-08-02'
+        place: peking
+        thread: china-leadership
+        c: 'Peking. Li Xuefeng 李雪峰, at the plenary session in the East Hall of the Great Hall of the People 人民大会堂东大厅, Liu Shaoqi 刘少奇 presiding, criticizes himself: he said right students fought the left for the leadership, called for "removing interference," held that right students made trouble, proposed too early restoring the Party''s organizations; in over a month Peking "made a grave error of orientation," a right-opportunist line, "fear" first.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 189, 189 n.8. The words: 8月2日下午 (189). Made public: 2001 ([[w.zhongguo-gongchandang-beijing-lishi]], 221–222). To check: [[w.zhongguo-gongchandang-beijing-lishi]], 221–222 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 189 n.8). Names: Liu Shaoqi.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 189: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 189 n.8: all'
+        tags: [polity:prc, vis:only:prc, name:liu-shaoqi]
+        time_range:
+          - 1966-08-02T04:00Z
+          - 1966-08-02T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-08-02.china-leadership-12
+        when: Aug. 2, afternoon
+        date: '1966-08-02'
+        place: peking
+        thread: china-leadership
+        c: Peking. Bo Yibo 薄一波, at the plenary session in the East Hall of the Great Hall of the People 人民大会堂东大厅, Liu Shaoqi 刘少奇 presiding, speaks of how he sees the work groups' role.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 189. Made public: 2008. Names: Bo Yibo, Liu Shaoqi.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 189: all'
+        tags: [polity:prc, vis:only:prc, name:bo-yibo, name:liu-shaoqi]
+        follows:
+          - cal.1966-08-02.china-leadership-11
+        time_range:
+          - 1966-08-02T04:00Z
+          - 1966-08-02T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - cite:
+      id: cal.1966-08-02.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 189–190, 190 n.9 (the afternoon, at the plenary in the East Hall, Liu presiding, after Li Xuefeng and Bo Yibo: since the Tenth Plenum all major decisions Mao''s own; Mao had the poster printed; the withdrawal his own decision on his return; for the work groups the Standing Committee, above all those of us at the Center in Peking, bear the responsibility; most of their cadres good)'
+      units: B, C, D, E
+  - place:
+      id: cal.1966-08-02.china-leadership
+      at: peking
+      basis: n
+  - cite:
+      id: cal.1966-08-03.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 190 (the afternoon plenary in the East Hall of the Great Hall, Zhou Enlai presiding; Liu Lantao, Song Renqiong, Li Jingquan and Wei Wenbo, of four regional bureaus, speak; after Liu Lantao Mao: without breaking the work groups you cannot set up the congresses and committees of revolutionary teachers and students; sending work groups to suppress students is an anti-Marxist idea)'
+  - place:
+      id: cal.1966-08-03.china-leadership
+      at: peking
+      basis: n
+  - add:
+      entry:
+        id: cal.1966-08-03.china-leadership-12
+        when: Aug. 3, afternoon
+        date: '1966-08-03'
+        place: peking
+        thread: china-leadership
+        c: Peking. Song Renqiong 宋任穷, at the plenary session in the East Hall of the Great Hall of the People 人民大会堂东大厅, Zhou Enlai 周恩来 presiding, says he still has many misgivings about letting the students make revolution so.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 190. Made public: 2008. Names: Zhou Enlai.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 190: all'
+        tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+        time_range:
+          - 1966-08-03T04:00Z
+          - 1966-08-03T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-08-03.china-leadership-13
+        when: Aug. 3, afternoon
+        date: '1966-08-03'
+        place: peking
+        thread: china-leadership
+        c: 'Peking. Li Jingquan 李井泉, at the plenary session in the East Hall of the Great Hall of the People 人民大会堂东大厅, Zhou Enlai 周恩来 presiding: why did we all agree so readily to send work groups? Seeing in the papers that Peking University''s committee was suspended and a work group took its place, they thought of it; the Center gave no order, and they did it anyway.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 190. Made public: 2008. Names: Li Jingquan, Zhou Enlai.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 190: all'
+        tags: [polity:prc, vis:only:prc, name:li-jingquan, name:zhou-enlai]
+        follows:
+          - cal.1966-08-03.china-leadership-12
+        time_range:
+          - 1966-08-03T04:00Z
+          - 1966-08-03T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-08-03.china-leadership-14
+        when: Aug. 3, afternoon
+        date: '1966-08-03'
+        place: peking
+        thread: china-leadership
+        c: 'Peking. Wei Wenbo 魏文伯, at the plenary session in the East Hall of the Great Hall of the People 人民大会堂东大厅, Zhou Enlai 周恩来 presiding: early in June the East China Bureau''s secretariat 华东局书记处 decided to send work groups only as each case required, but as committees collapsed or froze and calls came from everywhere it sent many; only after July 25, in Peking, did they begin to see. Mao asks how schools without work groups ran the movement; Wei: under their Party committees; groups went only where committees had fallen or were paralyzed.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 190. Made public: 2008. Names: Mao Zedong, Zhou Enlai.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 190: all'
+        tags: [polity:prc, vis:only:prc, name:mao-zedong, name:zhou-enlai]
+        follows:
+          - cal.1966-08-03.china-leadership-13
+        time_range:
+          - 1966-08-03T04:00Z
+          - 1966-08-03T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - cite:
+      id: cal.1966-08-04.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 190–192, 191 n.10 (the plenary set for the afternoon is turned into group meetings; that afternoon the enlarged Standing Committee meets in the Fujian Hall of the Great Hall; Mao: under the Qing, the Beiyang armies and the Guomindang students were suppressed, and now the Communist Party; the Center broke its own order; a question of direction and line; the Nie poster a manifesto of the Peking Commune; Li Xuefeng''s "inside and outside differ"; Liu: "I bear the main responsibility"; Mao: you ran a dictatorship in Peking; Liu: at worst stepping down, the "five not-afraids" (191 n.10: Liu later examined himself for it); Ye Jianying''s millions of troops; Mao: "the ox-demons and snake-spirits are among those present"; Mao ends the day''s plenary; the groups to hear it conveyed)'
+      units: B, C, E, F, G, H, I, J, K, L
+  - to-check:
+      id: cal.1966-08-04.china-leadership
+      add: '[[w.liu-shaoqi-yanjiu]], 173 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 191 n.10)'
+  - add:
+      entry:
+        id: cal.1966-08-04.china-leadership-10
+        when: Aug. 4, afternoon
+        date: '1966-08-04'
+        place: peking
+        thread: china-leadership
+        c: 'Peking. The plenum''s groups hear Mao''s speech at the Standing Committee conveyed: Zhou Enlai 周恩来 and Li Xuefeng 李雪峰 in the North China group 华北组, Chen Yi 陈毅, Xie Fuzhi 谢富治 and Wei Wenbo 魏文伯 in the East China group 华东组, Tao Zhu 陶铸 in the Central-South group 中南组, the other groups too. The plenum''s mood turns very tense.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 192. Made public: 2008. See [[cal.1966-08-04.china-leadership]]. Names: Zhou Enlai, Chen Yi, Xie Fuzhi, Tao Zhu, Mao Zedong.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 192: all'
+        tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:chen-yi, name:xie-fuzhi, name:tao-zhu, name:mao-zedong]
+        follows:
+          - cal.1966-08-04.china-leadership
+        time_range:
+          - 1966-08-04T04:00Z
+          - 1966-08-04T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - cite:
+      id: cal.1966-08-04.china-leadership-5
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 192 (the Central-South group, the afternoon of Aug. 4; Liu criticizes himself, takes back his forwarding of the Peking University bulletin no. 9 and the Center''s eight rules; the passage on stepping down quoted; yet: "now the rightists make trouble, counter-revolutionaries should be caught")'
+      units: A, B, C, D, E, F, G, H, I
+  - add:
+      entry:
+        id: cal.1966-08-04.china-leadership-11
+        when: Aug. 4, afternoon
+        date: '1966-08-04'
+        place: peking
+        thread: china-leadership
+        c: 'Peking. Deng Xiaoping 邓小平, in the plenum''s Central-South group 中南组: at the Seven Thousand Cadres Conference of 1962 the Chairman spoke chiefly of democracy, of trusting and setting the masses free; without democracy officials become lords, the Hegemon King; the dictatorship of the proletariat, highly centralized, can turn into its opposite, a fascist dictatorship; "we did not much understand, and that, I fear, is where we stood."'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 192. Made public: 2008. See [[cal.1966-08-04.china-leadership-5]]. Names: Deng Xiaoping.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 192: all'
+        tags: [polity:prc, vis:only:prc, name:deng-xiaoping]
+        follows:
+          - cal.1966-08-04.china-leadership-5
+        time_range:
+          - 1966-08-04T04:00Z
+          - 1966-08-04T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - cite:
+      id: cal.1966-08-04.china-leadership-2
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 192–193 (the Center issues a document agreeing to Tao Zhu''s report of July 29: on the morning of July 28 the Propaganda Department had Xiong Fu and Tang Pingzhu call the papers'' heads and convey Mao''s instruction of July 25 against "highest and liveliest," "peak" and "highest instruction")'
+  - cite:
+      id: cal.1966-08-05.china-leadership-3
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 193 (by Mao''s view the Center declares its forwarding of June 20 of the bulletin no. 9 wrong and withdraws it)'
+      units: A
+  - cite:
+      id: cal.1966-08-05.china-leadership-2
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 193, 193 n.11 (the same day, when the plenum prints the *Renmin ribao* commentator''s article as a document; Mao''s note in brackets after the sentence on unconditional acceptance)'
+  - to-check:
+      id: cal.1966-08-05.china-leadership-2
+      add: '[[w.zedong-jianguo-yilai-mao-zedong]], XII, 93 (1998) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 193 n.11)'
+  - cite:
+      id: cal.1966-08-05.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 193–194, 194 n.12 (written on the *Beijing ribao* of June 2, beside the reprint of the *Renmin ribao* editorial "Sweep away all ox-demons and snake-spirits"; no title; Xu Yefu''s fair copy; Mao''s changes on it and on the printed copy; the text in full; distributed Aug. 7 with the Nie Yuanzi poster)'
+      units: A, B, C
+  - to-check:
+      id: cal.1966-08-05.china-leadership
+      add: '[[w.zedong-jianguo-yilai-mao-zedong]], XII, 90 (1998) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 194 n.12)'
+  - cite:
+      id: cal.1966-08-07.china-leadership-6
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 193 (Xu Yefu''s fair copy; Mao adds the title on it and turns "raise the bourgeoisie''s spirit, destroy the proletariat''s prestige" round, and puts quotation marks on "left"; on the printed copy more changes ("some leading comrades" for "some big leaders"; "suppressing differing views" added))'
+  - cite:
+      id: cal.1966-08-06.china-leadership-2
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 193 (the evening of Aug. 6, on the eve of the poster''s printing for the plenum, by Xu Yefu; Lin comes by special plane with Wu Faxian)'
+      units: A, B
+  - cite:
+      id: cal.1966-08-07.china-leadership-5
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 194 (the plenum prints Mao''s poster with the Nie Yuanzi poster appended; the text in full)'
+  - add:
+      entry:
+        id: cal.1966-08-05.china-leadership-14
+        when: Aug. 5
+        date: '1966-08-05'
+        place: peking
+        thread: china-leadership
+        c: 'Mao 毛泽东, at the plenum''s meeting: the document ("Bombard the Headquarters") bombards the headquarters without naming names; the past two months they were hitting him, and he hits back; in this stretch the Cultural Revolution Group was right, not the Center.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 194. Made public: 2008. See [[cal.1966-08-05.china-leadership]]. Names: Mao Zedong.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 194: all'
+        tags: [polity:prc, vis:only:prc, name:mao-zedong]
+  - add:
+      entry:
+        id: cal.1966-08-05.china-leadership-15
+        when: Aug. 5, afternoon
+        date: '1966-08-05'
+        thread: china-leadership
+        c: Liu Shaoqi 刘少奇 receives the Zambian friendship delegation.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 194 n.13. See [[cal.1966-08-05.china-leadership-5]]. Names: Liu Shaoqi.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 194 n.13: all'
+        tags: [polity:prc, name:liu-shaoqi]
+        time_range:
+          - 1966-08-05T04:00Z
+          - 1966-08-05T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - cite:
+      id: cal.1966-08-05.china-leadership-5
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 194 n.13 (the afternoon, after Liu receives the Zambian friendship delegation: no more foreign guests, no public appearances; Huang Zheng''s account)'
+  - to-check:
+      id: cal.1966-08-05.china-leadership-5
+      add: '[[w.liu-shaoqi-yanjiu]], 172–173 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 194 n.13)'
+  - add:
+      entry:
+        id: cal.1966-08-10.china-leadership-8
+        when: Aug. 10, afternoon
+        date: '1966-08-10'
+        place: peking
+        thread: china-leadership
+        c: 'Peking. Kang Sheng 康生, at the Eleventh Plenum''s East China group 华东组: when the May 16 Notice was drafted, the Chairman added that revisionists sleep beside us, some found, some not; then they thought only of Peng Zhen, and neither thought nor dared think of the successor.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 194–195. The words: 8月10日下午 (194). Made public: 2008. Names: Kang Sheng, Peng Zhen.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 194–195: all'
+        tags: [polity:prc, vis:only:prc, name:kang-sheng, name:peng-zhen]
+        time_range:
+          - 1966-08-10T04:00Z
+          - 1966-08-10T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-08-09.china-leadership-7
+        when: Aug. 9, morning
+        date: '1966-08-09'
+        place: peking
+        thread: china-leadership
+        c: 'Peking. Jiang Qing 江青, at the Eleventh Plenum''s North China group 华北组: Peking has two headquarters, one suppressing the revolution, one the Chairman''s revolutionary one; the one the Chairman bombards has long held everything; he never reported to the Chairman, not after the Chairman''s return of July 18; at the report meetings he ran, Chen Boda and Kang Sheng attended four times and were not heeded.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 195. The words: 8月9日上午 (195). Made public: 2008. Names: Jiang Qing, Chen Boda, Kang Sheng.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 195: all'
+        tags: [polity:prc, vis:only:prc, name:jiang-qing, name:chen-boda, name:kang-sheng]
+        time_range:
+          - 1966-08-08T22:00Z
+          - 1966-08-09T04:00Z
+        time_band: morning
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-08-09.china-leadership-8
+        when: Aug. 9
+        date: '1966-08-09'
+        place: peking
+        thread: china-leadership
+        c: 'Peking. Qi Benyu 戚本禹, at the Eleventh Plenum''s North China group 华北组: to bombard the headquarters is to bombard the revisionist headquarters, the royalists in the Center''s leading core; rebel against them and seize their power.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 195. Made public: 2008.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 195: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-08-10.china-leadership-9
+        when: Aug. 10, morning
+        date: '1966-08-10'
+        place: peking
+        thread: china-leadership
+        c: 'Peking. Zhang Chunqiao 张春桥, at the Eleventh Plenum''s East China group 华东组: the resistance to the criticism of *Hai Rui baguan* 海瑞罢官 was not Peng Zhen''s alone; the Five-Man Group''s outline passed the Standing Committee; from *Qinggong mishi* 清宫秘史 to *Hai Rui baguan*, where did "this comrade of the Center" stand; reading in 1964 the record of his attack on investigation and research he was shocked, the first leader of the Center to attack the Chairman openly, in the tone of Khrushchev''s secret speech. Kang Sheng interjects: he attacked the Chairman''s whole thought.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 195. The words: 8月10日上午 (195). Made public: 2008. Names: Zhang Chunqiao, Peng Zhen, Kang Sheng, Mao Zedong.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 195: all'
+        tags: [polity:prc, vis:only:prc, name:zhang-chunqiao, name:peng-zhen, name:kang-sheng, name:mao-zedong]
+        time_range:
+          - 1966-08-09T22:00Z
+          - 1966-08-10T04:00Z
+        time_band: morning
+        time_zone: Asia/Shanghai
+  - cite:
+      id: cal.1966-08-04.china-leadership-8
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 195 (Xie Fuzhi the first at the plenum to speak against Deng Xiaoping: Deng''s image of thirty years "always right" has great weight in the Party and is in part why the resistance is so great)'
+  - add:
+      entry:
+        id: cal.1966-08.china-leadership-67
+        when: Aug., at the plenum
+        date: 1966-08
+        at: before 1966-08-11
+        place: peking
+        thread: china-leadership
+        c: Peking. Chen Boda 陈伯达, at the Eleventh Plenum's meeting, criticizes Deng Xiaoping 邓小平 as the vanguard of the wrong line, settling old and new accounts from the 1960s on.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 195–196. Made public: 2008. Names: Chen Boda, Deng Xiaoping.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 195–196: all'
+        tags: [polity:prc, vis:only:prc, name:chen-boda, name:deng-xiaoping]
+  - add:
+      entry:
+        id: cal.1966-08.china-leadership-68
+        when: Aug., after the 6th
+        date: 1966-08
+        at: after 1966-08-06
+        place: peking
+        thread: china-leadership
+        c: 'Peking. Lin Biao 林彪, at the Eleventh Plenum''s meeting: Deng Xiaoping 邓小平 once vied with the Fourth Field Army for credit, and in history, in the Seventh Red Army 红七军, was a deserter.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 196, 196 n.14. Made public: 2000 (Mao Mao 毛毛, *Wode fuqin Deng Xiaoping: "wenge" suiyue* 《我的父親鄧小平:「文革」歲月》, 32). To check: Mao Mao 毛毛, 《我的父親鄧小平:「文革」歲月》 (2000), 32 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 196 n.14). Names: Lin Biao, Deng Xiaoping.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 196: all'
+            - 'via x.2000.mao-mao-wode-fuqin-deng-xiaoping-wenge-suiyue-2000: all'
+        tags: [polity:prc, vis:only:prc, name:lin-biao, name:deng-xiaoping]
+  - add:
+      entry:
+        id: cal.1966-08.china-leadership-69
+        when: Aug., at the plenum
+        date: 1966-08
+        at: before 1966-08-11
+        place: peking
+        thread: china-leadership
+        c: 'Peking. Jiang Qing 江青 praises Xie Fuzhi 谢富治 for his criticism of Deng Xiaoping; she complains that Tao Zhu 陶铸 did not print it in the plenum''s bulletin: "Why does Tao Zhu protect Deng Xiaoping?"'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 196, 196 n.15. Made public: 2001 (Wang Li 王力, *Wang Li fansilu* 《王力反思錄》, II, 618). To check: 王力, 《王力反思錄》, II, 618 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 196 n.15; Bu holds Wang Li''s recollection of Xie''s criticism of Deng in error in part). Names: Jiang Qing, Xie Fuzhi, Deng Xiaoping, Tao Zhu.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 196: all'
+            - 'via x.2001.wang-li-wang-li-yigao-wang-li-fansilu-xia-p573: all'
+        tags: [polity:prc, vis:only:prc, name:jiang-qing, name:xie-fuzhi, name:deng-xiaoping, name:tao-zhu]
+  - cite:
+      id: cal.1966-08-08.china-leadership-2
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 196 (the morning, in the East Hall of the Great Hall, Zhou presiding; the Decision of the Central Committee concerning the Great Proletarian Cultural Revolution 〈中國共產黨中央委員會關於無產階級文化大革命的決定〉; drafted chiefly by Chen Boda and Wang Li under Mao, thirty-one drafts; Tao Zhu and others, with Zhou, strike "black gang" and "black line" and add limits)'
+      units: A, B
+  - place:
+      id: cal.1966-08-08.china-leadership-2
+      at: peking
+      basis: n
+  - add:
+      entry:
+        id: cal.1966-08.china-leadership-70
+        when: Aug., before the 8th
+        date: 1966-08
+        at: before 1966-08-08
+        thread: china-leadership
+        c: The drafters of the Sixteen Points take Liu Zhijian's 刘志坚 proposal and write in that the army's cultural revolution and socialist education go by the instructions of the Military Commission 中央军委 and the General Political Department 总政治部; his and others' proposal to strike "revolution cannot be so refined" is not taken.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 196. Made public: 2008. See [[cal.1966-08-08.china-leadership-2]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 196: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - cite:
+      id: cal.1966-08-07.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 196 (the draft had copied lines from the "Some current problems in the rural socialist education movement" against simple and rough methods, beating and forced confessions; Mao strikes them and writes "use reason, not force" 要用文鬥,不用武鬥)'
+  - add:
+      entry:
+        id: cal.1966-07-08.china-leadership-6
+        when: July 8
+        date: '1966-07-08'
+        thread: china-leadership
+        c: 'The drafters of the Decision on the Cultural Revolution (the Sixteen Points 十六条): the eleventh draft has "sending work groups is an auxiliary form of joining the Party''s leadership with the masses."'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 196. Made public: 2008.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 196: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966-07-08.china-leadership-7
+        when: July 8
+        date: '1966-07-08'
+        thread: china-leadership
+        c: 'The drafters of the Decision on the Cultural Revolution (the Sixteen Points 十六条): the twelfth draft adds that where the masses, roused, have set up their own cultural revolution groups that work well, no work group is needed; but to an especially important unit the Center may still send one.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 196. Made public: 2008. See [[cal.1966-07-08.china-leadership-6]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 196: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+        follows:
+          - cal.1966-07-08.china-leadership-6
+  - add:
+      entry:
+        id: cal.1966-07-12.china-leadership-7
+        when: July 12
+        date: '1966-07-12'
+        thread: china-leadership
+        c: 'The drafters of the Decision on the Cultural Revolution (the Sixteen Points 十六条): the seventeenth draft''s article 7, "the chief targets": strike the one, two or three percent of extreme reactionary rightists, the diehard power-holders taking the capitalist road in the Party first; its article 18, "time": the movement in stages, about half a year a stage.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 196–197. Made public: 2008. See [[cal.1966-07-08.china-leadership-7]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 196–197: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966-07-16.china-leadership-4
+        when: July 16
+        date: '1966-07-16'
+        thread: china-leadership
+        c: 'The drafters of the Decision on the Cultural Revolution (the Sixteen Points 十六条): the twenty-first draft''s article 22: Party and League organizations in cultural and educational units hold no secret meetings.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 197. Made public: 2008. See [[cal.1966-07-12.china-leadership-7]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 197: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966-08-08.china-leadership-16
+        when: Aug. 8, evening
+        date: '1966-08-08'
+        place: peking
+        thread: china-leadership
+        c: Peking. The night the Decision is published, workers, peasants, students and cadres stream to the seat of the Center 中共中央 and to the new Peking committee 北京新市委 with good news and pledges, red flags, portraits of Mao and quotation boards; gongs, drums and firecrackers at the Center's reception post. Like scenes in every large and middle city, and in many county towns.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 198, 198 n.16. See [[cal.1966-08-08.china-leadership-8]]. Names: Mao Zedong.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 198: all'
+            - 'via x.1966-08-10.guangming-ribao-crowds-celebrate-decision: all'
+        tags: [polity:prc, name:mao-zedong]
+        time_range:
+          - 1966-08-08T11:00Z
+          - 1966-08-08T14:00Z
+        time_band: evening
+        time_zone: Asia/Shanghai
+  - cite:
+      id: cal.1966-08-08.china-leadership-7
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 198–199, 199 n.17 (the evening; "the supreme commander of this Cultural Revolution is our Chairman Mao"; the bourgeois "authorities" to be struck down and made to lose face, turned upside down, so that the bourgeoisie cannot sleep; then a milder form; he praises the Group''s members; his speech conveyed to the plenum)'
+      units: A, B
