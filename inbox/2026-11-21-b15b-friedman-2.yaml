@@ -1,6 +1,22 @@
 patch: 2026-11-21-b15b-friedman-2
 by: Claude (batch 15b, Friedman, Shadow Cold War, run 2), Nov. 21, 2026
 ops:
+- edit:
+    id: cal.1961-02.indonesia
+    base: 9dd1cc28
+    set:
+      gloss:
+        title: Estimates
+        text:
+        - 'Friedman: the Indonesian military armed by Moscow, warships and aircraft among the weapons, "to the tune of over 1 billion dollars in 1961–62," and trained by it ([[w.friedman-shadow-cold-war]], 141, citing [[w.mozingo-chinese-policy-towards-indonesia]], 186; the note reads "Ibid., 186," after Zhou Taomo''s working paper).'
+- edit:
+    id: cal.1969-06-04.china-leadership
+    base: 18e1285f
+    set:
+      gloss:
+        title: Estimates
+        text:
+        - 'Friedman: fifteen ambassadors sent out before the end of 1969, fourteen more in 1970 ([[w.friedman-shadow-cold-war]], 177, citing [[w.jisen-cultural-revolution-in-the]], 320).'
 - add:
     entry:
       id: cal.1962.africa-4
@@ -11,7 +27,7 @@ ops:
       also: &id001
       - africa-algeria-morocco
       c: 'The FLN, its left wing under Ben Bella and Boumediene in control, publishes the Tripoli Program: a new Algeria on "socialist perspectives," the French-owned enterprises nationalized, agricultural cooperatives formed.'
-      n: '[[w.friedman-shadow-cold-war]], 135. To check: I. Genin, "Ekonomicheskie Meropriiatie Alzhirskogo Pravitel''stva," Mirovaia Ekonomika i Mezhdunarodnye Otnosheniia 11 (1963), 116 (cited by [[w.friedman-shadow-cold-war]], 135 n.155a); Jeffrey James Byrne, “Our Own Special Brand of Socialism,” 9, 432 (cited by [[w.friedman-shadow-cold-war]], 135 n.155b). Names: Ben Bella, Boumediene.'
+      n: '[[w.friedman-shadow-cold-war]], 135. To check: I. Genin, "Ekonomicheskie Meropriiatie Alzhirskogo Pravitel''stva," Mirovaia Ekonomika i Mezhdunarodnye Otnosheniia 11 (1963), 116 (cited by [[w.friedman-shadow-cold-war]], 135 n.155a); Jeffrey James Byrne, "Our Own Special Brand of Socialism," Diplomatic History 33.3 (2009), 432 (cited by [[w.friedman-shadow-cold-war]], 135 n.155b). Names: Ben Bella, Boumediene.'
       src:
         c: a2500602
         rows:
@@ -73,7 +89,7 @@ ops:
       id: cal.1963.africa-5
       when: 1963, after the constitution
       date: '1963'
-      at: before 1963-09
+      at: before 1963-10
       thread: africa
       also: *id001
       c: Algeria, in one of its first acts under the constitution, creates a "Committee for Aid to the Peoples of Africa." Guerrillas from South Africa, Angola, Portuguese Guinea, the Congo and elsewhere are soon training in camps in Algeria.
@@ -113,7 +129,7 @@ ops:
       - africa-algeria-morocco
       - cuba
       c: Cuba sends hundreds of troops, with tanks and artillery, to Algeria in its border war with Morocco.
-      n: '[[w.friedman-shadow-cold-war]], 135–36. After it Algeria a transit point for Latin American guerrillas trained in Cuba, and for arms ([[w.friedman-shadow-cold-war]], 136). To check: [[w.gleijeses-conflicting-missions]], 52 (cited by [[w.friedman-shadow-cold-war]], 136 n.159). See [[cal.1963-10-08.africa]].'
+      n: '[[w.friedman-shadow-cold-war]], 135–36. After it Algeria a transit point for Latin American guerrillas trained in Cuba, and for arms ([[w.friedman-shadow-cold-war]], 136). To check: [[w.gleijeses-conflicting-missions]], 52 (cited by [[w.friedman-shadow-cold-war]], 136 n.159).'
       src:
         c: e67189b2
         rows:
@@ -183,7 +199,7 @@ ops:
       thread: soviet-union
       also: *id001
       c: 'An FLN party delegation in the Soviet Union, more warmly received: a $100 million credit. It still will not give way to Moscow''s demands.'
-      n: '[[w.friedman-shadow-cold-war]], 137. Made public: 2015. To check: PRC embassy USSR to MFA, January 2, 1964, CFMA doc. 109-03526-08, 1–3 (cited by [[w.friedman-shadow-cold-war]], 137 n.174).'
+      n: '[[w.friedman-shadow-cold-war]], 137. To check: PRC embassy USSR to MFA, January 2, 1964, CFMA doc. 109-03526-08, 1–3 (cited by [[w.friedman-shadow-cold-war]], 137 n.174).'
       src:
         c: 5cddc829
         rows:
@@ -192,7 +208,6 @@ ops:
       tags:
       - polity:ussr
       - polity:algeria
-      - vis:only:ussr+algeria
       - ok:fields-place
 - add:
     entry:
@@ -237,6 +252,7 @@ ops:
       - polity:ussr
       - polity:algeria
       - name:ben-bella-ahmed
+      place: moscow
 - add:
     entry:
       id: cal.1964-05-19.china-leadership-6
@@ -286,7 +302,7 @@ ops:
       thread: china
       also: *id001
       c: China recognizes Boumediene's government almost at once, hoping the second Bandung conference can still be saved.
-      n: '[[w.friedman-shadow-cold-war]], 139. See [[cal.1965-06-20.china-leadership-5]].'
+      n: '[[w.friedman-shadow-cold-war]], 139.'
       src:
         c: f46cae2e
         rows:
@@ -479,7 +495,7 @@ ops:
       thread: soviet-union
       also: *id002
       c: 'Mikoyan and Aidit, on Mikoyan''s visit. Mikoyan threatens to turn the Indonesian bourgeoisie against the PKI: the 7,000 Indonesian officers trained in the USSR and the 1,500 Soviet military experts in Indonesia oppose the PKI, and if Moscow acts "the Indonesian bourgeoisie will have a change in attitude toward the PKI, and it will not be good for the PKI."'
-      n: '[[w.friedman-shadow-cold-war]], 142. Made public: 2015. To check: PRC embassy Indonesia to MFA, March 30, 1964, CFMA doc. 109-03481-01, 32 (cited by [[w.friedman-shadow-cold-war]], 142 n.200a); PRC embassy Indonesia to MFA and Zhonglianbu, July 11, 1964, CFMA doc. 105-01231-02, 3 (cited by [[w.friedman-shadow-cold-war]], 142 n.200b). Names: Mikoyan, Aidit. Check: the day; the note gives the Chinese Embassy''s reports of Mar. 30 and July 11, 1964 (142 n.200).'
+      n: '[[w.friedman-shadow-cold-war]], 142. Made public: 2015. To check: PRC embassy Indonesia to MFA, March 30, 1964, CFMA doc. 109-03481-01, 32 (cited by [[w.friedman-shadow-cold-war]], 142 n.200a); PRC embassy Indonesia to MFA and Zhonglianbu, July 11, 1964, CFMA doc. 105-01231-02, 3 (cited by [[w.friedman-shadow-cold-war]], 142 n.200b). Names: Mikoyan, Aidit. Check: the day; the note gives the Chinese Embassy''s reports of Mar. 30 and July 11, 1964 (142 n.200), the first before the June visit.'
       src:
         c: 46eb2109
         rows:
@@ -552,7 +568,7 @@ ops:
         c: e0e4a95e
         rows:
         - 'w.friedman-shadow-cold-war 142–43: all'
-        - 'via x.1964-08-02.embassy-indonesia-cc-certain-questions-ideological-work-indonesia: ?'
+        - 'via x.1964-08-02.soviet-embassy-indonesia-august-2-1964-5: ?'
       tags:
       - polity:ussr
       - polity:indonesia
@@ -659,7 +675,7 @@ ops:
       thread: china-leadership
       also: *id002
       c: Chen Yi 陈毅 indicates that China would at least consider passing nuclear technology to Indonesia.
-      n: '[[w.friedman-shadow-cold-war]], 143. Made public: 2015. To check: Report of ambassador in Indonesia to CC on Soviet-Indonesian relations, April 1965, AVPRF f.091 o.21 papka 33 d.1, 19 (cited by [[w.friedman-shadow-cold-war]], 143 n.206a). Names: Chen Yi. Check: the note (143 n.206a) gives "ibid., 19," the file of the Soviet Ambassador''s report of April 1965.'
+      n: '[[w.friedman-shadow-cold-war]], 143. Made public: 2015. To check: Report of ambassador in Indonesia to CC on Soviet-Indonesian relations, April 1965, AVPRF f.091 o.21 papka 33 d.1, 19 (cited by [[w.friedman-shadow-cold-war]], 143 n.206a). Names: Chen Yi. Check: the note (143 n.206a) gives "ibid., 19," the file of the Soviet Ambassador''s report of April 1965: a report of April cannot tell an act of August; perhaps another paper of the file, which also holds the report of Nov. 18, 1965 (144 n.213).'
       src:
         c: 3bc68b1b
         rows:
@@ -686,15 +702,19 @@ ops:
       - polity:indonesia
       - name:sukarno
       - ok:fields-place
+      gloss:
+        title: Estimates
+        text:
+        - 'Friedman, from the PKI''s own estimate: by August 1965 more than 26 million members of the party or its affiliated bodies, of a population of roughly 100 million ([[w.friedman-shadow-cold-war]], 144, citing [[w.mozingo-chinese-policy-towards-indonesia]], 225).'
 - add:
     entry:
       id: cal.1965-10.soviet-union
-      when: Oct.
+      when: Oct., after the 16th
       date: 1965-10
       thread: soviet-union
       also: *id002
       c: 'V. Shurygin, *Pravda*''s correspondent in Indonesia, to Brezhnev, Suslov, Demichev, Andropov and Ponomarev on the situation after Sept. 30: unsure of the PKI''s part in the coup; plainly it was dreadfully unprepared.'
-      n: '[[w.friedman-shadow-cold-war]], 144. Made public: 2015. To check: Report of Pravda correspondent in Indonesia V. Shurygin to Brezhnev, Suslov, Demychev, Andropov, Ponomarev on situation in Indonesia after events of September 30 and October 16, 1965, RGANI f.5 o.30 d.480, 134–40 (cited by [[w.friedman-shadow-cold-war]], 144 n.212). Names: Brezhnev, Suslov, Demichev, Andropov, Ponomarev. Check: the day; the note reads "after events of September 30 and October 16, 1965" (144 n.212).'
+      n: '[[w.friedman-shadow-cold-war]], 144. Made public: 2015. To check: Report of Pravda correspondent in Indonesia V. Shurygin to Brezhnev, Suslov, Demychev, Andropov, Ponomarev on situation in Indonesia after events of September 30 and October 16, 1965, RGANI f.5 o.30 d.480, 134–40 (cited by [[w.friedman-shadow-cold-war]], 144 n.212). Names: Brezhnev, Suslov, Demichev, Andropov, Ponomarev. Check: the day; the note''s title names "events of September 30 and October 16, 1965" (144 n.212); the text has the report "initially," so perhaps the second date a misprint.'
       src:
         c: c92256a7
         rows:
@@ -709,6 +729,8 @@ ops:
       - name:andropov-yuriy-vladimirovich
       - name:ponomarev-boris-n
       - vis:only:ussr
+      at: after 1965-10-16
+      place: jakarta
 - add:
     entry:
       id: cal.1965-11-18.soviet-union
@@ -756,13 +778,12 @@ ops:
       also:
       - china
       c: 'Gromyko to Suslov on Soviet attendance at the second Afro-Asian conference and the countries come round to it: the question may be settled only days before the opening.'
-      n: '[[w.friedman-shadow-cold-war]], 145. Made public: 2015. To check: Gromyko to Suslov, June 5, 1965, RGANI f.5 o.30 d.480, 94–126 (cited by [[w.friedman-shadow-cold-war]], 145 n.218a); RGANI f.5 o.30 d.480, 94-95, 94–95 (cited by [[w.friedman-shadow-cold-war]], 145 n.219). Names: Gromyko, Suslov. Check: whether the remark is this letter''s; the note (145 n.219) gives only the file''s pp. 94–95, where the letters of June 5, 17 and 18 (145 n.218) begin.'
+      n: '[[w.friedman-shadow-cold-war]], 145. Made public: 2015. To check: Gromyko to Suslov, June 5, 1965, RGANI f.5 o.30 d.480, 94–126 (cited by [[w.friedman-shadow-cold-war]], 145 n.218a); Gromyko to Suslov, June 5, 1965, RGANI f.5 o.30 d.480, 94–95 (cited by [[w.friedman-shadow-cold-war]], 145 n.219). Names: Gromyko, Suslov. Check: whether the remark is this letter''s; the note (145 n.219) gives only the file''s pp. 94–95, where the letters of June 5, 17 and 18 (145 n.218) begin.'
       src:
         c: 6718de74
         rows:
         - 'w.friedman-shadow-cold-war 145: all'
         - 'via x.1965-06-05.gromyko-suslov-june-5-1965: ?'
-        - 'via x.undated.rgani-f-5-o-30-d-480-94: ?'
       tags:
       - polity:ussr
       - name:gromyko-andrei
@@ -886,6 +907,10 @@ ops:
       - polity:prc
       - polity:un
       - ok:fields-place
+      gloss:
+        title: Estimates
+        text:
+        - 'Friedman: the African states recognizing the PRC, ten in 1962, nineteen by 1965; African delegations to China, thirty-seven in 1962, 113 in 1963; Chinese delegations to Africa, fifty in 1963, eighty-seven in 1964 ([[w.friedman-shadow-cold-war]], 116, citing [[w.ogunsanwo-chinas-policy-in-africa]], 115–19 and 269).'
 - add:
     entry:
       id: cal.1964-11.foreign-aid
@@ -923,6 +948,10 @@ ops:
       - polity:us
       - polity:uar
       - ok:fields-place
+      gloss:
+        title: Estimates
+        text:
+        - 'Friedman: by 1962 roughly 50 percent of the UAR''s wheat provided by the United States under Food for Peace ([[w.friedman-shadow-cold-war]], 133).'
 - add:
     entry:
       id: cal.1965.middle-east
@@ -1014,23 +1043,6 @@ ops:
       - name:keita-modibo
 - add:
     entry:
-      id: cal.1966.china-leadership-44
-      when: 1966, summer
-      date: '1966'
-      at: before 1966-06
-      thread: china-leadership
-      c: 'Chen Yi 陈毅 heads the Party work committee in charge of the Cultural Revolution in the Foreign Ministry 外交部: three high-profile targets found; forty-four young translators who call for a sharper attack on the ministry''s hierarchy are themselves investigated.'
-      n: '[[w.friedman-shadow-cold-war]], 151. Made public: 1998. To check: [[w.barnouin-chinese-foreign-policy-during]], 4–5 (cited by [[w.friedman-shadow-cold-war]], 151 n.7). Names: Chen Yi.'
-      src:
-        c: d2f9c0ec
-        rows:
-        - 'w.friedman-shadow-cold-war 151: all'
-      tags:
-      - polity:prc
-      - name:chen-yi
-      - vis:only:prc
-- add:
-    entry:
       id: cal.1967.china-leadership-147
       when: 1967, early
       date: '1967'
@@ -1047,6 +1059,11 @@ ops:
       - name:zhou-enlai
       - name:huang-hua
       - ok:fields-place
+      gloss:
+        title: Estimates
+        text:
+        - 'Friedman, by one estimate: over 5 billion copies of *Quotations from Chairman Mao* distributed, the world''s population roughly 3 billion ([[w.friedman-shadow-cold-war]], 154, citing [[w.jisen-cultural-revolution-in-the]], 155).'
+        - 'Friedman: African delegations visiting China, 116 in 1966 (on invitations given earlier), twelve in 1968; Chinese delegations to Africa, forty-eight in 1966, fourteen in 1968 ([[w.friedman-shadow-cold-war]], 154, citing [[w.ogunsanwo-chinas-policy-in-africa]], 195).'
 - add:
     entry:
       id: cal.1967-04-17.china-leadership-3
@@ -1115,7 +1132,6 @@ ops:
         - 'via x.1966-10-06.conversation-o-v-kvasov-advisor-embassy-havana-vp: ?'
       tags:
       - polity:ussr
-      - vis:only:ussr
       - polity:cuba
       - vis:only:ussr+cuba
 - add:
@@ -1499,26 +1515,6 @@ ops:
       - vis:only:ussr
 - add:
     entry:
-      id: cal.1967-02.china-leadership-44
-      when: Feb.
-      date: 1967-02
-      place: peking
-      thread: china-leadership
-      also:
-      - vietnam-hanoi
-      c: 'Peking 北京. Chen Yi 陈毅, at a banquet for a visiting Mauritanian delegation: the focus of the world''s "great bitter battle" between revolution and counterrevolution the Vietnamese people''s war against American imperialism.'
-      n: '[[w.friedman-shadow-cold-war]], 166. To check: Embassy PRC, chronicle of Chinese press on Vietnam, March 9, 1967, AVPRF f.100 o.54 papka 231 d.29, 2 (cited by [[w.friedman-shadow-cold-war]], 166 n.74). Names: Chen Yi. Check: the day; the note gives the Soviet Embassy''s chronicle of the Chinese press on Vietnam, Mar. 9, 1967 (166 n.74). See [[cal.1967-02-15.china-leadership]].'
-      src:
-        c: 8b64522b
-        rows:
-        - 'w.friedman-shadow-cold-war 166: all'
-        - 'via x.1967-03-09.embassy-prc-chronicle-chinese-press-vietnam-march-9: ?'
-      tags:
-      - polity:prc
-      - polity:mauritania
-      - name:chen-yi
-- add:
-    entry:
       id: cal.1966-08-16.soviet-union
       when: Aug. 16
       date: '1966-08-16'
@@ -1745,6 +1741,11 @@ ops:
       tags:
       - polity:prc
       - polity:drv
+      gloss:
+        title: Estimates
+        text:
+        - 'Friedman: between 1965 and 1968 more than 320,000 Chinese troops served in the DRV, chiefly in air defense, engineering, construction, minesweeping and logistics ([[w.friedman-shadow-cold-war]], 167, citing [[w.zhai-china-and-the-vietnam]], 135).'
+        - 'Friedman: Soviet aid to the DRV reportedly exceeded the Chinese by 1968, half of all socialist aid ([[w.friedman-shadow-cold-war]], 167, citing [[w.gaiduk-soviet-union-and-the]], 58–59, [[w.zhang-communist-powers-divided]], 91–92, and [[w.zhai-china-and-the-vietnam]], 136); Mehta, by the note, has Chinese economic aid in 1967–68 still above the Soviet ([[w.mehta-soviet-biscuit-factories-and]]).'
 - add:
     entry:
       id: cal.1965-05-12.soviet-union
@@ -1773,7 +1774,7 @@ ops:
       also:
       - students
       c: 'Brezhnev at the Moscow city party conference: the youth rebellion in the West from the accelerating crisis of capitalism.'
-      n: '[[w.friedman-shadow-cold-war]], 171. To check: "Brezhnev Addresses Moscow City Party Conference," Pravda, March 29, 1968, p. 1+, in Current Digest of the Soviet Press, vol. 20, Pravda; Current Digest of the Soviet Press, vol. 20, 1 (cited by [[w.friedman-shadow-cold-war]], 171 n.107). Names: Brezhnev. Check: the day; *Pravda* printed the speech Mar. 29, 1968 (171 n.107).'
+      n: '[[w.friedman-shadow-cold-war]], 171. To check: "Brezhnev Addresses Moscow City Party Conference," Pravda, March 29, 1968, 1, in Current Digest of the Soviet Press, vol. 20 (cited by [[w.friedman-shadow-cold-war]], 171 n.107). Names: Brezhnev. Check: the day; *Pravda* printed the speech Mar. 29, 1968 (171 n.107).'
       src:
         c: c32644b7
         rows:
@@ -1791,7 +1792,7 @@ ops:
       also:
       - students
       c: 'The Institute of the United States and Canada reports to the Politburo on relations with Washington: the wide domestic opposition to American foreign policy.'
-      n: '[[w.friedman-shadow-cold-war]], 171. Made public: 1993 ([[w.arbatov-system]]). To check: [[w.arbatov-system]], 172–73 (cited by [[w.friedman-shadow-cold-war]], 171 n.108). Check: the year of [[w.arbatov-system]]: Friedman''s bibliography has 1992.'
+      n: '[[w.friedman-shadow-cold-war]], 171. Made public: 1992 ([[w.arbatov-system]], by Friedman''s bibliography, Random House, 1992). To check: [[w.arbatov-system]], 172–73 (cited by [[w.friedman-shadow-cold-war]], 171 n.108). Check: the card [[w.arbatov-system]] has 1993, Friedman''s bibliography 1992.'
       src:
         c: 4042fb58
         rows:
@@ -1889,7 +1890,7 @@ ops:
       also:
       - soviet-union-czechoslovakia
       c: Havana, against heavy pressure from Peking, publicly backs the Warsaw Pact's invasion of Czechoslovakia.
-      n: '[[w.friedman-shadow-cold-war]], 174. Check: the day; the text has Hanoi too.'
+      n: '[[w.friedman-shadow-cold-war]], 174. Check: the day (Friedman: "late 1968"); Hanoi''s support is dated Aug. 21, 1968 ([[cal.1968-08-21.vietnam-hanoi-5]]).'
       src:
         c: '13443877'
         rows:
@@ -1916,23 +1917,6 @@ ops:
       - vis:only:prc
 - add:
     entry:
-      id: cal.1968.china-leadership-108
-      when: 1968, after March
-      date: '1968'
-      at: before 1968-04
-      thread: china-leadership
-      c: Mao 毛泽东 orders that "from now on, such self-praising terms as 'Mao Zedong Thought' should be omitted from all documents and articles related to foreign affairs."
-      n: '[[w.friedman-shadow-cold-war]], 176. Made public: 1998 ([[w.barnouin-chinese-foreign-policy-during]], by the note). To check: [[w.barnouin-chinese-foreign-policy-during]], 78 (cited by [[w.friedman-shadow-cold-war]], 176 n.135a); [[w.jisen-cultural-revolution-in-the]], 309–13 (cited by [[w.friedman-shadow-cold-war]], 176 n.135b). Names: Mao.'
-      src:
-        c: f5ebb536
-        rows:
-        - 'w.friedman-shadow-cold-war 176: all'
-      tags:
-      - polity:prc
-      - name:mao-zedong
-      - vis:only:prc
-- add:
-    entry:
       id: cal.1968-06-20.soviet-union
       when: June 20
       date: '1968-06-20'
@@ -1950,6 +1934,10 @@ ops:
       tags:
       - polity:ussr
       - vis:only:ussr
+      gloss:
+        title: Estimates
+        text:
+        - 'Friedman: by then more than 3,000 Chinese specialists in Tanzania and Zambia to begin the railroad ([[w.friedman-shadow-cold-war]], 177).'
 - add:
     entry:
       id: cal.1969-03.trade
@@ -1965,6 +1953,70 @@ ops:
       tags:
       - polity:un
       - polity:argentina
+      gloss:
+        title: Estimates
+        text:
+        - 'Friedman, from UN statistics: $44.6 billion in aid from the Western countries, 1959 through 1967, and nearly $10 billion more from the socialist world ([[w.friedman-shadow-cold-war]], 181, citing V. G. Solodovnikov, Narody Azii i Afriki 5 (1971), 6–9).'
+        - 'Friedman: average annual per capita GDP growth in sub-Saharan Africa 1.3 percent over the 1960s; food production in Africa up 2 percent a year, population 2.5 percent ([[w.friedman-shadow-cold-war]], 181, citing [[w.meredith-fate-of-africa]], 276–81).'
+        - 'Friedman: labor productivity growing 3.8 percent a year in the West, 1953 to 1967, 2.65 percent in the developing countries ([[w.friedman-shadow-cold-war]], 182, citing A. I. Dinkevich, Narody Azii i Afriki 1 (1971), 3–16).'
+- add:
+    entry:
+      id: cal.1965.soviet-union
+      when: '1965'
+      date: '1965'
+      thread: soviet-union
+      also:
+      - china
+      c: 'As Friedman reports it: through 1965, under Soviet diplomacy and aid, India, the UAR, Ghana, Cyprus, Iraq, Laos, Senegal, Nigeria and others come out for Soviet attendance at the second Afro-Asian conference.'
+      n: '[[w.friedman-shadow-cold-war]], 145. To check: Gromyko to Suslov, June 5, 1965, RGANI f.5 o.30 d.480, 94–126 (cited by [[w.friedman-shadow-cold-war]], 145 n.218a); Gromyko to Suslov, June 17, 1965, RGANI f.5 o.30 d.480, 94–126 (cited by [[w.friedman-shadow-cold-war]], 145 n.218b); Gromyko to Suslov, June 18, 1965, RGANI f.5 o.30 d.480, 94–126 (cited by [[w.friedman-shadow-cold-war]], 145 n.218c).'
+      src:
+        c: e71a5d53
+        rows:
+        - 'w.friedman-shadow-cold-war 145: all'
+        - 'via x.1965-06-05.gromyko-suslov-june-5-1965: ?'
+        - 'via x.1965-06-17.gromyko-suslov-june-17-1965: ?'
+        - 'via x.1965-06-18.gromyko-suslov-june-18-1965: ?'
+      tags:
+      - form:state
+      - polity:ussr
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968.africa-2
+      when: 1968–73
+      date: '1968'
+      thread: africa
+      c: 'As Friedman reports it: a long drought in the Sahel, 1968 to 1973.'
+      n: '[[w.friedman-shadow-cold-war]], 182.'
+      src:
+        c: 301eb512
+        rows:
+        - 'w.friedman-shadow-cold-war 182: all'
+      tags:
+      - form:state
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-05-08.africa
+      when: May 8
+      date: '1969-05-08'
+      thread: africa
+      also:
+      - china
+      - soviet-union
+      c: 'The Soviet Embassy in Uganda, on Ugandan–Chinese relations: the Chinese ambassador recalled, the embassy''s staff cut from twelve to two, the second secretary and a translator.'
+      n: '[[w.friedman-shadow-cold-war]], 154. Made public: 2015. To check: Report of embassy Uganda on Ugandan-Chinese relations, May 8, 1969, AVPRF f.100 o.56 papka 240 d.36, 43 (cited by [[w.friedman-shadow-cold-war]], 154 n.26). Check: the day of the recall; the text gives none, the note the report''s (154 n.26).'
+      src:
+        c: bad4fc4f
+        rows:
+        - 'w.friedman-shadow-cold-war 154: all'
+        - 'via x.1969-05-08.embassy-uganda-ugandan-chinese-relations-may-8-1969: ?'
+      tags:
+      - polity:ussr
+      - polity:uganda
+      - polity:prc
+      - vis:only:ussr
+      - ok:fields-place
 - cite:
     id: cal.1962-10-29.china-2
     item: '[[w.friedman-shadow-cold-war]], 136 (a delegation of the Chinese Ministry of Defense arrives in October 1962 with a $1.8 million grant to balance the budget)'
@@ -2422,10 +2474,10 @@ ops:
     id: cal.1969-04-01.china-leadership
     item: '[[w.friedman-shadow-cold-war]], 177 (the Ninth Congress, from Apr. 1: the Cultural Revolution prolonged under the PLA, "purifying class ranks")'
 - cite:
-    id: cal.1969-06-07.china-leadership
-    item: '[[w.friedman-shadow-cold-war]], 177 (the four marshals, Chen Yi among them, report in June on the possibility of war: a Soviet attack unlikely)'
+    id: cal.1969-07-11.china-leadership
+    item: '[[w.friedman-shadow-cold-war]], 177 (the four marshals, Chen Yi among them, report on the possibility of war: a Soviet attack unlikely; dated June in Friedman)'
 - to-check:
-    id: cal.1969-06-07.china-leadership
+    id: cal.1969-07-11.china-leadership
     add: '[[w.barnouin-chinese-foreign-policy-during]], 139–42 (cited by [[w.friedman-shadow-cold-war]], 177 n.138a); [[w.jisen-cultural-revolution-in-the]], 292–301 (cited by [[w.friedman-shadow-cold-war]], 177 n.138b).'
 - cite:
     id: cal.1969-10-18.china-leadership
@@ -2458,3 +2510,34 @@ ops:
 - check:
     id: cal.1964-09-15.china-leadership-8
     text: 'Check: [[w.friedman-shadow-cold-war]], 136 (by Ogunsanwo and Shao He, 136 n.165), has a delegation under the Algerian economic minister come to China "in early 1964" to sign a trade agreement: this visit, or another.'
+- cite:
+    id: cal.1966-06.china-leadership-35
+    item: '[[w.friedman-shadow-cold-war]], 151 (through the summer of 1966 Chen Yi heads the Party work committee for the Cultural Revolution in the Foreign Ministry; three high-profile targets found; forty-four young translators who call for a sharper attack on the ministry''s hierarchy themselves investigated)'
+- to-check:
+    id: cal.1966-06.china-leadership-35
+    add: '[[w.barnouin-chinese-foreign-policy-during]], 4–5 (cited by [[w.friedman-shadow-cold-war]], 151 n.7).'
+- cite:
+    id: cal.1967-02-12.china-leadership-6
+    item: '[[w.friedman-shadow-cold-war]], 166 (Chen Yi at the banquet: the focus of the world''s "great bitter battle" between revolution and counterrevolution the Vietnamese people''s war against American imperialism; dated February 1967)'
+- to-check:
+    id: cal.1967-02-12.china-leadership-6
+    add: Embassy PRC, chronicle of Chinese press on Vietnam, March 9, 1967, AVPRF f.100 o.54 papka 231 d.29, 2 (cited by [[w.friedman-shadow-cold-war]], 166 n.74).
+- src:
+    id: cal.1967-02-12.china-leadership-6
+    rows:
+    - 'via x.1967-03-09.embassy-prc-chronicle-chinese-press-vietnam-march-9: ?'
+- cite:
+    id: cal.1968-03-27.china-leadership
+    item: '[[w.friedman-shadow-cold-war]], 176 (Mao orders that "from now on" such self-praising terms as "Mao Zedong Thought" be left out of all documents and articles on foreign affairs; dated only "as the year progressed," after Mar. 17)'
+- to-check:
+    id: cal.1968-03-27.china-leadership
+    add: '[[w.barnouin-chinese-foreign-policy-during]], 78 (cited by [[w.friedman-shadow-cold-war]], 176 n.135a); [[w.jisen-cultural-revolution-in-the]], 309–13 (cited by [[w.friedman-shadow-cold-war]], 176 n.135b).'
+- cite:
+    id: cal.1965-11.china-2
+    item: '[[w.friedman-shadow-cold-war]], 116 (the African states in the 1965 vote: eighteen for, ten against, eight abstaining)'
+- to-check:
+    id: cal.1965-11.china-2
+    add: '[[w.ogunsanwo-chinas-policy-in-africa]], 115–19 (cited by [[w.friedman-shadow-cold-war]], 116 n.66).'
+- cite:
+    id: cal.1968-08-21.vietnam-hanoi-5
+    item: '[[w.friedman-shadow-cold-war]], 174 (Hanoi, with Havana, publicly backs the invasion against heavy pressure from Peking, dated "late 1968": its return to the Soviet orbit)'
