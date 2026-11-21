@@ -323,7 +323,7 @@ entries:
     date: '1968-03-02'
     thread: china-leadership
     also: [japan]
-    c: Chen Yi 陈毅 receives four guests of the China International Travel Service, among them 菅沼不二男, president of the Japan–China Travel Company, and 久保专治, president of the Kansai International Travel Company.
+    c: Chen Yi 陈毅 receives four guests of the China International Travel Service, among them "*Jianzhao Bu'ernan*" 菅沼不二男, president of the Japan–China Travel Company, and "*Jiubao Zhuanzhi*" 久保专治, president of the Kansai International Travel Company.
     n: '[[w.chen-yi-nianpu]], 1200. Names: Chen Yi.'
     tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
   - id: cal.1968-03-03.opinion
@@ -736,7 +736,7 @@ entries:
     date: '1968-03-04'
     thread: china-leadership
     also: [africa]
-    c: Chen Yi 陈毅 at the reception of 拉克米里, Morocco's chargé d'affaires, for Morocco's national day.
+    c: Chen Yi 陈毅 at the reception of *Lakemili* 拉克米里, Morocco's chargé d'affaires, for Morocco's national day.
     n: '[[w.chen-yi-nianpu]], 1200. The words: 晚上 (1200). Names: Chen Yi.'
     tags: [polity:prc, polity:morocco, name:chen-yi, ok:fields-place]
     time_range:
@@ -942,12 +942,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou receives Vietnam's ambassador Ngô Minh Loan in the Fujian Hall of the Great Hall of the People.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 522 (Mar. 5, 1968; 1:30 p.m., Fujian Hall, Great Hall of the People). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 522 (Mar. 5, 1968; 1:30 p.m., Fujian Hall, Great Hall of the People). Names: Zhou Enlai, Ngo Minh Loan.'
     src:
       c: 26c3f07d
       rows:
         - 'w.zhou-enlai-waijiao-huodong 522: all'
-    tags: [polity:prc, name:zhou-enlai]
+    tags: [polity:prc, name:zhou-enlai, name:ngo-minh-loan]
     time_zone: Asia/Shanghai
   - id: cal.1968-03.king
     when: Mar. 5
@@ -1697,13 +1697,13 @@ entries:
     date: '1968-03-08'
     thread: vietnam-khe-sanh
     c: Westmoreland announces Provisional Corps, Vietnam, for the American units in northern I Corps, under Lt. Gen. William B. Rosson, subordinate to III MAF; activated Mar. 10, replacing MACV Forward. American casualties in Vietnam pass the Korean War's, 136,993, 19,313 of them killed.
-    n: '[[w.macv-command-history-1968]], 1038; [[w.cosmas-joint-chiefs-of-staff]], 147 (announced in mid-February; in operation Mar. 10 under Rosson). Check: Cosmas has Westmoreland announce the corps in mid-February (147). Names: Westmoreland.'
+    n: '[[w.macv-command-history-1968]], 1038; [[w.cosmas-joint-chiefs-of-staff]], 147 (announced in mid-February; in operation Mar. 10 under Rosson). Check: Cosmas has Westmoreland announce the corps in mid-February (147). Names: Westmoreland, Rosson.'
     src:
       c: 345dad2a
       rows:
         - 'w.macv-command-history-1968 1038: all'
         - 'w.cosmas-joint-chiefs-of-staff 147: B-C'
-    tags: [name:westmoreland-william]
+    tags: [name:westmoreland-william, name:rosson-william-b]
     time_range:
       - 1968-03-08T01:00Z
       - 1968-03-08T09:00Z
@@ -4578,13 +4578,13 @@ entries:
     date: '1968-03-17'
     thread: king
     c: James Earl Ray, escaped from the Missouri State Penitentiary in April 1967, files a change of address to general delivery in Atlanta. A week later he drives into the city with a map marking King's home, his church and SCLC's headquarters.
-    n: '[[w.bernstein-guns-or-butter]], 494. To check: Gerold Frank, *An American Death* (1972) (cited by [[w.bernstein-guns-or-butter]], 499 n.6). Check: the day of his arrival in Atlanta. Names: King.'
+    n: '[[w.bernstein-guns-or-butter]], 494. To check: Gerold Frank, *An American Death* (1972) (cited by [[w.bernstein-guns-or-butter]], 499 n.6). Check: the day of his arrival in Atlanta. Names: King, Ray.'
     src:
       c: 1a6ec31c
       rows:
         - 'w.bernstein-guns-or-butter 494: all'
         - 'via x.1972.frank-an-american-death: all'
-    tags: [name:king-martin-luther-jr]
+    tags: [name:king-martin-luther-jr, name:ray-james-earl]
   - id: cal.1968-03-17.elections-1968-johnson-2
     when: Mar. 17
     date: '1968-03-17'
@@ -5066,7 +5066,7 @@ entries:
     date: '1968-03-18'
     thread: china-leadership
     also: [vietnam-hanoi]
-    c: Chen Yi 陈毅 and Li Fuchun 李富春 give a banquet welcoming the delegation of South Vietnam's youth and American-killing heroes led by 武公中.
+    c: Chen Yi 陈毅 and Li Fuchun 李富春 give a banquet welcoming the delegation of South Vietnam's youth and American-killing heroes led by "*Wu Gongzhong*" 武公中.
     n: '[[w.chen-yi-nianpu]], 1201. Names: Chen Yi, Li Fuchun.'
     tags: [polity:prc, polity:nlf, name:chen-yi, name:li-fuchun, ok:fields-place]
   - id: cal.1968-03-18.china-leadership-4
@@ -5075,14 +5075,14 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking 北京, the Great Hall: Jiang Qing 江青, flanked by Ye Qun 叶群, Kang Sheng 康生, Chen Boda 陈伯达 and Wu Faxian 吴法宪, receives the delegates from Zhejiang 浙江: "rightist splittism has raised its head from last winter to the present." Kang Sheng: the big task of the Cultural Revolution is to drag out the traitors and agents hidden in the Party; Liu Shaoqi 刘少奇 a traitor to the Nationalists and the Japanese; Wang Guangmei 王光美 an agent of the United States, Japan and the Nationalists; Peng Zhen 彭真 a big renegade; Peng Dehuai 彭德怀 a spy and traitor; Luo Ruiqing 罗瑞卿 an agent never in the Party; He Long 贺龙 a bandit; Lu Dingyi 陆定一 in Chiang Kai-shek''s 蒋介石 pay; Tan Zhenlin 谭震林 a turncoat. Jiang Qing leans forward: "Down with Deng Xiaoping!"; Kang adds that Deng Xiaoping 邓小平 was a deserter.'
-    n: '[[w.dikotter-cultural-revolution]], 172, 184 n.26, n.2. To check: "Zhongyang shouzhang jiejian Zhejiang sheng fujing daibiaotuan shi de zhongyao jianghua," Mar. 18, 1968, Cultural Revolution Database (cited by [[w.dikotter-cultural-revolution]], 172 n.26e); [[w.milton-wind-will-not-subside]], 315 (cited by [[w.dikotter-cultural-revolution]], 184 n.2a); Zhou Enlai, Kang Sheng and Jiang Qing, "Zhongyang shouzhang jiejian Zhejiang sheng fujing daibiaotuan shi de zhongyao jianghua," Mar. 18, 1968, Cultural Revolution Database (cited by [[w.dikotter-cultural-revolution]], 184 n.2b). See [[cal.1968-03-15.china-leadership]]. Names: Jiang Qing, Ye Qun, Kang Sheng, Chen Boda, Wu Faxian, Liu Shaoqi, Peng Zhen, Peng Dehuai, Luo Ruiqing, He Long, Lu Dingyi, Tan Zhenlin, Deng Xiaoping.'
+    n: '[[w.dikotter-cultural-revolution]], 172, 184 n.26, n.2. To check: "Zhongyang shouzhang jiejian Zhejiang sheng fujing daibiaotuan shi de zhongyao jianghua," Mar. 18, 1968, Cultural Revolution Database (cited by [[w.dikotter-cultural-revolution]], 172 n.26e); [[w.milton-wind-will-not-subside]], 315 (cited by [[w.dikotter-cultural-revolution]], 184 n.2a); Zhou Enlai, Kang Sheng and Jiang Qing, "Zhongyang shouzhang jiejian Zhejiang sheng fujing daibiaotuan shi de zhongyao jianghua," Mar. 18, 1968, Cultural Revolution Database (cited by [[w.dikotter-cultural-revolution]], 184 n.2b). See [[cal.1968-03-15.china-leadership]]. Names: Jiang Qing, Ye Qun, Kang Sheng, Chen Boda, Wu Faxian, Liu Shaoqi, Peng Zhen, Peng Dehuai, Luo Ruiqing, He Long, Lu Dingyi, Tan Zhenlin, Deng Xiaoping, Chiang Kai-shek.'
     src:
       c: c2c5abd5
       rows:
         - 'w.dikotter-cultural-revolution 172, 184: all'
         - 'via w.dikotter-cultural-revolution 172 n.26e: all'
         - 'via w.dikotter-cultural-revolution 184 n.2b: all'
-    tags: [polity:prc, name:jiang-qing, name:ye-qun, name:kang-sheng, name:chen-boda, name:wu-faxian, name:liu-shaoqi, name:peng-zhen, name:peng-dehuai, name:luo-ruiqing, name:he-long, name:lu-dingyi, name:tan-zhenlin, name:deng-xiaoping]
+    tags: [polity:prc, name:jiang-qing, name:ye-qun, name:kang-sheng, name:chen-boda, name:wu-faxian, name:liu-shaoqi, name:peng-zhen, name:peng-dehuai, name:luo-ruiqing, name:he-long, name:lu-dingyi, name:tan-zhenlin, name:deng-xiaoping, name:chiang-kai-shek]
   - id: cal.1968-03-19.students
     when: Mar. 19–23
     date: '1968-03-19'
@@ -5705,7 +5705,7 @@ entries:
       rows:
         - 'w.kabaservice-rule-and-ruin 236: all'
         - 'via w.kabaservice-rule-and-ruin 236 n.55: B'
-    tags: [name:morse-bradford, name:nixon-richard-m, name:rockefeller-nelson]
+    tags: [name:nixon-richard-m, name:rockefeller-nelson, name:morse-frank-b]
     time_range:
       - 1968-03-21T14:00Z
       - 1968-03-21T22:00Z
@@ -6215,7 +6215,7 @@ entries:
     date: '1968-03-22'
     thread: china-leadership
     also: [africa]
-    c: Chen Yi 陈毅 at the cocktail party of 巴赞加, the Congo (Brazzaville)'s Ambassador, for the fourth anniversary of diplomatic relations between the two countries.
+    c: Chen Yi 陈毅 at the cocktail party of *Bazanjia* 巴赞加, the Congo (Brazzaville)'s Ambassador, for the fourth anniversary of diplomatic relations between the two countries.
     n: '[[w.chen-yi-nianpu]], 1201. Names: Chen Yi.'
     tags: [polity:prc, polity:congo-brazzaville, name:chen-yi, ok:fields-place]
   - id: cal.1968-03-22.china-leadership-6
@@ -9459,12 +9459,12 @@ entries:
     at: before 1968-03-01
     thread: elections-1968-johnson
     c: 'Charles Bartlett, back from New Hampshire, to Johnson: the State''s Democrats, Governor King among them, "really making a mishmash" of his write-in campaign, too negative (an advertisement: a vote for McCarthy a vote for Ho Chi Minh). Johnson answers with a note of thanks.'
-    n: '[[w.shesol-mutual-contempt]], 416. Check: the day. To check: Bartlett''s oral history, LBJ Library (cited by [[w.shesol-mutual-contempt]], 416). Names: Bartlett, Johnson, King, McCarthy.'
+    n: '[[w.shesol-mutual-contempt]], 416. Check: the day. To check: Bartlett''s oral history, LBJ Library (cited by [[w.shesol-mutual-contempt]], 416). Names: Bartlett, Johnson, King, McCarthy, Hồ Chí Minh.'
     src:
       c: b122545e
       rows:
         - 'w.shesol-mutual-contempt 416: all'
-    tags: [name:bartlett-charles, name:johnson-lyndon-b, name:king-john-w, name:mccarthy-eugene-j, state:nh, ok:diacritics]
+    tags: [name:bartlett-charles, name:johnson-lyndon-b, name:king-john-w, name:mccarthy-eugene-j, state:nh, ok:diacritics, name:ho-chi-minh]
   - id: cal.1968-03-31.elections-1968-10
     when: Mar. 31
     date: '1968-03-31'
@@ -9730,13 +9730,13 @@ entries:
     thread: elections-1968-humphrey
     also: [latin-america]
     c: Mexico City, Ambassador Fulton Freeman's residence. Humphrey hosts a dinner for President Díaz Ordaz. For Johnson's address, the two and their wives in the library, the guests in other rooms, the press outside. By Humphrey's account.
-    n: '[[w.humphrey-education-of-a-public-1976]], 358–59, 359 n. (by his note, the first time a Mexican President set foot in the American Embassy since the Revolution). [[w.mann-walls-of-jericho]], 488 (Humphrey in Mexico City weeps as he hears Johnson''s closing words on a radio in the American Embassy; not the dinner nor the library). To check: [[w.miller-lyndon]], 511 (cited by [[w.mann-walls-of-jericho]], 488). See [[cal.1968-03-31.elections-1968-4]]; [[cal.1968-03-31.elections-1968-6]]. Names: Humphrey, Díaz Ordaz, Johnson.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 358–59, 359 n. (by his note, the first time a Mexican President set foot in the American Embassy since the Revolution). [[w.mann-walls-of-jericho]], 488 (Humphrey in Mexico City weeps as he hears Johnson''s closing words on a radio in the American Embassy; not the dinner nor the library). To check: [[w.miller-lyndon]], 511 (cited by [[w.mann-walls-of-jericho]], 488). See [[cal.1968-03-31.elections-1968-4]]; [[cal.1968-03-31.elections-1968-6]]. Names: Humphrey, Díaz Ordaz, Johnson, Freeman.'
     src:
       c: 79f370cb
       rows:
         - 'w.humphrey-education-of-a-public-1976 358–59, 359 n.: ?'
         - 'w.mann-walls-of-jericho 488: ?'
-    tags: [name:humphrey-hubert-h, name:diaz-ordaz-gustavo, name:johnson-lyndon-b]
+    tags: [name:humphrey-hubert-h, name:diaz-ordaz-gustavo, name:johnson-lyndon-b, name:freeman-fulton]
   - id: cal.1968-03.japan-and-korea-pueblo
     when: Mar.
     date: 1968-03

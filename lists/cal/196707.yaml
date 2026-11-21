@@ -89,12 +89,12 @@ entries:
     date: '1967-07-01'
     thread: vietnam-macv
     c: Lt. Gen. Frederick C. Weyand takes command of II Field Force. July 31, Lt. Gen. William B. Rosson takes I Field Force from Lt. Gen. Stanley R. Larsen.
-    n: '[[w.macv-command-history-1967]], 1270, 1273. Names: Weyand.'
+    n: '[[w.macv-command-history-1967]], 1270, 1273. Names: Weyand, Rosson, Larsen.'
     src:
       c: e9d4d227
       rows:
         - 'w.macv-command-history-1967 1270, 1273: all'
-    tags: [name:weyand-frederick-c]
+    tags: [name:weyand-frederick-c, name:rosson-william-b, name:larsen-stanley-r]
   - id: cal.1967-07-01.robert-kennedy
     when: July 1
     date: '1967-07-01'
@@ -879,12 +879,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou goes at noon to the Vietnamese embassy to condole on the death of Nguyễn Chí Thanh, Politburo member and Secretariat secretary of the Vietnam Workers' Party and general of the Vietnam People's Army.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 514 (July 8, 1967; noon; Vietnamese embassy, Beijing). The book names him 阮志清. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 514 (July 8, 1967; noon; Vietnamese embassy, Beijing). The book names him 阮志清. Names: Zhou Enlai, Nguyễn Chí Thanh.'
     src:
       c: 2eec7b75
       rows:
         - 'w.zhou-enlai-waijiao-huodong 514: all'
-    tags: [polity:prc, name:zhou-enlai]
+    tags: [polity:prc, name:zhou-enlai, name:nguyen-chi-thanh]
     time_range:
       - 1967-07-08T04:00Z
       - 1967-07-08T06:00Z
@@ -1319,7 +1319,7 @@ entries:
     when: July 10
     date: '1967-07-10'
     thread: china-leadership
-    c: Chen Yi 陈毅 at the banquet of 哈图, military attaché of the Albanian Embassy, for the twenty-fourth anniversary of the Albanian People's Army.
+    c: Chen Yi 陈毅 at the banquet of *Hatu* 哈图, military attaché of the Albanian Embassy, for the twenty-fourth anniversary of the Albanian People's Army.
     n: '[[w.chen-yi-nianpu]], 1193. The words: 晚上 (1193). Names: Chen Yi.'
     tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place]
     time_range:
@@ -1445,7 +1445,7 @@ entries:
     date: '1967-07-11'
     thread: china-leadership
     also: [korea]
-    c: Chen Yi 陈毅 at the reception of 玄峻极, North Korea's Ambassador, for the sixth anniversary of the Sino-Korean Treaty of Friendship, Cooperation and Mutual Assistance.
+    c: Chen Yi 陈毅 at the reception of "*Xuan Junji*" 玄峻极, North Korea's Ambassador, for the sixth anniversary of the Sino-Korean Treaty of Friendship, Cooperation and Mutual Assistance.
     n: '[[w.chen-yi-nianpu]], 1193. Names: Chen Yi.'
     tags: [polity:prc, polity:dprk, name:chen-yi, ok:fields-place]
   - id: cal.1967-07-12.civil-disorders
@@ -2386,12 +2386,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Wuhan. The rebels march through the Million Heroes' districts, hailing the delegation "sent by Chairman Mao"; loudspeakers answer; in the clashes the rebels are routed, ten killed, thirty-seven badly wounded and eighty hurt.
-    n: '[[w.macfarquhar-maos-last-revolution]], 208 ("the following day"). To check: [[w.shaoguang-failure-of-charisma]], 149–150 (cited by [[w.macfarquhar-maos-last-revolution]], 208 n.41).'
+    n: '[[w.macfarquhar-maos-last-revolution]], 208 ("the following day"). To check: [[w.shaoguang-failure-of-charisma]], 149–150 (cited by [[w.macfarquhar-maos-last-revolution]], 208 n.41). Names: Mao Zedong.'
     src:
       c: 882987a5
       rows:
         - 'w.macfarquhar-maos-last-revolution 208: all'
-    tags: [polity:prc]
+    tags: [polity:prc, name:mao-zedong]
   - id: cal.1967-07-15.china-leadership-3
     when: July 15
     date: '1967-07-15'
@@ -3507,13 +3507,13 @@ entries:
     place: nyc
     thread: program
     c: New York, the last academic dinner, McGeorge Bundy host, ten present, among them Burke Marshall, Ylvisaker, Sayre, Truman and Piel; Levinson and McPherson for the White House. The riots dominate.
-    n: '[[w.graham-uncertain-triumph]], 163–64. To check: Summaries of the 1967 academic dinners, with lists of participants, Bowen file, container 17, LBJ Library (cited by [[w.graham-uncertain-triumph]], 164 n.11). Names: Califano, Bundy, Levinson, McPherson.'
+    n: '[[w.graham-uncertain-triumph]], 163–64. To check: Summaries of the 1967 academic dinners, with lists of participants, Bowen file, container 17, LBJ Library (cited by [[w.graham-uncertain-triumph]], 164 n.11). Names: Califano, Bundy, Levinson, McPherson, Marshall.'
     src:
       c: d50d919c
       rows:
         - 'w.graham-uncertain-triumph 163–64: all'
         - 'via w.graham-uncertain-triumph 164 n.11: all'
-    tags: [name:califano-joseph-a-jr, name:bundy-mcgeorge, name:levinson-lawrence-e, name:mcpherson-harry]
+    tags: [name:califano-joseph-a-jr, name:bundy-mcgeorge, name:levinson-lawrence-e, name:mcpherson-harry, name:marshall-burke]
     time_range:
       - 1967-07-20T21:00Z
       - 1967-07-21T04:00Z
@@ -6038,8 +6038,8 @@ entries:
     place: chicago
     thread: civil-rights-organizations
     c: Chicago, Englewood. Raby, with Rennie Davis of SDS and others, founds a school for community organizers.
-    n: '[[w.ralph-northern-protest]], 226. Check: the month (Ralph: the summer of 1967). Names: Raby.'
-    tags: [state:il, city:chicago, name:raby-albert]
+    n: '[[w.ralph-northern-protest]], 226. Check: the month (Ralph: the summer of 1967). Names: Raby, Davis.'
+    tags: [state:il, city:chicago, name:raby-albert, name:davis-rennie]
   - id: cal.1967-07.king
     when: July
     date: 1967-07
@@ -6108,13 +6108,13 @@ entries:
     date: 1967-07
     thread: war-opposition
     c: '"Individuals Against the Crime of Silence," begun by California businessmen, thousands of signers, Morgenthau, Daniel Berrigan, Bradbury and Hoffmann among them: submitted to U Thant.'
-    n: '[[w.debenedetti-american-ordeal]], 185–86. Check: the day. Check: the day; 440 n.70 cites the *Times* of July 9, 1967, sec. 4, at 7, with the campaign''s papers. To check: [*New York Times*, July 9, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/09/issue.html), sec. 4, at 7 (cited by [[w.debenedetti-american-ordeal]], 440 n.70). Names: Berrigan.'
+    n: '[[w.debenedetti-american-ordeal]], 185–86. Check: the day. Check: the day; 440 n.70 cites the *Times* of July 9, 1967, sec. 4, at 7, with the campaign''s papers. To check: [*New York Times*, July 9, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/09/issue.html), sec. 4, at 7 (cited by [[w.debenedetti-american-ordeal]], 440 n.70). Names: Berrigan, U Thant.'
     src:
       c: 9502cf73
       rows:
         - 'w.debenedetti-american-ordeal 185–86: all'
         - 'via w.debenedetti-american-ordeal 186 n.70a: all'
-    tags: [name:berrigan-daniel]
+    tags: [name:berrigan-daniel, name:u-thant]
   - id: cal.1967-07.economy-surcharge
     when: July, late
     date: 1967-07

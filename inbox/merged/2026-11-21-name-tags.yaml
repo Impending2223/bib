@@ -1,0 +1,2155 @@
+# The sweep of [name-untagged] (tools/bib/nametags.py; the owner, Nov. 21, 2026: "Please do build the missing
+# name tag check and run the sweep."): for each calendar entry whose c names a person the series holds without
+# his name: tag, the tag, and his name on the Names: line where no token there names him already. Doubtful
+# matches left out (namesakes, a ship, his canon): the sweep's report.
+patch: 2026-11-21-name-tags
+by: name-tag sweep (nametags.py)
+ops:
+- names:
+    id: cal.1960-01-27.cuba
+    add: [Salvador]
+    tags: ['name:salvador-david']
+- names:
+    id: cal.1960-02-16.cuba-2
+    add: [Chen Yi]
+    tags: ['name:chen-yi']
+- names:
+    id: cal.1960-03-03.china-leadership-13
+    add: [Suramarit]
+    tags: ['name:suramarit-norodom']
+- names:
+    id: cal.1960-03-26.china-leadership-3
+    add: [Li Xiannian]
+    tags: ['name:li-xiannian']
+- names:
+    id: cal.1960-04-06.china-leadership-2
+    add: [Chiang Kai-shek]
+    tags: ['name:chiang-kai-shek']
+- names:
+    id: cal.1960-04-14.china-leadership-2
+    add: [Luo Ronghuan, Luo Ruiqing, Lin Biao]
+    tags: ['name:luo-ronghuan', 'name:luo-ruiqing', 'name:lin-biao']
+- names:
+    id: cal.1960-04-18.china-leadership-3
+    add: [Kyaw Nyein]
+    tags: ['name:kyaw-nyein-u']
+- names:
+    id: cal.1960-04-18.china-leadership-5
+    add: [Luo Ronghuan]
+    tags: ['name:luo-ronghuan']
+- names:
+    id: cal.1960-04-21.china-leadership-15
+    add: [Singh]
+    tags: ['name:singh-swaran']
+- names:
+    id: cal.1960-04-22.china-leadership-14
+    add: [Singh]
+    tags: ['name:singh-swaran']
+- names:
+    id: cal.1960-04-23.china-leadership-8
+    add: [Singh]
+    tags: ['name:singh-swaran']
+- names:
+    id: cal.1960-04-23.china-leadership-10
+    add: [Singh]
+    tags: ['name:singh-swaran']
+- names:
+    id: cal.1960-05-05.china-leadership-2
+    add: [Suramarit]
+    tags: ['name:suramarit-norodom']
+- names:
+    id: cal.1960-05-20.china-leadership
+    add: [Deng Xiaoping]
+    tags: ['name:deng-xiaoping']
+- names:
+    id: cal.1960-05-24.china-leadership
+    add: [Chiang Ching-kuo]
+    tags: ['name:chiang-ching-kuo']
+- names:
+    id: cal.1960-05-27.china-leadership-8
+    add: [Zhou Enlai]
+    tags: ['name:zhou-enlai']
+- names:
+    id: cal.1960-06-01.china-leadership
+    add: [Lin Boqu]
+    tags: ['name:lin-boqu']
+- names:
+    id: cal.1960-06-17.china-leadership-2
+    add: [Ngô Đình Diệm]
+    tags: ['name:ngo-dinh-diem']
+- names:
+    id: cal.1960-06.governors
+    add: [Hays]
+    tags: ['name:hays-brooks']
+- names:
+    id: cal.1960-07-04.china-leadership-10
+    add: [Almeyda Medina]
+    tags: ['name:almeyda-medina-clodomiro']
+- names:
+    id: cal.1960-07.elections-1960-los-angeles-4
+    add: [Muñoz Marín]
+    tags: ['name:munoz-marin-luis']
+- names:
+    id: cal.1960-08-22.china-leadership-8
+    add: [Daud]
+    tags: ['name:daud-mohammed']
+- names:
+    id: cal.1960-08-30.elections-1960-kennedy
+    add: [Perkins]
+    tags: ['name:perkins-james-a']
+- names:
+    id: cal.1960-09-02.china-leadership-7
+    add: [Peng Dehuai]
+    tags: ['name:peng-dehuai']
+- names:
+    id: cal.1960-09-05.latin-america-2
+    add: [Lemus]
+    tags: ['name:lemus-jose-maria']
+- names:
+    id: cal.1960-09-06.vietnam
+    add: [Mukhitdinov]
+    tags: ['name:mukhitdinov-nuritdin-a']
+- names:
+    id: cal.1960-09-06.latin-america-3
+    add: [Herrera]
+    tags: ['name:herrera-felipe']
+- names:
+    id: cal.1960-09-06.congo-4
+    add: [Bolikango]
+    tags: ['name:bolikango-jean']
+- names:
+    id: cal.1960-09-07.elections-1960-kennedy-8
+    add: [Battle]
+    tags: ['name:battle-william-c']
+- names:
+    id: cal.1960-09-07.labor-7
+    add: [Gibbons]
+    tags: ['name:gibbons-harold-j']
+- names:
+    id: cal.1960-09-07.latin-america-2
+    add: [Pérez Jiménez]
+    tags: ['name:perez-jimenez-marcos']
+- names:
+    id: cal.1960-09-07.china-leadership-4
+    add: [Pieck]
+    tags: ['name:pieck-wilhelm']
+- names:
+    id: cal.1960-09-08.china-leadership-8
+    add: [Bolz, Pieck]
+    tags: ['name:bolz-lothar', 'name:pieck-wilhelm']
+- names:
+    id: cal.1960-09-17.immigration
+    add: [Iakovos]
+    tags: ['name:iakovos']
+- names:
+    id: cal.1960-09-20.china-leadership
+    add: [Xie Fuzhi]
+    tags: ['name:xie-fuzhi']
+- names:
+    id: cal.1960-09-27.china-leadership-2
+    add: [Li Xiannian]
+    tags: ['name:li-xiannian']
+- names:
+    id: cal.1960-09-27.china-leadership-11
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1960-09-29.china-leadership-7
+    add: [Deng Xiaoping]
+    tags: ['name:deng-xiaoping']
+- names:
+    id: cal.1960-09.elections-1960-kennedy-3
+    add: [Braden]
+    tags: ['name:braden-joan']
+- names:
+    id: cal.1960-10-10.china-leadership-2
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1960-10-23.china-leadership-5
+    add: [Chen Yi, Tan Zhenlin, Li Xiannian]
+    tags: ['name:chen-yi', 'name:tan-zhenlin', 'name:li-xiannian']
+- names:
+    id: cal.1960-12-21.transition-and-staff
+    add: [Adams]
+    tags: ['name:adams-sherman']
+- names:
+    id: cal.1960-12-30.soviet-union-2
+    add: [Sukarno]
+    tags: ['name:sukarno']
+- names:
+    id: cal.1960-12.transition-and-staff-4
+    add: [Adams]
+    tags: ['name:adams-sherman']
+- names:
+    id: cal.1961-01-04.laos-3
+    add: [Sarasin]
+    tags: ['name:sarasin-pote']
+- names:
+    id: cal.1961-01-05.china-leadership-19
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1961-01-09.china-leadership-13
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1961-01-12.china-leadership-7
+    add: [Hkun Hkio]
+    tags: ['name:hkun-hkio-sao']
+- names:
+    id: cal.1961-01-31.china-leadership-2
+    add: [Sun Zhiyuan]
+    tags: ['name:sun-zhiyuan']
+- names:
+    id: cal.1961-01.china-3
+    add: [Chiang Kai-shek]
+    tags: ['name:chiang-kai-shek']
+- names:
+    id: cal.1961-02-06.laos-2
+    add: [Chen Yi]
+    tags: ['name:chen-yi']
+- names:
+    id: cal.1961-02-13.vietnam
+    add: [White]
+    tags: ['name:white-isaac-d']
+- names:
+    id: cal.1961-02-23.defense
+    add: [Alsop]
+    tags: ['name:alsop-stewart']
+- names:
+    id: cal.1961-03-29.china-leadership-6
+    add: [Abdulgani]
+    tags: ['name:abdulgani-roeslan']
+- names:
+    id: cal.1961-03.china-leadership-10
+    add: [Sun Zhiyuan, Zhang Aiping]
+    tags: ['name:sun-zhiyuan', 'name:zhang-aiping']
+- names:
+    id: cal.1961-04-03.china-leadership-14
+    add: [Liu Shaoqi]
+    tags: ['name:liu-shaoqi']
+- names:
+    id: cal.1961-04-10.latin-america-dominican-republic-2
+    add: [Elder]
+    tags: ['name:elder-walter']
+- names:
+    id: cal.1961-04-19.cuba-bay-of-pigs-2
+    add: [Powers]
+    tags: ['name:powers-francis-gary']
+- names:
+    id: cal.1961-04-22.china-leadership
+    add: [Souphanouvong]
+    tags: ['name:souphanouvong']
+- names:
+    id: cal.1961-04-25.china-leadership-2
+    add: [Norodom Sihanouk]
+    tags: ['name:norodom-sihanouk']
+- names:
+    id: cal.1961-05-02.china-leadership-2
+    add: [Savang Vatthana]
+    tags: ['name:savang-vatthana']
+- names:
+    id: cal.1961-05-05.vietnam-johnson-asia
+    tags: ['name:rayburn-sam']
+- names:
+    id: cal.1961-05-17.soviet-union
+    add: [Deng Xiaoping]
+    tags: ['name:deng-xiaoping']
+- names:
+    id: cal.1961-06-05.china-leadership
+    add: [Souphanouvong]
+    tags: ['name:souphanouvong']
+- names:
+    id: cal.1961-06-06.china-leadership-10
+    add: [Chauvel]
+    tags: ['name:chauvel-jean']
+- names:
+    id: cal.1961-06-07.laos
+    add: [Vang Pao]
+    tags: ['name:vang-pao']
+- names:
+    id: cal.1961-06-25.china-leadership-2
+    add: [Phạm Văn Đồng]
+    tags: ['name:pham-van-dong']
+- names:
+    id: cal.1961-06-29.jobs-and-wages
+    add: [Lincoln]
+    tags: ['name:lincoln-evelyn']
+- names:
+    id: cal.1961-07-09.china-leadership
+    add: [Chen Yi]
+    tags: ['name:chen-yi']
+- names:
+    id: cal.1961-07-25.press-and-broadcasting
+    add: [Higgins]
+    tags: ['name:higgins-marguerite']
+- names:
+    id: cal.1961-07-26.china-leadership-11
+    add: [Karjalainen]
+    tags: ['name:karjalainen-ahti']
+- names:
+    id: cal.1961-08-22.china-leadership-6
+    add: [Manescu]
+    tags: ['name:manescu-corneliu']
+- names:
+    id: cal.1961-08.china-leadership-6
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1961-09-12.defense-2
+    add: [Andrew T. McNamara]
+    tags: ['name:mcnamara-andrew-t']
+- names:
+    id: cal.1961-09-18.china-leadership
+    add: [Zhu De, He Long, Liu Bocheng]
+    tags: ['name:zhu-de', 'name:he-long', 'name:liu-bocheng']
+- names:
+    id: cal.1961-09-20.defense-2
+    add: [Pittman]
+    tags: ['name:pittman-steuart-l']
+- names:
+    id: cal.1961-10-03.china-leadership
+    add: [Zhang Wenjin]
+    tags: ['name:zhang-wenjin']
+- names:
+    id: cal.1961-10-05.intelligence
+    add: [Kent]
+    tags: ['name:kent-sherman']
+- names:
+    id: cal.1961-10-10.china-leadership
+    add: [Aung Gyi]
+    tags: ['name:aung-gyi']
+- names:
+    id: cal.1961-10-21.china-leadership-3
+    add: [Phoumi Vongvichit]
+    tags: ['name:phoumi-vongvichit']
+- names:
+    id: cal.1961-11-03.china-leadership
+    add: [Quinim Pholsena, Phoumi Vongvichit]
+    tags: ['name:quinim-pholsena', 'name:phoumi-vongvichit']
+- names:
+    id: cal.1961-11-08.china
+    add: [Ưng Văn Khiêm]
+    tags: ['name:ung-van-khiem']
+- names:
+    id: cal.1961-11-14.laos
+    add: [Souphanouvong]
+    tags: ['name:souphanouvong']
+- names:
+    id: cal.1961-11-29.cuba
+    add: [King]
+    tags: ['name:king-j-c']
+- names:
+    id: cal.1961-11-29.china
+    add: [Ưng Văn Khiêm]
+    tags: ['name:ung-van-khiem']
+- names:
+    id: cal.1961-12.antisubversion
+    add: [Brandon]
+    tags: ['name:brandon-henry']
+- names:
+    id: cal.1961-12.robert-kennedy
+    add: [Cassini]
+    tags: ['name:cassini-igor']
+- names:
+    id: cal.1962-01-13.china
+    add: [Ưng Văn Khiêm]
+    tags: ['name:ung-van-khiem']
+- names:
+    id: cal.1962-01.europe-and-the-alliance
+    add: [Amery]
+    tags: ['name:amery-julian']
+- names:
+    id: cal.1962.china-leadership-11
+    add: [Hồ Chí Minh]
+    tags: ['name:ho-chi-minh']
+- names:
+    id: cal.1962.south-asia
+    add: [Kaul]
+    tags: ['name:kaul-b-m']
+- names:
+    id: cal.1962.china-leadership-52
+    add: [Chiang Kai-shek]
+    tags: ['name:chiang-kai-shek']
+- names:
+    id: cal.1962.china-leadership-57
+    add: [Nguyễn Chí Thanh]
+    tags: ['name:nguyen-chi-thanh']
+- names:
+    id: cal.1962-02-24.robert-kennedy
+    add: [Dulles]
+    tags: ['name:dulles-john-foster']
+- names:
+    id: cal.1962-03-01.vietnam-diplomacy
+    add: [Lê Duẩn]
+    tags: ['name:le-duan']
+- names:
+    id: cal.1962-03-05.china-leadership
+    tags: ['name:phoumi-vongvichit']
+- names:
+    id: cal.1962-03-06.china-leadership-9
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1962-03-16.china-leadership-4
+    add: [Deng Xiaoping]
+    tags: ['name:deng-xiaoping']
+- names:
+    id: cal.1962-04-02.conservation
+    add: [Crafts]
+    tags: ['name:crafts-edward-c']
+- names:
+    id: cal.1962-04-29.china-leadership-4
+    add: [Mao Zedong, Zhou Enlai]
+    tags: ['name:mao-zedong', 'name:zhou-enlai']
+- names:
+    id: cal.1962-05-30.china-leadership
+    tags: ['name:sun-zhiyuan']
+- names:
+    id: cal.1962-05-31.vietnam-hanoi
+    tags: ['name:nguyen-tho-chan']
+- names:
+    id: cal.1962-06-08.china-leadership
+    add: [Chiang Kai-shek]
+    tags: ['name:chiang-kai-shek']
+- names:
+    id: cal.1962-06-18.china-leadership-6
+    add: [Hua Guofeng]
+    tags: ['name:hua-guofeng']
+- names:
+    id: cal.1962-06-29.china-leadership-2
+    tags: ['name:phoumi-vongvichit']
+- names:
+    id: cal.1962-07-01.china-2
+    add: [Kayibanda]
+    tags: ['name:kayibanda-gregoire']
+- names:
+    id: cal.1962-07-27.china-leadership
+    tags: ['name:phoumi-vongvichit']
+- names:
+    id: cal.1962-07-27.china-leadership-3
+    add: [Phoumi Vongvichit]
+    tags: ['name:phoumi-vongvichit']
+- names:
+    id: cal.1962-07.south-asia-3
+    add: [Thimayya]
+    tags: ['name:thimayya-k-s']
+- names:
+    id: cal.1962-08-30.china-2
+    add: [Williams]
+    tags: ['name:williams-eric']
+- names:
+    id: cal.1962-08-30.china-leadership
+    add: [Liu Shaoqi, Zhou Enlai, Deng Xiaoping]
+    tags: ['name:liu-shaoqi', 'name:zhou-enlai', 'name:deng-xiaoping']
+- names:
+    id: cal.1962-10-01.china
+    add: [Liu Shaoqi, Dong Biwu, Zhu De, Deng Xiaoping]
+    tags: ['name:liu-shaoqi', 'name:dong-biwu', 'name:zhu-de', 'name:deng-xiaoping']
+- names:
+    id: cal.1962-10-01.china-3
+    add: [Luo Ruiqing, Xie Fuzhi]
+    tags: ['name:luo-ruiqing', 'name:xie-fuzhi']
+- names:
+    id: cal.1962-10-04.south-asia
+    add: [Kaul]
+    tags: ['name:kaul-b-m']
+- names:
+    id: cal.1962-10-05.vietnam-hanoi
+    add: [Liu Shaoqi, Zhu De, Deng Xiaoping, Ye Jianying, Luo Ruiqing, Xiao Xiangrong]
+    tags: ['name:liu-shaoqi', 'name:zhu-de', 'name:deng-xiaoping', 'name:ye-jianying', 'name:luo-ruiqing', 'name:xiao-xiangrong']
+- names:
+    id: cal.1962-10-08.china
+    add: [Liu Shaoqi, Zhu De, Deng Xiaoping, Luo Ruiqing, Xie Fuzhi]
+    tags: ['name:liu-shaoqi', 'name:zhu-de', 'name:deng-xiaoping', 'name:luo-ruiqing', 'name:xie-fuzhi']
+- names:
+    id: cal.1962-10-08.south-asia
+    add: [Liu Shaoqi, Zhu De, Deng Xiaoping, Chen Yi, He Long, Nie Rongzhen, Luo Ruiqing]
+    tags: ['name:liu-shaoqi', 'name:zhu-de', 'name:deng-xiaoping', 'name:chen-yi', 'name:he-long', 'name:nie-rongzhen', 'name:luo-ruiqing']
+- names:
+    id: cal.1962-10-17.south-asia
+    add: [Liu Shaoqi, Zhu De, Deng Xiaoping, Peng Zhen, Chen Yi, He Long, Nie Rongzhen, Luo Ruiqing]
+    tags: ['name:liu-shaoqi', 'name:zhu-de', 'name:deng-xiaoping', 'name:peng-zhen', 'name:chen-yi', 'name:he-long', 'name:nie-rongzhen', 'name:luo-ruiqing']
+- names:
+    id: cal.1962-10-20.china
+    add: [Liu Shaoqi, Zhu De, Deng Xiaoping]
+    tags: ['name:liu-shaoqi', 'name:zhu-de', 'name:deng-xiaoping']
+- names:
+    id: cal.1962-10-22.missile-crisis-22
+    add: [Kent]
+    tags: ['name:kent-sherman']
+- names:
+    id: cal.1962-10-26.missile-crisis-8
+    add: [U Thant]
+    tags: ['name:u-thant']
+- names:
+    id: cal.1962-10-30.china
+    add: [Luo Ruiqing, He Long, Li Fuchun, Zhang Aiping, Li Xiannian, Bo Yibo, Lu Dingyi, Nie Rongzhen, Zhao Erlu, Liu Jie, Sun Zhiyuan, Duan Junyi, Gao Yang, Liu Shaoqi]
+    tags: ['name:luo-ruiqing', 'name:he-long', 'name:li-fuchun', 'name:zhang-aiping', 'name:li-xiannian', 'name:bo-yibo', 'name:lu-dingyi', 'name:nie-rongzhen', 'name:zhao-erlu', 'name:liu-jie', 'name:sun-zhiyuan',
+      'name:duan-junyi', 'name:gao-yang', 'name:liu-shaoqi']
+- names:
+    id: cal.1962-10-30.china-leadership
+    add: [Chen Yi]
+    tags: ['name:chen-yi']
+- names:
+    id: cal.1962-10.latin-america
+    add: [Cassini]
+    tags: ['name:cassini-igor']
+- names:
+    id: cal.1962-10.robert-kennedy
+    add: [Cassini]
+    tags: ['name:cassini-igor']
+- names:
+    id: cal.1962-10.japan
+    add: [Takasaki]
+    tags: ['name:takasaki-tatsunosuke']
+- names:
+    id: cal.1962-11-09.japan
+    add: [Takasaki]
+    tags: ['name:takasaki-tatsunosuke']
+- names:
+    id: cal.1962-11-10.economy
+    add: [Roosevelt]
+    tags: ['name:roosevelt-eleanor']
+- names:
+    id: cal.1962-11-10.democratic-party
+    add: [Perkins]
+    tags: ['name:perkins-frances']
+- names:
+    id: cal.1962-11-15.missile-crisis-3
+    add: [U Thant]
+    tags: ['name:u-thant']
+- names:
+    id: cal.1962-11-19.missile-crisis-2
+    add: [Kent]
+    tags: ['name:kent-sherman']
+- names:
+    id: cal.1962-11-27.china-leadership-2
+    add: [Shaha]
+    tags: ['name:shaha-rishikesh']
+- names:
+    id: cal.1962-11-30.robert-kennedy
+    add: [Hays]
+    tags: ['name:hays-brooks']
+- names:
+    id: cal.1962-12-04.china-leadership
+    tags: ['name:liu-jie']
+- names:
+    id: cal.1962-12-31.congo
+    add: [U Thant]
+    tags: ['name:u-thant']
+- names:
+    id: cal.1963-01-01.china-leadership-2
+    add: [Sabri]
+    tags: ['name:sabri-ali']
+- names:
+    id: cal.1963-01-31.china
+    add: [Khamking Souvanlasy]
+    tags: ['name:khamking-souvanlasy']
+- names:
+    id: cal.1963-02-04.china-leadership
+    add: [Khamking Souvanlasy]
+    tags: ['name:khamking-souvanlasy']
+- names:
+    id: cal.1963-03-01.china-leadership-10
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1963-03-07.china-leadership-2
+    add: [Chiang Kai-shek]
+    tags: ['name:chiang-kai-shek']
+- names:
+    id: cal.1963-03-13.china-leadership-4
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1963-03-15.china
+    add: [Bitar]
+    tags: ['name:bitar-salah-al-din']
+- names:
+    id: cal.1963-04-21.china-leadership-2
+    add: [Sabri]
+    tags: ['name:sabri-ali']
+- names:
+    id: cal.1963-04-30.china-leadership-2
+    add: [Petri]
+    tags: ['name:petri-lennart']
+- names:
+    id: cal.1963-04-30.china-leadership-11
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1963-05-02.press-and-broadcasting
+    add: [Nixon]
+    tags: ['name:nixon-richard-m']
+- names:
+    id: cal.1963-05-03.china-leadership-2
+    add: [Sabri]
+    tags: ['name:sabri-ali']
+- names:
+    id: cal.1963-05-10.vietnam-2
+    add: [Tinh Khiet]
+    tags: ['name:tinh-khiet']
+- names:
+    id: cal.1963-05-15.conservation
+    add: [MacLeod]
+    tags: ['name:macleod-colin-m']
+- names:
+    id: cal.1963-06-01.china-leadership
+    tags: ['name:khan-malik-nur']
+- names:
+    id: cal.1963-06-12.civil-rights-bill-3
+    add: [Jones]
+    tags: ['name:jones-norvill']
+- names:
+    id: cal.1963-06-16.china-leadership-8
+    add: [Chiang Kai-shek]
+    tags: ['name:chiang-kai-shek']
+- names:
+    id: cal.1963-06-18.desegregation-public-places
+    add: [Evers]
+    tags: ['name:evers-medgar']
+- names:
+    id: cal.1963-06-18.mississippi-2
+    add: [Evers]
+    tags: ['name:evers-medgar']
+- names:
+    id: cal.1963-06-29.china-leadership-2
+    add: [Khamking Souvanlasy]
+    tags: ['name:khamking-souvanlasy']
+- names:
+    id: cal.1963-06.king
+    add: [Abel]
+    tags: ['name:abel-rudolf']
+- names:
+    id: cal.1963-03.china-leadership-4
+    add: [Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping]
+    tags: ['name:liu-shaoqi', 'name:zhou-enlai', 'name:zhu-de', 'name:deng-xiaoping']
+- names:
+    id: cal.1963-07-26.china-leadership-2
+    tags: ['name:liu-jie']
+- names:
+    id: cal.1963-07-27.china-leadership-6
+    add: [Qiao Guanhua]
+    tags: ['name:qiao-guanhua']
+- names:
+    id: cal.1963-07.king
+    add: [Abel]
+    tags: ['name:abel-rudolf']
+- names:
+    id: cal.1963-08-19.vietnam-hanoi
+    add: [Hoàng Văn Thái]
+    tags: ['name:hoang-van-thai']
+- names:
+    id: cal.1963-08-27.china-leadership-7
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1963-09-10.china
+    add: [Chiang Ching-kuo]
+    tags: ['name:chiang-ching-kuo']
+- names:
+    id: cal.1963-09-12.testing
+    add: [Garroway]
+    tags: ['name:garroway-dave']
+- names:
+    id: cal.1963-09-18.alabama-birmingham
+    add: [Robertson]
+    tags: ['name:robertson-carole']
+- names:
+    id: cal.1963-09-28.china-leadership-5
+    add: [Georges-Picot]
+    tags: ['name:georges-picot-guillaume']
+- names:
+    id: cal.1963-10-02.china-leadership-4
+    add: [Azikiwe]
+    tags: ['name:azikiwe-nnamdi']
+- names:
+    id: cal.1963-11-08.china-leadership-8
+    add: [Sambath]
+    tags: ['name:sambath-huot']
+- names:
+    id: cal.1963-11-23.assassination-6
+    add: [Tuckerman]
+    tags: ['name:tuckerman-nancy']
+- names:
+    id: cal.1963-11-27.china-leadership-5
+    tags: ['name:zhu-de']
+- names:
+    id: cal.1963-11.black-nationalism
+    add: [Richardson]
+    tags: ['name:richardson-gloria']
+- names:
+    id: cal.1963-12-02.succession-2
+    add: [Abell]
+    tags: ['name:abell-tyler']
+- names:
+    id: cal.1963-12-05.latin-america
+    add: [Dulles]
+    tags: ['name:dulles-john-foster']
+- names:
+    id: cal.1963-12-05.china-leadership-3
+    tags: ['name:liu-jie']
+- names:
+    id: cal.1963-12-11.robert-kennedy
+    add: [Baggs]
+    tags: ['name:baggs-william']
+- names:
+    id: cal.1963-12-12.china-3
+    add: [Beaumarchais]
+    tags: ['name:beaumarchais-jacques-de']
+- names:
+    id: cal.1963-12-14.china-leadership-8
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1963-12-18.program-2
+    tags: ['name:adams-eva']
+- names:
+    id: cal.1963-12-23.china-leadership-9
+    add: [Abboud]
+    tags: ['name:abboud-ibrahim']
+- names:
+    id: cal.1963-12-24.china-leadership-7
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1963-12-28.china-leadership-8
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1963-12.china-leadership-5
+    add: [Luo Ronghuan]
+    tags: ['name:luo-ronghuan']
+- names:
+    id: cal.1964-01-09.china-leadership-13
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1964-01-23.white-house
+    add: [Abell]
+    tags: ['name:abell-bess']
+- names:
+    id: cal.1964-01-26.china-leadership-3
+    add: [Chen Yi]
+    tags: ['name:chen-yi']
+- names:
+    id: cal.1964-02-04.elections-1964
+    add: [Thomas]
+    tags: ['name:thomas-albert']
+- names:
+    id: cal.1964-02-09.china-leadership
+    add: [Chen Yi]
+    tags: ['name:chen-yi']
+- names:
+    id: cal.1964-02-11.china-leadership-3
+    add: [Lê Duẩn]
+    tags: ['name:le-duan']
+- names:
+    id: cal.1964-02-22.china-leadership-7
+    add: [Chiang Kai-shek]
+    tags: ['name:chiang-kai-shek']
+- names:
+    id: cal.1964-03-05.civil-rights-bill
+    add: [Myart]
+    tags: ['name:myart-leon']
+- names:
+    id: cal.1964-03-10.succession
+    add: [Iakovos]
+    tags: ['name:iakovos']
+- names:
+    id: cal.1964-03-11.china-leadership-3
+    add: [Chayet]
+    tags: ['name:chayet-claude']
+- names:
+    id: cal.1964-03-12.succession
+    add: [Juliana, Baudouin]
+    tags: ['name:juliana', 'name:baudouin']
+- names:
+    id: cal.1964-03-12.succession-2
+    add: [Juliana]
+    tags: ['name:juliana']
+- names:
+    id: cal.1964-03-17.china-leadership
+    tags: ['name:lon-nol']
+- names:
+    id: cal.1964-03-19.china-leadership-7
+    add: [Chayet]
+    tags: ['name:chayet-claude']
+- names:
+    id: cal.1964-03-29.china-leadership
+    add: [Souvanna Phouma]
+    tags: ['name:souvanna-phouma']
+- names:
+    id: cal.1964-04-27.china-leadership
+    add: [Liu Shaoqi]
+    tags: ['name:liu-shaoqi']
+- names:
+    id: cal.1964-04.mayors
+    add: [Paul VI]
+    tags: ['name:paul-vi']
+- names:
+    id: cal.1964-04-30.white-house
+    add: [Roosevelt]
+    tags: ['name:roosevelt-eleanor']
+- names:
+    id: cal.1964-05-01.china-leadership-8
+    add: [Khan]
+    tags: ['name:khan-nur']
+- names:
+    id: cal.1964-05-02.china-leadership
+    tags: ['name:khan-nur']
+- names:
+    id: cal.1964-05-03.china-leadership-8
+    add: [Khan]
+    tags: ['name:khan-nur']
+- names:
+    id: cal.1964-05-05.china-leadership
+    add: [Chen Yi]
+    tags: ['name:chen-yi']
+- names:
+    id: cal.1964-05-08.china-leadership-3
+    tags: ['name:novotny-antonin']
+- names:
+    id: cal.1964-05-17.china-leadership-4
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1964-05-18.laos
+    add: [Ma]
+    tags: ['name:ma-thao']
+- names:
+    id: cal.1964-05-21.poverty
+    add: [Abell]
+    tags: ['name:abell-bess']
+- names:
+    id: cal.1964-06-04.elections-1964-johnson
+    add: [Ford]
+    tags: ['name:ford-henry-ii']
+- names:
+    id: cal.1964-06-08.mississippi
+    add: [Turnbow]
+    tags: ['name:turnbow-hartman']
+- names:
+    id: cal.1964-06-09.europe-and-the-alliance
+    add: [Krag]
+    tags: ['name:krag-jens-otto']
+- names:
+    id: cal.1964-06-26.mississippi-4
+    add: [Allen]
+    tags: ['name:allen-louis']
+- names:
+    id: cal.1964-06-27.soviet-union-leadership
+    add: [Ne Win, Keita]
+    tags: ['name:ne-win', 'name:keita-modibo']
+- names:
+    id: cal.1964-06.china-leadership-2
+    tags: ['name:kenyatta-jomo']
+- names:
+    id: cal.1964-06.africa
+    add: [U Thant]
+    tags: ['name:u-thant']
+- names:
+    id: cal.1964-07-02.civil-rights-bill-4
+    add: [Luce]
+    tags: ['name:luce-clare-boothe']
+- names:
+    id: cal.1964-07-07.china-leadership-2
+    tags: ['name:yao-wenyuan']
+- names:
+    id: cal.1964-07-21.vietnam-hanoi
+    add: [Nguyễn Khánh]
+    tags: ['name:nguyen-khanh']
+- names:
+    id: cal.1964-07-27.states-and-cities
+    add: [Powell]
+    tags: ['name:powell-james']
+- names:
+    id: cal.1964-07-29.china-leadership
+    add: [Chen Boda]
+    tags: ['name:chen-boda']
+- names:
+    id: cal.1964-08-03.vietnam-4
+    add: [Kennedy]
+    tags: ['name:kennedy-jacqueline']
+- names:
+    id: cal.1964-08-04.china-leadership-2
+    add: [Liu Shaoqi]
+    tags: ['name:liu-shaoqi']
+- names:
+    id: cal.1964-08-05.china
+    add: [Luo Ruiqing, Văn Tiến Dũng]
+    tags: ['name:luo-ruiqing', 'name:van-tien-dung']
+- names:
+    id: cal.1964-08-06.vietnam-4
+    add: [U Thant]
+    tags: ['name:u-thant']
+- names:
+    id: cal.1964-08-07.right-and-the-military
+    add: [Hargis]
+    tags: ['name:hargis-billy-james']
+- names:
+    id: cal.1964-08-09.elections-1964
+    add: [Carpenter]
+    tags: ['name:carpenter-liz']
+- names:
+    id: cal.1964-08-09.mississippi
+    add: [Goodman, Schwerner]
+    tags: ['name:goodman-andrew', 'name:schwerner-michael']
+- names:
+    id: cal.1964-08-18.laos
+    add: [Ma]
+    tags: ['name:ma-thao']
+- names:
+    id: cal.1964-09-04.elections-1964-johnson
+    add: [Abell]
+    tags: ['name:abell-bess']
+- names:
+    id: cal.1964-09-06.china-leadership-2
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1964-09-14.europe-and-the-alliance
+    add: [Paul VI]
+    tags: ['name:paul-vi']
+- names:
+    id: cal.1964-09-16.king
+    add: [Paul VI]
+    tags: ['name:paul-vi']
+- names:
+    id: cal.1964-09-21.china-leadership-2
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1964-09-25.soviet-union
+    add: [Chen Yi]
+    tags: ['name:chen-yi']
+- names:
+    id: cal.1964-09-27.china-leadership-6
+    add: [He Long]
+    tags: ['name:he-long']
+- names:
+    id: cal.1964-09.mississippi-2
+    add: [Roberts]
+    tags: ['name:roberts-alton-wayne']
+- names:
+    id: cal.1964-10-02.china-leadership-4
+    add: [Suryadarma]
+    tags: ['name:suryadarma']
+- names:
+    id: cal.1964-10-04.china-leadership-6
+    add: [Saleh]
+    tags: ['name:saleh-chaerul']
+- names:
+    id: cal.1964-10-05.china-leadership-3
+    tags: ['name:nguyen-co-thach', 'name:phoumi-vongvichit']
+- names:
+    id: cal.1964-10-10.china-leadership-2
+    tags: ['name:phoumi-vongvichit']
+- names:
+    id: cal.1964-10-11.conservative-movement
+    add: [Friedman]
+    tags: ['name:friedman-milton']
+- names:
+    id: cal.1964-10-11.china-leadership
+    add: [Qiao Guanhua]
+    tags: ['name:qiao-guanhua']
+- names:
+    id: cal.1964-10-11.china-leadership-8
+    add: [He Long]
+    tags: ['name:he-long']
+- names:
+    id: cal.1964-10-12.china-leadership-2
+    add: [Souphanouvong, Phoumi Vongvichit]
+    tags: ['name:souphanouvong', 'name:phoumi-vongvichit']
+- names:
+    id: cal.1964-10-13.china-leadership-5
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1964-10-18.china-leadership-8
+    tags: ['name:qiao-guanhua']
+- names:
+    id: cal.1964-10-24.china-leadership-4
+    tags: ['name:qiao-guanhua']
+- names:
+    id: cal.1964-10-29.china-leadership-7
+    add: [Khan]
+    tags: ['name:khan-nur']
+- names:
+    id: cal.1964-10-29.china-leadership-15
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1964-11-02.soviet-union-2
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1964-11-03.mississippi
+    add: [Devine]
+    tags: ['name:devine-annie']
+- names:
+    id: cal.1964-11-04.china-leadership-9
+    add: [Phạm Văn Đồng]
+    tags: ['name:pham-van-dong']
+- names:
+    id: cal.1964-11-05.mississippi
+    add: [Roberts]
+    tags: ['name:roberts-alton-wayne']
+- names:
+    id: cal.1964-11-07.china-leadership-7
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1964-11-08.china
+    add: [Kang Sheng, He Long]
+    tags: ['name:kang-sheng', 'name:he-long']
+- names:
+    id: cal.1964-11-13.china-leadership
+    add: [He Long]
+    tags: ['name:he-long']
+- names:
+    id: cal.1964-11-13.china-leadership-5
+    add: [Phạm Văn Đồng]
+    tags: ['name:pham-van-dong']
+- names:
+    id: cal.1964-11-17.white-house
+    add: [Graham]
+    tags: ['name:graham-katharine']
+- names:
+    id: cal.1964-11-21.china-leadership-3
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1964-11-26.china-leadership-6
+    tags: ['name:wu-faxian']
+- names:
+    id: cal.1964-12-12.king
+    add: [Myrdal]
+    tags: ['name:myrdal-alva']
+- names:
+    id: cal.1964-12-14.civil-rights-the-executive
+    add: [Hays]
+    tags: ['name:hays-brooks']
+- names:
+    id: cal.1964-12-27.china-leadership-2
+    add: [Nguyen Co Thach]
+    tags: ['name:nguyen-co-thach']
+- names:
+    id: cal.1964-12-28.china-leadership-3
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1965-01-06.congress
+    add: [Hutchinson]
+    tags: ['name:hutchinson-everett']
+- names:
+    id: cal.1965-01-13.china-leadership-4
+    add: [He Long]
+    tags: ['name:he-long']
+- names:
+    id: cal.1965-01-28.king
+    add: [Jenkins]
+    tags: ['name:jenkins-herbert']
+- names:
+    id: cal.1965-01.china-leadership-9
+    add: [Li Fuchun, Luo Ruiqing, Bo Yibo]
+    tags: ['name:li-fuchun', 'name:luo-ruiqing', 'name:bo-yibo']
+- names:
+    id: cal.1965-02-01.china-leadership
+    tags: ['name:zhao-erlu']
+- names:
+    id: cal.1965-02-02.china-leadership
+    tags: ['name:zhao-erlu']
+- names:
+    id: cal.1965-02-18.china-leadership-9
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1965-02-21.china-leadership
+    add: [Chiang Kai-shek]
+    tags: ['name:chiang-kai-shek']
+- names:
+    id: cal.1965-02-22.vietnam-saigon
+    add: [Tran Van Minh]
+    tags: ['name:tran-van-minh']
+- names:
+    id: cal.1965-03-06.vietnam-saigon
+    add: [Phan Huy Quát]
+    tags: ['name:phan-huy-quat']
+- names:
+    id: cal.1965-03-08.press-and-broadcasting
+    add: [Stone]
+    tags: ['name:stone-i-f']
+- names:
+    id: cal.1965-03-13.china-leadership
+    tags: ['name:zhao-erlu']
+- names:
+    id: cal.1965-03-14.china-leadership-2
+    add: [Chiang Kai-shek]
+    tags: ['name:chiang-kai-shek']
+- names:
+    id: cal.1965-03-15.voting-rights-selma-2
+    add: [Iakovos]
+    tags: ['name:iakovos']
+- names:
+    id: cal.1965-03-18.china-leadership-2
+    add: [Sukarno, Ali Sastroamidjojo]
+    tags: ['name:sukarno', 'name:ali-sastroamidjojo']
+- names:
+    id: cal.1965-03-20.china-leadership-14
+    add: [Gheorghiu-Dej]
+    tags: ['name:gheorghiu-dej-gheorghe']
+- names:
+    id: cal.1965-03-23.china-leadership-11
+    add: [Zahir]
+    tags: ['name:zahir-abdul']
+- names:
+    id: cal.1965-03-23.china-leadership-12
+    add: [Zahir]
+    tags: ['name:zahir-abdul']
+- names:
+    id: cal.1965-03-24.china-leadership-15
+    add: [Zahir]
+    tags: ['name:zahir-abdul']
+- names:
+    id: cal.1965-03-24.china-leadership-16
+    add: [Zahir]
+    tags: ['name:zahir-abdul']
+- names:
+    id: cal.1965-03-25.immigration
+    add: [Kennedy]
+    tags: ['name:kennedy-jacqueline']
+- names:
+    id: cal.1965-03-26.vietnam-congress
+    add: [Hồ Chí Minh]
+    tags: ['name:ho-chi-minh']
+- names:
+    id: cal.1965-03.congress
+    add: [Newhouse]
+    tags: ['name:newhouse-john']
+- names:
+    id: cal.1965-04-03.vietnam-3
+    add: [Tran Van Minh]
+    tags: ['name:tran-van-minh']
+- names:
+    id: cal.1965-04-04.civil-rights-organizations
+    add: [Terkel]
+    tags: ['name:terkel-studs']
+- names:
+    id: cal.1965-04-14.laos
+    add: [Ma]
+    tags: ['name:ma-thao']
+- names:
+    id: cal.1965-04-17.china-leadership-3
+    add: [Norodom Kantol]
+    tags: ['name:norodom-kantol']
+- names:
+    id: cal.1965-04-20.vietnam-saigon
+    add: [Phan Huy Quát]
+    tags: ['name:phan-huy-quat']
+- names:
+    id: cal.1965-04-23.china-leadership-2
+    add: [Norodom Kantol]
+    tags: ['name:norodom-kantol']
+- names:
+    id: cal.1965-04-24.china-leadership
+    add: [Ali Sastroamidjojo, Chalid]
+    tags: ['name:ali-sastroamidjojo', 'name:chalid-idham']
+- names:
+    id: cal.1965-04-24.china-leadership-7
+    add: [Malraux]
+    tags: ['name:malraux-andre']
+- names:
+    id: cal.1965-04-25.china-leadership-4
+    add: [Phạm Văn Đồng, Norodom Kantol, Souphanouvong]
+    tags: ['name:pham-van-dong', 'name:norodom-kantol', 'name:souphanouvong']
+- names:
+    id: cal.1965-04-27.china-leadership-2
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1965-04-29.china-leadership-2
+    tags: ['name:botsio-kojo']
+- names:
+    id: cal.1965-04-30.intelligence
+    add: [Kent]
+    tags: ['name:kent-sherman']
+- names:
+    id: cal.1965-05-20.china-leadership-2
+    add: [Sukarno]
+    tags: ['name:sukarno']
+- names:
+    id: cal.1965-05-25.vietnam-2
+    add: [Mai Van Bo]
+    tags: ['name:mai-van-bo']
+- names:
+    id: cal.1965-05-29.china-leadership
+    add: [Subandrio]
+    tags: ['name:subandrio']
+- names:
+    id: cal.1965-05.students
+    add: [Conlon]
+    tags: ['name:conlon-thomas-f']
+- names:
+    id: cal.1965-06-03.china-leadership-3
+    add: [Sabri]
+    tags: ['name:sabri-ali']
+- names:
+    id: cal.1965-06-14.war-opposition
+    add: [Abell]
+    tags: ['name:abell-bess']
+- names:
+    id: cal.1965-06-24.china-leadership-9
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1965-06-30.china-leadership-6
+    add: [Malraux]
+    tags: ['name:malraux-andre']
+- names:
+    id: cal.1965-07-02.press-and-broadcasting
+    add: [Luci Baines Johnson]
+    tags: ['name:johnson-luci-baines']
+- names:
+    id: cal.1965-07-17.china-leadership-7
+    add: [Ceausescu]
+    tags: ['name:ceausescu-nicolae']
+- names:
+    id: cal.1965-07-18.china-leadership-6
+    add: [Gheorghiu-Dej]
+    tags: ['name:gheorghiu-dej-gheorghe']
+- names:
+    id: cal.1965-07-23.latin-america-dominican-republic
+    add: [Muñoz Marín]
+    tags: ['name:munoz-marin-luis']
+- names:
+    id: cal.1965-07-24.china-leadership-3
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1965-07-24.china-leadership-4
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1965-07-25.china-leadership-4
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1965-07-25.china-leadership-6
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1965-07-26.china-leadership-2
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1965-07-27.china-leadership-3
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1965-07-29.china-leadership-2
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1965-07-29.china-leadership-3
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1965-07-30.china-leadership-2
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1965-07-31.china-leadership
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1965-08-02.china-leadership
+    tags: ['name:malraux-andre']
+- names:
+    id: cal.1965-08-05.voting-rights
+    add: [Malone]
+    tags: ['name:malone-vivian']
+- names:
+    id: cal.1965-08-09.vietnam-congress
+    add: [U Thant]
+    tags: ['name:u-thant']
+- names:
+    id: cal.1965-08-12.china-leadership-2
+    tags: ['name:nguyen-huu-tho']
+- names:
+    id: cal.1965-08-17.poverty
+    add: [Sawyer]
+    tags: ['name:sawyer-grant']
+- names:
+    id: cal.1965-08-18.civil-disorders-watts
+    add: [Muhammad]
+    tags: ['name:muhammad-elijah']
+- names:
+    id: cal.1965-09-03.china
+    add: [Luo Ruiqing, Kang Sheng]
+    tags: ['name:luo-ruiqing', 'name:kang-sheng']
+- names:
+    id: cal.1965-09-10.china-leadership-8
+    add: [Tep Phan]
+    tags: ['name:tep-phan']
+- names:
+    id: cal.1965-09-12.china-leadership-3
+    add: [Tep Phan]
+    tags: ['name:tep-phan']
+- names:
+    id: cal.1965-09-16.vietnam-saigon
+    add: [Nguyen Duc Thang]
+    tags: ['name:nguyen-duc-thang']
+- names:
+    id: cal.1965-09-17.china-leadership
+    add: [Sukarno, Subandrio]
+    tags: ['name:dani-omar', 'name:sukarno', 'name:subandrio']
+- names:
+    id: cal.1965-10-01.laos
+    add: [Ma]
+    tags: ['name:ma-thao']
+- names:
+    id: cal.1965-10-03.program
+    add: [U Thant]
+    tags: ['name:u-thant']
+- names:
+    id: cal.1965-10-17.china-leadership-3
+    add: [Sabri]
+    tags: ['name:sabri-ali']
+- names:
+    id: cal.1965-10-26.china-leadership
+    tags: ['name:zhao-erlu']
+- names:
+    id: cal.1965-11-03.laos
+    add: [Ma]
+    tags: ['name:ma-thao']
+- names:
+    id: cal.1965-11-11.black-nationalism
+    add: [Stone]
+    tags: ['name:stone-i-f']
+- names:
+    id: cal.1965-11-20.laos
+    add: [Ma]
+    tags: ['name:ma-thao']
+- names:
+    id: cal.1965-11-30.china-leadership
+    tags: ['name:chauvel-jean']
+- names:
+    id: cal.1965-12-28.china
+    add: [Norodom Sihanouk]
+    tags: ['name:norodom-sihanouk']
+- names:
+    id: cal.1965-12-30.china-leadership-7
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1965-12.vietnam-pause
+    add: [Bundy]
+    tags: ['name:bundy-william']
+- names:
+    id: cal.1966-01-08.china-leadership-3
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1966.china
+    add: [Phạm Văn Đồng]
+    tags: ['name:pham-van-dong']
+- names:
+    id: cal.1966.europe-and-the-alliance-2
+    add: [Phạm Văn Đồng]
+    tags: ['name:pham-van-dong']
+- names:
+    id: cal.1966.europe-and-the-alliance-3
+    add: [Phạm Văn Đồng]
+    tags: ['name:pham-van-dong']
+- names:
+    id: cal.1966.europe-and-the-alliance-turkey
+    add: [Phạm Văn Đồng]
+    tags: ['name:pham-van-dong']
+- names:
+    id: cal.1966.vietnam-diplomacy
+    add: [Phạm Văn Đồng]
+    tags: ['name:pham-van-dong']
+- names:
+    id: cal.1966.vietnam-diplomacy-2
+    add: [Phạm Văn Đồng]
+    tags: ['name:pham-van-dong']
+- names:
+    id: cal.1966.vietnam-diplomacy-3
+    add: [Phạm Văn Đồng]
+    tags: ['name:pham-van-dong']
+- names:
+    id: cal.1966-01-13.china-leadership-4
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1966-01-16.china-leadership-4
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1966-01-20.vietnam-pause-2
+    add: [Souvanna Phouma]
+    tags: ['name:souvanna-phouma']
+- names:
+    id: cal.1966-01-21.vietnam-2
+    add: [Pye]
+    tags: ['name:pye-lucian']
+- names:
+    id: cal.1966-01-23.war-opposition
+    add: [Berrigan]
+    tags: ['name:berrigan-daniel']
+- names:
+    id: cal.1966-01-31.vietnam-congress-3
+    add: [Jones]
+    tags: ['name:jones-norvill']
+- names:
+    id: cal.1966-02-07.vietnam-2
+    add: [Nguyen Huu Co]
+    tags: ['name:nguyen-huu-co']
+- names:
+    id: cal.1966-02-19.alabama
+    add: [Liuzzo]
+    tags: ['name:liuzzo-viola']
+- names:
+    id: cal.1966-02-27.china-leadership
+    add: [Phoumi Vongvichit]
+    tags: ['name:phoumi-vongvichit']
+- names:
+    id: cal.1966-03-28.mississippi
+    add: [Dahmer]
+    tags: ['name:dahmer-vernon']
+- names:
+    id: cal.1966-04-13.china-leadership-2
+    add: [Lê Duẩn, Nguyen Duy Trinh]
+    tags: ['name:le-duan', 'name:nguyen-duy-trinh']
+- names:
+    id: cal.1966-05-03.immigration
+    add: [Mace]
+    tags: ['name:mace-charles']
+- names:
+    id: cal.1966-05-05.china-leadership-6
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1966-05-11.china-leadership-2
+    add: [Bodnaras]
+    tags: ['name:bodnaras-emil']
+- names:
+    id: cal.1966-05-24.cities-and-housing
+    add: [Taylor]
+    tags: ['name:taylor-h-ralph']
+- names:
+    id: cal.1966-05-31.vietnam-struggle
+    add: [Thien Minh]
+    tags: ['name:thien-minh']
+- names:
+    id: cal.1966-05.china-leadership-22
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1966-06-01.vietnam-struggle-2
+    add: [Thien Minh]
+    tags: ['name:thien-minh']
+- names:
+    id: cal.1966-06-01.vietnam-struggle-3
+    add: [Thien Minh]
+    tags: ['name:thien-minh']
+- names:
+    id: cal.1966-06-01.vietnam-struggle-4
+    add: [Thien Minh]
+    tags: ['name:thien-minh']
+- names:
+    id: cal.1966-06-09.china-leadership-3
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1966-06-13.court-3
+    add: [Mesta]
+    tags: ['name:mesta-perle']
+- names:
+    id: cal.1966-06-14.soviet-union-leadership
+    tags: ['name:le-duc-tho']
+- names:
+    id: cal.1966-06-28.vietnam
+    add: [Tran Van Do]
+    tags: ['name:tran-van-do']
+- names:
+    id: cal.1966-07-04.china-leadership-4
+    add: [Qiao Guanhua]
+    tags: ['name:qiao-guanhua']
+- names:
+    id: cal.1966-07-12.vietnam
+    add: [Hoang Xuan Lam]
+    tags: ['name:hoang-xuan-lam']
+- names:
+    id: cal.1966-07-15.soviet-union-leadership
+    tags: ['name:rochet-waldeck']
+- names:
+    id: cal.1966-07-24.china-leadership-5
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1966-08-02.vietnam-3
+    add: [Nguyen Dinh Thuan]
+    tags: ['name:nguyen-dinh-thuan']
+- names:
+    id: cal.1966-08-02.vietnam-4
+    add: [Thanat Khoman]
+    tags: ['name:thanat-khoman']
+- names:
+    id: cal.1966-08-02.middle-east
+    add: [Shazar]
+    tags: ['name:shazar-zalman']
+- names:
+    id: cal.1966-08-06.vietnam
+    add: [Nguyễn Hữu Thọ]
+    tags: ['name:nguyen-huu-tho']
+- names:
+    id: cal.1966-08-08.vietnam-congress
+    add: [Thanat Khoman]
+    tags: ['name:thanat-khoman']
+- names:
+    id: cal.1966-08-16.china-leadership-5
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1966-08-18.vietnam-2
+    add: [Tran Van Do]
+    tags: ['name:tran-van-do']
+- names:
+    id: cal.1966-08-23.china-leadership-4
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1966-08-24.china-leadership
+    add: [Lin Biao]
+    tags: ['name:lin-biao']
+- names:
+    id: cal.1966-08-28.china-leadership-8
+    add: [Lin Biao, Zhou Enlai]
+    tags: ['name:lin-biao', 'name:zhou-enlai']
+- names:
+    id: cal.1966-08-30.china-leadership-7
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1966-08-31.vietnam-2
+    add: [Thompson]
+    tags: ['name:thompson-robert']
+- names:
+    id: cal.1966-09-09.king
+    add: [Williams]
+    tags: ['name:williams-hosea']
+- names:
+    id: cal.1966-09-11.china-leadership-2
+    tags: ['name:liu-jie']
+- names:
+    id: cal.1966-09-12.vietnam-congress
+    add: [Jones]
+    tags: ['name:jones-norvill']
+- names:
+    id: cal.1966-09-28.china-leadership-8
+    add: [Khan]
+    tags: ['name:khan-abdul-monem']
+- names:
+    id: cal.1966-09-29.vietnam-diplomacy
+    add: [Tran Van Do]
+    tags: ['name:tran-van-do']
+- names:
+    id: cal.1966-09-29.china-leadership-5
+    add: [Khan]
+    tags: ['name:khan-abdul-monem']
+- names:
+    id: cal.1966-09-29.china-leadership-7
+    add: [Khan]
+    tags: ['name:khan-abdul-monem']
+- names:
+    id: cal.1966-09.china-leadership-22
+    add: [Li Jingquan]
+    tags: ['name:li-jingquan']
+- names:
+    id: cal.1966-10-03.vietnam-2
+    add: [Tran Van Do]
+    tags: ['name:tran-van-do']
+- names:
+    id: cal.1966-10-04.vietnam-hanoi
+    add: [U Thant]
+    tags: ['name:u-thant']
+- names:
+    id: cal.1966-10-04.china-leadership-3
+    add: [Khan]
+    tags: ['name:khan-abdul-monem']
+- names:
+    id: cal.1966-10-12.china-leadership
+    tags: ['name:sun-zhiyuan']
+- names:
+    id: cal.1966-10-15.china-leadership-5
+    tags: ['name:liu-jie']
+- names:
+    id: cal.1966-10-20.china-leadership-4
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1966-10-21.laos
+    add: [Ma]
+    tags: ['name:ma-thao']
+- names:
+    id: cal.1966-10-22.laos
+    add: [Ma]
+    tags: ['name:ma-thao']
+- names:
+    id: cal.1966-11-01.china-leadership-7
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1966-11-16.china-leadership-2
+    add: [Chen Boda]
+    tags: ['name:chen-boda']
+- names:
+    id: cal.1966-11.china-leadership-29
+    add: [Jiang Qing]
+    tags: ['name:jiang-qing']
+- names:
+    id: cal.1966-12-02.china-leadership-4
+    add: [Chen Boda, Jiang Qing]
+    tags: ['name:chen-boda', 'name:jiang-qing']
+- names:
+    id: cal.1966-12-16.china-leadership-2
+    tags: ['name:liu-jie']
+- names:
+    id: cal.1966-12-26.china-leadership-9
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1967-01-03.vietnam-diplomacy
+    tags: ['name:ne-win']
+- names:
+    id: cal.1967-01-07.china-leadership-3
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1967-01-10.china-leadership
+    add: [Chen Boda]
+    tags: ['name:chen-boda']
+- names:
+    id: cal.1967-01-13.china-leadership-3
+    add: [Lin Biao]
+    tags: ['name:lin-biao']
+- names:
+    id: cal.1967-01-17.vietnam
+    add: [Tom Johnson]
+    tags: ['name:johnson-tom']
+- names:
+    id: cal.1967-01-18.china-leadership-4
+    tags: ['name:liu-jie']
+- names:
+    id: cal.1967.china-leadership-5
+    add: [Li Fuchun, Li Xiannian]
+    tags: ['name:li-fuchun', 'name:li-xiannian']
+- names:
+    id: cal.1967.china-leadership-6
+    add: [Jiang Qing, Kang Sheng]
+    tags: ['name:jiang-qing', 'name:kang-sheng']
+- names:
+    id: cal.1967.china-leadership-32
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1967.china-leadership-47
+    add: [Huang Yongsheng]
+    tags: ['name:huang-yongsheng']
+- names:
+    id: cal.1967.china-leadership-128
+    add: [Chiang Kai-shek]
+    tags: ['name:chiang-kai-shek']
+- names:
+    id: cal.1967-02-06.vietnam-support
+    add: [Kaplan]
+    tags: ['name:kaplan-harold']
+- names:
+    id: cal.1967-02-08.vietnam-diplomacy
+    add: [U Thant]
+    tags: ['name:u-thant']
+- names:
+    id: cal.1967-02-15.japan-and-korea-korean-troops-2
+    add: [Chung Il Kwon]
+    tags: ['name:chung-il-kwon']
+- names:
+    id: cal.1967-02-22.china-leadership-6
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1967-02-27.china-leadership-3
+    add: [Chen Boda]
+    tags: ['name:chen-boda']
+- names:
+    id: cal.1967-02.vietnam-congress
+    add: [Hồ Chí Minh]
+    tags: ['name:ho-chi-minh']
+- names:
+    id: cal.1967-03-18.vietnam-congress
+    add: [Hồ Chí Minh]
+    tags: ['name:ho-chi-minh']
+- names:
+    id: cal.1967-03-22.vietnam-congress-foreign-relations
+    add: [U Thant]
+    tags: ['name:u-thant']
+- names:
+    id: cal.1967-03-22.vietnam
+    add: [Nguyễn Cao Kỳ]
+    tags: ['name:nguyen-cao-ky']
+- names:
+    id: cal.1967-03-27.china-leadership-4
+    add: [Tan Zhenlin]
+    tags: ['name:tan-zhenlin']
+- names:
+    id: cal.1967-03-29.china-leadership-2
+    tags: ['name:pham-van-dong']
+- names:
+    id: cal.1967-04-11.china-leadership-2
+    tags: ['name:pham-van-dong']
+- names:
+    id: cal.1967-04.china-leadership-4
+    add: [Huang Yongsheng]
+    tags: ['name:huang-yongsheng']
+- names:
+    id: cal.1967-04.china-leadership-16
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1967-05.china-leadership-17
+    add: [Lin Biao]
+    tags: ['name:lin-biao']
+- names:
+    id: cal.1967-06-24.china-leadership-3
+    add: [Lin Biao]
+    tags: ['name:lin-biao']
+- names:
+    id: cal.1967-06-25.soviet-union
+    add: [Lynda Bird Johnson, Carpenter]
+    tags: ['name:johnson-lynda-bird', 'name:carpenter-liz']
+- names:
+    id: cal.1967-06-29.china-4
+    add: [Ne Win]
+    tags: ['name:ne-win']
+- names:
+    id: cal.1967-06.elections-1968-6
+    add: [Robinson]
+    tags: ['name:robinson-jackie']
+- names:
+    id: cal.1967-07-01.vietnam-2
+    add: [Rosson, Larsen]
+    tags: ['name:rosson-william-b', 'name:larsen-stanley-r']
+- names:
+    id: cal.1967-07-08.china-leadership
+    add: [Nguyễn Chí Thanh]
+    tags: ['name:nguyen-chi-thanh']
+- names:
+    id: cal.1967-07-15.china-leadership-2
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1967-07-20.program
+    add: [Marshall]
+    tags: ['name:marshall-burke']
+- names:
+    id: cal.1967-07.civil-rights-organizations-2
+    add: [Davis]
+    tags: ['name:davis-rennie']
+- names:
+    id: cal.1967-07.war-opposition-2
+    add: [U Thant]
+    tags: ['name:u-thant']
+- names:
+    id: cal.1967-08-08.vietnam-congress-2
+    add: [Tom Johnson]
+    tags: ['name:johnson-tom']
+- names:
+    id: cal.1967-08-12.china-leadership-2
+    add: [Lin Biao, Chen Boda, Kang Sheng, Li Fuchun, Jiang Qing]
+    tags: ['name:lin-biao', 'name:chen-boda', 'name:kang-sheng', 'name:li-fuchun', 'name:jiang-qing']
+- names:
+    id: cal.1967-09-01.china-leadership-7
+    add: [Xiao Xiangrong]
+    tags: ['name:xiao-xiangrong']
+- names:
+    id: cal.1967-09-02.china-leadership
+    add: [Li Xiannian]
+    tags: ['name:li-xiannian']
+- names:
+    id: cal.1967-09-08.china
+    add: [Satō Eisaku]
+    tags: ['name:sato-eisaku']
+- names:
+    id: cal.1967-09-26.vietnam-2
+    add: [Kaplan]
+    tags: ['name:kaplan-harold']
+- names:
+    id: cal.1967-10-03.vietnam
+    add: [Tom Johnson]
+    tags: ['name:johnson-tom']
+- names:
+    id: cal.1967-10-21.war-opposition-3
+    add: [Tom Johnson]
+    tags: ['name:johnson-tom']
+- names:
+    id: cal.1967-10-23.vietnam-pennsylvania
+    add: [Tom Johnson]
+    tags: ['name:johnson-tom']
+- names:
+    id: cal.1967-11-08.vietnam
+    add: [Hồ Chí Minh]
+    tags: ['name:ho-chi-minh']
+- names:
+    id: cal.1967-11-10.soviet-union-leadership
+    tags: ['name:sabri-ali']
+- names:
+    id: cal.1967-11-17.china-leadership-2
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1967-11-29.china-leadership
+    tags: ['name:khan-nur']
+- names:
+    id: cal.1967-12-04.press-and-broadcasting
+    add: [Lynda Bird Johnson]
+    tags: ['name:johnson-lynda-bird']
+- names:
+    id: cal.1967-12-05.congress-2
+    add: [Lynda Bird Johnson]
+    tags: ['name:johnson-lynda-bird']
+- names:
+    id: cal.1967-12-10.democratic-party
+    add: [Criswell]
+    tags: ['name:criswell-john']
+- names:
+    id: cal.1967-12-17.vietnam
+    add: [Sau Ha]
+    tags: ['name:sau-ha']
+- names:
+    id: cal.1967-12.elections-1968-2
+    add: [Robinson]
+    tags: ['name:robinson-jackie']
+- names:
+    id: cal.1967-12.elections-1968-4
+    add: [Hersh]
+    tags: ['name:hersh-seymour']
+- names:
+    id: cal.1968-02-03.china-leadership-3
+    add: [Ngo Minh Loan]
+    tags: ['name:ngo-minh-loan']
+- names:
+    id: cal.1968-02-06.vietnam-tet
+    add: [Tom Johnson]
+    tags: ['name:johnson-tom']
+- names:
+    id: cal.1968-02-12.china-leadership-2
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1968-02-13.china-leadership-4
+    add: [Ye Jianying]
+    tags: ['name:ye-jianying']
+- names:
+    id: cal.1968-02-17.press-and-broadcasting
+    add: [Pace]
+    tags: ['name:pace-frank-jr']
+- names:
+    id: cal.1968-02-17.china-leadership-3
+    add: [Ngo Minh Loan]
+    tags: ['name:ngo-minh-loan']
+- names:
+    id: cal.1968-02-27.vietnam-saigon
+    add: [Nguyen Duc Thang]
+    tags: ['name:nguyen-duc-thang']
+- names:
+    id: cal.1968-02.robert-kennedy-campaign-decision-9
+    add: [Malcolm X]
+    tags: ['name:malcolm-x']
+- names:
+    id: cal.1968-03-05.china-leadership
+    add: [Ngo Minh Loan]
+    tags: ['name:ngo-minh-loan']
+- names:
+    id: cal.1968-03-08.vietnam-khe-sanh
+    add: [Rosson]
+    tags: ['name:rosson-william-b']
+- names:
+    id: cal.1968-03-17.king
+    add: [Ray]
+    tags: ['name:ray-james-earl']
+- names:
+    id: cal.1968-03-18.china-leadership-4
+    add: [Chiang Kai-shek]
+    tags: ['name:chiang-kai-shek']
+- names:
+    id: cal.1968-03.elections-1968-5
+    add: [Hồ Chí Minh]
+    tags: ['name:ho-chi-minh']
+- names:
+    id: cal.1968-03-31.elections-1968-humphrey
+    add: [Freeman]
+    tags: ['name:freeman-fulton']
+- names:
+    id: cal.1968-04-02.king-poor-peoples
+    add: [Temple]
+    tags: ['name:temple-larry']
+- names:
+    id: cal.1968-04-03.vietnam-3
+    add: [Lathram]
+    tags: ['name:lathram-l-wade']
+- names:
+    id: cal.1968-04-04.robert-kennedy-campaign
+    add: [Braden]
+    tags: ['name:braden-joan']
+- names:
+    id: cal.1968-04-05.civil-disorders-king
+    add: [Tom Johnson]
+    tags: ['name:johnson-tom']
+- names:
+    id: cal.1968-04-07.robert-kennedy
+    add: [Wright]
+    tags: ['name:wright-marian']
+- names:
+    id: cal.1968-04-09.robert-kennedy
+    add: [Williams]
+    tags: ['name:williams-hosea']
+- names:
+    id: cal.1968-04-27.vietnam-paris-2
+    add: [Paul VI]
+    tags: ['name:paul-vi']
+- names:
+    id: cal.1968-05-06.china-leadership-5
+    add: [Chiang Ching-kuo]
+    tags: ['name:chiang-ching-kuo']
+- names:
+    id: cal.1968-05-15.transition-and-staff
+    add: [Hughes]
+    tags: ['name:hughes-phillip-s']
+- names:
+    id: cal.1968-05-16.china-leadership-4
+    add: [Huang Yongsheng, Wu Faxian]
+    tags: ['name:huang-yongsheng', 'name:wu-faxian']
+- names:
+    id: cal.1968-05.china-leadership-6
+    add: [Huang Yongsheng]
+    tags: ['name:huang-yongsheng']
+- names:
+    id: cal.1968-06-03.vietnam-paris
+    add: [Lê Đức Thọ]
+    tags: ['name:le-duc-tho']
+- names:
+    id: cal.1968-06-04.elections-1968-6
+    add: [Flowers]
+    tags: ['name:flowers-walter']
+- names:
+    id: cal.1968-06-04.elections-1968-nixon
+    add: [Eisenhower]
+    tags: ['name:eisenhower-david']
+- names:
+    id: cal.1968-06-06.elections-1968-3
+    add: [Watts]
+    tags: ['name:watts-william']
+- names:
+    id: cal.1968-06-10.elections-1968-4
+    add: [Braden]
+    tags: ['name:braden-joan']
+- names:
+    id: cal.1968-06.china-leadership-4
+    add: [Huang Yongsheng, Wu Faxian, Ye Qun, Li Zuopeng]
+    tags: ['name:huang-yongsheng', 'name:wu-faxian', 'name:ye-qun', 'name:li-zuopeng']
+- names:
+    id: cal.1968-06.china-leadership-5
+    add: [Li Fuchun]
+    tags: ['name:li-fuchun']
+- names:
+    id: cal.1968-07-03.vietnam-hanoi
+    tags: ['name:hoang-van-thai']
+- names:
+    id: cal.1968-07-16.soviet-union-leadership
+    tags: ['name:rochet-waldeck']
+- names:
+    id: cal.1968-07-26.china
+    add: [Hồ Chí Minh]
+    tags: ['name:ho-chi-minh']
+- names:
+    id: cal.1968-07-28.china-leadership-2
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1968-07-30.china-leadership-3
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1968-07.elections-1968-4
+    add: [Rockefeller]
+    tags: ['name:rockefeller-david']
+- names:
+    id: cal.1968-08-06.elections-1968-5
+    add: [Schroeder]
+    tags: ['name:schroeder-anthony-c']
+- names:
+    id: cal.1968-08-07.elections-1968-miami-6
+    add: [Johnston]
+    tags: ['name:johnston-edward-e']
+- names:
+    id: cal.1968-08-12.elections-1968-8
+    add: [Sohmer]
+    tags: ['name:sohmer-arthur-j']
+- names:
+    id: cal.1968-08-25.china-leadership-4
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1968-08-26.vietnam-paris
+    add: [Nguyen Thanh Le]
+    tags: ['name:nguyen-thanh-le']
+- names:
+    id: cal.1968-08-27.elections-1968-chicago-23
+    add: [Abell]
+    tags: ['name:abell-bess']
+- names:
+    id: cal.1968-08.vietnam-paris
+    add: [Nguyen Thanh Le]
+    tags: ['name:nguyen-thanh-le']
+- names:
+    id: cal.1968-09-02.china-leadership-2
+    add: [Ngo Minh Loan]
+    tags: ['name:ngo-minh-loan']
+- names:
+    id: cal.1968-09-11.china-leadership
+    add: [Huang Yongsheng, Wu Faxian, Ye Qun, Li Zuopeng]
+    tags: ['name:huang-yongsheng', 'name:wu-faxian', 'name:ye-qun', 'name:li-zuopeng']
+- names:
+    id: cal.1968-10-02.africa
+    add: [Tombalbaye]
+    tags: ['name:tombalbaye-francois']
+- names:
+    id: cal.1968-10-10.transition-and-staff
+    add: [Lincoln]
+    tags: ['name:lincoln-franklin-b-jr']
+- names:
+    id: cal.1968-10.china-leadership-12
+    add: [Jiang Qing, Xie Fuzhi]
+    tags: ['name:jiang-qing', 'name:xie-fuzhi']
+- names:
+    id: cal.1968-11-04.soviet-union-leadership
+    tags: ['name:rochet-waldeck']
+- names:
+    id: cal.1968-11-04.china-leadership-2
+    add: [Jiang Qing]
+    tags: ['name:jiang-qing']
+- names:
+    id: cal.1968-11-10.china-leadership
+    tags: ['name:yahya-khan']
+- names:
+    id: cal.1968-11-11.transition-and-staff-2
+    add: [Rebozo]
+    tags: ['name:rebozo-bebe']
+- names:
+    id: cal.1968-11-26.testing-missile-talks
+    add: [Tom Johnson]
+    tags: ['name:johnson-tom']
+- names:
+    id: cal.1968-12-13.china-leadership
+    add: [Tran Buu Kiem]
+    tags: ['name:tran-buu-kiem']
+- names:
+    id: cal.1968-12-26.students
+    add: [Mao Zedong, Hồ Chí Minh]
+    tags: ['name:mao-zedong', 'name:ho-chi-minh']
+- names:
+    id: cal.1969-01-23.china-leadership-3
+    add: [Chiang Kai-shek]
+    tags: ['name:chiang-kai-shek']
+- names:
+    id: cal.1969-03-15.china-leadership-4
+    add: [Qiao Guanhua]
+    tags: ['name:qiao-guanhua']
+- names:
+    id: cal.1969-03-21.china-leadership-3
+    add: [Ji Pengfei, Qiao Guanhua]
+    tags: ['name:ji-pengfei', 'name:qiao-guanhua']
+- names:
+    id: cal.1969-03.trade
+    add: [Prebisch]
+    tags: ['name:prebisch-raul']
+- names:
+    id: cal.1969-05-30.china-leadership
+    add: [Xuân Thủy]
+    tags: ['name:xuan-thuy']
+- names:
+    id: cal.1969-06-10.china-leadership-2
+    add: [Yahya Khan]
+    tags: ['name:yahya-khan']
+- names:
+    id: cal.1969-06-15.china-leadership-2
+    add: [Ngo Minh Loan]
+    tags: ['name:ngo-minh-loan']
+- names:
+    id: cal.1969-06-26.china-leadership-4
+    add: [Tran Buu Kiem]
+    tags: ['name:tran-buu-kiem']
+- names:
+    id: cal.1969-07-01.china-leadership
+    add: [Xuân Thủy]
+    tags: ['name:xuan-thuy']
+- names:
+    id: cal.1969-07-12.china-leadership-2
+    add: [Khan]
+    tags: ['name:khan-nur']
+- names:
+    id: cal.1969-07-13.china-leadership
+    tags: ['name:khan-nur']
+- names:
+    id: cal.1969-07-13.china-leadership-2
+    add: [Nur Khan, Yahya Khan]
+    tags: ['name:khan-nur', 'name:yahya-khan']
+- names:
+    id: cal.1969-07-13.china-leadership-3
+    add: [Khan]
+    tags: ['name:khan-nur']
+- names:
+    id: cal.1969-07-16.china-leadership
+    add: [Khan]
+    tags: ['name:khan-nur']
+- names:
+    id: cal.1969-07-17.china-leadership-2
+    add: [Khan]
+    tags: ['name:khan-nur']
+- names:
+    id: cal.1969-07-18.china-leadership-3
+    add: [Ngo Minh Loan, Hồ Chí Minh]
+    tags: ['name:ngo-minh-loan', 'name:ho-chi-minh']
+- names:
+    id: cal.1969-08.china
+    add: [Yahya Khan]
+    tags: ['name:yahya-khan']
+- names:
+    id: cal.1969-09-02.china-leadership-3
+    add: [Ngo Minh Loan]
+    tags: ['name:ngo-minh-loan']
+- names:
+    id: cal.1969-09-26.china-leadership
+    add: [Qiao Guanhua]
+    tags: ['name:qiao-guanhua']
+- names:
+    id: cal.1969-11-19.china-leadership
+    tags: ['name:yahya-khan']
+- names:
+    id: cal.1969-11-23.china-leadership-2
+    add: [Mao Zedong]
+    tags: ['name:mao-zedong']
+- names:
+    id: cal.1969-12-02.china-leadership
+    tags: ['name:yahya-khan']
+- names:
+    id: cal.1969-12-12.china-leadership-2
+    add: [Yahya Khan]
+    tags: ['name:yahya-khan']
+- names:
+    id: cal.1970-01-15.china-leadership
+    add: [Lei Yang]
+    tags: ['name:lei-yang']
