@@ -4125,6 +4125,21 @@ entries:
         - 'via w.yang-jisheng-mubei I, 316 n.t1: all'
         - 'via w.yang-jisheng-mubei I, 341 n.t1: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-08-25.china
+    when: Aug. 25
+    date: '1962-08-25'
+    thread: china
+    also: [soviet-union, testing]
+    c: The Soviet government informs China that it is ready to conclude an agreement with the United States on preventing the spread of nuclear weapons.
+    n: '[[w.brothers-in-arms]], 381 (Deng Xiaoping''s speech of July 8, 1963, in the Soviet record); [[w.westad-introduction]], 28 n.102 (in August 1962 the Soviets informed China that they accepted the American proposal in general); [[w.westad-sino-soviet-alliance-and]], 179 (Moscow''s word of its intention to negotiate a nonproliferation treaty with the United States, before Chen Yi''s reply in September). Made public: 1998.'
+    src:
+      c: 999ab9ef
+      rows:
+        - 'w.brothers-in-arms 381: all'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: all'
+        - 'w.westad-introduction 28 n.102: ?'
+        - 'w.westad-sino-soviet-alliance-and 179: ?'
+    tags: [polity:ussr, polity:prc, vis:only:ussr+prc]
   - id: cal.1962-08-26.china-leadership
     when: Aug. 26
     date: '1962-08-26'
@@ -5417,3 +5432,18 @@ entries:
       rows:
         - 'w.jian-zhou-enlai 516: all'
     tags: [polity:prc, vis:only:prc+ussr, ok:fields-place]
+  - id: cal.1962-08.china-leadership-9
+    when: Aug., at the Beidaihe conference
+    date: 1962-08
+    at: before 1962-08-06
+    place: beidaihe
+    thread: china-leadership
+    c: 'Beidaihe, the leaders'' summer conference. Mao takes the offensive: his colleagues have "capitulated to the bourgeoisie" with the adjustments of the past year and a half. He condemns Wang Jiaxiang, who had called in the spring for less tension with the Soviet Union and the United States.'
+    n: '[[w.westad-introduction]], 27; [[w.jian-chinese-politics-and-the]], 276 (Mao calls Wang''s ideas conciliation toward the imperialists, revisionists and reactionaries, with less support for those fighting them, "three reconciliations and one reduction"; no day or place). Made public: 1993 ([[w.teiwes-politics-and-purges-in]], 375, cited by [[w.westad-introduction]], 27 n.98). To check: [[w.teiwes-politics-and-purges-in]], 375 (cited by [[w.westad-introduction]], 27 n.98); Zhang Baijia, Looking at Sino-American Relations during the Cold War from the Chinese Perspective, paper, Hong Kong, Jan. 1996, 15 (cited by [[w.westad-introduction]], 27 n.98); [[w.jin-1949-1989-niande-zhongguo]], 576–77, 579 (cited by [[w.jian-chinese-politics-and-the]], 276 n.152; the note prints the title *Quzhe qianjin de suiyue*). Names: Mao Zedong. Check: the day: Westad gives the summer conference at Beidaihe; the calendar has the Central Work Conference there Aug. 6–24, 1962.'
+    src:
+      c: '54222274'
+      rows:
+        - 'w.westad-introduction 27: all'
+        - 'w.jian-chinese-politics-and-the 276: ?'
+        - 'via x.1996-01.zhang-baijia-looking-at-sino-american-relations: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong]

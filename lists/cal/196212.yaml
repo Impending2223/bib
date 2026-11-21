@@ -1536,6 +1536,18 @@ entries:
       - 1962-12-09T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-09.south-asia
+    when: Dec. 9
+    date: '1962-12-09'
+    thread: south-asia
+    c: 'Harriman, Assistant Secretary of State: relations between India and Moscow as friendly as possible serve India''s interests and America''s.'
+    n: '[[w.brothers-in-arms]], 381 (Deng Xiaoping''s speech of July 8, 1963, in the Soviet record, quoting him). Check: Harriman''s own words and the occasion; the record gives them in translation. Names: Harriman.'
+    src:
+      c: 1a058641
+      rows:
+        - 'w.brothers-in-arms 381: all'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: all'
+    tags: [polity:us, name:harriman-w-averell, ok:fields-place]
   - id: cal.1962-12-10.european-community
     when: Dec. 10
     date: '1962-12-10'
@@ -2443,7 +2455,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking. The *Renmin ribao* editorial "Workers of the world, unite, oppose our common enemy." It sums up the attacks on the CCP and Albania at the Bulgarian, Hungarian and Czechoslovak congresses, above all the Czechoslovak; states China's views on war and peace, on imperialism and nuclear weapons; answers the charges on the Sino-Indian border and on Cuba, as departures from the stand toward enemy and friend; holds that relations among parties cannot be settled by a majority over a minority; and asks the parties to hold to the Moscow Declaration and Statement.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 515–517 (the editorial of Dec. 15 (Mao''s title; the first draft titled "Hold to truth..."); the first of seven articles, Dec. 15, 1962, to Mar. 8, 1963, none naming the CPSU or Khrushchev); [[w.macfarquhar-origins-of-the-cultural]], III, 321 (the day after the selection of Novotný''s remarks, an editorial calling on the proletarians of the world to unite against their common imperialist enemy); [[w.jianguo-yilai-mao-zedong]], XVI, 445 (Dec. 15, 1962; note 1 to Mao''s note of Dec. 14: the editorial printed Dec. 15 under that title); [[w.yang-shangkun-riji]], II, 233 (Dec. 15, 1962; Yang reads it that morning); [[w.deng-xiaoping-nianpu-1904]], III, 1737 (Dec. 15, 1962; printed as "Workers of the world, unite, oppose our common enemy"; aimed chiefly at the Czechoslovak congress''s charges (n.1)); [[w.mao-zedong-zhuan]], V, ch. 71 (Dec. 15: *Renmin ribao*, "Workers of the world, unite, oppose our common enemy", the first of the replies to the attacks at the Bulgarian, Hungarian and Czechoslovak party congresses, Mao having named the title). See [[cal.1962-12-14.china-leadership]].'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 515–517 (the editorial of Dec. 15 (Mao''s title; the first draft titled "Hold to truth..."); the first of seven articles, Dec. 15, 1962, to Mar. 8, 1963, none naming the CPSU or Khrushchev); [[w.macfarquhar-origins-of-the-cultural]], III, 321 (the day after the selection of Novotný''s remarks, an editorial calling on the proletarians of the world to unite against their common imperialist enemy); [[w.jianguo-yilai-mao-zedong]], XVI, 445 (Dec. 15, 1962; note 1 to Mao''s note of Dec. 14: the editorial printed Dec. 15 under that title); [[w.yang-shangkun-riji]], II, 233 (Dec. 15, 1962; Yang reads it that morning); [[w.deng-xiaoping-nianpu-1904]], III, 1737 (Dec. 15, 1962; printed as "Workers of the world, unite, oppose our common enemy"; aimed chiefly at the Czechoslovak congress''s charges (n.1)); [[w.mao-zedong-zhuan]], V, ch. 71 (Dec. 15: *Renmin ribao*, "Workers of the world, unite, oppose our common enemy", the first of the replies to the attacks at the Bulgarian, Hungarian and Czechoslovak party congresses, Mao having named the title). [[w.westad-introduction]], 28 (the propaganda after Oct. 28: praise of the Cubans, condemnation of those "frightened in the face of imperialist aggression"; 28 n.101 names this day''s *Renmin ribao*). See [[cal.1962-12-14.china-leadership]].'
     src:
       c: 5732b80d
       rows:
@@ -2453,6 +2465,8 @@ entries:
         - 'w.yang-shangkun-riji II, 233: A, B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1737: B-C'
         - 'w.mao-zedong-zhuan V, ch. 71: B-C'
+        - 'w.westad-introduction 28: ?'
+        - 'via x.1962-12-15.renmin-ribao-dec-15: ?'
     tags: [polity:prc]
   - id: cal.1962-12-16.cuba
     when: Dec. 16
@@ -2926,6 +2940,18 @@ entries:
       - 1962-12-18T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-18.south-asia
+    when: Dec. 18
+    date: '1962-12-18'
+    thread: south-asia
+    c: 'Harriman, to a Japanese correspondent: the United States wants the Soviet Union to help India''s defense.'
+    n: '[[w.brothers-in-arms]], 381 (Deng Xiaoping''s speech of July 8, 1963, in the Soviet record). Check: Harriman''s own words; the record gives them in translation. Names: Harriman.'
+    src:
+      c: b38a5645
+      rows:
+        - 'w.brothers-in-arms 381: all'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: all'
+    tags: [polity:us, name:harriman-w-averell]
   - id: cal.1962-12-19.testing
     when: Dec. 19
     date: '1962-12-19'
@@ -5465,3 +5491,29 @@ entries:
     c: Chen Yi 陈毅 cables Raúl Roa García 劳尔·罗亚·加西亚, the Cuban Foreign Minister, on the fourth anniversary of the revolution.
     n: '[[w.chen-yi-nianpu]], 948. Names: Chen Yi, Roa.'
     tags: [polity:prc, polity:cuba, name:chen-yi, name:roa-y-garcia-raul]
+  - id: cal.1962-12.china-leadership-9
+    when: Dec.
+    date: 1962-12
+    thread: china-leadership
+    also: [soviet-union]
+    c: A Soviet defense official and General Qiu Chuangcheng, head of the Chinese army's special artillery forces, talk.
+    n: '[[w.westad-introduction]], 27 & n.97 (the file summarizes the talk; Westad cites it for advanced Soviet military technology, air-to-ground missiles among it, reaching China as late as December 1962). Made public: 1998. To check: unnumbered file attached to AVPRF, f. 0100, op. 55, pa. 480, d. 6 (cited by [[w.westad-introduction]], 27 n.97).'
+    src:
+      c: 66348df2
+      rows:
+        - 'w.westad-introduction 27: all'
+        - 'via x.1962-12.qiu-chuangcheng-soviet-defense-official-file-avprf: all'
+    tags: [polity:prc, polity:ussr, vis:only:prc+ussr]
+  - id: cal.1962-12.china-leadership-10
+    when: Dec., late
+    date: 1962-12
+    at: before 1962-12-21
+    thread: china-leadership
+    c: 'Mao to the Party: the struggle against modern revisionism will become "more acute" for a time.'
+    n: '[[w.westad-introduction]], 27–28 ("at the end of 1962"). Made public: 1998. To check: Zhang Baijia, Looking at Sino-American Relations during the Cold War from the Chinese Perspective, paper, Cold War International History Project conference, Hong Kong, Jan. 1996, 16 (cited by [[w.westad-introduction]], 28 n.99). Names: Mao Zedong.'
+    src:
+      c: a212c7dc
+      rows:
+        - 'w.westad-introduction 27–28: all'
+        - 'via x.1996-01.zhang-baijia-looking-at-sino-american-relations: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong]

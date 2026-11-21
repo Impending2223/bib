@@ -89,12 +89,14 @@ entries:
   - id: cal.1964-01-01.china-leadership
     when: Jan. 1
     date: '1964-01-01'
+    time: 1964-01-01T15:00Z
     place: tirana
     thread: china-leadership
     also: [africa]
     c: 'Zhou, Tirana, with Shehu: wreath at the Martyrs'' Cemetery; visits the museum of the national liberation struggle. Same day, receives the staff of the Chinese embassy, students and experts.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 606 (Jan. 1, 1964); [[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 1, 1964; 在部长会议主席谢胡陪同下, 向地拉那烈士区花园献花圈; 参观民族解放斗争博物馆). Names: Zhou Enlai, Hoxha, Shehu.'
-    tags: [name:zhou-enlai, polity:prc, polity:albania]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 606 (Jan. 1, 1964); [[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 1, 1964; 在部长会议主席谢胡陪同下, 向地拉那烈士区花园献花圈; 参观民族解放斗争博物馆); [[w.chen-yi-nianpu]], 1005 (Jan. 1, 1964, 4 p.m.; Chen Yi with Zhou lays the wreath at the martyrs'' cemetery, then the museum of the national liberation struggle; the same day, with Zhou, receives the embassy''s staff, the Chinese experts in Albania and the students'' representatives in the Partisans'' Palace 游击队宫). Made public: 1995 ([[w.chen-yi-nianpu]], 1005). Names: Zhou Enlai, Hoxha, Shehu.'
+    tags: [name:zhou-enlai, polity:prc, polity:albania, vis:only:prc@C]
+    time_zone: Europe/Tirane
   - id: cal.1964-01-01.china-leadership-2
     when: Jan. 1
     date: '1964-01-01'
@@ -102,11 +104,12 @@ entries:
     thread: china-leadership
     also: [china, africa, soviet-union]
     c: Tirana. Zhou Enlai attends a grand evening of music.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 1, 1964; 晚上). See [[cal.1964-01-01.china-leadership]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 1, 1964; 晚上); [[w.chen-yi-nianpu]], 1005 (Jan. 1, 1964, evening; Chen Yi with Zhou at the Ministry of Education and Culture''s music evening). See [[cal.1964-01-01.china-leadership]]. Names: Zhou Enlai.'
     src:
       c: a6a8ef29
       rows:
         - 'w.zhou-enlai-waijiao-huodong 383: all'
+        - 'w.chen-yi-nianpu 1005: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai]
     time_range:
       - 1964-01-01T18:00Z
@@ -253,12 +256,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, Tirana: attends the Cuban embassy''s reception for Cuba''s Liberation Day. Tells Shehu he likes folk songs and sings them himself; regrets young people no longer sing them, no longer like their own national culture.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 606 (Jan. 2, 1964); [[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 2, 1964; 晚上, 古巴驻阿尔巴尼亚使馆庆祝古巴解放日招待会). Names: Zhou Enlai, Shehu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 606 (Jan. 2, 1964); [[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 2, 1964; 晚上, 古巴驻阿尔巴尼亚使馆庆祝古巴解放日招待会); [[w.chen-yi-nianpu]], 1005 (Jan. 2, 1964, evening; Chen Yi with Zhou at the reception of 弗洛里亚尔·乔蒙, the Cuban chargé). Names: Zhou Enlai, Shehu.'
     src:
       c: 741a0028
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 606: ?'
         - 'w.zhou-enlai-waijiao-huodong 383: A'
+        - 'w.chen-yi-nianpu 1005: ?'
     tags: [name:zhou-enlai, polity:prc, polity:albania, polity:cuba]
     time_range:
       - 1964-01-02T18:00Z
@@ -482,8 +486,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, Tirana, afternoon: with Hoxha, Shehu and Balluku, visits the Stalin textile combine. Evening, watches the ballet *Halili and Hajrija*.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 606 (Jan. 3, 1964); [[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 3, 1964; 下午, 参观地拉那斯大林纺织联合工厂; 晚上, 在地拉那歌剧和芭蕾舞剧院观赏芭蕾舞剧《哈利利和哈伊利》). Names: Zhou Enlai, Hoxha, Shehu, Balluku.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 606 (Jan. 3, 1964); [[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 3, 1964; 下午, 参观地拉那斯大林纺织联合工厂; 晚上, 在地拉那歌剧和芭蕾舞剧院观赏芭蕾舞剧《哈利利和哈伊利》); [[w.chen-yi-nianpu]], 1005 (Jan. 3, 1964, noon, Chen Yi with Zhou, Hoxha 霍查, Shehu 谢胡, Balluku 巴卢库 and Nushi 努什 at the Stalin textile combine; evening, the ballet *Halili and Hajria* 《哈利利和哈伊利娅》 at the Tirana opera and ballet theater). Names: Zhou Enlai, Hoxha, Shehu, Balluku.'
     tags: [name:zhou-enlai, polity:prc, polity:albania]
+    variants:
+      - unit: A
+        witness: w.chen-yi-nianpu
+        reads: The visit to the Stalin textile combine is at noon (中午)
+        at: '1005'
   - id: cal.1964-01-03.china-leadership-3
     when: Jan. 3
     date: '1964-01-03'
@@ -588,6 +597,21 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1787: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1964-01-03.china-leadership-10
+    when: Jan. 3
+    date: '1964-01-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables U Thi Han 吴蒂汉, Burma's Foreign Minister, on the sixteenth anniversary of Burma's independence.
+    n: '[[w.chen-yi-nianpu]], 1005. Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, ok:fields-place]
+  - id: cal.1964-01-03.china-leadership-11
+    when: Jan. 3
+    date: '1964-01-03'
+    place: tirana
+    thread: china-leadership
+    c: Tirana 地拉那. Chen Yi 陈毅 writes the poem "Visiting the Stalin textile combine" 《参观斯大林联合纺织厂》.
+    n: '[[w.chen-yi-nianpu]], 1005. The words: 之后 (1005). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-time]
   - id: cal.1964-01-04.legislatures-il
     when: Jan. 4
     date: '1964-01-04'
@@ -754,6 +778,47 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1787: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1964-01-04.china-leadership-8
+    when: Jan. 4
+    date: '1964-01-04'
+    place:
+      - tirana
+      - korce
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 leaves Tirana 地拉那 by Elbasan 爱尔巴桑, Librazhd 利布拉什德 and Pogradec 皮格拉迪茨 for Korçë 科尔察 and speaks at the welcome rally in its central square: "a pick in one hand, a rifle in the other" and "better die standing than live kneeling" are the two peoples'' common creed.'
+    n: '[[w.chen-yi-nianpu]], 1005–1006. The words: 上午 (1005–1006). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi]
+    time_range:
+      - 1964-01-04T05:00Z
+      - 1964-01-04T11:00Z
+    time_band: morning
+    time_zone: Europe/Tirane
+  - id: cal.1964-01-04.china-leadership-9
+    when: Jan. 4
+    date: '1964-01-04'
+    place: korce
+    thread: china-leadership
+    c: Korçë 科尔察. Chen Yi 陈毅 visits the knitwear factory.
+    n: '[[w.chen-yi-nianpu]], 1006. The words: 下午 (1006). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi]
+    time_range:
+      - 1964-01-04T11:00Z
+      - 1964-01-04T17:00Z
+    time_band: afternoon
+    time_zone: Europe/Tirane
+  - id: cal.1964-01-04.china-leadership-10
+    when: Jan. 4
+    date: '1964-01-04'
+    place: korce
+    thread: china-leadership
+    c: Korçë 科尔察. Chen Yi 陈毅 at the banquet of the Workers' Party's Korçë district committee and the district people's council's executive committee.
+    n: '[[w.chen-yi-nianpu]], 1006. The words: 晚上 (1006). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi]
+    time_range:
+      - 1964-01-04T18:00Z
+      - 1964-01-04T21:00Z
+    time_band: evening
+    time_zone: Europe/Tirane
   - id: cal.1964-01-05.opinion-5
     when: Jan. 5
     date: '1964-01-05'
@@ -906,7 +971,7 @@ entries:
     thread: china-leadership
     also: [soviet-union, africa]
     c: Zhou returns to Tirana. Fifth talks with Hoxha, Shehu and others. Says the two parties agree on matters of principle; the later conduct of the anti-revisionist struggle and the assessment of the situation can be discussed further.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 607 (Jan. 5, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 5, 1964; 中午, 回到地拉那; 下午4时30分, 第五次会谈). Made public: 1993. Names: Zhou Enlai, Hoxha, Shehu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 607 (Jan. 5, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 5, 1964; 中午, 回到地拉那; 下午4时30分, 第五次会谈); [[w.chen-yi-nianpu]], 1006 (Jan. 5, 1964, 4:30 p.m.; Chen Yi with Zhou in the continued talks). Made public: 1993. Names: Zhou Enlai, Hoxha, Shehu.'
     tags: [name:zhou-enlai, polity:prc, polity:albania, vis:only:prc+albania]
   - id: cal.1964-01-05.china-leadership-3
     when: Jan. 5
@@ -937,6 +1002,21 @@ entries:
         - 'w.jian-zhou-enlai 501: all'
         - 'via x.1964-01-05.zhou-chen-yi-report-visit-morocco: all'
     tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:chen-yi, ok:fields-place]
+  - id: cal.1964-01-05.china-leadership-6
+    when: Jan. 5
+    date: '1964-01-05'
+    thread: china-leadership
+    c: Chen Yi 陈毅, back to Tirana 地拉那, visits an artillery unit on the way with Lt. Gen. 杜米, the People's Army's Chief of Staff and a candidate member of the Politburo.
+    n: '[[w.chen-yi-nianpu]], 1006. Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place, ok:fields-time]
+  - id: cal.1964-01-05.china-leadership-7
+    when: Jan. 5
+    date: '1964-01-05'
+    place: tirana
+    thread: china-leadership
+    c: Tirana 地拉那, the Chinese embassy. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the Chinese experts in Albania, the Chinese staff and crews of the Sino-Albanian shipping company, the embassy's staff and the Chinese students.
+    n: '[[w.chen-yi-nianpu]], 1006. Made public: 1995. Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, name:chen-yi, name:zhou-enlai, ok:fields-time, vis:only:prc]
   - id: cal.1964-01-06.vietnam
     when: Jan. 6
     date: '1964-01-06'
@@ -1138,12 +1218,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, with Hoxha and Shehu, visits Vlorë: speaks at the mass meeting, tours the independence monument. Next day tours the Lenin cement works, an asbestos-pipe plant site, a cooperative and a peasant home, and returns to Tirana.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 607 (Jan. 6–7, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 6, 1964; 在霍查、谢胡陪同下前往发罗拉; 参加群众大会并讲话; 参观阿尔巴尼亚民族独立纪念馆); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 7, 1964; 参观发罗拉列宁水泥厂、石棉管板厂工地; 返回途中参观农业生产合作社, 访问农民家庭). Names: Zhou Enlai, Hoxha, Shehu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 607 (Jan. 6–7, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 6, 1964; 在霍查、谢胡陪同下前往发罗拉; 参加群众大会并讲话; 参观阿尔巴尼亚民族独立纪念馆); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 7, 1964; 参观发罗拉列宁水泥厂、石棉管板厂工地; 返回途中参观农业生产合作社, 访问农民家庭); [[w.chen-yi-nianpu]], 1006 (Jan. 7, 1964, noon; Chen Yi with Zhou back from Vlorë 发罗拉 to Tirana 地拉那; before leaving, the Lenin cement works and the site of the asbestos pipe and sheet works; on the way, the Novosela agricultural cooperative). Names: Zhou Enlai, Hoxha, Shehu.'
     src:
       c: e951686e
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 607: ?'
         - 'w.zhou-enlai-waijiao-huodong 384: B'
+        - 'w.chen-yi-nianpu 1006: ?'
     tags: [name:zhou-enlai, polity:prc, polity:albania]
   - id: cal.1964-01-06.china-leadership-3
     when: Jan. 6
@@ -1152,11 +1233,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Vlorë. Zhou Enlai attends the grand banquet given by the Vlorë district committee of the Party of Labor and the district people's assembly's executive committee.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 6, 1964; 晚上). See [[cal.1964-01-06.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 6, 1964; 晚上); [[w.chen-yi-nianpu]], 1006 (Jan. 6, 1964, evening; Chen Yi present). See [[cal.1964-01-06.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 87c40b14
       rows:
         - 'w.zhou-enlai-waijiao-huodong 384: all'
+        - 'w.chen-yi-nianpu 1006: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai]
     time_range:
       - 1964-01-06T18:00Z
@@ -1258,6 +1340,32 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1788: all'
     tags: [polity:prc, name:deng-xiaoping, name:bo-yibo, vis:only:prc]
+  - id: cal.1964-01-06.china-leadership-10
+    when: Jan. 6
+    date: '1964-01-06'
+    place: berat
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Spiro Koleka 斯·科列加, First Vice-Chairman of the Council of Ministers, goes from Tirana to Berat 培拉特, speaks at the welcome rally in its central square, sees its fig orchards and the site of the second large textile combine, and tells the Chinese experts to work better under their Albanian comrades' lead.
+    n: '[[w.chen-yi-nianpu]], 1006. The words: 上午 (1006). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi]
+    time_range:
+      - 1964-01-06T05:00Z
+      - 1964-01-06T11:00Z
+    time_band: morning
+    time_zone: Europe/Tirane
+  - id: cal.1964-01-06.china-leadership-11
+    when: Jan. 6
+    date: '1964-01-06'
+    place: vlore
+    thread: china-leadership
+    c: Chen Yi 陈毅 goes to Vlorë 发罗拉 to join Zhou Enlai 周恩来, visiting on the way the refinery and coke works of Stalin oil town 斯大林石油城.
+    n: '[[w.chen-yi-nianpu]], 1006. The words: 下午 (1006). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:albania, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1964-01-06T11:00Z
+      - 1964-01-06T17:00Z
+    time_band: afternoon
+    time_zone: Europe/Tirane
   - id: cal.1964-01-07.congress
     when: Jan. 7
     date: '1964-01-07'
@@ -1541,12 +1649,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou, Tirana: sixth talks with Hoxha, Shehu and others, on the struggle against revisionism and the two countries'' construction.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 607 (Jan. 7, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 7, 1964; 下午5时, 在地拉那, 第六次会谈). Made public: 1993. Names: Zhou Enlai, Hoxha, Shehu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 607 (Jan. 7, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 7, 1964; 下午5时, 在地拉那, 第六次会谈); [[w.chen-yi-nianpu]], 1006–1007 (Jan. 7, 1964, afternoon; Chen Yi with Zhou in the talks). Made public: 1993. Names: Zhou Enlai, Hoxha, Shehu.'
     src:
       c: b9b4091c
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 607: ?'
         - 'w.zhou-enlai-waijiao-huodong 384: A'
+        - 'w.chen-yi-nianpu 1006–1007: ?'
     tags: [name:zhou-enlai, polity:prc, polity:albania, vis:only:prc+albania]
     time_zone: Europe/Tirane
   - id: cal.1964-01-07.china-leadership-2
@@ -1556,11 +1665,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Tirana, the Partisans' Palace. Zhou Enlai attends the grand banquet given by the Albanian Party's Central Committee and the Council of Ministers.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 7, 1964; 晚上). See [[cal.1964-01-01.china-leadership]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 7, 1964; 晚上); [[w.chen-yi-nianpu]], 1007 (Jan. 7, 1964, evening; Chen Yi present). See [[cal.1964-01-01.china-leadership]]. Names: Zhou Enlai.'
     src:
       c: 6d44866d
       rows:
         - 'w.zhou-enlai-waijiao-huodong 384: all'
+        - 'w.chen-yi-nianpu 1007: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai]
     time_range:
       - 1964-01-07T18:00Z
@@ -1609,6 +1719,13 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1788: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1964-01-07.china-leadership-7
+    when: Jan. 7
+    date: '1964-01-07'
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes the poem "Visiting Albania" 《访问阿尔巴尼亚》.
+    n: '[[w.chen-yi-nianpu]], 1006. To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
   - id: cal.1964-01-08.program
     when: Jan. 8
     date: '1964-01-08'
@@ -1900,12 +2017,13 @@ entries:
     place: tirana
     thread: china-leadership
     c: 'Zhou, Tirana, afternoon: speaks at the mass meeting of Tirana''s people.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 608 (Jan. 8, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 8, 1964; 下午, 游击队体育馆, 地拉那各界人民群众大会). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 608 (Jan. 8, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 8, 1964; 下午, 游击队体育馆, 地拉那各界人民群众大会); [[w.chen-yi-nianpu]], 1007 (Jan. 8, 1964, afternoon, the Partisan sports hall; Chen Yi at the rally). Names: Zhou Enlai.'
     src:
       c: 8c58b106
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 608: ?'
         - 'w.zhou-enlai-waijiao-huodong 384: A'
+        - 'w.chen-yi-nianpu 1007: ?'
     tags: [name:zhou-enlai, polity:prc, polity:albania]
     time_range:
       - 1964-01-08T11:00Z
@@ -1919,13 +2037,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou and Shehu sign the Chinese–Albanian joint statement: China condemns imperialism, reactionaries and modern revisionism for isolating and striking at Albania; supports Albania''s defense of the fatherland and of peace in the Balkans. During the visit receives the crew of a Chinese ocean freighter in Durrës: the ports of Huangpu and Durrës are two piers of friendship.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 608 (Jan. 8, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 8, 1964; 下午6时, 部长会议大厦, 与谢胡签署中阿会谈联合声明); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 312 (Jan. 9, 1964, the book''s day for the issue of the joint statement; the two sides condemn the partial test ban treaty signed by the U.S., Britain and the Soviet Union as a big fraud on the world''s peoples meant to monopolize nuclear weapons; both stand for general disarmament and the complete prohibition and destruction of nuclear weapons; both hold that to oppose modern revisionism and modern dogmatism and to defend the purity of Marxism-Leninism and the revolutionary principles of the 1957 declaration and 1960 statement is the sacred duty of every communist party). Names: Zhou Enlai, Shehu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 608 (Jan. 8, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 8, 1964; 下午6时, 部长会议大厦, 与谢胡签署中阿会谈联合声明); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 312 (Jan. 9, 1964, the book''s day for the issue of the joint statement; the two sides condemn the partial test ban treaty signed by the U.S., Britain and the Soviet Union as a big fraud on the world''s peoples meant to monopolize nuclear weapons; both stand for general disarmament and the complete prohibition and destruction of nuclear weapons; both hold that to oppose modern revisionism and modern dogmatism and to defend the purity of Marxism-Leninism and the revolutionary principles of the 1957 declaration and 1960 statement is the sacred duty of every communist party); [[w.chen-yi-nianpu]], 1007 (Jan. 8, 1964, 6 p.m.; Chen Yi at the signing). Names: Zhou Enlai, Shehu.'
     src:
       c: '66680758'
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 608: ?'
         - 'w.zhou-enlai-waijiao-huodong 384: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 312: A-B'
+        - 'w.chen-yi-nianpu 1007: ?'
     tags: [name:zhou-enlai, polity:prc, polity:albania]
     time_zone: Europe/Tirane
   - id: cal.1964-01-08.china-leadership-4
@@ -1935,11 +2054,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Tirana, the Partisans' Palace. Zhou Enlai gives a grand farewell banquet.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 8, 1964; 晚上). See [[cal.1964-01-01.china-leadership]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 8, 1964; 晚上); [[w.chen-yi-nianpu]], 1007 (Jan. 8, 1964, evening; Chen Yi present). See [[cal.1964-01-01.china-leadership]]. Names: Zhou Enlai.'
     src:
       c: 4570da38
       rows:
         - 'w.zhou-enlai-waijiao-huodong 384: all'
+        - 'w.chen-yi-nianpu 1007: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai]
     time_range:
       - 1964-01-08T18:00Z
@@ -2005,6 +2125,19 @@ entries:
         - 'w.yang-shangkun-riji II, 341: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1964-01-08.china-leadership-10
+    when: Jan. 8
+    date: '1964-01-08'
+    place: tirana
+    thread: china-leadership
+    c: Tirana 地拉那. Chen Yi 陈毅 visits the University of Tirana and speaks to its staff in the great hall; hopes the students will do independent research, the only way to create.
+    n: '[[w.chen-yi-nianpu]], 1007. The words: 早晨 (1007). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi]
+    time_range:
+      - 1964-01-08T04:00Z
+      - 1964-01-08T07:00Z
+    time_band: early morning
+    time_zone: Europe/Tirane
   - id: cal.1964-01-09.latin-america
     when: Jan. 9–11
     date: '1964-01-09'
@@ -2304,12 +2437,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou leaves Tirana for Tunis.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 608 (Jan. 9, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 9, 1964; 上午10时, 结束在阿尔巴尼亚的友好访问, 乘专机离开地拉那); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 9, 1964; 上午11时35分; the arrival at Tunis). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 608 (Jan. 9, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 9, 1964; 上午10时, 结束在阿尔巴尼亚的友好访问, 乘专机离开地拉那); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 9, 1964; 上午11时35分; the arrival at Tunis); [[w.chen-yi-nianpu]], 1007 (Jan. 9, 1964, morning; Chen Yi with Zhou by special plane from Tirana to Tunis 突尼斯). Names: Zhou Enlai.'
     src:
       c: ed490c19
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 608: ?'
         - 'w.zhou-enlai-waijiao-huodong 384: A'
+        - 'w.chen-yi-nianpu 1007: ?'
     tags: [name:zhou-enlai, polity:prc, polity:tunisia]
     time_zone: Europe/Tirane
   - id: cal.1964-01-09.china-leadership-2
@@ -2319,13 +2453,14 @@ entries:
     thread: china-leadership
     also: [africa, middle-east]
     c: Zhou and Chen Yi call on President Bourguiba; first private talk. Supports Tunisia's struggle for full independence, economic too; thanks Tunisia for its support of China's seat in the United Nations. Asian-African states share the aim of ending colonial backwardness; differences of system or method can be respected; contacts matter.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 608 (Jan. 9, 1964); [[w.zhou-enlai-waijiao-huodong]], 384–85 (Jan. 9, 1964; 下午5时, 迎太基宫); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 313 (Jan. 9–10, 1964; Zhou and Chen Yi visit Tunisia officially at President Bourguiba''s invitation; Zhou exchanges views with Bourguiba on relations between the two countries and on the international situation). Made public: 1993. Names: Zhou Enlai, Chen Yi, Bourguiba.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 608 (Jan. 9, 1964); [[w.zhou-enlai-waijiao-huodong]], 384–85 (Jan. 9, 1964; 下午5时, 迎太基宫); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 313 (Jan. 9–10, 1964; Zhou and Chen Yi visit Tunisia officially at President Bourguiba''s invitation; Zhou exchanges views with Bourguiba on relations between the two countries and on the international situation); [[w.chen-yi-nianpu]], 1007 (Jan. 9, 1964, afternoon, Chen Yi with Zhou calls on Bourguiba at the presidential palace at Carthage 迦太基; evening, in Zhou''s talks with him). Made public: 1993. Names: Zhou Enlai, Chen Yi, Bourguiba.'
     src:
       c: 107c481a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 608: ?'
         - 'w.zhou-enlai-waijiao-huodong 384–85: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 313: A'
+        - 'w.chen-yi-nianpu 1007: ?'
     tags: [name:zhou-enlai, name:chen-yi, name:bourguiba-habib-ben-ali, polity:prc, polity:tunisia, vis:only:prc+tunisia]
     time_zone: Africa/Tunis
   - id: cal.1964-01-09.china-leadership-3
@@ -2335,12 +2470,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, Tunis, evening: at Bourguiba''s state dinner answers his objections to China''s foreign policy in a spirit of seeking common ground. Bourguiba later: agrees with Zhou''s line; Tunisia will establish relations with China.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 608–09 (Jan. 9, 1964); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 9, 1964; 晚上, 总统府, 布尔吉巴总统举行的宴会). Made public: 1993. Names: Zhou Enlai, Bourguiba.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 608–09 (Jan. 9, 1964); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 9, 1964; 晚上, 总统府, 布尔吉巴总统举行的宴会); [[w.chen-yi-nianpu]], 1007 (Jan. 9, 1964, evening, the Carthage palace 迦太基宫; Chen Yi present). Made public: 1993. Names: Zhou Enlai, Bourguiba.'
     src:
       c: 3094618b
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 608–09: ?'
         - 'w.zhou-enlai-waijiao-huodong 385: A'
+        - 'w.chen-yi-nianpu 1007: ?'
     tags: [name:zhou-enlai, name:bourguiba-habib-ben-ali, polity:prc, polity:tunisia, vis:only:prc+tunisia]
     time_range:
       - 1964-01-09T18:00Z
@@ -2354,17 +2490,23 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Tunis. Zhou Enlai lays a wreath at the Sijoumi martyrs' monument, with Bahi Ladgham, Secretary of State for the Presidency and Defense.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 9, 1964; 中午). See [[cal.1964-01-09.china-leadership-2]]. Names: Zhou Enlai, Ladgham. Check: the place, 塞朱米 in the book.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 9, 1964; 中午); [[w.chen-yi-nianpu]], 1007 (Jan. 10, 1964, morning; Chen Yi with Zhou and Bahi Ladgham at the Séjoumi 塞朱米 martyrs'' monument). See [[cal.1964-01-09.china-leadership-2]]. Names: Zhou Enlai, Ladgham. Check: the place, 塞朱米 in the book.'
     src:
       c: 265f027e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 384: all'
+        - 'w.chen-yi-nianpu 1007: ?'
     tags: [polity:prc, polity:tunisia, name:zhou-enlai, name:ladgham-bahi]
     time_range:
       - 1964-01-09T11:00Z
       - 1964-01-09T13:00Z
     time_band: workday midday
     time_zone: Africa/Tunis
+    variants:
+      - unit: B
+        witness: w.chen-yi-nianpu
+        reads: The wreath at the Séjoumi monument is laid on the morning of Jan. 10
+        at: '1007'
   - id: cal.1964-01-09.china-leadership-4
     when: Jan. 9
     date: '1964-01-09'
@@ -2475,6 +2617,14 @@ entries:
     c: 'Saigon. Two fighters of Commando Team 67 mine the Bambu restaurant at Lăng Cha Cả, near Tân Sơn Nhứt, Jan. 9: 15 Americans killed and wounded, by the history''s count.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 351–52.'
     tags: [polity:drv]
+  - id: cal.1964-01-09.china-leadership-15
+    when: Jan. 9–10
+    date: '1964-01-09'
+    place: tunis
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes the vernacular poem "What the Tunisians say" 《突尼斯人语》.
+    n: '[[w.chen-yi-nianpu]], 1008. The words: 在突尼斯访问期间 (1008). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-time]
   - id: cal.1964-01-10.latin-america-panama
     when: Jan. 10
     date: '1964-01-10'
@@ -2636,12 +2786,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, Tunis: visits the Tunisian dairy company STIL, a handicraft center in the suburbs, a rural district some fifty kilometers from Tunis, and the Neo-Destour Political Bureau headquarters.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 609 (Jan. 10, 1964); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 上午, 参观突尼斯斯蒂牛奶工业公司以及郊区的手工艺中心); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 下午; the rural district of Babia); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 晚上; the Neo-Destour Politburo''s headquarters). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 609 (Jan. 10, 1964); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 上午, 参观突尼斯斯蒂牛奶工业公司以及郊区的手工艺中心); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 下午; the rural district of Babia); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 晚上; the Neo-Destour Politburo''s headquarters); [[w.chen-yi-nianpu]], 1007 (Jan. 10, 1964, morning; Chen Yi with Zhou, the Minister of Agriculture Abdelmajid Chaker 阿卜杜勒·马吉德·沙克尔 and Habib Bourguiba Jr. at the handicraft center and the STIL fruit and milk works; afternoon, with Chaker, a country district some 50 km from Tunis and the farmer Hadi''s 哈迪 home; evening, the headquarters of the Neo-Destour Party''s Political Bureau). Names: Zhou Enlai.'
     src:
       c: bfc6f77b
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 609: ?'
         - 'w.zhou-enlai-waijiao-huodong 385: A'
+        - 'w.chen-yi-nianpu 1007: ?'
     tags: [name:zhou-enlai, polity:prc, polity:tunisia]
     time_range:
       - 1964-01-10T05:00Z
@@ -2674,11 +2825,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Tunis, the Maghreb House. Zhou Enlai attends the luncheon given by Ladgham, Secretary of State for the Presidency and Defense.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 中午). See [[cal.1964-01-09.china-leadership-2]]. Names: Zhou Enlai, Ladgham.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 中午); [[w.chen-yi-nianpu]], 1007 (Jan. 10, 1964; Chen Yi with Zhou). See [[cal.1964-01-09.china-leadership-2]]. Names: Zhou Enlai, Ladgham.'
     src:
       c: 202fd4c7
       rows:
         - 'w.zhou-enlai-waijiao-huodong 385: all'
+        - 'w.chen-yi-nianpu 1007: ?'
     tags: [polity:prc, polity:tunisia, name:zhou-enlai, name:ladgham-bahi]
     time_range:
       - 1964-01-10T11:00Z
@@ -2692,11 +2844,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Tunis, the Majestic Hotel. Zhou Enlai gives a banquet for President Bourguiba.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 晚上). See [[cal.1964-01-09.china-leadership-2]]. Names: Zhou Enlai, Bourguiba.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 晚上); [[w.chen-yi-nianpu]], 1008 (Jan. 10, 1964, evening; Chen Yi present). See [[cal.1964-01-09.china-leadership-2]]. Names: Zhou Enlai, Bourguiba.'
     src:
       c: 95e1962b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 385: all'
+        - 'w.chen-yi-nianpu 1008: ?'
     tags: [polity:prc, polity:tunisia, name:zhou-enlai, name:bourguiba-habib-ben-ali]
     time_range:
       - 1964-01-10T18:00Z
@@ -2710,11 +2863,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Tunis. Zhou Enlai calls on President Bourguiba to take his leave.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 晚上). See [[cal.1964-01-09.china-leadership-2]]. Names: Zhou Enlai, Bourguiba.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 晚上); [[w.chen-yi-nianpu]], 1008 (Jan. 10, 1964, evening, the presidential palace at Carthage; Chen Yi with Zhou). See [[cal.1964-01-09.china-leadership-2]]. Names: Zhou Enlai, Bourguiba.'
     src:
       c: f77159bb
       rows:
         - 'w.zhou-enlai-waijiao-huodong 385: all'
+        - 'w.chen-yi-nianpu 1008: ?'
     tags: [polity:prc, polity:tunisia, name:zhou-enlai, name:bourguiba-habib-ben-ali]
     time_range:
       - 1964-01-10T18:00Z
@@ -2728,17 +2882,23 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Tunis. Zhou Enlai leaves Tunis; Ladgham, Foreign Minister Mongi Slim and Habib Bourguiba Jr., Secretary General of the Presidency, see him off at the airport.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 晚上). See [[cal.1964-01-09.china-leadership-2]]. Names: Zhou Enlai, Ladgham, Mongi Slim, Habib Bourguiba Jr..'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 晚上); [[w.chen-yi-nianpu]], 1008 (Jan. 10, 1964, 11 p.m.; Chen Yi with Zhou leaves Tunis for Ghana). See [[cal.1964-01-09.china-leadership-2]]. Names: Zhou Enlai, Ladgham, Mongi Slim, Habib Bourguiba Jr..'
     src:
       c: 31a27174
       rows:
         - 'w.zhou-enlai-waijiao-huodong 385: all'
+        - 'w.chen-yi-nianpu 1008: ?'
     tags: [polity:prc, polity:tunisia, name:zhou-enlai, name:ladgham-bahi, name:slim-mongi, name:bourguiba-habib-jr]
     time_range:
       - 1964-01-10T18:00Z
       - 1964-01-10T21:00Z
     time_band: evening
     time_zone: Africa/Tunis
+    variants:
+      - unit: B
+        witness: w.chen-yi-nianpu
+        reads: Zhou Enlai and Chen Yi leave Tunis at 11 p.m.
+        at: '1008'
   - id: cal.1964-01-10.china-leadership-6
     when: Jan. 10
     date: '1964-01-10'
@@ -2763,6 +2923,20 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1788–1789: all'
     tags: [polity:prc, name:deng-xiaoping, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1964-01-10.china-leadership-12
+    when: Jan. 10
+    date: '1964-01-10'
+    place: tunis
+    thread: china-leadership
+    also: [africa]
+    c: Tunis 突尼斯, the Government House 政府大厦. Chen Yi 陈毅 holds talks with Bahi Ladgham, Secretary of State for the Presidency and Defense, and Mongi Slim, Foreign Minister.
+    n: '[[w.chen-yi-nianpu]], 1007. The words: 中午 (1007). Made public: 1995. Names: Chen Yi, Ladgham, Slim.'
+    tags: [polity:prc, polity:tunisia, name:chen-yi, name:ladgham-bahi, name:slim-mongi, vis:only:prc+tunisia]
+    time_range:
+      - 1964-01-10T11:00Z
+      - 1964-01-10T13:00Z
+    time_band: workday midday
+    time_zone: Africa/Tunis
   - id: cal.1964-01-11.health
     when: Jan. 11
     date: '1964-01-11'
@@ -2850,18 +3024,21 @@ entries:
   - id: cal.1964-01-11.china-leadership
     when: Jan. 11
     date: '1964-01-11'
+    time: 1964-01-11T08:00Z
     place: accra
     thread: china-leadership
     also: [africa]
     c: Zhou arrives in Accra; welcomed at the airport by a three-man committee for Nkrumah and crowds. Drives through the city.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 609 (Jan. 11, 1964); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 11, 1964; 上午8时, 抵达阿克拉, 代表恩克鲁玛总统的三人委员会和各界人士热烈欢迎; 下午4时20分, 乘汽车参观阿克拉市容); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 313 (Jan. 11–16, 1964; Zhou visits Ghana at President Nkrumah''s invitation, with Chen Yi accompanying him, and holds talks with Nkrumah). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 609 (Jan. 11, 1964); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 11, 1964; 上午8时, 抵达阿克拉, 代表恩克鲁玛总统的三人委员会和各界人士热烈欢迎; 下午4时20分, 乘汽车参观阿克拉市容); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 313 (Jan. 11–16, 1964; Zhou visits Ghana at President Nkrumah''s invitation, with Chen Yi accompanying him, and holds talks with Nkrumah); [[w.chen-yi-nianpu]], 1008 (Jan. 11, 1964, 8 a.m., Chen Yi with Zhou reaches Accra 阿克拉; afternoon, with Zhou drives about the city). Names: Zhou Enlai.'
     src:
       c: abfc7c5a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 609: ?'
         - 'w.zhou-enlai-waijiao-huodong 385: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 313: A'
+        - 'w.chen-yi-nianpu 1008: ?'
     tags: [name:zhou-enlai, polity:prc, polity:ghana]
+    time_zone: Africa/Accra
   - id: cal.1964-01-11.china-leadership-2
     when: Jan. 11
     date: '1964-01-11'
@@ -2869,14 +3046,20 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou calls on Nkrumah at Osu Castle; hands him Mao's letter of sympathy. At Nkrumah's informal dinner denounces imperialist sabotage and subversion of the new African states and the attempt on Nkrumah's life.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 609 (Jan. 11, 1964); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 11, 1964; 晚7时30分, 奥苏城堡, 拜会恩克鲁玛总统, 面交毛泽东主席给恩克鲁玛总统的慰问函; 在恩克鲁玛总统举行的便宴上); [[w.jianguo-yilai-mao-zedong]], XVII, 179 (Jan. 11, 1964; note 1: the letter, dated Jan. 9, handed over by Zhou when he called on Nkrumah Jan. 11). Made public: 1993. Names: Zhou Enlai, Nkrumah.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 609 (Jan. 11, 1964); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 11, 1964; 晚7时30分, 奥苏城堡, 拜会恩克鲁玛总统, 面交毛泽东主席给恩克鲁玛总统的慰问函; 在恩克鲁玛总统举行的便宴上); [[w.jianguo-yilai-mao-zedong]], XVII, 179 (Jan. 11, 1964; note 1: the letter, dated Jan. 9, handed over by Zhou when he called on Nkrumah Jan. 11); [[w.chen-yi-nianpu]], 1008 (Jan. 11, 1964, evening; Chen Yi with Zhou calls on Nkrumah at his residence). Made public: 1993. Names: Zhou Enlai, Nkrumah.'
     src:
       c: c3fbdda8
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 609: ?'
         - 'w.zhou-enlai-waijiao-huodong 385: ?'
         - 'w.jianguo-yilai-mao-zedong XVII, 179: B'
+        - 'w.chen-yi-nianpu 1008: ?'
     tags: [name:zhou-enlai, name:nkrumah-kwame, polity:prc, polity:ghana, vis:only:prc+ghana]
+    time_range:
+      - 1964-01-11T19:00Z
+      - 1964-01-11T22:00Z
+    time_band: evening
+    time_zone: Africa/Accra
   - id: cal.1964-01-11.china-leadership-3
     when: Jan. 11
     date: '1964-01-11'
@@ -3034,12 +3217,13 @@ entries:
     thread: china-leadership
     also: [africa, china]
     c: 'Zhou, Accra: first talk with Nkrumah. Expresses concern again for the attack on him. On the American block on China''s seat: what is wanted is restoration of China''s legal seat, not admission, tied to expelling Chiang.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 609–10 (Jan. 12, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 12, 1964; 上午9时, 奥苏城堡, 第一次会谈). Made public: 1993. Names: Zhou Enlai, Nkrumah.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 609–10 (Jan. 12, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 12, 1964; 上午9时, 奥苏城堡, 第一次会谈); [[w.chen-yi-nianpu]], 1008 (Jan. 12, 1964, morning; Chen Yi in the talks at the President''s residence). Made public: 1993. Names: Zhou Enlai, Nkrumah.'
     src:
       c: e2cca985
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 609–10: ?'
         - 'w.zhou-enlai-waijiao-huodong 386: A'
+        - 'w.chen-yi-nianpu 1008: ?'
     tags: [name:zhou-enlai, name:nkrumah-kwame, polity:prc, polity:ghana, vis:only:prc+ghana]
     time_zone: Africa/Accra
   - id: cal.1964-01-12.china-leadership-3
@@ -3048,7 +3232,7 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou and Chen Yi receive the whole staff of the Chinese embassy in Ghana and the Chinese experts.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 610 (Jan. 12, 1964). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 610 (Jan. 12, 1964); [[w.chen-yi-nianpu]], 1008 (Jan. 12, 1964). Names: Zhou Enlai, Chen Yi.'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:ghana]
   - id: cal.1964-01-12.china-leadership-4
     when: Jan. 12
@@ -3255,12 +3439,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou, with Ghana's Minister of Transport and Works Bensah, visits the new harbor and industrial base at Tema.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 610 (Jan. 13, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 13, 1964; 上午9时, 访问加纳新海港和工业基地特马). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 610 (Jan. 13, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 13, 1964; 上午9时, 访问加纳新海港和工业基地特马); [[w.chen-yi-nianpu]], 1008 (Jan. 13, 1964, morning; Chen Yi with Zhou, the Minister of Transport and Works and Ghana''s new Ambassador to China at Tema 特马; on the way back gives the Ghana News Agency his impressions). Names: Zhou Enlai.'
     src:
       c: 230079af
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 610: ?'
         - 'w.zhou-enlai-waijiao-huodong 386: A'
+        - 'w.chen-yi-nianpu 1008: ?'
     tags: [name:zhou-enlai, polity:prc, polity:ghana]
     time_zone: Africa/Accra
   - id: cal.1964-01-13.china-leadership-2
@@ -3270,12 +3455,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou: second talk with Nkrumah. Peace and an end to aggressive war, general disarmament and a ban on nuclear weapons come only through struggle; peace cannot be begged. Armed struggle ends with imperialism forced to negotiate; talks rest on struggle. Supports an African nuclear-free zone on conditions: foreign bases out, the Sahara''s included; the end aim total ban and destruction of nuclear weapons. A summit some day, all countries equal. Nkrumah: his position is China''s.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 610 (Jan. 13, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 13, 1964; 下午4时, 奥苏城堡, 第二次会谈). Made public: 1993. Names: Zhou Enlai, Nkrumah.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 610 (Jan. 13, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 13, 1964; 下午4时, 奥苏城堡, 第二次会谈); [[w.chen-yi-nianpu]], 1008 (Jan. 13, 1964, afternoon; Chen Yi in the talks). Made public: 1993. Names: Zhou Enlai, Nkrumah.'
     src:
       c: cbc2ca7a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 610: ?'
         - 'w.zhou-enlai-waijiao-huodong 386: A'
+        - 'w.chen-yi-nianpu 1008: ?'
     tags: [name:zhou-enlai, name:nkrumah-kwame, polity:prc, polity:ghana, vis:only:prc+ghana]
     time_zone: Africa/Accra
   - id: cal.1964-01-13.china-leadership-3
@@ -3284,12 +3470,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, at Nkrumah''s state dinner: the African national liberation movement is advancing irresistibly; African and Asian countries must strengthen unity.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 610–11 (Jan. 13, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 13, 1964; 晚上, 奥苏城堡, 恩克鲁玛总统举行的国宴). Names: Zhou Enlai, Nkrumah.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 610–11 (Jan. 13, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 13, 1964; 晚上, 奥苏城堡, 恩克鲁玛总统举行的国宴); [[w.chen-yi-nianpu]], 1008 (Jan. 13, 1964, evening; Chen Yi present). Names: Zhou Enlai, Nkrumah.'
     src:
       c: 4849fe53
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 610–11: ?'
         - 'w.zhou-enlai-waijiao-huodong 386: A'
+        - 'w.chen-yi-nianpu 1008: ?'
     tags: [name:zhou-enlai, name:nkrumah-kwame, polity:prc, polity:ghana]
     time_range:
       - 1964-01-13T19:00Z
@@ -3353,6 +3540,14 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1790: B'
     tags: [polity:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1964-01-13.china-leadership-7
+    when: Jan. 13
+    date: '1964-01-13'
+    thread: china-leadership
+    also: [africa]
+    c: Pierre Ngendandumwe 皮埃尔·恩根丹杜姆韦, Burundi's Prime Minister and Minister of Foreign Affairs and Foreign Trade, replies from Bujumbura 布琼布拉 to Chen Yi's 陈毅 cable on the establishment of relations; Chen Yi receives it Jan. 29.
+    n: '[[w.chen-yi-nianpu]], 1012. Names: Chen Yi.'
+    tags: [polity:prc, polity:burundi, name:chen-yi, ok:fields-place]
   - id: cal.1964-01-14.poverty-nc
     when: Jan. 14
     date: '1964-01-14'
@@ -3469,16 +3664,23 @@ entries:
   - id: cal.1964-01-14.china-leadership-2
     when: Jan. 14
     date: '1964-01-14'
+    place: accra
     thread: china-leadership
     also: [africa]
     c: Zhou and Chen Yi receive Shirley Graham Du Bois, widow of W. E. B. Du Bois, and give condolences.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 611 (Jan. 14, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 14, 1964; 接见已故美国黑人学者杜波伊斯博士的夫人). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 611 (Jan. 14, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 14, 1964; 接见已故美国黑人学者杜波伊斯博士的夫人); [[w.chen-yi-nianpu]], 1008 (Jan. 14, 1964, afternoon, the State House, Accra; Chen Yi with Zhou). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 9b96f85b
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 611: ?'
         - 'w.zhou-enlai-waijiao-huodong 386: A'
+        - 'w.chen-yi-nianpu 1008: ?'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:ghana]
+    time_range:
+      - 1964-01-14T12:00Z
+      - 1964-01-14T18:00Z
+    time_band: afternoon
+    time_zone: Africa/Accra
   - id: cal.1964-01-14.china-leadership-3
     when: Jan. 14
     date: '1964-01-14'
@@ -3663,7 +3865,7 @@ entries:
     thread: china-leadership
     also: [africa, china]
     c: 'Zhou: third talk with Nkrumah; answering the Ghana News Agency states China''s eight principles of economic and technical aid. The China–Mali joint communiqué of Jan. 21 wrote them in.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 611–12 (Jan. 15, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 15, 1964; 下午5时, 奥苏城堡, 第三次会谈, 介绍对外援助八项原则); [[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 15, 1964; 答加纳通讯社记者问, 宣布八项原则); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 315 (Jan. 15, 1964; at Accra, answering Ghana News Agency reporters, Zhou announces the eight principles of the Chinese government''s economic and technical aid to other countries: aid on the principle of equality and mutual benefit, regarded as mutual; strict respect for the receiving country''s sovereignty, never asking privileges or attaching conditions; aid in the form of interest-free or low-interest loans, with repayment dates extended when needed; the aim to help the receiving country gradually to self-reliant, independent development; projects need little investment and bring quick returns; China supplies the best equipment and materials it makes, at international market prices; in giving technical aid, it ensures that the receiving country''s personnel master the technique fully; and its experts get the same material treatment as the receiving country''s own, with no special demands or privileges); [[w.jian-zhou-enlai]], 502 (Jan. 15, Accra: the eight principles of China''s economic and technical aid). To check: [[w.zhou-enlai-waijiao-wenxuan]], 388–389 (cited by [[w.jian-zhou-enlai]], 502 n.39). Names: Zhou Enlai, Nkrumah.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 611–12 (Jan. 15, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 15, 1964; 下午5时, 奥苏城堡, 第三次会谈, 介绍对外援助八项原则); [[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 15, 1964; 答加纳通讯社记者问, 宣布八项原则); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 315 (Jan. 15, 1964; at Accra, answering Ghana News Agency reporters, Zhou announces the eight principles of the Chinese government''s economic and technical aid to other countries: aid on the principle of equality and mutual benefit, regarded as mutual; strict respect for the receiving country''s sovereignty, never asking privileges or attaching conditions; aid in the form of interest-free or low-interest loans, with repayment dates extended when needed; the aim to help the receiving country gradually to self-reliant, independent development; projects need little investment and bring quick returns; China supplies the best equipment and materials it makes, at international market prices; in giving technical aid, it ensures that the receiving country''s personnel master the technique fully; and its experts get the same material treatment as the receiving country''s own, with no special demands or privileges); [[w.jian-zhou-enlai]], 502 (Jan. 15, Accra: the eight principles of China''s economic and technical aid); [[w.chen-yi-nianpu]], 1009 (Jan. 15, 1964, evening; Chen Yi present at the talks). To check: [[w.zhou-enlai-waijiao-wenxuan]], 388–389 (cited by [[w.jian-zhou-enlai]], 502 n.39). Names: Zhou Enlai, Nkrumah.'
     src:
       c: 70db556b
       rows:
@@ -3672,6 +3874,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 387: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 315: B'
         - 'w.jian-zhou-enlai 502: ?'
+        - 'w.chen-yi-nianpu 1009: ?'
     tags: [name:zhou-enlai, name:nkrumah-kwame, polity:prc, polity:ghana]
     time_zone: Africa/Accra
   - id: cal.1964-01-15.china-leadership-2
@@ -3681,12 +3884,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, Osu Castle, farewell banquet: peoples must proceed from their own conditions, rely on themselves.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 612 (Jan. 15, 1964); [[w.zhou-enlai-waijiao-huodong]], 386–87 (Jan. 15, 1964; 晚上, 奥苏城堡, 告别宴会). Names: Zhou Enlai, Nkrumah.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 612 (Jan. 15, 1964); [[w.zhou-enlai-waijiao-huodong]], 386–87 (Jan. 15, 1964; 晚上, 奥苏城堡, 告别宴会); [[w.chen-yi-nianpu]], 1009 (Jan. 15, 1964, evening; Chen Yi present). Names: Zhou Enlai, Nkrumah.'
     src:
       c: edc33b58
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 612: ?'
         - 'w.zhou-enlai-waijiao-huodong 386–87: A'
+        - 'w.chen-yi-nianpu 1009: ?'
     tags: [name:zhou-enlai, name:nkrumah-kwame, polity:prc, polity:ghana]
     time_range:
       - 1964-01-15T19:00Z
@@ -3709,12 +3913,18 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Accra. Zhou Enlai receives the Algerian Minister of State, Ouzegane.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 15, 1964). Made public: 1993. See [[cal.1964-01-11.china-leadership]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 15, 1964); [[w.chen-yi-nianpu]], 1009 (Jan. 15, 1964, evening; Chen Yi present). Made public: 1993. See [[cal.1964-01-11.china-leadership]]. Names: Zhou Enlai.'
     src:
       c: 5b8b97f4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 386: all'
+        - 'w.chen-yi-nianpu 1009: ?'
     tags: [polity:prc, polity:algeria, polity:ghana, name:zhou-enlai, vis:only:prc+algeria]
+    time_range:
+      - 1964-01-15T19:00Z
+      - 1964-01-15T22:00Z
+    time_band: evening
+    time_zone: Africa/Accra
   - id: cal.1964-01-15.china-leadership-5
     when: Jan. 15
     date: '1964-01-15'
@@ -3795,6 +4005,37 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1791: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1964-01-15.china-leadership-10
+    when: Jan. 15
+    date: '1964-01-15'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 visits the Aburi botanical garden 阿布里植物园, 24 miles northeast of Accra.
+    n: '[[w.chen-yi-nianpu]], 1009. Names: Chen Yi.'
+    tags: [polity:prc, polity:ghana, name:chen-yi, ok:fields-place, ok:fields-time]
+  - id: cal.1964-01-15.china-leadership-11
+    when: Jan. 15
+    date: '1964-01-15'
+    thread: china-leadership
+    follows:
+      - cal.1964-01-15.china-leadership-10
+    c: Chen Yi 陈毅 writes the poems "Visiting Ghana's Aburi botanical garden" 《参观加纳的阿比内植物园》 (so printed) and *Man jiang hong*, "The Gold Coast" 《满江红·黄金海岸》.
+    n: '[[w.chen-yi-nianpu]], 1009. The words: 之后 (1009). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poems. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place, ok:fields-time]
+  - id: cal.1964-01-15.china-leadership-12
+    when: Jan. 15
+    date: '1964-01-15'
+    place: accra
+    thread: china-leadership
+    also: [africa]
+    c: Accra 阿克拉, the President's residence. Nkrumah gives Zhou Enlai 周恩来 presents; Chen Yi 陈毅 present.
+    n: '[[w.chen-yi-nianpu]], 1009. The words: 晚上 (1009). Names: Nkrumah, Zhou Enlai, Chen Yi.'
+    tags: [polity:prc, polity:ghana, name:chen-yi, name:nkrumah-kwame, name:zhou-enlai]
+    time_range:
+      - 1964-01-15T19:00Z
+      - 1964-01-15T22:00Z
+    time_band: evening
+    time_zone: Africa/Accra
   - id: cal.1964-01-16.latin-america-panama
     when: Jan. 16
     date: '1964-01-16'
@@ -3944,18 +4185,21 @@ entries:
   - id: cal.1964-01-16.china-leadership-2
     when: Jan. 16
     date: '1964-01-16'
+    time: 1964-01-16T08:20Z
     place: bamako
     thread: china-leadership
     also: [africa]
     c: Zhou flies to Bamako, starts the visit to Mali. Met at the airport by President Keita and crowds. Afternoon, calls on Keita.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 612 (Jan. 16, 1964); [[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 16, 1964; 上午, 离阿克拉; 上午10时50分, 抵达巴马科, 凯塔总统在机场迎接; 下午, 拜会凯塔总统); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 315 (Jan. 16–21, 1964; Zhou visits Mali officially at President Modibo Keita''s invitation, with Chen Yi accompanying him, and holds talks with Keita). Names: Zhou Enlai, Keita.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 612 (Jan. 16, 1964); [[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 16, 1964; 上午, 离阿克拉; 上午10时50分, 抵达巴马科, 凯塔总统在机场迎接; 下午, 拜会凯塔总统); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 315 (Jan. 16–21, 1964; Zhou visits Mali officially at President Modibo Keita''s invitation, with Chen Yi accompanying him, and holds talks with Keita); [[w.chen-yi-nianpu]], 1009 (Jan. 16, 1964, 8:20 a.m., Chen Yi with Zhou leaves Accra by special plane; reaches Bamako 巴马科). Names: Zhou Enlai, Keita.'
     src:
       c: 9feeda28
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 612: ?'
         - 'w.zhou-enlai-waijiao-huodong 387: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 315: A'
+        - 'w.chen-yi-nianpu 1009: ?'
     tags: [name:zhou-enlai, name:keita-modibo, polity:prc, polity:mali]
+    time_zone: Africa/Accra
   - id: cal.1964-01-16.china-leadership-3
     when: Jan. 16
     date: '1964-01-16'
@@ -3963,11 +4207,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Bamako. Zhou Enlai attends the luncheon given by President Keita.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 16, 1964; 中午). See [[cal.1964-01-16.china-leadership-2]]. Names: Zhou Enlai, Keita.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 16, 1964; 中午); [[w.chen-yi-nianpu]], 1009 (Jan. 16, 1964, noon; Chen Yi with Zhou). See [[cal.1964-01-16.china-leadership-2]]. Names: Zhou Enlai, Keita.'
     src:
       c: 072e53f3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 387: all'
+        - 'w.chen-yi-nianpu 1009: ?'
     tags: [polity:prc, polity:mali, name:zhou-enlai, name:keita-modibo]
     time_range:
       - 1964-01-16T12:00Z
@@ -3981,11 +4226,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Bamako. Zhou Enlai attends the grand reception given by President Keita for over a thousand guests, and dances with Keita in the lead.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 16, 1964; 晚上). See [[cal.1964-01-16.china-leadership-2]]. Names: Zhou Enlai, Keita.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 16, 1964; 晚上); [[w.chen-yi-nianpu]], 1009 (Jan. 16, 1964, evening; Chen Yi with Zhou). See [[cal.1964-01-16.china-leadership-2]]. Names: Zhou Enlai, Keita.'
     src:
       c: 814f5890
       rows:
         - 'w.zhou-enlai-waijiao-huodong 387: all'
+        - 'w.chen-yi-nianpu 1009: ?'
     tags: [polity:prc, polity:mali, name:zhou-enlai, name:keita-modibo]
     time_range:
       - 1964-01-16T19:00Z
@@ -4057,6 +4303,16 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 370: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 370 n.t1: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-01-16.china-leadership-10
+    when: Jan. 16
+    date: '1964-01-16'
+    place: bamako
+    thread: china-leadership
+    follows:
+      - cal.1964-01-16.china-leadership-2
+    c: Chen Yi 陈毅 writes the poem "Visiting Mali" 《访马里》.
+    n: '[[w.chen-yi-nianpu]], 1009. The words: 之后 (1009). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-time]
   - id: cal.1964-01-17.opinion
     when: Jan. 17
     date: '1964-01-17'
@@ -4269,8 +4525,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, with Keita, visits Koulikoro; at the mass meeting accepts the title of honorary citizen. Aid is mutual: friendly new states building their economies is great aid to China. Tours the shipping company, repair shop, oil mill, and the Chinese economic exhibition in Bamako.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 612 (Jan. 17, 1964); [[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 17, 1964; 在凯塔总统陪同下, 前往库利科罗市; 群众大会, 荣誉公民称号). Names: Zhou Enlai, Keita.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 612 (Jan. 17, 1964); [[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 17, 1964; 在凯塔总统陪同下, 前往库利科罗市; 群众大会, 荣誉公民称号); [[w.chen-yi-nianpu]], 1009 (Jan. 17, 1964, morning; Chen Yi with Zhou at Koulikoro 库利科罗, 60 km northeast of Bamako, its rally, the Mali shipping company and the oil mill). Names: Zhou Enlai, Keita.'
     tags: [name:zhou-enlai, name:keita-modibo, polity:prc, polity:mali]
+    time_range:
+      - 1964-01-17T06:00Z
+      - 1964-01-17T12:00Z
+    time_band: morning
+    time_zone: Africa/Bamako
   - id: cal.1964-01-17.china-leadership-4
     when: Jan. 17
     date: '1964-01-17'
@@ -4278,11 +4539,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Bamako. Zhou Enlai tours the city, with Kouriba, Second Deputy Mayor, and Sissoko, Vice President of the National Assembly, and visits the zoo.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 17, 1964; 下午). See [[cal.1964-01-16.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 17, 1964; 下午); [[w.chen-yi-nianpu]], 1009 (Jan. 17, 1964, afternoon; Chen Yi with Zhou, 桑加洛·库利巴利 and Alioune Sissoko 阿利色·西索科, about Bamako and at the zoo). See [[cal.1964-01-16.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 7383f417
       rows:
         - 'w.zhou-enlai-waijiao-huodong 387: all'
+        - 'w.chen-yi-nianpu 1009: ?'
     tags: [polity:prc, polity:mali, name:zhou-enlai]
     time_range:
       - 1964-01-17T12:00Z
@@ -4313,11 +4575,12 @@ entries:
     thread: china
     also: [africa]
     c: 'Chen Yi cables Abdul Rahman Muhammad Babu, Foreign Minister of Zanzibar, that the Chinese government decides to recognize the People''s Republic of Zanzibar. The editors'' note: on Jan. 18 the Zanzibar government announced the state''s name as the People''s Republic of Zanzibar; on Apr. 26, 1964 Tanganyika and Zanzibar formed a United Republic, renamed the United Republic of Tanzania on Oct. 29.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 316 (Jan. 17, 1964). Names: Chen Yi. Check: the book gives the minister as 阿卜杜勒·拉赫曼·穆罕默德·巴布; the Latin form is back-converted.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 316 (Jan. 17, 1964); [[w.chen-yi-nianpu]], 1009 (Jan. 17, 1964; Chen Yi''s cable to Abdul Rahman Mohamed Babu 阿卜杜勒·拉赫曼·穆罕默德·巴布). Names: Chen Yi. Check: the book gives the minister as 阿卜杜勒·拉赫曼·穆罕默德·巴布; the Latin form is back-converted.'
     src:
       c: 5d3d7536
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 316: all'
+        - 'w.chen-yi-nianpu 1009: ?'
     tags: [polity:prc, polity:tanzania, name:chen-yi]
   - id: cal.1964-01-17.china-leadership-6
     when: Jan. 17
@@ -4558,22 +4821,29 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, Bamako: first talk with Keita, on Africa and Mali''s internal and foreign policy.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 612 (Jan. 18, 1964); [[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 18, 1964; 上午9时, 总统府, 第一次会谈). Made public: 1993. Names: Zhou Enlai, Keita.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 612 (Jan. 18, 1964); [[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 18, 1964; 上午9时, 总统府, 第一次会谈); [[w.chen-yi-nianpu]], 1009 (Jan. 18, 1964, morning; Chen Yi in the talks). Made public: 1993. Names: Zhou Enlai, Keita.'
     src:
       c: 3ed5605f
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 612: ?'
         - 'w.zhou-enlai-waijiao-huodong 387: A'
+        - 'w.chen-yi-nianpu 1009: ?'
     tags: [name:zhou-enlai, name:keita-modibo, polity:prc, polity:mali, vis:only:prc+mali]
     time_zone: Africa/Bamako
   - id: cal.1964-01-18.china-leadership-2
     when: Jan. 18
     date: '1964-01-18'
+    place: bamako
     thread: china-leadership
     also: [africa]
     c: 'Zhou, Chen Yi and others visit the Sotuba zoological institute near Bamako: its history and management since nationalization; cattle, poultry, laboratories.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 613 (Jan. 18, 1964); [[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 18, 1964; 下午, 在凯塔总统陪同下参观巴马科郊区的索图巴动物研究所). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 613 (Jan. 18, 1964); [[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 18, 1964; 下午, 在凯塔总统陪同下参观巴马科郊区的索图巴动物研究所); [[w.chen-yi-nianpu]], 1009 (Jan. 18, 1964, afternoon; Chen Yi with Zhou and Keita at the Sotuba institute). Names: Zhou Enlai, Chen Yi.'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:mali]
+    time_range:
+      - 1964-01-18T12:00Z
+      - 1964-01-18T18:00Z
+    time_band: afternoon
+    time_zone: Africa/Bamako
   - id: cal.1964-01-18.china-leadership-3
     when: Jan. 18
     date: '1964-01-18'
@@ -4693,12 +4963,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou, with Keita, visits the Sudanese Union party headquarters; trusts Mali will overcome its difficulties; peoples choose their own path, none may interfere.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 613 (Jan. 19, 1964); [[w.zhou-enlai-waijiao-huodong]], 387–88 (Jan. 19, 1964; 上午9时, 苏丹联盟党总部). Names: Zhou Enlai, Keita.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 613 (Jan. 19, 1964); [[w.zhou-enlai-waijiao-huodong]], 387–88 (Jan. 19, 1964; 上午9时, 苏丹联盟党总部); [[w.chen-yi-nianpu]], 1010 (Jan. 19, 1964, morning; Chen Yi present). Names: Zhou Enlai, Keita.'
     src:
       c: 9e8dd184
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 613: ?'
         - 'w.zhou-enlai-waijiao-huodong 387–88: A'
+        - 'w.chen-yi-nianpu 1010: ?'
     tags: [name:zhou-enlai, name:keita-modibo, polity:prc, polity:mali]
     time_zone: Africa/Bamako
   - id: cal.1964-01-19.china-leadership-3
@@ -4940,11 +5211,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Bamako, the President's palace. Zhou Enlai attends the grand farewell reception, with President Keita, his wife and over a thousand guests; Mali's artists perform folk song and dance.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 388 (Jan. 20, 1964; 晚上). See [[cal.1964-01-16.china-leadership-2]]. Names: Zhou Enlai, Keita.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 388 (Jan. 20, 1964; 晚上); [[w.chen-yi-nianpu]], 1010 (Jan. 20, 1964, evening; Chen Yi present). See [[cal.1964-01-16.china-leadership-2]]. Names: Zhou Enlai, Keita.'
     src:
       c: 3b4a9f45
       rows:
         - 'w.zhou-enlai-waijiao-huodong 388: all'
+        - 'w.chen-yi-nianpu 1010: ?'
     tags: [polity:prc, polity:mali, name:zhou-enlai, name:keita-modibo]
     time_range:
       - 1964-01-20T19:00Z
@@ -4958,11 +5230,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Bamako, the Chinese Embassy. Zhou Enlai gives a dinner for President Keita after the reception.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 388 (Jan. 20, 1964; 晚上). See [[cal.1964-01-16.china-leadership-2]]. Names: Zhou Enlai, Keita.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 388 (Jan. 20, 1964; 晚上); [[w.chen-yi-nianpu]], 1010 (Jan. 20, 1964, evening; Chen Yi present). See [[cal.1964-01-16.china-leadership-2]]. Names: Zhou Enlai, Keita.'
     src:
       c: 34e1e97f
       rows:
         - 'w.zhou-enlai-waijiao-huodong 388: all'
+        - 'w.chen-yi-nianpu 1010: ?'
     tags: [polity:prc, polity:mali, name:zhou-enlai, name:keita-modibo]
     time_range:
       - 1964-01-20T19:00Z
@@ -5219,26 +5492,33 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou flies to Conakry, Guinea. With President Touré drives in an open car; greeted with flowers and kola nuts; at the presidency meets Guinea's notables and watches folk dances.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 614 (Jan. 21, 1964); [[w.zhou-enlai-waijiao-huodong]], 388 (Jan. 21, 1964; 上午, 乘飞机离开巴马科前往科纳克里; 抵达科纳克里, 杜尔总统在机场迎接); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 316–317 (Jan. 21–26, 1964; Zhou visits Guinea officially at President Sékou Touré''s invitation, with Chen Yi accompanying him). Names: Zhou Enlai, Touré.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 614 (Jan. 21, 1964); [[w.zhou-enlai-waijiao-huodong]], 388 (Jan. 21, 1964; 上午, 乘飞机离开巴马科前往科纳克里; 抵达科纳克里, 杜尔总统在机场迎接); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 316–317 (Jan. 21–26, 1964; Zhou visits Guinea officially at President Sékou Touré''s invitation, with Chen Yi accompanying him); [[w.chen-yi-nianpu]], 1010 (Jan. 21, 1964, morning; Chen Yi with Zhou from Bamako to Conakry 科纳克里). Names: Zhou Enlai, Touré.'
     src:
       c: 763d542b
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 614: ?'
         - 'w.zhou-enlai-waijiao-huodong 388: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 316–317: A'
+        - 'w.chen-yi-nianpu 1010: ?'
     tags: [name:zhou-enlai, name:toure-ahmed-sekou, polity:prc, polity:guinea]
+    time_range:
+      - 1964-01-21T06:00Z
+      - 1964-01-21T12:00Z
+    time_band: morning
+    time_zone: Africa/Conakry
   - id: cal.1964-01-21.china-leadership-3
     when: Jan. 21
     date: '1964-01-21'
     thread: china-leadership
     also: [africa]
     c: 'Zhou, at Touré''s evening of arts: Asian and African states have a growing role in world affairs, and their voice cannot be erased. Distribution of seats in the main U.N. organs is unfair; China fully supports every effort to enlarge Asian-African representation. Self-reliance is the road to full independence; but friendly cooperation on equal terms is needed too, with mutual exchange and aid; aid is never to be used for control, plunder, interference or subversion.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 614 (Jan. 21, 1964); [[w.zhou-enlai-waijiao-huodong]], 388 (Jan. 21, 1964; 晚上, 几内亚民主党总部, 杜尔总统和夫人举行的盛大文艺晚会). Names: Zhou Enlai, Touré.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 614 (Jan. 21, 1964); [[w.zhou-enlai-waijiao-huodong]], 388 (Jan. 21, 1964; 晚上, 几内亚民主党总部, 杜尔总统和夫人举行的盛大文艺晚会); [[w.chen-yi-nianpu]], 1010 (Jan. 21, 1964, evening, the PDG headquarters; Chen Yi at the evening of President Touré and his wife). Names: Zhou Enlai, Touré.'
     src:
       c: 0624df0f
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 614: ?'
         - 'w.zhou-enlai-waijiao-huodong 388: A'
+        - 'w.chen-yi-nianpu 1010: ?'
     tags: [name:zhou-enlai, name:toure-ahmed-sekou, polity:prc, polity:guinea]
     time_range:
       - 1964-01-21T19:00Z
@@ -5331,6 +5611,14 @@ entries:
       - 1964-01-21T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-01-21.china-leadership-9
+    when: Jan. 21
+    date: '1964-01-21'
+    place: conakry
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes the poems "Visiting Guinea" 《访几内亚》 and "To Comrade Geng Xing" 《寄耿星同志》 (Geng Xing 耿星, the book's footnote says, is the pen name of Zhang Qian 张茜).
+    n: '[[w.chen-yi-nianpu]], 1010. The words: 之后 (1010). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poems. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-time]
   - id: cal.1964-01-22.mississippi-hattiesburg
     when: Jan. 22
     date: '1964-01-22'
@@ -5517,12 +5805,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, Conakry: first talk with Touré, on Guinea''s internal situation and Africa policy.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 614 (Jan. 22, 1964); [[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 22, 1964; 上午, 总统府, 第一次会谈). Made public: 1993. Names: Zhou Enlai, Touré.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 614 (Jan. 22, 1964); [[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 22, 1964; 上午, 总统府, 第一次会谈); [[w.chen-yi-nianpu]], 1010 (Jan. 22, 1964, morning; Chen Yi in the talks). Made public: 1993. Names: Zhou Enlai, Touré.'
     src:
       c: c9755a2a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 614: ?'
         - 'w.zhou-enlai-waijiao-huodong 389: A'
+        - 'w.chen-yi-nianpu 1010: ?'
     tags: [name:zhou-enlai, name:toure-ahmed-sekou, polity:prc, polity:guinea, vis:only:prc+guinea]
     time_range:
       - 1964-01-22T06:00Z
@@ -5536,11 +5825,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Conakry. Zhou Enlai lays a wreath at the Guinean martyrs' monument.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 22, 1964; 上午). See [[cal.1964-01-21.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 22, 1964; 上午); [[w.chen-yi-nianpu]], 1010 (Jan. 22, 1964, morning; Chen Yi with Zhou). See [[cal.1964-01-21.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: dc8f8782
       rows:
         - 'w.zhou-enlai-waijiao-huodong 389: all'
+        - 'w.chen-yi-nianpu 1010: ?'
     tags: [polity:prc, polity:guinea, name:zhou-enlai]
     time_range:
       - 1964-01-22T06:00Z
@@ -5554,11 +5844,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Conakry, the Presidential Palace. Zhou Enlai attends the luncheon given by President Touré.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 22, 1964; 中午). See [[cal.1964-01-21.china-leadership-2]]. Names: Zhou Enlai, Sékou Touré.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 22, 1964; 中午); [[w.chen-yi-nianpu]], 1010 (Jan. 22, 1964, noon; Chen Yi present). See [[cal.1964-01-21.china-leadership-2]]. Names: Zhou Enlai, Sékou Touré.'
     src:
       c: d306dfa5
       rows:
         - 'w.zhou-enlai-waijiao-huodong 389: all'
+        - 'w.chen-yi-nianpu 1010: ?'
     tags: [polity:prc, polity:guinea, name:zhou-enlai, name:toure-ahmed-sekou]
     time_range:
       - 1964-01-22T12:00Z
@@ -5642,6 +5933,27 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1793: all'
     tags: [polity:prc, name:deng-xiaoping, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1964-01-22.china-leadership-9
+    when: Jan. 22
+    date: '1964-01-22'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 and Zhou Enlai 周恩来, with Diallo Saïfoulaye 迪亚洛·塞福拉耶, Louis Lansana Beavogui and Ismaël Touré 伊斯梅尔·杜尔, see the site of the Chinese-aided cigarette and match factory 24 km southeast of Conakry.
+    n: '[[w.chen-yi-nianpu]], 1010. Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:guinea, name:chen-yi, name:zhou-enlai, ok:fields-place, ok:fields-time]
+  - id: cal.1964-01-22.china-leadership-10
+    when: Jan. 22
+    date: '1964-01-22'
+    place: conakry
+    thread: china-leadership
+    c: Conakry 科纳克里. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the Chinese embassy's staff and the Chinese experts in Guinea.
+    n: '[[w.chen-yi-nianpu]], 1010. The words: 晚上 (1010). Made public: 1995. Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, name:chen-yi, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1964-01-22T19:00Z
+      - 1964-01-22T22:00Z
+    time_band: evening
+    time_zone: Africa/Conakry
   - id: cal.1964-01-23.voting-rights
     when: Jan. 23
     date: '1964-01-23'
@@ -5842,11 +6154,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Zhou Enlai drives with Touré to Kindia.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 23, 1964; 上午). See [[cal.1964-01-21.china-leadership-2]]. Names: Zhou Enlai, Sékou Touré.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 23, 1964; 上午); [[w.chen-yi-nianpu]], 1010 (Jan. 23, 1964; Chen Yi with Zhou and Touré by car to Kindia 金迪亚). See [[cal.1964-01-21.china-leadership-2]]. Names: Zhou Enlai, Sékou Touré.'
     src:
       c: 2fd6fbb2
       rows:
         - 'w.zhou-enlai-waijiao-huodong 389: all'
+        - 'w.chen-yi-nianpu 1010: ?'
     tags: [polity:prc, polity:guinea, name:zhou-enlai, name:toure-ahmed-sekou]
     time_range:
       - 1964-01-23T06:00Z
@@ -5860,11 +6173,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: 'Kindia. Zhou Enlai speaks at the mass meeting: the face of Africa has greatly changed; of some fifty countries and territories more than thirty have won independence, and in the rest the fire against imperialism and colonialism is lit, the peoples of Angola, Portuguese Guinea, Mozambique, Zambia and Zimbabwe, Central Africa and South Africa struggling; Africa is the Africans'' and will be a new, independent, prosperous continent.'
-    n: '[[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 23, 1964). See [[cal.1964-01-21.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 23, 1964); [[w.chen-yi-nianpu]], 1010 (Jan. 23, 1964; Chen Yi with Zhou at the rally). See [[cal.1964-01-21.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: b6d81bf9
       rows:
         - 'w.zhou-enlai-waijiao-huodong 389: all'
+        - 'w.chen-yi-nianpu 1010: ?'
     tags: [polity:prc, polity:guinea, name:zhou-enlai]
   - id: cal.1964-01-23.china-leadership-3
     when: Jan. 23
@@ -5873,11 +6187,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Kindia. Zhou Enlai visits the fruit research institute and flies back to Conakry by helicopter.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 23, 1964). See [[cal.1964-01-21.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 23, 1964); [[w.chen-yi-nianpu]], 1010 (Jan. 23, 1964; Chen Yi with Zhou). See [[cal.1964-01-21.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: e55eaedf
       rows:
         - 'w.zhou-enlai-waijiao-huodong 389: all'
+        - 'w.chen-yi-nianpu 1010: ?'
     tags: [polity:prc, polity:guinea, name:zhou-enlai]
   - id: cal.1964-01-23.china-leadership-4
     when: Jan. 23
@@ -6065,14 +6380,20 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou visits Labé, in the Fouta Djallon highlands five hundred kilometers from Conakry; four more talks with Touré on the 24th and 25th. The first three hear Touré on Guinea and African policy. In the fourth and fifth, on the 25th, Zhou tells China''s experience: revolution must join Marxism-Leninism to China''s realities. Advises Guinea, out of colonial rule, to take a non-capitalist road; farming and light industry first; self-reliance.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 614–15 (Jan. 24–25, 1964); [[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 24, 1964; the flight with Touré to Labé); [[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 24, 1964; 下午, 中午, 拉贝市群众大会; 下午5时, 拉贝市总统别墅, 第二次会谈); [[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 25, 1964; 上午10时, 拉贝市总统别墅, 第三次会谈); [[w.zhou-enlai-waijiao-huodong]], 389–90 (Jan. 25, 1964; 下午5时30分, 第四次会谈; 晚10时, 第五次会谈). Made public: 1993. Names: Zhou Enlai, Touré.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 614–15 (Jan. 24–25, 1964); [[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 24, 1964; the flight with Touré to Labé); [[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 24, 1964; 下午, 中午, 拉贝市群众大会; 下午5时, 拉贝市总统别墅, 第二次会谈); [[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 25, 1964; 上午10时, 拉贝市总统别墅, 第三次会谈); [[w.zhou-enlai-waijiao-huodong]], 389–90 (Jan. 25, 1964; 下午5时30分, 第四次会谈; 晚10时, 第五次会谈); [[w.chen-yi-nianpu]], 1010 (Jan. 24, 1964, morning; Chen Yi with Zhou and Touré from Conakry to Labé 拉贝; noon, with Zhou at the mass rally). Made public: 1993. Names: Zhou Enlai, Touré.'
     src:
       c: 659b9a12
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 614–15: ?'
         - 'w.zhou-enlai-waijiao-huodong 389: B'
         - 'w.zhou-enlai-waijiao-huodong 389–90: B'
+        - 'w.chen-yi-nianpu 1010: ?'
     tags: [name:zhou-enlai, name:toure-ahmed-sekou, polity:prc, polity:guinea, vis:only:prc+guinea]
+    time_range:
+      - 1964-01-24T06:00Z
+      - 1964-01-24T12:00Z
+    time_band: morning
+    time_zone: Africa/Conakry
   - id: cal.1964-01-24.china-leadership-3
     when: Jan. 24
     date: '1964-01-24'
@@ -6080,11 +6401,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Labé. Zhou Enlai watches a performance and attends a dance.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 24, 1964; 晚上). See [[cal.1964-01-24.china-leadership]]. Names: Zhou Enlai, Sékou Touré.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 389 (Jan. 24, 1964; 晚上); [[w.chen-yi-nianpu]], 1011 (Jan. 24, 1964, evening; Chen Yi with Zhou at the performance and the dance). See [[cal.1964-01-24.china-leadership]]. Names: Zhou Enlai, Sékou Touré.'
     src:
       c: 3006aea3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 389: all'
+        - 'w.chen-yi-nianpu 1011: ?'
     tags: [polity:prc, polity:guinea, name:zhou-enlai, name:toure-ahmed-sekou]
     time_range:
       - 1964-01-24T19:00Z
@@ -6482,11 +6804,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Zhou Enlai flies back to Conakry with Touré at dawn.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 26, 1964; 清晨). See [[cal.1964-01-24.china-leadership]]. Names: Zhou Enlai, Sékou Touré.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 26, 1964; 清晨); [[w.chen-yi-nianpu]], 1011 (Jan. 26, 1964, early morning; Chen Yi with Zhou from Labé back to Conakry). See [[cal.1964-01-24.china-leadership]]. Names: Zhou Enlai, Sékou Touré.'
     src:
       c: 3b431fd0
       rows:
         - 'w.zhou-enlai-waijiao-huodong 390: all'
+        - 'w.chen-yi-nianpu 1011: ?'
     tags: [polity:prc, polity:guinea, name:zhou-enlai, name:toure-ahmed-sekou]
     time_range:
       - 1964-01-26T05:00Z
@@ -6500,11 +6823,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Conakry. Zhou Enlai gives a banquet for President Touré; afterward, on the terrace of the Belle Vue villa by the Atlantic, he gives a farewell reception, which Touré attends.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 26, 1964; 晚上). See [[cal.1964-01-21.china-leadership-2]]. Names: Zhou Enlai, Sékou Touré.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 26, 1964; 晚上); [[w.chen-yi-nianpu]], 1011 (Jan. 26, 1964, evening; Chen Yi at Zhou''s farewell banquet). See [[cal.1964-01-21.china-leadership-2]]. Names: Zhou Enlai, Sékou Touré.'
     src:
       c: 79de9eb7
       rows:
         - 'w.zhou-enlai-waijiao-huodong 390: all'
+        - 'w.chen-yi-nianpu 1011: ?'
     tags: [polity:prc, polity:guinea, name:zhou-enlai, name:toure-ahmed-sekou]
     time_range:
       - 1964-01-26T19:00Z
@@ -6772,12 +7096,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou arrives in Khartoum.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 616 (Jan. 27, 1964); [[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 27, 1964; 上午0时30分; the departure from Conakry); [[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 27, 1964; 下午3时, 抵达喀土穆; 苏丹武装部队最高委员会主席阿布德中将在机场欢迎). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 616 (Jan. 27, 1964); [[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 27, 1964; 上午0时30分; the departure from Conakry); [[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 27, 1964; 下午3时, 抵达喀土穆; 苏丹武装部队最高委员会主席阿布德中将在机场欢迎); [[w.chen-yi-nianpu]], 1011 (Jan. 27, 1964, early morning, Chen Yi with Zhou leaves Conakry for Sudan; 3 p.m., at Khartoum 喀土穆). Names: Zhou Enlai.'
     src:
       c: 4afa6c0c
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 616: ?'
         - 'w.zhou-enlai-waijiao-huodong 390: A'
+        - 'w.chen-yi-nianpu 1011: ?'
     tags: [name:zhou-enlai, polity:prc, polity:sudan]
     time_zone: Africa/Khartoum
   - id: cal.1964-01-27.china-leadership-4
@@ -6805,11 +7130,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Khartoum, the Republic Palace on the Blue Nile. Zhou Enlai attends the state banquet given by Abboud, chairman of the Supreme Council of the Armed Forces.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 27, 1964; 晚上). See [[cal.1964-01-27.china-leadership-2]]. Names: Zhou Enlai, Abboud.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 27, 1964; 晚上); [[w.chen-yi-nianpu]], 1011 (Jan. 27, 1964, evening, the Republic Palace; Chen Yi at Lt. Gen. Ibrahim Abboud''s state banquet, the talk on the upper floor over the Nile running from Gordon''s death to the Long March). See [[cal.1964-01-27.china-leadership-2]]. Names: Zhou Enlai, Abboud.'
     src:
       c: ea05be71
       rows:
         - 'w.zhou-enlai-waijiao-huodong 390: all'
+        - 'w.chen-yi-nianpu 1011: ?'
     tags: [polity:prc, polity:sudan, name:zhou-enlai, name:abboud-ibrahim]
     time_range:
       - 1964-01-27T17:00Z
@@ -6910,6 +7236,34 @@ entries:
       - 1964-01-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-01-27.china-leadership-12
+    when: Jan. 27
+    date: '1964-01-27'
+    place: khartoum
+    thread: china-leadership
+    follows:
+      - cal.1964-01-27.china-leadership-5
+    c: Khartoum 喀土穆. Chen Yi 陈毅 writes the poem "Watching the moon from the upper floor of the Republic Palace in Sudan, improvised after the state banquet under the trees" 《在苏丹共和国宫楼上望月,在树下参与国宴后口占》.
+    n: '[[w.chen-yi-nianpu]], 1011. The words: 宴会后 (1011). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1964-01-27T17:00Z
+      - 1964-01-27T20:00Z
+    time_band: evening
+    time_zone: Africa/Khartoum
+  - id: cal.1964-01-27.china-leadership-13
+    when: Jan. 27
+    date: '1964-01-27'
+    place: khartoum
+    thread: china-leadership
+    c: Khartoum 喀土穆. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the whole staff of the Chinese embassy in Sudan.
+    n: '[[w.chen-yi-nianpu]], 1011. The words: 晚上 (1011). Made public: 1995. Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, name:chen-yi, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1964-01-27T17:00Z
+      - 1964-01-27T20:00Z
+    time_band: evening
+    time_zone: Africa/Khartoum
   - id: cal.1964-01-28.cyprus
     when: Jan. 28
     date: '1964-01-28'
@@ -7079,7 +7433,7 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou in Sudan: talks with President Abboud. Visits North Khartoum, Omdurman, the cotton region at Gezira in Blue Nile province, the national museum, the Khalifa''s museum.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 616–17 (Jan. 28–29, 1964); [[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 28, 1964; 上午, 参观北喀土穆市以及苏丹民族博物馆; 上午, 共和国宫, 会谈; 下午, 恩图曼, 哈利法博物馆); [[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 29, 1964; 访问青尼罗河省著名产棉区吉齐拉); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 318 (Jan. 27–30, 1964; Zhou visits the Sudan at the invitation of Ibrahim Abboud, Chairman of the Supreme Council of the Armed Forces, with Chen Yi accompanying him, and holds talks with Abboud). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Abboud.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 616–17 (Jan. 28–29, 1964); [[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 28, 1964; 上午, 参观北喀土穆市以及苏丹民族博物馆; 上午, 共和国宫, 会谈; 下午, 恩图曼, 哈利法博物馆); [[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 29, 1964; 访问青尼罗河省著名产棉区吉齐拉); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 318 (Jan. 27–30, 1964; Zhou visits the Sudan at the invitation of Ibrahim Abboud, Chairman of the Supreme Council of the Armed Forces, with Chen Yi accompanying him, and holds talks with Abboud); [[w.chen-yi-nianpu]], 1011–1012 (Jan. 28, 1964, early morning, Chen Yi with Zhou and Maghboul Amin al-Hag 马格布勒·阿明·哈格 lays a wreath at the memorial of the battle of Khartoum; morning, North Khartoum, the city and the national museum, and the ivory carving the city council''s chairman gives Zhou and Chen Yi; the talks with Abboud; afternoon, Omdurman 恩图曼 and the Khalifa museum; Jan. 29, the Gezira 吉齐拉, the cotton district of the Blue Nile province, back in Khartoum at 5 p.m.). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Abboud.'
     src:
       c: 662fcbe6
       rows:
@@ -7087,6 +7441,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 390: ?'
         - 'w.zhou-enlai-waijiao-huodong 391: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 318: A'
+        - 'w.chen-yi-nianpu 1011–1012: ?'
     tags: [name:zhou-enlai, name:abboud-ibrahim, polity:prc, polity:sudan, vis:only:prc+sudan]
     time_range:
       - 1964-01-28T04:00Z
@@ -7100,12 +7455,18 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Khartoum. Zhou Enlai attends the grand reception given by Abboud.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 28, 1964). See [[cal.1964-01-28.china-leadership-3]]. Names: Zhou Enlai, Abboud.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 28, 1964); [[w.chen-yi-nianpu]], 1012 (Jan. 28, 1964, evening; Chen Yi present). See [[cal.1964-01-28.china-leadership-3]]. Names: Zhou Enlai, Abboud.'
     src:
       c: 266fbe8f
       rows:
         - 'w.zhou-enlai-waijiao-huodong 391: all'
+        - 'w.chen-yi-nianpu 1012: ?'
     tags: [polity:prc, polity:sudan, name:zhou-enlai, name:abboud-ibrahim]
+    time_range:
+      - 1964-01-28T17:00Z
+      - 1964-01-28T20:00Z
+    time_band: evening
+    time_zone: Africa/Khartoum
   - id: cal.1964-01-28.china-leadership-5
     when: Jan. 28
     date: '1964-01-28'
@@ -7113,11 +7474,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Omdurman, the National Theater. Zhou Enlai watches Sudanese folk song and dance.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 28, 1964; 晚上). See [[cal.1964-01-28.china-leadership-3]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 28, 1964; 晚上); [[w.chen-yi-nianpu]], 1012 (Jan. 28, 1964, evening; Chen Yi with Zhou, at the invitation of Mohammed Nasr Osman 穆罕默德·纳斯尔·奥斯曼, Minister of Information and Labour). See [[cal.1964-01-28.china-leadership-3]]. Names: Zhou Enlai.'
     src:
       c: bb98fda2
       rows:
         - 'w.zhou-enlai-waijiao-huodong 391: all'
+        - 'w.chen-yi-nianpu 1012: ?'
     tags: [polity:prc, polity:sudan, name:zhou-enlai]
     time_range:
       - 1964-01-28T17:00Z
@@ -7438,12 +7800,18 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Khartoum, the Republic Palace garden. Zhou Enlai gives a farewell reception.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 29, 1964). See [[cal.1964-01-28.china-leadership-3]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 29, 1964); [[w.chen-yi-nianpu]], 1012 (Jan. 29, 1964, evening; Chen Yi present). See [[cal.1964-01-28.china-leadership-3]]. Names: Zhou Enlai.'
     src:
       c: 69c5b64b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 391: all'
+        - 'w.chen-yi-nianpu 1012: ?'
     tags: [polity:prc, polity:sudan, name:zhou-enlai]
+    time_range:
+      - 1964-01-29T17:00Z
+      - 1964-01-29T20:00Z
+    time_band: evening
+    time_zone: Africa/Khartoum
   - id: cal.1964-01-29.china-leadership-2
     when: Jan. 29
     date: '1964-01-29'
@@ -7738,7 +8106,7 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou, with Abboud, drives in an open car from the Republican Palace to the airport and leaves Khartoum; flies on the invitation of Ethiopia, which has no relations with China, to Asmara.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 617 (Jan. 30, 1964); [[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 30, 1964; 上午, 在阿布德主席陪同下乘敞篷汽车从共和国宫前往机场; 乘专机前往埃塞俄比亚; 上午11时12分, 在六架埃塞俄比亚战斗机护航下到达阿斯马拉机场, 沃尔德首相和其他大臣到机场欢迎). Names: Zhou Enlai, Abboud.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 617 (Jan. 30, 1964); [[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 30, 1964; 上午, 在阿布德主席陪同下乘敞篷汽车从共和国宫前往机场; 乘专机前往埃塞俄比亚; 上午11时12分, 在六架埃塞俄比亚战斗机护航下到达阿斯马拉机场, 沃尔德首相和其他大臣到机场欢迎); [[w.chen-yi-nianpu]], 1012 (Jan. 30, 1964, morning; Chen Yi with Zhou from Khartoum to Asmara 阿斯马拉). Names: Zhou Enlai, Abboud.'
     tags: [name:zhou-enlai, name:abboud-ibrahim, polity:prc, polity:sudan, polity:ethiopia]
     time_range:
       - 1964-01-30T04:00Z
@@ -7753,13 +8121,14 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, talks with Emperor Haile Selassie. China wants friendship with all African states, takes no side in disputes, will not arm anyone for territorial aggression; its non-involvement is firm. The joint communiqué signed Jan. 31: measures to strengthen relations, among them normalizing the two governments'' relations in the near future. That evening, at the farewell banquet, Zhou toasts it: the communiqué will further relations and defeat outside attempts to spread baseless rumors against them.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 617 (Jan. 30–31, 1964); [[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 30, 1964; 下午4时30分, 阿斯马拉皇宫, 第一次会谈); [[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 31, 1964; 下午5时; the second talks); [[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 31, 1964; 晚上; the farewell banquet); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 319 (Jan. 30–Feb. 1, 1964; Zhou visits Ethiopia at Emperor Haile Selassie''s invitation, Chen Yi accompanying him; he holds talks with the Emperor, a frank exchange on the great questions facing the world, above all general disarmament and world peace, the days not given); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 319 (Feb. 1, 1964, the book''s day for the joint communique, which the entry has signed Jan. 31; both sides will go on supporting the freedom struggle of the African peoples still not independent and working to relax tension, defend peace and win general disarmament and the complete prohibition and destruction of nuclear weapons). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Haile Selassie.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 617 (Jan. 30–31, 1964); [[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 30, 1964; 下午4时30分, 阿斯马拉皇宫, 第一次会谈); [[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 31, 1964; 下午5时; the second talks); [[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 31, 1964; 晚上; the farewell banquet); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 319 (Jan. 30–Feb. 1, 1964; Zhou visits Ethiopia at Emperor Haile Selassie''s invitation, Chen Yi accompanying him; he holds talks with the Emperor, a frank exchange on the great questions facing the world, above all general disarmament and world peace, the days not given); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 319 (Feb. 1, 1964, the book''s day for the joint communique, which the entry has signed Jan. 31; both sides will go on supporting the freedom struggle of the African peoples still not independent and working to relax tension, defend peace and win general disarmament and the complete prohibition and destruction of nuclear weapons); [[w.chen-yi-nianpu]], 1012 (Jan. 30, 1964, afternoon, the palace at Asmara; Chen Yi in the talks; Jan. 31, evening, at Zhou''s farewell banquet for the Emperor in the imperial palace). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Haile Selassie.'
     src:
       c: 8da74ae3
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 617: ?'
         - 'w.zhou-enlai-waijiao-huodong 391: E'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 319: D'
+        - 'w.chen-yi-nianpu 1012: ?'
     tags: [name:zhou-enlai, name:haile-selassie-i, polity:prc, polity:ethiopia, vis:only:prc+ethiopia]
     time_zone: Africa/Asmara
   - id: cal.1964-01-30.china-leadership-5
@@ -7769,11 +8138,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Asmara, the palace. Zhou Enlai is received by Emperor Haile Selassie I.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 30, 1964; 中午). See [[cal.1964-01-30.china-leadership-4]]. Names: Zhou Enlai, Haile Selassie.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 30, 1964; 中午); [[w.chen-yi-nianpu]], 1012 (Jan. 30, 1964, noon; the Emperor receives Zhou and Chen Yi). See [[cal.1964-01-30.china-leadership-4]]. Names: Zhou Enlai, Haile Selassie.'
     src:
       c: 0f22195d
       rows:
         - 'w.zhou-enlai-waijiao-huodong 391: all'
+        - 'w.chen-yi-nianpu 1012: ?'
     tags: [polity:prc, polity:ethiopia, name:zhou-enlai, name:haile-selassie-i]
     time_range:
       - 1964-01-30T09:00Z
@@ -7787,11 +8157,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Asmara, the palace. Zhou Enlai attends the banquet given by Emperor Haile Selassie I.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 30, 1964; 晚上). See [[cal.1964-01-30.china-leadership-4]]. Names: Zhou Enlai, Haile Selassie.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 30, 1964; 晚上); [[w.chen-yi-nianpu]], 1012 (Jan. 30, 1964, evening; Chen Yi present). See [[cal.1964-01-30.china-leadership-4]]. Names: Zhou Enlai, Haile Selassie.'
     src:
       c: 182ec612
       rows:
         - 'w.zhou-enlai-waijiao-huodong 391: all'
+        - 'w.chen-yi-nianpu 1012: ?'
     tags: [polity:prc, polity:ethiopia, name:zhou-enlai, name:haile-selassie-i]
     time_range:
       - 1964-01-30T16:00Z
@@ -8934,11 +9305,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Axum. Zhou Enlai visits the historic city with Emperor Haile Selassie I and sees its monuments.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 31, 1964). See [[cal.1964-01-30.china-leadership-4]]. Names: Zhou Enlai, Haile Selassie.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 31, 1964); [[w.chen-yi-nianpu]], 1012 (Jan. 31, 1964; Chen Yi with Zhou and the Emperor at Axum 阿克苏姆). See [[cal.1964-01-30.china-leadership-4]]. Names: Zhou Enlai, Haile Selassie.'
     src:
       c: d253559a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 391: all'
+        - 'w.chen-yi-nianpu 1012: ?'
     tags: [polity:prc, polity:ethiopia, name:zhou-enlai, name:haile-selassie-i]
   - id: cal.1964.china-leadership
     when: '1964'
@@ -9619,3 +9991,10 @@ entries:
     c: Wang Renzhou 王仁舟, a student of the Peking Foreign Languages Institute 北京外語學院 (class of 1960), is named a "reactionary student," expelled and sent home.
     n: '[[w.yang-jisheng-tiandi-fanfu]], II, 961 n.13.'
     tags: [polity:prc]
+  - id: cal.1964-01.china-leadership-6
+    when: Jan.
+    date: 1964-01
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes the poem "Africa" 《非洲》.
+    n: '[[w.chen-yi-nianpu]], 1012. To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]

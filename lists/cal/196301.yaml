@@ -2090,6 +2090,18 @@ entries:
       - 1963-01-11T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-01-11.cuba
+    when: Jan. 11
+    date: '1963-01-11'
+    thread: cuba
+    c: 'Rusk: whatever obligation not to attack Cuba Kennedy took on in the crisis has not come into force; none exists.'
+    n: '[[w.brothers-in-arms]], 382 (Deng Xiaoping''s speech of July 8, 1963, in the Soviet record, quoting Rusk''s statement). Check: Rusk''s own words and the occasion; the record gives them in translation. Names: Rusk, Kennedy.'
+    src:
+      c: 85de9ec9
+      rows:
+        - 'w.brothers-in-arms 382: all'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: all'
+    tags: [polity:us, name:rusk-dean, name:kennedy-john-f]
   - id: cal.1963-01-12.alabama
     when: Jan. 12
     date: '1963-01-12'
@@ -5811,3 +5823,24 @@ entries:
     c: Lin Liguo 林立果, Lin Biao's 林彪 son, enters the physics department of Peking University 北京大學, a six-year course.
     n: '[[w.yang-jisheng-tiandi-fanfu]], II, 751. Names: Lin Biao.'
     tags: [polity:prc, name:lin-biao]
+  - id: cal.1963.china-leadership-24
+    when: '1963'
+    date: '1963'
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes out for Du Fu's Thatched Cottage 杜甫草堂 the second of Du Fu's 杜甫 "Six quatrains in jest" 《戏为六绝句》, with a note that later critics of poetry have not gone beyond it.
+    n: '[[w.chen-yi-nianpu]], 1004. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+  - id: cal.1963.soviet-union-leadership
+    when: 1963, before the July talks
+    date: '1963'
+    at: before 1963-07-05
+    place: moscow
+    thread: soviet-union-leadership
+    also: [china]
+    c: The Presidium decides to cut its propaganda against the Chinese party and to resume aid to China if the talks reach some agreement.
+    n: '[[w.brothers-in-arms]], 376 (the editor''s headnote: the "Soviet Politburo" "prior to the meetings"). Made public: 1998.'
+    src:
+      c: 16919ec2
+      rows:
+        - 'w.brothers-in-arms 376: all'
+    tags: [polity:ussr, vis:only:ussr]

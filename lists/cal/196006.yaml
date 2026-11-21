@@ -86,6 +86,19 @@ entries:
         - 'w.yang-shangkun-riji I, 514: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-01.china-leadership-6
+    when: June 1
+    date: '1960-06-01'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng Xiaoping and Chervonenko meet. Deng praises Khrushchev's speech at Paris of May 16, which "explained the soundness" of the socialist camp's position. He has not yet heard Mao's view; Mao is away from Peking.
+    n: '[[w.westad-sino-soviet-alliance-and]], 179 n.40 (Westad: "early June"; the record dated June 1, 1960). Made public: 1998. To check: Record of conversation, Chervonenko–Deng Xiaoping, June 1, 1960, AVPRF, f. 0100, op. 53, pa. 454, d. 8, pp. 165–69 (cited by [[w.westad-sino-soviet-alliance-and]], 179 n.40). Names: Deng Xiaoping, Chervonenko, Khrushchev, Mao Zedong.'
+    src:
+      c: 8e685b21
+      rows:
+        - 'w.westad-sino-soviet-alliance-and 179 n.40: all'
+        - 'via x.1960-06-01.chervonenko-deng-record-avprf: all'
+    tags: [polity:prc, polity:ussr, vis:only:prc+ussr, name:deng-xiaoping, name:chervonenko-stepan-v, name:khrushchev-nikita-s, name:mao-zedong, ok:fields-place]
   - id: cal.1960-06-02.economy
     when: June 2
     date: '1960-06-02'
@@ -1547,6 +1560,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 517: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-06-10.soviet-union
+    when: June 10
+    date: '1960-06-10'
+    thread: soviet-union
+    also: [china]
+    c: '*Sovetskaya Rossiya*: "present-day leftists" take peaceful coexistence, an end to the arms race and friendship between the peoples of capitalist and socialist countries for a retreat from Marxism–Leninism, and any worsening abroad for proof of their "sectarian views."'
+    n: '[[w.westad-introduction]], 24 (the Soviet press''s answer to "Long Live Leninism"; 24 n.84 gives *Sovietskaia Rossiia*, June 10, 1960). To check: *Sovietskaia Rossiia*, June 10, 1960 (cited by [[w.westad-introduction]], 24 n.84).'
+    src:
+      c: 671cd3fa
+      rows:
+        - 'w.westad-introduction 24: all'
+        - 'via x.1960-06-10.sovetskaya-rossiya-june-10: all'
+    tags: [polity:ussr]
   - id: cal.1960-06-11.europe-and-the-alliance-turkey
     when: June 11
     date: '1960-06-11'
@@ -2182,11 +2208,12 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: Moscow. Peng Zhen's delegation, left Peking that day, meets Kozlov of the Presidium for eight hours of argument. Kozlov faults the three Lenin articles and the Peking trade-union meeting, in theory and in organization, a typed document of some twenty pages in hand; asked how the Bucharest meeting is to go, he says it will be settled there. The delegation cables that it is not a good sign.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 279–280. Made public: 1999. Check: the Deng nianpu''s footnote (III, 1565 n.1) dates the Moscow talks of Peng Zhen''s delegation with Kozlov June 17, 1960. See [[cal.1960-06-12.china-leadership]]. Names: Peng Zhen, Kozlov. Check: Wu gives the first day only, "June 16" for the departure; the 8 hours as the delegation cabled them.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 279–280; [[w.brothers-in-arms]], 363 (Chen Yi to Chervonenko, Aug. 4, 1960: Peng Zhen''s talks with Kozlov at Moscow brought no unity). Made public: 1998 ([[w.brothers-in-arms]], 363, Chen Yi''s account in the Soviet record of Aug. 4, 1960). Check: the Deng nianpu''s footnote (III, 1565 n.1) dates the Moscow talks of Peng Zhen''s delegation with Kozlov June 17, 1960. See [[cal.1960-06-12.china-leadership]]. Names: Peng Zhen, Kozlov. Check: Wu gives the first day only, "June 16" for the departure; the 8 hours as the delegation cabled them.'
     src:
       c: 29cdd746
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 279–280: all'
+        - 'w.brothers-in-arms 363: ?'
     tags: [polity:prc, name:peng-zhen, name:kozlov-frol-r, vis:only:prc+ussr]
   - id: cal.1960-06-16.china-leadership-2
     when: June 16
@@ -2546,11 +2573,12 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: 'Bucharest. The Romanian Workers'' Party''s third congress, June 20–25. Khrushchev''s long speech is cheered; Peng Zhen''s greeting, on the views of the three Lenin articles, is applauded by the hall and coldly met on the platform. The Chinese delegation is shut off: other delegations do not call, the Romanian liaison will not say where they stay, visits are not arranged.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 280. Made public: 1999. Names: Khrushchev, Peng Zhen. Check: the delegation''s account as relayed; Khrushchev''s speech date within the congress.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 280; [[w.westad-introduction]], 25 (the Romanian congress at Bucharest, June 20–25, 1960; Khrushchev decides at the last moment to lead the Soviet delegation and defend his line; his words on the two world systems and on Lenin). Made public: 1999. To check: [[w.china-and-the-soviet]], 19–20 (cited by [[w.westad-introduction]], 25 n.86). Names: Khrushchev, Peng Zhen. Check: the delegation''s account as relayed; Khrushchev''s speech date within the congress.'
     src:
       c: bb2d5b36
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 280: all'
+        - 'w.westad-introduction 25: A'
     tags: [polity:prc, name:khrushchev-nikita-s, name:peng-zhen]
   - id: cal.1960-06-20.china-leadership
     when: June 20
@@ -2965,12 +2993,15 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: Bucharest, morning. The Soviet delegation hands Peng Zhen's delegation the CPSU Central Committee's letter, dated June 21, in seven parts (the era; war and peace; peaceful coexistence; forms of transition; international mass organizations; China's breaches of the Declarations; unity). The same text had gone to the other parties as a "notification" on June 21, before the Chinese had it, by the Vietnamese, Korean and Albanian delegations' word. A draft communique follows, for discussion on the 24th. The delegation cables the points.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 281–283, 285 ("the morning of the 23rd", 285); [[w.yang-jisheng-mubei]], II, 1150 (on the eve of the talks the Soviet delegation suddenly hands round the CPSU''s notification of June 21 to the Chinese Central Committee, a full attack on the Chinese party). Made public: 1999. Names: Peng Zhen.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 281–283, 285 ("the morning of the 23rd", 285); [[w.yang-jisheng-mubei]], II, 1150 (on the eve of the talks the Soviet delegation suddenly hands round the CPSU''s notification of June 21 to the Chinese Central Committee, a full attack on the Chinese party); [[w.westad-introduction]], 25 (the Soviets circulate among the delegations a letter to the CCP Central Committee setting out the Soviet case and complaining of Chinese factionalism); [[w.brothers-in-arms]], 381 (Deng Xiaoping''s speech of July 8, 1963, in the Soviet record: the CPSU "disseminated the Informational Note" of its Central Committee against the CCP). Made public: 1999. To check: [[w.china-and-the-soviet]], 19–20 (cited by [[w.westad-introduction]], 25 n.86). Names: Peng Zhen.'
     src:
       c: ec205ebb
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 281–283, 285: all'
         - 'w.yang-jisheng-mubei II, 1150: B'
+        - 'w.westad-introduction 25: ?'
+        - 'w.brothers-in-arms 381: ?'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: ?'
     tags: [polity:prc, name:peng-zhen, vis:only:prc+ussr, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia@C-D, vis:only:prc@E]
     time_range:
       - 1960-06-23T04:00Z
@@ -3094,12 +3125,14 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: Bucharest, morning. The twelve parties' "talks," Gheorghiu-Dej presiding, turn on China from the CPSU notice; Bulgarian, Czechoslovak and East German delegates the sharpest, the Albanians, Koreans and Vietnamese against such a meeting. Khrushchev's closing attack. Peng Zhen answers him alone, on Khrushchev's own words, and objects to a communique not announced beforehand; Khrushchev demands signature; a half-hour recess; Gheorghiu-Dej calls on China for unity. That night the delegation cables Peking, inclined to sign with a statement.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 285–288 ("the morning of the 24th", 285); [[w.yang-jisheng-mubei]], II, 1150 (June 24, the communist and workers'' parties of the socialist countries in talks at Bucharest, Peng Zhen leading the Chinese delegation; Khrushchev leads the criticism of the Chinese party''s line). Made public: 1999. See [[cal.1960-06-23.soviet-union]]. Names: Khrushchev, Peng Zhen. Check: the account is the delegation''s, by cable and later telling.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 285–288 ("the morning of the 24th", 285); [[w.yang-jisheng-mubei]], II, 1150 (June 24, the communist and workers'' parties of the socialist countries in talks at Bucharest, Peng Zhen leading the Chinese delegation; Khrushchev leads the criticism of the Chinese party''s line); [[w.westad-introduction]], 25 (losing his temper at a small session of party heads, Khrushchev calls Mao "an ultra-leftist, an ultra-dogmatist, indeed, a left revisionist"; no day given). Made public: 1999. To check: [[w.china-and-the-soviet]], 20 (cited by [[w.westad-introduction]], 25 n.87); "Zusammenkunft der Delegationen der KPdSU und der KPCh im Juli 1963," raw translation, SAPMO-BArch, DY J IV 2/201, Aktenband 696, 128–30 (cited by [[w.westad-introduction]], 25 n.87). See [[cal.1960-06-23.soviet-union]]. Names: Khrushchev, Peng Zhen. Check: the account is the delegation''s, by cable and later telling.'
     src:
       c: 2ae2ebcf
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 285–288: all'
         - 'w.yang-jisheng-mubei II, 1150: B, D'
+        - 'w.westad-introduction 25: ?'
+        - 'via x.1963-07.cpsu-ccp-meetings-rohuebersetzung-sapmo: ?'
     tags: [polity:prc, name:khrushchev-nikita-s, name:peng-zhen, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia, vis:only:prc@I]
     time_range:
       - 1960-06-24T04:00Z
@@ -3418,12 +3451,13 @@ entries:
     follows:
       - cal.1960-06-26.soviet-union-2
     c: 'Bucharest, the meeting, near 11. Peng Zhen''s amendments to the communique refused by Khrushchev, "not a word"; near noon Peng says China will sign for unity, and the delegation hands its statement round. Khrushchev does not answer it; he proposes the parties'' meeting for the October Revolution''s anniversary, the drafting committee the twelve and ten more; China proposes Japan and Australia, agreed. Afternoon: Khrushchev''s rejoinder; Peng answers, on the "father party" and the forced signature, and they quarrel, Khrushchev on the long-wave station; at his call Zhivkov adds a dozen labels; Hysni Kapo of Albania: his Central Committee does not approve such a meeting. Gheorghiu-Dej closes, the communique adopted.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 294–298 ("near 11", 294); [[w.deng-xiaoping-nianpu-1904]], III, 1561 (June 26, 1960; the amendments refused, the delegation signs the communiqué for the camp''s unity and hands round its statement: the surprise draft "an extremely bad precedent"; no yielding to views against Marxism–Leninism; the two parties can find a way to settle the differences). Made public: 1999. See [[cal.1960-06-26.soviet-union-2]]. Names: Khrushchev, Peng Zhen. Check: the day: Wu says "the next day" after the 25th; the account is the delegation''s.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 294–298 ("near 11", 294); [[w.deng-xiaoping-nianpu-1904]], III, 1561 (June 26, 1960; the amendments refused, the delegation signs the communiqué for the camp''s unity and hands round its statement: the surprise draft "an extremely bad precedent"; no yielding to views against Marxism–Leninism; the two parties can find a way to settle the differences); [[w.brothers-in-arms]], 363 (Chen Yi, Aug. 4, 1960: the Chinese party signed the Bucharest communique, with reservations). Made public: 1998 ([[w.brothers-in-arms]], 363, Chen Yi''s account in the Soviet record of Aug. 4, 1960). See [[cal.1960-06-26.soviet-union-2]]. Names: Khrushchev, Peng Zhen. Check: the day: Wu says "the next day" after the 25th; the account is the delegation''s.'
     src:
       c: 549561e1
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 294–298: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1561: ?'
+        - 'w.brothers-in-arms 363: ?'
     tags: [polity:prc, name:khrushchev-nikita-s, name:peng-zhen, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia]
     time_zone: Europe/Bucharest
   - id: cal.1960-06-26.china-leadership

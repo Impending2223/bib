@@ -783,6 +783,19 @@ entries:
         - 'w.yang-jisheng-mubei I, 541: all'
         - 'via w.yang-jisheng-mubei I, 541 n.22: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-12-04.soviet-union
+    when: Dec. 4
+    date: '1960-12-04'
+    thread: soviet-union
+    also: [china-leadership]
+    c: On the train from Leningrad to Minsk, Liu Shaoqi and Brezhnev talk informally; both look to a time when the "ideological quibbles" can be resolved.
+    n: '[[w.westad-introduction]], 26 (26 n.90 dates the record Dec. 4, 1960). Made public: 1998. To check: Record of conversation, Leonid Brezhnev–Liu Shaoqi, Dec. 4, 1960, AVPRF, f. 0100, op. 53, pa. 6, d. 453 (cited by [[w.westad-introduction]], 26 n.90). See [[cal.1960-12-03.soviet-union-2]]. Names: Liu Shaoqi, Brezhnev. Check: the calendar has Kozlov with Liu at Leningrad, gone ahead to Minsk by the 5th ([[cal.1960-12-03.soviet-union]]); who rode the train.'
+    src:
+      c: 52d8d601
+      rows:
+        - 'w.westad-introduction 26: all'
+        - 'via x.1960-12-04.brezhnev-liu-shaoqi-record-avprf: all'
+    tags: [polity:ussr, polity:prc, vis:only:ussr+prc, name:liu-shaoqi, name:brezhnev-leonid, ok:fields-place]
   - id: cal.1960-12-05.desegregation-public-places
     when: Dec. 5
     date: '1960-12-05'
@@ -4087,7 +4100,15 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Yinian Tang, evening. Chervonenko and two counselors bring Mao the CPSU''s greetings on his birthday; Yang Shangkun present. Mao: the Moscow conference good, the drafting commission''s work much; argument "not a bad thing"; a plenum in January to back the two documents; industry''s front to be shortened in 1961, heavy industry and building above all.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 26, 1960. Made public: 2013. Names: Mao Zedong, Chervonenko, Yang Shangkun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 26, 1960. [[w.brothers-in-arms]], 365–369 (the Soviet record: Chervonenko brings Mao the greetings of the CPSU Central Committee and Khrushchev; Mao: the Moscow conference a success, its editing commission of twenty-six parties fruitful, the arguments "not bad"; a plenum in January 1961 to support its decisions; the industrial front to be narrowed, capital investment cut; he no longer chairs the Politburo, Liu Shaoqi in charge of its routine since 1956; he waits to become an ordinary member of the Politburo; Yang Shangkun, Yan Mingfu, Zhu Jueren, Sudarikov and Rakhmanin present; more than an hour); [[w.westad-sino-soviet-alliance-and]], 179 (Mao''s only meeting with the Soviet ambassador that year, a birthday visit: he no longer chairs the Politburo and "practically never speaks" at the Central Committee; he backs the compromise documents of the Moscow conference); [[w.westad-introduction]], 26 (Mao confirms his support for the Moscow resolutions to Chervonenko in late December). Made public: 1996 ([[w.scholars-bulletin-of-the-cold-1996]], 167–69, the Soviet record in English translation, cited by [[w.westad-sino-soviet-alliance-and]], 179 n.40). Names: Mao Zedong, Chervonenko, Yang Shangkun.'
+    src:
+      c: 58da52ac
+      rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 26, 1960: all'
+        - 'w.brothers-in-arms 365–369: B, C, D, E, F'
+        - 'w.westad-sino-soviet-alliance-and 179: ?'
+        - 'w.westad-introduction 26: ?'
+        - 'via x.1960-12-26.chervonenko-mao-record-avprf: B, C, D, E, F'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:chervonenko-stepan-v, vis:only:prc+ussr]
   - id: cal.1960-12-26.china-leadership-2
     when: Dec. 26

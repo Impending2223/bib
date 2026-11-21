@@ -165,8 +165,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi takes part in the May Day celebrations at Kunming.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (May 1, 1963). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (May 1, 1963); [[w.chen-yi-nianpu]], 964 (May 1, 1963, morning, the Tuodong stadium 拓东体育场; Chen Yi at the rally and gala of the Kunming people''s circles, and the performances of twelve troupes). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi]
+    time_range:
+      - 1963-04-30T22:00Z
+      - 1963-05-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-01.china-leadership-6
     when: May 1
     date: '1963-05-01'
@@ -177,18 +182,27 @@ entries:
     thread: china-leadership
     also: [china]
     c: At noon Liu Shaoqi, with Chen Yi and others, leaves Kunming for a friendly visit to Cambodia; Sihanouk welcomes them at Phnom Penh. In the afternoon Liu calls on the King at the royal palace, sees the permanent exhibition on the achievements of the Sangkum Reastr Niyum, and tours Phnom Penh.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575–576 (May 1, 1963); [[w.yang-shangkun-riji]], II, 275 (May 1, 1963; Liu Shaoqi''s party reaches Phnom Penh at noon, safely). Names: Liu Shaoqi, Chen Yi, Sihanouk.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575–576 (May 1, 1963); [[w.yang-shangkun-riji]], II, 275 (May 1, 1963; Liu Shaoqi''s party reaches Phnom Penh at noon, safely); [[w.chen-yi-nianpu]], 964 (May 1, 1963; Chen Yi with Liu and Wang Guangmei leaves Kunming for Cambodia and reaches Phnom Penh 金边; 5 p.m., with them in the throne hall of the royal palace calls on the Queen and Sihanouk, Cambodia''s head of state). Names: Liu Shaoqi, Chen Yi, Sihanouk.'
     src:
       c: e2ed8d7b
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 575–576: ?'
         - 'w.yang-shangkun-riji II, 275: B'
+        - 'w.chen-yi-nianpu 964: ?'
     tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:chen-yi, name:norodom-sihanouk]
     variants:
       - unit: A
         witness: w.yang-shangkun-riji
         reads: 'Yang Shangkun''s diary: Liu Shaoqi''s party reached Phnom Penh at midday (已于今日午间到达金边), not left Kunming at noon'
         at: II, 275, May 1, 1963
+      - unit: A
+        witness: w.chen-yi-nianpu
+        reads: Liu Shaoqi, Chen Yi and the party leave Kunming in the morning (上午)
+        at: '964'
+      - unit: C
+        witness: w.chen-yi-nianpu
+        reads: The permanent exhibition on the Sangkum's achievements is seen at Siem Reap on May 2, with the Angkor ruins
+        at: '964'
   - id: cal.1963-05-01.china-leadership-7
     when: May 1
     date: '1963-05-01'
@@ -479,7 +493,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi, with Sihanouk, visits Siem Reap, sees the Angkor ruins and tours the town.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 2, 1963). Names: Liu Shaoqi, Sihanouk.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 2, 1963); [[w.chen-yi-nianpu]], 964 (May 2, 1963; Chen Yi with Liu and Wang Guangmei at Siem Reap 暹粒, at the permanent exhibition on the Sangkum''s achievements and at Angkor 吴哥). Names: Liu Shaoqi, Sihanouk.'
     tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:norodom-sihanouk]
   - id: cal.1963-05-02.china-leadership-7
     when: May 2
@@ -811,8 +825,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi visits Kompong Cham, tours the China-built Cambodia-China Friendship Textile Mill and watches traditional boat races on the Mekong; in the afternoon he is back in Phnom Penh and at Sihanouk's state banquet speaks.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 3, 1963). Names: Liu Shaoqi, Sihanouk.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 3, 1963); [[w.chen-yi-nianpu]], 964–965 (May 3, 1963, morning, Chen Yi with Liu and Wang Guangmei from Siem Reap to Kompong Cham 磅湛 and the Cambodia–China Friendship Textile Mill, where they are given the mill''s and Kompong Cham''s products and sign the visitors'' book; 8:30 p.m., Sihanouk''s state banquet in the guesthouse of the Prince''s villa, the performance after it, and flowers to Princess Bopha Devi 帕花·德维 and the artists). Names: Liu Shaoqi, Sihanouk.'
     tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:norodom-sihanouk]
+    time_range:
+      - 1963-05-02T23:00Z
+      - 1963-05-03T05:00Z
+    time_band: morning
+    time_zone: Asia/Phnom_Penh
   - id: cal.1963-05-03.china-leadership-5
     when: May 3
     date: '1963-05-03'
@@ -843,6 +862,14 @@ entries:
       - 1963-05-03T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-03.china-leadership-8
+    when: May 3
+    date: '1963-05-03'
+    place: phnom-penh
+    thread: china-leadership
+    c: Phnom Penh 金边, the Chinese embassy. Chen Yi 陈毅, with Liu Shaoqi 刘少奇, Wang Guangmei 王光美 and Zhang Qian 张茜, receives the embassy's whole staff.
+    n: '[[w.chen-yi-nianpu]], 964–965. Made public: 1995. Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, name:chen-yi, name:liu-shaoqi, ok:fields-time, vis:only:prc]
   - id: cal.1963-05-04.elections-1964
     when: May 4
     date: '1963-05-04'
@@ -998,8 +1025,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi talks with Sihanouk at Kirirom, a resort 100 kilometers southwest of Phnom Penh.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 4, 1963). Names: Liu Shaoqi, Sihanouk. Check: the book prints 基里隆.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 4, 1963); [[w.chen-yi-nianpu]], 965 (May 4, 1963, 9:30 a.m., Chen Yi with Liu and Wang Guangmei leaves Phnom Penh for Kirirom 基里隆; afternoon, in the talks). Names: Liu Shaoqi, Sihanouk. Check: the book prints 基里隆.'
     tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:norodom-sihanouk]
+    time_range:
+      - 1963-05-04T05:00Z
+      - 1963-05-04T11:00Z
+    time_band: afternoon
+    time_zone: Asia/Phnom_Penh
   - id: cal.1963-05-04.china-leadership-5
     when: May 4
     date: '1963-05-04'
@@ -1160,22 +1192,30 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi, at the farewell banquet in Phnom Penh, says the two countries will, as before, support each other closely in the struggle against imperialist aggression and interference and for national sovereignty and territorial integrity, and their peoples will live in amity through the generations.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 5, 1963). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 5, 1963); [[w.chen-yi-nianpu]], 965 (May 5, 1963, noon, the government hotel 政府饭店; Chen Yi present). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:cambodia, name:liu-shaoqi]
+    time_range:
+      - 1963-05-05T05:00Z
+      - 1963-05-05T07:00Z
+    time_band: workday midday
+    time_zone: Asia/Phnom_Penh
   - id: cal.1963-05-05.china-leadership-4
     when: May 5
     date: '1963-05-05'
+    time: 1963-05-05T10:45Z
     place: phnom-penh
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi and Sihanouk sign the Joint Statement of the People's Republic of China and the Kingdom of Cambodia; Liu attends the rally of the people of Phnom Penh welcoming his visit.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 5, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 282 (May 1–6, 1963; Liu Shaoqi visits Cambodia, holds talks with Sihanouk on strengthening the friendship of the two countries and on international questions of common concern, above all the Southeast Asian situation, and the two sign a joint statement, the day not given in the book: the two sides will keep the five principles and the Bandung ten principles; China supports Cambodia''s struggle for its sovereignty and territorial integrity and its policy of peace and neutrality; Cambodia holds that Taiwan is an inalienable part of China and supports China''s lawful rights in the United Nations; on the Sino-Indian boundary, Cambodia values China''s unilateral cease-fire and withdrawal and release of prisoners; both support a second Asian–African conference). Names: Liu Shaoqi, Sihanouk.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 5, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 282 (May 1–6, 1963; Liu Shaoqi visits Cambodia, holds talks with Sihanouk on strengthening the friendship of the two countries and on international questions of common concern, above all the Southeast Asian situation, and the two sign a joint statement, the day not given in the book: the two sides will keep the five principles and the Bandung ten principles; China supports Cambodia''s struggle for its sovereignty and territorial integrity and its policy of peace and neutrality; Cambodia holds that Taiwan is an inalienable part of China and supports China''s lawful rights in the United Nations; on the Sino-Indian boundary, Cambodia values China''s unilateral cease-fire and withdrawal and release of prisoners; both support a second Asian–African conference); [[w.chen-yi-nianpu]], 965 (May 5, 1963, 5:45 p.m., the Moon Pavilion 月亭 in the royal palace; Chen Yi at the signing). Names: Liu Shaoqi, Sihanouk.'
     src:
       c: f89203ad
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 576: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 282: all'
+        - 'w.chen-yi-nianpu 965: ?'
     tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:norodom-sihanouk]
+    time_zone: Asia/Phnom_Penh
   - id: cal.1963-05-05.china-leadership-6
     when: May 5
     date: '1963-05-05'
@@ -1193,6 +1233,27 @@ entries:
       - 1963-05-05T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-05.china-leadership-7
+    when: May 5
+    date: '1963-05-05'
+    place: phnom-penh
+    thread: china-leadership
+    c: Chen Yi 陈毅 with Liu Shaoqi 刘少奇 back from Kirirom to Phnom Penh 金边; calls on Prince Norodom Kantol 诺罗敦·康托尔, Cambodia's Prime Minister.
+    n: '[[w.chen-yi-nianpu]], 965. The words: 上午 (965). Names: Chen Yi, Liu Shaoqi, Kantol.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:liu-shaoqi, name:norodom-kantol]
+    time_range:
+      - 1963-05-04T23:00Z
+      - 1963-05-05T05:00Z
+    time_band: morning
+    time_zone: Asia/Phnom_Penh
+  - id: cal.1963-05-05.china-leadership-8
+    when: May 5
+    date: '1963-05-05'
+    place: phnom-penh
+    thread: china-leadership
+    c: Phnom Penh 金边, the royal palace. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 and Wang Guangmei 王光美 takes leave of the Queen.
+    n: '[[w.chen-yi-nianpu]], 965. Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:liu-shaoqi, ok:fields-time]
   - id: cal.1963-05-06.testing
     when: May 6
     date: '1963-05-06'
@@ -1401,13 +1462,19 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi returns to Kunming.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 6, 1963); [[w.yang-shangkun-riji]], II, 276 (May 6, 1963; Liu Shaoqi''s party safely back at Kunming). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 6, 1963); [[w.yang-shangkun-riji]], II, 276 (May 6, 1963; Liu Shaoqi''s party safely back at Kunming); [[w.chen-yi-nianpu]], 965 (May 6, 1963; Chen Yi leaves Phnom Penh with Liu and Wang Guangmei at 8:30 a.m. and reaches Kunming at noon). Names: Liu Shaoqi.'
     src:
       c: 42cca581
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 576: ?'
         - 'w.yang-shangkun-riji II, 276: A'
+        - 'w.chen-yi-nianpu 965: ?'
     tags: [polity:prc, name:liu-shaoqi]
+    time_range:
+      - 1963-05-06T04:00Z
+      - 1963-05-06T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-06.china-leadership-3
     when: May 6
     date: '1963-05-06'
@@ -1448,6 +1515,14 @@ entries:
     n: '[[w.lich-su-khang-chien-chong-my]], III, 305–06. Names: Ngô Đình Cẩn. Check: the history''s account; the American record of the days not matched.'
     tags: [name:ngo-dinh-can, polity:rvn, ok:fields-time]
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1963-05-06.china-leadership-6
+    when: May 6
+    date: '1963-05-06'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 cables Ahmed Ben Bella, Algeria's Prime Minister, his condolences on the death of the Foreign Minister, Mohamed Khemisti 穆罕默德·赫米斯提.
+    n: '[[w.chen-yi-nianpu]], 965. Names: Chen Yi, Ben Bella.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:ben-bella-ahmed, ok:fields-place]
   - id: cal.1963-05-07.mayors-baltimore
     when: May 7
     date: '1963-05-07'
@@ -2201,6 +2276,41 @@ entries:
       - 1963-05-08T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-08.china-leadership-11
+    when: May 8
+    date: '1963-05-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Václav David, Czechoslovakia's Foreign Minister, on the eighteenth anniversary of the country's liberation.
+    n: '[[w.chen-yi-nianpu]], 965. Names: Chen Yi, David.'
+    tags: [polity:prc, polity:czechoslovakia, name:chen-yi, name:david-vaclav, ok:fields-place]
+  - id: cal.1963-05-08.china-leadership-12
+    when: May 8
+    date: '1963-05-08'
+    place: kunming
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Kunming 昆明, the airport. Chen Yi 陈毅 welcomes Hoàng Minh Giám 黄明鉴, the DRV's Minister of Culture and chairman of its reception committee, Trần Tử Bình 陈子平, its Ambassador to China, and Hà Thị Quế 何氏桂 of the Vietnam Women's Union, come to take Liu Shaoqi 刘少奇 and his wife to the DRV.
+    n: '[[w.chen-yi-nianpu]], 965. The words: 上午 (965). Names: Chen Yi, Hoàng Minh Giám, Liu Shaoqi.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:hoang-minh-giam, name:liu-shaoqi]
+    time_range:
+      - 1963-05-07T22:00Z
+      - 1963-05-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-08.china-leadership-13
+    when: May 8
+    date: '1963-05-08'
+    place: kunming
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Kunming 昆明. Liu Shaoqi 刘少奇 receives Hoàng Minh Giám 黄明鉴, Trần Tử Bình 陈子平 and Hà Thị Quế 何氏桂; Chen Yi 陈毅 present.
+    n: '[[w.chen-yi-nianpu]], 966. The words: 下午 (966). Names: Liu Shaoqi, Hoàng Minh Giám, Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:liu-shaoqi, name:hoang-minh-giam]
+    time_range:
+      - 1963-05-08T04:00Z
+      - 1963-05-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-09.mississippi
     when: May 9
     date: '1963-05-09'
@@ -2535,6 +2645,14 @@ entries:
       rows:
         - 'w.mao-zedong-zhuan VI, ch. 72: all'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
+  - id: cal.1963-05-09.china-leadership-10
+    when: May 9
+    date: '1963-05-09'
+    place: kunming
+    thread: china-leadership
+    c: 'Kunming 昆明. Chen Yi 陈毅 learns of his mother''s death and sends home the cost of the funeral; told that the Chengdu Military Region''s 成都军区 leaders visited her in her illness and gave money for fruit, he writes to his elder brother Chen Mengxi 陈孟熙, younger brother Chen Jirang 陈季让, third sister Chen Qiuyue 陈秋月 and sister-in-law Huang Shuqiu 黄漱秋: the country still overcoming three years of disaster, they are to take no more subsidy from the province; he has tried all his life not to burden the public.'
+    n: '[[w.chen-yi-nianpu]], 966. Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-time, vis:only:prc]
   - id: cal.1963-05-10.alabama
     when: May 10
     date: '1963-05-10'
@@ -2724,14 +2842,20 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Liu Shaoqi, with Chen Yi and others, leaves Kunming for a friendly visit to the Democratic Republic of Vietnam; Hồ Chí Minh welcomes them at Hanoi. In the afternoon Liu lays a wreath at the martyrs' monument.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 10, 1963); [[w.macfarquhar-origins-of-the-cultural]], III, 368 (Liu Shaoqi on a state visit to Hanoi in May 1963, after Luo Ruiqing''s military delegation in March). To check: [[w.bianjibu-dangdai-zhongguo-waijiao]], 159 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 368 n.121a). Names: Liu Shaoqi, Chen Yi, Hồ Chí Minh.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 10, 1963); [[w.macfarquhar-origins-of-the-cultural]], III, 368 (Liu Shaoqi on a state visit to Hanoi in May 1963, after Luo Ruiqing''s military delegation in March); [[w.chen-yi-nianpu]], 966 (May 10, 1963, early morning, Chen Yi with Liu and Wang Guangmei leaves Kunming; 8:05 a.m., Gia Lâm airport 嘉林机场, Hanoi 河内; afternoon, the wreath at the martyrs'' tomb outside the city). To check: [[w.bianjibu-dangdai-zhongguo-waijiao]], 159 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 368 n.121a). Names: Liu Shaoqi, Chen Yi, Hồ Chí Minh.'
     src:
       c: 0794005a
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 577: ?'
         - 'w.macfarquhar-origins-of-the-cultural III, 368: A, B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 368 n.121a: A, B'
+        - 'w.chen-yi-nianpu 966: ?'
     tags: [polity:prc, polity:drv, name:liu-shaoqi, name:chen-yi, name:ho-chi-minh]
+    time_range:
+      - 1963-05-09T21:00Z
+      - 1963-05-10T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-10.china-leadership-4
     when: May 10
     date: '1963-05-10'
@@ -2791,6 +2915,43 @@ entries:
     c: Huế. The monks' and believers' declaration, read by the Venerable Thích Tịnh Khiết at the mass meeting at the Từ Đàm pagoda, May 10.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 309 n.1. Check: the document (National Archives Center II, SC.04, HS.8352) not read.'
     tags: [polity:rvn]
+  - id: cal.1963-05-10.china-leadership-9
+    when: May 10
+    date: '1963-05-10'
+    place: hanoi
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Hanoi 河内, the Presidential Palace 主席府. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 calls on Hồ Chí Minh, President of the DRV and Chairman of the Vietnam Workers' Party.
+    n: '[[w.chen-yi-nianpu]], 966. The words: 上午 (966). Names: Chen Yi, Liu Shaoqi, Hồ Chí Minh.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:liu-shaoqi, name:ho-chi-minh]
+    time_range:
+      - 1963-05-09T23:00Z
+      - 1963-05-10T05:00Z
+    time_band: morning
+    time_zone: Asia/Bangkok
+  - id: cal.1963-05-10.china-leadership-10
+    when: May 10
+    date: '1963-05-10'
+    place: hanoi
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Hanoi 河内, the Presidential Palace 主席府. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 receives Hoàng Quốc Việt 黄国越, president of the Vietnam–China Friendship Association, and its other leaders.
+    n: '[[w.chen-yi-nianpu]], 966. The words: 下午 (966). Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:liu-shaoqi]
+    time_range:
+      - 1963-05-10T05:00Z
+      - 1963-05-10T11:00Z
+    time_band: afternoon
+    time_zone: Asia/Bangkok
+  - id: cal.1963-05-10.china-leadership-11
+    when: May 10
+    date: '1963-05-10'
+    place: hanoi
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Hanoi 河内, the Presidential Palace 主席府. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 receives representatives of the Overseas Chinese.
+    n: '[[w.chen-yi-nianpu]], 966. Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:liu-shaoqi, ok:fields-time]
   - id: cal.1963-05-11.alabama
     when: May 11–13
     date: '1963-05-11'
@@ -2866,10 +3027,11 @@ entries:
   - id: cal.1963-05-11.china-leadership
     when: May 11–15
     date: '1963-05-11'
+    place: hanoi
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Liu Shaoqi holds talks with Hồ Chí Minh, Lê Duẩn (First Secretary of the Vietnam Workers' Party), Trường Chinh, Phạm Văn Đồng, Phạm Hùng, Võ Nguyên Giáp, Lê Đức Thọ, Nguyễn Duy Trinh and Hoàng Văn Hoan, May 11, 12, 14 and 15, chiefly on their views of the international communist movement.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 11, 12, 14 and 15, 1963); [[w.jian-zhou-enlai]], 494 (May 1963, Liu to Hồ in Hanoi: "you can count China as your rear area"). Made public: 1996. To check: [[w.qu-aiguo-yuanyue-kangmei]], 8–9 (cited by [[w.jian-zhou-enlai]], 494 n.13b). Names: Liu Shaoqi, Hồ Chí Minh, Lê Duẩn, Trường Chinh, Phạm Văn Đồng, Võ Nguyên Giáp, Lê Đức Thọ, Nguyễn Duy Trinh. Check: the Vietnamese names are the Chinese (黎笋, 长征, 范文同, 范雄, 武元甲, 黎德寿, 阮维桢, 黄文欢) read back.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 11, 12, 14 and 15, 1963); [[w.jian-zhou-enlai]], 494 (May 1963, Liu to Hồ in Hanoi: "you can count China as your rear area"); [[w.chen-yi-nianpu]], 966–967 (May 11 and 14, 1963, the Presidential Palace, Hanoi; Chen Yi in the talks). Made public: 1996. To check: [[w.qu-aiguo-yuanyue-kangmei]], 8–9 (cited by [[w.jian-zhou-enlai]], 494 n.13b). Names: Liu Shaoqi, Hồ Chí Minh, Lê Duẩn, Trường Chinh, Phạm Văn Đồng, Võ Nguyên Giáp, Lê Đức Thọ, Nguyễn Duy Trinh. Check: the Vietnamese names are the Chinese (黎笋, 长征, 范文同, 范雄, 武元甲, 黎德寿, 阮维桢, 黄文欢) read back.'
     tags: [polity:prc, polity:drv, name:liu-shaoqi, name:ho-chi-minh, name:le-duan, name:truong-chinh, name:pham-van-dong, name:vo-nguyen-giap, name:le-duc-tho, name:nguyen-duy-trinh, vis:only:prc+drv]
   - id: cal.1963-05-11.china
     when: May 11
@@ -2976,6 +3138,20 @@ entries:
       - 1963-05-11T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-11.china-leadership-8
+    when: May 11
+    date: '1963-05-11'
+    place: hanoi
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Hanoi 河内, the Presidential Palace 主席府. Chen Yi 陈毅 at the state banquet of Hồ Chí Minh, the Workers' Party's Central Committee, the National Assembly, the government and the Fatherland Front for Liu Shaoqi 刘少奇 and his party.
+    n: '[[w.chen-yi-nianpu]], 966. The words: 晚上 (966). Names: Chen Yi, Hồ Chí Minh, Liu Shaoqi.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:ho-chi-minh, name:liu-shaoqi]
+    time_range:
+      - 1963-05-11T12:00Z
+      - 1963-05-11T15:00Z
+    time_band: evening
+    time_zone: Asia/Bangkok
   - id: cal.1963-05-12.vietnam
     when: May 12
     date: '1963-05-12'
@@ -3001,7 +3177,7 @@ entries:
     thread: china
     also: [vietnam]
     c: 'Hanoi. Liu Shaoqi, President of China, on a visit, against a negotiated settlement: the Vietnamese "cannot sleep and eat at ease for a single day so long as the Southern part is not liberated." Xuân Thủy Foreign Minister days before, in Ưng Văn Khiêm''s place.'
-    n: 'Washington''s reading: [FRUS 1961–63, V, doc. 324](https://history.state.gov/historicaldocuments/frus1961-63v05/d324) (Ball to Paris, May 21), n.2 (Hong Kong''s summary of the speech, May 14). [[w.asselin-hanois-road-to-the]], 153–54 (all but the day); [[w.zhai-china-and-the-vietnam]], 117 (the visit, in May); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 12, 1963; Liu speaks at the rally of 200,000 in Hanoi welcoming him; the book gives him saying that the Chinese people, the Party and the government firmly support the South Vietnamese and all Vietnamese in their just patriotic struggle against U.S. aggression for peaceful reunification of the fatherland); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 284 (May 12, 1963; Liu Shaoqi at the Hanoi mass rally of welcome: affirms the decisive influence and example of the socialist camp, which does not mean replacing or abolishing the revolutionary struggle of oppressed nations and peoples or class struggle within countries; the victories of the world''s peoples can be won only by each people''s own firm revolutionary struggle; the foreign policy of the socialist countries is, in essence, to develop mutual aid among them, hold to peaceful coexistence with countries of different systems and firmly support the revolutionary struggles of the oppressed; it cannot be reduced to peaceful coexistence alone, or replace the revolutionary line of the proletariat of each country). To check: the British consulate general at Hanoi to the Foreign Office, May 20, 1963, FO 371/170105 (cited by [[w.asselin-hanois-road-to-the]], 153 n.63, for Liu''s words). Names: Liu, Xuân Thủy, Ưng Văn Khiêm.'
+    n: 'Washington''s reading: [FRUS 1961–63, V, doc. 324](https://history.state.gov/historicaldocuments/frus1961-63v05/d324) (Ball to Paris, May 21), n.2 (Hong Kong''s summary of the speech, May 14). [[w.asselin-hanois-road-to-the]], 153–54 (all but the day); [[w.zhai-china-and-the-vietnam]], 117 (the visit, in May); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 12, 1963; Liu speaks at the rally of 200,000 in Hanoi welcoming him; the book gives him saying that the Chinese people, the Party and the government firmly support the South Vietnamese and all Vietnamese in their just patriotic struggle against U.S. aggression for peaceful reunification of the fatherland); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 284 (May 12, 1963; Liu Shaoqi at the Hanoi mass rally of welcome: affirms the decisive influence and example of the socialist camp, which does not mean replacing or abolishing the revolutionary struggle of oppressed nations and peoples or class struggle within countries; the victories of the world''s peoples can be won only by each people''s own firm revolutionary struggle; the foreign policy of the socialist countries is, in essence, to develop mutual aid among them, hold to peaceful coexistence with countries of different systems and firmly support the revolutionary struggles of the oppressed; it cannot be reduced to peaceful coexistence alone, or replace the revolutionary line of the proletariat of each country); [[w.chen-yi-nianpu]], 966 (May 12, 1963, morning; Chen Yi at the Hanoi people''s rally welcoming Liu Shaoqi). To check: the British consulate general at Hanoi to the Foreign Office, May 20, 1963, FO 371/170105 (cited by [[w.asselin-hanois-road-to-the]], 153 n.63, for Liu''s words). Names: Liu, Xuân Thủy, Ưng Văn Khiêm.'
     src:
       c: 0ca19a32
       rows:
@@ -3013,8 +3189,14 @@ entries:
         - 'via x.2005.grossheim-revisionism-in-the-drvn: C'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 577: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 284: A'
+        - 'w.chen-yi-nianpu 966: ?'
     tags: [name:liu-shaoqi, name:xuan-thuy, place:hanoi, name:ung-van-khiem]
     short: Liu Shaoqi at Hanoi
+    time_range:
+      - 1963-05-11T23:00Z
+      - 1963-05-12T05:00Z
+    time_band: morning
+    time_zone: Asia/Bangkok
   - id: cal.1963-05-12.press-and-broadcasting
     when: May 12
     date: '1963-05-12'
@@ -3177,6 +3359,29 @@ entries:
       - 1963-05-12T00:00Z
     time_band: early morning
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-12.china-leadership-6
+    when: May 12
+    date: '1963-05-12'
+    place: hanoi
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Hanoi 河内. Chen Yi 陈毅, with Phạm Văn Đồng, the DRV's Prime Minister, visits the Trần Hưng Đạo machine works 陈兴道机器厂 and speaks at the workers' rally there, praising their self-reliance; gives the works presents; then tours the Thống Nhất Park 统一公园.
+    n: '[[w.chen-yi-nianpu]], 966–967. Names: Chen Yi, Phạm Văn Đồng.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:pham-van-dong, ok:fields-time]
+  - id: cal.1963-05-12.china-leadership-7
+    when: May 12
+    date: '1963-05-12'
+    place: hanoi
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Hanoi 河内, the Chinese embassy. Chen Yi 陈毅 at Liu Shaoqi's 刘少奇 informal dinner for Hồ Chí Minh.
+    n: '[[w.chen-yi-nianpu]], 967. The words: 晚上 (967). Names: Chen Yi, Liu Shaoqi, Hồ Chí Minh.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:liu-shaoqi, name:ho-chi-minh]
+    time_range:
+      - 1963-05-12T12:00Z
+      - 1963-05-12T15:00Z
+    time_band: evening
+    time_zone: Asia/Bangkok
   - id: cal.1963-05-13.alabama-birmingham
     when: May 13
     date: '1963-05-13'
@@ -3250,8 +3455,18 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Liu Shaoqi rests at West Lake in Hanoi; he receives the staff of the Chinese embassy and the Chinese experts working in Vietnam.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 13, 1963). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 13, 1963); [[w.chen-yi-nianpu]], 967 (May 12, 1963, evening; Chen Yi with Liu at the embassy receives its staff and the Chinese experts working in Vietnam). Names: Liu Shaoqi.'
+    src:
+      c: 2ec83525
+      rows:
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 577: ?'
+        - 'w.chen-yi-nianpu 967: B'
     tags: [polity:prc, polity:drv, name:liu-shaoqi]
+    variants:
+      - unit: B
+        witness: w.chen-yi-nianpu
+        reads: Liu Shaoqi, with Chen Yi, receives the embassy's staff and the Chinese experts on the evening of May 12
+        at: '967'
   - id: cal.1963-05-13.china-leadership-3
     when: May 13
     date: '1963-05-13'
@@ -3471,6 +3686,20 @@ entries:
     c: 'The National Liberation Front''s statement on the shooting of unarmed demonstrators at Huế May 8: a crime against the people and the Buddhists, exposing the Diệm government''s claim to respect freedom of belief.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 311.'
     tags: [polity:drv, ok:fields-place]
+  - id: cal.1963-05-14.china-leadership-7
+    when: May 14
+    date: '1963-05-14'
+    place: hanoi
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Hanoi 河内, the Presidential Palace 主席府. Chen Yi 陈毅 at Hồ Chí Minh's informal dinner for Liu Shaoqi 刘少奇 and Wang Guangmei 王光美, and the performance after it.
+    n: '[[w.chen-yi-nianpu]], 967. The words: 晚上……便宴后 (967). Names: Chen Yi, Hồ Chí Minh, Liu Shaoqi.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:ho-chi-minh, name:liu-shaoqi]
+    time_range:
+      - 1963-05-14T12:00Z
+      - 1963-05-14T15:00Z
+    time_band: evening
+    time_zone: Asia/Bangkok
   - id: cal.1963-05-15.space
     when: May 15–16
     date: '1963-05-15'
@@ -3673,8 +3902,13 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Liu Shaoqi holds the farewell banquet in Hanoi in the evening.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 15, 1963). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 15, 1963); [[w.chen-yi-nianpu]], 967 (May 15, 1963, evening, the Presidential Palace; Chen Yi present). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:drv, name:liu-shaoqi]
+    time_range:
+      - 1963-05-15T12:00Z
+      - 1963-05-15T15:00Z
+    time_band: evening
+    time_zone: Asia/Bangkok
   - id: cal.1963-05-15.china
     when: May 15
     date: '1963-05-15'
@@ -3704,6 +3938,34 @@ entries:
       - 1963-05-15T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-15.china-leadership-12
+    when: May 15
+    date: '1963-05-15'
+    place: hanoi
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Hanoi 河内. Chen Yi 陈毅, with Phạm Văn Đồng, visits the Nationalities Institute 民族学院 outside the city and speaks at the welcome of its teachers and students: the unbreakable friendship; the international meaning of the North''s building and the South''s armed struggle; socialist revolution on the political, ideological and cultural fronts.'
+    n: '[[w.chen-yi-nianpu]], 967. The words: 上午 (967). Names: Chen Yi, Phạm Văn Đồng.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:pham-van-dong]
+    time_range:
+      - 1963-05-14T23:00Z
+      - 1963-05-15T05:00Z
+    time_band: morning
+    time_zone: Asia/Bangkok
+  - id: cal.1963-05-15.china-leadership-13
+    when: May 15
+    date: '1963-05-15'
+    place: hanoi
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Hanoi 河内. Liu Shaoqi 刘少奇, Hồ Chí Minh and Chen Yi 陈毅 with Hanoi's children by the grove behind the Presidential Palace 主席府; after the children's performance they plant trees before the palace.
+    n: '[[w.chen-yi-nianpu]], 967. The words: 下午……少儿表演结束后 (967). Names: Liu Shaoqi, Hồ Chí Minh, Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:liu-shaoqi, name:ho-chi-minh]
+    time_range:
+      - 1963-05-15T05:00Z
+      - 1963-05-15T11:00Z
+    time_band: afternoon
+    time_zone: Asia/Bangkok
   - id: cal.1963-05-16.europe-and-the-alliance
     when: May 16
     date: '1963-05-16'
@@ -3827,16 +4089,20 @@ entries:
   - id: cal.1963-05-16.china-leadership-4
     when: May 16
     date: '1963-05-16'
+    time: 1963-05-16T00:45Z
+    place: hanoi
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Liu Shaoqi and Hồ Chí Minh sign the Joint Statement of Chairman Liu Shaoqi and Chairman Hồ Chí Minh; Liu returns to Kunming.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 16, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 283–284 (May 10–16, 1963; Liu Shaoqi visits Vietnam; he and Hồ Chí Minh hold talks on common international questions and the two countries'' friendship and cooperation and sign a joint statement, the day not given in the book: the aggressive nature of imperialism will not change; the peoples must unite and struggle without letup against the imperialism headed by the U.S.; Vietnam firmly supports China''s consistent stand on settling the Sino-Indian boundary dispute by negotiation and peaceful means, and warmly values China''s cease-fire, withdrawal and release of prisoners; both stress that to defend and strengthen the unity of the socialist camp and of the international communist movement they must follow the Moscow declaration and statement). Names: Liu Shaoqi, Hồ Chí Minh.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 16, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 283–284 (May 10–16, 1963; Liu Shaoqi visits Vietnam; he and Hồ Chí Minh hold talks on common international questions and the two countries'' friendship and cooperation and sign a joint statement, the day not given in the book: the aggressive nature of imperialism will not change; the peoples must unite and struggle without letup against the imperialism headed by the U.S.; Vietnam firmly supports China''s consistent stand on settling the Sino-Indian boundary dispute by negotiation and peaceful means, and warmly values China''s cease-fire, withdrawal and release of prisoners; both stress that to defend and strengthen the unity of the socialist camp and of the international communist movement they must follow the Moscow declaration and statement); [[w.chen-yi-nianpu]], 967 (May 16, 1963, 7:45 a.m., the Presidential Palace, Hanoi, Chen Yi at the signing; 9:25 a.m., leaves Hanoi with Liu and Wang Guangmei; at Kunming at noon). Names: Liu Shaoqi, Hồ Chí Minh.'
     src:
       c: f791de03
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 577: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 283–284: all'
+        - 'w.chen-yi-nianpu 967: ?'
     tags: [polity:prc, polity:drv, name:liu-shaoqi, name:ho-chi-minh]
+    time_zone: Asia/Bangkok
   - id: cal.1963-05-16.china-leadership-5
     when: May 16
     date: '1963-05-16'
@@ -4823,13 +5089,14 @@ entries:
     thread: china-leadership
     also: [china, indonesia, vietnam-hanoi]
     c: Peking. Zhou Enlai goes to the airport to meet Liu Shaoqi, back from his friendly visits to Indonesia, Burma, Cambodia and Vietnam.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 361 (May 22, 1963; 中午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 22, 1963; Liu returns from Kunming to Peking); [[w.yang-shangkun-riji]], II, 281 (May 22, 1963; Yang and Li Bozhao at the airport from 10:15 a.m.; the plane lands at 11:45; back in Zhongnanhai at 12:30). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 361 (May 22, 1963; 中午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 578 (May 22, 1963; Liu returns from Kunming to Peking); [[w.yang-shangkun-riji]], II, 281 (May 22, 1963; Yang and Li Bozhao at the airport from 10:15 a.m.; the plane lands at 11:45; back in Zhongnanhai at 12:30); [[w.chen-yi-nianpu]], 967 (May 22, 1963; Chen Yi with Liu and Wang Guangmei from Kunming back to Peking). Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: 9b310c95
       rows:
         - 'w.zhou-enlai-waijiao-huodong 361: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 578: B'
         - 'w.yang-shangkun-riji II, 281: A'
+        - 'w.chen-yi-nianpu 967: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi]
     time_range:
       - 1963-05-22T04:00Z
@@ -5343,8 +5610,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou Enlai at the joint meeting of the NPC Standing Committee and the State Council to hear Chen Yi's report on his trip abroad.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 555 (May 25, 1963). Made public: 1997. Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 555 (May 25, 1963); [[w.chen-yi-nianpu]], 967 (May 25, 1963, afternoon, the NPC Standing Committee''s ninety-seventh meeting and the State Council''s 132nd plenary meeting held together; Chen Yi reports on Liu Shaoqi''s visits to Indonesia, Burma, Cambodia and the DRV). Made public: 1995 ([[w.chen-yi-nianpu]], 967). Names: Zhou Enlai, Chen Yi.'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi, vis:only:prc]
+    time_range:
+      - 1963-05-25T04:00Z
+      - 1963-05-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-25.china-leadership-2
     when: May 25
     date: '1963-05-25'
@@ -5638,6 +5910,13 @@ entries:
       - 1963-05-26T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-26.china-leadership-8
+    when: May 26
+    date: '1963-05-26'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Mohammad Yusuf 穆罕默德·优素福, Afghanistan's Prime Minister and Foreign Minister, on Afghanistan's national day.
+    n: '[[w.chen-yi-nianpu]], 967–968. Names: Chen Yi.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, ok:fields-place]
   - id: cal.1963-05-27.court
     when: May 27
     date: '1963-05-27'
@@ -5748,11 +6027,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai attends the national day reception given by the Afghan Ambassador, Mohammad Shoaib Miskinyar.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 361 (May 27, 1963; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 361 (May 27, 1963; 晚上); [[w.chen-yi-nianpu]], 968 (May 27, 1963, evening, the embassy; Chen Yi speaks: talks on fixing the boundary with Afghanistan soon to begin; all Indian prisoners released; China has accepted the Colombo proposals in principle; thanks Sukarno, Ne Win, Sihanouk and Hồ Chí Minh for Liu''s visits). Names: Zhou Enlai.'
     src:
       c: '60422679'
       rows:
         - 'w.zhou-enlai-waijiao-huodong 361: all'
+        - 'w.chen-yi-nianpu 968: ?'
     tags: [polity:prc, polity:afghanistan, name:zhou-enlai]
     time_range:
       - 1963-05-27T11:00Z
@@ -5788,6 +6068,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 282: all'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-27.china-leadership-6
+    when: May 27
+    date: '1963-05-27'
+    thread: china-leadership
+    also: [africa]
+    c: 马马迪, Guinea's new Ambassador, calls on Chen Yi 陈毅.
+    n: '[[w.chen-yi-nianpu]], 968. The words: 下午 (968). Names: Chen Yi.'
+    tags: [polity:prc, polity:guinea, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-05-27T04:00Z
+      - 1963-05-27T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1963-05-28.mississippi
     when: May 28
@@ -6005,6 +6298,30 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1759: all'
     tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+  - id: cal.1963-05-28.china-leadership-7
+    when: May 28
+    date: '1963-05-28'
+    thread: china-leadership
+    c: 阿明, Iraq's new Ambassador, calls on Chen Yi 陈毅.
+    n: '[[w.chen-yi-nianpu]], 968. The words: 下午 (968). Names: Chen Yi.'
+    tags: [polity:prc, polity:iraq, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-05-28T04:00Z
+      - 1963-05-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-28.china-leadership-8
+    when: May 28
+    date: '1963-05-28'
+    thread: china-leadership
+    c: 凯尔, Switzerland's new Ambassador, calls on Chen Yi 陈毅.
+    n: '[[w.chen-yi-nianpu]], 968. The words: 下午 (968). Names: Chen Yi.'
+    tags: [polity:prc, polity:switzerland, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-05-28T04:00Z
+      - 1963-05-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-29.economy-debt-limit
     when: May 29
     date: '1963-05-29'
@@ -6214,6 +6531,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1759: all'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-05-29.china-leadership-9
+    when: May 29
+    date: '1963-05-29'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the CPPCC auditorium 政协礼堂. Zhou Enlai 周恩来 and Chen Yi 陈毅 at the Film Workers' Association's 中国电影工作者协会 evening for the winners of *Dazhong dianying*'s 《大众电影》 second Hundred Flowers awards; they receive the winners and watch the table-tennis players bound for the twenty-seventh world championships.
+    n: '[[w.chen-yi-nianpu]], 968. The words: 晚上 (968). Names: Zhou Enlai, Chen Yi.'
+    tags: [polity:prc, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1963-05-29T11:00Z
+      - 1963-05-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-30.civil-rights-the-executive
     when: May 30
     date: '1963-05-30'
@@ -6330,6 +6660,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 283: all'
     tags: [polity:prc, name:zhou-enlai, name:kim-il-sung, vis:only:prc]
+  - id: cal.1963-05-30.china-leadership-5
+    when: May 30
+    date: '1963-05-30'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 receives 奥杰帕, chairman of the railway branch of Uganda's transport and general workers' union, and 奥芒金 of the Uganda People's Congress youth organization.
+    n: '[[w.chen-yi-nianpu]], 968. The words: 下午 (968). Names: Chen Yi.'
+    tags: [polity:prc, polity:uganda, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-05-30T04:00Z
+      - 1963-05-30T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-05-31.mississippi
     when: May 31
     date: '1963-05-31'
@@ -7192,3 +7535,28 @@ entries:
     c: 'Kon Tum. Regiment 42 of the Saigon army sweeps the base area north of Kon Tum, to relieve the pressure on the Đắk Pét post and to back the Civil Guard in holding strategic hamlets. Battalion 407 (sappers) joins Battalion 200 and the sweep is beaten: hundreds put out of action, many arms and goods taken, by the history''s count.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 245. Check: the day; the history does not date the sweep and puts it after the Đắk Pét attack of May 1963.'
     tags: [polity:drv]
+  - id: cal.1963-05-31.china-leadership-7
+    when: May 31
+    date: '1963-05-31'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives three Japanese delegations, the Japan People's Relief Association's third, led by Saitō Kisaku 斋滕喜作 (so printed), the young jurists', led by Miyauchi Yutaka 宫内裕, and the Japan Peace Committee's.
+    n: '[[w.chen-yi-nianpu]], 968. The words: 上午 (968). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-05-30T22:00Z
+      - 1963-05-31T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-05-31.china-leadership-8
+    when: May 31
+    date: '1963-05-31'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 and his wife Zhang Qian 张茜 give a banquet for the envoys of Indonesia, Burma, Cambodia and the DRV, thanking the four countries for their welcome of Liu Shaoqi 刘少奇 and Wang Guangmei 王光美; he speaks: the joint statements and communique are important international documents; the five countries back the Laotian people and the people of South Vietnam against the United States, and Sukarno''s call for a second Asian-African conference; thanks them for their support on Taiwan, the UN seat and the Sino-Indian boundary.'
+    n: '[[w.chen-yi-nianpu]], 968–969. The words: 晚上 (968–969). Names: Chen Yi, Liu Shaoqi, Sukarno.'
+    tags: [polity:prc, polity:indonesia, polity:burma, polity:cambodia, polity:drv, name:chen-yi, name:liu-shaoqi, name:sukarno, ok:fields-place]
+    time_range:
+      - 1963-05-31T11:00Z
+      - 1963-05-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai

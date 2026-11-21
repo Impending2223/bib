@@ -3268,11 +3268,12 @@ entries:
     thread: china
     also: [soviet-union]
     c: Moscow. China and the Soviet Union sign an agreement on economic cooperation and one on science and technology.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 199 (June 19, 1961).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 199 (June 19, 1961); [[w.westad-introduction]], 26 (June 1961: a set of agreements on economic, scientific and technical cooperation).'
     src:
       c: 0c87cbe4
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 199: all'
+        - 'w.westad-introduction 26: ?'
     tags: [polity:prc, polity:ussr]
   - id: cal.1961-06-19.china-leadership-6
     when: June 19
@@ -4094,11 +4095,19 @@ entries:
   - id: cal.1961-06-25.china-leadership-4
     when: June 25
     date: '1961-06-25'
+    time: 1961-06-25T13:00Z
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai receives Chervonenko, answering his questions on China''s home work: after two years of disaster and lack of experience the plans for this year and next are to be adjusted together, the last two years of the five-year plan joined. New things inevitably bring rough spots; every thing develops with two sides, victory unattended breeds error, error learned from breeds victory. On twelve years of building: universal truth and general law may be learned from brother countries but particular experience only by one''s own practice.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 419 (June 25, 1961). Made public: 1997. Names: Zhou Enlai, Chervonenko.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 419 (June 25, 1961); [[w.brothers-in-arms]], 369–374 (the Soviet record: received "at 9 o''clock in the evening" (369); Mao, with angina, cannot see him; Liu Shaoqi freed to write the report for the fortieth anniversary, kept small; the drought: the summer harvest some 10 million tons below last year''s 30 million, the year''s 160 million unlikely; Chervonenko hands over the record of Khrushchev''s talks with Kennedy at Vienna; the plan to be regulated after three years of the Leap and two of calamities; the Soviet–Korean treaty welcomed; Brezhnev''s visit to be answered; Zhou told to work half days; over two hours). Made public: 1997. Names: Zhou Enlai, Chervonenko.'
+    src:
+      c: c14e25f3
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 419: ?'
+        - 'w.brothers-in-arms 369–374: B, C, D'
+        - 'via x.1961-06-25.chervonenko-zhou-record-avprf: B, C, D'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-25.china-leadership
     when: June 25
     date: '1961-06-25'
@@ -5764,3 +5773,15 @@ entries:
     c: Chen Yi 陈毅 visits the Île Rousseau 卢梭岛, Geneva, and writes the poem "Visiting the Île Rousseau" 《游卢梭岛》.
     n: '[[w.chen-yi-nianpu]], 879. Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi]
+  - id: cal.1961-06.china-leadership-13
+    when: June
+    date: 1961-06
+    thread: china-leadership
+    c: Mao suffers from angina through the month before the 25th, by Zhou Enlai's word to the Soviet Ambassador; he cannot receive him.
+    n: '[[w.brothers-in-arms]], 369 (the Soviet record of June 25, 1961). Made public: 1998. Names: Mao Zedong, Zhou Enlai.'
+    src:
+      c: 1dcbb422
+      rows:
+        - 'w.brothers-in-arms 369: all'
+        - 'via x.1961-06-25.chervonenko-zhou-record-avprf: all'
+    tags: [polity:prc, vis:only:prc+ussr, name:mao-zedong, name:zhou-enlai]

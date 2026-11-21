@@ -164,12 +164,18 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai attends the national day reception given by the Ghanaian Ambassador, Mercer.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 363 (July 1, 1963). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 363 (July 1, 1963); [[w.chen-yi-nianpu]], 973 (July 1, 1963, evening; Chen Yi speaks: the African heads of state''s conference; Kennedy, behind talk of peace, would stop countries from backing national liberation, which socialist countries owe as an international duty). Names: Zhou Enlai.'
     src:
       c: 8ff7aff0
       rows:
         - 'w.zhou-enlai-waijiao-huodong 363: all'
+        - 'w.chen-yi-nianpu 973: ?'
     tags: [polity:prc, polity:ghana, name:zhou-enlai]
+    time_range:
+      - 1963-07-01T11:00Z
+      - 1963-07-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-01.china-leadership-4
     when: July 1
     date: '1963-07-01'
@@ -221,6 +227,14 @@ entries:
       - 1963-07-01T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1963-07-01.china-leadership-9
+    when: July 1
+    date: '1963-07-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Chen Yi 陈毅 and Nie Rongzhen 聂荣臻 at the Fifth Academy 五院, where they see the Dongfeng-1 and -2 rockets 东风一、二号火箭.
+    n: '[[w.chen-yi-nianpu]], 973. Made public: 1995. Names: Chen Yi, Nie Rongzhen.'
+    tags: [polity:prc, name:chen-yi, name:nie-rongzhen, ok:fields-time, vis:only:prc]
   - id: cal.1963-07-02.march-on-washington
     when: July 2
     date: '1963-07-02'
@@ -449,6 +463,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 292: all'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1963-07-02.china-leadership-9
+    when: July 2
+    date: '1963-07-02'
+    thread: china-leadership
+    also: [korea]
+    c: Chen Yi 陈毅 receives the Korean trade unions' delegation led by 许弼万, of the General Federation's standing committee and chairman of the transport workers' union.
+    n: '[[w.chen-yi-nianpu]], 973. The words: 下午 (973). Names: Chen Yi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-07-02T04:00Z
+      - 1963-07-02T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1963-07-03.king
     when: July 3
@@ -944,7 +971,7 @@ entries:
     thread: china
     also: [soviet-union]
     c: 'Moscow. The Soviet and Chinese parties'' talks open, Suslov and the International Department against Deng Xiaoping''s delegation, to July 20. Deng''s five-hour opening speech: "How can these two countries, which belong to two fundamentally different social systems, coexist?"; the Cuban PSP, the Algerian and Iraqi parties misled by Moscow.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 527–28; [[w.zedong-mao-zedong-nianpu]], V, July 5, 1963 (the delegation under Deng Xiaoping and Peng Zhen leaves Peking; the talks run to July 20); [[w.lengxi-shinian-lunzhan-1956-1966]], 602–603 (Wu: the talks "from July 6 to July 20," nine meetings (the day: variant), at the CPSU Central Committee''s conference hall on the Lenin Hills; for the Soviets Suslov, Grishin, Ponomarev, Andropov, Ilyichev, Satyukov and Ambassador Chervonenko; the first meeting, July 6: Suslov speaks first, over two hours, against the Chinese letter of June 14 and for the CPSU''s of Mar. 30, the general line peaceful coexistence, competition and transition, the CPSU a party of the whole people; adjourned); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (the first meeting on July 6, where Suslov read a seventy-page paper; each side restates its position and attacks the other''s); [[w.jian-zhou-enlai]], 488 (early July: Deng''s delegation in Moscow; heated debate on almost every issue). To check: Westad, "The Sino-Soviet Alliance and the United States," in *Brothers in Arms* (1998), 180, 385–86 (cited by [[w.fursenko-khrushchevs-cold-war]], 527 n.124, 528 n.125); [[w.xiuquan-huiyi-yu-huainian]], 371 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.23); [[w.jin-1949-1989-niande-zhongguo]], 588–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.24); [[w.arbatov-system]], 94 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.25); [[w.yan-mingfu-huiyilu]], II, 797–842 (cited by [[w.jian-zhou-enlai]], 488 n.106). See [[cal.1963-03-12.china]]. Names: Suslov, Deng.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 527–28; [[w.zedong-mao-zedong-nianpu]], V, July 5, 1963 (the delegation under Deng Xiaoping and Peng Zhen leaves Peking; the talks run to July 20); [[w.lengxi-shinian-lunzhan-1956-1966]], 602–603 (Wu: the talks "from July 6 to July 20," nine meetings (the day: variant), at the CPSU Central Committee''s conference hall on the Lenin Hills; for the Soviets Suslov, Grishin, Ponomarev, Andropov, Ilyichev, Satyukov and Ambassador Chervonenko; the first meeting, July 6: Suslov speaks first, over two hours, against the Chinese letter of June 14 and for the CPSU''s of Mar. 30, the general line peaceful coexistence, competition and transition, the CPSU a party of the whole people; adjourned); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (the first meeting on July 6, where Suslov read a seventy-page paper; each side restates its position and attacks the other''s); [[w.jian-zhou-enlai]], 488 (early July: Deng''s delegation in Moscow; heated debate on almost every issue); [[w.westad-introduction]], 28 (the delegations under Deng Xiaoping and Suslov meet at Moscow from July 5 to 20, 1963, and cannot agree even on when to meet again); [[w.brothers-in-arms]], 376 (the editor''s headnote: the meetings of July 5–20; the last, July 20, ends with no agreement on where or when to go on); [[w.westad-sino-soviet-alliance-and]], 180 (Deng''s words, "How can these two countries, which belong to two fundamentally different social systems, coexist"; 180 n.43, the record, 190). To check: [[w.xiuquan-huiyi-yu-huainian]], 371 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.23); [[w.jin-1949-1989-niande-zhongguo]], 588–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.24); [[w.arbatov-system]], 94 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.25); [[w.yan-mingfu-huiyilu]], II, 797–842 (cited by [[w.jian-zhou-enlai]], 488 n.106). See [[cal.1963-03-12.china]]. Names: Suslov, Deng.'
     src:
       c: ff1f3cfb
       rows:
@@ -959,6 +986,9 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 352 n.26a: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 352 n.28: B'
         - 'w.jian-zhou-enlai 488: ?'
+        - 'w.westad-introduction 28: A'
+        - 'w.brothers-in-arms 376: A'
+        - 'w.westad-sino-soviet-alliance-and 180: ?'
     tags: [name:suslov-mikhail-a, name:deng-xiaoping, vis:only:ussr+prc]
     time_range:
       - 1963-07-05T06:00Z
@@ -995,6 +1025,10 @@ entries:
         witness: w.deng-xiaoping-nianpu-1904
         reads: Deng's speech of nearly five hours (发言近五小时) is at the second meeting, July 8; at the first, July 6, Suslov speaks
         at: III, 1763
+      - unit: C
+        witness: w.brothers-in-arms
+        reads: Deng Xiaoping's five-hour speech is on July 8 ("I have already taken five hours"); the Cuban, Algerian and Iraqi parties are in his speech of July 12
+        at: 383, 385–386
   - id: cal.1963-07-05.middle-east-yemen
     when: July 5
     date: '1963-07-05'
@@ -1012,7 +1046,7 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai, with Liu Shaoqi, Zhu De and Dong Biwu, goes to the airport to see off the Chinese Party delegation headed by Deng Xiaoping and Peng Zhen, leaving for Moscow for the talks between the two parties.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 364 (July 5, 1963); [[w.lengxi-shinian-lunzhan-1956-1966]], 601 (Wu: the delegation leaves in two planes the day of the statement, July 5, Liu Shaoqi, Zhou Enlai and other leaders seeing it off; Wu with Deng Xiaoping in the first reaches Moscow that afternoon; Peng Zhen''s plane, held by weather in Siberia, some hours later; the delegation lodged in two villas on the Lenin Hills, its meetings held in a secure room of the Chinese embassy); [[w.macfarquhar-origins-of-the-cultural]], III, 351 (the delegation leaves Beijing at 7:30 a.m., every major Chinese leader but Mao seeing it off); [[w.yang-shangkun-riji]], II, 292 (July 5, 1963; Yang Shangkun with the delegation; the flight from Peking at 7:40 a.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1763 (July 5, 1963; morning, 晨; Deng leads the Chinese delegation by special plane from Peking for the talks in Moscow). To check: [[w.xiuquan-huiyi-yu-huainian]], 368–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 351 n.18). Names: Zhou Enlai, Liu Shaoqi, Zhu De, Dong Biwu, Deng Xiaoping, Peng Zhen.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 364 (July 5, 1963); [[w.lengxi-shinian-lunzhan-1956-1966]], 601 (Wu: the delegation leaves in two planes the day of the statement, July 5, Liu Shaoqi, Zhou Enlai and other leaders seeing it off; Wu with Deng Xiaoping in the first reaches Moscow that afternoon; Peng Zhen''s plane, held by weather in Siberia, some hours later; the delegation lodged in two villas on the Lenin Hills, its meetings held in a secure room of the Chinese embassy); [[w.macfarquhar-origins-of-the-cultural]], III, 351 (the delegation leaves Beijing at 7:30 a.m., every major Chinese leader but Mao seeing it off); [[w.yang-shangkun-riji]], II, 292 (July 5, 1963; Yang Shangkun with the delegation; the flight from Peking at 7:40 a.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1763 (July 5, 1963; morning, 晨; Deng leads the Chinese delegation by special plane from Peking for the talks in Moscow); [[w.chen-yi-nianpu]], 973 (July 5, 1963, morning; Chen Yi at the airport sees off the delegation of Deng Xiaoping and Peng Zhen to the talks with the Soviet party). To check: [[w.xiuquan-huiyi-yu-huainian]], 368–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 351 n.18). Names: Zhou Enlai, Liu Shaoqi, Zhu De, Dong Biwu, Deng Xiaoping, Peng Zhen.'
     src:
       c: 664e872d
       rows:
@@ -1022,7 +1056,13 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 351 n.18: B'
         - 'w.yang-shangkun-riji II, 292: A-B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1763: ?'
+        - 'w.chen-yi-nianpu 973: ?'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:liu-shaoqi, name:zhu-de, name:dong-biwu, name:deng-xiaoping, name:peng-zhen]
+    time_range:
+      - 1963-07-04T22:00Z
+      - 1963-07-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-05.china-leadership-2
     when: July 5
     date: '1963-07-05'
@@ -1031,11 +1071,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the Great Hall of the People, Fujian Hall. Zhou Enlai receives the Romanian Ambassador, Gheorghiu.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 364 (July 5, 1963; 下午5时). Names: Zhou Enlai. Check: the name, 杜·乔治乌 in the book.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 364 (July 5, 1963; 下午5时); [[w.chen-yi-nianpu]], 973–974 (July 5, 1963, afternoon; Chen Yi with Zhou receives Dumitru Gheorghiu 杜米特鲁·乔治乌 and the Romanian delegation on the 1963 plan of the cultural agreement and the academies'' cooperation, and dines with them after). Names: Zhou Enlai. Check: the name, 杜·乔治乌 in the book.'
     src:
       c: 35e567d0
       rows:
         - 'w.zhou-enlai-waijiao-huodong 364: all'
+        - 'w.chen-yi-nianpu 973–974: ?'
     tags: [polity:prc, polity:romania, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1963-07-05.china-leadership-3
@@ -1384,6 +1425,20 @@ entries:
         - 'w.yang-shangkun-riji II, 294: all'
     tags: [polity:prc, name:suslov-mikhail-a, vis:only:prc]
     time_zone: Europe/Moscow
+  - id: cal.1963-07-07.china-leadership-4
+    when: July 7
+    date: '1963-07-07'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Peking 北京, the Great Hall of the People 人民大会堂. Chen Yi 陈毅 speaks at the meeting of more than 7,000 of the Foreign Ministry, the Ministry of Foreign Trade, the Ministry of Education, the Academy of Sciences and Peking''s organs welcoming the five comrades whose recall the Soviet government demanded: the Chinese and Soviet peoples want unity, not a split; China holds to Marxism-Leninism and will do nothing to grieve its friends and gladden its enemies.'
+    n: '[[w.chen-yi-nianpu]], 974. The words: 下午 (974). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi]
+    time_range:
+      - 1963-07-07T04:00Z
+      - 1963-07-07T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-08.elections-1964
     when: July 8
     date: '1963-07-08'
@@ -1470,11 +1525,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai attends the luncheon given by the Ceylonese Ambassador, Perera.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 364 (July 8, 1963; 中午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 364 (July 8, 1963; 中午); [[w.chen-yi-nianpu]], 974 (July 8, 1963; Chen Yi present). Names: Zhou Enlai.'
     src:
       c: ca181fe3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 364: all'
+        - 'w.chen-yi-nianpu 974: ?'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai]
     time_range:
       - 1963-07-08T04:00Z
@@ -1488,7 +1544,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow. Second meeting. Deng Xiaoping, head of the Chinese delegation, speaks on the origin and the substance of the differences. They began with the CPSU's Twentieth Congress, he says, and went on through the Soviet–Polish strain and Hungary in 1956, the Moscow meeting of 1957, the Sino-Indian border and Camp David in 1959, Bucharest and the Moscow meeting of 1960, the Twenty-second Congress, and the attacks of the five European congresses in 1962–63, until two lines; the substance is revolution or no revolution. The Soviet side does not reply; the meeting adjourns.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 604 ("the second meeting was held on July 8"; Deng''s speech the basis of the first article answering the CPSU''s open letter, "The origin and development of the differences between the leadership of the CPSU and ourselves"); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (the second substantive session, Deng speaking, July 8); [[w.yang-shangkun-riji]], II, 294 (July 8, 1963; Deng''s speech, 10 a.m. to 1 p.m. and 3 to 5 p.m., five hours with the translation; the Soviets ask for a recess the next day and will speak the day after); [[w.deng-xiaoping-nianpu-1904]], III, 1763 (July 8, 1963; Deng at the second meeting; speaks nearly five hours, setting out the origin and substance of the Sino-Soviet differences; says that in the past month the CPSU, under the banner of stopping the dispute, has sharpened the open dispute, met the Chinese positive proposals with an arbitrary, unreasoning attitude, and carried the ideological differences into relations between the states); [[w.mao-zedong-zhuan]], V, ch. 71 (July 8 Deng''s speech, five hours, interpreting included; again July 10 and 12 for both sides; four more rounds followed). Made public: 1999. To check: [[w.jin-1949-1989-niande-zhongguo]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). See [[cal.1963-07-07.china-leadership]]. Names: Deng Xiaoping.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 604 ("the second meeting was held on July 8"; Deng''s speech the basis of the first article answering the CPSU''s open letter, "The origin and development of the differences between the leadership of the CPSU and ourselves"); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (the second substantive session, Deng speaking, July 8); [[w.yang-shangkun-riji]], II, 294 (July 8, 1963; Deng''s speech, 10 a.m. to 1 p.m. and 3 to 5 p.m., five hours with the translation; the Soviets ask for a recess the next day and will speak the day after); [[w.deng-xiaoping-nianpu-1904]], III, 1763 (July 8, 1963; Deng at the second meeting; speaks nearly five hours, setting out the origin and substance of the Sino-Soviet differences; says that in the past month the CPSU, under the banner of stopping the dispute, has sharpened the open dispute, met the Chinese positive proposals with an arbitrary, unreasoning attitude, and carried the ideological differences into relations between the states); [[w.mao-zedong-zhuan]], V, ch. 71 (July 8 Deng''s speech, five hours, interpreting included; again July 10 and 12 for both sides; four more rounds followed). [[w.brothers-in-arms]], 376–383 (the Soviet record, July 8: Deng: the fundamental disagreements began at the Twentieth Congress; Poland and Hungary in 1956; the radar station and joint fleet of 1958; the nuclear agreement annulled in June 1959; the TASS statement of Sept. 9, 1959; Camp David; Bucharest; the experts withdrawn; the Soviet notice of Aug. 25, 1962; India; Cuba; "I have already taken five hours"; Suslov proposes a break until the day after tomorrow, at 10 A.M.); [[w.westad-sino-soviet-alliance-and]], 179 (Deng to the Soviet leaders on the missiles in Cuba: "did you want to help [Cuba] or destroy it?"; 179 n.41, the record, 91). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 352). To check: [[w.jin-1949-1989-niande-zhongguo]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). See [[cal.1963-07-07.china-leadership]]. Names: Deng Xiaoping.'
     src:
       c: '31684732'
       rows:
@@ -1498,6 +1554,10 @@ entries:
         - 'w.yang-shangkun-riji II, 294: A-C, F-G'
         - 'w.deng-xiaoping-nianpu-1904 III, 1763: C'
         - 'w.mao-zedong-zhuan V, ch. 71: B'
+        - 'w.brothers-in-arms 376–383: A, C, F, G'
+        - 'w.westad-sino-soviet-alliance-and 179: ?'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: A, C, F, G'
+        - 'via x.1963-07.cpsu-ccp-meetings-rohuebersetzung-sapmo: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc+ussr]
   - id: cal.1963-07-08.china
     when: July 8
@@ -1531,6 +1591,13 @@ entries:
       - 1963-07-08T15:00Z
     time_band: afternoon
     time_zone: Europe/Moscow
+  - id: cal.1963-07-08.china-leadership-5
+    when: July 8
+    date: '1963-07-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Nie Rongzhen 聂荣臻 visit the Institute of Automatic Control 自动控制研究院.
+    n: '[[w.chen-yi-nianpu]], 974. Made public: 1995. Names: Chen Yi, Nie Rongzhen.'
+    tags: [polity:prc, name:chen-yi, name:nie-rongzhen, ok:fields-place, ok:fields-time, vis:only:prc]
   - id: cal.1963-07-09.railroads
     when: July 9–10
     date: '1963-07-09'
@@ -1782,11 +1849,12 @@ entries:
   - id: cal.1963-07-10.china-leadership-3
     when: July 10
     date: '1963-07-10'
+    time: 1963-07-10T07:00Z
     place: moscow
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow. Third meeting. Suslov answers Deng: the differences began after Camp David, with China''s hostile turn against the USSR; he rejects Deng''s dating from the Twentieth Congress and his words on the Soviet–Polish strain and Hungary in 1956, denies that the CPSU took India''s side in the border dispute, and charges China with splitting, the seven answering articles being its proof.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 605–606 ("the third meeting on July 10"; Wu on the speech: it "forced the argument" (强词夺理), like his first); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (Suslov speaks again, July 10); [[w.yang-shangkun-riji]], II, 295 (July 10, 1963; Suslov speaks, 10 a.m. to 1:30 p.m. and 3:15 to 5 p.m., about five hours); [[w.deng-xiaoping-nianpu-1904]], III, 1764 (July 10, 1963; Deng at the third meeting; Suslov speaks). Made public: 1999. To check: [[w.jin-1949-1989-niande-zhongguo]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). See [[cal.1963-07-08.china-leadership-3]]. Names: Suslov, Deng Xiaoping.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 605–606 ("the third meeting on July 10"; Wu on the speech: it "forced the argument" (强词夺理), like his first); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (Suslov speaks again, July 10); [[w.yang-shangkun-riji]], II, 295 (July 10, 1963; Suslov speaks, 10 a.m. to 1:30 p.m. and 3:15 to 5 p.m., about five hours); [[w.deng-xiaoping-nianpu-1904]], III, 1764 (July 10, 1963; Deng at the third meeting; Suslov speaks); [[w.brothers-in-arms]], 383–385 (the Soviet record, July 10, the meeting set on the 8th for "the day after tomorrow, at 10 A.M." (383): Suslov: personal attacks on Khrushchev, as in 1960; the Twentieth Congress no cause of the Hungarian revolt; Soviet help to Chinese defense: 24 defense enterprises built, 33 building, 60 divisions armed, the documentation for the MiG-17, MiG-19, MiG-21-F and Tu-16; Khrushchev''s words to Mao on a joint fleet, July 31, 1958; 198 enterprises, 21,000 sets of documentation). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 352). To check: [[w.jin-1949-1989-niande-zhongguo]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). See [[cal.1963-07-08.china-leadership-3]]. Names: Suslov, Deng Xiaoping.'
     src:
       c: 2f9e9385
       rows:
@@ -1795,7 +1863,10 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 352 n.27a: B, C'
         - 'w.yang-shangkun-riji II, 295: A-C'
         - 'w.deng-xiaoping-nianpu-1904 III, 1764: B'
+        - 'w.brothers-in-arms 383–385: A'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: A'
     tags: [polity:prc, name:suslov-mikhail-a, name:deng-xiaoping, vis:only:prc+ussr]
+    time_zone: Europe/Moscow
   - id: cal.1963-07-10.china-leadership-4
     when: July 10
     date: '1963-07-10'
@@ -1859,6 +1930,25 @@ entries:
     c: Bến Tre. The secret cells of four communes, Thạnh Phú Đông, Hiệp Hưng, Tân Hào and Phước Long, bring 2,000 core supporters and soldiers' families into Giồng Trôm town, July 10–15, to demand compensation for property and for husbands and sons killed, an end to sweeps and the sons' return home.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 271.'
     tags: [polity:drv]
+  - id: cal.1963-07-10.china-leadership-7
+    when: July 10
+    date: '1963-07-10'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Dugersuren 杜格尔苏伦, Mongolia's Foreign Minister, on the forty-second anniversary of the Mongolian People's Revolution.
+    n: '[[w.chen-yi-nianpu]], 974. Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi, ok:fields-place]
+  - id: cal.1963-07-10.china-leadership-8
+    when: July 10
+    date: '1963-07-10'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the reception of Col. 埃拉米·哈图, the Albanian military attaché, and his wife for the Albanian People's Army's twentieth anniversary.
+    n: '[[w.chen-yi-nianpu]], 974. The words: 晚上 (974). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-07-10T11:00Z
+      - 1963-07-10T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-11.desegregation-schools-okc
     when: July 11
     date: '1963-07-11'
@@ -1955,16 +2045,23 @@ entries:
   - id: cal.1963-07-11.china-leadership-2
     when: July 11
     date: '1963-07-11'
+    place: peking
     thread: china-leadership
     also: [korea]
     c: Zhou Enlai and Chen Yi at the capital's rally for the second anniversary of the Sino-Korean treaty of friendship, cooperation and mutual aid.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 566 (July 11, 1963); [[w.zhou-enlai-waijiao-huodong]], 364 (July 11, 1963). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 566 (July 11, 1963); [[w.zhou-enlai-waijiao-huodong]], 364 (July 11, 1963); [[w.chen-yi-nianpu]], 974 (July 11, 1963, afternoon; Chen Yi at the rally of the CPPCC and the China–Korea Friendship Association for the treaty''s second anniversary). Names: Zhou Enlai, Chen Yi.'
     src:
       c: d55df5bc
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 566: ?'
         - 'w.zhou-enlai-waijiao-huodong 364: A'
+        - 'w.chen-yi-nianpu 974: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1963-07-11T04:00Z
+      - 1963-07-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-11.china-leadership-3
     when: July 11
     date: '1963-07-11'
@@ -2014,6 +2111,33 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 296: all'
     tags: [polity:prc, vis:only:prc+ussr]
+  - id: cal.1963-07-11.china-leadership-6
+    when: July 11
+    date: '1963-07-11'
+    thread: china-leadership
+    also: [korea]
+    c: Zhou Enlai 周恩来 receives Korean delegations (the complete-plant technical delegation under 白成玉, the pharmaceutical and medical equipment survey group under 康稚洗, Pyongyang Zoo's deputy director 宋吉孙 and the zoologist 崔俊锡, and the travel group under 康洪道); Chen Yi 陈毅 present.
+    n: '[[w.chen-yi-nianpu]], 974. The words: 下午 (974). Names: Zhou Enlai, Chen Yi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, name:zhou-enlai, ok:fields-place]
+    time_range:
+      - 1963-07-11T04:00Z
+      - 1963-07-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-07-11.china-leadership-7
+    when: July 11
+    date: '1963-07-11'
+    place: peking
+    thread: china-leadership
+    also: [korea]
+    c: Peking 北京, the Peking Hotel 北京饭店. Chen Yi 陈毅 at the banquet of Chŏng Pong-gyu 郑凤珪, the DPRK chargé d'affaires, for the treaty's second anniversary.
+    n: '[[w.chen-yi-nianpu]], 974. The words: 晚上 (974). Names: Chen Yi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi]
+    time_range:
+      - 1963-07-11T11:00Z
+      - 1963-07-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-12.civil-rights-bill
     when: July 12
     date: '1963-07-12'
@@ -2141,7 +2265,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow, morning. Fourth meeting. Deng Xiaoping''s second speech, on the CPSU''s splitting, from Bucharest on: the CPSU wields its baton, makes a split of its own and drives other parties to split, carries ideological difference into relations between states, with China and with Albania. He asks why the Soviets, speaking of the differences, say nothing of the withdrawal of all experts from China and the tearing up of the contracts; and on Cuba which of two Soviet lines, Kennedy a pirate or Kennedy a lover of peace, stands. Suslov, pale and red by turns, says the Soviets will answer next time, and asks to meet again in the afternoon.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 606–608 ("the fourth meeting on July 12, Deng''s second speech"; "before the break"; Deng: "if you follow your baton and fall into your own trap, you contradict the facts"; Deng on Cuba: "what do you mean to have us follow?"); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (Deng speaks again, July 12); [[w.yang-shangkun-riji]], II, 296 (July 12, 1963; the session, 2 to 6 p.m.: Deng speaks; the Soviets ask to meet again at 2 p.m. the next day); [[w.deng-xiaoping-nianpu-1904]], III, 1764 (July 12, 1963; Deng at the fourth meeting; speaks that the differences show chiefly in two great questions, whether to have revolution and whether to keep the socialist camp united; says that on a series of questions the Soviet Union practices splitting, not internationalism). Made public: 1999. To check: [[w.jin-1949-1989-niande-zhongguo]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). See [[cal.1963-07-10.china-leadership-3]]. Names: Deng Xiaoping, Suslov.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 606–608 ("the fourth meeting on July 12, Deng''s second speech"; "before the break"; Deng: "if you follow your baton and fall into your own trap, you contradict the facts"; Deng on Cuba: "what do you mean to have us follow?"); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (Deng speaks again, July 12); [[w.yang-shangkun-riji]], II, 296 (July 12, 1963; the session, 2 to 6 p.m.: Deng speaks; the Soviets ask to meet again at 2 p.m. the next day); [[w.deng-xiaoping-nianpu-1904]], III, 1764 (July 12, 1963; Deng at the fourth meeting; speaks that the differences show chiefly in two great questions, whether to have revolution and whether to keep the socialist camp united; says that on a series of questions the Soviet Union practices splitting, not internationalism); [[w.brothers-in-arms]], 385–386 (the Soviet record, July 12, set on the 10th for "ten o''clock" (385): Deng: under Moscow''s line of peaceful transition the Cuban People''s Socialist Party attacked Castro''s armed struggle, the Algerian party renounced armed struggle, the Iraqi party was unready for the coup of Feb. 8, 1963). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 352). To check: [[w.jin-1949-1989-niande-zhongguo]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). See [[cal.1963-07-10.china-leadership-3]]. Names: Deng Xiaoping, Suslov. Check: the hour: the Soviet record has the meeting set on the 10th for ten o''clock ([[w.brothers-in-arms]], 385); Yang Shangkun''s diary has the session 2 to 6 p.m.'
     src:
       c: 707a0683
       rows:
@@ -2150,6 +2274,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 352 n.27a: B, C'
         - 'w.yang-shangkun-riji II, 296: B-C'
         - 'w.deng-xiaoping-nianpu-1904 III, 1764: B'
+        - 'w.brothers-in-arms 385–386: A'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: A'
     tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, vis:only:prc+ussr]
     time_range:
       - 1963-07-12T03:00Z
@@ -2170,7 +2296,7 @@ entries:
     follows:
       - cal.1963-07-12.china-leadership-5
     c: Moscow, afternoon. Fifth meeting. Ponomarev, instead of answering Deng's questions, reads his prepared text on the struggle for peace, for general and complete disarmament, and for a "world without arms, armies or wars."
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 608 ("in the afternoon, the fifth meeting, Ponomarev spoke"; "a world of the three nos" (三无世界)); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (Ponomarev speaks at the fifth session, the same day); [[w.yang-shangkun-riji]], II, 296 (July 13, 1963; Ponomarev speaks, 2 to 5:30 p.m., on July 13); [[w.deng-xiaoping-nianpu-1904]], III, 1764 (July 13, 1963; Deng at the fifth meeting, which the nianpu dates the 13th; Ponomarev 波诺马廖夫 speaks for the Soviet side). Made public: 1999. To check: [[w.jin-1949-1989-niande-zhongguo]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). Names: Deng Xiaoping, Ponomarev.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 608 ("in the afternoon, the fifth meeting, Ponomarev spoke"; "a world of the three nos" (三无世界)); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (Ponomarev speaks at the fifth session, the same day); [[w.yang-shangkun-riji]], II, 296 (July 13, 1963; Ponomarev speaks, 2 to 5:30 p.m., on July 13); [[w.deng-xiaoping-nianpu-1904]], III, 1764 (July 13, 1963; Deng at the fifth meeting, which the nianpu dates the 13th; Ponomarev 波诺马廖夫 speaks for the Soviet side); [[w.brothers-in-arms]], 386 (the Soviet record, under the heading July 13: Ponomarev answers "the second address" of Deng "yesterday": Soviet arms given free to Algeria''s army in 1960–62, 25,000 rifles, 21,000 machine guns and submachine guns, 1,300 howitzers, cannons and mortars; Castro''s speeches unprinted in China). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 352). To check: [[w.jin-1949-1989-niande-zhongguo]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). Names: Deng Xiaoping, Ponomarev.'
     src:
       c: a8be0d8b
       rows:
@@ -2179,6 +2305,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 352 n.27a: B, C'
         - 'w.yang-shangkun-riji II, 296: B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1764: B'
+        - 'w.brothers-in-arms 386: ?'
     tags: [polity:prc, name:deng-xiaoping, name:ponomarev-boris-n, vis:only:prc+ussr]
     time_range:
       - 1963-07-12T09:00Z
@@ -2194,6 +2321,10 @@ entries:
         witness: w.deng-xiaoping-nianpu-1904
         reads: the fifth meeting on July 13 (七月十三日), Ponomarev speaking; the fourth on July 12
         at: III, 1764
+      - unit: A
+        witness: w.brothers-in-arms
+        reads: Ponomarev's speech is headed July 13, the day after Deng's second address ("yesterday")
+        at: '386'
   - id: cal.1963-07-12.china
     when: July 12
     date: '1963-07-12'
@@ -2311,12 +2442,18 @@ entries:
     thread: china-leadership
     also: [china, africa, latin-america]
     c: Peking. Zhou Enlai receives the women's delegations of Asian, African and Latin American countries.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 13, 1963). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 13, 1963); [[w.chen-yi-nianpu]], 974 (July 13, 1963, afternoon; Chen Yi with Zhou receives the women''s delegations and representatives of Asia, Africa and Latin America). Names: Zhou Enlai.'
     src:
       c: 5e7f9aef
       rows:
         - 'w.zhou-enlai-waijiao-huodong 365: all'
+        - 'w.chen-yi-nianpu 974: ?'
     tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1963-07-13T04:00Z
+      - 1963-07-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-13.china-leadership-2
     when: July 13
     date: '1963-07-13'
@@ -2519,6 +2656,13 @@ entries:
         - 'w.yang-shangkun-riji II, 297: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Europe/Moscow
+  - id: cal.1963-07-14.china-leadership-7
+    when: July 14
+    date: '1963-07-14'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 speaks at the first graduation of the University of Science and Technology of China 中国科学技术大学: the graduates to strive and rely on themselves for the country''s scientific modernization; before it he sees their best theses and research, and is photographed with them.'
+    n: '[[w.chen-yi-nianpu]], 975. The words: 会前 (975). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place, ok:fields-time]
   - id: cal.1963-07-15.testing
     when: July 15
     date: '1963-07-15'
@@ -2718,16 +2862,19 @@ entries:
   - id: cal.1963-07-15.china-leadership-3
     when: July 15
     date: '1963-07-15'
+    time: 1963-07-15T07:00Z
     place: peking
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking. Zhou Enlai attends the meeting of the capital's circles against American imperialist aggression in South Vietnam and in support of the Vietnamese people's struggle for peaceful reunification of their country.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 15, 1963). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 15, 1963); [[w.chen-yi-nianpu]], 975 (July 15, 1963, 3 p.m., the Great Hall of the People; Chen Yi at the rally of nine organizations backing the Vietnamese people''s struggle for peaceful reunification). Names: Zhou Enlai.'
     src:
       c: a0894724
       rows:
         - 'w.zhou-enlai-waijiao-huodong 365: all'
+        - 'w.chen-yi-nianpu 975: ?'
     tags: [polity:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-15.china-leadership-4
     when: July 15
     date: '1963-07-15'
@@ -3139,6 +3286,18 @@ entries:
       - 1963-07-16T16:00Z
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1963-07-16.china-leadership-2
+    when: July 16
+    date: '1963-07-16'
+    thread: china-leadership
+    c: Chen Yi 陈毅 gives the awards at the meeting honoring the table-tennis team of the twenty-seventh world championships, and urges them to guard against pride and to raise their class consciousness and skill.
+    n: '[[w.chen-yi-nianpu]], 975. The words: 上午 (975). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-07-15T22:00Z
+      - 1963-07-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-17.civil-rights-bill
     when: July 17
     date: '1963-07-17'
@@ -3285,7 +3444,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow, morning. Seventh meeting. Andropov speaks for the Soviets in Khrushchev''s defense: the Chinese letter of June 14 attacked him without naming him, and the delegation has named him many times; Khrushchev speaks for the whole of the CPSU Central Committee, so that to criticize him is to criticize the Party, and the Chinese wish to part him from it. He speaks of a "world without arms, armies or wars" and has nothing new. Adjourned.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 613–614 ("the morning of July 17"; the OCR has "July 1" for the 17th; he says Khrushchev''s views are the Central Committee''s); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (Andropov speaks, July 17); [[w.yang-shangkun-riji]], II, 298 (July 17, 1963; Andropov speaks, 10 a.m. to 1:45 p.m., a twenty-minute break; the Chinese propose to meet again two days later, the Soviets agreeing); [[w.deng-xiaoping-nianpu-1904]], III, 1765 (July 17, 1963; Deng at the seventh meeting; Andropov speaks for the Soviet side). Made public: 1999. To check: [[w.jin-1949-1989-niande-zhongguo]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). Names: Andropov, Khrushchev.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 613–614 ("the morning of July 17"; the OCR has "July 1" for the 17th; he says Khrushchev''s views are the Central Committee''s); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (Andropov speaks, July 17); [[w.yang-shangkun-riji]], II, 298 (July 17, 1963; Andropov speaks, 10 a.m. to 1:45 p.m., a twenty-minute break; the Chinese propose to meet again two days later, the Soviets agreeing); [[w.deng-xiaoping-nianpu-1904]], III, 1765 (July 17, 1963; Deng at the seventh meeting; Andropov speaks for the Soviet side); [[w.brothers-in-arms]], 386–387 (the Soviet record, printed after Ponomarev''s speech under the heading July 13, the day not given: Andropov: the Chinese long ago ceased consulting; in 1958 they did not tell Moscow in time of the shelling of the coastal islands, decided while Khrushchev was in Peking; never a word on the ambassadors'' talks with the Americans at Warsaw; twice, since May 1958, a change of course on Japan without consulting, despite the treaty of 1950). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 352). Check: whether Andropov''s remarks on the shelling of 1958, the Warsaw talks and Japan ([[w.brothers-in-arms]], 386–387, printed under the heading July 13) are of this meeting. To check: [[w.jin-1949-1989-niande-zhongguo]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). Names: Andropov, Khrushchev.'
     src:
       c: 5e011cff
       rows:
@@ -3294,6 +3453,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 352 n.27a: B, C'
         - 'w.yang-shangkun-riji II, 298: A-C, F'
         - 'w.deng-xiaoping-nianpu-1904 III, 1765: B'
+        - 'w.brothers-in-arms 386–387: ?'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: ?'
     tags: [polity:prc, name:andropov-yuriy-vladimirovich, name:khrushchev-nikita-s, vis:only:prc+ussr]
     time_range:
       - 1963-07-17T03:00Z
@@ -3324,6 +3485,31 @@ entries:
     c: 'Mỹ Tho. July 17 Company 2 of Battalion 514 and Chợ Gạo district''s force beat back a raid by a battalion of the Saigon 7th Division and two Civil Guard companies: 40 killed and a fighter-bomber shot down at the Ông Hậu bridge, Mỹ Tịnh An commune, by the history''s count.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 267.'
     tags: [polity:drv]
+  - id: cal.1963-07-17.china-leadership-3
+    when: July 17
+    date: '1963-07-17'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the delegation of Ceylon's Federation of Communist and Progressive Youth led by 地·比·阿尔维斯.
+    n: '[[w.chen-yi-nianpu]], 976. The words: 上午 (976). Names: Chen Yi.'
+    tags: [polity:prc, polity:ceylon, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-07-16T22:00Z
+      - 1963-07-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-07-17.china-leadership-4
+    when: July 17
+    date: '1963-07-17'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Dongzhimen funeral parlor 东直门外殡仪馆. Chen Yi 陈毅, with his wife Zhang Qian 张茜 and others, mourns the seven Albanians killed in the crash of the Soviet airliner, among them Fejzie Malile 费丽克·马利列, wife of Reiz Malile 雷兹·马利列, the Albanian Ambassador, and three Chinese.
+    n: '[[w.chen-yi-nianpu]], 976. The words: 下午 (976). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi]
+    time_range:
+      - 1963-07-17T04:00Z
+      - 1963-07-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-18.economy
     when: July 18
     date: '1963-07-18'
@@ -3688,7 +3874,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow. The Chinese delegation's fourth speech, by Kang Sheng, charges the Soviet party with breaking the agreement by publishing the open letter during the talks, and takes up the dictatorship of the proletariat and Stalin. Deng Xiaoping, the delegation's head, proposes a recess; on July 20 Suslov, the Soviet head, agrees.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 19, 1963; [[w.lengxi-shinian-lunzhan-1956-1966]], 615–616 (Wu: the eighth meeting, July 19, Kang Sheng speaking: he opens by charging the CPSU with breaking the agreement, made for the talks, that neither side publish, charge the other or disclose the talks, in the Open Letter, which put the differences before the world; then the dictatorship of the proletariat, the CPSU''s "party and state of the whole people" and Stalin, in a text prepared at Peking from several parts; Khrushchev''s praises of Stalin before the Twentieth Congress and abuse after; Suslov red in the face protests, Ponomarev tries several times to break in, Deng Xiaoping lets Kang Sheng finish, and Suslov protests again and rejects the speech, as never at the seven before); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (Kang Sheng speaks, July 19); [[w.yang-shangkun-riji]], II, 299 (July 19, 1963; Kang Sheng speaks, 10 a.m. to 1 p.m., a twenty-minute break; the Chinese propose a recess for the Soviet delegation to consider); [[w.deng-xiaoping-nianpu-1904]], III, 1765 (July 19, 1963; Deng at the eighth meeting; after Kang Sheng speaks he says that the two parties have serious differences, that since the Pravda open letter of July 14 the Soviet press attacks the CCP, that in such conditions agreement on any question, even calm talks, is no longer possible; proposes for the delegation that the talks pause until another agreed time). Made public: 1999. To check: the delegation''s speeches and the Soviet record of the talks; [[w.jin-1949-1989-niande-zhongguo]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). See [[cal.1963-07-18.china-leadership]]. Names: Mao Zedong, Kang Sheng, Deng Xiaoping, Suslov.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 19, 1963; [[w.lengxi-shinian-lunzhan-1956-1966]], 615–616 (Wu: the eighth meeting, July 19, Kang Sheng speaking: he opens by charging the CPSU with breaking the agreement, made for the talks, that neither side publish, charge the other or disclose the talks, in the Open Letter, which put the differences before the world; then the dictatorship of the proletariat, the CPSU''s "party and state of the whole people" and Stalin, in a text prepared at Peking from several parts; Khrushchev''s praises of Stalin before the Twentieth Congress and abuse after; Suslov red in the face protests, Ponomarev tries several times to break in, Deng Xiaoping lets Kang Sheng finish, and Suslov protests again and rejects the speech, as never at the seven before); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (Kang Sheng speaks, July 19); [[w.yang-shangkun-riji]], II, 299 (July 19, 1963; Kang Sheng speaks, 10 a.m. to 1 p.m., a twenty-minute break; the Chinese propose a recess for the Soviet delegation to consider); [[w.deng-xiaoping-nianpu-1904]], III, 1765 (July 19, 1963; Deng at the eighth meeting; after Kang Sheng speaks he says that the two parties have serious differences, that since the Pravda open letter of July 14 the Soviet press attacks the CCP, that in such conditions agreement on any question, even calm talks, is no longer possible; proposes for the delegation that the talks pause until another agreed time); [[w.brothers-in-arms]], 387–390 (the Soviet record, among excerpts printed under the heading July 13 that run on to this meeting: Kang Sheng on Khrushchev''s abuse of Stalin; Suslov''s protest at Peking radio''s propaganda; Deng: "two weeks have gone by," the meeting to adjourn, the time and place of the next to be set by the two Central Committees). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 352). To check: the delegation''s speeches and the Soviet record of the talks; [[w.jin-1949-1989-niande-zhongguo]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). See [[cal.1963-07-18.china-leadership]]. Names: Mao Zedong, Kang Sheng, Deng Xiaoping, Suslov.'
     src:
       c: d4351812
       rows:
@@ -3698,6 +3884,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 352 n.27a: B'
         - 'w.yang-shangkun-riji II, 299: A-C'
         - 'w.deng-xiaoping-nianpu-1904 III, 1765: C'
+        - 'w.brothers-in-arms 387–390: C'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: C'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:kang-sheng, name:deng-xiaoping, name:suslov-mikhail-a, vis:only:prc+ussr]
     variants:
       - unit: C
@@ -3808,6 +3996,32 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 299: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1963-07-19.china-leadership-7
+    when: July 19
+    date: '1963-07-19'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the Japanese dancers' delegation led by Hanayagi Juō 花柳寿应.
+    n: '[[w.chen-yi-nianpu]], 976. The words: 下午 (976). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-07-19T04:00Z
+      - 1963-07-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-07-19.china-leadership-8
+    when: July 19
+    date: '1963-07-19'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives Teramoto Mitsuo 寺本光朗, a standing director of the Japan Afro-Asian Solidarity Committee.
+    n: '[[w.chen-yi-nianpu]], 976. The words: 下午 (976). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-07-19T04:00Z
+      - 1963-07-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-20.opinion
     when: July 20
     date: '1963-07-20'
@@ -3910,7 +4124,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow. Ninth meeting. Deng Xiaoping, by the plan the Center approved, speaks first: from the eight meetings the two parties are seen to differ gravely, the Soviet papers since the Open Letter of July 14 are attacking the CCP, agreement is not to be had and even calm talks are hard to keep; the Chinese delegation proposes that the talks pause until a time agreed, the next to be in Peking, Khrushchev to lead the Soviet delegation. Suslov, regretting that no agreement was reached, agrees to the pause but would not now fix the time and place; Deng says Khrushchev''s grievances, voiced the day before at the rally, may be heard at Peking.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 616–618 ("the ninth meeting on July 20"; Suslov: "the time and place to be settled later"; Deng: "he can say them to us direct"; Wu thinks the Soviets heard Zhou''s telephone call); [[w.macfarquhar-origins-of-the-cultural]], III, 358 (July 20, the one agreement of the two delegations: to adjourn the talks sine die); [[w.yang-shangkun-riji]], II, 299–300 (July 20, 1963; from 10 a.m.: Suslov agrees to end this round for now and to settle a time later, and offers a draft communiqué; a twenty-minute recess on the Chinese request; the passage on "stopping the open polemic" taken out, and agreement; over at 11:30); [[w.deng-xiaoping-nianpu-1904]], III, 1765 (July 20, 1963; morning, 上午; Deng at the ninth meeting; Suslov accepts Deng''s proposal to stop the talks for now and offers a Soviet draft communique; after a break Deng gives the Chinese comments on it and proposes that each side name two persons to revise it); [[w.mao-zedong-zhuan]], V, ch. 71 (the Chinese side proposes a recess July 19; July 20 Suslov agrees; the communiqué says the delegations'' work is adjourned and the time and place of resuming to be fixed later). Made public: 1999. See [[cal.1963-07-19.china-leadership]]. Names: Deng Xiaoping, Suslov, Khrushchev.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 616–618 ("the ninth meeting on July 20"; Suslov: "the time and place to be settled later"; Deng: "he can say them to us direct"; Wu thinks the Soviets heard Zhou''s telephone call); [[w.macfarquhar-origins-of-the-cultural]], III, 358 (July 20, the one agreement of the two delegations: to adjourn the talks sine die); [[w.yang-shangkun-riji]], II, 299–300 (July 20, 1963; from 10 a.m.: Suslov agrees to end this round for now and to settle a time later, and offers a draft communiqué; a twenty-minute recess on the Chinese request; the passage on "stopping the open polemic" taken out, and agreement; over at 11:30); [[w.deng-xiaoping-nianpu-1904]], III, 1765 (July 20, 1963; morning, 上午; Deng at the ninth meeting; Suslov accepts Deng''s proposal to stop the talks for now and offers a Soviet draft communique; after a break Deng gives the Chinese comments on it and proposes that each side name two persons to revise it); [[w.mao-zedong-zhuan]], V, ch. 71 (the Chinese side proposes a recess July 19; July 20 Suslov agrees; the communiqué says the delegations'' work is adjourned and the time and place of resuming to be fixed later). [[w.brothers-in-arms]], 390 (the Soviet record, July 20: Deng: a communique on going on with the meetings agreed; the CPSU delegation invited to Peking; Suslov: a matter for the two Central Committees; Deng and Suslov to meet again "at six"). Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 358). See [[cal.1963-07-19.china-leadership]]. Names: Deng Xiaoping, Suslov, Khrushchev.'
     src:
       c: 5400edf0
       rows:
@@ -3919,6 +4133,8 @@ entries:
         - 'w.yang-shangkun-riji II, 299–300: A-B, E'
         - 'w.deng-xiaoping-nianpu-1904 III, 1765: B'
         - 'w.mao-zedong-zhuan V, ch. 71: E'
+        - 'w.brothers-in-arms 390: A'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: A'
     tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, name:khrushchev-nikita-s, vis:only:prc+ussr]
   - id: cal.1963-07-20.china-leadership-4
     when: July 20
@@ -4116,7 +4332,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking, afternoon. Deng Xiaoping and Peng Zhen, with the delegation, return from Moscow; Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu and others meet them at the airport, with ministers, the NPC and CPPCC standing committees, the army and the satellite parties' ambassadors. Mao then calls a meeting at the Yinian Tang and hears the delegation report on the talks.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 21, 1963; [[w.zhou-enlai-nianpu-1949]], II, 566 (July 21, 1963: the Chinese delegation back in Peking, Mao, Liu Shaoqi, Zhou Enlai and Zhu De meet it at the airport); [[w.zhou-enlai-waijiao-huodong]], 365 (July 21, 1963; 下午, 机场; with Mao Zedong, Liu Shaoqi, Zhu De and Dong Biwu); [[w.lengxi-shinian-lunzhan-1956-1966]], 623–624 (Wu: at the Peking western suburb airport the afternoon after the banquet: Mao, Liu Shaoqi, Zhou Enlai, Zhu De and Dong Biwu, the deputy head of state, with department heads and crowds, some five thousand, a welcome meant to show the Center''s full support; Mao taking the delegation to the Yinian Tang (颐年堂) in Zhongnanhai for tea and talk of the banquet; Mao: "complete victory," that is, no agreement lost to principle; the two parties'' talks halted for the time, as the communiqué says, a tail left, so the relations are not wholly broken, though near the brink; Khrushchev had said of Deng, so small, a heavyweight; Mao: no meeting tomorrow or the day after, since China has already shown its stand on the Open Letter); [[w.macfarquhar-origins-of-the-cultural]], III, 358 (the delegation reaches Beijing on the 21st; Mao and all his senior colleagues meet it, and it briefs Mao and Zhou at Zhongnanhai, the book thinks not Liu Shaoqi); [[w.yang-shangkun-riji]], II, 300 (July 21, 1963; by Omsk and Irkutsk, lunch at Irkutsk; the capital airport at 2:30 p.m. Peking time, Mao, Liu, Zhou and some thousands meeting them; the meeting at Mao''s to 6 p.m.; Yang with the delegation); [[w.deng-xiaoping-nianpu-1904]], III, 1766 (July 21, 1963; afternoon, 下午; Deng and Peng Zhen lead the delegation back to Peking, welcomed by Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu and over five thousand of the capital''s people; Deng then attends Mao''s meeting at which the delegation reports on the talks); [[w.mao-zedong-zhuan]], V, ch. 71 (July 21, afternoon: Deng returns from Moscow; Mao goes to the airport with Liu, Zhou, Zhu De, Dong Biwu and others; over five thousand from the capital welcome the delegation). Made public: 1993. Check: the book has Mao and Zhou, but apparently not Liu Shaoqi, hear the delegation''s briefing (III, 358 n.67, Wu Xiuquan 372–3); the chronologies have Liu at the airport. To check: the delegation''s report; [[w.xiuquan-huiyi-yu-huainian]], 372–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 358 n.67). See [[cal.1963-07-20.china-leadership]]. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 21, 1963; [[w.zhou-enlai-nianpu-1949]], II, 566 (July 21, 1963: the Chinese delegation back in Peking, Mao, Liu Shaoqi, Zhou Enlai and Zhu De meet it at the airport); [[w.zhou-enlai-waijiao-huodong]], 365 (July 21, 1963; 下午, 机场; with Mao Zedong, Liu Shaoqi, Zhu De and Dong Biwu); [[w.lengxi-shinian-lunzhan-1956-1966]], 623–624 (Wu: at the Peking western suburb airport the afternoon after the banquet: Mao, Liu Shaoqi, Zhou Enlai, Zhu De and Dong Biwu, the deputy head of state, with department heads and crowds, some five thousand, a welcome meant to show the Center''s full support; Mao taking the delegation to the Yinian Tang (颐年堂) in Zhongnanhai for tea and talk of the banquet; Mao: "complete victory," that is, no agreement lost to principle; the two parties'' talks halted for the time, as the communiqué says, a tail left, so the relations are not wholly broken, though near the brink; Khrushchev had said of Deng, so small, a heavyweight; Mao: no meeting tomorrow or the day after, since China has already shown its stand on the Open Letter); [[w.macfarquhar-origins-of-the-cultural]], III, 358 (the delegation reaches Beijing on the 21st; Mao and all his senior colleagues meet it, and it briefs Mao and Zhou at Zhongnanhai, the book thinks not Liu Shaoqi); [[w.yang-shangkun-riji]], II, 300 (July 21, 1963; by Omsk and Irkutsk, lunch at Irkutsk; the capital airport at 2:30 p.m. Peking time, Mao, Liu, Zhou and some thousands meeting them; the meeting at Mao''s to 6 p.m.; Yang with the delegation); [[w.deng-xiaoping-nianpu-1904]], III, 1766 (July 21, 1963; afternoon, 下午; Deng and Peng Zhen lead the delegation back to Peking, welcomed by Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu and over five thousand of the capital''s people; Deng then attends Mao''s meeting at which the delegation reports on the talks); [[w.mao-zedong-zhuan]], V, ch. 71 (July 21, afternoon: Deng returns from Moscow; Mao goes to the airport with Liu, Zhou, Zhu De, Dong Biwu and others; over five thousand from the capital welcome the delegation). [[w.chen-yi-nianpu]], 976 (July 21, 1963, afternoon, the Capital Airport; Chen Yi welcomes the delegation back from the talks with the Soviet party). Made public: 1993. Check: the book has Mao and Zhou, but apparently not Liu Shaoqi, hear the delegation''s briefing (III, 358 n.67, Wu Xiuquan 372–3); the chronologies have Liu at the airport. To check: the delegation''s report; [[w.xiuquan-huiyi-yu-huainian]], 372–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 358 n.67). See [[cal.1963-07-20.china-leadership]]. Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Liu Shaoqi, Zhou Enlai, Zhu De, Dong Biwu.'
     src:
       c: 42e69c64
       rows:
@@ -4129,6 +4345,7 @@ entries:
         - 'w.yang-shangkun-riji II, 300: A-D'
         - 'w.deng-xiaoping-nianpu-1904 III, 1766: B'
         - 'w.mao-zedong-zhuan V, ch. 71: A, B'
+        - 'w.chen-yi-nianpu 976: ?'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:deng-xiaoping, name:peng-zhen, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:dong-biwu, vis:only:prc]
     time_range:
       - 1963-07-21T04:00Z
@@ -4161,6 +4378,13 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVII, 18 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 18 n.1b: all'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:gomulka-wladyslaw, name:cyrankiewicz-jozef, polity:poland]
+  - id: cal.1963-07-21.china-leadership-4
+    when: July 21
+    date: '1963-07-21'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Adam Rapacki, Poland's Foreign Minister, on the nineteenth anniversary of Poland's Rebirth Day.
+    n: '[[w.chen-yi-nianpu]], 976. Names: Chen Yi, Rapacki.'
+    tags: [polity:prc, polity:poland, name:chen-yi, name:rapacki-adam, ok:fields-place]
   - id: cal.1963-07-22.railroads
     when: July 22
     date: '1963-07-22'
@@ -4288,6 +4512,43 @@ entries:
         - 'w.yang-shangkun-riji II, 300: B'
         - 'w.mao-zedong-zhuan V, ch. 71: B'
     tags: [polity:prc]
+  - id: cal.1963-07-22.china-leadership-5
+    when: July 22
+    date: '1963-07-22'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 and Lu Dingyi 陆定一 receive Huang Zhensheng 黄振声, head of Xinhua''s Prague bureau, and the correspondents Zhang Tongfen 张统芬 and Lu Haoqing 陆郝庆, whose recall the Czechoslovak government demanded: their expulsion shows they worked well; truth cannot be blockaded.'
+    n: '[[w.chen-yi-nianpu]], 976. The words: 下午 (976). Names: Chen Yi, Lu Dingyi.'
+    tags: [polity:prc, polity:czechoslovakia, name:chen-yi, name:lu-dingyi, ok:fields-place]
+    time_range:
+      - 1963-07-22T04:00Z
+      - 1963-07-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-07-22.china-leadership-6
+    when: July 22
+    date: '1963-07-22'
+    thread: china-leadership
+    also: [latin-america]
+    c: Chen Yi 陈毅 receives Mrs. Ivone Hein 伊伏内·海恩 of Rio de Janeiro's *Última Hora* 《最后一点钟报》 and answers her questions.
+    n: '[[w.chen-yi-nianpu]], 976. The words: 下午 (976). Names: Chen Yi.'
+    tags: [polity:prc, polity:brazil, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-07-22T04:00Z
+      - 1963-07-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-07-22.china-leadership-7
+    when: July 22
+    date: '1963-07-22'
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the reception of Jerzy Knothe 耶日·克诺泰, the Polish Ambassador, at the embassy for Poland's Rebirth Day.
+    n: '[[w.chen-yi-nianpu]], 976. The words: 晚上 (976). Names: Chen Yi.'
+    tags: [polity:prc, polity:poland, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-07-22T11:00Z
+      - 1963-07-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-23.program
     when: July 23
     date: '1963-07-23'
@@ -4450,13 +4711,19 @@ entries:
     thread: china-leadership
     also: [china, middle-east]
     c: Peking. Zhou Enlai attends the national day reception given by the UAR Embassy's chargé d'affaires.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 23, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 291 (July 23, 1963; the reception, Zhou and Chen Yi attending; Chen Yi speaks: the joint exercise of the U.S., British and Indian air forces to be held in India is a step by India toward reliance on imperialism and makes tension on the boundary, and the Colombo conference states should note it; it threatens India''s neighbors, Pakistan above all; China''s resolve to settle the boundary question peacefully will not change). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 23, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 291 (July 23, 1963; the reception, Zhou and Chen Yi attending; Chen Yi speaks: the joint exercise of the U.S., British and Indian air forces to be held in India is a step by India toward reliance on imperialism and makes tension on the boundary, and the Colombo conference states should note it; it threatens India''s neighbors, Pakistan above all; China''s resolve to settle the boundary question peacefully will not change); [[w.chen-yi-nianpu]], 976–977 (July 23, 1963, evening, the Peking Hotel; Chen Yi speaks: the joint air exercise of India, the United States and Britain in India a grave step toward tension on the border, for the Colombo countries'' attention, and a threat to India''s neighbors, Pakistan above all; China''s resolve for a peaceful settlement unchanged). Names: Zhou Enlai.'
     src:
       c: e76100a5
       rows:
         - 'w.zhou-enlai-waijiao-huodong 365: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 291: B'
+        - 'w.chen-yi-nianpu 976–977: ?'
     tags: [polity:prc, polity:uar, name:zhou-enlai]
+    time_range:
+      - 1963-07-23T11:00Z
+      - 1963-07-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-23.china-leadership-4
     when: July 23
     date: '1963-07-23'
@@ -4464,12 +4731,18 @@ entries:
     thread: china-leadership
     also: [china, cuba]
     c: Peking. Zhou Enlai attends the capital's meeting celebrating the 10th anniversary of the Cuban people's armed uprising, and receives the Cuban national culture commission's delegation, trade union delegation and youth and student delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 23, 1963). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 23, 1963); [[w.chen-yi-nianpu]], 977 (July 25, 1963, 3 p.m.; Chen Yi at the meeting of thirteen national organizations, the China–Cuba Friendship Association among them). Names: Zhou Enlai.'
     src:
       c: f2b195ef
       rows:
         - 'w.zhou-enlai-waijiao-huodong 365: all'
+        - 'w.chen-yi-nianpu 977: ?'
     tags: [polity:prc, polity:cuba, name:zhou-enlai]
+    variants:
+      - unit: B
+        witness: w.chen-yi-nianpu
+        reads: The meeting of thirteen national people's organizations for the tenth anniversary of the Cuban rising is held on July 25, at 3 p.m.
+        at: '977'
   - id: cal.1963-07-23.china-leadership-5
     when: July 23
     date: '1963-07-23'
@@ -4477,12 +4750,18 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Peking. Zhou Enlai receives the Indonesian air force study group.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 23, 1963). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 23, 1963); [[w.chen-yi-nianpu]], 977 (July 25, 1963, afternoon; Chen Yi with Zhou receives the whole study group, led by Col. 苏班邦, head of the air force''s training command). Names: Zhou Enlai.'
     src:
       c: 9386af8e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 365: all'
+        - 'w.chen-yi-nianpu 977: ?'
     tags: [polity:prc, polity:indonesia, name:zhou-enlai]
+    variants:
+      - unit: B
+        witness: w.chen-yi-nianpu
+        reads: Zhou Enlai and Chen Yi receive the Indonesian air force study group on the afternoon of July 25
+        at: '977'
   - id: cal.1963-07-23.china-leadership-6
     when: July 23
     date: '1963-07-23'
@@ -4644,6 +4923,31 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1766: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-07-24.china-leadership-4
+    when: July 24
+    date: '1963-07-24'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Lu Dingyi 陆定一 give an informal dinner for Huang Zhensheng 黄振声, Zhang Tongfen 张统芬 and Lu Haoqing 陆郝庆, sent home at the Czechoslovak government's demand, and for 梅文岗, 鲁培新 and 王耀同 of the embassy in Moscow, the graduate student 刘道玉 and 姚毅 of a research institute, sent home at the Soviet government's.
+    n: '[[w.chen-yi-nianpu]], 977. The words: 中午 (977). Made public: 1995. Names: Chen Yi, Lu Dingyi.'
+    tags: [polity:prc, polity:czechoslovakia, polity:ussr, name:chen-yi, name:lu-dingyi, ok:fields-place, vis:only:prc]
+    time_range:
+      - 1963-07-24T04:00Z
+      - 1963-07-24T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1963-07-24.china-leadership-5
+    when: July 24
+    date: '1963-07-24'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Peking Hotel 北京饭店. Chen Yi 陈毅 speaks at the reception of 阿卜杜勒·穆塔列布·阿明, the Iraqi Ambassador, for the fifth anniversary of the Republic.
+    n: '[[w.chen-yi-nianpu]], 977. The words: 晚上 (977). Names: Chen Yi.'
+    tags: [polity:prc, polity:iraq, name:chen-yi]
+    time_range:
+      - 1963-07-24T11:00Z
+      - 1963-07-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-25.testing
     when: July 25
     date: '1963-07-25'
@@ -4651,7 +4955,7 @@ entries:
     place: moscow
     thread: testing
     c: Moscow. The test ban treaty initialed, 7:15 p.m. Moscow time. Underground tests left out; the non-aggression pact left for later.
-    n: 'Joint Statement by the Heads of Delegations to the Moscow Nuclear Test Ban Meeting, [1963 Pub. Papers 599](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=657) (July 25, 1963). [FRUS 1961–63, VII, doc. 353](https://history.state.gov/historicaldocuments/frus1961-63v07/d353). [[w.reeves-president-kennedy]], 548–49; [[w.macfarquhar-maos-last-revolution]], 7 (initialed July 25); [[w.macfarquhar-origins-of-the-cultural]], III, 358 (the partial test-ban treaty initialled in Moscow by Gromyko, Harriman and Hailsham on July 25). [[w.sorensen-kennedy]], 736. To check: Harriman to Rusk, cable 311, July 24, 1963, Harriman Papers, box 540, Library of Congress (cited by [[w.reeves-president-kennedy]], 548); [[w.beschloss-crisis-years]], 622–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 358 n.68). See [[cal.1963-07-15.testing]]. Names: Harriman, Hailsham, Gromyko.'
+    n: 'Joint Statement by the Heads of Delegations to the Moscow Nuclear Test Ban Meeting, [1963 Pub. Papers 599](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=657) (July 25, 1963). [FRUS 1961–63, VII, doc. 353](https://history.state.gov/historicaldocuments/frus1961-63v07/d353). [[w.reeves-president-kennedy]], 548–49; [[w.macfarquhar-maos-last-revolution]], 7 (initialed July 25); [[w.macfarquhar-origins-of-the-cultural]], III, 358 (the partial test-ban treaty initialled in Moscow by Gromyko, Harriman and Hailsham on July 25); [[w.pleshakov-nikita-khrushchev-and-sino]], 226 (Moscow, July 25, 1963: the Soviet Union, the United States and Britain sign a partial test ban treaty). [[w.sorensen-kennedy]], 736. To check: Harriman to Rusk, cable 311, July 24, 1963, Harriman Papers, box 540, Library of Congress (cited by [[w.reeves-president-kennedy]], 548); [[w.beschloss-crisis-years]], 622–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 358 n.68). See [[cal.1963-07-15.testing]]. Names: Harriman, Hailsham, Gromyko.'
     src:
       c: 7836dc96
       rows:
@@ -4663,7 +4967,13 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 7: B'
         - 'w.macfarquhar-origins-of-the-cultural III, 358: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 358 n.68: B'
+        - 'w.pleshakov-nikita-khrushchev-and-sino 226: A'
     tags: [name:harriman-w-averell, name:hailsham-quinton-m-h, name:gromyko-andrei]
+    variants:
+      - unit: B
+        witness: w.pleshakov-nikita-khrushchev-and-sino
+        reads: 'the treaty signed July 25 (the entry: initialed)'
+        at: '226'
   - id: cal.1963-07-25.civil-rights-bill
     when: July 25
     date: '1963-07-25'
@@ -4858,6 +5168,30 @@ entries:
       - 1963-07-25T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-07-25.china-leadership-7
+    when: July 25
+    date: '1963-07-25'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 speaks at the farewell banquet of Rong Gaotang 荣高棠, Vice-Chairman of the State Physical Culture and Sports Commission, for the Indonesian sports delegation led by 宋科诺, first assistant to the Minister of Sport.
+    n: '[[w.chen-yi-nianpu]], 977. The words: 晚上 (977). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-07-25T11:00Z
+      - 1963-07-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-07-25.china-leadership-8
+    when: July 25
+    date: '1963-07-25'
+    thread: china-leadership
+    c: 'The Politburo circulates a report: the revolution to be intensified on the ideological and cultural fronts.'
+    n: '[[w.brothers-in-arms]], 376 (the editor''s headnote). Made public: 1998.'
+    src:
+      c: c9428ed9
+      rows:
+        - 'w.brothers-in-arms 376: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1963-07-26.testing
     when: July 26
     date: '1963-07-26'
@@ -5031,11 +5365,12 @@ entries:
     thread: china-leadership
     also: [china, korea]
     c: Peking. Zhou Enlai attends the capital's meeting celebrating the 10th anniversary of victory in the Korean fatherland liberation war.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 26, 1963). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 26, 1963); [[w.chen-yi-nianpu]], 977 (July 26, 1963; Chen Yi at the meeting of twelve national organizations). Names: Zhou Enlai.'
     src:
       c: 24623aac
       rows:
         - 'w.zhou-enlai-waijiao-huodong 365: all'
+        - 'w.chen-yi-nianpu 977: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai]
   - id: cal.1963-07-26.china-leadership-4
     when: July 26
@@ -5044,12 +5379,18 @@ entries:
     thread: china-leadership
     also: [china, korea]
     c: Peking. Zhou Enlai and Deng Xiaoping receive the delegation of the DPRK National Committee for the Defense of Peace and the Korean Afro-Asian Solidarity Committee, headed by Kim Kuk-p'yo.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 26, 1963). Names: Zhou Enlai, Deng Xiaoping. Check: the head''s name, 金国标 in the book.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 365 (July 26, 1963); [[w.chen-yi-nianpu]], 977 (July 26, 1963, afternoon; Chen Yi present when Zhou and Deng receive the delegation led by 金国熏). Names: Zhou Enlai, Deng Xiaoping. Check: the head''s name, 金国标 in the book.'
     src:
       c: 3b5042c6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 365: all'
+        - 'w.chen-yi-nianpu 977: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, name:deng-xiaoping]
+    time_range:
+      - 1963-07-26T04:00Z
+      - 1963-07-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-26.china-leadership-5
     when: July 26
     date: '1963-07-26'
@@ -5070,12 +5411,18 @@ entries:
     thread: china-leadership
     also: [china, cuba]
     c: Peking. Zhou Enlai attends the reception given by the Cuban Embassy's chargé d'affaires for the 10th anniversary of the Cuban people's armed uprising.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 366 (July 26, 1963). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 366 (July 26, 1963); [[w.chen-yi-nianpu]], 978 (July 26, 1963, evening; Chen Yi speaks at the reception of the chargé, 雷希诺·佩德罗苏: winning and defending a revolution take hard and repeated struggle; American imperialism the main bastion of reaction; imperialists fanning the flames inside the international communist movement). Names: Zhou Enlai.'
     src:
       c: e4884930
       rows:
         - 'w.zhou-enlai-waijiao-huodong 366: all'
+        - 'w.chen-yi-nianpu 978: ?'
     tags: [polity:prc, polity:cuba, name:zhou-enlai]
+    time_range:
+      - 1963-07-26T11:00Z
+      - 1963-07-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-26.china-leadership-7
     when: July 26
     date: '1963-07-26'
@@ -5127,6 +5474,19 @@ entries:
       - 1963-07-26T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-07-26.china-leadership-10
+    when: July 26
+    date: '1963-07-26'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 receives Mohammad Isa 穆罕默德·伊萨, vice-chairman of the Indonesian National Party and rector of Sriwijaya University, his wife and their children.
+    n: '[[w.chen-yi-nianpu]], 977. The words: 上午 (977). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1963-07-25T22:00Z
+      - 1963-07-26T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-27.vietnam-hanoi
     when: July 27
     date: '1963-07-27'
@@ -5148,12 +5508,18 @@ entries:
     thread: china-leadership
     also: [china, korea]
     c: Peking. Zhou Enlai attends the reception given by the DPRK Embassy's chargé d'affaires for the 10th anniversary of victory in the Korean fatherland liberation war.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 366 (July 27, 1963). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 366 (July 27, 1963); [[w.chen-yi-nianpu]], 978 (July 27, 1963, evening; Chen Yi speaks at the chargé Chŏng Pong-gyu''s banquet for the tenth anniversary of victory in the Korean war: the United States still holds South Korea; modern revisionists'' intrigues; uphold principle, not split). Names: Zhou Enlai.'
     src:
       c: 6956b04e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 366: all'
+        - 'w.chen-yi-nianpu 978: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai]
+    time_range:
+      - 1963-07-27T11:00Z
+      - 1963-07-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-27.china
     when: July 27
     date: '1963-07-27'
@@ -5232,6 +5598,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1767: all'
     tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, name:mao-zedong, vis:only:prc]
+  - id: cal.1963-07-27.china-leadership-8
+    when: July 27
+    date: '1963-07-27'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京, the Great Hall of the People 人民大会堂. Chen Yi 陈毅 speaks at the meeting of the capital''s press and organs welcoming Huang Zhensheng 黄振声, Zhang Tongfen 张统芬 and Lu Haoqing 陆郝庆, sent home at Czechoslovakia''s demand: they did their task well; the Chinese party stands for upholding principle, removing differences and strengthening unity against the common enemy.'
+    n: '[[w.chen-yi-nianpu]], 978. The words: 下午 (978). Names: Chen Yi.'
+    tags: [polity:prc, polity:czechoslovakia, name:chen-yi]
+    time_range:
+      - 1963-07-27T04:00Z
+      - 1963-07-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-07-28.opinion-5
     when: July 28
     date: '1963-07-28'
@@ -5725,7 +6104,7 @@ entries:
     thread: china
     also: [testing]
     c: 'Peking. The government''s statement rejects the test ban treaty: Moscow''s surrender to American imperialism. It proposes a conference of the heads of government of all countries on the complete prohibition and destruction of nuclear weapons.'
-    n: '[[w.zhai-china-and-the-vietnam]], 124; [[w.zedong-mao-zedong-nianpu]], V, July 31, 1963 (the statement: the treaty "a big fraud"; a conference of the heads of government of all countries); [[w.zhou-enlai-nianpu-1949]], II, 568 (July 25 and July 31, 1963: the nianpu notes under July 25 the treaty on banning tests in the air, space and under water, which leaves out underground tests, signed at Moscow by the Soviet Union, the United States and Britain; the Chinese government statement of July 31, drafted under Zhou Enlai, calls for the comprehensive, thorough and resolute ban and destruction of nuclear arms and a summit of the governments, and exposes the treaty as discriminatory); [[w.lengxi-shinian-lunzhan-1956-1966]], 629–630 (Wu: the Chinese government''s statement of July 31 says the treaty is meant to consolidate the three powers'' nuclear monopoly and to bind the hands of every peace-loving state under nuclear threat; that Khrushchev, once against a partial ban, has made a turn of 180 degrees, betraying the Soviet and Chinese peoples'' interests and surrendering to American imperialism; and it repeats China''s stand for the complete, thorough and resolute prohibition and destruction of nuclear weapons); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 291–292 (July 31, 1963; the Chinese government''s statement on the partial nuclear test ban treaty signed at Moscow on July 25 by the U.S., Britain and the Soviet Union: they mean through the treaty to consolidate their nuclear monopoly and bind all countries threatened by nuclear weapons; the treaty, which separates stopping nuclear tests from the complete prohibition of nuclear weapons and makes it lawful for the three powers to go on making, stockpiling and using them, is a big fraud on the world''s peoples; China firmly opposes it and holds that nuclear weapons must be completely prohibited and destroyed, by practical, effective steps, to prevent nuclear war); [[w.yang-shangkun-riji]], II, 302 (July 31, 1963; the government''s statement published); [[w.mao-zedong-zhuan]], V, ch. 71 (the statement proposes that all states, with or without nuclear arms, declare the complete, thorough prohibition and destruction of nuclear weapons). Washington''s knowledge: [FRUS 1961–63, XXII, doc. 183](https://history.state.gov/historicaldocuments/frus1961-63v22/d183) (Cabot, Warsaw, Aug. 7: Wang Ping-nan opens the 116th meeting on the statement; Cabot regrets Peking''s rejection of the treaty). [[w.jian-zhou-enlai]], 516 (Peking condemns the treaty as binding others'' arms and legs while the nuclear powers go on building, storing and using the weapons). Check: the nianpu gives the treaty as signed July 25; the day of signing. To check: the statement, *Renmin ribao*, July 31, 1963 (cited by [[w.zhai-china-and-the-vietnam]], 124 n.52); [[w.xie-yixian-zhongguo-waijiao-shi-1949]], 302–303 (cited by [[w.jian-zhou-enlai]], 516 n.104). See [[cal.1963-07-25.testing]].'
+    n: '[[w.zhai-china-and-the-vietnam]], 124; [[w.zedong-mao-zedong-nianpu]], V, July 31, 1963 (the statement: the treaty "a big fraud"; a conference of the heads of government of all countries); [[w.zhou-enlai-nianpu-1949]], II, 568 (July 25 and July 31, 1963: the nianpu notes under July 25 the treaty on banning tests in the air, space and under water, which leaves out underground tests, signed at Moscow by the Soviet Union, the United States and Britain; the Chinese government statement of July 31, drafted under Zhou Enlai, calls for the comprehensive, thorough and resolute ban and destruction of nuclear arms and a summit of the governments, and exposes the treaty as discriminatory); [[w.lengxi-shinian-lunzhan-1956-1966]], 629–630 (Wu: the Chinese government''s statement of July 31 says the treaty is meant to consolidate the three powers'' nuclear monopoly and to bind the hands of every peace-loving state under nuclear threat; that Khrushchev, once against a partial ban, has made a turn of 180 degrees, betraying the Soviet and Chinese peoples'' interests and surrendering to American imperialism; and it repeats China''s stand for the complete, thorough and resolute prohibition and destruction of nuclear weapons); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 291–292 (July 31, 1963; the Chinese government''s statement on the partial nuclear test ban treaty signed at Moscow on July 25 by the U.S., Britain and the Soviet Union: they mean through the treaty to consolidate their nuclear monopoly and bind all countries threatened by nuclear weapons; the treaty, which separates stopping nuclear tests from the complete prohibition of nuclear weapons and makes it lawful for the three powers to go on making, stockpiling and using them, is a big fraud on the world''s peoples; China firmly opposes it and holds that nuclear weapons must be completely prohibited and destroyed, by practical, effective steps, to prevent nuclear war); [[w.yang-shangkun-riji]], II, 302 (July 31, 1963; the government''s statement published); [[w.mao-zedong-zhuan]], V, ch. 71 (the statement proposes that all states, with or without nuclear arms, declare the complete, thorough prohibition and destruction of nuclear weapons). Washington''s knowledge: [FRUS 1961–63, XXII, doc. 183](https://history.state.gov/historicaldocuments/frus1961-63v22/d183) (Cabot, Warsaw, Aug. 7: Wang Ping-nan opens the 116th meeting on the statement; Cabot regrets Peking''s rejection of the treaty). [[w.jian-zhou-enlai]], 516 (Peking condemns the treaty as binding others'' arms and legs while the nuclear powers go on building, storing and using the weapons); [[w.pleshakov-nikita-khrushchev-and-sino]], 226 ("six days later" Peking calls the treaty a "dirty fraud" to keep the nuclear monopoly). Check: the nianpu gives the treaty as signed July 25; the day of signing. To check: the statement, *Renmin ribao*, July 31, 1963 (cited by [[w.zhai-china-and-the-vietnam]], 124 n.52); [[w.xie-yixian-zhongguo-waijiao-shi-1949]], 302–303 (cited by [[w.jian-zhou-enlai]], 516 n.104); [[w.chang-friends-and-enemies]], 249 (cited by [[w.pleshakov-nikita-khrushchev-and-sino]], 226 n.1). See [[cal.1963-07-25.testing]].'
     src:
       c: 5483597a
       rows:
@@ -5739,6 +6118,7 @@ entries:
         - 'w.yang-shangkun-riji II, 302: A'
         - 'w.mao-zedong-zhuan V, ch. 71: ?'
         - 'w.jian-zhou-enlai 516: ?'
+        - 'w.pleshakov-nikita-khrushchev-and-sino 226: ?'
     time_range:
       - 1963-07-31T01:00Z
       - 1963-07-31T09:00Z
@@ -6511,3 +6891,49 @@ entries:
       rows:
         - 'w.jian-zhou-enlai 516: all'
     tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+  - id: cal.1963-07-31.china-leadership-5
+    when: July 31
+    date: '1963-07-31'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Military Museum of the Chinese People's Revolution 中国人民革命军事博物馆. Chen Yi 陈毅 at the PLA General Political Department's 中国人民解放军总政治部 gala for the army's thirty-sixth anniversary.
+    n: '[[w.chen-yi-nianpu]], 978. The words: 晚上 (978). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1963-07-31T11:00Z
+      - 1963-07-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-07-31.china-leadership-6
+    when: July 31
+    date: '1963-07-31'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Chen Yi 陈毅, with Zhou Enlai 周恩来, Li Xiannian 李先念 and Luo Ruiqing 罗瑞卿, receives the representatives at the General Political Department's Army Day gala, of the "four-good" companies and units, the "five-good" soldiers, the marksmen, the militia and the families of soldiers and martyrs.
+    n: '[[w.chen-yi-nianpu]], 978–979. The words: 晚上 (978–979). Names: Chen Yi, Zhou Enlai, Li Xiannian, Luo Ruiqing.'
+    tags: [polity:prc, name:chen-yi, name:zhou-enlai, name:li-xiannian, name:luo-ruiqing]
+    time_range:
+      - 1963-07-31T11:00Z
+      - 1963-07-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-07.china-leadership-4
+    when: July
+    date: 1963-07
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes the board "Memorial hall of the former headquarters of the New Fourth Army" 新四军军部旧址纪念馆 for the former headquarters at Yunling 云岭, southern Anhui 皖南.
+    n: '[[w.chen-yi-nianpu]], 979. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+  - id: cal.1963-07.soviet-union
+    when: July, after the 20th
+    date: 1963-07
+    at: after 1963-07-20
+    thread: soviet-union
+    also: [china, testing]
+    c: Khrushchev informs Mao that Moscow expects to sign a treaty with the United States and Britain on test bans and nonproliferation, the Chinese warnings notwithstanding.
+    n: '[[w.westad-introduction]], 28 ("immediately after the breakdown of the meeting"). Made public: 1968 ([[w.gittings-survey-of-the-sino]], 186–87, cited by [[w.westad-introduction]], 28 n.102). To check: [[w.gittings-survey-of-the-sino]], 186–87 (cited by [[w.westad-introduction]], 28 n.102). Names: Khrushchev, Mao Zedong.'
+    src:
+      c: b9d0e4a3
+      rows:
+        - 'w.westad-introduction 28: all'
+    tags: [polity:ussr, polity:prc, name:khrushchev-nikita-s, name:mao-zedong, ok:fields-place]

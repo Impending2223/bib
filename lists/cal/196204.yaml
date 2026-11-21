@@ -724,6 +724,19 @@ entries:
         - 'w.dikotter-maos-great-famine 299: all'
         - 'via w.dikotter-maos-great-famine 299 n.56: all'
     tags: [polity:prc, vis:only:prc, name:li-jingquan]
+  - id: cal.1962-04-05.china-leadership-5
+    when: Apr. 5
+    date: '1962-04-05'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Chervonenko, on Moscow's instructions, asks the Chinese Central Committee to see Mao, or someone Mao names, to tell the Chinese of Gromyko's talks with Rusk on Germany.
+    n: '[[w.brothers-in-arms]], 375 (the Soviet record of Apr. 9, 1962). Made public: 1998. Names: Chervonenko, Mao Zedong, Gromyko, Rusk.'
+    src:
+      c: f8008514
+      rows:
+        - 'w.brothers-in-arms 375: all'
+        - 'via x.1962-04-09.chervonenko-deng-record-avprf: all'
+    tags: [polity:ussr, polity:prc, vis:only:ussr+prc, name:chervonenko-stepan-v, name:mao-zedong, name:gromyko-andrei, name:rusk-dean, ok:fields-place]
   - id: cal.1962-04-06.opinion
     when: Apr. 6
     date: '1962-04-06'
@@ -888,17 +901,22 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: 'The Chinese Central Committee''s reply to the CPSU letter of Feb. 22 is handed to the Soviet ambassador at Peking and, the same day, by the Chinese ambassador at Moscow to the CPSU Central Committee. It proposes a conference of the brother parties in five steps: CPSU–CCP talks, CPSU–Albanian talks, a meeting of the CPSU, Albania and the CCP, the twelve ruling parties, then the 81.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 494 (the Standing Committee settled the text in early April after a week of drafting; "formally sent" Apr. 7, to the Soviet ambassador in China and by the Chinese ambassador in the USSR to the CPSU Central Committee). Made public: 1999. See [[cal.1962-04-07.china-leadership]]. Check: the hour and the Chinese ambassador at Moscow are not named; the nianpu does not date the delivery.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 494 (the Standing Committee settled the text in early April after a week of drafting; "formally sent" Apr. 7, to the Soviet ambassador in China and by the Chinese ambassador in the USSR to the CPSU Central Committee); [[w.brothers-in-arms]], 375 (the letter of Apr. 7: the two parties must close ranks and settle their problems in unity). Made public: 1998 ([[w.brothers-in-arms]], 375, the Soviet record of Apr. 9, 1962). See [[cal.1962-04-07.china-leadership]]. Check: the hour and the Chinese ambassador at Moscow are not named; the nianpu does not date the delivery.'
     src:
       c: 041c25d2
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 494: all'
+        - 'w.brothers-in-arms 375: ?'
     tags: [polity:prc, vis:only:prc+ussr]
     variants:
       - unit: A
         witness: w.yang-shangkun-riji
         reads: 'Apr. 9, 10 a.m.: Deng Xiaoping and Yang Shangkun give Chervonenko the CCP''s reply to the CPSU letter; he hands over the record of Gromyko''s talks with Rusk'
         at: II, 142, Apr. 9, 1962
+      - unit: A
+        witness: w.brothers-in-arms
+        reads: the letter of Apr. 7 handed to Chervonenko by Deng Xiaoping on Apr. 9 (the Soviet record)
+        at: '375'
   - id: cal.1962-04-07.china-leadership-2
     when: Apr. 7
     date: '1962-04-07'
@@ -1103,16 +1121,19 @@ entries:
     when: Apr. 9
     date: '1962-04-09'
     time: 1962-04-09T02:00Z
+    place: peking
     thread: china-leadership
     also: [soviet-union]
     c: Deng Xiaoping 邓小平 and Yang Shangkun 杨尚昆, 10 a.m., give Chervonenko 契尔沃年科 the Chinese Central Committee's reply to the CPSU's letter; he hands them the record of Gromyko's 葛罗米柯 talks with Rusk 腊斯克.
-    n: '[[w.yang-shangkun-riji]], II, 142 (Apr. 9, 1962; notes 1–2: Gromyko, Rusk); [[w.deng-xiaoping-nianpu-1904]], III, 1699–1700 (Apr. 9, 1962; morning; Deng gives Chervonenko the reply of Apr. 7: unity needs problems solved, solved by meeting; a meeting held well or not at all. Chervonenko on the CPSU''s plenum and Soviet farming; the record of Gromyko''s talks with Rusk at Geneva (footnote 1: Gromyko, then Soviet Foreign Minister; Rusk, Secretary of State)); [[w.mao-zedong-zhuan]], V, ch. 70 n.3 (Apr. 9, morning: Deng Xiaoping gives Chervonenko the Center''s reply: its core, that unity needs the problems settled and the way to settle them is a meeting; it proposes a new conference of the world''s Communist and workers'' parties; the day and the hour as the book gives them). The words: 上午10时 (II, 142). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Record of Deng Xiaoping''s 邓小平 talk with Chervonenko 契尔沃年科, Apr. 9, 1962, handing over the Central Committee''s reply (谈话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.3). Names: Deng Xiaoping, Yang Shangkun, Chervonenko, Gromyko, Rusk. Check: [[cal.1962-04-07.soviet-union]] has the reply handed to the Soviet ambassador at Peking on Apr. 7.'
+    n: '[[w.yang-shangkun-riji]], II, 142 (Apr. 9, 1962; notes 1–2: Gromyko, Rusk); [[w.deng-xiaoping-nianpu-1904]], III, 1699–1700 (Apr. 9, 1962; morning; Deng gives Chervonenko the reply of Apr. 7: unity needs problems solved, solved by meeting; a meeting held well or not at all. Chervonenko on the CPSU''s plenum and Soviet farming; the record of Gromyko''s talks with Rusk at Geneva (footnote 1: Gromyko, then Soviet Foreign Minister; Rusk, Secretary of State)); [[w.mao-zedong-zhuan]], V, ch. 70 n.3 (Apr. 9, morning: Deng Xiaoping gives Chervonenko the Center''s reply: its core, that unity needs the problems settled and the way to settle them is a meeting; it proposes a new conference of the world''s Communist and workers'' parties; the day and the hour as the book gives them). The words: 上午10时 (II, 142). [[w.brothers-in-arms]], 375 (the Soviet record, Apr. 9: in the Central Committee''s building; Chervonenko on the CPSU''s March plenum; Deng hands him the letter of Apr. 7, the answer to the CPSU''s of Feb. 22, without reading it out for its length: the two parties must close ranks and settle their problems in unity; the Chinese had named Deng after four days'' silence on Chervonenko''s request of Apr. 5). Made public: 1998 ([[w.brothers-in-arms]], 375, the Soviet record, excerpted). To check: Record of Deng Xiaoping''s 邓小平 talk with Chervonenko 契尔沃年科, Apr. 9, 1962, handing over the Central Committee''s reply (谈话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.3). Names: Deng Xiaoping, Yang Shangkun, Chervonenko, Gromyko, Rusk. Check: [[cal.1962-04-07.soviet-union]] has the reply handed to the Soviet ambassador at Peking on Apr. 7.'
     src:
       c: 49e601b0
       rows:
         - 'w.yang-shangkun-riji II, 142: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1699–1700: ?'
         - 'w.mao-zedong-zhuan V, ch. 70 n.3: ?'
+        - 'w.brothers-in-arms 375: ?'
+        - 'via x.1962-04-09.chervonenko-deng-record-avprf: ?'
     tags: [polity:prc, name:deng-xiaoping, name:chervonenko-stepan-v, name:gromyko-andrei, name:rusk-dean, vis:only:prc+ussr]
     time_zone: Asia/Shanghai
   - id: cal.1962-04-09.vietnam-hanoi
@@ -2212,7 +2233,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Sixty thousand Kazakhs in three counties along the Soviet border, Tacheng, Yumin and Huocheng, start moving into the Soviet Union.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 239; [[w.yang-jisheng-mubei]], II, 1174–1175 (spring–summer 1962: over 60,000 border people of the counties directly under the Ili Kazakh Autonomous Prefecture and of the Tacheng district, with children, herds, tools and carts, flee to the Soviet Union; no day); [[w.dikotter-maos-great-famine]], 239 n.46, n.47 (some 64,000 had crossed into the Soviet Union by May; half the population of Tacheng marched to the border). To check: [[w.dangdai-zhongguo-minzu-gongzuo]], 161 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 239 n.34a); [[w.dreyer-pla-and-regionalism-in]], 43–44 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 239 n.34c); RGANI, Moscow, May 22, 1962, 5-30-401, p. 39; Ministry of Foreign Affairs Archives, Peking, May 10, 1962, 118-1100-9, pp. 71–9; RGANI, Moscow, Apr. 28, 1962, 3-18-53, pp. 2–3 and 8–12 (cited by [[w.dikotter-maos-great-famine]], 239 n.46, n.47, n.48). Check: the number; Dreyer, quoting one Chinese account, has as many as 70,000 fled ([[w.dreyer-pla-and-regionalism-in]], 43–44).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 239; [[w.yang-jisheng-mubei]], II, 1174–1175 (spring–summer 1962: over 60,000 border people of the counties directly under the Ili Kazakh Autonomous Prefecture and of the Tacheng district, with children, herds, tools and carts, flee to the Soviet Union; no day); [[w.dikotter-maos-great-famine]], 239 n.46, n.47 (some 64,000 had crossed into the Soviet Union by May; half the population of Tacheng marched to the border); [[w.pleshakov-nikita-khrushchev-and-sino]], 239 (in 1961–62 at least 60,000 Chinese Muslims cross the Sino-Soviet border, fleeing violence and famine). To check: [[w.dangdai-zhongguo-minzu-gongzuo]], 161 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 239 n.34a); [[w.dreyer-pla-and-regionalism-in]], 43–44 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 239 n.34c); RGANI, Moscow, May 22, 1962, 5-30-401, p. 39; Ministry of Foreign Affairs Archives, Peking, May 10, 1962, 118-1100-9, pp. 71–9; RGANI, Moscow, Apr. 28, 1962, 3-18-53, pp. 2–3 and 8–12 (cited by [[w.dikotter-maos-great-famine]], 239 n.46, n.47, n.48); Political letter of the USSR embassy in the PRC for the second quarter of 1962, 37 (cited by [[w.pleshakov-nikita-khrushchev-and-sino]], 239 n.59). Check: the number; Dreyer, quoting one Chinese account, has as many as 70,000 fled ([[w.dreyer-pla-and-regionalism-in]], 43–44).'
     src:
       c: 776b7bea
       rows:
@@ -2221,6 +2242,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 239 n.34c: all'
         - 'w.yang-jisheng-mubei II, 1174–1175: A'
         - 'w.dikotter-maos-great-famine 239 n.46, n.47: ?'
+        - 'w.pleshakov-nikita-khrushchev-and-sino 239: ?'
+        - 'via x.1962.soviet-embassy-prc-political-letter-second-quarter: ?'
     tags: [polity:prc]
   - id: cal.1962-04-16.china-leadership-5
     when: Apr. 16
@@ -2750,13 +2773,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai receives the Soviet trade and economic delegation under Foreign Trade Minister Patolichev. Sino-Soviet trade will grow, only a matter of time; differences of view and trade troubles can be overcome; the volume cannot jump for objective reasons but the direction is right; he asks about it himself daily. On trade with capitalist countries: keep it under good control, reckon every deal in politics as well as economics. With Africa and other undeveloped states: it is good for them; China asks no privilege, attaches no political terms, and aims to help their national economies toward independence.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 472 (Apr. 20, 1962); [[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 20, 1962; 上午11时30分, 人民大会堂安徽厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 224 (Apr. 20, 1962; Zhou receives the Soviet trade and economic delegation led by Patolichev (帕托利切夫), Minister of Foreign Trade, and the deputy chairman of the State Committee for Foreign Economic Relations). Made public: 1993. Names: Zhou Enlai, Patolichev.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 472 (Apr. 20, 1962); [[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 20, 1962; 上午11时30分, 人民大会堂安徽厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 224 (Apr. 20, 1962; Zhou receives the Soviet trade and economic delegation led by Patolichev (帕托利切夫), Minister of Foreign Trade, and the deputy chairman of the State Committee for Foreign Economic Relations). Made public: 1993. To check: Zhou Enlai''s remarks to a Soviet trade delegation, Apr. 20, 1962, AVPRF, f. 0100, op. 55, pa. 480, d. 6, pp. 109–13 (cited by [[w.westad-introduction]], 26 n.91). Names: Zhou Enlai, Patolichev.'
     src:
       c: 01eb9483
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 472: ?'
         - 'w.zhou-enlai-waijiao-huodong 330: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 224: A'
+        - 'via x.1962-04-20.zhou-remarks-soviet-trade-delegation-avprf: ?'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:patolichev-nikolai-s, vis:only:prc+ussr]
     time_zone: Asia/Shanghai
   - id: cal.1962-04-20.china-leadership-2
