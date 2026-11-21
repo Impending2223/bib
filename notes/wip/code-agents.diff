@@ -369,7 +369,7 @@ index e0631c1..abd0b6f 100644
  
  POLLS = re.compile(r"^Polls close (?:noon|midnight|\d{1,2}(?::\d{2})?)\S*(?: [ap]\.m\.)?.*?: .*\]\(https://[^)\s]+\).*\.$")
 diff --git a/tools/bib/footnotes.py b/tools/bib/footnotes.py
-index 975eb6b..04f0bab 100644
+index 975eb6b..5cd8615 100644
 --- a/tools/bib/footnotes.py
 +++ b/tools/bib/footnotes.py
 @@ -28,6 +28,7 @@ STYLE
@@ -380,7 +380,7 @@ index 975eb6b..04f0bab 100644
  import re
  
  from . import claims, witnesses
-@@ -47,10 +48,16 @@ _REG = {}
+@@ -47,74 +48,222 @@ _REG = {}
  def _register(series):
      """The witness register, once per series (a build asks for it per entry; witnesses.load stats every file)."""
      if _REG.get("series") is not series:
@@ -395,28 +395,346 @@ index 975eb6b..04f0bab 100644
 +    return _REG["load"]
 +
 +
++# How the footnotes treat sources every footnote shares (STYLE 8): where COMMON or more of them stand under every
++# footnote, "block" shows the entry as one block (STYLE 2); "first" gives them once, in note 1, the later notes opening
++# "Sources cited *supra* note 1"; None repeats them under every mark, as before Nov. 21, 2026.
++REPEAT = "block"
++COMMON = 3
++MONTHS = r"(?:Jan|Feb|Mar|Apr|May|June|July|Aug|Sept|Oct|Nov|Dec)\.?"
++
++
++def _ord(n):
++    return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
++
++
++_STATS = {}
++
++
++def _statutes(series):
++    """{(vol, page): (name, Pub. L. number, year)}: the Statutes list's entries (K–J Cong. II.J.2, "Area Redevelopment
++    Act, [Pub. L. No. 87-27, 75 Stat. 47](…) (1961)"), and sources/statute-links.json's public-law numbers."""
++    if _STATS.get("series") is series:
++        return _STATS["idx"]
++    import json
++    import os
++    from . import store
++    idx = {}
++    p = os.path.join(store.ROOT, "sources", "statute-links.json")
++    try:
++        for k in json.load(open(p, encoding="utf-8")):
++            v, pg, _, pl = (k.split("|") + ["", "", "", ""])[:4]
++            m = re.match(r"Pub\. L\. (\d+-\d+)", pl)
++            if m:
++                idx[(v, pg)] = (None, m.group(1), None)
++    except (OSError, ValueError):
++        pass
++    for lst in series.lists.values():
++        if lst.kind == "calendar":
++            continue
++        for _, e in lst.entries():
++            m = re.match(r"^(.+?),\s*\[Pub\. L\. No\. (\d+-\d+), (\d+) Stat\. (\d+)[^\]]*\]\([^)]*\)(?:\s*\((\d{4})\))?",
++                         str(e.get("c") or ""))
++            if m:
++                idx[(m.group(3), m.group(4))] = (m.group(1), m.group(2), m.group(5))
++    _STATS.update(series=series, idx=idx)
++    return idx
++
++
++def _line(series, e, unit, lk):
++    """A link the line carries, as a footnote cites it (STYLE 9): a roll call, "[S. Roll Call No. 144, 88th Cong.
++    (1963)](…) (Voteview)"; a statute in full, "Act of Oct. 17, 1963, Pub. L. No. 88-152, [77 Stat. 271](…)", and
++    short, "Pub. L. No. 88-152, [77 Stat. at 271](…)"; a case or other cite with the name the line gives it before and
++    its year, "*Gideon v. Wainwright*, [372 U.S. 335](…) (1963)"."""
++    text, url = lk.group(1), lk.group(2)
++    year = str(e.get("date") or "")[:4]
++    before, after = unit[:lk.start()], unit[lk.end():]
++    yu = re.search(r"\b(19\d\d)\b", before)
++    year = yu.group(1) if yu and re.search(MONTHS + r" \d{1,2}, 19\d\d\s*,?\s*$", before) else year
++    v = re.search(r"voteview\.com/rollcall/R([HS])(\d{3})(\d{4})", url)
++    if v:
++        full = f"[{v.group(1)}. Roll Call No. {int(v.group(3))}, {_ord(int(v.group(2)))} Cong. ({year})]({url}) (Voteview)"
++        return dict(kind="line", key=url, pin="", paren="", text=full, full=full, short=full, stat=None)
++    s = re.match(r"^(?:Pub\. L\.(?: No\.)? (\d+-\d+), )?(\d+) Stat\. (\d+)$", text)
++    if s and "STATUTE" in url:
++        vol, page = s.group(2), s.group(3)
++        name, pl, y = _statutes(series).get((vol, page), (None, None, None))
++        pl = pl or s.group(1)
++        d = re.search(r"\b(?:[Ss]igned|[Aa]pproved|[Ee]nacted)\b[^.;]*?\b(" + MONTHS + r" \d{1,2})(?:, (\d{4}))?[^.;]*$",
++                      before)
++        if not d and re.search(r"\b(?:[Ss]igned|[Aa]pproved|[Ee]nacted)\b[^.;]*$", before) and e.get("when"):
++            w = re.match(r"^(" + MONTHS + r" \d{1,2})$", str(e["when"]).strip())
++            d = w and re.match(r"(.*)()", w.group(1))
++        y = y or (d.group(2) if d and d.group(2) else year)
++        pls = f"Pub. L. No. {pl}, " if pl else ""
++        if name:
++            head = f"{name}, "
++        elif d:
++            head = f"Act of {d.group(1)}, {y}, "
++        else:
++            head = ""
++        full = f"{head}{pls}[{vol} Stat. {page}]({url})" + ("" if y in head else f" ({y})")
++        short = f"{pls}[{vol} Stat. at {page}]({url})"
++        return dict(kind="line", key=f"stat:{vol}:{page}", pin="", paren="", text=full, full=full, short=short,
++                    stat=(vol, page))
++    nm = re.search(r"\*([^*]+)\*,?\s*$", before)
++    pr = re.match(r"^,?\s*(\([^()]*\b\d{4}\))", after)
++    tail = f" {pr.group(1)}" if pr else ("" if re.search(r"\b\d{4}\b", text) else f" ({year})")
++    full = (f"*{nm.group(1)}*, " if nm else "") + lk.group(0) + tail
++    return dict(kind="line", key=url, pin="", paren="", text=full, full=full, short=full, stat=None)
++
++
++def _citing(rec, cited):
++    """A record a work's note cites, as "citing" gives it: its words and where it is, the "printed, FRUS ..." echo left
++    out where the record already names the print or the note cites it (STYLE 3)."""
++    if not rec:
++        return "a record"
++    what = str(rec.get("record") or rec.get("what") or "")
++    keep = []
++    for seg in witnesses._split_top(witnesses.cite_where(rec.get("where"))):
++        if _PROV.match(seg):                 # "repository not given in the note", "as cited": the registry's own words
++            continue
++        seg = _PROV_TAIL.sub("", seg).strip()
++        body = re.sub(r"^(?:printed|published|reprinted)(?:,| in)?\s*", "", seg)
++        if body != seg and (cited.printed(rec) or (fold(body).split()[:1] and fold(body).split()[0] in fold(what).split())):
++            continue
++        if seg:
++            keep.append(seg)
++    where = "; ".join(keep)
++    return f"{what}, {where}" if where and fold(where) not in fold(what) else what
++
++
  def _cites(series, e):
-     """Per unit, its sources as dicts (kind, key, pin, paren, text); the `?` rows and unrowed items: the tail."""
-     us = claims.units(e.get("c") or "")
-@@ -94,7 +101,7 @@ def _cites(series, e):
+-    """Per unit, its sources as dicts (kind, key, pin, paren, text); the `?` rows and unrowed items: the tail."""
+-    us = claims.units(e.get("c") or "")
++    """Per unit, its sources as dicts (kind, key, pin, paren, text, label); the `?` rows and unrowed items: the tail;
++    the unread records (STYLE 7)."""
++    c = e.get("c") or ""
++    us = claims.units(c)
+     rows = claims.resolve(e)
+     reg = _register(series)
++    wrows = _load(series)[0]
+     srcs, _ = claims.note_parts(e.get("n"))
++    labels = claims.note_labels(e.get("n"))
++    cited = Cited(e)
+     used = set()
+ 
++    def lab(item, d):
++        """An item's label (STYLE 7): kept as the head of its sentence, the item without it."""
++        L = labels.get(item)
++        if L:
++            d["label"] = L
++            if d["text"].startswith(L + ": "):
++                d["text"] = d["text"][len(L) + 2:]
++        return d
++
+     def card(key, pin, item, row_pin):
+         k = claims.item_key(item) if item else None
+         if k and k[0] == "card" and k[1] == key and (not row_pin or k[2] == row_pin):
+             used.add(item)
+-            return dict(kind="card", key=key, pin=k[2] or "", paren=k[3] or "", text=item)
++            return lab(item, dict(kind="card", key=key, pin=k[2] or "", paren=k[3] or "", text=item))
+         if item:
+             used.add(item)
+         return dict(kind="card", key=key, pin=row_pin or "", paren="", text=f"[[{key}]]" + (f", {row_pin}" if row_pin else ""))
+ 
+-    def via(key, pin, note, joined):
+-        rec = reg.get((key, str(pin), str(note)))
+-        where = witnesses.cite_where(rec.get("where")) if rec else ""
+-        what = (f"{rec.get('record')}, {where}" if where else rec.get("record")) if rec else "a record"
+-        p = f"{pin} & n.{note}" if joined else f"{pin} n.{note}"
++    def via(key, pin, notes, joined):
++        recs = [reg.get((key, str(pin), str(nt))) for nt in notes]
++        nums = list(dict.fromkeys(re.sub(r"(?<=\d)[a-z]$", "", str(nt)) for nt in notes))
++        if not all(re.fullmatch(r"\d+(?:[–-]\d+)?", x) for x in nums):
++            ns = ""                              # a note keyed by its words ("i-cant-buy-this.a"): the page alone
++        else:
++            ns = (f"n.{nums[0]}" if len(nums) == 1 else "nn." + ", ".join(nums))
++        what = "; ".join(dict.fromkeys(_citing(r, cited) for r in recs))
++        p = (f"{pin} & {ns}" if joined else f"{pin} {ns}") if ns else str(pin)
+         return dict(kind="card", key=key, pin=p, paren=f"(citing {what})", text=f"[[{key}]], {p} (citing {what})")
+ 
+     per, unread = [], {}
+-    for i, _ in enumerate(us):
++    for i, unit in enumerate(us):
+         L = claims.LETTERS[i]
+         mine = [(k, key, pin, note, item) for r, k, key, pin, note, u, item in rows
+                 if k and u not in (None, "?") and L in u]
+-        vias = {(key, pin): note for k, key, pin, note, _ in mine if k == "via"}
+-        out = []
++        vias = collections.defaultdict(list)
++        for k, key, pin, note, _ in mine:
++            if k == "via":
++                vias[(key, pin)].append(note)
++        out, done = [], set()
+         for k, key, pin, note, item in mine:
+             if k == "card" and (key, pin) in vias:
+                 if item:
+                     used.add(item)
+                 out.append(via(key, pin, vias[(key, pin)], True))
++                done.add((key, pin))
+             elif k == "via":
+-                if any(k2 == "card" and (key2, pin2) == (key, pin) for k2, key2, pin2, _, _ in mine):
++                if (key, pin) in done or any(k2 == "card" and (key2, pin2) == (key, pin) for k2, key2, pin2, _, _ in mine):
+                     continue
+-                out.append(via(key, pin, note, False))
++                done.add((key, pin))
++                out.append(via(key, pin, vias[(key, pin)], False))
              elif k == "card":
                  out.append(card(key, pin, item, pin))
              elif k == "witness":
 -                w = witnesses.load()[0].get(key) or {}
-+                w = _load(series)[0].get(key) or {}
++                w = wrows.get(key) or {}
                  if not w.get("read"):            # a record no reader has read: behind "To check:" (STYLE 7)
                      unread.setdefault(key, None)
                      continue
-@@ -174,7 +181,7 @@ def build(series, e):
++                if cited.printed(w) or cited.recorded(w):
++                    continue                     # its print or recording the note cites: that is the source (STYLE 3)
+                 text = claims._render_row(series, e, "witness", key, pin, note, item, reg)
+                 out.append(dict(kind="text", key=text, pin="", paren="", text=text))
+             else:
+                 if item:
+                     used.add(item)
++                lk = next((m for m in claims.LINK.finditer(unit) if m.group(2) == key), None) if k == "url" else None
++                if lk and item not in srcs:      # the line's own link (STYLE 9)
++                    out.append(_line(series, e, unit, lk))
++                    continue
+                 text = item or key
+-                out.append(dict(kind=k, key=text, pin="", paren="", text=text))
+-        per.append(out)
++                out.append(lab(item, dict(kind=k, key=text, pin="", paren="", text=text)))
++        seen, uniq = set(), []
++        for x in out:                            # one item twice (two links of one cite): once
++            if (x["kind"], x["key"], x["text"]) not in seen:
++                seen.add((x["kind"], x["key"], x["text"]))
++                uniq.append(x)
++        per.append(uniq)
+     tail = []
+     for r, k, key, pin, note, u, item in rows:
+         if u == "?" and item and item not in used:
+             used.add(item)
+-            tail.append(dict(kind="text", key=item, pin="", paren="", text=item))
++            tail.append(lab(item, dict(kind="text", key=item, pin="", paren="", text=item)))
+     for it in srcs:                       # an item of the note no row names: kept, at the end
+-        if it not in used and not any(it == c["text"] for p in per for c in p):
++        if it not in used and not any(it == x["text"] for p in per for x in p):
+             used.add(it)
+-            tail.append(dict(kind="text", key=it, pin="", paren="", text=it))
++            tail.append(lab(it, dict(kind="text", key=it, pin="", paren="", text=it)))
+     return us, per, tail, list(unread)
+ 
+ 
+@@ -137,7 +286,42 @@ def _id(cur, prev, head):
+     return f"{I}, {cur['pin']}{paren}"
+ 
+ 
+-def build(series, e):
++def _ck(x):
++    return (x["kind"], x["key"], x["pin"], x.get("label"))
++
++
++def _footnote(cites, prev_note, stat_first, printed):
++    """One footnote's text (STYLE 3, 4, 7): its cites in order, a label's items a sentence of their own under the label,
++    the rest citation sentences, each closed with a full stop."""
++    sents = []
++    for x in cites:
++        if x.get("label"):
++            s = next((s for s in sents if s[0] == x["label"]), None)
++            if s:
++                s[1].append(x)
++            else:
++                sents.append([x["label"], [x]])
++        elif sents and sents[-1][0] is None:
++            sents[-1][1].append(x)
++        else:
++            sents.append([None, [x]])
++    single_prev = prev_note if prev_note and len({y["key"] for y in prev_note}) == 1 else None
++    prev, out = (single_prev[-1] if single_prev else None), []
++    for L, xs in sents:
++        parts = []
++        for j, x in enumerate(xs):
++            if x["kind"] == "line" and x.get("stat"):
++                full = stat_first(x["stat"]) and x["stat"] not in printed
++                printed.add(x["stat"])
++                x = dict(x, text=x["full"] if full else x["short"])
++            parts.append(x["text"] if L else _id(x, prev, j == 0))
++            prev = None if L else x
++        body = "; ".join(parts)
++        out.append((f"{L}: " if L else "") + body + ("" if body.endswith(".") else "."))
++    return " ".join(out)
++
++
++def build(series, e, _probe=False):
+     """None where the entry is shown as before (STYLE 2); else (groups, notes, rest): groups, the index of each run's
+     last unit and its footnote's number; notes, each footnote's markup; rest, the note's other sentences."""
+     c = e.get("c")
+@@ -159,25 +343,53 @@ def build(series, e):
+             runs[-1][2] = runs[-1][2] + tail
+         elif runs:
+             runs[-1][2] = tail
+-    groups, notes, prev_note = [], [], None
++    runs = [r for r in runs if r[2]]
++    if len(runs) <= 1:
++        return None
++    if REPEAT:                            # the sources every footnote shares (STYLE 8)
++        common = set.intersection(*[{_ck(x) for x in r[2]} for r in runs])
++        if len(common) >= COMMON:
++            if REPEAT == "block":
++                return None
++            if REPEAT == "first":
++                sup = dict(kind="supra", key="supra", pin="", paren="", text="Sources cited *supra* note 1")
++                runs = [runs[0]] + [[k, last, [sup] + [x for x in cites if _ck(x) not in common]]
++                                    for k, last, cites in runs[1:]]
++    firsts = set() if _probe else _line_firsts(series)
++    printed = set()
++    groups, notes, prev_note, stats = [], [], None, set()
+     for key, last, cites in runs:
+-        if not cites:
+-            continue
+-        parts, prev = [], None
+-        single_prev = prev_note if prev_note and len({x["key"] for x in prev_note}) == 1 else None
+-        for j, x in enumerate(cites):
+-            p = prev if j else (single_prev[-1] if single_prev else None)
+-            parts.append(_id(x, p, j == 0))
+-            prev = x
+-        notes.append("; ".join(parts) + ("" if parts[-1].endswith(".") else "."))
++        stats |= {x["stat"] for x in cites if x.get("stat")}
++        notes.append(_footnote(cites, prev_note, lambda st: _probe or (e["id"], st) in firsts, printed))
+         groups.append((last, len(notes)))
          prev_note = cites
-     if len(notes) <= 1:
-         return None
+-    if len(notes) <= 1:
+-        return None
 -    rest = " ".join(claims.note_parts(e.get("n"))[1])
++    if _probe:
++        return stats
 +    rest = with_unread(series, e, " ".join(claims.note_parts(e.get("n"))[1]))
      return groups, notes, rest
  
  
-@@ -219,3 +226,488 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
++def _line_firsts(series):
++    """{(entry id, (vol, page))}: each statute the footnotes cite from the line, at its first on the page (each half of
++    the calendar, in the pages' order, as works.first_cites): printed there in full, short after (STYLE 9)."""
++    if getattr(series, "_stat_firsts", None) is None:
++        from . import cjk
++        out = set()
++        series._stat_firsts = out           # set first: build(_probe) never asks again
++        for lst in series.lists.values():
++            if lst.kind != "calendar":
++                continue
++            seen = set()
++            for h, e in cjk.page_rows(series, lst):
++                if "STATUTE-" not in str(e.get("c") or ""):
++                    continue
++                for st in build(series, e, _probe=True) or ():
++                    if (h, st) not in seen:
++                        seen.add((h, st))
++                        out.add((e["id"], st))
++    return series._stat_firsts
++
++
+ def place(whole, render, units, groups, eid):
+     """The rendered line with its marks after each run's last unit (inside its claim's span); None where a unit's
+     rendering is not found in order."""
+@@ -219,3 +431,488 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
  ol.fn li:target{background:color-mix(in srgb,var(--accent) 12%,transparent)}
  ol.e .n{font-size:.88rem;line-height:1.42}
  </style>"""
@@ -1331,7 +1649,7 @@ index 9d5abc0..54d31b3 100644
  
  
 diff --git a/tools/bib/works.py b/tools/bib/works.py
-index f59ceb7..45f65a2 100644
+index f59ceb7..2ca8d73 100644
 --- a/tools/bib/works.py
 +++ b/tools/bib/works.py
 @@ -1338,14 +1338,15 @@ def first_cites(series):
@@ -1352,6 +1670,18 @@ index f59ceb7..45f65a2 100644
                      cid = cat.alias.get(m.group(1).strip(), m.group(1).strip())
                      if (h, cid) not in seen:
                          seen.add((h, cid))
+@@ -1358,7 +1359,10 @@ def first_cites(series):
+ # its parenthetical whole, one level of parentheses within ("(the rising, from Jan. 17; the attack)"). A pinpoint
+ # stops at a parenthesis, so a work inside another's "(cited by [[w.a]], 54 n.10)" never joins a run outside it.
+ _PAREN = r"\((?:[^()]|\([^()]*\))*\)"
+-PIN = r"[^;.()\[\]]*(?:\.[^;\s()][^;.()\[\]]*)*"
++# A pinpoint's own abbreviations take a space after their period ("ch. 3 at nn.37–40", "pp. 12–14"); a date's do not.
++_PIN_ABBR = "|".join(f"(?<=\\b{a})" for a in ("ch", "chs", "p", "pp", "n", "nn", "no", "nos", "vol", "vols", "pt", "doc",
++                                              "docs", "app", "sec"))
++PIN = r"[^;.()\[\]]*(?:(?:\.[^;\s()]|(?:" + _PIN_ABBR + r")\.\s)[^;.()\[\]]*)*"
+ WORK_ITEM = r"\[\[w\.[^\]]+\]\](?:," + PIN + r")?(?:\s*" + _PAREN + r")?"
+ WORK_RUN = re.compile(WORK_ITEM + r"(?:;\s+" + WORK_ITEM + r")+")
+ 
 diff --git a/tools/times/day_order.py b/tools/times/day_order.py
 index 2b4713c..0cb1f25 100644
 --- a/tools/times/day_order.py
