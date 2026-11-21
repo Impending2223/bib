@@ -304,6 +304,19 @@ entries:
       - 1965-06-01T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-06-01.china
+    when: June 1
+    date: '1965-06-01'
+    thread: china
+    also: [testing]
+    c: '*National Review* repeats its call for the bombing of China.'
+    n: '[[w.chang-friends-and-enemies]], 228 n.1 (in the note to the magazine''s "Should We Bomb Red China''s Bomb?" of Jan. 12). To check: *National Review*, June 1, 1965, 449–50 (cited by [[w.chang-friends-and-enemies]], 228 n.1b). See [[cal.1965-01-12.china-2]].'
+    src:
+      c: a6ceef27
+      rows:
+        - 'w.chang-friends-and-enemies 228 n.1: all'
+        - 'via x.1965-06-01.national-review-bombing-china: all'
+    tags: [polity:us]
   - id: cal.1965-06-02.opinion
     when: June 2
     date: '1965-06-02'
@@ -902,6 +915,13 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 421: all'
     tags: [polity:prc, name:peng-zhen]
+  - id: cal.1965-06-03.china-leadership-11
+    when: June 3
+    date: '1965-06-03'
+    thread: china-leadership
+    c: Ye Jianying 叶剑英 at the awards meeting for innovations in training equipment 军训器材革新创造授奖大会. He speaks, "Carry forward the spirit of innovation, reform military training vigorously" 《发扬革新创造精神，大力改革军事训练》.
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 929. Made public: 2007. Names: Ye Jianying.'
+    tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
   - id: cal.1965-06-04.civil-rights-the-executive
     when: June 4
     date: '1965-06-04'
@@ -2538,6 +2558,13 @@ entries:
       - 1965-06-09T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-06-09.china-leadership-7
+    when: June 9
+    date: '1965-06-09'
+    thread: china-leadership
+    c: Ye Jianying 叶剑英 inspects the Air Force's Fourth Higher Technical School 空军第四高级专科学校, meets all its staff and is photographed with them.
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 929. Made public: 2007. Names: Ye Jianying.'
+    tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
   - id: cal.1965-06-09.vietnam-congress
     when: June 10
     date: '1965-06-10'
@@ -4848,7 +4875,7 @@ entries:
     place: saigon
     thread: vietnam-saigon
     c: 'Saigon. Kỳ prime minister; a National Leadership Council of ten generals, Thiệu chairman and chief of state. Taylor to Johnson, June 17: "disturbed by the selection of General Ky."'
-    n: '[FRUS 1964–68, III, doc. 5](https://history.state.gov/historicaldocuments/frus1964-68v03/d5) (June 17). [[w.westmoreland-soldier-reports]], 138 (Quát and Sửu resign; the committee of generals, Thiệu chairman and chief of state, Kỳ premier; Taylor disturbed at Kỳ); [[w.taylor-swords-and-plowshares]], 345. Check: the day of the Council''s formation; Van Staaveren, 149, has the Council take power on Quát''s resignation, June 11, and Kỳ''s government June 19. [[w.gibbons-u-s-government-and]], III, 294–296 (Kỳ chosen, Thiệu at the head of the generals'' committee; the government in office June 19); [[w.staaveren-gradual-failure]], 149. See [[cal.1965-06-12.vietnam]]. Names: Nguyễn Cao Kỳ, Nguyễn Văn Thiệu, Taylor, Johnson.'
+    n: '[FRUS 1964–68, III, doc. 5](https://history.state.gov/historicaldocuments/frus1964-68v03/d5) (June 17). [[w.westmoreland-soldier-reports]], 138 (Quát and Sửu resign; the committee of generals, Thiệu chairman and chief of state, Kỳ premier; Taylor disturbed at Kỳ); [[w.taylor-swords-and-plowshares]], 345; [[w.chang-friends-and-enemies]], 268 (the military junta of Kỳ and Thiệu takes over in mid-1965). Check: the day of the Council''s formation; Van Staaveren, 149, has the Council take power on Quát''s resignation, June 11, and Kỳ''s government June 19. [[w.gibbons-u-s-government-and]], III, 294–296 (Kỳ chosen, Thiệu at the head of the generals'' committee; the government in office June 19); [[w.staaveren-gradual-failure]], 149. To check: [[w.kahin-intervention]], 417 (cited by [[w.chang-friends-and-enemies]], 269 n.29). See [[cal.1965-06-12.vietnam]]. Names: Nguyễn Cao Kỳ, Nguyễn Văn Thiệu, Taylor, Johnson.'
     src:
       c: 3fca8eba
       rows:
@@ -4857,6 +4884,7 @@ entries:
         - 'w.gibbons-u-s-government-and III, 294–296: A-C'
         - 'w.westmoreland-soldier-reports 138: A-D'
         - 'w.taylor-swords-and-plowshares 345: B-C'
+        - 'w.chang-friends-and-enemies 268: ?'
     tags: [name:nguyen-cao-ky, name:nguyen-van-thieu, name:taylor-maxwell, name:johnson-lyndon-b, place:saigon]
     time_range:
       - 1965-06-19T01:00Z
@@ -5058,6 +5086,14 @@ entries:
     n: '[[w.chen-yi-nianpu]], 1103. The words: 下午5时30分 (1103). Names: Chen Yi, Zhou Enlai.'
     tags: [polity:prc, polity:uar, name:chen-yi, name:zhou-enlai]
     time_zone: Africa/Cairo
+  - id: cal.1965-06-19.china-leadership-13
+    when: June 19
+    date: '1965-06-19'
+    place: xian
+    thread: china-leadership
+    c: 'Xi''an 西安. Ye Jianying 叶剑英 speaks to the army''s conference on teaching reform in the engineering and technical schools 全军工程技术院校教学改革会议: the reform of the Air Force''s Fourth Higher Technical School 空军第四高级专科学校 a good example; his views on their courses, terms and methods.'
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 929. Made public: 2007. Names: Ye Jianying.'
+    tags: [polity:prc, name:ye-jianying, vis:only:prc]
   - id: cal.1965-06-20.medicare
     when: June 20
     date: '1965-06-20'
@@ -5489,6 +5525,13 @@ entries:
       - 1965-06-21T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-06-21.china-leadership-8
+    when: June 21
+    date: '1965-06-21'
+    thread: china-leadership
+    c: Ye Jianying 叶剑英, some of the Academy of Military Science's 军事科学院 cadres sent out having shown an unhealthy attitude and style, presses for more political and ideological education of all its staff.
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 929. Made public: 2007. Names: Ye Jianying.'
+    tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
   - id: cal.1965-06-22.japan-and-korea
     when: June 22
     date: '1965-06-22'
@@ -8399,3 +8442,15 @@ entries:
         - 'w.friedman-shadow-cold-war 166: all'
         - 'via x.1966-08-16.embassy-drv-titled-relations-drv-countries-africa-august: ?'
     tags: [polity:drv, polity:uar, polity:guinea, polity:mali]
+  - id: cal.1965-06.china-leadership-8
+    when: June
+    date: 1965-06
+    thread: china-leadership
+    c: 'Mao 毛泽东 proposes shelters dug under the houses, about a metre deep, every house joined by tunnels and every household digging its own: "the state will not have to incur any expenses."'
+    n: '[[w.dikotter-cultural-revolution]], 211–212 n.15. Made public: 2016. To check: Shanghai Municipal Archives, List of Quotations by Mao Zedong on Air Raids Dating from 1964 to 1974, B105-9-638, pp. 15–16 (cited by [[w.dikotter-cultural-revolution]], 212 n.15). Names: Mao Zedong.'
+    src:
+      c: 29752d9d
+      rows:
+        - 'w.dikotter-cultural-revolution 212: all'
+        - 'via w.dikotter-cultural-revolution 212 n.15: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, ok:fields-place]

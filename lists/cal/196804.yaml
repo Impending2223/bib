@@ -449,6 +449,13 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 523: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1968-04-01.china-leadership-2
+    when: Apr. 1
+    date: '1968-04-01'
+    thread: china-leadership
+    c: Huang Yongsheng 黄永胜 orders all the army's documents stopped to Ye Jianying 叶剑英, Chen Yi 陈毅, Liu Bocheng 刘伯承, Xu Xiangqian 徐向前, Nie Rongzhen 聂荣臻 and others.
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 976. Made public: 2007. Names: Huang Yongsheng, Ye Jianying, Chen Yi, Liu Bocheng, Xu Xiangqian, Nie Rongzhen.'
+    tags: [polity:prc, name:huang-yongsheng, name:ye-jianying, name:chen-yi, name:liu-bocheng, name:xu-xiangqian, name:nie-rongzhen, vis:only:prc, ok:fields-place]
   - id: cal.1968-04-02.vietnam
     when: Apr. 2
     date: '1968-04-02'
@@ -2515,6 +2522,20 @@ entries:
       - 1968-04-07T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1968-04-07.china
+    when: Apr. 7
+    date: '1968-04-07'
+    thread: china
+    c: The *Renmin ribao* 人民日报 calls Lin Biao 林彪 and Jiang Qing 江青 Mao's 毛泽东 "closest comrades-in-arms."
+    n: '[[w.dikotter-cultural-revolution]], 172 n.27. To check: Lin Biao, "Zai jundui ganbu dahuishang de jianghua," Mar. 24, 1968 (cited by [[w.dikotter-cultural-revolution]], 172 n.27a); Zhou Enlai, Jiang Qing and Chen Boda, "Zhongyang shouzhang zai jiejian jundui ganbu huishang de jianghua," Mar. 24, 1968, Cultural Revolution Database (cited by [[w.dikotter-cultural-revolution]], 172 n.27b); CIA, Intelligence Report, "Mao''s ''Cultural Revolution'' II: The Purge of the P.L.A. and the Stardom of Madame Mao," June 1968, 42–44 (cited by [[w.dikotter-cultural-revolution]], 172 n.27c). See [[cal.1968-03-24.china-leadership]]. Names: Lin Biao, Jiang Qing, Mao Zedong.'
+    src:
+      c: 6597f80d
+      rows:
+        - 'w.dikotter-cultural-revolution 172: all'
+        - 'via w.dikotter-cultural-revolution 172 n.27a: all'
+        - 'via w.dikotter-cultural-revolution 172 n.27b: all'
+        - 'via w.dikotter-cultural-revolution 172 n.27c: all'
+    tags: [polity:prc, name:lin-biao, name:jiang-qing, ok:fields-place, name:mao-zedong]
   - id: cal.1968-04-08.vietnam
     when: Apr. 8
     date: '1968-04-08'
@@ -6647,3 +6668,16 @@ entries:
     c: Zhou Enlai 周恩来, told of it, consults Chen Yi 陈毅 and sends Chen Xiaolu 陈小鲁 to a farm of the Thirty-Ninth Army 第三十九军 in the Northeast for labor, leaving Lin Biao and Jiang Qing no pretext.
     n: '[[w.chen-yi-nianpu]], 1202. Made public: 1995. Names: Chen Yi, Lin Biao, Jiang Qing, Zhou Enlai.'
     tags: [polity:prc, name:chen-yi, name:zhou-enlai, name:lin-biao, name:jiang-qing, ok:fields-place, vis:only:prc]
+  - id: cal.1968-04.china-leadership-12
+    when: Apr.
+    date: 1968-04
+    place: shanghai
+    thread: china-leadership
+    c: 'Shanghai 上海: all retired workers and those on sick leave who lack the proper class credentials ordered back to the countryside, without pension or medical support.'
+    n: '[[w.dikotter-cultural-revolution]], 202 n.34. Made public: 2016. To check: Shanghai Municipal Archives, Apr. 1, 1968, B227-2-39, pp. 1–5 (cited by [[w.dikotter-cultural-revolution]], 202 n.34b).'
+    src:
+      c: 33d5df8a
+      rows:
+        - 'w.dikotter-cultural-revolution 202: all'
+        - 'via w.dikotter-cultural-revolution 202 n.34b: all'
+    tags: [polity:prc, vis:only:prc]

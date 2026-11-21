@@ -292,7 +292,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Great Hall of the People 人民大会堂, Peking 北京. Chen Yi 陈毅 at the reception of Luo Ruiqing 罗瑞卿 for the People's Liberation Army's 34th anniversary.
-    n: '[[w.chen-yi-nianpu]], 883. The words: 晚上 (883). Names: Chen Yi, Luo Ruiqing.'
+    n: '[[w.chen-yi-nianpu]], 883; [[w.liu-jixian-ye-jianying-nianpu]], II, 892 (Aug. 1, 1961; Ye Jianying 叶剑英 with Chen Yi 陈毅 at the reception for the People''s Liberation Army''s thirty-fourth anniversary). The words: 晚上 (883). Names: Chen Yi, Luo Ruiqing.'
     tags: [polity:prc, name:chen-yi, name:luo-ruiqing]
     time_range:
       - 1961-08-01T11:00Z
@@ -1005,6 +1005,13 @@ entries:
       - 1961-08-05T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-05.china-leadership-8
+    when: Aug. 5
+    date: '1961-08-05'
+    thread: china-leadership
+    c: 'Ye Jianying 叶剑英 inspects the First Engineering Corps Technical School 第一工程兵技术学校: sees a display of new engineering machines, meets all its staff and gives instructions: fight hard, train hard, study hard; military engineering serves victory in war and the building of socialism in peace.'
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 892–893. Made public: 2007. Names: Ye Jianying.'
+    tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
   - id: cal.1961-08-06.space
     when: Aug. 6
     date: '1961-08-06'
@@ -1646,6 +1653,13 @@ entries:
       - 1961-08-09T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-09.china-leadership-9
+    when: Aug. 9
+    date: '1961-08-09'
+    thread: china-leadership
+    c: 'Zhu De 朱德 inscribes for the memorial hall of the martyr Zhao Yiman 赵一曼烈士纪念馆 at Yibin 宜宾, Sichuan 四川省: the revolutionary hero Zhao Yiman immortal.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1811. Names: Zhu De.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de]
   - id: cal.1961-08-10.amendments
     when: Aug. 10
     date: '1961-08-10'
@@ -2207,13 +2221,14 @@ entries:
     thread: china-leadership
     also: [china, latin-america]
     c: Peking, the Great Hall of the People, Fujian Hall. Zhou Enlai, with Dong Biwu, Vice Chairman, meets João Goulart, Vice President of Brazil.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 13, 1961; 晚6时); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 201–202 (Aug. 13–23, 1961; Goulart leads the Brazilian trade delegation on its visit; Mao, Liu, Dong Biwu, Soong Ching Ling and Zhou each receive him); [[w.chen-yi-nianpu]], 885 (Aug. 13, 1961; Chen Yi at the airport to welcome João Goulart, 2:25 p.m., and present when Dong Biwu meets him that afternoon). See [[cal.1961-08-15.china-leadership]]. Names: Zhou Enlai, Dong Biwu, Goulart.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 13, 1961; 晚6时); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 201–202 (Aug. 13–23, 1961; Goulart leads the Brazilian trade delegation on its visit; Mao, Liu, Dong Biwu, Soong Ching Ling and Zhou each receive him); [[w.chen-yi-nianpu]], 885 (Aug. 13, 1961; Chen Yi at the airport to welcome João Goulart, 2:25 p.m., and present when Dong Biwu meets him that afternoon); [[w.zhu-de-nianpu-xinbian]], III, 1811 (Aug. 13, 1961, afternoon; Zhu De 朱德, with Zhou Enlai 周恩来, Chen Yi 陈毅, Li Xiannian 李先念 and others, attends Dong Biwu 董必武 in meeting Goulart 古拉特, Vice President of Brazil). See [[cal.1961-08-15.china-leadership]]. Names: Zhou Enlai, Dong Biwu, Goulart.'
     src:
       c: d1728d2c
       rows:
         - 'w.zhou-enlai-waijiao-huodong 318: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 201–202: B'
         - 'w.chen-yi-nianpu 885: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1811: ?'
     tags: [polity:prc, polity:brazil, name:zhou-enlai, name:dong-biwu, name:goulart-joao]
     time_zone: Asia/Shanghai
   - id: cal.1961-08-13.china-leadership-3
@@ -2326,6 +2341,21 @@ entries:
     c: Chen Yi 陈毅 receives the members of the East African trade union delegation.
     n: '[[w.chen-yi-nianpu]], 885. The words: 上午 (885). Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1961-08-12T22:00Z
+      - 1961-08-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-08-13.china-leadership-11
+    when: Aug. 13
+    date: '1961-08-13'
+    place:
+      - beidaihe
+      - peking
+    thread: china-leadership
+    c: Zhu De 朱德 flies from Beidaihe 北戴河 back to Peking 北京.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1811. The words: 上午; 下午 (the meeting with Goulart) (1811). Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
     time_range:
       - 1961-08-12T22:00Z
       - 1961-08-13T04:00Z
@@ -2453,7 +2483,7 @@ entries:
     thread: china-leadership
     also: [africa, china]
     c: 'Zhou Enlai, Aug. 14–19, receives Kwame Nkrumah, President of Ghana. On the 14th with Liu Shaoqi: Sun Yat-sen found the thorough road only by working with the Communists; the Congolese people will win. On the 15th he returns the call and tells of the communes and the grain shortage. Aug. 16–18 with Nkrumah to Hangzhou and Shanghai; on the flight home he advises farming and light industry alongside heavy.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 427 (Aug. 14, 1961); [[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 14, 1961; 上午, 机场; 下午, 会谈, with Liu Shaoqi); [[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 15, 1961; 下午, Diaoyutai; returns the call, with Liu Shaoqi); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 537 (Aug. 14–18, 1961; Aug. 14 Liu, with Zhou Enlai, Dong Biwu and Zhu De, talks with Kwame Nkrumah, president of Ghana and head of government: his visit is a contribution to China-Ghana friendship; China fully supports the African peoples'' struggle and will help as it can, though its own economy and culture are backward, perhaps more in ten years; Aug. 15 he goes on talking, and explains the people''s communes and ownership: three levels of management committees elected by members, the team the production unit, the brigade the basic accounting unit, and two kinds of ownership, by the whole people and by the collective, with a small personal share; Aug. 18 he attends the signing of the joint communiqué and friendship treaty and signs the communiqué); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202 (Aug. 14–19, 1961; Nkrumah, President and head of government, visits on invitation; Liu and Zhou hold talks with him); [[w.chen-yi-nianpu]], 885 (Aug. 14, 1961, afternoon; Chen Yi at Liu Shaoqi''s meeting with Nkrumah and at their talks). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Nkrumah, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 427 (Aug. 14, 1961); [[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 14, 1961; 上午, 机场; 下午, 会谈, with Liu Shaoqi); [[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 15, 1961; 下午, Diaoyutai; returns the call, with Liu Shaoqi); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 537 (Aug. 14–18, 1961; Aug. 14 Liu, with Zhou Enlai, Dong Biwu and Zhu De, talks with Kwame Nkrumah, president of Ghana and head of government: his visit is a contribution to China-Ghana friendship; China fully supports the African peoples'' struggle and will help as it can, though its own economy and culture are backward, perhaps more in ten years; Aug. 15 he goes on talking, and explains the people''s communes and ownership: three levels of management committees elected by members, the team the production unit, the brigade the basic accounting unit, and two kinds of ownership, by the whole people and by the collective, with a small personal share; Aug. 18 he attends the signing of the joint communiqué and friendship treaty and signs the communiqué); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202 (Aug. 14–19, 1961; Nkrumah, President and head of government, visits on invitation; Liu and Zhou hold talks with him); [[w.chen-yi-nianpu]], 885 (Aug. 14, 1961, afternoon; Chen Yi at Liu Shaoqi''s meeting with Nkrumah and at their talks); [[w.zhu-de-nianpu-xinbian]], III, 1811 (Aug. 14, 1961; Zhu De 朱德, with Dong Biwu 董必武, Zhou Enlai 周恩来, Li Xiannian 李先念, Nie Rongzhen 聂荣臻 and others, attends Liu Shaoqi 刘少奇 in talks with Nkrumah 恩克鲁玛). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Nkrumah, Liu Shaoqi.'
     src:
       c: 15f0807e
       rows:
@@ -2463,6 +2493,7 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 537: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 202: A'
         - 'w.chen-yi-nianpu 885: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1811: ?'
     tags: [polity:prc, polity:ghana, name:zhou-enlai, name:nkrumah-kwame, name:liu-shaoqi, vis:only:prc+ghana]
     time_range:
       - 1961-08-13T22:00Z
@@ -2605,7 +2636,7 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Chen Yi 陈毅 at the airport to welcome Kwame Nkrumah, President of Ghana, and his party.
-    n: '[[w.chen-yi-nianpu]], 885. The words: 中午 (885). Names: Chen Yi, Nkrumah.'
+    n: '[[w.chen-yi-nianpu]], 885; [[w.zhu-de-nianpu-xinbian]], III, 1811 (Aug. 14, 1961; Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来 and others, at the airport to welcome Nkrumah 恩克鲁玛, President of Ghana). The words: 中午 (885). Names: Chen Yi, Nkrumah.'
     tags: [polity:prc, polity:ghana, name:chen-yi, name:nkrumah-kwame]
     time_range:
       - 1961-08-14T04:00Z
@@ -2736,12 +2767,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking, the Zhongshan Hall in Zhongshan Park. Zhou Enlai attends the public memorial for Chen Jiageng, chairman of the All-China Federation of Returned Overseas Chinese.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 15, 1961; 上午10时); [[w.chen-yi-nianpu]], 885 (Aug. 15, 1961, 10 a.m.; Chen Yi at the memorial for Chen Jiageng; with Zhou Enlai and others holds the cords escorting the coffin to the hearse). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 15, 1961; 上午10时); [[w.chen-yi-nianpu]], 885 (Aug. 15, 1961, 10 a.m.; Chen Yi at the memorial for Chen Jiageng; with Zhou Enlai and others holds the cords escorting the coffin to the hearse); [[w.zhu-de-nianpu-xinbian]], III, 1812 (Aug. 15, 1961; Zhu De 朱德 at the capital''s public memorial for Chen Jiageng 陈嘉庚, the noted patriotic leader of the overseas Chinese, dead at Peking Aug. 12 (the nianpu''s note), and with Zhou Enlai 周恩来, Chen Yi 陈毅, Tan Zhenlin 谭震林, Xi Zhongxun 习仲勋 and others holds the cords escorting the coffin to the hearse). Names: Zhou Enlai.'
     src:
       c: cbc46406
       rows:
         - 'w.zhou-enlai-waijiao-huodong 319: all'
         - 'w.chen-yi-nianpu 885: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1812: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1961-08-15.china-leadership-3
@@ -2820,12 +2852,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Chen Yi, at the reception the DPRK embassy''s chargé gives for the 16th anniversary of Korea''s liberation: China fully backs the stand of the Warsaw Treaty states on concluding a peace treaty with Germany and normalizing West Berlin, and sternly condemns the war threats the United States and its followers make with the so-called "Berlin crisis" they have made.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202 (Aug. 15, 1961); [[w.chen-yi-nianpu]], 886 (Aug. 15, 1961; the reception of 马东山, the DPRK''s chargé, at the Beijing Hotel; Chen Yi on the Soviet–Korean and Sino-Korean treaties and in support of the Warsaw Treaty states'' stand on a German peace treaty and West Berlin). Names: Chen Yi. Check: the chargé is 马东山 in the book.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202 (Aug. 15, 1961); [[w.chen-yi-nianpu]], 886 (Aug. 15, 1961; the reception of 马东山, the DPRK''s chargé, at the Beijing Hotel; Chen Yi on the Soviet–Korean and Sino-Korean treaties and in support of the Warsaw Treaty states'' stand on a German peace treaty and West Berlin); [[w.zhu-de-nianpu-xinbian]], III, 1811–1812 (Aug. 15, 1961; Zhu De 朱德, with Dong Biwu 董必武, Chen Yi 陈毅 and others, at the reception of Ma Dong-san 马东山, the DPRK embassy''s chargé d''affaires, for the sixteenth anniversary of Korea''s liberation). Names: Chen Yi. Check: the chargé is 马东山 in the book.'
     src:
       c: ff44e1be
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 202: all'
         - 'w.chen-yi-nianpu 886: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1811–1812: ?'
     tags: [polity:prc, polity:dprk, polity:us, polity:gdr, name:chen-yi]
   - id: cal.1961-08-15.china-leadership-8
     when: Aug. 15
@@ -3215,6 +3248,14 @@ entries:
         - 'w.dikotter-maos-great-famine 278: all'
         - 'via w.dikotter-maos-great-famine 278 n.26: all'
     tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961-08-16.china-leadership-13
+    when: Aug. 16
+    date: '1961-08-16'
+    place: lushun
+    thread: china-leadership
+    c: 'Lüshun 旅顺. Ye Jianying 叶剑英 inspects the Navy''s Lüshun base 海军旅顺基地, and holds a meeting on training with the leaders of its divisions, flotillas and coastal-defense district and with grass-roots cadres: train frugally and hard; in peacetime drill more on land and in port, with more training grounds ashore.'
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 893. Made public: 2007. Names: Ye Jianying.'
+    tags: [polity:prc, name:ye-jianying, vis:only:prc]
   - id: cal.1961-08-17.latin-america
     when: Aug. 17
     date: '1961-08-17'
@@ -3431,13 +3472,14 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: 'Chen Yi, at the reception given by Sukarni Kartodiwirjo, the Indonesian ambassador, for Indonesia''s national day: China fully agrees with Indonesia''s proposal to convene a second Asian–African conference.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202–203 (Aug. 17, 1961); [[w.chen-yi-nianpu]], 886 (Aug. 17, 1961, evening, the Beijing Hotel; China fully backs a second Asian–African conference; hopes the coming non-aligned summit will act against imperialism and colonialism); [[w.peng-zhen-nianpu-1902]], IV, 148 (Aug. 17, 1961, evening; Peng Zhen at the reception of Sukarni Kartodiwirjo, the Indonesian Ambassador, for the sixteenth anniversary of Indonesia''s independence). Names: Chen Yi. Check: the ambassador is 苏卡尼·卡托迪维约 in the book.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202–203 (Aug. 17, 1961); [[w.chen-yi-nianpu]], 886 (Aug. 17, 1961, evening, the Beijing Hotel; China fully backs a second Asian–African conference; hopes the coming non-aligned summit will act against imperialism and colonialism); [[w.peng-zhen-nianpu-1902]], IV, 148 (Aug. 17, 1961, evening; Peng Zhen at the reception of Sukarni Kartodiwirjo, the Indonesian Ambassador, for the sixteenth anniversary of Indonesia''s independence); [[w.zhu-de-nianpu-xinbian]], III, 1812 (Aug. 17, 1961; Zhu De 朱德 at the reception of Kartodiwirjo 卡托迪维约, the Indonesian Ambassador, for the sixteenth anniversary of Indonesia''s independence). Names: Chen Yi. Check: the ambassador is 苏卡尼·卡托迪维约 in the book.'
     src:
       c: f01fac20
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 202–203: all'
         - 'w.chen-yi-nianpu 886: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 148: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1812: ?'
     tags: [polity:prc, polity:indonesia, name:chen-yi]
     time_range:
       - 1961-08-17T11:00Z
@@ -3543,11 +3585,12 @@ entries:
     thread: china-leadership
     also: [latin-america]
     c: 'The Great Hall of the People 人民大会堂, Peking. Peng Zhen 彭真 at the rally of the capital and the China–Latin America Friendship Association welcoming João Belchior Goulart 若奥·贝尔希奥·古拉特, Vice President of Brazil, and speaks: Brazil''s people defend their sovereignty and resources; American imperialism''s crude interference in Latin America condemned; Dong Biwu 董必武, Zhu De 朱德 and others there.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 148. The words: 下午 (IV, 148). Names: Peng Zhen, Dong Biwu, Zhu De, Goulart.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 148; [[w.zhu-de-nianpu-xinbian]], III, 1812 (Aug. 17, 1961; Zhu De 朱德 at the rally of the capital and the China–Latin America Friendship Association 中国拉丁美洲友好协会 welcoming Goulart 古拉特, Vice President of Brazil). The words: 下午 (IV, 148). Names: Peng Zhen, Dong Biwu, Zhu De, Goulart.'
     src:
       c: 476673c4
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 148: all'
+        - 'w.zhu-de-nianpu-xinbian III, 1812: ?'
     tags: [polity:prc, name:peng-zhen, name:dong-biwu, name:zhu-de, name:goulart-joao]
     time_range:
       - 1961-08-17T04:00Z
@@ -3568,6 +3611,15 @@ entries:
         - 'w.dikotter-maos-great-famine 252: all'
         - 'via w.dikotter-maos-great-famine 252 n.40: all'
     tags: [form:state, polity:prc, vis:only:prc]
+  - id: cal.1961-08-17.china-leadership-11
+    when: Aug. 17
+    date: '1961-08-17'
+    place: peking
+    thread: china-leadership
+    also: [china]
+    c: Peking 北京. Zhu De 朱德 presides at the forty-first session of the Second National People's Congress Standing Committee 第二届全国人大常委会第四十一次会议, which names Zhou Enlai 周恩来 plenipotentiary to sign the Treaty of Friendship between China and Ghana 《中华人民共和国和加纳共和国友好条约》.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1812. Names: Zhu De, Zhou Enlai.'
+    tags: [polity:prc, polity:ghana, name:zhu-de, name:zhou-enlai]
   - id: cal.1961-08-18.berlin-and-vienna
     when: Aug. 18
     date: '1961-08-18'
@@ -3657,7 +3709,7 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai and Nkrumah sign the China–Ghana treaty of friendship.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 18, 1961; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202 (Aug. 14–19, 1961; the two governments sign the treaty of friendship, and the agreements on economic and technical cooperation, on trade and payments, and on cultural cooperation); [[w.peng-zhen-nianpu-1902]], IV, 148 (Aug. 18, 1961, afternoon; Peng Zhen at the signing of the joint communiqué by Liu Shaoqi and President Kwame Nkrumah and of the treaty of friendship by Zhou and Nkrumah, and of the agreements on economic and technical cooperation, trade and payments, and cultural cooperation); [[w.friedman-shadow-cold-war]], 94 (the Chinese aid agreements with Mali and Ghana of 1961 specify that the credits not be drawn on until mid-1962). To check: [[w.larkin-china-and-africa-1949]], 54 (cited by [[w.friedman-shadow-cold-war]], 94 n.156). Names: Zhou Enlai, Nkrumah.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 18, 1961; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202 (Aug. 14–19, 1961; the two governments sign the treaty of friendship, and the agreements on economic and technical cooperation, on trade and payments, and on cultural cooperation); [[w.peng-zhen-nianpu-1902]], IV, 148 (Aug. 18, 1961, afternoon; Peng Zhen at the signing of the joint communiqué by Liu Shaoqi and President Kwame Nkrumah and of the treaty of friendship by Zhou and Nkrumah, and of the agreements on economic and technical cooperation, trade and payments, and cultural cooperation); [[w.friedman-shadow-cold-war]], 94 (the Chinese aid agreements with Mali and Ghana of 1961 specify that the credits not be drawn on until mid-1962); [[w.zhu-de-nianpu-xinbian]], III, 1812 (Aug. 18, 1961; Zhu De 朱德 at the signing of the joint communique of the Chairman of the People''s Republic and the President of Ghana and of the Treaty of Friendship between China and Ghana 《中华人民共和国和加纳共和国友好条约》). To check: [[w.larkin-china-and-africa-1949]], 54 (cited by [[w.friedman-shadow-cold-war]], 94 n.156). Names: Zhou Enlai, Nkrumah.'
     src:
       c: 19faec32
       rows:
@@ -3665,6 +3717,7 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 202: B'
         - 'w.peng-zhen-nianpu-1902 IV, 148: ?'
         - 'w.friedman-shadow-cold-war 94: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1812: ?'
     tags: [polity:prc, polity:ghana, name:zhou-enlai, name:nkrumah-kwame]
     time_range:
       - 1961-08-18T04:00Z
@@ -4008,6 +4061,25 @@ entries:
         - 'w.friedman-shadow-cold-war 75: all'
         - 'via x.1961-08-19.report-state-sector-indonesian-economy-soviet-embassy: ?'
     tags: [polity:ussr, vis:only:ussr]
+  - id: cal.1961-08-19.china-leadership-10
+    when: Aug. 19
+    date: '1961-08-19'
+    place: peking
+    thread: china-leadership
+    also: [china]
+    c: Peking 北京. Zhu De 朱德 presides at the forty-second session of the Second National People's Congress Standing Committee 第二届全国人大常委会第四十二次会议, which approves the Treaty of Friendship, Cooperation and Mutual Assistance between China and the DPRK 《中华人民共和国和朝鲜民主主义人民共和国友好合作互助条约》, and writes to Zhou Enlai 周恩来 of the decision.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1812. Names: Zhu De, Zhou Enlai.'
+    tags: [polity:prc, polity:dprk, name:zhu-de, name:zhou-enlai]
+  - id: cal.1961-08-19.china-leadership-11
+    when: Aug. 19
+    date: '1961-08-19'
+    place:
+      - peking
+      - lushan
+    thread: china-leadership
+    c: Zhu De 朱德 leaves Peking 北京 for Lushan 庐山, Jiangxi 江西省.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1812. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1961-08-20.opinion
     when: Aug. 20
     date: '1961-08-20'
@@ -4150,6 +4222,14 @@ entries:
       - 1961-08-20T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1961-08-20.china-leadership-9
+    when: Aug. 20
+    date: '1961-08-20'
+    place: wuhan
+    thread: china-leadership
+    c: Zhu De 朱德 reaches Wuhan 武汉 and goes on by river steamer for Jiujiang 九江.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1812. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1961-08-21.states-and-cities-nyc
     when: Aug. 21
     date: '1961-08-21'
@@ -4381,6 +4461,14 @@ entries:
     c: Phạm Văn Đồng home to Hanoi from Kunming.
     n: '[[w.guan-vietnamese-communists-relations-with]], 200. Names: Phạm Văn Đồng.'
     tags: [polity:drv, name:pham-van-dong]
+  - id: cal.1961-08-21.china-leadership-9
+    when: Aug. 21
+    date: '1961-08-21'
+    place: lushan
+    thread: china-leadership
+    c: Zhu De 朱德 arrives at Lushan 庐山.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1812. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1961-08-22.economy
     when: Aug. 22
     date: '1961-08-22'
@@ -4647,7 +4735,7 @@ entries:
     place: lushan
     thread: china-leadership
     c: 'Lushan. The Central Work Conference, Mao presiding (its order set by the enlarged Standing Committee with the regional first secretaries, Aug. 23): grain, markets, the plans for 1961–62 and industry, the regulations for state enterprises and the higher schools, the training of cadres. Adopted: the Center''s directive on industry ("retreat where we must, and enough"; seven years of "adjust, consolidate, fill out, raise," three with adjustment first); the "Seventy Articles" on industry; the "Sixty Articles" on the higher schools; the decision on training cadres. Coal over 500 million and steel over 15 million tons for the two years; 1961''s steel from 11 to 8.5 million.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 23, 1961 (the entries for Aug. 23–Sept. 16 and Aug. 23). [[w.zhou-enlai-nianpu-1949]], II, 429, Aug. 23–Sept. 16, 1961 (the conference''s decisions as Zhou''s chronology lists them). [[w.macfarquhar-origins-of-the-cultural]], III, 67 (Mao''s opening remarks; the Rural Work Department''s report); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 538 (Aug. 23–Sept. 16, 1961; Liu attends the Central Work Conference at Lushan: industry, grain, finance and education; it makes the "Instruction on current industrial problems" and passes the Education Ministry''s directly run colleges'' work regulations (draft), the "Sixty Articles on Higher Education," and the work regulations of state industrial enterprises (draft), the "Seventy Articles on Industry"); [[w.deng-xiaoping-nianpu-1904]], III, 1656 (Aug. 23–Sept. 5, 1961; Deng attends; industry, grain, finance and trade, education; adopted, the draft regulations for state industrial enterprises and for the higher schools, the directive on current industrial problems, the decision on training cadres in rotation; seven years of readjustment, consolidation, filling out and raising standards; coal and steel the center; Deng sums up on Sept. 5 and leaves early for Korea; the conference ends Sept. 16. Aug. 23, Deng at Mao''s meeting of the Standing Committee and the regional first secretaries); [[w.mao-zedong-zhuan]], V, ch. 68 nn.20, 21 (Aug. 23, Lushan: Mao convenes the Standing Committee and the regional leaders to set the conference''s agenda, asks of the harvests and the sixty articles; socialist construction not yet understood, "we shall hit more nails"; the economy, he says, has reached bottom (Wang Renzhong''s diary); the conference runs Aug. 23 to Sept. 16). [[w.yang-jisheng-mubei]], II, 1174 (the second Lushan conference, Aug. 23–Sept. 16, 1961: grain, markets, the two-year plan, industry and its management; Mao holds the economy hit bottom in 1961 and is improving daily); [[w.dikotter-maos-great-famine]], 122 (Li Fuchun, the month after his July speech at Beidaihe, gives a similar report at a top-level party meeting at Lushan, again exempting Mao from responsibility; Mao praises it); [[w.jian-zhou-enlai]], 459 (Lushan, August: Zhou stresses the difficulties; Mao: the mistakes few, the low ebb reached, things to improve day by day); [[w.peng-zhen-nianpu-1902]], IV, 149 (Aug. 23–Sept. 16, 1961; Peng Zhen attends; industry, grain, finance and trade, education; the directive on present industrial questions revised under Deng; the draft regulations for state industrial enterprises; Zhou''s rules for grain in 1961–62; the provisional regulations for the colleges; the decision on retraining cadres); [[w.dikotter-maos-great-famine]], 166 n.13 (a report to the conference: 99.6 billion yuan spent on capital construction in the three years to September 1961, a further 9.2 billion on housing). Made public: 1996. Check: Yang Shangkun''s diary heads Aug. 24 "the work conference begins," its first plenary that afternoon ([[w.yang-shangkun-riji]], II, 62). Check: the day of Li Fuchun''s report at Lushan: [[w.dikotter-maos-great-famine]], 122, gives only "the following month" after July; Li Fuchun on the plan, Aug. 31: [[cal.1961-08-31.china-leadership]]. To check: the Working Regulations for State Industrial Enterprises (draft), Sept. 1961; [[w.bian-mao-zedong-he-tade]], 57–58 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 548–49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154b); [[w.rui-lushan-huiyi-shilu]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154c); Relayed record of Mao Zedong''s 毛泽东 speech to the Standing Committee and the regional leaders 中央常委和大区负责人会议, Lushan, Aug. 23, 1961 (传达记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.20); Wang Renzhong 王任重, diary, Aug. 23, 1961 (王任重日记) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.21); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], II, 1073 (cited by [[w.jian-zhou-enlai]], 459 n.76). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 23, 1961 (the entries for Aug. 23–Sept. 16 and Aug. 23). [[w.zhou-enlai-nianpu-1949]], II, 429, Aug. 23–Sept. 16, 1961 (the conference''s decisions as Zhou''s chronology lists them). [[w.macfarquhar-origins-of-the-cultural]], III, 67 (Mao''s opening remarks; the Rural Work Department''s report); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 538 (Aug. 23–Sept. 16, 1961; Liu attends the Central Work Conference at Lushan: industry, grain, finance and education; it makes the "Instruction on current industrial problems" and passes the Education Ministry''s directly run colleges'' work regulations (draft), the "Sixty Articles on Higher Education," and the work regulations of state industrial enterprises (draft), the "Seventy Articles on Industry"); [[w.deng-xiaoping-nianpu-1904]], III, 1656 (Aug. 23–Sept. 5, 1961; Deng attends; industry, grain, finance and trade, education; adopted, the draft regulations for state industrial enterprises and for the higher schools, the directive on current industrial problems, the decision on training cadres in rotation; seven years of readjustment, consolidation, filling out and raising standards; coal and steel the center; Deng sums up on Sept. 5 and leaves early for Korea; the conference ends Sept. 16. Aug. 23, Deng at Mao''s meeting of the Standing Committee and the regional first secretaries); [[w.mao-zedong-zhuan]], V, ch. 68 nn.20, 21 (Aug. 23, Lushan: Mao convenes the Standing Committee and the regional leaders to set the conference''s agenda, asks of the harvests and the sixty articles; socialist construction not yet understood, "we shall hit more nails"; the economy, he says, has reached bottom (Wang Renzhong''s diary); the conference runs Aug. 23 to Sept. 16). [[w.yang-jisheng-mubei]], II, 1174 (the second Lushan conference, Aug. 23–Sept. 16, 1961: grain, markets, the two-year plan, industry and its management; Mao holds the economy hit bottom in 1961 and is improving daily); [[w.dikotter-maos-great-famine]], 122 (Li Fuchun, the month after his July speech at Beidaihe, gives a similar report at a top-level party meeting at Lushan, again exempting Mao from responsibility; Mao praises it); [[w.jian-zhou-enlai]], 459 (Lushan, August: Zhou stresses the difficulties; Mao: the mistakes few, the low ebb reached, things to improve day by day); [[w.peng-zhen-nianpu-1902]], IV, 149 (Aug. 23–Sept. 16, 1961; Peng Zhen attends; industry, grain, finance and trade, education; the directive on present industrial questions revised under Deng; the draft regulations for state industrial enterprises; Zhou''s rules for grain in 1961–62; the provisional regulations for the colleges; the decision on retraining cadres); [[w.dikotter-maos-great-famine]], 166 n.13 (a report to the conference: 99.6 billion yuan spent on capital construction in the three years to September 1961, a further 9.2 billion on housing); [[w.zhu-de-nianpu-xinbian]], III, 1812–1813 (Aug. 23, 1961, morning, Zhu De 朱德 goes to Mao Zedong''s 毛泽东 for a meeting (上午); Aug. 23–Sept. 16, 1961, Zhu De at the Central Work Conference 中共中央工作会议 at Lushan 庐山 on industry, grain, finance and trade, education and the world, which adopts the draft Work Regulations for State Industrial Enterprises 《国营工业企业工作条例（草案）》 (the "Seventy Articles on industry" 工业七十条), the Center''s rules on grain work for 1961–62 《中共中央关于一九六一年到一九六二年度粮食工作的几项规定》, the draft provisional Work Regulations for the Higher Schools under the Ministry of Education 《教育部直属高等院校暂行工作条例（草案）》 (the "Sixty Articles on higher education" 高教六十条) and the decision on training cadres in rotation 《中共中央关于轮训干部的决定》, and the directive on present industrial questions 《关于当前工业问题的指示》, the eight-character policy of "adjustment, consolidation, filling out and raising standards" to be carried out unwaveringly for seven years). Made public: 1996. Check: Yang Shangkun''s diary heads Aug. 24 "the work conference begins," its first plenary that afternoon ([[w.yang-shangkun-riji]], II, 62). Check: the day of Li Fuchun''s report at Lushan: [[w.dikotter-maos-great-famine]], 122, gives only "the following month" after July; Li Fuchun on the plan, Aug. 31: [[cal.1961-08-31.china-leadership]]. To check: the Working Regulations for State Industrial Enterprises (draft), Sept. 1961; [[w.bian-mao-zedong-he-tade]], 57–58 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 548–49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154b); [[w.rui-lushan-huiyi-shilu]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 67 n.154c); Relayed record of Mao Zedong''s 毛泽东 speech to the Standing Committee and the regional leaders 中央常委和大区负责人会议, Lushan, Aug. 23, 1961 (传达记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.20); Wang Renzhong 王任重, diary, Aug. 23, 1961 (王任重日记) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.21); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], II, 1073 (cited by [[w.jian-zhou-enlai]], 459 n.76). Names: Mao Zedong.'
     src:
       c: ddfbd867
       rows:
@@ -4668,6 +4756,7 @@ entries:
         - 'w.jian-zhou-enlai 459: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 149: ?'
         - 'w.dikotter-maos-great-famine 166 n.13: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1812–1813: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-08-23.china-leadership-6
     when: Aug. 23
@@ -4711,11 +4800,12 @@ entries:
     thread: china-leadership
     also: [africa-algeria-morocco]
     c: Zhu De replies by cable to Fares, president of Tunisia's National Assembly, sternly condemning the French crimes in their aggression against Tunisia, and firmly backs the Tunisian people's just struggle.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 203 (Aug. 23, 1961). Names: Zhu De. Check: the president is 法雷斯 in the book.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 203 (Aug. 23, 1961); [[w.zhu-de-nianpu-xinbian]], III, 1812 (Aug. 23, 1961; Zhu De 朱德 replies by cable to Fares 法雷斯, President of Tunisia''s National Assembly, on his cable of July 27 asking China to condemn the French colonialists'' aggression against Tunisia and back the Tunisian people''s just struggle, and gives his support). Names: Zhu De. Check: the president is 法雷斯 in the book.'
     src:
       c: dc67ce00
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 203: all'
+        - 'w.zhu-de-nianpu-xinbian III, 1812: ?'
     tags: [polity:prc, polity:tunisia, polity:fr, name:zhu-de]
   - id: cal.1961-08-23.china-leadership-8
     when: Aug. 23
@@ -5209,6 +5299,23 @@ entries:
         - 'w.yang-jisheng-mubei II, 957: all'
         - 'via w.yang-jisheng-mubei II, 957 n.69: all'
     tags: [polity:prc, vis:only:prc, name:li-xiannian]
+  - id: cal.1961-08-26.china-leadership-4
+    when: Aug. 26
+    date: '1961-08-26'
+    thread: china-leadership
+    c: 'Zhu De 朱德 to Deng Xiaoping 邓小平, for the Center''s 中央 departments, proposing support for the Yaohua glass works 耀华玻璃厂 at Qinhuangdao 秦皇岛 as a key producer: he saw it in late July; well founded in plant and skill, but short of some raw materials, its main products will fall far below last year''s; under the eight-character policy, works to be stopped, cut, kept or raised as the case is, and this one to be kept and raised, its goods exports wanted at home and abroad, the soda ash, borax and other materials it needs hard to get but small in amount.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1813. Made public: 2016. Names: Zhu De, Deng Xiaoping.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-08-26.china-leadership-5
+    when: Aug. 26
+    date: '1961-08-26'
+    time: 1961-08-26T09:30Z
+    place: lushan
+    thread: china-leadership
+    c: Lushan 庐山. Zhu De 朱德 goes to Mao Zedong's 毛泽东 for a meeting.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1813. The words: 下午五时半 (1813). Made public: 2016. Names: Zhu De, Mao Zedong.'
+    tags: [polity:prc, name:zhu-de, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-27.opinion-5
     when: Aug. 27
     date: '1961-08-27'

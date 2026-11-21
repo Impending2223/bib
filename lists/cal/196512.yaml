@@ -351,15 +351,21 @@ entries:
   - id: cal.1965-12-02.china-leadership
     when: Dec. 2
     date: '1965-12-02'
+    place: peking
     thread: china-leadership
     c: Zhou, with Zhu De, Peng Zhen, He Long and others, attends the dinner Li Zongren gives to thank the Party and state leaders and the heads of the democratic parties, and toasts.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 2, 1965); [[w.peng-zhen-nianpu-1902]], IV, 451 (Dec. 2, 1965, noon; Peng Zhen, with Zhou Enlai and Zhu De, at Li Zongren''s banquet of thanks to the leaders of Party, state and democratic parties). Names: Zhou Enlai, Zhu De, Peng Zhen, He Long, Li Zongren.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 2, 1965); [[w.peng-zhen-nianpu-1902]], IV, 451 (Dec. 2, 1965, noon; Peng Zhen, with Zhou Enlai and Zhu De, at Li Zongren''s banquet of thanks to the leaders of Party, state and democratic parties); [[w.liu-jixian-ye-jianying-nianpu]], II, 932 (Dec. 2, 1965; Ye Jianying 叶剑英 at the banquet in Peking 北京 welcoming Li Zongren 李宗仁 home). Names: Zhou Enlai, Zhu De, Peng Zhen, He Long, Li Zongren.'
     tags: [name:zhou-enlai, name:zhu-de, name:peng-zhen, name:he-long, polity:prc]
     time_range:
       - 1965-12-02T04:00Z
       - 1965-12-02T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+    variants:
+      - unit: A
+        witness: w.liu-jixian-ye-jianying-nianpu
+        reads: the banquet given by Zhou Enlai and Zhu De, welcoming Li Zongren home from abroad
+        at: II, 932
   - id: cal.1965-12-02.china-leadership-2
     when: Dec. 2
     date: '1965-12-02'
@@ -480,6 +486,18 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 450: all'
     tags: [polity:prc, name:yao-wenyuan, ok:fields-place]
+  - id: cal.1965-12-02.china
+    when: Dec. 2
+    date: '1965-12-02'
+    thread: china
+    c: Bundy to Johnson, a memorandum.
+    n: '[[w.chang-friends-and-enemies]], 271 n.38 (cited, with Bundy''s memoranda to the President of Dec. 16, 1964 and Aug. 24 and Dec. 2, 1965, Thomson to Bundy of Aug. 21, 1965 and the record of the Baguio conference of 1966, for the pressure inside and outside the government for a change in China policy: Thomson and Hilsman, the mission chiefs in the Far East, Senators Edward Kennedy and Mansfield, and Paul Dudley White, who sought leave in 1965 to visit China). Made public: 1990 ([[w.chang-friends-and-enemies]], 271 n.38). To check: Bundy memo to the President, Dec. 2, 1965, Johnson Papers, NSF, Aides, Bundy Memos to President, box 5, vol. 17, 11/20/65–12/31/65 (cited by [[w.chang-friends-and-enemies]], 271 n.38e). See [[cal.1965-08-24.china]]. Names: Bundy, Johnson.'
+    src:
+      c: 27845dfa
+      rows:
+        - 'w.chang-friends-and-enemies 271 n.38: all'
+        - 'via x.1965-12-02.bundy-memo-to-president: all'
+    tags: [polity:us, vis:only:us, name:bundy-mcgeorge, name:johnson-lyndon-b]
   - id: cal.1965-12-03.alabama
     when: Dec. 3
     date: '1965-12-03'
@@ -535,7 +553,7 @@ entries:
     thread: vietnam-pause
     also: [vietnam-force-levels]
     c: 'Two meetings, Rusk, McNamara, McGeorge Bundy, Ball, William Bundy, U. Alexis Johnson, Vance in the afternoon. Johnson, by Bundy, wants a full package: Phase II, a pause, diplomacy, Congress consulted, perhaps a resolution. McNamara: "Do we want a war with China?"; "You can''t stop 200 tons [of infiltrated supplies] a day by bombing." Bundy to Johnson: deployments of some 15,000 a month accepted for planning, as "undramatic as possible"; "The open question is the pause."'
-    n: '[FRUS 1964–68, III, doc. 214](https://history.state.gov/historicaldocuments/frus1964-68v03/d214) (Bundy''s telegram). [[w.gibbons-u-s-government-and]], IV, 116–17 (the meetings, by Bundy''s notes). To check: McGeorge Bundy, notes of the meeting of Dec. 3, 1965, McGeorge Bundy Notes on Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 116 n.12). Made public: FRUS 1964–68, III (1996). See [[cal.1965-12-02.vietnam-pause]]. Check: Rusk''s Appointment Book gives the meetings 12:30 to about 3 p.m. and 6:03 to 7:52 p.m., William Bundy at neither (FRUS 1964–68, III, doc. 214 n.2). Check: Gibbons cites the 200 tons to the memorandum to the Ranch (IV, 117 n.14, "Ibid."); FRUS''s text of it does not have it. Names: Rusk, McNamara, McGeorge Bundy, Ball, William Bundy, U. Alexis Johnson, Vance, Johnson.'
+    n: '[FRUS 1964–68, III, doc. 214](https://history.state.gov/historicaldocuments/frus1964-68v03/d214) (Bundy''s telegram). [[w.gibbons-u-s-government-and]], IV, 116–17 (the meetings, by Bundy''s notes); [[w.chang-friends-and-enemies]], 270 (Rusk, McNamara and others express growing fears of an American clash with China; 270 n.34a, Bundy to Johnson, Dec. 3, 1965). To check: McGeorge Bundy, notes of the meeting of Dec. 3, 1965, McGeorge Bundy Notes on Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 116 n.12). Made public: FRUS 1964–68, III (1996). See [[cal.1965-12-02.vietnam-pause]]. Check: Rusk''s Appointment Book gives the meetings 12:30 to about 3 p.m. and 6:03 to 7:52 p.m., William Bundy at neither (FRUS 1964–68, III, doc. 214 n.2). Check: Gibbons cites the 200 tons to the memorandum to the Ranch (IV, 117 n.14, "Ibid."); FRUS''s text of it does not have it. Names: Rusk, McNamara, McGeorge Bundy, Ball, William Bundy, U. Alexis Johnson, Vance, Johnson.'
     src:
       c: cfde2d51
       rows:
@@ -545,6 +563,7 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 116 n.13: A'
         - 'via w.gibbons-u-s-government-and IV, 117 n.14: D'
         - 'via w.gibbons-u-s-government-and IV, 117 n.15: E-F'
+        - 'w.chang-friends-and-enemies 270: ?'
     tags: [name:rusk-dean, name:mcnamara-robert-s, name:bundy-mcgeorge, name:ball-george-w, name:bundy-william, name:johnson-u-alexis, name:vance-cyrus, name:johnson-lyndon-b]
     time_range:
       - 1965-12-03T14:00Z
@@ -676,6 +695,13 @@ entries:
       - 1965-12-03T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-12-03.china-leadership-4
+    when: Dec. 3
+    date: '1965-12-03'
+    thread: china-leadership
+    c: 'Ye Jianying 叶剑英 writes the poem "In memory of Comrade Wang Jie" 《纪念王杰同志》 (Wang Jie 王杰, a soldier killed July 4, 1965, saving twelve militiamen in training): to hear the Way in the morning and die at evening; glad to be a fallen flower that reddens the mud.'
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 933. Names: Ye Jianying.'
+    tags: [polity:prc, ok:fields-time, ok:fields-place, name:ye-jianying]
   - id: cal.1965-12-04.vietnam-pause
     when: Dec. 4
     date: '1965-12-04'
@@ -1588,7 +1614,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao presides over an enlarged Politburo Standing Committee, Shanghai, opening Dec. 8 (to Dec. 15), on the "Luo Ruiqing question". Lin Biao, Ye Qun, Wu Faxian and Li Zuopeng charge Luo with opposing "putting politics first" and "usurping the army"; Ye Qun speaks three times, about ten hours, alleging Luo pressed Lin to give way. Five points fixed: the matter serious, the means vile; different from Peng and Huang; his record some achievement; "learn from the past" and "cure the sick"; the leadership partly to blame. Two steps, transfer, no face-to-face, cool handling. After it, Luo removed from his military posts, Yang Chengwu acting chief of staff.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 8, 1965 ("12月8日一15日"). [[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 8–15, 1965: Zhou attends in Shanghai the enlarged Standing Committee under Mao, at which Lin Biao, Ye Qun, Wu Faxian and Li Zuopeng spring a surprise attack on Luo Ruiqing, charging him with opposing "putting politics first" and "usurping the army and opposing the Party"; Luo is moved from military leadership and Yang Chengwu acts as chief of the General Staff); [[w.macfarquhar-maos-last-revolution]], 25–26 (the session of Dec. 8, sixty-one present; Ye Qun''s three speeches, ten hours; Lin Biao, Li Zuopeng and Wu Faxian in support); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 629–630 (Dec. 8–15, 1965; Liu attends the enlarged meeting of the Politburo Standing Committee held at Shanghai under Mao, which discusses the "problems" of Luo Ruiqing; the book says Lin Biao, Ye Qun, Wu Faxian, Li Zuopeng and others framed charges and attacked Luo by surprise, and he was removed from his posts; footnotes 1–4 (629) give their posts at the time: Luo, Secretary of the Secretariat, Vice-Premier and Chief of the General Staff; Ye Qun, director of Lin Biao''s office; Wu, commander of the air force; Li, deputy commander of the navy); [[w.macfarquhar-origins-of-the-cultural]], III, 450 (Ye Qun the chief witness, speaking ten hours, backed by Lin Biao, Wu Faxian and Li Zuopeng; Liu Shaoqi, Zhou Enlai and Deng Xiaoping taken aback; after it Mao has Zhou and Deng investigate); [[w.yang-shangkun-riji]], II, 695 (Dec. 8, 1965; Yang learns that the members of the Standing Committee have all gone to Shanghai for a meeting; the editors'' note: the enlarged Standing Committee, Dec. 8 to 15; the words: 得知常委各同志都去上海开会去了); [[w.deng-xiaoping-nianpu-1904]], III, 1886–1887 (Dec. 8–15, 1965; Deng at the enlarged Politburo Standing Committee meeting Mao presides over at Shanghai, on the Luo Ruiqing 罗瑞卿 question; there Lin Biao, Ye Qun 叶群 (footnote: then director of Lin''s office), Wu Faxian 吴法宪 (commander of the Air Force) and Li Zuopeng 李作鹏 (deputy commander of the Navy) list charges against Luo, slandering him as ''opposing putting politics first'' and ''usurping the army and opposing the Party'', in a sudden attack, and Luo is moved from his military leading post); [[w.mao-zedong-zhuan]], VI, ch. 74 (Dec. 8–16 at Shanghai Mao presides at the enlarged Standing Committee, whose members learn only at the opening that it is to criticize Luo Ruiqing; Ye Qun speaks three times, some ten hours; Luo called to Shanghai Dec. 11 and given no chance to answer). [[w.yang-jisheng-tiandi-fanfu]], II, 1143 (Dec. 8 to 15, to criticize Luo Ruiqing; Luo removed as chief of staff at its end); [[w.peng-zhen-nianpu-1902]], IV, 452 (Dec. 8–16, 1965; Peng Zhen stays in Peking to run the Center''s work while the enlarged Standing Committee meets at Shanghai; Lin Biao, Ye Qun, Wu Faxian and Li Zuopeng charge Luo Ruiqing with opposing "putting politics first" and "seeking power and opposing the Party"; Luo moved from military leadership, Yang Chengwu 杨成武 acting chief of staff); [[w.jian-zhou-enlai]], 531 (the conference on Luo opens Dec. 8 and lasts a week; at the Standing Committee''s first sitting Mao calls Luo an "ambitious schemer" whose "worldview is different from ours," who "has virtually treated Comrade Lin Biao as an enemy"; then widened to the Politburo, ministers and commanders; Ye Qun speaks for Lin three times, ten hours in all: Luo would not be satisfied "unless Comrade Lin Biao let him be the minister of defense"); [[w.khoo-collateral-damage]], 28 (Luo Ruiqing, head of the Leading Group on Vietnamese Affairs until his purge in December 1965; Li Xiannian in charge after); [[w.pu-weihua-zalan-jiu-shijie]], 28–29 (sixty-one present, thirty-four of them senior officers; none but Mao and Lin Biao knew the subject beforehand; no notes allowed; Mao: Luo''s thinking distant from ours, he treats Lin as an enemy, a careerist; Mao has Ye Qun called from Suzhou to speak; three speeches, ten hours, her chief proof the four points Liu Yalou passed her before his death for Lin: to leave the political stage in time, guard his health, leave the army to others, give Luo a free hand; and Liu''s word that Luo would not forget her; Wu Faxian, in a speech of over 10,000 characters, that Liu Yalou had told him the four points too). Made public: 1996. To check: [[w.nianyi-da-dongluande-niandai-revised]], 87–88 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48a); [[w.yao-san-ci-da-nan]], 285, 288 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48b); [[w.jianping-fengyun-zhongde-gongheguo-dajiang]], 321 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48c); [[w.nianyi-da-dongluande-niandai-revised]], 381 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.49); [[w.ping-kaiguo-zongli-zhou-enlai]], 457 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 450 n.115); Wang Renzhong 王任重, diary 日记, Dec. 28, 1965 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.22); [[w.qiu-huizuo-huiyilu]], 377–379; [[w.li-zuopeng-huiyilu]], 537–538 (cited by [[w.jian-zhou-enlai]], 531 n.56a, n.56b); [[w.jian-maos-china-and-the]], 357 (cited by [[w.khoo-collateral-damage]], 28 n.142); Li Xuefeng 李雪峰, 〈我所知道的「文革」發動內情〉, in Zhang Hua 張化 and Su Caiqing 蘇採青, eds., *Huishou "wenge"* 《回首「文革」》 (2003), II, 595 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 28 n.47). Names: Mao Zedong, Lin Biao, Ye Qun, Wu Faxian, Li Zuopeng, Luo Ruiqing, Yang Chengwu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 8, 1965 ("12月8日一15日"). [[w.zhou-enlai-nianpu-1949]], II, 768 (Dec. 8–15, 1965: Zhou attends in Shanghai the enlarged Standing Committee under Mao, at which Lin Biao, Ye Qun, Wu Faxian and Li Zuopeng spring a surprise attack on Luo Ruiqing, charging him with opposing "putting politics first" and "usurping the army and opposing the Party"; Luo is moved from military leadership and Yang Chengwu acts as chief of the General Staff); [[w.macfarquhar-maos-last-revolution]], 25–26 (the session of Dec. 8, sixty-one present; Ye Qun''s three speeches, ten hours; Lin Biao, Li Zuopeng and Wu Faxian in support); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 629–630 (Dec. 8–15, 1965; Liu attends the enlarged meeting of the Politburo Standing Committee held at Shanghai under Mao, which discusses the "problems" of Luo Ruiqing; the book says Lin Biao, Ye Qun, Wu Faxian, Li Zuopeng and others framed charges and attacked Luo by surprise, and he was removed from his posts; footnotes 1–4 (629) give their posts at the time: Luo, Secretary of the Secretariat, Vice-Premier and Chief of the General Staff; Ye Qun, director of Lin Biao''s office; Wu, commander of the air force; Li, deputy commander of the navy); [[w.macfarquhar-origins-of-the-cultural]], III, 450 (Ye Qun the chief witness, speaking ten hours, backed by Lin Biao, Wu Faxian and Li Zuopeng; Liu Shaoqi, Zhou Enlai and Deng Xiaoping taken aback; after it Mao has Zhou and Deng investigate); [[w.yang-shangkun-riji]], II, 695 (Dec. 8, 1965; Yang learns that the members of the Standing Committee have all gone to Shanghai for a meeting; the editors'' note: the enlarged Standing Committee, Dec. 8 to 15; the words: 得知常委各同志都去上海开会去了); [[w.deng-xiaoping-nianpu-1904]], III, 1886–1887 (Dec. 8–15, 1965; Deng at the enlarged Politburo Standing Committee meeting Mao presides over at Shanghai, on the Luo Ruiqing 罗瑞卿 question; there Lin Biao, Ye Qun 叶群 (footnote: then director of Lin''s office), Wu Faxian 吴法宪 (commander of the Air Force) and Li Zuopeng 李作鹏 (deputy commander of the Navy) list charges against Luo, slandering him as ''opposing putting politics first'' and ''usurping the army and opposing the Party'', in a sudden attack, and Luo is moved from his military leading post); [[w.mao-zedong-zhuan]], VI, ch. 74 (Dec. 8–16 at Shanghai Mao presides at the enlarged Standing Committee, whose members learn only at the opening that it is to criticize Luo Ruiqing; Ye Qun speaks three times, some ten hours; Luo called to Shanghai Dec. 11 and given no chance to answer). [[w.yang-jisheng-tiandi-fanfu]], II, 1143 (Dec. 8 to 15, to criticize Luo Ruiqing; Luo removed as chief of staff at its end); [[w.peng-zhen-nianpu-1902]], IV, 452 (Dec. 8–16, 1965; Peng Zhen stays in Peking to run the Center''s work while the enlarged Standing Committee meets at Shanghai; Lin Biao, Ye Qun, Wu Faxian and Li Zuopeng charge Luo Ruiqing with opposing "putting politics first" and "seeking power and opposing the Party"; Luo moved from military leadership, Yang Chengwu 杨成武 acting chief of staff); [[w.jian-zhou-enlai]], 531 (the conference on Luo opens Dec. 8 and lasts a week; at the Standing Committee''s first sitting Mao calls Luo an "ambitious schemer" whose "worldview is different from ours," who "has virtually treated Comrade Lin Biao as an enemy"; then widened to the Politburo, ministers and commanders; Ye Qun speaks for Lin three times, ten hours in all: Luo would not be satisfied "unless Comrade Lin Biao let him be the minister of defense"); [[w.khoo-collateral-damage]], 28 (Luo Ruiqing, head of the Leading Group on Vietnamese Affairs until his purge in December 1965; Li Xiannian in charge after); [[w.pu-weihua-zalan-jiu-shijie]], 28–29 (sixty-one present, thirty-four of them senior officers; none but Mao and Lin Biao knew the subject beforehand; no notes allowed; Mao: Luo''s thinking distant from ours, he treats Lin as an enemy, a careerist; Mao has Ye Qun called from Suzhou to speak; three speeches, ten hours, her chief proof the four points Liu Yalou passed her before his death for Lin: to leave the political stage in time, guard his health, leave the army to others, give Luo a free hand; and Liu''s word that Luo would not forget her; Wu Faxian, in a speech of over 10,000 characters, that Liu Yalou had told him the four points too); [[w.liu-jixian-ye-jianying-nianpu]], II, 933 (Dec. 8–15, 1965; Mao Zedong''s 毛泽东 enlarged Politburo Standing Committee at Shanghai 上海 on Luo Ruiqing''s 罗瑞卿 so-called "problem": Lin Biao 林彪, Ye Qun 叶群, Wu Faxian 吴法宪 and Li Zuopeng 李作鹏 frame him as "against giving politics prominence" and "seizing the army and opposing the Party"; then Luo removed from his military posts). Made public: 1996. To check: [[w.nianyi-da-dongluande-niandai-revised]], 87–88 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48a); [[w.yao-san-ci-da-nan]], 285, 288 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48b); [[w.jianping-fengyun-zhongde-gongheguo-dajiang]], 321 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.48c); [[w.nianyi-da-dongluande-niandai-revised]], 381 (cited by [[w.macfarquhar-maos-last-revolution]], 25 n.49); [[w.ping-kaiguo-zongli-zhou-enlai]], 457 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 450 n.115); Wang Renzhong 王任重, diary 日记, Dec. 28, 1965 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.22); [[w.qiu-huizuo-huiyilu]], 377–379; [[w.li-zuopeng-huiyilu]], 537–538 (cited by [[w.jian-zhou-enlai]], 531 n.56a, n.56b); [[w.jian-maos-china-and-the]], 357 (cited by [[w.khoo-collateral-damage]], 28 n.142); Li Xuefeng 李雪峰, 〈我所知道的「文革」發動內情〉, in Zhang Hua 張化 and Su Caiqing 蘇採青, eds., *Huishou "wenge"* 《回首「文革」》 (2003), II, 595 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 28 n.47). Names: Mao Zedong, Lin Biao, Ye Qun, Wu Faxian, Li Zuopeng, Luo Ruiqing, Yang Chengwu.'
     src:
       c: 6276a8e5
       rows:
@@ -1606,6 +1632,7 @@ entries:
         - 'w.jian-zhou-enlai 531: ?'
         - 'w.khoo-collateral-damage 28: ?'
         - 'w.pu-weihua-zalan-jiu-shijie 28–29: A, C'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 933: ?'
     tags: [name:mao-zedong, name:lin-biao, name:ye-qun, name:wu-faxian, name:li-zuopeng, name:luo-ruiqing, polity:prc, vis:only:prc]
     variants:
       - unit: I
@@ -3458,7 +3485,7 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou attends the capital's meeting for the fifth anniversary of the National Liberation Front of South Vietnam.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 19, 1965); [[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 19, 1965; afternoon; the rally of ten thousand in the capital for the fifth anniversary of the National Liberation Front of South Vietnam, with 2,300 foreign friends from over forty states also attending); [[w.peng-zhen-nianpu-1902]], IV, 455 (Dec. 19, 1965, afternoon; the Great Hall of the People; Peng Zhen speaks: the South Vietnamese people''s victories show again that U.S. imperialism is a paper tiger; 650 million Chinese ready to help defeat it; however far the war widens, victory the Vietnamese people''s); [[w.chen-yi-nianpu]], 1134 (Dec. 19, 1965, afternoon; Chen Yi at the rally). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 19, 1965); [[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 19, 1965; afternoon; the rally of ten thousand in the capital for the fifth anniversary of the National Liberation Front of South Vietnam, with 2,300 foreign friends from over forty states also attending); [[w.peng-zhen-nianpu-1902]], IV, 455 (Dec. 19, 1965, afternoon; the Great Hall of the People; Peng Zhen speaks: the South Vietnamese people''s victories show again that U.S. imperialism is a paper tiger; 650 million Chinese ready to help defeat it; however far the war widens, victory the Vietnamese people''s); [[w.chen-yi-nianpu]], 1134 (Dec. 19, 1965, afternoon; Chen Yi at the rally); [[w.liu-jixian-ye-jianying-nianpu]], II, 933 (Dec. 19, 1965, afternoon; Ye Jianying 叶剑英 at the capital''s rally for the fifth anniversary of the National Liberation Front of South Vietnam 越南南方民族解放阵线). Names: Zhou Enlai.'
     src:
       c: e34d804a
       rows:
@@ -3466,6 +3493,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 487: A'
         - 'w.peng-zhen-nianpu-1902 IV, 455: ?'
         - 'w.chen-yi-nianpu 1134: ?'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 933: ?'
     tags: [name:zhou-enlai, polity:prc, polity:drv]
     time_range:
       - 1965-12-19T04:00Z
@@ -3494,7 +3522,7 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Chen Yi 陈毅 at the banquet of Ye Jianying 叶剑英, Vice-Chairman of the National Defense Council, for the Front's fifth anniversary and the Vietnam People's Army's twenty-first.
-    n: '[[w.chen-yi-nianpu]], 1134. The words: 晚上 (1134). Names: Chen Yi, Ye Jianying.'
+    n: '[[w.chen-yi-nianpu]], 1134; [[w.liu-jixian-ye-jianying-nianpu]], II, 933 (Dec. 19, 1965; Ye Jianying 叶剑英, as vice-chairman of the National Defense Council 国防委员会, gives the banquet for the fifth anniversary of the National Liberation Front of South Vietnam 越南南方民族解放战线 and the twenty-first of the Vietnam People''s Army 越南人民军). The words: 晚上 (1134). Names: Chen Yi, Ye Jianying.'
     tags: [polity:prc, polity:nlf, polity:drv, name:chen-yi, name:ye-jianying, ok:fields-place]
     time_range:
       - 1965-12-19T11:00Z
@@ -4237,6 +4265,16 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 456: all'
     tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc, ok:fields-place]
+  - id: cal.1965-12-23.china-leadership-3
+    when: Dec. 23
+    date: '1965-12-23'
+    thread: china-leadership
+    c: Peng Zhen 彭真 talks with Mao 毛泽东 alone. Afterward, by Kang Sheng's 康生 account to the enlarged Politburo of May 1966, Peng says Mao wants a political conclusion on Wu Han 吴晗 only in two months, politics to be taken up after two months, the discussion opened now; and he takes charge and presses the left.
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 76 (Kang Sheng''s account, May 5–6, 1966). Made public: 2008. See [[cal.1965-12-22.china-leadership]]. Names: Peng Zhen, Mao Zedong, Kang Sheng. Check: whether this is the talk of Dec. 22 ([[cal.1965-12-22.china-leadership]]), at which Kang Sheng was present.'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 76: all'
+    tags: [polity:prc, vis:only:prc, name:peng-zhen, name:mao-zedong, name:kang-sheng]
   - id: cal.1965-12-24.vietnam
     when: Dec. 24–25
     date: '1965-12-24'
@@ -4519,12 +4557,13 @@ entries:
     date: '1965-12-26'
     thread: china-leadership
     c: On his birthday, by Chinese count 72, Mao gives his son Mao Anqing 毛岸青 and daughter-in-law Shao Hua 邵华, who have come to wish him long life, a copy in his hand of Ye Jianying's 叶剑英 regulated verse "Huaiyuan 怀远", retitled "Yuanwang 远望", with "at Bangchui Island 棒棰岛, Dalian 大连" added under the title.
-    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 187–188 (Dec. 26, 1965; the manuscript; the poem printed in *Guangming ribao*, Oct. 16, 1965). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). Names: Mao Zedong, Ye Jianying, Mao Anqing, Shao Hua.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 187–188 (Dec. 26, 1965; the manuscript; the poem printed in *Guangming ribao*, Oct. 16, 1965); [[w.liu-jixian-ye-jianying-nianpu]], II, 932 (Dec. 26, 1965; Mao Zedong 毛泽东, on his seventy-second birthday, writes out Ye Jianying''s 叶剑英 poem "Looking afar" 《远望》 in his own hand for Mao Anqing 毛岸青 and Shao Hua 邵华, in praise of it). Made public: 2007 ([[w.liu-jixian-ye-jianying-nianpu]], II, 932). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). Names: Mao Zedong, Ye Jianying, Mao Anqing, Shao Hua.'
     src:
       c: f5a9fdf2
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 187–188: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 187 n.1: all'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 932: ?'
     tags: [polity:prc, name:mao-zedong, name:ye-jianying, vis:only:prc]
   - id: cal.1965-12.china-leadership-3
     when: Dec. 26–27
@@ -4533,13 +4572,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Shanghai. Peng Zhen meets Zhang Chunqiao. Zhang assures him it is all a scholarly discussion and proposes how it should proceed. Peng approves, and promises Zhang a Peking duck dinner in the capital when the debate has run its course.
-    n: '[[w.macfarquhar-maos-last-revolution]], 18–19; [[w.yang-jisheng-tiandi-fanfu]], I, 119 (Dec. 26 and 27: the Shanghai committee reports to Peng Zhen that Yao Wenyuan''s article was published on Mao''s instruction at the September work conference; Peng gives no view; Yao''s article too to be "divided in two"; Wu Han''s case to be discussed as academic; Shanghai should not have put the *Jiefangjun bao*''s note first; Wu Han a leftist in the democratic revolution and against the rightists, Deng Tuo a leftist, "I told him to write" the Xiang Yangsheng article); [[w.peng-zhen-nianpu-1902]], IV, 456 (Dec. 26, 1965; Peng Zhen arrives at Shanghai; to Zhang Chunqiao: Wu Han a leftist in the democratic revolution and in the anti-rightist struggle, has written a self-examination since Yao''s article, to be published; Deng Tuo a leftist, his article as Xiang Yangsheng discussed by the municipal Secretariat). Made public: 2006. To check: [[w.pixian-chen-pixian-huiyilu]], 36 (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.16). Names: Peng Zhen, Zhang Chunqiao. The day: Yang has the Shanghai committee''s report to Peng on Dec. 26 and 27 ([[w.yang-jisheng-tiandi-fanfu]], I, 119); MacFarquhar (18) places the meeting after Peng''s December instruction to Deng Tuo.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 18–19; [[w.yang-jisheng-tiandi-fanfu]], I, 119 (Dec. 26 and 27: the Shanghai committee reports to Peng Zhen that Yao Wenyuan''s article was published on Mao''s instruction at the September work conference; Peng gives no view; Yao''s article too to be "divided in two"; Wu Han''s case to be discussed as academic; Shanghai should not have put the *Jiefangjun bao*''s note first; Wu Han a leftist in the democratic revolution and against the rightists, Deng Tuo a leftist, "I told him to write" the Xiang Yangsheng article); [[w.peng-zhen-nianpu-1902]], IV, 456 (Dec. 26, 1965; Peng Zhen arrives at Shanghai; to Zhang Chunqiao: Wu Han a leftist in the democratic revolution and in the anti-rightist struggle, has written a self-examination since Yao''s article, to be published; Deng Tuo a leftist, his article as Xiang Yangsheng discussed by the municipal Secretariat); [[w.pu-weihua-zalan-jiu-shijie]], 78 (by Zhang Chunqiao''s account: Peng Zhen at Shanghai Dec. 26, 1965, to pull the criticism right: Yao''s article too to be "divided in two"; the Shanghai papers wrong to put the *Jiefangjun bao*''s note first). Made public: 2006. To check: [[w.pixian-chen-pixian-huiyilu]], 36 (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.16). Names: Peng Zhen, Zhang Chunqiao. The day: Yang has the Shanghai committee''s report to Peng on Dec. 26 and 27 ([[w.yang-jisheng-tiandi-fanfu]], I, 119); MacFarquhar (18) places the meeting after Peng''s December instruction to Deng Tuo.'
     src:
       c: 14dddd79
       rows:
         - 'w.macfarquhar-maos-last-revolution 18–19: all'
         - 'w.yang-jisheng-tiandi-fanfu I, 119: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 456: ?'
+        - 'w.pu-weihua-zalan-jiu-shijie 78: A'
     tags: [polity:prc, name:peng-zhen, name:zhang-chunqiao, vis:only:prc]
   - id: cal.1965-12-27.vietnam
     when: Dec. 27
@@ -4660,9 +4700,10 @@ entries:
   - id: cal.1965-12-27.china-leadership
     when: Dec. 27
     date: '1965-12-27'
+    place: peking
     thread: china-leadership
     c: Zhou, with Deng, Li Fuchun, Xu Xiangqian, Ye Jianying and others, goes to the airport to meet the ashes of Lai Chuanzhu, political commissar of the Shenyang Military Region, flown from Shenyang, and escorts them to the Babaoshan Revolutionary Cemetery.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 770 (Dec. 27, 1965). Names: Zhou Enlai, Deng Xiaoping, Li Fuchun, Xu Xiangqian, Ye Jianying, Lai Chuanzhu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 770 (Dec. 27, 1965); [[w.liu-jixian-ye-jianying-nianpu]], II, 933 (Dec. 27, 1965; Ye Jianying 叶剑英 with Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Li Fuchun 李富春, Xu Xiangqian 徐向前 and others at the airport for the ashes of Lai Chuanzhu 赖传珠, political commissar of the Shenyang Military Region 沈阳军区, and with them to the Babaoshan Revolutionary Cemetery 八宝山革命公墓). Names: Zhou Enlai, Deng Xiaoping, Li Fuchun, Xu Xiangqian, Ye Jianying, Lai Chuanzhu.'
     tags: [name:zhou-enlai, name:deng-xiaoping, name:li-fuchun, name:xu-xiangqian, name:ye-jianying, polity:prc]
   - id: cal.1965-12-27.china-leadership-2
     when: Dec. 27
@@ -5032,11 +5073,12 @@ entries:
     place: peking
     thread: china-leadership
     c: The *Renmin ribao* 人民日报 prints Fang Qiu's 方求 "What social trend does *Hai Rui Dismissed from Office* stand for?" 《〈海瑞罢官〉代表一种什么社会思潮》, written under Zhou Yang 周扬; with Deng Tuo's 邓拓 article, an academic criticism of the "upright official" and "moral inheritance."
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 457. See [[cal.1965-12.china-leadership-5]].'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 457; [[w.pu-weihua-zalan-jiu-shijie]], 54–55 (organized by the Propaganda Department, guided and approved by Zhou Yang; it brands Wu Han "anti-Marxist" and "anti-socialist" and *On Hai Rui* and the play a portrait and paean of right opportunists dismissed from office; it criticizes Tian Han and Meng Chao in passing; written by Gong Yuzhi, Lin Ganquan, Xing Bisi and Dai Yi). See [[cal.1965-12.china-leadership-5]].'
     src:
       c: dda24a80
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 457: all'
+        - 'w.pu-weihua-zalan-jiu-shijie 54–55: ?'
     tags: [polity:prc, ok:fields-place]
   - id: cal.1965-12-30.congress
     when: Dec. 30
@@ -5805,13 +5847,15 @@ entries:
     at: after 1965-12-22
     thread: china-leadership
     c: Tian Jiaying tries to cut Mao's words on Peng Dehuai and Hai Rui from the record of the Hangzhou talks.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 453 n.130. Made public: 1990 ([[w.yonglie-chen-boda-qiren]]). To check: [[w.yonglie-chen-boda-qiren]], 228–30 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.130b); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 492–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.130c). Names: Mao Zedong, Peng Dehuai.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 453 n.130; [[w.pu-weihua-zalan-jiu-shijie]], 76 (by Kang Sheng''s account to the enlarged Politburo, May 5–6, 1966: in writing up Mao''s talk of Dec. 21, Guan Feng and others would keep the dismissal, Lushan and Peng Dehuai in, Tian Jiaying and Hu Sheng against, so that the record was written up two ways; Peng Zhen sent the Center''s comrades the one without the dismissal); [[w.pu-weihua-zalan-jiu-shijie]], 112 (at the end of 1965, in putting Mao''s talks in order, Tian opposes writing into the record that the crux of *Hai Rui* is the dismissal; Jiang Qing and others charge him with tampering with the Chairman''s talk record). Made public: 1990 ([[w.yonglie-chen-boda-qiren]]). To check: [[w.yonglie-chen-boda-qiren]], 228–30 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.130b); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 492–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 453 n.130c). Names: Mao Zedong, Peng Dehuai.'
     src:
       c: 70001cf7
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 453 n.130: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 453 n.130b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 453 n.130c: all'
+        - 'w.pu-weihua-zalan-jiu-shijie 76: A'
+        - 'w.pu-weihua-zalan-jiu-shijie 112: ?'
     tags: [polity:prc, name:mao-zedong, name:peng-dehuai, vis:only:prc]
   - id: cal.1965-12.china-leadership-8
     when: Dec., early
@@ -6014,3 +6058,15 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 36: all'
     tags: [polity:prc, vis:only:prc, name:mao-zedong, name:lin-biao, name:luo-ruiqing, ok:fields-place]
+  - id: cal.1965-12.china-leadership-13
+    when: Dec., after the Shanghai meeting
+    date: 1965-12
+    at: after 1965-12-15
+    thread: china-leadership
+    c: 'Mao 毛泽东 asks Xu Shiyou 许世友: if a coup came in Peking 北京, what would you do? Revisionism will come not only in culture but in Party, government and army, chiefly Party and army.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 83 (as Xiao Hua told the enlarged Politburo, May 1966). Made public: 1982. To check: Wang Nianyi 王年一, 〈毛澤東同志發動「文化大革命」時對形勢的估計〉, *Dangshi yanjiu ziliao* 《黨史研究資料》, 1982, no. 4, 10 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 83 n.9). See [[cal.1965-12-08.china-leadership]]. Names: Mao Zedong, Xu Shiyou. Check: the month; Xiao Hua has only "after last year''s Shanghai meeting" (83).'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 83: all'
+        - 'via x.1982.wang-nianyi-mao-zedong-fadong-wenge-shi-dui-xingshi-de-guji: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:xu-shiyou, ok:fields-place]
