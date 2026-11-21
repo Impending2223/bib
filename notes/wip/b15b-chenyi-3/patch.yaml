@@ -411,6 +411,103 @@ ops:
       - 1963-10-27T14:00Z
       time_band: evening
       time_zone: Asia/Shanghai
+- edit:
+    id: cal.1963-04-14.china-leadership
+    base: bdcab4e5
+    set:
+      time_range:
+      - 1963-04-14T04:30Z
+      - 1963-04-14T10:30Z
+      time_band: afternoon
+      time_zone: Asia/Jakarta
+- edit:
+    id: cal.1963-05-03.china-leadership-3
+    base: 3a50d1c3
+    set:
+      time_range:
+      - 1963-05-02T23:00Z
+      - 1963-05-03T05:00Z
+      time_band: morning
+      time_zone: Asia/Phnom_Penh
+- edit:
+    id: cal.1963-05-04.china-leadership-4
+    base: 7153a64c
+    set:
+      time_range:
+      - 1963-05-04T05:00Z
+      - 1963-05-04T11:00Z
+      time_band: afternoon
+      time_zone: Asia/Phnom_Penh
+- edit:
+    id: cal.1963-06-13.china-leadership
+    base: f39c252d
+    set:
+      time_range:
+      - 1963-06-13T11:00Z
+      - 1963-06-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+- edit:
+    id: cal.1963-07-11.china-leadership-2
+    base: ec7320c3
+    set:
+      place: peking
+- edit:
+    id: cal.1963-07-13.china-leadership
+    base: cb8c1eeb
+    set:
+      time_range:
+      - 1963-07-13T04:00Z
+      - 1963-07-13T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1963-07-26.china-leadership-4
+    base: 2306b749
+    set:
+      time_range:
+      - 1963-07-26T04:00Z
+      - 1963-07-26T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1963-08-07.china-leadership-2
+    base: 216a896d
+    set:
+      time_range:
+      - 1963-08-07T11:00Z
+      - 1963-08-07T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: shanghai
+- edit:
+    id: cal.1963-09-30.china-leadership-8
+    base: 3aa0e5a6
+    set:
+      time_range:
+      - 1963-09-30T11:00Z
+      - 1963-09-30T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1963-10-03.china-leadership
+    base: f02d142a
+    set:
+      time_range:
+      - 1963-10-02T22:00Z
+      - 1963-10-03T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1963-10-04.china-leadership-2
+    base: 6219629e
+    set:
+      time_range:
+      - 1963-10-04T04:00Z
+      - 1963-10-04T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
 - place-key:
     key: yangshuo
     name: Yangshuo
@@ -1934,6 +2031,27 @@ ops:
       - name:liu-shaoqi
 - add:
     entry:
+      id: cal.1963-05-12.china-leadership-8
+      when: May 12
+      date: '1963-05-12'
+      time_range:
+      - 1963-05-11T23:00Z
+      - 1963-05-12T05:00Z
+      time_band: morning
+      time_zone: Asia/Bangkok
+      place: hanoi
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Hanoi 河内. Chen Yi 陈毅 at the Hanoi people's rally welcoming Liu Shaoqi 刘少奇.
+      n: '[[w.chen-yi-nianpu]], 966. The words: 上午 (966). Names: Chen Yi, Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - polity:drv
+      - name:chen-yi
+      - name:liu-shaoqi
+- add:
+    entry:
       id: cal.1963-05-12.china-leadership-6
       when: May 12
       date: '1963-05-12'
@@ -2245,6 +2363,23 @@ ops:
       - polity:denmark
       - name:chen-yi
       - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-06-06.china-leadership-9
+      when: June 6
+      date: '1963-06-06'
+      time: 1963-06-06T03:00Z
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - korea
+      c: Peking 北京, the station. Chen Yi 陈毅 welcomes Choe Yong Gon 崔庸健, Chairman of the Standing Committee of the DPRK's Supreme People's Assembly and vice-chairman of the Korean Workers' Party.
+      n: '[[w.chen-yi-nianpu]], 969. The words: 上午11时 (969). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:dprk
+      - name:chen-yi
 - add:
     entry:
       id: cal.1963-06-06.china-leadership-8
@@ -3192,6 +3327,68 @@ ops:
       - ok:fields-place
 - add:
     entry:
+      id: cal.1963-08-04.china-leadership-5
+      when: Aug. 4
+      date: '1963-08-04'
+      time: 1963-08-04T08:15Z
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - africa
+      c: Peking 北京, the Capital Airport 首都机场. Chen Yi 陈毅 welcomes Abdirashid Ali Shermarke 阿卜迪拉希德·阿里·舍马克, Prime Minister of Somalia.
+      n: '[[w.chen-yi-nianpu]], 979. The words: 下午4时15分 (979). Names: Chen Yi, Shermarke.'
+      tags:
+      - polity:prc
+      - polity:somalia
+      - name:chen-yi
+      - name:abdirascid-ali-shermarke
+- add:
+    entry:
+      id: cal.1963-08-04.china-leadership-6
+      when: Aug. 4
+      date: '1963-08-04'
+      time_range:
+      - 1963-08-04T04:00Z
+      - 1963-08-04T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - africa
+      c: Peking 北京. Zhou Enlai 周恩来 meets Shermarke and his party; Chen Yi 陈毅 present.
+      n: '[[w.chen-yi-nianpu]], 979. The words: 下午 (979). Names: Zhou Enlai, Chen Yi, Shermarke.'
+      tags:
+      - polity:prc
+      - polity:somalia
+      - name:chen-yi
+      - name:zhou-enlai
+      - name:abdirascid-ali-shermarke
+- add:
+    entry:
+      id: cal.1963-08-04.china-leadership-7
+      when: Aug. 4
+      date: '1963-08-04'
+      time_range:
+      - 1963-08-04T11:00Z
+      - 1963-08-04T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - africa
+      c: Peking 北京, the Great Hall of the People 人民大会堂. Chen Yi 陈毅 at Zhou Enlai's 周恩来 banquet welcoming Shermarke.
+      n: '[[w.chen-yi-nianpu]], 979. The words: 晚上 (979). Names: Chen Yi, Zhou Enlai, Shermarke.'
+      tags:
+      - polity:prc
+      - polity:somalia
+      - name:chen-yi
+      - name:zhou-enlai
+      - name:abdirascid-ali-shermarke
+- add:
+    entry:
       id: cal.1963-08-05.china-leadership-4
       when: Aug. 5
       date: '1963-08-05'
@@ -3280,6 +3477,24 @@ ops:
       - name:chen-yi
       - ok:fields-place
       - vis:only:prc
+- add:
+    entry:
+      id: cal.1963-08-07.china-leadership-8
+      when: Aug. 7
+      date: '1963-08-07'
+      place: shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Shanghai 上海. Chen Yi 陈毅 and Ke Qingshi 柯庆施, Mayor of Shanghai, take Shermarke to a people's commune outside the city and the Shanghai industrial exhibition, and about the city.
+      n: '[[w.chen-yi-nianpu]], 980–981. Names: Chen Yi, Ke Qingshi, Shermarke.'
+      tags:
+      - polity:prc
+      - polity:somalia
+      - name:chen-yi
+      - name:ke-qingshi
+      - name:abdirascid-ali-shermarke
+      - ok:fields-time
 - add:
     entry:
       id: cal.1963-08-09.china-leadership-10
@@ -3523,7 +3738,7 @@ ops:
       when: Aug.
       date: 1963-08
       thread: china-leadership
-      c: Chen Yi 陈毅 writes the poem "On Mr. Wu Yanyin's *Fengchui ji*" 《题吴妍因先生〈凤吹集〉》.
+      c: Chen Yi 陈毅 writes the poem "On Mr. Wu Yanyin's *Fengchui ji*" 《题吴妍因先生〈凤吹集〉》 (so printed).
       n: '[[w.chen-yi-nianpu]], 983. To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
       tags:
       - polity:prc
@@ -4226,6 +4441,25 @@ ops:
       - polity:nz
       - name:chen-yi
       - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-10-01.china-leadership-14
+      when: Oct. 1
+      date: '1963-10-01'
+      time_range:
+      - 1963-10-01T11:00Z
+      - 1963-10-01T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京, the Tiananmen rostrum 天安门城楼. On National Day night Chen Yi 陈毅, with Zhou Enlai 周恩来 and Peng Zhen 彭真, receives international friends of every field, from politics and the economy to sport.
+      n: '[[w.chen-yi-nianpu]], 988. See [[cal.1963-10-01.china-leadership-9]]. The words: 晚上 (988). Names: Chen Yi, Zhou Enlai, Peng Zhen.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+      - name:peng-zhen
 - add:
     entry:
       id: cal.1963-10-02.china-leadership-7
@@ -5099,9 +5333,6 @@ ops:
     id: cal.1963-05-11.china-leadership
     item: '[[w.chen-yi-nianpu]], 966 (May 11, 1963, the Presidential Palace, Hanoi; Chen Yi in the talks)'
 - cite:
-    id: cal.1963-05-12.china
-    item: '[[w.chen-yi-nianpu]], 966 (May 12, 1963, morning; Chen Yi at the Hanoi people''s rally welcoming Liu Shaoqi)'
-- cite:
     id: cal.1963-05-13.china-leadership-2
     item: '[[w.chen-yi-nianpu]], 967 (May 12, 1963, evening; Chen Yi with Liu at the embassy receives its staff and the Chinese experts working in Vietnam)'
     units: B
@@ -5126,9 +5357,6 @@ ops:
 - cite:
     id: cal.1963-05-27.china-leadership-2
     item: '[[w.chen-yi-nianpu]], 968 (May 27, 1963, evening, the embassy; Chen Yi speaks: talks on fixing the boundary with Afghanistan soon to begin; all Indian prisoners released; China has accepted the Colombo proposals in principle; thanks Sukarno, Ne Win, Sihanouk and Hồ Chí Minh for Liu''s visits)'
-- cite:
-    id: cal.1963-06-06.china-leadership
-    item: '[[w.chen-yi-nianpu]], 969 (June 6, 1963, 11 a.m.; Chen Yi at the station welcomes Choe Yong Gon 崔庸健)'
 - cite:
     id: cal.1963-06-06.china-leadership-2
     item: '[[w.chen-yi-nianpu]], 969 (June 6, 1963, evening, the Great Hall of the People; Chen Yi present at Liu''s meeting with Choe and at his state banquet)'
@@ -5251,7 +5479,7 @@ ops:
     item: '[[w.chen-yi-nianpu]], 979 (Aug. 1, 1963, afternoon; Chen Yi present when Zhou receives Hoashi Kei 帆足计, Miyakoshi Kisuke 宫腰喜助 of the Japan–China Friendship Association, its study activists'' delegation under 大冢有章, the Japan–Korea Problems Institute''s delegation under Furuya Sadao 古屋贞雄, and 押川俊夫 of the Japan–China Trade Promotion Association)'
 - cite:
     id: cal.1963-08-04.china-leadership-3
-    item: '[[w.chen-yi-nianpu]], 979 (Aug. 4, 1963, 4:15 p.m., the Capital Airport, Chen Yi welcomes Shermarke; afternoon, present at Zhou''s meeting with him; evening, at Zhou''s banquet in the Great Hall of the People; Aug. 5, morning, with Zhou on the return call at the guesthouse and in the talks)'
+    item: '[[w.chen-yi-nianpu]], 979–980 (Aug. 5, 1963, morning; Chen Yi with Zhou on the return call at the guesthouse and in the talks)'
 - cite:
     id: cal.1963-08-05.china-leadership-2
     item: '[[w.chen-yi-nianpu]], 980 (Aug. 5, 1963, evening; Chen Yi with Zhou at the Peking opera evening of the Ministry of Culture and the China–Africa People''s Friendship Association, *Chufeng lingkong* 《雏凤凌空》)'
@@ -5261,9 +5489,6 @@ ops:
 - cite:
     id: cal.1963-08-07.china-leadership
     item: '[[w.chen-yi-nianpu]], 980 (Aug. 7, 1963; Chen Yi with Zhou brings Shermarke from Peking to Shanghai)'
-- cite:
-    id: cal.1963-08-07.china-leadership
-    item: '[[w.chen-yi-nianpu]], 980–981 (Aug. 7, 1963; Chen Yi with Ke Qingshi takes Shermarke to a commune outside Shanghai and the Shanghai industrial exhibition, and about the city)'
 - cite:
     id: cal.1963-08-07.china-leadership-4
     item: '[[w.chen-yi-nianpu]], 981 (Aug. 7, 1963, evening; Chen Yi present)'
@@ -5330,9 +5555,6 @@ ops:
 - cite:
     id: cal.1963-10-01.china-leadership-4
     item: '[[w.chen-yi-nianpu]], 988 (Oct. 1, 1963, evening; Chen Yi at Zhou''s banquet for Son Sann and his party)'
-- cite:
-    id: cal.1963-10-01.china-leadership-9
-    item: '[[w.chen-yi-nianpu]], 988 (Oct. 1, 1963, evening, on the Tiananmen rostrum 天安门城楼; Chen Yi with Zhou and Peng Zhen receives international friends from every field)'
 - cite:
     id: cal.1963-10-03.china-leadership
     item: '[[w.chen-yi-nianpu]], 989 (Oct. 3, 1963, morning; Chen Yi with Zhou and He Long receives the delegation''s athletes and staff, Rong Gaotang 荣高棠 its head; speaks at its founding: the Games part of the new emerging countries'' struggle against imperialism and colonialism)'
