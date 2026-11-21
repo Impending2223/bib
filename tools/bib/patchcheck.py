@@ -198,6 +198,7 @@ def check(series, path, legacy=False):
         else:
             errors.append(f"{eid}: {msg}")
     errors += [f"{w}: {m} [day-order]" for w, m in sorted(set(dayorder.problems(series)) - dbefore)]
+    errors += name_tag_errors(series, touched, lst)        # STYLE 13
     for l in rep.lines:
         if l.startswith("error"):
             msg = l.split(None, 1)[1]
@@ -210,6 +211,23 @@ def check(series, path, legacy=False):
     errors.extend(fe)
     warnings.extend(fw)
     return errors, warnings
+
+
+def name_tag_errors(series, touched, lst):
+    """STYLE 13: each `name:` tag on a touched calendar entry names a person the series holds."""
+    from . import lives
+    for k in ("people", "everyone", "frus-alias", "frus-union"):
+        lives._CACHE.pop(k, None)
+    keys = {lives.key_of(p["name"]) for p in lives.everyone(series)} | set(lives._CACHE.get("frus-alias", {}))
+    out = []
+    for eid in touched:
+        hit = series.get(eid)
+        if not hit or lst is None or hit[0] is not lst:
+            continue
+        for tg in hit[2].get("tags") or []:
+            if str(tg).startswith("name:") and str(tg)[5:] not in keys:
+                out.append(f"{eid}: tag {tg} names no person (a name entry's key, or leave the person in c untagged) [name-tag]")
+    return out
 
 
 def fields_problems(series, ops, path=None):
