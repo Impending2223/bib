@@ -46,7 +46,7 @@ The running heads agree with the folios. The book marks a further item of the sa
 
 **Pages read.** Pages read: IV, 1–504 (PDF 5–508), every dated item from Jan. 6, 1960 to Dec. 9, 1969, in the book's order. The items of Jan. 2–5, 1960 fall before the calendar's span. Peng's fall is covered at IV, 478–486 (Apr.–May 1966). After it the book is a record of the case against him: the case group, the questionings, the struggle meetings, and the Qincheng prison from July 15, 1968. That record was entered to the end of 1969 as the brief asks.
 
-**Entered.** 1,331 new entries, all in thread `china-leadership`, `polity:prc`:
+**Entered.** 1,329 new entries, all in thread `china-leadership`, `polity:prc`:
 
 | Year | Entries |
 |---|---|
@@ -55,18 +55,18 @@ The running heads agree with the folios. The book marks a further item of the sa
 | 1962 | 151 |
 | 1963 | 188 |
 | 1964 | 236 |
-| 1965 | 272 |
+| 1965 | 270 |
 | 1966 | 134 |
 | 1967 | 38 |
 | 1968 | 23 |
 | 1969 | 6 |
 
-- 1,019 entries carry `place:`. 662 carry a time: a band with `time_zone: Asia/Shanghai`, or the zone of the place abroad: Moscow, Pyongyang, Hanoi (`Asia/Bangkok`), Jakarta.
+- 1,017 entries carry `place:`. 662 carry a time: a band with `time_zone: Asia/Shanghai`, or the zone of the place abroad: Moscow, Pyongyang, Hanoi (`Asia/Bangkok`), Jakarta.
 - Visibility:
-  - 879 entries are `vis:only:prc`, with "Made public: 2012.";
-  - 37 carry `vis:only:prc+<polity>`, for talks with foreign governing parties or envoys;
+  - 877 entries are `vis:only:prc`, with "Made public: 2012.";
+  - 36 carry `vis:only:prc+<polity>`, for talks with foreign governing parties or envoys;
   - 416 carry no ruling: rallies, receptions, banquets, airport meetings, published speeches and articles, NPC sessions.
-- 1,328 `cite` ops go on entries already in the tree or pending. Most are entries from the Mao, Zhou, Liu and Deng chronologies, the Yang Shangkun diary, Wu Lengxi, MacFarquhar and *Tiandi fanfu*.
+- 1,330 `cite` ops go on entries already in the tree or pending. Most are entries from the Mao, Zhou, Liu and Deng chronologies, the Yang Shangkun diary, Wu Lengxi, MacFarquhar and *Tiandi fanfu*.
 - 39 `variant` ops (unit A), listed under the doubts.
 - 0 checks.
 - 28 `edit` ops set the band or the place on cited entries that lacked them.
@@ -74,7 +74,7 @@ The running heads agree with the folios. The book marks a further item of the sa
 - 8 witness rows.
 - 1 card.
 
-`./bib patch-check` reports 0 errors, and `./bib fields --patch` 0 findings. Every add is claimed in the ledger, with claims equal to adds (1,331). See links point only backward in time.
+`./bib patch-check` reports 0 errors, and `./bib fields --patch` 0 findings. Every add is claimed in the ledger, with claims equal to adds (1,329). See links point only backward in time.
 
 **Passed over (R18).** Seven items:
 - IV, 1: Jan. 2, 3 and 5, 1960, before the span (R1).
@@ -171,3 +171,9 @@ The nianpu names many other documents with a date: Peng's reports and letters, a
 - Li Zongren 李宗仁, Xiao Wangdong 萧望东, Soong Ching-ling 宋庆龄, Nie Yuanzi 聂元梓, Qi Jinghe 齐景和.
 
 About 350 others appear in all, among them many foreign visitors.
+
+**After the Tiandi fanfu run 5 merge (Nov. 21).** Two adds were folded on the lead's word, and their ledger claims released:
+- `cal.1965-11-28.china-leadership-8`, the reprint meeting at the Great Hall, is now a cite on `cal.1965-11-28.china-leadership-7`, the same meeting. The Dec. 2 *Guangming ribao* entry now points there.
+- `cal.1965-12-23.china-leadership-4`, the talk alone with Mao at Hangzhou, is now a cite on `cal.1965-12-22.china-leadership`, whose text already carries the Dec. 23 talk. The Jan. 19, 1966 entry now points there.
+
+`cal.1965-11-28.china-leadership-7` already had `place: peking`; neither book gives an hour, so no edit was made.
