@@ -920,3 +920,9 @@ Could you clarify or restate the "crime" rule? Maybe drop it? Heck, just drop it
 ## Nov. 21, 2026, 12:10 a.m. Pacific
 
 "Sorry, Claude, but what's this new "conditions"/"events" exclusion condition you've made up?"
+
+## Nov. 21, 2026, 12:14 a.m. Pacific
+
+On the authors' own estimates and totals (a historian's figure for famine deaths): "Put those numbers in too.
+
+Put them in the "gloss" on the most appropriate entry, or the opening or closing of the most appropriate thread."
