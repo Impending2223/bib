@@ -1540,10 +1540,10 @@ index 3afcc1d..a7c694e 100644
      """STYLE 10: R25a's fields on each calendar entry the patch adds, as the dry run left it (tools/bib/fields.py)."""
      from . import fields
 diff --git a/tools/bib/standing.py b/tools/bib/standing.py
-index 71b2e65..bb9f015 100644
+index 71b2e65..11882d9 100644
 --- a/tools/bib/standing.py
 +++ b/tools/bib/standing.py
-@@ -1,24 +1,40 @@
+@@ -1,24 +1,42 @@
  """Standing conditions (the owner, Nov. 12, 2026): a condition of public importance a paper reports as such (a senator who
 -has not endorsed the ticket, a bill held in committee) is an entry on the paper's day, tagged `form:state`
 -(notes/briefs/batch12-press.md). "As reported. Every standing condition, grouped by thread."
@@ -1570,7 +1570,8 @@ index 71b2e65..bb9f015 100644
 +   it: ..."; an archive's, an embassy's, a ministry's or a historian's report is a normal entry, its source in the
 +   note ("Shanghai 上海: on a single day ..."; a dated dispatch as the event, "British embassy in Peking to the
 +   Foreign Office: ..."). `check` warns [report-opener] (problems()) on a `c` opening "As X has it:" or "As X
-+   reports it:" (X up to the first colon; "have it", "report it" too) whose note cites no press: a link to a host,
++   reports it:" (X up to the first colon; "have it", "report it" too, and the frames the retired entries used,
++   "gives it", "counts it", "reckons it") whose note cites no press: a link to a host,
 +   a run of words or a card that the provenance registry (sources/provenance.yaml) files as `press`, its series or
 +   its works (vis.registry). `ok:report-opener` silences an entry.
  """
@@ -1582,7 +1583,8 @@ index 71b2e65..bb9f015 100644
  
 -LABEL = "As reported"
 +RULE = "report-opener"
-+OPENER = re.compile(r"^As\s[^:]{1,300}?\b(?:has|have|reports|report)\s+it\b[^:]{0,200}:")
++OPENER = re.compile(r"^As\s[^:]{1,300}?\b(?:has|have|reports|report|gives|give|counts|count|reckons|reckon)\s+it\b"
++                    r"[^:]{0,200}:")
  
  
  def is_state(e):
@@ -1590,7 +1592,7 @@ index 71b2e65..bb9f015 100644
      return "form:state" in store.as_list(e.get("tags"))
  
  
-@@ -43,7 +59,7 @@ def register_html(lst, thread_name, thread_key):
+@@ -43,7 +61,7 @@ def register_html(lst, thread_name, thread_key):
             '(a senator who has not endorsed the ticket, a bill held in committee), by thread.</p>']
      for t in sorted(rows, key=lambda t: thread_key(lst, t)):
          out.append(f'<h3>{html.escape(thread_name(lst, t))}</h3><ul>')
@@ -1599,14 +1601,15 @@ index 71b2e65..bb9f015 100644
              half = calsplit.half_of_date(lst, loose.place_iso(e))
              link = calsplit.href(lst, half, e["id"])
              out.append(f'<li><a href="{html.escape(link)}">{html.escape(str(e.get("when") or e["date"]))}, '
-@@ -59,3 +75,51 @@ STYLE = """<style>
+@@ -59,3 +77,52 @@ STYLE = """<style>
  .streg ul{list-style:none;margin:0;padding:0}.streg li{padding:.3rem 0;border-top:1px dotted var(--rule)}
  .streg .stn{font-size:.9rem;color:var(--muted)}
  </style>"""
 +
 +
 +def opener(c):
-+    """True where `c` opens with a report's frame, "As X has it:" or "As X reports it:" (STYLE 3)."""
++    """True where `c` opens with a report's frame, "As X has it:", "As X reports it:" (or gives, counts, reckons it)
++    (STYLE 3)."""
 +    return bool(OPENER.match(str(c or "")))
 +
 +

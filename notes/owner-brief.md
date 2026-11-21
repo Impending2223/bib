@@ -1048,7 +1048,7 @@ Shouldn't this just be "62 suicides"? Shouldn't "this period" be specified in th
 "Could we rename the "As reported" label to save future readers/auditors from this error? It's not a particularly lucid label.
 Actually, yes. Just drop the label altogether."
 
-## Nov. 21, 2026, about 12:30 p.m. (Pacific)
+## Nov. 21, 2026, before 12:15 p.m. (Pacific; the clock time misread when logged)
 
 "Could we create a "Threads", akin to our "Names", compiling the entries in each thread in calendar-chronological order?
 For this entry, we can't figure out "the day" of "the weekend before Aug. 14"?
@@ -1057,25 +1057,25 @@ For this entry, we can't figure out "the day" of "the weekend before Aug. 14"?
 North Korea issues "a declaration of independence against both Russia and China," by Schlesinger's journal (the news at Hyannis Port, the weekend before Aug. 14).
 Schlesinger, Journals, 252 (the entry of Aug. 14). Check: the day."
 
-## Nov. 21, 2026, about 1 p.m. (Pacific)
+## Nov. 21, 2026, before 12:15 p.m. (Pacific; the clock time misread when logged)
 
 "Haven't I given you Nongye jitihua zhongyao wenjian huibian (1981)?"
 
-## Nov. 21, 2026, about 1:05 p.m. (Pacific)
+## Nov. 21, 2026, before 12:15 p.m. (Pacific; the clock time misread when logged)
 
 "Could the Names and Threads entries also get the full footnote treatment?"
 
-## Nov. 21, 2026, about 1:20 p.m. (Pacific)
+## Nov. 21, 2026, before 12:15 p.m. (Pacific; the clock time misread when logged)
 
 "Could we give the full-width 中点 for CJK surnames and given names rather than the simple, unspaced "·"? "巴巴卡・尼昂"?
 
 For the suspected kanji/Japanese names, I suppose we should go with (b), but I'm not entirely happy with it. How do Chinese speakers read these, where they're only given in CJK?"
 
-## Nov. 21, 2026, about 1:50 p.m. (Pacific)
+## Nov. 21, 2026, before 12:15 p.m. (Pacific; the clock time misread when logged)
 
 "Let's go with (a), but give quotation marks around pinyin renderings of non-Chinese CJK names, to indicate that they reading is non-phonetic in a way that pinyin renderings of non-CJK names are not."
 
-## Nov. 21, 2026, about 2:45 p.m. (Pacific)
+## Nov. 21, 2026, about 12:15 p.m. (Pacific)
 
 "Alright, we're reaching the end of our token budget. Could we wrap things up and leave the rest to the post-Tuesday 4 p.m. PT reset?
 That is, I'm going to call a "pause" from here until Tuesday."
