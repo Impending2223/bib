@@ -55,6 +55,15 @@ ops:
       - 1960-08-18T04:00Z
       time_band: morning
       time_zone: Asia/Shanghai
+- edit:
+    id: cal.1961-02-14.china-leadership
+    base: 22d1c50c
+    set:
+      time_range:
+      - 1961-02-14T04:00Z
+      - 1961-02-14T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
 - add:
     entry:
       id: cal.1960-01-06.china-leadership-6
@@ -704,6 +713,7 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-04-25.china-leadership-13
@@ -2005,6 +2015,7 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-08-09.china-leadership-7
@@ -2261,6 +2272,1914 @@ ops:
       - name:kang-sheng
       - name:deng-xiaoping
       - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-09-01.china-leadership-7
+      when: Sept. 1
+      date: '1960-09-01'
+      time_range:
+      - 1960-09-01T04:00Z
+      - 1960-09-01T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Diaoyutai 钓鱼台, Peking. Peng Zhen 彭真 at Deng Xiaoping's 邓小平 meeting, continuing on the drafting of the Center's Reply 《答复书》 to the CPSU's "Notification" of June 21.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 55–56. The words: 下午 (IV, 55–56). Made public: 2012. Names: Peng Zhen, Deng Xiaoping.'
+      src:
+        c: b61279bd
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 55–56: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-09-07.china-leadership-9
+      when: Sept. 7
+      date: '1960-09-07'
+      time_range:
+      - 1960-09-06T22:00Z
+      - 1960-09-07T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Peng Zhen 彭真 to Deng Xiaoping's 邓小平 on revising the Reply 《答复书》 to the CPSU's "Notification."
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 56. The words: 上午 (IV, 56). Made public: 2012. Names: Peng Zhen, Deng Xiaoping.'
+      src:
+        c: 71cb76bc
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 56: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-09-08.china-leadership-6
+      when: Sept. 8
+      date: '1960-09-08'
+      time_range:
+      - 1960-09-07T22:00Z
+      - 1960-09-08T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Peking 北京. Peng Zhen 彭真 at Deng Xiaoping's 邓小平 meeting on the draft "Reply of the CCP Central Committee to the CPSU Central Committee's Notification" 《中共中央对苏共中央通知书的答复》, morning and afternoon.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 56. The time is the morning session''s. The words: 上午……下午，继续讨论 (IV, 56). Made public: 2012. Names: Peng Zhen, Deng Xiaoping.'
+      src:
+        c: b94179d7
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 56: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-09-09.china-leadership-7
+      when: Sept. 9
+      date: '1960-09-09'
+      time_range:
+      - 1960-09-08T22:00Z
+      - 1960-09-09T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 calls a meeting and hears Xie Fuzhi 谢富治 on public order.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 56. The words: 上午 (IV, 56). Made public: 2012. Names: Peng Zhen, Xie Fuzhi.'
+      src:
+        c: e96e4859
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 56: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:xie-fuzhi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-09-12.china-leadership-7
+      when: Sept. 12
+      date: '1960-09-12'
+      time_range:
+      - 1960-09-12T04:00Z
+      - 1960-09-12T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - africa
+      c: 'The Workers'' Stadium 工人体育场, Peking. Peng Zhen 彭真, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Chen Yi 陈毅 and others, at the rally of 100,000 welcoming Sékou Touré 塞古·杜尔, President of Guinea and general secretary of its Democratic Party, and his delegation; in his speech: Africa''s peoples throwing off colonialism''s chains one by one; 650 million Chinese Guinea''s and all Africa''s surest friends.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 57. The words: 下午 (IV, 57). Names: Peng Zhen, Liu Shaoqi, Dong Biwu, Chen Yi.'
+      src:
+        c: 21b9679e
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 57: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - name:dong-biwu
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-09-13.china-leadership-11
+      when: Sept. 13
+      date: '1960-09-13'
+      time_range:
+      - 1960-09-13T11:00Z
+      - 1960-09-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 presides at the Secretariat''s 书记处 telephone conference with the leaders of twenty provinces, municipalities and regions on defense production; Zhao Erlu 赵尔陆 and He Long 贺龙 report; Peng: the poor quality found in military products when the First Machine-Building Ministry was split intolerable; the Party secretary first answerable for quality, then the military representative; military tasks first; scraps of rare metals returned to the furnace, none to civil use; the factories checked one by one.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 58. The page''s note: Zhao Erlu, then Minister of the First Machine-Building Ministry; from Sept. 1960 a vice-chairman of the State Economic Commission (IV, 58). The words: 晚 (IV, 58). Made public: 2012. Names: Peng Zhen, Zhao Erlu, He Long.'
+      src:
+        c: 25c00885
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 58: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhao-erlu
+      - name:he-long
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-10-01.china-leadership-9
+      when: Oct. 1
+      date: '1960-10-01'
+      time: 1960-10-01T10:00Z
+      time_zone: Europe/Moscow
+      place: moscow
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: The St. George Hall 圣乔治大厅 of the Kremlin, Moscow 莫斯科. The drafting committee of the parties of twelve socialist and fourteen capitalist countries opens (to Oct. 22), to prepare a draft statement for the November meeting; Peng Zhen 彭真 there; Suslov 苏斯洛夫 welcomes, Deng Xiaoping 邓小平 speaks; the Soviet side in the chair; the Soviet draft the basis, two days for the delegations, a general debate from the afternoon of the 4th; ends at 3.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 62. The time is the first day''s. The words: 下午一时 (IV, 62). Made public: 2012. Names: Peng Zhen, Suslov, Deng Xiaoping.'
+      src:
+        c: 440b079c
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 62: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:suslov-mikhail-a
+      - name:deng-xiaoping
+      - vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia
+- add:
+    entry:
+      id: cal.1960-10-03.china-leadership-11
+      when: Oct. 3
+      date: '1960-10-03'
+      time_range:
+      - 1960-10-03T09:00Z
+      - 1960-10-03T15:00Z
+      time_band: afternoon
+      time_zone: Europe/Moscow
+      place: moscow
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: The Chinese Embassy 中国驻苏大使馆, Moscow 莫斯科. Peng Zhen 彭真 and the Chinese Communist Party's delegation meet.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 63. The words: 下午 (IV, 63). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 4466129e
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 63: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-10-06.china-leadership-10
+      when: Oct. 6
+      date: '1960-10-06'
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Liu Shaoqi 刘少奇 and Li Fuchun 李富春 cable the delegation at Moscow 莫斯科 for the Russian, English, French and Spanish texts of the CPSU's draft statement.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 63. Made public: 2012. Names: Liu Shaoqi, Li Fuchun.'
+      src:
+        c: e37201ba
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 63: all'
+      tags:
+      - polity:prc
+      - name:liu-shaoqi
+      - name:li-fuchun
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-10-09.china-leadership-10
+      when: Oct. 9
+      date: '1960-10-09'
+      time: 1960-10-09T08:00Z
+      time_zone: Europe/Moscow
+      place: moscow
+      thread: china-leadership
+      also:
+      - soviet-union
+      - vietnam-hanoi
+      c: 'Moscow 莫斯科. Lê Duẩn 黎笋 and others of the Vietnamese delegation come to talk with the Chinese delegation, Peng Zhen 彭真 among them: peace is to be prized.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 64. The words: 上午十一时 (IV, 64). Made public: 2012. Names: Lê Duẩn, Peng Zhen.'
+      src:
+        c: 8e301526
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 64: all'
+      tags:
+      - polity:prc
+      - name:le-duan
+      - name:peng-zhen
+      - vis:only:prc+drv
+- add:
+    entry:
+      id: cal.1960-10-17.china-leadership-7
+      when: Oct. 17
+      date: '1960-10-17'
+      time_range:
+      - 1960-10-17T16:00Z
+      - 1960-10-17T19:00Z
+      time_band: evening
+      time_zone: Europe/Moscow
+      place: moscow
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: 'The Chinese Embassy 中国驻苏大使馆, Moscow 莫斯科. Peng Zhen 彭真 hears Hu Qiaomu 胡乔木 and Kang Sheng 康生 on the secretariat''s day: the draft''s last chapter (the CPSU''s Twentieth and Twenty-first Congresses, Stalin), its core, argued for nine hours.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 66. The words: 晚 (IV, 66). Made public: 2012. See [[cal.1960-10-17.china-leadership-6]]. Names: Peng Zhen, Kang Sheng.'
+      src:
+        c: 2aabfabe
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 66: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:kang-sheng
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-10-18.china-leadership-7
+      when: Oct. 18
+      date: '1960-10-18'
+      time_range:
+      - 1960-10-18T03:00Z
+      - 1960-10-18T09:00Z
+      time_band: morning
+      time_zone: Europe/Moscow
+      place: moscow
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Moscow 莫斯科. Peng Zhen 彭真 and the Chinese delegation work on the speech for the close of the secretariat.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 66. The words: 上午 (IV, 66). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 8ca02bf9
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 66: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-10-18.china-leadership-8
+      when: Oct. 18
+      date: '1960-10-18'
+      time_range:
+      - 1960-10-18T16:00Z
+      - 1960-10-18T19:00Z
+      time_band: evening
+      time_zone: Europe/Moscow
+      place: moscow
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: 'Moscow 莫斯科. Peng Zhen 彭真 hears Hu Qiaomu 胡乔木 and others on the secretariat''s day: the Twentieth and Twenty-first Congresses, the cult of the individual, revisionism and dogmatism.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 66. The words: 晚 (IV, 66). Made public: 2012. See [[cal.1960-10-18.china-leadership-3]]. Names: Peng Zhen.'
+      src:
+        c: 427fd1de
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 66: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-10-30.china-leadership-3
+      when: Oct. 30
+      date: '1960-10-30'
+      time_range:
+      - 1960-10-30T11:00Z
+      - 1960-10-30T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - korea-leadership
+      c: The Great Hall of the People 人民大会堂, Peking. Peng Zhen 彭真, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, watches the concert troupe of the Korean People's Army and receives its members.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 69. The words: 晚 (IV, 69). See [[cal.1960-10-30.china-leadership]]. Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping.'
+      src:
+        c: c3cbb555
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 69: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:deng-xiaoping
+- add:
+    entry:
+      id: cal.1960-11-08.china-leadership-11
+      when: Nov. 8
+      date: '1960-11-08'
+      time_range:
+      - 1960-11-08T03:00Z
+      - 1960-11-08T09:00Z
+      time_band: morning
+      time_zone: Europe/Moscow
+      place: moscow
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: The Chinese Embassy 中国驻苏大使馆, Moscow 莫斯科. Peng Zhen 彭真, with Yang Shangkun 杨尚昆, meets the South African Communist Party's delegation and Wilcox 威尔科克斯, general secretary of the New Zealand Communist Party.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 71. The words: 上午 (IV, 71). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: b0f40376
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 71: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-11-09.china-leadership-9
+      when: Nov. 9
+      date: '1960-11-09'
+      time_range:
+      - 1960-11-09T16:00Z
+      - 1960-11-09T19:00Z
+      time_band: evening
+      time_zone: Europe/Moscow
+      place: moscow
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Moscow 莫斯科. The Chinese delegation reports the talk with the Soviet leaders to the Center and decides that Liu Shaoqi 刘少奇 and Deng Xiaoping 邓小平 will attend the sessions from the 10th in turn, some members staying to revise the speech.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 72. The words: 晚 (IV, 72). Made public: 2012. See [[cal.1960-11-09.soviet-union-2]]. Names: Liu Shaoqi, Deng Xiaoping.'
+      src:
+        c: 1c3c8f9d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 72: all'
+      tags:
+      - polity:prc
+      - name:liu-shaoqi
+      - name:deng-xiaoping
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-11-13.china-leadership-7
+      when: Nov. 13
+      date: '1960-11-13'
+      time_range:
+      - 1960-11-13T16:00Z
+      - 1960-11-13T19:00Z
+      time_band: evening
+      time_zone: Europe/Moscow
+      place: moscow
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Moscow 莫斯科. The Chinese delegation, Peng Zhen 彭真 in it, goes on with Deng Xiaoping's 邓小平 speech for the 14th.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 74. The words: 晚 (IV, 74). Made public: 2012. Names: Peng Zhen, Deng Xiaoping.'
+      src:
+        c: 17e3aaf4
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 74: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-11-19.china-leadership-7
+      when: Nov. 19
+      date: '1960-11-19'
+      time_range:
+      - 1960-11-19T16:00Z
+      - 1960-11-19T19:00Z
+      time_band: evening
+      time_zone: Europe/Moscow
+      place: moscow
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: The Chinese Embassy 中国驻苏大使馆, Moscow 莫斯科. The Chinese delegation, Peng Zhen 彭真 in it, on its second speech.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 76. The words: 晚 (IV, 76). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: f2e43bc1
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 76: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-11-22.china-leadership-8
+      when: Nov. 22
+      date: '1960-11-22'
+      time_range:
+      - 1960-11-22T16:00Z
+      - 1960-11-22T19:00Z
+      time_band: evening
+      time_zone: Europe/Moscow
+      place: moscow
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: The Chinese Embassy 中国驻苏大使馆, Moscow 莫斯科. The Chinese delegation, Peng Zhen 彭真 in it, on the matter of its second speech.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 77–78. The words: 晚 (IV, 77–78). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 56f01cc9
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 77–78: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-12-02.china-leadership-8
+      when: Dec. 2
+      date: '1960-12-02'
+      time: 1960-12-02T10:00Z
+      time_zone: Europe/Moscow
+      place: moscow
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Moscow 莫斯科. Peng Zhen 彭真 at the CPSU Central Committee's banquet for the parties' delegations, 1 to 5 p.m.; Deng Xiaoping 邓小平 speaks.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 82. The words: 下午一时……至五时 (IV, 82). Made public: 2012. Names: Peng Zhen, Deng Xiaoping.'
+      src:
+        c: '67279140'
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 82: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+      - vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia
+- add:
+    entry:
+      id: cal.1960-12-04.china-leadership-7
+      when: Dec. 4
+      date: '1960-12-04'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 votes in the Dongjiaominxiang 东交民巷 constituency of the Dongcheng 东城 district for the fourth district people's congress.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 83. See [[cal.1960-12-04.china-leadership-5]]. Names: Peng Zhen.'
+      src:
+        c: f2722733
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 83: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1960-12-09.china-leadership-11
+      when: Dec. 9
+      date: '1960-12-09'
+      time_range:
+      - 1960-12-09T11:00Z
+      - 1960-12-09T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: The Yinian Tang 颐年堂, Zhongnanhai 中南海, Peking. Peng Zhen 彭真 at Mao Zedong's 毛泽东 meeting hearing Liu Shaoqi 刘少奇 on the 81 parties' meeting and the visit to the Soviet Union.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 83. The words: 晚 (IV, 83). Made public: 2012. Names: Peng Zhen, Mao Zedong, Liu Shaoqi.'
+      src:
+        c: d1b8b581
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 83: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-12-11.china-leadership-5
+      when: Dec. 11
+      date: '1960-12-11'
+      time_range:
+      - 1960-12-11T04:00Z
+      - 1960-12-11T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'The Great Hall of the People 人民大会堂, Peking. Peng Zhen 彭真 at the China–Korea Friendship Association''s 中国朝鲜友好协会 report meeting of 10,000, Li Dequan 李德全, its president, presiding: Luo Ruiqing 罗瑞卿, deputy head of the military friendship delegation to Korea, reports on the visit.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 83. The words: 下午 (IV, 83). Names: Peng Zhen, Luo Ruiqing.'
+      src:
+        c: 27e103f4
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 83: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:luo-ruiqing
+- add:
+    entry:
+      id: cal.1960-12-13.china-leadership-8
+      when: Dec. 13
+      date: '1960-12-13'
+      time_range:
+      - 1960-12-13T04:00Z
+      - 1960-12-13T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the airport to welcome Tim Buck 蒂姆·布克, general secretary of the Communist Party of Canada, and his wife, and Hakamada Satomi 袴田里见 and Nishizawa Tomio 西泽富夫 of the Japanese Communist Party, passing through China home, all from the Moscow meeting.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 83–84. The words: 下午 (IV, 83–84). Names: Peng Zhen.'
+      src:
+        c: 07cb782f
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 83–84: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1960-12-14.china-leadership-5
+      when: Dec. 14
+      date: '1960-12-14'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the National People's Congress Standing Committee's 全国人大常委会 thirty-third session, which hears the Panchen Erdeni Choekyi Gyaltsen 班禅额尔德尼·确吉坚赞 on the year's work in Tibet.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 84. Names: Peng Zhen.'
+      src:
+        c: 1409b9bd
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 84: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1960-12-16.china-leadership-9
+      when: Dec. 16
+      date: '1960-12-16'
+      time_range:
+      - 1960-12-16T11:00Z
+      - 1960-12-16T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with Dong Biwu 董必武, Zhu De 朱德, Zhou Enlai 周恩来, Chen Yi 陈毅 and others, at Liu Shaoqi's 刘少奇 banquet welcoming Prince Norodom Sihanouk 诺罗敦·西哈努克.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 84. The words: 晚 (IV, 84). Names: Peng Zhen, Dong Biwu, Zhu De, Zhou Enlai, Chen Yi, Liu Shaoqi.'
+      src:
+        c: 3ba6e4c4
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 84: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:dong-biwu
+      - name:zhu-de
+      - name:zhou-enlai
+      - name:chen-yi
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1960-12-20.china-leadership-3
+      when: Dec. 20
+      date: '1960-12-20'
+      time_range:
+      - 1960-12-20T04:00Z
+      - 1960-12-20T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: The Great Hall of the People 人民大会堂, Peking. Peng Zhen 彭真, with Kang Sheng 康生, tells the leaders of the democratic parties of the 81 parties' meeting at Moscow.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 85. The words: 下午 (IV, 85). Made public: 2012. Names: Peng Zhen, Kang Sheng.'
+      src:
+        c: 4bd1275b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 85: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:kang-sheng
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-12-28.china-leadership-8
+      when: Dec. 28
+      date: '1960-12-28'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 hears those concerned on the central conference on the coal industry: output held after two years of disaster; coal very tight, much of Liaoning''s light industry stopped; the mines to rest while fighting; the three-heads responsibility under the Party committee kept, the administration to run its own business, else the Party secretary becomes sole head; workers'' congresses to be held; rules made before the old are broken.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 87. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: f206e1ff
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 87: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-12-29.china-leadership-6
+      when: Dec. 29
+      date: '1960-12-29'
+      time_range:
+      - 1960-12-28T22:00Z
+      - 1960-12-29T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - cuba
+      c: Peking 北京. Peng Zhen 彭真 at the airport to welcome José Llanusa 何塞·利亚努萨, Mayor of Havana, on a visit to China.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 87. The words: 上午 (IV, 87). Names: Peng Zhen.'
+      src:
+        c: b7c52ed3
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 87: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1960-12-31.china-leadership-5
+      when: Dec. 31
+      date: '1960-12-31'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 at the forum of department heads and public figures called by the Peking municipal committee and the municipal People''s Council: industrial output 170 million yuan the year of liberation, over 10 billion now; 200,000 students then, 1.5 million now; life tight, the grain ration cut three jin a head, meat four liang a month; of 1.6 billion mu, 600 million struck by disaster last year, 900 million this year, 300 to 400 million badly; no further cut in rations.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 88. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: c488faad
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 88: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-01.china-leadership-5
+      when: Jan. 1
+      date: '1961-01-01'
+      time_range:
+      - 1961-01-01T04:00Z
+      - 1961-01-01T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - cuba
+      c: The Peking Gymnasium 北京体育馆. Peng Zhen 彭真 accompanies José Llanusa 何塞·利亚努萨, Mayor of Havana, and his party to basketball and table-tennis matches.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 90. The words: 下午 (IV, 90). Names: Peng Zhen.'
+      src:
+        c: b3cf0b63
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 90: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1961-01-04.china-leadership-14
+      when: Jan. 4
+      date: '1961-01-04'
+      time_range:
+      - 1961-01-04T04:00Z
+      - 1961-01-04T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - cuba
+      c: Peking 北京. Peng Zhen 彭真 at the airport to see off José Llanusa 何塞·利亚努萨, Mayor of Havana, and his party.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 90. The words: 四日下午 (IV, 90). Names: Peng Zhen.'
+      src:
+        c: b44195b2
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 90: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1961-01-06.china-leadership-12
+      when: Jan. 6
+      date: '1961-01-06'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, on the Center''s forwarding of the Xinyang 信阳 prefectural committee''s report on rectification, production and famine relief, to Zheng Tianxiang 郑天翔, Chen Peng 陈鹏 and Feng Jiping 冯基平: very good, to go to the county and suburban committees for study.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 90. The report: rectification and production and relief together in every commune and brigade; Mao added "and the masses'' livelihood," and commented: a good document, all third-class communes to act on it (IV, 90). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 045fbc4b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 90: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-16.china-leadership-6
+      when: Jan. 16
+      date: '1961-01-16'
+      time_range:
+      - 1961-01-15T22:00Z
+      - 1961-01-16T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with Liu Ningyi 刘宁一 and others, at the airport to see off Sharkey 夏基, general secretary of the Australian Communist Party, home by way of Canton.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 92. The words: 十六日上午 (IV, 92). Names: Peng Zhen.'
+      src:
+        c: 9c815364
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 92: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1961-01-21.china-leadership-6
+      when: Jan. 21
+      date: '1961-01-21'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Zhang Dingcheng 张鼎丞 reports to Peng Zhen 彭真 on the Supreme People''s Procuratorate 最高人民检察院: since the joint offices, some procurators think their work weakened or ended; Peng: the Center never said there should be no procuratorate; in three years it reviewed 1,800,000 requests for arrest, approved 80 percent and held back 20, which shows its use.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 93. Made public: 2012. See [[cal.1961-01-21.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 3678eae2
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 93: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-11-11.china-leadership-6
+      when: Nov. 11
+      date: '1960-11-11'
+      thread: china-leadership
+      c: The Center 中共中央, answering Xie Fuzhi's 谢富治 report, decides that the Supreme People's Court 最高人民法院, the Supreme People's Procuratorate 最高人民检察院 and the Public Security Ministry 公安部 work as one office, under the ministry's Party group, to which the court and the procuratorate each send one member.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 93. The page''s note (IV, 93 n.1). Made public: 2012. To check: the Center''s reply to Xie Fuzhi''s report (Nov. 11, 1960; named by [[w.peng-zhen-nianpu-1902]], IV, 93 n.1). Names: Xie Fuzhi.'
+      src:
+        c: 65e75067
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 93: all'
+      tags:
+      - polity:prc
+      - name:xie-fuzhi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-24.china-leadership-9
+      when: Jan. 24
+      date: '1961-01-24'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, on the Organization Department''s 中央组织部 report on streamlining the cadres of the central organs and placing them: to Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Li Fuchun 李富春 and Tan Zhenlin 谭震林 for review, agreement proposed; the old, weak, ill and disabled to be properly placed.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 94. Made public: 2012. To check: 中共中央组织部《关于中央一级机关精简干部情况和分配处理意见》 (named by [[w.peng-zhen-nianpu-1902]], IV, 94). Names: Peng Zhen, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Li Fuchun, Tan Zhenlin.'
+      src:
+        c: 54f74d0e
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 94: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:deng-xiaoping
+      - name:li-fuchun
+      - name:tan-zhenlin
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-25.china-leadership-5
+      when: Jan. 25
+      date: '1961-01-25'
+      time_range:
+      - 1961-01-25T04:00Z
+      - 1961-01-25T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Zhang Linzhi 张霖之 and Luo Yuchuan 罗玉川 report to Peng Zhen 彭真 on coal and timber.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 94. The page''s note: Luo Yuchuan, then Vice-Minister of Forestry (IV, 94). The words: 下午 (IV, 94). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 5e9d247a
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 94: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-27.china-leadership-9
+      when: Jan. 27
+      date: '1961-01-27'
+      time_range:
+      - 1961-01-26T22:00Z
+      - 1961-01-27T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 presides at the Center''s telephone conference on coal and timber: Zhang Linzhi 张霖之 and Luo Yuchuan 罗玉川 report, Bo Yibo 薄一波 speaks; the regional bureaus'' and provinces'' industrial secretaries, the coal and forestry department heads and the leaders of key mines and works attend.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 95. The words: 上午 (IV, 95). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: f791cd9f
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 95: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-27.china-leadership-10
+      when: Jan. 27
+      date: '1961-01-27'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, forwarding the Agriculture Ministry 农业部 Party group''s report on the winter crops and preparing for spring sowing, to the regional bureaus and provincial committees: rectification and production, field work on the winter crops and spring sowing, all at once; read by Liu Shaoqi 刘少奇 and Chen Yun 陈云, issued Jan. 29.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 96. Made public: 2012. To check: 农业部党组《关于越冬作物生长情况和备耕工作的检查报告》 (named by [[w.peng-zhen-nianpu-1902]], IV, 96). Names: Peng Zhen, Liu Shaoqi, Chen Yun.'
+      src:
+        c: 619e798a
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 96: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - name:chen-yun
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-28.china-leadership-10
+      when: Jan. 28
+      date: '1961-01-28'
+      time_range:
+      - 1961-01-28T11:00Z
+      - 1961-01-28T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 talks with Zhou Enlai 周恩来.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 96. The words: 晚 (IV, 96). Made public: 2012. Names: Peng Zhen, Zhou Enlai.'
+      src:
+        c: 3867c402
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 96: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-29.china-leadership-6
+      when: Jan. 29
+      date: '1961-01-29'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 presides at the emergency telephone conference on coal and timber, with the provinces'' industrial secretaries and the heads of the 61 mines under the Center and of the northeastern and Inner Mongolian forestry bureaus: unless coal, timber, steel, chemicals and transport are put right by March, 19 million tons of steel will be hard; targets down to the working face and the felling area; production and preparation, quantity and quality; leaders to find one or two models; the Center''s mines'' output allotted by the Center.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 97. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 1b093f7d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 97: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-30.china-leadership-8
+      when: Jan. 30
+      date: '1961-01-30'
+      time_range:
+      - 1961-01-29T22:00Z
+      - 1961-01-30T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 presides at the National People''s Congress Standing Committee''s 全国人大常委会 thirty-fifth session: the State Capital Construction Commission abolished, its work merged into the Planning Commission; the treaty of friendship and mutual non-aggression with Cambodia ratified; Sun Zhiyuan 孙志远 made minister of the new Third Ministry of Machine Building; to those asking why a poor country aids others, Peng: aid is mutual; against imperialism, the oppressed nations of the world.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 97–98. The words: 上午 (IV, 97–98). Names: Peng Zhen, Sun Zhiyuan.'
+      src:
+        c: 683fe58b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 97–98: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:sun-zhiyuan
+- add:
+    entry:
+      id: cal.1961-01-31.china-leadership-9
+      when: Jan. 31
+      date: '1961-01-31'
+      time_range:
+      - 1961-01-30T22:00Z
+      - 1961-01-31T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 presides at the Secretariat''s 书记处 234th meeting 第二百三十四次会议 on the new Third Ministry of Machine Building: it and the military plants split from the First Ministry under the National Defense Industry Office; rectification in the military plants by trial points, no Center document yet for factories; the influence of Peng and Huang 彭、黄 (Peng Dehuai 彭德怀 and Huang Kecheng 黄克诚, so the page''s note) where it is, not everywhere; military use first; trials free, mass production by approval.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 98. The words: 上午 (IV, 98). Made public: 2012. Names: Peng Zhen, Peng Dehuai.'
+      src:
+        c: 53c112cf
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 98: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:peng-dehuai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-01-31.china-leadership-10
+      when: Jan. 31
+      date: '1961-01-31'
+      time_range:
+      - 1961-01-31T11:00Z
+      - 1961-01-31T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - cuba
+      c: Peking 北京. Peng Zhen 彭真 accompanies Liu Shaoqi 刘少奇 in receiving Fernando Alonso 费尔南多·阿隆索, director of the Cuban ballet, and its principal dancers, and sees their performance.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 98–99. The words: 晚 (IV, 98–99). Names: Peng Zhen, Liu Shaoqi.'
+      src:
+        c: 1854b26e
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 98–99: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1961-01-31.china-leadership-11
+      when: Jan. 31
+      date: '1961-01-31'
+      place: peking
+      thread: china-leadership
+      c: Peng Zhen 彭真 approves Xie Fuzhi's 谢富治 report that the Party groups of the public security, procuratorate and court organs be set up separately; once Liu Shaoqi 刘少奇 and Zhou Enlai 周恩来 have reviewed it, the Supreme People's Court, the Supreme People's Procuratorate and the Public Security Ministry again have Party groups of their own.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 99. Made public: 2012. Names: Peng Zhen, Xie Fuzhi, Liu Shaoqi, Zhou Enlai.'
+      src:
+        c: d9e6f366
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 99: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:xie-fuzhi
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-01.china-leadership-6
+      when: Feb. 1
+      date: '1961-02-01'
+      time_range:
+      - 1961-01-31T22:00Z
+      - 1961-02-01T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Peking 北京. Peng Zhen 彭真 meets Hill 希尔, secretary and Politburo member of the Australian Communist Party, and exchanges views on the Sino-Soviet differences.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 99. The words: 上午 (IV, 99). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: e9abea99
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 99: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-02.china-leadership-9
+      when: Feb. 2
+      date: '1961-02-02'
+      place: peking
+      thread: china-leadership
+      c: Peng Zhen 彭真 reads Nie Rongzhen's 聂荣臻 notice to the Secretariat placing the Harbin Polytechnic 哈尔滨工业大学, the Peking Aeronautical Institute 北京航空学院, the Peking Polytechnic 北京工业学院, the Nanjing Aeronautical Institute 南京航空学院, the Chengdu Telecommunications Institute 成都电讯工程学院, the Northwest Polytechnic 西北工业大学 and the Shanghai Jiaotong University 上海交通大学 under the Defense Science Commission, and sends it to Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and Tan Zheng 谭政 for review; the Center issues it in June.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 99. Made public: 2012. Names: Peng Zhen, Nie Rongzhen, Liu Shaoqi, Zhou Enlai.'
+      src:
+        c: d2b5222d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 99: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:nie-rongzhen
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-04.china-leadership-8
+      when: Feb. 4
+      date: '1961-02-04'
+      time_range:
+      - 1961-02-04T04:00Z
+      - 1961-02-04T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with Zhou Enlai 周恩来, Chen Yi 陈毅, Li Xiannian 李先念 and others concerned, at Liu Shaoqi's 刘少奇 meeting on aid to Albania and other matters.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 99. The words: 下午 (IV, 99). Made public: 2012. Names: Peng Zhen, Zhou Enlai, Chen Yi, Li Xiannian, Liu Shaoqi.'
+      src:
+        c: 21f0dd65
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 99: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - name:chen-yi
+      - name:li-xiannian
+      - name:liu-shaoqi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-07.china-leadership-4
+      when: Feb. 7
+      date: '1961-02-07'
+      time_range:
+      - 1961-02-06T22:00Z
+      - 1961-02-07T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 presides at the Secretariat''s 书记处 236th meeting 第二百三十六次会议 on public security, coal, railways, light industry and transport: hidden counterrevolutionaries to be dealt with, the two kinds of contradiction kept apart; reeducation through labor six months to three years, none below the county; no administrative detention in the villages; the procuratorate''s existence not to be debated; coal the center of industry, the miners'' grain guaranteed by Yao Yilin 姚依林, equipment by Bo Yibo 薄一波 and Gu Mu 谷牧 within February.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 99–100. The page''s note: Gu Mu, then a vice-chairman of the State Economic Commission (IV, 100). The words: 上午 (IV, 99–100). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: c16972cb
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 99–100: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-08.china-leadership-6
+      when: Feb. 8
+      date: '1961-02-08'
+      time_range:
+      - 1961-02-08T04:00Z
+      - 1961-02-08T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 to Zhou Enlai's 周恩来 to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 100. The words: 下午 (IV, 100). Made public: 2012. Names: Peng Zhen, Zhou Enlai.'
+      src:
+        c: d406abbe
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 100: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-08.china-leadership-7
+      when: Feb. 8
+      date: '1961-02-08'
+      time_range:
+      - 1961-02-08T11:00Z
+      - 1961-02-08T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 to Liu Shaoqi's 刘少奇 to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 100. The words: 晚 (IV, 100). Made public: 2012. Names: Peng Zhen, Liu Shaoqi.'
+      src:
+        c: 998b07a1
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 100: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-10.china-leadership-11
+      when: Feb. 10
+      date: '1961-02-10'
+      time_range:
+      - 1961-02-09T22:00Z
+      - 1961-02-10T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 presides at the Secretariat''s 书记处 237th meeting 第二百三十七次会议 on college textbooks and on steel and coal: 22 percent of Peking University''s courses without a textbook; "fix, write, borrow" (one text chosen for each course, Soviet or Western books where none can be written soon, so the page''s notes); libraries open to students; no textbook dropped before a new one is ready; the ten-year schooling trial kept at a tenth; rightist slackness in some bureaus, a meeting of ministers to criticize it.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 100–101. The words: 上午 (IV, 100–101). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 1c5922a2
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 100–101: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-10.china-leadership-12
+      when: Feb. 10
+      date: '1961-02-10'
+      time_range:
+      - 1961-02-10T04:00Z
+      - 1961-02-10T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 accompanies Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and others in receiving the graduates of the cadres' training class of the Central Nationalities Institute's 中央民族学院 political department.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 101–102. The words: 下午 (IV, 101–102). Names: Peng Zhen, Liu Shaoqi, Zhou Enlai.'
+      src:
+        c: 9b201f38
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 101–102: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1961-02-11.china-leadership-6
+      when: Feb. 11
+      date: '1961-02-11'
+      place: peking
+      thread: china-leadership
+      also:
+      - indonesia
+      c: 'Peng Zhen 彭真, having read the plan for Vice-Premier and Foreign Minister Chen Yi''s 陈毅 visit to Indonesia, to Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and Chen Yi: Khrushchev ("赫," so the page''s note) vies with America in money and material aid in some countries, his weak side against the enemy''s strong, a poor policy; China''s aid to some Asian, African and Latin American countries right, but where both America and the Soviet Union give aid China should avoid being drawn in; he agrees with the Premier''s comment.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 102. Made public: 2012. Names: Peng Zhen, Chen Yi, Liu Shaoqi, Zhou Enlai, Khrushchev.'
+      src:
+        c: 8700a770
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 102: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:chen-yi
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:khrushchev-nikita-s
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-14.china-leadership-5
+      when: Feb. 14
+      date: '1961-02-14'
+      time_range:
+      - 1961-02-14T04:00Z
+      - 1961-02-14T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - laos
+      c: Peking 北京. Peng Zhen 彭真, with Chen Yi 陈毅, Tan Zhenlin 谭震林, Zhang Hanfu 章汉夫 and others, to Zhou Enlai's 周恩来 on Laos.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 103. The words: 下午 (IV, 103). Made public: 2012. Names: Peng Zhen, Chen Yi, Tan Zhenlin, Zhou Enlai.'
+      src:
+        c: 9f79cc3b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 103: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:chen-yi
+      - name:tan-zhenlin
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-14.china-leadership-6
+      when: Feb. 14
+      date: '1961-02-14'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at Chen Yi's 陈毅 reception for Soviet and other foreign friends, for the eleventh anniversary of the Sino-Soviet treaty and the Spring Festival.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 103. Names: Peng Zhen, Chen Yi.'
+      src:
+        c: 2185c46c
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 103: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1961-02-14.china-leadership-7
+      when: Feb. 14–Mar. 6
+      date: '1961-02-14'
+      thread: china-leadership
+      c: 'The eleventh national public security conference 第十一次全国公安会议 opens (to Mar. 6): on Liu Shaoqi''s 刘少奇 and Peng Zhen''s 彭真 instructions it adopts "supplementary provisions on ten specific policy questions of present public security work": cases between the two kinds of contradiction, not easily drawn, to be handled as contradictions among the people, a "buffer zone."'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 103. Made public: 2012. To check: 《关于当前公安工作十个具体政策问题的补充规定》 (named by [[w.peng-zhen-nianpu-1902]], IV, 103). Names: Liu Shaoqi, Peng Zhen.'
+      src:
+        c: c6c591b5
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 103: all'
+      tags:
+      - polity:prc
+      - name:liu-shaoqi
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-04-20.china-leadership-11
+      when: Apr. 20
+      date: '1961-04-20'
+      thread: china-leadership
+      c: The Center 中共中央 approves the Public Security Ministry 公安部 Party group's report on the eleventh national public security conference, its policy provisions and its resolutions.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 103. Made public: 2012. See [[cal.1961-02-14.china-leadership-7]].'
+      src:
+        c: 43ff32ac
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 103: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-17.china-leadership-4
+      when: Feb. 17
+      date: '1961-02-17'
+      time_range:
+      - 1961-02-16T22:00Z
+      - 1961-02-17T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 calls Zhang Linzhi 张霖之, An Zhiwen 安志文, Song Yangchu 宋养初, Li Lisan 李立三 and others on coal, Gu Mu 谷牧, Lü Zhengcao 吕正操 and Lü Dong 吕东 joining in the afternoon and evening: cutting and tunneling together; too few at the face (the Fushun 抚顺 bureau 100,000 strong, 9,000-odd below ground); rectification with big-character posters to move the bureaus; fixed faces, crews and tools; bonuses for beating the ministry''s target.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 103–104. The page''s notes: An Zhiwen and Song Yangchu, vice-chairmen of the State Planning Commission; Li Lisan, a secretary of the North China Bureau; Lü Dong, Vice-Minister of Metallurgy (IV, 103). The time is the morning session''s. The words: 上午……下午和晚上 (IV, 103–104). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: c7ecc1b8
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 103–104: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-17.china-leadership-5
+      when: Feb. 17
+      date: '1961-02-17'
+      time_range:
+      - 1961-02-17T14:00Z
+      - 1961-02-17T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 to Zhou Enlai's 周恩来, then late at night to Liu Shaoqi's 刘少奇, into the next morning.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 104. The time is the visit to Liu''s; the visit to Zhou''s that evening. The words: 晚……深夜至次日凌晨 (IV, 104). Made public: 2012. Names: Peng Zhen, Zhou Enlai, Liu Shaoqi.'
+      src:
+        c: 4265db98
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 104: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - name:liu-shaoqi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-19.china-leadership-5
+      when: Feb. 19
+      date: '1961-02-19'
+      time_range:
+      - 1961-02-18T22:00Z
+      - 1961-02-19T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 calls An Zhiwen 安志文, Zhang Linzhi 张霖之, Wang Heshou 王鹤寿, Xu Zirong 徐子荣 and others on steel and coal, the market, finance and rectification: January bad, too little farm produce, industry down; political work about the masses'' real problems; trial rectification at some mines, a good and a bad each; a strong work team to each of the 61 key mines, "只做不吹"; "big, foreign and mass" in steel.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 104. The words: 上午 (IV, 104). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 1518886b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 104: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-19.china-leadership-6
+      when: Feb. 19
+      date: '1961-02-19'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 to the Politburo Standing Committee, by written report, on industry, the market, finance and banking, "very bad ... hiding danger": grain extremely tight to the summer harvest, imports no answer; the idle to eat less for the workers, grain for the draft animals; January revenue half last year''s, the cash gap 1.2 billion yuan, the note issue at its ceiling, retail sales down 2.3 billion; two years of disaster and "man-made calamity" in places; light industry to be pressed with coal; coal up by mid-March.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 104–105. "现在的工业生产和市场、财政、金融情况很不好，也可以说是潜藏着危险的" (IV, 104). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: d7b09dac
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 104–105: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-20.china-leadership-5
+      when: Feb. 20
+      date: '1961-02-20'
+      thread: china-leadership
+      c: The Center 中共中央 forwards the Coal Ministry 煤炭部 and Grain Ministry 粮食部 Party groups' report on restoring the miners' grain rations to those of the first half of 1960.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 106. Made public: 2012. To check: 煤炭部、粮食部党组关于煤矿工人恢复一九六〇年上半年粮食定量情况的报告 (named by [[w.peng-zhen-nianpu-1902]], IV, 106).'
+      src:
+        c: 2842a5db
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 106: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-21.china-leadership-4
+      when: Feb. 21
+      date: '1961-02-21'
+      time_range:
+      - 1961-02-20T22:00Z
+      - 1961-02-21T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 presides at the Secretariat''s 书记处 239th meeting 第二百三十九次会议: the Shengli 胜利 mine of Fushun 抚顺, politics joined to concrete measures, a model for all coal enterprises; repairs and supply, more men at the face, better use of hours, technical innovation, responsibility for cutting and tunneling, time wages first and piece wages second, bonuses by the Center''s targets.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 106. The words: 上午 (IV, 106). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 1e77bc33
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 106: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-21.china-leadership-5
+      when: Feb. 21
+      date: '1961-02-21'
+      time_range:
+      - 1961-02-21T04:00Z
+      - 1961-02-21T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 presides at the telephone conference of the coal industry''s leading cadres: January''s daily steel output 43 points below last year''s, light industry less than half, Shanghai and Tianjin about a third, for want of coal; 130,000 more men for the mines, miners'' rations raised; "fear of difficulty, slackness, empty talk" the cause; the cadres to check their mass line; a full meal on shift, food below ground; rectification from above and below; work teams to the 30 chief mines of the 61, which give 90 percent.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 106–107. The words: 下午 (IV, 106–107). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: da0ebd24
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 106–107: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-03.china-leadership-3
+      when: Mar. 3
+      date: '1961-03-03'
+      thread: china-leadership
+      c: The Central Committee's General Office 中共中央办公厅 prints the summary of Peng Zhen's 彭真 speech at the coal industry's telephone conference of Feb. 21 for the regional bureaus, the provincial committees, the central departments and Party groups and the Party committees of the central enterprises and mines.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 107. Made public: 2012. See [[cal.1961-02-21.china-leadership-5]]. Names: Peng Zhen.'
+      src:
+        c: c010d92f
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 107: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-24.china-leadership-3
+      when: Feb. 24
+      date: '1961-02-24'
+      time_range:
+      - 1961-02-23T22:00Z
+      - 1961-02-24T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 to Liu Shaoqi's 刘少奇 to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 107. The words: 上午 (IV, 107). Made public: 2012. Names: Peng Zhen, Liu Shaoqi.'
+      src:
+        c: 998b07a1
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 107: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-26.china-leadership-6
+      when: Feb. 26
+      date: '1961-02-26'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, revising the Center''s draft urgent notice on completing grain transfers and balancing grain, adds: the whole people to see the gravity of two years of great disaster, to save and live on melons and vegetables, the half-working to eat less grain and the non-working still less, so the workers, the heavy workers above all, have the rations they need, lest weakened labor bring a new famine.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 107–108. Made public: 2012. To check: 中共中央《关于坚决完成粮食调拨任务保证粮食收支平衡的紧急通知（草稿）》 (named by [[w.peng-zhen-nianpu-1902]], IV, 107). Names: Peng Zhen.'
+      src:
+        c: 168073c7
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 107–108: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-27.china-leadership-10
+      when: Feb. 27
+      date: '1961-02-27'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 calls the heads of the departments concerned on coal, steel, power and transport.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 108. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 3f91c95d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 108: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-27.china-leadership-11
+      when: Feb. 27
+      date: '1961-02-27'
+      time_range:
+      - 1961-02-27T11:00Z
+      - 1961-02-27T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 to Zhou Enlai's 周恩来 to talk.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 108. The words: 晚 (IV, 108). Made public: 2012. Names: Peng Zhen, Zhou Enlai.'
+      src:
+        c: d406abbe
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 108: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-02-28.china-leadership-7
+      when: Feb. 28
+      date: '1961-02-28'
+      time_range:
+      - 1961-02-27T22:00Z
+      - 1961-02-28T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 presides at the Secretariat''s 书记处 240th meeting 第二百四十次会议, 21 heads of the State Council''s industrial departments there, on rectification in industry: production not to stop; each ministry to take one or two units with many problems and one middling, let all speak out, as quick investigation; 299 trial points already in eleven provinces; "learn from past mistakes, cure the illness to save the patient," except where power must be seized; the rules in some disorder, "disorder in advance."'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 108–109. The words: 上午 (IV, 108–109). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 798b51fd
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 108–109: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-02.china-leadership-6
+      when: Mar. 2
+      date: '1961-03-02'
+      time_range:
+      - 1961-03-02T04:00Z
+      - 1961-03-02T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the enlarged Politburo Standing Committee, Liu Shaoqi 刘少奇 presiding, hearing Li Xiannian 李先念 on the Albanian Party of Labor's congress.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 109. The words: 下午 (IV, 109). Made public: 2012. Names: Peng Zhen, Liu Shaoqi, Li Xiannian.'
+      src:
+        c: 80c61b01
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 109: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - name:li-xiannian
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-03.china-leadership-4
+      when: Mar. 3
+      date: '1961-03-03'
+      time_range:
+      - 1961-03-03T11:00Z
+      - 1961-03-03T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: 'Peking 北京. Peng Zhen 彭真 at the enlarged Politburo Standing Committee, Liu Shaoqi 刘少奇 presiding: Deng Xiaoping 邓小平 on his tour; the Soviet offer of a million tons of grain on loan and 500,000 tons of Cuban sugar in transit.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 109. The words: 晚 (IV, 109). Made public: 2012. Names: Peng Zhen, Liu Shaoqi, Deng Xiaoping.'
+      src:
+        c: 9faca18c
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 109: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - name:deng-xiaoping
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-07.china-leadership-8
+      when: Mar. 7
+      date: '1961-03-07'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, on Chen Yeping''s 陈野苹 report that some public security organs in Gansu 甘肃 held back letters from the masses and cadres to the Center and to Mao Zedong 毛泽东, to Xie Fuzhi 谢富治: intolerable in politics, Party discipline and state law alike, a grave breach of law and discipline; those at the conference to be told never to do it again.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 110. The page''s notes: Chen Yeping, deputy head of the Organization Department; the conference, the eleventh national public security conference of Feb. 14–Mar. 6, 1961, which printed the comment as "Comment on a bulletin" 《对一个简报的批语》 and sent it after the conference to the public security organs to check and correct (IV, 110). Made public: 2012. Names: Peng Zhen, Mao Zedong, Xie Fuzhi.'
+      src:
+        c: 377e30ed
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 110: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:xie-fuzhi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-10.china-leadership-8
+      when: Mar. 10
+      date: '1961-03-10'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 with Zheng Tianxiang 郑天翔 and others on the rectification in Peking''s industry and transport (since mid-November 1960, 327 main enterprises, 620,000 workers): the masses to speak out fully; a system of responsibility; a collective bonus of 10 percent besides; an industrial "twelve articles" from it; the 41 big state plants first, a campaign of two weeks; the political department a home for the masses, no lectures, no reprisals.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 111. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: ec941b54
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 111: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-21.china-leadership-11
+      when: Mar. 21
+      date: '1961-03-21'
+      thread: china-leadership
+      c: The North China Bureau 中共中央华北局 forwards the Peking municipal committee's report to the Center and the Bureau on the rectification in industry and transport enterprises and its next steps.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 111. Made public: 2012. See [[cal.1961-03-10.china-leadership-8]]. To check: 北京市委《关于工业交通企业整风运动的情况和当前整风部署向中共中央、华北局的报告》 (named by [[w.peng-zhen-nianpu-1902]], IV, 111).'
+      src:
+        c: 54d772e0
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 111: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-12.china-leadership-8
+      when: Mar. 12
+      date: '1961-03-12'
+      time_range:
+      - 1961-03-12T04:00Z
+      - 1961-03-12T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 at the airport to welcome Wilcox 威尔科克斯, general secretary of the New Zealand Communist Party.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 111–112. The words: 下午 (IV, 111–112). Names: Peng Zhen.'
+      src:
+        c: 5d3a6803
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 111–112: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1961-03-18.china-leadership-7
+      when: Mar. 18
+      date: '1961-03-18'
+      time: 1961-03-18T04:00Z
+      time_approx: true
+      time_zone: Asia/Shanghai
+      place: canton
+      thread: china-leadership
+      c: Canton 广州. Peng Zhen 彭真, with Tao Zhu 陶铸, Li Jingquan 李井泉, Ke Qingshi 柯庆施, Li Xuefeng 李雪峰, Liu Lantao 刘澜涛 and Song Renqiong 宋任穷, reports the conference's groups to Mao Zedong 毛泽东.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 113. The words: 中午 (IV, 113). Made public: 2012. Names: Peng Zhen, Tao Zhu, Li Jingquan, Ke Qingshi, Mao Zedong.'
+      src:
+        c: 8077f847
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 113: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:tao-zhu
+      - name:li-jingquan
+      - name:ke-qingshi
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-19.china-leadership-9
+      when: Mar. 19
+      date: '1961-03-19'
+      time_range:
+      - 1961-03-19T04:00Z
+      - 1961-03-19T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: canton
+      thread: china-leadership
+      c: 'Canton 广州. Peng Zhen 彭真 at the Central-South and East China group of the work conference: much has gone wrong for want of investigation; the general line and Mao Zedong Thought universal truths to be joined to conditions; a line error avoidable under the Chairman; the Secretariat, the Chairman''s and the Standing Committee''s assistant, did not investigate the communes and plants, "热多冷少," the Chairman''s criticism wholly right.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 113. Peng: "几年来工作出了不少毛病 ... 有时工作搞得很被动" (IV, 113). The words: 下午 (IV, 113). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+      src:
+        c: 0d7686cb
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 113: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-23.china-leadership-8
+      when: Mar. 23
+      date: '1961-03-23'
+      time_range:
+      - 1961-03-22T16:00Z
+      - 1961-03-22T22:00Z
+      time_band: predawn
+      time_zone: Asia/Shanghai
+      place: canton
+      thread: china-leadership
+      c: Canton 广州. Peng Zhen 彭真 to Mao Zedong's 毛泽东 to talk, before dawn.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 113. The words: 凌晨 (IV, 113). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+      src:
+        c: e28de9ba
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 113: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-28.china-leadership-8
+      when: Mar. 28
+      date: '1961-03-28'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 with the leaders of the Coal Ministry 煤炭部 and the Forestry Ministry 林业部 on rectification in the mines and on timber.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 114–115. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: '51224887'
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 114–115: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-30.china-leadership-4
+      when: Mar. 30
+      date: '1961-03-30'
+      time_range:
+      - 1961-03-30T11:00Z
+      - 1961-03-30T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 presides at the coal industry''s telephone conference on rectification again: the 61 big mines at 540,000 tons a day in March, 160,000 less than last year, though no accidents, more men and enough grain; output from 130 to 425 million tons in three years of leap, but the leaders let none speak, so "大鸣大放，大整大改"; at the Western Hills 京西 bureau 200,000-odd opinions from 40,000 workers in six days; the cadres to lead the criticism.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 115. The words: 晚 (IV, 115). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 5f533351
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 115: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-03-31.china-leadership-3
+      when: Mar. 31
+      date: '1961-03-31'
+      place: peking
+      thread: china-leadership
+      c: 'The Peking municipal committee 北京市委 sends the Center and the North China Bureau its bulletin on the rectification in industry and transport: in 98 main enterprises, 500,000 workers, more than two million opinions in a fortnight, about 30 percent on leadership, 30 on supply and management, 25 on welfare, 15 on politics, culture and technique; the Western Hills 京西 mines'' daily output up 1.8 percent.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 115–116. Made public: 2012. To check: 北京市委《关于工业交通企业整风运动的情况简报》 (Mar. 31, 1961; named by [[w.peng-zhen-nianpu-1902]], IV, 115).'
+      src:
+        c: 3c48b15e
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 115–116: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-04-05.china-leadership-7
+      when: Apr. 5
+      date: '1961-04-05'
+      thread: china-leadership
+      c: 'The Center 中共中央 forwards the Peking municipal committee''s bulletin on rectification to the provincial committees: without full speaking out and full correction the problems cannot be solved; the key whether the cadres will "draw the fire on themselves" and lead; speaking out and correcting together.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 116. Made public: 2012. See [[cal.1961-03-31.china-leadership-3]].'
+      src:
+        c: b94353b5
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 116: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-04-01.china-leadership-6
+      when: Apr. 1
+      date: '1961-04-01'
+      time_range:
+      - 1961-03-31T22:00Z
+      - 1961-04-01T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - africa
+      c: Peking 北京. Peng Zhen 彭真 meets Kobina Kesse 科比纳·克西, Ghana's Ambassador.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 116. The words: 上午 (IV, 116). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 9b71a7b9
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 116: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc+ghana
+- add:
+    entry:
+      id: cal.1961-04-02.china-leadership-5
+      when: Apr. 2
+      date: '1961-04-02'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 reads the United Front Department''s 中央统战部 summary of its work in 1960 and plan for 1961, and drafts the Center''s comment: the plan agreed; to study systematically the thinking and political trends of each stratum of the bourgeoisie, its intellectuals and other objects of the united front, and to check and improve the Party''s working relations with them.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 116. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 0c60788c
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 116: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-04-04.china-leadership-9
+      when: Apr. 4
+      date: '1961-04-04'
+      time_range:
+      - 1961-04-04T11:00Z
+      - 1961-04-04T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with Zhou Enlai 周恩来 and others, at He Long's 贺龙 banquet welcoming the foreign friends at the World Table Tennis Championships.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 117. The words: 当晚 (IV, 117). Names: Peng Zhen, Zhou Enlai, He Long.'
+      src:
+        c: db75a276
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 117: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - name:he-long
+- add:
+    entry:
+      id: cal.1961-04-05.china-leadership-8
+      when: Apr. 5
+      date: '1961-04-05'
+      place: peking
+      thread: china-leadership
+      c: The new Peking Workers' Gymnasium 北京工人体育馆. Peng Zhen 彭真 watches the World Table Tennis Championships.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 117. Names: Peng Zhen.'
+      src:
+        c: 9b328217
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 117: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
 - cite:
     id: cal.1960-01-06.china-leadership-4
     item: '[[w.peng-zhen-nianpu-1902]], IV, 1 (Jan. 6, 1960, morning; Peng Zhen to Yang Shangkun''s to talk of reading the *Textbook of Political Economy*)'
@@ -2882,3 +4801,768 @@ ops:
 - cite:
     id: cal.1960-08-28.china-leadership
     item: '[[w.peng-zhen-nianpu-1902]], IV, 54 (Aug. 28, 1960, evening; after Liu''s meeting, Peng Zhen, with Liu, Zhou, Deng and Li Xiannian, to Mao''s on receiving the Albanian delegation going to Vietnam; then they accompany Mao in meeting it in the Qinzheng Hall)'
+- cite:
+    id: cal.1960-08-30.china
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 54–55 (Aug. 30, 1960, morning; Peng Zhen at the airport to see off Li Fuchun''s Party and government delegation to Hanoi for the DRV''s fifteenth anniversary)'
+- cite:
+    id: cal.1960-08-31.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 55 (Aug. 31, 1960, morning; Peng Zhen, with Kang Sheng, Chen Boda, Wang Jiaxiang, Yang Shangkun and others, at Deng Xiaoping''s meeting at Diaoyutai, continuing on the delegation''s talks at Moscow and the drafting of the Reply)'
+- cite:
+    id: cal.1960-08-31.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 55 (Aug. 31, 1960, afternoon; the 204th meeting, Peng Zhen presiding, on the staffing of the First, Second and Third Machine-Building Ministries once civil machinery and military production are parted; Peng: merged to concentrate strength, now parted; no hope that others will give us anything, military production to stand on its own; quality first, the military first; every product signed for by the military representative and the Party secretary; tests bold, manufacture only once the type is fixed)'
+- cite:
+    id: cal.1960-09-01.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 55 (Sept. 1, 1960, morning; Peng Zhen at the meeting in the CPPCC auditorium celebrating the DRV''s fifteenth anniversary)'
+- cite:
+    id: cal.1960-09-02.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 56 (Sept. 2, 1960, evening; Peng Zhen, with Liu Shaoqi, Zhu De, Zhou Enlai and others, at the Vietnamese Ambassador''s reception in the Peking Hotel)'
+- cite:
+    id: cal.1960-09-06.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 56 (Sept. 6, 1960, morning; Peng Zhen to Deng Xiaoping''s on drafting the answers to the letters of the Romanian, Bulgarian, Czechoslovak, Albanian and other brother parties)'
+- cite:
+    id: cal.1960-09-06.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 56 (Sept. 6, 1960, noon; Peng Zhen and Deng Xiaoping to Zhou''s on the talks with the CPSU)'
+- cite:
+    id: cal.1960-09-07.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 56 (Sept. 7, 1960, afternoon; Peng Zhen sits in at Mao''s Standing Committee on revising the Reply)'
+- cite:
+    id: cal.1960-09-07.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 56 (Sept. 7, 1960, 11:30 p.m.; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Dong Biwu and Yang Shangkun, to the GDR Embassy to mourn President Wilhelm Pieck)'
+- cite:
+    id: cal.1960-09-10.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 56 (Sept. 10, 1960, afternoon; Peng Zhen, with Liu Shaoqi, Zhou Enlai and Zhu De, at the airport to welcome President Sékou Touré and the Guinean government delegation)'
+- cite:
+    id: cal.1960-09-10.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 56 (Sept. 10, 1960, 4 p.m.; Peng Zhen at the meeting with President Touré)'
+- cite:
+    id: cal.1960-09-10.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 56 (Sept. 10, 1960, 6 p.m.; Peng Zhen at the banquet for the Guinean government delegation)'
+- cite:
+    id: cal.1960-09-12.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 56–57 (Sept. 12, 1960; Peng Zhen, with Deng Xiaoping and Yang Shangkun, meets Chervonenko and hands him the Reply; the delegation to leave for Moscow Oct. 15; the page''s note: the Reply answers five points (the surprise attack at Bucharest; differences of ideology carried into state relations, the aid agreements torn up and the experts withdrawn; Khrushchev''s partiality to India; his praise of Eisenhower; his "yellow peril" to Adenauer))'
+- cite:
+    id: cal.1960-09-12.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 57 (Sept. 12, 1960, evening; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Chen Yi and others, accompanies Mao in meeting and dining Touré in the Qinzheng Hall; after it at Mao''s talk with Liu and others)'
+- cite:
+    id: cal.1960-09-13.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 57 (Sept. 13, 1960, morning; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Zhu De and others, at the signing of the joint communiqué, the treaty of friendship, the agreement on economic and technical cooperation and the agreement on trade and payments)'
+- cite:
+    id: cal.1960-09-14.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 57 (Sept. 14, 1960, morning; Peng Zhen at the airport to see Touré off to Shanghai)'
+- cite:
+    id: cal.1960-09-13.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 57 (Sept. 13, 1960, afternoon; Peng Zhen and Deng Xiaoping to Zhou''s on Sino-Soviet relations)'
+- cite:
+    id: cal.1960-09-13.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 58 (Sept. 13, 1960, evening; Peng Zhen at Mao''s enlarged Standing Committee on the line for the talks of the two parties, and hearing Li Fuchun on the DRV''s fifteenth anniversary and the Lao Động''s third congress)'
+- cite:
+    id: cal.1960-09-14.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 58 (Sept. 14, 1960, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding; the delegation''s line and tactics for the talks adopted; the answers to the Romanian, Czechoslovak and Bulgarian parties'' letters)'
+- cite:
+    id: cal.1960-09-15.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 58 (Sept. 16, 1960, 9 a.m.; Peng Zhen, with Deng Xiaoping, Yang Shangkun, Hu Qiaomu, Wu Xiuquan and others, flies to Moscow, Chervonenko with them; Chen Boda, Kang Sheng, Liao Chengzhi and others gone ahead the morning of the 15th, Liu Xiao already in Moscow)'
+- cite:
+    id: cal.1960-09-16.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 58 (Sept. 16, 1960, 9 a.m.; Peng Zhen on the same plane, with Deng Xiaoping, Hu Qiaomu, Wu Xiuquan and others, Chervonenko with them)'
+- cite:
+    id: cal.1960-09-16.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 59 (Sept. 16, 1960; the delegation reaches Moscow at 8:30 p.m. (3:30 p.m. Moscow time) and lodges on the Lenin Hills)'
+- cite:
+    id: cal.1960-09-17.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 59–60 (Sept. 17–22, 1960; Peng Zhen at the talks; Sept. 17, 1 p.m., they open: Suslov: the Reply shows "no wish to ease," regrettable and dangerous; Deng: nearly seventy Soviet articles in two months since Bucharest, the experts withdrawn, the magazine *Druzhba* stopped (the page''s note: the Chinese weekly in the Soviet Union, stopped at the Soviet counsellor''s request of July 6, 1960), border incidents; where is this leading? The Soviet side adjourns, Sunday the 18th a rest)'
+- cite:
+    id: cal.1960-09-17.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 59 (Sept. 17, 1960, 10 a.m. Moscow time, at the delegation''s lodging; Peng Zhen with Deng Xiaoping and others receives Andropov; agreed: the talks in the Kremlin for secrecy, from 1 p.m. that day, the delegations only, China adding two advisers and four interpreters)'
+- cite:
+    id: cal.1960-09-18.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 59 (Sept. 18, 1960, 3 p.m.; the delegation at the Chinese Embassy settles Monday''s statement in five parts: who broke with Marxism–Leninism and the Moscow Declaration; friend and foe; the father party; the facts of the CPSU''s errors; a plea to correct them for unity)'
+- cite:
+    id: cal.1960-09-19.soviet-union-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 60 (Sept. 19, 1960, 2 p.m.; Peng Zhen at the second session; after Kozlov, Deng rebuts; then Peng, from his own experience, shows Bucharest a surprise attack and encirclement planned by Khrushchev)'
+- cite:
+    id: cal.1960-09-20.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 60 (Sept. 20, 1960, 2 p.m.; Peng Zhen at the third session; Deng on the Soviet side''s want of equality, the experts'' recall and the agreements torn up, a loss the Chinese will make good by their own hands; in a break the Chinese propose leaving on the evening of the 21st or 22nd)'
+- cite:
+    id: cal.1960-09-21.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 60 (Sept. 21, 1960, 2 p.m.; Peng Zhen at the fourth session; Suslov and Kozlov speak; Kozlov proposes seven questions (modern capitalism, the epoch, rousing the peoples against war, the working class''s victory, national liberation, revisionism and dogmatism))'
+- cite:
+    id: cal.1960-09-22.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 60 (Sept. 22, 1960, 2 p.m.; Peng Zhen at the fifth session; Suslov agrees with Deng''s first part, on unity, but holds to the Notification; Deng: then let it wait for the drafting committee; back at the lodging at 4)'
+- cite:
+    id: cal.1960-09-22.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 60–61 (Sept. 22, 1960, 5:30 p.m., the St. Catherine Hall of the Kremlin; the Soviet delegation''s dinner for the Chinese, ended at 8; at 11 p.m. the delegation flies home)'
+- cite:
+    id: cal.1960-09-22.soviet-union-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 61 (Sept. 22, 1960, 11 p.m.; the delegation leaves by special plane)'
+- cite:
+    id: cal.1960-09-23.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 61 (Sept. 23, 1960; by Irkutsk at noon, Peking time, and back in Peking in the afternoon, Zhou Enlai and others at the airport)'
+- cite:
+    id: cal.1960-09-23.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 61 (Sept. 23, 1960, 8:30 p.m. to 12:15 a.m., the Yinian Tang; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yi, Li Fuchun, Kang Sheng, Yang Shangkun and others; Mao: "坚持原则，坚持团结，坚持斗争，留有余地")'
+- cite:
+    id: cal.1960-09-24.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 61 (Sept. 24, 1960, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, hearing Deng on the talks; the State Planning Commission''s and Labor Ministry''s Party groups'' report on labor and wages adopted)'
+- cite:
+    id: cal.1960-09-25.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 61 (Sept. 25, 1960, afternoon; Peng Zhen, with Liu Shaoqi and Deng Xiaoping, meets Lance Louis Sharkey, general secretary, and Richard Dixon, chairman, of the Australian Communist Party, and dines with them; Liu Ningyi there)'
+- cite:
+    id: cal.1960-09-26.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 61 (Sept. 26, 1960, morning; Peng Zhen, with Deng Xiaoping and Yang Shangkun, talks with Lê Duẩn, first secretary of the Lao Động, on the Sino-Soviet talks)'
+- cite:
+    id: cal.1960-09-27.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 61 (Sept. 27, 1960, afternoon, and Sept. 28, afternoon; Peng Zhen at Mao''s enlarged Standing Committee in the Yinian Tang on preparing the draft declaration of the twenty-six parties; Chen Yi, Kang Sheng, Lu Dingyi, Li Jingquan, Yang Shangkun and Hu Qiaomu there)'
+- cite:
+    id: cal.1960-09-28.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 61 (Sept. 28, 1960, morning; Peng Zhen at Deng''s meeting on the draft "Statement of the meeting of representatives of the communist and workers'' parties"; Zhou attending)'
+- cite:
+    id: cal.1960-09-30.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 61–62 (Sept. 30, 1960, morning; Peng Zhen, deputy leader, with Deng Xiaoping, leader, Kang Sheng, Yang Shangkun, Hu Qiaomu and Liao Chengzhi, flies to Moscow to prepare the twenty-six parties'' meeting, seen off by Zhou Enlai, Zhu De and others; Li Jingquan, Lu Dingyi, Liu Ningyi and others left at 11 a.m. on the 29th; at Moscow 4:30 p.m. Moscow time)'
+- cite:
+    id: cal.1960-09-30.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 62 (Sept. 30, 1960, 6:30 p.m.; Peng Zhen, with Deng Xiaoping and Yang Shangkun, at the CPSU building at Suslov''s and Kozlov''s invitation; Suslov: the CPSU has a draft Statement, to unite on principle; the meeting opens tomorrow, a Soviet welcome, the 2nd and 3rd for study, general debate from the 4th; a secretariat of the drafting committee, one or two from each side; the draft handed over with a Chinese translation)'
+- cite:
+    id: cal.1960-09-30.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 62 (Sept. 30, 1960, 8 p.m.; the delegation at the Embassy reads the Soviet draft together; Peng Zhen and Yang Shangkun then draft the delegation''s report to the Center; the draft typed to be carried to Peking the next evening; the delegation still on the Lenin Hills)'
+- cite:
+    id: cal.1960-10-01.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 62 (Oct. 1, 1960; after the first session the Brazilian, Japanese, Albanian, Indian, Argentine, Korean and other delegations seek talks with the Chinese; Ghosh of the Indian party asks for contact on his own)'
+- cite:
+    id: cal.1960-10-03.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 63 (Oct. 3, 1960, evening; Peng Zhen at the Soviet delegation''s banquet)'
+- cite:
+    id: cal.1960-10-04.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 63 (Oct. 4, 1960, morning; Peng Zhen, with Deng Xiaoping and Liu Ningyi, meets Ghosh of the Indian party)'
+- cite:
+    id: cal.1960-10-04.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 63 (Oct. 4, 1960, afternoon; Peng Zhen at the second session, the general debate; the Italian, Hungarian, Finnish, West German and Mongolian delegates speak)'
+- cite:
+    id: cal.1960-10-04.china-leadership-9
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 63 (Oct. 4, 1960, evening; the delegation at the Embassy on Deng''s speech for the next day; the Center''s instruction: the errors in the Soviet draft to be refuted forcefully before counter-proposals)'
+- cite:
+    id: cal.1960-10-05.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 63 (Oct. 5, 1960, 2 p.m.; Peng Zhen at the third session; after Lê Duẩn, Deng speaks seventy minutes; then the Czechoslovak and Polish delegates)'
+- cite:
+    id: cal.1960-10-05.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 63 (Oct. 5, 1960, 8 p.m. to 1 a.m.; Peng Zhen, with Deng Xiaoping and Yang Shangkun, talks with Escalante, executive secretary of Cuba''s Popular Socialist Party)'
+- cite:
+    id: cal.1960-10-06.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 63 (Oct. 6, 1960, 2 p.m.; Peng Zhen at the fourth session; Kapo of Albania at length: the Soviet words and acts at Bucharest not in accord with Marxism–Leninism, and sharp criticism of the CPSU on the epoch, the socialist system, war and peace, coexistence, peaceful transition, revisionism and dogmatism; the French, East German and British delegates speak)'
+- cite:
+    id: cal.1960-10-06.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 63 (Oct. 6, 1960, evening; at the Embassy Peng Zhen and Deng Xiaoping meet Kapo, then Miyamoto Kenji of Japan)'
+- cite:
+    id: cal.1960-10-06.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 63 (Oct. 6, 1960, evening; Peng Zhen and Deng Xiaoping meet Miyamoto Kenji, after Kapo)'
+- cite:
+    id: cal.1960-10-07.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 63–64 (Oct. 7, 1960, 10 a.m., at the Embassy; the Cuban delegation proposes that the two parties go on talking, the general debate being no help, a small committee of the two and one party each of Europe, Asia and Latin America to study the draft)'
+- cite:
+    id: cal.1960-10-07.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 64 (Oct. 7, 1960, afternoon; Peng Zhen at the fifth session; the Romanian, Argentine, Syrian, Brazilian, Japanese, Korean and American delegates; the secretariat to start on Monday the 11th)'
+- cite:
+    id: cal.1960-10-07.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 64 (Oct. 7, 1960; the Center cables the delegation that Khrushchev''s speech at the UN General Assembly of Oct. 1 will be printed in *Renmin ribao* the next day)'
+- cite:
+    id: cal.1960-10-08.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 64 (Oct. 8, 1960, noon; Peng Zhen at the sixth session; after the Australian, the Cuban and Suslov, the chair closes the debate, three parties left for Monday; Deng at once asks a second speech for the Chinese)'
+- cite:
+    id: cal.1960-10-09.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 64 (Oct. 9, 1960, evening; the delegation at the Embassy on Deng''s second speech)'
+- cite:
+    id: cal.1960-10-10.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 64 (Oct. 10, 1960, morning; Peng Zhen at the seventh session; the Indian, Indonesian and Bulgarian delegates; on a second speech no agreement; Deng: the Chinese need to state their view again but will hand it in writing if the others wish; Suslov: views in writing, the secretariat to meet that day and the next)'
+- cite:
+    id: cal.1960-10-11.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 64 (Oct. 11, 1960, 11 a.m. to 1 p.m.; Peng Zhen, with Deng Xiaoping and Yang Shangkun, calls on the French, Italian, Australian, Cuban and Albanian delegations at the CPSU''s guesthouse)'
+- cite:
+    id: cal.1960-10-11.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 64–65 (Oct. 11, 1960, 6 p.m.; Peng Zhen, with Deng and Yang, to the dacha outside Moscow to see the Vietnamese delegation)'
+- cite:
+    id: cal.1960-10-12.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 65 (Oct. 12, 1960, 10:30 a.m.; Peng Zhen, with Deng and Yang, visits Duclos of the French party''s Secretariat at the Barvikha sanatorium, in bed with heart disease over a month)'
+- cite:
+    id: cal.1960-10-12.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 65 (Oct. 12, 1960, evening, at the Embassy; Peng Zhen hears Kang Sheng and Hu Qiaomu on the secretariat''s revision: the epoch and "going it alone" hotly argued; Albania, Vietnam, Japan, Indonesia, Korea and Australia with the Chinese)'
+- cite:
+    id: cal.1960-10-12.china-leadership-9
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 65 (Oct. 12, 1960; the delegation cables the Center the secretariat''s two days)'
+- cite:
+    id: cal.1960-10-13.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 65 (Oct. 13, 1960, evening, at the Embassy; Peng Zhen hears Kang Sheng and Hu Qiaomu: all views out, two armies facing each other, evenly matched, the Soviet side on the defensive; before the session the Soviets offered to strike "going it alone" and "national communism" but keep the passage on Yugoslavia aimed at China; refused; the Soviet supporters more restrained; reported to the Center)'
+- cite:
+    id: cal.1960-10-14.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 65 (Oct. 14, 1960, evening, at the Embassy; Peng Zhen hears Hu Qiaomu on the fight over the danger of war, the horror of nuclear arms and disarmament; some see the Bucharest days gone; the CPSU, seeking compromise, forms a small committee of six (the Soviet Union, China, Japan, West Germany and others) and talks between the two parties)'
+- cite:
+    id: cal.1960-10-14.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 65 (Oct. 14, 1960; Khrushchev back in Moscow from the UN at 5 p.m.; the delegation cables the Center for instructions)'
+- cite:
+    id: cal.1960-10-15.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 65–66 (Oct. 15, 1960, evening, at the Embassy; Peng Zhen hears Kang Sheng: the nationalist states hotly argued; someone says what the secretariat cannot pass may go to the committee or to November)'
+- cite:
+    id: cal.1960-10-16.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 66 (Oct. 16, 1960, morning, at the Embassy; the delegation: the fifth part''s wording on peaceful transition, Yugoslavia, revisionism, dogmatism and factions not to be let pass; wary of the Soviets'' nine-man small committee; the full revised draft to be asked for; speeches for the secretariat''s close, the committee and November)'
+- cite:
+    id: cal.1960-10-17.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 66 (Oct. 17, 1960, morning; Deng decides Lu Dingyi, Hu Sheng, Fan Ruoyu and others go home first to report and prepare for November, on the Wednesday (19th) evening plane)'
+- cite:
+    id: cal.1960-10-19.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 66 (Oct. 19, 1960, 11 a.m.; the Soviet side has said the secretariat will not meet that morning; the delegation at the Embassy on Deng''s last speech to the committee)'
+- cite:
+    id: cal.1960-10-19.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 66 (Oct. 19, 1960; word again: no secretariat in the afternoon either)'
+- cite:
+    id: cal.1960-10-19.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 67 (Oct. 19, 1960, evening; the delegation receives from the Soviet side the first four parts of the draft as revised in the secretariat, the fifth to be settled the next day)'
+- cite:
+    id: cal.1960-10-20.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 67 (Oct. 20, 1960, morning; Peng Zhen at the Embassy reads the revised introduction and parts one to four; many of the delegation''s views taken in, the fight has paid; the secretariat goes on with part five)'
+- cite:
+    id: cal.1960-10-20.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 67 (Oct. 20, 1960, afternoon, the delegation''s meeting at the Embassy; Liu Xiao: word from two Academy institutes that Khrushchev may go to Peking to win Mao''s presence in November; reported to the Center)'
+- cite:
+    id: cal.1960-10-20.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 67 (Oct. 20, 1960, 11 p.m.; Peng Zhen hears those at the secretariat: twelve hours, meeting within meeting; on rooting war out of human society, dogmatism and revisionism, the Twentieth and Twenty-first Congresses, the fight at its height, no agreement)'
+- cite:
+    id: cal.1960-10-21.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 67 (Oct. 21, 1960; the secretariat ends; agreement reached by setting aside four questions: removing war from human life; full approval of the Twentieth and Twenty-first Congresses; "group" and "factional" activity; equality and consultation among parties)'
+- cite:
+    id: cal.1960-10-21.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 67 (Oct. 21, 1960; Peng Zhen talks with Kapo of the Albanian Party of Labor)'
+- cite:
+    id: cal.1960-10-22.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 67–68 (Oct. 22, 1960, noon to 1:30 p.m.; Peng Zhen at the last session, Suslov presiding; Ponomarev: a draft of twenty-six, chapters one, two and four agreed, some paragraphs of three and five not (war''s elimination: China, Albania, Indonesia, Korea; the two Congresses; the "cult of the individual"; Yugoslavia, China proposing "bourgeois nationalism" for "national communism"; "factional activity"); after Deng speaks the report adopted, the draft sent to the November meeting, the CPSU to report there)'
+- cite:
+    id: cal.1960-10-22.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 68 (Oct. 22, 1960, 3 to 5:30 p.m.; Peng Zhen and Deng Xiaoping lead the delegation at the Presidium''s banquet in St. George''s Hall; Suslov and Deng toast; near the end Khrushchev, rising, coarsely: who opposes him opposes the Central Committee, he does not want to "lead," he will leave any party that would make revolution by war between states; Deng: no party holds that, the Soviet lead was formed by history, no discussion at a banquet)'
+- cite:
+    id: cal.1960-10-22.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 68 (Oct. 22, 1960, 7 to 9 p.m.; Deng Xiaoping meets the Japanese, Peng Zhen the Australian party''s delegates, each on the committee''s work)'
+- cite:
+    id: cal.1960-10-23.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 68 (Oct. 23, 1960, 10 p.m.; the delegation flies from Moscow; back in Peking at 1:40 p.m., Peking time, on the 24th, Peng Zhen and Deng leading it, Zhou Enlai, Zhu De and others at the airport)'
+- cite:
+    id: cal.1960-10-24.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 68–69 (Oct. 24, 1960, evening, the Yinian Tang; Peng Zhen at Mao''s meeting of the Standing Committee, the Secretariat and the first secretaries of North and Central-South China, hearing Deng, Peng and others on the drafting committee)'
+- cite:
+    id: cal.1960-10-25.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 69 (Oct. 25, 1960, evening; Peng Zhen, with Zhou Enlai, Zhu De and others, at the Korean Embassy''s reception for the tenth anniversary of the Chinese People''s Volunteers'' war)'
+- cite:
+    id: cal.1960-10-27.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 69 (Oct. 27, 1960, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, hearing Deng''s report; Liu to lead the delegation to the November meeting at Moscow)'
+- cite:
+    id: cal.1960-10-28.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 69 (Oct. 28, 1960, morning, Diaoyutai; Peng Zhen, with Lu Dingyi, Chen Boda, Kang Sheng and others, at Deng''s meeting on the Moscow meeting)'
+- cite:
+    id: cal.1960-10-31.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 69 (Oct. 31, 1960, 6 p.m. to 2 a.m.; Peng Zhen at Liu Shaoqi''s meeting revising Liu''s speech for the Moscow meeting)'
+- cite:
+    id: cal.1960-11-01.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 69 (Nov. 1, 1960, morning; Yang Shangkun gives Chervonenko the list of the Party and government delegation to the October Revolution''s forty-third anniversary: Liu Shaoqi leader, Deng Xiaoping deputy, Peng Zhen, Li Jingquan, Lu Dingyi, Kang Sheng, Yang Shangkun, Hu Qiaomu, Liu Xiao, Liao Chengzhi and Liu Ningyi members; Xinhua releases the list on the 4th)'
+- cite:
+    id: cal.1960-11-02.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 69–70 (Nov. 2, 1960, afternoon; Peng Zhen, with Zhou Enlai, Zhu De, Deng Xiaoping and others, at the airport to welcome Hồ Chí Minh on his way to Moscow)'
+- cite:
+    id: cal.1960-11-02.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 70 (Nov. 2, 1960, evening; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping and others, at Mao''s meeting with Hồ Chí Minh in the Qinzheng Hall)'
+- cite:
+    id: cal.1960-11-02.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 70 (Nov. 2, 1960, evening; Peng Zhen at Mao''s enlarged Standing Committee in the Qinzheng Hall on Liu Shaoqi''s delegation to Moscow)'
+- cite:
+    id: cal.1960-11-04.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 70 (Nov. 4, 1960, morning; Peng Zhen, with Li Jingquan, Lu Dingyi, Liao Chengzhi, Liu Ningyi and others, the delegation''s first group, flies for Moscow, seen off by Zhou Enlai, Zhu De, Deng Xiaoping and others; the weather changing, by train from Sverdlovsk, at Moscow 11:20 a.m. Moscow time on the 6th; Liu Xiao already there)'
+- cite:
+    id: cal.1960-11-06.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 70 (Nov. 6, 1960, 11:20 a.m. Moscow time; Peng Zhen and the first group reach Moscow by train from Sverdlovsk)'
+- cite:
+    id: cal.1960-11-05.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 70 (Nov. 5, 1960, morning; Liu Shaoqi and Deng Xiaoping lead the second group (Kang Sheng, Yang Shangkun, Hu Qiaomu and others), seen off by Zhou Enlai, Zhu De, Lin Biao; at Moscow 4:45 p.m. Moscow time, Khrushchev, Brezhnev and Suslov at the airport)'
+- cite:
+    id: cal.1960-11-06.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 70 (Nov. 6, 1960; the whole delegation calls on Khrushchev in the Kremlin and attends the Presidium''s banquet)'
+- cite:
+    id: cal.1960-11-06.soviet-union-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 70 (Nov. 6, 1960; Peng Zhen and the whole delegation at the Presidium''s banquet)'
+- cite:
+    id: cal.1960-11-06.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 70 (Nov. 6, 1960, evening; Peng Zhen, with Liu Shaoqi, Deng Xiaoping and others, calls on Brezhnev, member of the Presidium and Chairman of the Presidium of the Supreme Soviet, in the Kremlin)'
+- cite:
+    id: cal.1960-11-07.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 70 (Nov. 7, 1960, morning to 1 p.m.; Peng Zhen, with Liu Shaoqi and others, at the anniversary on Red Square, the military parade and the march; Deng Xiaoping, Kang Sheng and Hu Qiaomu not there)'
+- cite:
+    id: cal.1960-11-07.soviet-union-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 70–71 (Nov. 7, 1960; the CPSU''s answer of Nov. 5 to the Reply of Sept. 10, over 80,000 characters, 91 pages in Chinese, handed by Andropov to Liu Xiao after the parade; Andropov: let it not be tied to the meeting (the 81 parties'', so the page''s note), "the meeting is the meeting, the answer is the answer"; that afternoon Liu Shaoqi has the delegation read it)'
+- cite:
+    id: cal.1960-11-07.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 71 (Nov. 7, 1960, 4 to 7 p.m.; Peng Zhen at the reception of over a thousand in St. George''s Hall; only Khrushchev toasts, no guest speaks)'
+- cite:
+    id: cal.1960-11-07.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 71 (Nov. 7, 1960, evening, at the Embassy; the answer attacks several of Mao''s theses; the delegation holds it must be answered openly at the meeting; whether Liu Shaoqi or Deng Xiaoping should answer, and the revision of the prepared speech, referred to the Center by cable)'
+- cite:
+    id: cal.1960-11-07.soviet-union-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 71 (Nov. 7, 1960; Peng Zhen, with Deng Xiaoping and Yang Shangkun, meets Alia, secretary of the Albanian Party of Labor''s Central Committee, tells him of the call on Khrushchev and exchanges views on the meeting)'
+- cite:
+    id: cal.1960-11-08.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 71 (Nov. 8, 1960, morning, the Embassy; Peng Zhen, with Deng Xiaoping and Yang Shangkun, meets Lukman, first deputy chairman, and Aidit, general secretary, of the PKI)'
+- cite:
+    id: cal.1960-11-08.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 71 (Nov. 8, 1960, noon; the Chinese Party and government delegation lays wreaths at the Lenin and Stalin mausoleum)'
+- cite:
+    id: cal.1960-11-08.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 71 (Nov. 8, 1960, afternoon; Peng Zhen, with Yang Shangkun, meets Sharkey, general secretary of the Australian party, at the Embassy)'
+- cite:
+    id: cal.1960-11-08.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 72 (Nov. 8, 1960, evening, the delegation at the Embassy; the answer attacks Mao''s "the east wind prevails over the west wind," "imperialism is a paper tiger," "the sinification of Marxism," and his views on China and India and on war; unanswered it would sow confusion; to leave room, Deng to speak)'
+- cite:
+    id: cal.1960-11-08.china-leadership-9
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 72 (Nov. 8, 1960; the proposal that Deng speak cabled to the Center)'
+- cite:
+    id: cal.1960-11-09.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 72 (Nov. 9, 1960, morning; Peng Zhen and Deng Xiaoping at the Vietnamese delegation''s residence with Hồ Chí Minh and Lê Duẩn on the CPSU''s answer)'
+- cite:
+    id: cal.1960-11-09.soviet-union-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 72 (Nov. 9, 1960, 5 p.m., at Liu Shaoqi''s lodging; Suslov, Kozlov, Mikoyan, Ponomarev and Andropov: sent by their Central Committee to say the meeting is to remove differences; Khrushchev''s speech constructive, without polemic, not touching the Reply; the differences to be discussed later; Mikoyan: aid will go on, experts may be sent again, trade requests refused by "the departments" can be settled; Liu Shaoqi, Deng Xiaoping and Peng Zhen in turn: they came to speak for unity, the hundred-page answer has destroyed it, the talk of unity untrue; an answer at the meeting unavoidable, the quarrel theirs)'
+- cite:
+    id: cal.1960-11-10.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 73 (Nov. 10, 1960, afternoon; the Chinese delegation at the first plenary in St. George''s Hall, Khrushchev presiding and welcoming; a secretariat of one from each of thirty parties)'
+- cite:
+    id: cal.1960-11-10.soviet-union-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 73 (Nov. 10, 1960; Khrushchev explains the draft statement part by part; "led by the Soviet Union" wrong, yet all to "set their watches" by it (the page''s note: his words at the Hungarian party''s seventh congress, Dec. 3, 1959); the majority to be respected, national traits not overstressed; the hall applauds, the whole Chinese delegation and staff sit still)'
+- cite:
+    id: cal.1960-11-11.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 73 (Nov. 11, 1960, all day; Peng Zhen at the second plenary; the delegates of Canada, Argentina, Bulgaria, Iraq, Cyprus, Lebanon, Switzerland, Uruguay, Denmark, Mexico and the Netherlands praise Khrushchev and fault the Chinese)'
+- cite:
+    id: cal.1960-11-12.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 73 (Nov. 12, 1960, 10 a.m. to 1:30 p.m.; Peng Zhen at the third plenary; the delegates of Hungary, Colombia, Luxembourg, Greece, Nepal, South Africa and Venezuela; the Colombian proposes a permanent international body, like the Canadian''s standing committee to settle disputes; delegations ask when the Chinese will speak and with what view)'
+- cite:
+    id: cal.1960-11-12.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 74 (Nov. 12, 1960, evening, at the Embassy; Peng Zhen, with Liu Shaoqi, Deng Xiaoping and others, on Deng''s speech for the 14th; the Center puts Liu in the second line, Deng and Peng in the first)'
+- cite:
+    id: cal.1960-11-14.soviet-union-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 74 (Nov. 14, 1960; Peng Zhen at the fourth plenary; after the Korean party, Deng speaks four hours in five parts: the differences started by the CPSU, the surprise attack, ideology carried into state relations, the experts withdrawn, agreements torn up, the quarrel made public first; Khrushchev''s praise of Eisenhower, the "yellow peril" to Adenauer; "division of labor" and "equal consultation" untrue, "setting watches" his baton; the hall silent, tense)'
+- variant:
+    id: cal.1960-11-14.soviet-union-2
+    unit: A
+    witness: w.peng-zhen-nianpu-1902
+    reads: Deng speaks at the morning session ("上午 ... 继朝鲜劳动党代表发言后，邓小平发言")
+    at: IV, 74
+- cite:
+    id: cal.1960-11-14.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 74 (Nov. 14, 1960, evening; Peng Zhen meets Alia, secretary of the Albanian Party of Labor: Deng''s speech substantial, clear, firm)'
+- cite:
+    id: cal.1960-11-15.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 74 (Nov. 15, 1960, all day; Peng Zhen at the fifth plenary; eight speakers praise Khrushchev and besiege the Chinese party, the East German and Czechoslovak by name for factionalism; that evening the delegation cables the Center: unless the draft is changed in principle it will not sign, and will make a statement, to steady the left, win the middle, strike the right)'
+- cite:
+    id: cal.1960-11-15.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 74–75 (Nov. 15, 1960; at the Embassy Peng Zhen, with Deng Xiaoping, meets Wilcox, general secretary of the New Zealand party)'
+- cite:
+    id: cal.1960-11-15.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 74–75 (Nov. 15, 1960; Peng Zhen and Deng Xiaoping at the Embassy talk with Wilcox, general secretary, and Jackson, chairman, of the New Zealand party)'
+- cite:
+    id: cal.1960-11-16.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 75 (Nov. 16, 1960; Peng Zhen at the sixth plenary, eight speakers in the morning, four in the afternoon; Hoxha sharply criticizes Khrushchev)'
+- cite:
+    id: cal.1960-11-16.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 75 (Nov. 16, 1960; the delegation receives Zhou''s reply (a cable, so the page): the Standing Committee agrees with the delegation''s request of the day before, all to be planned for the worst, the delegation to decide with full powers; the Politburo to meet the next day)'
+- cite:
+    id: cal.1960-11-17.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 75 (Nov. 17, 1960, all day; Peng Zhen at the seventh plenary, six speakers; the Polish delegate abuses the Albanians, the Soviet delegates lead the applause; not clapping: China, Albania, Korea, Vietnam, South Africa, Britain, Indonesia, Burma, Malaya, Thailand, India, Japan, Australia)'
+- cite:
+    id: cal.1960-11-17.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 75 (Nov. 17, 1960; the Center''s cable to the delegation: wholly agreed on the signature, all planned for the worst, not signing is not a split)'
+- cite:
+    id: cal.1960-11-17.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 75 (Nov. 17, 1960; Liu Shaoqi calls on Hồ Chí Minh and on Prestes of Brazil to explain the delegation''s stand; Deng talks with the heads of the Burmese, Malayan and Thai delegations and meets Alia, telling them its position on signing)'
+- cite:
+    id: cal.1960-11-18.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 75–76 (Nov. 18, 1960, all day; Peng Zhen at the eighth plenary, ten speakers (morning Romania, Belgium, Paraguay, Turkey, Guatemala; afternoon Jordan, Iran, New Zealand, West Germany, Sudan); Wilcox of New Zealand: Khrushchev''s "no arms, no armies, no war" spreads illusions; peaceful transition in the capitalist centers doubtful; "factional activity" better left out, China not warlike; differences to be settled by consultation)'
+- cite:
+    id: cal.1960-11-19.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 76 (Nov. 19, 1960, all day; Peng Zhen at the ninth plenary; Panama, Indonesia, Finland, San Marino, Northern Ireland, Guadeloupe, Honduras; Lukman of Indonesia: strike "factional activity" and the Twentieth and Twenty-first Congresses, drop "national communism," the socialist countries'' parties alone to sign, as in 1957; the attacks on China and Albania milder, signing much discussed; Khrushchev and Hoxha absent)'
+- cite:
+    id: cal.1960-11-19.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 76 (Nov. 19, 1960; the Center''s letter to Liu Shaoqi, Deng Xiaoping and Peng Zhen: "同意你们对于不提苏联为首为中心问题所采取的立场")'
+- cite:
+    id: cal.1960-11-20.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 76 (Nov. 20, 1960, afternoon; Liu Shaoqi, with Peng Zhen, Yang Shangkun, Li Jingquan and Lu Dingyi, at his lodging with Gomułka and others of the Polish delegation; the Poles: the Twentieth Congress in the draft in the Moscow Declaration''s words, not the Twenty-first; "factional group activity" kept, in the future tense; Liu: no party''s congress to be a common norm, even the Twentieth alone not agreed; "factional group activity" plainly aimed at the Chinese party, the delegation will not sign it; Gomułka, without answer, leaves)'
+- cite:
+    id: cal.1960-11-21.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 77 (Nov. 21, 1960, all day; Peng Zhen at the tenth plenary; Bolivia, Burma, Costa Rica, Malaya, India, Thailand, Ecuador, Algeria; Thakin Than Tun of Burma: the "three noes" possible only after socialism wins the world; the Twentieth Congress''s peaceful transition split the Burmese party in armed struggle, its leaders defecting, its guerrillas deserting; the Burmese, Thai and Malayan parties wrote to the CPSU in 1957; "group factions" and "national communism" to go)'
+- cite:
+    id: cal.1960-11-21.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 77 (Nov. 21, 1960, 10 p.m.; the delegation at the Embassy on the meeting and its line of struggle)'
+- cite:
+    id: cal.1960-11-22.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 77 (Nov. 22, 1960, all day; Peng Zhen at the eleventh plenary; Japan, the Dominican Republic, Ceylon, Australia, Nicaragua, Haiti, Peru; Hakamada Satomi of Japan: what is not agreed to stay out of the paper, differences not to be carried abroad or into the mass organizations, no standing committee yet; when the speeches end in the afternoon the chair closes the general debate, Khrushchev to speak the next morning; the Chinese at once ask to speak a second time)'
+- variant:
+    id: cal.1960-11-22.soviet-union
+    unit: A
+    witness: w.peng-zhen-nianpu-1902
+    reads: 'the eleventh plenary sits all day, the general debate closing when the speeches end in the afternoon ("全天出席 ... 下午发言完毕时，会议主席宣布: 一般性讨论结束")'
+    at: IV, 77
+- cite:
+    id: cal.1960-11-23.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 78 (Nov. 23, 1960, morning; Peng Zhen at the twelfth plenary; Khrushchev, his tone lowered, calls Deng''s speech "不知分寸," a slander on the CPSU, presses for the Twentieth Congress and "against group factional activity" in the statement, says many Chinese views wrong, hints at Mao; one hour forty minutes; organized applause, all rising; the Chinese sit, as do Korea, Albania, India, Indonesia, Japan, Burma, Thailand, "Manila" (so the page) and New Zealand; the Chinese ask to speak, Khrushchev proposes the next day, Deng agrees)'
+- variant:
+    id: cal.1960-11-23.soviet-union
+    unit: A
+    witness: w.peng-zhen-nianpu-1902
+    reads: Khrushchev speaks one hour and forty minutes ("讲话共一小时四十分钟")
+    at: IV, 78
+- cite:
+    id: cal.1960-11-23.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 78 (Nov. 23, 1960; back at the Embassy the delegation on Deng''s second speech till 2 a.m.)'
+- cite:
+    id: cal.1960-11-24.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 78 (Nov. 24, 1960, morning; Peng Zhen at the thirteenth plenary; Deng''s second speech, about forty minutes, on two questions: who kept to the Moscow Declaration, and whose stand guards unity; the whole Soviet Presidium present; in the break the Soviets rally speakers; after it Ghosh of India and the Burmese, Thai, Malayan, Nicaraguan, New Zealand, Irish and Canadian delegates ask to end the debate; Khrushchev: let all speak; twenty-five speakers, morning to afternoon)'
+- variant:
+    id: cal.1960-11-24.soviet-union
+    unit: A
+    witness: w.peng-zhen-nianpu-1902
+    reads: Deng speaks about forty minutes ("发言约四十分钟")
+    at: IV, 78
+- cite:
+    id: cal.1960-11-24.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 79 (Nov. 24, 1960; Lukman of Indonesia: majority against minority not right, it means an international center; "against group activity" means a center giving orders; the danger is not differences but improper ways of settling them; what is not agreed left out for later; the hall shaken; Liu Shaoqi and Deng Xiaoping absent in the afternoon)'
+- cite:
+    id: cal.1960-11-24.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 79 (Nov. 24, 1960; the delegation, meeting at the Embassy, cables the Center for instructions on signing the draft)'
+- cite:
+    id: cal.1960-11-25.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 79 (Nov. 25, 1960, morning; Peng Zhen leads Kang Sheng, Hu Qiaomu and Liu Ningyi at the drafting committee''s first sitting; all day on whether the Twentieth Congress goes into the paper, no agreement)'
+- cite:
+    id: cal.1960-11-25.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 79 (Nov. 25, 1960, evening; the delegation cables the Center: Hồ Chí Minh has had the Japanese, Korean, Indian, Indonesian, Australian, British, Cuban and other delegations to talk; they will write to Khrushchev and Liu Shaoqi asking to be received, and propose the two meet, for unity; instructions asked)'
+- cite:
+    id: cal.1960-11-26.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 79 (Nov. 26, 1960, morning; Peng Zhen at the second sitting; the first four parts done, the fifth left; the delegation telephones Zhou, who says the Center will discuss signing that afternoon and answer after consulting the regional bureaus'' secretaries)'
+- cite:
+    id: cal.1960-11-26.soviet-union-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 79–80 (Nov. 26, 1960, 4 p.m., at Liu Shaoqi''s lodging; Peng Zhen, with Liu, Deng Xiaoping and Yang Shangkun, talks with Mikoyan and Kozlov; the invitation to visit after the meeting stands; Liu: the visit depends on the result; the letter of Nov. 5 handed round, the siege inside and outside the meeting, a wrong line now at the edge; with "national communism," "group factional activity," the two Congresses and an internal resolution condemning China, no signature; the Soviets: "national communism" may go or be rewritten, "factional activity" rewritten or an internal decision, but leaving out the Twentieth Congress would mean its condemnation; three hours)'
+- variant:
+    id: cal.1960-11-26.soviet-union-2
+    unit: A
+    witness: w.peng-zhen-nianpu-1902
+    reads: the talk at Liu Shaoqi's lodging, 4 p.m., Liu Shaoqi, Deng Xiaoping, Peng Zhen and Yang Shangkun with Mikoyan and Kozlov, Liu speaking for the Chinese, three hours
+    at: IV, 79
+- cite:
+    id: cal.1960-11-27.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 80 (Nov. 27, 1960, 3 p.m., at the Embassy; Peng Zhen, with Liu Shaoqi, Deng Xiaoping, Li Jingquan, Lu Dingyi and Yang Shangkun, meets Hồ Chí Minh and Lê Duẩn, Ghosh of India, Sharkey of Australia, Kim Chang-man and Kim Il of Korea, Lukman of Indonesia and Hakamada Satomi of Japan: they hope the two parties unite, Khrushchev and Liu meet, a way found to a common resolution, a split avoided; three hours)'
+- cite:
+    id: cal.1960-11-28.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 80 (Nov. 28, 1960, morning; Peng Zhen at the third sitting; "national communism" struck, the other disputes hung up; Liu absent; Suslov: the disputes to go to the heads of delegations, the committee to meet when called)'
+- cite:
+    id: cal.1960-11-28.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 80 (Nov. 28, 1960, evening; the Center''s answer to the delegation: do all that kindness and duty ask, consolidate the left, win the middle, expose the right; ground may be given on the Twentieth Congress, never on "group factionalism" or an internal resolution)'
+- cite:
+    id: cal.1960-11-29.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 80–81 (Nov. 29, 1960; Peng Zhen, with Kang Sheng and Hu Qiaomu, at the fourth sitting; the Pole: keep the two Congresses; the Cuban: rewrite "group factionalism"; no result; Suslov proposes a small committee of thirteen; China''s request for one or two more parties refused, Peng: from Asia only the Chinese party, we refuse to take part; the air tense)'
+- cite:
+    id: cal.1960-11-29.soviet-union-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 81 (Nov. 29, 1960; Peng Zhen takes Kozlov to another room: if you want a break, say so openly and we will condemn you; on Kozlov''s denial, a gentlemen''s agreement: no internal resolution, nothing aimed at China ("national communism," "factional activity"), the principle of agreement by consultation written in, the Twentieth Congress in amended words; Kozlov: the Twentieth Congress in, in the 1957 words or others agreed, the Twenty-first may go, "factional activity" struck, the cult of the individual perhaps, consultation in, no internal resolution; Peng: agreed "before Lenin''s portrait," each to report; the committee and the thirteen not to meet till the two settle in writing, Khrushchev and Liu to meet; about an hour; the committee adjourns; back at the Embassy at 7 p.m.)'
+- cite:
+    id: cal.1960-11-29.soviet-union-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 81 (Nov. 29, 1960, evening; the Soviet side telephones: Khrushchev will receive Liu Shaoqi and whomever Liu brings at his office at 10 the next morning)'
+- cite:
+    id: cal.1960-11-30.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 81–82 (Nov. 30, 1960, morning; Peng Zhen, with Liu Shaoqi and Deng Xiaoping, talks with Khrushchev, Kozlov and Suslov; both wish the quarrel ended and relations as before 1957; Liu: Sino-Soviet unity and the twelve countries'' unity most important; Liu''s state visit settled at five days to a week, with Yang Shangkun, Li Jingquan, Lu Dingyi, Liu Ningyi and Liu Xiao, subject to the Center)'
+- cite:
+    id: cal.1960-11-30.soviet-union-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 82 (Nov. 30, 1960, 3 p.m.; Peng Zhen at the drafting committee, which settles the disputed paragraphs at last)'
+- cite:
+    id: cal.1960-12-01.soviet-union
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 82 (Dec. 1, 1960, 11 a.m.; Peng Zhen at the closing plenary in the Kremlin; the communiqué, the Statement (the "Moscow Statement") and the Appeal to the Peoples of the World adopted and signed; Liu Shaoqi speaks and signs for the Chinese delegation)'
+- cite:
+    id: cal.1960-12-01.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 82 (Dec. 1, 1960, 4 p.m.; Peng Zhen, with Deng Xiaoping, Li Jingquan and Yang Shangkun, meets Kapo and Alia of the Albanian party at the Embassy)'
+- cite:
+    id: cal.1960-12-02.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 82 (Dec. 2, 1960, evening; Peng Zhen and Deng Xiaoping lead part of the delegation out of Moscow in two Soviet planes, Hồ Chí Minh and the Vietnamese delegation with them, Liu Shaoqi staying on his state visit; Dec. 3, 1:30 p.m. Peking time, back in Peking, Hồ''s delegation on the same plane)'
+- cite:
+    id: cal.1960-12-03.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 82 (Dec. 3, 1960, afternoon; Peng Zhen, with Deng Xiaoping, Kang Sheng, Hu Qiaomu and Liao Chengzhi, reports on the 81 parties'' meeting to Mao, Zhou Enlai, Zhu De and others in the Qinzheng Hall)'
+- cite:
+    id: cal.1960-12-03.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 82 (Dec. 3, 1960, 5:30 p.m.; Peng Zhen accompanies Mao, Zhou Enlai, Zhu De and others in meeting and dining Hồ Chí Minh and the Vietnamese delegation; a performance after)'
+- cite:
+    id: cal.1960-12-06.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 82–83 (Dec. 6, 1960, morning; Peng Zhen, with Zhou Enlai, Zhu De, Deng Xiaoping, Li Fuchun and others, at the airport to see off the Vietnamese Party and government delegation)'
+- cite:
+    id: cal.1960-12-04.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 83 (Dec. 4, 1960, evening, the Yinian Tang; Peng Zhen, with Zhou Enlai, Deng Xiaoping, Li Fuchun, Chen Yi, He Long, Chen Boda, Kang Sheng, Lin Biao and others, at Mao''s meeting hearing Xiao Hua (the page''s note: deputy secretary-general of the Military Commission and deputy director of the General Political Department) and Luo Ruiqing on the rectification in the General Political Department, to 1:40 a.m.)'
+- cite:
+    id: cal.1960-12-07.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 83 (Dec. 7, 1960, afternoon; Peng Zhen at the Politburo, Zhou Enlai presiding, hearing Deng Xiaoping on the delegation''s work at the 81 parties'' meeting)'
+- cite:
+    id: cal.1960-12-09.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 83 (Dec. 9, 1960, afternoon; Peng Zhen, with Mao, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Li Fuchun and others, at the capital airport to meet Liu Shaoqi''s delegation, Li Jingquan, Lu Dingyi, Yang Shangkun and Liu Ningyi on the same plane)'
+- cite:
+    id: cal.1960-12-12.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 83 (Dec. 12, 1960, 10:10 p.m. to 1 a.m.; Peng Zhen sits in at Mao''s Standing Committee hearing Zhou Enlai and Li Fuchun on the 1961 plan)'
+- cite:
+    id: cal.1960-12-15.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 84 (Dec. 15, 1960, morning, at the Peking station; Peng Zhen, with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai and others, meets Prince Sihanouk; in the afternoon with them meets the prince and his party)'
+- cite:
+    id: cal.1960-12-16.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 84 (Dec. 16, 1960, morning; Peng Zhen, with Deng Xiaoping, Chen Yi and others, at Zhou''s meeting on Laos)'
+- cite:
+    id: cal.1960-12-16.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 84 (Dec. 16, 1960, 10 p.m. to 12:40 a.m.; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Chen Yi, Luo Ruiqing and Wei Guoqing (the page''s note: first secretary of Guangxi), at Mao''s meeting on Wei''s going to Vietnam)'
+- cite:
+    id: cal.1960-12-17.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 84 (Dec. 17, 1960, afternoon; Peng Zhen accompanies Mao, Liu Shaoqi, Zhu De, Zhou Enlai and others in meeting the prince in the Qinzheng Hall)'
+- cite:
+    id: cal.1960-12-18.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 84 (Dec. 18, 1960, evening; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Dong Biwu, Zhu De and others, at Sihanouk''s banquet)'
+- cite:
+    id: cal.1960-12-19.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 84 (Dec. 19, 1960, afternoon; Peng Zhen takes part in Liu Shaoqi''s talks with Sihanouk)'
+- cite:
+    id: cal.1960-12-19.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 84–85 (Dec. 19, 1960, afternoon; Peng Zhen, with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai and others, at the rally of more than 10,000; Peng speaks, hailing the treaty of friendship and mutual non-aggression signed by the two governments)'
+- cite:
+    id: cal.1960-12-19.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 85 (Dec. 19, 1960, evening; Peng Zhen, with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai and others, at the cocktail party of the China–Cambodia Friendship Association and the Women''s Federation for the prince and his wife in the Great Hall of the People; Chinese and Cambodian artists perform)'
+- cite:
+    id: cal.1960-12-20.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 85 (Dec. 20, 1960, morning; Peng Zhen at the station to see Zhou off with Prince Sihanouk to the provinces)'
+- cite:
+    id: cal.1960-12-19.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 85 (Dec. 19, 1960, 9:50 p.m. to 2 a.m., the Yinian Tang; Peng Zhen at Mao''s enlarged Standing Committee on the 1961 plan)'
+- cite:
+    id: cal.1960-12-22.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 85–86 (Dec. 22, 1960; the 223rd meeting; Peng Zhen there; putting industry in order and preparing the work conference of the 24th; Peng: back home, he feels the pressure of the difficulties; the twelve-article urgent directive (the page''s note: the Center''s urgent letter of Nov. 3, 1960, on present policy in the rural communes) gave agriculture a policy, industry needs one too; plans too big, no rest in two years, routine work crowding out political work, in Henan, Anhui and Hubei too; the provinces squeezed from both ends; "不要一面倒": when Chairman Mao speaks, the localities rush in regardless; seek truth from facts and the mass line; summarize, write papers, try them, then proceed)'
+- cite:
+    id: cal.1960-12-22.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 86 (Dec. 22, 1960, afternoon; Peng Zhen and Deng Xiaoping with Guo Moruo and others on Guo''s leading a Chinese friendship delegation to the second anniversary of the Cuban revolution)'
+- cite:
+    id: cal.1960-12-23.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 86 (Dec. 23, 1960, evening, the Yinian Tang; Peng Zhen, with Liu Shaoqi, Zhu De, Chen Yun, Deng Xiaoping, Tan Zhenlin and others, at Mao''s meeting with the regional bureaus'' secretaries, hearing reports on rural livelihood and the rectification of the communes and on how to hold the work conference)'
+- cite:
+    id: cal.1960-12-24.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 86 (Dec. 24, 1960–Jan. 13, 1961; Peng Zhen attends; the 1961 plan; the summary on rectifying the communes and certain policies; in 1961 every commune and brigade to rectify on the key link of the twelve articles, the "five winds" (communism, exaggeration, blind command, cadre privilege, coercion) corrected, the "levelling and transfers" (so the page''s note) reckoned and repaid; Mao: a wave of investigation, 1961 a year of seeking truth from facts)'
+- cite:
+    id: cal.1960-12-26.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 86–87 (Dec. 26, 1960; the 224th meeting; Peng Zhen there; grain transfers and foreign trade; Peng: concealed output is the provinces keeping something back to arrange livelihood; no new tricks, grain buying in hand; the grain the masses "steal" home declared theirs; surplus found in clearing stores left to them; county papers to every three or five days for want of paper, provincial papers to go on)'
+- cite:
+    id: cal.1960-12-27.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 87 (Dec. 27, 1960, afternoon; Peng Zhen, with Chen Yun, Deng Xiaoping, He Long, Li Fuchun, Li Xiannian, Bo Yibo and others, at Zhou''s meeting on the State Council''s organization and staff)'
+- cite:
+    id: cal.1960-12-27.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 87 (Dec. 27, 1960, evening, the Yinian Tang; Peng Zhen at Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries, hearing the work conference''s groups)'
+- cite:
+    id: cal.1960-12-29.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 88 (Dec. 29, 1960, 10:10 p.m. to 1:45 a.m.; Peng Zhen at Mao''s enlarged Standing Committee on Laos and on cadres; Luo Ruiqing and Wei Guoqing there)'
+- cite:
+    id: cal.1960-12-30.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 88 (Dec. 30, 1960, morning; Peng Zhen at the airport to see Zhou off with the friendship delegation to Burma)'
+- cite:
+    id: cal.1960-12-30.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 88 (Dec. 30, 1960, afternoon, the Yinian Tang; Peng Zhen at Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries, hearing Song Renqiong (the page''s note: first secretary of the Northeast Bureau) and Li Xuefeng (first secretary of the North China Bureau) on the Northeast and North China groups)'
+- cite:
+    id: cal.1960-12-31.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 89 (Dec. 31, 1960; Peng Zhen, with Luo Ronghuan and Li Fuchun, at Deng Xiaoping''s meeting on the handling of certain cadres)'
+- cite:
+    id: cal.1961-01-03.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 90 (Jan. 3, 1961, evening; Peng Zhen accompanies Mao in meeting Llanusa)'
+- cite:
+    id: cal.1961-01-03.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 90 (Jan. 3, 1961, 10:20 p.m. to 1:30 a.m.; Peng Zhen at Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries, hearing Li Fuchun on the 1961 plan)'
+- cite:
+    id: cal.1961-01-04.china-leadership-11
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 90 (Jan. 4, 1961, morning; the 225th meeting; Peng Zhen there; Li Weihan on Tibet)'
+- cite:
+    id: cal.1961-01-04.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 90 (Jan. 4, 1961, afternoon; Peng Zhen at the work conference''s plenary, Liu Shaoqi presiding, hearing Li Fuchun''s report on the 1961 plan)'
+- cite:
+    id: cal.1961-01-05.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 90 (Jan. 5, 1961; Peng Zhen at the Secretariat hearing Yang Jingren on work in Tibet)'
+- cite:
+    id: cal.1961-01-01.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 90 (received by Peng Zhen Jan. 6, 1961; Mao''s addition "一边抓群众生活" and his comment: "这是一个好文件，全国三类社都应照此执行")'
+- cite:
+    id: cal.1961-01-09.china-leadership-9
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 90–91 (Jan. 9, 1961; Peng Zhen at the Secretariat on the work conference''s papers)'
+- cite:
+    id: cal.1961-01-09.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 91 (Jan. 9, 1961, afternoon; Peng Zhen at Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries, hearing the bureaus and discussing the draft "Three main rules of discipline and eight points for attention for Party and government cadres" and the Ninth Plenum)'
+- cite:
+    id: cal.1961-01-12.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 91 (Jan. 12, 1961, morning; the 229th meeting; Peng Zhen there; Deng''s draft report to the Ninth Plenum on the Moscow meeting adopted, the plenum''s agenda arranged; Peng: steel set at 19 million tons this year, Bo Yibo (so the page''s note) to see to it without hurting agriculture, coal too; Stalin''s error of confusing the two kinds of contradiction)'
+- cite:
+    id: cal.1961-01-12.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 91 (Jan. 12, 1961, evening; Peng Zhen at Mao''s meeting of the Standing Committee and the plenum''s group heads on the plenum''s arrangements, hearing Zhou on his visit to Burma and on Laos)'
+- cite:
+    id: cal.1961-01-13.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 91 (Jan. 13, 1961, morning; Peng Zhen at the plenary hearing Mao on investigation and seeking truth from facts; when Mao says industry should seek quality, specifications and variety, not quantity, Peng interjects: productivity low for three reasons, too many non-productive staff, too many trainees and apprentices, the low technique of the "small native and foreign groups")'
+- cite:
+    id: cal.1961-01-14.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 91–92 (Jan. 14–18, 1961; Peng Zhen attends; Deng''s report on the Moscow meeting adopted; Li Fuchun''s report on the 1960 plan and the main 1961 targets; the eight-character line, "adjust, consolidate, fill out, raise"; capital construction cut, heavy industry slowed, agriculture strengthened; the twelve-article letter carried out; the six regional bureaus (so the page''s note) approved; on the 18th Mao calls for investigation, 1961 a year of investigation; Liu Shaoqi on the Moscow meeting, Chen Yun on markets and grain)'
+- cite:
+    id: cal.1961-01-15.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 92 (Jan. 15, 1961, evening; Peng Zhen, with Liu Shaoqi and Deng Xiaoping, meets and dines Sharkey, general secretary of the Australian party)'
+- cite:
+    id: cal.1961-01-15.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 92 (Jan. 15, 1961, evening; Peng Zhen at Mao''s enlarged Standing Committee hearing the plenum''s groups)'
+- cite:
+    id: cal.1961-01-16.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 92–93 (Jan. 16, 1961; the 230th meeting; Peng Zhen there, Zhou Enlai and Chen Yun attending; the Finance and Trade Office''s request on grain contracting for 1961–62; Peng: contracts must rest on a middling harvest; last year a disaster, a few liang a day now, contracting on present levels would be too low and broken after autumn; the twelve articles, against the "five winds," repayment, private plots up to 7 percent: if these are honored it will be well; grit the teeth a few months, steady the communes'' production)'
+- cite:
+    id: cal.1961-01-17.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 93 (Jan. 17, 1961, afternoon; Peng Zhen, with Zhou, meets Spiro Koleka, First Deputy Chairman of the Council of Ministers, and the Albanian government economic delegation)'
+- cite:
+    id: cal.1961-01-17.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 93 (Jan. 17, 1961; Peng Zhen at the banquet)'
+- cite:
+    id: cal.1961-01-17.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 93 (Jan. 17, 1961, evening; Peng Zhen at Mao''s enlarged Standing Committee hearing the groups)'
+- cite:
+    id: cal.1961-01-18.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 93 (Jan. 18, 1961; Peng Zhen at the closing session)'
+- cite:
+    id: cal.1961-01-20.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 93 (Jan. 20, 1961; Peng Zhen, with Li Fuchun, Liu Lantao, Hu Qiaomu, Bo Yibo, Chen Boda, Wu Lengxi and others, at Deng''s meeting revising the plenum''s communiqué and hearing Wang Enmao on Xinjiang; Zhou comes for the communiqué)'
+- cite:
+    id: cal.1961-01-23.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 93 (Jan. 23, 1961, morning; the 231st meeting; Peng Zhen there, Zhou attending; work after the plenum and relaying it; liaison: Zhou the Metallurgy and Labor ministries, Chen Yun Chemical Industry, Deng Petroleum and Railways, Peng Zhen Coal and Forestry, Li Fuchun the machine-building ministries)'
+- cite:
+    id: cal.1961-01-23.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 94 (Jan. 23, 1961; while Deng Xiaoping is away on his tour, Peng Zhen to run the Secretariat''s daily work; Peng: no fresh crop of papers repeating the conference, work and measures the key; timber and coal allotted by the Center; the Economic Commission''s work all under Bo Yibo, routine matters sent down directly without the Center''s approval)'
+- cite:
+    id: cal.1961-01-25.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 94 (Jan. 25, 1961, morning; the 232nd meeting; Peng Zhen there; college textbooks, strengthening the theory corps, rail transport; Peng: rules in industry set up before the old are broken, textbooks too; Jiang Nanxiang (the page''s note: Vice-Minister of Education) told, in science no new books issued, the old not dropped; democratic figures and old cadres to help write; Hu Sheng to write the philosophy text, approved by the end of March, Peng to arrange printing; on putting off the fifth and sixth volumes of Mao''s *Selected Works*: some of his talks are settled views, some thoughts on the way; not to be spread about, to protect the Chairman)'
+- cite:
+    id: cal.1961-01-25.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 95 (Jan. 25, 1961, evening; Peng Zhen sits in at Mao''s Standing Committee on the work while Mao is away and hearing Zhou on the talks with the GDR''s trade delegation; Mao leaves Peking for the south at midnight)'
+- cite:
+    id: cal.1961-01-26.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 95 (Jan. 26, 1961, afternoon; Peng Zhen at Deng Xiaoping''s meeting hearing Yu Qiuli on oil; Deng: the Secretariat to command industry as an army, a secretariat drawn from the Planning, Economic and Military Commissions to follow steel, chemicals, machinery, oil, rail and coal for Peng''s reference; the order of transport grain and small farm tools, coal and timber, exports and market goods; Peng: some on the industrial front are cowed by the difficulties; output to rise in the first quarter, not in May, or 19 million tons of steel, even 18.4, will be in doubt)'
+- cite:
+    id: cal.1961-01-27.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 95–96 (Jan. 27, 1961, afternoon; the 233rd meeting; Peng Zhen there, Zhou attending; Peng on timber: 3 million cubic meters waiting in the north; the 72 forestry bureaus sent down in 1958, now under the Center and the provinces jointly, later back to the Center; pit props first; on coal: 710,000 tons a day in the first quarter of last year, 570,000 now, attendance 70 to 80 percent; the 61 big mines'' coal allotted by the Center; the Petroleum Ministry to plan 15 million tons from the Songliao plain by 1964, and the natural gas of southern Sichuan used)'
+- cite:
+    id: cal.1961-01-28.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 96 (Jan. 28, 1961, afternoon; Peng Zhen, with Deng Xiaoping and Yang Shangkun, hears Guo Moruo and Xia Yan (the page''s note: Vice-Minister of Culture and vice-chairman of the Federation of Literary and Art Circles) on the friendship delegation''s visit to Cuba)'
+- cite:
+    id: cal.1961-01-30.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 97 (Jan. 30, 1961; the day Peng Zhen presides at the NPC Standing Committee''s thirty-fifth session)'
+- cite:
+    id: cal.1961-02-04.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 99 (Feb. 4, 1961, morning; Peng Zhen at the Secretariat, Zhou presiding; recalling China''s great natural disasters, he proposes: a Center paper calling on all to save grain and tighten belts, the half-able eating a little less so the workers can hold on; from province to village a secretary for grain and livelihood; the stock-taking and weighing of grain at the base stopped; no high hopes of imported grain)'
+- cite:
+    id: cal.1961-02-13.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 102 (Feb. 13, 1961, afternoon; Peng Zhen, with Zhou Enlai, Chen Yi and others, at the rally in the Great Hall of the People for the treaty''s eleventh anniversary and the performance after)'
+- cite:
+    id: cal.1961-02-13.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 102 (Feb. 13, 1961, evening; Peng Zhen, with Zhou Enlai, Chen Yun, Chen Yi and others, at the Soviet Embassy''s reception)'
+- cite:
+    id: cal.1961-02-14.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 102–103 (Feb. 14, 1961, afternoon; the 238th meeting, Peng Zhen presiding, Zhou attending; coal for February and March: if 500,000 tons a day in late February, allot nine-tenths of it; the Datong mines supplied, attendance only 70 percent; drive, cutting and tunneling together, supply, allotment at nine-tenths; warnings to the metallurgy, railway and machinery ministries; Zhou on the grain shortage in the provinces; Tan Zhenlin to draft a paper on squeezing grain from the non-working and light workers for the workers, no hope in imported grain)'
+- cite:
+    id: cal.1961-02-18.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 104 (Feb. 18, 1961, afternoon; Peng Zhen, with Zhou Enlai and others, at the capital''s rallies against the murder of Lumumba, Prime Minister of the Congo, by American and Belgian imperialism and their agents)'
+- variant:
+    id: cal.1961-02-18.china-leadership
+    unit: A
+    witness: w.peng-zhen-nianpu-1902
+    reads: the capital's 500,000 at several rallies ("首都各界五十万人的分头集会")
+    at: IV, 104
+- cite:
+    id: cal.1961-02-20.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 105 (Feb. 20, 1961, afternoon; Peng Zhen at the enlarged Standing Committee, Liu Shaoqi presiding, on industrial and farm output)'
+- cite:
+    id: cal.1961-02-22.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 107 (Feb. 22, 1961, 10 p.m. to 1 a.m.; Peng Zhen at the enlarged Standing Committee, Liu Shaoqi presiding, on the economic plan, hearing Zhou on the 1961 capital construction plan and the grain situation)'
+- cite:
+    id: cal.1961-02-26.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 107 (Feb. 26, 1961, afternoon; Peng Zhen, with Zhou Enlai and others, at the United Front Department''s symposium of the democratic parties'' leaders and non-party democrats)'
+- cite:
+    id: cal.1961-03-03.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 109 (Mar. 3, 1961, afternoon; Peng Zhen, with Deng Xiaoping and others, hears Zhou on his tour)'
+- cite:
+    id: cal.1961-03-04.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 109 (Mar. 4, 1961; Peng Zhen and Deng Xiaoping fly to Canton with Zhou to report to Mao at the Xiaodao guesthouse (the nianpu: in the morning))'
+- cite:
+    id: cal.1961-03-04.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 109 (Mar. 4, 1961, evening; Peng Zhen at Mao''s enlarged Standing Committee on the world, the drafting of the commune regulations and the Soviet offer of grain on loan and Cuban sugar)'
+- cite:
+    id: cal.1961-03-05.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 109 (Mar. 5, 1961, evening; Peng Zhen at Mao''s enlarged Standing Committee hearing Zhou on industry and supply and Mao on the commune system; regulations to be drafted, communes and accounting units made smaller; the three southern bureaus to meet at Canton, the three northern at Peking)'
+- variant:
+    id: cal.1961-03-04.china-leadership-2
+    unit: A
+    witness: w.peng-zhen-nianpu-1902
+    reads: Peng Zhen, Zhou Enlai and Deng Xiaoping fly to Canton together in the morning ("上午，和周恩来、邓小平乘飞机去广州")
+    at: IV, 109
+- cite:
+    id: cal.1961-03-06.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 109–110 (Mar. 6, 1961, noon, from Canton to Yang Shangkun in Peking: at the Chairman''s it is settled to make the communes'' and teams'' accounting units smaller and to hold at once, north and south, meetings of the regional bureaus'' and provincial leaders, the three northern bureaus'' at Peking, Yang to give notice first)'
+- cite:
+    id: cal.1961-03-06.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 110 (Mar. 6, 1961, afternoon; Peng Zhen back in Peking on the same plane as Zhou Enlai and Deng Xiaoping)'
+- cite:
+    id: cal.1961-03-06.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 110 (Mar. 6, 1961, evening; Peng Zhen sits in at Liu Shaoqi''s Standing Committee, and with Zhou and Deng reports the Canton meeting; the three northern bureaus'' meeting discussed)'
+- cite:
+    id: cal.1961-03-07.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 110 (Mar. 7, 1961, afternoon; the 241st meeting; Peng Zhen there, Zhou and Chen Yun attending; current work, industry and supply, foreign and domestic trade parted; Deng relays Mao: Khrushchev''s letter of Feb. 27 offering a million tons of wheat on loan and 500,000 tons of Cuban sugar, the grain refused, the sugar accepted; communes and teams made smaller; a two-year and a seven-year plan; rectification in industry; fewer papers, more investigation; the Chairman dissatisfied with the Secretariat''s and the departments'' work; the North China, Northeast and Northwest bureaus and their provinces'' first secretaries to meet on the 11th)'
+- cite:
+    id: cal.1961-03-11.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 111 (Mar. 11–13, 1961; Peng Zhen attends; the reports and discussion on making the communes smaller and the regulations; Mao''s Three South conference at Canton on the same; from the 15th the two merged at Canton as the Central Work Conference)'
+- cite:
+    id: cal.1961-03-13.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 112 (Mar. 13, 1961; Peng Zhen receives Mao''s letter on the two egalitarianisms, between teams within a brigade and between persons within a team, "两个极端严重的大问题"; Deng and Peng to take some ten days after the meeting to investigate at Miyun, Shunyi, Huairou and elsewhere, level by level, not all together)'
+- cite:
+    id: cal.1961-03-14.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 112 (Mar. 14, 1961, morning; Peng Zhen flies to Canton on the special plane with Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Li Xiannian, Tan Zhenlin and the bureaus'' men from the Three North conference)'
+- cite:
+    id: cal.1961-03-14.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 112 (Mar. 14, 1961, evening, at Canton; Peng Zhen at Mao''s enlarged Standing Committee with the bureaus'' first secretaries on the work conference''s agenda and the revision of the draft regulations)'
+- cite:
+    id: cal.1961-03-15.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 112 (Mar. 15–23, 1961; Peng Zhen attends; the draft "Regulations on the work of the rural people''s communes" (the "Sixty Articles") adopted, against communes too big, control too tight and the two egalitarianisms; the letter to the whole Party on the regulations and the letter on investigation)'
+- cite:
+    id: cal.1961-03-21.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 113 (Mar. 21, 1961, afternoon; Peng Zhen sits in at Mao''s Standing Committee on the third draft of the regulations)'
+- cite:
+    id: cal.1961-03-23.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 113 (Mar. 23, 1961, afternoon; Peng Zhen at the plenary hearing Mao on investigation)'
+- cite:
+    id: cal.1961-03-23.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 113–114 (Mar. 23, 1961; that day the conference prints Mao''s "On investigation work" (the page''s note: written May 1930, later in the *Selected Readings* of 1964 and the second edition of the *Selected Works*, 1991, as "Oppose book worship"))'
+- cite:
+    id: cal.1961-03-24.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 114 (Mar. 24, 1961; Peng Zhen from Canton to Wuhan)'
+- cite:
+    id: cal.1961-03-25.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 114 (Mar. 25, 1961, morning; Peng Zhen flies back to Peking from Wuhan with Zhou Enlai, Deng Xiaoping and others)'
+- cite:
+    id: cal.1961-03-25.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 114 (Mar. 25, 1961, afternoon; Peng Zhen, with Zhou Enlai, Lin Biao, Deng Xiaoping and others, at the public memorial for Chen Geng in Zhongshan Park (the page''s note: Chen Geng, 1903–1961, member of the Central Committee and the Military Commission and Vice-Minister of National Defense; died at Shanghai Mar. 16))'
+- cite:
+    id: cal.1961-03-26.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 114 (Mar. 26, 1961; Peng Zhen, with Zhou Enlai and Dong Biwu, at the airport to see Chen Yi off to Indonesia)'
+- cite:
+    id: cal.1961-03-27.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 114 (Mar. 27, 1961, morning; the 242nd meeting; Peng Zhen: the Secretariat did much, but the root trouble no serious investigation; to find problems and go to the base, the two things that make a good assistant to the Chairman and the Standing Committee; each department to keep in touch with model points; the two egalitarianisms show the Chairman investigates more than we; "一阵风来了随着转")'
+- cite:
+    id: cal.1961-03-27.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 114 (Mar. 27, 1961, afternoon; Peng Zhen with Zhou Enlai, Deng Xiaoping, Yang Shangkun and others on Laos)'
+- cite:
+    id: cal.1961-03-27.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 114 (Mar. 27, 1961, afternoon; Peng Zhen and Yang Shangkun go to see Huang Kecheng)'
+- cite:
+    id: cal.1961-03-29.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 115 (Mar. 29–31, 1961; Peng Zhen at the General Office''s report meeting in the Huairen Tang hearing Deng relay the Canton work conference)'
+- cite:
+    id: cal.1961-04-03.china-leadership-8
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 116 (Apr. 3, 1961, morning; the 243rd meeting; ten work groups to the Northeast, North China, the Northwest, Henan, Shandong, Sichuan and elsewhere; Deng and Peng to Shunyi and Huairou in the Peking suburbs; Peng: the two egalitarianisms and the style of work, as pupils, not doing the cadres'' work for them)'
+- cite:
+    id: cal.1961-04-03.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 116–117 (Apr. 3, 1961; Peng Zhen at the NPC Standing Committee''s thirty-seventh enlarged session hearing Zhou on the situation; the treaty of friendship with Indonesia ratified)'
+- cite:
+    id: cal.1961-04-04.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 117 (Apr. 4, 1961, morning; the 244th meeting; Peng Zhen there, Zhou attending; the Planning Commission Party group''s report on the 1961 capital construction plan and the Center''s directive on the line in Tibet)'
+- cite:
+    id: cal.1961-04-04.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 117 (Apr. 4, 1961, afternoon; Peng Zhen, with Zhou Enlai, Deng Xiaoping, He Long and others, at the opening of the 26th World Table Tennis Championships; receives the foreign friends)'
