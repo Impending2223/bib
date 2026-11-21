@@ -1064,3 +1064,9 @@ Schlesinger, Journals, 252 (the entry of Aug. 14). Check: the day."
 ## Nov. 21, 2026, about 1:05 p.m. (Pacific)
 
 "Could the Names and Threads entries also get the full footnote treatment?"
+
+## Nov. 21, 2026, about 1:20 p.m. (Pacific)
+
+"Could we give the full-width 中点 for CJK surnames and given names rather than the simple, unspaced "·"? "巴巴卡・尼昂"?
+
+For the suspected kanji/Japanese names, I suppose we should go with (b), but I'm not entirely happy with it. How do Chinese speakers read these, where they're only given in CJK?"
