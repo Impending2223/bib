@@ -369,7 +369,7 @@ index e0631c1..abd0b6f 100644
  
  POLLS = re.compile(r"^Polls close (?:noon|midnight|\d{1,2}(?::\d{2})?)\S*(?: [ap]\.m\.)?.*?: .*\]\(https://[^)\s]+\).*\.$")
 diff --git a/tools/bib/footnotes.py b/tools/bib/footnotes.py
-index 975eb6b..98a8652 100644
+index 975eb6b..cb3b49a 100644
 --- a/tools/bib/footnotes.py
 +++ b/tools/bib/footnotes.py
 @@ -28,6 +28,7 @@ STYLE
@@ -745,7 +745,7 @@ index 975eb6b..98a8652 100644
  def place(whole, render, units, groups, eid):
      """The rendered line with its marks after each run's last unit (inside its claim's span); None where a unit's
      rendering is not found in order."""
-@@ -219,3 +442,504 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
+@@ -219,3 +442,534 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
  ol.fn li:target{background:color-mix(in srgb,var(--accent) 12%,transparent)}
  ol.e .n{font-size:.88rem;line-height:1.42}
  </style>"""
@@ -791,8 +791,17 @@ index 975eb6b..98a8652 100644
 +    return " ".join(re.sub(r"[\W_]+", " ", s.lower().replace("đ", "d")).split())
 +
 +
++_ABBR = {"nyt": "new york times", "wsj": "wall street journal", "wp": "washington post", "csm": "christian science monitor",
++         "lat": "los angeles times", "ac": "atlanta constitution", "aj": "atlanta journal", "subcomm": "subcommittee",
++         "comm": "committee", "oh": "oral history", "int": "interview", "intvw": "interview", "rfk": "robert kennedy",
++         "hhh": "hubert humphrey", "mlk": "martin luther king"}
++
++
 +def _toks(s):
-+    return [t for t in fold(s).split() if (t.isdigit() or len(t) > 1) and t not in _STOP]
++    out = []
++    for t in fold(s).split():
++        out += _ABBR.get(t, t).split()
++    return [t for t in out if (t.isdigit() or len(t) > 1) and t not in _STOP]
 +
 +
 +def _has(tok, toks):
@@ -880,10 +889,12 @@ index 975eb6b..98a8652 100644
 +            return False
 +        own = set(t) | set(_toks(what))
 +        tset = own | set(_toks(where))
-+        title = re.search(r"[\"“*]([^\"“”*]{10,})[\"”*]", what or "")   # its title, quoted or italic, main part
-+        title = title and fold(title.group(1).split(":")[0])
-+        if title and len(title.split()) >= 2 and f" {title} " in f" {self.text} ":
-+            return True
++        for title in re.findall(r"[\"“*]([^\"“”*]{10,})[\"”*]", what or ""):   # a title, quoted or italic, main part
++            title = fold(title.split(":")[0])
++            if len(title.split()) >= 2 and f" {title} " in f" {self.text} ":
++                return True
++        days = re.findall(r"\b(?:Jan|Feb|Mar|Apr|May|June|July|Aug|Sept?|Oct|Nov|Dec)[a-z]*\.? (\d{1,2})\b", plain)
++        dtg = set(re.findall(r"\b(\d{6}z)\b", fold(what)))                # a message's date-time group
 +        pm = _PARTIES.match(plain.strip())                            # "Manatos to O'Brien, May 6, 1964"
 +        if pm:
 +            a, b = fold(pm.group(1)).split()[-1:], fold(pm.group(2)).split()[-1:]
@@ -899,6 +910,14 @@ index 975eb6b..98a8652 100644
 +        for toks, _, _, raw in self.segs:
 +            if big & toks and sum(1 for x in nums if _num_in(x, toks)) >= 2:
 +                return True
++            if dtg & toks:
++                return True
++            if len(wds) >= 2 and _has(wds[0], toks) and _has(wds[1], toks) and days and \
++                    all(_num_in(x, toks) for x in days) and sum(1 for x in wds if _has(x, toks)) >= 4:
++                return True                 # its author and its day ("Cheng Guanghua ..., Nov. 29, 1960")
++            sw0 = {x for x in toks if not x.isdigit()}
++            if sw0 and sw0 == set(wds) and all(_num_in(x, toks) for x in nums):
++                return True                 # the same words ("Crisis, Aug.–Sept. 1962")
 +            for it in re.findall(r"\*([^*]{8,})\*", raw):    # the item's italic title, the record's words hold it
 +                ti = fold(it.split(":")[0])
 +                if len(ti.split()) >= 2 and f" {ti} " in fw:
@@ -907,7 +926,7 @@ index 975eb6b..98a8652 100644
 +            if hit >= 4 and hit >= 0.8 * len(wds) or hit >= 5 and hit >= 0.4 * len(wds):
 +                return True
 +            hh = sum(1 for x in head if _has(x, toks))
-+            if len(head) >= 5 and hh >= 4 and hh >= 0.8 * len(head):
++            if len(head) >= 5 and (hh >= 4 and hh >= 0.8 * len(head) or hh >= 5):
 +                return True
 +            sw = [x for x in toks if not x.isdigit()]
 +            sn = [x for x in toks if x.isdigit() and not re.fullmatch(r"(?:19|20)\d\d", x)]
@@ -1153,7 +1172,7 @@ index 975eb6b..98a8652 100644
 +            cid = None
 +        if len(what) < 12 or _STUB.match(what):
 +            left.append((x, "stub"))
-+        elif cid and cid in cited.cards:
++        elif (cid and cid in cited.cards) or _a_card(cited, what):
 +            left.append((x, "card"))
 +        elif _titled(series, cited, what) or _printed_in(series, cited, what + " ; " + wh0):
 +            left.append((x, "passage"))
@@ -1203,6 +1222,17 @@ index 975eb6b..98a8652 100644
 +                text += f" (cited by [[{edge[0]}]], {_at(edge[1])})"
 +            added.append((x, text))
 +    return added, left
++
++
++def _a_card(cited, what):
++    """Whether the record is a work the note cites by its card: the card's main title in its words, three words or
++    more, or quoted or in italics ("Cheng Hua, *Zhou Enlai he tade Mishumen* (1992)" for [[w.hua-zhou-enlai-he-tade]])."""
++    f = f" {fold(what)} "
++    marked = " ".join(fold(x) for x in re.findall(r"\*([^*]+)\*|[\"“]([^\"”]+)[\"”]", what or "") for x in x if x)
++    for t in cited.titles.values():
++        if t and (len(t.split()) >= 3 and f" {t} " in f or len(t.split()) >= 2 and f" {t} " in f" {marked} "):
++            return True
++    return False
 +
 +
 +def _printed_in(series, cited, text):
