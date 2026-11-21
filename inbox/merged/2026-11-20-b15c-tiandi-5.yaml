@@ -38,6 +38,21 @@ ops:
     name: Yumin
     zone: Asia/Shanghai
     in: prc
+- place-key:
+    key: wuhu
+    name: Wuhu
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: ganzhou
+    name: Ganzhou
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: lingui
+    name: Lingui
+    zone: Asia/Shanghai
+    in: prc
 - add:
     entry:
       id: cal.1969-03.china-leadership-7
@@ -2252,7 +2267,6 @@ ops:
         c: 0e5b01bf
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 110: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 110 n.14: all'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2273,7 +2287,6 @@ ops:
         c: 2aacf793
         rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 110: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 110 n.14: all'
       tags:
       - polity:prc
       - vis:only:prc
@@ -2733,3 +2746,791 @@ ops:
     id: cal.1969-09-27.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 477 (the Center''s instruction on the Wuhan question, Zhongfa [69] 67: the "Beijueyang" 北決揚 a hodgepodge secretly worked by a handful of
       traitors, spies and counter-revolutionaries, out to overthrow the proletarian dictatorship; the page sets it among the events of 1968)'
+- add:
+    entry:
+      id: cal.1962.china-6
+      when: '1962'
+      date: '1962'
+      place: peking
+      thread: china
+      c: Lin Liheng 林立衡, Lin Biao's 林彪 daughter, enters the department of automatic control of Tsinghua University 清華大學.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 751 (she later moves to the arts at Peking University, finding the sciences too heavy; no date). Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+- add:
+    entry:
+      id: cal.1963.china-5
+      when: '1963'
+      date: '1963'
+      place: peking
+      thread: china
+      c: Lin Liguo 林立果, Lin Biao's 林彪 son, enters the physics department of Peking University 北京大學, a six-year course.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 751. Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+- add:
+    entry:
+      id: cal.1967.china-leadership-138
+      when: '1967'
+      date: '1967'
+      thread: china-leadership
+      c: Lin Biao 林彪 and Ye Qun 葉群, through Wu Faxian 吳法憲, place their son Lin Liguo 林立果 in the Air Force headquarters 空軍司令部.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 751. Made public: 2016. Names: Lin Biao, Ye Qun, Wu Faxian.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:ye-qun
+      - name:wu-faxian
+- add:
+    entry:
+      id: cal.1967.china-leadership-139
+      when: 1967, after Lin Liguo enters the Air Force
+      date: '1967'
+      thread: china-leadership
+      c: 'Wu Faxian 吳法憲, commander of the Air Force, makes Lin Liguo 林立果 a secretary in the office of the Air Force Party committee, Zhou Yuchi 周宇馳 and Liu Peifeng 劉沛豐 to guide him;
+        to Wang Fei 王飛, head of the office: "Vice-Chairman Lin has given us his only son; we must make a man of talent of Lin Liguo."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 752. Made public: 2016. Names: Wu Faxian, Lin Biao.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:wu-faxian
+      - name:lin-biao
+      - ok:fields-at
+- add:
+    entry:
+      id: cal.1967.china-leadership-140
+      when: 1967, late
+      date: '1967'
+      at: before 1967-09
+      thread: china-leadership
+      c: Lin Liguo 林立果 joins the Party, half a year after entering the Air Force.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 752. Made public: 2016. Check: the year; the page gives only half a year after he entered the Air Force in 1967.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1969-10.china-leadership-10
+      when: Oct.
+      date: 1969-10
+      thread: china-leadership
+      c: Lin Liguo 林立果 is made deputy director of the Air Force headquarters' office and deputy head of the Air Force's operations department; Zhou Yuchi 周宇馳 and Liu Shiying 劉世英 are
+        made deputy directors of the office with him, Wang Fei 王飛 already deputy chief of staff and director of the office.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 752. Made public: 2016.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1969-10.china-leadership-11
+      when: Oct., after Lin Liguo's promotion
+      date: 1969-10
+      at: after 1969-10-01
+      thread: china-leadership
+      c: 'Wu Faxian 吳法憲, before Wang Fei 王飛 and Zhou Yuchi 周宇馳, to Lin Liguo 林立果: "In the Air Force you may move everything and command everything."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 752. Made public: 2016. Names: Wu Faxian.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:wu-faxian
+- add:
+    entry:
+      id: cal.1968.china-leadership-91
+      when: '1968'
+      date: '1968'
+      thread: china-leadership
+      c: On the proposal of Wang Fei 王飛 and Zhou Yuchi 周宇馳, Wang, Zhou, Lin Liguo 林立果 and others form a "research group" 調研小組 in the Air Force, the germ of what is later called the "joint
+        fleet" 聯合小艦隊.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 797. Made public: 2016.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1969.china-leadership-52
+      when: '1969'
+      date: '1969'
+      thread: china-leadership
+      c: Lin Biao 林彪, by the account of Li Genqing 李根清, his office's keeper of secrets, studies the map of the "three norths" 三北, standing on it or with a magnifying glass; he has Li
+        find Irkutsk 伊爾庫茨克 and measure its distance from Peking, to reckon a missile's flight, nine minutes to Tiananmen.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 816 (by Li Genqing''s account). Made public: 2016. To check: Shu Yun 舒雲, notes of her interview with Li Genqing, Dec. 25, 2011, in Shu
+        Yun, *Lin Biao shijian wanzheng diaocha* 《林彪事件完整調查》 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 816 n.97). Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-02.china-leadership-38
+      when: Feb.
+      date: 1967-02
+      place: baoding
+      thread: china-leadership
+      c: Baoding 保定, Hebei 河北. The forces supporting the left, the Hebei Military District 河北省軍區 and the 69th Army 69軍, declare the "Baoding August 1 Rebel General Headquarters" 八一總部
+        of Hebei's demobilized and veteran soldiers, over 30,000, a reactionary body, ban it and other mass bodies and arrest over 1,200.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 774. Check: the month; the page: in the "February suppression" of 1967, the support of the left begun in January.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-12.china-leadership-9
+      when: Dec.–Jan.
+      date: 1967-12
+      thread: china-leadership
+      c: Chen Boda 陳伯達, with Zheng Weishan 鄭維山, acting commander of the Peking Military Region 北京軍區, and Li Xuefeng 李雪峰, its political commissar, tours Hebei 河北 to clear the way for
+        its revolutionary committee; he backs the steadier faction, on the Military Region's side, against the one the 38th Army 38軍 supports.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 774–775. Check: the days; the page gives December 1967 to January 1968. Names: Chen Boda.'
+      tags:
+      - polity:prc
+      - name:chen-boda
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-11.china
+      when: Nov.
+      date: 1968-11
+      place:
+      - baoding
+      - shijiazhuang
+      thread: china
+      c: The organs of the Hebei Military District 河北省軍區 move with the provincial capital from Baoding 保定 to Shijiazhuang 石家莊.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 775.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968.china-leadership-92
+      when: 1968, autumn
+      date: '1968'
+      at: before 1968-09-22
+      place: baoding
+      thread: china-leadership
+      c: 'Baoding 保定: the "great alliance" 大聯合 and the "three-in-one" 三結合 achieved.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 775.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1969-02.china-leadership-11
+      when: Feb.
+      date: 1969-02
+      place: peking
+      thread: china-leadership
+      c: 'Peking. Xie Fuzhi 謝富治, the Peking Military Region''s new political commissar, summons Wang Meng 王猛, political commissar of the 38th Army 38軍, and declares before Zheng Weishan
+        鄭維山: the Baoding 保定 question is the 38th Army''s full charge; the Military Region and the Hebei revolutionary committee are not to intervene.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 775. Made public: 2016. Names: Xie Fuzhi.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:xie-fuzhi
+- add:
+    entry:
+      id: cal.1968.china-leadership-93
+      when: 1968, summer
+      date: '1968'
+      at: before 1968-06-21
+      place: wuhu
+      thread: china-leadership
+      c: Wuhu 蕪湖, Anhui 安徽. Li Desheng 李德生, commander of the 12th Army 12軍, goes to the scene of the armed fighting and talks the fighters round; it ends without a shot.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 777 n.7.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968.china-leadership-94
+      when: 1968, after the Wuhu fighting
+      date: '1968'
+      at: after 1968-06-21
+      thread: china-leadership
+      c: The Center 中共中央 forwards to the whole country the Anhui revolutionary committee's and the 12th Army 12軍 Party committee's "Comprehensive report on handling the Wuhu question"
+        〈處理蕪湖問題的綜合報告〉 (Zhongfa [68] 120).
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 777 n.7. Made public: 2016. Check: the day; the page gives the document''s number only.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1965.china-leadership-23
+      when: 1965, autumn
+      date: '1965'
+      at: before 1965-09-23
+      thread: china-leadership
+      c: 'Zhou Enlai 周恩來 tells Wang Jiaxiang 王稼祥 that Mao Zedong 毛澤東 has asked him to give the word: there will soon be great changes of men; the Center''s chief successor will be either
+        Lin Biao 林彪 or Deng Xiaoping 鄧小平.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 847. Made public: 1995. To check: Zhu Zhongli 朱仲麗, *Mao Zedong Wang Jiaxiang zai wo de shenghuo zhong* 《毛澤東王稼祥在我的生活中》 (Zhongyang dangxiao
+        chubanshe, 1995), 224 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 847 n.79). Names: Zhou Enlai, Mao Zedong, Lin Biao, Deng Xiaoping.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:mao-zedong
+      - name:lin-biao
+      - name:deng-xiaoping
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-10.china-leadership-22
+      when: Oct., at the plenum
+      date: 1968-10
+      at: after 1968-10-13
+      thread: china-leadership
+      c: 'The Twelfth Plenum. Mao Zedong 毛澤東, against Lin Biao''s 林彪 "Mencius''s kingly way is still a little better": "I am a little partial; I do not much like Confucius"; Confucius
+        stood for the old slave-owning nobility, not the rising landlords; Han Feizi, Shen Buhai and Shang Yang, the Legalists, to have their due place in history; Xunzi first said man
+        can conquer nature.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 867 (as Yao Wenyuan relayed Mao''s instructions on criticizing Confucius, Jan. 27, 1974). Made public: 2016. Names: Mao Zedong, Lin Biao.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - name:lin-biao
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968.china-leadership-95
+      when: 1968, early spring
+      date: '1968'
+      at: before 1968-03
+      thread: china-leadership
+      c: Heilongjiang 黑龍江. Pan Fusheng 潘複生 (as printed), head of the provincial revolutionary committee, holding still to the ideas of the Cultural Revolution's start, launches with
+        the rebels' backing a struggle "against right deviation, against restoration" 反右傾，反復辟; many cadres already freed and joined to the revolutionary committee are removed.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 879.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1969.china-leadership-53
+      when: '1969'
+      date: '1969'
+      thread: china-leadership
+      c: Xu Jiatun 許家屯, a secretary of the Jiangsu 江蘇 committee's secretariat before the Cultural Revolution, felled at its start, returns as a vice-chairman of the Jiangsu revolutionary
+        committee, without real power.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 883 n.24.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1969-02.china
+      when: Feb.
+      date: 1969-02
+      place: ganzhou
+      thread: china
+      c: Li Jiulian 李九蓮, a leader of the rebels of Ganzhou's 贛州 No. 3 middle school, is assigned to the Ganzhou metallurgical machinery works 贛州冶金機械廠 as a worker.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 886.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1969-02-27.china
+      when: Feb. 27
+      date: '1969-02-27'
+      place: ganzhou
+      thread: china
+      c: 'Li Jiulian 李九蓮, in a letter to her boyfriend, a soldier: she cannot tell whether the Cultural Revolution is a struggle of factions or of classes; the Center is split by faction;
+        many of Liu Shaoqi''s 劉少奇 views seem to fit the facts; will Lin Biao 林彪 turn out like Khrushchev?'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 886 (the boyfriend gives the letter to his superiors, who send it to the Ganzhou revolutionary committee''s security department; no date).
+        Names: Liu Shaoqi, Lin Biao.'
+      tags:
+      - polity:prc
+      - name:liu-shaoqi
+      - name:lin-biao
+- add:
+    entry:
+      id: cal.1969-05-15.china-leadership
+      when: May 15
+      date: '1969-05-15'
+      place: ganzhou
+      thread: china-leadership
+      c: Ganzhou 贛州. Li Jiulian 李九蓮 is arrested as a current counter-revolutionary; in her seized diaries are criticisms of Lin Biao 林彪.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 886. Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+- add:
+    entry:
+      id: cal.1960.china-7
+      when: '1960'
+      date: '1960'
+      place: peking
+      thread: china
+      c: Mao Yuanxin 毛遠新, Mao Zedong's 毛澤東 nephew, enters the radio department of Tsinghua University 清華大學.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 917. Names: Mao Zedong.'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+- add:
+    entry:
+      id: cal.1961.china-4
+      when: 1961, early
+      date: '1961'
+      at: before 1961-01
+      place: harbin
+      thread: china
+      c: Mao Yuanxin 毛遠新, after a term at Tsinghua, moves to the Harbin Military Engineering Institute 哈爾濱軍事工程學院.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 917. Check: the year; the page: after one term.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-06-28.china
+      when: June 28
+      date: '1966-06-28'
+      place: peking
+      thread: china
+      c: Tsinghua University 清華大學, Peking. Liu Bing 劉冰, the university's deputy Party secretary, is brought back under escort from the Peking Hotel 北京飯店; on the road from the second
+        classroom building to the Gongziting 工字廳 he cries out, by his memoir, "You go too far, I protest!"; Yang Jisheng, a student watching, heard "I am a black gang!"
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 921 (Yang''s own recollection, "about a day at the end of June," and Liu Bing''s memoir). To check: Liu Bing 劉冰, *Fengyu suiyue: 1964–1976
+        nian de Qinghua* 《風雨歲月 1964——1976 年的清華》 (Dangdai Zhongguo chubanshe, 2008), 67 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 921 n.19).'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1969-06-01.china
+      when: June 1
+      date: '1969-06-01'
+      place: peking
+      thread: china
+      c: The *Renmin ribao* 人民日報 reports that Liu Bing 劉冰 of Tsinghua University 清華大學 has been "liberated", a model of the freed old cadre.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 921.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1969.china-4
+      when: '1969'
+      date: '1969'
+      thread: china
+      c: Zhu Kejia 朱克家, a Shanghai 上海 educated youth, goes to the countryside at Xishuangbanna 西雙版納, Yunnan 雲南.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 938.'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-10-17.china
+      when: Oct. 17
+      date: '1966-10-17'
+      place: peking
+      thread: china
+      c: 'Peking Normal University 北京師範大學. Li Wenbo 李文博, a student of its physics department, puts up the poster "The commune is long since no longer a state in the old sense" 〈公社早已不是原來意義上的國家了〉:
+        the socialist system to be thoroughly renewed, the proletarian dictatorship thoroughly improved; the present system "a bourgeois state without a bourgeoisie"; the Cultural Revolution''s
+        aim the principles of the Paris Commune.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 958–959. To check: Song Yongyi 宋永毅 et al., *Zhongguo wenhua dageming wenku* 《中國文化大革命文庫》 (2nd ed., 2006), the heterodox documents (cited
+        by [[w.yang-jisheng-tiandi-fanfu]], II, 959 n.9; Yang notes that the collection''s text lacks "thoroughly" 徹底, which he recalls).'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-10.china
+      when: Oct., late
+      date: 1966-10
+      at: before 1966-10-21
+      place: peking
+      thread: china
+      c: 'The "Red Cannon Squad" 紅炮班 of the University of Science and Technology of China 中國科技大學 puts up the poster "Long live Chairman Mao''s theory of the proletarian class struggle"
+        〈毛主席的無產階級階級鬥爭學說萬歲〉: the masses have no vote over the Party''s organs at every level and cannot supervise them, which breeds revisionism and bureaucratism.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 959–960.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-02-24.china-leadership-4
+      when: Feb. 24
+      date: '1967-02-24'
+      thread: china-leadership
+      c: 'Zhang Chunqiao 張春橋, deputy head of the Cultural Revolution Group, relays Mao Zedong''s 毛澤東 instruction: the slogan "thoroughly improve the dictatorship of the proletariat"
+        is reactionary, to overthrow it and set up the bourgeoisie''s; the right wording is "partly improve."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 959. To check: Yin Hongbiao 印紅標, *Shizongzhe de zuji: wenhua dageming qijian de qingnian sichao* 《失蹤者的足跡——文化大革命期間的青年思潮》 (Xianggang Zhongwen
+        daxue chubanshe, 2010), 100–101 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 959 n.10). Names: Zhang Chunqiao, Mao Zedong.'
+      tags:
+      - polity:prc
+      - name:zhang-chunqiao
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-01.china
+      when: Jan.
+      date: 1968-01
+      thread: china
+      c: 'Hunan 湖南. Yang Xiguang 楊曦光, signing "Hunan zhanma siming" 湖南戰馬嘶鳴, writes "Whither China?" 〈中國向何處去？〉 and spreads it as a leaflet: the basic contradiction behind the Cultural
+        Revolution is between the rule of a new bureaucratic bourgeoisie and the masses; to overthrow it, smash the old state machine and found a "Chinese People''s Commune."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 961.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1964.china-2
+      when: '1964'
+      date: '1964'
+      place: peking
+      thread: china
+      c: Wang Renzhou 王仁舟, a student of the Peking Foreign Languages Institute 北京外語學院 (class of 1960), is named a "reactionary student," expelled and sent home.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 961 n.13.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-02.china
+      when: Feb.
+      date: 1967-02
+      thread: china
+      c: The county armed department bans the peasants' rebel body "Bahe yisi" 巴河一司 that Wang Renzhou 王仁舟 organized; Wang is arrested.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 961 n.13.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-07.china-3
+      when: July, after the 20th
+      date: 1967-07
+      at: after 1967-07-20
+      thread: china
+      c: Wang Renzhou 王仁舟 is released, after the Wuhan July 20 incident.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 961 n.13.'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968.china
+      when: '1968'
+      date: '1968'
+      place: shanghai
+      thread: china
+      c: Wang Shenyou 王申酉, a physics student of East China Normal University 華東師範大學, is detained for fifteen months in the cleansing of the class ranks over his "reactionary diary."
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 963.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968.china-2
+      when: '1968'
+      date: '1968'
+      place: canton
+      thread: china
+      c: Li Zhengtian 李正天, a senior student of the Canton Academy of Fine Arts 廣州美術學院, is detained for criticizing Lin Biao 林彪.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 964. Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+- add:
+    entry:
+      id: cal.1969.china-5
+      when: '1969'
+      date: '1969'
+      thread: china
+      c: Wang Xizhe 王希哲, a senior student of Canton's 廣州 No. 17 middle school, goes down to labor on a farm.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 964.'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-08-18.china-leadership-14
+      when: Aug. 18
+      date: '1966-08-18'
+      place: zhengzhou
+      thread: china-leadership
+      c: Liu Jianxun 劉建勳, first secretary of the Henan 河南 committee, writes "My big-character poster" 〈我的一張大字報〉 too, the first to back the few rebel students of Zhengzhou University
+        鄭州大學.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1020. Check: the day; the page: thirteen days after Mao''s poster of Aug. 5.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-02.china-leadership-39
+      when: Feb.
+      date: 1967-02
+      thread: china-leadership
+      c: Henan 河南. In the "February suppression" the provincial military district brands the "Er-qi Commune" 二七公社, the most radical of the province's three rebel bodies, a reactionary
+        organization.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1020.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-03.china-leadership-30
+      when: Mar.
+      date: 1967-03
+      place: tianjin
+      thread: china-leadership
+      c: Tianjin 天津. The forces supporting the left and the preparatory group of the revolutionary committee hold in turn congresses of the poor and lower-middle peasants, the industrial
+        workers, the city's organ cadres, and the college and middle-school Red Guards, together the "five congresses" 五代會.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1026.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-11.china-leadership-11
+      when: Nov., late
+      date: 1967-11
+      at: before 1967-11-21
+      place: tianjin
+      thread: china-leadership
+      c: Tianjin 天津. The "Tianjin Proletarian Revolutionaries' Great Alliance Preparatory Committee" 天津市無產階級革命派大聯合籌備委員會, the "Da lianchou" 大聯籌, radical and without the army's backing,
+        is forced to dissolve.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1026.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967.china
+      when: 1967, summer
+      date: '1967'
+      at: before 1967-06-21
+      place: tianjin
+      thread: china
+      c: Tianjin 天津. The rebels of the arts of the whole country hold a "national forum of worker-peasant-soldier fighters of literature and art" 全國工農兵文藝戰士座談會.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1027 n.16.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-07.china-4
+      when: July, after the 20th
+      date: 1967-07
+      at: after 1967-07-20
+      place: wuhan
+      thread: china
+      c: Wuhan 武漢. Hu Houmin 胡厚民, a rebel head arrested in March as a current counter-revolutionary, is released and rehabilitated after the July 20 incident.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1029.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967.china-2
+      when: 1967, end
+      date: '1967'
+      place: wuhan
+      thread: china
+      c: Hu Houmin 胡厚民 becomes a deputy head of the Wuhan workers' congress 武漢市工代會.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1029.'
+      tags:
+      - polity:prc
+      - ok:fields-at
+- add:
+    entry:
+      id: cal.1969.china-leadership-54
+      when: '1969'
+      date: '1969'
+      thread: china-leadership
+      c: Wang Huaixiang 王淮湘, chairman of the Jilin revolutionary committee, becomes deputy political commissar of the Shenyang Military Region 瀋陽軍區 and political commissar of the Jilin
+        Military District 吉林省軍區.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1035 n.27.'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-01.china
+      when: Jan.
+      date: 1967-01
+      place: taoyuan-hebei
+      thread: china
+      c: Zhang Shirong 張世榮, a Tsinghua student, forms the "Taoyuan detachment" of the Tsinghua Jinggangshan Corps' 7623 fighting team 清華大學井岡山兵團7623戰鬥隊桃園分隊 and goes to Taoyuan brigade
+        桃園大隊, Funing county 撫寧縣, to gather material against Liu Shaoqi 劉少奇 and Wang Guangmei 王光美 and to struggle the brigade cadres raised in the four clean-ups.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1049 (the Center''s rectification office''s notice of Nov. 27, 1983, as Yang quotes it). Names: Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - name:liu-shaoqi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-09.china
+      when: Sept.
+      date: 1966-09
+      place: zhanjiang
+      thread: china
+      c: Zhanjiang 湛江. Zhang Shirong 張世榮 of Tsinghua, with Red Guards of Peking's No. 101 middle school and of Peking University on the exchange of experience, holds a rally to "bombard
+        the bourgeois headquarters of the Zhanjiang city committee" and drafts its leaflet, printed and spread through the city.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1050 (the 1983 notice, as Yang quotes it).'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-08.china
+      when: Aug., after the editorial
+      date: 1967-08
+      at: after 1967-08-01
+      place: zhanjiang
+      thread: china
+      c: 'Zhanjiang 湛江. Zhang Shirong 張世榮, after the editorial on "dragging out the handful in the army," leads men there in the name of the Tsinghua Jinggangshan Corps'' external operations
+        department: army leaders seized and struggled; the homes of Fang Zhengping 方正平 and Gui Shaobin 桂紹彬, first and second political commissars of the South Sea Fleet 南海艦隊, raided;
+        a kidnapping of Gui plotted, Zhang at his interrogation.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1050 (the 1983 notice, as Yang quotes it).'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-05.china-leadership-7
+      when: May
+      date: 1968-05
+      place: shanghai
+      thread: china-leadership
+      c: Shanghai 上海, the 542 works. Zhang Chao 張超 of the Shanghai public security bureau's guard department, deputy head of the military propaganda team for the cleansing, makes with
+        its head the false case of a "lurking spy ring" of Mi ×× and Gao ×; Mi, tortured, hangs himself; his wife, struggled as a spy, drowns herself; by the works' case groups' tortures
+        eight die and one is crippled.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1060–1061 (a case of the 1980s inquiry into the "three kinds of men," as Yang quotes it; from May 1968, its months not given).'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1969.china-leadership-55
+      when: 1969, early
+      date: '1969'
+      at: before 1969-01
+      place: shanghai
+      thread: china-leadership
+      c: 'Shanghai 上海, the public security bureau''s guard department. Zhang Chao 張超, back from the works, leads the beatings of the cleansing: the section head Sun ×× beaten till his
+        teeth fall out; Zuo ××, pregnant, kicked; the deputy head Liu ×× struck, then beaten by his case group until he jumps from a building and is crippled.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1061 (as Yang quotes the 1980s inquiry).'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-02.china-leadership-40
+      when: Feb.
+      date: 1967-02
+      place: shanghai
+      thread: china-leadership
+      c: Changxing commune 長興公社, Baoshan county 寶山縣, Shanghai 上海. Zhao Zhiming 趙志明, its deputy Party secretary, set aside at the start, joins the rebels; adviser to the commune's "great
+        alliance committee" and a standing member of its revolutionary committee.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1061 (as Yang quotes the 1980s inquiry).'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-04.china-leadership-7
+      when: Apr.
+      date: 1968-04
+      place: shanghai
+      thread: china-leadership
+      c: Tongxin brigade 同心大隊, Changxing commune 長興公社, Baoshan 寶山, Shanghai 上海. Zhao Zhiming 趙志明, squatting at the brigade, agrees to the struggle of a woman member, Gu ×, as a "hooligan"
+        and takes part, with torture; Gu hangs herself.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1061 (as Yang quotes the 1980s inquiry).'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-05.china-leadership-8
+      when: May
+      date: 1968-05
+      place: shanghai
+      thread: china-leadership
+      c: Zhao Zhiming 趙志明 becomes second head of the revolutionary committee of Changxing commune 長興公社, Baoshan 寶山, Shanghai 上海.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1061 (as Yang quotes the 1980s inquiry).'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968-05.china-leadership-9
+      when: May, after Zhao's appointment
+      date: 1968-05
+      at: after 1968-05-01
+      thread: china-leadership
+      c: Changxing commune 長興公社, Baoshan 寶山. In the cleansing under Zhao Zhiming 趙志明, 95 are branded traitors, spies or counter-revolutionaries and four "counter-revolutionary cliques"
+        named; 18 are driven to suicide, one goes missing.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1061 (the inquiry''s figures, as Yang quotes them). Check: the days; the page gives the cleansing under Zhao from May 1968, no end.'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969.china-leadership-56
+      when: 1969, early
+      date: '1969'
+      at: before 1969-01
+      thread: china-leadership
+      c: 'Changxing commune 長興公社, Baoshan 寶山. With Zhao Zhiming 趙志明 in the planning, those who went to Kuomintang-held Xiaoyangshan 小羊山 early in 1949 are gathered for a second "study
+        class of struggle against the enemy": 150 put under examination; by torture 30 "dispatched spies," 30 "robbers" and 45 with "acts aiding the enemy" are made.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1061 (as Yang quotes the 1980s inquiry).'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-06.china-leadership-7
+      when: June–Sept.
+      date: 1968-06
+      place: lingui
+      thread: china-leadership
+      c: Lingui county 臨桂縣, Guangxi 廣西. Xu Mingde 胥明德, deputy commander of a mass body and a member of the county revolutionary committee as a "mass representative," plans, directs and
+        with his own hands carries out the killing of 77 cadres and people.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1062 (a report of his execution, as Yang quotes it). Check: the days; the page gives June to September 1968.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1969.china-6
+      when: '1969'
+      date: '1969'
+      place: putian
+      thread: china
+      c: Li Liangmo 李良模, son of Li Qinglin 李慶霖, a teacher of Putian 莆田 county, Fujian 福建, goes down to the mountains of Putian after middle school.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 874.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1968.china-3
+      when: '1968'
+      date: '1968'
+      thread: china
+      c: Zhang Tiesheng 張鐵生 goes down to the countryside, by his letter of 1973.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 872 (in 1973 at Zaoshan brigade 棗山大隊, Xingcheng county 興城縣, Liaoning 遼寧, by the page).'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- cite:
+    id: cal.1967-02.china-leadership-32
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 774 (Feb. 15, 1967: the Military Commission orders by telegram the 38th Army from Tonghua, Jilin, to the Baoding area of Hebei, from the
+      Shenyang to the Peking Military Region, code name 4800 units; the 69th Army moved from Hebei to Shanxi)'
+- cite:
+    id: cal.1967-05.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 847 (by Mao Mao''s account, Mao just back in Peking from outside; Yang''s note: by the Mao chronology Mao did not leave Peking before
+      July 14, 1967, and Mao Mao may have the time wrong; soon after, Mao sees Deng once)'
+- cite:
+    id: cal.1966-12-21.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 866–867 (as Yao Wenyuan relayed Mao''s instructions, Jan. 27, 1974: to the Polish comrades in December 1966, one of the Cultural Revolution''s
+      chief tasks is to clear away Confucius''s influence in every field)'
+- cite:
+    id: cal.1964-07.china-leadership-6
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 917 (1964, Mao Yuanxin home on holiday: the five conditions of successors, class struggle the students'' main course, the young not to
+      fear hardship; the talk relayed formally among university students)'
+- cite:
+    id: cal.1967-06-11.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 960 (in the Peking middle-school paper *Sisan zhanbao* 《四三戰報》: socialist society, born of capitalism, keeps its distribution and bourgeois
+      right, wealth and power for a time with the few, the power-holders, who turn them into private property)'
+- cite:
+    id: cal.1968-01-24.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 962 (Kang Sheng, Zhou Enlai, Chen Boda, Jiang Qing, Yao Wenyuan and others, receiving the Hunan factions and the preparatory group, condemn
+      "Whither China?"; Kang Sheng: no middle-school or university student could write it, there is a black hand behind it)'
+- cite:
+    id: cal.1967-03-17.china-leadership-5
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1029 (Hu Houmin 胡厚民, a rebel head, arrested as a current counter-revolutionary in March 1967; the day not given)'
+- cite:
+    id: cal.1968-02-05.china-leadership-4
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1029 (Hu Houmin 胡厚民 a standing member)'
+- cite:
+    id: cal.1968-05-31.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1034 (Zhou Jiayu 周家喻, head of Chongqing University''s "8.15," a standing member in 1968, by Yang)'
+- cite:
+    id: cal.1968-04-08.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 878, 981 (Lei Zhizhong 雷志忠, third leader of the Changsha Workers'' Alliance, made a standing member in April 1968; Hua Guofeng a vice-chairman)'
+- cite:
+    id: cal.1968-03-24.china-leadership-6
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 880, 1038 (March 1968: Nan Ping, political commissar of the 20th Army, chairman, Chen Liyun of the Fifth Air Army first vice-chairman;
+      Lai Keke 賴可可 a vice-chairman)'
+- cite:
+    id: cal.1966-08-25.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1043 (the operations department backs the foreign affairs bureau''s poster; Wang Shangrong and Lei Yingfu of the General Staff felled
+      first, then Chen Heqiao, Fan Zhexiang, Wang Shanfu, Wang Shaonan and Liu Qingming persecuted; the review of the 1980s: a plot of Lin Biao and the "gang of four" against He Long)'
+- cite:
+    id: cal.1967-04-10.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1049–1050 (Zhang Shirong gives his material against Liu Shaoqi and Wang Guangmei to the Taoyuan brigade''s rebels at the meeting; the
+      meeting approved by Zhou Enlai)'

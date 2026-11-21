@@ -16,7 +16,7 @@
   what: Record of conversation, Chervonenko and Mao Zedong, Dec. 26, 1960 (the Soviet record)
   kind: minutes
   date: '1960-12-26'
-  where: AVPRF, f. 0100, op. 53, pa. 454, d. 9, pp. 98–105 (so the notes, 26 n.90 and 179 n.40; the appendix's source line reads op. 55); translated by Maxim Korobochkin
+  where: AVPRF, f. 0100, op. 53, pa. 454, d. 9, pp. 98–105 (so the notes, 179 n.40, and 26 n.90, which prints "pa. 9, d. 454"; the appendix's source line, 369, reads op. 55); translated by Maxim Korobochkin
   agent:
   - name:chervonenko-stepan-v
   made: contemporaneous
@@ -24,7 +24,7 @@
   open: not held
   copies:
   - Brothers in Arms (1998), 365–369, in translation
-  - Cold War International History Project Bulletin, nos. 6–7 (Winter 1995/1996), 167–69, in English translation
+  - w.scholars-bulletin-of-the-cold-1996, 167–69, in English translation
   read: true
 - id: x.1961-06-25.chervonenko-zhou-record-avprf
   what: Record of conversation, Chervonenko and Zhou Enlai, June 25, 1961 (the Soviet record)
@@ -65,17 +65,6 @@
   copies:
   - Brothers in Arms (1998), 375, excerpted, in translation
   read: true
-- id: x.1963-07.cpsu-ccp-meetings-record-sapmo-russian
-  what: Records of the meetings of the CPSU and CCP delegations, Moscow, July 5–20, 1963 (in Russian)
-  kind: transcript
-  date: 1963-07
-  where: SAPMO-BArch, J IV 2/207 698, 187–330; obtained by Vladislav Zubok, translated by Benjamin Aldrich-Moodie
-  made: contemporaneous
-  form: original
-  open: not held
-  copies:
-  - Brothers in Arms (1998), 376–390, excerpted, in translation
-  read: true
 - id: x.1963-07.cpsu-ccp-meetings-rohuebersetzung-sapmo
   what: '"Zusammenkunft der Delegationen der Kommunistischen Partei der Sowjetunion und der Kommunistischen Partei Chinas im Juli 1963", uncorrected raw translation ("July 1963-SAPMO-BArch")'
   kind: transcript
@@ -83,7 +72,9 @@
   where: SAPMO-BArch, Berlin, DY J IV 2/201, Aktenband 696
   made: contemporaneous
   form: translation
-  open: not held
+  from:
+  - of: x.1963-07-05.records-cpsu-ccp-delegations
+    kind: translation
   read: false
 - id: x.1959-09-30.mao-khrushchev-records-aprf
   what: The Soviet records of the Mao–Khrushchev conversations of Sept. 30, Oct. 1 and Oct. 2, 1959 (not yet declassified, as the note gives it)
@@ -683,3 +674,11 @@
   form: original
   open: not held
   read: false
+- amend: x.1963-07-05.records-cpsu-ccp-delegations
+  set:
+    where: SAPMO-BArch, J IV 2/207 698, 187–330 (in Russian); obtained by Vladislav Zubok, translated by Benjamin Aldrich-Moodie (Brothers in Arms, 390, the source line)
+    read: true
+    open: not held
+  add_copies:
+  - Brothers in Arms (1998), 376–390, excerpted, in translation
+  why: 'Audit of Westad, ed., Brothers in Arms, run 1 (Nov. 20, 2026): run 1 registered the Soviet record of the CPSU–CCP meetings of July 5–20, 1963 a second time (x.1963-07.cpsu-ccp-meetings-record-sapmo-russian, withdrawn before folding); its edges and via rows now go to this row, its archive file and the volume''s printing are added here. The German raw translation (x.1963-07.cpsu-ccp-meetings-rohuebersetzung-sapmo) is its translation.'

@@ -2198,6 +2198,11 @@ entries:
     c: 'Lin Biao writes the preface to the second printing of *Quotations from Chairman Mao*: Mao is the greatest Marxist-Leninist of the age, who "genially, creatively and comprehensively" inherited, defended and developed Marxism-Leninism to a new stage.'
     n: '[[w.zedong-mao-zedong-nianpu]], VI, Dec. 16, 1966. Names: Lin Biao, Mao Zedong.'
     tags: [name:lin-biao, name:mao-zedong, polity:prc]
+    variants:
+      - unit: A
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: Lin Biao's preface to the second edition of the *Quotations* is dated Dec. 6, 1966
+        at: I, 53 n.24
   - id: cal.1966-12-16.china-leadership-2
     when: Dec. 16
     date: '1966-12-16'
@@ -2698,13 +2703,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: The pool. Mao receives the representative of the provisional Central Committee of the Communist Party of Poland (Marxist-Leninist), "Yang Li" in the nianpu; Kang Sheng and Wu Xiuquan present. Fighting Khrushchev's revisionism alone is not enough; the revisionism in our own party too; we mended and patched, did not treat it as class struggle on the whole; it is not one man but one class against another.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Dec. 21, 1966. [[w.mao-zedong-zhuan]], VI, ch. 75 n.33 (Mao''s talk with the Polish guest Yang Li 杨力, Dec. 21, n.33: to oppose Khrushchev''s revisionism alone is not enough, our own party''s revisionism too, or China will change its color; what was done was patching and mending, not class struggle as a whole; begin with the students and cadres, then the factories and villages, organize workers and peasants; not one man''s question but one class against another; eighty percent of our members joined after 1948, some bourgeois speculators; ''they fear the Red Guards''; organize Red Guards in factories and villages, ''who wins is not yet decided''; place and those present not given). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 75). To check: Mao Zedong 毛泽东, talk with the Polish guest Yang Li 杨力 (record 谈话记录), Dec. 21, 1966 (cited by [[w.mao-zedong-zhuan]], VI, ch. 75 n.33). Names: Mao Zedong, Kang Sheng, Wu Xiuquan. Check: the Polish delegate''s name and the party (the nianpu''s 杨力).'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Dec. 21, 1966. [[w.mao-zedong-zhuan]], VI, ch. 75 n.33 (Mao''s talk with the Polish guest Yang Li 杨力, Dec. 21, n.33: to oppose Khrushchev''s revisionism alone is not enough, our own party''s revisionism too, or China will change its color; what was done was patching and mending, not class struggle as a whole; begin with the students and cadres, then the factories and villages, organize workers and peasants; not one man''s question but one class against another; eighty percent of our members joined after 1948, some bourgeois speculators; ''they fear the Red Guards''; organize Red Guards in factories and villages, ''who wins is not yet decided''; place and those present not given). [[w.yang-jisheng-tiandi-fanfu]], II, 866–867 (as Yao Wenyuan relayed Mao''s instructions, Jan. 27, 1974: to the Polish comrades in December 1966, one of the Cultural Revolution''s chief tasks is to clear away Confucius''s influence in every field). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 75). To check: Mao Zedong 毛泽东, talk with the Polish guest Yang Li 杨力 (record 谈话记录), Dec. 21, 1966 (cited by [[w.mao-zedong-zhuan]], VI, ch. 75 n.33). Names: Mao Zedong, Kang Sheng, Wu Xiuquan. Check: the Polish delegate''s name and the party (the nianpu''s 杨力).'
     src:
       c: 736dae52
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, Dec. 21, 1966: all'
         - 'w.mao-zedong-zhuan VI, ch. 75 n.33: D, E, F, G'
         - 'via w.mao-zedong-zhuan VI, ch.75 n.33: D, E, F, G'
+        - 'w.yang-jisheng-tiandi-fanfu II, 866–867: ?'
     tags: [name:mao-zedong, name:kang-sheng, polity:prc, vis:only:prc]
   - id: cal.1966-12-21.china-leadership-2
     when: Dec. 21
@@ -4646,3 +4652,27 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 469: all'
     tags: [polity:prc]
+  - id: cal.1966-12.china-leadership-21
+    when: Dec.
+    date: 1966-12
+    thread: china-leadership
+    c: Zhang Zaixing 張再興, a student of the Guizhou Institute of Technology 貴州工學院, posts a poster on the starvation in his home district.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 60. To check: Deng Zhenxin 鄧振新, *Guizhou fengyun* 《貴州風云》 (2014), 86–96 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 60 n.43).'
+    src:
+      c: f42de280
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 60: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 60 n.43: all'
+    tags: [polity:prc, ok:fields-place]
+  - id: cal.1966-12.china-leadership-22
+    when: Dec., after the poster
+    date: 1966-12
+    thread: china-leadership
+    c: Zhang Zaixing 張再興 of the Guizhou Institute of Technology 貴州工學院 forms an investigation group into the starvation in Guizhou 貴州.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 60. To check: Deng Zhenxin 鄧振新, *Guizhou fengyun* 《貴州風云》 (2014), 86–96 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 60 n.43). Check: the month (the page: "next," after the poster of December 1966).'
+    src:
+      c: 75a5949c
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 60: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 60 n.43: all'
+    tags: [polity:prc, ok:fields-place, ok:fields-at]
