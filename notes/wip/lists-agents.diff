@@ -5300,7 +5300,7 @@ index 6fa4bbb..6f74701 100644
      when: July, before the 7th
      date: 1966-07
 diff --git a/lists/cal/196608.yaml b/lists/cal/196608.yaml
-index f712f4d..09c9271 100644
+index f712f4d..e26965f 100644
 --- a/lists/cal/196608.yaml
 +++ b/lists/cal/196608.yaml
 @@ -245,7 +245,7 @@ entries:
@@ -5348,6 +5348,15 @@ index f712f4d..09c9271 100644
      src:
        c: 7f9ce375
        rows:
+@@ -4068,7 +4068,7 @@ entries:
+     thread: robert-kennedy
+     also: [vietnam]
+     c: Hyannis Port, the weekend, with Schlesinger. Robert Kennedy, "electrified by the news that North Korea has issued a declaration of independence against both Russia and China," takes it to reinforce his conviction that communism will take "increasingly nationalistic forms," especially in the underdeveloped world, and that, "if we had only left North Vietnam alone, it would be defying China too." By Schlesinger's journal.
+-    n: '[[w.schlesinger-journals]], 252–53 (the entry of Aug. 14: "Just back from another Hyannis Port weekend"). Made public: [[w.schlesinger-journals]] (2007). Names: Robert Kennedy, Schlesinger. Check: the day.'
++    n: '[[w.schlesinger-journals]], 252–53 (the entry of Aug. 14: "Just back from another Hyannis Port weekend"). Made public: [[w.schlesinger-journals]] (2007). See [[cal.1966-08.korea]]. Names: Robert Kennedy, Schlesinger. Check: the day.'
+     tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, polity:dprk, polity:ussr, polity:prc, polity:drv]
+   - id: cal.1966-08-13.china-leadership
+     when: Aug. 13–23
 @@ -4076,7 +4076,7 @@ entries:
      place: peking
      thread: china-leadership
@@ -5469,7 +5478,24 @@ index f712f4d..09c9271 100644
      src:
        c: b18dd508
        rows:
-@@ -10363,7 +10363,7 @@ entries:
+@@ -10226,11 +10226,12 @@ entries:
+         - 'w.dittmer-local-people 377: all'
+     tags: [name:stennis-john-c, name:shriver-r-sargent]
+   - id: cal.1966-08.korea
+-    when: Aug.
+-    date: 1966-08
++    when: Aug. 12
++    date: '1966-08-12'
++    place: pyongyang
+     thread: korea
+-    c: North Korea issues "a declaration of independence against both Russia and China," by Schlesinger's journal (the news at Hyannis Port, the weekend before Aug. 14).
+-    n: '[[w.schlesinger-journals]], 252 (the entry of Aug. 14). Check: the day.'
++    c: '*Rodong Sinmun*, editorial, "Let Us Defend Independence": Pyongyang, not Peking or Moscow, judges how doctrine applies in Korea; Communists "should always do their own thinking and act independently." "There can be no superior party or inferior party, nor a party that gives guidance and a party that receives guidance"; equality, sovereignty, noninterference; no political independence without economic. Revisionism and "dogmatism" both attacked, Peking the harder: "dogmatists and flunkeys."'
++    n: '[[w.chung-pyongyang-between-peking-and]], 127–28 (Aug. 12; "dogmatists and flunkeys," the heavier attack on Peking; revisionism too, 199 n.103), 131–32 (the title, Pyongyang the judge, the parties, independence political and economic; 200 nn.124–26). [[w.schlesinger-journals]], 252 (the entry of Aug. 14: the news at Hyannis Port the weekend of Aug. 13–14, "a declaration of independence against both Russia and China"). To check: *Rodong Sinmun*, Aug. 12, 1966 (cited by [[w.chung-pyongyang-between-peking-and]], 199 n.103, 200 n.124); [*New York Times*, Aug. 13, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/13/issue.html), at 2 (cited by [[w.chung-pyongyang-between-peking-and]], 199 n.102).'
+     tags: [polity:dprk, polity:ussr, polity:prc]
+   - id: cal.1966-08.soviet-union-leadership
+     when: Aug.
+@@ -10363,7 +10364,7 @@ entries:
      thread: china-leadership
      also: [china]
      c: Chen Pixian, Shanghai's first Party secretary, calls the Central Cultural Revolution Group's Bulletin "all one-sided."
@@ -5478,7 +5504,7 @@ index f712f4d..09c9271 100644
      src:
        c: 2560a77b
        rows:
-@@ -10514,7 +10514,7 @@ entries:
+@@ -10514,7 +10515,7 @@ entries:
      thread: china-leadership
      also: [china]
      c: Xie Fuzhi, back from a meeting at the center, tells a meeting of police officers in Peking to protect and support the Red Guards, to talk them out of killing and to persuade them to act on the Sixteen Points; if in anger they beat a bad person to death, the police are not to call it wrong.
@@ -5487,7 +5513,7 @@ index f712f4d..09c9271 100644
      src:
        c: 8f95bc9d
        rows:
-@@ -10667,7 +10667,7 @@ entries:
+@@ -10667,7 +10668,7 @@ entries:
      thread: china-leadership
      also: [china]
      c: The West City Pickets, an elite Red Guard organization of cadres' children enforcing the repatriation, are funded through the State Council's Department of Administrative Affairs and have the free use of office space, two government trucks, two jeeps, one motorcycle and many bicycles and bullhorns.
@@ -5496,7 +5522,7 @@ index f712f4d..09c9271 100644
      src:
        c: 46afe317
        rows:
-@@ -10882,7 +10882,7 @@ entries:
+@@ -10882,7 +10883,7 @@ entries:
      at: before 1966-08-21
      thread: china-leadership
      c: 'At a meeting of bureau and department heads Wei Guoqing 韋國清 says that the Guilin "majority" are rightists: 800 and more of them, with the southbound groups and others over 2,000; not all are rightists, but they are certainly under rightist control.'
@@ -5505,7 +5531,7 @@ index f712f4d..09c9271 100644
      src:
        c: a52d524f
        rows:
-@@ -10895,7 +10895,7 @@ entries:
+@@ -10895,7 +10896,7 @@ entries:
      at: before 1966-08-01
      thread: china-leadership
      c: 'Under the Sichuan committee''s unified plan the colleges'' official cultural revolution groups take up the Sixteen Articles'' "struggle, criticize, reform" and begin "criticizing three, struggling against four": students and teachers sorted by politics, the third and fourth classes the targets. They plan one or two chosen in each department as a trial, then the study groups and classes, to finish struggle in a month and a half and offer the result for National Day. At Chengdu Institute of Technology 成都工學院 216 teachers, 26.2 percent, are picked out, over 400 with those the authorities hold in secret.'
@@ -5514,7 +5540,7 @@ index f712f4d..09c9271 100644
      src:
        c: ca08dde4
        rows:
-@@ -11177,15 +11177,15 @@ entries:
+@@ -11177,15 +11178,15 @@ entries:
      date: 1966-08
      thread: vietnam-hanoi
      also: [china]
@@ -5533,7 +5559,7 @@ index f712f4d..09c9271 100644
    - id: cal.1966-08.china-leadership-60
      when: Aug.–Sept.
      date: 1966-08
-@@ -11270,14 +11270,14 @@ entries:
+@@ -11270,14 +11271,14 @@ entries:
      date: '1966-08-31'
      place: peking
      thread: china
@@ -5551,7 +5577,7 @@ index f712f4d..09c9271 100644
    - id: cal.1966-08.china-2
      when: Aug., before the 18th
      date: 1966-08
-@@ -11433,14 +11433,14 @@ entries:
+@@ -11433,14 +11434,14 @@ entries:
      date: 1966-08
      place: shanghai
      thread: china-leadership
@@ -5569,7 +5595,7 @@ index f712f4d..09c9271 100644
    - id: cal.1966-08.china-leadership-63
      when: Aug., early
      date: 1966-08
-@@ -11839,7 +11839,7 @@ entries:
+@@ -11839,7 +11840,7 @@ entries:
      at: after 1966-08-25
      thread: china-leadership
      c: Zhou Enlai 周恩来, by repeated persuasion, stops the rally of 100,000 the Red Guards demand, after Li Wenbo's 李文波 death, to try his wife in public for the capitalists' "class revenge."
