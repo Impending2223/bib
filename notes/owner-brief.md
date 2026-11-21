@@ -1123,3 +1123,9 @@ But I'd like to see the language of the current rule and your proposed rule befo
 ## Nov. 21, 2026, about 1:40 p.m. (Pacific)
 
 "Could we do a PR and merge now?"
+
+## Nov. 21, 2026, about 1:50 p.m. (Pacific)
+
+"I'm a little confused as to the basis of your judgment or the agent's judgment as to what merits a reading run, and why this item doesn't.
+
+I've lost track of whether and where the Wansui made it into our queue, but doesn't this stand or fall by the same principle? And didn't we rule the Wansui in? Or am I mistaken there?"
