@@ -1079,3 +1079,21 @@ For the suspected kanji/Japanese names, I suppose we should go with (b), but I'm
 
 "Alright, we're reaching the end of our token budget. Could we wrap things up and leave the rest to the post-Tuesday 4 p.m. PT reset?
 That is, I'm going to call a "pause" from here until Tuesday."
+
+## Nov. 21, 2026, about 12:30 p.m. (Pacific)
+
+"Immediate. Finish stopped open audit, the chronological sort, and everything finished and saved but not committed.
+
+One block.
+
+Keep the roll-call citation form for now. But there must be a normative/standard form, and there must be a better authority than Voteview. (Or is there?) Where were these recorded? In the journals? Just CR?
+
+Drop the Rusk taped interviews.
+
+Notes that name an act count as a printing of it.
+
+What turns on the report/comment question?
+
+Yes, a second pass should read the full texts.
+
+Yes, an entry holding two acts should be split. (Did you need to pass this one to me? This is the plain language of the rule, right? Is there something more involved that got dropped from your summary here?)"
