@@ -137,13 +137,14 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou ascends the Tiananmen gate tower for the celebration of the sixteenth anniversary of the People's Republic, with 500,000 of the capital's people; Sihanouk and the Princess and guests from over eighty states and regions watch the ceremony.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 480 (Oct. 1, 1965; 10 a.m., Tiananmen gate tower, Beijing); [[w.yang-shangkun-riji]], II, 675 (Oct. 1, 1965; Yang at Tiananmen for National Day, 10 a.m. to noon; Zhou not named; the words: 10时到12时在天安门参加国庆); [[w.deng-xiaoping-nianpu-1904]], III, 1877 (Oct. 1, 1965; Deng attends the rally in Tiananmen Square for the sixteenth anniversary of the People''s Republic, and reviews the parade). Names: Zhou Enlai, Norodom Sihanouk.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 480 (Oct. 1, 1965; 10 a.m., Tiananmen gate tower, Beijing); [[w.yang-shangkun-riji]], II, 675 (Oct. 1, 1965; Yang at Tiananmen for National Day, 10 a.m. to noon; Zhou not named; the words: 10时到12时在天安门参加国庆); [[w.deng-xiaoping-nianpu-1904]], III, 1877 (Oct. 1, 1965; Deng attends the rally in Tiananmen Square for the sixteenth anniversary of the People''s Republic, and reviews the parade); [[w.peng-zhen-nianpu-1902]], IV, 441 (Oct. 1, 1965, morning; Tiananmen Square; Peng Zhen speaks at the rally: a deep cultural revolution under way, culture, education, health and science serving socialism and the workers, peasants and soldiers, many intellectuals going to the hills and villages; the Third Five-Year Plan from 1966; the general line held high). Names: Zhou Enlai, Norodom Sihanouk.'
     src:
       c: c42d77dd
       rows:
         - 'w.zhou-enlai-waijiao-huodong 480: all'
         - 'w.yang-shangkun-riji II, 675: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1877: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 441: ?'
     tags: [polity:prc, name:zhou-enlai, name:norodom-sihanouk]
     time_zone: Asia/Shanghai
   - id: cal.1965-10-01.china-leadership-2
@@ -159,6 +160,24 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 481: all'
         - 'w.yang-shangkun-riji II, 675: ?'
     tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-10-01T11:00Z
+      - 1965-10-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-10-01.china-leadership-3
+    when: Oct. 1
+    date: '1965-10-01'
+    place: peking
+    thread: china-leadership
+    also: [indonesia]
+    c: Peking 北京. Peng Zhen 彭真 meets Mochtar 穆赫塔尔, governor of Central Java, and his wife.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 441. The words: 晚 (IV, 441). Names: Peng Zhen.'
+    src:
+      c: fcc05c4d
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 441: all'
+    tags: [polity:prc, name:peng-zhen]
     time_range:
       - 1965-10-01T11:00Z
       - 1965-10-01T14:00Z
@@ -316,17 +335,31 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真 gives a banquet for those of the National Games; Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], II, 676 (Oct. 2, 1965). The words: 中午参加了彭真同志请全运会人员的宴会 (II, 676). Names: Peng Zhen, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 676 (Oct. 2, 1965); [[w.peng-zhen-nianpu-1902]], IV, 441–442 (Oct. 2, 1965, noon; Peng Zhen, with Deng Xiaoping and others, receives and gives a luncheon for the heads of the teams and some leading athletes of the Second National Games). The words: 中午参加了彭真同志请全运会人员的宴会 (II, 676). Names: Peng Zhen, Yang Shangkun.'
     src:
       c: 18a92aec
       rows:
         - 'w.yang-shangkun-riji II, 676: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 441–442: ?'
     tags: [polity:prc, name:peng-zhen]
     time_range:
       - 1965-10-02T04:00Z
       - 1965-10-02T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1965-10-02.china-leadership-5
+    when: Oct. 2
+    date: '1965-10-02'
+    place: peking
+    thread: china-leadership
+    also: [japan]
+    c: Peking 北京. Peng Zhen 彭真 at the airport sees off Hakamada Satomi 袴田里见 and his party going home.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 441. See [[cal.1965-09-17.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: bc466285
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 441: all'
+    tags: [polity:prc, name:peng-zhen, polity:japan]
   - id: cal.1965-10-03.immigration
     when: Oct. 3
     date: '1965-10-03'
@@ -422,13 +455,19 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou attends the signing of the China–Cambodia joint statement; Liu Shaoqi and Prince Sihanouk sign for the two sides.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 481 (Oct. 3, 1965; Beijing; the time not given); [[w.zhonghua-renmin-gongheguo-waijiao]], 55 (Oct. 3, 1965; the joint statement: the second Afro-Asian Conference must raise the anti-imperialist banner; China''s pledge of full support if Cambodia is attacked by arms). Names: Zhou Enlai, Liu Shaoqi, Norodom Sihanouk.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 481 (Oct. 3, 1965; Beijing; the time not given); [[w.zhonghua-renmin-gongheguo-waijiao]], 55 (Oct. 3, 1965; the joint statement: the second Afro-Asian Conference must raise the anti-imperialist banner; China''s pledge of full support if Cambodia is attacked by arms); [[w.peng-zhen-nianpu-1902]], IV, 442 (Oct. 3, 1965, afternoon; Peng Zhen, with Zhou Enlai and others, at the signing). Names: Zhou Enlai, Liu Shaoqi, Norodom Sihanouk.'
     src:
       c: 92d70e59
       rows:
         - 'w.zhou-enlai-waijiao-huodong 481: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 55: A'
+        - 'w.peng-zhen-nianpu-1902 IV, 442: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:norodom-sihanouk]
+    time_range:
+      - 1965-10-03T04:00Z
+      - 1965-10-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-10-03.china-leadership-3
     when: Oct. 3
     date: '1965-10-03'
@@ -454,11 +493,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou attends the banquet given by Prince Sihanouk and the Princess for China's leaders, and with Sihanouk watches a performance of the Cambodian Royal Ballet.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 481 (Oct. 3, 1965; evening; Beijing). Names: Zhou Enlai, Norodom Sihanouk.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 481 (Oct. 3, 1965; evening; Beijing); [[w.peng-zhen-nianpu-1902]], IV, 442 (Oct. 3, 1965, evening; Peng Zhen at Prince Sihanouk''s banquet). Names: Zhou Enlai, Norodom Sihanouk.'
     src:
       c: 7803db04
       rows:
         - 'w.zhou-enlai-waijiao-huodong 481: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 442: ?'
     tags: [polity:prc, name:zhou-enlai, name:norodom-sihanouk]
     time_range:
       - 1965-10-03T11:00Z
@@ -472,6 +512,24 @@ entries:
     c: 'Maurer, receiving Crawford, the U.S. ambassador, on his farewell call, speaks ''as a man'' and not as Premier, as Bodnăraş later tells the Chinese: what the Americans do in Vietnam is a wild adventure, peaceful coexistence cannot hold with it, and opposition to it will stiffen. Crawford says he will report it home.'
     n: '"[Note of the Audience of Liu Fang, Ambassador of the Chinese People''s Republic in Bucharest, with Emil Bodnaras, First Vice-President of the Council of Ministers of the S. R. of Romania](https://digitalarchive.umd.edu/document/122557)" (Oct. 28, 1965), ANR, fond C.C. al P.C.R., Secţia Relaţii Externe, dosar 4/1965, f. 215–237, trans. Larry L. Watts, Wilson Center Digital Archive. The Romanian account only, in Bodnăraş''s briefing of Liu Fang, Oct. 28, 1965; the day is the translator''s, in brackets. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 279, 762, an excerpt). Names: Maurer, Bodnăraş. Check: the place. Check: whether the excerpt printed in 2005 holds this part.'
     tags: [polity:romania, polity:us, name:maurer-ion-gheorghe, name:bodnaras-emil, vis:only:romania+us, vis:from:prc:1965-10-28]
+  - id: cal.1965-10-03.china-leadership-5
+    when: Oct. 3
+    date: '1965-10-03'
+    place: peking
+    thread: china-leadership
+    also: [indonesia]
+    c: Peking 北京. Peng Zhen 彭真 meets the Indonesian National Defense Institute delegation under Major General Wilujo Puspojudo 威路约·普斯波尤多, vice-chairman of the Provisional People's Consultative Congress and chairman of the institute, and Rear Admiral 苏博诺, the chairman's assistant.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 442. The words: 下午 (IV, 442). Names: Peng Zhen.'
+    src:
+      c: 4cc5d80d
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 442: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1965-10-03T04:00Z
+      - 1965-10-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-10-04.vietnam
     when: Oct. 4
     date: '1965-10-04'
@@ -577,11 +635,12 @@ entries:
     thread: china-leadership
     also: [korea]
     c: Zhou goes to the airport to see off Prince Sihanouk and the Princess, leaving Peking for North Korea.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 481 (Oct. 4, 1965; morning; Beijing airport). Names: Zhou Enlai, Norodom Sihanouk.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 481 (Oct. 4, 1965; morning; Beijing airport); [[w.peng-zhen-nianpu-1902]], IV, 442 (Oct. 4, 1965, morning; Peng Zhen, with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai and others, at the airport seeing off Prince Sihanouk and his wife for the DPRK). Names: Zhou Enlai, Norodom Sihanouk.'
     src:
       c: f82a7d00
       rows:
         - 'w.zhou-enlai-waijiao-huodong 481: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 442: ?'
     tags: [polity:prc, name:zhou-enlai, name:norodom-sihanouk]
     time_range:
       - 1965-10-03T22:00Z
@@ -627,11 +686,12 @@ entries:
     thread: china
     also: [indonesia]
     c: 'Zhu De and Chaerul Saleh sign, for the NPC Standing Committee and Indonesia''s provisional People''s Consultative Congress, a joint statement: the second Afro-Asian conference must succeed, carry on the Bandung spirit, raise the anti-imperialist, anti-colonial banner, condemn imperialist policies of aggression and war, and back the Afro-Asian peoples'' liberation struggles.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 57 (Oct. 4, 1965). See [[cal.1965-09-30.china-leadership-4]]. Names: Zhu De, Chaerul Saleh.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 57 (Oct. 4, 1965); [[w.peng-zhen-nianpu-1902]], IV, 442 (Oct. 4, 1965; Peng Zhen at the signing; Zhu De and Chairman Chaerul Saleh sign). See [[cal.1965-09-30.china-leadership-4]]. Names: Zhu De, Chaerul Saleh.'
     src:
       c: 43b92c4a
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 57: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 442: ?'
     tags: [polity:prc, polity:indonesia, name:zhu-de, name:saleh-chaerul]
   - id: cal.1965-10-04.china-leadership-3
     when: Oct. 4
@@ -690,6 +750,24 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1877: all'
     tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc+pathet-lao]
+  - id: cal.1965-10-04.china-leadership-8
+    when: Oct. 4
+    date: '1965-10-04'
+    place: peking
+    thread: china-leadership
+    also: [japan]
+    c: Peking 北京. Peng Zhen 彭真 cuts the ribbon opening the Japanese industrial exhibition.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 442. The words: 下午 (IV, 442). Names: Peng Zhen.'
+    src:
+      c: 19e781e5
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 442: all'
+    tags: [polity:prc, name:peng-zhen, polity:japan]
+    time_range:
+      - 1965-10-04T04:00Z
+      - 1965-10-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-10-05.africa
     when: Oct. 5
     date: '1965-10-05'
@@ -1003,12 +1081,24 @@ entries:
     thread: china-leadership
     also: [china]
     c: Deng Xiaoping 邓小平 presides at the Secretariat 书记处, which discusses some questions raised at the Central Work Conference 中央工作会议.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1877 (Oct. 6, 1965). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1877 (Oct. 6, 1965); [[w.peng-zhen-nianpu-1902]], IV, 442–443 (Oct. 6, 1965; the Secretariat''s 400th meeting; Peng Zhen there; decisions on the Third Plan, prices, grain, birth control; Peng: small farm machines priced for communes and brigades to buy; those who began work after 1949 all to retire, the old revolutionaries before kept on, a line in time to be drawn; young cadres trained and used, "three-door" cadres (from home to school to office, the editors'' note) at least two years at the grass roots; squatting points by old, middle-aged and young together; the poor and lower-middle peasants'' associations mass bodies, the Party the highest form). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
     src:
       c: 5b96b755
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1877: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 442–443: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-10-06.china-leadership-8
+    when: Oct. 6
+    date: '1965-10-06'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真, on the Peking municipal committee''s 中共北京市委 draft notice on the time the rural four-clean-up teams give to farm work, to Zheng Tianxiang 郑天翔: in the busy season commune members must not hold many meetings, long ones, or much spare-time activity, collective study included; matters settled in short talks in the fields, at the threshing floor, before or after meals or before sleep.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 442. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: a427ec52
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 442: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
   - id: cal.1965-10-07.defense-soviet-forces
     when: Oct. 7
     date: '1965-10-07'
@@ -1131,6 +1221,28 @@ entries:
       - 1965-10-07T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-10-07.china-leadership-4
+    when: Oct. 7
+    date: '1965-10-07'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真, on the municipal committee''s notice on the four-clean-up teams'' farm work: once passed by the committee''s Secretariat, to go out as a draft to the sub-delegations'' committees and commune committees and up for views, then be settled.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 442. Made public: 2012. See [[cal.1965-10-06.china-leadership-8]]. Names: Peng Zhen.'
+    src:
+      c: d2c008f6
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 442: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
+  - id: cal.1965-10-07.china-leadership-5
+    when: Oct. 7
+    date: '1965-10-07'
+    thread: china-leadership
+    c: Peng Zhen 彭真 at the Secretariat 书记处 on the arrangements of the Central Work Conference.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 443. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: e7715d2a
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 443: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
   - id: cal.1965-10-08.succession
     when: Oct. 8
     date: '1965-10-08'
@@ -1262,7 +1374,7 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: 'Mao, Yinian Tang: calls a meeting with the regional bureaus'' first secretaries. On class struggle: before the 10th plenum it was said there was none; not understood till 1964–65. The CPSU''s coming 23rd Congress: China will send none, only a message. To Peng Zhen: can Wu Han be criticized? Peng: yes. Mao: let those below do it.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 8, 1965. [[w.macfarquhar-origins-of-the-cultural]], III, 445 (Mao asks Peng Zhen whether Wu Han can be criticized; Peng: if he has problems); [[w.yang-jisheng-tiandi-fanfu]], I, 109 (at the Central Work Conference, September 1965 by Yang, Mao asks Peng Zhen whether Wu Han may be criticized; Peng: some of his problems may be). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.history-of-the-chinese]], 318 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94a); [[w.jin-1949-1989-niande-zhongguo]], 611–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94b); Zhu Yongjia 朱永嘉, as told to Jin Guangyao 金光耀, 〈評新編歷史劇《海瑞罷官》發表前後〉, *Yanhuang chunqiu* 《炎黃春秋》, 2011, no. 6 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 109 n.12). Names: Mao Zedong, Peng Zhen, Wu Han. Check: whether Wu Han''s criticism then meant the later *Hai Rui* piece (Nov. 10).'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 8, 1965. [[w.macfarquhar-origins-of-the-cultural]], III, 445 (Mao asks Peng Zhen whether Wu Han can be criticized; Peng: if he has problems); [[w.yang-jisheng-tiandi-fanfu]], I, 109 (at the Central Work Conference, September 1965 by Yang, Mao asks Peng Zhen whether Wu Han may be criticized; Peng: some of his problems may be); [[w.peng-zhen-nianpu-1902]], IV, 443 (Oct. 8, 1965; Peng Zhen at Mao''s meeting with the regional bureaus'' first secretaries; Mao: Marx''s teaching the teaching of class struggle, political economy too; Mao asks Peng whether Wu Han 吴晗 can be criticized; Peng: he can; Mao: let those below criticize). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.history-of-the-chinese]], 318 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94a); [[w.jin-1949-1989-niande-zhongguo]], 611–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94b); Zhu Yongjia 朱永嘉, as told to Jin Guangyao 金光耀, 〈評新編歷史劇《海瑞罷官》發表前後〉, *Yanhuang chunqiu* 《炎黃春秋》, 2011, no. 6 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 109 n.12). Names: Mao Zedong, Peng Zhen, Wu Han. Check: whether Wu Han''s criticism then meant the later *Hai Rui* piece (Nov. 10).'
     src:
       c: d82b1fba
       rows:
@@ -1271,6 +1383,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 445 n.94a: E, F'
         - 'via w.macfarquhar-origins-of-the-cultural III, 445 n.94b: E, F'
         - 'w.yang-jisheng-tiandi-fanfu I, 109: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 443: ?'
     tags: [name:mao-zedong, name:peng-zhen, polity:prc, vis:only:prc]
   - id: cal.1965-10-08.china-leadership-2
     when: Oct. 8, 11 and 21
@@ -1425,7 +1538,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao, Yinian Tang: with the bureau first secretaries again, on war preparation. Talk of war every day and the enemy does not come? that would make us King You lighting the beacons; but he did call it; better a big and small third front. About three and a half years'' time, Yu Qiuli says five; a small steel works in each province. If the Center turns revisionist, rebel: small third fronts make that easier. Prepare for U.S. and revisionist attacks, and for revisionism and fascism inside, landlord restoration.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 10, 1965. [[w.macfarquhar-origins-of-the-cultural]], III, 445 (Mao to the regional leaders: if revisionism appears in the Center, rebel); [[w.mao-zedong-zhuan]], VI, ch. 74 (Oct. 10, at the Yinian Tang, Mao to the bureaus'' first secretaries: "if the Center produces revisionism, rebel" (n.11)). [[w.yang-jisheng-tiandi-fanfu]], II, 1067 (Mao: if revisionism appears in the Center, rebel; if a Khrushchev appears, the small third line is good for rebelling). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.history-of-the-chinese]], 318 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94a); [[w.jin-1949-1989-niande-zhongguo]], 611–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94b); [[w.nianyi-da-dongluande-niandai]], 113 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94c); Michael Schoenhals, communication to the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94d); Mao Zedong 毛泽东, talk with the first secretaries of the regional bureaus 大区第一书记, Oct. 10, 1965 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.11). Names: Mao Zedong, Yu Qiuli.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 10, 1965. [[w.macfarquhar-origins-of-the-cultural]], III, 445 (Mao to the regional leaders: if revisionism appears in the Center, rebel); [[w.mao-zedong-zhuan]], VI, ch. 74 (Oct. 10, at the Yinian Tang, Mao to the bureaus'' first secretaries: "if the Center produces revisionism, rebel" (n.11)). [[w.yang-jisheng-tiandi-fanfu]], II, 1067 (Mao: if revisionism appears in the Center, rebel; if a Khrushchev appears, the small third line is good for rebelling); [[w.peng-zhen-nianpu-1902]], IV, 443 (Oct. 10, 1965; Peng Zhen at Mao''s meeting with the regional bureaus'' first secretaries; Mao: the small third front very important; if revisionism appears at the Center, rebel; if a Khrushchev appears, the small third front makes rebellion easier). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.history-of-the-chinese]], 318 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94a); [[w.jin-1949-1989-niande-zhongguo]], 611–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94b); [[w.nianyi-da-dongluande-niandai]], 113 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94c); Michael Schoenhals, communication to the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94d); Mao Zedong 毛泽东, talk with the first secretaries of the regional bureaus 大区第一书记, Oct. 10, 1965 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.11). Names: Mao Zedong, Yu Qiuli.'
     src:
       c: 34bcb7e0
       rows:
@@ -1438,6 +1551,7 @@ entries:
         - 'w.mao-zedong-zhuan VI, ch. 74: A-C, G'
         - 'via w.mao-zedong-zhuan VI, ch.74 n.11: G'
         - 'w.yang-jisheng-tiandi-fanfu II, 1067: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 443: ?'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1965-10-10.china-leadership-2
     when: Oct. 10
@@ -1488,6 +1602,17 @@ entries:
     c: Cát Sơn, Bình Định. The Liberation Army attacks the Americans.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 52. Check: the force and the result; the history gives neither.'
     tags: [polity:drv, polity:us]
+  - id: cal.1965-10-10.china-leadership-6
+    when: Oct. 10
+    date: '1965-10-10'
+    thread: china-leadership
+    c: Peng Zhen 彭真 has "On the Ten Major Relationships" 《论十大关系》 printed and given to the members of the Politburo and the Secretariat, the first secretaries or a leader of each regional bureau and province at the Central Work Conference, the heads of the central departments, the Vice Premiers and the small planning commission.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 440. Made public: 2012. See [[cal.1965-09-23.china-leadership-7]]. Names: Peng Zhen.'
+    src:
+      c: 4cb8ba76
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 440: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
   - id: cal.1965-10-11.jobs-and-wages
     when: Oct. 11
     date: '1965-10-11'
@@ -1695,7 +1820,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Mao presides over the second plenary session of the Central Work Conference; Yu Qiuli, Li Xiannian, Peng Zhen, Zhu De, Zhou Enlai speak on the Third Plan, grain and trade, the Party, studying Mao's thought, the world situation; Mao interjects often. He backs provincial steel works of about 50,000 tons; no more rail; the Yidu mine to be opened; a Center gone revisionist, local officials not to follow, else "rebel"; the Party's fine young members; "we old men hold the helm, and you may be at ease."
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 12, 1965. [[w.yang-shangkun-riji]], II, 678 (Oct. 12, 1965; the closing plenary, 10 a.m. to 2 p.m., Mao in the chair; speakers Yu Qiuli, Li Xiannian, Peng Zhen, Zhu De, Zhou; the conference formally ended; the words: 上午10时到下午2时，工作会议开大会，主席主持); [[w.deng-xiaoping-nianpu-1904]], III, 1877 (Oct. 12, 1965; morning, 上午; Deng at the plenary of the Central Work Conference Mao presides over, at which Yu Qiuli, Li Xiannian, Peng Zhen, Zhu De and Zhou Enlai speak on the Third Plan, grain and trade, Party questions, the study of Mao Zedong Thought and the international situation; the conference ends the same day); [[w.mao-zedong-zhuan]], VI, ch. 74 (Oct. 12, at the Henan Hall of the Great Hall, Mao presides in Liu''s absence at Sihanouk''s reception; Yu Qiuli, Li Xiannian, Peng Zhen, Zhu De and Zhou speak on planning, finance and trade, the Party, Mao Zedong Thought, the world; Mao interjects: provincial steel works of some 50,000 tons; a Center gone revisionist, rebel (n.12, n.13)). Made public: 2013. Check: Made public: the day stands, by the 2017 edition''s front matter, in the diary''s first edition ([[w.shangkun-yang-shangkun-riji-2]], 2001), not seen; reprinted [[w.yang-shangkun-riji]], II, 678; earlier than the year the note gives. To check: Mao Zedong 毛泽东, interjections at the Central Work Conference 中央工作会议, Oct. 12, 1965 (record 插话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.12); Wang Renzhong 王任重, record of Mao''s interjections at the Central Work Conference 中央工作会议, Oct. 12, 1965 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.13). Names: Mao Zedong, Li Xiannian, Peng Zhen, Zhu De, Zhou Enlai, Yu Qiuli.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 12, 1965. [[w.yang-shangkun-riji]], II, 678 (Oct. 12, 1965; the closing plenary, 10 a.m. to 2 p.m., Mao in the chair; speakers Yu Qiuli, Li Xiannian, Peng Zhen, Zhu De, Zhou; the conference formally ended; the words: 上午10时到下午2时，工作会议开大会，主席主持); [[w.deng-xiaoping-nianpu-1904]], III, 1877 (Oct. 12, 1965; morning, 上午; Deng at the plenary of the Central Work Conference Mao presides over, at which Yu Qiuli, Li Xiannian, Peng Zhen, Zhu De and Zhou Enlai speak on the Third Plan, grain and trade, Party questions, the study of Mao Zedong Thought and the international situation; the conference ends the same day); [[w.mao-zedong-zhuan]], VI, ch. 74 (Oct. 12, at the Henan Hall of the Great Hall, Mao presides in Liu''s absence at Sihanouk''s reception; Yu Qiuli, Li Xiannian, Peng Zhen, Zhu De and Zhou speak on planning, finance and trade, the Party, Mao Zedong Thought, the world; Mao interjects: provincial steel works of some 50,000 tons; a Center gone revisionist, rebel (n.12, n.13)). [[w.peng-zhen-nianpu-1902]], IV, 443–444 (Oct. 12, 1965, morning; Peng Zhen on Party building: Mao long faulted the Party for not running itself, run since the four clean-ups; under the dictatorship of the proletariat the Party must be run; whether revisionism comes depends on the Party; promote new forces; the grass-roots organization taken up some years late, a Party group in every team; Yu Qiuli on the Third Plan, Li Xiannian on grain, finance and trade, Zhu De on studying Mao Zedong Thought, Zhou Enlai on the world; the conference ends that day). Made public: 2013. Check: Made public: the day stands, by the 2017 edition''s front matter, in the diary''s first edition ([[w.shangkun-yang-shangkun-riji-2]], 2001), not seen; reprinted [[w.yang-shangkun-riji]], II, 678; earlier than the year the note gives. To check: Mao Zedong 毛泽东, interjections at the Central Work Conference 中央工作会议, Oct. 12, 1965 (record 插话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.12); Wang Renzhong 王任重, record of Mao''s interjections at the Central Work Conference 中央工作会议, Oct. 12, 1965 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.13). Names: Mao Zedong, Li Xiannian, Peng Zhen, Zhu De, Zhou Enlai, Yu Qiuli.'
     src:
       c: 13bf8fad
       rows:
@@ -1705,7 +1830,13 @@ entries:
         - 'w.mao-zedong-zhuan VI, ch. 74: B-D, G'
         - 'via w.mao-zedong-zhuan VI, ch.74 n.12: B-D, G'
         - 'via w.mao-zedong-zhuan VI, ch.74 n.13: G'
+        - 'w.peng-zhen-nianpu-1902 IV, 443–444: ?'
     tags: [name:mao-zedong, name:li-xiannian, name:peng-zhen, name:zhu-de, name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1965-10-11T22:00Z
+      - 1965-10-12T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-10-12.china-leadership-2
     when: Oct. 12
     date: '1965-10-12'
@@ -1731,11 +1862,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou watches the Albanian People's Army song and dance ensemble and receives its head, artistic director and principal performers.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 482 (Oct. 12, 1965; evening; Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 482 (Oct. 12, 1965; evening; Beijing); [[w.peng-zhen-nianpu-1902]], IV, 444 (Oct. 12, 1965, evening; Peng Zhen, with Zhou Enlai and Dong Biwu, receives the Albanian People''s Army song and dance ensemble and sees its show). Names: Zhou Enlai.'
     src:
       c: 716c5cb3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 482: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 444: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-10-12T11:00Z
@@ -2014,6 +2146,17 @@ entries:
     c: 'Rusk meets part of the Romanian delegation under Mănescu at the State Department, three and a half hours, as Bodnăraş later tells the Chinese. Rusk, by that account: the U.S. sees Hanoi perhaps moving toward talks, will not leave South Vietnam to force, and asks Romania not to block any signal from the Vietnamese; he calls the Soviet line reasonable and the Chinese the hardliners'' only inspiration. Mănescu: the Vietnamese alone must decide.'
     n: '"[Note of the Audience of Liu Fang, Ambassador of the Chinese People''s Republic in Bucharest, with Emil Bodnaras, First Vice-President of the Council of Ministers of the S. R. of Romania](https://digitalarchive.umd.edu/document/122557)" (Oct. 28, 1965), ANR, fond C.C. al P.C.R., Secţia Relaţii Externe, dosar 4/1965, f. 215–237, trans. Larry L. Watts, Wilson Center Digital Archive. The Romanian account only, in Bodnăraş''s briefing of Liu Fang, Oct. 28, 1965. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 279, 762, an excerpt). Names: Rusk, Mănescu, Balaceanu, Bodnăraş. Check: the U.S. record of the meeting. Check: whether the excerpt printed in 2005 holds this part.'
     tags: [polity:romania, polity:us, name:rusk-dean, name:manescu-corneliu, name:balaceanu-petre, name:bodnaras-emil, vis:only:romania+us, vis:from:prc:1965-10-28]
+  - id: cal.1965-10-14.china-leadership-6
+    when: Oct. 14
+    date: '1965-10-14'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 at the 401st meeting of the Secretariat 书记处, on the third front, appointments, farming and the four clean-ups: on the Qinghai–Tibet railway, forces now concentrated for battles of annihilation, those lines to be built in time; provincial secretaries in poor health, squatting at a point, to live in the county town, not forced into the "three togethers"; middle peasants'' children may join the poor peasants'' associations, and why not landlords'' and rich peasants'' children of good conduct, who may join the League and the Party?'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 444. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: c4e34068
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 444: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
   - id: cal.1965-10-15.students
     when: Oct. 15–16
     date: '1965-10-15'
@@ -2247,11 +2390,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Deng Xiaoping 邓小平, with Peng Zhen 彭真, Luo Ruiqing 罗瑞卿, Li Jingquan 李井泉, Cheng Zihua 程子华 (footnote 1: then secretary of the Southwest Bureau''s Secretariat 书记处 and standing deputy director of the Third Front Construction Committee) and Li Dazhang 李大章 (then secretary of the Southwest Bureau''s Secretariat and governor of Sichuan), attends the meeting Liu Shaoqi 刘少奇 calls to discuss the arrangement of Peng Dehuai''s 彭德怀 work in the southwest.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1878 (Oct. 16, 1965). The words: 下午 (III, 1878). Made public: 2009 (the nianpu). See [[cal.1965-09-23.china-leadership]]. Names: Deng Xiaoping, Peng Zhen, Luo Ruiqing, Li Jingquan, Liu Shaoqi, Peng Dehuai.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1878 (Oct. 16, 1965); [[w.peng-zhen-nianpu-1902]], IV, 444 (Oct. 16, 1965, afternoon; Peng Zhen, with Deng Xiaoping, Luo Ruiqing, Li Jingquan, Cheng Zihua, Liao Zhigao 廖志高, Li Dazhang, Yan Hongyan 阎红彦, Jia Qiyun 贾启允 (secretaries of the Southwest Bureau, the editors'' note) and others, at Liu Shaoqi''s meeting on Peng Dehuai''s work, which announces his assignment to the southwest as deputy commander of the third-front construction; Peng Dehuai there). The words: 下午 (III, 1878). Made public: 2009 (the nianpu). See [[cal.1965-09-23.china-leadership]]. Names: Deng Xiaoping, Peng Zhen, Luo Ruiqing, Li Jingquan, Liu Shaoqi, Peng Dehuai.'
     src:
       c: 1548e585
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1878: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 444: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:luo-ruiqing, name:li-jingquan, name:liu-shaoqi, name:peng-dehuai, vis:only:prc]
     time_range:
       - 1965-10-16T04:00Z
@@ -2531,6 +2675,17 @@ entries:
       - 1965-10-18T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-10-18.china-leadership-4
+    when: Oct. 18
+    date: '1965-10-18'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 sends Mao 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and Zhu De 朱德 the report on extending the fixed interest paid to capitalists: the regional bureaus'' heads, asked, lean toward extending it; the Standing Committee to settle it soon.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 444. Made public: 2012. Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De.'
+    src:
+      c: '73119130'
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 444: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, vis:only:prc, ok:fields-place]
   - id: cal.1965-10-19.vietnam
     when: Oct. 19
     date: '1965-10-19'
@@ -3029,6 +3184,31 @@ entries:
       - 1965-10-20T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-10-20.china-leadership-8
+    when: Oct. 20
+    date: '1965-10-20'
+    thread: china-leadership
+    c: Peng Zhen 彭真 sends Lin Biao 林彪 the edited text of Mao's 毛泽东 "On the Ten Major Relationships" 《论十大关系》, made under Chen Boda 陈伯达 from the original record, in Mao's style and as far as may be his words; a long-term guide, Mao asked to direct its further editing and publication, or first within the Party.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 445. Made public: 2012. See [[cal.1965-10-10.china-leadership-6]]. Names: Peng Zhen, Lin Biao, Mao Zedong, Chen Boda.'
+    src:
+      c: d0d3bd17
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 445: all'
+    tags: [polity:prc, name:peng-zhen, name:lin-biao, name:mao-zedong, name:chen-boda, vis:only:prc, ok:fields-place]
+  - id: cal.1965-10-20.soviet-union
+    when: Oct. 20
+    date: '1965-10-20'
+    place: hanoi
+    thread: soviet-union
+    also: [vietnam-hanoi, china]
+    c: 'The Soviet Embassy in the DRV, "On PRC Relations to Vietnamese Problem": the Chinese oppose every Soviet attempt at negotiations and would "fight against the Americans to the last Vietnamese soldier."'
+    n: '[[w.friedman-shadow-cold-war]], 130. Made public: 2015. To check: Report of embassy DRV “On PRC Relations to Vietnamese Problem,” October 20, 1965, AVPRF f.079 o.20 papka 49 d.26, 32 (cited by [[w.friedman-shadow-cold-war]], 130 n.133).'
+    src:
+      c: 18b82b74
+      rows:
+        - 'w.friedman-shadow-cold-war 130: all'
+        - 'via x.1965-10-20.report-embassy-drv-prc-relations-vietnamese-problem: ?'
+    tags: [polity:ussr, vis:only:ussr]
   - id: cal.1965-10-21.trade
     when: Oct. 21
     date: '1965-10-21'
@@ -3865,6 +4045,20 @@ entries:
       - 1965-10-25T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-10-25.china-leadership-4
+    when: Oct. 25
+    date: '1965-10-25'
+    time: 1965-10-25T09:00Z
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at Mao's 毛泽东 to talk.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 445. The words: 下午五时 (IV, 445). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: '64872439'
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 445: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-10-26.vietnam
     when: Oct. 26
     date: '1965-10-26'
@@ -3955,8 +4149,13 @@ entries:
     date: '1965-10-26'
     thread: china-leadership
     c: Zhou attends the Secretariat; hears Zhao Erlu on the defense industry conference and its political work conference.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 760 (Oct. 26, 1965); [[w.yang-shangkun-riji]], II, 682 (Oct. 26, 1965; the Secretariat, 3:30 to 5:30 p.m., hears the National Defense Industry Office; Yang there; Zhou and Zhao Erlu not named; the words: 下午3时半到5时半书记处会议，听国防工业办公室汇报); [[w.deng-xiaoping-nianpu-1904]], III, 1878 (Oct. 26, 1965; 下午; Deng presides at the Secretariat 书记处, which hears Zhao Erlu 赵尔陆 on the national conferences on defense industry and on political work in it). Made public: 1997. Names: Zhou Enlai, Zhao Erlu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 760 (Oct. 26, 1965); [[w.yang-shangkun-riji]], II, 682 (Oct. 26, 1965; the Secretariat, 3:30 to 5:30 p.m., hears the National Defense Industry Office; Yang there; Zhou and Zhao Erlu not named; the words: 下午3时半到5时半书记处会议，听国防工业办公室汇报); [[w.deng-xiaoping-nianpu-1904]], III, 1878 (Oct. 26, 1965; 下午; Deng presides at the Secretariat 书记处, which hears Zhao Erlu 赵尔陆 on the national conferences on defense industry and on political work in it); [[w.peng-zhen-nianpu-1902]], IV, 445 (Oct. 26, 1965, afternoon; the Secretariat''s 402nd meeting; Peng Zhen there; Zhao Erlu on the defense industry conference and its political work conference). Made public: 1997. Names: Zhou Enlai, Zhao Erlu.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1965-10-26T04:00Z
+      - 1965-10-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-10-26.china-leadership-2
     when: Oct. 26
     date: '1965-10-26'
@@ -3983,8 +4182,13 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Liu Shaoqi presides at a Politburo meeting, which hears Zhou Enlai on the postponement of the Second Asian-African Conference and on the political situation of Indonesia.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 627 (Oct. 26, 1965); [[w.yang-shangkun-riji]], II, 682 (Oct. 26, 1965; the enlarged Politburo, 5:30 to 6:30 p.m., on the Asian-African conference and other questions, all agreeing to the line the Standing Committee had decided; Yang there; Liu and Zhou not named; the words: 5时半到6时半政治局扩大会议，讨论亚非会议等问题，一致同意常委决定的方针). Made public: 1996. Names: Liu Shaoqi, Zhou Enlai.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 627 (Oct. 26, 1965); [[w.yang-shangkun-riji]], II, 682 (Oct. 26, 1965; the enlarged Politburo, 5:30 to 6:30 p.m., on the Asian-African conference and other questions, all agreeing to the line the Standing Committee had decided; Yang there; Liu and Zhou not named; the words: 5时半到6时半政治局扩大会议，讨论亚非会议等问题，一致同意常委决定的方针); [[w.peng-zhen-nianpu-1902]], IV, 445 (Oct. 26, 1965, afternoon; Peng Zhen at the Politburo, which hears Zhou on the government''s not attending the second Asian-African conference and on the situation in Indonesia). Made public: 1996. Names: Liu Shaoqi, Zhou Enlai.'
     tags: [polity:prc, name:liu-shaoqi, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1965-10-26T04:00Z
+      - 1965-10-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-10-26.china-leadership-5
     when: Oct. 26
     date: '1965-10-26'
@@ -4162,6 +4366,23 @@ entries:
         - 'w.yang-shangkun-riji II, 682: all'
     tags: [polity:prc, name:chen-yi, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-10-27.china-leadership-4
+    when: Oct. 27
+    date: '1965-10-27'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 has Li Zongren 李宗仁 and his wife, Fu Zuoyi 傅作义, Zhang Zhizhong 张治中 and others, thirteen in all, to his home to talk, and to dinner.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 445. The words: 下午 (IV, 445). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 570ac38b
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 445: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1965-10-27T04:00Z
+      - 1965-10-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-10-28.middle-east
     when: Oct. 28
     date: '1965-10-28'
@@ -4319,6 +4540,23 @@ entries:
     c: Bodnăraş, for the Permanent Presidium, briefs Liu Fang, the Chinese ambassador, on Maurer's talk with Crawford, Mănescu's meeting with Rusk and Bhutto's request for good offices on Kashmir, which the Presidium declined. Liu thanks him and says Rusk's words show the real American intent.
     n: '"[Note of the Audience of Liu Fang, Ambassador of the Chinese People''s Republic in Bucharest, with Emil Bodnaras, First Vice-President of the Council of Ministers of the S. R. of Romania](https://digitalarchive.umd.edu/document/122557)" (Oct. 28, 1965), ANR, fond C.C. al P.C.R., Secţia Relaţii Externe, dosar 4/1965, f. 215–237, trans. Larry L. Watts, Wilson Center Digital Archive. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 279, 762, an excerpt). See [[cal.1965-10-03.vietnam-diplomacy]], [[cal.1965-10-13.india-and-china-kashmir]], [[cal.1965-10-14.vietnam-diplomacy]]. Names: Bodnăraş, Maurer, Mănescu, Rusk, Bhutto. The note''s close: ''over both of the audiences''. Check: the day of the second audience; Liu''s reply and Bodnăraş''s addition speak of the first as ''yesterday''.'
     tags: [polity:romania, polity:prc, name:bodnaras-emil, name:maurer-ion-gheorghe, name:manescu-corneliu, name:rusk-dean, name:bhutto-zulfikar-ali, vis:only:romania+prc]
+  - id: cal.1965-10-28.china-leadership-5
+    when: Oct. 28–29
+    date: '1965-10-28'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 calls Liu Ren 刘仁, Zheng Tianxiang 郑天翔 and others to a meeting, continued on the 29th, in the afternoon.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 445. The words: 上午 (IV, 445). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 5199f6c1
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 445: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1965-10-27T22:00Z
+      - 1965-10-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-10-29.africa
     when: Oct. 29
     date: '1965-10-29'
@@ -4421,7 +4659,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai, Deng Xiaoping and Peng Zhen tell Yang Shangkun of his coming dismissal as director of the CC's General Office.
-    n: '[[w.macfarquhar-maos-last-revolution]], 19 n.19 (Yang, in his diary: "a never-to-be-forgotten day"); [[w.yang-shangkun-riji]], II, 682 (Oct. 29, 1965; at 10:30 a.m.; "a day never to be forgotten"; the editors'' note: on Mao''s view, on Yang''s transfer; the Center''s notice of Nov. 10; the words: 上午10时半，周、邓、彭三人约我谈话。这是一次不寻常的谈话); [[w.deng-xiaoping-nianpu-1904]], III, 1878 (Oct. 29, 1965; Deng with Zhou Enlai and Peng Zhen talks with Yang Shangkun about his transfer; on Nov. 10 the Central Committee issues a notice relieving Yang of his post as director of the Central Committee''s General Office and moving him to be a secretary of the Guangdong provincial Party committee''s Secretariat). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Yang Shangkun, diary entry of Oct. 29, 1965 (told of his dismissal by Zhou Enlai, Deng Xiaoping and Peng Zhen), in [[w.shangkun-yang-shangkun-riji-2]] (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.19). Names: Zhou Enlai, Deng Xiaoping, Peng Zhen.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 19 n.19 (Yang, in his diary: "a never-to-be-forgotten day"); [[w.yang-shangkun-riji]], II, 682 (Oct. 29, 1965; at 10:30 a.m.; "a day never to be forgotten"; the editors'' note: on Mao''s view, on Yang''s transfer; the Center''s notice of Nov. 10; the words: 上午10时半，周、邓、彭三人约我谈话。这是一次不寻常的谈话); [[w.deng-xiaoping-nianpu-1904]], III, 1878 (Oct. 29, 1965; Deng with Zhou Enlai and Peng Zhen talks with Yang Shangkun about his transfer; on Nov. 10 the Central Committee issues a notice relieving Yang of his post as director of the Central Committee''s General Office and moving him to be a secretary of the Guangdong provincial Party committee''s Secretariat); [[w.peng-zhen-nianpu-1902]], IV, 445 (Oct. 29, 1965, morning; Peng Zhen, with Zhou Enlai and Deng Xiaoping, talks with Yang Shangkun). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Yang Shangkun, diary entry of Oct. 29, 1965 (told of his dismissal by Zhou Enlai, Deng Xiaoping and Peng Zhen), in [[w.shangkun-yang-shangkun-riji-2]] (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.19). Names: Zhou Enlai, Deng Xiaoping, Peng Zhen.'
     src:
       c: 9ff9d4a3
       rows:
@@ -4429,7 +4667,13 @@ entries:
         - 'via w.macfarquhar-maos-last-revolution 19 n.19: all'
         - 'w.yang-shangkun-riji II, 682: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1878: A'
+        - 'w.peng-zhen-nianpu-1902 IV, 445: ?'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1965-10-28T22:00Z
+      - 1965-10-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-10-29.china-leadership-3
     when: Oct. 29
     date: '1965-10-29'
@@ -4619,6 +4863,23 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1878–1879: all'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-10-30.china-leadership-6
+    when: Oct. 30
+    date: '1965-10-30'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at the Third NPC Standing Committee's seventeenth session, which hears Liu Chun 刘春 on work in Xinjiang 新疆.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 445. The words: 上午 (IV, 445). Names: Peng Zhen.'
+    src:
+      c: 1cc9506b
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 445: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1965-10-29T22:00Z
+      - 1965-10-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-10-31.cities-and-housing
     when: Oct. 31
     date: '1965-10-31'
@@ -5128,3 +5389,15 @@ entries:
     c: The Government Council sets up the Central Transport Coordination Board, Phạm Hùng, of the Politburo, Deputy Prime Minister, at its head.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 426. Names: Phạm Hùng. Check: the day.'
     tags: [polity:drv]
+  - id: cal.1965-10.china-leadership-3
+    when: Oct., mid-
+    date: 1965-10
+    at: before 1965-10-11
+    thread: china-leadership
+    c: Peng Zhen 彭真 receives Li Xiannian's 李先念 revisions to the "Report on the present state of the Party's membership and views on admitting members in the next six years."
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 445. Made public: 2012. Names: Peng Zhen, Li Xiannian.'
+    src:
+      c: f1c8e9ab
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 445: all'
+    tags: [polity:prc, name:peng-zhen, name:li-xiannian, vis:only:prc, ok:fields-place]

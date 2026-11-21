@@ -262,6 +262,40 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1860: all'
     tags: [polity:prc, name:deng-xiaoping, name:lu-dingyi, vis:only:prc]
+  - id: cal.1965-05-01.china-leadership-11
+    when: May 1
+    date: '1965-05-01'
+    place: peking
+    thread: china-leadership
+    c: The Working People's Cultural Palace 劳动人民文化宫, Peking 北京. Peng Zhen 彭真, with Liu Shaoqi 刘少奇 and Zhu De 朱德, joins the May Day crowds.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 414. The words: 上午 (IV, 414). Names: Peng Zhen, Liu Shaoqi, Zhu De.'
+    src:
+      c: fede6d62
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 414: all'
+    tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:zhu-de]
+    time_range:
+      - 1965-04-30T22:00Z
+      - 1965-05-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-05-01.china-leadership-12
+    when: May 1
+    date: '1965-05-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at the May Day evening party.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 414. The words: 晚 (IV, 414). Names: Peng Zhen.'
+    src:
+      c: 480d43dd
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 414: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1965-05-01T11:00Z
+      - 1965-05-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-02.latin-america
     when: May 2
     date: '1965-05-02'
@@ -486,6 +520,18 @@ entries:
     c: 'Lò Gò, northwest Tây Ninh. The first congress of heroes and emulation fighters of the southern liberation armed forces. The Liberation Front''s Central Committee launches the emulation drive "Quyết chiến, quyết thắng giặc Mỹ" (resolved to fight and beat the Americans); Nguyễn Chí Thanh, of the Politburo, deputy secretary of the Central Military Party Committee: fight the Americans and the way to beat them will be found.'
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 45. Names: Nguyễn Chí Thanh.'
     tags: [polity:drv, name:nguyen-chi-thanh]
+  - id: cal.1965-05-02.china-leadership-10
+    when: May 2
+    date: '1965-05-02'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at a meeting at Liu Shaoqi's 刘少奇.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 414. Made public: 2012. Names: Peng Zhen, Liu Shaoqi.'
+    src:
+      c: 3fc27f1a
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 414: all'
+    tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, vis:only:prc]
   - id: cal.1965-05-03.court
     when: May 3
     date: '1965-05-03'
@@ -922,6 +968,31 @@ entries:
       - 1965-05-04T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-04.china-leadership-6
+    when: May 4
+    date: '1965-05-04'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 speaks to the Party secretaries of the suburban "four clean-ups" branch teams: farm production the teams'' center now, the movement''s results to show there; in the Tongxian 通县 trials 40 to 50 percent of base cadres changed, over 170 beatings, the teams, the poor peasants'' associations, the newly elected and the dropped cadres at odds; but for landlords and the like who slipped in, all four to meet, open their hearts and untie the knots; three years of 200 million jin more grain a year, can half the cadres be bad? then the Party stands on sand; seeing only faults is metaphysics; we leaders share the blame for cadres'' errors.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 414–415. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 9efa6e6f
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 414–415: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-05-04.china-leadership-7
+    when: May 4
+    date: '1965-05-04'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Peking 北京. Peng Zhen 彭真, with Zhou Enlai 周恩来, at the capital's meeting of more than 10,000 workers firmly supporting the Vietnamese people's great struggle against the United States.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 415. Names: Peng Zhen, Zhou Enlai.'
+    src:
+      c: f0615e9f
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 415: all'
+    tags: [polity:prc, name:peng-zhen, name:zhou-enlai]
   - id: cal.1965-05-05.vietnam
     when: May 5–7
     date: '1965-05-05'
@@ -1779,11 +1850,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Deng Xiaoping 邓小平 presides at the Secretariat 书记处 on arrangements for marking the twentieth anniversary of victory in the anti-fascist war.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1860 (May 7, 1965). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1860 (May 7, 1965); [[w.peng-zhen-nianpu-1902]], IV, 415 (May 7, 1965; the Secretariat''s 397th meeting; Peng Zhen there; marking the twentieth anniversary of victory over fascism; on cadres voted out in the "four clean-ups": excessive struggle everywhere, verdicts by the facts, the guilty punished but not lightly called an anti-Party group; on college reform: three years of basic courses in science, engineering, medicine and agriculture, then a year or half of specialized bases; humanities lecture notes printed, as the Secretariat decided in 1958; problems in "mutual aid groups," not criticized in the press). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
     src:
       c: 3d2b90db
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1860: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 415: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
   - id: cal.1965-05-07.china-leadership-9
     when: May 7
@@ -2235,6 +2307,18 @@ entries:
       - 1965-05-10T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-10.china-leadership-3
+    when: May 10
+    date: '1965-05-10'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 with Li Chuli 李楚离, Qiao Mingfu 乔明甫, Gu Mu 谷牧, Liu Yumin 刘裕民, Lai Jifa 赖际发, Liu Xiufeng 刘秀峰, Li Yunchang 李运昌, Xu Zirong 徐子荣 and others: the Party''s life to be livelier, no fear of speaking, not every meeting recorded; criticism of great things, not private details, as in the Li Lisan 李立三 and Wang Ming years, a way brought by the Moscow branch; Yan''an''s rules, cure the sickness to save the patient, unity–criticism–unity; criticism strict, handling lenient; the "Twenty-three Articles": strict, positive and warm to cadres; after the "four clean-ups" Mao''s 毛泽东 lively political situation; cadres wronged by the teams to get an apology; cadres judged by virtue and ability, the large things not details.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 415–417. The page''s notes: Liu Yumin, Minister of Building; Lai Jifa, Minister of Building Materials; Liu Xiufeng, former Minister of Building, removed in August 1964 and sent to a Zhengzhou grinding-wheel plant, the verdict annulled April 1980; Li Yunchang, standing member of the Control Commission; Qiao Mingfu, deputy head of the Organization Department (IV, 415–416). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: 569da928
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 415–417: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:mao-zedong]
   - id: cal.1965-05-11.voting-rights
     when: May 11
     date: '1965-05-11'
@@ -2386,8 +2470,13 @@ entries:
     date: '1965-05-11'
     thread: china-leadership
     c: 'Zhou, at the Politburo on adjusting the 1965 capital construction plan and budget, again proposes the "four guarantees": war preparation, aid abroad, the third front, key projects; rank by urgency: first cut what is not urgent, second what is not ready, third what is non-productive, fourth break old molds in design, a revolution with large savings. Holding capital investment to 17 billion is to rank by output and imported goods and equipment, leaving margin. While he is away Deng may approve its control directly.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 729–30 (May 11, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 618–619 (May 11, 1965; Liu presides at the Politburo meeting, which in the main passes the State Capital Construction Commission Party group''s reports on adjusting the 1965 capital-construction plan and on adjusting the 1965 budget to war preparation, and adopts the decision setting up political organs in the industrial and communications system; Liu: over 1,260 projects now, near the peak''s 1,700; no project to be started without the Center''s approval); [[w.deng-xiaoping-nianpu-1904]], III, 1861 (May 11, 1965; afternoon, 下午; Deng at the Politburo meeting, which in the main adopts the State Capital Construction Commission''s reports on adjusting the 1965 capital construction plan and the 1965 state budget to the situation of war preparation, and the Central Committee''s ''Decision on setting up political-work organs in the industrial and communications system''; Deng says the outstanding problem of the Third Plan is strategic reserves, grain, cloth and oil, to be considered as a whole; private income may be spent as people like, flowered clothes, more meat, better goods, a perm; Zhou: control of capital-construction investment, when he is away, may be sought directly from Deng). Made public: 1996. Names: Zhou Enlai, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 729–30 (May 11, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 618–619 (May 11, 1965; Liu presides at the Politburo meeting, which in the main passes the State Capital Construction Commission Party group''s reports on adjusting the 1965 capital-construction plan and on adjusting the 1965 budget to war preparation, and adopts the decision setting up political organs in the industrial and communications system; Liu: over 1,260 projects now, near the peak''s 1,700; no project to be started without the Center''s approval); [[w.deng-xiaoping-nianpu-1904]], III, 1861 (May 11, 1965; afternoon, 下午; Deng at the Politburo meeting, which in the main adopts the State Capital Construction Commission''s reports on adjusting the 1965 capital construction plan and the 1965 state budget to the situation of war preparation, and the Central Committee''s ''Decision on setting up political-work organs in the industrial and communications system''; Deng says the outstanding problem of the Third Plan is strategic reserves, grain, cloth and oil, to be considered as a whole; private income may be spent as people like, flowered clothes, more meat, better goods, a perm; Zhou: control of capital-construction investment, when he is away, may be sought directly from Deng); [[w.peng-zhen-nianpu-1902]], IV, 417 (May 11, 1965, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, which adopts the Capital Construction Commission''s report on adjusting the 1965 plan, the Finance Ministry Party group''s draft report adjusting the 1965 budget for war preparation, and the decision to set up political organs in industry and communications). Made public: 1996. Names: Zhou Enlai, Deng Xiaoping.'
     tags: [name:zhou-enlai, name:deng-xiaoping, polity:prc, vis:only:prc]
+    time_range:
+      - 1965-05-11T04:00Z
+      - 1965-05-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-11.china-leadership-2
     when: May 11
     date: '1965-05-11'
@@ -2782,6 +2871,35 @@ entries:
       rows:
         - 'https://digitalarchive.umd.edu/document/121766: all'
     tags: [polity:hungary, polity:dprk, vis:only:hungary+dprk]
+  - id: cal.1965-05-12.china-leadership-10
+    when: May 12
+    date: '1965-05-12'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 speaks at the capital''s meeting of 100,000 against the U.S. armed aggression in the Dominican Republic, Liu Shaoqi 刘少奇, Zhu De 朱德, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others there: the Chinese people fully support Chairman Mao''s 毛泽东 and the government''s statements and will fight on with the Dominican people and the world''s peoples against U.S. imperialist aggression.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 417. See [[cal.1965-05-12.china-leadership]]. Names: Peng Zhen, Liu Shaoqi, Zhu De, Zhou Enlai, Deng Xiaoping, Mao Zedong.'
+    src:
+      c: 73a4ce45
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 417: all'
+    tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:deng-xiaoping, name:mao-zedong]
+  - id: cal.1965-05-12.china-leadership-11
+    when: May 12
+    date: '1965-05-12'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at a meeting at Zhou Enlai's 周恩来.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 417. The words: 夜 (IV, 417). Made public: 2012. Names: Peng Zhen, Zhou Enlai.'
+    src:
+      c: 1a265e06
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 417: all'
+    tags: [polity:prc, name:peng-zhen, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1965-05-12T14:00Z
+      - 1965-05-12T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-13.vietnam-mayflower
     when: May 13
     date: '1965-05-13'
@@ -3201,14 +3319,20 @@ entries:
     thread: china-leadership
     also: [soviet-union, europe-and-the-alliance]
     c: Zhou attends the Politburo meeting; hears Yao Yilin on the finance and trade work conference, Lin Feng on going to the Soviet Union for the twentieth anniversary of victory over fascism, Lu Dingyi on going to the German Democratic Republic for the twentieth anniversary of its liberation.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 730 (May 14, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 619 (May 14, 1965; Liu presides at the Politburo meeting, which hears Yao Yilin, Minister of Commerce, on finance and trade; Liu says that to strengthen rural commerce the supply and marketing cooperatives, which go after big deals and neglect small trade, need an organ for the small goods they will not buy, and that in reforming the commercial system the wholesale organs are to be taken in hand, the retail and small wholesale organs being scattered, so that the circulation of goods is put right); [[w.deng-xiaoping-nianpu-1904]], III, 1861 (May 14, 1965; afternoon, 下午; Deng at the Politburo meeting, which hears Yao Yilin on the finance and trade work conference, Lin Feng on going to the Soviet Union for the twentieth-anniversary celebration and Lu Dingyi on going to the German Democratic Republic). Made public: 1996. Names: Zhou Enlai, Yao Yilin, Lin Feng, Lu Dingyi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 730 (May 14, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 619 (May 14, 1965; Liu presides at the Politburo meeting, which hears Yao Yilin, Minister of Commerce, on finance and trade; Liu says that to strengthen rural commerce the supply and marketing cooperatives, which go after big deals and neglect small trade, need an organ for the small goods they will not buy, and that in reforming the commercial system the wholesale organs are to be taken in hand, the retail and small wholesale organs being scattered, so that the circulation of goods is put right); [[w.deng-xiaoping-nianpu-1904]], III, 1861 (May 14, 1965; afternoon, 下午; Deng at the Politburo meeting, which hears Yao Yilin on the finance and trade work conference, Lin Feng on going to the Soviet Union for the twentieth-anniversary celebration and Lu Dingyi on going to the German Democratic Republic); [[w.peng-zhen-nianpu-1902]], IV, 417 (May 14, 1965, afternoon; Peng Zhen at the Politburo, hearing Yao Yilin on finance and trade, Lin Feng on the Soviet celebration of victory over fascism and Lu Dingyi on the GDR''s twentieth anniversary of liberation; Peng Zhen: the long-term plan must be made, without overall balance no production). Made public: 1996. Names: Zhou Enlai, Yao Yilin, Lin Feng, Lu Dingyi.'
     src:
       c: ffa33b15
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 730: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 619: A, B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1861: B'
+        - 'w.peng-zhen-nianpu-1902 IV, 417: ?'
     tags: [name:zhou-enlai, name:lu-dingyi, polity:prc, vis:only:prc]
+    time_range:
+      - 1965-05-14T04:00Z
+      - 1965-05-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-14.china
     when: May 14
     date: '1965-05-14'
@@ -3313,11 +3437,12 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Deng Xiaoping 邓小平, with Peng Zhen 彭真 and others, drafts for Mao Zedong 毛泽东 the telegram of congratulation to the Indonesian Communist Party on its forty-fifth anniversary. The *Renmin ribao* 人民日报 prints it on the 23rd.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1861 (May 14, 1965). The words: 起草 (III, 1861). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen, Mao Zedong.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1861 (May 14, 1965); [[w.peng-zhen-nianpu-1902]], IV, 417 (May 14, 1965; Diaoyutai; Peng Zhen, with Deng Xiaoping and others, drafts Mao''s telegram for the Indonesian Communist Party''s forty-fifth anniversary and sends it to Mao at Changsha; signed on the 20th, printed in the *Renmin ribao* on the 23rd). The words: 起草 (III, 1861). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen, Mao Zedong.'
     src:
       c: c1097d26
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1861: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 417: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:mao-zedong, vis:only:prc]
   - id: cal.1965-05-14.vietnam-mayflower
     when: May 14
@@ -3508,14 +3633,20 @@ entries:
     date: '1965-05-15'
     thread: china-leadership
     c: Zhou attends the Politburo meeting; hears Ye Lin on industrial production. This year's output over 20 percent above last; note quality and safety now.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 730–31 (May 15, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 619 (May 15, 1965; Liu presides at the Politburo meeting, which hears Ye Lin, deputy director of the State Economic Commission, on industrial production and Li Fuchun on the small third front; of basic industry he says transport, power and coal are tight this year and will be tighter next and the year after, capacity has reached its limit, so that steel cannot rise unless coal does, and preparation for the next two years is to begin now); [[w.deng-xiaoping-nianpu-1904]], III, 1862 (May 15, 1965; afternoon, 下午; Deng at the Politburo meeting, which hears Ye Lin 叶林, deputy director of the State Economic Commission, on industrial production and Li Fuchun on building the small third front). Made public: 1996. Names: Zhou Enlai, Ye Lin.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 730–31 (May 15, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 619 (May 15, 1965; Liu presides at the Politburo meeting, which hears Ye Lin, deputy director of the State Economic Commission, on industrial production and Li Fuchun on the small third front; of basic industry he says transport, power and coal are tight this year and will be tighter next and the year after, capacity has reached its limit, so that steel cannot rise unless coal does, and preparation for the next two years is to begin now); [[w.deng-xiaoping-nianpu-1904]], III, 1862 (May 15, 1965; afternoon, 下午; Deng at the Politburo meeting, which hears Ye Lin 叶林, deputy director of the State Economic Commission, on industrial production and Li Fuchun on building the small third front); [[w.peng-zhen-nianpu-1902]], IV, 417 (May 15, 1965, afternoon; Peng Zhen at the Politburo, hearing Ye Lin (the page''s note: deputy director of the State Economic Commission) on industrial output and Li Fuchun on the small third line). Made public: 1996. Names: Zhou Enlai, Ye Lin.'
     src:
       c: 98fdc69f
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 730–31: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 619: A, B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1862: B'
+        - 'w.peng-zhen-nianpu-1902 IV, 417: ?'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1965-05-15T04:00Z
+      - 1965-05-15T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-15.china-leadership-3
     when: May 15
     date: '1965-05-15'
@@ -3585,6 +3716,17 @@ entries:
     c: Eastern Nam Bộ. May 15 Regiment 4 ambushes on Route 20 and destroys two Civil Guard companies and 20 military vehicles.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 419.'
     tags: [polity:drv]
+  - id: cal.1965-05-15.china-leadership-7
+    when: May 15
+    date: '1965-05-15'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 sends Mao 毛泽东 the transcript, from the recording, of his talk "On the ten great relationships": the original record, the fullest he has seen; also to Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Lin Biao 林彪, Deng Xiaoping 邓小平, Chen Boda 陈伯达, Kang Sheng 康生 and Luo Ruiqing 罗瑞卿.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 418. Made public: 2012. Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping, Chen Boda, Kang Sheng, Luo Ruiqing.'
+    src:
+      c: e4d9e0d3
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 418: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:lin-biao, name:deng-xiaoping, name:chen-boda, name:kang-sheng, name:luo-ruiqing, vis:only:prc, ok:fields-place]
   - id: cal.1965-05-16.opinion
     when: May 16
     date: '1965-05-16'
@@ -4396,11 +4538,12 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou goes to the airport to see off the delegation under Peng Zhen, Politburo member and Secretariat secretary, leaving for Jakarta for the forty-fifth anniversary of the Indonesian Communist Party and a friendly visit.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 455–56 (May 19, 1965; Beijing airport; the time not given). Names: Zhou Enlai, Peng Zhen.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 455–56 (May 19, 1965; Beijing airport; the time not given); [[w.peng-zhen-nianpu-1902]], IV, 418 (May 19, 1965; Peng Zhen leads the Chinese party delegation to the Indonesian Communist Party''s forty-fifth anniversary and the NPC delegation invited by Aidit, vice-chairman of the Provisional People''s Consultative Congress, Liu Ningyi and Chen Yu, governor of Guangdong, among the members; both reach Kunming that day). Names: Zhou Enlai, Peng Zhen.'
     src:
       c: 427eae1d
       rows:
         - 'w.zhou-enlai-waijiao-huodong 455–56: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 418: ?'
     tags: [polity:prc, name:zhou-enlai, name:peng-zhen]
   - id: cal.1965-05-19.china-leadership-3
     when: May 19
@@ -4727,7 +4870,7 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Peng Zhen, vice-chairman of the NPC's Standing Committee, begins the visit of an NPC delegation to Indonesia, to June 5.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 29 (May 21–June 5, 1965; the visit; Sukarno receives the delegation, no day given); [[w.macfarquhar-origins-of-the-cultural]], III, 367 (Peng Zhen makes a strongly anti-imperialist speech in Jakarta in May). To check: [[w.agung-twenty-years-indonesian-foreign]], 431–40 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 367 n.114a); [[w.leifer-indonesias-foreign-policy]], 69–71, 99–105 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 367 n.114b). Names: Peng Zhen.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 29 (May 21–June 5, 1965; the visit; Sukarno receives the delegation, no day given); [[w.macfarquhar-origins-of-the-cultural]], III, 367 (Peng Zhen makes a strongly anti-imperialist speech in Jakarta in May); [[w.peng-zhen-nianpu-1902]], IV, 418 (May 21, 1965, early morning; Peng Zhen leads the two delegations by special plane from Kunming, a short stop at Rangoon, to Jakarta at noon; Aidit, chairman of the Indonesian party, coordinating minister and vice-chairman of the Provisional People''s Consultative Congress, and others at the airport). To check: [[w.agung-twenty-years-indonesian-foreign]], 431–40 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 367 n.114a); [[w.leifer-indonesias-foreign-policy]], 69–71, 99–105 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 367 n.114b). Names: Peng Zhen.'
     src:
       c: bebd3f4b
       rows:
@@ -4735,7 +4878,13 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 367: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 367 n.114a: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 367 n.114b: A'
+        - 'w.peng-zhen-nianpu-1902 IV, 418: ?'
     tags: [polity:prc, polity:indonesia, name:peng-zhen, name:sukarno]
+    time_range:
+      - 1965-05-20T21:00Z
+      - 1965-05-21T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-21.china-leadership-3
     when: May 21
     date: '1965-05-21'
@@ -4778,6 +4927,24 @@ entries:
       - 1965-05-21T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-21.china-leadership-6
+    when: May 21
+    date: '1965-05-21'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta. Peng Zhen 彭真 leads all the Chinese party delegation's members to call on Aidit and the other leaders of the Indonesian Communist Party.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 418. The words: 下午 (IV, 418). See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen, Aidit.'
+    src:
+      c: 3252749a
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 418: all'
+    tags: [polity:prc, name:peng-zhen, name:aidit-dipa-nusantara]
+    time_range:
+      - 1965-05-21T05:00Z
+      - 1965-05-21T11:00Z
+    time_band: afternoon
+    time_zone: Asia/Jakarta
   - id: cal.1965-05-22.laos
     when: May 22
     date: '1965-05-22'
@@ -4941,6 +5108,42 @@ entries:
     c: American aircraft bomb two Vietnamese–Soviet fishing boats 15 kilometers off the coast at Hải Thịnh, Hải Hậu, Nam Định; one catches fire.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 384. Check: the place; the history names the commune, not the boats.'
     tags: [polity:drv, polity:us]
+  - id: cal.1965-05-22.china-leadership-6
+    when: May 22
+    date: '1965-05-22'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta. Peng Zhen 彭真 and the Chinese party delegation meet the Korean Workers' Party's delegation under Pak Kum Chol 朴金喆, member and vice-chairman of its Political Committee.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 418. The words: 晚 (IV, 418). Made public: 2012. See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: 02f2da50
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 418: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1965-05-22T12:00Z
+      - 1965-05-22T15:00Z
+    time_band: evening
+    time_zone: Asia/Jakarta
+  - id: cal.1965-05-22.china-leadership-7
+    when: May 22
+    date: '1965-05-22'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta. Peng Zhen 彭真 and the Chinese party delegation meet the Japanese Communist Party's delegation under Hakamada Satomi, member of its Politburo and secretary of its Secretariat; again on the 23rd in the afternoon.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 418. The words: 晚 (IV, 418). Made public: 2012. See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: 17045c74
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 418: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1965-05-22T12:00Z
+      - 1965-05-22T15:00Z
+    time_band: evening
+    time_zone: Asia/Jakarta
   - id: cal.1965-05-23.opinion
     when: May 23
     date: '1965-05-23'
@@ -5041,6 +5244,24 @@ entries:
       - 1965-05-23T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-23.china-leadership-4
+    when: May 23
+    date: '1965-05-23'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta. Peng Zhen 彭真 leads the Chinese party delegation to the meeting of 100,000 celebrating the Indonesian Communist Party's forty-fifth anniversary.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 418. The words: 上午 (IV, 418). See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: 68b8e133
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 418: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1965-05-22T23:00Z
+      - 1965-05-23T05:00Z
+    time_band: morning
+    time_zone: Asia/Jakarta
   - id: cal.1965-05-24.court
     when: May 24
     date: '1965-05-24'
@@ -5238,6 +5459,50 @@ entries:
         - 'w.yang-shangkun-riji II, 609: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-24.china-leadership-7
+    when: May 24
+    date: '1965-05-24'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta. Peng Zhen 彭真 and the Chinese party delegation, with Aidit, lay a wreath at the Kalibata heroes' cemetery and see the exhibition of the Indonesian party's history; he writes a salute in the visitors' book to the party grown in the flames of revolution, joining Marxism-Leninism to Indonesian practice, close to the masses, guarding Marxism-Leninism's purity in the international movement.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 418–419. The words: 上午 (IV, 418–419). See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen, Aidit.'
+    src:
+      c: 2fbb245c
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 418–419: all'
+    tags: [polity:prc, name:peng-zhen, name:aidit-dipa-nusantara]
+    time_range:
+      - 1965-05-23T23:00Z
+      - 1965-05-24T05:00Z
+    time_band: morning
+    time_zone: Asia/Jakarta
+  - id: cal.1965-05-24.china-leadership-8
+    when: May 24
+    date: '1965-05-24'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta. Peng Zhen 彭真 and the Chinese party delegation at Aidit's banquet.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 419. See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen, Aidit.'
+    src:
+      c: 95fc2fcd
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 419: all'
+    tags: [polity:prc, name:peng-zhen, name:aidit-dipa-nusantara]
+  - id: cal.1965-05-24.soviet-union
+    when: May 24
+    date: '1965-05-24'
+    thread: soviet-union
+    also: [china]
+    c: 'The Institute of the Economy of the World Socialist System to P. N. Demichev, secretary of the Central Committee: China''s farm output in 1964 may reach 1957''s, its industry still far below; tractors the bottleneck, the million needed 140 years away at the present rate; China will turn to the capitalist world for trade and perhaps aid; it can sustain foreign aid no higher than 1964''s, about $125 million a year.'
+    n: '[[w.friedman-shadow-cold-war]], 122–123. Made public: 2015. To check: Report from Institute of the Economy of the World Socialist System to CC Secretary P. N. Demychev, May 24, 1965, RGANI f.5 o.30 d.481, 1–7 (cited by [[w.friedman-shadow-cold-war]], 122 n.92); Report from Institute of the Economy of the World Socialist System to CC Secretary P. N. Demychev, May 24, 1965, RGANI f.5 o.30 d.481, 3 (cited by [[w.friedman-shadow-cold-war]], 122 n.93); Report from Institute of the Economy of the World Socialist System to CC Secretary P. N. Demychev, May 24, 1965, RGANI f.5 o.30 d.481, 7 (cited by [[w.friedman-shadow-cold-war]], 123 n.94).'
+    src:
+      c: 12053cdd
+      rows:
+        - 'w.friedman-shadow-cold-war 122–123: all'
+        - 'via x.1965-05-24.report-institute-economy-world-socialist-system-secretary: ?'
+    tags: [polity:ussr, vis:only:ussr]
   - id: cal.1965-05-25.foreign-aid
     when: May 25
     date: '1965-05-25'
@@ -5555,6 +5820,55 @@ entries:
     c: 'The military attaché of the Chinese embassy in the Soviet Union to the Foreign Ministry and the General Staff''s Intelligence Department: reactions to China''s second test. Of Soviet officers and students, some praise it and some object to its cost; a political-instructor colonel tells Hungarian students the Soviet Union objects. Cuban and Polish students praise it; German and Mongolian students object, the Mongolian calling it a breach of the Partial Test Ban Treaty.'
     n: '"[Cable from the Military Attache of the Chinese Embassy in the Soviet Union, ''Reactions to China''s Second Nuclear Explosion''](https://digitalarchive.umd.edu/document/134747)" (May 25, 1965), PRC FMA 109-03637-03, 18–19, trans. Caixia Lu, Wilson Center Digital Archive. Urgent, from the Soviet desk, incoming (65) Chen (1354). Dated by its own date line, 25 May 1965; the Archive dates it May 15. The cable names no city. See [[cal.1965-05-14.china]]. Check: the date, May 25 (the cable) or May 15 (the Archive). Check: the year the Archive posted the document.'
     tags: [polity:prc, polity:ussr, vis:only:prc]
+  - id: cal.1965-05-25.china-leadership-10
+    when: May 25
+    date: '1965-05-25'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Jakarta. Peng Zhen 彭真 speaks at the Aliarcham Academy of Social Sciences on the struggle against imperialism and modern revisionism: since the Second World War the contradiction of the oppressed nations of Asia, Africa and Latin America with U.S.-led imperialism the chief contradiction of the world, part of the proletarian world revolution; the Khrushchev revisionists deny it; the new Soviet leaders, under words of "revolution," "unity" and "anti-imperialism," hold to the line of the Twentieth and Twenty-second Congresses; the Chinese, Indonesian and other Marxist-Leninist parties keep a thoroughly revolutionary line.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 419. The words: 上午 (IV, 419). See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen, Khrushchev.'
+    src:
+      c: 837acc63
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 419: all'
+    tags: [polity:prc, name:peng-zhen, name:khrushchev-nikita-s]
+    time_range:
+      - 1965-05-24T23:00Z
+      - 1965-05-25T05:00Z
+    time_band: morning
+    time_zone: Asia/Jakarta
+  - id: cal.1965-05-25.china-leadership-11
+    when: May 25
+    date: '1965-05-25'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta, the Banteng Square. Peng Zhen 彭真 and the Chinese party delegation on the reviewing stand as Aidit and other Indonesian party leaders review 10,000 members of the People's Youth.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 419. The words: 下午 (IV, 419). See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen, Aidit.'
+    src:
+      c: 55dfde56
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 419: all'
+    tags: [polity:prc, name:peng-zhen, name:aidit-dipa-nusantara]
+    time_range:
+      - 1965-05-25T05:00Z
+      - 1965-05-25T11:00Z
+    time_band: afternoon
+    time_zone: Asia/Jakarta
+  - id: cal.1965-05-25.china-leadership-12
+    when: May 25
+    date: '1965-05-25'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta. Peng Zhen 彭真 leads the NPC delegation to call on Ali Sastroamidjojo, vice-chairman of the Provisional People's Consultative Congress.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 419. See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen, Ali Sastroamidjojo.'
+    src:
+      c: a6da8015
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 419: all'
+    tags: [polity:prc, name:peng-zhen, name:ali-sastroamidjojo]
   - id: cal.1965-05-26.latin-america
     when: May 26
     date: '1965-05-26'
@@ -5788,6 +6102,60 @@ entries:
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 46–48 (the directive of May 10, 1965, from the Region 5 archive; the attack began 0:30, after the wire was cut on hill 49; hill 50 held by hand-to-hand fighting, 20 minutes). The figures are the history''s. Check: the clock; the history does not say whose, and Marine records give the Americans'' losses.'
     tags: [polity:drv, polity:us]
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1965-05-26.china-leadership-7
+    when: May 26
+    date: '1965-05-26'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta. Peng Zhen 彭真 and the Chinese party delegation, with the delegations of the communist and workers' parties at the Indonesian Communist Party's forty-fifth anniversary, received by President Sukarno; Aidit and other Indonesian party leaders there.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 419–420. See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen, Sukarno, Aidit Dipa Nusantara.'
+    src:
+      c: eff568da
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 419–420: all'
+    tags: [polity:prc, name:peng-zhen, name:sukarno, name:aidit-dipa-nusantara]
+  - id: cal.1965-05-26.china-leadership-8
+    when: May 26
+    date: '1965-05-26'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta. Peng Zhen 彭真 leads the Chinese party and NPC delegations to call on and meet the chairman and vice-chairmen of the Provisional People's Consultative Congress and the First Deputy Premier.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 420. See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: 25bf2e2f
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 420: all'
+    tags: [polity:prc, name:peng-zhen]
+  - id: cal.1965-05-26.china-leadership-9
+    when: May 26
+    date: '1965-05-26'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Jakarta. Peng Zhen 彭真, for the Chinese party, speaks at the reception for the Indonesian Communist Party''s forty-fifth anniversary: twenty years underground under Dutch repression, the fight against the Japanese occupiers, the Dutch driven out by arms with the other anti-imperialist forces, its "indelible" part in founding the Republic.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 420. See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: 9c870b66
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 420: all'
+    tags: [polity:prc, name:peng-zhen]
+  - id: cal.1965-05-26.china-leadership-10
+    when: May 26
+    date: '1965-05-26'
+    place: moscow
+    thread: china-leadership
+    also: [soviet-union, africa]
+    c: 'The Chinese Embassy at Moscow, secret report to the Foreign Ministry on the new Soviet leaders'' half year in Asia and Africa: their aims the same, to win the contest with China and destroy Afro-Asian militancy for détente; a "fake" anti-imperialism of belligerent words and arms for the Congo, Vietnam and Palestine; Nasser and Ben Bella promoted as "socialists" under "revolutionary democracy"; party ties with the FLN, the Arab Socialist Union and the Sudanese Union; "illusions" created, to be exposed in time.'
+    n: '[[w.friedman-shadow-cold-war]], 130–131. Made public: 2015. To check: PRC embassy Moscow to MFA, secret report on activities of new Soviet leadership in half year in Asia and Africa, May 26, 1965, CFMA doc. 109-03652-02, 58 (cited by [[w.friedman-shadow-cold-war]], 130 n.134); Report of Soviet-East European Department of MFA on foreign policy of new Soviet leadership, February 15, 1965, CFMA doc. 109-03652-01, 6 (cited by [[w.friedman-shadow-cold-war]], 131 n.135); PRC embassy Moscow to MFA, May 26, 1965, CFMA doc. 109-03652-02, 60 (cited by [[w.friedman-shadow-cold-war]], 131 n.136); PRC embassy Moscow to MFA, May 26, 1965, CFMA doc. 109-03652-02, 65 (cited by [[w.friedman-shadow-cold-war]], 131 n.137); PRC embassy Moscow to MFA, May 26, 1965, CFMA doc. 109-03652-02 (cited by [[w.friedman-shadow-cold-war]], 131 n.138). Names: Nasser, Ben Bella.'
+    src:
+      c: 88a7c8d2
+      rows:
+        - 'w.friedman-shadow-cold-war 130–131: all'
+        - 'via x.1965-05-26.prc-embassy-moscow-mfa-secret-report-activities: ?'
+        - 'via x.1965-02-15.report-soviet-east-european-department-mfa-foreign: ?'
+    tags: [polity:prc, vis:only:prc, name:nasser-gamal-abdel, name:ben-bella-ahmed]
   - id: cal.1965-05-27.desegregation-schools
     when: May 27
     date: '1965-05-27'
@@ -5954,6 +6322,60 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1863: all'
     tags: [polity:prc, name:deng-xiaoping, name:bo-yibo, vis:only:prc]
+  - id: cal.1965-05-27.china-leadership-6
+    when: May 27
+    date: '1965-05-27'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta, the Merdeka Palace 独立宫. Peng Zhen 彭真 leads the NPC delegation to meet President Sukarno.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 420. The words: 上午 (IV, 420). See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen, Sukarno.'
+    src:
+      c: d25a11b8
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 420: all'
+    tags: [polity:prc, name:peng-zhen, name:sukarno]
+    time_range:
+      - 1965-05-26T23:00Z
+      - 1965-05-27T05:00Z
+    time_band: morning
+    time_zone: Asia/Jakarta
+  - id: cal.1965-05-27.china-leadership-7
+    when: May 27
+    date: '1965-05-27'
+    place: bogor
+    thread: china-leadership
+    also: [indonesia]
+    c: Near Bogor 茂物. Peng Zhen 彭真 leads the Chinese party delegation, Aidit with them, to the "埃戈姆" academy of agriculture and the peasant movement, and speaks to its teachers and students.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 420. The words: 上午 (IV, 420). See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen, Aidit Dipa Nusantara.'
+    src:
+      c: 802b2e4b
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 420: all'
+    tags: [polity:prc, name:peng-zhen, name:aidit-dipa-nusantara]
+    time_range:
+      - 1965-05-26T23:00Z
+      - 1965-05-27T05:00Z
+    time_band: morning
+    time_zone: Asia/Jakarta
+  - id: cal.1965-05-27.china-leadership-8
+    when: May 27
+    date: '1965-05-27'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta. Peng Zhen 彭真 at the Indonesian Communist Party's art evening, the song-and-dance pageant *Glory to the Party and the Nation* 《光荣归于党和民族》.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 420. The words: 晚 (IV, 420). See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: 2cabe43b
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 420: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1965-05-27T12:00Z
+      - 1965-05-27T15:00Z
+    time_band: evening
+    time_zone: Asia/Jakarta
   - id: cal.1965-05-28.china-leadership
     when: May 28–29
     date: '1965-05-28'
@@ -6126,6 +6548,39 @@ entries:
     c: 'Hoang Tu, the DRV''s ambassador, briefs Ceaușescu: by his account the American plans have failed and the National Liberation Front holds most of the South; the DRV cannot accept peace proposals now. He adds what the Workers'' Party delegation discussed with the CPSU at Moscow. Ceaușescu replies.'
     n: '"[Note of Conversation on Occasion of the Reception of the Ambassador of the Democratic Republic of Vietnam in Bucharest, Hoang Tu](https://digitalarchive.umd.edu/document/122554)" (May 28, 1965), ANR, Fond CC al PCR, Secţia Relaţii Externe, dosar 23/1965, f. 4–7, trans. Larry L. Watts, Wilson Center Digital Archive. Names: Ceaușescu. Check: the year the document was first printed or posted; the Archive page gives none.'
     tags: [polity:romania, polity:drv, name:ceausescu-nicolae, vis:only:romania+drv]
+  - id: cal.1965-05-28.china-leadership-10
+    when: May 28
+    date: '1965-05-28'
+    place:
+      - jakarta
+      - surabaya
+    thread: china-leadership
+    also: [indonesia]
+    c: Peng Zhen 彭真 flies with part of the Chinese party and NPC delegations from Jakarta to Surabaya 泗水, East Java; Liu Ningyi 刘宁一 and others go to Lampung 楠榜, South Sumatra.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 420. See [[cal.1965-05-21.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: 2637c25f
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 420: all'
+    tags: [polity:prc, name:peng-zhen]
+  - id: cal.1965-05-28.china-leadership-11
+    when: May 28
+    date: '1965-05-28'
+    place: surabaya
+    thread: china-leadership
+    also: [indonesia]
+    c: Surabaya 泗水, the residence of the governor of East Java. Peng Zhen 彭真 meets the local government's leaders.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 420. The words: 晚上 (IV, 420). See [[cal.1965-05-28.china-leadership-10]]. Names: Peng Zhen.'
+    src:
+      c: 9f478142
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 420: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1965-05-28T12:00Z
+      - 1965-05-28T15:00Z
+    time_band: evening
+    time_zone: Asia/Jakarta
   - id: cal.1965-05-29.vietnam-operations
     when: May 29–30
     date: '1965-05-29'
@@ -6314,6 +6769,37 @@ entries:
     c: Quảng Ngãi. May 29, in the second direction south of the Trà Khúc, Battalion 83 of the province surrounds and attacks the Nghĩa Hành district seat and threatens the Saigon troops at the Tư Nghĩa district seat, so that local forces can punish oppressors.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 425. See [[cal.1965-05-29.vietnam-operations]].'
     tags: [polity:drv]
+  - id: cal.1965-05-29.china-leadership-10
+    when: May 29
+    date: '1965-05-29'
+    place: surabaya
+    thread: china-leadership
+    also: [indonesia]
+    c: Surabaya 泗水. Peng Zhen 彭真, with part of the delegation, meets Mayor Murachman 穆拉赫曼 and other leaders of the city government and council.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 420. The words: 上午 (IV, 420). See [[cal.1965-05-28.china-leadership-10]]. Names: Peng Zhen.'
+    src:
+      c: 5b788c2c
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 420: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1965-05-28T23:00Z
+      - 1965-05-29T05:00Z
+    time_band: morning
+    time_zone: Asia/Jakarta
+  - id: cal.1965-05-29.china-leadership-11
+    when: May 29
+    date: '1965-05-29'
+    place: surabaya
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Surabaya 泗水. Peng Zhen 彭真, with part of the delegation, watches the working people''s cultural demonstration for the Indonesian Communist Party''s forty-fifth anniversary: workers, peasants, youth, students, women and artists, ten kilometers long, five hours, crowds of several hundred thousand.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 420. See [[cal.1965-05-28.china-leadership-10]]. Names: Peng Zhen.'
+    src:
+      c: ac32e434
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 420: all'
+    tags: [polity:prc, name:peng-zhen]
   - id: cal.1965-05-30.vietnam-air-war
     when: May 30–June 1
     date: '1965-05-30'
@@ -6938,3 +7424,21 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu II, 622: all'
         - 'via w.yang-jisheng-tiandi-fanfu II, 622 n.92: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1965-05-31.china-leadership-7
+    when: May 31
+    date: '1965-05-31'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Peng Zhen 彭真 leads the delegation back to Jakarta.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 420. The words: 下午 (IV, 420). See [[cal.1965-05-28.china-leadership-10]]. Names: Peng Zhen.'
+    src:
+      c: 81a9b44c
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 420: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1965-05-31T05:00Z
+      - 1965-05-31T11:00Z
+    time_band: afternoon
+    time_zone: Asia/Jakarta

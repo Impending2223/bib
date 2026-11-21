@@ -168,12 +168,13 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Peking 北京, the Great Hall of the People 人民大会堂, Fujian Room 福建厅, 3:30 to 7:30 p.m. Deng Xiaoping 邓小平 talks with Kurahara Korehito 藏原惟人 of the Japanese Communist Party's Politburo, and dines with him; Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], II, 303 (Aug. 1, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1768 (Aug. 1, 1963; Deng, with Peng Zhen and Yang Shangkun, talks with Kurahara Korehito 藏原惟人, member of the JCP Politburo; on creative development of Marxism–Leninism: first, to seek and study its universal truths; second, to apply them to one''s own conditions, setting one''s own policies, guidelines and line). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Kurahara Korehito, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 303 (Aug. 1, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1768 (Aug. 1, 1963; Deng, with Peng Zhen and Yang Shangkun, talks with Kurahara Korehito 藏原惟人, member of the JCP Politburo; on creative development of Marxism–Leninism: first, to seek and study its universal truths; second, to apply them to one''s own conditions, setting one''s own policies, guidelines and line); [[w.peng-zhen-nianpu-1902]], IV, 286 (Aug. 1 and 3, 1963; Peng Zhen, with Deng Xiaoping, Yang Shangkun and others, in talks with Kurahara Korehito, member of the Japanese party''s Politburo). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Kurahara Korehito, Yang Shangkun.'
     src:
       c: bc41afa3
       rows:
         - 'w.yang-shangkun-riji II, 303: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1768: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 286: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1963-08-01.china-leadership-6
@@ -358,6 +359,23 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1768: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-08-02.china-leadership-5
+    when: Aug. 2
+    date: '1963-08-02'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 reports on the Sino-Soviet talks at Moscow to the Center's forum of democratic personages, Chen Yi 陈毅 presiding.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 286. The words: 下午 (IV, 286). Made public: 2012. See [[cal.1963-07-21.china-leadership]]. Names: Peng Zhen, Chen Yi.'
+    src:
+      c: eb0d884d
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 286: all'
+    tags: [polity:prc, name:peng-zhen, name:chen-yi, vis:only:prc]
+    time_range:
+      - 1963-08-02T04:00Z
+      - 1963-08-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-08-03.europe-and-the-alliance
     when: Aug. 3
     date: '1963-08-03'
@@ -447,6 +465,19 @@ entries:
       - 1963-08-03T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1963-08-03.soviet-union-leadership
+    when: Aug. 3
+    date: '1963-08-03'
+    thread: soviet-union-leadership
+    also: [china]
+    c: 'A resolution of the CPSU Central Committee: Novosti to distribute the Open Letter of July 14 abroad.'
+    n: '[[w.friedman-shadow-cold-war]], 105. Made public: 2015. To check: Report of deputy chairman of APN to CC on anti-Chinese activity of APN, September 16, 1963, RGANI f.5 o.55 d.58, 118 (cited by [[w.friedman-shadow-cold-war]], 105 n.15).'
+    src:
+      c: 11f0e68f
+      rows:
+        - 'w.friedman-shadow-cold-war 105: all'
+        - 'via x.1963-09-16.report-deputy-chairman-apn-anti-chinese-activity: ?'
+    tags: [polity:ussr, vis:only:ussr]
   - id: cal.1963-08-04.opinion-5
     when: Aug. 4
     date: '1963-08-04'
@@ -480,14 +511,20 @@ entries:
     thread: china-leadership
     also: [soviet-union, japan]
     c: Yinian Tang, afternoon. Mao receives Kurahara Korehito, a member of the Japanese Communist Party's Politburo; Deng Xiaoping, Peng Zhen, Yang Shangkun, Liao Chengzhi present. The Soviet side printed our June 14 reply in 50,000 copies, "to put us off," while *Pravda* has over three million; the *People's Daily* prints all they say, and local papers shall; and the Chinese press speaks to the world in a dozen languages.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 4, 1963. [[w.yang-shangkun-riji]], II, 303 (Aug. 4, 1963; 6:30 to 8:30 p.m., Mao sees Kurahara and dines with him; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1769 (Aug. 4, 1963; afternoon, 下午; Deng with Peng Zhen, Yang Shangkun and Liao Chengzhi accompanies Mao in meeting Kurahara Korehito). Made public: 2013. Check: Yang Shangkun''s diary has Mao see Kurahara from 6:30 to 8:30 p.m., with a meal ([[w.yang-shangkun-riji]], II, 303), against "afternoon". Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Kurahara Korehito, Yang Shangkun, Liao Chengzhi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 4, 1963. [[w.yang-shangkun-riji]], II, 303 (Aug. 4, 1963; 6:30 to 8:30 p.m., Mao sees Kurahara and dines with him; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1769 (Aug. 4, 1963; afternoon, 下午; Deng with Peng Zhen, Yang Shangkun and Liao Chengzhi accompanies Mao in meeting Kurahara Korehito); [[w.peng-zhen-nianpu-1902]], IV, 286 (Aug. 4, 1963, afternoon; Peng Zhen, with Deng Xiaoping, Yang Shangkun and Liao Chengzhi, accompanies Mao in meeting Kurahara Korehito). Made public: 2013. Check: Yang Shangkun''s diary has Mao see Kurahara from 6:30 to 8:30 p.m., with a meal ([[w.yang-shangkun-riji]], II, 303), against "afternoon". Names: Mao Zedong, Deng Xiaoping, Peng Zhen, Kurahara Korehito, Yang Shangkun, Liao Chengzhi.'
     src:
       c: 55975a81
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Aug. 4, 1963: all'
         - 'w.yang-shangkun-riji II, 303: B-C'
         - 'w.deng-xiaoping-nianpu-1904 III, 1769: C'
+        - 'w.peng-zhen-nianpu-1902 IV, 286: ?'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1963-08-04T04:00Z
+      - 1963-08-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-08-04.china-leadership-2
     when: Aug. 4
     date: '1963-08-04'
@@ -573,7 +610,7 @@ entries:
     place: moscow
     thread: testing
     c: 'Treaty, [14 U.S.T. 1313](https://tile.loc.gov/storage-services/service/ll/lltreaties//lltreaties-14-2/lltreaties-14-2.pdf#page=57), [480 U.N.T.S. 43](https://treaties.un.org/doc/Publication/UNTS/Volume%20480/volume-480-I-6964-English.pdf), signed in Moscow by Rusk, Gromyko, and Home: no tests in the atmosphere, in outer space, or under water. U Thant and a Senate delegation present.'
-    n: 'Treaty (K–J Cong. II.J.2). [FRUS 1961–63, V, doc. 344](https://history.state.gov/historicaldocuments/frus1961-63v05/d344); [FRUS 1961–63, VII, doc. 359](https://history.state.gov/historicaldocuments/frus1961-63v07/d359). [[w.humphrey-education-of-a-public-1976]], 253 (the Senate delegation: Fulbright, Sparkman, Saltonstall, Aiken, Humphrey; Stevenson); [[w.solberg-hubert-humphrey]], 218 (the delegation to Moscow made bipartisan at Humphrey''s suggestion); [[w.rusk-as-i-saw-it-1990]], 257 (the signing); [[w.dobrynin-in-confidence]], 108 (signed at Moscow; Rusk present); [[w.sorensen-kennedy]], 737 & n.2 (a bipartisan group of Senators with Rusk; Dirksen and Hickenlooper refused to go; Stevenson excluded); [[w.reeves-president-kennedy]], 552 (Rusk leading the delegation, with senators of both parties and Stevenson; U Thant not named). See [[cal.1963-06-10.testing]]. Names: Rusk, Gromyko, Douglas-Home, U Thant.'
+    n: 'Treaty (K–J Cong. II.J.2). [FRUS 1961–63, V, doc. 344](https://history.state.gov/historicaldocuments/frus1961-63v05/d344); [FRUS 1961–63, VII, doc. 359](https://history.state.gov/historicaldocuments/frus1961-63v07/d359). [[w.humphrey-education-of-a-public-1976]], 253 (the Senate delegation: Fulbright, Sparkman, Saltonstall, Aiken, Humphrey; Stevenson); [[w.solberg-hubert-humphrey]], 218 (the delegation to Moscow made bipartisan at Humphrey''s suggestion); [[w.rusk-as-i-saw-it-1990]], 257 (the signing); [[w.dobrynin-in-confidence]], 108 (signed at Moscow; Rusk present); [[w.sorensen-kennedy]], 737 & n.2 (a bipartisan group of Senators with Rusk; Dirksen and Hickenlooper refused to go; Stevenson excluded); [[w.reeves-president-kennedy]], 552 (Rusk leading the delegation, with senators of both parties and Stevenson; U Thant not named); [[w.friedman-shadow-cold-war]], 103 (signed Aug. 5, 1963, as the split erupts in public; a centerpiece of Chinese propaganda for years). See [[cal.1963-06-10.testing]]. Names: Rusk, Gromyko, Douglas-Home, U Thant.'
     src:
       c: 31ad555d
       rows:
@@ -588,6 +625,7 @@ entries:
         - 'w.dobrynin-in-confidence 108: all'
         - 'w.sorensen-kennedy 737 & n.2: B'
         - 'w.reeves-president-kennedy 552: A, B'
+        - 'w.friedman-shadow-cold-war 103: ?'
     tags: [name:rusk-dean, name:gromyko-andrei, name:u-thant, name:douglas-home-alec]
     time_range:
       - 1963-08-05T06:00Z
@@ -1759,6 +1797,17 @@ entries:
       - 1963-08-11T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1963-08-11.china-leadership-5
+    when: Aug. 11
+    date: '1963-08-11'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真, on the report of the illness of Liu Ren 刘仁 and Zheng Tianxiang 郑天翔: the doctors'' views to be respected, too little heeded before.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 286. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 415483da
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 286: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1963-08-12.testing
     when: Aug. 12
     date: '1963-08-12'
@@ -2061,13 +2110,14 @@ entries:
     date: '1963-08-13'
     thread: china-leadership
     c: 'Zhou Enlai at the Secretariat, Aug. 13 and 14, on the 1964 national economic plan and other matters. On support for agriculture: "sprinkling pepper" leaves wide gaps and farming gets nothing direct. When Bo Yibo speaks of industrial and commercial losses he breaks in: losses planned are to be kept apart from losses of poor management. The meeting decides to set up a committee to draft the decision on industrial development under Deng Xiaoping, with Zhou, Peng Zhen, Li Fuchun, Li Xiannian and others.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 573 (Aug. 13–14, 1963); [[w.yang-shangkun-riji]], II, 305–306 (Aug. 13–14, 1963; the Secretariat, Aug. 13, 3:30 to 5 p.m.; Aug. 14, 3:30 to 6 p.m., on the 1964 plan; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1769 (Aug. 13–14, 1963; Deng presides at the Secretariat on Aug. 13, which decides to set up the Central Committee''s drafting committee on ''Questions of industrial development'' under Deng, with Zhou Enlai, Peng Zhen, Li Fuchun, Li Xiannian and others, and to set up the Ministry of the Aviation Industry and the Ministry of the Shipbuilding Industry; on the afternoon of the 14th, on the 1964 national economic plan, and decides to set up the Agricultural Bank 农业银行 to manage agricultural investment and loans). Made public: 1997. Names: Zhou Enlai, Bo Yibo, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 573 (Aug. 13–14, 1963); [[w.yang-shangkun-riji]], II, 305–306 (Aug. 13–14, 1963; the Secretariat, Aug. 13, 3:30 to 5 p.m.; Aug. 14, 3:30 to 6 p.m., on the 1964 plan; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1769 (Aug. 13–14, 1963; Deng presides at the Secretariat on Aug. 13, which decides to set up the Central Committee''s drafting committee on ''Questions of industrial development'' under Deng, with Zhou Enlai, Peng Zhen, Li Fuchun, Li Xiannian and others, and to set up the Ministry of the Aviation Industry and the Ministry of the Shipbuilding Industry; on the afternoon of the 14th, on the 1964 national economic plan, and decides to set up the Agricultural Bank 农业银行 to manage agricultural investment and loans); [[w.peng-zhen-nianpu-1902]], IV, 286 (Aug. 13, 1963; the Secretariat''s 362nd meeting; Peng Zhen there; a drafting committee of the Center''s decision on industrial development under Deng Xiaoping, with Zhou Enlai, Peng Zhen, Li Fuchun, Li Xiannian, Tan Zhenlin, Chen Boda, Luo Ruiqing, Yang Shangkun, Bo Yibo, Nie Rongzhen, Cheng Zihua, Li Xuefeng, Liu Lantao, Ke Qingshi, Li Jingquan, Tao Zhu and Song Renqiong; Ministries of Aviation Industry and Shipbuilding Industry set up; Aug. 14, afternoon, the 363rd: the 1964 plan; an Agricultural Bank to manage farm investment and loans). Made public: 1997. Names: Zhou Enlai, Bo Yibo, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian.'
     src:
       c: e04ba833
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 573: ?'
         - 'w.yang-shangkun-riji II, 305–306: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1769: D'
+        - 'w.peng-zhen-nianpu-1902 IV, 286: ?'
     tags: [polity:prc, name:zhou-enlai, name:bo-yibo, name:deng-xiaoping, name:peng-zhen, name:li-fuchun, name:li-xiannian, vis:only:prc]
   - id: cal.1963-08-13.china-leadership-3
     when: Aug. 13
@@ -2142,6 +2192,29 @@ entries:
       - 1963-08-13T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-08-13.china-leadership-8
+    when: Aug. 13
+    date: '1963-08-13'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真, on the report of Zhang Ziyi 张子意 on state organs'' leading cadres buying and selling cultural relics: to An Ziwen 安子文 and Zhang Ziyi, a few who know the trade and are fair to check it systematically and judge; the Ministry of Culture''s Party group has checked Zhang''s facts.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 286–287. The page''s note: Zhang Ziyi, deputy head of the Propaganda Department (IV, 286). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 31afe759
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 286–287: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1963-08-13.china-leadership-9
+    when: Aug. 13
+    date: '1963-08-13'
+    place: peking
+    thread: china-leadership
+    c: The Peking committee of the Party 中共北京市委 sends 2,800 cadres from organs, schools, factories and enterprises to the first batch of the rural "four clean-ups," about three months, after study at the committee's Party school of the Center's decision on rural work.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 287. Under Peng Zhen''s day; his part in the decision is not stated. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: c32c7962
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 287: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1963-08-14.opinion-5
     when: Aug. 14
     date: '1963-08-14'
@@ -3015,12 +3088,13 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking 北京, 10 a.m. to 1 p.m. The central meeting 中央会议 of the regional bureaus'' secretaries opens: Bo Yibo 薄一波 explains the plan for 1964.'
-    n: '[[w.yang-shangkun-riji]], II, 307 (Aug. 19, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1769–1770 (Aug. 19, 1963; 上午; Deng presides at the meeting of the Secretariat''s 书记处 members and the first secretaries of the regional bureaus, which hears Bo Yibo 薄一波 on the 1964 national economic plan). The words: 中央会议开始，由一波同志说明1964年计划 (II, 307). See [[cal.1963-08-13.china-leadership-3]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Bo Yibo.'
+    n: '[[w.yang-shangkun-riji]], II, 307 (Aug. 19, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1769–1770 (Aug. 19, 1963; 上午; Deng presides at the meeting of the Secretariat''s 书记处 members and the first secretaries of the regional bureaus, which hears Bo Yibo 薄一波 on the 1964 national economic plan); [[w.peng-zhen-nianpu-1902]], IV, 287 (Aug. 19, 1963, morning; Peng Zhen at the Center''s meeting of the Secretariat and the regional bureaus'' first secretaries, Deng Xiaoping presiding, Zhou Enlai and others there, hearing Bo Yibo on the 1964 plan). The words: 中央会议开始，由一波同志说明1964年计划 (II, 307). See [[cal.1963-08-13.china-leadership-3]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Bo Yibo.'
     src:
       c: 236565ec
       rows:
         - 'w.yang-shangkun-riji II, 307: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1769–1770: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 287: ?'
     tags: [polity:prc, name:bo-yibo, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1963-08-19.china-leadership-3
@@ -3192,7 +3266,7 @@ entries:
     date: '1963-08-20'
     thread: china-leadership
     c: 'Zhou Enlai at the drafting committee for the Central Committee''s decision "On Industrial Development," Aug. 20–24. Aug. 23 he agrees with Deng Xiaoping that "base on reality, look to the future" starts the line, with four additions: sum up fourteen years'' experience, plus and minus; estimate the present rightly, from a few basic figures; set a far aim, the four modernizations within twenty-three years or the twentieth century, not being first in the world; grasp China''s mark: large country, rich resources, many people, heavy task.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 574 (Aug. 20–24, 1963); [[w.yang-shangkun-riji]], II, 307 (Aug. 20, 1963; Aug. 20, 10 a.m. to noon, the industrial document''s drafting committee, Chen Boda explaining; Yang there); [[w.yang-shangkun-riji]], II, 308–309 (Aug. 21–24, 1963; the drafting committee: Aug. 21, 3 to 6:30 p.m., Ke Qingshi, Song Renqiong and Tao Zhu speak; Aug. 22, 3 to 6:30 p.m., Li Jingquan, Li Xuefeng and Liu Lantao; Aug. 23, 3 to 6 p.m., Peng Zhen and Zhou Enlai; Aug. 24, 3 to 6 p.m., Nie Rongzhen and Cheng Zihua; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1770 (Aug. 20–24, 1963; Deng presides at the meetings of the Central Committee''s drafting committee on industrial development; on the 20th says that the industrial line and plan must start from reality and consider the base of agriculture, industry and science and technology; urges, as a near goal, within five to seven years an independent industrial system on a national scale; the summary is in the *Selected Works of Deng Xiaoping*, vol. 1, as ''Base on reality, look to the future'' 《立足现实，放眼前途》). Continues 575. Made public: 1997. Names: Zhou Enlai, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 574 (Aug. 20–24, 1963); [[w.yang-shangkun-riji]], II, 307 (Aug. 20, 1963; Aug. 20, 10 a.m. to noon, the industrial document''s drafting committee, Chen Boda explaining; Yang there); [[w.yang-shangkun-riji]], II, 308–309 (Aug. 21–24, 1963; the drafting committee: Aug. 21, 3 to 6:30 p.m., Ke Qingshi, Song Renqiong and Tao Zhu speak; Aug. 22, 3 to 6:30 p.m., Li Jingquan, Li Xuefeng and Liu Lantao; Aug. 23, 3 to 6 p.m., Peng Zhen and Zhou Enlai; Aug. 24, 3 to 6 p.m., Nie Rongzhen and Cheng Zihua; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1770 (Aug. 20–24, 1963; Deng presides at the meetings of the Central Committee''s drafting committee on industrial development; on the 20th says that the industrial line and plan must start from reality and consider the base of agriculture, industry and science and technology; urges, as a near goal, within five to seven years an independent industrial system on a national scale; the summary is in the *Selected Works of Deng Xiaoping*, vol. 1, as ''Base on reality, look to the future'' 《立足现实，放眼前途》); [[w.peng-zhen-nianpu-1902]], IV, 287–288 (Aug. 20–24, 1963; Peng Zhen at the drafting committee of the decision on industrial development; Aug. 23, afternoon, he speaks: two steps, after the three years'' transition about ten years to a first independent and fairly complete system, then the long view; steel perhaps 20 million tons; the base first, farming, industry and science; food, clothing and goods, defense, the four modernizations and breakthroughs in advanced technique; industry held back because farming could not feed it; defense industry neglected until Chiang''s threat last year; fuel, materials, precision machines and large equipment; mining the base of heavy industry; balance across and along; enterprises run by economic means; series and standards; thrift, cash crops, light industry, exports; too many middle links; cadres to dig in; prices and wages). Continues 575. Made public: 1997. Names: Zhou Enlai, Deng Xiaoping.'
     src:
       c: 0b50579b
       rows:
@@ -3200,6 +3274,7 @@ entries:
         - 'w.yang-shangkun-riji II, 307: A'
         - 'w.yang-shangkun-riji II, 308–309: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1770: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 287–288: ?'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
   - id: cal.1963-08-20.china-leadership-2
     when: Aug. 20
@@ -3413,6 +3488,19 @@ entries:
       rows:
         - 'w.lich-su-khang-chien-chong-my III, 313: B'
     tags: [polity:rvn]
+  - id: cal.1963-08-21.china-leadership-2
+    when: Aug. 21
+    date: '1963-08-21'
+    thread: china-leadership
+    also: [africa, soviet-union]
+    c: 'The Chinese Party''s Central Committee to the Liaison Department, on Soviet policy in Guinea and Mali: both enacted a bourgeois reformist line; the Soviet Union "produced illusions about them," seeking in economics and politics to increase its attraction and control. The Soviet theory of the noncapitalist path and peaceful transition "preposterous"; socialist revolution in Africa still remote.'
+    n: '[[w.friedman-shadow-cold-war]], 79–81, 84–85. Made public: 2015. To check: Letter of CC CCP to Liaison Department on Soviet policy in Guinea and Mali, August 21, 1963, CFMA doc. 108-00897-01, 2 (cited by [[w.friedman-shadow-cold-war]], 79 n.75); Letter of CC CCP to Liaison Department on Soviet policy in Guinea and Mali, August 21, 1963, CFMA doc. 108-00897-01, 3 (cited by [[w.friedman-shadow-cold-war]], 79 n.77a); CC CCP Letter to Liaison Department on Soviet policy in Guinea and Mali, August 21, 1963, CFMA doc. 108-00897-01, 4–5 (cited by [[w.friedman-shadow-cold-war]], 80 n.89); Letter of CC CCP to Liaison Department on Soviet policy in Guinea and Mali, August 21, 1963, CFMA doc. 108-00897-01, 1 (cited by [[w.friedman-shadow-cold-war]], 84 n.102); Letter of CC CCP to Liaison Department on Soviet policy in Guinea and Mali, August 21, 1963, CFMA doc. 108-00897-01, 9 (cited by [[w.friedman-shadow-cold-war]], 84 n.105); Letter of CC CCP to Liaison Department on Soviet policy in Guinea and Mali, August 21, 1963, CFMA doc. 108-00897-01, 9–10 (cited by [[w.friedman-shadow-cold-war]], 85 n.109).'
+    src:
+      c: 93ab2c2b
+      rows:
+        - 'w.friedman-shadow-cold-war 79–81, 84–85: all'
+        - 'via x.1963-08-21.letter-ccp-liaison-department-soviet-policy-guinea: ?'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1963-08-22.open-housing
     when: Aug. 22
     date: '1963-08-22'
@@ -3743,12 +3831,18 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai attends the reception given by the Romanian Embassy's chargé d'affaires for the 19th anniversary of Romania's liberation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 369 (Aug. 23, 1963). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 369 (Aug. 23, 1963); [[w.peng-zhen-nianpu-1902]], IV, 288 (Aug. 23, 1963, evening; the Peking Hotel; Peng Zhen at the Romanian chargé d''affaires'' reception for the nineteenth anniversary of liberation). Names: Zhou Enlai.'
     src:
       c: e762885b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 369: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 288: ?'
     tags: [polity:prc, polity:romania, name:zhou-enlai]
+    time_range:
+      - 1963-08-23T11:00Z
+      - 1963-08-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-08-23.china
     when: Aug. 23
     date: '1963-08-23'
@@ -3992,6 +4086,23 @@ entries:
     c: Saigon. Some 1,200 students of the Polytechnic, 700 of the School of Pharmacy and over 1,200 of the Law School leave exams and classes, Aug. 24, and rally against the Diệm government. Aug. 25 several thousand students and pupils hold a large rally at the Bến Thành market; the police break it up, the student Quách Thị Trang killed, nearly 200 taken to the Quang Trung training center.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 313.'
     tags: [polity:rvn]
+  - id: cal.1963-08-24.china-leadership-2
+    when: Aug. 24
+    date: '1963-08-24'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 receives delegates of Ceylon, New Zealand, Ghana, the Sudan, Cameroon, Zanzibar and other countries, and other friends of peace, visiting China after the ninth World Conference against Atomic and Hydrogen Bombs at Hiroshima.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 288. The words: 下午 (IV, 288). Names: Peng Zhen.'
+    src:
+      c: a806ea4d
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 288: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1963-08-24T04:00Z
+      - 1963-08-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-08-25.opinion-5
     when: Aug. 25
     date: '1963-08-25'
@@ -4615,6 +4726,20 @@ entries:
       - 1963-08-27T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-08-27.china-leadership-7
+    when: Aug. 27
+    date: '1963-08-27'
+    place: rangoon
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'The Chinese Embassy in Burma to the Foreign Ministry: Ne Win would be neutral in the split, from want of understanding or Soviet influence; Zhou Enlai 周恩来 might at a fit time, after his trip to Africa, discuss the split''s true nature with him.'
+    n: '[[w.friedman-shadow-cold-war]], 117. Made public: 2015. To check: PRC embassy Burma to MFA, August 27, 1963, CFMA doc. 109-03342-02, 1 (cited by [[w.friedman-shadow-cold-war]], 117 n.68). Names: Zhou Enlai.'
+    src:
+      c: 34c2ea44
+      rows:
+        - 'w.friedman-shadow-cold-war 117: all'
+        - 'via x.1963-08-27.prc-embassy-burma-mfa-august-27-1963: ?'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai]
   - id: cal.1963-08-28.march-on-washington
     when: Aug. 28
     date: '1963-08-28'
@@ -4855,13 +4980,19 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Peking. Zhou Enlai goes to the airport to welcome Aidit, chairman of the Indonesian Communist Party's Central Committee, and its delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 369 (Aug. 28, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1771 (Aug. 28, 1963; Deng with Zhou Enlai and Peng Zhen at the airport welcoming the Indonesian Communist Party delegation under Aidit 艾地, chairman of its Central Committee). Names: Zhou Enlai, Aidit.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 369 (Aug. 28, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1771 (Aug. 28, 1963; Deng with Zhou Enlai and Peng Zhen at the airport welcoming the Indonesian Communist Party delegation under Aidit 艾地, chairman of its Central Committee); [[w.peng-zhen-nianpu-1902]], IV, 289 (Aug. 28, 1963, afternoon; Peng Zhen, with Zhou Enlai, Deng Xiaoping and others, at the airport welcoming Aidit, chairman of the Indonesian Communist Party, and his delegation). Names: Zhou Enlai, Aidit.'
     src:
       c: db70e000
       rows:
         - 'w.zhou-enlai-waijiao-huodong 369: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1771: B'
+        - 'w.peng-zhen-nianpu-1902 IV, 289: ?'
     tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:aidit-dipa-nusantara]
+    time_range:
+      - 1963-08-28T04:00Z
+      - 1963-08-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-08-28.china-leadership-2
     when: Aug. 28
     date: '1963-08-28'
@@ -4929,6 +5060,23 @@ entries:
       - 1963-08-28T11:00Z
       - 1963-08-28T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-08-28.china-leadership-6
+    when: Aug. 28
+    date: '1963-08-28'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 with Ke Qingshi 柯庆施, Liu Lantao 刘澜涛, Li Jingquan 李井泉, Tao Zhu 陶铸 and Song Renqiong 宋任穷 to talk.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 289. The words: 中午 (IV, 289). Made public: 2012. Names: Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
+    src:
+      c: 8dfeb382
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 289: all'
+    tags: [polity:prc, name:peng-zhen, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc]
+    time_range:
+      - 1963-08-28T04:00Z
+      - 1963-08-28T06:00Z
+    time_band: workday midday
     time_zone: Asia/Shanghai
   - id: cal.1963-08-29.testing
     when: Aug. 29
@@ -5209,6 +5357,20 @@ entries:
     c: Chen Yi 陈毅 cables his condolences to Shirley Graham 歇莉·格雷姆, Mrs. Du Bois, on the death of Dr. W. E. B. Du Bois.
     n: '[[w.chen-yi-nianpu]], 983. Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi, ok:fields-place]
+  - id: cal.1963-08-29.china-leadership-8
+    when: Aug. 29
+    date: '1963-08-29'
+    place: conakry
+    thread: china-leadership
+    also: [africa, soviet-union]
+    c: 'The Chinese Embassy in Guinea to the Foreign Ministry: Touré objects that the USSR, as first to build socialism, must be the only source of Marxist-Leninist thought.'
+    n: '[[w.friedman-shadow-cold-war]], 115. Made public: 2015. To check: PRC embassy Guinea to MFA, August 29, 1963, CFMA doc. 109-03342-03, 23 (cited by [[w.friedman-shadow-cold-war]], 115 n.59). Names: Touré.'
+    src:
+      c: f3d5973a
+      rows:
+        - 'w.friedman-shadow-cold-war 115: all'
+        - 'via x.1963-08-29.prc-embassy-guinea-mfa-august-29-1963: ?'
+    tags: [polity:prc, vis:only:prc, name:toure-ahmed-sekou]
   - id: cal.1963-08-30.testing
     when: Aug. 30
     date: '1963-08-30'
@@ -5471,7 +5633,7 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Peking. Zhou Enlai, with Liu Shaoqi, Zhu De and Deng Xiaoping, gives a banquet in welcome of Aidit and the Indonesian Communist Party delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 370 (Aug. 30, 1963); [[w.yang-shangkun-riji]], II, 310 (Aug. 30, 1963; 6:30 to 8 p.m., Liu Shaoqi, Zhou Enlai, Zhu De and others give Aidit and the Indonesian delegation a banquet; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1772 (Aug. 30, 1963; that evening, 同日晚; Deng with Liu Shaoqi, Zhou Enlai and Zhu De at the banquet welcoming the Indonesian Communist Party delegation); [[w.chen-yi-nianpu]], 983 (Aug. 30, 1963, evening; Chen Yi at the banquet for D. N. Aidit 迪·努·艾地 and the PKI delegation). Names: Zhou Enlai, Liu Shaoqi, Zhu De, Deng Xiaoping, Aidit.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 370 (Aug. 30, 1963); [[w.yang-shangkun-riji]], II, 310 (Aug. 30, 1963; 6:30 to 8 p.m., Liu Shaoqi, Zhou Enlai, Zhu De and others give Aidit and the Indonesian delegation a banquet; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1772 (Aug. 30, 1963; that evening, 同日晚; Deng with Liu Shaoqi, Zhou Enlai and Zhu De at the banquet welcoming the Indonesian Communist Party delegation); [[w.chen-yi-nianpu]], 983 (Aug. 30, 1963, evening; Chen Yi at the banquet for D. N. Aidit 迪·努·艾地 and the PKI delegation); [[w.peng-zhen-nianpu-1902]], IV, 289 (Aug. 30, 1963, evening; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping and others, at the banquet welcoming Aidit and his delegation). Names: Zhou Enlai, Liu Shaoqi, Zhu De, Deng Xiaoping, Aidit.'
     src:
       c: b807949e
       rows:
@@ -5479,6 +5641,7 @@ entries:
         - 'w.yang-shangkun-riji II, 310: A-B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1772: B'
         - 'w.chen-yi-nianpu 983: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 289: ?'
     tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:liu-shaoqi, name:zhu-de, name:deng-xiaoping, name:aidit-dipa-nusantara]
     time_range:
       - 1963-08-30T11:00Z

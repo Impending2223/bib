@@ -257,11 +257,12 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking, May Day. Yang Shangkun 杨尚昆, with Deng Xiaoping 邓小平 and Peng Zhen 彭真, at Jingshan 景山, the Working People''s Cultural Palace and the Workers'' Stadium: football and the table tennis exhibition, Zhuang Zedong 庄则栋 and Li Furong 李富荣 the best.'
-    n: '[[w.yang-shangkun-riji]], II, 1 (May 1, 1961; note 1: the two, champion and runner-up of the 26th World Championships). The words: 上午 (II, 1). Names: Yang Shangkun, Deng Xiaoping, Peng Zhen.'
+    n: '[[w.yang-shangkun-riji]], II, 1 (May 1, 1961; note 1: the two, champion and runner-up of the 26th World Championships); [[w.peng-zhen-nianpu-1902]], IV, 125 (May 1, 1961; Peng Zhen, with Dong Biwu, Deng Xiaoping and others, at the capital''s May Day garden parties). The words: 上午 (II, 1). Names: Yang Shangkun, Deng Xiaoping, Peng Zhen.'
     src:
       c: b60f0742
       rows:
         - 'w.yang-shangkun-riji II, 1: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 125: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen]
     time_range:
       - 1961-04-30T22:00Z
@@ -333,7 +334,7 @@ entries:
     place: peking
     thread: china-leadership
     c: The Peking Workers' Gymnasium 北京工人体育馆. Chen Yi 陈毅 at the victory meeting of the Peking trade unions, Youth League and Women's Federation for the Chinese men's and women's table tennis teams.
-    n: '[[w.chen-yi-nianpu]], 869. Names: Chen Yi.'
+    n: '[[w.chen-yi-nianpu]], 869; [[w.peng-zhen-nianpu-1902]], IV, 125 (May 1, 1961; Peng Zhen, with Dong Biwu, Deng Xiaoping and others, at the meeting of more than 15,000 of the capital celebrating the Chinese men''s and women''s table-tennis teams'' results at the 26th World Championships). Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi]
   - id: cal.1961-05-01.china-leadership-12
     when: May 1
@@ -341,7 +342,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Tiananmen 天安门, Peking 北京. Chen Yi 陈毅 on the gate tower for the festivities in the square and the fireworks.
-    n: '[[w.chen-yi-nianpu]], 869. The words: 晚上 (869). Names: Chen Yi.'
+    n: '[[w.chen-yi-nianpu]], 869; [[w.peng-zhen-nianpu-1902]], IV, 125 (May 1, 1961, evening; Peng Zhen, with Dong Biwu, Chen Yun, Deng Xiaoping and others, watches the May Day festivities and fireworks on the square from the rostrum with guests from more than fifty countries). The words: 晚上 (869). Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi]
     time_range:
       - 1961-05-01T11:00Z
@@ -454,14 +455,20 @@ entries:
     thread: china-leadership
     also: [laos, farm]
     c: At the Secretariat Zhou Enlai on the situation in Laos; the meeting decides that the Center's village inquiry teams go back to Peking by May 8 to give material to the drafting committee for the commune regulations.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 408 (May 2, 1961); [[w.yang-shangkun-riji]], II, 1 (May 2, 1961; the Secretariat at 5 p.m. on Laos; the Premier back); [[w.deng-xiaoping-nianpu-1904]], III, 1634 (May 2, 1961; afternoon; Deng presides, Zhou attends; international questions; the Center''s inquiry teams to be back by May 8 for the drafting committee). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 408 (May 2, 1961); [[w.yang-shangkun-riji]], II, 1 (May 2, 1961; the Secretariat at 5 p.m. on Laos; the Premier back); [[w.deng-xiaoping-nianpu-1904]], III, 1634 (May 2, 1961; afternoon; Deng presides, Zhou attends; international questions; the Center''s inquiry teams to be back by May 8 for the drafting committee); [[w.peng-zhen-nianpu-1902]], IV, 125 (May 2, 1961, afternoon; the 252nd meeting; Peng Zhen there, Zhou attending; the Geneva conference and Laos; the Center''s village investigation groups to be back in Peking by May 8 to give material to the regulations'' drafting committee). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: 233a4bce
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 408: ?'
         - 'w.yang-shangkun-riji II, 1: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1634: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 125: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1961-05-02T04:00Z
+      - 1961-05-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-05-02.china-leadership-4
     when: May 2
     date: '1961-05-02'
@@ -818,6 +825,24 @@ entries:
       - 1961-05-03T04:00Z
       - 1961-05-03T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-05-03.china-leadership-8
+    when: May 3
+    date: '1961-05-03'
+    place: peking
+    thread: china-leadership
+    also: [africa]
+    c: 'Peking 北京. Peng Zhen 彭真 meets Camara Moussa Sangiana 卡马拉·穆萨·桑吉亚纳, Guinea''s Ambassador: each nation has its strengths and something to learn from others; imperialism calls itself superior and the oppressed inferior.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 125. The words: 上午 (IV, 125). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: a9d6097e
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 125: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc+guinea]
+    time_range:
+      - 1961-05-02T22:00Z
+      - 1961-05-03T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1961-05-04.freedom-rides
     when: May 4
@@ -1178,12 +1203,13 @@ entries:
     time: 1961-05-03T19:00Z
     thread: china-leadership
     c: 'Mao drafts the Center''s notice putting off the Central Work Conference: the drafting committee to reach Peking May 15, the bureaus'' and the provincial, municipal and regional first secretaries and their assistants May 20, since some provinces asked a few days more for inquiry. 3 a.m., to Deng Xiaoping: consult the comrades in Peking; if agreed, send it by telegram.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 20–21 (May 4, 1961); [[w.mao-zedong-zhuan]], V, ch. 68 (May 4: a second notice puts the conference off to May 20). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 68); the text in full, 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 475–76 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.123b). Names: Mao Zedong, Deng Xiaoping.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 20–21 (May 4, 1961); [[w.mao-zedong-zhuan]], V, ch. 68 (May 4: a second notice puts the conference off to May 20). [[w.peng-zhen-nianpu-1902]], IV, 124 (May 4, 1961; the Center tells the regional bureaus and the first secretaries of the provinces, municipalities and regions to come to Peking on May 20 for the work conference, the drafting committee on the 15th, some provincial leaders having asked a few days'' delay). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 68); the text in full, 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: [[w.zedong-jianguo-yilai-mao-zedong]], 9, 475–76 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.123b). Names: Mao Zedong, Deng Xiaoping.'
     src:
       c: f7de377e
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 20–21: all'
         - 'w.mao-zedong-zhuan V, ch. 68: A'
+        - 'w.peng-zhen-nianpu-1902 IV, 124: ?'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
   - id: cal.1961-05-04.china-leadership-4
     when: May 4
@@ -1256,11 +1282,13 @@ entries:
     thread: china-leadership
     also: [farm]
     c: 'Shunyi 顺义. Deng Xiaoping 邓小平 and Peng Zhen 彭真 hear five of the Center''s inquiry teams and Liu Ren 刘仁 and others. Deng: the supply system by the 30–70 split not by class line, made help for the five-guarantee and hard-pressed households; distribution by work, three guarantees and one reward 三包一奖, work points, the fixed points ended; the mess hall voluntary, help either way.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1635 (May 4, 1961). Footnote 1: Liu Ren, then a secretary of the North China Bureau and second secretary in Peking; footnote 2: the one reward, for output above quota (III, 1635). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1635 (May 4, 1961); [[w.peng-zhen-nianpu-1902]], IV, 125 (May 4, 1961; at Shunyi Peng Zhen and Deng Xiaoping hear the Center''s five investigation groups); [[w.peng-zhen-nianpu-1902]], IV, 125–126 (May 4, 1961; with the Peking committee''s group, Liu Ren, Li Qi (the page''s note: head of the committee''s propaganda department) and the county secretaries; on the supply system Peng: two views, aid only for "five guarantee" and needy households, or keep supply at three to seven or two to eight; Liu Ren on Dahongmen 大红门 brigade, 1960: of 151 households 19 landlords and rich peasants and 55 who seldom worked took most of the 190,000 yuan; aid to three and three households would cost 1,500 yuan and raise the work point from 0.8 to over 1.3 yuan; Deng: supply against the class line, dropped; on mess halls Peng: "完全自由，完全自愿", 2 percent of the vegetable land to the mess hall, its accounts separate). Footnote 1: Liu Ren, then a secretary of the North China Bureau and second secretary in Peking; footnote 2: the one reward, for output above quota (III, 1635). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen.'
     src:
       c: 109cf10f
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1635: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 125: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 125–126: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
   - id: cal.1961-05-04.china-leadership-9
     when: May 4
@@ -2084,6 +2112,18 @@ entries:
       - 1961-05-07T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-05-07.china-leadership-10
+    when: May 7
+    date: '1961-05-07'
+    place: shunyi
+    thread: china-leadership
+    c: 'Shunyi 顺义. Peng Zhen 彭真 presides at the enlarged Peking municipal committee 北京市委, the suburban county and district secretaries sitting in, on adjusting commune policies: grain shared with public and private in mind, contracts and rations by the members'' delegates; the supply system dropped, "five guarantee" and needy households helped, martyrs'' families especially; three million pigs in the suburbs; waste land opened under the teams; handicrafts and sidelines revived (Shunyi town, over 10,000 people, one general store).'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 126–127. Made public: 2012. See [[cal.1961-04.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: 8e14b4a4
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 126–127: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1961-05-08.confirmations
     when: May 8
     date: '1961-05-08'
@@ -2350,6 +2390,31 @@ entries:
       - 1961-05-08T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-05-08.china-leadership-9
+    when: May 8
+    date: '1961-05-08'
+    place: huairou
+    thread: china-leadership
+    c: 'Huairou 怀柔. Peng Zhen 彭真 with the team heads and cadres of Yixiaohe 一小河, Fangezhuang 范各庄, Xisancun 西三村, Changyuan 长园 and Beizhai 北宅: the supply system ended, the "five guarantee" households, martyrs'' families, nursing mothers and children looked after; small waste plots opened by plan; animals and tools sold to the teams on credit; no fixed work points; "since the Zhengzhou conference we did not keep at it, two years late."'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 127–128. Made public: 2012. See [[cal.1961-04.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: 94b70a0d
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 127–128: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-05-08.soviet-union
+    when: May 8
+    date: '1961-05-08'
+    thread: soviet-union
+    also: [africa]
+    c: 'The presidium of the Soviet Afro-Asian Solidarity Committee: Africans take coexistence to mean the colonized must coexist with their colonizers, the Soviets to be against any war, and total disarmament to apply to Africa''s states and liberation movements; Soviet propaganda on local wars such as the FLN''s judged wholly insufficient.'
+    n: '[[w.friedman-shadow-cold-war]], 65. Made public: 2015. To check: SCSCAA Presidium session, May 8, 1961, GARF f.9540 o.1 d.81, 17–18 (cited by [[w.friedman-shadow-cold-war]], 65 n.15).'
+    src:
+      c: 2dc864f4
+      rows:
+        - 'w.friedman-shadow-cold-war 65: all'
+        - 'via x.1961-05-08.scscaa-presidium-session-may-8-1961: ?'
+    tags: [polity:ussr, vis:only:ussr]
   - id: cal.1961-05-09.press-and-broadcasting
     when: May 9
     date: '1961-05-09'
@@ -3004,11 +3069,12 @@ entries:
     thread: china-leadership
     also: [farm]
     c: 'Miyun 密云, near Peking 北京. Deng Xiaoping 邓小平 and Peng Zhen 彭真 on an inquiry; Deng to the local cadres: the county lives by its hills, trees and fruit to be grown fast; four levels of ownership, the state, brigade, team and the member, who may hold a hill of his own, untaxed, forever; plans for walnuts and chestnuts; fish in the Miyun reservoir; soil kept; no burning of hills to clear land.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1635 (May 10, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1635 (May 10, 1961); [[w.peng-zhen-nianpu-1902]], IV, 128 (May 10, 1961; Peng Zhen and Deng Xiaoping to Miyun county on the ownership of hills and quicker afforestation). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen.'
     src:
       c: e2562185
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1635: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 128: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
   - id: cal.1961-05-10.china-leadership-9
     when: May 10
@@ -3016,11 +3082,12 @@ entries:
     thread: china-leadership
     also: [farm]
     c: 'Deng Xiaoping 邓小平 and Peng Zhen 彭真 to Mao Zedong 毛泽东, by letter, on a month''s inquiry in Shunyi 顺义 and Huairou 怀柔: zeal much raised by the Twelve and Sixty Articles; communes of about 10,000, the brigade the village, teams of about fifty households with work groups; grain: most teams for nine-tenths bought and one kept of the contracted surplus, four and six above it; surplus shared by work points and manure; the supply system to go, only five-guarantee and hard-pressed households helped; three guarantees and one reward; mess halls left to the members, small, accounted apart; animals and tools to the teams; supply cooperatives, handicrafts and sidelines restored.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1636–1637 (May 10, 1961). Footnote 1: Peng''s team worked chiefly in Huairou (III, 1636). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen, Mao Zedong.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1636–1637 (May 10, 1961); [[w.peng-zhen-nianpu-1902]], IV, 128–129 (May 10, 1961; a letter; the communes and teams near Peking adjusted, communes of about 10,000, brigades by village, teams of about fifty households; grain bought nine tenths of the contract and four tenths of the surplus; the supply system "带有平均主义性质，害处很多", aid only for the "five guarantee" and needy; teams keeping "three contracts and a bonus" gained output every year; mess halls wholly voluntary, their accounts apart; tools and, at a price, animals to the teams; handicrafts, sidelines and supply cooperatives restored). Footnote 1: Peng''s team worked chiefly in Huairou (III, 1636). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen, Mao Zedong.'
     src:
       c: '55377067'
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1636–1637: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 128–129: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:mao-zedong, vis:only:prc]
   - id: cal.1961-05-10.china-leadership-10
     when: May 10
@@ -3063,6 +3130,17 @@ entries:
     c: Moscow 莫斯科. Kosygin, First Deputy Chairman of the Council of Ministers, gives a banquet for Chen Yi 陈毅.
     n: '[[w.chen-yi-nianpu]], 871. See [[cal.1961-05-09.china-leadership-2]]. Names: Kosygin, Chen Yi.'
     tags: [polity:prc, polity:ussr, name:chen-yi, name:kosygin-aleksei]
+  - id: cal.1961-05-10.china-leadership-12
+    when: May 10
+    date: '1961-05-10'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真, with Li Fuchun 李富春, Wang Heshou 王鹤寿, Duan Junyi 段君毅, Liu Lanbo 刘澜波, Xu Daben 徐达本, Luo Yuchuan 罗玉川, Sun Zhiyuan 孙志远, Gu Mu 谷牧, An Zhiwen 安志文, Yu Guangyuan 于光远 and others, on the location of coal, steel and timber production and transport: steel for variety and quality, not quantity this year; steel and machinery, coal and power stations placed together, dispersed for war; felling and planting together, the Yellow River basin to be afforested; construction cut back under the eight-character line; a month''s coal for the railways.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 129. The page''s note: Duan Junyi, then Minister of the First Machine-Building Ministry (IV, 129). Made public: 2012. Names: Peng Zhen, Li Fuchun, Sun Zhiyuan, Duan Junyi.'
+    src:
+      c: 57f94873
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 129: all'
+    tags: [polity:prc, name:peng-zhen, name:li-fuchun, name:sun-zhiyuan, vis:only:prc, name:duan-junyi]
   - id: cal.1961-05-11.vietnam
     when: May 11
     date: '1961-05-11'
@@ -3603,7 +3681,7 @@ entries:
     date: '1961-05-13'
     thread: china-leadership
     c: 'Mao sends round Deng Xiaoping''s and Peng Zhen''s telephone report of May 10 on a month''s inquiry near Peking, in Shunyi and Huairou: smaller communes and brigades have roused the members; most teams for nine-tenths of contracted output sold, one kept, and of the surplus four sold, six kept.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 13, 1961; [[w.macfarquhar-origins-of-the-cultural]], III, 49 (the Peking report of May 10, prepared by Deng Tuo); [[w.deng-xiaoping-nianpu-1904]], III, 1637 (May 13, 1961; Mao: "send this letter to the regional bureaus and the provincial, city and regional committees for reference"); [[w.mao-zedong-zhuan]], V, ch. 68 n.13 (May 13, Mao forwards Deng Xiaoping''s and Peng Zhen''s letter of May 10: five survey groups and the Peking committee''s working groups spent over a month at Shunyi and Huairou; the sizes of brigades and teams adjusted and the peasants'' zeal greatly raised). Made public: 2013. Check: the Deng nianpu (III, 1636–1637) gives Deng''s and Peng Zhen''s report of May 10 as a letter (致信), not a telephone report. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 68), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 302 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.71a); [[w.zhongguo-gongchan-dang-liushi]], 484 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.71b); [[w.peng-zei-huairou-diaocha]], passim, 25–26 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.71c); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 492–93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.72b); Deng Xiaoping 邓小平 and Peng Zhen 彭真, letter to Mao Zedong (original 原件), May 10, 1961, on the month''s survey at Shunyi and Huairou (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.13). Names: Mao Zedong, Deng Xiaoping, Peng Zhen.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 13, 1961; [[w.macfarquhar-origins-of-the-cultural]], III, 49 (the Peking report of May 10, prepared by Deng Tuo); [[w.deng-xiaoping-nianpu-1904]], III, 1637 (May 13, 1961; Mao: "send this letter to the regional bureaus and the provincial, city and regional committees for reference"); [[w.mao-zedong-zhuan]], V, ch. 68 n.13 (May 13, Mao forwards Deng Xiaoping''s and Peng Zhen''s letter of May 10: five survey groups and the Peking committee''s working groups spent over a month at Shunyi and Huairou; the sizes of brigades and teams adjusted and the peasants'' zeal greatly raised). [[w.peng-zhen-nianpu-1902]], IV, 129 (May 13, 1961; Mao''s comment: send the letter to the regional bureaus and the provincial committees for reference). Made public: 2013. Check: the Deng nianpu (III, 1636–1637) gives Deng''s and Peng Zhen''s report of May 10 as a letter (致信), not a telephone report. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 68), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.weizhong-zhonghua-renmin-gongheguo-jingji]], 302 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.71a); [[w.zhongguo-gongchan-dang-liushi]], 484 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.71b); [[w.peng-zei-huairou-diaocha]], passim, 25–26 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.71c); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 492–93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.72b); Deng Xiaoping 邓小平 and Peng Zhen 彭真, letter to Mao Zedong (original 原件), May 10, 1961, on the month''s survey at Shunyi and Huairou (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.13). Names: Mao Zedong, Deng Xiaoping, Peng Zhen.'
     src:
       c: 461617f5
       rows:
@@ -3617,6 +3695,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 49 n.72b: B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1637: ?'
         - 'w.mao-zedong-zhuan V, ch. 68 n.13: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 129: ?'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
     variants:
       - unit: A
@@ -3688,11 +3767,12 @@ entries:
     date: '1961-05-13'
     thread: china-leadership
     c: 'Deng Xiaoping 邓小平 presides at the Secretariat 书记处 on the Party''s fortieth anniversary, the revision of the draft Working Regulations and rectification in industry. Deng: in industry as in farming, begin with life, housing and welfare, then rational pay, by the masses'' debate, then responsibility; rectification without real questions solved dull; steel 16 million tons this year, 18 next.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1637–1638 (May 13, 1961). The words: 上午 (III, 1637). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1637–1638 (May 13, 1961); [[w.peng-zhen-nianpu-1902]], IV, 129 (May 13, 1961, morning; the 254th meeting; Peng Zhen there; preparations for the Party''s fortieth anniversary, the revision of the draft commune regulations, rectification in industry). The words: 上午 (III, 1637). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
     src:
       c: 72bb9c12
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1637–1638: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 129: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_range:
       - 1961-05-12T22:00Z
@@ -3825,13 +3905,14 @@ entries:
     thread: china-leadership
     also: [laos, farm]
     c: At the Secretariat, May 14–17, on grain and investigation; he studies the Geneva conference and grain and calls the officials concerned.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 411 (May 14, 1961); [[w.yang-shangkun-riji]], II, 26 (May 17, 1961; the Secretariat, morning to 1 p.m. and 3:30 to 6, hears the Center''s ten groups sent out; Hebei not reported); [[w.deng-xiaoping-nianpu-1904]], III, 1639 (May 15, 1961; afternoon; Deng presides at the Secretariat, Zhou and Chen Yun attending, hearing Chen Guodong 陈国栋 on grain). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 411 (May 14, 1961); [[w.yang-shangkun-riji]], II, 26 (May 17, 1961; the Secretariat, morning to 1 p.m. and 3:30 to 6, hears the Center''s ten groups sent out; Hebei not reported); [[w.deng-xiaoping-nianpu-1904]], III, 1639 (May 15, 1961; afternoon; Deng presides at the Secretariat, Zhou and Chen Yun attending, hearing Chen Guodong 陈国栋 on grain); [[w.peng-zhen-nianpu-1902]], IV, 130 (May 15, 1961, afternoon, the 255th meeting, hearing Chen Guodong on grain, Zhou and Chen Yun attending; May 17, the 256th, hearing the ten village investigation groups sent to Henan, Gansu, Shandong and Heilongjiang; Peng Zhen at both). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: 7e42cf5a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 411: ?'
         - 'w.yang-shangkun-riji II, 26: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1639: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 130: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-05-14.china-leadership-2
     when: May 14
@@ -4092,8 +4173,13 @@ entries:
     thread: china-leadership
     also: [laos]
     c: 'The enlarged Politburo Standing Committee, Mao presiding, on the villages and the Geneva conference on Laos: Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Boda, Liao Luyan, Tian Jiaying.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 15, 1961; [[w.deng-xiaoping-nianpu-1904]], III, 1639 (May 15, 1961; 5 p.m.; Deng at Mao''s enlarged Standing Committee on the villages and the Geneva conference on Laos). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Boda, Liao Luyan, Tian Jiaying.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 15, 1961; [[w.deng-xiaoping-nianpu-1904]], III, 1639 (May 15, 1961; 5 p.m.; Deng at Mao''s enlarged Standing Committee on the villages and the Geneva conference on Laos); [[w.peng-zhen-nianpu-1902]], IV, 130 (May 15, 1961, afternoon; Peng Zhen at Mao''s enlarged Standing Committee on the villages and the government delegation to the Geneva conference on Laos). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Boda, Liao Luyan, Tian Jiaying.'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:chen-boda, vis:only:prc]
+    time_range:
+      - 1961-05-15T04:00Z
+      - 1961-05-15T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-05-15.china-leadership-2
     when: May 15
     date: '1961-05-15'
@@ -5056,6 +5142,23 @@ entries:
       - 1961-05-18T13:00Z
     time_band: workday midday
     time_zone: Europe/Zurich
+  - id: cal.1961-05-18.china-leadership-8
+    when: May 18
+    date: '1961-05-18'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 calls Zhang Linzhi 张霖之, Ma Wenrui 马文瑞, Song Yangchu 宋养初 and others on coal and rectification in the coal industry.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 130. The words: 上午 (IV, 130). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: bce9125d
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 130: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1961-05-17T22:00Z
+      - 1961-05-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-05-19.civil-rights-the-executive
     when: May 19
     date: '1961-05-19'
@@ -5598,14 +5701,20 @@ entries:
     thread: china-leadership
     also: [economy]
     c: At the Secretariat Zhou Enlai hears Bo Yibo on the industry and transport symposium.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 411 (May 20, 1961); [[w.yang-shangkun-riji]], II, 27 (May 20, 1961; the Secretariat in the morning hears Bo Yibo on industry); [[w.deng-xiaoping-nianpu-1904]], III, 1640–1641 (May 20, 1961; morning; Deng presides, Zhou attends; Bo Yibo on the industry and transport symposium; to Bo''s view that a directive of principles will not do for industry, Deng: write the policies, responsibility, technique, wages). Made public: 1997. Names: Zhou Enlai, Bo Yibo.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 411 (May 20, 1961); [[w.yang-shangkun-riji]], II, 27 (May 20, 1961; the Secretariat in the morning hears Bo Yibo on industry); [[w.deng-xiaoping-nianpu-1904]], III, 1640–1641 (May 20, 1961; morning; Deng presides, Zhou attends; Bo Yibo on the industry and transport symposium; to Bo''s view that a directive of principles will not do for industry, Deng: write the policies, responsibility, technique, wages); [[w.peng-zhen-nianpu-1902]], IV, 130 (May 20, 1961, morning; the 257th meeting; Peng Zhen there, Zhou attending; Bo Yibo on the industry and transport symposium). Made public: 1997. Names: Zhou Enlai, Bo Yibo.'
     src:
       c: b932a1ce
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 411: ?'
         - 'w.yang-shangkun-riji II, 27: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1640–1641: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 130: ?'
     tags: [polity:prc, name:zhou-enlai, name:bo-yibo, vis:only:prc]
+    time_range:
+      - 1961-05-19T22:00Z
+      - 1961-05-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-05-20.china-leadership-3
     when: May 20
     date: '1961-05-20'
@@ -5819,7 +5928,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking, the Huairen Tang. The Central Work Conference, Mao presiding (put off from May 15; its order set by the enlarged Standing Committee that evening). The Sixty Articles revised: whether a team keeps a mess hall "wholly for the members to decide"; the supply part of distribution dropped. Rules adopted: nine measures to cut town population and grain sales (Zhou Enlai''s, June 6); repayment for levelling and transfers; forty articles on commerce, thirty-five on handicrafts, eighteen on forests. Twenty million fewer in the towns in three years, ten this year; steel for 1961 cut from 18 to 11 million tons. Mao, May 21: repayment, 80 or 90 percent by next spring, some 20 billion yuan in all.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 21, 1961 (the entries for May 21–June 12 and May 21; and June 6); [[w.zhou-enlai-nianpu-1949]], II, 414–15, May 21–June 12, 1961 (Zhou at the conference, with his speeches); [[w.macfarquhar-origins-of-the-cultural]], III, 61–62 (the three stages; the last days'' speeches by Zhou, Chen Yun and Li Xiannian); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 524 (May 21–June 12, 1961; Liu attends; the conference revises the draft commune regulations on the Center''s and the regions'' investigations, makes the nine measures on cutting the urban population and town grain sales, discusses commerce and handicrafts, and decides to review the cases of members and cadres criticized and punished in the last ten years); [[w.deng-xiaoping-nianpu-1904]], III, 1641 (May 21–June 12, 1961; Deng attends; the revised draft Working Regulations from the leaders'' inquiries; the nine measures to cut the town population, by over 20 million in three years, 10 million this year; steel for 1961 cut from 18 to 11 million tons; repayment, investigation, the mass line, rehabilitation and punishment; commerce and handicrafts); [[w.mao-zedong-zhuan]], V, ch. 68 (May 21 to June 12, the Central Work Conference at Peking; May 23–26 on four of Mao''s questions (investigation, the mass line, repayment, rehabilitation), May 29–30 the sixty articles revised, May 31 and June 1 grain, June 2, 3 and 5 forests, commerce and handicrafts, then the cities and industry briefly; the revised sixty articles drop the supply system and leave the mess hall to the members). [[w.yang-jisheng-mubei]], II, 1173 (the Central Work Conference, May 21–June 12, 1961, in Peking: Mao''s four questions, investigation, the mass line, refunds, rehabilitation; the Sixty Articles revised and adopted, the mess hall for the members to decide, the grain ration to households); [[w.brothers-in-arms]], 371, 374 (Zhou Enlai to Chervonenko, June 25, 1961: the Central Committee''s recent "working meeting" took up home questions; it recommended he work half days for his health). Made public: 1996. To check: [[w.mao-zedong-shuxin-xuanji]], 578, 580 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.123a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 475–76 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.123b); [[w.zhongguo-gongchan-dang-lici]], 148 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.123c); [[w.jiaoyanshi-zhongguo-gongchan-dang-qishi]], 487 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 62 n.125a); [[w.yuzhi-deng-xiaoping-jianshe-you]], 33 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 62 n.125b). Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 21, 1961 (the entries for May 21–June 12 and May 21; and June 6); [[w.zhou-enlai-nianpu-1949]], II, 414–15, May 21–June 12, 1961 (Zhou at the conference, with his speeches); [[w.macfarquhar-origins-of-the-cultural]], III, 61–62 (the three stages; the last days'' speeches by Zhou, Chen Yun and Li Xiannian); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 524 (May 21–June 12, 1961; Liu attends; the conference revises the draft commune regulations on the Center''s and the regions'' investigations, makes the nine measures on cutting the urban population and town grain sales, discusses commerce and handicrafts, and decides to review the cases of members and cadres criticized and punished in the last ten years); [[w.deng-xiaoping-nianpu-1904]], III, 1641 (May 21–June 12, 1961; Deng attends; the revised draft Working Regulations from the leaders'' inquiries; the nine measures to cut the town population, by over 20 million in three years, 10 million this year; steel for 1961 cut from 18 to 11 million tons; repayment, investigation, the mass line, rehabilitation and punishment; commerce and handicrafts); [[w.mao-zedong-zhuan]], V, ch. 68 (May 21 to June 12, the Central Work Conference at Peking; May 23–26 on four of Mao''s questions (investigation, the mass line, repayment, rehabilitation), May 29–30 the sixty articles revised, May 31 and June 1 grain, June 2, 3 and 5 forests, commerce and handicrafts, then the cities and industry briefly; the revised sixty articles drop the supply system and leave the mess hall to the members). [[w.yang-jisheng-mubei]], II, 1173 (the Central Work Conference, May 21–June 12, 1961, in Peking: Mao''s four questions, investigation, the mass line, refunds, rehabilitation; the Sixty Articles revised and adopted, the mess hall for the members to decide, the grain ration to households); [[w.brothers-in-arms]], 371, 374 (Zhou Enlai to Chervonenko, June 25, 1961: the Central Committee''s recent "working meeting" took up home questions; it recommended he work half days for his health); [[w.peng-zhen-nianpu-1902]], IV, 130 (May 21–June 12, 1961; Peng Zhen attends; the regulations revised and adopted on the leaders'' investigation, the supply system ended, mess halls "完全由社员讨论决定," voluntary, self-run, free to leave; the revised draft regulations, the "Forty Articles" on commerce and the "Thirty-five Articles" on handicrafts; nine measures to cut the urban population by over 20 million in three years, 10 million this year; this year''s steel cut from 18 million tons to 11 million; Peng meanwhile on coal and rectification with those concerned). Made public: 1996. To check: [[w.mao-zedong-shuxin-xuanji]], 578, 580 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.123a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 475–76 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.123b); [[w.zhongguo-gongchan-dang-lici]], 148 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.123c); [[w.jiaoyanshi-zhongguo-gongchan-dang-qishi]], 487 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 62 n.125a); [[w.yuzhi-deng-xiaoping-jianshe-you]], 33 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 62 n.125b). Names: Mao Zedong, Zhou Enlai.'
     src:
       c: 6953f8f3
       rows:
@@ -5837,6 +5946,7 @@ entries:
         - 'w.yang-jisheng-mubei II, 1173: B, C'
         - 'w.brothers-in-arms 371, 374: ?'
         - 'via x.1961-06-25.chervonenko-zhou-record-avprf: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 130: ?'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-05-21.china
     when: May 21
@@ -5858,11 +5968,12 @@ entries:
     thread: china-leadership
     also: [africa-algeria-morocco]
     c: Peking Hotel 北京饭店, noon. Peng Zhen 彭真 gives a lunch for the Algerian Communist Party's delegation; Yang Shangkun 杨尚昆 present.
-    n: '[[w.yang-shangkun-riji]], II, 28 (May 21, 1961). The words: 12时 (II, 28). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 28 (May 21, 1961); [[w.peng-zhen-nianpu-1902]], IV, 131 (May 21, 1961, noon; Peng Zhen gives a lunch for the Algerian Communist Party''s delegation). The words: 12时 (II, 28). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun.'
     src:
       c: 96737bd9
       rows:
         - 'w.yang-shangkun-riji II, 28: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 131: ?'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1961-05-21.china-leadership-4
@@ -5906,12 +6017,18 @@ entries:
     date: '1961-05-21'
     thread: china-leadership
     c: 'Peng Zhen 彭真 telephones Yang Shangkun 杨尚昆: the Standing Committee has decided the Central Work Conference reads documents in the mornings and meets in groups in the afternoons, three days from the 22nd.'
-    n: '[[w.yang-shangkun-riji]], II, 28 (May 21, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-05-21.china-leadership]]. Names: Peng Zhen, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 28 (May 21, 1961); [[w.peng-zhen-nianpu-1902]], IV, 131 (May 21, 1961, evening; Peng Zhen tells Yang Shangkun by telephone that the Standing Committee has decided that for three days from the 22nd the conference reads papers in the morning and meets in groups in the afternoon). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-05-21.china-leadership]]. Names: Peng Zhen, Yang Shangkun.'
     src:
       c: '97192181'
       rows:
         - 'w.yang-shangkun-riji II, 28: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 131: ?'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1961-05-21T11:00Z
+      - 1961-05-21T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-05-21.china-leadership-7
     when: May 21
     date: '1961-05-21'
@@ -6358,7 +6475,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'The Yinian Tang. The enlarged Standing Committee with the regional first secretaries, Mao presiding. Repayment, in one year or two or three: "Marxism cannot expropriate the laborer"; 20 billion yuan taken from the peasants; without full repayment the communes no red flag; the Communist Party to act as one "after all."'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 23, 1961; [[w.deng-xiaoping-nianpu-1904]], III, 1641 (May 23, 1961; afternoon; Deng at Mao''s enlarged Standing Committee with the regional first secretaries; Mao on full repayment). Made public: 2013. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 23, 1961; [[w.deng-xiaoping-nianpu-1904]], III, 1641 (May 23, 1961; afternoon; Deng at Mao''s enlarged Standing Committee with the regional first secretaries; Mao on full repayment); [[w.peng-zhen-nianpu-1902]], IV, 131 (May 23, 1961; Peng Zhen at Mao''s enlarged Standing Committee with the regional first secretaries; Mao on full repayment). Made public: 2013. Names: Mao Zedong.'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1961-05-23.china-leadership-2
     when: May 23
@@ -7205,11 +7322,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peng Zhen 彭真, with An Ziwen 安子文 and Yang Shangkun 杨尚昆, on rehabilitating cadres wrongly dealt with and reorganizing the Party committee of the organs under the Center 中直党委.
-    n: '[[w.yang-shangkun-riji]], II, 33–34 (May 26, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, An Ziwen, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 33–34 (May 26, 1961); [[w.peng-zhen-nianpu-1902]], IV, 131 (May 26, 1961; Peng Zhen calls Yang Shangkun and An Ziwen on rehabilitating cadres wrongly dealt with). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, An Ziwen, Yang Shangkun.'
     src:
       c: aa59f4db
       rows:
         - 'w.yang-shangkun-riji II, 33–34: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 131: ?'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1961-05-26.china-leadership-5
     when: May 26
@@ -7381,13 +7499,14 @@ entries:
     thread: china-leadership
     also: [farm]
     c: Zhou Enlai at Deng Xiaoping's meeting with Chen Yun, Peng Zhen, Li Fuchun, Li Xiannian, Tan Zhenlin, Bo Yibo and Yang Shangkun, on grain for the second quarter and the 1961–62 grain year.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 412 (May 28, 1961); [[w.yang-shangkun-riji]], II, 37 (May 28, 1961; the Secretariat, 4 to 7 p.m., on grain); [[w.deng-xiaoping-nianpu-1904]], III, 1641 (May 28, 1961; afternoon; Deng presides at the Secretariat on grain for the third quarter and 1961–62; Zhou and Chen Yun attend). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping, Chen Yun, Peng Zhen, Li Fuchun, Li Xiannian, Tan Zhenlin, Bo Yibo.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 412 (May 28, 1961); [[w.yang-shangkun-riji]], II, 37 (May 28, 1961; the Secretariat, 4 to 7 p.m., on grain); [[w.deng-xiaoping-nianpu-1904]], III, 1641 (May 28, 1961; afternoon; Deng presides at the Secretariat on grain for the third quarter and 1961–62; Zhou and Chen Yun attend); [[w.peng-zhen-nianpu-1902]], IV, 131 (May 28, 1961; Peng Zhen at Deng''s meeting, with Zhou Enlai, Chen Yun, Li Fuchun, Li Xiannian, Tan Zhenlin, Bo Yibo and Yang Shangkun, on grain in the third quarter and in 1961–62). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping, Chen Yun, Peng Zhen, Li Fuchun, Li Xiannian, Tan Zhenlin, Bo Yibo.'
     src:
       c: 48b3dfee
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 412: ?'
         - 'w.yang-shangkun-riji II, 37: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1641: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 131: ?'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:chen-yun, name:peng-zhen, name:li-fuchun, name:li-xiannian, name:tan-zhenlin, name:bo-yibo, vis:only:prc]
   - id: cal.1961-05-28.china-leadership-2
     when: May 28
@@ -7466,6 +7585,18 @@ entries:
     c: Chen Yi 陈毅 at 童湖 and 御鲁巴黑, as the nianpu prints them; writes poems, 《童湖湖畔即景》, 《童湖赴御鲁巴黑道中》 and others.
     n: '[[w.chen-yi-nianpu]], 874. Names: Chen Yi.'
     tags: [polity:prc, polity:switzerland, name:chen-yi, ok:fields-place]
+  - id: cal.1961-05-28.china-leadership-7
+    when: May 28
+    date: '1961-05-28'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真, with Chen Yun 陈云, Deng Xiaoping 邓小平, Li Fuchun 李富春, Li Xiannian 李先念 and others, to Zhou Enlai's 周恩来 on grain.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 131. Made public: 2012. Names: Peng Zhen, Chen Yun, Deng Xiaoping, Li Fuchun, Li Xiannian, Zhou Enlai.'
+    src:
+      c: bcfd5f6b
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 131: all'
+    tags: [polity:prc, name:peng-zhen, name:chen-yun, name:deng-xiaoping, name:li-fuchun, name:li-xiannian, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-05-29.court
     when: May 29
     date: '1961-05-29'
@@ -7940,6 +8071,18 @@ entries:
       - 1961-05-30T13:00Z
     time_band: workday midday
     time_zone: Europe/Zurich
+  - id: cal.1961-05-30.china-leadership-6
+    when: May 30
+    date: '1961-05-30'
+    place: peking
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 revises the Public Security Ministry''s 公安部 draft "Important notice on security in the summer harvest": in hard times the two kinds of contradiction kept strictly apart; collective concealment and private sharing out of grain, and the members'' grabbing, for the communes'' Party committees, not the police; sabotage by counterrevolutionaries, landlords and rich peasants and habitual thieves for the police under the Party committee; whole teams raiding another''s granary to be settled by the mass line, not by dictatorship.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 131. Made public: 2012. To check: 公安部《关于夏收安全工作的重要通知》 (draft; named by [[w.peng-zhen-nianpu-1902]], IV, 131). Names: Peng Zhen.'
+    src:
+      c: 880efb03
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 131: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1961-05-31.states-and-cities
     when: May 31
     date: '1961-05-31'
@@ -8763,13 +8906,19 @@ entries:
     thread: china-leadership
     also: [farm]
     c: 'At the Central Work Conference Zhou Enlai reports on grain and on cutting the city population: grain still tight, stocks at the minimum, 1961–62 tight too; the basic way to send city people back to the villages, "from where they came, back there"; cut the workforce without harming construction. The question is speed: slow the building, shorten the front, raise productivity, grow the village economy.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 412 (May 31, 1961); [[w.yang-shangkun-riji]], II, 38 (May 31, 1961; the conference enlarged, 10 a.m. to 1 and 3:30 to 6, in the back hall of the Huairen Tang, with the heads of the Party, government, army and mass bodies; Zhou''s report on grain). Made public: 1997. Check: Yang Shangkun''s diary has Deng Xiaoping and Zhu De speak too at the enlarged session, 10 a.m. to 1 and 3:30 to 6, the Huairen Tang''s back hall ([[w.yang-shangkun-riji]], II, 38); a time field. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 412 (May 31, 1961); [[w.yang-shangkun-riji]], II, 38 (May 31, 1961; the conference enlarged, 10 a.m. to 1 and 3:30 to 6, in the back hall of the Huairen Tang, with the heads of the Party, government, army and mass bodies; Zhou''s report on grain); [[w.peng-zhen-nianpu-1902]], IV, 131–132 (May 31, 1961, afternoon; Peng Zhen at the plenary, Liu Shaoqi presiding, hearing Zhou on grain and cutting the urban population). Made public: 1997. Check: Yang Shangkun''s diary has Deng Xiaoping and Zhu De speak too at the enlarged session, 10 a.m. to 1 and 3:30 to 6, the Huairen Tang''s back hall ([[w.yang-shangkun-riji]], II, 38); a time field. Names: Zhou Enlai.'
     src:
       c: ebe6771b
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 412: ?'
         - 'w.yang-shangkun-riji II, 38: A'
+        - 'w.peng-zhen-nianpu-1902 IV, 131–132: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1961-05-31T04:00Z
+      - 1961-05-31T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-05.soviet-union
     when: May
     date: 1961-05
@@ -9019,3 +9168,28 @@ entries:
     c: Nearly 200 delegates of 22 peoples of the Central Highlands and the people of the southern provinces of Central Vietnam hold a congress in mid-May to welcome the Front's declaration and program and call for struggle against the Americans and Diệm.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 144. Names: Ngô Đình Diệm. Check: the day and the place.'
     tags: [polity:drv, name:ngo-dinh-diem]
+  - id: cal.1961-05.soviet-union-3
+    when: May
+    date: 1961-05
+    thread: soviet-union
+    also: [africa]
+    c: Karen Brutents joins the newly formed Africa sector of the Central Committee's International Department, in charge of the formerly British colonies of West Africa. By his account only two or three Africanists could be found in the Soviet Union; the sector's head an expert on Greece and Albania with no English, French or African language.
+    n: '[[w.friedman-shadow-cold-war]], 31. Made public: 1998. To check: [[w.brutents-tridtsat-let-na-staroi]], 197–98 (cited by [[w.friedman-shadow-cold-war]], 31 n.18).'
+    src:
+      c: 528c9620
+      rows:
+        - 'w.friedman-shadow-cold-war 31: all'
+    tags: [polity:ussr, vis:only:ussr]
+  - id: cal.1961-05.soviet-union-4
+    when: May
+    date: 1961-05
+    thread: soviet-union
+    also: [africa]
+    c: 'Boris Ponomarev, head of the CPSU International Department, "O gosudarstve natsional''noi demokratii," in *Kommunist* (no. 8): a state of national democracy to include freedom of speech, press and assembly and the right to form parties; no true independence without the liquidation of foreign monopolies and a strong national economy, heavy industry above all; the UAR, with Pakistan, an example of reactionary forces using dictatorial means; its processes arise from the contradictory interests of classes.'
+    n: '[[w.friedman-shadow-cold-war]], 73, 79–80, 132. To check: Boris Ponomarev, “O Gosudarstve Natsional’noĭ Demokratii,” Kommunist 8 (May 1961): 45 (cited by [[w.friedman-shadow-cold-war]], 73 n.47); Boris Ponomarev, “O Gosudarstve Natsional’noĭ Demokratii,” Kommunist 8 (May 1961): 45, 44 (cited by [[w.friedman-shadow-cold-war]], 73 n.48); Ponomarev, “O Gosudarstve Natsional’noĭ Demokratii,” 34 (cited by [[w.friedman-shadow-cold-war]], 73 n.49); Boris Ponamarev, “O Gosudarstve Natsional’noĭ Demokratii,” 42 (cited by [[w.friedman-shadow-cold-war]], 80 n.82); Boris Ponomarev, “O Gosudarstve Natsional’noĭ Demokratii,” Kommunist 8 (1961): 44, 44 (cited by [[w.friedman-shadow-cold-war]], 132 n.143). Names: Ponomarev.'
+    src:
+      c: 4c2a9362
+      rows:
+        - 'w.friedman-shadow-cold-war 73, 79–80, 132: all'
+        - 'via x.1961-05.boris-ponomarev-gosudarstve-natsionalnoi-demokratii-kommunist-8: ?'
+    tags: [polity:ussr, name:ponomarev-boris-n]

@@ -368,6 +368,35 @@ entries:
       - 1963-11-01T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1963-11-01.china-leadership-6
+    when: Nov. 1
+    date: '1963-11-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 meets and gives a dinner for 让·杜维阿萨, a Belgian senator and former minister.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 297. Names: Peng Zhen.'
+    src:
+      c: 5b8bcf84
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 297: all'
+    tags: [polity:prc, name:peng-zhen]
+  - id: cal.1963-11-01.china-leadership-7
+    when: Nov. 1
+    date: '1963-11-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 meets the Ceylonese parliamentary delegation under S. D. Bandaranaike.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 297. The words: 下午 (IV, 297). Names: Peng Zhen, Bandaranaike.'
+    src:
+      c: fe146759
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 297: all'
+    tags: [polity:prc, name:peng-zhen, name:bandaranaike-srimavo]
+    time_range:
+      - 1963-11-01T04:00Z
+      - 1963-11-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-11-02.mississippi-ms
     when: Nov. 2–4
     date: '1963-11-02'
@@ -732,6 +761,17 @@ entries:
       - 1963-11-03T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1963-11-03.china-leadership-4
+    when: Nov. 3
+    date: '1963-11-03'
+    thread: china-leadership
+    c: Peng Zhen 彭真 reviews the *Renmin ribao* 人民日报 editorial "Hail the great victory in again wiping out the U.S.–Chiang armed agents" 《祝再次全歼美蒋武装特务的重大胜利》, printed on the 5th.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 297. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: eb02b628
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 297: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1963-11-04.economy
     when: Nov. 4
     date: '1963-11-04'
@@ -1552,13 +1592,14 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai attends the reception given by the Soviet Ambassador, Chervonenko, for the anniversary of the October Revolution.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 376 (Nov. 7, 1963); [[w.yang-shangkun-riji]], II, 325 (Nov. 7, 1963; the Soviet embassy''s reception for the forty-sixth anniversary of the October Revolution, 6 to 8 p.m.; Yang there); [[w.chen-yi-nianpu]], 994 (Nov. 7, 1963, evening, the embassy; Chen Yi toasts at Chervonenko''s reception). Names: Zhou Enlai, Chervonenko.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 376 (Nov. 7, 1963); [[w.yang-shangkun-riji]], II, 325 (Nov. 7, 1963; the Soviet embassy''s reception for the forty-sixth anniversary of the October Revolution, 6 to 8 p.m.; Yang there); [[w.chen-yi-nianpu]], 994 (Nov. 7, 1963, evening, the embassy; Chen Yi toasts at Chervonenko''s reception); [[w.peng-zhen-nianpu-1902]], IV, 297 (Nov. 7, 1963, evening; Peng Zhen, with Zhou Enlai, Chen Yi and others, at the Soviet Ambassador Chervonenko''s reception for the forty-sixth anniversary). Names: Zhou Enlai, Chervonenko.'
     src:
       c: ae91e085
       rows:
         - 'w.zhou-enlai-waijiao-huodong 376: all'
         - 'w.yang-shangkun-riji II, 325: A-B'
         - 'w.chen-yi-nianpu 994: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 297: ?'
     tags: [name:chervonenko-stepan-v, polity:prc, polity:ussr, name:zhou-enlai]
     time_range:
       - 1963-11-07T11:00Z
@@ -1772,6 +1813,18 @@ entries:
       - 1963-11-08T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-11-08.china-leadership-6
+    when: Nov. 8
+    date: '1963-11-08'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 meets Aranit Çela, Prosecutor-General of the Albanian People's Republic, and Sofokli Papavasili, inspector of the Albanian Party of Labor's Central Committee.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 297. Names: Peng Zhen.'
+    src:
+      c: c3ba6fb7
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 297: all'
+    tags: [polity:prc, name:peng-zhen]
   - id: cal.1963-11-09.state-constitutions-tx
     when: Nov. 9
     date: '1963-11-09'
@@ -1885,12 +1938,13 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking 北京, 5 p.m. The Secretariat 书记处 on the report to the National People''s Congress, the policies of the rural socialist education movement and other papers: the members of the Central Committee in Peking to be put in groups and discuss them for two days, from Monday.'
-    n: '[[w.yang-shangkun-riji]], II, 325 (Nov. 9, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1777 (Nov. 9, 1963; afternoon, 下午; Deng presides at the Secretariat on the draft report to the Fourth Session of the Second NPC and questions of the Latter Ten Points). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], II, 325 (Nov. 9, 1963); [[w.deng-xiaoping-nianpu-1904]], III, 1777 (Nov. 9, 1963; afternoon, 下午; Deng presides at the Secretariat on the draft report to the Fourth Session of the Second NPC and questions of the Latter Ten Points); [[w.peng-zhen-nianpu-1902]], IV, 297 (Nov. 9, 1963; the Secretariat''s 367th meeting; Peng Zhen there; the Standing Committee''s decision told: an enlarged Politburo on Nov. 13 on the draft provisions on rural socialist education and the reports for the NPC''s fourth session). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: 7339ec44
       rows:
         - 'w.yang-shangkun-riji II, 325: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1777: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 297: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1963-11-09.china-leadership-5
@@ -2054,6 +2108,18 @@ entries:
       - 1963-11-10T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1963-11-10.china-leadership-5
+    when: Nov. 10
+    date: '1963-11-10'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 reports to the Peking committee''s 中共北京市委 work conference: Peking''s work held to the highest attainable standard, the general line''s, the capital to lead; the worst enemy self-content; the capital''s assets, the Center, the universities, the institutes, too little used; its drawbacks, many organs and non-productive people, foreign guests, breeding officialdom and show; leaders to go down and labor; industry measured against the world''s best; 27 suburban communes past 400 jin a mu, Nanhanjizhuang 南韩继 brigade of Fangshan 房山 over 800; a pig a head; greening and sidelines; men to be re-educated and the ranks regrouped; art to reflect present struggle, the plays first, old plays reformed; cadres to read *The State and Revolution*, *The Proletarian Revolution and the Renegade Kautsky*, the *Manifesto*, the *Critique of the Gotha Program*, Stalin on the opposition.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 297–299. Made public: 2012. Names: Peng Zhen, Stalin.'
+    src:
+      c: cdea7d8f
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 297–299: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:stalin-joseph]
   - id: cal.1963-11-11.poverty
     when: Nov. 11
     date: '1963-11-11'
@@ -2538,6 +2604,23 @@ entries:
       - 1963-11-13T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1963-11-13.china-leadership-3
+    when: Nov. 13
+    date: '1963-11-13'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at the second NPC Standing Committee's 全国人大常委会 107th session, Zhu De 朱德 presiding, reports the drafts of the procedure, agenda and presidium of the NPC's fourth session.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 299. The words: 上午 (IV, 299). Names: Peng Zhen, Zhu De.'
+    src:
+      c: 0414807e
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 299: all'
+    tags: [polity:prc, name:peng-zhen, name:zhu-de]
+    time_range:
+      - 1963-11-12T22:00Z
+      - 1963-11-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1963-11-14.state-and-city-finance-mi
     when: Nov. 14
     date: '1963-11-14'
@@ -2682,7 +2765,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Huairen Hall. The enlarged Politburo, Liu Shaoqi presiding, adopts the Central Committee''s "Some concrete policies in the rural socialist education movement (draft)" (the "Later Ten Points") and its notice on printing and publicizing the two rural documents, a revision of Mao''s draft of Oct. 25: the May 20 and September drafts to go to every rural branch, two copies each, and to be read to all Party members and peasants, in factories, offices, schools and streets, to the democratic parties, the army and police, and to the landlords, rich peasants, counter-revolutionaries, bad elements and rightists. Sent out Nov. 18.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 14, 1963. [[w.zhou-enlai-nianpu-1949]], II, 594 (Nov. 14, 1963: Zhou Enlai at the enlarged Politburo, which adopts the draft Provisions on some concrete policies in the rural socialist education movement and the drafts of the reports on the 1963 plan and 1964 draft plan and on the 1963 budget and the first arrangement of the 1964 budget, to be revised by the Standing Committee and given by Li Fuchun and Li Xiannian at the Fourth Session of the Second NPC; the same day the Center issues a notice on printing and publicizing the "First Ten Points" and the "Later Ten Points"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 584–585 (Nov. 14, 1963; Liu presides at the enlarged Politburo meeting, which also adopts in principle the reports to the Fourth Session of the Second NPC on the 1963 plan and the 1964 draft plan and on the 1963 budget and the first arrangement of the 1964 budget, and hears Peng Zhen on the session''s opening and the election of deputies to the next NPC; Liu conveys the two measures against modern revisionism agreed with Mao at Hangzhou); [[w.jianguo-yilai-mao-zedong]], XVII, 81–82, 85–86 (Nov. 14, 1963; the notice as printed from the Central Committee''s text, dated Nov. 14; note 1 gives its drafting Oct. 25, Mao''s and others'' revision, and settling of the text Nov. 16, the date left at Nov. 14); [[w.macfarquhar-origins-of-the-cultural]], III, 344–47 (the Politburo under Liu passes the document, issued with Mao''s leave: praise of Mao and the Former Ten Points; unity with over 95 percent of peasants and cadres; work teams from above to rectify cadres; no general reclassification of peasants); [[w.yang-shangkun-riji]], II, 327 (Nov. 14, 1963; the enlarged Politburo, 3 to 5 p.m., adopts the rural papers (the First and Later Ten Points, drafts, and the notice on printing them, the editors note) and matters of the NPC; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1777–1778 (Nov. 14, 1963; afternoon, 下午; Deng at the enlarged Politburo meeting Liu Shaoqi presides over, which adopts the Latter Ten Points and the notice on the two documents, approves in principle the reports for the NPC session on the 1963 plan, the 1964 plan draft and the budgets, and hears Peng Zhen on the NPC session and the election of the next NPC''s deputies); [[w.mao-zedong-zhuan]], VI, ch. 72 (Nov. 14 Liu presides at the enlarged Politburo, which finally passes the Latter Ten Points, sent down with Mao''s notice). Made public: 1996. Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 10 (1996). To check: the notice and the two drafts, Nov. 18, 1963; Central Committee, Decision on some current problems in rural work (draft), the "First Ten Points," issued May 20, 1963 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 86 n.6); Central Committee, Provisions on some concrete policies in the rural socialist education movement (draft), the "Later Ten Points," Sept. 1963 (first titled "Some concrete policy questions in the rural socialist education movement"; retitled Nov. 14, 1963) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 85 n.3); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1112 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 344 n.56a); [[w.zedong-jianguo-yilai-mao-zedong]], 10, 386–93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 344 n.56f); CCP CC, Some concrete policy formulations in the rural socialist education movement (the Latter Ten Points), Nov. 1963, in [[w.baum-ssu-ching]], 72, 73, 75, 76, 78 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 345 n.57a); [[w.jin-1949-1989-niande-zhongguo]], 531 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 345 n.57b); [[w.baum-ssu-ching]], 63, 70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 345 n.64); the Central Committee''s "Decision on some questions of present rural work (draft)" (cited by [[w.yang-shangkun-riji]], II, 327 n.1a); the Central Committee''s "Provisions on some concrete policies in the rural socialist education movement (draft)" (cited by [[w.yang-shangkun-riji]], II, 327 n.1b); the Central Committee''s notice of Nov. 14, 1963, on printing and publicizing the two documents (cited by [[w.yang-shangkun-riji]], II, 327 n.1c). See [[cal.1963-10-25.china-leadership]]. Names: Liu Shaoqi, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 14, 1963. [[w.zhou-enlai-nianpu-1949]], II, 594 (Nov. 14, 1963: Zhou Enlai at the enlarged Politburo, which adopts the draft Provisions on some concrete policies in the rural socialist education movement and the drafts of the reports on the 1963 plan and 1964 draft plan and on the 1963 budget and the first arrangement of the 1964 budget, to be revised by the Standing Committee and given by Li Fuchun and Li Xiannian at the Fourth Session of the Second NPC; the same day the Center issues a notice on printing and publicizing the "First Ten Points" and the "Later Ten Points"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 584–585 (Nov. 14, 1963; Liu presides at the enlarged Politburo meeting, which also adopts in principle the reports to the Fourth Session of the Second NPC on the 1963 plan and the 1964 draft plan and on the 1963 budget and the first arrangement of the 1964 budget, and hears Peng Zhen on the session''s opening and the election of deputies to the next NPC; Liu conveys the two measures against modern revisionism agreed with Mao at Hangzhou); [[w.jianguo-yilai-mao-zedong]], XVII, 81–82, 85–86 (Nov. 14, 1963; the notice as printed from the Central Committee''s text, dated Nov. 14; note 1 gives its drafting Oct. 25, Mao''s and others'' revision, and settling of the text Nov. 16, the date left at Nov. 14); [[w.macfarquhar-origins-of-the-cultural]], III, 344–47 (the Politburo under Liu passes the document, issued with Mao''s leave: praise of Mao and the Former Ten Points; unity with over 95 percent of peasants and cadres; work teams from above to rectify cadres; no general reclassification of peasants); [[w.yang-shangkun-riji]], II, 327 (Nov. 14, 1963; the enlarged Politburo, 3 to 5 p.m., adopts the rural papers (the First and Later Ten Points, drafts, and the notice on printing them, the editors note) and matters of the NPC; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1777–1778 (Nov. 14, 1963; afternoon, 下午; Deng at the enlarged Politburo meeting Liu Shaoqi presides over, which adopts the Latter Ten Points and the notice on the two documents, approves in principle the reports for the NPC session on the 1963 plan, the 1964 plan draft and the budgets, and hears Peng Zhen on the NPC session and the election of the next NPC''s deputies); [[w.mao-zedong-zhuan]], VI, ch. 72 (Nov. 14 Liu presides at the enlarged Politburo, which finally passes the Latter Ten Points, sent down with Mao''s notice). [[w.peng-zhen-nianpu-1902]], IV, 299 (Nov. 14, 1963, afternoon; Peng Zhen at the enlarged Politburo, Liu Shaoqi presiding, explains the procedure of the NPC''s fourth session and the election of the next NPC''s deputies; the provisions on rural socialist education adopted, the reports on the 1963 plan and 1964 draft plan and on the 1963 budget and 1964 arrangement passed in principle; Liu relays two measures of Mao against revisionism: wider propaganda, provincial and central papers organizing articles with the propaganda departments'' approval; wider relaying, from cadres below grade 17 to all the people). Made public: 1996. Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 10 (1996). To check: the notice and the two drafts, Nov. 18, 1963; Central Committee, Decision on some current problems in rural work (draft), the "First Ten Points," issued May 20, 1963 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 86 n.6); Central Committee, Provisions on some concrete policies in the rural socialist education movement (draft), the "Later Ten Points," Sept. 1963 (first titled "Some concrete policy questions in the rural socialist education movement"; retitled Nov. 14, 1963) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 85 n.3); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1112 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 344 n.56a); [[w.zedong-jianguo-yilai-mao-zedong]], 10, 386–93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 344 n.56f); CCP CC, Some concrete policy formulations in the rural socialist education movement (the Latter Ten Points), Nov. 1963, in [[w.baum-ssu-ching]], 72, 73, 75, 76, 78 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 345 n.57a); [[w.jin-1949-1989-niande-zhongguo]], 531 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 345 n.57b); [[w.baum-ssu-ching]], 63, 70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 345 n.64); the Central Committee''s "Decision on some questions of present rural work (draft)" (cited by [[w.yang-shangkun-riji]], II, 327 n.1a); the Central Committee''s "Provisions on some concrete policies in the rural socialist education movement (draft)" (cited by [[w.yang-shangkun-riji]], II, 327 n.1b); the Central Committee''s notice of Nov. 14, 1963, on printing and publicizing the two documents (cited by [[w.yang-shangkun-riji]], II, 327 n.1c). See [[cal.1963-10-25.china-leadership]]. Names: Liu Shaoqi, Mao Zedong.'
     src:
       c: 87f13c75
       rows:
@@ -2710,12 +2793,18 @@ entries:
         - 'w.yang-shangkun-riji II, 327: A-B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1777–1778: B'
         - 'w.mao-zedong-zhuan VI, ch. 72: B'
+        - 'w.peng-zhen-nianpu-1902 IV, 299: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
     variants:
       - unit: B
         witness: w.jianguo-yilai-mao-zedong
         reads: the notice was drafted Oct. 25 and the text settled on Nov. 16, dated Nov. 14 (note 1)
         at: 85 n.1
+    time_range:
+      - 1963-11-14T04:00Z
+      - 1963-11-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-11-14.china-leadership
     when: Nov. 14
     date: '1963-11-14'
@@ -2778,6 +2867,40 @@ entries:
         - 'w.yang-jisheng-mubei II, 785: all'
         - 'via x.1963-11-14.guo-moruo-letter-to-chen-mingyuan-dayuejin: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1963-11-14.china-leadership-7
+    when: Nov. 14
+    date: '1963-11-14'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at the NPC Standing Committee's 108th session explains the draft resolution on the number of deputies to the third NPC and the time of their election, and the Standing Committee's work report; both adopted.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 299. The words: 上午 (IV, 299). Names: Peng Zhen.'
+    src:
+      c: 5fc81d97
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 299: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1963-11-13T22:00Z
+      - 1963-11-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1963-11-14.china-leadership-8
+    when: Nov. 14
+    date: '1963-11-14'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at Mao's 毛泽东 to talk.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 299. The words: 中午 (IV, 299). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: '64872439'
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 299: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1963-11-14T04:00Z
+      - 1963-11-14T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1963-11-15.foreign-aid
     when: Nov. 15
     date: '1963-11-15'
@@ -2939,7 +3062,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai at the Supreme State Conference Liu Shaoqi calls, Nov. 15 and 16, on Peng Zhen''s explanation of the main questions of the Fourth Session of the Second NPC. Nov. 15 he speaks first on the situation and tasks. Sino-Soviet relations: contact is kept, so divided but not broken, on the edge of a break, not yet at it; China is for unity and against a split. Socialist experience comes by practice and summing up; build mainly on self-reliance; leaping is quality as well as quantity. After three more years the adjustment is to lay a base for an all-round leap; farming as base and industry as leader holds long; 1963 began an all-round improvement.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 595 (Nov. 15–16, 1963); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 585 (Nov. 15 and 16, 1963; Liu presides at the Supreme State Conference, which hears Zhou Enlai on the international and home situations and tasks and Peng Zhen on the opening of the Fourth Session of the Second NPC and the election of deputies to the Third; on Nov. 15 Liu tells of the measures to widen the campaign against modern revisionism and the circulation of its documents); [[w.yang-shangkun-riji]], II, 327 (Nov. 15–16, 1963; the Supreme State Conference, 3 to 6 p.m. each day; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1778 (Nov. 15–16, 1963; Deng attends the Supreme State Conference 最高国务会议 Liu Shaoqi 刘少奇 presides over, which hears Zhou Enlai 周恩来 on the international and domestic situation and the tasks ahead, and Peng Zhen 彭真 on the NPC session''s agenda and the election of the next NPC''s deputies). Made public: 1996. To check: the speech. Names: Zhou Enlai, Liu Shaoqi, Peng Zhen.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 595 (Nov. 15–16, 1963); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 585 (Nov. 15 and 16, 1963; Liu presides at the Supreme State Conference, which hears Zhou Enlai on the international and home situations and tasks and Peng Zhen on the opening of the Fourth Session of the Second NPC and the election of deputies to the Third; on Nov. 15 Liu tells of the measures to widen the campaign against modern revisionism and the circulation of its documents); [[w.yang-shangkun-riji]], II, 327 (Nov. 15–16, 1963; the Supreme State Conference, 3 to 6 p.m. each day; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1778 (Nov. 15–16, 1963; Deng attends the Supreme State Conference 最高国务会议 Liu Shaoqi 刘少奇 presides over, which hears Zhou Enlai 周恩来 on the international and domestic situation and the tasks ahead, and Peng Zhen 彭真 on the NPC session''s agenda and the election of the next NPC''s deputies); [[w.peng-zhen-nianpu-1902]], IV, 299 (Nov. 15 and 16, 1963; Peng Zhen at the Supreme State Conference, Liu Shaoqi presiding, reports on the main subjects of the NPC''s fourth session; Zhou Enlai on the situation and tasks). Made public: 1996. To check: the speech. Names: Zhou Enlai, Liu Shaoqi, Peng Zhen.'
     src:
       c: 81ef148c
       rows:
@@ -2947,6 +3070,7 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 585: A'
         - 'w.yang-shangkun-riji II, 327: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1778: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 299: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:peng-zhen, vis:only:prc]
   - id: cal.1963-11-15.china-leadership-3
     when: Nov. 15
@@ -3107,6 +3231,23 @@ entries:
       - 1963-11-16T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-11-16.china-leadership-5
+    when: Nov. 16
+    date: '1963-11-16'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 explains the preparations and agenda to the preparatory meeting of the second NPC's fourth session, which elects the presidium and secretary-general; he is elected to the presidium and secretary-general.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 299–300. The words: 上午 (IV, 299–300). Names: Peng Zhen.'
+    src:
+      c: 18e7bc01
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 299–300: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1963-11-15T22:00Z
+      - 1963-11-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1963-11-17.civil-rights-the-executive
     when: Nov. 17
     date: '1963-11-17'
@@ -3142,7 +3283,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou Enlai at the Fourth Session of the Second NPC, Nov. 17–Dec. 3, which adopts Li Fuchun's report on the 1963 plan and the 1964 draft and Li Xiannian's on the state budget; before it he called people to discuss the two reports many times. He also attends the Fourth Session of the Third National Committee of the CPPCC, Nov. 17–Dec. 4, which hears Chen Shutong's report and decides to extend the Committee's term to September 1964.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 596 (Nov. 17–Dec. 4, 1963); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 585 (Nov. 17–Dec. 3, 1963; Liu attends the Fourth Session of the Second NPC, which adopts the reports on the 1963 plan and 1964 draft plan and on the 1963 budget and 1964 first arrangement, and the explanation of the list and election of deputies to the Third NPC, and approves the Standing Committee''s work report); [[w.yang-shangkun-riji]], II, 327 (Nov. 17, 1963; Nov. 17, the CPPCC session opens, 10:30 a.m. to noon; 3 to 6 p.m., the NPC, Li Fuchun''s report, Yang attending as a non-voting delegate (列席); Nov. 18, 3 to 5:30 p.m., Li Xiannian''s report); [[w.deng-xiaoping-nianpu-1904]], III, 1778 (Nov. 17–Dec. 3, 1963; Deng attends the Fourth Session of the Second NPC, which adopts the reports on the 1963 plan and 1964 draft plan and on the budgets and the statement on the number of deputies to the Third NPC and their election, and approves the NPC Standing Committee''s work report); [[w.chen-yi-nianpu]], 995 (Nov. 17, 1963, afternoon, the Great Hall of the People; Chen Yi at the session''s opening; Nov. 18, afternoon, at the sitting that hears Li Xiannian 李先念 on the 1963 budget and the 1964 budget''s outline). To check: the reports and resolutions. Names: Zhou Enlai, Li Fuchun, Li Xiannian, Chen Shutong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 596 (Nov. 17–Dec. 4, 1963); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 585 (Nov. 17–Dec. 3, 1963; Liu attends the Fourth Session of the Second NPC, which adopts the reports on the 1963 plan and 1964 draft plan and on the 1963 budget and 1964 first arrangement, and the explanation of the list and election of deputies to the Third NPC, and approves the Standing Committee''s work report); [[w.yang-shangkun-riji]], II, 327 (Nov. 17, 1963; Nov. 17, the CPPCC session opens, 10:30 a.m. to noon; 3 to 6 p.m., the NPC, Li Fuchun''s report, Yang attending as a non-voting delegate (列席); Nov. 18, 3 to 5:30 p.m., Li Xiannian''s report); [[w.deng-xiaoping-nianpu-1904]], III, 1778 (Nov. 17–Dec. 3, 1963; Deng attends the Fourth Session of the Second NPC, which adopts the reports on the 1963 plan and 1964 draft plan and on the budgets and the statement on the number of deputies to the Third NPC and their election, and approves the NPC Standing Committee''s work report); [[w.chen-yi-nianpu]], 995 (Nov. 17, 1963, afternoon, the Great Hall of the People; Chen Yi at the session''s opening; Nov. 18, afternoon, at the sitting that hears Li Xiannian 李先念 on the 1963 budget and the 1964 budget''s outline); [[w.peng-zhen-nianpu-1902]], IV, 300 (Nov. 17–Dec. 3, 1963; Peng Zhen at the fourth session of the second NPC; on the 17th, in the afternoon, at its opening). To check: the reports and resolutions. Names: Zhou Enlai, Li Fuchun, Li Xiannian, Chen Shutong.'
     src:
       c: 3e4148d2
       rows:
@@ -3151,6 +3292,7 @@ entries:
         - 'w.yang-shangkun-riji II, 327: A, C'
         - 'w.deng-xiaoping-nianpu-1904 III, 1778: ?'
         - 'w.chen-yi-nianpu 995: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 300: ?'
     tags: [polity:prc, name:zhou-enlai, name:li-fuchun, name:li-xiannian]
   - id: cal.1963-11-17.china-leadership-2
     when: Nov. 17
@@ -3183,7 +3325,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, the CPPCC auditorium 政协礼堂. Chen Yi 陈毅 at the fourth session of the Third CPPCC National Committee 中国人民政治协商会议第三届全国委员会.
-    n: '[[w.chen-yi-nianpu]], 995. The words: 上午10时 (995). Names: Chen Yi.'
+    n: '[[w.chen-yi-nianpu]], 995; [[w.peng-zhen-nianpu-1902]], IV, 300 (Nov. 17–Dec. 4, 1963, morning; Peng Zhen at the fourth session of the third CPPCC national committee (to Dec. 4); on the 17th, in the morning, at its opening). The words: 上午10时 (995). Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi]
     time_zone: Asia/Shanghai
   - id: cal.1963-11-18.middle-east
@@ -3376,6 +3518,17 @@ entries:
     c: Chen Yi 陈毅 cables Ahmed Reda Guedira, congratulating him on becoming Morocco's Foreign Minister.
     n: '[[w.chen-yi-nianpu]], 995. Names: Chen Yi, Guedira.'
     tags: [polity:prc, polity:morocco, name:chen-yi, name:guedira-ahmed-reda, ok:fields-place]
+  - id: cal.1963-11-18.china-leadership-5
+    when: Nov. 18
+    date: '1963-11-18'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真, on the Organization and United Front Work Departments'' request on the treatment of democratic personages after they join the Party: members to give up the special treatment of democratic personages, but with flexibility, case by case.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 300. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: bd049def
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 300: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1963-11-19.poverty
     when: Nov. 19
     date: '1963-11-19'
@@ -4432,13 +4585,14 @@ entries:
     date: '1963-11-21'
     thread: china-leadership
     c: Zhou Enlai at the Secretariat, which discusses and in principle approves Nie Rongzhen's report for the Central Science Group and the Party group of the State Science Commission on the 1963–72 plan for science and technology. Research cut off from production is to be remedied at once.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 597 (Nov. 21, 1963); [[w.yang-shangkun-riji]], II, 329 (Nov. 21, 1963; the Secretariat, 4 to 6 p.m.; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1778 (Nov. 21, 1963; Deng presides at the Secretariat, which discusses and in principle approves Nie Rongzhen''s report for the Central Science Group 中央科学小组 and the State Science Commission''s Party group on the plan for science and technology, 1963–72). Made public: 1997. To check: the report. Names: Zhou Enlai, Nie Rongzhen.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 597 (Nov. 21, 1963); [[w.yang-shangkun-riji]], II, 329 (Nov. 21, 1963; the Secretariat, 4 to 6 p.m.; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1778 (Nov. 21, 1963; Deng presides at the Secretariat, which discusses and in principle approves Nie Rongzhen''s report for the Central Science Group 中央科学小组 and the State Science Commission''s Party group on the plan for science and technology, 1963–72); [[w.peng-zhen-nianpu-1902]], IV, 300 (Nov. 21, 1963; the Secretariat''s 368th meeting; Peng Zhen there; Nie Rongzhen''s report for the Central Science Group and the State Science Commission''s Party group on the science plan of 1963–72 approved in principle; a bureau of expert cadres under the State Council; Peng Zhen on degrees and titles: whoever can do an engineer''s work, graduate or worker, to be an engineer, the door open to workers; graduates still technicians after five or six years a great loss). Made public: 1997. To check: the report. Names: Zhou Enlai, Nie Rongzhen.'
     src:
       c: e182306a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 597: ?'
         - 'w.yang-shangkun-riji II, 329: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1778: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 300: ?'
     tags: [polity:prc, name:zhou-enlai, name:nie-rongzhen, vis:only:prc]
   - id: cal.1963-11-21.china-leadership-2
     when: Nov. 21
@@ -5816,7 +5970,7 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai attends the signing of the China–Afghanistan boundary treaty.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 376 (Nov. 22, 1963); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 585 (Nov. 22, 1963; Liu attends the signing of the China–Afghanistan boundary treaty); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 306 (Nov. 22, 1963; the China–Afghanistan boundary treaty is signed at Peking); [[w.chen-yi-nianpu]], 996 (Nov. 22, 1963, 3 p.m.; Chen Yi signs the treaty for China). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 376 (Nov. 22, 1963); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 585 (Nov. 22, 1963; Liu attends the signing of the China–Afghanistan boundary treaty); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 306 (Nov. 22, 1963; the China–Afghanistan boundary treaty is signed at Peking); [[w.chen-yi-nianpu]], 996 (Nov. 22, 1963, 3 p.m.; Chen Yi signs the treaty for China); [[w.peng-zhen-nianpu-1902]], IV, 301 (Nov. 22, 1963, afternoon; Peng Zhen, with Liu Shaoqi, Zhu De, Zhou Enlai and others, at the signing of the China–Afghanistan boundary treaty). Names: Zhou Enlai.'
     src:
       c: 0decb4dc
       rows:
@@ -5824,6 +5978,7 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 585: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 306: B'
         - 'w.chen-yi-nianpu 996: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 301: ?'
     tags: [polity:prc, polity:afghanistan, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1963-11-22.china-leadership-2
@@ -5869,7 +6024,7 @@ entries:
     date: '1963-11-22'
     thread: china-leadership
     c: 'Mao to Xie Fuzhi and Peng Zhen on Xie''s draft speech for the NPC''s fourth session, "Rely on the broad masses, strengthen the people''s democratic dictatorship, remake most of the reactionary forces into new men": read, very good. After it is given, they are to consider sending it to the county Party committees and county public security bureaus with a few lines of introduction from the Center, as material for educating cadres, mentioning the Zhuji example, for places to copy through trial points and then spread.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 109–110 (Nov. 22, 1963). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 10 (1996). To check: Xie Fuzhi, draft speech "Rely on the broad masses, strengthen the people''s democratic dictatorship, remake most of the reactionary forces into new men," for the fourth session of the Second NPC, Nov. 1963 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 109 n.2); Experience of Fengqiao district, Zhuji county, Zhejiang, in the struggle against the enemy in the socialist education movement (as Xie''s draft cites it; forwarded by the Zhejiang provincial committee) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 110 n.3a); Central Committee, directive on relying on the strength of the masses, strengthening the people''s democratic dictatorship and remaking most of the four types into new men, Jan. 14, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 110 n.3b). Names: Mao Zedong, Xie Fuzhi, Peng Zhen.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 109–110 (Nov. 22, 1963); [[w.peng-zhen-nianpu-1902]], IV, 300 (Nov. 21, 1963; Mao, having read Xie Fuzhi''s draft speech for the NPC''s fourth session, "Rely on the broad masses, strengthen the people''s democratic dictatorship, remake the great majority of the reactionary forces into new men": "很好"; Xie and Peng Zhen to consider sending it after delivery to the county committees and police bureaus as material for teaching cadres, with a few lines from the Center, naming Zhuji''s good example for trial and spread). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 10 (1996). To check: Xie Fuzhi, draft speech "Rely on the broad masses, strengthen the people''s democratic dictatorship, remake most of the reactionary forces into new men," for the fourth session of the Second NPC, Nov. 1963 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 109 n.2); Experience of Fengqiao district, Zhuji county, Zhejiang, in the struggle against the enemy in the socialist education movement (as Xie''s draft cites it; forwarded by the Zhejiang provincial committee) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 110 n.3a); Central Committee, directive on relying on the strength of the masses, strengthening the people''s democratic dictatorship and remaking most of the four types into new men, Jan. 14, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 110 n.3b). Names: Mao Zedong, Xie Fuzhi, Peng Zhen.'
     src:
       c: 32d45f6e
       rows:
@@ -5877,7 +6032,13 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVII, 109 n.2: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 110 n.3a: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 110 n.3b: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 300: ?'
     tags: [polity:prc, name:mao-zedong, name:xie-fuzhi, name:peng-zhen, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.peng-zhen-nianpu-1902
+        reads: Mao's comment under Nov. 21 ("11月21日……毛泽东审阅谢富治拟在二届全国人大四次会议上的发言稿")
+        at: IV, 300
   - id: cal.1963-11-22.china-leadership-5
     when: Nov. 22
     date: '1963-11-22'
@@ -5955,6 +6116,50 @@ entries:
     c: Chen Yi 陈毅 cables Pak Song-chol 朴成哲, the DPRK's Foreign Minister, on the tenth anniversary of the Sino-Korean agreement on economic and cultural cooperation.
     n: '[[w.chen-yi-nianpu]], 996. Names: Chen Yi.'
     tags: [polity:prc, polity:dprk, name:chen-yi, ok:fields-place]
+  - id: cal.1963-11-22.china-leadership-9
+    when: Nov. 22
+    date: '1963-11-22'
+    place: peking
+    thread: china-leadership
+    c: 'The Peking committee of the Party 中共北京市委 reports to the Center and the North China Bureau 华北局 on the "five antis": begun in April, done in the city''s organs by the end of October, in the outer suburbs and counties by the Spring Festival; graft and theft defined, petty taking and borrowing returned and not so judged; speculation defined, small selling from need an error, not speculation; even cases at bottom with the enemy may mostly be handled among the people, education first, exposure and repayment strict, punishment lenient; before handling, facts, time and nature checked, and "three allowances": to argue, to amend one''s confession, to bring evidence and reverse a verdict.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 301. Under Peng Zhen''s day; his part in the report is not stated. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: bbea5c83
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 301: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1963-11-22.china-leadership-10
+    when: Nov. 22
+    date: '1963-11-22'
+    place: peking
+    thread: china-leadership
+    c: 'The Great Hall of the People 人民大会堂, Peking 北京. Peng Zhen 彭真 speaks at the capital''s meeting of more than 10,000 celebrating the China–Afghanistan boundary treaty: a new success of good-neighborly policy, a model of settling questions by peaceful consultation, a victory of Afro-Asian cooperation, the five principles and the Bandung spirit.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 301–302; [[w.chen-yi-nianpu]], 996 (Nov. 22, 1963, afternoon; Chen Yi at the meeting). The words: 下午 (IV, 301–302). See [[cal.1963-11-22.china-leadership]]. Names: Peng Zhen.'
+    src:
+      c: 7c9c6505
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 301–302: all'
+        - 'w.chen-yi-nianpu 996: ?'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1963-11-22T04:00Z
+      - 1963-11-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1963-11-22.china-leadership-12
+    when: Nov. 22
+    date: '1963-11-22'
+    place: conakry
+    thread: china-leadership
+    also: [africa, soviet-union]
+    c: 'The Chinese Embassy in Guinea to the Foreign Ministry, dissenting from the directive to put antirevisionism first: "if you want to oppose revisionism, you must hold the banner of anti-imperialism even higher"; the intermediate zone''s nationalists cannot be asked to be "exactly like us"; unity before struggle, and they "might also become our allies against revisionism."'
+    n: '[[w.friedman-shadow-cold-war]], 115–116. Made public: 2015. To check: PRC embassy Guinea to MFA, November 22, 1963, CFMA doc. 108-00905-02, 107 (cited by [[w.friedman-shadow-cold-war]], 115 n.62); PRC embassy Guinea to MFA, November 22, 1963, CFMA doc. 108-00905-02, 111 (cited by [[w.friedman-shadow-cold-war]], 116 n.63); PRC embassy Guinea to MFA, November 22, 1963, CFMA doc. 108-00905-02, 110 (cited by [[w.friedman-shadow-cold-war]], 116 n.64).'
+    src:
+      c: 3591ebf8
+      rows:
+        - 'w.friedman-shadow-cold-war 115–116: all'
+        - 'via x.1963-11-22.prc-embassy-guinea-mfa-november-22-1963: ?'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1963-11-23.succession
     when: Nov. 23
     date: '1963-11-23'
@@ -6654,6 +6859,17 @@ entries:
     c: Sihanouk cables Chen Yi 陈毅 his thanks for his speech backing the Cambodian people's struggle against imperialism and for sovereignty.
     n: '[[w.chen-yi-nianpu]], 997. Names: Sihanouk, Chen Yi.'
     tags: [polity:prc, polity:cambodia, name:chen-yi, name:norodom-sihanouk, ok:fields-place]
+  - id: cal.1963-11-23.china-leadership-8
+    when: Nov. 23
+    date: '1963-11-23'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 writes for the Hebei 河北 flood-fighting exhibition at Tianjin 天津: learn the communist style and fighting spirit of the cadres and masses of Party, government, army and people in the fight against the floods.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 302. See [[cal.1963-11-17.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: '26402957'
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 302: all'
+    tags: [polity:prc, name:peng-zhen, ok:fields-place]
   - id: cal.1963-11-24.assassination
     when: Nov. 24
     date: '1963-11-24'
@@ -8151,6 +8367,23 @@ entries:
       - 1963-11-27T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-11-27.china-leadership-6
+    when: Nov. 27
+    date: '1963-11-27'
+    place: peking
+    thread: china-leadership
+    c: 'The Capital Theatre 首都剧场, Peking 北京. Peng Zhen 彭真 sees the Peking People''s Art Theatre''s *Li Guorui* 《李国瑞》 and tells the players: a good play, in time; with the Party leading all work, bureaucracy, conceit and sectarianism in a Party body spoil its work; it shows how members should treat non-Party and backward people; backward people even under communism, to be taught, grafters too stress on education; the tools of dictatorship not to be misused.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 302. The words: 晚 (IV, 302). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: c3a16333
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 302: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1963-11-27T11:00Z
+      - 1963-11-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1963-11-28.elections-1964
     when: Nov. 28
     date: '1963-11-28'
@@ -8273,6 +8506,23 @@ entries:
     c: Chen Yi 陈毅 cables Behar Shtylla 贝哈尔·什图拉, Albania's Foreign Minister, on the nineteenth anniversary of Albania's liberation.
     n: '[[w.chen-yi-nianpu]], 998. Names: Chen Yi.'
     tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place]
+  - id: cal.1963-11-28.china-leadership-4
+    when: Nov. 28
+    date: '1963-11-28'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真, with Li Xiannian 李先念, meets the Korean commercial study group under Kim Song-gun 金成根, Vice-Minister of Commerce, and gives it a banquet.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 302. The words: 下午 (IV, 302). Names: Peng Zhen, Li Xiannian.'
+    src:
+      c: 9aa530e5
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 302: all'
+    tags: [polity:prc, name:peng-zhen, name:li-xiannian]
+    time_range:
+      - 1963-11-28T04:00Z
+      - 1963-11-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1963-11-29.assassination
     when: Nov. 29
     date: '1963-11-29'
@@ -8666,6 +8916,32 @@ entries:
     c: Kunming 昆明. Chen Yi 陈毅 sees the Yunnan Spoken Drama Troupe 云南省话剧团 in *The Young Generation* 《年轻的一代》 and shakes the actors' hands.
     n: '[[w.chen-yi-nianpu]], 998. Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi, ok:fields-time]
+  - id: cal.1963-11-29.china-leadership-3
+    when: Nov. 29
+    date: '1963-11-29'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at the Albanian Ambassador Nesti Nase's reception for the nineteenth anniversary of Albania's liberation.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 302. Names: Peng Zhen.'
+    src:
+      c: c368a9e8
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 302: all'
+    tags: [polity:prc, name:peng-zhen]
+  - id: cal.1963-11-29.soviet-union
+    when: Nov. 29
+    date: '1963-11-29'
+    place: new-delhi
+    thread: soviet-union
+    also: [south-asia, china]
+    c: 'The Soviet Ambassador in India to the Central Committee, on explaining Soviet policy and attacking the Chinese leaders'' "anti-Soviet, schismatic activity": documents and articles in local languages; Indian writers to be solicited for anti-Chinese articles; a thematic file for "progressive" and "bourgeois" papers; editors and journalists seen two or three times a month; lectures, press conferences, films.'
+    n: '[[w.friedman-shadow-cold-war]], 106. Made public: 2015. To check: Soviet ambassador in India to CC, November 29, 1963, RGANI f.5 o.55 d.54, 346–53 (cited by [[w.friedman-shadow-cold-war]], 106 n.18).'
+    src:
+      c: 7ef201e4
+      rows:
+        - 'w.friedman-shadow-cold-war 106: all'
+        - 'via x.1963-11-29.soviet-ambassador-india-november-29-1963: ?'
+    tags: [polity:ussr, vis:only:ussr]
   - id: cal.1963-11-30.europe-and-the-alliance-cyprus
     when: Nov. 30
     date: '1963-11-30'
@@ -9403,3 +9679,32 @@ entries:
     c: At the memorial of Shanxi's 山西 circles for the painter and calligrapher Ke Huang 柯璜, Chen Yi 陈毅 sends a wreath.
     n: '[[w.chen-yi-nianpu]], 998. Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi, ok:fields-place]
+  - id: cal.1963-11-30.china-leadership-3
+    when: Nov. 30
+    date: '1963-11-30'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 talks with Jiang Qing 江青 at his home.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 302. The words: 晚 (IV, 302). Made public: 2012. Names: Peng Zhen, Jiang Qing.'
+    src:
+      c: 233c59dc
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 302: all'
+    tags: [polity:prc, name:peng-zhen, name:jiang-qing, vis:only:prc]
+    time_range:
+      - 1963-11-30T11:00Z
+      - 1963-11-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-11.china-leadership-4
+    when: Nov., late
+    date: 1963-11
+    at: before 1963-11-21
+    thread: china-leadership
+    c: 'Peng Zhen 彭真, with Deng Xiaoping 邓小平, receives Li Xiannian''s 李先念 draft notice of Nov. 23 of the Center and the State Council 国务院 on moving grain to meet the plans of transfer: this winter and spring''s grain movement most important; late shipment may bring trouble in places.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 302–303. Made public: 2012. Names: Peng Zhen, Deng Xiaoping, Li Xiannian.'
+    src:
+      c: e2d8cef2
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 302–303: all'
+    tags: [polity:prc, name:peng-zhen, name:deng-xiaoping, name:li-xiannian, vis:only:prc, ok:fields-place]
