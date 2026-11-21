@@ -1004,3 +1004,7 @@ That is, there's a lot of material, of added detail, in the citation block that 
 Do our readers and auditors not have permission to add to the entries? Is there a way we could permit them to build on what's already there?
 
 [the Vietnam: Force levels entry, Oct. 2, 1963, and its four footnotes, quoted]"
+
+## Nov. 21, 2026, 11:14 a.m. Pacific
+
+"Claude, I don't want to drop the unread works. Can you check and fix the doubles instead?"
