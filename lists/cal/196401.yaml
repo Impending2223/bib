@@ -235,7 +235,7 @@ entries:
     thread: china-leadership
     also: [soviet-union, africa]
     c: 'Zhou, Tirana: first and second talks with Hoxha, Albanian Workers'' Party first secretary, and Premier Shehu. Hears Hoxha on Albania''s construction and the international situation. Zhou: the Chinese Central Committee thinks the meeting of the eleven parties can be put off until conditions ripen; bilateral talks can be held meanwhile.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 606 (Jan. 2, 1964); [[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 2, 1964; 上午9时, 与霍查、谢胡举行会谈); [[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 2, 1964; 下午4时30分, 与霍查、谢胡等阿党政领导人举行第一次会谈); [[w.macfarquhar-origins-of-the-cultural]], III, 358 (Zhou in Albania in January 1964; Hoxha rated his talks with Zhou very good and the visit a great victory for Albania). Made public: 1993. To check: [[w.hoxha-reflections-on-china-vol]], 61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 358 n.72). Names: Zhou Enlai, Hoxha, Shehu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 606 (Jan. 2, 1964); [[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 2, 1964; 上午9时, 与霍查、谢胡举行会谈); [[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 2, 1964; 下午4时30分, 与霍查、谢胡等阿党政领导人举行第一次会谈); [[w.macfarquhar-origins-of-the-cultural]], III, 358 (Zhou in Albania in January 1964; Hoxha rated his talks with Zhou very good and the visit a great victory for Albania); [[w.jian-zhou-enlai]], 501 (Albania: Hoxha on fighting Khrushchev; Zhou accepts nearly all of Hoxha''s requests for aid). Made public: 1993. To check: [[w.hoxha-reflections-on-china-vol]], 61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 358 n.72); [[w.wang-taiping-zhonghua-renmin-gongheguo-waijiaoshi]], III, 271–273 (cited by [[w.jian-zhou-enlai]], 501 n.37). Names: Zhou Enlai, Hoxha, Shehu.'
     src:
       c: c9b7a0d3
       rows:
@@ -243,6 +243,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 383: A'
         - 'w.macfarquhar-origins-of-the-cultural III, 358: A, B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 358 n.72: A, B'
+        - 'w.jian-zhou-enlai 501: ?'
     tags: [name:zhou-enlai, polity:prc, polity:albania, vis:only:prc+albania]
     time_zone: Europe/Tirane
   - id: cal.1964-01-02.china-leadership-2
@@ -924,6 +925,18 @@ entries:
       - 1964-01-05T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1964-01-05.china-leadership-5
+    when: Jan. 5
+    date: '1964-01-05'
+    thread: china-leadership
+    c: 'Zhou Enlai and Chen Yi, a special report to Peking on the visit to Morocco: Egypt, Algeria and Morocco have used foreign aid to build new industries with modern equipment, less investment, quicker returns and fewer workers, a new subject for China''s import of foreign plant and use of foreign aid.'
+    n: '[[w.jian-zhou-enlai]], 501. Made public: Check (2024 at the latest; the year of [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, not given). To check: Zhou and Chen Yi''s report on the visit to Morocco, January 5, 1964 (cited by [[w.jian-zhou-enlai]], 501 n.36a); [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, 145 (cited by [[w.jian-zhou-enlai]], 501 n.36b). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: ef7d6527
+      rows:
+        - 'w.jian-zhou-enlai 501: all'
+        - 'via x.1964-01-05.zhou-chen-yi-report-visit-morocco: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:chen-yi, ok:fields-place]
   - id: cal.1964-01-06.vietnam
     when: Jan. 6
     date: '1964-01-06'
@@ -1110,7 +1123,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou wires condolences to Nkrumah, wounded in an assassination attempt. With the delegation decides not to cancel the Ghana visit despite the unsettled situation: sends the delegation''s secretary-general Huang Zhen ahead, to see Nkrumah with Ambassador Huang Hua. Proposal: drop the airport welcome; talks and banquets inside the castle where Nkrumah lives.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 607 (Jan. 6, 1964). Made public: 1997. Names: Zhou Enlai, Nkrumah, Huang Zhen, Huang Hua.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 607 (Jan. 6, 1964); [[w.jian-zhou-enlai]], 501–502 (Nkrumah nearly assassinated; Zhou refuses to drop the visit and offers to meet him at Osu Castle). Made public: 1997. To check: Premier Zhou plans to visit Ghana as originally scheduled, January 6–9, 1964 (cited by [[w.jian-zhou-enlai]], 502 n.38). Names: Zhou Enlai, Nkrumah, Huang Zhen, Huang Hua.'
+    src:
+      c: c70e572a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 607: ?'
+        - 'w.jian-zhou-enlai 501–502: ?'
+        - 'via x.1964-01-06.premier-zhou-plans-visit-ghana-as-scheduled: ?'
     tags: [name:zhou-enlai, name:nkrumah-kwame, name:huang-zhen, name:huang-hua, polity:prc, polity:ghana, vis:only:prc+ghana]
   - id: cal.1964-01-06.china-leadership-2
     when: Jan. 6–7
@@ -2602,12 +2621,13 @@ entries:
     thread: china-leadership
     also: [africa, middle-east]
     c: 'The Chinese–Tunisian joint communiqué issued: support for decolonization in Africa, for the Palestinian people, for general disarmament and a complete ban on nuclear weapons; the two decide to establish diplomatic relations.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 609 (Jan. 10, 1964); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 313 (Jan. 10, 1964; the joint communique: the two countries decide to establish diplomatic relations; both support the efforts of the African peoples for decolonization, firmly support the struggle of the Palestinian people to win back their lawful rights, and hope for general disarmament and a complete ban on nuclear weapons soon). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 609 (Jan. 10, 1964); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 313 (Jan. 10, 1964; the joint communique: the two countries decide to establish diplomatic relations; both support the efforts of the African peoples for decolonization, firmly support the struggle of the Palestinian people to win back their lawful rights, and hope for general disarmament and a complete ban on nuclear weapons soon); [[w.jian-zhou-enlai]], 501 (Tunisia: Zhou and Bourguiba sign a communiqué that the two countries will establish relations). Names: Zhou Enlai.'
     src:
       c: 7fa105a7
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 609: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 313: A-B'
+        - 'w.jian-zhou-enlai 501: ?'
     tags: [name:zhou-enlai, polity:prc, polity:tunisia]
   - id: cal.1964-01-10.china-leadership-3
     when: Jan. 10
@@ -3518,6 +3538,17 @@ entries:
       rows:
         - 'https://digitalarchive.umd.edu/document/120603: all'
     tags: [polity:prc, polity:drv, vis:only:prc]
+  - id: cal.1964-01-14.china-leadership-7
+    when: Jan. 14
+    date: '1964-01-14'
+    thread: china-leadership
+    c: The enriched uranium for the bomb passes its tests. Zhou Enlai hails the achievements and urges all in the project to go on fulfilling every task with persistence.
+    n: '[[w.jian-zhou-enlai]], 516. Made public: 1998. To check: [[w.zhou-enlai-zhuan-1949]], 796 (cited by [[w.jian-zhou-enlai]], 516 n.106). Names: Zhou Enlai.'
+    src:
+      c: 916e40ac
+      rows:
+        - 'w.jian-zhou-enlai 516: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai]
   - id: cal.1964-01-15.transition-and-staff
     when: Jan. 15
     date: '1964-01-15'
@@ -3632,7 +3663,7 @@ entries:
     thread: china-leadership
     also: [africa, china]
     c: 'Zhou: third talk with Nkrumah; answering the Ghana News Agency states China''s eight principles of economic and technical aid. The China–Mali joint communiqué of Jan. 21 wrote them in.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 611–12 (Jan. 15, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 15, 1964; 下午5时, 奥苏城堡, 第三次会谈, 介绍对外援助八项原则); [[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 15, 1964; 答加纳通讯社记者问, 宣布八项原则); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 315 (Jan. 15, 1964; at Accra, answering Ghana News Agency reporters, Zhou announces the eight principles of the Chinese government''s economic and technical aid to other countries: aid on the principle of equality and mutual benefit, regarded as mutual; strict respect for the receiving country''s sovereignty, never asking privileges or attaching conditions; aid in the form of interest-free or low-interest loans, with repayment dates extended when needed; the aim to help the receiving country gradually to self-reliant, independent development; projects need little investment and bring quick returns; China supplies the best equipment and materials it makes, at international market prices; in giving technical aid, it ensures that the receiving country''s personnel master the technique fully; and its experts get the same material treatment as the receiving country''s own, with no special demands or privileges). Names: Zhou Enlai, Nkrumah.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 611–12 (Jan. 15, 1964); [[w.zhou-enlai-waijiao-huodong]], 386 (Jan. 15, 1964; 下午5时, 奥苏城堡, 第三次会谈, 介绍对外援助八项原则); [[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 15, 1964; 答加纳通讯社记者问, 宣布八项原则); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 315 (Jan. 15, 1964; at Accra, answering Ghana News Agency reporters, Zhou announces the eight principles of the Chinese government''s economic and technical aid to other countries: aid on the principle of equality and mutual benefit, regarded as mutual; strict respect for the receiving country''s sovereignty, never asking privileges or attaching conditions; aid in the form of interest-free or low-interest loans, with repayment dates extended when needed; the aim to help the receiving country gradually to self-reliant, independent development; projects need little investment and bring quick returns; China supplies the best equipment and materials it makes, at international market prices; in giving technical aid, it ensures that the receiving country''s personnel master the technique fully; and its experts get the same material treatment as the receiving country''s own, with no special demands or privileges); [[w.jian-zhou-enlai]], 502 (Jan. 15, Accra: the eight principles of China''s economic and technical aid). To check: [[w.zhou-enlai-waijiao-wenxuan]], 388–389 (cited by [[w.jian-zhou-enlai]], 502 n.39). Names: Zhou Enlai, Nkrumah.'
     src:
       c: 70db556b
       rows:
@@ -3640,6 +3671,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 386: A'
         - 'w.zhou-enlai-waijiao-huodong 387: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 315: B'
+        - 'w.jian-zhou-enlai 502: ?'
     tags: [name:zhou-enlai, name:nkrumah-kwame, polity:prc, polity:ghana]
     time_zone: Africa/Accra
   - id: cal.1964-01-15.china-leadership-2
@@ -6513,7 +6545,7 @@ entries:
     thread: europe-and-the-alliance
     also: [vietnam, china]
     c: 'France and the People''s Republic of China announce recognition. Johnson keeps the protest low; Chiang asked not to break with Paris first. De Gaulle, Jan. 31: no neutrality in Southeast Asia without China. Feb. 10, Taipei ends relations with France.'
-    n: '[FRUS 1964–68, XXX, doc. 2](https://history.state.gov/historicaldocuments/frus1964-68v30/d2); [FRUS 1964–68, XXX, doc. 12](https://history.state.gov/historicaldocuments/frus1964-68v30/d12); [FRUS 1964–68, I, doc. 27](https://history.state.gov/historicaldocuments/frus1964-68v01/d27). [[w.schwartz-lyndon-johnson-and-europe]], 31 (Johnson''s response); [[w.zedong-mao-zedong-nianpu]], V, Jan. 27, 1964 (the joint communiqué). [[w.logevall-choosing-war]], 100, 103 (the announcement, Jan. 27, 100; de Gaulle, Jan. 31, 103); [[w.zhou-enlai-nianpu-1949]], II, 616 (Jan. 27, 1964: the joint communiqué of the two governments, ambassadors within three months, France the first Western great power to recognize China); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 317–318 (Jan. 27, 1964; China and France establish diplomatic relations; the joint communique: the two governments agree to establish relations and to name ambassadors within three months); [[w.macfarquhar-origins-of-the-cultural]], III, 366 (de Gaulle recognizes the People''s Republic in January 1964; neither France nor China will sign the partial test-ban treaty); [[w.yang-shangkun-riji]], II, 347 (Jan. 28, 1964; the communiqué on Sino-French relations 中法建交的公报 published in Peking Jan. 28). To check: [[w.bohlen-witness-to-history-1929]]; Johnson and Russell, Jan. 15, 1964 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 31 n.94, from Beschloss, *Taking Charge*, 162); [[w.erasmus-general-de-gaulles-recognition]], 195–200 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 366 n.113a); [[w.lacouture-de-gaulle]], 392–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 366 n.113b). See [[cal.1963-01-14.europe-and-the-alliance]]. Names: Johnson, de Gaulle, Chiang Kai-shek.'
+    n: '[FRUS 1964–68, XXX, doc. 2](https://history.state.gov/historicaldocuments/frus1964-68v30/d2); [FRUS 1964–68, XXX, doc. 12](https://history.state.gov/historicaldocuments/frus1964-68v30/d12); [FRUS 1964–68, I, doc. 27](https://history.state.gov/historicaldocuments/frus1964-68v01/d27). [[w.schwartz-lyndon-johnson-and-europe]], 31 (Johnson''s response); [[w.zedong-mao-zedong-nianpu]], V, Jan. 27, 1964 (the joint communiqué). [[w.logevall-choosing-war]], 100, 103 (the announcement, Jan. 27, 100; de Gaulle, Jan. 31, 103); [[w.zhou-enlai-nianpu-1949]], II, 616 (Jan. 27, 1964: the joint communiqué of the two governments, ambassadors within three months, France the first Western great power to recognize China); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 317–318 (Jan. 27, 1964; China and France establish diplomatic relations; the joint communique: the two governments agree to establish relations and to name ambassadors within three months); [[w.macfarquhar-origins-of-the-cultural]], III, 366 (de Gaulle recognizes the People''s Republic in January 1964; neither France nor China will sign the partial test-ban treaty); [[w.yang-shangkun-riji]], II, 347 (Jan. 28, 1964; the communiqué on Sino-French relations 中法建交的公报 published in Peking Jan. 28); [[w.jian-zhou-enlai]], 508 (the communiqué issued Jan. 27). To check: [[w.bohlen-witness-to-history-1929]]; Johnson and Russell, Jan. 15, 1964 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 31 n.94, from Beschloss, *Taking Charge*, 162); [[w.erasmus-general-de-gaulles-recognition]], 195–200 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 366 n.113a); [[w.lacouture-de-gaulle]], 392–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 366 n.113b). See [[cal.1963-01-14.europe-and-the-alliance]]. Names: Johnson, de Gaulle, Chiang Kai-shek.'
     src:
       c: bd097ca0
       rows:
@@ -6533,6 +6565,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 366 n.113b: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 366 n.113c: A'
         - 'w.yang-shangkun-riji II, 347: ?'
+        - 'w.jian-zhou-enlai 508: ?'
     tags: [name:johnson-lyndon-b, name:de-gaulle-charles, name:chiang-kai-shek]
     short: France recognizes Peking
   - id: cal.1964-01-27.elections-1964

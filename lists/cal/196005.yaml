@@ -133,6 +133,53 @@ entries:
         - 'w.yang-shangkun-riji I, 504: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1960-05-01.china-leadership-8
+    when: May 1
+    date: '1960-05-01'
+    time: 1960-05-01T02:00Z
+    time_approx: true
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明, the Tuodong 拓东 stadium of the Tuodong people's commune. Chen Yi 陈毅 at the city's May Day meeting; then writes the poem "May Day garden party at Kunming" 《昆明五一游园》.
+    n: '[[w.chen-yi-nianpu]], 813. The words: 上午10时许 (813). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-01.china-leadership-9
+    when: May 1
+    date: '1960-05-01'
+    time: 1960-05-01T08:00Z
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明, Yuantong Park 圆通公园. Chen Yi 陈毅 joins the festivities of the nationalities and circles; then writes two *ci* 词 under the title "May Day garden party at Kunming" 《昆明五一游园》.
+    n: '[[w.chen-yi-nianpu]], 813. The words: 下午4时 (813). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-01.china-leadership-10
+    when: May 1
+    date: '1960-05-01'
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明, the Yunnan Provincial People's Council 云南省人民委员会. Chen Yi 陈毅 receives the heads of the Yunnan CPPCC 云南省政协, the democratic parties and the people's bodies and noted figures.
+    n: '[[w.chen-yi-nianpu]], 813. The words: 下午 (813). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1960-05-01T04:00Z
+      - 1960-05-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-01.china-leadership-11
+    when: May 1
+    date: '1960-05-01'
+    place: kunming
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes the poem "A festival night at Kunming" 《昆明节日之夜》.
+    n: '[[w.chen-yi-nianpu]], 813. The words: 晚上 (813). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1960-05-01T11:00Z
+      - 1960-05-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-02.crime-and-hijacking-ca
     when: May 2
     date: '1960-05-02'
@@ -774,13 +821,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai reaches Phnom Penh for a friendly visit to Cambodia; calls on Prince Sihanouk, Premier Pho Proeung, the Queen and the Regency Council, and pays his respects to the body of the late King Norodom Suramarit.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 316 (May 5, 1960); [[w.zhou-enlai-waijiao-huodong]], 277 (May 5, 1960; 上午9时, 到达金边; 上午11时30分, 桑园别墅拜会西哈努克; 中午12时20分, 首相府拜会福·波伦; 下午, 向国王遗体致哀; 下午5时, 拜会王后和摄政委员会); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 141 (May 5–9, 1960; Zhou and Chen Yi visit Cambodia; talks with Sihanouk and Premier Pho Proeung). Names: Zhou Enlai, Sihanouk, Pho Proeung.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 316 (May 5, 1960); [[w.zhou-enlai-waijiao-huodong]], 277 (May 5, 1960; 上午9时, 到达金边; 上午11时30分, 桑园别墅拜会西哈努克; 中午12时20分, 首相府拜会福·波伦; 下午, 向国王遗体致哀; 下午5时, 拜会王后和摄政委员会); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 141 (May 5–9, 1960; Zhou and Chen Yi visit Cambodia; talks with Sihanouk and Premier Pho Proeung); [[w.chen-yi-nianpu]], 814 (May 5, 1960; Chen Yi leaves Kunming with Zhou Enlai in the morning and reaches Phnom Penh at 9 a.m.; with Zhou calls on Sihanouk at the Chamcar Mon villa at 11:30 and on Pho Proeung at the Prime Minister''s office at 12:20; pays respects to the late King''s body in the afternoon; with the others when the Queen and the Regency Council receive Zhou in the throne hall at 5 p.m.). Names: Zhou Enlai, Sihanouk, Pho Proeung.'
     src:
       c: 4e85ded3
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 316: ?'
         - 'w.zhou-enlai-waijiao-huodong 277: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 141: A'
+        - 'w.chen-yi-nianpu 814: ?'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, name:pho-proeung]
   - id: cal.1960-05-05.china-leadership-3
     when: May 5
@@ -790,11 +838,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Phnom Penh, Chamcar Mon Palace. Zhou Enlai attends the welcoming banquet given by Prince Sisowath Monireth, chairman of the Regency Council.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 278 (May 5, 1960; 晚8时30分, 克玛林宫). See [[cal.1960-05-05.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 278 (May 5, 1960; 晚8时30分, 克玛林宫); [[w.chen-yi-nianpu]], 814 (May 5, 1960, 8:30 p.m.; Chen Yi at the banquet of Prince Sisowath Monireth, chairman of the Regency Council). See [[cal.1960-05-05.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 906eda40
       rows:
         - 'w.zhou-enlai-waijiao-huodong 278: all'
+        - 'w.chen-yi-nianpu 814: ?'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai]
     time_zone: Asia/Phnom_Penh
   - id: cal.1960-05-05.china-leadership-4
@@ -914,7 +963,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai attends the welcome meeting of the Khmer Royal Socialist Youth; with Sihanouk opens Cambodia's Royal Radio station (Zhou's gift on his last visit); visits the Chinese-built plywood factory; receives over 200 overseas Chinese.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 316 (May 6, 1960); [[w.zhou-enlai-waijiao-huodong]], 278 (May 6, 1960; 上午8时, 王宫广场; 上午10时; 上午; 下午5时30分, 中国驻金边大使馆). Names: Zhou Enlai, Sihanouk.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 316 (May 6, 1960); [[w.zhou-enlai-waijiao-huodong]], 278 (May 6, 1960; 上午8时, 王宫广场; 上午10时; 上午; 下午5时30分, 中国驻金边大使馆); [[w.chen-yi-nianpu]], 814 (May 6, 1960; Chen Yi speaks at the rally of the Khmer Royal Socialist Youth in the Royal Palace square welcoming Zhou Enlai and Chen Yi, 8 a.m.; with Zhou at the Royal Radio''s opening, 10 a.m., and at the Chinese-built plywood factory in the morning; at the Chinese Embassy with Zhou receiving 200 overseas Chinese representatives, 5:30 p.m.). Names: Zhou Enlai, Sihanouk.'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
   - id: cal.1960-05-06.china-leadership-2
     when: May 6
@@ -924,11 +973,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Phnom Penh. Zhou Enlai attends the state banquet given by the Cambodian government.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 278 (May 6, 1960; 晚8时30分). See [[cal.1960-05-05.china-leadership-2]]. Names: Zhou Enlai, Sihanouk.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 278 (May 6, 1960; 晚8时30分); [[w.chen-yi-nianpu]], 814 (May 6, 1960, 8:30 p.m.; Chen Yi at the Cambodian government''s state banquet for Zhou Enlai). See [[cal.1960-05-05.china-leadership-2]]. Names: Zhou Enlai, Sihanouk.'
     src:
       c: 471621e0
       rows:
         - 'w.zhou-enlai-waijiao-huodong 278: all'
+        - 'w.chen-yi-nianpu 814: ?'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk]
     time_zone: Asia/Phnom_Penh
   - id: cal.1960-05-06.china-leadership-3
@@ -1162,7 +1212,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai at Kompong Cham for the symbolic opening of the Royal Textile Mill, with a speech; visits the Longbo reservoir.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 316 (May 7, 1960); [[w.zhou-enlai-waijiao-huodong]], 278 (May 7, 1960; 晨, 离金边; 上午8时, 磅湛; 下午2时, 白马; 下午, 龙波水库). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 316 (May 7, 1960); [[w.zhou-enlai-waijiao-huodong]], 278 (May 7, 1960; 晨, 离金边; 上午8时, 磅湛; 下午2时, 白马; 下午, 龙波水库); [[w.chen-yi-nianpu]], 814 (May 7, 1960, 8 a.m.; Chen Yi leaves Phnom Penh with Zhou Enlai for Kompong Cham and the symbolic opening of the Chinese-built Royal Textile Mill). Names: Zhou Enlai.'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai]
   - id: cal.1960-05-07.china-leadership-3
     when: May 7
@@ -1248,6 +1298,36 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1547: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1960-05-07.china-leadership-9
+    when: May 7
+    date: '1960-05-07'
+    time: 1960-05-07T06:00Z
+    place: siem-reap
+    thread: china-leadership
+    c: Chen Yi 陈毅 reaches Siem Reap 暹粒 with General Lon Nol 朗诺, commander-in-chief of the Royal Khmer Armed Forces.
+    n: '[[w.chen-yi-nianpu]], 814. The words: 下午1时 (814). Names: Chen Yi, Lon Nol.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:lon-nol]
+    time_zone: Asia/Phnom_Penh
+  - id: cal.1960-05-07.china-leadership-10
+    when: May 7
+    date: '1960-05-07'
+    time: 1960-05-07T09:00Z
+    place: siem-reap
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Lon Nol and 胡洪, governor of Siem Reap province, at Angkor 吴哥, the temples built between the eleventh and the thirteenth centuries.
+    n: '[[w.chen-yi-nianpu]], 814–815. See [[cal.1960-05-07.china-leadership-9]]. The words: 下午4时 (814–815). Names: Chen Yi, Lon Nol.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:lon-nol]
+    time_zone: Asia/Phnom_Penh
+  - id: cal.1960-05-07.china-leadership-11
+    when: May 7
+    date: '1960-05-07'
+    time: 1960-05-07T13:30Z
+    place: siem-reap
+    thread: china-leadership
+    c: Siem Reap 暹粒. Chen Yi 陈毅 at the banquet of 胡洪, the province's governor.
+    n: '[[w.chen-yi-nianpu]], 815. See [[cal.1960-05-07.china-leadership-9]]. The words: 晚上8时30分 (815). Names: Chen Yi.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi]
+    time_zone: Asia/Phnom_Penh
   - id: cal.1960-05-08.soviet-union-u2
     when: May 8
     date: '1960-05-08'
@@ -1301,13 +1381,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai talks with Sihanouk, returns to Phnom Penh, issues a joint statement with Premier Pho Proeung and holds a press conference.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 316 (May 8, 1960); [[w.zhou-enlai-waijiao-huodong]], 278 (May 8, 1960; 上午, 白马湾巡舰会谈; 下午5时45分, 王宫姜奇哈亚大殿, joint statement; 晚11时30分, 外交部大厦, press conference); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 141 (May 5–9, 1960; the joint statement: Sino-Cambodian cooperation an example between states of different systems; neither will use force against a neighbor''s territory; the summit to reach concrete results, above all a nuclear ban and general disarmament; equality of large and small states). Made public: 1993. Names: Zhou Enlai, Sihanouk, Pho Proeung.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 316 (May 8, 1960); [[w.zhou-enlai-waijiao-huodong]], 278 (May 8, 1960; 上午, 白马湾巡舰会谈; 下午5时45分, 王宫姜奇哈亚大殿, joint statement; 晚11时30分, 外交部大厦, press conference); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 141 (May 5–9, 1960; the joint statement: Sino-Cambodian cooperation an example between states of different systems; neither will use force against a neighbor''s territory; the summit to reach concrete results, above all a nuclear ban and general disarmament; equality of large and small states); [[w.chen-yi-nianpu]], 815 (May 8, 1960; Chen Yi from Siem Reap to Kep (白马湾) in the morning, where with Zhou Enlai and Sihanouk he tours the bay on a Cambodian navy patrol boat; back with Zhou to Phnom Penh in the afternoon; at the signing of the joint statement of Zhou and Pho Proeung, the Chanchhaya hall of the Royal Palace, 5:45 p.m.; at Zhou''s press conference at the Foreign Ministry building, 11:30 p.m.). Made public: 1993. Names: Zhou Enlai, Sihanouk, Pho Proeung.'
     src:
       c: 922dc9d1
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 316: ?'
         - 'w.zhou-enlai-waijiao-huodong 278: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 141: A'
+        - 'w.chen-yi-nianpu 815: ?'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:norodom-sihanouk, name:pho-proeung, vis:only:prc+cambodia]
   - id: cal.1960-05-08.china-leadership-4
     when: May 8
@@ -1418,6 +1499,29 @@ entries:
         witness: w.odonnell-johnny-we-hardly-knew
         reads: 'as White remembered it: "if he breaks his oath, he is not only committing a crime against the Constitution, for which the Congress can impeach him, and should impeach him, but he is committing a sin against God."'
         at: '189'
+  - id: cal.1960-05-08.china-leadership-13
+    when: May 8
+    date: '1960-05-08'
+    time: 1960-05-08T11:30Z
+    place: phnom-penh
+    thread: china-leadership
+    c: Phnom Penh. Chen Yi 陈毅 at the reception of Wang Youping 王幼平, the Chinese Ambassador, at his residence, for Zhou Enlai's 周恩来 visit.
+    n: '[[w.chen-yi-nianpu]], 815. See [[cal.1960-05-05.china-leadership-2]]. The words: 晚上6时30分 (815). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:zhou-enlai]
+    time_zone: Asia/Phnom_Penh
+  - id: cal.1960-05-08.china-leadership-14
+    when: May 8
+    date: '1960-05-08'
+    place: phnom-penh
+    thread: china-leadership
+    c: Phnom Penh. Chen Yi 陈毅 at Zhou Enlai's 周恩来 return banquet.
+    n: '[[w.chen-yi-nianpu]], 815. See [[cal.1960-05-05.china-leadership-2]]. The words: 晚上 (815). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1960-05-08T12:00Z
+      - 1960-05-08T15:00Z
+    time_band: evening
+    time_zone: Asia/Phnom_Penh
   - id: cal.1960-05-09.soviet-union
     when: May 9–11
     date: '1960-05-09'
@@ -1520,14 +1624,16 @@ entries:
   - id: cal.1960-05-09.china-leadership-2
     when: May 9
     date: '1960-05-09'
+    time: 1960-05-09T02:30Z
     place:
       - phnom-penh
       - vinh
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou Enlai leaves Phnom Penh for Hanoi on a friendly visit to Vietnam; weather puts his plane down at Vinh, where he meets the Nghệ An Party committee officers, Hoàng Văn Hoan, Trần Tử Bình and China's Ambassador He Wei, who came from Hanoi.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 316 (May 9, 1960); [[w.zhou-enlai-waijiao-huodong]], 279 (May 9, 1960; 上午9时30分; 宜安). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 316 (May 9, 1960); [[w.zhou-enlai-waijiao-huodong]], 279 (May 9, 1960; 上午9时30分; 宜安); [[w.chen-yi-nianpu]], 815 (May 9, 1960, 9:30 a.m.; Chen Yi leaves Phnom Penh with Zhou Enlai; the weather puts the plane down at Vinh, where they rest; with Zhou meets 黄文艳, chairman of the Nghệ An administrative committee and deputy Party secretary, and the province''s other officials). Names: Zhou Enlai.'
     tags: [polity:prc, polity:drv, name:zhou-enlai]
+    time_zone: Asia/Phnom_Penh
   - id: cal.1960-05-09.china-leadership-3
     when: May 9
     date: '1960-05-09'
@@ -1536,11 +1642,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Phnom Penh. Zhou Enlai takes leave of the Queen and the members of the Regency Council.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 278–79 (May 9, 1960; 上午8时30分). See [[cal.1960-05-05.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 278–79 (May 9, 1960; 上午8时30分); [[w.chen-yi-nianpu]], 815 (May 9, 1960, 8:30 a.m.; Chen Yi with Zhou Enlai takes leave of the Queen and the Regency Council). See [[cal.1960-05-05.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: b9b8eb43
       rows:
         - 'w.zhou-enlai-waijiao-huodong 278–79: all'
+        - 'w.chen-yi-nianpu 815: ?'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai]
     time_zone: Asia/Phnom_Penh
   - id: cal.1960-05-09.china-leadership-4
@@ -1884,7 +1991,7 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou Enlai reaches Hanoi; calls on President Hồ Chí Minh and Premier Phạm Văn Đồng; visits the Thăng Long cigarette factory, the Sao Vàng rubber works and the Hanoi cigarette factory, built with Chinese aid; speaks to a mass meeting; lays a wreath at the Mai Dịch martyrs' cemetery.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 316 (May 10, 1960); [[w.zhou-enlai-waijiao-huodong]], 279 (May 10, 1960; 上午9时20分, 河内嘉林机场; 上午, 拜会; 下午, 参观; 下午4时, 烈士墓献花圈). Names: Zhou Enlai, Hồ Chí Minh, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 316 (May 10, 1960); [[w.zhou-enlai-waijiao-huodong]], 279 (May 10, 1960; 上午9时20分, 河内嘉林机场; 上午, 拜会; 下午, 参观; 下午4时, 烈士墓献花圈); [[w.chen-yi-nianpu]], 815 (May 10, 1960; Chen Yi from Vinh to Gia Lâm airport, Hanoi, 9:20 a.m.; with Zhou Enlai calls on Hồ Chí Minh and Phạm Văn Đồng in the morning; at the wreath-laying at the martyrs'' cemetery, 4 p.m.; with Zhou and Phạm Văn Đồng at the Thăng Long cigarette factory, the Sao Vàng rubber works and the Hanoi soap works and their joint welcome meeting in the afternoon). Names: Zhou Enlai, Hồ Chí Minh, Phạm Văn Đồng.'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:ho-chi-minh, name:pham-van-dong]
   - id: cal.1960-05-10.china-leadership-4
     when: May 10
@@ -1893,11 +2000,12 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Hanoi. Zhou Enlai attends the state banquet given by Phạm Văn Đồng; Hồ Chí Minh attends.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 279 (May 10, 1960; 晚上). See [[cal.1960-05-10.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng, Hồ Chí Minh.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 279 (May 10, 1960; 晚上); [[w.chen-yi-nianpu]], 816 (May 10, 1960, evening; Chen Yi with Zhou Enlai at Phạm Văn Đồng''s state banquet). See [[cal.1960-05-10.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng, Hồ Chí Minh.'
     src:
       c: 4b67b540
       rows:
         - 'w.zhou-enlai-waijiao-huodong 279: all'
+        - 'w.chen-yi-nianpu 816: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, name:ho-chi-minh]
     time_range:
       - 1960-05-10T12:00Z
@@ -2232,14 +2340,54 @@ entries:
     thread: china
     also: [vietnam-hanoi]
     c: 'Hanoi. Zhou Enlai, in private meetings, urges the North''s leaders to keep the status quo in the South, avoid escalation, and finish collectivizing agriculture and build light industry: the North first a rear base.'
-    n: '[[w.asselin-hanois-road-to-the]], 79; [[w.zhou-enlai-nianpu-1949]], II, 316, May 11, 1960 (the talks of May 11–13). To check: [[w.zhai-china-and-the-vietnam]], 82–83 (cited by [[w.asselin-hanois-road-to-the]], 79 n.41). Names: Zhou Enlai. Check: the days.'
+    n: '[[w.asselin-hanois-road-to-the]], 79; [[w.zhou-enlai-nianpu-1949]], II, 316, May 11, 1960 (the talks of May 11–13); [[w.jian-zhou-enlai]], 493 (Hanoi, May 1960: not against the Southern Revolution, but a "flexible approach combining political and military struggles"; not to abandon political action). To check: [[w.zhai-china-and-the-vietnam]], 82–83 (cited by [[w.asselin-hanois-road-to-the]], 79 n.41); Summary of Premier Zhou''s meetings with Phạm Văn Đồng during his visit to Vietnam, May 11, 1960 (cited by [[w.jian-zhou-enlai]], 493 n.6a); Zhou Enlai''s second conversation with Hồ Chí Minh, Lê Duẩn and others, May 12, 1960 (cited by [[w.jian-zhou-enlai]], 493 n.6b); [[w.zhou-enlai-waijiao-huodong]], 279–280 (cited by [[w.jian-zhou-enlai]], 493 n.6c). Names: Zhou Enlai. Check: the days.'
     src:
       c: f6fda84e
       rows:
         - 'w.asselin-hanois-road-to-the 79: all'
         - 'via x.2000.zhai-china-and-the-vietnam-82-83: all'
         - 'w.zhou-enlai-nianpu-1949 II, 316, May 11, 1960: B'
+        - 'w.jian-zhou-enlai 493: ?'
+        - 'via x.1960-05-11.summary-zhou-meetings-pham-van-dong: ?'
+        - 'via x.1960-05-12.zhou-second-conversation-ho-le-duan: ?'
     tags: [name:zhou-enlai, place:hanoi]
+  - id: cal.1960-05-11.china-leadership-12
+    when: May 11
+    date: '1960-05-11'
+    time: 1960-05-11T04:30Z
+    place: bai-chay
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Bãi Cháy 拜寨, on Hạ Long Bay 下龙湾. Chen Yi 陈毅 arrives by car with Phạm Hùng 范雄, Deputy Prime Minister, and others, welcomed on the way at Haiphong 海防 and Hải Dương 海阳; introduced by 阮玉潭, vice-chairman of the Hồng Quảng zone's 鸿广区 administrative committee, he speaks from the guesthouse balcony to the crowd in the street below.
+    n: '[[w.chen-yi-nianpu]], 816. The words: 11时30分 (816). Names: Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi]
+    time_zone: Asia/Bangkok
+  - id: cal.1960-05-11.china-leadership-13
+    when: May 11
+    date: '1960-05-11'
+    place: bai-chay
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Phạm Hùng 范雄, on Hạ Long Bay 下龙湾 in a Vietnamese navy gunboat; then writes the poem "Touring Hạ Long Bay" 《游下龙湾》.
+    n: '[[w.chen-yi-nianpu]], 816. See [[cal.1960-05-11.china-leadership-12]]. The words: 下午 (816). Names: Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi]
+    time_range:
+      - 1960-05-11T05:00Z
+      - 1960-05-11T11:00Z
+    time_band: afternoon
+    time_zone: Asia/Bangkok
+  - id: cal.1960-05-11.china-leadership-14
+    when: May 11
+    date: '1960-05-11'
+    place: bai-chay
+    thread: china-leadership
+    c: The Party and government organs and people's bodies of the Hồng Quảng zone 鸿广区 give a banquet welcoming Chen Yi 陈毅 and Zhang Hanfu 章汉夫.
+    n: '[[w.chen-yi-nianpu]], 816. See [[cal.1960-05-11.china-leadership-12]]. The words: 晚上 (816). Names: Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi]
+    time_range:
+      - 1960-05-11T12:00Z
+      - 1960-05-11T15:00Z
+    time_band: evening
+    time_zone: Asia/Bangkok
   - id: cal.1960-05-12.students
     when: May 12–14
     date: '1960-05-12'
@@ -2382,12 +2530,13 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, china]
     c: 'Zhou Enlai''s second talk with the Lao Động delegation, Chen Yi and Zhang Hanfu added: class struggle goes on abroad under peaceful coexistence; imperialism will not give up wrecking socialist states, and Dulles wrote that if war cannot end socialism it must be changed from within. The international united front: first the working people, then the bourgeoisie. Struggles in the intermediate zone to be firmly supported, under the slogans of nation, independence and peace, not socialism. Vietnam''s transformation has results; the cooperative percentage is high enough for water works and manure.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 317 (May 12, 1960); [[w.zhou-enlai-waijiao-huodong]], 279 (May 12, 1960; 下午4时30分, second talks). Made public: 1993. Names: Zhou Enlai, Chen Yi, Lê Duẩn, Phạm Văn Đồng, Trường Chinh.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 317 (May 12, 1960); [[w.zhou-enlai-waijiao-huodong]], 279 (May 12, 1960; 下午4时30分, second talks); [[w.chen-yi-nianpu]], 816 (May 12, 1960, 4:30 p.m.; Chen Yi at the talks of the two parties'' delegations). Made public: 1993. Names: Zhou Enlai, Chen Yi, Lê Duẩn, Phạm Văn Đồng, Trường Chinh.'
     src:
       c: 0c319a53
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 317: ?'
         - 'w.zhou-enlai-waijiao-huodong 279: A'
+        - 'w.chen-yi-nianpu 816: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:chen-yi, name:le-duan, name:pham-van-dong, name:truong-chinh, vis:only:prc+drv]
     time_zone: Asia/Bangkok
   - id: cal.1960-05-12.china-leadership-3
@@ -2397,11 +2546,12 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Hanoi. Zhou Enlai attends the reception given by the Chinese Ambassador, He Wei, for his visit; Phạm Văn Đồng attends.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 279 (May 12, 1960; 晚上). See [[cal.1960-05-10.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 279 (May 12, 1960; 晚上); [[w.chen-yi-nianpu]], 816 (May 12, 1960, evening; Chen Yi at He Wei''s reception). See [[cal.1960-05-10.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng.'
     src:
       c: 3aca7464
       rows:
         - 'w.zhou-enlai-waijiao-huodong 279: all'
+        - 'w.chen-yi-nianpu 816: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong]
     time_range:
       - 1960-05-12T12:00Z
@@ -2452,6 +2602,18 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1548: all'
     tags: [polity:prc, name:deng-xiaoping, name:li-fuchun, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-05-12.china-leadership-8
+    when: May 12
+    date: '1960-05-12'
+    time: 1960-05-12T09:00Z
+    place:
+      - bai-chay
+      - hanoi
+    thread: china-leadership
+    c: Chen Yi 陈毅 back in Hanoi 河内 from Hạ Long Bay 下龙湾, having stopped at Haiphong 海防 to lunch with the city's Party and government leaders.
+    n: '[[w.chen-yi-nianpu]], 816. See [[cal.1960-05-11.china-leadership-12]]. The words: 下午4时 (816). Names: Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi]
+    time_zone: Asia/Bangkok
   - id: cal.1960-05-13.jobs-and-wages
     when: May 13
     date: '1960-05-13'
@@ -2526,12 +2688,13 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, china]
     c: Zhou Enlai at a mass meeting of 80,000 in Hanoi, supporting Vietnam's struggle to unify the country.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 318 (May 13, 1960); [[w.zhou-enlai-waijiao-huodong]], 279 (May 13, 1960; 清晨). Names: Zhou Enlai, Hồ Chí Minh.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 318 (May 13, 1960); [[w.zhou-enlai-waijiao-huodong]], 279 (May 13, 1960; 清晨); [[w.chen-yi-nianpu]], 816 (May 13, 1960, early morning (晨); Chen Yi at the Hanoi citizens'' meeting welcoming Zhou Enlai). Names: Zhou Enlai, Hồ Chí Minh.'
     src:
       c: c950b2a0
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 318: ?'
         - 'w.zhou-enlai-waijiao-huodong 279: A'
+        - 'w.chen-yi-nianpu 816: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:ho-chi-minh]
     time_range:
       - 1960-05-12T22:00Z
@@ -2556,12 +2719,14 @@ entries:
   - id: cal.1960-05-13.china-leadership-3
     when: May 13
     date: '1960-05-13'
+    time: 1960-05-13T09:00Z
     place: hanoi
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou Enlai talks with Hồ Chí Minh, then receives the Vietnam–China Friendship Association's delegation and Vietnam's overseas Chinese.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 318 (May 13, 1960); [[w.zhou-enlai-waijiao-huodong]], 280 (May 13, 1960; 下午4时, 越中友协代表; 下午, 主席府, 华侨代表). Made public: 1993. Names: Zhou Enlai, Hồ Chí Minh.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 318 (May 13, 1960); [[w.zhou-enlai-waijiao-huodong]], 280 (May 13, 1960; 下午4时, 越中友协代表; 下午, 主席府, 华侨代表); [[w.chen-yi-nianpu]], 816 (May 13, 1960, 4 p.m.; Chen Yi with Zhou Enlai receives the Vietnam–China Friendship Association''s representatives led by its vice-president Trần Huy Liệu 陈辉燎, and, at the Presidential Palace, the overseas Chinese representatives, to whom he speaks). Made public: 1993. Names: Zhou Enlai, Hồ Chí Minh.'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:ho-chi-minh, vis:only:prc+drv]
+    time_zone: Asia/Bangkok
   - id: cal.1960-05-13.china-leadership-4
     when: May 13
     date: '1960-05-13'
@@ -2578,11 +2743,12 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Hanoi. Zhou Enlai gives a luncheon at the Chinese Embassy for Hồ Chí Minh and the Vietnamese Party and government leaders.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 279–80 (May 13, 1960; 中午, 中国驻越南大使馆). See [[cal.1960-05-10.china-leadership-3]]. Names: Zhou Enlai, Hồ Chí Minh.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 279–80 (May 13, 1960; 中午, 中国驻越南大使馆); [[w.chen-yi-nianpu]], 816 (May 13, 1960, noon; Chen Yi at Zhou Enlai''s return banquet at the Chinese Embassy; writes a poem on the spot, "Birthday wishes for Chairman Hồ Chí Minh at seventy" 《胡志明主席七十大寿祝辞》). See [[cal.1960-05-10.china-leadership-3]]. Names: Zhou Enlai, Hồ Chí Minh.'
     src:
       c: 6c0ff92b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 279–80: all'
+        - 'w.chen-yi-nianpu 816: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:ho-chi-minh]
     time_range:
       - 1960-05-13T05:00Z
@@ -2711,6 +2877,19 @@ entries:
       rows:
         - 'w.sorensen-kennedy 148: all'
     tags: [name:truman-harry-s, name:symington-william-s, name:kennedy-john-f]
+  - id: cal.1960-05-13.china-leadership-15
+    when: May 13
+    date: '1960-05-13'
+    place: hanoi
+    thread: china-leadership
+    c: Hanoi 河内. Chen Yi 陈毅 and Zhang Hanfu 章汉夫, with Trần Tử Bình 陈子平, the DRV's Ambassador to China, and Trần Duy Hưng 陈维兴, chairman of Hanoi's administrative committee, lay flowers at the temple of the Trưng sisters 二征王庙.
+    n: '[[w.chen-yi-nianpu]], 816. The words: 上午 (816). Names: Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi]
+    time_range:
+      - 1960-05-12T23:00Z
+      - 1960-05-13T05:00Z
+    time_band: morning
+    time_zone: Asia/Bangkok
   - id: cal.1960-05-14.foreign-aid
     when: May 14
     date: '1960-05-14'
@@ -2769,13 +2948,14 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, china]
     c: The Sino-Vietnamese premiers' joint communiqué is issued. Zhou that day to Nanning; on the 15th to Guilin and Changsha.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 319 (May 14, 1960); [[w.zhou-enlai-waijiao-huodong]], 280 (May 14, 1960; 晨7时30分, 离河内; 上午, 回到南宁); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 143 (May 9–14, 1960; Zhou and Chen Yi visit Vietnam; Ho Chi Minh receives them; the premiers'' joint communique, which welcomes the results of the Conakry conference and counts the Burma and Nepal treaties and agreements as victories of the five principles). Names: Zhou Enlai, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 319 (May 14, 1960); [[w.zhou-enlai-waijiao-huodong]], 280 (May 14, 1960; 晨7时30分, 离河内; 上午, 回到南宁); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 143 (May 9–14, 1960; Zhou and Chen Yi visit Vietnam; Ho Chi Minh receives them; the premiers'' joint communique, which welcomes the results of the Conakry conference and counts the Burma and Nepal treaties and agreements as victories of the five principles); [[w.chen-yi-nianpu]], 816 (May 15, 1960; Chen Yi with Zhou Enlai and others at Yangshuo, Guangxi). Names: Zhou Enlai, Phạm Văn Đồng.'
     src:
       c: d449efef
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 319: ?'
         - 'w.zhou-enlai-waijiao-huodong 280: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 143: A'
+        - 'w.chen-yi-nianpu 816: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong]
   - id: cal.1960-05-14.china-leadership-3
     when: May 14
@@ -2785,11 +2965,12 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Hanoi. Zhou Enlai ends the visit to Vietnam and leaves by special plane; Phạm Văn Đồng and other Party and government leaders see him off at the airport.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 280 (May 14, 1960; 晨7时30分). See [[cal.1960-05-10.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 280 (May 14, 1960; 晨7时30分); [[w.chen-yi-nianpu]], 816 (May 14, 1960, morning; Chen Yi leaves Hanoi with Zhou Enlai and is back at Nanning, Guangxi). See [[cal.1960-05-10.china-leadership-3]]. Names: Zhou Enlai, Phạm Văn Đồng.'
     src:
       c: 0cff568c
       rows:
         - 'w.zhou-enlai-waijiao-huodong 280: all'
+        - 'w.chen-yi-nianpu 816: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong]
     time_zone: Asia/Bangkok
   - id: cal.1960-05-14.china-leadership-4
@@ -3078,7 +3259,7 @@ entries:
     thread: china-leadership
     also: [south-asia, soviet-union]
     c: 'Wuchang, evening. Zhou Enlai and Chen Yi report to Mao on their visits to Burma, India, Nepal, Cambodia and Vietnam; Sino-American relations, Sino-Soviet unity. Mao to Zhou, the same day: Eisenhower''s statement of May 11 on the U-2 "very important."'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 16, 1960; [[w.zhou-enlai-nianpu-1949]], II, 320, May 16, 1960 (Zhou''s and Chen Yi''s report to Mao that evening); [[w.lengxi-shinian-lunzhan-1956-1966]], 268 (Mao talked with Zhou "a morning" on the 16th); [[w.jianguo-yilai-mao-zedong]], XV, 219–220 (May 16, 1960; Mao''s 毛泽东 note to Zhou: look at p. 45, the American President''s talk, very important; written on the *Cankao ziliao* 参考资料 no. 3590 (Xinhua, May 12, 1960); printed from the manuscript); [[w.yang-shangkun-riji]], I, 508 (May 16, 1960; 9 p.m. to 12:30; Mao, Zhou and Chen Yi; Yang there). Made public: 1997. Check: the hour: Wu (268) has Mao talk with Zhou for a morning on the 16th; the Zhou nianpu has the report that evening. To check: Xinhua, *Cankao ziliao* 参考资料 no. 3590, May 12, 1960, pp. 45–52, ''The USIS reports Eisenhower''s press conference of the 11th'' (his statement on the U-2: the need for intelligence gathering, its nature, how to view it, the ''open skies'' plan) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 219 n.2). Names: Zhou Enlai, Chen Yi, Mao Zedong, Eisenhower.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, May 16, 1960; [[w.zhou-enlai-nianpu-1949]], II, 320, May 16, 1960 (Zhou''s and Chen Yi''s report to Mao that evening); [[w.lengxi-shinian-lunzhan-1956-1966]], 268 (Mao talked with Zhou "a morning" on the 16th); [[w.jianguo-yilai-mao-zedong]], XV, 219–220 (May 16, 1960; Mao''s 毛泽东 note to Zhou: look at p. 45, the American President''s talk, very important; written on the *Cankao ziliao* 参考资料 no. 3590 (Xinhua, May 12, 1960); printed from the manuscript); [[w.yang-shangkun-riji]], I, 508 (May 16, 1960; 9 p.m. to 12:30; Mao, Zhou and Chen Yi; Yang there); [[w.chen-yi-nianpu]], 817 (May 16, 1960, evening; Chen Yi with Zhou Enlai reports to Mao, at Wuhan, on the visits to five countries, Sino-American relations and Sino-Soviet unity). Made public: 1997. Check: the hour: Wu (268) has Mao talk with Zhou for a morning on the 16th; the Zhou nianpu has the report that evening. To check: Xinhua, *Cankao ziliao* 参考资料 no. 3590, May 12, 1960, pp. 45–52, ''The USIS reports Eisenhower''s press conference of the 11th'' (his statement on the U-2: the need for intelligence gathering, its nature, how to view it, the ''open skies'' plan) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 219 n.2). Names: Zhou Enlai, Chen Yi, Mao Zedong, Eisenhower.'
     src:
       c: cfacfbd5
       rows:
@@ -3088,7 +3269,13 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 219–220: D'
         - 'via w.jianguo-yilai-mao-zedong XV, 219 n.2: D'
         - 'w.yang-shangkun-riji I, 508: A'
+        - 'w.chen-yi-nianpu 817: ?'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi, name:mao-zedong, name:eisenhower-dwight-d, vis:only:prc]
+    time_range:
+      - 1960-05-16T11:00Z
+      - 1960-05-16T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-16.china-leadership-2
     when: May 16
     date: '1960-05-16'
@@ -3097,13 +3284,14 @@ entries:
     thread: china-leadership
     also: [africa-algeria-morocco, china]
     c: 'Zhou Enlai at Wuhan receives the delegation of the Algerian Provisional Government under Krim Belkacem, Vice Premier and Foreign Minister: unity of peoples, of working people and of the oppressed the main task against imperialism. Advice: the broadest national united front, since not every one of the million French in Algeria is hostile; political work among captured French soldiers, who are often forced to fight, to be sent back with rations to break the enemy; the army to arm itself from the enemy; talks as one means, armed strength never weakened. Self-reliance as the chief course, which China admires.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 319 (May 16, 1960); [[w.zhou-enlai-waijiao-huodong]], 280 (May 16, 1960; 下午3时, 武汉东湖); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 140 (Apr. 30–May 20, 1960; the Algerian Provisional Government''s delegation under Krim Belkacem visits (Apr. 30–May 3, May 7–9, May 13–20); Zhou, He Long and Chen Yi talk with Krim on the international situation and the Algerian and Asian-African struggles). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 319 (May 16, 1960); [[w.zhou-enlai-waijiao-huodong]], 280 (May 16, 1960; 下午3时, 武汉东湖); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 140 (Apr. 30–May 20, 1960; the Algerian Provisional Government''s delegation under Krim Belkacem visits (Apr. 30–May 3, May 7–9, May 13–20); Zhou, He Long and Chen Yi talk with Krim on the international situation and the Algerian and Asian-African struggles); [[w.chen-yi-nianpu]], 816–817 (May 16, 1960, afternoon, the East Lake, Wuhan; Chen Yi at Zhou Enlai''s meeting with Krim Belkacem and his delegation and at their talks). Made public: 1993. Names: Zhou Enlai.'
     src:
       c: 024cb504
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 319: ?'
         - 'w.zhou-enlai-waijiao-huodong 280: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 140: A'
+        - 'w.chen-yi-nianpu 816–817: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, vis:only:prc+algeria]
     time_zone: Asia/Shanghai
   - id: cal.1960-05-16.china-leadership-4
@@ -3349,7 +3537,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai back in Peking; in the afternoon at the Politburo meeting Deng Xiaoping chairs, on the international situation and some questions of the visit to India and the other countries.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 320 (May 17, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 268–269 (Zhou back that day; the Politburo meeting that afternoon, Deng chairing, he conveys Mao''s views: Khrushchev has hardened, the summit will be wrecked, support him; mass meeting at Tiananmen; propaganda to hit Eisenhower); [[w.zhou-enlai-waijiao-huodong]], 280 (May 17, 1960; 上午, 回到北京; at the airport, Soong Ching Ling, Zhu De, Lin Biao and Deng Xiaoping); [[w.yang-shangkun-riji]], I, 509 (May 17, 1960; Yang to the Baihuacun at 8 a.m. to see Zhou''s party, and rides with Zhou to the airport, talking in the car); [[w.deng-xiaoping-nianpu-1904]], III, 1549 (May 17, 1960; afternoon; Deng chairs the meeting of the Politburo and the Secretariat; Zhou on the visits; Mao''s view of the summit relayed: Khrushchev''s course right; a mass meeting in Tiananmen Square to back the Soviet Union). Made public: 1993. Names: Zhou Enlai, Deng Xiaoping.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 320 (May 17, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 268–269 (Zhou back that day; the Politburo meeting that afternoon, Deng chairing, he conveys Mao''s views: Khrushchev has hardened, the summit will be wrecked, support him; mass meeting at Tiananmen; propaganda to hit Eisenhower); [[w.zhou-enlai-waijiao-huodong]], 280 (May 17, 1960; 上午, 回到北京; at the airport, Soong Ching Ling, Zhu De, Lin Biao and Deng Xiaoping); [[w.yang-shangkun-riji]], I, 509 (May 17, 1960; Yang to the Baihuacun at 8 a.m. to see Zhou''s party, and rides with Zhou to the airport, talking in the car); [[w.deng-xiaoping-nianpu-1904]], III, 1549 (May 17, 1960; afternoon; Deng chairs the meeting of the Politburo and the Secretariat; Zhou on the visits; Mao''s view of the summit relayed: Khrushchev''s course right; a mass meeting in Tiananmen Square to back the Soviet Union); [[w.chen-yi-nianpu]], 817 (May 17, 1960, morning; Chen Yi back in Peking with Zhou Enlai). Made public: 1993. Names: Zhou Enlai, Deng Xiaoping.'
     src:
       c: a22e6309
       rows:
@@ -3358,6 +3546,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 280: A'
         - 'w.yang-shangkun-riji I, 509: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1549: ?'
+        - 'w.chen-yi-nianpu 817: ?'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
     time_range:
       - 1960-05-16T22:00Z
@@ -3506,6 +3695,32 @@ entries:
       - 1960-05-18T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-05-18.china-leadership-5
+    when: May 18
+    date: '1960-05-18'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 holds talks with Krim Belkacem 贝勒卡塞姆, Vice-Premier and Foreign Minister of the Algerian Provisional Government.
+    n: '[[w.chen-yi-nianpu]], 817. Made public: 1995. See [[cal.1960-05-16.china-leadership-2]]. The words: 下午 (817). Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, vis:only:prc+algeria]
+    time_range:
+      - 1960-05-18T04:00Z
+      - 1960-05-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-18.china-leadership-6
+    when: May 18
+    date: '1960-05-18'
+    thread: china-leadership
+    also: [africa]
+    c: 'Chen Yi 陈毅 speaks at the reception of the China–Africa People''s Friendship Association 中国非洲人民友好协会 and the Chinese Committee for Asian–African Solidarity 中国亚非团结委员会 for the Algerian Provisional Government''s delegation under Krim Belkacem 贝勒卡塞姆: the Chinese people back the Algerian people with all their strength.'
+    n: '[[w.chen-yi-nianpu]], 817. See [[cal.1960-05-16.china-leadership-2]]. The words: 晚上 (817). Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi]
+    time_range:
+      - 1960-05-18T11:00Z
+      - 1960-05-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-19.japan-and-korea
     when: May 19–20
     date: '1960-05-19'
@@ -3600,11 +3815,12 @@ entries:
     thread: china-leadership
     also: [china, middle-east, africa-algeria-morocco]
     c: Peking Hotel. Zhou Enlai attends the reception given by Fadil, the Iraqi Ambassador, for the Algerian Provisional Government's delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 280 (May 19, 1960; 下午, 北京饭店). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 280 (May 19, 1960; 下午, 北京饭店); [[w.chen-yi-nianpu]], 817 (May 19, 1960, noon (中午); Chen Yi at the reception of Fadil, the Iraqi Ambassador, at the Beijing Hotel, welcoming Krim Belkacem). Names: Zhou Enlai.'
     src:
       c: ce04ec43
       rows:
         - 'w.zhou-enlai-waijiao-huodong 280: all'
+        - 'w.chen-yi-nianpu 817: ?'
     tags: [polity:prc, polity:iraq, polity:algeria, name:zhou-enlai]
     time_range:
       - 1960-05-19T04:00Z
@@ -3725,6 +3941,32 @@ entries:
       - 1960-05-19T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-05-19.china-leadership-13
+    when: May 19
+    date: '1960-05-19'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 signs the joint communiqué of the PRC government and the Algerian Provisional Government 《中华人民共和国政府和阿尔及利亚共和国临时政府联合公报》.
+    n: '[[w.chen-yi-nianpu]], 817. See [[cal.1960-05-16.china-leadership-2]]. The words: 下午 (817). Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi]
+    time_range:
+      - 1960-05-19T04:00Z
+      - 1960-05-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-19.china-leadership-14
+    when: May 19
+    date: '1960-05-19'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 at Zhou Enlai's 周恩来 banquet seeing off Krim Belkacem 贝勒卡塞姆 and the Algerian Provisional Government's delegation.
+    n: '[[w.chen-yi-nianpu]], 817. See [[cal.1960-05-16.china-leadership-2]]. The words: 晚上 (817). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1960-05-19T11:00Z
+      - 1960-05-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-20.elections-1960
     when: May 20
     date: '1960-05-20'
@@ -3842,11 +4084,12 @@ entries:
   - id: cal.1960-05-20.china-leadership
     when: May 20
     date: '1960-05-20'
+    time: 1960-05-20T07:00Z
     place: peking
     thread: china-leadership
     also: [soviet-union, china]
     c: Zhou Enlai with Zhu De, Lin Biao, Soong Ching-ling and Deng Xiaoping at the rally of 1,200,000 in Tiananmen Square supporting the Soviet Union's just stand and against the American wrecking of the four-power summit (the U-2 shot down May 1).
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 320 (May 20, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 269 (the rally of 1.2 million on the 20th, Zhu De, Soong Ching-ling, Zhou and Deng attending); [[w.deng-xiaoping-nianpu-1904]], III, 1550 (May 20, 1960; afternoon; Deng speaks at the rally: the 650 million fully back the Soviet stand and its struggle against American aggression and provocation); [[w.mao-zedong-zhuan]], V, ch. 66 (May 20: the march and rally at Tiananmen 天安门, over two million, backing the Soviet stand on the summit, as Mao decided May 19). Names: Zhou Enlai, Zhu De, Lin Biao.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 320 (May 20, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 269 (the rally of 1.2 million on the 20th, Zhu De, Soong Ching-ling, Zhou and Deng attending); [[w.deng-xiaoping-nianpu-1904]], III, 1550 (May 20, 1960; afternoon; Deng speaks at the rally: the 650 million fully back the Soviet stand and its struggle against American aggression and provocation); [[w.mao-zedong-zhuan]], V, ch. 66 (May 20: the march and rally at Tiananmen 天安门, over two million, backing the Soviet stand on the summit, as Mao decided May 19). [[w.chen-yi-nianpu]], 817 (May 20, 1960, 3 p.m.; Chen Yi at the capital''s demonstration and rally backing the Soviet government''s stand and condemning the United States for wrecking the four-power summit). Names: Zhou Enlai, Zhu De, Lin Biao.'
     src:
       c: 629bebce
       rows:
@@ -3854,7 +4097,9 @@ entries:
         - 'w.lengxi-shinian-lunzhan-1956-1966 269: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1550: ?'
         - 'w.mao-zedong-zhuan V, ch. 66: ?'
+        - 'w.chen-yi-nianpu 817: ?'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:zhu-de, name:lin-biao]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-20.china-leadership-2
     when: May 20
     date: '1960-05-20'
@@ -3932,6 +4177,32 @@ entries:
       rows:
         - 'w.yang-jisheng-mubei I, 477: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-05-20.china-leadership-8
+    when: May 20
+    date: '1960-05-20'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 at the airport to see off the Algerian Provisional Government's delegation under Krim Belkacem 贝勒卡塞姆.
+    n: '[[w.chen-yi-nianpu]], 817. See [[cal.1960-05-16.china-leadership-2]]. The words: 上午 (817). Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi]
+    time_range:
+      - 1960-05-19T22:00Z
+      - 1960-05-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-20.china-leadership-9
+    when: May 20
+    date: '1960-05-20'
+    place: peking
+    thread: china-leadership
+    c: Tianqiao Theater 天桥剧场, Peking 北京. Chen Yi 陈毅 at the last Peking performance of the Soviet artists' company; in the interval receives its leader, 诺维科夫, and the artists.
+    n: '[[w.chen-yi-nianpu]], 817. The words: 晚上 (817). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi]
+    time_range:
+      - 1960-05-20T11:00Z
+      - 1960-05-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-21.elections-1960
     when: May 21–June 27
     date: '1960-05-21'
@@ -4046,12 +4317,18 @@ entries:
     date: '1960-05-21'
     thread: china-leadership
     c: 'Chen Yi, receiving a Singapore trade-union delegation: China will help Singapore and Malaya and has no designs or demands. He hopes the Chinese, Malay and Indian communities will unite to win an independent, free country, friendly to China, and that they build a new independent, free, peaceful and neutral Singapore–Malaya federation.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 144 (May 21, 1960). Made public: 2001. Names: Chen Yi. Check: the book''s 新加坡职工总会代表团, the Singapore trade union congress''s delegation; whether the talk was reported then.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 144 (May 21, 1960); [[w.chen-yi-nianpu]], 817–818 (May 21, 1960, morning; the whole delegation of the Singapore Trades Union Congress, led by Devan Nair (德万·奈尔)). Made public: 2001. Names: Chen Yi. Check: the book''s 新加坡职工总会代表团, the Singapore trade union congress''s delegation; whether the talk was reported then.'
     src:
       c: ffc1a3c2
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 144: all'
+        - 'w.chen-yi-nianpu 817–818: ?'
     tags: [polity:prc, polity:singapore, name:chen-yi, vis:only:prc+singapore]
+    time_range:
+      - 1960-05-20T22:00Z
+      - 1960-05-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-21.china-leadership-5
     when: May 21
     date: '1960-05-21'
@@ -4115,6 +4392,18 @@ entries:
         - 'w.odonnell-johnny-we-hardly-knew 201: A'
         - 'w.obrien-no-final-victories 79–80: ?'
     tags: [name:kennedy-john-f, name:stevenson-adlai-e, name:schlesinger-arthur-m-jr, name:johnson-lyndon-b]
+  - id: cal.1960-05-21.china-leadership-10
+    when: May 21
+    date: '1960-05-21'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 塔齐·斯坎迪, the Albanian Minister of Health, and his party.
+    n: '[[w.chen-yi-nianpu]], 818. The words: 下午 (818). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi]
+    time_range:
+      - 1960-05-21T04:00Z
+      - 1960-05-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-22.elections-1960-nomination
     when: May 22
     date: '1960-05-22'
@@ -4371,6 +4660,25 @@ entries:
       - 1960-05-23T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-05-23.china-leadership-4
+    when: May 23
+    date: '1960-05-23'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the whole Mongolian government economic delegation, led by Ambassador 沙拉布.
+    n: '[[w.chen-yi-nianpu]], 818. The words: 下午 (818). Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi]
+    time_range:
+      - 1960-05-23T04:00Z
+      - 1960-05-23T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-23.china-leadership-6
+    when: May 23
+    date: '1960-05-23'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the signing of the protocol of final accounts of the agreement on the PRC's economic and technical aid to Mongolia 《中华人民共和国政府和蒙古人民共和国政府关于"中华人民共和国给予蒙古人民共和国经济和技术援助的协定"最后决算议定书》.
+    n: '[[w.chen-yi-nianpu]], 818. See [[cal.1960-05-23.china-leadership-4]]. Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi]
   - id: cal.1960-05-24.elections-1960
     when: May 24
     date: '1960-05-24'
@@ -4438,7 +4746,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai receives Zhang Zhizhong and other democratic figures to let Chiang Kai-shek know the Communist policy on Taiwan, and asks Zhang to write to Chiang, the letter to reach Chiang and his son in hand. Taiwan better in the Chiangs' hands than America's; it must be united with China. If it returns, military and political power and appointments left to Chiang, Chen Cheng and Chiang Ching-kuo used as he wishes; any shortfall paid by the Center; social reform deferred until conditions ripen and Chiang consents; neither side to send agents or sap the other's unity.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 321 (May 24, 1960). Made public: 1997. Names: Zhou Enlai, Chiang Kai-shek.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 321 (May 24, 1960); [[w.jian-zhou-enlai]], 460 (the "four concrete measures" of the May Politburo line; Zhou, conveying them later to Chen Cheng, adds the "one major principle"). Made public: 1997. To check: [[w.liao-xinwen-zhou-enlai-and-the]], 35 (cited by [[w.jian-zhou-enlai]], 460 n.79). Names: Zhou Enlai, Chiang Kai-shek.'
     tags: [polity:prc, polity:roc, name:zhou-enlai, name:chiang-kai-shek, vis:only:prc]
   - id: cal.1960-05-24.china-leadership-2
     when: May 24
@@ -4497,6 +4805,30 @@ entries:
         - 'w.yang-shangkun-riji I, 511: all'
         - 'w.mao-zedong-zhuan V, ch. 65: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-24.china-leadership-7
+    when: May 24
+    date: '1960-05-24'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Field Marshal Montgomery 蒙哥马利.
+    n: '[[w.chen-yi-nianpu]], 818. The words: 下午 (818). Names: Chen Yi, Montgomery.'
+    tags: [polity:prc, polity:uk, name:chen-yi, name:montgomery-of-alamein-bernard-l, ok:fields-place]
+    time_range:
+      - 1960-05-24T04:00Z
+      - 1960-05-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-05-24.china-leadership-8
+    when: May 24
+    date: '1960-05-24'
+    thread: china-leadership
+    c: Chen Yi 陈毅 gives a banquet welcoming Field Marshal Montgomery 蒙哥马利.
+    n: '[[w.chen-yi-nianpu]], 818. See [[cal.1960-05-24.china-leadership-7]]. The words: 晚上 (818). Names: Chen Yi, Montgomery.'
+    tags: [polity:prc, polity:uk, name:chen-yi, name:montgomery-of-alamein-bernard-l, ok:fields-place]
+    time_range:
+      - 1960-05-24T11:00Z
+      - 1960-05-24T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1960-05-25.soviet-union
     when: May 25
@@ -4775,12 +5107,13 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-britain, china]
     c: 'Zhou Enlai''s second talk with Montgomery: the peoples of China and the United States wish each other friendship, with no basic conflict of interest; the hostility began with the United States, its policy of aggression and war and its seizure of Taiwan. For better relations the United States to acknowledge Taiwan part of China and withdraw its forces from Taiwan and the Strait; China will then sit down with it and seeks Taiwan''s peaceful liberation, by force only if Taiwan itself fights.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 322–23 (May 26, 1960); [[w.zhou-enlai-waijiao-huodong]], 281 (May 26, 1960; 下午5时45分). Made public: 1993. Names: Zhou Enlai, Montgomery.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 322–23 (May 26, 1960); [[w.zhou-enlai-waijiao-huodong]], 281 (May 26, 1960; 下午5时45分); [[w.chen-yi-nianpu]], 818 (May 26, 1960, afternoon; Chen Yi present at Zhou Enlai''s talk with Montgomery). Made public: 1993. Names: Zhou Enlai, Montgomery.'
     src:
       c: c394033f
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 322–23: ?'
         - 'w.zhou-enlai-waijiao-huodong 281: A'
+        - 'w.chen-yi-nianpu 818: ?'
     tags: [polity:prc, polity:uk, name:zhou-enlai, name:montgomery-of-alamein-bernard-l, vis:only:prc+uk]
     time_zone: Asia/Shanghai
   - id: cal.1960-05-26.china-leadership-5
@@ -4789,12 +5122,13 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-britain, china]
     c: Zhou Enlai, at the dinner welcoming Montgomery, supports his efforts to ease international tension.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 323 (May 26, 1960); [[w.zhou-enlai-waijiao-huodong]], 281 (May 26, 1960; 晚上). Names: Zhou Enlai, Montgomery.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 323 (May 26, 1960); [[w.zhou-enlai-waijiao-huodong]], 281 (May 26, 1960; 晚上); [[w.chen-yi-nianpu]], 818 (May 26, 1960, evening; Chen Yi at Zhou Enlai''s banquet welcoming Montgomery, the banquet hall of the Great Hall of the People). Names: Zhou Enlai, Montgomery.'
     src:
       c: 12b94995
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 323: ?'
         - 'w.zhou-enlai-waijiao-huodong 281: A'
+        - 'w.chen-yi-nianpu 818: ?'
     tags: [polity:prc, polity:uk, name:zhou-enlai, name:montgomery-of-alamein-bernard-l]
     time_range:
       - 1960-05-26T11:00Z
@@ -4850,6 +5184,13 @@ entries:
         - 'w.yang-shangkun-riji I, 512: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1960-05-26.china-leadership-10
+    when: May 26
+    date: '1960-05-26'
+    thread: china-leadership
+    c: Chen Yi 陈毅 telegraphs Naim Khan 纳伊姆汗, Deputy Prime Minister and Foreign Minister of Afghanistan, on Afghanistan's independence day.
+    n: '[[w.chen-yi-nianpu]], 818. Names: Chen Yi, Naim.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:naim-sardar-mohammad]
   - id: cal.1960-05-27.soviet-union
     when: May 27–June 2
     date: '1960-05-27'
@@ -4951,13 +5292,14 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: Zhou Enlai at Ulan Bator on a friendly visit to Mongolia at its invitation; lays a wreath at the Choibalsan mausoleum.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 323 (May 27, 1960); [[w.zhou-enlai-waijiao-huodong]], 281 (May 27, 1960; 上午11时25分, 抵达乌兰巴托; 下午2时, 献花圈); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 145 (May 27–June 1, 1960; Zhou leads a government delegation to Mongolia; he calls on Sambuu, chairman of the Presidium of the Great Hural, and talks with Tsedenbal). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 323 (May 27, 1960); [[w.zhou-enlai-waijiao-huodong]], 281 (May 27, 1960; 上午11时25分, 抵达乌兰巴托; 下午2时, 献花圈); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 145 (May 27–June 1, 1960; Zhou leads a government delegation to Mongolia; he calls on Sambuu, chairman of the Presidium of the Great Hural, and talks with Tsedenbal); [[w.chen-yi-nianpu]], 818 (May 27, 1960; Chen Yi reaches Ulan Bator at 11:25; with Zhou Enlai, Molomjamts, First Deputy Chairman of the Council of Ministers, escorting, lays a wreath at the Sükhbaatar–Choibalsan mausoleum, 2 p.m.). Names: Zhou Enlai.'
     src:
       c: f8957387
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 323: ?'
         - 'w.zhou-enlai-waijiao-huodong 281: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 145: A'
+        - 'w.chen-yi-nianpu 818: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
   - id: cal.1960-05-27.china-leadership-3
     when: May 27
@@ -4966,11 +5308,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai leaves by special plane for a friendly visit to Mongolia at its government's invitation; Chen Yi, Vice Premier, goes with him.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 281 (May 27, 1960; 上午). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 281 (May 27, 1960; 上午); [[w.chen-yi-nianpu]], 818 (May 27, 1960, morning; Chen Yi leaves Peking with Zhou Enlai for Mongolia). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai, Chen Yi.'
     src:
       c: cfaf5905
       rows:
         - 'w.zhou-enlai-waijiao-huodong 281: all'
+        - 'w.chen-yi-nianpu 818: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai, name:chen-yi]
     time_range:
       - 1960-05-26T22:00Z
@@ -4984,11 +5327,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Ulan Bator. Zhou Enlai attends the luncheon given by Tsedenbal, Chairman of the Council of Ministers.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 281 (May 27, 1960; 中午). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 281 (May 27, 1960; 中午); [[w.chen-yi-nianpu]], 818 (May 27, 1960, noon; Chen Yi at Tsedenbal''s luncheon for Zhou Enlai; toasts). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 44cbe470
       rows:
         - 'w.zhou-enlai-waijiao-huodong 281: all'
+        - 'w.chen-yi-nianpu 818: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1960-05-27T05:00Z
@@ -5002,11 +5346,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Ulan Bator. Zhou Enlai calls on Tsedenbal.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 282 (May 27, 1960; 下午). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 282 (May 27, 1960; 下午); [[w.chen-yi-nianpu]], 818 (May 27, 1960, 2:10 p.m.; Chen Yi with Zhou Enlai calls on Tsedenbal). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 20c86f74
       rows:
         - 'w.zhou-enlai-waijiao-huodong 282: all'
+        - 'w.chen-yi-nianpu 818: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1960-05-27T05:00Z
@@ -5020,11 +5365,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Ulan Bator. Zhou Enlai attends a song and dance performance with Tsedenbal.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 282 (May 27, 1960; 晚上). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 282 (May 27, 1960; 晚上); [[w.chen-yi-nianpu]], 818 (May 27, 1960, evening; Chen Yi at the song and dance performance of the State Theater; after it, with Zhou Enlai, Tsedenbal and Sambuu, on stage to give the performers a basket of flowers). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 7325e0e8
       rows:
         - 'w.zhou-enlai-waijiao-huodong 282: all'
+        - 'w.chen-yi-nianpu 818: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1960-05-27T12:00Z
@@ -5164,12 +5510,13 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: 'Zhou Enlai''s talk with Tsedenbal, Chen Yi, Ji Pengfei and Li Qiang on the Chinese side. On Mongolia''s economy: self-reliance, more output and more people, population growth joined to production, more light industry. Afterward he visits the city and the industrial combine''s shoe and wool factories.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 323 (May 28, 1960); [[w.zhou-enlai-waijiao-huodong]], 282 (May 28, 1960; 上午10时, 乌兰巴托政府大厦); [[w.zhou-enlai-waijiao-huodong]], 282 (May 28, 1960; 下午, 皮鞋厂和毛纺织厂). Made public: 1993. Names: Zhou Enlai, Chen Yi, Ji Pengfei.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 323 (May 28, 1960); [[w.zhou-enlai-waijiao-huodong]], 282 (May 28, 1960; 上午10时, 乌兰巴托政府大厦); [[w.zhou-enlai-waijiao-huodong]], 282 (May 28, 1960; 下午, 皮鞋厂和毛纺织厂); [[w.chen-yi-nianpu]], 819 (May 28, 1960, morning; Chen Yi at the talks of Zhou Enlai and Tsedenbal in the Government House). Made public: 1993. Names: Zhou Enlai, Chen Yi, Ji Pengfei.'
     src:
       c: 68996a12
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 323: ?'
         - 'w.zhou-enlai-waijiao-huodong 282: C'
+        - 'w.chen-yi-nianpu 819: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai, name:chen-yi, name:ji-pengfei, vis:only:prc+mongolia]
     time_zone: Asia/Ulaanbaatar
   - id: cal.1960-05-28.china-leadership-3
@@ -5179,11 +5526,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Ulan Bator. Zhou Enlai attends the state banquet given by Tsedenbal.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 282 (May 28, 1960; 晚上). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 282 (May 28, 1960; 晚上); [[w.chen-yi-nianpu]], 819 (May 28, 1960, evening; Chen Yi at the Council of Ministers'' state banquet in the Government House). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 2839a777
       rows:
         - 'w.zhou-enlai-waijiao-huodong 282: all'
+        - 'w.chen-yi-nianpu 819: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1960-05-28T12:00Z
@@ -5270,6 +5618,45 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1554: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1960-05-28.china-leadership-10
+    when: May 28
+    date: '1960-05-28'
+    place: ulan-bator
+    thread: china-leadership
+    c: Ulan Bator 乌兰巴托. Chen Yi 陈毅 with Zhou Enlai 周恩来 calls on Sambuu 桑布, chairman of the Presidium of the Great People's Hural.
+    n: '[[w.chen-yi-nianpu]], 818–819. See [[cal.1960-05-27.china-leadership-3]]. The words: 上午 (818–819). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1960-05-27T23:00Z
+      - 1960-05-28T05:00Z
+    time_band: morning
+    time_zone: Asia/Ulaanbaatar
+  - id: cal.1960-05-28.china-leadership-11
+    when: May 28
+    date: '1960-05-28'
+    place: ulan-bator
+    thread: china-leadership
+    c: Ulan Bator 乌兰巴托. Chen Yi 陈毅 and Zhou Enlai 周恩来, with Tsedenbal and Maidar 迈达尔, see the city.
+    n: '[[w.chen-yi-nianpu]], 819. See [[cal.1960-05-27.china-leadership-3]]. The words: 上午 (819). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1960-05-27T23:00Z
+      - 1960-05-28T05:00Z
+    time_band: morning
+    time_zone: Asia/Ulaanbaatar
+  - id: cal.1960-05-28.china-leadership-12
+    when: May 28
+    date: '1960-05-28'
+    place: ulan-bator
+    thread: china-leadership
+    c: Ulan Bator 乌兰巴托. Chen Yi 陈毅 and Zhou Enlai 周恩来, with Tsedenbal and Molomjamts 莫洛姆扎木茨, at the shoe and woolen mills of the Mongolian industrial combine.
+    n: '[[w.chen-yi-nianpu]], 819. See [[cal.1960-05-27.china-leadership-3]]. The words: 下午 (819). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1960-05-28T05:00Z
+      - 1960-05-28T11:00Z
+    time_band: afternoon
+    time_zone: Asia/Ulaanbaatar
   - id: cal.1960-05-29.elections-1960-nomination
     when: May 29
     date: '1960-05-29'
@@ -5362,6 +5749,30 @@ entries:
         - 'w.yang-jisheng-mubei I, 272-273: all'
         - 'via w.yang-jisheng-mubei I, 272 n.t1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-05-29.china-leadership-8
+    when: May 29
+    date: '1960-05-29'
+    place: peking
+    thread: china-leadership
+    c: Lin Boqu 林伯渠, member of the Politburo 中央政治局 and vice-chairman of the National People's Congress Standing Committee, dies in Peking 北京, aged 75.
+    n: '[[w.chen-yi-nianpu]], 819. Names: Lin Boqu.'
+    tags: [polity:prc, name:lin-boqu]
+  - id: cal.1960-05-29.china-leadership-9
+    when: May 29
+    date: '1960-05-29'
+    place: ulan-bator
+    thread: china-leadership
+    c: Chen Yi 陈毅, at Ulan Bator 乌兰巴托 on hearing of Lin Boqu's 林伯渠 death, writes the poem "Mourning Lin Lao's death, at the Mongolian capital" 《在蒙古首都悼林老逝世》.
+    n: '[[w.chen-yi-nianpu]], 819. See [[cal.1960-05-29.china-leadership-8]]. Names: Chen Yi, Lin Boqu.'
+    tags: [polity:prc, name:chen-yi, name:lin-boqu]
+  - id: cal.1960-05-29.china-leadership-10
+    when: May 29
+    date: '1960-05-29'
+    place: ulan-bator
+    thread: china-leadership
+    c: Ulan Bator 乌兰巴托, the Chinese Embassy. Chen Yi 陈毅 meets the whole staff, representatives of the Chinese experts, technicians and workers in Mongolia, and of the overseas Chinese.
+    n: '[[w.chen-yi-nianpu]], 819. Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi, vis:only:prc]
   - id: cal.1960-05-30.alabama
     when: May 30
     date: '1960-05-30'
@@ -5422,7 +5833,7 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: 'Zhou Enlai visits the Ulan Bator flour mill, then holds the two parties'' talks with Tsedenbal: toward imperialism three things, no softness, no fear, no provocation taken; the bourgeoisie of the intermediate zone has two sides; the greatest threat to peace is American imperialism; the camp to be made stronger and more united, the world''s peoples won, the United States isolated, and war thereby put off.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (May 30, 1960); [[w.zhou-enlai-waijiao-huodong]], 282 (May 30, 1960; 上午, 面粉厂; 中午, 会谈). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (May 30, 1960); [[w.zhou-enlai-waijiao-huodong]], 282 (May 30, 1960; 上午, 面粉厂; 中午, 会谈); [[w.chen-yi-nianpu]], 819 (May 30, 1960; Chen Yi with Zhou Enlai, Tsedenbal and Molomjamts at the Ulan Bator flour mill in the morning, and at the talks of Zhou and Tsedenbal at noon). Made public: 1993. Names: Zhou Enlai.'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai, vis:only:prc+mongolia]
   - id: cal.1960-05-30.china-leadership-3
     when: May 30
@@ -5504,6 +5915,16 @@ entries:
       - 1960-05-30T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-05-30.china-leadership-8
+    when: May 30
+    date: '1960-05-30'
+    time: 1960-05-30T11:30Z
+    place: ulan-bator
+    thread: china-leadership
+    c: Ulan Bator 乌兰巴托, the Chinese Embassy. Zhou Enlai 周恩来 receives the whole staff and representatives of the Chinese experts and workers in Mongolia; Chen Yi 陈毅 with him.
+    n: '[[w.chen-yi-nianpu]], 819. Made public: 1995. See [[cal.1960-05-29.china-leadership-10]]. The words: 下午6时30分 (819). Names: Zhou Enlai, Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Ulaanbaatar
   - id: cal.1960-05-31.europe-and-the-alliance-turkey
     when: May 31
     date: '1960-05-31'
@@ -6043,7 +6464,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai visits the Mongolian Central Museum and the Lenin Pioneers' house.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (May 31, 1960); [[w.zhou-enlai-waijiao-huodong]], 282 (May 31, 1960; 上午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (May 31, 1960); [[w.zhou-enlai-waijiao-huodong]], 282 (May 31, 1960; 上午); [[w.chen-yi-nianpu]], 819 (May 31, 1960; Chen Yi with Zhou Enlai at the Central Museum in the morning, Molomjamts escorting, and at noon, with Tsedenbal, Tsend (曾德), second secretary of the MPRP, and Molomjamts, meeting the children of Ulan Bator at the Lenin Pioneers'' palace). Names: Zhou Enlai.'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
   - id: cal.1960-05-31.china-leadership-2
     when: May 31
@@ -6051,13 +6472,14 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: Zhou Enlai and Tsedenbal sign the Sino-Mongolian treaty of friendship and mutual assistance, an economic and technical agreement and a joint statement; Zhou attends an 80,000-strong Mongolian–Chinese friendship rally.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (May 31, 1960); [[w.zhou-enlai-waijiao-huodong]], 282 (May 31, 1960; 下午); [[w.zhou-enlai-waijiao-huodong]], 282 (May 31, 1960; 下午, 苏赫巴托尔广场); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 145–146 (May 27–June 1, 1960; the treaty of friendship and mutual assistance, the agreement on economic and technical aid and the scientific-technical cooperation agreement signed; the joint statement for Korean, Vietnamese and German unification and against the revival of Japanese militarism and the U.S.–Japan security treaty). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (May 31, 1960); [[w.zhou-enlai-waijiao-huodong]], 282 (May 31, 1960; 下午); [[w.zhou-enlai-waijiao-huodong]], 282 (May 31, 1960; 下午, 苏赫巴托尔广场); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 145–146 (May 27–June 1, 1960; the treaty of friendship and mutual assistance, the agreement on economic and technical aid and the scientific-technical cooperation agreement signed; the joint statement for Korean, Vietnamese and German unification and against the revival of Japanese militarism and the U.S.–Japan security treaty); [[w.chen-yi-nianpu]], 819–820 (May 31, 1960, 5:20 p.m.; Chen Yi at the signing in the Government House of the treaty of friendship and mutual assistance, the economic and technical aid agreement and the joint statement). Names: Zhou Enlai.'
     src:
       c: cbf2131e
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 324: ?'
         - 'w.zhou-enlai-waijiao-huodong 282: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 145–146: A'
+        - 'w.chen-yi-nianpu 819–820: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1960-05-31T05:00Z
@@ -6103,11 +6525,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Ulan Bator, the Chinese Embassy. Zhou Enlai gives a banquet in return for the Mongolian Party and government leaders headed by Tsedenbal.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 282 (May 31, 1960; 晚上). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 282 (May 31, 1960; 晚上); [[w.chen-yi-nianpu]], 820 (May 31, 1960, evening; Chen Yi at Zhou Enlai''s return banquet at the Chinese Embassy). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 0e836b46
       rows:
         - 'w.zhou-enlai-waijiao-huodong 282: all'
+        - 'w.chen-yi-nianpu 820: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1960-05-31T12:00Z
@@ -6377,3 +6800,37 @@ entries:
         - 'w.yang-jisheng-mubei I, 274–275: all'
         - 'via w.yang-jisheng-mubei I, 275 n.33: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-05.china-leadership-20
+    when: May, early
+    date: 1960-05
+    at: before 1960-05-01
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明. Chen Yi 陈毅 at the Dragon Gate 龙门 of the Western Hills 西山, at Baiyukou 白鱼口 and at Wanbaojie 万宝街; writes "Three poems of travel at Kunming" 《昆明纪游三首》.
+    n: '[[w.chen-yi-nianpu]], 814. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+  - id: cal.1960-05-31.china-leadership-9
+    when: May 31
+    date: '1960-05-31'
+    place: ulan-bator
+    thread: china-leadership
+    c: Sükhbaatar Square 苏赫巴托尔广场, Ulan Bator 乌兰巴托. Chen Yi 陈毅 at the Mongolian–Chinese friendship rally of the capital's people welcoming Zhou Enlai 周恩来.
+    n: '[[w.chen-yi-nianpu]], 819. See [[cal.1960-05-27.china-leadership-3]]. The words: 下午 (819). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1960-05-31T05:00Z
+      - 1960-05-31T11:00Z
+    time_band: afternoon
+    time_zone: Asia/Ulaanbaatar
+  - id: cal.1960-05.china-leadership-21
+    when: May
+    date: 1960-05
+    thread: china-leadership
+    also: [china]
+    c: 'A Politburo meeting sets a new line on Taiwan: better in the hands of Chiang and his son than of the Americans; no haste, liberation perhaps for the next generation. The "four concrete measures" for a reunion: Chiang to keep all military and political power and personnel (diplomacy to Peking); shortfalls in Taiwan''s military, government and economic budgets met by the Center; social reform deferred until conditions suit and Chiang agrees; neither side to send agents or sap the other''s unity.'
+    n: '[[w.jian-zhou-enlai]], 460. Made public: 1994. To check: [[w.liao-xinwen-zhou-enlai-and-the]], 35 (cited by [[w.jian-zhou-enlai]], 460 n.79). Names: Chiang Kai-shek.'
+    src:
+      c: 718d8794
+      rows:
+        - 'w.jian-zhou-enlai 460: all'
+    tags: [polity:prc, vis:only:prc, name:chiang-kai-shek, ok:fields-place]

@@ -79,8 +79,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi receives all the delegates of the minority-nationality visiting groups from Tibet, Xinjiang and other regions.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 477 (Feb. 1, 1960). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 477 (Feb. 1, 1960); [[w.chen-yi-nianpu]], 803 (Feb. 1, 1960, afternoon; Chen Yi, Huang Yanpei and others with Liu Shaoqi receiving the Tibet and Xinjiang agricultural visiting groups, the Tibet Public School''s cadres and the minority students of the Taiyuan and Shijiazhuang railway institutes). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi]
+    time_range:
+      - 1960-02-01T04:00Z
+      - 1960-02-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-01.china-leadership-3
     when: Feb. 1
     date: '1960-02-01'
@@ -94,6 +99,14 @@ entries:
         - 'w.yang-shangkun-riji I, 475: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1527: ?'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-02-01.china-leadership-4
+    when: Feb. 1
+    date: '1960-02-01'
+    thread: china-leadership
+    also: [soviet-union]
+    c: '*Hongqi* 红旗 no. 3 of 1960 prints Chen Yi''s 陈毅 article "The Sino-Soviet alliance is a mighty bulwark of world peace" 《中苏同盟是世界和平的强大堡垒》, for the treaty''s tenth anniversary: the 1950s years of deep change; Soviet experience of revolution and construction a priceless treasure among its aid; the alliance a new type, of proletariats holding power.'
+    n: '[[w.chen-yi-nianpu]], 803. The article: Chen Yi, 《中苏同盟是世界和平的强大堡垒》, *Hongqi* 1960, no. 3 (Feb. 1, 1960). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1960-02-02.states-and-cities
     when: Feb. 2
     date: '1960-02-02'
@@ -334,12 +347,18 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Chen Yi, Vice-Premier and Foreign Minister, at the Ceylonese ambassador''s reception for Ceylon''s twelfth independence anniversary: the five principles and the Bandung spirit will break the dark cloud and bring Asian–African unity closer. The Chinese people will back the Cuban people against foreign interference.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 132 (Feb. 4, 1960). Names: Chen Yi. Check: the Ceylonese ambassador is 伯拉瓦特 in the book.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 132 (Feb. 4, 1960); [[w.chen-yi-nianpu]], 803–804 (Feb. 4, 1960, evening; the reception of 高伯拉瓦, the Ceylonese Ambassador; Chen Yi speaks: the Five Principles and the Bandung spirit; the second All-African People''s Conference; China backs Cuba against outside intervention). Names: Chen Yi. Check: the Ceylonese ambassador is 伯拉瓦特 in the book.'
     src:
       c: baf6b635
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 132: all'
+        - 'w.chen-yi-nianpu 803–804: ?'
     tags: [polity:prc, polity:ceylon, polity:cuba, name:chen-yi]
+    time_range:
+      - 1960-02-04T11:00Z
+      - 1960-02-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-04.china-leadership-2
     when: Feb. 4
     date: '1960-02-04'
@@ -408,8 +427,19 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Nehru to Zhou Enlai, by letter: he asks Zhou to come to Delhi for talks in the second half of March.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 287 (Feb. 5, 1960). Made public: 1997. Names: Nehru, Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 287 (Feb. 5, 1960); [[w.jian-zhou-enlai]], 445 (Nehru''s letter of Feb. 5, 1960: he agrees to meet Zhou, but holds the boundary delimited and not to be "negotiated"). Made public: 1997. To check: Nehru to Zhou, February 5, 1960 (cited by [[w.jian-zhou-enlai]], 445 n.16a); [[w.ministry-zhongguo-he-yindu-guanyu]], 228–229 (cited by [[w.jian-zhou-enlai]], 445 n.16b); [[w.documents-on-the-sino]], 142–144 (cited by [[w.jian-zhou-enlai]], 445 n.16c). Names: Nehru, Zhou Enlai.'
+    src:
+      c: '17591900'
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 287: ?'
+        - 'w.jian-zhou-enlai 445: ?'
+        - 'via x.1960-02-05.nehru-to-zhou: ?'
     tags: [polity:prc, polity:india, name:nehru-jawaharlal, name:zhou-enlai, vis:only:prc+india]
+    variants:
+      - unit: A
+        witness: w.jian-zhou-enlai
+        reads: Nehru agrees to meet Zhou in April
+        at: '445'
   - id: cal.1960-02-05.china-leadership-2
     when: Feb. 5
     date: '1960-02-05'
@@ -513,6 +543,19 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1528: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1960-02-06.china-leadership-4
+    when: Feb. 6
+    date: '1960-02-06'
+    place: peking
+    thread: china-leadership
+    c: 'Great Hall of the People 人民大会堂, Peking 北京. Chen Yi 陈毅 gives a banquet seeing off the Panchen Erdeni 班禅额尔德尼·却吉坚赞, acting chairman of the Preparatory Committee for the Tibet Autonomous Region 西藏自治区筹备委员会, the vice-chairman Pagbalha Geleg Namgyai 帕巴拉·格列朗杰 and their party, back to Tibet; speaks: Tibet''s people to unite round the Party''s Tibet Work Committee 中共西藏工委 and the Preparatory Committee, finish the democratic reform, build up farming and herding.'
+    n: '[[w.chen-yi-nianpu]], 804. The words: 晚上 (804). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1960-02-06T11:00Z
+      - 1960-02-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-07.program
     when: Feb. 7
     date: '1960-02-07'
@@ -587,8 +630,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi receives all the delegates to the 17th congress of the All-China Students' Federation.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 478 (Feb. 7, 1960). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 478 (Feb. 7, 1960); [[w.chen-yi-nianpu]], 804 (Feb. 7, 1960, afternoon; Chen Yi with Liu Shaoqi and Tan Zhenlin receives the delegates to the 17th students'' congress). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi]
+    time_range:
+      - 1960-02-07T04:00Z
+      - 1960-02-07T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-07.china-leadership-2
     when: Feb. 7
     date: '1960-02-07'
@@ -694,6 +742,47 @@ entries:
         - 'w.yang-jisheng-mubei I, 168: all'
         - 'w.dikotter-maos-great-famine 309 n.8a, n.8b: ?'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-02-08.china-leadership-4
+    when: Feb. 8
+    date: '1960-02-08'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the railway station to see off the Panchen Erdeni 班禅额尔德尼, Pagbalha Geleg Namgyai 帕巴拉·格列朗杰 and their party, leaving Peking 北京 for Tibet 西藏.
+    n: '[[w.chen-yi-nianpu]], 804. See [[cal.1960-02-06.china-leadership-4]]. The words: 上午 (804). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1960-02-07T22:00Z
+      - 1960-02-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-02-08.china-leadership-5
+    when: Feb. 8
+    date: '1960-02-08'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Chen Yi 陈毅 at the airport to welcome Kang Sheng 康生 and Wu Xiuquan 伍修权, back from the Warsaw Treaty's Political Consultative Committee, which they attended as the PRC's observers.
+    n: '[[w.chen-yi-nianpu]], 804. Names: Chen Yi, Kang Sheng.'
+    tags: [polity:prc, name:chen-yi, name:kang-sheng, ok:fields-place]
+  - id: cal.1960-02-08.china-leadership-6
+    when: Feb. 8
+    date: '1960-02-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 reports on the international situation to the 17th congress of the All-China Students' Federation 中华全国学生第十七届代表大会; urges students on the road of "red and expert" 又红又专.
+    n: '[[w.chen-yi-nianpu]], 804. See [[cal.1960-02-07.china-leadership]]. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+  - id: cal.1960-02-08.china-leadership-7
+    when: Feb. 8
+    date: '1960-02-08'
+    place: peking
+    thread: china-leadership
+    c: Great Hall of the People 人民大会堂, Peking 北京. Chen Yi 陈毅 at the Polish Mazowsze 玛佐夫舍 song and dance company's performance; in the interval receives 鲍古斯瓦夫·普瓦萨 of the Polish Ministry of Culture and Art, the director 米拉·齐明斯卡·塞格廷斯卡 and the leading performers; writes an inscription for the company, "Sino-Polish friendship evergreen".
+    n: '[[w.chen-yi-nianpu]], 804. The words: "中波友谊万古长青" (804). The words: 晚上 (804). Names: Chen Yi.'
+    tags: [polity:prc, polity:poland, name:chen-yi]
+    time_range:
+      - 1960-02-08T11:00Z
+      - 1960-02-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-09.farm
     when: Feb. 9
     date: '1960-02-09'
@@ -978,6 +1067,15 @@ entries:
     c: Cần Thơ. The provincial committee meets Feb. 10 and drops the sect names of its armed units; the Tây Đô Battalion formed.
     n: '[[w.lich-su-khang-chien-chong-my]], II, 341. Made public: 2013.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1960-02-10.china-leadership-5
+    when: Feb. 10
+    date: '1960-02-10'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 at the airport to welcome the delegation of the DRV led by Trường Chinh 长征, Deputy Prime Minister and member of the Lao Động Politburo, from Moscow to Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 804. Names: Chen Yi, Trường Chinh.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:truong-chinh]
   - id: cal.1960-02-11.testing
     when: Feb. 11
     date: '1960-02-11'
@@ -1071,6 +1169,30 @@ entries:
       - 1960-02-11T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1960-02-11.china-leadership-5
+    when: Feb. 11
+    date: '1960-02-11'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at Zhu De's 朱德 banquet welcoming the Czechoslovak National Assembly delegation led by its chairman, Zdeněk Fierlinger 费林格.
+    n: '[[w.chen-yi-nianpu]], 805. The words: 晚上 (805). Names: Chen Yi, Zhu De.'
+    tags: [polity:prc, polity:czechoslovakia, name:chen-yi, name:zhu-de]
+    time_range:
+      - 1960-02-11T11:00Z
+      - 1960-02-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-02-11.china-leadership-6
+    when: Feb. 11
+    date: '1960-02-11'
+    thread: china-leadership
+    c: Zhu De 朱德 meets Zdeněk Fierlinger 费林格, chairman of the Czechoslovak National Assembly, and the whole delegation he leads; Chen Yi 陈毅 present.
+    n: '[[w.chen-yi-nianpu]], 804–805. The words: 下午 (804–805). Names: Chen Yi, Zhu De.'
+    tags: [polity:prc, polity:czechoslovakia, name:chen-yi, name:zhu-de]
+    time_range:
+      - 1960-02-11T04:00Z
+      - 1960-02-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-12.sit-ins
     when: Feb. 12
     date: '1960-02-12'
@@ -1143,8 +1265,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi receives the delegates to the second congress of the China Democratic National Construction Association and the third congress of the All-China Federation of Industry and Commerce, and talks with their leaders Huang Yanpei, Chen Shutong, Sheng Pihua, Hu Ziang, Sun Qimeng, Hu Juewen and Shi Fuliang. Some fear the government will not look after the industrialists. Liu: those who accept remolding, work for the state and cooperate with the Party will be looked after in livelihood to the end; they must also advance in thought.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 478–479 (Feb. 12, 1960). Footnotes 1–3 (478) give the posts of Chen Shutong (chairman, Federation of Industry and Commerce), Sheng Pihua, Hu Ziang, Sun Qimeng (vice-chairmen of the Association and of the Federation) and Hu Juewen, Shi Fuliang (vice-chairmen of the Association). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 478–479 (Feb. 12, 1960); [[w.chen-yi-nianpu]], 805 (Feb. 12, 1960, afternoon; Chen Yi with Liu Shaoqi, Zhu De, Li Xiannian, Tan Zhenlin and Li Weihan receives all the delegates). Footnotes 1–3 (478) give the posts of Chen Shutong (chairman, Federation of Industry and Commerce), Sheng Pihua, Hu Ziang, Sun Qimeng (vice-chairmen of the Association and of the Federation) and Hu Juewen, Shi Fuliang (vice-chairmen of the Association). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi]
+    time_range:
+      - 1960-02-12T04:00Z
+      - 1960-02-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-12.china-leadership-4
     when: Feb. 12
     date: '1960-02-12'
@@ -1229,6 +1356,32 @@ entries:
       - 1960-02-12T16:00Z
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1960-02-12.china-leadership-10
+    when: Feb. 12
+    date: '1960-02-12'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 at the airport to see off the delegation led by Trường Chinh 长征.
+    n: '[[w.chen-yi-nianpu]], 805. See [[cal.1960-02-10.china-leadership-5]]. The words: 上午 (805). Names: Chen Yi, Trường Chinh.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:truong-chinh]
+    time_range:
+      - 1960-02-11T22:00Z
+      - 1960-02-12T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-02-12.china-leadership-11
+    when: Feb. 12
+    date: '1960-02-12'
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Chen Yi 陈毅 at the friendship evening of the socialist countries'' embassies in China for the tenth anniversary of the Sino-Soviet treaty of friendship, alliance and mutual assistance; speaks at the supper: the brother countries'' close unity.'
+    n: '[[w.chen-yi-nianpu]], 805. The words: 晚上 (805). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1960-02-12T11:00Z
+      - 1960-02-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-13.testing
     when: Feb. 13
     date: '1960-02-13'
@@ -1331,12 +1484,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhu De and Chen Yi receive the whole Soviet–Chinese Friendship Society delegation, led by the Society's council vice-chairman, Yelyutin, the Soviet Minister of Higher and Specialized Secondary Education. It is in China for the celebrations of the tenth anniversary of the Sino-Soviet treaty of alliance.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 133 (Feb. 13, 1960). Names: Zhu De, Chen Yi. Check: the minister is 叶留金 in the book (Yelyutin).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 133 (Feb. 13, 1960); [[w.chen-yi-nianpu]], 805 (Feb. 13, 1960, evening; Chen Yi with Zhu De and Xi Zhongxun receives Yelyutin 叶留金, Soviet Minister of Higher and Secondary Specialized Education and council vice-chairman of the Soviet–Chinese Friendship Society, and his delegation). Names: Zhu De, Chen Yi. Check: the minister is 叶留金 in the book (Yelyutin).'
     src:
       c: 21dc8af9
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 133: all'
+        - 'w.chen-yi-nianpu 805: ?'
     tags: [polity:prc, polity:ussr, name:zhu-de, name:chen-yi]
+    time_range:
+      - 1960-02-13T11:00Z
+      - 1960-02-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-13.china-leadership-4
     when: Feb. 13
     date: '1960-02-13'
@@ -1425,6 +1584,28 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1529: all'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:ke-qingshi, name:li-jingquan, name:mao-zedong, vis:only:prc]
+  - id: cal.1960-02-13.china-leadership-10
+    when: Feb. 13
+    date: '1960-02-13'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Chen Yi 陈毅 telegraphs Gromyko on the tenth anniversary of the Sino-Soviet treaty of friendship, alliance and mutual assistance.
+    n: '[[w.chen-yi-nianpu]], 805. Names: Chen Yi, Gromyko.'
+    tags: [polity:prc, polity:ussr, name:chen-yi, name:gromyko-andrei]
+  - id: cal.1960-02-13.china-leadership-11
+    when: Feb. 13
+    date: '1960-02-13'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Great Hall of the People 人民大会堂, Peking 北京. Chen Yi 陈毅 speaks at the reception of the CPPCC National Committee 政协全国委员会, the Sino-Soviet Friendship Association 中苏友好协会总会, the Foreign Ministry 外交部 and the Commission for Cultural Relations with Foreign Countries 对外文化联络委员会 for the tenth anniversary of the Sino-Soviet treaty: its meaning and its part.'
+    n: '[[w.chen-yi-nianpu]], 805. The words: 晚上 (805). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1960-02-13T11:00Z
+      - 1960-02-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-14.elections-1960
     when: Feb. 14
     date: '1960-02-14'
@@ -1442,22 +1623,34 @@ entries:
   - id: cal.1960-02-14.china-leadership
     when: Feb. 14
     date: '1960-02-14'
+    place: conghua
     thread: china-leadership
     c: 'Zhou Enlai, on Mao''s proposal that leaders study the Soviet textbook *Political Economy*, calls some leading cadres and forms a reading group: Li Fuchun, Tao Zhu, Song Renqiong, Wu Zhipu, Xu Dixin, Hu Sheng, Xue Muqiao, Wang Heshou, Lü Zhengcao and Chen Zhengren among them.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 288 (Feb. 14, 1960). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Li Fuchun, Tao Zhu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 288 (Feb. 14, 1960); [[w.jian-zhou-enlai]], 442 (Zhou''s reading group, Li Fuchun, Tao Zhu, Song Renqiong and economists, philosophers and historians, on the *Textbook of Political Economy* at Conghua, Guangdong; the chapters on socialism done in three weeks). Made public: 1997. To check: [[w.zhou-enlai-zhuan-1949]], I, 580 (cited by [[w.jian-zhou-enlai]], 442 n.3). Names: Zhou Enlai, Mao Zedong, Li Fuchun, Tao Zhu.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:li-fuchun, name:tao-zhu, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.jian-zhou-enlai
+        reads: Zhou organizes the reading group in early February, at Conghua, Guangdong
+        at: '442'
   - id: cal.1960-02-14.china-leadership-3
     when: Feb. 14
     date: '1960-02-14'
     thread: china-leadership
     also: [soviet-union]
     c: 'Liu Shaoqi and Zhu De attend the Soviet ambassador''s reception for the tenth anniversary of the Sino-Soviet treaty of friendship, alliance and mutual assistance. Liu gives warm good wishes to the Soviet Party, government and people. Zhu De, speaking: for the common cause China must keep strengthening the great unity of the two countries and of the socialist camp headed by the Soviet Union.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 133 (Feb. 14, 1960). Names: Liu Shaoqi, Zhu De, Chervonenko.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 133 (Feb. 14, 1960); [[w.chen-yi-nianpu]], 805 (Feb. 14, 1960, evening; Chen Yi at Chervonenko''s banquet for the anniversary; toasts). Names: Liu Shaoqi, Zhu De, Chervonenko.'
     src:
       c: c87682b5
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 133: all'
+        - 'w.chen-yi-nianpu 805: ?'
     tags: [polity:prc, polity:ussr, name:liu-shaoqi, name:zhu-de, name:chervonenko-stepan-v]
+    time_range:
+      - 1960-02-14T11:00Z
+      - 1960-02-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-14.china-leadership-4
     when: Feb. 14
     date: '1960-02-14'
@@ -2363,6 +2556,14 @@ entries:
         - 'w.yang-jisheng-mubei I, 170: all'
         - 'via w.yang-jisheng-mubei I, 170 n.t2: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-02-19.china-leadership-4
+    when: Feb. 19–21
+    date: '1960-02-19'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The second national congress of the China Democratic National Construction Association 中国民主建国会 and the third congress of the All-China Federation of Industry and Commerce 中华全国工商业联合会, held together; Chen Yi 陈毅 and Li Xiannian 李先念 report.
+    n: '[[w.chen-yi-nianpu]], 805. Names: Chen Yi, Li Xiannian. Check: Liu Shaoqi''s chronology has Liu receive the delegates of the same congresses on Feb. 12 ([[cal.1960-02-12.china-leadership-3]]), before the dates given here.'
+    tags: [polity:prc, name:chen-yi, name:li-xiannian]
   - id: cal.1960-02-20.voting-rights
     when: Feb. 20
     date: '1960-02-20'
@@ -3133,7 +3334,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai, Feb. 26–Mar. 2, reads the textbook on. At the summing-up, Mar. 2: Soviet experience not to be copied; Stalin''s three successes each one-sided; Lenin to be learned from, not Stalin''s late years; Khrushchev against Stalin has taken the other road; two large faults in the textbook, on the Moscow Declaration''s nine laws and on the 21st Congress''s nine-point program.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 290 (Feb. 26, 1960). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 290 (Feb. 26, 1960); [[w.jian-zhou-enlai]], 442 (in the discussions Zhou praises the Leap as Mao''s "creative development" of Marxism-Leninism, but it is impossible to leap every day; some adjustment needed). Made public: 1997. To check: [[w.zhou-enlai-zhuan-1949]], I, 580 (cited by [[w.jian-zhou-enlai]], 442 n.3). Names: Zhou Enlai.'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc]
   - id: cal.1960-02-26.china-leadership-4
     when: Feb. 26

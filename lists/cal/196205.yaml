@@ -194,12 +194,18 @@ entries:
     thread: china-leadership
     also: [laos]
     c: Mao Zedong, Liu Shaoqi and Zhu De receive Quinim Pholsena, head of the Laotian government's delegation to the enlarged Geneva conference, and his wife.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 225–226 (May 1, 1962). Names: Mao Zedong, Liu Shaoqi, Zhu De, Quinim Pholsena. Check: the book gives no place.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 225–226 (May 1, 1962); [[w.chen-yi-nianpu]], 916 (May 1, 1962, evening; Quinim Pholsena and his wife; Chen Yi with them). Names: Mao Zedong, Liu Shaoqi, Zhu De, Quinim Pholsena. Check: the book gives no place.'
     src:
       c: 19de33a3
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 225–226: all'
+        - 'w.chen-yi-nianpu 916: ?'
     tags: [polity:prc, polity:laos, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:quinim-pholsena]
+    time_range:
+      - 1962-05-01T11:00Z
+      - 1962-05-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-05-01.china
     when: May 1
     date: '1962-05-01'
@@ -249,6 +255,43 @@ entries:
     c: 'Saigon. Tens of thousands of workers of hundreds of unions meet for May Day, May 1: resolutions for higher pay and against firings; 5,000 taxi and cyclo drivers march shouting "Down with the Americans", "Down with Ngô Đình Diệm".'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 187. Names: Ngô Đình Diệm.'
     tags: [polity:drv, name:ngo-dinh-diem]
+  - id: cal.1962-05-01.china-leadership-6
+    when: May 1
+    date: '1962-05-01'
+    place: peking
+    thread: china-leadership
+    c: May Day. Chen Yi 陈毅 on the Tiananmen rostrum 天安门城楼 for the mass festivities and the fireworks.
+    n: '[[w.chen-yi-nianpu]], 916. The words: 晚上 (916). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1962-05-01T11:00Z
+      - 1962-05-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-05-01.china-leadership-7
+    when: May 1
+    date: '1962-05-01'
+    thread: china-leadership
+    c: Mao Zedong 毛泽东, Liu Shaoqi 刘少奇 and Zhu De 朱德 receive a group of first and new ambassadors and chargés, Chen Yi 陈毅 with them, Perera of Ceylon, 托依沃拉 of Finland, 雇利 of Syria, 米斯凯尼亚 of Afghanistan, Han Ik-su 韩益洙 of the DPRK, Zniber of Morocco and 巴嘉迪, the Dutch chargé, with their wives.
+    n: '[[w.chen-yi-nianpu]], 916. The words: 晚上 (916). Names: Mao Zedong, Liu Shaoqi, Zhu De, Chen Yi.'
+    tags: [polity:prc, polity:ceylon, polity:finland, polity:syria, polity:afghanistan, polity:dprk, polity:morocco, polity:netherlands, name:chen-yi, name:mao-zedong, name:liu-shaoqi, name:zhu-de, ok:fields-place]
+    time_range:
+      - 1962-05-01T11:00Z
+      - 1962-05-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-05-01.china-leadership-8
+    when: May 1
+    date: '1962-05-01'
+    thread: china-leadership
+    c: Mao Zedong 毛泽东, Liu Shaoqi 刘少奇 and Zhu De 朱德 receive the Malian women's delegation led by Mrs. 阿乌阿·凯塔, Chen Yi 陈毅 with them.
+    n: '[[w.chen-yi-nianpu]], 916. The words: 晚上 (916). Names: Mao Zedong, Liu Shaoqi, Zhu De, Chen Yi.'
+    tags: [polity:prc, polity:mali, name:chen-yi, name:mao-zedong, name:liu-shaoqi, name:zhu-de, ok:fields-place]
+    time_range:
+      - 1962-05-01T11:00Z
+      - 1962-05-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-05-02.court
     when: May 2
     date: '1962-05-02'
@@ -525,6 +568,19 @@ entries:
       - 1962-05-03T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-05-03.china-leadership-6
+    when: May 3
+    date: '1962-05-03'
+    thread: china-leadership
+    also: [japan]
+    c: 'Chen Yi 陈毅 receives twenty-five Japanese visiting Peking 北京: Inomata Kōzō 猪俣浩三, Socialist member of the Diet, and his wife; the delegations of the Japan–China Friendship Association, Sōhyō, the telecommunications workers and the Red Cross; and 柳泽恭雄 of the *Denpa Shimbun* 日本电波新闻社. He praises the Japanese people''s patriotic struggle against America; the friendship of two thousand years will be restored.'
+    n: '[[w.chen-yi-nianpu]], 916. The words: 上午 (916). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-05-02T22:00Z
+      - 1962-05-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-05-04.europe-and-the-alliance
     when: May 4–6
     date: '1962-05-04'
@@ -660,6 +716,30 @@ entries:
     c: Zhou Enlai at the Secretariat, which hears Gu Mu and the regional economic commission directors.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 476 (May 5, 1962); [[w.yang-shangkun-riji]], II, 158 (May 5, 1962; 3:30 to 7 p.m., Liu Shaoqi''s meeting at the Xilou: Gu Mu on the regional economic commission directors'' meeting; its outline and the paper on materials control to go to the work conference; note 1: Gu Mu); [[w.deng-xiaoping-nianpu-1904]], III, 1703 (May 5, 1962; afternoon; Deng at the meeting hearing Gu Mu on the regional economic commission directors'' meeting). Made public: 1997. Check: the chronology says only that he attends; the hearing is from his letter of May 3. Check: the Deng nianpu (III, 1703) calls the meeting of May 5, 1962, an enlarged Politburo, Liu Shaoqi presiding. Names: Zhou Enlai, Gu Mu.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-05-05.china-leadership-2
+    when: May 5
+    date: '1962-05-05'
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the banquet of 马尔丁, the Hungarian Ambassador, at the embassy for the third anniversary of the Hungarian–Chinese treaty of friendship and cooperation.
+    n: '[[w.chen-yi-nianpu]], 916. The words: 中午 (916). Names: Chen Yi.'
+    tags: [polity:prc, polity:hungary, name:chen-yi]
+    time_range:
+      - 1962-05-05T04:00Z
+      - 1962-05-05T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1962-05-05.china-leadership-3
+    when: May 5
+    date: '1962-05-05'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 speaks at the reception the envoys in China give to thank the Foreign Ministry for their April tour of Hubei 湖北, Hunan 湖南 and Guangxi 广西: the poverty and backwardness old China left cannot be undone at once, but China will become a modern socialist country.'
+    n: '[[w.chen-yi-nianpu]], 916–917. The words: 晚上 (916–917). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-05-05T11:00Z
+      - 1962-05-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-05-06.laos
     when: May 6
     date: '1962-05-06'
@@ -765,6 +845,14 @@ entries:
         - 'w.yang-shangkun-riji II, 158: all'
     tags: [polity:prc, name:ke-qingshi, name:li-jingquan, name:zhou-enlai, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-05-06.china-leadership-4
+    when: May 6
+    date: '1962-05-06'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the Peking Aviation Club 北京市航空俱乐部 for the air sports display of the Peking Physical Culture and Sports Commission for May Fourth Youth Day.
+    n: '[[w.chen-yi-nianpu]], 917. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1962-05-07.robert-kennedy
     when: May 7
     date: '1962-05-07'
@@ -874,7 +962,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking. The Central Work Conference, Liu Shaoqi presiding, May 7–11, on the Central Finance Group''s draft report: the hardest period not past in some regions and branches; a great, broad adjustment of the economy; agriculture, light industry, heavy industry in that order; cut the industrial front, cut workers and town population, raise farm inputs and consumer goods, stop inflation. Zhou Enlai then drafts the Central Committee''s covering directive.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 7, 1962 (the entry for May 7–11); [[w.zhou-enlai-nianpu-1949]], II, 476–77 (May 7–11, 1962: Zhou Enlai arranges the agenda and the list of those attending; joins the industry and transport and other groups; speaks May 11); [[w.macfarquhar-origins-of-the-cultural]], III, 199–200, 208 (May 7–11: 105 officials; two days on the small group''s report, five groups; four Standing Committee members speak on the last day); [[w.macfarquhar-origins-of-the-cultural]], III, 209 (no conclusion was reached on further changes to rural collectivization); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 554–555 (May 7–11, 1962; Liu presides at the Central Work Conference (the "May conference"), chiefly on the Finance and Economics Small Group''s report on the 1962 adjustment plan; May 7, after Li Fuchun and Li Xiannian on further reducing the town population, cutting staff, shortening the industrial front, grain and foreign exchange, Liu: if no measures are taken this year, next year''s situation will be worse; the trend, if not turned, is a very bad one and the economy will collapse); [[w.yang-shangkun-riji]], II, 158 (May 7, 1962; the plenary, 3:30 to 6:50 p.m., 102 present, Liu Shaoqi presiding; Li Fuchun and Li Xiannian report); [[w.deng-xiaoping-nianpu-1904]], III, 1703–1704 (May 7–11, 1962; Deng attends and speaks at its close; the Finance and Economics Group''s draft report; the eight characters carried out fully, a broad readjustment, farming, light, heavy industry in order, the industrial front shortened, workers and townspeople cut, farming strengthened, the market supplied, inflation checked); [[w.mao-zedong-zhuan]], V, ch. 69 (May 7–11, the Central Work Conference at Peking, Liu Shaoqi presiding: the Politburo members in Peking and Secretariat members, the bureaus'' first secretaries, the Center''s and State Council''s officials; the plan for 1962 adjusted further). [[w.yang-jisheng-mubei]], II, 1175 (the May meeting, May 7–11, 1962, Liu Shaoqi presiding: the Xilou and State Council papers carried out; "retreat enough"; Chen Yun''s advice; "extraordinary measures for an extraordinary time"). Made public: 1996. To check: [[w.zhonggong-dangshi-jiaoxue-cankao-n-d]], 62 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 199 n.55a); [[w.huaxuan-zhongguo-gongchan-dang-huiyi]], 481 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 199 n.55b); [[w.zhonggong-dangshi-jiaoxue-cankao-n-d]], 63–77 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 200 n.58a); [[w.enlai-zhou-enlai-xuanji-selected]], 2, 416–26 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 200 n.58b); [[w.shaoqi-liu-shaoqi-xuanji-selected]], 444–49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 200 n.58c); [[w.xiaoping-deng-xiaoping-wenxuan-1938]], 300–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 200 n.58d); [[w.zedong-jianguo-yilai-mao-zedong]], 10, 94–96 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 208 n.92). Names: Liu Shaoqi, Zhou Enlai, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 7, 1962 (the entry for May 7–11); [[w.zhou-enlai-nianpu-1949]], II, 476–77 (May 7–11, 1962: Zhou Enlai arranges the agenda and the list of those attending; joins the industry and transport and other groups; speaks May 11); [[w.macfarquhar-origins-of-the-cultural]], III, 199–200, 208 (May 7–11: 105 officials; two days on the small group''s report, five groups; four Standing Committee members speak on the last day); [[w.macfarquhar-origins-of-the-cultural]], III, 209 (no conclusion was reached on further changes to rural collectivization); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 554–555 (May 7–11, 1962; Liu presides at the Central Work Conference (the "May conference"), chiefly on the Finance and Economics Small Group''s report on the 1962 adjustment plan; May 7, after Li Fuchun and Li Xiannian on further reducing the town population, cutting staff, shortening the industrial front, grain and foreign exchange, Liu: if no measures are taken this year, next year''s situation will be worse; the trend, if not turned, is a very bad one and the economy will collapse); [[w.yang-shangkun-riji]], II, 158 (May 7, 1962; the plenary, 3:30 to 6:50 p.m., 102 present, Liu Shaoqi presiding; Li Fuchun and Li Xiannian report); [[w.deng-xiaoping-nianpu-1904]], III, 1703–1704 (May 7–11, 1962; Deng attends and speaks at its close; the Finance and Economics Group''s draft report; the eight characters carried out fully, a broad readjustment, farming, light, heavy industry in order, the industrial front shortened, workers and townspeople cut, farming strengthened, the market supplied, inflation checked); [[w.mao-zedong-zhuan]], V, ch. 69 (May 7–11, the Central Work Conference at Peking, Liu Shaoqi presiding: the Politburo members in Peking and Secretariat members, the bureaus'' first secretaries, the Center''s and State Council''s officials; the plan for 1962 adjusted further). [[w.yang-jisheng-mubei]], II, 1175 (the May meeting, May 7–11, 1962, Liu Shaoqi presiding: the Xilou and State Council papers carried out; "retreat enough"; Chen Yun''s advice; "extraordinary measures for an extraordinary time"); [[w.chen-yi-nianpu]], 917 (May 7–11, 1962; Chen Yi attends). Made public: 1995. To check: [[w.zhonggong-dangshi-jiaoxue-cankao-n-d]], 62 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 199 n.55a); [[w.huaxuan-zhongguo-gongchan-dang-huiyi]], 481 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 199 n.55b); [[w.zhonggong-dangshi-jiaoxue-cankao-n-d]], 63–77 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 200 n.58a); [[w.enlai-zhou-enlai-xuanji-selected]], 2, 416–26 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 200 n.58b); [[w.shaoqi-liu-shaoqi-xuanji-selected]], 444–49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 200 n.58c); [[w.xiaoping-deng-xiaoping-wenxuan-1938]], 300–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 200 n.58d); [[w.zedong-jianguo-yilai-mao-zedong]], 10, 94–96 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 208 n.92). Names: Liu Shaoqi, Zhou Enlai, Mao Zedong.'
     src:
       c: 68bac785
       rows:
@@ -894,6 +982,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1703–1704: ?'
         - 'w.mao-zedong-zhuan V, ch. 69: B-C'
         - 'w.yang-jisheng-mubei II, 1175: B'
+        - 'w.chen-yi-nianpu 917: ?'
     tags: [polity:prc, name:liu-shaoqi, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1962-05-07.china-leadership-2
     when: May 7
@@ -1171,6 +1260,13 @@ entries:
     c: Phú Yên. Saigon opens operation Hải Yến, May 8, eight months of sweeps of the countryside to back the moving of the people into 270 strategic hamlets.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 174.'
     tags: [polity:drv]
+  - id: cal.1962-05-08.china-leadership-8
+    when: May 8
+    date: '1962-05-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Václav David, the Czechoslovak Foreign Minister, on the seventeenth anniversary of Czechoslovakia's liberation.
+    n: '[[w.chen-yi-nianpu]], 917. Names: Chen Yi, David.'
+    tags: [polity:prc, polity:czechoslovakia, name:chen-yi, name:david-vaclav]
   - id: cal.1962-05-09.voting-rights
     when: May 9
     date: '1962-05-09'
@@ -1285,12 +1381,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhu De and Chen Yi attend the reception given by Czechoslovakia's ambassador, Josef Sedivy, for the 17th anniversary of the country's liberation. Chen Yi, in his speech, stresses the new U.S. atmospheric nuclear tests over the Pacific as a provocation. The Chinese people will work with the Czechoslovak people to oppose and stop the new war danger of a revived West German militarism.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 227 (May 9, 1962). Names: Zhu De, Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 227 (May 9, 1962); [[w.chen-yi-nianpu]], 917 (May 9, 1962, evening; Chen Yi speaks at 赛迪维''s reception, praising Czechoslovakia''s fight against West German militarists and revanchists, and condemns the American atmospheric nuclear tests in the Pacific). Names: Zhu De, Chen Yi.'
     src:
       c: a0c2a019
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 227: all'
+        - 'w.chen-yi-nianpu 917: ?'
     tags: [polity:prc, polity:czechoslovakia, polity:us, polity:frg, name:zhu-de, name:chen-yi]
+    time_range:
+      - 1962-05-09T11:00Z
+      - 1962-05-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-05-09.china-leadership-3
     when: May 9
     date: '1962-05-09'
@@ -1368,6 +1470,18 @@ entries:
     c: The Secretariat, with two deputy secretaries of the Thái Bình Provincial Committee and two of its members, on farm development in the province for 1961–65. A crowded province with little land to add, but fertile, with its water control largely done and a long habit of intensive farming. The notice faults the committee for conservatism, bureaucracy and a leadership short of unity and democracy, and sets the province's course for grain, crops, livestock, fish and salt, and local industry.
     n: '*Thông báo của Ban Bí thư số 24-TB/TW, ngày 1-6-1962, Về cuộc họp Ban Bí thư bàn phát triển nông nghiệp tỉnh Thái Bình*, signed for the Secretariat by Phạm Chung, deputy chief of the office. [[w.van-kien-dang-toan]], XXIII, 590–601. Made public: 2002. The sittings: "Ngày 9, 10-5-1962" (May 9 and 10); the notice is dated June 1. The Secretariat present, by one name each: "Ba, Tô, Hùng, Thanh, Lành, Lương."'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1962-05-09.china-leadership-8
+    when: May 9
+    date: '1962-05-09'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 查禾多, chairman of the Indonesian Journalists' Association and of the Indonesia–China Friendship Association, editor-in-chief of Antara 安塔拉通讯社.
+    n: '[[w.chen-yi-nianpu]], 917. The words: 上午 (917). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-05-08T22:00Z
+      - 1962-05-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-05-10.king
     when: May 10
     date: '1962-05-10'
@@ -1728,11 +1842,12 @@ entries:
     date: '1962-05-11'
     thread: china-leadership
     c: Chen Yi, Vice-Premier, receives a delegation of the French General Confederation of Labor led by Georges Séguy, executive committee member and secretary of its railway workers' union.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 227 (May 11, 1962). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 227 (May 11, 1962); [[w.chen-yi-nianpu]], 917–918 (May 11, 1962; the CGT delegation led by Georges Séguy 乔治·赛吉, general secretary of its railway workers'' union). Names: Chen Yi.'
     src:
       c: 4ff2bdd8
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 227: all'
+        - 'w.chen-yi-nianpu 917–918: ?'
     tags: [polity:prc, polity:fr, name:chen-yi]
   - id: cal.1962-05-11.china-leadership-5
     when: May 11
@@ -1745,6 +1860,11 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 227: all'
     tags: [polity:prc, polity:italy, name:chen-yi]
+    variants:
+      - unit: A
+        witness: w.chen-yi-nianpu
+        reads: Chen Yi receives the Italian General Confederation of Labor's delegation led by its deputy secretary 马切罗·西吉诺非 on the morning of May 14, 1962
+        at: '918'
   - id: cal.1962-05-11.china
     when: May 11
     date: '1962-05-11'
@@ -2051,6 +2171,18 @@ entries:
         - 'w.yang-jisheng-mubei I, 467: all'
         - 'via w.yang-jisheng-mubei I, 467 n.6: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-05-14.china-leadership-7
+    when: May 14
+    date: '1962-05-14'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Zhou Enlai with Luo Ruiqing, Chief of Staff, and Yang Chengwu: their detailed report on the situation on the Indian border.'
+    n: '[[w.jian-zhou-enlai]], 472. Made public: 2000. To check: [[w.zhou-enlai-junshi-huodong]], II, 564 (cited by [[w.jian-zhou-enlai]], 473 n.31). Names: Zhou Enlai, Luo Ruiqing.'
+    src:
+      c: 786a95d4
+      rows:
+        - 'w.jian-zhou-enlai 472: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:luo-ruiqing]
   - id: cal.1962-05-15.laos
     when: May 15
     date: '1962-05-15'
@@ -2323,6 +2455,18 @@ entries:
         witness: w.dikotter-maos-great-famine
         reads: the flight to Hong Kong in May 1962 reached a peak of over 5,000 a day
         at: '240'
+  - id: cal.1962-05-15.china-leadership-6
+    when: May 15
+    date: '1962-05-15'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the trade union delegations of Algeria (the General Union of Algerian Workers, led by 穆斯塔法·乌伊·艾哈迈德), of Guinea (led by 乌拉尔·安苏曼), of Tanganyika (led by 哈萨尼·辛巴·卡尔范尼, of the mine workers), and 巴多诺·让·马利 of Dahomey's farm and forest workers.
+    n: '[[w.chen-yi-nianpu]], 918. The words: 上午 (918). Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, polity:guinea, polity:tanzania, polity:dahomey, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-05-14T22:00Z
+      - 1962-05-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-05-16.china-leadership
     when: May 16
     date: '1962-05-16'
@@ -2486,6 +2630,18 @@ entries:
     c: 'The Secretariat, with the Hải Dương Provincial Committee''s secretary, deputy secretary and a member, on farm direction in the province for 1961–65 and 1963: a large lowland rice province, the North''s chief supplier of rice to the state (first by head, second in all), with a young Party. Its views on crops, livestock, land clearing, side trades, technique, cooperatives, the pace of development, and the committee''s leadership.'
     n: '*Thông báo của Ban Bí thư số 25-TB/HN, ngày 16-6-1962, Về cuộc họp Ban Bí thư bàn phương hướng phát triển nông nghiệp tỉnh Hải Dương*, signed for the Secretariat by Phạm Chung, deputy chief of the office. [[w.van-kien-dang-toan]], XXIII, 616–26. Made public: 2002. The sittings: "Ngày 17 - 18-5-1962" (May 17 and 18); the notice is dated June 16. The Secretariat present, by one name each: "Ba, Tô, Hùng, Thanh, Lành, Lương."'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1962-05-17.china-leadership-5
+    when: May 17
+    date: '1962-05-17'
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the national-day reception of 唐斯, the Norwegian Ambassador.
+    n: '[[w.chen-yi-nianpu]], 918. The words: 晚上 (918). Names: Chen Yi.'
+    tags: [polity:prc, polity:norway, name:chen-yi]
+    time_range:
+      - 1962-05-17T11:00Z
+      - 1962-05-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-05-18.opinion
     when: May 18
     date: '1962-05-18'
@@ -2582,12 +2738,18 @@ entries:
     date: '1962-05-18'
     thread: china-leadership
     c: 'Chen Yi, Vice-Premier, with a Swiss National Council member: Switzerland keeps its political and military neutrality, which does no harm to the socialist camp. On the Sino-Soviet differences he says that, as Confucius said, brothers quarrel at home but together resist insult from outside. China has its independent views and the Soviet Union has its own; neither can force them on the other.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 228 (May 18, 1962). Made public: 2001. Names: Chen Yi. Check: the councillor is 福雷耳·阿曼特 in the book (the Latin form not recovered). Whether the talk was reported then.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 228 (May 18, 1962); [[w.chen-yi-nianpu]], 918 (May 18, 1962, morning; 福雷耳·阿曼特; lunch after). Made public: 2001. Names: Chen Yi. Check: the councillor is 福雷耳·阿曼特 in the book (the Latin form not recovered). Whether the talk was reported then.'
     src:
       c: 6e877577
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 228: all'
+        - 'w.chen-yi-nianpu 918: ?'
     tags: [polity:prc, polity:switzerland, polity:ussr, vis:only:prc+switzerland, name:chen-yi]
+    time_range:
+      - 1962-05-17T22:00Z
+      - 1962-05-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-05-18.china-leadership-5
     when: May 18
     date: '1962-05-18'
@@ -2620,6 +2782,31 @@ entries:
       - 1962-05-18T11:00Z
       - 1962-05-18T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-05-18.china-leadership-7
+    when: May 18
+    date: '1962-05-18'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the trade union delegations of Cuba (the sugar workers, led by 冈萨雷斯·马里尼奥), Ghana, Mali, Cameroon and Togo, and 穆斯塔法·提阿姆 of Senegal.
+    n: '[[w.chen-yi-nianpu]], 918. The words: 上午 (918). Names: Chen Yi.'
+    tags: [polity:prc, polity:cuba, polity:ghana, polity:mali, polity:cameroon, polity:senegal, polity:togo, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-05-17T22:00Z
+      - 1962-05-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-05-18.china-leadership-8
+    when: May 18
+    date: '1962-05-18'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives 冈田春夫, Socialist member of the Diet, and 宫崎世民 and 长谷川敏三 of the Japan–China Friendship Association.
+    n: '[[w.chen-yi-nianpu]], 918. The words: 下午 (918). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-05-18T04:00Z
+      - 1962-05-18T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-05-19.democratic-party
     when: May 19
@@ -2713,6 +2900,18 @@ entries:
       - 1962-05-19T04:00Z
       - 1962-05-19T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-05-19.china-leadership-4
+    when: May 19
+    date: '1962-05-19'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 鲁比约诺, a senior Indonesian Foreign Ministry official, and the doctors 胡永良 and 司徒眉生, who brought the Chinese medical team to Peking 北京; gives them Mao's 毛泽东 greetings to Sukarno, and replies of Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and his own to the President on his health.
+    n: '[[w.chen-yi-nianpu]], 918. The words: 中午 (918). Made public: 1995. Names: Chen Yi, Mao Zedong, Sukarno, Liu Shaoqi, Zhou Enlai.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:mao-zedong, name:sukarno, name:liu-shaoqi, name:zhou-enlai, ok:fields-place, vis:only:prc+indonesia]
+    time_range:
+      - 1962-05-19T04:00Z
+      - 1962-05-19T06:00Z
+    time_band: workday midday
     time_zone: Asia/Shanghai
   - id: cal.1962-05-20.medicare
     when: May 20
@@ -2907,6 +3106,18 @@ entries:
     c: 'Kiến Tường. Saigon troops hit Tân Hòa, Zone 4, May 21, where Companies 3 and 4 of Battalion 261 were training: four 12.7-mm machine guns and a mortar destroyed or taken, by the history''s count.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 215.'
     tags: [polity:drv]
+  - id: cal.1962-05-21.china-leadership-5
+    when: May 21
+    date: '1962-05-21'
+    thread: china-leadership
+    c: 詹姆斯·默塞尔, Ghana's new Ambassador, calls on Chen Yi 陈毅 on the presentation of his credentials.
+    n: '[[w.chen-yi-nianpu]], 918. The words: 上午 (918). Names: Chen Yi.'
+    tags: [polity:prc, polity:ghana, name:chen-yi]
+    time_range:
+      - 1962-05-20T22:00Z
+      - 1962-05-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-05-22.governors-ok
     when: May 22
     date: '1962-05-22'
@@ -3043,6 +3254,39 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 175: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-05-22.china-leadership-6
+    when: May 22
+    date: '1962-05-22'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the China Art Gallery 中国美术馆 at the preview of the national art exhibition marking the twentieth anniversary of Mao's 毛泽东 Yan'an Talks on Literature and Art 《在延安文艺座谈会上的讲话》; afterward writes the poem "Art" 《艺术》.
+    n: '[[w.chen-yi-nianpu]], 919. Names: Chen Yi, Mao Zedong.'
+    tags: [polity:prc, name:chen-yi, name:mao-zedong]
+  - id: cal.1962-05-22.china-leadership-7
+    when: May 22
+    date: '1962-05-22'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Zhou Enlai 周恩来 at the Chinese Film Workers' Association's 中国电影工作者协会 Hundred Flowers awards for 1960–61 in the auditorium of the CPPCC 政协礼堂, and the film workers' evening; they receive the winners.
+    n: '[[w.chen-yi-nianpu]], 919. The words: 晚上 (919). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1962-05-22T11:00Z
+      - 1962-05-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-05-22.china-leadership-8
+    when: May 22
+    date: '1962-05-22'
+    thread: china-leadership
+    also: [south-asia, china]
+    c: 'Zhou Enlai on the General Staff''s plan for the Indian border: be fully prepared for Indian armed provocation, the preparations done by the end of June; if India opens fire, fire back, win, and recover the territory Indian troops have taken. The main attention to be turned to the "ocean direction."'
+    n: '[[w.jian-zhou-enlai]], 472–473 (the comment "one week later" than May 14, and the response of May 22). Made public: 2000. To check: [[w.zhou-enlai-junshi-huodong]], II, 564 (cited by [[w.jian-zhou-enlai]], 473 n.31); [[w.zhou-enlai-junshi-huodong]], II, 564 (cited by [[w.jian-zhou-enlai]], 473 n.33). Names: Zhou Enlai.'
+    src:
+      c: 0624f70e
+      rows:
+        - 'w.jian-zhou-enlai 472–473: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai]
   - id: cal.1962-05-23.immigration
     when: May 23
     date: '1962-05-23'
@@ -3194,6 +3438,18 @@ entries:
     c: 'Saigon. The special military court sentences 12 men, May 23: four to death, four to life, four to terms of 5 to 10 years. Five thousand students and four thousand parents hold a march of 5 to 6 km at Chợ Lớn and Tân An against the verdict.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 187. Check: the day of the march is not given.'
     tags: [polity:drv]
+  - id: cal.1962-05-23.china-leadership-6
+    when: May 23
+    date: '1962-05-23'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Sudanese trade and cotton delegation led by 赛义德·曼苏尔·马哈古卜 of the Ministry of Commerce, Industry and Supply.
+    n: '[[w.chen-yi-nianpu]], 919. See [[cal.1962-05-23.china]]. The words: 上午 (919). Names: Chen Yi.'
+    tags: [polity:prc, polity:sudan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-05-22T22:00Z
+      - 1962-05-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-05-24.missile-crisis
     when: May 24
     date: '1962-05-24'
@@ -3499,6 +3755,32 @@ entries:
       - 1962-05-25T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1962-05-25.china-leadership-4
+    when: May 25
+    date: '1962-05-25'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 receives, and gives an informal lunch for, 方·丰萨万, adviser to the Royal Laotian government, and 占保, governor of 川塘 province.
+    n: '[[w.chen-yi-nianpu]], 919. The words: 下午 (919). Names: Chen Yi.'
+    tags: [polity:prc, polity:laos, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-05-25T04:00Z
+      - 1962-05-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-05-25.china-leadership-5
+    when: May 25
+    date: '1962-05-25'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the delegation of the Japanese metal workers' joint struggle council led by 吉田明 of the National Metal Workers' Union.
+    n: '[[w.chen-yi-nianpu]], 919. The words: 下午 (919). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-05-25T04:00Z
+      - 1962-05-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-05-26.china-leadership
     when: May 26
     date: '1962-05-26'
@@ -3541,6 +3823,13 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1707: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-05-26.china-leadership-4
+    when: May 26
+    date: '1962-05-26'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Naim, Afghanistan's Deputy Prime Minister and Foreign Minister, on the Afghan national day.
+    n: '[[w.chen-yi-nianpu]], 919. Names: Chen Yi, Naim.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:naim-sardar-mohammad]
   - id: cal.1962-05-27.opinion
     when: May 27
     date: '1962-05-27'
@@ -3657,11 +3946,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking, the Afghan Embassy. Zhou Enlai attends the national day reception given by the Afghan Ambassador, Mohammad Shoaib Miskinyar.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 331 (May 28, 1962; 傍晚). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 331 (May 28, 1962; 傍晚); [[w.chen-yi-nianpu]], 919 (May 28, 1962, late afternoon; Chen Yi speaks at the reception of 穆罕默德·舒埃卜·米斯凯尼亚, praising the two countries'' friendship). Names: Zhou Enlai.'
     src:
       c: 344db123
       rows:
         - 'w.zhou-enlai-waijiao-huodong 331: all'
+        - 'w.chen-yi-nianpu 919: ?'
     tags: [polity:prc, polity:afghanistan, name:zhou-enlai]
     time_range:
       - 1962-05-28T09:00Z
@@ -3945,6 +4235,19 @@ entries:
         - 'w.yang-shangkun-riji II, 177: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1708: ?'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-05-29.china-leadership-5
+    when: May 29
+    date: '1962-05-29'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the Japanese press, broadcasting and publishing delegation led by 末田春彦.
+    n: '[[w.chen-yi-nianpu]], 919. The words: 下午 (919). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-05-29T04:00Z
+      - 1962-05-29T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-05-30.opinion
     when: May 30
@@ -4595,13 +4898,14 @@ entries:
     date: 1962-05
     thread: china-leadership
     c: 'Zhou Enlai, in May or June, asks Yang Shangkun to telephone Tian Jiaying in Shanghai: whether the private part of the rural economy might be loosened. Tian, Mao''s secretary, had made a country survey in Hunan on Mao''s word and then reported to Mao at Shanghai.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 481 (May–June, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 265 (Yang Shangkun telephones Tian in Shanghai: Zhou wants to know whether the portion of private land may be enlarged somewhat; Tian agrees at once, without consulting Mao). Made public: 1997. Check: the day. Check: the book reads the question as of private plots rather than baochan daohu, and says its source (Tian''s biography) states that Tian did not seek Mao''s opinion (III, 265 n.19). To check: [[w.bian-mao-zedong-he-tade]], 66 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 265 n.19). Names: Zhou Enlai, Yang Shangkun, Tian Jiaying, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 481 (May–June, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 265 (Yang Shangkun telephones Tian in Shanghai: Zhou wants to know whether the portion of private land may be enlarged somewhat; Tian agrees at once, without consulting Mao); [[w.jian-zhou-enlai]], 467 (Zhou asks Tian whether more room might be given to private endeavor in the countryside). Made public: 1997. Check: the day. Check: the book reads the question as of private plots rather than baochan daohu, and says its source (Tian''s biography) states that Tian did not seek Mao''s opinion (III, 265 n.19). To check: [[w.bian-mao-zedong-he-tade]], 66 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 265 n.19); [[w.chen-yun-nianpu-1905]], III, 119 (cited by [[w.jian-zhou-enlai]], 467 n.4); [[w.bian-mao-zedong-he-tade-1996]], 91 (cited by [[w.jian-zhou-enlai]], 467 n.5b). Names: Zhou Enlai, Yang Shangkun, Tian Jiaying, Mao Zedong.'
     src:
       c: 8dd52eb6
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 481: ?'
         - 'w.macfarquhar-origins-of-the-cultural III, 265: A, B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 265 n.19: A, B'
+        - 'w.jian-zhou-enlai 467: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1962-05.china
     when: May
@@ -4709,12 +5013,13 @@ entries:
     place: shanghai
     thread: china-leadership
     c: Shanghai. Tian Jiaying shows his report to Chen Yun, who is there too. Chen, who had disagreed with Tian at the Canton conference, is very supportive.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 265. Made public: 1989. To check: [[w.bian-mao-zedong-he-tade]], 64–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 265 n.17). See [[cal.1962-05.china-leadership-6]]. Names: Chen Yun. Check: the day; the book gives none.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 265; [[w.jian-zhou-enlai]], 466 (Tian reports to Mao, Liu and Chen Yun; Liu and Chen excited, Mao indifferent). Made public: 1989. To check: [[w.bian-mao-zedong-he-tade]], 64–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 265 n.17); [[w.bian-mao-zedong-he-tade-1996]], 90–91 (cited by [[w.jian-zhou-enlai]], 466 n.2a); [[w.deng-liqun-guoshi-jiangtan]], VI, 364 (cited by [[w.jian-zhou-enlai]], 466 n.2b); [[w.chen-yun-nianpu-1905]], III, 118 (cited by [[w.jian-zhou-enlai]], 466 n.2c). See [[cal.1962-05.china-leadership-6]]. Names: Chen Yun. Check: the day; the book gives none.'
     src:
       c: de37be05
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 265: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 265 n.17: all'
+        - 'w.jian-zhou-enlai 466: ?'
     tags: [polity:prc, vis:only:prc, name:chen-yun]
   - id: cal.1962-05.china-leadership-8
     when: May–June
@@ -4722,12 +5027,13 @@ entries:
     place: shanghai
     thread: china-leadership
     c: 'Shanghai. Tian Jiaying reports orally to Mao, who seems not to have read his report and listens coolly. Mao: "We want to follow the mass line, but there are times when we cannot completely heed the masses. For example, if they want to institute baochan daohu, we cannot listen to them."'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 265. Made public: 1989. To check: [[w.bian-mao-zedong-he-tade]], 65–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 265 n.18). See [[cal.1962-05.china-leadership-7]]. Names: Mao Zedong. Check: the day; the book gives none.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 265; [[w.jian-zhou-enlai]], 466 (Tian briefs Mao in Shanghai: even Shaoshan''s peasants for household responsibility; Mao, "cold face": not to listen to the masses on linking output with households). Made public: 1989. To check: [[w.bian-mao-zedong-he-tade]], 65–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 265 n.18); [[w.zedong-mao-zedong-nianpu]], V, 102–103 (cited by [[w.jian-zhou-enlai]], 466 n.3). See [[cal.1962-05.china-leadership-7]]. Names: Mao Zedong. Check: the day; the book gives none.'
     src:
       c: 869cf50c
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 265: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 265 n.18: all'
+        - 'w.jian-zhou-enlai 466: ?'
     tags: [polity:prc, vis:only:prc, name:mao-zedong]
   - id: cal.1962-05.south-asia
     when: May
@@ -4949,3 +5255,35 @@ entries:
         - 'w.dikotter-maos-great-famine 240: all'
         - 'via w.dikotter-maos-great-famine 240 n.56: all'
     tags: [polity:prc, ok:fields-place, ok:fields-time]
+  - id: cal.1962-05-31.china-leadership-4
+    when: May 31
+    date: '1962-05-31'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and 彭·沙格达, the Mongolian Foreign Minister, exchange cables on the second anniversary of the Sino-Mongolian treaty of friendship.
+    n: '[[w.chen-yi-nianpu]], 919. Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi]
+  - id: cal.1962-05.china-leadership-16
+    when: May, early
+    date: 1962-05
+    at: before 1962-05-01
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Yang Chengwu, deputy chief of staff, to Zhou Enlai, a report: by recent incidents the Indians mean to go on encroaching and in time occupy all of Aksai Chin; though China tries to avoid a bloody clash, military conflict is inevitable, and full preparation needed.'
+    n: '[[w.jian-zhou-enlai]], 472. Made public: 2014. To check: [[w.zishen-yang-chengwu-nianpu-chronological]], 362 (cited by [[w.jian-zhou-enlai]], 472 n.30). Names: Zhou Enlai.'
+    src:
+      c: 7343ca98
+      rows:
+        - 'w.jian-zhou-enlai 472: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+  - id: cal.1962-05-31.china-leadership-5
+    when: May 31
+    date: '1962-05-31'
+    thread: china-leadership
+    also: [china]
+    c: 'Luo Ruiqing briefs Mao on Chiang Kai-shek''s intention and preparations to attack the mainland. Mao: be prepared for Chiang to land four hundred thousand men in the fall; the threat in the west not to draw attention there; the primary strategic direction remains the east.'
+    n: '[[w.jian-zhou-enlai]], 473. Made public: 1991. To check: [[w.yao-luo-ruiqing-zhuan-a]], 369–370 (the 1991 printing as cited) (cited by [[w.jian-zhou-enlai]], 473 n.34). Names: Luo Ruiqing, Mao Zedong, Chiang Kai-shek.'
+    src:
+      c: '30820460'
+      rows:
+        - 'w.jian-zhou-enlai 473: all'
+    tags: [polity:prc, vis:only:prc, name:luo-ruiqing, name:mao-zedong, name:chiang-kai-shek]

@@ -229,13 +229,48 @@ entries:
     thread: china-leadership
     also: [china]
     c: China and Indonesia sign a treaty of friendship and an agreement on cultural cooperation, on the five principles of peaceful coexistence.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 453 ("in April 1961"); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 189 (Apr. 1, 1961; the treaty of friendship and the cultural cooperation agreement signed at Jakarta during Chen Yi''s visit of Mar. 28–Apr. 2, with the two foreign ministers'' joint communique: questions hindering friendship among Asian and African states to be settled by consultation on the ten Bandung principles and the five principles; a second Asian–African conference needed soon). Check: the day; Wu gives the month only; see [[cal.1961-04-03.china-leadership-4]] (the State Council on the treaty). Check: the dashiji dates the signing Apr. 1, 1961, at Jakarta, with the two foreign ministers'' joint communique ([[w.zhonghua-renmin-gongheguo-waijiao-2001]], 189).'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 453 ("in April 1961"); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 189 (Apr. 1, 1961; the treaty of friendship and the cultural cooperation agreement signed at Jakarta during Chen Yi''s visit of Mar. 28–Apr. 2, with the two foreign ministers'' joint communique: questions hindering friendship among Asian and African states to be settled by consultation on the ten Bandung principles and the five principles; a second Asian–African conference needed soon); [[w.chen-yi-nianpu]], 865 (Apr. 1, 1961; Chen Yi signs the treaty of friendship, the cultural agreement and the foreign ministers'' joint communiqué; speaks at the signing, the bridge of friendship not to be broken). Check: the day; Wu gives the month only; see [[cal.1961-04-03.china-leadership-4]] (the State Council on the treaty). Check: the dashiji dates the signing Apr. 1, 1961, at Jakarta, with the two foreign ministers'' joint communique ([[w.zhonghua-renmin-gongheguo-waijiao-2001]], 189).'
     src:
       c: 6c054f3c
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 453: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 189: A'
+        - 'w.chen-yi-nianpu 865: ?'
     tags: [polity:prc]
+  - id: cal.1961-04-01.china-leadership-7
+    when: Apr. 1
+    date: '1961-04-01'
+    place: jakarta
+    thread: china-leadership
+    c: Chen Yi 陈毅 broadcasts a farewell to the Indonesian people over Indonesian radio.
+    n: '[[w.chen-yi-nianpu]], 865. See [[cal.1961-03-28.china]]. Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi]
+  - id: cal.1961-04-01.china-leadership-8
+    when: Apr. 1
+    date: '1961-04-01'
+    place: jakarta
+    thread: china-leadership
+    c: Subandrio gives a banquet for Chen Yi's 陈毅 visit; Chen Yi speaks, the friendship lasting; this visit unlike the one after Bandung six years ago; Jakarta's growth since the rebellion was put down; strength in unity.
+    n: '[[w.chen-yi-nianpu]], 865. See [[cal.1961-03-28.china]]. The words: 晚上 (865). Names: Subandrio, Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio]
+    time_range:
+      - 1961-04-01T11:30Z
+      - 1961-04-01T14:30Z
+    time_band: evening
+    time_zone: Asia/Jakarta
+  - id: cal.1961-04-01.china-leadership-9
+    when: Apr. 1
+    date: '1961-04-01'
+    place: bogor
+    thread: china-leadership
+    c: Bogor 茂物, West Java, the presidential palace. Chen Yi 陈毅 sees the Chinese art troupe's performance and joins the dance.
+    n: '[[w.chen-yi-nianpu]], 865. See [[cal.1961-03-28.china]]. The words: 夜间 (865). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi]
+    time_range:
+      - 1961-04-01T14:30Z
+      - 1961-04-01T16:30Z
+    time_band: night
+    time_zone: Asia/Jakarta
   - id: cal.1961-04-02.opinion
     when: Apr. 2
     date: '1961-04-02'
@@ -299,6 +334,33 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 669: all'
     tags: [polity:prc, name:li-fuchun, vis:only:prc]
+  - id: cal.1961-04-02.china-leadership-6
+    when: Apr. 2
+    date: '1961-04-02'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 leaves Jakarta 雅加达 for home; a press conference at the airport with a written statement; the dual-nationality treaty now in force, the treaty of friendship, the cultural agreement and the communiqué to be issued a new stage; telegraphs thanks to Subandrio on the way.
+    n: '[[w.chen-yi-nianpu]], 865. See [[cal.1961-03-28.china]]. The words: 上午 (865). Names: Chen Yi, Subandrio.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio]
+    time_range:
+      - 1961-04-01T22:30Z
+      - 1961-04-02T04:30Z
+    time_band: morning
+    time_zone: Asia/Jakarta
+  - id: cal.1961-04-02.china-leadership-7
+    when: Apr. 2
+    date: '1961-04-02'
+    place: rangoon
+    thread: china-leadership
+    c: Chen Yi 陈毅 at Rangoon on the way home; then writes the poem "By Swallow Lake" 《燕子湖边》, with a note that he stayed by the lake going and coming, Ne Win's guest.
+    n: '[[w.chen-yi-nianpu]], 866. See [[cal.1961-03-28.china]]. The words: 下午 (866). Names: Chen Yi, Ne Win.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:ne-win]
+    time_range:
+      - 1961-04-02T05:30Z
+      - 1961-04-02T11:30Z
+    time_band: afternoon
+    time_zone: Asia/Yangon
   - id: cal.1961-04-03.states-and-cities
     when: Apr. 3
     date: '1961-04-03'
@@ -462,7 +524,13 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: 'At the 37th enlarged meeting of the National People''s Congress Standing Committee Zhou Enlai reports on the situation at home and abroad: the three red banners affirmed; the Leap to pass from quantity to quality; communes after rectification to practice "three guarantees and one reward"; 1961–62 for adjusting, consolidating, filling out, raising; the first farm barrier, 800 jin of grain a head. The meeting ratifies the Sino-Indonesian treaty.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 401 (Apr. 3, 1961). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 401 (Apr. 3, 1961); [[w.jian-zhou-enlai]], 459 (the note: Zhou''s speech on the situation and domestic tasks, Apr. 3, 1961). To check: Zhou speech on the situation and domestic tasks, April 3, 1961 (cited by [[w.jian-zhou-enlai]], 459 n.72c). Names: Zhou Enlai.'
+    src:
+      c: 01798c14
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 401: ?'
+        - 'w.jian-zhou-enlai 459: ?'
+        - 'via x.1961-04-03.zhou-speech-situation-domestic-tasks: ?'
     tags: [polity:prc, polity:ussr, name:zhou-enlai]
   - id: cal.1961-04-03.china-leadership-6
     when: Apr. 3
@@ -546,6 +614,26 @@ entries:
     c: 'The Việt Bắc Zone Committee''s Standing Committee, after its delegates'' report from the Center''s rectification conference: resolution no. 02-NQ/VB on the campaign. Beyond the Politburo''s three aims, the Party''s nationalities policy to be taught within it, against great-nationality and narrow-nationality ideas; the Party''s class line in the countryside; a zone rectification board under Hoàng Văn Kiểu; the provincial secretaries to be called in; trials in one highland and one lowland village; timing in the highlands to spare the harvest.'
     n: '*Nghị quyết của Khu uỷ Việt Bắc số 02-NQ/VB, ngày 3-4-1961, Về vấn đề chỉnh huấn*, signed for the Zone Committee''s Standing Committee by Phan Văn Tỉnh, its standing member. [[w.van-kien-dang-toan]], XXII, 754–58 (appendix). Made public: 2002. Names: Hoàng Văn Kiểu.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1961-04-03.china-leadership-12
+    when: Apr. 3
+    date: '1961-04-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 telegraphs Sík Endre 西克·安德烈, the Hungarian Foreign Minister, on the sixteenth anniversary of Hungary's liberation.
+    n: '[[w.chen-yi-nianpu]], 866. Names: Chen Yi.'
+    tags: [polity:prc, polity:hungary, name:chen-yi]
+  - id: cal.1961-04-03.china-leadership-13
+    when: Apr. 3
+    date: '1961-04-03'
+    place: rangoon
+    thread: china-leadership
+    c: Rangoon. Chen Yi 陈毅 calls on U Nu, Prime Minister of Burma.
+    n: '[[w.chen-yi-nianpu]], 866. The words: 下午 (866). Names: Chen Yi, U Nu.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:u-nu]
+    time_range:
+      - 1961-04-03T05:30Z
+      - 1961-04-03T11:30Z
+    time_band: afternoon
+    time_zone: Asia/Yangon
   - id: cal.1961-04-04.states-and-cities
     when: Apr. 4
     date: '1961-04-04'
@@ -739,13 +827,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai attends the opening of the 26th World Table Tennis Championships in Peking and receives guests; that evening at He Long's banquet speaks for the Chinese people and government and "as an amateur table-tennis lover" welcomes friends from five continents.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 402 (Apr. 4, 1961); [[w.zhou-enlai-waijiao-huodong]], 306 (Apr. 4, 1961; 下午, 北京工人体育场; evening, the banquet given by He Long); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 190 (Apr. 4, 1961; Zhou receives Ivor Montagu (艾佛·蒙塔古), president of the International Table Tennis Federation, and other friends who came for the 26th World Table Tennis Championships). Names: Zhou Enlai, He Long.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 402 (Apr. 4, 1961); [[w.zhou-enlai-waijiao-huodong]], 306 (Apr. 4, 1961; 下午, 北京工人体育场; evening, the banquet given by He Long); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 190 (Apr. 4, 1961; Zhou receives Ivor Montagu (艾佛·蒙塔古), president of the International Table Tennis Federation, and other friends who came for the 26th World Table Tennis Championships); [[w.chen-yi-nianpu]], 866 (Apr. 4–14, 1961; the 26th World Table Tennis Championships held at Peking). Names: Zhou Enlai, He Long.'
     src:
       c: 74ae623d
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 402: ?'
         - 'w.zhou-enlai-waijiao-huodong 306: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 190: A'
+        - 'w.chen-yi-nianpu 866: ?'
     tags: [polity:prc, name:zhou-enlai, name:he-long]
     time_range:
       - 1961-04-04T04:00Z
@@ -827,6 +916,21 @@ entries:
         - 'w.dikotter-maos-great-famine 111: all'
         - 'via w.dikotter-maos-great-famine 111 n.20: all'
     tags: [polity:prc, polity:ussr, vis:only:prc+ussr, name:khrushchev-nikita-s]
+  - id: cal.1961-04-04.china-leadership-10
+    when: Apr. 4
+    date: '1961-04-04'
+    place:
+      - rangoon
+      - kunming
+    thread: china-leadership
+    c: Chen Yi 陈毅 leaves Rangoon in the morning; at Kunming 昆明 at noon.
+    n: '[[w.chen-yi-nianpu]], 866. The words: 上午; 中午 (866). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1961-04-03T23:30Z
+      - 1961-04-04T05:30Z
+    time_band: morning
+    time_zone: Asia/Yangon
   - id: cal.1961-04-05.opinion
     when: Apr. 5
     date: '1961-04-05'
@@ -1767,6 +1871,34 @@ entries:
         - 'via w.dikotter-maos-great-famine 297 n.51: all'
         - 'w.dikotter-maos-great-famine 296 n.41a: ?'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-04-08.china-leadership-9
+    when: Apr. 8
+    date: '1961-04-08'
+    place:
+      - kunming
+      - dali
+    thread: china-leadership
+    c: Chen Yi 陈毅 from Kunming 昆明 to Dali 大理 in the afternoon to accompany U Nu, in China for a rest at Zhou Enlai's 周恩来 invitation; that evening calls on him at the guesthouse.
+    n: '[[w.chen-yi-nianpu]], 866. The words: 下午; 晚上 (866). Names: Chen Yi, U Nu, Zhou Enlai.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:u-nu, name:zhou-enlai]
+    time_range:
+      - 1961-04-08T04:00Z
+      - 1961-04-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-08.china-leadership-10
+    when: Apr. 8
+    date: '1961-04-08'
+    place: dali
+    thread: china-leadership
+    c: 'Dali 大理. Chen Yi 陈毅 speaks at the banquet of 欧根, head of the Dali Bai Autonomous Prefecture 大理白族自治州, for U Nu and his wife: China and Burma a model of peaceful coexistence; sees the prefecture''s song and dance troupe with them after.'
+    n: '[[w.chen-yi-nianpu]], 866. See [[cal.1961-04-08.china-leadership-9]]. The words: 晚上 (866). Names: Chen Yi, U Nu.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:u-nu]
+    time_range:
+      - 1961-04-08T11:00Z
+      - 1961-04-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-09.cuba-bay-of-pigs
     when: Apr. 9
     date: '1961-04-09'
@@ -1866,6 +1998,14 @@ entries:
       - 1961-04-09T11:30Z
       - 1961-04-09T15:20Z
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-09.china-leadership-6
+    when: Apr. 9
+    date: '1961-04-09'
+    place: dali
+    thread: china-leadership
+    c: Zhonghe town 中和镇, Dali 大理. Chen Yi 陈毅 with U Nu and his wife at the Dali museum and a marble works, and at the Three Pagodas temple 三塔寺.
+    n: '[[w.chen-yi-nianpu]], 866. See [[cal.1961-04-08.china-leadership-9]]. Names: Chen Yi, U Nu.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:u-nu]
   - id: cal.1961-04-10.cuba
     when: Apr. 10
     date: '1961-04-10'
@@ -2070,6 +2210,19 @@ entries:
         - 'via w.yang-jisheng-mubei II, 761 n.47: all'
         - 'via w.yang-jisheng-mubei II, 761 n.48: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1961-04-10.china-leadership-8
+    when: Apr. 10
+    date: '1961-04-10'
+    place: dali
+    thread: china-leadership
+    c: Dali 大理. Chen Yi 陈毅 with U Nu and his wife at a Peking opera evening, Guan Sushuang 关肃霜 and other Yunnan players; writes the poem "Welcoming the Burmese Prime Minister in Yunnan" 《在云南欢迎缅甸总理》.
+    n: '[[w.chen-yi-nianpu]], 866. See [[cal.1961-04-08.china-leadership-9]]. The words: 晚上 (866). Names: Chen Yi, U Nu.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:u-nu]
+    time_range:
+      - 1961-04-10T11:00Z
+      - 1961-04-10T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-11.cuba
     when: Apr. 11
     date: '1961-04-11'
@@ -2296,6 +2449,32 @@ entries:
     c: Region 5's military-political school is founded, Apr. 11, to train cadres on the battlefield.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 48. Made public: 2013. Check: the place; the history gives the school''s founding date and not where it stood.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1961-04-11.china-leadership-8
+    when: Apr. 11
+    date: '1961-04-11'
+    place: chuxiong
+    thread: china-leadership
+    c: Chen Yi 陈毅 with U Nu and his wife reaches Chuxiong 楚雄 on the way from Dali 大理 to Kunming 昆明.
+    n: '[[w.chen-yi-nianpu]], 867. See [[cal.1961-04-08.china-leadership-9]]. The words: 傍晚 (867). Names: Chen Yi, U Nu.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:u-nu]
+    time_range:
+      - 1961-04-11T09:00Z
+      - 1961-04-11T11:00Z
+    time_band: after-workday daytime
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-11.china-leadership-9
+    when: Apr. 11
+    date: '1961-04-11'
+    place: chuxiong
+    thread: china-leadership
+    c: 'Chuxiong 楚雄. Chen Yi 陈毅 speaks at the banquet of 普贵忠, head of the Chuxiong Yi Autonomous Prefecture, and his wife for U Nu and his wife: the boundary the friendliest; U Nu and Zhou Enlai 周恩来 led the way to the Five Principles among states of different systems; the Burmese Ambassador present and he to work together for friendship.'
+    n: '[[w.chen-yi-nianpu]], 867. See [[cal.1961-04-11.china-leadership-8]]. The words: 晚上 (867). Names: Chen Yi, U Nu, Zhou Enlai.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:u-nu, name:zhou-enlai]
+    time_range:
+      - 1961-04-11T11:00Z
+      - 1961-04-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-12.space
     when: Apr. 12
     date: '1961-04-12'
@@ -2478,7 +2657,7 @@ entries:
     thread: china-leadership
     also: [laos, china]
     c: 'Zhou Enlai''s talk with U Nu, comparing news of Laos: if America fights a local war there it will be more the wrong time, place and war than Korea; if it does not interfere Laos can be settled; peace in Laos has hope.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 12, 1961); [[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 12, 1961; 下午1时, 昆明西部安宁温泉, 便宴); [[w.macfarquhar-origins-of-the-cultural]], III, 49 (Zhou goes to Yunnan to talk further with U Nu). Made public: 1993. To check: [[w.en-zhou-zongli-shengping-dashiji]], 421 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.65a); [[w.womende-zhou-zongli]], 111, 471, 468 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.65b). Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 12, 1961); [[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 12, 1961; 下午1时, 昆明西部安宁温泉, 便宴); [[w.macfarquhar-origins-of-the-cultural]], III, 49 (Zhou goes to Yunnan to talk further with U Nu); [[w.chen-yi-nianpu]], 867 (Apr. 12, 1961, afternoon, the Anning hot springs; Chen Yi and Zhou Enlai talk with U Nu after Zhou''s dinner). Made public: 1993. To check: [[w.en-zhou-zongli-shengping-dashiji]], 421 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.65a); [[w.womende-zhou-zongli]], 111, 471, 468 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.65b). Names: Zhou Enlai, U Nu.'
     src:
       c: ecc19412
       rows:
@@ -2487,6 +2666,7 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 49: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 49 n.65a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 49 n.65b: all'
+        - 'w.chen-yi-nianpu 867: ?'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu, vis:only:prc+burma]
     time_zone: Asia/Shanghai
   - id: cal.1961-04-12.china-leadership-4
@@ -2496,11 +2676,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Kunming. Zhou Enlai attends the welcoming banquet given by Yu Yichuan, Governor of Yunnan, for U Nu and his wife.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 12, 1961; 晚上). See [[cal.1961-04-12.china-leadership-2]]. Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 12, 1961; 晚上); [[w.chen-yi-nianpu]], 867 (Apr. 12, 1961, evening; Chen Yi, with Zhou Enlai bringing U Nu to Kunming at dusk, at Yu Yichuan''s banquet; recites a new poem on U Nu''s travels in Yunnan). See [[cal.1961-04-12.china-leadership-2]]. Names: Zhou Enlai, U Nu.'
     src:
       c: 3e743939
       rows:
         - 'w.zhou-enlai-waijiao-huodong 307: all'
+        - 'w.chen-yi-nianpu 867: ?'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
     time_range:
       - 1961-04-12T11:00Z
@@ -2614,6 +2795,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1629–1630: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-04-12.china-leadership-12
+    when: Apr. 12
+    date: '1961-04-12'
+    place: anning
+    thread: china-leadership
+    c: Anning hot springs 安宁温泉, 40 kilometers from Kunming 昆明. Chen Yi 陈毅 arrives with U Nu and his wife from Chuxiong 楚雄; at Zhou Enlai's 周恩来 informal dinner of welcome.
+    n: '[[w.chen-yi-nianpu]], 867. See [[cal.1961-04-08.china-leadership-9]]; [[cal.1961-04-12.china-leadership-2]]. The words: 下午 (867). Names: Chen Yi, U Nu, Zhou Enlai.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:u-nu, name:zhou-enlai]
+    time_range:
+      - 1961-04-12T04:00Z
+      - 1961-04-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-13.european-community
     when: Apr. 13
     date: '1961-04-13'
@@ -2802,12 +2996,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai with U Nu, Apr. 13–15, at Jinghong in Xishuangbanna for the Dai New Year. On the 14th he sees the tropical crops institute and a state rubber farm and asks closely about rubber, telling officials to build up China''s young rubber industry. On the 15th he joins in splashing water. To local peoples and cadres: learn from each other, unite, raise minority cadres, manure and water works; protect the forests and the ecological balance; Xishuangbanna counts in Southeast Asia, so build the socialist frontier well.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 13, 1961; 傍晚, 昆明到允景洪). The time is the first day''s. Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 13, 1961; 傍晚, 昆明到允景洪); [[w.chen-yi-nianpu]], 867 (Apr. 14, 1961, morning; Chen Yi with Zhou Enlai and U Nu at the Yunnan subtropical botanical institute). The time is the first day''s. Names: Zhou Enlai, U Nu.'
     src:
       c: e148a792
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 404: ?'
         - 'w.zhou-enlai-waijiao-huodong 307: A'
+        - 'w.chen-yi-nianpu 867: ?'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
     time_range:
       - 1961-04-13T09:00Z
@@ -2821,11 +3016,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Jinghong. Zhou Enlai attends the song and dance evening given by the autonomous prefecture's people's committee for U Nu and his wife.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 307–08 (Apr. 13, 1961; 晚上). See [[cal.1961-04-13.china-leadership]]. Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 307–08 (Apr. 13, 1961; 晚上); [[w.chen-yi-nianpu]], 867 (Apr. 13, 1961, evening; Chen Yi with Zhou Enlai at the song and dance evening for U Nu and his wife). See [[cal.1961-04-13.china-leadership]]. Names: Zhou Enlai, U Nu.'
     src:
       c: ef292344
       rows:
         - 'w.zhou-enlai-waijiao-huodong 307–08: all'
+        - 'w.chen-yi-nianpu 867: ?'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
     time_range:
       - 1961-04-13T11:00Z
@@ -2919,6 +3115,19 @@ entries:
         - 'via w.dikotter-maos-great-famine 321 n.3: all'
         - 'via w.dikotter-maos-great-famine 321 n.4: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1961-04-13.china-leadership-9
+    when: Apr. 13
+    date: '1961-04-13'
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明. Chen Yi 陈毅 at the airport to see U Nu and his wife off by special plane to Simao 思茅, thence by car to Jinghong 允景洪.
+    n: '[[w.chen-yi-nianpu]], 867. See [[cal.1961-04-08.china-leadership-9]]. The words: 上午 (867). Names: Chen Yi, U Nu.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:u-nu]
+    time_range:
+      - 1961-04-12T22:00Z
+      - 1961-04-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-14.latin-america
     when: Apr. 14
     date: '1961-04-14'
@@ -3132,11 +3341,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Jinghong, the Lancang River. Zhou Enlai watches with U Nu the largest dragon-boat race in Xishuangbanna's history, and celebrates the Dai New Year with the prefecture's people.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 14, 1961; 下午4时). See [[cal.1961-04-13.china-leadership]]. Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 14, 1961; 下午4时); [[w.chen-yi-nianpu]], 867–868 (Apr. 14, 1961, 4 p.m.; Chen Yi with Zhou Enlai and U Nu at the Dai New Year and the dragon-boat race on the Lancang; that evening at the banquet of the prefecture''s head (召存信), then fireworks and the Dai and other songs and dances). See [[cal.1961-04-13.china-leadership]]. Names: Zhou Enlai, U Nu.'
     src:
       c: f7ee0e8e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 308: all'
+        - 'w.chen-yi-nianpu 867–868: ?'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
     time_zone: Asia/Shanghai
   - id: cal.1961-04-14.china-leadership-3
@@ -3359,11 +3569,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Jinghong, the central square. Zhou Enlai and U Nu celebrate the Water Festival with more than 5,000 people.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 15, 1961; 上午11时). See [[cal.1961-04-13.china-leadership]]. Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 308 (Apr. 15, 1961; 上午11时); [[w.chen-yi-nianpu]], 868 (Apr. 15, 1961, about 11 a.m.; Chen Yi with Zhou Enlai and U Nu, in Dai dress, at the Water Festival in Jinghong''s central square with more than 5,000 people). See [[cal.1961-04-13.china-leadership]]. Names: Zhou Enlai, U Nu.'
     src:
       c: 19d2ab8c
       rows:
         - 'w.zhou-enlai-waijiao-huodong 308: all'
+        - 'w.chen-yi-nianpu 868: ?'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu]
     time_zone: Asia/Shanghai
   - id: cal.1961-04-15.china-leadership-2
@@ -6178,12 +6389,13 @@ entries:
     thread: china-leadership
     also: [laos, china]
     c: 'Zhou Enlai welcomes at Peking airport Souvanna Phouma, Prime Minister of Laos, and Prince Souphanouvong, chairman of the Lao Patriotic Front: the policy of independence, national concord and peace and neutrality of the government under Prince Souvanna Phouma is the wish of all Laotians; the Chinese people actively support the Laotian people''s patriotic and just struggle.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 22, 1961; 下午3时, 机场). Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 22, 1961; 下午3时, 机场); [[w.chen-yi-nianpu]], 868 (Apr. 22, 1961, 3:10 p.m. (下午3时10分); Chen Yi at the airport to welcome Souvanna Phouma and Souphanouvong; present when Zhou Enlai meets them; at the informal dinner of Zhou and his wife that evening). Names: Zhou Enlai, Souvanna Phouma.'
     src:
       c: 3e980eb9
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 407: ?'
         - 'w.zhou-enlai-waijiao-huodong 310: A'
+        - 'w.chen-yi-nianpu 868: ?'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:souvanna-phouma]
     time_zone: Asia/Shanghai
   - id: cal.1961-04-22.china-leadership-2
@@ -6194,13 +6406,14 @@ entries:
     thread: china-leadership
     also: [laos, china]
     c: Zhou Enlai's talks with the Laotian side on Apr. 22 and 23, on the Laotian situation, Sino-Laotian relations and the convening of a widened Geneva conference.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 22, 1961; 晚6时, 中南海紫光阁, 会见并共进晚餐); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 23, 1961; 上午9时30分, 中南海西花厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 192–193 (Apr. 22–25, 1961; Zhou''s talks with Souvanna Phouma on the Lao situation, bilateral relations and major international questions, reaching common views). Made public: 1993. Names: Zhou Enlai, Souvanna Phouma.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 407 (Apr. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 22, 1961; 晚6时, 中南海紫光阁, 会见并共进晚餐); [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 23, 1961; 上午9时30分, 中南海西花厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 192–193 (Apr. 22–25, 1961; Zhou''s talks with Souvanna Phouma on the Lao situation, bilateral relations and major international questions, reaching common views); [[w.chen-yi-nianpu]], 868 (Apr. 23, 1961, morning; Chen Yi in the talks of Zhou Enlai with Souvanna Phouma and Souphanouvong). Made public: 1993. Names: Zhou Enlai, Souvanna Phouma.'
     src:
       c: d23c690f
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 407: ?'
         - 'w.zhou-enlai-waijiao-huodong 310: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 192–193: A'
+        - 'w.chen-yi-nianpu 868: ?'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:souvanna-phouma, vis:only:prc+laos+pathet-lao]
     time_zone: Asia/Shanghai
   - id: cal.1961-04-22.china-leadership-3
@@ -6274,6 +6487,21 @@ entries:
         - 'w.yang-shangkun-riji I, 710: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-04-22.china-leadership-9
+    when: Apr. 22
+    date: '1961-04-22'
+    place:
+      - xian
+      - peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 back in Peking 北京 from Xi'an 西安.
+    n: '[[w.chen-yi-nianpu]], 868. The words: 上午 (868). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1961-04-21T22:00Z
+      - 1961-04-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-23.laos
     when: Apr. 23
     date: '1961-04-23'
@@ -6297,11 +6525,12 @@ entries:
     thread: china-leadership
     also: [china, laos]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the meeting of 10,000 of the capital's people welcoming the Laotian guests.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 23, 1961; 下午3时). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma, Souphanouvong.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 23, 1961; 下午3时); [[w.chen-yi-nianpu]], 868 (Apr. 23, 1961, 3:10 p.m.; Chen Yi at the capital''s rally in the Great Hall of the People welcoming Souvanna Phouma, Souphanouvong and the Lao guests). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma, Souphanouvong.'
     src:
       c: cdb201f0
       rows:
         - 'w.zhou-enlai-waijiao-huodong 310: all'
+        - 'w.chen-yi-nianpu 868: ?'
     tags: [polity:prc, name:zhou-enlai, name:souvanna-phouma, name:souphanouvong]
     time_zone: Asia/Shanghai
   - id: cal.1961-04-23.china-leadership-2
@@ -6311,11 +6540,12 @@ entries:
     thread: china-leadership
     also: [china, laos]
     c: Peking, the Great Hall of the People. Zhou Enlai gives a state banquet in welcome of Souvanna Phouma, Prime Minister of Laos, Souphanouvong and the Laotian party. He says that the American government's announcement of a so-called military assistance advisory group in Laos is a grave step toward direct American entry into the civil war; China reaffirms its support for Laos's independence, peace and neutrality and agrees to Sihanouk's proposal of an enlarged Geneva conference.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 23, 1961; 晚上). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma, Souphanouvong, Sihanouk.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 23, 1961; 晚上); [[w.chen-yi-nianpu]], 868 (Apr. 23, 1961, 8:30 p.m.; Chen Yi toasts at Zhou Enlai''s state banquet in the banquet hall of the Great Hall of the People). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma, Souphanouvong, Sihanouk.'
     src:
       c: 6660e635
       rows:
         - 'w.zhou-enlai-waijiao-huodong 310: all'
+        - 'w.chen-yi-nianpu 868: ?'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma, name:souphanouvong, name:norodom-sihanouk]
     time_range:
       - 1961-04-23T11:00Z
@@ -6346,6 +6576,32 @@ entries:
       - 1961-04-22T22:00Z
       - 1961-04-23T04:00Z
     time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-23.china-leadership-6
+    when: Apr. 23
+    date: '1961-04-23'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Chen Yi 陈毅 takes Souvanna Phouma, Souphanouvong and the Lao guests round the Summer Palace 颐和园 and gives the princes a lunch at the Tingli Guan 听鹂馆.
+    n: '[[w.chen-yi-nianpu]], 868. See [[cal.1961-04-22.china-leadership]]. The words: 中午 (868). Names: Chen Yi, Souvanna Phouma, Souphanouvong.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:souvanna-phouma, name:souphanouvong]
+    time_range:
+      - 1961-04-23T04:00Z
+      - 1961-04-23T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-23.china-leadership-8
+    when: Apr. 23
+    date: '1961-04-23'
+    thread: china-leadership
+    also: [africa]
+    c: Kamara Mousa Sangiana 卡马拉·穆萨·桑吉亚纳, Guinea's first Ambassador to China, calls on Chen Yi 陈毅 to arrange the presenting of his credentials.
+    n: '[[w.chen-yi-nianpu]], 868. The words: 晚间 (868). Names: Chen Yi.'
+    tags: [polity:prc, polity:guinea, name:chen-yi]
+    time_range:
+      - 1961-04-23T11:00Z
+      - 1961-04-23T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1961-04-24.court
     when: Apr. 24
@@ -6462,7 +6718,7 @@ entries:
     thread: china-leadership
     also: [laos]
     c: 'Hangzhou, the Hangzhou Hotel, evening. Mao receives Souvanna Phouma and Prince Souphanouvong, brought by Zhou Enlai that afternoon; Chen Yi and Wu Xiuquan present. Souvanna will answer the call of the Geneva co-chairmen, Gromyko and Home, for a cease-fire with a statement and talks with Vientiane on its means. Mao: the statement good, the Savannakhet group invited to Khang Khay; they want peace now only because of nine months'' fighting; keep alert.'
-    n: '"[Transcript of Talks during Chairman Mao''s reception of Prince Souvanna Phouma and Prince Souphanouvong](https://digitalarchive.umd.edu/document/120883)" (Apr. 24, 1961), PRC FMA 204-01438-01, 24–29, obtained by Yiming Feng, trans. Marian Rosenberg, Wilson Center Digital Archive (secret, not reviewed; the Hangzhou Hotel, with Zhou and Chen Yi speaking; the record gives no hour and does not say when Zhou brought the princes, A and B; Souvanna says they asked Zhou to arrange the visit. Souvanna says he and his brother will give statements after the co-chairs'' appeal and watch Vientiane''s answer; Mao calls the statement very good, says the enemy wants peace only because of the nine months'' offensive and will break agreements, and advises keeping guard, moving the capital to the Plain of Jars and weighing the elections). [[w.zedong-mao-zedong-nianpu]], IV, Apr. 24, 1961. [[w.zhou-enlai-nianpu-1949]], II, 407, Apr. 24, 1961 (Zhou takes the two princes to Hangzhou (the reception by Mao itself is not named)). [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 24, 1961; 晚10时, 杭州; 陪同毛泽东主席会见); [[w.macfarquhar-origins-of-the-cultural]], III, 123 (Souvanna Phouma''s visit: the road to Yunnan); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 192 (Apr. 22–25, 1961; Souvanna Phouma, Prime Minister, and Prince Souphanouvong, chairman of the Neo Lao Hak Xat, visit; Mao receives them (at Hangzhou, as the entry has it)). Made public: 1993. To check: [[w.survey-of-china-mainland]], No. 2486, 24–26 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 123 n.24a); [[w.cheng-jianguo-yilai-jun-shi]], 189 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 123 n.24b). Names: Mao Zedong, Souvanna Phouma, Souphanouvong, Zhou Enlai, Chen Yi, Wu Xiuquan, Gromyko, Home.'
+    n: '"[Transcript of Talks during Chairman Mao''s reception of Prince Souvanna Phouma and Prince Souphanouvong](https://digitalarchive.umd.edu/document/120883)" (Apr. 24, 1961), PRC FMA 204-01438-01, 24–29, obtained by Yiming Feng, trans. Marian Rosenberg, Wilson Center Digital Archive (secret, not reviewed; the Hangzhou Hotel, with Zhou and Chen Yi speaking; the record gives no hour and does not say when Zhou brought the princes, A and B; Souvanna says they asked Zhou to arrange the visit. Souvanna says he and his brother will give statements after the co-chairs'' appeal and watch Vientiane''s answer; Mao calls the statement very good, says the enemy wants peace only because of the nine months'' offensive and will break agreements, and advises keeping guard, moving the capital to the Plain of Jars and weighing the elections). [[w.zedong-mao-zedong-nianpu]], IV, Apr. 24, 1961. [[w.zhou-enlai-nianpu-1949]], II, 407, Apr. 24, 1961 (Zhou takes the two princes to Hangzhou (the reception by Mao itself is not named)). [[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 24, 1961; 晚10时, 杭州; 陪同毛泽东主席会见); [[w.macfarquhar-origins-of-the-cultural]], III, 123 (Souvanna Phouma''s visit: the road to Yunnan); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 192 (Apr. 22–25, 1961; Souvanna Phouma, Prime Minister, and Prince Souphanouvong, chairman of the Neo Lao Hak Xat, visit; Mao receives them (at Hangzhou, as the entry has it)); [[w.chen-yi-nianpu]], 869 (Apr. 24, 1961, evening; Chen Yi present when Mao receives Souvanna Phouma and Souphanouvong at Hangzhou). Made public: 1993. To check: [[w.survey-of-china-mainland]], No. 2486, 24–26 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 123 n.24a); [[w.cheng-jianguo-yilai-jun-shi]], 189 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 123 n.24b). Names: Mao Zedong, Souvanna Phouma, Souphanouvong, Zhou Enlai, Chen Yi, Wu Xiuquan, Gromyko, Home.'
     src:
       c: 55a333c0
       rows:
@@ -6474,6 +6730,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 123 n.24b: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 192: B'
         - 'https://digitalarchive.umd.edu/document/120883: A, B, D, E, F, G'
+        - 'w.chen-yi-nianpu 869: ?'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:mao-zedong, name:souvanna-phouma, name:souphanouvong, name:zhou-enlai, name:chen-yi, name:gromyko-andrei, name:douglas-home-alec, vis:only:prc+laos+pathet-lao]
     time_zone: Asia/Shanghai
   - id: cal.1961-04-24.china-leadership-3
@@ -6486,11 +6743,12 @@ entries:
     thread: china-leadership
     also: [china, laos]
     c: Zhou Enlai and Chen Yi leave Peking with Souvanna Phouma and Souphanouvong for a visit to Hangzhou.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 24, 1961; 上午9时). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Chen Yi, Souvanna Phouma, Souphanouvong.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 24, 1961; 上午9时); [[w.chen-yi-nianpu]], 868 (Apr. 24, 1961, morning; Chen Yi with Souvanna Phouma, Souphanouvong and the Lao guests leaves Peking for the south; at Hangzhou in the afternoon). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Chen Yi, Souvanna Phouma, Souphanouvong.'
     src:
       c: 023e81a1
       rows:
         - 'w.zhou-enlai-waijiao-huodong 310: all'
+        - 'w.chen-yi-nianpu 868: ?'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:chen-yi, name:souvanna-phouma, name:souphanouvong]
     time_zone: Asia/Shanghai
   - id: cal.1961-04-24.china-leadership-4
@@ -6500,11 +6758,12 @@ entries:
     thread: china-leadership
     also: [china, laos]
     c: Hangzhou. Zhou Enlai attends the banquet given by Zhou Jianren, Governor of Zhejiang, for Souvanna Phouma and Souphanouvong.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 24, 1961; 晚上). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma, Souphanouvong.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 24, 1961; 晚上); [[w.chen-yi-nianpu]], 868 (Apr. 24, 1961, evening; Chen Yi at Zhou Jianren''s banquet). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma, Souphanouvong.'
     src:
       c: 46eba26b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 310: all'
+        - 'w.chen-yi-nianpu 868: ?'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma, name:souphanouvong]
     time_range:
       - 1961-04-24T11:00Z
@@ -6744,11 +7003,12 @@ entries:
     thread: china-leadership
     also: [china, laos]
     c: Hangzhou. Zhou Enlai sees Souvanna Phouma and Souphanouvong off at the airport.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 25, 1961; 上午). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma, Souphanouvong.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 25, 1961; 上午); [[w.chen-yi-nianpu]], 869 (Apr. 25, 1961, morning; Chen Yi at the airport to see the princes and the Lao guests off from Hangzhou). See [[cal.1961-04-22.china-leadership]]. Names: Zhou Enlai, Souvanna Phouma, Souphanouvong.'
     src:
       c: e6716710
       rows:
         - 'w.zhou-enlai-waijiao-huodong 310: all'
+        - 'w.chen-yi-nianpu 869: ?'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:souvanna-phouma, name:souphanouvong]
     time_range:
       - 1961-04-24T22:00Z
@@ -6762,11 +7022,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Hangzhou. Zhou Enlai attends the luncheon given by Zhou Jianren, Governor of Zhejiang, and Huo Shilian, Party secretary and vice governor, for the Albanian government's economic delegation led by Vice Chairman Kellezi.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 25, 1961; 中午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 310 (Apr. 25, 1961; 中午); [[w.chen-yi-nianpu]], 869 (Apr. 25, 1961, noon; Chen Yi at the luncheon of Zhou Jianren and Huo Shilian for Kellezi, Vice-Chairman of the Albanian Council of Ministers, head of the Albanian government economic delegation). Names: Zhou Enlai.'
     src:
       c: 12a9f202
       rows:
         - 'w.zhou-enlai-waijiao-huodong 310: all'
+        - 'w.chen-yi-nianpu 869: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai]
     time_range:
       - 1961-04-25T04:00Z
@@ -7035,11 +7296,12 @@ entries:
     thread: china
     also: [africa]
     c: 'Zhou Enlai and Chen Yi cable Milton Margai, Prime Minister of Sierra Leone, and John Karefa-Smart, its Foreign Minister, congratulations on its independence. Chen Yi tells them China has decided to recognize Sierra Leone, and hopes this will lead to a further development of relations. The editors'' note: Sierra Leone was formerly rendered 塞拉勒窝内 in Chinese.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 193 (Apr. 26, 1961). Names: Zhou Enlai, Chen Yi. Check: the premier and the minister are 密尔顿·奥古斯都·斯特里比·马尔盖 and 约翰·卡雷法-斯马特 in the book.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 193 (Apr. 26, 1961); [[w.chen-yi-nianpu]], 869 (Apr. 26, 1961, at Peking; Chen Yi telegraphs Karefa-Smart congratulations on Sierra Leone''s independence and China''s decision to recognize it). Names: Zhou Enlai, Chen Yi. Check: the premier and the minister are 密尔顿·奥古斯都·斯特里比·马尔盖 and 约翰·卡雷法-斯马特 in the book.'
     src:
       c: d792f2fe
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 193: all'
+        - 'w.chen-yi-nianpu 869: ?'
     tags: [polity:prc, polity:sierra-leone, name:zhou-enlai, name:chen-yi]
   - id: cal.1961-04-26.china-leadership-4
     when: Apr. 26
@@ -8043,6 +8305,25 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1634: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-04-29.china-leadership-9
+    when: Apr. 29
+    date: '1961-04-29'
+    thread: china-leadership
+    c: Josef Hegen 约瑟夫·黑根, the GDR's new Ambassador, calls on Chen Yi 陈毅 to arrange the presenting of his credentials.
+    n: '[[w.chen-yi-nianpu]], 869. The words: 下午 (869). Names: Chen Yi.'
+    tags: [polity:prc, polity:gdr, name:chen-yi]
+    time_range:
+      - 1961-04-29T04:00Z
+      - 1961-04-29T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-04-29.china-leadership-10
+    when: Apr. 29
+    date: '1961-04-29'
+    thread: china-leadership
+    c: Chen Yi 陈毅 gives a banquet for the Chinese table tennis team, after its brilliant results.
+    n: '[[w.chen-yi-nianpu]], 869. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1961-04-30.cuba-bay-of-pigs
     when: Apr. 30
     date: '1961-04-30'

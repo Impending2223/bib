@@ -87,6 +87,18 @@ entries:
         - 'w.yang-shangkun-riji II, 139: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-04-01.china-leadership-3
+    when: Apr. 1
+    date: '1962-04-01'
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the reception of Sukarni Kartodiwirjo 苏卡尼·卡托迪维亚, the Indonesian Ambassador, and his wife at the embassy for the first anniversary of the treaty of friendship and the cultural agreement; China backs, now and always, the Indonesian struggle to free West Irian 西伊里安.
+    n: '[[w.chen-yi-nianpu]], 913. The words: 晚上 (913). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi]
+    time_range:
+      - 1962-04-01T11:00Z
+      - 1962-04-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-02.king
     when: Apr. 2
     date: '1962-04-02'
@@ -375,6 +387,13 @@ entries:
         - 'w.yang-shangkun-riji II, 139: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-04-03.china-leadership-7
+    when: Apr. 3
+    date: '1962-04-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Péter János, the Hungarian Foreign Minister, on the seventeenth anniversary of Hungary's liberation.
+    n: '[[w.chen-yi-nianpu]], 913. Names: Chen Yi, Péter János.'
+    tags: [polity:prc, polity:hungary, name:chen-yi, name:peter-janos]
   - id: cal.1962-04-04.vietnam
     when: Apr. 4
     date: '1962-04-04'
@@ -488,12 +507,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Chen Yi, at the Hungarian ambassador's reception for the 17th anniversary of Hungary's liberation, condemns President Kennedy's statement that the United States would not hesitate to use nuclear weapons first and launch a nuclear war. If the United States used nuclear weapons first and forced nuclear war on the world's peoples, it is the first user that would be destroyed.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 222 (Apr. 4, 1962). Names: Chen Yi, Kennedy.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 222 (Apr. 4, 1962); [[w.chen-yi-nianpu]], 913 (Apr. 4, 1962, evening; the reception of 马尔丁·费伦茨 at the embassy; Chen Yi also condemns Kennedy''s recent talk of not ruling out the first use of nuclear weapons). Names: Chen Yi, Kennedy.'
     src:
       c: 3fc69729
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 222: all'
+        - 'w.chen-yi-nianpu 913: ?'
     tags: [polity:prc, polity:hungary, polity:us, name:chen-yi, name:kennedy-john-f]
+    time_range:
+      - 1962-04-04T11:00Z
+      - 1962-04-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-04.china-leadership-4
     when: Apr. 4
     date: '1962-04-04'
@@ -761,16 +786,23 @@ entries:
   - id: cal.1962-04-06.china-leadership
     when: Apr. 6
     date: '1962-04-06'
+    place: peking
     thread: china-leadership
     also: [cuba]
     c: 'Zhou Enlai at the Cuban black musician Ignacio Villa''s last solo concert in China and the farewell reception of the Commission for Cultural Relations with Foreign Countries: praises his voice as the voice of the Cuban and Latin American peoples and of the Cuban people''s joy; introduces the Chinese artists Bai Yang, Zhou Xiaoyan and Guo Shuzhen; asks about the Cuban students'' study and life in China and hopes their schools arrange it better.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 469 (Apr. 6, 1962); [[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 6, 1962; 晚上, the Capital Theater). Continues 470. Names: Zhou Enlai, Ignacio Villa.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 469 (Apr. 6, 1962); [[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 6, 1962; 晚上, the Capital Theater); [[w.chen-yi-nianpu]], 913 (Apr. 6, 1962, evening; Chen Yi at the concert in the Capital Theater 首都剧场 and at the farewell cocktail party of the Commission for Cultural Relations with Foreign Countries and the China–Latin America Friendship Association). Continues 470. Names: Zhou Enlai, Ignacio Villa.'
     src:
       c: 7ef6e46a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 469: ?'
         - 'w.zhou-enlai-waijiao-huodong 330: A'
+        - 'w.chen-yi-nianpu 913: ?'
     tags: [polity:prc, polity:cuba, name:zhou-enlai]
+    time_range:
+      - 1962-04-06T11:00Z
+      - 1962-04-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-06.china-leadership-2
     when: Apr. 6
     date: '1962-04-06'
@@ -933,6 +965,18 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 141: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-04-07.china-leadership-7
+    when: Apr. 7
+    date: '1962-04-07'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Mrs. Aisha Ali Sultan 艾沙·阿里·苏丹, general secretary of the Zanzibar National Democratic Women's Federation.
+    n: '[[w.chen-yi-nianpu]], 914. The words: 上午 (914). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-04-06T22:00Z
+      - 1962-04-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-08.cuba
     when: Apr. 8
     date: '1962-04-08'
@@ -1035,7 +1079,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Qinzheng Hall. Mao at the Supreme State Conference (18th session, second meeting), which discusses Liu Shaoqi''s report of Mar. 21 on the January conference. After the democratic parties'' men speak, Mao: January''s was a first summing-up; whether it is right the practice will test; whether the "three red flags" are still right or needed will take a time of doing; the general line is there but not yet a whole set of specific policies.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 9, 1962. [[w.zhou-enlai-nianpu-1949]], II, 470 (Apr. 9, 1962: Zhou Enlai attends the second meeting of the 18th Supreme State Conference, on the Mar. 21 topics, the Government Work Report and the NPC session); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 553 (Apr. 9, 1962; Liu presides at the Supreme State Conference, which hears the bulletin on what the Conference of Mar. 21 discussed); [[w.yang-shangkun-riji]], II, 142 (Apr. 9, 1962; 3 to 7:30 p.m.; the parties'' figures speak; Mao speaks); [[w.deng-xiaoping-nianpu-1904]], III, 1700 (Apr. 9, 1962; afternoon; Deng at the Supreme State Conference''s second meeting of its eighteenth session, Liu presiding, on Liu''s report of Mar. 21); [[w.mao-zedong-zhuan]], V, ch. 69 n.40 (Apr. 9, second meeting of the Supreme State Conference: the speeches of seven, then Mao: the conference of January a first summing up, to be tried in practice; democratic centralism a system and a method; no hat, no braid, no club; the difficulties large but being overcome; a general line is not enough, a whole set of specific policies is needed). Made public: 1996. To check: Record of the 18th Supreme State Conference 最高国务会议第十八次会议, second meeting, Apr. 9, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.40). Names: Mao Zedong, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 9, 1962. [[w.zhou-enlai-nianpu-1949]], II, 470 (Apr. 9, 1962: Zhou Enlai attends the second meeting of the 18th Supreme State Conference, on the Mar. 21 topics, the Government Work Report and the NPC session); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 553 (Apr. 9, 1962; Liu presides at the Supreme State Conference, which hears the bulletin on what the Conference of Mar. 21 discussed); [[w.yang-shangkun-riji]], II, 142 (Apr. 9, 1962; 3 to 7:30 p.m.; the parties'' figures speak; Mao speaks); [[w.deng-xiaoping-nianpu-1904]], III, 1700 (Apr. 9, 1962; afternoon; Deng at the Supreme State Conference''s second meeting of its eighteenth session, Liu presiding, on Liu''s report of Mar. 21); [[w.mao-zedong-zhuan]], V, ch. 69 n.40 (Apr. 9, second meeting of the Supreme State Conference: the speeches of seven, then Mao: the conference of January a first summing up, to be tried in practice; democratic centralism a system and a method; no hat, no braid, no club; the difficulties large but being overcome; a general line is not enough, a whole set of specific policies is needed). [[w.jian-zhou-enlai]], 466 (after his return to Peking on Apr. 9, Mao at the Supreme State Council: differences in the leadership on the three red flags, "Were they wrong or right?"). Made public: 1996. To check: Record of the 18th Supreme State Conference 最高国务会议第十八次会议, second meeting, Apr. 9, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.40). Names: Mao Zedong, Liu Shaoqi.'
     src:
       c: 12234aaa
       rows:
@@ -1046,6 +1090,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1700: ?'
         - 'w.mao-zedong-zhuan V, ch. 69 n.40: B-D, F'
         - 'via w.mao-zedong-zhuan V, ch.69 n.40: B-D, F'
+        - 'w.jian-zhou-enlai 466: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
   - id: cal.1962-04-09.china-leadership-2
     when: Apr. 9
@@ -1221,6 +1266,13 @@ entries:
         - 'w.yang-shangkun-riji II, 142: all'
     tags: [polity:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-04-10.china-leadership-4
+    when: Apr. 10
+    date: '1962-04-10'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 writes to his elder brother Chen Mengxi 陈孟熙: his nephew Decheng 德成 should go to the countryside and support himself, not burden the state; three years of grave disaster in seven provinces, Sichuan 四川 too; the family has lived on the state''s help and must save and rely on itself.'
+    n: '[[w.chen-yi-nianpu]], 914. Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, vis:only:prc]
   - id: cal.1962-04-11.steel
     when: Apr. 11
     date: '1962-04-11'
@@ -1633,6 +1685,18 @@ entries:
     c: Mỹ Tho. Nearly 30,000 people rise, Apr. 12, break some strategic hamlets and return to their villages.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 172.'
     tags: [polity:drv]
+  - id: cal.1962-04-12.china-leadership-8
+    when: Apr. 12
+    date: '1962-04-12'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 阿莱丝娜, wife of 侍利奥, president of the Peasant Leagues of Northeast Brazil, and her two daughters, and gives them lunch.
+    n: '[[w.chen-yi-nianpu]], 914. The words: 上午 (914). Names: Chen Yi.'
+    tags: [polity:prc, polity:brazil, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-04-11T22:00Z
+      - 1962-04-12T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-13.steel
     when: Apr. 13
     date: '1962-04-13'
@@ -2118,12 +2182,18 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Chen Yi receives the Fukuoka prefecture delegation of the Joint Struggle Council to Abolish the U.S.–Japan Security Treaty, led by Komiya Taro and Matsuda Mitsuo. On Sino-American relations: unless the United States changes its policy of aggression against China, economic talk is out of the question. The U.S. State Department, having lost so great a market as China, cannot sleep for it. The world is not the Americans'' world but the world of the peoples, and all countries large and small are equal.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 223 (Apr. 16, 1962). Made public: 2001. Names: Chen Yi. Check: the delegation''s heads are 小宫市太郎 and 松田光男 in the book; the Latin forms are back-converted.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 223 (Apr. 16, 1962); [[w.chen-yi-nianpu]], 914 (Apr. 16, 1962, morning; the delegation led by 小宫市太郎 and 松田光男). Made public: 2001. Names: Chen Yi. Check: the delegation''s heads are 小宫市太郎 and 松田光男 in the book; the Latin forms are back-converted.'
     src:
       c: 46c9bdae
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 223: all'
+        - 'w.chen-yi-nianpu 914: ?'
     tags: [polity:prc, polity:japan, polity:us, name:chen-yi, vis:only:prc+japan]
+    time_range:
+      - 1962-04-15T22:00Z
+      - 1962-04-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-16.china
     when: Apr. 16
     date: '1962-04-16'
@@ -2191,6 +2261,14 @@ entries:
         - 'w.yang-jisheng-mubei II, 1030–1031: all'
         - 'via w.yang-jisheng-mubei II, 1031 n.39: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-04-16.china-leadership-11
+    when: Apr. 16
+    date: '1962-04-16'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the closing meeting of the third session of the Second National People's Congress 第二届全国人民代表大会第三次会议.
+    n: '[[w.chen-yi-nianpu]], 913. See [[cal.1962-03-27.china-leadership]]. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1962-04-17.european-community
     when: Apr. 17
     date: '1962-04-17'
@@ -2291,11 +2369,12 @@ entries:
     place: peking
     thread: china-leadership
     c: The Great Hall 人民大会堂, 9 a.m. to noon. The CPPCC's plenary; Chen Yi 陈毅 speaks, the general discussion ends; to close the next day.
-    n: '[[w.yang-shangkun-riji]], II, 145 (Apr. 17, 1962). The words: 上午9时到12时 (II, 145). See [[cal.1962-04-10.china-leadership-3]]. Names: Chen Yi.'
+    n: '[[w.yang-shangkun-riji]], II, 145 (Apr. 17, 1962); [[w.chen-yi-nianpu]], 913 (Apr. 17, 1962; Chen Yi speaks at the CPPCC session). The words: 上午9时到12时 (II, 145). See [[cal.1962-04-10.china-leadership-3]]. Names: Chen Yi.'
     src:
       c: 01afd6b6
       rows:
         - 'w.yang-shangkun-riji II, 145: all'
+        - 'w.chen-yi-nianpu 913: ?'
     tags: [polity:prc, name:chen-yi]
     time_zone: Asia/Shanghai
   - id: cal.1962-04-17.china-leadership-5
@@ -2326,6 +2405,43 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1700–1701: all'
     tags: [polity:prc, name:deng-xiaoping, name:peng-dehuai, vis:only:prc]
+  - id: cal.1962-04-17.china-leadership-7
+    when: Apr. 17
+    date: '1962-04-17'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the capital's meeting marking the 1,250th anniversary of Du Fu's 杜甫 birth.
+    n: '[[w.chen-yi-nianpu]], 914. The words: 晚上 (914). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-04-17T11:00Z
+      - 1962-04-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-17.china-leadership-8
+    when: Apr. 17
+    date: '1962-04-17'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the national-day reception of 易卜拉欣·雇利, the Syrian Ambassador, at the Peking Hotel 北京饭店.
+    n: '[[w.chen-yi-nianpu]], 914. The words: 晚上 (914). Names: Chen Yi.'
+    tags: [polity:prc, polity:syria, name:chen-yi]
+    time_range:
+      - 1962-04-17T11:00Z
+      - 1962-04-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-17.china-leadership-9
+    when: Apr. 17
+    date: '1962-04-17'
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the reception of Pino Santos 皮诺·桑切斯, the Cuban Ambassador, on the first anniversary of Playa Girón 吉隆滩, and backs Castro's struggle against sectarianism for the revolution's unity.
+    n: '[[w.chen-yi-nianpu]], 914. The words: 晚上 (914). Names: Chen Yi, Castro.'
+    tags: [polity:prc, polity:cuba, name:chen-yi, name:castro-fidel, ok:fields-place]
+    time_range:
+      - 1962-04-17T11:00Z
+      - 1962-04-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-18.defense
     when: Apr. 18
     date: '1962-04-18'
@@ -2454,6 +2570,19 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1700: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-04-18.china-leadership-5
+    when: Apr. 18
+    date: '1962-04-18'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at length at the capital's meeting in the auditorium of the CPPCC 政协礼堂 for the seventh anniversary of the Bandung conference 万隆会议; China true to its resolutions, wishing to live in peace with its Asian neighbors and every country.
+    n: '[[w.chen-yi-nianpu]], 914. The words: 下午 (914). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1962-04-18T04:00Z
+      - 1962-04-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-19.laos
     when: Apr. 19
     date: '1962-04-19'
@@ -2480,7 +2609,7 @@ entries:
     date: '1962-04-19'
     thread: china-leadership
     c: 'The Central Committee decides the Central Finance and Economic Group: head Chen Yun; deputies Li Fuchun and Li Xiannian; members Zhou Enlai, Tan Zhenlin, Bo Yibo, Luo Ruiqing, Cheng Zihua, Gu Mu, Yao Yilin and Xue Muqiao.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 472 (Apr. 19, 1962). Made public: 1997. Names: Zhou Enlai, Chen Yun, Li Fuchun, Li Xiannian, Tan Zhenlin, Bo Yibo, Luo Ruiqing, Cheng Zihua, Gu Mu, Yao Yilin, Xue Muqiao.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 472 (Apr. 19, 1962); [[w.jian-zhou-enlai]], 464–465 (at another Standing Committee meeting Liu proposes Chen again; Chen declines; Mao makes Chen head, Li Fuchun and Li Xiannian deputies, Zhou a member). Made public: 1997. Names: Zhou Enlai, Chen Yun, Li Fuchun, Li Xiannian, Tan Zhenlin, Bo Yibo, Luo Ruiqing, Cheng Zihua, Gu Mu, Yao Yilin, Xue Muqiao.'
     tags: [polity:prc, name:zhou-enlai, name:chen-yun, name:li-fuchun, name:li-xiannian, name:tan-zhenlin, name:bo-yibo, name:luo-ruiqing, vis:only:prc]
   - id: cal.1962-04-19.china-leadership-2
     when: Apr. 19
@@ -2512,6 +2641,31 @@ entries:
       - 1962-04-18T22:00Z
       - 1962-04-19T04:00Z
     time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-19.china-leadership-5
+    when: Apr. 19
+    date: '1962-04-19'
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the founding of the Chinese Society for Asian and African Studies 中国亚非学会, asking it to research and gather material.
+    n: '[[w.chen-yi-nianpu]], 915. The words: 上午 (915). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-04-18T22:00Z
+      - 1962-04-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-19.china-leadership-6
+    when: Apr. 19
+    date: '1962-04-19'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Zhu De 朱德, Guo Moruo 郭沫若, Zhou Yang 周扬 and others, as poets and lovers of poetry, at the forum of more than fifty poets held by *Shikan* 《诗刊》 in the Fujian Room of the Great Hall of the People 人民大会堂福建厅.
+    n: '[[w.chen-yi-nianpu]], 915. See [[cal.1962-03-27.china-leadership-6]]. The words: 下午 (915). Names: Chen Yi, Zhu De.'
+    tags: [polity:prc, name:chen-yi, name:zhu-de]
+    time_range:
+      - 1962-04-19T04:00Z
+      - 1962-04-19T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-04-20.crime-and-hijacking-maheu
     when: Apr. 20
@@ -2681,6 +2835,18 @@ entries:
     c: Quảng Nam. Apr. 20 a Saigon commando company and nearly a platoon of Civil Guard and Self-Defense men surround a squad of seven sappers under Lê Tấn Hiền and Võ Như Hưng, with three cadres of Điện Bàn, in Hamlet 4, Điện Ngọc commune. The ten fight all day, from a dry well in the middle of a field, against a force 50 times theirs; at night they draw the Saigon side off and get out with the wounded. Over 100 of the Saigon side killed, by the history's count; four of the ten dead, one wounded.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 173–74. Names: Lê Tấn Hiền, Võ Như Hưng.'
     tags: [polity:drv, ok:fields-time]
+  - id: cal.1962-04-20.china-leadership-7
+    when: Apr. 20
+    date: '1962-04-20'
+    thread: china-leadership
+    c: Han Ik-su 韩益洙, the DPRK's new Ambassador, calls on Chen Yi 陈毅 on the presentation of his credentials.
+    n: '[[w.chen-yi-nianpu]], 915. The words: 上午 (915). Names: Chen Yi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi]
+    time_range:
+      - 1962-04-19T22:00Z
+      - 1962-04-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-21.states-and-cities-seattle
     when: Apr. 21
     date: '1962-04-21'
@@ -3506,6 +3672,13 @@ entries:
         - 'w.yang-shangkun-riji II, 154: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-04-27.china-leadership-12
+    when: Apr. 27
+    date: '1962-04-27'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Tulsi Giri 图尔西·吉里, the Nepalese Foreign Minister, exchange cables on the second anniversary of the treaty of peace and friendship; Giri's pledges Nepal to its principles.
+    n: '[[w.chen-yi-nianpu]], 915. Names: Chen Yi.'
+    tags: [polity:prc, polity:nepal, name:chen-yi]
   - id: cal.1962-04-28.georgia-ga
     when: Apr. 28
     date: '1962-04-28'
@@ -3720,6 +3893,30 @@ entries:
     c: 'Liu Shaoqi reads an item in the Central Committee General Office''s *Qunzhong fanying* ([62] no. 38) on the Changchun Fifth Tank Technical School, which disregarded the Center''s order to stop construction of non-productive buildings and under various pretexts built a great hall, and comments: "Take solid measures to stop such capital construction."'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 554 (Apr. 29, 1962). Made public: 1996. To check: Central Committee General Office, *Qunzhong fanying* ([62] no. 38), the item on the Changchun Fifth Tank Technical School (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 554). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-04-29.china-leadership-3
+    when: Apr. 29
+    date: '1962-04-29'
+    thread: china-leadership
+    c: Abderrahman Zniber 阿卜杜勒·拉赫曼·兹尼贝尔, Morocco's first Ambassador to China, calls on Chen Yi 陈毅 on the presentation of his credentials.
+    n: '[[w.chen-yi-nianpu]], 915. The words: 下午 (915). Names: Chen Yi.'
+    tags: [polity:prc, polity:morocco, name:chen-yi]
+    time_range:
+      - 1962-04-29T04:00Z
+      - 1962-04-29T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-04-29.china-leadership-4
+    when: Apr. 29
+    date: '1962-04-29'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the banquet of Liao Chengzhi 廖承志, chairman of the Overseas Chinese Affairs Commission 华侨事务委员会, for overseas Chinese and compatriots from Hong Kong 香港 and Macao 澳门 in Peking 北京 for May Day; toasts them for the Center, Chairman Mao 毛泽东 and Premier Zhou 周恩来.
+    n: '[[w.chen-yi-nianpu]], 915. The words: 晚上 (915). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-04-29T11:00Z
+      - 1962-04-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-30.king
     when: Apr. 30
     date: '1962-04-30'
@@ -4218,11 +4415,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the May Day reception given by Chen Yi, Vice Premier and Foreign Minister.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 30, 1962; 晚7时15分). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 330 (Apr. 30, 1962; 晚7时15分); [[w.chen-yi-nianpu]], 915 (Apr. 30, 1962, evening; Chen Yi gives the reception and speaks: China still poor and backward in economy and culture; decades of hard struggle to make it advanced). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 9cc354be
       rows:
         - 'w.zhou-enlai-waijiao-huodong 330: all'
+        - 'w.chen-yi-nianpu 915: ?'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi]
     time_zone: Asia/Shanghai
   - id: cal.1962-04-30.china-leadership-4
@@ -4267,12 +4465,18 @@ entries:
     date: '1962-04-30'
     thread: china-leadership
     c: Chen Yi, Vice-Premier, receives Claude Thomas Bissell, president of the University of Toronto, and Geoffrey Clement Andrew, executive director of the Canadian Universities Foundation.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 225 (Apr. 30, 1962). Names: Chen Yi. Check: the book gives the names in Chinese (克劳德·托马斯·比斯尔, 吉弗雷·克利门特·安德鲁) and the second man''s body as 加拿大大学基金会; the Latin forms are back-converted.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 225 (Apr. 30, 1962); [[w.chen-yi-nianpu]], 915 (Apr. 30, 1962, evening; with Geoffrey Clement Andrew 吉弗雷·克利门特·安德鲁 of the Canadian Universities Foundation). Names: Chen Yi. Check: the book gives the names in Chinese (克劳德·托马斯·比斯尔, 吉弗雷·克利门特·安德鲁) and the second man''s body as 加拿大大学基金会; the Latin forms are back-converted.'
     src:
       c: '78056001'
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 225: all'
+        - 'w.chen-yi-nianpu 915: ?'
     tags: [polity:prc, polity:canada, name:chen-yi]
+    time_range:
+      - 1962-04-30T11:00Z
+      - 1962-04-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-04-30.china-2
     when: Apr. 30
     date: '1962-04-30'
@@ -4372,3 +4576,24 @@ entries:
     c: 'From April Saigon and the Americans carry out over the whole South the program of gathering the people into "strategic hamlets", after trials in some places in Tây Ninh, Bình Dương, Biên Hòa and Quảng Ngãi. The aim: 10 million peasants in 16,000 of 17,000 hamlets planned, and a pacification apparatus, with American advisers alongside, from the center to the provinces.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 26. Check: the day. See [[cal.1962-03-16.vietnam]].'
     tags: [polity:rvn, polity:us, ok:fields-place]
+  - id: cal.1962-04.china-leadership-4
+    when: Apr., mid
+    date: 1962-04
+    at: before 1962-04-11
+    thread: china-leadership
+    c: Chen Yi 陈毅, about the time of the Du Fu 杜甫 anniversary, writes the poem "In memory of Du Fu" 《纪念杜甫》.
+    n: '[[w.chen-yi-nianpu]], 914. See [[cal.1962-04-17.china-leadership-7]]. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+  - id: cal.1962-04-30.china-leadership-11
+    when: Apr. 30
+    date: '1962-04-30'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 receives Quinim Pholsena, head of the Royal Laotian government's delegation to the enlarged Geneva conference, and gives him an informal lunch.
+    n: '[[w.chen-yi-nianpu]], 915. The words: 上午 (915). Names: Chen Yi, Quinim Pholsena.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:quinim-pholsena, ok:fields-place]
+    time_range:
+      - 1962-04-29T22:00Z
+      - 1962-04-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai

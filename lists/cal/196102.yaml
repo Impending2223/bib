@@ -325,6 +325,32 @@ entries:
         - 'w.yang-jisheng-mubei I, 212: all'
         - 'via w.yang-jisheng-mubei I, 212 n.55: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-01.china-leadership-7
+    when: Feb. 1
+    date: '1961-02-01'
+    thread: china-leadership
+    c: Chen Yi 陈毅 gives a dinner for Spiro Koleka 斯皮罗·科列加, First Deputy Chairman of the Albanian Council of Ministers, and his government economic delegation.
+    n: '[[w.chen-yi-nianpu]], 857. The words: 中午 (857). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi]
+    time_range:
+      - 1961-02-01T04:00Z
+      - 1961-02-01T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-01.china-leadership-8
+    when: Feb. 1
+    date: '1961-02-01'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Beijing Hotel 北京饭店, Peking. Chen Yi 陈毅 toasts at the banquet of Trần Tử Bình 陈子平, the DRV's Ambassador, for the signing of the economic and trade agreements.
+    n: '[[w.chen-yi-nianpu]], 857. The words: 晚上 (857). Names: Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi]
+    time_range:
+      - 1961-02-01T11:00Z
+      - 1961-02-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-02.program
     when: Feb. 2
     date: '1961-02-02'
@@ -384,12 +410,18 @@ entries:
     thread: china
     also: [laos]
     c: 'Peking. A rally of the capital''s people backs the Lao people against U.S. interference and for peace, neutrality, national independence and sovereignty. Chen Yi speaks: Laos''s internal questions are for the Lao people to settle. The way out is for the legitimate government under Prince Souvanna Phouma and the patriotic Neo Lao Hak Xat to unite and put down the revolt of the Phoumi–Boun Oum clique, which the United States aids, and to build an independent, united, harmonious, peaceful and neutral Laos. The Chinese people back it.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 184 (Feb. 2, 1961). Names: Chen Yi, Souvanna Phouma, Phoumi Nosavan, Boun Oum.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 184 (Feb. 2, 1961); [[w.chen-yi-nianpu]], 857 (Feb. 2, 1961, afternoon; Chen Yi speaks at the rally: China holds that Laos''s internal questions are for the Lao people to settle). Names: Chen Yi, Souvanna Phouma, Phoumi Nosavan, Boun Oum.'
     src:
       c: 426419e1
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 184: all'
+        - 'w.chen-yi-nianpu 857: ?'
     tags: [polity:prc, polity:laos, polity:us, name:chen-yi, name:souvanna-phouma, name:phoumi-nosavan, name:boun-oum-na-champassak]
+    time_range:
+      - 1961-02-02T04:00Z
+      - 1961-02-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-02.china-leadership-2
     when: Feb. 2
     date: '1961-02-02'
@@ -489,16 +521,19 @@ entries:
   - id: cal.1961-02-02.china-leadership-8
     when: Feb. 2
     date: '1961-02-02'
+    time: 1961-02-02T09:30Z
     place: peking
     thread: china-leadership
     c: Peking. China and Albania sign, under the loan agreement by which China gives Albania credit, several protocols, and exchange notes on China's supplying Albania with grain and other main foods. China agrees to give Albania complete sets of equipment and technical help for twenty-five projects in chemicals, metallurgy, power, building materials and light industry, and to supply tractors, other farm machinery, grain and other goods.
-    n: '[[w.yang-jisheng-mubei]], II, 668. Made public: *Renmin ribao*, Apr. 26, 1961 (the communique of Apr. 25). To check: Communique on the talks of the Chinese government economic delegation and the Albanian government economic delegation, Apr. 25, 1961, Renmin ribao 《人民日報》, Apr. 26, 1961 (cited by [[w.yang-jisheng-mubei]], II, 668 n.33). See [[cal.1961-01-17.china-leadership]]. Check: the day, against the communique the note cites (Apr. 25, 1961).'
+    n: '[[w.yang-jisheng-mubei]], II, 668; [[w.chen-yi-nianpu]], 857 (Feb. 2, 1961, 5:30 p.m.; Chen Yi at the signing of the treaty of commerce and navigation and the loan agreement with Albania). Made public: *Renmin ribao*, Apr. 26, 1961 (the communique of Apr. 25). To check: Communique on the talks of the Chinese government economic delegation and the Albanian government economic delegation, Apr. 25, 1961, Renmin ribao 《人民日報》, Apr. 26, 1961 (cited by [[w.yang-jisheng-mubei]], II, 668 n.33). See [[cal.1961-01-17.china-leadership]]. Check: the day, against the communique the note cites (Apr. 25, 1961).'
     src:
       c: b80a6ae5
       rows:
         - 'w.yang-jisheng-mubei II, 668: all'
         - 'via w.yang-jisheng-mubei II, 668 n.33: all'
+        - 'w.chen-yi-nianpu 857: ?'
     tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-02.vietnam-hanoi
     when: Feb. 2
     date: '1961-02-02'
@@ -508,6 +543,19 @@ entries:
     c: Cần Thơ. Over 20,000 people around the city hold a political demonstration, Feb. 2, in step with the armed forces' fighting.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 138.'
     tags: [polity:drv]
+  - id: cal.1961-02-02.china-leadership-10
+    when: Feb. 2
+    date: '1961-02-02'
+    place: peking
+    thread: china-leadership
+    c: Beijing Hotel 北京饭店, Peking. Chen Yi 陈毅 at the reception of 帕里夫蒂, the Albanian Ambassador, for Spiro Koleka's economic delegation.
+    n: '[[w.chen-yi-nianpu]], 857. See [[cal.1961-02-01.china-leadership-7]]. The words: 晚上 (857). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi]
+    time_range:
+      - 1961-02-02T11:00Z
+      - 1961-02-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-03.immigration
     when: Feb. 3
     date: '1961-02-03'
@@ -658,6 +706,18 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1617: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-03.china-leadership-6
+    when: Feb. 3
+    date: '1961-02-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the airport to see off Spiro Koleka 斯皮罗·科列加 and the Albanian economic delegation.
+    n: '[[w.chen-yi-nianpu]], 857. See [[cal.1961-02-01.china-leadership-7]]. The words: 上午 (857). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi]
+    time_range:
+      - 1961-02-02T22:00Z
+      - 1961-02-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-04.defense
     when: Feb. 4–5
     date: '1961-02-04'
@@ -706,11 +766,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking Hotel. Zhou Enlai attends the reception given by the Ceylonese Ambassador for the 13th anniversary of Ceylon's independence.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 4, 1961; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 4, 1961; 晚上); [[w.chen-yi-nianpu]], 857 (Feb. 4, 1961, evening; Chen Yi speaks at the reception of 高伯拉瓦, the Ceylonese Ambassador, Beijing Hotel). Names: Zhou Enlai.'
     src:
       c: 0b77451e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 303: all'
+        - 'w.chen-yi-nianpu 857: ?'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai]
     time_range:
       - 1961-02-04T11:00Z
@@ -724,11 +785,12 @@ entries:
     thread: china-leadership
     also: [china, cuba]
     c: Peking. Zhou Enlai attends the cocktail party given by the Commission for Cultural Relations with Foreign Countries and the Ministry of Culture for the Cuban ballet troupe.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 4, 1961; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 4, 1961; 晚上); [[w.chen-yi-nianpu]], 858 (Feb. 4, 1961, evening; Chen Yi at the cocktail party for the Cuban ballet). Names: Zhou Enlai.'
     src:
       c: 7abbb239
       rows:
         - 'w.zhou-enlai-waijiao-huodong 303: all'
+        - 'w.chen-yi-nianpu 858: ?'
     tags: [polity:prc, polity:cuba, name:zhou-enlai]
     time_range:
       - 1961-02-04T11:00Z
@@ -786,6 +848,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 651: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-04.china-leadership-9
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Chen Yi 陈毅 speaks at the banquet of Zhang Xiruo 张奚若, director of the Commission for Cultural Relations with Foreign Countries, for the signing of the Sino-Soviet cultural cooperation plan for 1961; thanks the Soviet Union for its help to Chinese science, culture and art.
+    n: '[[w.chen-yi-nianpu]], 857. The words: 中午 (857). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi]
+    time_range:
+      - 1961-02-04T04:00Z
+      - 1961-02-04T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-05.china-leadership
     when: Feb. 5
     date: '1961-02-05'
@@ -1191,6 +1266,30 @@ entries:
       - 1961-02-07T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-07.china-leadership-5
+    when: Feb. 7
+    date: '1961-02-07'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives François Mitterrand 密特朗, French senator and president of the Democratic and Socialist Union of the Resistance.
+    n: '[[w.chen-yi-nianpu]], 858. The words: 上午 (858). Names: Chen Yi, Mitterrand.'
+    tags: [polity:prc, polity:fr, name:chen-yi, name:mitterrand-francois]
+    time_range:
+      - 1961-02-06T22:00Z
+      - 1961-02-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-07.china-leadership-6
+    when: Feb. 7
+    date: '1961-02-07'
+    thread: china-leadership
+    c: Chen Yi 陈毅 gives a banquet for François Mitterrand.
+    n: '[[w.chen-yi-nianpu]], 858. See [[cal.1961-02-07.china-leadership-5]]. The words: 晚上 (858). Names: Chen Yi, Mitterrand.'
+    tags: [polity:prc, polity:fr, name:chen-yi, name:mitterrand-francois]
+    time_range:
+      - 1961-02-07T11:00Z
+      - 1961-02-07T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-08.cuba
     when: Feb. 8
     date: '1961-02-08'
@@ -1495,12 +1594,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai receives and gives a luncheon for the Nepalese delegation under Major General P. B. Khatri, Nepal's chief delegate to the boundary joint commission; hopes for friendship on the five principles and a boundary treaty. The next day at the Nepalese reception, Khatri says Nepal's economic plans have succeeded with great help from China, and the two have handled the boundary in Bandung's spirit.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 390 (Feb. 9, 1961); [[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 9, 1961; 上午11时40分, 人民大会堂, 接见并宴请; the Nepalese delegation to the China–Nepal Joint Boundary Committee, led by Maj. Gen. Khatri). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 390 (Feb. 9, 1961); [[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 9, 1961; 上午11时40分, 人民大会堂, 接见并宴请; the Nepalese delegation to the China–Nepal Joint Boundary Committee, led by Maj. Gen. Khatri); [[w.chen-yi-nianpu]], 858 (Feb. 9, 1961; Chen Yi present when Zhou Enlai receives Khatri and the Nepalese delegation in the morning, and at Zhou''s luncheon at noon). Made public: 1993. Names: Zhou Enlai.'
     src:
       c: 45044b31
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 390: ?'
         - 'w.zhou-enlai-waijiao-huodong 303: A'
+        - 'w.chen-yi-nianpu 858: ?'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, vis:only:prc+nepal]
     time_zone: Asia/Shanghai
   - id: cal.1961-02-09.china-leadership-2
@@ -1541,6 +1641,33 @@ entries:
     c: Tây Ninh. Battalions 1 and 2 of the Central Office's main-force regiment, code Q761, hold their ceremony of making themselves known in the Dương Minh Châu war zone, Feb. 9.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 47. Check: the history prints 9-2-1961 but dates the Central Office''s decision to form the regiment July 1961; a second ceremony, Feb. 9, 1962, at Trảng Dài, names it Regiment 1 (see [[cal.1962-02-09.vietnam-hanoi]]); the year of this one may be a misprint.'
     tags: [polity:drv]
+  - id: cal.1961-02-09.china-leadership-4
+    when: Feb. 9
+    date: '1961-02-09'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Chen Yi 陈毅 receives the Soviet delegation come under the two governments' agreement for preliminary talks on economic and trade relations, Kumykin 库米金, Deputy Minister of Foreign Trade, and Arkhipov 阿希波夫, First Deputy Chairman of the State Committee for Foreign Economic Relations, among them.
+    n: '[[w.chen-yi-nianpu]], 858. The words: 下午 (858). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi]
+    time_range:
+      - 1961-02-09T04:00Z
+      - 1961-02-09T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-09.china-leadership-5
+    when: Feb. 9
+    date: '1961-02-09'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Great Hall of the People 人民大会堂, Peking 北京. Chen Yi 陈毅 gives a banquet for Kumykin, Arkhipov and the delegation; speaks: the two countries'' mutual aid in economy, trade, science and technology, fixed in law by the treaty; the talks to agree in a friendly spirit on the principle of proletarian internationalism.'
+    n: '[[w.chen-yi-nianpu]], 858. See [[cal.1961-02-09.china-leadership-4]]. The words: 晚上 (858). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi]
+    time_range:
+      - 1961-02-09T11:00Z
+      - 1961-02-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-10.opinion
     when: Feb. 10–15
     date: '1961-02-10'
@@ -1627,11 +1754,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai attends the reception given by Maj. Gen. Khatri, chief Nepalese delegate to the China–Nepal Joint Boundary Committee.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 10, 1961; 晚上). See [[cal.1961-02-09.china-leadership]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 303 (Feb. 10, 1961; 晚上); [[w.chen-yi-nianpu]], 858 (Feb. 10, 1961, evening; Chen Yi speaks at Khatri''s reception, the Sino-Nepalese boundary to be one of lasting friendship; China backs Nepal''s peace and neutrality). See [[cal.1961-02-09.china-leadership]]. Names: Zhou Enlai.'
     src:
       c: 1ee25a1f
       rows:
         - 'w.zhou-enlai-waijiao-huodong 303: all'
+        - 'w.chen-yi-nianpu 858: ?'
     tags: [polity:prc, polity:nepal, name:zhou-enlai]
     time_range:
       - 1961-02-10T11:00Z
@@ -1775,6 +1903,19 @@ entries:
         - 'w.yang-jisheng-mubei I, 358: all'
         - 'via w.yang-jisheng-mubei I, 358 n.44: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1961-02-10.china-leadership-14
+    when: Feb. 10
+    date: '1961-02-10'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 receives the Lao delegation to the special session of the Afro-Asian People's Solidarity Council, led by Sisana Sisane 西沙纳·西山, editor of the *Lao Hak Sat* 《老挝爱国报》 and former deputy, with Nouphan Sithlasay 努方·西特拉赛 of the Lao committee for peace, neutrality, concord and unification.
+    n: '[[w.chen-yi-nianpu]], 858–859. The words: 晚上 (858–859). Names: Chen Yi.'
+    tags: [polity:prc, polity:laos, name:chen-yi]
+    time_range:
+      - 1961-02-10T11:00Z
+      - 1961-02-10T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-11.soviet-union
     when: Feb. 11–13
     date: '1961-02-11'
@@ -1880,6 +2021,19 @@ entries:
         - 'w.yang-jisheng-mubei I, 344: all'
         - 'via w.yang-jisheng-mubei I, 344 n.10: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-11.china-leadership-7
+    when: Feb. 11
+    date: '1961-02-11'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Chen Yi 陈毅 receives the Soviet–Chinese Friendship Society's delegation led by Konstantinov 康斯坦丁诺夫; he and his wife give a banquet for them; speaks, the treaty of friendship, alliance and mutual assistance in the interest of the world's peoples.
+    n: '[[w.chen-yi-nianpu]], 859. The words: 中午 (859). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi]
+    time_range:
+      - 1961-02-11T04:00Z
+      - 1961-02-11T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-12.opinion
     when: Feb. 12
     date: '1961-02-12'
@@ -1933,6 +2087,19 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 67: all'
         - 'via w.mao-zedong-zhuan V, ch.67 n.19: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-02-12.china-leadership-5
+    when: Feb. 12
+    date: '1961-02-12'
+    thread: china-leadership
+    also: [soviet-union]
+    c: At the cocktail party of Chervonenko and his wife, the Soviet Ambassador gives the CPSU Central Committee's and the Soviet government's gift of a feature-length documentary of Liu Shaoqi's 刘少奇 1960 visit to the Soviet Union; Chen Yi 陈毅 accepts it for the Central Committee and the government.
+    n: '[[w.chen-yi-nianpu]], 859. The words: 晚上 (859). Names: Chervonenko, Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi, name:chervonenko-stepan-v, name:liu-shaoqi]
+    time_range:
+      - 1961-02-12T11:00Z
+      - 1961-02-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-13.congo
     when: Feb. 13
     date: '1961-02-13'
@@ -2038,12 +2205,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai at the rally for the eleventh anniversary of the Sino-Soviet treaty of friendship, alliance and mutual assistance.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 13, 1961; 下午2时20分, 人民大会堂). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 13, 1961; 下午2时20分, 人民大会堂); [[w.chen-yi-nianpu]], 859 (Feb. 13, 1961, 2:20 p.m., the Great Hall of the People; Chen Yi at the rally, and at the capital''s artists'' performance there that afternoon). Names: Zhou Enlai.'
     src:
       c: 17f804bd
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 391: ?'
         - 'w.zhou-enlai-waijiao-huodong 304: A'
+        - 'w.chen-yi-nianpu 859: ?'
     tags: [polity:prc, polity:ussr, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1961-02-13.china-leadership-3
@@ -2053,11 +2221,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the Soviet Embassy. Zhou Enlai attends the reception given by the Soviet Ambassador, Chervonenko, for the 11th anniversary of the Sino-Soviet treaty.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 13, 1961; 晚上). Names: Zhou Enlai, Chervonenko.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 13, 1961; 晚上); [[w.chen-yi-nianpu]], 859 (Feb. 13, 1961, evening; Chen Yi speaks at Chervonenko''s reception, the alliance a bulwark of peace in the Far East and the world). Names: Zhou Enlai, Chervonenko.'
     src:
       c: 3fc35008
       rows:
         - 'w.zhou-enlai-waijiao-huodong 304: all'
+        - 'w.chen-yi-nianpu 859: ?'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chervonenko-stepan-v]
     time_range:
       - 1961-02-13T11:00Z
@@ -2100,6 +2269,20 @@ entries:
     c: Bến Tre. Thousands of people from the countryside and the towns are got to "go to the Tết market", Feb. 13, as a show of strength against the Americans and Diệm.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 139. Names: Ngô Đình Diệm.'
     tags: [polity:drv, name:ngo-dinh-diem]
+  - id: cal.1961-02-13.china-leadership-5
+    when: Feb. 13
+    date: '1961-02-13'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: The Wenhua Hall 文华殿 of the Palace Museum, Peking 北京. Chen Yi 陈毅 at the opening of the exhibitions of Soviet achievements in space and of Soviet culture and art, for the treaty's eleventh anniversary.
+    n: '[[w.chen-yi-nianpu]], 859. The words: 上午 (859). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi]
+    time_range:
+      - 1961-02-12T22:00Z
+      - 1961-02-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-14.state-and-city-finance-wv
     when: Feb. 14
     date: '1961-02-14'
@@ -2409,6 +2592,13 @@ entries:
         - 'w.dikotter-maos-great-famine 319: all'
         - 'via w.dikotter-maos-great-famine 319 n.40: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-15.china-leadership-9
+    when: Feb. 15
+    date: '1961-02-15'
+    thread: china-leadership
+    c: Chen Yi 陈毅 finishes "Poems of the visit to Burma" 《访缅诗章》, seven poems.
+    n: '[[w.chen-yi-nianpu]], 860. Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi]
   - id: cal.1961-02-16.latin-america
     when: Feb. 16
     date: '1961-02-16'
@@ -2541,6 +2731,13 @@ entries:
         - 'w.yang-jisheng-mubei II, 967: all'
         - 'via w.yang-jisheng-mubei II, 967 n.t1: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-16.china-leadership-5
+    when: Feb. 16
+    date: '1961-02-16'
+    thread: china-leadership
+    c: Chen Yi 陈毅 telegraphs Tulsi Giri 图尔西·吉里, the Nepalese Foreign Minister, on Nepal's national day.
+    n: '[[w.chen-yi-nianpu]], 860. Names: Chen Yi.'
+    tags: [polity:prc, polity:nepal, name:chen-yi]
   - id: cal.1961-02-17.economy
     when: Feb. 17
     date: '1961-02-17'
@@ -2742,12 +2939,13 @@ entries:
     thread: china-leadership
     also: [congo]
     c: Peking. Zhou Enlai at the rally of 100,000 protesting the killing of Lumumba by imperialism and its agents.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 18, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 18, 1961; 下午2时, 工人体育场; more than 500,000 in Peking). See [[cal.1961-02-14.china-leadership-2]]. Names: Zhou Enlai, Lumumba.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 18, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 18, 1961; 下午2时, 工人体育场; more than 500,000 in Peking); [[w.chen-yi-nianpu]], 860 (Feb. 18, 1961, 2 p.m., the Peking Workers'' Stadium; Chen Yi at the protest rally of more than 500,000 against the killing of Lumumba). See [[cal.1961-02-14.china-leadership-2]]. Names: Zhou Enlai, Lumumba.'
     src:
       c: e844300b
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 391: ?'
         - 'w.zhou-enlai-waijiao-huodong 304: A'
+        - 'w.chen-yi-nianpu 860: ?'
     tags: [polity:prc, polity:congo, name:zhou-enlai, name:lumumba-patrice]
     time_zone: Asia/Shanghai
     variants:
@@ -2762,11 +2960,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai receives Yusuf Osman Samatar, secretary-general of the Greater Somali League.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 18, 1961; 下午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 18, 1961; 下午); [[w.chen-yi-nianpu]], 860 (Feb. 18, 1961, afternoon; Chen Yi present when Zhou Enlai receives Samatar). Names: Zhou Enlai.'
     src:
       c: bcac1be7
       rows:
         - 'w.zhou-enlai-waijiao-huodong 304: all'
+        - 'w.chen-yi-nianpu 860: ?'
     tags: [polity:prc, polity:somalia, name:zhou-enlai]
     time_range:
       - 1961-02-18T04:00Z
@@ -2790,6 +2989,18 @@ entries:
       - 1961-02-18T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-18.china-leadership-4
+    when: Feb. 18
+    date: '1961-02-18'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Yusuf Osman Samatar 优素福·奥斯曼·萨马特, secretary-general of the Greater Somali League.
+    n: '[[w.chen-yi-nianpu]], 860. See [[cal.1961-02-18.china-leadership-2]]. The words: 晚上 (860). Names: Chen Yi.'
+    tags: [polity:prc, polity:somalia, name:chen-yi]
+    time_range:
+      - 1961-02-18T11:00Z
+      - 1961-02-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-19.china-leadership
     when: Feb. 19
     date: '1961-02-19'
@@ -2801,11 +3012,17 @@ entries:
   - id: cal.1961-02-19.china-leadership-2
     when: Feb. 19
     date: '1961-02-19'
+    place: peking
     thread: china-leadership
     also: [china]
     c: Zhou Enlai at the symposium of the People's Political Consultative Conference's committee on literary and historical materials and some of the Central Institute of Literature and History, urging them to write more.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 392 (Feb. 19, 1961). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 392 (Feb. 19, 1961); [[w.chen-yi-nianpu]], 860 (Feb. 19, 1961, morning, the CPPCC auditorium; Chen Yi speaks, urging good writing of the historical materials). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1961-02-18T22:00Z
+      - 1961-02-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-19.china-leadership-3
     when: Feb. 19
     date: '1961-02-19'
@@ -2841,6 +3058,14 @@ entries:
       - 1961-02-19T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-19.china-leadership-7
+    when: Feb. 19
+    date: '1961-02-19'
+    thread: china-leadership
+    also: [congo]
+    c: Chen Yi 陈毅 telegraphs Antoine Gizenga 基赞加, acting Prime Minister of the Congo, that China reaffirms its recognition of the government under him as the Congo's only lawful government and wishes to establish relations and exchange ambassadors.
+    n: '[[w.chen-yi-nianpu]], 860. Names: Chen Yi, Gizenga.'
+    tags: [polity:prc, polity:congo, name:chen-yi, name:gizenga-antoine]
   - id: cal.1961-02-20.school-aid
     when: Feb. 20
     date: '1961-02-20'
@@ -3234,12 +3459,18 @@ entries:
     thread: china-leadership
     also: [china, middle-east]
     c: Peking, the UAR Embassy. Zhou Enlai attends the national day reception given by the UAR Ambassador, Taraji.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 22, 1961). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 22, 1961); [[w.chen-yi-nianpu]], 860 (Feb. 22, 1961, evening; Chen Yi speaks at Tarazi''s reception, condemning the killing of Lumumba by the United States and Belgium and the new American designs on Laos). Names: Zhou Enlai.'
     src:
       c: 09b3be00
       rows:
         - 'w.zhou-enlai-waijiao-huodong 304: all'
+        - 'w.chen-yi-nianpu 860: ?'
     tags: [polity:prc, polity:uar, name:zhou-enlai]
+    time_range:
+      - 1961-02-22T11:00Z
+      - 1961-02-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-22.china-leadership
     when: Feb. 22–Mar. 6
     date: '1961-02-22'
@@ -3371,7 +3602,13 @@ entries:
     thread: china-leadership
     also: [economy]
     c: 'Zhou Enlai at Shenyang, Feb. 23–25, to settle the serious fall of industrial output since January and turn around the Northeast''s and the nation''s: hears the Northeast Bureau on coal and other output, and Song Renqiong, Ouyang Qin and others. On the 25th he reports to the Northeast Bureau''s and Liaoning''s bureau-level cadres and takes the midnight train; on the 26th, on the train, he calls Lü Dong, Lü Zhengcao and Zhang Linzhi on the Northeast''s industry.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 393 (Feb. 23, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 393 (Feb. 23, 1961); [[w.jian-zhou-enlai]], 459 (the note: Zhou''s speech at a cadres'' meeting of the Northeast Bureau, Feb. 25, 1961, one of his speeches on adjustment after the plenum). Made public: 1997. To check: Zhou''s speech at a cadres'' meeting at the Northeast Bureau, February 25, 1961 (cited by [[w.jian-zhou-enlai]], 459 n.72a). Names: Zhou Enlai.'
+    src:
+      c: 2e7e127e
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 393: ?'
+        - 'w.jian-zhou-enlai 459: ?'
+        - 'via x.1961-02-25.zhou-speech-northeast-bureau-cadres: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-02-23.china-leadership-2
     when: Feb. 23
@@ -3420,6 +3657,18 @@ entries:
       - 1961-02-23T04:00Z
       - 1961-02-23T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-23.china-leadership-5
+    when: Feb. 23
+    date: '1961-02-23'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the reception of Lieutenant General 华锡烈, the Soviet military attaché, at the Embassy, for the Soviet Army and Navy's 43rd anniversary.
+    n: '[[w.chen-yi-nianpu]], 860–861. The words: 晚上 (860–861). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi]
+    time_range:
+      - 1961-02-23T11:00Z
+      - 1961-02-23T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1961-02-24.crime-and-hijacking
     when: Feb. 24
@@ -3593,6 +3842,19 @@ entries:
       - 1961-02-24T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-02-24.china-leadership-4
+    when: Feb. 24
+    date: '1961-02-24'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the Japanese economic friendship delegation led by Yamamoto Kumaichi 山本熊一, president of the Japan Association for the Promotion of International Trade, and the representatives of the friendly trading firms; gives them an informal dinner after.
+    n: '[[w.chen-yi-nianpu]], 861. The words: 上午 (861). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi]
+    time_range:
+      - 1961-02-23T22:00Z
+      - 1961-02-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-25.vietnam
     when: Feb. 25
     date: '1961-02-25'
@@ -3731,7 +3993,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'At the symposium the United Front Work Department holds for democratic party heads and non-Party mayors, Zhou Enlai on the situation: good at home and abroad but with part difficulties; results affirmed to build confidence, no despair or slackening; two years of adjustment; the farm difficulty not foreseen so great, it hits light-industry materials and some heavy industry; this year, thrift, more output, to pass the famine. Tell the nation and friends in the united front the true facts: with facts known, resolve is great and methods right.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 393 (Feb. 26, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 393 (Feb. 26, 1961); [[w.jian-zhou-enlai]], 459 (the note: Zhou''s speech at the United Front Department''s roundtable, Feb. 26, 1961). Made public: 1997. To check: Zhou speech at a roundtable at the Central United Front Department, February 26, 1961 (cited by [[w.jian-zhou-enlai]], 459 n.72b). Names: Zhou Enlai.'
+    src:
+      c: 91e9f4c1
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 393: ?'
+        - 'w.jian-zhou-enlai 459: ?'
+        - 'via x.1961-02-26.zhou-speech-united-front-department-roundtable: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-02-26.china-leadership
     when: Feb. 26
@@ -3998,6 +4266,14 @@ entries:
         - 'via w.yang-jisheng-mubei I, 175 n.t1: all'
         - 'via w.yang-jisheng-mubei I, 175 n.51: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-02-27.china-leadership-12
+    when: Feb. 27
+    date: '1961-02-27'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 telegraphs Ahmed Boucetta 艾哈迈德·布塞塔, Morocco's acting Foreign Minister, in condolence on the death of King Mohammed V.
+    n: '[[w.chen-yi-nianpu]], 861. Names: Chen Yi.'
+    tags: [polity:prc, polity:morocco, name:chen-yi]
   - id: cal.1961-02-28.open-housing-pa
     when: Feb. 28
     date: '1961-02-28'
@@ -4469,13 +4745,14 @@ entries:
     thread: china-leadership
     also: [japan, trade]
     c: Zhou Enlai receives the Japanese economic friendship delegation under Yamamoto Kumaichi and the friendly firms' trade delegation. Yamamoto's apology belongs to the past, both look ahead; Japan's people seek a peaceful, independent, neutral and democratic road, which China supports; a few want to restore the old militarist road, which China notes; China will never expand when strong; relations rest on the peoples' friendship, and without diplomatic relations China all the more widens exchange of peoples.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Feb. 28, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 28, 1961; 下午4时, 人民大会堂); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 187 (Feb. 28, 1961; Zhou to Yamamoto Kumaichi (山本熊一) and the friendly firms'' delegation: Japan''s road of heavy militarism has no future; a choice of peace, independence, neutrality and democracy has the Japanese people''s approval and lets China and Japan be friends; the three political principles and the three principles of trade both come from the wish for friendship; until diplomatic relations are restored and no government agreement can be signed, there are exchanges between the peoples). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Feb. 28, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 28, 1961; 下午4时, 人民大会堂); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 187 (Feb. 28, 1961; Zhou to Yamamoto Kumaichi (山本熊一) and the friendly firms'' delegation: Japan''s road of heavy militarism has no future; a choice of peace, independence, neutrality and democracy has the Japanese people''s approval and lets China and Japan be friends; the three political principles and the three principles of trade both come from the wish for friendship; until diplomatic relations are restored and no government agreement can be signed, there are exchanges between the peoples); [[w.chen-yi-nianpu]], 861 (Feb. 28, 1961, afternoon; Chen Yi present when Zhou Enlai receives Yamamoto Kumaichi''s delegation). Made public: 1993. Names: Zhou Enlai.'
     src:
       c: b5616b47
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 394: ?'
         - 'w.zhou-enlai-waijiao-huodong 304: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 187: A, C, F'
+        - 'w.chen-yi-nianpu 861: ?'
     tags: [polity:prc, polity:japan, name:zhou-enlai, vis:only:prc+japan]
     time_zone: Asia/Shanghai
   - id: cal.1961-02-28.china-leadership-2
@@ -4493,11 +4770,12 @@ entries:
     thread: china-leadership
     also: [china, japan, trade]
     c: Peking. Zhou Enlai attends the banquet given by Liao Chengzhi for the Japanese economic friendship delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 28, 1961; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Feb. 28, 1961; 晚上); [[w.chen-yi-nianpu]], 861 (Feb. 28, 1961, evening; Chen Yi at Liao Chengzhi''s farewell banquet). Names: Zhou Enlai.'
     src:
       c: 4779056b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 304: all'
+        - 'w.chen-yi-nianpu 861: ?'
     tags: [polity:prc, polity:japan, name:zhou-enlai]
     time_range:
       - 1961-02-28T11:00Z
