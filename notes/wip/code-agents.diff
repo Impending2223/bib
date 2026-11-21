@@ -218,7 +218,7 @@ index e0631c1..abd0b6f 100644
  
  POLLS = re.compile(r"^Polls close (?:noon|midnight|\d{1,2}(?::\d{2})?)\S*(?: [ap]\.m\.)?.*?: .*\]\(https://[^)\s]+\).*\.$")
 diff --git a/tools/bib/footnotes.py b/tools/bib/footnotes.py
-index 975eb6b..7dfab60 100644
+index 975eb6b..e600f29 100644
 --- a/tools/bib/footnotes.py
 +++ b/tools/bib/footnotes.py
 @@ -28,6 +28,7 @@ STYLE
@@ -229,7 +229,34 @@ index 975eb6b..7dfab60 100644
  import re
  
  from . import claims, witnesses
-@@ -219,3 +220,284 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
+@@ -47,10 +48,16 @@ _REG = {}
+ def _register(series):
+     """The witness register, once per series (a build asks for it per entry; witnesses.load stats every file)."""
+     if _REG.get("series") is not series:
+-        _REG["series"], _REG["reg"] = series, claims.register(series)
++        _REG["series"], _REG["reg"], _REG["load"] = series, claims.register(series), witnesses.load()
+     return _REG["reg"]
+ 
+ 
++def _load(series):
++    """witnesses.load(), once per series (as _register)."""
++    _register(series)
++    return _REG["load"]
++
++
+ def _cites(series, e):
+     """Per unit, its sources as dicts (kind, key, pin, paren, text); the `?` rows and unrowed items: the tail."""
+     us = claims.units(e.get("c") or "")
+@@ -94,7 +101,7 @@ def _cites(series, e):
+             elif k == "card":
+                 out.append(card(key, pin, item, pin))
+             elif k == "witness":
+-                w = witnesses.load()[0].get(key) or {}
++                w = _load(series)[0].get(key) or {}
+                 if not w.get("read"):            # a record no reader has read: behind "To check:" (STYLE 7)
+                     unread.setdefault(key, None)
+                     continue
+@@ -219,3 +226,284 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
  ol.fn li:target{background:color-mix(in srgb,var(--accent) 12%,transparent)}
  ol.e .n{font-size:.88rem;line-height:1.42}
  </style>"""
@@ -379,9 +406,9 @@ index 975eb6b..7dfab60 100644
 +_REV = {}
 +
 +
-+def _edges_to(wid):
++def _edges_to(series, wid):
 +    """The works' edges to a witness: [(card, at)], an index built once per load."""
-+    rows, edges, _ = witnesses.load()
++    rows, edges, _ = _load(series)
 +    if _REV.get("of") is not edges:
 +        idx = collections.defaultdict(list)
 +        for card, es in edges.items():
@@ -435,7 +462,7 @@ index 975eb6b..7dfab60 100644
 +    src = e.get("src")
 +    if not isinstance(src, dict) or not e.get("n"):
 +        return [], []
-+    rows = witnesses.load()[0]
++    rows = _load(series)[0]
 +    ids = []
 +    for r in src.get("rows") or []:
 +        p = claims.parse_row(r)
@@ -447,7 +474,7 @@ index 975eb6b..7dfab60 100644
 +    cited = Cited(e)
 +    at_count = collections.Counter()
 +    for x in ids:
-+        for card, at in _edges_to(x):
++        for card, at in _edges_to(series, x):
 +            m = witnesses.AT.match(at)
 +            num = m and re.match(r"(\d+)", m.group("note"))
 +            if card in cited.cards and num:
@@ -456,7 +483,7 @@ index 975eb6b..7dfab60 100644
 +    for x in ids:
 +        w = rows[x]
 +        what = str(w.get("what") or "").strip()
-+        es = [(c, a) for c, a in _edges_to(x) if c in cited.cards]
++        es = [(c, a) for c, a in _edges_to(series, x) if c in cited.cards]
 +        es.sort(key=lambda ca: (ca[0] not in cited.read_cards, cited.cards.index(ca[0])))
 +        edge = es[0] if es else None
 +        part = w.get("part_of")
