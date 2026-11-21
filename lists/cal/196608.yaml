@@ -265,6 +265,28 @@ entries:
       - 1966-08-01T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1966-08-01.china-leadership-6
+    when: Aug. 1
+    date: '1966-08-01'
+    place: peking
+    thread: china-leadership
+    c: 'Chen Boda 陈伯达, at the Eleventh Plenum 八届十一中全会: when the Chairman was at Hangzhou he told us that sending work groups early was no good for the cultural revolution.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 154 n.100. Made public: 2008. See [[cal.1966-06-12.china-leadership]]. Names: Chen Boda.'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 154 n.100: all'
+    tags: [polity:prc, vis:only:prc, name:chen-boda]
+  - id: cal.1966-08-01.china-leadership-7
+    when: Aug. 1
+    date: '1966-08-01'
+    place: peking
+    thread: china-leadership
+    c: 'Liu Shaoqi 刘少奇, at the Eleventh Plenum 八届十一中全会, on Chen Boda''s two written proposals: in the discussion most still wanted work groups; he too spoke for them, convenient to send and to withdraw; with some Peking schools'' organizations paralyzed, to break off the Party''s leadership would be bad.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 164. Made public: 1998 ([[w.liu-shaoqi-zhuan]]). To check: [[w.liu-shaoqi-zhuan]], II, 1033 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 164 n.109). See [[cal.1966-06-20.china-leadership-23]]. Names: Liu Shaoqi, Chen Boda.'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 164: all'
+    tags: [polity:prc, vis:only:prc, name:liu-shaoqi, name:chen-boda]
   - id: cal.1966-08-02.elections-1966
     when: Aug. 2
     date: '1966-08-02'
@@ -2453,6 +2475,17 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 98: all'
     tags: [polity:prc]
+  - id: cal.1966-08-08.china-leadership-15
+    when: Aug. 8
+    date: '1966-08-08'
+    place: peking
+    thread: china-leadership
+    c: 'Zhao Ziyang 赵紫阳, at the Central-South group of the Eleventh Plenum 八届十一中全会中南组: Mao at the Hangzhou meeting had already said "do not fear disorder," "let it be chaotic for a while, then divide one into two," "do not hurry to send work groups."'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 154 n.100. Made public: 2008. See [[cal.1966-06-12.china-leadership]]. Names: Mao Zedong.'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 154 n.100: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong]
   - id: cal.1966-08-09.open-housing
     when: Aug. 9
     date: '1966-08-09'
@@ -3040,12 +3073,13 @@ entries:
     date: '1966-08-10'
     thread: china-leadership
     c: 'Mao, receiving the letter of July 19 in which Li Da 李达, president of Wuhan University 武汉大学, branded the black boss of its "Three-Family Village" 三家村 and expelled from the Party, asks him to save him: "After Tao Zhu reads it, to Renzhong to handle as he sees fit."'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 311 (Aug. 10, 1966; Mao''s note; printed from the manuscript; note 1). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). To check: Li Da, letter to Mao Zedong of July 19, 1966 asking him to save him (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 311 n.1). Names: Mao Zedong, Tao Zhu, Li Da, Wang Renzhong.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 311 (Aug. 10, 1966; Mao''s note; printed from the manuscript; note 1); [[w.pu-weihua-zalan-jiu-shijie]], 138 (the letter, passed from hand to hand, reaches Mao Aug. 10; his note: "After Comrade Tao Zhu reads it, to Comrade Renzhong to handle as he sees fit"; the Wengao, XII, 98 (138 n.81)). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). To check: Li Da, letter to Mao Zedong of July 19, 1966 asking him to save him (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 311 n.1); [[w.zedong-jianguo-yilai-mao-zedong]], XII, 98 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 138 n.81). Names: Mao Zedong, Tao Zhu, Li Da, Wang Renzhong.'
     src:
       c: ffc6cdd2
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 311: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 311 n.1: all'
+        - 'w.pu-weihua-zalan-jiu-shijie 138: A'
     tags: [polity:prc, name:mao-zedong, name:tao-zhu, vis:only:prc]
   - id: cal.1966-08-10.china-leadership-4
     when: Aug. 10
@@ -3054,11 +3088,12 @@ entries:
     follows:
       - cal.1966-08-10.china-leadership-3
     c: 'Tao Zhu 陶铸, receiving Mao''s note on Li Da''s 李达 letter: "Send at once to Renzhong."'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 311 (Aug. 10, 1966; note 1). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). Names: Tao Zhu, Li Da, Wang Renzhong. Check: whether the notes of the first edition give it.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 311 (Aug. 10, 1966; note 1); [[w.pu-weihua-zalan-jiu-shijie]], 138 (Tao Zhu, on receiving Mao''s note that day, writes at once: "Send at once to Comrade Renzhong"; the Wengao, XII, 98 (138 n.81)). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). Names: Tao Zhu, Li Da, Wang Renzhong. Check: whether the notes of the first edition give it.'
     src:
       c: 56e77ecb
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 311: all'
+        - 'w.pu-weihua-zalan-jiu-shijie 138: A'
     tags: [polity:prc, name:tao-zhu, vis:only:prc]
   - id: cal.1966-08-10.china-leadership-5
     when: Aug. 10
@@ -3633,6 +3668,16 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 490: all'
     tags: [polity:prc]
+  - id: cal.1966-08-13.china-leadership-10
+    when: Aug. 13
+    date: '1966-08-13'
+    thread: china-leadership
+    c: Li Da 李达, seventy-seven and ill, untreated, falls, vomits blood on the spot, and is not allowed to go to hospital.
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 138–139.'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 138–139: all'
+    tags: [polity:prc, ok:fields-place]
   - id: cal.1966-08-14.opinion
     when: Aug. 14
     date: '1966-08-14'
@@ -4071,6 +4116,17 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 105: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1966-08-16.china-leadership-9
+    when: Aug. 16
+    date: '1966-08-16'
+    place: wuhan
+    thread: china-leadership
+    c: 'Wuhan University 武汉大学. Zhang Tixue 张体学, second secretary of the Hubei 湖北 committee, back from the Eleventh Plenum, conveys Mao''s two points on Li Da 李达: Li is of no more use; the university''s revolutionary teachers and students surely will not go too far with him. Zhang adds: no need to struggle him more; a "landlord element" cap is enough; hand him to the committee, which will give him only a bowl of rice and keep him as a negative example.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 138. Made public: 2008. Names: Mao Zedong.'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 138: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong]
   - id: cal.1966-08-17.transportation
     when: Aug. 17
     date: '1966-08-17'
@@ -5630,6 +5686,16 @@ entries:
       - 1966-08-22T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1966-08-22.china-leadership-9
+    when: Aug. 22
+    date: '1966-08-22'
+    thread: china-leadership
+    c: Li Da 李达, near death, is at last taken to hospital.
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 139. See [[cal.1966-08-13.china-leadership-10]].'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 139: all'
+    tags: [polity:prc, ok:fields-place]
   - id: cal.1966-08-23.space
     when: Aug. 23
     date: '1966-08-23'
@@ -6153,11 +6219,12 @@ entries:
     date: '1966-08-24'
     thread: china-leadership
     c: Li Da 李达, president of Wuhan University 武汉大学, dies, "persecuted to death" (the Wengao's words).
-    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 311 (Aug. 24, 1966; note 1; rehabilitated by the Hubei committee''s decision, approved by the Center''s Secretariat in Nov. 1980). Names: Li Da. Check: the place, and when his death was made known.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 311 (Aug. 24, 1966; note 1; rehabilitated by the Hubei committee''s decision, approved by the Center''s Secretariat in Nov. 1980); [[w.pu-weihua-zalan-jiu-shijie]], 139 (Li Da dies, Aug. 24). Names: Li Da. Check: the place, and when his death was made known.'
     src:
       c: 2ec7bd7a
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 311: all'
+        - 'w.pu-weihua-zalan-jiu-shijie 139: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1966-08-24.china-leadership-6
     when: Aug. 24–25

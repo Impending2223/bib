@@ -1562,11 +1562,12 @@ entries:
     follows:
       - cal.1965-03-04.china-leadership-11
     c: Xi'an 西安, 8:35 p.m. Zhang Desheng 张德生, alternate member of the Central Committee, second secretary of the Northwest Bureau, first secretary of the Shaanxi 陕西 provincial Party committee (the editors' note), dies.
-    n: '[[w.yang-shangkun-riji]], II, 518 (Mar. 4, 1965). The words: 8时35分逝世 (II, 518). Names: Zhang Desheng.'
+    n: '[[w.yang-shangkun-riji]], II, 518 (Mar. 4, 1965); [[w.pu-weihua-zalan-jiu-shijie]], 133 (Zhang Desheng, first secretary of the Shaanxi committee, dies of illness, Mar. 4, 1965). The words: 8时35分逝世 (II, 518). Names: Zhang Desheng.'
     src:
       c: 28d8650b
       rows:
         - 'w.yang-shangkun-riji II, 518: all'
+        - 'w.pu-weihua-zalan-jiu-shijie 133: ?'
     tags: [polity:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-03-04.china-leadership-13
@@ -11076,6 +11077,17 @@ entries:
       - 1965-03-29T16:00Z
     time_band: evening
     time_zone: Asia/Dhaka
+  - id: cal.1965-03-29.china-leadership-11
+    when: Mar. 29
+    date: '1965-03-29'
+    place: shaanxi
+    thread: china-leadership
+    c: The Shaanxi 陕西 committee, under the intervention of the Northwest Bureau 西北局, issues its "Notice revoking several 'suspensions'" 〈关于撤销几个“暂停”的通知〉.
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 133. Made public: 2000 ([[w.zhongguo-gongchandang-zuzhishi-ziliao]]). To check: [[w.zhongguo-gongchandang-zuzhishi-ziliao]], V, 770–771 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 133 n.79). See [[cal.1964-12.china-leadership-13]].'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 133: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1965-03-30.vietnam
     when: Mar. 30
     date: '1965-03-30'
