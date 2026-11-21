@@ -125,13 +125,13 @@ index 27c26b7..7cb01a6 100644
      from . import sources
      for where, msg in sources.problems():
 diff --git a/tools/bib/claims.py b/tools/bib/claims.py
-index 1d5ba88..b5b0f6d 100644
+index 1d5ba88..b4eea0a 100644
 --- a/tools/bib/claims.py
 +++ b/tools/bib/claims.py
-@@ -39,6 +39,13 @@ STYLE
-     prose, a work's version of the event; a reader's map names an unlinked source by its first words). The note's
-     sources are its sentences other than "To check:", "See ...", "Names:", "Check:", "Made public:" and the pointers
-     ("Reply:", "The order:", "Bibliography:", "Statute (", "Opinion (").
+@@ -44,6 +44,13 @@ STYLE
+     by the note's text for it; a cited record "citing" its description, joined to the work's page where both ground
+     the unit, Bluebook's "70 & n.36 (citing ...)"); the `?` rows in a last footnote with the
+     note's parenthetical; then the note's other sentences (To check, See, Names, Check) as they stand.
 + 7. A label (the reader's brief, R32: a sentence of the note that states a fact with its source, "The Senate sat from
 +    noon to 7:02 p.m.: [Daily Digest, D468](…)", "Votes: ...") stands for the unit it bears on, not the whole line;
 +    the mechanical map cannot tell which, and gives its items the first unit, where the entry's date and its day's
@@ -139,9 +139,9 @@ index 1d5ba88..b5b0f6d 100644
 +    footnote here"), never all; a reader's map says otherwise where it should. The label stays the item's head
 +    (note_labels). An item that only points to a themed list's section, "(Viet. II.I.3)", is no source: it goes
 +    with the note's other sentences (is_xref).
-  6. Verbose (verbose()): the units in order, a run of units with the same sources closed by one footnote (or one
-     parenthetical, inline); each source in its form in the note (a work by its short form and the row's page; a link
-     by the note's text for it; a cited record "citing" its description, joined to the work's page where both ground
+ """
+ import collections
+ import hashlib
 @@ -160,10 +167,47 @@ def note_parts(n):
      return list(src), list(other)
  
@@ -369,18 +369,57 @@ index e0631c1..abd0b6f 100644
  
  POLLS = re.compile(r"^Polls close (?:noon|midnight|\d{1,2}(?::\d{2})?)\S*(?: [ap]\.m\.)?.*?: .*\]\(https://[^)\s]+\).*\.$")
 diff --git a/tools/bib/footnotes.py b/tools/bib/footnotes.py
-index 975eb6b..4ea3dd4 100644
+index 975eb6b..364bfd2 100644
 --- a/tools/bib/footnotes.py
 +++ b/tools/bib/footnotes.py
-@@ -28,6 +28,7 @@ STYLE
-     which should be behind 'To check:' with a 'via'/'cited by' note"). Where it stands in the note, it stands behind
-     "To check:" with the note that cites it, as the reader wrote it; one the note does not name is the reader's to add.
+@@ -11,8 +11,14 @@ STYLE
+     they do at present"). So too where the map is stale or its units cannot be found in the rendered line.
+  3. A footnote's sources in the map's order, each as the note prints it (its pinpoint and parenthetical); a row whose
+     page differs from the note's item gives its own page; a work's note reached through it (`via`) as "Work, 88 & n.32
+-    (citing the record)", or "88 n.32 (citing ...)" alone. Sources the map has not yet given units (`?`) and items of the
+-    note no row names close the last footnote.
++    (citing the record)", or "88 n.32 (citing ...)" alone, several of its notes at one page as one, "190 & n.27
++    (citing A; B)" (the note's letters dropped; a note keyed by its words, the page alone); the record's "printed,
++    FRUS ..." not repeated where it names its print or the note cites it. A record the map names that the note cites
++    in its printing or recording (a FRUS document, the Papers' page, the Miller Center's or PRDE's tape) is no
++    source of its own: the print cited is (the owner, Nov. 21, 2026). One item twice (two links of one cite) once.
++    Sources the map has not yet given units (`?`) and items of the note no row names close the last footnote. A
++    label's items (claims.py, STYLE 7: "The Senate sat from noon to 7:02 p.m.: Daily Digest, D468") are a sentence of
++    their own under the label, the footnote's other cites citation sentences; each sentence closes with a full stop.
+  4. *id*. (the owner: "italicize the 'id' but leave the full stop in plain roman ... A departure from the Bluebook"): a
+     citation of the work cited immediately before, in the same footnote or as the previous footnote's only authority
+     (Bluebook 4.1), is "*id*." when the pinpoint is the same, "*id*. at 89 n.35" when it differs within the volume,
+@@ -23,11 +29,25 @@ STYLE
+     stay as written; the line's characters are dropped (a 'Names:' person's given after his name, a quoted original
+     in "The words:", cjk.py, STYLE 3, 7), and its units rendered the same way, so the marks still land.
+  6. The marks sit inside the last claim's span (vispage.py), so a hidden claim takes its mark with it.
+- 7. A record the map names (`via x.…`) that no reader has read (its row's `read` not true) is no source of a claim and
+-    is not printed in a footnote (the owner, Nov. 21, 2026: "the citation block has unmarked citations to unread works,
+-    which should be behind 'To check:' with a 'via'/'cited by' note"). Where it stands in the note, it stands behind
+-    "To check:" with the note that cites it, as the reader wrote it; one the note does not name is the reader's to add.
++ 7. A record the map names (`via x.…`, or a work's note, `via w.… 88 n.32`) that no reader has read (its row's `read`
++    not true) is no source of a claim and is not printed in a footnote (the owner, Nov. 21, 2026: "the citation block
++    has unmarked citations to unread works, which should be behind 'To check:' with a 'via'/'cited by' note"); it is
++    joined to the note's "To check:" as the page shows it, in the footnotes' layout and the one block's alike, unless
++    the note holds it already (below, "what the note already cites"; the owner, the same day: "I don't want to drop
++    the unread works. Can you check and fix the doubles instead?").
++ 8. Sources every footnote shares (the owner: "Citation blocks with only one citation should be rendered without the
++    footnote"; of four footnotes each repeating the note): where COMMON (3) or more of them stand under every mark,
++    REPEAT "block" shows the entry as one block, as STYLE 2 does (shared()); "first" gives them once, in note 1, the
++    later notes opening "Sources cited *supra* note 1"; None repeats them, as before.
++ 9. A link the line itself carries (a vote, a statute, a case: claims.py, STYLE 5) is the line's own citation; in a
++    footnote it is given in its citation form, not as the bare link text (_line): a roll call "[S. Roll Call No. 144,
++    88th Cong. (1963)](…) (Voteview)"; a statute as the Statutes list (K–J Cong. II.J.2) and Bluebook 12 write it, at
++    its first on the page in full, "Act of Oct. 17, 1963, Pub. L. No. 88-152, [77 Stat. 271](…)" (its name where the
++    list has one, "Area Redevelopment Act, Pub. L. No. 87-27, [75 Stat. 47](…) (1961)"), short after, "Pub. L. No.
++    88-152, [77 Stat. at 271](…)" (_line_firsts); a case or treaty with the name the line gives it and its year,
++    "*Baker v. Carr*, [369 U.S. 186](…) (1962)".
  """
 +import collections
  import re
  
  from . import claims, witnesses
-@@ -47,74 +48,233 @@ _REG = {}
+@@ -47,74 +67,233 @@ _REG = {}
  def _register(series):
      """The witness register, once per series (a build asks for it per entry; witnesses.load stats every file)."""
      if _REG.get("series") is not series:
@@ -634,7 +673,7 @@ index 975eb6b..4ea3dd4 100644
      return us, per, tail, list(unread)
  
  
-@@ -137,7 +297,42 @@ def _id(cur, prev, head):
+@@ -137,7 +316,56 @@ def _id(cur, prev, head):
      return f"{I}, {cur['pin']}{paren}"
  
  
@@ -674,11 +713,25 @@ index 975eb6b..4ea3dd4 100644
 +    return " ".join(out)
 +
 +
++def shared(runs, mode=REPEAT, k=COMMON):
++    """The runs [(key, last unit, cites)] with the sources every one of them cites (STYLE 8): None (the entry one
++    block) where k or more and mode "block"; given once, in the first, where mode "first"; else as they are."""
++    if not mode or len(runs) < 2:
++        return runs
++    common = set.intersection(*[{_ck(x) for x in r[2]} for r in runs])
++    if len(common) < k:
++        return runs
++    if mode == "block":
++        return None
++    sup = dict(kind="supra", key="supra", pin="", paren="", text="Sources cited *supra* note 1")
++    return [runs[0]] + [[key, last, [sup] + [x for x in cites if _ck(x) not in common]] for key, last, cites in runs[1:]]
++
++
 +def build(series, e, _probe=False):
      """None where the entry is shown as before (STYLE 2); else (groups, notes, rest): groups, the index of each run's
      last unit and its footnote's number; notes, each footnote's markup; rest, the note's other sentences."""
      c = e.get("c")
-@@ -159,25 +354,53 @@ def build(series, e):
+@@ -159,25 +387,47 @@ def build(series, e):
              runs[-1][2] = runs[-1][2] + tail
          elif runs:
              runs[-1][2] = tail
@@ -686,15 +739,9 @@ index 975eb6b..4ea3dd4 100644
 +    runs = [r for r in runs if r[2]]
 +    if len(runs) <= 1:
 +        return None
-+    if REPEAT:                            # the sources every footnote shares (STYLE 8)
-+        common = set.intersection(*[{_ck(x) for x in r[2]} for r in runs])
-+        if len(common) >= COMMON:
-+            if REPEAT == "block":
-+                return None
-+            if REPEAT == "first":
-+                sup = dict(kind="supra", key="supra", pin="", paren="", text="Sources cited *supra* note 1")
-+                runs = [runs[0]] + [[k, last, [sup] + [x for x in cites if _ck(x) not in common]]
-+                                    for k, last, cites in runs[1:]]
++    runs = shared(runs, REPEAT, COMMON)    # the sources every footnote shares (STYLE 8)
++    if runs is None:
++        return None
 +    firsts = set() if _probe else _line_firsts(series)
 +    printed = set()
 +    groups, notes, prev_note, stats = [], [], None, set()
@@ -745,7 +792,7 @@ index 975eb6b..4ea3dd4 100644
  def place(whole, render, units, groups, eid):
      """The rendered line with its marks after each run's last unit (inside its claim's span); None where a unit's
      rendering is not found in order."""
-@@ -219,3 +442,537 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
+@@ -219,3 +469,571 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
  ol.fn li:target{background:color-mix(in srgb,var(--accent) 12%,transparent)}
  ol.e .n{font-size:.88rem;line-height:1.42}
  </style>"""
@@ -754,23 +801,28 @@ index 975eb6b..4ea3dd4 100644
 +# ---------------------------------------------------------------- what the note already cites; the unread records
 +#
 +# STYLE 7 continued (the owner, Nov. 21, 2026, 11:14 a.m.: "I don't want to drop the unread works. Can you check and
-+# fix the doubles instead?"): each record a `via x.` row names that no reader has read is joined to the note's
-+# "To check:" as it is shown (made, before "See", "Names:" and "Check:", where the note has none), in the footnotes'
-+# layout and the one block's alike: 'what, where (cited by [[card]], 257 n.4)', through the edge from a work the note
-+# cites (its `at`, the note's letter dropped: "n.4f" is the book's note 4); the record's own "cited by", "as X cites
-+# it", "repository not given" clauses go where the edge supplies the cited-by. Never a double (DOUBLES): a record is
-+# left out when the note already holds it (its words, or its pointer, the same card at that page and note), when the
-+# note cites its printing or its recording as a primary record (a link's address, a FRUS document, the Papers' or the
-+# Record's page, a tape's or conversation's number, a call's hour and parties), when it is a passage or print of a
-+# work the note cites, when its row is a stub (the conversion's fragments: "Int", "Ibid., p. 24"), and when two rows
-+# are one record. The data is not changed: the join is the page's.
++# fix the doubles instead?"): each record the map names (a `via x.` row, or a work's note, `via w.… 88 n.32`) that no
++# reader has read is joined to the note's "To check:" as the page shows it (in a sentence of its own, before "See",
++# "Names:" and "Check:", where the note has none), in the footnotes' layout and the one block's alike: 'what, where
++# (cited by [[card]], 257 n.4)', through the edge from a work the note cites, at a page the note cites it at where
++# one is (its `at`, the note's letter dropped: "n.4f" is the book's note 4; a note keyed by its words, the page alone);
++# the record's own "cited by", "as X cites it", "repository not given", "published" go where the edge supplies the
++# cited-by; a passage of a work with a card is that card at its page. Never a double (DOUBLES): a record is left out
++# when the note already holds it in its own words (its numbers and most of its words; its head; the note's shorter
++# form of it; its title; its parties and day; its file's or message's number), or by its place (the same card at that
++# page and note, as many items as records, else the item's closest record), or as a card the note cites; when the
++# note cites its printing or recording as a primary record (a link's address, a FRUS document, the Papers' or the
++# Record's page, a print the note cites by its card, a tape's or conversation's number, a call's hour and a party);
++# when it is a passage or print of a work the note cites; when its row is a stub (the conversion's fragments: "Int",
++# "Ibid., p. 24"); and when two rows are one record. The data is not changed: the join is the page's (with_unread).
 +
 +DOUBLES = ("words", "pointer", "card", "printed", "recorded", "passage", "stub", "same record")
 +_STOP = set("a an the of and to in on for with by at from as or is was his her their its this that re no nd vol pp p n nn "
 +            "ed eds memo memorandum letter telegram cable message notes note record file files box folder papers "
 +            "library lbj jfk lbjl jfkl ibid see also printed cited january february march april may june july "
 +            "august september october november december jan feb mar apr jun jul aug sep sept oct nov dec".split())
-+_STUB = re.compile(r"^(?:i?bid\b|id\.|pp?\.\s*\d|p\d|frus,? vol\.|vol\.\s|\W*$)", re.I)
++_STUB = re.compile(r"^(?:i?bid\b|id\.|pp?\.\s*\d|p\d|frus,? vol\.|vol\.\s|\W*$|"
++                   r"(?:Jan|Feb|Mar|Apr|May|June|July|Aug|Sept?|Oct|Nov|Dec)[a-z]*\.? \d)", re.I)   # a date, no source
 +_REC_HOST = re.compile(r"millercenter\.org|prde\.upress|discoverlbj|lbjlibrary|jfklibrary\.org|nixonlibrary|"
 +                       r"youtube\.com|archive\.org/details|c-span", re.I)
 +_CLOCK = re.compile(r"\b(\d{1,2}(?::\d\d)?)\s*([ap])\.?m\b", re.I)
@@ -889,11 +941,12 @@ index 975eb6b..4ea3dd4 100644
 +            return False
 +        own = set(t) | set(_toks(what))
 +        tset = own | set(_toks(where))
++        days = re.findall(r"\b(?:Jan|Feb|Mar|Apr|May|June|July|Aug|Sept?|Oct|Nov|Dec)[a-z]*\.? (\d{1,2})\b", plain)
 +        for title in re.findall(r"[\"“*]([^\"“”*]{10,})[\"”*]", what or ""):   # a title, quoted or italic, main part
 +            title = fold(title.split(":")[0])
-+            if len(title.split()) >= 2 and f" {title} " in f" {self.text} ":
++            if len(title.split()) >= 2 and f" {title} " in f" {self.text} " and \
++                    all(_num_in(x, set(self.text.split())) for x in days):
 +                return True
-+        days = re.findall(r"\b(?:Jan|Feb|Mar|Apr|May|June|July|Aug|Sept?|Oct|Nov|Dec)[a-z]*\.? (\d{1,2})\b", plain)
 +        dtg = set(re.findall(r"\b(\d{6}z)\b", fold(what)))                # a message's date-time group
 +        pm = _PARTIES.match(plain.strip())                            # "Manatos to O'Brien, May 6, 1964"
 +        if pm:
@@ -920,7 +973,7 @@ index 975eb6b..4ea3dd4 100644
 +                return True                 # the same words ("Crisis, Aug.–Sept. 1962")
 +            for it in re.findall(r"\*([^*]{8,})\*", raw):    # the item's italic title, the record's words hold it
 +                ti = fold(it.split(":")[0])
-+                if len(ti.split()) >= 2 and f" {ti} " in fw:
++                if len(ti.split()) >= 2 and f" {ti} " in fw and all(_num_in(x, toks) for x in days):
 +                    return True
 +            hit = sum(1 for x in wds if _has(x, toks))
 +            if hit >= 4 and hit >= 0.8 * len(wds) or hit >= 5 and hit >= 0.4 * len(wds):
@@ -961,6 +1014,13 @@ index 975eb6b..4ea3dd4 100644
 +            m = re.search(r"document (\d{5,})", cp)
 +            if m and any(re.search(rf"/document/{m.group(1)}\b", u) for u in self.urls):
 +                return True
++        pm = _PARTIES.match(re.sub(r"\s*\([^()]*\)", "", str(w.get("what") or "")).strip())
++        if pm and w.get("date") and self.frus:     # a FRUS document the note links, of its day, its parties in the title
++            a, b = fold(pm.group(1)).split()[-1:], fold(pm.group(2)).split()[-1:]
++            for k in self.frus:
++                d = _frus_docs().get(k)
++                if d and d[0] == str(w["date"]) and a and b and all(f" {x} " in f" {d[1]} " for x in a + b):
++                    return True
 +        for cp in [str(w.get("what") or ""), str(w.get("where") or "")]:   # "Congressional Record, ..., vol. 110, ..., 8192"
 +            m = re.search(r"Congressional Record\b[^;]*?\bvol\. (\d+)\b[^;]*?\b(\d{3,5})\b", cp)
 +            if m and f"{m.group(1)} cong rec {m.group(2)}" in self.text:
@@ -979,9 +1039,11 @@ index 975eb6b..4ea3dd4 100644
 +                                                                         r"dictabelt|telephone)\b", what, re.I)):
 +            return False
 +        cits = {x for x in re.findall(r"(?:Citation\s*#?|#)\s*(\d{3,})", what, re.I)}
-+        tapes = {re.sub(r"[^a-z0-9]", "", x.lower()) for x in re.findall(
-+            r"(?:Dictabelt|Tape|Conversation|PNO)\s*(?:No\.\s*)?((?:WH)?\d[\w./_-]*\w)", what, re.I)}
-+        tapes = {x for x in tapes if len(x) >= 4 and not re.fullmatch(r"(?:19|20)\d\d", x)}
++        tapes = set()                       # a tape's or dictabelt's number, its parts as a pattern ("40.3", "114/A49")
++        for x in re.findall(r"(?:Dictabelt|Tape|Conversation|PNO)\s*(?:No\.\s*)?((?:WH)?\d[\w./_-]*\w)", what, re.I):
++            parts = re.findall(r"[a-z]+|\d+", x.lower())
++            if len("".join(parts)) >= 3 and not re.fullmatch(r"(?:19|20)\d\d", "".join(parts)):
++                tapes.add(r"(?<![a-z0-9])" + r"[\s._/-]?".join(parts) + r"(?![0-9])")
 +        clock = _clocks(str(w.get("what") or ""))
 +        party = {x for x in _toks(str(w.get("what") or "")) if not x.isdigit() and x not in _PRES}
 +        for toks, ftext, its, raw in self.segs:
@@ -989,7 +1051,7 @@ index 975eb6b..4ea3dd4 100644
 +            if cits:                        # a conversation's own number ("Citation #5008", "WH6408-27-5008")
 +                if any(re.search(rf"(?<!\d){c}(?!\d)", ftext + " " + " ".join(its)) for c in cits):
 +                    return True
-+            elif tapes and any(x in flat for x in tapes):
++            elif tapes and any(re.search(x, ftext + " " + fold(" ".join(its))) for x in tapes):
 +                return True                 # its tape or dictabelt ("JFK Dictabelt 28A.3", "Meeting Tape 114/A49")
 +            if any(_REC_HOST.search(u) for u in its) and clock and clock & _clocks(claims.markup.strip_links(raw)) \
 +                    and party & toks:
@@ -1032,6 +1094,25 @@ index 975eb6b..4ea3dd4 100644
 +            return False
 +        vol, pg = _vol(m.group("page"))
 +        return any((vol or "", x) in self.pages.get(card, ()) for x in claims._pages(pg) or ())
++
++
++_FRUS = {}
++
++
++def _frus_docs():
++    """{FRUS key: (date, its title and author folded)}: the daybook's FRUS documents (daybook/)."""
++    if "idx" not in _FRUS:
++        from . import daybook
++        idx = {}
++        try:
++            for d in daybook.load()[0]:
++                k = witnesses.frus_key_of_url(d.get("url") or "") if d.get("src") == "frus" else None
++                if k:
++                    idx[k] = (str(d.get("date") or ""), fold(f"{d.get('title') or ''} {d.get('author') or ''}"))
++        except Exception:                   # the daybook not there (a fixture without it): no such test
++            pass
++        _FRUS["idx"] = idx
++    return _FRUS["idx"]
 +
 +
 +_REV = {}

@@ -5300,7 +5300,7 @@ index 6fa4bbb..6f74701 100644
      when: July, before the 7th
      date: 1966-07
 diff --git a/lists/cal/196608.yaml b/lists/cal/196608.yaml
-index f712f4d..e26965f 100644
+index f712f4d..d2854a2 100644
 --- a/lists/cal/196608.yaml
 +++ b/lists/cal/196608.yaml
 @@ -245,7 +245,7 @@ entries:
@@ -5348,7 +5348,22 @@ index f712f4d..e26965f 100644
      src:
        c: 7f9ce375
        rows:
-@@ -4068,7 +4068,7 @@ entries:
+@@ -4015,6 +4015,14 @@ entries:
+       - 1966-08-12T10:00Z
+     time_band: afternoon
+     time_zone: Asia/Shanghai
++  - id: cal.1966-08.korea
++    when: Aug. 12
++    date: '1966-08-12'
++    place: pyongyang
++    thread: korea
++    c: '*Rodong Sinmun*, editorial, "Let Us Defend Independence": Pyongyang, not Peking or Moscow, judges how doctrine applies in Korea; Communists "should always do their own thinking and act independently." "There can be no superior party or inferior party, nor a party that gives guidance and a party that receives guidance"; equality, sovereignty, noninterference; no political independence without economic. Revisionism and "dogmatism" both attacked, Peking the harder: "dogmatists and flunkeys."'
++    n: '[[w.chung-pyongyang-between-peking-and]], 127–28 (Aug. 12; "dogmatists and flunkeys," the heavier attack on Peking; revisionism too, 199 n.103), 131–32 (the title, Pyongyang the judge, the parties, independence political and economic; 200 nn.124–26). [[w.schlesinger-journals]], 252 (the entry of Aug. 14: the news at Hyannis Port the weekend of Aug. 13–14, "a declaration of independence against both Russia and China"). To check: *Rodong Sinmun*, Aug. 12, 1966 (cited by [[w.chung-pyongyang-between-peking-and]], 199 n.103, 200 n.124); [*New York Times*, Aug. 13, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/13/issue.html), at 2 (cited by [[w.chung-pyongyang-between-peking-and]], 199 n.102).'
++    tags: [polity:dprk, polity:ussr, polity:prc]
+   - id: cal.1966-08-13.vietnam
+     when: Aug. 13–14
+     date: '1966-08-13'
+@@ -4068,7 +4076,7 @@ entries:
      thread: robert-kennedy
      also: [vietnam]
      c: Hyannis Port, the weekend, with Schlesinger. Robert Kennedy, "electrified by the news that North Korea has issued a declaration of independence against both Russia and China," takes it to reinforce his conviction that communism will take "increasingly nationalistic forms," especially in the underdeveloped world, and that, "if we had only left North Vietnam alone, it would be defying China too." By Schlesinger's journal.
@@ -5357,7 +5372,7 @@ index f712f4d..e26965f 100644
      tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, polity:dprk, polity:ussr, polity:prc, polity:drv]
    - id: cal.1966-08-13.china-leadership
      when: Aug. 13–23
-@@ -4076,7 +4076,7 @@ entries:
+@@ -4076,7 +4084,7 @@ entries:
      place: peking
      thread: china-leadership
      c: Peking. A Central Work Conference meets, to carry out the spirit of the Eleventh Plenum.
@@ -5366,7 +5381,7 @@ index f712f4d..e26965f 100644
      src:
        c: 2cce56d5
        rows:
-@@ -4113,7 +4113,7 @@ entries:
+@@ -4113,7 +4121,7 @@ entries:
      thread: china-leadership
      also: [china]
      c: At a work conference the day after the plenum closes, Lin Biao says he has been rather downhearted lately, his ability not commensurate with his task and position; he anticipates committing mistakes. We must firmly implement the Chairman's instructions, he says, whether we understand them or not, and never interfere in big matters or bother him with trifles.
@@ -5375,7 +5390,7 @@ index f712f4d..e26965f 100644
      src:
        c: 5c0f91e6
        rows:
-@@ -5176,7 +5176,7 @@ entries:
+@@ -5176,7 +5184,7 @@ entries:
      thread: china-leadership
      also: [china]
      c: Zhou Enlai tells municipal cadres drawing up plans for the National Day rally that this year, to break with convention, the parade is to march from west to east.
@@ -5384,7 +5399,7 @@ index f712f4d..e26965f 100644
      src:
        c: 410c8f7c
        rows:
-@@ -5641,7 +5641,7 @@ entries:
+@@ -5641,7 +5649,7 @@ entries:
      thread: china-leadership
      also: [china]
      c: The Central Committee Organization Department's director, An Ziwen, and all eight of his deputies are officially suspended from their posts, at a mass meeting of the department's entire staff. The suspension answers Mao's recent blunt assessment that the Organization Department "is not in our hands."
@@ -5393,7 +5408,7 @@ index f712f4d..e26965f 100644
      src:
        c: e6c233f5
        rows:
-@@ -5655,7 +5655,7 @@ entries:
+@@ -5655,7 +5663,7 @@ entries:
      thread: china-leadership
      also: [china]
      c: Shanghai holds a rally on the Peking pattern. In heavy rain and darkness body doubles wave to the passing crowds for part of the time.
@@ -5402,7 +5417,7 @@ index f712f4d..e26965f 100644
      src:
        c: b97e33bf
        rows:
-@@ -5667,7 +5667,7 @@ entries:
+@@ -5667,7 +5675,7 @@ entries:
      place: guilin
      thread: china-leadership
      c: 'Guilin 桂林. Wei Guoqing 韋國清, first secretary of the Guangxi regional committee and first political commissar of the Guangxi Military Region, sends five companies of the army''s 141st Division into the city: the "Aug. 19 incident."'
@@ -5411,7 +5426,7 @@ index f712f4d..e26965f 100644
      src:
        c: 9680106d
        rows:
-@@ -8937,16 +8937,16 @@ entries:
+@@ -8937,16 +8945,16 @@ entries:
      place: shanghai
      thread: china-leadership
      also: [china]
@@ -5431,7 +5446,7 @@ index f712f4d..e26965f 100644
    - id: cal.1966-08-28.china-leadership-12
      when: Aug. 28
      date: '1966-08-28'
-@@ -9367,13 +9367,13 @@ entries:
+@@ -9367,13 +9375,13 @@ entries:
      place: peking
      thread: china-leadership
      also: [china]
@@ -5447,7 +5462,7 @@ index f712f4d..e26965f 100644
      variants:
        - unit: A
          witness: w.pu-weihua-zalan-jiu-shijie
-@@ -9384,10 +9384,10 @@ entries:
+@@ -9384,10 +9392,10 @@ entries:
      date: '1966-08-29'
      place: shanghai
      thread: china
@@ -5460,7 +5475,7 @@ index f712f4d..e26965f 100644
        rows:
          - 'w.dikotter-cultural-revolution 83, 92–93: all'
          - 'via w.dikotter-cultural-revolution 83 n.7a: all'
-@@ -9397,7 +9397,7 @@ entries:
+@@ -9397,7 +9405,7 @@ entries:
        title: Estimates
        text:
          - 'Dikötter, after MacFarquhar and Schoenhals: by a conservative estimate 400,000 victims exiled from the cities in the country as a whole ([[w.dikotter-cultural-revolution]], 93 n.43).'
@@ -5469,7 +5484,7 @@ index f712f4d..e26965f 100644
    - id: cal.1966-08-29.china-2
      when: Aug. 29
      date: '1966-08-29'
-@@ -9606,7 +9606,7 @@ entries:
+@@ -9606,7 +9614,7 @@ entries:
      thread: china-leadership
      also: [china]
      c: Chen Yi tells Red Guards that it is "very good" to repatriate the "five black categories," but that they should make contact with local police stations and not cause the deaths of those they repatriate; he is not speaking up for the "five black categories."
@@ -5478,23 +5493,20 @@ index f712f4d..e26965f 100644
      src:
        c: b18dd508
        rows:
-@@ -10226,11 +10226,12 @@ entries:
+@@ -10225,13 +10233,6 @@ entries:
+       rows:
          - 'w.dittmer-local-people 377: all'
      tags: [name:stennis-john-c, name:shriver-r-sargent]
-   - id: cal.1966-08.korea
+-  - id: cal.1966-08.korea
 -    when: Aug.
 -    date: 1966-08
-+    when: Aug. 12
-+    date: '1966-08-12'
-+    place: pyongyang
-     thread: korea
+-    thread: korea
 -    c: North Korea issues "a declaration of independence against both Russia and China," by Schlesinger's journal (the news at Hyannis Port, the weekend before Aug. 14).
 -    n: '[[w.schlesinger-journals]], 252 (the entry of Aug. 14). Check: the day.'
-+    c: '*Rodong Sinmun*, editorial, "Let Us Defend Independence": Pyongyang, not Peking or Moscow, judges how doctrine applies in Korea; Communists "should always do their own thinking and act independently." "There can be no superior party or inferior party, nor a party that gives guidance and a party that receives guidance"; equality, sovereignty, noninterference; no political independence without economic. Revisionism and "dogmatism" both attacked, Peking the harder: "dogmatists and flunkeys."'
-+    n: '[[w.chung-pyongyang-between-peking-and]], 127–28 (Aug. 12; "dogmatists and flunkeys," the heavier attack on Peking; revisionism too, 199 n.103), 131–32 (the title, Pyongyang the judge, the parties, independence political and economic; 200 nn.124–26). [[w.schlesinger-journals]], 252 (the entry of Aug. 14: the news at Hyannis Port the weekend of Aug. 13–14, "a declaration of independence against both Russia and China"). To check: *Rodong Sinmun*, Aug. 12, 1966 (cited by [[w.chung-pyongyang-between-peking-and]], 199 n.103, 200 n.124); [*New York Times*, Aug. 13, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/13/issue.html), at 2 (cited by [[w.chung-pyongyang-between-peking-and]], 199 n.102).'
-     tags: [polity:dprk, polity:ussr, polity:prc]
+-    tags: [polity:dprk, polity:ussr, polity:prc]
    - id: cal.1966-08.soviet-union-leadership
      when: Aug.
+     date: 1966-08
 @@ -10363,7 +10364,7 @@ entries:
      thread: china-leadership
      also: [china]
