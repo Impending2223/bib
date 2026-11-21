@@ -8,9 +8,28 @@ ops:
         time_range: ['1963-09-15T11:00Z', '1963-09-15T14:00Z']
         time_band: evening
         time_zone: Asia/Shanghai
+  - edit:
+      id: cal.1965-01-09.china-leadership-2
+      base: f30c929c
+      set:
+        time_range: ['1965-01-09T04:00Z', '1965-01-09T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - edit:
+      id: cal.1966-08-05.china-leadership-6
+      base: 8c22bb1f
+      set: {time: '1966-08-05T12:50Z', time_zone: Asia/Shanghai}
+  - edit:
+      id: cal.1966-08-13.china-leadership-4
+      base: 680f9205
+      set:
+        time_range: ['1966-08-12T22:00Z', '1966-08-13T04:00Z']
+        time_band: morning
+        time_zone: Asia/Shanghai
   - place-key: {key: zhaoqing, name: Zhaoqing, zone: Asia/Shanghai, in: prc}
   - place-key: {key: lushun, name: Lüshun, zone: Asia/Shanghai, in: prc}
   - place-key: {key: zhenjiang, name: Zhenjiang, zone: Asia/Shanghai, in: prc}
+  - place-key: {key: dandong, name: Dandong, zone: Asia/Shanghai, in: prc}
   - add:
       entry:
         id: cal.1960-01-15.china-leadership-6
@@ -1062,3 +1081,879 @@ ops:
         c: 'Xinyang 信阳, Henan 河南. The great competition 大比武 of teams of the Nanjing, Canton, Fuzhou and Wuhan Military Regions 南京、广州、福州、武汉军区 and an airborne army 空降某军, reviewing the spreading of Guo Xingfu''s 郭兴福 method: 44 tactical and 139 technical subjects shown. Ye Jianying 叶剑英 sees part of it and gives instructions.'
         n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 920. Made public: 2007. Names: Ye Jianying.'
         tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-07-20.china-leadership-7
+        when: July 20–Aug. 6
+        date: '1964-07-20'
+        place: shenyang
+        thread: china-leadership
+        c: 'Shenyang 沈阳. The Chemical Defense Department 防化兵部 holds the army''s chemical-defense troops'' competition 全军防化兵比武大会: fourteen teams of the military regions, services and arms, over 300 events. Ye Jianying 叶剑英 sees part of it, meets those taking part and gives instructions.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 920. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-07-25.china-leadership-11
+        when: July 25–Aug. 13
+        date: '1964-07-25'
+        thread: china-leadership
+        c: 'The Engineering Corps 工程兵 holds the army''s engineer troops'' competition 全军工程兵比武大会: thirteen teams of the military regions'' engineers, the airborne troops and units under the center, 87 events. Ye Jianying 叶剑英 reviews part of it and gives instructions.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 920–921. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-07-31.china-leadership-9
+        when: July 31–Aug. 13
+        date: '1964-07-31'
+        place: dalian
+        thread: china-leadership
+        c: Dalian 大连, Liaoning 辽宁. The Artillery 炮兵 holds the army's artillery competition 全军炮兵比武大会, thirteen teams of the military regions' artillery and the artillery schools. Ye Jianying 叶剑英, with Luo Ruiqing 罗瑞卿, Deng Zihui 邓子恢 and others, sees the picked men's display, praises the units and sets demands for building the artillery.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 921. Made public: 2007. Names: Ye Jianying, Luo Ruiqing.'
+        tags: ['polity:prc', 'name:ye-jianying', 'name:luo-ruiqing', 'vis:only:prc']
+  - cite: {id: cal.1964-08-06.china-leadership-7, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 921 (Aug. 6, 1964; Mao Zedong''s 毛泽东 comment on the bulletin on an army regiment''s swimming of the Jinsha River 金沙江)'}
+  - cite: {id: cal.1964-08-08.china-leadership-4, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 921 (Aug. 8, 1964; the General Staff''s 总参谋部 directive, by Mao''s instruction, that the whole army take up swimming training quickly)'}
+  - add:
+      entry:
+        id: cal.1964-08-09.china-leadership-8
+        when: Aug. 9
+        date: '1964-08-09'
+        place: dalian
+        thread: china-leadership
+        c: Bangchui Island 棒槌岛, Dalian 大连. Ye Jianying 叶剑英 talks with the heads of the Shenyang Military Region 沈阳军区, the Shenyang air force 沈阳空军 and the Navy's Lüshun base 海军旅顺基地 on defending the Bohai Strait 渤海海峡.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 921. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-08-12.china-leadership-9
+        when: Aug. 12–14
+        date: '1964-08-12'
+        place: huairou
+        thread: china-leadership
+        c: 'Huairou 怀柔, Peking 北京. The great competition of the Shenyang, Jinan and Peking Military Regions'' 沈阳、济南、北京军区 teams: 36 tactical and 82 technical subjects shown. Ye Jianying 叶剑英 sees part of it and gives instructions.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 921. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-08-14.china-leadership-8
+        when: Aug. 14–20
+        date: '1964-08-14'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The Armored Force's 装甲兵 competition in military technique. Ye Jianying 叶剑英, with Xu Guangda 许光达, meets Wang Jinzhu 王金柱, a platoon leader of a tank regiment and the armored force's model in signals training, and his display unit, and is photographed with them; and meets Wang Mei 王美, a tank gunner, its model in gunnery.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 921. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-08.china-leadership-11
+        when: Aug., mid-
+        date: 1964-08
+        at: before 1964-08-11
+        place: dandong
+        thread: china-leadership
+        c: Dandong 丹东, Liaoning 辽宁. Ye Jianying 叶剑英 at the on-the-spot competition of the army's picked scouts 全军侦察兵专业“尖子”比武现场会 held by the General Staff's Intelligence Department 总参谋部情报部; sees part of it.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 921. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-08-22.china-leadership-10
+        when: Aug. 22
+        date: '1964-08-22'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英, at the Peking Military Region''s 北京军区 display of picked units, inspects the training of Xu Guodong''s 徐国栋 squad of an infantry company of the 66th Army 陆军第六十六军, and praises its ten skills (the infantry''s five techniques; attack by man, group and squad; squad defense; squad attack by night): the whole army to learn to this level; all-round squads, platoons and companies, not single skills.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 922. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-08.china-leadership-12
+        when: Aug., after the 22nd
+        date: 1964-08
+        at: after 1964-08-22
+        thread: china-leadership
+        c: The Peking Military Region 北京军区 decides that its units carry out Ye Jianying's 叶剑英 instruction and drill the ten skills well.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 922. Made public: 2007. Names: Ye Jianying. Check: the month: the nianpu says only "afterward" (此后).'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-08-26.china-leadership-3
+        when: Aug. 26–Sept. 9
+        date: '1964-08-26'
+        thread: china-leadership
+        c: The Air Force's 空军 third congress of activists in school teaching 第三届学校教学积极分子代表会议. Ye Jianying 叶剑英, with He Long 贺龙 and Luo Ruiqing 罗瑞卿, receives all its members.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 922. Names: Ye Jianying, He Long, Luo Ruiqing.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'name:he-long', 'name:luo-ruiqing']
+  - add:
+      entry:
+        id: cal.1964-09-05.china-leadership-4
+        when: Sept. 5
+        date: '1964-09-05'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 receives, at the Academy of Military Science''s 军事科学院 hall for teaching military science by sight 军事直观教研馆, all those at the Military Commission''s office meeting 军委办公会议 who come to see it, and speaks on the great competition and on military research: its gains, but the picked men few and single-skilled, some falsity, formalism and trophy-hunting; no more great competitions, the training to be checked by examination; the picked men''s experience spread to the mass of the troops.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 922. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1964-08.china-leadership-10, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 922 (Sept. 5, 1964; Ye Jianying 叶剑英, to those at the Military Commission''s office meeting 军委办公会议, on the great competition''s faults: falsity, formalism and trophy-hunting 锦标主义)'}
+  - add:
+      entry:
+        id: cal.1964-09-08.china-leadership-9
+        when: Sept. 8
+        date: '1964-09-08'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京, Nanyuan airfield 南苑机场. Ye Jianying 叶剑英, with He Long 贺龙 and Luo Ruiqing 罗瑞卿, sees the Air Force's 空军 airmen compete, meets all of them and gives instructions.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 922. Made public: 2007. Names: Ye Jianying, He Long, Luo Ruiqing.'
+        tags: ['polity:prc', 'name:ye-jianying', 'name:he-long', 'name:luo-ruiqing', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-09-16.china-leadership-6
+        when: Sept. 16
+        date: '1964-09-16'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 presides at a forum of the heads of the military training departments of the military regions, services and arms, on the great competition and spreading the picked units' training.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 922. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-09-24.china-leadership-3
+        when: Sept. 24
+        date: '1964-09-24'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 is elected a deputy to the Third National People's Congress 第三届全国人民代表大会.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 922. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying']
+  - add:
+      entry:
+        id: cal.1964-10-07.china-leadership-8
+        when: Oct. 7
+        date: '1964-10-07'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 speaks to the army's conference on political work in the academies and schools 全军院校政治工作会议, on learning from the Changsha 长沙 political cadres' school and on rectification 整风 in the schools.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 922–923. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-10-08.china-leadership-8
+        when: Oct. 8
+        date: '1964-10-08'
+        place: changsha
+        thread: china-leadership
+        c: Changsha 长沙, Hunan 湖南. Ye Jianying 叶剑英 calls the heads of the General Political Department 总政, the General Logistics Department 总后, the services and arms, the public security troops 公安部队, the General Staff's military training department 总参军训部 and the General Political Department's propaganda department 总政宣传部 to discuss holding the army's seventh conference on the academies and schools 第七次全军院校会议 (so printed) and the schools' rectification.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 923. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-10-31.china-leadership-20
+        when: Oct. 31
+        date: '1964-10-31'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 speaks to the second group (the schools under the center) of the army's tenth conference on the work of the academies and schools 第十次全军院校工作会议.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 923. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-10.china-leadership-15
+        when: Oct.
+        date: 1964-10
+        place: hunan
+        thread: china-leadership
+        c: 'Hunan 湖南. Ye Jianying 叶剑英, with Zhang Pinghua 张平化 and others, at the province''s first militia competition 湖南省第一届民兵比武大会 and second sports meeting; sees the militia''s display and asks each team about itself: to the Xiangtan 湘潭 prefecture''s team, militia of Chairman Mao''s home; to Xiao Heying 萧和英, a militiawoman of thirty-one, nine hits in nine shots, a model for all. He speaks: the militia the reserve of national defense and a tool of the people''s democratic dictatorship; every citizen a soldier, Chairman Mao''s strategic thought.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 923. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying']
+  - add:
+      entry:
+        id: cal.1964-11.china-leadership-9
+        when: Nov., early
+        date: 1964-11
+        at: before 1964-11-01
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 speaks to the army's tenth conference on the work of the academies and schools 第十次全军院校工作会议 on the situation, on learning from the Changsha 长沙 political cadres' school and on the line and policy of the schools' rectification.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 923. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964-11-28.china-leadership-12
+        when: Nov. 28
+        date: '1964-11-28'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 speaks to the army''s conference on military training work 全军军训工作会议 on four questions: the army''s political quality and state power (politics trained first, the army under the Party''s absolute leadership, successors by Chairman Mao''s five standards); the meaning of China''s atom bomb for training (a new stage, but vigilance, and war under atomic and missile conditions studied); spreading the picked units'' skills, as Mao asked after seeing the Peking and Jinan regions'' units, by reform of training in the spirit of rectification, with a stress, not all subjects alike; frugal training.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 924–925. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1964-12-20.china-leadership-3, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 925 (Dec. 20, 1964; Ye Jianying 叶剑英 at the preparatory meeting of the Third National People''s Congress''s first session 第三届全国人大第一次会议, elected to its presidium 主席团)'}
+  - cite: {id: cal.1964-12-20.china-leadership-2, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 925 (Dec. 20, 1964; Ye Jianying 叶剑英 elected to the presidium of the first session of the Fourth National Committee of the CPPCC 政协第四届全国委员会第一次会议)'}
+  - add:
+      entry:
+        id: cal.1964-12.china-leadership-12
+        when: Dec., after the 20th
+        date: 1964-12
+        at: after 1964-12-20
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. Ye Jianying 叶剑英 is elected a vice-chairman and a member of the standing committee of the Fourth National Committee of the CPPCC 政协第四届全国委员会.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 925. Names: Ye Jianying. Check: the day: the nianpu says only during the session, which opened Dec. 20.'
+        tags: ['polity:prc', 'name:ye-jianying']
+  - add:
+      entry:
+        id: cal.1964-12-22.china-leadership-2
+        when: Dec. 22
+        date: '1964-12-22'
+        place: peking
+        thread: china-leadership
+        also: [vietnam-diplomacy]
+        c: Peking 北京. Ye Jianying 叶剑英 at the reception of the Vietnamese embassy's military attaché 越南驻华使馆武官 for the twentieth anniversary of the Vietnam People's Army 越南人民军.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 925. Names: Ye Jianying.'
+        tags: ['polity:prc', 'polity:drv', 'name:ye-jianying']
+  - add:
+      entry:
+        id: cal.1964-12-26.china-leadership-4
+        when: Dec. 26
+        date: '1964-12-26'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 to Yu Guangwen 余光文 and Zhong Qiguang 钟期光 of the Academy of Military Science 军事科学院, by letter: see to the Academy''s farm and sideline production and to the officers'' and men''s living.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 925. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964.china-leadership-47
+        when: '1964'
+        date: '1964'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 has the Academy of Military Science's 军事科学院 foreign military research department 外国军事研究部 translate *Military Strategy* 《军事战略》, edited by Marshal Sokolovskii 索科洛夫斯基 of the Soviet Union, and studies the translation chapter by chapter.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 925–926. Made public: 2007. Names: Ye Jianying, Sokolovskii.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'name:sokolovskii-vasili-danilovich', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1964.china-leadership-48
+        when: '1964'
+        date: '1964'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 has the Academy of Military Science's 军事科学院 foreign military research department 外国军事研究部 start a journal on the trends of foreign military scholarship, *Waiguo junshi xueshu dongtai* 《外国军事学术动态》, its "watchtower" 瞭望台, and writes its masthead.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 926. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1965-01-04.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 927 (Jan. 4, 1965; the session closes in Peking 北京, and by Chairman Liu Shaoqi''s 刘少奇 order no. 3 Ye Jianying 叶剑英 is named a vice-chairman of the National Defense Council 国防委员会)'}
+  - cite: {id: cal.1965-01-08.china-leadership-4, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 927 (Jan. 8, 1965; Ye Jianying 叶剑英 at the plenary meeting of the National Defense Council 国防委员会 Liu Shaoqi 刘少奇 calls)'}
+  - cite: {id: cal.1965-01-09.china-leadership-2, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 927–928 (Jan. 9, 1965, afternoon; Ye Jianying 叶剑英, with Zhou Enlai 周恩来 and He Long 贺龙, receives the air force men who shot down the U.S. pilotless high-altitude reconnaissance plane, and speaks: the whole army to learn from the Air Force, its command post''s strict rules, its schools the best of the army''s; with its planes'' limited ceiling, initiative to make up; the MiG-19 flown beyond the Soviet rules; not to be proud. Zhou: the Air Force is two words, "strict")'}
+  - add:
+      entry:
+        id: cal.1965-01-14.china-leadership-5
+        when: Jan. 14
+        date: '1965-01-14'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英, at the Academy of Military Science 军事科学院, on rectification in its scholarship 学术整风.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 928. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-01-15.china-leadership-10
+        when: Jan. 15
+        date: '1965-01-15'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 hears Song Shilun 宋时轮, deputy head of the Academy of Military Science 军事科学院, on writing the *Science of campaigns* 《战役学》, and gives his views on it and on writing the book *On guerrilla war* 《论游击战》.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 928. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-01-19.china-leadership-7
+        when: Jan. 19
+        date: '1965-01-19'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 speaks to the fifth enlarged meeting of the army's leading group for rectification in the academies and schools 全军院校整风领导小组, on carrying out Chairman Mao Zedong's 毛泽东 line on education and running the military schools well.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 928. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-03-15.china-leadership-12
+        when: Mar. 15
+        date: '1965-03-15'
+        thread: china-leadership
+        c: Ye Jianying's 叶剑英 article in *Jiefangjun bao* 解放军报, "Hold high the great red banner of Mao Zedong Thought, make the academies and schools thoroughly proletarian and thoroughly combat-ready" 《高举毛泽东思想伟大红旗，把院校办得非常无产阶级化非常战斗化》.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 928. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying']
+  - add:
+      entry:
+        id: cal.1965-03-23.china-leadership-14
+        when: Mar. 23
+        date: '1965-03-23'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 speaks to the enlarged meeting of the Party committee of the Navy''s East Sea Fleet 海军东海舰队: prepare for war, the ports, wharves, oil depots, communications, transport and matériel ready for any emergency; against the saying that politics may override everything, on time: plan it, adjust it, use it well, no blind rushing.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 928. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-04-15.china-leadership-8
+        when: Apr. 15
+        date: '1965-04-15'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 receives Sun Leyi 孙乐义, mess officer of the 2nd Company of a unit of the Jinan troops 济南部队.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 928. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying']
+  - add:
+      entry:
+        id: cal.1965-04-24.china-leadership-8
+        when: Apr. 24
+        date: '1965-04-24'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 receives all the staff of the army''s office for rectification in the academies and schools 全军院校整风办公室 and talks with them on reforming the schools: "run revolutionary Party schools, run schools like Kangda" 抗大.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 928. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-04-29.china-leadership-16
+        when: Apr. 29
+        date: '1965-04-29'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 talks with the staff of the army''s exhibition of training equipment 全军军训器材展览会: keep it going, to meet its visitors'' wishes.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 928–929. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-05-17.china-leadership-7
+        when: May 17
+        date: '1965-05-17'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 receives the graduates of the fifth class of the basic department of the Higher Military Academy 高等军事学院基本系 and speaks: the courses too long; teaching reform under study to shorten them and raise quality, the six-year course to become three.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 929. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-05-19.china-leadership-6
+        when: May 19
+        date: '1965-05-19'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 accompanies Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and others in receiving the twelfth class of graduates of the PLA Logistics Academy 解放军后勤学院, the Navy's conference on news work, the *Jiefangjun bao* 解放军报 trainee journalists and a touring group of the national minorities.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 929. Names: Ye Jianying, Liu Shaoqi, Zhou Enlai.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'name:liu-shaoqi', 'name:zhou-enlai']
+  - add:
+      entry:
+        id: cal.1965-05-20.china-leadership-4
+        when: May 20
+        date: '1965-05-20'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英, with He Long 贺龙 and Nie Rongzhen 聂荣臻, sees the wreckage of the American F-4B shot down by the People's Liberation Army.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 929. Names: Ye Jianying, He Long, Nie Rongzhen.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'name:he-long', 'name:nie-rongzhen']
+  - add:
+      entry:
+        id: cal.1965-05-21.china-leadership-7
+        when: May 21
+        date: '1965-05-21'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 speaks to the fourteenth enlarged meeting of the Air Force's Party committee 空军党委.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 929. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-06-03.china-leadership-11
+        when: June 3
+        date: '1965-06-03'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 at the awards meeting for innovations in training equipment 军训器材革新创造授奖大会. He speaks, "Carry forward the spirit of innovation, reform military training vigorously" 《发扬革新创造精神，大力改革军事训练》.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 929. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-06-09.china-leadership-7
+        when: June 9
+        date: '1965-06-09'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 inspects the Air Force's Fourth Higher Technical School 空军第四高级专科学校, meets all its staff and is photographed with them.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 929. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-06-19.china-leadership-13
+        when: June 19
+        date: '1965-06-19'
+        place: xian
+        thread: china-leadership
+        c: 'Xi''an 西安. Ye Jianying 叶剑英 speaks to the army''s conference on teaching reform in the engineering and technical schools 全军工程技术院校教学改革会议: the Air Force''s Fourth Higher Technical School''s reform a good example; his views on their courses, terms and methods.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 929. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-06-21.china-leadership-8
+        when: June 21
+        date: '1965-06-21'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英, some of the Academy of Military Science's 军事科学院 cadres sent out having shown an unhealthy attitude and style, presses for more political and ideological education of all its staff.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 929. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-07-03.china-leadership-7
+        when: July 3
+        date: '1965-07-03'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京. Ye Jianying 叶剑英 speaks to the army''s conference on reforming political education in the academies and schools 全军院校政治教育改革会议: run them like Kangda 抗大, guided by Mao Zedong Thought; Kangda''s ten traditions (the right line, strong leadership, a good school spirit, right principles of teaching, a few subjects done well, short courses, lively methods, many good teachers, political education first, self-reliance and thrift); the schools'' leaders made revolutionary, the teachers trained and their ranks purified.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 929–930. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1965-07-20.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 930 (July 20, 1965; Ye Jianying 叶剑英 with Zhou Enlai 周恩来 and the other leaders at the Peking 北京 airport to meet Li Zongren 李宗仁 and his wife, back from abroad)'}
+  - add:
+      entry:
+        id: cal.1965-08-05.china-leadership-9
+        when: Aug. 5–20
+        date: '1965-08-05'
+        place: dalian
+        thread: china-leadership
+        c: Dalian 大连. Ye Jianying 叶剑英 presides at the army's conference on teaching reform in the command schools 全军指挥院校教学改革会议.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 930. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-08-19.china-leadership-11
+        when: Aug. 19
+        date: '1965-08-19'
+        place: dalian
+        thread: china-leadership
+        c: 'Dalian 大连. Ye Jianying 叶剑英 speaks to the army''s conference on teaching reform in the command schools 全军指挥院校教学改革会议: run the schools in a state of readiness for war 以战备姿态办校; train cadres to fight a people''s war; sum up the lessons and reform the teaching.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 930. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-08-24.china-leadership-14
+        when: Aug. 24
+        date: '1965-08-24'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 inspects the defenses of Haiyang Island 海洋岛 and Dachangshan Island 大长山岛, and writes a poem there: Wei Wu 魏武 looked on the sea, not knowing there would be a great wall in the eastern sea; islands and shores held by army and people.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 930–931. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-08-29.china-leadership-5
+        when: Aug. 29
+        date: '1965-08-29'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 inspects the Navy's Command School 海军指挥学校 and Engineering Institute 海军工程学院, meets all their staff and is photographed with them; then sees the Engineering Institute's exhibition of teaching reform.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 931. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-08-30.china-leadership-11
+        when: Aug. 30
+        date: '1965-08-30'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 receives the heads of the formations of the Lüshun base 旅顺基地 and all the members of its campaign training group, and speaks on Chairman Mao Zedong's 毛泽东 military principles ("you fight your way, I fight mine; fight when we can win, leave when we cannot"; the weak beating the strong; concentration for battles of annihilation; preserve ourselves, destroy the enemy), on the defense of the Peking–Tianjin–Tanggu 京、津、塘 region and on the Navy's part in a future war.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 931. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-09-04.china-leadership-9
+        when: Sept. 4
+        date: '1965-09-04'
+        place: dalian
+        thread: china-leadership
+        c: Bangchui Island 棒槌岛, Dalian 大连. Ye Jianying 叶剑英 writes the poem "Rereading Chairman Mao's *On Protracted War*" 《重读毛主席〈论持久战〉》, for the twentieth anniversary of the victory over Japan.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 931. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying']
+  - add:
+      entry:
+        id: cal.1965-09-11.china-leadership-12
+        when: Sept. 11 and 17
+        date: '1965-09-11'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 hears Zhang Yixiang 张翼翔, deputy head of the General Staff's military training department 总参军训部, on the conference on training work, and speaks on the state of the troops' training, night training, marksmanship, the cadres' training and spreading Guo Xingfu's 郭兴福 method.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 931. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1965-09-18.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 931 (Sept. 18–Oct. 12, 1965; Ye Jianying 叶剑英 at the Central Work Conference 中共中央工作会议 in Peking 北京, chiefly on the 1966 economic plan and the long-term plan; it approves the State Planning Commission''s outline of the 1966 plan)'}
+  - add:
+      entry:
+        id: cal.1965-09-30.china-leadership-19
+        when: Sept. 30
+        date: '1965-09-30'
+        thread: china-leadership
+        also: [indonesia]
+        c: Ye Jianying 叶剑英 speaks at the National Defense Council's 国防委员会 meeting welcoming the Indonesian guests.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 931. Names: Ye Jianying.'
+        tags: ['polity:prc', 'polity:indonesia', 'ok:fields-place', 'name:ye-jianying']
+  - cite: {id: cal.1965-09-30.china-leadership-3, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 931 (Sept. 30, 1965, evening; Ye Jianying 叶剑英 at Zhou Enlai''s 周恩来 National Day reception)'}
+  - add:
+      entry:
+        id: cal.1965-09.china-leadership-10
+        when: Sept.
+        date: 1965-09
+        place: shanghai
+        thread: china-leadership
+        c: Shanghai 上海. Ye Jianying 叶剑英 at the army's conference on teaching reform in the logistics and hospital schools 全军后勤医院教学改革会议, and speaks.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 931. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1965-10-01.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 932 (Oct. 1, 1965; Ye Jianying 叶剑英 at the rally for the sixteenth anniversary of the People''s Republic)'}
+  - cite: {id: cal.1965-10-10.china-leadership-5, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 932 (Oct. 10, 1965; Ye Jianying 叶剑英 with Mao Zedong 毛泽东 and the other leaders receiving the workers, peasants and soldiers who came to view the National Day celebration)'}
+  - add:
+      entry:
+        id: cal.1965-10-16.china-leadership-4
+        when: Oct. 16
+        date: '1965-10-16'
+        thread: china-leadership
+        c: '*Guangming ribao* 光明日报 prints Ye Jianying''s 叶剑英 poem "Looking afar" 《远望》, written on Bangchui Island 棒槌岛, Dalian 大连.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 932. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying']
+  - add:
+      entry:
+        id: cal.1965-10-20.china-leadership-9
+        when: Oct. 20
+        date: '1965-10-20'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 gives his views on the future direction of the Academy of Military Science's 军事科学院 work and on recasting its organs.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 932. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1965-10-25.china-leadership-6
+        when: Oct. 25
+        date: '1965-10-25'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 is named a vice-chairman of the preparatory committee for the centenary of Sun Yat-sen's 孙中山 birth 纪念孙中山诞辰一百周年筹备委员会.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 932. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying']
+  - add:
+      entry:
+        id: cal.1965-11-07.china-leadership-6
+        when: Nov. 7
+        date: '1965-11-07'
+        place: shanghai
+        thread: china-leadership
+        c: 'Shanghai 上海. Ye Jianying 叶剑英 talks with Su Yu 粟裕: get well and be ready for war; the Academy of Military Science 军事科学院 to form a team to go with Su Yu to the units for investigation and study.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 932. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1965-11-10.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 932 (Nov. 10, 1965; Yao Wenyuan''s 姚文元 article in Shanghai''s 上海 *Wenhui bao* 文汇报, by this book the opening of the "Cultural Revolution")'}
+  - cite: {id: cal.1965-12-02.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 932 (Dec. 2, 1965; Ye Jianying 叶剑英 at the banquet in Peking 北京 welcoming Li Zongren 李宗仁 home)'}
+  - variant: {id: cal.1965-12-02.china-leadership, unit: A, witness: w.liu-jixian-ye-jianying-nianpu, reads: 'the banquet given by Zhou Enlai and Zhu De, welcoming Li Zongren home from abroad', at: 'II, 932'}
+  - add:
+      entry:
+        id: cal.1965-12-03.china-leadership-4
+        when: Dec. 3
+        date: '1965-12-03'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 writes the poem "In memory of Comrade Wang Jie" 《纪念王杰同志》 (Wang Jie 王杰, a soldier killed July 4, 1965, saving twelve militiamen in training): to hear the Way in the morning and die at evening; glad to be a fallen flower that reddens the mud.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 933. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-time', 'ok:fields-place', 'name:ye-jianying']
+  - cite: {id: cal.1965-12-08.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 933 (Dec. 8–15, 1965; Mao Zedong''s 毛泽东 enlarged Politburo Standing Committee at Shanghai 上海 on Luo Ruiqing''s 罗瑞卿 so-called "problem": Lin Biao 林彪, Ye Qun 叶群, Wu Faxian 吴法宪 and Li Zuopeng 李作鹏 frame him as "against giving politics prominence" and "seizing the army and opposing the Party"; then Luo removed from his military posts)'}
+  - cite: {id: cal.1965-12-19.china-leadership-2, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 933 (Dec. 19, 1965, afternoon; Ye Jianying 叶剑英 at the capital''s rally for the fifth anniversary of the National Liberation Front of South Vietnam 越南南方民族解放阵线)'}
+  - add:
+      entry:
+        id: cal.1965-12-19.china-leadership-4
+        when: Dec. 19
+        date: '1965-12-19'
+        thread: china-leadership
+        also: [vietnam-diplomacy]
+        c: Ye Jianying 叶剑英, as vice-chairman of the National Defense Council 国防委员会, gives a banquet for the fifth anniversary of the National Liberation Front of South Vietnam 越南南方民族解放战线 and the twenty-first of the Vietnam People's Army 越南人民军.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 933. Names: Ye Jianying.'
+        tags: ['polity:prc', 'polity:drv', 'ok:fields-place', 'name:ye-jianying']
+  - add:
+      entry:
+        id: cal.1965-12-26.china-leadership-4
+        when: Dec. 26
+        date: '1965-12-26'
+        thread: china-leadership
+        c: Mao Zedong 毛泽东, on his seventy-second birthday, writes out in his own hand Ye Jianying's 叶剑英 poem "Looking afar" 《远望》 for Mao Anqing 毛岸青 and Shao Hua 邵华.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 932. Made public: 2007. Names: Mao Zedong, Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:mao-zedong', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1965-12-27.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 933 (Dec. 27, 1965; Ye Jianying 叶剑英 with Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Li Fuchun 李富春, Xu Xiangqian 徐向前 and others at the airport for the ashes of Lai Chuanzhu 赖传珠, political commissar of the Shenyang Military Region 沈阳军区, and with them to the Babaoshan Revolutionary Cemetery 八宝山革命公墓)'}
+  - cite: {id: cal.1966-01-08.china-leadership-5, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 934 (Jan. 8, 1966; the Center''s notice adding Chen Yi 陈毅, Liu Bocheng 刘伯承, Xu Xiangqian 徐向前 and Ye Jianying 叶剑英 as vice-chairmen of the Military Commission 《关于增加军委副主席的通知》)'}
+  - cite: {id: cal.1966-01.china-leadership-6, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 934 (Jan. 8–19, 1966; the General Staff''s 总参谋部 small operations conference in Peking 北京; Ye Jianying 叶剑英, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and Peng Zhen 彭真 attend and speak)'}
+  - cite: {id: cal.1966-01-09.china-leadership-4, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 934 (Jan. 9, 1966; Ye Jianying 叶剑英 with Zhou Enlai 周恩来, Zhu De 朱德, Deng Xiaoping 邓小平 and others at the reception)'}
+  - add:
+      entry:
+        id: cal.1966-01-15.china-leadership-3
+        when: Jan. 15
+        date: '1966-01-15'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 at the army's conference on political work 全军政治工作会议; speaks on stronger readiness for war and training successors.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 934. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-02-01.china-leadership-8
+        when: Feb. 1–4
+        date: '1966-02-01'
+        place: canton
+        thread: china-leadership
+        c: 'Canton 广州. The Military Commission''s 中央军委 fifty-first standing meeting, Ye Jianying 叶剑英 there: on the Commission''s make-up, cadres, political work, readiness and defense works. It adopts his proposal that the general departments and military regions set up Party affairs groups and find other ways to place old cadres and train successors, and that armies, divisions and regiments each take two more deputies (one military, one political).'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 934. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1966-02-02.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 934 (Feb. 2–20, 1966; the forum on army literary and artistic work 部队文艺工作座谈会 at Shanghai 上海, planned by Lin Biao 林彪 and Jiang Qing 江青, Jiang presiding)'}
+  - cite: {id: cal.1966-02-05.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 934–935 (Feb. 5, 1966; the Standing Committee under Liu Shaoqi 刘少奇 agrees to the Five-Man Group''s 文化革命五人小组 outline report on the present academic discussion 《关于当前学术讨论的汇报提纲》 (the "February Outline"), which tried to limit the "left"; forwarded by the Center Feb. 22 after Mao was asked, and soon repudiated by him)'}
+  - add:
+      entry:
+        id: cal.1966-02-07.china-leadership-7
+        when: Feb. 7
+        date: '1966-02-07'
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Ye Jianying 叶剑英, with Dong Biwu 董必武, He Long 贺龙, Xu Xiangqian 徐向前 and Nie Rongzhen 聂荣臻, receives all those at the Canton Military Region's 广州军区 four-level cadres' meeting of the field army units.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 935. Names: Ye Jianying, Dong Biwu, He Long, Xu Xiangqian, Nie Rongzhen.'
+        tags: ['polity:prc', 'name:ye-jianying', 'name:dong-biwu', 'name:he-long', 'name:xu-xiangqian', 'name:nie-rongzhen']
+  - add:
+      entry:
+        id: cal.1966-02-07.china-leadership-8
+        when: Feb. 7
+        date: '1966-02-07'
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Ye Jianying 叶剑英, with Xiao Hua 萧华, hears Wen Yucheng 温玉成, deputy commander of the Canton Military Region 广州军区, on the plan for fortifying South China, and instructs on the defenses of Hainan Island 海南岛, Zhanjiang 湛江 and Liuzhou 柳州.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 935. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-02-08.china-leadership-5
+        when: Feb. 8
+        date: '1966-02-08'
+        place: canton
+        thread: china-leadership
+        c: Canton 广州. Ye Jianying 叶剑英 and He Long 贺龙 visit Mai Xiande 麦贤得, the combat hero wounded in the sea battle of Aug. 6 八六海战, at the Canton Military Region's hospital 广州军区医院.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 935. Names: Ye Jianying, He Long.'
+        tags: ['polity:prc', 'name:ye-jianying', 'name:he-long']
+  - add:
+      entry:
+        id: cal.1966-02-24.china-leadership-5
+        when: Feb. 24
+        date: '1966-02-24'
+        place: shanghai
+        thread: china-leadership
+        c: Shanghai 上海. Ye Jianying 叶剑英 and Yang Chengwu 杨成武, acting chief of the General Staff, with Xu Shiyou 许世友, inspect the region's readiness for war; after the city's report on readiness and fortifications, Ye instructs on the defense dispositions.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 935. Made public: 2007. Names: Ye Jianying, Xu Shiyou.'
+        tags: ['polity:prc', 'name:ye-jianying', 'name:xu-shiyou', 'vis:only:prc']
+  - cite: {id: cal.1966-03-18.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 935 (Mar. 18–20, 1966; Mao''s enlarged Politburo Standing Committee at Hangzhou 杭州: the academic and educational worlds "in fact held by the bourgeoisie and petty bourgeoisie"; planning powers to go down, the Center to manage the general, not the particular)'}
+  - add:
+      entry:
+        id: cal.1966-04-09.china-leadership-3
+        when: Apr. 9–18
+        date: '1966-04-09'
+        place: peking
+        thread: china-leadership
+        c: Peking 北京. The General Staff's 总参谋部 all-army operations conference 全军作战会议; Ye Jianying 叶剑英 comes and gives instructions.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 935. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1966-04-10.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 935–936 (Apr. 10, 1966; the Center approves the summary of the forum on army literary and artistic work that Lin Biao 林彪 entrusted to Jiang Qing 江青: a "black line" opposed to Chairman Mao''s thought has held dictatorship over literature and art since 1949, to be wiped out)'}
+  - cite: {id: cal.1966-04-16.china-leadership-7, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 936 (Apr. 16, 1966; Ye Jianying 叶剑英 reaches Hangzhou 杭州 with Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Peng Zhen 彭真, Chen Yi 陈毅 and the regional bureaus'' heads)'}
+  - cite: {id: cal.1966-04-16.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 936 (Apr. 17–25, 1966; Ye Jianying 叶剑英 at Mao''s enlarged Standing Committee at Hangzhou 杭州: Peng Zhen and the February Outline criticized; the Notice (the May 16 Notice) drafted under Chen Boda 陈伯达 and revised by Mao adopted in revised draft)'}
+  - variant: {id: cal.1966-04-16.china-leadership, unit: A, witness: w.liu-jixian-ye-jianying-nianpu, reads: the meeting held Apr. 17–25, at: 'II, 936'}
+  - cite: {id: cal.1966-04-22.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 936 (Apr. 22, 1966; Mao''s long speech to the meeting: a grave view of the situation, revisionism not only in culture but in the Party, government and army)'}
+  - cite: {id: cal.1966-04-28.china-leadership-2, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 936 (Apr. 28, 1966, midday; Ye Jianying 叶剑英 at the capital airport to welcome Mehmet Shehu 谢胡 and the Albanian Party and government delegation)'}
+  - cite: {id: cal.1966-04-28.china-leadership-5, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 936 (Apr. 28, 1966, evening; Ye Jianying 叶剑英 at the banquet of Liu Shaoqi 刘少奇 and Zhou Enlai 周恩来 welcoming Shehu)'}
+  - add:
+      entry:
+        id: cal.1966-04-29.china-leadership-10
+        when: Apr. 29
+        date: '1966-04-29'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 speaks at the reception of the State Council's Overseas Chinese Affairs Commission 国务院华侨事务委员会, welcoming the overseas Chinese and the compatriots of Hong Kong and Macao come to Peking 北京 for May Day.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 936. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying']
+  - cite: {id: cal.1966-04-30.china-leadership-3, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 936 (Apr. 30, 1966, afternoon; Ye Jianying 叶剑英 at the capital''s rally at the Workers'' Stadium 北京工人体育场 welcoming Shehu and the Albanian delegation)'}
+  - cite: {id: cal.1966-05-01.china-leadership-4, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 936 (May 1, 1966, morning; Ye Jianying 叶剑英 with Soong Ching Ling 宋庆龄, Zhou Enlai 周恩来, Zhu De 朱德, Deng Xiaoping 邓小平 and Chen Yi 陈毅 accompanying Shehu at the Working People''s Cultural Palace 劳动人民文化宫)'}
+  - cite: {id: cal.1966-05-01.china-leadership-9, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 936–937 (May 1, 1966, evening; Ye Jianying 叶剑英 on the Tiananmen 天安门 gate tower for the festival and the fireworks)'}
+  - cite: {id: cal.1966-05-04.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 937 (May 4–26, 1966; Ye Jianying 叶剑英 at the enlarged Politburo in Peking 北京)'}
+  - cite: {id: cal.1966-05-16.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 937 (May 16, 1966; the meeting adopts the Central Committee''s Notice 《中国共产党中央委员会通知》: the Five-Man Group''s outline of Feb. 12 revoked, the Group and its office abolished, a new Cultural Revolution Group set up under the Standing Committee)'}
+  - add:
+      entry:
+        id: cal.1966-05-11.china-leadership-7
+        when: May 11
+        date: '1966-05-11'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 reads the Defense Science and Technology Commission''s 国防科委 report of May 4 to the Military Commission asking approval for surveying sites for new missile test ranges (to be built apart, by the Center''s and the Commission''s instruction), and writes on it: "Propose to agree. Marshal Nie 聂荣臻 to decide."'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 937. Made public: 2007. Names: Ye Jianying, Nie Rongzhen.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'name:nie-rongzhen', 'vis:only:prc']
+  - cite: {id: cal.1966-05-15.china-leadership-2, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 937 (May 15, 1966; Ye Jianying 叶剑英 and Zhou Enlai 周恩来 report jointly to Mao and the Standing Committee on the guard of the capital: a Capital Work Group 首都工作组, Ye its head, Yang Chengwu 杨成武 and Xie Fuzhi 谢富治 deputies, with Liu Zhijian 刘志坚, Li Xuefeng 李雪峰, Wang Dongxing 汪东兴, Zhou Rongxin 周荣鑫, Zheng Weishan 郑维山, Fu Chongbi 傅崇碧, Wan Li 万里 and Su Qianyi 苏谦益, answering to the Standing Committee)'}
+  - cite: {id: cal.1966-05-23.china-leadership-2, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 937 (May 23, 1966; by the enlarged Politburo Ye Jianying 叶剑英 is added to the Secretariat 中央书记处 and made secretary-general of the Military Commission 中央军委秘书长)'}
+  - variant: {id: cal.1966-01.china-leadership-2, unit: A, witness: w.liu-jixian-ye-jianying-nianpu, reads: 'Ye Jianying made secretary-general of the Military Commission May 23, 1966, by the enlarged Politburo', at: 'II, 937'}
+  - cite: {id: cal.1966-05-26.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 937 (May 26, 1966; Ye Jianying 叶剑英 presides at the Capital Work Group''s first full meeting: its tasks, organization, work and methods, and two more army divisions for the capital''s guard; Zhou Enlai 周恩来 speaks)'}
+  - cite: {id: cal.1966-05-28.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 937–938 (May 28, 1966; the Center''s notice setting up the Central Cultural Revolution Group 中央文化革命小组: Chen Boda 陈伯达 head, Kang Sheng 康生 adviser, Jiang Qing 江青, Wang Renzhong 王任重, Liu Zhijian 刘志坚 and Zhang Chunqiao 张春桥 deputies, Wang Li 王力, Guan Feng 关锋, Qi Benyu 戚本禹, Yao Wenyuan 姚文元 and others members; it came by degrees to take the place of the Politburo and the Secretariat)'}
+  - cite: {id: cal.1966-08-30.china-leadership-2, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 938 (Aug. 30, 1966; the Center''s notice: Jiang Qing 江青 acting head of the Group in Chen Boda''s 陈伯达 sick leave or absence from Peking)'}
+  - cite: {id: cal.1966-05.china-leadership-17, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 938 (May 30, 1966; Ye Jianying 叶剑英 meets the Military Commission''s standing members and the General Political Department''s 总政治部 leaders on the Cultural Revolution in the army; they agree to send up, in the Department''s name, the request report on some measures for it 《关于部队开展文化大革命运动几项措施的请示报告》: units of division and below positive education only; no street marches; in general no part in local criticism meetings)'}
+  - cite: {id: cal.1966-06-14.china-leadership-4, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 938 (June 14, 1966; the Center approves the request report of May 30 and sends it down to be carried out)'}
+  - cite: {id: cal.1966-06-01.china-leadership-2, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 938 (June 1, 1966; the reorganized *Renmin ribao* 人民日报 editorial "Sweep away all ghosts and monsters" 《横扫一切牛鬼蛇神》)'}
+  - cite: {id: cal.1966-06-03.china-leadership-5, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 938 (June 3, 1966; Ye Jianying 叶剑英, with He Long 贺龙 and others, at the meeting of cadres of battalion and above of several divisions of the Peking Garrison 北京卫戍区)'}
+  - add:
+      entry:
+        id: cal.1966-06-06.china-leadership-11
+        when: June 6
+        date: '1966-06-06'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 at the Secretariat 中央书记处, on the division of its work and on the Propaganda Department's 中央宣传部 questions.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 938. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-06-09.china-leadership-9
+        when: June 9
+        date: '1966-06-09'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 to the standing committee of the Air Force''s Party committee 空军党委常委会议, by letter, after hearing from Li Wenfang 李文芳 of his office of its sessions of the afternoons of June 7 and 8: glad of the regions'' serious and principled criticism of the standing committee, which teaches him too; mind the whole, keep the Party spirit and the model''s banner; senior cadres to shed selfishness and quarrel not over details; unity through criticism and self-criticism.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 938–939. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-06-14.china-leadership-7
+        when: June 14
+        date: '1966-06-14'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 to Mao Zedong 毛泽东 and Zhou Enlai 周恩来, a request on setting up a standing meeting of the Military Commission 《关于建立军委常务会议问题的请示》.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 939. Made public: 2007. Names: Ye Jianying, Mao Zedong, Zhou Enlai.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'name:mao-zedong', 'name:zhou-enlai', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-06-21.china-leadership-13
+        when: June 21
+        date: '1966-06-21'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 approves six instructions on the Cultural Revolution in the army for issue: the schools'' cases to be analyzed and treated each on its own; schools whose rectification was thorough not to have the "four bigs" 四大 (great blooming, great airing, great debates, big-character posters).'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 939. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1966-07-01.china-leadership-3, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 939 (July 1, 1966; Ye Jianying 叶剑英 with Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平, Li Fuchun 李富春 and others at the airport for Zhou Enlai''s 周恩来 delegation back from Romania 罗马尼亚, Albania 阿尔巴尼亚 and other countries)'}
+  - add:
+      entry:
+        id: cal.1966-07-03.china-leadership-8
+        when: July 3
+        date: '1966-07-03'
+        time_range: ['1966-07-03T11:00Z', '1966-07-03T14:00Z']
+        time_band: evening
+        time_zone: Asia/Shanghai
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 telephones Lin Biao 林彪, away from Peking, on the enlarged meetings of the Navy's and the Air Force's Party committees; Lin gives his views on the meetings and the leading groups.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 939. The words: 晚 (939). Made public: 2007. Names: Ye Jianying, Lin Biao.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'name:lin-biao', 'vis:only:prc']
+  - cite: {id: cal.1966-07-03.china-leadership-3, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 939 (July 3, 1966; Ye Jianying 叶剑英 reports Lin Biao''s 林彪 views to Deng Xiaoping 邓小平)'}
+  - cite: {id: cal.1966-07-04.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 939 (July 4, 1966; Ye Jianying 叶剑英 at the meeting of the Politburo''s and the Military Commission''s standing members chaired by Liu Shaoqi 刘少奇, with Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Tao Zhu 陶铸, He Long 贺龙, Nie Rongzhen 聂荣臻 and Chen Yi 陈毅, on the leading groups of the Navy and the Air Force)'}
+  - add:
+      entry:
+        id: cal.1966-07-07.china-leadership-9
+        when: July 7
+        date: '1966-07-07'
+        time_range: ['1966-07-07T04:00Z', '1966-07-07T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        thread: china-leadership
+        c: 'The Military Commission''s 军委 fifty-second standing meeting, on the Navy Party committee''s enlarged meeting and its leading group. Ye Jianying 叶剑英 conveys the Politburo''s standing members'' and Lin Biao''s 林彪 instructions and speaks: no underground activity; the self-criticisms of Xiao Jinguang 萧劲光 and Su Zhenhua 苏振华 welcome; a meeting may not itself vote to remove its leaders; their errors of thinking, not a "black gang"; Li Zuopeng 李作鹏 and others to uphold their standing; unity by criticism and self-criticism.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 940. The words: 下午 (940). Made public: 2007. Names: Ye Jianying, Lin Biao, Li Zuopeng.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'name:lin-biao', 'name:li-zuopeng', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-07-08.china-leadership-3
+        when: July 8
+        date: '1966-07-08'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英, commenting on an issue of *Budui wenhua dageming dongtai* 《部队文化大革命动态》: the Cultural Revolution to be confined, in the army, to its twenty-three higher technical schools.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 940–941. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-07-11.china-leadership-8
+        when: July 11
+        date: '1966-07-11'
+        thread: china-leadership
+        c: The Military Commission's 军委 fifty-third standing meeting, on the Air Force Party committee's enlarged meeting and its leading group. Ye Jianying 叶剑英 conveys the Politburo's standing members' instructions, criticizes errors of some Air Force leaders, and calls for criticism and self-criticism, no underground or unorganized activity, and unity.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 941. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1966-07-22.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 941 (July 22, 1966; Ye Jianying 叶剑英 at the capital''s rally of a million in Tiananmen Square 天安门广场 for Vietnam)'}
+  - cite: {id: cal.1966-07-27.china-leadership-7, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 941 (July 27–30, 1966; Ye Jianying 叶剑英 at the preparatory meeting for the Eleventh Plenum in the Great Hall of the People 人民大会堂, on Mao''s talks of July 24 and 25 criticizing the work teams and the plenum''s documents)'}
+  - variant: {id: cal.1966-07-27.china-leadership-7, unit: A, witness: w.liu-jixian-ye-jianying-nianpu, reads: the preparatory meeting held July 27–30, at: 'II, 941'}
+  - cite: {id: cal.1966-07-31.china-leadership-6, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 941 (July 31, 1966, evening; Ye Jianying 叶剑英 with Mao and others receiving the scientists)'}
+  - cite: {id: cal.1966-07-31.china-leadership-5, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 941 (July 31, 1966, evening; Ye Jianying 叶剑英 at the banquet of Zhou Enlai 周恩来 and Guo Moruo 郭沫若)'}
+  - cite: {id: cal.1966-07-31.china-leadership-7, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 941 (July 31, 1966, evening; Ye Jianying 叶剑英 with Zhou Enlai 周恩来 at the Military Museum 军事博物馆 party for Army Day, receiving the model men)'}
+  - cite: {id: cal.1966-08-01.china-leadership-5, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 941 (Aug. 1, 1966; Ye Jianying 叶剑英 at the banquet of the General Staff and the General Political Department)'}
+  - cite: {id: cal.1966-08-01.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 941–942 (Aug. 1–12, 1966; Ye Jianying 叶剑英 at the Eleventh Plenum 八届十一中全会; it adopts the decision on the Cultural Revolution (the Sixteen Points))'}
+  - cite: {id: cal.1966-08-12.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 942 (Aug. 12, 1966; Ye Jianying 叶剑英 elected to the Politburo and confirmed a secretary of the Secretariat)'}
+  - add:
+      entry:
+        id: cal.1966-08-02.china-leadership-9
+        when: Aug. 2
+        date: '1966-08-02'
+        thread: china-leadership
+        c: Ye Jianying's 叶剑英 article in *Renmin ribao* 人民日报, "Hold high the great red banner of Mao Zedong Thought, take Kangda for model, run schools like Kangda" 《高举毛泽东思想伟大红旗，以抗大为榜样，办抗大式学校》.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 942. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying']
+  - cite: {id: cal.1966-08-05.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 942 (Aug. 5, 1966; Mao''s "Bombard the headquarters: my big-character poster" 《炮打司令部——我的一张大字报》 at the plenum, against Liu Shaoqi 刘少奇 without naming him)'}
+  - cite: {id: cal.1966-08-05.china-leadership-6, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 942 (Aug. 5, 1966, from 8:50 p.m. to midnight; Ye Jianying 叶剑英 and the other marshals at Zhou Enlai''s 周恩来)'}
+  - cite: {id: cal.1966-08-13.china-leadership-4, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 942 (Aug. 13, 1966, morning; Ye Jianying 叶剑英 at the Central Work Conference Lin Biao 林彪 presides, Lin on how to conduct the Cultural Revolution and relay the plenum)'}
+  - add:
+      entry:
+        id: cal.1966-08-16.china-leadership-7
+        when: Aug. 16
+        date: '1966-08-16'
+        place: peking
+        thread: china-leadership
+        c: 'Peking 北京, the Xinjiang Hall of the Great Hall of the People 人民大会堂新疆厅. Ye Jianying 叶剑英 presides at the Military Commission''s 军委 fifty-fourth standing meeting: the army''s Cultural Revolution, the cadre line, the share of military and political training, the troops'' production, the militia, the borders, readiness. Its summary: the army is not the localities'' schools and offices; its Cultural Revolution to be led by the Party committees.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 942. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-08-17.china-leadership-4
+        when: Aug. 17
+        date: '1966-08-17'
+        time_range: ['1966-08-17T04:00Z', '1966-08-17T10:00Z']
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 talks twice by telephone with He Long 贺龙 on the Navy.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 942. The words: 下午 (942). Made public: 2007. Names: Ye Jianying, He Long.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'name:he-long', 'vis:only:prc']
+  - cite: {id: cal.1966-08-18.china-leadership-12, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 942 (Aug. 18, 1966; Ye Jianying 叶剑英 at the rally of a million in Tiananmen Square 天安门广场 celebrating the Cultural Revolution, with Mao at his first reception of the Red Guards)'}
+  - add:
+      entry:
+        id: cal.1966-08-23.china-leadership-13
+        when: Aug. 23
+        date: '1966-08-23'
+        thread: china-leadership
+        c: 'The Military Commission''s 军委 fifty-fifth standing meeting hears a report on the army''s Cultural Revolution; Lin Biao 林彪 speaks. Ye Jianying 叶剑英: the movement in the army led by the Commission''s standing members; Party committees to lead in units, schools and organs; units of division and below kept in hand, no disorder; some research units'' movement put off, research not to stop.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 942–943. Made public: 2007. Names: Ye Jianying, Lin Biao.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'name:lin-biao', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-08-24.china-leadership-14
+        when: Aug. 24
+        date: '1966-08-24'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英 instructs the Academy of Military Science's 军事科学院 Party committee to protect its deputy head Song Shilun 宋时轮 and deputy political commissar Zhong Qiguang 钟期光 in the movement.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 943. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1966-08-30.china-leadership-3, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 943 (Aug. 30, 1966; Ye Jianying 叶剑英 at Zhou Enlai''s 周恩来 meeting on the political education of the Red Guards 红卫兵)'}
+  - cite: {id: cal.1966-08-31.china-leadership-2, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 943 (Aug. 31, 1966; Ye Jianying 叶剑英 with Mao at the second reception)'}
+  - add:
+      entry:
+        id: cal.1966-09-01.china-leadership-14
+        when: Sept. 1
+        date: '1966-09-01'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 presides at the Military Commission''s 军委 fifty-sixth standing meeting: after the General Political Department''s report on the movement in the big units in Peking, it decides that apart from the general departments'' organs and the regions'' propaganda and cultural departments, the General Staff''s Third Department 总参三部, the army''s factories, units of division and below and the border and coastal troops are not yet to take up the Cultural Revolution.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 943. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1966-09-04.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 943–944 (Sept. 4, 1966; Ye Jianying 叶剑英 at Zhou Enlai''s 周恩来 Center liaison meeting 中央碰头会 drafting the two urgent cables to Xinjiang 新疆 and the Northwest Bureau: the "four bigs" in Yili 伊犁, Tacheng 塔城 and Altay 阿尔泰, but no direct "dismissal" of officials by the masses; outside students kept out; Saifuddin 赛福鼎 protected, Wang Enmao 王恩茂 not shielding him; sent after Mao approved)'}
+  - cite: {id: cal.1966-09-05.china-leadership-4, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 944 (Sept. 5, 1966; the Center''s and the State Council''s notice on bringing students and teachers to Peking 北京 to see the movement)'}
+  - add:
+      entry:
+        id: cal.1966-09-05.china-leadership-12
+        when: Sept. 5
+        date: '1966-09-05'
+        thread: china-leadership
+        c: Ye Jianying 叶剑英, after talking with the General Staff's and the General Political Department's heads, issues an instruction forbidding the army schools' teachers and students to come to Peking 北京 on the exchange of experiences 串连.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 944. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - add:
+      entry:
+        id: cal.1966-09-05.china-leadership-13
+        when: Sept. 5
+        date: '1966-09-05'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 and Nie Rongzhen 聂荣臻, talking: students lighting fires in the factories and villages have thrown order into confusion, above all in the defense plants, which they should never have entered; Ye''s displeasure with the Central Cultural Revolution Group 中央文革小组.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 944. Made public: 2007. Names: Ye Jianying, Nie Rongzhen.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'name:nie-rongzhen', 'vis:only:prc']
+  - cite: {id: cal.1966-09-06.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 944 (Sept. 6, 1966; Ye Jianying 叶剑英 at Zhou Enlai''s 周恩来 Center liaison meeting, with Tao Zhu 陶铸, Kang Sheng 康生, Li Fuchun 李富春, Xie Fuzhi 谢富治, Chen Yi 陈毅, Wang Dongxing 汪东兴 and Zhou Rongxin 周荣鑫)'}
+  - add:
+      entry:
+        id: cal.1966-09-07.china-leadership-6
+        when: Sept. 7
+        date: '1966-09-07'
+        thread: china-leadership
+        c: 'Ye Jianying 叶剑英 speaks to the eleventh plenary of the Air Force''s Party committee 空军党委: the Cultural Revolution, the Air Force''s leading group, the study of Mao Zedong Thought.'
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 944. Made public: 2007. Names: Ye Jianying.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'vis:only:prc']
+  - cite: {id: cal.1966-09-12.china-leadership-2, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 944 (Sept. 12, 1966; Ye Jianying 叶剑英 at Zhou Enlai''s 周恩来 Center liaison meeting)'}
+  - add:
+      entry:
+        id: cal.1966-09-12.china-leadership-9
+        when: Sept. 12
+        date: '1966-09-12'
+        thread: china-leadership
+        c: He Long 贺龙 comes to Ye Jianying's 叶剑英 house, and they talk.
+        n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 944. Made public: 2007. Names: Ye Jianying, He Long.'
+        tags: ['polity:prc', 'ok:fields-place', 'name:ye-jianying', 'name:he-long', 'vis:only:prc']
+  - cite: {id: cal.1966-09-15.china-leadership, item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 944 (Sept. 15, 1966; Ye Jianying 叶剑英 with Mao at the third reception, in Tiananmen Square 天安门广场)'}
