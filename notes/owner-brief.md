@@ -926,3 +926,11 @@ Could you clarify or restate the "crime" rule? Maybe drop it? Heck, just drop it
 On the authors' own estimates and totals (a historian's figure for famine deaths): "Put those numbers in too.
 
 Put them in the "gloss" on the most appropriate entry, or the opening or closing of the most appropriate thread."
+
+## Nov. 21, 2026, 12:17 a.m. Pacific
+
+(Stopping the agents at work.) "The statement of "what a gloss is" that you grepped may need rewriting or refactoring here."
+
+## Nov. 21, 2026, 12:19 a.m. Pacific
+
+"No Claude, not the opening or closing of each thread's "statement." The first or last entry in a thread."
