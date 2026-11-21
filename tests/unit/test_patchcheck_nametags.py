@@ -20,3 +20,15 @@ def test_unknown_person(tmp_path):
 
 def test_no_name_tags(tmp_path):
     assert run(tmp_path, "polity:us") == []
+
+
+def test_a_name_entry_changed_leaves_its_tags_unheld(tmp_path):
+    # check holds every tag of the calendar: an edit of a Part III name that drops the person leaves his tags unheld
+    series = store.Series()
+    base = store.rev(series.get("kja.who.nkrumah-kwame")[2])
+    p = tmp_path / "2026-11-21-fx.yaml"
+    p.write_text(f"patch: fx-rename\nby: tests\nops:\n  - edit: {{id: kja.who.nkrumah-kwame, base: '{base}', "
+                 "set: {s: 'Nkrumahh, Kwame'}}\n", encoding="utf-8")
+    errors, _ = patchcheck.check(series, str(p))
+    hit = [x for x in errors if "[name-tag]" in x]
+    assert len(hit) == 16 and all("tag name:nkrumah-kwame names no person" in x for x in hit)

@@ -44,6 +44,12 @@ STYLE
     another), a time before the one it follows, a cycle. Held on the whole calendar, not the touched ids: a cycle is
     reported on whichever end the search meets last, and an entry following one the patch moves or deletes is not
     the patch's. An error the tree already had is not the patch's.
+13. The calendar's `name:` tags as the dry run leaves it, held to check's lives rule (lives.problems): each the key
+    of a person the series holds (lives.everyone, FRUS's persons among them, and the forms joined in another's
+    entry, frus-alias). A tag the patch adds, and a tag the tree has that a patch changing or dropping a name entry
+    leaves unheld; a tag the tree already left unheld is not the patch's. The lives cache is cleared before each
+    build (the series has changed under it); who the series held before is built only for a patch with an op
+    outside the calendar.
 """
 import collections
 import os
@@ -183,7 +189,8 @@ def check(series, path, legacy=False):
 
     from . import dayorder                                # STYLE 12: on the whole calendar (a cycle's other end; the
     dbefore = set(dayorder.problems(series))              # follower of an entry the patch moves or deletes)
-    nbefore = name_tags(series, touched, lst)             # STYLE 13: the tags the entries already had
+    nbefore = name_tags(lst)                              # STYLE 13: the calendar's name tags, and who the series
+    kbefore = person_keys(series) if people_ops(ops, lst) else None   # held where the patch may change it (Part III)
     rep = merge.Report()
     merge.apply_patch(series, d, name, rep, dry=True)
     addops.join_clean(series, name, save=False)          # as the rolling merge will join them
@@ -199,7 +206,7 @@ def check(series, path, legacy=False):
         else:
             errors.append(f"{eid}: {msg}")
     errors += [f"{w}: {m} [day-order]" for w, m in sorted(set(dayorder.problems(series)) - dbefore)]
-    errors += name_tag_errors(series, touched, lst, nbefore)  # STYLE 13
+    errors += name_tag_errors(series, lst, nbefore, kbefore)  # STYLE 13
     for l in rep.lines:
         if l.startswith("error"):
             msg = l.split(None, 1)[1]
@@ -214,34 +221,52 @@ def check(series, path, legacy=False):
     return errors, warnings
 
 
-def name_tags(series, touched, lst):
-    """The (id, tag) pairs of the `name:` tags on the touched calendar entries."""
-    out = set()
-    for eid in touched:
-        hit = series.get(eid)
-        if hit and lst is not None and hit[0] is lst:
-            out |= {(eid, str(tg)) for tg in hit[2].get("tags") or [] if str(tg).startswith("name:")}
-    return out
+def name_tags(lst):
+    """The (id, tag) pairs of the calendar's `name:` tags."""
+    if lst is None:
+        return set()
+    return {(e["id"], str(tg)) for _, e in lst.entries() for tg in e.get("tags") or [] if str(tg).startswith("name:")}
 
 
-def name_tag_errors(series, touched, lst, before=frozenset()):
-    """STYLE 13: each `name:` tag the patch puts on a touched calendar entry names a person the series holds (a
-    tag the entry already had is not the patch's)."""
+def people_ops(ops, lst):
+    """Whether an op may change whom the series holds (lives.people: the names of Part III): one on an entry
+    outside the calendar."""
+    pre = f"{lst.key}." if lst is not None else None
+    for op in ops:
+        if isinstance(op, dict) and len(op) == 1:
+            (kind, body), = op.items()
+            body = body if isinstance(body, dict) else {}
+            ids = (body.get("id"), (body.get("entry") or {}).get("id"), body.get("keep"), body.get("drop"))
+            if any(i and (pre is None or not str(i).startswith(pre)) for i in ids):
+                return True
+    return False
+
+
+def person_keys(series):
+    """check's keys (lives.problems): each person's, and each FRUS form joined in another's entry; built afresh (the
+    lives cache cleared: the series has changed under it). None in a tree without the people's sources (a test's)."""
     from . import lives
-    tagged = sorted(name_tags(series, touched, lst) - set(before))
-    if not tagged:
-        return []
+    if not os.path.isdir(os.path.join(store.ROOT, "congress")):
+        return None
     for k in ("people", "everyone", "frus-alias", "frus-union"):
         lives._CACHE.pop(k, None)
-    try:
-        keys = {lives.key_of(p["name"]) for p in lives.everyone(series)} | set(lives._CACHE.get("frus-alias", {}))
-    except OSError:                                        # a tree without the people's sources (a test fixture)
+    return {lives.key_of(p["name"]) for p in lives.everyone(series)} | set(lives._CACHE.get("frus-alias", {}))
+
+
+def name_tag_errors(series, lst, before, kbefore=None):
+    """STYLE 13: check's lives rule on the calendar as the dry run leaves it: each `name:` tag the key of a person
+    the series holds. A tag the tree already left unheld is not the patch's; one the patch adds, or leaves unheld
+    by changing a name entry, is."""
+    after = name_tags(lst)
+    if after <= before and kbefore is None:          # no tag added, no person changed
         return []
-    out = []
-    for eid, tg in tagged:
-        if tg[5:] not in keys:
-            out.append(f"{eid}: tag {tg} names no person (a name entry's key, or leave the person in c untagged) [name-tag]")
-    return out
+    keys = person_keys(series)
+    if keys is None:
+        return []
+    kb = keys if kbefore is None else kbefore
+    bad = {(i, t) for i, t in after if t[5:] not in keys} - {(i, t) for i, t in before if t[5:] not in kb}
+    return [f"{i}: tag {t} names no person (a name entry's key, or leave the person in c untagged) [name-tag]"
+            for i, t in sorted(bad)]
 
 
 def fields_problems(series, ops, path=None):
