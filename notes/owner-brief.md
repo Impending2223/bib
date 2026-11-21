@@ -1047,3 +1047,12 @@ Shouldn't this just be "62 suicides"? Shouldn't "this period" be specified in th
 
 "Could we rename the "As reported" label to save future readers/auditors from this error? It's not a particularly lucid label.
 Actually, yes. Just drop the label altogether."
+
+## Nov. 21, 2026, about 12:30 p.m. (Pacific)
+
+"Could we create a "Threads", akin to our "Names", compiling the entries in each thread in calendar-chronological order?
+For this entry, we can't figure out "the day" of "the weekend before Aug. 14"?
+
+>>> Korea, Aug.
+North Korea issues "a declaration of independence against both Russia and China," by Schlesinger's journal (the news at Hyannis Port, the weekend before Aug. 14).
+Schlesinger, Journals, 252 (the entry of Aug. 14). Check: the day."
