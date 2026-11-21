@@ -156,6 +156,14 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 538: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1969-09-03.china-leadership-4
+    when: Sept. 3
+    date: '1969-09-03'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Ye Jianying 叶剑英 named deputy head of the delegation of the Chinese Communist Party 中国共产党代表团 to Hanoi 河内 to mourn Hồ Chí Minh 胡志明; with Zhou Enlai 周恩来, its head, he sets out with it for Hanoi.
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 983. Names: Ye Jianying, Hồ Chí Minh, Zhou Enlai.'
+    tags: [polity:prc, name:ye-jianying, name:ho-chi-minh, name:zhou-enlai, ok:fields-place]
   - id: cal.1969-09-04.soviet-union-leadership
     when: Sept. 4
     date: '1969-09-04'
@@ -194,7 +202,7 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: 'Zhou Enlai, reaching Hanoi in the morning, talks that afternoon with Lê Duẩn, Trường Chinh, Phạm Văn Đồng and Võ Nguyên Giáp on the condolences: "we came in haste but were still late"; the news of Hồ''s death brought deep grief to China''s Party, government, army and people; Hồ''s lifelong struggle won an immortal service for the Vietnamese people and a great one for the international proletariat; his tie to the Chinese revolution and Party was specially close, and as for himself he was Hồ''s oldest comrade in arms. He asks that a farewell ceremony before Hồ''s portrait be arranged, and says the Party will send another delegation to the formal memorial service.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 312–313 (Sept. 4, 1969); [[w.zhou-enlai-waijiao-huodong]], 538 (Sept. 4, 1969; morning, by special plane with the Chinese Party delegation to Hanoi to condole on Hồ Chí Minh''s death, met at the airport by Trường Chinh, Phạm Văn Đồng, Võ Nguyên Giáp and Nguyễn Duy Trinh; 3 p.m., the Presidential Palace, Zhou saying to the Vietnamese Party, government and army leaders that China came hurriedly yet late); [[w.zhonghua-renmin-gongheguo-waijiao]], 221 (Sept. 4, 1969; Zhou, leading the Chinese party delegation to Hanoi for Hồ Chí Minh''s death, and his talk with the Vietnamese party, government and army leaders: "we came in haste but still late"; Hồ''s tie to the Chinese revolution and Party); [[w.khoo-collateral-damage]], 58 (Zhou and Ye Jianying go at once to Hanoi and do not stay the night); [[w.jian-zhou-enlai]], 621 (Zhou justifies the visit by "the intimate relationships between China and Vietnam, as well as between Ho and me," perhaps also to avoid meeting the Soviet leaders at the funeral). Made public: 1993. Names: Zhou Enlai, Lê Duẩn, Trường Chinh, Phạm Văn Đồng, Võ Nguyên Giáp.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 312–313 (Sept. 4, 1969); [[w.zhou-enlai-waijiao-huodong]], 538 (Sept. 4, 1969; morning, by special plane with the Chinese Party delegation to Hanoi to condole on Hồ Chí Minh''s death, met at the airport by Trường Chinh, Phạm Văn Đồng, Võ Nguyên Giáp and Nguyễn Duy Trinh; 3 p.m., the Presidential Palace, Zhou saying to the Vietnamese Party, government and army leaders that China came hurriedly yet late); [[w.zhonghua-renmin-gongheguo-waijiao]], 221 (Sept. 4, 1969; Zhou, leading the Chinese party delegation to Hanoi for Hồ Chí Minh''s death, and his talk with the Vietnamese party, government and army leaders: "we came in haste but still late"; Hồ''s tie to the Chinese revolution and Party); [[w.khoo-collateral-damage]], 58 (Zhou and Ye Jianying go at once to Hanoi and do not stay the night); [[w.jian-zhou-enlai]], 621 (Zhou justifies the visit by "the intimate relationships between China and Vietnam, as well as between Ho and me," perhaps also to avoid meeting the Soviet leaders at the funeral); [[w.liu-jixian-ye-jianying-nianpu]], II, 984 (Sept. 4, 1969; morning, at Hanoi; afternoon, Ye Jianying 叶剑英 with Zhou in the talks with Lê Duẩn 黎笋, Trường Chinh 长征, Phạm Văn Đồng 范文同 and Võ Nguyên Giáp 武元甲 on the mourning). Made public: 1993. Names: Zhou Enlai, Lê Duẩn, Trường Chinh, Phạm Văn Đồng, Võ Nguyên Giáp.'
     src:
       c: 1ba0bb2f
       rows:
@@ -203,25 +211,34 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao 221: A'
         - 'w.khoo-collateral-damage 58: ?'
         - 'w.jian-zhou-enlai 621: ?'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 984: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:le-duan, name:truong-chinh, name:pham-van-dong, name:vo-nguyen-giap, vis:only:prc+drv]
+    time_range:
+      - 1969-09-04T05:00Z
+      - 1969-09-04T11:00Z
+    time_band: afternoon
+    time_zone: Asia/Bangkok
   - id: cal.1969-09-04.china-leadership-2
     when: Sept. 4
     date: '1969-09-04'
+    time: 1969-09-04T10:00Z
     place: hanoi
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: Zhou Enlai leads the Chinese delegation to the lying-in-state hall set up in the main hall of the Presidential Palace and lays a wreath before Hồ Chí Minh's portrait, stands in silence and writes in the book of condolence. That night he goes with Ye Jianying to the hospital to view Hồ's remains, then leaves Hanoi for home.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 313 (Sept. 4, 1969); [[w.zhou-enlai-waijiao-huodong]], 538 (Sept. 4, 1969; 5 p.m., the lying-in-state hall in the main hall of the Presidential Palace, Lê Duẩn, Trường Chinh, Phạm Văn Đồng, Võ Nguyên Giáp, Lê Thanh Nghị and Hoàng Văn Hoan accompanying; 7 p.m., with Ye Jianying, to the hospital to view Hồ Chí Minh''s remains; 8 p.m., by plane from Hanoi for home). See [[cal.1969-09-04.china-leadership]]. Names: Zhou Enlai, Hồ Chí Minh, Ye Jianying.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 313 (Sept. 4, 1969); [[w.zhou-enlai-waijiao-huodong]], 538 (Sept. 4, 1969; 5 p.m., the lying-in-state hall in the main hall of the Presidential Palace, Lê Duẩn, Trường Chinh, Phạm Văn Đồng, Võ Nguyên Giáp, Lê Thanh Nghị and Hoàng Văn Hoan accompanying; 7 p.m., with Ye Jianying, to the hospital to view Hồ Chí Minh''s remains; 8 p.m., by plane from Hanoi for home); [[w.liu-jixian-ye-jianying-nianpu]], II, 984 (Sept. 4, 1969; after the talks Ye Jianying 叶剑英 with Zhou leads the delegation to the mourning hall in the main hall of the Presidential Palace 主席府; wreath, silence before Hồ Chí Minh''s portrait; that evening 当晚, with Zhou, to the hospital to view Hồ''s remains; then, with Zhou, leads the delegation from Hanoi for home). See [[cal.1969-09-04.china-leadership]]. Names: Zhou Enlai, Hồ Chí Minh, Ye Jianying.'
     src:
       c: e4b64091
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 313: ?'
         - 'w.zhou-enlai-waijiao-huodong 538: A-B'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 984: ?'
     gloss:
       title: The record
       text:
         - 'Khoo: from the launch of the Tet Offensive in late January 1968 to Hồ Chí Minh''s funeral, Hanoi goes on sending delegations to Peking, but no Chinese delegation, official or unofficial, goes to Hanoi ([[w.khoo-collateral-damage]], 39; the nearest note, n.203, cites [[w.lawson-sino-vietnamese-conflict]], 109).'
     tags: [polity:prc, name:zhou-enlai, name:ho-chi-minh, name:ye-jianying]
+    time_zone: Asia/Bangkok
   - id: cal.1969-09-04.vietnam-hanoi-5
     when: Sept. 4
     date: '1969-09-04'
@@ -259,12 +276,13 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou Enlai flies back to Peking.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 313 (Sept. 5, 1969); [[w.jianguo-yilai-mao-zedong]], XIX, 467 n.1 (Sept. 5, 1969; the return to Peking only). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 313 (Sept. 5, 1969); [[w.jianguo-yilai-mao-zedong]], XIX, 467 n.1 (Sept. 5, 1969; the return to Peking only); [[w.liu-jixian-ye-jianying-nianpu]], II, 984 (Sept. 5, 1969; Ye Jianying 叶剑英 with Zhou leads the delegation back to Peking by air). Names: Zhou Enlai.'
     src:
       c: 787b2ee2
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 313: ?'
         - 'w.jianguo-yilai-mao-zedong XIX, 467 n.1: A'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 984: ?'
     tags: [polity:prc, name:zhou-enlai]
   - id: cal.1969-09-05.china
     when: Sept. 5
@@ -520,6 +538,13 @@ entries:
       - 1969-09-13T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1969-09-13.china-leadership-3
+    when: Sept. 13
+    date: '1969-09-13'
+    thread: china-leadership
+    c: Ye Jianying 叶剑英 receives Nie Rongzhen's 聂荣臻 second report on squatting at the Peking No. 3 Chemical Plant 北京化工三厂 (the plant committee's and revolutionary committee's rectification study) and sends it on to Zhou Enlai 周恩来.
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 984. Made public: 2007. Names: Ye Jianying, Nie Rongzhen, Zhou Enlai.'
+    tags: [polity:prc, name:ye-jianying, name:nie-rongzhen, name:zhou-enlai, vis:only:prc, ok:fields-place]
   - id: cal.1969-09-14.china-leadership
     when: Sept. 14, 16
     date: '1969-09-14'
@@ -632,7 +657,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Chen Yi, Xu Xiangqian, Nie Rongzhen and Ye Jianying send Zhou Enlai their last report. Since early June they have met sixteen times, for almost fifty hours, by the book''s count. Their reports play down the danger of a Soviet or an American attack: both talk against China but neither wants to attack, Europe their main rivalry; China should put off any war while it grows stronger.'
-    n: '[[w.macfarquhar-maos-last-revolution]], 315–316; [[w.yang-jisheng-tiandi-fanfu]], II, 1102 ("Views on the present situation": in the triangle, the Sino-Soviet contradiction greater than the Sino-American, the Soviet-American greater than the Sino-Soviet); [[w.jian-zhou-enlai]], 622 (after Zhou''s briefing on Kosygin the marshals judge a large Soviet attack unlikely and propose that "at a proper time" China might play the "American card"); [[w.dikotter-cultural-revolution]], 245 n.6 (with war with the Soviet Union looming after the August clash in Xinjiang, the marshals propose to play the American card, against Lin Biao''s view of the United States as an enemy equal to the Soviet Union). Made public: 1997 ([[w.zhou-enlai-nianpu-1949]], III, 281, 301–302, 305). To check: the four marshals'' final report, Sept. 17, 1969 (extracts), in [[w.barnouin-chinese-foreign-policy-during]], 139–144 (cited by [[w.macfarquhar-maos-last-revolution]], 316 n.36b); [[w.zhou-enlai-nianpu-1949]], III, 281, 301–302, 305 (cited by [[w.macfarquhar-maos-last-revolution]], 315 n.35a); Zhang Baojun, "Dakai Zhong Mei guanxi damen shimo", in [[w.gongheguo-zhongda-shijian-he]], II, 673–717 (cited by [[w.macfarquhar-maos-last-revolution]], 315 n.35b); [[w.rongzhen-inside-the-red-star]] (cited by [[w.macfarquhar-maos-last-revolution]], 315 n.35c); Report by the four marshals, "Our Views about the Current Situation," Sept. 17, 1969, in [[w.jian-all-under-the-heaven]], 170 (cited by [[w.jian-zhou-enlai]], 622 n.29); Xia Yafeng, "China''s Elite Politics and Sino-American Rapprochement, January 1969–February 1972," *Journal of Cold War Studies* 8, no. 4 (Fall 2006), 3–28 (cited by [[w.dikotter-cultural-revolution]], 245 n.6). See [[cal.1969-07-11.china-leadership]]. Names: Chen Yi, Xu Xiangqian, Nie Rongzhen, Ye Jianying, Zhou Enlai.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 315–316; [[w.yang-jisheng-tiandi-fanfu]], II, 1102 ("Views on the present situation": in the triangle, the Sino-Soviet contradiction greater than the Sino-American, the Soviet-American greater than the Sino-Soviet); [[w.jian-zhou-enlai]], 622 (after Zhou''s briefing on Kosygin the marshals judge a large Soviet attack unlikely and propose that "at a proper time" China might play the "American card"); [[w.dikotter-cultural-revolution]], 245 n.6 (with war with the Soviet Union looming after the August clash in Xinjiang, the marshals propose to play the American card, against Lin Biao''s view of the United States as an enemy equal to the Soviet Union); [[w.liu-jixian-ye-jianying-nianpu]], II, 984 (Sept. 1969, the day not given; Ye Jianying 叶剑英 with Chen Yi 陈毅, Xu Xiangqian 徐向前 and Nie Rongzhen 聂荣臻 writes Zhou Enlai 周恩来 the report "Our views on the present situation" 《对目前局势的看法》). Made public: 1997 ([[w.zhou-enlai-nianpu-1949]], III, 281, 301–302, 305). To check: the four marshals'' final report, Sept. 17, 1969 (extracts), in [[w.barnouin-chinese-foreign-policy-during]], 139–144 (cited by [[w.macfarquhar-maos-last-revolution]], 316 n.36b); [[w.zhou-enlai-nianpu-1949]], III, 281, 301–302, 305 (cited by [[w.macfarquhar-maos-last-revolution]], 315 n.35a); Zhang Baojun, "Dakai Zhong Mei guanxi damen shimo", in [[w.gongheguo-zhongda-shijian-he]], II, 673–717 (cited by [[w.macfarquhar-maos-last-revolution]], 315 n.35b); [[w.rongzhen-inside-the-red-star]] (cited by [[w.macfarquhar-maos-last-revolution]], 315 n.35c); Report by the four marshals, "Our Views about the Current Situation," Sept. 17, 1969, in [[w.jian-all-under-the-heaven]], 170 (cited by [[w.jian-zhou-enlai]], 622 n.29); Xia Yafeng, "China''s Elite Politics and Sino-American Rapprochement, January 1969–February 1972," *Journal of Cold War Studies* 8, no. 4 (Fall 2006), 3–28 (cited by [[w.dikotter-cultural-revolution]], 245 n.6). See [[cal.1969-07-11.china-leadership]]. Names: Chen Yi, Xu Xiangqian, Nie Rongzhen, Ye Jianying, Zhou Enlai.'
     src:
       c: 2ee35d67
       rows:
@@ -643,6 +668,7 @@ entries:
         - 'via x.1969-09-17.four-marshals-final-report-to-zhou-enlai: ?'
         - 'w.dikotter-cultural-revolution 245 n.6: ?'
         - 'via w.dikotter-cultural-revolution 245 n.6: ?'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 984: ?'
     tags: [polity:prc, name:chen-yi, name:xu-xiangqian, name:nie-rongzhen, name:ye-jianying, name:zhou-enlai, vis:only:prc]
   - id: cal.1969-09-18.china-leadership
     when: Sept. 18
@@ -1305,7 +1331,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai speaks at the reception for the 20th anniversary of the People''s Republic: in twenty years the socialist revolution and building in China, under the Communist Party, has won victory after victory; the motherland has been changed from a poor, backward, bullied, semi-feudal, semi-colonial country into a socialist country that keeps its independence and has gained a first prosperity.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 318 (Sept. 30, 1969); [[w.zhou-enlai-waijiao-huodong]], 542 (Sept. 30, 1969; evening, the grand reception in the Great Hall of the People for the twentieth anniversary of the People''s Republic, Zhou speaking); [[w.zhonghua-renmin-gongheguo-waijiao]], 227 (Sept. 30, 1969; the speech: China will never commit aggression; its nuclear arms for defense; peace on the Five Principles, no trading of principle); [[w.mao-zedong-zhuan]], VI, ch. 78 n.19 (the evening of Sept. 30 at the National Day reception Zhou Enlai says: against the war threats of American imperialism and social-imperialism, nuclear war threats included, we must be fully prepared; if they insist on forcing a war of aggression on us we shall resist to the end, to final victory; the book does not give the entry''s units of the twenty years'' victories, n.19). To check: *Renmin ribao* 《人民日报》, Oct. 1, 1969 (cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.19). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 318 (Sept. 30, 1969); [[w.zhou-enlai-waijiao-huodong]], 542 (Sept. 30, 1969; evening, the grand reception in the Great Hall of the People for the twentieth anniversary of the People''s Republic, Zhou speaking); [[w.zhonghua-renmin-gongheguo-waijiao]], 227 (Sept. 30, 1969; the speech: China will never commit aggression; its nuclear arms for defense; peace on the Five Principles, no trading of principle); [[w.mao-zedong-zhuan]], VI, ch. 78 n.19 (the evening of Sept. 30 at the National Day reception Zhou Enlai says: against the war threats of American imperialism and social-imperialism, nuclear war threats included, we must be fully prepared; if they insist on forcing a war of aggression on us we shall resist to the end, to final victory; the book does not give the entry''s units of the twenty years'' victories, n.19). [[w.liu-jixian-ye-jianying-nianpu]], II, 984 (Sept. 30, 1969; evening; Ye Jianying 叶剑英 at the reception for the twentieth anniversary of the People''s Republic). To check: *Renmin ribao* 《人民日报》, Oct. 1, 1969 (cited by [[w.mao-zedong-zhuan]], VI, ch. 78 n.19). Names: Zhou Enlai.'
     src:
       c: 3bd057f3
       rows:
@@ -1313,6 +1339,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 542: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 227: A'
         - 'w.mao-zedong-zhuan VI, ch. 78 n.19: ?'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 984: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1969-09-30T11:00Z
@@ -1383,12 +1410,13 @@ entries:
     thread: china-leadership
     also: [korea]
     c: Zhou goes to the airport to welcome the North Korean party and government delegation led by Choe Yong-gon, for the National Day celebrations.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 542 (Sept. 30, 1969; 11:30 p.m., Beijing airport); [[w.jian-zhou-enlai]], 623 (Choe''s plane lands at 11:00 p.m.). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 542 (Sept. 30, 1969; 11:30 p.m., Beijing airport); [[w.jian-zhou-enlai]], 623 (Choe''s plane lands at 11:00 p.m.); [[w.liu-jixian-ye-jianying-nianpu]], II, 984 (Sept. 30, 1969; Ye Jianying 叶剑英 at the airport welcoming Choe Yong-gon 崔庸健, chairman of the Standing Committee of the DPRK''s Supreme People''s Assembly). Names: Zhou Enlai.'
     src:
       c: 02228fa6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 542: all'
         - 'w.jian-zhou-enlai 623: ?'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 984: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1969-09.china-leadership-2
