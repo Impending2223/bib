@@ -69,6 +69,31 @@ ops:
     name: Huairou
     zone: Asia/Shanghai
     in: prc
+- place-key:
+    key: houma
+    name: Houma
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: linfen
+    name: Linfen
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: quwo
+    name: Quwo
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: yuncheng
+    name: Yuncheng
+    zone: Asia/Shanghai
+    in: prc
+- place-key:
+    key: sinuiju
+    name: Sinuiju
+    zone: Asia/Shanghai
+    in: prc
 - add:
     entry:
       id: cal.1960-01-06.china-leadership-6
@@ -3944,6 +3969,7 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+      - ok:fields-place
 - add:
     entry:
       id: cal.1961-03-12.china-leadership-8
@@ -4105,6 +4131,7 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+      - ok:fields-place
 - add:
     entry:
       id: cal.1961-04-01.china-leadership-6
@@ -4532,6 +4559,7 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+      - ok:fields-place
 - add:
     entry:
       id: cal.1961-04-28.china-leadership-9
@@ -4838,6 +4866,7 @@ ops:
       - name:li-fuchun
       - name:tan-zhenlin
       - vis:only:prc
+      - ok:fields-place
 - add:
     entry:
       id: cal.1961-06-15.china-leadership-11
@@ -5288,6 +5317,7 @@ ops:
       - name:peng-zhen
       - name:mao-zedong
       - vis:only:prc
+      - ok:fields-place
 - add:
     entry:
       id: cal.1961-08-15.china-leadership-12
@@ -5723,6 +5753,7 @@ ops:
       tags:
       - polity:prc
       - name:peng-zhen
+      - ok:fields-place
 - add:
     entry:
       id: cal.1961-11-04.china-leadership-4
@@ -5793,6 +5824,2009 @@ ops:
       tags:
       - polity:prc
       - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-12-03.china-leadership-2
+      when: Dec. 3
+      date: '1961-12-03'
+      time_range:
+      - 1961-12-03T04:00Z
+      - 1961-12-03T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: linfen
+      thread: china-leadership
+      c: 'Shanxi 山西. Peng Zhen 彭真, with Zhang Jieqing 张洁清 and others, Zheng Lin 郑林 and Feng Peiwen 冯培文 with them, goes south by special train on the Tongpu 同蒲 line for Houma 侯马; on the train: these years too many "battles," land reform, "three antis," "five antis," one campaign after another, the cadres not retrained, little chance to speak, still less to object, Party democracy at fault; at Hongtong 洪洞 the Guangsheng Temple 广胜寺, the Feihong Pagoda 飞虹塔 and the old site of the Big Locust Tree; at Linfen 临汾 at 8 p.m.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 162. The page''s notes: Zheng Lin, secretary of the Shanxi committee''s Secretariat and vice-governor; Feng Peiwen, secretary of the Jinnan 晋南 prefectural committee''s Secretariat (IV, 162). The words: 下午……晚八时，到达临汾县 (IV, 162). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 1aca2a7e
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 162: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-12-04.china-leadership-5
+      when: Dec. 4
+      date: '1961-12-04'
+      time_range:
+      - 1961-12-03T22:00Z
+      - 1961-12-04T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: houma
+      thread: china-leadership
+      c: Tanshang 坛上 village, Houma 侯马, Shanxi. Peng Zhen 彭真, with Zhang Jieqing 张洁清 and others, visits his mother, Wei Guizhi 魏桂枝, eighty, and other kin, sweeps his father Fu Weishan's 傅维山 grave and calls on schoolmates and neighbors.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 162. The words: 上午 (IV, 162). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 457456f0
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 162: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-12-05.china-leadership-5
+      when: Dec. 5
+      date: '1961-12-05'
+      time_range:
+      - 1961-12-04T22:00Z
+      - 1961-12-05T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: houma
+      thread: china-leadership
+      c: Houma 侯马, Shanxi. Peng Zhen 彭真 talks with the secretary and mayor of the Houma municipal committee on local conditions and explains the Party's policy; in the afternoon to Xinjiang 新绛 county, its woodworks and market, and the Eastern Zhou relics shown at the Houma cultural relics station; in the evening the Houma bowl opera troupe 碗碗腔剧团.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 162. The time is the morning''s. The words: 上午……下午……晚 (IV, 162). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 7a74edcf
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 162: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-12-06.china-leadership-4
+      when: Dec. 6
+      date: '1961-12-06'
+      time_range:
+      - 1961-12-05T22:00Z
+      - 1961-12-06T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: quwo
+      thread: china-leadership
+      c: Quwo 曲沃 county, Shanxi. Peng Zhen 彭真 sees the Kuaihe 浍河 reservoir, as big as Peking's Ming Tombs reservoir, 76 million cubic meters, turning 250,000 mu of dry fields to sure harvests; the delta of more than sixty li and its cure of alkali; the cigarette factory and the market.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 162. The words: 上午 (IV, 162). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 9d24ca74
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 162: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-12-07.china-leadership-6
+      when: Dec. 7
+      date: '1961-12-07'
+      time_range:
+      - 1961-12-06T22:00Z
+      - 1961-12-07T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: houma
+      thread: china-leadership
+      c: Houma 侯马, Shanxi. Peng Zhen 彭真 talks with some twenty local leading cadres in the conference room of the municipal government's reception office; at 5 p.m., with Tao Lujia 陶鲁笳, by special train to Yuncheng 运城 East station, hearing the Yuncheng county committee's first secretary and the county head in the carriage.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 162. The page''s note: Tao Lujia, first secretary of the Shanxi committee (IV, 162). The time is the morning talk''s. The words: 上午……下午五时 (IV, 162). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: '36586215'
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 162: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-12-08.china-leadership-4
+      when: Dec. 8
+      date: '1961-12-08'
+      place: yuncheng
+      thread: china-leadership
+      c: Yuncheng 运城, Shanxi. Peng Zhen 彭真 sees the Yuncheng salt lake and the market, then the Guandi Temple 关帝庙 at Xiezhou 解州; back to Linfen 临汾 in the afternoon.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 162–163. Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: f3984e94
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 162–163: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1961-12-09.china-leadership-5
+      when: Dec. 9
+      date: '1961-12-09'
+      time_range:
+      - 1961-12-08T22:00Z
+      - 1961-12-09T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: linfen
+      thread: china-leadership
+      c: 'Linfen 临汾, Shanxi. Peng Zhen 彭真, with Tao Lujia 陶鲁笳, sees the Guojiazhuang 郭家庄 brigade, Jinnan''s high-yield wheat; afternoon, at the Jinnan prefectural committee, hears Zhao Yuting 赵雨亭, Feng Peiwen 冯培文 and others: a goal to rouse the masses; water works (the great droughts of 1877, 1900 and 1929), Quwo''s reservoir of 1957 praised; pigs; cadres who erred helped, not changed by batches, "人非圣贤，孰能无过," much came from the Center; the Shanxi tour ends that evening.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 163. The page''s note: Zhao Yuting, first secretary of the Jinnan prefectural committee (IV, 163). The time is the morning''s. The words: 上午……下午 (IV, 163). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: c524e3ce
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 163: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-12-11.china-leadership-3
+      when: Dec. 11–14
+      date: '1961-12-11'
+      place: shijiazhuang
+      thread: china-leadership
+      c: 'Shijiazhuang 石家庄, Hebei 河北. Peng Zhen 彭真 calls the leaders of Gaocheng 藁城, Xin''an 新安, Jin 晋县, Pingshan 平山, Ding 定县, Shenze 深泽, Anguo 安国, Tang 唐县, Xinle 新乐 and other counties of the Shijiazhuang and Baoding prefectures on the size of production teams and distribution: in Shanxi 30 percent for brigade accounting with "three contracts and a bonus," 30 for team accounting, 40 for "big contracting"; on the 14th: ownership must be stable to protect production, "人不由己，物不自主"; Zhoujiazhuang 周家庄 and Geng Changsuo 耿长锁 for the brigade; the mass line, local conditions, no change until clear.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 163–164. The time and place of the closing talk: the afternoon of the 14th (IV, 163). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 380196e5
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 163–164: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-12-15.china-leadership-8
+      when: Dec. 15
+      date: '1961-12-15'
+      place: peking
+      thread: china-leadership
+      c: Peng Zhen 彭真 back in Peking 北京.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 164. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 01e404b5
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 164: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-12-20.china-leadership-11
+      when: Dec. 20
+      date: '1961-12-20'
+      time_range:
+      - 1961-12-20T11:00Z
+      - 1961-12-20T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: The Yinian Tang 颐年堂, Zhongnanhai 中南海, Peking. Peng Zhen 彭真 at Mao Zedong's 毛泽东 meeting of the Politburo Standing Committee and the regional bureaus' first secretaries.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 165. The words: 晚 (IV, 165). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+      src:
+        c: cd2a1fe8
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 165: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1961-12-25.china-leadership-9
+      when: Dec. 25
+      date: '1961-12-25'
+      time_range:
+      - 1961-12-24T22:00Z
+      - 1961-12-25T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 at the joint session of the National People''s Congress Standing Committee''s 全国人大常委会 forty-ninth session and the CPPCC Standing Committee''s twenty-third: the NPC''s third session and the CPPCC''s to open together on Mar. 5, 1962; deputies and members first to visit the villages or the cities.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 165. The words: 上午 (IV, 165). Names: Peng Zhen.'
+      src:
+        c: fcfc02b9
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 165: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-01-15.china-leadership-6
+      when: Jan. 15–16
+      date: '1962-01-15'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 hears the reports of the work conference''s groups: many, provincial cadres among them, hold "dispersionism" not the chief cause of the difficulties, subjectivism first; "man-made calamity" the main cause, some say; on the 16th Mao Zedong 毛泽东 decides the conference first settle the principal contradiction and sets up a drafting committee of twenty-one under Liu Shaoqi 刘少奇: Zhou Enlai 周恩来, Chen Yun 陈云, Deng Xiaoping 邓小平, Peng Zhen, Li Fuchun 李富春, Li Xiannian 李先念, Bo Yibo 薄一波, Chen Boda 陈伯达, Ke Qingshi 柯庆施, Song Renqiong 宋任穷, Ulanhu 乌兰夫, Tao Zhu 陶铸, Liu Lantao 刘澜涛, Li Jingquan 李井泉, Wang Renzhong 王任重 and others.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 167–168. Made public: 2012. See [[cal.1962-01-16.china-leadership-8]]. Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Li Fuchun, Li Xiannian, Chen Boda, Ke Qingshi, Tao Zhu, Li Jingquan.'
+      src:
+        c: c098fabc
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 167–168: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:chen-yun
+      - name:deng-xiaoping
+      - name:li-fuchun
+      - name:li-xiannian
+      - name:chen-boda
+      - name:ke-qingshi
+      - name:tao-zhu
+      - name:li-jingquan
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-02-01.china-leadership-5
+      when: Feb. 1
+      date: '1962-02-01'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真, before the drama writing forum at Canton, talks with some playwrights: traditional plays to be put in order by men who know Marxism, the Party''s policy, history and the stage; Ma Lianliang 马连良, over sixty, troubled by plays changed too much; the Yang family generals 杨家将 for patriotism, *Yangmen nüjiang* 《杨门女将》 well revised; *The Empty City* 《空城计》 and *Qunying hui* 《群英会》; love plays such as *The White Snake* 《白蛇传》, nothing obscene; plays for young actors of the Peking and Experimental Peking Opera troupes.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 170–171. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: d0218449
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 170–171: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-02-04.china-leadership-3
+      when: Feb. 4
+      date: '1962-02-04'
+      time_range:
+      - 1962-02-04T11:00Z
+      - 1962-02-04T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: The Great Hall of the People 人民大会堂, Peking. Peng Zhen 彭真, with the members of the enlarged work conference, at the Spring Festival evening of the Peking municipal committee and the municipal People's Council.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 171. The words: 晚 (IV, 171). Names: Peng Zhen.'
+      src:
+        c: 41f73d68
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 171: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-02-06.china-leadership-3
+      when: Feb. 6
+      date: '1962-02-06'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 at the Zhejiang 浙江 group of the enlarged work conference: the aim of "passing the air" reached; democratic centralism, speak fully, those who speak not blamed; before a decision all views, after it one heart, no factions, the minority may keep its view; for the errors of past years first the Center, then the provinces; no "venting" called for below the county, but grievances heard; cadres wrongly punished rehabilitated, wholly or in part.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 172–173. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 142ea20c
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 172–173: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-02-10.china-leadership-3
+      when: Feb. 10
+      date: '1962-02-10'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 to Zhang Su 张苏, deputy secretary-general of the National People''s Congress Standing Committee: the forum of NPC deputies and CPPCC members back from their visits agreed; Lin Feng 林枫 to be asked to preside with them.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 173. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 029d5c67
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 173: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-02-15.china-leadership-3
+      when: Feb. 15
+      date: '1962-02-15'
+      time_range:
+      - 1962-02-15T04:00Z
+      - 1962-02-15T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 presides at the joint session of the National People''s Congress Standing Committee''s 全国人大常委会 fiftieth session and the CPPCC Standing Committee''s twenty-fourth: the NPC''s and CPPCC''s sessions put off; deputies and members first to visit the provinces, Li Weihan 李维汉 and Lin Feng 林枫 to hold forums on their return.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 174. The words: 下午 (IV, 174). Names: Peng Zhen.'
+      src:
+        c: eda5c5e5
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 174: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-02-18.china-leadership-8
+      when: Feb. 18
+      date: '1962-02-18'
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: 'Peng Zhen 彭真, on Zhou Enlai''s 周恩来 letter about anti-Soviet feeling at the border stations, to Xie Fuzhi 谢富治, Lü Zhengcao 吕正操, Huang Zhen 黄镇, Zhang Yan 张彦 and Yao Qin 姚溱: to read it and talk it over together within a day or two.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 174. The page''s note: Huang Zhen, Vice Foreign Minister; Zhang Yan, deputy director of the State Council''s Foreign Affairs Office; Yao Qin, deputy head of the Propaganda Department (IV, 174). Made public: 2012. Names: Peng Zhen, Zhou Enlai, Xie Fuzhi.'
+      src:
+        c: 08add1ec
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 174: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - name:xie-fuzhi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-02-26.china-leadership-8
+      when: Feb. 26
+      date: '1962-02-26'
+      time_range:
+      - 1962-02-25T22:00Z
+      - 1962-02-26T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 presides at the meeting of the National People''s Congress Standing Committee''s vice-chairmen, the CPPCC''s vice-chairmen and the heads of the visiting groups'' forums: the sessions put from about Mar. 15 to about Mar. 20; run as the Seven Thousand was, two or three days to read Zhou Enlai''s 周恩来 report, then groups by region, trade and party, the "three no''s," the groups the main part, "神仙会"; 800 non-voting delegates, 400 central and 400 local, invited in the CPPCC''s name.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 176. The words: 上午 (IV, 176). Made public: 2012. Names: Peng Zhen, Zhou Enlai.'
+      src:
+        c: f9886af9
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 176: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-03-01.china-leadership-4
+      when: Mar. 1–2
+      date: '1962-03-01'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 calls the heads of the Metallurgy, Coal, Machinery and Railway ministries and others, hears Gao Yangwen 高扬文: much done by the Center and the ministries was wrong, let people speak or they fume; "情况不明决心大"; industry is real work, ministry by ministry; streamlining on the "five fixes," the technical backbone kept, "精兵主义."'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 176–177. The page''s note: Gao Yangwen, Vice-Minister of Metallurgy (IV, 177). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 3d437460
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 176–177: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-03-06.china-leadership-6
+      when: Mar. 6
+      date: '1962-03-06'
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: 'Peking 北京. Peng Zhen 彭真 calls the Propaganda Department and the foreign affairs, railway and public security departments on controlling anti-revisionist propaganda among the masses at the Sino-Soviet border and keeping the two peoples'' unity; after Xu Zirong 徐子荣, Lü Zhengcao 吕正操 and others report: education among the masses positive, by reason; the fight against modern revisionism abroad run by the Center alone.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 177–178. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: fb7c0c11
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 177–178: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-03-10.china-leadership-4
+      when: Mar. 10
+      date: '1962-03-10'
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: 'Peng Zhen 彭真 has those concerned pass on to the Peking municipal committee 北京市委 the line of the meeting of Mar. 6 on anti-revisionist propaganda: modern revisionism to be opposed but Sino-Soviet friendship strengthened and Soviet experience learned, the two not confused; foreign guests received warmly, no anti-revisionist talk; local papers to print only *Renmin ribao*''s and *Hongqi*''s articles; strict control in the cities with Soviet consulates.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 178. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 5fa93b7b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 178: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-03-16.china-leadership-6
+      when: Mar. 16
+      date: '1962-03-16'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 calls the heads of the Planning and Science Commissions and the Metallurgy, Coal and Chemical Industry ministries and others, on Mar. 16, 17 and 20, hearing Lü Dong 吕东 on nonferrous metals and Xu Chi 徐驰 on rare metals: the errors of past years from no investigation, "情况不明决心大，胸中无数办法多"; mess halls called for because grain was puffed to 700 billion jin; steel in 1958 drew in iron, coal, mines, transport and metals; going against overall balance was "paying tuition."'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 179–180. The page''s note: Xu Chi, Vice-Minister of Metallurgy (IV, 179). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: a282a202
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 179–180: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-03-17.china-leadership-6
+      when: Mar. 17
+      date: '1962-03-17'
+      place: peking
+      thread: china-leadership
+      c: Peng Zhen 彭真 agrees with the Foreign Ministry that no foreign journalists or envoys be invited to the NPC's and CPPCC's coming sessions, and reports it to Zhou Enlai 周恩来.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 180. Made public: 2012. Names: Peng Zhen, Zhou Enlai.'
+      src:
+        c: bc340b0d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 180: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-03-20.china-leadership-10
+      when: Mar. 20
+      date: '1962-03-20'
+      time_range:
+      - 1962-03-20T04:00Z
+      - 1962-03-20T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 reports on the preparations for the National People's Congress's third session at the NPC Standing Committee's 全国人大常委会 fifty-first session, Zhu De 朱德 presiding; Zhu's draft report on the Standing Committee's work from April 1960 to March 1962 adopted.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 180. The words: 下午 (IV, 180). Names: Peng Zhen, Zhu De.'
+      src:
+        c: 49eca4b1
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 180: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhu-de
+- add:
+    entry:
+      id: cal.1962-03-22.china-leadership-9
+      when: Mar. 22
+      date: '1962-03-22'
+      time_range:
+      - 1962-03-21T22:00Z
+      - 1962-03-22T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, at the National People's Congress Standing Committee's 全国人大常委会 fifty-second session (enlarged), Zhu De 朱德 presiding, explains how the session is to be run, the stress on the groups, lively, all speaking freely.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 180. The words: 上午 (IV, 180). Names: Peng Zhen, Zhu De.'
+      src:
+        c: '46360561'
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 180: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhu-de
+- add:
+    entry:
+      id: cal.1962-03-22.china-leadership-10
+      when: Mar. 22
+      date: '1962-03-22'
+      time_range:
+      - 1962-03-22T04:00Z
+      - 1962-03-22T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 reports on the preparations at the preparatory meeting of the National People's Congress's third session, Zhu De 朱德 presiding; the agenda and the proposals committee adopted, a presidium of 93 elected, Peng among them and secretary-general; at the presidium's first meeting that afternoon Zhu De, Peng and twelve others chosen its executive chairmen.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 180–181. The words: 下午 (IV, 180–181). Names: Peng Zhen, Zhu De.'
+      src:
+        c: d7637780
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 180–181: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhu-de
+- add:
+    entry:
+      id: cal.1962-03-22.china-leadership-11
+      when: Mar. 22
+      date: '1962-03-22'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, having read a letter from the masses on the staff cuts, to Liu Ren 刘仁, Wan Li 万里 and Zheng Tianxiang 郑天翔: those whose homes are not in the villages not to have their wives and children forced back there; the letter to circulate in the Peking committee''s office.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 181. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 384f9f28
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 181: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-03-24.china-leadership-4
+      when: Mar. 24
+      date: '1962-03-24'
+      time_range:
+      - 1962-03-24T04:00Z
+      - 1962-03-24T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 at the Peking municipal committee''s 北京市委 Standing Committee on Liu Ren''s 刘仁 draft report to the enlarged committee, which is to sum up the lessons since the leap: let all speak, praise or criticize the committee; no pigtails grabbed; admit and correct errors plainly, "过而能改，善莫大焉"; gains and errors in due measure, tied to Peking; the "three red banners" and three years of disaster may be judged variously, the process not over; be ready to overturn the draft in part or whole.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 181. The words: 下午 (IV, 181). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 15efec4c
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 181: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-03-26.china-leadership-6
+      when: Mar. 26
+      date: '1962-03-26'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, having read in the General Office''s *Qunzhong fanying* 《群众反映》 a cadre''s letter that the delegates to the Peking committee''s enlarged meeting were given toothpaste and film tickets at the Xijiao Hotel 西郊宾馆, against the spirit of the Center''s enlarged meeting, to Liu Ren 刘仁, Wan Li 万里, Zheng Tianxiang 郑天翔 and others: if the reception office''s stock of toothpaste was passed out by the back door, it should not be; to be strictly prevented.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 181–182. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 9f5a00b6
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 181–182: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-03-27.china-leadership-5
+      when: Mar. 27–28
+      date: '1962-03-27'
+      time_range:
+      - 1962-03-26T22:00Z
+      - 1962-03-27T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'The Xijiao Hotel 西郊宾馆, Peking. Peng Zhen 彭真 at the Peking municipal committee''s 北京市委 enlarged plenum, over 800 leading cadres, interjecting in Liu Ren''s 刘仁 report: Fu Ying 傅鹰, a patriotic old professor who dares speak, to be heard; building land 400,000 to 500,000 mu, a sixth of the suburbs'' land, to be approved; each leader to take a good, a middling and a bad model; the intellectuals'' progress since 1958, academic views not political; "three no''s" for the people, not for class enemies; those criticized in the anti-rightist campaign reviewed; the Party branches in departments and workshops to guarantee and supervise, not lead; young cadres promoted.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 182–183. The time is the first day''s. The words: 上午 (IV, 182–183). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 120dae1c
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 182–183: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-02.china-leadership-6
+      when: Apr. 2
+      date: '1962-04-02'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, on the United Front Department''s 中央统战部 views on handling, abolishing and merging minority autonomous areas: to be printed for the Secretariat; the minorities'' leaders much displeased at those abolished and merged; best, in making big counties smaller, to restore some old counties and the abolished autonomous areas.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 185. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: b7ff3051
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 185: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-04.china-leadership-8
+      when: Apr. 4
+      date: '1962-04-04'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 speaks to the conveners of the sectors and groups of the Peking municipal committee''s 北京市委 enlarged meeting: Liu Ren''s report a brick to draw out jade, to be changed or overturned; faults chiefly the leaders'', not the masses''; those wrongly struggled against have reason to fume, what was right and wrong in each case to be set out, opposing mess halls and the supply system no fault, the Center answers for it; control commissioners men of Party spirit, not merely old; on the "three red banners" full, basic or reserved approval allowed; fear of a "counterattack" has a cause; full democracy in Party life, the minority to the majority, the whole Party to the Center.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 185–186. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 716b526d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 185–186: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-05.china-leadership-4
+      when: Apr. 5
+      date: '1962-04-05'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 calls the heads of the Planning and Economic Commissions and the State Council''s departments concerned, on Apr. 5 and 17, hearing Zhong Ziyun 钟子云 on coal: the Coal Ministry to cut gangue and ash by mine and pit; engineers, old workers and cadres together at key mines, past quarrels not dwelt on unless enemy or anti-Party questions; norms for construction time, for the "three quantities" (tunneling, reserves and output, so the page''s note) and for consumption of equipment and materials.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 186. The page''s note: Zhong Ziyun, Vice-Minister of the Coal Industry (IV, 186). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: bf4a6042
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 186: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-12.china-leadership-7
+      when: Apr. 12
+      date: '1962-04-12'
+      time_range:
+      - 1962-04-12T11:00Z
+      - 1962-04-12T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 at the enlarged meeting of the presidium of the National People''s Congress''s third session, Zhu De 朱德 presiding: 110 have asked to speak, oral, written and joint; four days not enough, the executive chairmen to extend the session; speeches morning and afternoon from that day, ten minutes each, some in writing; agreed.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 187. The words: 晚 (IV, 187). Made public: 2012. Names: Peng Zhen, Zhu De.'
+      src:
+        c: 8b01a496
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 187: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhu-de
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-15.china-leadership-5
+      when: Apr. 15
+      date: '1962-04-15'
+      time_range:
+      - 1962-04-14T22:00Z
+      - 1962-04-15T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 at the Peking municipal committee''s 北京市委 Standing Committee on the points of his speech to the enlarged meeting and its last two days: the 16th on "dispersionism," the 17th on reviewing the leftovers of excessive struggle.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 187. The words: 上午 (IV, 187). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: ef68d502
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 187: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-15.china-leadership-6
+      when: Apr. 15
+      date: '1962-04-15'
+      time_range:
+      - 1962-04-15T04:00Z
+      - 1962-04-15T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 speaks to the Peking municipal committee''s 北京市委 enlarged meeting: unity through criticism to new unity, but too little clash of views, the old lesson that leaders would not hear dissent; gains first, faults second, the committee chiefly responsible; most for holding the "three red banners" high, reservations allowed; new cadres to be raised, of virtue and ability; agriculture, light and heavy industry in that order; socialist construction to be learned anew by old and new cadres alike.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 187–188. A part printed in the *Selected Works of Peng Zhen* 《彭真文选》 as "Take care to train and promote new cadres" 《要注意培养提拔新干部》 (IV, 188). The words: 下午 (IV, 187–188). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 35e309fa
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 187–188: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-16.china-leadership-8
+      when: Apr. 16
+      date: '1962-04-16'
+      time_range:
+      - 1962-04-15T22:00Z
+      - 1962-04-16T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 presides at the fourth enlarged meeting of the presidium of the National People''s Congress''s third session: the draft resolutions on the government work report, the 1960 final accounts and the Standing Committee''s report, the budget committee''s and proposals committee''s reports and an added name for vice-chairman of the National Defense Council adopted.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 188–189. The words: 上午 (IV, 188–189). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 448252dd
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 188–189: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-16.china-leadership-9
+      when: Apr. 16
+      date: '1962-04-16'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 reads *Renmin ribao*''s 人民日报 editorial for the next day, "Unite and fight for new victories" 《团结奋斗争取新胜利》: the hardest time of three years of grave natural disaster past, the people to fight on under the line centered on adjustment.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 189. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 61cbfc82
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 189: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-16.china-leadership-10
+      when: Apr. 16
+      date: '1962-04-16'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De 朱德, Deng Xiaoping 邓小平 and others, is photographed with the teachers and students of the Central Higher Party School 中共中央高级党校.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 189. Made public: 2012. Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping.'
+      src:
+        c: 91d12208
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 189: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:zhu-de
+      - name:deng-xiaoping
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-18.china-leadership-4
+      when: Apr. 18
+      date: '1962-04-18'
+      time_range:
+      - 1962-04-17T22:00Z
+      - 1962-04-18T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 calls the heads of the Planning and Economic Commissions and the State Council''s departments concerned, hearing Xiao Guichang 萧桂昌: chemicals ever more important, to be planned for 20 and 30 million tons of steel; "three acids and two alkalis" (sulfuric, hydrochloric and nitric acid, soda and caustic soda, so the page''s note), fertilizer, fibers and nylon for food, clothing and use; the mines sent down taken back by the Chemical Industry Ministry, Tongguanshan 铜官山 and Baiyin 白银 first; scarce strategic goods not exported without limit; bold trials, untested techniques not spread; patents and equipment bought.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 190–191. The page''s note: Xiao Guichang, Vice-Minister of Chemical Industry (IV, 190). The words: 上午 (IV, 190–191). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: f8a3e02b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 190–191: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-21.china-leadership-5
+      when: Apr. 21
+      date: '1962-04-21'
+      place: peking
+      thread: china-leadership
+      c: 'Peng Zhen 彭真 to Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De 朱德 and Deng Xiaoping 邓小平, by letter, with the report of Cheng Zihua 程子华, Gu Mu 谷牧 and the Agricultural Machinery Ministry''s Party group on small power machines for plowing and hauling and the Nanle 南乐 institute''s report on walking tractors: draft animals short, the hardest problem soon to be solved; animals bred and machines made, big tractors and small walking tractors together; a leading group under Cheng Zihua, Gu Mu and Chen Zhengren 陈正人 deputies, with An Zhiwen 安志文, Liao Luyan 廖鲁言, Wang Zhen 王震, Wang Daohan 汪道涵, Sun Zhiyuan 孙志远 and Jia Tingsan 贾庭三.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 191. The page''s notes: Cheng Zihua, vice-chairman of the State Planning Commission; Wang Daohan, Vice-Minister of the First Machine-Building Ministry (IV, 191). Made public: 2012. Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Sun Zhiyuan.'
+      src:
+        c: 8164ee26
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 191: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:zhu-de
+      - name:deng-xiaoping
+      - name:sun-zhiyuan
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-23.china-leadership-5
+      when: Apr. 23
+      date: '1962-04-23'
+      thread: china-leadership
+      c: 'Zhou Enlai 周恩来, on Peng Zhen''s 彭真 letter on small tractors: Cheng Zihua 程子华, Gu Mu 谷牧 and Chen Zhengren 陈正人 agreed; if the walking tractor''s type is fixed in the third quarter, production to be set going in the fourth.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 191. Made public: 2012. See [[cal.1962-04-21.china-leadership-5]]. Names: Zhou Enlai, Peng Zhen.'
+      src:
+        c: bb6de2fd
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 191: all'
+      tags:
+      - polity:prc
+      - name:zhou-enlai
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-07-15.china-leadership-7
+      when: July 15
+      date: '1962-07-15'
+      thread: china-leadership
+      c: Peng Zhen 彭真 tells the leading group on small tractors it may begin its work, Zhang Youxuan 张有萱 added to it.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 191. The page''s note: Zhang Youxuan, vice-chairman of the State Science and Technology Commission (IV, 191). Made public: 2012. See [[cal.1962-04-21.china-leadership-5]]. Names: Peng Zhen.'
+      src:
+        c: d59800c8
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 191: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-22.china-leadership-2
+      when: Apr. 22
+      date: '1962-04-22'
+      time_range:
+      - 1962-04-21T22:00Z
+      - 1962-04-22T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 leads the National People's Congress delegation, Chen Shutong 陈叔通 and Zhang Zhizhong 张治中 its deputy heads, by train for a friendly visit to the Democratic People's Republic of Korea.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 191–192. The page''s notes on the members: Zhang Zhizhong, vice-chairman of the National Defense Council; Yang Mingxuan, vice-chairman of the Democratic League; Li Zhuchen, vice-chairman of the Federation of Industry and Commerce; Wang Ping, political commissar of the PLA Military Academy; Yang Zhihua, vice-chairman of the Women''s Federation (IV, 192). The words: 上午 (IV, 191–192). See [[cal.1962-04-23.china]]. Names: Peng Zhen.'
+      src:
+        c: 5f68cea1
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 191–192: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-04-23.china-leadership-6
+      when: Apr. 23
+      date: '1962-04-23'
+      time: 1962-04-23T07:00Z
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: Pyongyang 平壤. Peng Zhen 彭真 and the National People's Congress delegation, at Sinuiju 新义州 in the morning, reach Pyongyang at 4 p.m.; Peng speaks at the welcome.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 192. The words: 上午……新义州。下午四时，抵达首都平壤 (IV, 192). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 6b6919d3
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 192: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-04-23.china-leadership-7
+      when: Apr. 23
+      date: '1962-04-23'
+      time: 1962-04-23T09:00Z
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: Pyongyang 平壤. Peng Zhen 彭真 calls on Choe Yong-gon 崔庸健, chairman of the Standing Committee of the Supreme People's Assembly.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 192. The words: 下午六时 (IV, 192). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 1aee9614
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 192: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-04-24.china-leadership-10
+      when: Apr. 24
+      date: '1962-04-24'
+      time_range:
+      - 1962-04-23T21:00Z
+      - 1962-04-24T03:00Z
+      time_band: morning
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: 'Pyongyang 平壤. Peng Zhen 彭真 and the delegation lay wreaths at the Korean People''s Army martyrs'' tower, the Liberation Tower to the Soviet army and the Friendship Tower; Peng writes in its book: "the fighting friendship of the Chinese and Korean peoples, cemented in blood, evergreen."'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 192. The words: 上午 (IV, 192). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 8834f36f
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 192: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-04-24.china-leadership-11
+      when: Apr. 24
+      date: '1962-04-24'
+      time: 1962-04-24T08:00Z
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: 'Moranbong Youth Park 牡丹峰青年公园, Pyongyang. Peng Zhen 彭真 at the welcome rally of some 20,000, and speaks: China firmly backs the Korean people against America and their government''s efforts for peaceful reunification, which will surely triumph.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 192. The words: 下午五时 (IV, 192). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 2ac3a713
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 192: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-04-24.china-leadership-12
+      when: Apr. 24
+      date: '1962-04-24'
+      place: pyongyang
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, from Pyongyang 平壤, to the Center by telegram: the Korean welcome most warm; Chairman Kim Il Sung 金日成 most firm against modern revisionism.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 192. Made public: 2012. See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen, Kim Il Sung.'
+      src:
+        c: 96fe3843
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 192: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:kim-il-sung
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-04-25.china-leadership-5
+      when: Apr. 25
+      date: '1962-04-25'
+      time_range:
+      - 1962-04-24T21:00Z
+      - 1962-04-25T03:00Z
+      time_band: morning
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: 'Kim Il Sung Square 金日成广场, Pyongyang. Peng Zhen 彭真 at Pyongyang''s rally for the thirtieth anniversary of the founding of the Korean anti-Japanese guerrillas, reviews the People''s Army and the worker-peasant Red Guards of Pyongyang and South Pyongan, and speaks: a glorious day; the rally proof of the Korean people''s greater strength.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 192–193. The words: 上午 (IV, 192–193). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: b668e861
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 192–193: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-04-25.china-leadership-6
+      when: Apr. 25
+      date: '1962-04-25'
+      time_range:
+      - 1962-04-25T10:00Z
+      - 1962-04-25T13:00Z
+      time_band: evening
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: The Grand Theater 平壤大剧场, Pyongyang. Peng Zhen 彭真 and the delegation at the music and dance performance of the Korean Ministry of Culture in their welcome.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 193. The words: 晚 (IV, 193). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 8b8b227d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 193: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-04-26.china-leadership-10
+      when: Apr. 26
+      date: '1962-04-26'
+      time_range:
+      - 1962-04-26T10:00Z
+      - 1962-04-26T13:00Z
+      time_band: evening
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: The Okryu-gwan 玉流馆, Pyongyang. Peng Zhen 彭真 leads the delegation at the welcoming banquet of Choe Yong-gon 崔庸健, chairman of the Standing Committee of the Supreme People's Assembly, and speaks.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 193. The words: 晚 (IV, 193). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: af9c2369
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 193: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-04-27.china-leadership-11
+      when: Apr. 27
+      date: '1962-04-27'
+      time_range:
+      - 1962-04-26T21:00Z
+      - 1962-04-27T03:00Z
+      time_band: morning
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: Peng Zhen 彭真 leads the delegation to the Hwanghae 黄海 steel works, one of Korea's modern steel bases, and writes in its book; in the evening the delegation leaves Pyongyang 平壤 by train for Hamhung 咸兴 on the east coast.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 193. The time is the morning visit''s. The words: 上午……晚 (IV, 193). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 3449f87d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 193: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-04-28.china-leadership-12
+      when: Apr. 28
+      date: '1962-04-28'
+      time_range:
+      - 1962-04-27T21:00Z
+      - 1962-04-28T03:00Z
+      time_band: morning
+      time_zone: Asia/Pyongyang
+      place: hamhung
+      thread: china-leadership
+      c: Hamhung 咸兴. Peng Zhen 彭真 and the delegation arrive and Peng speaks at the welcome rally; they see the Hungnam 兴南 fertilizer works and the Ryongsong 龙城 machine works.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 193. The words: 上午 (IV, 193). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 799d5947
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 193: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-04-28.china-leadership-13
+      when: Apr. 28
+      date: '1962-04-28'
+      time_range:
+      - 1962-04-28T10:00Z
+      - 1962-04-28T13:00Z
+      time_band: evening
+      time_zone: Asia/Pyongyang
+      place: hamhung
+      thread: china-leadership
+      c: Hamhung 咸兴. Peng Zhen 彭真 at the welcoming banquet of Jong Jong-gi 郑钟基, chairman of the South Hamgyong people's committee, and Ri Jae-yun 李载允, chairman of the Workers' Party's provincial committee, and speaks.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 193. The words: 晚 (IV, 193). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 54a2f8ad
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 193: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-04-29.china-leadership-2
+      when: Apr. 29
+      date: '1962-04-29'
+      time_range:
+      - 1962-04-28T21:00Z
+      - 1962-04-29T03:00Z
+      time_band: morning
+      time_zone: Asia/Pyongyang
+      place: hamhung
+      thread: china-leadership
+      c: Hamhung 咸兴. Peng Zhen 彭真 and the delegation see the large vinalon works and the Kwangpo 广浦 duck farm; in the afternoon the joint performance of the South Hamgyong art theater and the Hamhung factories' and schools' amateur groups; leave for Pyongyang in the evening.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 193. The time is the morning visit''s. The words: 上午……下午……晚 (IV, 193). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: b12225e5
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 193: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-04-30.china-leadership-9
+      when: Apr. 30
+      date: '1962-04-30'
+      time_range:
+      - 1962-04-29T21:00Z
+      - 1962-04-30T03:00Z
+      time_band: morning
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: Pyongyang 平壤. Peng Zhen 彭真 and the delegation, back in Pyongyang, see the Pyongyang textile mill; in the afternoon the Chongsan-ri 青山里 cooperative and the Kiyang 歧阳 tractor works.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 193. The time is the morning visit''s. The words: 上午……下午 (IV, 193). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 22f2d17f
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 193: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-04-30.china-leadership-10
+      when: Apr. 30
+      date: '1962-04-30'
+      place: pyongyang
+      thread: china-leadership
+      c: Peng Zhen 彭真, by telegram, praises Kim Jong-sun 金贞顺, a woman member of a farm cooperative, lately made a Hero of the Republic with the First Class National Flag Order and the Gold Star.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 193. See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 3ce48913
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 193: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-05-01.china-leadership-5
+      when: May 1
+      date: '1962-05-01'
+      time: 1962-05-01T03:00Z
+      time_approx: true
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: Pyongyang 平壤. Peng Zhen 彭真 leads the delegation at the lunch of Kim Il 金一, First Vice-Premier, and visits Mangyongdae 万景台, Kim Il Sung's 金日成 home village.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 193. The words: 招待午宴 (IV, 193). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen, Kim Il Sung.'
+      src:
+        c: cb2d4db8
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 193: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:kim-il-sung
+- add:
+    entry:
+      id: cal.1962-05-02.china-leadership-3
+      when: May 2
+      date: '1962-05-02'
+      time_range:
+      - 1962-05-02T03:00Z
+      - 1962-05-02T09:00Z
+      time_band: afternoon
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: 'Pyongyang 平壤. Peng Zhen 彭真, having seen the Korean Revolutionary Museum and the industrial and agricultural exhibition in the morning, receives the First Class National Flag Order from the Standing Committee of the Supreme People''s Assembly; in reply: an encouragement to him, more a symbol of the two peoples'' friendship, thanks in the Chinese people''s name.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 193–194. The words: 下午 (IV, 193–194). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: c2b81a74
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 193–194: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-05-02.china-leadership-4
+      when: May 2
+      date: '1962-05-02'
+      time_range:
+      - 1962-05-02T10:00Z
+      - 1962-05-02T13:00Z
+      time_band: evening
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: The Okryu-gwan 玉流馆, Pyongyang. Peng Zhen 彭真 gives the delegation's farewell banquet.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 194. The words: 当晚 (IV, 194). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 626107b1
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 194: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-05-03.china-leadership-5
+      when: May 3
+      date: '1962-05-03'
+      time_range:
+      - 1962-05-02T21:00Z
+      - 1962-05-03T03:00Z
+      time_band: morning
+      time_zone: Asia/Pyongyang
+      place: pyongyang
+      thread: china-leadership
+      c: The station square, Pyongyang 平壤. Peng Zhen 彭真 at the send-off of the National People's Congress delegation, and speaks; after eleven days the delegation leaves by train for home.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 194. The words: 上午 (IV, 194). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: cfc7e34d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 194: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-05-04.china-leadership-4
+      when: May 4
+      date: '1962-05-04'
+      time_range:
+      - 1962-05-04T04:00Z
+      - 1962-05-04T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peng Zhen 彭真 leads the National People's Congress delegation back to Peking 北京 from Korea.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 194. The words: 下午 (IV, 194). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: f99ce64e
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 194: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-05-04.china-leadership-5
+      when: May 4
+      date: '1962-05-04'
+      place: peking
+      thread: china-leadership
+      c: '*Renmin ribao* 人民日报, Peking, prints the editorial "Eternal friendship" 《永恒的友谊》 for the National People''s Congress delegation''s visit to Korea.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 194. See [[cal.1962-04-22.china-leadership-2]].'
+      src:
+        c: 828a9f09
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 194: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1962-05-11.china-leadership-8
+      when: May 11
+      date: '1962-05-11'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 speaks at the May work conference: grain and cotton up only if farm and industrial goods are exchanged at equal value, high-priced goods sold while state grain prices stay low cannot last; collective economy held by pay for work, else disguised individual farming; in Peking''s suburbs collective land turned to private plots; reviews for the cadres below the county; leading cores at every level, the county the center at the base; cadres sent down to strengthen county and commune leadership.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 194–195. Made public: 2012. See [[cal.1962-05-07.china-leadership]]. Names: Peng Zhen.'
+      src:
+        c: 324766e2
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 194–195: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-05-08.china-leadership-6
+      when: May 8
+      date: '1962-05-08'
+      time_range:
+      - 1962-05-08T04:00Z
+      - 1962-05-08T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De 朱德, Deng Xiaoping 邓小平 and others, receives the nationality visiting groups of Yunnan, Sichuan, Qinghai, Guizhou and Gansu come for May Day, the members of the nationalities work conference and the year's graduates of the Xinjiang class of the Central Nationalities Institute.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 195. The words: 下午 (IV, 195). Names: Peng Zhen, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping.'
+      src:
+        c: 401f2b68
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 195: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:zhu-de
+      - name:deng-xiaoping
+- add:
+    entry:
+      id: cal.1962-05-08.china-leadership-7
+      when: May 8
+      date: '1962-05-08'
+      time_range:
+      - 1962-05-08T11:00Z
+      - 1962-05-08T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 gives a banquet thanking Han Ik-su 韩益洙, the Korean Ambassador, and his staff for the National People's Congress delegation's visit.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 195. The words: 晚 (IV, 195). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 22c769f3
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 195: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-05-10.china-leadership-5
+      when: May 10
+      date: '1962-05-10'
+      time_range:
+      - 1962-05-10T11:00Z
+      - 1962-05-10T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 and the members of the delegation to Korea at the banquet of Han Ik-su 韩益洙, the Korean Ambassador, for their return.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 195. The words: 晚 (IV, 195). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 3ad91a5f
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 195: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-05-14.china-leadership-6
+      when: May 14
+      date: '1962-05-14'
+      time_range:
+      - 1962-05-14T04:00Z
+      - 1962-05-14T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 reports on the National People''s Congress delegation''s visit to Korea to the NPC Standing Committee''s 全国人大常委会 fifty-fourth session (enlarged): "Long live the great friendship of the Chinese and Korean peoples, cemented in blood" 《中朝两国人民用鲜血凝成的伟大友谊万岁》.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 195. The words: 下午 (IV, 195). See [[cal.1962-04-22.china-leadership-2]]. Names: Peng Zhen.'
+      src:
+        c: 2297d8fd
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 195: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-05-28.china-leadership-6
+      when: May 28
+      date: '1962-05-28'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 reports to the national conference on nationalities work: religious freedom and the freedom to keep or reform customs are in the constitution, some places have fallen short; those coerced into the rebels to be taught, the target in democratic reform not too wide; feudal privileges of the monasteries ended, freedom of belief and unbelief kept; minority cadres wrongly struggled against rehabilitated; unity of all nationalities, a core of leaders, democratic centralism; food and clothing for 600 to 700 million need a thousand jin of grain a head, not three or five years'' work; an independent, complete modern economy.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 197–198. Printed in the *Selected Works of Peng Zhen* 《彭真文选》 as "All nationalities unite to build socialism" 《各民族团结起来建设社会主义》 (IV, 198). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: b9b3c3bb
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 197–198: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-07-22.china-leadership-11
+      when: July 22
+      date: '1962-07-22'
+      thread: china-leadership
+      c: The Central Committee's General Office 中共中央办公厅 prints the summary of Peng Zhen's 彭真 report of May 28 to the nationalities work conference for the regional bureaus, the provincial committees, the Tibet Work Committee and the central departments.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 198. Made public: 2012. See [[cal.1962-05-28.china-leadership-6]]. Names: Peng Zhen.'
+      src:
+        c: ad010dbc
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 198: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-05-29.china-leadership-4
+      when: May 29–June 6
+      date: '1962-05-29'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. The Peking Communist Party''s third congress 中共北京市第三届代表大会, 1,151 delegates, opens (to June 6): the lessons since the leap summed up in the spirit of the Seven Thousand, the eight-character line carried out; Liu Ren 刘仁 reports for the municipal committee; a resolution adopted; a third municipal committee of 47 members and 20 alternates elected, Peng Zhen 彭真 again first secretary, Liu Ren second.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 199. The time is the first day''s; the election''s day is not given. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 4d05221a
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 199: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-06-05.china-leadership-5
+      when: June 5
+      date: '1962-06-05'
+      time_range:
+      - 1962-06-05T11:00Z
+      - 1962-06-05T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 talks with the delegates to the Peking Party congress on the situation: the greatest difficulty the imbalance of industry and agriculture and too many townspeople, more than present farming can feed; boasting, high estimates and high procurement hid it, "我也是现在才认识到问题的严重性"; those eating commodity grain cut, 20 million workers to the villages; industry to support agriculture with fertilizer and machines; frugality in all things.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 199–200. The words: 晚 (IV, 199–200). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 5567ce1b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 199–200: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-06-08.china-leadership-9
+      when: June 8
+      date: '1962-06-08'
+      time_range:
+      - 1962-06-07T22:00Z
+      - 1962-06-08T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 presides at the National People's Congress Standing Committee's 全国人大常委会 fifty-fifth session, which hears Xie Fumin 谢扶民 on the nationalities work conference.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 200. The page''s note: Xie Fumin, member of the NPC Standing Committee, deputy chairman of its Nationalities Committee and vice-chairman of the State Nationalities Commission (IV, 200). The words: 上午 (IV, 200). Names: Peng Zhen.'
+      src:
+        c: 35d32741
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 200: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-06-11.china-leadership-5
+      when: June 11–19
+      date: '1962-06-11'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 presides at the first session of the fourth Peking People's Congress 北京市四届人大一次会议 (to June 19), which elects him mayor again.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 200. The day of the election is not given. Names: Peng Zhen.'
+      src:
+        c: f40181c3
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 200: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-06-16.china-leadership-6
+      when: June 16
+      date: '1962-06-16'
+      time_range:
+      - 1962-06-15T22:00Z
+      - 1962-06-16T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with Zhu De 朱德, Deng Xiaoping 邓小平 and others, meets at the station the delegation of the Supreme People's Assembly of Korea led by Pak Kum Chol 朴金喆, member of its Standing Committee and vice-chairman of the Korean Workers' Party, and speaks at the welcome.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 200. The words: 上午 (IV, 200). Names: Peng Zhen, Zhu De, Deng Xiaoping.'
+      src:
+        c: 282b218d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 200: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhu-de
+      - name:deng-xiaoping
+- add:
+    entry:
+      id: cal.1962-06-16.china-leadership-7
+      when: June 16
+      date: '1962-06-16'
+      time_range:
+      - 1962-06-16T04:00Z
+      - 1962-06-16T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真 accompanies Zhu De 朱德 in meeting Pak Kum Chol 朴金喆 and his delegation, and at the dinner.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 200. The words: 下午……并出席晚宴 (IV, 200). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Zhu De.'
+      src:
+        c: 8f994f1d
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 200: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhu-de
+- add:
+    entry:
+      id: cal.1962-06-17.china-leadership-5
+      when: June 17
+      date: '1962-06-17'
+      time_range:
+      - 1962-06-16T22:00Z
+      - 1962-06-17T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'The Great Hall of the People 人民大会堂, Peking. Peng Zhen 彭真, with Zhu De 朱德, Deng Xiaoping 邓小平 and others, at the meeting of more than 10,000 of Peking welcoming the Korean Supreme People''s Assembly''s delegation, and speaks: the two peoples neighbors sharing hardship, brothers of one purpose, their friendship forged in long common struggle, no force can break it.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 200. The words: 上午 (IV, 200). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Zhu De, Deng Xiaoping.'
+      src:
+        c: 80519ca3
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 200: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhu-de
+      - name:deng-xiaoping
+- add:
+    entry:
+      id: cal.1962-06-17.china-leadership-6
+      when: June 17
+      date: '1962-06-17'
+      time_range:
+      - 1962-06-17T11:00Z
+      - 1962-06-17T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. Peng Zhen 彭真, with Deng Xiaoping 邓小平 and others, accompanies the Korean delegation to the Peking Youth Peking Opera Troupe's *Sun Wukong Thrice Beats the White-Bone Demon* 《孙悟空三打白骨精》.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 201. The words: 晚 (IV, 201). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Deng Xiaoping.'
+      src:
+        c: 76b7215e
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 201: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+- add:
+    entry:
+      id: cal.1962-06-18.china-leadership-7
+      when: June 18
+      date: '1962-06-18'
+      time_range:
+      - 1962-06-17T22:00Z
+      - 1962-06-18T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: The Summer Palace 颐和园, Peking. Peng Zhen 彭真, with Deng Xiaoping 邓小平 and others, accompanies the Korean delegation.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 201. The words: 上午 (IV, 201). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Deng Xiaoping.'
+      src:
+        c: aa6fcdf3
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 201: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:deng-xiaoping
+- add:
+    entry:
+      id: cal.1962-06-18.china-leadership-8
+      when: June 18
+      date: '1962-06-18'
+      time_range:
+      - 1962-06-18T11:00Z
+      - 1962-06-18T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: The Great Hall of the People 人民大会堂, Peking. Peng Zhen 彭真, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhu De 朱德, Deng Xiaoping 邓小平 and others, sees the song and dance of the Korean State Art Theater, visiting Peking.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 201. The words: 晚 (IV, 201). Names: Peng Zhen, Liu Shaoqi, Dong Biwu, Zhu De, Deng Xiaoping.'
+      src:
+        c: 77c5a9f4
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 201: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:liu-shaoqi
+      - name:dong-biwu
+      - name:zhu-de
+      - name:deng-xiaoping
+- add:
+    entry:
+      id: cal.1962-06-19.china-leadership-7
+      when: June 19
+      date: '1962-06-19'
+      time_range:
+      - 1962-06-18T22:00Z
+      - 1962-06-19T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'The Great Hall of the People 人民大会堂, Peking. Peng Zhen 彭真 speaks to the delegates to the Peking People''s Congress, the Party congress''s delegates and the general branch secretaries of the municipal organs on overcoming the temporary difficulties with one heart: some errors against seeking truth from facts, some from inexperience; still "poor and blank," two-odd mu of land a head, farming can feed 90 million townspeople, there are 120 to 130 million; 20 million to the villages, which must place them.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 201. The words: 上午 (IV, 201). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: c58e8f12
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 201: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-06-20.china-leadership-6
+      when: June 20
+      date: '1962-06-20'
+      time_range:
+      - 1962-06-20T04:00Z
+      - 1962-06-20T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: wuhan
+      thread: china-leadership
+      c: Wuhan 武汉. Peng Zhen 彭真, accompanying the Korean Supreme People's Assembly's delegation to Wuhan and elsewhere, sees the Yangtze bridge and the Wuhan steel works with Wang Renzhong 王任重 and Zhang Tixue 张体学.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 201. The page''s note: Zhang Tixue, governor of Hubei (IV, 201). The words: 上午……前往武汉……下午 (IV, 201). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen.'
+      src:
+        c: a6ebddc8
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 201: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-06-21.china-leadership-4
+      when: June 21
+      date: '1962-06-21'
+      time_range:
+      - 1962-06-20T22:00Z
+      - 1962-06-21T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: wuhan
+      thread: china-leadership
+      c: East Lake 东湖, Wuhan 武汉. Peng Zhen 彭真 accompanies the Korean Supreme People's Assembly's delegation.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 202. See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen.'
+      src:
+        c: ab760089
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 202: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-06-22.china-leadership-6
+      when: June 22
+      date: '1962-06-22'
+      time_range:
+      - 1962-06-21T22:00Z
+      - 1962-06-22T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: shanghai
+      thread: china-leadership
+      c: Shanghai 上海. Peng Zhen 彭真 brings the Korean Supreme People's Assembly's delegation from Wuhan 武汉 to Shanghai; in the afternoon with Cao Diqiu 曹荻秋 takes it to the Shanghai Museum of Revolutionary History 上海革命历史纪念馆 and the Children's Palace 少年宫.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The page''s note: Cao Diqiu, secretary of the Shanghai committee''s Secretariat and vice-mayor of Shanghai (IV, 202). The words: 上午……下午 (IV, 202). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen.'
+      src:
+        c: 00da4426
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 202: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-06-22.china-leadership-7
+      when: June 22
+      date: '1962-06-22'
+      time_range:
+      - 1962-06-22T11:00Z
+      - 1962-06-22T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: shanghai
+      thread: china-leadership
+      c: Shanghai 上海. Peng Zhen 彭真 at the reception given by Cao Diqiu 曹荻秋 for the Korean delegation and the Korean State Art Theater, then visiting Shanghai.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The words: 晚上 (IV, 202). See [[cal.1962-06-22.china-leadership-6]]. Names: Peng Zhen.'
+      src:
+        c: 7db7477b
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 202: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-06-23.china-leadership-6
+      when: June 23
+      date: '1962-06-23'
+      time_range:
+      - 1962-06-22T22:00Z
+      - 1962-06-23T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: shanghai
+      thread: china-leadership
+      c: Culture Square 文化广场, Shanghai 上海. Peng Zhen 彭真, with Cao Diqiu 曹荻秋, Shi Ximin 石西民, Liu Shuzhou 刘述周 and others, accompanies the Korean Supreme People's Assembly's delegation to Shanghai's welcome meeting of more than 10,000; then with Cao to the Shanghai industrial exhibition 上海工业展览会.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The page''s notes: Shi Ximin, alternate secretary of the Shanghai committee''s Secretariat; Liu Shuzhou, alternate secretary of the Secretariat and vice-mayor of Shanghai (IV, 202). The words: 上午 (IV, 202). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen.'
+      src:
+        c: bce0d1c4
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 202: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-06-23.china-leadership-7
+      when: June 23
+      date: '1962-06-23'
+      time_range:
+      - 1962-06-23T04:00Z
+      - 1962-06-23T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: hangzhou
+      thread: china-leadership
+      c: Hangzhou 杭州. Peng Zhen 彭真 brings the Korean delegation from Shanghai 上海 to Hangzhou; with Jiang Hua 江华 and others takes it to the Du Jinsheng silk weaving works 都锦生丝织厂 and, in the rain, round West Lake 西湖.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The words: 下午 (IV, 202). See [[cal.1962-06-23.china-leadership-6]]. Names: Peng Zhen.'
+      src:
+        c: fa1198b7
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 202: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-06-23.china-leadership-8
+      when: June 23
+      date: '1962-06-23'
+      time_range:
+      - 1962-06-23T11:00Z
+      - 1962-06-23T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: hangzhou
+      thread: china-leadership
+      c: Hangzhou 杭州. Peng Zhen 彭真 at the welcome banquet given for the Korean delegation by Zhou Jianren 周建人, governor of Zhejiang 浙江.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The words: 晚 (IV, 202). See [[cal.1962-06-23.china-leadership-6]]. Names: Peng Zhen.'
+      src:
+        c: c384a0c9
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 202: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-06-24.china-leadership-7
+      when: June 24
+      date: '1962-06-24'
+      time_range:
+      - 1962-06-24T04:00Z
+      - 1962-06-24T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peng Zhen 彭真 brings the Korean Supreme People's Assembly's delegation back from Hangzhou 杭州 to Peking 北京.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 203. The words: 下午 (IV, 203). See [[cal.1962-06-23.china-leadership-6]]. Names: Peng Zhen.'
+      src:
+        c: 65989ce9
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 203: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-06-29.china-leadership-9
+      when: June 29
+      date: '1962-06-29'
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真, for the National People''s Congress Standing Committee 全国人大常委会, presents to the Korean Supreme People''s Assembly''s Standing Committee twelve old Korean books held by the Ministry of Culture 文化部: block-printed, movable-type, manuscript and painted works of history, literature and medicine.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 203. See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen.'
+      src:
+        c: 93d81c14
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 203: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-06-30.china-leadership-5
+      when: June 30
+      date: '1962-06-30'
+      time_range:
+      - 1962-06-29T22:00Z
+      - 1962-06-30T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Peking Station 北京车站. Peng Zhen 彭真, with Zhu De 朱德, Deng Xiaoping 邓小平 and others, sees off Pak Kum Chol's 朴金喆 Korean Supreme People's Assembly's delegation, and speaks at the farewell.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 203–204. The words: 上午 (IV, 203–204). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Zhu De, Deng Xiaoping.'
+      src:
+        c: dedd9ca6
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 203–204: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhu-de
+      - name:deng-xiaoping
+- add:
+    entry:
+      id: cal.1962-07-12.china-leadership-6
+      when: July 12
+      date: '1962-07-12'
+      time_range:
+      - 1962-07-11T22:00Z
+      - 1962-07-12T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Peking 北京. Peng Zhen 彭真 meets the Pakistani Ambassador, Rashidi 拉希迪, recalled home: without high economic development and economic independence no full political independence; China confident of building itself by its own labor; Asian and African countries to live in friendship and help one another on the spirit of Bandung and the five principles.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 205. The words: 上午 (IV, 205). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: b0636570
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 205: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc+pakistan
+- add:
+    entry:
+      id: cal.1962-07-18.china-leadership-5
+      when: July 18
+      date: '1962-07-18'
+      thread: china-leadership
+      c: 'Peng Zhen 彭真, on a letter from the public that the Peking 北京 screening and rehabilitation of cadres is not thorough: rehabilitation clear and clean, in full where wholly wrong, in part where partly; where not warranted, the reasons stated and the verdict upheld; to Liu Ren 刘仁 and Chen Peng 陈鹏 to handle.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 206. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 5e95dc17
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 206: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-07-22.china-leadership-12
+      when: July 22
+      date: '1962-07-22'
+      time_range:
+      - 1962-07-21T22:00Z
+      - 1962-07-22T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'The Great Hall of the People 人民大会堂, Peking 北京. Peng Zhen 彭真 speaks to more than 20,000 of the year''s graduates of Peking''s colleges and technical schools: choose the socialist road, work for the 650 million; study Marxism-Leninism and Mao Zedong Thought, join the workers and peasants, become intellectuals of the working class; personal wishes and the country''s needs; take history''s necessary road.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 206. Printed in the *Selected Works of Peng Zhen* 《彭真文选》 as "Take history''s necessary road of one''s own accord" 《自觉地走历史必由之路》 (IV, 206). The words: 上午 (IV, 206). Names: Peng Zhen.'
+      src:
+        c: '16879431'
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 206: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+- add:
+    entry:
+      id: cal.1962-07-23.china-leadership-7
+      when: July 23
+      date: '1962-07-23'
+      thread: china-leadership
+      c: 'The Peking committee of the Party 中共北京市委 asks Mao, the Center 中共中央 and the North China Bureau 华北局 for help with industry: streamlining has unsettled people and there is no money for the techniques of quality and variety; industrial output in the first half 24.7 percent below the year before, local industry''s 28 percent; 10 million yuan asked, to bring tens of millions in output that year; the projects to the State Planning Commission 国家计委.'
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 207. Under Peng Zhen''s day; his part in the report is not stated. Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 7239f0ae
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 207: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-07-25.china-leadership-7
+      when: July 25
+      date: '1962-07-25'
+      time_range:
+      - 1962-07-25T04:00Z
+      - 1962-07-25T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: beidaihe
+      thread: china-leadership
+      c: Beidaihe 北戴河. Peng Zhen 彭真 reaches Beidaihe; there, before his return to Peking 北京 in late August, at a series of meetings.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 207. The words: 下午 (IV, 207). Made public: 2012. Names: Peng Zhen.'
+      src:
+        c: 2a10c219
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 207: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1962-08-04.china-leadership-5
+      when: Aug. 4
+      date: '1962-08-04'
+      time_range:
+      - 1962-08-04T04:00Z
+      - 1962-08-04T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      place: beidaihe
+      thread: china-leadership
+      c: Beidaihe 北戴河. Peng Zhen 彭真, with Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, hears Luo Ruiqing 罗瑞卿 on the defense industry.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 209. The words: 下午 (IV, 209). Made public: 2012. See [[cal.1962-07-25.china-leadership-7]]. Names: Peng Zhen, Zhou Enlai, Deng Xiaoping, Luo Ruiqing.'
+      src:
+        c: 7b991764
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 209: all'
+      tags:
+      - polity:prc
+      - name:peng-zhen
+      - name:zhou-enlai
+      - name:deng-xiaoping
+      - name:luo-ruiqing
       - vis:only:prc
 - cite:
     id: cal.1960-01-06.china-leadership-4
@@ -7627,3 +9661,315 @@ ops:
 - cite:
     id: cal.1961-12-01.china-leadership
     item: '[[w.peng-zhen-nianpu-1902]], IV, 161 (Dec. 1, 1961, before the session; Peng Zhen presides at a forum of NPC Standing Committee members on putting off this year''s Congress, proposing a joint meeting of the NPC and the CPPCC in January 1962)'
+- cite:
+    id: cal.1961-12-16.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 164 (Dec. 16, 1961; Peng Zhen at the Secretariat on preparing the work conference and on the Secretariat''s report to Mao and the Standing Committee on a selection of the Center''s documents since 1958 and "Comrade Mao Zedong on the general line of socialist construction and the struggle between the two lines")'
+- cite:
+    id: cal.1961-12-16.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 164 (Dec. 16, 1961; the Secretariat''s report, discussed at its meeting with Peng Zhen there)'
+- cite:
+    id: cal.1961-12-19.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 164 (Dec. 19, 1961; Peng Zhen at the forty-eighth enlarged session hearing Zhou''s preliminary government work report on the situation at home and abroad)'
+- cite:
+    id: cal.1961-12-20.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 164 (Dec. 20, 1961–Jan. 10, 1962; Peng Zhen attends; the world, the home situation, the 1962 and long-term plans, commerce, the basic accounting unit, Party work; to prepare the enlarged work conference)'
+- cite:
+    id: cal.1961-12-21.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 165 (Dec. 21, 1961; Peng Zhen at the plenary hearing Deng relay Mao''s estimate of the situation, and Deng''s long speech)'
+- cite:
+    id: cal.1961-12-28.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 165 (Dec. 28, 1961; Peng Zhen at the plenary hearing Zhou''s report on the situation and the work of 1962)'
+- cite:
+    id: cal.1961-12-29.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 165 (Dec. 29, 1961, morning; Peng Zhen at the Secretariat on *Renmin ribao*''s New Year editorial for 1962 and other articles)'
+- cite:
+    id: cal.1962-01-08.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 166 (Jan. 8, 1962; the 311th meeting; Peng Zhen there; Yang Shangkun''s arrangements for the enlarged work conference opening on the 11th agreed; the Center''s statement condemning the American government''s anti-Communist outrages and backing the American Communist Party (the page''s note: the Supreme Court''s ruling of June 1961 that the party is a "foreign agent," to register from Feb. 1, 1962, which it refuses))'
+- cite:
+    id: cal.1962-01-11.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 166–167 (Jan. 11–Feb. 7, 1962; Peng Zhen attends; 7,118 present from the regional bureaus, the central departments, the provincial, prefectural and county committees, key enterprises and the army (the "Seven Thousand"); Liu Shaoqi''s written report of Jan. 27, the Center taking responsibility; Mao speaks on the 30th; Liu, Lin Biao, Mao, Zhou, Zhu De, Deng and Chen Yun speak in plenary or in the provincial groups; Peng at the Secretariat, the drafting committee and the Zhejiang group)'
+- cite:
+    id: cal.1962-01-11.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 167 (Jan. 11, 1962; the 312th meeting; Deng on the groups'' reactions to Liu''s draft report and Mao''s instruction of the 10th: not to hurry with the report, consult the majority, revise, then report; Peng: the report good; these years'' bad luck from targets too high and boasting; after Lushan in 1959 the fight against the "left" should have gone on; "dispersionism" mostly blindness, high targets and blind command, not all bourgeois; the responsibility first the Secretariat''s, then some of the Standing Committee''s; he agrees with Chairman Mao that Mao''s own share not be dodged; to name the leaders'' faults raises, not lowers, their prestige; the "three no''s" (the page''s note: no pigtails grabbed, no clubs, no labels))'
+- cite:
+    id: cal.1962-01-17.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 168 (Jan. 17–24, 1962; Peng Zhen at the drafting committee revising Liu''s report)'
+- cite:
+    id: cal.1962-01-18.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 168–169 (Jan. 18, 1962; Peng: the gains told fully, the errors thoroughly; "dispersionism" first the Center''s, its departments'' many kinds, then the localities''; not all bourgeois, as Peking''s processing for others (the page''s note: the Peking No. 1 Machine Tool Works'' work on others'' materials, wrongly called "bourgeois thinking" in the draft); 1960 a year of high targets, estimates, procurement and exports; the eight-character line of early 1961 without measures, a year late; the Secretariat first responsible; the errors of Chairman Mao, Shaoqi and the Standing Committee included where due; the three-to-five-year transition and the mess halls approved by Mao; Mao''s prestige if not Everest then Mount Tai, a few tons of earth taken away it is as high; not to examine even one percent, one thousandth, of his errors would leave a bad mark)'
+- cite:
+    id: cal.1962-01-19.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 169 (Jan. 19, 1962, afternoon; Chen Boda: Peng Zhen''s words on Mao "值得研究"; must Mao answer for all the mess? Peng at once: the impression must not be given that all may be criticized but Chairman Mao)'
+- cite:
+    id: cal.1962-01-25.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 169 (Jan. 25, 1962, afternoon; Peng Zhen at the enlarged Politburo, Liu Shaoqi presiding, which in the main approves the revised report; Mao: "赞成这个方向")'
+- cite:
+    id: cal.1962-01-27.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 169 (Jan. 27, 1962, afternoon; Peng Zhen at the plenary, Mao presiding; on Mao''s view Liu''s written report printed and Liu explains it orally: three years'' fall in farm output large, industry down over 40 percent in 1961, "a great saddle"; natural disasters and errors since 1958, in some areas the errors chief)'
+- cite:
+    id: cal.1962-01-27.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 169–170 (Jan. 27, 1962; Liu: "三分天灾，七分人祸" as Hunan peasants say of some places; the "three red banners" kept, to be judged after five or ten years; wrong slogans such as "人有多大胆，地有多高产" and "conditions-only theory" corrected; Mao arranges the coming days)'
+- cite:
+    id: cal.1962-01-28.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 170 (Jan. 28, 1962, morning; Peng Zhen at the Secretariat on Deng''s speech to the conference)'
+- cite:
+    id: cal.1962-01-29.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 170 (Jan. 29, 1962, afternoon; Peng Zhen at the plenary, Mao presiding; Lin Biao: the difficulties came from not acting on Mao''s instructions, warnings and thought, work goes well when Mao''s thought is not interfered with; Mao: "a very good speech," to be put in order; Mao extends the conference over the Spring Festival for "venting" meetings, the prefectural and county cadres being afraid to speak of the provincial leaders)'
+- cite:
+    id: cal.1962-01-30.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 170 (Jan. 30, 1962, afternoon; Mao''s speech on democratic centralism and the laws of socialist construction, taking responsibility for the errors; Peng Zhen there)'
+- cite:
+    id: cal.1962-02-01.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 171 (Feb. 1, 1962, evening; Peng Zhen at Mao''s enlarged Standing Committee hearing the North China, Northeast and East China regions on their "venting" meetings; the conference extended past the Spring Festival)'
+- cite:
+    id: cal.1962-02-02.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 171 (Feb. 2, 1962, evening; Peng Zhen at Mao''s enlarged Standing Committee hearing the Northwest, Central-South and Southwest; Peng and Deng propose easing the tension in Party life, no "venting" meetings below the county; Mao accepts; the provincial leaders to make self-criticisms on Feb. 3 to end this stage)'
+- cite:
+    id: cal.1962-02-05.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 171–172 (Feb. 5, 1962, morning; the 313th meeting; Peng Zhen there; the main points of Zhou''s and Deng''s speeches agreed; Peng: the conference let the leaders above the county criticize the Center freely and the Center took the blame; in relaying it, no "venting" at the county, spring sowing near and landlords and rich peasants might use it; on Zhou''s outline, staff cuts after investigation under the "five fixes" (the page''s note: product and scale, staff and organs, consumption and supply of materials, fixed and working capital, cooperation), the central administration cut too; imported grain given up as early as possible)'
+- cite:
+    id: cal.1962-02-05.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 172 (Feb. 5, 1962, evening; Peng Zhen at the General Political Department''s gala in the Great Hall for support of the government and the people)'
+- cite:
+    id: cal.1962-02-06.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 172 (Feb. 6, 1962, afternoon; Peng Zhen at the plenary, Mao presiding, hearing Deng on the Secretariat''s responsibility and the Party''s good tradition)'
+- cite:
+    id: cal.1962-02-07.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 173 (Feb. 7, 1962, afternoon; Peng Zhen at the plenary, Mao presiding, hearing Zhou on the difficulties and how to overcome them; the resolution on Liu Shaoqi''s report adopted, the conference closes)'
+- cite:
+    id: cal.1962-02-12.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 173–174 (Feb. 12, 1962, afternoon; the 314th meeting; Peng Zhen there, Zhou attending; work after the conference, cutting the town population and livelihood; Peng: high-priced goods help a little, but state shops not to compete with the free market; the worker-peasant alliance rests on exchange of products, industrial goods to the villages to take back currency; the cadres below the county do the real work, but in each campaign their faults are totted up and they are dealt with by batches, wives and children too; no more of it)'
+- cite:
+    id: cal.1962-02-11.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 174 (Feb. 13, 1962, morning; Peng Zhen, with Zhou Enlai, Chen Yun, Deng Xiaoping, Dong Biwu and more than 2,500 of the capital, at the public memorial for Li Kenong in the Zhongshan Tang; earlier, with Zhou, Yang Shangkun and others, at the Union Hospital to take leave of his body (the page''s note: Li Kenong, 1899–1962, member of the Central Committee, head of its Investigation Department and a deputy chief of the General Staff; died Feb. 9))'
+- cite:
+    id: cal.1962-02-18.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 174 (Feb. 18, 1962; Peng Zhen receives Zhou''s letter to Deng and Peng on the Foreign Ministry''s telegram: since the CPSU''s Twenty-second Congress the railway staff at the border stations stiff toward the Soviets, anti-Soviet feeling, anti-Soviet pictures found on trains; the four border provinces told by telephone; check groups led by public security to Qiqihar, Manzhouli, Suifenhe, Dalian, Erlian and Jining for a month)'
+- cite:
+    id: cal.1962-02-21.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 175 (Feb. 21–23, 1962; Peng Zhen at Liu Shaoqi''s enlarged Standing Committee in the Xilou (the "Xilou meeting") on the 1962 budget and the economy: farm output down, the market tight, prices up, inflation, a deficit of over 3 billion yuan, worse than thought at the Seven Thousand; an extraordinary time, agriculture first; ten years, first adjustment and recovery, then growth; Chen Yun speaks on the 23rd; Chen Yun, Li Fuchun and Li Xiannian to relay it to the State Council''s Party groups)'
+- cite:
+    id: cal.1962-02-22.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 175 (Feb. 22, 1962, morning; the 315th meeting; Peng Zhen there, Zhou attending; adopted: the streamlining group''s proposals for state organs, democratic parties and mass bodies; the finance and trade staff cut; the foreign affairs office''s report; a central streamlining group of eight under Yang Shangkun, Xi Zhongxun among them; a state organs establishment group of seven under Tan Zhenlin; Deng Zihui''s report on state farms forwarded; Peng: in hard times the leading organs not to throw out ideas without investigation; staff cut to raise productivity; old and weak cadres placed with care, "天怒人怨" otherwise (Deng: in many ways))'
+- cite:
+    id: cal.1962-02-24.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 175–176 (Feb. 24, 1962, afternoon; Peng Zhen, with Zhou Enlai, Chen Yun, Deng Xiaoping, Li Fuchun, Li Xiannian, Chen Boda, Kang Sheng, Yang Shangkun and others, at Liu Shaoqi''s meeting settling his written and oral reports)'
+- cite:
+    id: cal.1962-02-28.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 176 (Feb. 28, 1962, afternoon; the 316th meeting; Peng Zhen there; the Central Control Commission and the Organization Department to draft a decision on strengthening the Party''s control work; the Planning and Economic Commissions to see to support of agriculture and the "Seventy Articles on industry"; Xinhua''s domestic branches under the head office; more copies of *Renmin ribao*; Peng: Party committees on line, policy and plan, government work strengthened; production the key to town–country and worker–peasant tensions; a Party committee meeting each quarter, as Chairman Mao says; control work on new problems, the past endless)'
+- cite:
+    id: cal.1962-03-03.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 177 (Mar. 3, 1962, afternoon; Peng Zhen at Liu Shaoqi''s meeting on the CPSU''s letter on Soviet–Chinese relations and the answer to the PKI''s letter, both to be drafted by the International Liaison Department; a Foreign Ministry paper on Laos; Zhou, back that day from Canton, on the Military Commission''s Standing Committee meeting there)'
+- cite:
+    id: cal.1962-03-05.china-leadership-9
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 177 (Mar. 5, 1962, afternoon; Peng Zhen, with Kang Sheng, Wang Jiaxiang and Yang Shangkun, at Deng''s meeting on the Center''s draft reply to the PKI Central Committee)'
+- cite:
+    id: cal.1962-03-09.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 178 (Mar. 9, 1962, afternoon; the 317th meeting; Peng Zhen there, Zhou attending; Xu Bing''s list of those sitting in at the CPPCC and Zhang Su''s plan for the NPC session agreed; Peng: a secretary from each province to come to answer questions, the ministries to answer for their own; Li Fuchun to lead a work group to Changchun on streamlining and the Seventy Articles)'
+- cite:
+    id: cal.1962-03-09.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 178 (Mar. 10, 1962; Peng Zhen at the Secretariat again; Zhou''s proposal agreed, Tan Zhenlin to Zhengzhou to work with Tao Zhu on Henan''s alkaline soil, water disputes and Yellow River floods)'
+- cite:
+    id: cal.1962-03-12.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 178–179 (Mar. 12 and 13, 1962, afternoons; Peng Zhen at Liu Shaoqi''s enlarged Standing Committee on the Center''s urgent directive on getting through the spring famine and the grain shortage and its urgent rules on economy, and the comment forwarding the speeches of Chen Yun, Li Xiannian and Li Fuchun to the State Council''s Party groups on Feb. 26 (the page''s note, which prints the year as 1961: Chen Yun''s "The present financial and economic situation and some ways of overcoming the difficulties," Li Xiannian''s on finance, credit and the market, Li Fuchun''s on industry and the speed of construction); on the 13th the Central Finance and Economics Group recast, Chen Yun its head, Li Fuchun deputy, on Liu''s proposal; Liu: Mao away, to be reported to him at once)'
+- cite:
+    id: cal.1962-03-18.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 179 (Mar. 18, 1962; the papers issued after Liu, Zhou and Deng reported to Mao at Wuhan on the 16th; Mao agrees that the three speeches go to the province and army level and that Chen Yun head the group)'
+- cite:
+    id: cal.1962-03-15.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 179 (Mar. 15, 1962, morning; Peng Zhen at the Secretariat, Zhou and others attending, on the first draft of the Center''s reply to the CPSU''s letter of Feb. 22)'
+- cite:
+    id: cal.1962-03-19.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 180 (Mar. 19, 1962, afternoon; Peng Zhen at Liu Shaoqi''s meeting of the Standing Committee and the Secretariat on the NPC presidium, its secretaries-general and the CPPCC''s executive chairmen and staff)'
+- cite:
+    id: cal.1962-03-21.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 180 (Mar. 21, 1962, morning; Peng Zhen presides at the meeting of the Party members of the NPC and the CPPCC)'
+- cite:
+    id: cal.1962-03-21.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 180 (Mar. 21, 1962, afternoon; Peng Zhen at the eighteenth Supreme State Conference, Liu Shaoqi presiding: Liu on the enlarged work conference, Zhou on his government work report; Liu proposes the capitalists'' fixed interest be extended three years)'
+- cite:
+    id: cal.1962-03-23.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 181 (Mar. 23–Apr. 18, 1962; Peng Zhen at the CPPCC''s session)'
+- cite:
+    id: cal.1962-03-26.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 182 (Mar. 26, 1962, afternoon; Peng Zhen at the Politburo on Zhou''s draft government work report, the 1961 plan''s results and the main statistics for 1961)'
+- cite:
+    id: cal.1962-03-27.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 183 (Mar. 27–Apr. 16, 1962; Peng Zhen attends; on the 27th, afternoon, with Mao, Liu Shaoqi, Song Qingling, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping and others at the opening, one of the executive chairmen; Zhou''s report, its part on the world and foreign policy; on the 28th the part on the home situation; after the groups and the plenary speeches the session closes the afternoon of Apr. 16)'
+- cite:
+    id: cal.1962-03-29.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 183–184 (Mar. 29, 1962, morning; the 318th meeting; after Chen Zhengren on Henan''s salinization: the agricultural sector''s conclusion on the damage of Yellow River irrigation in Henan, Shandong and Hebei agreed, channels filled in by the communes'' choice to regain land; grain and money for Henan; Henan committee''s staffing by Li Fuchun and the Central-South Bureau; past errors for lessons, not pursued, those since the enlarged conference strictly dealt with; Henan''s cases reversed in the army''s way, all but the clearly right; Party discipline by the rules of cadre management, legal punishment by the higher courts, as Liu Shaoqi says; Peng: rehabilitation by the mass line; no more "venting" meetings in any trade during the NPC)'
+- cite:
+    id: cal.1962-04-01.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 184 (Apr. 1, 1962; the page''s note: Zhou tells Wu Zhipu, first secretary of the Henan committee, the Center will give 390 million jin of grain and 20 million yuan of relief before the end of June)'
+- cite:
+    id: cal.1962-03-31.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 184–185 (Mar. 31, 1962, afternoon; Peng Zhen at Liu Shaoqi''s enlarged Standing Committee on the Finance and Trade Office''s report on finance and credit in 1961 and the Center''s line for 1962, "balance within the year, some currency withdrawn")'
+- cite:
+    id: cal.1962-04-05.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 186 (Apr. 5, 1962, afternoon; Peng Zhen sits in at Liu Shaoqi''s Standing Committee on the draft replies to the CPSU and to the Indonesian, Vietnamese, Swedish, British and New Zealand parties)'
+- cite:
+    id: cal.1962-04-07.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 186 (Apr. 7, 1962, afternoon; Peng Zhen at Liu Shaoqi''s enlarged Politburo, which adopts the replies to the CPSU and to the PKI)'
+- cite:
+    id: cal.1962-04-09.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 187 (Apr. 9, 1962; Peng Zhen at the second meeting of the eighteenth Supreme State Conference on Liu Shaoqi''s report of Mar. 21 on the Seven Thousand; Mao: the conference made a first summing-up of errors, gains and lessons, "究竟正确不正确，要在今后的实践中去考验")'
+- cite:
+    id: cal.1962-04-15.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 188 (Apr. 15, 1962; Peng Zhen, with Zhou Enlai, Shen Junru, Li Weihan, Xi Zhongxun, Yang Shangkun and others, at the public memorial for Ma Xiwu at the Jiaxing Temple, Peking (the page''s note: Ma Xiwu, 1889–1962, Vice-President of the Supreme People''s Court and member of the CPPCC; died Apr. 10))'
+- cite:
+    id: cal.1962-04-16.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 189 (Apr. 16, 1962, afternoon; Peng Zhen, with Mao, Liu Shaoqi, Song Qingling, Dong Biwu, Zhu De, Zhou Enlai and others, at the closing, Zhu De presiding; after Zhou''s answers the report adopted unanimously; Cai Tingkai appointed a vice-chairman of the National Defense Council)'
+- cite:
+    id: cal.1962-04-17.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 189 (Apr. 17 and 18, 1962; the 319th meeting; rehabilitating cadres wrongly criticized in the campaigns against right deviation, "pulling up white flags" and the democratic revolution''s "make-up lessons"; Peng: the localities slow, the cases varied; of over 10,000 cadres under the Center and the Peking committee over 80 criticized these years, of the 800 at the enlarged meeting some ten most aggrieved; wholly wrong, wholly reversed; partly, partly; those who would exploit it, though rightly treated, to be criticized)'
+- cite:
+    id: cal.1962-04-23.china
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 191–193 (Apr. 22–May 3, 1962; Peng Zhen leads the NPC delegation (Chen Shutong and Zhang Zhizhong deputy heads; Yang Mingxuan, Li Zhuchen, Zhang Su, Liu Lanbo, Wang Ping and Yang Zhihua members; Yao Qin secretary-general) to Korea; Kim Il Sung, Premier and chairman of the Korean Workers'' Party, receives it at noon on Apr. 24 and gives it lunch)'
+- cite:
+    id: cal.1962-05-05.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 194 (May 5, 1962, afternoon; Peng Zhen at the meeting hearing Gu Mu on the regional economic commission directors'' meeting; his outline and the views on materials management to be printed for the coming work conference)'
+- variant:
+    id: cal.1962-05-05.china-leadership
+    unit: A
+    witness: w.peng-zhen-nianpu-1902
+    reads: the meeting an enlarged Politburo Standing Committee, Liu Shaoqi presiding ("出席刘少奇主持的中共中央政治局常委扩大会议")
+    at: IV, 194
+- cite:
+    id: cal.1962-05-07.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 194–195 (May 7–11, 1962 (the "May conference"); Peng Zhen attends; the Central Finance and Economics Group''s draft report on the 1962 adjustment plan; the decision to carry out the eight-character line by a sweeping adjustment, agriculture, light and heavy industry in order, the industrial front shortened, town population and staff cut, the market supplied, inflation stopped; Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Li Fuchun, Li Xiannian, Yao Yilin and Deng Zihui speak)'
+- cite:
+    id: cal.1962-05-12.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 195 (May 12, 1962, afternoon; the 320th meeting; Peng Zhen there, Zhou attending; Liu Lantao on the flight of Xinjiang''s border minorities into the Soviet Union and the line for handling it; Li Fuchun and Li Xiannian to relay the May conference to central cadres of division head and up)'
+- cite:
+    id: cal.1962-05-15.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 196 (May 15, 1962, afternoon; the 321st meeting; Peng Zhen there; state farms, supply and marketing cooperatives, fishing)'
+- cite:
+    id: cal.1962-05-17.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 196 (May 17, 1962, afternoon; the 322nd meeting; Peng Zhen there, Zhou attending; the united front and nationalities work conferences reported; the United Front Department to write a report and draft comment; Ulanhu''s, Li Weihan''s, Xu Bing''s and Liu Chun''s (the page''s note: deputy head of the United Front Department and vice-chairman of the Nationalities Commission) report agreed; the pastoral communes'' rules revised; Xie Fuzhi to settle the placing and return of those drifted into Qinghai; Peng: autonomous prefectures and counties not lightly abolished; dead rightists who reformed well to have the label removed, the living too)'
+- cite:
+    id: cal.1962-05-21.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 196 (May 21, 1962, afternoon; the 323rd meeting; Peng Zhen there, Zhou attending; the notice on propaganda for cutting staff and town population revised and adopted, the Propaganda Department to draft the points for cadres and peasants; on the Education Ministry''s report Peng: good; few of the very big schools run well, rules needed; quality raised, teachers examined)'
+- cite:
+    id: cal.1962-05-22.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 196–197 (May 22, 1962, afternoon; the 324th meeting; Peng Zhen there, Zhou attending; the Education Ministry''s report agreed, the decision on cutting staff and town population adopted, Ma Wenrui to revise it for Zhou; Peng: why count teachers'' service only from 1949? Zhou: it should count)'
+- cite:
+    id: cal.1962-05-23.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 197 (May 23, 1962; Peng Zhen at Liu Shaoqi''s meeting with the political and legal group; Peng: the lesson of these years the failure to keep the two kinds of contradiction apart; public security, procuracy and courts each to its duty, under the law)'
+- cite:
+    id: cal.1962-05-26.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 197 (May 26 and 28, 1962, afternoons; the 325th meeting; Peng Zhen there; the state farm regulations; Peng: farms of fixed type and staff, "精兵主义," the surplus in collective ownership and specialized teams)'
+- cite:
+    id: cal.1962-05-28.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 197 (May 28, 1962; the 325th meeting continued, Peng Zhen there)'
+- cite:
+    id: cal.1962-05-29.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 198–199 (May 29, 1962, afternoon; the 326th meeting; Peng Zhen there; preparing the talks with the Albanian party''s delegation; a Chinese delegation of six, Deng Xiaoping leader, Peng Zhen, Wang Jiaxiang, Liu Ningyi, Wu Xiuquan and Luo Shigao (the page''s note: Ambassador to Albania))'
+- cite:
+    id: cal.1962-06-03.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 199 (June 3, 1962; Peng Zhen, with Liu Shaoqi, Deng Xiaoping and others, in the talks with Hồ Chí Minh; Liu on the lessons of economic construction; views exchanged on the North''s economy, South Vietnam, Laos and the international movement)'
+- cite:
+    id: cal.1962-06-06.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 200 (June 6, 1962, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, hearing Lin Biao on the military situation)'
+- cite:
+    id: cal.1962-06-08.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 200 (June 8, 1962, afternoon; Peng Zhen, with Deng Xiaoping, at the airport to meet the Albanian Party of Labor''s delegation led by Hysni Kapo, member of its Politburo and secretary of its Central Committee)'
+- cite:
+    id: cal.1962-06-11.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 200 (June 11–15, 1962; Peng Zhen, a member of the Chinese delegation, with Deng and others in several talks with Kapo''s delegation on international questions, Soviet–Albanian and Sino-Soviet relations)'
+- cite:
+    id: cal.1962-06-17.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 201 (June 17, 1962, afternoon; Peng Zhen, with Song Qingling, Dong Biwu, Zhu De, Deng Xiaoping and others, at Liu Shaoqi''s meeting with and banquet for the delegation)'
+- cite:
+    id: cal.1962-06-21.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 202 (June 21, 1962, afternoon; at Wuhan; Peng Zhen accompanies Mao in meeting and giving a banquet for all the members of the Korean Supreme People''s Assembly''s delegation)'
+- cite:
+    id: cal.1962-06-22.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 202 (June 22, 1962; Peng Zhen receives Mao''s letter; to stay at Wuhan to the month''s end, seven to ten days of swimming the Yangtze, then straight back to Peking; the Pakistani ambassador and Kapo''s delegation to be talked with at Wuchang; Peng to arrange (the page''s note: the Pakistani ambassador Rashidi 拉希迪 and the Albanian Party of Labor''s delegation under Hysni Kapo))'
+- cite:
+    id: cal.1962-06-25.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 203 (June 25, 1962, evening; the meeting of more than 10,000 of the capital at the Peking Workers'' Gymnasium; Peng Zhen presides and opens it (the peoples of the world, united against U.S. imperialism''s policies of aggression and war, will win); Chen Yi and Pak Kum Chol, head of the Korean delegation, speak)'
+- cite:
+    id: cal.1962-06-27.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 203 (June 27, 1962; Peng Zhen, with Liu Shaoqi, Deng Xiaoping and others, meets the Albanian Party of Labor''s delegation; views exchanged on opposing revisionism)'
+- cite:
+    id: cal.1962-06-28.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 203 (June 28, 1962, afternoon; Peng Zhen accompanies Zhou Enlai in meeting and giving a banquet for all the members of the Korean delegation)'
+- cite:
+    id: cal.1962-07-02.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 203 (July 2, 1962; Peng Zhen, a member of Long Yun''s funeral committee, with Zhou Enlai at Long Yun''s home to pay condolence; Long Yun died June 27 (the page''s note: Long Yun, 1884–1962, member of the CPPCC Standing Committee and of the Kuomintang Revolutionary Committee''s Central Standing Committee))'
+- cite:
+    id: cal.1962-06-29.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 203 (June 29, 1962, evening; Peng Zhen, with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping and others, at the farewell banquet given by Pak Kum Chol)'
+- cite:
+    id: cal.1962-07-02.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 204 (July 2, 1962, afternoon; the Secretariat''s 328th meeting; rehabilitation of cadres, the Youth League, streamlining, restoring farm output; Peng Zhen: judge cadres by their whole history and the key questions, not details; many decisions of these years made too fast; even the Chairman''s word "也不那么灵了", many questions decided under pressure without his study; the Secretariat not to throw out ideas without investigation; the grain levy at a fixed price, the price gap on purchases to be settled or the collective economy will collapse; talk of difficulties and shortcomings to stop here and turn to the positive; Deng Xiaoping: "我倾向这样")'
+- cite:
+    id: cal.1962-07-03.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 204 (July 3, 1962, afternoon; Peng Zhen at the enlarged Politburo Standing Committee, Liu Shaoqi presiding, hearing Zhou Enlai on streamlining in the Northeast, grain purchases and big enterprises'' farm and sideline production)'
+- cite:
+    id: cal.1962-07-06.china
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 204 (July 6, 1962, morning; Peng Zhen at the 56th (enlarged) session of the second NPC Standing Committee, Zhu De presiding; the resolution supporting the Korean Supreme People''s Assembly''s letter to the world''s parliaments)'
+- cite:
+    id: cal.1962-07-09.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 204 (July 9, 1962, afternoon; the Secretariat''s 329th meeting; Peng Zhen there; preparing the Central Work Conference of late July; a drafting committee of nine under Chen Boda, on Mao''s instruction, for the decision on consolidating the communes'' collective economy; Li Xiannian to draft the papers on market prices, grain and the system)'
+- cite:
+    id: cal.1962-07-09.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 205 (July 9, 1962, afternoon; Peng Zhen to Yang Shangkun''s to talk)'
+- cite:
+    id: cal.1962-07-09.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 205 (July 9, 1962, evening; Diaoyutai; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Yang Shangkun and others, at the farewell for Hồ Chí Minh, leaving the next morning)'
+- cite:
+    id: cal.1962-07-10.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 205 (July 10, 1962, afternoon; the CPPCC auditorium; Peng Zhen, with Zhou Enlai, Deng Xiaoping and others, at the capital''s meeting for the treaty''s first anniversary)'
+- cite:
+    id: cal.1962-07-12.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 205 (July 12, 1962, evening; the Peking Hotel; Peng Zhen, with Zhou Enlai, Deng Xiaoping and others, at the Korean Ambassador Han Ik-su''s banquet for the treaty''s anniversary)'
+- cite:
+    id: cal.1962-07-11.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 205 (July 11–13, 1962, afternoons; Peng Zhen at the meeting Deng Xiaoping chairs, hearing Sun Zhiyuan, Zhang Liankui and Wang Bingzhang on war industry; Zhou Enlai, Lin Biao, Li Fuchun, He Long, Yang Shangkun and others there (the page''s notes: Sun, deputy director of the State Council''s National Defense Industry Office; Zhang, Vice-Minister of the Third Ministry of Machine Building; Wang, deputy commander of the air force and first deputy head of the Fifth Academy))'
+- cite:
+    id: cal.1962-07-16.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 205 (July 16, 1962, morning; Peng Zhen, with Zhou Enlai, Luo Ruiqing, Xi Zhongxun and others, at the airport seeing off Chen Yi''s government delegation to the Geneva conference on Laos)'
+- cite:
+    id: cal.1962-07-17.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 205–206 (July 17, 1962; Peng Zhen at the Secretariat on the first draft of the decision on further strengthening the centralized unity of commercial work; July 18 and 19, at the Secretariat on the State Council Finance and Trade Office''s and the National Price Commission''s report on the market and prices)'
+- cite:
+    id: cal.1962-07-19.china-leadership-10
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 206 (July 19, 1962; the Center''s urgent notice not to advertise "output by household" and the like in the press)'
+- cite:
+    id: cal.1962-07-22.china-leadership-10
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 206 (July 22 and 23, 1962; Mao orders two papers printed for the coming Central Work Conference: the record of the symposium on consolidating the production teams'' collective economy (the page''s note: held by Tao Zhu and Wang Renzhong at Longsheng county, Guilin prefecture, Guangxi, June 7, 1962) and the draft decision on consolidating the communes'' collective economy)'
+- cite:
+    id: cal.1962-07-22.china-leadership-6
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 206–207 (July 22, 1962, afternoon; the Secretariat''s 330th meeting; Peng Zhen there; Deng Xiaoping relays Mao''s talk of July 19 at the Standing Committee against the central departments'' dispersionism; decided: each department a monthly report to Mao and the Standing Committee, July to December, written by its head, not a secretary, the first to the General Office by the month''s end, handwritten; important questions to them at any time by letter or note, not by bulletins; the Secretariat''s meetings a bulletin to them besides the minutes; for now no debate on policy in the open press)'
+- variant:
+    id: cal.1962-07-22.china-leadership-6
+    unit: A
+    witness: w.peng-zhen-nianpu-1902
+    reads: the Secretariat's 330th meeting in the afternoon ("下午"), after Peng Zhen's report to the graduates in the morning
+    at: IV, 206
+- cite:
+    id: cal.1962-07-23.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 207 (July 23, 1962, afternoon; the Secretariat''s 331st meeting; Peng Zhen there, Zhou Enlai attending; the Finance and Trade Office''s draft report on grain for the Central Work Conference; Peng Zhen: grain policy not to make honest men lose, not to whip the fast ox; streamlining of some cities'' townspeople to be pressed)'
+- cite:
+    id: cal.1962-07-26.china-leadership-4
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 207 (July 26, 1962, afternoon; the Secretariat''s 332nd meeting; Peng Zhen there; the Central Work Conference''s agenda)'
+- cite:
+    id: cal.1962-07-28.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 208 (July 28, 1962, afternoon; Peng Zhen at the meeting Mao chairs, of the Standing Committee, the regional bureaus'' first secretaries, Wang Renzhong, Chen Boda, Luo Ruiqing and others; Mao: the common question at home and abroad, whether the proletariat or the bourgeoisie leads; after the Seven Thousand, signs of the right in the Party, "output by household" among them, some sound, some "牛鬼蛇神"; signs of the right in foreign work too)'
+- cite:
+    id: cal.1962-07-28.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 208 (July 28, 1962, afternoon; Peng Zhen at the meeting Deng Xiaoping chairs, Zhou Enlai, Li Fuchun, Li Xiannian and others there, on the Finance and Trade Office''s revised report on grain for the Central Work Conference)'
+- cite:
+    id: cal.1962-07-30.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 208–209 (July 30–Aug. 24, 1962; Peng Zhen helps Zhou Enlai run the city work conference, called by the Politburo: the heads of seven State Council departments and of eight great cities (Peking, Tianjin, Shanghai, Wuhan, Canton, Chongqing, Shenyang, Xi''an), 25 in all; drafts the Center''s directive on current questions of city work, ten points: save grain, cut workers, withdraw currency, cut spending, cut losses, settle arrears, restore output, reduce stocks, more goods, better living; July 31, morning, it hears Wan Xiaotang on Tianjin (the page''s note: secretary of the Hebei committee''s Secretariat and first secretary of the Tianjin committee))'
+- cite:
+    id: cal.1962-07-30.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 208 (July 30, 1962, evening; Peng Zhen sits in at Mao''s Standing Committee, hearing Chen Yi on the Geneva conference on Laos and his meeting with Menon)'
+- cite:
+    id: cal.1962-08-01.china-leadership-7
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 209 (Aug. 1 and 2, 1962, mornings; Peng Zhen at the city work conference, hearing Liu Ren on Peking''s industry and commerce: a loss of 56.61 million yuan in the first half, allocated materials dearer and products not, the state not making it good; Peng Zhen breaks in: prices to be studied whole, set by the law of value; "these years our relations with the workers have been tense"; the Party cut off from workers and peasants and soldiers'' families, the consequences grave)'
+- cite:
+    id: cal.1962-08-03.china-leadership-3
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 209 (Aug. 3, 1962, evening; Peng Zhen, with Chen Boda and Yang Shangkun, sits in at Mao''s Standing Committee on how to run the Central Work Conference; a central (core) group of 22 set up: Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Tan Zhenlin, Chen Yi, Chen Boda, Luo Ruiqing, Xie Fuzhi, Gu Mu, Lu Dingyi, Yang Shangkun, Ke Qingshi, Li Jingquan, Tao Zhu, Song Renqiong, Li Xuefeng, Liu Lantao)'

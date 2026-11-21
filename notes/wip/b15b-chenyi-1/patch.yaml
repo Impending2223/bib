@@ -1,0 +1,602 @@
+patch: 2026-11-20-b15b-chenyi-1
+by: Claude (batch 15b, Chen Yi nianpu, run 1), Nov. 20, 2026
+ops:
+- edit:
+    id: cal.1960-01-20.china-leadership
+    base: d48f6a78
+    set:
+      time_range:
+      - 1960-01-19T22:00Z
+      - 1960-01-20T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1960-01-19.china-leadership-2
+    base: 6e0239a0
+    set:
+      time_range:
+      - 1960-01-19T04:00Z
+      - 1960-01-19T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1960-01-21.china
+    base: 5e30fc3e
+    set:
+      time_range:
+      - 1960-01-21T04:00Z
+      - 1960-01-21T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1960-02-01.china-leadership-2
+    base: 204b3a9b
+    set:
+      time_range:
+      - 1960-02-01T04:00Z
+      - 1960-02-01T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1960-02-04.china-leadership
+    base: 825896ca
+    set:
+      time_range:
+      - 1960-02-04T11:00Z
+      - 1960-02-04T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1960-02-07.china-leadership
+    base: 6f86cf63
+    set:
+      time_range:
+      - 1960-02-07T04:00Z
+      - 1960-02-07T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1960-02-12.china-leadership-3
+    base: 2d2b9ac6
+    set:
+      time_range:
+      - 1960-02-12T04:00Z
+      - 1960-02-12T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1960-02-13.china-leadership-3
+    base: 2b484ed9
+    set:
+      time_range:
+      - 1960-02-13T11:00Z
+      - 1960-02-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1960-02-14.china-leadership-3
+    base: b758fcfd
+    set:
+      time_range:
+      - 1960-02-14T11:00Z
+      - 1960-02-14T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- add:
+    entry:
+      id: cal.1960-01-17.china-leadership-6
+      when: Jan. 17
+      date: '1960-01-17'
+      place: peking
+      thread: china-leadership
+      c: Wei Lihuang 卫立煌, vice-chairman of the National Defense Council 国防委员会, a deputy to the National People's Congress and a member of the Revolutionary Committee of the Kuomintang's 民革 Central Standing Committee, dies of illness in Peking 北京, aged 64.
+      n: '[[w.chen-yi-nianpu]], 800.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1960-01-18.china-leadership-12
+      when: Jan. 18
+      date: '1960-01-18'
+      time_range:
+      - 1960-01-18T04:00Z
+      - 1960-01-18T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Chen Yi 陈毅 at the reception given at the Embassy by Trần Tử Bình 陈子平, the DRV's Ambassador, for the tenth anniversary of diplomatic relations between the DRV and the PRC; speaks.
+      n: '[[w.chen-yi-nianpu]], 801. The words: 下午 (801). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:drv
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-01-19.china-leadership-4
+      when: Jan. 19
+      date: '1960-01-19'
+      time_range:
+      - 1960-01-18T22:00Z
+      - 1960-01-19T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - middle-east
+      c: Salah al-Din Tarazi 萨拉赫丁·塔拉齐, the UAR's new Ambassador, calls on Chen Yi 陈毅 on presenting his credentials.
+      n: '[[w.chen-yi-nianpu]], 801. The words: 上午 (801). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:uar
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-01-19.china-leadership-5
+      when: Jan. 19
+      date: '1960-01-19'
+      time: 1960-01-19T02:00Z
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Chen Yi 陈毅 at the airport to see off Heinrich Rau's GDR government delegation.
+      n: '[[w.chen-yi-nianpu]], 801. See [[cal.1960-01-18.china-leadership-2]]. The words: 上午10时 (801). Names: Chen Yi, Rau.'
+      tags:
+      - polity:prc
+      - polity:gdr
+      - name:chen-yi
+      - name:rau-heinrich
+- add:
+    entry:
+      id: cal.1960-01-24.china-leadership-8
+      when: Jan. 24
+      date: '1960-01-24'
+      time_range:
+      - 1960-01-23T22:00Z
+      - 1960-01-24T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 receives 德里本, secretary-general of the Britain–China Friendship Association 英中友协, and his wife.
+      n: '[[w.chen-yi-nianpu]], 801. The words: 上午 (801). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:uk
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-01-25.china-leadership-3
+      when: Jan. 25
+      date: '1960-01-25'
+      time_range:
+      - 1960-01-25T11:00Z
+      - 1960-01-25T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Chen Yi 陈毅 with Ne Win at the gala of the Ministry of Culture 文化部 and the China–Burma Friendship Association 中缅友好协会, the Cultural Palace of Nationalities 民族文化宫, Peking; the ballet *The Mermaid* 鱼美人; at the end goes with Ne Win on stage to present a basket of flowers.
+      n: '[[w.chen-yi-nianpu]], 802. See [[cal.1960-01-24.china-leadership-4]]. The words: 晚上 (802). Names: Chen Yi, Ne Win.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:ne-win
+- add:
+    entry:
+      id: cal.1960-01-26.china-leadership-9
+      when: Jan. 26
+      date: '1960-01-26'
+      time_range:
+      - 1960-01-26T14:00Z
+      - 1960-01-26T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅, at Liu Shaoqi's 刘少奇, on China and Burma; for signing an agreement and a treaty of friendship with Burma.
+      n: '[[w.chen-yi-nianpu]], 802. The words: 夜 (802). Made public: 1995. Names: Chen Yi, Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:liu-shaoqi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-30.china-leadership-5
+      when: Jan. 30
+      date: '1960-01-30'
+      thread: china-leadership
+      c: Chen Yi 陈毅 visits the exhibition of film art 电影美术展览 and writes an inscription for it.
+      n: '[[w.chen-yi-nianpu]], 803. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-01.china-leadership-19
+      when: Jan.
+      date: 1960-01
+      thread: china-leadership
+      c: The Center 中央 decides that Chen Yi 陈毅, for the State Council 国务院, is to give a dinner for the more than 4,000 scientists in Peking 北京.
+      n: '[[w.chen-yi-nianpu]], 803. Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-02-01.china-leadership-4
+      when: Feb. 1
+      date: '1960-02-01'
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: '*Hongqi* 红旗 no. 3 of 1960 prints Chen Yi''s 陈毅 article "The Sino-Soviet alliance is a mighty bulwark of world peace" 《中苏同盟是世界和平的强大堡垒》, for the treaty''s tenth anniversary: the 1950s years of deep change; Soviet experience of revolution and construction a priceless treasure among its aid; the alliance a new type, of proletariats holding power.'
+      n: '[[w.chen-yi-nianpu]], 803. The article: Chen Yi, 《中苏同盟是世界和平的强大堡垒》, *Hongqi* 1960, no. 3 (Feb. 1, 1960). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-02-06.china-leadership-4
+      when: Feb. 6
+      date: '1960-02-06'
+      time_range:
+      - 1960-02-06T11:00Z
+      - 1960-02-06T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: 'Great Hall of the People 人民大会堂, Peking. Chen Yi 陈毅 gives a banquet seeing off the Panchen Erdeni 班禅额尔德尼·却吉坚赞, acting chairman of the Preparatory Committee for the Tibet Autonomous Region 西藏自治区筹备委员会, the vice-chairman Pagbalha Geleg Namgyai 帕巴拉·格列朗杰 and their party, back to Tibet; speaks: Tibet''s people to unite round the Party''s Tibet Work Committee 中共西藏工委 and the Preparatory Committee, finish the democratic reform, build up farming and herding.'
+      n: '[[w.chen-yi-nianpu]], 804. The words: 晚上 (804). Names: Chen Yi. Check: the nianpu prints 班禅额尔德尼·却吉坚赞 here and 班禅额尔德尼·却吉坚赞 at 804''s next item; read on the page.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-02-08.china-leadership-4
+      when: Feb. 8
+      date: '1960-02-08'
+      time_range:
+      - 1960-02-07T22:00Z
+      - 1960-02-08T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Chen Yi 陈毅 at the railway station to see off the Panchen Erdeni 班禅额尔德尼, Pagbalha Geleg Namgyai 帕巴拉·格列朗杰 and their party, leaving Peking 北京 for Tibet 西藏.
+      n: '[[w.chen-yi-nianpu]], 804. See [[cal.1960-02-06.china-leadership-4]]. The words: 上午 (804). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-02-08.china-leadership-5
+      when: Feb. 8
+      date: '1960-02-08'
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Chen Yi 陈毅 at the airport to welcome Kang Sheng 康生 and Wu Xiuquan 伍修权, back from the Warsaw Treaty's Political Consultative Committee, which they attended as the PRC's observers.
+      n: '[[w.chen-yi-nianpu]], 804. Names: Chen Yi, Kang Sheng.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:kang-sheng
+- add:
+    entry:
+      id: cal.1960-02-08.china-leadership-6
+      when: Feb. 8
+      date: '1960-02-08'
+      thread: china-leadership
+      c: Chen Yi 陈毅 reports on the international situation to the 17th congress of the All-China Students' Federation 中华全国学生第十七届代表大会; urges students on the road of "red and expert" 又红又专.
+      n: '[[w.chen-yi-nianpu]], 804. See [[cal.1960-02-07.china-leadership]]. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-02-08.china-leadership-7
+      when: Feb. 8
+      date: '1960-02-08'
+      time_range:
+      - 1960-02-08T11:00Z
+      - 1960-02-08T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Great Hall of the People 人民大会堂, Peking. Chen Yi 陈毅 at the Polish Mazowsze 玛佐夫舍 song and dance company's performance; in the interval receives 鲍古斯瓦夫·普瓦获 of the Polish Ministry of Culture and Art, the director 米拉·齐明斯卡·塞格廷斯卡 and the leading performers; writes an inscription for the company, "Sino-Polish friendship evergreen".
+      n: '[[w.chen-yi-nianpu]], 804. The words: "中波友谊万古长青" (804). The words: 晚上 (804). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:poland
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-02-10.china-leadership-5
+      when: Feb. 10
+      date: '1960-02-10'
+      place: peking
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Chen Yi 陈毅 at the airport to welcome the delegation of the DRV led by Trường Chinh 长征, Deputy Prime Minister and member of the Lao Động Politburo, from Moscow to Peking 北京.
+      n: '[[w.chen-yi-nianpu]], 804. Names: Chen Yi, Trường Chinh.'
+      tags:
+      - polity:prc
+      - polity:drv
+      - name:chen-yi
+      - name:truong-chinh
+- add:
+    entry:
+      id: cal.1960-02-11.china-leadership-5
+      when: Feb. 11
+      date: '1960-02-11'
+      time_range:
+      - 1960-02-11T11:00Z
+      - 1960-02-11T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 at Zhu De's 朱德 banquet welcoming the Czechoslovak National Assembly delegation led by its chairman, Zdeněk Fierlinger 费林格.
+      n: '[[w.chen-yi-nianpu]], 805. The words: 晚上 (805). Names: Chen Yi, Zhu De.'
+      tags:
+      - polity:prc
+      - polity:czechoslovakia
+      - name:chen-yi
+      - name:zhu-de
+- add:
+    entry:
+      id: cal.1960-02-11.china-leadership-6
+      when: Feb. 11
+      date: '1960-02-11'
+      time_range:
+      - 1960-02-11T04:00Z
+      - 1960-02-11T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Zhu De 朱德 meets Zdeněk Fierlinger 费林格, chairman of the Czechoslovak National Assembly, and the whole delegation he leads; Chen Yi 陈毅 present.
+      n: '[[w.chen-yi-nianpu]], 804–805. The words: 下午 (804–805). Names: Chen Yi, Zhu De.'
+      tags:
+      - polity:prc
+      - polity:czechoslovakia
+      - name:chen-yi
+      - name:zhu-de
+- add:
+    entry:
+      id: cal.1960-02-12.china-leadership-10
+      when: Feb. 12
+      date: '1960-02-12'
+      time_range:
+      - 1960-02-11T22:00Z
+      - 1960-02-12T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Chen Yi 陈毅 at the airport to see off the delegation led by Trường Chinh 长征.
+      n: '[[w.chen-yi-nianpu]], 805. See [[cal.1960-02-10.china-leadership-5]]. The words: 上午 (805). Names: Chen Yi, Trường Chinh.'
+      tags:
+      - polity:prc
+      - polity:drv
+      - name:chen-yi
+      - name:truong-chinh
+- add:
+    entry:
+      id: cal.1960-02-12.china-leadership-11
+      when: Feb. 12
+      date: '1960-02-12'
+      time_range:
+      - 1960-02-12T11:00Z
+      - 1960-02-12T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: 'Chen Yi 陈毅 at the friendship evening of the socialist countries'' embassies in China for the tenth anniversary of the Sino-Soviet treaty of friendship, alliance and mutual assistance; speaks at the supper: the brother countries'' close unity.'
+      n: '[[w.chen-yi-nianpu]], 805. The words: 晚上 (805). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-02-13.china-leadership-10
+      when: Feb. 13
+      date: '1960-02-13'
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: Chen Yi 陈毅 telegraphs Gromyko on the tenth anniversary of the Sino-Soviet treaty of friendship, alliance and mutual assistance.
+      n: '[[w.chen-yi-nianpu]], 805. Names: Chen Yi, Gromyko.'
+      tags:
+      - polity:prc
+      - polity:ussr
+      - name:chen-yi
+      - name:gromyko-andrei
+- add:
+    entry:
+      id: cal.1960-02-13.china-leadership-11
+      when: Feb. 13
+      date: '1960-02-13'
+      time_range:
+      - 1960-02-13T11:00Z
+      - 1960-02-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      also:
+      - soviet-union
+      c: 'Great Hall of the People 人民大会堂, Peking. Chen Yi 陈毅 speaks at the reception of the CPPCC National Committee 政协全国委员会, the Sino-Soviet Friendship Association 中苏友好协会总会, the Foreign Ministry 外交部 and the Commission for Cultural Relations with Foreign Countries 对外文化联络委员会 for the tenth anniversary of the Sino-Soviet treaty: its meaning and its part.'
+      n: '[[w.chen-yi-nianpu]], 805. The words: 晚上 (805). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-02-19.china-leadership-4
+      when: Feb. 19–21
+      date: '1960-02-19'
+      place: peking
+      thread: china-leadership
+      c: Peking 北京. The second national congress of the China Democratic National Construction Association 中国民主建国会 and the third congress of the All-China Federation of Industry and Commerce 中华全国工商业联合会, held together; Chen Yi 陈毅 and Li Xiannian 李先念 report.
+      n: '[[w.chen-yi-nianpu]], 805. Names: Chen Yi, Li Xiannian. Check: Liu Shaoqi''s chronology has Liu receive the delegates of the same congresses on Feb. 12 (cal.1960-02-12.china-leadership-3), before the dates given here.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:li-xiannian
+- add:
+    entry:
+      id: cal.1960-03-08.china-leadership-11
+      when: Mar. 8
+      date: '1960-03-08'
+      time_range:
+      - 1960-03-08T11:00Z
+      - 1960-03-08T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Great Hall of the People 人民大会堂, Peking. Chen Yi 陈毅, at the reception of the preparatory committee for the fiftieth International Women's Day, speaks for the Central Committee and the State Council; welcomes the Women's International Democratic Federation and the women's delegations of the USSR, Korea, Mongolia, Hungary, Japan and others; thanks the Soviet and other women experts.
+      n: '[[w.chen-yi-nianpu]], 806. The words: 晚上 (806). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-03-09.china-leadership-10
+      when: Mar. 9
+      date: '1960-03-09'
+      time_range:
+      - 1960-03-09T04:00Z
+      - 1960-03-09T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 receives 巴巴卡·尼昂, second secretary of the African Independence Party 非洲独立党 of Senegal.
+      n: '[[w.chen-yi-nianpu]], 806. The words: 下午 (806). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:senegal
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1960-03-14.china-leadership-7
+      when: Mar. 14
+      date: '1960-03-14'
+      time_range:
+      - 1960-03-13T22:00Z
+      - 1960-03-14T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 with Koirala and his party at a flying display of the People's Liberation Army Air Force's jet fighters.
+      n: '[[w.chen-yi-nianpu]], 806. See [[cal.1960-03-11.china-leadership-2]]. The words: 上午 (806). Names: Chen Yi, Koirala.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+      - name:koirala-bisweswar-prasad
+- cite:
+    id: cal.1960-01-07.china-leadership
+    item: '[[w.chen-yi-nianpu]], 800 (Jan. 7–17, 1960; Chen Yi attends the enlarged Politburo at Shanghai; it sets the 1960 economic plan)'
+- cite:
+    id: cal.1960-01-20.china-leadership
+    item: '[[w.chen-yi-nianpu]], 800 (Jan. 20, 1960, morning; Chen Yi at the memorial of the capital''s circles for Wei Lihuang, Zhongshan Hall, Zhongshan Park)'
+- cite:
+    id: cal.1960-01-18.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 800 (Jan. 18, 1960, afternoon; Chen Yi present when Zhou Enlai receives Heinrich Rau and the whole GDR government delegation)'
+- cite:
+    id: cal.1960-01-18.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 801 (Jan. 18, 1960, afternoon; Chen Yi at the signing of the treaty of trade and navigation and the agreement on the exchange of goods, 1960–62)'
+- cite:
+    id: cal.1960-01-19.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 801 (Jan. 19, 1960, afternoon; Chen Yi receives the two conferences with Zhou Enlai and He Long)'
+- cite:
+    id: cal.1960-01-20.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 801 (Jan. 20, 1960; the 1955 treaty, signed at Bandung Apr. 22, 1955, ratified by both; Chen Yi signs the instruments for China and speaks at the exchange)'
+- cite:
+    id: cal.1960-01-21.china
+    item: '[[w.chen-yi-nianpu]], 801 (Jan. 21, 1960, afternoon; Chen Yi to the enlarged twelfth session of the NPC Standing Committee: the Soviet measures will ease tension; any disarmament agreement without China''s formal part and signature cannot bind China; asks a resolution supporting the Supreme Soviet''s appeal)'
+- cite:
+    id: cal.1960-01-24.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 801 (Jan. 24, 1960, at dusk (傍晚); Chen Yi at the airport to welcome Ne Win and his party)'
+- cite:
+    id: cal.1960-01-24.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 802 (Jan. 24, 1960, evening; Chen Yi present when Zhou Enlai meets Ne Win and his party)'
+- cite:
+    id: cal.1960-01-24.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 802 (Jan. 24, 1960, evening; Zhou Enlai''s banquet, the Great Hall of the People''s banquet hall; Chen Yi toasts)'
+- cite:
+    id: cal.1960-01-25.china-leadership
+    item: '[[w.chen-yi-nianpu]], 802 (Jan. 26, 1960, morning; Chen Yi takes part in the talks between Zhou Enlai and Ne Win)'
+- cite:
+    id: cal.1960-01-26.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 802 (Jan. 26, 1960, evening; the reception of Kannampilly 康南皮利, the Indian chargé d''affaires, Beijing Hotel; Chen Yi speaks: the two peoples'' friendship close; over a million Indians at the China pavilion of the Delhi agricultural fair in a month and a half; questions left by history can be settled by the Five Principles and friendly consultation)'
+- cite:
+    id: cal.1960-01-27.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 802 (Jan. 27, 1960, noon; Chen Yi at Zhou Enlai''s informal dinner for Ne Win and his party)'
+- cite:
+    id: cal.1960-01-27.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 802 (Jan. 27, 1960, evening; the reception of 叫温, the Burmese Ambassador, for Ne Win''s visit; Chen Yi writes a poem on the spot on the two countries'' friendship)'
+- cite:
+    id: cal.1960-01-28.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 802 (Jan. 28, 1960, afternoon; Chen Yi present when Liu Shaoqi receives Ne Win)'
+- cite:
+    id: cal.1960-01-28.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 802–803 (Jan. 28, 1960, 6:50 p.m.; Chen Yi at the signing of the boundary agreement and the treaty of friendship and mutual nonaggression)'
+- cite:
+    id: cal.1960-01-28.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 803 (Jan. 28, 1960, evening; Chen Yi speaks at Ne Win''s farewell banquet: the agreement and treaty a great event, a model of friendship and nonaggression for all states)'
+- cite:
+    id: cal.1960-01-29.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 803 (Jan. 29, 1960, early morning (晨); Chen Yi at the airport to see off Ne Win and the other Burmese guests)'
+- cite:
+    id: cal.1960-02-01.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 803 (Feb. 1, 1960, afternoon; Chen Yi, Huang Yanpei and others with Liu Shaoqi receiving the Tibet and Xinjiang agricultural visiting groups, the Tibet Public School''s cadres and the minority students of the Taiyuan and Shijiazhuang railway institutes)'
+- cite:
+    id: cal.1960-02-04.china-leadership
+    item: '[[w.chen-yi-nianpu]], 803–804 (Feb. 4, 1960, evening; the reception of 高伯拉瓦, the Ceylonese Ambassador; Chen Yi speaks: the Five Principles and the Bandung spirit; the second All-African People''s Conference; China backs Cuba against outside intervention)'
+- cite:
+    id: cal.1960-02-07.china-leadership
+    item: '[[w.chen-yi-nianpu]], 804 (Feb. 7, 1960, afternoon; Chen Yi with Liu Shaoqi and Tan Zhenlin receives the delegates to the 17th students'' congress)'
+- cite:
+    id: cal.1960-02-12.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 805 (Feb. 12, 1960, afternoon; Chen Yi with Liu Shaoqi, Zhu De, Li Xiannian, Tan Zhenlin and Li Weihan receives all the delegates)'
+- cite:
+    id: cal.1960-02-13.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 805 (Feb. 13, 1960, evening; Chen Yi with Zhu De and Xi Zhongxun receives Yelyutin 叶留金, Soviet Minister of Higher and Secondary Specialized Education and council vice-chairman of the Soviet–Chinese Friendship Society, and his delegation)'
+- cite:
+    id: cal.1960-02-14.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 805 (Feb. 14, 1960, evening; Chen Yi at Chervonenko''s banquet for the anniversary; toasts)'
+- cite:
+    id: cal.1960-03-03.china-leadership-13
+    item: '[[w.chen-yi-nianpu]], 805 (Mar. 3, 1960, evening; the reception of 兰·涅特, the Cambodian Ambassador, for King Suramarit''s birthday and the national day; Chen Yi speaks)'
+- cite:
+    id: cal.1960-03-08.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 806 (Mar. 8, 1960, evening; Chen Yi at the evening of the capital''s women with the foreign women friends, Great Hall of the People)'
+- cite:
+    id: cal.1960-03-10.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 806 (Mar. 10, 1960, afternoon; the reception of 巴特森, the Danish Ambassador, for King Frederik IX''s birthday; Chen Yi attends)'
+- cite:
+    id: cal.1960-03-11.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 806 (Mar. 11, 1960, afternoon; Chen Yi at the airport to welcome Koirala, his wife and the Nepalese guests)'
+- cite:
+    id: cal.1960-03-11.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 806 (Mar. 11, 1960, evening; Chen Yi present when Zhou Enlai meets Koirala, his wife, his ministers and the Nepalese journalists'' delegation led by the editor of *Naya Samaj*)'
+- cite:
+    id: cal.1960-03-12.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 806 (Mar. 12, 1960, evening; Chen Yi at Zhou Enlai''s state banquet for Koirala and his wife)'
+- cite:
+    id: cal.1960-03-14.china-leadership
+    item: '[[w.chen-yi-nianpu]], 806 (Mar. 14, 1960, afternoon; Chen Yi with Koirala at the welcoming rally, the Great Hall of the People)'
