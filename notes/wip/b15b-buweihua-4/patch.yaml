@@ -1,0 +1,798 @@
+patch: 2026-11-21-b15b-buweihua-4
+by: Claude (batch 15b, Bu Weihua, *Zalan jiu shijie* (2008), run 4), Nov. 21, 2026
+ops:
+  - edit:
+      id: cal.1966-06-01.china-leadership
+      base: 876b9f12
+      set:
+        time_range:
+          - 1966-06-01T04:00Z
+          - 1966-06-01T06:00Z
+        time_band: workday midday
+        time_zone: Asia/Shanghai
+  - edit:
+      id: cal.1966-05-29.china-leadership-2
+      base: 49a28caf
+      set:
+        gloss:
+          title: Estimates
+          text:
+            - Bu Weihua puts the young students who took part in the Red Guard movement at tens of millions, and, by a count, the students at the end of 1966 at 534,000 in regular colleges and 12,968,000 in secondary schools ([[w.pu-weihua-zalan-jiu-shijie]], 140; 140 n.83).
+  - place-key:
+      key: ankang
+      name: Ankang
+      zone: Asia/Shanghai
+      in: prc
+  - to-check:
+      id: cal.1966-05-26.china-leadership-5
+      add: 徐昭文等:〈你們是赫禿子式的陰謀家〉, Peking University Library, *Dazibao xuan* 《大字報選》 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 129 n.72)
+  - src:
+      id: cal.1966-05-26.china-leadership-5
+      rows:
+        - 'via x.1966-05-26.xu-zhaowen-law-students-poster-heshi-yinmoujia: all'
+  - add:
+      entry:
+        id: cal.1966-05.china-leadership-42
+        when: May, before the 25th
+        date: 1966-05
+        at: before 1966-05-25
+        thread: china-leadership
+        c: 'Zhou Enlai 周恩来 instructs that Peking University 北京大学 has foreign students from dozens of countries: the movement there is to be handled with great care, inside and outside kept apart.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 129. Made public: 2008. See [[cal.1966-05-25.china-leadership]]. Names: Zhou Enlai.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 129: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place, name:zhou-enlai]
+  - cite:
+      id: cal.1966-05-25.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 129 (the day the poster goes up, Jiang Nanxiang 蒋南翔, Minister of Higher Education and secretary and president of Tsinghua University, Zhang Yan 张彦, deputy director of the State Council''s Foreign Affairs Office, and Li Xuefeng 李雪峰, first secretary of the North China Bureau, already chosen as first secretary of the new Peking committee, come one after another to the university and restate the Center''s line: posters to keep Party and state discipline, inside and outside apart, the movement under leadership; who sent them not given)'
+  - add:
+      entry:
+        id: cal.1966-05-25.china-leadership-9
+        when: May 25, evening
+        date: '1966-05-25'
+        place: peking
+        thread: china-leadership
+        c: Peking University 北京大学. The Party committee 党委 meets that night in emergency session and criticizes Nie Yuanzi 聂元梓 and the others for putting up their poster, as against keeping inside and outside apart; the poster's content is not criticized. At the standing committee that evening Ge Hua 戈华, first deputy secretary, and Cui Xiongkun 崔雄昆, a standing member, argue for firm support of the mass movement and of the poster.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 129, 129 n.73. The words: 連夜召開緊急會議 (129); 5月25日晚 (129 n.73). Made public: 1998 ([[w.beijing-daxue-jishi-1898]]). See [[cal.1966-05-25.china-leadership]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 129: all'
+            - 'w.pu-weihua-zalan-jiu-shijie 129 n.73: all'
+        tags: [polity:prc, vis:only:prc]
+        time_range:
+          - 1966-05-25T11:00Z
+          - 1966-05-25T14:00Z
+        time_band: evening
+        time_zone: Asia/Shanghai
+  - add:
+      entry:
+        id: cal.1966-05-29.china-leadership-4
+        when: May 29
+        date: '1966-05-29'
+        place: peking
+        thread: china-leadership
+        c: Peking University 北京大学. Ge Hua 戈华, first deputy secretary of the Party committee, and Cui Xiongkun 崔雄昆, a standing member, put in a formal report on "Lu Ping's 陆平 crimes of suppressing the revolution," asking the Center and the North China Bureau 华北局 to send a work group to lead the cultural revolution at the university.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 129 n.73. Made public: 1998 ([[w.beijing-daxue-jishi-1898]]). To check: [[w.beijing-daxue-jishi-1898]], 642–643 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 129 n.73).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 129 n.73: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-05.china-leadership-43
+        when: May, after the 25th
+        date: 1966-05
+        at: after 1966-05-25
+        place: peking
+        thread: china-leadership
+        c: Yang Keming 杨克明, the poster's chief writer, under political pressure after it goes up, goes with Zhang Enci 张恩慈 to Cao Yi'ou 曹轶欧 at the Xiyi Hotel 西颐宾馆; she tells them there is nothing wrong with it. Yang leaves the draft with her.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 129. Made public: 2008. See [[cal.1966-05-25.china-leadership]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 129: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-05.china-leadership-44
+        when: May, after the 25th
+        date: 1966-05
+        at: after 1966-05-25
+        place: hangzhou
+        thread: china-leadership
+        c: The draft of the Peking University poster that Yang Keming 杨克明 left with Cao Yi'ou 曹轶欧 reaches Mao 毛泽东 at Hangzhou 杭州.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 129. Made public: 2008. See [[cal.1966-05.china-leadership-43]]. Names: Mao Zedong.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 129: all'
+        tags: [polity:prc, vis:only:prc, name:mao-zedong]
+  - add:
+      entry:
+        id: cal.1966-05-27.china-leadership-6
+        when: May 27
+        date: '1966-05-27'
+        place: peking
+        thread: china-leadership
+        c: The *Wenhua geming jianbao* 文化革命简报, an internal bulletin the editorial offices of *Hongqi* 红旗 and the *Guangming ribao* 光明日报 have put out since early 1966, prints in full, in its no. 13, the poster of Nie Yuanzi 聂元梓 and the others.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 129. Made public: 2008. See [[cal.1966-05-25.china-leadership]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 129: all'
+        tags: [polity:prc, vis:only:prc]
+  - cite:
+      id: cal.1966-06-01.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 129–130 (at noon Mao comments on the *Jianbao* no. 13: to Kang Sheng and Boda, Xinhua may broadcast it in full and the papers everywhere print it, "most necessary"; the reactionary fortress of Peking University can from now begin to be broken; "please act"; the Central People''s Broadcasting Station broadcasts it at 8 p.m. that evening; the *Renmin ribao* of June 2 prints it in full on its front page, under "Seven comrades of Peking University expose a big plot in a poster," with the commentator''s article "Hail Peking University''s poster"; the Wengao, XII, 62 (130 n.74))'
+      units: A, B, C
+  - to-check:
+      id: cal.1966-06-01.china-leadership
+      add: '[[w.zedong-jianguo-yilai-mao-zedong]], XII, 62 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 130 n.74)'
+  - add:
+      entry:
+        id: cal.1966-06-01.china-leadership-12
+        when: June 1
+        date: '1966-06-01'
+        place: hangzhou
+        thread: china-leadership
+        c: 'Mao 毛泽东 telephones Kang Sheng 康生 and Chen Boda 陈伯达: the Peking University poster is the manifesto of a Peking commune of the 1960s, of greater meaning than the Paris Commune.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 130. Made public: 2008. See [[cal.1966-06-01.china-leadership]]. Names: Mao Zedong, Kang Sheng, Chen Boda.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 130: all'
+        tags: [polity:prc, vis:only:prc, name:mao-zedong, name:kang-sheng, name:chen-boda]
+  - cite:
+      id: cal.1965-06-29.china-leadership-8
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 130 (Peng Zhen to the Peking University socialist education work team and the university''s Party cadres: "in studying the Peking University question I said Comrade Lu Ping is a good man who has erred, speaking of the nature of the error; the Chairman said at once, a good man who has made some errors": Mao minding the measure of the errors; Gong Yuzhi (130 n.75))'
+      units: E
+  - to-check:
+      id: cal.1965-06-29.china-leadership-8
+      add: Gong Yuzhi 龔育之, 〈彭真同志與北大社教〉, *Bainian chao* 《百年潮》, 2002 no. 7, 25 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 130 n.75)
+  - src:
+      id: cal.1965-06-29.china-leadership-8
+      rows:
+        - 'via x.2002-07.gong-yuzhi-peng-zhen-tongzhi-yu-beida-shejiao: E'
+  - add:
+      entry:
+        id: cal.1966-06-20.china-leadership-17
+        when: June 20
+        date: '1966-06-20'
+        thread: china-leadership
+        c: 'The Center forwards, with its approval, the Ministry of Culture''s 文化部 "Request report on struggling to root out thoroughly the black line against the Party, socialism and Mao Zedong Thought" 〈文化部为彻底干净搞掉反党反社会主义反毛泽东思想的黑线而斗争的请示报告〉: for decades the ministry under the dictatorship of a black line headed by Zhou Yang 周扬; the struggle aimed at the bourgeoisie''s representatives and "authorities"; them and all hidden counter-revolutionaries to be cleaned out, "a thorough sweeping of the courtyard."'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 130–131. Made public: 2008. Printed for internal circulation: [[w.wenhua-dageming-yanjiu-ziliao]], I, 53 (1988). To check: 〈文化部為徹底乾淨搞掉反黨反社會主義反毛澤東思想的黑線而鬥爭的請示報告〉, in [[w.wenhua-dageming-yanjiu-ziliao]], I, 53 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 131 n.76).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 130–131: all'
+            - 'via x.1966-06-20.ministry-of-culture-request-report-black-line-zhou-yang: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - cite:
+      id: cal.1966-06-23.china-leadership-8
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 131 (the Center forwards the Central-South Bureau''s "Request report on the situation of the cultural revolution and views" 〈關於文化大革命的情況和意見的請示報告〉: the report names those already pulled out as anti-Party, anti-socialist figures, among them Qin Mu 秦牧, Ke Lin 柯麟 and Liu Zhiming 劉志明 of the Zhongshan Medical College, Li Da 李達, He Dinghua 何定華 and Zhu Shaotian 朱劭天 of Wuhan University, Cheng Yun 程雲 and Wu Keren 武克仁 of Wuhan, Kang Zhuo 康濯 of Hunan, Guo Xiaotang 郭曉棠 of Zhengzhou University and Lu Di 陸地 of Guangxi; Liu''s note not given)'
+  - add:
+      entry:
+        id: cal.1966-06-21.china-leadership-13
+        when: June 21
+        date: '1966-06-21'
+        thread: china-leadership
+        c: 'The East China Bureau 中共中央华东局, in its "Report on the situation of the cultural revolution" 〈关于文化大革命情况的报告〉, names many: Zhou Gucheng 周谷城, Li Pingxin 李平心, Zhou Yutong 周予同, Gu Jiguang 谷霁光, Sun Shuping 孙叔平 and Luo Ergang 罗尔纲 as bourgeois "scholars" and "experts"; Qu Baiyin 瞿白音, He Luting 贺绿汀 and Shi Linghe 石凌鹤 as "authorities" and "notables" of the art of the 1930s; Zhou Xinfang 周信芳 and Li Junmin 李俊民 criticized by name; Xia Zhengnong 夏征农, Li Fanfu 李凡夫, Yu Xiu 余修, Tao Bai 陶白 and Kuang Yaming 匡亚明 as "representatives of the bourgeoisie."'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 131. Made public: 2008.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 131: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - cite:
+      id: cal.1966-06-13.china-leadership-3
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 132 (Wuhan University''s "Three-Family Village" of Li Da 李達, He Dinghua 何定華 and Zhu Shaotian 朱劭天, among the most noted of the local "Three-Family Villages"; undated)'
+  - variant:
+      id: cal.1966-06-13.china-leadership-3
+      unit: A
+      witness: w.pu-weihua-zalan-jiu-shijie
+      reads: the Party secretary named Zhu Shaotian 朱劭天, not Zhu Kantian 朱勘天
+      at: '132'
+  - cite:
+      id: cal.1966-06-18.china-leadership-8
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 132 (June 18, the *Jiangxi ribao*''s signed article criticizing by name Gu Jiguang 谷霽光, vice-chairman of the provincial political consultative conference, deputy head of the education department and vice-president of Jiangxi University, as the "boss of the Three-Family Village''s Jiangxi branch")'
+  - add:
+      entry:
+        id: cal.1966.china-leadership-107
+        when: '1966'
+        date: '1966'
+        place: hunan
+        thread: china-leadership
+        c: Hunan 湖南. Fu Jiafen 伏家芬, head of the classical literature section of the Hunan Normal College 湖南师范学院, Lin Zengping 林增平, deputy head of its history department, and Ma Jigao 马积高, a teacher of its Chinese department, are made Hunan's "Three-Family Village" 三家村.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 132. Made public: 2008.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 132: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966.china-leadership-84
+        when: '1966'
+        date: '1966'
+        place: shandong
+        thread: china-leadership
+        c: 'Shandong 山东. The committee''s standing committee 省委常委会议 finds the articles and speeches of 1960–62 of Yu Xiu 余修, vice-governor, Li Jingchun 李景春, deputy head of the committee''s Party school, and Ding Xiusheng 丁秀生, deputy head of the *Dazhong ribao*''s 大众日报 culture and education department, very grave: linked with Deng Tuo 邓拓 and Wu Han 吴晗 in thought and in organization, a Shandong branch of the "Three-Family Village" black shop, anti-Party and anti-socialist. It decides to criticize the three.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 132. Made public: 2008.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 132: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-06-21.china-leadership-14
+        when: June 21
+        date: '1966-06-21'
+        place: taiyuan
+        thread: china-leadership
+        c: Taiyuan 太原. Zhao Zongfu 赵宗复, a standing member of the Shanxi political consultative conference and president and deputy Party secretary of the Taiyuan Institute of Technology 太原工学院, after days of struggle and insult by students, kills himself, aged fifty-one. After his death he is branded the agent in Shanxi of Wu Han, Deng Tuo and Liao Mosha's "Three-Family Village" and boss of its "Shanxi branch"; his essays are called anti-Party.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 132. [[w.shanxi-tongshi]], I, 407 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 132 n.77).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 132: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-05.china-leadership-45
+        when: May, after the Notice
+        date: 1966-05
+        at: after 1966-05-16
+        thread: china-leadership
+        c: Liu Lantao 刘澜涛, first secretary of the Northwest Bureau 中共中央西北局, raises at a meeting of the Bureau the question of a Northwest "Three-Family Village" 三家村, meaning to make one of Hu Yaobang 胡耀邦, Zhao Shouyi 赵守一, second secretary of the Shaanxi 陕西 committee, and Li Qiming 李启明, a secretary of the committee and governor.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 132. Made public: 2001 ([[w.huainian-yaobang-vol-4]]). To check: 〈胡耀邦主政陝西的兩百天〉, in [[w.huainian-yaobang-vol-4]], 125 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 132 n.78).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 132: all'
+            - 'via x.2001.huainian-yaobang-4-hu-yaobang-zhuzheng-shaanxi-de-liangbai-tian: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1964-11-16.china-leadership-12
+        when: Nov. 16
+        date: '1964-11-16'
+        thread: china-leadership
+        c: The Center decides that Hu Yaobang 胡耀邦, first secretary of the Youth League's Central Committee 共青团中央, is to act as first secretary of the Shaanxi 陕西 committee while its first secretary, Zhang Desheng 张德生, is ill. He keeps the League post.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 133. Made public: 2000 ([[w.zhongguo-gongchandang-zuzhishi-ziliao]]). To check: [[w.zhongguo-gongchandang-zuzhishi-ziliao]], V, 770–771 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 133 n.79).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 133: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - cite:
+      id: cal.1965-03-04.china-leadership-12
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 133 (Zhang Desheng, first secretary of the Shaanxi committee, dies of illness, Mar. 4, 1965)'
+  - add:
+      entry:
+        id: cal.1965-05-08.china-leadership-12
+        when: May 8
+        date: '1965-05-08'
+        thread: china-leadership
+        c: The Center appoints Hu Yaobang 胡耀邦 first secretary of the Shaanxi 陕西 committee.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 133. Made public: 2000 ([[w.zhongguo-gongchandang-zuzhishi-ziliao]]). To check: [[w.zhongguo-gongchandang-zuzhishi-ziliao]], V, 770–771 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 133 n.79). See [[cal.1964-11-16.china-leadership-12]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 133: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1963-11.china-leadership-5
+        when: Nov.
+        date: 1963-11
+        place: shaanxi
+        thread: china-leadership
+        c: Shaanxi 陕西 begins the socialist education movement 社会主义教育运动 across the province.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 133. To check: [[w.zhongguo-gongchandang-zuzhishi-ziliao]], V, 770–771 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 133 n.79).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 133: all'
+        tags: [polity:prc]
+        gloss:
+          title: Estimates
+          text:
+            - Bu Weihua, citing the Party's organization history, counts 8,691 Party members and cadres wrongly handled in the province over the movement, among them Liu Geng 刘庚, a standing member of the committee and mayor of Xi'an, and some prefectural and county leaders ([[w.pu-weihua-zalan-jiu-shijie]], 133; 133 n.79).
+  - add:
+      entry:
+        id: cal.1964-12.china-leadership-13
+        when: Dec.
+        date: 1964-12
+        place: shaanxi
+        thread: china-leadership
+        c: Shaanxi 陕西. Hu Yaobang 胡耀邦, in charge of the committee, decides to suspend seizures of power, the "double expulsions" 双开 (from the Party and from public posts) and arrests in the socialist education movement.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 133. Made public: 2000 ([[w.zhongguo-gongchandang-zuzhishi-ziliao]]). To check: [[w.zhongguo-gongchandang-zuzhishi-ziliao]], V, 770–771 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 133 n.79).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 133: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1965-03-29.china-leadership-11
+        when: Mar. 29
+        date: '1965-03-29'
+        place: shaanxi
+        thread: china-leadership
+        c: The Shaanxi 陕西 committee, under the intervention of the Northwest Bureau 西北局, issues its "Notice revoking several 'suspensions'" 〈关于撤销几个“暂停”的通知〉.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 133. Made public: 2000 ([[w.zhongguo-gongchandang-zuzhishi-ziliao]]). To check: [[w.zhongguo-gongchandang-zuzhishi-ziliao]], V, 770–771 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 133 n.79). See [[cal.1964-12.china-leadership-13]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 133: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1965-10-31.china-leadership-5
+        when: Oct. 31
+        date: '1965-10-31'
+        thread: china-leadership
+        c: The Center appoints Huo Shilian 霍士廉 first secretary of the Shaanxi 陕西 committee and relieves Hu Yaobang 胡耀邦 of the post.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 133. Made public: 2008.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 133: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966-03.china-leadership-19
+        when: Mar.
+        date: 1966-03
+        place: shaanxi
+        thread: china-leadership
+        c: 'The Shaanxi 陕西 committee''s fourth plenum of its fourth term 四届四次全委会议 adopts "Views on the summary of the work of recent years and the main tasks ahead" 〈关于近几年工作总结和今后主要任务的意见〉 and a "Resolution on several questions of the socialist education movement" 〈关于社会主义教育运动几个问题的决议〉: the Four Cleanups 四清 in town and country to be finished in about three years, settling in them the incomplete land reform, the incomplete suppression of counter-revolutionaries and the impure organizations, and completing the "make-up lessons of the democratic revolution" 民主革命补课.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 133. Made public: 2008.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 133: all'
+        tags: [polity:prc, vis:only:prc]
+        gloss:
+          title: Estimates
+          text:
+            - Bu Weihua puts at over 60,000 the working households across the province misclassified as landlords and rich peasants in the "make-up lessons" ([[w.pu-weihua-zalan-jiu-shijie]], 133).
+  - add:
+      entry:
+        id: cal.1966-06-01.china-leadership-13
+        when: June 1
+        date: '1966-06-01'
+        place: xian
+        thread: china-leadership
+        c: 'Xi''an 西安. The Northwest Bureau 中共中央西北局 opens its enlarged third plenum 扩大的第三次全体会议 (to July 11), later widened to the leaders of the five northwestern provinces and regions down to the county secretaries. Barred from naming Hu Yaobang 胡耀邦, a cadre under the Center, it calls openly for exposing the "black line of Peng (Dehuai), Gao (Gang) and Xi (Zhongxun) 习仲勋 in the Northwest," with Zhao Shouyi 赵守一 and Li Qiming 李启明 as their agents and Hu as head: the Northwest "Three-Family Village."'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 134. Made public: 2008.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 134: all'
+        tags: [polity:prc, vis:only:prc, name:peng-dehuai]
+  - add:
+      entry:
+        id: cal.1966-07-15.china-leadership-4
+        when: July 15
+        date: '1966-07-15'
+        place: shaanxi
+        thread: china-leadership
+        c: The Shaanxi 陕西 committee opens its enlarged fifth plenum of its fourth term 扩大的四届五次委员会 (to Aug. 17), which, in the key of the Northwest Bureau's meeting, goes on exposing and criticizing Hu Yaobang 胡耀邦, Zhao Shouyi 赵守一 and Li Qiming 李启明.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 134. Made public: 2008. See [[cal.1966-06-01.china-leadership-13]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 134: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-06-13.china-leadership-8
+        when: June 13
+        date: '1966-06-13'
+        place: xian
+        thread: china-leadership
+        c: 'The Northwest Bureau 西北局 has a culture and education secretary of the Shaanxi 陕西 committee open a "Cultural Revolution forum" 文化大革命座谈会 (to Sept. 18), later renamed a "cadres'' training class" 干部集训班, to drag out and struggle members of the "Hu–Zhao–Li Three-Family Village anti-Party clique": its forty-odd targets, kept without freedom, are the committee''s secretary-general and deputies, deputy heads of its general office, propaganda and rural work departments, prefectural secretaries, middle cadres of the Bureau and the Xi''an committee, and others.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 134. Made public: 2008. See [[cal.1966-06-01.china-leadership-13]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 134: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-09-21.china-leadership-5
+        when: Sept. 21
+        date: '1966-09-21'
+        place: xian
+        thread: china-leadership
+        c: The Northwest Bureau's "cadres' training class" 干部集训班 is moved secretly from Xi'an 西安 to a mountain gully in Long county 陇县, Shaanxi.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 134. Made public: 2008. See [[cal.1966-06-13.china-leadership-8]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 134: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966.china-leadership-108
+        when: '1966'
+        date: '1966'
+        place: shaanxi
+        thread: china-leadership
+        c: Shaanxi 陕西. Zhao Shouyi 赵守一, second secretary of the committee, Li Qiming 李启明, the governor, and a drafter of documents who backed Hu Yaobang 胡耀邦 are held "in isolation for examination" 隔离审查 in a secret prison, moved from place to place.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 134. Made public: 2008. See [[cal.1966-06-01.china-leadership-13]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 134: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966.china-leadership-109
+        when: '1966'
+        date: '1966'
+        thread: china-leadership
+        c: 'The Northwest Bureau 西北局 and the Shaanxi 陕西 committee draw up "Material on Comrade Hu Yaobang''s collusion with the anti-Party element Zhao Shouyi and others in anti-Party activity" 〈关于胡耀邦同志和反党分子赵守一等相互勾结进行反党活动的材料〉: Hu, sent to Shaanxi at the end of November 1964, joined with Zhao Shouyi 赵守一 and Li Qiming 李启明, "nails" of Xi Zhongxun''s anti-Party clique, against socialism, the Bureau and the Center; sixteen "anti-Party crimes," among them Hu''s eight points for reversing the verdict, on which Chen Yuanfang 陈元方, the committee''s secretary-general, and others drafted a report to the Center, Lin Mu''s 林牧 letter to Mao 毛泽东 through Tian Jiaying 田家英 accusing the Bureau, and Hu''s "stealing intelligence"; and Peng, Luo, Lu and Yang backing Hu against the Bureau. It does not mention Hu''s opposition to Liu Shaoqi 刘少奇.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 134–135. Made public: 2008.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 134–135: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place, ok:fields-at, name:mao-zedong, name:liu-shaoqi]
+  - add:
+      entry:
+        id: cal.1965-01.china-leadership-13
+        when: Jan.
+        date: 1965-01
+        place: shaanxi
+        thread: china-leadership
+        c: 'Shaanxi 陕西. By the Northwest Bureau''s later material: at the committee''s January meeting 省委一月会议 Hu Yaobang 胡耀邦 attacks the socialist education movement: too many dead, too many arrested, the struggle too wide, the poor and lower-middle peasants hurt; the training of erring cadres "isolation everywhere." Zhao Shouyi 赵守一 adds to it; around the meeting the two put out a series of "suspensions."'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 135. Made public: 2008. See [[cal.1966.china-leadership-109]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 135: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1965-02-14.china-leadership-4
+        when: Feb. 14
+        date: '1965-02-14'
+        place: ankang
+        thread: china-leadership
+        c: Hu Yaobang 胡耀邦 sends the province, from Ankang 安康, a "Telephone circular" 〈电话通讯〉 with four points of cadre policy that the Northwest Bureau's later material calls opposed to the Twenty-three Articles 二十三条.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 135. Made public: 2008. See [[cal.1966.china-leadership-109]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 135: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1965-02-17.china-leadership-12
+        when: Feb. 17
+        date: '1965-02-17'
+        thread: china-leadership
+        c: Zhao Shouyi 赵守一, in a letter to the Shaanxi 陕西 committee's Secretariat 省委书记处, praises Hu Yaobang's 胡耀邦 "Telephone circular" and proposes four supplementary rules. By the Northwest Bureau's later material.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 135. Made public: 2008. See [[cal.1965-02-14.china-leadership-4]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 135: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1965-02-22.china-leadership-12
+        when: Feb. 22
+        date: '1965-02-22'
+        thread: china-leadership
+        c: Li Qiming 李启明, in a letter to the Shaanxi 陕西 committee's Secretariat 省委书记处, speaks up for the cadres of the "four uncleans" 四不清. By the Northwest Bureau's later material.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 135. Made public: 2008. See [[cal.1965-02-14.china-leadership-4]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 135: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966-07-07.china-leadership-10
+        when: July 7
+        date: '1966-07-07'
+        place: wuhan
+        thread: china-leadership
+        c: Wuhan University 武汉大学. The work group sent by the Hubei 湖北 committee makes Li Da 李达, He Dinghua 何定华 and Zhu Shaotian 朱劭天 the university's "Three-Family Village" 三家村 and criticizes them publicly by name.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 137. See [[cal.1966-06-13.china-leadership-3]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 137: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-07.china-leadership-30
+        when: July, after the 7th
+        date: 1966-07
+        at: after 1966-07-07
+        place: wuhan
+        thread: china-leadership
+        c: 'Wuhan University 武汉大学. Li Da 李达, the president, under criticism, writes "My confession" 〈我的坦白〉 (first headed "My examination and defense," then "My confession and defense"): he admits some views against Mao Zedong Thought 毛泽东思想, full responsibility as president for the university''s errors, and an "anti-Party error" in resisting the committee over cadres, but denies point by point that he denied Mao Zedong Thought the summit of Marxism-Leninism. He writes too a defense denying any "Li Da Three-Family Village."'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 137. Made public: 2008. See [[cal.1966-07-07.china-leadership-10]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 137: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-07.china-leadership-31
+        when: July, mid-
+        date: 1966-07
+        at: before 1966-07-11
+        place: wuhan
+        thread: china-leadership
+        c: Wuhan University 武汉大学. The work group presses the question of Li Da's 李达 family class, to make his family "great evil landlords." After his written defense a deputy head of the propaganda department of the Lingling 零陵 county committee, Hunan, announces at an all-university meeting that Li is capped a "landlord element."
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 137–138. Made public: 2008. See [[cal.1966-07-07.china-leadership-10]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 137–138: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-07.china-leadership-32
+        when: July, mid-
+        date: 1966-07
+        at: before 1966-07-11
+        place: wuhan
+        thread: china-leadership
+        c: 'Wuhan University 武汉大学. The work group brings peasants of Lingling 零陵 county and students of the university into the house of Li Da 李达 to besiege him. Li: his family were small landlords who let out land, twelve or thirteen mu for five people: "landlords? a strange thing!"'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 138. Made public: 2008. See [[cal.1966-07.china-leadership-31]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 138: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-07-18.china-leadership-4
+        when: July 18
+        date: '1966-07-18'
+        place: hubei
+        thread: china-leadership
+        c: The Hubei 湖北 committee decides to expel Li Da 李达, president of Wuhan University 武汉大学, from the Party.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 138. Made public: 2008.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 138: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-07-18.china-leadership-5
+        when: July 18
+        date: '1966-07-18'
+        place: wuhan
+        thread: china-leadership
+        c: Wuhan University 武汉大学. The work group holds a meeting to criticize and struggle against Li Da 李达.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 138. See [[cal.1966-07-18.china-leadership-4]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 138: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-07-19.china-leadership-6
+        when: July 19, afternoon
+        date: '1966-07-19'
+        place: wuhan
+        thread: china-leadership
+        c: 'Li Da 李达, having read in the papers of Mao''s swim in the Yangtze, writes him a short letter: "Chairman: please save my life. I have written a confession; please ask the Wuhan University work team for it."'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 138. The words: 七月十九日下午 (138). Made public: 2008. See [[cal.1966-08-10.china-leadership-3]]. Names: Mao Zedong.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 138: all'
+        tags: [polity:prc, vis:only:prc, name:mao-zedong]
+        time_range:
+          - 1966-07-19T04:00Z
+          - 1966-07-19T10:00Z
+        time_band: afternoon
+        time_zone: Asia/Shanghai
+  - cite:
+      id: cal.1966-08-10.china-leadership-3
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 138 (the letter, passed from hand to hand, reaches Mao Aug. 10; his note: "After Comrade Tao Zhu reads it, to Comrade Renzhong to handle as he sees fit"; the Wengao, XII, 98 (138 n.81))'
+      units: A
+  - to-check:
+      id: cal.1966-08-10.china-leadership-3
+      add: '[[w.zedong-jianguo-yilai-mao-zedong]], XII, 98 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 138 n.81)'
+  - cite:
+      id: cal.1966-08-10.china-leadership-4
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 138 (Tao Zhu, on receiving Mao''s note that day, writes at once: "Send at once to Comrade Renzhong"; the Wengao, XII, 98 (138 n.81))'
+      units: A
+  - add:
+      entry:
+        id: cal.1966-08-16.china-leadership-9
+        when: Aug. 16
+        date: '1966-08-16'
+        place: wuhan
+        thread: china-leadership
+        c: 'Wuhan University 武汉大学. Zhang Tixue 张体学, second secretary of the Hubei 湖北 committee, back from the Eleventh Plenum, conveys Mao''s two points on Li Da 李达: Li is of no more use; the university''s revolutionary teachers and students surely will not go too far with him. Zhang adds: no need to struggle him more; a "landlord element" cap is enough; hand him to the committee, which will give him only a bowl of rice and keep him as a negative example.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 138. Made public: 2008. Names: Mao Zedong.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 138: all'
+        tags: [polity:prc, vis:only:prc, name:mao-zedong]
+  - add:
+      entry:
+        id: cal.1966-08-13.china-leadership-10
+        when: Aug. 13
+        date: '1966-08-13'
+        thread: china-leadership
+        c: Li Da 李达, seventy-seven and ill, untreated, falls, vomits blood on the spot, and is not allowed to go to hospital.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 138–139.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 138–139: all'
+        tags: [polity:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966-08-22.china-leadership-9
+        when: Aug. 22
+        date: '1966-08-22'
+        thread: china-leadership
+        c: Li Da 李达, near death, is at last taken to hospital.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 139. See [[cal.1966-08-13.china-leadership-10]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 139: all'
+        tags: [polity:prc, ok:fields-place]
+  - cite:
+      id: cal.1966-08-24.china-leadership-5
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 139 (Li Da dies, Aug. 24)'
+  - add:
+      entry:
+        id: cal.1962-02.china-leadership-13
+        when: Feb., Spring Festival
+        date: 1962-02
+        at: before 1962-02-10
+        place: yunnan
+        thread: china-leadership
+        c: Deng Tuo 邓拓 visits Yunnan 云南 over the Spring Festival; Li Mengbei 李孟北, editor-in-chief of the *Yunnan ribao* 云南日报, receives him.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 139.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 139: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1962-10.china-leadership-7
+        when: Oct.
+        date: 1962-10
+        thread: china-leadership
+        c: Deng Tuo 邓拓, in "To the readers" 〈奉告读者〉, written for the fifth collection of *Yanshan yehua* 燕山夜话, names the *Yunnan ribao*'s 云南日报 column *Dianyun mantan* 滇云漫谭 among the papers' columns he wishes long life.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 139.'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 139: all'
+        tags: [polity:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966-05-16.china-leadership-8
+        when: May 16
+        date: '1966-05-16'
+        place: kunming
+        thread: china-leadership
+        c: Kunming 昆明. A work group of the Yunnan committee 中共云南省委 enters the *Yunnan ribao* 云南日报 and rouses its cadres and staff to expose the paper's faults.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 139, 140 n.82. Made public: 1999. To check: 《雲南五十年——中共雲南省社會主義時期大事記》 (1999), 125 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 140 n.82).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 139: all'
+            - 'via x.1999.yunnan-wushi-nian-dashiji-1999: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-05-26.china-leadership-6
+        when: May 26
+        date: '1966-05-26'
+        place: yunnan
+        thread: china-leadership
+        c: 'The Yunnan committee''s standing committee 云南省委常委会 discusses the *Yunnan ribao* 云南日报: its supplement column *Dianyun mantan* 滇云漫谭, written mainly by Li Mengbei 李孟北, the paper''s director and editor-in-chief, is anti-Party and anti-socialist and to be criticized openly in the paper.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 139, 140 n.82. Made public: 1999. To check: 《雲南五十年——中共雲南省社會主義時期大事記》 (1999), 125 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 140 n.82). Check: whether this is the work conference of [[cal.1966.china-leadership-73]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 139: all'
+            - 'via x.1999.yunnan-wushi-nian-dashiji-1999: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-05-29.china-leadership-5
+        when: May 29
+        date: '1966-05-29'
+        place: yunnan
+        thread: china-leadership
+        c: The Yunnan 云南 committee decides to ask the Southwest Bureau 中共中央西南局 to approve branding Li Mengbei 李孟北 an "anti-Party, anti-socialist element" and criticizing him openly in the paper.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 139, 140 n.82. Made public: 1999. To check: 《雲南五十年——中共雲南省社會主義時期大事記》 (1999), 125 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 140 n.82).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 139: all'
+            - 'via x.1999.yunnan-wushi-nian-dashiji-1999: all'
+        tags: [polity:prc, vis:only:prc]
+  - add:
+      entry:
+        id: cal.1966-05-30.china-leadership-5
+        when: May 30
+        date: '1966-05-30'
+        thread: china-leadership
+        c: The Southwest Bureau 西南局 approves the Yunnan 云南 committee's request on Li Mengbei 李孟北.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 139, 140 n.82. Made public: 1999. To check: 《雲南五十年——中共雲南省社會主義時期大事記》 (1999), 125 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 140 n.82). See [[cal.1966-05-29.china-leadership-5]].'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 139: all'
+            - 'via x.1999.yunnan-wushi-nian-dashiji-1999: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966-06-06.china-leadership-11
+        when: June 6
+        date: '1966-06-06'
+        place: kunming
+        thread: china-leadership
+        c: 'Kunming 昆明. The *Yunnan ribao* 云南日报, on two pages, under "Sweep away all ox-demons and snake-spirits in the realm of ideas, open fire on the black line against revolution and socialism" 〈横扫思想领域中的一切牛鬼蛇神，向反革命反社会主义的黑线开火〉, criticizes *Dianyun mantan* 滇云漫谭 openly: in direct concert with the "Three-Family Village," a Yunnan branch of Deng Tuo''s 邓拓 counter-revolutionary clique.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 139, 140 n.82. To check: 《雲南五十年——中共雲南省社會主義時期大事記》 (1999), 125 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 140 n.82).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 139: all'
+            - 'via x.1999.yunnan-wushi-nian-dashiji-1999: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-06-07.china-leadership-16
+        when: June 7
+        date: '1966-06-07'
+        place: kunming
+        thread: china-leadership
+        c: Kunming 昆明. The *Yunnan ribao* 云南日报 criticizes Li Mengbei 李孟北 openly by name.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 139, 140 n.82. To check: 《雲南五十年——中共雲南省社會主義時期大事記》 (1999), 125 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 140 n.82).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 139: all'
+            - 'via x.1999.yunnan-wushi-nian-dashiji-1999: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-06-21.china-leadership-15
+        when: June 21
+        date: '1966-06-21'
+        thread: china-leadership
+        c: 'The Center cables the Southwest Bureau 西南局, and the Yunnan 云南 committee: it agrees to remove Li Mengbei 李孟北 and to make Xue Bo 薛波 editor-in-chief of the *Yunnan ribao* 云南日报.'
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 139, 140 n.82. Made public: 1999. To check: 《雲南五十年——中共雲南省社會主義時期大事記》 (1999), 125 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 140 n.82).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 139: all'
+            - 'via x.1999.yunnan-wushi-nian-dashiji-1999: all'
+        tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - add:
+      entry:
+        id: cal.1966-06-22.china-leadership-7
+        when: June 22
+        date: '1966-06-22'
+        place: yunnan
+        thread: china-leadership
+        c: The Yunnan 云南 committee decides to set up a new editorial board of the *Yunnan ribao* 云南日报.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 139, 140 n.82. Made public: 1999. To check: 《雲南五十年——中共雲南省社會主義時期大事記》 (1999), 125 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 140 n.82).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 139: all'
+            - 'via x.1999.yunnan-wushi-nian-dashiji-1999: all'
+        tags: [polity:prc, vis:only:prc]
+  - cite:
+      id: cal.1966-06-28.china-leadership-9
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 139–140 (June 28, the Southwest Bureau''s reply to the Yunnan committee, reported to the Center: it agrees; Xia Yu and Zhou Zhongde, deputy editors, suspended to account for themselves; Li Mengbei, Xia Yu and Zhou Zhongde capped as an anti-Party, anti-socialist black gang and named in the paper; the Yunnan fifty years chronicle, 125 (140 n.82))'
+  - to-check:
+      id: cal.1966-06-28.china-leadership-9
+      add: 《雲南五十年——中共雲南省社會主義時期大事記》 (1999), 125 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 140 n.82)
+  - add:
+      entry:
+        id: cal.1966-06-30.china-leadership-7
+        when: June 30
+        date: '1966-06-30'
+        place: kunming
+        thread: china-leadership
+        c: Kunming 昆明. The *Yunnan ribao* 云南日报 prints a batch of material, "Li Mengbei's anti-Party, anti-socialist utterances" 〈李孟北反党反社会主义言论〉.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 140, 140 n.82. To check: 《雲南五十年——中共雲南省社會主義時期大事記》 (1999), 125 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 140 n.82).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 140: all'
+            - 'via x.1999.yunnan-wushi-nian-dashiji-1999: all'
+        tags: [polity:prc]
+  - add:
+      entry:
+        id: cal.1966-07-03.china-leadership-10
+        when: July 3
+        date: '1966-07-03'
+        place: kunming
+        thread: china-leadership
+        c: Kunming 昆明. The *Yunnan ribao* 云南日报 begins to criticize Xia Yu 夏雨 and Zhou Zhongde 周钟德 openly by name, calling Li Mengbei 李孟北, Xia and Zhou "the Three-Family Village's Yunnan branch." Many of the paper's cadres and staff are drawn in, struck at and persecuted.
+        n: '[[w.pu-weihua-zalan-jiu-shijie]], 140, 140 n.82. To check: 《雲南五十年——中共雲南省社會主義時期大事記》 (1999), 125 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 140 n.82).'
+        src:
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 140: all'
+            - 'via x.1999.yunnan-wushi-nian-dashiji-1999: all'
+        tags: [polity:prc]
+  - cite:
+      id: cal.1966-07-18.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 140 (mid-July, Mao comes back to Peking from outside; he finds the Red Guards, the Monkey Kings he had called for months before, and at once affirms and firmly backs them)'
+  - cite:
+      id: cal.1966-03-30.china-leadership
+      item: '[[w.pu-weihua-zalan-jiu-shijie]], 140 n.84 (the end of March 1966, Mao to Jiang Qing, Kang Sheng, Zhang Chunqiao and others: he has always held that whenever the central organs do wrong he calls on the localities to rebel and attack the Center; the localities should bring forth more Monkey Kings to raise havoc in the Palace of Heaven)'
+      units: F
