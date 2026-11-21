@@ -1056,3 +1056,7 @@ For this entry, we can't figure out "the day" of "the weekend before Aug. 14"?
 >>> Korea, Aug.
 North Korea issues "a declaration of independence against both Russia and China," by Schlesinger's journal (the news at Hyannis Port, the weekend before Aug. 14).
 Schlesinger, Journals, 252 (the entry of Aug. 14). Check: the day."
+
+## Nov. 21, 2026, about 1 p.m. (Pacific)
+
+"Haven't I given you Nongye jitihua zhongyao wenjian huibian (1981)?"
