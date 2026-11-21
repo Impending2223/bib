@@ -48,6 +48,26 @@ ops:
         time_range: ['1965-05-19T04:00Z', '1965-05-19T10:00Z']
         time_band: afternoon
         time_zone: Asia/Shanghai
+  - edit:
+      id: cal.1964-10-19.china-leadership-4
+      base: 1c3418e6
+      set: {place: peking}
+  - edit:
+      id: cal.1964-11-01.china-leadership
+      base: 06627a66
+      set: {time: '1964-11-01T14:00Z', time_zone: Asia/Shanghai}
+      unset: [time_range, time_band]
+  - edit:
+      id: cal.1965-01.china-leadership-7
+      base: bd39acfb
+      set: {at: after 1965-01-14}
+  - edit:
+      id: cal.1965-05-11.china-leadership-3
+      base: ab1928de
+      set:
+        time_range: ['1965-05-10T22:00Z', '1965-05-11T04:00Z']
+        time_band: morning
+        time_zone: Asia/Shanghai
   - place-key: {key: nandan, name: 'Nandan', zone: Asia/Shanghai, in: prc}
   - place-key: {key: anyang, name: 'Anyang', zone: Asia/Shanghai, in: prc}
   - place-key: {key: chifeng, name: 'Chifeng', zone: Asia/Shanghai, in: prc}
@@ -740,17 +760,7 @@ ops:
         c: 'Zhu De 朱德 writes an inscription for the Seventh Ministry of Machine Building 第七机械工业部: "Catch up headlong" 迎头赶上.'
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1905. Made public: 2016. Names: Zhu De.'
         tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
-  - add:
-      entry:
-        id: cal.1964-04-15.china-leadership-16
-        when: Apr. 15
-        date: '1964-04-15'
-        time: 1964-04-15T12:00Z
-        time_zone: Asia/Shanghai
-        thread: china-leadership
-        c: Zhu De 朱德 goes to a meeting at Liu Shaoqi's 刘少奇, at 8 p.m.
-        n: '[[w.zhu-de-nianpu-xinbian]], III, 1905. The words: 晚八时，到刘少奇处开会 (1905). Made public: 2016. Names: Zhu De, Liu Shaoqi.'
-        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:liu-shaoqi', 'vis:only:prc']
+  - cite: {id: cal.1964-04-15.china-leadership-7, item: '[[w.zhu-de-nianpu-xinbian]], III, 1905 (Apr. 15, 1964, 8 p.m.; Zhu De 朱德 goes to Liu Shaoqi''s 刘少奇 for a meeting)'}
   - add:
       entry:
         id: cal.1964-04-17.china-leadership-13
@@ -799,17 +809,7 @@ ops:
         c: Zhu De 朱德 goes to a meeting at Liu Shaoqi's 刘少奇, at 5 p.m., on Laos 老挝.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1906. The words: 下午五时，到刘少奇处开会，讨论老挝问题 (1906). Made public: 2016. Names: Zhu De, Liu Shaoqi.'
         tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:liu-shaoqi', 'vis:only:prc']
-  - add:
-      entry:
-        id: cal.1964-04-21.china-leadership-6
-        when: Apr. 21
-        date: '1964-04-21'
-        time: 1964-04-21T12:30Z
-        time_zone: Asia/Shanghai
-        thread: china-leadership
-        c: Zhu De 朱德 goes to a meeting at Liu Shaoqi's 刘少奇, at 8:30 p.m.
-        n: '[[w.zhu-de-nianpu-xinbian]], III, 1906. The words: 下午八时半，到刘少奇处开会 (1906). Made public: 2016. Names: Zhu De, Liu Shaoqi.'
-        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:liu-shaoqi', 'vis:only:prc']
+  - cite: {id: cal.1964-04-21.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1906 (Apr. 21, 1964; Zhu De 朱德 goes to Liu Shaoqi''s 刘少奇 for a meeting at 8:30 p.m., printed 下午八时半)'}
   - cite: {id: cal.1964-04-22.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1906 (Apr. 22, 1964; Zhu De 朱德, with Liu Shaoqi 刘少奇 and Zhou Enlai 周恩来, at the Bulgarian embassy 保加利亚驻中国大使馆 to condole the death of Dimitar Ganev 迪·加涅夫)'}
   - add:
       entry:
@@ -926,7 +926,7 @@ ops:
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1908. Made public: 2016. Names: Zhu De.'
         tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
   - cite: {id: cal.1964-05-08.china-leadership-6, item: '[[w.zhu-de-nianpu-xinbian]], III, 1908 (May 8, 1964; Zhu De 朱德, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, receives all the members of the PLA''s third arts festival)'}
-  - cite: {id: cal.1964-05-08.china-leadership-8, item: '[[w.zhu-de-nianpu-xinbian]], III, 1908 (printed under May 9, 1964; Zhu De 朱德, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, receives the minority visiting groups of ten provinces and regions come for May Day 内蒙古、西藏、新疆、广西、宁夏、贵州、云南、四川、青海、甘肃 and the graduating class of the Central Institute for Nationalities 中央民族学院)'}
+  - cite: {id: cal.1964-05-08.china-leadership-8, item: '[[w.zhu-de-nianpu-xinbian]], III, 1908 (May 9, 1964; Zhu De 朱德, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, receives the minority visiting groups of ten provinces and regions come for May Day 内蒙古、西藏、新疆、广西、宁夏、贵州、云南、四川、青海、甘肃 and the graduating class of the Central Institute for Nationalities 中央民族学院)'}
   - variant: {id: cal.1964-05-08.china-leadership-8, unit: A, witness: w.zhu-de-nianpu-xinbian, reads: 'May 9, 1964: Zhu De, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping and others, receives the minority groups of ten provinces and regions come to Peking for May Day and the Central Institute for Nationalities'' graduating class', at: 'III, 1908'}
   - add:
       entry:
@@ -1736,8 +1736,9 @@ ops:
         place: peking
         thread: china-leadership
         c: The Peking Hospital 北京医院, Peking 北京. Zhu De 朱德 calls on Zhou Enlai 周恩来, in hospital there.
-        n: '[[w.zhu-de-nianpu-xinbian]], III, 1916. Made public: 2016. Names: Zhu De, Zhou Enlai.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1916. Made public: 2016. See [[cal.1964-08-10.china-leadership]]. Names: Zhu De, Zhou Enlai.'
         tags: ['polity:prc', 'name:zhu-de', 'name:zhou-enlai', 'vis:only:prc']
+  - variant: {id: cal.1964-08-10.china-leadership, unit: A, witness: w.zhu-de-nianpu-xinbian, reads: 'Aug. 21, 1964: Zhu De goes to the Peking Hospital to see Zhou Enlai, in hospital there', at: 'III, 1916'}
   - add:
       entry:
         id: cal.1964-08-22.china-leadership-11
@@ -1773,7 +1774,7 @@ ops:
         when: Sept. 10
         date: '1964-09-10'
         thread: china-leadership
-        c: Zhu De 朱德 meets Fakhr al-Din Mohammed 埃丁·穆罕默德, the Sudan's first Ambassador to China.
+        c: Zhu De 朱德 meets Fakhr al-Din Mohammed 埃丁·穆罕默德 (so printed), the Sudan's first Ambassador to China.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1917. Names: Zhu De.'
         tags: ['polity:prc', 'polity:sudan', 'name:zhu-de']
   - add:
@@ -1843,8 +1844,9 @@ ops:
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1917. Made public: 2016. Names: Zhu De, Mao Zedong.'
         tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
   - cite: {id: cal.1964-09-27.china-leadership-3, item: '[[w.zhu-de-nianpu-xinbian]], III, 1918 (Sept. 27, 1964; Zhu De 朱德, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Dong Biwu 董必武 and others, at the airport to welcome Prince Norodom Sihanouk 诺罗敦·西哈努克 and the Princess)'}
-  - cite: {id: cal.1964-09-28.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1918–1919 (Sept. 28, 1964: Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武 and Zhou Enlai 周恩来, at the airport to welcome President Alphonse Massamba-Débat 阿方斯·马桑巴-代巴; Oct. 2: Zhu De at the signing of the treaty of friendship of China and the Republic of the Congo (Brazzaville) 中华人民共和国和刚果共和国（布拉柴维尔）友好条约; Oct. 3: with Liu Shaoqi, Dong Biwu and others, sees the President and his party off at the airport)'}
+  - cite: {id: cal.1964-09-28.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1918–1919 (Sept. 28, 1964: Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武 and Zhou Enlai 周恩来, at the airport to welcome President Alphonse Massamba-Débat 阿方斯·马桑巴-代巴; Oct. 2: Zhu De at the signing of the treaty of friendship of China and the Republic of the Congo (Brazzaville) 中华人民共和国和刚果共和国（布拉柴维尔）友好条约)'}
   - cite: {id: cal.1964-09-29.china-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1918–1919 (Sept. 29, 1964: Zhu De 朱德, with Peng Zhen 彭真, Chen Yi 陈毅, Ulanhu 乌兰夫, Deng Zihui 邓子恢, Lin Feng 林枫 and others, at the airport to welcome the Soviet Party and government delegation under Grishin 格里申, the GDR government delegation under Lothar Bolz 博尔茨, Deputy Chairman of the Council of Ministers and Foreign Minister, and the Czechoslovak delegation under 帕歇克, secretary of the Central Council of Trade Unions, come for the fifteenth anniversary; Oct. 4: with Peng Zhen, Lin Feng and others, sees the Soviet and Czechoslovak delegations off at the airport)'}
+  - cite: {id: cal.1964-09-29.china-3, item: '[[w.zhu-de-nianpu-xinbian]], III, 1918–1919 (Sept. 29, 1964: Zhu De 朱德, with Peng Zhen 彭真 and others, at the airport to welcome the Czechoslovak delegation under 帕歇克, secretary of the Central Council of Trade Unions 捷克斯洛伐克工会中央理事会书记, come for the fifteenth anniversary; Oct. 4: with Peng Zhen, Lin Feng 林枫 and others, sees it off at the airport)'}
   - add:
       entry:
         id: cal.1964-09-29.china-leadership-17
@@ -1874,6 +1876,7 @@ ops:
         c: Zhu De 朱德, with Guo Moruo 郭沫若, Lin Feng 林枫 and others, sees off the Ceylonese parliamentary delegation at the airport.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1918. Names: Zhu De.'
         tags: ['polity:prc', 'polity:ceylon', 'name:zhu-de']
+  - cite: {id: cal.1964-10-03.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1919 (Oct. 3, 1964; Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武 and others, at the airport to see President Alphonse Massamba-Débat 阿方斯·马桑巴-代巴 and his party off home)'}
   - cite: {id: cal.1964-10-04.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1919 (Oct. 4, 1964; Zhu De 朱德, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and others, sees President Modibo Keita 莫迪博·凯塔 and part of his party off at the airport)'}
   - cite: {id: cal.1964-10-05.china-leadership-7, item: '[[w.zhu-de-nianpu-xinbian]], III, 1919 (Oct. 5, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平, Peng Zhen 彭真, Li Fuchun 李富春, He Long 贺龙, Bo Yibo 薄一波 and others, receives the labor models of industry, transport, finance and trade, culture and education, the minority groups of twenty-two provinces and regions, the delegates of the PLA and the public security forces, and the delegates to the air force''s meeting of activists in the study of Chairman Mao''s works 空军学习毛主席著作积极分子)'}
   - cite: {id: cal.1964-10-05.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1919 (Oct. 5, 1964; Zhu De 朱德 at the signing of the joint communique of China and the Kingdom of Cambodia 中华人民共和国和柬埔寨王国联合公报)'}
@@ -1897,11 +1900,11 @@ ops:
         place: peking
         thread: china-leadership
         c: Peking 北京. Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武 and others, sees off at the airport the Korean Party and government delegation under Choe Yong-gon 崔庸健.
-        n: '[[w.zhu-de-nianpu-xinbian]], III, 1919. Names: Zhu De, Liu Shaoqi, Dong Biwu. Check: whether the delegation left Peking on Oct. 8, as the nianpu has it, or on Oct. 3, when the Chen Yi chronology has Chen Yi see it off at the airport ([[cal.1964-10-03.china-leadership-14]]).'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1919. See [[cal.1964-10-07.china-leadership]]. Names: Zhu De, Liu Shaoqi, Dong Biwu.'
         tags: ['polity:prc', 'polity:dprk', 'name:zhu-de', 'name:liu-shaoqi', 'name:dong-biwu']
   - cite: {id: cal.1964-10-08.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1919 (Oct. 8, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Peng Zhen 彭真, Li Xiannian 李先念 and others, meets Gheorghe Maurer 格奥尔基·毛雷尔 and his delegation)'}
   - cite: {id: cal.1964-10-09.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1919–1920 (Oct. 9, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Peng Zhen 彭真, He Long 贺龙, Luo Ruiqing 罗瑞卿 and others, meets Colonel General Beqir Balluku 贝基尔·巴卢库 and the Albanian Party and government delegation)'}
-  - cite: {id: cal.1964-10-08.china-leadership-7, item: '[[w.zhu-de-nianpu-xinbian]], III, 1920 (printed under Oct. 9, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Peng Zhen 彭真 and others, sees the ballet company of the Central Opera and Ballet Theater 中央歌剧舞剧院芭蕾舞剧团 in the modern ballet *The Red Detachment of Women* 《红色娘子军》)'}
+  - cite: {id: cal.1964-10-08.china-leadership-7, item: '[[w.zhu-de-nianpu-xinbian]], III, 1920 (Oct. 9, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Peng Zhen 彭真 and others, sees the ballet company of the Central Opera and Ballet Theater 中央歌剧舞剧院芭蕾舞剧团 in the modern ballet *The Red Detachment of Women* 《红色娘子军》)'}
   - variant: {id: cal.1964-10-08.china-leadership-7, unit: B, witness: w.zhu-de-nianpu-xinbian, reads: 'Oct. 9, 1964: Zhu De, with Mao Zedong, Liu Shaoqi, Peng Zhen and others, sees *The Red Detachment of Women*', at: 'III, 1920'}
   - cite: {id: cal.1964-10-13.china-leadership-6, item: '[[w.zhu-de-nianpu-xinbian]], III, 1920 (Oct. 13, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Zhou Enlai 周恩来, Dong Biwu 董必武, Peng Zhen 彭真, Bo Yibo 薄一波, Luo Ruiqing 罗瑞卿, Yang Shangkun 杨尚昆 and others, sees the first song and dance company of the air force political department''s troupe 空军政治部文工团歌舞剧一团 in the opera *Sister Jiang* 《江姐》)'}
   - add:
@@ -1916,20 +1919,11 @@ ops:
         tags: ['polity:prc', 'polity:mali', 'polity:niger', 'polity:nigeria', 'polity:dahomey', 'polity:cameroon', 'polity:central-african-republic', 'polity:congo-brazzaville', 'name:zhu-de']
   - cite: {id: cal.1964-10-16.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1920 (Oct. 16, 1964; Zhu De 朱德 at the meeting at Mao Zedong''s 毛泽东)'}
   - cite: {id: cal.1964-10-16.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1920 (Oct. 16, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and others, in the Great Hall of the People 人民大会堂 receives all who made and performed the music and dance epic *The East Is Red* 《东方红》)'}
-  - cite: {id: cal.1964-10-16.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1920 (Oct. 16, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Peng Zhen 彭真, Lu Dingyi 陆定一 and others, meets the Cuban Party and government delegation under 马尔米埃尔卡·佩奥里)'}
+  - cite: {id: cal.1964-10-16.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1920 (Oct. 16, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Peng Zhen 彭真, Lu Dingyi 陆定一 and others, meets the Cuban Party and government delegation under Isidoro Malmierca Peoli 马尔米埃尔卡·佩奥里)'}
   - cite: {id: cal.1964-10-16.testing, item: '[[w.zhu-de-nianpu-xinbian]], III, 1920 (Oct. 16, 1964; the nianpu records the successful explosion of China''s first atomic bomb, of its own making 我国自行研制的第一颗原子弹)'}
   - cite: {id: cal.1964-10-17.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1920 (Oct. 17, 1964; Zhu De 朱德 presides over the enlarged 127th meeting of the Second NPC Standing Committee 第二届全国人大常委会扩大的第一百二十七次会议, which hears Yang Chengwu 杨成武, deputy chief of the General Staff, on the first atomic bomb)'}
   - cite: {id: cal.1964-10-18.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1920 (Oct. 18, 1964; Zhu De 朱德 at the opening of the international table tennis invitational 国际乒乓球邀请赛 at Peking 北京, and watches the matches)'}
-  - add:
-      entry:
-        id: cal.1964-10-19.china-leadership-5
-        when: Oct. 19
-        date: '1964-10-19'
-        place: peking
-        thread: china-leadership
-        c: The Great Hall of the People 人民大会堂, Peking 北京. Zhu De 朱德 at a meeting Mao Zedong 毛泽东 presides over.
-        n: '[[w.zhu-de-nianpu-xinbian]], III, 1920. Made public: 2016. Names: Zhu De, Mao Zedong.'
-        tags: ['polity:prc', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - cite: {id: cal.1964-10-19.china-leadership-4, item: '[[w.zhu-de-nianpu-xinbian]], III, 1920 (Oct. 19, 1964; Zhu De 朱德 at the meeting Mao Zedong 毛泽东 presides over in the Great Hall of the People 人民大会堂, Peking 北京)'}
   - add:
       entry:
         id: cal.1964-10-20.china-leadership-5
@@ -1970,15 +1964,7 @@ ops:
         c: Zhu De 朱德, at home, talks with Zhang Dingcheng 张鼎丞, Procurator-General of the Supreme People's Procuratorate 最高人民检察院.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1921. Made public: 2016. Names: Zhu De.'
         tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'vis:only:prc']
-  - add:
-      entry:
-        id: cal.1964-10-27.china-leadership-9
-        when: Oct. 27
-        date: '1964-10-27'
-        thread: china-leadership
-        c: Zhu De 朱德 at a meeting Mao Zedong 毛泽东 presides over.
-        n: '[[w.zhu-de-nianpu-xinbian]], III, 1921. Made public: 2016. Names: Zhu De, Mao Zedong.'
-        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - cite: {id: cal.1964-10-27.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1921 (Oct. 27, 1964; Zhu De 朱德 at the meeting Mao Zedong 毛泽东 presides over)'}
   - cite: {id: cal.1964-10-30.china-leadership-5, item: '[[w.zhu-de-nianpu-xinbian]], III, 1921 (Oct. 30, 1964; Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来 and others, at the airport to welcome King Mohammed Zahir Shah 穆罕默德·查希尔·沙阿 and his party, and talks with them)'}
   - add:
       entry:
@@ -1990,19 +1976,7 @@ ops:
         c: Peking 北京. Zhu De 朱德 goes with King Zahir Shah 查希尔·沙阿 and his party to the Peking No. 2 cotton mill 北京第二棉纺厂 and the Summer Palace 颐和园.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1921. Names: Zhu De, Zahir Shah.'
         tags: ['polity:prc', 'polity:afghanistan', 'name:zhu-de', 'name:zahir-shah-mohammed']
-  - add:
-      entry:
-        id: cal.1964-11-01.china-leadership-23
-        when: Nov. 1
-        date: '1964-11-01'
-        time: 1964-11-01T14:00Z
-        time_zone: Asia/Shanghai
-        place: peking
-        thread: china-leadership
-        also: [soviet-union]
-        c: Peking 北京. Zhu De 朱德 at the Politburo Standing Committee 中共中央政治局常委会议, at 10 p.m., on relations with the Soviet Union 苏联.
-        n: '[[w.zhu-de-nianpu-xinbian]], III, 1921. The words: 晚十时，出席中共中央政治局常委会议 (1921). Made public: 2016. Names: Zhu De.'
-        tags: ['polity:prc', 'name:zhu-de', 'vis:only:prc']
+  - cite: {id: cal.1964-11-01.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1921 (Nov. 1, 1964, 10 p.m.; Zhu De 朱德 at the Politburo Standing Committee 中共中央政治局常委会议 on relations with the Soviet Union 苏联)'}
   - add:
       entry:
         id: cal.1964-11-01.china-leadership-24
@@ -2117,7 +2091,7 @@ ops:
         c: Peking 北京. Zhu De 朱德 meets Luis Troccoli 路易斯·特罗科利, senator of the Oriental Republic of Uruguay 乌拉圭东岸共和国, and his wife.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1922. Names: Zhu De.'
         tags: ['polity:prc', 'polity:uruguay', 'name:zhu-de']
-  - cite: {id: cal.1964-11-02.china, item: '[[w.zhu-de-nianpu-xinbian]], III, 1922 (printed under Nov. 12, 1964; Zhu De 朱德 at the signing of the joint communique of China and the Kingdom of Afghanistan 中华人民共和国和阿富汗王国联合公报)'}
+  - cite: {id: cal.1964-11-02.china, item: '[[w.zhu-de-nianpu-xinbian]], III, 1922 (Nov. 12, 1964; Zhu De 朱德 at the signing of the joint communique of China and the Kingdom of Afghanistan 中华人民共和国和阿富汗王国联合公报)'}
   - variant: {id: cal.1964-11-02.china, unit: A, witness: w.zhu-de-nianpu-xinbian, reads: 'Nov. 12, 1964: the signing of the joint communique, Zhu De present', at: 'III, 1922'}
   - add:
       entry:
@@ -2137,7 +2111,7 @@ ops:
         place: peking
         thread: china-leadership
         c: The capital airport 首都机场, Peking 北京. Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武 and others, sees King Zahir Shah 查希尔·沙阿 and his party off home.
-        n: '[[w.zhu-de-nianpu-xinbian]], III, 1922. Names: Zhu De, Liu Shaoqi, Dong Biwu, Zahir Shah. Check: whether the King left Peking for home on Nov. 13, as the nianpu has it, or on Nov. 3, when Zhou Enlai saw him off at the airport ([[cal.1964-11-03.china-leadership-2]]).'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1922. See [[cal.1964-10-30.china-leadership-5]]. Names: Zhu De, Liu Shaoqi, Dong Biwu, Zahir Shah.'
         tags: ['polity:prc', 'polity:afghanistan', 'name:zhu-de', 'name:liu-shaoqi', 'name:dong-biwu', 'name:zahir-shah-mohammed']
   - cite: {id: cal.1964-11-14.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1922 (Nov. 14, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Dong Biwu 董必武, Deng Xiaoping 邓小平 and others, at the capital airport 首都机场 meets Zhou Enlai 周恩来 and He Long 贺龙 back from the forty-seventh anniversary of the October Revolution in the Soviet Union, then in the Peking Room of the Great Hall of the People 人民大会堂北京厅 hears Zhou''s account)'}
   - add:
@@ -2168,16 +2142,8 @@ ops:
         c: Zhu De 朱德, with Guo Moruo 郭沫若, Xie Juezai 谢觉哉, Wu Yuzhang 吴玉章 and others, sees the joint performance of the soldiers' amateur troupes and company singing groups of the PLA's Shenyang 沈阳, Chengdu 成都, Lanzhou 兰州 and Xinjiang 新疆 forces.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1923. Names: Zhu De.'
         tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de']
-  - add:
-      entry:
-        id: cal.1964-11-28.china-leadership-13
-        when: Nov. 28
-        date: '1964-11-28'
-        place: peking
-        thread: china-leadership
-        c: Peking 北京. Zhu De 朱德 presides over the joint meeting of the 134th meeting of the Second NPC Standing Committee 第二届全国人大常委会 and the 45th meeting of the Standing Committee of the Third National Committee of the CPPCC 政协第三届全国委员会常委会, which decides to convene the first session of the Third NPC 第三届全国人民代表大会第一次会议 and the first session of the Fourth National Committee of the CPPCC 中国人民政治协商会议第四届全国委员会第一次会议 at Peking on Dec. 20, 1964.
-        n: '[[w.zhu-de-nianpu-xinbian]], III, 1923. Names: Zhu De.'
-        tags: ['polity:prc', 'name:zhu-de']
+  - cite: {id: cal.1964-11-28.china-leadership-8, item: '[[w.zhu-de-nianpu-xinbian]], III, 1923 (Nov. 28, 1964; Zhu De 朱德 presides over the joint meeting of the 134th meeting of the Second NPC Standing Committee 第二届全国人大常委会第一百三十四次会议 and the 45th meeting of the Standing Committee of the Third National Committee of the CPPCC 政协第三届全国委员会常委会第四十五次会议, which decides to convene the first session of the Third NPC 第三届全国人民代表大会第一次会议 and the first session of the Fourth National Committee of the CPPCC 中国人民政治协商会议第四届全国委员会第一次会议 at Peking 北京 on Dec. 20, 1964)'}
+  - variant: {id: cal.1964-11-28.china-leadership-8, unit: B, witness: w.zhu-de-nianpu-xinbian, reads: 'Nov. 28, 1964: the joint meeting, Zhu De presiding, sets the two first sessions to open at Peking on Dec. 20, 1964', at: 'III, 1923'}
   - cite: {id: cal.1964-11-29.china-leadership, item: '[[w.zhu-de-nianpu-xinbian]], III, 1923 (Nov. 29, 1964; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Dong Biwu 董必武, Peng Zhen 彭真 and others, at the rally of more than 700,000 of the capital in Tiananmen Square 天安门广场 supporting the people of the Congo (Léopoldville) 刚果（利奥波德维尔）)'}
   - add:
       entry:
@@ -2188,15 +2154,7 @@ ops:
         c: Zhu De 朱德 goes to a meeting at Liu Shaoqi's 刘少奇.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1923. Made public: 2016. Names: Zhu De, Liu Shaoqi.'
         tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:liu-shaoqi', 'vis:only:prc']
-  - add:
-      entry:
-        id: cal.1964-12-08.china-leadership-9
-        when: Dec. 8
-        date: '1964-12-08'
-        thread: china-leadership
-        c: Zhu De 朱德 at a meeting Mao Zedong 毛泽东 presides over.
-        n: '[[w.zhu-de-nianpu-xinbian]], III, 1923. Made public: 2016. Names: Zhu De, Mao Zedong.'
-        tags: ['polity:prc', 'ok:fields-place', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
+  - cite: {id: cal.1964-12-08.china-leadership-7, item: '[[w.zhu-de-nianpu-xinbian]], III, 1923 (Dec. 8, 1964; Zhu De 朱德 at the meeting Mao Zedong 毛泽东 presides over)'}
   - cite: {id: cal.1964-12-12.china-leadership-8, item: '[[w.zhu-de-nianpu-xinbian]], III, 1923 (Dec. 12, 1964; Zhu De 朱德 presides over the 135th meeting, which adopts the notice publishing the list of deputies to the Third NPC, ratifies the treaty of friendship of China and the Republic of Mali, and decides on the special pardon 特赦 of war criminals of the Chiang Kai-shek clique, Manchukuo 伪满洲国 and the Mengjiang autonomous government 伪蒙疆自治政府 who have truly reformed)'}
   - add:
       entry:
@@ -2229,7 +2187,7 @@ ops:
         when: Dec. 18
         date: '1964-12-18'
         thread: china-leadership
-        c: Zhu De 朱德 meets 阿方斯·贝约纳, Ambassador of the Congo (Brazzaville) 刚果（布）.
+        c: Zhu De 朱德 meets Alphonse Bayonne 阿方斯·贝约纳, Ambassador of the Congo (Brazzaville) 刚果（布）.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1924. Names: Zhu De.'
         tags: ['polity:prc', 'polity:congo-brazzaville', 'ok:fields-place', 'name:zhu-de']
   - add:
@@ -2302,8 +2260,9 @@ ops:
         id: cal.1964-12-31.china-leadership-15
         when: Dec. 31
         date: '1964-12-31'
+        place: peking
         thread: china-leadership
-        c: Zhu De 朱德 meets Burma's new Ambassador, 沙马杜瓦·信拟瑙.
+        c: Peking 北京. Zhu De 朱德 meets Burma's new Ambassador, 沙马杜瓦·信拟瑙.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1926. Names: Zhu De.'
         tags: ['polity:prc', 'polity:burma', 'name:zhu-de']
   - add:
@@ -2884,8 +2843,8 @@ ops:
         thread: china-leadership
         also: [vietnam-hanoi]
         c: Peking 北京. Zhu De 朱德 at the airport to welcome Hồ Chí Minh 胡志明, chairman of the Vietnam Workers' Party's Central Committee 越南劳动党中央委员会 and President of the DRV.
-        n: '[[w.zhu-de-nianpu-xinbian]], III, 1934. Names: Zhu De, Hồ Chí Minh.'
-        tags: ['polity:prc', 'polity:drv', 'name:zhu-de', 'name:ho-chi-minh']
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1934. Made public: 2016. See [[cal.1965-05-16.china-leadership]]. Names: Zhu De, Hồ Chí Minh.'
+        tags: ['polity:prc', 'polity:drv', 'name:zhu-de', 'name:ho-chi-minh', 'vis:only:prc+drv']
   - add:
       entry:
         id: cal.1965-05-18.china-leadership-4
@@ -2973,7 +2932,7 @@ ops:
         c: Zhu De 朱德 meets 马里奥·比利亚兰·里维拉, deputy of the Republic of Peru 秘鲁共和国 and former general secretary of Peru's Popular Action party 秘鲁人民行动党, and the deputies 卡洛斯·萨莫拉·佩苏亚 and 海梅·塞鲁托·费洛雷斯.
         n: '[[w.zhu-de-nianpu-xinbian]], III, 1935. Names: Zhu De.'
         tags: ['polity:prc', 'polity:peru', 'name:zhu-de']
-  - cite: {id: cal.1965-06-01.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1935 (printed under June 2, 1965; Zhu De 朱德 at the airport to see Zhou Enlai 周恩来 off on his friendly visits to Pakistan 巴基斯坦 and Tanzania 坦桑尼亚)'}
+  - cite: {id: cal.1965-06-01.china-leadership-2, item: '[[w.zhu-de-nianpu-xinbian]], III, 1935 (June 2, 1965; Zhu De 朱德 at the airport to see Zhou Enlai 周恩来 off on his friendly visits to Pakistan 巴基斯坦 and Tanzania 坦桑尼亚)'}
   - variant: {id: cal.1965-06-01.china-leadership-2, unit: A, witness: w.zhu-de-nianpu-xinbian, reads: 'June 2, 1965: Zhu De sees Zhou off at the airport for Pakistan and Tanzania', at: 'III, 1935'}
   - add:
       entry:
@@ -3027,7 +2986,7 @@ ops:
         place: peking
         thread: china-leadership
         c: Peking 北京. Zhu De 朱德 presides over the eleventh meeting of the Third NPC Standing Committee 第三届全国人大常委会.
-        n: '[[w.zhu-de-nianpu-xinbian]], III, 1936. Names: Zhu De.'
+        n: '[[w.zhu-de-nianpu-xinbian]], III, 1936. See [[cal.1965-06-16.china-leadership-2]]. Names: Zhu De.'
         tags: ['polity:prc', 'name:zhu-de']
   - add:
       entry:
