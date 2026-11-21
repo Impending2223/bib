@@ -1070,3 +1070,7 @@ Schlesinger, Journals, 252 (the entry of Aug. 14). Check: the day."
 "Could we give the full-width 中点 for CJK surnames and given names rather than the simple, unspaced "·"? "巴巴卡・尼昂"?
 
 For the suspected kanji/Japanese names, I suppose we should go with (b), but I'm not entirely happy with it. How do Chinese speakers read these, where they're only given in CJK?"
+
+## Nov. 21, 2026, about 1:50 p.m. (Pacific)
+
+"Let's go with (a), but give quotation marks around pinyin renderings of non-Chinese CJK names, to indicate that they reading is non-phonetic in a way that pinyin renderings of non-CJK names are not."
