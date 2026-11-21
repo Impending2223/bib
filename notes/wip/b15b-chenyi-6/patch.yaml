@@ -105,6 +105,30 @@ ops:
       - 1967-12-30T10:00Z
       time_band: afternoon
       time_zone: Asia/Shanghai
+- edit:
+    id: cal.1968-02-13.china-leadership-3
+    base: b5e088a4
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 215 (Feb. 13, 1968). Made public: 1995. The nianpu''s note: the poster''s attitude and intent were right, to protect Chen Yi, but posting it then did not help stability and told against him. Names: Chen Yi.'
+- edit:
+    id: cal.1968-03-23.china-leadership
+    base: f16e28a1
+    set:
+      time_range:
+      - 1968-03-23T11:00Z
+      - 1968-03-23T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1968-05-08.china-leadership-2
+    base: 7a37adb4
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 229 (May 8, 1968). Made public: 1995. See [[cal.1968-05-08.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
+- edit:
+    id: cal.1968-05-20.china-leadership-2
+    base: 62896b0b
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 231 (May 20, 1968). Made public: 1995. See [[cal.1968-05-20.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
 - add:
     entry:
       id: cal.1967-06-27.china-leadership-3
@@ -642,6 +666,620 @@ ops:
       - name:chen-yi
       - ok:fields-place
       - vis:only:prc
+- add:
+    entry:
+      id: cal.1968-01-26.china-leadership-2
+      when: Jan. 26
+      date: '1968-01-26'
+      thread: china-leadership
+      c: Mao Zedong 毛泽东 and others, Chen Yi 陈毅 among them, receive the delegates to the General Staff's fourth congress of activists in the living study and use of Mao's works, and to the activists' congresses of the General Logistics Department, the air force and the Second Artillery.
+      n: '[[w.chen-yi-nianpu]], 1199. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-02-06.china-leadership-2
+      when: Feb. 6
+      date: '1968-02-06'
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 receives nine friends from the Congo (Brazzaville), 鲍西纳·乔治 among them.
+      n: '[[w.chen-yi-nianpu]], 1199. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:congo-brazzaville
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-02-12.china-leadership-3
+      when: Feb. 12
+      date: '1968-02-12'
+      time_range:
+      - 1968-02-11T22:00Z
+      - 1968-02-12T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: 窦克森, the Netherlands' new chargé d'affaires in China, presents his letter of appointment to Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1199. The words: 上午 (1199). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:netherlands
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-02.china-leadership-12
+      when: Feb., after the 13th
+      date: 1968-02
+      at: after 1968-02-13
+      thread: china-leadership
+      c: The Central Cultural Revolution Group 中央文革 denounces the Foreign Ministry's ninety-one's poster as a new counterattack of the "February adverse current" 二月逆流; at its instigation its 91 signers are heavily criticized.
+      n: '[[w.chen-yi-nianpu]], 1200. Made public: 1995.'
+      tags:
+      - polity:prc
+      - ok:fields-place
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1968-02.china-leadership-13
+      when: Feb., after the 13th
+      date: 1968-02
+      at: after 1968-02-13
+      thread: china-leadership
+      c: Chen Yi 陈毅, to protect the 91 signers of the Foreign Ministry's poster, encourages them to expose him.
+      n: '[[w.chen-yi-nianpu]], 1200. Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - ok:fields-place
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1968-02-13.china-leadership-5
+      when: Feb. 13
+      date: '1968-02-13'
+      time_range:
+      - 1968-02-13T11:00Z
+      - 1968-02-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Chen Yi 陈毅 at the banquet of Nguyễn Văn Quảng 阮文广, head of the South Vietnam National Liberation Front's permanent mission in China, for the seventh anniversary of the unification of the South Vietnamese people's liberation armed forces.
+      n: '[[w.chen-yi-nianpu]], 1200. The words: 晚上 (1200). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nlf
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-02-19.china-leadership
+      when: Feb. 19
+      date: '1968-02-19'
+      thread: china-leadership
+      c: Mao Zedong 毛泽东 and others, Chen Yi 陈毅 among them, receive the representatives of the PLA's Peking Garrison units and of the units on the "three supports, two militaries" 三支两军 duty in Peking, and the officers and men of Unit 8341 八三四一部队.
+      n: '[[w.chen-yi-nianpu]], 1200. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-02-19.china-leadership-2
+      when: Feb. 19
+      date: '1968-02-19'
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 at the cocktail party of the China–Africa Friendship Association for the third anniversary of the Sino-Tanzanian Treaty of Friendship.
+      n: '[[w.chen-yi-nianpu]], 1200. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:tanzania
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-02-20.china-leadership
+      when: Feb. 20
+      date: '1968-02-20'
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 at the reception of 卢安基萨, Tanzania's chargé d'affaires, for the third anniversary of the Tanzania–China Treaty of Friendship.
+      n: '[[w.chen-yi-nianpu]], 1200. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:tanzania
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-03-02.china-leadership-3
+      when: Mar. 2
+      date: '1968-03-02'
+      thread: china-leadership
+      also:
+      - japan
+      c: Chen Yi 陈毅 receives four guests of the China International Travel Service, among them 菅沼不二男, president of the Japan–China Travel Company, and 久保专治, president of the Kansai International Travel Company.
+      n: '[[w.chen-yi-nianpu]], 1200. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:japan
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-03-04.china-leadership-4
+      when: Mar. 4
+      date: '1968-03-04'
+      time_range:
+      - 1968-03-04T11:00Z
+      - 1968-03-04T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 at the reception of 拉克米里, Morocco's chargé d'affaires, for Morocco's national day.
+      n: '[[w.chen-yi-nianpu]], 1200. The words: 晚上 (1200). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:morocco
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-03-07.china-leadership-2
+      when: Mar. 7
+      date: '1968-03-07'
+      thread: china-leadership
+      c: Mao Zedong 毛泽东 and others, Chen Yi 陈毅 among them, receive the delegates to the congress of activists in the study of Mao's works of the PLA's artillery, armored forces, engineers, railway troops, signal corps, chemical defense troops, the Higher Military Academy and the Political Academy, and the delegates to specialized conferences in Peking.
+      n: '[[w.chen-yi-nianpu]], 1200. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-03-18.china-leadership-2
+      when: Mar. 18
+      date: '1968-03-18'
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Chen Yi 陈毅 at the airport to welcome the delegation of South Vietnam's youth and American-killing heroes.
+      n: '[[w.chen-yi-nianpu]], 1200–1201. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nlf
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-03-18.china-leadership-3
+      when: Mar. 18
+      date: '1968-03-18'
+      thread: china-leadership
+      also:
+      - vietnam-hanoi
+      c: Chen Yi 陈毅 and Li Fuchun 李富春 give a banquet welcoming the delegation of South Vietnam's youth and American-killing heroes led by 武公中.
+      n: '[[w.chen-yi-nianpu]], 1201. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nlf
+      - name:chen-yi
+      - name:li-fuchun
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-03-22.china-leadership-5
+      when: Mar. 22
+      date: '1968-03-22'
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 at the cocktail party of 巴赞加, the Congo (Brazzaville)'s Ambassador, for the fourth anniversary of diplomatic relations between the two countries.
+      n: '[[w.chen-yi-nianpu]], 1201. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:congo-brazzaville
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-03-22.china-leadership-6
+      when: Mar. 22
+      date: '1968-03-22'
+      time_range:
+      - 1968-03-22T11:00Z
+      - 1968-03-22T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 at the reception of the China–Pakistan Friendship Association for the twelfth anniversary of the Islamic Republic of Pakistan.
+      n: '[[w.chen-yi-nianpu]], 1201. The words: 晚上 (1201). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-04-04.china-leadership-5
+      when: Apr. 4
+      date: '1968-04-04'
+      thread: china-leadership
+      also:
+      - japan
+      c: Chen Yi 陈毅 receives Miyazaki Seimin 宫崎世民, chairman of the board of the Japan–China Friendship Association (Orthodox), and Shimada Masao 岛田政雄, head of its organization committee.
+      n: '[[w.chen-yi-nianpu]], 1202. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:japan
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-04-09.china-leadership-3
+      when: Apr. 9
+      date: '1968-04-09'
+      thread: china-leadership
+      c: Chen Yi 陈毅 receives the students of the fifth Afro-Asian journalists' study class in Peking 北京.
+      n: '[[w.chen-yi-nianpu]], 1202. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-04.china-leadership-10
+      when: Apr., mid
+      date: 1968-04
+      at: before 1968-04-11
+      thread: china-leadership
+      c: Lin Biao 林彪 and Jiang Qing 江青, to strike at Chen Yi 陈毅, try to begin with his third son, Chen Xiaolu 陈小鲁, branding him a bad leader of the "United Action" 联动; Jiang Qing sends someone to watch Xiaolu and to draw him into talk against the Central Cultural Revolution Group, so as to "drag out the United Action's chief backer" through him.
+      n: '[[w.chen-yi-nianpu]], 1202. Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:lin-biao
+      - name:jiang-qing
+      - ok:fields-place
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1968-04.china-leadership-11
+      when: Apr., mid
+      date: 1968-04
+      at: before 1968-04-11
+      thread: china-leadership
+      c: Zhou Enlai 周恩来, told of it, consults Chen Yi 陈毅 and sends Chen Xiaolu 陈小鲁 to a farm of the Thirty-Ninth Army 第三十九军 in the Northeast for labor, leaving Lin Biao and Jiang Qing no pretext.
+      n: '[[w.chen-yi-nianpu]], 1202. Made public: 1995. Names: Chen Yi, Lin Biao, Jiang Qing.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+      - name:lin-biao
+      - name:jiang-qing
+      - ok:fields-place
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1968-04-19.china-leadership-2
+      when: Apr. 19
+      date: '1968-04-19'
+      thread: china-leadership
+      also:
+      - japan
+      c: Chen Yi 陈毅 receives the delegation of rural activists of the Japan Socialist Party's Niigata Prefecture 新潟县 headed by 八木一郎.
+      n: '[[w.chen-yi-nianpu]], 1202. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:japan
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-05-01.china-leadership-4
+      when: May 1
+      date: '1968-05-01'
+      time_range:
+      - 1968-05-01T11:00Z
+      - 1968-05-01T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-leadership
+      c: Chen Yi 陈毅 on the Tiananmen 天安门 gate tower, Peking 北京, at the May Day evening.
+      n: '[[w.chen-yi-nianpu]], 1202. The words: 晚上 (1202). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1968-05-16.china-leadership-5
+      when: May 16
+      date: '1968-05-16'
+      time_range:
+      - 1968-05-16T04:00Z
+      - 1968-05-16T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - latin-america
+      c: Chen Yi 陈毅 receives the Brazilian friend 甘迪度·达·哥斯达·阿拉贡, visiting Peking 北京.
+      n: '[[w.chen-yi-nianpu]], 1202. The words: 下午 (1202). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:brazil
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-05-18.china-leadership-4
+      when: May 18
+      date: '1968-05-18'
+      place: peking
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 at the Capital Airport 首都机场, Peking 北京, to welcome the joint Guinea–Mali friendship delegation led by Mali's Foreign Minister Ousmane Ba 乌斯曼·巴 and Guinea's Foreign Minister Lansana Béavogui 兰萨纳·贝阿沃吉.
+      n: '[[w.chen-yi-nianpu]], 1202–1203. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - polity:guinea
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1968-05-18.china-leadership-5
+      when: May 18
+      date: '1968-05-18'
+      time_range:
+      - 1968-05-18T11:00Z
+      - 1968-05-18T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: 'Chen Yi 陈毅 and Li Xiannian 李先念 give a banquet welcoming the Guinea–Mali delegation led by Ousmane Ba and Lansana Béavogui. Chen Yi''s speech: relations grown since diplomatic ties; Mao''s statement for the American Negroes'' fight is support for the Africans'' too; Vietnam will win in a protracted war, and the American and Israeli aggressors will fail before the Arabs; the modern revisionists'' double-dealing condemned.'
+      n: '[[w.chen-yi-nianpu]], 1203. The words: 晚上 (1203). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - polity:guinea
+      - name:chen-yi
+      - name:li-xiannian
+      - name:mao-zedong
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-05-19.china-leadership-2
+      when: May 19
+      date: '1968-05-19'
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 and Li Xiannian 李先念 hold talks with Mali's Foreign Minister Ousmane Ba 乌斯曼·巴 and Guinea's Foreign Minister Lansana Béavogui 兰萨纳·贝阿沃吉.
+      n: '[[w.chen-yi-nianpu]], 1203. Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - polity:guinea
+      - name:chen-yi
+      - name:li-xiannian
+      - ok:fields-place
+      - vis:only:prc+mali+guinea
+- add:
+    entry:
+      id: cal.1968-05-21.china-leadership-5
+      when: May 21
+      date: '1968-05-21'
+      time_range:
+      - 1968-05-21T11:00Z
+      - 1968-05-21T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 at the Foreign Ministry's arts evening for the Guinea–Mali delegation, seeing the Peking opera *Taking Tiger Mountain by Strategy* 《智取威虎山》 with the guests and going on the stage with them after it.
+      n: '[[w.chen-yi-nianpu]], 1203. The words: 晚上 (1203). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - polity:guinea
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-05-24.china-leadership-3
+      when: May 24
+      date: '1968-05-24'
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 at the airport to welcome Kirti Nidhi Bista 基尔提·尼迪·比斯塔, Nepal's Deputy Prime Minister and Minister of Foreign Affairs and Economic Planning.
+      n: '[[w.chen-yi-nianpu]], 1203. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-05-24.china-leadership-4
+      when: May 24
+      date: '1968-05-24'
+      time_range:
+      - 1968-05-24T11:00Z
+      - 1968-05-24T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: 'Chen Yi 陈毅 gives a banquet welcoming Kirti Nidhi Bista 基尔提·尼迪·比斯塔 and his party; his speech: the new growth of China–Nepal friendship and the meaning of the China–Nepal highway''s completion; the world situation.'
+      n: '[[w.chen-yi-nianpu]], 1203. The words: 晚上 (1203). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-05-25.china-leadership-3
+      when: May 25
+      date: '1968-05-25'
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 holds talks with Kirti Nidhi Bista 基尔提·尼迪·比斯塔.
+      n: '[[w.chen-yi-nianpu]], 1203. Made public: 1995. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+      - ok:fields-place
+      - vis:only:prc+nepal
+- add:
+    entry:
+      id: cal.1968-05-25.china-leadership-4
+      when: May 25
+      date: '1968-05-25'
+      time_range:
+      - 1968-05-25T11:00Z
+      - 1968-05-25T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 at the reception of 苏巴, Nepal's Ambassador, welcoming Kirti Nidhi Bista 基尔提·尼迪·比斯塔.
+      n: '[[w.chen-yi-nianpu]], 1204. The words: 晚上 (1204). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-05-25.china-leadership-5
+      when: May 25
+      date: '1968-05-25'
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 signs the joint statement of the governments of China, Guinea and Mali.
+      n: '[[w.chen-yi-nianpu]], 1204. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - polity:guinea
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-05-25.china-leadership-6
+      when: May 25
+      date: '1968-05-25'
+      time_range:
+      - 1968-05-25T11:00Z
+      - 1968-05-25T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 at the farewell banquet of the Guinea–Mali delegation led by Ousmane Ba 乌斯曼·巴 and Lansana Béavogui 兰萨纳·贝阿沃吉.
+      n: '[[w.chen-yi-nianpu]], 1204. The words: 晚上 (1204). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - polity:guinea
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-05-25.china-leadership-7
+      when: May 25
+      date: '1968-05-25'
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 at the airport to see off the Guinea–Mali delegation led by Ousmane Ba 乌斯曼·巴 and Lansana Béavogui 兰萨纳·贝阿沃吉, going home.
+      n: '[[w.chen-yi-nianpu]], 1204. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:mali
+      - polity:guinea
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-05-26.china-leadership-2
+      when: May 26
+      date: '1968-05-26'
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 takes Kirti Nidhi Bista 基尔提·尼迪·比斯塔 to the Shashiyu 沙石峪 production brigade of the Yuegezhuang 岳各庄 people's commune, Zunhua county 遵化县, Hebei 河北.
+      n: '[[w.chen-yi-nianpu]], 1204. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-05-27.china-leadership-2
+      when: May 27
+      date: '1968-05-27'
+      time_range:
+      - 1968-05-27T11:00Z
+      - 1968-05-27T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 at the reception of 苏海尔, Afghanistan's Ambassador, for the anniversary of Afghanistan's independence ("tenth," so printed), and speaks for the growth of China–Afghanistan friendship and on the world situation.
+      n: '[[w.chen-yi-nianpu]], 1204. The words: 晚上 (1204). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1968-05-28.china-leadership-6
+      when: May 28
+      date: '1968-05-28'
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 at the airport to see off Kirti Nidhi Bista 基尔提·尼迪·比斯塔, going home.
+      n: '[[w.chen-yi-nianpu]], 1204. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+      - ok:fields-place
 - cite:
     id: cal.1967-06-12.china-leadership-3
     item: '[[w.chen-yi-nianpu]], 1191–1192 (June 12, 1967; Chen Yi''s speech at the reception of 伦迪尔·苏巴, Nepal''s Ambassador, for King Mahendra''s birthday: praises China–Nepal friendship and, on the Middle East, restates China''s support of the Arab people against American, British and Israeli aggression and denounces the Soviet revisionists'' "sham support, real betrayal")'
@@ -762,3 +1400,63 @@ ops:
 - cite:
     id: cal.1967-12-31.china-leadership
     item: '[[w.chen-yi-nianpu]], 1198 (Dec. 31, 1967; Mao and others, Chen Yi among them, receive the PLA cadres and local Party and government cadres and masses'' representatives at the Mao Zedong Thought study classes in Peking, the delegates to the activists'' congress of the air force''s units directly under it, the members of the conference on publishing Mao''s works and of other conferences, the delegates of mass organizations of some provinces and regions, and the members of the National Defense Science and Technology Commission''s meeting)'
+- cite:
+    id: cal.1968-01-15.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1199 (Jan. 15, 1968; Chen Yi among those receiving the members of the ensemble led by 阮春鸿)'
+- cite:
+    id: cal.1968-02-03.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1199 (Feb. 3, 1968; Chen Yi and Zhou receive Ngô Minh Loan 吴明鸾, the DRV''s Ambassador, and, in a second item, Nguyễn Minh Phương 阮明芳, acting head of the Front''s permanent mission)'
+- cite:
+    id: cal.1968-02-13.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1199–1200 (Feb. 13, 1968; the poster of 91 heads of departments and ambassadors, setting out that Chen Yi is a loyal and steadfast fighter of the Party and asking that he come back soon to direct the ministry''s work)'
+- cite:
+    id: cal.1968-03-03.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1200 (Mar. 3, 1968, 8 p.m., the Fujian Hall of the Great Hall of the People; Chen Yi and Zhou receive 杜马)'
+- cite:
+    id: cal.1968-03-23.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1201 (Mar. 23, 1968, evening; Chen Yi''s speech at the reception of Sultan Mohammad Khan 苏尔坦·穆罕默德·汗: praises Pakistan''s tradition against imperialism and colonialism; the failure of the American war in Vietnam brings grave economic consequences and the shadow of crisis over the capitalist world; the modern revisionists, imperialism''s accomplices, are at the end of their road, the "February black meeting" exposing them)'
+- cite:
+    id: cal.1968-03-22.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1201 (March 1968; Lin Biao and Jiang Qing make up the "Yang Chengwu, Yu Lijin, Fu Chongbi affair," charging the three with an armed assault on the Central Cultural Revolution Group and a reversal of the "February adverse current"; on the 22nd the Center, State Council, Military Commission and the Group order Yang removed as acting chief of the General Staff and from the Commission''s Standing Committee, Yu as air force political commissar and arrested as a "traitor," Fu as commander of the Peking Garrison; Huang Yongsheng 黄永胜 named chief of the General Staff, Wen Yucheng 温玉成 also commander of the garrison)'
+- cite:
+    id: cal.1968-03-24.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1201 (Mar. 24, 1968; the meeting of 10,000 of the organs and units in Peking at the Great Hall of the People announcing the order)'
+- cite:
+    id: cal.1968-03-25.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1201 (Mar. 25, 1968; the Military Commission''s Office Group reorganized under Huang Yongsheng in Yang Chengwu''s place, giving Lin Biao''s group much of the Commission''s power)'
+- cite:
+    id: cal.1968-03-28.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1201 (March 1968, "soon after" Mar. 25; on Mao''s view the Military Commission''s Standing Committee is to meet no more, the Office Group in effect replacing it)'
+- cite:
+    id: cal.1968-04-26.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1202 (Apr. 26, 1968, evening; Chen Yi speaks at the reception: praises China–Tanzania friendship; the Asian, African and Latin American national democratic revolution joins the fight of the oppressed peoples of Europe and North America against imperialism and colonialism; the Chinese people will better bear their internationalist duty)'
+- cite:
+    id: cal.1968-05-08.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1202 (May 8, 1968; Mao and others, Chen Yi among them, receive the PLA commanders and fighters, local Party and government cadres and masses'' representatives at the Mao Zedong Thought study classes in Peking, the workers'' delegates and military control heads at the national railway and communications conference and the members of other conferences)'
+- cite:
+    id: cal.1968-05-20.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1203 (May 20, 1968; Mao and others, Chen Yi among them, receive people come to Peking from all over the country)'
+- cite:
+    id: cal.1968-05-24.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1203 (May 24, 1968, afternoon; Chen Yi present at Mao''s and Lin Biao''s reception of Ousmane Ba, Béavogui and all the delegation''s members)'
+- cite:
+    id: cal.1968-05-24.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1204 (under May 25, 1968, evening; Chen Yi at the signing)'
+- variant:
+    id: cal.1968-05-24.china-leadership-2
+    unit: A
+    witness: w.chen-yi-nianpu
+    reads: The agreement on building the Guinea–Mali railway is signed on the evening of May 25, Chen Yi present
+    at: '1204'
+- cite:
+    id: cal.1968-05-28.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1204 (May 28, 1968, afternoon; Chen Yi present at Mao''s and Lin Biao''s reception of Bista and his party)'
+- cite:
+    id: cal.1968-05-28.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1204 (May 28, 1968; Chen Yi and Bista sign for their governments)'
+- cite:
+    id: cal.1968-05-28.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1204 (May 28, 1968; Chen Yi speaks at Bista''s farewell banquet for China–Nepal friendship)'
+- cite:
+    id: cal.1968-06-03.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1204 (June 3, 1968, evening; Mao and others, Chen Yi among them, receive the members of the Mao Zedong Thought cadres'' study classes of the army, navy and air force units of the Nanjing and Shenyang areas and of the PLA''s headquarters, services and arms, and of some specialized conferences)'
