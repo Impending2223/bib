@@ -494,7 +494,7 @@ entries:
     date: '1962-07-03'
     thread: china-leadership
     c: 'Zhou Enlai at the Politburo Standing Committee: reports on streamlining in the Northeast, the country''s grain purchases, and big enterprises'' farm and sideline production; tells how the Ministry of Petroleum had oilfield workers'' families do farm and sideline work, and asks forestry, coal and steel to do likewise.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 488 (July 3, 1962); [[w.yang-shangkun-riji]], II, 191 (July 3, 1962; 3 to 8 p.m., the enlarged Standing Committee, Zhou''s report on the three northeastern provinces); [[w.deng-xiaoping-nianpu-1904]], III, 1713 (July 3, 1962; Deng at the enlarged Standing Committee hearing Zhou); [[w.peng-zhen-nianpu-1902]], IV, 204 (July 3, 1962, afternoon; Peng Zhen at the enlarged Politburo Standing Committee, Liu Shaoqi presiding, hearing Zhou Enlai on streamlining in the Northeast, grain purchases and big enterprises'' farm and sideline production). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 488 (July 3, 1962); [[w.yang-shangkun-riji]], II, 191 (July 3, 1962; 3 to 8 p.m., the enlarged Standing Committee, Zhou''s report on the three northeastern provinces); [[w.deng-xiaoping-nianpu-1904]], III, 1713 (July 3, 1962; Deng at the enlarged Standing Committee hearing Zhou); [[w.peng-zhen-nianpu-1902]], IV, 204 (July 3, 1962, afternoon; Peng Zhen at the enlarged Politburo Standing Committee, Liu Shaoqi presiding, hearing Zhou Enlai on streamlining in the Northeast, grain purchases and big enterprises'' farm and sideline production); [[w.zhu-de-nianpu-xinbian]], III, 1845 (July 3, 1962; Zhu De 朱德 at the Politburo Standing Committee 中共中央政治局常委会议, which hears Zhou Enlai 周恩来 on his inspection of streamlining in the Northeast, the country''s grain procurement and big enterprises running farm sidelines). Made public: 1997. Names: Zhou Enlai.'
     src:
       c: f6ec874d
       rows:
@@ -502,6 +502,7 @@ entries:
         - 'w.yang-shangkun-riji II, 191: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1713: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 204: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1845: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
     time_range:
       - 1962-07-03T04:00Z
@@ -954,12 +955,13 @@ entries:
     thread: china
     also: [korea]
     c: The 56th (enlarged) session of the National People's Congress Standing Committee adopts a resolution supporting the DPRK Supreme People's Assembly's letter to the parliaments of the world, which calls for forcing the U.S. forces out of South Korea and for peaceful reunification.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 234 (July 6, 1962); [[w.peng-zhen-nianpu-1902]], IV, 204 (July 6, 1962, morning; Peng Zhen at the 56th (enlarged) session of the second NPC Standing Committee, Zhu De presiding; the resolution supporting the Korean Supreme People''s Assembly''s letter to the world''s parliaments).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 234 (July 6, 1962); [[w.peng-zhen-nianpu-1902]], IV, 204 (July 6, 1962, morning; Peng Zhen at the 56th (enlarged) session of the second NPC Standing Committee, Zhu De presiding; the resolution supporting the Korean Supreme People''s Assembly''s letter to the world''s parliaments); [[w.zhu-de-nianpu-xinbian]], III, 1845–1846 (July 6, 1962; Zhu De 朱德 presides at the fifty-sixth session of the Second National People''s Congress Standing Committee 第二届全国人大常委会第五十六次会议, which adopts the resolution supporting the Korean Supreme People''s Assembly''s letter to the world''s parliaments for forcing the American troops out of South Korea and Korea''s peaceful reunification).'
     src:
       c: 1f825a06
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 234: all'
         - 'w.peng-zhen-nianpu-1902 IV, 204: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1845–1846: ?'
     tags: [polity:prc, polity:dprk, polity:us]
     time_range:
       - 1962-07-05T22:00Z
@@ -1050,6 +1052,15 @@ entries:
       - 1962-07-05T22:00Z
       - 1962-07-06T04:00Z
     time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-07-06.china-leadership-8
+    when: July 6
+    date: '1962-07-06'
+    time: 1962-07-06T13:30Z
+    thread: china-leadership
+    c: Zhu De 朱德 calls on Mao Zedong 毛泽东.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1846. The words: 晚九时半，到毛泽东处看望 (1846). Made public: 2016. Names: Zhu De, Mao Zedong.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-07-07.missile-crisis
     when: July 7
@@ -2525,6 +2536,14 @@ entries:
       - 1962-07-13T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-07-13.china-leadership-4
+    when: July 13
+    date: '1962-07-13'
+    place: peking
+    thread: china-leadership
+    c: Building 10 of the Diaoyutai 钓鱼台十号楼, Peking 北京. Zhu De 朱德 at the Politburo Standing Committee 中共中央政治局常委会.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1846. Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
   - id: cal.1962-07-14.transition-and-staff-cleveland
     when: July 14
     date: '1962-07-14'
@@ -2817,6 +2836,21 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 191: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1962-07-15.china-leadership-10
+    when: July 15
+    date: '1962-07-15'
+    place:
+      - peking
+      - beidaihe
+    thread: china-leadership
+    c: Zhu De 朱德 leaves Peking 北京 by train for Beidaihe 北戴河.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1846. The words: 晚，乘火车离京赴北戴河 (1846). Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
+    time_range:
+      - 1962-07-15T11:00Z
+      - 1962-07-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-16.king
     when: July 16
     date: '1962-07-16'
@@ -3623,6 +3657,22 @@ entries:
       - 1962-07-19T17:00Z
     time_band: afternoon
     time_zone: Europe/Zurich
+  - id: cal.1962-07-19.china-leadership-15
+    when: July 19
+    date: '1962-07-19'
+    place: beidaihe
+    thread: china-leadership
+    c: 'Beidaihe 北戴河. Zhu De 朱德 talks with his staff 身边工作人员, the first of two talks: under a single policy, the methods to suit each place, with local rules and differences in ownership, responsibility and management; the main thing now to oppose the "left," not the right, which anyone can do; people to dare to speak; the coast''s "export of labor," building companies too to work abroad; commerce wholly centralized a problem, the grain departments to make a small profit, not lose money; collective and household sidelines side by side, much to be met by the family, not society, the family not to be broken up, or the peasants will idle; peasants to be urged to open waste land, untaxed for some years; draft animals collectively owned and privately kept, or privately owned; enterprises run by their directors under rules, each man answerable; taxes the state''s basic revenue, the enterprises'' taxes, depreciation and profits to be reckoned apart. The nianpu gives the points for the two talks together.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1846. Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+  - id: cal.1962-07-19.china-leadership-16
+    when: July 19
+    date: '1962-07-19'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Zhu De 朱德 talks with Dong Biwu 董必武, who calls on him.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1846. Made public: 2016. Names: Zhu De, Dong Biwu. Check: The nianpu prints the talk under its item of July 19 and 22, without saying which day.'
+    tags: [polity:prc, name:zhu-de, name:dong-biwu, vis:only:prc]
   - id: cal.1962-07-20.albany
     when: July 20
     date: '1962-07-20'
@@ -4533,6 +4583,21 @@ entries:
       - 1962-07-22T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1962-07-22.china-leadership-14
+    when: July 22
+    date: '1962-07-22'
+    thread: china-leadership
+    c: Zhu De 朱德 talks again with Chen Qihan 陈奇涵 and Yang Zhicheng 杨至诚 on the army's history from the Nanchang rising 南昌起义 to the Jinggangshan 井冈山.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1845. See [[cal.1962-06-26.china-leadership-6]]. Made public: 1983 ([[w.de-zhu-de-xuanji-selected]], where the nianpu says the record is collected as 《从南昌起义到上井冈山》). To check: [[w.de-zhu-de-xuanji-selected]] (《从南昌起义到上井冈山》, the summary of the talks of June 26 and July 22, 1962, where the nianpu says it is collected: [[w.zhu-de-nianpu-xinbian]], III, 1845). Names: Zhu De.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, vis:only:prc]
+  - id: cal.1962-07-22.china-leadership-15
+    when: July 22
+    date: '1962-07-22'
+    place: beidaihe
+    thread: china-leadership
+    c: Beidaihe 北戴河. Zhu De 朱德 talks again with his staff 身边工作人员 on policy, the second of two talks.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1846. See [[cal.1962-07-19.china-leadership-15]]. Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
   - id: cal.1962-07-23.laos
     when: July 23
     date: '1962-07-23'
@@ -6184,16 +6249,13 @@ entries:
   - id: cal.1962-07-30.china-leadership
     when: July 30
     date: '1962-07-30'
+    time: 1962-07-30T11:30Z
     place: beidaihe
     thread: china-leadership
     also: [laos, south-asia]
     c: Beidaihe, Building 1, evening. Mao presides at the Standing Committee, which hears Chen Yi on the Geneva conference (on Laos) and his meeting with Krishna Menon.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 30, 1962; [[w.deng-xiaoping-nianpu-1904]], III, 1719 (July 30, 1962; evening; Deng at Mao''s Standing Committee hearing Chen Yi on the Geneva conference on Laos); [[w.peng-zhen-nianpu-1902]], IV, 208 (July 30, 1962, evening; Peng Zhen sits in at Mao''s Standing Committee, hearing Chen Yi on the Geneva conference on Laos and his meeting with Menon). Made public: 2013. See [[cal.1962-07-22.china-leadership]]. Names: Mao Zedong, Chen Yi, Krishna Menon.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 30, 1962; [[w.deng-xiaoping-nianpu-1904]], III, 1719 (July 30, 1962; evening; Deng at Mao''s Standing Committee hearing Chen Yi on the Geneva conference on Laos); [[w.peng-zhen-nianpu-1902]], IV, 208 (July 30, 1962, evening; Peng Zhen sits in at Mao''s Standing Committee, hearing Chen Yi on the Geneva conference on Laos and his meeting with Menon); [[w.zhu-de-nianpu-xinbian]], III, 1847 (July 30, 1962; Zhu De 朱德 at the Politburo Standing Committee 中共中央政治局常委会议 in Building No. 1 一号楼 at 7:30 p.m.). Made public: 2013. See [[cal.1962-07-22.china-leadership]]. Names: Mao Zedong, Chen Yi, Krishna Menon.'
     tags: [polity:prc, polity:india, name:mao-zedong, name:chen-yi, vis:only:prc, name:menon-v-k-krishna]
-    time_range:
-      - 1962-07-30T11:00Z
-      - 1962-07-30T14:00Z
-    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1962-07-30.china-leadership-2
     when: July 30–Aug. 24
