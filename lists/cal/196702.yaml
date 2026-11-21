@@ -225,11 +225,12 @@ entries:
     place: peking
     thread: china-leadership
     c: The Renmin ribao prints, with the news of the Guizhou rebels' seizure of power, the editorial 'Spring thunder in the southwest'.
-    n: '[[w.mao-zedong-zhuan]], VI, ch. 76 (the day and the title 《西南的春雷》 as the book gives them; the book says that the run of seizure notices and editorials showed Mao''s support for the seizures and carried ever wider effect nationwide). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage; *Renmin ribao* 《人民日报》, Feb. 1, 1967 (the editorial ''Spring thunder in the southwest'' 《西南的春雷》).'
+    n: '[[w.mao-zedong-zhuan]], VI, ch. 76 (the day and the title 《西南的春雷》 as the book gives them; the book says that the run of seizure notices and editorials showed Mao''s support for the seizures and carried ever wider effect nationwide). [[w.yang-jisheng-tiandi-fanfu]], I, 483 (the editorial 〈西南的春雷〉 hails the Guizhou seizure, the fourth province''s after Heilongjiang, Shanghai and Shanxi). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage; *Renmin ribao* 《人民日报》, Feb. 1, 1967 (the editorial ''Spring thunder in the southwest'' 《西南的春雷》).'
     src:
       c: 3b6fa40c
       rows:
         - 'w.mao-zedong-zhuan VI, ch. 76: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 483: ?'
     tags: [polity:prc]
   - id: cal.1967-02-01.vietnam-hanoi
     when: Feb. 1
@@ -240,6 +241,30 @@ entries:
     c: Tịnh Kỳ and Đồng Xuân, Quảng Ngãi. Battalion 48 ambushes a force landed by helicopter and by the history's count puts nearly 200 out of action and takes 40 weapons.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 306. See [[cal.1967-01-29.vietnam-hanoi]]. The figures are the history''s.'
     tags: [polity:drv, polity:rvn]
+  - id: cal.1967-02-01.china-leadership-8
+    when: Feb. 1
+    date: '1967-02-01'
+    place: chongqing
+    thread: china-leadership
+    c: 'Chongqing 重慶. The Workers'' Rebel Army, the Southwest Normal College''s "Aug. 13" column, the Capital Third Headquarters'' liaison station and over 50 other rebel bodies wire the Center that the "Jan. 24 seizure" is a "false seizure": "smash the Gelianhui" — the "Smash faction" 砸派.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 492. To check: He Shu 何蜀, *Wei Mao zhuxi er zhan: wenge Chongqing da wudou shilu* 《為毛主席而戰：文革重慶大武鬥實錄》 (Joint Publishing, Hong Kong, 2010), and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39).'
+    src:
+      c: 3c9d7fe3
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 492: all'
+    tags: [polity:prc]
+  - id: cal.1967-02-01.china-leadership-9
+    when: Feb. 1
+    date: '1967-02-01'
+    thread: china-leadership
+    c: Wei Guoqing 韋國清 puts up his third poster, "Exposing the double-dealer Tao Zhu."
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 502. To check: 〈廣西文化大革命大事記〉, in *Wenge jimi dang''an: Guangxi baogao* 《文革機密檔案——廣西報告》 (Mingjing chubanshe 明鏡出版社), 565–572 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 502 n.48). Names: Tao Zhu.'
+    src:
+      c: fe23205f
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 502: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 502 n.48: all'
+    tags: [polity:prc, name:tao-zhu]
   - id: cal.1967-02-02.india-and-china
     when: Feb. 2
     date: '1967-02-02'
@@ -606,6 +631,29 @@ entries:
       - 1967-02-03T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1967-02-03.china-leadership-5
+    when: Feb. 3
+    date: '1967-02-03'
+    place: shandong
+    thread: china-leadership
+    c: Xining 西寧. The "Joint Command of PLA Units in the Xining Area" 中國人民解放軍駐西寧地區部隊聯合指揮部, centered on Zhao Yongfu 趙永夫, holds an armed parade "to back the revolutionaries and suppress the counter-revolutionaries" with over 250 combat-ready vehicles of the Qinghai–Tibet highway.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 397.'
+    src:
+      c: 4d164028
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 397: all'
+    tags: [polity:prc]
+  - id: cal.1967-02-03.china-leadership-6
+    when: Feb. 3
+    date: '1967-02-03'
+    thread: china-leadership
+    c: 'Shandong 山東: the Shandong Proletarian Revolutionary Rebels'' Great Alliance Revolutionary Committee 山東省無產階級革命造反派大聯合革命委員會 (later the Shandong Revolutionary Committee) is founded; its chairman Wang Xiaoyu 王效禹.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 457.'
+    src:
+      c: 5f279bbf
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 457: all'
+    tags: [polity:prc]
   - id: cal.1967-02-04.robert-kennedy
     when: Feb. 4
     date: '1967-02-04'
@@ -680,6 +728,18 @@ entries:
     c: An Phú, Bến Cát. The village forces, having learned the plan, break a sweep by a battalion and by the history's count put nearly 100 out of action and destroy two armored vehicles.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 323. The figures are the history''s.'
     tags: [polity:drv, polity:rvn]
+  - id: cal.1967-02-04.china-leadership-4
+    when: Feb. 4
+    date: '1967-02-04'
+    thread: china-leadership
+    c: Chen Boda 陳伯達, on the Cultural Revolution Group office's "Report of important matters," instructs the Hunan Military District to arrest the heads of "Xiangjiang Fenglei" 湘江風雷 and declare it reactionary.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 406. Made public: 2009. To check: Wang Guangyu 王廣宇, 〈我所知道的陳伯達〉, in Yan Changgui 閻長貴 and Wang Guangyu, *Wenshi qiuxin ji* 《問史求信集》 (Hongqi chubanshe 紅旗出版社, 2009), 354 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 406 n.46). See [[cal.1967-02.china-leadership-31]]. Names: Chen Boda.'
+    src:
+      c: 01b5ce44
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 406: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 406 n.46: all'
+    tags: [polity:prc, vis:only:prc, name:chen-boda]
   - id: cal.1967-02-05.opinion
     when: Feb. 5
     date: '1967-02-05'
@@ -726,13 +786,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mass rally in People''s Square, Shanghai: the Shanghai People''s Commune comes into being, under a "temporary committee" headed by Zhang Chunqiao and Yao Wenyuan.'
-    n: '[[w.macfarquhar-maos-last-revolution]], 166; [[w.yang-jisheng-tiandi-fanfu]], I, 358, 360 (Feb. 5, a mass meeting of 1,000,000 proclaims the Shanghai People''s Commune; the "Shanghai People''s Committee" sign is taken down and smashed with an iron hammer and the Commune''s big sign put up, and a parade follows; the "Declaration of the Shanghai People''s Commune" speaks of smashing the state organs usurped by revisionists and creating a new local organ of proletarian dictatorship). To check: General Order No. 1 of the temporary committee of the Shanghai People''s Commune, Feb. 5, 1967, in [[w.shanghai-wenhua-dageming-shihua]], I, 262–263 (cited by [[w.macfarquhar-maos-last-revolution]], 166 n.64). Names: Zhang Chunqiao, Yao Wenyuan.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 166; [[w.yang-jisheng-tiandi-fanfu]], I, 358, 360 (Feb. 5, a mass meeting of 1,000,000 proclaims the Shanghai People''s Commune; the "Shanghai People''s Committee" sign is taken down and smashed with an iron hammer and the Commune''s big sign put up, and a parade follows; the "Declaration of the Shanghai People''s Commune" speaks of smashing the state organs usurped by revisionists and creating a new local organ of proletarian dictatorship); [[w.yang-jisheng-tiandi-fanfu]], I, 457 (the Shanghai People''s Commune''s provisional committee founded, later the Shanghai Revolutionary Committee, Zhang Chunqiao at its head). To check: General Order No. 1 of the temporary committee of the Shanghai People''s Commune, Feb. 5, 1967, in [[w.shanghai-wenhua-dageming-shihua]], I, 262–263 (cited by [[w.macfarquhar-maos-last-revolution]], 166 n.64). Names: Zhang Chunqiao, Yao Wenyuan.'
     src:
       c: ecb8cb02
       rows:
         - 'w.macfarquhar-maos-last-revolution 166: all'
         - 'via w.macfarquhar-maos-last-revolution 166 n.64: all'
         - 'w.yang-jisheng-tiandi-fanfu I, 358, 360: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 457: ?'
     tags: [polity:prc, name:zhang-chunqiao, name:yao-wenyuan]
   - id: cal.1967-02-05.china-leadership-3
     when: Feb. 5
@@ -747,6 +808,33 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 166: all'
         - 'via w.macfarquhar-maos-last-revolution 166 n.64: all'
+    tags: [polity:prc]
+  - id: cal.1967-02-05.china-leadership-4
+    when: Feb. 5
+    date: '1967-02-05'
+    time: 1967-02-05T04:15Z
+    place: hohhot
+    thread: china-leadership
+    c: Hohhot 呼和浩特, the Inner Mongolia Military District's compound 內蒙古軍區大院. At noon several hundred rebel students and workers sit in at the south gate against the District's repression of the rebels, machine guns on the main building's roof. At 12:15 p.m. Liu Qing 柳青, deputy head of the District's training department, comes out and shoots twice the student leading the slogans, Han Tong 韓桐, a fourth-year student of foreign languages at the Inner Mongolia Normal College 內蒙古師範學院 and a member of the "Third Headquarters of Hohhot" 呼三司; he dies three hours later.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 402. The words: 中午12時15分 (I, 402). To check: 〈「文革」中軍隊向學生開的第一槍〉, *Dangdai Zhongguo yanjiu* 《當代中國研究》, 2002, no. 3 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 402 n.35).'
+    src:
+      c: 811c504a
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 402: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 402 n.35: all'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1967-02-05.china-leadership-5
+    when: Feb. 5
+    date: '1967-02-05'
+    thread: china-leadership
+    c: Wei Guoqing 韋國清 puts up his fourth poster, "Exposing some questions of Wang Renzhong."
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 502. To check: 〈廣西文化大革命大事記〉, in *Wenge jimi dang''an: Guangxi baogao* 《文革機密檔案——廣西報告》 (Mingjing chubanshe 明鏡出版社), 565–572 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 502 n.48).'
+    src:
+      c: 26b1d7b0
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 502: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 502 n.48: all'
     tags: [polity:prc]
   - id: cal.1967-02-06.crime-and-hijacking
     when: Feb. 6
@@ -1229,6 +1317,30 @@ entries:
     c: India. Foreign Minister Chagla says his government notes with satisfaction Nguyễn Duy Trinh's statement that talks are possible once the bombing ends. The history lists U Thant's three points (stop the bombing of the North, scale down military action by all sides in the South, give the Front a part in any settlement) and de Gaulle's sharp criticism of the United States in the same days.
     n: '[[w.lich-su-khang-chien-chong-my]], V, 326. See [[cal.1967-01-28.vietnam]]. Names: Nguyễn Duy Trinh. Check: the place; the history gives the statement without one.'
     tags: [polity:india, polity:drv, name:nguyen-duy-trinh]
+  - id: cal.1967-02-08.china-leadership-3
+    when: Feb. 8
+    date: '1967-02-08'
+    place: wuhan
+    thread: china-leadership
+    c: 'Wuhan 武漢. Twelve radical rebel bodies, the Workers'' Headquarters 工人總部, the 9·13 and the Second Headquarters 二司 among them, publish in the *Changjiang ribao* 長江日報, which they control, the "Statement on the present situation in Wuhan" 〈關于武漢地區當前局勢的聲明〉 (the "Feb. 8 Statement"): the Workers'' Rebel General Headquarters, the New Hubei University and the New Huagong are "right opportunists," "Trotskyites," come down the mountain to "pick the peaches"; "all Wuhan, all Hubei must be in great disorder, special disorder."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 470.'
+    src:
+      c: bed0ed0e
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 470: all'
+    tags: [polity:prc]
+  - id: cal.1967-02-08.china-leadership-4
+    when: Feb. 8
+    date: '1967-02-08'
+    place: chongqing
+    thread: china-leadership
+    c: Chongqing 重慶. The Gelianhui 革聯會, the "provisional highest organ of power" of the Jan. 24 seizure, is formally founded, Liu Runquan 劉潤泉, deputy head of the 54th Army's political department, its chairman; the Center does not recognize it.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 492. To check: He Shu 何蜀, *Wei Mao zhuxi er zhan: wenge Chongqing da wudou shilu* 《為毛主席而戰：文革重慶大武鬥實錄》 (Joint Publishing, Hong Kong, 2010), and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39).'
+    src:
+      c: b7dac6e7
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 492: all'
+    tags: [polity:prc]
   - id: cal.1967-02-09.foreign-aid
     when: Feb. 9
     date: '1967-02-09'
@@ -1435,7 +1547,7 @@ entries:
     date: '1967-02-10'
     thread: china-leadership
     c: 'Mao presides over an enlarged Standing Committee meeting: Lin Biao, Zhou Enlai, Chen Boda, Kang Sheng, Li Fuchun, Ye Jianying, Jiang Qing and Wang Li. He tells the Cultural Revolution Group to meet and criticizes Chen Boda and Jiang Qing for publicly naming and bringing down Tao Zhu: "a standing member bringing down a standing member," great in aim, small in talent; they did it alone; it is as before, he thinks: no reports, a blockade of him, the Premier excepted. He proposes to widen the meeting: Chen Yi, Tan Zhenlin, Xu Xiangqian, Li Xiannian, Xie Fuzhi, Guan Feng, Qi Benyu.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 10, 1967. [[w.macfarquhar-maos-last-revolution]], 188–189, 191 (Mao, by Wang Li''s account angry after reading a transcript of the Jan. 4 attacks on Tao Zhu, faults Chen Boda and Jiang Qing; Chen offers a self-criticism and Mao stops him; the Group to criticize the two, with Zhang Chunqiao and Yao Wenyuan called back from Shanghai; more members to be called to such meetings); [[w.mao-zedong-zhuan]], VI, ch. 76 n.27 (Feb. 10 Mao at the enlarged Standing Committee meeting, as Wang Li later told, n.27: to Chen Boda, ''you, one standing member bringing down another''; to Jiang Qing, ''eyes high, hand low, ambition large, talent small; with Tao Zhu overthrown no one else was involved, it was you two alone''; ''I see it is as before, no reports to me, a blockade of me, the Premier excepted''; Chen Boda and Jiang Qing had named Tao Zhu in public among the masses without reporting to the Center; Mao ends by asking the Group to meet and criticize Chen and Jiang). Made public: 1993. To check: [[w.chen-boda-zuihou-koushu]], 326 (cited by [[w.macfarquhar-maos-last-revolution]], 188 n.36); [[w.li-xianchang-lishi]], 29–30 (cited by [[w.macfarquhar-maos-last-revolution]], 189 n.38); [[w.xuan-wenhua-dageming-jianshi]], 148 (cited by [[w.macfarquhar-maos-last-revolution]], 191 n.46a); [[w.li-wang-li-fansi-lu]], II, 974 (cited by [[w.macfarquhar-maos-last-revolution]], 191 n.46b); Interview 访问 with Wang Li 王力, Aug. 12, 1983 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.27). Names: Mao Zedong, Lin Biao, Zhou Enlai, Chen Boda, Kang Sheng, Li Fuchun, Ye Jianying, Jiang Qing, Wang Li, Tao Zhu, Chen Yi, Tan Zhenlin, Xu Xiangqian, Li Xiannian, Xie Fuzhi, Guan Feng, Qi Benyu.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 10, 1967. [[w.macfarquhar-maos-last-revolution]], 188–189, 191 (Mao, by Wang Li''s account angry after reading a transcript of the Jan. 4 attacks on Tao Zhu, faults Chen Boda and Jiang Qing; Chen offers a self-criticism and Mao stops him; the Group to criticize the two, with Zhang Chunqiao and Yao Wenyuan called back from Shanghai; more members to be called to such meetings); [[w.mao-zedong-zhuan]], VI, ch. 76 n.27 (Feb. 10 Mao at the enlarged Standing Committee meeting, as Wang Li later told, n.27: to Chen Boda, ''you, one standing member bringing down another''; to Jiang Qing, ''eyes high, hand low, ambition large, talent small; with Tao Zhu overthrown no one else was involved, it was you two alone''; ''I see it is as before, no reports to me, a blockade of me, the Premier excepted''; Chen Boda and Jiang Qing had named Tao Zhu in public among the masses without reporting to the Center; Mao ends by asking the Group to meet and criticize Chen and Jiang). [[w.yang-jisheng-tiandi-fanfu]], I, 386–387 (Mao, at an enlarged Standing Committee meeting, upbraids Chen Boda, "a standing member bringing down a standing member," and Jiang Qing, "your eyes higher than your hands"; he checked the record: only Chen spoke and Jiang broke in; the matter to be raised only here and in the Group; Ye Jianying tells the marshals and Li Fuchun the vice-premiers). Made public: 1993. Check: the day: Yang (I, 387) prints the meeting "12月10日", after Jiang Qing''s denunciation of Tao Zhu of Jan. 4, 1967, and before the Huairen Hall meeting of Feb. 11. To check: [[w.chen-boda-zuihou-koushu]], 326 (cited by [[w.macfarquhar-maos-last-revolution]], 188 n.36); [[w.li-xianchang-lishi]], 29–30 (cited by [[w.macfarquhar-maos-last-revolution]], 189 n.38); [[w.xuan-wenhua-dageming-jianshi]], 148 (cited by [[w.macfarquhar-maos-last-revolution]], 191 n.46a); [[w.li-wang-li-fansi-lu]], II, 974 (cited by [[w.macfarquhar-maos-last-revolution]], 191 n.46b); Interview 访问 with Wang Li 王力, Aug. 12, 1983 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.27). Names: Mao Zedong, Lin Biao, Zhou Enlai, Chen Boda, Kang Sheng, Li Fuchun, Ye Jianying, Jiang Qing, Wang Li, Tao Zhu, Chen Yi, Tan Zhenlin, Xu Xiangqian, Li Xiannian, Xie Fuzhi, Guan Feng, Qi Benyu.'
     src:
       c: 32ba5415
       rows:
@@ -1443,6 +1555,7 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 188–189, 191: ?'
         - 'w.mao-zedong-zhuan VI, ch. 76 n.27: C, D'
         - 'via w.mao-zedong-zhuan VI, ch.76 n.27: C, D'
+        - 'w.yang-jisheng-tiandi-fanfu I, 386–387: ?'
     tags: [name:mao-zedong, name:lin-biao, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:li-fuchun, name:ye-jianying, name:jiang-qing, name:tao-zhu, name:chen-yi, name:tan-zhenlin, name:xu-xiangqian, name:li-xiannian, name:xie-fuzhi, polity:prc, vis:only:prc]
   - id: cal.1967-02-10.china-leadership-2
     when: Feb. 10
@@ -1587,7 +1700,7 @@ entries:
     date: '1967-02-11'
     thread: china-leadership
     c: 'Mao twice reads the Military Commission''s draft rules on the Cultural Revolution in organs above army level, drafted at his proposal: Lin Biao''s of Feb. 10, "do it; follow the changes made at last night''s meeting"; Zhou''s of the night of the 10th, "to the Premier, issue." Seven articles: study and carry out the eight-article order of Jan. 28; the "four bigs" by stages; none for army units below, naval bases, the Peking garrison and special units; no link-ups with them.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 11, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 122 (Feb. 10, 1967; the provisions adopted at Zhou''s liaison meeting and sent to Mao and Lin Biao; Mao on the 11th: issue as is); [[w.jianguo-yilai-mao-zedong]], XVIII, 468–471 (Feb. 11, 1967; Mao''s notes on Ye Jianying''s draft of Feb. 9, which Lin sent Feb. 10, and, at twelve o''clock (十二时), Feb. 11, "To the Premier, issue," on the text the liaison meeting revised the night of Feb. 10, issued that day; a third note, "Do so," on the supplementary rules Lin sent Feb. 25, issued Feb. 27); [[w.macfarquhar-maos-last-revolution]], 201 (the Military Commission''s seven-point regulations, issued Feb. 11, which Chen Zaidao read as leave to dissolve rebel bodies in the army). Made public: 1988. To check: Ye Jianying, draft rules on the Cultural Revolution in leading organs above army level, sent to Lin Biao Feb. 9, 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 469 n.1); Military Affairs Commission regulations, Feb. 11, 1967, in [[w.wenhua-dageming-yanjiu-ziliao]], I, 290–291 (cited by [[w.macfarquhar-maos-last-revolution]], 201 n.14). Names: Mao Zedong, Lin Biao, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 11, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 122 (Feb. 10, 1967; the provisions adopted at Zhou''s liaison meeting and sent to Mao and Lin Biao; Mao on the 11th: issue as is); [[w.jianguo-yilai-mao-zedong]], XVIII, 468–471 (Feb. 11, 1967; Mao''s notes on Ye Jianying''s draft of Feb. 9, which Lin sent Feb. 10, and, at twelve o''clock (十二时), Feb. 11, "To the Premier, issue," on the text the liaison meeting revised the night of Feb. 10, issued that day; a third note, "Do so," on the supplementary rules Lin sent Feb. 25, issued Feb. 27); [[w.macfarquhar-maos-last-revolution]], 201 (the Military Commission''s seven-point regulations, issued Feb. 11, which Chen Zaidao read as leave to dissolve rebel bodies in the army); [[w.yang-jisheng-tiandi-fanfu]], I, 423–424 (among the 17 documents of the Military Commission''s enlarged meeting: the Commission''s rules on the Cultural Revolution in the leading organs above the army level, issued Feb. 11). Made public: 1988. To check: Ye Jianying, draft rules on the Cultural Revolution in leading organs above army level, sent to Lin Biao Feb. 9, 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 469 n.1); Military Affairs Commission regulations, Feb. 11, 1967, in [[w.wenhua-dageming-yanjiu-ziliao]], I, 290–291 (cited by [[w.macfarquhar-maos-last-revolution]], 201 n.14). Names: Mao Zedong, Lin Biao, Zhou Enlai.'
     src:
       c: b5bde431
       rows:
@@ -1596,6 +1709,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 468–471: A-F'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 469 n.1: all'
         - 'w.macfarquhar-maos-last-revolution 201: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 423–424: ?'
     tags: [name:mao-zedong, name:lin-biao, name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-02-11.china-leadership-6
     when: Feb. 11
@@ -1619,13 +1733,15 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Zhou Enlai chairs the Center''s liaison meeting at Huairen Hall. Ye Jianying and Xu Xiangqian and others confront face to face the Cultural Revolution Group''s throwing the Party and the army into confusion. Ye to Chen Boda: "you have thrown the Party into confusion, the government, the factories and villages, and still not enough, you must throw the army too; what do you want? Can there be revolution without the Party''s leadership? Without the army?" Xu, thumping the table: the army is the pillar of the dictatorship of the proletariat; shall men like Kuai Dafu command it?'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 123 (Feb. 11, 1967, the item after); [[w.macfarquhar-maos-last-revolution]], 191–192 (on the agenda "grasping revolution and promoting production"; of the Group only Chen Boda, Kang Sheng and Wang Li present; Kang Sheng defends Chen; Ye Jianying on the Shanghai Commune; Chen Boda abashed; Zhou ends the meeting; Chen Yi''s whispered praise of Ye); [[w.deng-xiaoping-nianpu-1904]], III, 1936 (Feb. 11 and 16, 1967; the nianpu: Tan Zhenlin, Chen Yi, Ye Jianying, Li Fuchun, Li Xiannian, Xu Xiangqian, Nie Rongzhen and others speak in turn at the Center''s head-bumping meetings, criticizing sharply the many wrong ways of the Central Cultural Revolution Group; before that several leaders of the Military Commission quarrelled sharply on the army''s stability with Jiang Qing, Chen Boda and Kang Sheng at the enlarged Commission meeting of Jan. 19; their resistance is slandered as the ''February countercurrent'' and suppressed; after it the Cultural Revolution Group in the main takes over the Politburo''s function, and the Center''s head-bumping meeting that Zhou Enlai had presided over is replaced by the Group''s). Made public: 1988. To check: [[w.xuan-wenhua-dageming-jianshi]], 148 (cited by [[w.macfarquhar-maos-last-revolution]], 191 n.51); [[w.nianyi-da-dongluande-niandai]], 208 (cited by [[w.macfarquhar-maos-last-revolution]], 192 n.53, n.54). Names: Zhou Enlai, Ye Jianying, Xu Xiangqian, Chen Boda, Kuai Dafu.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 123 (Feb. 11, 1967, the item after); [[w.macfarquhar-maos-last-revolution]], 191–192 (on the agenda "grasping revolution and promoting production"; of the Group only Chen Boda, Kang Sheng and Wang Li present; Kang Sheng defends Chen; Ye Jianying on the Shanghai Commune; Chen Boda abashed; Zhou ends the meeting; Chen Yi''s whispered praise of Ye); [[w.deng-xiaoping-nianpu-1904]], III, 1936 (Feb. 11 and 16, 1967; the nianpu: Tan Zhenlin, Chen Yi, Ye Jianying, Li Fuchun, Li Xiannian, Xu Xiangqian, Nie Rongzhen and others speak in turn at the Center''s head-bumping meetings, criticizing sharply the many wrong ways of the Central Cultural Revolution Group; before that several leaders of the Military Commission quarrelled sharply on the army''s stability with Jiang Qing, Chen Boda and Kang Sheng at the enlarged Commission meeting of Jan. 19; their resistance is slandered as the ''February countercurrent'' and suppressed; after it the Cultural Revolution Group in the main takes over the Politburo''s function, and the Center''s head-bumping meeting that Zhou Enlai had presided over is replaced by the Group''s); [[w.yang-jisheng-tiandi-fanfu]], I, 388 (Zhou presides at Huairen Hall 懷仁堂; Ye Jianying to Kang Sheng, Chen Boda and Zhang Chunqiao: you have thrown the Party, the government, the factories and the villages into confusion and now would the army; renaming Shanghai''s power the "Shanghai Commune" without the Politburo; Xu Xiangqian bangs the table, the army the pillar of the dictatorship; Nie Rongzhen on the arrests of the United Action members, children struggled to bring down their fathers). Made public: 1988. To check: [[w.xuan-wenhua-dageming-jianshi]], 148 (cited by [[w.macfarquhar-maos-last-revolution]], 191 n.51); [[w.nianyi-da-dongluande-niandai]], 208 (cited by [[w.macfarquhar-maos-last-revolution]], 192 n.53, n.54); Zhonggong zhongyang dangshi yanjiushi 中共中央黨史研究室, *Zhongguo gongchandang lishi* 《中國共產黨歷史》, vol. 2 (1949–1978) (Zhonggong dangshi chubanshe 中共黨史出版社, 2011), 788 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 388 n.6). Names: Zhou Enlai, Ye Jianying, Xu Xiangqian, Chen Boda, Kuai Dafu.'
     src:
       c: b9441bba
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 123: ?'
         - 'w.macfarquhar-maos-last-revolution 191–192: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1936: B'
+        - 'w.yang-jisheng-tiandi-fanfu I, 388: ?'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 388 n.6: ?'
     tags: [name:zhou-enlai, name:ye-jianying, name:xu-xiangqian, name:chen-boda, polity:prc, vis:only:prc]
   - id: cal.1967-02-11.china-leadership-4
     when: Feb. 11
@@ -1676,6 +1792,18 @@ entries:
     c: Ia Vầm and Chư Pông, the Central Highlands. To Apr. 7 the region's armed forces fight off the American and Saigon sweeps with medium and small actions and by the history's count put 600 out of action.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 314. The history gives the span, Feb. 11 to Apr. 7. The figures are the history''s.'
     tags: [polity:drv, polity:us, polity:rvn, ok:fields-place]
+  - id: cal.1967-02-11.china-leadership-9
+    when: Feb. 11
+    date: '1967-02-11'
+    place: fuzhou
+    thread: china-leadership
+    c: Fuzhou 福州. 200,000 soldiers and civilians hold a pledge rally to "smash the bourgeois reactionary line's new counterattack"; Han Xianchu 韓先楚, commander of the Fuzhou Military Region, calls the rebels' storming of the Region "a counter-revolutionary adverse current."
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 405.'
+    src:
+      c: 78d1701d
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 405: all'
+    tags: [polity:prc]
   - id: cal.1967-02-12.opinion
     when: Feb. 12
     date: '1967-02-12'
@@ -1974,6 +2102,18 @@ entries:
     c: 'Zhou Enlai receives delegates of the Harbin "Red Rebels United Headquarters": to throw Daqing into disorder is very dangerous; it is so important that the army must take it over. The Northeast''s farming has not passed, coal output is down, transport has trouble; help part of the cadres of the provincial committee to stand forth and grasp production.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 123 (Feb. 13, 1967). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-02-13.china-leadership-2
+    when: Feb. 13
+    date: '1967-02-13'
+    place: guizhou
+    thread: china-leadership
+    c: 'Guizhou 貴州: the Mao Zedong Thought Guizhou Revolutionary Committee 毛澤東思想貴州省革命委員會 (later the Guizhou Revolutionary Committee) is founded; its chairman Li Zaihan 李再含.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 457. Check: the day: Feb. 13 in Yang''s list (I, 457); "1月13日" in the Guizhou narrative (I, 483), after the editorial of Feb. 1.'
+    src:
+      c: 8095998b
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 457: all'
+    tags: [polity:prc]
   - id: cal.1967-02-14.congress-powell
     when: Feb. 14
     date: '1967-02-14'
@@ -2074,6 +2214,29 @@ entries:
     c: Minh Thạnh, Dầu Tiếng and Bến Củi. While "Gaxđơn" runs, the 2d and 3d Brigades of the American 1st Division open the operation the history calls "Tắcxơn" to clear the way for moving supplies to the starting points of the next operation. It ends Feb. 21; by the history's count 334 men, 29 vehicles and 7 aircraft lost. The II Field Force's forward headquarters moves to Dầu Tiếng to run the operation.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 265. See [[cal.1967-02-02.vietnam-hanoi]]. Check: its American name, which the calendar does not hold. The figures are the history''s.'
     tags: [polity:drv, polity:us]
+  - id: cal.1967-02-14.china-leadership-5
+    when: Feb. 14
+    date: '1967-02-14'
+    place: xining
+    thread: china-leadership
+    c: Xining 西寧. Zhao Yongfu 趙永夫 and others, as the Xining garrison command 中國人民解放軍西寧市衛戍區司令部, proclaim military control of the *Qinghai ribao* 青海日報 from that day for false reporting "under a handful of schemers." The staff refuse the control group; Red Guards of over twenty schools crowd in to "defend the paper," over 2,000 rebels camping in tents; troops surround it and seal the roads to it.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 397.'
+    src:
+      c: b0044801
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 397: all'
+    tags: [polity:prc]
+  - id: cal.1967-02-14.china-leadership-6
+    when: Feb. 14
+    date: '1967-02-14'
+    thread: china-leadership
+    c: The Center issues its "Notice that the edge of struggle must not be turned on the army" 〈中共中央關於不得把鬥爭鋒芒指向軍隊的通知〉, one of the 17 documents of the Military Commission's enlarged meeting.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 423. Made public: 2016.'
+    src:
+      c: f7b8c962
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 423: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1967-02-15.vietnam
     when: Feb. 15
     date: '1967-02-15'
@@ -2254,6 +2417,18 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 508: A'
     tags: [name:mao-zedong, name:zhou-enlai, name:chen-yi, polity:prc, polity:mauritania, vis:only:prc+mauritania@C-G]
     time_zone: Asia/Shanghai
+  - id: cal.1967-02-15.china-leadership-2
+    when: Feb. 15
+    date: '1967-02-15'
+    place: xining
+    thread: china-leadership
+    c: Xining 西寧. The Qinghai Workers' Rebel Headquarters 青海工人造反司令部, the Defense Corps 捍衛隊 and others backed by Zhao Yongfu 趙永夫 march, day after day, for the military control of the *Qinghai ribao* 青海日報.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 397.'
+    src:
+      c: a3f8a5c0
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 397: all'
+    tags: [polity:prc]
   - id: cal.1967-02-16.consumers
     when: Feb. 16
     date: '1967-02-16'
@@ -2320,7 +2495,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking, Huairen Hall, afternoon. At the Center''s liaison meeting, Zhou Enlai chairing, on "grasping revolution, promoting production," Tan Zhenlin, Chen Yi, Ye Jianying, Xu Xiangqian, Li Xiannian, Yu Qiuli and others attack the present way of the Cultural Revolution. Tan, asked why Chen Pixian may not come to Peking: Zhang Chunqiao says they will ask the masses; Tan: the masses, always the masses; where is the Party''s leadership? The old cadres are being broken one by one, the cruelest struggle in the Party''s history. He rises to leave; Zhou calls him back; Chen Yi: do not go; fight them; those who rise are revisionists. This is later called the "February Countercurrent."'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 16, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 124 (Feb. 16, 1967; Zhou chairs at Huairen Hall; the meeting was to take up grasping revolution and promoting production in the State Council''s branches; Tan Zhenlin, Chen Yi, Ye Jianying, Li Xiannian and Yu Qiuli lose their temper at the Cultural Revolution Group''s Jiang Qing, Chen Boda and Kang Sheng for confusing Party and army and persecuting old cadres; Tan to Zhang Chunqiao: "you want to knock the old cadres down one by one; I will fight to the end, though they cut off my head, jail me and expel me from the Party"; Tan starts to leave and Zhou calls him back; Zhou asks Chen Boda why the *Hongqi* editorial of issue 13 was not shown to the Standing Committee); [[w.macfarquhar-maos-last-revolution]], 192–194 (the recriminations start before Zhou opens the meeting; Tan Zhenlin on the masses, the old cadres and the children of high cadres, against Jiang Qing, and on leaving; Xie Fuzhi; Chen Yi on Liu, Deng and Peng Zhen in Yan''an and on Stalin and Khrushchev; Zhou''s reply; three hours; "At seven o''clock" Zhou ends it); [[w.mao-zedong-zhuan]], VI, ch. 76 n.29 (Feb. 16 at the meeting of the Standing Committee''s liaison group chaired by Zhou Enlai, intended for ''grasping revolution, promoting production'', Tan Zhenlin asks Zhang Chunqiao why the Shanghai first secretary Chen Pixian may not come to Peking, Zhang: we shall go back and consult the masses; Tan: ''what masses, always the masses, where is the Party''s leadership? from morning to night the masses free themselves, teach themselves, make revolution themselves, what is this? it is metaphysics; your aim is to clear out the old cadres, one by one; this is the cruelest struggle in the Party''s history''; he rises to leave, Zhou calls him back; Chen Yi: ''do not go, fight them; when these fellows come to power it is they who do revisionism'', and of the Yan''an rectification those who praised Mao Thought most were the ones who struck; Li Xiannian: it began with the *Hongqi* editorial no. 13, the two-line struggle among the masses on that scale, the link-ups, all the old cadres knocked out, n.29; later called the ''February countercurrent''). Made public: 1969. Check: the book (197) has Li Xiannian challenge Xie Fuzhi "during the February Countercurrent confrontation" on calling teenagers counterrevolutionaries; which of the meetings of Feb. 11 and 16. Check: Tan Zhenlin''s words on following Mao forty-one years are not in the minutes; Zhou cited them in his Twelfth Plenum speech (193 n.60). To check: [[w.li-insiders-account-of-the]], 44 (cited by [[w.macfarquhar-maos-last-revolution]], 192 n.56a); [[w.li-wang-li-fansi-lu]], II, 977 (cited by [[w.macfarquhar-maos-last-revolution]], 192 n.56b); [[w.zhou-enlai-nianpu-1949]], III, 126–127 (cited by [[w.macfarquhar-maos-last-revolution]], 192 n.56c); [[w.wenge-shinian-ziliao-xuanbian]], I, 183–185 (cited by [[w.macfarquhar-maos-last-revolution]], 193 nn.57–59, 61; 194 nn.62–63); [[w.debate-between-the-blood]] (cited by [[w.macfarquhar-maos-last-revolution]], 193 n.58b); Zhou Enlai''s speech to the Twelfth Plenum, October 1968, in [[w.zai-zhonggong-ba-jie]], 35 (cited by [[w.macfarquhar-maos-last-revolution]], 193 n.60); "Meeting in Huairen Hall on February 16" (cited by [[w.macfarquhar-maos-last-revolution]], 194 n.66); Zhang Chunqiao 张春桥, Yao Wenyuan 姚文元 and Wang Li 王力, record of the Huairen Hall meeting 《二月十六日怀仁堂会议》, Feb. 16, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.29). Names: Zhou Enlai, Tan Zhenlin, Chen Yi, Ye Jianying, Xu Xiangqian, Li Xiannian, Yu Qiuli, Chen Pixian, Zhang Chunqiao. Check: Made public: 1969 is the year of [[w.zai-zhonggong-ba-jie]], which prints Zhou Enlai''s Twelfth Plenum speech citing Tan Zhenlin''s words at the meeting (193 n.60); if it circulated internally, 1981 ([[w.wenge-shinian-ziliao-xuanbian]], the minutes, 193 nn.57–63), and if that too, 1994 ([[w.li-insiders-account-of-the]]).'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 16, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 124 (Feb. 16, 1967; Zhou chairs at Huairen Hall; the meeting was to take up grasping revolution and promoting production in the State Council''s branches; Tan Zhenlin, Chen Yi, Ye Jianying, Li Xiannian and Yu Qiuli lose their temper at the Cultural Revolution Group''s Jiang Qing, Chen Boda and Kang Sheng for confusing Party and army and persecuting old cadres; Tan to Zhang Chunqiao: "you want to knock the old cadres down one by one; I will fight to the end, though they cut off my head, jail me and expel me from the Party"; Tan starts to leave and Zhou calls him back; Zhou asks Chen Boda why the *Hongqi* editorial of issue 13 was not shown to the Standing Committee); [[w.macfarquhar-maos-last-revolution]], 192–194 (the recriminations start before Zhou opens the meeting; Tan Zhenlin on the masses, the old cadres and the children of high cadres, against Jiang Qing, and on leaving; Xie Fuzhi; Chen Yi on Liu, Deng and Peng Zhen in Yan''an and on Stalin and Khrushchev; Zhou''s reply; three hours; "At seven o''clock" Zhou ends it); [[w.mao-zedong-zhuan]], VI, ch. 76 n.29 (Feb. 16 at the meeting of the Standing Committee''s liaison group chaired by Zhou Enlai, intended for ''grasping revolution, promoting production'', Tan Zhenlin asks Zhang Chunqiao why the Shanghai first secretary Chen Pixian may not come to Peking, Zhang: we shall go back and consult the masses; Tan: ''what masses, always the masses, where is the Party''s leadership? from morning to night the masses free themselves, teach themselves, make revolution themselves, what is this? it is metaphysics; your aim is to clear out the old cadres, one by one; this is the cruelest struggle in the Party''s history''; he rises to leave, Zhou calls him back; Chen Yi: ''do not go, fight them; when these fellows come to power it is they who do revisionism'', and of the Yan''an rectification those who praised Mao Thought most were the ones who struck; Li Xiannian: it began with the *Hongqi* editorial no. 13, the two-line struggle among the masses on that scale, the link-ups, all the old cadres knocked out, n.29; later called the ''February countercurrent''). [[w.yang-jisheng-tiandi-fanfu]], I, 388–390 (Zhou presides at Huairen Hall 懷仁堂; present Tan Zhenlin, Chen Yi, Li Xiannian, Ye Jianying, Li Fuchun, Xu Xiangqian, Nie Rongzhen, Xie Fuzhi, Chen Boda, Kang Sheng, Yu Qiuli, Zhang Chunqiao, Wang Li, Yao Wenyuan; before the agenda, "grasping revolution, promoting production," Tan asks Zhang why Chen Pixian may not come to Peking; Tan on the old cadres beaten down, "I have wept three times," rises to leave and Zhou calls him back; Chen Yi: "worse than Wang Ming," on Yan''an; Li Xiannian: "a nationwide forced confession," the *Hongqi* editorial of issue 13 the start; Zhou asks Chen Boda and Kang Sheng why it was not shown them; the quarrel lasts to 7 p.m.; Zhou rings Mao in the course of it and Mao sends Wang Dongxing to listen). Made public: 1969. Check: the book (197) has Li Xiannian challenge Xie Fuzhi "during the February Countercurrent confrontation" on calling teenagers counterrevolutionaries; which of the meetings of Feb. 11 and 16. Check: Tan Zhenlin''s words on following Mao forty-one years are not in the minutes; Zhou cited them in his Twelfth Plenum speech (193 n.60). To check: [[w.li-insiders-account-of-the]], 44 (cited by [[w.macfarquhar-maos-last-revolution]], 192 n.56a); [[w.li-wang-li-fansi-lu]], II, 977 (cited by [[w.macfarquhar-maos-last-revolution]], 192 n.56b); [[w.zhou-enlai-nianpu-1949]], III, 126–127 (cited by [[w.macfarquhar-maos-last-revolution]], 192 n.56c); [[w.wenge-shinian-ziliao-xuanbian]], I, 183–185 (cited by [[w.macfarquhar-maos-last-revolution]], 193 nn.57–59, 61; 194 nn.62–63); [[w.debate-between-the-blood]] (cited by [[w.macfarquhar-maos-last-revolution]], 193 n.58b); Zhou Enlai''s speech to the Twelfth Plenum, October 1968, in [[w.zai-zhonggong-ba-jie]], 35 (cited by [[w.macfarquhar-maos-last-revolution]], 193 n.60); "Meeting in Huairen Hall on February 16" (cited by [[w.macfarquhar-maos-last-revolution]], 194 n.66); Zhang Chunqiao 张春桥, Yao Wenyuan 姚文元 and Wang Li 王力, record of the Huairen Hall meeting 《二月十六日怀仁堂会议》, Feb. 16, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.29); [[w.wenqian-wannian-zhou-enlai]], 26th printing (2004), 201, 203 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 390 n.8). Names: Zhou Enlai, Tan Zhenlin, Chen Yi, Ye Jianying, Xu Xiangqian, Li Xiannian, Yu Qiuli, Chen Pixian, Zhang Chunqiao. Check: Made public: 1969 is the year of [[w.zai-zhonggong-ba-jie]], which prints Zhou Enlai''s Twelfth Plenum speech citing Tan Zhenlin''s words at the meeting (193 n.60); if it circulated internally, 1981 ([[w.wenge-shinian-ziliao-xuanbian]], the minutes, 193 nn.57–63), and if that too, 1994 ([[w.li-insiders-account-of-the]]).'
     src:
       c: 55aea2d1
       rows:
@@ -2329,6 +2504,7 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 192–194: ?'
         - 'w.mao-zedong-zhuan VI, ch. 76 n.29: C, D, E, F, G, H, I, J, K, L'
         - 'via w.mao-zedong-zhuan VI, ch.76 n.29: C, D, E, F, G, H, I, J, K, L'
+        - 'w.yang-jisheng-tiandi-fanfu I, 388–390: ?'
     tags: [name:zhou-enlai, name:tan-zhenlin, name:chen-yi, name:ye-jianying, name:xu-xiangqian, name:li-xiannian, name:zhang-chunqiao, polity:prc, vis:only:prc]
   - id: cal.1967-02-16.china-leadership-2
     when: Feb. 16
@@ -2350,7 +2526,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Zhang Chunqiao, Yao Wenyuan and Wang Li with Jiang Qing, after the Huairen Hall meeting, draw up a "record" and report to Mao, Zhang adding that Zhou has objected to the *Hongqi* editorial of issue 13 not being sent to him for review. Mao: the Party constitution does not require that editorials go through the Standing Committee. He tells Zhang to talk with Zhou: the Cultural Revolution Group is to be treated as a secretariat, and major Party and state questions put first to it for discussion.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 124 (Feb. 16, 1967, the item after); [[w.macfarquhar-maos-last-revolution]], 194–195 (Zhang Chunqiao, Wang Li and Yao Wenyuan compare notes and report to Jiang Qing at villa No. 11, Diaoyutai; Mao receives the three between ten and midnight in the Beijing Room of the Great Hall); [[w.mao-zedong-zhuan]], VI, ch. 76 n.30 (after the meeting Zhang Chunqiao, Yao Wenyuan and Wang Li go to Jiang Qing, who says to report to the Chairman at once; they report that evening; Wang Li''s account, n.30: Mao smiling until Chen Yi''s remark on the Yan''an rectification, then his face set; when Zhang says the Premier objects that the *Hongqi* editorial no. 13 was not sent to him, Mao: the Party constitution has no such article, editorials of the Party''s papers and journals must be examined by the Standing Committee; the report was short). Made public: 2001. To check: [[w.li-wang-li-fansi-lu]], I, 242; II, 980–981 (cited by [[w.macfarquhar-maos-last-revolution]], 195 n.67); Interview 访问 with Wang Li 王力, Aug. 12, 1983 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.30). See [[cal.1967-02-16.china-leadership]]. Names: Zhou Enlai, Zhang Chunqiao, Yao Wenyuan, Wang Li, Jiang Qing, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 124 (Feb. 16, 1967, the item after); [[w.macfarquhar-maos-last-revolution]], 194–195 (Zhang Chunqiao, Wang Li and Yao Wenyuan compare notes and report to Jiang Qing at villa No. 11, Diaoyutai; Mao receives the three between ten and midnight in the Beijing Room of the Great Hall); [[w.mao-zedong-zhuan]], VI, ch. 76 n.30 (after the meeting Zhang Chunqiao, Yao Wenyuan and Wang Li go to Jiang Qing, who says to report to the Chairman at once; they report that evening; Wang Li''s account, n.30: Mao smiling until Chen Yi''s remark on the Yan''an rectification, then his face set; when Zhang says the Premier objects that the *Hongqi* editorial no. 13 was not sent to him, Mao: the Party constitution has no such article, editorials of the Party''s papers and journals must be examined by the Standing Committee; the report was short). [[w.yang-jisheng-tiandi-fanfu]], I, 390 (Zhang Chunqiao, Wang Li and Yao Wenyuan tell Jiang Qing, and about 10 p.m. the three go to Mao; Mao laughs at the first of it and stops laughing at Chen Yi''s words; Zhang adds Zhou''s complaint that the *Hongqi* issue 13 editorial was not sent him; Mao: the Party constitution does not require editorials to go to the Standing Committee; Zhang to talk with Zhou: the Group to be treated as the Secretariat, great questions to go to it first). Made public: 2001. To check: [[w.li-wang-li-fansi-lu]], I, 242; II, 980–981 (cited by [[w.macfarquhar-maos-last-revolution]], 195 n.67); Interview 访问 with Wang Li 王力, Aug. 12, 1983 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.30). See [[cal.1967-02-16.china-leadership]]. Names: Zhou Enlai, Zhang Chunqiao, Yao Wenyuan, Wang Li, Jiang Qing, Mao Zedong.'
     tags: [name:zhou-enlai, name:zhang-chunqiao, name:yao-wenyuan, name:jiang-qing, name:mao-zedong, polity:prc, vis:only:prc]
     variants:
       - unit: A
@@ -2406,12 +2582,30 @@ entries:
     follows:
       - cal.1967-02-16.china-leadership
     c: Zhou Enlai, ending the Huairen Hall meeting, tells Wang Li to draft at once a record of it for the Politburo and Group members who were not there.
-    n: '[[w.macfarquhar-maos-last-revolution]], 194 n.66 (at seven o''clock, 194). Made public: 2006. See [[cal.1967-02-16.china-leadership]]. Names: Zhou Enlai. Check: the note (194 n.66) names no source for the instruction.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 194 n.66 (at seven o''clock, 194); [[w.yang-jisheng-tiandi-fanfu]], I, 390 (Wang Li, Zhang Chunqiao and Yao Wenyuan write up the meeting, Wang holding the pen; Chen Boda and Zhou revise it, Zhou adding several short interjections, among them his "Come back! Sit down" to Tan Zhenlin and, after Chen Yi on Yan''an, "it was right to criticize me"; Wang Li and Guan Feng have Wang Guangyu 王廣宇 of the Group''s office set it in type with a trusted printer, 15 copies, the type broken up at once; signed "recorded afterward by Zhang Chunqiao, Wang Li, Yao Wenyuan"; that night Wang Li gives Wang Guangyu a list of about ten to receive it, Mao, Lin Biao and Zhou among them, Jiang Qing and Qi Benyu too). Made public: 2006. To check: Wang Guangyu 王廣宇, 〈我是「二月逆流」會議記錄稿的唯一見證人〉, in Yan Changgui 閻長貴 and Wang Guangyu, *Wenshi qiuxin ji* 《問史求信集》 (Hongqi chubanshe 紅旗出版社, 2009), 193 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 390 n.9); the record of the Huairen Hall meeting of Feb. 16 《2月16日懷仁堂記錄》 (cited by [[w.wenqian-wannian-zhou-enlai]], 202, 210) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 390 n.10a). See [[cal.1967-02-16.china-leadership]]. Names: Zhou Enlai. Check: the note (194 n.66) names no source for the instruction.'
     src:
       c: 6bf14c22
       rows:
         - 'w.macfarquhar-maos-last-revolution 194: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 390: ?'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 390 n.9: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1967-02-16.china-leadership-7
+    when: Feb. 16
+    date: '1967-02-16'
+    thread: china-leadership
+    c: 'Jiang Qing 江青, with Wang Li 王力, reports the Huairen Hall meeting to Lin Biao 林彪 that night. Lin listens and says little; of Xu Xiangqian: "he cannot represent the Liberation Army"; "Chen Boda is a scholar."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 391. The words: 16日晚上 (I, 391). Made public: 2001. To check: [[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed.), 下, 240 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 391 n.15). See [[cal.1967-02-16.china-leadership]]. Names: Jiang Qing, Lin Biao, Xu Xiangqian, Chen Boda.'
+    src:
+      c: 2f8b5aaf
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 391: all'
+    tags: [polity:prc, vis:only:prc, name:jiang-qing, name:lin-biao, name:xu-xiangqian, name:chen-boda]
+    time_range:
+      - 1967-02-16T11:00Z
+      - 1967-02-16T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1967-02-17.assassination
     when: Feb. 17
@@ -2597,7 +2791,14 @@ entries:
     date: '1967-02-17'
     thread: china-leadership
     c: 'Tan Zhenlin writes Lin Biao, going on against Jiang Qing and others: "the Premier has been worked over enough; he is broad-minded and can endure; wait and see."'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 125 (Feb. 17, 1967, the item after); [[w.macfarquhar-maos-last-revolution]], 195 (Tan Zhenlin appeals to Lin Biao against the Group). Made public: 1988. To check: [[w.wenhua-dageming-yanjiu-ziliao]], I, 294 (cited by [[w.macfarquhar-maos-last-revolution]], 195 n.70). Names: Zhou Enlai, Tan Zhenlin, Lin Biao, Jiang Qing.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 125 (Feb. 17, 1967, the item after); [[w.macfarquhar-maos-last-revolution]], 195 (Tan Zhenlin appeals to Lin Biao against the Group); [[w.yang-jisheng-tiandi-fanfu]], I, 391 (Tan Zhenlin, his say at Huairen Hall unfinished, writes Lin Biao: the Group likened to Wu Zetian in Jiang Qing, its methods vicious beyond any in the Party; "I have decided to sacrifice myself, but I will not kill myself nor betray the country"; "this rebellion I will make"). Made public: 1988. To check: [[w.wenhua-dageming-yanjiu-ziliao]], I, 294 (cited by [[w.macfarquhar-maos-last-revolution]], 195 n.70); Tan Zhenlin 譚震林, letter to Lin Biao, Feb. 17, 1967, in [[w.wenge-shinian-ziliao-xuanbian]] (cited by [[w.wenqian-wannian-zhou-enlai]], 208) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 391 n.13a). Names: Zhou Enlai, Tan Zhenlin, Lin Biao, Jiang Qing.'
+    src:
+      c: a87aa327
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 125: ?'
+        - 'w.macfarquhar-maos-last-revolution 195: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 391: ?'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 391 n.13a: ?'
     tags: [name:zhou-enlai, name:tan-zhenlin, name:lin-biao, name:jiang-qing, polity:prc, vis:only:prc]
   - id: cal.1967-02-17.china-leadership-3
     when: Feb. 17
@@ -2610,6 +2811,18 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 376: all'
     tags: [polity:prc, ok:fields-place]
+  - id: cal.1967-02-17.china-leadership-4
+    when: Feb. 17
+    date: '1967-02-17'
+    place: peking
+    thread: china-leadership
+    c: 'Ye Jianying 葉劍英 signs the Military Commission''s open letter to the Chengdu Workers'' Rebel Corps 成都工人造反兵團 and the Sichuan University 8.26 Fighting Corps 四川大學8.26戰鬥團, who have sat in at and stormed the Chengdu Military Region for its backing of the conservative "Industrial Army" 產業軍: it rebukes them and warns the Corps'' heads that they bear all the consequences if they turn the masses on the army again. The Region drops 800,000 copies of the "Feb. 17 open letter" across Sichuan from aircraft; martial law over Chengdu 成都.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 402. See [[cal.1967-02.china-leadership-6]]. Names: Ye Jianying.'
+    src:
+      c: 75074d67
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 402: all'
+    tags: [polity:prc, name:ye-jianying]
   - id: cal.1967-02-18.crime-and-hijacking
     when: Feb. 18
     date: '1967-02-18'
@@ -2764,6 +2977,36 @@ entries:
     c: Cà Na hamlet, Long Nguyên commune, Bến Cát. Bến Cát district troops and the Long Nguyên guerrillas turn back a sweep by two battalions. The same day the Uyên Hưng guerrillas destroy a group of 36 pacification workers.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 323. See [[cal.1967-02-04.vietnam-hanoi]]. The figures are the history''s.'
     tags: [polity:drv, polity:rvn]
+  - id: cal.1967-02-18.china-leadership-8
+    when: Feb. 18
+    date: '1967-02-18'
+    place: peking
+    thread: china-leadership
+    c: 'Peking, Zhongnanhai 中南海. That night Mao suddenly calls Ye Qun 葉群 to his quarters: "Ye Qun, I am ready to take you and Lin Biao south"; Chen Yi, Tan Zhenlin, Li Fuchun, Xu Xiangqian, Nie Rongzhen, Ye Jianying and Li Xiannian oppose the Cultural Revolution and no longer follow him; if the army will not follow, he will raise another and go up Jinggangshan 井岡山 again. Ye Qun: Lin Biao will follow the Chairman to death. Mao: Lin Biao''s health is poor; from now she is to attend the Standing Committee and the Group''s liaison meetings for him and report to him.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 392. The words: 前一天晚上 (I, 392). Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008), 658–659 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 392 n.19). Names: Ye Qun, Lin Biao, Chen Yi, Tan Zhenlin, Li Fuchun, Xu Xiangqian, Nie Rongzhen, Ye Jianying, Li Xiannian, Mao Zedong.'
+    src:
+      c: e196b3bb
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 392: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 392 n.19: all'
+    tags: [polity:prc, vis:only:prc, name:ye-qun, name:lin-biao, name:chen-yi, name:tan-zhenlin, name:li-fuchun, name:xu-xiangqian, name:nie-rongzhen, name:ye-jianying, name:li-xiannian, name:mao-zedong]
+    time_range:
+      - 1967-02-18T11:00Z
+      - 1967-02-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1967-02-18.china-leadership-9
+    when: Feb. 18
+    date: '1967-02-18'
+    place: wuhan
+    thread: china-leadership
+    c: 'Wuhan 武漢. The Wuhan Military Region 武漢軍區 issues its "Solemn statement" (the "Feb. 18 Statement"): the Feb. 8 Statement wrong in general direction, the scheme of a handful to split and set the masses fighting; the army will take dictatorial measures against counter-revolutionary bodies and persons.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 470. See [[cal.1967-02-08.china-leadership-3]].'
+    src:
+      c: 6972c4ab
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 470: all'
+    tags: [polity:prc]
   - id: cal.1967-02-19.elections-1968
     when: Feb. 19
     date: '1967-02-19'
@@ -2814,7 +3057,7 @@ entries:
     date: '1967-02-19'
     thread: china-leadership
     c: Morning. Mao presides over a Politburo meeting, Zhou Enlai, Li Fuchun, Ye Jianying, Li Xiannian, Kang Sheng, Xie Fuzhi and Ye Qun (for Lin Biao) present. He severely criticizes the speeches of Tan Zhenlin, Chen Yi and Xu Xiangqian of Feb. 16. The meeting makes Tan, Chen and Xu "ask leave and examine themselves." From Feb. 25 to Mar. 18, at Mao's view, seven "Politburo life meetings" at Huairen Hall criticize them and Li Fuchun, Li Xiannian, Ye Jianying and Nie Rongzhen; Jiang Qing and others call it a "bourgeois restoration countercurrent." The Politburo then stops meeting; the Center Cultural Revolution Group's liaison meetings replace Zhou's Standing Committee liaison meeting.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 19, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 127 (Feb. 19, 1967; Zhou at the Politburo meeting; Zhou also makes self-criticism at the "life meetings" of Feb. 25 to Mar. 18; the Politburo stops meeting and the Cultural Revolution Group in effect takes its place; the liaison meeting Zhou led, with the vice-premiers and others, is replaced by the Cultural Revolution Group''s, which Wu Faxian and others join); [[w.macfarquhar-maos-last-revolution]], 195–196 (Mao calls the meeting "In the early hours of February 19"; it lasts until daybreak; his words for the Group and against Chen Yi; Zhou''s self-criticism; who is to work on Chen Yi, Tan Zhenlin and Xu Xiangqian); [[w.macfarquhar-maos-last-revolution]], 196 (seven criticism meetings, Feb. 25 to Mar. 18, chaired by Zhou Enlai, the Group''s members joining); [[w.mao-zedong-zhuan]], VI, ch. 76 (before dawn on the 19th Mao calls a meeting and in a rage says ''I go at once, Lin Biao too; reorganize the Cultural Revolution Group and let them run it, Chen Yi as head, Tan Zhenlin and Xu Xiangqian deputy heads''; Zhou Enlai urges him not to be so angry and makes a self-criticism; it is decided to hold meetings of criticism, ''life meetings'', of the three, who stop work and examine themselves; from Feb. 25 to Mar. 18 seven Politburo ''life meetings'' criticize Chen Yi, Tan Zhenlin, Xu Xiangqian and also Li Fuchun, Li Xiannian, Ye Jianying and Nie Rongzhen, Jiang Qing and others attacking them fiercely as a ''bourgeois restoration countercurrent'', called after the ''February countercurrent''; then the Politburo stops meeting, the Cultural Revolution Group''s liaison meeting in effect taking its place). Made public: 1988. To check: [[w.nianyi-da-dongluande-niandai]], 216 (cited by [[w.macfarquhar-maos-last-revolution]], 195 n.72a, 196 n.73); [[w.zhou-enlai-nianpu-1949]], III, 129 (cited by [[w.macfarquhar-maos-last-revolution]], 195 n.72b); [[w.li-wang-li-fansi-lu]], II, 983 (cited by [[w.macfarquhar-maos-last-revolution]], 196 n.74); [[w.li-insiders-account-of-the]], 53 (cited by [[w.macfarquhar-maos-last-revolution]], 196 n.75). Names: Mao Zedong, Zhou Enlai, Li Fuchun, Ye Jianying, Li Xiannian, Kang Sheng, Xie Fuzhi, Ye Qun, Lin Biao, Tan Zhenlin, Chen Yi, Xu Xiangqian, Nie Rongzhen, Jiang Qing.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 19, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 127 (Feb. 19, 1967; Zhou at the Politburo meeting; Zhou also makes self-criticism at the "life meetings" of Feb. 25 to Mar. 18; the Politburo stops meeting and the Cultural Revolution Group in effect takes its place; the liaison meeting Zhou led, with the vice-premiers and others, is replaced by the Cultural Revolution Group''s, which Wu Faxian and others join); [[w.macfarquhar-maos-last-revolution]], 195–196 (Mao calls the meeting "In the early hours of February 19"; it lasts until daybreak; his words for the Group and against Chen Yi; Zhou''s self-criticism; who is to work on Chen Yi, Tan Zhenlin and Xu Xiangqian); [[w.macfarquhar-maos-last-revolution]], 196 (seven criticism meetings, Feb. 25 to Mar. 18, chaired by Zhou Enlai, the Group''s members joining); [[w.mao-zedong-zhuan]], VI, ch. 76 (before dawn on the 19th Mao calls a meeting and in a rage says ''I go at once, Lin Biao too; reorganize the Cultural Revolution Group and let them run it, Chen Yi as head, Tan Zhenlin and Xu Xiangqian deputy heads''; Zhou Enlai urges him not to be so angry and makes a self-criticism; it is decided to hold meetings of criticism, ''life meetings'', of the three, who stop work and examine themselves; from Feb. 25 to Mar. 18 seven Politburo ''life meetings'' criticize Chen Yi, Tan Zhenlin, Xu Xiangqian and also Li Fuchun, Li Xiannian, Ye Jianying and Nie Rongzhen, Jiang Qing and others attacking them fiercely as a ''bourgeois restoration countercurrent'', called after the ''February countercurrent''; then the Politburo stops meeting, the Cultural Revolution Group''s liaison meeting in effect taking its place). [[w.yang-jisheng-tiandi-fanfu]], I, 391–392 (before dawn of Feb. 19 Mao calls a meeting: Zhou, Ye Qun for Lin Biao, Kang Sheng, Li Fuchun, Ye Jianying, Li Xiannian, Xie Fuzhi, of the Group only Kang Sheng, who takes notes; Mao in a great rage: "I leave at once, Lin Biao too! Chen Boda, Jiang Qing shot! Kang Sheng banished"; let Chen Yi lead the Group, Tan Zhenlin and Xu Xiangqian his deputies, bring back Wang Ming and Zhang Guotao, invite America and the Soviet Union too; the Politburo to meet on it, if need be for two months; the Group''s errors one, two or three percent, 97 right; Zhou makes self-criticism; "life meetings" decided for Chen Yi, Tan Zhenlin and Xu Xiangqian, the three to "ask leave and examine themselves"; Kang Sheng afterward: never in all his years seen the Chairman so angry). Made public: 1988. To check: [[w.nianyi-da-dongluande-niandai]], 216 (cited by [[w.macfarquhar-maos-last-revolution]], 195 n.72a, 196 n.73); [[w.zhou-enlai-nianpu-1949]], III, 129 (cited by [[w.macfarquhar-maos-last-revolution]], 195 n.72b); [[w.li-wang-li-fansi-lu]], II, 983 (cited by [[w.macfarquhar-maos-last-revolution]], 196 n.74); [[w.li-insiders-account-of-the]], 53 (cited by [[w.macfarquhar-maos-last-revolution]], 196 n.75); [[w.wenqian-wannian-zhou-enlai]], 26th printing (2004), 206 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 392 n.17). Names: Mao Zedong, Zhou Enlai, Li Fuchun, Ye Jianying, Li Xiannian, Kang Sheng, Xie Fuzhi, Ye Qun, Lin Biao, Tan Zhenlin, Chen Yi, Xu Xiangqian, Nie Rongzhen, Jiang Qing.'
     src:
       c: 70c9f9fa
       rows:
@@ -2823,6 +3066,7 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 195–196: ?'
         - 'w.macfarquhar-maos-last-revolution 196: ?'
         - 'w.mao-zedong-zhuan VI, ch. 76: F, G'
+        - 'w.yang-jisheng-tiandi-fanfu I, 391–392: ?'
     tags: [name:mao-zedong, name:zhou-enlai, name:li-fuchun, name:ye-jianying, name:li-xiannian, name:kang-sheng, name:xie-fuzhi, name:ye-qun, name:lin-biao, name:tan-zhenlin, name:chen-yi, name:xu-xiangqian, name:nie-rongzhen, name:jiang-qing, polity:prc, vis:only:prc]
     variants:
       - unit: A
@@ -2833,12 +3077,16 @@ entries:
         witness: w.mao-zedong-zhuan
         reads: the meeting Mao called before dawn on the 19th 凌晨, not in the morning
         at: VI, ch. 76
+      - unit: A
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: Mao's meeting is held before dawn (凌晨) of Feb. 19, not in the morning
+        at: I, 391
   - id: cal.1967-02-19.china-leadership-2
     when: Feb. 19
     date: '1967-02-19'
     thread: china-leadership
     c: 'Mao reads Tan Zhenlin''s letter of Feb. 17 to Lin Biao, which Lin sends on (Tan: Jiang Qing and the others enjoy knocking down old cadres, the Group will not do as successors; he is resolved to rebel and ready to die, but will not kill himself nor betray the country). Lin''s note: Tan''s thought has sunk to this, past all hope. Mao: "Seen. To Zhou; return to Lin."'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 19, 1967. [[w.macfarquhar-maos-last-revolution]], 195 (Lin Biao sends Tan Zhenlin''s letter on to Mao, remarking that Tan''s thinking has sunk to a new low); [[w.mao-zedong-zhuan]], VI, ch. 76 n.31 (Tan Zhenlin''s letter to Lin Biao of Feb. 17, n.31: Jiang Qing and the others are interested in beating the old cadres, seize on one fault and beat to death; whether they can govern or succeed I doubt; ''I have resolved, prepared to sacrifice; I will not kill myself nor betray the country, but will not let them go on so recklessly; I am set to rebel''; Lin Biao sends it to Mao with a letter that Tan''s thinking has sunk ''to such a state'', wholly unexpected; Mao marks it ''read''). Made public: 1988. To check: [[w.wenhua-dageming-yanjiu-ziliao]], I, 294 (cited by [[w.macfarquhar-maos-last-revolution]], 195 n.70); Tan Zhenlin 谭震林, letter to Lin Biao 林彪 (original 原件), Feb. 17, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.31). Names: Mao Zedong, Tan Zhenlin, Lin Biao, Jiang Qing, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 19, 1967. [[w.macfarquhar-maos-last-revolution]], 195 (Lin Biao sends Tan Zhenlin''s letter on to Mao, remarking that Tan''s thinking has sunk to a new low); [[w.mao-zedong-zhuan]], VI, ch. 76 n.31 (Tan Zhenlin''s letter to Lin Biao of Feb. 17, n.31: Jiang Qing and the others are interested in beating the old cadres, seize on one fault and beat to death; whether they can govern or succeed I doubt; ''I have resolved, prepared to sacrifice; I will not kill myself nor betray the country, but will not let them go on so recklessly; I am set to rebel''; Lin Biao sends it to Mao with a letter that Tan''s thinking has sunk ''to such a state'', wholly unexpected; Mao marks it ''read''). [[w.yang-jisheng-tiandi-fanfu]], I, 391 (Lin Biao sends Tan Zhenlin''s letter to Mao with a note: Tan''s thought has sunk to such muddle and degeneracy, wholly unforeseen; Mao writes "read"). Made public: 1988. To check: [[w.wenhua-dageming-yanjiu-ziliao]], I, 294 (cited by [[w.macfarquhar-maos-last-revolution]], 195 n.70); Tan Zhenlin 谭震林, letter to Lin Biao 林彪 (original 原件), Feb. 17, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.31). Names: Mao Zedong, Tan Zhenlin, Lin Biao, Jiang Qing, Zhou Enlai.'
     src:
       c: 2bc5f6a3
       rows:
@@ -2846,6 +3094,7 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 195: ?'
         - 'w.mao-zedong-zhuan VI, ch. 76 n.31: A, B'
         - 'via w.mao-zedong-zhuan VI, ch.76 n.31: A, B'
+        - 'w.yang-jisheng-tiandi-fanfu I, 391: ?'
     tags: [name:mao-zedong, name:tan-zhenlin, name:lin-biao, name:jiang-qing, name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-02-19.china-leadership-3
     when: Feb. 19
@@ -2952,6 +3201,47 @@ entries:
         - 'via w.yang-jisheng-tiandi-fanfu I, 365 n.74: all'
     tags: [polity:prc, vis:only:prc, name:zhou-enlai, ok:fields-place]
     time_zone: Asia/Shanghai
+  - id: cal.1967-02-19.china-leadership-10
+    when: Feb. 19
+    date: '1967-02-19'
+    thread: china-leadership
+    c: Chen Yi 陳毅, learning Mao's view, goes to Zhou Enlai 周恩來 that night and writes Mao asking to see him and explain; Mao replies that Chen "has always made mistakes" and that "change is hard too," and will not see him for now.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 392. The words: 連夜 (I, 392). Made public: 2003. To check: Ma Jisen 馬繼森, *Waijiaobu wenge jishi* 《外交部文革紀實》 (Chinese University Press, Hong Kong, 2003), 98 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 392 n.18). Names: Chen Yi, Zhou Enlai, Mao Zedong. Check: the day of Mao''s reply (not given).'
+    src:
+      c: 2fd40faf
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 392: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 392 n.18: all'
+    tags: [polity:prc, vis:only:prc, name:chen-yi, name:zhou-enlai, name:mao-zedong]
+    time_range:
+      - 1967-02-19T14:00Z
+      - 1967-02-19T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1967-02-19.china-leadership-11
+    when: Feb. 19
+    date: '1967-02-19'
+    place: xining
+    thread: china-leadership
+    c: Xining 西寧. "8.18" and other bodies march against the military control of the *Qinghai ribao* 青海日報; blocked by the other side as they pass the paper, an "8.18" vehicle runs over and kills Zhang Guilan 張桂蘭 of the Defense Corps 捍衛隊.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 397.'
+    src:
+      c: 781ad480
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 397: all'
+    tags: [polity:prc]
+  - id: cal.1967-02-19.china-leadership-12
+    when: Feb. 19
+    date: '1967-02-19'
+    place: xining
+    thread: china-leadership
+    c: Xining 西寧. Zhao Yongfu 趙永夫 and Zhang Xiaochuan 張曉川 chair a meeting that proposes to declare "8.18" a counter-revolutionary organization.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 397. Made public: 2016. See [[cal.1967-02-19.china-leadership-11]].'
+    src:
+      c: cc468b8f
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 397: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1967-02-20.students
     when: Feb. 20
     date: '1967-02-20'
@@ -3235,6 +3525,18 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 201: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1967-02-21.china-leadership-4
+    when: Feb. 21
+    date: '1967-02-21'
+    place: xining
+    thread: china-leadership
+    c: Xining 西寧. Zhao Yongfu 趙永夫 chairs another meeting, which fixes the 23rd to ban "8.18" and take the *Qinghai ribao* 青海日報 by arms.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 398. Made public: 2016.'
+    src:
+      c: c4fc5d5a
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 398: all'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1967-02-22.vietnam
     when: Feb. 22
     date: '1967-02-22'
@@ -3360,6 +3662,31 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 441–443: A'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 441 n.1d: A'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc]
+  - id: cal.1967-02-22.china-leadership-3
+    when: Feb. 22
+    date: '1967-02-22'
+    place: wanxian
+    thread: china-leadership
+    c: 'Wanxian 萬縣, Sichuan. The loudspeaker teams of the Wanxian Military Subdistrict 萬縣軍分區 declare the "Main Force Army" 主力軍 counter-revolutionary and the "Red Flag" 赤旗 its accomplice, and martial law in some quarters. Students, then cadres and townspeople, march in protest. Soldiers burst into the Main Force Army''s quarters at the Zhenyuan Tang 真元堂, a former church, and fire, killing 5; as more try to reach the bodies an officer orders fire again: 18 more killed, and one more in the street, 24 dead. The rebels carry 18 bodies through the city: the "Feb. 22" suppression.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 403–404. To check: Liu Guoping 劉國平, 〈萬州的「二月鎮反」和「六三事件」〉, *Yanhuang chunqiu* 《炎黃春秋》, 2013, no. 1 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 404 n.40a); *Wanxian zhi* 《萬縣志》, chronicle (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 404 n.40b). Check: the dead: 24 (Liu Guoping); 33 (*Wanxian zhi*, I, 404 n.40b).'
+    src:
+      c: b4ec5614
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 403–404: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 404 n.40a: all'
+    tags: [polity:prc]
+  - id: cal.1967-02-22.china-leadership-4
+    when: Feb. 22
+    date: '1967-02-22'
+    place: wuhan
+    thread: china-leadership
+    c: Wuhan 武漢. The *Changjiang ribao* 長江日報 prints the long article "Bourgeois restoration and proletarian counter-restoration" 〈資產階級復辟與無產階級反復辟〉 signed by Zhu Hongxia 朱鴻霞, Hu Houmin 胡厚民 and Yang Daoyuan 楊道遠, against the Feb. 18 Statement; the Workers' Headquarters and the Second Headquarters march 100,000 in protest.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 470.'
+    src:
+      c: f26135ec
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 470: all'
+    tags: [polity:prc]
   - id: cal.1967-02-23.congress-powell
     when: Feb. 23
     date: '1967-02-23'
@@ -3551,17 +3878,21 @@ entries:
   - id: cal.1967-02-23.china-leadership-4
     when: Feb. 23
     date: '1967-02-23'
+    time: 1967-02-23T06:00Z
     place: xining
     thread: china-leadership
     also: [china]
     c: At Xining soldiers fire on the "August 18" rebels in and around the premises of the Qinghai Daily, which the PLA had been sent to put under military control. By an official estimate the masses suffer 169 dead and 178 wounded, the armed forces 4 dead and 26 wounded.
-    n: '[[w.macfarquhar-maos-last-revolution]], 179–180. To check: [[w.chunming-wenge-shiqi-guaishi-guaiyu]], 273 (cited by [[w.macfarquhar-maos-last-revolution]], 179 n.59); [[w.nianyi-da-dongluande-niandai]], 204 (cited by [[w.macfarquhar-maos-last-revolution]], 179 n.61); [[w.zhongguo-gongchandang-qinghai-sheng]], 124 (cited by [[w.macfarquhar-maos-last-revolution]], 180 n.62). Check: two accounts of how the shooting began. A PLA historian (1988): the occupants beat and looted and shot at the soldiers, who counterattacked. The Qinghai party history (1995): soldiers were thrown over the wall, a weapon went off by accident, the shots were taken for the rebels'', and no order to shoot was given (179–180).'
+    n: '[[w.macfarquhar-maos-last-revolution]], 179–180; [[w.yang-jisheng-tiandi-fanfu]], I, 398–399 (at 8 a.m. martial law over Xining; the garrison command orders "8.18" banned and its leaders arrested; thirteen companies of the District''s independent division and regiment surround the paper and cut its communications and the roads to Lanzhou and the Hexi corridor; Zhao Yongfu commands from a nearby hotel, machine guns on the heights; at 11:10 a.m. the troops shoot up the 8.18 loudspeakers; at 2 p.m. flares from the hotel and the bridge behind the paper, and in some ten minutes hundreds fall: 347 masses dead and wounded, 169 dead, 178 wounded; a woman of the paper''s staff, warned the night before by an acquaintance in the District''s political department, hears the firing begin about 10 a.m.). Check: the hour: Yang (I, 398) has the flares and the firing at 2 p.m. (下午2時), the eyewitness he quotes (I, 399) the firing about 10 a.m. (上午10點鐘光景). To check: [[w.chunming-wenge-shiqi-guaishi-guaiyu]], 273 (cited by [[w.macfarquhar-maos-last-revolution]], 179 n.59); [[w.nianyi-da-dongluande-niandai]], 204 (cited by [[w.macfarquhar-maos-last-revolution]], 179 n.61); [[w.zhongguo-gongchandang-qinghai-sheng]], 124 (cited by [[w.macfarquhar-maos-last-revolution]], 180 n.62); Yu Ruxin 余汝信, 〈「趙永夫事件」淺析——冼恒漢回憶錄補正〉 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 399 n.28). Check: two accounts of how the shooting began. A PLA historian (1988): the occupants beat and looted and shot at the soldiers, who counterattacked. The Qinghai party history (1995): soldiers were thrown over the wall, a weapon went off by accident, the shots were taken for the rebels'', and no order to shoot was given (179–180).'
     src:
       c: 1ced6653
       rows:
         - 'w.macfarquhar-maos-last-revolution 179: all'
         - 'w.macfarquhar-maos-last-revolution 180: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 398–399: ?'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 399 n.28: ?'
     tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1967-02-23.vietnam-hanoi
     when: Feb. 23–24
     date: '1967-02-23'
@@ -3571,6 +3902,51 @@ entries:
     c: Route 20, Di Linh, Lâm Đồng. Battalion 186 with Di Linh district troops attacks the strategic hamlet at kilometer 5 and destroys a Civil Guard platoon; Feb. 24 an ambush destroys a security company sent to relieve it. The two blows set the people of the hamlet to rise; the battalion then goes on, with Battalion 145, against Saigon's defenses west and northwest of Bảo Lộc and the commandos at Tân Rai.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 316–17. Check: the day of the attack on Bảo Lộc; the history gives none. The figures are the history''s.'
     tags: [polity:drv, polity:rvn]
+  - id: cal.1967-02-23.china-leadership-5
+    when: Feb. 23
+    date: '1967-02-23'
+    time: 1967-02-23T06:00Z
+    place:
+      - peking
+      - lanzhou
+    thread: china-leadership
+    c: 'At 2 p.m. the General Staff''s Operations Department 總參作戰部 telephones the Lanzhou Military Region 蘭州軍區: what has happened at Xining, and why can no call get through? Wang Wenying 王文英, deputy political commissar, after speaking with Zhao Yongfu 趙永夫, answers: an armed riot of "8.18," which fired first on cadres and soldiers; the troops returned fire in self-defense; the riot is put down.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 399. The words: 當天下午二時 (I, 399). Made public: 2016. To check: Xian Henghan 冼恒漢, *Fengyu bashi zai* 《風雨八十載》 (electronic ed.) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 399 n.29). See [[cal.1967-02-23.china-leadership-4]].'
+    src:
+      c: 35a24fd2
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 399: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 399 n.29: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1967-02-23.china-leadership-6
+    when: Feb. 23
+    date: '1967-02-23'
+    thread: china-leadership
+    c: The "Decision on the PLA resolutely supporting the revolutionary left" 〈關於人民解放軍堅決支持革命左派的決定〉 is issued, one of the 17 documents of the Military Commission's enlarged meeting.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 424. Made public: 2016.'
+    src:
+      c: 6df6add8
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 424: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1967-02-23.china-leadership-7
+    when: Feb. 23
+    date: '1967-02-23'
+    place: wuhan
+    thread: china-leadership
+    c: 'Wuhan 武漢. In the afternoon the Wuhan army units parade over 70 trucks with over 3,000 armed soldiers: "the Feb. 8 Statement is a great poisonous weed"; aircraft drop leaflets of the Feb. 18 Statement.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 470. The words: 2月23日下午 (I, 470).'
+    src:
+      c: 98358a50
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 470: all'
+    tags: [polity:prc]
+    time_range:
+      - 1967-02-23T04:00Z
+      - 1967-02-23T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1967-02-24.vietnam-congress
     when: Feb. 24
     date: '1967-02-24'
@@ -3686,6 +4062,19 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 360: all'
     tags: [polity:prc, name:mao-zedong]
+  - id: cal.1967-02-24.china-leadership-3
+    when: Feb. 24
+    date: '1967-02-24'
+    place: xining
+    thread: china-leadership
+    c: 'Xining 西寧. The Qinghai Military District puts down the students of the Nationalities Institute 民族學院: 12 dead or wounded, by Liu Xianquan 劉賢權.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 399–400. To check: Liu Xianquan 劉賢權, speech of the afternoon of Apr. 10, 1967, in Song Yongyi 宋永毅, ed., *Zhongguo wenhua dageming wenku* 《中國文化大革命文庫》 (2006, 2nd ed.), the leaders'' speeches (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 400 n.31).'
+    src:
+      c: 7891eb25
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 399–400: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 400 n.31: all'
+    tags: [polity:prc]
   - id: cal.1967-02-25.war-opposition
     when: Feb. 25
     date: '1967-02-25'
@@ -3880,13 +4269,15 @@ entries:
   - id: cal.1967-02-25.china-leadership-5
     when: Feb. 25–Mar. 18
     date: '1967-02-25'
+    place: peking
     thread: china-leadership
     c: On Mao's view seven Politburo "life meetings" are held, at which Chen Yi, Tan Zhenlin and Xu Xiangqian, and Li Fuchun, Li Xiannian, Ye Jianying and Nie Rongzhen, are criticized. Jiang Qing and others attack them as a "bourgeois restoration current," later called the "February counter-current." The Politburo then stops meeting, the Cultural Revolution Group's liaison meeting taking its place.
-    n: '[[w.mao-zedong-zhuan]], VI, ch. 76 (the book dates the seven meetings from Feb. 25 to Mar. 18; no day of any one is given; in late April Mao agrees to let several of the marshals, with Zhu De and Chen Yun, stand on Tiananmen for the May Day parade, which eased their position). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 76). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. Names: Chen Yi, Tan Zhenlin, Xu Xiangqian, Li Fuchun, Li Xiannian, Ye Jianying, Nie Rongzhen, Jiang Qing, Mao Zedong. Check: the days of the seven meetings, the book giving only the span.'
+    n: '[[w.mao-zedong-zhuan]], VI, ch. 76 (the book dates the seven meetings from Feb. 25 to Mar. 18; no day of any one is given; in late April Mao agrees to let several of the marshals, with Zhu De and Chen Yun, stand on Tiananmen for the May Day parade, which eased their position). [[w.yang-jisheng-tiandi-fanfu]], I, 392–393 (Zhou presides; seven "Politburo life meetings" at Huairen Hall 懷仁堂 from Feb. 25 to Mar. 18; Chen Yi by day at his foreign affairs, by night criticized; Kang Sheng: "the proletariat''s anger," "the gravest anti-Party incident since the Eleventh Plenum," "a rehearsal for a coup"; Jiang Qing: a "bourgeois restoration current"; the veterans examine themselves one by one; the Standing Committee''s liaison meeting that Zhou held for the daily work stops, the Group''s liaison meeting takes its place, Zhou presiding; Zhou to Jiang Qing and Zhang Chunqiao: "from now you decide, I do the work for you"). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 76). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage; [[w.wenqian-wannian-zhou-enlai]], 26th printing (2004), 209–213 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 393 n.20a); [[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed.), 下, 241 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 393 n.20b). Names: Chen Yi, Tan Zhenlin, Xu Xiangqian, Li Fuchun, Li Xiannian, Ye Jianying, Nie Rongzhen, Jiang Qing, Mao Zedong. Check: the days of the seven meetings, the book giving only the span.'
     src:
       c: 8a8d6eb2
       rows:
         - 'w.mao-zedong-zhuan VI, ch. 76: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 392–393: ?'
     tags: [polity:prc, name:chen-yi, name:tan-zhenlin, name:xu-xiangqian, name:li-fuchun, name:li-xiannian, name:ye-jianying, name:nie-rongzhen, name:jiang-qing, name:mao-zedong, vis:only:prc]
   - id: cal.1967-02-25.vietnam-hanoi
     when: Feb. 25
@@ -3976,6 +4367,32 @@ entries:
     c: Trảng A Lâu and Tà Xia. A battalion of Regiment 1, 9th Division, raids Trảng A Lâu and by the history's count kills 150 Americans; another part, with the guerrillas of the Central Office, destroys an American company at Tà Xia.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 268. See [[cal.1967-02-22.vietnam]]. The figures are the history''s.'
     tags: [polity:drv, polity:us]
+  - id: cal.1967-02-26.china-leadership
+    when: Feb. 26
+    date: '1967-02-26'
+    place: guiyang
+    thread: china-leadership
+    c: Guiyang Medical College 貴陽醫學院. Li Zaihan 李再含 sends over 2,000, three companies of armed troops among them, to make a counter-seizure against "Red Guards · Red Flag," which held the college.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 484. Figures (I, 484), by an incomplete count, February and March: 218 bodies of 520,000 people declared reactionary in Guizhou and over 2,000 jailed.'
+    src:
+      c: 0d749ffa
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 484: all'
+    tags: [polity:prc]
+  - id: cal.1967-02-26.china-leadership-2
+    when: Feb. 26
+    date: '1967-02-26'
+    place: guiyang
+    thread: china-leadership
+    follows:
+      - cal.1967-02-26.china-leadership
+    c: Guiyang Medical College 貴陽醫學院. "Red Guards · Red Flag," put out by the counter-seizure, founds the same day the "Feb. 26 Corps" 2·26兵團, against the revolutionary committee.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 484. See [[cal.1967-02-26.china-leadership]].'
+    src:
+      c: 8aaf9c35
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 484: all'
+    tags: [polity:prc]
   - id: cal.1967-02-27.defense
     when: Feb. 27–28
     date: '1967-02-27'
@@ -5008,12 +5425,20 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Immediately after the shooting at the Qinghai Daily the Military Commission congratulates the units involved: "You did the right thing, you fought well!"'
-    n: '[[w.macfarquhar-maos-last-revolution]], 180. Made public: 1988. To check: [[w.nianyi-da-dongluande-niandai]], 204 (cited by [[w.macfarquhar-maos-last-revolution]], 180 n.64b). See [[cal.1967-02-23.china-leadership-4]]. Check: the day.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 180; [[w.yang-jisheng-tiandi-fanfu]], I, 399 (about 8 p.m. a leader of the Military Commission rings Zhao Yongfu: "well fought, a very handsome battle," "the Military Commission backs you"; wipe out the counter-revolutionaries left; Zhao tells others it was Vice-Chairman Lin; it was Ye Jianying, as the *Ye Jianying nianpu*''s entry of Feb. 23, 1967 bears out). Made public: 1988. To check: [[w.nianyi-da-dongluande-niandai]], 204 (cited by [[w.macfarquhar-maos-last-revolution]], 180 n.64b); Xian Henghan 冼恒漢, *Fengyu bashi zai* 《風雨八十載》 (electronic ed.) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 399 n.29); *Ye Jianying nianpu* 《葉劍英年譜》, Feb. 23, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 399 n.t1). See [[cal.1967-02-23.china-leadership-4]]. Check: the day.'
     src:
       c: 2deb1aa3
       rows:
         - 'w.macfarquhar-maos-last-revolution 180: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 399: ?'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 399 n.29: ?'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 399 n.t1: ?'
     tags: [polity:prc, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: the praise is Ye Jianying's, by telephone to Zhao Yongfu about 8 p.m. of Feb. 23 itself, the evening of the shooting; Zhao gave out that Lin Biao had called
+        at: I, 399
   - id: cal.1967-02.china-leadership-9
     when: Feb.
     date: 1967-02
@@ -5248,3 +5673,159 @@ entries:
     c: Southeast of Giếng Thí. Battalion 7 of Regiment 16 ambushes an American battalion, shoots down three helicopters and destroys a company.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 268. See [[cal.1967-02-22.vietnam]]. Check: whether this is the fight of [[cal.1967-02-28.vietnam-operations]]. The figures are the history''s.'
     tags: [polity:drv, polity:us]
+  - id: cal.1967-02.china-leadership-26
+    when: Feb.–Mar., during the life meetings
+    date: 1967-02
+    at: after 1967-02-25
+    place: peking
+    thread: china-leadership
+    c: 'Qi Benyu 戚本禹 and others of the Cultural Revolution Group tell Peking''s student rebel leaders, Tan Houlan 譚厚蘭, Nie Yuanzi 聶元梓, Kuai Dafu 蒯大富 and others, of the struggle at the top: "from the Center to the localities there is a current of capitalist restoration."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 392. Made public: 2016.'
+    src:
+      c: e2a271c0
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 392: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1967-02.china-leadership-27
+    when: Feb., early
+    date: 1967-02
+    at: before 1967-02-01
+    thread: china-leadership
+    c: 'Mao''s instruction on the army stormed: no right-wing mass organization may storm the army, but it is to be handled with care, persuasion first; if they take the first floor, the troops fall back to the second; the second, to the third; if they try for the third, the troops may fire in self-defense, only on the right-wing leaders. Lin Biao 林彪 has his secretary Zhang Yunsheng 張云生 take it to Ye Jianying 葉劍英, secretary-general of the Military Commission, who relays it at once to the Commission''s enlarged meeting: the Chairman takes great care for the army''s stability.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 394. Made public: 1988. To check: [[w.yunsheng-maojiawan-jishi]], 86–89 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 394 n.23). Names: Lin Biao, Ye Jianying, Mao Zedong.'
+    src:
+      c: 9b95166f
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 394: all'
+    tags: [polity:prc, vis:only:prc, name:lin-biao, name:ye-jianying, name:mao-zedong]
+  - id: cal.1967-02.china-leadership-28
+    when: Feb., after the 14th
+    date: 1967-02
+    at: after 1967-02-14
+    thread: china-leadership
+    c: 'While the two sides face each other at the *Qinghai ribao* 青海日報, the Qinghai Military District telegraphs the Military Commission that "8.18" beats people in the paper, some to death, holds guns and ammunition and shouts counter-revolutionary slogans: about ten telegrams. Lin Biao 林彪, by his secretary Zhang Yunsheng 張云生, shows nothing and says nothing.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 397–398. Made public: 1988. To check: [[w.yunsheng-maojiawan-jishi]], 91 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 398 n.27). Names: Lin Biao.'
+    src:
+      c: fbad46e5
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 397–398: all'
+    tags: [polity:prc, vis:only:prc, name:lin-biao]
+  - id: cal.1967-02.china-leadership-29
+    when: Feb., after the 23rd
+    date: 1967-02
+    at: after 1967-02-23
+    place: xining
+    thread: china-leadership
+    c: Xining 西寧. Zhao Yongfu 趙永夫 arranges the scene of the shooting and holds a "corpse exhibition" for the masses, the "monstrous crime of 8.18 backed by the capitalist-roader Liu Xianquan"; Liu Xianquan 劉賢權, Zhang Jianglin 張江霖 and their families are brought under guard to view it and confess.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 399. To check: Xian Henghan 冼恒漢, *Fengyu bashi zai* 《風雨八十載》 (electronic ed.) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 399 n.30).'
+    src:
+      c: 0961bfe8
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 399: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 399 n.30: all'
+    tags: [polity:prc]
+  - id: cal.1967-02.china-leadership-30
+    when: Feb., after the 17th
+    date: 1967-02
+    at: after 1967-02-17
+    place: chengdu
+    thread: china-leadership
+    c: Chengdu 成都. Truckloads of soldiers with live ammunition go to the rebels' units; with the "Industrial Army" 產業軍, the Chengdu Military Region and the local police, procuracy and courts arrest great numbers of the Chengdu Workers' Rebel Corps' heads and activists; the Corps is declared reactionary and by mid-March has fallen apart; many leaders and core members of the Sichuan University 8.26 Fighting Corps are seized. By Fan Shuo's 范碩 count (I, 403 n.36), in Sichuan over 1,100 rebel bodies are banned and over 80,000 heads and core members arrested, over 33,000 in the Chengdu area; by Xu Youyu 徐友漁 (n.37), Chengdu's prisons overflow, and temples are made prisons.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 402–403. To check: Fan Shuo 范碩, 〈三支兩軍的起緣與「七二零」事件的暴發〉, *Zhonghua ernü* 《中華兒女》, 2001, no. 2 (cited by Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 459–460) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 403 n.36); Wang Liaoli 王料力 and Yuan Xunhui 袁訓會, interview with Xu Youyu 徐友漁, Sept. 24, 2012 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 403 n.37). See [[cal.1967-02-17.china-leadership-4]].'
+    src:
+      c: 9501e949
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 402–403: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 403 n.36a: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 403 n.37: all'
+    tags: [polity:prc]
+  - id: cal.1967-02.china-leadership-31
+    when: Feb., early
+    date: 1967-02
+    at: before 1967-02-01
+    thread: china-leadership
+    c: The Hunan Military District 湖南省軍區 reports to the All-Army Cultural Revolution Group 全軍文革小組 that the Changsha 長沙 body "Xiangjiang Fenglei" 湘江風雷, a rebel body against the District, is a conservative body that beats, smashes, loots and burns; the All-Army Group passes it to the Cultural Revolution Group, whose office puts it into its daily "Report of important matters" 〈要事匯報〉.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 406. Made public: 2009. To check: Wang Guangyu 王廣宇, 〈我所知道的陳伯達〉, in Yan Changgui 閻長貴 and Wang Guangyu, *Wenshi qiuxin ji* 《問史求信集》 (Hongqi chubanshe 紅旗出版社, 2009), 354 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 406 n.46).'
+    src:
+      c: 4f554131
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 406: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 406 n.46: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1967-02.china-leadership-35
+    when: Feb., after the 4th
+    date: 1967-02
+    at: after 1967-02-04
+    place: hunan
+    thread: china-leadership
+    c: 'Hunan 湖南. The Hunan Military District, on Chen Boda''s instruction, at once bans "Xiangjiang Fenglei" 湘江風雷: some tens of thousands of its heads, great and small, are held or seized, the conservatives leading the way, the District''s auditorium a jail. By one count over 100,000 are seized in Hunan in the suppression.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 406. See [[cal.1967-02-04.china-leadership-4]]. Names: Chen Boda.'
+    src:
+      c: 785f8201
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 406: all'
+    tags: [polity:prc, name:chen-boda]
+  - id: cal.1967-02.china-leadership-32
+    when: Feb.
+    date: 1967-02
+    thread: china-leadership
+    c: The 38th Army 38軍 is moved from Jilin 吉林 to Hebei 河北.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 433. Made public: 2016.'
+    src:
+      c: 55f6b830
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 433: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1967-02.china-leadership-36
+    when: Feb., after the 22nd
+    date: 1967-02
+    at: after 1967-02-22
+    place: wuhan
+    thread: china-leadership
+    c: Wuhan 武漢. The Workers' Headquarters 工人總部, the Second Headquarters 二司 and others march 100,000 against the Feb. 18 Statement.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 470. See [[cal.1967-02-22.china-leadership-4]].'
+    src:
+      c: 1181c8fc
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 470: all'
+    tags: [polity:prc]
+  - id: cal.1967-02.china-leadership-33
+    when: Feb., mid-
+    date: 1967-02
+    at: before 1967-02-10
+    place: chongqing
+    thread: china-leadership
+    c: Chongqing 重慶. The garrison and the Gelianhui declare the "Smash faction" bodies counter-revolutionary, rightist and illegal, order them dissolved, raid and besiege them; many are arrested, bound, beaten, made to kneel and paraded; Huang Lian 黃廉 of the Workers' Rebel Army is jailed.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 492. Figures (I, 492 n.41): by the public security bureau''s later count, 2,253 seized in the "February suppression" and 24 bodies banned. To check: He Shu 何蜀, *Wei Mao zhuxi er zhan: wenge Chongqing da wudou shilu* 《為毛主席而戰：文革重慶大武鬥實錄》 (Joint Publishing, Hong Kong, 2010), and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39); *Gongan fandaodi* 《公安反到底》, no. 7 (Feb. 26, 1968), quoted in He Shu 何蜀, 〈文革時期重慶群眾組織發展演變概述〉 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 492 n.41).'
+    src:
+      c: 16a710f8
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 492: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 492 n.41: all'
+    tags: [polity:prc]
+  - id: cal.1967-02.china-leadership-37
+    when: Feb., mid-
+    date: 1967-02
+    at: before 1967-02-10
+    place: chongqing
+    thread: china-leadership
+    c: Chongqing 重慶. Luo Guangbin 羅廣斌, an author of the novel *Hongyan* 紅巖, against the Gelianhui, is driven to suicide.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 492. See [[cal.1967-02.china-leadership-33]]. Check: the day (Yang dates it only within the February suppression).'
+    src:
+      c: 46cbbf41
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 492: all'
+    tags: [polity:prc]
+  - id: cal.1967-02.china-leadership-34
+    when: Feb., late
+    date: 1967-02
+    at: before 1967-02-19
+    place: chongqing
+    thread: china-leadership
+    c: Beibei 北碚, Chongqing. Over twenty truckloads of Chongqing University's "Aug. 15" smash the headquarters of the Southwest Normal College's "Aug. 31" column, the core of the anti-Gelianhui bodies.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 492–493. To check: He Shu 何蜀, *Wei Mao zhuxi er zhan: wenge Chongqing da wudou shilu* 《為毛主席而戰：文革重慶大武鬥實錄》 (Joint Publishing, Hong Kong, 2010), and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39). Check: the day: Yang has it "in this period," after mid-February.'
+    src:
+      c: 7677c8ab
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 492–493: all'
+    tags: [polity:prc]

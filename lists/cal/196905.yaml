@@ -10,13 +10,14 @@ entries:
     place: peking
     thread: china-leadership
     c: Mao at the Tiananmen rostrum, 8 p.m., for the fireworks with other leaders, Congress delegates and some foreign envoys. He tells the envoys China will improve and extend relations with all states; ambassadors begin to be sent out again to restore the missions' work.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 1, 1969; [[w.zhou-enlai-nianpu-1949-2020]], III, 289 (May 1, 1969; Zhou at the fireworks); [[w.zhonghua-renmin-gongheguo-waijiao]], 213 (May 1, 1969; Mao on the rostrum with some foreign envoys). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 1, 1969; [[w.zhou-enlai-nianpu-1949-2020]], III, 289 (May 1, 1969; Zhou at the fireworks); [[w.zhonghua-renmin-gongheguo-waijiao]], 213 (May 1, 1969; Mao on the rostrum with some foreign envoys); [[w.yang-jisheng-tiandi-fanfu]], I, 464 (on the Tiananmen rostrum Mao asks Yang Dezhi to "achieve unity"). Names: Mao Zedong.'
     src:
       c: aeaaee7c
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, May 1, 1969: all'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 289: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 213: A'
+        - 'w.yang-jisheng-tiandi-fanfu I, 464: ?'
     tags: [polity:prc, name:mao-zedong]
   - id: cal.1969-05-01.china-leadership-2
     when: May 1
@@ -27,6 +28,18 @@ entries:
     c: Zhou Enlai, on the Tiananmen rostrum at the May Day fireworks, talks with the leaders of Shandong, Jiangsu, Shanghai, Hubei, Sichuan, Guizhou, Yunnan, the northwest's Third Front area and North China, and with those concerned on reform of the textile and machinery industries' systems.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 289 (May 1, 1969). Made public: 2020. See [[cal.1969-05-01.china-leadership]]. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-05-02.china-leadership
+    when: May 2
+    date: '1969-05-02'
+    thread: china-leadership
+    c: The Center orders Hu Houmin 胡厚民 and 21 others, the mass bodies' representatives of standing-member rank and above on the Hubei and Wuhan revolutionary committees, to Peking.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 475–476. Made public: 2016. To check: Wu Yanjin 吳焱金, *Sishisan nian wangzhong youji* 《四十三年望中猶記》, ed. Zhong Yi 鍾逸 (electronic ed.) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 476 n.30). Names: Zhou Enlai, Kang Sheng.'
+    src:
+      c: 86ea4f82
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 475–476: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 476 n.30: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:kang-sheng, ok:fields-place]
   - id: cal.1969-05-03.china-leadership
     when: May 3
     date: '1969-05-03'
@@ -742,7 +755,14 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: Zhou Enlai that evening receives some standing members of the Hubei Province and Wuhan revolutionary committees and Ninth Congress delegates in Peking and asks them to discuss the Center's document seriously and carry it out firmly.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 294 (May 27, 1969). Made public: 2020. See [[cal.1969-05-27.china-leadership]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 294 (May 27, 1969); [[w.yang-jisheng-tiandi-fanfu]], I, 465 (Zhou at his fourth reception of the Wuhan rebel leaders: after the Ninth Congress, "some places still want to make trouble, still to seize power; whose power would you seize? Is it not the proletariat''s?"); [[w.yang-jisheng-tiandi-fanfu]], I, 476 (that evening, the Central leaders'' fourth reception of the Wuhan rebel leaders, Zhou relays Zhongfa [69] 28 中發［69］28號, the Center''s approval of the Hubei Revolutionary Committee''s report on settling the anti-restoration: the movement aimed at the revolutionary committees, the army and the revolutionary cadres, setting the workers'' congress above all, against Mao''s teaching). Made public: 2020. To check: Zhou Enlai 周恩來, talk at his fourth reception of the Wuhan rebel leaders, May 27, 1969 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 465 n.11); Wu Yanjin 吳焱金, *Sishisan nian wangzhong youji* 《四十三年望中猶記》, ed. Zhong Yi 鍾逸 (electronic ed.) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 476 n.30). See [[cal.1969-05-27.china-leadership]]. Names: Zhou Enlai.'
+    src:
+      c: 1809704d
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 294: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 465: ?'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 465 n.11: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 476: ?'
     tags: [polity:prc, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:mao-zedong, name:lin-biao, vis:only:prc]
   - id: cal.1969-05-27.china-leadership-3
     when: May 27
@@ -771,6 +791,19 @@ entries:
       - 1969-05-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1969-05-27.china-leadership-5
+    when: May 27
+    date: '1969-05-27'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The Peking Revolutionary Committee forwards to the whole city the February Seventh Works' 二七廠 report on carrying out Mao's policy of struggle against the enemy, clearing and reforming class enemies; it becomes the country's model of policy in the cleansing of the class ranks. By the report, of 155 middle and higher cadres 49 have political-historical questions, 24 of them traitors, agents, unrepentant capitalist-roaders and other counter-revolutionaries; 215 such persons and 373 ordinary members of the Guomindang, the Youth Corps and other reactionary bodies found out in the works.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 597–598. Made public: 2008. To check: Xia Junsheng 夏俊生, 〈文革樣板:北京二七廠清理階級隊伍〉, *Yanhuang chunqiu* 《炎黃春秋》, 2008, no. 8 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 597 n.11). See [[cal.1969-04-28.china-leadership]]. Names: Mao Zedong.'
+    src:
+      c: e0c11ac9
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 597–598: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 597 n.11: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong]
   - id: cal.1969-05-28.china-leadership
     when: May 28
     date: '1969-05-28'

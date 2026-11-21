@@ -2439,12 +2439,18 @@ entries:
     thread: china-leadership
     also: [china]
     c: Wuhan. A "Workers' Headquarters" is founded; other workers' groups, radical and conservative, follow.
-    n: '[[w.macfarquhar-maos-last-revolution]], 200. To check: [[w.shaoguang-failure-of-charisma]], 84–94 (cited by [[w.macfarquhar-maos-last-revolution]], 200 n.9).'
+    n: '[[w.macfarquhar-maos-last-revolution]], 200; [[w.yang-jisheng-tiandi-fanfu]], I, 468 (the city-wide rebel workers found the Mao Zedong Thought Fighting Team Wuhan Workers'' Headquarters 毛澤東思想戰鬥隊武漢地區工人總部 on Nov. 10, its first head Zhu Hongxia 朱鴻霞 of the heavy machinery plant, its second Hu Houmin 胡厚民 of the Wuchang shipyard, at the committee''s Hongshan Auditorium 洪山禮堂; Zhang Tixue 張體學 presents the flag and speaks in support; the secretary Zhao Xiu 趙修 says the committee cannot accept the name, only a liaison station; the workers cry "to Peking!"). To check: [[w.shaoguang-failure-of-charisma]], 84–94 (cited by [[w.macfarquhar-maos-last-revolution]], 200 n.9).'
     src:
       c: af2e7c49
       rows:
         - 'w.macfarquhar-maos-last-revolution 200: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 468: ?'
     tags: [polity:prc]
+    variants:
+      - unit: A
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: the Workers' Headquarters is founded on Nov. 10
+        at: I, 468
   - id: cal.1966-11-10.india-and-china
     when: Nov. 10
     date: '1966-11-10'
@@ -3074,8 +3080,19 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai, with Tao Zhu, Chen Yi, He Long, Xu Xiangqian, Ye Jianying, Xiao Hua, Yang Chengwu and the heads of the General Department's and services, receives at the Workers' Stadium those in Peking from the army's academies and from cultural and sports units. He walks the field with Tao Zhu to meet the delegates and leaves. Chen Yi, Xu Xiangqian, Ye Jianying and others criticize extreme practices in the Cultural Revolution and stress that the army must not fall into disorder.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 88 (Nov. 13, 1966). Names: Zhou Enlai, Tao Zhu, Chen Yi, He Long, Xu Xiangqian, Ye Jianying, Xiao Hua, Yang Chengwu.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 88 (Nov. 13, 1966); [[w.yang-jisheng-tiandi-fanfu]], I, 421 (with Lin Biao''s consent the 100,000 rally at the Workers'' Stadium in the afternoon, to send the academies'' students in Peking back to their schools; Chen Yi: "a cold towel on a hot head is good," no storming of gates, buildings and phones; Ye Jianying: the Second Military Medical University went too far; the capitalist-roaders a handful; a slip from Li Jicai 李繼才 of the Veterinary University''s rebels asks whether Lin approved the rally; uproar in the stands, and Xiao Hua and Liu Zhijian close the rally and escort the marshals out). To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 622–624 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 421 n.11). Names: Zhou Enlai, Tao Zhu, Chen Yi, He Long, Xu Xiangqian, Ye Jianying, Xiao Hua, Yang Chengwu.'
+    src:
+      c: de03ea01
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 88: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 421: ?'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 421 n.11: ?'
     tags: [name:zhou-enlai, name:tao-zhu, name:chen-yi, name:he-long, name:xu-xiangqian, name:ye-jianying, polity:prc]
+    time_range:
+      - 1966-11-13T04:00Z
+      - 1966-11-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1966-11-13.china-leadership-3
     when: Nov. 13
     date: '1966-11-13'
@@ -3459,14 +3476,16 @@ entries:
   - id: cal.1966-11-15.china-leadership-3
     when: Nov. 15
     date: '1966-11-15'
+    place: guiyang
     thread: china-leadership
     c: 'The Guizhou provincial pickets 貴州省糾察隊 are formally formed; their liaison station is at the provincial federation of trade unions. Their slogans: "the provincial and municipal committees are revolutionary and right in direction," "Secretary Jia is a good secretary like Jiao Yulu."'
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 290–291. Made public: 2016. To check: Peng Zhenxin 彭振新, *Guizhou wenge dashi ji* (5th supplemented draft) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 290 n.6). See [[cal.1966-10-15.china-leadership-6]].'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 290–291; [[w.yang-jisheng-tiandi-fanfu]], I, 481 (the Guizhou Workers'' Pickets 貴州省工人糾察隊 formally founded on Jia Qiyun''s 賈啟允 instruction). Made public: 2016. To check: Peng Zhenxin 彭振新, *Guizhou wenge dashi ji* (5th supplemented draft) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 290 n.6). See [[cal.1966-10-15.china-leadership-6]].'
     src:
       c: d6a12578
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 290–291: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 290 n.6: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 481: ?'
     tags: [polity:prc, ok:fields-place]
   - id: cal.1966-11-15.china-leadership-4
     when: Nov. 15
@@ -3480,6 +3499,18 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 345: all'
     tags: [polity:prc]
+  - id: cal.1966-11-15.china-leadership-5
+    when: Nov. 15
+    date: '1966-11-15'
+    place: peking
+    thread: china-leadership
+    c: Peking, Tsinghua University 清華大學. Yi Lin 伊林 and Di Xi 滌西, Red Guards of the middle school attached to the Agricultural University, put up "An open letter to Comrade Lin Biao" 〈給林彪同志的一封公開信〉, part of the "December black wind."
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 553. Names: Lin Biao.'
+    src:
+      c: 1a36af99
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 553: all'
+    tags: [polity:prc, name:lin-biao]
   - id: cal.1966-11-16.opinion
     when: Nov. 16
     date: '1966-11-16'
@@ -3600,6 +3631,18 @@ entries:
     c: Khe Đôn and Sóc Xoài, Tây Ninh. Regiment 16 fights the Americans and by the history's count kills 79 and shoots down three helicopters; it also ambushes three vehicles on the Tây Ninh–Suối Đá road. From Nov. 15 to 20 the division's forces fight many actions at Bàu Bỏ, Bàu Câu, Sóc Kỳ and Cà Tum and by the history's count put nearly 200, mostly Americans, out of action.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 247. See [[cal.1966-11-02.vietnam-hanoi]]. Check: the days of the Bàu Bỏ run. The figures are the history''s.'
     tags: [polity:drv, polity:us]
+  - id: cal.1966-11-16.china-leadership-6
+    when: Nov. 16
+    date: '1966-11-16'
+    place: wuhan
+    thread: china-leadership
+    c: Wuhan 武漢. The Second Headquarters and other rebels, with Red Guards from Peking, march to the *Hubei ribao* 湖北日報 and rebel, demanding the editorial department's reorganization and that the paper stop printing.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 468–469.'
+    src:
+      c: 6884c0b2
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 468–469: all'
+    tags: [polity:prc]
   - id: cal.1966-11-17.georgia
     when: Nov. 17
     date: '1966-11-17'
@@ -3819,6 +3862,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 137: all'
     tags: [polity:prc, polity:hungary]
+  - id: cal.1966-11-17.china-leadership-7
+    when: Nov. 17
+    date: '1966-11-17'
+    place: wuhan
+    thread: china-leadership
+    c: Wuhan 武漢. The Hubei committee tells the First Headquarters' Red Guards to defend the Party paper and drive out the rebels; the two sides clash in the paper's Red Flag Building 紅旗大樓, with bloodshed.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 469. See [[cal.1966-11-16.china-leadership-6]].'
+    src:
+      c: bcf7b96d
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 469: all'
+    tags: [polity:prc]
   - id: cal.1966-11-18.opinion
     when: Nov. 18
     date: '1966-11-18'
@@ -3894,6 +3949,20 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 372: all'
     tags: [polity:prc]
+  - id: cal.1966-11-18.china-leadership-4
+    when: Nov. 18
+    date: '1966-11-18'
+    time: 1966-11-17T20:00Z
+    place: wuhan
+    thread: china-leadership
+    c: Wuhan 武漢, the *Hubei ribao* 湖北日報. At 4 a.m. Zhang Tixue 張體學, Zhao Xiu 趙修 (now Zhao Ligong 趙立公) and Zhang Hua 張華 of the provincial committee come to negotiate with the rebels; Zhang Tixue owns theirs a "revolutionary action."
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 469. The words: 凌晨4時 (I, 469). Made public: 2016. See [[cal.1966-11-17.china-leadership-7]].'
+    src:
+      c: ef6e575d
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 469: all'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1966-11-19.succession
     when: Nov. 19
     date: '1966-11-19'
@@ -4834,7 +4903,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou Enlai, at the Workers' Stadium, appears before the hundred thousand of the army's academies and cultural and sports units in Peking, and leaves. Chen Yi, Ye Jianying and others again criticize wrong practices in the Cultural Revolution.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 88 (Nov. 13, 1966; "二十九日"). Names: Zhou Enlai, Chen Yi, Ye Jianying.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 88 (Nov. 13, 1966; "二十九日"); [[w.yang-jisheng-tiandi-fanfu]], I, 421 (the General Political Department''s second rally at the Workers'' Stadium of the academies'' people in Peking; Chen Yi and Ye Jianying again criticize the rebel cadets and answer the rebels'' criticism of the first rally). To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 622–624 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 421 n.11). Names: Zhou Enlai, Chen Yi, Ye Jianying.'
+    src:
+      c: 1da72ce3
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 88: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 421: ?'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 421 n.11: ?'
     tags: [name:zhou-enlai, name:chen-yi, name:ye-jianying, polity:prc]
   - id: cal.1966-11-29.china-leadership-2
     when: Nov. 29
@@ -5595,3 +5670,92 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 279: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 279 n.70: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place, name:chen-boda, name:mao-zedong]
+  - id: cal.1966-11.china-leadership-23
+    when: Nov.
+    date: 1966-11
+    place: chongqing
+    thread: china-leadership
+    c: Chongqing 重慶, the Jiangling Machine Works 江陵機器廠. The technician Gao De'an 高德安, in the technical section's office, sees on the desk of the branch secretary Zhang Jiaoguang 張角光 the section's secret "ranking" of its people in four classes, himself in the fourth, "to be struck." He tells four others.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 315–316. Made public: 2016. To check: He Shu 何蜀, ed., 〈李木森回憶〉, *Wangshi* 《往事》, no. 32 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 316 n.11).'
+    src:
+      c: f1cd3946
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 315–316: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 316 n.11: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1966-11.china-leadership-28
+    when: Nov., the next day
+    date: 1966-11
+    place: chongqing
+    thread: china-leadership
+    c: Chongqing 重慶, the Jiangling Machine Works 江陵機器廠. The next afternoon Gao De'an 高德安 and four others demand that the branch secretary Zhang Jiaoguang 張角光 account for the ranking; he keeps it secret; they form the "Sharp Knife Fighting Team" 尖刀戰鬥隊, and under its pressure he says the factory committee ordered it.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 316. The words: 第二天下午 (I, 316). See [[cal.1966-11.china-leadership-23]].'
+    src:
+      c: 781a3289
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 316: all'
+    tags: [polity:prc, ok:fields-time, ok:fields-at]
+  - id: cal.1966-11.china-leadership-24
+    when: Nov., early
+    date: 1966-11
+    at: before 1966-11-01
+    thread: china-leadership
+    c: Jiang Qing 江青 goes to Lin Biao 林彪 several times on the army's Cultural Revolution; the last time she says it needs "a marshal on the throne" and proposes Xu Xiangqian 徐向前 as head of the General Political Department and of the All-Army Cultural Revolution Group.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 422–423. Made public: 2011. Names: Jiang Qing, Lin Biao, Xu Xiangqian.'
+    src:
+      c: '70393924'
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 422–423: all'
+    tags: [polity:prc, vis:only:prc, name:jiang-qing, name:lin-biao, name:xu-xiangqian]
+  - id: cal.1966-11.china-leadership-29
+    when: Nov., early
+    date: 1966-11
+    at: before 1966-11-01
+    thread: china-leadership
+    c: 'Lin Biao 林彪, after Jiang Qing''s last visit, reports to Mao at once: Xu Xiangqian 徐向前 may head the All-Army Cultural Revolution Group, the Commission''s daily work to stay with Ye Jianying 葉劍英.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 422–423. Made public: 2011. See [[cal.1966-11.china-leadership-24]]. Names: Lin Biao, Xu Xiangqian, Ye Jianying, Mao Zedong.'
+    src:
+      c: 7ec76860
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 422–423: all'
+    tags: [polity:prc, vis:only:prc, name:lin-biao, name:xu-xiangqian, name:ye-jianying, name:mao-zedong]
+  - id: cal.1966-11.china-leadership-25
+    when: Nov., after the 10th
+    date: 1966-11
+    at: after 1966-11-10
+    place: peking
+    thread: china-leadership
+    c: 'Several hundred Wuhan workers board trains for Peking 北京 to complain of the Hubei committee; at Zhongnanhai''s 中南海 west gate, under the Workers'' Headquarters'' banner, they put up slogans against Chen Boda''s 陳伯達 telegram to the Shanghai workers at Anting ("the small reason must yield to the great"): "is revolution the great reason, or production?"'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 468. To check: Xu Zhengquan 徐正全, 〈雪地足跡〉, *Zuotian* 《昨天》, 2012, no. 7 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 468 n.18). See [[cal.1966-11-09.china-leadership-6]]. Names: Chen Boda.'
+    src:
+      c: fff90dee
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 468: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 468 n.18: all'
+    tags: [polity:prc, name:chen-boda]
+  - id: cal.1966-11.china-leadership-26
+    when: Nov., late
+    date: 1966-11
+    at: before 1966-11-21
+    place: guiyang
+    thread: china-leadership
+    c: 'Guiyang 貴陽. The bombarding faction founds the "Guiyang United Action Command" 貴陽市統一行動指揮部, the Red Guard Army and the Geochemistry Institute among them: the first form of Guizhou''s rebels'' great alliance.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 481.'
+    src:
+      c: 71735b2b
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 481: all'
+    tags: [polity:prc]
+  - id: cal.1966-11.china-leadership-27
+    when: Nov., mid
+    date: 1966-11
+    at: before 1966-11-11
+    place: chongqing
+    thread: china-leadership
+    c: Chongqing 重慶. The petition corps, back from Peking, where it joined Mao's sixth review of Nov. 3, formally founds the "Workers' Rebel Army Headquarters" 工人造反軍總部, soon the city's largest workers' rebel body.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 491. To check: He Shu 何蜀, *Wei Mao zhuxi er zhan: wenge Chongqing da wudou shilu* 《為毛主席而戰：文革重慶大武鬥實錄》 (Joint Publishing, Hong Kong, 2010), and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39). Names: Mao Zedong.'
+    src:
+      c: b4a671b6
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 491: all'
+    tags: [polity:prc, name:mao-zedong]
