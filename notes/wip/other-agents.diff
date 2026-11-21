@@ -86,21 +86,18 @@ index cae3ac5..1312a51 100644
 +Hussein ibn Talal: [King Hussein]
 +Idris I: [King Idris]
 +Hassan II: [King Hassan]
-diff --git a/sources/places.yaml b/sources/places.yaml
-index f895789..0bb832c 100644
---- a/sources/places.yaml
-+++ b/sources/places.yaml
-@@ -3833,6 +3833,10 @@
-   name: Longsheng
-   zone: Asia/Shanghai
-   in: prc
-+- key: longyan
-+  name: Longyan
-+  zone: Asia/Shanghai
-+  in: prc
- - key: longyao
-   name: Longyao County
-   zone: Asia/Shanghai
+diff --git a/sources/witnesses/1984.yaml b/sources/witnesses/1984.yaml
+index 643a500..290666e 100644
+--- a/sources/witnesses/1984.yaml
++++ b/sources/witnesses/1984.yaml
+@@ -607,6 +607,7 @@
+   open: not held
+   read: false
+ - id: x.1984.rusk-interviews-with-richard-rusk
++  base: true
+   what: Dean Rusk, taped interviews with Richard Rusk, 1984 on, "many dozens" (As I Saw It, 12), "hundreds of hours" (639), "from which this book is derived"
+   kind: interview
+   date: '1984'
 diff --git a/tests/golden/expected/build-files.txt b/tests/golden/expected/build-files.txt
 index 02bd0a4..8938e95 100644
 --- a/tests/golden/expected/build-files.txt

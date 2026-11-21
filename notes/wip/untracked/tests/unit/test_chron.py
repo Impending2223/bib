@@ -146,6 +146,11 @@ def test_some_entries_in_the_calendars_order():
         [(-1, [("may", False)]), (1, [("noon", False), ("meeting", False)])]
 
 
+def test_position():
+    es = [E("b", "1962-05-04", "May 4"), E("a", "1962-05-03", "May 3")]
+    assert chron.position(Cal(es), es) == {"cal.a": 0, "cal.b": 1}
+
+
 def test_the_cache_follows_the_list():
     """An entry added to the list is placed (the cache keyed by the sections' counts)."""
     es = [E("b", "1962-05-03", "May 3", thread="b")]

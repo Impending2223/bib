@@ -21,7 +21,7 @@ index c54921e..66ec322 100644
              out.append("Cal. " + nostop(datelist.run((e.get("date"), f'<a href="cal.html#{esc(e["id"])}">{esc(e.get("when") or "")}</a>')
                                                for e in es)))
 diff --git a/tools/bib/build.py b/tools/bib/build.py
-index b3208d8..af8d163 100644
+index b3208d8..4d802b5 100644
 --- a/tools/bib/build.py
 +++ b/tools/bib/build.py
 @@ -13,6 +13,7 @@ import os
@@ -79,18 +79,17 @@ index b3208d8..af8d163 100644
      _OWN[id(lst)] = (key, out)
      return out
  
-@@ -175,7 +177,9 @@ def program_html(series, lst, e, year, text_html):
+@@ -175,7 +177,8 @@ def program_html(series, lst, e, year, text_html):
      fwd, back = program_links(lst)
      out = []
      if e["id"] in fwd:
 -        items = sorted(fwd[e["id"]], key=lambda x: str((series.get(x[1]) or (0, 0, {}))[2].get("date", "")))
-+        tgt = [series.get(t)[2] for _, t in fwd[e["id"]] if series.get(t)]
-+        at = {m["id"]: i for i, m in enumerate(chron.sort(lst, tgt))}      # in the calendar's order (chron.py)
++        at = chron.position(lst, [series.get(t)[2] for _, t in fwd[e["id"]] if series.get(t)])   # (chron.py)
 +        items = sorted(fwd[e["id"]], key=lambda x: at.get(x[1], len(at)))
          out.append(("To:", " · ".join(f"{thread_name(lst, slug)}, [[{tid}]]" for slug, tid in items)))
      if e["id"] in back:
          names = []
-@@ -300,7 +304,11 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+@@ -300,7 +303,11 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
          parts.append(f'<span class="r">{text_html(e["r"], "r")}</span>')
      if lst.kind == "calendar" and e.get("polls_close"):   # "Polls close 6 p.m. CST: …" (tools/bib/dayorder.py, STYLE 7)
          parts.append(f'<span class="n">{text_html(e["polls_close"], "n")}</span>')
@@ -369,7 +368,7 @@ index e0631c1..abd0b6f 100644
  
  POLLS = re.compile(r"^Polls close (?:noon|midnight|\d{1,2}(?::\d{2})?)\S*(?: [ap]\.m\.)?.*?: .*\]\(https://[^)\s]+\).*\.$")
 diff --git a/tools/bib/footnotes.py b/tools/bib/footnotes.py
-index 975eb6b..364bfd2 100644
+index 975eb6b..33b5c9b 100644
 --- a/tools/bib/footnotes.py
 +++ b/tools/bib/footnotes.py
 @@ -11,8 +11,14 @@ STYLE
@@ -792,7 +791,7 @@ index 975eb6b..364bfd2 100644
  def place(whole, render, units, groups, eid):
      """The rendered line with its marks after each run's last unit (inside its claim's span); None where a unit's
      rendering is not found in order."""
-@@ -219,3 +469,571 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
+@@ -219,3 +469,573 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
  ol.fn li:target{background:color-mix(in srgb,var(--accent) 12%,transparent)}
  ol.e .n{font-size:.88rem;line-height:1.42}
  </style>"""
@@ -1251,7 +1250,9 @@ index 975eb6b..364bfd2 100644
 +        cid = cm and series.works.alias.get(cm.group(1), cm.group(1))
 +        if cid and (series.works.get(cid) is None or any(cid == c for c, _ in _edges_to(series, x))):
 +            cid = None
-+        if len(what) < 12 or _STUB.match(what):
++        if w.get("base"):                   # a work's whole source base, not a record of a claim: never joined
++            left.append((x, "base"))          # (the owner, Nov. 21, 2026: "Drop the Rusk taped interviews.")
++        elif len(what) < 12 or _STUB.match(what):
 +            left.append((x, "stub"))
 +        elif (cid and cid in cited.cards) or _a_card(cited, what):
 +            left.append((x, "card"))
@@ -1654,6 +1655,55 @@ index 71b2e65..11882d9 100644
 +                            "newspaper, wire or broadcast: write it as a normal entry, the source in the note "
 +                            "(standing.py, STYLE 3)"))
 +    return out
+diff --git a/tools/bib/statements.py b/tools/bib/statements.py
+index a938ec4..32b41f0 100644
+--- a/tools/bib/statements.py
++++ b/tools/bib/statements.py
+@@ -7,8 +7,8 @@ now; a page a year next). For a part, from its first day to its last (`calsplit.
+ 
+     the scope      the text of `c` outside span tags, on every page the thread is on
+     the spans      each `{{FROM..TO|text}}` inside `c`, without its tag, where FROM..TO meets the part's range
+-    the events     the names (`short:`) of the thread's events whose first entry falls in the part, in date order, as
+-                   one clipped sentence: "Bay of Pigs; Mongoose." (`render`)
++    the events     the names (`short:`) of the thread's events whose first entry falls in the part, in the calendar's
++                   order (chron.py), as one clipped sentence: "Bay of Pigs; Mongoose." (`render`)
+ 
+ A thread that still has `c2` or `c3` keeps the old choice, a statement a part (`calsplit.statement`), until it is
+ converted; `tools/statements/apply.py` converts one (it writes `c` and drops `c2`, `c3`), `tools/statements/show.py`
+@@ -105,8 +105,9 @@ def spans(text, lo, hi):
+ 
+ 
+ def _index(lst):
+-    """slug -> [(first day, file order, id, name)]: the entries carrying `short:`, under their primary thread and, where
+-    that is a ghost, its parent (and so on up while the parent is a ghost too) (STYLE 3). Kept while the sections' entry counts stand."""
++    """slug -> [(first day, file order, id, name, last day)] in the calendar's order (chron.py): the entries carrying
++    `short:`, under their primary thread and, where that is a ghost, its parent (and so on up while the parent is a
++    ghost too) (STYLE 3). Kept while the sections' entry counts stand."""
+     key = (id(lst), tuple(len(s.entries) for s in lst.walk()))
+     if _EVENTS.get(id(lst), (None,))[0] == key:
+         return _EVENTS[id(lst)][1]
+@@ -127,8 +128,10 @@ def _index(lst):
+             if t != prim and _summarized_child(lst, prim, t):
+                 continue
+             out.setdefault(t, []).append(row)
+-    for v in out.values():
+-        v.sort()
++    from . import chron
++    at = chron.position(lst, [e for _, e in lst.entries() if e.get("short") and e.get("date") and e.get("thread")])
++    for v in out.values():                # in the calendar's order (chron.py)
++        v.sort(key=lambda r: at[r[2]])
+     _EVENTS[id(lst)] = (key, out)
+     return out
+ 
+@@ -144,7 +147,7 @@ def _summarized_child(lst, child, parent):
+ 
+ 
+ def events(lst, slug, lo, hi):
+-    """[(id, name)]: the thread's events whose first entry falls in lo..hi, in date order (STYLE 3)."""
++    """[(id, name)]: the thread's events whose first entry falls in lo..hi, in the calendar's order (STYLE 3)."""
+     return [(eid, name) for d, _, eid, name, last in _index(lst).get(slug, []) if d <= hi and last >= lo]
+ 
+ 
 diff --git a/tools/bib/vis.py b/tools/bib/vis.py
 index 466e84c..f0e358b 100644
 --- a/tools/bib/vis.py
@@ -1772,7 +1822,7 @@ index 466e84c..f0e358b 100644
          res2 = dict(res, polities=pol, tags=tags_at(pol, ref, date), computed=True)
          fp = frame_ruling(e)
 diff --git a/tools/bib/vnmap.py b/tools/bib/vnmap.py
-index 9d5abc0..54d31b3 100644
+index 9d5abc0..297e17a 100644
 --- a/tools/bib/vnmap.py
 +++ b/tools/bib/vnmap.py
 @@ -71,7 +71,7 @@ import os
@@ -1791,8 +1841,8 @@ index 9d5abc0..54d31b3 100644
 -    for y in out:
 -        out[y].sort(key=lambda t: str(t[0]["date"]))
 +    for y, rows in out.items():                     # in the calendar's order (chron.py)
-+        at = {id(e): i for i, e in enumerate(chron.sort(lst, [e for e, _, _ in rows]))}
-+        rows.sort(key=lambda t: at[id(t[0])])
++        at = chron.position(lst, [e for e, _, _ in rows])
++        rows.sort(key=lambda t: at[t[0]["id"]])
      return out
  
  

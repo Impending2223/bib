@@ -6,6 +6,10 @@ By the entry's place (loose.order_key: the year, a year's intercalary day, the m
 after; loose STYLE 2), then as the calendar lays the place out: a day by time, thread and text, `follows` honored
 (dayorder.order); a block or an intercalary day by thread and text; a parent's subentries after it (subentries.nest).
 Some of the calendar's entries (a person's, a work's, a thread's) stand in the order the calendar shows them.
+
+sort(lst, entries) the entries in order; groups(lst, entries) the same by place; position(lst, entries) {id: n}. Used
+by the calendar's days and pages (daybook.section_days, dayorder.page_rows), the thread index and statements (build,
+statements), the Names (lives), the rosters' pointers (congress), the bibliography, the standing conditions, the maps.
 """
 import weakref
 
@@ -58,6 +62,11 @@ def sort(lst, entries):
             by.setdefault(hit[0].key if hit else None, []).append(e)
         return [e for k in lst.lists if k in by for e in sort(lst.lists[k], by[k])] + sorted(by.get(None, []), key=loose.order_key)
     return [e for _, e in _rows(lst, entries)]
+
+
+def position(lst, entries):
+    """{id: n}: each entry's place in the calendar's order, for a list sorted by something that carries one."""
+    return {e["id"]: i for i, e in enumerate(sort(lst, entries))}
 
 
 def groups(lst, entries):
