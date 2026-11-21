@@ -938,3 +938,7 @@ Put them in the "gloss" on the most appropriate entry, or the opening or closing
 ## Nov. 21, 2026, 12:24 a.m. Pacific
 
 "Please continue."
+
+## Nov. 21, 2026, 10:03 a.m. Pacific
+
+"Claude, could we remove all the \"held\"/\"not held\" notices from the citations?"

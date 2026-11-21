@@ -157,6 +157,44 @@ def apply_amend(w, a, rows, absorbed):
         absorbed[d] = w["id"]
 
 
+# A row's `where` may say whether the series holds the record ("not held", "held by the author"). That is the
+# registry's own business: a citation shows where the record is, never whether the series holds it (the owner,
+# Nov. 21, 2026: "could we remove all the 'held'/'not held' notices from the citations?").
+_HELD_SEG = re.compile(r"^(?:(?:the |an? )?[\w'’-]+(?: [\w'’-]+){0,2} )?(?:is |are )?(?:not (?:otherwise )?)?held"
+                       r"(?: by\b[^.;]*| privately\b[^.;]*| in the series\b[^.;]*)?(?: \(no card[^)]*\))?\s*(?:\.\s*)?", re.I)
+_HELD_TAIL = re.compile(r",\s*(?:the [\w-]+ )?(?:is )?not (?:otherwise )?held\b[^;]*$", re.I)
+
+
+def _split_top(s):
+    """`s` split at the semicolons outside parentheses and brackets."""
+    out, depth, cur = [], 0, ""
+    for ch in s:
+        if ch in "([":
+            depth += 1
+        elif ch in ")]":
+            depth = max(0, depth - 1)
+        if ch == ";" and depth == 0:
+            out.append(cur)
+            cur = ""
+        else:
+            cur += ch
+    out.append(cur)
+    return [x.strip() for x in out]
+
+
+def cite_where(where):
+    """`where` as a citation shows it: its clauses on the series' holding struck, the rest kept as written."""
+    keep = []
+    for seg in _split_top(str(where or "")):
+        m = _HELD_SEG.match(seg)
+        if m and re.search(r"\bheld\b", m.group(0), re.I):
+            seg = seg[m.end():].strip()
+        seg = _HELD_TAIL.sub("", seg).strip()
+        if seg:
+            keep.append(seg)
+    return "; ".join(keep)
+
+
 def register(series=None):
     """{(card, page, note): witness} through the works' edges, for the claim maps' `via w.card PAGE n.NOTE` rows. Each
     witness carries `record` (its `what`) for the renderers written before the registry."""
