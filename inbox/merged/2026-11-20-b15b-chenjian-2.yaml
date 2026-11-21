@@ -3,7 +3,7 @@ by: 'Claude (batch 15b, Chen Jian, Zhou Enlai: A Life, run 2), Nov. 20–21, 202
 ops:
 - edit:
     id: cal.1966-04-02.china-leadership
-    base: a5d9e30d
+    base: 3a6a8bb5
     set:
       time_range:
       - '1966-04-02T11:00Z'
@@ -81,7 +81,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 519 ("months before" the end of 1964 Mao brings up the nine essays of 1941 against the "wrong lines of the early 1930s" and asks Zhou and the other leaders for comments, saying he wants to revise them; the day not given, the note citing the Mao chronology, V, 329–330)'
 - to-check:
     id: cal.1964-03-25.china-leadership-4
-    add: '[[w.zedong-mao-zedong-nianpu]], V, 329–330; [[w.hu-qiaomu-huiyi-mao-zedong]], 212 (cited by [[w.jian-zhou-enlai]], 519 n.6).'
+    add: '[[w.zedong-mao-zedong-nianpu]], V, 329–330 (cited by [[w.jian-zhou-enlai]], 519 n.6a); [[w.hu-qiaomu-huiyi-mao-zedong]], 212 (cited by [[w.jian-zhou-enlai]], 519 n.6b).'
 - add:
     entry:
       id: cal.1964.china-leadership-36
@@ -90,7 +90,7 @@ ops:
       at: before 1964-09
       thread: china-leadership
       c: 'Mao, in a conversation with Liu Shaoqi, Zhou Enlai and Deng Xiaoping, on Qi Yanming, deputy minister of culture and long close to Zhou: "not a good person," not the right man for chief of Zhou''s office.'
-      n: '[[w.jian-zhou-enlai]], 519–520 ("Near the end of 1964"; Zhou, alarmed, soon decides to let Qi go). Made public: 2011 ([[w.xiao-donglian-qiusuo-zhongguo]], the earliest work the note names; not seen). To check: [[w.zedong-mao-zedong-nianpu]], V, 438 (cited by [[w.jian-zhou-enlai]], 520 n.7a); [[w.xiao-donglian-qiusuo-zhongguo]], II, 1090 (cited by [[w.jian-zhou-enlai]], 520 n.7b); [[w.zhang-guangyu-naming-and-criticism]], 4–5 (cited by [[w.jian-zhou-enlai]], 520 n.7c). See [[cal.1964-12.china-leadership-7]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping. Check: the day; the note''s page of the Mao chronology (V, 438) falls before the work conference of Dec. 15 (V, 449).'
+      n: '[[w.jian-zhou-enlai]], 519–520 ("Near the end of 1964"; Zhou, alarmed, soon decides to let Qi go). Made public: 2011 ([[w.xiao-donglian-qiusuo-zhongguo]], the earliest work the note names; not seen). To check: [[w.zedong-mao-zedong-nianpu]], V, 438 (cited by [[w.jian-zhou-enlai]], 520 n.7a); [[w.xiao-donglian-qiusuo-zhongguo]], II, 1090 (cited by [[w.jian-zhou-enlai]], 520 n.7b); [[w.zhang-guangyu-naming-and-criticism]], 4–5 (cited by [[w.jian-zhou-enlai]], 520 n.7c). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping. Check: the day; the note''s page of the Mao chronology (V, 438) falls before the work conference of Dec. 15 (V, 449).'
       src:
         c: 04a77275
         rows:
@@ -136,7 +136,7 @@ ops:
     - 'via x.1965-02-10.foreign-ministry-circular-zhou-chen-yi-kosygin: ?'
 - check:
     id: cal.1965-02-05.china-leadership
-    text: 'Check: [[w.jian-zhou-enlai]], 522 n.13a, dates the record of the four conversations Feb. 4 and 5, 1965; the chronology and the record of the first contact have Feb. 5–6.'
+    text: 'Check: [[w.jian-zhou-enlai]], 522 n.13a, dates the record of the four conversations Feb. 4 and 5, 1965; the chronology and the record of the first contact have Feb. 5–6; the file the note gives, 109-03957-06, is the one 522 n.14 gives for the fifth conversation, Feb. 10.'
 - cite:
     id: cal.1965-02-10.china-leadership-5
     item: '[[w.jian-zhou-enlai]], 522 (Zhou meets Kosygin at the airport and rides with him to the guesthouse; in the car: jointly mobilize world opinion against America''s aggression, Chinese railways to carry Soviet arms to Vietnam; the agreements to be signed the next morning)'
@@ -170,7 +170,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 523 (Johnson abruptly postpones Ayub Khan''s visit; not the day)'
 - to-check:
     id: cal.1965-04-14.south-asia
-    add: '[[w.goodwin-remembering-america]], 394–395; [[w.mcmahon-cold-war-on-the]], 318–324 (cited by [[w.jian-zhou-enlai]], 523 n.18).'
+    add: '[[w.goodwin-remembering-america-1989]], 394–395 (cited by [[w.jian-zhou-enlai]], 523 n.18a); [[w.mcmahon-cold-war-on-the]], 318–324 (cited by [[w.jian-zhou-enlai]], 523 n.18b).'
 - cite:
     id: cal.1965-05-31.vietnam
     item: '[[w.jian-zhou-enlai]], 523–524 (May 31: Chen Yi summons Hopson, the British chargé: Zhou had asked Ayub Khan to carry a message on Vietnam, likely not delivered; Peking would "be grateful" if London passed the three points while "pressuring the Americans to withdraw from South Vietnam")'
@@ -261,10 +261,7 @@ ops:
     add: '[[w.zedong-mao-zedong-nianpu]], V, 502 (cited by [[w.jian-zhou-enlai]], 526 n.30b); [[w.xianzhi-mao-zedong-zhuan-1949]], 1398 (cited by [[w.jian-zhou-enlai]], 526 n.32).'
 - cite:
     id: cal.1965-11-13.china-leadership
-    item: '[[w.jian-zhou-enlai]], 526 (agriculture "the first area to protect," preparing for famine set beside preparing for war; the note dates the speech Nov. 23)'
-- check:
-    id: cal.1965-11-13.china-leadership
-    text: 'Check: [[w.jian-zhou-enlai]], 526 n.31, cites Zhou''s speech at a national planning conference "November 23, 1965," 855-8-3113-3, HBPA; 528 n.40 cites the same file as his speech at a central planning conference, Nov. 13, 1965, HPA: one speech, one note misprinted.'
+    item: '[[w.jian-zhou-enlai]], 526 (agriculture "the first area to protect," preparing for famine set beside preparing for war; the note, n.31, prints the speech "November 23, 1965" and the archive "HBPA" for the file 855-8-3113-3 that 528 n.40 gives as Nov. 13, HPA)'
 - to-check:
     id: cal.1965-11-13.china-leadership
     add: Zhou's speech at a planning conference, November 13, 1965 (so 528 n.40; "November 23," 526 n.31), 855-8-3113-3, Hebei Provincial Archive (cited by [[w.jian-zhou-enlai]], 526 n.31, 528 n.40).
@@ -312,7 +309,7 @@ ops:
       date: '1965-11'
       thread: china
       c: The UN General Assembly's vote on whether Peking or Taipei should hold China's seat ends in a draw, the first time in UN history.
-      n: '[[w.jian-zhou-enlai]], 527. See [[cal.1965-11-22.china-leadership]]. Check: the day.'
+      n: '[[w.jian-zhou-enlai]], 527. Check: the day.'
       src:
         c: e311b8ea
         rows:
@@ -343,10 +340,10 @@ ops:
       thread: china-leadership
       also:
       - indonesia
-      c: Aidit tells Yao Zhongmin, the Chinese ambassador, Peking's "sole contact" with him by Zhou's assignment, that the PKI "is determined to take resolute action to seize political power in Indonesia."
-      n: '[[w.jian-zhou-enlai]], 528. Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146; interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35). See [[cal.1965-08-05.china-leadership]].'
+      c: By Zhu Liang's account, Aidit tells Yao Zhongmin, the Chinese ambassador, Peking's "sole contact" with him by Zhou's assignment, that the PKI "is determined to take resolute action to seize political power in Indonesia."
+      n: '[[w.jian-zhou-enlai]], 528. Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146 (cited by [[w.jian-zhou-enlai]], 528 n.35a); interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35b). See [[cal.1965-08-05.china-leadership]]. Names: Zhou Enlai.'
       src:
-        c: 5291e6e6
+        c: cd4ad880
         rows:
         - 'w.jian-zhou-enlai 528: all'
         - 'via x.2009-01.chen-jian-interview-zhu-liang: all'
@@ -355,6 +352,7 @@ ops:
       - 'polity:indonesia'
       - 'vis:only:prc+indonesia'
       - 'name:aidit'
+      - 'name:zhou-enlai'
       - 'ok:fields-place'
 - add:
     entry:
@@ -365,10 +363,10 @@ ops:
       thread: china-leadership
       also:
       - indonesia
-      c: 'Yao Zhongmin gives Aidit Peking''s reply: the PKI to "be determined and well prepared and move forward resolutely; in the event of setbacks, be determined to persist in struggles in the countryside."'
-      n: '[[w.jian-zhou-enlai]], 528. Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146; interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35). See [[cal.1965-08.china-leadership-5]].'
+      c: 'By Zhu Liang''s account, Yao Zhongmin gives Aidit Peking''s reply: the PKI to "be determined and well prepared and move forward resolutely; in the event of setbacks, be determined to persist in struggles in the countryside."'
+      n: '[[w.jian-zhou-enlai]], 528. Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146 (cited by [[w.jian-zhou-enlai]], 528 n.35a); interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35b). See [[cal.1965-08.china-leadership-5]].'
       src:
-        c: d3e1d31f
+        c: 9f06ef54
         rows:
         - 'w.jian-zhou-enlai 528: all'
         - 'via x.2009-01.chen-jian-interview-zhu-liang: all'
@@ -387,10 +385,10 @@ ops:
       thread: china-leadership
       also:
       - indonesia
-      c: Aidit tells Yao Zhongmin that the PKI will make the "decisive move" on Sept. 30.
-      n: '[[w.jian-zhou-enlai]], 528 ("Then"). Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146; interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35). See [[cal.1965-08.china-leadership-5]]. Check: the day.'
+      c: By Zhu Liang's account, Aidit tells Yao Zhongmin that the PKI will make the "decisive move" on Sept. 30.
+      n: '[[w.jian-zhou-enlai]], 528 ("Then"). Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146 (cited by [[w.jian-zhou-enlai]], 528 n.35a); interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35b). See [[cal.1965-08.china-leadership-5]]. Check: the day.'
       src:
-        c: 658055fe
+        c: edcf5122
         rows:
         - 'w.jian-zhou-enlai 528: all'
         - 'via x.2009-01.chen-jian-interview-zhu-liang: all'
@@ -409,10 +407,10 @@ ops:
       thread: china-leadership
       also:
       - indonesia
-      c: 'Zhou cables Aidit in support of the PKI''s decision: after the uprising succeeds, keep Sukarno as president and maintain "Nasakom," which may be useful abroad.'
-      n: '[[w.jian-zhou-enlai]], 528 ("a few days later"). Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146; interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35). See [[cal.1965-08.china-leadership-5]]. Names: Zhou Enlai, Sukarno. Check: the day; whether before Sept. 30.'
+      c: 'By Zhu Liang''s account, Zhou cables Aidit in support of the PKI''s decision: after the uprising succeeds, keep Sukarno as president and maintain "Nasakom," which may be useful abroad.'
+      n: '[[w.jian-zhou-enlai]], 528 ("a few days later"). Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 144–146 (cited by [[w.jian-zhou-enlai]], 528 n.35a); interview with Zhu Liang, January 2009 (cited by [[w.jian-zhou-enlai]], 528 n.35b). See [[cal.1965-08.china-leadership-5]]. Names: Zhou Enlai, Sukarno. Check: the day; whether before Sept. 30.'
       src:
-        c: 4e158746
+        c: 31c9efba
         rows:
         - 'w.jian-zhou-enlai 528: all'
         - 'via x.2009-01.chen-jian-interview-zhu-liang: all'
@@ -423,28 +421,16 @@ ops:
       - 'name:zhou-enlai'
       - 'name:aidit'
       - 'name:sukarno'
-- add:
-    entry:
-      id: cal.1965-10-01.china-leadership-4
-      when: Oct. 1
-      date: '1965-10-01'
-      thread: china-leadership
-      also:
-      - indonesia
-      c: 'Zhou, in his second conversation with the delegation of Indonesia''s Provisional People''s Consultative Congress: by the foreign news, "the coup by a committee of right-wing generals had failed" in Jakarta, and Sukarno''s "guards had organized a revolutionary committee to control the situation."'
-      n: '[[w.jian-zhou-enlai]], 528 (dated Oct. 2 in the text). Made public: 2024. To check: Premier Zhou''s second conversation with delegation of Indonesian Provisional People''s Consultative Conference, October 1, 1965, 105-01687-02, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 528 n.36). See [[cal.1965-10-01.india-and-china]]. Names: Zhou Enlai, Sukarno. Check: the day: the text has Oct. 2, the note''s record Oct. 1.'
-      src:
-        c: d99ec043
-        rows:
-        - 'w.jian-zhou-enlai 528: all'
-        - 'via x.1965-10-01.zhou-second-conversation-mprs-delegation: all'
-      tags:
-      - 'polity:prc'
-      - 'polity:indonesia'
-      - 'vis:only:prc+indonesia'
-      - 'name:zhou-enlai'
-      - 'name:sukarno'
-      - 'ok:fields-place'
+- cite:
+    id: cal.1965-09-30.china-leadership-4
+    item: '[[w.jian-zhou-enlai]], 528 (Zhou''s second conversation with the delegation, Oct. 1 by the record the note names, "October 2" in the text: by the foreign news "the coup by a committee of right-wing generals had failed" in Jakarta, and Sukarno''s "guards had organized a revolutionary committee to control the situation")'
+- to-check:
+    id: cal.1965-09-30.china-leadership-4
+    add: Premier Zhou's second conversation with delegation of Indonesian Provisional People's Consultative Conference, October 1, 1965, 105-01687-02, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 528 n.36).
+- src:
+    id: cal.1965-09-30.china-leadership-4
+    rows:
+    - 'via x.1965-10-01.zhou-second-conversation-mprs-delegation: ?'
 - cite:
     id: cal.1965-10-03.china-leadership-3
     item: '[[w.jian-zhou-enlai]], 528 ("Over the next two days," Zhou tells two other Indonesian delegations that Sukarno is "quite safe," but that he can make no further judgment)'
@@ -479,7 +465,7 @@ ops:
       also:
       - china-leadership
       c: 'Sukarno to the Chinese embassy: "if he were to be given some time, he should be able to control the situation."'
-      n: '[[w.jian-zhou-enlai]], 528. Made public: 2024. To check: Zhou speech at a central planning conference, November 13, 1965, 855-8-3113-3, Hebei Provincial Archive (cited by [[w.jian-zhou-enlai]], 528 n.40). See [[cal.1965-11-13.china-leadership]]. Names: Sukarno.'
+      n: '[[w.jian-zhou-enlai]], 528. Made public: 2024. To check: Zhou speech at a central planning conference, November 13, 1965, 855-8-3113-3, Hebei Provincial Archive (cited by [[w.jian-zhou-enlai]], 528 n.40). Names: Sukarno.'
       src:
         c: 9c9163da
         rows:
@@ -524,10 +510,10 @@ ops:
       thread: china-leadership
       also:
       - indonesia
-      c: The Chinese leadership orders all records of the confidential telegrams between Peking and the PKI leadership destroyed.
+      c: By Zhu Liang's account, the Chinese leadership orders all records of the confidential telegrams between Peking and the PKI leadership destroyed.
       n: '[[w.jian-zhou-enlai]], 529. Made public: 2000 ([[w.zhu-liang-indonesias-september-30-movement]]). To check: [[w.zhu-liang-indonesias-september-30-movement]], 148 (cited by [[w.jian-zhou-enlai]], 529 n.42). Check: the day.'
       src:
-        c: d2c7ff21
+        c: e826bfb3
         rows:
         - 'w.jian-zhou-enlai 529: all'
       tags:
@@ -582,7 +568,7 @@ ops:
       date: '1965-11-27'
       thread: china-leadership
       c: Shanghai. Zhou Enlai, seeing Chen Pixian 陈丕显, the city's Party secretary, thanks him for the word on Yao Wenyuan's essay passed through Luo Ruiqing.
-      n: '[[w.jian-zhou-enlai]], 530 ("the next day"). Made public: 2005 ([[w.pixian-chen-pixian-huiyilu]]). To check: [[w.zhou-enlai-nianpu-1949]], II, 767 (cited by [[w.jian-zhou-enlai]], 530 n.48a); [[w.pixian-chen-pixian-huiyilu]], 34 (cited by [[w.jian-zhou-enlai]], 530 n.48b). See [[cal.1965-11-26.china-leadership-2]]. Names: Zhou Enlai, Yao Wenyuan, Luo Ruiqing.'
+      n: '[[w.jian-zhou-enlai]], 530 ("the next day"). Made public: 1997 ([[w.zhou-enlai-nianpu-1949]], the earliest work the note names; not seen). To check: [[w.zhou-enlai-nianpu-1949]], II, 767 (cited by [[w.jian-zhou-enlai]], 530 n.48a); [[w.pixian-chen-pixian-huiyilu]], 34 (cited by [[w.jian-zhou-enlai]], 530 n.48b). See [[cal.1965-11-26.china-leadership-2]]. Names: Zhou Enlai, Yao Wenyuan, Luo Ruiqing. Check: the day: the book has Zhou reach Shanghai Nov. 26, the chronology Nov. 25 ([[cal.1965-11-25.china-leadership-2]]), and back in Peking Nov. 27 ([[cal.1965-11-27.china-leadership]]).'
       src:
         c: 1b5c7033
         rows:
@@ -624,7 +610,7 @@ ops:
       at: before 1965-12-01
       thread: china-leadership
       c: The Central Committee's General Office notifies Zhou Enlai, without warning and with no agenda, that he is to attend "an extremely important conference" at Shanghai.
-      n: '[[w.jian-zhou-enlai]], 530–531. Made public: 2024. See [[cal.1965-12-08.china-leadership]]. Names: Zhou Enlai. Check: the day.'
+      n: '[[w.jian-zhou-enlai]], 530–531. Made public: 2024. Names: Zhou Enlai. Check: the day.'
       src:
         c: 7e6e7990
         rows:
@@ -687,10 +673,10 @@ ops:
       when: Dec. 5
       date: '1965-12-05'
       thread: china-leadership
-      c: Shanghai, late at night. Mao talks with Zhou Enlai, who afterward acts at once on his instructions on Luo Ruiqing.
-      n: '[[w.jian-zhou-enlai]], 531 ("late on the night of December 5"; what Mao said, Chen''s inference: "must have shared ... his plans to purge Luo"). The words: late on the night (531). Made public: 2000 ([[w.gao-zhenpu-zhou-enlai-weishi-huiyilu]]). To check: [[w.gao-zhenpu-zhou-enlai-weishi-huiyilu]], 77–78 (cited by [[w.jian-zhou-enlai]], 531 n.57). See [[cal.1965-12-08.china-leadership]]. Names: Mao Zedong, Zhou Enlai, Luo Ruiqing. Check: the chronology has Zhou in Peking on Dec. 5 ([[cal.1965-12-05.china-leadership]], [[cal.1965-12-05.china-leadership-8]]).'
+      c: Shanghai, late at night. By the account of Gao Zhenpu, Zhou's bodyguard, Mao talks with Zhou Enlai, who afterward acts at once on his instructions on Luo Ruiqing.
+      n: '[[w.jian-zhou-enlai]], 531 ("late on the night of December 5"; what Mao said, Chen''s inference: "must have shared ... his plans to purge Luo"). The words: late on the night (531). Made public: 2000 ([[w.gao-zhenpu-zhou-enlai-weishi-huiyilu]]). To check: [[w.gao-zhenpu-zhou-enlai-weishi-huiyilu]], 77–78 (cited by [[w.jian-zhou-enlai]], 531 n.57). Names: Mao Zedong, Zhou Enlai, Luo Ruiqing. Check: the chronology has Zhou in Peking on Dec. 5 ([[cal.1965-12-05.china-leadership]], [[cal.1965-12-05.china-leadership-8]]).'
       src:
-        c: e244d153
+        c: 50556d91
         rows:
         - 'w.jian-zhou-enlai 531: all'
       tags:
@@ -716,7 +702,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 532 (Zhou and Deng with Luo outside the meeting: Mao holds him "against Lin, but not me"; if he does not oppose Lin or "highlighting politics" and asks no more power, the case may be tabled; Luo asks to face Lin before Mao; Zhou, after a long while: "How can you be so naïve?"; "calm down"; no need to talk to Mao or Lin; not the day)'
 - to-check:
     id: cal.1965-12-11.china-leadership-2
-    add: '[[w.yao-luo-ruiqing-zhuan-a]], 547; [[w.qian-xiangli-lishi-de-bianju]], 431 (cited by [[w.jian-zhou-enlai]], 532 n.59).'
+    add: '[[w.yao-luo-ruiqing-zhuan-a]], 547 (cited by [[w.jian-zhou-enlai]], 532 n.59a); [[w.qian-xiangli-lishi-de-bianju]], 431 (cited by [[w.jian-zhou-enlai]], 532 n.59b).'
 - cite:
     id: cal.1965-11-10.china-leadership-2
     item: '[[w.jian-zhou-enlai]], 532 ("Around the same time" Yang Shangkun dismissed as head of the General Office at Mao''s behest; Wang Dongxing, long head of Mao''s bodyguards, his successor; Zhou, Liu, Deng and the others silent)'
@@ -742,6 +728,9 @@ ops:
     id: cal.1966-02-12.china-leadership-2
     rows:
     - 'via x.1966-02-12.ccp-cc-document-66-no-267: ?'
+- check:
+    id: cal.1966-02-12.china-leadership-2
+    text: 'Check: [[w.jian-zhou-enlai]], 533 n.60, cites the Outlines as "CCP CC Document (66), No. 267, February 12, 1966"; [[cal.1966-05-19.china-leadership-4]] gives Zhongfa [66] no. 267 to the May 16 Notice.'
 - cite:
     id: cal.1966-02-02.china-leadership
     item: '[[w.jian-zhou-enlai]], 533 (the summary, revised with Mao''s input: since 1949 "fierce class struggles on the cultural front," "an anti-Party and antisocialist black line"; "a great socialist revolution on the cultural front"; Lin Biao no part in it)'
@@ -792,7 +781,7 @@ ops:
       - china-leadership
       - vietnam-diplomacy
       c: Miyamoto Kenji, general secretary of the Japanese Communist Party, arrives in China, seeking an "international united front of assisting Vietnam and resisting America."
-      n: '[[w.jian-zhou-enlai]], 535 (then meetings with Peng Zhen at Shanghai and Canton before he goes on to Hanoi). Names: Peng Zhen. Check: the day.'
+      n: '[[w.jian-zhou-enlai]], 535 (then meetings with Peng Zhen at Shanghai and Canton before he goes on to Hanoi). Check: the day.'
       src:
         c: 7a6a626d
         rows:
@@ -801,7 +790,6 @@ ops:
       - 'polity:japan'
       - 'polity:prc'
       - 'name:miyamoto-kenji'
-      - 'name:peng-zhen'
       - 'ok:fields-place'
 - cite:
     id: cal.1966-02-28.china-leadership-3
@@ -934,7 +922,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 539 (Mao "appeared at the meeting on April 23": Peng, backing Wu Han, has made the criticism hard; "revisionism has not only appeared in the cultural circles but has also emerged in the party, the government, and the military, which is a very big problem"; the conference links Peng, Luo Ruiqing, Lu Dingyi and Yang Shangkun as a "counterrevolutionary clique")'
 - to-check:
     id: cal.1966-04-16.china-leadership
-    add: '[[w.xianzhi-mao-zedong-zhuan-1949]], 1407–1408; [[w.zedong-mao-zedong-nianpu]], V, 580 (cited by [[w.jian-zhou-enlai]], 539 n.82).'
+    add: '[[w.xianzhi-mao-zedong-zhuan-1949]], 1407–1408 (cited by [[w.jian-zhou-enlai]], 539 n.82a); [[w.zedong-mao-zedong-nianpu]], V, 580 (cited by [[w.jian-zhou-enlai]], 539 n.82b).'
 - check:
     id: cal.1966-04-16.china-leadership
     text: 'Check: [[w.jian-zhou-enlai]], 539, puts Mao''s appearance and words at the meeting on Apr. 23; [[cal.1966-04-22.china-leadership]] and [[cal.1966-04-24.china-leadership]] have him speak Apr. 22 and preside Apr. 24.'
@@ -979,7 +967,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 541 (Zhou, on Mao''s orders, deploys more "reliable military units" for the "safety of Beijing and the surrounding areas," and knows he must stay in Peking; not the day)'
 - to-check:
     id: cal.1966-05-18.china-leadership-2
-    add: '[[w.zhou-enlai-junshi-huodong]], 628–629; [[w.zhou-enlai-nianpu-1949]], III, 31–32 (cited by [[w.jian-zhou-enlai]], 541 n.87).'
+    add: '[[w.zhou-enlai-junshi-huodong]], 628–629 (cited by [[w.jian-zhou-enlai]], 541 n.87a); [[w.zhou-enlai-nianpu-1949]], III, 31–32 (cited by [[w.jian-zhou-enlai]], 541 n.87b).'
 - cite:
     id: cal.1966-05-16.china-leadership
     item: '[[w.jian-zhou-enlai]], 541 (the "May Sixteenth Notice," revised and edited by Mao; his paragraph: the representatives of the bourgeoisie who have sneaked into the Party, government, army and cultural circles, "a bunch of counterrevolutionary revisionists," will seize power when ripe; "People like Khrushchev are still nestling beside us")'
@@ -1009,7 +997,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 545 ("Only a few days before" June 1 Zhou, Liu and Deng discuss Peking University and decide to send a work team to "direct the movement," Mao endorsing it)'
 - to-check:
     id: cal.1966-05-29.china-leadership
-    add: '[[w.zhou-enlai-nianpu-1949]], III, 34; [[w.zedong-mao-zedong-nianpu]], V, 589 (cited by [[w.jian-zhou-enlai]], 545 n.3).'
+    add: '[[w.zhou-enlai-nianpu-1949]], III, 34 (cited by [[w.jian-zhou-enlai]], 545 n.3a); [[w.zedong-mao-zedong-nianpu]], V, 589 (cited by [[w.jian-zhou-enlai]], 545 n.3b).'
 - cite:
     id: cal.1966-06-09.china-leadership-2
     item: '[[w.jian-zhou-enlai]], 545 (June 9, Liu, Zhou and Deng fly to Hangzhou to see Mao)'
@@ -1039,7 +1027,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 546 (the "June Eighteenth Incident" at Peking University, a serious clash between the work team and those against it)'
 - to-check:
     id: cal.1966-06-18.china-leadership-5
-    add: '[[w.macfarquhar-maos-last-revolution]], 75–76; [[w.nianyi-da-dongluande-niandai]], 39–40; [[w.wenhua-dageming-yanjiu-ziliao]], I, 51–52 (cited by [[w.jian-zhou-enlai]], 546 n.8).'
+    add: '[[w.macfarquhar-maos-last-revolution]], 75–76 (cited by [[w.jian-zhou-enlai]], 546 n.8a); [[w.nianyi-da-dongluande-niandai]], 39–40 (cited by [[w.jian-zhou-enlai]], 546 n.8b); [[w.wenhua-dageming-yanjiu-ziliao]], I, 51–52 (cited by [[w.jian-zhou-enlai]], 546 n.8c).'
 - cite:
     id: cal.1966-07-11.china-leadership-2
     item: '[[w.jian-zhou-enlai]], 546 (Mao summons Zhou to Wuhan July 11; three hours that afternoon, two the next morning)'
@@ -1057,37 +1045,22 @@ ops:
     item: '[[w.jian-zhou-enlai]], 547 (Mao back in Peking two days after the swim; Liu hurries to see him; Mao, inside with members of the Cultural Revolution Group, tells his secretary, "I do not want to see him")'
 - to-check:
     id: cal.1966-07-18.china-leadership-2
-    add: '[[w.huang-zheng-fengyu-wuhui]], 411; [[w.qi-benyu-huiyilu]], 444 (cited by [[w.jian-zhou-enlai]], 547 n.12).'
+    add: '[[w.huang-zheng-fengyu-wuhui]], 411 (cited by [[w.jian-zhou-enlai]], 547 n.12a); [[w.qi-benyu-huiyilu]], 444 (cited by [[w.jian-zhou-enlai]], 547 n.12b).'
 - cite:
     id: cal.1966-07-19.china-leadership
-    item: '[[w.jian-zhou-enlai]], 547 (Liu chairs the enlarged Standing Committee, Zhou there; Chen Boda, head of the Cultural Revolution Group, proposes recalling all work teams; the majority, Liu and Deng among them, oppose; Zhou: the teams might be "temporarily recalled and the masses thus be allowed to carry out the movement by themselves")'
+    item: '[[w.jian-zhou-enlai]], 547 (Liu chairs the enlarged Standing Committee, Zhou there; Chen Boda, head of the Cultural Revolution Group, proposes recalling all work teams; the majority, Liu and Deng among them, oppose; Zhou: the teams might be "temporarily recalled and the masses thus be allowed to carry out the movement by themselves"; at the enlarged meeting "the next day," so Chen: Deng, against withdrawing the teams, yells at Chen Boda, "If all the work teams are to be recalled, how can the party lead?"; Liu backs him, most teams good; Zhou silent; the motion tabled; Mao absent; the Deng chronology the note cites has Deng''s rebuttal of Chen on July 19, III, 1924, and Liu and Deng''s "most work teams are good" on July 22, III, 1924–1925)'
 - to-check:
     id: cal.1966-07-19.china-leadership
     add: '[[w.qi-benyu-huiyilu]], 445 (cited by [[w.jian-zhou-enlai]], 547 n.13b).'
 - cite:
     id: cal.1966-07-19.china-leadership-2
     item: '[[w.jian-zhou-enlai]], 547 (Mao joins the meeting that evening, hears Liu and Deng, and says nothing on the work teams)'
-- add:
-    entry:
-      id: cal.1966-07-20.china-leadership-4
-      when: July 20
-      date: '1966-07-20'
-      thread: china-leadership
-      c: 'Peking. The enlarged Standing Committee meeting goes on. Deng Xiaoping, against withdrawing the work teams, shouts at Chen Boda: "If all the work teams are to be recalled, how can the party lead?" Liu Shaoqi backs him, most teams good; Zhou Enlai silent; the motion tabled. Mao absent.'
-      n: '[[w.jian-zhou-enlai]], 547 ("The enlarged meeting continued the next day," after July 19). Made public: 1998 ([[w.li-xuefeng-recalling-the-first-fifty-days]]). To check: [[w.li-xuefeng-recalling-the-first-fifty-days]], 5; [[w.qi-benyu-huiyilu]], 445–446; [[w.deng-xiaoping-nianpu-1904]], III, 1924–1925; [[w.jin-chongji-liu-shaoqi-zhuan]], 1027–1028 (cited by [[w.jian-zhou-enlai]], 547 n.15). See [[cal.1966-07-19.china-leadership]]; [[cal.1966-07-23.china-leadership-5]]. Names: Deng Xiaoping, Chen Boda, Liu Shaoqi, Zhou Enlai, Mao Zedong. Check: the day.'
-      src:
-        c: 0fa11191
-        rows:
-        - 'w.jian-zhou-enlai 547: all'
-      tags:
-      - 'polity:prc'
-      - 'vis:only:prc'
-      - 'name:deng-xiaoping'
-      - 'name:chen-boda'
-      - 'name:liu-shaoqi'
-      - 'name:zhou-enlai'
-      - 'name:mao-zedong'
-      place: peking
+- to-check:
+    id: cal.1966-07-19.china-leadership
+    add: '[[w.li-xuefeng-recalling-the-first-fifty-days]], 5 (cited by [[w.jian-zhou-enlai]], 547 n.15a); [[w.qi-benyu-huiyilu]], 445–446 (cited by [[w.jian-zhou-enlai]], 547 n.15b); [[w.jin-chongji-liu-shaoqi-zhuan]], 1027–1028 (cited by [[w.jian-zhou-enlai]], 547 n.15d).'
+- check:
+    id: cal.1966-07-19.china-leadership
+    text: 'Check: [[w.jian-zhou-enlai]], 547, puts Deng''s outburst at Chen Boda and the tabling of the motion at a session the day after July 19; the Zhou chronology has the meetings on July 19 and 22 ([[cal.1966-07-22.china-leadership-7]]).'
 - cite:
     id: cal.1966-07-23.china-leadership
     item: '[[w.jian-zhou-enlai]], 547 (July 23, after hearing the Peking leaders on the schools, Mao: "it was a mistake to dispatch work teams," now "barriers of the mass movement")'
@@ -1144,7 +1117,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 549 (Zhou, just back from a meeting at Mao''s: from Yao''s essay to the poster and "the chairman''s decision to recall all work teams," "The political line" at the center; "the determination to rebel by joining the masses to make revolution"; it may "temporarily bring Beijing into a chaotic situation," but "to fear is not compatible with the chairman''s thought"; his self-criticism for the decision to send work teams in early June, to "preserve the old order")'
 - to-check:
     id: cal.1966-08-02.china-leadership
-    add: '[[w.zhou-enlai-nianpu-1949]], III, 45; [[w.jin-chongji-liu-shaoqi-zhuan]], 1033–1034; [[w.xie-xuegong-diary-on-the-eleventh-plenum]], 52–53 (cited by [[w.jian-zhou-enlai]], 549 n.26).'
+    add: '[[w.zhou-enlai-nianpu-1949]], III, 45 (cited by [[w.jian-zhou-enlai]], 549 n.26a); [[w.jin-chongji-liu-shaoqi-zhuan]], 1033–1034 (cited by [[w.jian-zhou-enlai]], 549 n.26b); [[w.xie-xuegong-diary-on-the-eleventh-plenum]], 52–53 (cited by [[w.jian-zhou-enlai]], 549 n.26c).'
 - cite:
     id: cal.1966-08-04.china-leadership
     item: '[[w.jian-zhou-enlai]], 549 (Mao and Liu, side by side, quarrel "in an inflammatory mood"; Mao: "the party leadership has violated its own commitments"; "Mass line? Trusting the masses? Believing in Marxism-Leninism? All are false!"; Liu: "I am in Beijing, so I should bear the main responsibility"; Mao: "You have established a bourgeois dictatorship in Beijing!"; "Among those sitting here today are evil elements and monsters!")'
@@ -1156,7 +1129,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 549 (Mao summons Zhou for another confidential talk the day after the Standing Committee; Zhou then calls Liu: not to attend public events or meet foreign guests)'
 - to-check:
     id: cal.1966-08-05.china-leadership-5
-    add: '[[w.huang-zheng-fengyu-wuhui]], 414; [[w.zhou-enlai-nianpu-1949]], III, 46 (cited by [[w.jian-zhou-enlai]], 549 n.29).'
+    add: '[[w.huang-zheng-fengyu-wuhui]], 414 (cited by [[w.jian-zhou-enlai]], 549 n.29a); [[w.zhou-enlai-nianpu-1949]], III, 46 (cited by [[w.jian-zhou-enlai]], 549 n.29b).'
 - cite:
     id: cal.1966-08-05.china-leadership
     item: '[[w.jian-zhou-enlai]], 549–550 ("Bombarding the Headquarters": Liu and Deng "taking a reactionary, bourgeois stand; implementing bourgeoisie dictatorship; and trying to suppress the Cultural Revolution")'
@@ -1181,7 +1154,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 550 (the new leadership: Mao chairman, Lin sole vice chairman and successor; the Standing Committee Mao, Lin, Zhou, Tao Zhu, Chen Boda, Deng, Kang Sheng, Liu, Zhu De, Li Fuchun, Chen Yun; Zhou no longer vice chairman; the Secretariat replaced by a central liaison meeting Zhou convenes, Jiang Qing, Chen Boda, Kang Sheng and the Group there, Ye Qun for Lin)'
 - to-check:
     id: cal.1966-08-12.china-leadership
-    add: '[[w.zhou-enlai-nianpu-1949]], III, 48–49 (cited by [[w.jian-zhou-enlai]], 550 n.32b); [[w.zhou-enlai-nianpu-1949]], III, 51, note 1; [[w.qi-benyu-huiyilu]], 461–462 (cited by [[w.jian-zhou-enlai]], 550 n.33).'
+    add: '[[w.zhou-enlai-nianpu-1949]], III, 48–49 (cited by [[w.jian-zhou-enlai]], 550 n.32b); [[w.zhou-enlai-nianpu-1949]], III, 51, note 1 (cited by [[w.jian-zhou-enlai]], 550 n.33a); [[w.qi-benyu-huiyilu]], 461–462 (cited by [[w.jian-zhou-enlai]], 550 n.33b).'
 - cite:
     id: cal.1966-08-18.china-leadership-12
     item: '[[w.jian-zhou-enlai]], 550–551 (Zhou organizes the parade in a few days; Mao: "We must draw lessons from the Soviet Union, where few people have had the opportunity to see Lenin. Thus, they have dropped Lenin''s banner"; Mao in uniform at Tiananmen shortly after 5 a.m., a million Red Guards and students; a girl puts a Red Guard armband on his left arm; Zhou too in uniform)'
@@ -1226,25 +1199,7 @@ ops:
     add: '[[w.renmin-ribao]], Sept. 16, 1966, 1 (cited by [[w.jian-zhou-enlai]], 552 n.40).'
 - cite:
     id: cal.1966-10-02.china-leadership
-    item: '[[w.jian-zhou-enlai]], 552–553 (the editorial "Thoroughly Criticize the Bourgeois Reactionary Line," so Chen; "bourgeois reactionary line" a new invention)'
-- add:
-    entry:
-      id: cal.1966-10.china-leadership-25
-      when: Oct., after the 2nd
-      date: '1966-10'
-      at: after 1966-10-02
-      thread: china-leadership
-      c: 'Zhou Enlai, having read the editorial, asks Mao what "bourgeois reactionary line" means, no line in the Party''s history having been named so, only "leftist" or "rightist." Mao: "reactionary," not "counterrevolutionary," so that those in the line are not necessarily enemies.'
-      n: '[[w.jian-zhou-enlai]], 553. Made public: 2013 ([[w.zedong-mao-zedong-nianpu]]). To check: [[w.zedong-mao-zedong-nianpu]], VI, 2 (cited by [[w.jian-zhou-enlai]], 553 n.42). See [[cal.1966-10-02.china-leadership]]; [[cal.1966-09-30.china-leadership]]. Names: Zhou Enlai, Mao Zedong. Check: the day.'
-      src:
-        c: 7fa092cc
-        rows:
-        - 'w.jian-zhou-enlai 553: all'
-      tags:
-      - 'polity:prc'
-      - 'vis:only:prc'
-      - 'name:zhou-enlai'
-      - 'name:mao-zedong'
+    item: '[[w.jian-zhou-enlai]], 552–553 (the editorial "Thoroughly Criticize the Bourgeois Reactionary Line," so Chen; "bourgeois reactionary line" a new invention; after reading it Zhou asks Mao what it means, line errors having always been "leftist" or "rightist"; Mao: "reactionary line," not "counterrevolutionary line," so that those in it are not necessarily enemies; not the day)'
 - cite:
     id: cal.1966-10-09.china-leadership
     item: '[[w.jian-zhou-enlai]], 553 (the work conference of Oct. 9 on criticizing the "bourgeois reactionary line," set for seven days, lasting three weeks)'
@@ -1277,7 +1232,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 555 (over a thousand of the new Shanghai Workers'' Revolutionary Rebellion Headquarters, bound for Peking to win the Group''s recognition, stopped by the Shanghai authorities at Anting, some twenty kilometers out; they lie across the tracks and block the Shanghai–Peking line more than twenty hours)'
 - to-check:
     id: cal.1966-11-10.china-leadership-2
-    add: '[[w.nianyi-da-dongluande-niandai]], 127–128; [[w.li-xun-geming-zaofan-niandai]] (cited by [[w.jian-zhou-enlai]], 555 n.48).'
+    add: '[[w.nianyi-da-dongluande-niandai]], 127–128 (cited by [[w.jian-zhou-enlai]], 555 n.48a); [[w.li-xun-geming-zaofan-niandai]] (cited by [[w.jian-zhou-enlai]], 555 n.48b).'
 - cite:
     id: cal.1966-11-10.china-leadership-3
     item: '[[w.jian-zhou-enlai]], 556 (Zhou, not intervening himself, persuades Chen Boda to cable the workers to go back, their protest "[would] influence the productivity of their own work units or even that of the whole country")'
@@ -1301,7 +1256,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 556 (Zhang back in Peking; Tao Zhu doubts his handling, Zhou backing Tao without objecting himself; Mao, "At a Politburo meeting," holding the constitution: "Do the workers have the freedom of assembly? Have you read the constitution?" "It is fine to act first and obtain authorization later"; not the day)'
 - to-check:
     id: cal.1966-11-14.china-leadership
-    add: '[[w.li-xun-geming-zaofan-niandai]], 321–322; [[w.li-wang-li-fansi-lu]], 954–955 (cited by [[w.jian-zhou-enlai]], 556 n.52); [[w.pu-weihua-zalan-jiu-shijie]], 310; [[w.li-wang-li-fansi-lu]], 955–956; [[w.qi-benyu-huiyilu]], 536 (cited by [[w.jian-zhou-enlai]], 556 n.53); [[w.li-xun-geming-zaofan-niandai]], 321–322 (cited by [[w.jian-zhou-enlai]], 556 n.54).'
+    add: '[[w.li-xun-geming-zaofan-niandai]], 321–322 (cited by [[w.jian-zhou-enlai]], 556 n.52a); [[w.li-wang-li-fansi-lu]], 954–955 (cited by [[w.jian-zhou-enlai]], 556 n.52b); [[w.pu-weihua-zalan-jiu-shijie]], 310 (cited by [[w.jian-zhou-enlai]], 556 n.53a); [[w.li-wang-li-fansi-lu]], 955–956 (cited by [[w.jian-zhou-enlai]], 556 n.53b); [[w.qi-benyu-huiyilu]], 536 (cited by [[w.jian-zhou-enlai]], 556 n.53c); [[w.li-xun-geming-zaofan-niandai]], 321–322 (cited by [[w.jian-zhou-enlai]], 556 n.54).'
 - cite:
     id: cal.1966-11-17.china-leadership-2
     item: '[[w.jian-zhou-enlai]], 556–557 (the national conference on industry and transport; Chen Boda''s draft lets workers form their own organizations and students make "revolutionary connections" in factories; the officials almost all oppose: "the nation''s economy will fall into complete disorder")'
@@ -1319,7 +1274,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 557 (Zhou on the "tide of rebellions": "As we cannot stop it, we may try to channel it"; a "punishment ... created by our own behavior in the past. If we do not bear responsibility for it, who will? If we do not go into hell, who will?")'
 - to-check:
     id: cal.1966-11-24.china-leadership-3
-    add: Zhou speech at the conference on political work in industry and transportation of the whole country, November 24, 1966, in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]]; [[w.zhou-enlai-nianpu-1949]], III, 99 (cited by [[w.jian-zhou-enlai]], 557 n.61).
+    add: Zhou speech at the conference on political work in industry and transportation of the whole country, November 24, 1966, in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.jian-zhou-enlai]], 557 n.61a); [[w.zhou-enlai-nianpu-1949]], III, 99 (cited by [[w.jian-zhou-enlai]], 557 n.61b).
 - cite:
     id: cal.1966-12-06.china-leadership-3
     item: '[[w.jian-zhou-enlai]], 557 (Lin Biao joins the conference Dec. 6: it has not gone well; the Cultural Revolution in industry and transport to change direction completely; the conference, set for five days, nearly three weeks)'
@@ -1337,7 +1292,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 557–558 (Mao and Jiang Qing''s dinner for Chen Boda, Zhang Chunqiao, Yao Wenyuan, Wang Li, Qi Benyu and Guan Feng: capitalism may return after his death, "this is why we must carry out the Cultural Revolution"; a "great showdown, involving the whole country"; standing, glass raised: "Cheers to the victory of the full-scale civil war in the whole country next year!"; Zhou not there)'
 - to-check:
     id: cal.1966-12-26.china-leadership
-    add: '[[w.qi-benyu-huiyilu]], 541–544; [[w.li-xianchang-lishi]], 100–104 (cited by [[w.jian-zhou-enlai]], 558 n.62, n.63a, n.63b); Zhang Chunqiao''s letter to Zhang Weiwei, December 1, 1992, in [[w.zhang-chunqiao-yuzhong-jiashu]], 128 (cited by [[w.jian-zhou-enlai]], 558 n.63c, n.63d); Yao Wenyuan''s telephone call to Shanghai the next day, in [[w.jingxian-shinian-yimeng]], 8 (cited by [[w.jian-zhou-enlai]], 558 n.63e, n.63f).'
+    add: '[[w.qi-benyu-huiyilu]], 541–544 (cited by [[w.jian-zhou-enlai]], 558 n.62a, n.63a); [[w.li-xianchang-lishi]], 100–104 (cited by [[w.jian-zhou-enlai]], 558 n.62b, n.63b); Zhang Chunqiao''s letter to Zhang Weiwei, December 1, 1992, in [[w.zhang-chunqiao-yuzhong-jiashu]], 128 (cited by [[w.jian-zhou-enlai]], 558 n.63c, n.63d); Yao Wenyuan''s telephone call to Shanghai the next day, in [[w.jingxian-shinian-yimeng]], 8 (cited by [[w.jian-zhou-enlai]], 558 n.63e, n.63f).'
 - src:
     id: cal.1966-12-26.china-leadership
     rows:
@@ -1379,10 +1334,10 @@ ops:
       when: Dec. 27
       date: '1966-12-27'
       thread: china-leadership
-      c: Zhou Enlai, to shield Tao Zhu after Jiang Qing's attack, tells him of Mao's "full-scale civil war in the whole country," that he may prepare.
+      c: By Qi Benyu's account, Zhou Enlai, to shield Tao Zhu after Jiang Qing's attack, tells him of Mao's "full-scale civil war in the whole country," that he may prepare.
       n: '[[w.jian-zhou-enlai]], 559. Made public: 2016 ([[w.qi-benyu-huiyilu]]). To check: [[w.qi-benyu-huiyilu]], 544 (cited by [[w.jian-zhou-enlai]], 559 n.66). See [[cal.1966-12-27.china-leadership]]. Names: Zhou Enlai, Tao Zhu, Jiang Qing, Mao Zedong. Check: the day.'
       src:
-        c: d19c12b1
+        c: cf3e993f
         rows:
         - 'w.jian-zhou-enlai 559: all'
       tags:
@@ -1436,7 +1391,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 561 (4 p.m., Zhou and Li Fuchun formally meet He Long and his wife; Zhou tells He of Lin Biao''s charges, rumors behind his back and his network in the army destroyed, Lin not "at ease" while He is there; he cuts He short: "There is no need for you to say more. The chairman is defending you. I am also defending you. I will find a place for you to rest for a while. I will bring you back in the fall")'
 - to-check:
     id: cal.1967-01-19.china-leadership
-    add: '[[w.zhou-enlai-nianpu-1949]], III, 114–115; [[w.li-lie-he-long-nianpu]], 787–788 (cited by [[w.jian-zhou-enlai]], 561 n.74).'
+    add: '[[w.zhou-enlai-nianpu-1949]], III, 114–115 (cited by [[w.jian-zhou-enlai]], 561 n.74a); [[w.li-lie-he-long-nianpu]], 787–788 (cited by [[w.jian-zhou-enlai]], 561 n.74b).'
 - cite:
     id: cal.1967-01-20.china-leadership
     item: '[[w.jian-zhou-enlai]], 561 (at 4 a.m. He Long and his wife move to a compound near Xiangshan in Peking''s western suburbs; Zhou''s promise to bring him back in the fall not kept)'
@@ -1453,10 +1408,10 @@ ops:
       date: '1967-01'
       at: after 1967-01-20
       thread: china-leadership
-      c: 'Zhou Enlai, meeting Foreign Ministry representatives after the fall of Tao Zhu and He Long, asks them where they have been, then says: "This movement we are now experiencing is the cruelest in our party''s history."'
+      c: 'By Ling Qing''s account, Zhou Enlai, meeting Foreign Ministry representatives after the fall of Tao Zhu and He Long, asks them where they have been, then says: "This movement we are now experiencing is the cruelest in our party''s history."'
       n: '[[w.jian-zhou-enlai]], 562. Made public: 2008 ([[w.ling-qing-cong-yanan-dao-lianheguo]]). To check: [[w.ling-qing-cong-yanan-dao-lianheguo]], 119 (cited by [[w.jian-zhou-enlai]], 562 n.77). Names: Zhou Enlai, Tao Zhu, He Long. Check: the day.'
       src:
-        c: a284a039
+        c: d69464d5
         rows:
         - 'w.jian-zhou-enlai 562: all'
       tags:
@@ -1507,50 +1462,33 @@ ops:
 - to-check:
     id: cal.1967-01-11.china-leadership-8
     add: '[[w.li-wang-li-fansi-lu]], 794 (cited by [[w.jian-zhou-enlai]], 564 n.84).'
-- add:
-    entry:
-      id: cal.1967-01-10.china-leadership-4
-      when: Jan. 10
-      date: '1967-01-10'
-      thread: china-leadership
-      c: 'Zhou Enlai, with Chen Boda, Jiang Qing, Kang Sheng and others of the Cultural Revolution Group, meets representatives of rebel groups of Peking and elsewhere; at his request Wang Li reads them the "Urgent Notice" and a *Renmin ribao* editorial backing it. Zhou: it was the chairman who found the notice and decided to broadcast it.'
-      n: '[[w.jian-zhou-enlai]], 564. Made public: 1997 ([[w.zhou-enlai-nianpu-1949]]). To check: [[w.renmin-ribao]], Jan. 12, 1967, 1 (cited by [[w.jian-zhou-enlai]], 564 n.85); [[w.zhou-enlai-nianpu-1949]], III, 111–112; [[w.li-wang-li-fansi-lu]], 793–794 (cited by [[w.jian-zhou-enlai]], 564 n.86). See [[cal.1967-01-09.china-leadership-5]]. Names: Zhou Enlai, Chen Boda, Jiang Qing, Kang Sheng, Mao Zedong. Check: the day: the note on the editorial cites the *Renmin ribao* of Jan. 12.'
-      src:
-        c: 8d5272c2
-        rows:
-        - 'w.jian-zhou-enlai 564: all'
-      tags:
-      - 'polity:prc'
-      - 'name:zhou-enlai'
-      - 'name:chen-boda'
-      - 'name:jiang-qing'
-      - 'name:kang-sheng'
-      - 'name:wang-li'
-      - 'name:mao-zedong'
-      - 'ok:fields-place'
+- cite:
+    id: cal.1967-01-10.china-leadership-3
+    item: '[[w.jian-zhou-enlai]], 564 (Jan. 10, Zhou, with Chen Boda, Jiang Qing, Kang Sheng and others of the Group, meets representatives of rebel groups of Peking and elsewhere; at his request Wang Li reads them the "Urgent Notice" and a *Renmin ribao* editorial backing it; Zhou: the chairman found the notice and decided to broadcast it)'
+- to-check:
+    id: cal.1967-01-10.china-leadership-3
+    add: '[[w.renmin-ribao]], Jan. 12, 1967, 1 (cited by [[w.jian-zhou-enlai]], 564 n.85); [[w.zhou-enlai-nianpu-1949]], III, 111–112 (cited by [[w.jian-zhou-enlai]], 564 n.86a); [[w.li-wang-li-fansi-lu]], 793–794 (cited by [[w.jian-zhou-enlai]], 564 n.86b).'
+- check:
+    id: cal.1967-01-10.china-leadership-3
+    text: 'Check: the editorial read at the meeting: [[w.jian-zhou-enlai]], 564 n.85, cites the *Renmin ribao* of Jan. 12, 1967.'
+- check:
+    id: cal.1967-01-10.china-leadership-3
+    text: 'Check: Made public: 1997, if [[w.zhou-enlai-nianpu-1949]], III, 111–112 (cited by [[w.jian-zhou-enlai]], 564 n.86a), prints the meeting.'
 - cite:
     id: cal.1967-01-16.china-leadership
     item: '[[w.jian-zhou-enlai]], 564 ("At a central liaison meeting on January 16," so Chen; Mao: "It is good that the leftist masses have mobilized to seize political power," but "they should only oversee politics and play a supervisory role, and should not manage everyday business")'
 - to-check:
     id: cal.1967-01-16.china-leadership
     add: '[[w.zhou-enlai-nianpu-1949]], III, 113 (cited by [[w.jian-zhou-enlai]], 564 n.87b).'
-- add:
-    entry:
-      id: cal.1967-01.china-leadership-40
-      when: Jan., late
-      date: '1967-01'
-      at: before 1967-01-21
-      thread: china-leadership
-      c: 'Zhou Enlai dictates, with Mao''s approval, four guidelines for "seizing political power": by genuine revolutionary leftists; an act of the left''s unity; within one''s own work unit; in steps, not all at once.'
-      n: '[[w.jian-zhou-enlai]], 564 ("In late January"). Made public: 2008 ([[w.pu-weihua-zalan-jiu-shijie]]). To check: Zhou''s speech to representatives of the industrial and transportation areas, January 16, 1967, in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]]; [[w.pu-weihua-zalan-jiu-shijie]], 356 (cited by [[w.jian-zhou-enlai]], 564 n.88). See [[cal.1967-01-26.china-leadership-3]]. Names: Zhou Enlai, Mao Zedong. Check: the day: the note cites a speech of Jan. 16.'
-      src:
-        c: 0edde7f5
-        rows:
-        - 'w.jian-zhou-enlai 564: all'
-      tags:
-      - 'polity:prc'
-      - 'name:zhou-enlai'
-      - 'name:mao-zedong'
+- cite:
+    id: cal.1967-01-26.china-leadership-3
+    item: '[[w.jian-zhou-enlai]], 564 ("In late January," Zhou, with Mao''s approval, dictates four guidelines for "seizing political power": by genuine revolutionary leftists; an act of the left''s unity; within one''s own work unit; in steps, not all at once; the note cites his speech to the representatives of the industrial and transportation areas, dated "January 16")'
+- to-check:
+    id: cal.1967-01-26.china-leadership-3
+    add: Zhou's speech to representatives of the industrial and transportation areas, January 16, 1967, in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.jian-zhou-enlai]], 564 n.88a); [[w.pu-weihua-zalan-jiu-shijie]], 356 (cited by [[w.jian-zhou-enlai]], 564 n.88b).
+- check:
+    id: cal.1967-01-26.china-leadership-3
+    text: 'Check: [[w.jian-zhou-enlai]], 564 n.88a, dates Zhou''s speech to the representatives of the industrial and transportation areas Jan. 16, 1967, its text "late January"; [[cal.1967-01-16.china-leadership-2]] has him with the petroleum rebels that day.'
 - cite:
     id: cal.1967-01.china-leadership-11
     item: '[[w.jian-zhou-enlai]], 564 (in mid-January Mao says he is considering a "Beijing Commune")'
@@ -1589,13 +1527,13 @@ ops:
     at: '567'
 - to-check:
     id: cal.1967-02.china-leadership-13
-    add: '[[w.shi-yun-zhang-chunqiao-yao-wenyuan-shizhuan]], 356; [[w.fang-weizhong-li-fuchun-zhuan]], 667 (cited by [[w.jian-zhou-enlai]], 567 n.4).'
+    add: '[[w.shi-yun-zhang-chunqiao-yao-wenyuan-shizhuan]], 356 (cited by [[w.jian-zhou-enlai]], 567 n.4a); [[w.fang-weizhong-li-fuchun-zhuan]], 667 (cited by [[w.jian-zhou-enlai]], 567 n.4b).'
 - cite:
     id: cal.1967-01-20.china-leadership-5
     item: '[[w.jian-zhou-enlai]], 567 (Jan. 20, the army''s leaders at the Jingxi Hotel on whether Xiao Hua should be denounced at a rally, as Jiang Qing and the Group want; Ye Jianying, slamming his palm on a table in the quarrel with Jiang, hurts a finger)'
 - to-check:
     id: cal.1967-01-20.china-leadership-5
-    add: '[[w.liu-jixian-ye-jianying-nianpu]], II, 956; [[w.xu-xiangqian-nianpu]], II, 185 (cited by [[w.jian-zhou-enlai]], 567 n.5).'
+    add: '[[w.liu-jixian-ye-jianying-nianpu]], II, 956 (cited by [[w.jian-zhou-enlai]], 567 n.5a); [[w.xu-xiangqian-nianpu]], II, 185 (cited by [[w.jian-zhou-enlai]], 567 n.5b).'
 - cite:
     id: cal.1967-01-19.china-leadership-3
     item: '[[w.jian-zhou-enlai]], 567 (Zhou intervenes: Xiao Hua need not attend the rally to be denounced)'
@@ -1607,7 +1545,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 567 (Feb. 2, two liaison groups to meet regularly: the Group with Zhou, on "the situation, policymaking, and drafting related documents"; Zhou, Chen Boda, Kang Sheng, Li Fuchun, marshals and veterans with Jiang Qing and Group members, on "routine issues concerning party and government operations")'
 - to-check:
     id: cal.1967-02-02.china-leadership-3
-    add: '[[w.zhou-enlai-nianpu-1949]], III, 122; [[w.zhou-enlai-zhuan-1949]], 954–955 (cited by [[w.jian-zhou-enlai]], 567 n.7).'
+    add: '[[w.zhou-enlai-nianpu-1949]], III, 122 (cited by [[w.jian-zhou-enlai]], 567 n.7a); [[w.zhou-enlai-zhuan-1949]], 954–955 (cited by [[w.jian-zhou-enlai]], 567 n.7b).'
 - cite:
     id: cal.1967-02-04.china-leadership-2
     item: '[[w.jian-zhou-enlai]], 567 (Mao at once vetoes Zhou''s proposals)'
@@ -1622,7 +1560,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 568 (Ye Jianying, pointing at Jiang: "You have caused chaos in the party, in the government, and in factories and the countryside! Now, you even try to bring chaos to the military"; the Shanghai Commune started "without going through the Politburo"; Xu Xiangqian: "The army is a pillar of the revolution; do you still want it? If not, I will quit!"; Zhou calm, neither joining nor stopping them)'
 - to-check:
     id: cal.1967-02-11.china-leadership-3
-    add: '[[w.fan-shuo-ye-jianying-zhuan]], 586–587; [[w.liu-jixian-ye-jianying-nianpu]], II, 959–960 (cited by [[w.jian-zhou-enlai]], 568 n.10); [[w.pu-weihua-zalan-jiu-shijie]], 449–450; [[w.xu-xiangqian-zhuan]], 532 (cited by [[w.jian-zhou-enlai]], 568 n.11); [[w.liu-wusheng-wenge-zhong-de-zhou-enlai]], 192 (cited by [[w.jian-zhou-enlai]], 568 n.12).'
+    add: '[[w.fan-shuo-ye-jianying-zhuan]], 586–587 (cited by [[w.jian-zhou-enlai]], 568 n.10a); [[w.liu-jixian-ye-jianying-nianpu]], II, 959–960 (cited by [[w.jian-zhou-enlai]], 568 n.10b); [[w.pu-weihua-zalan-jiu-shijie]], 449–450 (cited by [[w.jian-zhou-enlai]], 568 n.11a); [[w.xu-xiangqian-zhuan]], 532 (cited by [[w.jian-zhou-enlai]], 568 n.11b); [[w.liu-wusheng-wenge-zhong-de-zhou-enlai]], 192 (cited by [[w.jian-zhou-enlai]], 568 n.12).'
 - cite:
     id: cal.1967-02-10.china-leadership
     item: '[[w.jian-zhou-enlai]], 568 (Mao urges Jiang to criticize herself, "high aspirations but low capacity"; the Group "an independent kingdom that has ignored the Politburo and its Standing Committee"; no intention of "bringing down all cadres," "anarchism in action"; the Shanghai Commune "a huge matter ... not discussed in advance"; Chen puts it "days later" than Feb. 11)'
@@ -1631,7 +1569,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 568–569 (all the Group but Jiang, the marshals and veterans, on "making revolution and promoting production"; Tan Zhenlin against Zhang Chunqiao: "the struggles now are the most ruthless in our party''s history ... I will struggle to the end"; Zhou bids him stay as he rises to leave; Chen Yi: "Do not leave! Stay and struggle against them!"; the Yan''an purges; Zhou''s one rebuttal, of Chen Boda on the *Hongqi* essay; Zhou telephones Mao several times)'
 - to-check:
     id: cal.1967-02-16.china-leadership
-    add: '[[w.nianyi-da-dongluande-niandai]], 209–211; [[w.li-wang-li-fansi-lu]], 977–978; [[w.qi-benyu-huiyilu]], II, 576–577; [[w.zhou-enlai-nianpu-1949]], III, 127 (cited by [[w.jian-zhou-enlai]], 569 n.14); [[w.zhou-enlai-zhuan-1949]], 956 (cited by [[w.jian-zhou-enlai]], 569 n.15b); [[w.pu-weihua-zalan-jiu-shijie]], 449–450 (cited by [[w.jian-zhou-enlai]], 569 n.16).'
+    add: '[[w.nianyi-da-dongluande-niandai]], 209–211 (cited by [[w.jian-zhou-enlai]], 569 n.14a); [[w.li-wang-li-fansi-lu]], 977–978 (cited by [[w.jian-zhou-enlai]], 569 n.14b); [[w.qi-benyu-huiyilu]], II, 576–577 (cited by [[w.jian-zhou-enlai]], 569 n.14c); [[w.zhou-enlai-nianpu-1949]], III, 127 (cited by [[w.jian-zhou-enlai]], 569 n.14d); [[w.zhou-enlai-zhuan-1949]], 956 (cited by [[w.jian-zhou-enlai]], 569 n.15b); [[w.pu-weihua-zalan-jiu-shijie]], 449–450 (cited by [[w.jian-zhou-enlai]], 569 n.16).'
 - cite:
     id: cal.1967-02.china-leadership-22
     item: '[[w.jian-zhou-enlai]], 569 (Jiang Qing, told of the meeting, makes Zhang Chunqiao, Yao Wenyuan, Wang Li and Kang Sheng go to Mao; he listens with "a smiling face" until Chen Yi''s words on Yan''an: "Was the Rectification wrong? Should I ask Wang Ming to come back?"; on Zhou: "There is nothing in the party charter that requires the essay to be approved by him!")'
@@ -1650,22 +1588,12 @@ ops:
 - to-check:
     id: cal.1967-02-25.china-leadership-5
     add: '[[w.li-wang-li-fansi-lu]], 987 (cited by [[w.jian-zhou-enlai]], 570 n.24).'
-- add:
-    entry:
-      id: cal.1967-03-13.china-leadership-4
-      when: Mar. 13
-      date: '1967-03-13'
-      thread: china-leadership
-      c: 'Zhou Enlai, to a meeting of army commanders of army level and above: with revolutionary committees set up in more provinces the Cultural Revolution would be near a victorious end; military rule to pave the way for "the great unity of the revolutionaries through ''grasping revolution and promoting production''"; "the necessity of creating opportunities for the revolutionary cadres to split with the capitalist roaders."'
-      n: '[[w.jian-zhou-enlai]], 570–571 (the note dating the speech). Made public: Check (the speech in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]], undated; [[w.wu-qingtong-zhou-enlai-zai-wenhua-dageming-zhong]], 2013). To check: Zhou''s speech at a meeting of commanders of army level and above, March 13, 1967, in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.jian-zhou-enlai]], 571 n.26a, n.28); [[w.wu-qingtong-zhou-enlai-zai-wenhua-dageming-zhong]], 92 (cited by [[w.jian-zhou-enlai]], 571 n.26b). Names: Zhou Enlai.'
-      src:
-        c: 5aa347bd
-        rows:
-        - 'w.jian-zhou-enlai 570–571: all'
-      tags:
-      - 'polity:prc'
-      - 'vis:only:prc'
-      - 'name:zhou-enlai'
+- cite:
+    id: cal.1967-03-13.china-leadership
+    item: '[[w.jian-zhou-enlai]], 570–571 (the speech to the conference of commanders of army level and above, so the note: with revolutionary committees in more provinces the Cultural Revolution "much closer to a victorious end"; military rule to pave the way for "the great unity of the revolutionaries through ''grasping revolution and promoting production''"; "the necessity of creating opportunities for the revolutionary cadres to split with the capitalist roaders")'
+- to-check:
+    id: cal.1967-03-13.china-leadership
+    add: Zhou's speech at a meeting of commanders of army level and above, March 13, 1967, in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.jian-zhou-enlai]], 571 n.26a, n.28); [[w.wu-qingtong-zhou-enlai-zai-wenhua-dageming-zhong]], 92 (cited by [[w.jian-zhou-enlai]], 571 n.26b).
 - cite:
     id: cal.1967-03-30.china-leadership-3
     item: '[[w.jian-zhou-enlai]], 572 (Mao backs and himself edits Qi Benyu''s article naming Liu the "biggest traitor" of the revolution; Mao no longer calls Liu "comrade")'
@@ -1677,7 +1605,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 572–573 ("in late spring" posters against Zhou at several colleges; at the Peking Steel and Iron College a "May Sixteenth Corps" posts "An Open Letter to Zhou," "a representative of rightist opportunist lines"; then a citywide "May Sixteenth Red Guards Corps" to criticize him)'
 - to-check:
     id: cal.1967-05.china-leadership-19
-    add: '[[w.pu-weihua-zalan-jiu-shijie]], 504–506; [[w.wang-nianyi-some-materials-about-the-may]], 31–45 (cited by [[w.jian-zhou-enlai]], 573 n.31).'
+    add: '[[w.pu-weihua-zalan-jiu-shijie]], 504–506 (cited by [[w.jian-zhou-enlai]], 573 n.31a); [[w.wang-nianyi-some-materials-about-the-may]], 31–45 (cited by [[w.jian-zhou-enlai]], 573 n.31b).'
 - cite:
     id: cal.1967-05-18.china-leadership-2
     item: '[[w.jian-zhou-enlai]], 573 (Nankai University Red Guards find "Wu Hao''s Statement on Splitting with the Communist Party," *Shenbao*, late February 1932, Wu Hao an alias of Zhou''s, and give it to the Group as evidence "Zhou is a traitor"; Jiang Qing passes it to Zhou)'
@@ -1741,7 +1669,7 @@ ops:
     item: '[[w.jian-zhou-enlai]], 575 (Zhou urges Chen and Zhong to come out for the "leftist workers": if they do, Mao will not purge them)'
 - to-check:
     id: cal.1967-07-18.china-leadership-4
-    add: Zhou's speech at the conference of officers above division level in the Hubei Military Command, July 18, 1967, in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]]; [[w.zhou-enlai-nianpu-1949]], III, 170 (cited by [[w.jian-zhou-enlai]], 575 n.42).
+    add: Zhou's speech at the conference of officers above division level in the Hubei Military Command, July 18, 1967, in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.jian-zhou-enlai]], 575 n.42a); [[w.zhou-enlai-nianpu-1949]], III, 170 (cited by [[w.jian-zhou-enlai]], 575 n.42b).
 - cite:
     id: cal.1967-07-18.china-leadership
     item: '[[w.jian-zhou-enlai]], 575 (that evening Zhou with Mao and Chen Zaidao and Zhong Hanhua: they are to "change their viewpoints," "help persuade the ''One Million Heroes'' to change their positions," call the two factions together for "a grand unity"; they promise to carry it out)'
