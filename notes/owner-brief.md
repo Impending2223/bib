@@ -1119,3 +1119,7 @@ But I'd like to see the language of the current rule and your proposed rule befo
 ## Nov. 21, 2026, about 1:25 p.m. (Pacific)
 
 "I endorse your revised R27."
+
+## Nov. 21, 2026, about 1:40 p.m. (Pacific)
+
+"Could we do a PR and merge now?"
