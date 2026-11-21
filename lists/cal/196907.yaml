@@ -259,6 +259,14 @@ entries:
       rows:
         - 'via w.jianguo-yilai-mao-zedong XIX, 453 n.1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1969-07-08.china-leadership-4
+    when: July 8
+    date: '1969-07-08'
+    place: peking
+    thread: china-leadership
+    c: Peng Dehuai 彭德怀 is interrogated on Liu Huinong 刘惠农 of Wuhan 武汉.
+    n: '[[w.peng-dehuai-nianpu]], 825. Made public: 1998. Names: Peng Dehuai.'
+    tags: [polity:prc, vis:only:prc, name:peng-dehuai]
   - id: cal.1969-07-11.china-leadership
     when: July 11
     date: '1969-07-11'
@@ -387,6 +395,19 @@ entries:
       - 1969-07-16T11:00Z
       - 1969-07-16T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1969-07-16.china-leadership-2
+    when: July 16
+    date: '1969-07-16'
+    place: peking
+    thread: china-leadership
+    c: Peng Dehuai 彭德怀 is interrogated on his relations with Pu Anxiu 浦安修.
+    n: '[[w.peng-dehuai-nianpu]], 825. The words: 下午 (825). Made public: 1998. Names: Peng Dehuai.'
+    tags: [polity:prc, vis:only:prc, name:peng-dehuai]
+    time_range:
+      - 1969-07-16T04:00Z
+      - 1969-07-16T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1969-07-17.china-leadership
     when: July 17
@@ -518,6 +539,34 @@ entries:
     c: Zhou Enlai presides over the Politburo's meeting on Shanxi, which passes the paper settling Shanxi's problem; afterward he reports the Politburo's view to Mao and Lin Biao.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 304 (July 22, 1969). Made public: 2020. Names: Zhou Enlai, Mao Zedong, Lin Biao.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:lin-biao, vis:only:prc]
+  - id: cal.1969-07-22.china-leadership-2
+    when: July 22
+    date: '1969-07-22'
+    place: peking
+    thread: china-leadership
+    c: Peng Dehuai 彭德怀 is interrogated on a letter he wrote to He Zhuguo 何柱国 in the western expedition 西征 and a circular telegram he sent to Yan Baichuan 阎百川 (Yan Xishan) in the eastern expedition 东征.
+    n: '[[w.peng-dehuai-nianpu]], 825. The words: 上午 (825). Made public: 1998. Names: Peng Dehuai.'
+    tags: [polity:prc, vis:only:prc, name:peng-dehuai]
+    time_range:
+      - 1969-07-21T22:00Z
+      - 1969-07-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1969-07-22.china-leadership-3
+    when: July 22
+    date: '1969-07-22'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1969-07-22.china-leadership-2
+    c: The Zhou Huan 周桓 case group 专案组 of the Shenyang Military Region 沈阳军区 interrogates Peng Dehuai 彭德怀; back, he slumps on the table and says his head is swimming.
+    n: '[[w.peng-dehuai-nianpu]], 825. The words: 下午 (825). Made public: 1998. Names: Peng Dehuai.'
+    tags: [polity:prc, vis:only:prc, name:peng-dehuai]
+    time_range:
+      - 1969-07-22T04:00Z
+      - 1969-07-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1969-07-23.china-leadership
     when: July 23
     date: '1969-07-23'

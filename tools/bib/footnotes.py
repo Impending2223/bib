@@ -26,7 +26,7 @@ STYLE
 """
 import re
 
-from . import claims
+from . import claims, witnesses
 
 SEP = "\n\n"          # between footnotes while the note's passes run over them as one text
 MARK = "{}"
@@ -66,7 +66,8 @@ def _cites(series, e):
 
     def via(key, pin, note, joined):
         rec = reg.get((key, str(pin), str(note)))
-        what = f"{rec.get('record')}, {rec.get('where')}" if rec else "a record"
+        where = witnesses.cite_where(rec.get("where")) if rec else ""
+        what = (f"{rec.get('record')}, {where}" if where else rec.get("record")) if rec else "a record"
         p = f"{pin} & n.{note}" if joined else f"{pin} n.{note}"
         return dict(kind="card", key=key, pin=p, paren=f"(citing {what})", text=f"[[{key}]], {p} (citing {what})")
 

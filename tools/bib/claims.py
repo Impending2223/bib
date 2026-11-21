@@ -396,12 +396,15 @@ def _render_row(series, e, kind, key, pin, note, item, register):
         return f"{short_form(key, series.works)}{', ' + pin if pin else ''}"
     if kind == "via":
         rec = register.get((key, str(pin), str(note)))
-        what = f"{rec.get('record')}, {rec.get('where')}" if rec else "a record"
+        from . import witnesses
+        where = witnesses.cite_where(rec.get("where")) if rec else ""
+        what = (f"{rec.get('record')}, {where}" if where else rec.get("record")) if rec else "a record"
         return f"{short_form(key, series.works)}, {pin} n.{note} (citing {what})"
     if kind == "witness":
         from . import witnesses
         w = witnesses.load()[0].get(key)
-        return f"{w.get('what')}, {w.get('where')}" if w and w.get("where") else (w or {}).get("what") or key
+        where = witnesses.cite_where(w.get("where")) if w else ""
+        return f"{w.get('what')}, {where}" if w and where else (w or {}).get("what") or key
     if kind == "url":
         return item or key
     return item or key

@@ -938,3 +938,15 @@ Put them in the "gloss" on the most appropriate entry, or the opening or closing
 ## Nov. 21, 2026, 12:24 a.m. Pacific
 
 "Please continue."
+
+## Nov. 21, 2026, 10:03 a.m. Pacific
+
+"Claude, could we remove all the \"held\"/\"not held\" notices from the citations?"
+
+## Nov. 21, 2026, 10:11 a.m. Pacific
+
+"There's no name entry on "Madame Nhu’s tour, a month. Silent pickets at the Universities of Michigan and Chicago, placards at Harvard and Princeton; cheered at Fordham and Georgetown; a “fighting lady” to the Los Angeles County Republicans’ dinner." Do we not have a name entry for Madame Nhu?"
+
+## Nov. 21, 2026, 10:27 a.m. Pacific
+
+"I don't know how the reader or auditor agents tag names, but could an alias or "ghost name" entry help here?"
