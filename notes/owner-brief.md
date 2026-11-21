@@ -1026,3 +1026,13 @@ Is that right? Is that what we do for "similar entries already in the calendar"?
 "Apply your public-date rule."
 
 (The rule proposed: a Red Guard printing makes an act public in China from its date, if it was sold or posted openly, not marked 内部, and the printing, or a work quoting it, has been read; elsewhere, from the first printing that reached abroad (a Consulate translation, a foreign press report) or the later open printing (the 1975 reprint, the *Wenku*, a published book); where not known, the later open printing, the earlier one behind "To check:".)
+
+## Nov. 21, 2026, about 11:35 a.m. (Pacific)
+
+"\"Peking's house searches of August 1966: which count should lead cal.1966-08.china-leadership-21, MacFarquhar's 33,695 households or the Peking histories' 114,000?\"
+
+Do we know the source, authority, or reasoned basis for the two different numbers?"
+
+## Nov. 21, 2026, about 11:40 a.m. (Pacific)
+
+"Claude, what's the \"as reported\" doing here? What's with the goofy formatting? Why isn't this just a normal entry?" (a screenshot of two August 1966 China entries: Changsha, workers' posters against their superiors (Dikötter 70 n.13), a normal entry; and, set off with a rule and "AS REPORTED / CHINA: LEADERSHIP, AUG.", "As a Shanghai report has it: on a single day more than 400 factory cadres are paraded through the streets in dunces' caps; over a million workers take part in the Cultural Revolution over the summer." (Dikötter 121 n.16; Made public: 2016; To check: Shanghai Municipal Archives, Aug. 1966, A36-2-757, pp. 103–112; Check: the day.))
