@@ -369,7 +369,7 @@ index e0631c1..abd0b6f 100644
  
  POLLS = re.compile(r"^Polls close (?:noon|midnight|\d{1,2}(?::\d{2})?)\S*(?: [ap]\.m\.)?.*?: .*\]\(https://[^)\s]+\).*\.$")
 diff --git a/tools/bib/footnotes.py b/tools/bib/footnotes.py
-index 975eb6b..cb3b49a 100644
+index 975eb6b..4ea3dd4 100644
 --- a/tools/bib/footnotes.py
 +++ b/tools/bib/footnotes.py
 @@ -28,6 +28,7 @@ STYLE
@@ -745,7 +745,7 @@ index 975eb6b..cb3b49a 100644
  def place(whole, render, units, groups, eid):
      """The rendered line with its marks after each run's last unit (inside its claim's span); None where a unit's
      rendering is not found in order."""
-@@ -219,3 +442,534 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
+@@ -219,3 +442,537 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
  ol.fn li:target{background:color-mix(in srgb,var(--accent) 12%,transparent)}
  ol.e .n{font-size:.88rem;line-height:1.42}
  </style>"""
@@ -1227,10 +1227,13 @@ index 975eb6b..cb3b49a 100644
 +def _a_card(cited, what):
 +    """Whether the record is a work the note cites by its card: the card's main title in its words, three words or
 +    more, or quoted or in italics ("Cheng Hua, *Zhou Enlai he tade Mishumen* (1992)" for [[w.hua-zhou-enlai-he-tade]])."""
-+    f = f" {fold(what)} "
++    f = f" {fold(re.sub(r'[(（][^()（）]*[)）]', ' ', what or ''))} "      # its own words, not a parenthetical's
 +    marked = " ".join(fold(x) for x in re.findall(r"\*([^*]+)\*|[\"“]([^\"”]+)[\"”]", what or "") for x in x if x)
 +    for t in cited.titles.values():
 +        if t and (len(t.split()) >= 3 and f" {t} " in f or len(t.split()) >= 2 and f" {t} " in f" {marked} "):
++            return True
++        head = " ".join(t.split()[:4]) if t else ""      # a long title's head: its translation may be the card's
++        if len(t.split()) >= 5 and sum(1 for x in head.split() if x not in _STOP) >= 3 and f" {head} " in f:
 +            return True
 +    return False
 +
