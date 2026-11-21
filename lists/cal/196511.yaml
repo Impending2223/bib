@@ -101,11 +101,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou attends at the Beijing Hotel the reception given by the Algerian embassy's chargé d'affaires for the eleventh anniversary of the Algerian revolution.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 483–84 (Nov. 1, 1965; evening; Beijing Hotel). The book names the chargé 穆罕默德·胡利. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 483–84 (Nov. 1, 1965; evening; Beijing Hotel); [[w.chen-yi-nianpu]], 1131 (Nov. 1, 1965, evening, the Peking Hotel; Chen Yi speaks at the reception of the chargé d''affaires 穆罕默德·胡利, on the meaning of the Algerian armed struggle''s victory). The book names the chargé 穆罕默德·胡利. Names: Zhou Enlai.'
     src:
       c: 48693e59
       rows:
         - 'w.zhou-enlai-waijiao-huodong 483–84: all'
+        - 'w.chen-yi-nianpu 1131: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-11-01T11:00Z
@@ -119,11 +120,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou watches the first public performance in Peking of the Soviet Army's Alexandrov Red Banner Song and Dance Ensemble and receives its head and principal performers.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 484 (Nov. 1, 1965; evening; Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 484 (Nov. 1, 1965; evening; Beijing); [[w.chen-yi-nianpu]], 1131 (Nov. 1, 1965; Chen Yi with Zhou at the Alexandrov Song and Dance Ensemble''s first performance in Peking; after it on the stage photographed with the performers). Names: Zhou Enlai.'
     src:
       c: 1fce7b24
       rows:
         - 'w.zhou-enlai-waijiao-huodong 484: all'
+        - 'w.chen-yi-nianpu 1131: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-11-01T11:00Z
@@ -763,6 +765,30 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1879: all'
     tags: [polity:prc, name:deng-xiaoping, name:li-fuchun, name:bo-yibo, name:li-jingquan, vis:only:prc]
+  - id: cal.1965-11-02.china-leadership-11
+    when: Nov. 2
+    date: '1965-11-02'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 gives his views on the situation at home and abroad at the Peking municipal committee's 中共北京市委 forum.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 445. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: d1bf0cb7
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 445: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-11-02.china-leadership-12
+    when: Nov. 2
+    date: '1965-11-02'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Cambodian press delegation led by 泰周肯, editor-in-chief of the Agence Khmère de Presse.
+    n: '[[w.chen-yi-nianpu]], 1131. The words: 下午 (1131). Names: Chen Yi.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-02T04:00Z
+      - 1965-11-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-03.transition-and-staff
     when: Nov. 3
     date: '1965-11-03'
@@ -1019,6 +1045,44 @@ entries:
       - 1965-11-03T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-03.china-leadership-7
+    when: Nov. 3
+    date: '1965-11-03'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 asks Yang Shangkun 杨尚昆 to arrange the enlarged Politburo: two meetings, the first on the 6th to hear reports, the full list notified, then group discussion; the next a forum; thirty to take part; seven papers to read meanwhile.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 445–446. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 91d2dec5
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 445–446: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
+  - id: cal.1965-11-03.china-leadership-8
+    when: Nov. 3
+    date: '1965-11-03'
+    thread: china-leadership
+    also: [latin-america]
+    c: Chen Yi 陈毅 receives and gives a luncheon for Gonzalo Rojas Pizarro 贡萨洛·罗哈斯·皮萨罗, head of the Chilean cultural delegation, and his wife.
+    n: '[[w.chen-yi-nianpu]], 1132. The words: 中午 (1132). Names: Chen Yi.'
+    tags: [polity:prc, polity:chile, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-03T04:00Z
+      - 1965-11-03T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-03.china-leadership-9
+    when: Nov. 3
+    date: '1965-11-03'
+    place: peking
+    thread: china-leadership
+    also: [soviet-union]
+    c: Chen Yi 陈毅 at the Workers' Gymnasium 工人体育馆, Peking 北京, watches the friendly game of a Soviet sports club's men's basketball team and the PLA's men's team, and is photographed with the players.
+    n: '[[w.chen-yi-nianpu]], 1132. The words: 晚上 (1132). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi]
+    time_range:
+      - 1965-11-03T11:00Z
+      - 1965-11-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-04.vietnam
     when: Nov. 4
     date: '1965-11-04'
@@ -1168,6 +1232,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 684: all'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-04.china-leadership-7
+    when: Nov. 4
+    date: '1965-11-04'
+    thread: china-leadership
+    also: [south-asia]
+    c: 伦迪尔·苏巴, Nepal's new Ambassador, calls on Chen Yi 陈毅.
+    n: '[[w.chen-yi-nianpu]], 1132. The words: 上午 (1132). Names: Chen Yi.'
+    tags: [polity:prc, polity:nepal, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-03T22:00Z
+      - 1965-11-04T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1965-11-05.robert-kennedy
     when: Nov. 5
@@ -1342,8 +1419,13 @@ entries:
     date: '1965-11-05'
     thread: china-leadership
     c: Zhou attends the lunch Cheng Qian gives for Li Zongren.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 762 (Nov. 5, 1965). Names: Zhou Enlai, Cheng Qian, Li Zongren.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 762 (Nov. 5, 1965); [[w.chen-yi-nianpu]], 1132 (Nov. 5, 1965, noon; Chen Yi at the banquet of Cheng Qian 程潜, Vice-Chairman of the NPC Standing Committee, and his wife 郭翼青 for Li Zongren and his wife and Cheng Siyuan and his wife). Names: Zhou Enlai, Cheng Qian, Li Zongren.'
     tags: [name:zhou-enlai, polity:prc]
+    time_range:
+      - 1965-11-05T04:00Z
+      - 1965-11-05T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-05.china-leadership-2
     when: Nov. 5
     date: '1965-11-05'
@@ -1367,12 +1449,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Dong Biwu and Chen Yi receive the delegation of the Soviet–Chinese Friendship Society led by Kovanov, the Alexandrov Red Banner Song and Dance Ensemble's head, Alexandrov, the Soviet journalists' delegation head, Bragin, the head of a group of Soviet musicians, Kovali, and other guests.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 68 (Nov. 5, 1965). Names: Dong Biwu, Chen Yi. Check: the names, from the Chinese 科瓦诺夫·弗拉季米尔·华西里耶维奇, 亚历山德罗夫, 布拉金 and 科瓦里.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 68 (Nov. 5, 1965); [[w.chen-yi-nianpu]], 1132 (Nov. 5, 1965, evening; Chen Yi with Dong Biwu, Kang Sheng, Guo Moruo, Lin Feng, Liu Ningyi and Liao Chengzhi receives the delegation led by V. V. Kovanov 科瓦诺夫 and the leaders of the Alexandrov Ensemble, the Soviet journalists'', musicians'', art exhibition''s, acrobats'' and shooting groups). Names: Dong Biwu, Chen Yi. Check: the names, from the Chinese 科瓦诺夫·弗拉季米尔·华西里耶维奇, 亚历山德罗夫, 布拉金 and 科瓦里.'
     src:
       c: 1b0426b5
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 68: all'
+        - 'w.chen-yi-nianpu 1132: ?'
     tags: [polity:prc, polity:ussr, name:dong-biwu, name:chen-yi]
+    time_range:
+      - 1965-11-05T11:00Z
+      - 1965-11-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-05.china-leadership-4
     when: Nov. 5
     date: '1965-11-05'
@@ -1413,11 +1501,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, to 7 p.m. The Secretariat meets; Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 5, 1965). The words: 参加书记处会议到7时 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 685 (Nov. 5, 1965); [[w.peng-zhen-nianpu-1902]], IV, 446 (Nov. 5, 1965; Peng Zhen presides; the Secretariat agrees in principle to the request of Chen Boda, Zhou Yang, Hu Sheng 胡绳 and others on the tasks of the Central Institute of Marxism-Leninism, its center the Party''s history and Mao Zedong Thought, and the writing of the Party''s history: Mao named Dong Biwu chairman, Chen Boda in charge, with Zhou Yang, Hu Qiaomu and Tian Jiaying; the minutes of the capital construction conference discussed; the Organization Department''s list of appointments passed; Peng''s six points on the third front: 6.7 million at work besides the Railways Ministry, a force bigger than the army, to be put in order under the Construction Commission, the field armies managed centrally, trials first in the southwest and northwest; supplies under the Planning Commission, delivered to the door, 10 percent saved; multiyear projects planned through; better equipment paid for by thrift; third-front committees in the regions, political departments in the Construction Commission; new projects held in check, stretching the front the greatest waste). The words: 参加书记处会议到7时 (II, 685). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
     src:
       c: 725ac970
       rows:
         - 'w.yang-shangkun-riji II, 685: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 446: ?'
     tags: [polity:prc, vis:only:prc]
     time_range:
       - 1965-11-05T04:00Z
@@ -1467,6 +1556,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1879: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-11-05.china-leadership-10
+    when: Nov. 5
+    date: '1965-11-05'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Chen Yi 陈毅 at the capital's rally for the forty-eighth anniversary of the October Revolution.
+    n: '[[w.chen-yi-nianpu]], 1132. The words: 晚上 (1132). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-05T11:00Z
+      - 1965-11-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-06.cuba
     when: Nov. 6
     date: '1965-11-06'
@@ -1645,7 +1747,7 @@ entries:
     date: '1965-11-06'
     thread: china-leadership
     c: Zhou attends the enlarged Politburo meeting on half-work, half-study.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 762–63 (Nov. 6, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 627–628 (Nov. 6, 1965; Liu presides at the enlarged Politburo meeting on the system of urban half-work, half-study education and speaks: national education has three forms, full-time, spare-time and half-work, half-study (half-farming, half-study); half-work schools are to train a new kind of worker with socialist consciousness, culture, science and technique and practical skill, the goal being men able to be cadres, technicians and engineers but also workers and peasants; intellectuals are too few, not too many, and more are needed, and the villages need many technicians for the "four modernizations"; the course for the cities is "universal junior-middle education by full-time and half-work, half-study schools walking on two legs"; the trials are to be kept up five years and spread in ten; the three fundamental measures against revisionism and a capitalist restoration are the socialist-education movement carried through, the reform of the education system with half-work, half-study, and cadres'' taking part in labor); [[w.yang-shangkun-riji]], II, 685 (Nov. 6, 1965; the Politburo, an hour and a half, on education half at work and half at study; Yang there; Zhou not named; the words: 参加了1小时半的政治局会议(讨论亦工亦学教育问题)). Made public: 1996. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 762–63 (Nov. 6, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 627–628 (Nov. 6, 1965; Liu presides at the enlarged Politburo meeting on the system of urban half-work, half-study education and speaks: national education has three forms, full-time, spare-time and half-work, half-study (half-farming, half-study); half-work schools are to train a new kind of worker with socialist consciousness, culture, science and technique and practical skill, the goal being men able to be cadres, technicians and engineers but also workers and peasants; intellectuals are too few, not too many, and more are needed, and the villages need many technicians for the "four modernizations"; the course for the cities is "universal junior-middle education by full-time and half-work, half-study schools walking on two legs"; the trials are to be kept up five years and spread in ten; the three fundamental measures against revisionism and a capitalist restoration are the socialist-education movement carried through, the reform of the education system with half-work, half-study, and cadres'' taking part in labor); [[w.yang-shangkun-riji]], II, 685 (Nov. 6, 1965; the Politburo, an hour and a half, on education half at work and half at study; Yang there; Zhou not named; the words: 参加了1小时半的政治局会议(讨论亦工亦学教育问题)); [[w.peng-zhen-nianpu-1902]], IV, 447 (Nov. 6, 1965; Peng Zhen at the enlarged Politburo under Liu Shaoqi on half-work, half-study education in the cities). Made public: 1996. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1965-11-06.china-leadership-2
     when: Nov. 6
@@ -1654,12 +1756,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou attends the reception given by the Soviet ambassador Rabin for the October Revolution anniversary.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 485 (Nov. 6, 1965; evening; Beijing); [[w.yang-shangkun-riji]], II, 685 (Nov. 6, 1965; the Soviet embassy''s reception for the 48th anniversary of the October Revolution, 5:30 to 7 p.m., Zhou, Chen Yi and Peng Zhen there; Yang there; the mood good; the words: 5时半到7时，去苏联大使馆参加十月革命48周年纪念会). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 485 (Nov. 6, 1965; evening; Beijing); [[w.yang-shangkun-riji]], II, 685 (Nov. 6, 1965; the Soviet embassy''s reception for the 48th anniversary of the October Revolution, 5:30 to 7 p.m., Zhou, Chen Yi and Peng Zhen there; Yang there; the mood good; the words: 5时半到7时，去苏联大使馆参加十月革命48周年纪念会); [[w.chen-yi-nianpu]], 1132 (Nov. 6, 1965, evening, the embassy; Chen Yi speaks at Lapin''s 拉宾 banquet on the October Revolution''s meaning; the American imperialists near the end of their road; the friendship of the Chinese and Soviet peoples unbreakable). Names: Zhou Enlai.'
     src:
       c: ac13b5d3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 485: all'
         - 'w.yang-shangkun-riji II, 685: ?'
+        - 'w.chen-yi-nianpu 1132: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-11-06T11:00Z
@@ -1742,6 +1845,65 @@ entries:
       - 1965-11-06T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-06.china-leadership-8
+    when: Nov. 6
+    date: '1965-11-06'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 sees the amateur creative performance of Peking's workers and peasants and meets the performers and authors.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 447. The words: 晚 (IV, 447). Names: Peng Zhen.'
+    src:
+      c: 705ee0f5
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 447: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1965-11-06T11:00Z
+      - 1965-11-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-06.china-leadership-9
+    when: Nov. 6
+    date: '1965-11-06'
+    place: xuzhou
+    thread: china-leadership
+    c: The memorial tower to the martyrs of the Huaihai campaign 淮海战役烈士纪念塔 at Xuzhou 徐州, its inscription by Chen Yi 陈毅, opens on the seventeenth anniversary of the campaign's start.
+    n: '[[w.chen-yi-nianpu]], 1126. See [[cal.1965-10-01.china-leadership-6]]. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+  - id: cal.1965-11-06.china-leadership-10
+    when: Nov. 6
+    date: '1965-11-06'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Chen Yi 陈毅 cables Gromyko, the Soviet Foreign Minister, on the forty-eighth anniversary of the October Revolution.
+    n: '[[w.chen-yi-nianpu]], 1132. Names: Chen Yi, Gromyko.'
+    tags: [polity:prc, polity:ussr, name:chen-yi, name:gromyko-andrei, ok:fields-place]
+  - id: cal.1965-11-06.china-leadership-11
+    when: Nov. 6
+    date: '1965-11-06'
+    thread: china-leadership
+    also: [middle-east]
+    c: Chen Yi 陈毅 receives the Syrian military delegation led by Brigadier 阿卜杜勒·埃尼·易卜拉欣 and Colonel 穆罕默德·陶菲格·胡拉尼.
+    n: '[[w.chen-yi-nianpu]], 1132. The words: 晚上 (1132). Names: Chen Yi.'
+    tags: [polity:prc, polity:syria, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-06T11:00Z
+      - 1965-11-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-06.china-leadership-12
+    when: Nov. 6
+    date: '1965-11-06'
+    thread: china-leadership
+    also: [middle-east]
+    c: Chen Yi 陈毅 at the return banquet of Brigadier 阿卜杜勒·埃尼·易卜拉欣, head of the Syrian military delegation.
+    n: '[[w.chen-yi-nianpu]], 1132–1133. The words: 晚上 (1132–1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:syria, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-06T11:00Z
+      - 1965-11-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-07.vietnam-order-of-battle
     when: Nov. 7
     date: '1965-11-07'
@@ -1817,6 +1979,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 685: all'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-07T11:00Z
+      - 1965-11-07T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-07.china-leadership-4
+    when: Nov. 7
+    date: '1965-11-07'
+    thread: china-leadership
+    also: [korea]
+    c: Chen Yi 陈毅 and He Long 贺龙 receive the Korean "Amnok River" 鸭绿江 women's basketball team and watch its game with a combined Chinese women's team.
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 晚上 (1133). Names: Chen Yi, He Long.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, name:he-long, ok:fields-place]
     time_range:
       - 1965-11-07T11:00Z
       - 1965-11-07T14:00Z
@@ -1963,15 +2138,17 @@ entries:
   - id: cal.1965-11-08.china-leadership
     when: Nov. 8
     date: '1965-11-08'
+    place: guangdong
     thread: china-leadership
     also: [vietnam-hanoi, soviet-union]
     c: 'Guangdong. Zhou to Hồ Chí Minh on the purpose of Soviet aid to Vietnam: to isolate China; to improve Soviet–U.S. relations; to subvert and sabotage, making trouble in China and perhaps in Vietnam.'
-    n: 'Zhou Enlai with Hồ Chí Minh, Guangdong, Nov. 8, 1965, [[w.77-conversations-between-chinese]], [88 n.135](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=86) (the editors'' note to doc. 14, quoting the talk; no city, hour or record named). Made public: 1998. To check: Zhou Enlai with Hồ Chí Minh, Nov. 8, 1965, the record not named (quoted by [[w.77-conversations-between-chinese]], 88 n.135); [[w.zhou-enlai-waijiao-huodong]] (Nov. 8, 1965). See [[cal.1965-10-06.china-leadership]], [[cal.1965-11-07.china-leadership]] (Zhou at Guangzhou, Nov. 7–8). Names: Zhou Enlai, Hồ Chí Minh.'
+    n: 'Zhou Enlai with Hồ Chí Minh, Guangdong, Nov. 8, 1965, [[w.77-conversations-between-chinese]], [88 n.135](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=86) (the editors'' note to doc. 14, quoting the talk; no city, hour or record named). [[w.khoo-collateral-damage]], 34 (Zhou to Hồ Chí Minh in Guangdong, Nov. 8). Made public: 1998. To check: Zhou Enlai with Hồ Chí Minh, Nov. 8, 1965, the record not named (quoted by [[w.77-conversations-between-chinese]], 88 n.135); [[w.zhou-enlai-waijiao-huodong]] (Nov. 8, 1965); [[w.77-conversations-between-chinese]], 93 (cited by [[w.khoo-collateral-damage]], 34 n.176). See [[cal.1965-10-06.china-leadership]], [[cal.1965-11-07.china-leadership]] (Zhou at Guangzhou, Nov. 7–8). Names: Zhou Enlai, Hồ Chí Minh.'
     src:
       c: 3f0325ec
       rows:
         - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=86: all'
         - 'via x.1965-11-08.zhou-enlai-and-ho-chi-minh-guangdong: all'
+        - 'w.khoo-collateral-damage 34: ?'
     tags: [name:zhou-enlai, name:ho-chi-minh, polity:prc, polity:drv, vis:only:prc+drv]
   - id: cal.1965-11-08.china-leadership-2
     when: Nov. 8
@@ -2051,6 +2228,25 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 685: all'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-11-08T04:00Z
+      - 1965-11-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-08.china-leadership-7
+    when: Nov. 8
+    date: '1965-11-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Prince Norodom Kantol, Cambodia's Prime Minister and Foreign Minister, on the twelfth anniversary of Cambodia's full independence.
+    n: '[[w.chen-yi-nianpu]], 1133. Names: Chen Yi, Norodom Kantol.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:norodom-kantol, ok:fields-place]
+  - id: cal.1965-11-08.china-leadership-8
+    when: Nov. 8
+    date: '1965-11-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the China–Cambodia Friendship Association's cocktail party for the twelfth anniversary of Cambodia's full independence.
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 下午 (1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, ok:fields-place]
     time_range:
       - 1965-11-08T04:00Z
       - 1965-11-08T10:00Z
@@ -2263,6 +2459,18 @@ entries:
     c: New York, the United Nations. Roger LaPorte, 22, burns himself to death before the building to protest the war. The history takes it as following Morrison's act a week before.
     n: '[[w.lich-su-khang-chien-chong-my]], V, 306. See [[cal.1965-11-02.students]]. Names: Morrison, LaPorte. Check: the record, not read; the history prints the name "Rôgiơ Lapotơ".'
     tags: [polity:us, name:morrison-norman-r, name:laporte-roger-allen]
+  - id: cal.1965-11-09.china-leadership-7
+    when: Nov. 9
+    date: '1965-11-09'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 speaks at the reception of 张岗, Cambodia''s Ambassador, and his wife for the twelfth anniversary of independence: Cambodia, refusing American aid, lives as well and better; its victories have international meaning.'
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 晚上 (1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-09T11:00Z
+      - 1965-11-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-10.congress
     when: Nov. 10
     date: '1965-11-10'
@@ -2498,7 +2706,7 @@ entries:
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
     c: 'Shanghai''s *Wenhui bao* prints Yao Wenyuan''s "On the New Historical Play *Hai Rui Dismissed from Office*": the play''s returning of land and redressing of wrongs tied to the "go-it-alone" and "reversal" winds of 1962; Wu Han charged with wanting to pull down the people''s communes and restore the landlords and rich peasants.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 10, 1965. Published: *Wenhui bao*, Nov. 10, 1965. [[w.macfarquhar-maos-last-revolution]], 18 (the publication); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 628 (Nov. 10, 1965; the book says Yao Wenyuan''s article, in the Shanghai *Wenhui bao*, on the historical play *Hai Rui Dismissed from Office* "opened the prelude to the Cultural Revolution"; footnote 1 (628) names Yao as then a member of the editorial board of *Jiefangjun bao* and of the writing group of the Shanghai committee); [[w.macfarquhar-origins-of-the-cultural]], III, 249, 252 (Yao''s article, dated and titled; it is the first target on the eve of the Cultural Revolution, Wu Han, whom Mao had admired); [[w.macfarquhar-origins-of-the-cultural]], III, 445 (the article in the Shanghai *Wenhui bao*, kept secret from the Peking committee); [[w.deng-xiaoping-nianpu-1904]], III, 1880 (Nov. 10, 1965; the Shanghai Wenhui bao prints Yao Wenyuan 姚文元''s article ''On the new historical play *Hai Rui Dismisses the Official*''; the nianpu (footnote 2: Yao then editorial-board member of the Jiefang ribao and a member of the Shanghai Party committee''s writing group): the article was planned by Jiang Qing at Shanghai and approved by Mao before publication; it ties the play''s ''returning the land'' and ''redressing wrongs'' to the so-called ''go-it-alone wind'' and ''reversal wind'' of 1962, charges the author Wu Han 吴晗 (footnote 3: then vice-mayor of Peking) with wishing to pull down the people''s communes and restore the landlords'' and rich peasants'' rule, shocked the country and became the fuse of the Cultural Revolution); [[w.mao-zedong-zhuan]], VI, ch. 74 (Nov. 10 the Wenhui bao prints Yao Wenyuan''s article on Hai Rui Dismissed from Office, written at Jiang Qing''s planning; Mao saw it and agreed to its printing (Mao to foreign guests, 1967: Peking could not organize it, Shanghai did) (n.14)). [[w.yang-jisheng-tiandi-fanfu]], II, 1143 (planned by Mao, the fuse of the Cultural Revolution). To check: [[w.fangeming-xiuzhengzhuyi-fenzi-fan]], 18 (cited by [[w.macfarquhar-maos-last-revolution]], 18 n.11); Yao Wenyuan, "On the new historical play *The Dismissal of Hai Rui*," [[w.wenhui-bao]], Nov. 10, 1965 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 249 n.1a); Mao Zedong 毛泽东, talk with Cabo 卡博 and Baluku 巴卢库, Feb. 3, 1967 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.14). Names: Yao Wenyuan, Wu Han.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 10, 1965. Published: *Wenhui bao*, Nov. 10, 1965. [[w.macfarquhar-maos-last-revolution]], 18 (the publication); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 628 (Nov. 10, 1965; the book says Yao Wenyuan''s article, in the Shanghai *Wenhui bao*, on the historical play *Hai Rui Dismissed from Office* "opened the prelude to the Cultural Revolution"; footnote 1 (628) names Yao as then a member of the editorial board of *Jiefangjun bao* and of the writing group of the Shanghai committee); [[w.macfarquhar-origins-of-the-cultural]], III, 249, 252 (Yao''s article, dated and titled; it is the first target on the eve of the Cultural Revolution, Wu Han, whom Mao had admired); [[w.macfarquhar-origins-of-the-cultural]], III, 445 (the article in the Shanghai *Wenhui bao*, kept secret from the Peking committee); [[w.deng-xiaoping-nianpu-1904]], III, 1880 (Nov. 10, 1965; the Shanghai Wenhui bao prints Yao Wenyuan 姚文元''s article ''On the new historical play *Hai Rui Dismisses the Official*''; the nianpu (footnote 2: Yao then editorial-board member of the Jiefang ribao and a member of the Shanghai Party committee''s writing group): the article was planned by Jiang Qing at Shanghai and approved by Mao before publication; it ties the play''s ''returning the land'' and ''redressing wrongs'' to the so-called ''go-it-alone wind'' and ''reversal wind'' of 1962, charges the author Wu Han 吴晗 (footnote 3: then vice-mayor of Peking) with wishing to pull down the people''s communes and restore the landlords'' and rich peasants'' rule, shocked the country and became the fuse of the Cultural Revolution); [[w.mao-zedong-zhuan]], VI, ch. 74 (Nov. 10 the Wenhui bao prints Yao Wenyuan''s article on Hai Rui Dismissed from Office, written at Jiang Qing''s planning; Mao saw it and agreed to its printing (Mao to foreign guests, 1967: Peking could not organize it, Shanghai did) (n.14)). [[w.yang-jisheng-tiandi-fanfu]], II, 1143 (planned by Mao, the fuse of the Cultural Revolution); [[w.peng-zhen-nianpu-1902]], IV, 447 (Nov. 10, 1965; *Wenhui bao* prints Yao Wenyuan''s article; the play''s author the historian and Peking vice-mayor Wu Han 吴晗, charged with speaking up through Hai Rui for the overthrown, "a poisonous weed"; planned by Jiang Qing with Zhang Chunqiao and Yao in Shanghai early in 1965 and written in secret); [[w.jian-zhou-enlai]], 529–530 (Yao Wenyuan''s essay in the *Wenhui bao*; the play by Wu Han, vice mayor of Peking). To check: [[w.fangeming-xiuzhengzhuyi-fenzi-fan]], 18 (cited by [[w.macfarquhar-maos-last-revolution]], 18 n.11); Yao Wenyuan, "On the new historical play *The Dismissal of Hai Rui*," [[w.wenhui-bao]], Nov. 10, 1965 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 249 n.1a); Mao Zedong 毛泽东, talk with Cabo 卡博 and Baluku 巴卢库, Feb. 3, 1967 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.14). Names: Yao Wenyuan, Wu Han.'
     src:
       c: adc9d23f
       rows:
@@ -2512,6 +2720,8 @@ entries:
         - 'w.mao-zedong-zhuan VI, ch. 74: A, B'
         - 'via w.mao-zedong-zhuan VI, ch.74 n.14: A, B'
         - 'w.yang-jisheng-tiandi-fanfu II, 1143: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 447: ?'
+        - 'w.jian-zhou-enlai 529–530: ?'
     tags: [name:yao-wenyuan, polity:prc]
   - id: cal.1965-11-10.china-leadership-2
     when: Nov. 10
@@ -2519,7 +2729,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'The Central Committee''s notice: Yang Shangkun relieved as director of its General Office and moved to be a secretary of the Guangdong provincial Party committee.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 10, 1965. [[w.zhou-enlai-nianpu-1949]], II, 765 (Nov. 10, 1965 (noted at Nov. 19): the Central Committee''s notice relieves Yang Shangkun as director of its General Office and appoints Wang Dongxing); [[w.macfarquhar-maos-last-revolution]], 19 (Zhongfa [1965] 644); [[w.macfarquhar-origins-of-the-cultural]], III, 447 (Yang Shangkun dismissed the day Yao''s article appears; Wang Dongxing, head of the 8341 guard unit, in his place); [[w.mao-zedong-zhuan]], VI, ch. 74 (Nov. 10 the Center relieves Yang Shangkun as director of the General Office, Wang Dongxing succeeding; known to few at the time). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). Check: MacFarquhar (19 n.19) has Yang Shangkun told of his dismissal on Oct. 29 by Zhou Enlai, Deng Xiaoping and Peng Zhen. To check: Yang Shangkun, diary entry of Oct. 29, 1965 (told of his dismissal by Zhou Enlai, Deng Xiaoping and Peng Zhen), printed in Yang Shangkun riji, in [[w.shangkun-yang-shangkun-riji-2]] (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.19); [[w.lieberthal-central-documents-and-politburo]] (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.20a); [[w.schoenhals-ccp-central-documents-from]], vi–xiii (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.20b); [[w.xin-zhongguo-biannianshi-1949]], 267 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.101a); [[w.jin-1949-1989-niande-zhongguo]], 635 n.1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.101b); [[w.zhisui-private-life-of-chairman]], 433–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.102a); [[w.al-zhongguo-gongchan-dang-zhizheng]], 264 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.102b); Informant V, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.102c). Names: Yang Shangkun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 10, 1965. [[w.zhou-enlai-nianpu-1949]], II, 765 (Nov. 10, 1965 (noted at Nov. 19): the Central Committee''s notice relieves Yang Shangkun as director of its General Office and appoints Wang Dongxing); [[w.macfarquhar-maos-last-revolution]], 19 (Zhongfa [1965] 644); [[w.macfarquhar-origins-of-the-cultural]], III, 447 (Yang Shangkun dismissed the day Yao''s article appears; Wang Dongxing, head of the 8341 guard unit, in his place); [[w.mao-zedong-zhuan]], VI, ch. 74 (Nov. 10 the Center relieves Yang Shangkun as director of the General Office, Wang Dongxing succeeding; known to few at the time). [[w.peng-zhen-nianpu-1902]], IV, 445 (Nov. 10, 1965; the Center''s notice relieving Yang Shangkun as director of its General Office and moving him to be a secretary of the Guangdong provincial committee); [[w.jian-zhou-enlai]], 532 ("Around the same time" Yang Shangkun dismissed as head of the General Office at Mao''s behest; Wang Dongxing, long head of Mao''s bodyguards, his successor; Zhou, Liu, Deng and the others silent). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). Check: MacFarquhar (19 n.19) has Yang Shangkun told of his dismissal on Oct. 29 by Zhou Enlai, Deng Xiaoping and Peng Zhen. To check: Yang Shangkun, diary entry of Oct. 29, 1965 (told of his dismissal by Zhou Enlai, Deng Xiaoping and Peng Zhen), printed in Yang Shangkun riji, in [[w.shangkun-yang-shangkun-riji-2]] (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.19); [[w.lieberthal-central-documents-and-politburo]] (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.20a); [[w.schoenhals-ccp-central-documents-from]], vi–xiii (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.20b); [[w.xin-zhongguo-biannianshi-1949]], 267 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.101a); [[w.jin-1949-1989-niande-zhongguo]], 635 n.1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.101b); [[w.zhisui-private-life-of-chairman]], 433–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.102a); [[w.al-zhongguo-gongchan-dang-zhizheng]], 264 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.102b); Informant V, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.102c). Names: Yang Shangkun.'
     src:
       c: 33f4665d
       rows:
@@ -2534,6 +2744,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 447 n.102b: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 447 n.102c: A'
         - 'w.mao-zedong-zhuan VI, ch. 74: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 445: ?'
+        - 'w.jian-zhou-enlai 532: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1965-11-10.china-leadership-3
     when: Nov. 10–11
@@ -2542,13 +2754,15 @@ entries:
     thread: china-leadership
     also: [korea, vietnam]
     c: Zhou has four talks, Nov. 10 and 11, with North Korea's vice-premier Lee Ju-yeon, sent by Premier Kim Il Sung, on some international questions.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 763 (Nov. 10–11, 1965); [[w.zhou-enlai-waijiao-huodong]], 485 (Nov. 10–11, 1965; Building 4, Diaoyutai guesthouse; the four talks with Lee Ju-yeon: Nov. 10, 4 p.m.; Nov. 11, 8:30 a.m., 4 p.m. and 7:30 p.m.; Lee came on Kim Il Sung''s commission to hear Zhou''s views on some international questions); [[w.zhonghua-renmin-gongheguo-waijiao]], 68 (Nov. 10–12, 1965; the talks with Kim Il Sung''s special envoy, Vice-Premier Yi Ju Yon, and Foreign Minister Pak Seong Chol: Vietnam, Indonesia, the Korea–Japan treaty, the Afro-Asian conference''s postponement, war preparation, trade). Made public: 1993. Names: Zhou Enlai, Lee Ju-yeon.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 763 (Nov. 10–11, 1965); [[w.zhou-enlai-waijiao-huodong]], 485 (Nov. 10–11, 1965; Building 4, Diaoyutai guesthouse; the four talks with Lee Ju-yeon: Nov. 10, 4 p.m.; Nov. 11, 8:30 a.m., 4 p.m. and 7:30 p.m.; Lee came on Kim Il Sung''s commission to hear Zhou''s views on some international questions); [[w.zhonghua-renmin-gongheguo-waijiao]], 68 (Nov. 10–12, 1965; the talks with Kim Il Sung''s special envoy, Vice-Premier Yi Ju Yon, and Foreign Minister Pak Seong Chol: Vietnam, Indonesia, the Korea–Japan treaty, the Afro-Asian conference''s postponement, war preparation, trade); [[w.jian-zhou-enlai]], 528–529 (Chen Yi, with Zhou, to the North Korean delegation: the PKI has three million members, "If only dozens of thousands resist resolutely, that will be fine"; the right''s overthrow of Sukarno "might turn out to be a good thing," the PKI turning to armed struggle; and Zhou''s word that the Asian-African conference cannot now be held; the note cites the second conversation, Nov. 11). Made public: 1993. To check: Second conversation by Zhou and Chen Yi with DPRK vice prime minister Yi Chu-yon, November 11, 1965, 106-01476-06, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 529 n.41, n.44). Names: Zhou Enlai, Lee Ju-yeon.'
     src:
       c: 4bf79040
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 763: ?'
         - 'w.zhou-enlai-waijiao-huodong 485: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 68: A'
+        - 'w.jian-zhou-enlai 528–529: ?'
+        - 'via x.1965-11-11.zhou-chen-yi-second-conversation-yi-chu-yon: ?'
     tags: [name:zhou-enlai, polity:prc, polity:dprk, vis:only:prc+dprk]
   - id: cal.1965-11-10.china-leadership-4
     when: Nov. 10
@@ -2622,11 +2836,13 @@ entries:
     time: 1965-11-10T12:30Z
     thread: china-leadership
     c: The radio broadcasts "Refute the so-called united action of the new leaders of the CPSU" 驳苏共新领导的所谓联合行动, 8:30 to 10:30 p.m.; Yang Shangkun 杨尚昆 listens.
-    n: '[[w.yang-shangkun-riji]], II, 686 (Nov. 10, 1965). The words: 晚间八时半联播了《驳苏共新领导的所谓联合行动》，到10时30分才完 (II, 686). Names: Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 686 (Nov. 10, 1965); [[w.khoo-collateral-damage]], 23 (published Nov. 11: the Soviets in collusion with the Americans, the ground for rejecting United Action). The words: 晚间八时半联播了《驳苏共新领导的所谓联合行动》，到10时30分才完 (II, 686). To check: Renmin ribao and Hongqi editorial departments, "Refutation of the New Leaders of the CPSU on ''United Action''," Nov. 11, 1965 (cited by [[w.khoo-collateral-damage]], 23 n.80a); [[w.griffith-sino-soviet-relations-1964]], 455–470 (cited by [[w.khoo-collateral-damage]], 23 n.80b); [[w.xie-yixian-zhongguo-dangdai-waijiaoshi]], 241 (cited by [[w.khoo-collateral-damage]], 23 n.81). Names: Yang Shangkun.'
     src:
       c: ada4a657
       rows:
         - 'w.yang-shangkun-riji II, 686: all'
+        - 'w.khoo-collateral-damage 23: ?'
+        - 'via x.1965-11-11.renmin-ribao-hongqi-united-action-editorial-nov-11: ?'
     tags: [polity:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-11-10.china-leadership-9
@@ -2665,6 +2881,18 @@ entries:
       - 1965-11-10T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-10.china-leadership-11
+    when: Nov. 10
+    date: '1965-11-10'
+    place: tianjin
+    thread: china-leadership
+    c: Tianjin 天津. Peng Zhen 彭真, asked by telephone by Deng Tuo 邓拓 whether Peking's papers should reprint Yao Wenyuan's 姚文元 article (Fan Jin 范瑾 had asked Zheng Tianxiang 郑天翔, who sent her to Deng Tuo), answers that it waits until he is back in Peking.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 447. Made public: 2012. See [[cal.1965-11-10.china-leadership]]. Names: Peng Zhen, Yao Wenyuan.'
+    src:
+      c: 3ee07606
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 447: all'
+    tags: [polity:prc, name:peng-zhen, name:yao-wenyuan, vis:only:prc]
   - id: cal.1965-11-11.europe-and-the-alliance
     when: Nov. 11
     date: '1965-11-11'
@@ -3019,12 +3247,13 @@ entries:
     place: tianjin
     thread: china-leadership
     c: 'Tianjin 天津. Mao 毛泽东, leaving Peking 北京 by special train for the south, hears the Hebei Provincial Committee 河北省委 heads. "What are my instructions?" They: "prepare for war, prepare for famine, for the people." Mao: "for the people has been said for years." Are the four clean-ups good? "Plainly good."'
-    n: '[[w.mao-zedong-zhuan]], VI, ch. 74. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 74). To check: Mao Zedong 毛泽东, talk on hearing the heads of the Hebei Provincial Committee 河北省委, Nov. 12, 1965 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.15); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1965-11-10.china-leadership]]. Names: Mao Zedong.'
+    n: '[[w.mao-zedong-zhuan]], VI, ch. 74. [[w.peng-zhen-nianpu-1902]], IV, 447 (Nov. 12, 1965; Mao leaves Peking by special train, by way of Tianjin, for Shanghai). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 74). To check: Mao Zedong 毛泽东, talk on hearing the heads of the Hebei Provincial Committee 河北省委, Nov. 12, 1965 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.15); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1965-11-10.china-leadership]]. Names: Mao Zedong.'
     src:
       c: 64d5d6d4
       rows:
         - 'w.mao-zedong-zhuan VI, ch. 74: all'
         - 'via w.mao-zedong-zhuan VI, ch.74 n.15: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 447: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1965-11-12.vietnam-hanoi
     when: Nov. 12
@@ -3052,6 +3281,14 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 116: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 116 n.24a: all'
     tags: [polity:prc, vis:only:prc, name:yao-wenyuan]
+  - id: cal.1965-11-12.china-leadership-7
+    when: Nov. 12
+    date: '1965-11-12'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the Kyoto academic delegation led by Ashida Jōji 芦田让治.
+    n: '[[w.chen-yi-nianpu]], 1133. Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
   - id: cal.1965-11-13.transition-and-staff
     when: Nov. 13
     date: '1965-11-13'
@@ -3070,7 +3307,14 @@ entries:
     date: '1965-11-13'
     thread: china-leadership
     c: 'Zhou reports on planning to the State Council''s conference on planning, capital construction, finance and other trades. At the Central Work Conference the line for the Third Plan and the 1966 plan was set, drafted from the Center''s and Mao''s repeated instructions of last year and this; more grounded, more real, and a first summing up of the past decade; a good plan; now carry it out, relying on two things: Mao Zedong Thought in command and the masses; wisdom comes from the masses, in working people are teachers everywhere. The plan is not rigid; small changes, frequent change not allowed, but plans must be adjusted. Five priorities: farming, defense, aid abroad, the large and small third fronts, basic industry. Control population; improve living on more output and family planning. Imports must be urgent, good, not duplicated, timely and politically allowed.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 763 (Nov. 13, 1965). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 763 (Nov. 13, 1965); [[w.jian-zhou-enlai]], 526 (agriculture "the first area to protect," preparing for famine set beside preparing for war; the note, n.31, prints the speech "November 23, 1965" and the archive "HBPA" for the file 855-8-3113-3 that 528 n.40 gives as Nov. 13, HPA); [[w.jian-zhou-enlai]], 528 (Sukarno''s word to the embassy of early November; the leaders, Zhou among them, still hope "the ICP and left-wing forces would amass their strength" and counterattack; the note cites this speech). Made public: 1997. To check: Zhou''s speech at a planning conference, November 13, 1965 (so 528 n.40; "November 23," 526 n.31), 855-8-3113-3, Hebei Provincial Archive (cited by [[w.jian-zhou-enlai]], 526 n.31, 528 n.40). Names: Zhou Enlai.'
+    src:
+      c: 264a98df
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 763: ?'
+        - 'w.jian-zhou-enlai 526: ?'
+        - 'via x.1965-11-13.zhou-speech-planning-conference-hpa-855-8-3113-3: ?'
+        - 'w.jian-zhou-enlai 528: ?'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1965-11-13.china-leadership-2
     when: Nov. 13
@@ -3092,12 +3336,13 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking. Deng Tuo, the city''s secretary for propaganda and the press, with Li Qi and Fan Jin, on reprinting Yao Wenyuan''s article: they will ask the *Wenhui bao* whether Mao stands behind it, and reprint if he does.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 445–46. Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.jin-1949-1989-niande-zhongguo]], 612–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.96a). Names: Yao Wenyuan, Mao Zedong.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 445–46; [[w.peng-zhen-nianpu-1902]], IV, 447 (Nov. 13, 1965; Deng Tuo calls Li Qi, Fan Jin and others; a group drawn from the colleges and elsewhere to discuss *Hai Rui Dismissed from Office* and write criticism of Wu Han, Deng Tuo at its head; the *Wenhui bao* asked where Yao''s article came from, Fan Jin and others learning nothing). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.jin-1949-1989-niande-zhongguo]], 612–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.96a). Names: Yao Wenyuan, Mao Zedong.'
     src:
       c: 0b2255bb
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 445–46: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 445 n.96a: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 447: ?'
     tags: [polity:prc, name:yao-wenyuan, name:mao-zedong, vis:only:prc]
   - id: cal.1965-11-13.china-leadership-5
     when: Nov. 13–19
@@ -3195,6 +3440,18 @@ entries:
       - 1965-11-13T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-13.china-leadership-11
+    when: Nov. 13
+    date: '1965-11-13'
+    place: peking
+    thread: china-leadership
+    c: Peng Zhen 彭真 back in Peking 北京 from Tianjin 天津.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 447. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: fd8301ff
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 447: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1965-11-14.vietnam
     when: Nov. 14–16
     date: '1965-11-14'
@@ -3375,6 +3632,18 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1881: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-11-14.china-leadership-5
+    when: Nov. 14
+    date: '1965-11-14'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives all the members of the Burmese industrial survey group led by Major 钦苏 of the Industrial Development Corporation.
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 下午 (1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-14T04:00Z
+      - 1965-11-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-15.court
     when: Nov. 15
     date: '1965-11-15'
@@ -3473,13 +3742,14 @@ entries:
     date: '1965-11-15'
     thread: china-leadership
     c: 'Zhou attends the enlarged Politburo meeting, Nov. 15–18, on the 1966 plan, construction priorities and half-work, half-study. Nov. 16: not to let anyone take half-work half-study as meaning now to abolish the three great differences; the direction is firm but abolition takes a long time; it is a matter of policy and direction; the aim of education: serve the proletariat''s politics, join production and labor, and half-work half-study will train young people with socialist awareness and learning. Nov. 17–18, on the national economic plan: the Third Plan took nine months to feel out, has a first summing up, nearer reality, now firm it up; "prepare for war, prepare for famine, for the people" is both strategic line and present work; farming central to it: rely on peasants, the collective, science; war preparation and third-front building do not mean neglecting farming; spend less, do more. Proposes the Center approve. The meeting decides to push trials and spread half-work half-study and half-farm half-study schooling, and agrees with Liu''s "five years'' trial, ten years'' spread, a little more trial if needed", and approves the 1966 capital construction plan in principle.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 764–65 (Nov. 15–18, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 628 (Nov. 15 and 16, 1965; Liu presides at the enlarged Politburo meeting again on the system of urban half-work, half-study education and says the industrial departments are both production teams and teaching teams and must attend to education, and that young people at labor need care for health, with hours not too long or heavy; some half-work, half-study schools have heavy labor and heavy lessons too); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 628–629 (Nov. 17 and 18, 1965; Liu presides at the enlarged Politburo meeting, which hears Yu Qiuli on the national planning conference, Gu Mu on capital construction, Zhao Erlu on the defense industry and Wu Bo on finance, and in principle approves the 1966 national economic plan). Made public: 1996. Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 764–65 (Nov. 15–18, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 628 (Nov. 15 and 16, 1965; Liu presides at the enlarged Politburo meeting again on the system of urban half-work, half-study education and says the industrial departments are both production teams and teaching teams and must attend to education, and that young people at labor need care for health, with hours not too long or heavy; some half-work, half-study schools have heavy labor and heavy lessons too); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 628–629 (Nov. 17 and 18, 1965; Liu presides at the enlarged Politburo meeting, which hears Yu Qiuli on the national planning conference, Gu Mu on capital construction, Zhao Erlu on the defense industry and Wu Bo on finance, and in principle approves the 1966 national economic plan); [[w.peng-zhen-nianpu-1902]], IV, 448 (Nov. 15–18, 1965; Peng Zhen at the enlarged Politburo under Liu Shaoqi, again on half-work, half-study in the cities and on the 1966 plan and the priorities of construction). Made public: 1996. Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: b0bf63a4
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 764–65: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 628: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 628–629: A, F'
+        - 'w.peng-zhen-nianpu-1902 IV, 448: ?'
     tags: [name:zhou-enlai, name:liu-shaoqi, polity:prc, vis:only:prc]
   - id: cal.1965-11-15.china-leadership-5
     when: Nov. 15
@@ -3531,6 +3801,64 @@ entries:
       - 1965-11-15T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-15.china-leadership-8
+    when: Nov. 15
+    date: '1965-11-15'
+    thread: china-leadership
+    c: Peng Zhen 彭真 sends Lu Dingyi's 陆定一 letter on manual and mental labor to Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Chen Boda 陈伯达 and Kang Sheng 康生.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 448. Made public: 2012. Names: Peng Zhen, Lu Dingyi, Liu Shaoqi, Zhou Enlai, Chen Boda, Kang Sheng.'
+    src:
+      c: aed04a22
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 448: all'
+    tags: [polity:prc, name:peng-zhen, name:lu-dingyi, name:liu-shaoqi, name:zhou-enlai, name:chen-boda, name:kang-sheng, vis:only:prc, ok:fields-place]
+  - id: cal.1965-11-15.china-leadership-9
+    when: Nov. 15
+    date: '1965-11-15'
+    thread: china-leadership
+    also: [south-asia]
+    c: Don Bernard Rupasinghe Gunawardena 唐·本·鲁帕辛格·古纳瓦德纳, Ceylon's new Ambassador, calls on Chen Yi 陈毅 on the presenting of his credentials.
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 上午 (1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:ceylon, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-14T22:00Z
+      - 1965-11-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-15.china-leadership-10
+    when: Nov. 15
+    date: '1965-11-15'
+    thread: china-leadership
+    also: [africa]
+    c: Waziri Juma 瓦齐里·朱马, Tanzania's new Ambassador, calls on Chen Yi 陈毅 on the presenting of his credentials.
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 上午 (1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:tanzania, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-14T22:00Z
+      - 1965-11-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-15.china-leadership-11
+    when: Nov. 15
+    date: '1965-11-15'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 receives 纳辛·艾哈迈德, correspondent of Pakistan's *Dawn* 《黎明报》, answers his questions and wishes him well in his work for the two countries' friendship.
+    n: '[[w.chen-yi-nianpu]], 1133. The words: 下午 (1133). Names: Chen Yi.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-11-15T04:00Z
+      - 1965-11-15T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-15.china-leadership-12
+    when: Nov. 15
+    date: '1965-11-15'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 speaks at the cocktail party of Liao Chengzhi 廖承志, president of the China–Japan Friendship Association, for the Japanese youth delegations, restating China's firm support for the Japanese people against the United States.
+    n: '[[w.chen-yi-nianpu]], 1133. Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
   - id: cal.1965-11-16.civil-rights-the-executive
     when: Nov. 16–17
     date: '1965-11-16'
@@ -4043,13 +4371,14 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Zhou, with Liu Shaoqi, Zhu De and other leaders, receives the delegations of fifteen Japanese youth organizations to the Sino-Japanese youth friendship gathering.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 485 (Nov. 18, 1965; evening; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 69 (Nov. 18, 1965; Liu, Zhu De and Zhou receive members of 15 Japanese youth delegations, the Democratic Youth League among them); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 629 (Nov. 18, 1965; Liu receives the heads of the second batch of Japanese youth delegations to the China–Japan youth friendship gathering and Sunama Ichiro of the Japanese Communist Party; he says China, once a backward country, still has much backwardness in economy and culture, the villages above all more than Japan, and it will take decades to overcome it; it can be done only by the Chinese government and people through thrift, not by plundering and exploiting other countries and nations; China''s great majority are united under the Party and Mao and will make the country well in economy and culture by hard effort). Names: Zhou Enlai, Liu Shaoqi, Zhu De.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 485 (Nov. 18, 1965; evening; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 69 (Nov. 18, 1965; Liu, Zhu De and Zhou receive members of 15 Japanese youth delegations, the Democratic Youth League among them); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 629 (Nov. 18, 1965; Liu receives the heads of the second batch of Japanese youth delegations to the China–Japan youth friendship gathering and Sunama Ichiro of the Japanese Communist Party; he says China, once a backward country, still has much backwardness in economy and culture, the villages above all more than Japan, and it will take decades to overcome it; it can be done only by the Chinese government and people through thrift, not by plundering and exploiting other countries and nations; China''s great majority are united under the Party and Mao and will make the country well in economy and culture by hard effort); [[w.peng-zhen-nianpu-1902]], IV, 448–449 (Nov. 18, 1965; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Zhu De and others, receives the fifteen Japanese youth delegations and, in Peking, Sunama Ichiryō of the Japanese party''s Secretariat, Saionji Kinkazu 西园寺公一 and his wife, Miyoshi Hajime 三好一 of the Japan-China Friendship Association and Sasaki Kazushi 佐佐木一司 of the Democratic Youth League). Names: Zhou Enlai, Liu Shaoqi, Zhu De.'
     src:
       c: 13fc29a9
       rows:
         - 'w.zhou-enlai-waijiao-huodong 485: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 69: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 629: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 448–449: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, name:zhu-de]
     time_range:
       - 1965-11-18T11:00Z
@@ -4138,6 +4467,20 @@ entries:
     c: 'Ia Đrăng. Regiment 33 raids the gun position of the 2d Battalion, 5th Cavalry, northwest of the Ia Mơ stream: three heavy guns and seven helicopters destroyed or damaged.'
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 59. See [[cal.1965-11-17.vietnam-operations]].'
     tags: [polity:drv, polity:us]
+  - id: cal.1965-11-18.soviet-union
+    when: Nov. 18
+    date: '1965-11-18'
+    place: jakarta
+    thread: soviet-union
+    also: [indonesia]
+    c: 'The Soviet Ambassador in Indonesia to Gromyko, top secret, on Sept. 30 and Soviet–Indonesian relations: the PKI decided at a meeting in May to "force the struggle for power," having "overestimated the ''revolutionary situation.''"'
+    n: '[[w.friedman-shadow-cold-war]], 144. Made public: 2015. To check: Abridged version of top secret report of ambassador in Indonesia to Gromyko on events of September 30 and Soviet-Indonesian relations, November 18, 1965, AVPRF f.091 o.21 papka 33 d.1, 150 (cited by [[w.friedman-shadow-cold-war]], 144 n.213). Names: Gromyko.'
+    src:
+      c: ecd46592
+      rows:
+        - 'w.friedman-shadow-cold-war 144: all'
+        - 'via x.1965-11-18.abridged-version-top-secret-ambassador-indonesia-gromyko-events: ?'
+    tags: [polity:ussr, polity:indonesia, name:gromyko-andrei, vis:only:ussr]
   - id: cal.1965-11-19.opinion
     when: Nov. 19
     date: '1965-11-19'
@@ -4596,6 +4939,13 @@ entries:
       - 1965-11-21T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-21.china-leadership-3
+    when: Nov. 21
+    date: '1965-11-21'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and his wife visit the 西山寺 temple, Fujian 福建.
+    n: '[[w.chen-yi-nianpu]], 1133. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
   - id: cal.1965-11-22.civil-rights-organizations-charlotte
     when: Nov. 22
     date: '1965-11-22'
@@ -4802,6 +5152,24 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1882–1883: all'
     tags: [polity:prc, name:deng-xiaoping, name:li-fuchun, name:bo-yibo, vis:only:prc]
+  - id: cal.1965-11-22.china-leadership-11
+    when: Nov. 22
+    date: '1965-11-22'
+    place: peking
+    thread: china-leadership
+    also: [europe-and-the-alliance-france]
+    c: Peking 北京. Peng Zhen 彭真 cuts the ribbon opening the French industrial exhibition.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 449. The words: 上午 (IV, 449). Names: Peng Zhen.'
+    src:
+      c: 3a092d3f
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 449: all'
+    tags: [polity:prc, name:peng-zhen, polity:fr]
+    time_range:
+      - 1965-11-21T22:00Z
+      - 1965-11-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-23.vietnam
     when: Nov. 23
     date: '1965-11-23'
@@ -4953,12 +5321,13 @@ entries:
     thread: china-leadership
     also: [china, india-and-china-cultural-revolution]
     c: 'Mao, displeased that the Beijing papers did not reprint Yao Wenyuan''s article on *Hai Rui*, directs Shanghai to issue it as a pamphlet and take subscriptions across the country: "If they will not print it, you make a booklet."'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 23, 1965. [[w.macfarquhar-origins-of-the-cultural]], III, 446 (Mao proposes issuing the article as a small book). Made public: 2013. See [[cal.1965-11-10.china-leadership]]. Names: Mao Zedong, Yao Wenyuan.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 23, 1965. [[w.macfarquhar-origins-of-the-cultural]], III, 446 (Mao proposes issuing the article as a small book); [[w.peng-zhen-nianpu-1902]], IV, 448 (Nov., mid and late, 1965; Mao, at Shanghai, learning no Peking paper has reprinted Yao Wenyuan''s article, has the Shanghai People''s Publishing House print it as a pamphlet for the whole country). Made public: 2013. See [[cal.1965-11-10.china-leadership]]. Names: Mao Zedong, Yao Wenyuan.'
     src:
       c: 960e2c87
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Nov. 23, 1965: all'
         - 'w.macfarquhar-origins-of-the-cultural III, 446: A'
+        - 'w.peng-zhen-nianpu-1902 IV, 448: ?'
     tags: [name:mao-zedong, name:yao-wenyuan, polity:prc, vis:only:prc]
     variants:
       - unit: A
@@ -5056,6 +5425,23 @@ entries:
     c: The Liberation Army's 5th Infantry Division formed, in the South.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 37 n.1. See [[cal.1965-09-02.vietnam-hanoi]]. Made public: 2013.'
     tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1965-11-23.china-leadership-7
+    when: Nov. 23
+    date: '1965-11-23'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 gives a luncheon at home for the medical experts Wang Jiasi 王家驷, Xu Yinqun 徐荫群, Zhang Xiaoqian 张孝骞, Deng Jiadong 邓家栋, Zeng Xianjiu 曾宪久, Lin Qiaozhi 林巧稚, Li Hongjiong 李洪迥 and others.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 449. The words: 中午 (IV, 449). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 5821d17a
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 449: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1965-11-23T04:00Z
+      - 1965-11-23T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-24.opinion
     when: Nov. 24
     date: '1965-11-24'
@@ -5122,13 +5508,14 @@ entries:
     date: '1965-11-24'
     thread: china-leadership
     c: Shanghai's Xinhua Bookshop takes orders for Yao Wenyuan's article as a pamphlet. Peking's, on the municipal committee's order, will take no copy.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 445–46; [[w.yang-jisheng-tiandi-fanfu]], I, 117 (an urgent wire to every Xinhua bookshop; most answer; Peking''s, on orders, does not, gives no view on the telephone, and agrees only on the 29th). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.jin-1949-1989-niande-zhongguo]], 612–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.96a); 《1965年9月到1966年5月文化戰線上兩條道路鬥爭大事記》 (the annex to the Notice of May 16) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 117 n.25). Names: Yao Wenyuan.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 445–46; [[w.yang-jisheng-tiandi-fanfu]], I, 117 (an urgent wire to every Xinhua bookshop; most answer; Peking''s, on orders, does not, gives no view on the telephone, and agrees only on the 29th); [[w.peng-zhen-nianpu-1902]], IV, 448 (Nov. 24, 1965; the Shanghai Xinhua Bookstore cables the bookstores of the country for orders). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.jin-1949-1989-niande-zhongguo]], 612–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.96a); 《1965年9月到1966年5月文化戰線上兩條道路鬥爭大事記》 (the annex to the Notice of May 16) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 117 n.25). Names: Yao Wenyuan.'
     src:
       c: 6f036c27
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 445–46: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 445 n.96a: all'
         - 'w.yang-jisheng-tiandi-fanfu I, 117: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 448: ?'
     tags: [polity:prc, name:yao-wenyuan, vis:only:prc]
   - id: cal.1965-11-24.china-leadership-4
     when: Nov. 24
@@ -5198,6 +5585,28 @@ entries:
       - 1965-11-24T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-24.china-leadership-8
+    when: Nov. 24
+    date: '1965-11-24'
+    thread: china-leadership
+    c: Peng Zhen 彭真 sends Zhou Enlai 周恩来 and Luo Ruiqing 罗瑞卿 the notice on calling one another "comrade" within the Party, proposed by the regional bureaus' heads at a Secretariat meeting in October, to go on to the other members of the Standing Committee.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 449. Made public: 2012. Names: Peng Zhen, Zhou Enlai, Luo Ruiqing.'
+    src:
+      c: ce8dae7f
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 449: all'
+    tags: [polity:prc, name:peng-zhen, name:zhou-enlai, name:luo-ruiqing, vis:only:prc, ok:fields-place]
+  - id: cal.1965-11-24.china-leadership-9
+    when: Nov. 24
+    date: '1965-11-24'
+    thread: china-leadership
+    c: Peng Zhen 彭真 sends Zhou Enlai 周恩来 the draft "Some points for cadres squatting at points," revised on the views of the regional bureaus' first secretaries and others, to go on to Mao 毛泽东.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 449. Made public: 2012. Names: Peng Zhen, Zhou Enlai, Mao Zedong.'
+    src:
+      c: 37cab70e
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 449: all'
+    tags: [polity:prc, name:peng-zhen, name:zhou-enlai, name:mao-zedong, vis:only:prc, ok:fields-place]
   - id: cal.1965-11-25.congo
     when: Nov. 25
     date: '1965-11-25'
@@ -5322,6 +5731,41 @@ entries:
       - 1965-11-25T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-25.china-leadership-6
+    when: Nov. 25
+    date: '1965-11-25'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 meets Nase 纳赛, the Albanian ambassador, and tells him of the big and small third fronts and the socialist education movement in town and country.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 449. The words: 上午 (IV, 449). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: a04c49f0
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 449: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc+albania]
+    time_range:
+      - 1965-11-24T22:00Z
+      - 1965-11-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-25.china-leadership-7
+    when: Nov. 25
+    date: '1965-11-25'
+    place: peking
+    thread: china-leadership
+    also: [japan]
+    c: Peking 北京. Peng Zhen 彭真 meets the third study delegation of activists of the Japan-China Friendship Association, under Wada Kazuo 和田一夫.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 449. The words: 晚 (IV, 449). Names: Peng Zhen.'
+    src:
+      c: d57a9e6b
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 449: all'
+    tags: [polity:prc, name:peng-zhen, polity:japan]
+    time_range:
+      - 1965-11-25T11:00Z
+      - 1965-11-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-26.legislatures-mn
     when: Nov. 26
     date: '1965-11-26'
@@ -5371,7 +5815,7 @@ entries:
     place: shanghai
     thread: china-leadership
     c: 'Zhou, at Shanghai, gives a banquet for Anna Louise Strong''s eightieth birthday: Strong is forty "public years", not old but middle-aged; she has done much work for the Chinese and world''s people; her spirit is young.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 767 (Nov. 26, 1965). Names: Zhou Enlai, Anna Louise Strong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 767 (Nov. 26, 1965); [[w.jian-zhou-enlai]], 530 (Zhou arrives at Shanghai Nov. 26 for the eightieth birthday of Anna Louise Strong; Chen Pixian, Shanghai''s secretary, asks Luo Ruiqing to brief Zhou on Yao''s essay: "the chairman has been quite unhappy about Beijing''s refusing to publish it in local papers"). To check: [[w.pixian-chen-pixian-huiyilu]], 34 (cited by [[w.jian-zhou-enlai]], 530 n.48b). Names: Zhou Enlai, Anna Louise Strong.'
     tags: [name:zhou-enlai, polity:prc]
   - id: cal.1965-11-26.china-leadership-3
     when: Nov. 26
@@ -5379,12 +5823,18 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai, learning of Mao's part in Yao Wenyuan's article, telephones Peng Zhen and urges that Peking reprint it.
-    n: '[[w.macfarquhar-maos-last-revolution]], 18. Made public: 2006. To check: [[w.pixian-chen-pixian-huiyilu]], 34 (cited by [[w.macfarquhar-maos-last-revolution]], 18 n.14). Names: Zhou Enlai, Mao Zedong, Yao Wenyuan, Peng Zhen.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 18; [[w.jian-zhou-enlai]], 530 (after his return to Peking Zhou at once calls Peng Zhen to have the Peking papers print the essay). Made public: 2006. To check: [[w.pixian-chen-pixian-huiyilu]], 34 (cited by [[w.macfarquhar-maos-last-revolution]], 18 n.14); [[w.peng-zhen-nianpu-1902]], IV, 450 (cited by [[w.jian-zhou-enlai]], 530 n.49). Names: Zhou Enlai, Mao Zedong, Yao Wenyuan, Peng Zhen.'
     src:
       c: 6906b922
       rows:
         - 'w.macfarquhar-maos-last-revolution 18: all'
+        - 'w.jian-zhou-enlai 530: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:yao-wenyuan, name:peng-zhen, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.jian-zhou-enlai
+        reads: Zhou calls Peng Zhen after his return to Peking from Shanghai, where he was on Nov. 26–27
+        at: '530'
   - id: cal.1965-11-26.china
     when: Nov. 26–27
     date: '1965-11-26'
@@ -5426,6 +5876,13 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 117: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 117 n.26: all'
     tags: [polity:prc, vis:only:prc, name:peng-zhen, ok:fields-place]
+  - id: cal.1965-11-26.china-leadership-6
+    when: Nov. 26
+    date: '1965-11-26'
+    thread: china-leadership
+    c: Chen Yi 陈毅 inspects a naval unit in Fujian 福建.
+    n: '[[w.chen-yi-nianpu]], 1133. Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place, vis:only:prc]
   - id: cal.1965-11-27.students
     when: Nov. 27
     date: '1965-11-27'
@@ -5649,6 +6106,59 @@ entries:
       - 1965-11-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-11-27.china-leadership-6
+    when: Nov. 27
+    date: '1965-11-27'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The Peking Xinhua Bookstore 北京新华书店 orders 5,000 copies of Yao Wenyuan's 姚文元 article by telephone.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 448. Made public: 2012. See [[cal.1965-11-24.china-leadership-3]]. Names: Yao Wenyuan.'
+    src:
+      c: 192b8f3a
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 448: all'
+    tags: [polity:prc, name:yao-wenyuan, vis:only:prc]
+  - id: cal.1965-11-27.china-leadership-7
+    when: Nov. 27
+    date: '1965-11-27'
+    place: peking
+    thread: china-leadership
+    also: [laos]
+    c: Peking 北京. Peng Zhen 彭真 meets the Lao Patriotic Front party delegation under Kaysone 凯山.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 449. The words: 上午 (IV, 449). Names: Peng Zhen, Kaysone Phomvihan.'
+    src:
+      c: 756f6a4b
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 449: all'
+    tags: [polity:prc, name:peng-zhen, name:kaysone-phomvihan, polity:pathet-lao]
+    time_range:
+      - 1965-11-26T22:00Z
+      - 1965-11-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-27.china-leadership-8
+    when: Nov. 27
+    date: '1965-11-27'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 inscribes for the Broadcasting Administration 广播事业局: armed with Mao Zedong Thought, to run broadcasting better for China''s socialist revolution and construction and the common cause of the world''s peoples.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 450. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: 6bd809bc
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 450: all'
+    tags: [polity:prc, name:peng-zhen, ok:fields-place, name:mao-zedong]
+  - id: cal.1965-11-27.china-leadership-9
+    when: Nov. 27
+    date: '1965-11-27'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai. Zhou Enlai, seeing Chen Pixian 陈丕显, the city's Party secretary, thanks him for the word on Yao Wenyuan's essay passed through Luo Ruiqing.
+    n: '[[w.jian-zhou-enlai]], 530 ("the next day"). Made public: 1997 ([[w.zhou-enlai-nianpu-1949]], the earliest work the note names; not seen). To check: [[w.zhou-enlai-nianpu-1949]], II, 767 (cited by [[w.jian-zhou-enlai]], 530 n.48a); [[w.pixian-chen-pixian-huiyilu]], 34 (cited by [[w.jian-zhou-enlai]], 530 n.48b). See [[cal.1965-11-26.china-leadership-2]]. Names: Zhou Enlai, Yao Wenyuan, Luo Ruiqing. Check: the day: the book has Zhou reach Shanghai Nov. 26, the chronology Nov. 25 ([[cal.1965-11-25.china-leadership-2]]), and back in Peking Nov. 27 ([[cal.1965-11-27.china-leadership]]).'
+    src:
+      c: 1b5c7033
+      rows:
+        - 'w.jian-zhou-enlai 530: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:yao-wenyuan, name:luo-ruiqing]
   - id: cal.1965-11-28.vietnam
     when: Nov. 28–29
     date: '1965-11-28'
@@ -5759,12 +6269,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: By this day, besides the Shanghai papers, only six provincial Party organs, all in eastern China, have reprinted Yao Wenyuan's article.
-    n: '[[w.macfarquhar-maos-last-revolution]], 18; [[w.yang-jisheng-tiandi-fanfu]], I, 110 (the *Zhejiang ribao*, *Dazhong ribao* (Shandong), *Xinhua ribao* (Jiangsu) and *Fujian ribao* on Nov. 24, the *Anhui ribao* Nov. 25, the *Jiangxi ribao* Nov. 26, after Wei Wenbo of the East China Bureau gave the word). To check: [[w.qian-wenge-mantan]], item no. 1 (cited by [[w.macfarquhar-maos-last-revolution]], 18 n.12). See [[cal.1965-11-10.china-leadership]]. Names: Yao Wenyuan. Check: the days of the reprints.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 18; [[w.yang-jisheng-tiandi-fanfu]], I, 110 (the *Zhejiang ribao*, *Dazhong ribao* (Shandong), *Xinhua ribao* (Jiangsu) and *Fujian ribao* on Nov. 24, the *Anhui ribao* Nov. 25, the *Jiangxi ribao* Nov. 26, after Wei Wenbo of the East China Bureau gave the word); [[w.peng-zhen-nianpu-1902]], IV, 447 (Nov. 12–26, 1965; *Jiefang ribao*, *Zhejiang ribao*, *Xinhua ribao*, *Fujian ribao*, *Anhui ribao* and *Jiangxi ribao* reprint Yao Wenyuan''s article one after another). To check: [[w.qian-wenge-mantan]], item no. 1 (cited by [[w.macfarquhar-maos-last-revolution]], 18 n.12). See [[cal.1965-11-10.china-leadership]]. Names: Yao Wenyuan. Check: the days of the reprints.'
     src:
       c: 7c60d116
       rows:
         - 'w.macfarquhar-maos-last-revolution 18: all'
         - 'w.yang-jisheng-tiandi-fanfu I, 110: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 447: ?'
     tags: [polity:prc, name:yao-wenyuan]
   - id: cal.1965-11-28.china
     when: Nov. 28
@@ -5826,13 +6337,42 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking 北京, the Great Hall of the People. Peng Zhen 彭真, after Zhou Enlai''s 周恩來 mediation at Mao''s word, meets Deng Tuo 鄧拓, Zhou Yang 周揚, Xu Liqun 許立群, Yao Zhen 姚溱 and others on the Peking papers'' reprinting of Yao Wenyuan''s article. Deng: Wu Han is tense, knowing the criticism has backing. Peng: never mind "backing"; ask only what the truth is; before the truth all are equal.'
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 117. Made public: 2010. To check: Hao Huaiming 郝懷明, 〈文革初的中宣部〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 12 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 117 n.27). Names: Peng Zhen, Zhou Enlai, Yao Wenyuan, Mao Zedong.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 117; [[w.peng-zhen-nianpu-1902]], IV, 450 (Nov. 28, 1965; the West Hall of the Great Hall of the People; Peng Zhen, on Zhou Enlai''s instruction (Zhou, back from Shanghai on the 27th, told him to have the capital''s papers reprint, the editors'' note), calls the heads of the capital''s papers and arranges the reprinting of Yao Wenyuan''s article: the *Beijing ribao* and *Jiefangjun bao* in full on the 29th, the *Renmin ribao* theory page on the 30th, each with an editors'' note; the *Renmin ribao* note revised and settled by Zhou and Peng). Made public: 2010. To check: Hao Huaiming 郝懷明, 〈文革初的中宣部〉, *Yanhuang chunqiu* 《炎黃春秋》, 2010, no. 12 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 117 n.27). Names: Peng Zhen, Zhou Enlai, Yao Wenyuan, Mao Zedong.'
     src:
       c: 85eb0d94
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 117: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 117 n.27: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 450: ?'
     tags: [polity:prc, vis:only:prc, name:peng-zhen, name:zhou-enlai, name:yao-wenyuan, name:mao-zedong]
+  - id: cal.1965-11-28.china-leadership-9
+    when: Nov. 28
+    date: '1965-11-28'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 has the General Political Department''s report on army cadres in the local socialist education printed for the regional bureaus, the provinces and the military regions'' political departments, and drafts the Center''s comment: the Center agrees to the department''s report of Nov. 25 on army cadres in the four clean-ups; act on it.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 450. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: a2c33e91
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 450: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
+  - id: cal.1965-11-28.china-leadership-10
+    when: Nov. 28
+    date: '1965-11-28'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真, with Zhou Enlai 周恩来, Zhu De 朱德 and others, receives those at some specialized conferences and others.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 450. The words: 下午 (IV, 450). Names: Peng Zhen, Zhou Enlai, Zhu De.'
+    src:
+      c: 9b7445bf
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 450: all'
+    tags: [polity:prc, name:peng-zhen, name:zhou-enlai, name:zhu-de]
+    time_range:
+      - 1965-11-28T04:00Z
+      - 1965-11-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-11-29.vietnam
     when: Nov. 29
     date: '1965-11-29'
@@ -5899,13 +6439,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Peking. The *Beijing Daily* reprints Yao Wenyuan''s article, Peng Zhen allowing it, with an editorial note by Deng Tuo, the municipal secretary for culture and education: an open academic debate on the nature of Wu Han''s play.'
-    n: '[[w.macfarquhar-maos-last-revolution]], 18–19; [[w.macfarquhar-origins-of-the-cultural]], III, 446–47 (the *Beijing Ribao* reprints, with a note that differing opinions be aired). To check: [[w.pixian-chen-pixian-huiyilu]], 36 (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.16); [[w.jin-1949-1989-niande-zhongguo]], 618 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.100a). See [[cal.1965-11-26.china-leadership-3]]. Names: Peng Zhen, Yao Wenyuan. Check: MacFarquhar (18) has Peng "must now have known" after Zhou Enlai''s call that Mao was behind the article, and has him add, undated, the comment that "people are all equal before the truth" (first made, 18 n.15, in a speech of Sept. 23, 1965).'
+    n: '[[w.macfarquhar-maos-last-revolution]], 18–19; [[w.macfarquhar-origins-of-the-cultural]], III, 446–47 (the *Beijing Ribao* reprints, with a note that differing opinions be aired); [[w.peng-zhen-nianpu-1902]], IV, 450 (Nov. 29, 1965; the *Beijing ribao* note: on Wu Han''s play and other writings "differing views should be discussed"). To check: [[w.pixian-chen-pixian-huiyilu]], 36 (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.16); [[w.jin-1949-1989-niande-zhongguo]], 618 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.100a). See [[cal.1965-11-26.china-leadership-3]]. Names: Peng Zhen, Yao Wenyuan. Check: MacFarquhar (18) has Peng "must now have known" after Zhou Enlai''s call that Mao was behind the article, and has him add, undated, the comment that "people are all equal before the truth" (first made, 18 n.15, in a speech of Sept. 23, 1965).'
     src:
       c: d3594ccb
       rows:
         - 'w.macfarquhar-maos-last-revolution 18–19: all'
         - 'w.macfarquhar-origins-of-the-cultural III, 446–47: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 447 n.100a: A'
+        - 'w.peng-zhen-nianpu-1902 IV, 450: ?'
     tags: [polity:prc, name:peng-zhen, name:yao-wenyuan]
   - id: cal.1965-11-29.china-leadership-3
     when: Nov. 29
@@ -5947,13 +6488,14 @@ entries:
     date: '1965-11-29'
     thread: china-leadership
     c: The *Jiefangjun bao* reprints Yao Wenyuan's article, its editorial note calling Wu Han's play a "big poisonous weed."
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 450–51; [[w.yang-jisheng-tiandi-fanfu]], I, 117 (on Luo Ruiqing''s order). To check: [[w.jin-1949-1989-niande-zhongguo]], 618 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 451 n.119). Names: Yao Wenyuan.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 450–51; [[w.yang-jisheng-tiandi-fanfu]], I, 117 (on Luo Ruiqing''s order); [[w.peng-zhen-nianpu-1902]], IV, 450 (Nov. 29, 1965; the *Jiefangjun bao* note: the play a big poisonous weed against the Party, socialism and Mao Zedong Thought, to be criticized). To check: [[w.jin-1949-1989-niande-zhongguo]], 618 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 451 n.119). Names: Yao Wenyuan.'
     src:
       c: e13ff126
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 450–51: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 451 n.119: all'
         - 'w.yang-jisheng-tiandi-fanfu I, 117: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 450: ?'
     tags: [polity:prc, name:yao-wenyuan]
   - id: cal.1965-11-29.china-leadership-6
     when: Nov. 29
@@ -5982,6 +6524,35 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 692: all'
     tags: [polity:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-11-29.china-leadership-8
+    when: Nov. 29
+    date: '1965-11-29'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The Peking Xinhua Bookstore 北京新华书店 agrees formally by cable to its order of Yao Wenyuan's 姚文元 pamphlet.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 448. Made public: 2012. See [[cal.1965-11-27.china-leadership-6]]. Names: Yao Wenyuan.'
+    src:
+      c: ceae55f4
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 448: all'
+    tags: [polity:prc, name:yao-wenyuan, vis:only:prc]
+  - id: cal.1965-11-29.china-leadership-9
+    when: Nov. 29
+    date: '1965-11-29'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 calls Liu Ren 刘仁 and others to a meeting.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 450. The words: 上午 (IV, 450). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 63331f5e
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 450: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1965-11-28T22:00Z
+      - 1965-11-29T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1965-11-30.alabama-al
     when: Nov. 30
@@ -6512,7 +7083,7 @@ entries:
     thread: china-leadership
     also: [china, india-and-china-cultural-revolution]
     c: 'Mao reads the *Guangming ribao* editorial office''s digest no. 362 of Nov. 15 on its reporter''s visit to Wu Han on the 14th: Wu says he will not answer Yao Wenyuan, is writing a report to the municipal committee to go to Peng Zhen direct; farfetched, labels, who dares write or talk history? Mao: "I have read them all. A sleepless night. Send these to Jiang Qing, then to Hangzhou."'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov., mid, 1965 ("11月中旬"); [[w.jianguo-yilai-mao-zedong]], XVIII, 167–168 (Nov. 1965; Mao''s note, Nov. 1965: "I have read all of them. A sleepless night. Send these to Jiang Qing; after she reads them, send someone with them to Hangzhou"; note 1 gives the Guangming ribao General Office''s bulletin no. 362 of Nov. 15, with its reporter''s account of seeing Wu Han on Nov. 14: Wu said he would not write a reply but a report to the municipal committee for Peng Zhen direct; the date after Nov. 15); [[w.mao-zedong-zhuan]], VI, ch. 74 (Mao reads the Guangming ribao digests no. 362 (Nov. 15) and 367 (Nov. 20) on Wu Han''s reactions (n.17, n.18, n.19)). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 74). To check: the digest of Nov. 15, 1965 (named by [[w.zedong-mao-zedong-nianpu]], V, Nov., mid, 1965); *Guangming ribao* 《光明日报》, *Qingkuang jianbian* 《情况简编》 no. 362, Nov. 15, 1965 (Wu Han''s reaction to Yao Wenyuan''s article) (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.17); *Guangming ribao* 《光明日报》, *Qingkuang jianbian* 《情况简编》 no. 367, Nov. 20, 1965 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.18). Names: Mao Zedong, Jiang Qing, Peng Zhen, Wu Han, Yao Wenyuan.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov., mid, 1965 ("11月中旬"); [[w.jianguo-yilai-mao-zedong]], XVIII, 167–168 (Nov. 1965; Mao''s note, Nov. 1965: "I have read all of them. A sleepless night. Send these to Jiang Qing; after she reads them, send someone with them to Hangzhou"; note 1 gives the Guangming ribao General Office''s bulletin no. 362 of Nov. 15, with its reporter''s account of seeing Wu Han on Nov. 14: Wu said he would not write a reply but a report to the municipal committee for Peng Zhen direct; the date after Nov. 15); [[w.mao-zedong-zhuan]], VI, ch. 74 (Mao reads the Guangming ribao digests no. 362 (Nov. 15) and 367 (Nov. 20) on Wu Han''s reactions (n.17, n.18, n.19)). [[w.peng-zhen-nianpu-1902]], IV, 448 (Nov. 15, 1965; the *Guangming ribao* digest no. 362, Wu Han''s response of the 14th to Yao Wenyuan: *On Hai Rui* printed in *Renmin ribao* Sept. 21, 1959, the play written in 1960, no foresight of the "wind" of 1961; forced, labels, who dares write history; no reply, a report to the municipal committee for Peng Zhen direct; Mao, travelling: "I have read them all; a sleepless night"). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 74). To check: the digest of Nov. 15, 1965 (named by [[w.zedong-mao-zedong-nianpu]], V, Nov., mid, 1965); *Guangming ribao* 《光明日报》, *Qingkuang jianbian* 《情况简编》 no. 362, Nov. 15, 1965 (Wu Han''s reaction to Yao Wenyuan''s article) (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.17); *Guangming ribao* 《光明日报》, *Qingkuang jianbian* 《情况简编》 no. 367, Nov. 20, 1965 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.18). Names: Mao Zedong, Jiang Qing, Peng Zhen, Wu Han, Yao Wenyuan.'
     src:
       c: 6296c4a0
       rows:
@@ -6522,6 +7093,7 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVIII, 168 n.1: all'
         - 'w.mao-zedong-zhuan VI, ch. 74: A-C'
         - 'via w.mao-zedong-zhuan VI, ch.74 n.17: A, B'
+        - 'w.peng-zhen-nianpu-1902 IV, 448: ?'
     tags: [name:mao-zedong, name:jiang-qing, name:peng-zhen, name:yao-wenyuan, polity:prc, vis:only:prc]
   - id: cal.1965-11-30.china-leadership
     when: Nov. 30
@@ -6552,7 +7124,7 @@ entries:
     date: '1965-11-30'
     thread: china-leadership
     c: 'The *People''s Daily*, on Zhou''s notice, reprints Yao Wenyuan''s Nov. 10 *Wenhui bao* article on *Hai Rui Dismissed from Office*, with an editor''s note revised and settled by Zhou and Peng Zhen: freedom to criticize and to counter-criticize; wrong views met by reasoning; the play discussed as an academic question, under the Hundred Flowers line.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 768 (Nov. 30, 1965); [[w.macfarquhar-maos-last-revolution]], 18–19 (the reprint; the editorial note under Zhou''s supervision); [[w.macfarquhar-origins-of-the-cultural]], III, 446–47 (the *People''s Daily* reprints, its note revised by Zhou and Peng Zhen, on page 5 among academic discussion); [[w.yang-jisheng-tiandi-fanfu]], II, 1143 (after 18 days of Peng Zhen''s resistance, in its "Academic research" column, the editor''s note treating it as an academic question); [[w.yang-jisheng-tiandi-fanfu]], I, 117 (after eighteen days, in its "Academic research" column; the editor''s note written to Peng Zhen''s view treats the criticism as academic, "freedom of criticism and of counter-criticism"; its last paragraph, quoting Mao on struggling against the poisonous, is Zhou''s). To check: [[w.pixian-chen-pixian-huiyilu]], 36 (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.16); [[w.jin-1949-1989-niande-zhongguo]], 618 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.100a); 《1965年9月到1966年5月文化戰線上兩條道路鬥爭大事記》 (the annex to the Notice of May 16) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 117 n.29). See [[cal.1965-11-10.china-leadership]]. Names: Zhou Enlai, Peng Zhen, Yao Wenyuan.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 768 (Nov. 30, 1965); [[w.macfarquhar-maos-last-revolution]], 18–19 (the reprint; the editorial note under Zhou''s supervision); [[w.macfarquhar-origins-of-the-cultural]], III, 446–47 (the *People''s Daily* reprints, its note revised by Zhou and Peng Zhen, on page 5 among academic discussion); [[w.yang-jisheng-tiandi-fanfu]], II, 1143 (after 18 days of Peng Zhen''s resistance, in its "Academic research" column, the editor''s note treating it as an academic question); [[w.yang-jisheng-tiandi-fanfu]], I, 117 (after eighteen days, in its "Academic research" column; the editor''s note written to Peng Zhen''s view treats the criticism as academic, "freedom of criticism and of counter-criticism"; its last paragraph, quoting Mao on struggling against the poisonous, is Zhou''s); [[w.peng-zhen-nianpu-1902]], IV, 450 (Nov. 30, 1965; the *Renmin ribao* note, revised and settled by Zhou Enlai and Peng Zhen: freedom of criticism and of counter-criticism, wrong views met by reasoning, seeking truth from facts; the play discussed as an academic question under the "double hundred"); [[w.jian-zhou-enlai]], 530 (Zhou and Peng write the editor''s note: "there should be the freedom to criticize and countercriticize. As for wrong opinions, we should reason with them, respect the facts, and try to persuade others through reasoning"). To check: [[w.pixian-chen-pixian-huiyilu]], 36 (cited by [[w.macfarquhar-maos-last-revolution]], 19 n.16); [[w.jin-1949-1989-niande-zhongguo]], 618 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 447 n.100a); 《1965年9月到1966年5月文化戰線上兩條道路鬥爭大事記》 (the annex to the Notice of May 16) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 117 n.29); [[w.renmin-ribao]], Nov. 30, 1965, 5 (cited by [[w.jian-zhou-enlai]], 530 n.50). See [[cal.1965-11-10.china-leadership]]. Names: Zhou Enlai, Peng Zhen, Yao Wenyuan.'
     src:
       c: 7327b580
       rows:
@@ -6562,6 +7134,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 447 n.100a: A, B, C'
         - 'w.yang-jisheng-tiandi-fanfu II, 1143: ?'
         - 'w.yang-jisheng-tiandi-fanfu I, 117: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 450: ?'
+        - 'w.jian-zhou-enlai 530: ?'
     tags: [name:zhou-enlai, name:peng-zhen, name:yao-wenyuan, polity:prc]
   - id: cal.1965-11.china-leadership-2
     when: Nov., after the 15th
@@ -6613,11 +7187,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peng Zhen forbids the *People's Daily* and the other national, provincial and municipal papers to reprint Yao Wenyuan's article.
-    n: '[[w.macfarquhar-maos-last-revolution]], 18. Made public: 2006. See [[cal.1965-11-10.china-leadership]]. Names: Peng Zhen, Yao Wenyuan. Check: the day; MacFarquhar (18 n.13) has Peng able to decide it because Deng Xiaoping, away in the southwest, had left him in charge of the Secretariat and the Propaganda Department.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 18; [[w.jian-zhou-enlai]], 530 (the Peking committee, Peng Zhen above all, calls it an academic debate and blocks the Peking papers from reprinting the essay). Made public: 2006. To check: [[w.peng-zhen-nianpu-1902]], IV, 448 (cited by [[w.jian-zhou-enlai]], 530 n.47). See [[cal.1965-11-10.china-leadership]]. Names: Peng Zhen, Yao Wenyuan. Check: the day; MacFarquhar (18 n.13) has Peng able to decide it because Deng Xiaoping, away in the southwest, had left him in charge of the Secretariat and the Propaganda Department.'
     src:
       c: 57e42b94
       rows:
         - 'w.macfarquhar-maos-last-revolution 18: all'
+        - 'w.jian-zhou-enlai 530: ?'
     tags: [polity:prc, name:peng-zhen, name:yao-wenyuan, vis:only:prc]
   - id: cal.1965-11.china-leadership-6
     when: Nov., after the 10th
@@ -6710,12 +7285,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Peng Zhen, back in Peking, has the national organs such as *Hongqi* reconsider reprinting, and the city secretariat discuss it. Wu Han's problems are not of the enemy kind; Yao's errors to be criticized.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 445–46. Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.jin-1949-1989-niande-zhongguo]], 612–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.96a). Names: Peng Zhen.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 445–46; [[w.peng-zhen-nianpu-1902]], IV, 449 (Nov. 26, 1965; Peng Zhen presides at the Peking committee''s Secretariat: Wu Han certainly to be criticized, but not anti-Party or anti-socialist, not a contradiction with the enemy; writers organized, the right affirmed and the wrong criticized, Yao''s article too; no one to be ruined by being criticized). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.jin-1949-1989-niande-zhongguo]], 612–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.96a). Names: Peng Zhen.'
     src:
       c: ce7d24e5
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 445–46: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 445 n.96a: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 449: ?'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1965-11.china-leadership-12
     when: Nov., late
@@ -6723,12 +7299,13 @@ entries:
     at: before 1965-11-21
     thread: china-leadership
     c: 'The Peking secretariat to Peng Zhen: it disagrees with the political charges in part four of Yao Wenyuan''s article; any reprint to carry a note giving the city committee''s view.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 445–46. Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.jin-1949-1989-niande-zhongguo]], 612–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.96a). Names: Peng Zhen, Yao Wenyuan.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 445–46; [[w.peng-zhen-nianpu-1902]], IV, 449 (Nov. 26, 1965; the Peking committee''s Secretariat under Peng Zhen holds that if Yao''s article must be reprinted, a note must "state our attitude"). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.jin-1949-1989-niande-zhongguo]], 612–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.96a). Names: Peng Zhen, Yao Wenyuan.'
     src:
       c: 09bfd29e
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 445–46: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 445 n.96a: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 449: ?'
     tags: [polity:prc, name:peng-zhen, name:yao-wenyuan, vis:only:prc]
   - id: cal.1965-11.china-leadership-13
     when: Nov., late
@@ -6749,13 +7326,15 @@ entries:
     date: '1965-11-30'
     thread: china-leadership
     c: 'Lin Biao writes to Mao: Luo Ruiqing has tried to push him aside.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 449. Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.jin-1949-1989-niande-zhongguo]], 632–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 449 n.112a); [[w.zhisui-private-life-of-chairman]], 435–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 449 n.112b). Names: Lin Biao, Mao Zedong, Luo Ruiqing.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 449; [[w.jian-zhou-enlai]], 531 (Lin writes that he has "some important matters to report," but would first send Ye Qun, his wife, to brief Mao). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.jin-1949-1989-niande-zhongguo]], 632–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 449 n.112a); [[w.zhisui-private-life-of-chairman]], 435–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 449 n.112b); Lin Biao''s letter to Mao, November 30, 1965, cited from [[w.yao-luo-ruiqing-zhuan-a]], 538 (cited by [[w.jian-zhou-enlai]], 531 n.52a, n.52b); [[w.xianzhi-mao-zedong-zhuan-1949]], 1399; [[w.zedong-mao-zedong-nianpu]], V, 544 (cited by [[w.jian-zhou-enlai]], 531 n.52c, n.52d). Names: Lin Biao, Mao Zedong, Luo Ruiqing.'
     src:
       c: 01680e3e
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 449: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 449 n.112a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 449 n.112b: all'
+        - 'w.jian-zhou-enlai 531: ?'
+        - 'via x.1965-11-30.lin-biao-letter-to-mao-luo-ruiqing: ?'
     tags: [polity:prc, name:lin-biao, name:mao-zedong, name:luo-ruiqing, vis:only:prc]
   - id: cal.1965-11-30.china-leadership-6
     when: Nov. 30
@@ -6864,3 +7443,98 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 116: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 116 n.24a: all'
     tags: [polity:prc, vis:only:prc, name:yao-wenyuan, ok:fields-place]
+  - id: cal.1965-11.china-leadership-16
+    when: Nov., before the 15th
+    date: 1965-11
+    at: before 1965-11-15
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 presides at the Peking municipal committee''s Secretariat 中共北京市委书记处 on whether to reprint Yao Wenyuan''s 姚文元 article; Liu Ren 刘仁, Zheng Tianxiang 郑天翔, Wan Li 万里, Deng Tuo 邓拓, Li Qi 李琪, Fan Jin 范瑾 and others there: Wu Han 吴晗 may be criticized on academic grounds, a wholesale political rejection of him unacceptable; no decision on reprinting.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 447–448. Made public: 2012. See [[cal.1965-11-10.china-leadership]]. Names: Peng Zhen, Yao Wenyuan.'
+    src:
+      c: 799dd98a
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 447–448: all'
+    tags: [polity:prc, name:peng-zhen, name:yao-wenyuan, vis:only:prc]
+  - id: cal.1965-11-30.china-leadership-11
+    when: Nov. 30
+    date: '1965-11-30'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 meets 布特·平姆, central secretary of the Khmer People's Revolutionary Party 高棉人民革命党; they talk of the world situation and the fight against modern revisionism.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 451. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: cef8ea35
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 451: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, polity:cambodia]
+  - id: cal.1965-11.china-leadership-17
+    when: Nov., late
+    date: 1965-11
+    at: before 1965-11-21
+    thread: china-leadership
+    c: 'The *Guangming ribao* editorial office''s digest no. 367 gives views on Yao Wenyuan''s 姚文元 article: Jian Bozan 翦伯赞, vice-president of Peking University 北京大学, that Yao runs wild and frightens, bad for contending; Shen Yinmo 沈尹默, that he oversimplifies; Luo Jinan 罗稷南, that the debate will bring out flatterers and show-offs; others that his view is right but harmful to literature on historical themes; Mao 毛泽东 reads it and returns it to Jiang Qing 江青.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 451. Made public: 2012. Names: Yao Wenyuan, Mao Zedong, Jiang Qing.'
+    src:
+      c: 71ef7d23
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 451: all'
+    tags: [polity:prc, name:yao-wenyuan, name:mao-zedong, name:jiang-qing, vis:only:prc, ok:fields-place]
+  - id: cal.1965-11.china
+    when: Nov.
+    date: 1965-11
+    thread: china
+    also: [africa]
+    c: Huang Hua 黄华, the Chinese Ambassador to Ghana, judging Ghana's politics unstable, recalls the instructors to the embassy at Accra; by the coup of February they have escaped to Algiers.
+    n: '[[w.friedman-shadow-cold-war]], 121. Made public: 2008. To check: [[w.huang-hua-memoirs]], 187–88 (cited by [[w.friedman-shadow-cold-war]], 121 n.82). Names: Huang Hua. Check: [[w.qinli-yu-jianwen]] (2007), the Chinese original of the memoir, for the passage and an earlier printing.'
+    src:
+      c: eb87fe03
+      rows:
+        - 'w.friedman-shadow-cold-war 121: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place, name:huang-hua]
+  - id: cal.1965-11.china-2
+    when: Nov.
+    date: 1965-11
+    thread: china
+    c: The UN General Assembly's vote on whether Peking or Taipei should hold China's seat ends in a draw, the first time in UN history.
+    n: '[[w.jian-zhou-enlai]], 527; [[w.friedman-shadow-cold-war]], 116 (the African states in the 1965 vote: eighteen for, ten against, eight abstaining). Check: the day. To check: [[w.ogunsanwo-chinas-policy-in-africa]], 115–19 (cited by [[w.friedman-shadow-cold-war]], 116 n.66).'
+    src:
+      c: e311b8ea
+      rows:
+        - 'w.jian-zhou-enlai 527: all'
+        - 'w.friedman-shadow-cold-war 116: ?'
+    tags: [polity:prc, polity:roc, ok:fields-place]
+  - id: cal.1965-11.indonesia
+    when: Nov., early
+    date: 1965-11
+    at: before 1965-11-01
+    thread: indonesia
+    also: [china-leadership]
+    c: 'Sukarno to the Chinese embassy: "if he were to be given some time, he should be able to control the situation."'
+    n: '[[w.jian-zhou-enlai]], 528. Made public: 2024. To check: Zhou speech at a central planning conference, November 13, 1965, 855-8-3113-3, Hebei Provincial Archive (cited by [[w.jian-zhou-enlai]], 528 n.40). Names: Sukarno.'
+    src:
+      c: 9c9163da
+      rows:
+        - 'w.jian-zhou-enlai 528: all'
+        - 'via x.1965-11-13.zhou-speech-planning-conference-hpa-855-8-3113-3: all'
+    tags: [polity:indonesia, polity:prc, vis:only:prc+indonesia, name:sukarno]
+  - id: cal.1965-11.indonesia-2
+    when: Nov., late
+    date: 1965-11
+    at: before 1965-11-21
+    thread: indonesia
+    c: Aidit, chairman of the Indonesian Communist Party, executed.
+    n: '[[w.jian-zhou-enlai]], 529. Check: the day.'
+    src:
+      c: 7bb492d2
+      rows:
+        - 'w.jian-zhou-enlai 529: all'
+    tags: [polity:indonesia]
+  - id: cal.1965-11.china-leadership-18
+    when: Nov., mid
+    date: 1965-11
+    at: before 1965-11-11
+    thread: china-leadership
+    c: Chen Yi 陈毅 and his wife go to Fujian 福建 to rest.
+    n: '[[w.chen-yi-nianpu]], 1133. Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place, vis:only:prc]

@@ -105,12 +105,30 @@ entries:
     place: peking
     thread: china-leadership
     c: Yangfeng Jiadao 养蜂夹道, 6 to 7:30 p.m. Deng Xiaoping's 邓小平 dinner for the Norwegian party's delegation; Yang Shangkun 杨尚昆 attends.
-    n: '[[w.yang-shangkun-riji]], II, 229 (Dec. 1, 1962). The words: 6时至7时半 (II, 229). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-11-29.china-leadership-2]]. Names: Deng Xiaoping, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 229 (Dec. 1, 1962); [[w.peng-zhen-nianpu-1902]], IV, 230 (Dec. 1, 1962, evening; Peng Zhen, with Deng Xiaoping and others, at the dinner for the Norwegian party''s delegation under its chairman, Emil Løvlien). The words: 6时至7时半 (II, 229). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-11-29.china-leadership-2]]. Names: Deng Xiaoping, Yang Shangkun.'
     src:
       c: faaf8457
       rows:
         - 'w.yang-shangkun-riji II, 229: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 230: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-01.china-leadership-4
+    when: Dec. 1
+    date: '1962-12-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at Mao's 毛泽东 to talk.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 230. The words: 下午 (IV, 230). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: '64872439'
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 230: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1962-12-01T04:00Z
+      - 1962-12-01T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-12-02.goldwater
     when: Dec. 2
@@ -314,7 +332,7 @@ entries:
     thread: soviet-union-leadership
     also: [missile-crisis, cuba]
     c: 'The Presidium, the first session after Mikoyan''s return. Khrushchev''s postmortem: "Cuba has been maintained as a center of the revolutionary movement"; "The United States was forced to acknowledge that we have our own interests in the Western Hemisphere"; "We are members of the World Club. They themselves got scared." On Kennedy''s request for the Soviet troops'' withdrawal, he and Malinovsky to look into it.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 506–07; [[w.prezidium-tsk-kpss-1954]], I, 663 (Protocol 71); [[w.prezidium-tsk-kpss-1954]], III, 407–09 (P 71/I: Mikoyan''s work approved; Khrushchev''s speech on his report, as A. K. Serov took it down by hand, 409 n.а: "мы помогли Кубе – сделали правильно. Мы заставили США признать наши интересы в Америке" (we helped Cuba, did right. We made the United States recognize our interests in America); "участником международного клуба" (a member of the international club); "Американцы сами испугались" (the Americans themselves took fright); no treaty with Cuba now). See [[cal.1962-11-29.missile-crisis]]. Names: Mikoyan, Khrushchev, Kennedy, Malinovsky.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 506–07; [[w.prezidium-tsk-kpss-1954]], I, 663 (Protocol 71); [[w.prezidium-tsk-kpss-1954]], III, 407–09 (P 71/I: Mikoyan''s work approved; Khrushchev''s speech on his report, as A. K. Serov took it down by hand, 409 n.а: "мы помогли Кубе – сделали правильно. Мы заставили США признать наши интересы в Америке" (we helped Cuba, did right. We made the United States recognize our interests in America); "участником международного клуба" (a member of the international club); "Американцы сами испугались" (the Americans themselves took fright); no treaty with Cuba now); [[w.friedman-shadow-cold-war]], 95–96 (after Mikoyan''s report on Cuba his colleagues call the Cubans "unreliable allies"; on the Chinese leadership, "do not burn bridges"). To check: Protocol 71, Dec. 3, 1962, AOK (APRF) (cited by [[w.friedman-shadow-cold-war]], 95 n.172a); [[w.prezidium-tsk-kpss-1954]], I, 663 (cited by [[w.friedman-shadow-cold-war]], 95 n.172b); Protocol 71, Dec. 3, 1962, AOK (APRF) (cited by [[w.friedman-shadow-cold-war]], 96 n.176a); [[w.prezidium-tsk-kpss-1954]], I, 663 (cited by [[w.friedman-shadow-cold-war]], 96 n.176b). See [[cal.1962-11-29.missile-crisis]]. Names: Mikoyan, Khrushchev, Kennedy, Malinovsky.'
     src:
       c: 3d627984
       rows:
@@ -323,6 +341,8 @@ entries:
         - 'w.prezidium-tsk-kpss-1954 I, 663: all'
         - 'via x.1962-12-03.presidium-protocol-71: all'
         - 'w.prezidium-tsk-kpss-1954 III, 407–09: ?'
+        - 'w.friedman-shadow-cold-war 95–96: ?'
+        - 'via x.1962-12-03.presidium-protocol-71: ?'
     tags: [name:mikoyan-anastas, name:khrushchev-nikita-s, name:kennedy-john-f, name:malinovsky-rodion-y, vis:only:ussr]
     time_range:
       - 1962-12-03T06:00Z
@@ -660,7 +680,7 @@ entries:
     time: 1962-12-04T07:30Z
     thread: china-leadership
     c: The Secretariat 书记处, 3:30 to 6 p.m.; Deng Xiaoping 邓小平 relays decisions of the Standing Committee.
-    n: '[[w.yang-shangkun-riji]], II, 230 (Dec. 4, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1735 (Dec. 4, 1962; afternoon; Deng presides and relays the Standing Committee''s decisions of Nov. 30); [[w.mao-zedong-zhuan]], V, ch. 71 n.6 (Dec. 4: at the Secretariat Deng Xiaoping relays what Mao''s Standing Committee meeting of Dec. 2, afternoon, decided on answering the Italian party). The words: 下午3时半到6时 (II, 230). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Record of the Secretariat''s meeting 中共中央书记处会议记录, Dec. 4, 1962, Deng Xiaoping relaying the decisions of the Standing Committee meeting of Dec. 2 (cited by [[w.mao-zedong-zhuan]], V, ch. 71 n.6). Names: Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], II, 230 (Dec. 4, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1735 (Dec. 4, 1962; afternoon; Deng presides and relays the Standing Committee''s decisions of Nov. 30); [[w.mao-zedong-zhuan]], V, ch. 71 n.6 (Dec. 4: at the Secretariat Deng Xiaoping relays what Mao''s Standing Committee meeting of Dec. 2, afternoon, decided on answering the Italian party). The words: 下午3时半到6时 (II, 230). [[w.peng-zhen-nianpu-1902]], IV, 230 (Dec. 4, 1962, afternoon; the Secretariat''s 343rd meeting; Peng Zhen there; Deng Xiaoping relays the Standing Committee''s decisions of Nov. 30: the Central Work Conference put off, the fourth session of the second NPC in 1963, the international struggle against revisionism, the re-registration of members; *Peking Review* 北京周报 to be an international theoretical journal in English, French and Spanish; Lin Feng to head the Higher Party School). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Record of the Secretariat''s meeting 中共中央书记处会议记录, Dec. 4, 1962, Deng Xiaoping relaying the decisions of the Standing Committee meeting of Dec. 2 (cited by [[w.mao-zedong-zhuan]], V, ch. 71 n.6). Names: Deng Xiaoping.'
     src:
       c: 897c1ee8
       rows:
@@ -668,6 +688,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1735: B'
         - 'w.mao-zedong-zhuan V, ch. 71 n.6: B'
         - 'via w.mao-zedong-zhuan V, ch.71 n.6: B'
+        - 'w.peng-zhen-nianpu-1902 IV, 230: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-12-04.china-leadership-5
@@ -746,6 +767,20 @@ entries:
         - 'w.jian-zhou-enlai 486: all'
         - 'via x.1962-12-04.ccp-cc-notice-cuba-anti-american-struggles: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1962-12-04.cuba
+    when: Dec. 4
+    date: '1962-12-04'
+    thread: cuba
+    also: [china]
+    c: 'The Chinese Embassy in Cuba to the Foreign Ministry and the Liaison Department: Guevara has apologized to the Ambassador for his remarks of Oct. 13.'
+    n: '[[w.friedman-shadow-cold-war]], 95. Made public: 2015. To check: PRC embassy Cuba to MFA, November 6, 1962, CFMA doc. 109-03218-05, 5 (cited by [[w.friedman-shadow-cold-war]], 95 n.169a); PRC embassy Cuba to MFA, Zhonglianbu, December 4, 1962, CFMA doc. 109-03218-05, 20 (cited by [[w.friedman-shadow-cold-war]], 95 n.169b). Names: Guevara.'
+    src:
+      c: a2c45e2c
+      rows:
+        - 'w.friedman-shadow-cold-war 95: all'
+        - 'via x.1962-11-06.prc-embassy-cuba-mfa-november-6-1962: ?'
+        - 'via x.1962-12-04.prc-embassy-cuba-mfa-zhonglianbu-december-4: ?'
+    tags: [polity:prc, vis:only:prc, name:guevara-ernesto]
   - id: cal.1962-12-05.middle-east-johnson-plan
     when: Dec. 5
     date: '1962-12-05'
@@ -901,14 +936,20 @@ entries:
     date: '1962-12-05'
     thread: china-leadership
     c: Zhou Enlai at the Secretariat on the defense industry; it agrees with Luo Ruiqing's general view, keeps the relation of the defense research bodies and the production departments as it is, to be harmonized by closer cooperation, and sets up a Fourth Ministry of Machine Building (the radio industry).
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 517 (Dec. 5, 1962); [[w.yang-shangkun-riji]], II, 230 (Dec. 5, 1962; the Secretariat, 3:30 to 6 p.m., hears the war industry; Zhou Enlai not named); [[w.deng-xiaoping-nianpu-1904]], III, 1736 (Dec. 5, 1962; afternoon; Deng presides, Zhou attends; Luo Ruiqing on the defense industry; decided, a Fourth Ministry of Machine Building). Continues 518. Made public: 1997. Names: Zhou Enlai, Luo Ruiqing.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 517 (Dec. 5, 1962); [[w.yang-shangkun-riji]], II, 230 (Dec. 5, 1962; the Secretariat, 3:30 to 6 p.m., hears the war industry; Zhou Enlai not named); [[w.deng-xiaoping-nianpu-1904]], III, 1736 (Dec. 5, 1962; afternoon; Deng presides, Zhou attends; Luo Ruiqing on the defense industry; decided, a Fourth Ministry of Machine Building); [[w.peng-zhen-nianpu-1902]], IV, 230 (Dec. 5, 1962, afternoon; the Secretariat''s 344th meeting; Peng Zhen there, Zhou Enlai attending; Luo Ruiqing on the defense industry; a Fourth Ministry of Machine Building (radio industry) agreed; the Defense Industry Office a working body of the State Council, answering also to the Center). Continues 518. Made public: 1997. Names: Zhou Enlai, Luo Ruiqing.'
     src:
       c: df846fc8
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 517: ?'
         - 'w.yang-shangkun-riji II, 230: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1736: A'
+        - 'w.peng-zhen-nianpu-1902 IV, 230: ?'
     tags: [polity:prc, name:zhou-enlai, name:luo-ruiqing, vis:only:prc]
+    time_range:
+      - 1962-12-05T04:00Z
+      - 1962-12-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-05.china-leadership-2
     when: Dec. 5
     date: '1962-12-05'
@@ -972,6 +1013,18 @@ entries:
       - 1962-12-05T16:00Z
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1962-12-05.china-leadership-4
+    when: Dec. 5
+    date: '1962-12-05'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. At Peng Zhen''s 彭真 forum on the directive against graft and theft, the ministries'' heads agree the problem grave; but output down, workers cut, cadres and masses unsettled: more output and thrift first, order in production, efficiency, lower costs, more profit; the campaign against graft and theft after.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 229. Made public: 2012. See [[cal.1962-11-28.china-leadership-5]]. Names: Peng Zhen.'
+    src:
+      c: b4f25fec
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 229: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1962-12-06.press-and-broadcasting
     when: Dec. 6
     date: '1962-12-06'
@@ -1233,6 +1286,30 @@ entries:
       - 1962-12-06T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-06.china-leadership-6
+    when: Dec. 6
+    date: '1962-12-06'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 with Yuan Baohua 袁宝华, Yao Yilin 姚依林, Liu Mingfu 刘明夫 and An Ziwen 安子文 on the directive: its title "strictly practice more output and thrift, against graft and theft," on mines, transport, commerce and offices; the enterprises the chief place of thrift, in materials, quality, waste, non-productive staff and repairs; then with Yu Qiuli 余秋里, Liu Lanbo 刘澜波 and others: industry to turn onto the track of agriculture as the base, next year''s tasks not yet given; would a movement hit present output?'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 229. The page''s notes: Yuan Baohua, deputy director of the State Economic Commission; Liu Mingfu, deputy director of the State Planning Commission (IV, 229). Made public: 2012. See [[cal.1962-11-28.china-leadership-5]]. Names: Peng Zhen.'
+    src:
+      c: 5f5a7f10
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 229: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1962-12-06.china-leadership-7
+    when: Dec. 6
+    date: '1962-12-06'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 with leaders of the Peking committee 北京市委 and of factories on the campaign for more output and thrift.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 229. Made public: 2012. See [[cal.1962-11-28.china-leadership-5]]. Names: Peng Zhen.'
+    src:
+      c: a69da007
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 229: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1962-12-07.middle-east-johnson-plan
     when: Dec. 7
     date: '1962-12-07'
@@ -1302,17 +1379,35 @@ entries:
     date: '1962-12-07'
     thread: china-leadership
     c: At Liu Shaoqi's 刘少奇, with Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and Peng Zhen 彭真, to 10 p.m., on "the × case" ×案 (so printed); Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], II, 231 (Dec. 7, 1962; note 1: so in the original; the page prints a cross, ×, read on the image); [[w.deng-xiaoping-nianpu-1904]], III, 1736 (Dec. 7, 1962; evening (晚); Deng with Zhou and Peng Zhen at Liu''s; talks). The words: 晚间……10时完毕 (II, 231). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 231 (Dec. 7, 1962; note 1: so in the original; the page prints a cross, ×, read on the image); [[w.deng-xiaoping-nianpu-1904]], III, 1736 (Dec. 7, 1962; evening (晚); Deng with Zhou and Peng Zhen at Liu''s; talks); [[w.peng-zhen-nianpu-1902]], IV, 230 (Dec. 7, 1962; Peng Zhen, with Zhou Enlai and Deng Xiaoping, at Liu Shaoqi''s to talk). The words: 晚间……10时完毕 (II, 231). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Yang Shangkun.'
     src:
       c: d87c74a1
       rows:
         - 'w.yang-shangkun-riji II, 231: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1736: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 230: ?'
     tags: [polity:prc, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
     time_range:
       - 1962-12-07T11:00Z
       - 1962-12-07T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-07.china-leadership-3
+    when: Dec. 7
+    date: '1962-12-07'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真, with Lu Dingyi 陆定一, Kang Sheng 康生, Chen Boda 陈伯达, Yang Shangkun 杨尚昆, Liu Ningyi 刘宁一 and others, Deng Xiaoping 邓小平 presiding, on Wu Xiuquan's 伍修权 draft greeting to the Czechoslovak party's twelfth congress.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 230. The words: 上午 (IV, 230). Made public: 2012. See [[cal.1962-12-04.soviet-union]]. Names: Peng Zhen, Lu Dingyi, Kang Sheng, Chen Boda, Deng Xiaoping.'
+    src:
+      c: 3623999c
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 230: all'
+    tags: [polity:prc, name:peng-zhen, name:lu-dingyi, name:kang-sheng, name:chen-boda, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1962-12-06T22:00Z
+      - 1962-12-07T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1962-12-08.press-and-broadcasting
     when: Dec. 8
@@ -1416,12 +1511,13 @@ entries:
     time: 1962-12-08T07:30Z
     thread: china-leadership
     c: The Secretariat 书记处, 3:30 to 6:30 p.m., hears the Central Control Commission.
-    n: '[[w.yang-shangkun-riji]], II, 231 (Dec. 8, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1736 (Dec. 8, 1962; afternoon; Deng presides; Wang Congwu and Qian Ying on the Control Commission''s plenum and the national control work conference. Deng: control cadres moved only by the cadre lists and with the cadre departments'' approval; a few cases of reprisal dealt with in earnest; the Tenth Plenum on class struggle did not say to stop promoting democracy, of which there is too little; work by typical cases, a few expulsions to raise the commission''s flag; the Central Control Commission may take up cases directly). The words: 下午3时半到6时半 (II, 231). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], II, 231 (Dec. 8, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1736 (Dec. 8, 1962; afternoon; Deng presides; Wang Congwu and Qian Ying on the Control Commission''s plenum and the national control work conference. Deng: control cadres moved only by the cadre lists and with the cadre departments'' approval; a few cases of reprisal dealt with in earnest; the Tenth Plenum on class struggle did not say to stop promoting democracy, of which there is too little; work by typical cases, a few expulsions to raise the commission''s flag; the Central Control Commission may take up cases directly); [[w.peng-zhen-nianpu-1902]], IV, 231 (Dec. 8, 1962, afternoon; the Secretariat''s 345th meeting; Peng Zhen there; Wang Congwu and Qian Ying on the Control Commission''s plenum and the national control work conference; decided: a few typical cases of breaking law and discipline handled and made known; screening within the Center''s rules; rules for organs'' and cadres'' own production lest the peasants lose; the control groups sent to the regional bureaus may sit in at some meetings; Peng Zhen: cadres'' privilege to be met by cases breaking the rules; hiring labor and lending money not privilege but breaking law and discipline; build the rules; the control commissions in general to rely on the Party committees, differences reported up). The words: 下午3时半到6时半 (II, 231). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: 7d49bf5a
       rows:
         - 'w.yang-shangkun-riji II, 231: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1736: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 231: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-12-08.china-leadership-4
@@ -1449,6 +1545,18 @@ entries:
     c: Cà Mau. Dec. 8 Saigon lands troops by 3 armed HU-1A helicopters and 50 helicopters ("H47" in the history) on Cái Bát, Rạch Chèo and Tân Thành.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 178.'
     tags: [polity:drv]
+  - id: cal.1962-12-08.china-leadership-5
+    when: Dec. 8–9
+    date: '1962-12-08'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 with Duan Junyi 段君毅, Kong Xiangzhen 孔祥祯, Song Yuhe 宋裕和, Liang Yingyong 梁膺庸, Xu Zirong 徐子荣, Yang Bo 杨波, Jia Bubin 贾步彬 and others on the directive on more output and thrift, against graft, theft and speculation (to Dec. 9): opposing privilege reaches too far; the movement in factories, mines and offices at county level and up, none below for now; the real waste in the units of production, the masses to be roused; graft, theft and enemies'' sabotage found by the masses handled by men set to it.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 230–231. The page''s notes: Song Yuhe, Vice-Minister of Building; Liang Yingyong, Vice-Minister of the Chemical Industry; Yang Bo, researcher of the General Office; Jia Bubin, head of its industry group (IV, 230). Made public: 2012. See [[cal.1962-11-28.china-leadership-5]]. Names: Peng Zhen, Duan Junyi.'
+    src:
+      c: 417ca520
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 230–231: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:duan-junyi]
   - id: cal.1962-12-09.opinion-5
     when: Dec. 9
     date: '1962-12-09'
@@ -1988,12 +2096,13 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Yangfeng Jiadao 养蜂夹道, 4:30 p.m. Deng Xiaoping 邓小平 talks with Japanese Communists and gives them a dinner, to 7:30; Ii Yashirō 伊井弥四郎 of the Secretariat and four Central Committee members (平苇信行, 深谷进, 西馆仁, 冈本博之). Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], II, 232 (Dec. 12, 1962; note 1: the five); [[w.deng-xiaoping-nianpu-1904]], III, 1736–1737 (Dec. 12, 1962; afternoon; Deng sees the JCP delegation under Ii Yashirō and gives a dinner; on the differences in the movement and the CCP delegations at the Hungarian, Bulgarian, Czechoslovak and Italian congresses). The words: 4时半……6时半宴会……7时半完毕 (II, 232). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 232 (Dec. 12, 1962; note 1: the five); [[w.deng-xiaoping-nianpu-1904]], III, 1736–1737 (Dec. 12, 1962; afternoon; Deng sees the JCP delegation under Ii Yashirō and gives a dinner; on the differences in the movement and the CCP delegations at the Hungarian, Bulgarian, Czechoslovak and Italian congresses); [[w.peng-zhen-nianpu-1902]], IV, 231 (Dec. 12, 1962; Peng Zhen, with Deng Xiaoping, Yang Shangkun, Liao Chengzhi, Liu Ningyi and others, meets and gives a dinner for the Japanese Communist Party''s delegation under Ii Yashirō, secretary of its Secretariat). The words: 4时半……6时半宴会……7时半完毕 (II, 232). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun.'
     src:
       c: 8edd08f8
       rows:
         - 'w.yang-shangkun-riji II, 232: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1736–1737: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 231: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-12-12.china-leadership-2
@@ -2379,6 +2488,20 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1737–1738: all'
     tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:he-long, name:li-fuchun, name:li-xiannian, name:bo-yibo, name:lu-dingyi, name:nie-rongzhen, name:luo-ruiqing, name:zhao-erlu, name:zhang-aiping, name:liu-jie, name:sun-zhiyuan, name:duan-junyi, name:gao-yang, vis:only:prc]
+  - id: cal.1962-12-14.china-leadership-8
+    when: Dec. 14
+    date: '1962-12-14'
+    place: dar-es-salaam
+    thread: china-leadership
+    also: [africa]
+    c: 'The Chinese Embassy in Tanganyika to the Foreign Ministry and the Peace Committee: China had backed an opposition party in Tanganyika; its delegation to Moshi to bring representatives of many organizations, stay on after the conference, make friends and perhaps an agreement on economic and technical cooperation.'
+    n: '[[w.friedman-shadow-cold-war]], 99. Made public: 2015. To check: PRC embassy Tanganyika to MFA and Peace Committee, December 14, 1962, CFMA doc. 108-00834-03, 8 (cited by [[w.friedman-shadow-cold-war]], 99 n.196); PRC embassy Tanganyika to MFA and Peace Committee, December 14, 1962, CFMA doc. 108-00834-03 (cited by [[w.friedman-shadow-cold-war]], 99 n.197).'
+    src:
+      c: 5f8aa813
+      rows:
+        - 'w.friedman-shadow-cold-war 99: all'
+        - 'via x.1962-12-14.prc-embassy-tanganyika-mfa-peace-committee-december: ?'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-12-15.mississippi
     when: Dec. 15
     date: '1962-12-15'
@@ -2455,7 +2578,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking. The *Renmin ribao* editorial "Workers of the world, unite, oppose our common enemy." It sums up the attacks on the CCP and Albania at the Bulgarian, Hungarian and Czechoslovak congresses, above all the Czechoslovak; states China's views on war and peace, on imperialism and nuclear weapons; answers the charges on the Sino-Indian border and on Cuba, as departures from the stand toward enemy and friend; holds that relations among parties cannot be settled by a majority over a minority; and asks the parties to hold to the Moscow Declaration and Statement.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 515–517 (the editorial of Dec. 15 (Mao''s title; the first draft titled "Hold to truth..."); the first of seven articles, Dec. 15, 1962, to Mar. 8, 1963, none naming the CPSU or Khrushchev); [[w.macfarquhar-origins-of-the-cultural]], III, 321 (the day after the selection of Novotný''s remarks, an editorial calling on the proletarians of the world to unite against their common imperialist enemy); [[w.jianguo-yilai-mao-zedong]], XVI, 445 (Dec. 15, 1962; note 1 to Mao''s note of Dec. 14: the editorial printed Dec. 15 under that title); [[w.yang-shangkun-riji]], II, 233 (Dec. 15, 1962; Yang reads it that morning); [[w.deng-xiaoping-nianpu-1904]], III, 1737 (Dec. 15, 1962; printed as "Workers of the world, unite, oppose our common enemy"; aimed chiefly at the Czechoslovak congress''s charges (n.1)); [[w.mao-zedong-zhuan]], V, ch. 71 (Dec. 15: *Renmin ribao*, "Workers of the world, unite, oppose our common enemy", the first of the replies to the attacks at the Bulgarian, Hungarian and Czechoslovak party congresses, Mao having named the title). [[w.westad-introduction]], 28 (the propaganda after Oct. 28: praise of the Cubans, condemnation of those "frightened in the face of imperialist aggression"; 28 n.101 names this day''s *Renmin ribao*). See [[cal.1962-12-14.china-leadership]].'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 515–517 (the editorial of Dec. 15 (Mao''s title; the first draft titled "Hold to truth..."); the first of seven articles, Dec. 15, 1962, to Mar. 8, 1963, none naming the CPSU or Khrushchev); [[w.macfarquhar-origins-of-the-cultural]], III, 321 (the day after the selection of Novotný''s remarks, an editorial calling on the proletarians of the world to unite against their common imperialist enemy); [[w.jianguo-yilai-mao-zedong]], XVI, 445 (Dec. 15, 1962; note 1 to Mao''s note of Dec. 14: the editorial printed Dec. 15 under that title); [[w.yang-shangkun-riji]], II, 233 (Dec. 15, 1962; Yang reads it that morning); [[w.deng-xiaoping-nianpu-1904]], III, 1737 (Dec. 15, 1962; printed as "Workers of the world, unite, oppose our common enemy"; aimed chiefly at the Czechoslovak congress''s charges (n.1)); [[w.mao-zedong-zhuan]], V, ch. 71 (Dec. 15: *Renmin ribao*, "Workers of the world, unite, oppose our common enemy", the first of the replies to the attacks at the Bulgarian, Hungarian and Czechoslovak party congresses, Mao having named the title). [[w.westad-introduction]], 28 (the propaganda after Oct. 28: praise of the Cubans, condemnation of those "frightened in the face of imperialist aggression"; 28 n.101 names this day''s *Renmin ribao*); [[w.friedman-shadow-cold-war]], 96 (the Chinese begin a series of polemics against the USSR, composed under Mao''s supervision and distributed in many languages). To check: [[w.luthi-sino-soviet-split]], 237–38 (cited by [[w.friedman-shadow-cold-war]], 96 n.179). See [[cal.1962-12-14.china-leadership]].'
     src:
       c: 5732b80d
       rows:
@@ -2467,6 +2590,7 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 71: B-C'
         - 'w.westad-introduction 28: ?'
         - 'via x.1962-12-15.renmin-ribao-dec-15: ?'
+        - 'w.friedman-shadow-cold-war 96: ?'
     tags: [polity:prc]
   - id: cal.1962-12-16.cuba
     when: Dec. 16
@@ -2883,15 +3007,17 @@ entries:
     when: Dec. 18
     date: '1962-12-18'
     time: 1962-12-18T08:30Z
+    place: peking
     thread: china-leadership
     follows:
       - cal.1962-12-18.china-leadership-3
     c: Peng Zhen 彭真 receives the provinces' and cities' trade unionists, 4:30 to 6 p.m.; Yang Shangkun 杨尚昆 speaks too.
-    n: '[[w.yang-shangkun-riji]], II, 234 (Dec. 18, 1962). The words: 4时半接见省市工会同志，我也讲了一段话，6时完 (II, 234). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 234 (Dec. 18, 1962); [[w.peng-zhen-nianpu-1902]], IV, 231–232 (Dec. 18, 1962, afternoon; Zhongnanhai; Peng Zhen, with Yang Shangkun and others, receives the members of the trade unions'' fourth executive committee session, and speaks: rely on the working class to overcome the difficulties of high targets, estimates and procurement and the disasters; nearly 20 million workers sent to the villages without disorder; the four modernizations by more output and thrift, living bettered only on output; an independent, complete, modern economy, agriculture the base, industry leading; the unions the Party''s link to the masses, production first, living second; union cadres one with the workers, "官气" bringing airs, softness and torpor; the Party committee the highest leader in a place; part printed in the *Selected Works of Peng Zhen* 《彭真文选》 as "On trade union work" 《关于工会工作》). The words: 4时半接见省市工会同志，我也讲了一段话，6时完 (II, 234). Made public: 1991 (*Peng Zhen wenxuan* 《彭真文选》, in part, as [[w.peng-zhen-nianpu-1902]], IV, 232, gives it). Names: Peng Zhen, Yang Shangkun.'
     src:
       c: d3b29d99
       rows:
         - 'w.yang-shangkun-riji II, 234: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 231–232: ?'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-12-18.china-leadership-4
@@ -3128,6 +3254,23 @@ entries:
       - 1962-12-19T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-19.china-leadership-6
+    when: Dec. 19
+    date: '1962-12-19'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 speaks at the close of the first session of the third Peking Political Consultative Conference 北京市政协: three years of great disasters and grave faults, high targets, procurement and blind command in farming, too much construction and too many workers in industry; nearly 20 million sent from the towns to farming, large construction cut from over 1,700 projects to over 600, each year better; some doubt the Party''s leadership and socialism, some comrades would struggle against them, "我说不要斗"; the "three don''ts" still hold.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 232–233. The words: 下午 (IV, 232–233). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 40d5adaf
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 232–233: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1962-12-19T04:00Z
+      - 1962-12-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-20.latin-america
     when: Dec. 20
     date: '1962-12-20'
@@ -3193,7 +3336,7 @@ entries:
     date: '1962-12-20'
     thread: china-leadership
     c: Zhou Enlai at the Politburo, hearing Li Xiannian on the balance of 1963's finance, credit, foreign exchange and the market.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 519 (Dec. 20, 1962); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 567 (Dec. 20, 1962; Liu presides; interjecting: the situation has turned but quite large difficulties remain on every side; capital construction to be held tight); [[w.yang-shangkun-riji]], II, 234 (Dec. 20, 1962; 3:30 to 6:30 p.m.; Li Xiannian on the next year''s finance, market and prices; Zhou Enlai not named); [[w.deng-xiaoping-nianpu-1904]], III, 1738 (Dec. 20, 1962; afternoon; Deng at the Politburo, Liu presiding; Li Xiannian on next year''s finance, market and prices). Made public: 1996. Names: Zhou Enlai, Li Xiannian.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 519 (Dec. 20, 1962); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 567 (Dec. 20, 1962; Liu presides; interjecting: the situation has turned but quite large difficulties remain on every side; capital construction to be held tight); [[w.yang-shangkun-riji]], II, 234 (Dec. 20, 1962; 3:30 to 6:30 p.m.; Li Xiannian on the next year''s finance, market and prices; Zhou Enlai not named); [[w.deng-xiaoping-nianpu-1904]], III, 1738 (Dec. 20, 1962; afternoon; Deng at the Politburo, Liu presiding; Li Xiannian on next year''s finance, market and prices); [[w.peng-zhen-nianpu-1902]], IV, 233 (Dec. 20, 1962, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, hearing Li Xiannian on next year''s finance, credit, foreign exchange, market balance and prices). Made public: 1996. Names: Zhou Enlai, Li Xiannian.'
     src:
       c: 3700d140
       rows:
@@ -3201,7 +3344,13 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 567: A'
         - 'w.yang-shangkun-riji II, 234: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1738: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 233: ?'
     tags: [polity:prc, name:zhou-enlai, name:li-xiannian, vis:only:prc]
+    time_range:
+      - 1962-12-20T04:00Z
+      - 1962-12-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-20.china-leadership-2
     when: Dec. 20
     date: '1962-12-20'
@@ -3385,6 +3534,20 @@ entries:
       - 1962-12-21T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-21.china-leadership-8
+    when: Dec. 21
+    date: '1962-12-21'
+    thread: china-leadership
+    also: [africa]
+    c: 'The Chinese Peace Committee to the embassies in Asia and Africa, the Moshi conference once delayed: "an important arena of struggle" with the modern revisionists for leadership of the Afro-Asian mass movement; not solidarity this time but "maintain the struggle until the end"; the delegation to talk of Cuba as much as possible.'
+    n: '[[w.friedman-shadow-cold-war]], 97. Made public: 2015. To check: Peace Committee to embassies UAR, Tanganyika, Algeria, Ghana, Guinea, Mali, Morocco, Somalia, DPRK, DRV, Ceylon, Indonesia, Burma, Cambodia, Laos, Nepal, Iraq, Syria, India, Pakistan, Cuba, December 21, 1962, CFMA doc. 108-00320-03, 4–5 (cited by [[w.friedman-shadow-cold-war]], 97 n.183a); Peace Committee report to Liu Ningyi, Liao Chenzhi, MFA, December 13, 1962, CFMA doc. 108-00415-01, 2 (cited by [[w.friedman-shadow-cold-war]], 97 n.183b); Peace Committee to embassies UAR, Tanganyika, Algeria, Ghana, Guinea, Mali, Morocco, Somalia, DPRK, DRV, Ceylon, Indonesia, Burma, Cambodia, Laos, Nepal, Iraq, Syria, India, Pakistan, Cuba, December 21, 1962, CFMA doc. 108-00320-03 (cited by [[w.friedman-shadow-cold-war]], 97 n.184).'
+    src:
+      c: '66623870'
+      rows:
+        - 'w.friedman-shadow-cold-war 97: all'
+        - 'via x.1962-12-21.peace-committee-embassies-uar-tanganyika-algeria-ghana: ?'
+        - 'via x.1962-12-13.peace-committee-report-liu-ningyi-liao-chengzhi-mfa: ?'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
   - id: cal.1962-12-22.congo
     when: Dec. 22
     date: '1962-12-22'
@@ -3473,12 +3636,13 @@ entries:
     time: 1962-12-22T07:30Z
     thread: china-leadership
     c: The Secretariat 书记处, 3:30 to 6 p.m., hears Chen Zhengren 陈正人.
-    n: '[[w.yang-shangkun-riji]], II, 235 (Dec. 22, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1738 (Dec. 22, 1962; afternoon; Deng presides; Chen Zhengren on the scientific conference on farm machinery. Deng: tractor models chosen with great care, few, the eight chosen; one engine for several machines, common parts, unified repair and parts works; a battle of annihilation, not pepper scattered). The words: 下午3时半到6时 (II, 235). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Zhengren.'
+    n: '[[w.yang-shangkun-riji]], II, 235 (Dec. 22, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1738 (Dec. 22, 1962; afternoon; Deng presides; Chen Zhengren on the scientific conference on farm machinery. Deng: tractor models chosen with great care, few, the eight chosen; one engine for several machines, common parts, unified repair and parts works; a battle of annihilation, not pepper scattered); [[w.peng-zhen-nianpu-1902]], IV, 233 (Dec. 22, 1962, afternoon; the Secretariat''s 346th meeting; Peng Zhen there; Chen Zhengren on the Ministry of Farm Machinery''s two conferences on farm machinery and farm science; eight tractor models for production agreed in principle; staff and money to the State Council''s Agriculture and Forestry Office; the two reports forwarded). The words: 下午3时半到6时 (II, 235). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Zhengren.'
     src:
       c: 31c6efbf
       rows:
         - 'w.yang-shangkun-riji II, 235: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1738: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 233: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-12-22.china-leadership-6
@@ -3553,12 +3717,13 @@ entries:
     thread: china-leadership
     also: [china, soviet-union, trade]
     c: Peking. Zhou Enlai attends the reception given by Jiang Nanxiang, president of the China–Albania Friendship Association, in farewell to the Albania–China Friendship Association delegation headed by Shamblli, and receives the Albanian government's trade delegation headed by Ngjela, Minister of Trade.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 23, 1962; 晚上); [[w.chen-yi-nianpu]], 946–947 (Dec. 23, 1962; Chen Yi at the reception of Jiang Nanxiang 蒋南翔, president of the China–Albania Friendship Association, seeing off 佩蒂·沙姆布利''s delegation; with Zhou and Li Xiannian 李先念 receives the Albanian government trade delegation led by 基乔·恩杰拉, Minister of Trade). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 23, 1962; 晚上); [[w.chen-yi-nianpu]], 946–947 (Dec. 23, 1962; Chen Yi at the reception of Jiang Nanxiang 蒋南翔, president of the China–Albania Friendship Association, seeing off 佩蒂·沙姆布利''s delegation; with Zhou and Li Xiannian 李先念 receives the Albanian government trade delegation led by 基乔·恩杰拉, Minister of Trade); [[w.peng-zhen-nianpu-1902]], IV, 233 (Dec. 23, 1962, evening; Peng Zhen at the China–Albania Friendship Association''s farewell reception for the Albania–China Friendship Association''s delegation under Peti Shamblli, member of the Albanian party''s Central Committee and Minister of Agriculture). Names: Zhou Enlai.'
     src:
       c: 9584eaae
       rows:
         - 'w.zhou-enlai-waijiao-huodong 345: all'
         - 'w.chen-yi-nianpu 946–947: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 233: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai]
     time_range:
       - 1962-12-23T11:00Z
@@ -3713,6 +3878,23 @@ entries:
       - 1962-12-24T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-24.china-leadership-6
+    when: Dec. 24
+    date: '1962-12-24'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 presides at the second National People's Congress Standing Committee's 全国人大常委会 seventy-eighth session, which names Zhou Enlai 周恩来 plenipotentiary to sign the boundary treaty of the People's Republic and the Mongolian People's Republic.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 233. The words: 上午 (IV, 233). Names: Peng Zhen, Zhou Enlai.'
+    src:
+      c: d7405f1e
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 233: all'
+    tags: [polity:prc, name:peng-zhen, name:zhou-enlai]
+    time_range:
+      - 1962-12-23T22:00Z
+      - 1962-12-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-25.missile-crisis
     when: Dec. 25
     date: '1962-12-25'
@@ -3779,13 +3961,14 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai goes to the airport to welcome Tsedenbal, Chairman of the Mongolian Council of Ministers, on his visit to sign the China–Mongolia boundary treaty.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 上午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 25–27, 1962; the visit of Tsedenbal, Chairman of the Mongolian Council of Ministers, in the book Chairman of the Council; Liu Shaoqi receives him; Zhou holds talks with him); [[w.chen-yi-nianpu]], 947 (Dec. 25, 1962, morning; Chen Yi at the airport). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 上午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 25–27, 1962; the visit of Tsedenbal, Chairman of the Mongolian Council of Ministers, in the book Chairman of the Council; Liu Shaoqi receives him; Zhou holds talks with him); [[w.chen-yi-nianpu]], 947 (Dec. 25, 1962, morning; Chen Yi at the airport); [[w.peng-zhen-nianpu-1902]], IV, 233 (Dec. 25, 1962, morning; Peng Zhen, with Zhou Enlai and others, at the airport to meet Tsedenbal, Chairman of the Mongolian Council of Ministers). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 605b76d5
       rows:
         - 'w.zhou-enlai-waijiao-huodong 345: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: B'
         - 'w.chen-yi-nianpu 947: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 233: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1962-12-24T22:00Z
@@ -3815,12 +3998,13 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the state banquet welcoming Tsedenbal.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 晚上); [[w.chen-yi-nianpu]], 947 (Dec. 25, 1962, evening; Chen Yi at Zhou''s banquet). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 晚上); [[w.chen-yi-nianpu]], 947 (Dec. 25, 1962, evening; Chen Yi at Zhou''s banquet); [[w.peng-zhen-nianpu-1902]], IV, 233 (Dec. 25, 1962, evening; the Great Hall of the People; Peng Zhen at Zhou Enlai''s banquet welcoming Tsedenbal). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 71addbd3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 345: all'
         - 'w.chen-yi-nianpu 947: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 233: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1962-12-25T11:00Z
@@ -3959,7 +4143,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai and Tsedenbal, each for his country, sign the China–Mongolia Border Treaty.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 521 (Dec. 26, 1962); [[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 上午11时, 钓鱼台宾馆18号楼, 回访并会谈); [[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 下午, 陪同刘少奇主席接见泽登巴尔主席, 签字); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 567 (Dec. 26, 1962; Liu, with Dong Biwu and Zhou Enlai, meets Tsedenbal, chairman of the Mongolian Council of Ministers; on settling the boundary: it is fixed by treaty after talks, good for both peoples; as brother neighbors on mutual respect and equality, in a spirit of mutual understanding and concession, the boundary was settled smoothly; the same principles settle China''s boundaries with other brother countries); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 26, 1962; the two sides sign the China–Mongolia boundary treaty); [[w.chen-yi-nianpu]], 947 (Dec. 26, 1962, afternoon; Chen Yi at the signing). To check: the treaty. Names: Zhou Enlai, Tsedenbal.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 521 (Dec. 26, 1962); [[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 上午11时, 钓鱼台宾馆18号楼, 回访并会谈); [[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 下午, 陪同刘少奇主席接见泽登巴尔主席, 签字); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 567 (Dec. 26, 1962; Liu, with Dong Biwu and Zhou Enlai, meets Tsedenbal, chairman of the Mongolian Council of Ministers; on settling the boundary: it is fixed by treaty after talks, good for both peoples; as brother neighbors on mutual respect and equality, in a spirit of mutual understanding and concession, the boundary was settled smoothly; the same principles settle China''s boundaries with other brother countries); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 26, 1962; the two sides sign the China–Mongolia boundary treaty); [[w.chen-yi-nianpu]], 947 (Dec. 26, 1962, afternoon; Chen Yi at the signing); [[w.peng-zhen-nianpu-1902]], IV, 234 (Dec. 26, 1962, afternoon; Peng Zhen, with Liu Shaoqi, Dong Biwu and others, at the signing of the China–Mongolia boundary treaty, Zhou Enlai and Tsedenbal signing for their governments). To check: the treaty. Names: Zhou Enlai, Tsedenbal.'
     src:
       c: b4a76962
       rows:
@@ -3968,6 +4152,7 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 567: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: A'
         - 'w.chen-yi-nianpu 947: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 234: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1962-12-26.china-leadership-2
@@ -3986,12 +4171,13 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the meeting of 10,000 of the capital's people welcoming Tsedenbal and celebrating the signing of the China–Mongolia boundary treaty.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 下午); [[w.chen-yi-nianpu]], 947 (Dec. 26, 1962, afternoon; Chen Yi at the meeting in the Great Hall of the People). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 下午); [[w.chen-yi-nianpu]], 947 (Dec. 26, 1962, afternoon; Chen Yi at the meeting in the Great Hall of the People); [[w.peng-zhen-nianpu-1902]], IV, 234 (Dec. 26, 1962, afternoon; Peng Zhen, with Zhou Enlai and others, at the meeting of more than 10,000 of the capital at the Great Hall of the People welcoming Tsedenbal and celebrating the treaty, and speaks: a common border of more than 4,000 km settled in a short time; between socialist brothers any question can be settled by Marxism-Leninism, proletarian internationalism and the norms of the Moscow Declaration and Statement; a contribution to the camp''s unity). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 80c6c992
       rows:
         - 'w.zhou-enlai-waijiao-huodong 346: all'
         - 'w.chen-yi-nianpu 947: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 234: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1962-12-26T04:00Z
@@ -4076,12 +4262,13 @@ entries:
     date: '1962-12-26'
     thread: china-leadership
     c: Liu Shaoqi receives Tsedenbal, Chairman of the Mongolian Council of Ministers, during his visit to China.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 25–27, 1962); [[w.chen-yi-nianpu]], 947 (Dec. 26, 1962, afternoon; Liu receives Tsedenbal, Chen Yi present). Names: Liu Shaoqi. Check: the book gives no day for Liu''s reception within the visit.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 25–27, 1962); [[w.chen-yi-nianpu]], 947 (Dec. 26, 1962, afternoon; Liu receives Tsedenbal, Chen Yi present); [[w.peng-zhen-nianpu-1902]], IV, 234 (Dec. 26, 1962, afternoon; Peng Zhen accompanies Liu Shaoqi in meeting Tsedenbal). Names: Liu Shaoqi. Check: the book gives no day for Liu''s reception within the visit.'
     src:
       c: ffbcfaed
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: all'
         - 'w.chen-yi-nianpu 947: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 234: ?'
     tags: [polity:prc, polity:mongolia, name:liu-shaoqi]
     time_range:
       - 1962-12-26T04:00Z
@@ -4165,12 +4352,13 @@ entries:
     thread: china-leadership
     also: [china, soviet-union, south-asia]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the banquet given by the Mongolian Ambassador, Dun Tsebegmid, for Tsedenbal's visit, and says that the smooth settlement of the boundary question is a model of relations among socialist states; China has always held that boundary questions with neighbors, brotherly or other, be settled by friendly negotiation, and holds the same belief of the Sino-Indian question, for which it has taken every step imaginable.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 27, 1962; 晚6时31分); [[w.chen-yi-nianpu]], 947 (Dec. 27, 1962, evening; Chen Yi at the banquet of 敦·策伯格米德 and his wife in the Great Hall of the People). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 27, 1962; 晚6时31分); [[w.chen-yi-nianpu]], 947 (Dec. 27, 1962, evening; Chen Yi at the banquet of 敦·策伯格米德 and his wife in the Great Hall of the People); [[w.peng-zhen-nianpu-1902]], IV, 234 (Dec. 27, 1962, evening; Peng Zhen, with Liu Shaoqi, Zhou Enlai and others, at the Mongolian Ambassador Dun Tsevegmid''s banquet at the Great Hall of the People for Tsedenbal''s visit). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 24a9248e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 346: all'
         - 'w.chen-yi-nianpu 947: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 234: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1962-12-27.china-leadership-4
@@ -4180,12 +4368,13 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai goes to the railway station to see off Tsedenbal.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 27, 1962; 晚上); [[w.chen-yi-nianpu]], 947 (Dec. 27, 1962, evening; Chen Yi at the station). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 27, 1962; 晚上); [[w.chen-yi-nianpu]], 947 (Dec. 27, 1962, evening; Chen Yi at the station); [[w.peng-zhen-nianpu-1902]], IV, 234 (Dec. 27, 1962, evening; after the banquet Peng Zhen at the station seeing off Tsedenbal). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 484c4f8a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 346: all'
         - 'w.chen-yi-nianpu 947: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 234: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1962-12-27T11:00Z
@@ -4234,6 +4423,23 @@ entries:
       - 1962-12-27T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-27.china-leadership-7
+    when: Dec. 27
+    date: '1962-12-27'
+    place: peking
+    thread: china-leadership
+    c: The CPPCC auditorium 政协礼堂, Peking 北京. Peng Zhen 彭真, with Zhou Enlai 周恩来 and others, at the New Year party of the Chinese Medical Association 中华医学会 and the national CPPCC 全国政协 for more than 110 doctors of Chinese and Western medicine, among them Yan Fuqing 颜福庆, Huang Jiasi 黄家驷, Lin Qiaozhi 林巧稚, Zhong Huilan 钟惠澜, Zhang Xiaoqian 张孝骞, Pu Fuzhou 蒲辅周, and Hou Baozhang 侯宝璋, back from abroad.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 234. The words: 晚 (IV, 234). Names: Peng Zhen, Zhou Enlai.'
+    src:
+      c: 688b93c3
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 234: all'
+    tags: [polity:prc, name:peng-zhen, name:zhou-enlai]
+    time_range:
+      - 1962-12-27T11:00Z
+      - 1962-12-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-28.congo
     when: Dec. 28
     date: '1962-12-28'
@@ -4262,8 +4468,13 @@ entries:
     date: '1962-12-28'
     thread: china-leadership
     c: Zhou Enlai at the Politburo, hearing Cheng Zihua on the adjustment of the 1963 capital construction plan.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 521 (Dec. 28, 1962); [[w.yang-shangkun-riji]], II, 236 (Dec. 28, 1962; 3 to 6 p.m.; note 3: Cheng Zihua; Zhou Enlai not named). Made public: 1997. Names: Zhou Enlai, Cheng Zihua.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 521 (Dec. 28, 1962); [[w.yang-shangkun-riji]], II, 236 (Dec. 28, 1962; 3 to 6 p.m.; note 3: Cheng Zihua; Zhou Enlai not named); [[w.peng-zhen-nianpu-1902]], IV, 235 (Dec. 28, 1962, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, hearing Cheng Zihua on the adjusted 1963 construction plan). Made public: 1997. Names: Zhou Enlai, Cheng Zihua.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1962-12-28T04:00Z
+      - 1962-12-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-28.china-leadership-2
     when: Dec. 28
     date: '1962-12-28'
@@ -4334,6 +4545,24 @@ entries:
       - 1962-12-28T11:00Z
       - 1962-12-28T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-28.china-leadership-4
+    when: Dec. 28
+    date: '1962-12-28'
+    place: peking
+    thread: china-leadership
+    c: The CPPCC auditorium 政协礼堂, Peking 北京. Peng Zhen 彭真 at the capital's meeting against the U.S.-directed "Korea–Japan talks" and the plot of a northeast Asian aggressive bloc, in support of the Korean people's struggle against U.S. aggression and for peaceful reunification.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 234–235; [[w.chen-yi-nianpu]], 947 (Dec. 28, 1962, afternoon; Chen Yi at the meeting against the American plot of a Northeast Asian bloc and for Korea''s struggle against the "ROK–Japan talks"). The words: 下午 (IV, 234–235). Names: Peng Zhen.'
+    src:
+      c: d60a5c6d
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 234–235: all'
+        - 'w.chen-yi-nianpu 947: ?'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1962-12-28T04:00Z
+      - 1962-12-28T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-12-29.cuba
     when: Dec. 29
@@ -4584,6 +4813,28 @@ entries:
       - 1962-12-29T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-29.china-leadership-5
+    when: Dec. 29
+    date: '1962-12-29'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 with Wang Guangwei 王光伟 on drafting the paper on the movement for more output and thrift, against graft, theft and speculation: graft and theft chiefly the last two years'' habitual and gang offenders, the whole account settled and the spoils returned; leading groups; units not done streamlining to streamline; commerce too many people and links, the middle links cut, the lines under the Ministry of Commerce, the localities under the Party committees.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 235. Made public: 2012. See [[cal.1962-11-28.china-leadership-5]]. Names: Peng Zhen.'
+    src:
+      c: c96c33b2
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 235: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
+  - id: cal.1962-12-29.china-leadership-6
+    when: Dec. 29
+    date: '1962-12-29'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 reviews the *Renmin ribao* 人民日报 editorial for the next day, "Hail the great victory in wiping out the U.S.–Chiang armed agents" 《祝全歼美蒋武装特务的重大胜利》: by the Ministry of Public Security, from October to December the police, the frontier forces, the militia and the masses on the Guangdong 广东 coast wiped out nine bands landed from the sea or dropped from the air.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 235. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 0def37c0
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 235: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1962-12-30.middle-east-yemen
     when: Dec. 30
     date: '1962-12-30'
@@ -4648,8 +4899,13 @@ entries:
     date: '1962-12-30'
     thread: china-leadership
     c: Zhou Enlai at the Politburo, hearing Bo Yibo on the industrial work conference.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 522 (Dec. 30, 1962); [[w.yang-shangkun-riji]], II, 237 (Dec. 30, 1962; 3:30 to 6:30 p.m., Bo Yibo on the Economic Commission''s Canton meeting; Zhou Enlai not named); [[w.deng-xiaoping-nianpu-1904]], III, 1739 (Dec. 30, 1962; afternoon; Deng at the Politburo; Bo Yibo on the State Economic Commission''s Canton conference). Made public: 1997. Names: Zhou Enlai, Bo Yibo.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 522 (Dec. 30, 1962); [[w.yang-shangkun-riji]], II, 237 (Dec. 30, 1962; 3:30 to 6:30 p.m., Bo Yibo on the Economic Commission''s Canton meeting; Zhou Enlai not named); [[w.deng-xiaoping-nianpu-1904]], III, 1739 (Dec. 30, 1962; afternoon; Deng at the Politburo; Bo Yibo on the State Economic Commission''s Canton conference); [[w.peng-zhen-nianpu-1902]], IV, 236 (Dec. 30, 1962, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, hearing Bo Yibo on the State Economic Commission''s Canton conference). Made public: 1997. Names: Zhou Enlai, Bo Yibo.'
     tags: [polity:prc, name:zhou-enlai, name:bo-yibo, vis:only:prc]
+    time_range:
+      - 1962-12-30T04:00Z
+      - 1962-12-30T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-30.china-leadership-4
     when: Dec. 30
     date: '1962-12-30'
@@ -4722,6 +4978,36 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 237: all'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-30.china-leadership-8
+    when: Dec. 30
+    date: '1962-12-30'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 speaks to the delegates to Peking''s trade union, Youth League and women''s congresses and to the people''s congresses of the Dongcheng 东城, Xicheng 西城 and Chongwen 崇文 districts: after the world situation, agriculture the base, industry leading, towns supporting villages; 600 million to feed and clothe; industry''s labor, commodity grain and 70 percent of the raw materials of daily goods from the villages; townspeople from over 90 million in 1957 to 130 million the year before, more than farming could feed, so 20 million sent down; "这个道理，过去认识没有那么深."'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 235–236. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 822c3cb4
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 235–236: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1962-12-30.china-leadership-9
+    when: Dec. 30
+    date: '1962-12-30'
+    place: peking
+    thread: china-leadership
+    c: The CPPCC auditorium 政协礼堂, Peking 北京. Peng Zhen 彭真 at the meeting celebrating the fourth anniversary of the Cuban revolution's victory and founding the China–Cuba Friendship Association 中古友好协会.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 236; [[w.chen-yi-nianpu]], 948 (Dec. 30, 1962, afternoon; Chen Yi at the meeting for the Cuban revolution''s fourth anniversary and the founding of the China–Cuba Friendship Association). The words: 下午 (IV, 236). Names: Peng Zhen.'
+    src:
+      c: '69608552'
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 236: all'
+        - 'w.chen-yi-nianpu 948: ?'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1962-12-30T04:00Z
+      - 1962-12-30T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-12-31.vietnam
     when: Dec. 31
@@ -5191,13 +5477,14 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai goes to the airport to welcome Mrs. Bandaranaike, Prime Minister of Ceylon.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 31, 1962; 中午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 263–264 (Dec. 31, 1962–Jan. 9, 1963; Prime Minister Bandaranaike of Ceylon visits China on behalf of the Ceylon government and the Colombo conference of six Asian states; Mao, Liu Shaoqi and Soong Ching Ling receive her, Zhou and Chen Yi hold talks with her and with Subandrio, the Indonesian deputy first minister, then visiting; the book gives the days only of the communiques, Jan. 8); [[w.chen-yi-nianpu]], 948 (Dec. 31, 1962, morning; Chen Yi at the airport). See [[cal.1962-12-31.china-leadership]]. Names: Zhou Enlai, Bandaranaike.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 31, 1962; 中午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 263–264 (Dec. 31, 1962–Jan. 9, 1963; Prime Minister Bandaranaike of Ceylon visits China on behalf of the Ceylon government and the Colombo conference of six Asian states; Mao, Liu Shaoqi and Soong Ching Ling receive her, Zhou and Chen Yi hold talks with her and with Subandrio, the Indonesian deputy first minister, then visiting; the book gives the days only of the communiques, Jan. 8); [[w.chen-yi-nianpu]], 948 (Dec. 31, 1962, morning; Chen Yi at the airport); [[w.peng-zhen-nianpu-1902]], IV, 236 (Dec. 31, 1962, at noon; Peng Zhen, with Zhou Enlai and others, at the airport to meet Mrs. Bandaranaike, Prime Minister of Ceylon). See [[cal.1962-12-31.china-leadership]]. Names: Zhou Enlai, Bandaranaike.'
     src:
       c: 93b23d81
       rows:
         - 'w.zhou-enlai-waijiao-huodong 347: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 263–264: B-C'
         - 'w.chen-yi-nianpu 948: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 236: ?'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai, name:bandaranaike-srimavo]
     time_range:
       - 1962-12-31T04:00Z
@@ -5216,12 +5503,13 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai, at the welcoming banquet for Mrs. Bandaranaike, says that he deeply admires her sincere effort to settle the Sino-Indian boundary question and repeats that China has always worked to consolidate and develop friendly neighborly relations and holds that boundary questions with all neighbors be settled by peaceful, friendly negotiation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 31, 1962; 晚上); [[w.chen-yi-nianpu]], 948 (Dec. 31, 1962, evening; Chen Yi at the banquet). See [[cal.1962-12-31.china-leadership]]. Names: Zhou Enlai, Bandaranaike.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 31, 1962; 晚上); [[w.chen-yi-nianpu]], 948 (Dec. 31, 1962, evening; Chen Yi at the banquet); [[w.peng-zhen-nianpu-1902]], IV, 236 (Dec. 31, 1962, evening; Peng Zhen at Zhou Enlai''s welcoming banquet). See [[cal.1962-12-31.china-leadership]]. Names: Zhou Enlai, Bandaranaike.'
     src:
       c: 32c13214
       rows:
         - 'w.zhou-enlai-waijiao-huodong 347: all'
         - 'w.chen-yi-nianpu 948: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 236: ?'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai, name:bandaranaike-srimavo]
     time_range:
       - 1962-12-31T11:00Z
@@ -5517,3 +5805,18 @@ entries:
         - 'w.westad-introduction 27–28: all'
         - 'via x.1996-01.zhang-baijia-looking-at-sino-american-relations: all'
     tags: [polity:prc, vis:only:prc, name:mao-zedong]
+  - id: cal.1962-12.africa
+    when: Dec.
+    date: 1962-12
+    thread: africa
+    also: [china, soviet-union]
+    c: 'The preparatory meetings for the Moshi conference: whenever the Chinese bring up Cuba, the Soviets point to China''s failure to liberate Taiwan; the Chinese answer angrily that the two have nothing to do with each other.'
+    n: '[[w.friedman-shadow-cold-war]], 105. Made public: 2015. To check: PRC Peace Committee to ambassador in UAR, December 18, 1962, CFMA doc. 108-00834-03, 15 (cited by [[w.friedman-shadow-cold-war]], 105 n.14a); PRC embassy Conakry to MFA, March 21, 1963, CFMA doc. 108-00905-02, 17 (cited by [[w.friedman-shadow-cold-war]], 105 n.14b); Ambassador UAR to Peace Committee, January 8, 1963, CFMA doc. 108-00833-02, 23 (cited by [[w.friedman-shadow-cold-war]], 105 n.14c).'
+    src:
+      c: 3fa55f86
+      rows:
+        - 'w.friedman-shadow-cold-war 105: all'
+        - 'via x.1962-12-18.prc-peace-committee-ambassador-uar-december-18: ?'
+        - 'via x.1963-03-21.prc-embassy-conakry-mfa-march-21-1963: ?'
+        - 'via x.1963-01-08.ambassador-uar-peace-committee-january-8-1963: ?'
+    tags: [polity:prc, polity:ussr, ok:fields-place, vis:only:prc+ussr]

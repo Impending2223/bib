@@ -19,14 +19,20 @@ entries:
     date: '1965-01-01'
     thread: china-leadership
     c: 'Zhou, with Liu Shaoqi and others, calls the North China group of the Central Work Conference. When Liu speaks of digging out the hidden counter-revolutionaries missed in the "four cleanups": those who hid before land reform and were missed are to be dealt with by law, or controlled where they live, or put to labor reform, local control where possible; a backstage boss is different, treat the two apart. Support and help the Dazhai banner and Chen Yonggui''s selflessness. This year''s North China weather is bad for farming; prepare early.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 693 (Jan. 1, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613 (Jan. 1, 1965; Liu calls the responsible persons of the North China provinces for a forum on the socialist-education movement); [[w.deng-xiaoping-nianpu-1904]], III, 1842 (Jan. 1, 1965; 下午; Deng attends the North China group meeting of the Central Work Conference 中央工作会议, which Liu Shaoqi 刘少奇 presides over, on the socialist education movement). Made public: 1996. Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 693 (Jan. 1, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613 (Jan. 1, 1965; Liu calls the responsible persons of the North China provinces for a forum on the socialist-education movement); [[w.deng-xiaoping-nianpu-1904]], III, 1842 (Jan. 1, 1965; 下午; Deng attends the North China group meeting of the Central Work Conference 中央工作会议, which Liu Shaoqi 刘少奇 presides over, on the socialist education movement); [[w.peng-zhen-nianpu-1902]], IV, 384 (Jan. 1, 1965, afternoon; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping and others, calls the work conference''s heads of the North China provinces on the "four clean-ups" and "five antis"). Made public: 1996. Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: 37969b18
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 693: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 613: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1842: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 384: ?'
     tags: [name:zhou-enlai, name:liu-shaoqi, polity:prc, vis:only:prc]
+    time_range:
+      - 1965-01-01T04:00Z
+      - 1965-01-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-01.china-leadership-2
     when: Jan. 1
     date: '1965-01-01'
@@ -56,6 +62,32 @@ entries:
     c: Phước Tuy. Jan. 1 Saigon opens operation Hùng Vương 2 to relieve Đức Thạnh and retake Bình Giã.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 385.'
     tags: [polity:drv]
+  - id: cal.1965-01-01.soviet-union
+    when: Jan. 1
+    date: '1965-01-01'
+    thread: soviet-union
+    also: [africa, latin-america]
+    c: The USSR removes all import tariffs on goods from Asia, Africa and Latin America, as announced.
+    n: '[[w.friedman-shadow-cold-war]], 127. To check: Secret report of American and European Department, Soviet–East European Department MFA on actions of new Soviet leadership in Africa and Asia, March 31, 1965, CFMA doc. 109-03652-02, 44 (cited by [[w.friedman-shadow-cold-war]], 127 n.113).'
+    src:
+      c: d76c9401
+      rows:
+        - 'w.friedman-shadow-cold-war 127: all'
+        - 'via x.1965-03-31.secret-report-american-european-department-soviet-east: ?'
+    tags: [polity:ussr]
+  - id: cal.1965-01-01.china-leadership-4
+    when: Jan. 1
+    date: '1965-01-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京, the Great Hall of the People 人民大会堂. Chen Yi 陈毅, with the leaders of party and state, at the New Year gathering with the NPC deputies and CPPCC members come to Peking from the provinces.
+    n: '[[w.chen-yi-nianpu]], 1078. The words: 晚上 (1078). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1965-01-01T11:00Z
+      - 1965-01-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-02.congress
     when: Jan. 2
     date: '1965-01-02'
@@ -182,11 +214,13 @@ entries:
     thread: china-leadership
     also: [cuba]
     c: Zhou attends the reception given by Cuba's ambassador for the sixth anniversary of the Cuban revolution's victory.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 2, 1965; evening; Beijing). The book names the ambassador 皮诺·桑托斯. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 2, 1965; evening; Beijing); [[w.peng-zhen-nianpu-1902]], IV, 384 (Jan. 2, 1965, evening; Peng Zhen at the Cuban Ambassador Pino Santos''s reception for the sixth anniversary of liberation); [[w.chen-yi-nianpu]], 1078 (Jan. 2, 1965, evening, the embassy; the reception of Pino Santos 皮诺·桑托斯, Cuba''s Ambassador; Chen Yi present). The book names the ambassador 皮诺·桑托斯. Names: Zhou Enlai.'
     src:
       c: cb303aee
       rows:
         - 'w.zhou-enlai-waijiao-huodong 433: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 384: ?'
+        - 'w.chen-yi-nianpu 1078: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-01-02T11:00Z
@@ -198,12 +232,26 @@ entries:
     date: '1965-01-02'
     thread: china-leadership
     c: 'Mao sends his 1941 "Critique of the Center''s line from Sept. 1931 to Jan. 1935" to Xie Fuzhi 谢富治, Li Jingquan 李井泉 and Tao Zhu 陶铸 for their views: the illegitimacy of the provisional Center, not raised in the 1945 resolution on history, so taken as legitimate, to be struck; Zhou Enlai 周恩来''s name too, the Premier right far more than wrong. Not published before, not fit to publish now; whether in some decades, for later comrades. Written by him in 1941, shown only to Ren Bishi 任弼时 and Liu Shaoqi 刘少奇, and forgotten until someone brought him a photograph of the manuscript in 1964.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 224–228 (Jan. 2, 1965). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Names: Mao Zedong, Xie Fuzhi, Li Jingquan, Tao Zhu, Zhou Enlai, Ren Bishi, Liu Shaoqi. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 224–228 (Jan. 2, 1965); [[w.jian-zhou-enlai]], 520 (after the new year of 1965 Mao on the nine essays again: they "included the premier''s name, which should be deleted, as the premier has in his career done more correct things than he has made mistakes"; not the day or the addressees). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: [[w.zedong-jianguo-yilai-mao-zedong]], XI, 50 (cited by [[w.jian-zhou-enlai]], 520 n.8a); [[w.zedong-mao-zedong-nianpu]], V, 330 (cited by [[w.jian-zhou-enlai]], 520 n.8b). Names: Mao Zedong, Xie Fuzhi, Li Jingquan, Tao Zhu, Zhou Enlai, Ren Bishi, Liu Shaoqi. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
     src:
       c: 310d6cd5
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 224–228: all'
+        - 'w.jian-zhou-enlai 520: ?'
     tags: [polity:prc, name:mao-zedong, name:xie-fuzhi, name:li-jingquan, name:tao-zhu, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1965-01-02.china-leadership-3
+    when: Jan. 2
+    date: '1965-01-02'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 receives and gives a banquet for Phoumi Vongvichit, general secretary of the Neo Lao Hak Sat and Minister of Information, the party's representative at the three parties' Paris talks.
+    n: '[[w.chen-yi-nianpu]], 1078. The words: 中午 (1078). Names: Chen Yi, Phoumi Vongvichit.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:phoumi-vongvichit, ok:fields-place]
+    time_range:
+      - 1965-01-02T04:00Z
+      - 1965-01-02T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-03.opinion
     when: Jan. 3
     date: '1965-01-03'
@@ -265,7 +313,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao presides in the evening over an enlarged Politburo Standing Committee, Hebei Hall, and speaks again on the socialist education movement. Against the "sea of men" method: 15,000 work-team members sent to Xincheng county, Hebei, population 280,000, months and not through; 40 days of reading documents before entering a village is scholasticism; "fear of the wrong root, the wrong household, cadres'' tricks" is nonsense. Enter a village and announce a few things: not to purge the members, to purge the Party and the cadres; cadres who confess small embezzlements and return them are done; the masses will pick their own leaders in the struggle. Rely on the masses first, cadres who have cast off their burdens second, the work team third.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 3, 1965. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613 (Jan. 3, 1965; Liu attends the enlarged meeting of the Politburo Standing Committee, at which Mao criticizes the first stage of the rural movement for relying only on work teams, ten thousand and more gathered in one county, long study of documents without relying on the masses, mystery-mongering, "rooting and linking up," a cold-and-clear method that makes a complex philosophy and a sea-of-men tactic; he asks every level of leadership to change this, to meet the masses directly with documents and rouse them widely to open the way quickly); [[w.macfarquhar-origins-of-the-cultural]], III, 426 (Mao derides work teams of 18,000 for a county of 280,000 and six weeks of documents first; chides Chen Boda for the like in Tianjin; the movement to aim at the Party, petty thieves exempted); [[w.deng-xiaoping-nianpu-1904]], III, 1842 (Jan. 3, 1965; evening, 晚; Deng at the enlarged Politburo Standing Committee meeting Mao presides over; Mao criticizes the former stage of the rural movement for relying only on work teams and not on the masses, and making a mystery of it, and asks every level to change that quickly, the document to meet the masses directly; Deng says methods are very important and he fully agrees with the Chairman; the going down at the former stage was good, now they must come up slowly and look to the whole); [[w.mao-zedong-zhuan]], VI, ch. 73 (the evening of Jan. 3: the enlarged Standing Committee; without naming Liu: 15,000 work-team members in a county of 280,000, 40 days reading documents; "six fears"; announce on entering a village that the Party and cadres, not the members, are to be put right; the masses show who the leaders are in the struggle; rely on the masses (n.39)). Made public: 1996. To check: Mao Zedong, talk of Jan. 3, 1965, on the socialist education movement, in [[w.tse-tung-miscellany-of-mao-tse]], 2, 437–44 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 426 n.144b); Mao Zedong, talk of Jan. 3, 1965, on the socialist education movement, in [[w.tse-tung-miscellany-of-mao-tse]], 2, 437–44 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 426 n.147); Enlarged Politburo Standing Committee 中共中央政治局常委扩大会议, record 记录, Jan. 3, 1965 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.39). See [[cal.1964-12-15.china-leadership]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 3, 1965. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613 (Jan. 3, 1965; Liu attends the enlarged meeting of the Politburo Standing Committee, at which Mao criticizes the first stage of the rural movement for relying only on work teams, ten thousand and more gathered in one county, long study of documents without relying on the masses, mystery-mongering, "rooting and linking up," a cold-and-clear method that makes a complex philosophy and a sea-of-men tactic; he asks every level of leadership to change this, to meet the masses directly with documents and rouse them widely to open the way quickly); [[w.macfarquhar-origins-of-the-cultural]], III, 426 (Mao derides work teams of 18,000 for a county of 280,000 and six weeks of documents first; chides Chen Boda for the like in Tianjin; the movement to aim at the Party, petty thieves exempted); [[w.deng-xiaoping-nianpu-1904]], III, 1842 (Jan. 3, 1965; evening, 晚; Deng at the enlarged Politburo Standing Committee meeting Mao presides over; Mao criticizes the former stage of the rural movement for relying only on work teams and not on the masses, and making a mystery of it, and asks every level to change that quickly, the document to meet the masses directly; Deng says methods are very important and he fully agrees with the Chairman; the going down at the former stage was good, now they must come up slowly and look to the whole); [[w.mao-zedong-zhuan]], VI, ch. 73 (the evening of Jan. 3: the enlarged Standing Committee; without naming Liu: 15,000 work-team members in a county of 280,000, 40 days reading documents; "six fears"; announce on entering a village that the Party and cadres, not the members, are to be put right; the masses show who the leaders are in the struggle; rely on the masses (n.39)). [[w.peng-zhen-nianpu-1902]], IV, 384 (Jan. 3, 1965, evening; Peng Zhen at Mao''s enlarged Standing Committee; Mao criticizes the earlier stage of socialist education for not rousing or relying on the masses, making a mystery of it: "不相信群众，只相信工作队，不好"). Made public: 1996. To check: Mao Zedong, talk of Jan. 3, 1965, on the socialist education movement, in [[w.tse-tung-miscellany-of-mao-tse]], 2, 437–44 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 426 n.144b); Mao Zedong, talk of Jan. 3, 1965, on the socialist education movement, in [[w.tse-tung-miscellany-of-mao-tse]], 2, 437–44 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 426 n.147); Enlarged Politburo Standing Committee 中共中央政治局常委扩大会议, record 记录, Jan. 3, 1965 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.39). See [[cal.1964-12-15.china-leadership]]. Names: Mao Zedong.'
     src:
       c: 482f1c5f
       rows:
@@ -277,6 +325,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1842: ?'
         - 'w.mao-zedong-zhuan VI, ch. 73: B-E, G'
         - 'via w.mao-zedong-zhuan VI, ch.73 n.39: B-E, G'
+        - 'w.peng-zhen-nianpu-1902 IV, 384: ?'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
     variants:
       - unit: B
@@ -346,6 +395,43 @@ entries:
     c: Phước Tuy. Jan. 3 Regiment 762 destroys a 16-vehicle convoy (two tanks, two M113s) with Ranger Battalion 35 on Route 2 from Bà Rịa to Đức Thạnh; the Bình Giã campaign ends, Dec. 2 to Jan. 3. By the history's count it destroyed two main-force battalions (the 33d Ranger and the 4th Marine), Armored Troop 3 of M113s and two motor convoys, badly hurt three Ranger battalions (30, 35, 38) and seven Civil Guard companies and broke up most of the Self-Defense Corps in the area.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 385–86.'
     tags: [polity:drv]
+  - id: cal.1965-01-03.china-leadership-5
+    when: Jan. 3
+    date: '1965-01-03'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The first session of the third National People's Congress 全国人大 elects Liu Shaoqi 刘少奇 Chairman of the People's Republic, Soong Ching-ling 宋庆龄 and Dong Biwu 董必武 vice-chairmen, Zhu De 朱德 chairman of its Standing Committee, and among the vice-chairmen Peng Zhen 彭真, Liu Bocheng 刘伯承, Li Jingquan 李井泉, Kang Sheng 康生, Guo Moruo 郭沫若, He Xiangning 何香凝, Huang Yanpei 黄炎培, Chen Shutong 陈叔通, Li Xuefeng 李雪峰, Xu Xiangqian 徐向前, Yang Mingxuan 杨明轩, Cheng Qian 程潜, Saifuddin 赛福鼎, Lin Feng 林枫, Liu Ningyi 刘宁一, Zhang Zhizhong 张治中, Ngapoi Ngawang Jigme 阿沛·阿旺晋美 and Zhou Jianren 周建人; Zhou Enlai 周恩来 Premier.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 384. The words: 下午 (IV, 384). Names: Peng Zhen, Liu Shaoqi, Dong Biwu, Zhu De, Liu Bocheng, Li Jingquan, Kang Sheng, Xu Xiangqian, Zhou Enlai.'
+    src:
+      c: 6ab87b8f
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 384: all'
+    tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:liu-bocheng, name:li-jingquan, name:kang-sheng, name:xu-xiangqian, name:zhou-enlai]
+    time_range:
+      - 1965-01-03T04:00Z
+      - 1965-01-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-03.china-leadership-6
+    when: Jan. 3
+    date: '1965-01-03'
+    thread: china-leadership
+    also: [latin-america, soviet-union]
+    c: 'The Liaison Department to the Foreign Ministry, on the Latin American delegation in Peking 北京: the Chinese leaders, seeing the resolution as a plot to press them, defend the polemics and refuse peace with those who are not even Marxists.'
+    n: '[[w.friedman-shadow-cold-war]], 126. Made public: 2015. To check: Zhonglianbu to MFA, January 3, 1965, CFMA doc. 111-00403-01, 1–8 (cited by [[w.friedman-shadow-cold-war]], 126 n.104).'
+    src:
+      c: 057b29a4
+      rows:
+        - 'w.friedman-shadow-cold-war 126: all'
+        - 'via x.1965-01-03.zhonglianbu-mfa-january-3-1965: ?'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1965-01-03.china-leadership-7
+    when: Jan. 3
+    date: '1965-01-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables U Thi Han 吴蒂汉, Burma's Foreign Minister, on the seventeenth anniversary of Burma's independence.
+    n: '[[w.chen-yi-nianpu]], 1078. Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, ok:fields-place]
   - id: cal.1965-01-04.congress-2
     when: Jan. 4
     date: '1965-01-04'
@@ -595,12 +681,14 @@ entries:
     place: peking
     thread: china-leadership
     c: 'The Third National People''s Congress closes its first session: approves the Government Work Report, the main targets of the 1965 plan and the preliminary budget; elects Liu Shaoqi President of the Republic and Zhu De chairman of the Standing Committee; Zhou continues as Premier.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 696 (Jan. 4, 1965); [[w.deng-xiaoping-nianpu-1904]], III, 1842 (Jan. 4, 1965; afternoon, 下午; Deng at the closing session of the First Session of the Third NPC, which approves the resolution on the Government Work Report, the main targets of the 1965 plan and the preliminary arrangement of the 1965 budget, and elects the Vice-Premiers (Deng among them, with Lin Biao, Chen Yun, He Long, Chen Yi, Ke Qingshi, Ulanhu, Li Fuchun, Li Xiannian, Tan Zhenlin, Nie Rongzhen, Bo Yibo, Lu Dingyi, Luo Ruiqing, Tao Zhu and Xie Fuzhi) and the Vice-Chairmen of the National Defense Council (Deng among them)). Names: Zhou Enlai, Liu Shaoqi, Zhu De.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 696 (Jan. 4, 1965); [[w.deng-xiaoping-nianpu-1904]], III, 1842 (Jan. 4, 1965; afternoon, 下午; Deng at the closing session of the First Session of the Third NPC, which approves the resolution on the Government Work Report, the main targets of the 1965 plan and the preliminary arrangement of the 1965 budget, and elects the Vice-Premiers (Deng among them, with Lin Biao, Chen Yun, He Long, Chen Yi, Ke Qingshi, Ulanhu, Li Fuchun, Li Xiannian, Tan Zhenlin, Nie Rongzhen, Bo Yibo, Lu Dingyi, Luo Ruiqing, Tao Zhu and Xie Fuzhi) and the Vice-Chairmen of the National Defense Council (Deng among them)); [[w.peng-zhen-nianpu-1902]], IV, 384–385 (Jan. 4, 1965, afternoon; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Soong Ching-ling and others, at the closing of the NPC''s first session, which adopts the resolution on the Government Work Report, the 1965 plan''s chief targets and the budget, and names the vice-premiers (Lin Biao, Chen Yun, Deng Xiaoping, He Long, Chen Yi, Ke Qingshi, Ulanhu, Li Fuchun, Li Xiannian, Tan Zhenlin, Nie Rongzhen, Bo Yibo, Lu Dingyi, Luo Ruiqing, Tao Zhu, Xie Fuzhi) and the National Defense Council''s vice-chairmen); [[w.jian-zhou-enlai]], 520 (Zhou again named premier "at a plenary session of the National People''s Congress," "In late December," so Chen). Names: Zhou Enlai, Liu Shaoqi, Zhu De.'
     src:
       c: 5fcea4c1
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 696: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1842: A'
+        - 'w.peng-zhen-nianpu-1902 IV, 384–385: ?'
+        - 'w.jian-zhou-enlai 520: ?'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:zhu-de, polity:prc]
     variants:
       - unit: B
@@ -611,18 +699,41 @@ entries:
         witness: w.macfarquhar-origins-of-the-cultural
         reads: the NPC formally approves Liu's re-election as state chairman on Jan. 3
         at: III, 426
+    time_range:
+      - 1965-01-04T04:00Z
+      - 1965-01-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-04.china-leadership-2
     when: Jan. 4
     date: '1965-01-04'
     place: peking
     thread: china-leadership
     c: Zhou attends the reception given by Burma's ambassador for Burma's Independence Day.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 4, 1965; Beijing). The book names the ambassador 沙马杜瓦·信瓦瑞. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 4, 1965; Beijing); [[w.chen-yi-nianpu]], 1078 (Jan. 4, 1965, evening, the Peking Hotel; Chen Yi speaks at the Burmese Ambassador''s reception, on Burma''s achievements and the "pauk-phaw" friendship). The book names the ambassador 沙马杜瓦·信瓦瑞. Names: Zhou Enlai.'
     src:
       c: 2c25b649
       rows:
         - 'w.zhou-enlai-waijiao-huodong 433: all'
+        - 'w.chen-yi-nianpu 1078: ?'
     tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-01-04T11:00Z
+      - 1965-01-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-04.china-leadership-3
+    when: Jan. 4
+    date: '1965-01-04'
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and others, receives all the deputies to the first session of the Third NPC and is photographed with them.
+    n: '[[w.chen-yi-nianpu]], 1078. The words: 下午 (1078). Names: Chen Yi, Mao Zedong, Liu Shaoqi, Zhou Enlai.'
+    tags: [polity:prc, name:chen-yi, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, ok:fields-place]
+    time_range:
+      - 1965-01-04T04:00Z
+      - 1965-01-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-05.state-constitutions-ct
     when: Jan. 5
     date: '1965-01-05'
@@ -763,7 +874,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao presides over the enlarged Politburo Standing Committee, Hebei Hall, afternoon, continuing. The "17 points": revise them here, or carry them down and amend after; the second ten points too long, cut by half. The "six fears" are fears of the right; "against what there is, as much as there is, right or left". Work teams too many, idle, a "sea of men"; officials from commune level up not to serve in their home areas; Time: the whole country in six or seven years, as written, or sooner; a single unit needs only some months. Seventy to 80 percent of cadres are good, to be won over.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 5, 1965. [[w.deng-xiaoping-nianpu-1904]], III, 1843 (Jan. 5, 1965; afternoon, 下午; Deng at the enlarged Politburo Standing Committee meeting Mao presides over, on the socialist education movement); [[w.mao-zedong-zhuan]], VI, ch. 73 (Jan. 5, afternoon, again the enlarged Standing Committee, Mao not naming Liu: the "six fears" are all fears of the right; against what there is as much as there is, right or left; the work teams too many, a "sea of men"; the whole country in six or seven years, or sooner, a unit only some months; seven or eight in ten cadres good; the main contradiction as the Seventh and Eighth Congresses put it (n.40, n.41)). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 73). To check: Mao Zedong 毛泽东, speech at the Central Work Conference 中央工作会议, Jan. 5, 1965 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.41). See [[cal.1965-01-03.china-leadership]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 5, 1965. [[w.deng-xiaoping-nianpu-1904]], III, 1843 (Jan. 5, 1965; afternoon, 下午; Deng at the enlarged Politburo Standing Committee meeting Mao presides over, on the socialist education movement); [[w.mao-zedong-zhuan]], VI, ch. 73 (Jan. 5, afternoon, again the enlarged Standing Committee, Mao not naming Liu: the "six fears" are all fears of the right; against what there is as much as there is, right or left; the work teams too many, a "sea of men"; the whole country in six or seven years, or sooner, a unit only some months; seven or eight in ten cadres good; the main contradiction as the Seventh and Eighth Congresses put it (n.40, n.41)). [[w.peng-zhen-nianpu-1902]], IV, 385 (Jan. 5, 1965, afternoon; Peng Zhen at Mao''s enlarged meeting on socialist education; Mao: the whole movement socialist education, its stress the Party''s power holders taking the capitalist road; rely first on the masses, then on the cadres who have laid down their burdens, then on the work teams; the teams too many, idle, human-sea tactics). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 73). To check: Mao Zedong 毛泽东, speech at the Central Work Conference 中央工作会议, Jan. 5, 1965 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.41). See [[cal.1965-01-03.china-leadership]]. Names: Mao Zedong.'
     src:
       c: a5a81de8
       rows:
@@ -771,6 +882,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1843: ?'
         - 'w.mao-zedong-zhuan VI, ch. 73: D-F, H-J'
         - 'via w.mao-zedong-zhuan VI, ch.73 n.41: D-F, H, J'
+        - 'w.peng-zhen-nianpu-1902 IV, 385: ?'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
     time_range:
       - 1965-01-05T04:00Z
@@ -789,7 +901,7 @@ entries:
     date: '1965-01-05'
     thread: china-leadership
     c: 'Zhou, at the closing session of the CPPCC''s first session: political reports and government papers must move with events; what was right then must go on to new tasks and explanations; no words or documents stay fixed. Our democracy is a developing, people''s, led democracy; but under Mao''s six criteria all opinions are allowed; hear differing views patiently, even wrong ones, which set up the opposite. Hopes the same revolutionary, democratic, united spirit continues after the delegates return.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 699–700 (Jan. 5, 1965). Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 699–700 (Jan. 5, 1965); [[w.peng-zhen-nianpu-1902]], IV, 385 (Jan. 5, 1965; Peng Zhen speaks at the closing of the fourth CPPCC''s first session: the forces now on socialist education in town and country, all to take the socialist road; the people''s democratic united front''s policy unchanged, "unity–criticism–unity"; unity because there are contradictions, resolved again and again, the law of motion; freedom the knowledge of necessity, those weary of remolding driven by necessity''s whip or crushed by history''s wheel; centralism and democracy, discipline and freedom, unity of will and ease of mind). Names: Zhou Enlai, Mao Zedong.'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc]
   - id: cal.1965-01-05.china
     when: Jan. 5
@@ -816,6 +928,43 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 503: all'
     tags: [polity:prc, name:mao-zedong, name:brezhnev-leonid, polity:ussr, vis:only:prc+ussr]
+  - id: cal.1965-01-05.china-leadership-5
+    when: Jan. 5
+    date: '1965-01-05'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真, after the enlarged meeting, at Deng Xiaoping's 邓小平 to talk.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 385. Made public: 2012. Names: Peng Zhen, Deng Xiaoping.'
+    src:
+      c: dde7087b
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 385: all'
+    tags: [polity:prc, name:peng-zhen, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1965-01-05.china-leadership-6
+    when: Jan. 5
+    date: '1965-01-05'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 and Subandrio exchange cables of congratulation on the China–Indonesia air service, opening Jan. 6.
+    n: '[[w.chen-yi-nianpu]], 1078. Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio, ok:fields-place]
+  - id: cal.1965-01-05.foreign-aid
+    when: Jan. 5
+    date: '1965-01-05'
+    thread: foreign-aid
+    also: [middle-east]
+    c: The Johnson administration suspends its sales of wheat to Cairo indefinitely, a week after Shelepin leaves.
+    n: '[[w.friedman-shadow-cold-war]], 133. To check: Jesse Ferris, "Egypt, the Cold War, and the Civil War in Yemen, 1962–1966" (Ph.D. diss., Princeton University, 2008) (cited by [[w.friedman-shadow-cold-war]], 133 n.147).'
+    src:
+      c: 717828e1
+      rows:
+        - 'w.friedman-shadow-cold-war 133: all'
+        - 'via x.undated.jesse-ferris-egypt-cold-war-civil-war-3: ?'
+    gloss:
+      title: Estimates
+      text:
+        - 'Friedman: by 1962 roughly 50 percent of the UAR''s wheat provided by the United States under Food for Peace ([[w.friedman-shadow-cold-war]], 133).'
+    tags: [polity:us, polity:uar, ok:fields-place]
   - id: cal.1965-01-06.legislatures-ny
     when: Jan. 6
     date: '1965-01-06'
@@ -1007,6 +1156,22 @@ entries:
     c: The Rayburn statue, by Felix de Weldon, the Texas State Society's gift, dedicated in the new Rayburn House Office Building, 10 a.m. Patman presides. Lady Bird Johnson speaks. The President comes in as a surprise visitor before she does. Everett Hutchinson presents the statue, McCormack accepts it.
     n: '[[w.johnson-white-house-diary]], 216 (Mrs. Johnson''s account, with her words: "I''m a Democrat, without suffix, prefix or apology"). To check: the Congressional Record, Jan. 6, 1965. Names: Rayburn, Patman, McCormack, Johnson, Lady Bird Johnson.'
     tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:rayburn-sam, name:patman-wright, name:mccormack-john-w, state:tx]
+  - id: cal.1965-01-06.china-leadership
+    when: Jan. 6
+    date: '1965-01-06'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真, told that the Qiaogezhuang 乔各庄 work team in Tongxian 通县 would put to death a blind local despot, has Wan Li 万里 tell Zhao Fan 赵凡: none to be killed in the "four clean-ups" now; any killing on checked facts, discussed by the city committee and approved by the Center; no killing to rouse the masses or frighten cadres.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 385–386. The words: 下午 (IV, 385–386). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 96af38de
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 385–386: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
+    time_range:
+      - 1965-01-06T04:00Z
+      - 1965-01-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-07.medicare
     when: Jan. 7
     date: '1965-01-07'
@@ -1174,6 +1339,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 1: all'
     tags: [polity:prc, polity:nepal, name:liu-shaoqi]
+  - id: cal.1965-01-07.indonesia
+    when: Jan. 7
+    date: '1965-01-07'
+    thread: indonesia
+    also: [china]
+    c: Malaysia voted onto the Security Council, Sukarno announces that Indonesia is leaving the United Nations.
+    n: '[[w.friedman-shadow-cold-war]], 143. Names: Sukarno.'
+    src:
+      c: 39ec5db3
+      rows:
+        - 'w.friedman-shadow-cold-war 143: all'
+    tags: [polity:indonesia, polity:un, name:sukarno]
   - id: cal.1965-01-08.vietnam-congress
     when: Jan. 8
     date: '1965-01-08'
@@ -1279,20 +1456,31 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-france]
     c: 'Chen Yi, receiving the French ambassador, Paye: the U.S. course in Southeast Asia and Indochina is meant to encircle China strategically and to wreck its construction. China, from its own interest, also favors settling the Indochina and Southeast Asia questions by peaceful means.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 1–2 (Jan. 8, 1965). Made public: 2002. Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 1–2 (Jan. 8, 1965); [[w.chen-yi-nianpu]], 1078 (Jan. 8, 1965, afternoon; Paye calls on Chen Yi). Made public: 2002. Names: Chen Yi.'
     src:
       c: 23bce49c
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 1–2: all'
+        - 'w.chen-yi-nianpu 1078: ?'
     tags: [polity:prc, polity:fr, name:chen-yi, vis:only:prc+fr]
+    time_range:
+      - 1965-01-08T04:00Z
+      - 1965-01-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-08.china-leadership-4
     when: Jan. 8
     date: '1965-01-08'
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi calls the plenary meeting of the National Defense Council and speaks.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613 (Jan. 8, 1965); [[w.deng-xiaoping-nianpu-1904]], III, 1843 (Jan. 8, 1965; morning, 上午; Deng at the plenary meeting of the National Defense Council 国防委员会 Liu Shaoqi calls). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 613 (Jan. 8, 1965); [[w.deng-xiaoping-nianpu-1904]], III, 1843 (Jan. 8, 1965; morning, 上午; Deng at the plenary meeting of the National Defense Council 国防委员会 Liu Shaoqi calls); [[w.chen-yi-nianpu]], 1078 (Jan. 8, 1965, morning; Chen Yi at the National Defense Council''s plenary meeting). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    time_range:
+      - 1965-01-07T22:00Z
+      - 1965-01-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-08.china-leadership-5
     when: Jan. 8
     date: '1965-01-08'
@@ -1306,12 +1494,13 @@ entries:
     date: '1965-01-08'
     thread: china-leadership
     c: 'Mao revises the draft of Jan. 8 of the minutes (to become the twenty-three points): the formulas "the contradiction of the four cleans and four uncleans" and "the crossing of contradictions within and without the Party" fit any society or party and are not Marxist-Leninist; to forget the Party''s basic theory and practice of over a decade leads astray; the cities'' movement, called the "five antis", henceforth the "four cleanups"; his six standards of a good movement given as said in July 1964 at the Standing Committee with the regional first secretaries.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 482–486 (Jan. 8, 1965; note 4: "July" should be June). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Minutes of the national work conference called by the Politburo, draft of Jan. 8, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 486 n.1e). Names: Mao Zedong. Check: the day of the revision; the draft is of Jan. 8. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 482–486 (Jan. 8, 1965; note 4: "July" should be June); [[w.jian-zhou-enlai]], 520–521 (Mao''s "final edits" to the Twenty-Three Articles: Liu''s "contradictions within or outside the party" misses the principal contradiction; the focus, to "purge the capitalist roaders with power within the party," the phrase''s first entry into a Party document, by Chen''s account; not the day). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Minutes of the national work conference called by the Politburo, draft of Jan. 8, 1965 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 486 n.1e); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 1132 (cited by [[w.jian-zhou-enlai]], 521 n.11). Names: Mao Zedong. Check: the day of the revision; the draft is of Jan. 8. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
     src:
       c: b96aeda1
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 482–486: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 486 n.1e: all'
+        - 'w.jian-zhou-enlai 520–521: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1965-01-08.china-leadership-7
     when: Jan. 8
@@ -1319,12 +1508,18 @@ entries:
     thread: china-leadership
     also: [china]
     c: Deng Xiaoping 邓小平, on Mao Zedong's 毛泽东 view, revises with Peng Zhen 彭真, Chen Boda 陈伯达 and others "Some problems now raised in the rural socialist education movement" 《农村社会主义教育运动中目前提出的一些问题》 and expands it to twenty-three articles.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1843 (Jan. 8, 1965). The words: 根据毛泽东的意见 (III, 1843). Made public: 2009 (the nianpu). See [[cal.1964-12-15.china-leadership]]. Names: Deng Xiaoping, Mao Zedong, Peng Zhen, Chen Boda.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1843 (Jan. 8, 1965); [[w.peng-zhen-nianpu-1902]], IV, 386–387 (Jan. 8, 1965, morning; Peng Zhen, with Deng Xiaoping and Chen Boda, on Mao''s views revises the paper, from seventeen articles to twenty-three; Mao''s own additions: the "four cleans and four uncleans" and "crossing of contradictions inside and outside the Party" not Marxist-Leninist; forgetting the Party''s basic theory and practice of two classes and two roads leads astray; the movement in town and country henceforth "four clean-ups," the "five antis" name dropped, cleaning politics, economy, organization and thought; his six standards of June 1964 (the page''s note: poor peasants roused, "four uncleans" settled, cadres laboring, a good leading core, the four kinds of elements reformed on the spot, output up)). The words: 根据毛泽东的意见 (III, 1843). Made public: 2009 (the nianpu). See [[cal.1964-12-15.china-leadership]]. Names: Deng Xiaoping, Mao Zedong, Peng Zhen, Chen Boda.'
     src:
       c: e782637e
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1843: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 386–387: ?'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:peng-zhen, name:chen-boda, vis:only:prc]
+    time_range:
+      - 1965-01-07T22:00Z
+      - 1965-01-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-08.china-leadership-8
     when: Jan. 8
     date: '1965-01-08'
@@ -1495,6 +1690,26 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 2: all'
     tags: [polity:prc, polity:us]
+  - id: cal.1965-01-10.china-leadership
+    when: Jan. 10
+    date: '1965-01-10'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Australian trade union delegation led by James Roulston 詹姆斯·鲁尔斯顿, secretary of the Boilermakers' Society in Victoria.
+    n: '[[w.chen-yi-nianpu]], 1079. The words: 上午 (1079). Names: Chen Yi.'
+    tags: [polity:prc, polity:australia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-01-09T22:00Z
+      - 1965-01-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-10.china-leadership-2
+    when: Jan. 10
+    date: '1965-01-10'
+    thread: china-leadership
+    also: [latin-america]
+    c: Chen Yi 陈毅 receives the second group of relatives going to Brazil to visit the nine Chinese arrested and held by the Brazilian authorities, 于伶, 耿淑芳, 韩四光 and 石菊英, and the Chinese Red Cross's 王敏 and 衣成信 going with them.
+    n: '[[w.chen-yi-nianpu]], 1079. Names: Chen Yi.'
+    tags: [polity:prc, polity:brazil, name:chen-yi, ok:fields-place]
   - id: cal.1965-01-11.legislatures-tx
     when: Jan. 11
     date: '1965-01-11'
@@ -1672,12 +1887,26 @@ entries:
     thread: china-leadership
     also: [china]
     c: Deng Xiaoping 邓小平, with Peng Zhen 彭真, calls the first secretaries of the Central Committee's 中央 regional bureaus to discuss the revised draft of "Some problems now raised in the rural socialist education movement".
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1843 (Jan. 11, 1965). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1843 (Jan. 11, 1965); [[w.peng-zhen-nianpu-1902]], IV, 387 (Jan. 11, 1965; Peng Zhen, with Deng Xiaoping, calls the regional bureaus'' first secretaries on the revised draft of the 10th). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen.'
     src:
       c: '56975086'
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1843: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 387: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-01-11.china-leadership-4
+    when: Jan. 11
+    date: '1965-01-11'
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Chen Yi 陈毅 speaks at the reception of Djawoto 查禾多, Indonesia''s Ambassador, for the opening of the direct air service: Indonesia''s leaving the United Nations a righteous revolutionary act, "the first spring thunder of 1965," a sign that American imperialism''s day of manipulating the United Nations is setting.'
+    n: '[[w.chen-yi-nianpu]], 1079. The words: 晚上 (1079). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-01-11T11:00Z
+      - 1965-01-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-12.school-aid
     when: Jan. 12
     date: '1965-01-12'
@@ -1903,14 +2132,20 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou, with Liu Shaoqi, receives an Indonesian friendship delegation; congratulates on the direct China–Indonesia air route and thanks Indonesia for retrieving, ten years ago, the bodies from the sabotaged *Kashmir Princess*.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 701 (Jan. 12, 1965); [[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 12, 1965; evening, Beijing; the reception given by Kuang Rennong (邝任农), head of the Civil Aviation Administration, for the opening of the direct China–Indonesia air route and the Indonesian friendship delegation); [[w.zhonghua-renmin-gongheguo-waijiao]], 2–3 (Jan. 12, 1965; Liu named as host; his praise of Sukarno''s withdrawal and call for self-reliance). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 701 (Jan. 12, 1965); [[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 12, 1965; evening, Beijing; the reception given by Kuang Rennong (邝任农), head of the Civil Aviation Administration, for the opening of the direct China–Indonesia air route and the Indonesian friendship delegation); [[w.zhonghua-renmin-gongheguo-waijiao]], 2–3 (Jan. 12, 1965; Liu named as host; his praise of Sukarno''s withdrawal and call for self-reliance); [[w.chen-yi-nianpu]], 1079 (Jan. 12, 1965, evening; Chen Yi at the banquet of Kuang Rennong 邝任农, director of the Civil Aviation Administration, for the opening of the direct air service and Iskandar''s 伊斯坎达 delegation); [[w.chen-yi-nianpu]], 1079 (Jan. 12, 1965, afternoon; Chen Yi with Liu Shaoqi and Zhou receives the delegation, led by Iskandar 伊斯坎达, Minister of Air Communications). Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: a1f3cc5b
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 701: ?'
         - 'w.zhou-enlai-waijiao-huodong 433: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao 2–3: A'
+        - 'w.chen-yi-nianpu 1079: ?'
     tags: [name:zhou-enlai, name:liu-shaoqi, polity:prc, polity:indonesia]
+    time_range:
+      - 1965-01-12T04:00Z
+      - 1965-01-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-12.china-leadership-2
     when: Jan. 12
     date: '1965-01-12'
@@ -2111,11 +2346,12 @@ entries:
     thread: china
     also: [vietnam-hanoi]
     c: 'Chen Yi cables a reply to the DRV foreign minister, Xuân Thủy, on the South Korean troops: China firmly supports the DRV''s stand and will strive with Vietnam, to the end, to defeat U.S. aggression.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 3 (Jan. 13, 1965). Names: Chen Yi, Xuân Thủy.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 3 (Jan. 13, 1965); [[w.chen-yi-nianpu]], 1079 (Jan. 13, 1965; the reply to Xuân Thủy''s cable of Jan. 10). Names: Chen Yi, Xuân Thủy.'
     src:
       c: 8ab8a419
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 3: all'
+        - 'w.chen-yi-nianpu 1079: ?'
     tags: [polity:prc, polity:drv, name:chen-yi, name:xuan-thuy]
   - id: cal.1965-01-13.china-3
     when: Jan. 13
@@ -2123,11 +2359,12 @@ entries:
     thread: china
     also: [vietnam-hanoi, laos]
     c: Chen Yi writes to the two co-chairmen of the Geneva Conference and to the foreign ministers of its participating states, asking them to take effective measures against the U.S. widening of the war in Indochina.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 3 (Jan. 13, 1965). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 3 (Jan. 13, 1965); [[w.chen-yi-nianpu]], 1079–1080 (Jan. 13, 1965). Names: Chen Yi.'
     src:
       c: 90f135c4
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 3: all'
+        - 'w.chen-yi-nianpu 1079–1080: ?'
     tags: [polity:prc, polity:us, name:chen-yi]
   - id: cal.1965-01-13.china-leadership-2
     when: Jan. 13
@@ -2161,7 +2398,7 @@ entries:
     time: 1965-01-13T07:30Z
     thread: china-leadership
     c: Deng Xiaoping 邓小平, with Zhou Enlai 周恩来, Peng Zhen 彭真, He Long, Chen Yi 陈毅 and others, attends the Party-life meeting Liu Shaoqi 刘少奇 calls.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1843 (Jan. 13, 1965); [[w.mao-zedong-zhuan]], VI, ch. 73 (Jan. 13, 3:30 p.m., Liu calls a Party-life meeting of seventeen; Wang Renzhong''s diary: "an unforgettable day" (n.44); after the conference Liu goes to Mao and criticizes himself (n.45)). The words: 下午 (III, 1843). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 73). To check: Wang Renzhong 王任重, diary 日记, Jan. 13, 1965 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.44); Wang Guangmei 王光美, talk on reading the draft of the *Liu Shaoqi nianpu* 《刘少奇年谱》, June 20, 1994 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.45). Names: Deng Xiaoping, Zhou Enlai, Peng Zhen, Chen Yi, Liu Shaoqi.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1843 (Jan. 13, 1965); [[w.mao-zedong-zhuan]], VI, ch. 73 (Jan. 13, 3:30 p.m., Liu calls a Party-life meeting of seventeen; Wang Renzhong''s diary: "an unforgettable day" (n.44); after the conference Liu goes to Mao and criticizes himself (n.45)). The words: 下午 (III, 1843). [[w.peng-zhen-nianpu-1902]], IV, 387 (Jan. 13, 1965, afternoon; Peng Zhen at Liu Shaoqi''s Party life meeting, called because Zhu De, He Long and others had urged Liu, after his differences with Mao at the work conference, to think of the whole, be modest and respect Mao; Zhou Enlai, Deng Xiaoping, He Long, Chen Yi, Luo Ruiqing, Chen Boda, Li Jingquan, Li Xuefeng, Liu Lantao, Song Renqiong, Xie Fuzhi, Wang Renzhong, Wei Wenbo, Li Baohua, Tan Qilong and others there; after the conference Liu goes to Mao and criticizes himself). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 73). To check: Wang Renzhong 王任重, diary 日记, Jan. 13, 1965 (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.44); Wang Guangmei 王光美, talk on reading the draft of the *Liu Shaoqi nianpu* 《刘少奇年谱》, June 20, 1994 (record 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.45). Names: Deng Xiaoping, Zhou Enlai, Peng Zhen, Chen Yi, Liu Shaoqi.'
     src:
       c: 37d4b29a
       rows:
@@ -2169,6 +2406,7 @@ entries:
         - 'w.mao-zedong-zhuan VI, ch. 73: A'
         - 'via w.mao-zedong-zhuan VI, ch.73 n.44: A'
         - 'via w.mao-zedong-zhuan VI, ch.73 n.45: A'
+        - 'w.peng-zhen-nianpu-1902 IV, 387: ?'
     tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:peng-zhen, name:chen-yi, name:liu-shaoqi, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-01-14.vietnam
@@ -2315,7 +2553,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao speaks at the close of the Central Work Conference, Hall of the People, Fujian Hall, afternoon, as the final text, the 23 points ("Some Problems Now Raised in the Rural Socialist Education Movement"), is settled: the meeting a month, a turn and a return; the 10th plenum began the movement, ten points in May 1963, another in September; the second ten too long; no more "root-striking"; Liu''s summer speech sent the cadres to the villages. Not to make a great din; again that the movement is a contest of socialism and capitalism. The Central Committee issues the 23 points as [65] no. 26, replacing earlier documents where they conflict.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 14, 1965. [[w.zhou-enlai-nianpu-1949]], II, 701 (Jan. 14, 1965: the Central Committee issues the meeting''s summary, "Some Problems Now Raised in the Rural Socialist Education Movement" (the Twenty-three Articles), drawn up on Mao''s views: sharp class struggle in town and country; the movement''s basic nature the contradiction between socialism and capitalism; its point, to purge those in the Party in power taking the capitalist road; hereafter called the "four cleanups", of politics, economy, organization, ideology); [[w.macfarquhar-maos-last-revolution]], 13 (the directive of January 1965: those in authority taking the capitalist road to be rectified); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Jan. 14, 1965; Liu attends the enlarged meeting of the Politburo Standing Committee, which discusses the work conference''s minutes, "Some problems now raised in the rural socialist-education movement" (the "Twenty-three Articles"); the same day the Central Committee issues the notice sending them down to the whole Party); [[w.macfarquhar-origins-of-the-cultural]], III, 426–28 (Mao on the Latter Ten Points, issued three months after the Former, and on Beijing''s "independent kingdoms," the Secretariat under Deng and the Planning Commission under Li Fuchun; the Twenty-three Articles, drawn up by Peng Zhen, issued Jan. 14, the covering note making them the standard; Zhou Enlai adds "departments" to the passage on the higher levels); [[w.jianguo-yilai-mao-zedong]], XVII, 482–486 (Dec. 1964–Jan. 1965; note 1: issued as Zhongfa [65] 26, Jan. 14, 1965; seven points added and one dropped in January); [[w.deng-xiaoping-nianpu-1904]], III, 1844 (Jan. 14, 1965; Deng at the close of the Central Work Conference Mao presides over; the conference adopts ''Some problems now raised in the rural socialist education movement'' (the ''Twenty-three Articles''): sharp class struggle in town and country; the movement''s basic nature the contradiction between socialism and capitalism; its point to set in order those in the Party in power who take the capitalist road; from now the movements in town and country are all called the ''four clean-ups'' (clear politics, economy, organization, thought); by spring 1966 about a third of the counties and communes in the country''s villages have taken part); [[w.mao-zedong-zhuan]], VI, ch. 73 (Jan. 14, afternoon, Fujian Hall: Mao speaks at the last session; the Tenth Plenum began the movement, the ten points of May 1963, another of Sept., too long; Liu''s speech of last summer sent the cadres to the villages; the 23 articles finally settled the same day (n.46, n.47)). Made public: 1996. See [[cal.1964-12-15.china-leadership]]. To check: the "23 points" (Central Committee, [65] no. 26, Jan. 14, 1965; named by [[w.zedong-mao-zedong-nianpu]], V, Jan. 14, 1965); [[w.jin-1949-1989-niande-zhongguo]], 604 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 426 n.148); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1132 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 427 n.150); the Twenty-three Articles and the Center''s covering note, Jan. 14, 1965, in [[w.baum-ssu-ching]], 118 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 427 n.151); the Twenty-three Articles and the Center''s covering note, Jan. 14, 1965, in [[w.baum-ssu-ching]], 118–26 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 428 n.153); the Twenty-three Articles and the Center''s covering note, Jan. 14, 1965, in [[w.baum-ssu-ching]], 120 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 428 n.155); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 284, 281–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 428 n.156a); Central Committee, Zhongfa [65] 26, Jan. 14, 1965, issuing "Some questions now raised in the rural socialist education movement" (the twenty-three points) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 485 n.1f); Mao Zedong 毛泽东, speech at the Central Work Conference 中央工作会议, Jan. 14, 1965 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.47). Names: Mao Zedong, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 14, 1965. [[w.zhou-enlai-nianpu-1949]], II, 701 (Jan. 14, 1965: the Central Committee issues the meeting''s summary, "Some Problems Now Raised in the Rural Socialist Education Movement" (the Twenty-three Articles), drawn up on Mao''s views: sharp class struggle in town and country; the movement''s basic nature the contradiction between socialism and capitalism; its point, to purge those in the Party in power taking the capitalist road; hereafter called the "four cleanups", of politics, economy, organization, ideology); [[w.macfarquhar-maos-last-revolution]], 13 (the directive of January 1965: those in authority taking the capitalist road to be rectified); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Jan. 14, 1965; Liu attends the enlarged meeting of the Politburo Standing Committee, which discusses the work conference''s minutes, "Some problems now raised in the rural socialist-education movement" (the "Twenty-three Articles"); the same day the Central Committee issues the notice sending them down to the whole Party); [[w.macfarquhar-origins-of-the-cultural]], III, 426–28 (Mao on the Latter Ten Points, issued three months after the Former, and on Beijing''s "independent kingdoms," the Secretariat under Deng and the Planning Commission under Li Fuchun; the Twenty-three Articles, drawn up by Peng Zhen, issued Jan. 14, the covering note making them the standard; Zhou Enlai adds "departments" to the passage on the higher levels); [[w.jianguo-yilai-mao-zedong]], XVII, 482–486 (Dec. 1964–Jan. 1965; note 1: issued as Zhongfa [65] 26, Jan. 14, 1965; seven points added and one dropped in January); [[w.deng-xiaoping-nianpu-1904]], III, 1844 (Jan. 14, 1965; Deng at the close of the Central Work Conference Mao presides over; the conference adopts ''Some problems now raised in the rural socialist education movement'' (the ''Twenty-three Articles''): sharp class struggle in town and country; the movement''s basic nature the contradiction between socialism and capitalism; its point to set in order those in the Party in power who take the capitalist road; from now the movements in town and country are all called the ''four clean-ups'' (clear politics, economy, organization, thought); by spring 1966 about a third of the counties and communes in the country''s villages have taken part); [[w.mao-zedong-zhuan]], VI, ch. 73 (Jan. 14, afternoon, Fujian Hall: Mao speaks at the last session; the Tenth Plenum began the movement, the ten points of May 1963, another of Sept., too long; Liu''s speech of last summer sent the cadres to the villages; the 23 articles finally settled the same day (n.46, n.47)). [[w.peng-zhen-nianpu-1902]], IV, 387–388 (Jan. 14, 1965; Peng Zhen at the closing of the Central Work Conference, Mao presiding, which adopts the "Twenty-three Articles" as Mao settled them; the Center''s notice: earlier papers on socialist education that conflict give way to this; grave, sharp class struggle in town and country, the movement''s nature the contradiction of socialism and capitalism, its stress the Party''s power holders taking the capitalist road; henceforth all "four clean-ups," of politics, economy, organization and thought). Made public: 1996. See [[cal.1964-12-15.china-leadership]]. To check: the "23 points" (Central Committee, [65] no. 26, Jan. 14, 1965; named by [[w.zedong-mao-zedong-nianpu]], V, Jan. 14, 1965); [[w.jin-1949-1989-niande-zhongguo]], 604 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 426 n.148); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1132 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 427 n.150); the Twenty-three Articles and the Center''s covering note, Jan. 14, 1965, in [[w.baum-ssu-ching]], 118 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 427 n.151); the Twenty-three Articles and the Center''s covering note, Jan. 14, 1965, in [[w.baum-ssu-ching]], 118–26 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 428 n.153); the Twenty-three Articles and the Center''s covering note, Jan. 14, 1965, in [[w.baum-ssu-ching]], 120 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 428 n.155); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 284, 281–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 428 n.156a); Central Committee, Zhongfa [65] 26, Jan. 14, 1965, issuing "Some questions now raised in the rural socialist education movement" (the twenty-three points) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 485 n.1f); Mao Zedong 毛泽东, speech at the Central Work Conference 中央工作会议, Jan. 14, 1965 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.47). Names: Mao Zedong, Liu Shaoqi.'
     src:
       c: '64218935'
       rows:
@@ -2336,6 +2574,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1844: ?'
         - 'w.mao-zedong-zhuan VI, ch. 73: A-C, E'
         - 'via w.mao-zedong-zhuan VI, ch.73 n.47: A-C, E'
+        - 'w.peng-zhen-nianpu-1902 IV, 387–388: ?'
     tags: [name:mao-zedong, name:liu-shaoqi, polity:prc, vis:only:prc]
     time_range:
       - 1965-01-14T04:00Z
@@ -2601,12 +2840,46 @@ entries:
     thread: china-leadership
     also: [china]
     c: Deng Xiaoping 邓小平 presides at the Secretariat 书记处, which discusses the experience of the socialist education movement in colleges and factories, the editing and publishing of volume 5 of the *Selected Works of Mao Zedong 毛泽东* 《毛泽东选集》, and other matters.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1844 (Jan. 15, 1965). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1844 (Jan. 15, 1965); [[w.peng-zhen-nianpu-1902]], IV, 388 (Jan. 15, 1965; the Secretariat''s 391st meeting; Peng Zhen there; socialist education in colleges and factories and the editing of vol. V of Mao''s *Selected Works*; Peng Zhen: students'' chief task study, problems reported up, no stopping classes to struggle by revolutionary feeling; the city''s work teams not to cast the school Party committees aside; the *Selected Works* group to bring on promising men with theory, not always the same few; the unwell not forced to points; Party history perhaps written as one, lest some puff themselves in local histories). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong.'
     src:
       c: 5f8da40e
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1844: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 388: ?'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-01-15.china-leadership-7
+    when: Jan. 15
+    date: '1965-01-15'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 reports to the second session of the fourth All-China Youth Federation 中华全国青年联合会 and the eighteenth national students'' congress: reaction goes from strong to weak, revolution from weak to strong; imperialism, the reactionaries and modern revisionism will fail, the revolution win, a law beyond men''s will; socialism history''s necessity, the one right and bright road of modern China.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 388. Names: Peng Zhen.'
+    src:
+      c: 6b7687ce
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 388: all'
+    tags: [polity:prc, name:peng-zhen]
+  - id: cal.1965-01-15.china-leadership-8
+    when: Jan. 15
+    date: '1965-01-15'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 receives and gives a banquet for the heads of the delegations to the Vietnam–Cambodia border talks, Ambassador Trần Tử Bình 陈子平 of the DRV, Ambassador 张岗 of Cambodia and Professor Nguyễn Văn Hiếu 阮文孝 of the NLF.
+    n: '[[w.chen-yi-nianpu]], 1080. The words: 上午 (1080). Names: Chen Yi, Nguyễn Văn Hiếu.'
+    tags: [polity:prc, polity:drv, polity:cambodia, polity:nlf, name:chen-yi, ok:fields-place, name:nguyen-van-hieu]
+    time_range:
+      - 1965-01-14T22:00Z
+      - 1965-01-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-15.china-leadership-9
+    when: Jan. 15
+    date: '1965-01-15'
+    thread: china-leadership
+    also: [laos]
+    c: Prince Souphanouvong cables Chen Yi 陈毅, as he does the other Geneva powers' foreign ministers, condemning the American bombing of Laos and urging a fourteen-nation conference without preconditions.
+    n: '[[w.chen-yi-nianpu]], 1080. Names: Chen Yi, Souphanouvong.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:souphanouvong, ok:fields-place]
   - id: cal.1965-01-16.trade
     when: Jan. 16
     date: '1965-01-16'
@@ -2677,12 +2950,18 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Chen Yi receives Utsunomiya Tokuma, a Liberal Democratic member of the House of Representatives.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 4 (Jan. 17, 1965). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 4 (Jan. 17, 1965); [[w.chen-yi-nianpu]], 1080 (Jan. 17, 1965, morning; Utsunomiya and his party). Names: Chen Yi.'
     src:
       c: f5648fef
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 4: all'
+        - 'w.chen-yi-nianpu 1080: ?'
     tags: [polity:prc, polity:japan, name:chen-yi]
+    time_range:
+      - 1965-01-16T22:00Z
+      - 1965-01-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-17.china-leadership-4
     when: Jan. 17
     date: '1965-01-17'
@@ -2705,6 +2984,41 @@ entries:
     c: Bình Thuận. Region 6's Battalion 186 ambushes and destroys a Civil Guard company and three Self-Defense platoons marching from Hoài Đức to Mê Pu, Jan. 17, and then takes the Bắc Núi hamlet, the last next to the subsector, and besieges the Hoài Đức district seat.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 401–02.'
     tags: [polity:drv]
+  - id: cal.1965-01-17.china-leadership-5
+    when: Jan. 17
+    date: '1965-01-17'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, receives those at the PLA's logistics and cadres' conferences, the public security forces' political work conference, the eighteenth national students' congress and ten national conferences including the Agricultural Bank's, and those who shot down U.S. planes and the soldiers' troupe.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 388; [[w.chen-yi-nianpu]], 1080 (Jan. 17, 1965, afternoon; Chen Yi with Mao, Liu Shaoqi, Zhou, Deng Xiaoping, Dong Biwu, Peng Zhen, Li Fuchun, He Long, Chen Boda, Kang Sheng, Bo Yibo, Ye Jianying and Xie Fuzhi; also the men who twice shot down American pilotless reconnaissance planes and the soldiers'' amateur troupe). The words: 下午 (IV, 388). Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping.'
+    src:
+      c: 8f5eb0c5
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 388: all'
+        - 'w.chen-yi-nianpu 1080: ?'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping]
+    time_range:
+      - 1965-01-17T04:00Z
+      - 1965-01-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-17.china-leadership-6
+    when: Jan. 17
+    date: '1965-01-17'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 talks with Li Fuchun 李富春 and Li Xiannian 李先念 at his home.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 388. The words: 晚 (IV, 388). Made public: 2012. Names: Peng Zhen, Li Fuchun, Li Xiannian.'
+    src:
+      c: a2dad50d
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 388: all'
+    tags: [polity:prc, name:peng-zhen, name:li-fuchun, name:li-xiannian, vis:only:prc]
+    time_range:
+      - 1965-01-17T11:00Z
+      - 1965-01-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-18.georgia-ga
     when: Jan. 18
     date: '1965-01-18'
@@ -2869,6 +3183,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1844: all'
     tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+  - id: cal.1965-01-18.china-leadership-4
+    when: Jan. 18
+    date: '1965-01-18'
+    thread: china-leadership
+    also: [soviet-union, africa, south-asia, indonesia]
+    c: 'The Foreign Ministry''s report "Soviet Economic and Military ''Aid'' to Nationalist Countries of Asia and Africa": from 1954 to 1964 $3.861 billion economic and $2.285 billion military aid to some twenty-two countries; of $2.4057 billion economic aid to Asia, 39.4 percent to India; 70.8 percent of military aid to Asia, nearly $1 billion, to Indonesia; in Africa 53 percent of economic aid, over $800 million, to the UAR, 14 percent, about $225 million, to Algeria.'
+    n: '[[w.friedman-shadow-cold-war]], 123, 131–132. Made public: 2015. To check: MFA Report “Soviet Economic and Military ‘Aid’ to Nationalist Countries of Asia and Africa,” January 18, 1965, CFMA doc. 109-03652-03, 1 (cited by [[w.friedman-shadow-cold-war]], 123 n.95); MFA Report “Soviet Economic and Military ‘Aid’ to Nationalist Countries of Asia and Africa,” January 18, 1965, CFMA doc. 109-03652-03, 1 (cited by [[w.friedman-shadow-cold-war]], 131 n.140); MFA Report “Soviet Economic and Military ‘Aid’ to Nationalist Countries of Asia and Africa,” January 18, 1965, CFMA doc. 109-03652-03, 3 (cited by [[w.friedman-shadow-cold-war]], 132 n.141).'
+    src:
+      c: f78dfc5d
+      rows:
+        - 'w.friedman-shadow-cold-war 123, 131–132: all'
+        - 'via x.1965-01-18.mfa-report-soviet-economic-military-aid-nationalist: ?'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1965-01-19.voting-rights-selma
     when: Jan. 19
     date: '1965-01-19'
@@ -2958,6 +3285,34 @@ entries:
       - 1965-01-19T04:00Z
       - 1965-01-19T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-19.china-leadership-5
+    when: Jan. 19
+    date: '1965-01-19'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 sends Mao 毛泽东, Liu Shaoqi 刘少奇 and Zhou Enlai 周恩来 the Peking committee''s report on problems in the present socialist education: lately struggle meetings at random and beatings in teams, factories and schools, stopped in the middle schools; the work teams and leaders told to stop them quickly; the cadres'' thinking much confused.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 388–389. Made public: 2012. Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai.'
+    src:
+      c: 17469bd8
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 388–389: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, vis:only:prc, ok:fields-place]
+  - id: cal.1965-01-19.china-leadership-6
+    when: Jan. 19
+    date: '1965-01-19'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at Mao's 毛泽东 to talk.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 389. The words: 晚 (IV, 389). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: '64872439'
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 389: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1965-01-19T11:00Z
+      - 1965-01-19T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1965-01-20.transition-and-staff
     when: Jan. 20
@@ -3125,11 +3480,12 @@ entries:
     thread: china
     also: [laos]
     c: The same day Chen Yi writes to the Geneva Conference's two co-chairmen, hoping the Soviet and British governments will take up their responsibility, stop the U.S. direct armed aggression against Laos and the widening of the Indochina war.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 4 (Jan. 20, 1965). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 4 (Jan. 20, 1965); [[w.chen-yi-nianpu]], 1080 (Jan. 20, 1965; to Gromyko and Gordon Walker, on the F-100s'' and F-105s'' bombing of Ban Ban in the liberated area). Names: Chen Yi.'
     src:
       c: 8c779c06
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 4: all'
+        - 'w.chen-yi-nianpu 1080: ?'
     tags: [polity:prc, polity:us, polity:ussr, polity:uk, name:chen-yi]
   - id: cal.1965-01-20.china-leadership-2
     when: Jan. 20
@@ -3161,6 +3517,53 @@ entries:
     c: 'Gia Định. Companies 707 and 200 of the Saigon–Gia Định Region fight together, Jan. 20, and stop two Saigon main-force battalions sweeping the Bàu Lách hamlet, Nhuận Đức commune, in the Củ Chi tunnels area: 166 out of action, by the history''s count.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 395–96.'
     tags: [polity:drv]
+  - id: cal.1965-01-20.china-leadership-4
+    when: Jan. 20
+    date: '1965-01-20'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 writes to Mao 毛泽东 asking to see him on the questions of socialist education: how teams that cast aside the cadres of teams, factories and schools may move naturally to the three-way union, keeping the workers'', poor peasants'' and revolutionary intellectuals'' spirits while most cadres join the work; section and group heads persuaded to correct themselves, "taking the firewood from under the pot," the attack not too wide; among intellectuals only the great questions of the two roads, not origins, history, private life or relations of men and women; the rising unrest and random struggle turned to the right road or stopped; after Tongxian 通县''s "great army," a new trial county such as Shunyi 顺义 with few teams; class lines and class files in the villages; the key, to bring the comrades of the Center and the city at points in Peking to one mind.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 389–390. The words: 晨 (IV, 389–390). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: e54cb0c2
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 389–390: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc, ok:fields-place]
+    time_range:
+      - 1965-01-19T22:00Z
+      - 1965-01-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-20.china-leadership-5
+    when: Jan. 20
+    date: '1965-01-20'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 at Mao''s 毛泽东 from afternoon to evening on the questions of socialist education; Mao: the "Twenty-three Articles" to be printed large as a public notice and posted, for all to follow.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 390. The words: 下午至晚上 (IV, 390). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: 8d760e99
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 390: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1965-01-20T04:00Z
+      - 1965-01-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-20.indonesia
+    when: Jan. 20
+    date: '1965-01-20'
+    place: jakarta
+    thread: indonesia
+    also: [soviet-union]
+    c: Jakarta. The Soviet Ambassador's statement for Indonesia's confrontation of Malaysia. Subandrio reports the Ambassador has told him the Soviets will provide "any aid that Indonesia needs, especially aid needed within the scope of Indonesia's 'smash Malaysia' struggle."
+    n: '[[w.friedman-shadow-cold-war]], 128–129. To check: Secret report of American and European Department, Soviet–East European Department MFA on actions of new Soviet leadership in Africa and Asia, March 31, 1965, CFMA doc. 109-03652-02, 37 (cited by [[w.friedman-shadow-cold-war]], 128 n.117); Secret report of American and European Department, Soviet–East European Department MFA on actions of new Soviet leadership in Africa and Asia, March 31, 1965, CFMA doc. 109-03652-02, 38–39 (cited by [[w.friedman-shadow-cold-war]], 129 n.118). Names: Subandrio.'
+    src:
+      c: 1b9e85ab
+      rows:
+        - 'w.friedman-shadow-cold-war 128–129: all'
+        - 'via x.1965-03-31.secret-report-american-european-department-soviet-east: ?'
+    tags: [polity:ussr, polity:indonesia, name:subandrio]
   - id: cal.1965-01-21.testing
     when: Jan. 21
     date: '1965-01-21'
@@ -3312,6 +3715,50 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVII, 527–528: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 527 n.1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-01-21.china-leadership-4
+    when: Jan. 21
+    date: '1965-01-21'
+    place: peking
+    thread: china-leadership
+    c: 'The Great Hall of the People 人民大会堂, Peking 北京. Peng Zhen 彭真 reports on socialist education to more than 990 cadres of vice-minister rank and up of the Center and the state in Peking, Li Fuchun 李富春 presiding: the wind of random struggle in schools, factories and villages to be stopped; rely on the masses'' majority, the three-way union; in the schools the "key link" of the two roads, not side issues; section and group heads, mostly promoted workers, persuaded, not clubbed; the "Twenty-three Articles" to the branches, posted as notices; the work teams cast the cadres aside (Li Xiannian 李先念: "kicked them out"), confused the two contradictions, bound and beat men; nearly 20,000 in Tongxian 通县, the work done for the locals, weakness, not strength of leadership; "我代表所有工作队来赔不是" to cadres wrongly struggled; class lines at two ends in the villages, the landlords and rich peasants in the factories, intellectuals by conduct; production pressed.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 390–391. The words: 下午 (IV, 390–391). Made public: 2012. Names: Peng Zhen, Li Fuchun, Li Xiannian.'
+    src:
+      c: d4c4603f
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 390–391: all'
+    tags: [polity:prc, name:peng-zhen, name:li-fuchun, name:li-xiannian, vis:only:prc]
+    time_range:
+      - 1965-01-21T04:00Z
+      - 1965-01-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-21.china-leadership-5
+    when: Jan. 21
+    date: '1965-01-21'
+    thread: china-leadership
+    c: Peng Zhen 彭真, with Mao's 毛泽东 consent, has the "Twenty-three Articles" printed as a public notice, and that night tells the regional bureaus' offices that Peking will make the paper molds for all.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 391. The words: 连夜 (IV, 391). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: d35c9e92
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 391: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc, ok:fields-place]
+    time_range:
+      - 1965-01-21T14:00Z
+      - 1965-01-21T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-21.china-leadership-6
+    when: Jan. 21
+    date: '1965-01-21'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真, reading in the *Beijing ribao*''s 北京日报 *Qingkuang he wenti* 《情况和问题》 that some leaders of the Peking zipper factory 北京拉锁厂 faked the samples sealed for the national competition and kept technique secret from brother factories, resisted by the workers: the workers very good, but some cadres'' style a capitalist''s, without a breath of communism; to be criticized by name in the press, and praised when reformed.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 391. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: c6453384
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 391: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
   - id: cal.1965-01-22.voting-rights
     when: Jan. 22
     date: '1965-01-22'
@@ -3650,12 +4097,13 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou welcomes at the airport the delegation sent by Sukarno, led by First Deputy Prime Minister and Foreign Minister Subandrio.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 23, 1965; afternoon; Beijing airport); [[w.zhonghua-renmin-gongheguo-waijiao]], 4 (Jan. 23–28, 1965; Subandrio''s visit, given as Jan. 23 to 28; Mao and Liu Shaoqi receive the delegation; Zhou''s and Chen Yi''s talks). Names: Zhou Enlai, Subandrio, Sukarno.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 23, 1965; afternoon; Beijing airport); [[w.zhonghua-renmin-gongheguo-waijiao]], 4 (Jan. 23–28, 1965; Subandrio''s visit, given as Jan. 23 to 28; Mao and Liu Shaoqi receive the delegation; Zhou''s and Chen Yi''s talks); [[w.chen-yi-nianpu]], 1081 (Jan. 23, 1965, afternoon; Chen Yi at the airport). Names: Zhou Enlai, Subandrio, Sukarno.'
     src:
       c: d71ba558
       rows:
         - 'w.zhou-enlai-waijiao-huodong 433: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 4: all'
+        - 'w.chen-yi-nianpu 1081: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio, name:sukarno]
     time_range:
       - 1965-01-23T04:00Z
@@ -3669,11 +4117,12 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou dines with Subandrio at the guesthouse.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 23, 1965; evening; Beijing guesthouse (宾馆)). Names: Zhou Enlai, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 23, 1965; evening; Beijing guesthouse (宾馆)); [[w.chen-yi-nianpu]], 1081 (Jan. 23, 1965; Chen Yi with Zhou takes the guests to the guesthouse, talks with them there and dines with them). Names: Zhou Enlai, Subandrio.'
     src:
       c: b5d5a913
       rows:
         - 'w.zhou-enlai-waijiao-huodong 433: all'
+        - 'w.chen-yi-nianpu 1081: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio]
     time_range:
       - 1965-01-23T11:00Z
@@ -3762,12 +4211,25 @@ entries:
     thread: china-leadership
     also: [china]
     c: Deng Xiaoping 邓小平 reads the plan for building Peking's 北京 underground railway that Peng Zhen 彭真 forwards.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1845 (Jan. 23, 1965). The words: 审阅 (III, 1845). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1845 (Jan. 23, 1965); [[w.peng-zhen-nianpu-1902]], IV, 391 (Jan. 23, 1965; Peng Zhen sends Mao, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, He Long and Luo Ruiqing the plan for Peking''s underground railway signed by Yang Yong, Wan Li, Wu Jingtian and others (the page''s note: the subway''s leading group), settled with Li Fuchun and Yang Chengwu; on Feb. 4 Mao to Yang Yong: "精心设计、精心施工," errors and failures to be corrected as they come). The words: 审阅 (III, 1845). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen.'
     src:
       c: aa3d8546
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1845: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 391: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-01-23.china-leadership-12
+    when: Jan. 23
+    date: '1965-01-23'
+    place: peking
+    thread: china-leadership
+    c: 'The International Hotel 国际饭店, Peking 北京. Peng Zhen 彭真 reports to the cadres at the Peking committee''s enlarged meeting: the struggle of the two roads the key link; most Party cadres good and for socialism, or the movement loses its way; Peking''s grain and cotton purchases done faster than ever, proof that relying on the majority holds; the work teams'' gains chief, but they cast cadres aside, made no three-way union and struggled some wrongly; "我代表所有的工作队赔个不是"; the "Twenty-three Articles" the rule, lessons summed up.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 392. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 3d4410cb
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 392: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1965-01-24.europe-and-the-alliance
     when: Jan. 24
     date: '1965-01-24'
@@ -3812,7 +4274,7 @@ entries:
     thread: china-leadership
     also: [indonesia, china]
     c: 'Zhou has three talks with Subandrio, Jan. 24 to 27. Jan. 24, on the U.N.''s mistake and its state: China is not interested; it will not enter while Chiang''s gang stays; the U.N. must correct its mistake, cancel the resolution branding China an aggressor and pass one naming the U.S. the aggressor. Jan. 25: the U.S. looks strong but is a paper tiger, strategically, though each fight and each tactic needs weight; China''s calm rests on the militia organized by the millions, the people kept alert; self-reliance is no adventure but the surest way to a strong state, and does not exclude cooperation on equality and mutual benefit.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 704 (Jan. 24–27, 1965); [[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 24, 1965; 10:45 a.m., Beijing Hall, Great Hall of the People; Zhou meets Subandrio and the delegation''s members and holds talks); [[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 25, 1965; 10:15 a.m., Fujian Hall, Great Hall of the People; the second talks with Subandrio); [[w.jian-zhou-enlai]], 499 (January 1965: Zhou to Subandrio: wider political, economic, technical and military cooperation). Made public: 1993. The time is the first day''s. To check: Zhou''s series of meetings with Subandrio, January 1965 (cited by [[w.jian-zhou-enlai]], 499 n.29). Names: Zhou Enlai, Subandrio.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 704 (Jan. 24–27, 1965); [[w.zhou-enlai-waijiao-huodong]], 433 (Jan. 24, 1965; 10:45 a.m., Beijing Hall, Great Hall of the People; Zhou meets Subandrio and the delegation''s members and holds talks); [[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 25, 1965; 10:15 a.m., Fujian Hall, Great Hall of the People; the second talks with Subandrio); [[w.jian-zhou-enlai]], 499 (January 1965: Zhou to Subandrio: wider political, economic, technical and military cooperation); [[w.chen-yi-nianpu]], 1081–1082 (Jan. 24, 1965, morning, Chen Yi with Zhou meets Subandrio and his delegation and holds talks with him; Jan. 25 and 27, further talks with Zhou). Made public: 1993. The time is the first day''s. To check: Zhou''s series of meetings with Subandrio, January 1965 (cited by [[w.jian-zhou-enlai]], 499 n.29). Names: Zhou Enlai, Subandrio.'
     src:
       c: 3a006e89
       rows:
@@ -3821,6 +4283,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 434: A, E-G'
         - 'w.jian-zhou-enlai 499: ?'
         - 'via x.1965-01.zhou-series-meetings-subandrio: ?'
+        - 'w.chen-yi-nianpu 1081–1082: ?'
     tags: [name:zhou-enlai, name:subandrio, polity:prc, polity:indonesia, vis:only:prc+indonesia]
     time_zone: Asia/Shanghai
   - id: cal.1965-01-24.china-leadership-2
@@ -3830,23 +4293,30 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou gives a banquet in the Great Hall of the People for Subandrio's delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 433–34 (Jan. 24, 1965; Beijing; the time not given). Names: Zhou Enlai, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 433–34 (Jan. 24, 1965; Beijing; the time not given); [[w.chen-yi-nianpu]], 1081 (Jan. 24, 1965, evening, the banquet hall of the Great Hall of the People; Chen Yi and Zhou give the banquet). Names: Zhou Enlai, Subandrio.'
     src:
       c: 45a51b06
       rows:
         - 'w.zhou-enlai-waijiao-huodong 433–34: all'
+        - 'w.chen-yi-nianpu 1081: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio]
+    time_range:
+      - 1965-01-24T11:00Z
+      - 1965-01-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-24.china
     when: Jan. 24
     date: '1965-01-24'
     thread: china
     also: [laos]
     c: Chen Yi cables Prince Souphanouvong, deputy prime minister of the Lao coalition government, in answer to his telegram of Jan. 16 on the U.S. widening of its direct military aggression in Laos. China, as a signatory of the Geneva agreements and a close neighbor of Laos, has always watched Laos closely, and has always favored reconvening the conference of the 14 signatories of the 1962 Geneva agreements to settle the Laos question peacefully.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 5 (Jan. 24, 1965). Names: Chen Yi, Souphanouvong.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 5 (Jan. 24, 1965); [[w.chen-yi-nianpu]], 1081 (Jan. 24, 1965; the reply to Souphanouvong''s urgent cable of the 16th). Names: Chen Yi, Souphanouvong.'
     src:
       c: be76e24a
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 5: all'
+        - 'w.chen-yi-nianpu 1081: ?'
     tags: [polity:prc, polity:pathet-lao, name:chen-yi, name:souphanouvong]
   - id: cal.1965-01-24.china-leadership-3
     when: Jan. 24
@@ -3889,6 +4359,40 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 502: all'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-01-24T11:00Z
+      - 1965-01-24T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-24.china-leadership-6
+    when: Jan. 24
+    date: '1965-01-24'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at Mao's 毛泽东 enlarged Standing Committee, hearing Yu Qiuli 余秋里 on ideas for the middle- and long-term plans.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 392. The words: 下午 (IV, 392). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: 237f72cb
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 392: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1965-01-24T04:00Z
+      - 1965-01-24T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-24.china-leadership-7
+    when: Jan. 24
+    date: '1965-01-24'
+    place: peking
+    thread: china-leadership
+    c: 'The International Hotel 国际饭店, Peking 北京. Peng Zhen 彭真 with the county and district secretaries of the trial points of Tongxian 通县, Shunyi 顺义, Daxing 大兴, Chaoyang 朝阳 and others: since 1949 no systematic socialist education, cadres and masses unready; many cadres in the hard years made small or great "four unclean" errors, some went bad; the "four clean-ups" a chance to raise their consciousness; cadres with faults moved again and again to "wash hands and bathe," confess, repay and lay down their burdens.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 392. The words: 晚 (IV, 392). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 0421937c
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 392: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
     time_range:
       - 1965-01-24T11:00Z
       - 1965-01-24T14:00Z
@@ -4066,6 +4570,47 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 504: all'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-01-25T11:00Z
+      - 1965-01-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-25.china-leadership-6
+    when: Jan. 25
+    date: '1965-01-25'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 broadcasts to the 113,000 cadres and work team members at the trial points of Tongxian 通县, Shunyi 顺义, Daxing 大兴, Chaoyang 朝阳 and other places on the "Twenty-three Articles," and criticizes himself: we share the blame for cadres'' errors, having long neglected socialist education, "我是市委第一书记，我首先向同志们作检讨"; errors unavoidable without experience, corrected whoever made them; cure the sickness to save the patient; those suspected or struggled to rejoin when cleared, those wrongly struggled set right; no beating, no corporal punishment; spring plowing pressed, the trial areas doing both, elsewhere production the center.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 393. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: e3e0feb7
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 393: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
+  - id: cal.1965-01-25.china-leadership-7
+    when: Jan. 25
+    date: '1965-01-25'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at Mao's 毛泽东 to talk.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 393. The words: 下午 (IV, 393). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: '64872439'
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 393: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1965-01-25T04:00Z
+      - 1965-01-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-25.china-leadership-8
+    when: Jan. 25
+    date: '1965-01-25'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 accompanies Subandrio and the Indonesian delegation to the welcoming evening of the Ministry of Culture and the China–Indonesia Friendship Association, the Central Opera and Ballet's *The Red Detachment of Women* 《红色娘子军》.
+    n: '[[w.chen-yi-nianpu]], 1081. The words: 晚上 (1081). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio, ok:fields-place]
     time_range:
       - 1965-01-25T11:00Z
       - 1965-01-25T14:00Z
@@ -4306,12 +4851,19 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou attends the Peking rally of all circles welcoming the delegation sent by Sukarno, led by Subandrio.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 26, 1965; Beijing; the time not given). Names: Zhou Enlai, Subandrio, Sukarno.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 26, 1965; Beijing; the time not given); [[w.peng-zhen-nianpu-1902]], IV, 394 (Jan. 26, 1965; Peng Zhen, with Zhou Enlai and others, welcomes at the capital''s meeting of more than 10,000 the delegation sent by President Sukarno under Subandrio, First Deputy Prime Minister and Foreign Minister: Sukarno''s withdrawal from the United Nations, against its manipulation by U.S. imperialism, unsettles the imperialists and is cheered by the Indonesian and the world''s revolutionary peoples); [[w.chen-yi-nianpu]], 1081–1082 (Jan. 26, 1965, afternoon, the Great Hall of the People; Chen Yi speaks: Indonesia''s leaving the United Nations defends its own and all revolutionary peoples'' interests; the United Nations now an organization dividing the world, held by the United States and a few great powers, which shut out China; a country''s isolation is not whether it belongs to the United Nations; if the United States forces war on Indonesia China will not stand by). Names: Zhou Enlai, Subandrio, Sukarno.'
     src:
       c: e2ded5ae
       rows:
         - 'w.zhou-enlai-waijiao-huodong 434: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 394: ?'
+        - 'w.chen-yi-nianpu 1081–1082: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio, name:sukarno]
+    time_range:
+      - 1965-01-26T04:00Z
+      - 1965-01-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-26.china-leadership-4
     when: Jan. 26
     date: '1965-01-26'
@@ -4432,6 +4984,18 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 505: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1965-01-26.china-leadership-12
+    when: Jan. 26
+    date: '1965-01-26'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 reports to the All-China Youth Federation''s session and the eighteenth national students'' congress: from the facts see the law that imperialism, the reactionaries and modern revisionism will fail; not every unit as dark as the worst "four unclean" ones exposed; intellectuals judged chiefly by conduct, not birth; the "Twenty-three Articles" unite over 95 percent, the children of landlords and rich peasants among them; youth of every origin to choose the socialist road, study Marxism-Leninism and Mao Zedong Thought and join the workers, peasants and soldiers.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 393–394. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: a4f4d54f
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 393–394: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong]
   - id: cal.1965-01-27.vietnam
     when: Jan. 27
     date: '1965-01-27'
@@ -4672,12 +5236,13 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou, in the Hunan Hall of the Great Hall of the People, accompanies Mao Zedong and Liu Shaoqi in receiving Subandrio and his delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 27, 1965; 5:50 p.m., Hunan Hall, Great Hall of the People); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Jan. 27, 1965; Liu, with Mao and Zhou Enlai, receives Subandrio, First Deputy Prime Minister and Foreign Minister of Indonesia, and the Indonesian delegation). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 27, 1965; 5:50 p.m., Hunan Hall, Great Hall of the People); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Jan. 27, 1965; Liu, with Mao and Zhou Enlai, receives Subandrio, First Deputy Prime Minister and Foreign Minister of Indonesia, and the Indonesian delegation); [[w.chen-yi-nianpu]], 1082 (Jan. 27, 1965, afternoon; Chen Yi present). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Subandrio.'
     src:
       c: 86830cd8
       rows:
         - 'w.zhou-enlai-waijiao-huodong 434: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 614: ?'
+        - 'w.chen-yi-nianpu 1082: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:subandrio]
     time_zone: Asia/Shanghai
   - id: cal.1965-01-27.china-leadership-4
@@ -4687,11 +5252,13 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou attends the farewell banquet given by Subandrio.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 27, 1965; evening; Beijing). Names: Zhou Enlai, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 27, 1965; evening; Beijing); [[w.peng-zhen-nianpu-1902]], IV, 394 (Jan. 27, 1965, evening; the Great Hall of the People; Peng Zhen, with Zhou Enlai and others, at Subandrio''s farewell banquet); [[w.chen-yi-nianpu]], 1082 (Jan. 27, 1965, evening, the banquet hall of the Great Hall of the People; Chen Yi speaks: the talks'' great results, a joint statement to come; the truly strong are the awakened peoples; Indonesia''s confrontation of "Malaysia" and leaving the United Nations a new stage of the anti-imperialist struggle). Names: Zhou Enlai, Subandrio.'
     src:
       c: f48eecbd
       rows:
         - 'w.zhou-enlai-waijiao-huodong 434: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 394: ?'
+        - 'w.chen-yi-nianpu 1082: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio]
     time_range:
       - 1965-01-27T11:00Z
@@ -4727,6 +5294,30 @@ entries:
         - 'w.yang-shangkun-riji II, 505: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-01-27.china-leadership-7
+    when: Jan. 27
+    date: '1965-01-27'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at Mao's 毛泽东 to talk.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 394. The words: 下午 (IV, 394). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: '64872439'
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 394: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1965-01-27T04:00Z
+      - 1965-01-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-27.china-leadership-8
+    when: Jan. 27
+    date: '1965-01-27'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and U Thi Han 吴蒂汉, Burma's Foreign Minister, exchange cables on the fifth anniversary of the treaty of friendship.
+    n: '[[w.chen-yi-nianpu]], 1082. Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, ok:fields-place]
   - id: cal.1965-01-28.economy
     when: Jan. 28
     date: '1965-01-28'
@@ -4933,13 +5524,14 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou attends the signing of the China–Indonesia joint statement and of the two governments' economic and technical cooperation agreement and loan agreement.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 28, 1965; morning; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 5 (Jan. 28, 1965; the joint statement and the economic and technical cooperation and loan agreements; talks on economics, trade, transport and military matters, exchange visits); [[w.zhonghua-renmin-gongheguo-waijiao]], 4–5 (Jan. 28, 1965; the joint statement, issued the 28th: support for Sukarno''s withdrawal from the U.N.; Vietnam, Laos, Cambodia; the agreements and the exchange of delegations). Names: Zhou Enlai, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 28, 1965; morning; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 5 (Jan. 28, 1965; the joint statement and the economic and technical cooperation and loan agreements; talks on economics, trade, transport and military matters, exchange visits); [[w.zhonghua-renmin-gongheguo-waijiao]], 4–5 (Jan. 28, 1965; the joint statement, issued the 28th: support for Sukarno''s withdrawal from the U.N.; Vietnam, Laos, Cambodia; the agreements and the exchange of delegations); [[w.chen-yi-nianpu]], 1082 (Jan. 28, 1965, morning; Chen Yi and Subandrio sign for their governments the joint statement and the two agreements). Names: Zhou Enlai, Subandrio.'
     src:
       c: e040c158
       rows:
         - 'w.zhou-enlai-waijiao-huodong 434: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 5: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 4–5: all'
+        - 'w.chen-yi-nianpu 1082: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio]
     time_range:
       - 1965-01-27T22:00Z
@@ -4953,12 +5545,18 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Zhou goes to the airport to see off Subandrio.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 28, 1965; Beijing airport; the time not given). Names: Zhou Enlai, Subandrio.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 434 (Jan. 28, 1965; Beijing airport; the time not given); [[w.chen-yi-nianpu]], 1082 (Jan. 28, 1965, morning; Chen Yi at the airport). Names: Zhou Enlai, Subandrio.'
     src:
       c: 9548d4e8
       rows:
         - 'w.zhou-enlai-waijiao-huodong 434: all'
+        - 'w.chen-yi-nianpu 1082: ?'
     tags: [polity:prc, name:zhou-enlai, name:subandrio]
+    time_range:
+      - 1965-01-27T22:00Z
+      - 1965-01-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-01-28.china-2
     when: Jan. 28
     date: '1965-01-28'
@@ -5007,6 +5605,18 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 505: all'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1965-01-28T11:00Z
+      - 1965-01-28T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-01-28.china-leadership-7
+    when: Jan. 28
+    date: '1965-01-28'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the Foreign Ministry's reception for the fifth anniversary of the China–Burma treaty of friendship.
+    n: '[[w.chen-yi-nianpu]], 1082. The words: 晚上 (1082). Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, ok:fields-place]
     time_range:
       - 1965-01-28T11:00Z
       - 1965-01-28T14:00Z
@@ -5073,7 +5683,7 @@ entries:
     thread: china-leadership
     also: [soviet-union, vietnam-hanoi]
     c: Mao calls Liu Shaoqi, Zhou Enlai and Deng Xiaoping at 1 p.m., Juxiang Shuwu; at 3 p.m. Liu presides over a Politburo meeting at which Deng reports on a Cuban delegation's coming and Zhou on Kosygin's passage through Beijing on his way to Vietnam.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 29, 1965. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Jan. 29, 1965; Liu presides at the Politburo meeting, which discusses the Politburo''s future methods of work and the talks with Kosygin, chairman of the Soviet Council of Ministers, when he passes through Peking on his visit to Korea); [[w.yang-shangkun-riji]], II, 505–506 (Jan. 29, 1965; the Politburo, 3:30 to 6 p.m.: Deng on the Cuban delegation''s visit, Zhou on Kosygin''s passage through Peking to Vietnam; Liu: the Politburo has met too seldom, a fault; besides its meetings with an agenda, a meeting without one each month, at which all may speak freely; Yang there, in poor spirits; Liu not said to preside; the words: 中午睡后，3时半到6时参加政治局会议); [[w.deng-xiaoping-nianpu-1904]], III, 1845 (Jan. 29, 1965; afternoon, 下午; Deng at the Politburo meeting, on its future working methods, on the coming of Kosygin''s delegation to talk in Peking on its way to Vietnam, and on the reception of the delegation of the Cuban United Party of the Socialist Revolution). Made public: 1996. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Kosygin.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 29, 1965. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 614 (Jan. 29, 1965; Liu presides at the Politburo meeting, which discusses the Politburo''s future methods of work and the talks with Kosygin, chairman of the Soviet Council of Ministers, when he passes through Peking on his visit to Korea); [[w.yang-shangkun-riji]], II, 505–506 (Jan. 29, 1965; the Politburo, 3:30 to 6 p.m.: Deng on the Cuban delegation''s visit, Zhou on Kosygin''s passage through Peking to Vietnam; Liu: the Politburo has met too seldom, a fault; besides its meetings with an agenda, a meeting without one each month, at which all may speak freely; Yang there, in poor spirits; Liu not said to preside; the words: 中午睡后，3时半到6时参加政治局会议); [[w.deng-xiaoping-nianpu-1904]], III, 1845 (Jan. 29, 1965; afternoon, 下午; Deng at the Politburo meeting, on its future working methods, on the coming of Kosygin''s delegation to talk in Peking on its way to Vietnam, and on the reception of the delegation of the Cuban United Party of the Socialist Revolution); [[w.peng-zhen-nianpu-1902]], IV, 394 (Jan. 29, 1965; Peng Zhen at noon at Mao''s to talk; in the afternoon at the Politburo, Liu Shaoqi presiding, on the Politburo''s way of work, Kosygin''s coming visit on his way to Vietnam and talks, and receiving the Cuban party delegation). Made public: 1996. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Kosygin.'
     src:
       c: 95f3a615
       rows:
@@ -5081,6 +5691,7 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 614: A, B, C'
         - 'w.yang-shangkun-riji II, 505–506: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1845: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 394: ?'
     tags: [name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:kosygin-aleksei, polity:prc, polity:cuba, polity:ussr, polity:drv, vis:only:prc]
     variants:
       - unit: B
@@ -5137,6 +5748,39 @@ entries:
     c: 'Saigon. Commando Team 65 attacks the headquarters of the American military assistance command, Jan. 29: 55 American officers out of action by the history''s count.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 396. Check: the American record of Jan. 29 not found in the calendar; the figure as the history gives it.'
     tags: [polity:drv]
+  - id: cal.1965-01-29.china-leadership-5
+    when: Jan. 29
+    date: '1965-01-29'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 answers the self-criticism of Qi Benyu 戚本禹, of the Tongxian 通县 "four clean-ups" team, sent on the 27th: "我们对一切问题都实事求是，是就是，非就非"; copied to Zheng Tianxiang 郑天翔, Zhao Fan 赵凡 and Wan Li 万里; Qi had told the General Office''s bulletin that the *Four Clean-ups News* 《农村四清报》, printing Liu Ren''s 刘仁 talk to the poor peasants on Dec. 2 and criticizing teams that "take over everything" as a "Judge Bao" outlook, could not bear revolutionary ways like Taoyuan''s and Xiaozhan''s and was a habit of acting as officials and lords; after the Twenty-three Articles Chen Boda 陈伯达 had him criticize himself to Peng, calling Peng "one of my own."'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 394–395. Made public: 2012. Names: Peng Zhen, Chen Boda.'
+    src:
+      c: d43c7c18
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 394–395: all'
+    tags: [polity:prc, name:peng-zhen, name:chen-boda, vis:only:prc, ok:fields-place]
+  - id: cal.1965-01-29.china-leadership-6
+    when: Jan. 29
+    date: '1965-01-29'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 sends Mao 毛泽东 Cheng Zihua''s 程子华 and Xu Chi''s 徐驰 report on the recent building of the Panzhihua 攀枝花 steel base: the third-line area now has a man in charge, so do railways and metallurgy; its leaders after completion to be settled quickly, the Planning and Economic Commissions consulting.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 395. Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: a32dc898
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 395: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc, ok:fields-place]
+  - id: cal.1965-01-29.china-leadership-7
+    when: Jan. 29
+    date: '1965-01-29'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 drafts the Center''s comment forwarding the Ministry of Public Security Party group''s request on detection work in the "four clean-ups": the views right; "对敌斗争的侦察手段，是绝对不准用于党内的."'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 395. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 008b1926
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 395: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
   - id: cal.1965-01-30.europe-and-the-alliance
     when: Jan. 30
     date: '1965-01-30'
@@ -5252,11 +5896,12 @@ entries:
     thread: china
     also: [vietnam-hanoi, laos]
     c: 'Chen Yi replies by letter to Xuân Thủy''s letter of Jan. 22 to the Geneva co-chairmen and participants, against the U.S. bombing of Laos and its plan to widen the war in Indochina: China fully supports the Vietnamese stand and its just claims, and stands with the peoples of Vietnam, Laos and Cambodia.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 6 (Jan. 30, 1965). Names: Chen Yi, Xuân Thủy.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 6 (Jan. 30, 1965); [[w.chen-yi-nianpu]], 1082 (Jan. 30, 1965). Names: Chen Yi, Xuân Thủy.'
     src:
       c: 73c50b31
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 6: all'
+        - 'w.chen-yi-nianpu 1082: ?'
     tags: [polity:prc, polity:drv, name:chen-yi, name:xuan-thuy]
   - id: cal.1965-01-30.china-leadership-2
     when: Jan. 30
@@ -5283,6 +5928,19 @@ entries:
         - 'w.yang-shangkun-riji II, 506: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-01-30.china-leadership-4
+    when: Jan. 30
+    date: '1965-01-30'
+    thread: china-leadership
+    also: [africa, soviet-union]
+    c: 'The Foreign Ministry''s Africa Department, a secret report: the USSR tries to organize an "African Marxist Conference" at Accra under Nkrumah.'
+    n: '[[w.friedman-shadow-cold-war]], 126. Made public: 2015. To check: Secret report from Africa Department MFA, January 30, 1965, CFMA doc. 109-03652-04, 4 (cited by [[w.friedman-shadow-cold-war]], 126 n.106). Names: Nkrumah.'
+    src:
+      c: 56571d7a
+      rows:
+        - 'w.friedman-shadow-cold-war 126: all'
+        - 'via x.1965-01-30.secret-report-africa-department-mfa-january-30: ?'
+    tags: [polity:prc, vis:only:prc, ok:fields-place, name:nkrumah-kwame]
   - id: cal.1965-01-31.opinion
     when: Jan. 31
     date: '1965-01-31'
@@ -6378,3 +7036,138 @@ entries:
     c: 'Zhou Enlai 周恩來 tells Wang Jiaxiang 王稼祥 that Mao Zedong 毛澤東 has asked him to give the word: there will soon be great changes of men; the Center''s chief successor will be either Lin Biao 林彪 or Deng Xiaoping 鄧小平.'
     n: '[[w.yang-jisheng-tiandi-fanfu]], II, 847. Made public: 1995. To check: Zhu Zhongli 朱仲麗, *Mao Zedong Wang Jiaxiang zai wo de shenghuo zhong* 《毛澤東王稼祥在我的生活中》 (Zhongyang dangxiao chubanshe, 1995), 224 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 847 n.79). Names: Zhou Enlai, Mao Zedong, Lin Biao, Deng Xiaoping.'
     tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:mao-zedong, name:lin-biao, name:deng-xiaoping, ok:fields-place]
+  - id: cal.1965-01-31.china-leadership-3
+    when: Jan. 31
+    date: '1965-01-31'
+    thread: china-leadership
+    c: Peng Zhen 彭真 sends Mao 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and Deng Xiaoping 邓小平 a bulletin on the four-level cadres' meeting in the Tongxian 通县 trial area, where a tide of laying down burdens rose.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 395. Made public: 2012. Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping.'
+    src:
+      c: 5ece314a
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 395: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, vis:only:prc, ok:fields-place]
+  - id: cal.1965-01.china-leadership-11
+    when: Jan., late
+    date: 1965-01
+    at: before 1965-01-21
+    thread: china-leadership
+    c: 'Peng Zhen 彭真, with Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and Bo Yibo 薄一波, receives Li Xiannian''s 李先念 letter on foreign exchange: the foreign trade Party group''s proposal to stop exports that earn a dollar or a rouble for more than ten yuan not acceptable, the world market, Vietnam and the socialist and nationalist countries above all, needing them, and industry hard to arrange without them; the single domestic price to go on this year.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 395–396. Made public: 2012. Names: Peng Zhen, Zhou Enlai, Deng Xiaoping, Bo Yibo, Li Xiannian.'
+    src:
+      c: f56b6d32
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 395–396: all'
+    tags: [polity:prc, name:peng-zhen, name:zhou-enlai, name:deng-xiaoping, name:bo-yibo, name:li-xiannian, vis:only:prc, ok:fields-place]
+  - id: cal.1965.indonesia
+    when: 1965, early
+    date: '1965'
+    at: before 1965-01
+    thread: indonesia
+    also: [soviet-union]
+    c: The Afro-Asian Islamic conference in Indonesia; a Soviet Central Asian delegation sent, hoping for recognition as an Afro-Asian state and a seat at the heads-of-state conference.
+    n: '[[w.friedman-shadow-cold-war]], 111. To check: Documents on Soviet attendance at Afro-Asian Islamic Conference, December 13, 1964–January 5, 1965, CFMA doc. 105-01329-04 (cited by [[w.friedman-shadow-cold-war]], 111 n.45a); SCSCAA Presidium session, October 13, 1964, GARF f.9540 o.1 d.155, 19–20 (cited by [[w.friedman-shadow-cold-war]], 111 n.45b).'
+    src:
+      c: 88ccb3f5
+      rows:
+        - 'w.friedman-shadow-cold-war 111: all'
+        - 'via x.1964-12-13.documents-soviet-attendance-afro-asian-islamic-conference: ?'
+        - 'via x.1964-10-13.scscaa-presidium-session-october-13-1964: ?'
+    tags: [polity:indonesia, polity:ussr]
+  - id: cal.1965.china-leadership-24
+    when: 1965, spring
+    date: '1965'
+    at: before 1965-03-20
+    thread: china-leadership
+    c: Chen Yi 陈毅 sends Mao Zedong 毛泽东 his cycle "Journey to six countries" 《六国之行》.
+    n: '[[w.chen-yi-nianpu]], 1072. Names: Chen Yi, Mao Zedong.'
+    tags: [polity:prc, name:chen-yi, name:mao-zedong, ok:fields-place]
+  - id: cal.1965-01.china-leadership-12
+    when: Jan.
+    date: 1965-01
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 writes an inscription for the fifth anniversary of the monthly *Weiqi* 《围棋》: go players must join mental and physical labor to raise their art and serve the country.'
+    n: '[[w.chen-yi-nianpu]], 1082–1083. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+  - id: cal.1965.intelligence
+    when: 1965, summer
+    date: '1965'
+    at: before 1965-06
+    thread: intelligence
+    also: [vietnam-hanoi, soviet-union]
+    c: American intelligence detects its first evidence of Soviet equipment in use in North Vietnam.
+    n: '[[w.khoo-collateral-damage]], 27. Made public: 1992 ([[w.thakur-soviet-relations-with-india]], 59, the earliest printing the note names). To check: [[w.thakur-soviet-relations-with-india]], 59 (cited by [[w.khoo-collateral-damage]], 27 n.126). Check: the day.'
+    tags: [polity:us, vis:only:us, ok:fields-place]
+  - id: cal.1965.china-leadership-25
+    when: '1965'
+    date: '1965'
+    thread: china-leadership
+    c: Mao Zedong 毛泽东 reads the biographies of Huang Qiong 黄琼 and Li Gu 李固 in the *Hou Han shu* 后汉书, finds them worth reading and marks them, "for Liu, Zhou, Deng and Peng to read" and "for Comrade Chen Yi to read"; Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Peng Zhen 彭真 and Chen Yi 陈毅 read them.
+    n: '[[w.chen-yi-nianpu]], 1136. Made public: 1995. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi.'
+    tags: [polity:prc, name:chen-yi, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1965-01.soviet-union
+    when: Jan., after the 7th
+    date: 1965-01
+    at: after 1965-01-07
+    thread: soviet-union
+    also: [indonesia]
+    c: Kosygin writes Sukarno criticizing the withdrawal from the UN; the Soviet press speaks for the UN.
+    n: '[[w.friedman-shadow-cold-war]], 143. To check: MFA International Department report on Soviet attitude toward Indonesia leaving UN, April 1, 1965, CFMA doc. 109-03641-02, 4–5 (cited by [[w.friedman-shadow-cold-war]], 143 n.204). Names: Kosygin, Sukarno. Check: the day; the note gives the Chinese Foreign Ministry''s report of Apr. 1, 1965 (143 n.204).'
+    src:
+      c: '24691207'
+      rows:
+        - 'w.friedman-shadow-cold-war 143: all'
+        - 'via x.1965-04-01.mfa-international-department-soviet-attitude-toward-indonesia-leaving: ?'
+    tags: [polity:ussr, polity:indonesia, name:kosygin-aleksei, name:sukarno]
+  - id: cal.1965.middle-east
+    when: 1965, first half
+    date: '1965'
+    at: before 1965-01
+    thread: middle-east
+    also: [soviet-union]
+    c: The Soviets promise the UAR 300,000 tons of wheat.
+    n: '[[w.friedman-shadow-cold-war]], 133.'
+    src:
+      c: 010f1373
+      rows:
+        - 'w.friedman-shadow-cold-war 133: all'
+    tags: [polity:ussr, polity:uar]
+  - id: cal.1965.soviet-union
+    when: '1965'
+    date: '1965'
+    thread: soviet-union
+    also: [china]
+    c: 'As Friedman reports it: through 1965, under Soviet diplomacy and aid, India, the UAR, Ghana, Cyprus, Iraq, Laos, Senegal, Nigeria and others come out for Soviet attendance at the second Afro-Asian conference.'
+    n: '[[w.friedman-shadow-cold-war]], 145. To check: Gromyko to Suslov, June 5, 1965, RGANI f.5 o.30 d.480, 94–126 (cited by [[w.friedman-shadow-cold-war]], 145 n.218a); Gromyko to Suslov, June 17, 1965, RGANI f.5 o.30 d.480, 94–126 (cited by [[w.friedman-shadow-cold-war]], 145 n.218b); Gromyko to Suslov, June 18, 1965, RGANI f.5 o.30 d.480, 94–126 (cited by [[w.friedman-shadow-cold-war]], 145 n.218c).'
+    src:
+      c: e71a5d53
+      rows:
+        - 'w.friedman-shadow-cold-war 145: all'
+        - 'via x.1965-06-05.gromyko-suslov-june-5-1965: ?'
+        - 'via x.1965-06-17.gromyko-suslov-june-17-1965: ?'
+        - 'via x.1965-06-18.gromyko-suslov-june-18-1965: ?'
+    tags: [form:state, polity:ussr, ok:fields-place]
+  - id: cal.1965.indonesia-2
+    when: 1965, by August
+    date: '1965'
+    at: before 1965-08
+    thread: indonesia
+    c: The PKI calls for a "Fifth Force" of armed workers and peasants.
+    n: '[[w.friedman-shadow-cold-war]], 144. To check: [[w.simon-broken-triangle]], 107–8 (cited by [[w.friedman-shadow-cold-war]], 144 n.210a); [[w.mozingo-chinese-policy-towards-indonesia]], 223–24 (cited by [[w.friedman-shadow-cold-war]], 144 n.210b). Check: the date; the text sets it after the PKI''s land seizures of mid-1964 and before August 1965 (143–44).'
+    src:
+      c: dd198222
+      rows:
+        - 'w.friedman-shadow-cold-war 144: all'
+    tags: [polity:indonesia, ok:fields-place]
+  - id: cal.1965.indonesia-3
+    when: 1965, by August
+    date: '1965'
+    at: before 1965-08
+    thread: indonesia
+    c: Sukarno endorses the PKI's "Fifth Force."
+    n: '[[w.friedman-shadow-cold-war]], 144. To check: [[w.simon-broken-triangle]], 107–8 (cited by [[w.friedman-shadow-cold-war]], 144 n.210a); [[w.mozingo-chinese-policy-towards-indonesia]], 223–24 (cited by [[w.friedman-shadow-cold-war]], 144 n.210b). See [[cal.1965.indonesia-2]]. Names: Sukarno. Check: the date, as [[cal.1965.indonesia-2]].'
+    src:
+      c: 7a07f0d9
+      rows:
+        - 'w.friedman-shadow-cold-war 144: all'
+    tags: [polity:indonesia, name:sukarno, ok:fields-place]

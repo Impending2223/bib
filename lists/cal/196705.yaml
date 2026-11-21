@@ -220,13 +220,20 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Tiananmen rostrum, May Day. Chen Yi is there, frail and gray, by the account of Sidney Rittenberg, also on the rostrum: he "looked like a ghost".'
-    n: '[[w.macfarquhar-maos-last-revolution]], 198; [[w.yang-jisheng-tiandi-fanfu]], I, 393 (on May Day, Zhou, using Mao''s easing, has the veterans appear on Tiananmen). To check: [[w.rittenberg-man-who-stayed-behind]], 376 (cited by [[w.macfarquhar-maos-last-revolution]], 198 n.87b). See [[cal.1967-04-30.china-leadership-5]]. Names: Chen Yi.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 198; [[w.yang-jisheng-tiandi-fanfu]], I, 393 (on May Day, Zhou, using Mao''s easing, has the veterans appear on Tiananmen); [[w.jian-zhou-enlai]], 573 (Zhou, at Mao''s request, has the veterans of the February Countercurrent review the May Day parade from the Tiananmen gate); [[w.chen-yi-nianpu]], 1189 (May 1, 1967, evening; Chen Yi on the Tiananmen tower for the May Day night). To check: [[w.rittenberg-man-who-stayed-behind]], 376 (cited by [[w.macfarquhar-maos-last-revolution]], 198 n.87b). See [[cal.1967-04-30.china-leadership-5]]. Names: Chen Yi.'
     src:
       c: 7ba52a07
       rows:
         - 'w.macfarquhar-maos-last-revolution 198: all'
         - 'w.yang-jisheng-tiandi-fanfu I, 393: ?'
+        - 'w.jian-zhou-enlai 573: ?'
+        - 'w.chen-yi-nianpu 1189: ?'
     tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1967-05-01T11:00Z
+      - 1967-05-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-01.china-leadership-4
     when: May 1
     date: '1967-05-01'
@@ -257,11 +264,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking, the Tiananmen rostrum. Zhou Enlai 周恩來 has Yao Dengshan 姚登山 on the rostrum for the evening's fireworks; Mao receives him and is photographed with him.
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 567. The words: 5月1日晚 (I, 567). See [[cal.1967-04.china-leadership-14]]. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 567; [[w.jian-zhou-enlai]], 578 (on May Day Mao meets Yao at the Gate of Heavenly Peace, a meeting "not arranged by Zhou"; photographed standing between Mao and Jiang Qing). The words: 5月1日晚 (I, 567). See [[cal.1967-04.china-leadership-14]]. Names: Zhou Enlai, Mao Zedong.'
     src:
       c: dfda85ed
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 567: all'
+        - 'w.jian-zhou-enlai 578: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong]
     time_range:
       - 1967-05-01T11:00Z
@@ -459,12 +467,18 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance]
     c: Chen Yi receives the president of the Geneva "Connaissance de la Chine" society, Léon Boffa, and his wife, and its vice-president, Fernand Olivier, and his wife.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 152 (May 2, 1967). Names: Chen Yi. Check: the names, from the Chinese 利郧·布法 and 费尔南·奥利维尔.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 152 (May 2, 1967); [[w.chen-yi-nianpu]], 1189 (May 2, 1967, afternoon; Léon Bouffard 利昂·布法 and his wife and the vice-president 费尔南·奥利维尔 and his wife). Names: Chen Yi. Check: the names, from the Chinese 利郧·布法 and 费尔南·奥利维尔.'
     src:
       c: 092c372b
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 152: all'
+        - 'w.chen-yi-nianpu 1189: ?'
     tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1967-05-02T04:00Z
+      - 1967-05-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-02.china-leadership-3
     when: May 2
     date: '1967-05-02'
@@ -768,12 +782,18 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: Chen Yi receives the Sudan–China Friendship Association's delegation led by its chairman.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 153 (May 4, 1967). Names: Chen Yi. Check: the chairman''s name, from the Chinese 阿卜杜勒瓦哈卜·宁因·阿上本.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 153 (May 4, 1967); [[w.chen-yi-nianpu]], 1189 (May 4, 1967, afternoon). Names: Chen Yi. Check: the chairman''s name, from the Chinese 阿卜杜勒瓦哈卜·宁因·阿上本.'
     src:
       c: 6e1c2e30
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 153: all'
+        - 'w.chen-yi-nianpu 1189: ?'
     tags: [polity:prc, polity:sudan, name:chen-yi]
+    time_range:
+      - 1967-05-04T04:00Z
+      - 1967-05-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-04.china-leadership-5
     when: May 4
     date: '1967-05-04'
@@ -896,7 +916,7 @@ entries:
     date: '1967-05-05'
     thread: china-leadership
     c: Zhou Enlai writes Chen Yi, Tan Zhenlin, Li Xiannian, Yu Qiuli and Gu Mu, copy to Li Fuchun, warning them not to take the "May Day unity" for an illusion, or "there will be another new swing".
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 147 (May 5, 1967); [[w.yang-jisheng-tiandi-fanfu]], I, 393 (the letter to Chen Yi, Zhenlin, Xiannian, Qiuli and Gu Mu, copy to Fuchun, signed Zhou Enlai, May 5, 1967: May Day unity must not give the five the illusion to deny the February adverse current, press down the rebels, back the conservatives and take revenge, or there will be a new swing; "a warning, lest it be said I did not tell you before"). Made public: 2020. To check: [[w.wenqian-wannian-zhou-enlai]], 26th printing (2004), 216 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 393 n.22). Names: Zhou Enlai, Chen Yi, Tan Zhenlin, Li Xiannian, Yu Qiuli, Gu Mu, Li Fuchun.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 147 (May 5, 1967); [[w.yang-jisheng-tiandi-fanfu]], I, 393 (the letter to Chen Yi, Zhenlin, Xiannian, Qiuli and Gu Mu, copy to Fuchun, signed Zhou Enlai, May 5, 1967: May Day unity must not give the five the illusion to deny the February adverse current, press down the rebels, back the conservatives and take revenge, or there will be a new swing; "a warning, lest it be said I did not tell you before"); [[w.jian-zhou-enlai]], 573 (Zhou warns Chen Yi and the others not to "become cocky," or there may be "another turnaround"; not the day). Made public: 2020. To check: [[w.wenqian-wannian-zhou-enlai]], 26th printing (2004), 216 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 393 n.22); [[w.zhou-enlai-nianpu-1949]], III, 150 (cited by [[w.jian-zhou-enlai]], 573 n.37). Names: Zhou Enlai, Chen Yi, Tan Zhenlin, Li Xiannian, Yu Qiuli, Gu Mu, Li Fuchun.'
     tags: [name:zhou-enlai, name:chen-yi, name:tan-zhenlin, name:li-xiannian, name:li-fuchun, polity:prc, vis:only:prc]
   - id: cal.1967-05-05.china-leadership-2
     when: May 5
@@ -1110,6 +1130,14 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 409: all'
     tags: [polity:prc, vis:only:prc, name:li-jingquan, ok:fields-place]
+  - id: cal.1967-05-07.china-leadership-6
+    when: May 7
+    date: '1967-05-07'
+    place: peking
+    thread: china-leadership
+    c: The Capital Red Guards' Congress's "Liaison Station to Criticize Chen Yi" prints *The Black History of Chen Yi* 《陈毅黑史》, smearing him from his past to the present.
+    n: '[[w.chen-yi-nianpu]], 1189. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1967-05-08.trade
     when: May 8
     date: '1967-05-08'
@@ -1744,8 +1772,13 @@ entries:
     date: '1967-05-11'
     thread: china-leadership
     c: 'Zhou Enlai, in the evening, receives the foreign affairs system''s rebel delegates and dissuades them from a mass meeting to struggle against Chen Yi: the Center does not agree; Chen is not dismissed and must work. When they press him to call Chen a "three-anti element", he protests in anger: he did not say it; there are several vice-premiers, and he will protect them one by one.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 149 (May 11, 1967, the item after). Made public: 2020. Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 149 (May 11, 1967, the item after); [[w.chen-yi-nianpu]], 1189 (May 11, 1967, evening to the small hours, five hours in the State Council''s conference room). Made public: 2020. Names: Zhou Enlai, Chen Yi.'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc, vis:only:prc]
+    time_range:
+      - 1967-05-11T11:00Z
+      - 1967-05-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-11.china-leadership-4
     when: May 11–12
     date: '1967-05-11'
@@ -1774,6 +1807,19 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XIX, 70–71: all'
         - 'via w.jianguo-yilai-mao-zedong XIX, 70 n.1: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1967-05-11.china-leadership-8
+    when: May 11
+    date: '1967-05-11'
+    place: peking
+    thread: china-leadership
+    c: Rebels and Red Guard bodies of the foreign affairs system storm the Foreign Ministry one after another and march in the capital's main streets with slogans "Down with Chen Yi" 打倒陈毅.
+    n: '[[w.chen-yi-nianpu]], 1189. The words: 上午 (1189). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1967-05-10T22:00Z
+      - 1967-05-11T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-12.civil-rights-organizations
     when: May 12
     date: '1967-05-12'
@@ -2003,6 +2049,13 @@ entries:
     c: Hòa Lạc, west of Hanoi. The Vietnamese air force goes up and burns three F-4Ds; Colonel Norman Gaddis is taken. May 14 Hanoi's air defense shoots down five more.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 409. See [[cal.1967-04-24.vietnam-air-war]]. Check: the date of Gaddis''s capture, which the American record read does not give.'
     tags: [polity:drv, polity:us]
+  - id: cal.1967-05-12.china-leadership-3
+    when: May 12
+    date: '1967-05-12'
+    thread: china-leadership
+    c: Zhou Enlai 周恩来 tells the representatives of the "Liaison Station to Criticize Chen Yi" that he does not agree to overthrowing Chen Yi 陈毅.
+    n: '[[w.chen-yi-nianpu]], 1188. See [[cal.1967-04-06.china-leadership-4]]. Made public: 1995. Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, name:chen-yi, name:zhou-enlai, ok:fields-place, vis:only:prc]
   - id: cal.1967-05-13.vietnam-congress
     when: May 13
     date: '1967-05-13'
@@ -2098,7 +2151,7 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, soviet-union]
     c: 'Beijing. Deputy Foreign Minister Qiao Guanhua to the Vietnamese ambassador Ngô Minh Loan: China agrees to Vietnam''s plan to move 24 Soviet MiG-17s and MiG-21s, due in May and June, by rail in two shipments of 12, and refuses the Soviet plan to fly them over China in AN-12s from May 16 to 24. The Soviets mean to boast of their aid to the U.S., reveal secrets and control Vietnam; the proposal is a conspiracy and a chauvinist act; China does not impose its view.'
-    n: 'Qiao Guanhua with Ngô Minh Loan, Beijing, May 13, 1967, doc. 29, [[w.77-conversations-between-chinese]], [119–120](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=117) (an excerpt; 119 nn.189–190: Nghiêm Bá Đức and Phạm Thanh Hà, who told Beijing and Hanoi on May 6 and 9; no hour). Made public: 1998. Names: Qiao Guanhua, Ngô Minh Loan.'
+    n: 'Qiao Guanhua with Ngô Minh Loan, Beijing, May 13, 1967, doc. 29, [[w.77-conversations-between-chinese]], [119–120](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=117) (an excerpt; 119 nn.189–190: Nghiêm Bá Đức and Phạm Thanh Hà, who told Beijing and Hanoi on May 6 and 9; no hour). [[w.khoo-collateral-damage]], 35 (Qiao Guanhua to Ngô Minh Loan, May 13, 1967: the Soviet proposal for air transport "a conspiracy"). Made public: 1998. To check: [[w.77-conversations-between-chinese]], 123, 122 (cited by [[w.khoo-collateral-damage]], 35 n.185). Names: Qiao Guanhua, Ngô Minh Loan.'
     tags: [name:qiao-guanhua, name:ngo-minh-loan, polity:prc, polity:drv, vis:only:prc+drv]
   - id: cal.1967-05-13.china-leadership-5
     when: May 13
@@ -2106,13 +2159,14 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking, the theater of the Peking Exhibition Hall 北京展覽館劇場. The "old three armies" 老三軍 perform in the evening; Xiao Jingguang 蕭勁光, Wang Hongkun 王宏坤, Yu Lijin 余立金, Cao Lihuai 曹裏懷, Li Tianhuan 李天煥, Wu Lie 吳烈, Xiong Botao 熊伯濤 and Fu Chongbi 傅崇碧 gather in a building east of the theater, and the garrison sends two companies to stop a fight. The "new three armies" 新三軍 storm it; by Li Zuopeng 李作鵬 they never get in and some tens are hurt; by one of the storming side they reach the stage, are surrounded and break out; a broadcast relays Lin Biao''s office: storming the performance is wrong, Vice-Chairman Lin backs it; the colleges'' bodies withdraw and the show goes on.'
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 429. The words: 5月13日晚 (I, 429). To check: *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 538 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 429 n.29a); Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 51 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 429 n.29b); Bai Erqiang 白而強, 〈我策劃了衝擊三軍演出事件〉, *Yanhuang chunqiu* 《炎黃春秋》, 2011, no. 2 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 429 n.30). See [[cal.1967-05-13.china-leadership-3]]. Names: Li Zuopeng, Lin Biao. Check: the injured: some tens (Li Zuopeng); over 200, tens of them badly (Bu Weihua, 51, I, 429 n.29b).'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 429; [[w.teiwes-tragedy-of-lin-biao]], 42–43 (the "13 May incident," the violent clash of rival army troupes over the air force troupe''s show for the twenty-fifth anniversary of the Yan''an talks; by Wang Nianyi''s judgment the "clique" begins to form here). The words: 5月13日晚 (I, 429). To check: *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 538 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 429 n.29a); Bu Weihua 卜偉華, *Zalan jiu shijie: wenhua dageming de dongluan yu haojie* 《砸爛舊世界——文化大革命的動亂與浩劫》 (Chinese University Press, Hong Kong, 2008), 51 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 429 n.29b); Bai Erqiang 白而強, 〈我策劃了衝擊三軍演出事件〉, *Yanhuang chunqiu* 《炎黃春秋》, 2011, no. 2 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 429 n.30); [[w.nianyi-da-dongluande-niandai]], 379–380 (cited by [[w.teiwes-tragedy-of-lin-biao]], 42 n.83a); [[w.zhonggong-dangshi-jiaoxue-cankao]], XXV, 250 (cited by [[w.teiwes-tragedy-of-lin-biao]], 42 n.83b); [[w.huang-zheng-zai-lishi-de-danganli]], 31 (cited by [[w.teiwes-tragedy-of-lin-biao]], 42 n.83c); [[w.nianyi-da-dongluande-niandai]], 287, 379–380 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.86a); [[w.qibin-zhongguo-gongchandang-zhizheng-sishinian]], 292 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.86b); [[w.barnouin-ten-years-of-turbulence]], 132–134 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.86c). See [[cal.1967-05-13.china-leadership-3]]. Names: Li Zuopeng, Lin Biao. Check: the injured: some tens (Li Zuopeng); over 200, tens of them badly (Bu Weihua, 51, I, 429 n.29b).'
     src:
       c: 2c583cfe
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 429: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 429 n.29a: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 429 n.30: all'
+        - 'w.teiwes-tragedy-of-lin-biao 42–43: ?'
     tags: [polity:prc, name:li-zuopeng, name:lin-biao]
     time_range:
       - 1967-05-13T11:00Z
@@ -2159,6 +2213,14 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 431: all'
     tags: [polity:prc, vis:only:prc, name:lin-biao, name:wu-faxian, name:li-zuopeng, name:qiu-huizuo, ok:fields-place]
+  - id: cal.1967-05-13.china-leadership-9
+    when: May 13
+    date: '1967-05-13'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 at the airport to welcome Gohar Ayub Khan 古哈·阿尤布·汗, member of Pakistan's National Assembly, and his wife.
+    n: '[[w.chen-yi-nianpu]], 1189. Names: Chen Yi, Ayub Khan.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, name:ayub-khan-mohammad, ok:fields-place]
   - id: cal.1967-05-14.opinion
     when: May 14
     date: '1967-05-14'
@@ -2452,19 +2514,25 @@ entries:
     date: '1967-05-15'
     thread: china-leadership
     c: 'Zhou Enlai, before dawn, receives the Red Guard delegates of the Peking Foreign Languages Institute and sharply criticizes their storming the Foreign Ministry to seize Chen Yi: first admit the error; he gave the policy and they would not listen, and are turning to the opposite. Even if they would bring Chen down, it is not so simple; he orders troops to guard the Ministry, and whoever storms in will be held. A full dossier or a protest or a poster is allowed: "I do not fear being brought down; I have worked for decades."'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 150 (May 15, 1967). Made public: 2020. Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 150 (May 15, 1967); [[w.chen-yi-nianpu]], 1189–1190 (May 15, 1967, before dawn; told that the Foreign Languages Institute''s rebels have forced their way into the Foreign Ministry to seize Chen Yi, Zhou gives the final warning; he will send troops; whoever storms will be held; "you think you can bring Chen Yi down by shouting? absurd"). Made public: 2020. Names: Zhou Enlai, Chen Yi.'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc, vis:only:prc]
+    time_range:
+      - 1967-05-14T16:00Z
+      - 1967-05-14T22:00Z
+    time_band: predawn
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-15.china
     when: May 15
     date: '1967-05-15'
     thread: china
     also: [europe-and-the-alliance-britain]
     c: 'Luo Guibo, vice foreign minister, summons the British chargé d''affaires, Hopson, and hands him the Foreign Ministry''s statement: the British authorities of Hong Kong, using a labor dispute at an artificial-flower factory, are persecuting Chinese residents and workers; since the afternoon of May 6 over 400 have been arrested, and it goes on and widens. China makes the most urgent, strongest protest, and demands that the British government make the Hong Kong authorities accept all the just demands of Hong Kong''s Chinese workers and residents, free all those arrested, punish the killers, pay compensation, and promise no repeat.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 153–154 (May 15, 1967).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 153–154 (May 15, 1967); [[w.jian-zhou-enlai]], 579 (issued with Zhou''s approval, the "most urgent and vehement protest": the Hong Kong authorities to own their serious mistakes, apologize, punish those responsible and promise no repeat). To check: [[w.renmin-ribao]], May 16, 1967 (cited by [[w.jian-zhou-enlai]], 579 n.53).'
     src:
       c: 4777aea6
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 153–154: all'
+        - 'w.jian-zhou-enlai 579: ?'
     tags: [polity:prc, polity:uk]
   - id: cal.1967-05-15.china-leadership-2
     when: May 15
@@ -2485,7 +2553,7 @@ entries:
     time: 1967-05-16T19:00Z
     thread: middle-east-six-day-war
     c: 'Egypt''s troops into Sinai from May 14, on Soviet reports of Israeli forces massed against Syria. 10 p.m., a letter from Mohammed Fawzi, the UAR''s chief of staff, to Rikhye, commanding the UN Emergency Force: withdraw UNEF''s troops from the observation posts on the border. U Thant: a request must come to him from the government, and he would then withdraw the whole force from Gaza and Sinai.'
-    n: 'FRUS 1964–68, XIX, doc. [6](https://history.state.gov/historicaldocuments/frus1964-68v19/d6). [[w.drea-mcnamara-clifford-and-the-2011]], 428 (Egypt''s mobilization May 14 on the Soviet report; the demand of May 16 for UNEF''s partial withdrawal); [[w.poole-joint-chiefs-of-staff-2012]], 169 (the troops; the demand); [[w.johnson-vantage-point]], 290 (Egypt asks for UNEF withdrawn; U Thant). To check: [[w.parker-politics-of-miscalculation-in]]; [[w.six-day-war]]; [[w.quandt-lyndon-johnson-and-the]]; [[w.oren-six-days-of-war]]; [[w.ferris-nassers-gamble]]; [[w.segev-1967]]; [[w.spiegel-other-arab-israeli-conflict]]; Saunders, "The President in the Middle East Crisis, May 12–June 19, 1967," Dec. 19, 1968, NSC History of Middle East Crisis, NSF, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 428 n.8). Names: Mohammed Fawzi, Rikhye, U Thant.'
+    n: 'FRUS 1964–68, XIX, doc. [6](https://history.state.gov/historicaldocuments/frus1964-68v19/d6). [[w.drea-mcnamara-clifford-and-the-2011]], 428 (Egypt''s mobilization May 14 on the Soviet report; the demand of May 16 for UNEF''s partial withdrawal); [[w.poole-joint-chiefs-of-staff-2012]], 169 (the troops; the demand); [[w.johnson-vantage-point]], 290 (Egypt asks for UNEF withdrawn; U Thant); [[w.friedman-shadow-cold-war]], 158 (the Soviet intelligence report passed to Cairo in early May of an Israeli buildup on the Syrian border, and the scholars'' dispute whether Moscow meant to start a war). To check: [[w.parker-politics-of-miscalculation-in]]; [[w.six-day-war]]; [[w.quandt-lyndon-johnson-and-the]]; [[w.oren-six-days-of-war]]; [[w.ferris-nassers-gamble]]; [[w.segev-1967]]; [[w.spiegel-other-arab-israeli-conflict]]; Saunders, "The President in the Middle East Crisis, May 12–June 19, 1967," Dec. 19, 1968, NSC History of Middle East Crisis, NSF, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 428 n.8); [[w.cold-war-in-the]] (cited by [[w.friedman-shadow-cold-war]], 158 n.43a); Judith Klinghoffer, "The 1967 Middle East Crisis: A Second Vietnam," in International Perspectives on Vietnam, ed. Lloyd C. Gardner and Ted Gittinger (2000), 204–24 (cited by [[w.friedman-shadow-cold-war]], 158 n.43b); [[w.segev-1967]], 230–31 (cited by [[w.friedman-shadow-cold-war]], 158 n.43c). Names: Mohammed Fawzi, Rikhye, U Thant.'
     src:
       c: 198961f7
       rows:
@@ -2494,6 +2562,8 @@ entries:
         - 'via w.drea-mcnamara-clifford-and-the-2011 428 n.8a: A'
         - 'w.johnson-vantage-point 290: A-C'
         - 'w.poole-joint-chiefs-of-staff-2012 169: A-B'
+        - 'w.friedman-shadow-cold-war 158: ?'
+        - 'via x.2000.judith-klinghoffer-1967-middle-east-crisis-second-vietnam: ?'
     tags: [name:fawzi-mohammed, name:rikhye-indar-jit, name:u-thant, name:nasser-gamal-abdel]
     short: Egypt's troops into Sinai
   - id: cal.1967-05-16.mayors-philadelphia
@@ -2646,12 +2716,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou receives Gohar Ayub Khan, second son of Pakistan's president and member of the National Assembly, and his wife in the Anhui Hall of the Great Hall of the People.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (May 16, 1967; 2 p.m., Anhui Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 154 (May 16, 1967; Gohar Ayub Khan and his wife). Names: Zhou Enlai, Ayub Khan.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (May 16, 1967; 2 p.m., Anhui Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 154 (May 16, 1967; Gohar Ayub Khan and his wife); [[w.chen-yi-nianpu]], 1190 (May 16, 1967; Chen Yi present). Names: Zhou Enlai, Ayub Khan.'
     src:
       c: 6c552981
       rows:
         - 'w.zhou-enlai-waijiao-huodong 512: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 154: all'
+        - 'w.chen-yi-nianpu 1190: ?'
     tags: [polity:prc, name:zhou-enlai, name:ayub-khan-mohammad]
     time_zone: Asia/Shanghai
   - id: cal.1967-05-16.vietnam-hanoi
@@ -2701,6 +2772,29 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 570: all'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1967-05-16.china-leadership-7
+    when: May 16–20
+    date: '1967-05-16'
+    thread: china-leadership
+    c: Peng Zhen 彭真 questioned by the case office day after day on his "historical questions."
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 496. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: a984f207
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 496: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
+  - id: cal.1967-05-16.china-leadership-8
+    when: May 16
+    date: '1967-05-16'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 雅本塘, secretary of Cambodia's Foreign Ministry.
+    n: '[[w.chen-yi-nianpu]], 1190. The words: 晚上 (1190). Names: Chen Yi.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1967-05-16T11:00Z
+      - 1967-05-16T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-17.cities-and-housing
     when: May 17
     date: '1967-05-17'
@@ -2908,7 +3002,7 @@ entries:
     date: '1967-05-17'
     thread: china-leadership
     c: The Center notices that it will publish the May 16, 1966 Circular, and the *Renmin ribao* prints it.
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 17, 1967; [[w.zhou-enlai-nianpu-1949-2020]], III, 150 (May 17, 1967; the *Renmin ribao* prints the May 16 Circular; next day the *Hongqi* and *Renmin ribao* editorial "A Great Historical Document", drafted by the Cultural Revolution Group and revised by Mao); [[w.macfarquhar-maos-last-revolution]], 41 (declassified and reprinted in the *People''s Daily*, May 17, 1967); [[w.macfarquhar-maos-last-revolution]], 221 (the belated printing read by the May 16 Regiment as a sign of Zhou Enlai''s coming fall); [[w.mao-zedong-zhuan]], VI, ch. 76 (May 17 the *Renmin ribao* publishes in the open the ''May 16 Circular'' 《五一六通知》 passed a year before; the next day the Group sends Mao the joint editorial of *Hongqi* and the *Renmin ribao* written for it, ''A great historic document''; the book does not say the Center gave notice of publishing). To check: Zhou Enlai, remarks to the enlarged Politburo meeting, May 21, 1966, in [[w.ziliao-xuanbian]], 10–11 (cited by [[w.macfarquhar-maos-last-revolution]], 41 n.40); [[w.nianyi-da-dongluande-niandai]], 272 (cited by [[w.macfarquhar-maos-last-revolution]], 221 n.5). See [[cal.1966-05-16.china-leadership]].'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 17, 1967; [[w.zhou-enlai-nianpu-1949-2020]], III, 150 (May 17, 1967; the *Renmin ribao* prints the May 16 Circular; next day the *Hongqi* and *Renmin ribao* editorial "A Great Historical Document", drafted by the Cultural Revolution Group and revised by Mao); [[w.macfarquhar-maos-last-revolution]], 41 (declassified and reprinted in the *People''s Daily*, May 17, 1967); [[w.macfarquhar-maos-last-revolution]], 221 (the belated printing read by the May 16 Regiment as a sign of Zhou Enlai''s coming fall); [[w.mao-zedong-zhuan]], VI, ch. 76 (May 17 the *Renmin ribao* publishes in the open the ''May 16 Circular'' 《五一六通知》 passed a year before; the next day the Group sends Mao the joint editorial of *Hongqi* and the *Renmin ribao* written for it, ''A great historic document''; the book does not say the Center gave notice of publishing). [[w.peng-zhen-nianpu-1902]], IV, 496 (May 17, 1967; the May 16 Circular published in the papers of the whole country). To check: Zhou Enlai, remarks to the enlarged Politburo meeting, May 21, 1966, in [[w.ziliao-xuanbian]], 10–11 (cited by [[w.macfarquhar-maos-last-revolution]], 41 n.40); [[w.nianyi-da-dongluande-niandai]], 272 (cited by [[w.macfarquhar-maos-last-revolution]], 221 n.5). See [[cal.1966-05-16.china-leadership]].'
     src:
       c: d33828b1
       rows:
@@ -2918,6 +3012,7 @@ entries:
         - 'via w.macfarquhar-maos-last-revolution 41 n.40: A'
         - 'w.macfarquhar-maos-last-revolution 221: ?'
         - 'w.mao-zedong-zhuan VI, ch. 76: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 496: ?'
     tags: [polity:prc]
   - id: cal.1967-05-17.china-leadership-2
     when: May 17
@@ -2953,12 +3048,37 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 493: all'
     tags: [polity:prc]
+  - id: cal.1967-05-17.china-leadership-5
+    when: May 17
+    date: '1967-05-17'
+    place: peking
+    thread: china-leadership
+    c: The *Beijing ribao* 北京日报 prints the editorial "Down with Peng Zhen!" 《打倒彭真!》.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 496. See [[cal.1967-05-17.china-leadership]]. Names: Peng Zhen.'
+    src:
+      c: 519609a3
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 496: all'
+    tags: [polity:prc, name:peng-zhen, ok:fields-place]
+  - id: cal.1967-05-17.china-leadership-6
+    when: May 17
+    date: '1967-05-17'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the reception of 奥尔高, Norway's Ambassador, for Norway's Constitution Day.
+    n: '[[w.chen-yi-nianpu]], 1190. Names: Chen Yi.'
+    tags: [polity:prc, polity:norway, name:chen-yi, ok:fields-place]
   - id: cal.1967-05-18.middle-east
     when: May 18
     date: '1967-05-18'
     thread: middle-east-six-day-war
     c: Egypt's request to withdraw UNEF; U Thant orders the withdrawal.
-    n: 'FRUS 1964–68, XIX, doc. [11](https://history.state.gov/historicaldocuments/frus1964-68v19/d11) (Goldberg with Thant, May 18), [19](https://history.state.gov/historicaldocuments/frus1964-68v19/d19) (Thant''s report). Check: the UN''s record of the request and the order. See [[cal.1967-05-16.middle-east]]. Names: U Thant.'
+    n: 'FRUS 1964–68, XIX, doc. [11](https://history.state.gov/historicaldocuments/frus1964-68v19/d11) (Goldberg with Thant, May 18), [19](https://history.state.gov/historicaldocuments/frus1964-68v19/d19) (Thant''s report). [[w.friedman-shadow-cold-war]], 158 (Nasser orders the UN troops out of Sinai, dated May 19, without consulting Moscow). Check: the UN''s record of the request and the order. To check: Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 15 (cited by [[w.friedman-shadow-cold-war]], 158 n.44). See [[cal.1967-05-16.middle-east]]. Names: U Thant.'
+    src:
+      c: fa640715
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d11: all'
+        - 'w.friedman-shadow-cold-war 158: ?'
+        - 'via x.1967-06-20.brezhnev-speech-communist-party-plenum-june-20-1967: ?'
     tags: [name:u-thant]
     short: UNEF withdrawn
   - id: cal.1967-05-18.vietnam
@@ -3145,7 +3265,7 @@ entries:
     date: '1967-05-18'
     thread: china-leadership
     c: 'Jiang Qing forwards to Lin Biao, Zhou Enlai and Kang Sheng a notice faked by the Kuomintang in 1932 papers, "the Wuhao and others leave the Communist Party," which Nankai University''s rebels found, with a letter: they had found an anti-Communist notice headed by Wuhao (Zhou xx) and wanted to talk. May 19 Zhou notes on her letter: forged by the enemy; writes Mao with a chronology of 1931–32; the forgeries were made after he left for Jiangxi. Mao: "To the Group: read and file."'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 18, 1967; [[w.zhou-enlai-nianpu-1949-2020]], III, 151 (May 18, 1967; Jiang Qing sends Lin Biao, Zhou and Kang Sheng the "Wu Hao and others leave the Communist Party" notice that Nankai University rebels found in a pre-1949 Kuomintang paper, saying the notice was headed by Wu Hao (Zhou), and asks to see him). Made public: 2013. Names: Jiang Qing, Lin Biao, Zhou Enlai, Kang Sheng, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 18, 1967; [[w.zhou-enlai-nianpu-1949-2020]], III, 151 (May 18, 1967; Jiang Qing sends Lin Biao, Zhou and Kang Sheng the "Wu Hao and others leave the Communist Party" notice that Nankai University rebels found in a pre-1949 Kuomintang paper, saying the notice was headed by Wu Hao (Zhou), and asks to see him); [[w.jian-zhou-enlai]], 573 (Nankai University Red Guards find "Wu Hao''s Statement on Splitting with the Communist Party," *Shenbao*, late February 1932, Wu Hao an alias of Zhou''s, and give it to the Group as evidence "Zhou is a traitor"; Jiang Qing passes it to Zhou). Made public: 2013. To check: [[w.zhou-enlai-nianpu-1949]], III, 154 (cited by [[w.jian-zhou-enlai]], 573 n.32). Names: Jiang Qing, Lin Biao, Zhou Enlai, Kang Sheng, Mao Zedong.'
     tags: [name:jiang-qing, name:lin-biao, name:zhou-enlai, name:kang-sheng, name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1967-05-18.china-leadership-5
     when: May 18
@@ -3176,11 +3296,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou attends the rally of 100,000 in the capital angrily condemning the atrocities of the British authorities in Hong Kong.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (May 18, 1967; Beijing; the time not given). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (May 18, 1967; Beijing; the time not given); [[w.chen-yi-nianpu]], 1190 (May 18, 1967, Workers'' Stadium 工人体育场; Chen Yi at the rally); [[w.jian-zhou-enlai]], 579 (three days after the protest Zhou attends the rally in support of the "struggles in Hong Kong" and approves continuous protests outside the British office in Peking; the protesters not to enter the building, block its staff or harm British diplomats). To check: [[w.chen-yangyong-kucheng-weiju]], 353 (cited by [[w.jian-zhou-enlai]], 579 n.54). Names: Zhou Enlai.'
     src:
       c: 57bef865
       rows:
         - 'w.zhou-enlai-waijiao-huodong 512: all'
+        - 'w.chen-yi-nianpu 1190: ?'
+        - 'w.jian-zhou-enlai 579: ?'
     tags: [polity:prc, name:zhou-enlai]
   - id: cal.1967-05-18.china-leadership-7
     when: May 18
@@ -3203,7 +3325,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: The editorial departments of the *Renmin ribao* and *Hongqi* publish "A Great Historical Document," criticizing Liu Shaoqi under the name "China's Khrushchev," raising the charges to the level of principle and line; after that the papers across the country print many articles criticizing Liu, and the "great criticism movement," aimed chiefly at him, is launched among the masses.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 656 (May 18, 1967). See [[cal.1967-05-18.china-leadership]]. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 656 (May 18, 1967); [[w.peng-zhen-nianpu-1902]], IV, 496 (May 18, 1967; the article: the "Outline report" Peng Zhen put out "revisionist through and through, a program to restore capitalism," the long anti-Party plotting of Peng''s revisionist clique laid bare; the circular "exposed Peng Zhen''s counterrevolutionary revisionist clique"). See [[cal.1967-05-18.china-leadership]]. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi]
   - id: cal.1967-05-18.china-leadership-9
     when: May 18
@@ -3455,7 +3577,7 @@ entries:
     date: '1967-05-19'
     thread: china-leadership
     c: 'Zhou Enlai writes on Jiang Qing''s letter that the "Wu Hao and others leave the Communist Party" notice is an enemy forgery: he was then in the Central Soviet area, and Kang Sheng and Chen Yun in Shanghai knew it and took steps. The same day he writes Mao, with a chronicle of the events of 1931–32: the notice is the forgery of Feb. 1932, made after he reached Jiangxi. Mao: "to the Group''s comrades to read; keep."'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 151 (May 19, 1967). Made public: 2020. Names: Zhou Enlai, Jiang Qing, Kang Sheng, Chen Yun, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 151 (May 19, 1967); [[w.jian-zhou-enlai]], 573 (Zhou tells Jiang it is a rumor "made up and circulated by the enemy"; with his aides he searches *Shenbao* of February 1932, finds the statement and its rebuttal, compiles a chronology and sends it all to Mao with a note: it appeared after he had left Shanghai for Jiangxi; Mao: "convey the materials to the comrades of the CCRG for reading, and keep them in the file"). Made public: 2020. To check: [[w.zhou-enlai-nianpu-1949]], III, 154–155, 155 (cited by [[w.jian-zhou-enlai]], 573 n.35, n.36b). Names: Zhou Enlai, Jiang Qing, Kang Sheng, Chen Yun, Mao Zedong.'
     tags: [name:zhou-enlai, name:jiang-qing, name:kang-sheng, name:chen-yun, name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1967-05-19.china-leadership-2
     when: May 19
@@ -3911,12 +4033,18 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Chen Yi receives the DRV embassy's chargé d'affaires and says for the Chinese government and people that China firmly supports the stand in the DRV government's statement of May 21. The U.S., while bombing Hanoi, has also sent ground troops into the demilitarized zone, a grave escalation and widening of the war; China will watch events in Vietnam closely and be ready, on the Vietnamese government's and people's request, to take whatever action needed, in full support of the Vietnamese war of resistance against the U.S.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 154–155 (May 22, 1967). Names: Chen Yi. Check: the chargé''s name, from the Chinese 黎终始.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 154–155 (May 22, 1967); [[w.chen-yi-nianpu]], 1190 (May 22, 1967, afternoon; Lê Chung 黎终始 hands Chen Yi the DRV government''s statement of May 21 on the mass dispatch of American and puppet troops into the demilitarized zone). Names: Chen Yi. Check: the chargé''s name, from the Chinese 黎终始.'
     src:
       c: 390cac92
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 154–155: all'
+        - 'w.chen-yi-nianpu 1190: ?'
     tags: [polity:prc, polity:drv, polity:us, name:chen-yi]
+    time_range:
+      - 1967-05-22T04:00Z
+      - 1967-05-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-22.china
     when: May 22
     date: '1967-05-22'
@@ -3929,6 +4057,30 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 155: all'
     tags: [polity:prc, polity:uk]
+  - id: cal.1967-05-22.china-leadership-3
+    when: May 22, 24 and 25
+    date: '1967-05-22'
+    thread: china-leadership
+    c: Peng Zhen 彭真, questioned by the case office, denies that he is a traitor.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 496. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 3e22f74b
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 496: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
+  - id: cal.1967-05-22.china-2
+    when: May 22
+    date: '1967-05-22'
+    place: hong-kong
+    thread: china
+    also: [europe-and-the-alliance-britain]
+    c: Hong Kong. A large protest of the leftist masses before the governor's house turns violent; the riot police open fire; several protesters wounded, dozens arrested.
+    n: '[[w.jian-zhou-enlai]], 579.'
+    src:
+      c: cd475b1b
+      rows:
+        - 'w.jian-zhou-enlai 579: all'
+    tags: [polity:uk, polity:prc]
   - id: cal.1967-05-23.governors-ky
     when: May 23
     date: '1967-05-23'
@@ -4331,8 +4483,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai calls the heads of the Foreign Affairs Office, the Foreign Ministry and the Hong Kong–Macao Work Committee on Hong Kong. The struggle with the Hong Kong British authorities must follow strictly the Center's line and policy, with reason, advantage and restraint; he criticizes the over-"Left" slogans and extreme acts proposed by the departments.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 152 (May 24, 27, 1967). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 152 (May 24, 27, 1967); [[w.jian-zhou-enlai]], 579–580 ("On the same day" as the riot of May 22, so the text, Zhou holds an urgent meeting on Hong Kong; he faults Xinhua and the *Renmin ribao* for exaggerating the casualties, a "serious loss of credibility"; to the proposal to "kill several Hong Kong policemen": "This is anarchy!"; the struggle to be "reasonable, advantageous to us, and controllable"). Made public: 2020. To check: [[w.chen-yangyong-kucheng-weiju]], 353–354 (cited by [[w.jian-zhou-enlai]], 580 n.57a); [[w.zhou-enlai-nianpu-1949]], III, 155 (cited by [[w.jian-zhou-enlai]], 580 n.57b); [[w.wu-hui-wu-dizhou-xianggang-wencun]], 159 (cited by [[w.jian-zhou-enlai]], 580 n.57c). Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.jian-zhou-enlai
+        reads: Zhou's urgent meeting on Hong Kong is held May 22, the day of the riot at the governor's house
+        at: '579'
   - id: cal.1967-05-24.china-leadership-3
     when: May 24
     date: '1967-05-24'
@@ -4347,6 +4504,19 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 224–225: all'
         - 'via x.undated.hewitt-to-hopson-dispatch-on-the-shanghai-consulate-fco-21-33: all'
     tags: [polity:prc, polity:uk, polity:poland]
+  - id: cal.1967-05-24.china
+    when: May 24
+    date: '1967-05-24'
+    place: peking
+    thread: china
+    also: [europe-and-the-alliance-britain]
+    c: The *Renmin ribao* calls the Hong Kong police's firing of May 22 a "bloody massacre"; a Xinhua report claims two to three hundred protesters wounded or killed.
+    n: '[[w.jian-zhou-enlai]], 579. To check: [[w.renmin-ribao]], May 24, 1967, 8 (cited by [[w.jian-zhou-enlai]], 579 n.56). See [[cal.1967-05-22.china-2]]. Check: the day of the Xinhua report.'
+    src:
+      c: 4c5161e5
+      rows:
+        - 'w.jian-zhou-enlai 579: all'
+    tags: [polity:prc]
   - id: cal.1967-05-25.program
     when: May 25
     date: '1967-05-25'
@@ -4744,6 +4914,19 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao 155: all'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
+  - id: cal.1967-05-26.china-leadership-7
+    when: May 26
+    date: '1967-05-26'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 at the Ministry of Defense's banquet for Vice-Admiral Afzal Rahman Khan 阿夫扎尔·拉赫曼·汗, Pakistan's Minister of Defense, and Yusuf 优素福, its foreign secretary.
+    n: '[[w.chen-yi-nianpu]], 1190. The words: 晚上 (1190). Names: Chen Yi.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1967-05-26T11:00Z
+      - 1967-05-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-27.middle-east
     when: May 27
     date: '1967-05-27'
@@ -4804,8 +4987,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai calls the heads of the Foreign Affairs Office, the Foreign Ministry and the Hong Kong–Macao Work Committee on Hong Kong a second time, repeating that the struggle must follow the Center's line with reason, advantage and restraint.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 152 (May 24, 27, 1967). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 152 (May 24, 27, 1967); [[w.jian-zhou-enlai]], 580 (at "another meeting on May 30," so the text, the officials again propose armed attacks on police stations; Zhou: "This is ridiculous!"; "political struggles, not assassinations"). Made public: 2020. To check: [[w.ma-jisen-waijiaobu-wenge-jishi]], 158 (cited by [[w.jian-zhou-enlai]], 580 n.58). Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    variants:
+      - unit: A
+        witness: w.jian-zhou-enlai
+        reads: the second meeting is held May 30
+        at: '580'
   - id: cal.1967-05-27.china-leadership-3
     when: May 27
     date: '1967-05-27'
@@ -4832,24 +5020,36 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: The same day Chen Yi, for Zhou, receives together the ambassadors of the UAR, Algeria, Syria, Iraq and Yemen, the chargé d'affaires of Morocco's embassy and the deputy director of the PLO's Beijing office, and restates that the Chinese people are for ever the Arab people's comrades-in-arms against imperialism.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 156 (May 27, 1967). Names: Chen Yi, Zhou Enlai.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 156 (May 27, 1967); [[w.chen-yi-nianpu]], 1190–1191 (May 27, 1967, evening; for Zhou, Chen Yi receives Imam, Sahli 萨赫利 of Algeria, Sadiq of Syria, 拉希德 of Iraq, Morocco''s chargé 阿洛伊 and 加尔布 of the PLO''s Peking office). Names: Chen Yi, Zhou Enlai.'
     src:
       c: 5fe2a6a9
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 156: all'
+        - 'w.chen-yi-nianpu 1190–1191: ?'
     tags: [polity:prc, polity:uar, polity:algeria, polity:syria, polity:iraq, polity:yemen, polity:morocco, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1967-05-27T11:00Z
+      - 1967-05-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-27.china-leadership-5
     when: May 27
     date: '1967-05-27'
     thread: china-leadership
     also: [vietnam-hanoi]
     c: 'Chen Yi, at the National Day reception of Afghanistan''s ambassador, Suhail: the Chinese government and people are watching Vietnam closely and will take every needed action to support the Vietnamese war against the U.S. He strongly condemns the U.S. for using Israel to make heavy disaster for the Palestinians and for armed aggression and subversion against Syria and other Arab states.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 156 (May 27, 1967). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 156 (May 27, 1967); [[w.chen-yi-nianpu]], 1190 (May 27, 1967, evening; the speech condemns the British repression of the compatriots in Hong Kong, which China cannot sit by). Names: Chen Yi.'
     src:
       c: 6704f167
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 156: all'
+        - 'w.chen-yi-nianpu 1190: ?'
     tags: [polity:prc, polity:afghanistan, polity:us, name:chen-yi]
+    time_range:
+      - 1967-05-27T11:00Z
+      - 1967-05-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-27.china-2
     when: May 27
     date: '1967-05-27'
@@ -4874,6 +5074,31 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 486: all'
     tags: [polity:prc]
+  - id: cal.1967-05-27.china-leadership-7
+    when: May 27
+    date: '1967-05-27'
+    place: peking
+    thread: china-leadership
+    c: '*Hongqi* 红旗 prints the editorial "Two documents opposed at root": the "Outline report" made at Peking from Feb. 3 to 7 by "Peng Zhen''s 彭真 counterrevolutionary revisionist clique, backed by the biggest of those in authority in the Party taking the capitalist road," "revisionist through and through."'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 496–497. Names: Peng Zhen.'
+    src:
+      c: bd47a170
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 496–497: all'
+    tags: [polity:prc, name:peng-zhen, ok:fields-place]
+  - id: cal.1967-05-27.china-leadership-8
+    when: May 27
+    date: '1967-05-27'
+    thread: china-leadership
+    also: [middle-east]
+    c: Imam 伊马姆, the UAR's Ambassador, calls on Chen Yi 陈毅, thanks China for its support against American imperialism and Zionism and describes the Arab states' fight against the United States and Israel; Chen Yi says the Chinese people are forever the Arab people's comrades in arms.
+    n: '[[w.chen-yi-nianpu]], 1190. The words: 下午 (1190). Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, polity:uar, name:chen-yi, ok:fields-place, vis:only:prc+uar]
+    time_range:
+      - 1967-05-27T04:00Z
+      - 1967-05-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-28.middle-east
     when: May 28
     date: '1967-05-28'
@@ -5114,7 +5339,7 @@ entries:
     date: '1967-05-29'
     thread: china-leadership
     c: 'Mao writes on a letter from Wang Hairong and Tang Wensheng reporting a current of attacks on Zhou Enlai in society, to Lin Biao, Zhou and the Cultural Revolution Group: "Please read. The ultra-Left view is wrong; the comrades of the Group should persuade them."'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 154 (May 29, 1967); [[w.jianguo-yilai-mao-zedong]], XIX, 97–98 (May 29, 1967; Mao''s note on the letter of May 27 of Tang Wensheng 唐闻生, translator of the Foreign Ministry, and Wang Hairong 王海容, cadre of its general office); [[w.mao-zedong-zhuan]], VI, ch. 76 n.35 (May 27 two cadres of the Foreign Ministry, Tang Wensheng and Wang Hairong, write Mao that a wind of attacking Premier Zhou has risen in society and in the Ministry''s revolutionary rebel liaison station, we cannot agree to the saying that bombarding the Premier is the main direction of the movement; two days later Mao passes the letter to Lin Biao, Zhou Enlai and the members of the Cultural Revolution Group: ''Please read this. The view of the extreme left is wrong; comrades of the Group, please persuade them'', n.35). Made public: 2020. To check: Tang Wensheng and Wang Hairong, letter of May 27, 1967 to Mao Zedong on the current of attacks on Premier Zhou Enlai in society and inside the Foreign Ministry''s revolutionary rebel liaison station and its combat teams (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 97 n.1); Mao Zedong 毛泽东, comment on the letter of Tang Wensheng 唐闻生 and Wang Hairong 王海容 (manuscript 手稿), May 29, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.35). Names: Zhou Enlai, Mao Zedong, Wang Hairong, Tang Wensheng, Lin Biao.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 154 (May 29, 1967); [[w.jianguo-yilai-mao-zedong]], XIX, 97–98 (May 29, 1967; Mao''s note on the letter of May 27 of Tang Wensheng 唐闻生, translator of the Foreign Ministry, and Wang Hairong 王海容, cadre of its general office); [[w.mao-zedong-zhuan]], VI, ch. 76 n.35 (May 27 two cadres of the Foreign Ministry, Tang Wensheng and Wang Hairong, write Mao that a wind of attacking Premier Zhou has risen in society and in the Ministry''s revolutionary rebel liaison station, we cannot agree to the saying that bombarding the Premier is the main direction of the movement; two days later Mao passes the letter to Lin Biao, Zhou Enlai and the members of the Cultural Revolution Group: ''Please read this. The view of the extreme left is wrong; comrades of the Group, please persuade them'', n.35). [[w.jian-zhou-enlai]], 573 (Mao defends Zhou: "the views (about Zhou) of the extraleftists are wrong. The comrades of the CCRG should persuade the students"; he passes the words to Zhou); [[w.chen-yi-nianpu]], 1191 (May 29, 1967; Mao, seeing that rebels of the foreign affairs system use Chen Yi''s "problems" to besiege Zhou, writes that the ultra-left''s view is wrong, and the rebels'' "seizing Chen" is for a time held back). Made public: 2020. To check: Tang Wensheng and Wang Hairong, letter of May 27, 1967 to Mao Zedong on the current of attacks on Premier Zhou Enlai in society and inside the Foreign Ministry''s revolutionary rebel liaison station and its combat teams (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 97 n.1); Mao Zedong 毛泽东, comment on the letter of Tang Wensheng 唐闻生 and Wang Hairong 王海容 (manuscript 手稿), May 29, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.35); [[w.zedong-jianguo-yilai-mao-zedong]], XII, 359 (cited by [[w.jian-zhou-enlai]], 573 n.33a). Names: Zhou Enlai, Mao Zedong, Wang Hairong, Tang Wensheng, Lin Biao.'
     src:
       c: 401a5130
       rows:
@@ -5123,6 +5348,8 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XIX, 97 n.1: all'
         - 'w.mao-zedong-zhuan VI, ch. 76 n.35: A'
         - 'via w.mao-zedong-zhuan VI, ch.76 n.35: A'
+        - 'w.jian-zhou-enlai 573: ?'
+        - 'w.chen-yi-nianpu 1191: ?'
     tags: [name:zhou-enlai, name:mao-zedong, name:lin-biao, polity:prc, vis:only:prc]
   - id: cal.1967-05-29.china-leadership-2
     when: May 29
@@ -5151,6 +5378,19 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 322: all'
     tags: [polity:prc]
+  - id: cal.1967-05-29.china-leadership-5
+    when: May 29
+    date: '1967-05-29'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 at the banquet of Vice-Admiral Afzal Rahman Khan 阿夫扎尔·拉赫曼·汗 for his visit to China.
+    n: '[[w.chen-yi-nianpu]], 1191. The words: 晚上 (1191). Names: Chen Yi.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1967-05-29T11:00Z
+      - 1967-05-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-30.africa
     when: May 30–31
     date: '1967-05-30'
@@ -5257,6 +5497,19 @@ entries:
       rows:
         - 'https://digitalarchive.umd.edu/document/134074: all'
     tags: [polity:us, polity:prc, polity:drv, name:denney-george-c-jr, vis:only:us]
+  - id: cal.1967-05-30.china-leadership-4
+    when: May 30
+    date: '1967-05-30'
+    thread: china-leadership
+    also: [south-asia]
+    c: Zhou Enlai 周恩来 gives an informal dinner for Vice-Admiral Afzal Rahman Khan 阿夫扎尔·拉赫曼·汗 and Yusuf 优素福, Chen Yi 陈毅 present.
+    n: '[[w.chen-yi-nianpu]], 1191. The words: 中午 (1191). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, name:zhou-enlai, ok:fields-place]
+    time_range:
+      - 1967-05-30T04:00Z
+      - 1967-05-30T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1967-05-31.middle-east
     when: May 31
     date: '1967-05-31'
@@ -5868,7 +6121,7 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam, vietnam-operations]
     c: 'The Fifth Conference of the Central Office for the South, its resolution: the second American counteroffensive, the "two-pronged" plan of the dry season of 1966–67, failing; American strength to reach some 500,000 by the end of 1967 and perhaps 600,000–700,000 in 1968. Tasks: destroy and break up American and puppet forces, guerrilla war, strikes on bases and communications, military and political struggle and work on enemy troops, toward the general offensive and uprising.'
-    n: '*Nghị quyết Hội nghị lần thứ năm Trung ương Cục, Tháng 5 năm 1967* (appendix). [[w.van-kien-dang-toan]], XXVIII, 485–559. Made public: 2003.'
+    n: '*Nghị quyết Hội nghị lần thứ năm Trung ương Cục, Tháng 5 năm 1967* (appendix). [[w.van-kien-dang-toan]], XXVIII, 485–559; [[w.khoo-collateral-damage]], 38 (COSVN''s fifth conference, May 1967, affirms the need for a "General Offensive–General Uprising"). Made public: 2003. To check: [[w.guan-decision-making-leading-to]], 344–345 (cited by [[w.khoo-collateral-damage]], 38 n.196).'
     tags: [polity:drv, polity:us, vis:only:drv]
   - id: cal.1967-05-31.china-leadership-2
     when: May 31
@@ -6090,25 +6343,37 @@ entries:
     at: before 1967-05-13
     thread: china-leadership
     c: 'Liu Suyuan 劉素媛, a singer of the Air Force political department''s troupe and head of its conservative faction, tells Mao the Peking army troupes want a joint performance for the 25th anniversary of the Yan''an Talks; Mao: talk to Ye Qun 葉群, and has his secretary Xu Yefu 徐業夫 tell Lin Biao''s office to back it.'
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 428–429. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 527–528 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 429 n.28). Names: Ye Qun, Mao Zedong.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 428–429; [[w.teiwes-tragedy-of-lin-biao]], 43 (the authors'' reconstruction: in April three dancers of the air force troupe, Mao''s dancing partners at Zhongnanhai, tell him their story; Mao, knowing they back Wu Faxian and Yu Lijin, is sympathetic, says he means to protect Wu, and refers them to Ye Qun, not Jiang Qing). Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 527–528 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 429 n.28); [[w.nianyi-da-dongluande-niandai]], 287, 379–380 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.86a); [[w.qibin-zhongguo-gongchandang-zhizheng-sishinian]], 292 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.86b); [[w.barnouin-ten-years-of-turbulence]], 132–134 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.86c). Names: Ye Qun, Mao Zedong.'
     src:
       c: 3b85a15e
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 428–429: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 429 n.28: all'
+        - 'w.teiwes-tragedy-of-lin-biao 43: ?'
     tags: [polity:prc, vis:only:prc, name:ye-qun, name:mao-zedong, ok:fields-place]
+    variants:
+      - unit: A
+        witness: w.teiwes-tragedy-of-lin-biao
+        reads: in April, three dancers of the air force troupe, Mao's dancing partners at Zhongnanhai (the authors' reconstruction)
+        at: '43'
   - id: cal.1967-05.china-leadership-23
     when: May, before the 13th
     date: 1967-05
     at: before 1967-05-13
     thread: china-leadership
     c: 'Ye Qun 葉群, on Mao''s word, at once receives Liu Suyuan 劉素媛 and others of the army troupes: Lin Biao shares their view; "do not fear being called conservatives ... be revolutionary royalists"; the army differs from the localities, and even with bad men in it may not be stormed.'
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 429. Made public: 2011. See [[cal.1967-05.china-leadership-17]]. Names: Ye Qun, Lin Biao, Mao Zedong.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 429; [[w.teiwes-tragedy-of-lin-biao]], 43 (Ye Qun receives the three dancers, tells them their support of Wu Faxian is right and endorses their show for May 13; seeing their faction a minority, she advises them to join the navy''s and the logistics department''s "royalists"). Made public: 2011. To check: [[w.nianyi-da-dongluande-niandai]], 287, 379–380 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.86a); [[w.qibin-zhongguo-gongchandang-zhizheng-sishinian]], 292 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.86b); [[w.barnouin-ten-years-of-turbulence]], 132–134 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.86c). See [[cal.1967-05.china-leadership-17]]. Names: Ye Qun, Lin Biao, Mao Zedong.'
     src:
       c: 4e0dc5be
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 429: all'
+        - 'w.teiwes-tragedy-of-lin-biao 43: ?'
     tags: [polity:prc, vis:only:prc, name:ye-qun, name:lin-biao, name:mao-zedong]
+    variants:
+      - unit: A
+        witness: w.teiwes-tragedy-of-lin-biao
+        reads: Ye Qun receives the three dancers in late April
+        at: '43'
   - id: cal.1967-05.china-leadership-18
     when: May
     date: 1967-05
@@ -6128,12 +6393,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking, the Steel Institute 北京鋼鐵學院. Zhang Jianqi 張建旗 and others found the "May 16 Corps" 5•16兵團, after the Notice of May 16, 1966 is published that month.
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 553. To check: *Wu De koushu: shinian fengyu jishi* 《吳德口述：十年風雨紀事》 (2004), 69 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 553 n.4).'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 553; [[w.jian-zhou-enlai]], 572–573 ("in late spring" posters against Zhou at several colleges; at the Peking Steel and Iron College a "May Sixteenth Corps" posts "An Open Letter to Zhou," "a representative of rightist opportunist lines"; then a citywide "May Sixteenth Red Guards Corps" to criticize him). To check: *Wu De koushu: shinian fengyu jishi* 《吳德口述：十年風雨紀事》 (2004), 69 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 553 n.4); [[w.pu-weihua-zalan-jiu-shijie]], 504–506 (cited by [[w.jian-zhou-enlai]], 573 n.31a); [[w.wang-nianyi-some-materials-about-the-may]], 31–45 (cited by [[w.jian-zhou-enlai]], 573 n.31b).'
     src:
       c: dcc92586
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 553: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 553 n.4: all'
+        - 'w.jian-zhou-enlai 572–573: ?'
     tags: [polity:prc]
   - id: cal.1967-05.china-leadership-20
     when: May, late
@@ -6197,3 +6463,51 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 431: all'
     tags: [polity:prc, vis:only:prc, name:wu-faxian, name:li-zuopeng, name:qiu-huizuo, ok:fields-place]
+  - id: cal.1967-05.vietnam-3
+    when: May
+    date: 1967-05
+    thread: vietnam
+    also: [china]
+    c: 'Rostow, to McNamara: he does not believe China would fight if the United States invaded the northern part of North Vietnam. McNamara: China would enter the war with ground and air forces.'
+    n: '[[w.khoo-collateral-damage]], 31. Made public: 1975 ([[w.whiting-chinese-calculus-of-deterrence]], 194, the earliest printing the notes name). To check: [[w.whiting-chinese-calculus-of-deterrence]], 194 (cited by [[w.khoo-collateral-damage]], 31 n.165). Check: the day. Names: Rostow, McNamara.'
+    tags: [polity:us, vis:only:us, name:rostow-walt-w, name:mcnamara-robert-s]
+  - id: cal.1967-05.china-leadership-26
+    when: May, before the 13th
+    date: 1967-05
+    at: before 1967-05-13
+    thread: china-leadership
+    c: Xiao Hua 蕭華, head of the General Political Department, under Jiang Qing's pressure and taking a neutral stand, tells the two army troupes' factions to stage a joint show; both refuse. Ye Qun 叶群 is said to be enraged.
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 43 (Zhou Enlai reportedly endorsing the joint show). Made public: 1988 ([[w.nianyi-da-dongluande-niandai]]). To check: [[w.nianyi-da-dongluande-niandai]], 287, 379–380 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.86a); [[w.qibin-zhongguo-gongchandang-zhizheng-sishinian]], 292 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.86b); [[w.barnouin-ten-years-of-turbulence]], 132–134 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.86c). See [[cal.1967-05-13.china-leadership-5]]. Names: Ye Qun, Jiang Qing.'
+    src:
+      c: 9232830d
+      rows:
+        - 'w.teiwes-tragedy-of-lin-biao 43: all'
+    tags: [polity:prc, name:ye-qun, vis:only:prc, name:jiang-qing]
+  - id: cal.1967-05.china
+    when: May, early
+    date: 1967-05
+    at: before 1967-05-01
+    place: hong-kong
+    thread: china
+    also: [europe-and-the-alliance-britain]
+    c: 'Kowloon. Workers of an artificial-flower factory strike over a dispute with the owners and clash with riot police: many injured, twenty-one union representatives arrested.'
+    n: '[[w.jian-zhou-enlai]], 579 ("In early May"). To check: [[w.renmin-ribao]], May 16, 1967 (cited by [[w.jian-zhou-enlai]], 579 n.53). Check: the day; the Foreign Ministry''s statement of May 15 ([[cal.1967-05-15.china]]) has arrests from the afternoon of May 6.'
+    src:
+      c: 47020a31
+      rows:
+        - 'w.jian-zhou-enlai 579: all'
+    tags: [polity:uk, polity:prc]
+  - id: cal.1967-05.middle-east
+    when: May, after the 19th
+    date: 1967-05
+    at: after 1967-05-19
+    thread: middle-east
+    also: [soviet-union]
+    c: 'The CPSU Central Committee''s public statement for the "Arab countries in their just struggle for national liberation": any "aggression" in the Middle East "would be met not only with the united strength of the Arab countries but also with strong opposition . . . from the Soviet Union."'
+    n: '[[w.friedman-shadow-cold-war]], 158. To check: Judith Klinghoffer, "The 1967 Middle East Crisis: A Second Vietnam," in International Perspectives on Vietnam, ed. Lloyd C. Gardner and Ted Gittinger (2000), 212 (cited by [[w.friedman-shadow-cold-war]], 158 n.45). Check: the day.'
+    src:
+      c: 4cba5a14
+      rows:
+        - 'w.friedman-shadow-cold-war 158: all'
+        - 'via x.2000.judith-klinghoffer-1967-middle-east-crisis-second-vietnam: ?'
+    tags: [polity:ussr]

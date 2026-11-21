@@ -161,12 +161,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, 9 a.m. Yang Shangkun 杨尚昆, with Deng Xiaoping 邓小平 and He Long 贺龙, to Beihai 北海 Park and Jingshan 景山, then to the stadium for a football match; lunch at Yangfengjiadao 养蜂夹道 at noon.
-    n: '[[w.yang-shangkun-riji]], II, 373 (May 1, 1964); [[w.deng-xiaoping-nianpu-1904]], III, 1811 (May 1, 1964; Deng at the May Day festivities in Jingshan Park 景山公园). The words: 上午9时同小平、贺总一起去北海公园和景山，并到体育场看足球赛，12时去养蜂夹道吃午饭 (II, 373). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, He Long.'
+    n: '[[w.yang-shangkun-riji]], II, 373 (May 1, 1964); [[w.deng-xiaoping-nianpu-1904]], III, 1811 (May 1, 1964; Deng at the May Day festivities in Jingshan Park 景山公园); [[w.peng-zhen-nianpu-1902]], IV, 330 (May 1, 1964, morning; Peng Zhen, with Liu Shaoqi, Zhu De and Zhou Enlai, joins the crowds at the Working People''s Cultural Palace, then Zhongshan Park, Jingshan Park and other places). The words: 上午9时同小平、贺总一起去北海公园和景山，并到体育场看足球赛，12时去养蜂夹道吃午饭 (II, 373). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, He Long.'
     src:
       c: 183611a1
       rows:
         - 'w.yang-shangkun-riji II, 373: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1811: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 330: ?'
     tags: [polity:prc, name:deng-xiaoping, name:he-long, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-01.china-leadership-4
@@ -192,11 +193,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, Tiananmen 天安门. The May Day fireworks; Yang Shangkun 杨尚昆 there with his son.
-    n: '[[w.yang-shangkun-riji]], II, 373 (May 1, 1964). The words: 晚间同小二去天安门看焰火 (II, 373). Names: Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 373 (May 1, 1964); [[w.peng-zhen-nianpu-1902]], IV, 330 (May 1, 1964, evening; Peng Zhen at the gathering of more than a million on Tiananmen Square and the Chang''an avenues, and with Zhou Enlai, Chen Yi and others meets foreign guests on the gate and watches the fireworks); [[w.chen-yi-nianpu]], 1024 (May 1, 1964, evening; Chen Yi on the Tiananmen rostrum with the capital''s people and the foreign guests). The words: 晚间同小二去天安门看焰火 (II, 373). Names: Yang Shangkun.'
     src:
       c: a1fda97d
       rows:
         - 'w.yang-shangkun-riji II, 373: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 330: ?'
+        - 'w.chen-yi-nianpu 1024: ?'
     tags: [polity:prc]
     time_range:
       - 1964-05-01T11:00Z
@@ -211,6 +214,44 @@ entries:
     c: 'The Central Highlands front, code name B3, set up, with the 101st and 320th Regiments from the North: Col. Nguyễn Chánh, deputy commander of Region 5, its commander; Col. Đoàn Khuê, Region 5''s deputy political commissar, its political commissar.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 343–44. Made public: 2013. Names: Nguyễn Chánh, Đoàn Khuê.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1964-05-01.china-leadership-6
+    when: May 1
+    date: '1964-05-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 meets the delegation of the Kawasaki city assembly under Aoyama Shōichi and the Japanese local self-government friendship delegation under Kinoshita Tomotaka; then the South Vietnamese women's delegation under 阮玉鞭 and the South Vietnamese youth and students' under 青海.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 330. The words: 下午 (IV, 330). Names: Peng Zhen.'
+    src:
+      c: 4bf19dec
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 330: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1964-05-01T04:00Z
+      - 1964-05-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-01.china-leadership-7
+    when: May 1
+    date: '1964-05-01'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 spends May Day among the crowds at the Summer Palace 颐和园, Peking 北京, and writes the poem "Spring outing at the Summer Palace on May Day" 《颐和园"五一"春游纪盛》.
+    n: '[[w.chen-yi-nianpu]], 1024. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+  - id: cal.1964-05-01.china-leadership-8
+    when: May 1
+    date: '1964-05-01'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 at the reception of Raza 罗查, Pakistan's Ambassador, and Air Commodore Nur Khan 努尔汗, managing director of Pakistan International Airlines, for the opening of the air service between China and Pakistan.
+    n: '[[w.chen-yi-nianpu]], 1024. The words: 晚上 (1024). Names: Chen Yi, Raza.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, name:raza-nawabzada-agha-mohammad, ok:fields-place]
+    time_range:
+      - 1964-05-01T11:00Z
+      - 1964-05-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-02.elections-1964
     when: May 2
     date: '1964-05-02'
@@ -432,12 +473,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou and Chen Yi receive Air Commodore Nur Khan, managing director of Pakistan International Airlines, and party. Praises Ayub Khan and Pakistan''s government for the Sino-Pakistani air link. Peking airport must be enlarged; without the air link the Shanghai and Canton airports would not have been enlarged within five years; he took the air force commander and deputy to Shanghai to see; two divisions worked. On Ambassador Raza''s proposal that Zhou name the first plane: let Ayub do it. Proposes with Chen Yi''s idea renaming the border''s highest peak K2 "Friendship Peak" and calling the plane "Friendship".'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 640 (May 2, 1964); [[w.zhou-enlai-waijiao-huodong]], 404–05 (May 2, 1964; 下午5时, 人民大会堂浙江厅). Names: Zhou Enlai, Chen Yi, Nur Khan, Ayub Khan, Raza.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 640 (May 2, 1964); [[w.zhou-enlai-waijiao-huodong]], 404–05 (May 2, 1964; 下午5时, 人民大会堂浙江厅); [[w.chen-yi-nianpu]], 1025 (May 2, 1964, afternoon; Chen Yi with Zhou receives Nur Khan, his wife and his party; then, at the cocktail party of Kuang Rennong 邝任农, director of the Civil Aviation Administration, Zhou and Chen Yi meet all the guests of the inaugural flight). Names: Zhou Enlai, Chen Yi, Nur Khan, Ayub Khan, Raza.'
     src:
       c: 0fd26812
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 640: ?'
         - 'w.zhou-enlai-waijiao-huodong 404–05: A'
+        - 'w.chen-yi-nianpu 1025: ?'
     tags: [name:zhou-enlai, name:chen-yi, name:ayub-khan-mohammad, polity:prc, polity:pakistan]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-02.china-leadership-2
@@ -447,11 +489,12 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Peking. Zhou Enlai attends the cocktail party given by Chen Yi and his wife for the Indonesian friends in Peking, in thanks for Indonesia's warm reception of the Chinese delegation at the preparatory meeting.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 405 (May 2, 1964; 晚上). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 405 (May 2, 1964; 晚上); [[w.chen-yi-nianpu]], 1025 (May 2, 1964, evening, the banquet hall of the Great Hall of the People; Chen Yi and Zhang Qian''s party for the Indonesian friends in Peking; Chen Yi speaks of the preparatory meeting''s success and the work for the second conference). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 8b648e22
       rows:
         - 'w.zhou-enlai-waijiao-huodong 405: all'
+        - 'w.chen-yi-nianpu 1025: ?'
     tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:chen-yi]
     time_range:
       - 1964-05-02T11:00Z
@@ -503,6 +546,18 @@ entries:
       rows:
         - 'w.mao-zedong-zhuan VI, ch. 72: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1964-05-02.china-leadership-6
+    when: May 2
+    date: '1964-05-02'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Albanian women's delegation led by Vito Kapo 维托·卡博, chairman of the Central Council of the Albanian Women's Union; then he and his wife, Zhang Qian 张茜, give a dinner for the guests at home.
+    n: '[[w.chen-yi-nianpu]], 1024–1025. The words: 中午 (1024–1025). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-02T04:00Z
+      - 1964-05-02T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-03.elections-1964
     when: May 3
     date: '1964-05-03'
@@ -591,12 +646,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, the Great Hall of the People 人民大会堂, 6 to 11 p.m. A youth gathering 青年联欢 for the forty-fifth anniversary of May Fourth 五四; Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], II, 373 (May 3, 1964); [[w.deng-xiaoping-nianpu-1904]], III, 1811 (May 3, 1964; 同日; Deng, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhu De 朱德, Zhou Enlai 周恩来 and others, attends the capital''s young people''s party marking the forty-fifth anniversary of the May Fourth Movement, and meets representatives of advanced young people from every front). The words: 晚6时去人民大会堂参加"青年联欢"，纪念五四45周年，11时才回 (II, 373). Names: Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 373 (May 3, 1964); [[w.deng-xiaoping-nianpu-1904]], III, 1811 (May 3, 1964; 同日; Deng, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhu De 朱德, Zhou Enlai 周恩来 and others, attends the capital''s young people''s party marking the forty-fifth anniversary of the May Fourth Movement, and meets representatives of advanced young people from every front); [[w.chen-yi-nianpu]], 1026 (May 3, 1964, evening; Chen Yi with Liu Shaoqi, Dong Biwu, Zhu De, Zhou, Deng Xiaoping and others at the youth evening receives more than 170 activists in the study of Mao''s works and young models of every front, and the four-good units'' and five-good men''s representatives at the third all-army art festival). The words: 晚6时去人民大会堂参加"青年联欢"，纪念五四45周年，11时才回 (II, 373). Names: Yang Shangkun.'
     src:
       c: 9bd8d990
       rows:
         - 'w.yang-shangkun-riji II, 373: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1811: ?'
+        - 'w.chen-yi-nianpu 1026: ?'
     tags: [polity:prc]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-03.laos
@@ -607,6 +663,100 @@ entries:
     c: Phoumi asks the SEATO armies to intervene in Laos, by the history's account, at the Americans' direction.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 369. Names: Phoumi Nosavan. Check: the day: the history''s next sentence opens "also in June."'
     tags: [polity:drv, name:phoumi-nosavan]
+  - id: cal.1964-05-03.china-leadership-6
+    when: May 3
+    date: '1964-05-03'
+    place: changchun
+    thread: china-leadership
+    c: Peng Zhen 彭真 goes to Changchun 长春 to inspect.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 330. The words: 上午 (IV, 330). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 5debd6d8
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 330: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1964-05-02T22:00Z
+      - 1964-05-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-03.china-leadership-7
+    when: May 3
+    date: '1964-05-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the thirty-nine journalists of Pakistan, Britain, France, Switzerland, West Germany and Italy who came on the inaugural flight of the China–Pakistan air service.
+    n: '[[w.chen-yi-nianpu]], 1025. The words: 上午 (1025). Names: Chen Yi.'
+    tags: [polity:prc, polity:pakistan, polity:uk, polity:fr, polity:switzerland, polity:frg, polity:italy, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-02T22:00Z
+      - 1964-05-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-03.china-leadership-8
+    when: May 3
+    date: '1964-05-03'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 and his wife, Zhang Qian 张茜, give a banquet for Air Commodore Nur Khan 努尔汗 and the party of the inaugural flight; he thanks Pakistan's government and people for Zhou's and his own reception there and praises Ambassador Raza 罗查 and his wife.
+    n: '[[w.chen-yi-nianpu]], 1025. The words: 上午 (1025). Names: Chen Yi, Raza, Zhou Enlai.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, name:raza-nawabzada-agha-mohammad, name:zhou-enlai, ok:fields-place]
+    time_range:
+      - 1964-05-02T22:00Z
+      - 1964-05-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-03.china-leadership-9
+    when: May 3
+    date: '1964-05-03'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 receives the women's delegation of the Sri Lanka Freedom Party, led by Mrs. Tamara Ilangaratne 塔玛拉·伊兰加拉特尼, its vice-chairman.
+    n: '[[w.chen-yi-nianpu]], 1025. The words: 中午 (1025). Names: Chen Yi.'
+    tags: [polity:prc, polity:ceylon, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-03T04:00Z
+      - 1964-05-03T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-03.china-leadership-10
+    when: May 3
+    date: '1964-05-03'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 at the airport to welcome the Kenyan government delegation led by Oginga Odinga 奥廷加, Minister for Home Affairs.
+    n: '[[w.chen-yi-nianpu]], 1025. The words: 下午 (1025). Names: Chen Yi.'
+    tags: [polity:prc, polity:kenya, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-03T04:00Z
+      - 1964-05-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-03.china-leadership-11
+    when: May 3
+    date: '1964-05-03'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 and Li Xiannian 李先念 receive Oginga Odinga 奥廷加 and the whole Kenyan government delegation.
+    n: '[[w.chen-yi-nianpu]], 1025–1026. The words: 下午 (1025–1026). Names: Chen Yi, Li Xiannian.'
+    tags: [polity:prc, polity:kenya, name:chen-yi, name:li-xiannian, ok:fields-place]
+    time_range:
+      - 1964-05-03T04:00Z
+      - 1964-05-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-03.china-leadership-12
+    when: May 3
+    date: '1964-05-03'
+    thread: china-leadership
+    also: [africa]
+    c: 'Chen Yi 陈毅 gives a banquet for Oginga Odinga 奥廷加, Joseph Murumbi 穆隆比, Minister of State in the Prime Minister''s Office, and the Kenyan government delegation; speaks: Kenya''s independence, the African peoples'' certain victory in their struggle for national liberation, the success of the preparatory meeting.'
+    n: '[[w.chen-yi-nianpu]], 1026. The words: 晚上 (1026). Names: Chen Yi.'
+    tags: [polity:prc, polity:kenya, name:chen-yi, name:murumbi-joseph, ok:fields-place]
+    time_range:
+      - 1964-05-03T11:00Z
+      - 1964-05-03T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-04.trade
     when: May 4
     date: '1964-05-04'
@@ -771,6 +921,18 @@ entries:
       - 1964-05-04T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-04.china-leadership-5
+    when: May 4
+    date: '1964-05-04'
+    place: changchun
+    thread: china-leadership
+    c: 'Changchun 长春. Peng Zhen 彭真 hears Zhao Lin 赵林 on the "five antis" and "four clean-ups" in Jilin 吉林: these and cadres'' labor a basic question of carrying the revolution through, three to five years'' work; the Soviet revolution turned revisionist after 46 years; "two stricts and one lenient," criticism and repayment strict, punishment lenient; base cadres who erred mostly peasants who stood up, to be cured; the Center''s directive (of Jan. 2) remits much: ordinary graft before the Seven Thousand not punished if repaid, taking more not graft, punishment held to about 1 percent, handled late.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 331. The page''s notes: Zhao Lin, second secretary of the Jilin committee; the Center''s forwarding (Jan. 2, 1964) of the Control Commission''s report on handling graft, theft and speculation in the "five antis" (IV, 331). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 1c71c6f8
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 331: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1964-05-05.elections-1964
     when: May 5
     date: '1964-05-05'
@@ -999,7 +1161,7 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou and Chen Yi receive the Kenyan government delegation, Beijing; talks, May 3–11. On May 5: when in Africa he spoke of a fine revolutionary situation, the British Prime Minister attacked it as immoral; the situation meant is anti-imperialist, and any state independent or not that advances national independence is in revolution; it shakes British colonialism, hence the annoyance. Deal with the old colonialists with a complex mind and tactics. East Africa''s first task is to clear colonial power entirely, the goal of the Organization of African Unity charter.'
-    n: '"[Cable from the Chinese Foreign Ministry, ''Premier Zhou Talked about the Relationship between China-Soviet Difference and the National Liberation Movement''](https://digitalarchive.umd.edu/document/121188)" (June 29, 1964), PRC FMA 109-02372-02, 9–12, trans. David Cowhig, Wilson Center Digital Archive (Diplomatic Circular 80: Zhou received a Kenyan government delegation "last month" and spoke on the Sino-Soviet dispute and the liberation movements; the day not given; see the circular''s entry of June 29). [[w.zhou-enlai-nianpu-1949]], II, 640–41 (May 5, 1964); [[w.zhou-enlai-waijiao-huodong]], 405 (May 5, 1964; 下午5时, 人民大会堂, 接见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 335 (May 3–11, 1964; Kenya''s Minister for Home Affairs, Oginga Odinga, leads a Kenyan government delegation visiting China; Mao and Liu Shaoqi receive it, and Zhou and Chen Yi hold talks with it). Made public: 1993. Names: Zhou Enlai.'
+    n: '"[Cable from the Chinese Foreign Ministry, ''Premier Zhou Talked about the Relationship between China-Soviet Difference and the National Liberation Movement''](https://digitalarchive.umd.edu/document/121188)" (June 29, 1964), PRC FMA 109-02372-02, 9–12, trans. David Cowhig, Wilson Center Digital Archive (Diplomatic Circular 80: Zhou received a Kenyan government delegation "last month" and spoke on the Sino-Soviet dispute and the liberation movements; the day not given; see the circular''s entry of June 29). [[w.zhou-enlai-nianpu-1949]], II, 640–41 (May 5, 1964); [[w.zhou-enlai-waijiao-huodong]], 405 (May 5, 1964; 下午5时, 人民大会堂, 接见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 335 (May 3–11, 1964; Kenya''s Minister for Home Affairs, Oginga Odinga, leads a Kenyan government delegation visiting China; Mao and Liu Shaoqi receive it, and Zhou and Chen Yi hold talks with it); [[w.chen-yi-nianpu]], 1026 (May 4, 1964, morning; Chen Yi holds talks with Odinga); [[w.chen-yi-nianpu]], 1026 (May 5, 1964; Chen Yi continues the talks with Odinga and Murumbi); [[w.chen-yi-nianpu]], 1026 (May 7, 1964, afternoon; Liu Shaoqi receives Odinga and the whole delegation, Chen Yi present); [[w.chen-yi-nianpu]], 1027 (May 10, 1964, afternoon; Chen Yi and Zhou hold talks with Odinga and Murumbi); [[w.chen-yi-nianpu]], 1028 (Mao receives Odinga and the whole delegation, Chen Yi present; entered under May 10, 1964, after the Kenyan Ambassador''s banquet, without hour or place). Made public: 1993. Names: Zhou Enlai.'
     src:
       c: d86b7100
       rows:
@@ -1007,6 +1169,9 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 405: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 335: A-B'
         - 'https://digitalarchive.umd.edu/document/121188: A, B'
+        - 'w.chen-yi-nianpu 1026: ?'
+        - 'w.chen-yi-nianpu 1027: ?'
+        - 'w.chen-yi-nianpu 1028: ?'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-05.china-leadership-2
@@ -1048,6 +1213,25 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 374: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-05-05.china-leadership-5
+    when: May 5
+    date: '1964-05-05'
+    place: harbin
+    thread: china-leadership
+    c: 'Harbin 哈尔滨. Peng Zhen 彭真 hears the heads of the turbine and electric machinery works on learning from Daqing: the Party''s mass line carried into management; the Soviet model of the first plan necessary; "我的脑子也发过热" in 1958; "cool promoters" learned by practice; Lenin''s "the will of thousands subordinated to one" and Stalin''s late "technique decides everything," "cadres decide everything": what of politics and the masses?; politics in command, not without technique; in 1958 too much broken, some not superstitions; to lead, study theory.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 331–332. Made public: 2012. Names: Peng Zhen, Stalin.'
+    src:
+      c: ebe98331
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 331–332: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:stalin-joseph]
+  - id: cal.1964-05-05.china-leadership-6
+    when: May 5
+    date: '1964-05-05'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Péter János 彼得·亚诺什, Hungary's Foreign Minister, exchange cables on the fifth anniversary of the treaty of friendship and cooperation.
+    n: '[[w.chen-yi-nianpu]], 1026. Names: Chen Yi.'
+    tags: [polity:prc, polity:hungary, name:chen-yi, name:peter-janos, ok:fields-place]
   - id: cal.1964-05-06.civil-rights-bill
     when: May 6
     date: '1964-05-06'
@@ -1210,6 +1394,32 @@ entries:
         - 'w.purdum-idea-whose-time-has-2014 279–80: all'
       c: fc019488
     tags: [name:johnson-lyndon-b, name:ellender-allen-j, name:russell-richard-b, name:mansfield-mike, name:humphrey-hubert-h, name:morton-thruston-b]
+  - id: cal.1964-05-06.china-leadership
+    when: May 6
+    date: '1964-05-06'
+    place:
+      - harbin
+      - daqing
+    thread: china-leadership
+    c: Peng Zhen 彭真 leaves Harbin 哈尔滨 for the Daqing 大庆 oilfield.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 332. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: aaeef8b3
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 332: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1964-05-06.china-leadership-2
+    when: May 6
+    date: '1964-05-06'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the foreign guests come for May Day, the Burmese May Day delegation led by 波木波昆 of the Burma Railways among them, Indonesian trade unionists, the general secretary of the Congo (Brazzaville) state employees' union and the Zanzibar Revolutionary Trade Union Federation's delegation led by 罗伊梅尔·萨勒.
+    n: '[[w.chen-yi-nianpu]], 1026. The words: 下午 (1026). Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, polity:indonesia, polity:congo-brazzaville, polity:tanzania, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-06T04:00Z
+      - 1964-05-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-07.poverty
     when: May 7–8
     date: '1964-05-07'
@@ -1466,6 +1676,18 @@ entries:
       - 1964-05-07T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-07.china-leadership-5
+    when: May 7
+    date: '1964-05-07'
+    place: daqing
+    thread: china-leadership
+    c: 'The Daqing 大庆 oilfield. Peng Zhen 彭真 hears Yu Qiuli 余秋里, Kang Shi''en 康世恩 and others on the "five antis" and the year''s growth of Daqing''s experience, and sums it up: one divides into two, gaps found against high standards; "five-good" reviews monthly; work and rest balanced but for special battles; communist spirit with pay by work; rules kept without binding zeal; central unity within the enterprise; more output and thrift with socialist education; workers, peasants, traders, students and soldiers joined, families in collective farming for the workers far from cities; cool promoters.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 332. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 9179ee79
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 332: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1964-05-08.transition-and-staff
     when: May 8
     date: '1964-05-08'
@@ -1726,6 +1948,29 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1811: all'
     tags: [polity:prc, name:deng-xiaoping, name:liu-shaoqi, name:zhou-enlai, name:zhu-de]
+  - id: cal.1964-05-08.china-leadership-7
+    when: May 8
+    date: '1964-05-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Václav David 瓦·戴维, Czechoslovakia's Foreign Minister, on the nineteenth anniversary of the country's liberation.
+    n: '[[w.chen-yi-nianpu]], 1027. Names: Chen Yi.'
+    tags: [polity:prc, polity:czechoslovakia, name:chen-yi, name:david-vaclav, ok:fields-place]
+  - id: cal.1964-05-08.china-leadership-9
+    when: May 8
+    date: '1964-05-08'
+    place:
+      - peking
+      - shanghai
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 accompanies Oginga Odinga's 奥廷加 Kenyan government delegation from Peking 北京 to Shanghai 上海.
+    n: '[[w.chen-yi-nianpu]], 1027. The words: 上午 (1027). Names: Chen Yi.'
+    tags: [polity:prc, polity:kenya, name:chen-yi]
+    time_range:
+      - 1964-05-07T22:00Z
+      - 1964-05-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-09.elections-1964-state-conventions
     when: May 9
     date: '1964-05-09'
@@ -1911,13 +2156,14 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou attends the signing of the China–Kenya economic and technical cooperation agreement.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 641 (May 10, 1964); [[w.zhou-enlai-waijiao-huodong]], 405 (May 10, 1964; 下午5时30分, 人民大会堂福建厅, 再次接见, 签字仪式); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 335 (May 3–11, 1964; during the visit of the Kenyan government delegation the two sides sign the China–Kenya agreement on economic and technical cooperation; the book gives no day). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 641 (May 10, 1964); [[w.zhou-enlai-waijiao-huodong]], 405 (May 10, 1964; 下午5时30分, 人民大会堂福建厅, 再次接见, 签字仪式); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 335 (May 3–11, 1964; during the visit of the Kenyan government delegation the two sides sign the China–Kenya agreement on economic and technical cooperation; the book gives no day); [[w.chen-yi-nianpu]], 1027 (May 10, 1964, afternoon; Chen Yi signs the China–Kenya agreement on economic and technical cooperation). Names: Zhou Enlai.'
     src:
       c: bace79b4
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 641: ?'
         - 'w.zhou-enlai-waijiao-huodong 405: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 335: A'
+        - 'w.chen-yi-nianpu 1027: ?'
     tags: [name:zhou-enlai, polity:prc]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-10.china-leadership-3
@@ -1963,11 +2209,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai attends the dinner given by the Kenyan Ambassador for the Kenyan government delegation's visit to China.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 405 (May 10, 1964; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 405 (May 10, 1964; 晚上); [[w.chen-yi-nianpu]], 1028 (May 10, 1964, evening; Chen Yi speaks at the banquet of Henry Muli 亨利·穆利, Kenya''s Ambassador, for the government delegation''s visit, wishing the two countries'' friendship growth). Names: Zhou Enlai.'
     src:
       c: aaadfd99
       rows:
         - 'w.zhou-enlai-waijiao-huodong 405: all'
+        - 'w.chen-yi-nianpu 1028: ?'
     tags: [polity:kenya, polity:prc, name:zhou-enlai]
     time_range:
       - 1964-05-10T11:00Z
@@ -1999,6 +2246,39 @@ entries:
     c: 'Saigon. Saigon sends Civil Guard and paratroopers against the Vimytex strikers, May 10: over 100 workers wounded, by the history''s count. The strike runs to July.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 355.'
     tags: [polity:drv]
+  - id: cal.1964-05-10.china-leadership-7
+    when: May 10
+    date: '1964-05-10'
+    place: peking
+    thread: china-leadership
+    c: Peng Zhen 彭真 back in Peking 北京.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 332. The words: 中午 (IV, 332). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 01e404b5
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 332: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1964-05-10T04:00Z
+      - 1964-05-10T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-10.china-leadership-8
+    when: May 10
+    date: '1964-05-10'
+    place:
+      - shanghai
+      - peking
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 returns with Oginga Odinga 奥廷加 and his party from Shanghai 上海 to Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 1027. The words: 上午 (1027). Names: Chen Yi.'
+    tags: [polity:prc, polity:kenya, name:chen-yi]
+    time_range:
+      - 1964-05-09T22:00Z
+      - 1964-05-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-11.desegregation-public-places-cambridge
     when: May 11
     date: '1964-05-11'
@@ -2187,12 +2467,18 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Chen Yi, Vice-Premier, receives the Malian economic and trade delegation led by the head of the General Office of the State Planning Ministry.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 336 (May 11, 1964). Names: Chen Yi. Check: the head''s name is given in Chinese in the book and is not recovered with certainty.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 336 (May 11, 1964); [[w.chen-yi-nianpu]], 1028 (May 11, 1964, evening (晚间); the delegation led by 赛杜·吉姆·西拉, head of the office of Mali''s State Planning Ministry). Names: Chen Yi. Check: the head''s name is given in Chinese in the book and is not recovered with certainty.'
     src:
       c: 348a5097
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 336: all'
+        - 'w.chen-yi-nianpu 1028: ?'
     tags: [polity:prc, polity:mali, name:chen-yi]
+    time_range:
+      - 1964-05-11T11:00Z
+      - 1964-05-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-11.china-leadership-2
     when: May 11
     date: '1964-05-11'
@@ -2238,6 +2524,46 @@ entries:
       rows:
         - 'w.jian-zhou-enlai 489: all'
     tags: [polity:prc, vis:only:prc, name:mao-zedong]
+  - id: cal.1964-05-11.china-leadership-7
+    when: May 11
+    date: '1964-05-11'
+    place: brazzaville
+    thread: china-leadership
+    also: [africa]
+    c: 'The Chinese Embassy in Congo (Brazzaville) to the Foreign Ministry, a background report for the GRAE''s visit: balanced, it tells aid from American groups from aid from the American government.'
+    n: '[[w.friedman-shadow-cold-war]], 122. Made public: 2015. To check: PRC embassy Congo (Brazzaville) to MFA, May 11, 1964, CFMA doc. 108-01384-03, 9 (cited by [[w.friedman-shadow-cold-war]], 122 n.88).'
+    src:
+      c: b1da0728
+      rows:
+        - 'w.friedman-shadow-cold-war 122: all'
+        - 'via x.1964-05-11.prc-embassy-congo-brazzaville-mfa-may-11: ?'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-05-11.china-leadership-5
+    when: May 11
+    date: '1964-05-11'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 at the airport to see off Oginga Odinga's 奥廷加 Kenyan government delegation.
+    n: '[[w.chen-yi-nianpu]], 1028. The words: 晨 (1028). Names: Chen Yi.'
+    tags: [polity:prc, polity:kenya, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-10T21:00Z
+      - 1964-05-11T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-11.china-leadership-6
+    when: May 11
+    date: '1964-05-11'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 receives 法拉齐, member of the Parliament of the United Republic of Tanganyika and Zanzibar and of the East African Central Legislative Assembly, and his wife.
+    n: '[[w.chen-yi-nianpu]], 1028. The words: 下午 (1028). Names: Chen Yi.'
+    tags: [polity:prc, polity:tanzania, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-11T04:00Z
+      - 1964-05-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-12.elections-1964
     when: May 12
     date: '1964-05-12'
@@ -2441,11 +2767,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, the Great Hall of the People 人民大会堂, 9 a.m. to 12:15 p.m. Chen Yi 陈毅 reports; Yang Shangkun 杨尚昆 hears him.
-    n: '[[w.yang-shangkun-riji]], II, 376 (May 12, 1964). The words: 上午9时到12时1刻，在人民大会堂听陈毅同志报告 (II, 376). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Yi, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 376 (May 12, 1964); [[w.chen-yi-nianpu]], 1028 (May 12–14, 1964, mornings; Chen Yi''s reports at the CPPCC National Committee''s report meetings on Zhou''s visit to Albania, ten African and three Asian countries, and on the preparatory meeting for the second Asian–African conference). The words: 上午9时到12时1刻，在人民大会堂听陈毅同志报告 (II, 376). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Yi, Yang Shangkun.'
     src:
       c: 02f216ba
       rows:
         - 'w.yang-shangkun-riji II, 376: all'
+        - 'w.chen-yi-nianpu 1028: ?'
     tags: [polity:prc, name:chen-yi, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-12.china-leadership-3
@@ -2834,11 +3161,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai receives the Guinean dance troupe.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 405 (May 13, 1964; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 405 (May 13, 1964; 晚上); [[w.chen-yi-nianpu]], 1029 (May 13, 1964, evening; Chen Yi with Zhou receives the troupe''s leader 萨科·穆罕默德, its artistic director and stage manager and its principal dancers). Names: Zhou Enlai.'
     src:
       c: 5ae8ba50
       rows:
         - 'w.zhou-enlai-waijiao-huodong 405: all'
+        - 'w.chen-yi-nianpu 1029: ?'
     tags: [polity:prc, polity:guinea, name:zhou-enlai]
     time_range:
       - 1964-05-13T11:00Z
@@ -2876,12 +3204,53 @@ entries:
     thread: china-leadership
     also: [laos]
     c: Chen Yi, Vice-Premier and Foreign Minister, writes separately to Prince Souphanouvong, Deputy Prime Minister of the Lao government of national union, and to the two co-chairmen of the Geneva conference. China firmly opposes the U.S. wrecking of the peace and neutrality of Laos and fully supports the Lao people's struggle to defend the government of national union and the Geneva agreement. In his letter to the co-chairmen Chen Yi says that if the Lao situation goes on worsening, the Chinese government asks them to consider seriously Prince Sihanouk's proposal to reconvene the Geneva conference, and to consult on ways to remove the tension in Laos and Indochina.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 336 (May 13, 1964). Names: Chen Yi, Souphanouvong, Norodom.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 336 (May 13, 1964); [[w.chen-yi-nianpu]], 1028–1029 (May 13, 1964; replies to Souphanouvong''s letter of Apr. 24 and to the co-chairmen''s letter of May 1). Names: Chen Yi, Souphanouvong, Norodom.'
     src:
       c: 6f393396
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 336: all'
+        - 'w.chen-yi-nianpu 1028–1029: ?'
     tags: [polity:prc, polity:laos, polity:us, name:chen-yi, name:souphanouvong, name:norodom-sihanouk]
+  - id: cal.1964-05-13.china-leadership-6
+    when: May 13
+    date: '1964-05-13'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives Kitamura Tokutarō 北村德太郎 of the Liberal Democratic Party and his party, Kawasaki Hideji 川崎秀二, 松布俊一 (so printed) and 德田与吉郎 among them.
+    n: '[[w.chen-yi-nianpu]], 1029. The words: 下午 (1029). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-13T04:00Z
+      - 1964-05-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-13.china-leadership-7
+    when: May 13
+    date: '1964-05-13'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Chen Yi 陈毅 receives the Soviet government trade delegation, then attends the signing of the China–USSR protocol on the exchange of goods for 1964 and the other papers.
+    n: '[[w.chen-yi-nianpu]], 1029. The words: 下午 (1029). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-13T04:00Z
+      - 1964-05-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-13.china-leadership-8
+    when: May 13
+    date: '1964-05-13'
+    place: peking
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 at the first performance in Peking 北京 of the Guinean Second National Dance Troupe.
+    n: '[[w.chen-yi-nianpu]], 1029. The words: 晚上 (1029). Names: Chen Yi.'
+    tags: [polity:prc, polity:guinea, name:chen-yi]
+    time_range:
+      - 1964-05-13T11:00Z
+      - 1964-05-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-14.baker
     when: May 14
     date: '1964-05-14'
@@ -3000,7 +3369,7 @@ entries:
     date: '1964-05-14'
     thread: china-leadership
     c: Zhou attends the Secretariat meeting, which discusses the main subjects of the Central Work Conference.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 642 (May 14, 1964); [[w.yang-shangkun-riji]], II, 376 (May 14, 1964; 10 a.m. to noon, on the conference''s agenda and arrangements; Li Fuchun and Bo Yibo relay Mao''s directions given at their report; Yang there; Zhou not named); [[w.deng-xiaoping-nianpu-1904]], III, 1811 (May 14, 1964; Deng presides at the Secretariat on the main subjects of the Central Work Conference). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 642 (May 14, 1964); [[w.yang-shangkun-riji]], II, 376 (May 14, 1964; 10 a.m. to noon, on the conference''s agenda and arrangements; Li Fuchun and Bo Yibo relay Mao''s directions given at their report; Yang there; Zhou not named); [[w.deng-xiaoping-nianpu-1904]], III, 1811 (May 14, 1964; Deng presides at the Secretariat on the main subjects of the Central Work Conference); [[w.peng-zhen-nianpu-1902]], IV, 333 (May 14, 1964; the Secretariat''s 377th meeting; Peng Zhen there; the main subjects of the Central Work Conference). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1964-05-14.china-leadership-2
     when: May 14
@@ -3043,6 +3412,19 @@ entries:
       - 1964-05-14T04:00Z
       - 1964-05-14T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-14.china-leadership-5
+    when: May 14
+    date: '1964-05-14'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the Workers' Stadium 工人体育场, Peking 北京, watches the friendly match of the Brazilian Madureira 马杜雷拉 club with the PLA's "August First" 八一 football team; after it, a photograph with both teams on the field.
+    n: '[[w.chen-yi-nianpu]], 1029. The words: 晚上 (1029). Names: Chen Yi.'
+    tags: [polity:prc, polity:brazil, name:chen-yi]
+    time_range:
+      - 1964-05-14T11:00Z
+      - 1964-05-14T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1964-05-15.elections-1964
     when: May 15
@@ -3211,7 +3593,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'The Central Work Conference opens, Beijing (to June 17): farm plans in the Third Plan period, rural work and the socialist education movement, the preliminary ideas for the Third Plan, political work in industry and communications, finance and trade. It discusses Mao''s four items: the third front, socialist revolution and preventing revisionism, military strategy, successors; and Liu Shaoqi''s two labor systems and two education systems.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, May 15, 1964 ("5月15日一6月17日"); [[w.zhou-enlai-nianpu-1949]], II, 643 (May 15–June 17, 1964: Zhou attends the Central Work Conference in Beijing: farm planning and rural work, the Third Five-Year Plan, political work, opposing and preventing revisionism, training successors, the two labor and two education systems; Mao on the strategic layout of the first, second and third lines); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 590–591 (May 15–June 17, 1964; Liu attends the Central Work Conference, which takes up farm planning and rural work, the Third Five-Year Plan (1966–70) and political work, and also the guard against revisionism, the training of successors, and the two labor systems and two education systems); [[w.macfarquhar-origins-of-the-cultural]], III, 369 (at a central work conference in May and June 1964 Mao proposes putting the country on a war footing in three fronts); [[w.yang-shangkun-riji]], II, 376 (May 15, 1964; opens "today"; two days for reading the papers, the formal sessions from Monday); [[w.deng-xiaoping-nianpu-1904]], III, 1812 (May 15–June 17, 1964; Deng attends the Central Work Conference in Peking, on the agricultural plan for the Third Five-Year Plan period, current rural work and the socialist education movement, the first ideas for the Third Plan, political work in all systems and finance and trade work; on May 18 at the plenary he explains the arrangement of the agenda; on the afternoon of June 17 he gives the summing-up. Before the conference Mao says agriculture and national defense are the ''fist'', basic industry the ''backside''; during it he proposes the first, second and third lines and the building of the third line; the conference holds that a third of the grass-roots leadership is not in the Party''s hands); [[w.mao-zedong-zhuan]], V, ch. 71 (May 15–June 17 Mao presides at Peking over the Central Work Conference: the Third Five-Year Plan centred on war preparedness, and the rural Four Cleans). Made public: 1996. To check: the conference''s records and documents (not named by [[w.zedong-mao-zedong-nianpu]], V, May 15, 1964); [[w.jiaoyanshi-zhongguo-gongchan-dang-qishi]], 514 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 369 n.132a). Names: Mao Zedong, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, May 15, 1964 ("5月15日一6月17日"); [[w.zhou-enlai-nianpu-1949]], II, 643 (May 15–June 17, 1964: Zhou attends the Central Work Conference in Beijing: farm planning and rural work, the Third Five-Year Plan, political work, opposing and preventing revisionism, training successors, the two labor and two education systems; Mao on the strategic layout of the first, second and third lines); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 590–591 (May 15–June 17, 1964; Liu attends the Central Work Conference, which takes up farm planning and rural work, the Third Five-Year Plan (1966–70) and political work, and also the guard against revisionism, the training of successors, and the two labor systems and two education systems); [[w.macfarquhar-origins-of-the-cultural]], III, 369 (at a central work conference in May and June 1964 Mao proposes putting the country on a war footing in three fronts); [[w.yang-shangkun-riji]], II, 376 (May 15, 1964; opens "today"; two days for reading the papers, the formal sessions from Monday); [[w.deng-xiaoping-nianpu-1904]], III, 1812 (May 15–June 17, 1964; Deng attends the Central Work Conference in Peking, on the agricultural plan for the Third Five-Year Plan period, current rural work and the socialist education movement, the first ideas for the Third Plan, political work in all systems and finance and trade work; on May 18 at the plenary he explains the arrangement of the agenda; on the afternoon of June 17 he gives the summing-up. Before the conference Mao says agriculture and national defense are the ''fist'', basic industry the ''backside''; during it he proposes the first, second and third lines and the building of the third line; the conference holds that a third of the grass-roots leadership is not in the Party''s hands); [[w.mao-zedong-zhuan]], V, ch. 71 (May 15–June 17 Mao presides at Peking over the Central Work Conference: the Third Five-Year Plan centred on war preparedness, and the rural Four Cleans). [[w.peng-zhen-nianpu-1902]], IV, 333 (May 15–June 17, 1964; Peng Zhen at the Central Work Conference in Peking: farm plans and rural work, socialist education, the first ideas of the Third Five-Year Plan (1966–70), political work in the systems, industry and communications above all, and finance and trade; also the third line, against revisionism, successors, the two systems of labor and of education; before it Mao: agriculture and defense the fist, basic industry the backside, which must sit firm; in it Mao, on the danger of a new world war, without a rear none in the atomic age, the country divided into first, second and third lines, the third line to be built; on socialist education, a third of the base''s power not in our hands, the masses to be roused and the "four uncleans''" patrons above traced; Mao fears revisionism in the Center and raises the training of successors; the directive and draft regulations of the poor and lower-middle peasants'' associations discussed). Made public: 1996. To check: the conference''s records and documents (not named by [[w.zedong-mao-zedong-nianpu]], V, May 15, 1964); [[w.jiaoyanshi-zhongguo-gongchan-dang-qishi]], 514 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 369 n.132a). Names: Mao Zedong, Liu Shaoqi.'
     src:
       c: 8b2364f2
       rows:
@@ -3223,6 +3605,7 @@ entries:
         - 'w.yang-shangkun-riji II, 376: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1812: A'
         - 'w.mao-zedong-zhuan V, ch. 71: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 333: ?'
     tags: [name:mao-zedong, name:liu-shaoqi, polity:prc, vis:only:prc]
   - id: cal.1964-05-15.china-leadership-2
     when: May 15
@@ -3247,6 +3630,18 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1812: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1964-05-15.china-leadership-4
+    when: May 15
+    date: '1964-05-15'
+    thread: china-leadership
+    c: Cambodia's new Ambassador, 张岗, calls on Chen Yi 陈毅 about presenting his credentials.
+    n: '[[w.chen-yi-nianpu]], 1029. The words: 下午 (1029). Names: Chen Yi.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-15T04:00Z
+      - 1964-05-15T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-16.peace-corps
     when: May 16
     date: '1964-05-16'
@@ -3348,7 +3743,7 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou receives Gen. Abboud, president of Sudan''s Supreme Council of the Armed Forces and prime minister, on his visit and talks, May 16–20. May 18, with Mao receiving Abboud, on aid: experts first to look, then talk aid; Mao: realistic. May 19 with Chen Yi goes with Abboud to Shanghai; sees him off at Shanghai airport May 20.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 643 (May 16–20, 1964); [[w.zhou-enlai-waijiao-huodong]], 407 (May 16, 1964; 晚上, 人民大会堂, 和刘少奇主席会见阿布德主席并出席刘少奇主席举行的欢迎宴会); [[w.zhou-enlai-waijiao-huodong]], 407 (May 18, 1964; 下午6时30分, 人民大会堂, 陪同毛泽东主席会见阿布德主席); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 591 (May 17, 1964; Liu, with Zhou Enlai, holds talks with Gen. Ibrahim Abboud, Chairman of the Supreme Council of the Armed Forces and Chairman of the Council of Ministers of Sudan); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 338 (May 16–20, 1964; General Ibrahim Abboud, Chairman of the Supreme Council of the Armed Forces and Prime Minister of the Sudan, visits China at invitation; Mao receives Abboud and his party; Liu Shaoqi and Zhou hold talks with him). The time is the first day''s. Names: Zhou Enlai, Chen Yi, Abboud, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 643 (May 16–20, 1964); [[w.zhou-enlai-waijiao-huodong]], 407 (May 16, 1964; 晚上, 人民大会堂, 和刘少奇主席会见阿布德主席并出席刘少奇主席举行的欢迎宴会); [[w.zhou-enlai-waijiao-huodong]], 407 (May 18, 1964; 下午6时30分, 人民大会堂, 陪同毛泽东主席会见阿布德主席); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 591 (May 17, 1964; Liu, with Zhou Enlai, holds talks with Gen. Ibrahim Abboud, Chairman of the Supreme Council of the Armed Forces and Chairman of the Council of Ministers of Sudan); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 338 (May 16–20, 1964; General Ibrahim Abboud, Chairman of the Supreme Council of the Armed Forces and Prime Minister of the Sudan, visits China at invitation; Mao receives Abboud and his party; Liu Shaoqi and Zhou hold talks with him); [[w.chen-yi-nianpu]], 1029 (May 16, 1964, evening; Chen Yi at Liu Shaoqi''s welcoming banquet for Abboud); [[w.chen-yi-nianpu]], 1029 (May 16, 1964, evening; Liu Shaoqi and Zhou meet Abboud, Chen Yi present); [[w.chen-yi-nianpu]], 1029 (May 17, 1964, afternoon; Liu Shaoqi and Zhou return Abboud''s call at the guesthouse and hold talks with him, Chen Yi present). The time is the first day''s. Names: Zhou Enlai, Chen Yi, Abboud, Mao Zedong.'
     src:
       c: 51d867be
       rows:
@@ -3356,6 +3751,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 407: B'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 591: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 338: A'
+        - 'w.chen-yi-nianpu 1029: ?'
     tags: [name:zhou-enlai, name:chen-yi, name:abboud-ibrahim, name:mao-zedong, polity:prc, polity:sudan]
     time_range:
       - 1964-05-16T11:00Z
@@ -3387,11 +3783,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai goes to the airport to welcome General Abboud, chairman of the Supreme Council of the Armed Forces and Prime Minister of Sudan.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 16, 1964; 傍晚). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Abboud.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 16, 1964; 傍晚); [[w.chen-yi-nianpu]], 1029 (May 16, 1964, 6 p.m.; Chen Yi at the airport). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Abboud.'
     src:
       c: c06a0229
       rows:
         - 'w.zhou-enlai-waijiao-huodong 407: all'
+        - 'w.chen-yi-nianpu 1029: ?'
     tags: [polity:prc, polity:sudan, name:zhou-enlai, name:abboud-ibrahim]
     time_range:
       - 1964-05-16T09:00Z
@@ -3406,6 +3803,41 @@ entries:
     c: Nguyễn Khánh reorganizes his government, May 16.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 320 n.1. Names: Nguyễn Khánh. Check: the day, against the American record.'
     tags: [name:nguyen-khanh, polity:rvn, ok:fields-place]
+  - id: cal.1964-05-16.china-leadership-4
+    when: May 16–25
+    date: '1964-05-16'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真, with Liu Ren 刘仁, Chen Kehan 陈克寒 and others, sees the Peking workers'' amateur art festival (to May 25): eight programs written and played by the workers, serving politics and production, small and varied.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 333. Names: Peng Zhen.'
+    src:
+      c: 1316c064
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 333: all'
+    tags: [polity:prc, name:peng-zhen]
+  - id: cal.1964-05-16.china-leadership-5
+    when: May 16
+    date: '1964-05-16'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真, on Luo Ruiqing''s 罗瑞卿 report of a tank school''s training crushing the people''s wheat: the school''s needed training ground assured, its faults sternly criticized by the Military Commission; Liu Ren 刘仁, Zheng Tianxiang 郑天翔, Feng Jiping 冯基平 and the county and district committees to check their own and the teams'' cadres'' errors; local cadres and masses to see the whole, supporting army training a sacred duty, not to grab what they can.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 333–334. Made public: 2012. Names: Peng Zhen, Luo Ruiqing.'
+    src:
+      c: 10980aa4
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 333–334: all'
+    tags: [polity:prc, name:peng-zhen, name:luo-ruiqing, vis:only:prc, ok:fields-place]
+  - id: cal.1964-05-16.china-leadership-6
+    when: May 16
+    date: '1964-05-16'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 施徒基 of the Swiss *Neue Zürcher Zeitung* 《新苏黎世报》, 马阿兰 of the Norwegian *Stavanger Aftenblad* and the Dutch free-lance journalist 克拉瑟, and answers their questions.
+    n: '[[w.chen-yi-nianpu]], 1029. The words: 下午 (1029). Names: Chen Yi.'
+    tags: [polity:prc, polity:switzerland, polity:norway, polity:netherlands, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-16T04:00Z
+      - 1964-05-16T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-17.laos
     when: May 17–19
     date: '1964-05-17'
@@ -3508,11 +3940,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai accompanies Abboud at the Summer Palace, takes a boat on Kunming Lake, and gives a luncheon for the Sudanese guests at the Tingli Pavilion.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 17, 1964; 上午). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Abboud.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 17, 1964; 上午); [[w.chen-yi-nianpu]], 1029 (May 17, 1964, morning; Chen Yi with Zhou accompanies Abboud at the Summer Palace). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Abboud.'
     src:
       c: 371c225d
       rows:
         - 'w.zhou-enlai-waijiao-huodong 407: all'
+        - 'w.chen-yi-nianpu 1029: ?'
     tags: [polity:prc, polity:sudan, name:zhou-enlai, name:abboud-ibrahim]
     time_range:
       - 1964-05-16T22:00Z
@@ -3562,6 +3995,44 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1812: all'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, name:tan-zhenlin, name:zhou-enlai, vis:only:prc]
+  - id: cal.1964-05-17.china-leadership-5
+    when: May 17
+    date: '1964-05-17'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 receives 迪亚洛·摩沙·萨内, head of the delegation of Mali's Afro-Asian Solidarity Committee, and its member 阿卜杜拉耶·索.
+    n: '[[w.chen-yi-nianpu]], 1029. The words: 上午 (1029). Names: Chen Yi.'
+    tags: [polity:prc, polity:mali, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-16T22:00Z
+      - 1964-05-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-17.china-leadership-7
+    when: May 17
+    date: '1964-05-17'
+    thread: china-leadership
+    c: Chen Yi 陈毅 toasts at the reception of Helge Akre 阿克雷, Norway's Ambassador, at the embassy for Norway's national day.
+    n: '[[w.chen-yi-nianpu]], 1030. The words: 下午 (1030). Names: Chen Yi.'
+    tags: [polity:prc, polity:norway, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-17T04:00Z
+      - 1964-05-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-17.china-leadership-8
+    when: May 17
+    date: '1964-05-17'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅, with Liu Shaoqi 刘少奇 and Zhou Enlai 周恩来, accompanies General Abboud to the evening of arts given by the Ministry of Culture 文化部 and the China–Africa Friendship Association 中非友好协会 for the Sudanese guests.
+    n: '[[w.chen-yi-nianpu]], 1030. The words: 晚上 (1030). Names: Chen Yi, Liu Shaoqi, Zhou Enlai, Abboud.'
+    tags: [polity:prc, polity:sudan, name:chen-yi, name:liu-shaoqi, name:zhou-enlai, name:abboud-ibrahim, ok:fields-place]
+    time_range:
+      - 1964-05-17T11:00Z
+      - 1964-05-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-18.vietnam
     when: May 18
     date: '1964-05-18'
@@ -3721,11 +4192,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai attends the banquet given by the Arab and African ambassadors in China for Abboud's visit.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 18, 1964; 中午). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Abboud.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 18, 1964; 中午); [[w.chen-yi-nianpu]], 1030 (May 18, 1964, noon, the Peking Hotel; the banquet of the envoys of eight Arab and African countries (the UAR, Mali, Tanganyika and Zanzibar, Kenya, Morocco, Iraq, Ghana, Algeria); Chen Yi present). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Abboud.'
     src:
       c: f07364fd
       rows:
         - 'w.zhou-enlai-waijiao-huodong 407: all'
+        - 'w.chen-yi-nianpu 1030: ?'
     tags: [polity:prc, polity:sudan, name:zhou-enlai, name:abboud-ibrahim]
     time_range:
       - 1964-05-18T04:00Z
@@ -3739,11 +4211,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai, with Mao Zedong, Liu Shaoqi, Dong Biwu and Zhu De, attends the return banquet given by Abboud.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 18, 1964; 晚上). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Abboud, Zhu De, Dong Biwu.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 18, 1964; 晚上); [[w.chen-yi-nianpu]], 1030 (May 18, 1964, evening; Chen Yi present). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Abboud, Zhu De, Dong Biwu.'
     src:
       c: 9d7a4e40
       rows:
         - 'w.zhou-enlai-waijiao-huodong 407: all'
+        - 'w.chen-yi-nianpu 1030: ?'
     tags: [name:zhu-de, name:dong-biwu, polity:prc, polity:sudan, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:abboud-ibrahim]
     time_range:
       - 1964-05-18T11:00Z
@@ -3813,6 +4286,74 @@ entries:
       - 1964-05-18T11:00Z
       - 1964-05-18T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-18.china-leadership-8
+    when: May 18
+    date: '1964-05-18'
+    thread: china-leadership
+    c: The Center 中共中央, Deng Xiaoping 邓小平 having approved it, issues the notice on some questions to heed in present work, against formalism, too many meetings and forms, and overwork.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 329. Made public: 2012. See [[cal.1964-04-23.china-leadership-5]]. Names: Deng Xiaoping, Peng Zhen.'
+    src:
+      c: 9f65b517
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 329: all'
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+  - id: cal.1964-05-18.china-leadership-9
+    when: May 18
+    date: '1964-05-18'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 speaks at the capital''s meeting welcoming General Ibrahim Abboud, Chairman of the Supreme Council of the Armed Forces and President of the Council of Ministers of the Republic of the Sudan: the Sudanese people, after long struggle, free of colonial rule, have achieved much; China with Asia, Africa and Latin America against imperialist aggression.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 334; [[w.chen-yi-nianpu]], 1030 (May 18, 1964, afternoon; Chen Yi at the capital''s rally welcoming Abboud). See [[cal.1964-05-16.china-leadership]]. Names: Peng Zhen, Abboud.'
+    src:
+      c: 6e6fc8c4
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 334: all'
+        - 'w.chen-yi-nianpu 1030: ?'
+    tags: [polity:prc, name:peng-zhen, name:abboud-ibrahim]
+    time_range:
+      - 1964-05-18T04:00Z
+      - 1964-05-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-18.china-leadership-10
+    when: May 18
+    date: '1964-05-18'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Chen Yi 陈毅 and others, accompanies Mao Zedong 毛泽东 in meeting General Abboud and his party.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 334; [[w.chen-yi-nianpu]], 1030 (May 18, 1964, afternoon; Mao receives Abboud, Chen Yi present). The words: 下午 (IV, 334). See [[cal.1964-05-16.china-leadership]]. Names: Peng Zhen, Liu Shaoqi, Zhou Enlai, Chen Yi, Mao Zedong, Abboud.'
+    src:
+      c: 00ec7838
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 334: all'
+        - 'w.chen-yi-nianpu 1030: ?'
+    tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:zhou-enlai, name:chen-yi, name:mao-zedong, name:abboud-ibrahim]
+    time_range:
+      - 1964-05-18T04:00Z
+      - 1964-05-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-18.china-leadership-11
+    when: May 18
+    date: '1964-05-18'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Huot Sambath 胡森巴, Cambodia's Secretary of State for Foreign Affairs, exchange cables of congratulation as the China–Cambodia air service opens.
+    n: '[[w.chen-yi-nianpu]], 1030. Names: Chen Yi, Huot Sambath.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:sambath-huot, ok:fields-place]
+  - id: cal.1964-05-18.china-leadership-12
+    when: May 18
+    date: '1964-05-18'
+    place: peking
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 accompanies General Abboud to Tsinghua University 清华大学, Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 1030. The words: 上午 (1030). Names: Chen Yi, Abboud.'
+    tags: [polity:prc, polity:sudan, name:chen-yi, name:abboud-ibrahim]
+    time_range:
+      - 1964-05-17T22:00Z
+      - 1964-05-18T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1964-05-19.elections-1964
     when: May 19
@@ -3993,11 +4534,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Zhou Enlai and Chen Yi accompany Abboud and the Sudanese guests by special plane to Shanghai.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 19, 1964; 上午). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Chen Yi, Abboud.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 19, 1964; 上午); [[w.chen-yi-nianpu]], 1030 (May 19, 1964, morning; Chen Yi with Zhou accompanies Abboud from Peking to Shanghai). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Chen Yi, Abboud.'
     src:
       c: 7ea3e2c8
       rows:
         - 'w.zhou-enlai-waijiao-huodong 407: all'
+        - 'w.chen-yi-nianpu 1030: ?'
     tags: [polity:prc, polity:sudan, name:zhou-enlai, name:chen-yi, name:abboud-ibrahim]
     time_range:
       - 1964-05-18T22:00Z
@@ -4011,11 +4553,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Shanghai. Zhou Enlai attends the welcoming banquet and the evening of arts given by a vice mayor of Shanghai for Abboud.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 19, 1964; 晚上). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Abboud.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 19, 1964; 晚上); [[w.chen-yi-nianpu]], 1030 (May 19, 1964, evening; the banquet of Cao Diqiu 曹荻秋, vice mayor of Shanghai, for Abboud; Chen Yi present). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Abboud.'
     src:
       c: 746e899a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 407: all'
+        - 'w.chen-yi-nianpu 1030: ?'
     tags: [polity:prc, polity:sudan, name:zhou-enlai, name:abboud-ibrahim]
     time_range:
       - 1964-05-19T11:00Z
@@ -4094,6 +4637,20 @@ entries:
       - 1964-05-19T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-19.china-leadership-6
+    when: May 19
+    date: '1964-05-19'
+    place: algiers
+    thread: china-leadership
+    also: [africa-algeria-morocco]
+    c: 'The Chinese Embassy in Algeria to the Foreign Ministry, on Ben Bella''s visit to the Soviet Union: he made the fewest concessions he could, for all his "illusions" about the USSR and the Aswan Dam''s hold on his economic imagination. Invite him to Peking as soon as possible.'
+    n: '[[w.friedman-shadow-cold-war]], 138. Made public: 2015. To check: PRC embassy Algeria to MFA, report on Ben Bella''s visit to USSR, May 19, 1964, CFMA doc. 109-03526-08, 14–17 (cited by [[w.friedman-shadow-cold-war]], 138 n.176). Names: Ben Bella.'
+    src:
+      c: b905aaeb
+      rows:
+        - 'w.friedman-shadow-cold-war 138: all'
+        - 'via x.1964-05-19.prc-embassy-algeria-mfa-ben-bella-s-visit: ?'
+    tags: [polity:prc, polity:algeria, name:ben-bella-ahmed, vis:only:prc]
   - id: cal.1964-05-20.opinion
     when: May 20
     date: '1964-05-20'
@@ -4292,7 +4849,7 @@ entries:
       - tianjin
     thread: china-leadership
     c: 'Zhou flies from Shanghai to Tianjin. With Chen Yi, He Long and Peng Zhen visits a garrison unit at Yangcun and watches a military exercise. On the drill ground raises a fist with the soldiers: heighten vigilance, defend the fatherland. Praises the traditional method of officers and men teaching each other; checks each soldier''s explosive charges against combat standard. Evening, in the rain, watches the "Night Tiger Company" report. Tells the troops to master Mao''s military thought, train in close and night fighting, prepare fully for a war of resistance; in three to five years all troops so trained and the militia too, and none could beat China. Back in Beijing at midnight.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 643–44 (May 20, 1964). Made public: 1997. Names: Zhou Enlai, Chen Yi, He Long, Peng Zhen.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 643–44 (May 20, 1964); [[w.peng-zhen-nianpu-1902]], IV, 334 (May 20, 1964; Peng Zhen, with Chen Yi and He Long, accompanies Zhou Enlai to a unit at Yangcun to see a military exercise; in the evening, in the rain, the "Night Tiger Company''s" display; back to Peking at midnight); [[w.chen-yi-nianpu]], 1030 (May 20, 1964, afternoon; Chen Yi with Peng Zhen, He Long, Luo Ruiqing, Yang Yong 杨勇 and others accompanies Zhou at the Yangcun 杨村 range, Tianjin, to watch the Peking Military Region''s "crack units"). Made public: 1997. Names: Zhou Enlai, Chen Yi, He Long, Peng Zhen.'
     tags: [name:zhou-enlai, name:chen-yi, name:he-long, name:peng-zhen, polity:prc, vis:only:prc]
   - id: cal.1964-05-20.china-leadership-2
     when: May 20
@@ -4301,11 +4858,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Shanghai. Zhou Enlai sees Abboud off at the airport.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 20, 1964; 上午). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Abboud.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 20, 1964; 上午); [[w.chen-yi-nianpu]], 1030 (May 20, 1964, morning; Chen Yi at the Shanghai airport). See [[cal.1964-05-16.china-leadership]]. Names: Zhou Enlai, Abboud.'
     src:
       c: 55e5b8ee
       rows:
         - 'w.zhou-enlai-waijiao-huodong 407: all'
+        - 'w.chen-yi-nianpu 1030: ?'
     tags: [polity:prc, polity:sudan, name:zhou-enlai, name:abboud-ibrahim]
     time_range:
       - 1964-05-19T22:00Z
@@ -4521,6 +5079,14 @@ entries:
       - 1964-05-21T11:00Z
     time_band: daytime
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-21.china-leadership-2
+    when: May 21
+    date: '1964-05-21'
+    place: tianjin
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes the poem "Spending the night at a barracks at Xinhe, Tianjin" 《在天津新河某部营房夜宿》.
+    n: '[[w.chen-yi-nianpu]], 1030. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1964-05-22.program
     when: May 22
     date: '1964-05-22'
@@ -4647,12 +5213,28 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. The Center gives a dinner for Jacques Grippa 格里巴, secretary of the Belgian Communist Party's Central Committee (the editors' note), to 8 p.m.; Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], II, 378 (May 22, 1964). The words: 参加了中央宴请格里巴的宴会，8时才完 (II, 378). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Grippa, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 378 (May 22, 1964); [[w.peng-zhen-nianpu-1902]], IV, 334 (May 22, 1964, evening; Peng Zhen at Liu Shaoqi''s, Zhu De''s and Deng Xiaoping''s dinner welcoming the Belgian Communist Party''s delegation under Jacques Grippa, secretary of its Central Committee). The words: 参加了中央宴请格里巴的宴会，8时才完 (II, 378). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Grippa, Yang Shangkun.'
     src:
       c: a92eef06
       rows:
         - 'w.yang-shangkun-riji II, 378: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 334: ?'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-22T11:00Z
+      - 1964-05-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-22.china-leadership-4
+    when: May 22
+    date: '1964-05-22'
+    place:
+      - tianjin
+      - peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 returns to Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 1030. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
   - id: cal.1964-05-23.europe-and-the-alliance
     when: May 23
     date: '1964-05-23'
@@ -4716,11 +5298,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai receives the film delegations of Mali, Zanzibar and Somalia, invited to China after the third Afro-Asian film festival.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 23, 1964; 下午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 407 (May 23, 1964; 下午); [[w.chen-yi-nianpu]], 1031 (May 23, 1964, afternoon; Chen Yi with Zhou receives the Malian film delegation led by 巴卡里·特拉奥雷, the Zanzibari and the Somali). Names: Zhou Enlai.'
     src:
       c: 64151c5a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 407: all'
+        - 'w.chen-yi-nianpu 1031: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1964-05-23T04:00Z
@@ -4739,6 +5322,32 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 378: all'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-22T22:00Z
+      - 1964-05-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-23.china-leadership-4
+    when: May 23
+    date: '1964-05-23'
+    place: peking
+    thread: china-leadership
+    also: [japan]
+    c: Peking 北京. Chen Yi 陈毅 receives the delegation of the Japanese public servants' unions' joint struggle council led by 佐佐木顺二, and 竹内寿美江 and five others, Japanese delegates to the second international trade union conference on women workers.
+    n: '[[w.chen-yi-nianpu]], 1030. The words: 上午 (1030). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi]
+    time_range:
+      - 1964-05-22T22:00Z
+      - 1964-05-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-23.china-leadership-5
+    when: May 23
+    date: '1964-05-23'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 and his wife, Zhang Qian 张茜, give a banquet for the delegation of Cambodia''s National Assembly at the opening of the China–Cambodia air service, led by Prince Sisowath Pola 西梳瓦·波拉西 (so printed), and the other Cambodian friends on the first flight; he speaks: the air service a further step in the two countries'' friendship; admiration for Prince Sihanouk''s defense of Cambodia''s territory and sovereignty and of peace in Southeast Asia.'
+    n: '[[w.chen-yi-nianpu]], 1030–1031. The words: 上午 (1030–1031). Names: Chen Yi, Sihanouk.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:norodom-sihanouk, ok:fields-place]
     time_range:
       - 1964-05-22T22:00Z
       - 1964-05-23T04:00Z
@@ -5114,6 +5723,19 @@ entries:
         - 'w.yang-shangkun-riji II, 379: all'
     tags: [polity:prc, name:kang-sheng, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-25.china-leadership-5
+    when: May 25
+    date: '1964-05-25'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 receives 基图·卡亨格里, chairman of the Kenyan writers' union, and his secretary, 凯尼卡.
+    n: '[[w.chen-yi-nianpu]], 1031. The words: 下午 (1031). Names: Chen Yi.'
+    tags: [polity:prc, polity:kenya, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-25T04:00Z
+      - 1964-05-25T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-26.elections-1964
     when: May 26
     date: '1964-05-26'
@@ -5476,23 +6098,30 @@ entries:
     thread: china-leadership
     also: [laos]
     c: Chen Yi, Foreign Minister, writes to the two co-chairmen of the Geneva conference and the participants, proposing a conference of the foreign ministers of 14 states at Geneva in June, to discuss Laos first. The Lao situation, he says, is getting more serious by the day. U.S. aircraft's bombing and reconnaissance flights in Laos are the first step of direct armed interference; at the same time the U.S. and its followers have stepped up attacks and aggression against Cambodia and publicly plot to widen the war of aggression in South Vietnam, so that the peace and security of the whole Indochina region are gravely threatened. China thinks that to save Laos from this danger a reconvening of the Geneva conference of the participants is quite necessary and urgent. He hopes the co-chairmen will bring the three Lao sides together to form a delegation of the three forces to attend, so that the conference may meet soon.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 338–339 (May 26, 1964). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 338–339 (May 26, 1964); [[w.chen-yi-nianpu]], 1031 (May 26, 1964). Names: Chen Yi.'
     src:
       c: 52876f31
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 338–339: all'
+        - 'w.chen-yi-nianpu 1031: ?'
     tags: [polity:prc, polity:laos, polity:us, polity:cambodia, name:chen-yi]
+    variants:
+      - unit: A
+        witness: w.chen-yi-nianpu
+        reads: Chen Yi proposes that the fourteen-nation conference of foreign ministers be held at Phnom Penh, Cambodia's capital, in June
+        at: '1031'
   - id: cal.1964-05-26.china-leadership-2
     when: May 26
     date: '1964-05-26'
     thread: china-leadership
     also: [laos]
     c: Chen Yi, Foreign Minister, replies to the British Foreign Secretary on the U.S. distortion of the Lao situation. The coup of the middle-way forces at Vientiane was the inevitable result of the Vientiane coup, he says, and he hopes the British government will seriously consider the proposals in the Chinese government's letter of May 26 to the Geneva conference co-chairmen and participants, and uphold the Geneva agreement.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 339 (May 26, 1964). Names: Chen Yi. Check: the book''s sentence on the ''middle forces'' (查尔平原中间派部队起义) is read as the Plain of Jars middle-group troops'' rising; the Foreign Secretary''s name is not given.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 339 (May 26, 1964); [[w.chen-yi-nianpu]], 1031–1032 (May 26, 1964; the reply to the Foreign Secretary''s letter of May 19). Names: Chen Yi. Check: the book''s sentence on the ''middle forces'' (查尔平原中间派部队起义) is read as the Plain of Jars middle-group troops'' rising; the Foreign Secretary''s name is not given.'
     src:
       c: 13343ab7
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 339: all'
+        - 'w.chen-yi-nianpu 1031–1032: ?'
     tags: [polity:prc, polity:laos, polity:us, polity:uk, name:chen-yi]
   - id: cal.1964-05-26.china-leadership-3
     when: May 26
@@ -5541,6 +6170,14 @@ entries:
         - 'w.dikotter-maos-great-famine 333: all'
         - 'via w.dikotter-maos-great-famine 333 n.39: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-05-26.china-leadership-6
+    when: May 26
+    date: '1964-05-26'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 cables Mohammad Yusuf 穆罕默德·优素福, Afghanistan's Prime Minister and Foreign Minister, on Afghanistan's national day.
+    n: '[[w.chen-yi-nianpu]], 1031. Names: Chen Yi, Yusuf.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:yusuf-mohammed, ok:fields-place]
   - id: cal.1964-05-27.india-and-china
     when: May 27
     date: '1964-05-27'
@@ -5874,11 +6511,12 @@ entries:
     date: '1964-05-27'
     thread: china
     c: Senator Vittorelli, head of the international department of the Italian Socialist Party, begins a visit to China (to June 4). Chen Yi receives him, the day not given; after talks, the days not given, the two sides agree to promote the normalization of diplomatic relations through the normalization of trade and to set up non-governmental trade offices, whose representatives will have diplomatic treatment.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 339 (May 27–June 4, 1964). Names: Chen Yi. Check: the book''s 维托雷利 is the calendar''s Vittorelli; it gives no day for Mao''s and Chen Yi''s receptions or for the agreement.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 339 (May 27–June 4, 1964); [[w.chen-yi-nianpu]], 1032 (May 30, 1964, afternoon; Chen Yi receives Senator Paolo Vittorelli 帕奥洛·维托雷利). Names: Chen Yi. Check: the book''s 维托雷利 is the calendar''s Vittorelli; it gives no day for Mao''s and Chen Yi''s receptions or for the agreement.'
     src:
       c: 4bb56608
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 339: all'
+        - 'w.chen-yi-nianpu 1032: ?'
     tags: [polity:prc, polity:italy, name:chen-yi]
   - id: cal.1964-05-27.china-leadership-5
     when: May 27
@@ -5920,6 +6558,31 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 379: all'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1964-05-27.china-leadership-8
+    when: May 27
+    date: '1964-05-27'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Danish travel writer 约恩·毕奇.
+    n: '[[w.chen-yi-nianpu]], 1032. The words: 下午 (1032). Names: Chen Yi.'
+    tags: [polity:prc, polity:denmark, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-27T04:00Z
+      - 1964-05-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-27.china-leadership-9
+    when: May 27
+    date: '1964-05-27'
+    thread: china-leadership
+    also: [south-asia]
+    c: Chen Yi 陈毅 speaks at the reception of Mohammad Shoaib Miskinyar 穆罕默德·舒埃卜·米斯凯尼亚, Afghanistan's Ambassador, and his wife at the embassy for Afghanistan's national day, congratulating Afghanistan on its achievements.
+    n: '[[w.chen-yi-nianpu]], 1032. The words: 晚上 (1032). Names: Chen Yi, Shoaib.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, name:shoaib-mohammed, ok:fields-place]
+    time_range:
+      - 1964-05-27T11:00Z
+      - 1964-05-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-28.middle-east
     when: May 28–June 2
     date: '1964-05-28'
@@ -6058,12 +6721,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou and Chen Yi go to the Indian embassy to condole Nehru's death and lay a wreath before his portrait.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 645 (May 28, 1964); [[w.zhou-enlai-waijiao-huodong]], 408 (May 28, 1964; 前往印度驻华使馆吊唁尼赫鲁总理逝世). Names: Zhou Enlai, Chen Yi, Nehru.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 645 (May 28, 1964); [[w.zhou-enlai-waijiao-huodong]], 408 (May 28, 1964; 前往印度驻华使馆吊唁尼赫鲁总理逝世); [[w.chen-yi-nianpu]], 1032 (May 28, 1964). Names: Zhou Enlai, Chen Yi, Nehru.'
     src:
       c: 263eaa98
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 645: ?'
         - 'w.zhou-enlai-waijiao-huodong 408: A'
+        - 'w.chen-yi-nianpu 1032: ?'
     tags: [name:zhou-enlai, name:chen-yi, name:nehru-jawaharlal, polity:prc, polity:india]
   - id: cal.1964-05-28.china-leadership-2
     when: May 28
@@ -6135,12 +6799,52 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking 北京, the Hebei Room 河北厅, 3:30 to 7 p.m. The group leaders of the Central Work Conference, Liu Shaoqi 刘少奇 presiding: Li Fuchun 李富春 on the plan; Liu, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Zhu De 朱德 and Peng Zhen 彭真 speak, relaying Mao''s 毛泽东 directive on building the third front 第三线; Yang Shangkun 杨尚昆 there.'
-    n: '[[w.yang-shangkun-riji]], II, 379–380 (May 28, 1964). The words: 下午3时半到7时，在河北厅开小组长会议，由少奇同志主持 (II, 379). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Li Fuchun, Zhou Enlai, Deng Xiaoping, Zhu De, Peng Zhen, Mao Zedong, Yang Shangkun. Check: whether the Secretariat meeting of [[cal.1964-05-28.china-leadership-2]].'
+    n: '[[w.yang-shangkun-riji]], II, 379–380 (May 28, 1964); [[w.peng-zhen-nianpu-1902]], IV, 334 (May 28, 1964; Peng Zhen at the meeting Liu Shaoqi chairs of the Standing Committee, the Secretariat and the regional bureaus'' first secretaries, on the line of the Third Five-Year Plan). The words: 下午3时半到7时，在河北厅开小组长会议，由少奇同志主持 (II, 379). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Li Fuchun, Zhou Enlai, Deng Xiaoping, Zhu De, Peng Zhen, Mao Zedong, Yang Shangkun. Check: whether the Secretariat meeting of [[cal.1964-05-28.china-leadership-2]].'
     src:
       c: fadc36dd
       rows:
         - 'w.yang-shangkun-riji II, 379–380: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 334: ?'
     tags: [polity:prc, name:liu-shaoqi, name:li-fuchun, name:zhou-enlai, name:deng-xiaoping, name:zhu-de, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-28.china-leadership-8
+    when: May 28
+    date: '1964-05-28'
+    thread: china-leadership
+    also: [latin-america]
+    c: Chen Yi 陈毅 receives the Uruguayan poet Sarandy Cabrera 沙朗迪·卡勃莱拉.
+    n: '[[w.chen-yi-nianpu]], 1032. The words: 上午 (1032). Names: Chen Yi.'
+    tags: [polity:prc, polity:uruguay, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-27T22:00Z
+      - 1964-05-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-28.china-leadership-9
+    when: May 28
+    date: '1964-05-28'
+    thread: china-leadership
+    also: [indonesia]
+    c: Chen Yi 陈毅 receives the women workers' delegation of SOBSI 全印度尼西亚中央职工会, led by 斯里·安巴尔, visiting China after the international trade union conference on women workers.
+    n: '[[w.chen-yi-nianpu]], 1032. The words: 下午 (1032). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-28T04:00Z
+      - 1964-05-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05-28.china-leadership-10
+    when: May 28
+    date: '1964-05-28'
+    thread: china-leadership
+    also: [latin-america]
+    c: Chen Yi 陈毅 receives 玛丽娅·路易莎·德·马契卡奥, executive chairman of the city teachers' federation of La Paz province, Bolivia, and 费罗米娜·萨荷耶, general secretary of the agricultural workers' union of British Guiana, visiting China after the conference on women workers.
+    n: '[[w.chen-yi-nianpu]], 1032. The words: 下午 (1032). Names: Chen Yi.'
+    tags: [polity:prc, polity:bolivia, polity:guyana, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-28T04:00Z
+      - 1964-05-28T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1964-05-29.goldwater
     when: May 29
@@ -6381,6 +7085,18 @@ entries:
         - 'w.yang-shangkun-riji II, 380: all'
     tags: [polity:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1964-05-29.china-leadership-6
+    when: May 29
+    date: '1964-05-29'
+    thread: china-leadership
+    c: Lucien Paye 吕西恩·佩耶, France's first Ambassador to China, calls on Chen Yi 陈毅 about presenting his credentials.
+    n: '[[w.chen-yi-nianpu]], 1032. The words: 上午 (1032). Names: Chen Yi.'
+    tags: [polity:prc, polity:fr, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-28T22:00Z
+      - 1964-05-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-05-30.governors-nc
     when: May 30
     date: '1964-05-30'
@@ -6590,6 +7306,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 380: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-05-30.china-leadership-5
+    when: May 30
+    date: '1964-05-30'
+    thread: china-leadership
+    also: [middle-east, soviet-union]
+    c: 'The Foreign Ministry''s intelligence report on Khrushchev''s visit to the UAR, with the Embassy at Cairo''s view: Nasser did not cave; he would not take sides or back Soviet attendance at the Afro-Asian conference; the visit''s results "cannot be compared to those of the Prime Minister''s visit to Africa." The Soviets insist on calling their country "Eurasian" in joint communiqués.'
+    n: '[[w.friedman-shadow-cold-war]], 110, 112. Made public: 2015. To check: MFA intelligence report on Khrushchev''s visit to UAR, May 30, 1964, CFMA doc. 109-03526-07, 6 (cited by [[w.friedman-shadow-cold-war]], 110 n.38a); MFA intelligence report on Khrushchev''s visit to UAR, May 30, 1964, CFMA doc. 109-03526-07, 1–10 (cited by [[w.friedman-shadow-cold-war]], 112 n.49a). Names: Nasser, Khrushchev.'
+    src:
+      c: f46c8d13
+      rows:
+        - 'w.friedman-shadow-cold-war 110, 112: all'
+        - 'via x.1964-05-30.mfa-intelligence-report-khrushchevs-visit-uar-may: ?'
+    tags: [polity:prc, vis:only:prc, ok:fields-place, name:nasser-gamal-abdel, name:khrushchev-nikita-s]
   - id: cal.1964-05-31.opinion
     when: May 31
     date: '1964-05-31'
@@ -6914,11 +7643,14 @@ entries:
     thread: middle-east
     also: [soviet-union]
     c: 'Egypt. Khrushchev at the ceremony for the Aswan Dam, seated beside Aref of Iraq. In private, the Soviet delegation to the Egyptians on Nasser''s persecution of Egypt''s Communists: "How is it possible to pursue a policy of anticommunism in a country that is building socialism?"'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 531. Check: the days. Names: Khrushchev, Aref, Nasser.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 531; [[w.friedman-shadow-cold-war]], 111–112 (Khrushchev''s first trip to Africa, May 1964, for the first stage of the Aswan High Dam, announced just after Zhou Enlai''s African tour and the Jakarta meeting that left the USSR out: a new loan of 252 million rubles (about $300 million); talks with Ben Bella, come from Algeria; Nasser to build "socialism"; Khrushchev calls the UAR a "democratic socialist country," Nasser "comrade," and makes him a Hero of the Soviet Union; *Izvestiia*: the reception makes the Chinese leaders look "pathetic"). Check: the days. To check: MFA intelligence report on Khrushchev''s visit to UAR, May 30, 1964, CFMA doc. 109-03526-07, 1–10 (cited by [[w.friedman-shadow-cold-war]], 112 n.49a); PRC embassy Moscow to MFA, May 27, 1964, CFMA doc. 109-03526-07, 1–10 (cited by [[w.friedman-shadow-cold-war]], 112 n.49b). Names: Khrushchev, Aref, Nasser.'
     src:
       c: 1362d02b
       rows:
         - 'w.fursenko-khrushchevs-cold-war 531: all'
+        - 'w.friedman-shadow-cold-war 111–112: ?'
+        - 'via x.1964-05-30.mfa-intelligence-report-khrushchevs-visit-uar-may: ?'
+        - 'via x.1964-05-27.prc-embassy-moscow-mfa-may-27-1964: ?'
     tags: [name:khrushchev-nikita-s, name:arif-abdul-salam-muhammad, name:nasser-gamal-abdel]
   - id: cal.1964-05.soviet-union
     when: May, late
@@ -7338,3 +8070,42 @@ entries:
     c: Bến Tre. In May Companies 1 and 2 of Battalion 516 badly maul the 41st Ranger ("Black Tiger") Battalion.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 360. Check: the day.'
     tags: [polity:drv]
+  - id: cal.1964-05.africa
+    when: May
+    date: 1964-05
+    thread: africa
+    c: A World Bank report on a railway from Northern Rhodesia's copper mines to the Indian Ocean, pessimistic, ends Nyerere's hopes of American, British or international financing.
+    n: '[[w.friedman-shadow-cold-war]], 120. To check: [[w.bailey-freedom-railway]], 41–42 (cited by [[w.friedman-shadow-cold-war]], 120 n.78). Names: Nyerere.'
+    src:
+      c: 92d75176
+      rows:
+        - 'w.friedman-shadow-cold-war 120: all'
+    tags: [polity:tanzania, polity:zambia, name:nyerere-julius-k]
+  - id: cal.1964-05-31.china-leadership-4
+    when: May 31
+    date: '1964-05-31'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and his wife, Zhang Qian 张茜, give a dinner for Dr. Hewlett Johnson 休勒特·约翰逊, former Dean of Canterbury, and his wife.
+    n: '[[w.chen-yi-nianpu]], 1033. The words: 中午 (1033). Names: Chen Yi.'
+    tags: [polity:prc, polity:uk, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1964-05-31T04:00Z
+      - 1964-05-31T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1964-05.soviet-union-3
+    when: May, before the 9th
+    date: 1964-05
+    at: before 1964-05-09
+    place: moscow
+    thread: soviet-union
+    also: [africa-algeria-morocco]
+    c: Ben Bella in the Soviet Union, after the FLN congress, to a hero's welcome. A new loan of about $126.5 million, for projects from mines to technical schools. Ben Bella calls the Soviet Union Algeria's "loyal friend" and backs the test ban treaty, but repeats the Chinese line that while oppressed and oppressing nations exist there can be no real peace; he will not enter the Sino-Soviet quarrel or legalize the Communist Party.
+    n: '[[w.friedman-shadow-cold-war]], 137–38. To check: MFA intelligence report to CC on Ben Bella''s visit to USSR, May 9, 1964, CFMA doc. 109-03526-08, 5–7 (cited by [[w.friedman-shadow-cold-war]], 138 n.175); PRC embassy Algeria to MFA, report on Ben Bella''s visit to USSR, May 19, 1964, CFMA doc. 109-03526-08, 14–17 (cited by [[w.friedman-shadow-cold-war]], 138 n.176). Names: Ben Bella. Check: the days; the text has him come "on the heels of" the April congress; the Chinese Foreign Ministry''s intelligence report on the visit is of May 9 (138 n.175).'
+    src:
+      c: 8f5362fc
+      rows:
+        - 'w.friedman-shadow-cold-war 137–38: all'
+        - 'via x.1964-05-09.mfa-intelligence-cc-ben-bella-s-visit-ussr: ?'
+        - 'via x.1964-05-19.prc-embassy-algeria-mfa-ben-bella-s-visit: ?'
+    tags: [polity:ussr, polity:algeria, name:ben-bella-ahmed]

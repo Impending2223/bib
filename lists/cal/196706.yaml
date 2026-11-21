@@ -324,6 +324,19 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 553: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 553 n.4: all'
     tags: [polity:prc, name:zhou-enlai]
+  - id: cal.1967-06-02.china-leadership-4
+    when: June 2
+    date: '1967-06-02'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the evening of the Committee for Cultural Relations with Foreign Countries and the Association for Friendship with Foreign Countries, at the Great Hall of the People 人民大会堂, Peking 北京, for the diplomatic corps and foreign friends, on the twenty-fifth anniversary of Mao's "Talks at the Yan'an Forum on Literature and Art."
+    n: '[[w.chen-yi-nianpu]], 1191. The words: 晚上 (1191). Names: Chen Yi, Mao Zedong.'
+    tags: [polity:prc, name:chen-yi, name:mao-zedong]
+    time_range:
+      - 1967-06-02T11:00Z
+      - 1967-06-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1967-06-03.middle-east
     when: June 3
     date: '1967-06-03'
@@ -438,12 +451,31 @@ entries:
     date: '1967-06-03'
     thread: china
     c: 'The *Renmin ribao* 人民日報 editorial "Firmly strike back at the British imperialists'' provocation," approved and revised by Zhou Enlai 周恩來: the Hong Kong left to "answer the motherland''s call at any time and smash the reactionary rule of British imperialism."'
-    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1097. Names: Zhou Enlai.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1097; [[w.jian-zhou-enlai]], 580 (Zhou reviews the draft on June 2 without comment, later asks Chen Boda to revise and polish it so that its tone is not "too high"; printed the next day, its tone "still quite intense"). To check: [[w.renmin-ribao]], June 3, 1967, 1 (cited by [[w.jian-zhou-enlai]], 580 n.59). Names: Zhou Enlai.'
     src:
       c: '70353739'
       rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 1097: all'
+        - 'w.jian-zhou-enlai 580: ?'
     tags: [polity:prc, name:zhou-enlai, ok:fields-place]
+    variants:
+      - unit: A
+        witness: w.jian-zhou-enlai
+        reads: Zhou reviews the draft without comment; Chen Boda revises it at his request
+        at: '580'
+  - id: cal.1967-06-03.middle-east-2
+    when: June 3
+    date: '1967-06-03'
+    thread: middle-east
+    also: [soviet-union]
+    c: The head of the UAR's operational General Staff tells a senior group of Soviet military specialists in the UAR that not all Egyptian commanders approve Nasser's line "for restraint."
+    n: '[[w.friedman-shadow-cold-war]], 158–59. Made public: 2015. To check: Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 20 (cited by [[w.friedman-shadow-cold-war]], 159 n.46). Names: Nasser. Check: by Brezhnev''s account to the plenum of June 20, 1967, from the embassy''s data (159 n.46).'
+    src:
+      c: 58e731cb
+      rows:
+        - 'w.friedman-shadow-cold-war 158–59: all'
+        - 'via x.1967-06-20.brezhnev-speech-communist-party-plenum-june-20-1967: ?'
+    tags: [polity:uar, polity:ussr, name:nasser-gamal-abdel, vis:only:uar+ussr]
   - id: cal.1967-06-04.middle-east
     when: June 4
     date: '1967-06-04'
@@ -759,11 +791,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou attends the closing of the symposium held by the Afro-Asian Writers' Permanent Bureau for the twenty-fifth anniversary of Mao's *Talks at the Yan'an Forum on Literature and Art*.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (June 5, 1967; evening; Beijing). Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (June 5, 1967; evening; Beijing); [[w.friedman-shadow-cold-war]], 155 (the "International Seminar" on the twenty-fifth anniversary of the Yan''an talks, Peking, late May and early June 1967, representatives of thirty-four countries). To check: Embassy Beijing, report on preparation in Beijing for "Solidarity Conference of Afro-Asian Writers and Journalists," September 14, 1967, AVPRF f.100 o.54 papka 231 d.30, 105 (cited by [[w.friedman-shadow-cold-war]], 155 n.30). Names: Zhou Enlai, Mao Zedong.'
     src:
       c: c9cea8bd
       rows:
         - 'w.zhou-enlai-waijiao-huodong 512: all'
+        - 'w.friedman-shadow-cold-war 155: ?'
+        - 'via x.1967-09-14.embassy-beijing-preparation-beijing-solidarity-conference-afro-asian: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong]
     time_range:
       - 1967-06-05T11:00Z
@@ -782,6 +816,18 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 494: all'
     tags: [polity:prc]
+  - id: cal.1967-06-05.china-leadership-4
+    when: June 5
+    date: '1967-06-05'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the reception of Oldenburg 奥尔登伯格, Denmark's Ambassador, for Denmark's Constitution Day.
+    n: '[[w.chen-yi-nianpu]], 1191. The words: 晚上 (1191). Names: Chen Yi.'
+    tags: [polity:prc, polity:denmark, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1967-06-05T11:00Z
+      - 1967-06-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1967-06-06.middle-east
     when: June 6
     date: '1967-06-06'
@@ -1140,12 +1186,18 @@ entries:
     thread: china-leadership
     also: [latin-america]
     c: 'Chen Yi receives Philippine congressman Vicente Sagun, the vice-chairman of the Movement for the Promotion of Nationalism, the secretary-general José Sison, and other Philippine friends and the editors of the weekly *Free Press*. On trade, the main obstacle is the sending of Philippine troops to Vietnam; once that is gone private trade is possible, and official trade after the break with Chiang Kai-shek; the obstacle comes from the U.S. China opposes every form of "two Chinas". On Chinese in the Philippines: those who keep Chinese nationality must obey local law, and China must care for their safety; those who take local nationality are Filipinos, loyal to the local government; the imperialist charge that China uses overseas Chinese for subversion in Southeast Asia is ill-meant, since they are nationals of those states and China is not answerable for them.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 157–158 (June 7, 1967). Names: Chen Yi, Chiang Kai-shek. Check: the names, from the Chinese 文森索·萨贡, 何塞·西松, 迪奥多罗·络幸 and 尼克·华金; "the sending of Philippine troops to Vietnam" is the chronology''s wording.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 157–158 (June 7, 1967); [[w.chen-yi-nianpu]], 1191 (June 7, 1967, morning; with José Sison 何塞·西松 and his wife among them; and Teodoro Locsin 迪奥多罗·洛幸, publisher and editor of the *Free Press* 《自由新闻》, and his deputy editor, Nick Joaquin 尼克·华金). Names: Chen Yi, Chiang Kai-shek. Check: the names, from the Chinese 文森索·萨贡, 何塞·西松, 迪奥多罗·络幸 and 尼克·华金; "the sending of Philippine troops to Vietnam" is the chronology''s wording.'
     src:
       c: e8a59627
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 157–158: all'
+        - 'w.chen-yi-nianpu 1191: ?'
     tags: [polity:prc, polity:philippines, name:chen-yi, name:chiang-kai-shek]
+    time_range:
+      - 1967-06-06T22:00Z
+      - 1967-06-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1967-06-08.middle-east
     when: June 8–10
     date: '1967-06-08'
@@ -1247,14 +1299,20 @@ entries:
     thread: china-leadership
     also: [middle-east-six-day-war]
     c: 'Zhou, to the UAR ambassador in the Fujian Hall of the Great Hall of the People: the Israeli surprise attack on the Arab states was incited and directed by the U.S. and Britain, and shows that great-power politics is the enemy of the peoples of Asia, Africa and Latin America who were and are oppressed.'
-    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (June 8, 1967; 7:30 p.m., Fujian Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 158 (June 8, 1967; Zhou and Chen Yi receive the UAR ambassador, Imam; Zhou''s admiration for the Arab peoples'' resistance to U.S., British and Israeli aggression). Made public: 1993. The book names the ambassador 伊马姆. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (June 8, 1967; 7:30 p.m., Fujian Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 158 (June 8, 1967; Zhou and Chen Yi receive the UAR ambassador, Imam; Zhou''s admiration for the Arab peoples'' resistance to U.S., British and Israeli aggression); [[w.chen-yi-nianpu]], 1191 (June 8, 1967, afternoon; Chen Yi and Zhou receive Imam 伊马姆, the UAR''s Ambassador, and declare firm support for the Arab people''s fight against American, British and Israeli aggression). Made public: 1993. The book names the ambassador 伊马姆. Names: Zhou Enlai.'
     src:
       c: 40fcb355
       rows:
         - 'w.zhou-enlai-waijiao-huodong 512: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 158: all'
+        - 'w.chen-yi-nianpu 1191: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc+uar]
     time_zone: Asia/Shanghai
+    variants:
+      - unit: A
+        witness: w.chen-yi-nianpu
+        reads: Zhou and Chen Yi receive the UAR Ambassador in the afternoon (下午)
+        at: '1191'
   - id: cal.1967-06-08.china-leadership-2
     when: June 8
     date: '1967-06-08'
@@ -1468,11 +1526,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking, the small auditorium of the Great Hall 人大會堂小禮堂. The old three armies' troupes perform again; the Center's leaders come, go up on the stage and are photographed with the performers.
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 430.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 430; [[w.teiwes-tragedy-of-lin-biao]], 43–44 (Lin shows his support of the "conservative" faction by attending a later performance in early June, the authors take it that of June 9, with Mao and following his lead; shouts of "Long live Vice Chairman Lin" from the audience). To check: [[w.ye-yonglie-caifang-shouji]], 120 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.84a); [[w.nianyi-da-dongluande-niandai]], 373 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.84b).'
     src:
       c: 22cc2360
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 430: all'
+        - 'w.teiwes-tragedy-of-lin-biao 43–44: ?'
     tags: [polity:prc]
   - id: cal.1967-06-10.oil
     when: June 10
@@ -1594,6 +1653,17 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 159: all'
     tags: [polity:prc, polity:bulgaria]
+  - id: cal.1967-06-10.china-leadership
+    when: June 10
+    date: '1967-06-10'
+    thread: china-leadership
+    c: 'Lin Biao''s 林彪 office, the day after shouts of "Long live Vice Chairman Lin" at the performance, orders the Cultural Revolution Group to issue a circular: only "Long live Chairman Mao" to be used.'
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 44 n.84 (the authors date the performance June 9; Ye Yonglie, May). Made public: 1988 ([[w.nianyi-da-dongluande-niandai]]). To check: [[w.ye-yonglie-caifang-shouji]], 120 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.84a); [[w.nianyi-da-dongluande-niandai]], 373 (cited by [[w.teiwes-tragedy-of-lin-biao]], 44 n.84b). See [[cal.1967-06-09.china-leadership-3]]. Names: Lin Biao, Mao Zedong.'
+    src:
+      c: 4dde1f48
+      rows:
+        - 'w.teiwes-tragedy-of-lin-biao 44 n.84: all'
+    tags: [polity:prc, name:lin-biao, vis:only:prc, name:mao-zedong]
   - id: cal.1967-06-11.civil-disorders
     when: June 11
     date: '1967-06-11'
@@ -1924,11 +1994,13 @@ entries:
     thread: soviet-union-leadership
     also: [middle-east]
     c: 'Moscow. Brezhnev and other leaders with Boumediene, flown in after the Six-Day War. Brezhnev''s list for the talks: how the war began and its results, the Security Council and the General Assembly, a four-power meeting, the slogan of liquidating Israel unpopular, whether to renew the war now. Boumediene''s account, as Brezhnev noted it: the Arabs have lost the first battle; Israel an imperialist base; the defeat may cost the Soviet Union its revolutionary standing in the Third World, and Moscow should ask whether to revise peaceful coexistence; the aim at least the withdrawal of troops.'
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 221–24 (№ 58, "К переговорам с Бумедьеном — 12го июня" (for the talks with Boumediene, June 12) and the notes of the talks), 283 n.192 (the editors: urgent help to the forces of the UAR, Syria and Algeria on the Politburo''s decisions). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 196 (the secretaries'' record, June 12–13: Moscow. Brezhnev negotiates with Boumediene in the Kremlin, 7 p.m. to 1 a.m). Made public: 2016. To check: the Soviet and Algerian records of the talks; which of the notes are Brezhnev''s questions and which Boumediene''s words (the book does not mark them). Names: Boumediene, Brezhnev.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 221–24 (№ 58, "К переговорам с Бумедьеном — 12го июня" (for the talks with Boumediene, June 12) and the notes of the talks), 283 n.192 (the editors: urgent help to the forces of the UAR, Syria and Algeria on the Politburo''s decisions). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 196 (the secretaries'' record, June 12–13: Moscow. Brezhnev negotiates with Boumediene in the Kremlin, 7 p.m. to 1 a.m); [[w.friedman-shadow-cold-war]], 159 (Boumediene in Moscow for talks, June 12 and 13, asks for "more decisive" Soviet action and an end to "peaceful coexistence"). Made public: 2016. To check: the Soviet and Algerian records of the talks; which of the notes are Brezhnev''s questions and which Boumediene''s words (the book does not mark them); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 51 (cited by [[w.friedman-shadow-cold-war]], 159 n.49). Names: Boumediene, Brezhnev.'
     src:
       c: 4e398163
       rows:
         - 'w.brezhnev-rabochie-i-dnevnikovye II, 196: ?'
+        - 'w.friedman-shadow-cold-war 159: ?'
+        - 'via x.1967-06-20.brezhnev-speech-communist-party-plenum-june-20-1967: ?'
     tags: [polity:ussr, polity:algeria, name:brezhnev-leonid, name:boumediene-houari, vis:only:ussr+algeria]
   - id: cal.1967-06-12.china-leadership
     when: June 12
@@ -1952,12 +2024,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou attends the reception given by Nepal's ambassador for the birthday of King Mahendra.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 512–13 (June 12, 1967; Beijing; the time not given); [[w.zhonghua-renmin-gongheguo-waijiao]], 159 (June 12, 1967; Chen Yi''s speech at the Nepali ambassador''s reception for King Mahendra''s birthday: U.S. and Britain behind Israel''s war on the UAR and Syria; China stands with the Arab people). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 512–13 (June 12, 1967; Beijing; the time not given); [[w.zhonghua-renmin-gongheguo-waijiao]], 159 (June 12, 1967; Chen Yi''s speech at the Nepali ambassador''s reception for King Mahendra''s birthday: U.S. and Britain behind Israel''s war on the UAR and Syria; China stands with the Arab people); [[w.chen-yi-nianpu]], 1191 (June 12, 1967; Chen Yi speaks at the reception of 伦迪尔·苏巴). Names: Zhou Enlai.'
     src:
       c: e3e05fed
       rows:
         - 'w.zhou-enlai-waijiao-huodong 512–13: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao 159: all'
+        - 'w.chen-yi-nianpu 1191: ?'
     tags: [polity:prc, name:zhou-enlai]
   - id: cal.1967-06-13.court
     when: June 13
@@ -2197,6 +2270,17 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 1095: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1967-06-13.china-leadership-3
+    when: June 13 and 15
+    date: '1967-06-13'
+    thread: china-leadership
+    c: Peng Zhen 彭真 questioned by the case office.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 497. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 0968aa7a
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 497: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
   - id: cal.1967-06-14.vietnam-congress
     when: June 14
     date: '1967-06-14'
@@ -2340,6 +2424,20 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 1095: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1967-06-14.soviet-union
+    when: June 14
+    date: '1967-06-14'
+    place: peking
+    thread: soviet-union
+    also: [china]
+    c: 'The Soviet Embassy in Peking on the Chinese press: January to May, more than 110 articles praising the Cultural Revolution by representatives of forty-two Afro-Asian countries, many of them foreigners living in Peking under the regime''s patronage.'
+    n: '[[w.friedman-shadow-cold-war]], 154. Made public: 2015. To check: Embassy Beijing, report on Chinese press, June 14, 1967, AVPRF f.100 o.54 papka 231 d.30, 71 (cited by [[w.friedman-shadow-cold-war]], 154 n.29).'
+    src:
+      c: 42a137ae
+      rows:
+        - 'w.friedman-shadow-cold-war 154: all'
+        - 'via x.1967-06-14.embassy-beijing-chinese-press-june-14-1967: ?'
+    tags: [polity:ussr, vis:only:ussr]
   - id: cal.1967-06-15.health-ca
     when: June 15
     date: '1967-06-15'
@@ -2622,7 +2720,7 @@ entries:
     thread: testing
     also: [china]
     c: China explodes its first hydrogen bomb over Lop Nur, Sinkiang, dropped from an aircraft, some 3 megatons; 32 months after its first atomic test. Check the yield.
-    n: '[*Peking Review*, no. 26 (1967)](https://www.marxists.org/subject/china/peking-review/1967/PR1967-26.pdf) (the communiqué). [[w.poole-joint-chiefs-of-staff-2012]], 37 (the device, June 17); [[w.drea-mcnamara-clifford-and-the-2011]], 366 (the first Chinese hydrogen bomb, June 17); [[w.zedong-mao-zedong-nianpu]], VI, June 17, 1967 (the explosion, in the air over the west); [[w.zhonghua-renmin-gongheguo-waijiao]], 161 (June 17, 1967; Xinhua''s communique: China''s first hydrogen bomb exploded over the west; never first use). To check: [[w.lewis-china-builds-the-bomb]]. See [[cal.1964-10-16.testing]]; [[cal.1966-05-17.testing]].'
+    n: '[*Peking Review*, no. 26 (1967)](https://www.marxists.org/subject/china/peking-review/1967/PR1967-26.pdf) (the communiqué). [[w.poole-joint-chiefs-of-staff-2012]], 37 (the device, June 17); [[w.drea-mcnamara-clifford-and-the-2011]], 366 (the first Chinese hydrogen bomb, June 17); [[w.zedong-mao-zedong-nianpu]], VI, June 17, 1967 (the explosion, in the air over the west); [[w.zhonghua-renmin-gongheguo-waijiao]], 161 (June 17, 1967; Xinhua''s communique: China''s first hydrogen bomb exploded over the west; never first use); [[w.teiwes-tragedy-of-lin-biao]], 10 (Lin''s nonchalance at China''s first hydrogen bomb test, by Zhang Yunsheng). To check: [[w.lewis-china-builds-the-bomb]]; [[w.yunsheng-maojiawan-jishi]], 297–300, 331–332 (cited by [[w.teiwes-tragedy-of-lin-biao]], 10 n.3a); [[w.weixun-wo-suo-zhidaode-ye]], 219 (cited by [[w.teiwes-tragedy-of-lin-biao]], 10 n.3b); the film *Zhou Enlai*, made in the late 1980s with the Central Documents Research Office''s help, which shows a passive, distant Lin Biao, as Teiwes and Sun describe it (10 n.3) (cited by [[w.teiwes-tragedy-of-lin-biao]], 10 n.3c). See [[cal.1964-10-16.testing]]; [[cal.1966-05-17.testing]].'
     src:
       c: 7bfc020c
       rows:
@@ -2631,6 +2729,8 @@ entries:
         - 'w.poole-joint-chiefs-of-staff-2012 37: A'
         - 'w.zedong-mao-zedong-nianpu VI, June 17, 1967: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 161: A'
+        - 'w.teiwes-tragedy-of-lin-biao 10: ?'
+        - 'via x.undated.film-zhou-enlai-late-1980s: ?'
   - id: cal.1967-06-17.civil-disorders
     when: June 17–20
     date: '1967-06-17'
@@ -2787,6 +2887,18 @@ entries:
         - 'via w.yang-jisheng-tiandi-fanfu I, 472 n.25a: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 472 n.25b: all'
     tags: [polity:prc]
+  - id: cal.1967-06-17.china-leadership-7
+    when: June 17
+    date: '1967-06-17'
+    place: peking
+    thread: china-leadership
+    c: 'The *Beijing ribao* 北京日报 prints the editorial "Peng Zhen, deadly enemy of the dictatorship of the proletariat" 《彭真——无产阶级专政的死敌》: "head of the old Peking committee''s counterrevolutionary revisionist clique," a "great careerist and plotter," a "great traitor," an "old anti-Communist."'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 497. Names: Peng Zhen.'
+    src:
+      c: 62de85bb
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 497: all'
+    tags: [polity:prc, name:peng-zhen, ok:fields-place]
   - id: cal.1967-06-18.opinion
     when: June 18
     date: '1967-06-18'
@@ -3165,12 +3277,18 @@ entries:
     thread: soviet-union-leadership
     also: [middle-east]
     c: Moscow. The Central Committee's June plenum. Brezhnev reports, "On the Policy of the Soviet Union in Connection With Israel's Aggression in the Middle East," June 20, 10 to 2, and presides 4 to 6; June 21, at the plenum, 10 to 4.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 198 (June 20–21); [[w.schattenberg-brezhnev]], 181, 250 (Brezhnev asks for comments on the anniversary speech; Andropov a candidate member of the Politburo; 181 n.77, 250 n.52). The Politburo of 8 to 11:45 p.m. is in the record of June 20; the plenum is public. To check: RGANI, f. 2, op. 3, d. 70, l. 4, 200 (stenographic report, June 20–21, 1967); d. 57 (Protocol no. 5), l. 5 (cited by [[w.schattenberg-brezhnev]], 181 n.77, 250 n.52). Names: Brezhnev.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 198 (June 20–21); [[w.schattenberg-brezhnev]], 181, 250 (Brezhnev asks for comments on the anniversary speech; Andropov a candidate member of the Politburo; 181 n.77, 250 n.52); [[w.friedman-shadow-cold-war]], 157 (Brezhnev groups the Cubans with the Chinese, putting their national interests before the socialist world''s; the Politburo taking "certain measures" against those tendencies in the Cuban leadership); [[w.friedman-shadow-cold-war]], 158 (Brezhnev: Nasser''s order of May 19 a "not-well-thought-out step," taken without consulting Moscow; Soviet arms to the Arab states only, the PLO left to seek support from Peking); [[w.friedman-shadow-cold-war]], 158–59 (Brezhnev: the UAR''s generals for a preventive strike; Syria''s Prime Minister Zayen to the Soviet ambassador, several times: "now is the best time for a decisive blow against imperialist forces in the Near East"); [[w.friedman-shadow-cold-war]], 159 (Brezhnev: Zhou Enlai calls on the Arab states "to continue the war at any cost"; the Arab leaders, Nasser too, did not consult their socialist "friends," not yet Marxists and open to petty-bourgeois nationalism, to be cured by deeper Soviet ties); [[w.friedman-shadow-cold-war]], 160 (the Arabs now willing to take hands-on Soviet help in training and planning, military and diplomatic). The Politburo of 8 to 11:45 p.m. is in the record of June 20; the plenum is public. To check: RGANI, f. 2, op. 3, d. 70, l. 4, 200 (stenographic report, June 20–21, 1967); d. 57 (Protocol no. 5), l. 5 (cited by [[w.schattenberg-brezhnev]], 181 n.77, 250 n.52); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 55–57 (cited by [[w.friedman-shadow-cold-war]], 157 n.38); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 57 (cited by [[w.friedman-shadow-cold-war]], 157 n.39); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 54 (cited by [[w.friedman-shadow-cold-war]], 158 n.42a); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 15 (cited by [[w.friedman-shadow-cold-war]], 158 n.44); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 20 (cited by [[w.friedman-shadow-cold-war]], 159 n.46); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 21 (cited by [[w.friedman-shadow-cold-war]], 159 n.47); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 53 (cited by [[w.friedman-shadow-cold-war]], 159 n.48); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 46 (cited by [[w.friedman-shadow-cold-war]], 159 n.50); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65 (cited by [[w.friedman-shadow-cold-war]], 159 n.51); Brezhnev speech at Communist Party plenum, June 20, 1967, RGANI f.2 o.3 d.65, 70–73 (cited by [[w.friedman-shadow-cold-war]], 160 n.52). Names: Brezhnev.'
     src:
       c: 3246fc5f
       rows:
         - 'w.brezhnev-rabochie-i-dnevnikovye II, 198: ?'
         - 'w.schattenberg-brezhnev 181, 250: B'
+        - 'w.friedman-shadow-cold-war 157: ?'
+        - 'via x.1967-06-20.brezhnev-speech-communist-party-plenum-june-20-1967: ?'
+        - 'w.friedman-shadow-cold-war 158: ?'
+        - 'w.friedman-shadow-cold-war 158–59: ?'
+        - 'w.friedman-shadow-cold-war 159: ?'
+        - 'w.friedman-shadow-cold-war 160: ?'
     tags: [name:brezhnev-leonid, polity:ussr, polity:israel]
   - id: cal.1967-06-20.china-leadership-2
     when: June 20
@@ -3294,13 +3412,14 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zambia's President Kaunda visits China; Zhou Enlai receives him and holds talks with him from the 21st to the 25th.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 159–160 (June 21–25, 1967); [[w.zhou-enlai-waijiao-huodong]], 513 (June 21–25, 1967; June 21, afternoon, the airport welcome and the evening banquet; June 22, 10:30 a.m., Building 18, Diaoyutai guesthouse, the first talks; June 23, 5:30 p.m., Fujian Hall, Great Hall of the People, the second talks); [[w.zhonghua-renmin-gongheguo-waijiao]], 162 (June 21–25, 1967; Kaunda''s visit, June 21–25; Zhou''s talks). Made public: 1993. Names: Zhou Enlai, Kaunda.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 159–160 (June 21–25, 1967); [[w.zhou-enlai-waijiao-huodong]], 513 (June 21–25, 1967; June 21, afternoon, the airport welcome and the evening banquet; June 22, 10:30 a.m., Building 18, Diaoyutai guesthouse, the first talks; June 23, 5:30 p.m., Fujian Hall, Great Hall of the People, the second talks); [[w.zhonghua-renmin-gongheguo-waijiao]], 162 (June 21–25, 1967; Kaunda''s visit, June 21–25; Zhou''s talks); [[w.friedman-shadow-cold-war]], 155 (Kaunda will not endorse the Cultural Revolution even while negotiating Chinese aid for the Tanzam railway). Made public: 1993. Names: Zhou Enlai, Kaunda.'
     src:
       c: 59f61154
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 159–160: ?'
         - 'w.zhou-enlai-waijiao-huodong 513: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao 162: A'
+        - 'w.friedman-shadow-cold-war 155: ?'
     tags: [name:zhou-enlai, name:kaunda-kenneth-d, polity:prc, vis:only:prc+zambia]
   - id: cal.1967-06-21.china-leadership-4
     when: June 21
@@ -4046,6 +4165,17 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 1096: all'
     tags: [polity:prc, polity:burma]
+  - id: cal.1967-06-27.china-leadership-2
+    when: June 27
+    date: '1967-06-27'
+    thread: china-leadership
+    c: Peng Zhen 彭真, his waist hurt after a struggle meeting, his right hand unable to hold things, in pain and sleepless, asks the sentry for a painkiller and is refused.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 497. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: b829521d
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 497: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
   - id: cal.1967-06-28.vietnam
     when: June 28–30
     date: '1967-06-28'
@@ -4393,13 +4523,14 @@ entries:
     place: hanoi
     thread: vietnam-tet
     c: 'The Politburo approves the strategic resolve: the war still protracted, but a decisive victory to be sought within a relatively short time, projected for 1968, by defeating the Americans militarily.'
-    n: '[[w.vietnam-victory-in-vietnam]], 207; [[w.nguyen-hanois-war]], 96, 98–99 (the decision of May and June; Lê Duẩn''s case). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing). Bibliography of the offensive: [[cal.1968-01-30.vietnam]].'
+    n: '[[w.vietnam-victory-in-vietnam]], 207; [[w.nguyen-hanois-war]], 96, 98–99 (the decision of May and June; Lê Duẩn''s case); [[w.khoo-collateral-damage]], 38 (the COSVN report reviewed by the Politburo in June 1967). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing). Bibliography of the offensive: [[cal.1968-01-30.vietnam]]. To check: [[w.guan-decision-making-leading-to]], 345 (cited by [[w.khoo-collateral-damage]], 38 n.198).'
     src:
       c: 9ee1fd77
       rows:
         - 'w.vietnam-victory-in-vietnam 207: all'
         - 'w.nguyen-hanois-war 96: A'
         - 'w.nguyen-hanois-war 98–99: A'
+        - 'w.khoo-collateral-damage 38: ?'
     tags: [ok:thread-first]
   - id: cal.1967-06-30.vietnam-congress
     when: June 30

@@ -90,11 +90,12 @@ entries:
     place: peking
     thread: china-leadership
     c: The Great Hall of the People 人民大会堂, the Hebei Room 河北厅, 9 a.m. to 2. A forum of the NPC Standing Committee decides to call the NPC Standing Committee's enlarged meeting soon, and proposes that the year's NPC session be put off, perhaps to January.
-    n: '[[w.yang-shangkun-riji]], II, 95 (Dec. 1, 1961; note 1: the Second NPC''s third session met in Peking Mar. 27–Apr. 16, 1962). The words: 上午9时到下午2时 (II, 95). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], II, 95 (Dec. 1, 1961; note 1: the Second NPC''s third session met in Peking Mar. 27–Apr. 16, 1962); [[w.peng-zhen-nianpu-1902]], IV, 161 (Dec. 1, 1961, before the session; Peng Zhen presides at a forum of NPC Standing Committee members on putting off this year''s Congress, proposing a joint meeting of the NPC and the CPPCC in January 1962). The words: 上午9时到下午2时 (II, 95). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: a3778158
       rows:
         - 'w.yang-shangkun-riji II, 95: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 161: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-01.china-leadership-2
@@ -123,17 +124,35 @@ entries:
         - 'w.yang-shangkun-riji II, 95: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-01.china-leadership-4
+    when: Dec. 1
+    date: '1961-12-01'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. The National People's Congress Standing Committee's 全国人大常委会 forty-sixth session resolves to put off the NPC's third session.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 161. The words: 上午 (IV, 161). See [[cal.1961-12-01.china-leadership]].'
+    src:
+      c: 85e6bdd0
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 161: all'
+    tags: [polity:prc]
+    time_range:
+      - 1961-11-30T22:00Z
+      - 1961-12-01T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-02.cuba
     when: Dec. 2
     date: '1961-12-02'
     thread: cuba
     c: Castro declares himself a Marxist-Leninist.
-    n: '[FRUS 1961–63, XII, doc. 122](https://history.state.gov/historicaldocuments/frus1961-63v12/d122). [[w.fursenko-one-hell-of-a]], 151. Check: Fursenko and Naftali date the declaration Dec. 1, 1961 ([[w.fursenko-one-hell-of-a]], 151). See [[cal.1961-04-15.cuba]]. Names: Castro.'
+    n: '[FRUS 1961–63, XII, doc. 122](https://history.state.gov/historicaldocuments/frus1961-63v12/d122). [[w.fursenko-one-hell-of-a]], 151; [[w.friedman-shadow-cold-war]], 61 (in December Castro calls himself a Marxist-Leninist). Check: Fursenko and Naftali date the declaration Dec. 1, 1961 ([[w.fursenko-one-hell-of-a]], 151). See [[cal.1961-04-15.cuba]]. Names: Castro.'
     src:
       c: ede401b8
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v12/d122: all'
         - 'w.fursenko-one-hell-of-a 151: all'
+        - 'w.friedman-shadow-cold-war 61: ?'
     tags: [name:castro-fidel]
   - id: cal.1961-12-02.oil
     when: Dec. 2
@@ -207,6 +226,18 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 95–96: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-12-02.china-leadership-5
+    when: Dec. 2
+    date: '1961-12-02'
+    place: taiyuan
+    thread: china-leadership
+    c: Taiyuan 太原. Peng Zhen 彭真 and his wife, Zhang Jieqing 张洁清, leave by special train to visit his home in Shanxi 山西; that day, at the Yingze guesthouse 迎泽宾馆, he talks with the heads of the provincial departments.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 161. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: cb086a30
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 161: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1961-12-03.soviet-union-leadership
     when: Dec. 3
     date: '1961-12-03'
@@ -227,6 +258,23 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1674: all'
     tags: [polity:prc, name:deng-xiaoping]
+  - id: cal.1961-12-03.china-leadership-2
+    when: Dec. 3
+    date: '1961-12-03'
+    place: linfen
+    thread: china-leadership
+    c: 'Shanxi 山西. Peng Zhen 彭真, with Zhang Jieqing 张洁清 and others, Zheng Lin 郑林 and Feng Peiwen 冯培文 with them, goes south by special train on the Tongpu 同蒲 line for Houma 侯马; on the train: these years too many "battles," land reform, "three antis," "five antis," one campaign after another, the cadres not retrained, little chance to speak, still less to object, Party democracy at fault; at Hongtong 洪洞 the Guangsheng Temple 广胜寺, the Feihong Pagoda 飞虹塔 and the old site of the Big Locust Tree; at Linfen 临汾 at 8 p.m.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 162. The page''s notes: Zheng Lin, secretary of the Shanxi committee''s Secretariat and vice-governor; Feng Peiwen, secretary of the Jinnan 晋南 prefectural committee''s Secretariat (IV, 162). The words: 下午……晚八时，到达临汾县 (IV, 162). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 1aca2a7e
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 162: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1961-12-03T04:00Z
+      - 1961-12-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-04.elections-1964
     when: Dec. 4
     date: '1961-12-04'
@@ -356,6 +404,23 @@ entries:
         - 'w.yang-jisheng-mubei I, 126, 129, 131: all'
         - 'via w.yang-jisheng-mubei I, 126 n.t1: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1961-12-04.china-leadership-5
+    when: Dec. 4
+    date: '1961-12-04'
+    place: houma
+    thread: china-leadership
+    c: Tanshang 坛上 village, Houma 侯马, Shanxi. Peng Zhen 彭真, with Zhang Jieqing 张洁清 and others, visits his mother, Wei Guizhi 魏桂枝, eighty, and other kin, sweeps his father Fu Weishan's 傅维山 grave and calls on schoolmates and neighbors.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 162. The words: 上午 (IV, 162). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: 457456f0
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 162: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1961-12-03T22:00Z
+      - 1961-12-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-05.alabama-al
     when: Dec. 5
     date: '1961-12-05'
@@ -495,6 +560,23 @@ entries:
       - 1961-12-05T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-05.china-leadership-5
+    when: Dec. 5
+    date: '1961-12-05'
+    place: houma
+    thread: china-leadership
+    c: Houma 侯马, Shanxi. Peng Zhen 彭真 talks with the secretary and mayor of the Houma municipal committee on local conditions and explains the Party's policy; in the afternoon to Xinjiang 新绛 county, its woodworks and market, and the Eastern Zhou relics shown at the Houma cultural relics station; in the evening the Houma bowl opera troupe 碗碗腔剧团.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 162. The time is the morning''s. The words: 上午……下午……晚 (IV, 162). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: 7a74edcf
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 162: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1961-12-04T22:00Z
+      - 1961-12-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-06.economy
     when: Dec. 6
     date: '1961-12-06'
@@ -630,6 +712,23 @@ entries:
       - 1961-12-06T11:00Z
       - 1961-12-06T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-12-06.china-leadership-4
+    when: Dec. 6
+    date: '1961-12-06'
+    place: quwo
+    thread: china-leadership
+    c: Quwo 曲沃 county, Shanxi. Peng Zhen 彭真 sees the Kuaihe 浍河 reservoir, as big as Peking's Ming Tombs reservoir, 76 million cubic meters, turning 250,000 mu of dry fields to sure harvests; the delta of more than sixty li and its cure of alkali; the cigarette factory and the market.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 162. The words: 上午 (IV, 162). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: 9d24ca74
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 162: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1961-12-05T22:00Z
+      - 1961-12-06T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1961-12-07.states-and-cities-nh
     when: Dec. 7
@@ -783,6 +882,23 @@ entries:
         - 'w.yang-jisheng-mubei I, 354: all'
         - 'via w.yang-jisheng-mubei I, 354 n.34: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-12-07.china-leadership-6
+    when: Dec. 7
+    date: '1961-12-07'
+    place: houma
+    thread: china-leadership
+    c: Houma 侯马, Shanxi. Peng Zhen 彭真 talks with some twenty local leading cadres in the conference room of the municipal government's reception office; at 5 p.m., with Tao Lujia 陶鲁笳, by special train to Yuncheng 运城 East station, hearing the Yuncheng county committee's first secretary and the county head in the carriage.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 162. The page''s note: Tao Lujia, first secretary of the Shanxi committee (IV, 162). The time is the morning talk''s. The words: 上午……下午五时 (IV, 162). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: '36586215'
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 162: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1961-12-06T22:00Z
+      - 1961-12-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-08.vietnam
     when: Dec. 8
     date: '1961-12-08'
@@ -894,6 +1010,18 @@ entries:
       - 1961-12-08T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-08.china-leadership-4
+    when: Dec. 8
+    date: '1961-12-08'
+    place: yuncheng
+    thread: china-leadership
+    c: Yuncheng 运城, Shanxi. Peng Zhen 彭真 sees the Yuncheng salt lake and the market, then the Guandi Temple 关帝庙 at Xiezhou 解州; back to Linfen 临汾 in the afternoon.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 162–163. Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: f3984e94
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 162–163: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-time]
   - id: cal.1961-12-09.crime-and-hijacking
     when: Dec. 9
     date: '1961-12-09'
@@ -990,6 +1118,23 @@ entries:
         - 'via w.yang-jisheng-mubei II, 1174 n.t1: all'
         - 'w.yang-jisheng-mubei I, 626–628: A'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-12-09.china-leadership-5
+    when: Dec. 9
+    date: '1961-12-09'
+    place: linfen
+    thread: china-leadership
+    c: 'Linfen 临汾, Shanxi. Peng Zhen 彭真, with Tao Lujia 陶鲁笳, sees the Guojiazhuang 郭家庄 brigade, Jinnan''s high-yield wheat; afternoon, at the Jinnan prefectural committee, hears Zhao Yuting 赵雨亭, Feng Peiwen 冯培文 and others: a goal to rouse the masses; water works (the great droughts of 1877, 1900 and 1929), Quwo''s reservoir of 1957 praised; pigs; cadres who erred helped, not changed by batches, "人非圣贤，孰能无过," much came from the Center; the Shanxi tour ends that evening.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 163. The page''s note: Zhao Yuting, first secretary of the Jinnan prefectural committee (IV, 163). The time is the morning''s. The words: 上午……下午 (IV, 163). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+    src:
+      c: c524e3ce
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 163: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1961-12-08T22:00Z
+      - 1961-12-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-10.albany
     when: Dec. 10–13
     date: '1961-12-10'
@@ -1256,6 +1401,43 @@ entries:
     c: Chen Yi 陈毅 cables Julius Nyerere, Prime Minister of Tanganyika, congratulating him on the establishment of diplomatic relations.
     n: '[[w.chen-yi-nianpu]], 902. See [[cal.1961-12-08.china]]. Names: Chen Yi, Nyerere.'
     tags: [polity:prc, polity:tanzania, name:chen-yi, name:nyerere-julius-k]
+  - id: cal.1961-12-11.china-leadership-3
+    when: Dec. 11–14
+    date: '1961-12-11'
+    place: shijiazhuang
+    thread: china-leadership
+    c: 'Shijiazhuang 石家庄, Hebei 河北. Peng Zhen 彭真 calls the leaders of Gaocheng 藁城, Xin''an 新安, Jin 晋县, Pingshan 平山, Ding 定县, Shenze 深泽, Anguo 安国, Tang 唐县, Xinle 新乐 and other counties of the Shijiazhuang and Baoding prefectures on the size of production teams and distribution: in Shanxi 30 percent for brigade accounting with "three contracts and a bonus," 30 for team accounting, 40 for "big contracting"; on the 14th: ownership must be stable to protect production, "人不由己，物不自主"; Zhoujiazhuang 周家庄 and Geng Changsuo 耿长锁 for the brigade; the mass line, local conditions, no change until clear.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 163–164. The time and place of the closing talk: the afternoon of the 14th (IV, 163). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 380196e5
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 163–164: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-12-11.africa
+    when: Dec. 11
+    date: '1961-12-11'
+    thread: africa
+    c: Touré, in a speech, calls the demonstrators "counterrevolutionaries" and orders their arrest.
+    n: '[[w.friedman-shadow-cold-war]], 80. Names: Touré.'
+    src:
+      c: b03cfa94
+      rows:
+        - 'w.friedman-shadow-cold-war 80: all'
+    tags: [polity:guinea, name:toure-ahmed-sekou]
+  - id: cal.1961-12-11.cuba
+    when: Dec. 11
+    date: '1961-12-11'
+    place: havana
+    thread: cuba
+    also: [china, soviet-union]
+    c: 'The Chinese Embassy at Havana to the Foreign Ministry: Guevara, with the Ambassador, agrees "100 percent" with China, but Soviet support is crucial to Cuba and he cannot say so publicly.'
+    n: '[[w.friedman-shadow-cold-war]], 88. Made public: 2015. To check: PRC embassy Havana to MFA, December 11, 1961, CFMA doc. 111-00346-03, 1 (cited by [[w.friedman-shadow-cold-war]], 88 n.124). Names: Guevara.'
+    src:
+      c: c778f8e5
+      rows:
+        - 'w.friedman-shadow-cold-war 88: all'
+        - 'via x.1961-12-11.prc-embassy-havana-mfa-december-11-1961: ?'
+    tags: [polity:prc, polity:cuba, vis:only:prc+cuba, name:guevara-ernesto]
   - id: cal.1961-12-12.berlin-and-vienna
     when: Dec. 12
     date: '1961-12-12'
@@ -1497,6 +1679,18 @@ entries:
         - 'w.yang-jisheng-mubei II, 1054: all'
         - 'via w.yang-jisheng-mubei II, 1054 n.58: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-12-13.africa
+    when: Dec. 13
+    date: '1961-12-13'
+    thread: africa
+    also: [soviet-union]
+    c: Touré expels the Soviet Ambassador, holding the embassy responsible for the subversion.
+    n: '[[w.friedman-shadow-cold-war]], 80. Names: Touré. Check: the day: Friedman has the expulsion "two days" after the speech of Dec. 11.'
+    src:
+      c: 539f1ff3
+      rows:
+        - 'w.friedman-shadow-cold-war 80: all'
+    tags: [polity:guinea, polity:ussr, name:toure-ahmed-sekou]
   - id: cal.1961-12-14.program
     when: Dec. 14
     date: '1961-12-14'
@@ -1767,6 +1961,20 @@ entries:
       - 1961-12-14T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-14.africa-2
+    when: Dec. 14
+    date: '1961-12-14'
+    place: conakry
+    thread: africa
+    also: [soviet-union, china]
+    c: 'Conakry. Touré to the ambassadors of the socialist countries: illegal activities, subversion and espionage, all but the Chinese and North Vietnamese. Other officials attack the conduct of the experts and their projects, again excepting the Chinese and Vietnamese.'
+    n: '[[w.friedman-shadow-cold-war]], 80. Made public: 2015. To check: CC CCP Letter to Liaison Department on Soviet policy in Guinea and Mali, August 21, 1963, CFMA doc. 108-00897-01, 4–5 (cited by [[w.friedman-shadow-cold-war]], 80 n.89). Names: Touré.'
+    src:
+      c: 02625ac7
+      rows:
+        - 'w.friedman-shadow-cold-war 80: all'
+        - 'via x.1963-08-21.letter-ccp-liaison-department-soviet-policy-guinea: ?'
+    tags: [polity:guinea, polity:ussr, polity:prc, polity:drv, name:toure-ahmed-sekou, vis:only:guinea+ussr+prc+drv]
   - id: cal.1961-12-15.vietnam
     when: Dec. 15
     date: '1961-12-15'
@@ -1968,6 +2176,18 @@ entries:
         - 'w.yang-jisheng-mubei I, 478: all'
         - 'via w.yang-jisheng-mubei I, 478 n.25: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-12-15.china-leadership-8
+    when: Dec. 15
+    date: '1961-12-15'
+    place: peking
+    thread: china-leadership
+    c: Peng Zhen 彭真 back in Peking 北京.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 164. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 01e404b5
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 164: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
   - id: cal.1961-12-16.latin-america
     when: Dec. 16–17
     date: '1961-12-16'
@@ -2025,7 +2245,7 @@ entries:
     thread: china-leadership
     also: [economy]
     c: 'Zhou Enlai at the Secretariat on Dec. 16, 18 and 21, hearing Bo Yibo on the national industrial secretaries'' conference: three years of Leap have made the frame of the economy large and unsound, a swollen pig with too little material, so first remove the frame (close, stop, merge, shift); second, clear the confused economic order and build a new one; third, the hundreds of thousands of enterprises'' tangled contradictions to be solved by concentration, unity and one heart, from the whole, or no new order can be built.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 445 (Dec. 16, 1961); [[w.yang-shangkun-riji]], II, 100 (Dec. 18, 1961; the Secretariat, 9 to 12:30, on the industrial conference, Zhou present); [[w.deng-xiaoping-nianpu-1904]], III, 1676–1677 (Dec. 16, 1961; morning; Deng presides, Zhou attends; the work conference''s preparations and the Secretariat''s report on selected central documents since 1958 and "Mao on the general line and the struggle between two roads". Deng: responsibility for the errors, the Center first, the provinces second; Mao''s words right, many measures against them: high and shifting plans, long fronts; the "great drives" by deadline; decentralization''s chaos; local committees resisting the centralization the Seventy Articles ask); [[w.deng-xiaoping-nianpu-1904]], III, 1677–1678 (Dec. 18, 1961; morning; Deng presides, Zhou attends; Bo Yibo on the industrial conference. Deng: the old and sick cut from the towns kept by the enterprises at full pay; the Seventy Articles tried first, not amended; the Seven Thousand Cadres conference early next year (footnote 1: the enlarged work conference, over 7,000 cadres) to unite the Party''s thinking; low targets now hard to accept, departmentalism; the high targets the Center''s fault, chiefly the Secretariat''s; power taken back, Center from localities, provinces from enterprises, enterprises from workshops). Made public: 1997. Names: Zhou Enlai, Bo Yibo.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 445 (Dec. 16, 1961); [[w.yang-shangkun-riji]], II, 100 (Dec. 18, 1961; the Secretariat, 9 to 12:30, on the industrial conference, Zhou present); [[w.deng-xiaoping-nianpu-1904]], III, 1676–1677 (Dec. 16, 1961; morning; Deng presides, Zhou attends; the work conference''s preparations and the Secretariat''s report on selected central documents since 1958 and "Mao on the general line and the struggle between two roads". Deng: responsibility for the errors, the Center first, the provinces second; Mao''s words right, many measures against them: high and shifting plans, long fronts; the "great drives" by deadline; decentralization''s chaos; local committees resisting the centralization the Seventy Articles ask); [[w.deng-xiaoping-nianpu-1904]], III, 1677–1678 (Dec. 18, 1961; morning; Deng presides, Zhou attends; Bo Yibo on the industrial conference. Deng: the old and sick cut from the towns kept by the enterprises at full pay; the Seventy Articles tried first, not amended; the Seven Thousand Cadres conference early next year (footnote 1: the enlarged work conference, over 7,000 cadres) to unite the Party''s thinking; low targets now hard to accept, departmentalism; the high targets the Center''s fault, chiefly the Secretariat''s; power taken back, Center from localities, provinces from enterprises, enterprises from workshops); [[w.peng-zhen-nianpu-1902]], IV, 164 (Dec. 16, 1961; Peng Zhen at the Secretariat on preparing the work conference and on the Secretariat''s report to Mao and the Standing Committee on a selection of the Center''s documents since 1958 and "Comrade Mao Zedong on the general line of socialist construction and the struggle between the two lines"). Made public: 1997. Names: Zhou Enlai, Bo Yibo.'
     src:
       c: 4574fab4
       rows:
@@ -2033,13 +2253,14 @@ entries:
         - 'w.yang-shangkun-riji II, 100: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1676–1677: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1677–1678: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 164: ?'
     tags: [polity:prc, name:zhou-enlai, name:bo-yibo, vis:only:prc]
   - id: cal.1961-12-16.china-leadership
     when: Dec. 16
     date: '1961-12-16'
     thread: china-leadership
     c: Deng Xiaoping gives Mao the Secretariat's report on policy-making in the Great Leap Forward, from a study of the central documents of recent years; Mao seems to approve, with reservations about its failure to castigate the media.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 144–145; [[w.macfarquhar-origins-of-the-cultural]], III, 182 (the Secretariat''s report handed to Mao by Deng and possibly Peng Zhen on Dec. 16, 1961); [[w.yang-shangkun-riji]], II, 100 (Dec. 16, 1961; the Secretariat in the morning, on its report to the Standing Committee after reviewing the documents); [[w.deng-xiaoping-nianpu-1904]], III, 1676 (Dec. 16, 1961; the Secretariat''s report to Mao and the Standing Committee on the selected documents, discussed that morning). Made public: 1997. To check: [[w.shaoqi-liu-shaoqi-xuanji-selected]], 355 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 145 n.23a); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 145 n.23b); [[w.shaoqi-liu-shaoqi-xuanji-selected]], 429 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 145 n.24a); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); [[w.shaoqi-liu-shaoqi-xuanji-selected]], 355 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 182 n.2); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 21 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 182 n.3); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 182 n.4). Names: Deng Xiaoping, Mao Zedong.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 144–145; [[w.macfarquhar-origins-of-the-cultural]], III, 182 (the Secretariat''s report handed to Mao by Deng and possibly Peng Zhen on Dec. 16, 1961); [[w.yang-shangkun-riji]], II, 100 (Dec. 16, 1961; the Secretariat in the morning, on its report to the Standing Committee after reviewing the documents); [[w.deng-xiaoping-nianpu-1904]], III, 1676 (Dec. 16, 1961; the Secretariat''s report to Mao and the Standing Committee on the selected documents, discussed that morning); [[w.peng-zhen-nianpu-1902]], IV, 164 (Dec. 16, 1961; the Secretariat''s report, discussed at its meeting with Peng Zhen there). Made public: 1997. To check: [[w.shaoqi-liu-shaoqi-xuanji-selected]], 355 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 145 n.23a); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 145 n.23b); [[w.shaoqi-liu-shaoqi-xuanji-selected]], 429 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 145 n.24a); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); [[w.shaoqi-liu-shaoqi-xuanji-selected]], 355 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 182 n.2); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 21 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 182 n.3); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 182 n.4). Names: Deng Xiaoping, Mao Zedong.'
     src:
       c: a1290551
       rows:
@@ -2059,6 +2280,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 182 n.4: A'
         - 'w.yang-shangkun-riji II, 100: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1676: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 164: ?'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
   - id: cal.1961-12-16.china-leadership-4
     when: Dec. 16
@@ -2074,11 +2296,13 @@ entries:
     place: stockholm
     thread: china
     c: 'Stockholm. Liao Chengzhi, head of the Chinese delegation, speaking at the World Peace Council''s meeting: the national liberation movements of Asia, Africa and Latin America are a vast force in opposing imperialism and defending world peace. Defending peace depends on the broad popular masses, on the head-on struggle against imperialism, and on the unity of every peaceful force.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 212 (Dec. 16, 1961).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 212 (Dec. 16, 1961); [[w.friedman-shadow-cold-war]], 89 (at the World Peace Council at Stockholm, after Gaza, the Chinese with East Asian and African delegations loudly accuse the USSR and the council of betraying the cause of national liberation). To check: Report of Safronov on AAPSO session in Gaza to SCSCAA Presidium, January 8, 1962, GARF f.9540 o.1 d.109, 103 (cited by [[w.friedman-shadow-cold-war]], 89 n.132).'
     src:
       c: 9d6bd5cb
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 212: all'
+        - 'w.friedman-shadow-cold-war 89: ?'
+        - 'via x.1962-01-08.scscaa-presidium-session-january-8-1962: ?'
     tags: [polity:prc]
   - id: cal.1961-12-16.china-leadership-5
     when: Dec. 16
@@ -2467,7 +2691,7 @@ entries:
     thread: china-leadership
     also: [economy]
     c: 'At the 48th enlarged meeting of the National People''s Congress Standing Committee Zhou Enlai gives a preparatory government work report: three years'' results and the problems in the three red banners; policy needs two kinds of experience, right and wrong; mastering the laws of socialist building takes practice and time, and twists and reversals till then are hard to avoid. A year of adjustment has results: farm output and peasants'' life better; industrial support for farming and the market under way; relations adjusted and policies made concrete. The results are first and not firm.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 445 (Dec. 19, 1961). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 445 (Dec. 19, 1961); [[w.peng-zhen-nianpu-1902]], IV, 164 (Dec. 19, 1961; Peng Zhen at the forty-eighth enlarged session hearing Zhou''s preliminary government work report on the situation at home and abroad). Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-12-19.china
     when: Dec. 19
@@ -2632,7 +2856,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking. The Central Work Conference of the regional, provincial and central leaders opens (to Jan. 10, 1962), on the situation at home and abroad, the 1962 and long-term plans, commerce, the basic accounting unit and the Party, to prepare the enlarged work conference; Mao: seven fronts for 1962, industry, farming, commerce, schools, army, government, Party. That evening, the Yinian Tang, his meeting of the Standing Committee and the regional first secretaries: first for local power, now for central unity; the detours of these years the center''s first, then the provinces''; the four highs, the "big drives," the supply system, the mess halls the center''s, "wrong," and a precious asset.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 20, 1961 (the entries for Dec. 20, 1961–Jan. 10, 1962 and Dec. 20). [[w.zhou-enlai-nianpu-1949]], II, 446, Dec. 20, 1961 (Zhou and Deng report the conference''s arrangement at the evening meeting). [[w.zhou-enlai-nianpu-1949]], II, 446–47, Dec. 20, 1961–Jan. 10, 1962 (Zhou at the conference). [[w.macfarquhar-origins-of-the-cultural]], III, 137, 144 (the opening; the decision of Dec. 21 for the larger meeting); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 543–544 (Dec. 20, 1961–Jan. 10, 1962; Liu attends the Central Work Conference on the international and domestic situation, the 1962 national economic plan and the long-term plan, and the Party''s work, to prepare the enlarged Central Work Conference; late in the meeting Liu chiefly directs the drafting of the report the Central Committee is to give to the enlarged conference); [[w.yang-shangkun-riji]], II, 101 (Dec. 20, 1961; the meeting at Mao''s, 7 to 9 p.m., the Standing Committee and the regional bureaus'' secretaries, on how to run the work conference: the situation first, half-day sessions, work and rest balanced); [[w.deng-xiaoping-nianpu-1904]], III, 1678 (Dec. 20, 1961–Jan. 10, 1962; Deng attends; it prepared the Seven Thousand Cadres conference. Dec. 20, evening, at Mao''s meeting of the Standing Committee and the bureaus'' first secretaries, Deng and Zhou report the agenda and the method); [[w.mao-zedong-zhuan]], V, ch. 69 n.7 (Dec. 20, evening, at the Yinian Tang: the first night of the conference, Mao with the Standing Committee and the first secretaries of the bureaus; Deng Xiaoping and Zhou Enlai on the agenda; Mao: the detours of the past years to be laid first to the Center, then the provinces; the four highs, the great drives, the supply system and the mess halls are the Center''s; he talks of the *Dream of the Red Chamber* with Liu Shaoqi). Made public: 1996. Check: MacFarquhar has a brief central work conference on Dec. 21, which decides on the larger meeting. To check: [[w.jin-1949-1989-niande-zhongguo]], 400 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 137 n.4); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); Mao Zedong 毛泽东, speech to the Politburo Standing Committee and the regional first secretaries 中共中央政治局常委和中央局第一书记会议, Dec. 20, 1961 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.7). Names: Mao Zedong, Deng Xiaoping, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 20, 1961 (the entries for Dec. 20, 1961–Jan. 10, 1962 and Dec. 20). [[w.zhou-enlai-nianpu-1949]], II, 446, Dec. 20, 1961 (Zhou and Deng report the conference''s arrangement at the evening meeting). [[w.zhou-enlai-nianpu-1949]], II, 446–47, Dec. 20, 1961–Jan. 10, 1962 (Zhou at the conference). [[w.macfarquhar-origins-of-the-cultural]], III, 137, 144 (the opening; the decision of Dec. 21 for the larger meeting); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 543–544 (Dec. 20, 1961–Jan. 10, 1962; Liu attends the Central Work Conference on the international and domestic situation, the 1962 national economic plan and the long-term plan, and the Party''s work, to prepare the enlarged Central Work Conference; late in the meeting Liu chiefly directs the drafting of the report the Central Committee is to give to the enlarged conference); [[w.yang-shangkun-riji]], II, 101 (Dec. 20, 1961; the meeting at Mao''s, 7 to 9 p.m., the Standing Committee and the regional bureaus'' secretaries, on how to run the work conference: the situation first, half-day sessions, work and rest balanced); [[w.deng-xiaoping-nianpu-1904]], III, 1678 (Dec. 20, 1961–Jan. 10, 1962; Deng attends; it prepared the Seven Thousand Cadres conference. Dec. 20, evening, at Mao''s meeting of the Standing Committee and the bureaus'' first secretaries, Deng and Zhou report the agenda and the method); [[w.mao-zedong-zhuan]], V, ch. 69 n.7 (Dec. 20, evening, at the Yinian Tang: the first night of the conference, Mao with the Standing Committee and the first secretaries of the bureaus; Deng Xiaoping and Zhou Enlai on the agenda; Mao: the detours of the past years to be laid first to the Center, then the provinces; the four highs, the great drives, the supply system and the mess halls are the Center''s; he talks of the *Dream of the Red Chamber* with Liu Shaoqi). [[w.peng-zhen-nianpu-1902]], IV, 164 (Dec. 20, 1961–Jan. 10, 1962; Peng Zhen attends; the world, the home situation, the 1962 and long-term plans, commerce, the basic accounting unit, Party work; to prepare the enlarged work conference). Made public: 1996. Check: MacFarquhar has a brief central work conference on Dec. 21, which decides on the larger meeting. To check: [[w.jin-1949-1989-niande-zhongguo]], 400 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 137 n.4); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); Mao Zedong 毛泽东, speech to the Politburo Standing Committee and the regional first secretaries 中共中央政治局常委和中央局第一书记会议, Dec. 20, 1961 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.7). Names: Mao Zedong, Deng Xiaoping, Zhou Enlai.'
     src:
       c: 918d6271
       rows:
@@ -2651,6 +2875,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1678: ?'
         - 'w.mao-zedong-zhuan V, ch. 69 n.7: D-F'
         - 'via w.mao-zedong-zhuan V, ch.69 n.7: D-F'
+        - 'w.peng-zhen-nianpu-1902 IV, 164: ?'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-12-20.china-leadership-3
     when: Dec. 20
@@ -2721,6 +2946,37 @@ entries:
       - 1961-12-20T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-20.china-leadership-11
+    when: Dec. 20
+    date: '1961-12-20'
+    place: peking
+    thread: china-leadership
+    c: The Yinian Tang 颐年堂, Zhongnanhai 中南海, Peking. Peng Zhen 彭真 at Mao Zedong's 毛泽东 meeting of the Politburo Standing Committee and the regional bureaus' first secretaries.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 165. The words: 晚 (IV, 165). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: cd2a1fe8
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 165: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1961-12-20T11:00Z
+      - 1961-12-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-12-20.cuba
+    when: Dec. 20
+    date: '1961-12-20'
+    place: havana
+    thread: cuba
+    also: [china]
+    c: 'The Chinese Embassy at Havana to the Foreign Ministry and the Liaison Department: Fidel and Raúl Castro and Guevara "correct" on international issues; another group in the leadership, Aníbal Escalante, Carlos Rojas and Rafael Rodríguez, decidedly pro-Soviet.'
+    n: '[[w.friedman-shadow-cold-war]], 88. Made public: 2015. To check: PRC embassy Havana to MFA and Zhonglianbu, December 20, 1961, CFMA doc. 111-00329-02, 1 (cited by [[w.friedman-shadow-cold-war]], 88 n.125).'
+    src:
+      c: d0da0c41
+      rows:
+        - 'w.friedman-shadow-cold-war 88: all'
+        - 'via x.1961-12-20.prc-embassy-havana-mfa-zhonglianbu-december-20: ?'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1961-12-21.congo
     when: Dec. 21
     date: '1961-12-21'
@@ -2793,13 +3049,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking. At the Central Work Conference before the Seven Thousand Cadres'' conference Deng Xiaoping speaks chiefly on the struggle against revisionism, Zhou Enlai having given the report on the whole international situation. The Twenty-second Congress and Khrushchev''s four "antis," against Stalin, the "anti-party group," Albania and China, are the full exposure of his revisionism. The movement faces a split, first of the socialist camp, and chiefly Sino-Soviet relations. Some parties side with China, still few, most with the CPSU; there is a left inside the CPSU that defends Stalin; other parties are dividing. The Australian and Belgian parties have split, the Indian, French and Italian are dividing. After Khrushchev''s break with Albania (Wu''s note: Dec. 15, the Soviet government announcing the withdrawal of its diplomats and asking Albania''s out), Albania speaks in its own voice and every party must think what to say; "a hundred voices answering one" is gone. China''s influence has grown; Khrushchev''s group''s standing has fallen. Be ready for setback and retreat in the movement, yet the sky will not fall; Marxist-Leninist ranks are tempered by struggle. China must choose to drift with Khrushchev or to hold high the banner against revisionism: the Center has weighed it and holds that the red flag must not fall.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 480–482 ("Dec. 21", the Central Work Conference "before the Seven Thousand"; Wu prints "December 1962" for the conference (480), a slip for 1961: the conference before the Seven Thousand Cadres opened Dec. 20, 1961, [[cal.1961-12-20.china-leadership]]); [[w.yang-shangkun-riji]], II, 101 (Dec. 21, 1961; the Huairen Tang''s great hall, 3 to 6 p.m., over 100 of the bureaus, provinces, cities and central departments; Deng Xiaoping speaks on the conference''s order and arrangements); [[w.deng-xiaoping-nianpu-1904]], III, 1678–1679 (Dec. 21, 1961; Deng chairs the plenary and speaks on the agenda, the world, home affairs, the long plan, the 1962 plan and the Party: good done the base, errors too, the Center first, the provinces second; the Secretariat''s errors, no timely concrete policies, high and shifting targets, the "great drives", too much decentralization; the seven-to-ten-year plan centered on food, clothing and use, one national economic system; resolve, discipline, unified leadership, the whole, truth from facts, the mass line, strict Party life). Made public: 1999. Check: Yang Shangkun''s diary gives Deng''s speech that afternoon as on the conference''s agenda and arrangements ([[w.yang-shangkun-riji]], II, 101). Names: Deng Xiaoping, Zhou Enlai, Khrushchev. Check: the Soviet step against Albania: Wu''s bracketed note has the Soviet diplomats withdrawn Dec. 15 (481); Liu''s speech has relations broken Dec. 3 (483).'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 480–482 ("Dec. 21", the Central Work Conference "before the Seven Thousand"; Wu prints "December 1962" for the conference (480), a slip for 1961: the conference before the Seven Thousand Cadres opened Dec. 20, 1961, [[cal.1961-12-20.china-leadership]]); [[w.yang-shangkun-riji]], II, 101 (Dec. 21, 1961; the Huairen Tang''s great hall, 3 to 6 p.m., over 100 of the bureaus, provinces, cities and central departments; Deng Xiaoping speaks on the conference''s order and arrangements); [[w.deng-xiaoping-nianpu-1904]], III, 1678–1679 (Dec. 21, 1961; Deng chairs the plenary and speaks on the agenda, the world, home affairs, the long plan, the 1962 plan and the Party: good done the base, errors too, the Center first, the provinces second; the Secretariat''s errors, no timely concrete policies, high and shifting targets, the "great drives", too much decentralization; the seven-to-ten-year plan centered on food, clothing and use, one national economic system; resolve, discipline, unified leadership, the whole, truth from facts, the mass line, strict Party life); [[w.peng-zhen-nianpu-1902]], IV, 165 (Dec. 21, 1961; Peng Zhen at the plenary hearing Deng relay Mao''s estimate of the situation, and Deng''s long speech). Made public: 1999. Check: Yang Shangkun''s diary gives Deng''s speech that afternoon as on the conference''s agenda and arrangements ([[w.yang-shangkun-riji]], II, 101). Names: Deng Xiaoping, Zhou Enlai, Khrushchev. Check: the Soviet step against Albania: Wu''s bracketed note has the Soviet diplomats withdrawn Dec. 15 (481); Liu''s speech has relations broken Dec. 3 (483).'
     src:
       c: 8cf3c004
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 480–482: all'
         - 'w.yang-shangkun-riji II, 101: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1678–1679: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 165: ?'
     tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:khrushchev-nikita-s, vis:only:prc]
   - id: cal.1961-12-21.china-leadership
     when: Dec. 21
@@ -3005,6 +3262,19 @@ entries:
       - 1961-12-22T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-12-22.soviet-union
+    when: Dec. 22
+    date: '1961-12-22'
+    thread: soviet-union
+    also: [africa]
+    c: 'Belgin to the Central Committee on his trip: the Soviets fail to set the agenda even on their own congress; most African news comes from Western agencies, on Stalin and Albania.'
+    n: '[[w.friedman-shadow-cold-war]], 90. Made public: 2015. To check: Report of deputy chairman of APN S. I. Belgin to CC on trip to Morocco, Mali, Guinea, Ghana, Togo, Ethiopia, UAR, Tunisia, December 22, 1961, RGANI f.5 o.33 d.181, 116 (cited by [[w.friedman-shadow-cold-war]], 90 n.138).'
+    src:
+      c: a1714079
+      rows:
+        - 'w.friedman-shadow-cold-war 90: all'
+        - 'via x.1961-12-22.report-deputy-chairman-apn-s-i-belgin: ?'
+    tags: [polity:ussr, vis:only:ussr]
   - id: cal.1961-12-23.china-leadership
     when: Dec. 23
     date: '1961-12-23'
@@ -3072,6 +3342,19 @@ entries:
     c: Chen Yi 陈毅 and Lothar Bolz, the East German Foreign Minister, exchange cables on the sixth anniversary of the Sino-German treaty of friendship.
     n: '[[w.chen-yi-nianpu]], 903. Names: Chen Yi, Bolz.'
     tags: [polity:prc, polity:gdr, name:chen-yi, name:bolz-lothar]
+  - id: cal.1961-12-23.soviet-union
+    when: Dec. 23
+    date: '1961-12-23'
+    thread: soviet-union
+    also: [africa]
+    c: 'B. Burkov, chairman of Novosti, to the Central Committee, passing on its Conakry correspondent''s report: those arrested in Guinea "communists" and "leftists."'
+    n: '[[w.friedman-shadow-cold-war]], 80. Made public: 2015. To check: Letter from B. Burkov (chairman of Novosti) to CC, passing on report of Novosti correspondent in Conakry, December 23, 1961, RGANI f.5 o.30 d.369, 111–13 (cited by [[w.friedman-shadow-cold-war]], 80 n.88).'
+    src:
+      c: 0ced43b8
+      rows:
+        - 'w.friedman-shadow-cold-war 80: all'
+        - 'via x.1961-12-23.letter-b-burkov-chairman-novosti-passing-report: ?'
+    tags: [polity:ussr, vis:only:ussr, ok:fields-place]
   - id: cal.1961-12-24.latin-america
     when: Dec. 24
     date: '1961-12-24'
@@ -3256,6 +3539,23 @@ entries:
         - 'w.yang-jisheng-mubei I, 358: all'
         - 'via w.yang-jisheng-mubei I, 358 n.46: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-12-25.china-leadership-9
+    when: Dec. 25
+    date: '1961-12-25'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 at the joint session of the National People''s Congress Standing Committee''s 全国人大常委会 forty-ninth session and the CPPCC Standing Committee''s twenty-third: the NPC''s third session and the CPPCC''s to open together on Mar. 5, 1962; deputies and members first to visit the villages or the cities.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 165. The words: 上午 (IV, 165). Names: Peng Zhen.'
+    src:
+      c: fcfc02b9
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 165: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1961-12-24T22:00Z
+      - 1961-12-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-12-26.robert-kennedy
     when: Dec. 26
     date: '1961-12-26'
@@ -3471,13 +3771,14 @@ entries:
     thread: china-leadership
     also: [economy]
     c: 'Zhou Enlai''s report to the Central Work Conference on the situation and eight tasks for 1962. Great war can be put off, small wars not avoided; the situation improving, villages before towns; three years'' errors cost much, the results chief; 1962 the key year of adjustment. The eight tasks: drop the frame; cut staff; farm output; timber, coal, steel, ore and transport; clear materials; the market; carry out the policies and regulations; build a new order.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 446–47 (Dec. 28, 1961); [[w.yang-shangkun-riji]], II, 103–104 (Dec. 28, 1961; 10 a.m. to 1 and 4 to 7 p.m.; in truth a summing up of three years and the tasks of the next few; the imbalances analyzed; the eight tasks: put down airs; cut staff resolutely; buy more; make sure of timber, coal, ore and transport; clear materials; secure the market; carry out the policies, systems and regulations; build a new order); [[w.deng-xiaoping-nianpu-1904]], III, 1680 (Dec. 28, 1961; Deng at the plenary hearing Zhou). See [[cal.1961-12-20.china-leadership]]. Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 446–47 (Dec. 28, 1961); [[w.yang-shangkun-riji]], II, 103–104 (Dec. 28, 1961; 10 a.m. to 1 and 4 to 7 p.m.; in truth a summing up of three years and the tasks of the next few; the imbalances analyzed; the eight tasks: put down airs; cut staff resolutely; buy more; make sure of timber, coal, ore and transport; clear materials; secure the market; carry out the policies, systems and regulations; build a new order); [[w.deng-xiaoping-nianpu-1904]], III, 1680 (Dec. 28, 1961; Deng at the plenary hearing Zhou); [[w.peng-zhen-nianpu-1902]], IV, 165 (Dec. 28, 1961; Peng Zhen at the plenary hearing Zhou''s report on the situation and the work of 1962). See [[cal.1961-12-20.china-leadership]]. Made public: 1997. Names: Zhou Enlai.'
     src:
       c: ee6a81a7
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 446–47: ?'
         - 'w.yang-shangkun-riji II, 103–104: A, F-M'
         - 'w.deng-xiaoping-nianpu-1904 III, 1680: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 165: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-12-28.china
     when: Dec. 28
@@ -3557,12 +3858,13 @@ entries:
     time: 1961-12-29T02:00Z
     thread: china-leadership
     c: The Secretariat, 10 to 12, on the New Year's editorial and other articles.
-    n: '[[w.yang-shangkun-riji]], II, 104 (Dec. 29, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1680–1681 (Dec. 29, 1961; morning; Deng presides; the *Renmin ribao* New Year editorial draft and other articles; Dec. 30 he approves the editorial "New Year''s greetings"). The words: 上午10时到12时 (II, 104). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    n: '[[w.yang-shangkun-riji]], II, 104 (Dec. 29, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1680–1681 (Dec. 29, 1961; morning; Deng presides; the *Renmin ribao* New Year editorial draft and other articles; Dec. 30 he approves the editorial "New Year''s greetings"); [[w.peng-zhen-nianpu-1902]], IV, 165 (Dec. 29, 1961, morning; Peng Zhen at the Secretariat on *Renmin ribao*''s New Year editorial for 1962 and other articles). The words: 上午10时到12时 (II, 104). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
     src:
       c: 874e742b
       rows:
         - 'w.yang-shangkun-riji II, 104: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1680–1681: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 165: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-29.china-leadership-4
@@ -4513,3 +4815,17 @@ entries:
     c: Chen Yi 陈毅 writes the poem "Green pines" 《青松》.
     n: '[[w.chen-yi-nianpu]], 904. Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi]
+  - id: cal.1961-12.africa
+    when: Dec.
+    date: 1961-12
+    place: gaza
+    thread: africa
+    also: [china, soviet-union, latin-america]
+    c: Gaza. The executive committee of the Afro-Asian People's Solidarity Organization; the Chinese delegation the largest. An angry Algerian delegation confronts the Soviets. On a tricontinental conference with Latin America, the Soviets want it under the World Peace Council, the Chinese and their allies not; a resolution to hold it passes.
+    n: '[[w.friedman-shadow-cold-war]], 89, 97. To check: Report of Safronov on AAPSO session in Gaza to SCSCAA Presidium, January 8, 1962, GARF f.9540 o.1 d.109, 52 (cited by [[w.friedman-shadow-cold-war]], 89 n.130); Report of Safronov on AAPSO session in Gaza to SCSCAA Presidium, January 8, 1962, GARF f.9540 o.1 d.109, 54 (cited by [[w.friedman-shadow-cold-war]], 89 n.131).'
+    src:
+      c: 6bddd2be
+      rows:
+        - 'w.friedman-shadow-cold-war 89, 97: all'
+        - 'via x.1962-01-08.scscaa-presidium-session-january-8-1962: ?'
+    tags: [polity:prc, polity:ussr, polity:algeria]

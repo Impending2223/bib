@@ -286,6 +286,20 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1708: ?'
     tags: [polity:prc, name:lin-biao, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-06-02.china-leadership-3
+    when: June 2
+    date: '1962-06-02'
+    place: moscow
+    thread: china-leadership
+    also: [africa, soviet-union]
+    c: 'The Chinese Embassy at Moscow to the Foreign Ministry: the Soviets would create in Africa "an example of not going through capitalism, reaching socialism through peaceful development."'
+    n: '[[w.friedman-shadow-cold-war]], 84. Made public: 2015. To check: PRC embassy Moscow to MFA, June 2, 1962, CFMA doc. 109-03220-03, 5 (cited by [[w.friedman-shadow-cold-war]], 84 n.101).'
+    src:
+      c: '60715502'
+      rows:
+        - 'w.friedman-shadow-cold-war 84: all'
+        - 'via x.1962-06-02.prc-embassy-moscow-mfa-june-2-1962: ?'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-06-03.robert-kennedy
     when: June 3
     date: '1962-06-03'
@@ -338,13 +352,14 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: 'Liu Shaoqi receives Hồ Chí Minh, chairman of the Vietnam Workers'' Party Central Committee. On lessons from China''s economic building: how large an industry, how large a culture and education enterprise, depends on how much grain and goods the peasants can supply, as Marx says in *Capital*: what the peasants provide beyond their own consumption fixes how much labor can go to material and spiritual production; material production is industry and spiritual production is science, culture and art; the first proportion in a planned economy is that between industry and agriculture, and it must be right.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 556–557 (June 3, 1962); [[w.yang-shangkun-riji]], II, 179 (June 3, 1962; 3 to 8:30 p.m., Diaoyutai: Liu Shaoqi, Deng Xiaoping, Peng Zhen, Chen Yi, Wang Jiaxiang and Yang Shangkun with Hồ; Liu on China''s situation and on southern Vietnam and Laos, a long struggle, conditions prepared, changes awaited; Hồ on Sino-Soviet relations; dinner after; note 1: the five); [[w.deng-xiaoping-nianpu-1904]], III, 1708 (June 3, 1962; afternoon; Deng, with Liu and Peng Zhen, in talks with Hồ: the North''s construction, the South, Laos, the movement). Made public: 1996. Names: Liu Shaoqi, Hồ Chí Minh.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 556–557 (June 3, 1962); [[w.yang-shangkun-riji]], II, 179 (June 3, 1962; 3 to 8:30 p.m., Diaoyutai: Liu Shaoqi, Deng Xiaoping, Peng Zhen, Chen Yi, Wang Jiaxiang and Yang Shangkun with Hồ; Liu on China''s situation and on southern Vietnam and Laos, a long struggle, conditions prepared, changes awaited; Hồ on Sino-Soviet relations; dinner after; note 1: the five); [[w.deng-xiaoping-nianpu-1904]], III, 1708 (June 3, 1962; afternoon; Deng, with Liu and Peng Zhen, in talks with Hồ: the North''s construction, the South, Laos, the movement); [[w.peng-zhen-nianpu-1902]], IV, 199 (June 3, 1962; Peng Zhen, with Liu Shaoqi, Deng Xiaoping and others, in the talks with Hồ Chí Minh; Liu on the lessons of economic construction; views exchanged on the North''s economy, South Vietnam, Laos and the international movement). Made public: 1996. Names: Liu Shaoqi, Hồ Chí Minh.'
     src:
       c: bce62544
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 556–557: ?'
         - 'w.yang-shangkun-riji II, 179: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1708: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 199: ?'
     tags: [polity:prc, polity:drv, name:liu-shaoqi, name:ho-chi-minh, vis:only:prc+drv]
   - id: cal.1962-06-03.china
     when: June 3
@@ -792,6 +807,23 @@ entries:
         - 'w.yang-jisheng-mubei I, 426, 429: all'
         - 'via w.yang-jisheng-mubei I, 426 n.22: all'
     tags: [polity:prc, vis:only:prc, name:tao-zhu]
+  - id: cal.1962-06-05.china-leadership-5
+    when: June 5
+    date: '1962-06-05'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真 talks with the delegates to the Peking Party congress on the situation: the greatest difficulty the imbalance of industry and agriculture and too many townspeople, more than present farming can feed; boasting, high estimates and high procurement hid it, "我也是现在才认识到问题的严重性"; those eating commodity grain cut, 20 million workers to the villages; industry to support agriculture with fertilizer and machines; frugality in all things.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 199–200. The words: 晚 (IV, 199–200). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 5567ce1b
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 199–200: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1962-06-05T11:00Z
+      - 1962-06-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-06.legislatures-tn
     when: June 6–7
     date: '1962-06-06'
@@ -947,19 +979,25 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Liu Shaoqi presides at the Politburo meeting. It hears and discusses Lin Biao's briefing on the situation on the Sino-Indian border and the military measures now being taken.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 557 (June 6, 1962); [[w.yang-shangkun-riji]], II, 180 (June 6, 1962; 3:30 to 6 p.m., Liu Shaoqi presiding; Lin Biao on the military situation); [[w.mao-zedong-zhuan]], V, ch. 70 (June 6: Liu Shaoqi presides over the enlarged Politburo, which hears Lin Biao on military preparations on the southeast coast; the Center''s instruction to prepare to crush the Kuomintang''s raids goes out June 10). Made public: 1996. Names: Liu Shaoqi, Lin Biao.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 557 (June 6, 1962); [[w.yang-shangkun-riji]], II, 180 (June 6, 1962; 3:30 to 6 p.m., Liu Shaoqi presiding; Lin Biao on the military situation); [[w.mao-zedong-zhuan]], V, ch. 70 (June 6: Liu Shaoqi presides over the enlarged Politburo, which hears Lin Biao on military preparations on the southeast coast; the Center''s instruction to prepare to crush the Kuomintang''s raids goes out June 10). [[w.peng-zhen-nianpu-1902]], IV, 200 (June 6, 1962, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, hearing Lin Biao on the military situation). Made public: 1996. Names: Liu Shaoqi, Lin Biao.'
     src:
       c: e7bd4ec1
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 557: ?'
         - 'w.yang-shangkun-riji II, 180: A'
         - 'w.mao-zedong-zhuan V, ch. 70: A'
+        - 'w.peng-zhen-nianpu-1902 IV, 200: ?'
     tags: [polity:prc, name:liu-shaoqi, name:lin-biao, vis:only:prc]
     variants:
       - unit: B
         witness: w.mao-zedong-zhuan
         reads: Lin Biao's report was on military preparations on the southeast coast 东南沿海军事准备问题, not the Sino-Indian border
         at: V, ch. 70
+    time_range:
+      - 1962-06-06T04:00Z
+      - 1962-06-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-06.china-leadership-3
     when: June 6
     date: '1962-06-06'
@@ -1386,13 +1424,19 @@ entries:
     date: '1962-06-08'
     thread: china-leadership
     c: The Albanian guests arrive; Deng Xiaoping 邓小平, Peng Zhen 彭真 and others meet them.
-    n: '[[w.yang-shangkun-riji]], II, 181 (June 8, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1709 (June 8, 1962; Deng and Peng Zhen meet the Albanian delegation under Hysni Kapo at the airport). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Peng Zhen.'
+    n: '[[w.yang-shangkun-riji]], II, 181 (June 8, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1709 (June 8, 1962; Deng and Peng Zhen meet the Albanian delegation under Hysni Kapo at the airport); [[w.peng-zhen-nianpu-1902]], IV, 200 (June 8, 1962, afternoon; Peng Zhen, with Deng Xiaoping, at the airport to meet the Albanian Party of Labor''s delegation led by Hysni Kapo, member of its Politburo and secretary of its Central Committee). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Peng Zhen.'
     src:
       c: b76e9909
       rows:
         - 'w.yang-shangkun-riji II, 181: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1709: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 200: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc+albania]
+    time_range:
+      - 1962-06-08T04:00Z
+      - 1962-06-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-08.china-leadership-7
     when: June 8
     date: '1962-06-08'
@@ -1436,6 +1480,23 @@ entries:
     c: Chen Yi 陈毅 at the station sees Prince Penn Nouth off home.
     n: '[[w.chen-yi-nianpu]], 920. The words: 上午 (920). Names: Chen Yi, Penn Nouth.'
     tags: [polity:prc, polity:cambodia, name:chen-yi, name:penn-nouth, ok:fields-place]
+    time_range:
+      - 1962-06-07T22:00Z
+      - 1962-06-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-08.china-leadership-9
+    when: June 8
+    date: '1962-06-08'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 presides at the National People's Congress Standing Committee's 全国人大常委会 fifty-fifth session, which hears Xie Fumin 谢扶民 on the nationalities work conference.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 200. The page''s note: Xie Fumin, member of the NPC Standing Committee, deputy chairman of its Nationalities Committee and vice-chairman of the State Nationalities Commission (IV, 200). The words: 上午 (IV, 200). Names: Peng Zhen.'
+    src:
+      c: 35d32741
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 200: all'
+    tags: [polity:prc, name:peng-zhen]
     time_range:
       - 1962-06-07T22:00Z
       - 1962-06-08T04:00Z
@@ -1737,11 +1798,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Deng Xiaoping 邓小平 leads the Chinese side in its first talk with the Albanian Party of Labor''s delegation under Hysni Kapo 卡博: among brother parties equality, independence and agreement by consultation; dogmatism to be fought hard; leaving the universal truth leads to revisionism, leaving one''s own practice to dogmatism.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1709–1710 (June 11, 1962). The talks, six in all, June 11–26: the world, the movement, the line against revisionism, disarmament and peace, Soviet–Albanian relations, Stalin, Sino-Soviet relations, an international meeting (III, 1709). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1709–1710 (June 11, 1962); [[w.peng-zhen-nianpu-1902]], IV, 200 (June 11–15, 1962; Peng Zhen, a member of the Chinese delegation, with Deng and others in several talks with Kapo''s delegation on international questions, Soviet–Albanian and Sino-Soviet relations). The talks, six in all, June 11–26: the world, the movement, the line against revisionism, disarmament and peace, Soviet–Albanian relations, Stalin, Sino-Soviet relations, an international meeting (III, 1709). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
     src:
       c: d5e02355
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1709–1710: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 200: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc+albania]
   - id: cal.1962-06-11.china-leadership-6
     when: June 11
@@ -1780,6 +1842,18 @@ entries:
       - 1962-06-11T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-06-11.china-leadership-5
+    when: June 11–19
+    date: '1962-06-11'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 presides at the first session of the fourth Peking People's Congress 北京市四届人大一次会议 (to June 19), which elects him mayor again.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 200. The day of the election is not given. Names: Peng Zhen.'
+    src:
+      c: f40181c3
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 200: all'
+    tags: [polity:prc, name:peng-zhen]
   - id: cal.1962-06-12.opinion-5
     when: June 12
     date: '1962-06-12'
@@ -2602,6 +2676,59 @@ entries:
         - 'w.yang-jisheng-mubei I, 146: all'
         - 'via w.yang-jisheng-mubei I, 146 n.25: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-06-16.china-leadership-6
+    when: June 16
+    date: '1962-06-16'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真, with Zhu De 朱德, Deng Xiaoping 邓小平 and others, meets at the station the delegation of the Supreme People's Assembly of Korea led by Pak Kum Chol 朴金喆, member of its Standing Committee and vice-chairman of the Korean Workers' Party, and speaks at the welcome.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 200; [[w.chen-yi-nianpu]], 921 (June 16, 1962, morning; Chen Yi at the station welcomes the delegation led by Pak Kum Chol 朴金喆, member of the Standing Committee of the Supreme People''s Assembly and vice-chairman of the Korean Workers'' Party''s Central Committee). The words: 上午 (IV, 200). Names: Peng Zhen, Zhu De, Deng Xiaoping.'
+    src:
+      c: 282b218d
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 200: all'
+        - 'w.chen-yi-nianpu 921: ?'
+    tags: [polity:prc, name:peng-zhen, name:zhu-de, name:deng-xiaoping]
+    time_range:
+      - 1962-06-15T22:00Z
+      - 1962-06-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-16.china-leadership-7
+    when: June 16
+    date: '1962-06-16'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at the dinner for Pak Kum Chol 朴金喆 and the Korean Supreme People's Assembly's delegation.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 200; [[w.chen-yi-nianpu]], 921 (June 16, 1962, evening; Chen Yi at Zhu De''s banquet for the delegation, its deputy heads 康良煜 and 朴信德). The words: 并出席晚宴 (IV, 200). See [[cal.1962-06-16.china-leadership-8]]. Names: Peng Zhen.'
+    src:
+      c: aa03be4e
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 200: all'
+        - 'w.chen-yi-nianpu 921: ?'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1962-06-16T11:00Z
+      - 1962-06-16T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-16.china-leadership-8
+    when: June 16
+    date: '1962-06-16'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 accompanies Zhu De 朱德 in meeting Pak Kum Chol 朴金喆 and his delegation.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 200. The words: 下午 (IV, 200). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Zhu De.'
+    src:
+      c: 8814c676
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 200: all'
+    tags: [polity:prc, name:peng-zhen, name:zhu-de]
+    time_range:
+      - 1962-06-16T04:00Z
+      - 1962-06-16T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-17.opinion
     when: June 17
     date: '1962-06-17'
@@ -2670,13 +2797,49 @@ entries:
     thread: china-leadership
     also: [korea]
     c: The Great Hall 人民大会堂, 6 p.m. Liu Shaoqi's 刘少奇 small dinner for Pak Kum Chol 朴金哲; Yang Shangkun 杨尚昆 attends.
-    n: '[[w.yang-shangkun-riji]], II, 184 (June 17, 1962; note 3: Pak Kum Chol); [[w.chen-yi-nianpu]], 921 (June 17, 1962, afternoon; Liu Shaoqi receives the delegation and gives it a dinner, Chen Yi present). The words: 6时 (II, 184). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Pak Kum Chol, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 184 (June 17, 1962; note 3: Pak Kum Chol); [[w.chen-yi-nianpu]], 921 (June 17, 1962, afternoon; Liu Shaoqi receives the delegation and gives it a dinner, Chen Yi present); [[w.peng-zhen-nianpu-1902]], IV, 201 (June 17, 1962, afternoon; Peng Zhen, with Song Qingling, Dong Biwu, Zhu De, Deng Xiaoping and others, at Liu Shaoqi''s meeting with and banquet for the delegation). The words: 6时 (II, 184). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Pak Kum Chol, Yang Shangkun.'
     src:
       c: d9585be8
       rows:
         - 'w.yang-shangkun-riji II, 184: all'
         - 'w.chen-yi-nianpu 921: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 201: ?'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc+dprk]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-17.china-leadership-5
+    when: June 17
+    date: '1962-06-17'
+    place: peking
+    thread: china-leadership
+    c: 'The Great Hall of the People 人民大会堂, Peking. Peng Zhen 彭真, with Zhu De 朱德, Deng Xiaoping 邓小平 and others, at the meeting of more than 10,000 of Peking welcoming the Korean Supreme People''s Assembly''s delegation, and speaks: the two peoples neighbors sharing hardship, brothers of one purpose, their friendship forged in long common struggle, no force can break it.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 200; [[w.chen-yi-nianpu]], 921 (June 17, 1962, morning; Chen Yi at the Peking meeting welcoming the delegation). The words: 上午 (IV, 200). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Zhu De, Deng Xiaoping.'
+    src:
+      c: 80519ca3
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 200: all'
+        - 'w.chen-yi-nianpu 921: ?'
+    tags: [polity:prc, name:peng-zhen, name:zhu-de, name:deng-xiaoping]
+    time_range:
+      - 1962-06-16T22:00Z
+      - 1962-06-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-17.china-leadership-6
+    when: June 17
+    date: '1962-06-17'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真, with Deng Xiaoping 邓小平 and others, accompanies the Korean delegation to the Peking Youth Peking Opera Troupe's *Sun Wukong Thrice Beats the White-Bone Demon* 《孙悟空三打白骨精》.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 201. The words: 晚 (IV, 201). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Deng Xiaoping.'
+    src:
+      c: 76b7215e
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 201: all'
+    tags: [polity:prc, name:peng-zhen, name:deng-xiaoping]
+    time_range:
+      - 1962-06-17T11:00Z
+      - 1962-06-17T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1962-06-18.governors-me
     when: June 18
@@ -2841,6 +3004,40 @@ entries:
       - 1962-06-18T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1962-06-18.china-leadership-7
+    when: June 18
+    date: '1962-06-18'
+    place: peking
+    thread: china-leadership
+    c: The Summer Palace 颐和园, Peking. Peng Zhen 彭真, with Deng Xiaoping 邓小平 and others, accompanies the Korean delegation.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 201. The words: 上午 (IV, 201). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Deng Xiaoping.'
+    src:
+      c: aa6fcdf3
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 201: all'
+    tags: [polity:prc, name:peng-zhen, name:deng-xiaoping]
+    time_range:
+      - 1962-06-17T22:00Z
+      - 1962-06-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-18.china-leadership-8
+    when: June 18
+    date: '1962-06-18'
+    place: peking
+    thread: china-leadership
+    c: The Great Hall of the People 人民大会堂, Peking. Peng Zhen 彭真, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhu De 朱德, Deng Xiaoping 邓小平 and others, sees the song and dance of the Korean State Art Theater, visiting Peking.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 201. The words: 晚 (IV, 201). Names: Peng Zhen, Liu Shaoqi, Dong Biwu, Zhu De, Deng Xiaoping.'
+    src:
+      c: 77c5a9f4
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 201: all'
+    tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:deng-xiaoping]
+    time_range:
+      - 1962-06-18T11:00Z
+      - 1962-06-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-19.legislatures-ok
     when: June 19
     date: '1962-06-19'
@@ -2968,6 +3165,23 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1711: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc+albania]
+  - id: cal.1962-06-19.china-leadership-7
+    when: June 19
+    date: '1962-06-19'
+    place: peking
+    thread: china-leadership
+    c: 'The Great Hall of the People 人民大会堂, Peking. Peng Zhen 彭真 speaks to the delegates to the Peking People''s Congress, the Party congress''s delegates and the general branch secretaries of the municipal organs on overcoming the temporary difficulties with one heart: some errors against seeking truth from facts, some from inexperience; still "poor and blank," two-odd mu of land a head, farming can feed 90 million townspeople, there are 120 to 130 million; 20 million to the villages, which must place them.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 201. The words: 上午 (IV, 201). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: c58e8f12
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 201: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_range:
+      - 1962-06-18T22:00Z
+      - 1962-06-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-20.middle-east
     when: June 20–22
     date: '1962-06-20'
@@ -3137,6 +3351,23 @@ entries:
       - 1962-06-20T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1962-06-20.china-leadership-6
+    when: June 20
+    date: '1962-06-20'
+    place: wuhan
+    thread: china-leadership
+    c: Wuhan 武汉. Peng Zhen 彭真, accompanying the Korean Supreme People's Assembly's delegation to Wuhan and elsewhere, sees the Yangtze bridge and the Wuhan steel works with Wang Renzhong 王任重 and Zhang Tixue 张体学.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 201. The page''s note: Zhang Tixue, governor of Hubei (IV, 201). The words: 上午……前往武汉……下午 (IV, 201). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen.'
+    src:
+      c: a6ebddc8
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 201: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1962-06-20T04:00Z
+      - 1962-06-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-21.program
     when: June 21
     date: '1962-06-21'
@@ -3213,7 +3444,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Wuchang, 6 p.m. Mao receives the Korean Supreme People's Assembly delegation under Pak Kum Chol, vice-chairman of the Workers' Party; Peng Zhen, Ke Qingshi, Tao Zhu, Wang Renzhong and Wu Xiuquan present. A country must rely on itself first and on foreign aid second; Khrushchev does not like China's self-reliance; of the 81 parties, a majority for now follow Khrushchev, China a minority; the Soviet people are good.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, June 21, 1962. Made public: 2013. Names: Mao Zedong, Pak Kum Chol, Peng Zhen, Ke Qingshi, Tao Zhu, Wang Renzhong, Wu Xiuquan, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, June 21, 1962; [[w.peng-zhen-nianpu-1902]], IV, 202 (June 21, 1962, afternoon; at Wuhan; Peng Zhen accompanies Mao in meeting and giving a banquet for all the members of the Korean Supreme People''s Assembly''s delegation). Made public: 2013. Names: Mao Zedong, Pak Kum Chol, Peng Zhen, Ke Qingshi, Tao Zhu, Wang Renzhong, Wu Xiuquan, Khrushchev.'
     tags: [polity:prc, polity:dprk, name:mao-zedong, name:peng-zhen, name:ke-qingshi, name:tao-zhu, vis:only:prc+dprk, name:khrushchev-nikita-s]
   - id: cal.1962-06-21.china-leadership-2
     when: June 21
@@ -3247,6 +3478,23 @@ entries:
     c: 策伯格米德, Mongolia's new Ambassador, calls on Chen Yi 陈毅 on the presentation of his credentials.
     n: '[[w.chen-yi-nianpu]], 921. The words: 上午 (921). Names: Chen Yi.'
     tags: [polity:prc, polity:mongolia, name:chen-yi]
+    time_range:
+      - 1962-06-20T22:00Z
+      - 1962-06-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-21.china-leadership-4
+    when: June 21
+    date: '1962-06-21'
+    place: wuhan
+    thread: china-leadership
+    c: East Lake 东湖, Wuhan 武汉. Peng Zhen 彭真 accompanies the Korean Supreme People's Assembly's delegation.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen.'
+    src:
+      c: ab760089
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 202: all'
+    tags: [polity:prc, name:peng-zhen]
     time_range:
       - 1962-06-20T22:00Z
       - 1962-06-21T04:00Z
@@ -3317,13 +3565,14 @@ entries:
     place: wuhan
     thread: china-leadership
     c: '4 a.m. Mao to Peng Zhen 彭真: he will stay at Wuhan 武汉 to the end of the month; swimming the Yangtze 长江 does him much good, he means to swim seven to ten days, then go back to Peking; so the Pakistani ambassador and the Kapo 卡博 delegation to be seen at Wuchang 武昌: Peng to arrange it.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 301 (June 22, 1962; Mao''s letter, dated 4 a.m. on the 22nd; printed from the manuscript; note 2: the ambassador Rashidi 拉希迪, whom Mao met at Peking July 15; Hysni Kapo''s Albanian Party of Labor delegation, met June 29 at the East Lake 东湖 guesthouse, Wuhan); [[w.mao-zedong-zhuan]], V, ch. 70 n.19 (June 22: Mao to Peng Zhen, from Wuhan: he will stay until the end of the month, swim the Yangtze seven to ten days, then return direct to Peking; the Pakistani ambassador and the Kapo delegation to be seen at Wuchang). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70); the text in full, 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Mao Zedong 毛泽东, letter to Peng Zhen 彭真 (manuscript 手稿), June 22, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.19). Names: Mao Zedong, Peng Zhen, Kapo. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 301 (June 22, 1962; Mao''s letter, dated 4 a.m. on the 22nd; printed from the manuscript; note 2: the ambassador Rashidi 拉希迪, whom Mao met at Peking July 15; Hysni Kapo''s Albanian Party of Labor delegation, met June 29 at the East Lake 东湖 guesthouse, Wuhan); [[w.mao-zedong-zhuan]], V, ch. 70 n.19 (June 22: Mao to Peng Zhen, from Wuhan: he will stay until the end of the month, swim the Yangtze seven to ten days, then return direct to Peking; the Pakistani ambassador and the Kapo delegation to be seen at Wuchang). [[w.peng-zhen-nianpu-1902]], IV, 202 (June 22, 1962; Peng Zhen receives Mao''s letter; to stay at Wuhan to the month''s end, seven to ten days of swimming the Yangtze, then straight back to Peking; the Pakistani ambassador and Kapo''s delegation to be talked with at Wuchang; Peng to arrange (the page''s note: the Pakistani ambassador Rashidi 拉希迪 and the Albanian Party of Labor''s delegation under Hysni Kapo)). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70); the text in full, 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Mao Zedong 毛泽东, letter to Peng Zhen 彭真 (manuscript 手稿), June 22, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.19). Names: Mao Zedong, Peng Zhen, Kapo. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it.'
     src:
       c: 428f0ecc
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 301: all'
         - 'w.mao-zedong-zhuan V, ch. 70 n.19: B-D'
         - 'via w.mao-zedong-zhuan V, ch.70 n.19: B-D'
+        - 'w.peng-zhen-nianpu-1902 IV, 202: ?'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-22.china-leadership-4
@@ -3404,6 +3653,40 @@ entries:
         - 'w.jian-zhou-enlai 474: all'
         - 'via x.1962-06-22.foreign-ministry-to-wang-1600: all'
     tags: [polity:prc, vis:only:prc, name:chiang-kai-shek]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-22.china-leadership-6
+    when: June 22
+    date: '1962-06-22'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Peng Zhen 彭真 brings the Korean Supreme People's Assembly's delegation from Wuhan 武汉 to Shanghai; in the afternoon with Cao Diqiu 曹荻秋 takes it to the Shanghai Museum of Revolutionary History 上海革命历史纪念馆 and the Children's Palace 少年宫.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The page''s note: Cao Diqiu, secretary of the Shanghai committee''s Secretariat and vice-mayor of Shanghai (IV, 202). The words: 上午……下午 (IV, 202). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen.'
+    src:
+      c: 00da4426
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 202: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1962-06-21T22:00Z
+      - 1962-06-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-22.china-leadership-7
+    when: June 22
+    date: '1962-06-22'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Peng Zhen 彭真 at the reception given by Cao Diqiu 曹荻秋 for the Korean delegation and the Korean State Art Theater, then visiting Shanghai.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The words: 晚上 (IV, 202). See [[cal.1962-06-22.china-leadership-6]]. Names: Peng Zhen.'
+    src:
+      c: 7db7477b
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 202: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1962-06-22T11:00Z
+      - 1962-06-22T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1962-06-23.laos
     when: June 23
@@ -3534,6 +3817,57 @@ entries:
     c: Chen Yi 陈毅 reports to the thirty-second meeting of the Standing Committee of the CPPCC's Third National Committee 政协第三届全国委员会常务委员会 on the Chiang gang's preparing a military adventure against China's coast.
     n: '[[w.chen-yi-nianpu]], 921. Names: Chen Yi, Chiang.'
     tags: [polity:prc, name:chen-yi, name:chiang-kai-shek]
+  - id: cal.1962-06-23.china-leadership-6
+    when: June 23
+    date: '1962-06-23'
+    place: shanghai
+    thread: china-leadership
+    c: Culture Square 文化广场, Shanghai 上海. Peng Zhen 彭真, with Cao Diqiu 曹荻秋, Shi Ximin 石西民, Liu Shuzhou 刘述周 and others, accompanies the Korean Supreme People's Assembly's delegation to Shanghai's welcome meeting of more than 10,000; then with Cao to the Shanghai industrial exhibition 上海工业展览会.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The page''s notes: Shi Ximin, alternate secretary of the Shanghai committee''s Secretariat; Liu Shuzhou, alternate secretary of the Secretariat and vice-mayor of Shanghai (IV, 202). The words: 上午 (IV, 202). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen.'
+    src:
+      c: bce0d1c4
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 202: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1962-06-22T22:00Z
+      - 1962-06-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-23.china-leadership-7
+    when: June 23
+    date: '1962-06-23'
+    place: hangzhou
+    thread: china-leadership
+    c: Hangzhou 杭州. Peng Zhen 彭真 brings the Korean delegation from Shanghai 上海 to Hangzhou; with Jiang Hua 江华 and others takes it to the Du Jinsheng silk weaving works 都锦生丝织厂 and, in the rain, round West Lake 西湖.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The words: 下午 (IV, 202). See [[cal.1962-06-23.china-leadership-6]]. Names: Peng Zhen.'
+    src:
+      c: fa1198b7
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 202: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1962-06-23T04:00Z
+      - 1962-06-23T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-23.china-leadership-8
+    when: June 23
+    date: '1962-06-23'
+    place: hangzhou
+    thread: china-leadership
+    c: Hangzhou 杭州. Peng Zhen 彭真 at the welcome banquet given for the Korean delegation by Zhou Jianren 周建人, governor of Zhejiang 浙江.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The words: 晚 (IV, 202). See [[cal.1962-06-23.china-leadership-6]]. Names: Peng Zhen.'
+    src:
+      c: c384a0c9
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 202: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1962-06-23T11:00Z
+      - 1962-06-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-24.china-leadership
     when: June 24
     date: '1962-06-24'
@@ -3621,6 +3955,24 @@ entries:
       - 1962-06-24T11:00Z
       - 1962-06-24T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-24.china-leadership-7
+    when: June 24
+    date: '1962-06-24'
+    place: peking
+    thread: china-leadership
+    c: Peng Zhen 彭真 brings the Korean Supreme People's Assembly's delegation back from Hangzhou 杭州 to Peking 北京.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 203; [[w.chen-yi-nianpu]], 921 (June 24, 1962, afternoon; Chen Yi at the airport welcomes the delegation back). The words: 下午 (IV, 203). See [[cal.1962-06-23.china-leadership-6]]. Names: Peng Zhen.'
+    src:
+      c: 65989ce9
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 203: all'
+        - 'w.chen-yi-nianpu 921: ?'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1962-06-24T04:00Z
+      - 1962-06-24T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-06-25.court
     when: June 25
@@ -3717,12 +4069,13 @@ entries:
     thread: china-leadership
     also: [korea]
     c: Chen Yi, Vice-Premier, speaks at a rally in the capital marking the 12th anniversary of the Korean war. China fully supports the Korean people's struggle to have the U.S. forces leave South Korea and to unify the country peacefully. He condemns the U.S. for backing the Kuomintang clique's attempt to raid the coastal areas of the mainland, and warns that the U.S. must bear all the grave consequences.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 232 (June 25, 1962); [[w.chen-yi-nianpu]], 921–922 (June 25, 1962, evening, at the Peking Workers'' Gymnasium 北京工人体育馆; Chen Yi backs the Korean demand that American troops leave South Korea, and the Vietnamese struggle, and warns that the United States bears all responsibility for Chiang''s planned invasion of the coast). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 232 (June 25, 1962); [[w.chen-yi-nianpu]], 921–922 (June 25, 1962, evening, at the Peking Workers'' Gymnasium 北京工人体育馆; Chen Yi backs the Korean demand that American troops leave South Korea, and the Vietnamese struggle, and warns that the United States bears all responsibility for Chiang''s planned invasion of the coast); [[w.peng-zhen-nianpu-1902]], IV, 203 (June 25, 1962, evening; the meeting of more than 10,000 of the capital at the Peking Workers'' Gymnasium; Peng Zhen presides and opens it (the peoples of the world, united against U.S. imperialism''s policies of aggression and war, will win); Chen Yi and Pak Kum Chol, head of the Korean delegation, speak). Names: Chen Yi.'
     src:
       c: a3fc6b64
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 232: all'
         - 'w.chen-yi-nianpu 921–922: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 203: ?'
     tags: [polity:prc, polity:dprk, polity:us, polity:roc, name:chen-yi]
     time_range:
       - 1962-06-25T11:00Z
@@ -3959,7 +4312,7 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: 'Liu Shaoqi, with Deng Xiaoping and Peng Zhen, receives the delegation of the Albanian Party of Labor led by Hysni Kapo, member of the politburo and secretary of the Central Committee. On the international situation: an anti-imperialist united front is to be built, taking in true Communists, revolutionaries, the revolutionary bourgeoisie of colonial countries, and revisionists too; if the unity of the communist movement were to rest wholly on Marxism-Leninism, only a very few could be united; to unite most parties, all of them, there can be agreement only on some important questions, not all; keep what is common, set aside differences, and what is not agreed is not written into documents; the movement''s present unity has something of the character of a united front.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 557–558 (June 27, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1712 (June 27, 1962; Deng, with Liu and Peng Zhen, with Kapo''s delegation on anti-revisionism in the movement). Made public: 1996. Names: Liu Shaoqi, Deng Xiaoping, Peng Zhen.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 557–558 (June 27, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1712 (June 27, 1962; Deng, with Liu and Peng Zhen, with Kapo''s delegation on anti-revisionism in the movement); [[w.peng-zhen-nianpu-1902]], IV, 203 (June 27, 1962; Peng Zhen, with Liu Shaoqi, Deng Xiaoping and others, meets the Albanian Party of Labor''s delegation; views exchanged on opposing revisionism). Made public: 1996. Names: Liu Shaoqi, Deng Xiaoping, Peng Zhen.'
     tags: [polity:prc, polity:albania, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, vis:only:prc+albania]
   - id: cal.1962-06-27.china-leadership-4
     when: June 27
@@ -4180,13 +4533,14 @@ entries:
     thread: china-leadership
     also: [korea]
     c: Zhou Enlai receives Pak Kum Chol, head of the Korean Supreme People's Assembly delegation, and Han Ik Su, Korea's Ambassador, on the China–Korea border question.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 28, 1962); [[w.zhou-enlai-waijiao-huodong]], 331 (June 28, 1962; 下午5时, 中南海西花厅, 接见并宴请); [[w.chen-yi-nianpu]], 922 (June 28, 1962, afternoon; Chen Yi present). Made public: 1993. Check: the delegation head''s name in Roman letters (朴金哲, 韩益洙). Names: Zhou Enlai, Pak Kum Chol, Han Ik Su.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 28, 1962); [[w.zhou-enlai-waijiao-huodong]], 331 (June 28, 1962; 下午5时, 中南海西花厅, 接见并宴请); [[w.chen-yi-nianpu]], 922 (June 28, 1962, afternoon; Chen Yi present); [[w.peng-zhen-nianpu-1902]], IV, 203 (June 28, 1962, afternoon; Peng Zhen accompanies Zhou Enlai in meeting and giving a banquet for all the members of the Korean delegation). Made public: 1993. Check: the delegation head''s name in Roman letters (朴金哲, 韩益洙). Names: Zhou Enlai, Pak Kum Chol, Han Ik Su.'
     src:
       c: 792f2505
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 487: ?'
         - 'w.zhou-enlai-waijiao-huodong 331: A'
         - 'w.chen-yi-nianpu 922: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 203: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, vis:only:prc+dprk]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-28.china
@@ -4332,11 +4686,12 @@ entries:
     thread: china-leadership
     also: [china, korea]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the farewell banquet given by Pak Kŭm-ch'ŏl, head of the DPRK Supreme People's Assembly delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 331 (June 29, 1962; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 331 (June 29, 1962; 晚上); [[w.peng-zhen-nianpu-1902]], IV, 203 (June 29, 1962, evening; Peng Zhen, with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping and others, at the farewell banquet given by Pak Kum Chol). Names: Zhou Enlai.'
     src:
       c: ce9998ab
       rows:
         - 'w.zhou-enlai-waijiao-huodong 331: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 203: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai]
     time_range:
       - 1962-06-29T11:00Z
@@ -4460,6 +4815,18 @@ entries:
       - 1962-06-29T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-06-29.china-leadership-9
+    when: June 29
+    date: '1962-06-29'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京. Peng Zhen 彭真, for the National People''s Congress Standing Committee 全国人大常委会, presents to the Korean Supreme People''s Assembly''s Standing Committee twelve old Korean books held by the Ministry of Culture 文化部: block-printed, movable-type, manuscript and painted works of history, literature and medicine.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 203. See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen.'
+    src:
+      c: 93d81c14
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 203: all'
+    tags: [polity:prc, name:peng-zhen]
   - id: cal.1962-06-30.state-and-city-finance-us
     when: June 30
     date: '1962-06-30'
@@ -5126,3 +5493,20 @@ entries:
       rows:
         - 'w.jian-zhou-enlai 473–474: all'
     tags: [polity:prc, vis:only:prc, name:mao-zedong, name:chiang-kai-shek, ok:fields-place]
+  - id: cal.1962-06-30.china-leadership-5
+    when: June 30
+    date: '1962-06-30'
+    place: peking
+    thread: china-leadership
+    c: Peking Station 北京车站. Peng Zhen 彭真, with Zhu De 朱德, Deng Xiaoping 邓小平 and others, sees off Pak Kum Chol's 朴金喆 Korean Supreme People's Assembly's delegation, and speaks at the farewell.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 203–204. The words: 上午 (IV, 203–204). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Zhu De, Deng Xiaoping.'
+    src:
+      c: dedd9ca6
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 203–204: all'
+    tags: [polity:prc, name:peng-zhen, name:zhu-de, name:deng-xiaoping]
+    time_range:
+      - 1962-06-29T22:00Z
+      - 1962-06-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai

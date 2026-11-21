@@ -270,11 +270,12 @@ entries:
     place: hotan
     thread: china-leadership
     c: Zhou Enlai's 周恩来 party lands safely at Hotan 和田, Xinjiang 新疆, after 10 a.m., the journey ended (by Luo Qingchang's 罗青长 telephone call with Yang Shangkun 杨尚昆).
-    n: '[[w.yang-shangkun-riji]], II, 638 (July 1, 1965). The words: 总理等一行，上午10时多已安抵和田，罗青长与我通了话 (II, 638). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Luo Qingchang, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 638 (July 1, 1965); [[w.chen-yi-nianpu]], 1105 (July 1, 1965; Chen Yi with Zhou reaches Hotan). The words: 总理等一行，上午10时多已安抵和田，罗青长与我通了话 (II, 638). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Luo Qingchang, Yang Shangkun.'
     src:
       c: 83420d4f
       rows:
         - 'w.yang-shangkun-riji II, 638: all'
+        - 'w.chen-yi-nianpu 1105: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-07-01.china-leadership-4
@@ -303,11 +304,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, the Great Hall of the People, 3:30 p.m. Mao 毛泽东 receives the public security conference and five or six other bodies and is photographed with them; Yang Shangkun 杨尚昆 there, on the Party's 44th birthday.
-    n: '[[w.yang-shangkun-riji]], II, 638 (July 1, 1965). The words: 下午3时半，去人大会堂参加主席接见公安会议等五六个单位的同志们的照相 (II, 638). Names: Mao Zedong, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 638 (July 1, 1965); [[w.peng-zhen-nianpu-1902]], IV, 424 (July 1, 1965, afternoon; Peng Zhen, with Mao, Liu Shaoqi, Zhu De, Deng Xiaoping, Dong Biwu, He Long and others, receives the delegates of the military, public security, agriculture, land reclamation and other conferences and students of the public security cadre academy and the politics and law school). The words: 下午3时半，去人大会堂参加主席接见公安会议等五六个单位的同志们的照相 (II, 638). Names: Mao Zedong, Yang Shangkun.'
     src:
       c: 1a4f7299
       rows:
         - 'w.yang-shangkun-riji II, 638: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 424: ?'
     tags: [polity:prc, name:mao-zedong]
     time_zone: Asia/Shanghai
   - id: cal.1965-07-01.china-leadership-6
@@ -335,12 +337,18 @@ entries:
     place: peking
     thread: china-leadership
     c: Deng Xiaoping 邓小平, with Zhu De 朱德, Peng Zhen 彭真 and others, attends the ground-breaking for the first stage of the Peking 北京 subway 北京地下铁道, and inscribes the foundation stone, saying that the stations are to be plain and dignified, solid and serviceable, not luxurious.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1867 (July 1, 1965). Deng: 朴素大方、坚固适用，不要豪华 (III, 1867). Names: Deng Xiaoping, Zhu De, Peng Zhen.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1867 (July 1, 1965); [[w.peng-zhen-nianpu-1902]], IV, 424 (July 1, 1965, afternoon; Peng Zhen, with Zhu De, Deng Xiaoping and others, at the ground-breaking of the first stage of the Peking subway). Deng: 朴素大方、坚固适用，不要豪华 (III, 1867). Names: Deng Xiaoping, Zhu De, Peng Zhen.'
     src:
       c: 9f1f0afc
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1867: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 424: ?'
     tags: [polity:prc, name:deng-xiaoping, name:zhu-de, name:peng-zhen]
+    time_range:
+      - 1965-07-01T04:00Z
+      - 1965-07-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-01.vietnam-hanoi
     when: July 1
     date: '1965-07-01'
@@ -350,6 +358,14 @@ entries:
     c: 'The Secretariat''s circular no. 163-TT/TW: a propaganda drive for July 20, the Geneva anniversary, at home and abroad, to condemn the American war and spread Hanoi''s terms, Phạm Văn Đồng''s four points and the National Liberation Front''s five-point statement of Mar. 22, 1965. At home a short emulation drive, July 14–20, a government statement, a Foreign Ministry white paper and a rally in Hanoi; abroad, press conferences, broadcasts and exhibitions by the missions.'
     n: '*Thông tri của Ban Bí thư số 163-TT/TW, ngày 1-7-1965, Về kế hoạch tuyên truyền động viên đấu tranh trong dịp 20 tháng 7 năm nay*, signed for the Secretariat by Vũ Tuân, chief of its office. [[w.van-kien-dang-toan]], XXVI, 226–32. Made public: 2003. Names: Phạm Văn Đồng.'
     tags: [polity:drv, polity:us, name:pham-van-dong, vis:only:drv]
+  - id: cal.1965-07-01.china-leadership-9
+    when: July 1
+    date: '1965-07-01'
+    place: hotan
+    thread: china-leadership
+    c: At Hotan 和田 Chen Yi 陈毅 writes the *ci* "Home over the Kunlun, landing at Hotan" 《归国越昆仑飞抵和田》.
+    n: '[[w.chen-yi-nianpu]], 1105. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1965-07-02.vietnam-july-decision
     when: July 2
     date: '1965-07-02'
@@ -624,12 +640,13 @@ entries:
     place: urumqi
     thread: china-leadership
     c: Zhou flies to Urumqi.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 741 (July 3, 1965); [[w.zhou-enlai-waijiao-huodong]], 467 (July 3, 1965; morning, by special plane back to Urumqi). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 741 (July 3, 1965); [[w.zhou-enlai-waijiao-huodong]], 467 (July 3, 1965; morning, by special plane back to Urumqi); [[w.chen-yi-nianpu]], 1105 (July 3, 1965, morning; Chen Yi with Zhou). Names: Zhou Enlai.'
     src:
       c: dfcd8dcd
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 741: ?'
         - 'w.zhou-enlai-waijiao-huodong 467: A'
+        - 'w.chen-yi-nianpu 1105: ?'
     tags: [name:zhou-enlai, polity:prc]
     time_range:
       - 1965-07-02T22:00Z
@@ -684,6 +701,23 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 639: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-03.china-leadership-6
+    when: July 3
+    date: '1965-07-03'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at a meeting at Deng Xiaoping's 邓小平.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 424. The words: 上午 (IV, 424). Made public: 2012. Names: Peng Zhen, Deng Xiaoping.'
+    src:
+      c: b5d84913
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 424: all'
+    tags: [polity:prc, name:peng-zhen, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1965-07-02T22:00Z
+      - 1965-07-03T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1965-07-04.vietnam-air-war
     when: July 4
@@ -812,7 +846,7 @@ entries:
     place: shihezi
     thread: china-leadership
     c: 'Zhou inspects the Shihezi reclamation area of the Xinjiang Production and Construction Corps. Six sentences for the Corps: war preparation and border defense, at once mobilize; production and building, with more farmland; unity of nationalities, take in more of them by production teams; hard struggle, learn from Daqing; strive for revolution; go forward bravely. Inscribes: "Raise high the victorious red banner of Mao Zedong Thought; war preparation, border defense, production, building, unity of nationalities, hard struggle, strive for revolution, advance bravely!"'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 741–42 (July 5, 1965). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 741–42 (July 5, 1965); [[w.chen-yi-nianpu]], 1105 (July 5, 1965; Chen Yi with Zhou at the Shihezi 石河子 reclamation area; after the inspection he says the situation in Xinjiang is very good, the nationalities united, the corps'' work very good, because politics is put first and production pressed). Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc]
   - id: cal.1965-07-05.china-leadership-2
     when: July 5
@@ -827,7 +861,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi hears the preparatory group of the forum on "four clean-up" trials in the national industrial and communications system report. He says there are three fundamental measures to keep capitalism from being restored and prevent peaceful evolution and revisionism: first, the socialist-education movement; second, half-work, half-study; third, cadres'' taking part in labor, which must become a habit and a system, not be seen as a small matter. Factory heads who have a secretary write their speeches: why do it? It is putting on airs; speak a little, speak what one can, and if one cannot, do not; hereafter this is to be stopped, and "to know is to know, not to know is not to know" encouraged.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 622 (July 5, 1965); [[w.deng-xiaoping-nianpu-1904]], III, 1867 (July 5, 1965; Deng, with Liu Shaoqi 刘少奇, Peng Zhen 彭真 and others, hears the report of the preparatory group of the symposium on the pilot ''four clean-ups'' in the industrial and communications system. Deng: in the movement a fairly good leading core is to be set up, workers'' congresses established, organs reformed, and cadres'' labor settled; for children of landlords and rich peasants, weigh the person''s own conduct; the 95 percent Mao speaks of includes them, which is the class policy). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 622 (July 5, 1965); [[w.deng-xiaoping-nianpu-1904]], III, 1867 (July 5, 1965; Deng, with Liu Shaoqi 刘少奇, Peng Zhen 彭真 and others, hears the report of the preparatory group of the symposium on the pilot ''four clean-ups'' in the industrial and communications system. Deng: in the movement a fairly good leading core is to be set up, workers'' congresses established, organs reformed, and cadres'' labor settled; for children of landlords and rich peasants, weigh the person''s own conduct; the 95 percent Mao speaks of includes them, which is the class policy); [[w.peng-zhen-nianpu-1902]], IV, 424 (July 5, 1965; Peng Zhen, with Liu Shaoqi, Deng Xiaoping and others, hears the preparatory group of the forum on four-clean-up trials in industry and communications). Made public: 1996. Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1965-07-05.china-leadership-4
     when: July 5
@@ -914,6 +948,25 @@ entries:
         - 'w.yang-jisheng-mubei I, 156–157: all'
         - 'via w.yang-jisheng-mubei I, 157 n.34: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1965-07-05.china-leadership-9
+    when: July 5
+    date: '1965-07-05'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真, on Henan''s 河南 agricultural plan: the provincial committee to rouse the peasants'' zeal and settle concrete measures; the three-year targets set too high.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 424. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 27536e5b
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 424: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
+  - id: cal.1965-07-05.china-leadership-10
+    when: July 5
+    date: '1965-07-05'
+    place: shihezi
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes two poems, "Visiting Xinjiang" 《访新疆》.
+    n: '[[w.chen-yi-nianpu]], 1105. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1965-07-06.succession
     when: July 6
     date: '1965-07-06'
@@ -1060,10 +1113,16 @@ entries:
   - id: cal.1965-07-06.china-leadership
     when: July 6
     date: '1965-07-06'
+    place: urumqi
     thread: china-leadership
     c: 'Zhou, at the meeting of the Xinjiang region''s Party, government and army cadres, makes eight points: raise Mao Zedong Thought''s banner; strengthen defense; do the "four cleanups" well, not long, basically done in 1966–67; develop production, Xinjiang above and below ground has great potential, to serve as the rear; build key projects, not everything at once, first farming, then defense industry and small third-front building; unity of nationalities, a long task: Han cadres learn Uighur first, respect customs, resolve to work and make revolution in Xinjiang; hard struggle, no free spending or this generation founds and the same destroys; go forward to protect the country and build a revolutionary new Xinjiang. In Xinjiang inspected Kashgar, Urumqi, villages, plants, offices, schools.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 742 (July 6, 1965). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 742 (July 6, 1965); [[w.chen-yi-nianpu]], 1106 (July 6, 1965, afternoon, Urumqi 乌鲁木齐; Chen Yi with Zhou receives the region''s Party, government and army cadres and speaks to them). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1965-07-06T04:00Z
+      - 1965-07-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-06.china-leadership-2
     when: July 6
     date: '1965-07-06'
@@ -1126,6 +1185,21 @@ entries:
     c: Quảng Nam. Battalion 70 ambushes and destroys the 4th Battalion of the 4th Regiment, 2d Division, at Mộc Bài, July 6, by the history's count.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 433. Check: the place: the history''s Mộc Bài stands in its Quảng Nam paragraph, not the Mộc Bài of Tây Ninh.'
     tags: [polity:drv, ok:fields-place]
+  - id: cal.1965-07-06.china-leadership-6
+    when: July 6
+    date: '1965-07-06'
+    place:
+      - shihezi
+      - urumqi
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Zhou Enlai 周恩来 leave Shihezi 石河子 for Urumqi 乌鲁木齐; before leaving they receive the corps' cadres and the representatives of the Shihezi reclamation area's staff and workers.
+    n: '[[w.chen-yi-nianpu]], 1106. The words: 上午 (1106). Made public: 1995. Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, name:chen-yi, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1965-07-05T22:00Z
+      - 1965-07-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-07.vietnam-force-levels
     when: July 7
     date: '1965-07-07'
@@ -1313,14 +1387,21 @@ entries:
       - peking
     thread: china-leadership
     c: Zhou flies from Urumqi to Beijing.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 742 (July 7, 1965); [[w.zhou-enlai-waijiao-huodong]], 467 (July 7, 1965; afternoon, by special plane back to Peking; Zhu De, Deng Xiaoping and other Party and state leaders meet him at the airport); [[w.yang-shangkun-riji]], II, 640 (July 7, 1965; Yang meets Zhou, Chen Yi and their party at the western airport at 3 p.m.; Urumqi not named; the words: 下午3时去西郊机场，迎接恩来、陈毅同志等回京). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 742 (July 7, 1965); [[w.zhou-enlai-waijiao-huodong]], 467 (July 7, 1965; afternoon, by special plane back to Peking; Zhu De, Deng Xiaoping and other Party and state leaders meet him at the airport); [[w.yang-shangkun-riji]], II, 640 (July 7, 1965; Yang meets Zhou, Chen Yi and their party at the western airport at 3 p.m.; Urumqi not named; the words: 下午3时去西郊机场，迎接恩来、陈毅同志等回京); [[w.peng-zhen-nianpu-1902]], IV, 424 (July 7, 1965, afternoon; Peng Zhen, with Zhu De, Deng Xiaoping and others, at the airport meeting Zhou back from the UAR); [[w.chen-yi-nianpu]], 1106 (July 7, 1965, afternoon; Chen Yi with Zhou by special plane). Names: Zhou Enlai.'
     src:
       c: dc71232a
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 742: ?'
         - 'w.zhou-enlai-waijiao-huodong 467: A'
         - 'w.yang-shangkun-riji II, 640: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 424: ?'
+        - 'w.chen-yi-nianpu 1106: ?'
     tags: [name:zhou-enlai, polity:prc]
+    time_range:
+      - 1965-07-07T04:00Z
+      - 1965-07-07T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-07.china-leadership-2
     when: July 7
     date: '1965-07-07'
@@ -1575,6 +1656,19 @@ entries:
         - 'w.yang-shangkun-riji II, 640: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-07-08.china-leadership-3
+    when: July 8
+    date: '1965-07-08'
+    thread: china-leadership
+    also: [africa-algeria-morocco, soviet-union]
+    c: 'The Foreign Ministry''s Soviet and East European Department, again on the Soviet attitude to the coup: Moscow at first toys with backing a guerrilla struggle against the new government. Soviet aid to Algeria: more than $225 million in credits, schools for technical cadres among them, some 150 tanks, twenty aircraft, sixty guns, six naval ships, military experts sent and Algerian officers trained.'
+    n: '[[w.friedman-shadow-cold-war]], 139. Made public: 2015. To check: Report from Soviet-East European MFA Department on Soviet attitude and actions toward Algerian coup, July 8, 1965, CFMA doc. 109-03645-02, 32 (cited by [[w.friedman-shadow-cold-war]], 139 n.183a); Report from Soviet-East European MFA Department on Soviet attitude and actions toward Algerian coup, July 8, 1965, CFMA doc. 109-03645-02, 30 (cited by [[w.friedman-shadow-cold-war]], 139 n.185).'
+    src:
+      c: 21c4ddd3
+      rows:
+        - 'w.friedman-shadow-cold-war 139: all'
+        - 'via x.1965-07-08.soviet-east-european-mfa-department-soviet-attitude-actions: ?'
+    tags: [polity:prc, polity:algeria, vis:only:prc, ok:fields-place]
   - id: cal.1965-07-09.medicare
     when: July 9
     date: '1965-07-09'
@@ -1809,6 +1903,25 @@ entries:
         - 'w.yang-shangkun-riji II, 640: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-07-09.china-leadership-5
+    when: July 9
+    date: '1965-07-09'
+    place: peking
+    thread: china-leadership
+    also: [korea]
+    c: Peking 北京. Peng Zhen 彭真 at the banquet of Pak Se-chang 朴世昌, the Korean ambassador, for the fourth anniversary of the Sino-Korean treaty of friendship, cooperation and mutual assistance.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 424–425; [[w.chen-yi-nianpu]], 1106 (July 9, 1965, evening, the embassy; Chen Yi speaks at Pak Se-chang''s 朴世昌 banquet for the treaty''s fourth anniversary, praising the two peoples'' unity and the DPRK''s achievements and condemning the United States for pushing the Pak Chung Hee clique into the ROK–Japan basic treaty). Names: Peng Zhen.'
+    src:
+      c: 67fdbd4a
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 424–425: all'
+        - 'w.chen-yi-nianpu 1106: ?'
+    tags: [polity:prc, name:peng-zhen, polity:dprk]
+    time_range:
+      - 1965-07-09T11:00Z
+      - 1965-07-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-10.economy
     when: July 10
     date: '1965-07-10'
@@ -2006,6 +2119,54 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1867–1868: all'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, vis:only:prc]
+  - id: cal.1965-07-10.china-leadership-8
+    when: July 10
+    date: '1965-07-10'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 to Song Shuo 宋硕: the plan for the rectification meeting of Peking University''s 北京大学 party members and cadres agreed in principle, best held after the graduates'' political appraisals; not to schedule him to speak again.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 425. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 76facb36
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 425: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
+  - id: cal.1965-07-10.china-leadership-9
+    when: July 10
+    date: '1965-07-10'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at Mao's 毛泽东 to talk.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 425. The words: 下午 (IV, 425). Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: '64872439'
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 425: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1965-07-10T04:00Z
+      - 1965-07-10T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-10.china-leadership-10
+    when: July 10
+    date: '1965-07-10'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Dugersuren 杜格苏伦, Mongolia's Foreign Minister, on the forty-fourth anniversary of the Mongolian people's revolution.
+    n: '[[w.chen-yi-nianpu]], 1106. Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi, ok:fields-place]
+  - id: cal.1965-07-10.china-leadership-11
+    when: July 10
+    date: '1965-07-10'
+    thread: china-leadership
+    also: [korea]
+    c: Chen Yi 陈毅 at the reception of the Committee for Cultural Relations with Foreign Countries 对外文化联络委员会 and the China–Korea Friendship Association 中朝友好协会 for the fourth anniversary of the China–Korea treaty of friendship, cooperation and mutual assistance.
+    n: '[[w.chen-yi-nianpu]], 1106. The words: 晚上 (1106). Names: Chen Yi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-07-10T11:00Z
+      - 1965-07-10T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-11.transition-and-staff
     when: July 11
     date: '1965-07-11'
@@ -2129,12 +2290,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou, with Deng Yingchao and Chen Yi, receives and dines Naradipo, Prince Sihanouk's son studying in Beijing, and Cambodia's ambassador in China.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 743 (July 11, 1965); [[w.zhou-enlai-waijiao-huodong]], 467 (July 11, 1965; noon, Fujian Hall, Great Hall of the People; Zhou, with Deng Yingchao, Chen Yi and Chen''s wife Zhang Qian, receives and gives a luncheon for Prince Norodom Naradipo, who is studying in Peking, and Cambodia''s ambassador (the book names him 张岗)). Names: Zhou Enlai, Deng Yingchao, Chen Yi, Sihanouk, Naradipo.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 743 (July 11, 1965); [[w.zhou-enlai-waijiao-huodong]], 467 (July 11, 1965; noon, Fujian Hall, Great Hall of the People; Zhou, with Deng Yingchao, Chen Yi and Chen''s wife Zhang Qian, receives and gives a luncheon for Prince Norodom Naradipo, who is studying in Peking, and Cambodia''s ambassador (the book names him 张岗)); [[w.chen-yi-nianpu]], 1106 (July 11, 1965; Zhou and his wife, Chen Yi and his wife). Names: Zhou Enlai, Deng Yingchao, Chen Yi, Sihanouk, Naradipo.'
     src:
       c: ad26cfaf
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 743: ?'
         - 'w.zhou-enlai-waijiao-huodong 467: A'
+        - 'w.chen-yi-nianpu 1106: ?'
     tags: [name:zhou-enlai, name:chen-yi, name:norodom-sihanouk, polity:prc, polity:cambodia]
   - id: cal.1965-07-11.china-leadership-2
     when: July 11
@@ -2179,14 +2341,26 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Mao to Kang Sheng 康生 and Wu Lengxi 吴冷西: read, written very well. The paper is the Central Committee''s and State Council''s reply of July 10 to the CPSU''s letter of Apr. 17: it rejects the charge that China opposed a three-way summit of Vietnam, China and the USSR, charges Soviet appeasement of the U.S. over Vietnam and great-power chauvinism, and refuses to lay differences aside for "joint action."'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 79–80 (July 11, 1965; Mao''s note; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). To check: Central Committee and State Council of China, reply to the CPSU Central Committee and the USSR Council of Ministers, July 10, 1965, sent to Mao by Kang Sheng and Wu Lengxi (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 79 n.1a); CPSU Central Committee and USSR Council of Ministers, letter of Apr. 17, 1965 (attacks on the Chinese refusal of a Vietnam–China–Soviet summit proposed Apr. 3) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 79 n.1b). Names: Mao Zedong, Kang Sheng, Wu Lengxi.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 79–80 (July 11, 1965; Mao''s note; printed from the manuscript); [[w.khoo-collateral-damage]], 23 (the letter rejecting the Soviet requests, drafted July 10 and approved by Mao July 11: Moscow using the matter to control China). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). To check: Central Committee and State Council of China, reply to the CPSU Central Committee and the USSR Council of Ministers, July 10, 1965, sent to Mao by Kang Sheng and Wu Lengxi (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 79 n.1a); CPSU Central Committee and USSR Council of Ministers, letter of Apr. 17, 1965 (attacks on the Chinese refusal of a Vietnam–China–Soviet summit proposed Apr. 3) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 79 n.1b); [[w.zedong-jianguo-yilai-mao-zedong]], XI, 394–395 (cited by [[w.khoo-collateral-damage]], 23 n.79). Names: Mao Zedong, Kang Sheng, Wu Lengxi.'
     src:
       c: f5d31c44
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 79–80: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 79 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 79 n.1b: all'
+        - 'w.khoo-collateral-damage 23: ?'
     tags: [polity:prc, name:mao-zedong, name:kang-sheng, vis:only:prc]
+  - id: cal.1965-07-11.china-leadership-5
+    when: July 11
+    date: '1965-07-11'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 presses Lu Ping 陆平 on two things: whether those of Peking University''s 北京大学 1,800 graduates qualified for Party or League membership have been admitted before leaving; after job assignments, a period of rectification of the party members and cadres.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 425. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: ded959ec
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 425: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
   - id: cal.1965-07-12.european-community
     when: July 12
     date: '1965-07-12'
@@ -2315,7 +2489,7 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou receives Uganda''s Prime Minister Milton Obote, July 12–16: two formal and two private talks. July 15 with Chen Yi goes with him to Shanghai, takes him to the Shanghai industrial exhibition; July 16 to Guangzhou, where they sign the Sino-Ugandan joint communiqué.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 743–44 (July 12–16, 1965); [[w.zhou-enlai-waijiao-huodong]], 467–68 (July 12–16, 1965; the formal talks: July 12, 5:15 p.m., Beijing Hall, Great Hall of the People, and July 13, 3 p.m., Building 18, Diaoyutai guesthouse, Zhou calling on Obote; the private talks: July 13, 10:30 p.m., Great Hall of the People, and July 14, 8:30 p.m., Building 18, Diaoyutai); [[w.zhou-enlai-waijiao-huodong]], 468 (July 15, 1965; 9 a.m., with Chen Yi and Obote by special plane to Shanghai; on arrival in the morning the Shanghai industrial exhibition with Deputy Mayor Cao Diqiu); [[w.zhonghua-renmin-gongheguo-waijiao]], 37–38 (July 11–16, 1965; Obote''s visit, July 11–16; Mao and Liu receive him). Names: Zhou Enlai, Chen Yi, Obote.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 743–44 (July 12–16, 1965); [[w.zhou-enlai-waijiao-huodong]], 467–68 (July 12–16, 1965; the formal talks: July 12, 5:15 p.m., Beijing Hall, Great Hall of the People, and July 13, 3 p.m., Building 18, Diaoyutai guesthouse, Zhou calling on Obote; the private talks: July 13, 10:30 p.m., Great Hall of the People, and July 14, 8:30 p.m., Building 18, Diaoyutai); [[w.zhou-enlai-waijiao-huodong]], 468 (July 15, 1965; 9 a.m., with Chen Yi and Obote by special plane to Shanghai; on arrival in the morning the Shanghai industrial exhibition with Deputy Mayor Cao Diqiu); [[w.zhonghua-renmin-gongheguo-waijiao]], 37–38 (July 11–16, 1965; Obote''s visit, July 11–16; Mao and Liu receive him); [[w.chen-yi-nianpu]], 1106 (July 12, 1965, afternoon, Chen Yi in Zhou''s talks with Obote; July 13, afternoon, at Zhou''s return call and talks at the guesthouse); [[w.chen-yi-nianpu]], 1107 (July 15, 1965, morning, Chen Yi with Zhou takes Obote and his party from Peking to Shanghai; July 16, morning, to Canton; at noon at the signing of the joint communiqué). The time is the first day''s. Names: Zhou Enlai, Chen Yi, Obote.'
     src:
       c: c52d99c1
       rows:
@@ -2323,7 +2497,14 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 467–68: A'
         - 'w.zhou-enlai-waijiao-huodong 468: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao 37–38: A'
+        - 'w.chen-yi-nianpu 1106: ?'
+        - 'w.chen-yi-nianpu 1107: ?'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:uganda]
+    time_range:
+      - 1965-07-12T04:00Z
+      - 1965-07-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-12.china-leadership-3
     when: July 12
     date: '1965-07-12'
@@ -2331,12 +2512,18 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou goes to the airport to welcome Uganda's Prime Minister Obote, on a friendly visit.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 467 (July 12, 1965; Beijing airport; the time not given). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 467 (July 12, 1965; Beijing airport; the time not given); [[w.chen-yi-nianpu]], 1106 (July 12, 1965, noon; Chen Yi at the airport). Names: Zhou Enlai.'
     src:
       c: e1002c7d
       rows:
         - 'w.zhou-enlai-waijiao-huodong 467: all'
+        - 'w.chen-yi-nianpu 1106: ?'
     tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1965-07-12T04:00Z
+      - 1965-07-12T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-12.china-leadership-4
     when: July 12
     date: '1965-07-12'
@@ -2345,11 +2532,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou, at the banquet for Obote in the Great Hall of the People: the recent decision to postpone the second Asian–African conference was taken to hold it better, so that the principles laid down at Bandung may be carried forward and the new situation and challenges since 1955 met, strengthening the struggle against imperialism and old and new colonialism.'
-    n: '[[w.zhou-enlai-waijiao-huodong]], 467 (July 12, 1965; 7 p.m., Great Hall of the People). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 467 (July 12, 1965; 7 p.m., Great Hall of the People); [[w.chen-yi-nianpu]], 1106 (July 12, 1965, evening; Chen Yi at the banquet). Names: Zhou Enlai.'
     src:
       c: 3a25b3d0
       rows:
         - 'w.zhou-enlai-waijiao-huodong 467: all'
+        - 'w.chen-yi-nianpu 1106: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1965-07-12.china-leadership-5
@@ -2431,6 +2619,68 @@ entries:
         - 'w.yang-shangkun-riji II, 641: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1965-07-12.china-leadership-10
+    when: July 12
+    date: '1965-07-12'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真, answering Jiang Qing 江青 on the films: sent to Xiao Wangdong 萧望东 and others, who have seen them.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 425. Made public: 2012. Names: Peng Zhen, Jiang Qing.'
+    src:
+      c: '78715644'
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 425: all'
+    tags: [polity:prc, name:peng-zhen, name:jiang-qing, vis:only:prc, ok:fields-place]
+  - id: cal.1965-07-12.china-leadership-11
+    when: July 12
+    date: '1965-07-12'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Peking 北京. Peng Zhen 彭真, with Zhu De 朱德 and others, at the airport meeting the Vietnamese National Assembly delegation under Hoàng Văn Hoan 黄文欢, vice-chairman of the Standing Committee.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 425; [[w.chen-yi-nianpu]], 1106 (July 12, 1965, 11 a.m.; Chen Yi at the airport to welcome Hoàng Văn Hoan''s 黄文欢 National Assembly delegation). The words: 上午 (IV, 425). Names: Peng Zhen, Zhu De.'
+    src:
+      c: a4e188db
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 425: all'
+        - 'w.chen-yi-nianpu 1106: ?'
+    tags: [polity:prc, name:peng-zhen, name:zhu-de, polity:drv]
+    time_range:
+      - 1965-07-11T22:00Z
+      - 1965-07-12T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-12.china-leadership-12
+    when: July 12
+    date: '1965-07-12'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Peking 北京. Peng Zhen 彭真 accompanies Zhu De 朱德 receiving Hoàng Văn Hoan 黄文欢 and his party.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 425. The words: 下午 (IV, 425). See [[cal.1965-07-12.china-leadership-11]]. Names: Peng Zhen, Zhu De.'
+    src:
+      c: d6ee15d3
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 425: all'
+    tags: [polity:prc, name:peng-zhen, name:zhu-de, polity:drv]
+    time_range:
+      - 1965-07-12T04:00Z
+      - 1965-07-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-12.china-leadership-13
+    when: July 12
+    date: '1965-07-12'
+    place: cairo
+    thread: china-leadership
+    also: [middle-east, soviet-union]
+    c: 'The Chinese Embassy in the UAR to the Foreign Ministry and Xinhua: the Radio Moscow correspondent in Cairo to his Egyptian colleagues: "you should know, food was stolen out of the mouths of Soviet people to rescue yours."'
+    n: '[[w.friedman-shadow-cold-war]], 133. Made public: 2015. To check: PRC embassy UAR to MFA and Xinhua, July 12, 1965, CFMA doc. 109-03645-01, 20 (cited by [[w.friedman-shadow-cold-war]], 133 n.150).'
+    src:
+      c: 45c4c3c8
+      rows:
+        - 'w.friedman-shadow-cold-war 133: all'
+        - 'via x.1965-07-12.prc-embassy-uar-mfa-xinhua-july-12: ?'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1965-07-13.court
     when: July 13
     date: '1965-07-13'
@@ -2600,11 +2850,12 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: Zhou attends the National Day reception given by Iraq's ambassador.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 467 (July 13, 1965; 7 p.m., Beijing). The book names the ambassador 阿明. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 467 (July 13, 1965; 7 p.m., Beijing); [[w.chen-yi-nianpu]], 1107 (July 13, 1965, evening, the Peking Hotel; Chen Yi speaks at Ambassador 阿明''s National Day reception, restating China''s support for the Arab peoples against the United States and its tool Israel). The book names the ambassador 阿明. Names: Zhou Enlai.'
     src:
       c: 1d2e33f6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 467: all'
+        - 'w.chen-yi-nianpu 1107: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1965-07-13.china-leadership-5
@@ -2615,11 +2866,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou attends the arts evening for Obote and watches the dance drama *The Congo River in Wrath*.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 467 (July 13, 1965; 8 p.m., Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 467 (July 13, 1965; 8 p.m., Beijing); [[w.chen-yi-nianpu]], 1107 (July 13, 1965; Chen Yi with Zhou, given by the Ministry of Culture, the Committee for Cultural Relations with Foreign Countries and the China–Africa Friendship Association). Names: Zhou Enlai.'
     src:
       c: e7660dd9
       rows:
         - 'w.zhou-enlai-waijiao-huodong 467: all'
+        - 'w.chen-yi-nianpu 1107: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1965-07-13.china-leadership-6
@@ -2655,6 +2907,38 @@ entries:
       - 1965-07-13T14:00Z
       - 1965-07-13T16:00Z
     time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-13.china-leadership-8
+    when: July 13
+    date: '1965-07-13'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Peking 北京. Peng Zhen 彭真, with Zhu De 朱德 and Deng Xiaoping 邓小平, at the banquet welcoming Hoàng Văn Hoan 黄文欢 and his party.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 425. The words: 十三日晚 (IV, 425). See [[cal.1965-07-12.china-leadership-11]]. Names: Peng Zhen, Zhu De, Deng Xiaoping.'
+    src:
+      c: 37fc4f45
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 425: all'
+    tags: [polity:prc, name:peng-zhen, name:zhu-de, name:deng-xiaoping, polity:drv]
+    time_range:
+      - 1965-07-13T11:00Z
+      - 1965-07-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-13.china-leadership-9
+    when: July 13
+    date: '1965-07-13'
+    place: peking
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 takes Obote to the Museum of the Chinese Revolution 中国革命博物馆, Peking 北京, to see the exhibits on the Chinese people's revolutionary struggle of more than a hundred years.
+    n: '[[w.chen-yi-nianpu]], 1106. The words: 上午 (1106). Names: Chen Yi, Obote.'
+    tags: [polity:prc, polity:uganda, name:chen-yi, name:obote-a-milton]
+    time_range:
+      - 1965-07-12T22:00Z
+      - 1965-07-13T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1965-07-14.transition-and-staff
     when: July 14
@@ -2889,13 +3173,14 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou meets Hoàng Văn Hoan, deputy chairman of Vietnam's National Assembly Standing Committee, and the Vietnamese National Assembly friendship delegation.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 743 (July 14, 1965); [[w.zhou-enlai-waijiao-huodong]], 468 (July 14, 1965; 10:30 a.m., Fujian Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 38 (July 11–Sept. 3, 1965; Hoàng Văn Hoan''s National Assembly delegation, July 11 to Sept. 3; Mao, Liu Shaoqi and Zhou each receive it; Zhu De: China''s support without reserve, the U.S. to answer for its violations of Chinese airspace). Names: Zhou Enlai, Hoàng Văn Hoan.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 743 (July 14, 1965); [[w.zhou-enlai-waijiao-huodong]], 468 (July 14, 1965; 10:30 a.m., Fujian Hall, Great Hall of the People); [[w.zhonghua-renmin-gongheguo-waijiao]], 38 (July 11–Sept. 3, 1965; Hoàng Văn Hoan''s National Assembly delegation, July 11 to Sept. 3; Mao, Liu Shaoqi and Zhou each receive it; Zhu De: China''s support without reserve, the U.S. to answer for its violations of Chinese airspace); [[w.chen-yi-nianpu]], 1107 (July 14, 1965, morning; Chen Yi with Zhou). Names: Zhou Enlai, Hoàng Văn Hoan.'
     src:
       c: 73c4798c
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 743: ?'
         - 'w.zhou-enlai-waijiao-huodong 468: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 38: all'
+        - 'w.chen-yi-nianpu 1107: ?'
     tags: [name:zhou-enlai, polity:prc, polity:drv]
     time_zone: Asia/Shanghai
   - id: cal.1965-07-14.china-leadership-2
@@ -2905,11 +3190,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou attends the banquet given by the envoys of African states in Peking for Obote's visit.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 14, 1965; noon; Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 14, 1965; noon; Beijing); [[w.chen-yi-nianpu]], 1107 (July 14, 1965, noon; Chen Yi at the banquet). Names: Zhou Enlai.'
     src:
       c: d02100f3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 468: all'
+        - 'w.chen-yi-nianpu 1107: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-14T04:00Z
@@ -2924,11 +3210,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou accompanies Mao Zedong and Liu Shaoqi in receiving Obote in the Great Hall of the People.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 14, 1965; 2:20 p.m., Great Hall of the People). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 14, 1965; 2:20 p.m., Great Hall of the People); [[w.chen-yi-nianpu]], 1107 (July 14, 1965, afternoon; Chen Yi present). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi.'
     src:
       c: fcb1b4d5
       rows:
         - 'w.zhou-enlai-waijiao-huodong 468: all'
+        - 'w.chen-yi-nianpu 1107: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi]
     time_zone: Asia/Shanghai
   - id: cal.1965-07-14.china-leadership-4
@@ -2938,11 +3225,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou attends the Workers' Stadium rally of all circles in the capital welcoming Obote.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 14, 1965; afternoon; Workers'' Stadium, Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 14, 1965; afternoon; Workers'' Stadium, Beijing); [[w.peng-zhen-nianpu-1902]], IV, 425 (July 14, 1965, afternoon; Peng Zhen speaks at the capital''s rally welcoming Prime Minister Obote: the oppressed nations and peoples of Asia and Africa must rise and win full liberation; U.S.-led imperialism and old and new colonialism will perish; the world''s struggle against U.S. imperialism one whole, its parts supporting one another; Zhou Enlai and others there). Names: Zhou Enlai.'
     src:
       c: beb7f079
       rows:
         - 'w.zhou-enlai-waijiao-huodong 468: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 425: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-14T04:00Z
@@ -2955,12 +3243,18 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-france]
     c: 'Chen Yi, at the French ambassador Paye''s National Day reception: since the two countries established relations, economic, cultural, scientific and technical exchange and ties between the peoples have grown; this helps mutual understanding and friendship, and serves both peoples.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 38 (July 14, 1965). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 38 (July 14, 1965); [[w.chen-yi-nianpu]], 1107 (July 14, 1965, afternoon, the embassy; Chen Yi speaks at Paye''s 佩耶 reception). Names: Chen Yi.'
     src:
       c: '27830905'
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 38: all'
+        - 'w.chen-yi-nianpu 1107: ?'
     tags: [polity:prc, polity:fr, name:chen-yi]
+    time_range:
+      - 1965-07-14T04:00Z
+      - 1965-07-14T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-14.china-leadership-6
     when: July 14
     date: '1965-07-14'
@@ -3013,6 +3307,24 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 642: all'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-14.china-leadership-10
+    when: July 14
+    date: '1965-07-14'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Peking 北京. Peng Zhen 彭真 accompanies Hoàng Văn Hoan 黄文欢 and the Vietnamese National Assembly delegation to the modern Peking opera *Letters from the South* 《南方来信》.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 425. The words: 晚 (IV, 425). See [[cal.1965-07-12.china-leadership-11]]. Names: Peng Zhen.'
+    src:
+      c: be44295e
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 425: all'
+    tags: [polity:prc, name:peng-zhen, polity:drv]
+    time_range:
+      - 1965-07-14T11:00Z
+      - 1965-07-14T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1965-07-15.vietnam-order-of-battle
     when: July 15
@@ -3112,11 +3424,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou attends the banquet given in Shanghai for Obote by Deputy Mayor Cao Diqiu.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 15, 1965; evening; Shanghai). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 15, 1965; evening; Shanghai); [[w.chen-yi-nianpu]], 1107 (July 15, 1965, evening; Chen Yi at the banquet). Names: Zhou Enlai.'
     src:
       c: dc791c8a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 468: all'
+        - 'w.chen-yi-nianpu 1107: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-15T11:00Z
@@ -3200,6 +3513,54 @@ entries:
     c: 'Bình Dương. July 15 Regiment 2 attacks on Route 13 the Bàu Bàng strategic hamlet, where the 2d Battalion of the 7th Regiment, 5th Division is camped in the field: nearly 400 out of action, some M113s destroyed, by the history''s count.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 435.'
     tags: [polity:drv]
+  - id: cal.1965-07-15.china-leadership-8
+    when: July 15
+    date: '1965-07-15'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: 'Peking 北京. Peng Zhen 彭真 speaks at the capital''s rally welcoming Hoàng Văn Hoan''s 黄文欢 Vietnamese National Assembly delegation: China''s people back the Vietnamese people''s fight against the United States firmly and without reserve; however far U.S. imperialism escalates, whatever storms in the world, their proletarian internationalism will not change; Zhu De 朱德 and others there.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 425. See [[cal.1965-07-12.china-leadership-11]]. Names: Peng Zhen, Zhu De.'
+    src:
+      c: 007bbfc7
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 425: all'
+    tags: [polity:prc, name:peng-zhen, name:zhu-de, polity:drv]
+  - id: cal.1965-07-15.china-leadership-9
+    when: July 15
+    date: '1965-07-15'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 cables Bouteflika on his taking office as Algeria's Foreign Minister.
+    n: '[[w.chen-yi-nianpu]], 1107. Names: Chen Yi, Bouteflika.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:bouteflika-abdel-aziz, ok:fields-place]
+  - id: cal.1965-07-15.china-leadership-10
+    when: July 15
+    date: '1965-07-15'
+    place: shanghai
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 and Cao Diqiu 曹荻秋, Shanghai's 上海 Deputy Mayor, take Obote to the 塘湾 people's commune in the suburbs.
+    n: '[[w.chen-yi-nianpu]], 1107. The words: 下午 (1107). Names: Chen Yi, Obote.'
+    tags: [polity:prc, polity:uganda, name:chen-yi, name:obote-a-milton]
+    time_range:
+      - 1965-07-15T04:00Z
+      - 1965-07-15T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-15.soviet-union
+    when: July 15
+    date: '1965-07-15'
+    thread: soviet-union
+    also: [africa-algeria-morocco]
+    c: Kosygin calls Boumediene to congratulate him on being named Prime Minister.
+    n: '[[w.friedman-shadow-cold-war]], 139. To check: Embassy Algeria to MFA, August 1, 1965, CFMA doc. 109-03645-02, 40–42 (cited by [[w.friedman-shadow-cold-war]], 139 n.183b). Names: Kosygin, Boumediene.'
+    src:
+      c: b86c00ab
+      rows:
+        - 'w.friedman-shadow-cold-war 139: all'
+        - 'via x.1965-08-01.embassy-algeria-mfa-august-1-1965: ?'
+    tags: [polity:ussr, polity:algeria, name:kosygin-aleksei, name:boumediene-houari]
   - id: cal.1965-07-16.vietnam-july-decision
     when: July 16
     date: '1965-07-16'
@@ -3391,12 +3752,13 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: 'Mao, Hall of the People, Fujian Hall, afternoon: receives a Vietnamese National Assembly delegation under Hoàng Văn Hoan; Liu Shaoqi, Peng Zhen, Guo Moruo present. Of the war: eat American troops a mouthful at a time, division by division; China, with three armies, nine divisions, never matched one American division''s fire; a counter-revolution cannot meet a people''s war: it is blind, the people have eyes; but mobilization takes time. Geneva was not kept; the U.S. escalates and so will Vietnam. First politics with the military subordinate, then both, then the military first and politics guarding it.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 16, 1965. [[w.77-conversations-between-chinese]], [87](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=85) (doc. 13; Beijing, July 16, 1965, no hour: Mao to Hoàng Văn Hoan, Geneva believed in by the Vietnamese and not kept by the enemy; the military struggle grown from secondary to equal to main; destroy a platoon, a company, a battalion, a regiment or two, four or five battalions a campaign, "escalate step by step"; 87 n.132, the National Assembly delegation). Made public: 1998. Check: the record (doc. 13, 87) has the bites by platoon, company, battalion and regiment, where the chronology has division by division. Names: Mao Zedong, Liu Shaoqi, Peng Zhen, Hoàng Văn Hoan, Guo Moruo.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 16, 1965; [[w.peng-zhen-nianpu-1902]], IV, 426 (July 16, 1965; Peng Zhen accompanies Mao and Liu Shaoqi receiving Hoàng Văn Hoan and the Vietnamese National Assembly delegation). [[w.77-conversations-between-chinese]], [87](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=85) (doc. 13; Beijing, July 16, 1965, no hour: Mao to Hoàng Văn Hoan, Geneva believed in by the Vietnamese and not kept by the enemy; the military struggle grown from secondary to equal to main; destroy a platoon, a company, a battalion, a regiment or two, four or five battalions a campaign, "escalate step by step"; 87 n.132, the National Assembly delegation). Made public: 1998. Check: the record (doc. 13, 87) has the bites by platoon, company, battalion and regiment, where the chronology has division by division. Names: Mao Zedong, Liu Shaoqi, Peng Zhen, Hoàng Văn Hoan, Guo Moruo.'
     src:
       c: 8b580c30
       rows:
         - 'w.zedong-mao-zedong-nianpu V, July 16, 1965: all'
         - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=85: G, H, I'
+        - 'w.peng-zhen-nianpu-1902 IV, 426: ?'
     tags: [name:mao-zedong, name:liu-shaoqi, name:peng-zhen, polity:prc, polity:drv, vis:only:prc+drv]
   - id: cal.1965-07-16.vietnam-hanoi
     when: July 16
@@ -3413,13 +3775,19 @@ entries:
     place: canton
     thread: china-leadership
     c: Zhou, at Guangzhou, sees *The East Is Red* and the Cantonese opera *Storm in the Mountain Village*; receives Hong Kong and Macao representatives, the third group at the Central-South theater festival. *The East Is Red* is to keep being played, written with the people's blood and sweat; keep improving; to be written on, part by part.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 744 (July 16, 1965); [[w.zhou-enlai-waijiao-huodong]], 468 (July 16, 1965; evening, Guangzhou; at the intermission the representatives of Hong Kong and Macao, the third group watching the Central-South theater festival). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 744 (July 16, 1965); [[w.zhou-enlai-waijiao-huodong]], 468 (July 16, 1965; evening, Guangzhou; at the intermission the representatives of Hong Kong and Macao, the third group watching the Central-South theater festival); [[w.chen-yi-nianpu]], 1108 (July 16, 1965, evening; Chen Yi with Zhou at the Sun Yat-sen Memorial Hall 中山纪念堂, Canton, sees Guangdong''s artists perform *The East Is Red* 东方红). Names: Zhou Enlai.'
     src:
       c: bef56a27
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 744: ?'
         - 'w.zhou-enlai-waijiao-huodong 468: A-B'
+        - 'w.chen-yi-nianpu 1108: ?'
     tags: [name:zhou-enlai, polity:prc]
+    time_range:
+      - 1965-07-16T11:00Z
+      - 1965-07-16T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-16.china-leadership-3
     when: July 16
     date: '1965-07-16'
@@ -3430,11 +3798,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou, with Chen Yi and Obote, flies from Shanghai to Guangzhou, leaving at 8 a.m.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 16, 1965; 8 a.m., Shanghai to Guangzhou by special plane). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 16, 1965; 8 a.m., Shanghai to Guangzhou by special plane); [[w.chen-yi-nianpu]], 1107 (July 16, 1965, morning; Chen Yi with Zhou takes Obote from Shanghai to Canton). Names: Zhou Enlai, Chen Yi.'
     src:
       c: a795eb25
       rows:
         - 'w.zhou-enlai-waijiao-huodong 468: all'
+        - 'w.chen-yi-nianpu 1107: ?'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi]
     time_zone: Asia/Shanghai
   - id: cal.1965-07-16.china-leadership-4
@@ -3444,11 +3813,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou attends the welcoming banquet given for Obote at the Yangcheng Hotel by Guangdong's governor Chen Yu.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 16, 1965; noon; Yangcheng Hotel, Guangzhou). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 16, 1965; noon; Yangcheng Hotel, Guangzhou); [[w.chen-yi-nianpu]], 1107 (July 16, 1965, noon; Chen Yi at the banquet of Chen Yu 陈郁, Guangdong''s governor, at the Yangcheng 羊城 guesthouse). Names: Zhou Enlai.'
     src:
       c: 2dc3c566
       rows:
         - 'w.zhou-enlai-waijiao-huodong 468: all'
+        - 'w.chen-yi-nianpu 1107: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-16T04:00Z
@@ -3462,11 +3832,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou goes to the station to see Obote off at the end of his visit to China.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 16, 1965; afternoon; Guangzhou station). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 468 (July 16, 1965; afternoon; Guangzhou station); [[w.chen-yi-nianpu]], 1107 (July 16, 1965, afternoon; Chen Yi at the station). Names: Zhou Enlai.'
     src:
       c: 87d8c473
       rows:
         - 'w.zhou-enlai-waijiao-huodong 468: all'
+        - 'w.chen-yi-nianpu 1107: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-16T04:00Z
@@ -3476,22 +3847,29 @@ entries:
   - id: cal.1965-07-16.china
     when: July 16
     date: '1965-07-16'
+    place: canton
     thread: china
     also: [africa]
     c: 'The China–Uganda joint communique, issued after the talks: both sides condemn and oppose imperialism, colonialism and neo-colonialism, condemn the armed aggression against Vietnam, and firmly support the struggle for national independence of the African peoples still under colonial rule.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 37–38 (July 16, 1965). Dated to the visit''s last day: the chronology prints the visit, July 11–16, with the communique issued "after the talks" and no day of its own. Names: Obote. Check: the day of issue.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 37–38 (July 16, 1965); [[w.chen-yi-nianpu]], 1107 (July 16, 1965, noon; Chen Yi at the signing of the joint communiqué). Dated to the visit''s last day: the chronology prints the visit, July 11–16, with the communique issued "after the talks" and no day of its own. Names: Obote. Check: the day of issue.'
     src:
       c: 2d51db26
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 37–38: all'
+        - 'w.chen-yi-nianpu 1107: ?'
     tags: [polity:prc, polity:uganda, name:obote-a-milton]
+    time_range:
+      - 1965-07-16T04:00Z
+      - 1965-07-16T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-16.china-leadership-6
     when: July 16
     date: '1965-07-16'
     thread: china-leadership
     also: [vietnam-hanoi, vietnam]
     c: Beijing tells Hanoi it cannot keep the agreement on Chinese volunteer pilots, for lack of the means.
-    n: '[[w.77-conversations-between-chinese]], [49 n.64](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=47) (Nguyen Vu Tung''s essay: ''on 16 July 1965, Beijing informed Hanoi that it was unable to abide by the agreement due to the lack of its own capabilities'', citing [[w.white-book-on-the]], 24). Made public: [[w.white-book-on-the]], 24 (as the essay''s note 64 cites it). Check: the channel and the persons, which the essay does not give; the White Book''s page for the day and the words. To check: [[w.white-book-on-the]], 24 (cited by [[w.77-conversations-between-chinese]], 49 n.64). See [[cal.1965-04-06.china-leadership-2]], [[cal.1965-07-16.china-leadership]].'
+    n: '[[w.77-conversations-between-chinese]], [49 n.64](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=47) (Nguyen Vu Tung''s essay: ''on 16 July 1965, Beijing informed Hanoi that it was unable to abide by the agreement due to the lack of its own capabilities'', citing [[w.white-book-on-the]], 24). [[w.khoo-collateral-damage]], 43 (by Hanoi, on July 16, 1965, the Chinese go back on the pilots, the time "not yet ripe"; Hanoi turns to the Soviets for air defense; Chinese writers deny reneging). Made public: [[w.white-book-on-the]], 24 (as the essay''s note 64 cites it). Check: the channel and the persons, which the essay does not give; the White Book''s page for the day and the words. To check: [[w.white-book-on-the]], 24 (cited by [[w.77-conversations-between-chinese]], 49 n.64); [[w.whiting-chinas-role-in-the]], 73 (cited by [[w.khoo-collateral-damage]], 43 n.231a); [[w.ke-wenhua-dageming-zhongde-renmin]], 417 (cited by [[w.khoo-collateral-damage]], 43 n.231b); [[w.truth-about-vietnamo-chinese]], 37 (cited by [[w.khoo-collateral-damage]], 43 n.232); [[w.zhai-china-and-the-vietnam]], 135 (cited by [[w.khoo-collateral-damage]], 43 n.233). See [[cal.1965-04-06.china-leadership-2]], [[cal.1965-07-16.china-leadership]].'
     tags: [polity:prc, polity:drv, vis:only:prc+drv]
   - id: cal.1965-07-16.china-leadership-7
     when: July 16
@@ -3538,11 +3916,12 @@ entries:
     follows:
       - cal.1965-07-16.china-leadership-8
     c: Peking 北京, the western airport, 2:10 p.m. Yang Shangkun 杨尚昆 sees off Deng Xiaoping 邓小平, Kang Sheng 康生 and others for Romania's party congress; back at 3:30.
-    n: '[[w.yang-shangkun-riji]], II, 642 (July 16, 1965). The words: 2时10分，去西郊机场送小平、康生同志等去罗马尼亚参加其党大会，回时已3时半了 (II, 642). The diary gives no a.m. or p.m.; its order gives the afternoon: after the afternoon''s swim and talk with Kang Sheng at the Diaoyutai, before supper (II, 642–643). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng.'
+    n: '[[w.yang-shangkun-riji]], II, 642 (July 16, 1965); [[w.peng-zhen-nianpu-1902]], IV, 426 (July 17, 1965, early morning; Peng Zhen, with Zhu De, at the airport seeing off Deng Xiaoping and the Chinese party delegation to the Romanian Workers'' Party''s Fourth Congress). The words: 2时10分，去西郊机场送小平、康生同志等去罗马尼亚参加其党大会，回时已3时半了 (II, 642). The diary gives no a.m. or p.m.; its order gives the afternoon: after the afternoon''s swim and talk with Kang Sheng at the Diaoyutai, before supper (II, 642–643). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Kang Sheng.'
     src:
       c: ce5c8114
       rows:
         - 'w.yang-shangkun-riji II, 642: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 426: ?'
     tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
     time_zone: Asia/Shanghai
     variants:
@@ -3550,6 +3929,10 @@ entries:
         witness: w.deng-xiaoping-nianpu-1904
         reads: Deng leaves Peking on the morning of July 17 (七月十七日晨，离开北京), arriving at Bucharest on the afternoon of the 17th by local time; not the afternoon of the 16th
         at: III, 1868
+      - unit: A
+        witness: w.peng-zhen-nianpu-1902
+        reads: Deng seen off at the airport early on July 17 ("7月17日 晨")
+        at: IV, 426
   - id: cal.1965-07-17.school-aid
     when: July 17
     date: '1965-07-17'
@@ -3703,6 +4086,24 @@ entries:
       - 1965-07-17T16:00Z
     time_band: afternoon
     time_zone: Europe/Bucharest
+  - id: cal.1965-07-17.china-leadership-6
+    when: July 17
+    date: '1965-07-17'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Peking 北京. Peng Zhen 彭真, with Zhu De 朱德, at the reception of Trần Tử Bình 陈子平, the Vietnamese ambassador, for Hoàng Văn Hoan 黄文欢 and the National Assembly delegation.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 426. The words: 晚 (IV, 426). See [[cal.1965-07-12.china-leadership-11]]. Names: Peng Zhen, Zhu De.'
+    src:
+      c: 6ea97789
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 426: all'
+    tags: [polity:prc, name:peng-zhen, name:zhu-de, polity:drv]
+    time_range:
+      - 1965-07-17T11:00Z
+      - 1965-07-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-18.opinion
     when: July 18
     date: '1965-07-18'
@@ -3754,19 +4155,20 @@ entries:
     place: shanghai
     thread: china-leadership
     c: 'Zhou, at Shanghai Hongqiao airport, tells those come to meet Li Zongren: welcome; honor late in life, historical-materialist; class origin does not decide awareness; one from a reactionary class who awakens can serve a new class; do not hold the saying "an old revolutionary is not as good as a late one, a late one not as good as a nonrevolutionary, a nonrevolutionary not as good as a counterrevolutionary"; his return will have effect on the other side; go back and explain. With Chen Yi, Ye Jianying and others meets Li Zongren and party at the airport; that evening gives a banquet for Li and Mrs. Li at the Shanghai Cultural Club.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 744 (July 18, 1965). Names: Zhou Enlai, Chen Yi, Ye Jianying, Li Zongren.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 744 (July 18, 1965); [[w.chen-yi-nianpu]], 1108 (July 18, 1965; Chen Yi with Zhou and others at Hongqiao airport, Shanghai, speaks to those who will receive Li Zongren 李宗仁; Li asks to come home, and is welcome; men can be remade, and socialism''s truth can persuade). Names: Zhou Enlai, Chen Yi, Ye Jianying, Li Zongren.'
     tags: [name:zhou-enlai, name:chen-yi, name:ye-jianying, polity:prc]
   - id: cal.1965-07-18.china-leadership-2
     when: July 18
     date: '1965-07-18'
     thread: china-leadership
     c: 'Mao to Lu Dingyi 陆定一, Kang Sheng 康生, Zhou Enlai 周恩来, Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平 and Peng Zhen 彭真, on a letter to Jiang Qing 江青 from three teachers of the Central Academy of Fine Arts on the use of models: this should be changed; drawing nude models, men, women, old and young, is a basic skill of painting and sculpture, and a ban as feudal thought is improper; some bad things may come of it, no matter; small sacrifices for the art. In a note at the letter''s end: Qi Baishi 齐白石, Chen Banding 陈半丁 and the like are no better than late Qing painters in flowers and trees and cannot paint figures; of those he has seen only Xu Beihong 徐悲鸿 left nude studies, and Liu Haisu (the volume prints 刘海栗).'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 84–86 (July 18, 1965; Mao''s two notes; printed from the manuscript). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). To check: Wen Lipeng, Wang Shiguo and Li Huaji, teachers of the Central Academy of Fine Arts, letter to Jiang Qing on the use of models in art schools, May 12, 1965 (the abolition of the model system understood in its revolutionary spirit; a small share of nude studies to be kept; a democratic discussion in the fourth phase of the academy''s four cleanups) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 85 n.1). Names: Mao Zedong, Lu Dingyi, Kang Sheng, Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Jiang Qing.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 84–86 (July 18, 1965; Mao''s two notes; printed from the manuscript); [[w.peng-zhen-nianpu-1902]], IV, 426 (July 18, 1965; Peng Zhen receives Mao''s comment on models in art teaching, written on a letter of some teachers of the Central Academy of Fine Arts, and proposes it wait for Deng Xiaoping''s and Kang Sheng''s return). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). To check: Wen Lipeng, Wang Shiguo and Li Huaji, teachers of the Central Academy of Fine Arts, letter to Jiang Qing on the use of models in art schools, May 12, 1965 (the abolition of the model system understood in its revolutionary spirit; a small share of nude studies to be kept; a democratic discussion in the fourth phase of the academy''s four cleanups) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 85 n.1). Names: Mao Zedong, Lu Dingyi, Kang Sheng, Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Jiang Qing.'
     src:
       c: 9e1dba12
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 84–86: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 85 n.1: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 426: ?'
     tags: [polity:prc, name:mao-zedong, name:lu-dingyi, name:kang-sheng, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:jiang-qing, vis:only:prc]
   - id: cal.1965-07-18.china-leadership-3
     when: July 18
@@ -4234,8 +4636,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou, back in Beijing first, meets Li Zongren's party at the airport and introduces Li to Puyi and others who came to welcome him.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 745 (July 20, 1965); [[w.yang-shangkun-riji]], II, 644 (July 21, 1965; Li Zongren back in Peking, under July 21; Zhou not named; the editors'' note on Li''s return and statement; the words: 李宗仁先生回到北京). Names: Zhou Enlai, Li Zongren, Puyi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 745 (July 20, 1965); [[w.yang-shangkun-riji]], II, 644 (July 21, 1965; Li Zongren back in Peking, under July 21; Zhou not named; the editors'' note on Li''s return and statement; the words: 李宗仁先生回到北京); [[w.peng-zhen-nianpu-1902]], IV, 426 (July 20, 1965, morning; Peng Zhen, with Zhou Enlai and others, at the capital''s airport meeting Li Zongren 李宗仁, former acting President of the Kuomintang government, and his wife Guo Dejie 郭德洁, back from abroad); [[w.chen-yi-nianpu]], 1108 (July 20, 1965, morning; Chen Yi at the airport to welcome Li Zongren and his wife Guo Dejie 郭德洁). Names: Zhou Enlai, Li Zongren, Puyi.'
     tags: [name:zhou-enlai, polity:prc]
+    time_range:
+      - 1965-07-19T22:00Z
+      - 1965-07-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-20.china-leadership-2
     when: July 20
     date: '1965-07-20'
@@ -4388,6 +4795,23 @@ entries:
       rows:
         - 'https://digitalarchive.umd.edu/document/300558: all'
     tags: [polity:ussr, polity:romania, name:brezhnev-leonid, name:andropov-yuriy-vladimirovich, name:ceausescu-nicolae, name:maurer-ion-gheorghe, vis:only:ussr+romania]
+  - id: cal.1965-07-20.china-leadership-11
+    when: July 20
+    date: '1965-07-20'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 at Zhou Enlai's 周恩来 banquet welcoming Li Zongren 李宗仁 and his wife Guo Dejie 郭德洁.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 426. The words: 晚 (IV, 426). See [[cal.1965-07-20.china-leadership]]. Names: Peng Zhen, Zhou Enlai.'
+    src:
+      c: 5d8a3f11
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 426: all'
+    tags: [polity:prc, name:peng-zhen, name:zhou-enlai]
+    time_range:
+      - 1965-07-20T11:00Z
+      - 1965-07-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-21.vietnam
     when: July 21
     date: '1965-07-21'
@@ -4561,15 +4985,22 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou, with Liu Shaoqi, receives Somalia's President Osman.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 745 (July 21, 1965); [[w.zhou-enlai-waijiao-huodong]], 469 (July 21, 1965; 7 p.m., Great Hall of the People; Zhou, with Liu Shaoqi, meets Osman and attends the welcoming banquet Liu gives him); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 623 (July 21, 22, 23 and 25, 1965; Liu, with Dong Biwu and Zhou Enlai, welcomes at the airport Aden Abdullah Osman, President of Somalia, July 21; talks with him July 22; July 23 accompanies Mao in meeting him; July 25 sees him off at the airport). Names: Zhou Enlai, Liu Shaoqi, Osman.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 745 (July 21, 1965); [[w.zhou-enlai-waijiao-huodong]], 469 (July 21, 1965; 7 p.m., Great Hall of the People; Zhou, with Liu Shaoqi, meets Osman and attends the welcoming banquet Liu gives him); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 623 (July 21, 22, 23 and 25, 1965; Liu, with Dong Biwu and Zhou Enlai, welcomes at the airport Aden Abdullah Osman, President of Somalia, July 21; talks with him July 22; July 23 accompanies Mao in meeting him; July 25 sees him off at the airport); [[w.peng-zhen-nianpu-1902]], IV, 426 (July 20, 1965, evening; Peng Zhen accompanies Liu Shaoqi and Zhou Enlai in meeting President Aden Abdullah Osman of Somalia and his party); [[w.chen-yi-nianpu]], 1108 (July 21, 1965, evening; Liu Shaoqi and Zhou meet Osman, Chen Yi present, and he is at Liu''s banquet for Osman in the banquet hall of the Great Hall of the People). Names: Zhou Enlai, Liu Shaoqi, Osman.'
     src:
       c: 97a909ec
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 745: ?'
         - 'w.zhou-enlai-waijiao-huodong 469: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 623: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 426: ?'
+        - 'w.chen-yi-nianpu 1108: ?'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:aden-abdullah-osman, polity:prc, polity:somalia]
     time_zone: Asia/Shanghai
+    variants:
+      - unit: A
+        witness: w.peng-zhen-nianpu-1902
+        reads: Liu Shaoqi and Zhou Enlai meet President Osman on the evening of July 20 ("晚")
+        at: IV, 426
   - id: cal.1965-07-21.china-leadership-2
     when: July 21
     date: '1965-07-21'
@@ -4688,6 +5119,29 @@ entries:
       - 1965-07-21T16:00Z
     time_band: afternoon
     time_zone: Europe/Bucharest
+  - id: cal.1965-07-21.china-leadership-10
+    when: July 21
+    date: '1965-07-21'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Adam Rapacki, Poland's Foreign Minister, on the twenty-first anniversary of the Polish People's Republic.
+    n: '[[w.chen-yi-nianpu]], 1108. Names: Chen Yi, Rapacki.'
+    tags: [polity:prc, polity:poland, name:chen-yi, name:rapacki-adam, ok:fields-place]
+  - id: cal.1965-07-21.china-leadership-11
+    when: July 21
+    date: '1965-07-21'
+    place:
+      - shanghai
+      - peking
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 at the Shanghai 上海 airport to welcome Aden Abdullah Osman, President of Somalia; after a short rest there he goes with him to Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 1108. The words: 上午 (1108). Names: Chen Yi, Aden.'
+    tags: [polity:prc, polity:somalia, name:chen-yi, name:aden-abdullah-osman]
+    time_range:
+      - 1965-07-20T22:00Z
+      - 1965-07-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-22.vietnam
     when: July 22
     date: '1965-07-22'
@@ -4953,11 +5407,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, 9 a.m. to noon. The NPC's Standing Committee discusses the state budget and final accounts; Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], II, 644 (July 22, 1965). The words: 上午9时到12时，参加人大常委会，讨论国家的预决算 (II, 644). Names: Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 644 (July 22, 1965); [[w.peng-zhen-nianpu-1902]], IV, 426–427 (July 22, 1965, morning; Peng Zhen presides at the Third NPC Standing Committee''s thirteenth session, which adopts the resolution on the 1964 state final accounts and the 1965 budget; he tells the members of the half year''s industry, agriculture and revenue and the budget''s guide: first defense, then basic industry, then agriculture and the peasants'' living; with the war in Vietnam escalating, readiness and foreign aid go on, and non-productive building in the cities a little each year, food, clothing and goods first). The words: 上午9时到12时，参加人大常委会，讨论国家的预决算 (II, 644). Names: Yang Shangkun.'
     src:
       c: 09421548
       rows:
         - 'w.yang-shangkun-riji II, 644: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 426–427: ?'
     tags: [polity:prc]
     time_zone: Asia/Shanghai
   - id: cal.1965-07-22.china-leadership-6
@@ -4967,11 +5422,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, the Great Hall of the People, 4:30 to 5:30 p.m. Mao 毛泽东 receives the members of a meeting; Yang Shangkun 杨尚昆 there.
-    n: '[[w.yang-shangkun-riji]], II, 644 (July 22, 1965). The words: 下午4时半到5时半，去人大会堂参加主席接见会议人员 (II, 644). Names: Mao Zedong, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 644 (July 22, 1965); [[w.peng-zhen-nianpu-1902]], IV, 427 (July 22, 1965, afternoon; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai and others, receives those at the military, agriculture and forestry, farm machinery, water and power and other conferences and students of some academies). The words: 下午4时半到5时半，去人大会堂参加主席接见会议人员 (II, 644). Names: Mao Zedong, Yang Shangkun.'
     src:
       c: 68b1cc54
       rows:
         - 'w.yang-shangkun-riji II, 644: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 427: ?'
     tags: [polity:prc, name:mao-zedong]
     time_zone: Asia/Shanghai
   - id: cal.1965-07-22.china-leadership-7
@@ -5027,6 +5483,45 @@ entries:
     c: The Đồng Xoài campaign, opened May 10–11 at Phước Long, ends. By the history's count four battalions and 24 companies put out of action, 4,459 men, 73 American advisers among them; 1,652 weapons taken, 60 military vehicles and 34 aircraft destroyed. In Phước Long province 56,000 of 67,000 people won from the strategic hamlets.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 436 (the end and the tally); 417–19 (the opening). See [[cal.1965-05-11.vietnam-operations]], [[cal.1965-06-09.vietnam-operations]].'
     tags: [polity:drv]
+  - id: cal.1965-07-22.china-leadership-9
+    when: July 22
+    date: '1965-07-22'
+    place: cairo
+    thread: china-leadership
+    also: [middle-east, soviet-union]
+    c: 'The Chinese Embassy in the UAR to the Foreign Ministry: after Nasser''s concessions to China on Soviet attendance, the Soviets cut the promised wheat from 300,000 to 200,000 tons, to be repaid in wheat or rice within two years at 2 percent.'
+    n: '[[w.friedman-shadow-cold-war]], 133. Made public: 2015. To check: PRC embassy UAR to MFA, July 22, 1965, CFMA doc. 109-03645-01, 22 (cited by [[w.friedman-shadow-cold-war]], 133 n.149).'
+    src:
+      c: 7451e2a3
+      rows:
+        - 'w.friedman-shadow-cold-war 133: all'
+        - 'via x.1965-07-22.prc-embassy-uar-mfa-july-22-1965: ?'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1965-07-22.china-leadership-10
+    when: July 22
+    date: '1965-07-22'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives André Malraux, France's Minister of State.
+    n: '[[w.chen-yi-nianpu]], 1108. The words: 上午 (1108). Names: Chen Yi, Malraux.'
+    tags: [polity:prc, polity:fr, name:chen-yi, name:malraux-andre, ok:fields-place]
+    time_range:
+      - 1965-07-21T22:00Z
+      - 1965-07-22T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-22.china-leadership-11
+    when: July 22
+    date: '1965-07-22'
+    thread: china-leadership
+    also: [africa]
+    c: 'Chen Yi 陈毅, with Liu Shaoqi 刘少奇, takes Aden Abdullah Osman and the Somali guests to the Peking opera evening of the Ministry of Culture, the Committee for Cultural Relations with Foreign Countries and the China–Africa People''s Friendship Association: the Peking Opera Company''s modern play *Shajiabang* 《沙家浜》.'
+    n: '[[w.chen-yi-nianpu]], 1108. The words: 晚上 (1108). Names: Chen Yi, Liu Shaoqi, Aden.'
+    tags: [polity:prc, polity:somalia, name:chen-yi, name:liu-shaoqi, name:aden-abdullah-osman, ok:fields-place]
+    time_range:
+      - 1965-07-22T11:00Z
+      - 1965-07-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-23.economy
     when: July 23
     date: '1965-07-23'
@@ -5205,15 +5700,18 @@ entries:
   - id: cal.1965-07-23.china-leadership-2
     when: July 23
     date: '1965-07-23'
+    place: peking
     thread: china-leadership
     also: [africa]
     c: 'Zhou, at President Osman''s banquet: Asian and African states'' first task is to strengthen unity, defeat imperialist aggression and war plots and its attempts to wreck and split Asian-African unity.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 746 (July 23, 1965); [[w.zhou-enlai-waijiao-huodong]], 469 (July 23, 1965; evening, the banquet given by Osman for China''s leaders). Names: Zhou Enlai, Osman.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 746 (July 23, 1965); [[w.zhou-enlai-waijiao-huodong]], 469 (July 23, 1965; evening, the banquet given by Osman for China''s leaders); [[w.peng-zhen-nianpu-1902]], IV, 427 (July 23, 1965, evening; Peng Zhen, with Liu Shaoqi, Zhou Enlai and others, at President Osman''s banquet); [[w.chen-yi-nianpu]], 1109 (July 23, 1965, evening, the banquet hall of the Great Hall of the People; Chen Yi at Osman''s banquet). Names: Zhou Enlai, Osman.'
     src:
       c: 1cf79d53
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 746: ?'
         - 'w.zhou-enlai-waijiao-huodong 469: A'
+        - 'w.peng-zhen-nianpu-1902 IV, 427: ?'
+        - 'w.chen-yi-nianpu 1109: ?'
     tags: [name:zhou-enlai, name:aden-abdullah-osman, polity:prc, polity:somalia]
     time_range:
       - 1965-07-23T11:00Z
@@ -5227,11 +5725,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou attends the banquet given by the envoys of African states in Peking for President Osman's visit.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 469 (July 23, 1965; noon; Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 469 (July 23, 1965; noon; Beijing); [[w.chen-yi-nianpu]], 1109 (July 23, 1965, noon; Chen Yi at the banquet). Names: Zhou Enlai.'
     src:
       c: 227ad5e0
       rows:
         - 'w.zhou-enlai-waijiao-huodong 469: all'
+        - 'w.chen-yi-nianpu 1109: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-23T04:00Z
@@ -5246,11 +5745,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou accompanies Mao Zedong in receiving Somalia's President Osman in the Great Hall of the People.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 469 (July 23, 1965; 5 p.m., Great Hall of the People). Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 469 (July 23, 1965; 5 p.m., Great Hall of the People); [[w.chen-yi-nianpu]], 1109 (July 23, 1965, afternoon; Chen Yi present). Names: Zhou Enlai, Mao Zedong.'
     src:
       c: 304823f7
       rows:
         - 'w.zhou-enlai-waijiao-huodong 469: all'
+        - 'w.chen-yi-nianpu 1109: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong]
     time_zone: Asia/Shanghai
   - id: cal.1965-07-23.china-leadership-5
@@ -5260,11 +5760,12 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: Zhou attends the National Day reception given by the UAR ambassador.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 469 (July 23, 1965; evening; Beijing). The book names the ambassador 伊姆. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 469 (July 23, 1965; evening; Beijing); [[w.chen-yi-nianpu]], 1109 (July 23, 1965, evening, the embassy; Chen Yi speaks at the reception of Zakaria Adli Imam 查卡里亚·阿德利·伊马姆, ready to work with the UAR and the Asian and African countries for a good second conference). The book names the ambassador 伊姆. Names: Zhou Enlai.'
     src:
       c: d086bd8f
       rows:
         - 'w.zhou-enlai-waijiao-huodong 469: all'
+        - 'w.chen-yi-nianpu 1109: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-23T11:00Z
@@ -5277,12 +5778,18 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Chen Yi receives the Indonesian peace delegation led by Mme Salawati and the Japanese peace delegation, visiting China after the World Peace Congress at Helsinki.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 40 (July 23, 1965). Names: Chen Yi. Check: the leaders'' names, from the Chinese 萨拉瓦第 and 田万清臣.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 40 (July 23, 1965); [[w.chen-yi-nianpu]], 1108–1109 (July 23, 1965, morning; the delegations come to China after the World Peace Congress at Helsinki, the Japanese led by 田万清臣). Names: Chen Yi. Check: the leaders'' names, from the Chinese 萨拉瓦第 and 田万清臣.'
     src:
       c: 1e3f3b5a
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 40: all'
+        - 'w.chen-yi-nianpu 1108–1109: ?'
     tags: [polity:prc, polity:indonesia, polity:japan, name:chen-yi]
+    time_range:
+      - 1965-07-22T22:00Z
+      - 1965-07-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-23.china-leadership-7
     when: July 23
     date: '1965-07-23'
@@ -5379,6 +5886,26 @@ entries:
       - 1965-07-23T16:00Z
     time_band: afternoon
     time_zone: Europe/Bucharest
+  - id: cal.1965-07-23.china-leadership-13
+    when: July 23
+    date: '1965-07-23'
+    thread: china-leadership
+    also: [laos]
+    c: Prince Souphanouvong, chairman of the Neo Lao Hak Sat and Deputy Prime Minister of the national union government, writes to Chen Yi 陈毅, drawing his notice to the party's memorandum on the third anniversary of the 1962 Geneva agreements on Laos, on the American intervention and aggression in Laos, the danger of the present course and the party's terms for a settlement.
+    n: '[[w.chen-yi-nianpu]], 1108. Names: Chen Yi, Souphanouvong.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:souphanouvong, ok:fields-place]
+  - id: cal.1965-07-23.china-leadership-14
+    when: July 23
+    date: '1965-07-23'
+    thread: china-leadership
+    c: Troels Waldemar Andreas Oldenburg 特罗尔斯·瓦尔德马·安德烈斯·奥尔登伯格, Denmark's new Ambassador, calls on Chen Yi 陈毅 on the presenting of his credentials.
+    n: '[[w.chen-yi-nianpu]], 1108. The words: 上午 (1108). Names: Chen Yi.'
+    tags: [polity:prc, polity:denmark, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-07-22T22:00Z
+      - 1965-07-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-24.vietnam
     when: July 24
     date: '1965-07-24'
@@ -5530,11 +6057,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou goes to the airport to welcome General Ne Win, chairman of Burma's Revolutionary Council and chairman of the Council of Ministers, and his wife, on a friendly visit.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 469 (July 24, 1965; afternoon; Beijing airport). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 469 (July 24, 1965; afternoon; Beijing airport); [[w.peng-zhen-nianpu-1902]], IV, 427 (July 24, 1965, afternoon; Peng Zhen, with Liu Shaoqi and Zhou Enlai, at the airport meeting General Ne Win and his wife); [[w.chen-yi-nianpu]], 1109 (July 24, 1965, afternoon; Chen Yi at the airport). Names: Zhou Enlai.'
     src:
       c: 432f2b64
       rows:
         - 'w.zhou-enlai-waijiao-huodong 469: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 427: ?'
+        - 'w.chen-yi-nianpu 1109: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-24T04:00Z
@@ -5547,12 +6076,14 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou attends the banquet given in the Great Hall of the People by Liu Shaoqi and his wife Wang Guangmei for Ne Win and his wife.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 469 (July 24, 1965; evening; Great Hall of the People); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 623 (July 24, 25 and 26, 1965; Liu receives General Ne Win, Chairman of the Revolutionary Council of the Union of Burma, July 24; holds talks with him July 25; July 26 accompanies Mao in meeting him). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 469 (July 24, 1965; evening; Great Hall of the People); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 623 (July 24, 25 and 26, 1965; Liu receives General Ne Win, Chairman of the Revolutionary Council of the Union of Burma, July 24; holds talks with him July 25; July 26 accompanies Mao in meeting him); [[w.chen-yi-nianpu]], 1109 (July 24, 1965; Liu Shaoqi and his wife and Zhou and his wife meet Ne Win and his wife, Chen Yi with them; in the evening Chen Yi at Liu''s banquet in the Great Hall); [[w.chen-yi-nianpu]], 1110 (July 26, 1965, afternoon; Mao receives Ne Win, Chen Yi present). Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: 3e088bf4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 469: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 623: ?'
+        - 'w.chen-yi-nianpu 1109: ?'
+        - 'w.chen-yi-nianpu 1110: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi]
     time_range:
       - 1965-07-24T11:00Z
@@ -5697,6 +6228,19 @@ entries:
     time_band: evening
     time_zone: Europe/Bucharest
     range_basis: record
+  - id: cal.1965-07-24.china-leadership-12
+    when: July 24
+    date: '1965-07-24'
+    thread: china-leadership
+    also: [cuba]
+    c: Chen Yi 陈毅 at the capital's rally for the twelfth anniversary of Cuba's July 26 revolutionary day.
+    n: '[[w.chen-yi-nianpu]], 1109. The words: 上午 (1109). Names: Chen Yi.'
+    tags: [polity:prc, polity:cuba, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-07-23T22:00Z
+      - 1965-07-24T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-25.opinion
     when: July 25
     date: '1965-07-25'
@@ -5810,13 +6354,14 @@ entries:
     thread: china-leadership
     also: [south-asia, africa]
     c: Zhou, with Liu Shaoqi, talks with Ne Win, chairman of Burma's Revolutionary Council, arrived July 24.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 746–47 (July 25, 1965); [[w.zhou-enlai-waijiao-huodong]], 470 (July 25, 1965; 3 p.m., Building 18, Diaoyutai guesthouse; Zhou and his wife with Liu Shaoqi and his wife return Ne Win''s call, and Zhou joins Liu in the talks); [[w.zhonghua-renmin-gongheguo-waijiao]], 40–41 (July 24–Aug. 1, 1965; Ne Win''s visit, July 24–Aug. 1; Mao receives him; Liu and Zhou talks). Made public: 1993. Names: Zhou Enlai, Liu Shaoqi, Ne Win.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 746–47 (July 25, 1965); [[w.zhou-enlai-waijiao-huodong]], 470 (July 25, 1965; 3 p.m., Building 18, Diaoyutai guesthouse; Zhou and his wife with Liu Shaoqi and his wife return Ne Win''s call, and Zhou joins Liu in the talks); [[w.zhonghua-renmin-gongheguo-waijiao]], 40–41 (July 24–Aug. 1, 1965; Ne Win''s visit, July 24–Aug. 1; Mao receives him; Liu and Zhou talks); [[w.chen-yi-nianpu]], 1109 (July 25, 1965, afternoon; Chen Yi with Liu Shaoqi and his wife Wang Guangmei 王光美 and Zhou makes the return call on Ne Win at the guesthouse and is at the talks). Made public: 1993. Names: Zhou Enlai, Liu Shaoqi, Ne Win.'
     src:
       c: ffde0bd8
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 746–47: ?'
         - 'w.zhou-enlai-waijiao-huodong 470: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 40–41: A'
+        - 'w.chen-yi-nianpu 1109: ?'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:ne-win, polity:prc, polity:burma, vis:only:prc+burma]
     time_zone: Asia/Shanghai
   - id: cal.1965-07-25.china-leadership-3
@@ -5826,11 +6371,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou goes to the airport to see off Osman, leaving for Hangzhou and other places.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 469–70 (July 25, 1965; morning; Beijing airport). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 469–70 (July 25, 1965; morning; Beijing airport); [[w.chen-yi-nianpu]], 1109 (July 25, 1965, morning; Chen Yi at the airport). Names: Zhou Enlai.'
     src:
       c: 9b2b68c3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 469–70: all'
+        - 'w.chen-yi-nianpu 1109: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-24T22:00Z
@@ -5843,11 +6389,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou attends the grand reception given by Burma's ambassador and his wife for Ne Win's visit.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 470 (July 25, 1965; afternoon; Beijing). The book names the ambassador 沙马杜瓦·信瓦瑞. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 470 (July 25, 1965; afternoon; Beijing); [[w.peng-zhen-nianpu-1902]], IV, 427 (July 25, 1965, afternoon; Peng Zhen at the Burmese ambassador''s reception for Ne Win and his wife); [[w.chen-yi-nianpu]], 1109 (July 25, 1965, afternoon; Chen Yi at the reception). The book names the ambassador 沙马杜瓦·信瓦瑞. Names: Zhou Enlai.'
     src:
       c: 26bd1f3a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 470: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 427: ?'
+        - 'w.chen-yi-nianpu 1109: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-25T04:00Z
@@ -5879,11 +6427,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou accompanies Ne Win and his wife to the arts evening given by the Ministry of Culture, the Commission for Cultural Relations with Foreign Countries and the China–Burma Friendship Association.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 470 (July 25, 1965; evening; Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 470 (July 25, 1965; evening; Beijing); [[w.chen-yi-nianpu]], 1109–1110 (July 25, 1965, evening; Chen Yi with Liu Shaoqi and Zhou, the evening of the Ministry of Culture, the Committee for Cultural Relations with Foreign Countries and the China–Burma Friendship Association). Names: Zhou Enlai.'
     src:
       c: e057b10d
       rows:
         - 'w.zhou-enlai-waijiao-huodong 470: all'
+        - 'w.chen-yi-nianpu 1109–1110: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-25T11:00Z
@@ -5949,6 +6498,35 @@ entries:
       rows:
         - 'https://digitalarchive.umd.edu/document/300558: all'
     tags: [polity:ussr, polity:romania, name:brezhnev-leonid, name:andropov-yuriy-vladimirovich, name:ceausescu-nicolae, name:maurer-ion-gheorghe, vis:only:ussr+romania]
+  - id: cal.1965-07-25.china-leadership-10
+    when: July 25
+    date: '1965-07-25'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Peng Zhen 彭真 accompanies Ne Win and his wife to the Red Star 红星 People's Commune in the suburbs.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 427. The words: 上午 (IV, 427). Names: Peng Zhen, Ne Win.'
+    src:
+      c: 68bb681d
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 427: all'
+    tags: [polity:prc, name:peng-zhen, name:ne-win, polity:burma]
+    time_range:
+      - 1965-07-24T22:00Z
+      - 1965-07-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-25.china-leadership-11
+    when: July 25
+    date: '1965-07-25'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives all the students of the Asian–African journalists' training class in Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 1109. The words: 上午 (1109). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-07-24T22:00Z
+      - 1965-07-25T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-26.confirmations
     when: July 26
     date: '1965-07-26'
@@ -6101,24 +6679,32 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou, talking with Ne Win, explains in detail the change of government in Algeria and the postponement of the second Asian-African conference, and that China does not interfere in Algeria's affairs; then goes with Mao to receive Ne Win.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 746–47 (July 26, 1965); [[w.zhou-enlai-waijiao-huodong]], 470 (July 26, 1965; 3 p.m., Building 18, Diaoyutai guesthouse, the talks with Ne Win; 4:50 p.m., Beijing Hall, Great Hall of the People, Zhou accompanies Mao in receiving Ne Win). Made public: 1993. Names: Zhou Enlai, Ne Win, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 746–47 (July 26, 1965); [[w.zhou-enlai-waijiao-huodong]], 470 (July 26, 1965; 3 p.m., Building 18, Diaoyutai guesthouse, the talks with Ne Win; 4:50 p.m., Beijing Hall, Great Hall of the People, Zhou accompanies Mao in receiving Ne Win); [[w.chen-yi-nianpu]], 1110 (July 26, 1965, afternoon; Chen Yi in the talks). Made public: 1993. Names: Zhou Enlai, Ne Win, Mao Zedong.'
     src:
       c: 87ef6676
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 746–47: ?'
         - 'w.zhou-enlai-waijiao-huodong 470: A-B'
+        - 'w.chen-yi-nianpu 1110: ?'
     tags: [name:zhou-enlai, name:ne-win, name:mao-zedong, polity:prc, polity:burma, vis:only:prc+burma]
+    time_range:
+      - 1965-07-26T04:00Z
+      - 1965-07-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-26.china-leadership-2
     when: July 26
     date: '1965-07-26'
     place: peking
     thread: china-leadership
     c: Zhou attends the banquet Ne Win gives for China's leaders.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 470 (July 26, 1965; evening; Beijing). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 470 (July 26, 1965; evening; Beijing); [[w.peng-zhen-nianpu-1902]], IV, 427 (July 26, 1965, evening; Peng Zhen at Ne Win''s banquet); [[w.chen-yi-nianpu]], 1110 (July 26, 1965, evening; Chen Yi at Ne Win''s and his wife''s banquet). Names: Zhou Enlai.'
     src:
       c: 34bde176
       rows:
         - 'w.zhou-enlai-waijiao-huodong 470: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 427: ?'
+        - 'w.chen-yi-nianpu 1110: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-26T11:00Z
@@ -6223,6 +6809,45 @@ entries:
       - 1965-07-26T16:00Z
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1965-07-26.china-leadership-8
+    when: July 26
+    date: '1965-07-26'
+    place: peking
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Peking 北京. Peng Zhen 彭真 meets the Indonesian Communist Party''s study delegation: every fraternal party must sum up its own experience and learn from the international struggle; other countries'' experience for reference, not to be copied, or the revolution suffers.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 427. The words: 上午 (IV, 427). Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: 7f6c6a16
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 427: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc+indonesia]
+    time_range:
+      - 1965-07-25T22:00Z
+      - 1965-07-26T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-26.china-leadership-9
+    when: July 26
+    date: '1965-07-26'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 and Zhou Enlai 周恩来 cable Moktar Ould Daddah, President and Foreign Minister of Mauritania, on the establishment of relations.
+    n: '[[w.chen-yi-nianpu]], 1110. Names: Chen Yi, Zhou Enlai, Daddah.'
+    tags: [polity:prc, polity:mauritania, name:chen-yi, name:zhou-enlai, name:daddah-moktar-ould, ok:fields-place]
+  - id: cal.1965-07-26.china-leadership-10
+    when: July 26
+    date: '1965-07-26'
+    thread: china-leadership
+    also: [cuba]
+    c: 'Chen Yi 陈毅 speaks at the Cuban embassy''s reception for the twelfth anniversary of the July 26 rising: come wind or rain, the Chinese people will be the Cuban people''s truest friends; condemns the American plan to widen the war in South Vietnam.'
+    n: '[[w.chen-yi-nianpu]], 1110. The words: 晚上 (1110). Names: Chen Yi.'
+    tags: [polity:prc, polity:cuba, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1965-07-26T11:00Z
+      - 1965-07-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-27.health
     when: July 27
     date: '1965-07-27'
@@ -6565,13 +7190,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao, Zhongnanhai, noon: receives Li Zongren and his wife Guo Dejie, back from the United States; Peng Zhen, Guo Moruo, Xu Bing, Zhang Shizhao and Liu Zhongrong present. Welcome; the motherland stronger but not strong, another 20 or 30 years'' work; all who left are welcome home and will be treated with courtesy; Taiwan will come home, an irreversible tide.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 27, 1965; [[w.jianguo-yilai-mao-zedong]], XVIII, 104–105 (July 27, 1965; the Xinhua item of July 27, printed from *Renmin ribao*, July 28: Mao at noon receives Li Zongren and his wife Guo Dejie; welcome; the homeland stronger than before but not strong, at least twenty or thirty years more of construction; all overseas who wish to return are welcome and treated with courtesy; he proposes Li tour the country; the item names no others present and nothing on Taiwan). Reported by Xinhua (Check); the words made public: 2013. See [[cal.1965-07-12.china-leadership]]. Names: Mao Zedong, Peng Zhen, Zhou Enlai, Li Zongren, Guo Dejie, Guo Moruo, Xu Bing, Zhang Shizhao, Liu Zhongrong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 27, 1965; [[w.jianguo-yilai-mao-zedong]], XVIII, 104–105 (July 27, 1965; the Xinhua item of July 27, printed from *Renmin ribao*, July 28: Mao at noon receives Li Zongren and his wife Guo Dejie; welcome; the homeland stronger than before but not strong, at least twenty or thirty years more of construction; all overseas who wish to return are welcome and treated with courtesy; he proposes Li tour the country; the item names no others present and nothing on Taiwan); [[w.peng-zhen-nianpu-1902]], IV, 427 (July 27, 1965, noon; Peng Zhen accompanies Mao receiving Li Zongren and his wife, and at the banquet for them). Reported by Xinhua (Check); the words made public: 2013. See [[cal.1965-07-12.china-leadership]]. Names: Mao Zedong, Peng Zhen, Zhou Enlai, Li Zongren, Guo Dejie, Guo Moruo, Xu Bing, Zhang Shizhao, Liu Zhongrong.'
     src:
       c: 191503ad
       rows:
         - 'w.zedong-mao-zedong-nianpu V, July 27, 1965: all'
         - 'w.jianguo-yilai-mao-zedong XVIII, 104–105: A, C, D, E'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 105 n.1: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 427: ?'
     tags: [name:mao-zedong, name:peng-zhen, name:zhou-enlai, polity:prc, polity:roc]
   - id: cal.1965-07-27.china-leadership-2
     when: July 27
@@ -6631,8 +7257,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi accompanies Ne Win to Shenyang and visits the Liaoning industrial exhibition hall.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 623 (July 27, 1965). Names: Liu Shaoqi, Ne Win.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 623 (July 27, 1965); [[w.chen-yi-nianpu]], 1110 (July 27, 1965, morning; Chen Yi with Liu Shaoqi, Wang Guangmei and Zhang Qian 张茜 takes Ne Win from Peking to Shenyang 沈阳). Names: Liu Shaoqi, Ne Win.'
     tags: [polity:prc, polity:burma, name:liu-shaoqi, name:ne-win]
+    time_range:
+      - 1965-07-26T22:00Z
+      - 1965-07-27T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-27.china-leadership-6
     when: July 27
     date: '1965-07-27'
@@ -6719,12 +7350,34 @@ entries:
     thread: china-leadership
     also: [china]
     c: Deng Xiaoping 邓小平 leads the Chinese Communist Party delegation home from Romania by special plane; in Peking 北京 on the morning of the 28th.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1870 (July 27, 1965). See [[cal.1965-07-17.china-leadership-5]]. Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1870 (July 27, 1965); [[w.peng-zhen-nianpu-1902]], IV, 427 (July 28, 1965, morning; Peng Zhen, with Zhu De, at the airport meeting Deng Xiaoping and the party delegation back from Romania). See [[cal.1965-07-17.china-leadership-5]]. Names: Deng Xiaoping.'
     src:
       c: 4e6f4d41
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1870: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 427: ?'
     tags: [polity:prc, name:deng-xiaoping]
+  - id: cal.1965-07-27.china-leadership-12
+    when: July 27
+    date: '1965-07-27'
+    thread: china-leadership
+    also: [africa]
+    c: Moktar Ould Daddah cables Zhou Enlai 周恩来 and Chen Yi 陈毅 his thanks for their greetings on the establishment of relations.
+    n: '[[w.chen-yi-nianpu]], 1110. Names: Chen Yi, Daddah, Zhou Enlai.'
+    tags: [polity:prc, polity:mauritania, name:chen-yi, name:zhou-enlai, name:daddah-moktar-ould, ok:fields-place]
+  - id: cal.1965-07-27.china-leadership-13
+    when: July 27
+    date: '1965-07-27'
+    place: shenyang
+    thread: china-leadership
+    c: Shenyang 沈阳. Chen Yi 陈毅 at the banquet of Huang Oudong 黄欧东, Liaoning's 辽宁 governor, for Ne Win.
+    n: '[[w.chen-yi-nianpu]], 1110. The words: 晚上 (1110). Names: Chen Yi, Ne Win.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:ne-win]
+    time_range:
+      - 1965-07-27T11:00Z
+      - 1965-07-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-28.vietnam
     when: July 28
     date: '1965-07-28'
@@ -7132,11 +7785,12 @@ entries:
     thread: china
     also: [laos]
     c: Chen Yi replies to Prince Souphanouvong's letter of July 23, which asked China's government for its view of the grave Laotian situation caused by U.S. interference and aggression, and of the memorandum on the 1962 fourteen-nation Geneva agreement recognizing and respecting Laos's sovereignty, independence, neutrality, unity and territorial integrity. China resolutely supports the Lao people's anti-U.S. patriotic struggle, and fully agrees with the Lao Patriotic Front party's proposals in the memorandum for a basic settlement.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 41 (July 28, 1965). Names: Chen Yi, Souphanouvong.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 41 (July 28, 1965); [[w.chen-yi-nianpu]], 1110 (July 28, 1965; China backs the Lao people''s fight against the United States and fully agrees with the party''s terms). Names: Chen Yi, Souphanouvong.'
     src:
       c: eef5afb1
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 41: all'
+        - 'w.chen-yi-nianpu 1110: ?'
     tags: [polity:prc, polity:pathet-lao, name:chen-yi, name:souphanouvong]
   - id: cal.1965-07-28.china-leadership-2
     when: July 28
@@ -7145,8 +7799,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi accompanies Ne Win to Anshan and visits the Anshan Iron and Steel Company's iron-making and steel-making plants, big rolling mill and seamless-pipe plant; the same day they return to Shenyang.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 623 (July 28, 1965). Names: Liu Shaoqi, Ne Win.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 623 (July 28, 1965); [[w.chen-yi-nianpu]], 1110 (July 28, 1965, morning; Chen Yi with Liu Shaoqi, Wang Guangmei, Zhang Qian, Huang Oudong and others). Names: Liu Shaoqi, Ne Win.'
     tags: [polity:prc, polity:burma, name:liu-shaoqi, name:ne-win]
+    time_range:
+      - 1965-07-27T22:00Z
+      - 1965-07-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1965-07-28.china-leadership-3
     when: July 28
     date: '1965-07-28'
@@ -7211,6 +7870,41 @@ entries:
       - 1965-07-28T11:00Z
       - 1965-07-28T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-28.china-leadership-7
+    when: July 28
+    date: '1965-07-28'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 sends Mao 毛泽东 Gu Mu''s 谷牧 report on the design revolution, forwarded by the Center on June 14 while Mao had a cold: the Center commends the design units'' four clean-ups ending in reform of design work, an example for culture, education, health and research.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 427–428. Made public: 2012. Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: 378b1736
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 427–428: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc, ok:fields-place]
+  - id: cal.1965-07-28.china-leadership-8
+    when: July 28
+    date: '1965-07-28'
+    thread: china-leadership
+    c: 'Peng Zhen 彭真 sends Mao 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and Li Xiannian 李先念 the *Qunzhong fanying* 《群众反映》 No. 52, on grain procurement quotas too heavy in some areas: the General Office or the Rural Work Department to send someone to look into it, and if true correct it firmly.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 428. Made public: 2012. Names: Peng Zhen, Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Li Xiannian.'
+    src:
+      c: bca14a97
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 428: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:li-xiannian, vis:only:prc, ok:fields-place]
+  - id: cal.1965-07-28.china-leadership-9
+    when: July 28
+    date: '1965-07-28'
+    place: shenyang
+    thread: china-leadership
+    c: Chen Yi 陈毅 takes Ne Win to the Shenyang 沈阳 porcelain works.
+    n: '[[w.chen-yi-nianpu]], 1110. The words: 下午 (1110). Names: Chen Yi, Ne Win.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:ne-win]
+    time_range:
+      - 1965-07-28T04:00Z
+      - 1965-07-28T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1965-07-29.medicare
     when: July 29
@@ -7507,11 +8201,12 @@ entries:
     place: shanghai
     thread: china-leadership
     c: Zhou goes to the Hongqiao airport to welcome Ne Win and his wife on their visit to Shanghai from Shenyang.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 470 (July 29, 1965; morning; Hongqiao airport, Shanghai). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 470 (July 29, 1965; morning; Hongqiao airport, Shanghai); [[w.chen-yi-nianpu]], 1110 (July 29, 1965, morning; Chen Yi and Zhang Qian take Ne Win from Shenyang to Shanghai). Names: Zhou Enlai.'
     src:
       c: b49b2efc
       rows:
         - 'w.zhou-enlai-waijiao-huodong 470: all'
+        - 'w.chen-yi-nianpu 1110: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-28T22:00Z
@@ -7524,11 +8219,12 @@ entries:
     place: shanghai
     thread: china-leadership
     c: Zhou attends the welcoming banquet given at Shanghai for Ne Win by Deputy Mayor Cao Diqiu.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 470–71 (July 29, 1965; evening; Shanghai). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 470–71 (July 29, 1965; evening; Shanghai); [[w.chen-yi-nianpu]], 1111 (July 29, 1965, evening; Chen Yi at Cao Diqiu''s banquet). Names: Zhou Enlai.'
     src:
       c: d57215bb
       rows:
         - 'w.zhou-enlai-waijiao-huodong 470–71: all'
+        - 'w.chen-yi-nianpu 1111: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-29T11:00Z
@@ -7631,6 +8327,24 @@ entries:
       - 1965-07-29T04:00Z
       - 1965-07-29T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-29.china-leadership-10
+    when: July 29
+    date: '1965-07-29'
+    place: peking
+    thread: china-leadership
+    also: [latin-america]
+    c: 'Peking 北京. Peng Zhen 彭真 meets Pedro Vásquez 彼德罗·瓦斯盖斯, general secretary of the Communist Party of Colombia (Marxist-Leninist), and Carlos Arias 卡尔洛斯·阿里亚斯 of its executive committee, on the party''s Tenth Congress resolutions: the revolution''s ranks, its chief enemy, its firm and wavering allies, decided by the country''s economy, classes and politics; whether bourgeois-democratic or socialist, in two steps or one, from the concrete case.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 428. The words: 上午 (IV, 428). Names: Peng Zhen.'
+    src:
+      c: 7cc1d757
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 428: all'
+    tags: [polity:prc, name:peng-zhen]
+    time_range:
+      - 1965-07-28T22:00Z
+      - 1965-07-29T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1965-07-30.medicare
     when: July 30
@@ -7855,11 +8569,12 @@ entries:
     place: shanghai
     thread: china-leadership
     c: Zhou gives a banquet for Ne Win, his wife and their party, and goes with them to an arts evening.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 471–72 (July 30, 1965; evening; Shanghai). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 471–72 (July 30, 1965; evening; Shanghai); [[w.chen-yi-nianpu]], 1111 (July 30, 1965, evening; Zhou, Chen Yi and Zhang Qian 张茜 give the banquet; Chen Yi with Zhou at the evening, the Shanghai Dance School''s ballet *The White-Haired Girl* 《白毛女》). Names: Zhou Enlai.'
     src:
       c: e87633c1
       rows:
         - 'w.zhou-enlai-waijiao-huodong 471–72: all'
+        - 'w.chen-yi-nianpu 1111: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-30T11:00Z
@@ -7954,6 +8669,30 @@ entries:
       - 1965-07-30T14:00Z
       - 1965-07-30T16:00Z
     time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-30.china-leadership-7
+    when: July 30
+    date: '1965-07-30'
+    thread: china-leadership
+    c: Peng Zhen 彭真 asks Lü Zhengcao 吕正操 to tell Yu Qiuli 余秋里 to press the choice and survey of routes for the Sichuan–Hankou 川汉 and Sichuan–Henan 川豫 railways, so the forces building the Chengdu–Kunming line can move on to tunnel the Sichuan–Hankou line; the two routes, once fixed, to be agreed with the Central-South Bureau and the provinces.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 428. Made public: 2012. Names: Peng Zhen.'
+    src:
+      c: da141fb4
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 428: all'
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
+  - id: cal.1965-07-30.china-leadership-8
+    when: July 30
+    date: '1965-07-30'
+    place: shanghai
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Zhou Enlai 周恩来 and others, takes Ne Win and his Burmese guests to the Yuepu 月浦 range near Wusong 吴淞, Shanghai 上海, to watch a military display by the PLA's Shanghai garrison and the city's militia; afterward he swims at the mouth of the Yangtze 长江 and writes the poem "Swimming in the Yangtze" 《长江游泳》.
+    n: '[[w.chen-yi-nianpu]], 1111. The words: 上午 (1111). Names: Chen Yi, Zhou Enlai, Ne Win.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:zhou-enlai, name:ne-win]
+    time_range:
+      - 1965-07-29T22:00Z
+      - 1965-07-30T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1965-07-31.program
     when: July 31
@@ -8275,11 +9014,12 @@ entries:
     place: kunming
     thread: china-leadership
     c: Zhou attends the welcoming banquet given at Kunming for Ne Win and his wife by Yunnan's governor Zhou Xing and his wife Yang Yuying.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (July 31, 1965; evening; Kunming). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 472 (July 31, 1965; evening; Kunming); [[w.chen-yi-nianpu]], 1111 (July 31, 1965, evening; Chen Yi at the banquet of Zhou Xing 周兴, Yunnan''s governor, and his wife 杨玉英). Names: Zhou Enlai.'
     src:
       c: c0961b63
       rows:
         - 'w.zhou-enlai-waijiao-huodong 472: all'
+        - 'w.chen-yi-nianpu 1111: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1965-07-31T11:00Z
@@ -8416,3 +9156,69 @@ entries:
       rows:
         - 'https://digitalarchive.umd.edu/document/134601: all'
     tags: [polity:dprk, polity:drv, name:kim-il-sung, name:deng-xiaoping, name:peng-zhen, name:brezhnev-leonid, vis:only:dprk+drv]
+  - id: cal.1965-07.china-leadership-3
+    when: July, mid-
+    date: 1965-07
+    at: before 1965-07-11
+    thread: china-leadership
+    c: Peng Zhen 彭真, with Tan Zhenlin 谭震林, reads Li Xiannian's 李先念 report proposing Bo Yibo 薄一波 to head the new leading group of *Jingji xiaoxi* 《经济消息》.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 426. Made public: 2012. Names: Peng Zhen, Tan Zhenlin, Li Xiannian, Bo Yibo.'
+    src:
+      c: 4e398025
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 426: all'
+    tags: [polity:prc, name:peng-zhen, name:tan-zhenlin, name:li-xiannian, name:bo-yibo, vis:only:prc, ok:fields-place]
+  - id: cal.1965-07-31.china-leadership-6
+    when: July 31
+    date: '1965-07-31'
+    place: peking
+    thread: china-leadership
+    also: [latin-america]
+    c: 'Peking 北京. Peng Zhen 彭真 meets David 大卫·迪芬培克, political and foreign secretary of the Argentine 统一革命团体运动: reactionary rulers never hand power to the people; revolution a mass movement, the masses, the peasants above all, roused in earnest; Mao Zedong Thought formed in revolutionary struggle.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 428. The words: 上午 (IV, 428). Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: d44c2910
+      rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 428: all'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong]
+    time_range:
+      - 1965-07-30T22:00Z
+      - 1965-07-31T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07.soviet-union
+    when: July
+    date: 1965-07
+    thread: soviet-union
+    also: [vietnam-hanoi]
+    c: Hanoi and Moscow sign an agreement to boost economic and military ties.
+    n: '[[w.khoo-collateral-damage]], 25. To check: [[w.ming-zhong-yue-guanxi-yanbian]], 103 (cited by [[w.khoo-collateral-damage]], 25 n.102). Check: the day (July 10 in [[cal.1965-07-08.soviet-union-leadership]]).'
+    tags: [ok:fields-place, polity:ussr, polity:drv]
+  - id: cal.1965-07-31.china-leadership-7
+    when: July 31
+    date: '1965-07-31'
+    place:
+      - shanghai
+      - kunming
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Zhou Enlai 周恩来 take Ne Win from Shanghai 上海 to Kunming 昆明.
+    n: '[[w.chen-yi-nianpu]], 1111. The words: 上午 (1111). Names: Chen Yi, Zhou Enlai, Ne Win.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:zhou-enlai, name:ne-win]
+    time_range:
+      - 1965-07-30T22:00Z
+      - 1965-07-31T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1965-07-31.china-leadership-8
+    when: July 31
+    date: '1965-07-31'
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明. Chen Yi 陈毅, with Zhou Enlai 周恩来, Zhang Qian 张茜 and others, takes Ne Win to Lake Dian 滇池.
+    n: '[[w.chen-yi-nianpu]], 1111. The words: 下午 (1111). Names: Chen Yi, Zhou Enlai, Ne Win.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:zhou-enlai, name:ne-win]
+    time_range:
+      - 1965-07-31T04:00Z
+      - 1965-07-31T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai

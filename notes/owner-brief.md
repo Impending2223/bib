@@ -916,3 +916,25 @@ Civil disorder killings and lesser crimes would also go in, wouldn't they? Don't
 Could you clarify or restate the "crime" rule? Maybe drop it? Heck, just drop it." (Nov. 20, about 1:10 a.m. Pacific.) Applied: the crime clause struck from R18; every dated crime the source records is an entry, as any other event (R5).
 
 "I believe the crime rule is too recent to have had much of an effect. Do you have it dated? Don't search anything before its date." (Nov. 20, about 1:15 a.m. Pacific.) Dated: the crime clause entered R18 on Nov. 14, about 7:23 p.m. Pacific (commit ad55daa, from the owner's words of that evening); the sweep limited to work after it.
+
+## Nov. 21, 2026, 12:10 a.m. Pacific
+
+"Sorry, Claude, but what's this new "conditions"/"events" exclusion condition you've made up?"
+
+## Nov. 21, 2026, 12:14 a.m. Pacific
+
+On the authors' own estimates and totals (a historian's figure for famine deaths): "Put those numbers in too.
+
+Put them in the "gloss" on the most appropriate entry, or the opening or closing of the most appropriate thread."
+
+## Nov. 21, 2026, 12:17 a.m. Pacific
+
+(Stopping the agents at work.) "The statement of "what a gloss is" that you grepped may need rewriting or refactoring here."
+
+## Nov. 21, 2026, 12:19 a.m. Pacific
+
+"No Claude, not the opening or closing of each thread's "statement." The first or last entry in a thread."
+
+## Nov. 21, 2026, 12:24 a.m. Pacific
+
+"Please continue."
