@@ -1101,3 +1101,9 @@ Yes, an entry holding two acts should be split. (Did you need to pass this one t
 ## Nov. 21, 2026, about 1 p.m. (Pacific)
 
 ""Made public" doesn't require a source to have been read, does it?"
+
+## Nov. 21, 2026, about 1:10 p.m. (Pacific)
+
+"The reason I endorsed your proposed rule in full initially is because works that are (a) "briefly available in public circulation, then suppressed," and (b) "only 'published' in small-batch, limited-circulation printings" are hard to square with either the rationale behind the "Made public" rule or its "once and for all" setting.
+
+Suppose it's 1972, or 1978, or 1984, or 1990, or 1996. Would a citizen of the PRC have been able to access these publications or documents in the way "Made public:" and the visibility rule implies?"
