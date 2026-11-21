@@ -137,7 +137,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou ascends the Tiananmen gate tower for the celebration of the sixteenth anniversary of the People's Republic, with 500,000 of the capital's people; Sihanouk and the Princess and guests from over eighty states and regions watch the ceremony.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 480 (Oct. 1, 1965; 10 a.m., Tiananmen gate tower, Beijing); [[w.yang-shangkun-riji]], II, 675 (Oct. 1, 1965; Yang at Tiananmen for National Day, 10 a.m. to noon; Zhou not named; the words: 10时到12时在天安门参加国庆); [[w.deng-xiaoping-nianpu-1904]], III, 1877 (Oct. 1, 1965; Deng attends the rally in Tiananmen Square for the sixteenth anniversary of the People''s Republic, and reviews the parade); [[w.peng-zhen-nianpu-1902]], IV, 441 (Oct. 1, 1965, morning; Tiananmen Square; Peng Zhen speaks at the rally: a deep cultural revolution under way, culture, education, health and science serving socialism and the workers, peasants and soldiers, many intellectuals going to the hills and villages; the Third Five-Year Plan from 1966; the general line held high); [[w.chen-yi-nianpu]], 1126 (Oct. 1, 1965, morning; Chen Yi on the Tiananmen gate tower at the rally and reviews the parade). Names: Zhou Enlai, Norodom Sihanouk.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 480 (Oct. 1, 1965; 10 a.m., Tiananmen gate tower, Beijing); [[w.yang-shangkun-riji]], II, 675 (Oct. 1, 1965; Yang at Tiananmen for National Day, 10 a.m. to noon; Zhou not named; the words: 10时到12时在天安门参加国庆); [[w.deng-xiaoping-nianpu-1904]], III, 1877 (Oct. 1, 1965; Deng attends the rally in Tiananmen Square for the sixteenth anniversary of the People''s Republic, and reviews the parade); [[w.peng-zhen-nianpu-1902]], IV, 441 (Oct. 1, 1965, morning; Tiananmen Square; Peng Zhen speaks at the rally: a deep cultural revolution under way, culture, education, health and science serving socialism and the workers, peasants and soldiers, many intellectuals going to the hills and villages; the Third Five-Year Plan from 1966; the general line held high); [[w.chen-yi-nianpu]], 1126 (Oct. 1, 1965, morning; Chen Yi on the Tiananmen gate tower at the rally and reviews the parade); [[w.liu-jixian-ye-jianying-nianpu]], II, 932 (Oct. 1, 1965; Ye Jianying 叶剑英 at the rally for the sixteenth anniversary of the People''s Republic). Names: Zhou Enlai, Norodom Sihanouk.'
     src:
       c: c42d77dd
       rows:
@@ -146,6 +146,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1877: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 441: ?'
         - 'w.chen-yi-nianpu 1126: ?'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 932: ?'
     tags: [polity:prc, name:zhou-enlai, name:norodom-sihanouk]
     time_zone: Asia/Shanghai
   - id: cal.1965-10-01.china-leadership-2
@@ -1740,11 +1741,12 @@ entries:
     date: '1965-10-10'
     thread: china-leadership
     c: Deng Xiaoping 邓小平, with Mao Zedong 毛泽东, Zhou Enlai 周恩来, Zhu De 朱德 and others, receives the workers, peasants and soldiers who came to view the National Day celebrations.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1877 (Oct. 10, 1965). Names: Deng Xiaoping, Mao Zedong, Zhou Enlai, Zhu De. Check: whether this is the reception of [[cal.1965-10-10.china-leadership-4]] (Yang Shangkun''s diary: Mao receives members of several bodies, 12:30 to 1 p.m.).'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1877 (Oct. 10, 1965); [[w.liu-jixian-ye-jianying-nianpu]], II, 932 (Oct. 10, 1965; Ye Jianying 叶剑英 with Mao Zedong 毛泽东 and the other leaders receiving the workers, peasants and soldiers who came to view the National Day celebration). Names: Deng Xiaoping, Mao Zedong, Zhou Enlai, Zhu De. Check: whether this is the reception of [[cal.1965-10-10.china-leadership-4]] (Yang Shangkun''s diary: Mao receives members of several bodies, 12:30 to 1 p.m.).'
     src:
       c: 9d184f1c
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1877: all'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 932: ?'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:zhou-enlai, name:zhu-de]
   - id: cal.1965-10-10.vietnam-hanoi
     when: Oct. 10
@@ -2666,6 +2668,13 @@ entries:
       - 1965-10-16T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-10-16.china-leadership-4
+    when: Oct. 16
+    date: '1965-10-16'
+    thread: china-leadership
+    c: '*Guangming ribao* 光明日报 prints Ye Jianying''s 叶剑英 poem "Looking afar" 《远望》, written on Bangchui Island 棒槌岛, Dalian 大连.'
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 932. Names: Ye Jianying.'
+    tags: [polity:prc, ok:fields-place, name:ye-jianying]
   - id: cal.1965-10-17.students
     when: Oct. 17
     date: '1965-10-17'
@@ -3515,6 +3524,13 @@ entries:
         - 'w.friedman-shadow-cold-war 130: all'
         - 'via x.1965-10-20.report-embassy-drv-prc-relations-vietnamese-problem: ?'
     tags: [polity:ussr, vis:only:ussr]
+  - id: cal.1965-10-20.china-leadership-9
+    when: Oct. 20
+    date: '1965-10-20'
+    thread: china-leadership
+    c: Ye Jianying 叶剑英 gives his views on the future direction of the Academy of Military Science's 军事科学院 work and on recasting its organs.
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 932. Made public: 2007. Names: Ye Jianying.'
+    tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
   - id: cal.1965-10-21.trade
     when: Oct. 21
     date: '1965-10-21'
@@ -4172,19 +4188,25 @@ entries:
     date: '1965-10-24'
     thread: china-leadership
     c: Zhou attends the third meeting of the CPPCC Fourth Committee's standing committee; he, Song Qingling, Dong Biwu, Guo Moruo and others are named deputy heads of the committee to prepare for the centenary of Sun Yat-sen's birth, Liu Shaoqi head.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 760 (Oct. 24, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 627 (Oct. 24, 1965; the fourth session''s third meeting of the CPPCC National Committee decides that Liu Shaoqi be chairman of the committee to prepare the commemoration of the centenary of Sun Yat-sen''s birth); [[w.chen-yi-nianpu]], 1130 (Oct. 24, 1965, morning; Zhou presides; the meeting decides to mark the centenary of Sun Yat-sen''s 孙中山 birth and names the preparatory committee, Liu Shaoqi its chairman, Chen Yi among its vice-chairmen). Names: Zhou Enlai, Song Qingling, Dong Biwu, Guo Moruo, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 760 (Oct. 24, 1965); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 627 (Oct. 24, 1965; the fourth session''s third meeting of the CPPCC National Committee decides that Liu Shaoqi be chairman of the committee to prepare the commemoration of the centenary of Sun Yat-sen''s birth); [[w.chen-yi-nianpu]], 1130 (Oct. 24, 1965, morning; Zhou presides; the meeting decides to mark the centenary of Sun Yat-sen''s 孙中山 birth and names the preparatory committee, Liu Shaoqi its chairman, Chen Yi among its vice-chairmen); [[w.liu-jixian-ye-jianying-nianpu]], II, 932 (Oct. 25, 1965; Ye Jianying 叶剑英 named a vice-chairman of the preparatory committee for the centenary of Sun Yat-sen''s 孙中山 birth 纪念孙中山诞辰一百周年筹备委员会). Names: Zhou Enlai, Song Qingling, Dong Biwu, Guo Moruo, Liu Shaoqi.'
     src:
       c: 73f5b0d9
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 760: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 627: A, B'
         - 'w.chen-yi-nianpu 1130: ?'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 932: ?'
     tags: [name:zhou-enlai, name:dong-biwu, name:liu-shaoqi, polity:prc]
     time_range:
       - 1965-10-23T22:00Z
       - 1965-10-24T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+    variants:
+      - unit: B
+        witness: w.liu-jixian-ye-jianying-nianpu
+        reads: Ye Jianying named a vice-chairman of the preparatory committee Oct. 25
+        at: II, 932
   - id: cal.1965-10-24.china-leadership-2
     when: Oct. 24
     date: '1965-10-24'

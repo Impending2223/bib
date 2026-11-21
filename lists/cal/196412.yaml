@@ -4235,7 +4235,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou attends the opening of the first session of the Fourth National Committee of the CPPCC and presides over the opening session; Dec. 20–Jan. 5, 1965.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 695 (Dec. 20, 1964); [[w.peng-zhen-nianpu-1902]], IV, 380 (Dec. 20, 1964, morning; Peng Zhen at the opening of the fourth CPPCC''s first session, chosen for its presidium); [[w.chen-yi-nianpu]], 1074 (Dec. 20, 1964–Jan. 5, 1965, the CPPCC auditorium; Chen Yi at the session, at which Mao is named honorary chairman, Zhou elected chairman and Peng Zhen, Chen Yi and twenty others vice-chairmen). Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 695 (Dec. 20, 1964); [[w.peng-zhen-nianpu-1902]], IV, 380 (Dec. 20, 1964, morning; Peng Zhen at the opening of the fourth CPPCC''s first session, chosen for its presidium); [[w.chen-yi-nianpu]], 1074 (Dec. 20, 1964–Jan. 5, 1965, the CPPCC auditorium; Chen Yi at the session, at which Mao is named honorary chairman, Zhou elected chairman and Peng Zhen, Chen Yi and twenty others vice-chairmen); [[w.liu-jixian-ye-jianying-nianpu]], II, 925 (Dec. 20, 1964; Ye Jianying 叶剑英 elected to the presidium of the first session of the Fourth National Committee of the CPPCC 政协第四届全国委员会第一次会议). Names: Zhou Enlai, Mao Zedong.'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc]
     time_range:
       - 1964-12-19T22:00Z
@@ -4248,12 +4248,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真, at the preparatory meeting of the third National People's Congress's 全国人大 first session, is chosen for its presidium and explains the preparations and agenda.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 380; [[w.chen-yi-nianpu]], 1074 (Dec. 20, 1964, morning; Chen Yi chosen for the presidium of the first session of the Third NPC by its preparatory meeting). The words: 上午 (IV, 380). Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 380; [[w.chen-yi-nianpu]], 1074 (Dec. 20, 1964, morning; Chen Yi chosen for the presidium of the first session of the Third NPC by its preparatory meeting); [[w.liu-jixian-ye-jianying-nianpu]], II, 925 (Dec. 20, 1964; Ye Jianying 叶剑英 at the preparatory meeting of the Third National People''s Congress''s first session 第三届全国人大第一次会议, elected to its presidium 主席团). The words: 上午 (IV, 380). Names: Peng Zhen.'
     src:
       c: cd59149a
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 380: all'
         - 'w.chen-yi-nianpu 1074: ?'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 925: ?'
     tags: [polity:prc, name:peng-zhen]
     time_range:
       - 1964-12-19T22:00Z
@@ -4635,6 +4636,15 @@ entries:
       - 1964-12-22T16:00Z
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1964-12-22.china-leadership-2
+    when: Dec. 22
+    date: '1964-12-22'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-diplomacy]
+    c: Peking 北京. Ye Jianying 叶剑英 at the reception of the Vietnamese embassy's military attaché 越南驻华使馆武官 for the twentieth anniversary of the Vietnam People's Army 越南人民军.
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 925. Names: Ye Jianying.'
+    tags: [polity:prc, polity:drv, name:ye-jianying]
   - id: cal.1964-12-23.middle-east
     when: Dec. 23
     date: '1964-12-23'
@@ -5309,6 +5319,13 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 524–526: all'
     tags: [polity:prc, name:li-fuchun, name:bo-yibo, name:li-xiannian, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1964-12-26.china-leadership-4
+    when: Dec. 26
+    date: '1964-12-26'
+    thread: china-leadership
+    c: 'Ye Jianying 叶剑英 to Yu Guangwen 余光文 and Zhong Qiguang 钟期光 of the Academy of Military Science 军事科学院, by letter: see to the Academy''s farm and sideline production and to the officers'' and men''s living.'
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 925. Made public: 2007. Names: Ye Jianying.'
+    tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
   - id: cal.1964-12-27.china-leadership
     when: Dec. 27
     date: '1964-12-27'
@@ -7051,3 +7068,12 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 23: all'
     tags: [polity:prc, vis:only:prc, name:luo-ruiqing, name:lin-biao]
+  - id: cal.1964-12.china-leadership-12
+    when: Dec., after the 20th
+    date: 1964-12
+    at: after 1964-12-20
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Ye Jianying 叶剑英 is elected a vice-chairman and a member of the standing committee of the Fourth National Committee of the CPPCC 政协第四届全国委员会.
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 925. Names: Ye Jianying. Check: the day: the nianpu says only during the session, which opened Dec. 20.'
+    tags: [polity:prc, name:ye-jianying]
