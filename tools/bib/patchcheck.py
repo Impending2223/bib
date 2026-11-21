@@ -183,6 +183,7 @@ def check(series, path, legacy=False):
 
     from . import dayorder                                # STYLE 12: on the whole calendar (a cycle's other end; the
     dbefore = set(dayorder.problems(series))              # follower of an entry the patch moves or deletes)
+    nbefore = name_tags(series, touched, lst)             # STYLE 13: the tags the entries already had
     rep = merge.Report()
     merge.apply_patch(series, d, name, rep, dry=True)
     addops.join_clean(series, name, save=False)          # as the rolling merge will join them
@@ -198,7 +199,7 @@ def check(series, path, legacy=False):
         else:
             errors.append(f"{eid}: {msg}")
     errors += [f"{w}: {m} [day-order]" for w, m in sorted(set(dayorder.problems(series)) - dbefore)]
-    errors += name_tag_errors(series, touched, lst)        # STYLE 13
+    errors += name_tag_errors(series, touched, lst, nbefore)  # STYLE 13
     for l in rep.lines:
         if l.startswith("error"):
             msg = l.split(None, 1)[1]
@@ -213,20 +214,33 @@ def check(series, path, legacy=False):
     return errors, warnings
 
 
-def name_tag_errors(series, touched, lst):
-    """STYLE 13: each `name:` tag on a touched calendar entry names a person the series holds."""
-    from . import lives
-    for k in ("people", "everyone", "frus-alias", "frus-union"):
-        lives._CACHE.pop(k, None)
-    keys = {lives.key_of(p["name"]) for p in lives.everyone(series)} | set(lives._CACHE.get("frus-alias", {}))
-    out = []
+def name_tags(series, touched, lst):
+    """The (id, tag) pairs of the `name:` tags on the touched calendar entries."""
+    out = set()
     for eid in touched:
         hit = series.get(eid)
-        if not hit or lst is None or hit[0] is not lst:
-            continue
-        for tg in hit[2].get("tags") or []:
-            if str(tg).startswith("name:") and str(tg)[5:] not in keys:
-                out.append(f"{eid}: tag {tg} names no person (a name entry's key, or leave the person in c untagged) [name-tag]")
+        if hit and lst is not None and hit[0] is lst:
+            out |= {(eid, str(tg)) for tg in hit[2].get("tags") or [] if str(tg).startswith("name:")}
+    return out
+
+
+def name_tag_errors(series, touched, lst, before=frozenset()):
+    """STYLE 13: each `name:` tag the patch puts on a touched calendar entry names a person the series holds (a
+    tag the entry already had is not the patch's)."""
+    from . import lives
+    tagged = sorted(name_tags(series, touched, lst) - set(before))
+    if not tagged:
+        return []
+    for k in ("people", "everyone", "frus-alias", "frus-union"):
+        lives._CACHE.pop(k, None)
+    try:
+        keys = {lives.key_of(p["name"]) for p in lives.everyone(series)} | set(lives._CACHE.get("frus-alias", {}))
+    except OSError:                                        # a tree without the people's sources (a test fixture)
+        return []
+    out = []
+    for eid, tg in tagged:
+        if tg[5:] not in keys:
+            out.append(f"{eid}: tag {tg} names no person (a name entry's key, or leave the person in c untagged) [name-tag]")
     return out
 
 
