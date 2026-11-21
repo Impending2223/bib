@@ -10,6 +10,56 @@ ops:
       - 1966-08-31T16:00Z
       time_band: night
       time_zone: Asia/Shanghai
+- edit:
+    id: cal.1969-03-03.china-leadership-2
+    base: 560057f4
+    set:
+      place: peking
+      time_range:
+      - 1969-03-03T11:00Z
+      - 1969-03-03T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1969-03-22.china-leadership-2
+    base: 3e7b0e1e
+    set:
+      place: peking
+      time_range:
+      - 1969-03-22T04:00Z
+      - 1969-03-22T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1967-07-10.china-leadership
+    base: '44572944'
+    set:
+      place: peking
+- edit:
+    id: cal.1966-12-25.china-leadership-2
+    base: c1796230
+    set:
+      place: peking
+- edit:
+    id: cal.1967-04-10.china-leadership-2
+    base: b1c5c8f3
+    set:
+      place: peking
+- edit:
+    id: cal.1968-10-17.china-leadership-2
+    base: 27fd1465
+    set:
+      place: peking
+- edit:
+    id: cal.1968-10.china-leadership-4
+    base: cd903dd6
+    set:
+      place: peking
+- edit:
+    id: cal.1966-08-26.china-leadership-6
+    base: 60b8785e
+    set:
+      place: daxing
 - place-key:
     key: xiaguan
     name: Xiaguan
@@ -62,9 +112,6 @@ ops:
     id: cal.1968-05-17.china-leadership-2
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 616–617 (63 seized, among them the corps'' head, deputy heads and political department chief; its programme, seals, secret addresses and
       some arms taken; Nanning city and the Nanning, Yulin, Qinzhou and Liuzhou prefectures; "2,000 bandits," as the report has it)'
-- to-check:
-    id: cal.1968-05-17.china-leadership-2
-    add: '[[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 617 n.84)'
 - add:
     entry:
       id: cal.1968-01-17.china-leadership-3
@@ -383,8 +430,8 @@ ops:
       - ok:fields-place
 - cite:
     id: cal.1966-05.china-leadership-5
-    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 620 (the Center''s North China Bureau meeting at the Qianmen Hotel 前門飯店, Peking, opens May 21, 146 of Inner Mongolia''s Party, government
-      and army leaders attending; Ulanfu 烏蘭夫 labelled a "three-anti element" with the error of "national splitting"; the verdict Liu Shaoqi''s and Deng Xiaoping''s, Mao''s part not known)'
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 620 (at the North China Bureau meeting Ulanfu 烏蘭夫 labelled a "three-anti element" with the error of "national splitting"; the verdict
+      Liu Shaoqi''s and Deng Xiaoping''s, by Yang, Mao''s part not known)'
 - cite:
     id: cal.1966-08-16.china-leadership-3
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 620 (the Center strips Ulanfu of all his posts and holds him in Peking)'
@@ -405,7 +452,7 @@ ops:
         hidden in Inner Mongolia," "Ulanfu''s 烏蘭夫 secret team": the opening of the campaign to "dig out Ulanfu''s black line and root out his poison" 挖肅 in the cleansing of the class
         ranks, Ulanfu named the party''s chief.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 621–622. Made public: 2008. To check: Alatengdelihai 阿拉騰德力海, comp., *Neimenggu wasu zainan shilu xubian* 《內蒙古挖肅災難實錄續編》 (privately compiled,
-        Sept. 2008) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 621 n.90).'
+        Sept. 2008) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 621 n.90). See [[cal.1968.china-leadership-30]].'
       src:
         c: d8b7f97b
         rows:
@@ -666,8 +713,8 @@ ops:
       place: tianjin
       thread: china-leadership
       c: Tianjin 天津 opens at once the campaign to clear out the "two blacks and one smash," the core of its cleansing of the class ranks.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 627. Made public: 1981. To check: Sun Futian 孫福田, speech to the enlarged plenary of the China Federation of Literary and Art Circles, May
-        1978, in *Chunfeng huayu ji* 《春風化雨集》, vol. 1 (Qunzhong chubanshe, 1981), 196–204 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 627 n.107).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 627. To check: Sun Futian 孫福田, speech to the enlarged plenary of the China Federation of Literary and Art Circles, May 1978, in *Chunfeng
+        huayu ji* 《春風化雨集》, vol. 1 (Qunzhong chubanshe, 1981), 196–204 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 627 n.107).'
       src:
         c: faaf3235
         rows:
@@ -675,7 +722,6 @@ ops:
         - 'via w.yang-jisheng-tiandi-fanfu II, 627 n.107: all'
       tags:
       - polity:prc
-      - vis:only:prc
 - add:
     entry:
       id: cal.1968-02.china-leadership-10
@@ -706,9 +752,9 @@ ops:
       thread: china-leadership
       c: Tianjin 天津. Wang Kangzhi 王亢之, secretary of the city committee's Secretariat and a standing member of the revolutionary committee, named a traitor by Jiang Qing 江青's words, kills
         himself.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 627. Made public: 1981. To check: Sun Futian 孫福田, speech to the enlarged plenary of the China Federation of Literary and Art Circles, May
-        1978, in *Chunfeng huayu ji* 《春風化雨集》, vol. 1 (Qunzhong chubanshe, 1981), 196–204 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 627 n.107). Names: Jiang Qing. Check: the day
-        (after the reception of Feb. 21, by the page''s order).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 627. To check: Sun Futian 孫福田, speech to the enlarged plenary of the China Federation of Literary and Art Circles, May 1978, in *Chunfeng
+        huayu ji* 《春風化雨集》, vol. 1 (Qunzhong chubanshe, 1981), 196–204 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 627 n.107). Names: Jiang Qing. Check: the day (after the reception
+        of Feb. 21, by the page''s order).'
       src:
         c: ecf04c24
         rows:
@@ -716,7 +762,6 @@ ops:
         - 'via w.yang-jisheng-tiandi-fanfu II, 627 n.107: all'
       tags:
       - polity:prc
-      - vis:only:prc
       - name:jiang-qing
 - add:
     entry:
@@ -896,12 +941,11 @@ ops:
       when: Aug.
       date: 1966-08
       thread: china-leadership
-      c: In the "Red August" Yu Luoke 遇羅克's diary is seized and shown as a "record of hopes of revenge" at the Capital Red Guards' Revolutionary Rebel Exhibition 首都紅衛兵革命造反展覽會; he is
-        taken into a "study class."
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 639–641. To check: Wang Chen 王晨 and Zhang Tianlai 張天來, 〈劃破夜幕的隕星〉, in [[w.lishi-zai-zheli-chensi]], III, 253–282 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        II, 641 n.24).'
+      c: In the "Red August" Yu Luoke 遇羅克's diary is seized; he is taken into a "study class."
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 639–641 (the diary later shown at the Capital Red Guards'' Revolutionary Rebel Exhibition 首都紅衛兵革命造反展覽會 as a "record of hopes of revenge").
+        To check: Wang Chen 王晨 and Zhang Tianlai 張天來, 〈劃破夜幕的隕星〉, in [[w.lishi-zai-zheli-chensi]], III, 253–282 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 641 n.24).'
       src:
-        c: 8ac9cd7c
+        c: f28af5b8
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 639–641: all'
         - 'via w.yang-jisheng-tiandi-fanfu II, 641 n.24: all'
@@ -945,8 +989,8 @@ ops:
 - add:
     entry:
       id: cal.1967-12.china-leadership-7
-      when: 1967, end
-      date: '1967'
+      when: Dec., late
+      date: 1967-12
       thread: china-leadership
       c: Yu Luoke 遇羅克 writes his "Summary of 1967" and a reading plan for 1968 (104 books).
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 641. Made public: 1986. To check: Wang Chen 王晨 and Zhang Tianlai 張天來, 〈劃破夜幕的隕星〉, in [[w.lishi-zai-zheli-chensi]], III, 253–282 (cited by
@@ -959,7 +1003,7 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
-      - ok:fields-at
+      at: before 1967-12-21
 - add:
     entry:
       id: cal.1968-01.china-leadership-9
@@ -1327,15 +1371,15 @@ ops:
       - polity:prc
 - add:
     entry:
-      id: cal.1967-03-16.china-leadership-7
+      id: cal.1968-03-16.china-leadership-3
       when: Mar. 16
-      date: '1967-03-16'
+      date: '1968-03-16'
       thread: china-leadership
-      c: Chen Yaoting 陳耀庭 is sentenced to death; shot four days later.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 649. To check: [[w.youqin-wenge-shounanzhe]], 46 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 649 n.34). Check: the year (the page prints
-        1967 for the sentence, after his arrest of Dec. 1967).'
+      c: Chen Yaoting 陳耀庭, teacher at the Gannan 贛南 medical college, Jiangxi, is sentenced to death.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 649. To check: [[w.youqin-wenge-shounanzhe]], 46 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 649 n.34). Check: the year: the page prints
+        "1967 年 3 月 16 日" for the sentence, after his arrest of December 1967 and his wife''s of February 1968; 1968 by the page''s own order.'
       src:
-        c: 69774bd4
+        c: 6c68f044
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 649: all'
       tags:
@@ -1364,8 +1408,8 @@ ops:
       thread: china-leadership
       c: 'On Mao''s birthday Shi Renxiang 石仁祥 sends his "Letter to the Center: a report on the question of Lin Biao 林彪" (28 crimes; "Lin Biao waves the red flag against the red flag"),
         signed "revolutionary fighter Shi Renxiang," to the Center, to Mao Zedong 毛澤東, to Zhou Enlai 周恩來, to the Jinan and Nanjing Military Regions and to his old unit.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 649–650. Made public: 2001. To check: [[w.xichen-shi-wuqianliede-niandai]], the 2006 ed. as Yang cites it, 253–255 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        II, 650 n.35). Names: Lin Biao, Mao Zedong, Zhou Enlai.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 649–650. Made public: 2006 (the edition Yang cites; the first edition of 2001 not seen). To check: [[w.xichen-shi-wuqianliede-niandai]],
+        the 2006 ed. as Yang cites it, 253–255 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 650 n.35). Names: Lin Biao, Mao Zedong, Zhou Enlai.'
       src:
         c: 3eaa2cd4
         rows:
@@ -1386,8 +1430,8 @@ ops:
       c: 'The security department of the Nanjing air force 南京空軍保衛部 sends two officers to Anhui 安徽 to relay to the provincial revolutionary committee and its people''s security group
         Wu Faxian 吳法憲''s oral instruction on Shi Renxiang''s letter: "a most criminal active counter-revolutionary"; to be broken at once and punished, the letter''s spread checked and
         its poison cleared.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 650. Made public: 2001. To check: [[w.xichen-shi-wuqianliede-niandai]], the 2006 ed. as Yang cites it, 253–255 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        II, 650 n.35). Names: Wu Faxian.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 650. Made public: 2006 (the edition Yang cites; the first edition of 2001 not seen). To check: [[w.xichen-shi-wuqianliede-niandai]], the
+        2006 ed. as Yang cites it, 253–255 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 650 n.35). Names: Wu Faxian.'
       src:
         c: bd85d86a
         rows:
@@ -1408,16 +1452,15 @@ ops:
       time_band: afternoon
       time_zone: Asia/Shanghai
       thread: china-leadership
-      c: Shi Renxiang 石仁祥 is arrested, in the afternoon; in prison he writes "Down with Lin Biao" on the wall.
+      c: Shi Renxiang 石仁祥 is arrested, in the afternoon.
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 650. The words: 1 月 8 日下午 (II, 650). To check: [[w.xichen-shi-wuqianliede-niandai]], the 2006 ed. as Yang cites it, 253–255 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        II, 650 n.35). Names: Lin Biao.'
+        II, 650 n.35).'
       src:
-        c: 7f8d9f86
+        c: 740ba51e
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 650: all'
       tags:
       - polity:prc
-      - name:lin-biao
 - add:
     entry:
       id: cal.1968.china-leadership-75
@@ -1542,7 +1585,7 @@ ops:
 - add:
     entry:
       id: cal.1968-06-10.china-leadership-2
-      when: June 10
+      when: June 10–11
       date: '1968-06-10'
       place: suxian
       thread: china-leadership
@@ -1711,37 +1754,17 @@ ops:
       date: '1966-08-29'
       place: changping
       thread: china-leadership
-      c: Heishanzhai commune. With the security man's approval the Xinzhuang brigade 辛莊大隊 kills nine;
+      c: Heishanzhai commune. With the security man's approval the Xinzhuang brigade 辛莊大隊 kills nine.
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 663–664. To check: Sun Yancheng 孫言誠, 〈「血統論」和大興「八三一事件」〉, *Yanhuang chunqiu* 《炎黃春秋》, 2012, no. 2 (cited by [[w.yang-jisheng-tiandi-fanfu]],
         II, 663 n.2a); Yu Luowen 遇羅文, 〈北京大興文革屠殺調查〉 (web, May 4, 2010) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 663 n.2b).'
       src:
-        c: a6c62f76
+        c: 8eca1b38
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 663–664: all'
         - 'via w.yang-jisheng-tiandi-fanfu II, 663 n.2a: all'
         - 'via w.yang-jisheng-tiandi-fanfu II, 663 n.2b: all'
       tags:
       - polity:prc
-- add:
-    entry:
-      id: cal.1966-08-26.china-leadership-13
-      when: Aug. 26
-      date: '1966-08-26'
-      place: daxing
-      thread: china-leadership
-      c: Daxing county 大興縣. The county's public security bureau, at a meeting of its heads, on the spirit of Xie Fuzhi 謝富治's speech and the city bureau's order to "support and protect
-        the Red Guards," puts Zhang, deputy head of its security section, in charge of liaison with the Red Guards.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 664. Made public: 2010. To check: Sun Yancheng 孫言誠, 〈「血統論」和大興「八三一事件」〉, *Yanhuang chunqiu* 《炎黃春秋》, 2012, no. 2 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        II, 663 n.2a); Yu Luowen 遇羅文, 〈北京大興文革屠殺調查〉 (web, May 4, 2010) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 663 n.2b). Names: Xie Fuzhi. Check: the day (before Zhang''s meeting
-        of the afternoon of Aug. 26, by the page''s order).'
-      src:
-        c: 4c8a1da1
-        rows:
-        - 'w.yang-jisheng-tiandi-fanfu II, 664: all'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:xie-fuzhi
 - add:
     entry:
       id: cal.1966-08-26.china-leadership-14
@@ -1909,15 +1932,15 @@ ops:
     at: II, 664
 - add:
     entry:
-      id: cal.1966-08.china-leadership-47
-      when: Aug., the night of the order
-      date: 1966-08
+      id: cal.1966-08-31.china-leadership-10
+      when: Aug. 31
+      date: '1966-08-31'
       thread: china-leadership
       c: Xibaituan brigade 西白疃大隊, Daxinzhuang commune. Its secretary Li Shuqing 李樹清, back from the nine-man group's meeting ordering the landlords and rich peasants and their kin killed
         that night, calls the brigade's and teams' cadres; the team head Zhang Wanyi 張萬義 opposes the killing, and no one kills.
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 666. To check: Sun Yancheng 孫言誠, 〈「血統論」和大興「八三一事件」〉, *Yanhuang chunqiu* 《炎黃春秋》, 2012, no. 2 (cited by [[w.yang-jisheng-tiandi-fanfu]], II,
-        663 n.2a); Yu Luowen 遇羅文, 〈北京大興文革屠殺調查〉 (web, May 4, 2010) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 663 n.2b). Check: the day (the night of the nine-man group''s order,
-        Aug. 31 by the page''s account of the commune).'
+        663 n.2a); Yu Luowen 遇羅文, 〈北京大興文革屠殺調查〉 (web, May 4, 2010) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 663 n.2b). See [[cal.1966-08-31.china-leadership-5]]. Check: the day
+        (the page: the night the nine-man group ordered the killing; the commune''s killing that night, Aug. 31, II, 665).'
       src:
         c: a1f14bac
         rows:
@@ -1925,7 +1948,7 @@ ops:
       tags:
       - polity:prc
       - ok:fields-time
-      - ok:fields-at
+      place: daxing
 - add:
     entry:
       id: cal.1966-08-27.china-leadership-14
@@ -1933,12 +1956,12 @@ ops:
       date: '1966-08-27'
       place: daxing
       thread: china-leadership
-      c: 'Beizang commune 北臧公社, Daxing county. The killing begins, before Daxinzhuang''s: Xinli village 新立村 kills 53, Macun 34, Liuhezhuang 六合莊 11, 98 in all, in a courtyard at the west
-        end of the main street.'
+      c: 'Beizang commune 北臧公社, Daxing county. The killing begins, before Daxinzhuang''s, in a courtyard at the west end of the main street; in all three brigades kill 98: Xinli village
+        新立村 53, Macun 34, Liuhezhuang 六合莊 11.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 665–666. To check: Sun Yancheng 孫言誠, 〈「血統論」和大興「八三一事件」〉, *Yanhuang chunqiu* 《炎黃春秋》, 2012, no. 2 (cited by [[w.yang-jisheng-tiandi-fanfu]],
         II, 663 n.2a); Yu Luowen 遇羅文, 〈北京大興文革屠殺調查〉 (web, May 4, 2010) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 663 n.2b).'
       src:
-        c: 38d93a9e
+        c: 8528cb76
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 665–666: all'
       tags:
@@ -2073,9 +2096,8 @@ ops:
       thread: china-leadership
       c: 'Daoxian 道縣. Before the massacre the county holds three meetings; its committee''s leaders: at the least stir kill all the "four categories," so that Chiang Kai-shek''s men
         find no guide.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 669. Made public: Tan Hecheng, *Xue de shenhua* (Tiandi tushu, Hong Kong; the year not given). To check: Tan Hecheng 譚合成, *Xue de shenhua:
-        gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1). Check: the days
-        of the three meetings.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 669. Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967
+        nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1). Check: the days of the three meetings.'
       src:
         c: 1022534e
         rows:
@@ -2125,11 +2147,11 @@ ops:
       place: daoxian
       thread: china-leadership
       c: 'The Wutian brigade''s militia battalion head Zhu Baosheng 朱報生 telephones the commune secretary Xiong Liheng 熊禮衡: the list of those to be killed is drawn up. Xiong reads two
-        of Mao''s quotations: "I do not decide whom you kill, but mind policy and tactics; keep the children apart from the elements."'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 669. Made public: Tan Hecheng, *Xue de shenhua* (Tiandi tushu, Hong Kong; the year not given). To check: Tan Hecheng 譚合成, *Xue de shenhua:
-        gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1). Names: Mao Zedong.'
+        of Mao''s quotations, then: "I do not decide whom you kill, but mind policy and tactics; keep the children apart from the elements."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 669. Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967
+        nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1). Names: Mao Zedong.'
       src:
-        c: 7d09a89a
+        c: e84b9cb8
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 669: all'
       tags:
@@ -2144,8 +2166,8 @@ ops:
       place: daoxian
       thread: china-leadership
       c: 'Wutian brigade. Zhu Baosheng 朱報生 calls an eleven-man meeting of militia and cadres: five of the children spared, one, Zhu Niuren 朱牛仁, to be killed; six in all.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 669. Made public: Tan Hecheng, *Xue de shenhua* (Tiandi tushu, Hong Kong; the year not given). To check: Tan Hecheng 譚合成, *Xue de shenhua:
-        gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 669. Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967
+        nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
       src:
         c: dc9dea53
         rows:
@@ -2181,8 +2203,8 @@ ops:
       c: 'Meihua brigade 梅花大隊, Meihua commune 梅花公社, Daoxian. At the meeting deciding the last killings the security head He Guoqing 何國慶, the Cultural Revolution head He Tao''an 何桃安 and
         the cadre Wu Dexue 吳德學 name the poor peasant Wen Shangyi 文尚易, who criticized Wu in the four clean-ups, and his son Wen Shoufu 文守福, and add the rich peasant Mo Desheng 莫德生; asked
         by He Tao''an, the commune''s Liao Longguo 廖隆國: "poor peasants are no red safe; those who should be killed must be killed."'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 670. Made public: Tan Hecheng, *Xue de shenhua* (Tiandi tushu, Hong Kong; the year not given). To check: Tan Hecheng 譚合成, *Xue de shenhua:
-        gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 670. Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967
+        nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
       src:
         c: 91f621c6
         rows:
@@ -2216,8 +2238,8 @@ ops:
       thread: china-leadership
       c: 'Xiaojia brigade 小甲大隊, seat of Xiaojia commune 小甲公社, Daoxian. Its meeting on carrying out the commune''s "killing meeting" divides: a pig needs a chit from above, killing men
         a document; with the "four categories" killed, who will do the work no one wants?'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 670. Made public: Tan Hecheng, *Xue de shenhua* (Tiandi tushu, Hong Kong; the year not given). To check: Tan Hecheng 譚合成, *Xue de shenhua:
-        gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 670. Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967
+        nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
       src:
         c: 8dcb0ab7
         rows:
@@ -2234,8 +2256,8 @@ ops:
       thread: china-leadership
       c: 'Xiaojia commune telephones the Xiaojia brigade''s security head to hurry the killing; another meeting of the brigade fails to agree: "if the commune wants to kill, let it kill;
         we will not."'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 670. Made public: Tan Hecheng, *Xue de shenhua* (Tiandi tushu, Hong Kong; the year not given). To check: Tan Hecheng 譚合成, *Xue de shenhua:
-        gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 670. Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967
+        nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
       src:
         c: 495fcb6d
         rows:
@@ -2317,12 +2339,11 @@ ops:
       place: daoxian
       thread: china-leadership
       c: Shangguan district 上關區, Daoxian. The district's armed department head Liu Houshan 劉厚善 and others accuse Liang Xianlian 梁先蓮, 19, of a landlord–rich peasant family, of joining
-        the "reactionary" Revolutionary Alliance 革聯 and taking orders at the No. 2 Middle School, and have her questioned by the district's militia; the district hands her to the Dongyang
-        brigade 東陽大隊, whose "poor and lower-middle peasants' supreme court" sentences her to death.
+        the "reactionary" Revolutionary Alliance 革聯 and taking orders at the No. 2 Middle School, and have her questioned by the district's militia.
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 672. To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu,
         Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
       src:
-        c: 20852f55
+        c: d169bc1e
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 672: all'
       tags:
@@ -2392,8 +2413,8 @@ ops:
       thread: china-leadership
       c: 'Youxiang commune 油湘公社, Daoxian. At the commune''s meeting its leaders say the commune lags in "grasping class struggle": the Yuejin brigade 躍進大隊 of its Party secretary He Fangqian
         何芳乾 has killed only two.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 673. Made public: Tan Hecheng, *Xue de shenhua* (Tiandi tushu, Hong Kong; the year not given). To check: Tan Hecheng 譚合成, *Xue de shenhua:
-        gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 673. Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967
+        nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
       src:
         c: 33b6d45e
         rows:
@@ -2414,9 +2435,8 @@ ops:
       time_zone: Asia/Shanghai
       thread: china-leadership
       c: Yuejin brigade, evening. He Fangqian 何芳乾's meeting of cadres, Party and League members and activists decides to kill all 61 of the "four categories" and their children.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 673. The words: 回來當晚 (II, 673). Made public: Tan Hecheng, *Xue de shenhua* (Tiandi tushu, Hong Kong; the year not given). To check: Tan
-        Hecheng 譚合成, *Xue de shenhua: gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II,
-        667 n.t1).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 673. The words: 回來當晚 (II, 673). Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成,
+        *Xue de shenhua: gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
       src:
         c: 39b51013
         rows:
@@ -2454,8 +2474,8 @@ ops:
       thread: china-leadership
       c: The Hunan revolutionary preparatory group 湖南省革籌 and the 47th Army 47軍, supporting the left, telephone the Lingling military sub-district 零陵軍分區 and the Daoxian armed department
         again and again about the killings.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 674. Made public: Tan Hecheng, *Xue de shenhua* (Tiandi tushu, Hong Kong; the year not given). To check: Tan Hecheng 譚合成, *Xue de shenhua:
-        gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 674. Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967
+        nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
       src:
         c: 733795e8
         rows:
@@ -2473,8 +2493,8 @@ ops:
       thread: china-leadership
       c: 'Yingjiang 營江, Daoxian, the Red Alliance 紅聯 command. Its three-day "political and legal cadres'' meeting" opens (to Aug. 28) to discuss stopping the killing, and becomes a meeting
         to rouse it: the poor peasants'' acts "very good," "a make-up lesson of the democratic revolution"; "no killing at random," but "one or two of the worst may be killed."'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 669, 674. Made public: Tan Hecheng, *Xue de shenhua* (Tiandi tushu, Hong Kong; the year not given). To check: Tan Hecheng 譚合成, *Xue de
-        shenhua: gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 669, 674. Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan
+        1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
       src:
         c: b603cfd2
         rows:
@@ -2485,7 +2505,7 @@ ops:
 - add:
     entry:
       id: cal.1967-08-28.china-leadership-8
-      when: Aug. 28
+      when: Aug. 28–Sept. 1
       date: '1967-08-28'
       place: daoxian
       thread: china-leadership
@@ -2878,13 +2898,13 @@ ops:
       when: June 15
       date: '1968-06-15'
       thread: china-leadership
-      c: 'Wuxuan county 武宣縣, Guangxi. From June 15 to the end of August the "Rebel Army" 造反大軍 and the cadres and people of its view: the hearts, livers and flesh of 75 eaten, as the
-        *Guangxi wenge dashiji* records for 1968.'
+      c: Wuxuan county 武宣縣, Guangxi. From June 15 to the end of August the hearts, livers and flesh of 75 of the "Rebel Army" 造反大軍 and the cadres and people of its view are eaten, by
+        the *Guangxi wenge dashiji*'s record for 1968.
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 677. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 677 n.17); the Central Discipline Commission
         and Organization Department''s Guangxi investigation group, report on the mass deaths in Guangxi, annex 1, July 15, 1981 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 677 n.17).
         Check: the span (June 15 to the end of August, 1968, as the page gives it, from the 1981 report).'
       src:
-        c: 9471d93c
+        c: 5a724a7c
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 677: all'
         - 'via w.yang-jisheng-tiandi-fanfu II, 677 n.17: all'
@@ -2960,7 +2980,7 @@ ops:
       id: cal.1968-12.china-leadership-7
       when: Dec., early
       date: 1968-12
-      at: before 1968-12-11
+      at: before 1968-12-01
       thread: china-leadership
       c: 'The Yunnan revolutionary committee 雲南省革委會, "to propagate Mao Zedong Thought," sends an army propaganda team, a reinforced battalion, to Shadian 沙甸, the Hui village of 7,200,
         where the "Cannon faction" men of nearby cities and counties have taken refuge: "to poke the hornets'' nest."'
@@ -2973,6 +2993,7 @@ ops:
       tags:
       - polity:prc
       - vis:only:prc
+      - ok:fields-place
 - add:
     entry:
       id: cal.1968-12-08.china-leadership
@@ -3181,7 +3202,8 @@ ops:
     - 'via w.yang-jisheng-tiandi-fanfu II, 688 n.1: ?'
 - cite:
     id: cal.1966-08-12.china-leadership
-    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 688 (Mao: "a Ninth Congress now, probably at a fit time next year")'
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 688, 1144 (Mao: "a Ninth Congress now, probably at a fit time next year"; Lin Biao from sixth to second in the Standing Committee, Liu
+      Shaoqi from second to eighth)'
 - cite:
     id: cal.1967-10-21.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 688'
@@ -3245,12 +3267,6 @@ ops:
 - cite:
     id: cal.1967-07.china-leadership-2
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 693–694 (over 7,000 tents, 500 loudspeakers, 3,000 flags around Zhongnanhai, as it was said)'
-- cite:
-    id: cal.1964-08.china-leadership-5
-    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 695 (Mao, on a bulletin of academic news: "white paper, black characters, iron proof; the Loyal King not loyal to the end, no model")'
-- to-check:
-    id: cal.1964-08.china-leadership-5
-    add: Qi Benyu 戚本禹, 〈回憶江青同志〉, *Hongse cankao* 《紅色參考》, July 29, 2015 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 695 n.12)
 - cite:
     id: cal.1966-05-21.china-leadership-2
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 695, 697 (on keeping one''s integrity in later years: Qu Qiubai a traitor, Li Xiucheng a traitor; he proposes moving Qu out of Babaoshan
@@ -3415,25 +3431,6 @@ ops:
       - polity:prc
 - add:
     entry:
-      id: cal.1967-08.china-leadership-41
-      when: Aug., before the 15th
-      date: 1967-08
-      at: before 1967-08-15
-      thread: china-leadership
-      c: 'Mao Zedong 毛澤東 on the draft of "The socialist road or the capitalist road?": "well written, but in places only condemnation, no quotation, not enough to persuade; please think
-        again."'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 691. Made public: 1998. To check: [[w.zedong-jianguo-yilai-mao-zedong]], XII, 397 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 691 n.8).
-        Names: Mao Zedong. Check: the day (before the article of Aug. 15).'
-      src:
-        c: 538d8e73
-        rows:
-        - 'w.yang-jisheng-tiandi-fanfu II, 691: all'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:mao-zedong
-- add:
-    entry:
       id: cal.1967-08-15.china-leadership-4
       when: Aug. 15
       date: '1967-08-15'
@@ -3466,21 +3463,25 @@ ops:
       - name:yao-wenyuan
 - add:
     entry:
-      id: cal.1966-12.china-leadership-21
-      when: Dec., an evening
-      date: 1966-12
+      id: cal.1966-12-24.china-leadership-5
+      when: Dec. 24
+      date: '1966-12-24'
       place: peking
       thread: china-leadership
-      c: 'Thousands of the Jinggangshan Corps rally on Fuyou Street 府右街 by Zhongnanhai 中南海: "Wang Guangmei, back to Tsinghua, make self-criticism!"'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 692. Check: the day (December, "one evening," over ten days before Jan. 6).'
+      c: 'Peking, Fuyou Street 府右街 by Zhongnanhai 中南海, evening. Thousands of the Tsinghua Jinggangshan Corps rally: "Wang Guangmei, back to Tsinghua, make self-criticism!"'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 692. The words: 12 月的一天晚上 (II, 692). See [[cal.1966-12-24.china-leadership]]. Check: the day: the page gives "one evening" in December,
+        over ten days before Jan. 6, 1967; Dec. 24 by the march Zhou Enlai is told of before dawn that day.'
       src:
-        c: eb0c6a3f
+        c: c0209fed
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 692: all'
       tags:
       - polity:prc
-      - ok:fields-at
-      - ok:fields-time
+      time_range:
+      - 1966-12-24T11:00Z
+      - 1966-12-24T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
 - add:
     entry:
       id: cal.1967-01-06.china-leadership-15
@@ -3832,7 +3833,7 @@ ops:
       - name:chen-yi
       - name:mao-zedong
       - ok:fields-at
-      - ok:fields-place
+      place: peking
 - add:
     entry:
       id: cal.1968.china-leadership-79
@@ -3875,16 +3876,10 @@ ops:
 - cite:
     id: cal.1969-03-03.china-leadership-2
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 714 (the congress for Mar. 15, about ten days; no Cultural Revolution Group after it: "use the Standing Committee")'
-- to-check:
-    id: cal.1969-03-03.china-leadership-2
-    add: '[[w.zedong-mao-zedong-nianpu]], VI, 231 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 714 n.1)'
 - cite:
     id: cal.1969-03-22.china-leadership-2
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 714 (Chen Yi, Li Fuchun, Li Xiannian, Xu Xiangqian and Nie Rongzhen called from the factories; the "February adverse current" out of the
       report; Apr. 1, three items on the agenda)'
-- to-check:
-    id: cal.1969-03-22.china-leadership-2
-    add: '[[w.zedong-mao-zedong-nianpu]], VI, 237 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 714 n.2)'
 - cite:
     id: cal.1969-04-01.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 714–715 (Apr. 1 to 24; at the meeting of Apr. 1 no one enters by the Great Hall''s main door)'
@@ -3897,18 +3892,11 @@ ops:
       by Feb. 20, the congress Mar. 15)'
 - cite:
     id: cal.1969-03-12.china-leadership
-    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 720 (Mao''s words in the talks of Mar. 12 and 15, as quoted: "the two to write each its own"; "a month for Chen Boda, half a month for
-      you; then open the congress on Apr. 1")'
-- to-check:
-    id: cal.1969-03-12.china-leadership
-    add: Mao Zedong, talks with the liaison meeting, Mar. 12 and 15, 1969, as quoted in [[w.xianzhi-mao-zedong-zhuan-1949]], 1538–1539 (cited by [[w.yang-jisheng-tiandi-fanfu]], II,
-      720 n.8)
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 720 (Mao, with no draft from Chen Boda, proposes others: "would you three, Kang, Zhang and Yao"; "the two to write each its own"; the
+      report to set out the struggle of the proletariat and the bourgeoisie)'
 - cite:
     id: cal.1969-03-31.china-leadership-3
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 720, 722 (the draft of Zhang Chunqiao and Yao Wenyuan finished Mar. 31)'
-- to-check:
-    id: cal.1969-03-31.china-leadership-3
-    add: '[[w.zedong-jianguo-yilai-mao-zedong]], XIII, 11–18 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 722 n.15)'
 - to-check:
     id: cal.1969-03-31.china-leadership-3
     add: '[[w.yunsheng-maojiawan-jishi]], 213–215 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 722 n.16)'
@@ -3927,19 +3915,6 @@ ops:
     id: cal.1969-04-24.china-leadership-3
     add: Chi Zehou 遲澤厚, 〈中共「九大」內幕瑣憶〉, *Yanhuang chunqiu* 《炎黃春秋》, 2003, no. 3 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 725 n.26)
 - cite:
-    id: cal.1969-04-26.china-leadership
-    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 728 (afternoon, Mao on the list: a cross through Jiang Qing''s name, Ye Qun''s added, a line under Wang Xiaoyu''s and Ye Jianying''s;
-      the three-man group that evening on Jiang Qing and Ye Qun)'
-- to-check:
-    id: cal.1969-04-26.china-leadership
-    add: '*Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 650 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 728 n.32)'
-- cite:
-    id: cal.1969-04-27.china-leadership
-    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 729 (10 a.m., the three-man group to Mao: Jiang Qing must be on the list; Mao: "if you want her, have her; the blame is mine")'
-- to-check:
-    id: cal.1969-04-27.china-leadership
-    add: '*Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 650–651 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 728 n.33)'
-- cite:
     id: cal.1969-04-28.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 726 (Mao chairman, Lin Biao sole vice-chairman; the Standing Committee Mao, Lin, Chen Boda, Zhou Enlai, Kang Sheng; the Politburo''s 21
       named)'
@@ -3952,9 +3927,6 @@ ops:
 - cite:
     id: cal.1969-09-12.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 727 n.27'
-- to-check:
-    id: cal.1969-09-12.china-leadership
-    add: '[[w.macfarquhar-maos-last-revolution]], Chinese ed. (2009), 300 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 727 n.27)'
 - cite:
     id: cal.1969-09-11.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 736 (the airport''s VIP room, a long talk)'
@@ -3974,30 +3946,6 @@ ops:
 - cite:
     id: cal.1969-10-19.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 738 (at Wuchang: "burn it!"; Mao strikes the match himself; Wang Dongxing keeps the envelope)'
-- to-check:
-    id: cal.1969-10-19.china-leadership
-    add: '[[w.dongxing-mao-zedong-yu-lin]], 14–15 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 738 n.65)'
-- add:
-    entry:
-      id: cal.1969-02-01.china-leadership-3
-      when: Feb. 1
-      date: '1969-02-01'
-      thread: china-leadership
-      c: The Center's liaison meeting. Mao Zedong 毛澤東 names Chen Boda 陳伯達 to draft the Ninth Congress's political report, Zhang Chunqiao 張春橋 and Yao Wenyuan 姚文元 with him.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 719. Made public: 2014. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu,
-        Hong Kong, 2014), 137 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 719 n.6). Names: Mao Zedong, Chen Boda, Zhang Chunqiao, Yao Wenyuan.'
-      src:
-        c: 1cd5d394
-        rows:
-        - 'w.yang-jisheng-tiandi-fanfu II, 719: all'
-        - 'via w.yang-jisheng-tiandi-fanfu II, 719 n.6: all'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:mao-zedong
-      - name:chen-boda
-      - name:zhang-chunqiao
-      - name:yao-wenyuan
 - add:
     entry:
       id: cal.1969-02-01.china-leadership-4
@@ -4007,7 +3955,7 @@ ops:
       c: 'Chen Boda 陳伯達, the same day, to his secretaries Wang Wenyao 王文耀 and Wang Baochun 王保春: the movement cannot go on; the main task now is production, a great leap after the great
         political revolution; he has them gather material on economic building.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 719. Made public: 2014. To check: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu,
-        Hong Kong, 2014), 137 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 719 n.6). Names: Chen Boda.'
+        Hong Kong, 2014), 137 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 719 n.6). See [[cal.1969-02-01.china-leadership-2]]. Names: Chen Boda.'
       src:
         c: 6ca41575
         rows:
@@ -4303,11 +4251,11 @@ ops:
       date: '1968'
       at: before 1968-09-22
       thread: china-leadership
-      c: 'Jiang Qing 江青 blocks Huang Yongsheng 黃永勝''s going to Albania: "the Kuomintang made a Party-state, you make an army-state ... warlords."'
+      c: 'Jiang Qing 江青 tries to stop Huang Yongsheng 黃永勝 going to Albania: "the Kuomintang made a Party-state, you make an army-state ... warlords."'
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 732. Made public: 2011. To check: *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (2011), 642–643 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 732 n.40).
         Names: Jiang Qing, Huang Yongsheng. Check: the season (after the Center''s decision, by the page).'
       src:
-        c: 249b3052
+        c: b52a0277
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 732: all'
         - 'via w.yang-jisheng-tiandi-fanfu II, 732 n.40: all'
@@ -4317,25 +4265,6 @@ ops:
       - name:jiang-qing
       - name:huang-yongsheng
       - ok:fields-place
-- add:
-    entry:
-      id: cal.1969-03-13.china-leadership
-      when: Mar. 13
-      date: '1969-03-13'
-      thread: china-leadership
-      c: 'Mao Zedong 毛澤東, no draft of the report yet from Chen Boda 陳伯達, proposes others: "would you three, Kang, Zhang and Yao"; the report to set out the struggle of the proletariat
-        and the bourgeoisie.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 720. Made public: 2003. To check: Mao Zedong, talks with the liaison meeting, Mar. 12 and 15, 1969, as quoted in [[w.xianzhi-mao-zedong-zhuan-1949]],
-        1538–1539 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 720 n.8). Names: Mao Zedong, Chen Boda.'
-      src:
-        c: d9136d88
-        rows:
-        - 'w.yang-jisheng-tiandi-fanfu II, 720: all'
-      tags:
-      - polity:prc
-      - vis:only:prc
-      - name:mao-zedong
-      - name:chen-boda
 - add:
     entry:
       id: cal.1969-03-16.china-leadership-3
@@ -4392,7 +4321,7 @@ ops:
       - name:lin-biao
       - name:huang-yongsheng
       - name:wu-faxian
-      - ok:fields-place
+      place: zhangjiakou
 - add:
     entry:
       id: cal.1969-10.china-leadership-8
@@ -4436,12 +4365,6 @@ ops:
     id: cal.1969-10-17.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 738 (the decision taken that day by Zhou and the Politburo on Mao''s and the Center''s judgment, the old comrades to leave on Oct. 20
       or soon after; Zhou names each one''s place)'
-- to-check:
-    id: cal.1969-10-17.china-leadership
-    add: '[[w.zhou-enlai-nianpu-1949]], III, 329 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 738 n.67)'
-- to-check:
-    id: cal.1969-10-17.china-leadership
-    add: '[[w.zedong-mao-zedong-nianpu]], VI, 270–271 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 738 n.66)'
 - cite:
     id: cal.1961-09-24.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 717 (Mao to Montgomery: "if Marx does not invite me, I will be that honorary chairman")'
@@ -4455,9 +4378,6 @@ ops:
     id: cal.1966-03-20.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1087 ("an empty monarch republic is better at the Center": it to handle only the great policies and plans; the handing down of enterprises
       put off by the Cultural Revolution)'
-- to-check:
-    id: cal.1966-03-20.china-leadership
-    add: '[[w.zedong-mao-zedong-nianpu]], V, 569 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1087 n.43)'
 - cite:
     id: cal.1969-02-16.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1087 (it discusses the "preliminary ideas of the central ministries on handing down the management of enterprises," leaning to the regions)'
@@ -4625,8 +4545,8 @@ ops:
       also:
       - indonesia
       c: Peking. The Indonesian embassy is sacked.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1095. To check: Yang Rongjia 楊榮甲, *Gongheguo waijiaobu mixin* 《共和國外交部秘辛》 (Dashan wenhua chubanshe, Hong Kong, 2011), 139–142 (cited by
-        [[w.yang-jisheng-tiandi-fanfu]], II, 1095 n.14).'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1095–1096. The words: 8 月 6 日下午 (II, 1096). To check: Yang Rongjia 楊榮甲, *Gongheguo waijiaobu mixin* 《共和國外交部秘辛》 (Dashan wenhua chubanshe,
+        Hong Kong, 2011), 139–142 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1095 n.14).'
       src:
         c: 3f829c58
         rows:
@@ -4634,6 +4554,11 @@ ops:
       tags:
       - polity:prc
       - polity:indonesia
+      time_range:
+      - 1967-08-06T04:00Z
+      - 1967-08-06T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
 - add:
     entry:
       id: cal.1967-06.china
@@ -4650,23 +4575,6 @@ ops:
       - polity:prc
       - polity:burma
       - ok:fields-place
-- add:
-    entry:
-      id: cal.1967-04-04.indonesia
-      when: Apr. 4
-      date: '1967-04-04'
-      thread: indonesia
-      also:
-      - china
-      c: Indonesia declares Yao Dengshan 姚登山, China's chargé d'affaires, and Xu Ren 徐仁, its consul general, personae non gratae.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1096.'
-      src:
-        c: 45f4ba80
-        rows:
-        - 'w.yang-jisheng-tiandi-fanfu II, 1096: all'
-      tags:
-      - polity:prc
-      - polity:indonesia
 - add:
     entry:
       id: cal.1967-05-20.china
@@ -4730,7 +4638,7 @@ ops:
       thread: china
       c: Zhou Enlai 周恩來 approves the Shenzhen plan.
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1097. Made public: 2011. To check: Yang Rongjia 楊榮甲, *Gongheguo waijiaobu mixin* 《共和國外交部秘辛》 (Dashan wenhua chubanshe, Hong Kong, 2011),
-        143 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1097 n.16). Names: Zhou Enlai. Check: the day (before the Chairman''s word of July 9, by the page''s order).'
+        143 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1097 n.16). Names: Zhou Enlai. Check: the day (before the shooting at Sha Tau Kok, by the page''s order).'
       src:
         c: 2b6a269c
         rows:
@@ -4743,17 +4651,18 @@ ops:
       - ok:fields-place
 - add:
     entry:
-      id: cal.1967-07.china-3
-      when: July
-      date: 1967-07
+      id: cal.1967-07-08.china
+      when: July 8
+      date: '1967-07-08'
       place: hong-kong
       thread: china
-      c: 'Shatoujiao 沙頭角. Militia sent from the Chinese side cross into Hong Kong; the Hong Kong police seal the place by fire and the Chinese side uses the PLA''s fire: 2 Chinese and
+      c: 'Sha Tau Kok 沙頭角. Militia sent from the Chinese side cross into Hong Kong; the Hong Kong police seal the place by fire and the Chinese side uses the PLA''s fire: 2 Chinese and
         5 of the Hong Kong side killed.'
       n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1097. To check: Yang Rongjia 楊榮甲, *Gongheguo waijiaobu mixin* 《共和國外交部秘辛》 (Dashan wenhua chubanshe, Hong Kong, 2011), 143 (cited by [[w.yang-jisheng-tiandi-fanfu]],
-        II, 1097 n.16).'
+        II, 1097 n.16). Check: the day: the page gives July 1967, after Zhou Enlai''s approval of the Shenzhen plan; the Foreign Ministry''s note of July 9 protests a shooting at Sha
+        Tau Kok on the 8th.'
       src:
-        c: f359747f
+        c: ccbf96db
         rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 1097: all'
         - 'via w.yang-jisheng-tiandi-fanfu II, 1097 n.16: all'
@@ -4785,21 +4694,6 @@ ops:
 - to-check:
     id: cal.1967-07-10.china-leadership
     add: Yu Ruxin 餘汝信, *Xianggang, 1967* 《香港，1967》 (2012), 197 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1097 n.17)
-- add:
-    entry:
-      id: cal.1967-08.china
-      when: Aug.
-      date: 1967-08
-      place: hong-kong
-      thread: china
-      c: Hong Kong. The British authorities order three left-wing papers closed and arrest journalists and staff.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1097.'
-      src:
-        c: d42feeea
-        rows:
-        - 'w.yang-jisheng-tiandi-fanfu II, 1097: all'
-      tags:
-      - polity:prc
 - add:
     entry:
       id: cal.1967-08-15.china-2
@@ -4901,9 +4795,6 @@ ops:
     id: cal.1967-11-27.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1100 ("I think Anzai''s view is right": Anzai Kuraji 安齋庫治 of the Japanese party''s Secretariat against the universality of encircling
       the cities from the countryside)'
-- to-check:
-    id: cal.1967-11-27.china-leadership
-    add: '[[w.zedong-mao-zedong-nianpu]], VI, 142–143 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1100 n.25)'
 - add:
     entry:
       id: cal.1968-05-01.china-leadership-3
@@ -4927,24 +4818,15 @@ ops:
     id: cal.1968-05-18.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1101 (the "Important notice," Mao approving: "the center of world revolution" not to be used in print, papers, speeches or before foreign
       guests)'
-- to-check:
-    id: cal.1968-05-18.china-leadership
-    add: '[[w.zedong-mao-zedong-nianpu]], VI, 163–164 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1101 n.26)'
 - cite:
     id: cal.1969-03-22.china-leadership-2
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1101 (on foreign relations: "a little easing is good; we are isolated now, nobody pays us attention")'
-- to-check:
-    id: cal.1969-03-22.china-leadership-2
-    add: '[[w.zedong-mao-zedong-nianpu]], VI, 237 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1101 n.27)'
 - cite:
     id: cal.1969-05-01.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1101 (on the Tiananmen rostrum Mao meets some ambassadors in friendly talk: a sign that China wants better relations)'
 - cite:
     id: cal.1964-01-05.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1102 (Mao to Kikunami Katsumi 聽濤克己 of the Japanese party''s Politburo, Wu Xiuquan present: the two parts of the "intermediate zone")'
-- to-check:
-    id: cal.1964-01-05.china-leadership
-    add: '[[w.zedong-mao-zedong-nianpu]], V, 301 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1102 n.30)'
 - add:
     entry:
       id: cal.1969-06-07.china-leadership
@@ -4999,8 +4881,8 @@ ops:
       thread: china
       c: Warsaw, a fashion show. Walter Stoessel, the American ambassador, approaches the Chinese embassy's men, the second secretary Li Juqing 李舉卿 and the interpreter Jing Zhicheng
         景志成, who avoid him; he catches Jing and tells him President Nixon wants "major concrete talks" with China's leaders.
-      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1103. To check: [[w.xianzhi-mao-zedong-zhuan-1949]], 1619 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1103 n.32a). Names: Stoessel,
-        Nixon.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1103. Made public: 2003. To check: [[w.xianzhi-mao-zedong-zhuan-1949]], 1619 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1103 n.32a).
+        Names: Stoessel, Nixon.'
       src:
         c: f2692d34
         rows:
@@ -5009,6 +4891,8 @@ ops:
       - polity:prc
       - name:stoessel-walter-j-jr
       - name:nixon-richard-m
+      - polity:us
+      - vis:only:prc+us
 - cite:
     id: cal.1969-12-11.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1103'
@@ -5019,8 +4903,8 @@ ops:
     id: cal.1962-01-11.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1142 (the Seven Thousand Cadres Conference, Jan. 11 to Feb. 7; the leaders divided on the famine''s lessons)'
 - cite:
-    id: cal.1962-07-25.china-leadership-4
-    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1142 (the Beidaihe work conference, July 25 to Aug. 24: Mao criticizes Liu Shaoqi''s and others'' handling of the famine)'
+    id: cal.1962-08-06.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1142 (the Beidaihe work conference, by the chronology July 25 to Aug. 24: Mao criticizes Liu Shaoqi''s and others'' handling of the famine)'
 - cite:
     id: cal.1962-09-24.china
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1142 (Sept. 24–27; Mao raises class struggle again)'
@@ -5077,14 +4961,14 @@ ops:
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1144 (evening, the Peking committee''s rally of activists of the colleges and middle schools; all labelled rightists by the work groups
       rehabilitated)'
 - cite:
-    id: cal.1966-08-01.china-leadership-2
-    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1144 (praising their "revolutionary rebel spirit")'
+    id: cal.1966-07-31.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1144 (Aug. 1, the letter''s date: Mao writes the Red Guards of the Tsinghua middle school, praising their "revolutionary rebel spirit")'
 - cite:
-    id: cal.1966-08-18.china-leadership-4
-    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1144'
+    id: cal.1966-08-18.china-leadership-12
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1144 (Mao receives the Red Guards at Tiananmen, the first of eight receptions)'
 - cite:
     id: cal.1966-08-01.china-leadership
-    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1144 (Lin Biao from sixth to second in the Standing Committee, Liu Shaoqi from second to eighth)'
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1144 (Aug. 1 to 12)'
 - cite:
     id: cal.1966-08-05.china-leadership
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1144 ("Bombard the headquarters," aimed at Liu Shaoqi)'
@@ -5189,7 +5073,8 @@ ops:
       c: 'The Military Commission''s enlarged meeting, on Mao Zedong 毛澤東''s comment of the day before, passes the "Decision that the PLA firmly supports the revolutionary left" (Zhongfa
         [67] 27): the old orders against involvement void; troops to go when the true left asks; counter-revolutionaries against the left to be suppressed; no shelter for capitalist
         roaders; the whole army to be taught the two lines.'
-      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 431–432. Made public: 2016. See [[cal.1967-01-21.china-leadership]]. Names: Mao Zedong.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 431–432. Made public: 2016. See [[cal.1967-01-21.china-leadership]]. Names: Mao Zedong. Check: the day: by the Mao chronology Mao approves
+        the four bodies'' draft decision for issue on Jan. 23.'
       src:
         c: 96037fd0
         rows:
@@ -5226,3 +5111,512 @@ ops:
       - polity:prc
       - vis:only:prc
       - name:liu-shaoqi
+- cite:
+    id: cal.1966-08-26.china-leadership-6
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 664 (the Daxing killing begins with the relay of Xie Fuzhi''s speech; the county police, at a bureau meeting, on Xie''s words and the
+      city bureau''s order to "support and protect the Red Guards," put Zhang 張某, deputy head of the security section, in charge of liaison with them)'
+- to-check:
+    id: cal.1966-08-26.china-leadership-6
+    add: Sun Yancheng 孫言誠, 〈「血統論」和大興「八三一事件」〉, *Yanhuang chunqiu* 《炎黃春秋》, 2012, no. 2 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 663 n.2a)
+- to-check:
+    id: cal.1966-08-26.china-leadership-6
+    add: Yu Luowen 遇羅文, 〈北京大興文革屠殺調查〉 (web, May 4, 2010) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 663 n.2b)
+- cite:
+    id: cal.1967-08-11.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 691 (Mao on the draft: "well written, but in places only condemnation, no quotation, not enough to persuade; please think again"; the
+      article printed as revised on his view)'
+- to-check:
+    id: cal.1967-08-11.china-leadership
+    add: '[[w.zedong-jianguo-yilai-mao-zedong]], XII, 397 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 691 n.8)'
+- cite:
+    id: cal.1969-02-01.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 719 (at the liaison meeting Mao names Chen Boda 陳伯達 to draft the Ninth Congress''s political report, Zhang Chunqiao and Yao Wenyuan with
+      him)'
+- to-check:
+    id: cal.1969-02-01.china-leadership-2
+    add: Wang Wenyao 王文耀 and Wang Baochun 王保春, *Wenge qianhou shiqi de Chen Boda* 《文革前後時期的陳伯達》 (Tiandi tushu, Hong Kong, 2014), 137 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 719
+      n.6)
+- cite:
+    id: cal.1967-04.china-leadership-13
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1096 (Indonesia declares Yao Dengshan and Xu Ren 徐仁, the consul general, personae non gratae; the demonstrations in Peking follow, "from
+      the 24th to the 28th")'
+- check:
+    id: cal.1967-04.china-leadership-13
+    text: 'Check: the day: Yang prints "4 月 4 日" at II, 1096, before the demonstrations of Apr. 24–28, and Apr. 22 at I, 567.'
+- cite:
+    id: cal.1967-08.china-leadership-22
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1097 (the British authorities order three left-wing papers closed and arrest journalists and staff)'
+- cite:
+    id: cal.1968.china-leadership-30
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 621–622 (the "dig out Ulanfu''s black line" campaign from July 1968, in the cleansing of the class ranks; Mongol cadres its chief targets)'
+- variant:
+    id: cal.1969-03-12.china-leadership
+    unit: A
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Mao proposes the change of the report's drafters on Mar. 13, 1969 (13 日), his note giving the talks as of Mar. 12 and 15
+    at: II, 720
+- cite:
+    id: cal.1969-03-15.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 720 (Mao, "three days" after the 13th by Yang: the report not yet well written, a few days'' delay no matter; a month for Chen Boda, half
+      a month for you; open the congress on Apr. 1)'
+- to-check:
+    id: cal.1969-03-15.china-leadership
+    add: Mao Zedong, talks with the liaison meeting, Mar. 12 and 15, 1969, as quoted in [[w.xianzhi-mao-zedong-zhuan-1949]], 1538–1539 (cited by [[w.yang-jisheng-tiandi-fanfu]], II,
+      720 n.8)
+- cite:
+    id: cal.1967-09-08.china-leadership-6
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1146 (Mao''s passage in the article on the "May 16 counter-revolutionary clique"; the hunt for the "May 16" follows)'
+- cite:
+    id: cal.1967-08-30.china-leadership-3
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1146 (at the end of August Mao casts off Wang Li and Guan Feng)'
+- cite:
+    id: cal.1960-04-16.china-leadership
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1142 (April 1960: the Sino-Soviet polemic begins)'
+- cite:
+    id: cal.1966-12-20.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1098 (Dec. 21: the rebels found the "Revolutionary Rebel Liaison Station"; Zhou Enlai recognizes and backs it; its core group takes over
+      the lead of the ministry''s movement, the Party committee keeping the diplomatic business)'
+- check:
+    id: cal.1966-12-20.china-leadership-2
+    text: 'Check: the day: Yang gives Dec. 20 at I, 569 and Dec. 21 at II, 1098.'
+- add:
+    entry:
+      id: cal.1968-03-20.china-leadership
+      when: Mar. 20
+      date: '1968-03-20'
+      thread: china-leadership
+      c: Chen Yaoting 陳耀庭 is shot, four days after his sentence.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 649. To check: [[w.youqin-wenge-shounanzhe]], 46 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 649 n.34). See [[cal.1968-03-16.china-leadership-3]].
+        Check: the day: "four days" after the sentence the page dates "1967 年 3 月 16 日" (for 1968, by its order).'
+      src:
+        c: c72df458
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 649: all'
+      tags:
+      - polity:prc
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-08.china-leadership-41
+      when: Aug., after the 18th
+      date: 1967-08
+      thread: china-leadership
+      place: daoxian
+      at: after 1967-08-18
+      c: Shangguan district 上關區, Daoxian. The questioning yielding nothing, the district hands Liang Xianlian 梁先蓮 to the Dongyang brigade 東陽大隊, whose "poor and lower-middle peasants'
+        supreme court" sentences her to death.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 672. To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu,
+        Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1). Check: the day (between her questioning of Aug. 18 and her death of Aug. 26).'
+      src:
+        c: 321ae9e8
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 672: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1967-08.china-leadership-42
+      when: Aug., after the 26th
+      date: 1967-08
+      thread: china-leadership
+      place: daoxian
+      at: after 1967-08-26
+      c: Yanhetang brigade 沿河塘大隊, Daoxian. Zhang Xiuhua 張秀華, spared under the branch secretary Zhou's rule that a "landlord wife" who marries a single poor peasant has her class changed,
+        is taken by the poor peasant Jiang Dianzi 蔣癲子, who throws her 56-day-old son into the river.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 673. To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu,
+        Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1). Check: the day (after the brigade''s killings of Aug. 26, by the page''s order).'
+      src:
+        c: cfea148f
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 673: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1969-04.china-leadership-9
+      when: Apr., after the 26th
+      date: 1969-04
+      thread: china-leadership
+      at: after 1969-04-26
+      c: Wen Yucheng 溫玉成, deputy chief of staff, given one of the three copies of Li Bida 李必達's letter to pass to the Center, gives it to Ye Qun 葉群, who at once tells Huang Yongsheng
+        黃永勝, Wu Faxian 吳法憲, Li Zuopeng 李作鵬 and Qiu Huizuo 邱會作.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 725. Made public: 2016. Names: Ye Qun, Huang Yongsheng, Wu Faxian, Li Zuopeng, Qiu Huizuo. Check: the day (between the letter of Apr. 26
+        and the arrest of Apr. 28, by the page''s order).'
+      src:
+        c: 8d46217b
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 725: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:ye-qun
+      - name:huang-yongsheng
+      - name:wu-faxian
+      - name:li-zuopeng
+      - name:qiu-huizuo
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-05-21.china-leadership-4
+      when: May 21
+      date: '1966-05-21'
+      thread: china-leadership
+      place: peking
+      c: 'Peking, the Qianmen Hotel 前門飯店. The Center''s North China Bureau meeting 華北局會議 opens, on Ulanfu 烏蘭夫: 146 of Inner Mongolia 內蒙古''s Party, government and army leaders attending.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 620. Made public: 2016.'
+      src:
+        c: 095d1319
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 620: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1966-06-04.china-leadership-6
+      when: June 4
+      date: '1966-06-04'
+      thread: china-leadership
+      place: peking
+      c: Peking. The new Peking committee 北京新市委 sends work groups into the schools.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1143.'
+      src:
+        c: '36520029'
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 1143: all'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1969-04-26.china-leadership-4
+      when: Apr. 26
+      date: '1969-04-26'
+      thread: china-leadership
+      c: Mao Zedong 毛澤東, shown the three-man group's list of Politburo candidates (Zhou Enlai's, Kang Sheng's and Huang Yongsheng's; 23 names), puts a large cross on Jiang Qing 江青's
+        name, adds Ye Qun 葉群, and draws a line under Wang Xiaoyu 王效禹's and Ye Jianying 葉劍英's.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 728. The words: 4 月 26 日下午 (II, 728). Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong,
+        2011), 650–651 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 728 n.33). Names: Mao Zedong, Zhou Enlai, Kang Sheng, Huang Yongsheng, Jiang Qing, Ye Qun, Ye Jianying.'
+      src:
+        c: 45cf74ea
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 728: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 728 n.33: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - name:zhou-enlai
+      - name:kang-sheng
+      - name:huang-yongsheng
+      - name:jiang-qing
+      - name:ye-qun
+      - name:ye-jianying
+      - ok:fields-place
+      time_range:
+      - 1969-04-26T04:00Z
+      - 1969-04-26T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- add:
+    entry:
+      id: cal.1969-04-26.china-leadership-5
+      when: Apr. 26
+      date: '1969-04-26'
+      thread: china-leadership
+      c: Lin Biao 林彪, shown the list, puts a large cross on Ye Qun 葉群's name and does not add Jiang Qing 江青; on the new list he does the same.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 728. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 650–651 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 728 n.33). Names: Lin Biao, Ye Qun, Jiang Qing.'
+      src:
+        c: 7c292066
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 728: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 728 n.33: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:ye-qun
+      - name:jiang-qing
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-04-26.china-leadership-6
+      when: Apr. 26
+      date: '1969-04-26'
+      thread: china-leadership
+      c: 'The three-man group. Zhou Enlai 周恩來: the names the Chairman and Vice-Chairman Lin struck out must still be weighed; for the whole situation both stay; Jiang Qing 江青 and Ye
+        Qun 葉群 put back on the list.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 728. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 650–651 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 728 n.33). Names: Zhou Enlai, Jiang Qing, Ye Qun.'
+      src:
+        c: 2c18263f
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 728: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 728 n.33: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:zhou-enlai
+      - name:jiang-qing
+      - name:ye-qun
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-04-26.china-leadership-7
+      when: Apr. 26
+      date: '1969-04-26'
+      thread: china-leadership
+      c: On the new list Mao Zedong 毛澤東 again crosses out Jiang Qing 江青 and writes beside it Li Desheng 李德生 and Ji Dengkui 紀登奎.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 728–729. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 651–652 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 729 n.34). Names: Mao Zedong, Jiang Qing.'
+      src:
+        c: bbf3ad79
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 728–729: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 729 n.34: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - name:jiang-qing
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-04-26.china-leadership-8
+      when: Apr. 26
+      date: '1969-04-26'
+      thread: china-leadership
+      c: 'The three-man group, evening, on Jiang Qing 江青 and Ye Qun 葉群. Zhou Enlai 周恩來: the whole list turns on the two, and both must enter the Politburo; the group to report to the
+        Chairman in the morning and to Vice-Chairman Lin after noon.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 728–729. The words: 26 日晚上 (II, 728). Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong,
+        2011), 651–652 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 729 n.34). Names: Jiang Qing, Ye Qun, Zhou Enlai.'
+      src:
+        c: 52cd1616
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 728–729: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 729 n.34: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:jiang-qing
+      - name:ye-qun
+      - name:zhou-enlai
+      - ok:fields-place
+      time_range:
+      - 1969-04-26T11:00Z
+      - 1969-04-26T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- add:
+    entry:
+      id: cal.1969-04-27.china-leadership-4
+      when: Apr. 27
+      date: '1969-04-27'
+      thread: china-leadership
+      c: 'The three-man group at Mao Zedong 毛澤東''s residence, 10 a.m. Zhou Enlai 周恩來 asks that Jiang Qing 江青 be on the list of candidates; Mao: "if you want her, have her; whatever is
+        said, the responsibility is mine."'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 729. The words: 27 日上午 10 時 (II, 729). Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong,
+        2011), 651–652 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 729 n.34). Names: Mao Zedong, Zhou Enlai, Jiang Qing.'
+      src:
+        c: 410a9524
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 729: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 729 n.34: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - name:zhou-enlai
+      - name:jiang-qing
+      - ok:fields-place
+      time: 1969-04-27T02:00Z
+      time_zone: Asia/Shanghai
+- add:
+    entry:
+      id: cal.1969-04-27.china-leadership-5
+      when: Apr. 27
+      date: '1969-04-27'
+      thread: china-leadership
+      c: 'The three-man group at Lin Biao 林彪''s house. Zhou Enlai 周恩來 asks that Ye Qun 葉群 be on the list; Huang Yongsheng 黃永勝: the Chairman has agreed in the main; Kang Sheng 康生 asks
+        too; Lin: he will follow the Chairman''s decision.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 729. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 651–652 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 729 n.34). Names: Lin Biao, Zhou Enlai, Ye Qun, Huang Yongsheng, Kang Sheng.'
+      src:
+        c: 7b8389e2
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 729: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 729 n.34: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:lin-biao
+      - name:zhou-enlai
+      - name:ye-qun
+      - name:huang-yongsheng
+      - name:kang-sheng
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1969-04-27.china-leadership-6
+      when: Apr. 27
+      date: '1969-04-27'
+      thread: china-leadership
+      c: At Mao Zedong 毛澤東's residence the list of Politburo candidates is settled; Mao, Lin Biao 林彪, Zhou Enlai 周恩來, Kang Sheng 康生 and Huang Yongsheng 黃永勝 sign it.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 729. Made public: 2011. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 651–652 (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        II, 729 n.34). Names: Mao Zedong, Lin Biao, Zhou Enlai, Kang Sheng, Huang Yongsheng.'
+      src:
+        c: 506c5af7
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 729: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 729 n.34: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - name:lin-biao
+      - name:zhou-enlai
+      - name:kang-sheng
+      - name:huang-yongsheng
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-06-14.china-2
+      when: June 14
+      date: '1967-06-14'
+      thread: china
+      also:
+      - south-asia
+      place: new-delhi
+      c: India expels Chen Luzhi 陳魯直, first secretary of the Chinese embassy, and declares Xie Chenghao 謝承浩, its third secretary, persona non grata.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1095. To check: Yang Rongjia 楊榮甲, *Gongheguo waijiaobu mixin* 《共和國外交部秘辛》 (Dashan wenhua chubanshe, Hong Kong, 2011), 139–142 (cited by
+        [[w.yang-jisheng-tiandi-fanfu]], II, 1095 n.14).'
+      src:
+        c: 5697d5dd
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 1095: all'
+      tags:
+      - polity:prc
+      - polity:india
+- add:
+    entry:
+      id: cal.1967-06-16.china
+      when: June 16
+      date: '1967-06-16'
+      thread: china
+      also:
+      - south-asia
+      place: new-delhi
+      c: New Delhi. Over a thousand Indians attack the Chinese embassy and beat its staff.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1095. To check: Yang Rongjia 楊榮甲, *Gongheguo waijiaobu mixin* 《共和國外交部秘辛》 (Dashan wenhua chubanshe, Hong Kong, 2011), 139–142 (cited by
+        [[w.yang-jisheng-tiandi-fanfu]], II, 1095 n.14).'
+      src:
+        c: '63665788'
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 1095: all'
+      tags:
+      - polity:prc
+      - polity:india
+- add:
+    entry:
+      id: cal.1967-06-27.china
+      when: June 27–28
+      date: '1967-06-27'
+      thread: china
+      place: rangoon
+      c: Rangoon. Burmese crowds besiege and storm the Chinese embassy; Liu Yi 劉逸, a Chinese aid expert, killed, five hurt.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1096. Check: the days: the Foreign Ministry''s note of June 28 puts the attacks on June 26 and 27, the government''s statement of June
+        29 another on the 28th.'
+      src:
+        c: 33b5d1ef
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 1096: all'
+      tags:
+      - polity:prc
+      - polity:burma
+- add:
+    entry:
+      id: cal.1967-06-29.china-4
+      when: June 29
+      date: '1967-06-29'
+      thread: china
+      place: peking
+      c: 'Peking. Hundreds of thousands begin days of demonstrations before the Burmese embassy: "Down with Ne Win! Hang Ne Win!"; some throw bricks at it.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1096.'
+      src:
+        c: 88cac850
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 1096: all'
+      tags:
+      - polity:prc
+      - polity:burma
+- add:
+    entry:
+      id: cal.1967-04-24.china-2
+      when: Apr. 24–28
+      date: '1967-04-24'
+      thread: china
+      also:
+      - indonesia
+      place: peking
+      c: Peking. 600,000 in all demonstrate before the Indonesian embassy; its gate smashed.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1096.'
+      src:
+        c: 588e33f3
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 1096: all'
+      tags:
+      - polity:prc
+      - polity:indonesia
+- add:
+    entry:
+      id: cal.1967-08-05.china
+      when: Aug. 5
+      date: '1967-08-05'
+      thread: china
+      also:
+      - indonesia
+      place: jakarta
+      c: Jakarta. Indonesian armed forces with over a thousand men wreck and burn the Chinese embassy's buildings and wound four of its staff.
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1096.'
+      src:
+        c: 84880ca0
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 1096: all'
+      tags:
+      - polity:prc
+      - polity:indonesia
+- add:
+    entry:
+      id: cal.1967-08-06.china-2
+      when: Aug. 6
+      date: '1967-08-06'
+      thread: china
+      also:
+      - indonesia
+      place: peking
+      c: 'The Foreign Ministry''s note to the Indonesian embassy: the most urgent, strongest protest.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1096.'
+      src:
+        c: 4a8f398c
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 1096: all'
+      tags:
+      - polity:prc
+      - polity:indonesia
+- add:
+    entry:
+      id: cal.1967-11-24.china
+      when: Nov. 24
+      date: '1967-11-24'
+      thread: china
+      c: 'Xinhua 新華社 reports: in over a year of the Cultural Revolution, Mao''s works in 25 foreign-language editions, over 4.6 million copies, to 148 countries and regions, more than
+        in the seventeen years before.'
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1093. Names: Mao Zedong.'
+      src:
+        c: 8784bbba
+        rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 1093: all'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - ok:fields-place
