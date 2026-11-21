@@ -21,28 +21,29 @@ index c54921e..66ec322 100644
              out.append("Cal. " + nostop(datelist.run((e.get("date"), f'<a href="cal.html#{esc(e["id"])}">{esc(e.get("when") or "")}</a>')
                                                for e in es)))
 diff --git a/tools/bib/build.py b/tools/bib/build.py
-index b3208d8..10080c1 100644
+index b3208d8..a45a11c 100644
 --- a/tools/bib/build.py
 +++ b/tools/bib/build.py
-@@ -12,7 +12,7 @@ import json
- import os
+@@ -13,6 +13,7 @@ import os
  import re
  
--from . import calsplit, daybook, governors, legislatures, loose, primaries, specials, statefin, store, vispage, vnmap
-+from . import calsplit, chron, daybook, governors, legislatures, loose, primaries, specials, statefin, store, vispage, vnmap
+ from . import calsplit, daybook, governors, legislatures, loose, primaries, specials, statefin, store, vispage, vnmap
++from . import chron
  from . import conventions
  from . import oilworld
  from . import budgets
-@@ -77,7 +77,7 @@ _MEMBERS = {}
+@@ -77,8 +78,8 @@ _MEMBERS = {}
  
  
  def thread_members(lst):
 -    """thread slug -> entries in document order (primary thread or 'also'). Kept for the list while its sections'
-+    """thread slug -> entries in the calendar's order (primary thread or 'also'; chron.py). Kept for the list while its sections'
-     entry counts stand (it is asked for under every thread entry and every `to:` line)."""
+-    entry counts stand (it is asked for under every thread entry and every `to:` line)."""
++    """thread slug -> entries in the calendar's order (primary thread or 'also'; chron.py). Kept for the list while
++    its sections' entry counts stand (it is asked for under every thread entry and every `to:` line)."""
      key = (id(lst), tuple(len(s.entries) for s in lst.walk()))
      if _MEMBERS.get(id(lst), (None,))[0] == key:
-@@ -88,8 +88,8 @@ def thread_members(lst):
+         return _MEMBERS[id(lst)][1]
+@@ -88,8 +89,8 @@ def thread_members(lst):
              continue
          for t in entry_threads(lst, e):
              out.setdefault(t, []).append(e)
@@ -53,16 +54,21 @@ index b3208d8..10080c1 100644
      _MEMBERS[id(lst)] = (key, out)
      return out
  
-@@ -99,7 +99,7 @@ _OWN = {}
+@@ -99,9 +100,10 @@ _OWN = {}
  
  def index_members(lst):
      """thread slug -> the entries the thread index dates under it: those that name it as their `thread` or in `also`,
 -    in document order. Not a subthread's: an entry filed under a subthread is dated on the subthread's line (a ghost's
-+    in the calendar's order (chron.py). Not a subthread's: an entry filed under a subthread is dated on the subthread's line (a ghost's
-     too), not its parent's, unless `also:` lists it in the parent (the owner's memo, Nov. 4, 2026: volume.md, section 2;
-     calsplit.py, STYLE 15). The thread-nav line, the highlight and the statements keep the family (thread_members)."""
+-    too), not its parent's, unless `also:` lists it in the parent (the owner's memo, Nov. 4, 2026: volume.md, section 2;
+-    calsplit.py, STYLE 15). The thread-nav line, the highlight and the statements keep the family (thread_members)."""
++    in the calendar's order (chron.py). Not a subthread's: an entry filed under a subthread is dated on the
++    subthread's line (a ghost's too), not its parent's, unless `also:` lists it in the parent (the owner's memo, Nov.
++    4, 2026: volume.md, section 2; calsplit.py, STYLE 15). The thread-nav line, the highlight and the statements keep
++    the family (thread_members)."""
      key = (id(lst), tuple(len(s.entries) for s in lst.walk()))
-@@ -111,8 +111,8 @@ def index_members(lst):
+     if _OWN.get(id(lst), (None,))[0] == key:
+         return _OWN[id(lst)][1]
+@@ -111,8 +113,8 @@ def index_members(lst):
              continue
          for t in dict.fromkeys([e["thread"]] + list(e.get("also") or [])):
              out.setdefault(t, []).append(e)
@@ -73,13 +79,14 @@ index b3208d8..10080c1 100644
      _OWN[id(lst)] = (key, out)
      return out
  
-@@ -175,7 +175,8 @@ def program_html(series, lst, e, year, text_html):
+@@ -175,7 +177,9 @@ def program_html(series, lst, e, year, text_html):
      fwd, back = program_links(lst)
      out = []
      if e["id"] in fwd:
 -        items = sorted(fwd[e["id"]], key=lambda x: str((series.get(x[1]) or (0, 0, {}))[2].get("date", "")))
-+        order = {m["id"]: i for i, m in enumerate(chron.sort(lst, [series.get(t)[2] for _, t in fwd[e["id"]] if series.get(t)]))}
-+        items = sorted(fwd[e["id"]], key=lambda x: order.get(x[1], len(order)))   # in the calendar's order (chron.py)
++        tgt = [series.get(t)[2] for _, t in fwd[e["id"]] if series.get(t)]
++        at = {m["id"]: i for i, m in enumerate(chron.sort(lst, tgt))}      # in the calendar's order (chron.py)
++        items = sorted(fwd[e["id"]], key=lambda x: at.get(x[1], len(at)))
          out.append(("To:", " · ".join(f"{thread_name(lst, slug)}, [[{tid}]]" for slug, tid in items)))
      if e["id"] in back:
          names = []
@@ -218,7 +225,7 @@ index e0631c1..abd0b6f 100644
  
  POLLS = re.compile(r"^Polls close (?:noon|midnight|\d{1,2}(?::\d{2})?)\S*(?: [ap]\.m\.)?.*?: .*\]\(https://[^)\s]+\).*\.$")
 diff --git a/tools/bib/footnotes.py b/tools/bib/footnotes.py
-index 975eb6b..e600f29 100644
+index 975eb6b..e12fb09 100644
 --- a/tools/bib/footnotes.py
 +++ b/tools/bib/footnotes.py
 @@ -28,6 +28,7 @@ STYLE
@@ -256,7 +263,7 @@ index 975eb6b..e600f29 100644
                  if not w.get("read"):            # a record no reader has read: behind "To check:" (STYLE 7)
                      unread.setdefault(key, None)
                      continue
-@@ -219,3 +226,284 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
+@@ -219,3 +226,418 @@ ol.fn a.fk{font-family:var(--sans);font-size:.8em;font-weight:600;color:var(--ac
  ol.fn li:target{background:color-mix(in srgb,var(--accent) 12%,transparent)}
  ol.e .n{font-size:.88rem;line-height:1.42}
  </style>"""
@@ -276,8 +283,8 @@ index 975eb6b..e600f29 100644
 +# work the note cites, when its row is a stub (the conversion's fragments: "Int", "Ibid., p. 24"), and when two rows
 +# are one record. The data is not changed: the join is the page's.
 +
-+DOUBLES = ("words", "pointer", "printed", "recorded", "passage", "stub", "same record")
-+_STOP = set("a an the of and to in on for with by at from as or is was his her their its re no nd vol pp p n nn "
++DOUBLES = ("words", "pointer", "card", "printed", "recorded", "passage", "stub", "same record")
++_STOP = set("a an the of and to in on for with by at from as or is was his her their its this that re no nd vol pp p n nn "
 +            "ed eds memo memorandum letter telegram cable message notes note record file files box folder papers "
 +            "library lbj jfk lbjl jfkl ibid see also printed cited january february march april may june july "
 +            "august september october november december jan feb mar apr jun jul aug sep sept oct nov dec".split())
@@ -290,15 +297,38 @@ index 975eb6b..e600f29 100644
 +         "transcript", "oval", "office", "cabinet", "room", "between"}
 +
 +
++def _clocks(s):
++    """The hours a text gives: {(hour, minutes, 'a' | 'p')}."""
++    return {(int(h.split(":")[0]), (h.split(":") + ["00"])[1], ap.lower()) for h, ap in _CLOCK.findall(s or "")}
++
++
 +def fold(s):
 +    """Comparison form: accents stripped, lower case, other than letters and digits to spaces."""
 +    import unicodedata
-+    s = unicodedata.normalize("NFKD", str(s or "")).encode("ascii", "ignore").decode().lower()
-+    return " ".join(re.sub(r"[^a-z0-9]+", " ", s).split())
++    s = "".join(ch for ch in unicodedata.normalize("NFKD", str(s or "")) if not unicodedata.combining(ch))
++    return " ".join(re.sub(r"[\W_]+", " ", s.lower().replace("đ", "d")).split())
 +
 +
 +def _toks(s):
 +    return [t for t in fold(s).split() if (t.isdigit() or len(t) > 1) and t not in _STOP]
++
++
++def _has(tok, toks):
++    """A word among others, or its abbreviation or full form ("subcomm" and "subcommittee")."""
++    if tok in toks:
++        return True
++    return len(tok) >= 4 and any(len(t) >= 4 and (t.startswith(tok) or tok.startswith(t)) for t in toks)
++
++
++# A record "A to B, <date>": its parties' surnames and its date's numbers
++_PARTIES = re.compile(r"^([A-Z][\w'’.-]*(?: [A-Z][\w'’.-]*){0,3}) to (?:the )?([A-Z][\w'’.-]*(?: [A-Z][\w'’.-]*){0,3}),"
++                      r"\s*([^,]*\d[^,]*)")
++
++
++def _num_in(x, toks):
++    """A number among the item's: "66" is "1966" in a date."""
++    return x in toks or (len(x) == 2 and 55 <= int(x) <= 79 and "19" + x in toks) or \
++        (len(x) == 4 and x.startswith("19") and x[2:] in toks)
 +
 +
 +def _url(u):
@@ -310,9 +340,10 @@ index 975eb6b..e600f29 100644
 +    """What an entry's note (and `c`) already cites, for the doubles' tests: its folded text, its links' addresses,
 +    the FRUS documents it names, its items' words, and its pointers (card, page, note)."""
 +
-+    def __init__(self, e):
++    def __init__(self, e, titles=None):
 +        from .notemerge import items, sentences
-+        n, c = e.get("n") or "", e.get("c") or "" if isinstance(e.get("c"), str) else ""
++        self.titles = titles or {}
++        n, c = e.get("n") or "", e.get("c") if isinstance(e.get("c"), str) else ""
 +        links = list(claims.LINK.finditer(n)) + list(claims.LINK.finditer(c))
 +        self.urls = {_url(m.group(2)) for m in links}
 +        self.text = fold(claims.markup.strip_links(n) + " " + " ".join(m.group(2) for m in links))
@@ -324,27 +355,69 @@ index 975eb6b..e600f29 100644
 +        for s in sentences(n):
 +            for it in items(s[:-1] if s.endswith(".") else s):
 +                its = [m.group(2) for m in claims.LINK.finditer(it)]
-+                self.segs.append((set(_toks(claims.markup.strip_links(it))), fold(claims.markup.strip_links(it)), its))
-+        self.ptrs = collections.Counter()
-+        for m in re.finditer(r"\[\[(w\.[^\]|]+)[^\]]*\]\],\s*((?:[IVXL]+, )?[0-9ivxlc]+)(?:[–-]\d+)?\s+nn?\.(\d+)", n):
-+            self.ptrs[(m.group(1), m.group(2), m.group(3))] += 1
++                bare = _CITED_BY.sub("", claims.markup.strip_links(_LABEL.sub("", it)))
++                bare = re.sub(r"\[\[w\.[^\]]*\]\]", " ", bare)
++                self.segs.append((set(_toks(bare)), fold(claims.markup.strip_links(it)), its, it))
++        self.ptrs = []                    # (card, volume, its pages, its note numbers): a work at a page and note
++        for m in re.finditer(r"\[\[(w\.[^\]|]+)[^\]]*\]\],\s*(?:([IVXL]+), )?([^;()]*)", n):
++            for p in re.finditer(r"(\d+(?:[–-]\d+)?)\s+nn?\.\s?(\d+)[a-z]?(?:[–-](\d+))?", m.group(3)):
++                lo = int(p.group(2))
++                hi = int(p.group(3)) if p.group(3) else lo
++                self.ptrs.append((m.group(1), m.group(2) or "", claims._pages(p.group(1)) or set(), set(range(lo, hi + 1))))
 +        self.cards = [m.group(1) for m in re.finditer(r"\[\[(w\.[^\]|]+)", n)]
 +        tc = n.find("To check:")
 +        self.read_cards = [m.group(1) for m in re.finditer(r"\[\[(w\.[^\]|]+)", n[:tc] if tc >= 0 else n)]
++        self.pages = collections.defaultdict(set)     # card -> the pages the note cites it at
++        for m in re.finditer(r"\[\[(w\.[^\]|]+)[^\]]*\]\],\s*(?:([IVXL]+), )?([^;()\[\]]*)", n):
++            for pg in claims._pages(re.sub(r"\bnn?\.\s*\d+[a-z]?(?:[–-]\d+)?", "", m.group(3))) or ():
++                self.pages[m.group(1)].add((m.group(2) or "", pg))
 +
-+    def words(self, what):
-+        """Whether one item of the note gives the record in its own words: every number of it (a year aside) and
-+        most of its words (three in five, two at least)."""
-+        t = _toks(what)
-+        nums = [x for x in t if x.isdigit() and not re.fullmatch(r"19\d\d", x)]
++    def words(self, what, where=""):
++        """Whether one item of the note gives the record in its own words: every number of it (a year aside, "66"
++        for "1966" too; its parentheticals aside) and most of its words (three in five, two at least; or four in five,
++        four at least, numbers or not; or five and two in five); its head (its first eight words: author and title)
++        four in five, four at least; or the item is a shorter form of it, record and `where` (four in five of the
++        item's words in the record's, two numbers shared or the record's in the item: "Coffin, *Once to Every Man*
++        (1977), 238–44" for "Coffin, William Sloane, Jr, Once to Every Man: A Memoir (1977)")."""
++        plain = re.sub(r"\s*\((?:[^()]|\([^()]*\))*\)", " ", what or "")
++        t = _toks(plain) or _toks(what)
++        nums = [x for x in t if x.isdigit() and not re.fullmatch(r"(?:19|20)\d\d", x)]
 +        wds = [x for x in t if not x.isdigit()]
 +        if not wds:
 +            return False
-+        for toks, _, _ in self.segs:
-+            if all(x in toks for x in nums):
-+                hit = sum(1 for x in wds if x in toks)
-+                if hit >= 2 and hit >= 0.6 * len(wds) or (len(wds) == 1 and hit == 1 and nums):
++        tset = set(t) | set(_toks(what)) | set(_toks(where))
++        title = re.search(r"[\"“*]([^\"“”*]{10,})[\"”*]", what or "")   # its title, quoted or italic, main part
++        title = title and fold(title.group(1).split(":")[0])
++        if title and len(title.split()) >= 2 and f" {title} " in f" {self.text} ":
++            return True
++        pm = _PARTIES.match(plain.strip())                            # "Manatos to O'Brien, May 6, 1964"
++        if pm:
++            a, b = fold(pm.group(1)).split()[-1:], fold(pm.group(2)).split()[-1:]
++            day = [x for x in _toks(pm.group(3)) if x.isdigit() and not re.fullmatch(r"(?:19|20)\d\d", x)]
++            for toks, _, _, _ in self.segs:
++                if a and b and len(a[0]) > 2 and len(b[0]) > 2 and _has(a[0], toks) and _has(b[0], toks) and day \
++                        and all(_num_in(x, toks) for x in day):
 +                    return True
++        head = wds[:8]
++        for toks, _, _, _ in self.segs:
++            hit = sum(1 for x in wds if _has(x, toks))
++            if hit >= 4 and hit >= 0.8 * len(wds) or hit >= 5 and hit >= 0.4 * len(wds):
++                return True
++            hh = sum(1 for x in head if _has(x, toks))
++            if len(head) >= 5 and hh >= 4 and hh >= 0.8 * len(head):
++                return True
++            sw = [x for x in toks if not x.isdigit()]
++            sn = [x for x in toks if x.isdigit() and not re.fullmatch(r"(?:19|20)\d\d", x)]
++            inn = all(_num_in(x, toks) for x in nums)
++            back = sum(1 for x in sw if _has(x, tset))
++            if sw and back >= 0.8 * len(sw) and (back >= 2 or back == 1 and len(nums) >= 1) and \
++                    (inn or sum(1 for x in sn if _num_in(x, tset)) >= 2 or (back >= 3 and not sn) or
++                     (back >= 4 and back == len(sw) and any(_num_in(x, tset) for x in sn))):
++                return True
++            if not inn:
++                continue
++            if hit >= 2 and hit >= 0.6 * len(wds) or (len(wds) == 1 and hit == 1 and nums):
++                return True
 +        return False
 +
 +    def printed(self, w):
@@ -363,6 +436,10 @@ index 975eb6b..e600f29 100644
 +            m = re.search(r"document (\d{5,})", cp)
 +            if m and any(re.search(rf"/document/{m.group(1)}\b", u) for u in self.urls):
 +                return True
++        for cp in w.get("copies") or []:     # its print a work the note cites ("Robert Kennedy in His Own Words")
++            f = fold(cp)
++            if any(t and len(t.split()) >= 2 and f" {t} " in f" {f} " for t in self.titles.values()):
++                return True
 +        return False
 +
 +    def recorded(self, w):
@@ -372,35 +449,44 @@ index 975eb6b..e600f29 100644
 +        if not (w.get("kind") in ("recording", "transcript") or re.search(r"\b(call|conversation|tape|recording|"
 +                                                                         r"dictabelt|telephone)\b", what, re.I)):
 +            return False
-+        nums = {x for x in re.findall(r"(?:wh|tape |citation #|#|conversation )?(\d{3,}[a-z]?\d*)", fold(what))
-+                if not re.fullmatch(r"19\d\d", x)}
-+        tape = set(re.findall(r"\b(\d{2,4}[ _/-]?a\d{1,3})\b", fold(what).replace(" a", "a")))
-+        clock = {(int(h.split(":")[0]), (h.split(":") + ["00"])[1], ap.lower()) for h, ap in _CLOCK.findall(str(w.get("what") or ""))}
++        cits = {x for x in re.findall(r"(?:Citation\s*#?|#)\s*(\d{3,})", what, re.I)}
++        tapes = {re.sub(r"[^a-z0-9]", "", x.lower()) for x in re.findall(
++            r"(?:Dictabelt|Tape|Conversation|PNO)\s*(?:No\.\s*)?((?:WH)?\d[\w./_-]*\w)", what, re.I)}
++        tapes = {x for x in tapes if len(x) >= 4 and not re.fullmatch(r"(?:19|20)\d\d", x)}
++        clock = _clocks(str(w.get("what") or ""))
 +        party = {x for x in _toks(str(w.get("what") or "")) if not x.isdigit() and x not in _PRES}
-+        for toks, ftext, its in self.segs:
-+            if not any(_REC_HOST.search(u) for u in its):
-+                continue
-+            nt = set(ftext.split()) | set(fold(" ".join(its)).split())
-+            if nums and sum(1 for x in nums if x in nt) >= max(1, len(nums) - 1) and len(nums) >= 1 and \
-+                    any(len(x) >= 4 for x in nums if x in nt):
-+                return True
-+            if tape and any(t.replace(" ", "").replace("_", "").replace("/", "").replace("-", "") in
-+                            ftext.replace(" ", "") for t in tape):
-+                return True
-+            here = {(int(h.split(":")[0]), (h.split(":") + ["00"])[1], ap.lower()) for h, ap in _CLOCK.findall(
-+                claims.markup.strip_links(" ".join([ftext])).replace(" a m", " a.m").replace(" p m", " p.m"))}
-+            if clock and clock & here and party & toks:
-+                return True
++        for toks, ftext, its, raw in self.segs:
++            flat = re.sub(r"[^a-z0-9]", "", ftext + " ".join(its).lower())
++            if cits:                        # a conversation's own number ("Citation #5008", "WH6408-27-5008")
++                if any(re.search(rf"(?<!\d){c}(?!\d)", ftext + " " + " ".join(its)) for c in cits):
++                    return True
++            elif tapes and any(x in flat for x in tapes):
++                return True                 # its tape or dictabelt ("JFK Dictabelt 28A.3", "Meeting Tape 114/A49")
++            if any(_REC_HOST.search(u) for u in its) and clock and clock & _clocks(claims.markup.strip_links(raw)) \
++                    and party & toks:
++                return True                 # its hour and a party, in an item linking a recording
 +        return False
 +
 +    def pointer(self, card, at, count):
 +        """Whether the note already names the record by its place: the same card at that page and note (the note's
 +        letter aside), as often as the records the entry's rows reach there."""
 +        m = witnesses.AT.match(at or "")
++        num = m and re.match(r"(\d+)", m.group("note"))
++        if not num:
++            return False
++        vol, pg = _vol(m.group("page"))
++        pg = (claims._pages(pg) or {None}).pop()
++        k = sum(1 for c, v, pages, nums in self.ptrs
++                if c == card and v == (vol or "") and pg in pages and int(num.group(1)) in nums)
++        return k >= count
++
++    def at_page(self, card, at):
++        """Whether the note cites the card at the edge's page."""
++        m = witnesses.AT.match(at or "")
 +        if not m:
 +            return False
-+        num = re.match(r"(\d+)", m.group("note"))
-+        return bool(num) and self.ptrs[(card, m.group("page"), num.group(1))] >= count
++        vol, pg = _vol(m.group("page"))
++        return any((vol or "", x) in self.pages.get(card, ()) for x in claims._pages(pg) or ())
 +
 +
 +_REV = {}
@@ -419,12 +505,25 @@ index 975eb6b..e600f29 100644
 +    return _REV["idx"].get(wid, [])
 +
 +
++_LABEL = re.compile(r"^(?:To check|Check|Names|Made public|See|Also|Reply|The order|Bibliography):?\s+")
++_CITED_BY = re.compile(r"\s*\((?:(?:cited|quoted|given|described|named|printed) (?:by|at|in)|as cited)\b[^()]*(?:\([^()]*\)[^()]*)*\)")
++
++
 +# A `where` clause on the record's provenance, which the note's own cited-by gives instead
 +_PROV = re.compile(r"^(?:cited by\b|cited in\b|named (?:by|in)\b|as (?:cited|quoted)\b|as [^;]{0,60}\bcites?\b|"
 +                   r"quoted (?:by|in)\b|printed in the work cited|repository not given|not given\b|year not given|"
 +                   r"no note\b|given with the book|the newspaper or magazine named)", re.I)
 +_PROV_PAREN = re.compile(r"\s*\((?:as cited|[^()]*\bcites?\b[^()]*|[^()]*\bnot given\b[^()]*|"
 +                         r"[A-Z][\w'’-]+, \d[^()]*)\)")
++
++
++_PROV_TAIL = re.compile(r",\s*(?:as [^,;]{0,60}\bcites?(?: (?:it|them))?|as cited|cited by [^;]*|named in [^;]*)\s*$", re.I)
++
++
++# The record's own words on where it was met ("(described by Sorensen, Kennedy, 238)", ", as Westmoreland quotes it"),
++# which the cited-by gives instead
++_PROV_WHAT = re.compile(r"\s*\((?:described|given|quoted|named|cited|printed|reported) (?:by|in|at)\b[^()]*\)|"
++                        r",\s*as [A-Z][\w'’-]+ (?:quotes|gives|cites|prints|reports) it\b")
 +
 +
 +def _where(w, edge):
@@ -434,10 +533,17 @@ index 975eb6b..e600f29 100644
 +        for seg in witnesses._split_top(wh):
 +            if _PROV.match(seg):
 +                continue
-+            seg = _PROV_PAREN.sub("", seg).strip()
++            seg = _PROV_PAREN.sub("", _PROV_TAIL.sub("", seg)).strip()
 +            if seg:
 +                keep.append(seg)
 +        wh = "; ".join(keep)
++    keep = []
++    for seg in witnesses._split_top(wh):            # "printed, Hanoi, 1995" where the record already says so
++        body = re.sub(r"^(?:printed|published)(?:,| in)?\s*", "", seg)
++        if seg in ("published", "printed") or (body != seg and fold(body) and fold(body) in fold(w.get("what"))):
++            continue
++        keep.append(seg)
++    wh = "; ".join(keep)
 +    if wh and fold(wh) in fold(w.get("what")):
 +        return ""
 +    return wh
@@ -472,6 +578,8 @@ index 975eb6b..e600f29 100644
 +    if not ids:
 +        return [], []
 +    cited = Cited(e)
++    cited.titles = {c: fold(str((series.works.fields(c) or {}).get("title") or "").split(":")[0])
++                    for c in dict.fromkeys(cited.cards)}
 +    at_count = collections.Counter()
 +    for x in ids:
 +        for card, at in _edges_to(series, x):
@@ -484,11 +592,20 @@ index 975eb6b..e600f29 100644
 +        w = rows[x]
 +        what = str(w.get("what") or "").strip()
 +        es = [(c, a) for c, a in _edges_to(series, x) if c in cited.cards]
-+        es.sort(key=lambda ca: (ca[0] not in cited.read_cards, cited.cards.index(ca[0])))
++        es.sort(key=lambda ca: (not cited.at_page(*ca), ca[0] not in cited.read_cards, cited.cards.index(ca[0])))
 +        edge = es[0] if es else None
 +        part = w.get("part_of")
++        wh0 = str(w.get("where") or "")
++        cm = re.search(r"\b(w\.[a-z0-9][a-z0-9-]*[a-z0-9])(?:,\s*([0-9ivxlc][^,;()]*))?", what + " ; " + wh0)
++        cid = cm and series.works.alias.get(cm.group(1), cm.group(1))
++        if cid and series.works.get(cid) is None:
++            cid = None
 +        if len(what) < 12 or _STUB.match(what):
 +            left.append((x, "stub"))
++        elif cid and cid in cited.cards:
++            left.append((x, "card"))
++        elif _titled(series, cited, what):
++            left.append((x, "passage"))
 +        elif part and (part in cited.cards or (rows.get(part) or {}).get("part_of") in cited.cards):
 +            left.append((x, "passage"))
 +        elif edge and re.search(r"printed in the work cited", str(w.get("where") or ""), re.I) and \
@@ -500,18 +617,42 @@ index 975eb6b..e600f29 100644
 +            left.append((x, "recorded"))
 +        elif edge and cited.pointer(edge[0], edge[1], at_count[(edge[0],) + _key3(edge[1])]):
 +            left.append((x, "pointer"))
-+        elif cited.words(what) or any(cited.words(a) for a in w.get("also_as") or []):
++        elif cited.words(what, str(w.get("where") or "")) or any(cited.words(a) for a in w.get("also_as") or []):
 +            left.append((x, "words"))
 +        elif any(_same(w, rows[y]) for y in seen):
 +            left.append((x, "same record"))
++        elif cid:                           # a work with a card, registered as a record: its card
++            seen.append(x)
++            text = f"[[{cid}]]" + (f", {cm.group(2).strip()}" if cm.group(2) else "")
++            if edge:
++                text += f" (cited by [[{edge[0]}]], {_at(edge[1])})"
++            added.append((x, text))
 +        else:
 +            seen.append(x)
 +            wh = _where(w, edge)
++            if edge:
++                what = _PROV_WHAT.sub("", what).strip()
++                what = re.sub(r"\s*\(([^()]*)\)", lambda m: "" if any(
++                    t and len(t.split()) >= 2 and f" {t} " in f" {fold(m.group(1))} " for t in cited.titles.values())
++                    else m.group(0), what).strip()
 +            text = what.rstrip(".,; ") + (f", {wh}" if wh else "")
 +            if edge:
 +                text += f" (cited by [[{edge[0]}]], {_at(edge[1])})"
 +            added.append((x, text))
 +    return added, left
++
++
++def _titled(series, cited, text):
++    """Whether the record is a passage of a work the note cites as read: its main title (two words or more) and a page
++    in the record's own words, outside their parentheticals and its cited-by ("McPherson's account, A Political
++    Education, 410-11")."""
++    plain = re.sub(r"\s*\((?:[^()]|\([^()]*\))*\)", " ", _PROV_WHAT.sub("", text))
++    plain = fold(re.split(r"\b(?:cited|quoted|named|given) (?:by|in)\b", plain)[0])
++    for c in dict.fromkeys(cited.read_cards):
++        t = fold(str((series.works.fields(c) or {}).get("title") or "").split(":")[0])
++        if len(t.split()) >= 2 and re.search(rf"(?:^| ){re.escape(t)} \d", plain):
++            return True
++    return False
 +
 +
 +def _key3(at):
@@ -542,29 +683,32 @@ index 975eb6b..e600f29 100644
 +    k = next((i for i, s in enumerate(ss) if s.startswith(("See [[", "Names: ", "Check: "))), len(ss))
 +    return " ".join(ss[:k] + [f"To check: {more}."] + ss[k:])
 diff --git a/tools/bib/lives.py b/tools/bib/lives.py
-index f64d600..3762361 100644
+index f64d600..8db6c50 100644
 --- a/tools/bib/lives.py
 +++ b/tools/bib/lives.py
-@@ -1777,7 +1777,7 @@ def calendar_tagged(series):
+@@ -1777,8 +1777,9 @@ def calendar_tagged(series):
  
  
  def calendar_of(ptrs, subs, key=None, series=None):
 -    """The calendar entries of a person, by date: those whose 'Names:' line names one of his Part III entries, and
-+    """The calendar entries of a person, in the calendar's order (chron.py): those whose 'Names:' line names one of his Part III entries, and
-     those tagged 'name:<his key>' (every person the entry's statement names, President included)."""
+-    those tagged 'name:<his key>' (every person the entry's statement names, President included)."""
++    """The calendar entries of a person, in the calendar's order (chron.py): those whose 'Names:' line names one of
++    his Part III entries, and those tagged 'name:<his key>' (every person the entry's statement names, President
++    included)."""
      out, seen = [], set()
      for l, s, x in subs:
-@@ -1791,7 +1791,8 @@ def calendar_of(ptrs, subs, key=None, series=None):
+         for e in ptrs.calx.get(x["id"], []):
+@@ -1791,7 +1792,8 @@ def calendar_of(ptrs, subs, key=None, series=None):
          if e.get("date") and e["id"] not in seen:
              seen.add(e["id"])
              out.append(e)
 -    return sorted(out, key=lambda e: str(e["date"]))
-+    from . import chron, loose
-+    return chron.sort(series, out) if series is not None else sorted(out, key=loose.order_key)
++    from . import chron
++    return chron.sort(series if series is not None else ptrs.series, out)
  
  
  def series_lines(subs, cal):
-@@ -1803,6 +1804,7 @@ def series_lines(subs, cal):
+@@ -1803,6 +1805,7 @@ def series_lines(subs, cal):
  
  
  def calendar_sentences(ptrs, cal):
@@ -572,13 +716,14 @@ index f64d600..3762361 100644
      out = []
      for e in cal:
          if True:
-@@ -1811,7 +1813,8 @@ def calendar_sentences(ptrs, cal):
+@@ -1811,7 +1814,9 @@ def calendar_sentences(ptrs, cal):
              n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", e.get("n") or "").strip(), "cal", e) if e.get("n") else ""
              # each calendar entry a paragraph of its own, its sources and pointer after it
              wy = esc(e["when"]) if str(e["when"]).startswith(e["date"][:4]) else f"{esc(e['when'])}, {e['date'][:4]}"
 -            out.append(sent(e["date"], f"{wy}: {c}", [n] if n else [],
 +            # keyed by the day it is shown at (loose.place_day), so the life keeps the calendar's order (chron.py)
-+            out.append(sent(loose.place_day(e).isoformat() if loose.place_day(e) else e["date"], f"{wy}: {c}", [n] if n else [],
++            day = loose.place_day(e)
++            out.append(sent(day.isoformat() if day else e["date"], f"{wy}: {c}", [n] if n else [],
                              [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {wy}")], para=True,
                              kind="cal"))
      return out
@@ -695,6 +840,123 @@ index 71b2e65..75d61aa 100644
              half = calsplit.half_of_date(lst, loose.place_iso(e))
              link = calsplit.href(lst, half, e["id"])
              out.append(f'<li><a href="{html.escape(link)}">{html.escape(str(e.get("when") or e["date"]))}, '
+diff --git a/tools/bib/vis.py b/tools/bib/vis.py
+index 466e84c..f0e358b 100644
+--- a/tools/bib/vis.py
++++ b/tools/bib/vis.py
+@@ -17,7 +17,8 @@ STYLE
+     mechanical one) that ground it. An entry with no map, or whose rows are all `?`, is one claim, `all`, marked
+     unmapped; a `?` row joins every unit's witnesses and marks the unit unmapped (it may ground any of them); a unit
+     no row covers takes the whole entry's witnesses, unmapped. "Made public:" (the note's sentence for a private act)
+-    is a witness of every unit: its items' dates and series.
++    is a witness of every unit: its items' dates and series; an item "in China, ..." (LOCAL_NAMES; R27, a Red Guard
++    printing) is a local witness, public in that polity only (its P and A), and "elsewhere, ..." an ordinary one.
+  2. A witness (a row's source) is classified by the registry: a card by `works` (its kind, country, year; a periodical
+     card by its series), a link by the first series whose `url` its address holds, an item without a link by the first
+     whose `text` it names, a registered witness (`via` rows; sources/witnesses/) by its kind, its agents and its copies
+@@ -490,8 +491,32 @@ def from_witness(series, wid, event, addressed):
+     return W(wid, k, pub, public, privity if k != "official" else privity, "witnesses")
+ 
+ 
++# "Made public: in China, *Xin Beida*, June 28, 1967 (a Red Guard tabloid); elsewhere, [[w.x]] (2002)." (R27, the
++# owner, Nov. 21, 2026): an item opening "in <country>, " is a printing that circulated there only, public in that
++# polity alone; a country not in this map is looked up by its name in sources/polities.yaml ("France"; "China (the
++# People's Republic)" without its parenthesis). "elsewhere, " opens an ordinary item.
++LOCAL_NAMES = {"China": "prc", "the PRC": "prc", "the People's Republic of China": "prc", "the USSR": "ussr",
++               "the Soviet Union": "ussr", "the United States": "us", "France": "fr", "West Germany": "frg",
++               "Britain": "uk", "North Vietnam": "drv", "South Vietnam": "rvn", "Taiwan": "roc"}
++LOCAL_RX = re.compile(r"^in ([^,;]{2,40}),\s+")
++ELSEWHERE_RX = re.compile(r"^elsewhere,\s+")
++
++
++def local_polity(name):
++    """A "Made public:" item's "in <country>, " -> the polity's code, or None where the words name no polity."""
++    name = (name or "").strip().replace("’", "'")
++    if name in LOCAL_NAMES:
++        return LOCAL_NAMES[name]
++    for pid, p in polities()["polities"].items():
++        nm = str((p or {}).get("name") or "")
++        if name and name in (nm, re.sub(r"\s*\(.*\)$", "", nm), "the " + nm):
++            return pid
++    return None
++
++
+ def made_public(e, event, addressed):
+-    """The witnesses the note's "Made public:" sentence names (STYLE 1): each item's series and date."""
++    """The witnesses the note's "Made public:" sentence names (STYLE 1): each item's series and date; an item "in
++    China, ..." a local witness (pub that polity, `local`: it makes the act public there only)."""
+     from .claims import note_parts
+     out = []
+     for s in note_parts(e.get("n"))[1]:
+@@ -499,6 +524,12 @@ def made_public(e, event, addressed):
+             continue
+         body = re.sub(r"^Made public[^:]*:\s*", "", s).rstrip(".")
+         for it in re.split(r";\s+", body):
++            m = LOCAL_RX.match(it)
++            local = local_polity(m.group(1)) if m else None
++            if local:
++                it = it[m.end():]
++            else:
++                it = ELSEWHERE_RX.sub("", it)
+             lk = LINK.search(it)
+             ser = (series_for_url(lk.group(2)) if lk else None) or series_for_text(it)
+             card = re.search(r"\[\[(w\.[^\]|]+)", it)
+@@ -516,10 +547,15 @@ def made_public(e, event, addressed):
+                 pub, kind = row.get("country") or "?", row.get("kind") or "scholarship"
+             else:
+                 pub, kind = "?", "made public"
++            if local:
++                pub = local
+             if public == "?" and kind == "made public":
+                 continue
+-            out.append(W("Made public: " + it.strip()[:60], kind if kind != "archive" else "press", pub, public,
+-                         basis="made public"))
++            w = W("Made public: " + (f"in {m.group(1)}, " if local else "") + it.strip()[:60],
++                  kind if kind != "archive" else "press", pub, public, basis="made public")
++            if local:
++                w["local"] = True
++            out.append(w)
+     return out
+ 
+ 
+@@ -787,16 +823,20 @@ def compute(series, lst, e):
+         late = {X: max(d, date) for X, d in late.items()}   # a day not after the event's: privy from the event
+         privy |= set(late)
+         pubs = {}
+-        any_public = None
++        any_public, local_public = None, {}     # a local witness (R27: "in China, ...") makes it public there only
+         for w in known:
+             d = w["public"]
+             if d and d != "?":
+                 d = max(d, date) if w["kind"] in PUBLIC_KINDS else d
+-                any_public = min(any_public or d, d)
++                if w.get("local"):
++                    local_public[w["pub"]] = min(local_public.get(w["pub"], d), d)
++                else:
++                    any_public = min(any_public or d, d)
+                 for p in ([w["pub"]] if w["pub"] else []) + list(w.get("pubs") or []):
+                     if p != "?" and not is_org(p):
+                         pubs[p] = min(pubs.get(p, d), d)
+-        unknown_public = any(w["public"] == "?" for w in known)
++        unknown_public = any(w["public"] == "?" and not w.get("local") for w in known)
++        unknown_local = {w["pub"] for w in known if w["public"] == "?" and w.get("local")}
+         unknown_in = {w["pub"] for w in known if w["public"] == "?" and w["pub"]}   # where an undated one is published
+         pol = {}
+         for X in sorted(set(addr) | privy | set(pubs), key=order_key):
+@@ -807,9 +847,10 @@ def compute(series, lst, e):
+                 np_from = d0 if X in privy and (p_pub is None or p_pub > d0) else None
+                 rec["P"] = [np_from, p_pub or ("?" if X in privy and (X in unknown_in or "?" in unknown_in) else None)]
+             if X in addr:
+-                a_pub = any_public if any_public and any_public > date else (date if any_public else None)
+-                rec["A"] = [d0 if not any_public or any_public > d0 else None,
+-                            a_pub or ("?" if unknown_public else None)]
++                xp = min([d for d in (any_public, local_public.get(X)) if d] or [None])
++                a_pub = xp if xp and xp > date else (date if xp else None)
++                rec["A"] = [d0 if not xp or xp > d0 else None,
++                            a_pub or ("?" if unknown_public or X in unknown_local else None)]
+             pol[X] = rec
+         res2 = dict(res, polities=pol, tags=tags_at(pol, ref, date), computed=True)
+         fp = frame_ruling(e)
 diff --git a/tools/bib/vnmap.py b/tools/bib/vnmap.py
 index 9d5abc0..54d31b3 100644
 --- a/tools/bib/vnmap.py
