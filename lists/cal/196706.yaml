@@ -299,6 +299,31 @@ entries:
     c: Zhou Enlai talks before dawn with the Guangxi Military Region's heads.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 155 (under June 1, 1967). Made public: 2020. See [[cal.1967-06-01.china-leadership]]. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-06-02.china-leadership-2
+    when: June 2
+    date: '1967-06-02'
+    place: guiyang
+    thread: china-leadership
+    c: Guizhou University 貴州大學. Li Zaihan 李再含 founds a third one-faction revolutionary committee, over 3,000 of the police, procuracy and courts and other units guarding the meeting, with two false meeting places.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 486.'
+    src:
+      c: 7a8fd376
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 486: all'
+    tags: [polity:prc]
+  - id: cal.1967-06-02.china-leadership-3
+    when: June 2
+    date: '1967-06-02'
+    place: peking
+    thread: china-leadership
+    c: Peking. Zhang Jianqi 張建旗 puts up the poster "An open letter to Premier Zhou" 〈給周總理的一封公開信〉, putting 23 questions to Zhou Enlai; at the same time the Foreign Languages Institute's "June 16" fighting group under Liu Lingkai 劉令凱 attacks Zhou openly.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 553. To check: *Wu De koushu* (2004), 69 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 553 n.4). Names: Zhou Enlai.'
+    src:
+      c: d362f3fd
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 553: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 553 n.4: all'
+    tags: [polity:prc, name:zhou-enlai]
   - id: cal.1967-06-03.middle-east
     when: June 3
     date: '1967-06-03'
@@ -395,12 +420,19 @@ entries:
     thread: china-leadership
     also: [china]
     c: Wuhan. The conservatives form a headquarters, the "Million Heroes", claiming 1.2 million members, mostly Party, government, union and youth league cadres, older workers, militiamen and activists. Its leader is Wang Kewen, a Wuhan Party secretary and vice mayor; his deputy Xin Fu, the municipal Organization Department's director.
-    n: '[[w.macfarquhar-maos-last-revolution]], 202–203 (some 85 percent of Wuhan''s Party members "apparently" enrolled). To check: [[w.zaidao-haojie-zhongde-yi-mu]], 111 (cited by [[w.macfarquhar-maos-last-revolution]], 203 n.19); Wenge fengyun, no. 11 (1967), 10 (cited by [[w.macfarquhar-maos-last-revolution]], 203 n.20).'
+    n: '[[w.macfarquhar-maos-last-revolution]], 202–203 (some 85 percent of Wuhan''s Party members "apparently" enrolled); [[w.yang-jisheng-tiandi-fanfu]], I, 472 (the "Million Heroes" 百萬雄師, backed by the Wuhan Military Region and organized by the city People''s Armed Department, founded on May 16, forty or fifty conservative bodies, about 920,000, later 1,290,000). To check: [[w.zaidao-haojie-zhongde-yi-mu]], 111 (cited by [[w.macfarquhar-maos-last-revolution]], 203 n.19); Wenge fengyun, no. 11 (1967), 10 (cited by [[w.macfarquhar-maos-last-revolution]], 203 n.20); Ronggen 榮根, 〈武漢「7•20」事件40周年——「百萬雄師」頭頭俞文斌、章迪傑探訪記〉 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 472 n.24).'
     src:
       c: b0d61183
       rows:
         - 'w.macfarquhar-maos-last-revolution 202-203: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 472: ?'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 472 n.24: ?'
     tags: [polity:prc]
+    variants:
+      - unit: A
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: the Million Heroes is founded May 16, some 920,000 at first and 1,290,000 later, and moves to the city committee's compound June 4
+        at: I, 472
   - id: cal.1967-06-04.middle-east
     when: June 4
     date: '1967-06-04'
@@ -487,11 +519,12 @@ entries:
     place: wuhan
     thread: china-leadership
     c: 'The Wuhan Military Region issues an Announcement: it affirms the main direction of its support-the-left work and repeats that the Workers'' Headquarters'' verdict is not to be reversed, while criticizing some faults and mistakes in that work, and hopes the mass organizations will seek common ground, keep differences and reach a great alliance; both sides are dissatisfied.'
-    n: '[[w.mao-zedong-zhuan]], VI, ch. 76 (the day by the book; no note; the rebels call it ''a false self-criticism, a real counterattack'', the ''Million Heroes'' find it too weak).'
+    n: '[[w.mao-zedong-zhuan]], VI, ch. 76 (the day by the book; no note; the rebels call it ''a false self-criticism, a real counterattack'', the ''Million Heroes'' find it too weak). [[w.yang-jisheng-tiandi-fanfu]], I, 472 (the "Announcement of the PLA Wuhan Units" (the "June 4 Announcement"): ox-demons coming out of their pens; the Workers'' Headquarters cannot be restored; no attack on the PLA; after it the Million Heroes step up their armed attacks).'
     src:
       c: 29e5c905
       rows:
         - 'w.mao-zedong-zhuan VI, ch. 76: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 472: ?'
     tags: [polity:prc]
   - id: cal.1967-06-04.vietnam-hanoi
     when: June 4–5
@@ -508,6 +541,18 @@ entries:
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
     range_basis: record
+  - id: cal.1967-06-04.china-leadership-5
+    when: June 4
+    date: '1967-06-04'
+    place: wuhan
+    thread: china-leadership
+    c: 'Wuhan 武漢. The Million Heroes 百萬雄師 move their offices into the city committee''s compound; over 100 of the committee''s old cadres declare for them: "a million heroes cross the great river, the ox-demons swept away."'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 472.'
+    src:
+      c: 7e4c1b00
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 472: all'
+    tags: [polity:prc]
   - id: cal.1967-06-05.middle-east
     when: June 5
     date: '1967-06-05'
@@ -701,6 +746,18 @@ entries:
       - 1967-06-05T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1967-06-05.china-leadership-3
+    when: June 5
+    date: '1967-06-05'
+    place: chongqing
+    thread: china-leadership
+    c: Beibei 北碚, Chongqing, the Southwest Normal College 西南師範學院. The "Aug. 31" column fights the college's "Aug. 15"-side "Spring Thunder Rebel Corps"; both city factions send help. On its way back Chongqing University's "Aug. 15" is ambushed at Shijialiang 施家梁; Xiong Daifu 熊代富, its head and a vice-chairman of the Gelianhui, is captured, beaten, drugged and sent toward Peking "for the Group to handle."
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 494. To check: He Shu 何蜀, *Wei Mao zhuxi er zhan: wenge Chongqing da wudou shilu* 《為毛主席而戰：文革重慶大武鬥實錄》 (Joint Publishing, Hong Kong, 2010), and his *Chongqing wudou dashiji* 《重慶武鬥大事記》 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 489 n.39).'
+    src:
+      c: 5dd7cdf2
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 494: all'
+    tags: [polity:prc]
   - id: cal.1967-06-06.middle-east
     when: June 6
     date: '1967-06-06'
@@ -826,7 +883,14 @@ entries:
     date: '1967-06-06'
     thread: china-leadership
     c: 'Mao approves the Center, State Council, Military Commission and Group order against the recent "beating, smashing, looting, ransacking and seizing": none but the organs of dictatorship may, by law, seize people, set up private courts, search or ransack; none may seize or destroy files and seals of Party, government and army organs, or state and collective property; the garrison and local troops may arrest and detain the ringleaders and killers.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, June 6, 1967; [[w.macfarquhar-maos-last-revolution]], 204 (the general order, Zhongfa [1967] 178, at Mao''s suggestion: struggle by words, not weapons; no armed conflict or arbitrary arrest). Made public: 1988. To check: Zhongfa [1967] 178, in [[w.wenhua-dageming-yanjiu-ziliao]], I, 492 (cited by [[w.macfarquhar-maos-last-revolution]], 204 n.24). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, June 6, 1967; [[w.macfarquhar-maos-last-revolution]], 204 (the general order, Zhongfa [1967] 178, at Mao''s suggestion: struggle by words, not weapons; no armed conflict or arbitrary arrest); [[w.yang-jisheng-tiandi-fanfu]], I, 547 (the order of June 6, Zhongfa [67] 178 中發〔67〕178號: uphold the Cultural Revolution''s order and the dictatorship''s authority, protect the posters and debates, correct the wind of beating, smashing, looting, raiding and seizing). Made public: 1988. To check: Zhongfa [1967] 178, in [[w.wenhua-dageming-yanjiu-ziliao]], I, 492 (cited by [[w.macfarquhar-maos-last-revolution]], 204 n.24); 〈中共中央，國務院，中央軍委，中央文革小組通令〉, June 6, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 547 n.87). Names: Mao Zedong.'
+    src:
+      c: 32a4a1f0
+      rows:
+        - 'w.zedong-mao-zedong-nianpu VI, June 6, 1967: all'
+        - 'w.macfarquhar-maos-last-revolution 204: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 547: ?'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 547 n.87: ?'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1967-06-06.china-leadership-2
     when: June 6
@@ -1167,6 +1231,30 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao 158: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc+uar]
     time_zone: Asia/Shanghai
+  - id: cal.1967-06-08.china-leadership-2
+    when: June 8
+    date: '1967-06-08'
+    place: guiyang
+    thread: china-leadership
+    c: Guiyang 貴陽. The colleges' and middle schools' "Mao Zedong Thought Red Guards Apr. 11 Corps" 毛澤東思想紅衛兵4·11兵團 and the Guiyang workers' liaison station backing the "Apr. 11" faction are founded.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 486.'
+    src:
+      c: 002e6e5f
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 486: all'
+    tags: [polity:prc]
+  - id: cal.1967-06-08.china-leadership-3
+    when: June 8
+    date: '1967-06-08'
+    place: wuhan
+    thread: china-leadership
+    c: Wuhan 武漢. The Million Heroes 百萬雄師 issue the "Emergency mobilization order against the adverse current" 〈反逆流緊急動員令〉, a city-wide counterattack, drawn up at a meeting in the Military Region.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 522, 525.'
+    src:
+      c: 45cb238f
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 522, 525: all'
+    tags: [polity:prc]
   - id: cal.1967-06-09.middle-east
     when: June 9–11
     date: '1967-06-09'
@@ -1350,6 +1438,18 @@ entries:
     c: 'Zhou Enlai, with Center leaders and Cultural Revolution Group members, hears Wen Yucheng on the Cultural Revolution in Canton: conservative bodies are to be united and educated, not overthrown; help the mass bodies to a great alliance. To name Tao Zhu in the press must be put to Mao. On the factional fighting in the railway offices: "military control is unavoidable." He continues with Wen that evening.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 157 (June 9, 1967). Made public: 2020. Names: Zhou Enlai, Wen Yucheng, Tao Zhu.'
     tags: [name:zhou-enlai, name:tao-zhu, polity:prc, vis:only:prc]
+  - id: cal.1967-06-09.china-leadership-3
+    when: June 9
+    date: '1967-06-09'
+    place: peking
+    thread: china-leadership
+    c: Peking, the small auditorium of the Great Hall 人大會堂小禮堂. The old three armies' troupes perform again; the Center's leaders come, go up on the stage and are photographed with the performers.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 430.'
+    src:
+      c: 22cc2360
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 430: all'
+    tags: [polity:prc]
   - id: cal.1967-06-10.oil
     when: June 10
     date: '1967-06-10'
@@ -1584,6 +1684,19 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 417: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 417 n.1: all'
     tags: [polity:prc, name:mao-zedong]
+  - id: cal.1967-06-11.china-leadership-5
+    when: June 11
+    date: '1967-06-11'
+    place: peking
+    thread: china-leadership
+    c: 'Peking. The middle-school Red Guards of the "April 3" faction 四三派 put up the theoretical article "On the new trend of thought: manifesto of the April 3 faction" 〈論新思潮：四三派宣言〉.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 476. To check: 〈論新思潮:四三派宣言〉, June 11, 1967 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 476 n.31c).'
+    src:
+      c: 92f941bb
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 476: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 476 n.31c: all'
+    tags: [polity:prc]
   - id: cal.1967-06-12.civil-disorders
     when: June 12
     date: '1967-06-12'
@@ -2596,6 +2709,20 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 162: all'
     tags: [polity:prc, polity:india]
+  - id: cal.1967-06-17.china-leadership-5
+    when: June 17
+    date: '1967-06-17'
+    place: wuhan
+    thread: china-leadership
+    c: Hankou 漢口, Wuhan, about Sanmin Road 三民路 and the Zhongnan Hotel 中南旅社. The Million Heroes 百萬雄師 kill a number of rebels; by Shen Haoran 沈浩然 of the Million Heroes' Jianghan station, who directed the fight, 23 dead.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 472. To check: Cao Chengyi 曹承義, *Beixin jiaoji hua wenge* 《悲欣交集話文革》, ed. Zhong Yi 鍾逸, 34 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 472 n.25a); Ronggen 榮根, 〈武漢「7•20」事件40周年——「百萬雄師」頭頭俞文斌、章迪傑探訪記〉 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 472 n.25b).'
+    src:
+      c: f1c1fbf7
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 472: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 472 n.25a: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 472 n.25b: all'
+    tags: [polity:prc]
   - id: cal.1967-06-18.opinion
     when: June 18
     date: '1967-06-18'
@@ -2983,6 +3110,17 @@ entries:
     c: Zhou Enlai sends a plane to bring Liu Ruisen and others to Peking.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 159 (June 20, 21, 1967). Made public: 2020. Names: Zhou Enlai, Liu Ruisen.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-06-20.china-leadership-3
+    when: June 20
+    date: '1967-06-20'
+    thread: china-leadership
+    c: Xie Fuzhi 謝富治, Yu Lijin 余立金 and Wang Li 王力, with Red Guards of the Peking Aeronautics Institute (Jinggangshan), form the Center's investigation group and go to the Southwest to deal with Kunming, Chengdu and Guiyang.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 523. Made public: 2001. To check: [[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed.), 下, 251 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 523 n.9). Names: Xie Fuzhi.'
+    src:
+      c: 7ffe7aa3
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 523: all'
+    tags: [polity:prc, vis:only:prc, name:xie-fuzhi, ok:fields-place]
   - id: cal.1967-06-21.economy-debt-limit
     when: June 21
     date: '1967-06-21'
@@ -3502,12 +3640,19 @@ entries:
     thread: china-leadership
     also: [china]
     c: Wuhan. The Million Heroes take the rebel workers' headquarters, killing twenty-five of its defenders.
-    n: '[[w.macfarquhar-maos-last-revolution]], 204. Check: the book (204) names no source; the note before it (204 n.26) is on the Center''s appeal.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 204; [[w.yang-jisheng-tiandi-fanfu]], I, 472 (the Million Heroes attack the Workers'' Rebel General Headquarters in arms, and at the same time the Hanyang steel rolling mill and the Railway Ministry''s Fourth Design Institute at Yangyuan, Wuchang; 28 of the General Headquarters'' men killed and over 60 badly wounded). Check: the book (204) names no source; the note before it (204 n.26) is on the Center''s appeal. To check: Wu Yanjin 吳焱金, *Sishisan nian wangzhong youji* 《四十三年望中猶記》, ed. Zhong Yi (electronic ed.) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 472 n.26).'
     src:
       c: e1a1b7ba
       rows:
         - 'w.macfarquhar-maos-last-revolution 204: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 472: ?'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 472 n.26: ?'
     tags: [polity:prc]
+    variants:
+      - unit: A
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: 28 of the Workers' Rebel General Headquarters are killed and over 60 badly wounded, not 25
+        at: I, 472
   - id: cal.1967-06-25.opinion
     when: June 25
     date: '1967-06-25'
@@ -3738,6 +3883,18 @@ entries:
       rows:
         - 'w.macfarquhar-maos-last-revolution 205: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1967-06-26.china-leadership-4
+    when: June 26
+    date: '1967-06-26'
+    place: nanning
+    thread: china-leadership
+    c: Nanning 南寧. The "Lianzhi" breaks into the Federation of Literary and Art Circles' building from the grain department's side; all 600 of the "4·22" inside are captured, taken to the regional materials bureau, some bound, blindfolded, interrogated and beaten.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45).'
+    src:
+      c: a38de7fc
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 504: all'
+    tags: [polity:prc]
   - id: cal.1967-06-27.school-aid
     when: June 27–29
     date: '1967-06-27'
@@ -3995,7 +4152,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai, receiving the Guangxi factions' delegates for the fourth time, tells them first to "cool off" and study Mao's "On the Correct Handling of Contradictions among the People", then agree to carry out the Center's notice of June 24.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 162–163 (June 29, 1967, the item after). Made public: 2020. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 162–163 (June 29, 1967, the item after); [[w.yang-jisheng-tiandi-fanfu]], I, 504 (Zhou''s fourth reception, at the Great Hall, chiefly to hear the "4·22"; his instructions on stopping the fighting, which does not stop). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-06-29.china
     when: June 29
@@ -4033,6 +4190,18 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 164: all'
     tags: [polity:prc, polity:uk]
+  - id: cal.1967-06-29.china-leadership-5
+    when: June 29
+    date: '1967-06-29'
+    thread: china-leadership
+    c: 'The No. 23 Installation Company 23安裝工程公司 (first the No. 103), builders of the atomic works: an armed fight over the whole works.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 611. To check: Yu Fenghua 于峰華, 〈我親歷的清理階級隊伍〉, *Yanhuang chunqiu* 《炎黃春秋》, 2008, no. 2 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 611 n.76).'
+    src:
+      c: f9c70502
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 611: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 611 n.76: all'
+    tags: [polity:prc, ok:fields-place]
   - id: cal.1967-06-30.draft
     when: June 30
     date: '1967-06-30'
@@ -4753,3 +4922,42 @@ entries:
     c: 'The Politburo decides to prepare a decisive blow, while the Americans are in a dilemma and wholly taken up with their election: to destroy campaign-level and strategic units, Americans and Saigon''s alike, and force an American defeat in the field.'
     n: '[[w.lich-su-khang-chien-chong-my]], V, 30–31. Made public: 2013. Check: the day.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1967-06.china-leadership-13
+    when: June, early
+    date: 1967-06
+    at: before 1967-06-01
+    place: nanning
+    thread: china-leadership
+    c: Nanning 南寧. The "4·22" storms the Guangxi Military District six times, posting and writing slogans in its compound and holding meetings and marches against the "handful in the Party, government and army".
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 501 n.45). The span, June 1–12, is the page''s; the six stormings are not dated singly.'
+    src:
+      c: ef28da9d
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 504: all'
+    tags: [polity:prc]
+  - id: cal.1967-06.china-leadership-14
+    when: June, early
+    date: 1967-06
+    at: before 1967-06-01
+    place: nanning
+    thread: china-leadership
+    c: Nanning 南寧. The "Lianzhi" 聯指 marches six times around the Guangxi Military District, rallying thousands against the "4·22"'s storming, and moves into the compound.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 504. See [[cal.1967-06.china-leadership-13]]. The span, June 1–12, is the page''s; the marches are not dated singly.'
+    src:
+      c: '25636197'
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 504: all'
+    tags: [polity:prc]
+  - id: cal.1967-06-30.china-leadership-2
+    when: June 30–July 1
+    date: '1967-06-30'
+    place: peking
+    thread: china-leadership
+    c: 'Peking, the Foreign Languages Institute 北京外語學院. The "Capital May 16 Red Guard Corps" 首都5•16紅衛兵團 of the students against Zhou holds its first congress: its resolution calls Zhou Enlai "a general of the Liu–Deng headquarters," "China''s greatest counter-revolutionary double-dealer," behind the "December black wind" and the "capitalist restoration current"; it vows a fight to the death with Tan Zhenlin, Li Xiannian, Chen Yi, Yu Qiuli and Gu Mu.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 553, 555. To check: the resolution, in Song Yongyi 宋永毅, ed., *Zhongguo wenhua dageming wenku* 《中國文化大革命文庫》 (2006, 2nd ed.) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 555 n.6). Names: Zhou Enlai, Tan Zhenlin, Li Xiannian, Chen Yi.'
+    src:
+      c: cec48490
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 553, 555: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 555 n.6: all'
+    tags: [polity:prc, name:zhou-enlai, name:tan-zhenlin, name:li-xiannian, name:chen-yi]
