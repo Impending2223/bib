@@ -1,0 +1,427 @@
+patch: 2026-11-21-b15b-teiwes-2
+by: 'Claude (batch 15b, Teiwes and Sun, The Tragedy of Lin Biao, run 2: the Appendix for 1960–65, pp. 187–213, and pp. 24–31, 62), Nov. 21, 2026'
+ops:
+- edit:
+    id: cal.1960.china-leadership-12
+    base: a5ee2c40
+    set:
+      when: Oct. 20
+      date: '1960-10-20'
+      place: peking
+- add:
+    entry:
+      id: cal.1960.china-leadership-120
+      when: '1960'
+      date: '1960'
+      thread: china-leadership
+      c: Mao Zedong 毛泽东 singles out Lin Biao 林彪 and Deng Xiaoping 邓小平 as future successors.
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 187 ("about this year"; the authors take it to mean after the older Liu Shaoqi). Made public: 1996 ([[w.teiwes-tragedy-of-lin-biao]], from an interview). To check: a Party historian specializing on Lin Biao, interview by Teiwes and Sun, as they report it (cited by [[w.teiwes-tragedy-of-lin-biao]], 187 n.47). See [[cal.1965.china-leadership-23]]. Names: Mao Zedong, Lin Biao, Deng Xiaoping.'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:lin-biao
+      - name:deng-xiaoping
+      - vis:only:prc
+      src:
+        c: dd4caf68
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 187: all'
+        - 'via x.undated.teiwes-sun-interview-party-historian-lin-biao: all'
+- add:
+    entry:
+      id: cal.1960.china-leadership-121
+      when: 1960, early
+      date: '1960'
+      at: before 1960-01
+      thread: china-leadership
+      c: Ye Qun 叶群 becomes director of Lin Biao's 林彪 office, apparently with Mao's 毛泽东 blessing.
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 187 ("early (?) this year"). Made public: 1993 ([[w.lin-biao-1959-nian]]; [[w.weixun-wo-suo-zhidaode-ye]]). To check: [[w.lin-biao-1959-nian]], 135 (cited by [[w.teiwes-tragedy-of-lin-biao]], 187 n.48a); [[w.weixun-wo-suo-zhidaode-ye]], 223 (cited by [[w.teiwes-tragedy-of-lin-biao]], 187 n.48b) (Mao''s blessing). See [[cal.1960.china-leadership-3]]. Names: Ye Qun, Lin Biao, Mao Zedong. Check: the time of year; the book queries "early."'
+      tags:
+      - polity:prc
+      - name:ye-qun
+      - name:lin-biao
+      - name:mao-zedong
+      - vis:only:prc
+      src:
+        c: 9cd76bf4
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 187: all'
+- cite:
+    id: cal.1960-01-07.china-leadership
+    item: '[[w.teiwes-tragedy-of-lin-biao]], 188 (the enlarged Politburo at Shanghai; Lin''s report on national defense)'
+    units: A, D
+- variant:
+    id: cal.1960-01-07.china-leadership
+    unit: B
+    witness: w.teiwes-tragedy-of-lin-biao
+    reads: the enlarged Politburo held at Shanghai Jan. 1–17
+    at: '188'
+- cite:
+    id: cal.1960-01-14.china-leadership-2
+    item: '[[w.teiwes-tragedy-of-lin-biao]], 188 (Lin''s report to the Center on national defense, undated there: political work first in military affairs; the "three eight work style" advanced for the first time; by report, a militia of 600 divisions proposed)'
+- add:
+    entry:
+      id: cal.1960-01-11.china-leadership-4
+      when: Jan. 11
+      date: '1960-01-11'
+      place: peking
+      thread: china-leadership
+      c: Peking. The national militia work conference opens, under the General Staff and the General Political Department (to Jan. 19).
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 188. Made public: Check (the book cites no source for it, 169 n.1).'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      src:
+        c: 2649fecb
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 188: all'
+- cite:
+    id: cal.1960-01-22.china-leadership-7
+    item: '[[w.teiwes-tragedy-of-lin-biao]], 188 (the enlarged Military Commission at Canton, Jan. 22–Feb. 27)'
+    units: A, B
+- variant:
+    id: cal.1960-01-22.china-leadership-7
+    unit: B
+    witness: w.teiwes-tragedy-of-lin-biao
+    reads: the enlarged meeting of the Military Commission held at Canton Jan. 22–Feb. 27
+    at: '188'
+- add:
+    entry:
+      id: cal.1960-02.china-leadership-13
+      when: Feb.
+      date: 1960-02
+      place: canton
+      thread: china-leadership
+      c: 'Canton. Lin Biao 林彪, to the senior military cadres'' meeting during the enlarged Military Commission: the "three eight work style" elaborated; the army to recite Mao''s most important works.'
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 188. Made public: Check (the book cites no source for it, 169 n.1). See [[cal.1960-01-22.china-leadership-7]]. Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+      - vis:only:prc
+      src:
+        c: d0fcb2f2
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 188: all'
+- add:
+    entry:
+      id: cal.1960-03.china-leadership-22
+      when: Mar.–Apr.
+      date: 1960-03
+      thread: china-leadership
+      c: The PLA's political work conference. Tan Zheng 谭政, head of the General Political Department, by later charges, fails to heed and pass on Lin Biao's 林彪 instruction on the "three eight work style."
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 188 ("allegedly"). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.jin-1949-1989-niande-zhongguo]], 310 (cited by [[w.teiwes-tragedy-of-lin-biao]], 188 n.49). Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+      - vis:only:prc
+      src:
+        c: f265e1d5
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 188: all'
+- add:
+    entry:
+      id: cal.1960-04.china-leadership-29
+      when: Apr.
+      date: 1960-04
+      thread: china-leadership
+      c: 'Lin Biao 林彪, an inscription for the PLA Political Academy: political and ideological work the first of all factors in the army''s fighting strength.'
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 188. Made public: Check (the book cites no source for it, 169 n.1). Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+      - vis:only:prc
+      src:
+        c: cc9ddd02
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 188: all'
+- cite:
+    id: cal.1960-04-27.china-leadership-3
+    item: '[[w.teiwes-tragedy-of-lin-biao]], 188 (Lin''s concluding speech: American imperialism condemned; the militia to complement the regular forces against nuclear and missile war; the conference chaired by Luo Ronghuan, Zhu De, He Long and Luo Ruiqing attending)'
+    units: A, B
+- add:
+    entry:
+      id: cal.1960-05.china-leadership-23
+      when: May
+      date: 1960-05
+      thread: china-leadership
+      c: 'Lin Biao 林彪 rebukes Tan Zheng 谭政: "Do you understand the [appropriate] relationship between an institution and its Party committee?"'
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 188 (Lin himself the Party committee meant, the authors gloss). Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: [[w.jin-1949-1989-niande-zhongguo]], 310 (cited by [[w.teiwes-tragedy-of-lin-biao]], 188 n.49). Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+      - vis:only:prc
+      src:
+        c: d8c6e026
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 188: all'
+- add:
+    entry:
+      id: cal.1960-05-21.china-leadership-12
+      when: May 21–27
+      date: '1960-05-21'
+      thread: china-leadership
+      c: The PLA's conference of culture and education activists. Luo Ruiqing 罗瑞卿 and Xiao Hua 萧华, Tan Zheng's deputy in the General Political Department, at it press the "three eight work style."
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 189. Made public: Check (the book cites no source for it, 169 n.1). Names: Luo Ruiqing.'
+      tags:
+      - polity:prc
+      - name:luo-ruiqing
+      - vis:only:prc
+      src:
+        c: 63fb3ff0
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 189: all'
+- add:
+    entry:
+      id: cal.1960-05.china-leadership-24
+      when: May–July
+      date: 1960-05
+      thread: china-leadership
+      c: 'Lin Biao 林彪, inspecting navy, air force and army units in the Jinan Military Region, instructions: man, not weapons, decides victory; rely at all times on politics, on the masses'' political awareness and zeal.'
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 189. Made public: Check (the book cites no source for it, 169 n.1). Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+      - vis:only:prc
+      - ok:fields-place
+      src:
+        c: 51b6fd2b
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 189: all'
+- add:
+    entry:
+      id: cal.1960-08.china-leadership-19
+      when: Aug.
+      date: 1960-08
+      thread: china-leadership
+      c: 'Lin Biao 林彪, at a small-group session of the PLA''s eighth work conference on military academies: the curriculum to be compressed and simplified, better focused; Lao Tzu: "Less is the key to wisdom, more can only lead to bewilderment."'
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 189. Made public: Check (the book cites no source for it, 169 n.1). Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+      - vis:only:prc
+      src:
+        c: a5f73fb8
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 189: all'
+- add:
+    entry:
+      id: cal.1960-09.china-leadership-14
+      when: Sept.
+      date: 1960-09
+      thread: china-leadership
+      c: 'Lin Biao 林彪, replying to correspondents of the *Jiefangjun bao*: grasp the essence and spirit of Mao Zedong Thought; empty dogmatism and bookishness no good for fighting strength.'
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 189. Made public: Check (the book cites no source for it, 169 n.1). Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+      - vis:only:prc
+      src:
+        c: 5d091787
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 189: all'
+- add:
+    entry:
+      id: cal.1960-09-12.china-leadership-10
+      when: Sept. 12
+      date: '1960-09-12'
+      thread: china-leadership
+      c: 'Lin Biao 林彪, to the Military Commission''s Standing Committee on the eve of its enlarged meeting: the "four firsts," the human factor, political work, ideological work and living thought.'
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 189 (the name "four firsts" coined later by Wu Faxian; Mao''s praise made it famous). Made public: Check (the book cites no source for it, 169 n.1). Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+      - vis:only:prc
+      src:
+        c: ca7f8b07
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 189: all'
+- cite:
+    id: cal.1960-09-14.china-leadership-9
+    item: '[[w.teiwes-tragedy-of-lin-biao]], 189 (the enlarged Military Commission at Peking, Sept. 14–Oct. 20)'
+    units: A, B
+- variant:
+    id: cal.1960-09-14.china-leadership-9
+    unit: C
+    witness: w.teiwes-tragedy-of-lin-biao
+    reads: the enlarged meeting held Sept. 14–Oct. 20
+    at: '189'
+- add:
+    entry:
+      id: cal.1960-09-20.china-leadership-11
+      when: Sept. 20
+      date: '1960-09-20'
+      place: peking
+      thread: china-leadership
+      c: Peking, the enlarged Military Commission. Tan Zheng 谭政 reports on political and ideological work.
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 189. Made public: Check (the book cites no source for it, 169 n.1). See [[cal.1960-09-14.china-leadership-9]].'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      src:
+        c: f1ee9877
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 189: all'
+- add:
+    entry:
+      id: cal.1960-09-22.china-leadership-3
+      when: Sept. 22
+      date: '1960-09-22'
+      thread: china-leadership
+      c: Lin Biao 林彪, at the enlarged Military Commission, decides to "expose the issue thoroughly."
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 189 (the authors take it as Lin''s answer to Tan Zheng''s report of Sept. 20). Made public: Check (the book cites no source for it, 169 n.1). Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+      - vis:only:prc
+      src:
+        c: 1fd83bbf
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 189: all'
+- add:
+    entry:
+      id: cal.1960-09.china-leadership-15
+      when: Sept., after the 22nd
+      date: 1960-09
+      at: after 1960-09-22
+      thread: china-leadership
+      c: At the enlarged Military Commission, Tan Zheng's 谭政 General Political Department charged with "coming very close to being an independent kingdom."
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 189. Made public: Check (the book cites no source for it, 169 n.1). See [[cal.1960-09-22.china-leadership-3]].'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      src:
+        c: a86ae8d3
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 189: all'
+- add:
+    entry:
+      id: cal.1960-09.china-leadership-16
+      when: Sept.–Oct., at the enlarged Military Commission
+      date: 1960-09
+      at: after 1960-09-14
+      thread: china-leadership
+      c: Luo Ruiqing 罗瑞卿 proposes to Lin Biao 林彪 that he stress the Gutian resolution of 1929, sets up a separate drafting group, and vets and revises the draft resolution, then a single one, stressing Lin's "three eight work style," before it goes to Lin.
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 190. Made public: 1991 ([[w.yao-luo-ruiqing]]). To check: [[w.yao-luo-ruiqing]], 210–212 (cited by [[w.teiwes-tragedy-of-lin-biao]], 190 n.50). Names: Luo Ruiqing, Lin Biao.'
+      tags:
+      - polity:prc
+      - name:luo-ruiqing
+      - name:lin-biao
+      - vis:only:prc
+      src:
+        c: 19ff87b5
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 190: all'
+- cite:
+    id: cal.1960-09-30.china-leadership-9
+    item: '[[w.teiwes-tragedy-of-lin-biao]], 190 (Lin''s essay "The victory of the Chinese people''s revolutionary warfare is none other than the victory of Mao Zedong Thought," marking the fourth volume, dated Oct. 1)'
+- variant:
+    id: cal.1960-09-30.china-leadership-9
+    unit: A
+    witness: w.teiwes-tragedy-of-lin-biao
+    reads: Lin's essay on the fourth volume published Oct. 1
+    at: '190'
+- add:
+    entry:
+      id: cal.1960-10.china-leadership-22
+      when: Oct.
+      date: 1960-10
+      thread: china-leadership
+      c: The General Political Department edits and publishes the *Collection of Marshal Lin Biao's Abridged Speeches on Political and Ideological Work*.
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 190. Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+      src:
+        c: bc4f3ce6
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 190: all'
+- cite:
+    id: cal.1960-10-20.china-leadership-13
+    item: '[[w.teiwes-tragedy-of-lin-biao]], 189–190 (the conference closes with two resolutions, on the army''s political and ideological work and on the "mistakes of Comrade Tan Zheng")'
+- cite:
+    id: cal.1960.china-leadership-12
+    item: '[[w.teiwes-tragedy-of-lin-biao]], 190–191 (Lin''s long speech to the closing session, Oct. 20, the text the book cites at *Gaoju* 145–154: the "spiritual atom bomb"; to grab and hold political power, and to develop the people''s productivity; 60 to 80 percent of the time for military training; Mao''s Thought "the peak" said at the meeting)'
+- to-check:
+    id: cal.1960.china-leadership-12
+    add: '[[w.gaoju-mao-zedong-sixiang]], 145–154 (cited by [[w.teiwes-tragedy-of-lin-biao]], 191 n.51).'
+- add:
+    entry:
+      id: cal.1960-10-25.china-leadership-10
+      when: Oct. 25
+      date: '1960-10-25'
+      thread: china-leadership
+      c: The General Political Department's Party committee opens an enlarged meeting, an internal rectification (to Jan. 25, 1961).
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 192. Made public: Check (the book cites no source for it, 169 n.1).'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      src:
+        c: 4d871a01
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 192: all'
+- add:
+    entry:
+      id: cal.1960-10.china-leadership-23
+      when: Oct.–Dec.
+      date: 1960-10
+      thread: china-leadership
+      c: Lin Biao 林彪, instructions on topics from military journalism to the army's recreation.
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 191. Made public: Check (the book cites no source for it, 169 n.1). Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+      - vis:only:prc
+      src:
+        c: 10e63b59
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 191: all'
+- add:
+    entry:
+      id: cal.1960-11-03.china-leadership-16
+      when: Nov. 3
+      date: '1960-11-03'
+      thread: china-leadership
+      c: Luo Ronghuan 罗荣桓 urges Xiao Hua 萧华 to write the Center a report that the army play a larger part in local affairs, above all where the Leap was badly mismanaged.
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 191. Made public: 1991 ([[w.luo-ronghuan-zhuan]]). To check: [[w.luo-ronghuan-zhuan]], 576 (cited by [[w.teiwes-tragedy-of-lin-biao]], 191 n.52). Names: Luo Ronghuan.'
+      tags:
+      - polity:prc
+      - name:luo-ronghuan
+      - vis:only:prc
+      src:
+        c: 0d075997
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 191: all'
+- cite:
+    id: cal.1960-11-10.china-leadership-4
+    item: '[[w.teiwes-tragedy-of-lin-biao]], 191 (Lin''s opposition, undated there: Luo Ronghuan''s intentions good, but it may lead to "presumptuous intervention in local civilian affairs")'
+- to-check:
+    id: cal.1960-11-10.china-leadership-4
+    add: '[[w.luo-ronghuan-zhuan]], 576 (cited by [[w.teiwes-tragedy-of-lin-biao]], 191 n.52).'
+- cite:
+    id: cal.1960-11-15.china-leadership-5
+    item: '[[w.teiwes-tragedy-of-lin-biao]], 191 (Mao''s comment on Xiao Hua''s report, Nov. 15: "Do it according to Comrade Lin Biao''s view")'
+- to-check:
+    id: cal.1960-11-15.china-leadership-5
+    add: '[[w.luo-ronghuan-zhuan]], 576 (cited by [[w.teiwes-tragedy-of-lin-biao]], 191 n.52).'
+- cite:
+    id: cal.1960-12-14.china-leadership-2
+    item: '[[w.teiwes-tragedy-of-lin-biao]], 190 (Lin sends Mao the draft; Mao, pleased, has Tian Jiaying, Luo Ruiqing and Xiao Hua polish it, and adds that all units carry it out and report yearly; undated there)'
+- to-check:
+    id: cal.1960-12-14.china-leadership-2
+    add: '[[w.yao-luo-ruiqing]], 210–212 (cited by [[w.teiwes-tragedy-of-lin-biao]], 190 n.50).'
+- add:
+    entry:
+      id: cal.1960-12-31.china-leadership-8
+      when: Dec. 31
+      date: '1960-12-31'
+      thread: china-leadership
+      c: 'Lin Biao 林彪 sets the army''s work for 1961: every soldier good at five things, political thought, military technique, work style, duties and fitness; every company at four, political work, style, training and life.'
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 191. Made public: Check (the book cites no source for it, 169 n.1). Names: Lin Biao.'
+      tags:
+      - polity:prc
+      - name:lin-biao
+      - vis:only:prc
+      src:
+        c: 9b7a5686
+        rows:
+        - 'w.teiwes-tragedy-of-lin-biao 191: all'

@@ -1,0 +1,37 @@
+# Book-check: *Jianguo yilai zhongyao wenxian xuanbian* 建国以来重要文献选编 (card w.jianguo-yilai-zhongyao-wenxian)
+
+The set: Zhonggong Zhongyang Wenxian Yanjiushi 中共中央文献研究室 ed., 20 vols. (Zhongyang wenxian chubanshe 中央文献出版社, 1992–98), documents of 1949–65, a volume to a year or half-year (vol. 13, 1960; 14, 1961; 15, 1962; 16–17, 1963; 18–19, 1964; 20, 1965). Cited by volume and page: "[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 123". Each volume's readers append a section here; append only.
+
+## Vol. 13 (Nov. 21)
+
+### Run 1 (batch 15b, Nov. 21, 2026; patch `inbox/2026-11-21-b15b-wenxian-13.yaml`, witnesses `inbox/witnesses/2026-11-21-b15b-wenxian-13.yaml`, edges `sources/witnesses/by-work/jianguo-yilai-zhongyao-wenxian.yaml`)
+
+**The copy.** A scan of 811 PDF pages (FreePic2Pdf, 2018), OCRed once (tesseract `chi_sim`), one text file a page. Printed = PDF − 15 (PDF 16 = 1, 26 = 11, 105 = 90, 400 = 385, 624 = 609, 725 = 710, 798 = 783: the folios read on the image). Contents PDF 6–15; text 1–786 (PDF 16–801). **Copyright page** (PDF 802, read on the image): 第十三册, 中央文献出版社出版发行 (北京1740信箱), 新华书店经销, 北京新魏印刷厂印刷; 1996年5月第1版, 1996年5月第1次印刷; 印数 00,001–10,000; ISBN 7-5073-0301-2/D·86, 定价 43.00元. **No 内部发行 mark** on the copyright page; sold through Xinhua bookstores: an open printing, so "Made public: 1996" for what it is the first to print in full (R27). Every title and date line was read on crops of the 300-dpi page image; the names, figures and the few time words entered were read on the image where the OCR could be doubted (the Spare-Time Education Committee's officers, 稷山, the six provinces 冀鲁豫皖苏鄂, the labor shares, the commune accounts, the oil stocks, the 64 key universities, the cadres sent down, the grain shipped, the Hunan brigades).
+
+**What the volume is.** 80 documents dated in 1960, Jan. 1 to Dec. 21, each with its source line ("根据中共中央文件刊印", the State Council's document, the *Renmin ribao* of a given day, *Hongqi* 1960 no. 8, *Deng Xiaoping wenxuan* I, *Lu Dingyi wenji*, *Li Fuchun xuanji*, the Central Archives' letterpress copy) and endnotes. Forwarded reports, decisions' annexes and replies' requests are printed after the Center's comment (four listed as "附件" in the contents); one entry is made for the Center's act, the report's own date in `c` or the cite. The notes are of three kinds: what the book leaves out ("本书从略"), glosses, and dated acts the document names; the last are entered.
+
+**Pages read.** All of 1–786 (the whole volume; every document within the span). Each document's opening and gist read in the OCR, its title, date and source line on the image; the endnotes of every document read whole.
+
+**Entered.** 79 documents within the span (Jan. 12–Dec. 21, 1960):
+- 41 already in the calendar (from the *Wengao*, the Mao, Zhou, Liu, Deng and Peng chronologies, *Mubei*, Dikötter, Chen Yun, MacFarquhar): a cite each with the volume and pages and what the text adds; 49 cites in all (a few documents also bear on a second entry: the drafting entries of Mar. 3 and 4, the Politburo of Mar. 5, the Guizhou forwarding of Feb. 26, the NPC's close of Apr. 10, the Apr. 12 grain document, the *Renmin ribao* printing of Sept. 4, the State Council's 105th meeting of Nov. 17).
+- 38 new entries, one a document.
+- 6 new entries from the notes and the texts' own dated acts: the Center's approval of the Jishan 稷山 health conference report (Feb. 2); the Center's adjustment of the 1960 budget to 78.1 billion yuan (May 27); its approval of the industrial secretaries' minutes (Apr. 29); the General Office's issue of Qi Yanming's report (Aug. 1); the enlarged Military Commission's resolution on political work (Oct. 20); the State Council's promulgation of the relics regulations (Mar. 4, 1961).
+- 34 edits, all R27 (the tree's "Made public" 1997–2023 on entries whose act the volume prints in full now 1996, "([[w.jianguo-yilai-zhongyao-wenxian]], XIII, pages)"), one of them also setting the Ten-Year Summary's hour (8 a.m., `time` 1960-06-18T00:00Z, Asia/Shanghai) and place (Shanghai, by the entry's own note); 1 check (the ACFTU report on Xiangfang dated Feb. 23 here, Feb. 22 by the *Wengao*).
+- Visibility: 42 of the 44 adds `vis:only:prc` with "Made public: 1996" (one, the Spare-Time Education notice, "Made public: [[w.renmin-ribao]], Feb. 23, 1960", the source line's day; one, Li Fuchun's ten lessons, made public by *Li Fuchun xuanji*, 1996 at the latest); 2 public (the vegetable directive, printed in the *Renmin ribao* the same day; the State Council's promulgation of Mar. 4, 1961).
+- Witnesses: 1 row (the Ten-Year Summary's letterpress copy in the Central Archives, a print of the manuscript row the *Mao zhuan* reader registered) and its edge. The documents the notes name but the book leaves out carry no date or repository of their own here, so no rows (R35: rows only where what and where can be said).
+
+**Passed over (R44; R18's grounds only).** Made by reading every document's date line and notes against the patch and the calendar.
+
+| page | date | event | why |
+|---|---|---|---|
+| 1–10 | Jan. 1, 1960 | *Renmin ribao* editorial "Looking forward to the sixties" 展望六十年代 | out of the brief: before Jan. 6, 1960 (R1). The task brief gave the span from Jan. 1; R1 and the calendar (no entry before Jan. 6) do not: for the owner |
+| 59 | Jan. 1960 (the Shanghai meeting) | the Center prints the Hebei and Heilongjiang committees' reports on urban communes for the meeting | a lead: the text gives no day |
+| 214–215 n.1 | Oct. 1959 | the Center forwards the Education Ministry's request on literacy | out of the brief (before the span) |
+| 493 n.2 | Dec. 1955, Jan. 1958, Aug. 1984 | the Ding Ling case and its reversal | out of the brief |
+| 649 | Mar. 1959 | the Center names 20 key universities | out of the brief |
+
+**Leads.** The documents the notes name and the book leaves out: the State Science and Technology Commission's 1960 plan; the Taiyuan resolution; the Henan report on urban communes; the report on China's part in the East Pakistan fair; the Metallurgy Ministry's report on the "small foreign groups"; the Water Conservancy and Power Ministry's six-province report and outline; the Economic Commission's emergency steel measures; the Qinghua tool plant's material; Wang Yanchun's Mianyang report and Chang Dengbang's Chengmen report; Wang Renzhong's report, the Mianyang summary and the Tonghaikou report; the Nanchong and Wenjiang papers; the Grain Ministry's reports of August; the annexes of the second account and the second-half capital construction plan.
+
+**Doubts.** (1) Docs 3 and 75: the State Council's decisions take `place: peking` as the seat (P-rules); the Center's documents take none. (2) The forwarded reports' own acts (a ministry's or a committee's report of an earlier day) are told in the forwarding entry's `c`, as the task brief has it, not entered on their own days. (3) R27 edits replace only the "Made public" sentence; Checks and To-checks that this volume now answers (the "whether the first edition's notes give it" Checks; the To-checks naming XIII on Aug. 10, 1960) are left for the merger, since an edit may not drop a Check.
+
+**Counts.** 80 documents (79 within the span); 44 adds (3 with `place`, none with an hour: the documents give none but the Ten-Year Summary's, which went to its tree entry by edit); 49 cites on 48 entries; 34 edits; 1 check; 0 variants; 1 witness row, 1 edge; 0 cards. `./bib patch-check`: 0 errors; `./bib fields --patch`: 0 findings. Run 2: none needed; the volume is read to its end.

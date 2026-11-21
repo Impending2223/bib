@@ -761,3 +761,86 @@ Opus audit of patch `2026-11-21-b15b-buweihua-5` (pp. 168–223: the Tsinghua mi
 **For the merger.** (1) Keep (`--take keep`) the duplicate flags patch-check raises on all 119 adds (same day, month or year; read and distinct). The nearest: `cal.1966-08-10.china-leadership-8` (Kang's afternoon speech; his attack on Chen Yun is `-7`), `cal.1966-08-04.china-leadership-11` (Deng's speech in the Central-South group, held in the tree only in a parenthetical of `cal.1966-08-04.china-leadership-5`), `cal.1966-08-05.china-leadership-15` (Liu's reception of the Zambians, held only in the parenthetical of `-5`), `cal.1966-08-23.china-leadership-14` (the second editorial of Aug. 23, held only in the note of `-3`), `cal.1966-07-25.china-leadership-7` (the first Peking University rally; the second is `cal.1966-07-27.china-leadership-4`), `cal.1966-07-28.china-leadership-12` (the rally; the posters are `-6`), `cal.1967.china-leadership-152` (Check). (2) No Check to strike by hand; no combine. (3) Five edits set `n` (Aug. 2, Aug. 4 (-5), Aug. 7 (-6), Aug. 10 (-7), Aug. 18 (-4)): each changes a "Made public" year or strikes a plain-text To check, so not additive; rebase if another merge touches them first. (4) Merge before Bu run 6. (5) The Chen Yun zhuan cards: combine only on the owner's word (above).
 
 **For the owner.** Tan Lifu's father is 譚政文 in Bu (216) and in the record; the tree's `cal.1966-08-12.china-leadership-6` (Tiandi) prints 譚正文. The *Yanjiu ziliao* (1988, 內部出版) stays an internal printing named only in To check items. MacFarquhar's `cal.1966-08.china-leadership-10`, now dated Aug. 23, keeps its "Made public: Check" (Bu names no printing for Mao's words).
+
+## Run 6 (reader b15b-buweihua-6, Nov. 21, 2026): ch. 3 part 二 §6 to part 四 §2, pp. 223–259
+
+Patch `inbox/2026-11-21-b15b-buweihua-6.yaml`; witness rows `inbox/witnesses/2026-11-21-b15b-buweihua-6.yaml`; edges `sources/witnesses/by-work/pu-weihua-zalan-jiu-shijie.yaml` under `# run 6`. Nothing merged or committed. Run 5 was pending when this run began and was merged while it worked; its audit, appended during the run, was read before hand-in and applied: held persons named in `c` tagged and in "Names:" (two fixed); unread works never among the sources read, only behind "To check:" (twelve adds moved); receptions of Red Guards open (one `vis:` struck); one cite an entry from one reading (two double cites folded). Every add was scripted against the tree (Bu runs 1–5, Tiandi runs 1–5, MacFarquhar and Schoenhals, the Mao, Zhou, Deng, Chen Yi, Ye Jianying and Zhu De chronologies, Dikötter, the conditions restore) and the pending inbox (Bu run 5 until its merge, Peng Dehuai 1, Zhu De 6), by day and month in the China threads, Latin names and runs of characters, and the candidates read; the ledger read for each id before it was claimed.
+
+**The copy and its keying.** The same Drive PDF (849 pages, a scan with no text layer), fetched afresh into a new directory. PDF 243–340 taken out with `pdfimages -png` and OCRed with tesseract `chi_tra --psm 6`; the OCR used to find and copy, every line an entry rests on read on crops of the page image (about 45 stacked crops: 汪延群 at 224; 周永璋, 唐晉 and 225 n.60; 9月10日 for the East City pickets at 226; 韋統泰, 梁大門 at 227; 8月31日 for Hangzhou and 許志奮 at 228; the list of 226 (宋慶齡 … 程硯秋); 毛澤東主義大學附中 and 8月21日起 at 232; 中國佛學院 at 232; 胡子昂 at 233; 有毒書籍 at 234; 紅外圍 at 235; the notes 231 n.63–65, 232 n.66–67, 237 n.74 (頁198, not 498), 239 n.76–80, 242 n.84, 248 n.95 (張連和), 265 n.90–92, 269 n.97–99, 271 n.102, 272 n.103; 8月2日 at 241; 8月21日 at 242; 晚11時許 at 259). The folio held throughout: printed = PDF − 20. The download, images, OCR text and crops were deleted at the end.
+
+**What was read.** Ch. 3 part 二 §6 「紅衛兵司令部」 from the foot of p. 223 (the capital's three headquarters, the "Fourth," the West City, East City pickets and the Capital Corps; the provincial bodies, 227–229); part 三 「破四舊」 (229–254: §1 Peking, the provinces, the burnings; §2 「紅色恐怖」, 240–248, the speeches on beating, the killings of August, Lao She, Dahongluochang, Li Wenbo, Daxing, Sept. 2; §3 why the four olds prevailed, 248–254, the leaders' words, the policy report of Sept. 24, the expulsions); part 四 「大串連」 §1 (255–258) and §2 to the foot of the Canton item of Sept. 2 (259). All notes of these pages read (ch. 3 n.59–119).
+
+**What was entered.**
+- 124 new entries: 109 with `place`, 18 with a time (among them 11:30 a.m., 7:30 p.m. and about 11 p.m. of Aug. 22 at Yinchuan; 2 p.m. of Aug. 23 there; the mornings of Aug. 23 and 25, the afternoons of Aug. 23–24 and 25, the evenings of July 28, Aug. 24 and 25, the nights of Aug. 13, 23 and 28), 27 with `at`; 25 with `vis:`; 5 with an *Estimates* gloss (the democratic parties' members struggled, 36.5 percent; Peking's confiscated rooms and Tianjin's searches; the gazetteers' counts of searched households and Shanghai's 80,000 sent away; Peking University's 2,124,000 visits; Lü Hong's reception figures). By year: 1966 119, 1967 4, 1968 1. None `form:state`; the later counts (*Dangdai Zhongguo de Beijing*, the Shanghai party gazetteer, the Central Work Conference's reference paper of October 1966) are acts and their counts, by the run 4 audit's rule.
+- 68 cites, 25 with units, each unit claimed only where the page bears every place, person, figure and claim in it; elsewhere the parenthetical says what the page bears.
+- 12 variants: 汪延群 for the First Headquarters' commander (Yang: 汪彥群); the Third Headquarters' conveners Zhou Yongzhang and Tang Jin, Zhu Chengzhao only after (225 n.60), and its Tsinghua "Maoism" Red Guards; the No. 2 Middle School's leaflet of Aug. 17 (the tree's Aug. 19 posters); Tan Houlan's group at Qufu Nov. 8–Dec. 6 on the Group's instruction; the 397,400 expelled Aug. 23–Oct. 3 (the tree: by Oct. 14); the Workers' Stadium rally of 100,000 against five "hooligans" (MacFarquhar: 70,000, a dozen); Mao's poster copied at Peking University Aug. 23 and at Tsinghua before dawn Aug. 24; the three dead on Aug. 28 at Dahongluochang and the two later deaths (Yang: five on the 28th); Li Wenbo beaten to death on the spot (Yang: jumped); 282 dead on Sept. 1 by the count the Peking chronology gives (the tree: 228); the Tianjin marchers fetched from Yangcun by Mao's order.
+- 5 `to-check` ops, 1 `place` op (Peking on Chen Boda's speech of Aug. 16, which Bu places at the Workers' Stadium), 1 `place-key` (`jiaozuo`).
+- 4 `edit` ops: the afternoon of Aug. 27 on the First Headquarters' founding (the Mining Institute Red Guards' "昨天下午"), the morning of Sept. 6 on the Third's (9月6日上午), the morning of Aug. 16 on Chen Boda's speech; an *Estimates* gloss on `cal.1966-08-20.china-leadership-4` (Bu's 4,922 of 6,843 Peking relics destroyed; the rescued relics by Zhao Xuexun's count, 235 n.70).
+- Witnesses: 15 rows (Kong Dan's article of 1979 in the *Renmin ribao*'s internal *Qingkuang huibao*; the *Renmin ribao* of Aug. 26 and the *Beijing ribao* of Aug. 31, 1966; Zhou Enlai to the half-work, half-study schools, Oct. 22, 1966; Zhao Xuexun, 1985; the Geological Institute's *Dongfanghong* of January 1968; Ding Shu, 2000; Wu Dongfeng, 2002; Shu Yun, 2000; Jiang Qing, July 28, 1966; Zhang Chunqiao, Aug. 6, 1966; Zhou Enlai, Sept. 20, 1967; Zhang Lianhe's 〈五進馬村勸停殺〉 in *Nage niandai zhong de women*; Yu Luowen's 〈大興屠殺調查〉; Chen Boda, Aug. 16, 1966). Rows reused: Lin Biao's speech of Oct. 25, 1966 (maozhuan-3); Zhou to the Xi'an students, Sept. 15, 1966 (tiandi-2); Li Xiang's article of 2000 (tiandi-2); Ye Jianying of Sept. 25, 1966 (tiandi-1); Zhou to the Academy of Sciences, Jan. 21, 1967 (run 3). 61 edges under `# run 6`.
+- 11 new cards, each with `script` from Bu's note: `w.zhonggong-jiaozuo-lishi-dashiji` (1996), `w.mingren-chenfu-lu` (Ye Yonglie, 1992), `w.mao-zedong-he-ta-1993` (Nan Guang, ed.), `w.zhonggong-shanghai-dangzhi` (2001), `w.beijing-shi-xicheng-qu` (the West City chronicle, 1995, internal), `w.yang-mo-wenji` (1994), `w.wo-de-rensheng` (Hao Ran, 2000), `w.zhongguo-gongchandang-tianjin-lishi` (2001), `w.nage-niandai-zhong-de` (Zhe Yongping, ed., 1998), `w.zhonggong-ningxia-dangshi-dashiji` (1991), `w.zhongguo-gongchandang-zai-shanghai` (2001). Four made with `--force` beside the chronologies `works new` matched (the Sichuan, Zhejiang, Henan and Tibet ones, and the *Mao zhuan*).
+- The ledger holds 124 claims under the patch, matching the adds; one released (`cal.1966-08.china-leadership-91`, a count folded into the cite of `cal.1966-08.china-leadership-24`, then claimed again by new-id for the Zhongnanhai reception room). `cal.1966-08-23.china-leadership-15` and `cal.1966-08.china-leadership-66` were released by the run 5 reader and audit and are reused here.
+
+**Visibility and "Made public."** Internal acts carry `vis:only:prc` and "Made public: 2008" where Bu's note names no earlier printing; otherwise the earliest printing the note names: 1991 (the Ningxia chronology), 1992 (Ye Yonglie), 1993 (Nan Guang), 1996 (the Jiaozuo chronology), 1998 (Lü Hong), 2000 (Ding Shu; Shu Yun), 2001 (the Shanghai gazetteer; the Tianjin chronology), 2002 (Wu Dongfeng). Kong Dan's article of 1979 is in an internal bulletin: "Made public: 2008. Printed for internal circulation: … (1979)"; the policy report of Sept. 24, 1966 likewise with the *Yanjiu ziliao* (1988). Posters, leaflets, rallies, struggle meetings, house searches, killings, the press, the Red Guards' foundings, orders and public notices carry none; so do the receptions of Red Guards (Kang Sheng's, Yang Jingren's).
+
+**Duplicates.** Much of the four olds and the red terror is in the tree (Tiandi, MacFarquhar, Dikötter, the Zhou chronology) and was cited: the three headquarters and the West City Pickets; the Palace Museum, Quanjude, Yangwei Road, the Islam posters; Zhang Shizhao and Zhou's list; the Confucius Temple and Lao She; Wu Xun's tomb; Qufu; Bian Zhongyun, the Workers' Stadium rally, Zhongshan Park, Sha Ping, Hua Jin, Jiang Peiliang, the army's and police's rules of Aug. 21–22, Tsinghua's Aug. 24, Li Wenbo, Dahongluochang, the counts of the dead, Daxing and Ma Li, Sept. 2's notice, the Macun brigade; Mao of Aug. 20 and Aug. 28, Wu De's report, the editorials of Aug. 23 and 29, Lin Biao of Aug. 31 and Sept. 15, Ye Jianying of Sept. 25; the village and street directives of Dec. 15 and 28; Zhou of Jan. 21 and Sept. 20, 1967; Mao at Hangzhou June 10; Chen Boda of Aug. 16; Zhou of Aug. 18 and 31; the notice of Sept. 5. This run's adds are what the tree lacked: the headquarters' founding speeches, papers and rivals; the West City Pickets' orders and Zhou's and Ye Jianying's backing; the provincial Red Guard bodies (Changsha, Taiyuan, Chongqing, Nanning, Hangzhou, Canton, Ürümqi, Kunming, Jinan, Shanghai); the street renamings, the Rongbaozhai, the Niujie Mosque, the Buddhist Academy, the Franciscan convent and its nuns; the orders, ultimatum, seals and stoppages of the democratic parties and the CPPCC; the Summer Palace Buddha and the Geological Institute's burning; the middle schools' proposals of Aug. 22–30; Shanghai, Luoyang, Jiaozuo; the closures of 1967 and the salary cuts of 1968; the private burnings; the speeches on beating (Jiang Qing, Tao Lujia, Zhang Chunqiao, Xie Fuzhi); the Youth League's fall; Lao She's last night and the finding of his body; the counts of Peking and Shanghai; the expulsion papers (Capital Work Group, Zhou of June 10 and 13, Tianjin, Ningxia, Mar. 18, 1967); the reception of the exchanges; the Peking Red Guards in Yinchuan, Hohhot and Canton.
+
+## Passed over (run 6; R44, R18's grounds only)
+
+Made by reading every dated act on pp. 223–259 and their notes against the tree and the patch.
+
+| page | date | event | why |
+|---|---|---|---|
+| 237 n.72 | Nov. 30, 2000 | the Longmen Grottoes on UNESCO's World Heritage list | outside the span |
+| 248 | c. 1969–70 ("three or four years later") | the Daxing killers punished: Gao, Hu Defu, Yang of the Liming brigade, eight years each | the date not given; a lead |
+| 253 | Sept. 1959 | Mao on Peng Dehuai, Huang Kecheng and Xi Zhongxun leaving the capital | outside the span |
+| 230, 248–254 | — | Bu's judgments on the four olds and why they prevailed | not events (the author's narrative) |
+
+## Leads (run 6; undated, R50)
+
+- 226: the Haidian district pickets 海糾, founded after the East City's (Sept. 10), no day.
+- 228: the Hangzhou "Red First Headquarters" reprinting the West City Pickets' orders and posting pickets in the two districts (after Aug. 31, no day).
+- 233: the democratic personages giving up fixed interest, salary and cars (no day).
+- 235: the Peking police in army uniform (Zhou: "from Sept. 1"; told in the cites of Aug. 27 and Sept. 10).
+- 242: the *Zhongguo qingnian bao* and *Zhongguo qingnian* stopped, the League school closed (after Aug. 15, no day; in the add of Aug. 13–15).
+- 248: the Daxing punishments (above).
+- 257: Zhou's meeting on the reception's numbers (four to five million estimated; Lü Hong: far more), no day.
+
+## Doubts (run 6)
+
+- **Zhang Lianhe or Zhang Yonghe** (248 n.95): the text has 張永和, the note 張連和 as the article's author; the row keeps the note's form and says so.
+- **Yu Luowen's** 〈大興屠殺調查〉 (248 n.95b) may be the web piece Tiandi registered (`x.2010-05-04.yu-luowen-beijing-daxing-wenge-tusha-diaocha-web`) under another title; not compared, so a row of its own, with a note.
+- **The *Shilu* card** (269 n.99): Bu names 陳東林、杜蒲主編《中華人民共和國實錄》, III, pt. 1 (Jilin renmin, 1994); the card `w.cheng-zhonghua-renmin-gongheguo-shilu` (1994) names Li Cheng. The edge is to that card; whether one work is for the owner.
+- **The Peking count of Aug. 26**: Bu's list (265 n.92) has 125, the tree's internal document 126; left in the parenthetical.
+- **Zhou's reception of the Xijiu, his guides and the tasks** (226) are dated only "after Aug. 25" ("1966, after Aug. 25"), as run 5 dated the Beihang camp; Bu gives no day.
+- **The meeting of Aug. 27** where Zhou granted the police uniform (235) is taken as the 11 p.m. reception of the First Headquarters' delegates (`cal.1966-08-27.china-leadership`); Bu calls it "the meeting of the capital's Red Guard delegates."
+
+## Persons named in `c` with no name entry (run 6; not tagged)
+
+- *The headquarters and pickets*: Wang Yanqun, Liu Pingfan, Yang Chengwu, Liu Zhijian, Wang Dongxing, Zhou Taian, Zhou Xihan, Zhou Yongzhang, Tang Jin, Zhu Chengzhao, Qi Benyu, Zhou Rongxin, Yong Wentao, Xu Ming, Kong Dan.
+- *The provinces*: Wan Da, Zhang Pinghua, Wei Tongtai, Liang Damen, Qin Jiwei, Wang Yanquan, Xu Zhifen, Yang Jingren.
+- *The four olds*: the Panchen Lama, Song Qingling, He Xiangning, Guo Moruo, Fu Zuoyi, Zhang Zhizhong, Shao Lizi, Zhang Shizhao, Cheng Qian, Jiang Guangnai, Cai Tingkai, Sha Qianli, Zhang Xiruo, Li Zongren, Cheng Yanqiu, Rong Yiren, Yue Songsheng, Hu Ziang, Hu Juewen, Sun Xiaocun, Sun Qimeng, Wu Han, Zhang Bojun, Qiao Jianwu, Du Wenge, Kong Lingyi, Bao Huiseng, Chen Duxiu, Zhou Xiaozhou, Shen Yinmo, Tang Liang, Yang Yong.
+- *The red terror*: Tao Lujia, Lao She, Hao Ran, Li Xiurong, Chen Yurun, Li Wenbo, Lü Hong, Hong Xiannü.
+
+## The notes (run 6)
+
+Every item of every note on the pages cited is a row or an edge (lettered 231 n.65a–b, 232 n.66a–b, 243 n.87a–b, 248 n.95a–b, 264 n.89a–b, 265 n.92a–b, 272 n.104a–b). Notes with no item: 225 n.60 and 236 n.71 (facts, in the cites and the add), 234 n.68 (Zhou's list, in the cite), 237 n.72 (outside the span), 237 n.73 and 267 n.94 (glosses), 243 n.87's other gazetteers (no titles; the gloss). Pages cited with no notes of their own: 224, 227, 228, 233, 238 (n.75 apart), 244, 247, 250, 253, 256, 258–259 apart from their notes. `./bib notes-coverage` reads only the tree, so this run's pages show there after the merge.
+
+## Where run 7 starts
+
+P. 259, foot: Sept. 3, 1966, the "Peking Red Guards' northbound detachment" stops the Peking–Moscow express at Hailar; then the rest of ch. 3 part 四 §2 「北京紅衛兵在全國各地」 and on. The earlier readers' plain-text "To check:" items for this book still to be read: pp. 449–460, 533 and 540, and the "51" of `cal.1967-05-13.china-leadership-5`; in card form 310, 356, 449–450 and 504–506. None fell in pp. 223–259.
+
+## Counts (run 6)
+
+| | |
+|---|---|
+| new entries | 124 (109 with place, 18 with time, 27 with `at`, 25 with `vis:`, 5 *Estimates* glosses; none `form:state`) |
+| cites | 68 (25 with units) |
+| variants | 12 |
+| `check` ops | 0 (no "Check:" in adds) |
+| `to-check` ops | 5 |
+| `src` ops | 0 |
+| `place` ops | 1, and 1 `place-key` (`jiaozuo`) |
+| `edit` ops | 4 (3 times, 1 *Estimates* gloss) |
+| witness rows | 15 |
+| edges | 61 |
+| cards | 11 new |
