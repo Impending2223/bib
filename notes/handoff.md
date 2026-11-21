@@ -272,3 +272,5 @@ Batch 7 (already in):
 - Westmoreland: 17 rows gave 44 cites, 11 variants + Checks (Barrel Roll Dec. 14, 1964; Hill 875 Nov. 17, 1967; Trinh's reception Dec. 30, 1967; Lang Vei after midnight Feb. 6, 1968; Komer and Abrams May 4, 1967; Cedar Falls 17 days; Junction City 282 dead US+ARVN; Ong Thanh 55 killed; March 1966 228 dead I Corps), 12 new entries.
 - McPherson: "already in" wrong for the Panama flags; 6 entries (Canal Zone tour, Okinawa, Nixon's Rule XXII ruling, Wilkins's paper, two 1961 Senate votes).
 - Zelizer: who Mills told to "choose guns" (Zelizer: the President; the entry, from Sanders's memo: Treasury's liaison): unsettled variant.
+
+4w. **For the owner, from the Ang audit (Nov. 21):** the *Lịch sử Quân đội Nhân dân Việt Nam* card (1988) is the "Made public" year of several entries; its copyright page should be checked for internal circulation (lưu hành nội bộ, R27). The FO 371 files' "Made public: 1997" follows R27's printing rule (Ang the earliest printing), not the files' opening at Kew.
