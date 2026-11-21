@@ -59,6 +59,11 @@ ops:
         time_range: ['1961-06-11T22:00Z', '1961-06-12T04:00Z']
         time_band: morning
         time_zone: Asia/Shanghai
+  - edit:
+      id: cal.1960-12-31.china-leadership-3
+      base: 18884b07
+      set:
+        n: '[[w.deng-xiaoping-nianpu-1904]], III, 1608 (Dec. 31, 1960). Made public: 2005 ([[w.chen-yun-wenji]], where the *Chen Yun nianpu* says the letter is printed). To check: [[w.chen-yun-wenji]], III. See [[cal.1960-12-30.china-leadership]]. Names: Chen Yun, Deng Xiaoping.'
   - place-key: {key: xuanhua, name: 'Xuanhua', zone: Asia/Shanghai, in: prc}
   - place-key: {key: shaoguan, name: 'Shaoguan', zone: Asia/Shanghai, in: prc}
   - add:
@@ -69,7 +74,7 @@ ops:
         place: hangzhou
         thread: china-leadership
         c: Hangzhou 杭州. Chen Yun 陈云, by letter, asks Wu Zongxi 吴宗锡 and Li Qingfu 李庆福, head and deputy head of the Shanghai People's Pingtan Troupe 上海市人民评弹团, for a list of all the pingtan 评弹 storytellers of Shanghai 上海, Suzhou 苏州 and Changshu 常熟, each with his repertoire and whether he plays alone or paired, and for the Shanghai Pingtan Association's 上海评弹协会 playbills of the past few years.
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 29. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 29. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - cite: {id: cal.1960-01-07.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 29–30 (Chen Yun absent through illness; the 1960 targets: output 306 billion yuan, steel 18.4 million tons, grain 600 billion jin; the 1959 grain crop in fact 340 billion jin)'}
   - add:
@@ -80,7 +85,7 @@ ops:
         place: hangzhou
         thread: china-leadership
         c: 'Hangzhou 杭州. Chen Yun 陈云 writes eight points on putting the traditional pingtan 评弹 repertoire in order: cut the harmful, keep the best and the harmless, compress the tedious; enough sung passages; the best parts made into middle-length pieces to stand alone; digressions and jokes not too many; the stories to be revised while they are told, step by step.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 30. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 30. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -132,8 +137,8 @@ ops:
         date: '1960-02-02'
         place: suzhou
         thread: china-leadership
-        c: 'Suzhou 苏州. Chen Yun 陈云 calls a forum of the pingtan 评弹 world and speaks: the new pieces healthier, with more singing, but the narration weak, and narration is pingtan''s chief means; jokes and digressions now too timid; the audience pays twenty cents and has not come for a political lesson; errors of geography, history and science in the old pieces to be corrected; myth not superstition; a serious manner on the stage. The time is the first day''s.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 30–31. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        c: 'Suzhou 苏州. Chen Yun 陈云 calls a forum of the pingtan 评弹 world and speaks: the "second-category pieces" 二类书 (adapted since 1949 from classical novels and plays, the nianpu''s note) healthier, with more singing, but the narration weak, and narration is pingtan''s chief means; jokes and digressions now too timid; the audience pays twenty cents and has not come for a political lesson; errors of geography, history and science in the old pieces to be corrected; myth not superstition; a serious manner on the stage.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 30–31. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -154,7 +159,7 @@ ops:
         place: shanghai
         thread: china-leadership
         c: 'Shanghai 上海, resting. Chen Yun 陈云 talks with the heads of the Shanghai People''s Pingtan Troupe 上海人民评弹团: narration first, singing not neglected; one or two of the newly adapted long pieces to be raised in two or three years to the level of the traditional ones, to break the hold of scholar-and-beauty romance; professionals and amateurs, old and young storytellers together; advanced and middle classes for the storytellers; a school of their own; praise in due measure, no puffing in the press, Party and Youth League members not to live on the title; a research body, so that leaders are freed from routine.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 31–32. The nianpu dates the talks to his stay at Shanghai, Feb. 4–16. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 31–32. The nianpu dates the talks to his stay at Shanghai, Feb. 4–16. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -194,7 +199,7 @@ ops:
         place: hangzhou
         thread: china-leadership
         c: 'Hangzhou 杭州. Chen Yun 陈云 talks with members of the Shanghai People''s Pingtan Troupe 上海市人民评弹团: the traditional pieces hold the best, the dross and the harmless middle, and needless tangles; keep the best and the harmless, drop the dross; meetings of all who tell one piece to draw up its revision; success and failure both to be expected, as a general who wins two battles and loses one is a capable general; seriousness on the stage joined with liveliness; storytelling in standard Chinese 普通话 to be tried.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 32–33. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 32–33. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -252,7 +257,7 @@ ops:
         when: Apr. 4
         date: '1960-04-04'
         thread: china-leadership
-        c: 'Li Xiannian 李先念, presiding at a meeting of the State Council''s Finance and Trade Office 国务院财贸办公室: in the First Five-Year Plan Chen Yun 陈云 took grain and cotton in hand himself and the state held some cotton in reserve, but in the past two years the reserve has been used up; cotton is the strategic good second to grain, the state must keep something back of both, and the key is more production.'
+        c: 'Li Xiannian 李先念, presiding at a meeting of the State Council''s Finance and Trade Office 国务院财贸办公室: in the First Five-Year Plan 第一个五年计划 Chen Yun 陈云 took grain and cotton in hand himself and the state held some cotton in reserve, but in the past two years the reserve has been used up; cotton is the strategic good second to grain, the state must keep something back of both, and the key is more production.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 33. Made public: 2015. Names: Li Xiannian, Chen Yun.'
         tags: ['polity:prc', 'name:li-xiannian', 'name:chen-yun', 'vis:only:prc']
   - cite: {id: cal.1960-04-06.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 33 (Apr. 6: Chen Yun at the meeting Mao calls on Zhou Enlai''s journey to Burma, India and Nepal and his report to the Congress)'}
@@ -289,7 +294,7 @@ ops:
         place: shanghai
         thread: china-leadership
         c: 'Shanghai 上海. Chen Yun 陈云, by letter to Wu Zongxi 吴宗锡 and Yan Renhan 颜仁翰, deputy head of the Suzhou Pingtan Troupe 苏州市评弹团: doubting whether in the Ming 明 one could go by boat from Suzhou 苏州 to Zhuxianzhen 朱仙镇 or Kaifeng 开封, as the ballad *Miao jin feng* 《描金凤》 has it, he had the Institute of History 中国历史研究所 look into it on his return to Peking 北京: the waterway was open from the Sui 隋 and still in the Ming; copies of its paper for the old storytellers Yang Binkui 杨斌奎, Zhu Jiesheng 朱介生 and Xue Xiaoqing 薛筱卿; Kaifeng to Xiangyang 襄阳 (*Zhenzhu ta* 《珍珠塔》) and Nanyang 南阳 to Luoyang 洛阳 (*Shuang zhu feng* 《双珠凤》) still being looked into.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 34. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 34. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -350,7 +355,7 @@ ops:
         place: hangzhou
         thread: china-leadership
         c: 'Hangzhou 杭州. Chen Yun 陈云 talks with Wu Zi''an 吴子安, pinghua 评话 storyteller of the Shanghai People''s Pingtan Troupe 上海市人民评弹团, on his adaptation of the long piece *Sui Tang* 《隋唐》: a story of peasant risings, to be told whole from the new view of history, the masses'' part as well as Li Shimin''s 李世民; no hero cut off from the masses is a hero; pinghua must change to meet its audience and keep up with the times.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 34–35. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 34–35. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -360,7 +365,7 @@ ops:
         place: hangzhou
         thread: china-leadership
         c: 'Hangzhou 杭州. Chen Yun 陈云 talks with the heads of the Suzhou 苏州 culture bureau 苏州市文化局 and pingtan 评弹 storytellers of Shanghai 上海 and Jiangsu 江苏 on new work: a new piece a year, ten in ten years; he has heard *Lin hai xue yuan* 《林海雪原》 and *Ye huo chun feng dou gucheng* 《野火春风斗古城》, both from novels; a sung text needs more than a read one; tell new pieces boldly and fear no thin houses at first.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 35–36. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 35–36. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -372,8 +377,8 @@ ops:
         time_zone: Asia/Shanghai
         place: hangzhou
         thread: china-leadership
-        c: 'Hangzhou 杭州, his residence. Chen Yun 陈云 twice sends for Zhou Liang 周良, deputy head of the Suzhou culture bureau 苏州市文化局, morning and evening, and hears him on the Suzhou pingtan''s 评弹 new writing and the revision of the traditional pieces, *San xiao* 《三笑》 and *Zhenzhu ta* 《珍珠塔》 among them: rules to be found for adapting novels and plays, forums on them; the storytellers to read the *General History of China* 《中国通史》, learn geography and review the old historical pieces with historical materialism. The time is the first talk''s.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 36. The words: 上午和晚上 (36). Made public: 2015. Names: Chen Yun.'
+        c: 'Hangzhou 杭州, his residence. Chen Yun 陈云 twice sends for Zhou Liang 周良, deputy head of the Suzhou culture bureau 苏州市文化局, morning and evening, and hears him on the Suzhou pingtan''s 评弹 new writing and the revision of the traditional pieces, *San xiao* 《三笑》 and *Zhenzhu ta* 《珍珠塔》 among them: rules to be found for adapting novels and plays, forums on them; the storytellers to read the *General History of China* 《中国通史》, learn geography and review the old historical pieces with historical materialism.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 36. The words: 上午和晚上 (36); the time the first talk''s. Made public: 2015. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - cite: {id: cal.1960-05-28.china-leadership-8, item: '[[w.chen-yun-nianpu-xiuding]], III, 36 (the Center''s "Urgent directive on the transport of grain": two months running the grain moved to Peking, Tianjin, Shanghai and Liaoning has not met sales, the stocks almost gone)'}
   - cite: {id: cal.1960-06-06.china-leadership-6, item: '[[w.chen-yun-nianpu-xiuding]], III, 36 (June 6, the Center''s second urgent notice; the cities by then selling grain as it arrived)'}
@@ -385,7 +390,7 @@ ops:
         place: hangzhou
         thread: china-leadership
         c: 'Hangzhou 杭州. Chen Yun 陈云 talks with the heads of the Zhejiang Quyi Workers'' Association 浙江省曲艺工作者协会 and storytellers of the provincial quyi troupe 省曲艺团: plays and novels must be changed when made into pingtan 评弹; a play is the story told by the character, pingtan the character shown in the telling; the new long pieces, mostly from novels of the revolution before 1949, not to have too many parts where the good suffer; old storytellers to hear them and propose changes.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 36. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 36. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -393,7 +398,7 @@ ops:
         when: May 30
         date: '1960-05-30'
         thread: china-leadership
-        c: 'The Center 中共中央 approves and forwards the "second account" 第二本账 of the 1960 plans for industry, transport and capital construction 《关于一九六〇年工业生产、交通运输、基本建设计划第二本账的安排》 from the State Planning Commission 国家计委, the Economic Commission 经委 and the Capital Construction Commission 建委: industrial output to grow 47.6 percent, not the 23 percent the Congress adopted; steel 20.4 million tons, not the 18.4 million set early in the year. The Center calls it the Party''s "first account", to be fulfilled and overfulfilled, steel to reach 21 to 22 million tons if it can.'
+        c: 'The Center 中共中央 approves and forwards the "second account" 第二本账 of the 1960 plans for industry, transport and capital construction 《关于一九六〇年工业生产、交通运输、基本建设计划第二本账的安排》 from the State Planning Commission 国家计委, the Economic Commission 经委 and the Capital Construction Commission 建委: industrial output to grow 47.6 percent, not the 23 percent the second session of the Second National People''s Congress 二届全国人大二次会议 adopted; steel 20.4 million tons, not the 18.4 million set early in the year. The Center calls it the Party''s "first account", to be fulfilled and overfulfilled, steel to reach 21 to 22 million tons if it can.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 37. Made public: 2015.'
         tags: ['polity:prc', 'vis:only:prc']
   - add:
@@ -414,7 +419,7 @@ ops:
         place: hangzhou
         thread: china-leadership
         c: Hangzhou 杭州. Chen Yun 陈云, by letter to Wu Zongxi 吴宗锡, gives the Shanghai People's Pingtan Troupe 上海市人民评弹团 a *Short General History of China* 《简明中国通史》, an atlas of the provinces 《中国分省地图》 and a *Ciyuan* 《辞源》, the atlas and the *Ciyuan* his own used copies, to rouse an interest in checking history and geography.
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 37. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 37. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -476,9 +481,9 @@ ops:
         date: '1960-06-29'
         place: shanghai
         thread: china-leadership
-        c: Shanghai 上海. Chen Yun 陈云 inspects the Shanghai cold-drawn steel tube works 上海冷拔钢管厂 and tells its heads to see to the workers' conditions as well as quality and kinds.
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 39. Names: Chen Yun.'
-        tags: ['polity:prc', 'name:chen-yun']
+        c: 'Shanghai 上海. Chen Yun 陈云 inspects the Shanghai cold-drawn steel tube works 上海冷拔钢管厂. He tells its heads to see to the workers'' conditions as well as quality and kinds.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 39. Made public: 2015. Names: Chen Yun.'
+        tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc@C']
   - add:
       entry:
         id: cal.1960-06.china-leadership-15
@@ -569,7 +574,7 @@ ops:
         place: beidaihe
         thread: china-leadership
         c: Beidaihe 北戴河. Chen Yun 陈云 with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De 朱德 and others at a meeting Mao Zedong 毛泽东 calls.
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 41. The words: 晚 (41). Made public: 2015. Names: Chen Yun, Liu Shaoqi, Zhou Enlai, Zhu De, Mao Zedong.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 41. The words: 晚 (41). See [[cal.1960-07-31.china-leadership]] (the plenary of 4 to 8 p.m., whose note holds the *Zhu De nianpu*''s Standing Committee of July 31 on grain, the frontier sciences and the note on the experts'' recall). Made public: 2015. Names: Chen Yun, Liu Shaoqi, Zhou Enlai, Zhu De, Mao Zedong.'
         tags: ['polity:prc', 'name:chen-yun', 'name:liu-shaoqi', 'name:zhou-enlai', 'name:zhu-de', 'name:mao-zedong', 'vis:only:prc']
   - add:
       entry:
@@ -641,7 +646,7 @@ ops:
         at: after 1960-09-12
         place: tianjin
         thread: china-leadership
-        c: Tianjin 天津. Chen Yun 陈云 inspects Tianjin University 天津大学 and a synthetic-ammonia works of 800 tons a year.
+        c: 'Tianjin 天津. Chen Yun 陈云 inspects Tianjin University 天津大学; in Hebei 河北 he also inspects a synthetic-ammonia works of 800 tons a year, the nianpu not saying where.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 43. The nianpu: Sept. 12–20, in Hebei. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun']
   - add:
@@ -672,7 +677,7 @@ ops:
         at: after 1960-09-21
         place: jinan
         thread: china-leadership
-        c: Jinan 济南. Chen Yun 陈云 inspects a synthetic-ammonia works of 800 tons a year and the Jinan iron and steel works 济南钢铁厂.
+        c: 'Jinan 济南. Chen Yun 陈云 inspects the Jinan iron and steel works 济南钢铁厂; in Shandong 山东 he also inspects a synthetic-ammonia works of 800 tons a year, the nianpu not saying where.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 43. The nianpu: Sept. 21–28, in Shandong. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun']
   - add:
@@ -710,14 +715,15 @@ ops:
         c: Chen Yun 陈云 talks with Peng Tao 彭涛 and the heads of the State Planning Commission's planning bureau 国家计委计划局 on the making of fertilizer.
         n: '[[w.chen-yun-nianpu-xiuding]], III, 43–44. The words: 下午 (43–44). Made public: 2015. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
+  - cite: {id: cal.1960-10-01.china-leadership-3, item: '[[w.chen-yun-nianpu-xiuding]], III, 43 (afternoon: Chen Yun with Liu Shaoqi and others at the signing of the Sino-Burmese boundary treaty)'}
   - add:
       entry:
         id: cal.1960-10-03.china-leadership-14
         when: Oct. 3
         date: '1960-10-03'
         thread: china-leadership
-        c: 'Chen Yun 陈云, by letter to Mao Zedong 毛泽东, reports on his tour of the farms and the famine of Hebei 河北 and Shandong 山东: Shandong worse hit than Hebei; the Center to hold about a billion jin of grain to help the two; a few concrete measures will bring them through in two or three years; above all they kept the water, against both flood and drought: the Leap''s water works too many, a lesson, but not to be blamed hard, since without them each province would have lost not ten million mu and more but thirty million; he goes to Xuanhua 宣化 on the 4th on the iron mines, back the evening of the 6th, and asks to report in person on the villages'' way through the famine and the conditions of a real turn in farming.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 44. See [[cal.1960-10-06.china-leadership]]. Made public: 2015. To check: 《陈云文集》, where the nianpu says the letter is collected. Names: Chen Yun, Mao Zedong.'
+        c: 'Chen Yun 陈云, by letter to Mao Zedong 毛泽东, reports on his tour of the farms and the famine of Hebei 河北 and Shandong 山东: Shandong worse hit than Hebei; the Center 中央 to hold about a billion jin of grain to help the two; a few concrete measures will bring them through in two or three years; above all they kept the water, against both flood and drought: the Great Leap''s 大跃进 water works too many, a lesson, but not to be blamed hard, since without them each province would have lost not ten million mu and more but thirty million; he goes to Xuanhua 宣化 on the 4th on the iron mines, back the evening of the 6th, and asks to report in person on the villages'' way through the famine and the conditions of a real turn in farming.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 44. See [[cal.1960-10-06.china-leadership]]. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun, Mao Zedong.'
         tags: ['polity:prc', 'ok:fields-place', 'name:chen-yun', 'name:mao-zedong', 'vis:only:prc']
   - add:
       entry:
@@ -759,7 +765,7 @@ ops:
         date: '1960-10-04'
         place: xuanhua
         thread: china-leadership
-        c: 'Xuanhua 宣化. Chen Yun 陈云 inspects the Longyan Iron and Steel Company 龙烟钢铁公司 on moving its mines and coking from hand labor to machines: at the Yanshan 烟筒山, Sifangtai 四方台 and Pangjiapu 庞家堡 iron mines he goes twice down the pits, against his doctors'' rule of no more than a hundred paces, and walks the galleries to the face. To the heads of the locality, the Ministry of Metallurgy 冶金部, the company and the mines: the key to mechanizing the mines is haulage and cutting; the big modern steel works rest on small half-modern iron works, machine-built mills on hand-worked mines; quality and output turn on the mines, not the smelting; dressing at the mine; outside Wuhan 武钢 and Baotou 包钢, no hurry for big furnaces, which without ore have nothing to smelt.'
+        c: 'Xuanhua 宣化. Chen Yun 陈云 inspects the Longyan Iron and Steel Company 龙烟钢铁公司 on moving its mines and coking from hand labor to machines: at the Yantongshan 烟筒山, Sifangtai 四方台 and Pangjiapu 庞家堡 iron mines he goes twice down the pits, against his doctors'' rule of no more than a hundred paces, and walks the galleries to the face. To the heads of the locality, the Ministry of Metallurgy 冶金部, the company and the mines: the key to mechanizing the mines is haulage and cutting; the big modern steel works rest on small half-modern iron works, machine-built mills on hand-worked mines; quality and output turn on the mines, not the smelting; dressing at the mine; outside Wuhan 武钢 and Baotou 包钢, no hurry for big furnaces, which without ore have nothing to smelt.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 44–45. Made public: 2015. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc@C-G']
   - add:
@@ -776,10 +782,10 @@ ops:
         n: '[[w.chen-yun-nianpu-xiuding]], III, 45. The words: 晚 (45). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun']
   - cite: {id: cal.1960-10-06.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 45 (evening, on his return from Xuanhua: Chen Yun at Mao''s, reporting on the farms and the famine of Hebei and Shandong and the measures for a real turn in farming)'}
-  - variant: {id: cal.1960-10-07.china-leadership, unit: A, witness: w.chen-yun-nianpu-xiuding, reads: 'Oct. 7, 3 p.m.: the enlarged Standing Committee on printing Khrushchev''s speech of Oct. 1 to the General Assembly', at: 'III, 45'}
+  - variant: {id: cal.1960-10-07.china-leadership, unit: A, witness: w.chen-yun-nianpu-xiuding, reads: '3 p.m. (下午三点)', at: 'III, 45'}
   - cite: {id: cal.1960-10-07.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 45 (3 p.m.: Chen Yun at the enlarged Standing Committee on printing Khrushchev''s speech; the nianpu''s note: his speech of Oct. 1 on China''s representation, printed whole in *Renmin ribao* Oct. 8)'}
   - cite: {id: cal.1960-10-07.china-leadership-13, item: '[[w.chen-yun-nianpu-xiuding]], III, 45 (4 p.m.: Chen Yun with Mao, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao and others receives the National Day delegations of the PLA and the minorities)'}
-  - variant: {id: cal.1960-10-07.china-leadership-2, unit: A, witness: w.chen-yun-nianpu-xiuding, reads: '4:30 p.m.', at: 'III, 45'}
+  - variant: {id: cal.1960-10-07.china-leadership-2, unit: A, witness: w.chen-yun-nianpu-xiuding, reads: '4:30 p.m. (下午四点半)', at: 'III, 45'}
   - cite: {id: cal.1960-10-07.china-leadership-2, item: '[[w.chen-yun-nianpu-xiuding]], III, 45 (4:30 p.m.: Chen Yun with Liu Shaoqi and Zhu De at the meeting Mao calls to hear Lin Biao, He Long and Luo Ruiqing on the Military Commission''s enlarged meeting (Sept. 14–Oct. 20, the nianpu''s note))'}
   - add:
       entry:
@@ -850,7 +856,7 @@ ops:
         date: '1960-10-18'
         thread: china-leadership
         c: 'Li Xiannian 李先念, summing up at the national conference of the provinces'' Party secretaries for finance and trade 全国省、市、自治区党委财贸书记会议: summer grain procurement 29.5 billion jin, 11.7 billion less than a year before; working stocks at the end of September 33.6 billion jin, 16.7 billion less; sales for the next nine months must run 2.6 billion jin a month below the year before''s, but are rising; if they are not held down, stocks will be dug into with none left to dig, and supplies will fail over wide areas.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 46–47. Made public: 2015. Names: Li Xiannian.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 46–47. Made public: 2015. Names: Li Xiannian. Check: whether this summing-up is the report the *Mubei* dates Oct. 16 ([[cal.1960-10-16.china-leadership-6]]), which gives the same cut of 2.6 billion jin a month.'
         tags: ['polity:prc', 'name:li-xiannian', 'vis:only:prc']
   - add:
       entry:
@@ -868,8 +874,8 @@ ops:
         date: '1960-10-19'
         place: zhengzhou
         thread: china-leadership
-        c: 'Zhengzhou 郑州. Chen Yun 陈云 hears the heads of the Henan committee 中共河南省委: its grief over the Xinyang 信阳 affair is good, but bad men to be told from good men who followed blindly; the villages will be hard put for two or three years more; procurement, long about 86 billion jin, set at 110 billion at Beidaihe 北戴河 this year, the towns, mess halls, water works, seed and exports using 60 billion jin more; every province to reckon what it grows, what the villages must keep and what can go to the towns; the towns, 90-odd million a few years ago, now 130 million; the Planning Commission must put farming first. Four ways for two or three years: the three-level ownership truly carried out; farm labor fixed for good, those who can come back from the towns to come back; industry to back any measure worth 50 to 100 million jin of grain; melons and vegetables mixed with grain. Henan, Hebei 冀, Shandong 鲁, northern Jiangsu and northern Anhui typical of China; water, fertilizer and tractors the keys; more grain, more pigs, more manure, more grain.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 47–48. Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun.'
+        c: 'Zhengzhou 郑州. Chen Yun 陈云 hears the heads of the Henan committee 中共河南省委: its grief over the Xinyang 信阳 affair is good, but bad men to be told from good men who followed blindly; the villages will be hard put for two or three years more; procurement, long about 86 billion jin, set at 110 billion at Beidaihe 北戴河 this year, the towns, mess halls, water works, seed and exports using 60 billion jin more; every province to reckon what it grows, what the villages must keep and what can go to the towns; the towns, 90-odd million a few years ago, now 130 million; the Planning Commission 计划委员会 must put farming first. Four ways for two or three years: the three-level ownership truly carried out; farm labor fixed for good, those who can come back from the towns to come back; industry to back any measure worth 50 to 100 million jin of grain; melons and vegetables mixed with grain. Henan 豫, Hebei 冀, Shandong 鲁, northern Jiangsu 苏北 and northern Anhui 皖北 typical of China; water, fertilizer and tractors the keys; more grain, more pigs, more manure, more grain.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 47–48. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -899,7 +905,7 @@ ops:
         place: zhengzhou
         thread: china-leadership
         c: 'Zhengzhou 郑州. Chen Yun 陈云 to the heads of the Henan committee 中共河南省委: since 1958 grain consumption up 60 billion jin and more, by the towns'' growth, the mess halls and seed; no retreat, since steel must go on, the mess halls stay and seed be kept: clench the teeth two or three years and grow more grain, sweet potatoes, melons and vegetables; the zeal of 500 million peasants the root, policy first; a charter fixing the powers of commune, brigade, team and member for years. Why did no prefectural or county committee report the Xinyang 信阳 affair? Fear of being called right-leaning; a leadership that hears no contrary view is in danger; Zhou Enlai 周恩来 told him many at the finance and trade secretaries'' conference would not give the output of 1958 and 1959; output must be made real from the provincial committee down. Small freedoms: private plots, what grows by the house, livestock and poultry, house and furniture the members'' own. America''s 2.6 billion mu; Japan''s 10 million tons of steel and 30 million of rolling capacity; ore dressing the key to steel''s quality.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 49–50. Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun, Zhou Enlai.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 49–50. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun, Zhou Enlai.'
         tags: ['polity:prc', 'name:chen-yun', 'name:zhou-enlai', 'vis:only:prc']
   - add:
       entry:
@@ -919,7 +925,7 @@ ops:
         place: zhengzhou
         thread: china-leadership
         c: 'Zhengzhou 郑州. Chen Yun 陈云, having received the draft of the Center''s "Urgent directive letter on present policy in the rural people''s communes" 《中共中央关于农村人民公社当前政策问题的紧急指示信》 that Zhou Enlai 周恩来 directed, writes to him: food is the peasants'' most pressing and general question, and only by putting their living and eating at the center can the "equalize and transfer" 一平二调 errors be righted; the 8,000 tons of rubber planned for export (5,000 in foreign-trade stocks, 3,000 about to be imported) to be kept for rural handcarts, and the plan for ten million handcarts next year not to be cut for the coking coal the steel industry needs.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 50–51. See [[cal.1960-11-03.china-leadership]]. Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun, Zhou Enlai.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 50–51. See [[cal.1960-11-03.china-leadership]]. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun, Zhou Enlai.'
         tags: ['polity:prc', 'name:chen-yun', 'name:zhou-enlai', 'vis:only:prc']
   - add:
       entry:
@@ -938,9 +944,9 @@ ops:
         date: '1960-10-23'
         place: kaifeng
         thread: china-leadership
-        c: Kaifeng 开封. Chen Yun 陈云 sees the Xiangguo Temple 相国寺, the Dragon Pavilion 龙亭 and the Iron Pagoda 铁塔, and tells the city's heads again and again to run the economy well.
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 51. Names: Chen Yun.'
-        tags: ['polity:prc', 'name:chen-yun']
+        c: 'Kaifeng 开封. Chen Yun 陈云 sees the Xiangguo Temple 相国寺, the Dragon Pavilion 龙亭 and the Iron Pagoda 铁塔. He tells the city''s heads again and again to run the economy well.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 51. Made public: 2015. Names: Chen Yun.'
+        tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc@C']
   - add:
       entry:
         id: cal.1960-10-24.china-leadership-9
@@ -948,9 +954,9 @@ ops:
         date: '1960-10-24'
         place: sanmenxia
         thread: china-leadership
-        c: Sanmenxia 三门峡. Chen Yun 陈云 inspects the dam works of the reservoir and, hearing the heads of the city and of the Sanmenxia Yellow River Works Bureau 黄河三门峡工程局, tells them to hold fast to quality and make the works safe beyond all doubt.
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 51. Names: Chen Yun.'
-        tags: ['polity:prc', 'name:chen-yun']
+        c: 'Sanmenxia 三门峡. Chen Yun 陈云 inspects the dam works of the reservoir in the rain. Hearing the heads of the city and of the Sanmenxia Yellow River Works Bureau 黄河三门峡工程局, he tells them to hold fast to quality and make the works safe beyond all doubt.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 51. Made public: 2015. Names: Chen Yun.'
+        tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc@C']
   - add:
       entry:
         id: cal.1960-10-25.china-leadership-7
@@ -968,9 +974,9 @@ ops:
         date: '1960-10-25'
         place: luoyang
         thread: china-leadership
-        c: Luoyang 洛阳. Chen Yun 陈云 inspects the No. 1 Tractor Works 第一拖拉机厂 and the mining machinery, bearing and diesel engine works, and meets their heads and model workers, urging self-reliance and hard struggle against the troubles the Soviet government's tearing up of the contracts and recall of the experts have brought.
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 51. The nianpu: at Luoyang Oct. 25–27. Names: Chen Yun.'
-        tags: ['polity:prc', 'name:chen-yun']
+        c: 'Luoyang 洛阳. Chen Yun 陈云 inspects the No. 1 Tractor Works 第一拖拉机厂 and the mining machinery, bearing and diesel engine works. He meets their heads and model workers, urging self-reliance and hard struggle against the troubles the Soviet government''s tearing up of the contracts and recall of the experts have brought.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 51. The nianpu: at Luoyang Oct. 25–27. Made public: 2015. Names: Chen Yun.'
+        tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc@C']
   - add:
       entry:
         id: cal.1960-10-25.china-leadership-9
@@ -997,7 +1003,7 @@ ops:
         date: 1960-10
         at: after 1960-10-28
         thread: china-leadership
-        c: 'Anhui 安徽. Chen Yun 陈云 hears the heads of the Anhui committee 中共安徽省委 on farming, a network of waterways for the Huai 淮河 and fertilizer, and the Ministry of the Chemical Industry''s 化工部 capital construction department on the 800-ton synthetic-ammonia works, and repeats his Henan views: cash crops bear on industry, revenue and living, and their sown area and output must not fall again, since ten million mu more of grain will not solve grain, but ten million mu less of cotton makes a great problem; output quotas to leave room for overfulfillment; the members'' small freedoms; the small fertilizer works, many and early in Anhui, to be redesigned for the villages, with roving repair teams; a works of 10,000 to 20,000 tons a province next year; why did the Henan committee hear nothing beforehand of Xinyang 信阳?'
+        c: 'Anhui 安徽. Chen Yun 陈云 hears the heads of the Anhui committee 中共安徽省委 on farming, a network of waterways for the Huai 淮河 and fertilizer, and the Ministry of the Chemical Industry''s capital construction department 化工部基建司 on the 800-ton synthetic-ammonia works, and repeats his Henan views: cash crops bear on industry, revenue and living, and their sown area and output must not fall again, since ten million mu more of grain will not solve grain, but ten million mu less of cotton makes a great problem; output quotas to leave room for overfulfillment; the members'' small freedoms; the small fertilizer works, many and early in Anhui, to be redesigned for the villages, with roving repair teams; a works of 10,000 to 20,000 tons a province next year; why did the Henan committee hear nothing beforehand of Xinyang 信阳?'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 51–52. The nianpu: in Anhui from Oct. 28 to Nov. 2. Made public: 2015. Names: Chen Yun.'
         tags: ['polity:prc', 'ok:fields-place', 'name:chen-yun', 'vis:only:prc']
   - add:
@@ -1094,7 +1100,7 @@ ops:
         place: shanghai
         thread: china-leadership
         c: 'Shanghai 上海. Chen Yun 陈云, by letter to Zhou Enlai 周恩来 on Jiangsu''s 江苏 harvest and rations, proposes three aids to its farming: 200,000 cubic meters of timber outside the plan, with about 1,200 tons of tung oil and about 1,000 tons of hemp, to mend boats, windmills and carts; 1,000 tractors, worth 100 to 200 million jin of grain in the Xuzhou–Huai 徐淮 area alone; 12,000 kilowatts of generators next year for Zhenjiang 镇江 prefecture.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 53–54. Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun, Zhou Enlai.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 53–54. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun, Zhou Enlai.'
         tags: ['polity:prc', 'name:chen-yun', 'name:zhou-enlai', 'vis:only:prc']
   - add:
       entry:
@@ -1114,7 +1120,7 @@ ops:
         place: shanghai
         thread: china-leadership
         c: 'Shanghai 上海. Chen Yun 陈云 talks with Li Qingfu 李庆福 and He Zhanchun 何占春, heads of the Shanghai People''s Pingtan Troupe 上海市人民评弹团 and of the opera group of the Shanghai People''s Radio 上海人民广播电台: new pieces to be written and adapted chiefly by the young and middle-aged storytellers; the experienced old ones to teach at the school or put the old pieces in order, with sofas and strong tea and time to talk; each to his strength.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 54. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 54. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -1142,7 +1148,7 @@ ops:
         date: '1960-11-24'
         thread: china-leadership
         c: 'Zhejiang 浙江. Chen Yun 陈云, hearing the heads of the Zhejiang committee 中共浙江省委: 1958''s output overestimated; in three years the mess halls, the water-works armies, seed and exports took 20 billion jin more, and the townspeople''s rations alone 16.7 billion jin of rice more; surplus provinces (Heilongjiang 黑龙江, Sichuan 四川, Jiangxi 江西, Zhejiang) send out more and more, the self-sufficient (Anhui 安徽, Hubei 湖北, Guangdong 广东, Guizhou 贵州, Yunnan 云南) and Fujian 福建 must now send out, Henan 河南 too, and Peking 北京, Tianjin 天津, Shanghai 上海 and Liaoning 辽宁 take far more; this year''s loss to disaster about 36 billion jin; the chief cause 30 million more in the towns and mines: cut the outflow by sending townsmen to the villages, and widen the source by more grain (ten thousand small works of 800 tons, fertilizer native and foreign) and by melons and vegetables mixed with grain; mess-hall rations by the head, the saving the eater''s own.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 54–55. Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 54–55. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun.'
         tags: ['polity:prc', 'ok:fields-place', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -1150,8 +1156,8 @@ ops:
         when: Nov. 25
         date: '1960-11-25'
         thread: china-leadership
-        c: 'Zhejiang 浙江. Chen Yun 陈云, hearing the heads of the Zhejiang committee 中共浙江省委: to bar peasants from the towns by fiat goes against economic law; keep them by more grain, more side-lines, higher grain purchase prices and a narrower gap between town and country; in Japan 日本 most village families have a member working in town, and home industries work for big industry; farming cannot arm itself from its own savings, and the time has come for industry to support it; the drought of Hebei 冀, Shandong 鲁, Henan 豫 and the north of Jiangsu and Anhui calls for water dispatched like an electric grid and the south''s water brought north; the planners, after the Soviet tradition, see only industry and transport; trade and finance to work by economic law, backed by administrative power; the home market neglected; the Center and the provinces to share by contract and proportion (a province with 1.8 million tons of steel capacity to deliver 1.6 million and keep 200,000); a leadership that hears no contrary view is in danger, and outside the first secretary and the organization chief no one dares tell the truth about cadres.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 56–57. Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun.'
+        c: 'Zhejiang 浙江. Chen Yun 陈云, hearing the heads of the Zhejiang committee 中共浙江省委: to bar peasants from the towns by fiat goes against economic law; keep them by more grain, more side-lines, higher grain purchase prices and a narrower gap between town and country; in Japan 日本 most village families have a member working in town, and home industries work for big industry; farming cannot arm itself from its own savings, and the time has come for industry to support it; the drought of Hebei 冀, Shandong 鲁, Henan 豫 and northern Jiangsu 苏北 and Anhui 皖北 calls for water dispatched like an electric grid and the south''s water brought north; the planners, after the Soviet tradition, see only industry and transport; trade and finance to work by economic law, backed by administrative power; the home market neglected; the Center 中央 and the provinces to share by contract and proportion (a province with 1.8 million tons of steel capacity to deliver 1.6 million and keep 200,000); a leadership that hears no contrary view is in danger, and outside the first secretary and the organization chief no one dares tell the truth about cadres.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 56–57. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -1159,8 +1165,8 @@ ops:
         when: Nov. 29
         date: '1960-11-29'
         thread: china-leadership
-        c: 'Zhejiang 浙江. Chen Yun 陈云, hearing the heads of the Zhejiang committee 中共浙江省委: to squeeze people from the towns to the villages takes the firewood from under the pot, the first year with town rations, the second self-supporting; the mass movement joined with technical measures; along the Jiaozhou–Jinan railway 胶济路 in Shandong 山东, forty thousand wells with five-horsepower pumps would water ten million mu and give a billion jin more grain; a rubber-tired handcart is worth four or five laborers, a million wheels need only 2,400 tons of rubber, and 10,000 tons for handcarts would hardly hurt industry; boasting has cost dearly in politics: in Xinyang 信阳, Henan 河南, when someone wrote to the Center the prefectural committee forbade the truth and checked the writer''s hand, the public security serving to deceive those above and crush those below.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 57. Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun.'
+        c: 'Zhejiang 浙江. Chen Yun 陈云, hearing the heads of the Zhejiang committee 中共浙江省委: to squeeze people from the towns to the villages takes the firewood from under the pot, the first year with town rations, the second self-supporting; the mass movement joined with technical measures; along the Jiaozhou–Jinan railway 胶济路 in Shandong 山东, forty thousand wells with five-horsepower pumps would water ten million mu and give a billion jin more grain; a rubber-tired handcart is worth four or five laborers, a million wheels need only 2,400 tons of rubber, and 10,000 tons for handcarts would hardly hurt industry; boasting has cost dearly in politics: in Xinyang 信阳, Henan 河南, when someone wrote to the Center 中央 the prefectural committee forbade the truth and checked the writer''s hand, the public security serving to deceive those above and crush those below.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 57. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun.'
         tags: ['polity:prc', 'ok:fields-place', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -1168,7 +1174,7 @@ ops:
         when: Nov.
         date: 1960-11
         thread: china-leadership
-        c: Chen Yun 陈云 proposes to the heads of the Ministry of Food's Party group 中共粮食部党组 the emergency import of grain; the group agrees and sends Li Xiannian 李先念 its report proposing to the Center that grain be imported.
+        c: 'Chen Yun 陈云 proposes to the heads of the Ministry of Food''s Party group 中共粮食部党组 the emergency import of grain; the group agrees and sends Li Xiannian 李先念 its report proposing to the Center 中央 that grain be imported.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 57. Made public: 2015. Names: Chen Yun, Li Xiannian.'
         tags: ['polity:prc', 'name:chen-yun', 'name:li-xiannian', 'vis:only:prc']
   - add:
@@ -1178,7 +1184,7 @@ ops:
         date: '1960-11-29'
         thread: china-leadership
         c: 'Li Xiannian 李先念, on Chen Yun''s 陈云 view, writes to Mao Zedong 毛泽东, Zhou Enlai 周恩来 and others and the Center: to get through next spring''s hunger and steady the grain situation, 1.2 billion jin of grain, or more, to be imported.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 57. See [[cal.1960-11.china-leadership-29]]. Made public: 2015. Names: Li Xiannian, Chen Yun, Mao Zedong, Zhou Enlai.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 57. See [[cal.1960-11.china-leadership-29]]. Made public: 2013 ([[w.zedong-mao-zedong-nianpu]], IV, under Dec. 12, 1960, as the calendar cites it for Mao''s comment on the letter). Names: Li Xiannian, Chen Yun, Mao Zedong, Zhou Enlai.'
         tags: ['polity:prc', 'name:li-xiannian', 'name:chen-yun', 'name:mao-zedong', 'name:zhou-enlai', 'vis:only:prc']
   - cite: {id: cal.1960-12-05.china-leadership-6, item: '[[w.chen-yun-nianpu-xiuding]], III, 57 (Dec. 5, Zhou Enlai''s minute: "have told Xiannian to proceed")'}
   - cite: {id: cal.1960-12-12.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 57 (Dec. 12, Mao''s minute: wholly agreed; two billion jin, if it can be imported, better)'}
@@ -1199,7 +1205,7 @@ ops:
         place: shanghai
         thread: china-leadership
         c: 'Shanghai 上海. Chen Yun 陈云 meets the heads of the Shanghai and Suzhou 苏州 culture bureaus and the Shanghai People''s Pingtan Troupe 上海市人民评弹团, Li Taicheng 李太成, Wu Zongxi 吴宗锡, He Zhanchun 何占春 and Zhou Liang 周良: *Zhenzhu ta* 《珍珠塔》 has great sway, and a good revision of it will show the old pieces can be revised well; no cry of "left" or "right" at every fault, a hundred schools contending; the working people in art may have faults, as Lu Xun 鲁迅 held; "I deal in clothes and food".'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 57–58. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 57–58. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -1337,7 +1343,7 @@ ops:
         date: '1960-12-22'
         thread: china-leadership
         c: 'Chen Yun 陈云, by letter to Zhou Yang 周扬, deputy head of the Propaganda Department 中共中央宣传部 and vice-chairman of the All-China Federation of Literary and Art Circles 全国文联, sends a list of the long pingtan 评弹 pieces: 56 traditional pieces from before 1949, 75 new ones on history or from classical novels and plays, and 25 on new people and new things, which draw far smaller houses, the work on them too short, the storytellers strangers to such people, and the pieces too solemn; he proposes that the Federation bring new writers into the work.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 59–60. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 59–60. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - cite: {id: cal.1960-12-23.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 60 (evening: Chen Yun with Liu Shaoqi, Zhu De, Deng Xiaoping and others at the meeting Mao calls of the regional bureaus'' first and second secretaries, on the villages'' livelihood and the coming work conference''s agenda; the six regional bureaus set up by the Politburo in September 1960 (the nianpu''s note))'}
   - add:
@@ -1347,7 +1353,7 @@ ops:
         date: '1960-12-24'
         thread: china-leadership
         c: 'Chen Yun 陈云 talks with the heads of the Chinese Quyi Workers'' Association 中国曲艺工作者协会 on writing new pieces: a famous storyteller with a new piece draws less than a young one with an old piece, so the fault is the new pieces'' art; quyi has stressed politics and slighted entertainment; every piece the storytellers play to be recorded live and transcribed word for word.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 60. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 60. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -1370,7 +1376,7 @@ ops:
         date: 1960-12
         at: after 1960-12-24
         thread: china-leadership
-        c: Chen Yun 陈云, at the head of the new Grain Price Small Group 粮价问题小组, calls the heads concerned of the State Planning Commission 国家计委, the State Council's 国务院 offices, the Ministries of Commerce 商业部, Food 粮食部 and Finance 财政部 and the People's Bank 中国人民银行 to study raising the grain purchase price.
+        c: 'Chen Yun 陈云, at the head of the new Grain Price Small Group 粮价问题小组, calls the heads concerned of the State Planning Commission 国家计委, the State Council''s Finance and Trade Office 国务院财贸办公室, the Ministries of Commerce 商业部, Food 粮食部 and Finance 财政部 and the People''s Bank 中国人民银行 to study raising the grain purchase price.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 61. See [[cal.1960-10.china-leadership-3]]. Made public: 2015. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - cite: {id: cal.1960-12-27.china-leadership-2, item: '[[w.chen-yun-nianpu-xiuding]], III, 61 (afternoon: Chen Yun with Deng Xiaoping, Peng Zhen and others at Zhou Enlai''s meeting on the State Council''s organs and personnel)'}
@@ -1383,9 +1389,21 @@ ops:
         time_band: afternoon
         time_zone: Asia/Shanghai
         thread: china-leadership
-        c: Chen Yun 陈云, after Zhou Enlai's meeting on the State Council's 国务院 organs and personnel, talks for about an hour with Zhou Enlai 周恩来, Li Fuchun 李富春, Li Xiannian 李先念 and Bo Yibo 薄一波.
+        c: 'Chen Yun 陈云, after Zhou Enlai''s 周恩来 meeting on the State Council''s 国务院 organs and personnel, talks for about an hour with Zhou, Li Fuchun 李富春, Li Xiannian 李先念 and Bo Yibo 薄一波.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 61. The words: 下午 … 后 (61). Made public: 2015. Names: Chen Yun, Zhou Enlai, Li Fuchun, Li Xiannian, Bo Yibo.'
         tags: ['polity:prc', 'name:chen-yun', 'name:zhou-enlai', 'name:li-fuchun', 'name:li-xiannian', 'name:bo-yibo', 'vis:only:prc']
+  - add:
+      entry:
+        id: 'cal.1960-12-27.china-leadership-6'
+        when: 'Dec. 27'
+        date: '1960-12-27'
+        time_range: ['1960-12-27T11:00Z', '1960-12-27T14:00Z']
+        time_band: 'evening'
+        time_zone: 'Asia/Shanghai'
+        thread: 'china-leadership'
+        c: 'Chen Yun 陈云, after Mao Zedong''s 毛泽东 meeting of the Standing Committee and the regional bureaus'' first and second secretaries, talks with Mao, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and Peng Zhen 彭真.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 61. See [[cal.1960-12-27.china-leadership]]. The words: 晚 … 会后 (61). Made public: 2015. Names: Chen Yun, Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen.'
+        tags: ['polity:prc', 'name:chen-yun', 'name:mao-zedong', 'name:liu-shaoqi', 'name:zhou-enlai', 'name:deng-xiaoping', 'name:peng-zhen', 'vis:only:prc']
   - cite: {id: cal.1960-12-27.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 61 (evening: Chen Yun at Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries, hearing the work conference''s groups)'}
   - cite: {id: cal.1960-12-29.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 61 (Chen Yun at the enlarged Standing Committee on international questions and the work conference)'}
   - cite: {id: cal.1960-12-30.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 61–62 (afternoon: Chen Yun at Mao''s meeting in Zhongnanhai hearing the Northeast and North China groups; on Mao''s word to live the rich days as poor ones, Chen Yun: next year no better than this; three things: be ready in mind and work; men and beasts to rest this winter for the spring ploughing; import as much grain as can be had, "eating first, construction second"; Mao sums up: eating first, the market second, construction third)'}
@@ -1398,7 +1416,7 @@ ops:
         when: Dec.
         date: 1960-12
         thread: china-leadership
-        c: 'Chen Yun 陈云, two weeks running, meets seven or eight experts of the farm, trade and policy-research departments on raising pigs in the villages: the piglet''s growth from birth to fattening, the feed, fuel and work time and the returns of state, collective and household raising compared: pigs to be "chiefly private, public as an aid" 私养为主、公养为辅, against the Center''s earlier "chiefly public" and the "public and private together" of the State Council Finance and Trade Office''s 国务院财贸办公室 report the Center forwarded on Nov. 15.'
+        c: 'Chen Yun 陈云, two weeks running, meets seven or eight experts of the farm, trade and policy-research departments on raising pigs in the villages: the piglet''s growth from birth to fattening, the feed, fuel and work time and the returns of state, collective and household raising compared: pigs to be "chiefly private, public as an aid" 私养为主、公养为辅, against the Center''s 中共中央 earlier "chiefly public" and the "public and private together" of the State Council Finance and Trade Office''s 国务院财贸办公室 report the Center forwarded on Nov. 15.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 62. See [[cal.1960-12-24.china-leadership]], where the work conference adopts it on Dec. 24. Made public: 2015. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
@@ -1446,7 +1464,7 @@ ops:
         time_band: morning
         time_zone: Asia/Shanghai
         thread: china-leadership
-        c: 'Chen Yun 陈云 speaks to the meeting of the regional bureaus'' heads of agriculture and forestry offices 各中共中央局的农林办公室主任会议: a real turn in farming will take about four years; water, fertilizer and machines the main points of the Eight-Character Charter 八字宪法; the water works not useless; the big fertilizer works first, the small not yet mastered; three conditions for this year: be prepared (melons and vegetables, low rations), rest as well as work, "so that fewer die", and import some grain without fanfare; less land, the strong men sent off, the animals worn out, and 25 million more townspeople to feed; if nature cost 60 to 70 billion jin last year and men 50 to 60 billion, the 120 billion cannot come back in a year; more of the state''s goods to agriculture, exports down, steel cut; "eating first, construction second", which Mao and the Center approved; meetings by region to follow under the Rural Work Department 中央农村工作部, with An Ziwen 安子文 and the planning and economic commissions.'
+        c: 'Chen Yun 陈云 speaks to the meeting of the regional bureaus'' heads of agriculture and forestry offices 各中共中央局的农林办公室主任会议: a real turn in farming will take about four years; water, fertilizer and machines the main points of the Eight-Character Charter 八字宪法; the water works not useless; the big fertilizer works first, the small not yet mastered; three conditions for this year: be prepared (melons and vegetables, low rations), rest as well as work, "so that fewer die", and import some grain without fanfare; less land, the strong men sent off, the animals worn out, and 25 million more townspeople to feed; if nature cost 60 to 70 billion jin last year and men 50 to 60 billion, the 120 billion cannot come back in a year; more of the state''s goods to agriculture, exports down, steel cut; "eating first, construction second", which Mao Zedong 毛泽东 and the Center 中共中央 approved; meetings by region to follow under the Rural Work Department 中央农村工作部, with An Ziwen 安子文 and the planning and economic commissions.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 63–65. The words: 上午 (63–65). Made public: 2015. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - cite: {id: cal.1961-01-07.china-leadership-5, item: '[[w.chen-yun-nianpu-xiuding]], III, 65 (Chen Yun attends the Secretariat on the 1961 plan)'}
@@ -1465,7 +1483,7 @@ ops:
         when: Jan. 9
         date: '1961-01-09'
         thread: china-leadership
-        c: 'Chen Yun 陈云 directs the drafting of the Grain Price Small Group''s 中共中央粮价问题小组 report to Mao and the Center: grain purchase prices to rise 20 percent on average from this year (a billion yuan more for the peasants), of the 2.5 billion yuan of compensation only 1.5 billion paid in cash this year and a billion in People''s Bank promissory notes next year; with other farm prices up 25 percent on 26 to 30 billion yuan of sales, the peasants to gain 6.5 to 7 billion; oil, meat, poultry and eggs this year, cotton, tobacco, hemp, tea, sugar, timber and bamboo next; grain sale prices and wages unchanged for a year or two, the sale price in town below the purchase price in the country; state accumulation down over a billion this year, two billion next; townspeople to pay about 2 billion yuan more (6.5 percent of their purchasing power); of 9.5 billion yuan of currency out, institutions hold about 4 billion, townspeople 2.8 billion (21 yuan a head), peasants 2.7 billion (5 yuan a head); a gap of about 3 billion between purchasing power and goods, to be met with 1.5 billion more goods (150,000 tons more of rolled steel and 10 million dollars of light-industry materials).'
+        c: 'Chen Yun 陈云 directs the drafting of the Grain Price Small Group''s 中共中央粮价问题小组 report to Mao Zedong 毛泽东 and the Center 中共中央: grain purchase prices to rise 20 percent on average from this year (a billion yuan more for the peasants), of the 2.5 billion yuan of compensation only 1.5 billion paid in cash this year and a billion in People''s Bank 中国人民银行 promissory notes next year; with other farm prices up 25 percent on 26 to 30 billion yuan of sales, the peasants to gain 6.5 to 7 billion; oil, meat, poultry and eggs this year, cotton, tobacco, hemp, tea, sugar, timber and bamboo next; grain sale prices and wages unchanged for a year or two, the sale price in town below the purchase price in the country; state accumulation down over a billion this year, two billion next; townspeople to pay about 2 billion yuan more (6.5 percent of their purchasing power); of 9.5 billion yuan of currency out, institutions hold about 4 billion, townspeople 2.8 billion (21 yuan a head), peasants 2.7 billion (5 yuan a head); a gap of about 3 billion between purchasing power and goods, to be met with 1.5 billion more goods (150,000 tons more of rolled steel and 10 million dollars of light-industry materials).'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 65–67. See [[cal.1960-10.china-leadership-3]]. Made public: 2015. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - cite: {id: cal.1961-01-09.china-leadership-9, item: '[[w.chen-yun-nianpu-xiuding]], III, 67 (Chen Yun attends the Secretariat on the work conference''s documents)'}
@@ -1478,7 +1496,7 @@ ops:
         when: Jan. 15
         date: '1961-01-15'
         thread: china-leadership
-        c: 'The Center 中共中央 approves and forwards the Grain Price Small Group''s report: grain purchase prices to rise 20 percent on average across the country from the summer harvest, the bonus of 5 percent of the average price for the main grain areas of 1960 kept.'
+        c: 'The Center 中共中央 approves and forwards the Grain Price Small Group''s 中共中央粮价问题小组 report: grain purchase prices to rise 20 percent on average across the country from the summer harvest, the bonus of 5 percent of the average price for the main grain areas of 1960 kept.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 67. See [[cal.1961-01-09.china-leadership-13]]. Made public: 2015.'
         tags: ['polity:prc', 'vis:only:prc']
   - cite: {id: cal.1961-01-14.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 67–68 (Chen Yun at the Ninth Plenum; Li Fuchun''s report; "adjust, consolidate, fill out, raise" approved; agriculture, light industry, heavy industry in that order; capital construction in the budget cut 38 percent, steel up 1.6 percent; private plots from 5 to 7 percent for twenty years at least; pigs chiefly private, private sows allowed; the six regional bureaus approved; Mao calls for investigation and study)'}
@@ -1492,8 +1510,8 @@ ops:
         date: '1961-01-18'
         place: peking
         thread: china-leadership
-        c: 'Peking 北京, the Ninth Plenum 八届九中全会. Chen Yun 陈云 speaks: he approves the work of Liu Shaoqi''s 刘少奇 delegation at the Moscow 莫斯科 meeting of the parties; the 1961 plan truly puts agriculture first and agriculture, light and heavy industry in that order, gaps, quality and kinds before quantity; even 18.7 million tons of steel is hard (Britain and Germany took long to reach it, Japan and France stayed under 15 million, the Soviet Union had 18.31 million before the war); more rolling mills of every size and the whole chain from coal washing to rolling; the mines from hand labor to machines; Hebei 冀, Shandong 鲁, Henan 豫, northern Anhui and northern Jiangsu, now with water held, could change China''s farming; March to May the hungry months, grain moved east to west and back; free markets in the small towns from April, fine sweets and cakes in Peking 北京, Tianjin 天津 and Shanghai 上海, restaurants selling fried pork by the fourth quarter: rationing and open sale, "walking on two legs".'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 68–69. See [[cal.1961-01-14.china-leadership]]. Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun, Liu Shaoqi.'
+        c: 'Peking 北京, the Ninth Plenum 八届九中全会. Chen Yun 陈云 speaks: he approves the work of Liu Shaoqi''s 刘少奇 delegation at the Moscow 莫斯科 meeting of the parties; the 1961 plan truly puts agriculture first and agriculture, light and heavy industry in that order, gaps, quality and kinds before quantity; even 18.7 million tons of steel is hard (Britain and Germany took long to reach it, Japan and France stayed under 15 million, the Soviet Union had 18.31 million before the war); more rolling mills of every size and the whole chain from coal washing to rolling; the mines from hand labor to machines; Hebei 冀, Shandong 鲁, Henan 豫, northern Anhui 皖北 and northern Jiangsu 苏北, now with water held, could change China''s farming; March to May the hungry months, grain moved east to west and back; free markets in the small towns from April, fine sweets and cakes in Peking 北京, Tianjin 天津 and Shanghai 上海, restaurants selling fried pork by the fourth quarter: rationing and open sale, "walking on two legs".'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 68–69. See [[cal.1961-01-14.china-leadership]], [[cal.1961-01-18.china-leadership]] (the plenum''s last session, Mao speaking). Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun, Liu Shaoqi.'
         tags: ['polity:prc', 'name:chen-yun', 'name:liu-shaoqi', 'vis:only:prc']
   - add:
       entry:
@@ -1666,7 +1684,7 @@ ops:
         when: Feb. 12
         date: '1961-02-12'
         thread: china-leadership
-        c: 'Chen Yun 陈云, by letter to Ke Qingshi 柯庆施, copy to Cao Diqiu 曹荻秋, answers their questions on Shanghai''s 上海 grain and foreign exchange (whether the Ministry of Food objects to Anhui''s 安徽 sending Shanghai four million jin of flour beyond its quota; whether the Ministry of Foreign Trade will take the foreign-ship service company''s foreign exchange, the nianpu''s note): such matters are handled at the bureau level, so ministers often do not know of them, a great fault; they may raise any further problem with him.'
+        c: 'Chen Yun 陈云, by letter to Ke Qingshi 柯庆施, copy to Cao Diqiu 曹荻秋, answers their questions on Shanghai''s 上海 grain and foreign exchange (whether the Ministry of Food 粮食部 objects to Anhui''s 安徽 sending Shanghai four million jin of flour beyond its quota; whether the Ministry of Foreign Trade 外贸部 will take the foreign exchange of the Shanghai Foreign Ships Service Company 上海外轮服务公司, the nianpu''s note): such matters are handled at the bureau level, so ministers often do not know of them, a great fault; they may raise any further problem with him.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 73. Made public: 2015. Names: Chen Yun, Ke Qingshi.'
         tags: ['polity:prc', 'ok:fields-place', 'name:chen-yun', 'name:ke-qingshi', 'vis:only:prc']
   - cite: {id: cal.1961-02-13.china-leadership-3, item: '[[w.chen-yun-nianpu-xiuding]], III, 73 (Chen Yun with Zhou Enlai and others at the Soviet Ambassador''s reception for the eleventh anniversary of the treaty)'}
@@ -1689,7 +1707,7 @@ ops:
         time_zone: Asia/Shanghai
         thread: china-leadership
         c: 'Chen Yun 陈云, presiding at a working meeting of the State Council''s Finance and Trade Office 国务院财贸办公室: the Planning Commission 国家计委 to study this year''s market supply and the currency in circulation that cannot be drawn in; peasants with money and no industrial goods to buy will not sell their produce, which hurts light industry and supply in turn; first call on some goods for the market, higher prices on some luxuries, the warehouses cleared, some construction workers sent home to the villages; less pay for the idle factories'' workers, or bonds, to be weighed with care.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 74. The words: 上午 (74). Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 74. The words: 上午 (74). Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -1712,7 +1730,7 @@ ops:
         time_band: evening
         time_zone: Asia/Shanghai
         thread: china-leadership
-        c: Chen Yun 陈云 talks with Xia Geng 夏耘, Vice-Minister of Metallurgy 冶金部.
+        c: 'Chen Yun 陈云 talks with Xia Yun 夏耘, Vice-Minister of Metallurgy 冶金部.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 74. The words: 晚 (74). Made public: 2015. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - cite: {id: cal.1961-02-20.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 75 (afternoon: Chen Yun at the enlarged Standing Committee Liu Shaoqi chairs, on farm and industrial output)'}
@@ -1729,10 +1747,10 @@ ops:
   - add:
       entry:
         id: cal.1961-02-24.china-leadership-6
-        when: Feb. 24 and 27
+        when: 'Feb. 24'
         date: '1961-02-24'
         thread: china-leadership
-        c: Chen Yun 陈云 presides at working meetings of the State Council's Finance and Trade Office 国务院财贸办公室 on market supply and finance.
+        c: 'Chen Yun 陈云 presides at a working meeting of the State Council''s Finance and Trade Office 国务院财贸办公室 on market supply and finance.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 75. Made public: 2015. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
@@ -1776,9 +1794,9 @@ ops:
         time_zone: Asia/Shanghai
         place: peking
         thread: china-leadership
-        c: Peking 北京. Chen Yun 陈云 visits shops of some of the city's department stores to see the quality and sale of the goods whose prices were raised, and discusses prices with the heads of the Ministry of Commerce 商业部.
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 76. The words: 上午 (76). Names: Chen Yun.'
-        tags: ['polity:prc', 'name:chen-yun']
+        c: 'Peking 北京. Chen Yun 陈云 visits shops of some of the city''s department stores to see the quality and sale of the goods whose prices were raised. He discusses prices with the heads of the Ministry of Commerce 商业部.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 76. The words: 上午 (76). Made public: 2015. Names: Chen Yun.'
+        tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc@C']
   - add:
       entry:
         id: cal.1961-02-28.china-leadership-14
@@ -1789,6 +1807,15 @@ ops:
         thread: china-leadership
         c: Chen Yun 陈云 talks with Ye Jizhuang 叶季壮, Yao Yilin 姚依林 and Chen Guodong 陈国栋 on importing grain.
         n: '[[w.chen-yun-nianpu-xiuding]], III, 76. The words: 晚八点 (76). Made public: 2015. Names: Chen Yun.'
+        tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
+  - add:
+      entry:
+        id: 'cal.1961-02-27.china-leadership-14'
+        when: 'Feb. 27'
+        date: '1961-02-27'
+        thread: 'china-leadership'
+        c: 'Chen Yun 陈云 presides again at a working meeting of the State Council''s Finance and Trade Office 国务院财贸办公室 on market supply and finance.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 75. See [[cal.1961-02-24.china-leadership-6]]. Made public: 2015. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - cite: {id: cal.1961-02-28.china-leadership-2, item: '[[w.chen-yun-nianpu-xiuding]], III, 76 (9:30 p.m.: Chen Yun with Chen Yi, Ye Jizhuang and Yao Yilin goes to Zhou''s on the Soviet offer of grain and sugar; the nianpu''s note: that afternoon the Soviet Ambassador handed Liu Shaoqi Khrushchev''s letter offering them on loan)'}
   - cite: {id: cal.1961-02-28.china-leadership-8, item: '[[w.chen-yun-nianpu-xiuding]], III, 76 (the nianpu''s note: the Ambassador hands Liu Shaoqi Khrushchev''s letter that afternoon)'}
@@ -1811,7 +1838,7 @@ ops:
         date: '1961-03-01'
         thread: china-leadership
         c: 'Chen Yun 陈云, by letter to Wu Zongxi 吴宗锡: Qin Jiwen''s 秦纪文 recollections of adapting the ballad *Meng Lijun* 《孟丽君》 interest him; the storytellers'' pieces in the press are on their own change of mind and old and new society, almost none on the art; they should write of their experience in storytelling.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 76. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 76. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - cite: {id: cal.1961-03-02.china-leadership-6, item: '[[w.chen-yun-nianpu-xiuding]], III, 76 (afternoon: Chen Yun at the Standing Committee hearing Li Xiannian on the Albanian Party''s congress)'}
   - cite: {id: cal.1961-03-03.china-leadership-4, item: '[[w.chen-yun-nianpu-xiuding]], III, 76 (evening: Chen Yun at the enlarged Standing Committee hearing Deng Xiaoping and others on their tours and on foreign trade)'}
@@ -1870,9 +1897,10 @@ ops:
         at: after 1961-03-15
         place: canton
         thread: china-leadership
-        c: 'Canton 广州. Zeng Xisheng 曾希圣, first secretary of the Anhui committee 中共安徽省委, reports to Mao Zedong 毛泽东 on the "responsibility fields" 责任田 of some Anhui production teams (output quotas fixed by field and responsibility by person, in effect by household, the nianpu''s note); Mao says they may be tried on a small scale; against other views, Chen Yun 陈云: Anhui should be allowed to try fixing output by household 包产到户.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 79. See [[cal.1961-03-15.china-leadership-2]]. Made public: 2015. Names: Mao Zedong, Chen Yun.'
+        c: 'Canton 广州. Chen Yun 陈云, against other views on the "responsibility fields" 责任田 of some Anhui 安徽 production teams (output fixed by field and responsibility by person, in effect by household, the nianpu''s note), which Zeng Xisheng 曾希圣, first secretary of the Anhui committee 中共安徽省委, has reported to Mao Zedong 毛泽东: Anhui should be allowed to try fixing output by household 包产到户.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 79. See [[cal.1961-03-15.china-leadership]], Zeng''s report to Mao. Made public: 2015. Names: Chen Yun, Mao Zedong.'
         tags: ['polity:prc', 'name:mao-zedong', 'name:chen-yun', 'vis:only:prc']
+  - cite: {id: cal.1961-03-15.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 79 (during the Canton conference, Mar. 15–23, the day not given: Zeng Xisheng reports to Mao on the responsibility fields of some Anhui production teams; Mao: they may be tried on a small scale)'}
   - add:
       entry:
         id: cal.1961-03-21.china-leadership-12
@@ -1950,7 +1978,7 @@ ops:
         date: '1961-04-04'
         place: hangzhou
         thread: china-leadership
-        c: 'Hangzhou 杭州. Chen Yun 陈云 presides, six half-days running, at a forum on speeding the nitrogen-fertilizer industry, with members of the Center''s Fertilizer Small Group 中央化肥小组 (set up in October 1960 under the Planning Commission, Peng Tao 彭涛 at its head, the nianpu''s note) and others: for 1962–64 the works to be big, 200,000 to 250,000 tons of synthetic ammonia a year of new capacity, five works of 50,000 tons a year finished each year and ten building at once, near coal and in the high-yield grain and cash-crop areas; "I am an activist for small nitrogen works, now forced to go big", the small and middle plant still to be tried; imported materials "a great invention"; a buying group abroad under the Fertilizer Small Group; foreign exchange to go to 5 million tons of grain till August and then as needed, 45 million dollars at most in three years, a foot less cloth a head saving 35 million; Shanghai''s 上海 hundred-odd works for fertilizer plant, eighteen of them the core. Grain output of 1958, published as 750 billion jin, then 500 billion, he reckons at about 420 billion; 1960''s at most 310 billion, and the day he heard it was 310 billion he drank a glass of wine (the statistics give 287 billion for 1960 and 295 billion for 1961, the nianpu''s note); the loss to disaster not 120 billion, nor Li Xiannian''s 李先念 50 billion, but at most 36 billion; ten to twelve million townsmen to go to the villages; the Soviet planning method to be taken in part and dropped in part; speak without fear of "left" or right: "if anyone wants to expel you from the Party, come to me." The minutes of the forum follow. The time is the first day''s.'
+        c: 'Hangzhou 杭州. Chen Yun 陈云 presides, six half-days running, at a forum on speeding the nitrogen-fertilizer industry, with members of the Center''s Fertilizer Small Group 中央化肥小组 (set up in October 1960 under the State Planning Commission 国家计委, Peng Tao 彭涛 at its head, the nianpu''s note) and others: for 1962–64 the works to be big, 200,000 to 250,000 tons of synthetic ammonia a year of new capacity, five works of 50,000 tons a year finished each year and ten building at once, near coal and in the high-yield grain and cash-crop areas; "I am an activist for small nitrogen works, now forced to go big", the small and middle plant still to be tried; imported materials "a great invention"; a buying group abroad under the Fertilizer Small Group; foreign exchange to go to 5 million tons of grain till August and then as needed, 45 million dollars at most in three years, a foot less cloth a head saving 35 million; Shanghai''s 上海 hundred-odd works for fertilizer plant, eighteen of them the core. Grain output of 1958, published as 750 billion jin, then 500 billion, he reckons at about 420 billion; 1960''s at most 310 billion, and the day he heard it was 310 billion he drank a glass of wine (the statistics give 287 billion for 1960 and 295 billion for 1961, the nianpu''s note); the loss to disaster not 120 billion, nor Li Xiannian''s 李先念 50 billion, but at most 36 billion; ten to twelve million townsmen to go to the villages; the Soviet planning method to be taken in part and dropped in part; speak without fear of "left" or right: "if anyone wants to expel you from the Party, come to me." The minutes of the forum follow.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 80–82. Made public: 2015. Names: Chen Yun, Li Xiannian.'
         tags: ['polity:prc', 'name:chen-yun', 'name:li-xiannian', 'vis:only:prc']
   - add:
@@ -1970,7 +1998,7 @@ ops:
         date: '1961-04-16'
         place: nanjing
         thread: china-leadership
-        c: 'Nanjing 南京. Chen Yun 陈云 hears the heads of the Nanjing Chemical Industry Company 南京化学工业公司, five half-days running, and interjects: mines and chemical works on one plan, with fixed contracts for raw materials; inferior anthracite for gas to be studied; copper tailings for sulfuric acid; steel supplied to size and grade, with certificates; repairs by outside cooperation as before; technical staff only 4 percent of the workers, against 20 percent in the Soviet Union 苏联 and 30 to 40 in America; night colleges and correspondence courses; "red" not the only test, and the company''s fifty-odd technicians each to have a written record; the one-man management system wrong, but its sound rules not to be thrown out, and neither the factory director nor the Party secretary to rule alone; the mass movement not to break the rules. The time is the first day''s.'
+        c: 'Nanjing 南京. Chen Yun 陈云 hears the heads of the Nanjing Chemical Industry Company 南京化学工业公司, five half-days running, and interjects: mines and chemical works on one plan, with fixed contracts for raw materials; inferior anthracite for gas to be studied; copper tailings for sulfuric acid; steel supplied to size and grade, with certificates; repairs by outside cooperation as before; technical staff only 4 percent of the workers, against 20 percent in the Soviet Union 苏联 and 30 to 40 in America; night colleges and correspondence courses; "red" not the only test, and the company''s fifty-odd technicians each to have a written record; the one-man management system wrong, but its sound rules not to be thrown out, and neither the factory director nor the Party secretary to rule alone; the mass movement not to break the rules.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 83–84. Made public: 2015. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
@@ -1994,7 +2022,7 @@ ops:
         place: peking
         thread: china-leadership
         c: 'Chen Yun 陈云, by letter to Zhou Enlai 周恩来, reports on his Hangzhou 杭州 and Nanjing 南京 meetings on fertilizer plant: five works of 50,000 tons of synthetic ammonia finished a year and five begun, 250,000 tons of new capacity a year (a million tons of fertilizer), a pace only America has had for some years, against 620,000 tons of capacity in all since before 1949; whether it can be done will take years of trial to tell; imported materials 16 million dollars; materials first, then plant, then building; the small works of 800 and 2,000 tons still to be tried; he can still work half-days.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 84. Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun, Zhou Enlai.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 84. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun, Zhou Enlai.'
         tags: ['polity:prc', 'name:chen-yun', 'name:zhou-enlai', 'vis:only:prc']
   - add:
       entry:
@@ -2010,10 +2038,11 @@ ops:
         id: cal.1961-04-22.china-leadership-11
         when: Apr. 22
         date: '1961-04-22'
+        place: 'peking'
         thread: china-leadership
-        c: 'Chen Yun 陈云, after seeing the Shanghai Pingtan Troupe 上海评弹团 in a theater, meets its members: at Nanjing 南京 some days before he heard an opening song in praise of the Leap, "rice yielding 200,000 jin, a melon of 200 jin, peaches as big as a face", such things once sung but not to be sung now; Jiangsu 江苏 to be told to look over such lyrics.'
+        c: 'Peking 北京. Chen Yun 陈云 sees the Shanghai Pingtan Troupe 上海评弹团 perform in a theater. Afterwards he meets its members: at Nanjing 南京 some days before he heard an opening song in praise of the Great Leap 大跃进, "rice yielding 200,000 jin, a melon of 200 jin, peaches as big as a face", such things once sung but not to be sung now; Jiangsu 江苏 to be told to look over such lyrics.'
         n: '[[w.chen-yun-nianpu-xiuding]], III, 84. Made public: 2015. Names: Chen Yun.'
-        tags: ['polity:prc', 'ok:fields-place', 'name:chen-yun', 'vis:only:prc']
+        tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc@C-D']
   - add:
       entry:
         id: cal.1961-04-23.china-leadership-7
@@ -2028,10 +2057,11 @@ ops:
         id: cal.1961-04-25.china-leadership-10
         when: Apr. 25
         date: '1961-04-25'
+        place: 'peking'
         thread: china-leadership
-        c: 'Chen Yun 陈云 sees the Shanghai Pingtan Troupe 上海评弹团 perform and receives Wu Zongxi 吴宗锡 and the young storytellers of *Qingchun zhi ge* 《青春之歌》, Shi Wenlei 石文磊 and Zhao Kaisheng 赵开生 among them: a ballad needs flesh as well as bones, and jokes; the audience wants the good to come through; a revolutionary story ends in victory, as history did; Yang Zirong 杨子荣 of *Lin hai xue yuan* 《林海雪原》 really died but the novel lets him live, and the ballad may invent too; a piece takes not three years to revise but ten; a general who wins has lost battles.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 84–85. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
-        tags: ['polity:prc', 'ok:fields-place', 'name:chen-yun', 'vis:only:prc']
+        c: 'Peking 北京. Chen Yun 陈云 sees the Shanghai Pingtan Troupe 上海评弹团 perform. He receives Wu Zongxi 吴宗锡 and the young storytellers of *Qingchun zhi ge* 《青春之歌》, Shi Wenlei 石文磊 and Zhao Kaisheng 赵开生 among them: a ballad needs flesh as well as bones, and jokes; the audience wants the good to come through; a revolutionary story ends in victory, as history did; Yang Zirong 杨子荣 of *Lin hai xue yuan* 《林海雪原》 really died but the novel lets him live, and the ballad may invent too; a piece takes not three years to revise but ten; a general who wins has lost battles.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 84–85. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
+        tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc@C-H']
   - cite: {id: cal.1961-04-26.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 85 (afternoon: Chen Yun attends the Secretariat, which relays Mao''s instructions on a work conference and revising the Sixty Articles)'}
   - add:
       entry:
@@ -2123,7 +2153,7 @@ ops:
         date: '1961-05-06'
         thread: china-leadership
         c: 'Chen Yun 陈云 talks with the heads of the Shanghai People''s Pingtan Troupe 上海市人民评弹团: pingtan''s 评弹 history must be studied, the years before and after the war with Japan too, when it turned commercial and vulgar jokes ran wild, whence the "cutting off of tails" 斩尾巴 after 1949 (the early movement of some in pingtan to stop the traditional pieces, the nianpu''s note); now jokes are needed again, but not to excess; students of literature, drama and music to be welcomed to study pingtan.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 86. Made public: 2015. To check: To check: 《陈云同志关于评弹的谈话和通信（增订本）》, where the nianpu says it is collected (the first edition, [[w.chen-yun-tongzhi-guanyu]], 1983). Names: Chen Yun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 86. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
         tags: ['polity:prc', 'ok:fields-place', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -2183,12 +2213,13 @@ ops:
         date: '1961-05-25'
         place: peking
         thread: china-leadership
-        c: 'Peking 北京. Chen Yun 陈云 speaks to the East China and Northeast groups 华东、东北组 of the Central Work Conference: investigation must go down to the grass roots, and also hear contrary views among the cadres around one, since refuting error is how truth grows, and Mao Zedong Thought 毛泽东思想 grew by struggle with error; compensation to the peasants, 15 to 20 billion yuan in all, 2 billion a year (1.5 from the Center, 0.5 from the localities), to be paid in full, even 40 billion, as a matter of restoring political faith; coal, iron, timber and bamboo for it to be in the plan; the mountain people carrying public and procurement grain out to be paid for the transport.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 88–89. Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun.'
+        c: 'Peking 北京. Chen Yun 陈云 speaks to the East China and Northeast groups 华东、东北组 of the Central Work Conference 中共中央工作会议: investigation must go down to the grass roots, and also hear contrary views among the cadres around one, since refuting error is how truth grows, and Mao Zedong Thought 毛泽东思想 grew by struggle with error; compensation to the peasants, 15 to 20 billion yuan in all, 2 billion a year (1.5 from the Center 中央, 0.5 from the localities), to be paid in full, even 40 billion, as a matter of restoring political faith; coal, iron, timber and bamboo for it to be in the plan; the mountain people carrying public and procurement grain out to be paid for the transport.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 88–89. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - cite: {id: cal.1961-05-28.china-leadership-7, item: '[[w.chen-yun-nianpu-xiuding]], III, 89 (afternoon: Chen Yun with Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian and others at the meeting Zhou Enlai calls on grain for the third quarter of 1961 and the year 1961–62)'}
   - cite: {id: cal.1961-05-28.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 89 (Chen Yun with Zhou Enlai, Peng Zhen, Li Fuchun, Tan Zhenlin, Bo Yibo, Yang Shangkun and others to Deng Xiaoping''s on grain)'}
   - cite: {id: cal.1961-05-30.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 89–90 (Chen Yun speaks to the East China area meeting of the Finance and Trade Office''s foreign trade conference: farm procurement better loose than tight; the wage bill from 13.7 billion yuan in 1956 to 26.3 billion; first food, then clothing; to steady the market import grain, and export farm produce for it; production for the world market, direct links of production and sale, exchange and return of goods, strict inspection; the state shops like "the King of Hell keeping a wine shop", the "official merchant" manner to go; printed in 《陈云文选》 as 《做好外贸工作》)'}
+  - cite: {id: cal.1961-05.china-leadership-2, item: '[[w.chen-yun-nianpu-xiuding]], III, 89–90 (May 30, 1961: Chen Yun to the East China area meeting of the Finance and Trade Office''s foreign trade conference: farm produce to be exported for grain, export goods to have production bases, production for the world market''s buyers; printed in 《陈云文选》 as 《做好外贸工作》)'}
   - cite: {id: cal.1961-05-31.china-leadership, item: '[[w.chen-yun-nianpu-xiuding]], III, 90–92 (Chen Yun speaks to the work conference on cutting staff and sending townspeople to the villages: four ways (policy, industry''s support, imports beyond 10 billion jin hard, townspeople to the villages), the first the root and the fourth indispensable; either squeeze the peasants'' rations or send townspeople down; three of the four grain crises since 1949 came from the towns'' growth; to reach 1958''s output again would take three or four years even at 20 to 30 billion jin more a year; 25 million new workers in three years, the towns at 130 million; twenty million sent down would save 3 billion jin the first year and 9 billion the second; printed in 《陈云文选》 as 《动员城市人口下乡》)'}
   - add:
       entry:
@@ -2197,8 +2228,8 @@ ops:
         date: '1961-06-03'
         place: peking
         thread: china-leadership
-        c: 'Peking 北京. Chen Yun 陈云 speaks to the East China and Northeast groups 华东、东北组 of the Central Work Conference: the peasants'' zeal is up and goods will grow, but the state has nothing to trade them; steel, bamboo and coal for small goods the peasants need, and the timber saved from capital construction sold to them for tools and houses; first the villages, then the towns; high-priced sweets to go on; townspeople to the villages; then 100 million dollars of rubber, black sheet and other materials imported for goods, until coupons cover only a few things; fewer compulsory purchase quotas, and barter for the peasants'' surplus.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 92. Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun.'
+        c: 'Peking 北京. Chen Yun 陈云 speaks to the East China and Northeast groups 华东、东北组 of the Central Work Conference 中共中央工作会议: the peasants'' zeal is up and goods will grow, but the state has nothing to trade them; steel, bamboo and coal for small goods the peasants need, and the timber saved from capital construction sold to them for tools and houses; first the villages, then the towns; high-priced sweets to go on; townspeople to the villages; then 100 million dollars of rubber, black sheet and other materials imported for goods, until coupons cover only a few things; fewer compulsory purchase quotas, and barter for the peasants'' surplus.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 92. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun.'
         tags: ['polity:prc', 'name:chen-yun', 'vis:only:prc']
   - add:
       entry:
@@ -2210,8 +2241,8 @@ ops:
         time_zone: Asia/Shanghai
         place: peking
         thread: china-leadership
-        c: 'Peking 北京. Chen Yun 陈云 speaks to the Central Work Conference: after the summer harvest the provinces must buy more, since the Center must send grain to the Northeast 东北, or people will die in the stricken areas, and against accidents (late ships, floods on the railways, empty stores) the southern provinces to lend grain till autumn; fixed output quotas rouse the peasants, but even overfulfillers will eat less than in past years; steel for farm tools as compensation, made locally at the old handicraft forges, not in batches by the farm-machinery departments; Li Fuchun 李富春 is right that heavy industry must retreat far enough to meet farming''s and the market''s needs, but the Center, the regional bureaus and each province should first set up a group to rank industry''s measures of support.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 92–93. The words: 上午 (92–93). Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun, Li Fuchun.'
+        c: 'Peking 北京. Chen Yun 陈云 speaks to the Central Work Conference 中共中央工作会议: after the summer harvest the provinces must buy more, since the Center 中央 must send grain to the Northeast 东北, or people will die in the stricken areas, and against accidents (late ships, floods on the railways, empty stores) the southern provinces to lend grain till autumn; fixed output quotas rouse the peasants, but even overfulfillers will eat less than in past years; steel for farm tools as compensation, made locally at the old handicraft forges, not in batches by the farm-machinery departments; Li Fuchun 李富春 is right that heavy industry must retreat far enough to meet farming''s and the market''s needs, but the Center, the regional bureaus and each province should first set up a group to rank industry''s measures of support.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 92–93. The words: 上午 (92–93). Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun, Li Fuchun.'
         tags: ['polity:prc', 'name:chen-yun', 'name:li-fuchun', 'vis:only:prc']
   - cite: {id: cal.1961-06-06.china-leadership-4, item: '[[w.chen-yun-nianpu-xiuding]], III, 93 (Chen Yun with Liu Shaoqi, Zhou Enlai, Zhu De and others meets and gives a banquet for the delegation of the Indonesian Communist Party under Aidit, its general secretary)'}
   - add:
@@ -2232,15 +2263,6 @@ ops:
         date: '1961-06-15'
         thread: china-leadership
         c: 'Chen Yun 陈云, by letter to Li Fuchun 李富春: cotton will not grow for five years, and people will be angry at a few feet of cloth coupons a year (towels and socks included); he proposes a "clothing small group" 穿衣问题小组 under a vice-chairman of the Planning Commission 国家计委 to study coke-oven by-products, North Korea''s 北朝鲜 vinylon process, a kapron 卡普隆 works of 5,000 tons a year in two years (two pairs of socks a townsman) and more viscose fiber.'
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 93–94. Made public: 2015. To check: To check: 《陈云文集》, where the nianpu says it is collected. Names: Chen Yun, Li Fuchun.'
+        n: '[[w.chen-yun-nianpu-xiuding]], III, 93–94. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun, Li Fuchun.'
         tags: ['polity:prc', 'name:chen-yun', 'name:li-fuchun', 'vis:only:prc']
   - variant: {id: cal.1961-01-12.china-leadership-2, unit: A, witness: w.chen-yun-nianpu-xiuding, reads: 'in the morning (上午), Chen Yun with Zhu De, Deng Xiaoping and others at the airport to meet him', at: 'III, 67'}
-  - add:
-      entry:
-        id: cal.1960-09-30.china-leadership-11
-        when: Sept. 30
-        date: '1960-09-30'
-        thread: china-leadership
-        c: The Center 中共中央 approves and forwards the State Planning Commission's 国家计委 report on the 1961 control figures, the first to state the policy of "adjust, consolidate, fill out, raise" 调整、巩固、充实、提高.
-        n: '[[w.chen-yun-nianpu-xiuding]], III, 42. See [[cal.1960-08-30.china-leadership-3]]. Made public: 2015.'
-        tags: ['polity:prc', 'vis:only:prc']
