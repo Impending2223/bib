@@ -2135,13 +2135,14 @@ entries:
     place: washington
     thread: soviet-union
     c: 'Cabinet Room, on the thinking of the Soviet leadership: Kennedy, Johnson and Rusk with Thompson, home for consultation, Harriman, Bohlen and Kennan. Khrushchev strong at home, agriculture his weakness; he wants a quiet time abroad and progress on disarmament; Berlin not brought to a boil unless talks break down. Feb. 13, Thompson before the Foreign Relations Committee in executive session.'
-    n: 'FRUS 1961–63, V, docs. [26](https://history.state.gov/historicaldocuments/frus1961-63v05/d26) (Bundy''s notes), [27](https://history.state.gov/historicaldocuments/frus1961-63v05/d27). [[w.fursenko-one-hell-of-a]], 87–88 (the meeting on a summit); [[w.sorensen-kennedy]], 541–42. To check: [[w.bohlen-witness-to-history-1929]]. See [[cal.1961-01-20.soviet-union]]. Names: Johnson, Rusk, Thompson, Harriman, Bohlen, Kennan, Khrushchev.'
+    n: 'FRUS 1961–63, V, docs. [26](https://history.state.gov/historicaldocuments/frus1961-63v05/d26) (Bundy''s notes), [27](https://history.state.gov/historicaldocuments/frus1961-63v05/d27). [[w.fursenko-one-hell-of-a]], 87–88 (the meeting on a summit); [[w.sorensen-kennedy]], 541–42; [[w.chang-friends-and-enemies]], 229–30 (Kennedy, Johnson, Rusk, Harriman, Thompson, Bohlen, Kennan and Bundy at the White House on "the thinking of the Soviet leadership": Khrushchev perhaps eager for a success with the West on arms control; after the United States, Germany and China the Soviet Union''s "great long-run worries"; restraining the Chinese "a continuing task of the Soviet government"). To check: [[w.bohlen-witness-to-history-1929]]; Bundy, "Notes on Discussion of the Thinking of the Soviet Leadership, Cabinet Room, Feb. 11, 1961," 1–6, Kennedy Papers, NSF, CF, box 176 (cited by [[w.chang-friends-and-enemies]], 230 n.3a); [[w.bohlen-witness-to-history-1929]], 475 (cited by [[w.chang-friends-and-enemies]], 230 n.3e). See [[cal.1961-01-20.soviet-union]]. Names: Johnson, Rusk, Thompson, Harriman, Bohlen, Kennan, Khrushchev.'
     src:
       c: ccc16f81
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v05/d26: all'
         - 'w.fursenko-one-hell-of-a 87–88: A'
         - 'w.sorensen-kennedy 541–42: all'
+        - 'w.chang-friends-and-enemies 229–30: ?'
     tags: [name:khrushchev-nikita-s, name:kennedy-john-f, name:johnson-lyndon-b, name:rusk-dean, name:thompson-llewellyn-e, name:harriman-w-averell, name:bohlen-charles-e, name:kennan-george-f]
   - id: cal.1961-02-11.cuba
     when: Feb. 11
@@ -2960,7 +2961,7 @@ entries:
     date: '1961-02-16'
     thread: china-leadership
     c: '*Beijing Wanbao* prints Liao Mosha''s article "''History'' and ''Drama''," asking Wu Han whether historical and dramatic truth differ; the exchange between them follows, and other commentaries on Wu Han''s play.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 253. To check: [[w.mosha-liao-mosha-wenji]], 2, 80–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37a); [[w.mosha-liao-mosha-wenji]], 2, 447 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37b); Liao Mosha, "''History'' and ''Drama,''" [[w.beijing-wanbao]], Feb. 16, 1961, in [[w.mosha-liao-mosha-wenji]], 2, 80–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37c).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 253; [[w.pu-weihua-zalan-jiu-shijie]], 9 (Liao Mosha as Fan Xing 繁星, three questions put to Wu Han; Wu answers on the 28th; more pieces in the *Beijing wanbao* after). To check: [[w.mosha-liao-mosha-wenji]], 2, 80–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37a); [[w.mosha-liao-mosha-wenji]], 2, 447 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37b); Liao Mosha, "''History'' and ''Drama,''" [[w.beijing-wanbao]], Feb. 16, 1961, in [[w.mosha-liao-mosha-wenji]], 2, 80–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.37c).'
     src:
       c: f400cda3
       rows:
@@ -2968,7 +2969,13 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.37a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.37b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.37c: all'
+        - 'w.pu-weihua-zalan-jiu-shijie 9: ?'
     tags: [polity:prc]
+    variants:
+      - unit: A
+        witness: w.pu-weihua-zalan-jiu-shijie
+        reads: the article printed Feb. 26, 1961
+        at: '9'
   - id: cal.1961-02-16.china-leadership-2
     when: Feb. 16
     date: '1961-02-16'
@@ -5714,3 +5721,15 @@ entries:
     c: 'Nguyễn Duy Trinh''s economic delegation from Peking back to Eastern Europe by way of Moscow: Bucharest again; Tirana, where Trinh represents the Lao Động Party at the Albanian Party of Labor''s Fourth Congress; Warsaw; the Leipzig Fair; Sofia; Prague.'
     n: '[[w.guan-vietnamese-communists-relations-with]], 183. Names: Nguyễn Duy Trinh.'
     tags: [polity:drv, name:nguyen-duy-trinh, ok:fields-place]
+  - id: cal.1961-02-28.china-leadership-9
+    when: Feb. 28
+    date: '1961-02-28'
+    place: peking
+    thread: china-leadership
+    c: 'Wu Han 吴晗 answers Liao Mosha 廖沫沙 in the *Beijing wanbao* 北京晚报: "Some questions on historical plays" 〈关于历史剧的一些问题〉.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 9. See [[cal.1961-02-16.china-leadership]].'
+    src:
+      c: 8c058116
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 9: all'
+    tags: [polity:prc]

@@ -69,6 +69,19 @@ entries:
       - 1961-07-01T21:00Z
     time_band: evening
     time_zone: Europe/Zurich
+  - id: cal.1961-07-01.china
+    when: July 1
+    date: '1961-07-01'
+    thread: china
+    also: [soviet-union]
+    c: 'Bowles, "Some Requirements of American Foreign Policy," to Kennedy: explore ways of involving the Russians in the long-term containment of Communist China.'
+    n: '[[w.chang-friends-and-enemies]], 219 ("By July 1961"). Made public: 1990 ([[w.chang-friends-and-enemies]], 219). To check: Bowles, "Some Requirements of American Foreign Policy," July 1, 1961, Bowles Papers, box 297, folder 495 (cited by [[w.chang-friends-and-enemies]], 219 n.32b). Names: Bowles, Kennedy. Check: whether this is the memorandum of late June on new directions in [[cal.1961-07.transition-and-staff]].'
+    src:
+      c: f39362d6
+      rows:
+        - 'w.chang-friends-and-enemies 219: all'
+        - 'via x.1961-07-01.bowles-some-requirements-of-american-foreign-policy: all'
+    tags: [polity:us, vis:only:us, name:bowles-chester, name:kennedy-john-f]
   - id: cal.1961-07-02.opinion
     when: July 2
     date: '1961-07-02'
@@ -2859,6 +2872,18 @@ entries:
       rows:
         - 'via x.1961-07-23.sofia-home-service-ee-700: ?'
     tags: [polity:drv, polity:poland, polity:bulgaria, name:pham-van-dong]
+  - id: cal.1961-07-17.china
+    when: July 17
+    date: '1961-07-17'
+    thread: china
+    c: 'CIA paper, "The Signs of Chinese Communist Friendliness": Wang Bingnan, at the bilateral talks, has made "friendly gestures" at Geneva and Warsaw since Kennedy took office.'
+    n: '[[w.chang-friends-and-enemies]], 251. Made public: 1990 ([[w.chang-friends-and-enemies]], 251). To check: CIA, "The Signs of Chinese Communist Friendliness," July 17, 1961, Kennedy Papers, NSF, box 22, China-General 7/15/61–7/24/61 (cited by [[w.chang-friends-and-enemies]], 252 n.48b); Hilsman to McConaughy, July 7, 1961, NSF, box 22 (cited by [[w.chang-friends-and-enemies]], 252 n.48d); Bundy, no. 7, misc. papers for Hyannisport, July 21–23, 1961, NSF, box 318 (cited by [[w.chang-friends-and-enemies]], 252 n.48a). Check: whether the gestures are the paper''s matter; Chang gives the paper''s title and the gestures, not its text.'
+    src:
+      c: 9036c174
+      rows:
+        - 'w.chang-friends-and-enemies 251: all'
+        - 'via x.1961-07-17.cia-signs-of-chinese-communist-friendliness: ?'
+    tags: [polity:us, vis:only:us, ok:fields-place]
   - id: cal.1961-07-18.school-aid
     when: July 18
     date: '1961-07-18'
@@ -5009,12 +5034,13 @@ entries:
     date: '1961-07-30'
     thread: china-leadership
     c: Li Xiannian reports to Mao that the first grain shipments were at once sent to Peking, Shanghai, Tianjin, Liaoning and the worst-hit disaster areas.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 27. Made public: 1997. To check: [[w.dangdai-zhongguode-liangshi-gongzuo]], 123 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 27 n.34). Names: Li Xiannian, Mao Zedong.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 27; [[w.dikotter-cultural-revolution]], 10 n.9 (Li Xiannian''s report on the grain shortage, issued by the Center as Zhongyang (61) 540: empty state granaries the most pressing issue). Made public: 1997. Check: whether Dikötter''s report, issued as a Center document, and MacFarquhar''s report to Mao are one paper. To check: [[w.dangdai-zhongguode-liangshi-gongzuo]], 123 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 27 n.34); Li Xiannian, report on the grain shortage, July 30, 1961, Zhongyang (61) 540, Gansu Provincial Archives, 91-18-211, pp. 136–137 (cited by [[w.dikotter-cultural-revolution]], 10 n.9). Names: Li Xiannian, Mao Zedong.'
     src:
       c: 1063e980
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 27: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 27 n.34: all'
+        - 'w.dikotter-cultural-revolution 10 n.9: ?'
     tags: [polity:prc, name:li-xiannian, name:mao-zedong, vis:only:prc]
   - id: cal.1961-07-30.china-leadership-2
     when: July 30
@@ -5768,3 +5794,16 @@ entries:
       rows:
         - 'via x.1961-08-01.vina-fe-707-a2-1-2: ?'
     tags: [polity:drv, name:pham-van-dong]
+  - id: cal.1961-07.china-4
+    when: July
+    date: 1961-07
+    thread: china
+    also: [soviet-union]
+    c: 'Rusk, news conference: there is evidence of Sino-Soviet tensions, but the two still share a "certain doctrinal framework"; the United States cannot base its policy on the tensions between them.'
+    n: '[[w.chang-friends-and-enemies]], 221–22 ("one of Rusk''s first press conferences in 1961"). To check: [[w.department-of-state-bulletin]], [July 31, 1961, 179](https://archive.org/details/departmentofstat451961unit/page/179/mode/1up) (cited by [[w.chang-friends-and-enemies]], 222 n.39). Names: Rusk. Check: the day; Chang gives the Bulletin of July 31.'
+    src:
+      c: 284a2f8c
+      rows:
+        - 'w.chang-friends-and-enemies 221–22: all'
+        - 'via x.1961-07-31.dsb-rusk-news-conference: all'
+    tags: [polity:us, name:rusk-dean]
