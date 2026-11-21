@@ -1036,3 +1036,9 @@ Do we know the source, authority, or reasoned basis for the two different number
 ## Nov. 21, 2026, about 11:40 a.m. (Pacific)
 
 "Claude, what's the \"as reported\" doing here? What's with the goofy formatting? Why isn't this just a normal entry?" (a screenshot of two August 1966 China entries: Changsha, workers' posters against their superiors (Dikötter 70 n.13), a normal entry; and, set off with a rule and "AS REPORTED / CHINA: LEADERSHIP, AUG.", "As a Shanghai report has it: on a single day more than 400 factory cadres are paraded through the streets in dunces' caps; over a million workers take part in the Cultural Revolution over the summer." (Dikötter 121 n.16; Made public: 2016; To check: Shanghai Municipal Archives, Aug. 1966, A36-2-757, pp. 103–112; Check: the day.))
+
+## Nov. 21, 2026, about 11:50 a.m. (Pacific)
+
+""In Wuhan during this period there are 32 murders and 62 successful attempts at suicide."
+
+Shouldn't this just be "62 suicides"? Shouldn't "this period" be specified in the text of the entry?"
