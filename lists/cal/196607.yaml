@@ -374,6 +374,17 @@ entries:
       - 1966-07-01T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1966-07-01.china-leadership-10
+    when: July 1
+    date: '1966-07-01'
+    place: peking
+    thread: china-leadership
+    c: '*Hongqi* 红旗, no. 9, prints the editorial "Thoroughly criticize the revisionist line of some leading persons of the former Peking committee" 彻底批判前北京市委一些主要负责人的修正主义路线: a black line against the Party, socialism and Mao Zedong Thought, in ten points, from resisting the cultural revolution to "waving the red flag to oppose the red flag".'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 94–95. See [[cal.1966-05-23.china-leadership-7]].'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 94–95: all'
+    tags: [polity:prc]
   - id: cal.1966-07-02.defense
     when: July 2
     date: '1966-07-02'
@@ -1043,6 +1054,16 @@ entries:
         - 'via w.yang-jisheng-tiandi-fanfu I, 466 n.13a: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 466 n.13b: all'
     tags: [polity:prc]
+  - id: cal.1966-07-05.china-leadership-7
+    when: July 5
+    date: '1966-07-05'
+    thread: china-leadership
+    c: The Tibet Autonomous Region committee's 中共西藏自治区委 enlarged meeting decides to criticize by name in the press Jin Sha 金沙, deputy head of its propaganda department and chief editor of the *Xizang ribao* 西藏日报.
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 98. Made public: 2008.'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 98: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
   - id: cal.1966-07-06.vietnam
     when: July 6
     date: '1966-07-06'
@@ -1305,6 +1326,17 @@ entries:
     c: Prince Sihanouk cables Chen Yi 陈毅 his thanks for the friendly words Chen Yi had the head of Cambodia's delegation to the writers' meeting carry to him, restating the fighting unity of the two countries against the United States.
     n: '[[w.chen-yi-nianpu]], 1155. Names: Sihanouk, Chen Yi.'
     tags: [polity:prc, polity:cambodia, name:chen-yi, name:norodom-sihanouk, ok:fields-place]
+  - id: cal.1966-07-07.china-leadership-7
+    when: July 7
+    date: '1966-07-07'
+    place: nanjing
+    thread: china-leadership
+    c: 'Nanjing 南京, the Wutaishan stadium 五台山体育场. Jiang Weiqing 江渭清, at a rally said to be fifty thousand, reports "Hold high the great red banner of Mao Zedong Thought" 高举毛泽东思想伟大红旗，把无产阶级文化大革命更加广阔、更加深入地开展起来: the cultural revolution the best school of class struggle; leaders not to fear disorder, to break the "bourgeois order", to drag out the bourgeois inside the Party and all monsters and demons.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 96. To check: [[w.jiang-weiqing-qishi-nian-zhengcheng]], 517–519 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 96 n.25). See [[cal.1966-07.china-leadership-29]].'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 96: all'
+    tags: [polity:prc]
   - id: cal.1966-07-08.jobs-and-wages
     when: July 8
     date: '1966-07-08'
@@ -6529,3 +6561,25 @@ entries:
         - 'w.dikotter-cultural-revolution 121: all'
         - 'via w.dikotter-cultural-revolution 121 n.15a: all'
     tags: [polity:prc, vis:only:prc, form:state]
+  - id: cal.1966-07.china-leadership-27
+    when: July, before the 7th
+    date: 1966-07
+    at: before 1966-07-07
+    thread: china-leadership
+    c: 'Mao 毛泽东 has Wei Wenbo 魏文伯 of the East China Bureau 华东局 telephone Jiang Weiqing 江渭清, first secretary of Jiangsu 江苏, uneasy at the movement: do not fear the masses rising to "make revolution"; go further in setting them free; draft a report for the rally.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 95–96. Made public: 1996 ([[w.jiang-weiqing-qishi-nian-zhengcheng]]). To check: [[w.jiang-weiqing-qishi-nian-zhengcheng]], 517–519 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 96 n.25). Names: Mao Zedong.'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 95–96: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, ok:fields-place]
+  - id: cal.1966-07.china-leadership-29
+    when: July, before the 7th
+    date: 1966-07
+    at: before 1966-07-07
+    thread: china-leadership
+    c: Mao 毛泽东 himself settles the report Jiang Weiqing 江渭清 drafted for the Nanjing 南京 rally, which Wei Wenbo 魏文伯 of the East China Bureau 华东局 dared not settle and sent on to Peking 北京.
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 96 (Jiang Weiqing''s account, quoted). Made public: 1996 ([[w.jiang-weiqing-qishi-nian-zhengcheng]]). To check: [[w.jiang-weiqing-qishi-nian-zhengcheng]], 517–519 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 96 n.25). See [[cal.1966-07.china-leadership-27]]. Names: Mao Zedong.'
+    src:
+      rows:
+        - 'w.pu-weihua-zalan-jiu-shijie 96: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, ok:fields-place]
