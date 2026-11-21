@@ -435,6 +435,13 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1779: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-12-02.china-leadership-3
+    when: Dec. 2
+    date: '1963-12-02'
+    thread: china-leadership
+    c: Abdul Qayyum 阿布杜·卡尤姆, Afghanistan's Minister of the Interior, cables Chen Yi 陈毅 thanks for his delegation's reception in China.
+    n: '[[w.chen-yi-nianpu]], 998. Names: Chen Yi.'
+    tags: [polity:prc, polity:afghanistan, name:chen-yi, ok:fields-place]
   - id: cal.1963-12-03.state-constitutions-ok
     when: Dec. 3
     date: '1963-12-03'
@@ -965,6 +972,19 @@ entries:
         - 'w.yang-shangkun-riji II, 331: all'
     tags: [polity:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1963-12-04.china-leadership-2
+    when: Dec. 4
+    date: '1963-12-04'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Chen Yi 陈毅 at the close of the fourth session of the Third CPPCC National Committee 中国人民政治协商会议第三届全国委员会.
+    n: '[[w.chen-yi-nianpu]], 998. The words: 上午 (998). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1963-12-03T22:00Z
+      - 1963-12-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1963-12-05.assassination
     when: Dec. 5
     date: '1963-12-05'
@@ -1478,12 +1498,14 @@ entries:
     place: canton
     thread: china-leadership
     c: Zhou Enlai flies to Canton.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 599 (Dec. 6, 1963); [[w.yang-shangkun-riji]], II, 332 (Dec. 6, 1963; the western suburbs'' airport, 9 a.m., Yang seeing Zhou off to Canton, "the start of the journey abroad"). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 599 (Dec. 6, 1963); [[w.yang-shangkun-riji]], II, 332 (Dec. 6, 1963; the western suburbs'' airport, 9 a.m., Yang seeing Zhou off to Canton, "the start of the journey abroad"); [[w.jian-zhou-enlai]], 475 (Zhou reaches Canton on Dec. 6 on the way abroad and drops from public view for forty-eight hours). Made public: 1997. To check: Interview with Liao Xinwen and Gao Zhenpu, October 21, 2017 (cited by [[w.jian-zhou-enlai]], 476 n.48a). Names: Zhou Enlai.'
     src:
       c: 8e85cafd
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 599: ?'
         - 'w.yang-shangkun-riji II, 332: A'
+        - 'w.jian-zhou-enlai 475: ?'
+        - 'via x.2017-10-21.liao-xinwen-gao-zhenpu-interview-chen-jian: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1963-12-06.china-leadership-2
     when: Dec. 6
@@ -1736,15 +1758,21 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai to persons concerned on work toward Taiwan: China will not ignore Taiwan because it is strong nor trade in principle because it is in difficulty; it acts from the great cause of the nation and the unification of the motherland.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 599 (Dec. 7, 1963). Continues 600. Made public: 1997. Names: Zhou Enlai.'
-    tags: [polity:prc, polity:roc, name:zhou-enlai, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 599 (Dec. 7, 1963); [[w.jian-zhou-enlai]], 475–476 (after a day''s sailing in warship no. 846, Zhou meets Zhang Xiqun, a Hong Kong businessman close to Chiang Kai-shek and Chiang Ching-kuo, at a "previously designated location" near Hong Kong: the Americans working to make Taiwan an independent entity; the two parties to form another "united front" against "two Chinas"; bottles of Maotai for Chiang Ching-kuo). Continues 600. Made public: 1997. To check: Interview with Liao Xinwen and Gao Zhenpu, October 21, 2017 (cited by [[w.jian-zhou-enlai]], 476 n.48a); [[w.wu-ruilin-shiliao]], II, 1335–1341, 1348–1349 (cited by [[w.jian-zhou-enlai]], 476 n.49a); [[w.zui-keai-de-ren]] (Luo Qingchang, "He Has Escorted a Voyage by Zhou Enlai, Recalling Comrade Wu Ruilin") (cited by [[w.jian-zhou-enlai]], 476 n.49b). Names: Zhou Enlai.'
+    src:
+      c: f3bc65b1
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 599: ?'
+        - 'w.jian-zhou-enlai 475–476: ?'
+        - 'via x.2017-10-21.liao-xinwen-gao-zhenpu-interview-chen-jian: ?'
+    tags: [polity:prc, polity:roc, name:zhou-enlai, vis:only:prc+roc]
   - id: cal.1963-12-07.china-leadership-2
     when: Dec. 7–8
     date: '1963-12-07'
     thread: china-leadership
     also: [china]
     c: Zhou Enlai tours the Pearl River mouth front units in the South Sea Fleet's ship no. 846, Dec. 7 and 8, and tells the sailors they work hard and with honor; with them guarding the sea Mao and the whole people are at ease.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 600 (Dec. 7–8, 1963). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 600 (Dec. 7–8, 1963); [[w.jian-zhou-enlai]], 475 (with Zhang Zhizhong, Zhou visits the site of the Whampoa Academy and boards warship no. 846 of the South China Sea Fleet; back in port, "the best sleep in recent memory"). Made public: 1997. To check: [[w.wu-ruilin-shiliao]], II, 1335–1341, 1348–1349 (cited by [[w.jian-zhou-enlai]], 476 n.49a); [[w.zui-keai-de-ren]], (Luo Qingchang, "He Has Escorted a Voyage by Zhou Enlai, Recalling Comrade Wu Ruilin") (cited by [[w.jian-zhou-enlai]], 476 n.49b). Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, polity:roc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1963-12-07.china-leadership-3
     when: Dec. 7
@@ -2027,11 +2055,12 @@ entries:
     thread: china
     also: [africa]
     c: Liu Shaoqi, Zhou Enlai and Chen Yi each cable congratulations on Zanzibar's independence. Chen Yi informs the Zanzibar side in his cable that China has decided to recognize Zanzibar.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 308 (Dec. 9, 1963). Names: Liu Shaoqi, Zhou Enlai, Chen Yi. Check: the book dates the cables Dec. 9, a day before Zanzibar''s independence day of Dec. 10; the addressee is not named in the book.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 308 (Dec. 9, 1963); [[w.chen-yi-nianpu]], 998 (Dec. 9, 1963; Chen Yi''s cable to Ali Muhsin 阿里·穆赫辛, Zanzibar''s Minister of External Affairs and Trade, recognizing Zanzibar). Names: Liu Shaoqi, Zhou Enlai, Chen Yi. Check: the book dates the cables Dec. 9, a day before Zanzibar''s independence day of Dec. 10; the addressee is not named in the book.'
     src:
       c: f068b3d8
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 308: all'
+        - 'w.chen-yi-nianpu 998: ?'
     tags: [polity:prc, polity:tanzania, name:liu-shaoqi, name:zhou-enlai, name:chen-yi]
   - id: cal.1963-12-09.china-leadership-2
     when: Dec. 9
@@ -2079,6 +2108,20 @@ entries:
       - 1963-12-09T14:00Z
       - 1963-12-09T16:00Z
     time_band: night
+    time_zone: Asia/Shanghai
+  - id: cal.1963-12-09.china-leadership-5
+    when: Dec. 9
+    date: '1963-12-09'
+    place: kunming
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 leaves Kunming 昆明 for Nairobi 内罗毕 and Kenya's independence celebrations.
+    n: '[[w.chen-yi-nianpu]], 998. The words: 下午 (998). Names: Chen Yi.'
+    tags: [polity:prc, polity:kenya, name:chen-yi]
+    time_range:
+      - 1963-12-09T04:00Z
+      - 1963-12-09T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1963-12-10.alabama-al
     when: Dec. 10
@@ -2180,6 +2223,29 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1780: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-12-10.china-leadership-5
+    when: Dec. 10
+    date: '1963-12-10'
+    place: nairobi
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅, after short stops at Rangoon 仰光 and Karachi 卡拉奇, reaches Nairobi 内罗毕.
+    n: '[[w.chen-yi-nianpu]], 998–999. The words: 于是日上午 (998–999). Names: Chen Yi.'
+    tags: [polity:prc, polity:kenya, name:chen-yi]
+    time_range:
+      - 1963-12-10T03:00Z
+      - 1963-12-10T09:00Z
+    time_band: morning
+    time_zone: Africa/Nairobi
+  - id: cal.1963-12-10.china-leadership-6
+    when: Dec. 10
+    date: '1963-12-10'
+    place: nairobi
+    thread: china-leadership
+    also: [africa]
+    c: Nairobi 内罗毕. Chen Yi 陈毅 calls on Jomo Kenyatta, Kenya's Prime Minister, at his office.
+    n: '[[w.chen-yi-nianpu]], 999. Names: Chen Yi, Kenyatta.'
+    tags: [polity:prc, polity:kenya, name:chen-yi, name:kenyatta-jomo, ok:fields-time]
   - id: cal.1963-12-11.opinion
     when: Dec. 11
     date: '1963-12-11'
@@ -2533,7 +2599,7 @@ entries:
     date: '1963-12-12'
     thread: china-leadership
     c: 'Mao on the Propaganda Department''s *Wenyi qingkuang huibao* of Dec. 9, to Peng Zhen and Liu Ren: every art form, drama, ballads, music, painting, dance, film, poetry and literature, has many problems; in many, socialist reform has had little effect, and "dead men" still rule; the gains in film, new verse, folk song, painting and fiction not to be underrated, but drama and the like in worse trouble.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 12, 1963 ("同日"). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 588 n.1 (Jan. 3, 1964, footnote; the footnote quotes Mao''s comment of Dec. 12, 1963 on the paper of the Propaganda Department''s literature and art office); [[w.jianguo-yilai-mao-zedong]], XVII, 129–130 (Dec. 12, 1963; Mao''s note of Dec. 12 to Peng Zhen and Liu Ren on the Propaganda Department''s *Wenyi qingkuang huibao* of Dec. 9, and the added line that many Communists eagerly promote feudal and capitalist art and not socialist art; the item Mao had in view was the article on Ke Qingshi''s work on ballad-singing (note 3)); [[w.macfarquhar-origins-of-the-cultural]], III, 385 (Mao comments on the Dec. 9 issue''s report "Comrade Ke Qingshi grasps folk art work" and sends it to Peng Zhen and Liu Ren; the comment later circulated as his directive on literature and art of Dec. 12); [[w.mao-zedong-zhuan]], VI, ch. 72 (Dec. 12 the comment on the arts: many forms, much in them, little remade, "dead men" still rule (n.20)). Made public: 1996. To check: Wenyi qingkuang huibao, Central Propaganda Department literature and art office, Dec. 9, 1963 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 130 n.1); "Comrade Ke Qingshi takes up the work of quyi," Wenyi qingkuang huibao, Dec. 9, 1963 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 130 n.3); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1220–1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 385 n.32); [[w.current-background]], 41 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 385 n.33b); Mao Zedong, comment of Dec. 12, 1963, in [[w.zedong-jianguo-yilai-mao-zedong]], 10, 436–7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 385 n.33c); Mao Zedong 毛泽东, comment to Peng Zhen 彭真 and Liu Ren 刘仁 on the arts (manuscript 手稿), Dec. 12, 1963 (cited by [[w.mao-zedong-zhuan]], VI, ch. 72 n.20). Names: Mao Zedong, Peng Zhen, Liu Ren.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 12, 1963 ("同日"). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 588 n.1 (Jan. 3, 1964, footnote; the footnote quotes Mao''s comment of Dec. 12, 1963 on the paper of the Propaganda Department''s literature and art office); [[w.jianguo-yilai-mao-zedong]], XVII, 129–130 (Dec. 12, 1963; Mao''s note of Dec. 12 to Peng Zhen and Liu Ren on the Propaganda Department''s *Wenyi qingkuang huibao* of Dec. 9, and the added line that many Communists eagerly promote feudal and capitalist art and not socialist art; the item Mao had in view was the article on Ke Qingshi''s work on ballad-singing (note 3)); [[w.macfarquhar-origins-of-the-cultural]], III, 385 (Mao comments on the Dec. 9 issue''s report "Comrade Ke Qingshi grasps folk art work" and sends it to Peng Zhen and Liu Ren; the comment later circulated as his directive on literature and art of Dec. 12); [[w.mao-zedong-zhuan]], VI, ch. 72 (Dec. 12 the comment on the arts: many forms, much in them, little remade, "dead men" still rule (n.20)). [[w.yang-jisheng-tiandi-fanfu]], I, 100 ("many departments still ruled by the dead"; "is it not absurd" that Communists promote feudal and capitalist art). Made public: 1996. To check: Wenyi qingkuang huibao, Central Propaganda Department literature and art office, Dec. 9, 1963 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 130 n.1); "Comrade Ke Qingshi takes up the work of quyi," Wenyi qingkuang huibao, Dec. 9, 1963 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 130 n.3); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1220–1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 385 n.32); [[w.current-background]], 41 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 385 n.33b); Mao Zedong, comment of Dec. 12, 1963, in [[w.zedong-jianguo-yilai-mao-zedong]], 10, 436–7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 385 n.33c); Mao Zedong 毛泽东, comment to Peng Zhen 彭真 and Liu Ren 刘仁 on the arts (manuscript 手稿), Dec. 12, 1963 (cited by [[w.mao-zedong-zhuan]], VI, ch. 72 n.20). Names: Mao Zedong, Peng Zhen, Liu Ren.'
     src:
       c: 70b7b32a
       rows:
@@ -2550,6 +2616,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 385 n.33c: A-C'
         - 'w.mao-zedong-zhuan VI, ch. 72: B, C'
         - 'via w.mao-zedong-zhuan VI, ch.72 n.20: B, C'
+        - 'w.yang-jisheng-tiandi-fanfu I, 100: ?'
     tags: [polity:prc, name:mao-zedong, name:peng-zhen, vis:only:prc]
   - id: cal.1963-12-12.china-leadership-3
     when: Dec. 12
@@ -2589,11 +2656,12 @@ entries:
     thread: china
     also: [africa]
     c: Zhou Enlai and Chen Yi cable congratulations on the further development of the friendly relations of China and Zanzibar.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 308 (Dec. 12, 1963). Names: Zhou Enlai, Chen Yi. Check: the addressee is not named in the book.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 308 (Dec. 12, 1963); [[w.chen-yi-nianpu]], 999 (Dec. 12, 1963; Chen Yi''s cable to Ali Muhsin, Zanzibar''s Minister of External Affairs and Trade, on the two countries'' decision to establish relations). Names: Zhou Enlai, Chen Yi. Check: the addressee is not named in the book.'
     src:
       c: 89243f6b
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 308: all'
+        - 'w.chen-yi-nianpu 999: ?'
     tags: [polity:prc, polity:tanzania, name:zhou-enlai, name:chen-yi]
   - id: cal.1963-12-12.china-2
     when: Dec. 12
@@ -2657,6 +2725,72 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1781: all'
     tags: [polity:prc, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping]
+  - id: cal.1963-12-12.china-3
+    when: Dec. 12
+    date: '1963-12-12'
+    place: bern
+    thread: china
+    also: [europe-and-the-alliance]
+    c: Bern. Li Qingquan, the Chinese Ambassador to Switzerland, and Jacques de Beaumarchais, head of the French Foreign Ministry's European office, open talks on the "more concrete issues" of relations, Zhou Enlai supervising.
+    n: '[[w.jian-zhou-enlai]], 507–508. Made public: Check (1998 at the latest, [[w.wang-taiping-zhonghua-renmin-gongheguo-waijiaoshi]], III; the year of [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, not given). To check: [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, 77–78 (cited by [[w.jian-zhou-enlai]], 508 n.58a); [[w.wang-taiping-zhonghua-renmin-gongheguo-waijiaoshi]], III, 368–369 (cited by [[w.jian-zhou-enlai]], 508 n.58b). Names: Zhou Enlai.'
+    src:
+      c: b2114e34
+      rows:
+        - 'w.jian-zhou-enlai 507–508: all'
+    tags: [polity:prc, vis:only:prc+fr, name:zhou-enlai]
+  - id: cal.1963-12-12.china-leadership-12
+    when: Dec. 12
+    date: '1963-12-12'
+    time: 1963-12-11T21:00Z
+    place: nairobi
+    thread: china-leadership
+    also: [africa]
+    c: Nairobi 内罗毕, the Uhuru Stadium. Chen Yi 陈毅 at the raising of Kenya's flag.
+    n: '[[w.chen-yi-nianpu]], 999. The words: 零时 (999). Names: Chen Yi.'
+    tags: [polity:prc, polity:kenya, name:chen-yi]
+    time_zone: Africa/Nairobi
+  - id: cal.1963-12-12.china-leadership-13
+    when: Dec. 12
+    date: '1963-12-12'
+    place: nairobi
+    thread: china-leadership
+    also: [africa]
+    c: Nairobi 内罗毕. Chen Yi 陈毅 at Kenya's independence celebrations.
+    n: '[[w.chen-yi-nianpu]], 999. The words: 上午 (999). Names: Chen Yi.'
+    tags: [polity:prc, polity:kenya, name:chen-yi]
+    time_range:
+      - 1963-12-12T03:00Z
+      - 1963-12-12T09:00Z
+    time_band: morning
+    time_zone: Africa/Nairobi
+  - id: cal.1963-12-12.china-leadership-14
+    when: Dec. 12
+    date: '1963-12-12'
+    place: nairobi
+    thread: china-leadership
+    also: [africa]
+    c: Nairobi 内罗毕. Chen Yi 陈毅 calls on Malcolm MacDonald, Kenya's Governor-General.
+    n: '[[w.chen-yi-nianpu]], 999. The words: 上午 (999). Names: Chen Yi, MacDonald.'
+    tags: [polity:prc, polity:kenya, polity:uk, name:chen-yi, name:macdonald-malcolm-john]
+    time_range:
+      - 1963-12-12T03:00Z
+      - 1963-12-12T09:00Z
+    time_band: morning
+    time_zone: Africa/Nairobi
+  - id: cal.1963-12-12.china-leadership-15
+    when: Dec. 12
+    date: '1963-12-12'
+    place: nairobi
+    thread: china-leadership
+    also: [africa]
+    c: Nairobi 内罗毕. Chen Yi 陈毅 at Malcolm MacDonald's garden party.
+    n: '[[w.chen-yi-nianpu]], 999. The words: 下午 (999). Names: Chen Yi, MacDonald.'
+    tags: [polity:prc, polity:kenya, polity:uk, name:chen-yi, name:macdonald-malcolm-john]
+    time_range:
+      - 1963-12-12T09:00Z
+      - 1963-12-12T15:00Z
+    time_band: afternoon
+    time_zone: Africa/Nairobi
   - id: cal.1963-12-13.opinion-5
     when: Dec. 13
     date: '1963-12-13'
@@ -2906,6 +3040,34 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1781: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1963-12-13.china-leadership-13
+    when: Dec. 13
+    date: '1963-12-13'
+    place: nairobi
+    thread: china-leadership
+    also: [africa]
+    c: Nairobi 内罗毕. Chen Yi 陈毅 at the laying of the foundation stone of the Parliament Building's extension.
+    n: '[[w.chen-yi-nianpu]], 999. The words: 上午 (999). Names: Chen Yi.'
+    tags: [polity:prc, polity:kenya, name:chen-yi]
+    time_range:
+      - 1963-12-13T03:00Z
+      - 1963-12-13T09:00Z
+    time_band: morning
+    time_zone: Africa/Nairobi
+  - id: cal.1963-12-13.china-leadership-14
+    when: Dec. 13
+    date: '1963-12-13'
+    place: nairobi
+    thread: china-leadership
+    also: [africa]
+    c: Nairobi 内罗毕. Chen Yi 陈毅 at the ball in the City Hall.
+    n: '[[w.chen-yi-nianpu]], 999. The words: 晚上 (999). Names: Chen Yi.'
+    tags: [polity:prc, polity:kenya, name:chen-yi]
+    time_range:
+      - 1963-12-13T16:00Z
+      - 1963-12-13T19:00Z
+    time_band: evening
+    time_zone: Africa/Nairobi
   - id: cal.1963-12-14.latin-america
     when: Dec. 14
     date: '1963-12-14'
@@ -3034,7 +3196,7 @@ entries:
     thread: china-leadership
     also: [africa, middle-east]
     c: 'Zhou Enlai flies by way of Rangoon and Karachi to Cairo. At the airport his written statement: this is his first visit to the UAR and to the African continent; he salutes all the newly independent African states and peoples and all the peoples now in struggle. Chen Yi, who attended Kenya''s independence celebrations, reaches Cairo from Nairobi to go with him.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 600 (Dec. 14, 1963); [[w.zhou-enlai-waijiao-huodong]], 377–78 (Dec. 14, 1963; 上午, 路过卡拉奇时巴基斯坦外交秘书阿齐兹·艾哈迈德等到机场迎送; 到达开罗, 萨布里主席代表纳赛尔总统到机场迎接); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 308 (Dec. 10, 1963; Chen Yi, Vice-Premier and Foreign Minister, takes part in the Kenyan independence celebrations on the Chinese government''s behalf and calls on Prime Minister Jomo Kenyatta; the book''s day is Dec. 10, two days before the independence day of Dec. 12); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 308–309 (Dec. 14–21, 1963; Zhou visits the UAR officially at the invitation of President Nasser and Ali Sabri, Chairman of the Executive Council; he holds several talks with Nasser on Sino-UAR relations and matters of common concern); [[w.macfarquhar-origins-of-the-cultural]], III, 359 (Zhou and Chen Yi with several dozen aides on a ten-nation tour of Africa, mid-December 1963 to early February 1964); [[w.yang-shangkun-riji]], II, 334 (Dec. 14, 1963; Zhou''s party at Cairo at 5 p.m., by Rangoon and Karachi). Continues 601. To check: [[w.adie-chou-en-lai-on]], 174–94 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 359 n.75). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 600 (Dec. 14, 1963); [[w.zhou-enlai-waijiao-huodong]], 377–78 (Dec. 14, 1963; 上午, 路过卡拉奇时巴基斯坦外交秘书阿齐兹·艾哈迈德等到机场迎送; 到达开罗, 萨布里主席代表纳赛尔总统到机场迎接); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 308 (Dec. 10, 1963; Chen Yi, Vice-Premier and Foreign Minister, takes part in the Kenyan independence celebrations on the Chinese government''s behalf and calls on Prime Minister Jomo Kenyatta; the book''s day is Dec. 10, two days before the independence day of Dec. 12); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 308–309 (Dec. 14–21, 1963; Zhou visits the UAR officially at the invitation of President Nasser and Ali Sabri, Chairman of the Executive Council; he holds several talks with Nasser on Sino-UAR relations and matters of common concern); [[w.macfarquhar-origins-of-the-cultural]], III, 359 (Zhou and Chen Yi with several dozen aides on a ten-nation tour of Africa, mid-December 1963 to early February 1964); [[w.yang-shangkun-riji]], II, 334 (Dec. 14, 1963; Zhou''s party at Cairo at 5 p.m., by Rangoon and Karachi); [[w.chen-yi-nianpu]], 999 (Dec. 14, 1963, morning; Chen Yi at the airport welcomes Zhou at Cairo). Continues 601. To check: [[w.adie-chou-en-lai-on]], 174–94 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 359 n.75). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 922ed2f8
       rows:
@@ -3045,6 +3207,7 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 359: A, D'
         - 'via w.macfarquhar-origins-of-the-cultural III, 359 n.75: A, D'
         - 'w.yang-shangkun-riji II, 334: A'
+        - 'w.chen-yi-nianpu 999: ?'
     tags: [polity:prc, polity:uar, name:zhou-enlai, name:chen-yi]
     time_range:
       - 1963-12-14T01:00Z
@@ -3059,11 +3222,12 @@ entries:
     thread: china-leadership
     also: [china, middle-east]
     c: Cairo, the President's residence. Zhou Enlai calls on Nasser, gives him gifts, and receives from him the Collar of the Republic.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 14, 1963; 晚7时). See [[cal.1963-12-13.china-leadership]]. Names: Zhou Enlai, Nasser.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 14, 1963; 晚7时); [[w.chen-yi-nianpu]], 999 (Dec. 14, 1963, evening, Manshiet el-Bakri; Chen Yi present; Nasser gives Chen Yi the Grand Cordon of the Order of the Nile, and Kong Yuan 孔原, Huang Zhen and Chen Jiakang 陈家康 the Grand Cordon of the Order of the Republic). See [[cal.1963-12-13.china-leadership]]. Names: Zhou Enlai, Nasser.'
     src:
       c: a66d555b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 378: all'
+        - 'w.chen-yi-nianpu 999: ?'
     tags: [polity:prc, polity:uar, name:zhou-enlai, name:nasser-gamal-abdel]
     time_zone: Africa/Cairo
   - id: cal.1963-12-14.china-leadership-3
@@ -3073,11 +3237,12 @@ entries:
     thread: china-leadership
     also: [china, middle-east]
     c: 'Cairo. Zhou Enlai, at the reception given by Nasser and his wife: this is his first official visit to the friendly UAR; in 1924, passing the Suez Canal on his way home from Europe, he saw Egypt just out of its protectorate and nearly all Africa under imperialist darkness; in 1954, on his way from the Geneva conference, Egypt had overthrown Farouk''s dynasty, Algeria was brewing its armed struggle and Africa stood on the eve of the storm; now he comes as a friendly envoy of the Chinese people to an awakened and fighting continent, where the dawn of freedom has risen and the imperialist colonial system moves toward collapse.'
-    n: '[[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 14, 1963; 晚上). See [[cal.1963-12-13.china-leadership]]. Names: Zhou Enlai, Nasser.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 14, 1963; 晚上); [[w.chen-yi-nianpu]], 999 (Dec. 14, 1963, evening, the Abdin Palace 阿比丁宫; Chen Yi present). See [[cal.1963-12-13.china-leadership]]. Names: Zhou Enlai, Nasser.'
     src:
       c: f8c5541b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 378: all'
+        - 'w.chen-yi-nianpu 999: ?'
     tags: [polity:prc, polity:uar, name:zhou-enlai, name:nasser-gamal-abdel]
     time_range:
       - 1963-12-14T17:00Z
@@ -3162,6 +3327,30 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1781: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-12-14.china-leadership-9
+    when: Dec. 14
+    date: '1963-12-14'
+    place:
+      - nairobi
+      - cairo
+    thread: china-leadership
+    also: [africa, middle-east]
+    c: Chen Yi 陈毅 leaves Nairobi 内罗毕 for Cairo 开罗, to go with Zhou Enlai 周恩来 on his visit to the UAR.
+    n: '[[w.chen-yi-nianpu]], 999. The words: 晨 (999). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:kenya, polity:uar, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1963-12-14T02:00Z
+      - 1963-12-14T05:00Z
+    time_band: early morning
+    time_zone: Africa/Nairobi
+  - id: cal.1963-12-14.china-leadership-10
+    when: Dec. 14
+    date: '1963-12-14'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 cables Jomo Kenyatta, congratulating him on the establishment of relations between China and Kenya.
+    n: '[[w.chen-yi-nianpu]], 999. Names: Chen Yi, Kenyatta.'
+    tags: [polity:prc, polity:kenya, name:chen-yi, name:kenyatta-jomo, ok:fields-place]
   - id: cal.1963-12-15.opinion-5
     when: Dec. 15
     date: '1963-12-15'
@@ -3209,13 +3398,19 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: Zhou Enlai in talks with Nasser; also visits the UAR military academy and the Egyptian Museum.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 601 (Dec. 15, 1963); [[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 15, 1963; 参观阿联军事学院、埃及博物馆、胜利汽车厂; 下午6时, 在开罗库巴宫和纳赛尔总统举行第一次会谈). Made public: 1993. Names: Zhou Enlai, Nasser.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 601 (Dec. 15, 1963); [[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 15, 1963; 参观阿联军事学院、埃及博物馆、胜利汽车厂; 下午6时, 在开罗库巴宫和纳赛尔总统举行第一次会谈); [[w.chen-yi-nianpu]], 999 (Dec. 15, 1963, morning, Chen Yi with Zhou at the military academy and the Egyptian Museum; afternoon, in the talks with Nasser). Made public: 1993. Names: Zhou Enlai, Nasser.'
     src:
       c: d9d093e2
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 601: ?'
         - 'w.zhou-enlai-waijiao-huodong 378: A'
+        - 'w.chen-yi-nianpu 999: ?'
     tags: [polity:prc, polity:uar, name:zhou-enlai, name:nasser-gamal-abdel, vis:only:prc+uar]
+    time_range:
+      - 1963-12-15T04:00Z
+      - 1963-12-15T10:00Z
+    time_band: morning
+    time_zone: Africa/Cairo
   - id: cal.1963-12-15.china-leadership-2
     when: Dec. 15
     date: '1963-12-15'
@@ -3223,11 +3418,12 @@ entries:
     thread: china-leadership
     also: [china, middle-east]
     c: Cairo, the Opera House. Zhou Enlai watches with Nasser a performance of UAR folk art.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 15, 1963; 晚上). See [[cal.1963-12-13.china-leadership]]. Names: Zhou Enlai, Nasser.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 15, 1963; 晚上); [[w.chen-yi-nianpu]], 999 (Dec. 15, 1963, evening; Chen Yi with Zhou at the folk-art performance of the Ministry of Information, Culture and National Guidance). See [[cal.1963-12-13.china-leadership]]. Names: Zhou Enlai, Nasser.'
     src:
       c: 07a2db64
       rows:
         - 'w.zhou-enlai-waijiao-huodong 378: all'
+        - 'w.chen-yi-nianpu 999: ?'
     tags: [polity:prc, polity:uar, name:zhou-enlai, name:nasser-gamal-abdel]
     time_range:
       - 1963-12-15T17:00Z
@@ -3446,12 +3642,13 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: 'Zhou Enlai at the UAR rally for Education Day: the Afro-Asian peoples must develop their national culture and science; when they hold their fate they will not only catch up with the Western states but pass them. Nasser, speaking, calls Zhou an outstanding leader of Asia, the maker of China''s revolution and a living symbol of the great Chinese people.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 601 (Dec. 16, 1963); [[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 16, 1963; 阿联第九届庆祝教育日大会). Names: Zhou Enlai, Nasser.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 601 (Dec. 16, 1963); [[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 16, 1963; 阿联第九届庆祝教育日大会); [[w.chen-yi-nianpu]], 1000 (Dec. 16, 1963; Chen Yi with Zhou at the ninth Education Day rally). Names: Zhou Enlai, Nasser.'
     src:
       c: c4f4d2d2
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 601: ?'
         - 'w.zhou-enlai-waijiao-huodong 378: A'
+        - 'w.chen-yi-nianpu 1000: ?'
     tags: [polity:prc, polity:uar, name:zhou-enlai, name:nasser-gamal-abdel]
   - id: cal.1963-12-16.china-leadership-5
     when: Dec. 16–17
@@ -3460,12 +3657,13 @@ entries:
     thread: china-leadership
     also: [middle-east, africa]
     c: 'Zhou Enlai in talks with Nasser and others, Dec. 16 and 17, gives five points of China''s stand toward the Arab states: support their struggle for independence; their peaceful, neutral, non-aligned policy; their unity by ways they choose; peaceful settlement of disputes among them; respect by all for their sovereignty. The five went into the joint communique of Dec. 21 as "the five principles of China''s handling of relations with the Arab and African states."'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 601 (Dec. 16–17, 1963); [[w.zhou-enlai-waijiao-huodong]], 378–79 (Dec. 17, 1963; 下午6时30分, 开罗库巴宫, 第二次会谈). Made public: 1993. Names: Zhou Enlai, Nasser.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 601 (Dec. 16–17, 1963); [[w.zhou-enlai-waijiao-huodong]], 378–79 (Dec. 17, 1963; 下午6时30分, 开罗库巴宫, 第二次会谈); [[w.chen-yi-nianpu]], 1000 (Dec. 17, 1963, evening; Chen Yi in the talks with Nasser). Made public: 1993. Names: Zhou Enlai, Nasser.'
     src:
       c: 06862be4
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 601: ?'
         - 'w.zhou-enlai-waijiao-huodong 378–79: A'
+        - 'w.chen-yi-nianpu 1000: ?'
     tags: [polity:prc, polity:uar, name:zhou-enlai, name:nasser-gamal-abdel, vis:only:prc+uar]
   - id: cal.1963-12-16.china-leadership-6
     when: Dec. 16
@@ -3474,14 +3672,20 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, 2:30 p.m. Luo Ronghuan 罗荣桓, member of the Politburo, dies.
-    n: '[[w.yang-shangkun-riji]], II, 334 (Dec. 16, 1963); [[w.mao-zedong-zhuan]], VI, ch. 72 (Dec. 16 Luo Ronghuan dies; no hour or place in the book). The words: 罗荣桓同志中午2时半去世 (II, 334). Names: Luo Ronghuan.'
+    n: '[[w.yang-shangkun-riji]], II, 334 (Dec. 16, 1963); [[w.mao-zedong-zhuan]], VI, ch. 72 (Dec. 16 Luo Ronghuan dies; no hour or place in the book). The words: 罗荣桓同志中午2时半去世 (II, 334). [[w.chen-yi-nianpu]], 1000 (Dec. 16, 1963, 2 p.m.; Luo Ronghuan, Marshal, Vice-Chairman of the NPC Standing Committee and of the National Defense Council, dies in Peking at 61; Chen Yi named to the funeral committee). Names: Luo Ronghuan.'
     src:
       c: 7a18978f
       rows:
         - 'w.yang-shangkun-riji II, 334: all'
         - 'w.mao-zedong-zhuan VI, ch. 72: B'
+        - 'w.chen-yi-nianpu 1000: ?'
     tags: [polity:prc, name:luo-ronghuan]
     time_zone: Asia/Shanghai
+    variants:
+      - unit: A
+        witness: w.chen-yi-nianpu
+        reads: Luo Ronghuan dies at 2 p.m.
+        at: '1000'
   - id: cal.1963-12-16.china-leadership-7
     when: Dec. 16
     date: '1963-12-16'
@@ -3518,6 +3722,20 @@ entries:
       - 1963-12-16T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-12-16.china-leadership-9
+    when: Dec. 16
+    date: '1963-12-16'
+    place: cairo
+    thread: china-leadership
+    also: [middle-east]
+    c: Cairo 开罗. Chen Yi 陈毅 and Zhou Enlai 周恩来 visit the Nasr car works 胜利汽车厂.
+    n: '[[w.chen-yi-nianpu]], 1000. The words: 上午 (1000). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:uar, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1963-12-16T04:00Z
+      - 1963-12-16T10:00Z
+    time_band: morning
+    time_zone: Africa/Cairo
   - id: cal.1963-12-17.program
     when: Dec. 17
     date: '1963-12-17'
@@ -3658,18 +3876,24 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: Zhou Enlai goes with Ali Sabri to Port Said. At the memorial hall for the martyrs of 1956 he writes of respect for them; he sees the Suez Canal Authority, the canal entrance, port and shipyard. At the mayor's rally he praises the UAR's running of the canal, built by Arab sweat and blood and defended at heavy cost. In the afternoon he flies back to Cairo.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 601 (Dec. 17, 1963); [[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 16, 1963; 在阿联总统会议委员、部长执行会议主席萨布里陪同下前往塞得港访问); [[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 17, 1963; 塞得港市市长鲁什迪举行的欢迎会). Continues 602. Names: Zhou Enlai, Ali Sabri.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 601 (Dec. 17, 1963); [[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 16, 1963; 在阿联总统会议委员、部长执行会议主席萨布里陪同下前往塞得港访问); [[w.zhou-enlai-waijiao-huodong]], 378 (Dec. 17, 1963; 塞得港市市长鲁什迪举行的欢迎会); [[w.chen-yi-nianpu]], 1000 (Dec. 17, 1963, morning, Chen Yi with Zhou to Port Said 塞得港, at the memorial hall, the canal authority, the port and shipyard and the mayor''s rally; afternoon, back to Cairo). Continues 602. Names: Zhou Enlai, Ali Sabri.'
     src:
       c: 5ec82bac
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 601: ?'
         - 'w.zhou-enlai-waijiao-huodong 378: A'
+        - 'w.chen-yi-nianpu 1000: ?'
     tags: [polity:prc, polity:uar, name:zhou-enlai, name:sabri-ali]
     variants:
       - unit: A
         witness: w.zhou-enlai-waijiao-huodong
         reads: Dec. 16 (goes with Sabri to Port Said; the mayor's rally Dec. 17); the entry has Dec. 17
         at: '378'
+    time_range:
+      - 1963-12-17T04:00Z
+      - 1963-12-17T10:00Z
+    time_band: morning
+    time_zone: Africa/Cairo
   - id: cal.1963-12-17.china-leadership-2
     when: Dec. 17
     date: '1963-12-17'
@@ -3898,12 +4122,13 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: Zhou Enlai visits Aswan province and the Aswan High Dam site; at the luncheon of the governor, Salama, he says the Nile bred the splendid culture of ancient times and now serves the building of a national economy, and he trusts it will serve the UAR's industrious and wise people still more; he praises their spirit in winning wealth from nature.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 602 (Dec. 18, 1963); [[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 18, 1963; 上午, 乘专机去阿斯旺访问; 参观阿斯旺高水坝工程). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 602 (Dec. 18, 1963); [[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 18, 1963; 上午, 乘专机去阿斯旺访问; 参观阿斯旺高水坝工程); [[w.chen-yi-nianpu]], 1000 (Dec. 18, 1963, morning, Chen Yi leaves Cairo with Zhou; 11 a.m., at Aswan 阿斯旺, the dam works; evening, back in Cairo). Names: Zhou Enlai.'
     src:
       c: bd8a3d44
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 602: ?'
         - 'w.zhou-enlai-waijiao-huodong 379: A'
+        - 'w.chen-yi-nianpu 1000: ?'
     tags: [polity:prc, polity:uar, name:zhou-enlai]
     time_range:
       - 1963-12-18T04:00Z
@@ -4047,13 +4272,17 @@ entries:
     thread: china-leadership
     also: [middle-east, china]
     c: Zhou Enlai, at Nasser's request, sets out in the talks Sino-American relations and other matters. America's holding of Taiwan is an international question, since America seized Chinese territory; the Chinese people and Chiang Kai-shek are another, an internal one; they must not be mixed; America makes it one question to split Taiwan off and make "two Chinas," the center of China's struggle in the United Nations.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 602 (Dec. 19, 1963); [[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 19, 1963; 下午5时30分, 开罗库巴宫, 第三次会谈); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 309–310 (Dec. 19, 1963; at the third talk with Nasser Zhou says on Taiwan: the Cairo declaration promised that Japan would return the territories seized from China since 1894; after Japan''s surrender the Chiang Kai-shek government sent men in 1945 to take over Taiwan and made a man governor; if it were not Chinese, Chiang could not now hold it; Truman once declared Taiwan Chinese, but in the Korean war the U.S. made it its protectorate; the civil war between the Chinese people and Chiang is not ended, the way to end it being China''s own matter; the U.S. holding of Taiwan is an international question and must not be mixed with it; the China question cannot be discussed with the German and Korean questions, which are the result of the Second World War). Continues 603. Made public: 1993. Names: Zhou Enlai, Nasser, Chiang Kai-shek.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 602 (Dec. 19, 1963); [[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 19, 1963; 下午5时30分, 开罗库巴宫, 第三次会谈); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 309–310 (Dec. 19, 1963; at the third talk with Nasser Zhou says on Taiwan: the Cairo declaration promised that Japan would return the territories seized from China since 1894; after Japan''s surrender the Chiang Kai-shek government sent men in 1945 to take over Taiwan and made a man governor; if it were not Chinese, Chiang could not now hold it; Truman once declared Taiwan Chinese, but in the Korean war the U.S. made it its protectorate; the civil war between the Chinese people and Chiang is not ended, the way to end it being China''s own matter; the U.S. holding of Taiwan is an international question and must not be mixed with it; the China question cannot be discussed with the German and Korean questions, which are the result of the Second World War); [[w.jian-zhou-enlai]], 500 (Cairo, three meetings with Nasser: support for the Arabs; Washington to blame; "forced to be anti-American"; India; a ten-year interest-free loan of 335 million Swiss francs); [[w.chen-yi-nianpu]], 1000 (Dec. 19, 1963, evening; Chen Yi in Zhou''s third talks with Nasser). Continues 603. Made public: 1993. To check: [[w.renmin-ribao]], Dec. 16, 1963 (cited by [[w.jian-zhou-enlai]], 500 n.32); Zhou''s one-on-one meeting with Nasser, December 20, 1963 (cited by [[w.jian-zhou-enlai]], 500 n.33a); Zhou''s third meeting with Nasser, December 19, 1963 (cited by [[w.jian-zhou-enlai]], 500 n.33b). Names: Zhou Enlai, Nasser, Chiang Kai-shek.'
     src:
       c: 84d40c66
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 602: ?'
         - 'w.zhou-enlai-waijiao-huodong 379: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 309–310: A-E'
+        - 'w.jian-zhou-enlai 500: ?'
+        - 'via x.1963-12-20.zhou-one-on-one-nasser: ?'
+        - 'via x.1963-12-19.zhou-third-meeting-nasser: ?'
+        - 'w.chen-yi-nianpu 1000: ?'
     tags: [polity:prc, polity:uar, polity:us, polity:roc, name:zhou-enlai, name:nasser-gamal-abdel, name:chiang-kai-shek, vis:only:prc+uar]
     time_zone: Africa/Cairo
   - id: cal.1963-12-19.china-leadership-2
@@ -4062,12 +4291,13 @@ entries:
     thread: china-leadership
     also: [middle-east]
     c: Zhou Enlai visits the Pyramids and the Sphinx near Cairo; after an UAR athlete's show on a pyramid he gives him a Hero fountain pen.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 602 (Dec. 19, 1963); [[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 19, 1963; 参观大金字塔、狮身人面像和开罗塔). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 602 (Dec. 19, 1963); [[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 19, 1963; 参观大金字塔、狮身人面像和开罗塔); [[w.chen-yi-nianpu]], 1000 (Dec. 19, 1963; Chen Yi with Zhou at the Great Pyramid, the Sphinx and the Cairo Tower, 187 meters high). Names: Zhou Enlai.'
     src:
       c: 9abbe0b4
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 602: ?'
         - 'w.zhou-enlai-waijiao-huodong 379: A'
+        - 'w.chen-yi-nianpu 1000: ?'
     tags: [polity:prc, polity:uar, name:zhou-enlai]
   - id: cal.1963-12-19.china-leadership-3
     when: Dec. 19
@@ -4095,6 +4325,14 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1783: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-12-19.china-leadership-5
+    when: Dec. 19
+    date: '1963-12-19'
+    place: cairo
+    thread: china-leadership
+    c: Cairo 开罗. Chen Yi 陈毅 writes the poem "In praise of the Pyramids" 《赞金字塔》.
+    n: '[[w.chen-yi-nianpu]], 1000. The words: 之后 (1000). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-time]
   - id: cal.1963-12-20.opinion-5
     when: Dec. 20
     date: '1963-12-20'
@@ -4210,12 +4448,15 @@ entries:
     thread: china-leadership
     also: [south-asia, middle-east]
     c: Zhou Enlai alone with Nasser in the morning. On the Sino-Indian border, Nasser suggests China yield once more; Zhou says China has yielded twice and can yield nothing more.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 603 (Dec. 20, 1963); [[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 20, 1963; 上午10时30分, 开罗总统府). Made public: 1993. Names: Zhou Enlai, Nasser.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 603 (Dec. 20, 1963); [[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 20, 1963; 上午10时30分, 开罗总统府); [[w.jian-zhou-enlai]], 500 (the one-on-one meeting with Nasser). Made public: 1993. To check: Zhou''s one-on-one meeting with Nasser, December 20, 1963 (cited by [[w.jian-zhou-enlai]], 500 n.33a); Zhou''s third meeting with Nasser, December 19, 1963 (cited by [[w.jian-zhou-enlai]], 500 n.33b). Names: Zhou Enlai, Nasser.'
     src:
       c: 0b7f5b70
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 603: ?'
         - 'w.zhou-enlai-waijiao-huodong 379: A'
+        - 'w.jian-zhou-enlai 500: ?'
+        - 'via x.1963-12-20.zhou-one-on-one-nasser: ?'
+        - 'via x.1963-12-19.zhou-third-meeting-nasser: ?'
     tags: [polity:prc, polity:uar, polity:india, name:zhou-enlai, name:nasser-gamal-abdel, vis:only:prc+uar]
     time_zone: Africa/Cairo
   - id: cal.1963-12-20.china-leadership-2
@@ -4240,12 +4481,18 @@ entries:
     thread: china-leadership
     also: [china, middle-east]
     c: Cairo. Zhou Enlai receives the producers, director and actors of the UAR film Saladin.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 20, 1963). See [[cal.1963-12-13.china-leadership]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 20, 1963); [[w.chen-yi-nianpu]], 1000 (Dec. 20, 1963, evening, the Qubba Palace 库巴共和国宫; Chen Yi with Zhou receives the producer, director and actors of *Saladin* 《萨拉丁》). See [[cal.1963-12-13.china-leadership]]. Names: Zhou Enlai.'
     src:
       c: '71393649'
       rows:
         - 'w.zhou-enlai-waijiao-huodong 379: all'
+        - 'w.chen-yi-nianpu 1000: ?'
     tags: [polity:prc, polity:uar, name:zhou-enlai]
+    time_range:
+      - 1963-12-20T17:00Z
+      - 1963-12-20T20:00Z
+    time_band: evening
+    time_zone: Africa/Cairo
   - id: cal.1963-12-20.china-leadership-4
     when: Dec. 20
     date: '1963-12-20'
@@ -4263,6 +4510,33 @@ entries:
       - 1963-12-20T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1963-12-20.china-leadership-6
+    when: Dec. 20
+    date: '1963-12-20'
+    place: cairo
+    thread: china-leadership
+    c: Cairo 开罗. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the staff of the Chinese embassy in the UAR and the Chinese secretary of the Afro-Asian People's Solidarity Organization's secretariat.
+    n: '[[w.chen-yi-nianpu]], 1000. The words: 上午 (1000). Made public: 1995. Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, name:chen-yi, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1963-12-20T04:00Z
+      - 1963-12-20T10:00Z
+    time_band: morning
+    time_zone: Africa/Cairo
+  - id: cal.1963-12-20.china-leadership-7
+    when: Dec. 20
+    date: '1963-12-20'
+    place: cairo
+    thread: china-leadership
+    also: [middle-east]
+    c: Cairo 开罗, the Abdin Palace 阿比丁宫. Chen Yi 陈毅 at Zhou Enlai's 周恩来 reception for President Nasser and his wife.
+    n: '[[w.chen-yi-nianpu]], 1000. The words: 晚上 (1000). Names: Chen Yi, Zhou Enlai, Nasser.'
+    tags: [polity:prc, polity:uar, name:chen-yi, name:zhou-enlai, name:nasser-gamal-abdel]
+    time_range:
+      - 1963-12-20T17:00Z
+      - 1963-12-20T20:00Z
+    time_band: evening
+    time_zone: Africa/Cairo
   - id: cal.1963-12-21.vietnam
     when: Dec. 21
     date: '1963-12-21'
@@ -4456,7 +4730,7 @@ entries:
     thread: china-leadership
     also: [africa-algeria-morocco, africa]
     c: Zhou Enlai flies to Algiers and begins a visit to Algeria, to Dec. 26 holding four formal talks with President Ben Bella; the aim of the visit, he says, is to learn; he tells Ben Bella of China's revolution and construction.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 603 (Dec. 21–26, 1963); [[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 21, 1963; 下午2时, 抵达阿尔及尔; 本·贝拉总统、布迈丁和30万阿尔及尔人民热烈欢迎); [[w.zhou-enlai-waijiao-huodong]], 379–80 (Dec. 22, 1963; 下午6时, 约丽别墅, 第一次政治会谈); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 23, 1963; 下午6时45分, 约丽别墅, 第二次政治会谈); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 24, 1963; 下午5时, 约丽别墅, 第三次政治会谈); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 26, 1963; 上午10时, 约丽别墅, 第四次政治会谈). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Ahmed Ben Bella.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 603 (Dec. 21–26, 1963); [[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 21, 1963; 下午2时, 抵达阿尔及尔; 本·贝拉总统、布迈丁和30万阿尔及尔人民热烈欢迎); [[w.zhou-enlai-waijiao-huodong]], 379–80 (Dec. 22, 1963; 下午6时, 约丽别墅, 第一次政治会谈); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 23, 1963; 下午6时45分, 约丽别墅, 第二次政治会谈); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 24, 1963; 下午5时, 约丽别墅, 第三次政治会谈); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 26, 1963; 上午10时, 约丽别墅, 第四次政治会谈); [[w.jian-zhou-enlai]], 500–501 (Dec. 21, Algiers: the revolution "almost a miracle"; four meetings with Ben Bella; not to rush to socialism; two issues with the Americans; war with China unlikely soon); [[w.chen-yi-nianpu]], 1000 (Dec. 21, 1963, morning, Chen Yi with Zhou leaves Cairo; afternoon, they reach Algiers 阿尔及尔 at the invitations of Ben Bella and Bouteflika; Chen Yi in Zhou''s talks with Ben Bella on the evenings of Dec. 22 and 24 and the morning of Dec. 26). Made public: 1993. The time is the first day''s. To check: Zhou''s third meeting with Ben Bella, December 24, 1963 (cited by [[w.jian-zhou-enlai]], 500 n.34); Zhou''s fourth meeting with Ben Bella, December 26, 1963 (cited by [[w.jian-zhou-enlai]], 501 n.35). Names: Zhou Enlai, Ahmed Ben Bella.'
     src:
       c: 4bc5fa6c
       rows:
@@ -4465,6 +4739,10 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 379–80: A'
         - 'w.zhou-enlai-waijiao-huodong 380: A'
         - 'w.zhou-enlai-waijiao-huodong 381: A'
+        - 'w.jian-zhou-enlai 500–501: ?'
+        - 'via x.1963-12-24.zhou-third-meeting-ben-bella: ?'
+        - 'via x.1963-12-26.zhou-fourth-meeting-ben-bella: ?'
+        - 'w.chen-yi-nianpu 1000: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:ben-bella-ahmed, vis:only:prc+algeria]
     time_zone: Africa/Algiers
   - id: cal.1963-12-21.china-leadership-4
@@ -4490,11 +4768,12 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers, the Villa Joly. Zhou Enlai calls on President Ben Bella.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 21, 1963; 下午5时30分). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Ben Bella.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 21, 1963; 下午5时30分); [[w.chen-yi-nianpu]], 1000 (Dec. 21, 1963, evening; Chen Yi with Zhou). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Ben Bella.'
     src:
       c: d1c54bd4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 379: all'
+        - 'w.chen-yi-nianpu 1000: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:ben-bella-ahmed]
     time_zone: Africa/Algiers
   - id: cal.1963-12-21.china-leadership-6
@@ -4504,11 +4783,12 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers. Zhou Enlai attends the banquet given by Ben Bella.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 21, 1963; 晚上). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Ben Bella.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 21, 1963; 晚上); [[w.chen-yi-nianpu]], 1001 (Dec. 21, 1963, evening; Chen Yi present, and at the reception Ben Bella gives for Zhou and Chen Yi after the banquet in the People''s Palace 人民宫). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Ben Bella.'
     src:
       c: 6c1c4189
       rows:
         - 'w.zhou-enlai-waijiao-huodong 379: all'
+        - 'w.chen-yi-nianpu 1001: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:ben-bella-ahmed]
     time_range:
       - 1963-12-21T19:00Z
@@ -4613,13 +4893,19 @@ entries:
     thread: china-leadership
     also: [africa-algeria-morocco]
     c: 'Zhou Enlai and Chen Yi, in the Algiers city hall, receive from the mayor, Barakhama (巴拉马纳), the certificates of honorary citizens; Zhou: it shows the brother Algerian people''s great friendship for the Chinese people.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 603 (Dec. 22, 1963); [[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 22, 1963; 阿尔及尔市府大厅, 荣誉市民称号). Continues 604. Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 603 (Dec. 22, 1963); [[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 22, 1963; 阿尔及尔市府大厅, 荣誉市民称号); [[w.chen-yi-nianpu]], 1001 (Dec. 22, 1963, evening; Chen Yi and Zhou made honorary citizens of Algiers in the city hall). Continues 604. Names: Zhou Enlai, Chen Yi.'
     src:
       c: d5d8a891
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 603: ?'
         - 'w.zhou-enlai-waijiao-huodong 379: A'
+        - 'w.chen-yi-nianpu 1001: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1963-12-22T19:00Z
+      - 1963-12-22T22:00Z
+    time_band: evening
+    time_zone: Africa/Algiers
   - id: cal.1963-12-22.china-leadership-4
     when: Dec. 22
     date: '1963-12-22'
@@ -4627,11 +4913,12 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers. Zhou Enlai lays a wreath at the martyrs' memorial and attends the ceremony naming an Algiers street Avenue de Pékin.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 22, 1963; 上午). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 22, 1963; 上午); [[w.chen-yi-nianpu]], 1001 (Dec. 22, 1963, morning; Chen Yi with Zhou at the El Alia cemetery 阿里亚公墓, about 12 km east of Algiers, and at the naming of Peking Street). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai.'
     src:
       c: 481718a3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 379: all'
+        - 'w.chen-yi-nianpu 1001: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai]
     time_range:
       - 1963-12-22T06:00Z
@@ -4644,12 +4931,23 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers outskirts. Zhou Enlai, with Boumediene, First Deputy Prime Minister and Minister of Defense, visits a nationalized State farm, the Republic farm, and the Chiffa fruit-processing plant.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 22, 1963). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Boumediene. Check: the second site''s name, 希法列克水果加工厂 in the book.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 379 (Dec. 22, 1963); [[w.chen-yi-nianpu]], 1001 (Dec. 22, 1963, morning; Chen Yi with Zhou, Boumediene, Ouzegane and Tekkache at the Republic farm, and about 11 at the fruit-processing works of Boufarik 布法列克, 36 km south of Algiers). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Boumediene. Check: the second site''s name, 希法列克水果加工厂 in the book.'
     src:
       c: 45ec86f0
       rows:
         - 'w.zhou-enlai-waijiao-huodong 379: all'
+        - 'w.chen-yi-nianpu 1001: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:boumediene-houari]
+    time_range:
+      - 1963-12-22T06:00Z
+      - 1963-12-22T12:00Z
+    time_band: morning
+    time_zone: Africa/Algiers
+    variants:
+      - unit: B
+        witness: w.chen-yi-nianpu
+        reads: The fruit-processing works visited is at Boufarik, 36 km south of Algiers
+        at: '1001'
   - id: cal.1963-12-22.china-leadership-6
     when: Dec. 22
     date: '1963-12-22'
@@ -4676,6 +4974,36 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1783: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-12-22.china-leadership-9
+    when: Dec. 22
+    date: '1963-12-22'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    c: Algiers 阿尔及尔, the Aletti Hotel 阿勒蒂饭店, lately nationalized. Mahsas 马赫萨斯, Minister of Agrarian Reform and Agriculture, gives a banquet for Zhou Enlai 周恩来 and Chen Yi 陈毅.
+    n: '[[w.chen-yi-nianpu]], 1001. The words: 中午 (1001). Names: Zhou Enlai, Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1963-12-22T12:00Z
+      - 1963-12-22T14:00Z
+    time_band: workday midday
+    time_zone: Africa/Algiers
+  - id: cal.1963-12-22.china-leadership-10
+    when: Dec. 22
+    date: '1963-12-22'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    follows:
+      - cal.1963-12-22.china-leadership-3
+    c: Algiers 阿尔及尔. Chen Yi 陈毅 and Zhou Enlai 周恩来 at the banquet of Mendjeli Ali 门杰利·阿里, First Vice-President of the National Assembly, for them.
+    n: '[[w.chen-yi-nianpu]], 1001. The words: 晚上……仪式结束后 (1001). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1963-12-22T19:00Z
+      - 1963-12-22T22:00Z
+    time_band: evening
+    time_zone: Africa/Algiers
   - id: cal.1963-12-23.foreign-aid
     when: Dec. 23
     date: '1963-12-23'
@@ -5157,12 +5485,18 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers. Zhou Enlai, with Boumediene, visits a modern oil-and-fat plant and the Berliet car works.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 23, 1963). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Boumediene.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 23, 1963); [[w.chen-yi-nianpu]], 1001 (Dec. 23, 1963, morning; Chen Yi with Zhou, Boumediene, Boumaza and Ouzegane at the oil-and-fat works and the Berliet truck works). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Boumediene.'
     src:
       c: 084b39ab
       rows:
         - 'w.zhou-enlai-waijiao-huodong 380: all'
+        - 'w.chen-yi-nianpu 1001: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:boumediene-houari]
+    time_range:
+      - 1963-12-23T06:00Z
+      - 1963-12-23T12:00Z
+    time_band: morning
+    time_zone: Africa/Algiers
   - id: cal.1963-12-23.china-leadership-2
     when: Dec. 23
     date: '1963-12-23'
@@ -5170,12 +5504,18 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers. Zhou Enlai calls on Boumediene at the Ministry of Defense.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 23, 1963). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Boumediene.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 23, 1963); [[w.chen-yi-nianpu]], 1001 (Dec. 23, 1963, afternoon; Chen Yi with Zhou). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Boumediene.'
     src:
       c: fac3e70a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 380: all'
+        - 'w.chen-yi-nianpu 1001: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:boumediene-houari]
+    time_range:
+      - 1963-12-23T12:00Z
+      - 1963-12-23T18:00Z
+    time_band: afternoon
+    time_zone: Africa/Algiers
   - id: cal.1963-12-23.china-leadership-3
     when: Dec. 23
     date: '1963-12-23'
@@ -5183,12 +5523,18 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers. Zhou Enlai calls on Abdelaziz Bouteflika, Foreign Minister.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 23, 1963). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Bouteflika.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 23, 1963); [[w.chen-yi-nianpu]], 1002 (Dec. 24, 1963, noon; Chen Yi with Zhou, Ouzegane and Tekkache calls on Bouteflika). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Bouteflika.'
     src:
       c: 99f0bd21
       rows:
         - 'w.zhou-enlai-waijiao-huodong 380: all'
+        - 'w.chen-yi-nianpu 1002: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:bouteflika-abdel-aziz]
+    variants:
+      - unit: B
+        witness: w.chen-yi-nianpu
+        reads: Zhou Enlai and Chen Yi call on Bouteflika at noon, Dec. 24
+        at: '1002'
   - id: cal.1963-12-23.china-leadership-4
     when: Dec. 23
     date: '1963-12-23'
@@ -5196,11 +5542,12 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers, the officers' club. Zhou Enlai attends the dinner given by Boumediene.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 23, 1963; 晚上). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Boumediene.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 23, 1963; 晚上); [[w.chen-yi-nianpu]], 1001 (Dec. 23, 1963; Chen Yi present). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Boumediene.'
     src:
       c: e093234a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 380: all'
+        - 'w.chen-yi-nianpu 1001: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:boumediene-houari]
     time_range:
       - 1963-12-23T19:00Z
@@ -5280,6 +5627,28 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1783: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-12-23.china-leadership-11
+    when: Dec. 23
+    date: '1963-12-23'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 cables Pierre Ngendandumwe 皮埃尔·恩根丹杜姆韦, Burundi's Prime Minister and Foreign Minister, on the establishment of relations.
+    n: '[[w.chen-yi-nianpu]], 1001. Names: Chen Yi.'
+    tags: [polity:prc, polity:burundi, name:chen-yi, ok:fields-place]
+  - id: cal.1963-12-23.china-leadership-12
+    when: Dec. 23
+    date: '1963-12-23'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    c: Algiers 阿尔及尔. Bachir Boumaza 巴希尔·布马扎, Minister of the National Economy, gives a banquet for Zhou Enlai 周恩来 and Chen Yi 陈毅.
+    n: '[[w.chen-yi-nianpu]], 1001. The words: 中午 (1001). Names: Zhou Enlai, Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1963-12-23T12:00Z
+      - 1963-12-23T14:00Z
+    time_band: workday midday
+    time_zone: Africa/Algiers
   - id: cal.1963-12-24.foreign-aid
     when: Dec. 24
     date: '1963-12-24'
@@ -5438,13 +5807,19 @@ entries:
     thread: china-leadership
     also: [africa-algeria-morocco]
     c: Zhou Enlai visits the home of the children of Algeria's martyrs, where live the children of those who died for national liberation.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 604 (Dec. 24, 1963); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 24, 1963; 参观两所烈士子弟之家). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 604 (Dec. 24, 1963); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 24, 1963; 参观两所烈士子弟之家); [[w.chen-yi-nianpu]], 1002 (Dec. 24, 1963, morning; Chen Yi with Zhou, Ouzegane and Tekkache at two homes for martyrs'' children some 20 km from Algiers). Names: Zhou Enlai.'
     src:
       c: c8ad5715
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 604: ?'
         - 'w.zhou-enlai-waijiao-huodong 380: A'
+        - 'w.chen-yi-nianpu 1002: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai]
+    time_range:
+      - 1963-12-24T06:00Z
+      - 1963-12-24T12:00Z
+    time_band: morning
+    time_zone: Africa/Algiers
   - id: cal.1963-12-24.china-leadership-3
     when: Dec. 24
     date: '1963-12-24'
@@ -5452,11 +5827,12 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers, the University City. Zhou Enlai attends the luncheon given jointly by Foreign Minister Bouteflika and Belkacem, Minister of National Orientation, in the students' residences.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 24, 1963; 中午). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Bouteflika.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 24, 1963; 中午); [[w.chen-yi-nianpu]], 1002 (Dec. 24, 1963; Chen Yi with Zhou at the luncheon of Bouteflika and Cherif Belkacem 谢里夫·贝勒卡塞姆, Minister of National Guidance). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Bouteflika.'
     src:
       c: 149cb49e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 380: all'
+        - 'w.chen-yi-nianpu 1002: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:bouteflika-abdel-aziz]
     time_range:
       - 1963-12-24T12:00Z
@@ -5470,11 +5846,12 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers. Zhou Enlai watches with Ben Bella a cultural performance.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 24, 1963; 晚上). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Ben Bella.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 24, 1963; 晚上); [[w.chen-yi-nianpu]], 1002 (Dec. 24, 1963, evening; Chen Yi with Zhou, Ben Bella and Boumediene at the gala). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Ben Bella.'
     src:
       c: 7b3ef451
       rows:
         - 'w.zhou-enlai-waijiao-huodong 380: all'
+        - 'w.chen-yi-nianpu 1002: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:ben-bella-ahmed]
     time_range:
       - 1963-12-24T19:00Z
@@ -5517,6 +5894,17 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1783: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-12-24.china-leadership-9
+    when: Dec. 24
+    date: '1963-12-24'
+    thread: china-leadership
+    c: The atomic bomb passes a comprehensive examination and test at its base in the Northwest.
+    n: '[[w.jian-zhou-enlai]], 516. Made public: 1998. To check: [[w.zhou-enlai-zhuan-1949]], 796 (cited by [[w.jian-zhou-enlai]], 516 n.106).'
+    src:
+      c: d8fe0871
+      rows:
+        - 'w.jian-zhou-enlai 516: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
   - id: cal.1963-12-25.europe-and-the-alliance-cyprus
     when: Dec. 25
     date: '1963-12-25'
@@ -5655,13 +6043,14 @@ entries:
     thread: china-leadership
     also: [africa-algeria-morocco]
     c: Zhou Enlai at Oran visits a liquefied petroleum plant and other works; that evening, back in Algiers, he speaks at the rally of cadres of the National Liberation Front, praising the National Liberation Army, which began with 3,000 guerrillas and dared fight hundreds of thousands of colonial troops, and after seven years of bloody war won the whole country, showing the oppressed nations of the world the right way to independence and freedom.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 604 (Dec. 25, 1963); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 25, 1963; 上午, 乘专机从阿尔及尔到达奥兰; 奥兰省省长举行的宴会); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 25, 1963; 上午; Oran, the Arzew liquefied-gas works); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 25, 1963; the North African glass works, Oran); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 25, 1963; 晚上; the speech to the National Liberation Front''s cadres, Algiers); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 311 (Dec. 25, 1963; Zhou speaks at the congress of cadres of the Algerian National Liberation Front: the armed suppression of oppressed nations by imperialism can be met only by revolutionary arms against counter-revolutionary arms; only so can independence and liberation be won). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 604 (Dec. 25, 1963); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 25, 1963; 上午, 乘专机从阿尔及尔到达奥兰; 奥兰省省长举行的宴会); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 25, 1963; 上午; Oran, the Arzew liquefied-gas works); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 25, 1963; the North African glass works, Oran); [[w.zhou-enlai-waijiao-huodong]], 380 (Dec. 25, 1963; 晚上; the speech to the National Liberation Front''s cadres, Algiers); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 311 (Dec. 25, 1963; Zhou speaks at the congress of cadres of the Algerian National Liberation Front: the armed suppression of oppressed nations by imperialism can be met only by revolutionary arms against counter-revolutionary arms; only so can independence and liberation be won); [[w.chen-yi-nianpu]], 1002 (Dec. 25, 1963, morning, Chen Yi with Zhou and Ben Bella at Oran 奥兰, the building site of the Arzew works, the luncheon of the prefect 塞图蒂 and the North African glass works; evening, back in Algiers and at the FLN cadres'' meeting). Names: Zhou Enlai.'
     src:
       c: 61afa5c2
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 604: ?'
         - 'w.zhou-enlai-waijiao-huodong 380: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 311: B'
+        - 'w.chen-yi-nianpu 1002: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai]
     time_range:
       - 1963-12-25T06:00Z
@@ -5845,11 +6234,12 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers, the People's Palace. Zhou Enlai gives a grand farewell banquet, followed by a farewell reception; Ben Bella and Boumediene attend.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 26, 1963; 晚上). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Ben Bella, Boumediene.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 26, 1963; 晚上); [[w.chen-yi-nianpu]], 1002 (Dec. 26, 1963, evening; Chen Yi at the farewell banquet and the reception after it). See [[cal.1963-12-21.china-leadership-3]]. Names: Zhou Enlai, Ben Bella, Boumediene.'
     src:
       c: cf3dee30
       rows:
         - 'w.zhou-enlai-waijiao-huodong 381: all'
+        - 'w.chen-yi-nianpu 1002: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:ben-bella-ahmed, name:boumediene-houari]
     time_range:
       - 1963-12-26T19:00Z
@@ -5956,6 +6346,28 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1784: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-12-26.china-leadership-13
+    when: Dec. 26
+    date: '1963-12-26'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    c: 'Algiers 阿尔及尔, the Dar Ali 达尔阿里 hotel. Kaid Ahmed 卡伊德·艾哈迈德, Minister of Tourism, gives a banquet for Zhou Enlai 周恩来 and Chen Yi 陈毅; Chen Yi writes for the hotel: "Long live Chinese–Algerian friendship!"'
+    n: '[[w.chen-yi-nianpu]], 1002. The words: 中午 (1002). Names: Zhou Enlai, Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1963-12-26T12:00Z
+      - 1963-12-26T14:00Z
+    time_band: workday midday
+    time_zone: Africa/Algiers
+  - id: cal.1963-12-26.china-leadership-14
+    when: Dec. 26
+    date: '1963-12-26'
+    place: algiers
+    thread: china-leadership
+    c: Algiers 阿尔及尔. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the whole staff of the Chinese embassy in Algeria.
+    n: '[[w.chen-yi-nianpu]], 1002. Made public: 1995. Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, name:chen-yi, name:zhou-enlai, ok:fields-time, vis:only:prc]
   - id: cal.1963-12-27.succession
     when: Dec. 27
     date: '1963-12-27'
@@ -6043,7 +6455,7 @@ entries:
     thread: china-leadership
     also: [africa-algeria-morocco, africa]
     c: Zhou Enlai visits Morocco, Dec. 27–31. Dec. 28 he talks with King Hassan, explaining farming as base and industry as leader and self-reliance, which will take ten to twenty years and does not shut out trade; China, met with American hostility and blockade, does not mean to start an armed clash with America and believes the two will in the end agree. He calls on Prime Minister Bahnini; Dec. 30 goes to Casablanca; Dec. 31 the China–Morocco joint communique is issued.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 604 (Dec. 27–31, 1963); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 27, 1963; 上午, 乘专机离开阿尔及尔前往拉巴特; 上午11时30分, 抵达拉巴特, 阿卜杜拉亲王代表国王哈桑二世到机场欢迎); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 上午11时30分, 国王办公室, 第一次会谈); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 下午5时30分; the second talks with King Hassan II); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 311 (Dec. 27–30, 1963; Zhou visits Morocco officially at King Hassan II''s invitation, Chen Yi among those accompanying him; Zhou and Chen Yi hold talks with the King, Prime Minister Bahnini and Foreign Minister Guedira); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 311–312 (Dec. 31, 1963; the joint communique: China supports Morocco''s policy of peace and nonalignment; both approve the peaceful coexistence of countries of different systems, wide international cooperation, general disarmament and the complete prohibition and destruction of nuclear weapons; economic independence the ground of true independence; noninterference; disputes among Asian and African countries, those left by history among them, to be settled by negotiation; an end to the remains of colonialism). Continues 605. Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Hassan II, Ahmed Bahnini.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 604 (Dec. 27–31, 1963); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 27, 1963; 上午, 乘专机离开阿尔及尔前往拉巴特; 上午11时30分, 抵达拉巴特, 阿卜杜拉亲王代表国王哈桑二世到机场欢迎); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 上午11时30分, 国王办公室, 第一次会谈); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 下午5时30分; the second talks with King Hassan II); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 311 (Dec. 27–30, 1963; Zhou visits Morocco officially at King Hassan II''s invitation, Chen Yi among those accompanying him; Zhou and Chen Yi hold talks with the King, Prime Minister Bahnini and Foreign Minister Guedira); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 311–312 (Dec. 31, 1963; the joint communique: China supports Morocco''s policy of peace and nonalignment; both approve the peaceful coexistence of countries of different systems, wide international cooperation, general disarmament and the complete prohibition and destruction of nuclear weapons; economic independence the ground of true independence; noninterference; disputes among Asian and African countries, those left by history among them, to be settled by negotiation; an end to the remains of colonialism); [[w.jian-zhou-enlai]], 501 (Morocco, Dec. 27–31: King Hassan II; the oil refinery); [[w.chen-yi-nianpu]], 1003 (Dec. 28, 1963, morning; Chen Yi in Zhou''s talks with King Hassan II). Continues 605. Made public: 1993. The time is the first day''s. To check: Zhou and Chen Yi''s report on the visit to Morocco, January 5, 1964 (cited by [[w.jian-zhou-enlai]], 501 n.36a); [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, 145 (cited by [[w.jian-zhou-enlai]], 501 n.36b). Names: Zhou Enlai, Hassan II, Ahmed Bahnini.'
     src:
       c: 430742da
       rows:
@@ -6051,6 +6463,9 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 381: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 311: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 311–312: F'
+        - 'w.jian-zhou-enlai 501: ?'
+        - 'via x.1964-01-05.zhou-chen-yi-report-visit-morocco: ?'
+        - 'w.chen-yi-nianpu 1003: ?'
     tags: [polity:prc, polity:morocco, polity:us, name:zhou-enlai, name:hassan-ii, vis:only:prc+morocco]
     time_range:
       - 1963-12-27T06:00Z
@@ -6064,12 +6479,18 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Algiers. Zhou Enlai leaves by special plane for an official visit to Morocco; Ben Bella and Boumediene see him off at the airport.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 27, 1963). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai, Ben Bella, Boumediene.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 27, 1963); [[w.chen-yi-nianpu]], 1002 (Dec. 27, 1963, morning; Chen Yi with Zhou leaves Algiers for Rabat 拉巴特). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai, Ben Bella, Boumediene.'
     src:
       c: acbc6ee6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 381: all'
+        - 'w.chen-yi-nianpu 1002: ?'
     tags: [polity:prc, polity:algeria, name:zhou-enlai, name:ben-bella-ahmed, name:boumediene-houari]
+    time_range:
+      - 1963-12-27T06:00Z
+      - 1963-12-27T12:00Z
+    time_band: morning
+    time_zone: Africa/Algiers
   - id: cal.1963-12-27.china-leadership-6
     when: Dec. 27
     date: '1963-12-27'
@@ -6077,12 +6498,18 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Rabat. Zhou Enlai lays a wreath at the tomb of the late King Mohammed V.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 27, 1963). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 27, 1963); [[w.chen-yi-nianpu]], 1003 (Dec. 27, 1963, afternoon; Chen Yi with Zhou). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai.'
     src:
       c: fb135dd1
       rows:
         - 'w.zhou-enlai-waijiao-huodong 381: all'
+        - 'w.chen-yi-nianpu 1003: ?'
     tags: [polity:prc, polity:morocco, name:zhou-enlai]
+    time_range:
+      - 1963-12-27T12:00Z
+      - 1963-12-27T18:00Z
+    time_band: afternoon
+    time_zone: Africa/Casablanca
   - id: cal.1963-12-27.china-leadership-7
     when: Dec. 27
     date: '1963-12-27'
@@ -6090,12 +6517,18 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Rabat. Zhou Enlai calls on King Hassan II.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 27, 1963). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai, Hassan II.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 27, 1963); [[w.chen-yi-nianpu]], 1003 (Dec. 27, 1963, afternoon, the Royal Palace 拉巴特宫; Chen Yi present). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai, Hassan II.'
     src:
       c: bdf4560d
       rows:
         - 'w.zhou-enlai-waijiao-huodong 381: all'
+        - 'w.chen-yi-nianpu 1003: ?'
     tags: [polity:prc, polity:morocco, name:zhou-enlai, name:hassan-ii]
+    time_range:
+      - 1963-12-27T12:00Z
+      - 1963-12-27T18:00Z
+    time_band: afternoon
+    time_zone: Africa/Casablanca
   - id: cal.1963-12-27.china-leadership-8
     when: Dec. 27
     date: '1963-12-27'
@@ -6157,6 +6590,42 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1784: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-12-27.china-leadership-13
+    when: Dec. 27
+    date: '1963-12-27'
+    place: algiers
+    thread: china-leadership
+    also: [africa]
+    c: Algiers 阿尔及尔. The Chinese and Tunisian embassies issue a press communique on Zhou Enlai's 周恩来 and Chen Yi's 陈毅 visit to Tunisia.
+    n: '[[w.chen-yi-nianpu]], 1002. The words: 上午 (1002). Names: Zhou Enlai, Chen Yi.'
+    tags: [polity:prc, polity:algeria, polity:tunisia, name:chen-yi, name:zhou-enlai]
+    time_range:
+      - 1963-12-27T06:00Z
+      - 1963-12-27T12:00Z
+    time_band: morning
+    time_zone: Africa/Algiers
+  - id: cal.1963-12-27.china-leadership-14
+    when: Dec. 27
+    date: '1963-12-27'
+    thread: china-leadership
+    also: [africa]
+    c: On the flight to Rabat, Chen Yi 陈毅 and Zhou Enlai 周恩来 each cable their thanks to Ben Bella and Bouteflika.
+    n: '[[w.chen-yi-nianpu]], 1002–1003. Names: Chen Yi, Zhou Enlai, Ben Bella, Bouteflika.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:zhou-enlai, name:ben-bella-ahmed, name:bouteflika-abdel-aziz, ok:fields-place, ok:fields-time]
+  - id: cal.1963-12-27.china-leadership-15
+    when: Dec. 27
+    date: '1963-12-27'
+    place: rabat
+    thread: china-leadership
+    also: [africa]
+    c: Rabat 拉巴特, the Royal Palace. Chen Yi 陈毅 at King Hassan II's state banquet for Zhou Enlai 周恩来.
+    n: '[[w.chen-yi-nianpu]], 1003. The words: 晚上 (1003). Names: Chen Yi, Hassan II, Zhou Enlai.'
+    tags: [polity:prc, polity:morocco, name:chen-yi, name:hassan-ii, name:zhou-enlai]
+    time_range:
+      - 1963-12-27T19:00Z
+      - 1963-12-27T22:00Z
+    time_band: evening
+    time_zone: Africa/Casablanca
   - id: cal.1963-12-28.europe-and-the-alliance
     when: Dec. 28–29
     date: '1963-12-28'
@@ -6228,12 +6697,18 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Rabat. Zhou Enlai calls on Prime Minister Bahnini of Morocco.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963); [[w.chen-yi-nianpu]], 1003 (Dec. 28, 1963, morning; Chen Yi with Zhou calls on the Prime Minister, Hadj Ahmed Bahnini 哈吉·艾哈迈德·巴赫尼尼). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai.'
     src:
       c: b8d38bc1
       rows:
         - 'w.zhou-enlai-waijiao-huodong 381: all'
+        - 'w.chen-yi-nianpu 1003: ?'
     tags: [polity:prc, polity:morocco, name:zhou-enlai]
+    time_range:
+      - 1963-12-28T06:00Z
+      - 1963-12-28T12:00Z
+    time_band: morning
+    time_zone: Africa/Casablanca
   - id: cal.1963-12-28.china-leadership-3
     when: Dec. 28
     date: '1963-12-28'
@@ -6241,11 +6716,12 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Rabat, the officers' club. Zhou Enlai attends the luncheon given by Foreign Minister Guedira.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 中午). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 中午); [[w.chen-yi-nianpu]], 1003 (Dec. 28, 1963; Chen Yi present). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai.'
     src:
       c: 8bcb40ff
       rows:
         - 'w.zhou-enlai-waijiao-huodong 381: all'
+        - 'w.chen-yi-nianpu 1003: ?'
     tags: [polity:prc, polity:morocco, name:zhou-enlai]
     time_range:
       - 1963-12-28T12:00Z
@@ -6259,11 +6735,12 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Rabat, the Peace Palace. Zhou Enlai gives a grand reception for King Hassan II.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 晚上). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai, Hassan II.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 晚上); [[w.chen-yi-nianpu]], 1003 (Dec. 28, 1963, evening; Chen Yi present). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai, Hassan II.'
     src:
       c: 85d84eda
       rows:
         - 'w.zhou-enlai-waijiao-huodong 381: all'
+        - 'w.chen-yi-nianpu 1003: ?'
     tags: [polity:prc, polity:morocco, name:zhou-enlai, name:hassan-ii]
     time_range:
       - 1963-12-28T19:00Z
@@ -6277,11 +6754,12 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Rabat, the Mohammed V Theater. Zhou Enlai watches a performance by Moroccan artists.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 晚上). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 晚上); [[w.chen-yi-nianpu]], 1003 (Dec. 28, 1963, evening; Chen Yi with Zhou). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai.'
     src:
       c: 85b5aba1
       rows:
         - 'w.zhou-enlai-waijiao-huodong 381: all'
+        - 'w.chen-yi-nianpu 1003: ?'
     tags: [polity:prc, polity:morocco, name:zhou-enlai]
     time_range:
       - 1963-12-28T19:00Z
@@ -6331,6 +6809,20 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1784–1785: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-12-28.china-leadership-11
+    when: Dec. 28
+    date: '1963-12-28'
+    place: rabat
+    thread: china-leadership
+    also: [africa]
+    c: Rabat 拉巴特. Chen Yi 陈毅 calls on Ahmed Reda Guedira, Morocco's Foreign Minister, and holds talks with him.
+    n: '[[w.chen-yi-nianpu]], 1003. The words: 上午 (1003). Made public: 1995. Names: Chen Yi, Guedira.'
+    tags: [polity:prc, polity:morocco, name:chen-yi, name:guedira-ahmed-reda, vis:only:prc+morocco]
+    time_range:
+      - 1963-12-28T06:00Z
+      - 1963-12-28T12:00Z
+    time_band: morning
+    time_zone: Africa/Casablanca
   - id: cal.1963-12-29.poverty
     when: Dec. 29–Jan. 3
     date: '1963-12-29'
@@ -6406,12 +6898,18 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Rabat, the Royal Palace. Zhou Enlai takes leave of King Hassan II and receives from him a sword set with glittering gems.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 29, 1963). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai, Hassan II.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 29, 1963); [[w.chen-yi-nianpu]], 1003 (Dec. 29, 1963, morning; Chen Yi with Zhou takes leave of King Hassan II). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai, Hassan II.'
     src:
       c: ea62aa14
       rows:
         - 'w.zhou-enlai-waijiao-huodong 381: all'
+        - 'w.chen-yi-nianpu 1003: ?'
     tags: [polity:prc, polity:morocco, name:zhou-enlai, name:hassan-ii]
+    time_range:
+      - 1963-12-29T06:00Z
+      - 1963-12-29T12:00Z
+    time_band: morning
+    time_zone: Africa/Casablanca
   - id: cal.1963-12-29.china-leadership-2
     when: Dec. 29
     date: '1963-12-29'
@@ -6479,6 +6977,47 @@ entries:
     c: Saigon. Commando Team 65, Lâm Sơn Náo leading, tries to blow up the American ship US Core at the Saigon port, Dec. 29; the charge does not fire, its current too weak.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 352–53. Check: the history gives the ship''s name as "US Core" and the day; the American record not read.'
     tags: [polity:drv]
+  - id: cal.1963-12-29.china-leadership-8
+    when: Dec. 29
+    date: '1963-12-29'
+    place: tangier
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 visits Tangier 丹吉尔, its museum of history, and tours the city.
+    n: '[[w.chen-yi-nianpu]], 1003. Names: Chen Yi.'
+    tags: [polity:prc, polity:morocco, name:chen-yi, ok:fields-time]
+  - id: cal.1963-12-29.china-leadership-9
+    when: Dec. 29
+    date: '1963-12-29'
+    place: tangier
+    thread: china-leadership
+    also: [africa]
+    c: Tangier 丹吉尔. The mayor gives a luncheon for Chen Yi 陈毅.
+    n: '[[w.chen-yi-nianpu]], 1003. Names: Chen Yi.'
+    tags: [polity:prc, polity:morocco, name:chen-yi, ok:fields-time]
+  - id: cal.1963-12-29.china-leadership-10
+    when: Dec. 29
+    date: '1963-12-29'
+    place: tangier
+    thread: china-leadership
+    follows:
+      - cal.1963-12-29.china-leadership-8
+    c: Chen Yi 陈毅 writes the poem "Touring Dangre" 《游当惹》 (Dangre 当惹, the book's footnote says, the old rendering of Tangier).
+    n: '[[w.chen-yi-nianpu]], 1003. The words: 之后 (1003). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-time]
+  - id: cal.1963-12-29.china-leadership-11
+    when: Dec. 29
+    date: '1963-12-29'
+    place: rabat
+    thread: china-leadership
+    c: Rabat 拉巴特. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the whole staff of the Chinese embassy in Morocco.
+    n: '[[w.chen-yi-nianpu]], 1003. The words: 晚上 (1003). Made public: 1995. Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, name:chen-yi, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1963-12-29T19:00Z
+      - 1963-12-29T22:00Z
+    time_band: evening
+    time_zone: Africa/Casablanca
   - id: cal.1963-12-30.congress
     when: Dec. 30
     date: '1963-12-30'
@@ -6713,12 +7252,18 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Zhou Enlai drives from Rabat to Casablanca, on the Atlantic coast, and sees the city and the national tea and sugar company, the oil refinery, the port and the car assembly plant.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 382 (Dec. 30, 1963). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 382 (Dec. 30, 1963); [[w.chen-yi-nianpu]], 1003–1004 (Dec. 30, 1963, morning, Chen Yi with Zhou from Rabat to Casablanca, the national tea and sugar company, an oil refinery; after lunch the port and a car assembly plant; back at Rabat at 5:45 p.m.). See [[cal.1963-12-27.china-leadership-4]]. Names: Zhou Enlai.'
     src:
       c: 6fc35e9a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 382: all'
+        - 'w.chen-yi-nianpu 1003–1004: ?'
     tags: [polity:prc, polity:morocco, name:zhou-enlai]
+    time_range:
+      - 1963-12-30T06:00Z
+      - 1963-12-30T12:00Z
+    time_band: morning
+    time_zone: Africa/Casablanca
   - id: cal.1963-12-30.china-leadership-3
     when: Dec. 30
     date: '1963-12-30'
@@ -6747,6 +7292,15 @@ entries:
       - 1963-12-30T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1963-12-30.china-leadership-6
+    when: Dec. 30
+    date: '1963-12-30'
+    place: rabat
+    thread: china-leadership
+    also: [africa]
+    c: Rabat 拉巴特, the Peace Palace 和平宫. Chen Yi 陈毅 and Zhou Enlai 周恩来 at the ceremony announcing the joint communique of the Chinese and Moroccan governments.
+    n: '[[w.chen-yi-nianpu]], 1004. Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:morocco, name:chen-yi, name:zhou-enlai, ok:fields-time]
   - id: cal.1963-12-31.civil-rights-the-executive
     when: Dec. 31
     date: '1963-12-31'
@@ -7604,13 +8158,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai arrives at Tirana in the afternoon and begins his visit to Albania.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 605 (Dec. 31, 1963); [[w.zhou-enlai-waijiao-huodong]], 382 (Dec. 31, 1963; the departure from Rabat); [[w.zhou-enlai-waijiao-huodong]], 382 (Dec. 31, 1963; 下午, 到达地拉那; 霍查、列希、谢胡等阿尔巴尼亚党和国家领导人在机场热烈欢迎); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 312 (Dec. 31, 1963–Jan. 9, 1964; Zhou visits Albania at the invitation of Mehmet Shehu, Chairman of the Council of Ministers, and holds several talks with Enver Hoxha, First Secretary of the Albanian Party of Labor, Shehu, Haxhi Lleshi and others, the book saying the two sides'' positions and views were wholly in agreement). Check: the diary has Zhou and Chen Yi reach Albania "today" (今天到阿尔巴尼亚访问) under Jan. 1, 1964 ([[w.yang-shangkun-riji]], II, 339). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 605 (Dec. 31, 1963); [[w.zhou-enlai-waijiao-huodong]], 382 (Dec. 31, 1963; the departure from Rabat); [[w.zhou-enlai-waijiao-huodong]], 382 (Dec. 31, 1963; 下午, 到达地拉那; 霍查、列希、谢胡等阿尔巴尼亚党和国家领导人在机场热烈欢迎); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 312 (Dec. 31, 1963–Jan. 9, 1964; Zhou visits Albania at the invitation of Mehmet Shehu, Chairman of the Council of Ministers, and holds several talks with Enver Hoxha, First Secretary of the Albanian Party of Labor, Shehu, Haxhi Lleshi and others, the book saying the two sides'' positions and views were wholly in agreement); [[w.chen-yi-nianpu]], 1004 (Dec. 31, 1963, morning, Chen Yi with Zhou leaves Rabat; afternoon, at Tirana 地拉那). Check: the diary has Zhou and Chen Yi reach Albania "today" (今天到阿尔巴尼亚访问) under Jan. 1, 1964 ([[w.yang-shangkun-riji]], II, 339). Names: Zhou Enlai.'
     src:
       c: 58e3a379
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 605: ?'
         - 'w.zhou-enlai-waijiao-huodong 382: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 312: A'
+        - 'w.chen-yi-nianpu 1004: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai]
     time_range:
       - 1963-12-31T11:00Z
@@ -7620,16 +8175,19 @@ entries:
   - id: cal.1963-12-31.china-leadership-3
     when: Dec. 31
     date: '1963-12-31'
+    time: 1963-12-31T17:00Z
     place: tirana
     thread: china-leadership
     also: [china, soviet-union]
     c: Tirana. Zhou Enlai, with Chen Yi, calls on the Party's Central Committee, the Presidium of the People's Assembly and the Council of Ministers.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 382 (Dec. 31, 1963). See [[cal.1963-12-31.china-leadership]]. Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 382 (Dec. 31, 1963); [[w.chen-yi-nianpu]], 1004 (Dec. 31, 1963, 6 p.m.; Chen Yi with Zhou calls on the Party''s Central Committee, the Presidium of the People''s Assembly and the Council of Ministers). See [[cal.1963-12-31.china-leadership]]. Names: Zhou Enlai, Chen Yi.'
     src:
       c: d1880fe6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 382: all'
+        - 'w.chen-yi-nianpu 1004: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai, name:chen-yi]
+    time_zone: Europe/Tirane
   - id: cal.1963-12-31.china-leadership-4
     when: Dec. 31
     date: '1963-12-31'
@@ -7638,11 +8196,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Tirana. Zhou Enlai spends New Year's Eve with the workers of the Stalin Textile Combine, then with the People's Army's officers and martyrs' families at the Officers' House, then with workers, officers and writers at the Writers' and Artists' Club, and attends the dinner given by Hoxha and Shehu at the Partisans' Palace and the New Year evening after it.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 382 (Dec. 31, 1963; 晚9时). See [[cal.1963-12-31.china-leadership]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 382 (Dec. 31, 1963; 晚9时); [[w.chen-yi-nianpu]], 1004 (Dec. 31, 1963, evening; Chen Yi with Zhou and Hoxha 霍查, Shehu 谢胡, Kapo 卡博, Balluku 巴卢库 and Alia 阿利雅 at the Stalin textile combine, the Officers'' House, where he speaks of two Albanian sayings current in China, the writers'' and artists'' club, the New Year''s Eve dinner at the Partisan Palace and the gala after). See [[cal.1963-12-31.china-leadership]]. Names: Zhou Enlai.'
     src:
       c: 14ca2952
       rows:
         - 'w.zhou-enlai-waijiao-huodong 382: all'
+        - 'w.chen-yi-nianpu 1004: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai]
     time_zone: Europe/Tirane
   - id: cal.1963-12.china-leadership-2
@@ -7776,3 +8335,44 @@ entries:
     c: Tây Ninh. Saigon opens operation Đại Phong 35, Dec. 31, with 13 battalions against the Bời Lời base in Tây Ninh and Bến Cát in Thủ Dầu Một.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 345.'
     tags: [polity:drv]
+  - id: cal.1963-12.china-leadership-9
+    when: Dec., at Algiers
+    date: 1963-12
+    at: after 1963-12-21
+    place: algiers
+    thread: china-leadership
+    also: [china, europe-and-the-alliance]
+    c: Zhou Enlai, at Algiers, told that Paris will not have "the PRC is the sole legal government representing the whole of the Chinese people" in the communiqué, has Li Qingquan fly there to report in person; he decides the sentence may go if France keeps to no "two Chinas," Peking to publish an explanation after the communiqué and France to confirm it.
+    n: '[[w.jian-zhou-enlai]], 507–508. Made public: Check (1998 at the latest, [[w.wang-taiping-zhonghua-renmin-gongheguo-waijiaoshi]], III; the year of [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, not given). To check: [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, 77–78 (cited by [[w.jian-zhou-enlai]], 508 n.58a); [[w.wang-taiping-zhonghua-renmin-gongheguo-waijiaoshi]], III, 368–369 (cited by [[w.jian-zhou-enlai]], 508 n.58b). Names: Zhou Enlai.'
+    src:
+      c: a88cff01
+      rows:
+        - 'w.jian-zhou-enlai 507–508: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+  - id: cal.1963-12.china-leadership-10
+    when: Dec., before the 9th
+    date: 1963-12
+    at: before 1963-12-09
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明. Chen Yi 陈毅 tours Haigeng and the Daguan Tower 大观楼 and writes the poem "Kunming miscellany" 《昆明杂咏》.
+    n: '[[w.chen-yi-nianpu]], 998. The words: 离昆明之前 (998). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-time]
+  - id: cal.1963-12-31.china-leadership-6
+    when: Dec. 31
+    date: '1963-12-31'
+    thread: china-leadership
+    also: [cuba]
+    c: Chen Yi 陈毅 cables Raúl Roa, Cuba's Foreign Minister, on the fifth anniversary of Cuba's liberation.
+    n: '[[w.chen-yi-nianpu]], 1004. Names: Chen Yi, Roa.'
+    tags: [polity:prc, polity:cuba, name:chen-yi, name:roa-raul, ok:fields-place]
+  - id: cal.1963-12-31.china-leadership-7
+    when: Dec. 31
+    date: '1963-12-31'
+    place: tirana
+    thread: china-leadership
+    follows:
+      - cal.1963-12-31.china-leadership-4
+    c: Chen Yi 陈毅 writes the poems "New Year at Tirana" 《在地拉那过新年》, five in all, on Tirana, the workers', writers' and soldiers' club evenings and the night's songs and dances.
+    n: '[[w.chen-yi-nianpu]], 1004. The words: 之后 (1004). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poems. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-time]

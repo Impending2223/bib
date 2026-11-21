@@ -208,13 +208,14 @@ entries:
     place: peking
     thread: china
     c: Peking, Tiananmen, 10 a.m. Mao Zedong, with Liu Shaoqi, Dong Biwu, Zhu De, Zhou Enlai, Deng Xiaoping and others, at the rally for the People's Republic's thirteenth anniversary; reviews the parade. Watches the fireworks from the gate tower at night.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 1, 1962. [[w.zhou-enlai-waijiao-huodong]], 336 (Oct. 1, 1962; 上午, 天安门城楼); [[w.deng-xiaoping-nianpu-1904]], III, 1727 (Oct. 1, 1962; morning, Deng at the Tiananmen ceremony reviewing the parade; evening, with Mao, Liu and others, the fireworks on the gate, and meets W. E. B. Du Bois 杜波依斯, American Black scholar and Communist Party member, and his wife). Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 1, 1962. [[w.zhou-enlai-waijiao-huodong]], 336 (Oct. 1, 1962; 上午, 天安门城楼); [[w.deng-xiaoping-nianpu-1904]], III, 1727 (Oct. 1, 1962; morning, Deng at the Tiananmen ceremony reviewing the parade; evening, with Mao, Liu and others, the fireworks on the gate, and meets W. E. B. Du Bois 杜波依斯, American Black scholar and Communist Party member, and his wife); [[w.chen-yi-nianpu]], 935 (Oct. 1, 1962, morning; Chen Yi speaks at the ceremony and reviews the parade; the economy is getting better day by day; the Chinese people will not be bullied). Names: Mao Zedong, Zhou Enlai.'
     src:
       c: d8bb4056
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Oct. 1, 1962: all'
         - 'w.zhou-enlai-waijiao-huodong 336: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1727: ?'
+        - 'w.chen-yi-nianpu 935: ?'
     tags: [name:mao-zedong, name:zhou-enlai, polity:prc]
     time_range:
       - 1962-09-30T22:00Z
@@ -302,6 +303,22 @@ entries:
       - 1962-10-01T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-10-01.china-leadership-7
+    when: Oct. 1
+    date: '1962-10-01'
+    thread: china-leadership
+    c: Mao Zedong 毛泽东, Liu Shaoqi 刘少奇 and Zhu De 朱德 receive eight new ambassadors and chargés and their wives, Chen Yi 陈毅 with them, from Ghana, Bulgaria, Denmark, Mongolia, the UAR, Mali and Pakistan, and 贾维, the British chargé.
+    n: '[[w.chen-yi-nianpu]], 935. Names: Mao Zedong, Liu Shaoqi, Zhu De, Chen Yi.'
+    tags: [polity:prc, polity:ghana, polity:bulgaria, polity:denmark, polity:mongolia, polity:uar, polity:mali, polity:pakistan, polity:uk, name:chen-yi, name:mao-zedong, name:liu-shaoqi, name:zhu-de, ok:fields-place]
+  - id: cal.1962-10-01.china-leadership-8
+    when: Oct. 1
+    date: '1962-10-01'
+    place: tokyo
+    thread: china-leadership
+    also: [japan]
+    c: Tokyo's broadcasting system and a network of eighteen Japanese stations broadcast Chen Yi's 陈毅 television talk of June 13 to 柳泽恭雄 of the *Denpa Shimbun*, on Japan and China, China's foreign policy, the banning of nuclear weapons and China's building.
+    n: '[[w.chen-yi-nianpu]], 935. See [[cal.1962-06-13.china-leadership-5]]. Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi]
   - id: cal.1962-10-02.mayors-cleveland
     when: Oct. 2
     date: '1962-10-02'
@@ -445,11 +462,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking Hotel. Zhou Enlai attends the national day reception given by the Guinean Embassy.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 2, 1962; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 2, 1962; 晚上); [[w.chen-yi-nianpu]], 936 (Oct. 2, 1962, evening; the reception of 邦古拉·莫阿, the Guinean chargé, at the Peking Hotel; Chen Yi speaks and condemns the imperialists'' subversion of African independence). Names: Zhou Enlai.'
     src:
       c: 3a20e6bc
       rows:
         - 'w.zhou-enlai-waijiao-huodong 337: all'
+        - 'w.chen-yi-nianpu 936: ?'
     tags: [polity:prc, polity:guinea, name:zhou-enlai]
     time_range:
       - 1962-10-02T11:00Z
@@ -469,6 +487,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 213: all'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-02.china-leadership-7
+    when: Oct. 2
+    date: '1962-10-02'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 at the banquet of 陈子平, the Vietnamese Ambassador, for the Vietnam–China Friendship Association delegation led by 黄国越.
+    n: '[[w.chen-yi-nianpu]], 936. The words: 晚上 (936). Names: Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-10-02T11:00Z
+      - 1962-10-02T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1962-10-03.space
     when: Oct. 3
@@ -559,11 +590,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia, trade]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the signing of the new China–Ceylon trade agreement and the agreement on economic and technical cooperation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 3, 1962; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 3, 1962; 晚上); [[w.chen-yi-nianpu]], 936 (Oct. 3, 1962, evening; Chen Yi at the signing of the third five-year trade agreement, the agreement on economic and technical cooperation and the 1963 protocol). Names: Zhou Enlai.'
     src:
       c: 4717f28e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 337: all'
+        - 'w.chen-yi-nianpu 936: ?'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai]
     time_range:
       - 1962-10-03T11:00Z
@@ -608,6 +640,25 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 213: all'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-03T04:00Z
+      - 1962-10-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-03.china-leadership-6
+    when: Oct. 3
+    date: '1962-10-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and 彭·沙格达尔苏伦, the Mongolian Foreign Minister, exchange cables on the tenth anniversary of the Sino-Mongolian agreement on economic and cultural cooperation.
+    n: '[[w.chen-yi-nianpu]], 936. Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi]
+  - id: cal.1962-10-03.china-leadership-7
+    when: Oct. 3
+    date: '1962-10-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Polish–Chinese Friendship Association delegation led by 扬·克莱哈 of the Polish United Workers' Party's Central Committee.
+    n: '[[w.chen-yi-nianpu]], 936. The words: 下午 (936). Names: Chen Yi.'
+    tags: [polity:prc, polity:poland, name:chen-yi, ok:fields-place]
     time_range:
       - 1962-10-03T04:00Z
       - 1962-10-03T10:00Z
@@ -774,11 +825,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia, trade]
     c: Peking Hotel. Zhou Enlai attends the farewell luncheon given by Illangaratne, Ceylon's Minister of Commerce and Trade.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 4, 1962; 中午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 4, 1962; 中午); [[w.chen-yi-nianpu]], 936 (Oct. 4, 1962, midday; Chen Yi speaks at the farewell lunch of 特·勃·伊兰加拉特尼 on the trade and economic agreements). Names: Zhou Enlai.'
     src:
       c: b9b498d6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 337: all'
+        - 'w.chen-yi-nianpu 936: ?'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai]
     time_range:
       - 1962-10-04T04:00Z
@@ -887,6 +939,37 @@ entries:
     c: Lâm Đồng, Tuyên Đức, Đắk Lắk. The Saigon 23d Division opens operation An Lạc, Oct. 4, against the strategic corridor in the southern Central Highlands; the fighting runs nearly two months.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 183. Check: the end of the operation.'
     tags: [polity:drv]
+  - id: cal.1962-10-04.china-leadership-9
+    when: Oct. 4
+    date: '1962-10-04'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Tulsi Giri 图尔西·吉里, Nepal's Vice-Chairman of the Council of Ministers and Foreign Minister, exchange cables on the first anniversary of the boundary treaty.
+    n: '[[w.chen-yi-nianpu]], 936. Names: Chen Yi.'
+    tags: [polity:prc, polity:nepal, name:chen-yi]
+  - id: cal.1962-10-04.china-leadership-10
+    when: Oct. 4
+    date: '1962-10-04'
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the China–Nepal Friendship Association's banquet on the boundary treaty's first anniversary; Nepal, a small country, has beaten off imperialist attacks three times; China will stand by it.
+    n: '[[w.chen-yi-nianpu]], 936. The words: 下午 (936). Names: Chen Yi.'
+    tags: [polity:prc, polity:nepal, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-10-04T04:00Z
+      - 1962-10-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-04.china-leadership-11
+    when: Oct. 4
+    date: '1962-10-04'
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the reception of 敦·策伯格米德, the Mongolian Ambassador, at the embassy on the tenth anniversary of the economic and cultural agreement.
+    n: '[[w.chen-yi-nianpu]], 936. The words: 晚上 (936). Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi]
+    time_range:
+      - 1962-10-04T11:00Z
+      - 1962-10-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-05.georgia-ga
     when: Oct. 5
     date: '1962-10-05'
@@ -1041,7 +1124,7 @@ entries:
     thread: vietnam-hanoi
     also: [china]
     c: 'Zhongnanhai, the Yinian Tang, afternoon. Mao Zedong receives a Vietnamese military delegation led by Võ Nguyên Giáp; Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Ye Jianying, Luo Ruiqing and Xiao Xiangrong present. Mao: imperialism reaches too far, "十个指头按十只跳蚤，结果是一个也抓不到" (ten fingers on ten fleas: in the end it catches none); in South Vietnam and Laos the Vietnamese have caught one of America''s "fingers"; five or ten more years of war, and when they call for a Geneva conference America may have to compromise, or else intervene further; an attack on the North must reckon with the South''s guerrillas, the peoples'' struggles in Laos and Thailand, China, Korea and the North''s own strength; "美国还不敢轻易下手" (America does not yet dare move lightly).'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 5, 1962. [[w.jian-zhou-enlai]], 494 (Mao and Zhou with Giap; Mao, in Chen''s translation: "in the past years, we have not thought much about the offensives by the imperialists. We now should give some good attention to it"; the Vietnamese have "caught one of the Americans'' five fingers"; "it is not an easy decision for the United States to intervene"; China "will pay very close attention to the situation in South Vietnam and Laos"; not the place, the hour, the others present or the fleas); [[w.zhou-enlai-nianpu-1949]], II, 501 (Oct. 5, 1962: Zhou Enlai with Mao and Võ Nguyên Giáp: the mutual support of China and Vietnam is all-round, not military only but political and economic); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 561 (Oct. 5, 1962; Liu, with Mao, Zhou Enlai, Zhu De and Deng Xiaoping, meets the Vietnamese military delegation headed by Võ Nguyên Giáp); [[w.deng-xiaoping-nianpu-1904]], III, 1728 (Oct. 5, 1962; afternoon; Deng with Mao, Zhou, Liu, Zhu De and others; Giáp, Minister of Defense). Made public: Check (the words; 2013 at the latest). To check: [[w.jian-maos-china-and-the]], 207; Mao''s conversation with Giap, Oct. 5, 1962, Chinese Central Archive (cited by [[w.jian-zhou-enlai]], 765 n.11). Names: Mao Zedong, Võ Nguyên Giáp, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 5, 1962. [[w.jian-zhou-enlai]], 494 (Mao and Zhou with Giap; Mao, in Chen''s translation: "in the past years, we have not thought much about the offensives by the imperialists. We now should give some good attention to it"; the Vietnamese have "caught one of the Americans'' five fingers"; "it is not an easy decision for the United States to intervene"; China "will pay very close attention to the situation in South Vietnam and Laos"; not the place, the hour, the others present or the fleas); [[w.zhou-enlai-nianpu-1949]], II, 501 (Oct. 5, 1962: Zhou Enlai with Mao and Võ Nguyên Giáp: the mutual support of China and Vietnam is all-round, not military only but political and economic); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 561 (Oct. 5, 1962; Liu, with Mao, Zhou Enlai, Zhu De and Deng Xiaoping, meets the Vietnamese military delegation headed by Võ Nguyên Giáp); [[w.deng-xiaoping-nianpu-1904]], III, 1728 (Oct. 5, 1962; afternoon; Deng with Mao, Zhou, Liu, Zhu De and others; Giáp, Minister of Defense). Made public: Check (the words; 2013 at the latest). To check: [[w.jian-maos-china-and-the]], 207; Mao''s conversation with Giap, Oct. 5, 1962, Chinese Central Archive (cited by [[w.jian-zhou-enlai]], 494 n.11a). Names: Mao Zedong, Võ Nguyên Giáp, Zhou Enlai.'
     src:
       c: 29c81015
       rows:
@@ -1071,7 +1154,7 @@ entries:
     thread: south-asia
     also: [china]
     c: 'Zhou Enlai, on the General Staff''s intelligence report quoting AP and AFP from New Delhi (Indian troops likely to attack within days), in the margin: "If the enemy begins taking action in the eastern sector of the border, we should not only give him a bitter strike there but also eliminate some of his strongholds in the western sector." Luo Ruiqing to "submit plans for the Party Center to consider."'
-    n: '[[w.jian-zhou-enlai]], 479 (Chen''s translation); [[w.zhou-enlai-nianpu-1949]], II, 500 (Oct. 5, 1962: the General Staff''s report from AP and AFP: India stepping up war preparations, an attack likely within days, "the first real fighting in three years of border conflict," India "resolved to drive the Chinese back"; Zhou''s comment: if the enemy moves in the east, besides a hard blow there some of his strongholds in the west can be wiped out at the same time; he orders Luo Ruiqing, Chief of the General Staff, to hasten the deployments; a note: by Oct. 20 India had set up 43 posts on Chinese ground in the western sector). Made public: Check (1997 at the latest). To check: [[w.zhou-enlai-zhuan-1949]], 699 (cited by [[w.jian-zhou-enlai]], 763 nn.68–69). Names: Zhou Enlai, Luo Ruiqing.'
+    n: '[[w.jian-zhou-enlai]], 479 (Chen''s translation); [[w.zhou-enlai-nianpu-1949]], II, 500 (Oct. 5, 1962: the General Staff''s report from AP and AFP: India stepping up war preparations, an attack likely within days, "the first real fighting in three years of border conflict," India "resolved to drive the Chinese back"; Zhou''s comment: if the enemy moves in the east, besides a hard blow there some of his strongholds in the west can be wiped out at the same time; he orders Luo Ruiqing, Chief of the General Staff, to hasten the deployments; a note: by Oct. 20 India had set up 43 posts on Chinese ground in the western sector). Made public: Check (1997 at the latest). To check: [[w.zhou-enlai-zhuan-1949]], 699 (cited by [[w.jian-zhou-enlai]], 479 n.69a). Names: Zhou Enlai, Luo Ruiqing.'
     tags: [name:zhou-enlai, name:luo-ruiqing, polity:prc, polity:india]
   - id: cal.1962-10-05.china-leadership
     when: Oct. 5
@@ -1088,12 +1171,18 @@ entries:
     thread: china
     also: [vietnam-hanoi]
     c: The Chinese Committee for Defending World Peace, the Asian–African Solidarity Committee and the delegation of the National Liberation Front of South Vietnam issue a joint statement at Peking. They strongly condemn the U.S. war of aggression in the south and firmly support the struggle of the peoples of Asia, Africa and Latin America for national independence, democracy, freedom and social progress.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 244 (Oct. 5, 1962). Check: the book gives the delegation''s visit as Sept. 23–Oct. 19; see [[cal.1962-09-28.china-leadership]].'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 244 (Oct. 5, 1962); [[w.chen-yi-nianpu]], 936–937 (Oct. 5, 1962, afternoon, the Great Hall of the People; Chen Yi at the signing and, in the evening, at the bodies'' banquet for the NLF delegation). Check: the book gives the delegation''s visit as Sept. 23–Oct. 19; see [[cal.1962-09-28.china-leadership]].'
     src:
       c: 2e188391
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 244: all'
+        - 'w.chen-yi-nianpu 936–937: ?'
     tags: [polity:prc, polity:nlf, polity:us]
+    time_range:
+      - 1962-10-05T04:00Z
+      - 1962-10-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-05.china-leadership-2
     when: Oct. 5
     date: '1962-10-05'
@@ -1255,11 +1344,12 @@ entries:
     thread: china
     also: [middle-east-yemen]
     c: Zhou Enlai cables Abdullah al-Sallal, Chairman of the Council of Ministers of the Yemen Arab Republic, congratulating him on the founding of the republic and on his taking the chair. Chen Yi cables its Foreign Minister, Muhsin Muhammad Ahmad al-Aini, that the Chinese government decides to recognize the Yemen Arab Republic.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 245–246 (Oct. 6, 1962). Names: Zhou Enlai, Chen Yi, Sallal. Check: the book gives the names as 阿卜杜拉·萨拉勒 and 穆罕辛·穆罕默德·艾哈迈德·埃尼; the Latin forms are back-converted.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 245–246 (Oct. 6, 1962); [[w.chen-yi-nianpu]], 937 (Oct. 6, 1962; Chen Yi''s cable to 穆赫辛·穆罕默德·艾哈迈德·埃尼: China recognizes the Yemen Arab Republic). Names: Zhou Enlai, Chen Yi, Sallal. Check: the book gives the names as 阿卜杜拉·萨拉勒 and 穆罕辛·穆罕默德·艾哈迈德·埃尼; the Latin forms are back-converted.'
     src:
       c: 38363d00
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 245–246: all'
+        - 'w.chen-yi-nianpu 937: ?'
     tags: [polity:prc, polity:yemen, name:zhou-enlai, name:chen-yi, name:sallal-abdullah-al]
   - id: cal.1962-10-06.china-leadership-3
     when: Oct. 6
@@ -1329,6 +1419,50 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1728: all'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:li-fuchun, vis:only:prc]
+  - id: cal.1962-10-06.china-leadership-8
+    when: Oct. 6
+    date: '1962-10-06'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Lothar Bolz, the East German Foreign Minister, on the GDR's thirteenth anniversary.
+    n: '[[w.chen-yi-nianpu]], 937. Names: Chen Yi, Bolz.'
+    tags: [polity:prc, polity:gdr, name:chen-yi, name:bolz-lothar]
+  - id: cal.1962-10-06.china-leadership-10
+    when: Oct. 6
+    date: '1962-10-06'
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De 朱德, Deng Xiaoping 邓小平, He Long 贺龙 and Li Weihan 李维汉, receives the representatives of the PLA and the armed police come for National Day.
+    n: '[[w.chen-yi-nianpu]], 937. The words: 下午 (937). Names: Chen Yi, Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, He Long.'
+    tags: [polity:prc, name:chen-yi, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:he-long, ok:fields-place]
+    time_range:
+      - 1962-10-06T04:00Z
+      - 1962-10-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-06.china-leadership-11
+    when: Oct. 6
+    date: '1962-10-06'
+    thread: china-leadership
+    also: [south-asia]
+    c: 'Chen Yi 陈毅 speaks at the reception of 凯谢尔·巴哈杜尔, the Nepalese Ambassador, on the boundary treaty''s first anniversary: a permanent peaceful boundary about to be born; India seeks by force to impose on China a seizure of territory British imperialism could not achieve, and the British Foreign Secretary''s charge of Chinese "aggression" shows them birds of a feather; if any power attacks Nepal, China will stand by it.'
+    n: '[[w.chen-yi-nianpu]], 937. The words: 下午 (937). Names: Chen Yi.'
+    tags: [polity:prc, polity:nepal, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-10-06T04:00Z
+      - 1962-10-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-06.china-leadership-12
+    when: Oct. 6
+    date: '1962-10-06'
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the reception of 黑根, the East German Ambassador, at the embassy for the GDR's thirteenth anniversary; backs the Soviet and German stand on a peace treaty and East Germany's defense against the United States and West Germany.
+    n: '[[w.chen-yi-nianpu]], 937. The words: 晚上 (937). Names: Chen Yi.'
+    tags: [polity:prc, polity:gdr, name:chen-yi]
+    time_range:
+      - 1962-10-06T11:00Z
+      - 1962-10-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-07.soviet-union
     when: Oct. 7
     date: '1962-10-07'
@@ -1419,6 +1553,18 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1728: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1962-10-07.china-leadership-8
+    when: Oct. 7
+    date: '1962-10-07'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Malcolm MacDonald 马尔科姆·麦克唐纳, formerly acting head of the British delegation at Geneva, and gives him a banquet.
+    n: '[[w.chen-yi-nianpu]], 937. The words: 晚上 (937). Names: Chen Yi, MacDonald.'
+    tags: [polity:prc, polity:uk, name:chen-yi, name:macdonald-malcolm-john, ok:fields-place]
+    time_range:
+      - 1962-10-07T11:00Z
+      - 1962-10-07T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-08.middle-east
     when: Oct. 8
     date: '1962-10-08'
@@ -1576,7 +1722,7 @@ entries:
     thread: south-asia
     also: [china, soviet-union]
     c: 'Zhou Enlai to the Soviet Ambassador, Chervonenko: if India''s forces attack, China will defend itself resolutely. India uses Soviet-made "米格式直升机" (MiG helicopters) to drop supplies in the western and eastern sectors; it tells on China''s soldiers at the front.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 8, 1962. [[w.jian-zhou-enlai]], 479 (India might launch a large-scale offensive; "If they indeed attack us, we will surely take action in self-defense"; not the helicopters); [[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 8, 1962: Zhou Enlai to Chervonenko: India may open a large war in the east; China holds only to defense, has never fired first, and will defend itself if attacked; Indian use of Soviet helicopters and transports to supply the front); [[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 8, 1962; 下午3时, 中南海西花厅); [[w.lengxi-shinian-lunzhan-1956-1966]], 497 (Wu: on Oct. 8 the Chinese government tells the Soviet ambassador that India has massed troops on the border and seems to mean war, and asks the Soviet government to use its influence and to persuade Nehru to turn back from the cliff''s edge; the Indian prime minister, in spite of seven strong protests, had not stopped the advance and had said in Parliament that China''s troops on the border must be cleared out); [[w.macfarquhar-origins-of-the-cultural]], III, 312 (a Chinese leader, said to be Zhou Enlai, tells the Soviet ambassador that China has information that India is about to launch a massive attack and that China would resolutely defend itself, and that Soviet-made helicopters and transport planes used by India for airdropping and transporting military supplies make a bad impression on the frontier guards). Made public: Check (2013 at the latest). To check: Zhou''s conversation with the Soviet Ambassador, Chervonenko, Oct. 8, 1962, 109-03804-01, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 763 n.73); Zhou Enlai (?), talk with the Soviet ambassador, Oct. 8, 1962, in [[w.xiao-chushi-sulian-banian-ambassador]], 121, 122 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 312 n.89); Zhou Enlai (?), talk with the Soviet ambassador, Oct. 8, 1962, in [[w.gittings-survey-of-the-sino]], 178 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 312 n.90a); Renmin Ribao, Nov. 2, 1963 (the account of the Oct. 8, 1962 talk with the Soviet ambassador), in [[w.gittings-survey-of-the-sino]], 178 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 312 n.90b). See [[cal.1962-10-08.south-asia]]. Names: Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 8, 1962. [[w.jian-zhou-enlai]], 479 (India might launch a large-scale offensive; "If they indeed attack us, we will surely take action in self-defense"; not the helicopters); [[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 8, 1962: Zhou Enlai to Chervonenko: India may open a large war in the east; China holds only to defense, has never fired first, and will defend itself if attacked; Indian use of Soviet helicopters and transports to supply the front); [[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 8, 1962; 下午3时, 中南海西花厅); [[w.lengxi-shinian-lunzhan-1956-1966]], 497 (Wu: on Oct. 8 the Chinese government tells the Soviet ambassador that India has massed troops on the border and seems to mean war, and asks the Soviet government to use its influence and to persuade Nehru to turn back from the cliff''s edge; the Indian prime minister, in spite of seven strong protests, had not stopped the advance and had said in Parliament that China''s troops on the border must be cleared out); [[w.macfarquhar-origins-of-the-cultural]], III, 312 (a Chinese leader, said to be Zhou Enlai, tells the Soviet ambassador that China has information that India is about to launch a massive attack and that China would resolutely defend itself, and that Soviet-made helicopters and transport planes used by India for airdropping and transporting military supplies make a bad impression on the frontier guards); [[w.westad-introduction]], 28 n.100 (the Soviet record details China''s positions and its request for Soviet aid at the start of the crisis). Made public: Check (2013 at the latest). To check: Zhou''s conversation with the Soviet Ambassador, Chervonenko, Oct. 8, 1962, 109-03804-01, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 479 n.73); Zhou Enlai (?), talk with the Soviet ambassador, Oct. 8, 1962, in [[w.xiao-chushi-sulian-banian-ambassador]], 121, 122 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 312 n.89); Zhou Enlai (?), talk with the Soviet ambassador, Oct. 8, 1962, in [[w.gittings-survey-of-the-sino]], 178 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 312 n.90a); Renmin Ribao, Nov. 2, 1963 (the account of the Oct. 8, 1962 talk with the Soviet ambassador), in [[w.gittings-survey-of-the-sino]], 178 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 312 n.90b); Record of conversation, Chervonenko–Zhou Enlai, Oct. 8, 1962, AVPRF, f. 0100, op. 55, pa. 480, d. 7, pp. 59–70 (cited by [[w.westad-introduction]], 28 n.100). See [[cal.1962-10-08.south-asia]]. Names: Zhou Enlai.'
     src:
       c: 4046fd4b
       rows:
@@ -1589,6 +1735,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 312 n.89: A, B, C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 312 n.90a: A, B, C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 312 n.90b: A, B, C'
+        - 'w.westad-introduction 28 n.100: ?'
+        - 'via x.1962-10-08.chervonenko-zhou-record-avprf: ?'
     tags: [name:zhou-enlai, polity:prc, polity:ussr, polity:india]
     time_zone: Asia/Shanghai
   - id: cal.1962-10-08.south-asia-4
@@ -1597,7 +1745,7 @@ entries:
     thread: south-asia
     also: [china]
     c: 'After the Standing Committee, Luo Ruiqing calls a Central Military Commission work meeting: conveys Mao Zedong''s instructions and orders final mobilization for the war.'
-    n: '[[w.jian-zhou-enlai]], 479 ("immediately"). Made public: Check (2014 at the latest). To check: [[w.zishen-yang-chengwu-nianpu-chronological]], 368 (cited by [[w.jian-zhou-enlai]], 763 n.72). See [[cal.1962-10-08.south-asia]]. Names: Luo Ruiqing, Mao Zedong.'
+    n: '[[w.jian-zhou-enlai]], 479 ("immediately"). Made public: Check (2014 at the latest). To check: [[w.zishen-yang-chengwu-nianpu-chronological]], 368 (cited by [[w.jian-zhou-enlai]], 479 n.72). See [[cal.1962-10-08.south-asia]]. Names: Luo Ruiqing, Mao Zedong.'
     tags: [name:luo-ruiqing, name:mao-zedong, polity:prc, polity:india]
   - id: cal.1962-10-08.china-leadership
     when: Oct. 8
@@ -1620,11 +1768,12 @@ entries:
     thread: china
     also: [africa]
     c: Zhou Enlai and Chen Yi each cable Apolo Milton Obote, Prime Minister of Uganda, congratulating it on its independence.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 246 (Oct. 8, 1962). Names: Zhou Enlai, Chen Yi, Obote. Check: the book gives the name as 阿波洛·密尔顿·奥博特.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 246 (Oct. 8, 1962); [[w.chen-yi-nianpu]], 937 (Oct. 8, 1962; Chen Yi''s cable to Obote 奥博特: China recognizes Uganda). Names: Zhou Enlai, Chen Yi, Obote. Check: the book gives the name as 阿波洛·密尔顿·奥博特.'
     src:
       c: 8499fce2
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 246: all'
+        - 'w.chen-yi-nianpu 937: ?'
     tags: [polity:prc, polity:uganda, name:zhou-enlai, name:chen-yi, name:obote-a-milton]
   - id: cal.1962-10-08.china-leadership-2
     when: Oct. 8–Nov. 3
@@ -1670,6 +1819,13 @@ entries:
       - 1962-10-08T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-10-08.china-leadership-9
+    when: Oct. 8
+    date: '1962-10-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Prince Norodom Kantol 诺罗敦·康托尔, congratulating him on becoming Cambodia's Foreign Minister.
+    n: '[[w.chen-yi-nianpu]], 938. Names: Chen Yi, Norodom Kantol.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:norodom-kantol]
   - id: cal.1962-10-09.missile-crisis
     when: Oct. 9
     date: '1962-10-09'
@@ -1785,6 +1941,30 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 215: all'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1962-10-09T11:00Z
+      - 1962-10-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-09.china-leadership-7
+    when: Oct. 9
+    date: '1962-10-09'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 阿里·坦布维, head of the Tanganyikan cultural friendship delegation and administrative secretary of TANU.
+    n: '[[w.chen-yi-nianpu]], 938. The words: 下午 (938). Names: Chen Yi.'
+    tags: [polity:prc, polity:tanzania, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-10-09T04:00Z
+      - 1962-10-09T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-09.china-leadership-8
+    when: Oct. 9
+    date: '1962-10-09'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the banquet of 贾维, the British chargé d'affaires, and his wife for Malcolm MacDonald's visit.
+    n: '[[w.chen-yi-nianpu]], 938. The words: 晚上 (938). Names: Chen Yi, MacDonald.'
+    tags: [polity:prc, polity:uk, name:chen-yi, name:macdonald-malcolm-john, ok:fields-place]
     time_range:
       - 1962-10-09T11:00Z
       - 1962-10-09T14:00Z
@@ -2111,7 +2291,7 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai in Korea, Oct. 11–13: talks with Kim Il Sung on China''s domestic situation, the Sino-Indian and Sino-Mongolian border questions, and Sino-Korean trade. He flies back to Peking Oct. 13.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 11–13, 1962); [[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 11, 1962; 晚6时, 平壤朝鲜内阁办公大楼, with Chen Yi); [[w.zhou-enlai-waijiao-huodong]], 337–38 (Oct. 12, 1962; 上午10时, 平壤牡丹峰宾馆); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 246 (Oct. 11–12, 1962; Zhou and Chen Yi hold talks at Pyongyang with Premier Kim Il Sung; Zhou briefs Kim on the Sino-Indian boundary and other matters); [[w.yang-shangkun-riji]], II, 216 (Oct. 11, 1962; Zhou Enlai and Chen Yi fly to Pyongyang Oct. 11, not publicly, to sign the boundary agreement; back Oct. 13; note 1: the two). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Kim Il Sung.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 502 (Oct. 11–13, 1962); [[w.zhou-enlai-waijiao-huodong]], 337 (Oct. 11, 1962; 晚6时, 平壤朝鲜内阁办公大楼, with Chen Yi); [[w.zhou-enlai-waijiao-huodong]], 337–38 (Oct. 12, 1962; 上午10时, 平壤牡丹峰宾馆); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 246 (Oct. 11–12, 1962; Zhou and Chen Yi hold talks at Pyongyang with Premier Kim Il Sung; Zhou briefs Kim on the Sino-Indian boundary and other matters); [[w.yang-shangkun-riji]], II, 216 (Oct. 11, 1962; Zhou Enlai and Chen Yi fly to Pyongyang Oct. 11, not publicly, to sign the boundary agreement; back Oct. 13; note 1: the two); [[w.chen-yi-nianpu]], 938 (Oct. 11, 1962, 6 p.m.; Chen Yi with Zhou calls on Premier Kim Il Sung 金日成 at the Cabinet building, Pyongyang 平壤). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Kim Il Sung.'
     src:
       c: cd2adcfa
       rows:
@@ -2120,6 +2300,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 337–38: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 246: A'
         - 'w.yang-shangkun-riji II, 216: A'
+        - 'w.chen-yi-nianpu 938: ?'
     tags: [polity:prc, polity:dprk, polity:india, polity:mongolia, name:zhou-enlai, name:kim-il-sung, vis:only:prc+dprk]
     time_zone: Asia/Pyongyang
   - id: cal.1962-10-11.china-2
@@ -2309,12 +2490,13 @@ entries:
     thread: china-leadership
     also: [china, korea]
     c: Pyongyang. Zhou Enlai attends the signing of the China–Korea boundary treaty.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 338 (Oct. 12, 1962; 晚上). See [[cal.1962-10-11.china-leadership]]. Names: Zhou Enlai, Chen Yi, Kim Il Sung.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 338 (Oct. 12, 1962; 晚上); [[w.chen-yi-nianpu]], 938 (Oct. 12, 1962, evening; the China–Korea boundary treaty 中朝边界条约 signed at Pyongyang). Made public: 1993. See [[cal.1962-10-11.china-leadership]]. Names: Zhou Enlai, Chen Yi, Kim Il Sung.'
     src:
       c: e79179df
       rows:
         - 'w.zhou-enlai-waijiao-huodong 338: all'
-    tags: [polity:prc, polity:dprk, name:zhou-enlai, name:chen-yi, name:kim-il-sung]
+        - 'w.chen-yi-nianpu 938: ?'
+    tags: [polity:prc, polity:dprk, name:zhou-enlai, name:chen-yi, name:kim-il-sung, vis:only:prc+dprk]
     time_range:
       - 1962-10-12T10:00Z
       - 1962-10-12T13:00Z
@@ -2338,13 +2520,15 @@ entries:
     thread: south-asia
     also: [china]
     c: 'At the airport, leaving for Ceylon, Nehru to the press on the orders in the eastern sector: "Our instructions are to free our territory"; when, he does not say. No talks while the Chinese hold the southern slope of Thag La.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 307–08. To check: [[w.maxwell-indias-china-war]], 369–71 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 308 n.61); [[w.bianjibu-dangdai-zhongguo-junduide-junshi]], 617 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 308 n.62). See [[cal.1962-10-11.south-asia-2]]. Names: Jawaharlal Nehru. Check: the book notes that Chinese statements usually translate only "free" (qingchu diao, get rid of), as Xinhua did three days later (III, 308 n.62).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 307–08; [[w.jian-zhou-enlai]], 480 (Oct. 12, Nehru to the press: "Our instructions are to free our territory"). To check: [[w.maxwell-indias-china-war]], 369–71 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 308 n.61); [[w.bianjibu-dangdai-zhongguo-junduide-junshi]], 617 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 308 n.62); *The Statesman* (New Delhi), October 13, 1962 (cited by [[w.jian-zhou-enlai]], 480 n.75b). See [[cal.1962-10-11.south-asia-2]]. Names: Jawaharlal Nehru. Check: the book notes that Chinese statements usually translate only "free" (qingchu diao, get rid of), as Xinhua did three days later (III, 308 n.62).'
     src:
       c: d3c9859c
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 307–08: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 308 n.61: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 308 n.62: all'
+        - 'w.jian-zhou-enlai 480: ?'
+        - 'via x.1962-10-13.statesman: ?'
     tags: [polity:india, polity:prc, name:nehru-jawaharlal]
   - id: cal.1962-10-12.china-leadership-2
     when: Oct. 12
@@ -2431,7 +2615,7 @@ entries:
     thread: soviet-union
     also: [china, south-asia]
     c: 'Khrushchev to Liu Xiao, the Chinese Ambassador: Moscow stands with Peking in the border dispute with India, the Presidium''s unanimous choice after Zhou Enlai''s talk with Chervonenko; "We will take due diplomatic action."'
-    n: '[[w.jian-zhou-enlai]], 479–80 (it surprises Mao and Zhou); [[w.lengxi-shinian-lunzhan-1956-1966]], 497–498 (Wu: Oct. 13, Khrushchev himself calls in the Chinese ambassador, Liu Xiao, and says the USSR supports China''s stand for a peaceful settlement and would, in China''s place, protest as strongly to India; Wu ties it to the American–Soviet tension over Cuba, when Khrushchev needed China''s support); [[w.macfarquhar-origins-of-the-cultural]], III, 312–13 (in the week after the Oct. 8 conversation, Khrushchev gives Ambassador Liu Xiao, about to return home after eight years, a two-hour tour d''horizon at his parting call and on Oct. 14 summons the whole Presidium to a farewell dinner; the Soviet Union is on China''s side on the border, the Presidium''s unanimous position, and would proclaim it the next day if the Chinese wished; MiG-21 sales to India should be postponed until the dispute is settled; ''If the Soviet Union were placed in China''s position it would select the same measures''). Made public: Check (1986 at the latest). Check: the book places Khrushchev''s dinner for Liu Xiao Oct. 14; this entry is dated Oct. 13. To check: Khrushchev''s conversation with Liu Xiao, Oct. 13, 1962, 109-03809-06, and his talk at the farewell banquet for Liu Xiao, Oct. 14, 1962, 109-03809-04, Chinese Foreign Ministry Archive; [[w.xiao-chushi-sulian-banian-ambassador]], 121 (cited by [[w.jian-zhou-enlai]], 763 n.74); [[w.floyd-mao-against-khrushchev]], 158–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 313 n.93); [[w.gittings-survey-of-the-sino]], 178 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 313 n.94b). See [[cal.1962-10-08.south-asia-3]]; [[cal.1962-10-11.south-asia]]. Names: Khrushchev, Zhou Enlai, Chervonenko. Check: the day and the setting: Chen''s text has only "a few days later" than Oct. 8; his n.74 (763) dates the conversation Oct. 13 and Khrushchev''s talk at the farewell banquet Oct. 14; his n.98 (764) puts the conversation at Liu''s farewell banquet, Oct. 13.'
+    n: '[[w.jian-zhou-enlai]], 479–80 (it surprises Mao and Zhou); [[w.lengxi-shinian-lunzhan-1956-1966]], 497–498 (Wu: Oct. 13, Khrushchev himself calls in the Chinese ambassador, Liu Xiao, and says the USSR supports China''s stand for a peaceful settlement and would, in China''s place, protest as strongly to India; Wu ties it to the American–Soviet tension over Cuba, when Khrushchev needed China''s support); [[w.macfarquhar-origins-of-the-cultural]], III, 312–13 (in the week after the Oct. 8 conversation, Khrushchev gives Ambassador Liu Xiao, about to return home after eight years, a two-hour tour d''horizon at his parting call and on Oct. 14 summons the whole Presidium to a farewell dinner; the Soviet Union is on China''s side on the border, the Presidium''s unanimous position, and would proclaim it the next day if the Chinese wished; MiG-21 sales to India should be postponed until the dispute is settled; ''If the Soviet Union were placed in China''s position it would select the same measures''). Made public: Check (1986 at the latest). Check: the book places Khrushchev''s dinner for Liu Xiao Oct. 14; this entry is dated Oct. 13. To check: Khrushchev''s conversation with Liu Xiao, Oct. 13, 1962, 109-03809-06, and his talk at the farewell banquet for Liu Xiao, Oct. 14, 1962, 109-03809-04, Chinese Foreign Ministry Archive; [[w.xiao-chushi-sulian-banian-ambassador]], 121 (cited by [[w.jian-zhou-enlai]], 480 n.74c); [[w.floyd-mao-against-khrushchev]], 158–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 313 n.93); [[w.gittings-survey-of-the-sino]], 178 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 313 n.94b). See [[cal.1962-10-08.south-asia-3]]; [[cal.1962-10-11.south-asia]]. Names: Khrushchev, Zhou Enlai, Chervonenko. Check: the day and the setting: Chen''s text has only "a few days later" than Oct. 8; his n.74 (763) dates the conversation Oct. 13 and Khrushchev''s talk at the farewell banquet Oct. 14; his n.98 (764) puts the conversation at Liu''s farewell banquet, Oct. 13.'
     src:
       c: 67655c54
       rows:
@@ -2598,11 +2782,12 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking. Zhou Enlai watches the Vietnamese Youth Song and Dance Ensemble and receives its head and chief performers.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 338 (Oct. 14, 1962; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 338 (Oct. 14, 1962; 晚上); [[w.chen-yi-nianpu]], 938 (Oct. 14, 1962, evening; Chen Yi with Zhou and Luo Ruiqing at the last performance, and with Zhou receives its head 阮文巷, deputy head 范洲, 阮光信 and the leading players). Names: Zhou Enlai.'
     src:
       c: 45c287b5
       rows:
         - 'w.zhou-enlai-waijiao-huodong 338: all'
+        - 'w.chen-yi-nianpu 938: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai]
     time_range:
       - 1962-10-14T11:00Z
@@ -2738,7 +2923,7 @@ entries:
     thread: china
     also: [south-asia]
     c: '*People''s Daily*, Xinhua''s report: Nehru''s words to the press of Oct. 12, "Our instructions are to free our territory," rendered "Our orders are to cleanse all of them from our territory."'
-    n: '[[w.jian-zhou-enlai]], 480 (Zhou and the other leaders take it for Nehru''s intent to open a big offensive, and a reason to act). To check: [[w.maxwell-indias-china-war]], 369–71 (the 1972 ed.); *Statesman*, Oct. 13, 1962 (Nehru''s words; cited by [[w.jian-zhou-enlai]], 763 n.75); *Renmin ribao*, Oct. 15, 1962 (cited by [[w.jian-zhou-enlai]], 763 n.76). Names: Nehru. Check: the day (Chen''s text dates no report; his note cites the issue of Oct. 15).'
+    n: '[[w.jian-zhou-enlai]], 480 (Zhou and the other leaders take it for Nehru''s intent to open a big offensive, and a reason to act). To check: [[w.maxwell-indias-china-war]], 369–71 (the 1972 ed.); *Statesman*, Oct. 13, 1962 (Nehru''s words; cited by [[w.jian-zhou-enlai]], 480 n.75b); *Renmin ribao*, Oct. 15, 1962 (cited by [[w.jian-zhou-enlai]], 480 n.76). Names: Nehru. Check: the day (Chen''s text dates no report; his note cites the issue of Oct. 15).'
     tags: [name:nehru-jawaharlal, polity:prc, polity:india]
   - id: cal.1962-10-15.defense
     when: Oct. 15
@@ -3166,7 +3351,7 @@ entries:
     thread: south-asia
     also: [china]
     c: 1:30 p.m. Mao Zedong calls Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Peng Zhen, Chen Yi, He Long, Nie Rongzhen, Luo Ruiqing and others together on a counterattack in self-defense against India's attacks.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 17, 1962 ("同日"). [[w.jian-zhou-enlai]], 480 (1:30 p.m., "a final round of discussion"; Luo Ruiqing: "now it seems that there is no way out for us unless we wage a war of self-defense. We should act immediately"; Mao: "Can we win the war?" Luo: "Yes, we can." Mao: "You must wait for the order from the supreme command to fire the first shot. After firing that shot, how to fight the war will be entirely your responsibility"; both sectors, east and west, decided on; not all those present); [[w.mao-zedong-zhuan]], V, ch. 71 (Mao calls the meeting and it decides on the counterattack; not the hour or those present). [[w.deng-xiaoping-nianpu-1904]], III, 1730 (Oct. 17, 1962; 1:30 p.m. (下午一时三十分); Deng at Mao''s meeting on the counterattack in self-defense). Made public: Check (2013 at the latest). To check: [[w.zedong-mao-zedong-nianpu]], V, 165; [[w.yingfu-zai-zuigao-tongshuaibu-dang]], 209–10 (Lei dates the meeting Oct. 18; Chen calls it wrong) (cited by [[w.jian-zhou-enlai]], 763 n.77). See [[cal.1962-10-08.south-asia]]. Names: Mao Zedong, Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 17, 1962 ("同日"). [[w.jian-zhou-enlai]], 480 (1:30 p.m., "a final round of discussion"; Luo Ruiqing: "now it seems that there is no way out for us unless we wage a war of self-defense. We should act immediately"; Mao: "Can we win the war?" Luo: "Yes, we can." Mao: "You must wait for the order from the supreme command to fire the first shot. After firing that shot, how to fight the war will be entirely your responsibility"; both sectors, east and west, decided on; not all those present); [[w.mao-zedong-zhuan]], V, ch. 71 (Mao calls the meeting and it decides on the counterattack; not the hour or those present). [[w.deng-xiaoping-nianpu-1904]], III, 1730 (Oct. 17, 1962; 1:30 p.m. (下午一时三十分); Deng at Mao''s meeting on the counterattack in self-defense). Made public: Check (2013 at the latest). To check: [[w.zedong-mao-zedong-nianpu]], V, 165; [[w.yingfu-zai-zuigao-tongshuaibu-dang]], 209–10 (Lei dates the meeting Oct. 18; Chen calls it wrong) (cited by [[w.jian-zhou-enlai]], 480 n.77c). See [[cal.1962-10-08.south-asia]]. Names: Mao Zedong, Zhou Enlai.'
     src:
       c: '91250665'
       rows:
@@ -3257,6 +3442,19 @@ entries:
     c: 'The Secretariat''s circular no. 95-TT/TW on the 45th anniversary of the October Revolution: to raise confidence in the growth of the Soviet Union and the socialist camp and in the victory of Marxism–Leninism, to teach hardship and self-reliance, and proletarian internationalism. Propaganda on 45 years of Soviet achievement and on the friendship, aid and cooperation of the Vietnamese and Soviet peoples. Eight slogans.'
     n: '*Thông tri của Ban Bí thư số 95-TT/TW, ngày 17-10-1962, Về việc tổ chức kỷ niệm lần thứ 45 cuộc Cách mạng xã hội chủ nghĩa Tháng Mười*, signed for the Secretariat by Phạm Chung, deputy chief of the office. [[w.van-kien-dang-toan]], XXIII, 754–56. Made public: 2002.'
     tags: [polity:drv, polity:ussr, vis:only:drv]
+  - id: cal.1962-10-17.china-leadership-4
+    when: Oct. 17
+    date: '1962-10-17'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 gives a farewell banquet at the Peking Hotel 北京饭店 for the Korea–China Friendship Association delegation led by 崔昌锡; speaks.
+    n: '[[w.chen-yi-nianpu]], 938. The words: 中午 (938). Names: Chen Yi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi]
+    time_range:
+      - 1962-10-17T04:00Z
+      - 1962-10-17T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-18.missile-crisis
     when: Oct. 18
     date: '1962-10-18'
@@ -3498,7 +3696,7 @@ entries:
     thread: south-asia
     also: [china]
     c: Afternoon. The Central Military Commission orders the troops to begin the "border campaign of self-defense."
-    n: '[[w.jian-zhou-enlai]], 480 ("The next afternoon," after Mao Zedong signed the order of Oct. 17). Made public: Check (1994 at the latest). To check: [[w.zedong-mao-zedong-nianpu]], V, 165; [[w.zhongyin-bianjie-ziwei-fanji]], 179–80 (cited by [[w.jian-zhou-enlai]], 763 n.78). See [[cal.1962-10-17.south-asia-2]]. Check: whether this is the order that put the attack back a day, to Oct. 20.'
+    n: '[[w.jian-zhou-enlai]], 480 ("The next afternoon," after Mao Zedong signed the order of Oct. 17). Made public: Check (1994 at the latest). To check: [[w.zedong-mao-zedong-nianpu]], V, 165; [[w.zhongyin-bianjie-ziwei-fanji]], 179–80 (cited by [[w.jian-zhou-enlai]], 480 n.78b). See [[cal.1962-10-17.south-asia-2]]. Check: whether this is the order that put the attack back a day, to Oct. 20.'
     tags: [polity:prc, polity:india]
   - id: cal.1962-10-18.china-leadership
     when: Oct. 18
@@ -3800,6 +3998,13 @@ entries:
         - 'w.yang-jisheng-mubei II, 1056: all'
         - 'via w.yang-jisheng-mubei II, 1056 n.t1: all'
     tags: [polity:prc, vis:only:prc, name:xie-fuzhi]
+  - id: cal.1962-10-19.china-leadership-5
+    when: Oct. 19
+    date: '1962-10-19'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Obote, Prime Minister of Uganda, congratulating him on the establishment of diplomatic relations.
+    n: '[[w.chen-yi-nianpu]], 938. See [[cal.1962-10-08.china-2]]. Names: Chen Yi, Obote.'
+    tags: [polity:prc, polity:uganda, name:chen-yi, name:obote-a-milton]
   - id: cal.1962-10-20.missile-crisis
     when: Oct. 20
     date: '1962-10-20'
@@ -3832,7 +4037,7 @@ entries:
     thread: south-asia
     also: [china]
     c: China attacks in Ladakh and the North-East Frontier Agency.
-    n: '[FRUS 1961–63, XIX, doc. 179](https://history.state.gov/historicaldocuments/frus1961-63v19/d179). [[w.sorensen-kennedy]], 662; [[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1962 (Chinese forces open their "自卫反击作战" (counterattack in self-defense) on the border at dawn; not the places). [[w.jian-zhou-enlai]], 480–81 (early on Oct. 20; within three days the Indian strongholds of the "forward policy" in the western sector taken; in the east the McMahon line crossed, Tawang occupied; by Oct. 29 near the line of actual control of November 1959; not Ladakh or the NEFA by name); [[w.mao-zedong-zhuan]], V, ch. 71 (at dawn, in the eastern and western sectors; Oct. 20–29, in the east all the ground south of the Kejielang river, north of the Tawang river and east of Bhutan taken back; in the west part of the Indian troops in the Galwan valley and Aksai Chin cleared; not Ladakh or the NEFA by name). [[w.macfarquhar-origins-of-the-cultural]], III, 308–09 (shortly after dawn the PLA attacks in overwhelming strength, in the west and across the McMahon Line in the east, and within four days has captured virtually all the posts the Indian army had established; the Chinese claim they responded to massive Indian attacks in both sectors); [[w.yang-shangkun-riji]], II, 218 (Oct. 20, 1962; the counterattack, a victory, the fighting goes on; Yang reads the battle reports); [[w.deng-xiaoping-nianpu-1904]], III, 1730 (Oct. 20, 1962; the chronology''s account: Indian troops attack in force in the eastern and western sectors; the Chinese frontier forces counterattack in self-defense). Check: the book gives dawn in Aksai Chin as 4:30 a.m. Indian time, 7 a.m. Beijing time, which prevails even in Tibet; the attack in the east began at 5 a.m. Indian time, 7:30 Beijing time (III, 309 n.69). To check: [[w.zhongyin-bianjie-ziwei-fanji]], 195–221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69a); [[w.xianjin-re-xue-bing-shan]], 99–102 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69b); [[w.li-zhongguo-9-ci-da]], 105 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69c); [[w.maxwell-indias-china-war]], 388 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69e). See [[cal.1961-12-18.india-and-china]].'
+    n: '[FRUS 1961–63, XIX, doc. 179](https://history.state.gov/historicaldocuments/frus1961-63v19/d179). [[w.sorensen-kennedy]], 662; [[w.zedong-mao-zedong-nianpu]], V, Oct. 20, 1962 (Chinese forces open their "自卫反击作战" (counterattack in self-defense) on the border at dawn; not the places). [[w.jian-zhou-enlai]], 480–81 (early on Oct. 20; within three days the Indian strongholds of the "forward policy" in the western sector taken; in the east the McMahon line crossed, Tawang occupied; by Oct. 29 near the line of actual control of November 1959; not Ladakh or the NEFA by name); [[w.mao-zedong-zhuan]], V, ch. 71 (at dawn, in the eastern and western sectors; Oct. 20–29, in the east all the ground south of the Kejielang river, north of the Tawang river and east of Bhutan taken back; in the west part of the Indian troops in the Galwan valley and Aksai Chin cleared; not Ladakh or the NEFA by name). [[w.macfarquhar-origins-of-the-cultural]], III, 308–09 (shortly after dawn the PLA attacks in overwhelming strength, in the west and across the McMahon Line in the east, and within four days has captured virtually all the posts the Indian army had established; the Chinese claim they responded to massive Indian attacks in both sectors); [[w.yang-shangkun-riji]], II, 218 (Oct. 20, 1962; the counterattack, a victory, the fighting goes on; Yang reads the battle reports); [[w.deng-xiaoping-nianpu-1904]], III, 1730 (Oct. 20, 1962; the chronology''s account: Indian troops attack in force in the eastern and western sectors; the Chinese frontier forces counterattack in self-defense); [[w.westad-introduction]], 28 (Mao orders the army to strike first; the first of two waves, Oct. 20, routs the Indian units and advances into India''s Northeast); [[w.pleshakov-nikita-khrushchev-and-sino]], 240 (the October offensive in Ladakh, the ground of a Soviet–Indian entente against China). Check: the book gives dawn in Aksai Chin as 4:30 a.m. Indian time, 7 a.m. Beijing time, which prevails even in Tibet; the attack in the east began at 5 a.m. Indian time, 7:30 Beijing time (III, 309 n.69). To check: [[w.zhongyin-bianjie-ziwei-fanji]], 195–221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69a); [[w.xianjin-re-xue-bing-shan]], 99–102 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69b); [[w.li-zhongguo-9-ci-da]], 105 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69c); [[w.maxwell-indias-china-war]], 388 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69e). See [[cal.1961-12-18.india-and-china]].'
     src:
       c: 569fa3c8
       rows:
@@ -3850,6 +4055,8 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 309 n.69f: A'
         - 'w.yang-shangkun-riji II, 218: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1730: ?'
+        - 'w.westad-introduction 28: ?'
+        - 'w.pleshakov-nikita-khrushchev-and-sino 240: ?'
     short: the Chinese attack
     variants:
       - unit: A
@@ -4162,11 +4369,13 @@ entries:
     thread: china
     also: [soviet-union]
     c: Zhang Hanfu, Vice-Minister of Foreign Affairs, hands the Soviet ambassador, Chervonenko, China's reply to the Soviet aide-memoire of Sept. 26 on the nonproliferation of nuclear weapons. While the U.S. nuclear threat hangs over the Chinese people and the world's peoples, China will never accept an international obligation not to make nuclear weapons. If the Soviet Union takes on in China's place the obligation not to make them, China reserves the right to make a corresponding statement.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 247 (Oct. 20, 1962). Made public: 2001. Names: Chervonenko. Check: the Soviet aide-memoire of Sept. 26 is not in the calendar. See [[cal.1962-09-03.china]].'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 247 (Oct. 20, 1962); [[w.westad-sino-soviet-alliance-and]], 180 (Oct. 20, the Chinese note: the socialist world must seek nuclear superiority, not disarmament; "The Soviet comrades have lost their class position"; by refusing China nuclear weapons Moscow betrayed proletarian internationalism). Made public: 1998 ([[w.westad-sino-soviet-alliance-and]], 180). To check: Chinese government note to the Soviet government, Oct. 20, 1962, AVPRF, f. 0100, op. 55, pa. 480, d. 2, pp. 90–102 (cited by [[w.westad-sino-soviet-alliance-and]], 180 n.42). Names: Chervonenko. Check: the Soviet aide-memoire of Sept. 26 is not in the calendar. See [[cal.1962-09-03.china]].'
     src:
       c: d19ba0f4
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 247: all'
+        - 'w.westad-sino-soviet-alliance-and 180: ?'
+        - 'via x.1962-10-20.chinese-government-note-to-soviet-government-avprf: ?'
     tags: [polity:prc, polity:ussr, polity:us, vis:only:prc+ussr, name:chervonenko-stepan-v]
   - id: cal.1962-10-20.china-4
     when: Oct. 20
@@ -5285,7 +5494,7 @@ entries:
     thread: soviet-union
     also: [china, south-asia]
     c: 'The Soviet government''s memorandum to the Chinese government: Moscow endorses China''s position in the war with India; on the McMahon line it "supports China''s stand, that is, it is not an established borderline, but a legacy of the tragic historical past."'
-    n: '[[w.jian-zhou-enlai]], 485–86. Made public: Check. To check: Memorandum of the Soviet government to the Chinese government, Oct. 22, 1962, 109-03801-02, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 764 n.97). See [[cal.1962-10-18.south-asia]].'
+    n: '[[w.jian-zhou-enlai]], 485–86. Made public: Check. To check: Memorandum of the Soviet government to the Chinese government, Oct. 22, 1962, 109-03801-02, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 486 n.97). See [[cal.1962-10-18.south-asia]].'
     tags: [polity:ussr, polity:prc, polity:india]
   - id: cal.1962-10-22.missile-crisis-33
     when: Oct. 22
@@ -5396,6 +5605,19 @@ entries:
     c: Zhou Enlai with Li Xiannian, Yao Yilin and Ye Jizhuang on foreign trade.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 504 (Oct. 22, 1962). Made public: 1997. Names: Zhou Enlai, Li Xiannian, Yao Yilin, Ye Jizhuang.'
     tags: [polity:prc, name:zhou-enlai, name:li-xiannian, vis:only:prc]
+  - id: cal.1962-10-22.china-leadership-3
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the delegation of the Yamaguchi prefecture council to abolish the Japan–U.S. "security treaty" and defend peace, led by 枝村要作.
+    n: '[[w.chen-yi-nianpu]], 938. The words: 下午 (938). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-10-22T04:00Z
+      - 1962-10-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-23.missile-crisis
     when: Oct. 23
     date: '1962-10-23'
@@ -5980,6 +6202,37 @@ entries:
       - 1962-10-23T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1962-10-23.china-leadership-3
+    when: Oct. 23
+    date: '1962-10-23'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 约米尔·阿尔曼苏尔, professor of letters at the University of São Paulo, and the Uruguayan writer and critic 安赫尔·拉马.
+    n: '[[w.chen-yi-nianpu]], 938. The words: 下午 (938). Names: Chen Yi.'
+    tags: [polity:prc, polity:brazil, polity:uruguay, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-10-23T04:00Z
+      - 1962-10-23T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-23.china-leadership-4
+    when: Oct. 23
+    date: '1962-10-23'
+    thread: china-leadership
+    c: Chen Yi 陈毅 gives the prizes at the close of the 1962 children's Go tournament of six cities, Peking 北京, Shanghai 上海, Canton 广州, Hefei 合肥, Chengdu 成都 and Hangzhou 杭州, and speaks; he has watched the ten days' play.
+    n: '[[w.chen-yi-nianpu]], 938. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+  - id: cal.1962-10-23.china-leadership-5
+    when: Oct. 23
+    date: '1962-10-23'
+    thread: china-leadership
+    c: Chen Yi 陈毅 gives a banquet for the Polish–Chinese Friendship Association delegation led by 扬·克莱哈.
+    n: '[[w.chen-yi-nianpu]], 938–939. See [[cal.1962-10-03.china-leadership-7]]. The words: 晚上 (938–939). Names: Chen Yi.'
+    tags: [polity:prc, polity:poland, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-10-23T11:00Z
+      - 1962-10-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-24.missile-crisis
     when: Oct. 24
     date: '1962-10-24'
@@ -6250,7 +6503,7 @@ entries:
     thread: south-asia
     also: [china]
     c: 'The government''s statement, three proposals: the boundary to be settled by talks; meanwhile each side to respect the line of actual control along the whole border and pull its forces 20 kilometers back from it. India agreeing, China to withdraw its frontier forces in the east to north of that line; in the middle and west neither side to cross it; officials to negotiate the disengagement. The two Prime Ministers to meet again: Nehru welcome in Peking, or China''s Premier to go to Delhi.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 24, 1962. [[w.jian-zhou-enlai]], 481 (drafted under Zhou''s guidance; Chen''s three: a peaceful settlement, an end to the conflict and a withdrawal, renewed talks; "the Line of Actual Control existing between them on November 7, 1959," each side twenty kilometers back; not the east, middle and west, or the Prime Ministers'' meeting); [[w.mao-zedong-zhuan]], V, ch. 71, and n.2 (the boundary to be settled by talks, not "three proposals"; the line of actual control of Nov. 7, 1959, along the whole border; the two Prime Ministers to meet again, not where). [[w.zhou-enlai-nianpu-1949]], II, 504 (Oct. 24, 1962: the statement and its three proposals; India rejected them the day it received them); [[w.lengxi-shinian-lunzhan-1956-1966]], 498–499 (Wu: the government''s statement of Oct. 24 proposes an end to the conflict, new talks and a peaceful settlement; both armies to withdraw 20 kilometers and break contact, the Chinese in the east to north of the line of actual control, in the middle and western sectors neither side to cross the customary line; India refuses); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 249 (Oct. 24, 1962; the government''s statement: three proposals, the boundary to be settled by negotiation; both sides to respect the actual line of control along the whole boundary and pull their forces back 20 kilometers each; if India agrees, China willing to withdraw its frontier forces in the east to north of the line, the two sides in the middle and western sectors pledging not to cross it; the two prime ministers to meet again). To check: the statement''s published text; *Renmin ribao*, Oct. 25, 1962 (cited by [[w.jian-zhou-enlai]], 763 n.81). See [[cal.1962-10-23.south-asia-2]]. Names: Nehru.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 24, 1962. [[w.jian-zhou-enlai]], 481 (drafted under Zhou''s guidance; Chen''s three: a peaceful settlement, an end to the conflict and a withdrawal, renewed talks; "the Line of Actual Control existing between them on November 7, 1959," each side twenty kilometers back; not the east, middle and west, or the Prime Ministers'' meeting); [[w.mao-zedong-zhuan]], V, ch. 71, and n.2 (the boundary to be settled by talks, not "three proposals"; the line of actual control of Nov. 7, 1959, along the whole border; the two Prime Ministers to meet again, not where). [[w.zhou-enlai-nianpu-1949]], II, 504 (Oct. 24, 1962: the statement and its three proposals; India rejected them the day it received them); [[w.lengxi-shinian-lunzhan-1956-1966]], 498–499 (Wu: the government''s statement of Oct. 24 proposes an end to the conflict, new talks and a peaceful settlement; both armies to withdraw 20 kilometers and break contact, the Chinese in the east to north of the line of actual control, in the middle and western sectors neither side to cross the customary line; India refuses); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 249 (Oct. 24, 1962; the government''s statement: three proposals, the boundary to be settled by negotiation; both sides to respect the actual line of control along the whole boundary and pull their forces back 20 kilometers each; if India agrees, China willing to withdraw its frontier forces in the east to north of the line, the two sides in the middle and western sectors pledging not to cross it; the two prime ministers to meet again). To check: the statement''s published text; *Renmin ribao*, Oct. 25, 1962 (cited by [[w.jian-zhou-enlai]], 481 n.81). See [[cal.1962-10-23.south-asia-2]]. Names: Nehru.'
     src:
       c: 0bf483b5
       rows:
@@ -6413,6 +6666,19 @@ entries:
       - 1962-10-24T11:00Z
       - 1962-10-24T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-24.china-leadership-5
+    when: Oct. 24
+    date: '1962-10-24'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 at the airport meets Prince Souphanouvong, Deputy Prime Minister of the Lao provisional government, in Peking 北京 on his way home from the Soviet Union.
+    n: '[[w.chen-yi-nianpu]], 939. The words: 下午 (939). Names: Chen Yi, Souphanouvong.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:souphanouvong, ok:fields-place]
+    time_range:
+      - 1962-10-24T04:00Z
+      - 1962-10-24T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-10-25.missile-crisis
     when: Oct. 25
@@ -6791,11 +7057,12 @@ entries:
     thread: china-leadership
     also: [china, korea]
     c: Peking Hotel. Zhou Enlai attends the banquet given by the DPRK Embassy's chargé d'affaires, Jong Bong-gu, for the 12th anniversary of the Chinese People's Volunteers' entry into the Korean War.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 338 (Oct. 25, 1962; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 338 (Oct. 25, 1962; 晚上); [[w.chen-yi-nianpu]], 939 (Oct. 25, 1962, evening; Chen Yi at the banquet of 郑凤珪, the DPRK chargé, at the Peking Hotel for the twelfth anniversary of the Volunteers'' going to Korea). Names: Zhou Enlai.'
     src:
       c: 4626b451
       rows:
         - 'w.zhou-enlai-waijiao-huodong 338: all'
+        - 'w.chen-yi-nianpu 939: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai]
     time_range:
       - 1962-10-25T11:00Z
@@ -6846,6 +7113,18 @@ entries:
       - 1962-10-24T22:00Z
       - 1962-10-25T04:00Z
     time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-25.china-leadership-6
+    when: Oct. 25
+    date: '1962-10-25'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 里加多·波萨斯·阿西涅加, head of the Mexican cultural delegation and president of the Mexico–China Friendship Association, and his wife.
+    n: '[[w.chen-yi-nianpu]], 939. The words: 下午 (939). Names: Chen Yi.'
+    tags: [polity:prc, polity:mexico, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-10-25T04:00Z
+      - 1962-10-25T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-10-26.missile-crisis
     when: Oct. 26
@@ -7177,7 +7456,7 @@ entries:
     thread: china
     also: [south-asia]
     c: 'Zhou Enlai to Nasser and other leaders of Asian and African countries: the border dispute''s course and the conflict''s causes; China not using force to take territory but pushed into a war of self-defense; its aim still talks and a peaceful settlement.'
-    n: '[[w.jian-zhou-enlai]], 485 ("immediately after the war began"; letters to the leaders of dozens of countries); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 249–250 (Oct. 26, 1962; Liu Shaoqi and Zhou each send letters or cables to the leaders of 13 Asian and African countries, among them Ceylon, Cambodia and Ghana, hoping they will help bring about the three proposals of the Oct. 24 statement for a peaceful settlement of the boundary question). Made public: Check. To check: Zhou to President Nasser and other leaders of Asian and African countries, Oct. 26, 1962, 107-00528-11, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 764 n.95). Names: Zhou Enlai, Nasser. Check: the day (Chen''s text dates none; his note dates this letter Oct. 26).'
+    n: '[[w.jian-zhou-enlai]], 485 ("immediately after the war began"; letters to the leaders of dozens of countries); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 249–250 (Oct. 26, 1962; Liu Shaoqi and Zhou each send letters or cables to the leaders of 13 Asian and African countries, among them Ceylon, Cambodia and Ghana, hoping they will help bring about the three proposals of the Oct. 24 statement for a peaceful settlement of the boundary question). Made public: Check. To check: Zhou to President Nasser and other leaders of Asian and African countries, Oct. 26, 1962, 107-00528-11, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 485 n.95). Names: Zhou Enlai, Nasser. Check: the day (Chen''s text dates none; his note dates this letter Oct. 26).'
     src:
       c: 0cbb6b4f
       rows:
@@ -7251,6 +7530,14 @@ entries:
     c: Saigon. The Saigon government holds an exhibition of the armed forces' "achievements" before the City Hall, with modern arms, for the national day. Commandos of Team 155 throw grenades at the helicopter on show and kill Maj. Phan Bội Ngọc, who was giving the commentary; the exhibition is closed that day.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 185. Names: Phan Bội Ngọc. Check: Phan Bội Ngọc''s death, against Saigon''s and the American record.'
     tags: [polity:drv]
+  - id: cal.1962-10-26.china-leadership-2
+    when: Oct. 26
+    date: '1962-10-26'
+    thread: china-leadership
+    also: [missile-crisis-diplomacy]
+    c: 雷希诺·佩德罗苏·阿尔达玛, the Cuban chargé d'affaires, sends Chen Yi 陈毅 a note on the American blockade of Cuba.
+    n: '[[w.chen-yi-nianpu]], 939. Names: Chen Yi.'
+    tags: [polity:prc, polity:cuba, name:chen-yi, ok:fields-place]
   - id: cal.1962-10-27.missile-crisis-2
     when: Oct. 27
     date: '1962-10-27'
@@ -7259,7 +7546,7 @@ entries:
     place: moscow
     thread: missile-crisis
     c: 'Khrushchev''s second letter, broadcast over Moscow radio: the means the United States calls offensive out of Cuba, the American means out of Turkey; the Security Council to inspect.'
-    n: 'FRUS 1961–63, VI, doc. [66](https://history.state.gov/historicaldocuments/frus1961-63v06/d66). [[w.ball-past-has-another-pattern]], 305; [[w.fursenko-one-hell-of-a]], 274–76, 278 (dictated before the Presidium; broadcast to save time); [[w.fursenko-khrushchevs-cold-war]], 488 (the Presidium; broadcast by Radio Moscow); [[w.sorensen-kennedy]], 712; [[w.sorensen-kennedy]], 712 (the Jupiters in Turkey in exchange); [[w.prezidium-tsk-kpss-1954]], I, 623 (Protocol 62: the letter dictated, approved, to be broadcast at 5 p.m.); [[w.prezidium-tsk-kpss-1954]], III, 367–73 (P 62/I and the text: the means called offensive out of Cuba, the like means out of Turkey; the Security Council''s agents to verify; of A, the terms but not the broadcast, which is in I, 623); [[w.odonnell-johnny-we-hardly-knew]], 381 (while the Ex Comm met Saturday morning to draft a reply to the first letter, Radio Moscow announced the text of a second, stern letter: the Soviet missiles out of Cuba only if the Jupiters left Turkey; Thompson: Khrushchev''s advisers had talked him into trying for the trade; not "the means the United States calls offensive" or the Security Council inspection). See [[cal.1962-10-16.missile-crisis]]. Names: Khrushchev.'
+    n: 'FRUS 1961–63, VI, doc. [66](https://history.state.gov/historicaldocuments/frus1961-63v06/d66). [[w.ball-past-has-another-pattern]], 305; [[w.fursenko-one-hell-of-a]], 274–76, 278 (dictated before the Presidium; broadcast to save time); [[w.fursenko-khrushchevs-cold-war]], 488 (the Presidium; broadcast by Radio Moscow); [[w.sorensen-kennedy]], 712; [[w.sorensen-kennedy]], 712 (the Jupiters in Turkey in exchange); [[w.prezidium-tsk-kpss-1954]], I, 623 (Protocol 62: the letter dictated, approved, to be broadcast at 5 p.m.); [[w.prezidium-tsk-kpss-1954]], III, 367–73 (P 62/I and the text: the means called offensive out of Cuba, the like means out of Turkey; the Security Council''s agents to verify; of A, the terms but not the broadcast, which is in I, 623); [[w.odonnell-johnny-we-hardly-knew]], 381 (while the Ex Comm met Saturday morning to draft a reply to the first letter, Radio Moscow announced the text of a second, stern letter: the Soviet missiles out of Cuba only if the Jupiters left Turkey; Thompson: Khrushchev''s advisers had talked him into trying for the trade; not "the means the United States calls offensive" or the Security Council inspection); [[w.brothers-in-arms]], 382 (Deng Xiaoping''s speech of July 8, 1963, in the Soviet record, quoting Khrushchev''s letters to Kennedy of Oct. 27 and 28 together: "You are working toward the preservation of peace"; his "satisfaction" at Kennedy''s "sense of moderation"). See [[cal.1962-10-16.missile-crisis]]. Names: Khrushchev.'
     src:
       c: 52c6a574
       rows:
@@ -7274,6 +7561,7 @@ entries:
         - 'via x.1962-10-27.malins-notes-protocol-62-oct-27: A'
         - 'w.prezidium-tsk-kpss-1954 III, 367–73: B'
         - 'w.odonnell-johnny-we-hardly-knew 381: ?'
+        - 'w.brothers-in-arms 382: ?'
     tags: [name:khrushchev-nikita-s]
   - id: cal.1962-10-27.missile-crisis
     when: Oct. 27
@@ -7759,6 +8047,18 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 310 n.76e: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 310 n.76f: all'
     tags: [polity:prc, polity:india, name:mao-zedong, name:nehru-jawaharlal]
+  - id: cal.1962-10-27.china-leadership-4
+    when: Oct. 27
+    date: '1962-10-27'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Japanese philosophers 山崎谦, 寺泽恒信 and 高田求, and Mrs. Yamazaki.
+    n: '[[w.chen-yi-nianpu]], 939. The words: 下午 (939). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-10-27T04:00Z
+      - 1962-10-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-28.missile-crisis
     when: Oct. 28
     date: '1962-10-28'
@@ -7767,7 +8067,7 @@ entries:
     follows:
       - cal.1962-10-28.soviet-union-leadership
     c: 'Radio Moscow: the missiles to be dismantled and returned. Castro refuses inspection.'
-    n: '[FRUS 1961–63, XI, doc. 102](https://history.state.gov/historicaldocuments/frus1961-63v11/d102). Statement by the President Following the Soviet Decision To Withdraw Missiles From Cuba, [1962 Pub. Papers 815](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=875) (Oct. 28, 1962). [[w.reeves-president-kennedy]], 423–24 (the broadcast); [[w.fursenko-one-hell-of-a]], 284–87 (the Presidium at Novo-Ogarevo; Dobrynin''s report read to it; the letter dictated there); [[w.rusk-as-i-saw-it-1990]], 241; [[w.sorensen-kennedy]], 716–17 (the broadcast); [[w.fursenko-khrushchevs-cold-war]], 490, 494 (the broadcast; Castro''s five points: the sanctions, subversion, "piratical attacks," the overflights, Guantánamo; no UN inspectors); [[w.thomas-robert-kennedy]], 230 (Rusk calls Robert Kennedy at the horse show before 10 a.m.; Khrushchev''s retreat broadcast); [[w.sorensen-kennedy]], 720 (Castro, "whoever tries to inspect Cuba must come in battle array," insists on five conditions); [[w.prezidium-tsk-kpss-1954]], III, 374–78 (P 63/I and the text of the message: the arms called offensive to be dismantled, crated and returned to the Soviet Union; not the radio, nor Castro); [[w.salinger-with-kennedy]], 273 (Salinger hears the radio flash driving to work: Khrushchev agrees to withdraw the missiles and tear down the sites for a guarantee against invasion; not Castro); [[w.macfarquhar-origins-of-the-cultural]], III, 316 (Khrushchev agrees on Oct. 28 to remove the missiles and dismantle the installations; the book''s table also dates the stopping of the first ship by the US Navy Oct. 26); [[w.yang-shangkun-riji]], II, 220 (Oct. 28, 1962; as noted at Peking: the Soviet Union has ordered the offensive weapons in Cuba dismantled). [[w.ball-past-has-another-pattern]], 307 (the broadcast). After the Presidium of about noon at the dacha; before 10 a.m. in Washington, when Rusk calls Robert Kennedy: [[w.thomas-robert-kennedy]], 230. To check: [[w.beschloss-crisis-years]], 431–575 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106a); [[w.khrushchev-khrushchev-remembers]], 498, 504 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106c); Bulletin of the Cold War International History Project, No. 5, Spring 1995 ([[w.scholars-bulletin-of-the-cold]]), 58 ff. (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106e). See [[cal.1962-10-16.missile-crisis]]. Names: Khrushchev, Castro.'
+    n: '[FRUS 1961–63, XI, doc. 102](https://history.state.gov/historicaldocuments/frus1961-63v11/d102). Statement by the President Following the Soviet Decision To Withdraw Missiles From Cuba, [1962 Pub. Papers 815](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=875) (Oct. 28, 1962). [[w.reeves-president-kennedy]], 423–24 (the broadcast); [[w.fursenko-one-hell-of-a]], 284–87 (the Presidium at Novo-Ogarevo; Dobrynin''s report read to it; the letter dictated there); [[w.rusk-as-i-saw-it-1990]], 241; [[w.sorensen-kennedy]], 716–17 (the broadcast); [[w.fursenko-khrushchevs-cold-war]], 490, 494 (the broadcast; Castro''s five points: the sanctions, subversion, "piratical attacks," the overflights, Guantánamo; no UN inspectors); [[w.thomas-robert-kennedy]], 230 (Rusk calls Robert Kennedy at the horse show before 10 a.m.; Khrushchev''s retreat broadcast); [[w.sorensen-kennedy]], 720 (Castro, "whoever tries to inspect Cuba must come in battle array," insists on five conditions); [[w.prezidium-tsk-kpss-1954]], III, 374–78 (P 63/I and the text of the message: the arms called offensive to be dismantled, crated and returned to the Soviet Union; not the radio, nor Castro); [[w.salinger-with-kennedy]], 273 (Salinger hears the radio flash driving to work: Khrushchev agrees to withdraw the missiles and tear down the sites for a guarantee against invasion; not Castro); [[w.macfarquhar-origins-of-the-cultural]], III, 316 (Khrushchev agrees on Oct. 28 to remove the missiles and dismantle the installations; the book''s table also dates the stopping of the first ship by the US Navy Oct. 26); [[w.yang-shangkun-riji]], II, 220 (Oct. 28, 1962; as noted at Peking: the Soviet Union has ordered the offensive weapons in Cuba dismantled); [[w.brothers-in-arms]], 382 (Deng Xiaoping''s speech of July 8, 1963, in the Soviet record, quoting Khrushchev''s letters to Kennedy of Oct. 27 and 28 together: "You are working toward the preservation of peace"; his "satisfaction" at Kennedy''s "sense of moderation"). [[w.ball-past-has-another-pattern]], 307 (the broadcast). After the Presidium of about noon at the dacha; before 10 a.m. in Washington, when Rusk calls Robert Kennedy: [[w.thomas-robert-kennedy]], 230. To check: [[w.beschloss-crisis-years]], 431–575 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106a); [[w.khrushchev-khrushchev-remembers]], 498, 504 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106c); Bulletin of the Cold War International History Project, No. 5, Spring 1995 ([[w.scholars-bulletin-of-the-cold]]), 58 ff. (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 316 n.106e). See [[cal.1962-10-16.missile-crisis]]. Names: Khrushchev, Castro.'
     src:
       c: affedac6
       rows:
@@ -7792,6 +8092,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 316 n.106d: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 316 n.106e: ?'
         - 'w.yang-shangkun-riji II, 220: A'
+        - 'w.brothers-in-arms 382: ?'
     tags: [name:castro-fidel, name:khrushchev-nikita-s]
     time_range:
       - 1962-10-28T09:00Z
@@ -8115,7 +8416,7 @@ entries:
     thread: china
     also: [cuba, missile-crisis-settlement]
     c: Peking. Zhou Enlai chairs a rally of more than ten thousand in support of "the heroic Cuban comrades"; a telegram of solidarity to Fidel Castro.
-    n: '[[w.jian-zhou-enlai]], 486; [[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 28, 1962; 下午, 人民大会堂); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 250 (Oct. 28, 1962; a mass rally in the capital firmly supports the Cuban people against the U.S. war provocation; the book has Zhou and Deng Xiaoping among the leaders attending and Peng Zhen, Vice-Chairman of the Standing Committee, giving the speech); [[w.deng-xiaoping-nianpu-1904]], III, 1730 (Oct. 28, 1962; afternoon; Deng there with Zhou and Peng Zhen). To check: *Renmin ribao*, Oct. 29, 1962 (cited by [[w.jian-zhou-enlai]], 764 n.99). Names: Zhou Enlai, Castro.'
+    n: '[[w.jian-zhou-enlai]], 486; [[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 28, 1962; 下午, 人民大会堂); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 250 (Oct. 28, 1962; a mass rally in the capital firmly supports the Cuban people against the U.S. war provocation; the book has Zhou and Deng Xiaoping among the leaders attending and Peng Zhen, Vice-Chairman of the Standing Committee, giving the speech); [[w.deng-xiaoping-nianpu-1904]], III, 1730 (Oct. 28, 1962; afternoon; Deng there with Zhou and Peng Zhen); [[w.chen-yi-nianpu]], 939 (Oct. 28, 1962, afternoon; Chen Yi at the rally). To check: *Renmin ribao*, Oct. 29, 1962 (cited by [[w.jian-zhou-enlai]], 486 n.99). Names: Zhou Enlai, Castro.'
     src:
       c: 59f57d36
       rows:
@@ -8123,6 +8424,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 339: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 250: B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1730: A'
+        - 'w.chen-yi-nianpu 939: ?'
     tags: [name:zhou-enlai, name:castro-fidel, polity:prc, polity:cuba]
     time_range:
       - 1962-10-28T04:00Z
@@ -8199,6 +8501,19 @@ entries:
         - 'w.yang-shangkun-riji II, 220: all'
         - 'via w.yang-shangkun-riji II, 220 n.2: all'
     tags: [polity:prc, name:nehru-jawaharlal, vis:only:prc]
+  - id: cal.1962-10-28.china-leadership-4
+    when: Oct. 28
+    date: '1962-10-28'
+    thread: china-leadership
+    also: [japan]
+    c: Liao Chengzhi 廖承志, for Zhou Enlai 周恩来 and Chen Yi 陈毅, welcomes at the airport Takasaki Tatsunosuke 高碕达之助, former Minister of International Trade and Industry and Liberal Democratic member of the Diet, and his party.
+    n: '[[w.chen-yi-nianpu]], 939. The words: 下午 (939). Names: Zhou Enlai, Chen Yi, Takasaki.'
+    tags: [polity:prc, polity:japan, name:chen-yi, name:zhou-enlai, name:takasaki-tatsunosuke, ok:fields-place]
+    time_range:
+      - 1962-10-28T04:00Z
+      - 1962-10-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-10-29.japan-and-korea
     when: Oct. 29
     date: '1962-10-29'
@@ -8418,13 +8733,15 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Zhou Enlai and Chen Yi receive and dine Takasaki Tatsunosuke, former Minister of International Trade and Industry and Liberal Democratic Party Diet member. Zhou''s speech: new things with a future grow from small to large by accumulation; Sino-Japanese trade is to grow in the gradual, cumulative way, its prospect broad; the road of friendship will still have bends. Oct. 30 he talks with Takasaki again.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 506 (Oct. 29, 1962); [[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 29, 1962; 晚上, 接见并宴请高崎达之助); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 250–251 (Oct. 28–Nov. 11, 1962, the visit of Takasaki Tatsunosuke, former Minister of International Trade and Industry and a Liberal Democratic Party Diet member; Oct. 29, Zhou''s banquet speech: he hopes the visit will, on the political understanding reached between Takasaki and Matsumura Kenzo, further promote and develop Sino-Japanese trade; the prospect of the trade is very broad and the two countries have many needs of each other). Names: Zhou Enlai, Chen Yi, Takasaki Tatsunosuke.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 506 (Oct. 29, 1962); [[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 29, 1962; 晚上, 接见并宴请高崎达之助); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 250–251 (Oct. 28–Nov. 11, 1962, the visit of Takasaki Tatsunosuke, former Minister of International Trade and Industry and a Liberal Democratic Party Diet member; Oct. 29, Zhou''s banquet speech: he hopes the visit will, on the political understanding reached between Takasaki and Matsumura Kenzo, further promote and develop Sino-Japanese trade; the prospect of the trade is very broad and the two countries have many needs of each other); [[w.chen-yi-nianpu]], 939 (Oct. 29, 1962, evening; Chen Yi with Zhou receives Takasaki Tatsunosuke 高碕达之助 and his party and gives them a banquet); [[w.jian-zhou-enlai]], 505 (late October: Takasaki''s large delegation; Zhou speaks with him). Names: Zhou Enlai, Chen Yi, Takasaki Tatsunosuke.'
     src:
       c: a1ee16cb
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 506: ?'
         - 'w.zhou-enlai-waijiao-huodong 339: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 250–251: A, C'
+        - 'w.chen-yi-nianpu 939: ?'
+        - 'w.jian-zhou-enlai 505: ?'
     tags: [polity:prc, polity:japan, name:zhou-enlai, name:chen-yi]
     time_range:
       - 1962-10-29T11:00Z
@@ -8493,6 +8810,18 @@ entries:
       - 1962-10-29T04:00Z
       - 1962-10-29T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-29.china-leadership-5
+    when: Oct. 29
+    date: '1962-10-29'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Malcolm MacDonald; then he and his wife give him lunch.
+    n: '[[w.chen-yi-nianpu]], 939. The words: 上午 (939). Names: Chen Yi, MacDonald.'
+    tags: [polity:prc, polity:uk, name:chen-yi, name:macdonald-malcolm-john, ok:fields-place]
+    time_range:
+      - 1962-10-28T22:00Z
+      - 1962-10-29T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1962-10-30.missile-crisis
     when: Oct. 30
@@ -8849,7 +9178,7 @@ entries:
     date: '1962-10-30'
     thread: china
     c: 'Luo Ruiqing, a report: the Second Ministry of Machine Building to aim at exploding the first atomic bomb in 1964, two years off; beyond any one ministry. Proposed: a special committee under the Center to direct the atomic industry, Zhou Enlai in overall charge, with He Long, Li Fuchun, Zhang Aiping, Li Xiannian, Bo Yibo, Lu Dingyi, Nie Rongzhen, Luo Ruiqing, Zhao Erlu, Liu Jie, Sun Zhiyuan, Duan Junyi and Gao Yang. Liu Shaoqi has agreed in principle.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 3, 1962 (the report, of Oct. 30, as Mao Zedong read it). [[w.jian-zhou-enlai]], 515 (Luo to Zhou, Oct. 10: a special committee under the Center''s direct leadership, Zhou to lead it, the first test slated for 1964; not the Second Ministry, the members or Liu Shaoqi''s agreement); [[w.jianguo-yilai-mao-zedong]], XVI, 428–429 (Oct. 30, 1962; note 1 to Mao''s note of Nov. 3: the report of Oct. 30 to Mao and the Center; the proposal made at the Defense Industry Office''s report to the Standing Committee on Oct. 19, which Liu Shaoqi approved in principle; on Liu''s instruction Zhou Enlai in overall charge, with He Long, Li Fuchun, Li Xiannian, Bo Yibo, Lu Dingyi, Nie Rongzhen, Luo Ruiqing, Zhao Erlu, Zhang Aiping, Liu Jie, Sun Zhiyuan, Duan Junyi and Gao Yang). Made public: Check (2013 at the latest). Check: the day, or an earlier proposal: Chen Jian, 515, has Luo''s proposal to Zhou on Oct. 10 (Mao''s approval Nov. 3). To check: [[w.yao-luo-ruiqing-zhuan-a]], 393–94; [[w.zhou-enlai-zhuan-1949]], 788–89 (cited by [[w.jian-zhou-enlai]], 767 n.99); Luo Ruiqing, report to Mao Zedong and the Central Committee on setting up a special committee to strengthen the leadership of the atomic industry, Oct. 30, 1962 (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 428 n.1). Names: Zhou Enlai.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 3, 1962 (the report, of Oct. 30, as Mao Zedong read it). [[w.jian-zhou-enlai]], 515 (Luo to Zhou, Oct. 10: a special committee under the Center''s direct leadership, Zhou to lead it, the first test slated for 1964; not the Second Ministry, the members or Liu Shaoqi''s agreement); [[w.jianguo-yilai-mao-zedong]], XVI, 428–429 (Oct. 30, 1962; note 1 to Mao''s note of Nov. 3: the report of Oct. 30 to Mao and the Center; the proposal made at the Defense Industry Office''s report to the Standing Committee on Oct. 19, which Liu Shaoqi approved in principle; on Liu''s instruction Zhou Enlai in overall charge, with He Long, Li Fuchun, Li Xiannian, Bo Yibo, Lu Dingyi, Nie Rongzhen, Luo Ruiqing, Zhao Erlu, Zhang Aiping, Liu Jie, Sun Zhiyuan, Duan Junyi and Gao Yang). Made public: Check (2013 at the latest). Check: the day, or an earlier proposal: Chen Jian, 515, has Luo''s proposal to Zhou on Oct. 10 (Mao''s approval Nov. 3). To check: [[w.yao-luo-ruiqing-zhuan-a]], 393–94; [[w.zhou-enlai-zhuan-1949]], 788–89 (cited by [[w.jian-zhou-enlai]], 515 n.99b); Luo Ruiqing, report to Mao Zedong and the Central Committee on setting up a special committee to strengthen the leadership of the atomic industry, Oct. 30, 1962 (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 428 n.1). Names: Zhou Enlai.'
     src:
       c: 0b3ab53a
       rows:
@@ -8858,6 +9187,11 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 428–429: A-D'
         - 'via w.jianguo-yilai-mao-zedong XVI, 428 n.1: all'
     tags: [name:zhou-enlai, polity:prc]
+    variants:
+      - unit: A
+        witness: w.jian-zhou-enlai
+        reads: Luo Ruiqing makes the proposal to Zhou on Oct. 10, 1962
+        at: '515'
   - id: cal.1962-10-30.south-asia
     when: Oct. 30
     date: '1962-10-30'
@@ -8884,7 +9218,7 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: 'Zhou Enlai receives Malcolm MacDonald, once of the British Labour Party and a member of Parliament, a guest of Chen Yi for three weeks; talks Oct. 30 and 31 on China''s construction, Sino-American and Sino-British relations and the Sino-Indian border. China needs peace to build; it relies on the peasants'' drive and collective organization, the production team the basic unit; of the Americans, China pays no heed to hostile deceit and history will show it right. On the border: the British government, little informed, speaks from tradition, which is unreal and resented; one should speak from the facts.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 506 (Oct. 30–31, 1962); [[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 30, 1962; 上午10时15分, 中南海西花厅); [[w.zhou-enlai-waijiao-huodong]], 340 (Oct. 31, 1962; 上午8时30分, 中南海西花厅, 共进早餐, 第二次会谈); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 245 (Oct. 4–30, 1962; Malcolm MacDonald, deputy head of the British delegation to the enlarged Geneva conference on Laos, visits China at Chen Yi''s invitation; Zhou receives him, the day not given, and on Sino-American relations says that the American people have many merits worth learning from and that to oppose the whole American people across the board would be mistaken). Continues 507–08. Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Malcolm MacDonald.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 506 (Oct. 30–31, 1962); [[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 30, 1962; 上午10时15分, 中南海西花厅); [[w.zhou-enlai-waijiao-huodong]], 340 (Oct. 31, 1962; 上午8时30分, 中南海西花厅, 共进早餐, 第二次会谈); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 245 (Oct. 4–30, 1962; Malcolm MacDonald, deputy head of the British delegation to the enlarged Geneva conference on Laos, visits China at Chen Yi''s invitation; Zhou receives him, the day not given, and on Sino-American relations says that the American people have many merits worth learning from and that to oppose the whole American people across the board would be mistaken); [[w.chen-yi-nianpu]], 939 (Oct. 31, 1962, morning; Zhou receives MacDonald, Chen Yi present). Continues 507–08. Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Malcolm MacDonald.'
     src:
       c: 1c1a5e2f
       rows:
@@ -8892,6 +9226,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 339: A'
         - 'w.zhou-enlai-waijiao-huodong 340: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 245: A'
+        - 'w.chen-yi-nianpu 939: ?'
     tags: [polity:prc, polity:uk, name:zhou-enlai, vis:only:prc+uk]
     time_zone: Asia/Shanghai
   - id: cal.1962-10-30.china-leadership-2
@@ -8935,6 +9270,14 @@ entries:
       - 1962-10-30T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-10-30.china-leadership-6
+    when: Oct. 30
+    date: '1962-10-30'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 and Zhou Enlai 周恩来 hold talks with Takasaki Tatsunosuke 高碕达之助.
+    n: '[[w.chen-yi-nianpu]], 939. See [[cal.1962-10-29.china-leadership]]. Made public: 1995. Names: Chen Yi, Zhou Enlai, Takasaki.'
+    tags: [polity:prc, polity:japan, name:chen-yi, name:zhou-enlai, name:takasaki-tatsunosuke, vis:only:prc+japan]
   - id: cal.1962-10-31.cuba
     when: Oct. 31
     date: '1962-10-31'
@@ -9573,3 +9916,64 @@ entries:
       - 1962-10-31T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-10-31.china-leadership-6
+    when: Oct. 31
+    date: '1962-10-31'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Mohammed Khemisti 穆罕默德·赫米斯提, the Algerian Foreign Minister, on Algeria's national day.
+    n: '[[w.chen-yi-nianpu]], 939. Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi]
+  - id: cal.1962-10-31.china-leadership-7
+    when: Oct. 31
+    date: '1962-10-31'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the capital's meeting for Algeria's national day.
+    n: '[[w.chen-yi-nianpu]], 939. The words: 下午 (939). Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-10-31T04:00Z
+      - 1962-10-31T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10-31.china-leadership-8
+    when: Oct. 31
+    date: '1962-10-31'
+    thread: china-leadership
+    c: Chen Yi 陈毅 meets Yi Chu-yŏn 李周渊, Vice-Premier of the DPRK Cabinet, and the Korean government trade delegation he leads, and gives them a banquet.
+    n: '[[w.chen-yi-nianpu]], 939. See [[cal.1962-10-26.china-3]]. The words: 晚上 (939). Names: Chen Yi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-10-31T11:00Z
+      - 1962-10-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-10.china-leadership-5
+    when: Oct., after Kennedy's challenge
+    date: 1962-10
+    at: after 1962-10-22
+    thread: china-leadership
+    also: [missile-crisis]
+    c: 'Mao tells his colleagues privately that there will be no war over Cuba: Kennedy and Khrushchev both fear an all-out conflict.'
+    n: '[[w.westad-introduction]], 28 ("when President John F. Kennedy challenged Khrushchev''s nuclear ploy"). Made public: 1998. To check: M. Y. Prozumenchikov, The Influence of the Sino-Indian Border Conflict and the Caribbean Crisis on the Development of Sino-Soviet Relations, paper, Cold War International History Project conference, Hong Kong, Jan. 1996, 6–9 (cited by [[w.westad-introduction]], 28 n.101); Soviet Beijing embassy reports on China and the Cuban crisis, TsKhSD, f. 5, op. 49, d. 530 (cited by [[w.westad-introduction]], 28 n.101). Names: Mao Zedong, Kennedy, Khrushchev.'
+    src:
+      c: a3e659f5
+      rows:
+        - 'w.westad-introduction 28: all'
+        - 'via x.1996-01.prozumenchikov-influence-sino-indian-caribbean: ?'
+        - 'via x.1962.soviet-embassy-peking-reports-china-cuban-crisis: ?'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:kennedy-john-f, name:khrushchev-nikita-s]
+  - id: cal.1962-10.china-leadership-6
+    when: Oct., after the 28th
+    date: 1962-10
+    at: after 1962-10-28
+    thread: china-leadership
+    also: [missile-crisis]
+    c: After Khrushchev's retreat, on Mao's decision, the Party's propaganda praises the Cubans and condemns those "frightened in the face of imperialist aggression," who "bartered with the freedom and independence of another people" and trusted in "juggling nuclear weapons."
+    n: '[[w.westad-introduction]], 28 ("after Khrushchev capitulated on October 28"). To check: [[w.renmin-ribao]], Dec. 15, 1962 (cited by [[w.westad-introduction]], 28 n.101); M. Y. Prozumenchikov, The Influence of the Sino-Indian Border Conflict and the Caribbean Crisis on the Development of Sino-Soviet Relations, paper, Hong Kong, Jan. 1996, 6–9 (cited by [[w.westad-introduction]], 28 n.101). Names: Khrushchev, Mao Zedong.'
+    src:
+      c: 98a055e9
+      rows:
+        - 'w.westad-introduction 28: all'
+        - 'via x.1962-12-15.renmin-ribao-dec-15: ?'
+        - 'via x.1996-01.prozumenchikov-influence-sino-indian-caribbean: ?'
+    tags: [polity:prc, name:khrushchev-nikita-s, name:mao-zedong]

@@ -155,13 +155,14 @@ entries:
     thread: china-leadership
     also: [soviet-union, trade]
     c: Zhou Enlai receives members of a Soviet delegation, Kumykin, Deputy Minister of Foreign Trade, and Arkhipov, First Vice-Chairman of the State Committee for Foreign Economic Relations, and speaks on Sino-Soviet economic and trade relations.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Mar. 1, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Mar. 1, 1961; 上午11时30分, 人民大会堂福建厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 187 (Feb. 9–Mar. 2, 1961; the Soviet trade delegation led by Kumykin, Deputy Minister of Foreign Trade, and Arkhipov (阿希波夫), First Vice-Chairman of the State Committee for Foreign Economic Relations, visits; preliminary talks on trade with Ye Jizhuang, Minister of Foreign Trade, and Gu Zhuoxin (顾卓新) of the State Planning Commission). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 394 (Mar. 1, 1961); [[w.zhou-enlai-waijiao-huodong]], 304 (Mar. 1, 1961; 上午11时30分, 人民大会堂福建厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 187 (Feb. 9–Mar. 2, 1961; the Soviet trade delegation led by Kumykin, Deputy Minister of Foreign Trade, and Arkhipov (阿希波夫), First Vice-Chairman of the State Committee for Foreign Economic Relations, visits; preliminary talks on trade with Ye Jizhuang, Minister of Foreign Trade, and Gu Zhuoxin (顾卓新) of the State Planning Commission); [[w.chen-yi-nianpu]], 861 (Mar. 1, 1961, morning; Chen Yi present when Zhou Enlai receives Kumykin, Arkhipov and the Soviet delegation). Made public: 1993. Names: Zhou Enlai.'
     src:
       c: 6605d18c
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 394: ?'
         - 'w.zhou-enlai-waijiao-huodong 304: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 187: A'
+        - 'w.chen-yi-nianpu 861: ?'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc+ussr]
     time_zone: Asia/Shanghai
   - id: cal.1961-03-01.china-leadership-4
@@ -179,11 +180,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union, trade]
     c: Peking. Zhou Enlai attends the luncheon given by Chen Yi, Vice Premier, for the Soviet delegations.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Mar. 1, 1961; 中午). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 304 (Mar. 1, 1961; 中午); [[w.chen-yi-nianpu]], 861 (Mar. 1, 1961, noon, the Great Hall of the People; Chen Yi''s banquet for Kumykin, Arkhipov and the delegation; he speaks, congratulating them on the preliminary talks and expecting agreement at the Moscow talks). Names: Zhou Enlai, Chen Yi.'
     src:
       c: c5f823c2
       rows:
         - 'w.zhou-enlai-waijiao-huodong 304: all'
+        - 'w.chen-yi-nianpu 861: ?'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, name:chen-yi]
     time_range:
       - 1961-03-01T04:00Z
@@ -248,6 +250,19 @@ entries:
         - 'via w.dikotter-maos-great-famine 137 n.28: all'
         - 'via w.dikotter-maos-great-famine 137 n.31: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1961-03-01.china-leadership-10
+    when: Mar. 1
+    date: '1961-03-01'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 at the airport to welcome the DRV government delegation led by Ung Văn Khiêm 雍文谦, the Foreign Minister, passing through Peking 北京 on its way to Africa; gives a banquet for it.
+    n: '[[w.chen-yi-nianpu]], 861. The words: 晚上 (861). Names: Chen Yi, Ung Văn Khiêm.'
+    tags: [polity:prc, polity:drv, name:chen-yi, ok:fields-place, name:ung-van-khiem]
+    time_range:
+      - 1961-03-01T11:00Z
+      - 1961-03-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-02.testing
     when: Mar. 2
     date: '1961-03-02'
@@ -666,6 +681,25 @@ entries:
       - 1961-03-04T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-04.china-leadership-6
+    when: Mar. 4
+    date: '1961-03-04'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Fábián Ferenc 法比扬·费伦茨 of the Hungarian *Népszabadság* 《人民自由报》 and answers his questions.
+    n: '[[w.chen-yi-nianpu]], 861. The words: 上午 (861). Names: Chen Yi.'
+    tags: [polity:prc, polity:hungary, name:chen-yi]
+    time_range:
+      - 1961-03-03T22:00Z
+      - 1961-03-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-03-04.china-leadership-7
+    when: Mar. 4
+    date: '1961-03-04'
+    thread: china-leadership
+    c: Chen Yi 陈毅, after reading Lumumba's letter 《卢蒙巴遗书》, writes the poem "On reading Lumumba's last letter" 《读卢蒙巴遗书》.
+    n: '[[w.chen-yi-nianpu]], 861. Names: Chen Yi, Lumumba.'
+    tags: [polity:prc, name:chen-yi, name:lumumba-patrice]
   - id: cal.1961-03-05.economy
     when: Mar. 5
     date: '1961-03-05'
@@ -1275,12 +1309,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai receives the socialist countries'' envoys in Peking and describes China''s state. To overcome the famine: rely first on the Chinese people; cut rations, low standards, vegetables and melons for grain, substitute foods; thrift and more output to keep industry; keep to the masses and the hard, plain style of the war years. Last year''s trade debts with the brother countries to be repaid later and this year''s imports and exports cut, so they bear China''s farm difficulty, which makes China uneasy.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 8, 1961); [[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 8, 1961; 下午3时, 人民大会堂). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 8, 1961); [[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 8, 1961; 下午3时, 人民大会堂); [[w.westad-introduction]], 27 (in March Zhou Enlai describes the desperate state of the countryside in detail to the East European and Soviet ambassadors; 27 n.92 dates the talk Mar. 8, 1961). Made public: 1993. To check: Zhou Enlai''s talk to the ambassadors from socialist countries, Mar. 8, 1961, AVPRF, f. 0100, op. 54, pa. 466, d. 7, pp. 77–91 (cited by [[w.westad-introduction]], 27 n.92). Names: Zhou Enlai.'
     src:
       c: c8418ed6
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 396: ?'
         - 'w.zhou-enlai-waijiao-huodong 305: A'
+        - 'w.westad-introduction 27: ?'
+        - 'via x.1961-03-08.zhou-talk-socialist-ambassadors-avprf: ?'
     tags: [polity:prc, polity:ussr, polity:hungary, polity:gdr, name:zhou-enlai, vis:only:prc+ussr]
     time_zone: Asia/Shanghai
   - id: cal.1961-03-08.china-leadership-2
@@ -1307,11 +1343,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai attends the ceremony at which the Burmese Ambassador, for the President of Burma, decorates Zhang Hanfu, Vice Foreign Minister, and Shao Tianren, deputy director of the Foreign Ministry's Treaty Department, for their part in settling the China–Burma boundary.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 8, 1961; 上午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 8, 1961; 上午); [[w.chen-yi-nianpu]], 861–862 (Mar. 8, 1961, evening, the Burmese Embassy; the Burmese Ambassador (叫温), for President Win Maung, gives Zhang Hanfu the first class of the order of heroic honor and Shao Tianren, Chinese adviser to the joint boundary commission, the third class; Chen Yi attends). Names: Zhou Enlai.'
     src:
       c: b8ef9f66
       rows:
         - 'w.zhou-enlai-waijiao-huodong 305: all'
+        - 'w.chen-yi-nianpu 861–862: ?'
     tags: [polity:prc, polity:burma, name:zhou-enlai]
     time_range:
       - 1961-03-07T22:00Z
@@ -2126,6 +2163,32 @@ entries:
         - 'w.yang-jisheng-mubei I, 354–355: all'
         - 'via w.yang-jisheng-mubei I, 355 n.35: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03-11.china-leadership-8
+    when: Mar. 11
+    date: '1961-03-11'
+    place: peking
+    thread: china-leadership
+    c: Great Hall of the People 人民大会堂, Peking 北京. Chen Yi 陈毅 reports on the situation at home and abroad to a meeting of the Center's United Front Work Department 中共中央统一战线工作部.
+    n: '[[w.chen-yi-nianpu]], 862. The words: 上午 (862). Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, vis:only:prc]
+    time_range:
+      - 1961-03-10T22:00Z
+      - 1961-03-11T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-03-11.china-leadership-9
+    when: Mar. 11
+    date: '1961-03-11'
+    place: peking
+    thread: china-leadership
+    c: Beijing Hotel 北京饭店, Peking. Chen Yi 陈毅 speaks at the reception of 巴特森, the Danish Ambassador, for King Frederik IX's birthday; thanks Denmark for its stand on the PRC's place in the United Nations.
+    n: '[[w.chen-yi-nianpu]], 862. The words: 晚上 (862). Names: Chen Yi.'
+    tags: [polity:prc, polity:denmark, name:chen-yi]
+    time_range:
+      - 1961-03-11T11:00Z
+      - 1961-03-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-12.opinion
     when: Mar. 12
     date: '1961-03-12'
@@ -2159,7 +2222,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai with Chen Yi and He Long at the Peking Workers'' Gymnasium watches table tennis training and receives the players for the 26th World Table Tennis Championships: do honor to the country in play and style, not hold thoughts back, no pride in victory or gloom in defeat, far sight; he asks the two Marshals to tell their war experience, for a match is like a war and victory and defeat are the common lot of soldiers, dialectically one.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 397 (Mar. 12, 1961); [[w.yang-shangkun-riji]], I, 662 (Mar. 12, 1961; Yang Shangkun at the new Workers'' Gymnasium that evening for a table tennis exhibition, and round the hall after; the Premier not named). Names: Zhou Enlai, Chen Yi, He Long.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 397 (Mar. 12, 1961); [[w.yang-shangkun-riji]], I, 662 (Mar. 12, 1961; Yang Shangkun at the new Workers'' Gymnasium that evening for a table tennis exhibition, and round the hall after; the Premier not named); [[w.chen-yi-nianpu]], 866 (undated, "on the eve" of the 26th World Table Tennis Championships, Apr. 4–14, 1961; Chen Yi, asked by Zhou Enlai, speaks to the Chinese players: table tennis shows the country''s fighting strength and its youth; fight to win, keep heart in defeat, a great country''s bearing; the title, not title-worship; skill and politics together). Check: The Chen Yi chronology puts Chen Yi''s talk to the players, at Zhou''s request, "on the eve" of the championships of Apr. 4–14, without a day ([[w.chen-yi-nianpu]], 866); Chen Yi was away from Peking from Mar. 26 to Apr. 22, 1961. Names: Zhou Enlai, Chen Yi, He Long.'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi, name:he-long]
   - id: cal.1961-03-12.china-leadership-2
     when: Mar. 12
@@ -2231,6 +2294,18 @@ entries:
         - 'w.dikotter-maos-great-famine 297: all'
         - 'via w.dikotter-maos-great-famine 297 n.52: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03-12.china-leadership-9
+    when: Mar. 12
+    date: '1961-03-12'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the Cuban ballet's farewell performance in China; photographed on stage with the dancers after.
+    n: '[[w.chen-yi-nianpu]], 862. The words: 晚上 (862). Names: Chen Yi.'
+    tags: [polity:prc, polity:cuba, name:chen-yi]
+    time_range:
+      - 1961-03-12T11:00Z
+      - 1961-03-12T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-13.latin-america
     when: Mar. 13
     date: '1961-03-13'
@@ -2514,6 +2589,31 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 662–663: all'
     tags: [polity:prc, name:mao-zedong, name:tao-zhu, vis:only:prc]
+  - id: cal.1961-03-13.china-leadership-10
+    when: Mar. 13
+    date: '1961-03-13'
+    thread: china-leadership
+    also: [africa]
+    c: 科比纳·克西, Ghana's first Ambassador to China, calls on Chen Yi 陈毅 to arrange the presenting of his credentials.
+    n: '[[w.chen-yi-nianpu]], 862. The words: 上午 (862). Names: Chen Yi.'
+    tags: [polity:prc, polity:ghana, name:chen-yi]
+    time_range:
+      - 1961-03-12T22:00Z
+      - 1961-03-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-03-13.china-leadership-11
+    when: Mar. 13
+    date: '1961-03-13'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the cocktail party of the Commission for Cultural Relations with Foreign Countries and the China–Latin America Friendship Association seeing off the Cuban ballet; recites his poem "Seeing off the Cuban friends" 《送古巴朋友行》.
+    n: '[[w.chen-yi-nianpu]], 862. The words: 晚上 (862). Names: Chen Yi.'
+    tags: [polity:prc, polity:cuba, name:chen-yi]
+    time_range:
+      - 1961-03-13T11:00Z
+      - 1961-03-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-14.vietnam-hanoi
     when: Mar. 14
     date: '1961-03-14'
@@ -2578,13 +2678,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi flies from Peking to Canton.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 14, 1961); [[w.yang-shangkun-riji]], I, 663 (Mar. 14, 1961; the Standing Committee and the Three North conference moved to Canton in two planes, both safely down by the afternoon); [[w.deng-xiaoping-nianpu-1904]], III, 1622 (Mar. 14, 1961; afternoon; Deng, with Liu, Zhou, Chen Yun and the others of the Three North conference, flies to Canton). Made public: 1996. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 14, 1961); [[w.yang-shangkun-riji]], I, 663 (Mar. 14, 1961; the Standing Committee and the Three North conference moved to Canton in two planes, both safely down by the afternoon); [[w.deng-xiaoping-nianpu-1904]], III, 1622 (Mar. 14, 1961; afternoon; Deng, with Liu, Zhou, Chen Yun and the others of the Three North conference, flies to Canton); [[w.yang-jisheng-tiandi-fanfu]], I, 92 ("Liu Shaoqi flies to Canton on Mar. 14," by the Liu chronology Yang cites). Made public: 1996. Names: Liu Shaoqi.'
     src:
       c: 764df6d4
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 508: ?'
         - 'w.yang-shangkun-riji I, 663: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1622: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 92: ?'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1961-03-14.china-leadership-4
     when: Mar. 14
@@ -2942,6 +3043,18 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1623: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-03-15.china-leadership-9
+    when: Mar. 15
+    date: '1961-03-15'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Cuban health ministry's delegation led by Mario Escalona Reguera 马里奥·埃斯卡洛纳·雷格拉, Vice Minister of Health.
+    n: '[[w.chen-yi-nianpu]], 862. The words: 上午 (862). Names: Chen Yi.'
+    tags: [polity:prc, polity:cuba, name:chen-yi]
+    time_range:
+      - 1961-03-14T22:00Z
+      - 1961-03-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-16.middle-east
     when: Mar. 16
     date: '1961-03-16'
@@ -3128,11 +3241,12 @@ entries:
     thread: china-leadership
     also: [defense]
     c: Chen Geng 陈赓, deputy minister of defense, dies at Shanghai 上海.
-    n: '[[w.yang-shangkun-riji]], I, 664 (Mar. 16, 1961; note 1: Chen Geng). The words: 上午 (I, 664). Names: Chen Geng.'
+    n: '[[w.yang-shangkun-riji]], I, 664 (Mar. 16, 1961; note 1: Chen Geng); [[w.chen-yi-nianpu]], 862 (Mar. 16, 1961; Chen Geng, member of the Central Committee, Vice Minister of Defense and general, dies at Shanghai, aged 58). The words: 上午 (I, 664). Names: Chen Geng.'
     src:
       c: ee1e1f5a
       rows:
         - 'w.yang-shangkun-riji I, 664: all'
+        - 'w.chen-yi-nianpu 862: ?'
     tags: [polity:prc]
     time_range:
       - 1961-03-15T22:00Z
@@ -3298,11 +3412,12 @@ entries:
     follows:
       - cal.1961-03-17.china-leadership-4
     c: The Western Suburb airport 西郊机场, 1:40 p.m. Chen Yi 陈毅 and Yang Shangkun 杨尚昆 receive Chen Geng's 陈赓 ashes from the special plane; to the Zhongshan Tang 中山堂, where they stand in silence.
-    n: '[[w.yang-shangkun-riji]], I, 664 (Mar. 17, 1961). The words: 1时40分 (I, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-03-16.china-leadership-6]]. Names: Chen Yi, Yang Shangkun, Chen Geng.'
+    n: '[[w.yang-shangkun-riji]], I, 664 (Mar. 17, 1961); [[w.chen-yi-nianpu]], 862 (Mar. 17, 1961, afternoon; Chen Yi at the airport receives Chen Geng''s ashes and takes them to the hall in Zhongshan Park for the installing rite). The words: 1时40分 (I, 664). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-03-16.china-leadership-6]]. Names: Chen Yi, Yang Shangkun, Chen Geng.'
     src:
       c: e0ba3b5e
       rows:
         - 'w.yang-shangkun-riji I, 664: all'
+        - 'w.chen-yi-nianpu 862: ?'
     tags: [polity:prc, name:chen-yi, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1961-03-17.china-leadership-6
@@ -3724,7 +3839,7 @@ entries:
     thread: china-leadership
     also: [farm, trade]
     c: 'At the Central Work Conference Zhou Enlai on grain and foreign trade: still tight; purchases and sales 7 billion jin short, to be met by imports; how much grain, labor and raw material the village can give the city decides how big industry may be. Three measures: back farming from all sides; thrift in dress and food; cut the urban population by over 10 million, from the 1961 wheat harvest to the end of 1962.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 20, 1961); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 20, 1961; Liu presides at the Central Work Conference''s session). Made public: 1996. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 20, 1961); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508 (Mar. 20, 1961; Liu presides at the Central Work Conference''s session); [[w.jian-zhou-enlai]], 459 (the March work conference: Zhou for fixing the peasants'' grain sales a year ahead and leaving them the surplus). Made public: 1996. To check: [[w.zhou-enlai-zhuan-1949]], II, 629, 608 (cited by [[w.jian-zhou-enlai]], 459 n.73). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-03-20.china-leadership-3
     when: Mar. 20
@@ -3749,12 +3864,13 @@ entries:
     place: canton
     thread: china-leadership
     c: Canton. Li Xiannian tells the work conference that it is decided to import 5 million tonnes of grain in 1961 and 3.5 to 4 million in 1962.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 24. Made public: 1997. To check: [[w.dangdai-zhongguode-liangshi-gongzuo]], 123 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 24 n.13). Names: Li Xiannian.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 24; [[w.jian-zhou-enlai]], 459 (the conference raises the year''s grain import to five million tons). Made public: 1997. To check: [[w.dangdai-zhongguode-liangshi-gongzuo]], 123 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 24 n.13); [[w.zhou-enlai-zhuan-1949]], II, 629, 608 (cited by [[w.jian-zhou-enlai]], 459 n.73). Names: Li Xiannian.'
     src:
       c: 275144f8
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 24: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 24 n.13: all'
+        - 'w.jian-zhou-enlai 459: ?'
     tags: [polity:prc, name:li-xiannian, vis:only:prc]
   - id: cal.1961-03-20.china-leadership-4
     when: Mar. 20
@@ -3790,11 +3906,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Chen Yi 陈毅 and Yang Shangkun 杨尚昆, 5:30 p.m., receive the Soviet Ambassador, who hands them the letter inviting the Chinese Party to send observers to the Warsaw Pact's Political Consultative Committee at Moscow 莫斯科 on Mar. 28.
-    n: '[[w.yang-shangkun-riji]], I, 665 (Mar. 20, 1961). The words: 5时半 (I, 665). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: CPSU Central Committee, letter to the Chinese Communist Party inviting observers to the Political Consultative Committee of the Warsaw Pact, Moscow, Mar. 28, 1961, handed over Mar. 20, 1961. Names: Chen Yi, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 665 (Mar. 20, 1961); [[w.westad-introduction]], 27 (in late March Chen Yi foresees a new period of close Sino-Soviet cooperation; 27 n.92 gives the record of Mar. 20, 1961). The words: 5时半 (I, 665). Made public: 1998 ([[w.westad-introduction]], 27 n.92, the Soviet record). To check: CPSU Central Committee, letter to the Chinese Communist Party inviting observers to the Political Consultative Committee of the Warsaw Pact, Moscow, Mar. 28, 1961, handed over Mar. 20, 1961; Record of conversation, Chervonenko–Chen Yi, Mar. 20, 1961, AVPRF, f. 0100, op. 54, pa. 466, d. 7, pp. 120–26 (cited by [[w.westad-introduction]], 27 n.92). Names: Chen Yi, Yang Shangkun.'
     src:
       c: 5a0672ce
       rows:
         - 'w.yang-shangkun-riji I, 665: all'
+        - 'w.westad-introduction 27: ?'
+        - 'via x.1961-03-20.chervonenko-chen-yi-record-avprf: ?'
     tags: [polity:prc, name:chen-yi, vis:only:prc+ussr]
     time_zone: Asia/Shanghai
   - id: cal.1961-03-20.china-leadership-7
@@ -3816,6 +3934,19 @@ entries:
       - 1961-03-20T11:00Z
       - 1961-03-20T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-03-20.china-leadership-8
+    when: Mar. 20
+    date: '1961-03-20'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the Japanese international exchange working group of the Miike 三池 struggle, its head 若松不二男, deputy head 石塚吉男 and members.
+    n: '[[w.chen-yi-nianpu]], 862. The words: 下午 (862). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi]
+    time_range:
+      - 1961-03-20T04:00Z
+      - 1961-03-20T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1961-03-21.states-and-cities-el-paso
     when: Mar. 21
@@ -4241,11 +4372,12 @@ entries:
     place: peking
     thread: china-leadership
     c: The Ziguang Ge 紫光阁, 5 p.m. Chen Yi 陈毅 gives a dinner for the Sichuan opera 川剧 troupe; Yang Shangkun 杨尚昆 and Li Bozhao 李伯钊 attend.
-    n: '[[w.yang-shangkun-riji]], I, 666 (Mar. 22, 1961). The words: 5时 (I, 666). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Yi, Yang Shangkun, Li Bozhao.'
+    n: '[[w.yang-shangkun-riji]], I, 666 (Mar. 22, 1961); [[w.chen-yi-nianpu]], 862 (Mar. 22, 1961; the symposium of opera workers in the Ziguang Ge, Zhongnanhai, where Chen Yi speaks). The words: 5时 (I, 666). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Chen Yi, Yang Shangkun, Li Bozhao.'
     src:
       c: ad8f43c5
       rows:
         - 'w.yang-shangkun-riji I, 666: all'
+        - 'w.chen-yi-nianpu 862: ?'
     tags: [polity:prc, name:chen-yi, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1961-03-22.china-leadership-6
@@ -4494,6 +4626,20 @@ entries:
     c: 'The Central Military Commission''s standing members on support for the South. Men: cadres and staff, units as cadre frames or whole, to build its forces. Materiel: weapons first, then medicine. Routes: by land in three directions (inside Vietnam, along the Lao border, deep into Laos), by air (drops, and Laos''s Xê Pôn airfield), by sea. Soviet and Chinese aid and captured arms, their markings removed; all in strict secrecy.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 40–42 (from the Central Military Commission''s file 259, the Defense Ministry''s archive). Made public: 2013.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1961-03-23.china-leadership-9
+    when: Mar. 23
+    date: '1961-03-23'
+    place: peking
+    thread: china-leadership
+    also: [south-asia]
+    c: Beijing Hotel 北京饭店, Peking. Chen Yi 陈毅 speaks at the national day reception of Malik 马立克, the Pakistani Ambassador.
+    n: '[[w.chen-yi-nianpu]], 863. The words: 晚上 (863). Names: Chen Yi.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi]
+    time_range:
+      - 1961-03-23T11:00Z
+      - 1961-03-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-24.program
     when: Mar. 24
     date: '1961-03-24'
@@ -4674,6 +4820,14 @@ entries:
     c: The Farmers' Liberation Association of South Vietnam founded, Mar. 24.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 143. Check: the place.'
     tags: [polity:drv]
+  - id: cal.1961-03-24.china-leadership-5
+    when: Mar. 24
+    date: '1961-03-24'
+    thread: china-leadership
+    also: [indonesia]
+    c: The Indonesia–China Friendship Association issues a statement welcoming Chen Yi's 陈毅 coming visit to Indonesia.
+    n: '[[w.chen-yi-nianpu]], 863. Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi]
   - id: cal.1961-03-25.soviet-union
     when: Mar. 25
     date: '1961-03-25'
@@ -4709,14 +4863,20 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou Enlai back in Peking; at the Zhongshan Park hall pays respects to Chen Geng 陈赓 (died Mar. 16 at Shanghai) and takes part in the public memorial.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 25, 1961); [[w.yang-shangkun-riji]], I, 666 (Mar. 25, 1961; Zhou, Deng Xiaoping and Peng Zhen back from Hankou by air that morning); [[w.yang-shangkun-riji]], I, 667 (Mar. 25, 1961; the public memorial 公祭 for Chen Geng at the Zhongshan Tang 中山堂, 3 p.m.; Yang Shangkun and Li Bozhao there, Yang with the coffin to Babaoshan 八宝山, home at 5). The entry read "Chen Guang"; the diary and its editors'' note name him Chen Geng 陈赓 ([[w.yang-shangkun-riji]], I, 664 and n.1). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 25, 1961); [[w.yang-shangkun-riji]], I, 666 (Mar. 25, 1961; Zhou, Deng Xiaoping and Peng Zhen back from Hankou by air that morning); [[w.yang-shangkun-riji]], I, 667 (Mar. 25, 1961; the public memorial 公祭 for Chen Geng at the Zhongshan Tang 中山堂, 3 p.m.; Yang Shangkun and Li Bozhao there, Yang with the coffin to Babaoshan 八宝山, home at 5); [[w.chen-yi-nianpu]], 862 (Mar. 25, 1961, afternoon; Chen Yi at the capital''s public memorial for Chen Geng, the Zhongshan Hall of Zhongshan Park). The entry read "Chen Guang"; the diary and its editors'' note name him Chen Geng 陈赓 ([[w.yang-shangkun-riji]], I, 664 and n.1). Names: Zhou Enlai.'
     src:
       c: 34b57ece
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 399: ?'
         - 'w.yang-shangkun-riji I, 666: A'
         - 'w.yang-shangkun-riji I, 667: B'
+        - 'w.chen-yi-nianpu 862: ?'
     tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1961-03-25T04:00Z
+      - 1961-03-25T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-25.china-leadership-3
     when: Mar. 25
     date: '1961-03-25'
@@ -4820,12 +4980,13 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Peking. Zhou Enlai goes to the airport to see off Chen Yi, leaving for a visit to Indonesia.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 26, 1961; 清晨); [[w.yang-shangkun-riji]], I, 667 (Mar. 26, 1961; Yang Shangkun at the Capital Airport at 8 a.m. to see Chen Yi off to Indonesia; Zhou not named). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 305 (Mar. 26, 1961; 清晨); [[w.yang-shangkun-riji]], I, 667 (Mar. 26, 1961; Yang Shangkun at the Capital Airport at 8 a.m. to see Chen Yi off to Indonesia; Zhou not named); [[w.chen-yi-nianpu]], 863 (Mar. 26, 1961, early morning (晨); Chen Yi leaves Peking for Indonesia; at Kunming that day). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 3e7e6f64
       rows:
         - 'w.zhou-enlai-waijiao-huodong 305: all'
         - 'w.yang-shangkun-riji I, 667: ?'
+        - 'w.chen-yi-nianpu 863: ?'
     tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:chen-yi]
     time_range:
       - 1961-03-25T21:00Z
@@ -5048,6 +5209,34 @@ entries:
       - 1961-03-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-27.china-leadership-9
+    when: Mar. 27
+    date: '1961-03-27'
+    place:
+      - kunming
+      - rangoon
+    thread: china-leadership
+    c: Chen Yi 陈毅 leaves Kunming 昆明 in the morning and stops at Rangoon; calls on 吴埃貌, Burma's acting Foreign Minister, in the afternoon.
+    n: '[[w.chen-yi-nianpu]], 863. See [[cal.1961-03-26.china-leadership]]. The words: 上午; 下午 (863). Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi]
+    time_range:
+      - 1961-03-26T23:30Z
+      - 1961-03-27T05:30Z
+    time_band: morning
+    time_zone: Asia/Yangon
+  - id: cal.1961-03-27.china-leadership-10
+    when: Mar. 27
+    date: '1961-03-27'
+    place: rangoon
+    thread: china-leadership
+    c: Rangoon. Chen Yi 陈毅 calls on Ne Win and is his guest at a banquet.
+    n: '[[w.chen-yi-nianpu]], 863. See [[cal.1961-03-27.china-leadership-9]]. The words: 晚上 (863). Names: Chen Yi, Ne Win.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:ne-win]
+    time_range:
+      - 1961-03-27T12:30Z
+      - 1961-03-27T15:30Z
+    time_band: evening
+    time_zone: Asia/Yangon
   - id: cal.1961-03-28.defense
     when: Mar. 28
     date: '1961-03-28'
@@ -5324,11 +5513,12 @@ entries:
     thread: china
     also: [indonesia]
     c: 'Chen Yi, Vice-Premier and Foreign Minister, begins a visit to Indonesia on invitation (to Apr. 2). In the visit, the days not given: Sukarno receives him; Chen Yi and Subandrio, the Indonesian Foreign Minister, hold special talks on relations and urgent international questions and reach agreement.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 189 (Mar. 28–Apr. 2, 1961). See [[cal.1961-03-26.china-leadership]]; the treaty, Apr. 1: [[cal.1961-04.china-leadership-8]]. Names: Chen Yi, Sukarno, Subandrio.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 189 (Mar. 28–Apr. 2, 1961); [[w.chen-yi-nianpu]], 863 (Mar. 28, 1961; Chen Yi leaves Rangoon in the morning and reaches Jakarta; a written statement at the airport; received by Sukarno at the Merdeka Palace; in the afternoon calls in turn on Djuanda, First Minister, Leimena, First Deputy First Minister, and Subandrio, Second Deputy First Minister and Foreign Minister; at Subandrio''s reception that evening). See [[cal.1961-03-26.china-leadership]]; the treaty, Apr. 1: [[cal.1961-04.china-leadership-8]]. Names: Chen Yi, Sukarno, Subandrio.'
     src:
       c: 203ef387
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 189: all'
+        - 'w.chen-yi-nianpu 863: ?'
     tags: [polity:prc, polity:indonesia, name:chen-yi, name:sukarno, name:subandrio]
   - id: cal.1961-03-28.china-2
     when: Mar. 28
@@ -5556,6 +5746,47 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1626–1627: ?'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-29.china-leadership-6
+    when: Mar. 29
+    date: '1961-03-29'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta 雅加达. Chen Yi 陈毅, with Suska 苏斯卡, head of the Foreign Ministry's Asia and Pacific department, lays a wreath at the heroes' cemetery; calls on Lukman 鲁克曼 and 穆萨林, vice-chairmen of the Gotong Royong parliament, and on Roeslan Abdulgani 阿卜杜加尼, vice-chairman of the Supreme Advisory Council, where both speak on Sino-Indonesian friendship and Asian–African unity against imperialism.
+    n: '[[w.chen-yi-nianpu]], 863–864. See [[cal.1961-03-28.china]]. The words: 上午 (863–864). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi]
+    time_range:
+      - 1961-03-28T22:30Z
+      - 1961-03-29T04:30Z
+    time_band: morning
+    time_zone: Asia/Jakarta
+  - id: cal.1961-03-29.china-leadership-7
+    when: Mar. 29
+    date: '1961-03-29'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta 雅加达, the Merdeka Palace 独立宫. Chen Yi 陈毅 calls on Sukarno, who gives him the second class of the Order of the Republic; Chen Yi hands him Liu Shaoqi's 刘少奇 letter inviting him to China, and presents; Sukarno's luncheon follows.
+    n: '[[w.chen-yi-nianpu]], 864. See [[cal.1961-03-28.china]]. The words: 上午 (864). Names: Chen Yi, Sukarno, Liu Shaoqi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:sukarno, name:liu-shaoqi]
+    time_range:
+      - 1961-03-28T22:30Z
+      - 1961-03-29T04:30Z
+    time_band: morning
+    time_zone: Asia/Jakarta
+  - id: cal.1961-03-29.china-leadership-8
+    when: Mar. 29
+    date: '1961-03-29'
+    place: jakarta
+    thread: china-leadership
+    c: Jakarta 雅加达. Chen Yi 陈毅 at the reception of Huang Zhen 黄镇, the Chinese Ambassador, for him.
+    n: '[[w.chen-yi-nianpu]], 864. See [[cal.1961-03-28.china]]. The words: 晚上 (864). Names: Chen Yi, Huang Zhen.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:huang-zhen]
+    time_range:
+      - 1961-03-29T11:30Z
+      - 1961-03-29T14:30Z
+    time_band: evening
+    time_zone: Asia/Jakarta
   - id: cal.1961-03-30.cuba
     when: Mar. 30
     date: '1961-03-30'
@@ -5699,6 +5930,47 @@ entries:
       - 1961-03-30T11:00Z
     time_band: daytime
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-30.china-leadership-5
+    when: Mar. 30
+    date: '1961-03-30'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta 雅加达. Chen Yi 陈毅 holds talks with Subandrio.
+    n: '[[w.chen-yi-nianpu]], 864. Made public: 1995. See [[cal.1961-03-28.china]]. The words: 上午 (864). Names: Chen Yi, Subandrio.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio, vis:only:prc+indonesia]
+    time_range:
+      - 1961-03-29T22:30Z
+      - 1961-03-30T04:30Z
+    time_band: morning
+    time_zone: Asia/Jakarta
+  - id: cal.1961-03-30.china-leadership-6
+    when: Mar. 30
+    date: '1961-03-30'
+    place: jakarta
+    thread: china-leadership
+    c: Jakarta 雅加达, the State Palace 国家宫. Chen Yi 陈毅 with Sukarno at the opening performance of the Chinese art troupe touring with him.
+    n: '[[w.chen-yi-nianpu]], 864. See [[cal.1961-03-28.china]]. The words: 晚上 (864). Names: Chen Yi, Sukarno.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:sukarno]
+    time_range:
+      - 1961-03-30T11:30Z
+      - 1961-03-30T14:30Z
+    time_band: evening
+    time_zone: Asia/Jakarta
+  - id: cal.1961-03-30.china-leadership-7
+    when: Mar. 30
+    date: '1961-03-30'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta 雅加达. Chen Yi 陈毅 calls on General Nasution, Minister of National Security and army chief of staff.
+    n: '[[w.chen-yi-nianpu]], 864. See [[cal.1961-03-30.china-leadership-5]]. The words: 上午 (864). Names: Chen Yi, Nasution.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:nasution-abdul-haris]
+    time_range:
+      - 1961-03-29T22:30Z
+      - 1961-03-30T04:30Z
+    time_band: morning
+    time_zone: Asia/Jakarta
   - id: cal.1961-03-31.opinion
     when: Mar. 31
     date: '1961-03-31'
@@ -6274,7 +6546,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Zhongnanhai. A conference on traditional opera, at Chen Yi''s instance; Chen Yi speaks: the old drama is not to be reformed out of existence, Mao himself is not to be deified, plays are for relaxation, "cast aside your inhibitions."'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 111–114. Made public: 1997. To check: [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 111 n.115a); [[w.chen-yi-zhuan]], 530 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 111 n.115b); [[w.suyin-my-house-has-two]], 353–54 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 112 n.122); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.123); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 477–78, 479–80, 479 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124a); [[w.twitchett-cambridge-history-of-china]], 350–55 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124b); [[w.cambridge-history-of-china]], 306–21 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124c); [[w.moruo-five-historical-plays]], vii–ix, 317–521 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124d); [[w.wagner-contemporary-chinese-historical-drama]], 80–138 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124e); [[w.kuhn-rebellion-and-its-enemies]], 135–52 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124f); [[w.schram-mao-tse-tung]], 51 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124g); [[w.xueyin-li-zicheng-vol-1]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124h); [[w.fbis-chi-91-076]], 25 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124i); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 479 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.125); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 479–80, 482 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.126); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 481 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.127); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 486 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 114 n.128). Names: Chen Yi, Mao Zedong. Check: the day.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 111–114; [[w.chen-yi-nianpu]], 862–863 (Mar. 22, 1961, the Ziguang Ge, Zhongnanhai; Chen Yi to the symposium of opera writers and directors in Peking; every age has its limits, the proletariat''s too; some wanted to leap to communism in farming, the communist wind, and erred; not even Chairman Mao can go beyond his time). Made public: 1997. Check: The Chen Yi chronology dates Chen Yi''s speech to the symposium in the Ziguang Ge Mar. 22, 1961 ([[w.chen-yi-nianpu]], 862). To check: [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 111 n.115a); [[w.chen-yi-zhuan]], 530 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 111 n.115b); [[w.suyin-my-house-has-two]], 353–54 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 112 n.122); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 483–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.123); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 477–78, 479–80, 479 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124a); [[w.twitchett-cambridge-history-of-china]], 350–55 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124b); [[w.cambridge-history-of-china]], 306–21 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124c); [[w.moruo-five-historical-plays]], vii–ix, 317–521 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124d); [[w.wagner-contemporary-chinese-historical-drama]], 80–138 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124e); [[w.kuhn-rebellion-and-its-enemies]], 135–52 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124f); [[w.schram-mao-tse-tung]], 51 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124g); [[w.xueyin-li-zicheng-vol-1]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124h); [[w.fbis-chi-91-076]], 25 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.124i); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 479 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.125); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 479–80, 482 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.126); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 481 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 113 n.127); [[w.yanjiusuo-zhongguo-wenxue-yanjiu-nianjian]], 486 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 114 n.128). Names: Chen Yi, Mao Zedong. Check: the day.'
     src:
       c: 8c3afc3e
       rows:
@@ -6296,6 +6568,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.126: C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 113 n.127: C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 114 n.128: C'
+        - 'w.chen-yi-nianpu 862–863: ?'
     tags: [polity:prc, name:chen-yi, name:mao-zedong, vis:only:prc]
   - id: cal.1961-03.china-leadership-3
     when: Mar.
@@ -6585,3 +6858,78 @@ entries:
         - 'w.dikotter-maos-great-famine 294–295: all'
         - 'via w.dikotter-maos-great-famine 295 n.18: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03.china-leadership-25
+    when: Mar., mid
+    date: 1961-03
+    at: before 1961-03-11
+    thread: china-leadership
+    c: Chen Yi 陈毅, back from field labor in Peking's 北京 eastern suburbs, writes four poems, "Spring delight" 《春兴》, at the invitation of a *Wenhui bao* 文汇报 reporter.
+    n: '[[w.chen-yi-nianpu]], 862. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+  - id: cal.1961-03-31.china-leadership-4
+    when: Mar. 31
+    date: '1961-03-31'
+    place: jakarta
+    thread: china-leadership
+    c: Jakarta 雅加达, the State Palace. The Indonesia–China Friendship Association, SOBSI 全印度尼西亚中央职工会, the Peasants' Front 印度尼西亚农民阵线, the People's Youth 人民青年团, Gerwani 印度尼西亚妇女运动协会 and other mass bodies bring Chen Yi 陈毅 gifts.
+    n: '[[w.chen-yi-nianpu]], 864. See [[cal.1961-03-28.china]]. The words: 上午 (864). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi]
+    time_range:
+      - 1961-03-30T22:30Z
+      - 1961-03-31T04:30Z
+    time_band: morning
+    time_zone: Asia/Jakarta
+  - id: cal.1961-03-31.china-leadership-5
+    when: Mar. 31
+    date: '1961-03-31'
+    time: 1961-03-31T03:00Z
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta 雅加达, the Merdeka Palace. Chen Yi 陈毅 and Subandrio continue their talks.
+    n: '[[w.chen-yi-nianpu]], 864. Made public: 1995. See [[cal.1961-03-30.china-leadership-5]]. The words: 上午10时30分 (864). Names: Chen Yi, Subandrio.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio, vis:only:prc+indonesia]
+    time_zone: Asia/Jakarta
+  - id: cal.1961-03-31.china-leadership-6
+    when: Mar. 31
+    date: '1961-03-31'
+    place: jakarta
+    thread: china-leadership
+    c: Jakarta 雅加达, the Chinese Embassy. Chen Yi 陈毅, with Huang Zhen 黄镇 and Li Jusheng 李菊生, counsellor and consul-general, receives the overseas Chinese representatives and speaks, urging them to be a bridge of friendship; they give a banquet for him after.
+    n: '[[w.chen-yi-nianpu]], 864. See [[cal.1961-03-28.china]]. Names: Chen Yi, Huang Zhen.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:huang-zhen]
+  - id: cal.1961-03-31.china-leadership-7
+    when: Mar. 31
+    date: '1961-03-31'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: 'Jakarta 雅加达, the State Palace. Chen Yi 陈毅 gives a farewell banquet; speaks: the talks deepened understanding and trust and agreed on peace, anti-colonialism and Asian–African unity; China glad to supply technology and machinery; the right way found for the dual-nationality treaty''s measures.'
+    n: '[[w.chen-yi-nianpu]], 864–865. See [[cal.1961-03-28.china]]. The words: 晚上 (864–865). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi]
+    time_range:
+      - 1961-03-31T11:30Z
+      - 1961-03-31T14:30Z
+    time_band: evening
+    time_zone: Asia/Jakarta
+  - id: cal.1961-03.china-leadership-26
+    when: Mar.
+    date: 1961-03
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes the poem "On reading the *Baimeiwu shiji*, for Chen Shulao" 《读〈百梅屋诗集〉题陈叔老》.
+    n: '[[w.chen-yi-nianpu]], 865. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+  - id: cal.1961-03.china-leadership-27
+    when: Mar., before the 14th
+    date: 1961-03
+    at: before 1961-03-14
+    place: canton
+    thread: china-leadership
+    c: 'Mao Zedong 毛澤東 at Canton 廣州, told that Liu Shaoqi 劉少奇 can come only in two days, writes Tao Zhu 陶鑄 a note: "Which emperor is shitting on my head? Tao Zhu is appointed envoy plenipotentiary to Peking to fetch His Majesty." Before Tao''s plane leaves, Liu arrives unbidden.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 92. Made public: 2016. To check: Wu Nansheng 吳南生 to Yang Jisheng and Xiao Donglian 蕭東連, Oct. 19, 2007 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 92 n.129). Names: Mao Zedong, Liu Shaoqi, Tao Zhu.'
+    src:
+      c: ae4a36b6
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 92: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 92 n.129: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:liu-shaoqi, name:tao-zhu]

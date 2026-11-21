@@ -10,15 +10,21 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou Enlai home; at 10 o'clock pays respects at the bier of Lin Boqu (died May 29), and keeps vigil. On June 2 he takes part in the capital's public memorial for Lin Boqu.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (June 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 283 (June 1, 1960; 上午11时15分, 抵达北京; Zhu De, Soong Ching Ling, Deng Xiaoping, Peng Zhen and Li Xiannian at the airport); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (June 2, 1960; Liu presides at the public funeral of Lin Boqu). Made public: 1993. The time is the first day''s. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 324 (June 1, 1960); [[w.zhou-enlai-waijiao-huodong]], 283 (June 1, 1960; 上午11时15分, 抵达北京; Zhu De, Soong Ching Ling, Deng Xiaoping, Peng Zhen and Li Xiannian at the airport); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (June 2, 1960; Liu presides at the public funeral of Lin Boqu); [[w.chen-yi-nianpu]], 820 (June 1, 1960, noon; Chen Yi with Zhou Enlai and others straight from the airport to the Working People''s Cultural Palace, a silent tribute before Lin Boqu''s portrait, and the vigil). Made public: 1993. The time is the first day''s. Names: Zhou Enlai.'
     src:
       c: 3a12ac7c
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 324: ?'
         - 'w.zhou-enlai-waijiao-huodong 283: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 487: C'
+        - 'w.chen-yi-nianpu 820: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
     time_zone: Asia/Shanghai
+    variants:
+      - unit: B
+        witness: w.chen-yi-nianpu
+        reads: Zhou Enlai and Chen Yi, back in Peking at 11:15 a.m. from Ulan Bator, go straight from the airport to Lin Boqu's bier at the Working People's Cultural Palace at noon (中午)
+        at: '820'
   - id: cal.1960-06-01.china-leadership-2
     when: June 1
     date: '1960-06-01'
@@ -27,11 +33,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Ulan Bator. Zhou Enlai ends his visit to Mongolia and flies home; Tsedenbal and Sambuu see him off at the airport.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 282–83 (June 1, 1960; 上午7时40分). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 282–83 (June 1, 1960; 上午7时40分); [[w.chen-yi-nianpu]], 820 (June 1, 1960, 7:40 a.m.; Chen Yi leaves Ulan Bator with Zhou Enlai; back in Peking at 11:15). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 210d0a26
       rows:
         - 'w.zhou-enlai-waijiao-huodong 282–83: all'
+        - 'w.chen-yi-nianpu 820: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_zone: Asia/Ulaanbaatar
   - id: cal.1960-06-01.china-leadership-3
@@ -41,8 +48,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Liu Shaoqi attends the opening of the national conference of advanced units and workers in socialist construction in education, culture, health, sports and the press, and receives all the presidium's members.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (June 1, 1960). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (June 1, 1960); [[w.chen-yi-nianpu]], 820 (June 1, 1960, afternoon; Chen Yi at the conference, the Great Hall of the People, and with Liu Shaoqi, Zhou Enlai, Zhu De, Soong Ching Ling, Dong Biwu and others receives its presidium). Names: Liu Shaoqi.'
     tags: [polity:prc, name:liu-shaoqi]
+    time_range:
+      - 1960-06-01T04:00Z
+      - 1960-06-01T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-01.china-leadership-4
     when: June 1
     date: '1960-06-01'
@@ -74,6 +86,19 @@ entries:
         - 'w.yang-shangkun-riji I, 514: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-01.china-leadership-6
+    when: June 1
+    date: '1960-06-01'
+    thread: china-leadership
+    also: [soviet-union]
+    c: Deng Xiaoping and Chervonenko meet. Deng praises Khrushchev's speech at Paris of May 16, which "explained the soundness" of the socialist camp's position. He has not yet heard Mao's view; Mao is away from Peking.
+    n: '[[w.westad-sino-soviet-alliance-and]], 179 n.40 (Westad: "early June"; the record dated June 1, 1960). Made public: 1998. To check: Record of conversation, Chervonenko–Deng Xiaoping, June 1, 1960, AVPRF, f. 0100, op. 53, pa. 454, d. 8, pp. 165–69 (cited by [[w.westad-sino-soviet-alliance-and]], 179 n.40). Names: Deng Xiaoping, Chervonenko, Khrushchev, Mao Zedong.'
+    src:
+      c: 8e685b21
+      rows:
+        - 'w.westad-sino-soviet-alliance-and 179 n.40: all'
+        - 'via x.1960-06-01.chervonenko-deng-record-avprf: all'
+    tags: [polity:prc, polity:ussr, vis:only:prc+ussr, name:deng-xiaoping, name:chervonenko-stepan-v, name:khrushchev-nikita-s, name:mao-zedong, ok:fields-place]
   - id: cal.1960-06-02.economy
     when: June 2
     date: '1960-06-02'
@@ -162,11 +187,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai goes to the airport to welcome Haxhi Lleshi, Chairman of the Presidium of the Albanian People's Assembly, visiting China at Liu Shaoqi's invitation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 2, 1960; 下午). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 2, 1960; 下午); [[w.chen-yi-nianpu]], 820 (June 2, 1960, afternoon; Chen Yi at the airport to welcome Haxhi Lleshi and the other guests). Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: b03d4c43
       rows:
         - 'w.zhou-enlai-waijiao-huodong 283: all'
+        - 'w.chen-yi-nianpu 820: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai, name:liu-shaoqi]
     time_range:
       - 1960-06-02T04:00Z
@@ -180,12 +206,13 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai accompanies Liu Shaoqi in meeting Lleshi.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 2, 1960; 晚上); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (June 2, 1960; Liu, with Zhu De and Zhou Enlai, receives Haxhi Lleshi, chairman of the presidium of Albania''s People''s Assembly). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 2, 1960; 晚上); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (June 2, 1960; Liu, with Zhu De and Zhou Enlai, receives Haxhi Lleshi, chairman of the presidium of Albania''s People''s Assembly); [[w.chen-yi-nianpu]], 820 (June 2, 1960, evening; Chen Yi present when Liu Shaoqi meets Lleshi). Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: 1f5270fa
       rows:
         - 'w.zhou-enlai-waijiao-huodong 283: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 487: A'
+        - 'w.chen-yi-nianpu 820: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai, name:liu-shaoqi]
     time_range:
       - 1960-06-02T11:00Z
@@ -210,15 +237,18 @@ entries:
   - id: cal.1960-06-02.china-leadership-4
     when: June 2
     date: '1960-06-02'
+    time: 1960-06-02T02:00Z
     place: peking
     thread: china-leadership
     c: Peking 北京. The capital's public memorial for Lin Boqu 林伯渠; Deng Xiaoping 邓小平 gives the eulogy for the Central Committee.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1554 (June 2, 1960). See [[cal.1960-06-01.china-leadership]]. Names: Deng Xiaoping, Lin Boqu.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1554 (June 2, 1960); [[w.chen-yi-nianpu]], 820 (June 2, 1960, 10 a.m.; Chen Yi at the public memorial for Lin Boqu, the Working People''s Cultural Palace). See [[cal.1960-06-01.china-leadership]]. Names: Deng Xiaoping, Lin Boqu.'
     src:
       c: 10bc364d
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1554: all'
+        - 'w.chen-yi-nianpu 820: ?'
     tags: [polity:prc, name:deng-xiaoping, name:lin-boqu]
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-02.china-leadership-5
     when: June 2
     date: '1960-06-02'
@@ -288,11 +318,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the state banquet given by Liu Shaoqi for Lleshi.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 3, 1960; 晚上). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 3, 1960; 晚上); [[w.chen-yi-nianpu]], 820 (June 3, 1960, evening; Chen Yi at Liu Shaoqi''s state banquet for Lleshi). Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: 3e110caa
       rows:
         - 'w.zhou-enlai-waijiao-huodong 283: all'
+        - 'w.chen-yi-nianpu 820: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai, name:liu-shaoqi]
     time_range:
       - 1960-06-03T11:00Z
@@ -403,6 +434,19 @@ entries:
         - 'w.yang-jisheng-mubei I, 221-222: all'
         - 'via w.yang-jisheng-mubei I, 222 n.83: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-06-03.china-leadership-12
+    when: June 3
+    date: '1960-06-03'
+    thread: china-leadership
+    also: [cuba]
+    c: 'Chen Yi 陈毅 receives three men of Cuba''s July 26 Movement: Fernando López Muñoz 费尔南多·洛佩斯·穆尼奥, head of secondary education in the Education Ministry; 费尔南多·路易斯, mayor of Santiago de Cuba; and 曼努埃尔·苏萨耳迪, the movement''s finance secretary.'
+    n: '[[w.chen-yi-nianpu]], 820. The words: 上午 (820). Names: Chen Yi.'
+    tags: [polity:prc, polity:cuba, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1960-06-02T22:00Z
+      - 1960-06-03T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-04.china-leadership
     when: June 4–6
     date: '1960-06-04'
@@ -506,6 +550,31 @@ entries:
       rows:
         - 'w.yang-jisheng-mubei I, 477: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-06-04.china-leadership-8
+    when: June 4
+    date: '1960-06-04'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Liao Luyan 廖鲁言, Minister of Agriculture, take Haxhi Lleshi 哈奇·列希 and the other guests to the national agricultural exhibition hall 全国农业展览馆.
+    n: '[[w.chen-yi-nianpu]], 820. See [[cal.1960-06-02.china-leadership]]. The words: 上午 (820). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi]
+    time_range:
+      - 1960-06-03T22:00Z
+      - 1960-06-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-04.china-leadership-9
+    when: June 4
+    date: '1960-06-04'
+    thread: china-leadership
+    also: [cuba]
+    c: Chen Yi 陈毅 and his wife give a farewell banquet for Major William Gálvez Rodríguez 威廉·加尔维斯·罗德里格斯, Inspector General of the Cuban army, and his wife.
+    n: '[[w.chen-yi-nianpu]], 820. The words: 下午 (820). Names: Chen Yi.'
+    tags: [polity:prc, polity:cuba, name:chen-yi]
+    time_range:
+      - 1960-06-04T04:00Z
+      - 1960-06-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-05.china-leadership
     when: June 5
     date: '1960-06-05'
@@ -601,6 +670,69 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 305: all'
         - 'w.lengxi-shinian-lunzhan-1956-1966 276: A, B'
+  - id: cal.1960-06-05.china-leadership-8
+    when: June 5
+    date: '1960-06-05'
+    thread: china-leadership
+    c: Chen Yi 陈毅 reports on the international situation to the national conference of advanced workers in culture and education 全国文教先进工作者代表大会.
+    n: '[[w.chen-yi-nianpu]], 821. The words: 上午 (821). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1960-06-04T22:00Z
+      - 1960-06-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-05.china-leadership-9
+    when: June 5
+    date: '1960-06-05'
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Lu Dingyi 陆定一, Lin Feng 林枫, Xu Teli 徐特立 and Zhang Jichun 张际春, head of the State Council's Office for Culture and Education 国务院文教办公室, receives more than 190 of the conference's advanced workers of thirty years' service or more.
+    n: '[[w.chen-yi-nianpu]], 821. See [[cal.1960-06-05.china-leadership-8]]. The words: 上午 (821). Names: Chen Yi, Lu Dingyi.'
+    tags: [polity:prc, name:chen-yi, name:lu-dingyi]
+    time_range:
+      - 1960-06-04T22:00Z
+      - 1960-06-05T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-05.china-leadership-10
+    when: June 5
+    date: '1960-06-05'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 speaks at the cocktail party of Hu Yuzhi 胡愈之, vice-president of the Chinese People's Institute of Foreign Affairs 中国人民外交学会, for the delegation of Congolese parties; on China's revolutionary experience; no letting down vigilance against imperialist intervention.
+    n: '[[w.chen-yi-nianpu]], 821. The words: 下午 (821). Names: Chen Yi.'
+    tags: [polity:prc, polity:congo, name:chen-yi]
+    time_range:
+      - 1960-06-05T04:00Z
+      - 1960-06-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-05.china-leadership-11
+    when: June 5
+    date: '1960-06-05'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the whole Japanese *go* 围棋 delegation, led by Segoe Kensaku 濑越宪作.
+    n: '[[w.chen-yi-nianpu]], 821. The words: 下午 (821). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi]
+    time_range:
+      - 1960-06-05T04:00Z
+      - 1960-06-05T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-05.china-leadership-12
+    when: June 5
+    date: '1960-06-05'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 meets the delegation of Japanese painters led by 前田清村.
+    n: '[[w.chen-yi-nianpu]], 821. The words: 晚上 (821). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi]
+    time_range:
+      - 1960-06-05T11:00Z
+      - 1960-06-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-06.governors-ia
     when: June 6
     date: '1960-06-06'
@@ -659,11 +791,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai attends the national flag day reception given by the Swedish Ambassador.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 6, 1960; 下午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 6, 1960; 下午); [[w.chen-yi-nianpu]], 821 (June 6, 1960, afternoon; Chen Yi speaks at the Swedish Ambassador''s flag day reception). Names: Zhou Enlai.'
     src:
       c: 09caaf88
       rows:
         - 'w.zhou-enlai-waijiao-huodong 283: all'
+        - 'w.chen-yi-nianpu 821: ?'
     tags: [polity:prc, polity:sweden, name:zhou-enlai]
     time_range:
       - 1960-06-06T04:00Z
@@ -677,11 +810,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai attends the reception given by the Albanian Ambassador for Lleshi's visit.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 6, 1960; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 6, 1960; 晚上); [[w.chen-yi-nianpu]], 821 (June 6, 1960, evening; the reception of 帕里夫蒂, the Albanian Ambassador, at the Beijing Hotel, for Lleshi and Liri Belishova; Chen Yi toasts). Names: Zhou Enlai.'
     src:
       c: 7fa298e1
       rows:
         - 'w.zhou-enlai-waijiao-huodong 283: all'
+        - 'w.chen-yi-nianpu 821: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai]
     time_range:
       - 1960-06-06T11:00Z
@@ -742,6 +876,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1554: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-06-06.china-leadership-8
+    when: June 6
+    date: '1960-06-06'
+    thread: china-leadership
+    also: [japan]
+    c: 'Chen Yi 陈毅 receives the whole delegation of Japanese writers led by Noma Hiroshi 野间宏: the Japanese people, against the security treaty and the Kishi government, have changed the world''s view of Japan; China backs their struggle.'
+    n: '[[w.chen-yi-nianpu]], 821. The words: 上午 (821). Names: Chen Yi, Kishi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, name:kishi-nobusuke]
+    time_range:
+      - 1960-06-05T22:00Z
+      - 1960-06-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-07.elections-1960
     when: June 7
     date: '1960-06-07'
@@ -834,11 +981,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai goes to the airport to see off Lleshi.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 284 (June 7, 1960; 上午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 284 (June 7, 1960; 上午); [[w.chen-yi-nianpu]], 821 (June 7, 1960, morning; Chen Yi at the airport to see Lleshi off to Shanghai, Hangzhou and other places). Names: Zhou Enlai.'
     src:
       c: a825e371
       rows:
         - 'w.zhou-enlai-waijiao-huodong 284: all'
+        - 'w.chen-yi-nianpu 821: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai]
     time_range:
       - 1960-06-06T22:00Z
@@ -968,7 +1116,7 @@ entries:
     place: shanghai
     thread: china-leadership
     c: 'Shanghai. The enlarged Politburo, Mao presiding, on the supplementary plan for 1960–62 and the world: plans to leave a margin, agriculture the base and to be hurried; the fourteen targets for the three years cut sharply.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 8, 1960 (the entry for June 8–18); [[w.zhou-enlai-nianpu-1949]], II, 325, June 8–18, 1960 (Zhou present); [[w.macfarquhar-origins-of-the-cultural]], III, 11 (the June conference: targets, quality and variety); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488 (June 8–18, 1960; Liu attends the enlarged Politburo meeting at Shanghai: the international situation, the supplementary plan for the last three years of the Second Five-Year Plan (1960–62), and a summing up of the experience of economic construction); [[w.deng-xiaoping-nianpu-1904]], III, 1557 (June 8–18, 1960; Deng attends; the supplementary plan for 1960–62 and the lessons of economic construction; on the 18th Mao''s "Ten-year summary" 十年总结 printed: a great blindness still about socialist revolution and construction, a realm of necessity not yet known, the second decade to study its laws); [[w.mao-zedong-zhuan]], V, ch. 66 (Jun. 8–18 at Shanghai, the Jinjiang Hotel 锦江饭店: the enlarged Politburo on the supplementary plan for the last three years of the second five-year plan; the targets pressed down). Made public: 1996. To check: [[w.zhonggong-dangshi-dashi-nianbiao]], 306 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2a); [[w.bijun-xin-zhongguo-jingji-shi]], 171 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2b). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 8, 1960 (the entry for June 8–18); [[w.zhou-enlai-nianpu-1949]], II, 325, June 8–18, 1960 (Zhou present); [[w.macfarquhar-origins-of-the-cultural]], III, 11 (the June conference: targets, quality and variety); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 488 (June 8–18, 1960; Liu attends the enlarged Politburo meeting at Shanghai: the international situation, the supplementary plan for the last three years of the Second Five-Year Plan (1960–62), and a summing up of the experience of economic construction); [[w.deng-xiaoping-nianpu-1904]], III, 1557 (June 8–18, 1960; Deng attends; the supplementary plan for 1960–62 and the lessons of economic construction; on the 18th Mao''s "Ten-year summary" 十年总结 printed: a great blindness still about socialist revolution and construction, a realm of necessity not yet known, the second decade to study its laws); [[w.mao-zedong-zhuan]], V, ch. 66 (Jun. 8–18 at Shanghai, the Jinjiang Hotel 锦江饭店: the enlarged Politburo on the supplementary plan for the last three years of the second five-year plan; the targets pressed down). [[w.chen-yi-nianpu]], 821 (June 14–18, 1960; Chen Yi at the enlarged Politburo at Shanghai, on the world and the supplementary plan for 1960–62, summing up the lessons of economic construction); [[w.jian-zhou-enlai]], 454 (a week-long enlarged Politburo at Shanghai from June 8; Mao''s opening speech: experience insufficient, mistakes not to be covered up but summed up). Made public: 1996. To check: [[w.zhonggong-dangshi-dashi-nianbiao]], 306 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2a); [[w.bijun-xin-zhongguo-jingji-shi]], 171 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 11 n.2b). Names: Mao Zedong.'
     src:
       c: 817f33bf
       rows:
@@ -981,6 +1129,8 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 488: B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1557: ?'
         - 'w.mao-zedong-zhuan V, ch. 66: A, C'
+        - 'w.chen-yi-nianpu 821: ?'
+        - 'w.jian-zhou-enlai 454: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-06-08.china-leadership-2
     when: June 8
@@ -1410,6 +1560,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 517: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-06-10.soviet-union
+    when: June 10
+    date: '1960-06-10'
+    thread: soviet-union
+    also: [china]
+    c: '*Sovetskaya Rossiya*: "present-day leftists" take peaceful coexistence, an end to the arms race and friendship between the peoples of capitalist and socialist countries for a retreat from Marxism–Leninism, and any worsening abroad for proof of their "sectarian views."'
+    n: '[[w.westad-introduction]], 24 (the Soviet press''s answer to "Long Live Leninism"; 24 n.84 gives *Sovietskaia Rossiia*, June 10, 1960). To check: *Sovietskaia Rossiia*, June 10, 1960 (cited by [[w.westad-introduction]], 24 n.84).'
+    src:
+      c: 671cd3fa
+      rows:
+        - 'w.westad-introduction 24: all'
+        - 'via x.1960-06-10.sovetskaya-rossiya-june-10: all'
+    tags: [polity:ussr]
   - id: cal.1960-06-11.europe-and-the-alliance-turkey
     when: June 11
     date: '1960-06-11'
@@ -1682,7 +1845,7 @@ entries:
     place: shanghai
     thread: china-leadership
     c: 'Shanghai, the enlarged Politburo. Mao: the targets to be set again (Li Fuchun: steel 30 million tons, grain 600 billion jin in 1962); set them low and beat them in the year, as the Eighth Congress''s plan of 1956 did, its best part the low targets.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 14, 1960; [[w.yang-shangkun-riji]], I, 518 (June 14, 1960; the plenary, 3:30 to 6 p.m.; Mao''s views on planning); [[w.yang-jisheng-mubei]], II, 1170 (the enlarged Politburo at the Jinjiang Hotel, Shanghai, June 10–18; Mao, in his speech of June 14, proposes lowering the plan''s targets, steel''s quality, kinds and scale first and its quantity second); [[w.mao-zedong-zhuan]], V, ch. 66 n.39 (June 14: Mao on the plan, set the targets low and put quality first, the best part of the Eighth Congress''s plan of 1956 its low targets). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 66). Check: Made public: the diary printed its record of the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 518), before the year the note gives. To check: Mao Zedong 毛泽东, speech at the enlarged Politburo meeting 中共中央政治局扩大会议, Shanghai, June 14, 1960 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.39). Names: Mao Zedong, Li Fuchun.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 14, 1960; [[w.yang-shangkun-riji]], I, 518 (June 14, 1960; the plenary, 3:30 to 6 p.m.; Mao''s views on planning); [[w.yang-jisheng-mubei]], II, 1170 (the enlarged Politburo at the Jinjiang Hotel, Shanghai, June 10–18; Mao, in his speech of June 14, proposes lowering the plan''s targets, steel''s quality, kinds and scale first and its quantity second); [[w.mao-zedong-zhuan]], V, ch. 66 n.39 (June 14: Mao on the plan, set the targets low and put quality first, the best part of the Eighth Congress''s plan of 1956 its low targets). [[w.jian-zhou-enlai]], 454 ("two days before the meeting ended": Mao, pointing at Zhou, likes Zhou''s speech at the Eighth Congress, which has given room for maneuver). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 66). Check: Made public: the diary printed its record of the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 518), before the year the note gives. To check: Mao Zedong 毛泽东, speech at the enlarged Politburo meeting 中共中央政治局扩大会议, Shanghai, June 14, 1960 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.39). Names: Mao Zedong, Li Fuchun.'
     src:
       c: 8824ffb3
       rows:
@@ -1691,6 +1854,7 @@ entries:
         - 'w.yang-jisheng-mubei II, 1170: A-B'
         - 'w.mao-zedong-zhuan V, ch. 66 n.39: C'
         - 'via w.mao-zedong-zhuan V, ch.66 n.39: C'
+        - 'w.jian-zhou-enlai 454: ?'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, vis:only:prc]
   - id: cal.1960-06-14.china-leadership-2
     when: June 14
@@ -1711,7 +1875,7 @@ entries:
     date: '1960-06-14'
     thread: china-leadership
     c: 'The Center, by Mao''s 毛泽东 draft, to the Shanghai 上海 Bureau and the Party committees of the provinces, cities and autonomous regions: encloses two Guangdong 广东 papers on the ''three antis'' 三反 in the countryside; the Center finds the questions raised and their handling correct, for other places to consult. The papers: Tao Zhu 陶铸''s opinions of May 21 from Shantou 汕头 and the provincial committee''s report of June 4. Tao proposes provincial committee members four months a year below, prefectural six, county secretaries seven, and, from then to 1962, the ''three togethers'' 三同 with cadres and masses restored at once.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XV, 241–243 (June 14, 1960; the Center''s comment of June 14, 1960; printed from Mao''s manuscript); [[w.yang-jisheng-mubei]], II, 1139 n.61 (the Guangdong committee''s "three antis" experience, offered by its first secretary Tao Zhu on May 21, aims at the cadres of communes and teams, with accounts to be cleared and goods refunded and class origin the test; Mao''s comment of June 14: the questions Guangdong raised and its handling of them are correct, for other places to consult). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Tao Zhu, "Opinions on doing the rural ''three antis'' well and thoroughly improving cadres'' work style", written at Shantou, May 21, 1960 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 241 n.1a); Guangdong Provincial Party Committee, report "The rural ''three antis'' must win a great victory", June 4, 1960 (cadres to eat in the mess halls and farm; twelve rules for rural cadres; mess halls the center of reform; coarse grains to be planted) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 241 n.1b). Names: Mao Zedong, Tao Zhu.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 241–243 (June 14, 1960; the Center''s comment of June 14, 1960; printed from Mao''s manuscript); [[w.yang-jisheng-mubei]], II, 1139 n.61 (the Guangdong committee''s "three antis" experience, offered by its first secretary Tao Zhu on May 21, aims at the cadres of communes and teams, with accounts to be cleared and goods refunded and class origin the test; Mao''s comment of June 14: the questions Guangdong raised and its handling of them are correct, for other places to consult); [[w.yang-jisheng-tiandi-fanfu]], I, 81 ("the questions the Guangdong committee raises and its way of handling them are correct, for other places to consult"). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Tao Zhu, "Opinions on doing the rural ''three antis'' well and thoroughly improving cadres'' work style", written at Shantou, May 21, 1960 (cited by [[w.jianguo-yilai-mao-zedong]], XV, 241 n.1a); Guangdong Provincial Party Committee, report "The rural ''three antis'' must win a great victory", June 4, 1960 (cadres to eat in the mess halls and farm; twelve rules for rural cadres; mess halls the center of reform; coarse grains to be planted) (cited by [[w.jianguo-yilai-mao-zedong]], XV, 241 n.1b). Names: Mao Zedong, Tao Zhu.'
     src:
       c: f6c9efa9
       rows:
@@ -1719,6 +1883,7 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XV, 241 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 241 n.1b: all'
         - 'w.yang-jisheng-mubei II, 1139 n.61: A, B'
+        - 'w.yang-jisheng-tiandi-fanfu I, 81: ?'
     tags: [polity:prc, name:mao-zedong, name:tao-zhu, vis:only:prc]
   - id: cal.1960-06-14.china-leadership-4
     when: June 14
@@ -1765,6 +1930,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1551: all'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1960-06-14.china-leadership-8
+    when: June 14
+    date: '1960-06-14'
+    place: shanghai
+    thread: china-leadership
+    c: 'Shanghai, the enlarged Politburo. Zhou Enlai, asked by Mao to speak on agriculture: the general situation very good, but high targets have done farming serious harm; the initiative may be lost and the plans for 1962 fail. He proposes much lower targets for grain, cotton and meat, not for steel.'
+    n: '[[w.jian-zhou-enlai]], 455 (Mao''s request; Zhou''s speech). Made public: 1998. To check: Zhou''s speech at a Politburo enlarged meeting, June 14, 1960 (cited by [[w.jian-zhou-enlai]], 455 n.50a); [[w.zhou-enlai-zhuan-1949]], I, 583–584 (cited by [[w.jian-zhou-enlai]], 455 n.50b). Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: d8dd34ee
+      rows:
+        - 'w.jian-zhou-enlai 455: all'
+        - 'via x.1960-06-14.zhou-speech-enlarged-politburo-shanghai: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:mao-zedong]
   - id: cal.1960-06-15.japan-and-korea
     when: June 15–16
     date: '1960-06-15'
@@ -2030,11 +2208,12 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: Moscow. Peng Zhen's delegation, left Peking that day, meets Kozlov of the Presidium for eight hours of argument. Kozlov faults the three Lenin articles and the Peking trade-union meeting, in theory and in organization, a typed document of some twenty pages in hand; asked how the Bucharest meeting is to go, he says it will be settled there. The delegation cables that it is not a good sign.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 279–280. Made public: 1999. Check: the Deng nianpu''s footnote (III, 1565 n.1) dates the Moscow talks of Peng Zhen''s delegation with Kozlov June 17, 1960. See [[cal.1960-06-12.china-leadership]]. Names: Peng Zhen, Kozlov. Check: Wu gives the first day only, "June 16" for the departure; the 8 hours as the delegation cabled them.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 279–280; [[w.brothers-in-arms]], 363 (Chen Yi to Chervonenko, Aug. 4, 1960: Peng Zhen''s talks with Kozlov at Moscow brought no unity). Made public: 1998 ([[w.brothers-in-arms]], 363, Chen Yi''s account in the Soviet record of Aug. 4, 1960). Check: the Deng nianpu''s footnote (III, 1565 n.1) dates the Moscow talks of Peng Zhen''s delegation with Kozlov June 17, 1960. See [[cal.1960-06-12.china-leadership]]. Names: Peng Zhen, Kozlov. Check: Wu gives the first day only, "June 16" for the departure; the 8 hours as the delegation cabled them.'
     src:
       c: 29cdd746
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 279–280: all'
+        - 'w.brothers-in-arms 363: ?'
     tags: [polity:prc, name:peng-zhen, name:kozlov-frol-r, vis:only:prc+ussr]
   - id: cal.1960-06-16.china-leadership-2
     when: June 16
@@ -2125,12 +2304,18 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance]
     c: 'Chen Yi receives Bodil Koch, Danish Minister for Church Affairs, and Prof. Hal Koch, the first Nordic official of ministerial rank to visit China. Chen: Denmark, Norway and Sweden hold an important strategic place and may be able to mediate between East and West; China would like to see Danish friends do more of this.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 147 (June 17, 1960). Made public: 2001. Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 147 (June 17, 1960); [[w.chen-yi-nianpu]], 822 (June 17, 1960, afternoon; Bodil Koch, her husband Prof. Koch and their daughter). Made public: 2001. Names: Chen Yi.'
     src:
       c: 6bab9afb
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 147: all'
+        - 'w.chen-yi-nianpu 822: ?'
     tags: [polity:prc, polity:denmark, name:chen-yi, vis:only:prc+denmark]
+    time_range:
+      - 1960-06-17T04:00Z
+      - 1960-06-17T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-17.china-leadership-4
     when: June 17
     date: '1960-06-17'
@@ -2165,6 +2350,18 @@ entries:
       - 1960-06-17T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-17.china-leadership-6
+    when: June 17
+    date: '1960-06-17'
+    thread: china-leadership
+    c: Chen Yi 陈毅 and Liu Lantao 刘澜涛, alternate secretary of the Secretariat, give a farewell banquet for Knud Jespersen 克努德·耶斯佩森, chairman of the Danish Communist Party, and his wife.
+    n: '[[w.chen-yi-nianpu]], 822. The words: 晚上 (822). Names: Chen Yi.'
+    tags: [polity:prc, polity:denmark, name:chen-yi]
+    time_range:
+      - 1960-06-17T11:00Z
+      - 1960-06-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-18.japan-and-korea-far-east
     when: June 18–19
     date: '1960-06-18'
@@ -2184,7 +2381,7 @@ entries:
     date: '1960-06-18'
     thread: china-leadership
     c: 'Mao writes the "Ten-Year Summary": eight years of copying foreign experience; from the "Ten Great Relationships" of 1956 a Chinese line begun; the general line and the leap, 1958; the communes found workable, their disorders; the targets of 1958–59 too high, the mistakes now to be owned.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 18, 1960; [[w.jianguo-yilai-mao-zedong]], XV, 247–252 (June 18, 1960; Mao''s 毛泽东 text ''Ten-Year Summary'' 十年总结, dated 8 a.m. June 18, written in two hours, he says, for his talk that afternoon at the Shanghai 上海 meeting; printed from the typeset copy in the Central Archives (a manuscript exists)); [[w.yang-jisheng-mubei]], II, 1170–1171 (during the Shanghai meeting Mao writes the "Ten-Year Summary" 《十年總結》, beginning to own the error of the high targets of the years before); [[w.mao-zedong-zhuan]], V, ch. 66 n.40 (Mao writes the "Ten-Year Summary" early on June 18, in two hours: eight years of copying the foreign, and from the "Ten Great Relationships" of 1956 a line of China''s own; the book also gives judgments of it the editors call wrong). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 66). To check: *Jianguo yilai Mao Zedong wengao*, the "Ten-Year Summary"; Mao Zedong 毛泽东, "Ten-Year Summary" 《十年总结》 (manuscript 手稿), June 18, 1960 (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.40). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 18, 1960; [[w.jianguo-yilai-mao-zedong]], XV, 247–252 (June 18, 1960; Mao''s 毛泽东 text ''Ten-Year Summary'' 十年总结, dated 8 a.m. June 18, written in two hours, he says, for his talk that afternoon at the Shanghai 上海 meeting; printed from the typeset copy in the Central Archives (a manuscript exists)); [[w.yang-jisheng-mubei]], II, 1170–1171 (during the Shanghai meeting Mao writes the "Ten-Year Summary" 《十年總結》, beginning to own the error of the high targets of the years before); [[w.mao-zedong-zhuan]], V, ch. 66 n.40 (Mao writes the "Ten-Year Summary" early on June 18, in two hours: eight years of copying the foreign, and from the "Ten Great Relationships" of 1956 a line of China''s own; the book also gives judgments of it the editors call wrong). [[w.jian-zhou-enlai]], 454 ("Ten Year Summary," handed out on the last day: "I myself have committed many mistakes"; the Second Five-Year Plan''s goals, set under Zhou, leave three years'' room). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 66). To check: *Jianguo yilai Mao Zedong wengao*, the "Ten-Year Summary"; Mao Zedong 毛泽东, "Ten-Year Summary" 《十年总结》 (manuscript 手稿), June 18, 1960 (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.40); [[w.zedong-jianguo-yilai-mao-zedong]], IX, 213–216 (cited by [[w.jian-zhou-enlai]], 454 n.49). Names: Mao Zedong.'
     src:
       c: 0730d94e
       rows:
@@ -2193,6 +2390,7 @@ entries:
         - 'w.yang-jisheng-mubei II, 1170–1171: A, E'
         - 'w.mao-zedong-zhuan V, ch. 66 n.40: A-B'
         - 'via w.mao-zedong-zhuan V, ch.66 n.40: A-B'
+        - 'w.jian-zhou-enlai 454: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1960-06-18.china-leadership-2
     when: June 18
@@ -2301,11 +2499,12 @@ entries:
     thread: china
     also: [africa]
     c: Zhou Enlai and Chen Yi cable congratulations to Keita, Prime Minister of the Mali Federation, on its independence. Chen Yi tells him in his cable that the Chinese government has decided to recognize the Mali Federation.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 147–148 (June 19, 1960). Names: Zhou Enlai, Chen Yi, Keita. Check: the book''s 凯塔 is read as Keita (Modibo Keita).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 147–148 (June 19, 1960); [[w.chen-yi-nianpu]], 822 (June 19, 1960; Chen Yi telegraphs Keita congratulations on the Mali Federation''s independence and China''s decision to recognize it). Names: Zhou Enlai, Chen Yi, Keita. Check: the book''s 凯塔 is read as Keita (Modibo Keita).'
     src:
       c: c04c39fe
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 147–148: all'
+        - 'w.chen-yi-nianpu 822: ?'
     tags: [polity:prc, polity:mali, name:zhou-enlai, name:chen-yi, name:keita-modibo]
   - id: cal.1960-06-19.china-leadership-2
     when: June 19
@@ -2374,11 +2573,12 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: 'Bucharest. The Romanian Workers'' Party''s third congress, June 20–25. Khrushchev''s long speech is cheered; Peng Zhen''s greeting, on the views of the three Lenin articles, is applauded by the hall and coldly met on the platform. The Chinese delegation is shut off: other delegations do not call, the Romanian liaison will not say where they stay, visits are not arranged.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 280. Made public: 1999. Names: Khrushchev, Peng Zhen. Check: the delegation''s account as relayed; Khrushchev''s speech date within the congress.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 280; [[w.westad-introduction]], 25 (the Romanian congress at Bucharest, June 20–25, 1960; Khrushchev decides at the last moment to lead the Soviet delegation and defend his line; his words on the two world systems and on Lenin). Made public: 1999. To check: [[w.china-and-the-soviet]], 19–20 (cited by [[w.westad-introduction]], 25 n.86). Names: Khrushchev, Peng Zhen. Check: the delegation''s account as relayed; Khrushchev''s speech date within the congress.'
     src:
       c: bb2d5b36
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 280: all'
+        - 'w.westad-introduction 25: A'
     tags: [polity:prc, name:khrushchev-nikita-s, name:peng-zhen]
   - id: cal.1960-06-20.china-leadership
     when: June 20
@@ -2475,6 +2675,44 @@ entries:
       - 1960-06-21T11:00Z
       - 1960-06-21T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-21.china-leadership-6
+    when: June 21
+    date: '1960-06-21'
+    place: peking
+    thread: china-leadership
+    also: [china]
+    c: The *Renmin ribao* 人民日報 editorial, "Grasp livelihood as we grasp production" 《像抓生產一樣抓生活》. Since the spring's general rectification the rural mess halls are run better and better; they have entered a new period of sound growth.
+    n: '[[w.yang-jisheng-mubei]], II, 756.'
+    src:
+      c: ccc3dc24
+      rows:
+        - 'w.yang-jisheng-mubei II, 756: all'
+    tags: [polity:prc]
+  - id: cal.1960-06-21.china-leadership-4
+    when: June 21
+    date: '1960-06-21'
+    thread: china-leadership
+    also: [africa]
+    c: Chen Yi 陈毅 receives 阿卜杜拉克·苏西, head of the delegation of the Moroccan youth union 摩洛哥青年联盟, and four members.
+    n: '[[w.chen-yi-nianpu]], 822. The words: 上午 (822). Names: Chen Yi.'
+    tags: [polity:prc, polity:morocco, name:chen-yi]
+    time_range:
+      - 1960-06-20T22:00Z
+      - 1960-06-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-21.china-leadership-5
+    when: June 21
+    date: '1960-06-21'
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Luo Ruiqing 罗瑞卿 and others, at the hall of the War to Resist America and Aid Korea in the Military Museum of the Chinese People's Revolution 中国人民革命军事博物馆; in a pause, with Luo and Tan Zheng 谭政, meets the former Volunteers' heroes visiting there, 张积慧, 吴胜凯, the tank commander 李维斌 and others.
+    n: '[[w.chen-yi-nianpu]], 822. The words: 下午 (822). Names: Chen Yi, Luo Ruiqing.'
+    tags: [polity:prc, name:chen-yi, name:luo-ruiqing]
+    time_range:
+      - 1960-06-21T04:00Z
+      - 1960-06-21T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1960-06-22.japan-and-korea
     when: June 22–23
@@ -2755,12 +2993,15 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: Bucharest, morning. The Soviet delegation hands Peng Zhen's delegation the CPSU Central Committee's letter, dated June 21, in seven parts (the era; war and peace; peaceful coexistence; forms of transition; international mass organizations; China's breaches of the Declarations; unity). The same text had gone to the other parties as a "notification" on June 21, before the Chinese had it, by the Vietnamese, Korean and Albanian delegations' word. A draft communique follows, for discussion on the 24th. The delegation cables the points.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 281–283, 285 ("the morning of the 23rd", 285); [[w.yang-jisheng-mubei]], II, 1150 (on the eve of the talks the Soviet delegation suddenly hands round the CPSU''s notification of June 21 to the Chinese Central Committee, a full attack on the Chinese party). Made public: 1999. Names: Peng Zhen.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 281–283, 285 ("the morning of the 23rd", 285); [[w.yang-jisheng-mubei]], II, 1150 (on the eve of the talks the Soviet delegation suddenly hands round the CPSU''s notification of June 21 to the Chinese Central Committee, a full attack on the Chinese party); [[w.westad-introduction]], 25 (the Soviets circulate among the delegations a letter to the CCP Central Committee setting out the Soviet case and complaining of Chinese factionalism); [[w.brothers-in-arms]], 381 (Deng Xiaoping''s speech of July 8, 1963, in the Soviet record: the CPSU "disseminated the Informational Note" of its Central Committee against the CCP). Made public: 1999. To check: [[w.china-and-the-soviet]], 19–20 (cited by [[w.westad-introduction]], 25 n.86). Names: Peng Zhen.'
     src:
       c: ec205ebb
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 281–283, 285: all'
         - 'w.yang-jisheng-mubei II, 1150: B'
+        - 'w.westad-introduction 25: ?'
+        - 'w.brothers-in-arms 381: ?'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: ?'
     tags: [polity:prc, name:peng-zhen, vis:only:prc+ussr, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia@C-D, vis:only:prc@E]
     time_range:
       - 1960-06-23T04:00Z
@@ -2884,12 +3125,14 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: Bucharest, morning. The twelve parties' "talks," Gheorghiu-Dej presiding, turn on China from the CPSU notice; Bulgarian, Czechoslovak and East German delegates the sharpest, the Albanians, Koreans and Vietnamese against such a meeting. Khrushchev's closing attack. Peng Zhen answers him alone, on Khrushchev's own words, and objects to a communique not announced beforehand; Khrushchev demands signature; a half-hour recess; Gheorghiu-Dej calls on China for unity. That night the delegation cables Peking, inclined to sign with a statement.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 285–288 ("the morning of the 24th", 285); [[w.yang-jisheng-mubei]], II, 1150 (June 24, the communist and workers'' parties of the socialist countries in talks at Bucharest, Peng Zhen leading the Chinese delegation; Khrushchev leads the criticism of the Chinese party''s line). Made public: 1999. See [[cal.1960-06-23.soviet-union]]. Names: Khrushchev, Peng Zhen. Check: the account is the delegation''s, by cable and later telling.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 285–288 ("the morning of the 24th", 285); [[w.yang-jisheng-mubei]], II, 1150 (June 24, the communist and workers'' parties of the socialist countries in talks at Bucharest, Peng Zhen leading the Chinese delegation; Khrushchev leads the criticism of the Chinese party''s line); [[w.westad-introduction]], 25 (losing his temper at a small session of party heads, Khrushchev calls Mao "an ultra-leftist, an ultra-dogmatist, indeed, a left revisionist"; no day given). Made public: 1999. To check: [[w.china-and-the-soviet]], 20 (cited by [[w.westad-introduction]], 25 n.87); "Zusammenkunft der Delegationen der KPdSU und der KPCh im Juli 1963," raw translation, SAPMO-BArch, DY J IV 2/201, Aktenband 696, 128–30 (cited by [[w.westad-introduction]], 25 n.87). See [[cal.1960-06-23.soviet-union]]. Names: Khrushchev, Peng Zhen. Check: the account is the delegation''s, by cable and later telling.'
     src:
       c: 2ae2ebcf
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 285–288: all'
         - 'w.yang-jisheng-mubei II, 1150: B, D'
+        - 'w.westad-introduction 25: ?'
+        - 'via x.1963-07.cpsu-ccp-meetings-rohuebersetzung-sapmo: ?'
     tags: [polity:prc, name:khrushchev-nikita-s, name:peng-zhen, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia, vis:only:prc@I]
     time_range:
       - 1960-06-24T04:00Z
@@ -2949,6 +3192,14 @@ entries:
       - 1960-06-24T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-24.china-leadership-4
+    when: June 24
+    date: '1960-06-24'
+    thread: china-leadership
+    also: [africa]
+    c: Modibo Keita, Prime Minister of the Mali Federation, writes to Chen Yi 陈毅, thanking China for its congratulations on Mali's independence.
+    n: '[[w.chen-yi-nianpu]], 822. See [[cal.1960-06-19.china]]. Names: Keita, Chen Yi.'
+    tags: [polity:prc, polity:mali, name:chen-yi, name:keita-modibo]
   - id: cal.1960-06-25.specials
     when: June 25
     date: '1960-06-25'
@@ -2997,7 +3248,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Zhou Enlai drafts for the Center a letter to Peng Zhen, Kang Sheng and Wu Xiuquan at the Bucharest meeting of communist and workers'' parties (June 24–26): steps and means for handing out China''s own statement outside the sessions, as its corrections to the communiqué.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 327 (June 25, 1960). Made public: 1997. Names: Zhou Enlai, Peng Zhen, Kang Sheng.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 327 (June 25, 1960); [[w.jian-zhou-enlai]], 452 (Peng Zhen receives detailed instructions drafted by Zhou: struggle firmly with Khrushchev, keep to the big picture, sign the communiqué; Peng''s praise of the text). Made public: 1997. To check: [[w.lengxi-shinian-lunzhan-1956-1966]], 277 (cited by [[w.jian-zhou-enlai]], 452 n.39a); [[w.yan-mingfu-qinli-zhongsu-guanxi]], 234–235 (cited by [[w.jian-zhou-enlai]], 452 n.39b); [[w.yan-mingfu-qinli-zhongsu-guanxi]], 240 (cited by [[w.jian-zhou-enlai]], 452 n.40). Names: Zhou Enlai, Peng Zhen, Kang Sheng.'
     tags: [polity:prc, polity:ussr, polity:romania, name:zhou-enlai, name:peng-zhen, name:kang-sheng, vis:only:prc]
   - id: cal.1960-06-25.china-leadership-2
     when: June 25
@@ -3072,11 +3323,12 @@ entries:
     thread: china
     also: [africa]
     c: Zhou Enlai and Chen Yi cable Muhammad Haji Ibrahim Egal, Prime Minister of Somaliland (now the northern region of the Somali Republic), congratulations on its independence, and tell him that the Chinese government has decided to recognize it.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 148 (June 25, 1960). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 148 (June 25, 1960); [[w.chen-yi-nianpu]], 822 (June 25, 1960; Chen Yi telegraphs Egal congratulations on Somaliland''s independence and China''s decision to recognize it). Names: Zhou Enlai, Chen Yi.'
     src:
       c: e14b2dbf
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 148: all'
+        - 'w.chen-yi-nianpu 822: ?'
     tags: [polity:prc, polity:somalia, name:zhou-enlai, name:chen-yi, name:egal-mohammed-ibrahim]
   - id: cal.1960-06-25.china-leadership-4
     when: June 25
@@ -3199,12 +3451,13 @@ entries:
     follows:
       - cal.1960-06-26.soviet-union-2
     c: 'Bucharest, the meeting, near 11. Peng Zhen''s amendments to the communique refused by Khrushchev, "not a word"; near noon Peng says China will sign for unity, and the delegation hands its statement round. Khrushchev does not answer it; he proposes the parties'' meeting for the October Revolution''s anniversary, the drafting committee the twelve and ten more; China proposes Japan and Australia, agreed. Afternoon: Khrushchev''s rejoinder; Peng answers, on the "father party" and the forced signature, and they quarrel, Khrushchev on the long-wave station; at his call Zhivkov adds a dozen labels; Hysni Kapo of Albania: his Central Committee does not approve such a meeting. Gheorghiu-Dej closes, the communique adopted.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 294–298 ("near 11", 294); [[w.deng-xiaoping-nianpu-1904]], III, 1561 (June 26, 1960; the amendments refused, the delegation signs the communiqué for the camp''s unity and hands round its statement: the surprise draft "an extremely bad precedent"; no yielding to views against Marxism–Leninism; the two parties can find a way to settle the differences). Made public: 1999. See [[cal.1960-06-26.soviet-union-2]]. Names: Khrushchev, Peng Zhen. Check: the day: Wu says "the next day" after the 25th; the account is the delegation''s.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 294–298 ("near 11", 294); [[w.deng-xiaoping-nianpu-1904]], III, 1561 (June 26, 1960; the amendments refused, the delegation signs the communiqué for the camp''s unity and hands round its statement: the surprise draft "an extremely bad precedent"; no yielding to views against Marxism–Leninism; the two parties can find a way to settle the differences); [[w.brothers-in-arms]], 363 (Chen Yi, Aug. 4, 1960: the Chinese party signed the Bucharest communique, with reservations). Made public: 1998 ([[w.brothers-in-arms]], 363, Chen Yi''s account in the Soviet record of Aug. 4, 1960). See [[cal.1960-06-26.soviet-union-2]]. Names: Khrushchev, Peng Zhen. Check: the day: Wu says "the next day" after the 25th; the account is the delegation''s.'
     src:
       c: 549561e1
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 294–298: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1561: ?'
+        - 'w.brothers-in-arms 363: ?'
     tags: [polity:prc, name:khrushchev-nikita-s, name:peng-zhen, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia]
     time_zone: Europe/Bucharest
   - id: cal.1960-06-26.china-leadership
@@ -3232,6 +3485,39 @@ entries:
         - 'w.dikotter-maos-great-famine 289: all'
         - 'via w.dikotter-maos-great-famine 289 n.9: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-06-26.china-leadership-4
+    when: June 26
+    date: '1960-06-26'
+    thread: china-leadership
+    also: [congo]
+    c: Chen Yi 陈毅 telegraphs the Foreign Minister of the Republic of the Congo congratulations on its proclaimed independence; China has decided to recognize it.
+    n: '[[w.chen-yi-nianpu]], 822. Names: Chen Yi.'
+    tags: [polity:prc, polity:congo, name:chen-yi]
+  - id: cal.1960-06-26.china-leadership-5
+    when: June 26
+    date: '1960-06-26'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Vicente Lombardo Toledano 维森特·隆巴多·托列达诺, vice-president of the World Federation of Trade Unions and president of the Latin American labor confederation, and his wife.
+    n: '[[w.chen-yi-nianpu]], 822. The words: 上午 (822). Names: Chen Yi.'
+    tags: [polity:prc, polity:mexico, name:chen-yi]
+    time_range:
+      - 1960-06-25T22:00Z
+      - 1960-06-26T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-26.china-leadership-6
+    when: June 26
+    date: '1960-06-26'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Chen Yi 陈毅 speaks after He Long 贺龙 at He's banquet for the Chinese mountaineering team that climbed Everest 珠穆朗玛峰; a new page in mountaineering; the climbers to guard against pride and press on.
+    n: '[[w.chen-yi-nianpu]], 822. The words: 晚上 (822). Names: Chen Yi, He Long.'
+    tags: [polity:prc, name:chen-yi, name:he-long]
+    time_range:
+      - 1960-06-26T11:00Z
+      - 1960-06-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-27.japan-and-korea-far-east
     when: June 27
     date: '1960-06-27'
@@ -3454,6 +3740,21 @@ entries:
       - 1960-06-27T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1960-06-27.china-leadership-9
+    when: June 27
+    date: '1960-06-27'
+    thread: china-leadership
+    also: [africa]
+    c: Mohammed Ibrahim Egal, Prime Minister of Somaliland, telegraphs Chen Yi 陈毅 thanks for his congratulations on Somaliland's independence.
+    n: '[[w.chen-yi-nianpu]], 822–823. See [[cal.1960-06-25.china-2]]. Names: Egal, Chen Yi.'
+    tags: [polity:prc, polity:somalia, name:chen-yi, name:egal-mohammed-ibrahim]
+  - id: cal.1960-06-27.china-leadership-10
+    when: June 27
+    date: '1960-06-27'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the capital's militia rally; greets the militia.
+    n: '[[w.chen-yi-nianpu]], 823. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1960-06-28.specials
     when: June 28
     date: '1960-06-28'
@@ -3608,6 +3909,27 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1562: all'
     tags: [polity:prc]
+  - id: cal.1960-06-28.china-leadership-6
+    when: June 28
+    date: '1960-06-28'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the airport to welcome Haxhi Lleshi 哈奇·列希 and Liri Belishova 利丽·贝利绍娃, Politburo member and secretary of the Albanian Party of Labor, passing through Peking 北京 from Korea and Mongolia; with Dong Biwu 董必武 and others lunches with them at the airport.
+    n: '[[w.chen-yi-nianpu]], 823. See [[cal.1960-06-02.china-leadership]]. The words: 中午 (823). Names: Chen Yi, Dong Biwu.'
+    tags: [polity:prc, polity:albania, name:chen-yi, name:dong-biwu]
+    time_range:
+      - 1960-06-28T04:00Z
+      - 1960-06-28T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+  - id: cal.1960-06-28.china-leadership-7
+    when: June 28
+    date: '1960-06-28'
+    place: peking
+    thread: china-leadership
+    c: Peking 北京. Chen Yi 陈毅 receives Chinese *weiqi* 围棋, *xiangqi* 象棋 and chess players; chess good for body and mind and for friendship among peoples; the *xiangqi* world to end its old factionalism.
+    n: '[[w.chen-yi-nianpu]], 823. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1960-06-29.cuba
     when: June 29
     date: '1960-06-29'
@@ -4368,11 +4690,12 @@ entries:
     thread: china
     also: [africa]
     c: 'Zhou Enlai and Chen Yi cable Abdullahi Issa, Prime Minister of Somalia (now the southern region of the Somali Republic), congratulations on its independence, and tell him that the Chinese government has decided to recognize the Somali Republic. The editors'' note: on the day of independence the legislatures of Somaliland and Somalia held a joint session and announced their union as the Somali Democratic Republic.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 149 (June 30, 1960). See [[cal.1960-06-25.china-2]]. Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 149 (June 30, 1960); [[w.chen-yi-nianpu]], 823 (June 30, 1960; Chen Yi telegraphs Abdullahi Issa congratulations on Somalia''s independence and China''s decision to recognize it). See [[cal.1960-06-25.china-2]]. Names: Zhou Enlai, Chen Yi.'
     src:
       c: 369cf646
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 149: all'
+        - 'w.chen-yi-nianpu 823: ?'
     tags: [polity:prc, polity:somalia, name:zhou-enlai, name:chen-yi]
   - id: cal.1960-06-30.china-2
     when: June 30
@@ -4432,14 +4755,17 @@ entries:
   - id: cal.1960-06.china-leadership-4
     when: June
     date: 1960-06
+    place: jiangkou
     thread: china-leadership
     c: Jiangkou 江口 county, Guizhou 貴州. Peasants dying in numbers rise; among their leaders are commune Party secretaries. A motorized armed convoy puts the rising down. The county head, who had opened the granaries, shoots himself; the county secretary, whose false grain figures had set off the rising, drowns himself.
-    n: '[[w.yang-jisheng-mubei]], II, 1170 (the book''s chronology); [[w.yang-jisheng-mubei]], I, 575 (the "Jiangkou incident" of June 1960 in a county of Tongren 銅仁 prefecture that has lost almost half its people: the peasants rise, some commune Party secretaries among their leaders; the unarmed peasants are soon put down; the county head who had opened the granaries on his own shoots himself; n.13). Made public: 1993 (Zheng Yi 鄭義, in *Zhengming* 爭鳴, Hong Kong, Jan. 1993, as [[w.yang-jisheng-mubei]], I, 575 n.13 cites it). Check: the book gives the month only. Check: the chapter (I, 575) has the county head shoot himself and says nothing of the county secretary''s drowning (II, 1170); it says the incident is to be verified when the archives open. To check: Zheng Yi 鄭義, "Dayuejin shiqi nongcun beiju: Jiangkou shijian gengai" 《大躍進時期農村悲劇：江口事件梗概》, *Zhengming* 爭鳴 (Hong Kong), Jan. 1993 (cited by [[w.yang-jisheng-mubei]], I, 575 n.13).'
+    n: '[[w.yang-jisheng-mubei]], II, 1170 (the book''s chronology); [[w.yang-jisheng-mubei]], I, 575 (the "Jiangkou incident" of June 1960 in a county of Tongren 銅仁 prefecture that has lost almost half its people: the peasants rise, some commune Party secretaries among their leaders; the unarmed peasants are soon put down; the county head who had opened the granaries on his own shoots himself; n.13); [[w.yang-jisheng-mubei]], II, 1043 n.21 (the rising, among its leaders commune Party secretaries; its putting down by troops; the county head, who had opened the granaries, shooting himself; the county secretary, whose false figures had set it off, drowning himself). Made public: 1993 (Zheng Yi 鄭義, in *Zhengming* 爭鳴, Hong Kong, Jan. 1993, as [[w.yang-jisheng-mubei]], I, 575 n.13 cites it). Check: the book gives the month only. To check: Zheng Yi 鄭義, "Dayuejin shiqi nongcun beiju: Jiangkou shijian gengai" 《大躍進時期農村悲劇：江口事件梗概》, *Zhengming* 爭鳴 (Hong Kong), Jan. 1993 (cited by [[w.yang-jisheng-mubei]], I, 575 n.13).'
     src:
       c: 081e3dc5
       rows:
         - 'w.yang-jisheng-mubei II, 1170: all'
         - 'w.yang-jisheng-mubei I, 575: A, B, C, E'
+        - 'w.yang-jisheng-mubei II, 1043 n.21: A-F'
+        - 'via x.1993.zheng-yi-dayuejin-shiqi-nongcun-beiju-jiangkou-shijian-gaishi: A-F'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1960-06.china-leadership-5
     when: June
@@ -4536,3 +4862,26 @@ entries:
         - 'w.dikotter-maos-great-famine 198: all'
         - 'via w.dikotter-maos-great-famine 198 n.2: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-06-30.china-leadership-7
+    when: June 30
+    date: '1960-06-30'
+    thread: china-leadership
+    also: [congo]
+    c: Chen Yi 陈毅 receives Théodore Bengila 西奥多·本基拉, member of the national directing committee and deputy secretary-general of the Parti Solidaire Africain 非洲团结党 of the Congo, and 让·穆东波 of its Politburo 人民党政治局; greets the Congo's independence, which heartens Africa's struggle.
+    n: '[[w.chen-yi-nianpu]], 823. Names: Chen Yi.'
+    tags: [polity:prc, polity:congo, name:chen-yi]
+  - id: cal.1960-06.china-leadership-10
+    when: June
+    date: 1960-06
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes a poem for He Xiangning's 何香凝 painting *Tall Pines* 《高松图》.
+    n: '[[w.chen-yi-nianpu]], 823. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+  - id: cal.1960-06.china-leadership-11
+    when: June
+    date: 1960-06
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅, after the exhibition of modern Japanese painting in the Palace Museum 故宫, writes the poems "Five explanations of painting" 《绘画五解》 in tribute.
+    n: '[[w.chen-yi-nianpu]], 823. Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi]

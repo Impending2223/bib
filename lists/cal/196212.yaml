@@ -169,11 +169,12 @@ entries:
     thread: china
     also: [laos]
     c: 'Phoumi Nosavan, Deputy Prime Minister and Minister of Finance of the Royal Lao government, begins a visit to China at the head of a Lao government delegation (to Dec. 4). In the visit, the day not given, the two sides issue a joint press communique: they will strictly observe the Geneva agreements of 1962 and hope the states concerned will faithfully carry out their provisions and respect Laos''s independence and neutrality.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 258 (Dec. 2–4, 1962). Names: Phoumi Nosavan. Check: the book gives the visit''s span, Zhou''s reception of the delegation and the communique, no day for either.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 258 (Dec. 2–4, 1962); [[w.chen-yi-nianpu]], 945 (Dec. 2, 1962; Chen Yi welcomes Phoumi Nosavan at the airport in the afternoon, gives a banquet for him, his wife and the delegation in the evening and speaks on the peaceful settlement in Laos, and with Li Xiannian meets the delegation). Names: Phoumi Nosavan. Check: the book gives the visit''s span, Zhou''s reception of the delegation and the communique, no day for either.'
     src:
       c: a7140046
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 258: all'
+        - 'w.chen-yi-nianpu 945: ?'
     tags: [polity:prc, polity:laos, name:phoumi-nosavan]
   - id: cal.1962-12-02.china-leadership
     when: Dec. 2
@@ -224,6 +225,18 @@ entries:
       - 1962-12-02T04:00Z
       - 1962-12-02T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-02.china-leadership-4
+    when: Dec. 2
+    date: '1962-12-02'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the delegation of the Japanese Consumers' Cooperative Union led by 田中俊介.
+    n: '[[w.chen-yi-nianpu]], 945. The words: 上午 (945). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-12-01T22:00Z
+      - 1962-12-02T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1962-12-03.japan-and-korea
     when: Dec. 3–5
@@ -405,13 +418,14 @@ entries:
     thread: china-leadership
     also: [laos]
     c: Zhou Enlai receives the Royal Lao government's delegation under Phoumi Nosavan, Deputy Prime Minister and Minister of Finance, and talks of loan aid for Laotian construction and related matters.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 517 (Dec. 3, 1962); [[w.zhou-enlai-waijiao-huodong]], 344 (Dec. 3, 1962; 下午5时, 中南海西花厅, 接见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 258 (Dec. 2–4, 1962; the visit of the Lao government delegation under Phoumi Nosavan, Deputy Prime Minister and Minister of Finance; Zhou receives it; the two sides issue a joint communique). Made public: 1993. Names: Zhou Enlai, Phoumi Nosavan.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 517 (Dec. 3, 1962); [[w.zhou-enlai-waijiao-huodong]], 344 (Dec. 3, 1962; 下午5时, 中南海西花厅, 接见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 258 (Dec. 2–4, 1962; the visit of the Lao government delegation under Phoumi Nosavan, Deputy Prime Minister and Minister of Finance; Zhou receives it; the two sides issue a joint communique); [[w.chen-yi-nianpu]], 945 (Dec. 3, 1962, afternoon; Chen Yi present; at Zhou''s banquet that evening and the performance after). Made public: 1993. Names: Zhou Enlai, Phoumi Nosavan.'
     src:
       c: e5f7d1e2
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 517: ?'
         - 'w.zhou-enlai-waijiao-huodong 344: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 258: A'
+        - 'w.chen-yi-nianpu 945: ?'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:phoumi-nosavan, vis:only:prc+laos]
     time_zone: Asia/Shanghai
   - id: cal.1962-12-03.china-leadership-3
@@ -468,12 +482,13 @@ entries:
     date: '1962-12-03'
     thread: china-leadership
     c: 'The Gansu 甘肅 provincial committee''s third committee, fourth session 中共甘肅省委三屆四次會議, adopts its inspection report on some problems in carrying out the spirit of the Northwest Bureau''s Lanzhou meeting over two years 《中共甘肅省委關於兩年來貫徹執行西北局蘭州會議精神若干問題的檢查報告》. It censures the grassroots cadres'' blaming of their superiors as "vicious", an attempt to put the blame on the Center and Mao Zedong 毛主席; Gansu''s errors are general and special, the special chief, and mostly from Zhang Zhongliang''s 張仲良 personal ideas and character. It lists four things: the Center''s rule of 70 percent of investment for poor teams and 30 for communes altered; Mao''s Party letter to the cadres of six levels not carried out, Zhang issuing his own opinion on five powers for the teams; the Center''s water policy changed; the campaign against the right opportunists carried outside the Party.'
-    n: '[[w.yang-jisheng-mubei]], I, 175–177. Made public: 2008. To check: Gansu Provincial Committee, "Inspection report on some problems in carrying out the spirit of the Northwest Bureau''s Lanzhou meeting over two years," adopted Dec. 3, 1962 (cited by [[w.yang-jisheng-mubei]], I, 175 n.51). Names: Mao Zedong.'
+    n: '[[w.yang-jisheng-mubei]], I, 175–177; [[w.yang-jisheng-tiandi-fanfu]], I, 61 (the report''s count: over 11,000 cadres off production singled out for criticism and struggle in the 1959 campaign against right deviation, 151 of them senior). Made public: 2008. To check: Gansu Provincial Committee, "Inspection report on some problems in carrying out the spirit of the Northwest Bureau''s Lanzhou meeting over two years," adopted Dec. 3, 1962 (cited by [[w.yang-jisheng-mubei]], I, 175 n.51). Names: Mao Zedong.'
     src:
       c: cc91de2d
       rows:
         - 'w.yang-jisheng-mubei I, 175–177: all'
         - 'via w.yang-jisheng-mubei I, 175 n.51: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 61: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc, ok:fields-place]
   - id: cal.1962-12-04.laos
     when: Dec. 4
@@ -682,6 +697,55 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1735: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1962-12-04.china-leadership-7
+    when: Dec. 4
+    date: '1962-12-04'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Arudji Kartawinata 阿鲁季·卡塔威纳塔, Deputy Speaker of the Gotong Royong parliament, and his wife, and 阿赫马迪, Minister of Transmigration and Cooperatives.
+    n: '[[w.chen-yi-nianpu]], 945. The words: 下午 (945). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-12-04T04:00Z
+      - 1962-12-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-04.china-leadership-8
+    when: Dec. 4
+    date: '1962-12-04'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Sukarni Kartodiwirjo 苏卡尼·卡托迪维约, the Indonesian Ambassador.
+    n: '[[w.chen-yi-nianpu]], 945. The words: 下午 (945). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-12-04T04:00Z
+      - 1962-12-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-04.china-leadership-10
+    when: Dec. 4
+    date: '1962-12-04'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Raza 罗查, the Pakistani Ambassador.
+    n: '[[w.chen-yi-nianpu]], 945. See [[cal.1962-12-04.china-leadership-8]]. The words: 下午 (945). Names: Chen Yi, Raza.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, name:raza-nawabzada-agha-mohammad, ok:fields-place]
+    time_range:
+      - 1962-12-04T04:00Z
+      - 1962-12-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-04.china-leadership-9
+    when: Dec. 4
+    date: '1962-12-04'
+    thread: china-leadership
+    also: [china]
+    c: 'The Center''s notice on the situation of Cuba''s struggle against American imperialism: Moscow''s withdrawal of the missiles "kowtowing to U.S. imperialism," a betrayal of the Cuban revolution.'
+    n: '[[w.jian-zhou-enlai]], 486 (the book''s words for the criticism, the note dating the notice). Made public: 2024. To check: CCP CC''s notice on the situation of Cuba''s anti-American-imperialism struggles, December 4, 1962 (cited by [[w.jian-zhou-enlai]], 486 n.100).'
+    src:
+      c: 3d614725
+      rows:
+        - 'w.jian-zhou-enlai 486: all'
+        - 'via x.1962-12-04.ccp-cc-notice-cuba-anti-american-struggles: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
   - id: cal.1962-12-05.middle-east-johnson-plan
     when: Dec. 5
     date: '1962-12-05'
@@ -1150,6 +1214,25 @@ entries:
     c: 'The Secretariat''s circular no. 101-TT/TW on Dec. 19, the day of national resistance, and Dec. 22, the founding of the People''s Army: at the usual scale, to carry on the fighting tradition, expose the Americans'' war plans and the American–Diệm sabotage of the North, raise vigilance, and spur the 1962 and 1963 plans. Talks on the situation, museum visits, army and people''s festivals, visits to families of the wounded and the dead, a short emulation drive.'
     n: '*Thông tri của Ban Bí thư số 101-TT/TW, ngày 6-12-1962, Về kỷ niệm ngày toàn quốc kháng chiến (ngày 19 tháng 12) và ngày thành lập Quân đội nhân dân Việt Nam (ngày 22 tháng 12) năm nay*, signed for the Secretariat by Lê Văn Lương. [[w.van-kien-dang-toan]], XXIII, 802–05. Made public: 2002. Names: Ngô Đình Diệm.'
     tags: [polity:drv, polity:us, name:ngo-dinh-diem, vis:only:drv]
+  - id: cal.1962-12-06.china-leadership-8
+    when: Dec. 6
+    date: '1962-12-06'
+    thread: china-leadership
+    c: Phoumi Nosavan cables Chen Yi 陈毅 his thanks from Hanoi.
+    n: '[[w.chen-yi-nianpu]], 945. Names: Phoumi Nosavan, Chen Yi.'
+    tags: [polity:prc, polity:laos, name:phoumi-nosavan, name:chen-yi, ok:fields-place]
+  - id: cal.1962-12-06.china-leadership-9
+    when: Dec. 6
+    date: '1962-12-06'
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks and toasts at the reception of 托依伏拉, the Finnish Ambassador, at the embassy on Finland's forty-fifth anniversary.
+    n: '[[w.chen-yi-nianpu]], 945. The words: 晚上 (945). Names: Chen Yi.'
+    tags: [polity:prc, polity:finland, name:chen-yi]
+    time_range:
+      - 1962-12-06T11:00Z
+      - 1962-12-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-07.middle-east-johnson-plan
     when: Dec. 7
     date: '1962-12-07'
@@ -1440,6 +1523,31 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 231: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-12-09.china-leadership-5
+    when: Dec. 9
+    date: '1962-12-09'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the joint concert of Soviet musicians and the Central Philharmonic's orchestra in the Cultural Palace of Nationalities 民族文化宫; in the interval receives the conductor 尼亚基, the cellist 克努赛维茨基, the pianist 马利宁 and the accompanist 卡茨.
+    n: '[[w.chen-yi-nianpu]], 945. The words: 晚上 (945). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi]
+    time_range:
+      - 1962-12-09T11:00Z
+      - 1962-12-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-09.south-asia
+    when: Dec. 9
+    date: '1962-12-09'
+    thread: south-asia
+    c: 'Harriman, Assistant Secretary of State: relations between India and Moscow as friendly as possible serve India''s interests and America''s.'
+    n: '[[w.brothers-in-arms]], 381 (Deng Xiaoping''s speech of July 8, 1963, in the Soviet record, quoting him). Check: Harriman''s own words and the occasion; the record gives them in translation. Names: Harriman.'
+    src:
+      c: 1a058641
+      rows:
+        - 'w.brothers-in-arms 381: all'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: all'
+    tags: [polity:us, name:harriman-w-averell, ok:fields-place]
   - id: cal.1962-12-10.european-community
     when: Dec. 10
     date: '1962-12-10'
@@ -1530,12 +1638,13 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking Hotel. Zhou Enlai attends the dinner given by the Pakistani Ambassador, Raza, and his wife for the Chinese leaders; he speaks his warm welcome to the convening of the conference of six Asian and African states and hopes it will help bring about direct India–China talks.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 10, 1962; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 259 (Dec. 10, 1962; Zhou, at the banquet given by the new Pakistani ambassador, Raza (罗查), says on behalf of the Chinese government and people that he warmly welcomes the convening of the conference of six Asian and African states, sincerely hopes it will help direct Sino-Indian negotiations, and hopes all Asian and African countries will strengthen their unity so that imperialism''s plot to sow division among them never succeeds). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 10, 1962; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 259 (Dec. 10, 1962; Zhou, at the banquet given by the new Pakistani ambassador, Raza (罗查), says on behalf of the Chinese government and people that he warmly welcomes the convening of the conference of six Asian and African states, sincerely hopes it will help direct Sino-Indian negotiations, and hopes all Asian and African countries will strengthen their unity so that imperialism''s plot to sow division among them never succeeds); [[w.chen-yi-nianpu]], 945 (Dec. 10, 1962, evening; Chen Yi at the dinner of Raza 罗查 and his wife at the Peking Hotel for Zhou and the leaders). Names: Zhou Enlai.'
     src:
       c: 086646a4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 345: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 259: B-C'
+        - 'w.chen-yi-nianpu 945: ?'
     tags: [polity:prc, polity:pakistan, name:zhou-enlai]
     time_range:
       - 1962-12-10T11:00Z
@@ -2346,7 +2455,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking. The *Renmin ribao* editorial "Workers of the world, unite, oppose our common enemy." It sums up the attacks on the CCP and Albania at the Bulgarian, Hungarian and Czechoslovak congresses, above all the Czechoslovak; states China's views on war and peace, on imperialism and nuclear weapons; answers the charges on the Sino-Indian border and on Cuba, as departures from the stand toward enemy and friend; holds that relations among parties cannot be settled by a majority over a minority; and asks the parties to hold to the Moscow Declaration and Statement.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 515–517 (the editorial of Dec. 15 (Mao''s title; the first draft titled "Hold to truth..."); the first of seven articles, Dec. 15, 1962, to Mar. 8, 1963, none naming the CPSU or Khrushchev); [[w.macfarquhar-origins-of-the-cultural]], III, 321 (the day after the selection of Novotný''s remarks, an editorial calling on the proletarians of the world to unite against their common imperialist enemy); [[w.jianguo-yilai-mao-zedong]], XVI, 445 (Dec. 15, 1962; note 1 to Mao''s note of Dec. 14: the editorial printed Dec. 15 under that title); [[w.yang-shangkun-riji]], II, 233 (Dec. 15, 1962; Yang reads it that morning); [[w.deng-xiaoping-nianpu-1904]], III, 1737 (Dec. 15, 1962; printed as "Workers of the world, unite, oppose our common enemy"; aimed chiefly at the Czechoslovak congress''s charges (n.1)); [[w.mao-zedong-zhuan]], V, ch. 71 (Dec. 15: *Renmin ribao*, "Workers of the world, unite, oppose our common enemy", the first of the replies to the attacks at the Bulgarian, Hungarian and Czechoslovak party congresses, Mao having named the title). See [[cal.1962-12-14.china-leadership]].'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 515–517 (the editorial of Dec. 15 (Mao''s title; the first draft titled "Hold to truth..."); the first of seven articles, Dec. 15, 1962, to Mar. 8, 1963, none naming the CPSU or Khrushchev); [[w.macfarquhar-origins-of-the-cultural]], III, 321 (the day after the selection of Novotný''s remarks, an editorial calling on the proletarians of the world to unite against their common imperialist enemy); [[w.jianguo-yilai-mao-zedong]], XVI, 445 (Dec. 15, 1962; note 1 to Mao''s note of Dec. 14: the editorial printed Dec. 15 under that title); [[w.yang-shangkun-riji]], II, 233 (Dec. 15, 1962; Yang reads it that morning); [[w.deng-xiaoping-nianpu-1904]], III, 1737 (Dec. 15, 1962; printed as "Workers of the world, unite, oppose our common enemy"; aimed chiefly at the Czechoslovak congress''s charges (n.1)); [[w.mao-zedong-zhuan]], V, ch. 71 (Dec. 15: *Renmin ribao*, "Workers of the world, unite, oppose our common enemy", the first of the replies to the attacks at the Bulgarian, Hungarian and Czechoslovak party congresses, Mao having named the title). [[w.westad-introduction]], 28 (the propaganda after Oct. 28: praise of the Cubans, condemnation of those "frightened in the face of imperialist aggression"; 28 n.101 names this day''s *Renmin ribao*). See [[cal.1962-12-14.china-leadership]].'
     src:
       c: 5732b80d
       rows:
@@ -2356,6 +2465,8 @@ entries:
         - 'w.yang-shangkun-riji II, 233: A, B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1737: B-C'
         - 'w.mao-zedong-zhuan V, ch. 71: B-C'
+        - 'w.westad-introduction 28: ?'
+        - 'via x.1962-12-15.renmin-ribao-dec-15: ?'
     tags: [polity:prc]
   - id: cal.1962-12-16.cuba
     when: Dec. 16
@@ -2558,6 +2669,19 @@ entries:
     c: 'Khrushchev opens a meeting of the party and government leaders with writers and artists: no emergency; the party''s position good, the country''s good, the international position "excellent," the crisis survived. Ilyichev gives the Central Committee''s report. Yevtushenko, Deineka and Gribachev speak; Khrushchev, repeatedly, on the "rubbish" shown ("I am against" it), the young and the "healthy" art; Deineka asks for a gallery of Soviet art and says the young are not all rotten.'
     n: '[[w.khrushchev-dva-tsveta-vremeni]], II, 533–600 (VII, doc. 9, the stenogram). Made public: 2009. Names: Khrushchev. Check: the place and the list present; the closing of the meeting, pp. 590–600, not read.'
     tags: [name:khrushchev-nikita-s, polity:ussr, vis:only:ussr]
+  - id: cal.1962-12-17.china-leadership
+    when: Dec. 17
+    date: '1962-12-17'
+    thread: china-leadership
+    also: [japan]
+    c: 'Chen Yi 陈毅 speaks and toasts at the reception of Nan Hanchen 南汉宸, chairman of the China Council for the Promotion of International Trade, for 铃木一雄 of the Japan–China Trade Promotion Association, 宿谷荣一 and 木村一三 of the Japan Association for the Promotion of International Trade: China wishes to promote trade with Japan; Sino-Japanese friendship no outside power can stop.'
+    n: '[[w.chen-yi-nianpu]], 946. The words: 晚上 (946). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-12-17T11:00Z
+      - 1962-12-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-18.europe-and-the-alliance
     when: Dec. 18–21
     date: '1962-12-18'
@@ -2730,12 +2854,18 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Chen Yi, Vice-Premier, speaks at the cocktail party of the China–Cambodia Friendship Association for the second anniversary of the Sino-Cambodian treaty of friendship and non-aggression and of the Cambodia–China Friendship Association's founding. The treaty has had a stabilizing effect on peace in Southeast Asia and reflects the two peoples' love of peace. The Colombo conference's agreement on an appeal to China and India for a peaceful settlement of the boundary conflict accords with China's peace policy.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 261 (Dec. 18, 1962). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 261 (Dec. 18, 1962); [[w.chen-yi-nianpu]], 946 (Dec. 18, 1962, evening; the China–Cambodia Friendship Association''s party for the treaty''s second anniversary; the Colombo six''s appeal agrees with China''s policy of peace). Names: Chen Yi.'
     src:
       c: 9c0b0865
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 261: all'
+        - 'w.chen-yi-nianpu 946: ?'
     tags: [polity:prc, polity:cambodia, polity:india, name:chen-yi]
+    time_range:
+      - 1962-12-18T11:00Z
+      - 1962-12-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-18.china-leadership-3
     when: Dec. 18
     date: '1962-12-18'
@@ -2810,6 +2940,18 @@ entries:
       - 1962-12-18T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-18.south-asia
+    when: Dec. 18
+    date: '1962-12-18'
+    thread: south-asia
+    c: 'Harriman, to a Japanese correspondent: the United States wants the Soviet Union to help India''s defense.'
+    n: '[[w.brothers-in-arms]], 381 (Deng Xiaoping''s speech of July 8, 1963, in the Soviet record). Check: Harriman''s own words; the record gives them in translation. Names: Harriman.'
+    src:
+      c: b38a5645
+      rows:
+        - 'w.brothers-in-arms 381: all'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: all'
+    tags: [polity:us, name:harriman-w-averell]
   - id: cal.1962-12-19.testing
     when: Dec. 19
     date: '1962-12-19'
@@ -2902,12 +3044,18 @@ entries:
     date: '1962-12-19'
     thread: china-leadership
     c: Chen Yi, Vice-Premier, receives a British Labour M.P. and former Cabinet minister, Noel-Baker.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 261 (Dec. 19, 1962). Names: Chen Yi. Check: the book''s 诺尔·贝克; the Latin form is back-converted (Philip Noel-Baker?).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 261 (Dec. 19, 1962); [[w.chen-yi-nianpu]], 946 (Dec. 19, 1962, morning; Philip Noel-Baker 诺尔·贝克). Names: Chen Yi. Check: the book''s 诺尔·贝克; the Latin form is back-converted (Philip Noel-Baker?).'
     src:
       c: 84ceb5c6
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 261: all'
+        - 'w.chen-yi-nianpu 946: ?'
     tags: [polity:prc, polity:uk, name:chen-yi]
+    time_range:
+      - 1962-12-18T22:00Z
+      - 1962-12-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-19.china
     when: Dec. 19
     date: '1962-12-19'
@@ -2966,6 +3114,20 @@ entries:
       - 1962-12-19T11:00Z
     time_band: afternoon
     time_zone: Asia/Bangkok
+  - id: cal.1962-12-19.china-leadership-7
+    when: Dec. 19
+    date: '1962-12-19'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 at the capital's meeting in the auditorium of the CPPCC 政协礼堂 for the NLF's second anniversary.
+    n: '[[w.chen-yi-nianpu]], 946. The words: 下午 (946). Names: Chen Yi.'
+    tags: [polity:prc, polity:nlf, name:chen-yi]
+    time_range:
+      - 1962-12-19T04:00Z
+      - 1962-12-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-20.latin-america
     when: Dec. 20
     date: '1962-12-20'
@@ -3047,12 +3209,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai, at the banquet of Afghanistan''s Ambassador, Mohammad Shoaib Miskinyar: Asian and African states should live in peace and friendship and settle the questions left between them by imperialist rule by friendly talks, not force or threat of force.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 519 (Dec. 20, 1962); [[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 20, 1962; 晚上, 阿富汗驻华大使馆). Check: the ambassador''s name in Roman letters. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 519 (Dec. 20, 1962); [[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 20, 1962; 晚上, 阿富汗驻华大使馆); [[w.chen-yi-nianpu]], 946 (Dec. 20, 1962, evening; Chen Yi at the dinner of the ambassador and his wife for Zhou at the embassy). Check: the ambassador''s name in Roman letters. Names: Zhou Enlai.'
     src:
       c: 7d1bd9a5
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 519: ?'
         - 'w.zhou-enlai-waijiao-huodong 345: A'
+        - 'w.chen-yi-nianpu 946: ?'
     tags: [polity:prc, polity:afghanistan, name:zhou-enlai]
     time_range:
       - 1962-12-20T11:00Z
@@ -3252,13 +3415,14 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou Enlai and Chen Yi receive Ceylon's Prime Minister's special envoy, G. S. Peiris, Ambassador to Burma, who hands over the six-state conference's appeal to China and India for a peaceful settlement. Zhou admires Ceylon's initiative; the aim is direct talks of China and India for a peaceful settlement; China will talk at any time; it welcomes Bandaranaike's visit, to speak of the border and of Sino-Ceylonese friendship.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 519 (Dec. 22, 1962); [[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 22, 1962; 上午, 中南海西花厅, 接见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 261 (Dec. 22, 1962; Zhou and Chen Yi receive Ceylon''s special envoy G. S. Peiris (格·斯·佩里斯), who on Bandaranaike''s behalf hands over the six-state conference''s appeal to the Chinese and Indian governments for a peaceful settlement of the boundary conflict). Continues 520. Made public: 1993. Names: Zhou Enlai, Chen Yi, G. S. Peiris, Srimavo Bandaranaike.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 519 (Dec. 22, 1962); [[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 22, 1962; 上午, 中南海西花厅, 接见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 261 (Dec. 22, 1962; Zhou and Chen Yi receive Ceylon''s special envoy G. S. Peiris (格·斯·佩里斯), who on Bandaranaike''s behalf hands over the six-state conference''s appeal to the Chinese and Indian governments for a peaceful settlement of the boundary conflict); [[w.chen-yi-nianpu]], 946 (Dec. 22, 1962, morning; the envoy G. S. Peiris 格·斯·佩里斯, Ceylon''s Ambassador to Burma, hands Zhou and Chen Yi the six Asian countries'' appeal). Continues 520. Made public: 1993. Names: Zhou Enlai, Chen Yi, G. S. Peiris, Srimavo Bandaranaike.'
     src:
       c: 7d4f8a89
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 519: ?'
         - 'w.zhou-enlai-waijiao-huodong 345: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 261: A'
+        - 'w.chen-yi-nianpu 946: ?'
     tags: [polity:prc, polity:ceylon, polity:india, name:zhou-enlai, name:chen-yi, name:bandaranaike-srimavo, vis:only:prc+ceylon]
     time_range:
       - 1962-12-21T22:00Z
@@ -3316,6 +3480,18 @@ entries:
         - 'w.yang-shangkun-riji II, 235: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1738: ?'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-22.china-leadership-6
+    when: Dec. 22
+    date: '1962-12-22'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the cocktail party of 雷兹·马利列, the Albanian Ambassador, for the Albanian–Chinese Friendship Association delegation led by 佩蒂·沙姆布利.
+    n: '[[w.chen-yi-nianpu]], 946. See [[cal.1962-11-24.china-leadership-5]]. The words: 晚上 (946). Names: Chen Yi.'
+    tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-12-22T11:00Z
+      - 1962-12-22T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1962-12-23.robert-kennedy
     when: Dec. 23
@@ -3377,11 +3553,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union, trade]
     c: Peking. Zhou Enlai attends the reception given by Jiang Nanxiang, president of the China–Albania Friendship Association, in farewell to the Albania–China Friendship Association delegation headed by Shamblli, and receives the Albanian government's trade delegation headed by Ngjela, Minister of Trade.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 23, 1962; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 23, 1962; 晚上); [[w.chen-yi-nianpu]], 946–947 (Dec. 23, 1962; Chen Yi at the reception of Jiang Nanxiang 蒋南翔, president of the China–Albania Friendship Association, seeing off 佩蒂·沙姆布利''s delegation; with Zhou and Li Xiannian 李先念 receives the Albanian government trade delegation led by 基乔·恩杰拉, Minister of Trade). Names: Zhou Enlai.'
     src:
       c: 9584eaae
       rows:
         - 'w.zhou-enlai-waijiao-huodong 345: all'
+        - 'w.chen-yi-nianpu 946–947: ?'
     tags: [polity:prc, polity:albania, name:zhou-enlai]
     time_range:
       - 1962-12-23T11:00Z
@@ -3602,12 +3779,13 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai goes to the airport to welcome Tsedenbal, Chairman of the Mongolian Council of Ministers, on his visit to sign the China–Mongolia boundary treaty.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 上午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 25–27, 1962; the visit of Tsedenbal, Chairman of the Mongolian Council of Ministers, in the book Chairman of the Council; Liu Shaoqi receives him; Zhou holds talks with him). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 上午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 25–27, 1962; the visit of Tsedenbal, Chairman of the Mongolian Council of Ministers, in the book Chairman of the Council; Liu Shaoqi receives him; Zhou holds talks with him); [[w.chen-yi-nianpu]], 947 (Dec. 25, 1962, morning; Chen Yi at the airport). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 605b76d5
       rows:
         - 'w.zhou-enlai-waijiao-huodong 345: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: B'
+        - 'w.chen-yi-nianpu 947: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1962-12-24T22:00Z
@@ -3622,11 +3800,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking, the Great Hall of the People, Fujian Hall. Zhou Enlai receives the Cambodian Ambassador, Sisowath Sirik Matak, and talks of Sihanouk's visit to China.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 下午4时15分). Made public: 1993. Names: Zhou Enlai, Sirik Matak, Sihanouk.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 下午4时15分); [[w.chen-yi-nianpu]], 947 (Dec. 25, 1962, afternoon; Chen Yi present). Made public: 1993. Names: Zhou Enlai, Sirik Matak, Sihanouk.'
     src:
       c: b84a810c
       rows:
         - 'w.zhou-enlai-waijiao-huodong 345: all'
+        - 'w.chen-yi-nianpu 947: ?'
     tags: [polity:prc, polity:cambodia, name:zhou-enlai, name:sirik-matak-sisowath, name:norodom-sihanouk, vis:only:prc+cambodia]
     time_zone: Asia/Shanghai
   - id: cal.1962-12-25.china-leadership-5
@@ -3636,11 +3815,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the state banquet welcoming Tsedenbal.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 晚上). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 晚上); [[w.chen-yi-nianpu]], 947 (Dec. 25, 1962, evening; Chen Yi at Zhou''s banquet). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 71addbd3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 345: all'
+        - 'w.chen-yi-nianpu 947: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1962-12-25T11:00Z
@@ -3654,28 +3834,18 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the evening of music, dance and acrobatics given by the Ministry of Culture and the China–Mongolia Friendship Association for Tsedenbal.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 晚上). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 345 (Dec. 25, 1962; 晚上); [[w.chen-yi-nianpu]], 947 (Dec. 25, 1962, evening; Chen Yi with Zhou at the evening of the Ministry of Culture and the China–Mongolia Friendship Association). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: f89dd98b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 345: all'
+        - 'w.chen-yi-nianpu 947: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1962-12-25T11:00Z
       - 1962-12-25T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
-  - id: cal.1962-12-25.china-leadership-7
-    when: Dec. 25–27
-    date: '1962-12-25'
-    thread: china-leadership
-    c: Liu Shaoqi receives Tsedenbal, Chairman of the Mongolian Council of Ministers, during his visit to China, Dec. 25–27.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 25–27, 1962). Names: Liu Shaoqi. Check: the book gives no day for Liu''s reception within the visit.'
-    src:
-      c: ffbcfaed
-      rows:
-        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: all'
-    tags: [polity:prc, polity:mongolia, name:liu-shaoqi]
   - id: cal.1962-12-25.china-leadership-8
     when: Dec. 25
     date: '1962-12-25'
@@ -3789,7 +3959,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai and Tsedenbal, each for his country, sign the China–Mongolia Border Treaty.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 521 (Dec. 26, 1962); [[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 上午11时, 钓鱼台宾馆18号楼, 回访并会谈); [[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 下午, 陪同刘少奇主席接见泽登巴尔主席, 签字); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 567 (Dec. 26, 1962; Liu, with Dong Biwu and Zhou Enlai, meets Tsedenbal, chairman of the Mongolian Council of Ministers; on settling the boundary: it is fixed by treaty after talks, good for both peoples; as brother neighbors on mutual respect and equality, in a spirit of mutual understanding and concession, the boundary was settled smoothly; the same principles settle China''s boundaries with other brother countries); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 26, 1962; the two sides sign the China–Mongolia boundary treaty). To check: the treaty. Names: Zhou Enlai, Tsedenbal.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 521 (Dec. 26, 1962); [[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 上午11时, 钓鱼台宾馆18号楼, 回访并会谈); [[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 下午, 陪同刘少奇主席接见泽登巴尔主席, 签字); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 567 (Dec. 26, 1962; Liu, with Dong Biwu and Zhou Enlai, meets Tsedenbal, chairman of the Mongolian Council of Ministers; on settling the boundary: it is fixed by treaty after talks, good for both peoples; as brother neighbors on mutual respect and equality, in a spirit of mutual understanding and concession, the boundary was settled smoothly; the same principles settle China''s boundaries with other brother countries); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 26, 1962; the two sides sign the China–Mongolia boundary treaty); [[w.chen-yi-nianpu]], 947 (Dec. 26, 1962, afternoon; Chen Yi at the signing). To check: the treaty. Names: Zhou Enlai, Tsedenbal.'
     src:
       c: b4a76962
       rows:
@@ -3797,6 +3967,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 346: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 567: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: A'
+        - 'w.chen-yi-nianpu 947: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1962-12-26.china-leadership-2
@@ -3815,11 +3986,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the meeting of 10,000 of the capital's people welcoming Tsedenbal and celebrating the signing of the China–Mongolia boundary treaty.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 下午). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 26, 1962; 下午); [[w.chen-yi-nianpu]], 947 (Dec. 26, 1962, afternoon; Chen Yi at the meeting in the Great Hall of the People). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 80c6c992
       rows:
         - 'w.zhou-enlai-waijiao-huodong 346: all'
+        - 'w.chen-yi-nianpu 947: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1962-12-26T04:00Z
@@ -3887,6 +4059,35 @@ entries:
       - 1962-12-26T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-12-26.china-leadership-8
+    when: Dec. 26
+    date: '1962-12-26'
+    thread: china-leadership
+    c: Chen Yi 陈毅 goes with Zhou Enlai 周恩来 to the guesthouse to return Tsedenbal's 泽登巴尔 call.
+    n: '[[w.chen-yi-nianpu]], 947. The words: 下午 (947). Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi, name:zhou-enlai, ok:fields-place]
+    time_range:
+      - 1962-12-26T04:00Z
+      - 1962-12-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-25.china-leadership-7
+    when: Dec. 26
+    date: '1962-12-26'
+    thread: china-leadership
+    c: Liu Shaoqi receives Tsedenbal, Chairman of the Mongolian Council of Ministers, during his visit to China.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 262 (Dec. 25–27, 1962); [[w.chen-yi-nianpu]], 947 (Dec. 26, 1962, afternoon; Liu receives Tsedenbal, Chen Yi present). Names: Liu Shaoqi. Check: the book gives no day for Liu''s reception within the visit.'
+    src:
+      c: ffbcfaed
+      rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 262: all'
+        - 'w.chen-yi-nianpu 947: ?'
+    tags: [polity:prc, polity:mongolia, name:liu-shaoqi]
+    time_range:
+      - 1962-12-26T04:00Z
+      - 1962-12-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-27.middle-east
     when: Dec. 27
     date: '1962-12-27'
@@ -3944,11 +4145,12 @@ entries:
     thread: china-leadership
     also: [china, japan, trade]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the signing of the protocol on Sino-Japanese long-term and fee-based trade, and receives Suzuki Kazuo, Yadoya Eiichi and Kimura Ichizo.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 27, 1962; 下午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 27, 1962; 下午); [[w.chen-yi-nianpu]], 947 (Dec. 27, 1962; Chen Yi with Zhou at the signing in the Great Hall of the People of the protocol on Sino-Japanese trade). Names: Zhou Enlai.'
     src:
       c: 80997fc4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 346: all'
+        - 'w.chen-yi-nianpu 947: ?'
     tags: [polity:prc, polity:japan, name:zhou-enlai]
     time_range:
       - 1962-12-27T04:00Z
@@ -3963,11 +4165,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union, south-asia]
     c: Peking, the Great Hall of the People. Zhou Enlai attends the banquet given by the Mongolian Ambassador, Dun Tsebegmid, for Tsedenbal's visit, and says that the smooth settlement of the boundary question is a model of relations among socialist states; China has always held that boundary questions with neighbors, brotherly or other, be settled by friendly negotiation, and holds the same belief of the Sino-Indian question, for which it has taken every step imaginable.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 27, 1962; 晚6时31分). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 27, 1962; 晚6时31分); [[w.chen-yi-nianpu]], 947 (Dec. 27, 1962, evening; Chen Yi at the banquet of 敦·策伯格米德 and his wife in the Great Hall of the People). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 24a9248e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 346: all'
+        - 'w.chen-yi-nianpu 947: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1962-12-27.china-leadership-4
@@ -3977,11 +4180,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai goes to the railway station to see off Tsedenbal.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 27, 1962; 晚上). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 346 (Dec. 27, 1962; 晚上); [[w.chen-yi-nianpu]], 947 (Dec. 27, 1962, evening; Chen Yi at the station). See [[cal.1962-12-25.china-leadership-2]]. Names: Zhou Enlai.'
     src:
       c: 484c4f8a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 346: all'
+        - 'w.chen-yi-nianpu 947: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1962-12-27T11:00Z
@@ -4105,6 +4309,31 @@ entries:
       - 1962-12-27T22:00Z
       - 1962-12-28T04:00Z
     time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-28.china-leadership-5
+    when: Dec. 28
+    date: '1962-12-28'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Utsunomiya Tokuma 宇都宫德马, Liberal Democratic member of the House of Representatives, and his wife.
+    n: '[[w.chen-yi-nianpu]], 947. The words: 上午 (947). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-12-27T22:00Z
+      - 1962-12-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-28.china-leadership-6
+    when: Dec. 28
+    date: '1962-12-28'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 and his wife give a banquet in the Great Hall of the People 人民大会堂 for the foreign experts helping China and their wives; he speaks, thanking them for their internationalism.
+    n: '[[w.chen-yi-nianpu]], 947–948. See [[cal.1962-01-01.china-leadership]]. The words: 晚上 (947–948). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1962-12-28T11:00Z
+      - 1962-12-28T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1962-12-29.cuba
     when: Dec. 29
@@ -4254,6 +4483,11 @@ entries:
       - 1962-12-29T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+    variants:
+      - unit: B
+        witness: w.chen-yi-nianpu
+        reads: Zhou, with Chen Yi, receives 铃木一雄, 宿谷荣一, 木村一三 and their party the afternoon of Dec. 27, 1962
+        at: '947'
   - id: cal.1962-12-29.china
     when: Dec. 29
     date: '1962-12-29'
@@ -4318,6 +4552,38 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1739: all'
     tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:togliatti-palmiro, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-12-29.china-leadership-7
+    when: Dec. 29
+    date: '1962-12-29'
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Dong Biwu 董必武 and Lu Dingyi 陆定一, receives the Korean cultural and art delegation led by 韩镇民.
+    n: '[[w.chen-yi-nianpu]], 948. See [[cal.1962-12-28.china-leadership-2]]. Names: Chen Yi, Dong Biwu, Lu Dingyi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, name:dong-biwu, name:lu-dingyi, ok:fields-place]
+  - id: cal.1962-12-29.china-leadership-8
+    when: Dec. 29
+    date: '1962-12-29'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the cocktail party of 乔治乌·杜米特鲁, the Romanian Ambassador, at the embassy for the fifteenth anniversary of the Romanian People's Republic.
+    n: '[[w.chen-yi-nianpu]], 948. The words: 晚上 (948). Names: Chen Yi.'
+    tags: [polity:prc, polity:romania, name:chen-yi]
+    time_range:
+      - 1962-12-29T11:00Z
+      - 1962-12-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-12-29.china-leadership-9
+    when: Dec. 29
+    date: '1962-12-29'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the Peking People's Art Theater's 北京人民艺术剧院 opening night of the Korean play *The Red Propagandist* 《红色宣传员》 in the Capital Theater 首都剧场; on the stage after with Dong Biwu 董必武 and Lu Dingyi 陆定一.
+    n: '[[w.chen-yi-nianpu]], 948. The words: 晚上 (948). Names: Chen Yi, Dong Biwu, Lu Dingyi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, name:dong-biwu, name:lu-dingyi]
+    time_range:
+      - 1962-12-29T11:00Z
+      - 1962-12-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-12-30.middle-east-yemen
     when: Dec. 30
     date: '1962-12-30'
@@ -4897,12 +5163,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Zhou Enlai has the first talk with Ceylon's Prime Minister, Srimavo Bandaranaike, arrived in Peking that day. He tells her India has set up 43 posts in the western sector; the Chinese frontier force goes on withdrawing along the whole line, and in the west China keeps posts only in two river valleys.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 522 (Dec. 31, 1962); [[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 31, 1962; 下午, 会见). Made public: 1993. Names: Zhou Enlai, Srimavo Bandaranaike.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 522 (Dec. 31, 1962); [[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 31, 1962; 下午, 会见); [[w.chen-yi-nianpu]], 948 (Dec. 31, 1962, afternoon; Chen Yi present). Made public: 1993. Names: Zhou Enlai, Srimavo Bandaranaike.'
     src:
       c: ec3b9506
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 522: ?'
         - 'w.zhou-enlai-waijiao-huodong 347: A'
+        - 'w.chen-yi-nianpu 948: ?'
     tags: [polity:prc, polity:ceylon, polity:india, name:zhou-enlai, name:bandaranaike-srimavo, vis:only:prc+ceylon]
     time_range:
       - 1962-12-31T04:00Z
@@ -4924,18 +5191,24 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai goes to the airport to welcome Mrs. Bandaranaike, Prime Minister of Ceylon.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 31, 1962; 中午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 263–264 (Dec. 31, 1962–Jan. 9, 1963; Prime Minister Bandaranaike of Ceylon visits China on behalf of the Ceylon government and the Colombo conference of six Asian states; Mao, Liu Shaoqi and Soong Ching Ling receive her, Zhou and Chen Yi hold talks with her and with Subandrio, the Indonesian deputy first minister, then visiting; the book gives the days only of the communiques, Jan. 8). See [[cal.1962-12-31.china-leadership]]. Names: Zhou Enlai, Bandaranaike.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 31, 1962; 中午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 263–264 (Dec. 31, 1962–Jan. 9, 1963; Prime Minister Bandaranaike of Ceylon visits China on behalf of the Ceylon government and the Colombo conference of six Asian states; Mao, Liu Shaoqi and Soong Ching Ling receive her, Zhou and Chen Yi hold talks with her and with Subandrio, the Indonesian deputy first minister, then visiting; the book gives the days only of the communiques, Jan. 8); [[w.chen-yi-nianpu]], 948 (Dec. 31, 1962, morning; Chen Yi at the airport). See [[cal.1962-12-31.china-leadership]]. Names: Zhou Enlai, Bandaranaike.'
     src:
       c: 93b23d81
       rows:
         - 'w.zhou-enlai-waijiao-huodong 347: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 263–264: B-C'
+        - 'w.chen-yi-nianpu 948: ?'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai, name:bandaranaike-srimavo]
     time_range:
       - 1962-12-31T04:00Z
       - 1962-12-31T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+    variants:
+      - unit: B
+        witness: w.chen-yi-nianpu
+        reads: Chen Yi at the airport to welcome Mrs. Bandaranaike in the morning (上午)
+        at: '948'
   - id: cal.1962-12-31.china-leadership-3
     when: Dec. 31
     date: '1962-12-31'
@@ -4943,11 +5216,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai, at the welcoming banquet for Mrs. Bandaranaike, says that he deeply admires her sincere effort to settle the Sino-Indian boundary question and repeats that China has always worked to consolidate and develop friendly neighborly relations and holds that boundary questions with all neighbors be settled by peaceful, friendly negotiation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 31, 1962; 晚上). See [[cal.1962-12-31.china-leadership]]. Names: Zhou Enlai, Bandaranaike.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 347 (Dec. 31, 1962; 晚上); [[w.chen-yi-nianpu]], 948 (Dec. 31, 1962, evening; Chen Yi at the banquet). See [[cal.1962-12-31.china-leadership]]. Names: Zhou Enlai, Bandaranaike.'
     src:
       c: 32c13214
       rows:
         - 'w.zhou-enlai-waijiao-huodong 347: all'
+        - 'w.chen-yi-nianpu 948: ?'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai, name:bandaranaike-srimavo]
     time_range:
       - 1962-12-31T11:00Z
@@ -5210,3 +5484,36 @@ entries:
       rows:
         - 'https://digitalarchive.umd.edu/document/121759: all'
     tags: [polity:prc, polity:drv, vis:only:prc+drv]
+  - id: cal.1962-12-31.china-leadership-9
+    when: Dec. 31
+    date: '1962-12-31'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Raúl Roa García 劳尔·罗亚·加西亚, the Cuban Foreign Minister, on the fourth anniversary of the revolution.
+    n: '[[w.chen-yi-nianpu]], 948. Names: Chen Yi, Roa.'
+    tags: [polity:prc, polity:cuba, name:chen-yi, name:roa-y-garcia-raul]
+  - id: cal.1962-12.china-leadership-9
+    when: Dec.
+    date: 1962-12
+    thread: china-leadership
+    also: [soviet-union]
+    c: A Soviet defense official and General Qiu Chuangcheng, head of the Chinese army's special artillery forces, talk.
+    n: '[[w.westad-introduction]], 27 & n.97 (the file summarizes the talk; Westad cites it for advanced Soviet military technology, air-to-ground missiles among it, reaching China as late as December 1962). Made public: 1998. To check: unnumbered file attached to AVPRF, f. 0100, op. 55, pa. 480, d. 6 (cited by [[w.westad-introduction]], 27 n.97).'
+    src:
+      c: 66348df2
+      rows:
+        - 'w.westad-introduction 27: all'
+        - 'via x.1962-12.qiu-chuangcheng-soviet-defense-official-file-avprf: all'
+    tags: [polity:prc, polity:ussr, vis:only:prc+ussr]
+  - id: cal.1962-12.china-leadership-10
+    when: Dec., late
+    date: 1962-12
+    at: before 1962-12-21
+    thread: china-leadership
+    c: 'Mao to the Party: the struggle against modern revisionism will become "more acute" for a time.'
+    n: '[[w.westad-introduction]], 27–28 ("at the end of 1962"). Made public: 1998. To check: Zhang Baijia, Looking at Sino-American Relations during the Cold War from the Chinese Perspective, paper, Cold War International History Project conference, Hong Kong, Jan. 1996, 16 (cited by [[w.westad-introduction]], 28 n.99). Names: Mao Zedong.'
+    src:
+      c: a212c7dc
+      rows:
+        - 'w.westad-introduction 27–28: all'
+        - 'via x.1996-01.zhang-baijia-looking-at-sino-american-relations: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong]

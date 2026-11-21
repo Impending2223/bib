@@ -963,11 +963,12 @@ entries:
     place: hubei
     thread: china-leadership
     c: 'Hubei 湖北: the Hubei Revolutionary Committee is founded; its chairman Zeng Siyu 曾思玉.'
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 458; [[w.yang-jisheng-tiandi-fanfu]], II, 1029 (Hu Houmin 胡厚民 a standing member).'
     src:
       c: 3eea65c8
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 458: all'
+        - 'w.yang-jisheng-tiandi-fanfu II, 1029: ?'
     tags: [polity:prc]
   - id: cal.1968-02-05.china-leadership-5
     when: Feb. 5
@@ -3398,6 +3399,17 @@ entries:
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
     range_basis: record
+  - id: cal.1968-02-17.china-leadership-5
+    when: Feb. 17
+    date: '1968-02-17'
+    thread: china-leadership
+    c: 'The *Guangxi Lianzhi bao* 廣西聯指報 prints "Strengthen the proletarian dictatorship, let no ox-demons and snake-spirits turn the sky over": the "Lianzhi" fighters and poor and lower-middle peasants of Yulin 玉林 prefecture expose "Anti-Communist National Salvation" bodies in Rong county 容縣, among them the "Anti-Communist National Salvation Team" of the county''s "4·22 Revolutionary General Headquarters" and "armies" in the Changshou 長壽, Dapeng 大鵬, Songshan 松山, Xiahe 下河, Sitang 寺堂 and Xunyang 尋陽 communes.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 617. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 617 n.84).'
+    src:
+      c: bdd8eb09
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 617: all'
+    tags: [polity:prc, ok:fields-place]
   - id: cal.1968-02-18.consumers
     when: Feb. 18
     date: '1968-02-18'
@@ -4329,6 +4341,24 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 595: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1968-02-21.china-leadership-5
+    when: Feb. 21
+    date: '1968-02-21'
+    place: peking
+    thread: china-leadership
+    c: 'Peking 北京, evening. Zhou Enlai 周恩來, Chen Boda 陳伯達, Kang Sheng 康生, Jiang Qing 江青 and other leaders of the Center speak to cadres of Tianjin 天津 called to Peking: the "two blacks and one smash" 二黑一砸 (the "black meeting," the "black play," the smashing of the police, procuracy and courts). Jiang Qing names many in Tianjin''s arts, and great traitor cliques in Xian 獻縣 and Shenze 深澤 counties, Hebei 河北.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 627. The words: 1968 年 2 月 21 日晚 (II, 627). Made public: 1981. To check: Sun Futian 孫福田, speech to the enlarged plenary of the China Federation of Literary and Art Circles, May 1978, in *Chunfeng huayu ji* 《春風化雨集》, vol. 1 (Qunzhong chubanshe, 1981), 196–204 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 627 n.107). Names: Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing.'
+    src:
+      c: 3f1afcda
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 627: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 627 n.107: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:chen-boda, name:kang-sheng, name:jiang-qing]
+    time_range:
+      - 1968-02-21T11:00Z
+      - 1968-02-21T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1968-02-22.cities-and-housing
     when: Feb. 22
     date: '1968-02-22'
@@ -6960,4 +6990,54 @@ entries:
       c: 5a150460
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 507: all'
+    tags: [polity:prc]
+  - id: cal.1968-02.china-leadership-8
+    when: Feb., after the 21st
+    date: 1968-02
+    at: after 1968-02-21
+    place: tianjin
+    thread: china-leadership
+    c: Tianjin 天津 opens at once the campaign to clear out the "two blacks and one smash," the core of its cleansing of the class ranks.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 627. To check: Sun Futian 孫福田, speech to the enlarged plenary of the China Federation of Literary and Art Circles, May 1978, in *Chunfeng huayu ji* 《春風化雨集》, vol. 1 (Qunzhong chubanshe, 1981), 196–204 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 627 n.107).'
+    src:
+      c: faaf3235
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 627: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 627 n.107: all'
+    tags: [polity:prc]
+  - id: cal.1968-02.china-leadership-10
+    when: Feb., after the 21st
+    date: 1968-02
+    at: after 1968-02-21
+    place: tianjin
+    thread: china-leadership
+    c: Tianjin 天津. After the reception of Feb. 21 the new revolutionary committee is reorganized.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 627. Made public: 1981. To check: Sun Futian 孫福田, speech to the enlarged plenary of the China Federation of Literary and Art Circles, May 1978, in *Chunfeng huayu ji* 《春風化雨集》, vol. 1 (Qunzhong chubanshe, 1981), 196–204 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 627 n.107). Check: the day ("at once" after the reception, by the page).'
+    src:
+      c: fd04d1ab
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 627: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 627 n.107: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1968-02.china-leadership-9
+    when: Feb.
+    date: 1968-02
+    thread: china-leadership
+    c: The Canton Military Region 廣州軍區, the Guangxi Military District 廣西軍區 and the "third office" 三辦 of Qinzhou 欽州 prefecture send men to Hepu county 合浦縣 and Beihai 北海 to form a 106-man work team on the "Southern Route Party" 南路黨 of the underground.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 628. Made public: 1990. To check: [[w.guangxi-wenge-dashi-nianbiao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 627 n.108).'
+    src:
+      c: 4bb28802
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 628: all'
+    tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1968-02.china-leadership-7
+    when: Feb.
+    date: 1968-02
+    thread: china-leadership
+    c: Xie Juzhang 謝聚璋, Chen Yaoting's wife, is arrested.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 649. To check: [[w.youqin-wenge-shounanzhe]], 46 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 649 n.34).'
+    src:
+      c: 686efe54
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 649: all'
     tags: [polity:prc]

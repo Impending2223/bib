@@ -182,12 +182,18 @@ entries:
     thread: china-leadership
     also: [laos]
     c: 'Chen Yi, Vice-Premier and Foreign Minister, at the national day reception given by the Swiss ambassador: to bring about the Geneva agreement on Laos China will spare no effort. To consolidate peace in Southeast Asia, U.S. forces must leave Thailand and South Vietnam.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 238 (Aug. 1, 1962). Names: Chen Yi. Check: the ambassador is 维义 in the book; the Latin form is not recovered.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 238 (Aug. 1, 1962); [[w.chen-yi-nianpu]], 927–928 (Aug. 1, 1962, evening; at the reception of 纳维义, the Swiss Ambassador, at the embassy; Chen Yi on the Geneva agreements and why agreement was reached, and on the Laotians'' tasks still ahead, the takeover of the old regime and the withdrawal of foreign troops). Names: Chen Yi. Check: the ambassador is 维义 in the book; the Latin form is not recovered.'
     src:
       c: dff97515
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 238: all'
+        - 'w.chen-yi-nianpu 927–928: ?'
     tags: [polity:prc, polity:switzerland, polity:laos, polity:us, name:chen-yi]
+    time_range:
+      - 1962-08-01T11:00Z
+      - 1962-08-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-01.china-leadership-6
     when: Aug. 1
     date: '1962-08-01'
@@ -241,6 +247,30 @@ entries:
     c: 'Bông Văn Dĩa''s boat reaches the North, Aug. 1: his second trip north; its crew report in detail to the Center.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 150. Made public: 2013. Check: the place of landing.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1962-08-01.china-leadership-9
+    when: Aug. 1
+    date: '1962-08-01'
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Luo Ruiqing 罗瑞卿, at the August First Film Studio 八一电影制片厂 for its tenth anniversary.
+    n: '[[w.chen-yi-nianpu]], 927. The words: 下午 (927). Names: Chen Yi, Luo Ruiqing.'
+    tags: [polity:prc, name:chen-yi, name:luo-ruiqing, ok:fields-place]
+    time_range:
+      - 1962-08-01T04:00Z
+      - 1962-08-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-08-01.china-leadership-10
+    when: Aug. 1
+    date: '1962-08-01'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the reception of Luo Ruiqing 罗瑞卿, Vice-Premier and Chief of the General Staff, for the PLA's thirty-fifth anniversary.
+    n: '[[w.chen-yi-nianpu]], 927. The words: 晚上 (927). Names: Chen Yi, Luo Ruiqing.'
+    tags: [polity:prc, name:chen-yi, name:luo-ruiqing, ok:fields-place]
+    time_range:
+      - 1962-08-01T11:00Z
+      - 1962-08-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-02.governors-tn
     when: Aug. 2
     date: '1962-08-02'
@@ -510,6 +540,18 @@ entries:
       - 1962-08-02T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-02.china-leadership-12
+    when: Aug. 2
+    date: '1962-08-02'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Manuel Araujo Hidalgo 曼努埃尔·阿劳堆·伊达尔哥, former Speaker and Minister of the Interior of Ecuador, leader of its People's Action Movement.
+    n: '[[w.chen-yi-nianpu]], 928. The words: 上午 (928). Names: Chen Yi.'
+    tags: [polity:prc, polity:ecuador, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-08-01T22:00Z
+      - 1962-08-02T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-03.legislatures-ok
     when: Aug. 3
     date: '1962-08-03'
@@ -767,6 +809,19 @@ entries:
     c: Bình Thuận. The provincial forces attack the subsector and district seat of Hàm Tân, Aug. 4, a test of main forces against a fortified post.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 182.'
     tags: [polity:drv]
+  - id: cal.1962-08-04.china-leadership-6
+    when: Aug. 4
+    date: '1962-08-04'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 reports on the enlarged Geneva conference on Laos to the joint enlarged meeting of the NPC Standing Committee's sixtieth session and the CPPCC Standing Committee's thirty-sixth.
+    n: '[[w.chen-yi-nianpu]], 928. The words: 上午 (928). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-08-03T22:00Z
+      - 1962-08-04T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-05.china-leadership
     when: Aug. 5
     date: '1962-08-05'
@@ -792,11 +847,12 @@ entries:
     date: '1962-08-05'
     thread: china
     c: 'Zhou Enlai and Chen Yi each cable Sir Alexander Bustamante, Prime Minister of Jamaica, congratulating it on its independence: the Chinese government decides to recognize Jamaica.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 239 (Aug. 5, 1962). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 239 (Aug. 5, 1962); [[w.chen-yi-nianpu]], 928 (Aug. 5, 1962; Chen Yi''s cable to Bustamante: China recognizes Jamaica). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 361c05eb
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 239: all'
+        - 'w.chen-yi-nianpu 928: ?'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi]
   - id: cal.1962-08-05.china-leadership-2
     when: Aug. 5
@@ -894,7 +950,7 @@ entries:
     place: beidaihe
     thread: china-leadership
     c: 'Beidaihe. The Central Work Conference (Aug. 6–24), Mao presiding. Plenary, afternoon: Mao says a work conference first, a plenum after to adopt the papers; six groups, and a core group of the Standing Committee, the Secretariat and the regional first secretaries. He speaks on class, the situation and contradictions; the conference turns to the class struggle and to criticizing the "dark wind" and "go-it-alone wind." Deng Xiaoping lays out four topics: rural work, finance and trade, city work, and an exchange of cadres between center and provinces.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 6, 1962 (the entry for Aug. 6–24). [[w.zhou-enlai-nianpu-1949]], II, 492 (July 28–Aug. 24, 1962: Zhou Enlai at the conference, which set up a center group of Mao, Liu, Zhou, Zhu De, Deng and the heads of the State Council''s sectors and the regional bureaus'' secretaries; Mao''s Aug. 6 speech on class, the situation and contradictions, the "dark wind," "go-it-alone wind" and "reversal wind"; Zhou speaks mainly on the plan and the situation in the villages); [[w.macfarquhar-origins-of-the-cultural]], III, 274–75 (Mao opens the conference on Aug. 6, sets aside the agenda for class, contradictions and the current situation, and attacks the three winds of pessimism, of going it alone and of reversing correct verdicts: "Do classes actually exist in a socialist state?"); [[w.yang-shangkun-riji]], II, 202 (Aug. 6, 1962; the plenary, 4 p.m.; Deng Xiaoping on the order of business; Mao speaks); [[w.deng-xiaoping-nianpu-1904]], III, 1720–1721 (Aug. 6–24, 1962; Deng attends; to treat farming, grain, commerce and aid to farming; Mao''s three questions on Aug. 6, classes, the situation, contradictions; class struggle through the whole socialist period; the "dark wind"; papers for the Tenth Plenum. Aug. 6 at the plenary Deng sets out the agenda: six regional groups and a core group working side by side, the groups the main part); [[w.mao-zedong-zhuan]], V, ch. 70 (Aug. 6, afternoon, in the club of the central organs 中直俱乐部 at Beidaihe: Mao presides over the plenary of the Central Work Conference and puts three questions, class, the situation and contradictions, to be discussed; the discussion then turns to class struggle and goes the one way). [[w.yang-jisheng-mubei]], II, 1175 (the Beidaihe Central Work Conference, July 25–Aug. 24, 1962; Mao''s talk of Aug. 6 on class, the situation and contradictions; his criticism of the "dark wind," the "go-it-alone wind" and the "reversal wind"; class struggle to be spoken of every year, every month); [[w.yang-jisheng-mubei]], II, 1128 n.34 (on Aug. 6, without consulting anyone, Mao speaks on class, the situation and contradictions: socialism or capitalism, the cooperatives or contracting households; the conference turns to the ''dark wind,'' the ''go-it-alone wind'' and the ''wind of reversing verdicts''). Made public: 1997. Check: one source gives July 25 as the conference''s opening date, the days before Aug. 6 being spent on final drafts of documents on agriculture (III, 274 n.79). To check: [[w.schram-mao-tse-tung-unrehearsed]], 188 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.77); [[w.al-zhongguo-gongchan-dang-zhizheng]], 221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.78); [[w.xin-zhongguo-biannianshi-1949]], 485 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.79a); [[w.mingxian-xin-zhongguo-sishiwu-nian]], 212 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.79b); Informant S, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.79c); Mao Zedong, speech of Aug. 6, 1962, opening the Beidaihe work conference, in [[w.schram-new-texts-by-mao]], 152 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 275 n.83); Mao Zedong, speech of Aug. 6, 1962, opening the Beidaihe work conference, in [[w.schram-new-texts-by-mao]], 153 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 275 n.84a); Mao Zedong, speech of Aug. 6, 1962, opening the Beidaihe work conference, in [[w.zedong-ziliao-xuanbian-selection-of]], 269–70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 275 n.84b). See [[cal.1962-08-05.china-leadership]]. Names: Mao Zedong, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 6, 1962 (the entry for Aug. 6–24). [[w.zhou-enlai-nianpu-1949]], II, 492 (July 28–Aug. 24, 1962: Zhou Enlai at the conference, which set up a center group of Mao, Liu, Zhou, Zhu De, Deng and the heads of the State Council''s sectors and the regional bureaus'' secretaries; Mao''s Aug. 6 speech on class, the situation and contradictions, the "dark wind," "go-it-alone wind" and "reversal wind"; Zhou speaks mainly on the plan and the situation in the villages); [[w.macfarquhar-origins-of-the-cultural]], III, 274–75 (Mao opens the conference on Aug. 6, sets aside the agenda for class, contradictions and the current situation, and attacks the three winds of pessimism, of going it alone and of reversing correct verdicts: "Do classes actually exist in a socialist state?"); [[w.yang-shangkun-riji]], II, 202 (Aug. 6, 1962; the plenary, 4 p.m.; Deng Xiaoping on the order of business; Mao speaks); [[w.deng-xiaoping-nianpu-1904]], III, 1720–1721 (Aug. 6–24, 1962; Deng attends; to treat farming, grain, commerce and aid to farming; Mao''s three questions on Aug. 6, classes, the situation, contradictions; class struggle through the whole socialist period; the "dark wind"; papers for the Tenth Plenum. Aug. 6 at the plenary Deng sets out the agenda: six regional groups and a core group working side by side, the groups the main part); [[w.mao-zedong-zhuan]], V, ch. 70 (Aug. 6, afternoon, in the club of the central organs 中直俱乐部 at Beidaihe: Mao presides over the plenary of the Central Work Conference and puts three questions, class, the situation and contradictions, to be discussed; the discussion then turns to class struggle and goes the one way). [[w.yang-jisheng-mubei]], II, 1175 (the Beidaihe Central Work Conference, July 25–Aug. 24, 1962; Mao''s talk of Aug. 6 on class, the situation and contradictions; his criticism of the "dark wind," the "go-it-alone wind" and the "reversal wind"; class struggle to be spoken of every year, every month); [[w.yang-jisheng-mubei]], II, 1128 n.34 (on Aug. 6, without consulting anyone, Mao speaks on class, the situation and contradictions: socialism or capitalism, the cooperatives or contracting households; the conference turns to the ''dark wind,'' the ''go-it-alone wind'' and the ''wind of reversing verdicts''); [[w.yang-jisheng-tiandi-fanfu]], II, 1142 (the Beidaihe work conference, by the chronology July 25 to Aug. 24: Mao criticizes Liu Shaoqi''s and others'' handling of the famine); [[w.jian-zhou-enlai]], 469 (Aug. 6, Mao''s keynote: do classes exist in a socialist country; complete darkness or bright spots; collectivization still wanted; the view of darkness "most rampant among top leaders"); [[w.yang-jisheng-tiandi-fanfu]], I, 76–77 (Mao''s interjections at the core group on Aug. 9, 11, 13, 15, 17, 20; the conference turns to the "dark wind," the "go-it-alone wind" and the "wind of reversing verdicts"). Made public: 1997. Check: one source gives July 25 as the conference''s opening date, the days before Aug. 6 being spent on final drafts of documents on agriculture (III, 274 n.79). To check: [[w.schram-mao-tse-tung-unrehearsed]], 188 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.77); [[w.al-zhongguo-gongchan-dang-zhizheng]], 221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.78); [[w.xin-zhongguo-biannianshi-1949]], 485 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.79a); [[w.mingxian-xin-zhongguo-sishiwu-nian]], 212 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.79b); Informant S, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 274 n.79c); Mao Zedong, speech of Aug. 6, 1962, opening the Beidaihe work conference, in [[w.schram-new-texts-by-mao]], 152 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 275 n.83); Mao Zedong, speech of Aug. 6, 1962, opening the Beidaihe work conference, in [[w.schram-new-texts-by-mao]], 153 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 275 n.84a); Mao Zedong, speech of Aug. 6, 1962, opening the Beidaihe work conference, in [[w.zedong-ziliao-xuanbian-selection-of]], 269–70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 275 n.84b); Mao''s first speech at the Beidaihe Conference, August 6, 1962 (cited by [[w.jian-zhou-enlai]], 469 n.19a); [[w.xianzhi-mao-zedong-zhuan-1949]], 1236–1237 (cited by [[w.jian-zhou-enlai]], 469 n.19c); *Mao Zedong sixiang wansui* 《毛澤東思想萬歲》 (1961–1968), 29–30 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 76 n.84). See [[cal.1962-08-05.china-leadership]]. Names: Mao Zedong, Deng Xiaoping.'
     src:
       c: 1ef06cb1
       rows:
@@ -914,19 +970,33 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 70: B, E'
         - 'w.yang-jisheng-mubei II, 1175: E, F'
         - 'w.yang-jisheng-mubei II, 1128 n.34: E-F'
+        - 'w.yang-jisheng-tiandi-fanfu II, 1142: ?'
+        - 'w.jian-zhou-enlai 469: ?'
+        - 'via x.1962-08-06.mao-first-speech-beidaihe: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 76–77: ?'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
     variants:
       - unit: B
         witness: w.yang-jisheng-mubei
         reads: the Beidaihe Central Work Conference runs July 25 to Aug. 24, 1962
         at: II, 1175
+      - unit: A
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: the Beidaihe Central Work Conference opens July 25 (to Aug. 24), on farming, grain and commerce; on Aug. 6 Mao, consulting no one, makes his speech on class, the situation and contradictions
+        at: I, 76
   - id: cal.1962-08-06.china-leadership-2
     when: Aug. 6–24
     date: '1962-08-06'
     place: beidaihe
     thread: china-leadership
     c: 'Zhou Enlai, on Mao''s three questions at the Beidaihe conference: sharp, important and timely; class struggle is long, and classes run through every period. Peasants: the question is mainly going it alone, which they mostly did in the past, but few now argue for it; contracting output to households must be told apart, it is not all going it alone, and some of it has done well. The countryside: difficulties were at first estimated a little high, and are not pitch dark.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 492 (Aug. 6–24, 1962). Made public: 1997. Check: the day; the chronology gives it as his talk in the discussion of the three questions. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 492 (Aug. 6–24, 1962); [[w.jian-zhou-enlai]], 469 (Zhou''s speech of Aug. 17). Made public: 1997. Check: the day; the chronology gives it as his talk in the discussion of the three questions. To check: Zhou''s speech at the Beidaihe Conference, August 17, 1962 (cited by [[w.jian-zhou-enlai]], 469 n.21a); [[w.zhou-enlai-zhuan-1949]], 691 (cited by [[w.jian-zhou-enlai]], 469 n.21b). Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: 8753a338
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 492: ?'
+        - 'w.jian-zhou-enlai 469: ?'
+        - 'via x.1962-08-17.zhou-speech-beidaihe: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1962-08-06.china-leadership-3
     when: Aug. 6
@@ -1085,14 +1155,20 @@ entries:
     thread: china-leadership
     also: [china]
     c: Mao receives visitors from Mexico, Venezuela, Cuba, Paraguay and Brazil; Zhou Enlai, Chen Yi and Guo Moruo present. All on one front against imperialism and colonialism, for national liberation; China's defense, science and economy still far behind (the United States has the atomic and hydrogen bomb, China conventional arms); the Western talk that China will collapse not so.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 7, 1962. [[w.zhou-enlai-waijiao-huodong]], 333 (Aug. 7, 1962; 下午2时, Beidaihe); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 239 (Aug. 7, 1962; Mao receives friends from Mexico, Cuba and other Latin American countries and says that all in Latin America, Africa, Asia and elsewhere who oppose imperialism and reaction should unite, and can). Made public: 1993. Names: Mao Zedong, Zhou Enlai, Chen Yi, Guo Moruo.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 7, 1962. [[w.zhou-enlai-waijiao-huodong]], 333 (Aug. 7, 1962; 下午2时, Beidaihe); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 239 (Aug. 7, 1962; Mao receives friends from Mexico, Cuba and other Latin American countries and says that all in Latin America, Africa, Asia and elsewhere who oppose imperialism and reaction should unite, and can); [[w.chen-yi-nianpu]], 928 (Aug. 7, 1962, afternoon; Chen Yi present). Made public: 1993. Names: Mao Zedong, Zhou Enlai, Chen Yi, Guo Moruo.'
     src:
       c: 5e3c686c
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Aug. 7, 1962: all'
         - 'w.zhou-enlai-waijiao-huodong 333: A-B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 239: A, C'
+        - 'w.chen-yi-nianpu 928: ?'
     tags: [polity:prc, polity:mexico, polity:venezuela, polity:cuba, polity:brazil, name:mao-zedong, name:zhou-enlai, name:chen-yi, polity:paraguay, vis:only:prc+mexico+venezuela+cuba+paraguay+brazil]
+    time_range:
+      - 1962-08-07T04:00Z
+      - 1962-08-07T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-07.china-leadership-2
     when: Aug. 7
     date: '1962-08-07'
@@ -1107,11 +1183,12 @@ entries:
     thread: china-leadership
     also: [china, latin-america]
     c: Beidaihe. Zhou Enlai meets and gives a dinner for Manuel Araujo Hidalgo, a former Speaker of Ecuador's Chamber of Deputies, former Interior Minister and leader of the People's Action Movement.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 333 (Aug. 7, 1962; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 333 (Aug. 7, 1962; 晚上); [[w.chen-yi-nianpu]], 928 (Aug. 7, 1962, evening; Chen Yi at Zhou''s banquet for 曼努埃尔·阿劳堆·伊达尔哥). Names: Zhou Enlai.'
     src:
       c: 9772ced3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 333: all'
+        - 'w.chen-yi-nianpu 928: ?'
     tags: [polity:prc, polity:ecuador, name:zhou-enlai]
     time_range:
       - 1962-08-07T11:00Z
@@ -1826,6 +1903,18 @@ entries:
       - 1962-08-11T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-11.china-leadership-5
+    when: Aug. 11
+    date: '1962-08-11'
+    place: beidaihe
+    thread: china-leadership
+    c: 'Beidaihe. Liu Shaoqi makes a self-criticism: his earlier view of the situation was wholly wrong.'
+    n: '[[w.jian-zhou-enlai]], 469. Made public: 1993. To check: [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 558 (cited by [[w.jian-zhou-enlai]], 469 n.20a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], II, 1074–1075 (cited by [[w.jian-zhou-enlai]], 469 n.20b). Names: Liu Shaoqi.'
+    src:
+      c: a6285b4b
+      rows:
+        - 'w.jian-zhou-enlai 469: all'
+    tags: [polity:prc, vis:only:prc, name:liu-shaoqi]
   - id: cal.1962-08-12.king
     when: Aug. 12
     date: '1962-08-12'
@@ -1858,7 +1947,7 @@ entries:
     date: '1962-08-12'
     thread: china-leadership
     c: 'Mao has the Rural Work Department''s paper of Aug. 24, 1961, "How the Sixty Articles are being carried out," first circulated at the 1961 Lushan conference, circulated to this one, with a note: the department was then right, but Deng Zihui wavered a year later, seeing the situation as nearly all dark and pressing household contracting. He welcomes Deng''s self-criticism of Aug. 11, finding it still short.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 12, 1962 ("同日"). [[w.jianguo-yilai-mao-zedong]], XVI, 343–346 (Aug. 12, 1962; Mao''s note, dated Aug. 12; printed from the manuscript; the department was then right (the ten measures of part two, with the right handling of go-it-alone; the ten points on the situation of part one); after ten months, August 1961 to the end of May 1962, Deng wavered; tied to his reluctance on cooperatives before the summer 1955 meeting and his "four great freedoms"; Deng''s statement at the core group Aug. 11 welcome but not enough; notes 4–5 list the twenty points; note 6: the Center General Office''s notice of Mar. 9, 1981 rehabilitating Deng Zihui); [[w.mao-zedong-zhuan]], V, ch. 70 (Aug. 12: Mao finds the Rural Work Department''s paper of Aug. 24, 1961, on how the sixty articles were carried out, which he praised then). [[w.yang-jisheng-mubei]], II, 1129 n.36 (Mao''s comment of Aug. 12 on a document, sharply criticizing Deng Zihui: he has wavered, his view of the situation nearly all dark, and he vigorously promotes household contracting; this goes with his holding back from cooperatives before 1955, ordering the cutting of some hundreds of thousands and having no regard for them, and before that urging the "four great freedoms"; he has not linked it to his own bourgeois-democratic standpoint of 1950–55). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70). See [[cal.1962-08-11.china-leadership]]. Names: Mao Zedong, Deng Zihui. Check: the nianpu itself calls the note''s criticism of Deng Zihui mistaken ("错误地批评").'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 12, 1962 ("同日"). [[w.jianguo-yilai-mao-zedong]], XVI, 343–346 (Aug. 12, 1962; Mao''s note, dated Aug. 12; printed from the manuscript; the department was then right (the ten measures of part two, with the right handling of go-it-alone; the ten points on the situation of part one); after ten months, August 1961 to the end of May 1962, Deng wavered; tied to his reluctance on cooperatives before the summer 1955 meeting and his "four great freedoms"; Deng''s statement at the core group Aug. 11 welcome but not enough; notes 4–5 list the twenty points; note 6: the Center General Office''s notice of Mar. 9, 1981 rehabilitating Deng Zihui); [[w.mao-zedong-zhuan]], V, ch. 70 (Aug. 12: Mao finds the Rural Work Department''s paper of Aug. 24, 1961, on how the sixty articles were carried out, which he praised then). [[w.yang-jisheng-mubei]], II, 1129 n.36 (Mao''s comment of Aug. 12 on a document, sharply criticizing Deng Zihui: he has wavered, his view of the situation nearly all dark, and he vigorously promotes household contracting; this goes with his holding back from cooperatives before 1955, ordering the cutting of some hundreds of thousands and having no regard for them, and before that urging the "four great freedoms"; he has not linked it to his own bourgeois-democratic standpoint of 1950–55); [[w.yang-jisheng-tiandi-fanfu]], I, 77 (Mao: Deng Zihui wavered, saw the situation as nearly all dark, pressed contracting to households; the Rural Work Department later abolished, Deng given the empty post of deputy head of the Planning Commission). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70). See [[cal.1962-08-11.china-leadership]]. Names: Mao Zedong, Deng Zihui. Check: the nianpu itself calls the note''s criticism of Deng Zihui mistaken ("错误地批评").'
     src:
       c: 5d50ce93
       rows:
@@ -1869,6 +1958,7 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVI, 345 n.6b: all'
         - 'w.mao-zedong-zhuan V, ch. 70: A'
         - 'w.yang-jisheng-mubei II, 1129 n.36: A'
+        - 'w.yang-jisheng-tiandi-fanfu I, 77: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1962-08-12.china-leadership-3
     when: Aug. 12
@@ -2241,6 +2331,13 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 204: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-08-14.china-leadership-5
+    when: Aug. 14
+    date: '1962-08-14'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Pak Song-chol 朴成哲, the Korean Foreign Minister, on the seventeenth anniversary of Korea's liberation.
+    n: '[[w.chen-yi-nianpu]], 928. Names: Chen Yi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi]
   - id: cal.1962-08-15.middle-east
     when: Aug. 15–16
     date: '1962-08-15'
@@ -2502,6 +2599,13 @@ entries:
     c: 'Saigon opens operation Bình Tây, Aug. 15, against the guerrillas and for the people''s removal to strategic hamlets: the first phase Aug. 15–18 on Cái Nước, Sông Ông Đốc and U Minh Hạ, the second Aug. 21–30 on Giá Rai, the Sóc Trăng coast and Long Mỹ.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 177. Check: two phases, Aug. 15–18 and Aug. 21–30.'
     tags: [polity:drv]
+  - id: cal.1962-08-15.china-leadership-11
+    when: Aug. 15
+    date: '1962-08-15'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Subandrio, Indonesia's Foreign Minister, on its national day.
+    n: '[[w.chen-yi-nianpu]], 928–929. Names: Chen Yi, Subandrio.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio]
   - id: cal.1962-08-16.conservation
     when: Aug. 16–18
     date: '1962-08-16'
@@ -2729,20 +2833,35 @@ entries:
     date: '1962-08-17'
     thread: china-leadership
     c: 'Zhou Enlai at the conference''s center group. Class struggle is long and complex; going it alone and responsibility fields are to be seen in essence and analyzed. For a time the difficulties were told too much, which hurt the Party; some old workers asked to stay at the plant and refused severance pay. Two attitudes: overcome the difficulties or despair. By July the cities had cut 8.9 million with no great trouble, a first in the Party''s history; the city and village population concepts are confused; money has been drawn back and inflation is past.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 493 (Aug. 17, 1962); [[w.yang-shangkun-riji]], II, 204 (Aug. 17, 1962; 2 to 5 p.m.; Zhou Enlai not named); [[w.mao-zedong-zhuan]], V, ch. 70 n.48 (Aug. 17, the core group, Mao present, the conference turning to commerce, prices and grain; Li Xiannian and Zhou Enlai speak; Mao: a lifetime of war and he forgot the class struggle, now not bloody as then; Li: purchases less, imports 5.4 million tons last year, 4.7 this; free-market prices halved, grain''s to a quarter; Mao: supply and demand; have Tan Zhenlin speak of the situation and Li of the difficulties, an occupational disease). Continues 494. Made public: 1997. To check: Record of the core group 中心小组会议记录, Central Work Conference, Aug. 17, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.48). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 493 (Aug. 17, 1962); [[w.yang-shangkun-riji]], II, 204 (Aug. 17, 1962; 2 to 5 p.m.; Zhou Enlai not named); [[w.mao-zedong-zhuan]], V, ch. 70 n.48 (Aug. 17, the core group, Mao present, the conference turning to commerce, prices and grain; Li Xiannian and Zhou Enlai speak; Mao: a lifetime of war and he forgot the class struggle, now not bloody as then; Li: purchases less, imports 5.4 million tons last year, 4.7 this; free-market prices halved, grain''s to a quarter; Mao: supply and demand; have Tan Zhenlin speak of the situation and Li of the difficulties, an occupational disease). Continues 494. [[w.jian-zhou-enlai]], 469 (Aug. 17, after missing the first days for diplomacy in Peking: Mao''s issues "very sharp, very important, and very timely"; class struggle long; a trying time but not complete darkness; the ministries'' work since early 1962 to be recognized). Made public: 1997. To check: Record of the core group 中心小组会议记录, Central Work Conference, Aug. 17, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.48); Zhou''s speech at the Beidaihe Conference, August 17, 1962 (cited by [[w.jian-zhou-enlai]], 469 n.21a); [[w.zhou-enlai-zhuan-1949]], 691 (cited by [[w.jian-zhou-enlai]], 469 n.21b). Names: Zhou Enlai.'
+    src:
+      c: 04be0d3a
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 493: ?'
+        - 'w.yang-shangkun-riji II, 204: ?'
+        - 'w.mao-zedong-zhuan V, ch. 70 n.48: ?'
+        - 'w.jian-zhou-enlai 469: ?'
+        - 'via x.1962-08-17.zhou-speech-beidaihe: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-08-17.china-leadership-2
     when: Aug. 17
     date: '1962-08-17'
+    place: peking
     thread: china-leadership
     also: [indonesia]
     c: Zhu De and Chen Yi attend the reception given by the Indonesian ambassador, Sukarni, for Indonesia's independence day. Chen Yi, in his speech, stresses China's support for Indonesia's struggle to recover West Irian and for Indonesia's proposal to hold a second Asian–African conference.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 240 (Aug. 17, 1962). Names: Zhu De, Chen Yi. The book names the ambassador 苏卡尼·卡托迪维约.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 240 (Aug. 17, 1962); [[w.chen-yi-nianpu]], 929 (Aug. 17, 1962, evening, at the Peking Hotel; Chen Yi speaks; the Dutch agreement to hand West Irian''s administration to Indonesia the fruit of its struggle; China backs the call for a second Asian-African conference; condemns American interference in Laos and the Thai invasion of Cambodia). Names: Zhu De, Chen Yi. The book names the ambassador 苏卡尼·卡托迪维约.'
     src:
       c: 2ef88b54
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 240: all'
+        - 'w.chen-yi-nianpu 929: ?'
     tags: [polity:prc, polity:indonesia, name:zhu-de, name:chen-yi]
+    time_range:
+      - 1962-08-17T11:00Z
+      - 1962-08-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-17.china-leadership-3
     when: Aug. 17
     date: '1962-08-17'
@@ -2805,6 +2924,18 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 204: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-08-17.china-leadership-8
+    when: Aug. 17
+    date: '1962-08-17'
+    thread: china-leadership
+    c: 比拉马·特拉奥雷, Mali's new Ambassador, calls on Chen Yi 陈毅 on the presentation of his credentials.
+    n: '[[w.chen-yi-nianpu]], 929. The words: 上午 (929). Names: Chen Yi.'
+    tags: [polity:prc, polity:mali, name:chen-yi]
+    time_range:
+      - 1962-08-16T22:00Z
+      - 1962-08-17T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-18.vietnam
     when: Aug. 18
     date: '1962-08-18'
@@ -2881,13 +3012,14 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: 'Mao on the Central Military Commission''s Aug. 10 report for May–July: the emergency preparations against an American–Nationalist attack on the southeast coast (late May to mid-June), the struggle against India''s "nibbling" in the western sector, and the early summer call-up. To be circulated: army, people, Party and government "very good and invincible"; whoever misses it is an opportunist.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 18, 1962. [[w.jianguo-yilai-mao-zedong]], XVI, 361 (Aug. 18, 1962; Mao''s note of Aug. 18; printed from the manuscript; note 1: the report of Aug. 10 to the Center and Mao on the work of May–July; note 2: not printed for the Central Work Conference, only for the Politburo members, Peng Zhen and Yang Shangkun). Made public: 2013. To check: Central Military Commission, work report for May–July 1962 to the Central Committee and Mao Zedong, Aug. 10, 1962 (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 361 n.1). See [[cal.1962-06-08.china-leadership]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 18, 1962. [[w.jianguo-yilai-mao-zedong]], XVI, 361 (Aug. 18, 1962; Mao''s note of Aug. 18; printed from the manuscript; note 1: the report of Aug. 10 to the Center and Mao on the work of May–July; note 2: not printed for the Central Work Conference, only for the Politburo members, Peng Zhen and Yang Shangkun); [[w.jian-zhou-enlai]], 479 (Beidaihe, mid-August: the Military Commission''s report for "tit-for-tat struggles against the Indian encroachment"; Mao approves). Made public: 2013. To check: Central Military Commission, work report for May–July 1962 to the Central Committee and Mao Zedong, Aug. 10, 1962 (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 361 n.1). See [[cal.1962-06-08.china-leadership]]. Names: Mao Zedong.'
     src:
       c: 52ff9a79
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Aug. 18, 1962: all'
         - 'w.jianguo-yilai-mao-zedong XVI, 361: A-C'
         - 'via w.jianguo-yilai-mao-zedong XVI, 361 n.1: all'
+        - 'w.jian-zhou-enlai 479: ?'
     tags: [polity:prc, polity:roc, polity:india, name:mao-zedong, vis:only:prc]
   - id: cal.1962-08-18.china-leadership-2
     when: Aug. 18
@@ -2913,6 +3045,31 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 205: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-08-18.china-leadership-4
+    when: Aug. 18
+    date: '1962-08-18'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Mrs. Janet Jagan 简奈特·贾根, general secretary of the People's Progressive Party of British Guiana.
+    n: '[[w.chen-yi-nianpu]], 929. The words: 下午 (929). Names: Chen Yi, Janet Jagan.'
+    tags: [polity:prc, name:chen-yi, name:jagan-janet, ok:fields-place]
+    time_range:
+      - 1962-08-18T04:00Z
+      - 1962-08-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-08-18.china-leadership-5
+    when: Aug. 18
+    date: '1962-08-18'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the banquet of Hu Yuzhi 胡愈之, acting president of the Chinese People's Institute of Foreign Affairs 中国人民外交学会, for Mrs. Janet Jagan in the Xinjiang Room of the Great Hall of the People 人民大会堂新疆厅; gives a toast.
+    n: '[[w.chen-yi-nianpu]], 929. The words: 晚上 (929). Names: Chen Yi, Janet Jagan.'
+    tags: [polity:prc, name:chen-yi, name:jagan-janet]
+    time_range:
+      - 1962-08-18T11:00Z
+      - 1962-08-18T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-19.middle-east
     when: Aug. 19
     date: '1962-08-19'
@@ -3277,6 +3434,25 @@ entries:
       - 1962-08-21T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-21.china-leadership-6
+    when: Aug. 21
+    date: '1962-08-21'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Prince Sihanouk's cable of Aug. 20 thanking him and the Chinese government for their support of Cambodia.
+    n: '[[w.chen-yi-nianpu]], 929. Names: Chen Yi, Sihanouk.'
+    tags: [polity:prc, polity:cambodia, name:norodom-sihanouk, name:chen-yi]
+  - id: cal.1962-08-21.china-leadership-7
+    when: Aug. 21
+    date: '1962-08-21'
+    thread: china-leadership
+    c: Chen Yi 陈毅 summons 阿卜杜勒·拉赫曼·基万, head of the Algerian mission, to tell him China answers the FLN Political Bureau's appeal with a gift of 9,000 tons of wheat, 3,000 tons of building steel and 21 tons of medicines for rebuilding after the war.
+    n: '[[w.chen-yi-nianpu]], 929–930. The words: 上午 (929–930). Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, vis:only:prc+algeria]
+    time_range:
+      - 1962-08-20T22:00Z
+      - 1962-08-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-22.missile-crisis
     when: Aug. 22–23
     date: '1962-08-22'
@@ -3340,12 +3516,13 @@ entries:
     date: '1962-08-22'
     thread: china-leadership
     c: Peng Dehuai writes again to Mao and his colleagues, repeating his appeal for a comprehensive investigation.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 180; [[w.yang-jisheng-mubei]], II, 1130 n.37 (Peng writes a second time to Mao and the Center on Aug. 22, two days before the conference ends, again denying the anti-Party group and the plot with foreigners; it is taken for a new attack). Made public: 1997. Names: Peng Dehuai, Mao Zedong.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 180; [[w.yang-jisheng-mubei]], II, 1130 n.37 (Peng writes a second time to Mao and the Center on Aug. 22, two days before the conference ends, again denying the anti-Party group and the plot with foreigners; it is taken for a new attack); [[w.yang-jisheng-tiandi-fanfu]], I, 78 (two days before the Beidaihe conference ends). Made public: 1997. Names: Peng Dehuai, Mao Zedong.'
     src:
       c: 88a7a834
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 180: all'
         - 'w.yang-jisheng-mubei II, 1130 n.37: A'
+        - 'w.yang-jisheng-tiandi-fanfu I, 78: ?'
     tags: [polity:prc, name:peng-dehuai, name:mao-zedong, vis:only:prc]
   - id: cal.1962-08-22.china-leadership-2
     when: Aug. 22
@@ -3456,6 +3633,13 @@ entries:
       - 1962-08-22T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-08-22.china-leadership-9
+    when: Aug. 22
+    date: '1962-08-22'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Corneliu Mănescu, the Romanian Foreign Minister, on the eighteenth anniversary of Romania's liberation.
+    n: '[[w.chen-yi-nianpu]], 930. Names: Chen Yi, Mănescu.'
+    tags: [polity:prc, polity:romania, name:chen-yi, name:manescu-corneliu]
   - id: cal.1962-08-23.middle-east
     when: Aug. 23–26
     date: '1962-08-23'
@@ -3560,15 +3744,22 @@ entries:
   - id: cal.1962-08-23.china-leadership-2
     when: Aug. 23
     date: '1962-08-23'
+    place: peking
     thread: china-leadership
     also: [laos, soviet-union]
     c: Dong Biwu, Vice-Chairman of the Republic, and Chen Yi attend the reception given by the Romanian ambassador for the 18th anniversary of Romania's liberation. Chen Yi, in his speech, condemns the U.S. for backing and egging on the Phoumi Nosavan clique, which blocks the provisional government of national union of Laos from exercising its powers and plots to break the Geneva agreement, so that the U.S. and its lackey forces may escape their obligation to withdraw.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 240 (Aug. 23, 1962). Names: Dong Biwu, Chen Yi, Phoumi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 240 (Aug. 23, 1962); [[w.chen-yi-nianpu]], 930 (Aug. 23, 1962, evening, the reception of 乔治乌·杜米特鲁 at the Peking Hotel; Chen Yi speaks and condemns the United States for setting the Phoumi Nosavan group to obstruct the provisional government and evade withdrawal). Names: Dong Biwu, Chen Yi, Phoumi.'
     src:
       c: b93caa8e
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 240: all'
+        - 'w.chen-yi-nianpu 930: ?'
     tags: [polity:prc, polity:romania, polity:laos, polity:us, name:dong-biwu, name:chen-yi, name:phoumi-nosavan]
+    time_range:
+      - 1962-08-23T11:00Z
+      - 1962-08-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-08-23.china-leadership-3
     when: Aug. 23
     date: '1962-08-23'
@@ -3648,6 +3839,18 @@ entries:
       - 1962-08-23T11:00Z
       - 1962-08-23T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-08-23.china-leadership-8
+    when: Aug. 23
+    date: '1962-08-23'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 卡马拉·马马迪, the Guinean secretary of the Afro-Asian People's Solidarity Organization; Mrs. Flora Gould 弗洛拉·古耳德 of the New Zealand Peace Council; 玛吉利·布劳德本特 of the Victoria Asia Peace Council, Australia; Rewi Alley 艾黎, of the Asia and Pacific peace liaison committee, back from the eighth world conference against atomic and hydrogen bombs; and 遍尔, Sudanese, of the Afro-Asian Writers' permanent bureau.
+    n: '[[w.chen-yi-nianpu]], 930. The words: 下午 (930). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-08-23T04:00Z
+      - 1962-08-23T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-08-24.defense
     when: Aug. 24
@@ -3922,13 +4125,28 @@ entries:
         - 'via w.yang-jisheng-mubei I, 316 n.t1: all'
         - 'via w.yang-jisheng-mubei I, 341 n.t1: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-08-25.china
+    when: Aug. 25
+    date: '1962-08-25'
+    thread: china
+    also: [soviet-union, testing]
+    c: The Soviet government informs China that it is ready to conclude an agreement with the United States on preventing the spread of nuclear weapons.
+    n: '[[w.brothers-in-arms]], 381 (Deng Xiaoping''s speech of July 8, 1963, in the Soviet record); [[w.westad-introduction]], 28 n.102 (in August 1962 the Soviets informed China that they accepted the American proposal in general); [[w.westad-sino-soviet-alliance-and]], 179 (Moscow''s word of its intention to negotiate a nonproliferation treaty with the United States, before Chen Yi''s reply in September). Made public: 1998.'
+    src:
+      c: 999ab9ef
+      rows:
+        - 'w.brothers-in-arms 381: all'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: all'
+        - 'w.westad-introduction 28 n.102: ?'
+        - 'w.westad-sino-soviet-alliance-and 179: ?'
+    tags: [polity:ussr, polity:prc, vis:only:ussr+prc]
   - id: cal.1962-08-26.china-leadership
     when: Aug. 26
     date: '1962-08-26'
     place: peking
     thread: china-leadership
     c: Peking. The preparatory meeting for the Tenth Plenum opens (Aug. 26–Sept. 23). First it takes two farm papers and criticizes Deng Zihui's "go-it-alone wind," the international situation and the exchange of cadres; from Sept. 6–7 the six groups turn to criticizing Peng Dehuai and Xi Zhongxun's "reversal wind."
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 26, 1962. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 559 (Aug. 26–Sept. 23, 1962; Liu attends); [[w.macfarquhar-origins-of-the-cultural]], III, 283 (the preparatory meeting for the Tenth Plenum, begun Aug. 26, takes up the matters Mao raised and agriculture, commerce, industry and planning until Sept. 23); [[w.deng-xiaoping-nianpu-1904]], III, 1722 (Aug. 26–Sept. 23, 1962; Deng at the preparatory meeting for the Tenth Plenum: the decision on consolidating the communes'' collective economy, the revised Working Regulations, the world; the "go-it-alone wind" behind output by household and the "reversal-of-verdicts wind" of Peng Dehuai and others criticized). Made public: 1996. To check: [[w.schram-mao-tse-tung-unrehearsed]], 9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 283 n.127). Names: Mao Zedong, Peng Dehuai, Xi Zhongxun, Xiao Hua.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 26, 1962. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 559 (Aug. 26–Sept. 23, 1962; Liu attends); [[w.macfarquhar-origins-of-the-cultural]], III, 283 (the preparatory meeting for the Tenth Plenum, begun Aug. 26, takes up the matters Mao raised and agriculture, commerce, industry and planning until Sept. 23); [[w.deng-xiaoping-nianpu-1904]], III, 1722 (Aug. 26–Sept. 23, 1962; Deng at the preparatory meeting for the Tenth Plenum: the decision on consolidating the communes'' collective economy, the revised Working Regulations, the world; the "go-it-alone wind" behind output by household and the "reversal-of-verdicts wind" of Peng Dehuai and others criticized); [[w.chen-yi-nianpu]], 930 (Aug. 26–Sept. 23, 1962; Chen Yi attends the preparatory meeting). Made public: 1995. To check: [[w.schram-mao-tse-tung-unrehearsed]], 9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 283 n.127). Names: Mao Zedong, Peng Dehuai, Xi Zhongxun, Xiao Hua.'
     src:
       c: 9dc326c2
       rows:
@@ -3937,6 +4155,7 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 283: B, C'
         - 'via w.macfarquhar-origins-of-the-cultural III, 283 n.127: B, C'
         - 'w.deng-xiaoping-nianpu-1904 III, 1722: ?'
+        - 'w.chen-yi-nianpu 930: ?'
     tags: [polity:prc, name:mao-zedong, name:peng-dehuai, vis:only:prc]
   - id: cal.1962-08-26.china-leadership-2
     when: Aug. 26
@@ -4149,12 +4368,15 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Zhou Enlai flies to Canton and meets Phạm Văn Đồng.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 494 (Aug. 27, 1962); [[w.zhou-enlai-waijiao-huodong]], 334 (Aug. 27, 1962; 下午4时, 广州东山招待所). Made public: 1993. Names: Zhou Enlai, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 494 (Aug. 27, 1962); [[w.zhou-enlai-waijiao-huodong]], 334 (Aug. 27, 1962; 下午4时, 广州东山招待所); [[w.jian-zhou-enlai]], 494 (late August: Zhou to Đồng: the southern comrades to depend mainly on themselves; Washington''s reaction to be watched; no promise to defend the North). Made public: 1993. To check: Zhou and Chen''s meeting with Đồng, August 27, 1962 (cited by [[w.jian-zhou-enlai]], 494 n.10a); Zhou''s conversation with Đồng about the Southern Revolution and support to Laos, August 28, 1962 (cited by [[w.jian-zhou-enlai]], 494 n.10b); [[w.zhou-enlai-junshi-huodong]], II, 567 (cited by [[w.jian-zhou-enlai]], 494 n.10c). Names: Zhou Enlai, Phạm Văn Đồng.'
     src:
       c: e752a37e
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 494: ?'
         - 'w.zhou-enlai-waijiao-huodong 334: A'
+        - 'w.jian-zhou-enlai 494: ?'
+        - 'via x.1962-08-27.zhou-chen-meeting-pham-van-dong: ?'
+        - 'via x.1962-08-28.zhou-pham-van-dong-talk-baiyun-airport-record: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:pham-van-dong, vis:only:prc+drv]
     time_zone: Asia/Shanghai
     variants:
@@ -4630,11 +4852,12 @@ entries:
     date: '1962-08-30'
     thread: china
     c: 'Zhou Enlai and Chen Yi each cable Eric Williams, Prime Minister and Foreign Minister of Trinidad and Tobago, congratulating it on its independence: the Chinese government decides to recognize Trinidad and Tobago.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 240 (Aug. 30, 1962). Names: Zhou Enlai, Chen Yi. Check: the book gives the name as 埃里克·威廉斯.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 240 (Aug. 30, 1962); [[w.chen-yi-nianpu]], 930 (Aug. 30, 1962; Chen Yi''s cable to Eric Williams: China recognizes Trinidad and Tobago). Names: Zhou Enlai, Chen Yi. Check: the book gives the name as 埃里克·威廉斯.'
     src:
       c: 5e2f433a
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 240: all'
+        - 'w.chen-yi-nianpu 930: ?'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi]
   - id: cal.1962-08-30.china-leadership
     when: Aug. 30
@@ -5176,3 +5399,51 @@ entries:
     c: 'COSVN''s resolution on breaking the strategic hamlets: a rising of the masses inside them, the Party built among the people there, the forces inside first with those outside; the control apparatus broken with the fences, against their rebuilding, from loosening to the posts'' destruction and the villages'' full liberation.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 195. Made public: 2013.'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1962-08.china-leadership-8
+    when: Aug., early
+    date: 1962-08
+    at: before 1962-08-01
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 receives and gives a banquet for Nguyễn Duy Trinh 阮维祯, Vietnam's Vice-Premier and head of its State Planning Commission, in Peking 北京 on his way to Moscow.
+    n: '[[w.chen-yi-nianpu]], 928. Names: Chen Yi, Nguyễn Duy Trinh.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:nguyen-duy-trinh, ok:fields-place]
+  - id: cal.1962-08.china
+    when: Aug.
+    date: 1962-08
+    thread: china
+    also: [soviet-union]
+    c: Moscow tells Peking the Soviet government has agreed to the American proposal on nuclear nonproliferation.
+    n: '[[w.jian-zhou-enlai]], 516. Made public: 1988. To check: [[w.bianjibu-dangdai-zhongguo-waijiao]], 119–120 (Xue Mouhong et al., as cited) (cited by [[w.jian-zhou-enlai]], 516 n.103).'
+    src:
+      c: c460b206
+      rows:
+        - 'w.jian-zhou-enlai 516: all'
+    tags: [polity:prc, polity:ussr, vis:only:prc+ussr, ok:fields-place]
+  - id: cal.1962-08.china-2
+    when: Aug.
+    date: 1962-08
+    thread: china
+    also: [soviet-union]
+    c: 'Peking answers Moscow at once: the Soviet Union seeks to "monopolize nuclear technology"; it is not to sabotage China''s sovereignty or take responsibility for China.'
+    n: '[[w.jian-zhou-enlai]], 516. Made public: 1988. To check: [[w.bianjibu-dangdai-zhongguo-waijiao]], 119–120 (Xue Mouhong et al., as cited) (cited by [[w.jian-zhou-enlai]], 516 n.103). See [[cal.1962-08.china]].'
+    src:
+      c: 7d4bf768
+      rows:
+        - 'w.jian-zhou-enlai 516: all'
+    tags: [polity:prc, vis:only:prc+ussr, ok:fields-place]
+  - id: cal.1962-08.china-leadership-9
+    when: Aug., at the Beidaihe conference
+    date: 1962-08
+    at: before 1962-08-06
+    place: beidaihe
+    thread: china-leadership
+    c: 'Beidaihe, the leaders'' summer conference. Mao takes the offensive: his colleagues have "capitulated to the bourgeoisie" with the adjustments of the past year and a half. He condemns Wang Jiaxiang, who had called in the spring for less tension with the Soviet Union and the United States.'
+    n: '[[w.westad-introduction]], 27; [[w.jian-chinese-politics-and-the]], 276 (Mao calls Wang''s ideas conciliation toward the imperialists, revisionists and reactionaries, with less support for those fighting them, "three reconciliations and one reduction"; no day or place). Made public: 1993 ([[w.teiwes-politics-and-purges-in]], 375, cited by [[w.westad-introduction]], 27 n.98). To check: [[w.teiwes-politics-and-purges-in]], 375 (cited by [[w.westad-introduction]], 27 n.98); Zhang Baijia, Looking at Sino-American Relations during the Cold War from the Chinese Perspective, paper, Hong Kong, Jan. 1996, 15 (cited by [[w.westad-introduction]], 27 n.98); [[w.jin-1949-1989-niande-zhongguo]], 576–77, 579 (cited by [[w.jian-chinese-politics-and-the]], 276 n.152; the note prints the title *Quzhe qianjin de suiyue*). Names: Mao Zedong. Check: the day: Westad gives the summer conference at Beidaihe; the calendar has the Central Work Conference there Aug. 6–24, 1962.'
+    src:
+      c: '54222274'
+      rows:
+        - 'w.westad-introduction 27: all'
+        - 'w.jian-chinese-politics-and-the 276: ?'
+        - 'via x.1996-01.zhang-baijia-looking-at-sino-american-relations: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong]

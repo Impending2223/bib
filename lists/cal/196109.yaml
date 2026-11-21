@@ -170,6 +170,21 @@ entries:
       - 1961-09-01T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-01.china-leadership-6
+    when: Sept. 1
+    date: '1961-09-01'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 cables Ung Văn Khiêm, the Vietnamese Foreign Minister, on the sixteenth anniversary of the Democratic Republic of Vietnam.
+    n: '[[w.chen-yi-nianpu]], 887. Names: Chen Yi, Ung Văn Khiêm.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:ung-van-khiem]
+  - id: cal.1961-09-01.china-leadership-7
+    when: Sept. 1
+    date: '1961-09-01'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Saad Dahlab 沙阿德·达列伯 on his taking office as Foreign Minister of the Provisional Government of the Algerian Republic.
+    n: '[[w.chen-yi-nianpu]], 888. Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi]
   - id: cal.1961-09-02.berlin-and-vienna
     when: Sept. 2
     date: '1961-09-02'
@@ -211,12 +226,18 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: 'Chen Yi, at the reception given by Trần Tử Bình, the Vietnamese ambassador, for Vietnam''s national day: he stresses China''s firm backing for the Soviet statement on nuclear tests. The socialist countries, for the sake of world peace, must firmly take every possible measure to strengthen their defense.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 203 (Sept. 2, 1961). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 203 (Sept. 2, 1961); [[w.chen-yi-nianpu]], 888 (Sept. 2, 1961, evening, at the reception of 陈子平, the Vietnamese ambassador, at the embassy; Chen Yi backs the Soviet statement on nuclear testing, accuses the United States of preparing general nuclear and limited wars, says the Soviet decision does not change the socialist countries'' stand for a ban and general disarmament, backs the Soviet and German proposals for a German peace treaty and on West Berlin, and condemns the United States for driving out Quadros). Names: Chen Yi.'
     src:
       c: 4dd24e98
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 203: all'
+        - 'w.chen-yi-nianpu 888: ?'
     tags: [polity:prc, polity:drv, polity:ussr, name:chen-yi]
+    time_range:
+      - 1961-09-02T11:00Z
+      - 1961-09-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-02.china-leadership-2
     when: Sept. 2
     date: '1961-09-02'
@@ -229,6 +250,11 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 64: all'
     tags: [polity:prc]
+    variants:
+      - unit: A
+        witness: w.chen-yi-nianpu
+        reads: Sha Kefu 沙可夫 dies at Qingdao 青岛 Sept. 1, 1961, at 7:06 p.m., aged 56
+        at: 887–888
   - id: cal.1961-09-02.china-leadership-3
     when: Sept. 2
     date: '1961-09-02'
@@ -266,6 +292,19 @@ entries:
     c: Kon Tum. Two battalions of the Saigon 22d Division come down from Đắk Tô, Sept. 2, and retake Đắk Hà.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 159.'
     tags: [polity:drv]
+  - id: cal.1961-09-02.china-leadership-5
+    when: Sept. 2
+    date: '1961-09-02'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the Omsk Russian Folk Chorus's performance in the Zhongshan Park Music Hall 中山公园音乐堂; in the interval receives its head, 尤罗夫斯基, Godunov 戈杜诺夫 of the Soviet State Committee for Cultural Relations with Foreign Countries, and its artistic director 秋马可夫.
+    n: '[[w.chen-yi-nianpu]], 888. The words: 晚上 (888). Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi]
+    time_range:
+      - 1961-09-02T11:00Z
+      - 1961-09-02T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-03.economy
     when: Sept. 3
     date: '1961-09-03'
@@ -468,6 +507,31 @@ entries:
       - 1961-09-04T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-04.china-leadership-5
+    when: Sept. 4
+    date: '1961-09-04'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Malian government's economic delegation, led by 塞·巴·库亚特, Minister of Planning and Rural Economy.
+    n: '[[w.chen-yi-nianpu]], 888. The words: 下午 (888). Names: Chen Yi.'
+    tags: [polity:prc, polity:mali, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1961-09-04T04:00Z
+      - 1961-09-04T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-09-04.china-leadership-6
+    when: Sept. 4
+    date: '1961-09-04'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 gives a banquet in the Xinjiang Room of the Great Hall of the People 人民大会堂新疆厅 for the Malian economic delegation; colonial rule in Africa, he says, is bound to perish.
+    n: '[[w.chen-yi-nianpu]], 888. The words: 晚上 (888). Names: Chen Yi.'
+    tags: [polity:prc, polity:mali, name:chen-yi]
+    time_range:
+      - 1961-09-04T11:00Z
+      - 1961-09-04T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-05.testing
     when: Sept. 5
     date: '1961-09-05'
@@ -653,12 +717,18 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Chen Yi, at the reception seeing off the Ethiopian cultural delegation led by 贝·特塞玛: the delegation''s visit has turned relations between the two countries around, and he hopes China and Ethiopia will back each other in the struggle against imperialism.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 203–204 (Sept. 5, 1961). Names: Chen Yi. Check: the delegation''s head is 贝·特塞玛 in the book; no Latin form is settled.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 203–204 (Sept. 5, 1961); [[w.chen-yi-nianpu]], 888–889 (Sept. 5, 1961, evening; the banquet of the Commission for Cultural Relations with Foreign Countries 对外文化联络委员会; thanks Ethiopia for its stand on China''s rights in the United Nations). Names: Chen Yi. Check: the delegation''s head is 贝·特塞玛 in the book; no Latin form is settled.'
     src:
       c: dda16bc7
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 203–204: all'
+        - 'w.chen-yi-nianpu 888–889: ?'
     tags: [polity:prc, polity:ethiopia, name:chen-yi]
+    time_range:
+      - 1961-09-05T11:00Z
+      - 1961-09-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-05.china-leadership-4
     when: Sept. 5
     date: '1961-09-05'
@@ -914,6 +984,42 @@ entries:
     c: Saigon. Four hundred workers in four plants of the American Stanvac oil company stage a sit-in strike, Sept. 6–22.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 163.'
     tags: [polity:drv]
+  - id: cal.1961-09-06.china-leadership-6
+    when: Sept. 6
+    date: '1961-09-06'
+    thread: china-leadership
+    c: Chen Yi 陈毅 is chief mourner at the public memorial for Sha Kefu 沙可夫 held by the Central Academy of Drama 中央戏剧学院.
+    n: '[[w.chen-yi-nianpu]], 888. See [[cal.1961-09-02.china-leadership-2]]. The words: 6日上午 (888). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1961-09-05T22:00Z
+      - 1961-09-06T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-09-06.china-leadership-7
+    when: Sept. 6
+    date: '1961-09-06'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Field Marshal Montgomery.
+    n: '[[w.chen-yi-nianpu]], 889. The words: 下午 (889). Names: Chen Yi, Montgomery.'
+    tags: [polity:prc, polity:uk, name:chen-yi, name:montgomery-of-alamein-bernard-l, ok:fields-place]
+    time_range:
+      - 1961-09-06T04:00Z
+      - 1961-09-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-09-06.china-leadership-8
+    when: Sept. 6
+    date: '1961-09-06'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the signing of the communiqué on the talks of the Chinese government's cultural delegation and the Ethiopian cultural delegation.
+    n: '[[w.chen-yi-nianpu]], 889. The words: 下午 (889). Names: Chen Yi.'
+    tags: [polity:prc, polity:ethiopia, name:chen-yi]
+    time_range:
+      - 1961-09-06T04:00Z
+      - 1961-09-06T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-07.states-and-cities
     when: Sept. 7
     date: '1961-09-07'
@@ -1085,6 +1191,34 @@ entries:
       - 1961-09-07T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-07.china-leadership-5
+    when: Sept. 7
+    date: '1961-09-07'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 takes Field Marshal Montgomery round the Palace Museum 故宫博物院.
+    n: '[[w.chen-yi-nianpu]], 889. The words: 上午 (889). Names: Chen Yi, Montgomery.'
+    tags: [polity:prc, polity:uk, name:chen-yi, name:montgomery-of-alamein-bernard-l]
+    time_range:
+      - 1961-09-06T22:00Z
+      - 1961-09-07T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-09-07.china-leadership-6
+    when: Sept. 7
+    date: '1961-09-07'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1961-09-07.china-leadership-5
+    c: Chen Yi 陈毅 gives a banquet in the Great Hall of the People 人民大会堂 for Field Marshal Montgomery. His speech praises Montgomery's principles for easing tension, that there is only one China and that the United States should withdraw its forces from Taiwan 台湾 and the Taiwan Strait.
+    n: '[[w.chen-yi-nianpu]], 889. The words: 晚上 (889). Names: Chen Yi, Montgomery.'
+    tags: [polity:prc, polity:uk, name:chen-yi, name:montgomery-of-alamein-bernard-l]
+    time_range:
+      - 1961-09-07T11:00Z
+      - 1961-09-07T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-08.crime-and-hijacking
     when: Sept. 8
     date: '1961-09-08'
@@ -1169,6 +1303,51 @@ entries:
       - 1961-09-08T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-08.china-leadership-5
+    when: Sept. 8
+    date: '1961-09-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Karlo Lukanov 卢卡诺夫, the Bulgarian Foreign Minister, on Bulgaria's seventeenth national day.
+    n: '[[w.chen-yi-nianpu]], 889. Names: Chen Yi.'
+    tags: [polity:prc, polity:bulgaria, name:chen-yi]
+  - id: cal.1961-09-08.china-leadership-6
+    when: Sept. 8
+    date: '1961-09-08'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 takes Field Marshal Montgomery to the Peking Workers' Gymnasium 北京工人体育馆 to watch members of the Chinese team for the twenty-sixth world table tennis championships play.
+    n: '[[w.chen-yi-nianpu]], 889. The words: 下午 (889). Names: Chen Yi, Montgomery.'
+    tags: [polity:prc, polity:uk, name:chen-yi, name:montgomery-of-alamein-bernard-l]
+    time_range:
+      - 1961-09-08T04:00Z
+      - 1961-09-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-09-08.china-leadership-7
+    when: Sept. 8
+    date: '1961-09-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 吴山登, chief executive of the Burmese Land Nationalisation Board, and his agricultural study group.
+    n: '[[w.chen-yi-nianpu]], 889. The words: 下午 (889). Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1961-09-08T04:00Z
+      - 1961-09-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-09-08.china-leadership-8
+    when: Sept. 8
+    date: '1961-09-08'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the farewell reception of 贝·特赛玛, head of the Ethiopian cultural delegation, at the Peking Hotel 北京饭店; gives a toast.
+    n: '[[w.chen-yi-nianpu]], 889. The words: 晚上 (889). Names: Chen Yi.'
+    tags: [polity:prc, polity:ethiopia, name:chen-yi]
+    time_range:
+      - 1961-09-08T11:00Z
+      - 1961-09-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-09.berlin-and-vienna
     when: Sept. 9
     date: '1961-09-09'
@@ -1194,12 +1373,18 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Chen Yi, at the reception the Bulgarian embassy''s chargé, Stoyev, gives for Bulgaria''s national day: the conference of heads of the nonaligned countries helped the cause of peace, independence and national liberation of the Asian, African and Latin American peoples. It reflects the peoples'' just call: without independence and freedom there is no talking of defending peace, and without smashing the chains of imperialism there is no talking of common ground.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 204 (Sept. 9, 1961). Names: Chen Yi. Check: the chargé is 斯托耶夫 in the book.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 204 (Sept. 9, 1961); [[w.chen-yi-nianpu]], 889–890 (Sept. 9, 1961, evening; Chen Yi speaks at the reception of 斯托耶夫, the Bulgarian chargé, at the embassy). Names: Chen Yi. Check: the chargé is 斯托耶夫 in the book.'
     src:
       c: e18568ba
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 204: all'
+        - 'w.chen-yi-nianpu 889–890: ?'
     tags: [polity:prc, polity:bulgaria, name:chen-yi]
+    time_range:
+      - 1961-09-09T11:00Z
+      - 1961-09-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-09.china-leadership-2
     when: Sept. 9
     date: '1961-09-09'
@@ -1209,11 +1394,12 @@ entries:
     thread: china-leadership
     also: [korea]
     c: Deng Xiaoping 邓小平 leads the Chinese Communist Party's delegation to Korea for the Korean Workers' Party's Fourth Congress, at its Central Committee's invitation; with him Kang Sheng 康生, Wu Xiuquan 伍修权 and Hao Deqing 郝德青.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1658–1659 (Sept. 9, 1961). The words: 上午 (III, 1658). Footnote 1: Hao, then Ambassador to Korea, already in Pyongyang (III, 1659). Names: Deng Xiaoping, Kang Sheng.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1658–1659 (Sept. 9, 1961); [[w.chen-yi-nianpu]], 889 (Sept. 9, 1961, morning; Chen Yi sees the delegation off at the airport). The words: 上午 (III, 1658). Footnote 1: Hao, then Ambassador to Korea, already in Pyongyang (III, 1659). Names: Deng Xiaoping, Kang Sheng.'
     src:
       c: 2385efc5
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1658–1659: all'
+        - 'w.chen-yi-nianpu 889: ?'
     tags: [polity:prc, name:deng-xiaoping, name:kang-sheng]
     time_range:
       - 1961-09-08T22:00Z
@@ -1452,6 +1638,26 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1659: all'
     tags: [polity:prc, name:deng-xiaoping]
+  - id: cal.1961-09-11.china-leadership-6
+    when: Sept. 11
+    date: '1961-09-11'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 speaks at the national conference on the remolding of rightists 全国改造右派分子工作会议: the biases in the work to be corrected; unity as well as struggle, not struggle without end; this is not the struggle of 1957. He agrees with the conference''s course: more rightists'' caps to come off, rest and enough food for them, reading, no labor beyond light auxiliary work, paid; let them see their wives and children.'
+    n: '[[w.chen-yi-nianpu]], 890. Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, vis:only:prc]
+  - id: cal.1961-09-11.china-leadership-7
+    when: Sept. 11
+    date: '1961-09-11'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the Japanese local self-government friendship delegation led by 鹈崎多一.
+    n: '[[w.chen-yi-nianpu]], 890. The words: 下午 (890). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1961-09-11T04:00Z
+      - 1961-09-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-12.states-and-cities
     when: Sept. 12
     date: '1961-09-12'
@@ -1636,6 +1842,30 @@ entries:
       - 1961-09-12T13:00Z
     time_band: evening
     time_zone: Asia/Pyongyang
+  - id: cal.1961-09-12.china-leadership-7
+    when: Sept. 12
+    date: '1961-09-12'
+    thread: china-leadership
+    c: Sweden's new Ambassador, 切尔·厄贝尔, calls on Chen Yi 陈毅 on the presentation of his credentials.
+    n: '[[w.chen-yi-nianpu]], 890. The words: 下午 (890). Names: Chen Yi.'
+    tags: [polity:prc, polity:sweden, name:chen-yi]
+    time_range:
+      - 1961-09-12T04:00Z
+      - 1961-09-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-09-12.china-leadership-8
+    when: Sept. 12
+    date: '1961-09-12'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives Julio Álvarez del Vayo 胡利奥·阿耳瓦雷斯·德·瓦约, Foreign Minister of the former Spanish Republic, and his wife.
+    n: '[[w.chen-yi-nianpu]], 890. The words: 下午 (890). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1961-09-12T04:00Z
+      - 1961-09-12T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-13.crime-and-hijacking
     when: Sept. 13
     date: '1961-09-13'
@@ -1813,6 +2043,13 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1659: all'
     tags: [polity:prc, name:deng-xiaoping]
+  - id: cal.1961-09-13.china-leadership-7
+    when: Sept. 13
+    date: '1961-09-13'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅, at a meeting at the Institute of International Relations 国际关系研究所: the graduates of five years at the Institute of International Relations are weak in foreign languages and in diplomacy; more than 300 days of classes stopped in three years for campaigns and labor; trained at great cost and of no use, "chilling."'
+    n: '[[w.chen-yi-nianpu]], 890. Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, vis:only:prc]
   - id: cal.1961-09-14.berlin-and-vienna
     when: Sept. 14–15
     date: '1961-09-14'
@@ -1848,6 +2085,19 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 431: ?'
         - 'w.yang-shangkun-riji II, 68: A'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1961-09-14.china-leadership-3
+    when: Sept. 14
+    date: '1961-09-14'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the Peking Gymnasium 北京体育馆 for the friendly match of the Burmese and Peking men's volleyball teams; photographed with the players.
+    n: '[[w.chen-yi-nianpu]], 890. The words: 晚上 (890). Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi]
+    time_range:
+      - 1961-09-14T11:00Z
+      - 1961-09-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-15.testing
     when: Sept. 15
     date: '1961-09-15'
@@ -2041,6 +2291,13 @@ entries:
       rows:
         - 'w.yang-jisheng-mubei I, 545: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-09-15.china-leadership-10
+    when: Sept. 15
+    date: '1961-09-15'
+    thread: china-leadership
+    c: Chen Yi 陈毅 presides at the twenty-first meeting of the Standing Committee of the National Committee of the Chinese People's Political Consultative Conference 中国人民政治协商会议全国委员会常务委员会. It decides to mark the fiftieth anniversary of the 1911 Revolution 辛亥革命 and sets up a preparatory committee; Chen Yi a member.
+    n: '[[w.chen-yi-nianpu]], 890. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1961-09-16.berlin-and-vienna
     when: Sept. 16
     date: '1961-09-16'
@@ -2166,6 +2423,31 @@ entries:
       - 1961-09-16T04:00Z
       - 1961-09-16T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-09-16.china-leadership-6
+    when: Sept. 16
+    date: '1961-09-16'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Guinean education delegation led by 贝汉赞, director of the office of the Ministry of Education.
+    n: '[[w.chen-yi-nianpu]], 890. The words: 上午 (890). Names: Chen Yi.'
+    tags: [polity:prc, polity:guinea, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1961-09-15T22:00Z
+      - 1961-09-16T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-09-16.china-leadership-7
+    when: Sept. 16
+    date: '1961-09-16'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 gives a banquet in the Xinjiang Room of the Great Hall of the People 人民大会堂新疆厅 for Madeira Keita 马德拉·凯塔, Mali's Minister of the Interior and Information, head of its government economic delegation; world peace can be assured only when colonial rule ends in Asia, Africa and Latin America, he says.
+    n: '[[w.chen-yi-nianpu]], 890–891. The words: 晚上 (890–891). Names: Chen Yi.'
+    tags: [polity:prc, polity:mali, name:chen-yi]
+    time_range:
+      - 1961-09-16T11:00Z
+      - 1961-09-16T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1961-09-17.vietnam
     when: Sept. 17–18
@@ -2465,6 +2747,13 @@ entries:
       - 1961-09-18T09:00Z
     time_band: afternoon
     time_zone: Asia/Pyongyang
+  - id: cal.1961-09-18.china-leadership-6
+    when: Sept. 18
+    date: '1961-09-18'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Saad Dahlab 达列伯, Foreign Minister of the Algerian provisional government, on its third anniversary.
+    n: '[[w.chen-yi-nianpu]], 891. See [[cal.1961-09-01.china-leadership-7]]. Names: Chen Yi.'
+    tags: [polity:prc, polity:algeria, name:chen-yi]
   - id: cal.1961-09-19.rules
     when: Sept. 19
     date: '1961-09-19'
@@ -2701,6 +2990,19 @@ entries:
         - 'w.yang-jisheng-mubei I, 245: all'
         - 'via w.yang-jisheng-mubei I, 245 n.115: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-09-19.china-leadership-9
+    when: Sept. 19
+    date: '1961-09-19'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the reception of the Chinese–African People's Friendship Association 中国非洲人民友好协会 in the Shandong Room of the Great Hall of the People 人民大会堂 for the Malian government's economic delegation led by Madeira Keita 马德拉·凯塔.
+    n: '[[w.chen-yi-nianpu]], 891. The words: 晚上 (891). Names: Chen Yi.'
+    tags: [polity:prc, polity:mali, name:chen-yi]
+    time_range:
+      - 1961-09-19T11:00Z
+      - 1961-09-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-20.testing
     when: Sept. 20
     date: '1961-09-20'
@@ -2944,6 +3246,13 @@ entries:
         - 'w.yang-jisheng-mubei I, 228: all'
         - 'via w.yang-jisheng-mubei I, 228 n.94: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-09-20.china-leadership-10
+    when: Sept. 20
+    date: '1961-09-20'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables 巴雷马·博库姆, Mali's minister-delegate for foreign affairs, on the first anniversary of the Republic of Mali.
+    n: '[[w.chen-yi-nianpu]], 891. Names: Chen Yi.'
+    tags: [polity:prc, polity:mali, name:chen-yi]
   - id: cal.1961-09-21.program
     when: Sept. 21
     date: '1961-09-21'
@@ -3070,12 +3379,13 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-britain, china]
     c: 'Zhou Enlai receives Field Marshal Montgomery and wholly agrees with and supports his three principles for easing tension: one China only, Taiwan Chinese territory; for now two Germanys; all foreign troops back to their own territory. Of Montgomery''s impression that people live well and work hard: he saw the good side, there are faults. China''s disasters over three years were great, but steps were taken, by relying on the people, to overcome them; in holding the three red banners there have been faults and errors, which are overcome as China advances.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 434 (Sept. 21, 1961); [[w.zhou-enlai-waijiao-huodong]], 320 (Sept. 21, 1961; 下午2时30分, 中南海西花厅). Made public: 1993. Names: Zhou Enlai, Montgomery.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 434 (Sept. 21, 1961); [[w.zhou-enlai-waijiao-huodong]], 320 (Sept. 21, 1961; 下午2时30分, 中南海西花厅); [[w.chen-yi-nianpu]], 891 (Sept. 21, 1961, afternoon; Chen Yi present). Made public: 1993. Names: Zhou Enlai, Montgomery.'
     src:
       c: afd072ae
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 434: ?'
         - 'w.zhou-enlai-waijiao-huodong 320: A'
+        - 'w.chen-yi-nianpu 891: ?'
     tags: [polity:prc, polity:uk, name:zhou-enlai, name:montgomery-of-alamein-bernard-l, vis:only:prc+uk]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-21.china-leadership-2
@@ -3093,11 +3403,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai attends the banquet given by Madeira Keita, head of the Mali government's economic delegation, for his visit.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 320 (Sept. 21, 1961; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 320 (Sept. 21, 1961; 晚上); [[w.chen-yi-nianpu]], 891 (Sept. 21, 1961, evening; Chen Yi at Madeira Keita''s banquet). Names: Zhou Enlai.'
     src:
       c: 018d7656
       rows:
         - 'w.zhou-enlai-waijiao-huodong 320: all'
+        - 'w.chen-yi-nianpu 891: ?'
     tags: [polity:prc, polity:mali, name:zhou-enlai]
     time_range:
       - 1961-09-21T11:00Z
@@ -3165,6 +3476,18 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 68: all'
         - 'via w.mao-zedong-zhuan V, ch.68 n.27: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1961-09-21.china-leadership-8
+    when: Sept. 21
+    date: '1961-09-21'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the cocktail party of 施棣华, the British chargé d'affaires, at his office for Field Marshal Montgomery's visit.
+    n: '[[w.chen-yi-nianpu]], 891. The words: 下午 (891). Names: Chen Yi, Montgomery.'
+    tags: [polity:prc, polity:uk, name:chen-yi, name:montgomery-of-alamein-bernard-l, ok:fields-place]
+    time_range:
+      - 1961-09-21T04:00Z
+      - 1961-09-21T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-22.peace-corps
     when: Sept. 22
     date: '1961-09-22'
@@ -3382,13 +3705,14 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-britain, china]
     c: Zhou Enlai at the farewell banquet for Montgomery restates China's stand on restoring its lawful rights in the United Nations and opposes the American plot of "two Chinas"; he wholly agrees with and supports Montgomery's three principles for easing tension as showing he proceeds from the world as it is and has grasped the key; China needs peace and friends; he asks the Field Marshal to tell Western friends what he saw and bring the Chinese people's friendship to the peace-loving in the West.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 435 (Sept. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 321 (Sept. 22, 1961; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 204 (Sept. 5–26, 1961; Montgomery''s visit, Mao, Liu and Zhou each receiving him; Zhou at the farewell banquet: China''s lawful rights in the U.N., against the "two Chinas" plot; support for Montgomery''s three principles: one China, two Germanys, all armed forces back to their own territory). Names: Zhou Enlai, Montgomery.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 435 (Sept. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 321 (Sept. 22, 1961; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 204 (Sept. 5–26, 1961; Montgomery''s visit, Mao, Liu and Zhou each receiving him; Zhou at the farewell banquet: China''s lawful rights in the U.N., against the "two Chinas" plot; support for Montgomery''s three principles: one China, two Germanys, all armed forces back to their own territory); [[w.chen-yi-nianpu]], 891 (Sept. 22, 1961, evening; Chen Yi at Zhou''s farewell banquet for Montgomery). Names: Zhou Enlai, Montgomery.'
     src:
       c: 8965b1ad
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 435: ?'
         - 'w.zhou-enlai-waijiao-huodong 321: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 204: A-B'
+        - 'w.chen-yi-nianpu 891: ?'
     tags: [polity:prc, polity:uk, name:zhou-enlai, name:montgomery-of-alamein-bernard-l]
     time_range:
       - 1961-09-22T11:00Z
@@ -3419,13 +3743,14 @@ entries:
     thread: china-leadership
     also: [cuba, latin-america, china]
     c: Zhou Enlai with Liu Shaoqi, Dong Biwu and Zhu De meets Cuba's President Osvaldo Dorticós Torrado at the airport and with Liu receives him that day.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 436 (Sept. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 321 (Sept. 22, 1961; 上午11时, 首都机场); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 540 (Sept. 22, 1961; Liu, with Zhou Enlai, Dong Biwu and Zhu De, holds talks with Osvaldo Dorticós Torrado, president of Cuba). Names: Zhou Enlai, Liu Shaoqi, Dong Biwu, Zhu De, Dorticos.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 436 (Sept. 22, 1961); [[w.zhou-enlai-waijiao-huodong]], 321 (Sept. 22, 1961; 上午11时, 首都机场); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 540 (Sept. 22, 1961; Liu, with Zhou Enlai, Dong Biwu and Zhu De, holds talks with Osvaldo Dorticós Torrado, president of Cuba); [[w.chen-yi-nianpu]], 891 (Sept. 22, 1961; Chen Yi welcomes Dorticós at the airport in the morning; present at Liu Shaoqi''s meeting with him and at their talks in the afternoon). Names: Zhou Enlai, Liu Shaoqi, Dong Biwu, Zhu De, Dorticos.'
     src:
       c: 1134f209
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 436: ?'
         - 'w.zhou-enlai-waijiao-huodong 321: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 540: ?'
+        - 'w.chen-yi-nianpu 891: ?'
     tags: [polity:prc, polity:cuba, name:zhou-enlai, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:dorticos-torrado-osvaldo]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-22.china-leadership-8
@@ -3435,12 +3760,13 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai attends the signing of the China–Mali agreement on economic and technical cooperation and the reception given at the Peking Hotel by the Mali Ambassador for the first anniversary of the Republic of Mali.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 321 (Sept. 22, 1961; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 205 (Sept. 22, 1961; Chen Yi''s speech at the Mali ambassador''s national-day reception: China''s lawful rights in the U.N. to be restored at once and the Chiang Kai-shek clique driven out; China opposes the United States'' and its followers'' use of the Assembly''s procedure against it). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 321 (Sept. 22, 1961; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 205 (Sept. 22, 1961; Chen Yi''s speech at the Mali ambassador''s national-day reception: China''s lawful rights in the U.N. to be restored at once and the Chiang Kai-shek clique driven out; China opposes the United States'' and its followers'' use of the Assembly''s procedure against it); [[w.chen-yi-nianpu]], 891 (Sept. 22, 1961; Chen Yi at the signing; in the evening at the national-day reception of 科尼巴·普莱亚, the Mali Ambassador, he speaks: China''s rights in the United Nations to be restored at once; old and new colonialism to be opposed in every form). Names: Zhou Enlai.'
     src:
       c: 6ca6fea4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 321: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 205: B'
+        - 'w.chen-yi-nianpu 891: ?'
     tags: [polity:prc, polity:mali, name:zhou-enlai]
     time_range:
       - 1961-09-22T04:00Z
@@ -3653,6 +3979,18 @@ entries:
       - 1961-09-23T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-23.china-leadership-8
+    when: Sept. 23
+    date: '1961-09-23'
+    thread: china-leadership
+    c: Romania's new Ambassador, 乔治乌·杜米特鲁, calls on Chen Yi 陈毅 on the presentation of his credentials.
+    n: '[[w.chen-yi-nianpu]], 891. The words: 上午 (891). Names: Chen Yi.'
+    tags: [polity:prc, polity:romania, name:chen-yi]
+    time_range:
+      - 1961-09-22T22:00Z
+      - 1961-09-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-24.opinion
     when: Sept. 24
     date: '1961-09-24'
@@ -3723,7 +4061,7 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-britain]
     c: 'Wuchang. Mao sees Montgomery again; Wang Renzhong present. One five-year plan left, to meet Marx at seventy-three. His successor: "clearly Liu Shaoqi," the first vice-chairman; after Liu, "not my affair." No war with America wanted; with conventional arms China can cope. Nuclear weapons will not be used: the more made, the less nuclear war.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 24, 1961. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 541 (Sept. 24, 1961; at Wuhan Mao meets Montgomery, who asks who his successor is; Mao: very clear, Liu Shaoqi, first vice-chairman of the Party; after Mao''s death, him; asked if Zhou Enlai follows Liu, Mao says he does not care about what is after Liu); [[w.macfarquhar-origins-of-the-cultural]], III, 433 (Mao tells Montgomery that Liu Shaoqi is his successor); [[w.mao-zedong-zhuan]], V, ch. 68 n.23 (Sept. 24, the second talk: Mao''s successor clearly Liu Shaoqi, first vice-chairman, "after Liu, not my affair"; nuclear weapons are for not using, the more made the less nuclear war; the text puts the talk in the afternoon, the note in the morning). Made public: 1961 ([[w.sunday-times]], Oct. 15, 1961, Montgomery''s account). Check: the *Mao zedong zhuan* has the second talk in the afternoon in its text and the morning in its note (V, ch. 68 n.23), and a third talk that afternoon after the swim. See [[cal.1961-09-24.china-leadership-4]]. To check: [[w.sunday-times]], Oct. 15, 1961 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14a); [[w.bianjishi-xin-zhongguo-waijiao-fengyun]], 1, 48–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14b); [[w.yuzhi-shidaide-zhongtuo-lishide-xuanze]], 1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14c); Gong Yuzhi, personal communication to the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14d); [[w.khrushchev-khrushchev-remembers-1976]], 288 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14e); Record of Mao Zedong''s 毛泽东 talk with Field Marshal Montgomery 蒙哥马利, Sept. 24, 1961, morning (谈话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.23). Names: Mao Zedong, Montgomery, Wang Renzhong, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 24, 1961. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 541 (Sept. 24, 1961; at Wuhan Mao meets Montgomery, who asks who his successor is; Mao: very clear, Liu Shaoqi, first vice-chairman of the Party; after Mao''s death, him; asked if Zhou Enlai follows Liu, Mao says he does not care about what is after Liu); [[w.macfarquhar-origins-of-the-cultural]], III, 433 (Mao tells Montgomery that Liu Shaoqi is his successor); [[w.mao-zedong-zhuan]], V, ch. 68 n.23 (Sept. 24, the second talk: Mao''s successor clearly Liu Shaoqi, first vice-chairman, "after Liu, not my affair"; nuclear weapons are for not using, the more made the less nuclear war; the text puts the talk in the afternoon, the note in the morning). [[w.yang-jisheng-tiandi-fanfu]], II, 717 (Mao to Montgomery: "if Marx does not invite me, I will be that honorary chairman"). Made public: 1961 ([[w.sunday-times]], Oct. 15, 1961, Montgomery''s account). Check: the *Mao zedong zhuan* has the second talk in the afternoon in its text and the morning in its note (V, ch. 68 n.23), and a third talk that afternoon after the swim. See [[cal.1961-09-24.china-leadership-4]]. To check: [[w.sunday-times]], Oct. 15, 1961 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14a); [[w.bianjishi-xin-zhongguo-waijiao-fengyun]], 1, 48–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14b); [[w.yuzhi-shidaide-zhongtuo-lishide-xuanze]], 1 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14c); Gong Yuzhi, personal communication to the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14d); [[w.khrushchev-khrushchev-remembers-1976]], 288 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 433 n.14e); Record of Mao Zedong''s 毛泽东 talk with Field Marshal Montgomery 蒙哥马利, Sept. 24, 1961, morning (谈话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.23); Xiong Xianghui 熊向暉, 〈毛澤東主席對蒙哥馬利談「繼承人」〉, in *Xin Zhongguo waijiao fengyun* 《新中國外交風雲》 (Shijie zhishi chubanshe, 1990), 53 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 717 n.5). Names: Mao Zedong, Montgomery, Wang Renzhong, Liu Shaoqi.'
     src:
       c: '33597205'
       rows:
@@ -3737,6 +4075,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 433 n.14e: B, E, F'
         - 'w.mao-zedong-zhuan V, ch. 68 n.23: E-F, I'
         - 'via w.mao-zedong-zhuan V, ch.68 n.23: E-F, I'
+        - 'w.yang-jisheng-tiandi-fanfu II, 717: ?'
     tags: [polity:prc, polity:uk, name:mao-zedong, name:montgomery-of-alamein-bernard-l, name:liu-shaoqi, vis:only:prc+uk]
   - id: cal.1961-09-24.china-leadership-2
     when: Sept. 24
@@ -3781,6 +4120,19 @@ entries:
       - 1961-09-24T04:00Z
       - 1961-09-24T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1961-09-24.china-leadership-5
+    when: Sept. 24
+    date: '1961-09-24'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the Japanese Go delegation led by Arimitsu Jirō 有光次郎, chairman of the Nihon Ki-in 日本棋院; gives them a banquet.
+    n: '[[w.chen-yi-nianpu]], 891–892. The words: 上午 (891–892). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1961-09-23T22:00Z
+      - 1961-09-24T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1961-09-25.europe-and-the-alliance-cyprus
     when: Sept. 25
@@ -3865,8 +4217,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou Enlai at the capital's meeting marking the 80th anniversary of Lu Xun's birth.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 436 (Sept. 25, 1961). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 436 (Sept. 25, 1961); [[w.chen-yi-nianpu]], 892 (Sept. 25, 1961, evening; more than 1,400 of the capital''s writers, artists and others at the auditorium of the CPPCC 政协礼堂; Chen Yi there). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai]
+    time_range:
+      - 1961-09-25T11:00Z
+      - 1961-09-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-25.china-leadership-2
     when: Sept. 25
     date: '1961-09-25'
@@ -4147,6 +4504,32 @@ entries:
       - 1961-09-26T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-26.china-leadership-5
+    when: Sept. 26
+    date: '1961-09-26'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the station sees Dorticós off from Peking 北京 to Tianjin 天津.
+    n: '[[w.chen-yi-nianpu]], 892. The words: 上午 (892). Names: Chen Yi, Dorticós.'
+    tags: [polity:prc, polity:cuba, name:chen-yi, name:dorticos-torrado-osvaldo]
+    time_range:
+      - 1961-09-25T22:00Z
+      - 1961-09-26T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-09-26.china-leadership-6
+    when: Sept. 26
+    date: '1961-09-26'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at Lu Dingyi's 陆定一 banquet in the Xinjiang Room of the Great Hall of the People 人民大会堂新疆厅 for the Albanian education delegation led by Manush Myftiu 马·穆夫蒂乌, First Deputy Chairman of the Council of Ministers and Minister of Education and Culture; speaks.
+    n: '[[w.chen-yi-nianpu]], 892. The words: 晚上 (892). Names: Chen Yi, Lu Dingyi.'
+    tags: [polity:prc, polity:albania, name:chen-yi, name:lu-dingyi]
+    time_range:
+      - 1961-09-26T11:00Z
+      - 1961-09-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-27.transition-and-staff
     when: Sept. 27
     date: '1961-09-27'
@@ -4280,6 +4663,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1660: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-09-27.china-leadership-7
+    when: Sept. 27
+    date: '1961-09-27'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the station welcomes Dorticós back to Peking 北京 from his tour.
+    n: '[[w.chen-yi-nianpu]], 892. The words: 下午 (892). Names: Chen Yi, Dorticós.'
+    tags: [polity:prc, polity:cuba, name:chen-yi, name:dorticos-torrado-osvaldo]
+    time_range:
+      - 1961-09-27T04:00Z
+      - 1961-09-27T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-09-28.middle-east
     when: Sept. 28
     date: '1961-09-28'
@@ -4341,7 +4737,7 @@ entries:
     thread: china-leadership
     also: [cuba]
     c: The Qinzheng Hall, evening. Mao receives Osvaldo Dorticós, President of Cuba; Liu Shaoqi, Zhou Enlai, Chen Yi present. Cuba "a surprise to America, not a pleasant one"; China fought twenty-two years and can handle a conventional war; economic building something new, learned slowly.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 28, 1961. [[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 28, 1961; 晚9时30分, 中南海勤政殿, 陪同毛泽东主席会见); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 541 (Sept. 28, 1961; Liu, with Mao and Zhou Enlai, meets Dorticós); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 205 (Sept. 22–Oct. 3, 1961; President Osvaldo Dorticós of Cuba visits on invitation; Mao receives him). Made public: 1993. Names: Mao Zedong, Dorticós, Liu Shaoqi, Zhou Enlai, Chen Yi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 28, 1961. [[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 28, 1961; 晚9时30分, 中南海勤政殿, 陪同毛泽东主席会见); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 541 (Sept. 28, 1961; Liu, with Mao and Zhou Enlai, meets Dorticós); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 205 (Sept. 22–Oct. 3, 1961; President Osvaldo Dorticós of Cuba visits on invitation; Mao receives him); [[w.chen-yi-nianpu]], 892 (Sept. 28, 1961, evening; Chen Yi present). Made public: 1993. Names: Mao Zedong, Dorticós, Liu Shaoqi, Zhou Enlai, Chen Yi.'
     src:
       c: 11f10a26
       rows:
@@ -4349,6 +4745,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 322: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 541: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 205: B'
+        - 'w.chen-yi-nianpu 892: ?'
     tags: [polity:prc, polity:cuba, name:mao-zedong, name:dorticos-torrado-osvaldo, name:liu-shaoqi, name:zhou-enlai, name:chen-yi, vis:only:prc+cuba]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-28.china-leadership-2
@@ -4372,11 +4769,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union, trade]
     c: Peking, the Exhibition Hall. Zhou Enlai attends the opening of the Polish industrial exhibition.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 321 (Sept. 28, 1961; 上午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 321 (Sept. 28, 1961; 上午); [[w.chen-yi-nianpu]], 892 (Sept. 28, 1961, morning; Chen Yi at the opening and writes in the exhibition''s visitors'' book). Names: Zhou Enlai.'
     src:
       c: a96cd45b
       rows:
         - 'w.zhou-enlai-waijiao-huodong 321: all'
+        - 'w.chen-yi-nianpu 892: ?'
     tags: [polity:prc, polity:poland, name:zhou-enlai]
     time_range:
       - 1961-09-27T22:00Z
@@ -4687,11 +5085,12 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking. Zhou Enlai, with Liu Shaoqi, Dong Biwu and Zhu De and other leaders, welcomes King Mahendra and the Queen of Nepal at the airport.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 29, 1961; 上午11时). Names: Zhou Enlai, Liu Shaoqi, Dong Biwu, Zhu De, Mahendra.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 29, 1961; 上午11时); [[w.chen-yi-nianpu]], 892 (Sept. 29, 1961, morning; Chen Yi at the airport). Names: Zhou Enlai, Liu Shaoqi, Dong Biwu, Zhu De, Mahendra.'
     src:
       c: 5ad68b93
       rows:
         - 'w.zhou-enlai-waijiao-huodong 322: all'
+        - 'w.chen-yi-nianpu 892: ?'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, name:liu-shaoqi, name:dong-biwu, name:zhu-de, name:mahendra-bir-bikram-shah-deva]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-29.china-leadership-3
@@ -4701,12 +5100,13 @@ entries:
     thread: china-leadership
     also: [china, south-asia]
     c: Peking, the Great Hall of the People. Zhou Enlai accompanies Liu Shaoqi and his wife in meeting King Mahendra and the Queen, and attends the state banquet given by Liu Shaoqi and his wife.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 29, 1961; 下午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 541–542 (Sept. 29, 1961; Liu''s state banquet for King Mahendra and Queen Ratna; he speaks: states large and small equal, no outside interference in any state''s sovereignty, territory or internal affairs, aid without political conditions). Names: Zhou Enlai, Liu Shaoqi, Mahendra.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 29, 1961; 下午); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 541–542 (Sept. 29, 1961; Liu''s state banquet for King Mahendra and Queen Ratna; he speaks: states large and small equal, no outside interference in any state''s sovereignty, territory or internal affairs, aid without political conditions); [[w.chen-yi-nianpu]], 892 (Sept. 29, 1961; Chen Yi present at Liu Shaoqi''s meeting with the King and Queen in the afternoon and at Liu''s state banquet in the evening). Names: Zhou Enlai, Liu Shaoqi, Mahendra.'
     src:
       c: ff68184e
       rows:
         - 'w.zhou-enlai-waijiao-huodong 322: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 541–542: B'
+        - 'w.chen-yi-nianpu 892: ?'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, name:liu-shaoqi, name:mahendra-bir-bikram-shah-deva]
     time_range:
       - 1961-09-29T04:00Z
@@ -4762,6 +5162,13 @@ entries:
         - 'w.yang-shangkun-riji II, 73: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1961-09-29.china-leadership-7
+    when: Sept. 29
+    date: '1961-09-29'
+    thread: china-leadership
+    c: Péter János, the Hungarian Foreign Minister, and Penn Nouth 宾努, Cambodia's acting Foreign Minister, cable Chen Yi 陈毅 on the twelfth anniversary of the People's Republic.
+    n: '[[w.chen-yi-nianpu]], 892. Names: Péter János, Penn Nouth, Chen Yi.'
+    tags: [polity:prc, polity:hungary, polity:cambodia, name:peter-janos, name:penn-nouth, name:chen-yi]
   - id: cal.1961-09-30.vietnam
     when: Sept. 30
     date: '1961-09-30'
@@ -5127,13 +5534,14 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: The Qinzheng Hall. Mao receives King Mahendra of Nepal and the Queen; Liu Shaoqi, Zhu De, Zhou Enlai, He Long, Chen Yi and their wives present. Buddhism from Nepal; Xuanzang and Faxian went there; Nepal a very good neighbor.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 30, 1961. [[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 30, 1961; 下午5时, 中南海勤政殿, 陪同毛泽东主席会见); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 542 (Sept. 30, 1961; Liu, with Mao, Zhou Enlai and Zhu De, meets King Mahendra and the Queen). Made public: 1993. Names: Mao Zedong, Mahendra, Liu Shaoqi, Wang Guangmei, Zhu De, Zhou Enlai, Deng Yingchao, He Long, Chen Yi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 30, 1961. [[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 30, 1961; 下午5时, 中南海勤政殿, 陪同毛泽东主席会见); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 542 (Sept. 30, 1961; Liu, with Mao, Zhou Enlai and Zhu De, meets King Mahendra and the Queen); [[w.chen-yi-nianpu]], 892–893 (Sept. 30, 1961, midday; Chen Yi present). Made public: 1993. Names: Mao Zedong, Mahendra, Liu Shaoqi, Wang Guangmei, Zhu De, Zhou Enlai, Deng Yingchao, He Long, Chen Yi.'
     src:
       c: ef004342
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Sept. 30, 1961: all'
         - 'w.zhou-enlai-waijiao-huodong 322: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 542: C'
+        - 'w.chen-yi-nianpu 892–893: ?'
     tags: [polity:prc, polity:nepal, name:mao-zedong, name:mahendra-bir-bikram-shah-deva, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:he-long, name:chen-yi, vis:only:prc+nepal]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-30.china-leadership-2
@@ -5158,12 +5566,13 @@ entries:
     thread: china-leadership
     also: [south-asia, china]
     c: Zhou Enlai's talks with King Mahendra of Nepal, who came on Sept. 29, on the boundary and other matters. On Mount Everest the feelings of the Nepalese and of the people of Tibet both count, so a more reasonable wording is to be found in the boundary treaty; he agrees with Nepal's view that "the boundary passes over the summit," "north of the peak to China, south to Nepal," and agrees that China help Nepal build a road from Katmandu straight to Tibet.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Sept. 30, 1961); [[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 30, 1961; 下午3时, 钓鱼台宾馆, 回访, with Liu Shaoqi and his wife; first talks). Made public: 1993. Names: Zhou Enlai, Mahendra.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 437 (Sept. 30, 1961); [[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 30, 1961; 下午3时, 钓鱼台宾馆, 回访, with Liu Shaoqi and his wife; first talks); [[w.chen-yi-nianpu]], 892 (Sept. 30, 1961, afternoon; Chen Yi with Liu Shaoqi and Zhou Enlai and their wives on the return call at the guesthouse). Made public: 1993. Names: Zhou Enlai, Mahendra.'
     src:
       c: 79044c44
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 437: ?'
         - 'w.zhou-enlai-waijiao-huodong 322: A'
+        - 'w.chen-yi-nianpu 892: ?'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, name:mahendra-bir-bikram-shah-deva, vis:only:prc+nepal]
     time_zone: Asia/Shanghai
   - id: cal.1961-09.china-leadership-2
@@ -5187,18 +5596,24 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai meets Queen Elisabeth, the Queen Mother of the Belgians, 85, visiting China, and talks with her.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 30, 1961; 中午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 205 (Sept. 25–Oct. 19, 1961; Queen Elisabeth, the Queen Mother of the Belgians, visits at invitation for the National Day celebrations; Soong Ching Ling and Zhou each receive her). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 30, 1961; 中午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 205 (Sept. 25–Oct. 19, 1961; Queen Elisabeth, the Queen Mother of the Belgians, visits at invitation for the National Day celebrations; Soong Ching Ling and Zhou each receive her); [[w.chen-yi-nianpu]], 892 (Sept. 30, 1961, afternoon; Chen Yi present). Names: Zhou Enlai.'
     src:
       c: 2c29b909
       rows:
         - 'w.zhou-enlai-waijiao-huodong 322: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 205: B'
+        - 'w.chen-yi-nianpu 892: ?'
     tags: [polity:prc, polity:belgium, name:zhou-enlai]
     time_range:
       - 1961-09-30T04:00Z
       - 1961-09-30T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
+    variants:
+      - unit: B
+        witness: w.chen-yi-nianpu
+        reads: Zhou receives Queen Elisabeth in the afternoon (下午), Chen Yi present
+        at: '892'
   - id: cal.1961-09-30.china-leadership-5
     when: Sept. 30
     date: '1961-09-30'
@@ -5206,12 +5621,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Peking, the Great Hall of the People. Zhou Enlai speaks at the National Day reception: China firmly opposes the American plot of two Chinas and holds that its lawful right in the United Nations must be restored; he condemns the United States for manipulating the vote at this General Assembly and putting the so-called Tibet question on the agenda, in interference in China''s internal affairs.'
-    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 30, 1961; 晚上); [[w.yang-shangkun-riji]], II, 73 (Sept. 30, 1961; the Premier''s National Day eve reception at the Great Hall, 7 to 9 p.m., over 1,000 guests, among them the President of Cuba, the King and Queen of Nepal and the Queen Mother of Belgium). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 322 (Sept. 30, 1961; 晚上); [[w.yang-shangkun-riji]], II, 73 (Sept. 30, 1961; the Premier''s National Day eve reception at the Great Hall, 7 to 9 p.m., over 1,000 guests, among them the President of Cuba, the King and Queen of Nepal and the Queen Mother of Belgium); [[w.chen-yi-nianpu]], 893 (Sept. 30, 1961, evening; Chen Yi at Zhou''s reception). Names: Zhou Enlai.'
     src:
       c: c783e6a0
       rows:
         - 'w.zhou-enlai-waijiao-huodong 322: all'
         - 'w.yang-shangkun-riji II, 73: ?'
+        - 'w.chen-yi-nianpu 893: ?'
     tags: [polity:prc, name:zhou-enlai]
     time_range:
       - 1961-09-30T11:00Z
@@ -5300,7 +5716,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Deng Xiaoping 邓小平 and Yang Shangkun 杨尚昆, 4:30 p.m., receive Chervonenko 契尔沃年科, the Soviet Ambassador.
-    n: '[[w.yang-shangkun-riji]], II, 73 (Sept. 30, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1661 (Sept. 30, 1961; afternoon; Deng receives Chervonenko and the papers he hands over: Albania''s oral statement of Sept. 22 asking the Soviet government to withdraw its special forces from Albania within seven days; the record of Khrushchev''s talks with Nehru in the Soviet Union, Sept. 6–11; the record of Khrushchev''s talk of Sept. 19 with Spaak, Belgian Deputy Premier and Foreign Minister, and the French Foreign Minister (雷诺 on the page)). The words: 下午4时半 (II, 73). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun, Chervonenko.'
+    n: '[[w.yang-shangkun-riji]], II, 73 (Sept. 30, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1661 (Sept. 30, 1961; afternoon; Deng receives Chervonenko and the papers he hands over: Albania''s oral statement of Sept. 22 asking the Soviet government to withdraw its special forces from Albania within seven days; the record of Khrushchev''s talks with Nehru in the Soviet Union, Sept. 6–11; the record of Khrushchev''s talk of Sept. 19 with Spaak, Belgian Deputy Premier and Foreign Minister, and the French Foreign Minister (雷诺 on the page)). The words: 下午4时半 (II, 73). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Record of conversation, Chervonenko–Deng Xiaoping, Sept. 30, 1961, AVPRF, f. 0100, op. 54, pa. 466, d. 8, pp. 175–78 (cited by [[w.westad-introduction]], 26 n.91). Names: Deng Xiaoping, Yang Shangkun, Chervonenko.'
     src:
       c: 58e106b3
       rows:
@@ -5349,3 +5765,25 @@ entries:
         - 'w.dikotter-maos-great-famine 206: all'
         - 'via w.dikotter-maos-great-famine 206 n.45: all'
     tags: [polity:prc]
+  - id: cal.1961-09-30.china-leadership-7
+    when: Sept. 30
+    date: '1961-09-30'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Louis Lansana Beavogui 路易·兰萨纳·贝阿沃吉, the Guinean Foreign Minister, on Guinea's national day.
+    n: '[[w.chen-yi-nianpu]], 892. Names: Chen Yi.'
+    tags: [polity:prc, polity:guinea, name:chen-yi]
+  - id: cal.1961-09-30.china-leadership-8
+    when: Sept. 30
+    date: '1961-09-30'
+    thread: china-leadership
+    c: The Foreign Ministers of the Soviet Union, Albania, Vietnam, Korea, Mongolia, Bulgaria, Poland, Romania, Czechoslovakia, the German Democratic Republic, Cuba, Algeria and Yugoslavia cable Chen Yi 陈毅 on the twelfth anniversary of the People's Republic.
+    n: '[[w.chen-yi-nianpu]], 893. See [[cal.1961-09-29.china-leadership-7]]. Names: Chen Yi.'
+    tags: [polity:prc, polity:ussr, polity:albania, polity:drv, polity:dprk, polity:mongolia, polity:bulgaria, polity:poland, polity:romania, polity:czechoslovakia, polity:gdr, polity:cuba, polity:algeria, polity:yugoslavia, name:chen-yi]
+  - id: cal.1961-09.china-leadership-6
+    when: Sept., end
+    date: 1961-09
+    at: before 1961-09-21
+    thread: china-leadership
+    c: Leimena 莱梅纳, Indonesia's First Deputy First Minister and acting Foreign Minister, cables Chen Yi 陈毅 on the twelfth anniversary of the People's Republic.
+    n: '[[w.chen-yi-nianpu]], 893. Names: Leimena, Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:leimena-johannes]

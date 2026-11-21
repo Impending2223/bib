@@ -20,13 +20,14 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Zhou Enlai, at Chen Yi''s banquet for foreign experts: thanks them for their help in China''s socialist construction.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 449 (Jan. 1, 1962); [[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 1, 1962; 晚上, 人民大会堂); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 215 (Jan. 1, 1962; Chen Yi gives the reception for the experts who help China''s construction; his speech: maintain and strengthen the unity of the world''s peoples and of the international communist movement, above all of the 12 socialist countries). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 449 (Jan. 1, 1962); [[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 1, 1962; 晚上, 人民大会堂); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 215 (Jan. 1, 1962; Chen Yi gives the reception for the experts who help China''s construction; his speech: maintain and strengthen the unity of the world''s peoples and of the international communist movement, above all of the 12 socialist countries); [[w.chen-yi-nianpu]], 905 (Jan. 1, 1962, evening; Chen Yi and his wife give the banquet in the Great Hall of the People for the foreign experts and their families; he speaks first, thanking the experts; the unity of the people of the world, of the international Communist movement and above all of the twelve socialist countries of special importance). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 2445cd91
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 449: ?'
         - 'w.zhou-enlai-waijiao-huodong 328: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 215: A'
+        - 'w.chen-yi-nianpu 905: ?'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi]
     time_range:
       - 1962-01-01T11:00Z
@@ -145,12 +146,13 @@ entries:
     thread: china-leadership
     also: [china, cuba]
     c: Peking, the Cuban Embassy. Zhou Enlai attends the reception given by the Cuban Ambassador, Pino Santos, for the third anniversary of the Cuban revolution's victory.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 2, 1962; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 215 (Jan. 2, 1962; Liu, Zhou and Chen Yi attend the Cuban ambassador''s reception for the third anniversary of the revolution; Chen Yi''s speech: the Cuban victory is an event of world-historic meaning, the United States is planning collective intervention through the American states, and China takes support of the Cuban people''s revolutionary struggle as its own lofty international duty). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 2, 1962; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 215 (Jan. 2, 1962; Liu, Zhou and Chen Yi attend the Cuban ambassador''s reception for the third anniversary of the revolution; Chen Yi''s speech: the Cuban victory is an event of world-historic meaning, the United States is planning collective intervention through the American states, and China takes support of the Cuban people''s revolutionary struggle as its own lofty international duty); [[w.chen-yi-nianpu]], 905 (Jan. 2, 1962, evening; Chen Yi speaks at the reception of Oscar Pino Santos 奥斯卡·皮诺·桑切斯 and his wife: the United States plans collective intervention through the Organization of American States and a new armed attack on Cuba, and is bound to fail; support for Cuba China''s high international duty). Names: Zhou Enlai.'
     src:
       c: 6f1aa4ab
       rows:
         - 'w.zhou-enlai-waijiao-huodong 328: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 215: B'
+        - 'w.chen-yi-nianpu 905: ?'
     tags: [polity:prc, polity:cuba, name:zhou-enlai]
     time_range:
       - 1962-01-02T11:00Z
@@ -180,6 +182,13 @@ entries:
         - 'w.yang-jisheng-mubei I, 206: all'
         - 'via w.yang-jisheng-mubei I, 206 n.38: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-01-02.china-leadership-4
+    when: Jan. 2
+    date: '1962-01-02'
+    thread: china-leadership
+    c: Chen Yi 陈毅, after the Cuban reception, writes the poem "Cuba will win" 《古巴必胜》.
+    n: '[[w.chen-yi-nianpu]], 905. See [[cal.1962-01-02.china-leadership]]. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1962-01-03.vietnam
     when: Jan. 3
     date: '1962-01-03'
@@ -309,6 +318,25 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 107: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-01-03.china-leadership-7
+    when: Jan. 3
+    date: '1962-01-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Sao Hkun Hkio 藻昆卓, the Burmese Foreign Minister, on the fourteenth anniversary of Burma's independence.
+    n: '[[w.chen-yi-nianpu]], 905–906. Names: Chen Yi, Sao Hkun Hkio.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:hkun-hkio-sao]
+  - id: cal.1962-01-03.china-leadership-8
+    when: Jan. 3
+    date: '1962-01-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 埃迪·阿卜杜拉赫曼·马塔洛加瓦, vice-chairman of the Indonesian Peace Committee and of the foreign affairs subcommittee of the Gotong Royong parliament.
+    n: '[[w.chen-yi-nianpu]], 906. The words: 下午 (906). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-01-03T04:00Z
+      - 1962-01-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-04.vietnam-operations
     when: Jan. 4–27
     date: '1962-01-04'
@@ -339,11 +367,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking Hotel. Zhou Enlai attends the reception given by the Burmese Ambassador and his wife for the 14th anniversary of Burma's independence.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 4, 1962; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 4, 1962; 晚上); [[w.chen-yi-nianpu]], 906 (Jan. 4, 1962, evening; Chen Yi speaks at the reception of 叫温, the Burmese Ambassador, and his wife at the Peking Hotel, on the year''s growth of Sino-Burmese friendship). Names: Zhou Enlai.'
     src:
       c: bb18c19d
       rows:
         - 'w.zhou-enlai-waijiao-huodong 328: all'
+        - 'w.chen-yi-nianpu 906: ?'
     tags: [polity:prc, polity:burma, name:zhou-enlai]
     time_range:
       - 1962-01-04T11:00Z
@@ -468,8 +497,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou Enlai, with Chen Yi, Nie Rongzhen and Lu Dingyi, at the banquet for Peking's scientists and technicians; his toast calls on them to work with hard effort and self-reliance for new victories in 1962.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 449 (Jan. 5, 1962). Names: Zhou Enlai, Chen Yi, Nie Rongzhen, Lu Dingyi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 449 (Jan. 5, 1962); [[w.chen-yi-nianpu]], 906 (Jan. 5, 1962, evening; Chen Yi, with Nie Rongzhen and Lu Dingyi, gives the banquet for more than 4,000 scientists and technicians and speaks at length for the Center and the State Council: China''s science still backward; take the fortresses of science by hard effort; "never tire of learning," "never weary of teaching"; senior experts to take apprentices; a strong red and expert force). Names: Zhou Enlai, Chen Yi, Nie Rongzhen, Lu Dingyi.'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi, name:nie-rongzhen, name:lu-dingyi]
+    time_range:
+      - 1962-01-05T11:00Z
+      - 1962-01-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-05.china-leadership-2
     when: Jan. 5
     date: '1962-01-05'
@@ -540,6 +574,13 @@ entries:
         - 'via w.dikotter-maos-great-famine 294 n.14: all'
         - 'via w.dikotter-maos-great-famine 297 n.53: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1962-01-05.china-leadership-7
+    when: Jan. 5
+    date: '1962-01-05'
+    thread: china-leadership
+    c: Chen Yi 陈毅, after reading "The falcon tamer" 《驯鹰人》 in *Renmin ribao* 人民日报, writes the *ci* "Taming the falcon" 《驯鹰词》.
+    n: '[[w.chen-yi-nianpu]], 906. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
   - id: cal.1962-01-06.press-and-broadcasting
     when: Jan. 6
     date: '1962-01-06'
@@ -571,7 +612,7 @@ entries:
     date: '1962-01-06'
     thread: china-leadership
     c: Zhou Enlai, with Soong Ching-ling, Chen Yi and Deng Yingchao, visits the exhibition for the tenth anniversary of *China Reconstructs*. The January issue prints his inscription of Nov. 23, 1961.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 450 (Jan. 6, 1962). Names: Zhou Enlai, Soong Ching-ling, Chen Yi, Deng Yingchao.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 450 (Jan. 6, 1962); [[w.chen-yi-nianpu]], 906–907 (Jan. 6, 1962; Chen Yi with Soong Ching-ling and Zhou Enlai at the exhibition; earlier he had written an inscription for the magazine''s tenth anniversary). Names: Zhou Enlai, Soong Ching-ling, Chen Yi, Deng Yingchao.'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi]
   - id: cal.1962-01-06.china-leadership-4
     when: Jan. 6
@@ -618,7 +659,7 @@ entries:
     place: peking
     thread: china-leadership
     c: The Center forwards, as Zhongfa [62] 110 中發[62]110號, the Ministry of Construction Engineering's party group's investigation report on the problems of halted and slowed building projects. Work groups sent to Shenyang 瀋陽, Tianjin 天津, Taiyuan 太原, Xi'an 西安, Lanzhou 蘭州 and Changsha 長沙 in Sept. and Oct. 1961 found that by Sept. the six cities had halted 1,035 projects, 3.344 million square meters, about half those begun. Of these, 28.5 percent had only foundations laid; 38.6 percent had the main structure half done; 22.3 percent the main structure nearly done; 10.6 percent only fitting out left. Many foundations had sunk and columns tilted.
-    n: '[[w.yang-jisheng-mubei]], II, 1036. Made public: 2008. To check: Pizhuan Jianzhu gongchengbu dangzu guanyu tingjian huanjian gongcheng zhong cunzai wenti de diaocha baogao 《批轉建築工程部黨組關於停建緩建工程中存在問題的調查報告》, Jan. 6, 1962, Zhongfa [62] 110 (cited by [[w.yang-jisheng-mubei]], II, 1036 n.44).'
+    n: '[[w.yang-jisheng-mubei]], II, 1036. Made public: 2008. To check: Pizhuan Jianzhu gongchengbu dangzu guanyu tingjian huanjian gongcheng zhong cunzai wenti de diaocha baogao 《批轉建築工程部黨組關於停建緩建工程中存在問題的調查報告》, Jan. 6, 1962, Zhongfa [62] 110 (cited by [[w.yang-jisheng-mubei]], II, 1036 n.44). See [[cal.1961-08.china-3]].'
     src:
       c: 192ffdb3
       rows:
@@ -865,6 +906,17 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1682: all'
     tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-01-08.china-leadership-9
+    when: Jan. 8–9
+    date: '1962-01-08'
+    thread: china-leadership
+    c: Liu Shaoqi 劉少奇 sends Mao Zedong 毛澤東 the first draft of the report to the enlarged work conference in two lots, parts one and two, then part three.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 65. Made public: 2006 ([[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]]). To check: [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 46–47 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 65 n.55). Names: Liu Shaoqi, Mao Zedong.'
+    src:
+      c: 08c35740
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 65: all'
+    tags: [polity:prc, vis:only:prc, name:liu-shaoqi, name:mao-zedong]
   - id: cal.1962-01-09.china-leadership
     when: Jan. 9
     date: '1962-01-09'
@@ -965,6 +1017,19 @@ entries:
     c: Rạch Giá. Phan Thị Ràng (Tư Phùng), the district's youth cadre, dies Jan. 9 under torture. She had carried water into the Hòn cave to the besieged force, and was taken.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 165. Names: Phan Thị Ràng. Check: the place of her death; the history gives none.'
     tags: [polity:drv]
+  - id: cal.1962-01-09.china-leadership-8
+    when: Jan. 9
+    date: '1962-01-09'
+    time: 1962-01-09T15:00Z
+    thread: china-leadership
+    c: Liu Shaoqi 劉少奇, at 11 p.m., sends Mao Zedong 毛澤東 parts one and two of the second draft of the report; part three is not yet revised.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 65. The words: 9 日晚 11 時 (I, 65). Made public: 2006 ([[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]]). To check: [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 46–47 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 65 n.55). Names: Liu Shaoqi, Mao Zedong.'
+    src:
+      c: 03881e24
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 65: all'
+    tags: [polity:prc, vis:only:prc, name:liu-shaoqi, name:mao-zedong]
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-10.congress
     when: Jan. 10
     date: '1962-01-10'
@@ -1057,7 +1122,7 @@ entries:
     time: 1962-01-10T02:00Z
     thread: china-leadership
     c: 'Mao on the draft report to the enlarged Central Work Conference, which Liu Shaoqi and Deng Xiaoping drafted: reads parts one and two (Jan. 9–10); at 10 a.m. tells Tian Jiaying, with word to Liu, Deng and Chen Boda, to put the report back three days, the delegates to discuss in groups meanwhile; then to Deng, Chen and Tian: the report''s center (against "dispersionism") stands, but it goes to the delegates now, for comment, before the Politburo takes it up. "You make me a sage in this report." The General Office sends out the draft the same day.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 9, 1962 (the entry for Jan. 9–10). [[w.macfarquhar-origins-of-the-cultural]], III, 142–143 (Mao on the draft report: to be issued to the conferees before the Politburo discusses it); [[w.jianguo-yilai-mao-zedong]], XVI, 197–201 (Jan. 10, 1962; Mao''s note of 10 a.m. on parts one and two of the draft: put the report back three days, the groups to discuss the rural accounting unit and Zhou''s report on the CPSU congress meanwhile; the General Office issues the draft that day, note 1); [[w.yang-shangkun-riji]], II, 110 (Jan. 10, 1962; noon, Chen Boda and Tian Jiaying to Yang Shangkun on the talk at Mao''s: the center stands; the report to the conference at once, three days in groups); [[w.mao-zedong-zhuan]], V, ch. 69 n.9 (Jan. 10, 10 a.m.: Mao has read the first two parts of Liu Shaoqi''s report: good, but not yet thought through, to be read a second time; the third part unread; then with Deng Xiaoping, Chen Boda and Tian Jiaying he holds that its center, against dispersionism, stands and must be held to, and has the draft printed for the delegates, three days of group discussion, comments invited). [[w.yang-jisheng-mubei]], II, 1111 n.2 (Liu sends the first draft on Jan. 8 and 9, the second draft''s first two parts at 11 p.m. on the 9th; Mao reads through the night and at 10 a.m. on the 10th proposes putting the report back three days, for talk on the rural basic accounting unit and other questions; he then changes his mind, leaves the third part unread, and has the report printed for three days'' group discussion before the Politburo takes it up). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 110) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 69), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: the draft report (first draft), Jan. 10, 1962; [[w.schram-mao-tse-tung-unrehearsed]], 158–87 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 143 n.17a); [[w.zedong-mao-zedong-zhuzuo-xuandu]], xia, 814–38 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 143 n.17b); [[w.zhonggong-dangshi-jiaoxue-cankao-n-d]], 1–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 143 n.17c); Mao Zedong 毛泽东, comment to Tian Jiaying 田家英 with word to Liu Shaoqi, Deng Xiaoping and Chen Boda on the draft report (manuscript 手稿), Jan. 10, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.9). Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Chen Boda, Tian Jiaying.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 9, 1962 (the entry for Jan. 9–10). [[w.macfarquhar-origins-of-the-cultural]], III, 142–143 (Mao on the draft report: to be issued to the conferees before the Politburo discusses it); [[w.jianguo-yilai-mao-zedong]], XVI, 197–201 (Jan. 10, 1962; Mao''s note of 10 a.m. on parts one and two of the draft: put the report back three days, the groups to discuss the rural accounting unit and Zhou''s report on the CPSU congress meanwhile; the General Office issues the draft that day, note 1); [[w.yang-shangkun-riji]], II, 110 (Jan. 10, 1962; noon, Chen Boda and Tian Jiaying to Yang Shangkun on the talk at Mao''s: the center stands; the report to the conference at once, three days in groups); [[w.mao-zedong-zhuan]], V, ch. 69 n.9 (Jan. 10, 10 a.m.: Mao has read the first two parts of Liu Shaoqi''s report: good, but not yet thought through, to be read a second time; the third part unread; then with Deng Xiaoping, Chen Boda and Tian Jiaying he holds that its center, against dispersionism, stands and must be held to, and has the draft printed for the delegates, three days of group discussion, comments invited). [[w.yang-jisheng-mubei]], II, 1111 n.2 (Liu sends the first draft on Jan. 8 and 9, the second draft''s first two parts at 11 p.m. on the 9th; Mao reads through the night and at 10 a.m. on the 10th proposes putting the report back three days, for talk on the rural basic accounting unit and other questions; he then changes his mind, leaves the third part unread, and has the report printed for three days'' group discussion before the Politburo takes it up); [[w.yang-jisheng-tiandi-fanfu]], I, 65 (Mao, up all night of the 9th, reads the first two parts; at 10 a.m. proposes putting the report back three days, then will not read part three: the report printed at once for the conference, three days in groups, revised on their views, then to the Politburo). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 110) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 69), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: the draft report (first draft), Jan. 10, 1962; [[w.schram-mao-tse-tung-unrehearsed]], 158–87 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 143 n.17a); [[w.zedong-mao-zedong-zhuzuo-xuandu]], xia, 814–38 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 143 n.17b); [[w.zhonggong-dangshi-jiaoxue-cankao-n-d]], 1–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 143 n.17c); Mao Zedong 毛泽东, comment to Tian Jiaying 田家英 with word to Liu Shaoqi, Deng Xiaoping and Chen Boda on the draft report (manuscript 手稿), Jan. 10, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.9). Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Chen Boda, Tian Jiaying.'
     src:
       c: 6a9c08a6
       rows:
@@ -1073,6 +1138,7 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 69 n.9: A-C'
         - 'via w.mao-zedong-zhuan V, ch.69 n.9: A-C'
         - 'w.yang-jisheng-mubei II, 1111 n.2: A-C'
+        - 'w.yang-jisheng-tiandi-fanfu I, 65: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:chen-boda, vis:only:prc]
   - id: cal.1962-01-10.china-leadership-2
     when: Jan. 10
@@ -1165,6 +1231,18 @@ entries:
         - 'w.yang-shangkun-riji II, 111: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-01-10.china-leadership-9
+    when: Jan. 10
+    date: '1962-01-10'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 at the report meeting of the National Committee of the CPPCC 中国人民政治协商会议全国委员会: Zhang Hanfu 章汉夫, Vice-Minister of Foreign Affairs and acting head of the Chinese delegation, on the enlarged Geneva conference.'
+    n: '[[w.chen-yi-nianpu]], 907. The words: 上午 (907). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-01-09T22:00Z
+      - 1962-01-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-11.program
     when: Jan. 11
     date: '1962-01-11'
@@ -1254,7 +1332,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'The enlarged Central Work Conference (the "Seven Thousand Cadres" conference) opens in Peking, Mao presiding; over 7,000 leading cadres of the center, the regional bureaus, the provinces, prefectures, counties, major factories and the army. Its stated aim: sum up twelve years, especially four, strengthen unity, discipline and democratic centralism, and carry out the policy of adjusting the economy. It runs to Feb. 7.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 11, 1962. [[w.zhou-enlai-nianpu-1949]], II, 451 (Jan. 11–Feb. 7, 1962: Zhou Enlai attends); [[w.macfarquhar-maos-last-revolution]], 8 (January–February; some 7,000 cadres); [[w.macfarquhar-origins-of-the-cultural]], III, 137, 143–144 (the conference: the Seven Thousand Cadres; Liu''s first draft presented); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 545 (Jan. 11–Feb. 7, 1962; Liu attends the enlarged Central Work Conference, "the Seven Thousand Cadres Conference": 7,118 leading cadres of the Center, the bureaus, the provincial, prefectural and county committees, major plants and mines and the army; its aim to sum up experience, unify understanding, strengthen democratic centralism and carry out the policy of adjusting the national economy; Jan. 11–24 the Center''s draft report is given out for discussion and views, and the Center decides to set up a 21-man drafting committee under Liu); [[w.deng-xiaoping-nianpu-1904]], III, 1683 (Jan. 11–Feb. 7, 1962; the enlarged Central Work Conference (the Seven Thousand Cadres conference): twelve years, the last four above all, summed up; thought, unity, discipline, democratic centralism; first phase on Liu''s written report, the Center taking responsibility; from the afternoon of Jan. 29, at Mao''s call, a "venting" meeting of criticism and self-criticism; Mao''s speech Jan. 30; Deng''s Feb. 6; Zhou, Zhu De, Lin Biao and others also speak); [[w.mao-zedong-zhuan]], V, ch. 69 (Jan. 11 to Feb. 7, the enlarged Central Work Conference at Peking, called by the Center''s notice of Nov. 16, 1961, "the Seven Thousand Cadres"; the largest work conference the Party had held; the agenda opens with Liu Shaoqi''s written report; Mao agrees on Jan. 13 to lengthen the session). [[w.yang-jisheng-mubei]], II, 1174 (the enlarged Central work conference, the "Seven Thousand Cadres" conference, Jan. 11–Feb. 7, 1962, in Peking); [[w.yang-jisheng-mubei]], II, 1111 n.3 (the conference opens Jan. 11, with 7,118 attending; planned at four levels, it is widened at Mao''s suggestion to five by adding the county heads and those of equal rank in factories and mines). Made public: 1996. To check: [[w.zhonggong-dangshi-dashi-nianbiao]], 277 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 137 n.2a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1014 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 137 n.2b); [[w.zhongguo-gongchan-dang-jianshi]], 315 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 137 n.3); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 11, 1962. [[w.zhou-enlai-nianpu-1949]], II, 451 (Jan. 11–Feb. 7, 1962: Zhou Enlai attends); [[w.macfarquhar-maos-last-revolution]], 8 (January–February; some 7,000 cadres); [[w.macfarquhar-origins-of-the-cultural]], III, 137, 143–144 (the conference: the Seven Thousand Cadres; Liu''s first draft presented); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 545 (Jan. 11–Feb. 7, 1962; Liu attends the enlarged Central Work Conference, "the Seven Thousand Cadres Conference": 7,118 leading cadres of the Center, the bureaus, the provincial, prefectural and county committees, major plants and mines and the army; its aim to sum up experience, unify understanding, strengthen democratic centralism and carry out the policy of adjusting the national economy; Jan. 11–24 the Center''s draft report is given out for discussion and views, and the Center decides to set up a 21-man drafting committee under Liu); [[w.deng-xiaoping-nianpu-1904]], III, 1683 (Jan. 11–Feb. 7, 1962; the enlarged Central Work Conference (the Seven Thousand Cadres conference): twelve years, the last four above all, summed up; thought, unity, discipline, democratic centralism; first phase on Liu''s written report, the Center taking responsibility; from the afternoon of Jan. 29, at Mao''s call, a "venting" meeting of criticism and self-criticism; Mao''s speech Jan. 30; Deng''s Feb. 6; Zhou, Zhu De, Lin Biao and others also speak); [[w.mao-zedong-zhuan]], V, ch. 69 (Jan. 11 to Feb. 7, the enlarged Central Work Conference at Peking, called by the Center''s notice of Nov. 16, 1961, "the Seven Thousand Cadres"; the largest work conference the Party had held; the agenda opens with Liu Shaoqi''s written report; Mao agrees on Jan. 13 to lengthen the session). [[w.yang-jisheng-mubei]], II, 1174 (the enlarged Central work conference, the "Seven Thousand Cadres" conference, Jan. 11–Feb. 7, 1962, in Peking); [[w.yang-jisheng-mubei]], II, 1111 n.3 (the conference opens Jan. 11, with 7,118 attending; planned at four levels, it is widened at Mao''s suggestion to five by adding the county heads and those of equal rank in factories and mines); [[w.yang-jisheng-tiandi-fanfu]], II, 1142 (the Seven Thousand Cadres Conference, Jan. 11 to Feb. 7; the leaders divided on the famine''s lessons); [[w.chen-yi-nianpu]], 907 (Jan. 11–Feb. 7, 1962; Chen Yi attends); [[w.jian-zhou-enlai]], 461 (Jan. 11 to Feb. 7: the Seven Thousand Cadres Conference; Mao''s theme, opposition to separatism); [[w.yang-jisheng-tiandi-fanfu]], I, 65 (planned for four levels, five at Mao''s proposal, the county added; 7,118 attending; opens Jan. 11, the groups discussing Liu''s draft, first on "opposing dispersionism"). Made public: 1995. To check: [[w.zhonggong-dangshi-dashi-nianbiao]], 277 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 137 n.2a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1014 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 137 n.2b); [[w.zhongguo-gongchan-dang-jianshi]], 315 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 137 n.3); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.zhou-enlai-zhuan-1949]], 659 (cited by [[w.jian-zhou-enlai]], 461 n.81b); [[w.yang-shangkun-riji]], II, 112 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 65 n.56). Names: Mao Zedong.'
     src:
       c: ea834108
       rows:
@@ -1276,6 +1354,10 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 69: A-D'
         - 'w.yang-jisheng-mubei II, 1174: A, D'
         - 'w.yang-jisheng-mubei II, 1111 n.3: A-B'
+        - 'w.yang-jisheng-tiandi-fanfu II, 1142: ?'
+        - 'w.chen-yi-nianpu 907: ?'
+        - 'w.jian-zhou-enlai 461: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 65: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1962-01-11.china-leadership-2
     when: Jan. 11–12
@@ -1292,13 +1374,14 @@ entries:
     thread: china-leadership
     also: [japan]
     c: 'Zhou Enlai, with Chen Yi, receives Suzuki Mosaburo, adviser, and the Japan Socialist Party delegation; at the banquet Jan. 12: the blood Asanuma paid in the Japanese people''s fight against American imperialism; each country''s way of struggle follows its own conditions and the people''s awareness; the reactionaries'' charge of a military alliance between the two peoples is a lie; exchanges between them have worldwide meaning.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 11–12, 1962); [[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 11, 1962; 下午, 中南海西花厅); [[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 12, 1962; 下午, 人民大会堂; 欢迎宴会); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 214 (Dec. 31, 1961–Jan. 15, 1962; the Japan Socialist Party''s third delegation under Suzuki Mosaburo; Zhou and Chen Yi talk with it; Zhang Xiruo, president of the Institute of Foreign Affairs, and Suzuki issue a joint statement after their talks: the two peoples'' struggle against U.S. imperialism, each on its own independence and sovereignty, in effect a common struggle; the days not given). The time is the first day''s. Names: Zhou Enlai, Chen Yi, Suzuki Mosaburo, Asanuma Inejiro.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 11–12, 1962); [[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 11, 1962; 下午, 中南海西花厅); [[w.zhou-enlai-waijiao-huodong]], 328 (Jan. 12, 1962; 下午, 人民大会堂; 欢迎宴会); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 214 (Dec. 31, 1961–Jan. 15, 1962; the Japan Socialist Party''s third delegation under Suzuki Mosaburo; Zhou and Chen Yi talk with it; Zhang Xiruo, president of the Institute of Foreign Affairs, and Suzuki issue a joint statement after their talks: the two peoples'' struggle against U.S. imperialism, each on its own independence and sovereignty, in effect a common struggle; the days not given); [[w.chen-yi-nianpu]], 907 (Chen Yi with Zhou receives Suzuki Mosaburo 铃木茂三郎 the afternoon of Jan. 11, and the whole delegation the afternoon of Jan. 12; at Zhou''s banquet that evening). The time is the first day''s. Names: Zhou Enlai, Chen Yi, Suzuki Mosaburo, Asanuma Inejiro.'
     src:
       c: 4914ff44
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 452: ?'
         - 'w.zhou-enlai-waijiao-huodong 328: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 214: A'
+        - 'w.chen-yi-nianpu 907: ?'
     tags: [polity:prc, polity:japan, name:zhou-enlai, name:chen-yi]
     time_range:
       - 1962-01-11T04:00Z
@@ -1686,11 +1769,12 @@ entries:
     thread: china
     also: [vietnam-hanoi]
     c: 'Chen Yi replies to Ung Văn Khiêm, the DRV Foreign Minister: the Chinese government fully backs the Vietnamese government''s firm stand and just demand, as set out in his letter of Dec. 28, 1961 to the Geneva conference''s two co-chairmen. The co-chairmen should take urgent measures to stop the U.S. armed intervention and aggression in South Vietnam and make sure the 1954 Geneva agreement is carried out there.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 216–217 (Jan. 13, 1962). See [[cal.1961-11-29.china]]. Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 216–217 (Jan. 13, 1962); [[w.chen-yi-nianpu]], 907 (Jan. 13, 1962; Chen Yi''s reply to Ung Văn Khiêm''s letter of Dec. 31, 1961, on the American military''s direct armed repression in South Vietnam; China agrees with his letter of Dec. 28 to the co-chairmen, who must act at once). See [[cal.1961-11-29.china]]. Names: Chen Yi.'
     src:
       c: 0f0b587f
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 216–217: all'
+        - 'w.chen-yi-nianpu 907: ?'
     tags: [polity:prc, polity:drv, polity:us, name:chen-yi]
   - id: cal.1962-01-13.china-2
     when: Jan. 13
@@ -1752,6 +1836,46 @@ entries:
         - 'w.yang-shangkun-riji II, 112: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-01-13.china-leadership-5
+    when: Jan. 13
+    date: '1962-01-13'
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the founding of the Oriental Song and Dance Ensemble 东方歌舞团; it is to learn the song and dance of Asia, Africa and Latin America, for the friendship of the world's peoples.
+    n: '[[w.chen-yi-nianpu]], 907. The words: 下午 (907). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-01-13T04:00Z
+      - 1962-01-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-01-13.china-leadership-6
+    when: Jan. 13
+    date: '1962-01-13'
+    place: peking
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 at the reception in the Great Hall of the People 人民大会堂 of six bodies, the Chinese People's Institute of Foreign Affairs 中国人民外交学会 among them, for the Japan Socialist Party delegation led by Suzuki Mosaburo 铃木茂三郎, on its leaving.
+    n: '[[w.chen-yi-nianpu]], 907–908. The words: 晚上 (907–908). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi]
+    time_range:
+      - 1962-01-13T11:00Z
+      - 1962-01-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-01-13.china-leadership-7
+    when: Jan. 13
+    date: '1962-01-13'
+    place: peking
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 at the Japan Socialist Party delegation's farewell banquet at the Xinqiao Hotel 新侨饭店.
+    n: '[[w.chen-yi-nianpu]], 908. The words: 晚上 (908). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi]
+    time_range:
+      - 1962-01-13T11:00Z
+      - 1962-01-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-14.european-community
     when: Jan. 14
     date: '1962-01-14'
@@ -1778,13 +1902,14 @@ entries:
     thread: china-leadership
     also: [laos, vietnam-hanoi]
     c: 'Zhou Enlai meets Souphanouvong, chairman of the Lao Patriotic Front Central Committee, and Hoang Van Hoan, special adviser to the Vietnamese delegation at the enlarged Geneva Conference: exchange of views on the Laotian coalition government and the prospects of the conference.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 14, 1962); [[w.zhou-enlai-waijiao-huodong]], 328–29 (Jan. 14, 1962; 下午5时30分, 钓鱼台宾馆18号楼, 会见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 217 (Jan. 14, 1962; Zhou meets Prince Souphanouvong, chairman of the Lao Patriotic Front''s Central Committee, and Hoàng Văn Hoan (黄文欢), special adviser to the DRV delegation to the enlarged Geneva conference, and exchanges views on the Laotian coalition government and the conference''s outlook; in a coalition government the main thing is to strengthen one''s own forces, in the end settled by strength). Made public: 1993. Names: Zhou Enlai, Souphanouvong, Hoàng Văn Hoan.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 14, 1962); [[w.zhou-enlai-waijiao-huodong]], 328–29 (Jan. 14, 1962; 下午5时30分, 钓鱼台宾馆18号楼, 会见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 217 (Jan. 14, 1962; Zhou meets Prince Souphanouvong, chairman of the Lao Patriotic Front''s Central Committee, and Hoàng Văn Hoan (黄文欢), special adviser to the DRV delegation to the enlarged Geneva conference, and exchanges views on the Laotian coalition government and the conference''s outlook; in a coalition government the main thing is to strengthen one''s own forces, in the end settled by strength); [[w.chen-yi-nianpu]], 908 (Jan. 14, 1962, afternoon; Chen Yi present). Made public: 1993. Names: Zhou Enlai, Souphanouvong, Hoàng Văn Hoan.'
     src:
       c: 001a52b6
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 452: ?'
         - 'w.zhou-enlai-waijiao-huodong 328–29: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 217: A'
+        - 'w.chen-yi-nianpu 908: ?'
     tags: [polity:prc, polity:pathet-lao, polity:drv, name:zhou-enlai, name:souphanouvong, vis:only:prc+pathet-lao+drv]
     time_zone: Asia/Shanghai
   - id: cal.1962-01-14.china-leadership-3
@@ -1812,6 +1937,32 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 112: all'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-01-14.china-leadership-5
+    when: Jan. 14
+    date: '1962-01-14'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 at the airport welcomes Prince Souphanouvong, chairman of the Lao Patriotic Front's Central Committee, in Peking 北京 on his way to Geneva.
+    n: '[[w.chen-yi-nianpu]], 908. The words: 上午 (908). Names: Chen Yi, Souphanouvong.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:souphanouvong, ok:fields-place]
+    time_range:
+      - 1962-01-13T22:00Z
+      - 1962-01-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-01-14.china-leadership-6
+    when: Jan. 14
+    date: '1962-01-14'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 at the airport welcomes Hoàng Văn Hoan 黄文欢, special adviser to the Vietnamese delegation, in Peking 北京 on his way to the enlarged Geneva conference.
+    n: '[[w.chen-yi-nianpu]], 908. The words: 上午 (908). Names: Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-01-13T22:00Z
+      - 1962-01-14T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1962-01-15.vietnam
     when: Jan. 15
@@ -1920,11 +2071,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai receives the Afghan Ambassador, Abdul Samad.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 329 (Jan. 15, 1962). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 329 (Jan. 15, 1962); [[w.chen-yi-nianpu]], 908 (Jan. 15, 1962; Chen Yi with Zhou receives the Afghan Ambassador, Abdul Samad 阿卜杜勒·萨马德). Names: Zhou Enlai.'
     src:
       c: 4dde5be0
       rows:
         - 'w.zhou-enlai-waijiao-huodong 329: all'
+        - 'w.chen-yi-nianpu 908: ?'
     tags: [polity:prc, polity:afghanistan, name:zhou-enlai]
   - id: cal.1962-01-15.china-leadership-2
     when: Jan. 15
@@ -1977,6 +2129,46 @@ entries:
         - 'w.yang-jisheng-mubei I, 143–144: all'
         - 'via w.yang-jisheng-mubei I, 144 n.22: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-01-15.china-leadership-7
+    when: Jan. 15
+    date: '1962-01-15'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the airport sees off Zhang Hanfu 章汉夫 and Qiao Guanhua 乔冠华, of the Chinese delegation to the enlarged Geneva conference, and some of its staff, for Geneva.
+    n: '[[w.chen-yi-nianpu]], 908. The words: 上午 (908). Names: Chen Yi, Qiao Guanhua.'
+    tags: [polity:prc, name:chen-yi, name:qiao-guanhua, ok:fields-place]
+    time_range:
+      - 1962-01-14T22:00Z
+      - 1962-01-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-01-15.china-leadership-8
+    when: Jan. 15
+    date: '1962-01-15'
+    place: peking
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 at the airport sees Prince Souphanouvong off from Peking 北京 to Geneva.
+    n: '[[w.chen-yi-nianpu]], 908. The words: 上午 (908). Names: Chen Yi, Souphanouvong.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:souphanouvong]
+    time_range:
+      - 1962-01-14T22:00Z
+      - 1962-01-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-01-15.china-leadership-9
+    when: Jan. 15
+    date: '1962-01-15'
+    place: peking
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 at the airport sees Hoàng Văn Hoan 黄文欢 off from Peking 北京 to Geneva.
+    n: '[[w.chen-yi-nianpu]], 908. The words: 上午 (908). Names: Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi]
+    time_range:
+      - 1962-01-14T22:00Z
+      - 1962-01-15T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-16.middle-east
     when: Jan. 16
     date: '1962-01-16'
@@ -2179,11 +2371,12 @@ entries:
     date: '1962-01-16'
     thread: china-leadership
     c: 'Tian Jiaying 田家英 to Yang Shangkun 杨尚昆: Liu and Deng have spoken to Mao 毛泽东; Mao sets up a drafting committee 起草委员会 of 20, to settle first what the main contradiction is, then write; it meets the next day at 3 p.m.'
-    n: '[[w.yang-shangkun-riji]], II, 113 (Jan. 16, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-01-16.china-leadership]]. Names: Tian Jiaying, Yang Shangkun, Mao Zedong.'
+    n: '[[w.yang-shangkun-riji]], II, 113 (Jan. 16, 1962); [[w.yang-jisheng-tiandi-fanfu]], I, 66 (Mao proposes a new drafting committee of 21 under Liu Shaoqi: Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Bo Yibo, Chen Boda, Ke Qingshi, Li Jingquan, Song Renqiong, Ulanfu, Tao Zhu, Liu Lantao, Wang Renzhong and others). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 75 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 66 n.57). See [[cal.1962-01-16.china-leadership]]. Names: Tian Jiaying, Yang Shangkun, Mao Zedong.'
     src:
       c: f17f3f60
       rows:
         - 'w.yang-shangkun-riji II, 113: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 66: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
   - id: cal.1962-01-16.china-leadership-9
     when: Jan. 16
@@ -2197,6 +2390,19 @@ entries:
         - 'w.yang-jisheng-mubei I, 221: all'
         - 'via w.yang-jisheng-mubei I, 221 n.82: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-01-16.china-leadership-10
+    when: Jan. 16
+    date: '1962-01-16'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 receives 黄文心, representative of the South Vietnam National Liberation Front and member of the central committee of the Association for Labor Liberation 劳动解放协会.
+    n: '[[w.chen-yi-nianpu]], 908. The words: 下午 (908). Names: Chen Yi.'
+    tags: [polity:prc, polity:nlf, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-01-16T04:00Z
+      - 1962-01-16T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-17.program
     when: Jan. 17
     date: '1962-01-17'
@@ -2250,7 +2456,7 @@ entries:
     date: '1962-01-17'
     thread: china-leadership
     c: Zhou Enlai joins the drafting committee the Center forms to discuss and revise the report Liu Shaoqi is to give the enlarged Central Work Conference; sits again Jan. 18, 19, 20 and 22, and revises the draft himself, Jan. 19–22.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 17–22, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 155 (the committee of twenty-one, its members, eight days of sessions from Jan. 17, Mao aloof); [[w.macfarquhar-origins-of-the-cultural]], III, 144, 149 (the redrafting committee for Liu''s written report meets eight days to prepare the second draft); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 545 (Jan. 17–24, 1962; Liu presides at eight meetings of the report drafting committee, which revises the report on the views of the conference''s groups). Made public: 1996. Check: [[w.macfarquhar-origins-of-the-cultural]], III, 144, 149 has the redrafting committee meet for eight days, Jan. 17 to 24. To check: [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.75); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.76); [[w.schram-mao-tse-tung-unrehearsed]], 159 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.77); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 17–22, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 155 (the committee of twenty-one, its members, eight days of sessions from Jan. 17, Mao aloof); [[w.macfarquhar-origins-of-the-cultural]], III, 144, 149 (the redrafting committee for Liu''s written report meets eight days to prepare the second draft); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 545 (Jan. 17–24, 1962; Liu presides at eight meetings of the report drafting committee, which revises the report on the views of the conference''s groups); [[w.yang-jisheng-tiandi-fanfu]], I, 66–67 (Zhou in the drafting committee, after Peng Zhen: seek the causes in ourselves; the errors to be stressed as breaches of Mao Zedong Thought; the Chairman saw the problems early; "listen to the helmsman"). Made public: 1996. Check: [[w.macfarquhar-origins-of-the-cultural]], III, 144, 149 has the redrafting committee meet for eight days, Jan. 17 to 24. To check: [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.75); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.76); [[w.schram-mao-tse-tung-unrehearsed]], 159 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.77); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 110 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 67 n.59). Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: 85c271e4
       rows:
@@ -2266,6 +2472,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 144 n.sources-d: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 144 n.sources-e: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 545: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 66–67: ?'
     tags: [polity:prc, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
   - id: cal.1962-01-17.china-leadership-3
     when: Jan. 17
@@ -2316,6 +2523,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 114: all'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-01-17.china-leadership-5
+    when: Jan. 17
+    date: '1962-01-17'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 receives the Japanese trade union delegation led by 细井宗一, and 烟井求介, representative of Sōhyō 日本工会总评议会.
+    n: '[[w.chen-yi-nianpu]], 908. The words: 下午 (908). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-01-17T04:00Z
+      - 1962-01-17T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-01-18.economy
     when: Jan. 18
@@ -2558,7 +2778,7 @@ entries:
     date: '1962-01-18'
     thread: china-leadership
     c: 'Redrafting committee: Peng Zhen says the general line is easy to explain, the Great Leap Forward not; that in 1960 the agricultural disaster and the growth of the urban population were underestimated; that the eight-character program was empty talk for want of a directive, with no adjustment until the 1961 Lushan conference. Bo Yibo agrees the general line is the easier to defend. Liu Shaoqi closes the discussion: the Leap may still be named, but looked at in a new, historical way. Peng Zhen says the Center''s blame falls on the Secretariat and, if they deserve it, the Chairman, Liu Shaoqi and the other Standing Committee members; that Mao suggested a transition to communism in three to five years, and advocated universal mess-halls. Deng Xiaoping interrupts, citing Mao''s remark of Dec. 16 on the Secretariat''s report that no one is a sage and his shortcomings may be named. Peng adds that Mao should self-criticize for even a one percent error.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 155–58; [[w.yang-shangkun-riji]], II, 114 (Jan. 18, 1962; the drafting committee, 3 to 7 p.m., the words: 由3时开到7时; Song Renqiong, Ulanhu, Liu Lantao and Peng Zhen 彭真 speak; what they said not given); [[w.deng-xiaoping-nianpu-1904]], III, 1684–1685 (Jan. 18, 1962; Deng at the drafting committee: the fight against decentralism a question to the whole Party; those below see only their small worlds, not their fault; to be led by right thinking to the whole and the long aim); [[w.yang-jisheng-mubei]], II, 1112–1113 n.6 (Peng Zhen on Jan. 18: the Secretariat is first to answer for the errors, and the Chairman, Liu Shaoqi and the Standing Committee too if they should; the transition in three to five years and the mess halls were Mao''s approvals; Deng Xiaoping breaks in with Mao''s saying that the report makes him a sage and that no sage exists; Peng: Mao''s prestige is Everest or Taishan, and those who fear to criticize fall at once). Made public: 1997. To check: [[w.wenzao-guanyu-qiqian-ren-dahuide]], 2–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 156 n.84a); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 156 n.84b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1026 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 156 n.85); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 157 n.87a); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 157 n.87b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1026–27 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 157 n.87c); [[w.macfarquhar-origins-of-the-cultural]], II, 130 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 157 n.87d); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 157 n.90a); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 157 n.90b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.91a); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.91b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.92). Names: Peng Zhen, Bo Yibo, Liu Shaoqi, Mao Zedong, Deng Xiaoping. Check: the day of Bo Yibo''s and Liu''s remarks; the book gives only Peng''s two interventions as the 18th.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 155–58; [[w.yang-shangkun-riji]], II, 114 (Jan. 18, 1962; the drafting committee, 3 to 7 p.m., the words: 由3时开到7时; Song Renqiong, Ulanhu, Liu Lantao and Peng Zhen 彭真 speak; what they said not given); [[w.deng-xiaoping-nianpu-1904]], III, 1684–1685 (Jan. 18, 1962; Deng at the drafting committee: the fight against decentralism a question to the whole Party; those below see only their small worlds, not their fault; to be led by right thinking to the whole and the long aim); [[w.yang-jisheng-mubei]], II, 1112–1113 n.6 (Peng Zhen on Jan. 18: the Secretariat is first to answer for the errors, and the Chairman, Liu Shaoqi and the Standing Committee too if they should; the transition in three to five years and the mess halls were Mao''s approvals; Deng Xiaoping breaks in with Mao''s saying that the report makes him a sage and that no sage exists; Peng: Mao''s prestige is Everest or Taishan, and those who fear to criticize fall at once); [[w.jian-zhou-enlai]], 461–462 (Peng Zhen: Mao''s prestige like the Himalayas, his mistakes a few tons of earth, yet to be examined; Zhou at once: it is we, not the chairman, who should take responsibility); [[w.yang-jisheng-tiandi-fanfu]], I, 66 (Peng Zhen: the errors first the Secretariat''s; Mao not without error, the transition in three to five years and the mess halls his; his prestige "if not Everest, Mount Tai"; Deng Xiaoping''s interjection: Mao has said the report makes him a sage). Made public: 1997. To check: [[w.wenzao-guanyu-qiqian-ren-dahuide]], 2–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 156 n.84a); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 156 n.84b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1026 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 156 n.85); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 157 n.87a); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 157 n.87b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1026–27 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 157 n.87c); [[w.macfarquhar-origins-of-the-cultural]], II, 130 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 157 n.87d); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 157 n.90a); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 157 n.90b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.91a); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.91b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.92); [[w.peng-zhen-zhuan]], III, 1063 (cited by [[w.jian-zhou-enlai]], 462 n.84b); [[w.wang-haiguang-shiguo-jing-weiqian]], 197 (cited by [[w.jian-zhou-enlai]], 462 n.85). Names: Peng Zhen, Bo Yibo, Liu Shaoqi, Mao Zedong, Deng Xiaoping. Check: the day of Bo Yibo''s and Liu''s remarks; the book gives only Peng''s two interventions as the 18th.'
     src:
       c: fb9212c1
       rows:
@@ -2578,6 +2798,8 @@ entries:
         - 'w.yang-shangkun-riji II, 114: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1684–1685: ?'
         - 'w.yang-jisheng-mubei II, 1112–1113 n.6: F-I'
+        - 'w.jian-zhou-enlai 461–462: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 66: ?'
     tags: [polity:prc, name:peng-zhen, name:bo-yibo, name:liu-shaoqi, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
   - id: cal.1962-01-18.china-leadership-4
     when: Jan. 18
@@ -2677,7 +2899,7 @@ entries:
     date: '1962-01-19'
     thread: china-leadership
     c: 'Redrafting committee: Chen Boda answers Peng Zhen: asks whether Mao must take responsibility for all that was messed up and whether his work is to be investigated; says the chief present problem is too little centralization. Peng Zhen replies that his aim was that no one, Mao included, be exempt from criticism.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 158; [[w.yang-shangkun-riji]], II, 114 (Jan. 19, 1962; the drafting committee, 3 to 7:30 p.m., the words: 3时到7时半; its discussion ends, Li Xiannian, Chen Yun, Zhou Enlai, Deng Xiaoping and Chen Boda speaking; minds broadly unified; the second draft to be discussed together from Jan. 20; what Chen Boda said not given); [[w.deng-xiaoping-nianpu-1904]], III, 1685 (Jan. 19, 1962; Deng at the drafting committee: the chief contradiction as subjectivism against dialectical materialism leads to no conclusion); [[w.yang-jisheng-mubei]], II, 1113 n.7–8 (after Peng Zhen, undated by the book: Zhou Enlai, that the cause is to be sought in themselves, the faults of the material they supplied theirs and not Mao''s, and that all must listen to the "helmsman," to the Center, and the Center to Chairman Mao; soon after, Chen Boda: is Mao to answer for the mess, his work to be examined? the root problem is that the Center cannot centralize; Peng Zhen explains that he meant it is wrong that all may be criticized but Mao). Made public: 1997. To check: [[w.wenzao-guanyu-qiqian-ren-dahuide]], 5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.93a); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.94); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.95). Names: Chen Boda, Peng Zhen, Mao Zedong.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 158; [[w.yang-shangkun-riji]], II, 114 (Jan. 19, 1962; the drafting committee, 3 to 7:30 p.m., the words: 3时到7时半; its discussion ends, Li Xiannian, Chen Yun, Zhou Enlai, Deng Xiaoping and Chen Boda speaking; minds broadly unified; the second draft to be discussed together from Jan. 20; what Chen Boda said not given); [[w.deng-xiaoping-nianpu-1904]], III, 1685 (Jan. 19, 1962; Deng at the drafting committee: the chief contradiction as subjectivism against dialectical materialism leads to no conclusion); [[w.yang-jisheng-mubei]], II, 1113 n.7–8 (after Peng Zhen, undated by the book: Zhou Enlai, that the cause is to be sought in themselves, the faults of the material they supplied theirs and not Mao''s, and that all must listen to the "helmsman," to the Center, and the Center to Chairman Mao; soon after, Chen Boda: is Mao to answer for the mess, his work to be examined? the root problem is that the Center cannot centralize; Peng Zhen explains that he meant it is wrong that all may be criticized but Mao); [[w.yang-jisheng-tiandi-fanfu]], I, 67 (Chen Boda after Zhou: are the messes to be laid on Mao? the root is that the Center cannot centralize; Peng Zhen: he meant that all but Mao may be criticized, and that is not good). Made public: 1997. To check: [[w.wenzao-guanyu-qiqian-ren-dahuide]], 5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.93a); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.94); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.95). Names: Chen Boda, Peng Zhen, Mao Zedong.'
     src:
       c: 0d9d8a39
       rows:
@@ -2688,6 +2910,7 @@ entries:
         - 'w.yang-shangkun-riji II, 114: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1685: ?'
         - 'w.yang-jisheng-mubei II, 1113 n.7–8: A-C'
+        - 'w.yang-jisheng-tiandi-fanfu I, 67: ?'
     tags: [polity:prc, name:chen-boda, name:peng-zhen, name:mao-zedong, vis:only:prc]
   - id: cal.1962-01-19.china-leadership-3
     when: Jan. 19
@@ -2917,6 +3140,13 @@ entries:
         - 'w.yang-jisheng-mubei I, 208: all'
         - 'via w.yang-jisheng-mubei I, 208 n.43: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-01-21.china-leadership-3
+    when: Jan. 21
+    date: '1962-01-21'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables the Cuban Foreign Minister firm support for the Cuban government's struggle for its sovereignty and condemns the American plot to use the meeting of American foreign ministers to intervene in Cuba.
+    n: '[[w.chen-yi-nianpu]], 908. Names: Chen Yi.'
+    tags: [polity:prc, polity:cuba, name:chen-yi]
   - id: cal.1962-01-22.economy
     when: Jan. 22
     date: '1962-01-22'
@@ -3300,7 +3530,7 @@ entries:
     date: '1962-01-24'
     thread: china-leadership
     c: Mao accepts the second draft of Liu Shaoqi's written report.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 144; [[w.macfarquhar-origins-of-the-cultural]], III, 158 (Mao accepts the second draft on Jan. 24); [[w.jianguo-yilai-mao-zedong]], XVI, 198–199 (Jan. 24, 1962; Mao''s note on the General Office''s notice sending the revised first part, and his changes in it); [[w.yang-jisheng-mubei]], II, 1113 (the second draft is out on Jan. 22; on the 24th Mao, having read it, approves its direction). Made public: 1997. To check: [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e). Names: Mao Zedong, Liu Shaoqi.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 144; [[w.macfarquhar-origins-of-the-cultural]], III, 158 (Mao accepts the second draft on Jan. 24); [[w.jianguo-yilai-mao-zedong]], XVI, 198–199 (Jan. 24, 1962; Mao''s note on the General Office''s notice sending the revised first part, and his changes in it); [[w.yang-jisheng-mubei]], II, 1113 (the second draft is out on Jan. 22; on the 24th Mao, having read it, approves its direction); [[w.yang-jisheng-tiandi-fanfu]], I, 67 (the second draft out Jan. 22; Mao on the 24th "approves this direction"). Made public: 1997. To check: [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e). Names: Mao Zedong, Liu Shaoqi.'
     src:
       c: c1d1245a
       rows:
@@ -3313,6 +3543,7 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 158: ?'
         - 'w.jianguo-yilai-mao-zedong XVI, 198–199: A'
         - 'w.yang-jisheng-mubei II, 1113: A'
+        - 'w.yang-jisheng-tiandi-fanfu I, 67: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
     variants:
       - unit: A
@@ -3457,7 +3688,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Huairen Hall. The enlarged Politburo, Liu Shaoqi presiding, in the main adopts the report''s second draft: three parts, the present situation and tasks, centralization and unity, the Party''s problems.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 25, 1962. [[w.zhou-enlai-nianpu-1949]], II, 454 (Jan. 25, 1962: Zhou Enlai attends the enlarged Politburo); [[w.macfarquhar-origins-of-the-cultural]], III, 144–145 (the Politburo meeting, Jan. 25; the second draft); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 545–546 (Jan. 25, 1962; Liu presides at the enlarged Politburo meeting, which discusses and in the main passes the report drafted under him; in discussion Liu: here is a conference of seven thousand, county first and second secretaries and men of every plant and department; so many must unify thinking and understanding; since 1958 so many problems have arisen, with many successes and many faults and errors, and how to see them is the great question; unified understanding and thinking, so later also a unified plan and action, is the key question of this critical time for the Party); [[w.yang-shangkun-riji]], II, 116 (Jan. 25, 1962; 3 to 6:30 p.m., Huairen Hall: the enlarged Politburo in the main adopts Liu Shaoqi''s report; the chair not named); [[w.deng-xiaoping-nianpu-1904]], III, 1685–1686 (Jan. 25, 1962; afternoon; Deng at the enlarged Politburo: the report sums up twelve years, the last four chiefly; names the chief contradiction; treats the Party; its direction and its summing-up matter greatly to the whole Party); [[w.mao-zedong-zhuan]], V, ch. 69 n.14 (Jan. 25, afternoon, Huairen Tang: Liu Shaoqi presides over the enlarged Politburo on the revised draft, which they in the main approve for the conference). [[w.yang-jisheng-mubei]], II, 1113 (on Jan. 25 Liu presides at Huairen Hall over the enlarged Politburo, which passes the report). Made public: 1996. To check: [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); Liu Shaoqi 刘少奇, speech at the enlarged Politburo meeting 中共中央政治局扩大会议, Jan. 25, 1962 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.14). See [[cal.1962-01-16.china-leadership]]. Names: Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 25, 1962. [[w.zhou-enlai-nianpu-1949]], II, 454 (Jan. 25, 1962: Zhou Enlai attends the enlarged Politburo); [[w.macfarquhar-origins-of-the-cultural]], III, 144–145 (the Politburo meeting, Jan. 25; the second draft); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 545–546 (Jan. 25, 1962; Liu presides at the enlarged Politburo meeting, which discusses and in the main passes the report drafted under him; in discussion Liu: here is a conference of seven thousand, county first and second secretaries and men of every plant and department; so many must unify thinking and understanding; since 1958 so many problems have arisen, with many successes and many faults and errors, and how to see them is the great question; unified understanding and thinking, so later also a unified plan and action, is the key question of this critical time for the Party); [[w.yang-shangkun-riji]], II, 116 (Jan. 25, 1962; 3 to 6:30 p.m., Huairen Hall: the enlarged Politburo in the main adopts Liu Shaoqi''s report; the chair not named); [[w.deng-xiaoping-nianpu-1904]], III, 1685–1686 (Jan. 25, 1962; afternoon; Deng at the enlarged Politburo: the report sums up twelve years, the last four chiefly; names the chief contradiction; treats the Party; its direction and its summing-up matter greatly to the whole Party); [[w.mao-zedong-zhuan]], V, ch. 69 n.14 (Jan. 25, afternoon, Huairen Tang: Liu Shaoqi presides over the enlarged Politburo on the revised draft, which they in the main approve for the conference). [[w.yang-jisheng-mubei]], II, 1113 (on Jan. 25 Liu presides at Huairen Hall over the enlarged Politburo, which passes the report); [[w.yang-jisheng-tiandi-fanfu]], I, 67 (Liu presides, the Huairen Tang; the report adopted). Made public: 1996. To check: [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); Liu Shaoqi 刘少奇, speech at the enlarged Politburo meeting 中共中央政治局扩大会议, Jan. 25, 1962 (record 讲话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.14). See [[cal.1962-01-16.china-leadership]]. Names: Liu Shaoqi.'
     src:
       c: e2f58d5a
       rows:
@@ -3476,6 +3707,7 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 69 n.14: B'
         - 'via w.mao-zedong-zhuan V, ch.69 n.14: B'
         - 'w.yang-jisheng-mubei II, 1113: A-B'
+        - 'w.yang-jisheng-tiandi-fanfu I, 67: ?'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
   - id: cal.1962-01-25.china-leadership-2
     when: Jan. 25
@@ -3562,7 +3794,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Diaoyutai, Building 12, afternoon. Mao presides at the Standing Committee: the conference''s arrangements and the outline of Liu Shaoqi''s oral report; the plenary on Jan. 27 for Liu''s oral report; the conference to end Jan. 30.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 26, 1962. [[w.yang-shangkun-riji]], II, 117 (Jan. 26, 1962; 4:30 to 7 p.m., Mao''s Standing Committee at Diaoyutai: the conference to end on the 30th; the outline of Liu Shaoqi''s oral report; the plenary the next day at 4 p.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1686 (Jan. 26, 1962; afternoon; Deng at Mao''s Standing Committee); [[w.mao-zedong-zhuan]], V, ch. 69 (Jan. 26, afternoon, at Diaoyutai: Mao''s Standing Committee discusses the arrangements and the outline of Liu Shaoqi''s oral report; the plenary is set for the afternoon of Jan. 27). [[w.yang-jisheng-mubei]], II, 1113 (on the afternoon of Jan. 26 Mao decides that the report goes out as a written paper and that Liu gives an oral report at the session of the 27th; Liu writes the outline overnight, and Mao and the other Standing Committee members read and agree it before the session). Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 117) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 69). See [[cal.1962-01-25.china-leadership]]. Names: Mao Zedong, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 26, 1962. [[w.yang-shangkun-riji]], II, 117 (Jan. 26, 1962; 4:30 to 7 p.m., Mao''s Standing Committee at Diaoyutai: the conference to end on the 30th; the outline of Liu Shaoqi''s oral report; the plenary the next day at 4 p.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1686 (Jan. 26, 1962; afternoon; Deng at Mao''s Standing Committee); [[w.mao-zedong-zhuan]], V, ch. 69 (Jan. 26, afternoon, at Diaoyutai: Mao''s Standing Committee discusses the arrangements and the outline of Liu Shaoqi''s oral report; the plenary is set for the afternoon of Jan. 27). [[w.yang-jisheng-mubei]], II, 1113 (on the afternoon of Jan. 26 Mao decides that the report goes out as a written paper and that Liu gives an oral report at the session of the 27th; Liu writes the outline overnight, and Mao and the other Standing Committee members read and agree it before the session); [[w.yang-jisheng-tiandi-fanfu]], I, 67 (afternoon: Mao decides the report goes out in writing and Liu speaks to it orally on the afternoon of the 27th). Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 117) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 69). See [[cal.1962-01-25.china-leadership]]. Names: Mao Zedong, Liu Shaoqi.'
     src:
       c: 4a0f7d72
       rows:
@@ -3571,6 +3803,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1686: ?'
         - 'w.mao-zedong-zhuan V, ch. 69: B-C'
         - 'w.yang-jisheng-mubei II, 1113: B-C'
+        - 'w.yang-jisheng-tiandi-fanfu I, 67: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1962-01-26.china-leadership-2
@@ -3607,12 +3840,18 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Chen Yi, at the Indian ambassador''s Republic Day reception: China has always held that if both sides keep to the five principles of peaceful coexistence, the questions between the two countries can in the end be settled fairly and reasonably.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 218 (Jan. 26, 1962). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 218 (Jan. 26, 1962); [[w.chen-yi-nianpu]], 908 (Jan. 26, 1962, evening; Chen Yi speaks at the reception of Banerjee 班纳吉, the Indian chargé, at the embassy: China''s stand of upholding Sino-Indian friendship will not change; it is willing to live in peace with its neighbors on the Five Principles). Names: Chen Yi.'
     src:
       c: c15db6dd
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 218: all'
+        - 'w.chen-yi-nianpu 908: ?'
     tags: [polity:prc, polity:india, name:chen-yi]
+    time_range:
+      - 1962-01-26T11:00Z
+      - 1962-01-26T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-26.china-leadership-5
     when: Jan. 26
     date: '1962-01-26'
@@ -3639,6 +3878,22 @@ entries:
         - 'w.yang-jisheng-mubei I, 208: all'
         - 'via w.yang-jisheng-mubei I, 208 n.45: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-01-26.china-leadership-7
+    when: Jan. 26
+    date: '1962-01-26'
+    thread: china-leadership
+    c: Liu Shaoqi 劉少奇 sits up all night writing the outline of his oral report to the conference.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 67. The words: 熬了一個通宵 (I, 67). Made public: 2016. Names: Liu Shaoqi.'
+    src:
+      c: 66080e0f
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 67: all'
+    tags: [polity:prc, vis:only:prc, name:liu-shaoqi, ok:fields-place]
+    time_range:
+      - 1962-01-26T14:00Z
+      - 1962-01-26T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-27.specials
     when: Jan. 27
     date: '1962-01-27'
@@ -3708,7 +3963,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'The Great Hall, 2 p.m. Mao presides over the Work Conference''s plenary session. Liu Shaoqi''s oral report: nationally the errors and the successes stand not as one finger to nine but as three to seven; in some regions the errors the greater; the peasants'' phrase, "three parts natural calamity, seven parts man-made"; the center first to answer for the errors, the State Council included; the ten-year goals of 1963–72 may be thought too low. Mao interjects: the center''s own improper things included; the slogans yet to be cleared up; the goals may not be reached; local interests to be looked after.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 27, 1962. [[w.zhou-enlai-nianpu-1949]], II, 454 (Jan. 27, 1962: Zhou Enlai attends the plenary); [[w.macfarquhar-origins-of-the-cultural]], III, 158–66 (the speech: natural and human causes, seven fingers to three, Xinyang and Tianshui, the three red banners, Peng Dehuai, trade; Mao''s interruptions at 159, 160, 163); [[w.lengxi-shinian-lunzhan-1956-1966]], 482–486 (Liu, in his speech explaining the written report, takes the international matter first: Moscow-type revisionism from the Twentieth Congress, now a fair system after the Twenty-second, the "four antis"; the 1957 and 1960 meetings checked but did not bind; the Soviet break with Albania; the Soviets as bad to friends, mild to foes; division of the movement unavoidable, good in a sense; for Sino-Soviet relations three possibilities, as now, worse without a break, an open break, cadres to prepare for the worst; self-reliance, trade with imperialism if Soviet trade stops); [[w.macfarquhar-origins-of-the-cultural]], III, 144–145 (Liu''s plenary address on the second draft); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 547–548 (Jan. 27, 1962; Liu''s supplementary talk to the enlarged conference: shortcomings and successes were once spoken of as one finger to nine, but for the country as a whole they are three fingers to seven, and in some places more than three fingers; in Hunan the peasants say "three parts natural calamity, seven parts man-made"; in a part of the country faults and errors are the main thing, not successes; to admit faults, sum up experience and learn; to clear up the slogans of recent years, "as bold as the man, as high the yield" and the labelling of attention to objective conditions as the "theory of conditions," and the claim that "left" is better than right; the Party is to take up again the tradition of seeking truth from facts, investigate, and develop democracy within the Party and among the people; the talk is in his Selected Works); [[w.yang-shangkun-riji]], II, 117 (Jan. 27, 1962; the Great Hall, 2 p.m.; Liu Shaoqi''s report three hours, to 5:10; Mao, presiding, announces group discussion the next day); [[w.deng-xiaoping-nianpu-1904]], III, 1686 (Jan. 27, 1962; afternoon; Deng at the plenary: Liu, errors and successes perhaps three fingers to seven nationally, more in some regions; "three parts natural disaster, seven parts man-made" in some places; Mao sets the following days); [[w.mao-zedong-zhuan]], V, ch. 69 nn.16, 18 (Jan. 27, afternoon plenary, Mao presiding: Liu''s oral report on four matters, the international and domestic situation, centralized unity and Party style; the account of the faults, three parts to seven, no longer one finger to nine; Mao fixes the days left, to end by Jan. 30 or 31). [[w.dikotter-maos-great-famine]], 335–336 n.1 (Liu speaks three hours to the 7,000 cadres: successes to errors seven to three, not nine fingers to one; in places the errors greater, as in Xinyang and Tianshui; the Hunan saying of 30 per cent natural calamities, 70 per cent man-made; Mao interrupts him on the number of regions with falling output); [[w.yang-jisheng-mubei]], II, 1113–1115 n.9 (2 p.m., Mao presiding; Liu speaks three hours: the successes and the faults no longer one finger to nine but three to seven, in some regions the faults the larger; the peasants'' phrase, three parts natural calamity, seven parts man-made; the Center first to answer, then the provincial committees; the three red banners to be tried by practice; Mao puts in that quite a few have had edema); [[w.yang-jisheng-mubei]], II, 1125–1126 n.29 (Liu''s oral report held a passage on Peng Dehuai of about 1,100 characters, cut from his *Selected Works*: the struggle against Peng at Lushan was wholly necessary, not because of his letter, some of whose particulars fit the facts, but because for long he had had a small clique in the Party, a remnant of the Gao–Rao group and its main member, with an international background, its anti-Party acts tied to subversion by certain foreigners in China, and plotting to usurp the Party). Made public: 1996. To check: Liu''s oral report and the written report as adopted (the nianpu gives the oral report''s words and Mao''s interjections); [[w.shaoqi-liu-shaoqi-xuanji-selected]], 418–43 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.96a); Liu Shaoqi, speech of Jan. 27, 1962, mimeographed version (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.96b); [[w.qi-qian-ren-dahui]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.96c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 159 n.99a); Liu Shaoqi, speech of Jan. 27, 1962, mimeographed version (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 159 n.99b); [[w.shaoqi-liu-shaoqi-xuanji-selected]], 420–21 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 160 n.104); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 160 n.106); [[w.shaoqi-liu-shaoqi-xuanji-selected]], 421 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 160 n.107); Liu Shaoqi, speech of Jan. 27, 1962, mimeographed version, 13–14 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 162 n.119); [[w.selected-works-of-liu]], 2, 328–96 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 145 n.27b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); Liu Shaoqi 刘少奇, oral report to the enlarged Central Work Conference, Jan. 27, 1962; [[w.shaoqi-liu-shaoqi-xuanji-selected]], 418–443 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.16); Record of the enlarged Central Work Conference 扩大的中央工作会议记录, Jan. 27, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.18); Liu Shaoqi, speech of Jan. 27, 1962, Gansu Provincial Archives, 91-18-493, pp. 58–60 and 62 (cited by [[w.dikotter-maos-great-famine]], 336 n.1). See [[cal.1962-01-26.china-leadership]]. Names: Mao Zedong, Liu Shaoqi.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 27, 1962. [[w.zhou-enlai-nianpu-1949]], II, 454 (Jan. 27, 1962: Zhou Enlai attends the plenary); [[w.macfarquhar-origins-of-the-cultural]], III, 158–66 (the speech: natural and human causes, seven fingers to three, Xinyang and Tianshui, the three red banners, Peng Dehuai, trade; Mao''s interruptions at 159, 160, 163); [[w.lengxi-shinian-lunzhan-1956-1966]], 482–486 (Liu, in his speech explaining the written report, takes the international matter first: Moscow-type revisionism from the Twentieth Congress, now a fair system after the Twenty-second, the "four antis"; the 1957 and 1960 meetings checked but did not bind; the Soviet break with Albania; the Soviets as bad to friends, mild to foes; division of the movement unavoidable, good in a sense; for Sino-Soviet relations three possibilities, as now, worse without a break, an open break, cadres to prepare for the worst; self-reliance, trade with imperialism if Soviet trade stops); [[w.macfarquhar-origins-of-the-cultural]], III, 144–145 (Liu''s plenary address on the second draft); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 547–548 (Jan. 27, 1962; Liu''s supplementary talk to the enlarged conference: shortcomings and successes were once spoken of as one finger to nine, but for the country as a whole they are three fingers to seven, and in some places more than three fingers; in Hunan the peasants say "three parts natural calamity, seven parts man-made"; in a part of the country faults and errors are the main thing, not successes; to admit faults, sum up experience and learn; to clear up the slogans of recent years, "as bold as the man, as high the yield" and the labelling of attention to objective conditions as the "theory of conditions," and the claim that "left" is better than right; the Party is to take up again the tradition of seeking truth from facts, investigate, and develop democracy within the Party and among the people; the talk is in his Selected Works); [[w.yang-shangkun-riji]], II, 117 (Jan. 27, 1962; the Great Hall, 2 p.m.; Liu Shaoqi''s report three hours, to 5:10; Mao, presiding, announces group discussion the next day); [[w.deng-xiaoping-nianpu-1904]], III, 1686 (Jan. 27, 1962; afternoon; Deng at the plenary: Liu, errors and successes perhaps three fingers to seven nationally, more in some regions; "three parts natural disaster, seven parts man-made" in some places; Mao sets the following days); [[w.mao-zedong-zhuan]], V, ch. 69 nn.16, 18 (Jan. 27, afternoon plenary, Mao presiding: Liu''s oral report on four matters, the international and domestic situation, centralized unity and Party style; the account of the faults, three parts to seven, no longer one finger to nine; Mao fixes the days left, to end by Jan. 30 or 31). [[w.dikotter-maos-great-famine]], 335–336 n.1 (Liu speaks three hours to the 7,000 cadres: successes to errors seven to three, not nine fingers to one; in places the errors greater, as in Xinyang and Tianshui; the Hunan saying of 30 per cent natural calamities, 70 per cent man-made; Mao interrupts him on the number of regions with falling output); [[w.yang-jisheng-mubei]], II, 1113–1115 n.9 (2 p.m., Mao presiding; Liu speaks three hours: the successes and the faults no longer one finger to nine but three to seven, in some regions the faults the larger; the peasants'' phrase, three parts natural calamity, seven parts man-made; the Center first to answer, then the provincial committees; the three red banners to be tried by practice; Mao puts in that quite a few have had edema); [[w.yang-jisheng-mubei]], II, 1125–1126 n.29 (Liu''s oral report held a passage on Peng Dehuai of about 1,100 characters, cut from his *Selected Works*: the struggle against Peng at Lushan was wholly necessary, not because of his letter, some of whose particulars fit the facts, but because for long he had had a small clique in the Party, a remnant of the Gao–Rao group and its main member, with an international background, its anti-Party acts tied to subversion by certain foreigners in China, and plotting to usurp the Party); [[w.yang-jisheng-mubei]], II, 648 ("three parts natural disaster, seven parts man-made"); [[w.jian-zhou-enlai]], 461 (Liu: 30 percent natural disasters, 70 percent human mistakes; the peasants will not be convinced otherwise); [[w.yang-jisheng-tiandi-fanfu]], I, 67–68 (the outline circulated beforehand to Mao and the Standing Committee and agreed; 2 p.m., Mao presiding; three hours; the output of industry down by 40 percent or more, "a saddle"; "three parts natural disaster, seven parts man-made"; three fingers to seven; the Center first responsible; the three red flags still to be tested in practice; Liu also on Peng Dehuai and Gao Gang); [[w.yang-jisheng-tiandi-fanfu]], I, 77 (Liu: Peng Dehuai has long had a small clique in the Party, took part in the Gao–Rao clique, used Gao Gang; both had foreign backing; Peng wanted to usurp the Party). Made public: 1996. To check: Liu''s oral report and the written report as adopted (the nianpu gives the oral report''s words and Mao''s interjections); [[w.shaoqi-liu-shaoqi-xuanji-selected]], 418–43 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.96a); Liu Shaoqi, speech of Jan. 27, 1962, mimeographed version (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.96b); [[w.qi-qian-ren-dahui]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 158 n.96c); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 159 n.99a); Liu Shaoqi, speech of Jan. 27, 1962, mimeographed version (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 159 n.99b); [[w.shaoqi-liu-shaoqi-xuanji-selected]], 420–21 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 160 n.104); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 160 n.106); [[w.shaoqi-liu-shaoqi-xuanji-selected]], 421 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 160 n.107); Liu Shaoqi, speech of Jan. 27, 1962, mimeographed version, 13–14 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 162 n.119); [[w.selected-works-of-liu]], 2, 328–96 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 145 n.27b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); Liu Shaoqi 刘少奇, oral report to the enlarged Central Work Conference, Jan. 27, 1962; [[w.shaoqi-liu-shaoqi-xuanji-selected]], 418–443 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.16); Record of the enlarged Central Work Conference 扩大的中央工作会议记录, Jan. 27, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.18); Liu Shaoqi, speech of Jan. 27, 1962, Gansu Provincial Archives, 91-18-493, pp. 58–60 and 62 (cited by [[w.dikotter-maos-great-famine]], 336 n.1); Wang Nianyi 王年一, 〈漫談文革〉, *Ershiyi shiji* 《二十一世紀》, Oct. 2006 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 77 n.87). See [[cal.1962-01-26.china-leadership]]. Names: Mao Zedong, Liu Shaoqi.'
     src:
       c: 4f065ba0
       rows:
@@ -3744,6 +3999,10 @@ entries:
         - 'via x.1962-01-27.liu-shaoqi-speech-27-jan-1962-gansu-file: C-E'
         - 'w.yang-jisheng-mubei II, 1113–1115 n.9: A-F'
         - 'w.yang-jisheng-mubei II, 1125–1126 n.29: C'
+        - 'w.yang-jisheng-mubei II, 648: E'
+        - 'w.jian-zhou-enlai 461: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 67–68: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 77: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
   - id: cal.1962-01-27.china-leadership-2
     when: Jan. 27
@@ -3828,11 +4087,12 @@ entries:
     thread: china-leadership
     also: [china, laos, vietnam-hanoi]
     c: 'Peking, Diaoyutai guesthouse, Building 18. Zhou Enlai meets and dines Souphanouvong, on his way home, and Hoàng Văn Hoan, special adviser to the Vietnamese delegation to the enlarged Geneva conference. He says the three princes'' Geneva communiqué has a positive side: it can be used as a weapon to expose Phoumi Nosavan''s constant breaking of promises; a coalition government on its basis would be good, and the struggle would go on within it; the main thing is to strengthen one''s own forces, and in the end the matter is settled by strength.'
-    n: '[[w.zhou-enlai-waijiao-huodong]], 329 (Jan. 28, 1962; 晚6时). Made public: 1993. Names: Zhou Enlai, Souphanouvong, Phoumi Nosavan.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 329 (Jan. 28, 1962; 晚6时); [[w.chen-yi-nianpu]], 909 (Jan. 28, 1962, evening; Zhou receives Souphanouvong and Hoàng Văn Hoan, Chen Yi present). Made public: 1993. Names: Zhou Enlai, Souphanouvong, Phoumi Nosavan.'
     src:
       c: 98fe1e6a
       rows:
         - 'w.zhou-enlai-waijiao-huodong 329: all'
+        - 'w.chen-yi-nianpu 909: ?'
     tags: [polity:prc, polity:pathet-lao, polity:drv, name:zhou-enlai, name:souphanouvong, name:phoumi-nosavan, vis:only:prc+pathet-lao+drv]
     time_zone: Asia/Shanghai
   - id: cal.1962-01-28.china-leadership-2
@@ -3890,6 +4150,44 @@ entries:
         - 'w.yang-jisheng-mubei I, 219: all'
         - 'via w.yang-jisheng-mubei I, 219 n.77a: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-01-28.china-leadership-6
+    when: Jan. 28
+    date: '1962-01-28'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the airport welcomes Zhang Hanfu 章汉夫, acting head of the Chinese delegation to the enlarged Geneva conference, back to Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 908. The words: 下午 (908). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-01-28T04:00Z
+      - 1962-01-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-01-28.china-leadership-7
+    when: Jan. 28
+    date: '1962-01-28'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 at the airport welcomes Prince Souphanouvong in Peking 北京 on his way home from Geneva.
+    n: '[[w.chen-yi-nianpu]], 908–909. The words: 下午 (908–909). Names: Chen Yi, Souphanouvong.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:souphanouvong, ok:fields-place]
+    time_range:
+      - 1962-01-28T04:00Z
+      - 1962-01-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-01-28.china-leadership-8
+    when: Jan. 28
+    date: '1962-01-28'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 at the airport welcomes Hoàng Văn Hoan 黄文欢, special adviser to the Vietnamese government delegation, in Peking 北京 on his way home from Geneva.
+    n: '[[w.chen-yi-nianpu]], 909. The words: 下午 (909). Names: Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-01-28T04:00Z
+      - 1962-01-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-29.testing
     when: Jan. 29
     date: '1962-01-29'
@@ -3922,7 +4220,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'The Great Hall, 4 p.m. Plenary session, Mao presiding. Lin Biao: the general line, the Great Leap and the communes are right; the difficulties arose because Mao''s instructions were not followed; China can overtake the United States in decades; on war: do not provoke, do not strike first, delay it, but fight an offensive defense, not a passive one. Mao: Lin''s speech very good, to be written up; then, after talk with the Standing Committee, proposes extending the conference for a "venting meeting" (出气会), to let men speak who have held back: no recording, no blows, no reprisals; democratic centralism not yet built in the Party.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 29, 1962. [[w.macfarquhar-origins-of-the-cultural]], III, 166–68 (Lin Biao''s speech); [[w.macfarquhar-origins-of-the-cultural]], III, 143–144 (Lin Biao; Mao opens the second stage); [[w.yang-shangkun-riji]], II, 118 (Jan. 29, 1962; 4 to 7 p.m., the plenary; Lin Biao speaks; Mao: all to "vent their anger" 出气, the conference extended some days, to close before the Spring Festival); [[w.deng-xiaoping-nianpu-1904]], III, 1686–1687 (Jan. 29, 1962; afternoon; Deng at the plenary; Lin Biao on Party and military work; Mao extends the meeting over the Spring Festival, a "venting" meeting); [[w.mao-zedong-zhuan]], V, ch. 69 nn.19, 21 (Jan. 29, plenary, Mao presiding: Lin Biao speaks, the difficulties in part from not following Mao''s instructions; Mao calls it very good and asks that it be written up in a week or two; Mao then announces that the session is lengthened, that all may let off steam, speak freely and say it all; democratic centralism not yet a fact). [[w.dikotter-maos-great-famine]], 336 n.3 (Lin Biao lauds the Great Leap as an unprecedented accomplishment: work went well when Mao''s thought was carried out and not interfered with); [[w.yang-jisheng-mubei]], II, 1115–1116 n.11–13 (on the afternoon of Jan. 29, after Mao has said ''vent by day, see plays at night, two dry meals and one thin'' and the conference is held on, Lin Biao speaks, with Mao presiding: the Three Red Banners right, the difficulties the result of not following Mao''s instructions; Mao says it is a very good speech on the Party''s line and military policy and asks for it to be collated in a week or half a month). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 118) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 69), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.lin-biao-xuanji-untitled]], 129–40 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 166 n.136a); [[w.jin-1949-1989-niande-zhongguo]], 410–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 166 n.136b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 5–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 166 n.136c); [[w.yunsheng-maojiawan-jishi]], 210 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 166 n.136d); [[w.qi-qian-ren-dahui]], 125–61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 166 n.136e); [[w.lin-biao-xuanji-untitled]], 132 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 167 n.142a); [[w.qi-qian-ren-dahui]], 129–30 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 167 n.142b); [[w.lin-biao-xuanji-untitled]], 129 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 167 n.143a); [[w.qi-qian-ren-dahui]], 126 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 167 n.143b); [[w.lin-biao-xuanji-untitled]], 132–34 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.145a); [[w.qi-qian-ren-dahui]], 130–34 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.145b); [[w.macfarquhar-origins-of-the-cultural]], II, 15–19 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.145c); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.148a); [[w.jin-1949-1989-niande-zhongguo]], 413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.148b); [[w.zhisui-private-life-of-chairman]], 387–88 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.148c); [[w.zedong-jianguo-yilai-mao-zedong]], 10, 59–60, 62–65 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.148d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1019 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 143 n.19); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); Lin Biao 林彪, speech at the enlarged Central Work Conference, Jan. 29, 1962; in [[w.jianguo-yilai-zhongyao-wenxian]], XV, 107–108 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.19); Record of the enlarged Central Work Conference 扩大的中央工作会议记录, Jan. 29, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.21); Lin Biao, speech of Jan. 29, 1962, Gansu Provincial Archives, 91-18-493, pp. 163–164 (cited by [[w.dikotter-maos-great-famine]], 336 n.3). See [[cal.1962-01-27.china-leadership]]. Names: Mao Zedong, Lin Biao.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 29, 1962. [[w.macfarquhar-origins-of-the-cultural]], III, 166–68 (Lin Biao''s speech); [[w.macfarquhar-origins-of-the-cultural]], III, 143–144 (Lin Biao; Mao opens the second stage); [[w.yang-shangkun-riji]], II, 118 (Jan. 29, 1962; 4 to 7 p.m., the plenary; Lin Biao speaks; Mao: all to "vent their anger" 出气, the conference extended some days, to close before the Spring Festival); [[w.deng-xiaoping-nianpu-1904]], III, 1686–1687 (Jan. 29, 1962; afternoon; Deng at the plenary; Lin Biao on Party and military work; Mao extends the meeting over the Spring Festival, a "venting" meeting); [[w.mao-zedong-zhuan]], V, ch. 69 nn.19, 21 (Jan. 29, plenary, Mao presiding: Lin Biao speaks, the difficulties in part from not following Mao''s instructions; Mao calls it very good and asks that it be written up in a week or two; Mao then announces that the session is lengthened, that all may let off steam, speak freely and say it all; democratic centralism not yet a fact). [[w.dikotter-maos-great-famine]], 336 n.3 (Lin Biao lauds the Great Leap as an unprecedented accomplishment: work went well when Mao''s thought was carried out and not interfered with); [[w.yang-jisheng-mubei]], II, 1115–1116 n.11–13 (on the afternoon of Jan. 29, after Mao has said ''vent by day, see plays at night, two dry meals and one thin'' and the conference is held on, Lin Biao speaks, with Mao presiding: the Three Red Banners right, the difficulties the result of not following Mao''s instructions; Mao says it is a very good speech on the Party''s line and military policy and asks for it to be collated in a week or half a month); [[w.jian-zhou-enlai]], 462 (Lin Biao hails Mao, the disaster from a "failure to follow Mao Thought"); [[w.yang-jisheng-tiandi-fanfu]], I, 68–69 (the afternoon of the 29th, told that the delegates have not had their say and still have "a bellyful of anger," Mao: "vent your anger by day, see an opera at night, two solid meals and one of gruel, and all are content," and the conference, set to close Jan. 30 or 31, goes on; Lin Biao: the difficulties came "precisely because" Mao''s instructions were not followed; Mao''s outstanding merit is that he is practical; Mao presiding, after: "a very good speech ... tidy it up; a week or half a month"). Made public: 2013. Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 118) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 69), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.lin-biao-xuanji-untitled]], 129–40 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 166 n.136a); [[w.jin-1949-1989-niande-zhongguo]], 410–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 166 n.136b); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 5–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 166 n.136c); [[w.yunsheng-maojiawan-jishi]], 210 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 166 n.136d); [[w.qi-qian-ren-dahui]], 125–61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 166 n.136e); [[w.lin-biao-xuanji-untitled]], 132 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 167 n.142a); [[w.qi-qian-ren-dahui]], 129–30 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 167 n.142b); [[w.lin-biao-xuanji-untitled]], 129 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 167 n.143a); [[w.qi-qian-ren-dahui]], 126 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 167 n.143b); [[w.lin-biao-xuanji-untitled]], 132–34 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.145a); [[w.qi-qian-ren-dahui]], 130–34 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.145b); [[w.macfarquhar-origins-of-the-cultural]], II, 15–19 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.145c); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.148a); [[w.jin-1949-1989-niande-zhongguo]], 413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.148b); [[w.zhisui-private-life-of-chairman]], 387–88 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.148c); [[w.zedong-jianguo-yilai-mao-zedong]], 10, 59–60, 62–65 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 168 n.148d); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1019 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 143 n.19); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-d); Lin Biao 林彪, speech at the enlarged Central Work Conference, Jan. 29, 1962; in [[w.jianguo-yilai-zhongyao-wenxian]], XV, 107–108 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.19); Record of the enlarged Central Work Conference 扩大的中央工作会议记录, Jan. 29, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.21); Lin Biao, speech of Jan. 29, 1962, Gansu Provincial Archives, 91-18-493, pp. 163–164 (cited by [[w.dikotter-maos-great-famine]], 336 n.3); [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 143–145 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 69 n.65). See [[cal.1962-01-27.china-leadership]]. Names: Mao Zedong, Lin Biao.'
     src:
       c: 0063b373
       rows:
@@ -3959,6 +4257,8 @@ entries:
         - 'w.dikotter-maos-great-famine 336 n.3: D'
         - 'via x.1962-01-29.lin-biao-speech-29-jan-1962-gansu-file: C, D'
         - 'w.yang-jisheng-mubei II, 1115–1116 n.11–13: B-D, G-H'
+        - 'w.jian-zhou-enlai 462: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 68–69: ?'
     tags: [polity:prc, name:mao-zedong, name:lin-biao, vis:only:prc]
   - id: cal.1962-01-29.china-leadership-2
     when: Jan. 29
@@ -4163,7 +4463,7 @@ entries:
     place: peking
     thread: china-leadership
     c: 'The Great Hall, 4 p.m. Mao''s long speech to the plenary, six parts: how the conference is run; democratic centralism; which classes to unite and which to oppress; knowledge of the objective world; the international communist movement; unity. Center: democracy in and out of the Party; no secret factions, but open dissent allowed and none to be punished; the mistakes of these years: the first account the center''s, and the center''s his first; then the provincial, prefectural and county committees in turn. On socialist construction: "we lack experience"; he told Montgomery it would take over a hundred years.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 30, 1962. [[w.zhou-enlai-nianpu-1949]], II, 454 (Jan. 30, 1962: Zhou Enlai attends the afternoon plenary); [[w.macfarquhar-origins-of-the-cultural]], III, 169–71 (Mao''s speech: his self-criticism, the "tigers", the Standing Committee, inexperience, Engels, class struggle); [[w.macfarquhar-maos-last-revolution]], 8 (Mao''s self-criticism); [[w.lengxi-shinian-lunzhan-1956-1966]], 488–489 (Mao on the Soviet relation: not necessarily Albania''s way; if the USSR breaks, China need not; it asks talks and proposes a conference of the 81 parties; break to be avoided or put off even for a bad appearance of none; no counter-articles now, let them curse; the Seven Thousand stand for 650 million people and fear no isolation; 90 percent of the world will in the end stand with China; the page opening the passage, 487, is missing from the scan); [[w.macfarquhar-origins-of-the-cultural]], III, 133–134 (Mao on the Soviet Union and isolation); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 548 (Jan. 30, 1962; Liu attends the conference''s plenary meeting at which Mao speaks: the democratic centralism of the Party must be strengthened; the understanding of the laws of socialist construction is to be deepened on the sum of experience positive and negative; Mao takes responsibility for the faults and errors of recent years); [[w.jianguo-yilai-mao-zedong]], XVI, 210–241 (Jan. 30, 1962; the speech as revised in Feb. 1966 and printed in *Renmin ribao*, July 1, 1978, not the oral text: six points, the way the conference is run, democratic centralism (211), classes to unite and to oppress (219), knowledge of the objective world (220), the international communist movement (228), unity (229); notes 1–31 give the wording of the version circulated Apr. 10, 1962, which differs); [[w.yang-shangkun-riji]], II, 118–119 (Jan. 30, 1962; 4 p.m., two hours; six questions by the diary: the conference''s method, democracy first, then centralism; democratic centralism; overcoming difficulties; knowing the world; Sino-Soviet relations and world revolution; uniting the great majority; its center democracy); [[w.deng-xiaoping-nianpu-1904]], III, 1687 (Jan. 30, 1962; afternoon; Deng at the plenary; Mao on democratic centralism and his self-criticism); [[w.mao-zedong-zhuan]], V, ch. 69 n.24 (Jan. 30, plenary: Mao''s speech on six questions, how the conference is run, democratic centralism, which classes to unite and which to oppress, knowledge of the objective world, the communist movement, unity; the most on democratic centralism; he criticizes himself for the speech of June 12, 1961 not being passed on). [[w.yang-jisheng-mubei]], II, 1116–1117 n.15 (the book puts Mao''s speech to the conference on the morning of Jan. 30; it does not take up the famine but democratic centralism, with no high centralism without high democracy, or Yugoslavia''s course). Made public: 1996. To check: Mao''s speech of Jan. 30, 1962, as printed in his *Selected Works*, if included, and the nianpu''s note on the revised record (Feb. 24, Mar. 10); [[w.schram-mao-tse-tung-unrehearsed]], 166–67 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 169 n.154); [[w.schram-mao-tse-tung-unrehearsed]], 167 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 169 n.155); [[w.schram-mao-tse-tung-unrehearsed]], 170–76, 173 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 170 n.159a); [[w.zedong-mao-zedong-zhuzuo-xuandu]], 2, 833 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 170 n.160a); [[w.schram-mao-tse-tung-unrehearsed]], 180 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 170 n.160b); [[w.macfarquhar-origins-of-the-cultural]], II, 164 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 170 n.160c); [[w.schram-mao-tse-tung-unrehearsed]], 168 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 171 n.162); Mao Zedong 毛泽东, speech at the enlarged Central Work Conference, Jan. 30, 1962; in [[w.mao-zedong-wenji]], VIII, 289–304 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.24). See [[cal.1962-01-29.china-leadership]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 30, 1962. [[w.zhou-enlai-nianpu-1949]], II, 454 (Jan. 30, 1962: Zhou Enlai attends the afternoon plenary); [[w.macfarquhar-origins-of-the-cultural]], III, 169–71 (Mao''s speech: his self-criticism, the "tigers", the Standing Committee, inexperience, Engels, class struggle); [[w.macfarquhar-maos-last-revolution]], 8 (Mao''s self-criticism); [[w.lengxi-shinian-lunzhan-1956-1966]], 488–489 (Mao on the Soviet relation: not necessarily Albania''s way; if the USSR breaks, China need not; it asks talks and proposes a conference of the 81 parties; break to be avoided or put off even for a bad appearance of none; no counter-articles now, let them curse; the Seven Thousand stand for 650 million people and fear no isolation; 90 percent of the world will in the end stand with China; the page opening the passage, 487, is missing from the scan); [[w.macfarquhar-origins-of-the-cultural]], III, 133–134 (Mao on the Soviet Union and isolation); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 548 (Jan. 30, 1962; Liu attends the conference''s plenary meeting at which Mao speaks: the democratic centralism of the Party must be strengthened; the understanding of the laws of socialist construction is to be deepened on the sum of experience positive and negative; Mao takes responsibility for the faults and errors of recent years); [[w.jianguo-yilai-mao-zedong]], XVI, 210–241 (Jan. 30, 1962; the speech as revised in Feb. 1966 and printed in *Renmin ribao*, July 1, 1978, not the oral text: six points, the way the conference is run, democratic centralism (211), classes to unite and to oppress (219), knowledge of the objective world (220), the international communist movement (228), unity (229); notes 1–31 give the wording of the version circulated Apr. 10, 1962, which differs); [[w.yang-shangkun-riji]], II, 118–119 (Jan. 30, 1962; 4 p.m., two hours; six questions by the diary: the conference''s method, democracy first, then centralism; democratic centralism; overcoming difficulties; knowing the world; Sino-Soviet relations and world revolution; uniting the great majority; its center democracy); [[w.deng-xiaoping-nianpu-1904]], III, 1687 (Jan. 30, 1962; afternoon; Deng at the plenary; Mao on democratic centralism and his self-criticism); [[w.mao-zedong-zhuan]], V, ch. 69 n.24 (Jan. 30, plenary: Mao''s speech on six questions, how the conference is run, democratic centralism, which classes to unite and which to oppress, knowledge of the objective world, the communist movement, unity; the most on democratic centralism; he criticizes himself for the speech of June 12, 1961 not being passed on). [[w.yang-jisheng-mubei]], II, 1116–1117 n.15 (the book puts Mao''s speech to the conference on the morning of Jan. 30; it does not take up the famine but democratic centralism, with no high centralism without high democracy, or Yugoslavia''s course); [[w.jian-zhou-enlai]], 461 (Mao: comrades to "unleash their anger"; for the Center''s mistakes he is directly or indirectly responsible; without democracy no centralization); [[w.yang-jisheng-tiandi-fanfu]], I, 70 (on democratic centralism: without broad people''s democracy the dictatorship cannot be firm; without high democracy no high centralism, and without high centralism no socialist economy). Made public: 1996. To check: Mao''s speech of Jan. 30, 1962, as printed in his *Selected Works*, if included, and the nianpu''s note on the revised record (Feb. 24, Mar. 10); [[w.schram-mao-tse-tung-unrehearsed]], 166–67 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 169 n.154); [[w.schram-mao-tse-tung-unrehearsed]], 167 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 169 n.155); [[w.schram-mao-tse-tung-unrehearsed]], 170–76, 173 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 170 n.159a); [[w.zedong-mao-zedong-zhuzuo-xuandu]], 2, 833 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 170 n.160a); [[w.schram-mao-tse-tung-unrehearsed]], 180 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 170 n.160b); [[w.macfarquhar-origins-of-the-cultural]], II, 164 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 170 n.160c); [[w.schram-mao-tse-tung-unrehearsed]], 168 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 171 n.162); Mao Zedong 毛泽东, speech at the enlarged Central Work Conference, Jan. 30, 1962; in [[w.mao-zedong-wenji]], VIII, 289–304 (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.24); [[w.zhou-enlai-zhuan-1949]], 659 (cited by [[w.jian-zhou-enlai]], 461 n.81b); *Mao Zedong sixiang wansui* 《毛澤東思想萬歲》 (1961–1968), 17 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 70 n.70). See [[cal.1962-01-29.china-leadership]]. Names: Mao Zedong.'
     src:
       c: ac3fc630
       rows:
@@ -4191,6 +4491,8 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 69 n.24: B-G, L'
         - 'via w.mao-zedong-zhuan V, ch.69 n.24: B-G, L'
         - 'w.yang-jisheng-mubei II, 1116–1117 n.15: C'
+        - 'w.jian-zhou-enlai 461: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 70: ?'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
     variants:
       - unit: B
@@ -4201,6 +4503,10 @@ entries:
         witness: w.yang-jisheng-mubei
         reads: Mao speaks to the conference on the morning (上午) of Jan. 30
         at: II, 1116
+      - unit: A
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: Mao speaks to the conference on the morning of Jan. 30
+        at: I, 70
   - id: cal.1962-01-30.china-leadership-2
     when: Jan. 30
     date: '1962-01-30'
@@ -4248,6 +4554,32 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 119: all'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1962-01-30.china-leadership-6
+    when: Jan. 30
+    date: '1962-01-30'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 at the airport sees off Prince Souphanouvong.
+    n: '[[w.chen-yi-nianpu]], 909. The words: 上午 (909). Names: Chen Yi, Souphanouvong.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:souphanouvong, ok:fields-place]
+    time_range:
+      - 1962-01-29T22:00Z
+      - 1962-01-30T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-01-30.china-leadership-7
+    when: Jan. 30
+    date: '1962-01-30'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 at the airport sees off Hoàng Văn Hoan 黄文欢.
+    n: '[[w.chen-yi-nianpu]], 909. The words: 上午 (909). Names: Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-01-29T22:00Z
+      - 1962-01-30T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1962-01-31.latin-america
     when: Jan. 31
@@ -5623,12 +5955,13 @@ entries:
     at: before 1962-08
     thread: china-leadership
     c: 'Mao 毛澤東, after Liu Ningyi 劉寧一, chairman of the All-China Federation of Trade Unions, has reported to him on the delegation to the Moscow disarmament congress, counts on his fingers: peace with the imperialists led by America, with the revisionists led by the Soviet Union, with the reactionaries of the countries led by India, "three peaces"; and less aid to wars of national liberation and revolutionary movements.'
-    n: '[[w.yang-jisheng-mubei]], II, 1127 n.33. Kang Sheng 康生 had put it about that the delegation''s errors came from Wang Jiaxiang''s 王稼祥 letter, and urged Liu Ningyi to go to Mao (II, 1127). Made public: 2005. To check: Yan Mingfu 閻明復, "Cong wo qinli de jijian shi kan Kang Sheng" 《從我親歷的幾件事看康生》, *Yanhuang chunqiu* 2005 no. 5 (cited by [[w.yang-jisheng-mubei]], II, 1127 n.33). See [[cal.1962-02-27.china-leadership-2]], [[cal.1962-07.china-leadership-13]]. Check: the day. Names: Mao Zedong.'
+    n: '[[w.yang-jisheng-mubei]], II, 1127 n.33; [[w.yang-jisheng-tiandi-fanfu]], I, 75 (Kang Sheng says everywhere that the delegation''s error came from Wang Jiaxiang''s letter and urges Liu Ningyi to complain to Mao; Mao on his fingers: peace with the imperialists, with the revisionists, with the reactionaries, less help to the liberation struggles, "three peaces and one less"). Kang Sheng 康生 had put it about that the delegation''s errors came from Wang Jiaxiang''s 王稼祥 letter, and urged Liu Ningyi to go to Mao (II, 1127). Made public: 2005. To check: Yan Mingfu 閻明復, "Cong wo qinli de jijian shi kan Kang Sheng" 《從我親歷的幾件事看康生》, *Yanhuang chunqiu* 2005 no. 5 (cited by [[w.yang-jisheng-mubei]], II, 1127 n.33). See [[cal.1962-02-27.china-leadership-2]], [[cal.1962-07.china-leadership-13]]. Check: the day. Names: Mao Zedong.'
     src:
       c: 6d3fa487
       rows:
         - 'w.yang-jisheng-mubei II, 1127: all'
         - 'via w.yang-jisheng-mubei II, 1127 n.33: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 75: ?'
     tags: [polity:prc, vis:only:prc, name:mao-zedong, ok:fields-place]
   - id: cal.1962.vietnam-hanoi-2
     when: '1962'
@@ -5722,3 +6055,129 @@ entries:
         - 'w.dikotter-maos-great-famine 138: all'
         - 'via w.dikotter-maos-great-famine 138 n.39: all'
     tags: [polity:prc, vis:only:gdr, polity:gdr, ok:fields-place]
+  - id: cal.1962.china-leadership-51
+    when: '1962'
+    date: '1962'
+    thread: china-leadership
+    c: Xu Guanzeng 徐關增's sentence is changed to life imprisonment.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 654. To check: the Datong public security military control commission, judgment on the "Chinese Communist League," Mar. 28, 1970, no. [70] 29 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 654 n.41).'
+    src:
+      c: 7afd8f43
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 654: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 654 n.41: all'
+    tags: [polity:prc]
+  - id: cal.1962.china-leadership-52
+    when: '1962'
+    date: '1962'
+    place: daoxian
+    thread: china-leadership
+    c: Daoxian 道縣, Hunan 湖南, picks up leaflets air-dropped from Taiwan, at the time of Chiang Kai-shek's plans to counter-attack the mainland.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 669. To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
+    src:
+      c: 2b400a6f
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 669: all'
+    tags: [polity:prc]
+  - id: cal.1962.china-leadership-53
+    when: 1962, spring
+    date: '1962'
+    at: before 1962-03-20
+    thread: china-leadership
+    c: 'Lin Biao 林彪 to Li Liqun 李力群, Gao Gang 高崗''s widow: Liu Shaoqi, second after the Seventh Congress, builds his faction and puts men who were in prison, Bo Yibo 薄一波, Peng Zhen 彭真, An Ziwen 安子文, in high places.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 698; [[w.yang-jisheng-tiandi-fanfu]], I, 115 (spring 1962: Ye Qun fetches Li Liqun from the Labor Ministry with her children to Maojiawan, "101 back from Hangzhou"; Lin: Mao, from the first in Peking, has been displeased with Liu, even doubting his history). Made public: 2010. To check: *Yi Gao Gang tongzhi* 《憶高崗同志》 (Dazhong wenhua chubanshe, 2010), 87–88 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 698 n.19). Names: Lin Biao, Liu Shaoqi, Bo Yibo, Peng Zhen.'
+    src:
+      c: 6fdd839b
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 698: all'
+        - 'via w.yang-jisheng-tiandi-fanfu II, 698 n.19: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 115: ?'
+    tags: [polity:prc, vis:only:prc, name:lin-biao, name:liu-shaoqi, name:bo-yibo, name:peng-zhen]
+  - id: cal.1962.china-leadership-54
+    when: '1962'
+    date: '1962'
+    place: shaoshan
+    thread: china-leadership
+    also: [china]
+    c: Shaoshan 韶山, Hunan 湖南. Project 203 二〇三工程 at the Dishuidong 滴水洞, built for Mao Zedong 毛澤東 over two years, is completed. Its three main buildings follow his house in Zhongnanhai 中南海, with Soviet methods against the cold; a road runs to it from Shaoshanchong 韶山沖.
+    n: '[[w.yang-jisheng-mubei]], I, 638–639 (the passage runs from the author''s notes of his visit of 1995, I, 638 n.23, to I, 639 n.24, which closes it). Made public: 2008. To check: Hu Qiaomu 胡喬木, letter to Mao Zedong, Apr. 14, 1961, in the Center''s forwarding of Apr. 26, 1961 (cited by [[w.yang-jisheng-mubei]], I, 639 n.24). See [[cal.1960-05.china-leadership-14]]. Names: Mao Zedong. Check: the record of the completion; the note that closes the passage (I, 639 n.24) is Hu Qiaomu''s letter of Apr. 14, 1961, a year before it.'
+    src:
+      c: ae92ded8
+      rows:
+        - 'w.yang-jisheng-mubei I, 638-639: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong]
+  - id: cal.1962.china-leadership-55
+    when: 1962, early
+    date: '1962'
+    at: before 1962-01
+    thread: china-leadership
+    c: Chen Yi 陈毅 talks to students of the 外院 (so printed; he was president of the Foreign Affairs College 外交学院) on learning foreign languages, calling on them to master them, for socialist construction, against imperialism and for world peace.
+    n: '[[w.chen-yi-nianpu]], 905. Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, vis:only:prc]
+  - id: cal.1962.china-leadership-56
+    when: 1962, winter
+    date: '1962'
+    at: before 1962-12
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes an inscription for the book *Selected famous Go games* 《围棋名谱精选》.
+    n: '[[w.chen-yi-nianpu]], 948. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+  - id: cal.1962.china-leadership-57
+    when: 1962, summer
+    date: '1962'
+    at: before 1962-06
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Zhou Enlai tells Hồ Chí Minh and Nguyễn Chí Thanh, secretary of the Lao Động Party's Southern Bureau, that China fully supports the Southern Revolution. They speak of the rising likelihood of American intervention by air or ground forces, or an attack on the North.
+    n: '[[w.jian-zhou-enlai]], 494. Made public: 1992. To check: [[w.ming-zhong-yue-guanxi-yanbian]], 67 (cited by [[w.jian-zhou-enlai]], 494 n.9a); [[w.qu-aiguo-yuanyue-kangmei]], 8 (cited by [[w.jian-zhou-enlai]], 494 n.9b). Names: Zhou Enlai, Hồ Chí Minh.'
+    src:
+      c: 076f11eb
+      rows:
+        - 'w.jian-zhou-enlai 494: all'
+    tags: [polity:prc, vis:only:prc+drv, name:zhou-enlai, name:ho-chi-minh]
+  - id: cal.1962-01.china
+    when: Jan.
+    date: 1962-01
+    thread: china
+    also: [indonesia]
+    c: China offers Indonesia a special loan of 129.5 million Swiss francs, Indonesia seeking China's support over West Irian.
+    n: '[[w.jian-zhou-enlai]], 498. Made public: 1998. To check: [[w.wang-taiping-zhonghua-renmin-gongheguo-waijiaoshi]], II, 58 (cited by [[w.jian-zhou-enlai]], 498 n.26a); Liu Shaoqi to Sukarno, April 27, 1963 (cited by [[w.jian-zhou-enlai]], 498 n.26b).'
+    src:
+      c: 22acaff0
+      rows:
+        - 'w.jian-zhou-enlai 498: all'
+        - 'via x.1963-04-27.liu-shaoqi-to-sukarno: all'
+    tags: [polity:prc, vis:only:prc+indonesia]
+  - id: cal.1962-01.china-leadership-6
+    when: Jan., after the 27th
+    date: 1962-01
+    at: after 1962-01-27
+    thread: china-leadership
+    c: 'Liu Shaoqi 劉少奇, revising the text of his oral report, to its editors: the Great Leap''s errors are grave; this is the first summing-up, to be done again each year for ten years; in history, "men eating men" went into the annals, and the emperor issued an edict blaming himself.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 68. Made public: 2006 ([[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]]). To check: a record of an interview with Deng Liqun 鄧力群, July 1, 1994 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 68 n.62a); [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 285 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 68 n.62b). Names: Liu Shaoqi. Check: the month (the page: "after the meeting" of Jan. 27).'
+    src:
+      c: f86cdef0
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 68: all'
+    tags: [polity:prc, vis:only:prc, name:liu-shaoqi, ok:fields-place]
+  - id: cal.1962.china-6
+    when: '1962'
+    date: '1962'
+    place: peking
+    thread: china
+    c: Lin Liheng 林立衡, Lin Biao's 林彪 daughter, enters the department of automatic control of Tsinghua University 清華大學.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 751 (she later moves to the arts at Peking University, finding the sciences too heavy; no date). Names: Lin Biao.'
+    tags: [polity:prc, name:lin-biao]
+  - id: cal.1962.soviet-union-2
+    when: 1962, summer
+    date: '1962'
+    at: before 1962-06-21
+    thread: soviet-union
+    also: [south-asia]
+    c: Khrushchev decides to deliver a dozen MiG-21s to India.
+    n: '[[w.pleshakov-nikita-khrushchev-and-sino]], 239. To check: [[w.dittmer-sino-soviet-normalization-and]], 172 (cited by [[w.pleshakov-nikita-khrushchev-and-sino]], 239 n.62). Names: Khrushchev. Check: whether this is the purchase India announced in mid-August ([[cal.1962-08.south-asia]]).'
+    src:
+      c: 34c86487
+      rows:
+        - 'w.pleshakov-nikita-khrushchev-and-sino 239: all'
+    tags: [polity:ussr, polity:india, name:khrushchev-nikita-s]

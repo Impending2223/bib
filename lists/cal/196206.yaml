@@ -71,12 +71,18 @@ entries:
     date: '1962-06-01'
     thread: china
     c: Prince Penn Nouth, First Minister of the Royal Government of Cambodia, begins a visit to China (to June 14).
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 230 (June 1–14, 1962). Names: Penn Nouth. Check: the book''s 宾努 is Penn Nouth; it gives the visit''s span and Zhou''s meeting with him at Luda, no other day.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 230 (June 1–14, 1962); [[w.chen-yi-nianpu]], 919 (June 1, 1962, afternoon; Chen Yi welcomes Penn Nouth at the station). Names: Penn Nouth. Check: the book''s 宾努 is Penn Nouth; it gives the visit''s span and Zhou''s meeting with him at Luda, no other day.'
     src:
       c: 8e3bb195
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 230: all'
+        - 'w.chen-yi-nianpu 919: ?'
     tags: [polity:prc, polity:cambodia, name:penn-nouth]
+    time_range:
+      - 1962-06-01T04:00Z
+      - 1962-06-01T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-01.china-leadership
     when: June 1
     date: '1962-06-01'
@@ -160,6 +166,37 @@ entries:
         - 'w.yang-jisheng-mubei I, 426, 429: all'
         - 'via w.yang-jisheng-mubei I, 426 n.22: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-06-01.china-leadership-7
+    when: June 1
+    date: '1962-06-01'
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes an inscription for Japanese friends.
+    n: '[[w.chen-yi-nianpu]], 919. Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi]
+  - id: cal.1962-06-01.china-leadership-8
+    when: June 1
+    date: '1962-06-01'
+    thread: china-leadership
+    c: Chen Yi 陈毅 meets Prince Penn Nouth, First Minister of Cambodia, and gives him a banquet.
+    n: '[[w.chen-yi-nianpu]], 919. The words: 晚间 (919). Names: Chen Yi, Penn Nouth.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:penn-nouth, ok:fields-place]
+    time_range:
+      - 1962-06-01T11:00Z
+      - 1962-06-01T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-01.china-leadership-9
+    when: June 1
+    date: '1962-06-01'
+    thread: china-leadership
+    also: [china]
+    c: 'Luo Ruiqing, in a report on preparing for war: the threat from the west to be dealt with seriously, Chiang more so; the principal strategic direction the east, not the west.'
+    n: '[[w.jian-zhou-enlai]], 473. Made public: 1991. To check: [[w.yao-luo-ruiqing-zhuan-a]], 369–370 (the 1991 printing as cited) (cited by [[w.jian-zhou-enlai]], 473 n.34). Names: Luo Ruiqing, Chiang Kai-shek.'
+    src:
+      c: 28d84e20
+      rows:
+        - 'w.jian-zhou-enlai 473: all'
+    tags: [polity:prc, vis:only:prc, name:luo-ruiqing, name:chiang-kai-shek]
   - id: cal.1962-06-02.governors-tx
     when: June 2
     date: '1962-06-02'
@@ -1165,6 +1202,27 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1708–1709: all'
     tags: [polity:prc, name:deng-xiaoping, name:chiang-kai-shek, name:liu-shaoqi, name:lin-biao, name:peng-zhen, vis:only:prc]
+  - id: cal.1962-06-07.china-leadership-8
+    when: June 7
+    date: '1962-06-07'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 takes Prince Penn Nouth round the Summer Palace 颐和园.
+    n: '[[w.chen-yi-nianpu]], 919. Names: Chen Yi, Penn Nouth.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:penn-nouth]
+  - id: cal.1962-06-07.china-leadership-9
+    when: June 7
+    date: '1962-06-07'
+    thread: china-leadership
+    also: [japan]
+    c: Chen Yi 陈毅 at the signing of the joint statement of the Chinese People's Committee for World Peace 中国人民保卫世界和平委员会 and the Japan Peace Committee.
+    n: '[[w.chen-yi-nianpu]], 919–920. The words: 晚上 (919–920). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-06-07T11:00Z
+      - 1962-06-07T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-08.soviet-union-space
     when: June 8
     date: '1962-06-08'
@@ -1371,6 +1429,18 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1709: all'
     tags: [polity:prc, name:deng-xiaoping, name:lu-dingyi, name:liu-shaoqi, vis:only:prc]
+  - id: cal.1962-06-08.china-leadership-10
+    when: June 8
+    date: '1962-06-08'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the station sees Prince Penn Nouth off home.
+    n: '[[w.chen-yi-nianpu]], 920. The words: 上午 (920). Names: Chen Yi, Penn Nouth.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:penn-nouth, ok:fields-place]
+    time_range:
+      - 1962-06-07T22:00Z
+      - 1962-06-08T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-09.china-leadership
     when: June 9
     date: '1962-06-09'
@@ -1478,7 +1548,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'The Central Committee''s directive to prepare to crush a Nationalist invasion of the southeast coast. Chiang''s remnant band, backed by American imperialism, prepares an adventure: judged likely to land 200,000 to 300,000 troops on Fujian and the Fujian–Guangdong and Fujian–Zhejiang borders around the typhoon season.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, June 10, 1962. Made public: 2013. See [[cal.1962-06-08.china-leadership]].'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, June 10, 1962; [[w.jian-zhou-enlai]], 473 (the leadership decides to move large forces from the north to the Fujian coast, done by mid-June). Made public: 2013. To check: [[w.yao-luo-ruiqing-zhuan-a]], 371–372 (cited by [[w.jian-zhou-enlai]], 473 n.35). See [[cal.1962-06-08.china-leadership]].'
     tags: [polity:prc, polity:roc, vis:only:prc]
   - id: cal.1962-06-10.china-leadership-2
     when: June 10
@@ -1500,11 +1570,12 @@ entries:
     thread: china-leadership
     also: [laos]
     c: General Kong Le, chairman of the Laotian National Military Committee, begins a visit to China at the head of a Laotian military delegation (to June 16). Liu Shaoqi receives the delegation, the day not given.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 231 (June 10–16, 1962). Names: Liu Shaoqi, Kong Le. Check: the book does not give the day of Liu''s reception.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 231 (June 10–16, 1962); [[w.chen-yi-nianpu]], 920 (June 10, 1962; Chen Yi, with He Long and Luo Ruiqing, receives the Laotian military delegation led by Generals Kong Le 贡勒 and Singkapo 辛加坡, and is at He Long''s banquet for it that evening). Names: Liu Shaoqi, Kong Le. Check: the book does not give the day of Liu''s reception.'
     src:
       c: 079b9e99
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 231: all'
+        - 'w.chen-yi-nianpu 920: ?'
     tags: [polity:prc, polity:laos, name:liu-shaoqi, name:kong-le]
   - id: cal.1962-06-10.china-leadership-5
     when: June 10
@@ -1672,6 +1743,43 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1709–1710: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc+albania]
+  - id: cal.1962-06-11.china-leadership-6
+    when: June 11
+    date: '1962-06-11'
+    thread: china-leadership
+    c: 格奥尔基·库姆比利耶夫, Bulgaria's new Ambassador, calls on Chen Yi 陈毅 on the presentation of his credentials.
+    n: '[[w.chen-yi-nianpu]], 920. The words: 上午 (920). Names: Chen Yi.'
+    tags: [polity:prc, polity:bulgaria, name:chen-yi]
+    time_range:
+      - 1962-06-10T22:00Z
+      - 1962-06-11T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-11.china-leadership-7
+    when: June 11
+    date: '1962-06-11'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Indonesian journalists' delegation led by 泰巴霍, editor-in-chief of *Harian Rakjat* 人民日报.
+    n: '[[w.chen-yi-nianpu]], 920. The words: 下午 (920). Names: Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-06-11T04:00Z
+      - 1962-06-11T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-11.china-leadership-8
+    when: June 11
+    date: '1962-06-11'
+    place: peking
+    thread: china-leadership
+    c: Chen Yi 陈毅 speaks at the reception of 凯谢尔·巴哈杜尔, the Nepalese Ambassador, at the Peking Hotel 北京饭店 for King Mahendra's birthday; hopes the three Laotian princes' talks form a government of national union, and rebuts recent American and Western attacks on China.
+    n: '[[w.chen-yi-nianpu]], 920. The words: 晚上 (920). Names: Chen Yi, Mahendra.'
+    tags: [polity:prc, polity:nepal, name:chen-yi, name:mahendra-bir-bikram-shah-deva]
+    time_range:
+      - 1962-06-11T11:00Z
+      - 1962-06-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-12.opinion-5
     when: June 12
     date: '1962-06-12'
@@ -1942,6 +2050,30 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1710: all'
     tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, vis:only:prc+albania]
+  - id: cal.1962-06-13.china-leadership-5
+    when: June 13
+    date: '1962-06-13'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 柳泽恭雄, chairman of the *Denpa Shimbun* 日本电波新闻社.
+    n: '[[w.chen-yi-nianpu]], 920. See [[cal.1962-05-03.china-leadership-6]]. The words: 上午 (920). Names: Chen Yi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-06-12T22:00Z
+      - 1962-06-13T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-13.china-leadership-6
+    when: June 13
+    date: '1962-06-13'
+    thread: china-leadership
+    c: 安克尔·斯怀特, Denmark's new Ambassador, calls on Chen Yi 陈毅 on the presentation of his credentials.
+    n: '[[w.chen-yi-nianpu]], 920. The words: 下午 (920). Names: Chen Yi.'
+    tags: [polity:prc, polity:denmark, name:chen-yi]
+    time_range:
+      - 1962-06-13T04:00Z
+      - 1962-06-13T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-14.economy-debt-limit
     when: June 14
     date: '1962-06-14'
@@ -2151,6 +2283,60 @@ entries:
         - 'w.yang-jisheng-mubei I, 426, 430: all'
         - 'via w.yang-jisheng-mubei I, 426 n.22: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-06-14.china-leadership-7
+    when: June 14
+    date: '1962-06-14'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives the Brazilian engineers' delegation led by 赫·德阿尔梅达, president of the Engineers' Club.
+    n: '[[w.chen-yi-nianpu]], 920. The words: 上午 (920). Names: Chen Yi.'
+    tags: [polity:prc, polity:brazil, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-06-13T22:00Z
+      - 1962-06-14T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-14.china-leadership-8
+    when: June 14
+    date: '1962-06-14'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the Commission for Cultural Relations with Foreign Countries' 对外文化联络委员会 banquet for the DPRK State Art Theater; gives a toast.
+    n: '[[w.chen-yi-nianpu]], 920. The words: 晚上 (920). Names: Chen Yi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-06-14T11:00Z
+      - 1962-06-14T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-14.china
+    when: June 14
+    date: '1962-06-14'
+    place: warsaw
+    thread: china
+    c: Warsaw. Wang Bingnan, back at his post, proposes to John Cabot, the American Ambassador, an "informal tea chat" the next day; Cabot accepts at once.
+    n: '[[w.jian-zhou-enlai]], 474. Made public: 2024. To check: Wang Bingnan to Foreign Ministry, June 14, 1962 (cited by [[w.jian-zhou-enlai]], 474 n.39). Names: John M. Cabot.'
+    src:
+      c: 92b6cacf
+      rows:
+        - 'w.jian-zhou-enlai 474: all'
+        - 'via x.1962-06-14.wang-bingnan-to-foreign-ministry: all'
+    tags: [polity:prc, vis:only:prc+us, name:cabot-john-m]
+  - id: cal.1962-06-14.china-leadership-9
+    when: June 14
+    date: '1962-06-14'
+    time: 1962-06-14T15:00Z
+    place: peking
+    thread: china-leadership
+    also: [china]
+    c: 'The Foreign Ministry to Wang Bingnan, 11 p.m., on Zhou Enlai''s order: plead illness and put off the meeting with the American Ambassador some days, the troops'' move to Fujian delayed by floods.'
+    n: '[[w.jian-zhou-enlai]], 474. The words: "23:00, June 14, 1962" (474 n.40). Made public: 1985. To check: Foreign Ministry to Wang Bingnan, 23:00, June 14, 1962 (cited by [[w.jian-zhou-enlai]], 474 n.40a); Wang to Foreign Ministry, June 15, 1965 (so printed; 1962 by the file) (cited by [[w.jian-zhou-enlai]], 474 n.40b); [[w.wang-bingnan-zhongmei-huitan-jiunian-huigu]], 87 (cited by [[w.jian-zhou-enlai]], 474 n.40c); [[w.wang-bingnan-zhongmei-huitan-jiunian-huigu]], 87 (cited by [[w.jian-zhou-enlai]], 474 n.41). Names: Zhou Enlai.'
+    src:
+      c: 4bd8d4f4
+      rows:
+        - 'w.jian-zhou-enlai 474: all'
+        - 'via x.1962-06-14.foreign-ministry-to-wang-bingnan-2300: all'
+        - 'via x.1962-06-15.wang-bingnan-to-foreign-ministry: all'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-15.opinion-5
     when: June 15
     date: '1962-06-15'
@@ -2266,6 +2452,27 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1711: all'
     tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, vis:only:prc+albania]
+  - id: cal.1962-06-15.china-leadership-8
+    when: June 15
+    date: '1962-06-15'
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Dong Biwu 董必武, Vice-Chairman of the People's Republic, at the DPRK State Art Theater's performance; with Dong receives its head, 辛道善, and its leading players.
+    n: '[[w.chen-yi-nianpu]], 920. The words: 晚上 (920). Names: Chen Yi, Dong Biwu.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, name:dong-biwu, ok:fields-place]
+    time_range:
+      - 1962-06-15T11:00Z
+      - 1962-06-15T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-15.china-leadership-9
+    when: June 15
+    date: '1962-06-15'
+    thread: china-leadership
+    follows:
+      - cal.1962-06-15.china-leadership-8
+    c: Chen Yi 陈毅, after the Korean State Art Theater's performance, writes the poem "To the Korean art troupe" 《赠朝鲜艺术团》.
+    n: '[[w.chen-yi-nianpu]], 920. Names: Chen Yi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi]
   - id: cal.1962-06-16.defense
     when: June 16
     date: '1962-06-16'
@@ -2335,7 +2542,7 @@ entries:
     date: '1962-06-16'
     thread: china-leadership
     c: Peng Dehuai sends Mao and his colleagues an 80,000-word statement rejecting the charges that he joined anti-party groups, took part in the Gao Gang–Rao Shushi plot or erred in dealings with foreigners, and calls for a full investigation; he proposes that the interpreters' records of his 1959 trip be examined.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 180; [[w.macfarquhar-origins-of-the-cultural]], III, 281 (Peng''s immensely long apologia reaches the Central Committee on June 16; Mao dismisses it out of hand as an unjustified attempt to reverse the Lushan verdict; nobody gainsays him); [[w.yang-shangkun-riji]], II, 185 (June 18, 1962; Peng hands his statement to Yang Shangkun, June 18); [[w.yang-jisheng-mubei]], II, 1126 (Peng Dehuai sends the Center and Mao an appeal of about 80,000 characters on June 16). Made public: 1997. To check: [[w.jin-1949-1989-niande-zhongguo]], 498 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 180 n.203); Peng Dehuai, letter to the Central Committee, received June 16, 1962, in [[w.al-zhongguo-gongchan-dang-zhizheng]], 221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 281 n.112). Names: Peng Dehuai, Mao Zedong.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 180; [[w.macfarquhar-origins-of-the-cultural]], III, 281 (Peng''s immensely long apologia reaches the Central Committee on June 16; Mao dismisses it out of hand as an unjustified attempt to reverse the Lushan verdict; nobody gainsays him); [[w.yang-shangkun-riji]], II, 185 (June 18, 1962; Peng hands his statement to Yang Shangkun, June 18); [[w.yang-jisheng-mubei]], II, 1126 (Peng Dehuai sends the Center and Mao an appeal of about 80,000 characters on June 16); [[w.yang-jisheng-tiandi-fanfu]], I, 77 (the "80,000-character letter": he never formed an anti-Party clique nor had "illicit relations with a foreign country"). Made public: 1997. To check: [[w.jin-1949-1989-niande-zhongguo]], 498 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 180 n.203); Peng Dehuai, letter to the Central Committee, received June 16, 1962, in [[w.al-zhongguo-gongchan-dang-zhizheng]], 221 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 281 n.112). Names: Peng Dehuai, Mao Zedong.'
     src:
       c: eb9fc1a4
       rows:
@@ -2345,6 +2552,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 281 n.112: A'
         - 'w.yang-shangkun-riji II, 185: ?'
         - 'w.yang-jisheng-mubei II, 1126: A'
+        - 'w.yang-jisheng-tiandi-fanfu I, 77: ?'
     tags: [polity:prc, name:peng-dehuai, name:mao-zedong, vis:only:prc]
     variants:
       - unit: A
@@ -2462,11 +2670,12 @@ entries:
     thread: china-leadership
     also: [korea]
     c: The Great Hall 人民大会堂, 6 p.m. Liu Shaoqi's 刘少奇 small dinner for Pak Kum Chol 朴金哲; Yang Shangkun 杨尚昆 attends.
-    n: '[[w.yang-shangkun-riji]], II, 184 (June 17, 1962; note 3: Pak Kum Chol). The words: 6时 (II, 184). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Pak Kum Chol, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 184 (June 17, 1962; note 3: Pak Kum Chol); [[w.chen-yi-nianpu]], 921 (June 17, 1962, afternoon; Liu Shaoqi receives the delegation and gives it a dinner, Chen Yi present). The words: 6时 (II, 184). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Pak Kum Chol, Yang Shangkun.'
     src:
       c: d9585be8
       rows:
         - 'w.yang-shangkun-riji II, 184: all'
+        - 'w.chen-yi-nianpu 921: ?'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc+dprk]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-18.governors-me
@@ -2619,6 +2828,19 @@ entries:
       rows:
         - 'w.mao-zedong-zhuan V, ch. 70: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-06-18.china-leadership-9
+    when: June 18
+    date: '1962-06-18'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 receives 方·丰萨万, adviser to the Royal Laotian government; lunch after.
+    n: '[[w.chen-yi-nianpu]], 921. See [[cal.1962-05-25.china-leadership-4]]. The words: 上午 (921). Names: Chen Yi.'
+    tags: [polity:prc, polity:laos, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-06-17T22:00Z
+      - 1962-06-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-19.legislatures-ok
     when: June 19
     date: '1962-06-19'
@@ -2903,6 +3125,18 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1711: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1962-06-20.china-leadership-7
+    when: June 20
+    date: '1962-06-20'
+    thread: china-leadership
+    c: Chen Yi 陈毅 at the airport sees the Korean Supreme People's Assembly's delegation off on its tour outside Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 921. The words: 上午 (921). Names: Chen Yi.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-06-19T22:00Z
+      - 1962-06-20T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-21.program
     when: June 21
     date: '1962-06-21'
@@ -3001,6 +3235,18 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 187: all'
     tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    time_range:
+      - 1962-06-20T22:00Z
+      - 1962-06-21T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-21.china-leadership-5
+    when: June 21
+    date: '1962-06-21'
+    thread: china-leadership
+    c: 策伯格米德, Mongolia's new Ambassador, calls on Chen Yi 陈毅 on the presentation of his credentials.
+    n: '[[w.chen-yi-nianpu]], 921. The words: 上午 (921). Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi]
     time_range:
       - 1962-06-20T22:00Z
       - 1962-06-21T04:00Z
@@ -3117,6 +3363,48 @@ entries:
     c: 'The Secretariat, with the Hà Đông Provincial Committee, on farm development in the province: good land and water, the North''s largest craft industry, a market in the capital beside it. Held back by long enemy occupation and a weak Party base, more than 35 percent of cooperatives with no Party group and 10 percent with no member. Directions on grain, crafts and side trades, cooperatives, zoning of production, land clearing, targets and public order.'
     n: '*Thông báo của Ban Bí thư số 28-TB/HN, ngày 3-7-1962, Về cuộc họp Ban Bí thư bàn phương hướng phát triển nông nghiệp tỉnh Hà Đông*, signed for the Secretariat by Phạm Chung, deputy chief of the office. [[w.van-kien-dang-toan]], XXIII, 647–61. Made public: 2002. The sittings: "Ngày 22 - 23-6-1962" (June 22 and 23); the notice is dated July 3. The Secretariat present, by one name each: "Ba, Hùng, Lương, Lành."'
     tags: [polity:drv, vis:only:drv]
+  - id: cal.1962-06-22.china-leadership-8
+    when: June 22
+    date: '1962-06-22'
+    place: peking
+    thread: china-leadership
+    also: [china]
+    c: 'The Foreign Ministry to Wang Bingnan: make an appointment to meet the American Ambassador on the 23rd or the 24th.'
+    n: '[[w.jian-zhou-enlai]], 474. Made public: 2024. To check: Foreign Ministry to Wang, June 22, 1962 (cited by [[w.jian-zhou-enlai]], 474 n.42).'
+    src:
+      c: 1821bf4c
+      rows:
+        - 'w.jian-zhou-enlai 474: all'
+        - 'via x.1962-06-22.foreign-ministry-to-wang-make-appointment: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-06-22.china
+    when: June 22
+    date: '1962-06-22'
+    place: warsaw
+    thread: china
+    c: Warsaw. Wang Bingnan invites Cabot to meet the next day; Cabot agrees at once.
+    n: '[[w.jian-zhou-enlai]], 474. Made public: 2024. See [[cal.1962-06-22.china-leadership-8]]. Names: John M. Cabot.'
+    src:
+      c: 287d6a0d
+      rows:
+        - 'w.jian-zhou-enlai 474: all'
+    tags: [polity:prc, vis:only:prc+us, name:cabot-john-m]
+  - id: cal.1962-06-22.china-leadership-9
+    when: June 22
+    date: '1962-06-22'
+    time: 1962-06-22T08:00Z
+    place: peking
+    thread: china-leadership
+    also: [china]
+    c: 'The Foreign Ministry to Wang Bingnan, 4 p.m.: at 11 p.m. on the 23rd, Peking time, the news of Chiang''s plan to attack the mainland will be "in the air."'
+    n: '[[w.jian-zhou-enlai]], 474 (a few hours after the first instruction). The words: "16:00, June 22, 1962" (474 n.43); "at 23:00 on the twenty-third, Beijing time" (474). Made public: 2024. To check: Foreign Ministry to Wang, 16:00, June 22, 1962 (cited by [[w.jian-zhou-enlai]], 474 n.43). Names: Chiang Kai-shek.'
+    src:
+      c: d72ed259
+      rows:
+        - 'w.jian-zhou-enlai 474: all'
+        - 'via x.1962-06-22.foreign-ministry-to-wang-1600: all'
+    tags: [polity:prc, vis:only:prc, name:chiang-kai-shek]
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-23.laos
     when: June 23
     date: '1962-06-23'
@@ -3184,11 +3472,12 @@ entries:
     thread: china
     also: [laos]
     c: 'Zhou Enlai and Chen Yi each cable Souvanna Phouma, Prime Minister, and Quinim Pholsena, Foreign Minister, of Laos: China decides to recognize the Lao provisional government of national union and proposes an exchange of ambassadors.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 232 (June 23, 1962). Names: Zhou Enlai, Chen Yi, Souvanna, Quinim Pholsena.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 232 (June 23, 1962); [[w.chen-yi-nianpu]], 921 (June 23, 1962; Chen Yi''s cable to Quinim Pholsena). Names: Zhou Enlai, Chen Yi, Souvanna, Quinim Pholsena.'
     src:
       c: 3d3fdff9
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 232: all'
+        - 'w.chen-yi-nianpu 921: ?'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:chen-yi, name:souvanna-phouma, name:quinim-pholsena]
   - id: cal.1962-06-23.china-2
     when: June 23
@@ -3197,13 +3486,17 @@ entries:
     thread: china
     also: [china-leadership]
     c: Warsaw. At Chinese request, at twenty-four hours' notice, the Sino-American ambassadorial talks meet. Over tea at his residence, Wang Bingnan warns John Moors Cabot, the American ambassador, against supporting a Kuomintang invasion. Cabot assures him that Washington will not support any attempt by the Taiwan regime to attack the mainland.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 272. Made public: 1975. To check: [[w.bingnan-nine-years-of-sino]], 48–50 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.68a); [[w.whiting-chinese-calculus-of-deterrence]], 68 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.68b). See [[cal.1962-06.china-leadership-8]]. Names: John M. Cabot.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 272; [[w.jian-zhou-enlai]], 474–475 (June 23, tea at Wang''s: on Zhou''s instructions, America "playing with fire"; Cabot: no permission for an attack on the mainland, contact to be kept; Wang: invading Taiwan "nonexistent"; Wang''s report to Peking after). Made public: 1975. To check: [[w.bingnan-nine-years-of-sino]], 48–50 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.68a); [[w.whiting-chinese-calculus-of-deterrence]], 68 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.68b); Clough to Rusk, June 21, 1962, no. 799.00/6-2162, in USSD 1960–1963 Internal, reel 6 (cited by [[w.jian-zhou-enlai]], 474 n.44a); Clough to Rusk, June 22, 1962, no. 792.00/6-2262 (cited by [[w.jian-zhou-enlai]], 474 n.44b); Wang to Foreign Ministry, June 23, 1962 (cited by [[w.jian-zhou-enlai]], 475 n.45a); [[w.wang-bingnan-zhongmei-huitan-jiunian-huigu]], 86–90 (cited by [[w.jian-zhou-enlai]], 475 n.45b); [[w.foreign-relations-of-the]], XXII, 273–275 (Cabot to the Department of State, June 23, 1962) (cited by [[w.jian-zhou-enlai]], 475 n.45c). See [[cal.1962-06.china-leadership-8]]. Names: John M. Cabot.'
     src:
       c: 89fcb6bb
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 272: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 272 n.68a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 272 n.68b: all'
+        - 'w.jian-zhou-enlai 474–475: ?'
+        - 'via x.1962-06-21.clough-to-rusk: ?'
+        - 'via x.1962-06-22.clough-to-rusk: ?'
+        - 'via x.1962-06-23.wang-bingnan-to-foreign-ministry-cabot-talk: ?'
     tags: [polity:prc, polity:us, vis:only:prc+us, name:cabot-john-m]
   - id: cal.1962-06-23.china-leadership-4
     when: June 23
@@ -3233,6 +3526,14 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1712: ?'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1962-06-23.china-leadership-9
+    when: June 23
+    date: '1962-06-23'
+    thread: china-leadership
+    also: [china]
+    c: Chen Yi 陈毅 reports to the thirty-second meeting of the Standing Committee of the CPPCC's Third National Committee 政协第三届全国委员会常务委员会 on the Chiang gang's preparing a military adventure against China's coast.
+    n: '[[w.chen-yi-nianpu]], 921. Names: Chen Yi, Chiang.'
+    tags: [polity:prc, name:chen-yi, name:chiang-kai-shek]
   - id: cal.1962-06-24.china-leadership
     when: June 24
     date: '1962-06-24'
@@ -3416,12 +3717,18 @@ entries:
     thread: china-leadership
     also: [korea]
     c: Chen Yi, Vice-Premier, speaks at a rally in the capital marking the 12th anniversary of the Korean war. China fully supports the Korean people's struggle to have the U.S. forces leave South Korea and to unify the country peacefully. He condemns the U.S. for backing the Kuomintang clique's attempt to raid the coastal areas of the mainland, and warns that the U.S. must bear all the grave consequences.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 232 (June 25, 1962). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 232 (June 25, 1962); [[w.chen-yi-nianpu]], 921–922 (June 25, 1962, evening, at the Peking Workers'' Gymnasium 北京工人体育馆; Chen Yi backs the Korean demand that American troops leave South Korea, and the Vietnamese struggle, and warns that the United States bears all responsibility for Chiang''s planned invasion of the coast). Names: Chen Yi.'
     src:
       c: a3fc6b64
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 232: all'
+        - 'w.chen-yi-nianpu 921–922: ?'
     tags: [polity:prc, polity:dprk, polity:us, polity:roc, name:chen-yi]
+    time_range:
+      - 1962-06-25T11:00Z
+      - 1962-06-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-25.china-leadership-3
     when: June 25
     date: '1962-06-25'
@@ -3499,11 +3806,12 @@ entries:
     thread: china-leadership
     also: [china, korea]
     c: Peking. Zhou Enlai calls on Pak Kŭm-ch'ŏl, head of the DPRK Supreme People's Assembly delegation, at his guesthouse and dines with him.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 331 (June 26, 1962; 下午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 331 (June 26, 1962; 下午); [[w.chen-yi-nianpu]], 922 (June 26, 1962, afternoon; Chen Yi with Zhou, and at the supper). Names: Zhou Enlai.'
     src:
       c: bd68c096
       rows:
         - 'w.zhou-enlai-waijiao-huodong 331: all'
+        - 'w.chen-yi-nianpu 922: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai]
     time_range:
       - 1962-06-26T04:00Z
@@ -3551,6 +3859,18 @@ entries:
       - 1962-06-26T04:00Z
       - 1962-06-26T10:00Z
     time_band: afternoon
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-26.china-leadership-5
+    when: June 26
+    date: '1962-06-26'
+    thread: china-leadership
+    c: Chen Yi 陈毅, with Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and Peng Zhen 彭真, takes the Korean Supreme People's Assembly's delegation to the fourth friendly match of the Chinese and Japanese men's and women's table tennis teams in Peking 北京.
+    n: '[[w.chen-yi-nianpu]], 922. The words: 晚上 (922). Names: Chen Yi, Zhou Enlai, Deng Xiaoping, Peng Zhen.'
+    tags: [polity:prc, polity:dprk, polity:japan, name:chen-yi, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, ok:fields-place]
+    time_range:
+      - 1962-06-26T11:00Z
+      - 1962-06-26T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1962-06-27.court
     when: June 27
@@ -3710,6 +4030,26 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1712: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1962-06-27.china-leadership-9
+    when: June 27
+    date: '1962-06-27'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 speaks at the reception of the State Physical Culture and Sports Commission 国家体育运动委员会 for the envoys of Guinea, Mali, Ghana, the UAR and other countries, thanking Africa for receiving the Chinese table tennis teams: China stood up from imperialist and colonial oppression; Africa and Asia must work together.'
+    n: '[[w.chen-yi-nianpu]], 922. The words: 晚上 (922). Names: Chen Yi.'
+    tags: [polity:prc, polity:guinea, polity:mali, polity:ghana, polity:uar, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-06-27T11:00Z
+      - 1962-06-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-27.china-leadership-10
+    when: June 27
+    date: '1962-06-27'
+    place: peking
+    thread: china-leadership
+    c: Long Yun 龙云, member of the Standing Committee of the CPPCC National Committee and of the Central Standing Committee of the Revolutionary Committee of the Kuomintang 中国国民党革命委员会, dies in Peking 北京, aged 75.
+    n: '[[w.chen-yi-nianpu]], 922.'
+    tags: [polity:prc]
   - id: cal.1962-06-28.trade
     when: June 28
     date: '1962-06-28'
@@ -3840,12 +4180,13 @@ entries:
     thread: china-leadership
     also: [korea]
     c: Zhou Enlai receives Pak Kum Chol, head of the Korean Supreme People's Assembly delegation, and Han Ik Su, Korea's Ambassador, on the China–Korea border question.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 28, 1962); [[w.zhou-enlai-waijiao-huodong]], 331 (June 28, 1962; 下午5时, 中南海西花厅, 接见并宴请). Made public: 1993. Check: the delegation head''s name in Roman letters (朴金哲, 韩益洙). Names: Zhou Enlai, Pak Kum Chol, Han Ik Su.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 28, 1962); [[w.zhou-enlai-waijiao-huodong]], 331 (June 28, 1962; 下午5时, 中南海西花厅, 接见并宴请); [[w.chen-yi-nianpu]], 922 (June 28, 1962, afternoon; Chen Yi present). Made public: 1993. Check: the delegation head''s name in Roman letters (朴金哲, 韩益洙). Names: Zhou Enlai, Pak Kum Chol, Han Ik Su.'
     src:
       c: 792f2505
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 487: ?'
         - 'w.zhou-enlai-waijiao-huodong 331: A'
+        - 'w.chen-yi-nianpu 922: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, vis:only:prc+dprk]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-28.china
@@ -3854,11 +4195,12 @@ entries:
     thread: china
     also: [laos]
     c: 'Quinim Pholsena cables Chen Yi: the Lao government at once agrees to exchange ambassadors with China.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 232 (June 28, 1962). Names: Chen Yi, Quinim Pholsena.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 232 (June 28, 1962); [[w.chen-yi-nianpu]], 923 (end of June 1962; Quinim Pholsena''s cable thanks China for its congratulations and agrees at once to exchange ambassadors). Names: Chen Yi, Quinim Pholsena.'
     src:
       c: 6e12148b
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 232: all'
+        - 'w.chen-yi-nianpu 923: ?'
     tags: [polity:prc, polity:laos, name:chen-yi, name:quinim-pholsena]
   - id: cal.1962-06-28.china-leadership-3
     when: June 28
@@ -3969,13 +4311,14 @@ entries:
     thread: china-leadership
     also: [laos]
     c: 'Zhou Enlai and Chen Yi receive Quinim Pholsena and Phoumi Vongvichit and others of the delegations to the Geneva Conference from the Laotian coalition government. The formation of the coalition is only the first step, a beginning of victory; the road ahead is long: to unite the peoples, build the economy, and keep and secure peace and independence.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 29, 1962); [[w.zhou-enlai-waijiao-huodong]], 331–32 (June 29, 1962; 晚上, 人民大会堂福建厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 233 (June 29, 1962; Zhou and Chen Yi receive Quinim Pholsena, head of the Laotian delegation to the Geneva conference and Foreign Minister of the provisional government of national union, and Phoumi Vongvichit, Minister of Information, Propaganda and Tourism). Continues 488; footnote: the Geneva Conference, opened May 1961, stalled after Dec. 1961 and resumed in June 1962 when Laos''s government of national union was formed. Made public: 1993. Names: Zhou Enlai, Chen Yi, Quinim Pholsena, Phoumi Vongvichit.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 29, 1962); [[w.zhou-enlai-waijiao-huodong]], 331–32 (June 29, 1962; 晚上, 人民大会堂福建厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 233 (June 29, 1962; Zhou and Chen Yi receive Quinim Pholsena, head of the Laotian delegation to the Geneva conference and Foreign Minister of the provisional government of national union, and Phoumi Vongvichit, Minister of Information, Propaganda and Tourism); [[w.chen-yi-nianpu]], 923 (June 29, 1962, evening). Continues 488; footnote: the Geneva Conference, opened May 1961, stalled after Dec. 1961 and resumed in June 1962 when Laos''s government of national union was formed. Made public: 1993. Names: Zhou Enlai, Chen Yi, Quinim Pholsena, Phoumi Vongvichit.'
     src:
       c: ed18ab82
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 487: ?'
         - 'w.zhou-enlai-waijiao-huodong 331–32: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 233: A'
+        - 'w.chen-yi-nianpu 923: ?'
     tags: [polity:prc, polity:laos, polity:pathet-lao, name:zhou-enlai, name:chen-yi, name:quinim-pholsena, vis:only:prc+laos+pathet-lao]
     time_range:
       - 1962-06-29T11:00Z
@@ -4070,6 +4413,53 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 190: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-06-29.china-leadership-10
+    when: June 29
+    date: '1962-06-29'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 at the airport sees off the Chinese government delegation, led by its acting head, Zhang Hanfu 章汉夫, to the Geneva conference on Laos.
+    n: '[[w.chen-yi-nianpu]], 922. The words: 上午 (922). Names: Chen Yi.'
+    tags: [polity:prc, polity:laos, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1962-06-28T22:00Z
+      - 1962-06-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-29.china-leadership-11
+    when: June 29
+    date: '1962-06-29'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: Chen Yi 陈毅 at the airport sees off the DRV government delegation to the Geneva conference on Laos, led by its acting head, Nguyễn Cơ Thạch 阮基石, Vice-Minister of Foreign Affairs.
+    n: '[[w.chen-yi-nianpu]], 922. The words: 上午 (922). Names: Chen Yi, Nguyễn Cơ Thạch.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:nguyen-co-thach, ok:fields-place]
+    time_range:
+      - 1962-06-28T22:00Z
+      - 1962-06-29T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-29.china-leadership-12
+    when: June 29
+    date: '1962-06-29'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 at the airport meets Quinim Pholsena, Foreign Minister of the Lao provisional government of national union and head of the united delegation to the Geneva conference, and Phoumi Vongvichit, Minister of Information, Propaganda and Tourism, in Peking 北京 on their way to Geneva.
+    n: '[[w.chen-yi-nianpu]], 922–923. Names: Chen Yi, Quinim Pholsena, Phoumi Vongvichit.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:quinim-pholsena, name:phoumi-vongvichit, ok:fields-place]
+  - id: cal.1962-06-29.china-leadership-13
+    when: June 29
+    date: '1962-06-29'
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 gives a banquet for Quinim Pholsena and the Laotian guests.
+    n: '[[w.chen-yi-nianpu]], 923. The words: 晚上 (923). Names: Chen Yi, Quinim Pholsena.'
+    tags: [polity:prc, polity:laos, name:chen-yi, name:quinim-pholsena, ok:fields-place]
+    time_range:
+      - 1962-06-29T11:00Z
+      - 1962-06-29T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-30.state-and-city-finance-us
     when: June 30
     date: '1962-06-30'
@@ -4392,7 +4782,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai at Chen Yun's house. In late June, while Zhou toured the Northeast, the Secretariat had taken up "contracting output to the household," Deng Xiaoping and Deng Zihui supporting it. On his return Chen Yun proposes that some places redivide the land and contract output to households to stir the peasants and restore farm output fast; Zhou agrees. July 8 he attends Mao's meeting; July 9 he goes to Chen Yun's again.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 488 (June 30, 1962). Made public: 1997. Names: Zhou Enlai, Chen Yun, Deng Xiaoping, Deng Zihui.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 488 (June 30, 1962); [[w.jian-zhou-enlai]], 467 (Chen Yun to Zhou: redistributing land to households worth trying; Zhou agrees). Made public: 1997. Names: Zhou Enlai, Chen Yun, Deng Xiaoping, Deng Zihui.'
     tags: [polity:prc, name:zhou-enlai, name:chen-yun, name:deng-xiaoping, vis:only:prc]
   - id: cal.1962-06.china-leadership-2
     when: June, late
@@ -4434,12 +4824,13 @@ entries:
     place: shaoshan
     thread: china-leadership
     c: Tian Jiaying, back at Shaoshan where his team is winding up, does not pass on Mao's view on baochan daohu. He sends two team members to examine the Anhui experience.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 265. Made public: 1993. To check: [[w.bangongshi-mao-zedong-yu-xiangtan]], 313–14 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 265 n.20). See [[cal.1962-05.china-leadership-8]]. Names: Mao Zedong. Check: the day; the book places it before Tian returns to Peking at the end of June.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 265; [[w.jian-zhou-enlai]], 467 (on his next trip Tian sends two associates to Anhui; he concludes for linking output with households). Made public: 1993. To check: [[w.bangongshi-mao-zedong-yu-xiangtan]], 313–14 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 265 n.20); [[w.bian-mao-zedong-he-tade-1996]], 91 (cited by [[w.jian-zhou-enlai]], 467 n.6). See [[cal.1962-05.china-leadership-8]]. Names: Mao Zedong. Check: the day; the book places it before Tian returns to Peking at the end of June.'
     src:
       c: 2f5b8ba5
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 265: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 265 n.20: all'
+        - 'w.jian-zhou-enlai 467: ?'
     tags: [polity:prc, vis:only:prc, name:mao-zedong]
   - id: cal.1962-06.china-leadership-4
     when: June, late
@@ -4448,12 +4839,13 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking. Tian Jiaying reports to Liu Shaoqi, who cuts him short: he knows the situation. Liu says: "In industry, we must retreat adequately, and in agriculture, too, we must retreat adequately, including baochan daohu and individual operation." He asks Tian to sound out policy experts without revealing his own view, and agrees that Tian may tell Mao.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 266. Made public: 1993. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1084 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 266 n.22). See [[cal.1962-06.china-leadership-3]]. Names: Liu Shaoqi, Mao Zedong. Check: the day, and whether the quotation is from this occasion ("It may well have been on this occasion," the book says); Tian returned at the end of June.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 266; [[w.jian-zhou-enlai]], 467 (late June, Peking: Tian reports to Liu and Deng, both supporting; Deng: "Black cat or yellow cat"; Liu: tell Mao). Made public: 1993. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1084 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 266 n.22); [[w.bian-mao-zedong-he-tade-1996]], 91–92 (cited by [[w.jian-zhou-enlai]], 467 n.7a); [[w.deng-xiaoping-nianpu-1904]], III, 1714 (cited by [[w.jian-zhou-enlai]], 467 n.7b); [[w.qian-xiangli-lishi-de-bianju]], 5, 203–204 (cited by [[w.jian-zhou-enlai]], 467 n.7c). See [[cal.1962-06.china-leadership-3]]. Names: Liu Shaoqi, Mao Zedong. Check: the day, and whether the quotation is from this occasion ("It may well have been on this occasion," the book says); Tian returned at the end of June.'
     src:
       c: 88fa554f
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 266: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 266 n.22: all'
+        - 'w.jian-zhou-enlai 467: ?'
     tags: [polity:prc, vis:only:prc, name:liu-shaoqi, name:mao-zedong]
   - id: cal.1962-06.china-leadership-5
     when: June, late
@@ -4519,13 +4911,19 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai orders Wang Bingnan, China's ambassador to the Warsaw talks, to cut short his home leave and return to his post, to ascertain the American position, which is regarded as the crucial determinant of whether the Nationalists will attack.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 272. Made public: 1985. To check: [[w.bingnan-nine-years-of-sino]], 48–50 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.68a). Names: Zhou Enlai. Check: the day; the book gives none.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 272; [[w.jian-zhou-enlai]], 474 (late May: Zhou receives Wang Bingnan, home on leave in Peking: Chiang sees a "once-in-a-thousand-years opportunity" and means to act; the key whether the Americans back him; Wang to rush back to Warsaw and get the Americans to stop Chiang). Made public: 1985. To check: [[w.bingnan-nine-years-of-sino]], 48–50 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.68a); [[w.wang-bingnan-zhongmei-huitan-jiunian-huigu]], 86 (cited by [[w.jian-zhou-enlai]], 474 n.37). Names: Zhou Enlai. Check: the day; the book gives none.'
     src:
       c: 85aafe74
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 272: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 272 n.68a: all'
+        - 'w.jian-zhou-enlai 474: ?'
     tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+    variants:
+      - unit: A
+        witness: w.jian-zhou-enlai
+        reads: In late May, Zhou receives Wang Bingnan, then on home leave in Peking, and tells him to rush back to Warsaw
+        at: '474'
   - id: cal.1962-06.china-leadership-9
     when: June
     date: 1962-06
@@ -4546,7 +4944,7 @@ entries:
     at: before 1962-06-21
     thread: china-leadership
     c: Yan Hongyan, Yunnan's first secretary, an alternate Central Committee member and a three-star general, writes to Li Jiantong that no writer can take on the responsibility of historical judgements; that is for the Central Committee. In view of his objections it is decided to publish a few chapters of the sixth draft in *Gongren ribao* and *Zhongguo qingnian* to gauge reaction.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 294–95. Made public: 1979. To check: [[w.yu-zhongguo-zuo-huo-chinas]], 364–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195a); [[w.jin-1949-1989-niande-zhongguo]], 511 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195b); [[w.jiantong-liu-zhidan]], 3–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195c); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1096 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195d). See [[cal.1962-03.china-leadership-4]]. Check: the day; the book gives "the summer of 1962" for the letter and no day for the decision.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 294–95; [[w.yang-jisheng-tiandi-fanfu]], I, 78–79 (summer 1962, the fifth draft of *Liu Zhidan* printed as a sample for review; Yan Hongyan telephones the *Gongren ribao* and *Zhongguo qingnian bao* to stop serializing it and tells Kang Sheng). Made public: 1979. To check: [[w.yu-zhongguo-zuo-huo-chinas]], 364–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195a); [[w.jin-1949-1989-niande-zhongguo]], 511 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195b); [[w.jiantong-liu-zhidan]], 3–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195c); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1096 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195d). See [[cal.1962-03.china-leadership-4]]. Check: the day; the book gives "the summer of 1962" for the letter and no day for the decision.'
     src:
       c: 8ba75c45
       rows:
@@ -4555,6 +4953,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 295 n.195b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 295 n.195c: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 295 n.195d: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 78–79: ?'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1962-06.south-asia
     when: June
@@ -4688,3 +5087,42 @@ entries:
     c: The DPRK proposes to China a long-term trade agreement, per the PRC summary of Jan. 30, 1963.
     n: '"[Summary of Trade Negotiations with Korea and Vietnam for 1963](https://digitalarchive.umd.edu/document/121759)" (Jan. 30, 1963), PRC FMA 106-01008-18, 48–53, obtained by Shen Zhihua, trans. Jeffrey Wang and Charles Kraus, Wilson Center Digital Archive ("In June 1962, when [North] Korea proposed to sign a long-term trade agreement with us"). Check: the day. Check: the year the Archive posted it.'
     tags: [polity:dprk, polity:prc, vis:only:dprk+prc]
+  - id: cal.1962-06.china-leadership-15
+    when: June
+    date: 1962-06
+    place: chengdu
+    thread: china-leadership
+    also: [china]
+    c: Chengdu 成都 examines 572 children in nine nurseries of its organs, factories and mines and streets. 18.8 percent are malnourished, 5 percent have rickets.
+    n: '[[w.yang-jisheng-mubei]], I, 624 n.11. Made public: 2008. To check: Sichuan Provincial Health Department 四川省衛生廳, 《疾病情況》, July 25, 1962, received by the provincial committee''s general office as no. 147, Sichuan Provincial Archives, General Office, file 2963 (cited by [[w.yang-jisheng-mubei]], I, 624 n.11; the same record, received as no. 147, as the provincial committee''s disease-and-pest-elimination office''s report of July 24, 1962 at I, 210 n.48).'
+    src:
+      c: 5754e73f
+      rows:
+        - 'w.yang-jisheng-mubei I, 624: all'
+        - 'via x.1962-07-24.provincial-disease-elimination-office-disease-situation: all'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1962-06.china-leadership-17
+    when: June, late
+    date: 1962-06
+    at: before 1962-06-21
+    place: peking
+    thread: china-leadership
+    c: Chen Yun back in Peking from his leave.
+    n: '[[w.jian-zhou-enlai]], 465 (the page has no note). See [[cal.1962-03-08.china-leadership-3]]. Names: Chen Yun.'
+    src:
+      c: 19b73406
+      rows:
+        - 'w.jian-zhou-enlai 465: all'
+    tags: [polity:prc, vis:only:prc, name:chen-yun]
+  - id: cal.1962-06.china-leadership-18
+    when: June
+    date: 1962-06
+    thread: china-leadership
+    also: [china]
+    c: Mao orders the movement of troops to the Fujian coast carried out openly, for Chiang to see the effort to upset his plans and delay him.
+    n: '[[w.jian-zhou-enlai]], 473–474. Made public: 1991. To check: [[w.yao-luo-ruiqing-zhuan-a]], 370 (cited by [[w.jian-zhou-enlai]], 474 n.36). Names: Mao Zedong, Chiang Kai-shek.'
+    src:
+      c: 8948bb95
+      rows:
+        - 'w.jian-zhou-enlai 473–474: all'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:chiang-kai-shek, ok:fields-place]

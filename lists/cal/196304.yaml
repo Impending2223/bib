@@ -595,7 +595,7 @@ entries:
     thread: china-leadership
     also: [laos]
     c: Zhou Enlai and Chen Yi telegraph Prince Souvanna Phouma, Prime Minister of Laos, their condolences on the assassination of Foreign Minister Quinim Pholsena.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 545 (Apr. 3, 1963). Names: Zhou Enlai, Chen Yi, Souvanna Phouma, Quinim Pholsena.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 545 (Apr. 3, 1963); [[w.chen-yi-nianpu]], 961 (Apr. 3, 1963). Names: Zhou Enlai, Chen Yi, Souvanna Phouma, Quinim Pholsena.'
     tags: [polity:prc, polity:laos, name:zhou-enlai, name:chen-yi, name:souvanna-phouma, name:quinim-pholsena]
   - id: cal.1963-04-03.china-leadership-3
     when: Apr. 3
@@ -672,6 +672,21 @@ entries:
       - 1963-04-03T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-04-03.china-leadership-7
+    when: Apr. 3
+    date: '1963-04-03'
+    thread: china-leadership
+    c: Chen Yi 陈毅 cables Péter János 彼得·亚诺什, Hungary's Foreign Minister, on the eighteenth anniversary of Hungary's liberation.
+    n: '[[w.chen-yi-nianpu]], 961. Names: Chen Yi.'
+    tags: [polity:prc, polity:hungary, name:chen-yi, ok:fields-place]
+  - id: cal.1963-04-03.china-leadership-8
+    when: Apr. 3
+    date: '1963-04-03'
+    thread: china-leadership
+    also: [indonesia]
+    c: The Foreign Ministry's 外交部 press communique announces that Liu Shaoqi 刘少奇, Chairman of the People's Republic, and his wife Wang Guangmei 王光美 will visit Indonesia and Burma, with Chen Yi 陈毅 and his wife.
+    n: '[[w.chen-yi-nianpu]], 961. Names: Liu Shaoqi, Chen Yi.'
+    tags: [polity:prc, polity:burma, polity:indonesia, name:chen-yi, name:liu-shaoqi, ok:fields-place]
   - id: cal.1963-04-04.program
     when: Apr. 4
     date: '1963-04-04'
@@ -2002,7 +2017,7 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Liu Shaoqi, with Chen Yi and others, leaves Kunming for a friendly visit to Indonesia; after a short stop at Rangoon they reach Jakarta, where Sukarno welcomes them. In the afternoon Sukarno takes Liu to the flower and orchid show at the state palace.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 573–574 (Apr. 12, 1963); [[w.macfarquhar-origins-of-the-cultural]], III, 339 (Liu on tour Apr. 12–May 16, with state visits to Indonesia, Burma, Cambodia and Vietnam); [[w.yang-shangkun-riji]], II, 269 (Apr. 12, 1963; Liu Shaoqi''s party arrives safely in Indonesia). To check: [[w.jin-1949-1989-niande-zhongguo]], 530 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 339 n.34). Names: Liu Shaoqi, Chen Yi, Sukarno.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 573–574 (Apr. 12, 1963); [[w.macfarquhar-origins-of-the-cultural]], III, 339 (Liu on tour Apr. 12–May 16, with state visits to Indonesia, Burma, Cambodia and Vietnam); [[w.yang-shangkun-riji]], II, 269 (Apr. 12, 1963; Liu Shaoqi''s party arrives safely in Indonesia); [[w.chen-yi-nianpu]], 961 (Apr. 12, 1963, before dawn, Chen Yi and his wife Zhang Qian 张茜 leave Kunming with Liu and Wang Guangmei, stop at Rangoon airport, and reach Jakarta that morning; afternoon, at the flower and orchid show at the Istana Negara 国家宫). To check: [[w.jin-1949-1989-niande-zhongguo]], 530 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 339 n.34). Names: Liu Shaoqi, Chen Yi, Sukarno.'
     src:
       c: 043a4f3d
       rows:
@@ -2010,7 +2025,13 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 339: A, B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 339 n.34: A, B'
         - 'w.yang-shangkun-riji II, 269: A'
+        - 'w.chen-yi-nianpu 961: ?'
     tags: [polity:prc, polity:indonesia, name:liu-shaoqi, name:chen-yi, name:sukarno]
+    time_range:
+      - 1963-04-11T16:00Z
+      - 1963-04-11T22:00Z
+    time_band: predawn
+    time_zone: Asia/Shanghai
   - id: cal.1963-04-12.china-leadership-4
     when: Apr. 12
     date: '1963-04-12'
@@ -2128,19 +2149,28 @@ entries:
   - id: cal.1963-04-13.china-leadership-3
     when: Apr. 13
     date: '1963-04-13'
+    time: 1963-04-13T11:30Z
+    place: jakarta
     thread: china-leadership
     also: [china, indonesia]
     c: At the state banquet Sukarno gives, Liu Shaoqi says the national liberation movements of the peoples of Asia, Africa and Latin America have become an irresistible historical current, and the peoples' struggle against imperialism and for world peace has greatly developed; obstacles and difficulties on the way can be overcome by vigilance, unity and struggle.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 13, 1963). Names: Liu Shaoqi, Sukarno.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 13, 1963); [[w.chen-yi-nianpu]], 962 (Apr. 13, 1963, 7 p.m., the Merdeka Palace; Chen Yi at Sukarno''s state banquet). Names: Liu Shaoqi, Sukarno.'
     tags: [polity:prc, polity:indonesia, name:liu-shaoqi, name:sukarno]
+    time_zone: Asia/Jakarta
   - id: cal.1963-04-13.china-leadership-4
     when: Apr. 13
     date: '1963-04-13'
+    place: jakarta
     thread: china-leadership
     also: [china, indonesia]
     c: Liu Shaoqi, with Sukarno, takes part in the celebration of Indonesia's Air Force Day, and lays a wreath at the Indonesian martyrs' cemetery.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 13, 1963). Names: Liu Shaoqi, Sukarno.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 13, 1963); [[w.chen-yi-nianpu]], 961 (Apr. 13, 1963; Chen Yi with Liu at the Air Force Day celebrations at Kemayoran airfield 马腰兰机场 and the aviation show there). Names: Liu Shaoqi, Sukarno.'
     tags: [polity:prc, polity:indonesia, name:liu-shaoqi, name:sukarno]
+    variants:
+      - unit: A
+        witness: w.chen-yi-nianpu
+        reads: Liu Shaoqi lays the wreath at the heroes' cemetery outside Jakarta on the morning of Apr. 14
+        at: '962'
   - id: cal.1963-04-13.china-leadership-5
     when: Apr. 13
     date: '1963-04-13'
@@ -2193,6 +2223,31 @@ entries:
       - 1963-04-13T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-04-13.china-leadership-9
+    when: Apr. 13
+    date: '1963-04-13'
+    time: 1963-04-13T11:15Z
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta 雅加达, the Merdeka Palace 独立宫. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 and his wife on their courtesy call on President Sukarno.
+    n: '[[w.chen-yi-nianpu]], 961–962. The words: 晚上18时45分 (961–962). Names: Chen Yi, Liu Shaoqi, Sukarno.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:liu-shaoqi, name:sukarno]
+    time_zone: Asia/Jakarta
+  - id: cal.1963-04-13.china-leadership-10
+    when: Apr. 13
+    date: '1963-04-13'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta 雅加达, the Istana Negara 国家宫. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 at a performance.
+    n: '[[w.chen-yi-nianpu]], 962. The words: 晚上 (962). Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:liu-shaoqi]
+    time_range:
+      - 1963-04-13T11:30Z
+      - 1963-04-13T14:30Z
+    time_band: evening
+    time_zone: Asia/Jakarta
   - id: cal.1963-04-14.press-and-broadcasting
     when: Apr. 14
     date: '1963-04-14'
@@ -2256,8 +2311,13 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Liu Shaoqi, with Sukarno, visits Bogor, Apr. 14; Apr. 15 he tours the Bogor botanical garden and at noon leaves for Bandung.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 14 and 15, 1963). Names: Liu Shaoqi, Sukarno.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 14 and 15, 1963); [[w.chen-yi-nianpu]], 962 (Apr. 14, 1963, afternoon, Chen Yi with Liu and his wife from Jakarta to Bogor 茂物; Apr. 15, morning, Liu and Wang Guangmei at the Bogor palace and botanical garden, then with Chen Yi, Zhang Qian and the party at the summer palace at Cipanas 芝班那斯 and a performance there; noon, Chen Yi with them to Bandung 万隆). Names: Liu Shaoqi, Sukarno.'
     tags: [polity:prc, polity:indonesia, name:liu-shaoqi, name:sukarno]
+    time_range:
+      - 1963-04-14T04:30Z
+      - 1963-04-14T10:30Z
+    time_band: afternoon
+    time_zone: Asia/Jakarta
   - id: cal.1963-04-14.china-leadership-2
     when: Apr. 14
     date: '1963-04-14'
@@ -2300,6 +2360,31 @@ entries:
         - 'w.yang-shangkun-riji II, 270: all'
     tags: [polity:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1963-04-14.china-leadership-5
+    when: Apr. 14
+    date: '1963-04-14'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta 雅加达. After the wreath at the heroes' cemetery, Liu Shaoqi 刘少奇 and his party, Chen Yi 陈毅 among them, visit the Senayan stadium of the Asian Games 苏加诺体育场.
+    n: '[[w.chen-yi-nianpu]], 962. See [[cal.1963-04-13.china-leadership-4]]. The words: 上午……随后 (962). Names: Liu Shaoqi, Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:liu-shaoqi]
+    time_range:
+      - 1963-04-13T22:30Z
+      - 1963-04-14T04:30Z
+    time_band: morning
+    time_zone: Asia/Jakarta
+  - id: cal.1963-04-14.china-leadership-6
+    when: Apr. 14
+    date: '1963-04-14'
+    time: 1963-04-14T03:00Z
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta 雅加达, the Istana Negara 国家宫. Liu Shaoqi 刘少奇 receives senior Indonesian officials; Chen Yi 陈毅 present.
+    n: '[[w.chen-yi-nianpu]], 962. The words: 上午10时30分 (962). Names: Liu Shaoqi, Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:liu-shaoqi]
+    time_zone: Asia/Jakarta
   - id: cal.1963-04-15.alabama-birmingham
     when: Apr. 15
     date: '1963-04-15'
@@ -2498,6 +2583,15 @@ entries:
       - 1963-04-15T16:00Z
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1963-04-15.china-leadership-6
+    when: Apr. 15
+    date: '1963-04-15'
+    place: bandung
+    thread: china-leadership
+    also: [indonesia]
+    c: Bandung 万隆, the Homann Hotel 霍曼饭店. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 and his wife at the performance given by Col. Mashudi 马舒迪, Governor of West Java.
+    n: '[[w.chen-yi-nianpu]], 962. Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:liu-shaoqi, ok:fields-time]
   - id: cal.1963-04-16.alabama-birmingham
     when: Apr. 16
     date: '1963-04-16'
@@ -2634,7 +2728,7 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Liu Shaoqi sees the crater of the Tangkuban Perahu volcano 20 kilometers north of Bandung; at noon he leaves Bandung for Yogyakarta and in the Agung palace sees an exhibition of Yogyakarta handicrafts.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 16, 1963). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 16, 1963); [[w.chen-yi-nianpu]], 962 (Apr. 16, 1963; Chen Yi with Liu and his wife from Bandung to Yogyakarta 日惹 and at the handicraft show). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:indonesia, name:liu-shaoqi]
   - id: cal.1963-04-16.china
     when: Apr. 16
@@ -2757,7 +2851,7 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Liu Shaoqi visits the Borobudur stupa near Yogyakarta; at noon he leaves for Denpasar, the capital of Bali.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 17, 1963). Names: Liu Shaoqi. Check: the book prints 巴塘 for the Bali capital.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 17, 1963); [[w.chen-yi-nianpu]], 962 (Apr. 17, 1963; Chen Yi with Liu and his wife at Borobudur 婆罗浮屠; they leave Yogyakarta at noon and reach the airport of Denpasar 巴塘, Bali''s capital, at 2:30 p.m.). Names: Liu Shaoqi. Check: the book prints 巴塘 for the Bali capital.'
     tags: [polity:prc, polity:indonesia, name:liu-shaoqi]
   - id: cal.1963-04-17.china-leadership-4
     when: Apr. 17
@@ -2851,8 +2945,13 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: 'Liu Shaoqi speaks at the rally the people of Denpasar hold to welcome him: the struggle of the peoples of Asia, Africa and Latin America against imperialism and colonialism and for national independence is a most important part of the world peace movement; the struggle for national independence is not opposed to the struggle for world peace, and the more the struggle against imperialism and neocolonialism is strengthened, the more peace is defended.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 18, 1963). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 18, 1963); [[w.chen-yi-nianpu]], 962 (Apr. 18, 1963, morning; Chen Yi at the rally, after the people''s traditional parade on the square; Bali''s representatives give presents to Liu and his wife and to Chen Yi and his wife). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:indonesia, name:liu-shaoqi]
+    time_range:
+      - 1963-04-17T22:00Z
+      - 1963-04-18T04:00Z
+    time_band: morning
+    time_zone: Asia/Makassar
   - id: cal.1963-04-18.china-leadership-3
     when: Apr. 18
     date: '1963-04-18'
@@ -2860,8 +2959,13 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Liu Shaoqi talks with Sukarno at the Tampaksiring palace.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 18, 1963). Names: Liu Shaoqi, Sukarno.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 18, 1963); [[w.chen-yi-nianpu]], 962 (Apr. 18, 1963, afternoon; Chen Yi in the talks). Names: Liu Shaoqi, Sukarno.'
     tags: [polity:prc, polity:indonesia, name:liu-shaoqi, name:sukarno]
+    time_range:
+      - 1963-04-18T04:00Z
+      - 1963-04-18T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Makassar
   - id: cal.1963-04-18.china-leadership-4
     when: Apr. 18
     date: '1963-04-18'
@@ -3043,8 +3147,13 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Liu Shaoqi returns to Jakarta; at the state palace, the farewell banquet.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 19, 1963). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 19, 1963); [[w.chen-yi-nianpu]], 962 (Apr. 19, 1963, morning; Chen Yi back to Jakarta); [[w.chen-yi-nianpu]], 962–963 (Apr. 19, 1963, morning, Chen Yi back in Jakarta with Liu; evening, at Liu and Wang Guangmei''s farewell banquet in the Istana Negara). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:indonesia, name:liu-shaoqi]
+    time_range:
+      - 1963-04-18T22:30Z
+      - 1963-04-19T04:30Z
+    time_band: morning
+    time_zone: Asia/Jakarta
   - id: cal.1963-04-19.china-leadership-4
     when: Apr. 19
     date: '1963-04-19'
@@ -3062,6 +3171,28 @@ entries:
       - 1963-04-19T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1963-04-19.china-leadership-6
+    when: Apr. 19
+    date: '1963-04-19'
+    place: jakarta
+    thread: china-leadership
+    c: Jakarta 雅加达, the Chinese embassy. Chen Yi 陈毅, with Liu Shaoqi 刘少奇 and Wang Guangmei 王光美, receives the embassy's whole staff; a photograph taken.
+    n: '[[w.chen-yi-nianpu]], 962–963. The words: 中午 (962–963). Made public: 1995. Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, name:chen-yi, name:liu-shaoqi, vis:only:prc]
+    time_range:
+      - 1963-04-19T04:30Z
+      - 1963-04-19T06:30Z
+    time_band: workday midday
+    time_zone: Asia/Jakarta
+  - id: cal.1963-04-19.china-leadership-7
+    when: Apr. 19
+    date: '1963-04-19'
+    place: jakarta
+    thread: china-leadership
+    also: [indonesia]
+    c: Jakarta 雅加达, the Istana Negara 国家宫. Sukarno gives presents to Liu Shaoqi 刘少奇 and his wife and to Chen Yi 陈毅 and his wife.
+    n: '[[w.chen-yi-nianpu]], 963. Names: Sukarno, Liu Shaoqi, Chen Yi.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:sukarno, name:liu-shaoqi, ok:fields-time]
   - id: cal.1963-04-20.laos
     when: Apr. 20
     date: '1963-04-20'
@@ -3283,32 +3414,42 @@ entries:
   - id: cal.1963-04-20.china-leadership-4
     when: Apr. 20
     date: '1963-04-20'
+    place: jakarta
     thread: china-leadership
     also: [china, indonesia]
     c: Liu Shaoqi and Sukarno sign the Joint Declaration of the People's Republic of China and the Republic of Indonesia.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 20, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 277–278 (Apr. 12–20, 1963; Liu Shaoqi visits Indonesia at invitation, holds talks with Sukarno and signs a joint statement, the day not given: the two sides will further consolidate their solidarity and friendship and expand economic and technical cooperation and cultural exchange; China firmly supports Indonesia''s struggle to recover West Irian and unify the country; Indonesia fully supports China''s struggle to liberate Taiwan and oppose "two Chinas" and to restore its lawful seat in the United Nations; both oppose outside interference in the Sino-Indian boundary dispute and hold imperialism and colonialism the root cause of the threat to world peace; China fully supports Indonesia''s proposals for a second Asian–African conference and for a "new emerging forces" games). Names: Liu Shaoqi, Sukarno.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574 (Apr. 20, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 277–278 (Apr. 12–20, 1963; Liu Shaoqi visits Indonesia at invitation, holds talks with Sukarno and signs a joint statement, the day not given: the two sides will further consolidate their solidarity and friendship and expand economic and technical cooperation and cultural exchange; China firmly supports Indonesia''s struggle to recover West Irian and unify the country; Indonesia fully supports China''s struggle to liberate Taiwan and oppose "two Chinas" and to restore its lawful seat in the United Nations; both oppose outside interference in the Sino-Indian boundary dispute and hold imperialism and colonialism the root cause of the threat to world peace; China fully supports Indonesia''s proposals for a second Asian–African conference and for a "new emerging forces" games); [[w.chen-yi-nianpu]], 963 (Apr. 20, 1963, morning, the Merdeka Palace 独立宫; Chen Yi at the signing). Names: Liu Shaoqi, Sukarno.'
     src:
       c: 2a606f64
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 574: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 277–278: all'
+        - 'w.chen-yi-nianpu 963: ?'
     tags: [polity:prc, polity:indonesia, name:liu-shaoqi, name:sukarno]
+    time_range:
+      - 1963-04-19T22:30Z
+      - 1963-04-20T04:30Z
+    time_band: morning
+    time_zone: Asia/Jakarta
   - id: cal.1963-04-20.china-leadership-5
     when: Apr. 20
     date: '1963-04-20'
+    time: 1963-04-20T01:30Z
     place:
       - jakarta
       - rangoon
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi leaves Jakarta for Rangoon and begins a friendly visit to Burma; General Ne Win, Chairman of the Union Revolutionary Council and head of the government, welcomes him.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574–575 (Apr. 20, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 278 (Apr. 20–26, 1963; Liu Shaoqi visits Burma at invitation; the leaders of the two sides hold talks several times, the days not given). Names: Liu Shaoqi, Ne Win.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 574–575 (Apr. 20, 1963); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 278 (Apr. 20–26, 1963; Liu Shaoqi visits Burma at invitation; the leaders of the two sides hold talks several times, the days not given); [[w.chen-yi-nianpu]], 963 (Apr. 20, 1963; Chen Yi with Liu and his wife leaves Jakarta at 9 a.m. and reaches Rangoon 仰光 at 1:50 p.m.). Names: Liu Shaoqi, Ne Win.'
     src:
       c: 2752d273
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 574–575: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 278: all'
+        - 'w.chen-yi-nianpu 963: ?'
     tags: [polity:prc, polity:burma, name:liu-shaoqi, name:ne-win]
+    time_zone: Asia/Jakarta
   - id: cal.1963-04-20.china-leadership-6
     when: Apr. 20
     date: '1963-04-20'
@@ -3365,6 +3506,19 @@ entries:
       - 1963-04-20T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-04-20.china-leadership-11
+    when: Apr. 20
+    date: '1963-04-20'
+    place: rangoon
+    thread: china-leadership
+    c: Rangoon 仰光, the state guesthouse. Ne Win, Chairman of Burma's Revolutionary Council, and his wife dine with Liu Shaoqi 刘少奇 and Wang Guangmei 王光美; Chen Yi 陈毅 present.
+    n: '[[w.chen-yi-nianpu]], 963. The words: 晚上 (963). Names: Ne Win, Liu Shaoqi, Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:ne-win, name:liu-shaoqi]
+    time_range:
+      - 1963-04-20T12:30Z
+      - 1963-04-20T15:30Z
+    time_band: evening
+    time_zone: Asia/Yangon
   - id: cal.1963-04-21.laos
     when: Apr. 21
     date: '1963-04-21'
@@ -3479,16 +3633,27 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi visits the Shwedagon pagoda in Rangoon and gives 6,000 kyats toward its repair; lays a wreath at the tomb of General Aung San.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 21, 1963). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 21, 1963); [[w.chen-yi-nianpu]], 963 (Apr. 21, 1963, morning; Chen Yi with Liu and Wang Guangmei at the Shwedagon pagoda 瑞光大金塔, and at the wreath at General Aung San''s 昂山 tomb). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:burma, name:liu-shaoqi]
+    time_range:
+      - 1963-04-20T23:30Z
+      - 1963-04-21T05:30Z
+    time_band: morning
+    time_zone: Asia/Yangon
   - id: cal.1963-04-21.china-leadership-5
     when: Apr. 21
     date: '1963-04-21'
+    place: rangoon
     thread: china-leadership
     also: [china]
     c: At the state banquet Ne Win gives, Liu Shaoqi says the development of friendly relations between China and Burma is a shining example of mutual respect, amity and friendly cooperation among Asian and African states.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 21, 1963). Names: Liu Shaoqi, Ne Win.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 21, 1963); [[w.chen-yi-nianpu]], 963 (Apr. 21, 1963, evening, the garden of the state guesthouse; Chen Yi present). Names: Liu Shaoqi, Ne Win.'
     tags: [polity:prc, polity:burma, name:liu-shaoqi, name:ne-win]
+    time_range:
+      - 1963-04-21T12:30Z
+      - 1963-04-21T15:30Z
+    time_band: evening
+    time_zone: Asia/Yangon
   - id: cal.1963-04-21.china-leadership-6
     when: Apr. 21
     date: '1963-04-21'
@@ -3539,6 +3704,45 @@ entries:
       - 1963-04-21T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1963-04-21.china-leadership-11
+    when: Apr. 21
+    date: '1963-04-21'
+    place: rangoon
+    thread: china-leadership
+    c: Rangoon 仰光. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 and Wang Guangmei 王光美 calls on General Ne Win and his wife; then Ne Win's luncheon at his residence for them.
+    n: '[[w.chen-yi-nianpu]], 963. The words: 中午……拜会后 (963). Names: Chen Yi, Liu Shaoqi, Ne Win.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:liu-shaoqi, name:ne-win]
+    time_range:
+      - 1963-04-21T05:30Z
+      - 1963-04-21T07:30Z
+    time_band: workday midday
+    time_zone: Asia/Yangon
+  - id: cal.1963-04-21.china-leadership-12
+    when: Apr. 21
+    date: '1963-04-21'
+    place: rangoon
+    thread: china-leadership
+    c: Rangoon 仰光, the state guesthouse. Ne Win returns Liu Shaoqi's 刘少奇 call; Chen Yi 陈毅 present.
+    n: '[[w.chen-yi-nianpu]], 963. The words: 晚上 (963). Names: Ne Win, Liu Shaoqi, Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:ne-win, name:liu-shaoqi]
+    time_range:
+      - 1963-04-21T12:30Z
+      - 1963-04-21T15:30Z
+    time_band: evening
+    time_zone: Asia/Yangon
+  - id: cal.1963-04-21.china-leadership-13
+    when: Apr. 21
+    date: '1963-04-21'
+    place: rangoon
+    thread: china-leadership
+    c: Rangoon 仰光. Chen Yi 陈毅 at a performance; after it he, Liu Shaoqi 刘少奇, Wang Guangmei 王光美 and Zhang Qian 张茜 present flower baskets to the artists.
+    n: '[[w.chen-yi-nianpu]], 963. The words: 晚上……表演结束后 (963). Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:liu-shaoqi]
+    time_range:
+      - 1963-04-21T12:30Z
+      - 1963-04-21T15:30Z
+    time_band: evening
+    time_zone: Asia/Yangon
   - id: cal.1963-04-22.alabama-birmingham
     when: Apr. 22
     date: '1963-04-22'
@@ -3700,8 +3904,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi, with Ne Win, visits Taunggyi, the Shan State capital, and sees the scenic lake.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 22, 1963). Names: Liu Shaoqi, Ne Win. Check: the book prints 东枝 and 莱茵湖 (Taunggyi; Inle Lake).'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 22, 1963); [[w.chen-yi-nianpu]], 963 (Apr. 22, 1963, morning; Chen Yi with Liu and Wang Guangmei to Taunggyi 东枝). Names: Liu Shaoqi, Ne Win. Check: the book prints 东枝 and 莱茵湖 (Taunggyi; Inle Lake).'
     tags: [polity:prc, polity:burma, name:liu-shaoqi, name:ne-win]
+    time_range:
+      - 1963-04-21T23:30Z
+      - 1963-04-22T05:30Z
+    time_band: morning
+    time_zone: Asia/Yangon
   - id: cal.1963-04-22.china-leadership-6
     when: Apr. 22
     date: '1963-04-22'
@@ -3750,6 +3959,19 @@ entries:
       - 1963-04-22T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-04-22.china-leadership-9
+    when: Apr. 22
+    date: '1963-04-22'
+    place: taunggyi
+    thread: china-leadership
+    c: Taunggyi 东枝. Chen Yi 陈毅 at the informal dinner of 貌瑞, the military region's commander, in his headquarters' garden for Liu Shaoqi 刘少奇 and his wife; then the Shan State peoples' folk dances.
+    n: '[[w.chen-yi-nianpu]], 963. The words: 晚上……晚宴后 (963). Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:liu-shaoqi]
+    time_range:
+      - 1963-04-22T12:30Z
+      - 1963-04-22T15:30Z
+    time_band: evening
+    time_zone: Asia/Yangon
   - id: cal.1963-04-23.alabama
     when: Apr. 23
     date: '1963-04-23'
@@ -3879,11 +4101,17 @@ entries:
   - id: cal.1963-04-23.china-leadership-4
     when: Apr. 23
     date: '1963-04-23'
+    place: ngapali
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi arrives at a seaside resort on Burma's southwest coast.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 23, 1963). Names: Liu Shaoqi. Check: the book prints 额不里 (Ngapali?).'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 23, 1963); [[w.chen-yi-nianpu]], 963–964 (Apr. 23, 1963, morning; Chen Yi with Liu and Wang Guangmei from Taunggyi to Ngapali 额不里; a day on the beach, and a football match of two mixed Chinese and Burmese teams). Names: Liu Shaoqi. Check: the book prints 额不里 (Ngapali?).'
     tags: [polity:prc, polity:burma, name:liu-shaoqi]
+    time_range:
+      - 1963-04-22T23:30Z
+      - 1963-04-23T05:30Z
+    time_band: morning
+    time_zone: Asia/Yangon
   - id: cal.1963-04-23.china-leadership-5
     when: Apr. 23
     date: '1963-04-23'
@@ -4180,11 +4408,17 @@ entries:
   - id: cal.1963-04-24.china-leadership-6
     when: Apr. 24
     date: '1963-04-24'
+    place: ngapali
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi talks with Ne Win. On the road of the newly independent states he says there are three to choose: the capitalist road, which existing capitalist states will not let a backward country, a small one above all, travel to the end; the road of colony and dependency, which China will not take; so only the socialist road, on which China is, and which needs decades of work. At home it must rely on the great majority, workers, peasants, the urban petty bourgeoisie and others ready for socialism; abroad it joins all nations that respect its independence and equality and opposes imperialism. China truly respects Burma and treats it as an equal and will do nothing to harm it.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 24, 1963). Made public: 1996. Names: Liu Shaoqi, Ne Win.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 24, 1963); [[w.chen-yi-nianpu]], 964 (Apr. 24, 1963, morning, Ngapali; Chen Yi present). Made public: 1996. Names: Liu Shaoqi, Ne Win.'
     tags: [polity:prc, polity:burma, name:liu-shaoqi, name:ne-win, vis:only:prc+burma]
+    time_range:
+      - 1963-04-23T23:30Z
+      - 1963-04-24T05:30Z
+    time_band: morning
+    time_zone: Asia/Yangon
   - id: cal.1963-04-24.china
     when: Apr. 24
     date: '1963-04-24'
@@ -4586,8 +4820,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi reaches Rangoon; at the farewell banquet he says that during the visit he has felt in person the "paukphaw" friendship between the two countries.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 25, 1963). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 25, 1963); [[w.chen-yi-nianpu]], 964 (Apr. 25, 1963, morning, Chen Yi with Liu and his wife back to Rangoon; at Liu and Wang Guangmei''s farewell banquet). Names: Liu Shaoqi.'
     tags: [polity:prc, polity:burma, name:liu-shaoqi]
+    time_range:
+      - 1963-04-24T23:30Z
+      - 1963-04-25T05:30Z
+    time_band: morning
+    time_zone: Asia/Yangon
   - id: cal.1963-04-25.china
     when: Apr. 25
     date: '1963-04-25'
@@ -4691,6 +4930,40 @@ entries:
     c: Saigon. The American military advisory office on Trần Hưng Đạo street attacked, Apr. 25.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 293. Check: the history gives the date and the target only; the American record not read.'
     tags: [polity:drv]
+  - id: cal.1963-04-25.china-leadership-13
+    when: Apr. 25
+    date: '1963-04-25'
+    place: rangoon
+    thread: china-leadership
+    c: Rangoon 仰光, the Chinese embassy. Chen Yi 陈毅 at the luncheon of Liu Shaoqi 刘少奇 and Wang Guangmei 王光美 for Ne Win and his wife and Burma's senior military and civil officials.
+    n: '[[w.chen-yi-nianpu]], 964. The words: 中午 (964). Names: Chen Yi, Liu Shaoqi, Ne Win.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:liu-shaoqi, name:ne-win]
+    time_range:
+      - 1963-04-25T05:30Z
+      - 1963-04-25T07:30Z
+    time_band: workday midday
+    time_zone: Asia/Yangon
+  - id: cal.1963-04-25.china-leadership-14
+    when: Apr. 25
+    date: '1963-04-25'
+    place: rangoon
+    thread: china-leadership
+    c: Rangoon 仰光. Chen Yi 陈毅 calls on U Thi Han 吴蒂汉, Burma's Foreign Minister, and signs a joint communique of China and Burma.
+    n: '[[w.chen-yi-nianpu]], 964. The words: 下午 (964). Names: Chen Yi.'
+    tags: [polity:prc, polity:burma, name:chen-yi]
+    time_range:
+      - 1963-04-25T05:30Z
+      - 1963-04-25T11:30Z
+    time_band: afternoon
+    time_zone: Asia/Yangon
+  - id: cal.1963-04-25.china-leadership-15
+    when: Apr. 25
+    date: '1963-04-25'
+    place: rangoon
+    thread: china-leadership
+    c: Rangoon 仰光, the Chinese embassy. Chen Yi 陈毅, with Liu Shaoqi 刘少奇, Wang Guangmei 王光美 and Zhang Qian 张茜, receives the embassy's staff.
+    n: '[[w.chen-yi-nianpu]], 964. Made public: 1995. Names: Chen Yi, Liu Shaoqi.'
+    tags: [polity:prc, name:chen-yi, name:liu-shaoqi, ok:fields-time, vis:only:prc]
   - id: cal.1963-04-26.laos
     when: Apr. 26
     date: '1963-04-26'
@@ -4802,7 +5075,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi continues his talks with Ne Win; he leaves Rangoon and returns to Kunming.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 26, 1963). Names: Liu Shaoqi, Ne Win.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575 (Apr. 26, 1963); [[w.chen-yi-nianpu]], 964 (Apr. 26, 1963, 7 a.m.; Chen Yi leaves Rangoon with Liu, back to Kunming). Names: Liu Shaoqi, Ne Win.'
     tags: [polity:prc, polity:burma, name:liu-shaoqi, name:ne-win]
   - id: cal.1963-04-26.china-leadership-3
     when: Apr. 26
@@ -4943,6 +5216,14 @@ entries:
         - 'w.yang-shangkun-riji II, 274: all'
     tags: [polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1963-04-27.china-leadership-4
+    when: Apr. 27
+    date: '1963-04-27'
+    thread: china-leadership
+    also: [vietnam-hanoi]
+    c: The Foreign Ministry's 外交部 press communique announces that Liu Shaoqi 刘少奇 and Wang Guangmei 王光美 will visit Cambodia and Vietnam, with Chen Yi 陈毅 and his wife.
+    n: '[[w.chen-yi-nianpu]], 964. Names: Liu Shaoqi, Chen Yi.'
+    tags: [polity:prc, polity:cambodia, polity:drv, name:chen-yi, name:liu-shaoqi, ok:fields-place]
   - id: cal.1963-04-28.opinion-5
     when: Apr. 28
     date: '1963-04-28'
@@ -6276,3 +6557,20 @@ entries:
     c: Mỹ Tho. In mid-April Company 1 of Battalion 514 with the people of Long Trung and Long Tiên, Cai Lậy, breaks up a large part of the strategic hamlets and sends the families back to their old villages.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 265. Check: the day.'
     tags: [polity:drv]
+  - id: cal.1963-04.china-leadership-12
+    when: Apr., early
+    date: 1963-04
+    at: before 1963-04-01
+    thread: china-leadership
+    c: Chen Yi 陈毅 writes an inscription for the martyr Zhao Shiyan 赵世炎, a Marxist-Leninist political activist of the revolution's early days, killed in 1927.
+    n: '[[w.chen-yi-nianpu]], 961. The words: 4月上旬 (961). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+  - id: cal.1963-04.china-leadership-13
+    when: Apr., before the 12th
+    date: 1963-04
+    at: before 1963-04-12
+    place: kunming
+    thread: china-leadership
+    c: Kunming 昆明. Chen Yi 陈毅 visits the Cuihu 翠湖 azalea show and writes the poem "Visiting the Cuihu azalea show" 《参观翠湖杜鹃展览》.
+    n: '[[w.chen-yi-nianpu]], 961. The words: 在离昆明之前 (961). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-time]

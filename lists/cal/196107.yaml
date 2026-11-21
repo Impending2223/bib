@@ -56,6 +56,19 @@ entries:
       - 1961-07-01T17:00Z
     time_band: night
     time_zone: Asia/Bangkok
+  - id: cal.1961-07-01.china-leadership-2
+    when: July 1
+    date: '1961-07-01'
+    place: geneva
+    thread: china-leadership
+    c: Geneva 日内瓦. Chen Yi 陈毅 reports at the meeting of the Chinese delegation, the Embassy in Switzerland and the consulate-general for the Communist Party's fortieth anniversary.
+    n: '[[w.chen-yi-nianpu]], 879. The words: 晚 (879). Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, vis:only:prc]
+    time_range:
+      - 1961-07-01T18:00Z
+      - 1961-07-01T21:00Z
+    time_band: evening
+    time_zone: Europe/Zurich
   - id: cal.1961-07-02.opinion
     when: July 2
     date: '1961-07-02'
@@ -110,6 +123,46 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 199: all'
     tags: [polity:prc, polity:mongolia]
+  - id: cal.1961-07-02.china-leadership-4
+    when: July 2
+    date: '1961-07-02'
+    place: geneva
+    thread: china-leadership
+    c: Geneva 日内瓦. Chen Yi 陈毅 receives the overseas Chinese and students.
+    n: '[[w.chen-yi-nianpu]], 879. The words: 上午 (879). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1961-07-02T05:00Z
+      - 1961-07-02T11:00Z
+    time_band: morning
+    time_zone: Europe/Zurich
+  - id: cal.1961-07-02.china-leadership-5
+    when: July 2
+    date: '1961-07-02'
+    place: geneva
+    thread: china-leadership
+    c: Geneva 日内瓦. Alwin Bernard Perera 阿耳温·伯纳德·佩雷拉, Ceylon's new Ambassador to China, calls on Chen Yi 陈毅.
+    n: '[[w.chen-yi-nianpu]], 879. See [[cal.1961-07-02.china-leadership-4]]. The words: 下午 (879). Names: Chen Yi.'
+    tags: [polity:prc, polity:ceylon, name:chen-yi]
+    time_range:
+      - 1961-07-02T11:00Z
+      - 1961-07-02T17:00Z
+    time_band: afternoon
+    time_zone: Europe/Zurich
+  - id: cal.1961-07-02.china-leadership-6
+    when: July 2
+    date: '1961-07-02'
+    place: geneva
+    thread: china-leadership
+    also: [laos]
+    c: Geneva 日内瓦. Chen Yi 陈毅 gives a reception for the delegations, the conference's staff and the journalists.
+    n: '[[w.chen-yi-nianpu]], 879. See [[cal.1961-07-02.china-leadership-4]]. The words: 晚上 (879). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1961-07-02T18:00Z
+      - 1961-07-02T21:00Z
+    time_band: evening
+    time_zone: Europe/Zurich
   - id: cal.1961-07-03.berlin-and-vienna
     when: July 3
     date: '1961-07-03'
@@ -193,11 +246,12 @@ entries:
     thread: china-leadership
     also: [laos]
     c: 'Geneva. Chen Yi, at the plenary meeting of the enlarged conference on Laos, proposes ending the general debate and passing to real negotiation in the spirit of "seeking common ground while keeping differences": first agree on a clear international agreement to respect Laos''s independence and neutrality, then discuss supervision effectively under better conditions. The Soviet, Polish and Vietnamese delegations back the Chinese delegation''s proposal.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 199 (July 3, 1961). See [[cal.1961-06-12.china-leadership-6]]. Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 199 (July 3, 1961); [[w.chen-yi-nianpu]], 879 (July 3, 1961; Chen Yi at the conference proposes ending the general debate for negotiation of substance, "seeking common ground, reserving differences" 求同存异; first a clear agreement to respect Laos''s independence and neutrality, then supervision). See [[cal.1961-06-12.china-leadership-6]]. Names: Chen Yi.'
     src:
       c: bc93ca27
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 199: all'
+        - 'w.chen-yi-nianpu 879: ?'
     tags: [polity:prc, polity:laos, polity:ussr, polity:poland, polity:drv, name:chen-yi]
   - id: cal.1961-07-03.china-leadership-4
     when: July 3
@@ -282,6 +336,20 @@ entries:
       rows:
         - 'https://digitalarchive.umd.edu/document/300878: all'
     tags: [polity:ussr, polity:drv, name:khrushchev-nikita-s, name:pham-van-dong, name:souvanna-phouma, vis:only:ussr+drv]
+  - id: cal.1961-07-03.china-leadership-9
+    when: July 3
+    date: '1961-07-03'
+    place: geneva
+    thread: china-leadership
+    also: [laos]
+    c: Geneva 日内瓦. Chen Yi 陈毅 gives a banquet for the Soviet and British co-chairmen and the Indian, Polish and Canadian members of the International Control Commission for Laos.
+    n: '[[w.chen-yi-nianpu]], 879. The words: 晚上 (879). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1961-07-03T18:00Z
+      - 1961-07-03T21:00Z
+    time_band: evening
+    time_zone: Europe/Zurich
   - id: cal.1961-07-04.vietnam-hanoi
     when: July 4
     date: '1961-07-04'
@@ -372,6 +440,33 @@ entries:
       - 1961-07-04T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
+  - id: cal.1961-07-04.china-leadership-6
+    when: July 4
+    date: '1961-07-04'
+    place: geneva
+    thread: china-leadership
+    also: [laos]
+    c: Chen Yi 陈毅 leaves Geneva 日内瓦 for home, leaving the delegation's work to Zhang Hanfu 章汉夫, Vice Minister, and Qiao Guanhua 乔冠华, assistant minister. The conference set to drag on with no great matter in hand, he goes with the Center's 中央 approval.
+    n: '[[w.chen-yi-nianpu]], 879. The words: 上午 (879). Made public: 1995. Names: Chen Yi, Qiao Guanhua.'
+    tags: [polity:prc, name:chen-yi, name:qiao-guanhua, vis:only:prc@B]
+    time_range:
+      - 1961-07-04T05:00Z
+      - 1961-07-04T11:00Z
+    time_band: morning
+    time_zone: Europe/Zurich
+  - id: cal.1961-07-04.china-leadership-7
+    when: July 4
+    date: '1961-07-04'
+    place: budapest
+    thread: china-leadership
+    c: Budapest 布达佩斯. Kállai Gyula 卡拉伊·久洛, First Deputy Prime Minister, gives a luncheon for Chen Yi 陈毅 for the Hungarian Party and government; Chen Yi speaks; then flies on to Moscow.
+    n: '[[w.chen-yi-nianpu]], 879. The words: 中午 (879). Names: Chen Yi.'
+    tags: [polity:prc, polity:hungary, name:chen-yi]
+    time_range:
+      - 1961-07-04T11:00Z
+      - 1961-07-04T13:00Z
+    time_band: workday midday
+    time_zone: Europe/Budapest
   - id: cal.1961-07-05.opinion
     when: July 5
     date: '1961-07-05'
@@ -423,7 +518,7 @@ entries:
     thread: laos
     also: [china, soviet-union]
     c: 'Moscow. Chen Yi, China''s Foreign Minister, with Gromyko: the fear that the Soviets will give way on Laos for a better deal in Central Europe.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 394; [[w.macfarquhar-origins-of-the-cultural]], III, 121 (Chen Yi at Moscow on his way from Geneva). To check: memcons, Chen Yi and Gromyko, July 5 and 6, 1961, 0570, 7/5/14, MFA (cited by [[w.fursenko-khrushchevs-cold-war]], 394 n.32); [[w.xiao-chushi-sulian-banian-ambassador]], 106 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 121 n.7a). Names: Chen Yi, Gromyko.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 394; [[w.macfarquhar-origins-of-the-cultural]], III, 121 (Chen Yi at Moscow on his way from Geneva); [[w.chen-yi-nianpu]], 879 (July 5, 1961; Chen Yi calls on Gromyko). To check: memcons, Chen Yi and Gromyko, July 5 and 6, 1961, 0570, 7/5/14, MFA (cited by [[w.fursenko-khrushchevs-cold-war]], 394 n.32); [[w.xiao-chushi-sulian-banian-ambassador]], 106 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 121 n.7a). Names: Chen Yi, Gromyko.'
     src:
       c: b792e12d
       rows:
@@ -432,6 +527,7 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 121: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 121 n.7a: A-B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 121 n.7b: A-B'
+        - 'w.chen-yi-nianpu 879: ?'
     tags: [name:chen-yi, name:gromyko-andrei, vis:only:ussr+prc]
   - id: cal.1961-07-05.defense-2
     when: July 5
@@ -565,6 +661,33 @@ entries:
         - 'w.yang-jisheng-mubei I, 217–218: all'
         - 'via w.yang-jisheng-mubei I, 218 n.73: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-07-05.china-leadership-8
+    when: July 5
+    date: '1961-07-05'
+    place: moscow
+    thread: china-leadership
+    c: Moscow 莫斯科. Chen Yi 陈毅 calls on Phạm Văn Đồng, the DRV's Prime Minister, visiting the Soviet Union.
+    n: '[[w.chen-yi-nianpu]], 879. The words: 上午 (879). Names: Chen Yi, Phạm Văn Đồng.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:pham-van-dong]
+    time_range:
+      - 1961-07-05T03:00Z
+      - 1961-07-05T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
+  - id: cal.1961-07-05.china-leadership-9
+    when: July 5
+    date: '1961-07-05'
+    place: moscow
+    thread: china-leadership
+    also: [soviet-union]
+    c: Moscow 莫斯科, the Kremlin 克里姆林宫. Khrushchev gives a luncheon for Chen Yi 陈毅.
+    n: '[[w.chen-yi-nianpu]], 879–880. The words: 中午 (879–880). Names: Khrushchev, Chen Yi.'
+    tags: [polity:prc, polity:ussr, name:chen-yi, name:khrushchev-nikita-s]
+    time_range:
+      - 1961-07-05T09:00Z
+      - 1961-07-05T11:00Z
+    time_band: workday midday
+    time_zone: Europe/Moscow
   - id: cal.1961-07-06.berlin-and-vienna
     when: July 6
     date: '1961-07-06'
@@ -619,6 +742,19 @@ entries:
         - 'w.yang-shangkun-riji II, 48: A'
         - 'w.deng-xiaoping-nianpu-1904 III, 1647: ?'
     tags: [polity:prc, name:zhou-enlai, name:nie-rongzhen, vis:only:prc]
+  - id: cal.1961-07-06.china-leadership-3
+    when: July 6
+    date: '1961-07-06'
+    place: moscow
+    thread: china-leadership
+    c: Moscow 莫斯科. Chen Yi 陈毅 calls on Kim Il Sung, Premier of the DPRK, visiting the Soviet Union; leaves Moscow that evening.
+    n: '[[w.chen-yi-nianpu]], 880. The words: 上午; 晚上 (880). Names: Chen Yi, Kim Il Sung.'
+    tags: [polity:prc, polity:dprk, name:chen-yi, name:kim-il-sung]
+    time_range:
+      - 1961-07-06T03:00Z
+      - 1961-07-06T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
   - id: cal.1961-07-07.opinion
     when: July 7
     date: '1961-07-07'
@@ -716,11 +852,12 @@ entries:
     thread: china-leadership
     also: [china, laos, vietnam-hanoi]
     c: Peking. Zhou Enlai goes to the airport to meet Chen Yi, back from the enlarged Geneva conference; Hoàng Văn Hoan, special adviser to the DRV delegation, arrives on the same plane.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 315 (July 7, 1961; 下午). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 315 (July 7, 1961; 下午); [[w.chen-yi-nianpu]], 880 (July 7, 1961, afternoon; Chen Yi back in Peking). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 1d51c476
       rows:
         - 'w.zhou-enlai-waijiao-huodong 315: all'
+        - 'w.chen-yi-nianpu 880: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:chen-yi]
     time_range:
       - 1961-07-07T04:00Z
@@ -851,12 +988,18 @@ entries:
     thread: china-leadership
     also: [china, laos, vietnam-hanoi]
     c: Peking. Zhou Enlai attends the reception given by the Foreign Ministry for Chen Yi, head of the Chinese delegation to the enlarged Geneva conference, and Hoàng Văn Hoan, special adviser to the Vietnamese delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 315 (July 8, 1961). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 315 (July 8, 1961); [[w.chen-yi-nianpu]], 880 (July 8, 1961, evening; the Foreign Ministry''s reception for Chen Yi and his wife, Hoàng Văn Hoan, special adviser of the DRV delegation, and members, advisers and staff of the Chinese delegation). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 9e794ea6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 315: all'
+        - 'w.chen-yi-nianpu 880: ?'
     tags: [polity:prc, polity:drv, name:zhou-enlai, name:chen-yi]
+    time_range:
+      - 1961-07-08T11:00Z
+      - 1961-07-08T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-08.china-leadership-2
     when: July 8
     date: '1961-07-08'
@@ -975,11 +1118,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking. Zhou Enlai receives the Mongolian–Chinese Friendship Association delegation headed by Otgonbayar, the Mongolian film workers' delegation and the Mongolian journalists' delegation, invited for the Sino-Mongolian friendship month.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 316 (July 9, 1961; 下午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 316 (July 9, 1961; 下午); [[w.chen-yi-nianpu]], 880 (July 9, 1961; Chen Yi present when Zhou Enlai receives the Mongolian–Chinese Friendship Association delegation under Otgonbayar, the film workers'' under 鲁·吉纳 and the journalists'' under 官布·扎布苏仁扎布). Names: Zhou Enlai.'
     src:
       c: c4620f35
       rows:
         - 'w.zhou-enlai-waijiao-huodong 316: all'
+        - 'w.chen-yi-nianpu 880: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1961-07-09T04:00Z
@@ -994,11 +1138,12 @@ entries:
     thread: china-leadership
     also: [china, soviet-union]
     c: Peking, the CPPCC auditorium. Zhou Enlai attends the mass meeting of the capital's people celebrating the 40th anniversary of the Mongolian revolution.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 316 (July 9, 1961; 晚7时20分). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 316 (July 9, 1961; 晚7时20分); [[w.chen-yi-nianpu]], 880 (July 9, 1961, 7:20 p.m.; Chen Yi speaks at the capital''s meeting for the 40th anniversary of the Mongolian revolution; China to keep to Marxism–Leninism, proletarian internationalism and the 1957 Declaration and 1960 Statement). Names: Zhou Enlai.'
     src:
       c: a81f74f6
       rows:
         - 'w.zhou-enlai-waijiao-huodong 316: all'
+        - 'w.chen-yi-nianpu 880: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_zone: Asia/Shanghai
   - id: cal.1961-07-09.china-leadership-6
@@ -1121,7 +1266,7 @@ entries:
     thread: china-leadership
     also: [korea, china]
     c: Zhou Enlai, July 10–15, receives the DPRK Party and government delegation under Kim Il Sung. On the 10th he meets and talks with it with Liu Shaoqi; on the 11th, returning Kim's call, says on building that heavy industry first in China's recovery was needed, for without that base farming cannot be helped; the same day for China he signs the treaty of friendship, cooperation and mutual assistance.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 423 (July 10, 1961); [[w.zhou-enlai-waijiao-huodong]], 316 (July 10, 1961; 上午9时, 机场); [[w.zhou-enlai-waijiao-huodong]], 316 (July 10, 1961; 晚6时45分, 人民大会堂, with Liu Shaoqi); [[w.zhou-enlai-waijiao-huodong]], 316 (July 11, 1961; 上午11时40分, 钓鱼台宾馆18号楼, 回访并共进午餐); [[w.zhou-enlai-waijiao-huodong]], 316 (July 11, 1961; 下午, 签字); [[w.lengxi-shinian-lunzhan-1956-1966]], 453 (the treaty of friendship, cooperation and mutual assistance with the DPRK signed in July); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 528–529 (July 10–11, 1961; July 10 Liu, with Zhou Enlai and Deng Xiaoping, talks with Kim Il Sung, chairman of the Korean Workers'' Party Central Committee and the DPRK''s premier; July 11 Liu attends the signing of the Sino-Korean treaty of friendship, cooperation and mutual assistance); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 10–15, 1961; Kim Il Sung, Premier, leads the Party and government delegation of the Korean Workers'' Party and the Cabinet; Liu leads the Chinese Party and government side in the talks; the joint communique); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 11, 1961; the treaty of friendship, cooperation and mutual assistance signed: the parties to take every measure jointly against aggression on either; if either is attacked and at war, the other at once to give military and other aid with all its strength); [[w.deng-xiaoping-nianpu-1904]], III, 1647 (July 10–13, 1961; Deng among those receiving the Korean Party and government delegation under Kim Il Sung). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Kim Il Sung, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 423 (July 10, 1961); [[w.zhou-enlai-waijiao-huodong]], 316 (July 10, 1961; 上午9时, 机场); [[w.zhou-enlai-waijiao-huodong]], 316 (July 10, 1961; 晚6时45分, 人民大会堂, with Liu Shaoqi); [[w.zhou-enlai-waijiao-huodong]], 316 (July 11, 1961; 上午11时40分, 钓鱼台宾馆18号楼, 回访并共进午餐); [[w.zhou-enlai-waijiao-huodong]], 316 (July 11, 1961; 下午, 签字); [[w.lengxi-shinian-lunzhan-1956-1966]], 453 (the treaty of friendship, cooperation and mutual assistance with the DPRK signed in July); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 528–529 (July 10–11, 1961; July 10 Liu, with Zhou Enlai and Deng Xiaoping, talks with Kim Il Sung, chairman of the Korean Workers'' Party Central Committee and the DPRK''s premier; July 11 Liu attends the signing of the Sino-Korean treaty of friendship, cooperation and mutual assistance); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 10–15, 1961; Kim Il Sung, Premier, leads the Party and government delegation of the Korean Workers'' Party and the Cabinet; Liu leads the Chinese Party and government side in the talks; the joint communique); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 11, 1961; the treaty of friendship, cooperation and mutual assistance signed: the parties to take every measure jointly against aggression on either; if either is attacked and at war, the other at once to give military and other aid with all its strength); [[w.deng-xiaoping-nianpu-1904]], III, 1647 (July 10–13, 1961; Deng among those receiving the Korean Party and government delegation under Kim Il Sung); [[w.chen-yi-nianpu]], 880–881 (July 10, 1961; Chen Yi at the airport to welcome Kim Il Sung''s delegation in the morning; present when Liu Shaoqi and Zhou Enlai meet him and in the talks of the two delegations in the afternoon; at the Central Committee''s and State Council''s banquet that evening; July 11, with Zhou returns Kim''s call at the guesthouse in the morning, and at the signing of the treaty of friendship, cooperation and mutual assistance in the afternoon). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Kim Il Sung, Liu Shaoqi.'
     src:
       c: c311dbce
       rows:
@@ -1131,6 +1276,7 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 528–529: B'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 200: D'
         - 'w.deng-xiaoping-nianpu-1904 III, 1647: ?'
+        - 'w.chen-yi-nianpu 880–881: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, name:kim-il-sung, name:liu-shaoqi, vis:only:prc+dprk]
     time_zone: Asia/Shanghai
   - id: cal.1961-07-10.china-leadership-3
@@ -1158,12 +1304,13 @@ entries:
     thread: china-leadership
     also: [china, africa-algeria-morocco]
     c: Peking. Zhou Enlai, with Liu Shaoqi, receives the Tunisian friendship delegation headed by Masmoudi, Minister of Information and Tourism.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 316 (July 10, 1961; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 9–21, 1961; Masmoudi, Minister of Information and Tourism, leads the Tunisian friendship delegation; Liu and Zhou receive it). Names: Zhou Enlai, Liu Shaoqi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 316 (July 10, 1961; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 9–21, 1961; Masmoudi, Minister of Information and Tourism, leads the Tunisian friendship delegation; Liu and Zhou receive it); [[w.chen-yi-nianpu]], 880 (July 10, 1961, noon; Chen Yi receives the whole Tunisian friendship delegation under Masmoudi, Minister of Information and Tourism, and gives a banquet for them; friendship accords with both peoples'' wish). Names: Zhou Enlai, Liu Shaoqi.'
     src:
       c: 20144ce4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 316: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 200: B'
+        - 'w.chen-yi-nianpu 880: ?'
     tags: [polity:prc, polity:tunisia, name:zhou-enlai, name:liu-shaoqi]
     time_range:
       - 1961-07-10T11:00Z
@@ -1262,6 +1409,13 @@ entries:
         - 'via w.dikotter-maos-great-famine 238 n.39a: all'
         - 'via w.dikotter-maos-great-famine 238 n.39b: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1961-07-10.china-leadership-12
+    when: July 10
+    date: '1961-07-10'
+    thread: china-leadership
+    c: Chen Yi 陈毅 telegraphs Shagdarsüren 沙格达尔苏伦, the Mongolian Foreign Minister, on the 40th anniversary of the revolution.
+    n: '[[w.chen-yi-nianpu]], 880. Names: Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:chen-yi]
   - id: cal.1961-07-11.governors-va
     when: July 11
     date: '1961-07-11'
@@ -1347,12 +1501,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: At the Mongolian Ambassador's reception for the 40th anniversary of the Mongolian People's Revolution Zhou Enlai says that the Chinese people have always prized the friendship and unity of the two parties and states and count strengthening the unity of the socialist camp and the international communist movement their highest internationalist duty.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 424 (July 11, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (July 11, 1961; 晚上, 北京饭店). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 424 (July 11, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (July 11, 1961; 晚上, 北京饭店); [[w.chen-yi-nianpu]], 881 (July 11, 1961, evening; the reception of 沙拉布, the Mongolian Ambassador; Chen Yi toasts). Names: Zhou Enlai.'
     src:
       c: 46e98813
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 424: ?'
         - 'w.zhou-enlai-waijiao-huodong 317: A'
+        - 'w.chen-yi-nianpu 881: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai]
     time_range:
       - 1961-07-11T11:00Z
@@ -1438,12 +1593,13 @@ entries:
     thread: china-leadership
     also: [korea, china]
     c: 'At the DPRK Embassy chargé''s banquet Zhou Enlai speaks on "No force can stop the Korean people''s peaceful unification of the fatherland": the treaty puts into law the fighting friendship of the two peoples joined in blood, and will play a very important part in the full growth of their friendship, the common security of the two countries and the defense of Asian and world peace.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 424 (July 12, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (July 12, 1961; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 424 (July 12, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (July 12, 1961; 晚上); [[w.chen-yi-nianpu]], 881 (July 12, 1961; Chen Yi at the banquet of 马东山, the DPRK''s chargé d''affaires, for Kim Il Sung''s delegation, the Great Hall of the People). Names: Zhou Enlai.'
     src:
       c: bb9b40da
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 424: ?'
         - 'w.zhou-enlai-waijiao-huodong 317: A'
+        - 'w.chen-yi-nianpu 881: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai]
     time_range:
       - 1961-07-12T11:00Z
@@ -1458,11 +1614,12 @@ entries:
     thread: china-leadership
     also: [china, korea]
     c: Peking. Zhou Enlai attends the mass meeting of the capital's circles welcoming Kim Il Sung.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 317 (July 12, 1961; 上午9时). See [[cal.1961-07-10.china-leadership-2]]. Names: Zhou Enlai, Kim Il Sung.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 317 (July 12, 1961; 上午9时); [[w.chen-yi-nianpu]], 881 (July 12, 1961, 9:15 a.m.; Chen Yi at the rally of more than 10,000 in the Great Hall of the People welcoming Kim Il Sung and celebrating the treaty). See [[cal.1961-07-10.china-leadership-2]]. Names: Zhou Enlai, Kim Il Sung.'
     src:
       c: 9f697c90
       rows:
         - 'w.zhou-enlai-waijiao-huodong 317: all'
+        - 'w.chen-yi-nianpu 881: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, name:kim-il-sung]
     time_zone: Asia/Shanghai
   - id: cal.1961-07-12.china-leadership-3
@@ -1472,17 +1629,23 @@ entries:
     thread: china-leadership
     also: [china, korea]
     c: Peking. Zhou Enlai accompanies Kim Il Sung at the opera performance given by the Ministry of Culture.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 317 (July 12, 1961; 晚上). See [[cal.1961-07-10.china-leadership-2]]. Names: Zhou Enlai, Kim Il Sung.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 317 (July 12, 1961; 晚上); [[w.chen-yi-nianpu]], 881 (July 11, 1961, evening; Chen Yi at the opera evening of the Ministry of Culture and the China–Korea Friendship Association for Kim Il Sung''s delegation, *Keshan hongri* 《柯山红日》). See [[cal.1961-07-10.china-leadership-2]]. Names: Zhou Enlai, Kim Il Sung.'
     src:
       c: 1bc3eb04
       rows:
         - 'w.zhou-enlai-waijiao-huodong 317: all'
+        - 'w.chen-yi-nianpu 881: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, name:kim-il-sung]
     time_range:
       - 1961-07-12T11:00Z
       - 1961-07-12T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+    variants:
+      - unit: B
+        witness: w.chen-yi-nianpu
+        reads: the opera evening of the Ministry of Culture and the China–Korea Friendship Association for Kim Il Sung's delegation, *Keshan hongri* 《柯山红日》, is on July 11, 1961 (晚上), Chen Yi there; on July 12 the DPRK chargé's banquet
+        at: '881'
   - id: cal.1961-07-12.china-leadership-4
     when: July 12
     date: '1961-07-12'
@@ -1665,7 +1828,7 @@ entries:
     thread: china-leadership
     also: [korea, soviet-union, testing]
     c: Hangzhou, the Wang Villa. Mao receives Kim Il Sung, at lunch; Zhou Enlai, Chen Yi and Jiang Hua present. Will war come? Both sides fear, imperialism more; it attacks only if the camp splits; Khrushchev "much improved." Tests cannot really stop; conventional forces not to be cut; nuclear weapons perhaps banned, like gas; the next war conventional. China is making the bomb, the year uncertain; it would need tens, hundreds.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, July 13, 1961; [[w.zhou-enlai-nianpu-1949]], II, 424, July 13, 1961 (Zhou present at Mao''s reception of Kim Il Sung); [[w.zhou-enlai-waijiao-huodong]], 317 (July 13, 1961; 上午10时30分, 陪同毛泽东主席会见并共进午餐); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 10–15, 1961; Mao receives Kim Il Sung and the delegation at Hangzhou, the day not given here). Made public: 1993. Names: Mao Zedong, Kim Il Sung, Zhou Enlai, Chen Yi, Jiang Hua, Khrushchev.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, July 13, 1961; [[w.zhou-enlai-nianpu-1949]], II, 424, July 13, 1961 (Zhou present at Mao''s reception of Kim Il Sung); [[w.zhou-enlai-waijiao-huodong]], 317 (July 13, 1961; 上午10时30分, 陪同毛泽东主席会见并共进午餐); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 10–15, 1961; Mao receives Kim Il Sung and the delegation at Hangzhou, the day not given here); [[w.chen-yi-nianpu]], 881 (July 13, 1961, morning (上午); Chen Yi present when Mao receives Kim Il Sung at Hangzhou). Made public: 1993. Names: Mao Zedong, Kim Il Sung, Zhou Enlai, Chen Yi, Jiang Hua, Khrushchev.'
     src:
       c: c0dc1a43
       rows:
@@ -1673,6 +1836,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 424, July 13, 1961: B-C'
         - 'w.zhou-enlai-waijiao-huodong 317: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 200: B'
+        - 'w.chen-yi-nianpu 881: ?'
     tags: [polity:prc, polity:dprk, name:mao-zedong, name:kim-il-sung, name:zhou-enlai, name:chen-yi, name:khrushchev-nikita-s, vis:only:prc+dprk]
     time_zone: Asia/Shanghai
   - id: cal.1961-07-13.china-leadership-2
@@ -1683,12 +1847,13 @@ entries:
     thread: china-leadership
     also: [korea]
     c: Zhou Enlai with Chen Yi takes Kim Il Sung to Hangzhou.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 424 (July 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (July 13, 1961; 晨7时, 乘专机; 上午10时, 抵达杭州). Made public: 1993. Names: Zhou Enlai, Chen Yi, Kim Il Sung.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 424 (July 13, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (July 13, 1961; 晨7时, 乘专机; 上午10时, 抵达杭州); [[w.chen-yi-nianpu]], 881 (July 13, 1961, morning; Chen Yi with Zhou Enlai brings Kim Il Sung and his delegation from Peking to Hangzhou). Made public: 1993. Names: Zhou Enlai, Chen Yi, Kim Il Sung.'
     src:
       c: ea030ad5
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 424: ?'
         - 'w.zhou-enlai-waijiao-huodong 317: A'
+        - 'w.chen-yi-nianpu 881: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, name:chen-yi, name:kim-il-sung, vis:only:prc+dprk]
     time_zone: Asia/Shanghai
   - id: cal.1961-07-13.china-leadership-3
@@ -1698,11 +1863,12 @@ entries:
     thread: china-leadership
     also: [china, korea]
     c: Hangzhou. Zhou Enlai attends the welcoming banquet given by the Zhejiang provincial Party committee and people's committee for the DPRK Party and government delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 317 (July 13, 1961; 晚上). See [[cal.1961-07-10.china-leadership-2]]. Names: Zhou Enlai, Kim Il Sung.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 317 (July 13, 1961; 晚上); [[w.chen-yi-nianpu]], 881 (July 13, 1961; Chen Yi at the banquet of the Zhejiang Party committee and People''s Council). See [[cal.1961-07-10.china-leadership-2]]. Names: Zhou Enlai, Kim Il Sung.'
     src:
       c: cdbbab86
       rows:
         - 'w.zhou-enlai-waijiao-huodong 317: all'
+        - 'w.chen-yi-nianpu 881: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, name:kim-il-sung]
     time_range:
       - 1961-07-13T11:00Z
@@ -1903,11 +2069,12 @@ entries:
     thread: china-leadership
     also: [china, korea]
     c: Hangzhou. Zhou Enlai accompanies Mao Zedong in returning Kim Il Sung's call.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 317 (July 14, 1961; 下午). See [[cal.1961-07-10.china-leadership-2]]. Names: Zhou Enlai, Mao Zedong, Kim Il Sung.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 317 (July 14, 1961; 下午); [[w.chen-yi-nianpu]], 881 (July 14, 1961, afternoon; Chen Yi present when Mao returns Kim Il Sung''s call). See [[cal.1961-07-10.china-leadership-2]]. Names: Zhou Enlai, Mao Zedong, Kim Il Sung.'
     src:
       c: ea01ced1
       rows:
         - 'w.zhou-enlai-waijiao-huodong 317: all'
+        - 'w.chen-yi-nianpu 881: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, name:mao-zedong, name:kim-il-sung]
     time_range:
       - 1961-07-14T04:00Z
@@ -1921,11 +2088,12 @@ entries:
     thread: china-leadership
     also: [china, korea]
     c: Hangzhou. Zhou Enlai attends the theater evening given by the Zhejiang authorities for the DPRK Party and government delegation.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 317 (July 14, 1961; 晚上). See [[cal.1961-07-10.china-leadership-2]]. Names: Zhou Enlai, Kim Il Sung.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 317 (July 14, 1961; 晚上); [[w.chen-yi-nianpu]], 882 (July 14, 1961, evening; Chen Yi at the theater evening, the Shanghai Yue opera''s *Dream of the Red Chamber*). See [[cal.1961-07-10.china-leadership-2]]. Names: Zhou Enlai, Kim Il Sung.'
     src:
       c: d3bdb099
       rows:
         - 'w.zhou-enlai-waijiao-huodong 317: all'
+        - 'w.chen-yi-nianpu 882: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, name:kim-il-sung]
     time_range:
       - 1961-07-14T11:00Z
@@ -2108,12 +2276,13 @@ entries:
     thread: china-leadership
     also: [korea]
     c: Zhou Enlai sees off the DPRK Party and government delegation under Kim Il Sung.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 424 (July 15, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (July 15, 1961; 上午, 机场). Names: Zhou Enlai, Kim Il Sung.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 424 (July 15, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (July 15, 1961; 上午, 机场); [[w.chen-yi-nianpu]], 882 (July 15, 1961; Chen Yi at the airport to see Kim Il Sung''s delegation off from Hangzhou). Names: Zhou Enlai, Kim Il Sung.'
     src:
       c: 423801c1
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 424: ?'
         - 'w.zhou-enlai-waijiao-huodong 317: A'
+        - 'w.chen-yi-nianpu 882: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai, name:kim-il-sung]
     time_range:
       - 1961-07-14T22:00Z
@@ -2189,12 +2358,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai at Mao''s meeting, then with Chen Yi receives R. K. Nehru, Secretary-General of India''s Foreign Ministry: no basic conflict of interest between China and India, their problems to be settled; China tries to improve relations and cooperate where it can; India should not allow the Dalai group to act against the motherland.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 424 (July 16, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (July 16, 1961; 下午4时, 上海文化俱乐部, 接见后共进晚餐). Made public: 1993. Names: Zhou Enlai, Chen Yi, R. K. Nehru.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 424 (July 16, 1961); [[w.zhou-enlai-waijiao-huodong]], 317 (July 16, 1961; 下午4时, 上海文化俱乐部, 接见后共进晚餐); [[w.chen-yi-nianpu]], 882 (July 16, 1961, afternoon, at Shanghai; Chen Yi with Zhou Enlai receives R. K. Nehru, Secretary-General of the Indian Foreign Ministry, with Mehta, joint secretary, and an under secretary; dinner after). Made public: 1993. Names: Zhou Enlai, Chen Yi, R. K. Nehru.'
     src:
       c: 5caa0ae1
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 424: ?'
         - 'w.zhou-enlai-waijiao-huodong 317: A'
+        - 'w.chen-yi-nianpu 882: ?'
     tags: [polity:prc, polity:india, name:zhou-enlai, name:chen-yi, name:nehru-r-k, vis:only:prc+india]
     time_zone: Asia/Shanghai
   - id: cal.1961-07-16.china-leadership-2
@@ -2262,6 +2432,17 @@ entries:
         - 'w.yang-jisheng-mubei I, 466–467: all'
         - 'via w.yang-jisheng-mubei I, 467 n.5: all'
         - 'w.dikotter-maos-great-famine 131 n.6: ?'
+    tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-07-16.china-leadership-7
+    when: July 16
+    date: '1961-07-16'
+    thread: china-leadership
+    c: 'The Center''s decision on strengthening the building of the nuclear industry: the whole country''s resources to be mobilized for it.'
+    n: '[[w.jian-zhou-enlai]], 515. Made public: 2013. To check: [[w.zhonggong-zhongyang-wenjian-xuanji]], XXXVII, 222–224 (the CC''s decision on strengthening the nuclear industry, July 16, 1961) (cited by [[w.jian-zhou-enlai]], 515 n.95).'
+    src:
+      c: d177749d
+      rows:
+        - 'w.jian-zhou-enlai 515: all'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1961-07-17.mayors-new-orleans
     when: July 17
@@ -2699,6 +2880,14 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1651: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-07-18.china-leadership-7
+    when: July 18
+    date: '1961-07-18'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Chen Yi 陈毅 and Zhou Enlai 周恩来 guests at the film actress Bai Yang's 白杨 home; Chen Yi on films that show leading cadres posturing, hands behind their backs, lecturing and "fixing" others' thinking, without feeling; tells of cadres and masses close in the war years; urges the actors into life; photographed with Bai Yang and her husband, Zheng Junli 郑君里, Qin Yi 秦怡, Huang Zongying 黄宗英 and others.
+    n: '[[w.chen-yi-nianpu]], 882. Made public: 1995. Names: Chen Yi, Zhou Enlai.'
+    tags: [polity:prc, name:chen-yi, name:zhou-enlai, vis:only:prc]
   - id: cal.1961-07-19.africa
     when: July 19–22
     date: '1961-07-19'
@@ -2971,6 +3160,19 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1651–1652: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1961-07-19.china-leadership-6
+    when: July 19
+    date: '1961-07-19'
+    place: shanghai
+    thread: china-leadership
+    c: Shanghai 上海. Chen Yi 陈毅 tells the film artists the history of the three years' guerrilla war in the south 南方三年游击战争.
+    n: '[[w.chen-yi-nianpu]], 882. The words: 下午 (882). Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, vis:only:prc]
+    time_range:
+      - 1961-07-19T04:00Z
+      - 1961-07-19T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-20.defense
     when: July 20
     date: '1961-07-20'
@@ -3339,6 +3541,13 @@ entries:
       - 1961-07-21T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1961-07-21.china-leadership-7
+    when: July 21
+    date: '1961-07-21'
+    thread: china-leadership
+    c: Chen Yi 陈毅 telegraphs Adam Rapacki on Poland's seventeenth national day.
+    n: '[[w.chen-yi-nianpu]], 882. Names: Chen Yi, Rapacki.'
+    tags: [polity:prc, polity:poland, name:chen-yi, name:rapacki-adam]
   - id: cal.1961-07-22.berlin-and-vienna
     when: July 22
     date: '1961-07-22'
@@ -3423,15 +3632,22 @@ entries:
   - id: cal.1961-07-23.china-leadership-3
     when: July 23
     date: '1961-07-23'
+    place: peking
     thread: china-leadership
     also: [africa-algeria-morocco]
     c: 'Chen Yi, receiving Ahmed Mestiri, Tunisia''s ambassador to the Soviet Union, on a visit to China: China backs the Tunisian people''s demand for the return of the Bizerte military base and their just struggle and stern position for the defense of their independence and sovereignty.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 23, 1961). Made public: 2001. Names: Chen Yi, Mestiri. Check: the ambassador is 艾哈默德·迈斯提里 in the book; the base is the one at Bizerta.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 200 (July 23, 1961); [[w.chen-yi-nianpu]], 882 (July 23, 1961, evening, at Peking; Chen Yi receives Ahmed Mestiri, backing the Tunisians'' demand to recover the Bizerte base). Made public: 2001. Names: Chen Yi, Mestiri. Check: the ambassador is 艾哈默德·迈斯提里 in the book; the base is the one at Bizerta.'
     src:
       c: d9a537ce
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 200: all'
+        - 'w.chen-yi-nianpu 882: ?'
     tags: [polity:prc, polity:tunisia, polity:fr, name:chen-yi, vis:only:prc+tunisia, name:mestiri-ahmed]
+    time_range:
+      - 1961-07-23T11:00Z
+      - 1961-07-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-23.china-leadership-4
     when: July 23
     date: '1961-07-23'
@@ -3759,11 +3975,12 @@ entries:
     thread: china-leadership
     also: [china, cuba]
     c: Peking, the CPPCC auditorium. Zhou Enlai attends the meeting of the capital's circles celebrating Cuba's July 26 revolution day.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 317 (July 25, 1961; 下午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 317 (July 25, 1961; 下午); [[w.chen-yi-nianpu]], 883 (July 25, 1961, afternoon; Chen Yi at the meeting for Cuba''s July 26, the CPPCC auditorium). Names: Zhou Enlai.'
     src:
       c: a87a0645
       rows:
         - 'w.zhou-enlai-waijiao-huodong 317: all'
+        - 'w.chen-yi-nianpu 883: ?'
     tags: [polity:prc, polity:cuba, name:zhou-enlai]
     time_range:
       - 1961-07-25T04:00Z
@@ -3854,6 +4071,18 @@ entries:
       - 1961-07-25T11:00Z
       - 1961-07-25T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-25.china-leadership-8
+    when: July 25
+    date: '1961-07-25'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives in turn 山谢尔·巴哈杜尔, Nepal's new Ambassador, and Abderrahman Kiouane 阿卜杜勒·拉赫曼·基万, head of Algeria's first diplomatic mission in China; at noon 雷兹·马利列, Albania's new Ambassador.
+    n: '[[w.chen-yi-nianpu]], 882–883. The words: 上午; 中午 (882–883). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1961-07-24T22:00Z
+      - 1961-07-25T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1961-07-26.berlin-and-vienna
     when: July 26–27
@@ -4016,6 +4245,13 @@ entries:
         - 'w.yang-jisheng-mubei I, 218: all'
         - 'via w.yang-jisheng-mubei I, 218 n.74: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-07-26.china-leadership-11
+    when: July 26
+    date: '1961-07-26'
+    thread: china-leadership
+    c: Chen Yi 陈毅 telegraphs Ahti Karjalainen 阿提·卡尔亚莱宁, the Finnish Foreign Minister, in condolence on the death of 瓦尔万尼, Finland's Ambassador to China.
+    n: '[[w.chen-yi-nianpu]], 883. Names: Chen Yi.'
+    tags: [polity:prc, polity:finland, name:chen-yi]
   - id: cal.1961-07-27.confirmations
     when: July 27
     date: '1961-07-27'
@@ -4162,6 +4398,19 @@ entries:
     c: 'The commands of Military Regions 5 and 6 set up, Interzone V divided. Region 5, Quảng Trị to Phú Yên with Kon Tum and Gia Lai, under the Central Committee: Võ Chí Công Party secretary, Nguyễn Đôn commander and political commissar. Region 6, Khánh Hòa to Bình Thuận with the southern Highlands, under COSVN: Trần Lê secretary, Y Blok acting commander.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 43–44 (the dates after *50 năm Quân đội nhân dân Việt Nam: Biên niên sự kiện* (1995), 169, 173). Made public: 2013. Names: Võ Chí Công, Nguyễn Đôn, Trần Lê, Y Blok.'
     tags: [polity:drv, vis:only:drv, ok:fields-place]
+  - id: cal.1961-07-27.china-leadership-8
+    when: July 27
+    date: '1961-07-27'
+    place: peking
+    thread: china-leadership
+    c: The Xiannongtan stadium 先农坛体育场, Peking 北京. Chen Yi 陈毅 watches the friendly match of the Vietnam People's Army football team, passing through from the GDR, and the Peking Units' team; photographed with both teams.
+    n: '[[w.chen-yi-nianpu]], 883. The words: 晚上 (883). Names: Chen Yi.'
+    tags: [polity:prc, polity:drv, name:chen-yi]
+    time_range:
+      - 1961-07-27T11:00Z
+      - 1961-07-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-07-28.laos
     when: July 28
     date: '1961-07-28'
@@ -4507,6 +4756,19 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 55: all'
     tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-30.china-leadership-5
+    when: July 30
+    date: '1961-07-30'
+    place: peking
+    thread: china-leadership
+    c: The Military Museum of the Chinese People's Revolution 中国人民革命军事博物馆, Peking 北京. Chen Yi 陈毅 at the General Political Department's 总政治部 gala.
+    n: '[[w.chen-yi-nianpu]], 883. The words: 晚上 (883). Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi]
+    time_range:
+      - 1961-07-30T11:00Z
+      - 1961-07-30T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1961-07-31.opinion
     when: July 31
@@ -5151,3 +5413,35 @@ entries:
         - 'w.dikotter-maos-great-famine 224: all'
         - 'via w.dikotter-maos-great-famine 224 n.1: all'
     tags: [polity:prc, ok:fields-at]
+  - id: cal.1961-07.china-leadership-9
+    when: July, before the 13th
+    date: 1961-07
+    at: before 1961-07-13
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 writes a poem seeing off his second son, Chen Danhuai 陈丹淮, admitted to the Harbin Military Engineering Institute 哈尔滨军事工程学院, "To Danhuai, and for Haosu, Xiaolu and Xiaoshan" 《示丹淮，并告昊苏、小鲁、小珊》, with a note: he leaves on official business and has no time to talk; soon after, two poems "To my children" 《示儿女》, to be ready for hardship and firm in revolution.'
+    n: '[[w.chen-yi-nianpu]], 881. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place]
+  - id: cal.1961-07-31.china-leadership-6
+    when: July 31
+    date: '1961-07-31'
+    thread: china-leadership
+    c: 'Chen Yi 陈毅 speaks to the Propaganda Department''s 中宣部 symposium on literature and art, in three parts: leaders and led; politics and art (politics and art, red and expert, the individual and the collective, subject, form and style); the international situation.'
+    n: '[[w.chen-yi-nianpu]], 883. The words: 上午 (883). Made public: 1995. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, vis:only:prc]
+    time_range:
+      - 1961-07-30T22:00Z
+      - 1961-07-31T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1961-07-31.china-leadership-7
+    when: July 31
+    date: '1961-07-31'
+    thread: china-leadership
+    c: Chen Yi 陈毅 receives 艾坚, a Swiss economist, professor at the Graduate Institute of International Studies at Geneva 日内瓦, and dines with him.
+    n: '[[w.chen-yi-nianpu]], 883. The words: 晚上 (883). Names: Chen Yi.'
+    tags: [polity:prc, polity:switzerland, name:chen-yi, ok:fields-place]
+    time_range:
+      - 1961-07-31T11:00Z
+      - 1961-07-31T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
