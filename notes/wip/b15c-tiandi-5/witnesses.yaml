@@ -47,6 +47,9 @@
   form: study
   open: not held
   read: false
+  from:
+  - of: w.zhou-enlai-zhuan-1949
+    kind: edition
 - id: x.1995.chen-yun-wenxuan-3-1995
   what: 《陳雲文選》,第三卷,人民出版社,1995年 (*Chen Yun wenxuan*, vol. 3, Renmin chubanshe, 1995)
   kind: collection
@@ -58,6 +61,9 @@
   form: print
   open: not held
   read: false
+  from:
+  - of: w.chen-yun-wenxuan-1956
+    kind: edition
 - id: x.1972-10-21.yang-jisheng-tianjin-laodong-shengchanlv-diaocha-1972-10-21
   what: 楊繼繩:〈天津勞動生產率調查〉,《國內動態清樣》(新華社),1972年10月21日 (Yang Jisheng 楊繼繩, "An investigation of labor productivity in Tianjin," Xinhua, *Guonei dongtai qingyang*, Oct. 21, 1972)
   kind: report
@@ -124,6 +130,9 @@
   form: account
   open: not held
   read: false
+  from:
+  - of: w.rui-da-yuejin-qin-li
+    kind: edition
 - id: x.1966-01-25.jiefangjun-bao-1966-01-25
   what: 《解放軍報》,1966年1月25日 (*Jiefangjun bao*, Jan. 25, 1966, quoting Lin Biao)
   kind: press
@@ -134,17 +143,6 @@
   made: contemporaneous
   form: print
   open: none known
-  read: false
-- id: x.1966-05-18.lin-biao-speech-enlarged-politburo-1966-05-18
-  what: 林彪:〈在中央政治局擴大會議上的講話〉,1966年5月18日 (Lin Biao 林彪, speech to the enlarged Politburo meeting, May 18, 1966)
-  kind: speech
-  date: '1966-05-18'
-  agent:
-  - Lin Biao 林彪
-  where: cited by *Tiandi fanfu* (2016 ed.), I, 52 n.22, 53 n.25–26; not held
-  made: contemporaneous
-  form: original
-  open: not held
   read: false
 - id: x.1965-11-10.lin-biao-instruction-army-political-work-conference-1965-11-10
   what: 林彪:〈對召開全軍政治工作會議的指示〉,1965年11月10日 (Lin Biao 林彪, instruction on holding the all-army political work conference, Nov. 10, 1965; printed 對口開)
@@ -274,18 +272,6 @@
   form: study
   open: not held
   read: false
-- id: x.1959.zhongfa-59-1010-zhejiang-wenzhou-jinhua-report
-  what: 〈中央轉批浙江省委「關於溫州、金華地區少數地方在社會主義教育運動中發生違反政策情況的報告」〉,中發〔59〕1010號 (the Center's forwarding of the Zhejiang committee's report on breaches of policy in Wenzhou and Jinhua; the note prints
-    Dec. 21, 1958 with a [59] number)
-  kind: file
-  date: '1959'
-  agent:
-  - Central Committee 中共中央
-  where: cited by *Tiandi fanfu* (2016 ed.), I, 61 n.47; not held
-  made: contemporaneous
-  form: original
-  open: not held
-  read: false
 - id: x.1959-10-14.zhongfa-59-822-qinghai-zhang-guosheng-resolution
   what: 〈中央同意青海省委關於以張國聲同志為首的反黨集團錯誤的決議〉,1959年10月14日,中發〔59〕822號 (the Center's approval of the Qinghai committee's resolution on the anti-Party clique headed by Zhang Guosheng, Oct. 14,
     1959, Zhongfa [59] 822)
@@ -309,17 +295,6 @@
   form: print
   open: not held
   read: false
-- id: x.1985.liu-shaoqi-xuanji-2-1985
-  what: 《劉少奇選集》下卷,北京,人民出版社,1985年 (*Liu Shaoqi xuanji*, vol. 2, Renmin chubanshe, 1985)
-  kind: collection
-  date: '1985'
-  agent:
-  - Liu Shaoqi 劉少奇
-  where: cited by *Tiandi fanfu* (2016 ed.), I, 68 n.61, 73 n.74; not held
-  made: later
-  form: print
-  open: not held
-  read: false
 - id: x.1994-07-01.deng-liqun-interview-record-1994-07-01
   what: 1994年7月1日訪問鄧力群記錄 (record of an interview with Deng Liqun 鄧力群, July 1, 1994, as Zhang Suhua cites it)
   kind: interview
@@ -329,17 +304,6 @@
   where: cited by *Tiandi fanfu* (2016 ed.), I, 68 n.62a (through Zhang Suhua, 285); not held
   made: later
   form: account
-  open: not held
-  read: false
-- id: x.undated.mao-zedong-sixiang-wansui-1961-1968
-  what: 《毛澤東思想萬歲》(1961–1968) (*Mao Zedong sixiang wansui*, 1961–1968, an unofficial collection)
-  kind: collection
-  date: null
-  agent:
-  - Mao Zedong 毛澤東
-  where: cited by *Tiandi fanfu* (2016 ed.), I, 70 n.70 (p. 17), 76 n.84 (pp. 29–30); not held
-  made: later
-  form: print
   open: not held
   read: false
 - id: x.undated.mao-zedong-sixiang-wansui-1967-1968-3
@@ -353,29 +317,6 @@
   form: print
   open: not held
   read: false
-- id: x.1962-02-28.gansu-province-level-cadres-opinions-compilation-1962-02-28
-  what: 〈甘肅省的省級單位十九級以上的黨員幹部學習討論擴大中央工作會議文件中對中央、中央有關負責同志和中央有關部門提出的意見〉,1962年2月28日,省委辦公廳匯集,甘肅省檔案館 (the opinions of Gansu's Party cadres of grade 19 and above on the Center and its leaders,
-    compiled by the provincial committee's general office, Feb. 28, 1962, Gansu archives)
-  kind: report
-  date: '1962-02-28'
-  agent:
-  - Gansu committee general office 甘肅省委辦公廳
-  where: cited by *Tiandi fanfu* (2016 ed.), I, 71 n.71; Gansu archives; not held
-  made: contemporaneous
-  form: original
-  open: closed archive
-  read: false
-- id: x.1994.huang-kecheng-zishu-1994
-  what: 《黃克誠自述》,北京,人民出版社,1994年 (*Huang Kecheng zishu*, Renmin chubanshe, 1994)
-  kind: memoir
-  date: '1994'
-  agent:
-  - Huang Kecheng 黃克誠
-  where: cited by *Tiandi fanfu* (2016 ed.), I, 78 n.90, 79 n.96 (p. 270); not held
-  made: later
-  form: account
-  open: not held
-  read: false
 - id: x.2013.yang-jisheng-gao-gang-liang-ren-mishu-tan-gao-gang-2013
   what: 楊繼繩:〈高崗兩任秘書談高崗〉,載楊繼繩《中國當代名人政要訪談評論集》,天地圖書,香港,2013年,第83–104頁 (Yang Jisheng 楊繼繩, "Gao Gang's two secretaries on Gao Gang," 2013)
   kind: interview
@@ -387,6 +328,8 @@
   form: account
   open: not held
   read: false
+  part_of: x.2013.yang-jisheng-zhongguo-dangdai-mingren-zhengyao-fangtan-shuping-ji-2013
+  pin: 83–104
 - id: x.1964-07-05.wang-guangmei-taoyuan-jingyan-1964-07-05
   what: 王光美:《關於一個大隊的社會主義教育運動的經驗總結》(「桃園經驗」),1964年7月5日,見《批判材料:中國赫魯曉夫劉少奇反革命修正主義言論集1958年6月–1967年7月》第471–570頁 (Wang Guangmei 王光美, the "Taoyuan experience," July 5, 1964, printed in a Red
     Guard *Pipan cailiao*)
@@ -399,28 +342,9 @@
   form: print
   open: not held
   read: false
-- id: x.1964-09-01.zhongfa-64-527-taoyuan-forwarding-1964-09-01
-  what: 〈中央轉發「關於一個大隊的社會主義教育運動的經驗總結」的批示〉,1964年9月1日,中發〔64〕第527號 (the Center's comment forwarding the Taoyuan report, Sept. 1, 1964, Zhongfa [64] 527)
-  kind: file
-  date: '1964-09-01'
-  agent:
-  - Central Committee 中共中央
-  where: cited by *Tiandi fanfu* (2016 ed.), I, 86 n.114; not held
-  made: contemporaneous
-  form: original
-  open: not held
-  read: false
-- id: x.2006-01.gao-hua-zai-guizhou-siqing-yundong-de-beihou-lingdaozhe-2006-1
-  what: 高華:〈在貴州「四清運動」的背後〉,《領導者》2006年1月號 (Gao Hua 高華, "Behind Guizhou's four clean-ups," *Lingdaozhe*, Jan. 2006)
-  kind: study
-  date: 2006-01
-  agent:
-  - Gao Hua 高華
-  where: cited by *Tiandi fanfu* (2016 ed.), I, 87 n.115; not held
-  made: later
-  form: study
-  open: not held
-  read: false
+  from:
+  - of: x.1964-07-05.wang-guangmei-report-taoyuan-brigade
+    kind: print
 - id: x.undated.luo-bing-mao-zedong-fadong-shejiao-yundong-jiemi
   what: 羅冰:〈毛澤東發動社教運動解密〉,轉引自宋永毅〈劉少奇對文化大革命的貢獻〉,《文化大革命:歷史真相和集體記憶》上冊,田園書屋,2010年,第227頁 (Luo Bing 羅冰, as quoted by Song Yongyi, 2010)
   kind: study
@@ -494,17 +418,6 @@
   agent:
   - Tang Rongzhi 唐榮智
   where: cited by *Tiandi fanfu* (2016 ed.), I, 109 n.9; not held
-  made: later
-  form: account
-  open: not held
-  read: false
-- id: x.1991.wang-chuncai-yuanshuai-de-zuihou-suiyue-1991
-  what: '王春才:《元帥的最後歲月——彭德懷在三線》,四川人民出版社,1991年 (Wang Chuncai 王春才, *Yuanshuai de zuihou suiyue: Peng Dehuai zai sanxian*, Sichuan renmin chubanshe, 1991)'
-  kind: memoir
-  date: '1991'
-  agent:
-  - Wang Chuncai 王春才
-  where: cited by *Tiandi fanfu* (2016 ed.), I, 110 n.14 (p. 33); not held
   made: later
   form: account
   open: not held

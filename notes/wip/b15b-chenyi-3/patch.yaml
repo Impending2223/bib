@@ -793,6 +793,68 @@ ops:
       - 1964-01-21T12:00Z
       time_band: morning
       time_zone: Africa/Conakry
+- edit:
+    id: cal.1964-02-14.china-leadership-2
+    base: aa56e042
+    set:
+      time_range:
+      - 1964-02-14T12:30Z
+      - 1964-02-14T15:30Z
+      time_band: evening
+      time_zone: Asia/Yangon
+      place: rangoon
+- edit:
+    id: cal.1964-02-19.china-leadership-2
+    base: 1ad528a7
+    set:
+      time_range:
+      - 1964-02-19T14:00Z
+      - 1964-02-19T17:00Z
+      time_band: evening
+      time_zone: Asia/Karachi
+      place: karachi
+- edit:
+    id: cal.1964-02-25.china-leadership-2
+    base: 6aa1246b
+    set:
+      time_range:
+      - 1964-02-25T00:00Z
+      - 1964-02-25T06:00Z
+      time_band: morning
+      time_zone: Asia/Dhaka
+- edit:
+    id: cal.1964-03-17.china-leadership
+    base: 2e33576e
+    set:
+      time_range:
+      - 1964-03-16T22:00Z
+      - 1964-03-17T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1964-03-23.china-leadership-2
+    base: 5e295fb2
+    set:
+      time_range:
+      - 1964-03-23T11:00Z
+      - 1964-03-23T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1964-04-10.china-2
+    base: 15ec0d35
+    set:
+      time: 1964-04-10T08:00Z
+      time_zone: Asia/Jakarta
+- edit:
+    id: cal.1964-04-11.china-leadership-3
+    base: f09e44e9
+    set:
+      time_range:
+      - 1964-04-11T05:00Z
+      - 1964-04-11T11:00Z
+      time_band: afternoon
+      time_zone: Asia/Jakarta
 - place-key:
     key: yangshuo
     name: Yangshuo
@@ -7066,51 +7128,6 @@ ops:
       - name:chen-yi
 - add:
     entry:
-      id: cal.1964-01-09.china-leadership-13
-      when: Jan. 9
-      date: '1964-01-09'
-      time_range:
-      - 1964-01-09T11:00Z
-      - 1964-01-09T17:00Z
-      time_band: afternoon
-      time_zone: Africa/Tunis
-      place: tunis
-      thread: china-leadership
-      also:
-      - africa
-      c: Carthage 迦太基, the presidential palace. Chen Yi 陈毅 with Zhou Enlai 周恩来 calls on Habib Bourguiba, President of Tunisia.
-      n: '[[w.chen-yi-nianpu]], 1007. The words: 下午 (1007). Names: Chen Yi, Zhou Enlai, Bourguiba.'
-      tags:
-      - polity:prc
-      - polity:tunisia
-      - name:chen-yi
-      - name:zhou-enlai
-      - name:bourguiba-habib-ben-ali
-- add:
-    entry:
-      id: cal.1964-01-09.china-leadership-14
-      when: Jan. 9
-      date: '1964-01-09'
-      time_range:
-      - 1964-01-09T18:00Z
-      - 1964-01-09T21:00Z
-      time_band: evening
-      time_zone: Africa/Tunis
-      place: tunis
-      thread: china-leadership
-      also:
-      - africa
-      c: Chen Yi 陈毅 in Zhou Enlai's 周恩来 talks with Bourguiba.
-      n: '[[w.chen-yi-nianpu]], 1007. The words: 晚上 (1007). Made public: 1995. Names: Chen Yi, Zhou Enlai, Bourguiba.'
-      tags:
-      - polity:prc
-      - polity:tunisia
-      - name:chen-yi
-      - name:zhou-enlai
-      - name:bourguiba-habib-ben-ali
-      - vis:only:prc+tunisia
-- add:
-    entry:
       id: cal.1964-01-10.china-leadership-12
       when: Jan. 10
       date: '1964-01-10'
@@ -7174,50 +7191,6 @@ ops:
       - polity:tunisia
       - name:chen-yi
       - name:zhou-enlai
-- add:
-    entry:
-      id: cal.1964-01-10.china-leadership-15
-      when: Jan. 10
-      date: '1964-01-10'
-      time_range:
-      - 1964-01-10T18:00Z
-      - 1964-01-10T21:00Z
-      time_band: evening
-      time_zone: Africa/Tunis
-      place: tunis
-      thread: china-leadership
-      also:
-      - africa
-      c: Tunis 突尼斯, the Majestic Hotel 美琪大饭店. Chen Yi 陈毅 at Zhou Enlai's 周恩来 banquet for President Bourguiba.
-      n: '[[w.chen-yi-nianpu]], 1008. The words: 晚上 (1008). Names: Chen Yi, Zhou Enlai, Bourguiba.'
-      tags:
-      - polity:prc
-      - polity:tunisia
-      - name:chen-yi
-      - name:zhou-enlai
-      - name:bourguiba-habib-ben-ali
-- add:
-    entry:
-      id: cal.1964-01-10.china-leadership-16
-      when: Jan. 10
-      date: '1964-01-10'
-      time_range:
-      - 1964-01-10T18:00Z
-      - 1964-01-10T21:00Z
-      time_band: evening
-      time_zone: Africa/Tunis
-      place: tunis
-      thread: china-leadership
-      also:
-      - africa
-      c: Carthage 迦太基, the presidential palace. Chen Yi 陈毅 and Zhou Enlai 周恩来 take leave of Bourguiba.
-      n: '[[w.chen-yi-nianpu]], 1008. The words: 晚上 (1008). Names: Chen Yi, Zhou Enlai, Bourguiba.'
-      tags:
-      - polity:prc
-      - polity:tunisia
-      - name:chen-yi
-      - name:zhou-enlai
-      - name:bourguiba-habib-ben-ali
 - add:
     entry:
       id: cal.1964-01-09.china-leadership-15
@@ -7535,49 +7508,6 @@ ops:
       - name:zhou-enlai
 - add:
     entry:
-      id: cal.1964-02-04.china-leadership-10
-      when: Feb. 4
-      date: '1964-02-04'
-      time_range:
-      - 1964-02-04T03:00Z
-      - 1964-02-04T09:00Z
-      time_band: morning
-      time_zone: Africa/Mogadishu
-      place: mogadishu
-      thread: china-leadership
-      also:
-      - africa
-      c: Mogadishu 摩加迪沙, Villa Somalia. Chen Yi 陈毅 and Zhou Enlai 周恩来 take leave of President Aden Abdullah Osman.
-      n: '[[w.chen-yi-nianpu]], 1013. The words: 上午 (1013). Names: Chen Yi, Zhou Enlai.'
-      tags:
-      - polity:prc
-      - polity:somalia
-      - name:chen-yi
-      - name:zhou-enlai
-- add:
-    entry:
-      id: cal.1964-02-04.china-leadership-11
-      when: Feb. 4
-      date: '1964-02-04'
-      time_range:
-      - 1964-02-04T03:00Z
-      - 1964-02-04T09:00Z
-      time_band: morning
-      time_zone: Africa/Mogadishu
-      place: mogadishu
-      thread: china-leadership
-      also:
-      - africa
-      c: Mogadishu 摩加迪沙, the Government House. Chen Yi 陈毅 and Zhou Enlai 周恩来 take leave of Prime Minister Shermarke.
-      n: '[[w.chen-yi-nianpu]], 1013. The words: 上午 (1013). Names: Chen Yi, Zhou Enlai, Shermarke.'
-      tags:
-      - polity:prc
-      - polity:somalia
-      - name:chen-yi
-      - name:zhou-enlai
-      - name:abdirascid-ali-shermarke
-- add:
-    entry:
       id: cal.1964-02-04.china-leadership-12
       when: Feb. 4
       date: '1964-02-04'
@@ -7659,6 +7589,745 @@ ops:
       - polity:prc
       - name:chen-yi
       - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1964-02-13.china-leadership-5
+      when: Feb. 13
+      date: '1964-02-13'
+      time_range:
+      - 1964-02-12T22:00Z
+      - 1964-02-13T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Chen Yi 陈毅 and Zhou Enlai 周恩来 at the Spring Festival gathering of Sichuan 四川 and Chengdu.
+      n: '[[w.chen-yi-nianpu]], 1013–1014. The words: 上午 (1013–1014). Names: Chen Yi, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1964-02-13.china-leadership-6
+      when: Feb. 13
+      date: '1964-02-13'
+      time_range:
+      - 1964-02-12T22:00Z
+      - 1964-02-13T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the leaders of the Sichuan CPPCC 政协四川省委员会 and the democratic parties' provincial bodies, and noted figures of science, education and the arts.
+      n: '[[w.chen-yi-nianpu]], 1014. The words: 上午 (1014). Names: Chen Yi, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1964-02-17.china-leadership-8
+      when: Feb. 17
+      date: '1964-02-17'
+      thread: china-leadership
+      c: Chen Yi 陈毅 cables Kirti Nidhi Bista 基尔提·尼迪·比斯塔, Nepal's Foreign Minister, on Nepal's Democracy Day.
+      n: '[[w.chen-yi-nianpu]], 1014. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-02-17.china-leadership-9
+      when: Feb. 17
+      date: '1964-02-17'
+      time_range:
+      - 1964-02-16T23:30Z
+      - 1964-02-17T05:30Z
+      time_band: morning
+      time_zone: Asia/Yangon
+      place: rangoon
+      thread: china-leadership
+      c: Chen Yi 陈毅 back at Rangoon 仰光.
+      n: '[[w.chen-yi-nianpu]], 1014. The words: 上午 (1014). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1964-02-17.china-leadership-10
+      when: Feb. 17
+      date: '1964-02-17'
+      time_range:
+      - 1964-02-17T05:30Z
+      - 1964-02-17T11:30Z
+      time_band: afternoon
+      time_zone: Asia/Yangon
+      place: rangoon
+      thread: china-leadership
+      c: Rangoon 仰光. Chen Yi 陈毅 calls on Brig. San Yu 山友, member of the Revolutionary Council, Vice-Chief of Staff (Army) and acting Foreign Minister.
+      n: '[[w.chen-yi-nianpu]], 1014. The words: 下午 (1014). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1964-02-22.china-leadership-10
+      when: Feb. 22
+      date: '1964-02-22'
+      place: peking
+      thread: china-leadership
+      c: Zhou Baozhong 周保中, alternate member of the Central Committee and member of the CPPCC National Committee's Standing Committee, dies in Peking 北京, aged sixty-two; Chen Yi 陈毅 is named to his funeral committee.
+      n: '[[w.chen-yi-nianpu]], 1015. Names: Chen Yi, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1964-02-23.china-leadership-12
+      when: Feb. 23
+      date: '1964-02-23'
+      thread: china-leadership
+      also:
+      - africa
+      c: Chen Yi 陈毅 cables Charles-David Ganao 戴维·夏尔·加纳奥, Foreign Minister of the Congo (Brazzaville), on the establishment of relations.
+      n: '[[w.chen-yi-nianpu]], 1015. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:congo-brazzaville
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-02-24.china-leadership-12
+      when: Feb. 24
+      date: '1964-02-24'
+      time_range:
+      - 1964-02-24T01:00Z
+      - 1964-02-24T07:00Z
+      time_band: morning
+      time_zone: Asia/Karachi
+      place: lahore
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Lahore 拉合尔. Chen Yi 陈毅 visits the Shalimar Gardens 夏利马尔公园 and the Mughal tomb of Jahangir 吉汉吉尔.
+      n: '[[w.chen-yi-nianpu]], 1016. The words: 上午 (1016). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1964-02-26.china-leadership-9
+      when: Feb. 26
+      date: '1964-02-26'
+      time_range:
+      - 1964-02-26T00:00Z
+      - 1964-02-26T06:00Z
+      time_band: morning
+      time_zone: Asia/Dhaka
+      place: dacca
+      thread: china-leadership
+      c: Dacca 达卡, the airport. Chen Yi 陈毅 meets Soong Ching-ling 宋庆龄, Vice-Chairman of the People's Republic, on her way to Ceylon.
+      n: '[[w.chen-yi-nianpu]], 1017. The words: 上午 (1017). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+- add:
+    entry:
+      id: cal.1964-02-26.china-leadership-10
+      when: Feb. 26
+      date: '1964-02-26'
+      time_range:
+      - 1964-02-26T06:30Z
+      - 1964-02-26T12:30Z
+      time_band: afternoon
+      time_zone: Asia/Colombo
+      place: colombo
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Colombo 科伦坡. Soong Ching-ling 宋庆龄 and Zhou Enlai 周恩来 call on the Governor-General, William Gopallawa 威廉·高伯拉瓦, and his wife; Chen Yi 陈毅 present.
+      n: '[[w.chen-yi-nianpu]], 1017. The words: 下午 (1017). Names: Zhou Enlai, Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:ceylon
+      - name:chen-yi
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1964-02-27.china-leadership-9
+      when: Feb. 27
+      date: '1964-02-27'
+      time_range:
+      - 1964-02-27T00:30Z
+      - 1964-02-27T06:30Z
+      time_band: morning
+      time_zone: Asia/Colombo
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅, with Soong Ching-ling 宋庆龄 and Zhou Enlai 周恩来, lays a wreath at the tomb of Solomon Bandaranaike 所罗门·班达拉奈克, the late Prime Minister of Ceylon.
+      n: '[[w.chen-yi-nianpu]], 1017. The words: 上午 (1017). Names: Chen Yi, Zhou Enlai, Bandaranaike.'
+      tags:
+      - polity:prc
+      - polity:ceylon
+      - name:chen-yi
+      - name:zhou-enlai
+      - name:bandaranaike-s-w-r-d
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-02-27.china-leadership-10
+      when: Feb. 27
+      date: '1964-02-27'
+      time_range:
+      - 1964-02-27T06:30Z
+      - 1964-02-27T12:30Z
+      time_band: afternoon
+      time_zone: Asia/Colombo
+      place: colombo
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Colombo 科伦坡. Chen Yi 陈毅 and Zhou Enlai 周恩来 at the Ceylon–China Friendship Association's tea party; Chen Yi speaks on the two countries' friendship.
+      n: '[[w.chen-yi-nianpu]], 1017. The words: 下午 (1017). Names: Chen Yi, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - polity:ceylon
+      - name:chen-yi
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1964-02-27.china-leadership-11
+      when: Feb. 27
+      date: '1964-02-27'
+      time_range:
+      - 1964-02-27T13:30Z
+      - 1964-02-27T16:30Z
+      time_band: evening
+      time_zone: Asia/Colombo
+      place: colombo
+      thread: china-leadership
+      c: Colombo 科伦坡. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the staff of the Chinese embassy in Ceylon; a photograph taken.
+      n: '[[w.chen-yi-nianpu]], 1017. The words: 晚上 (1017). Made public: 1995. Names: Chen Yi, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-02-25.china-leadership-11
+      when: Feb. 25
+      date: '1964-02-25'
+      thread: china-leadership
+      also:
+      - africa
+      c: Charles-David Ganao 戴维·夏尔·加纳奥, Foreign Minister of the Congo (Brazzaville), cables Chen Yi 陈毅 his thanks for his greetings on the establishment of relations; Chen Yi receives it Feb. 29.
+      n: '[[w.chen-yi-nianpu]], 1017. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:congo-brazzaville
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-02-29.china-leadership-11
+      when: Feb. 29
+      date: '1964-02-29'
+      time_range:
+      - 1964-02-29T06:30Z
+      - 1964-02-29T12:30Z
+      time_band: afternoon
+      time_zone: Asia/Colombo
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 and his wife visit the Kelaniya temple 克拉尼亚寺.
+      n: '[[w.chen-yi-nianpu]], 1017. The words: 下午 (1017). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:ceylon
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-03-01.china-leadership-8
+      when: Mar. 1
+      date: '1964-03-01'
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Leaving Ceylon, Soong Ching-ling 宋庆龄, Zhou Enlai 周恩来 and Chen Yi 陈毅 cable their thanks to the Governor-General, William Gopallawa, and the Prime Minister, Mrs. Bandaranaike.
+      n: '[[w.chen-yi-nianpu]], 1018. Names: Zhou Enlai, Chen Yi, Bandaranaike.'
+      tags:
+      - polity:prc
+      - polity:ceylon
+      - name:chen-yi
+      - name:zhou-enlai
+      - name:bandaranaike-srimavo
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-03-01.china-leadership-9
+      when: Mar. 1
+      date: '1964-03-01'
+      thread: china-leadership
+      c: Over Burma on the flight home, Soong Ching-ling 宋庆龄, Zhou Enlai 周恩来 and Chen Yi 陈毅 cable their good wishes to General Ne Win.
+      n: '[[w.chen-yi-nianpu]], 1018. Names: Zhou Enlai, Chen Yi, Ne Win.'
+      tags:
+      - polity:prc
+      - polity:burma
+      - name:chen-yi
+      - name:zhou-enlai
+      - name:ne-win
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-03-01.china-leadership-10
+      when: Mar. 1
+      date: '1964-03-01'
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 and Bhutto exchange cables on the first anniversary of the China–Pakistan boundary agreement.
+      n: '[[w.chen-yi-nianpu]], 1018. Names: Chen Yi, Bhutto.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:bhutto-zulfikar-ali
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-03-02.china-leadership-7
+      when: Mar. 2
+      date: '1964-03-02'
+      place: kunming
+      thread: china-leadership
+      c: Kunming 昆明. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the leaders of the Yunnan committee 中共云南省委 and the secretaries of the province's prefectural and city committees meeting at Kunming.
+      n: '[[w.chen-yi-nianpu]], 1018. Made public: 1995. Names: Chen Yi, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+      - ok:fields-time
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1964-03-02.china-leadership-8
+      when: Mar. 2
+      date: '1964-03-02'
+      time_range:
+      - 1964-03-02T04:00Z
+      - 1964-03-02T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: kunming
+      thread: china-leadership
+      c: Kunming 昆明. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the conference of the Kunming forces' "four-good" companies and "five-good" soldiers; a photograph taken.
+      n: '[[w.chen-yi-nianpu]], 1018. The words: 中午 (1018). Names: Chen Yi, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1964-03-07.china-leadership-5
+      when: Mar. 7
+      date: '1964-03-07'
+      time_range:
+      - 1964-03-07T04:00Z
+      - 1964-03-07T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the women cadres of Sichuan and Chengdu at their gala for International Women's Day.
+      n: '[[w.chen-yi-nianpu]], 1018. The words: 中午 (1018). Names: Chen Yi, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1964-03-07.china-leadership-6
+      when: Mar. 7
+      date: '1964-03-07'
+      time_range:
+      - 1964-03-07T04:00Z
+      - 1964-03-07T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      place: chengdu
+      thread: china-leadership
+      c: Chengdu 成都. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the delegates to the third Party congress of the Chengdu forces.
+      n: '[[w.chen-yi-nianpu]], 1018. The words: 中午 (1018). Names: Chen Yi, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+- add:
+    entry:
+      id: cal.1964-03-17.china-leadership-4
+      when: Mar. 17
+      date: '1964-03-17'
+      time_range:
+      - 1964-03-16T22:00Z
+      - 1964-03-17T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: 亨利·穆利, Kenya's first Ambassador to China, calls on Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1018–1019. The words: 上午 (1018–1019). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:kenya
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-03-18.china-leadership-5
+      when: Mar. 18
+      date: '1964-03-18'
+      time_range:
+      - 1964-03-17T22:00Z
+      - 1964-03-18T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Helge Akre 黑尔格·阿克雷, Norway's new Ambassador, calls on Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1019. The words: 上午 (1019). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:norway
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-03-18.china-leadership-6
+      when: Mar. 18
+      date: '1964-03-18'
+      time_range:
+      - 1964-03-17T22:00Z
+      - 1964-03-18T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - africa
+      c: Joe Fio Meyer 乔-非奥·麦耶, Ghana's new Ambassador, calls on Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1019. The words: 上午 (1019). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:ghana
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-03-19.china-leadership-7
+      when: Mar. 19
+      date: '1964-03-19'
+      time_range:
+      - 1964-03-18T22:00Z
+      - 1964-03-19T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Claude Chayet 克劳德·沙耶, the French chargé d'affaires, calls on Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1019. The words: 上午 (1019). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:fr
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-03-20.china-leadership-8
+      when: Mar. 20
+      date: '1964-03-20'
+      time_range:
+      - 1964-03-20T04:00Z
+      - 1964-03-20T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - japan
+      c: Chen Yi 陈毅 receives the Japanese writers' delegation led by Kamei Katsuichirō 龟井胜一郎.
+      n: '[[w.chen-yi-nianpu]], 1019. The words: 下午 (1019). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:japan
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-03-22.china-leadership-7
+      when: Mar. 22
+      date: '1964-03-22'
+      thread: china-leadership
+      also:
+      - south-asia
+      c: Chen Yi 陈毅 cables Bhutto, Pakistan's Foreign Minister, on Pakistan's national day.
+      n: '[[w.chen-yi-nianpu]], 1019. Names: Chen Yi, Bhutto.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:chen-yi
+      - name:bhutto-zulfikar-ali
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-03-31.china-leadership-6
+      when: Mar. 31
+      date: '1964-03-31'
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Chen Yi 陈毅 cables Subandrio, Indonesia's First Deputy Prime Minister and Foreign Minister, on the third anniversary of the treaty of friendship.
+      n: '[[w.chen-yi-nianpu]], 1019–1020. Names: Chen Yi, Subandrio.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:subandrio
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-03-31.china-leadership-7
+      when: Mar. 31
+      date: '1964-03-31'
+      time_range:
+      - 1964-03-31T11:00Z
+      - 1964-03-31T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the playwrights, writers and troupes' representatives who won the prizes for spoken drama written and staged since 1963.
+      n: '[[w.chen-yi-nianpu]], 1020. The words: 晚上 (1020). Names: Chen Yi, Zhou Enlai.'
+      tags:
+      - polity:prc
+      - name:chen-yi
+      - name:zhou-enlai
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-04-01.china-leadership-4
+      when: Apr. 1
+      date: '1964-04-01'
+      time_range:
+      - 1964-04-01T04:00Z
+      - 1964-04-01T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 gives a banquet for the Cambodian military delegation led by General Lon Nol.
+      n: '[[w.chen-yi-nianpu]], 1020. The words: 中午 (1020). Names: Chen Yi, Lon Nol.'
+      tags:
+      - polity:prc
+      - polity:cambodia
+      - name:chen-yi
+      - name:lon-nol
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-04-01.china-leadership-5
+      when: Apr. 1
+      date: '1964-04-01'
+      time_range:
+      - 1964-04-01T04:00Z
+      - 1964-04-01T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Chen Yi 陈毅 toasts at the China–Indonesia Friendship Association's cocktail party for the third anniversary of the treaty of friendship and the cultural agreement, to the Indonesian people's smashing of the "Malaysia" plan.
+      n: '[[w.chen-yi-nianpu]], 1020. The words: 下午 (1020). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-04-02.china-leadership-9
+      when: Apr. 2
+      date: '1964-04-02'
+      time_range:
+      - 1964-04-02T11:00Z
+      - 1964-04-02T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 receives 沙里 of the Danish *Berlingske Tidende* 《贝林时报》 and answers his questions.
+      n: '[[w.chen-yi-nianpu]], 1020. The words: 晚上 (1020). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:denmark
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-04-03.china-leadership-8
+      when: Apr. 3
+      date: '1964-04-03'
+      thread: china-leadership
+      c: Chen Yi 陈毅 cables Péter János 彼得·亚诺什, Hungary's Foreign Minister, on the nineteenth anniversary of Hungary's liberation.
+      n: '[[w.chen-yi-nianpu]], 1020. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:hungary
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-04-03.china-leadership-9
+      when: Apr. 3
+      date: '1964-04-03'
+      time_range:
+      - 1964-04-02T22:00Z
+      - 1964-04-03T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Alex 阿列克斯·拉博伊里, the new Dutch chargé d'affaires, presents his letter of introduction to Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1020. The words: 上午 (1020). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:netherlands
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-04-04.china-leadership-7
+      when: Apr. 4
+      date: '1964-04-04'
+      time_range:
+      - 1964-04-04T11:00Z
+      - 1964-04-04T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Chen Yi 陈毅 toasts at the reception of Horváth József 郝拉思·尤若夫, the Hungarian Ambassador, for the nineteenth anniversary of Hungary's liberation.
+      n: '[[w.chen-yi-nianpu]], 1020. The words: 晚上 (1020). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:hungary
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-04-06.china-leadership-6
+      when: Apr. 6
+      date: '1964-04-06'
+      time_range:
+      - 1964-04-06T04:00Z
+      - 1964-04-06T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - laos
+      c: Chen Yi 陈毅 gives a luncheon for Prince Souvanna Phouma and the Laotian government delegation.
+      n: '[[w.chen-yi-nianpu]], 1020–1021. The words: 午宴 (1020–1021). Names: Chen Yi, Souvanna Phouma.'
+      tags:
+      - polity:prc
+      - polity:laos
+      - name:chen-yi
+      - name:souvanna-phouma
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-04-07.china-leadership-7
+      when: Apr. 7
+      date: '1964-04-07'
+      time_range:
+      - 1964-04-06T22:00Z
+      - 1964-04-07T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      c: Günther Kohrt 君特·柯尔特, the GDR's new Ambassador, calls on Chen Yi 陈毅 about presenting his credentials.
+      n: '[[w.chen-yi-nianpu]], 1021. The words: 上午 (1021). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:gdr
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-04-08.china-leadership-7
+      when: Apr. 8
+      date: '1964-04-08'
+      time_range:
+      - 1964-04-08T04:00Z
+      - 1964-04-08T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Chen Yi 陈毅 receives the Indonesia–China Friendship Association's delegation led by 阿·阿·哈拉哈普.
+      n: '[[w.chen-yi-nianpu]], 1021. The words: 下午 (1021). Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-04-10.china-leadership-7
+      when: Apr. 10
+      date: '1964-04-10'
+      time_range:
+      - 1964-04-10T12:00Z
+      - 1964-04-10T15:00Z
+      time_band: evening
+      time_zone: Asia/Jakarta
+      place: jakarta
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Jakarta 雅加达. Chen Yi 陈毅 at President Sukarno's reception for all the delegations to the preparatory meeting.
+      n: '[[w.chen-yi-nianpu]], 1021. The words: 晚上 (1021). Names: Chen Yi, Sukarno.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:sukarno
+- add:
+    entry:
+      id: cal.1964-04-11.china-leadership-5
+      when: Apr. 11
+      date: '1964-04-11'
+      time_range:
+      - 1964-04-11T12:00Z
+      - 1964-04-11T15:00Z
+      time_band: evening
+      time_zone: Asia/Jakarta
+      place: jakarta
+      thread: china-leadership
+      also:
+      - indonesia
+      c: Jakarta 雅加达. Chen Yi 陈毅 at President Sukarno's state banquet for the heads of the 22 delegations to the preparatory meeting.
+      n: '[[w.chen-yi-nianpu]], 1021. The words: 晚上 (1021). Names: Chen Yi, Sukarno.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - name:chen-yi
+      - name:sukarno
 - cite:
     id: cal.1963-02-12.china
     item: '[[w.chen-yi-nianpu]], 954 (Feb. 12, 1963; Chen Yi''s cable to Taleb Hussein Shabib, Iraq''s Foreign Minister, that China recognizes the new government of the Republic of Iraq)'
@@ -8345,6 +9014,9 @@ ops:
     id: cal.1964-01-09.china-leadership
     item: '[[w.chen-yi-nianpu]], 1007 (Jan. 9, 1964, morning; Chen Yi with Zhou by special plane from Tirana to Tunis 突尼斯)'
 - cite:
+    id: cal.1964-01-09.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1007 (Jan. 9, 1964, afternoon, Chen Yi with Zhou calls on Bourguiba at the presidential palace at Carthage 迦太基; evening, in Zhou''s talks with him)'
+- cite:
     id: cal.1964-01-09.china-leadership-3
     item: '[[w.chen-yi-nianpu]], 1007 (Jan. 9, 1964, evening, the Carthage palace 迦太基宫; Chen Yi present)'
 - cite:
@@ -8362,6 +9034,12 @@ ops:
 - cite:
     id: cal.1964-01-10.china-leadership-5
     item: '[[w.chen-yi-nianpu]], 1007 (Jan. 10, 1964; Chen Yi with Zhou)'
+- cite:
+    id: cal.1964-01-10.china-leadership-7
+    item: '[[w.chen-yi-nianpu]], 1008 (Jan. 10, 1964, evening; Chen Yi present)'
+- cite:
+    id: cal.1964-01-10.china-leadership-9
+    item: '[[w.chen-yi-nianpu]], 1008 (Jan. 10, 1964, evening, the presidential palace at Carthage; Chen Yi with Zhou)'
 - cite:
     id: cal.1964-01-10.china-leadership-10
     item: '[[w.chen-yi-nianpu]], 1008 (Jan. 10, 1964, 11 p.m.; Chen Yi with Zhou leaves Tunis for Ghana)'
@@ -8528,5 +9206,185 @@ ops:
     id: cal.1964-02-03.china-leadership-4
     item: '[[w.chen-yi-nianpu]], 1013 (Feb. 3, 1964, evening; Chen Yi at the reception of Abdullahi Issa Mohamud 阿卜杜拉希·伊萨·穆罕默德)'
 - cite:
+    id: cal.1964-02-04.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1013 (Feb. 4, 1964, morning; Chen Yi with Zhou takes leave of the President at Villa Somalia and of Shermarke at the Government House)'
+- cite:
     id: cal.1964-02-04.china-leadership-2
     item: '[[w.chen-yi-nianpu]], 1013 (Feb. 4, 1964, morning; Chen Yi with Zhou leaves Mogadishu)'
+- cite:
+    id: cal.1964-02-14.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1014 (Feb. 14, 1964, morning, Chen Yi with Zhou leaves Kunming; noon, at Rangoon)'
+- cite:
+    id: cal.1964-02-14.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1014 (Feb. 14, 1964, afternoon; Chen Yi with Zhou)'
+- cite:
+    id: cal.1964-02-14.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1014 (Feb. 14, 1964, evening, the state guesthouse, Chen Yi present at Zhou''s call on Ne Win; at Ne Win''s state banquet and the performance after it in the open-air theater nearby)'
+- cite:
+    id: cal.1964-02-15.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1014 (Feb. 15, 1964, morning; Chen Yi with Zhou from Rangoon to Ngapali Beach 额不里海滩, a day at the resort)'
+- cite:
+    id: cal.1964-02-15.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1014 (Feb. 15, 1964, evening; Chen Yi with Zhou)'
+- cite:
+    id: cal.1964-02-16.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1014 (Feb. 16, 1964; Chen Yi in the talks, at Ngapali)'
+- variant:
+    id: cal.1964-02-16.china-leadership
+    unit: A
+    witness: w.chen-yi-nianpu
+    reads: Zhou Enlai's talks with Ne Win on Feb. 16 are held at Ngapali, Chen Yi present
+    at: '1014'
+- cite:
+    id: cal.1964-02-17.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1014 (Feb. 17, 1964, evening; Chen Yi present)'
+- cite:
+    id: cal.1964-02-18.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1014 (Feb. 18, 1964, 8 a.m., Chen Yi with Zhou leaves Rangoon; afternoon, at Karachi 卡拉奇)'
+- cite:
+    id: cal.1964-02-18.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1014 (Feb. 18, 1964, afternoon; Chen Yi with Zhou at the tomb of Mohammad Ali Jinnah 穆罕默德·阿里·真纳)'
+- cite:
+    id: cal.1964-02-18.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1014 (Feb. 18, 1964, afternoon; Chen Yi with Zhou)'
+- cite:
+    id: cal.1964-02-18.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1015 (Feb. 18, 1964, evening; Chen Yi with Zhou at the banquet of Mohammed Shoaib and his wife)'
+- cite:
+    id: cal.1964-02-19.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1015 (Feb. 19, 1964; Chen Yi with Zhou)'
+- cite:
+    id: cal.1964-02-19.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1015 (Feb. 19, 1964, evening; Chen Yi with Zhou at the reception of Ding Guoyu 丁国钰 and his wife for the visit)'
+- cite:
+    id: cal.1964-02-19.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1015 (Feb. 19, 1964, evening; a photograph taken with the staff)'
+- cite:
+    id: cal.1964-02-20.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1015 (Feb. 20, 1964, 12:20, Chen Yi with Zhou from Karachi to Chaklala airport 恰克拉拉机场, Rawalpindi 拉瓦尔品第; 4:30 p.m., in the talks with Ayub Khan)'
+- cite:
+    id: cal.1964-02-20.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1015 (Feb. 20, 1964, evening; Chen Yi present)'
+- cite:
+    id: cal.1964-02-21.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1015 (Feb. 21, 1964, early morning; Chen Yi in the talks)'
+- cite:
+    id: cal.1964-02-21.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1015 (Feb. 21, 1964, afternoon; Chen Yi with Zhou at Islamabad, 7 miles northeast of Rawalpindi)'
+- cite:
+    id: cal.1964-02-21.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1015 (Feb. 21, 1964, evening; the dinner of Bhutto and his wife for Zhou, Chen Yi and Zhang Qian 张茜)'
+- cite:
+    id: cal.1964-02-22.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1015 (Feb. 22, 1964, evening; Chen Yi present)'
+- cite:
+    id: cal.1964-02-23.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1015 (Feb. 23, 1964, morning, Chen Yi with Zhou from Rawalpindi to Lahore 拉合尔; afternoon, present at Zhou''s wreath at the tomb of Allama Muhammad Iqbal 阿拉马·穆罕默德·伊克巴勒)'
+- cite:
+    id: cal.1964-02-23.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1016 (Feb. 23, 1964, afternoon; Chen Yi speaks: brings the Chinese people''s greetings; no force can stop the wheel of Asian history)'
+- cite:
+    id: cal.1964-02-23.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1016 (Feb. 23, 1964, evening; the Governor, Malik Amir Mohammad Khan 马利克·阿米尔·穆罕默德汗, welcomes Zhou and Chen Yi; Pakistani folk dances after)'
+- cite:
+    id: cal.1964-02-24.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1016 (Feb. 24, 1964; Chen Yi''s cable to Takasaki''s family)'
+- cite:
+    id: cal.1964-02-24.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1016 (Feb. 24, 1964; Chen Yi with Zhou, Bhutto and his wife and the Governor, by the lake in the garden of the Governor''s house)'
+- cite:
+    id: cal.1964-02-24.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1016 (Feb. 24, 1964; Chen Yi with Zhou)'
+- cite:
+    id: cal.1964-02-24.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1016 (Feb. 24, 1964, dusk; Chen Yi with Zhou from Lahore to Dacca 达卡)'
+- cite:
+    id: cal.1964-02-24.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1016 (Feb. 24, 1964, evening; the Governor, Abdul Monem Khan 阿卜杜勒·穆奈姆汗, welcomes Zhou, Chen Yi and Zhang Qian)'
+- cite:
+    id: cal.1964-02-25.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1016 (Feb. 25, 1964, morning; Chen Yi with Zhou on the Shitalakshya 希塔拉卡雅河)'
+- cite:
+    id: cal.1964-02-25.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1016 (Feb. 25, 1964, afternoon, the New Town park; the reception welcomes Zhou and Chen Yi)'
+- cite:
+    id: cal.1964-02-25.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1016 (Feb. 25, 1964, afternoon; Chen Yi at the press conference)'
+- cite:
+    id: cal.1964-02-25.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1016 (Feb. 25, 1964, evening; Chen Yi present, and at the performance after)'
+- cite:
+    id: cal.1964-02-26.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1017 (Feb. 26, 1964, morning, Chen Yi with Soong Ching-ling and Zhou leaves Dacca; afternoon, at Colombo 科伦坡)'
+- cite:
+    id: cal.1964-02-27.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1017 (Feb. 27, 1964, morning, the Prime Minister''s office; Chen Yi in the talks)'
+- cite:
+    id: cal.1964-02-27.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1017 (Feb. 27, 1964, evening; Chen Yi present)'
+- cite:
+    id: cal.1964-02-28.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1017 (Feb. 28, 1964, afternoon; Chen Yi at the mass meeting)'
+- cite:
+    id: cal.1964-02-28.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1017 (Feb. 28, 1964, evening, Government House; Chen Yi present)'
+- cite:
+    id: cal.1964-02-29.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1017 (Feb. 29, 1964, evening; Chen Yi present at the signing)'
+- cite:
+    id: cal.1964-02-29.china-leadership-7
+    item: '[[w.chen-yi-nianpu]], 1017–1018 (Feb. 29, 1964, evening, Government House, Colombo; Chen Yi present)'
+- cite:
+    id: cal.1964-02-29.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1018 (Feb. 29, 1964, evening, Chen Yi with Soong Ching-ling and Zhou leaves Colombo in the same plane; Mar. 1, 9:25 a.m., at Kunming)'
+- cite:
+    id: cal.1964-03-02.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1018 (Mar. 2, 1964)'
+- cite:
+    id: cal.1964-03-15.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1018 (Mar. 15, 1964, afternoon; Chen Yi in the same plane with Zhou from Chengdu to Peking)'
+- cite:
+    id: cal.1964-03-17.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1018 (Mar. 17, 1964, morning; Chen Yi with Zhou receives Lon Nol and his delegation and gives them a banquet)'
+- cite:
+    id: cal.1964-03-21.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1019 (Mar. 21, 1964, evening; Chen Yi at the Central Committee''s banquet for the delegation led by Hakamada Satomi 袴田里见)'
+- cite:
+    id: cal.1964-03-23.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1019 (Mar. 23, 1964, evening, the Peking Hotel; Chen Yi speaks: thanks Pakistan''s leaders again, for Zhou and himself; a second Asian-African conference)'
+- cite:
+    id: cal.1964-03-24.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1019 (Mar. 24, 1964, morning; Chen Yi with Zhou receives the Arab envoys, Zniber of Morocco, Zakaria Adly Imam 查卡里亚·阿德利·伊马姆 of the UAR, Amin of Iraq and the Syrian chargé, 哈桑·赫德)'
+- cite:
+    id: cal.1964-03-24.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1019 (Mar. 24, 1964, evening; Chen Yi and Zhang Qian''s banquet for the envoys of the countries the leaders lately visited in Europe, Africa and Asia)'
+- cite:
+    id: cal.1964-03-29.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1019 (Mar. 29, 1964, afternoon; Chen Yi with Zhou receives Khamsouk Keola 坎苏·高拉, then gives him a banquet)'
+- cite:
+    id: cal.1964-04-04.china-leadership-4
+    item: '[[w.chen-yi-nianpu]], 1020 (Apr. 4, 1964, afternoon; Chen Yi at the airport welcomes Souvanna Phouma and the Laotian government delegation)'
+- cite:
+    id: cal.1964-04-04.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1020 (Apr. 4, 1964, afternoon; Chen Yi and others at Zhou''s meeting with Souvanna Phouma; Apr. 5, morning, Chen Yi with Zhou on the return call at the guesthouse and in the talks)'
+- cite:
+    id: cal.1964-04-04.china-leadership-2
+    item: '[[w.chen-yi-nianpu]], 1020 (Apr. 4, 1964, evening; Chen Yi present)'
+- cite:
+    id: cal.1964-04-05.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1020 (Apr. 5, 1964, evening; Chen Yi with Zhou and the Laotian guests at the concert of the Central Philharmonic, the Central Broadcasting Ensemble''s national orchestra and the capital''s singers)'
+- cite:
+    id: cal.1964-04-06.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1021 (Apr. 6, 1964, evening; Chen Yi present)'
+- cite:
+    id: cal.1964-04-07.china-leadership
+    item: '[[w.chen-yi-nianpu]], 1021 (Apr. 7, 1964, morning; Chen Yi at the airport)'
+- cite:
+    id: cal.1964-04-09.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1021 (Apr. 9, 1964, afternoon; Chen Yi leads the delegation to the preparatory meeting from Peking to Kunming)'
+- cite:
+    id: cal.1964-04-10.china-2
+    item: '[[w.chen-yi-nianpu]], 1021 (Apr. 10, 1964, morning, Chen Yi from Kunming to Jakarta; 3 p.m., at the meeting''s opening)'
+- cite:
+    id: cal.1964-04-11.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 1021 (Apr. 11, 1964, afternoon; the experience of Bandung, setting aside differences and reaching agreement by consultation as equals)'
