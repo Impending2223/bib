@@ -1410,7 +1410,7 @@ index f64d600..8db6c50 100644
                              kind="cal"))
      return out
 diff --git a/tools/bib/notemerge.py b/tools/bib/notemerge.py
-index 4442604..b33ab17 100644
+index 4442604..b00e9ab 100644
 --- a/tools/bib/notemerge.py
 +++ b/tools/bib/notemerge.py
 @@ -63,8 +63,14 @@ def _sentences(n):
@@ -1429,15 +1429,19 @@ index 4442604..b33ab17 100644
      out, depth, cur = [], 0, ""
      for ch in s:
          depth += (ch in "([") - (ch in ")]")
-@@ -73,7 +79,13 @@ def items(s):
+@@ -73,7 +79,17 @@ def items(s):
              cur = ""
          else:
              cur += ch
 -    return [x for x in out + [cur.strip()] if x]
 +    joined = []
 +    for x in out + [cur.strip()]:
-+        if x and joined and PIN_ONLY.match(x):
-+            joined[-1] += "; " + x
++        # the cite a bare pinpoint continues: the nearest before it that is not a work's card ("FRUS ..., doc. 127;
++        # [[w.x]], 854–55; doc. 119": doc. 119 is FRUS's, never the card's, whose pinpoint it would break)
++        host = next((i for i in range(len(joined) - 1, -1, -1) if not CARD.match(joined[i].strip())), None) \
++            if x and PIN_ONLY.match(x) else None
++        if host is not None:
++            joined[host] += "; " + x
 +        elif x:
 +            joined.append(x)
 +    return joined
