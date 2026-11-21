@@ -1115,3 +1115,7 @@ Suppose it's 1972, or 1978, or 1984, or 1990, or 1996. Would a citizen of the PR
 "That sounds right to me re: R27.
 
 But I'd like to see the language of the current rule and your proposed rule before I endorse the change."
+
+## Nov. 21, 2026, about 1:25 p.m. (Pacific)
+
+"I endorse your revised R27."
