@@ -1097,3 +1097,7 @@ What turns on the report/comment question?
 Yes, a second pass should read the full texts.
 
 Yes, an entry holding two acts should be split. (Did you need to pass this one to me? This is the plain language of the rule, right? Is there something more involved that got dropped from your summary here?)"
+
+## Nov. 21, 2026, about 1 p.m. (Pacific)
+
+""Made public" doesn't require a source to have been read, does it?"
