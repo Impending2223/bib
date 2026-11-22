@@ -1175,3 +1175,9 @@ The bottom corner does not compete with the thread links."
 "I've shared an EPUB of the Fursenko and Naftali "One Hell of Gamble" with hyperlinked footnotes, in the hope that it makes the next pass easier."
 
 "How close are we to fixing the chronological sort for the Names and Threads pages? And to having a Threads page? Is that done?" (answered: the sort is live, PR #202 deployed Nov. 21; Threads next after the permalinks)
+
+"Are we still missing Names? Isn't it trivial to create them and populate their "nianpu"? What's holding us up?"
+
+"Do we need all the data? Can't we just give the name register and start going?
+
+The only issue is when two people map to the same name, or two names to the same person, which isn't an issue that all the information you're asking for actually solves in the individual cases here."
