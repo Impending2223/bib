@@ -1135,3 +1135,21 @@ I've lost track of whether and where the Wansui made it into our queue, but does
 "Immediate.
 
 Claude, does our current entry on Cuba of February 7, 1960, accurately reflect its source?" (with page images of Fursenko and Naftali, *One Hell of a Gamble*, the Mikoyan visit, nn. 13–18, and the rendered entry)
+
+## Nov. 22, 2026 (Pacific)
+
+"Is there a place we could put a permalink to a particular entry so you wouldn't have to grope to find it?
+
+Perhaps a little hyperlinked box on the bottom right-hand corner that, when clicked, navigates to the permalink, and right-clicked and copied, or the mobile-equivalent, yields the permalink to the clipboard?
+
+Tell me if you have any other suggestions."
+
+"Please do it now.
+
+Is there an ASCII/Unicode square we could use instead of the paragraph? ■? □? ▪?▫? ◆? ◇? Something else? Could you give me a preview?
+
+Other option: Put the square/icon immediately following the last full stop in the entry. I'm not sure how much space to give it. A single space? A tab? Preview it for me.
+
+Yes to your refinement and to suggestion 3.
+
+No to suggestions 1, 2, 4, and 5."
