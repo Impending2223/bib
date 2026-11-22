@@ -1255,3 +1255,7 @@ as for the rest, my spouse says "this is too many words. I don't understand this
 (the owner's spouse) "Oh okay, I was just confused about the the yaml so yeah this seems fine if you think that you can chop up the t field consistently"
 
 (the owner) "yeah, it sounds like a clear improvement on what we have. please put it in the list for the resume. somewhere near the top of the list, right? before the "go-back-over-the-notes" pass and before any new readers or auditors start up?"
+
+"I've shared the November 5, 1960, issue of the New Yorker. The Nelson Aldrich Rockefeller item, for [this entry](https://impending2223.github.io/bib/e.html#cal.1960-10.elections-1960-16), is at pages 46 and 47 is the issue, which is pages 48 and 49 of the PDF.
+
+Immediate. Could you scan it, read it, and update the entry for me?"
