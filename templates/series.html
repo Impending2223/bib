@@ -443,7 +443,7 @@ var META={{meta}}, ORDER={{order}};
     var h={2:'',3:'',4:''};
     $$('h2[id],h3[id],h4[id],ol.e > li',secs[k]).forEach(function(el){
       if(el.tagName!=='LI'){var L=el.tagName.charAt(1);h[L]=label(el);if(L==='2'){h[3]=h[4]='';}if(L==='3')h[4]='';return;}
-      var clone=el.cloneNode(true); $$('.x2',clone).forEach(function(x){x.remove();});
+      var clone=el.cloneNode(true); $$('.x2,a.pl',clone).forEach(function(x){x.remove();});
       var t=clone.textContent.replace(/\s+/g,' ').trim();
       var parts=[].slice.call(clone.children).map(function(c){return c.textContent;}).filter(Boolean);
       IDX.push({id:el.id,k:k,cr:[h[2],h[3],h[4]].filter(Boolean).pop()||'',t:t,lt:fold(t),parts:parts});

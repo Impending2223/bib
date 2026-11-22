@@ -301,7 +301,8 @@ def test_other_renderers_drop(monkeypatch):
     monkeypatch.setattr(lives, "sent", lambda d, text, *a, **k: got.append(text))
     monkeypatch.setattr(lives, "ptr", lambda *a, **k: "")
     lives.calendar_sentences(None, [e])
-    assert got == ["Apr. 1, 1961: Yang Shangkun in Hangzhou."]
+    from bib import permalink                # the line, then its permalink mark (permalink.py, STYLE 2)
+    assert got == ["Apr. 1, 1961: Yang Shangkun in Hangzhou." + permalink.in_box("cal.x")]
 
 
 def test_first_on_each_page(series):

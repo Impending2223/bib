@@ -1805,7 +1805,7 @@ def series_lines(subs, cal):
 
 
 def calendar_sentences(ptrs, cal):
-    from . import loose
+    from . import loose, permalink
     out = []
     for e in cal:
         if True:
@@ -1816,7 +1816,10 @@ def calendar_sentences(ptrs, cal):
             wy = esc(e["when"]) if str(e["when"]).startswith(e["date"][:4]) else f"{esc(e['when'])}, {e['date'][:4]}"
             # keyed by the day it is shown at (loose.place_day), so the life keeps the calendar's order (chron.py)
             day = loose.place_day(e)
-            out.append(sent(day.isoformat() if day else e["date"], f"{wy}: {c}", [n] if n else [],
+            # its permalink mark, as on the calendar (tools/bib/permalink.py, STYLE 2): after the line, or the corner
+            line = permalink.in_text(c, e["id"], SITE)
+            line += permalink.in_box(e["id"], line != c, SITE)
+            out.append(sent(day.isoformat() if day else e["date"], f"{wy}: {line}", [n] if n else [],
                             [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {wy}")], para=True,
                             kind="cal"))
     return out
@@ -2918,7 +2921,8 @@ def page(series, linker, template, names):
 def wrap(template, title, main):
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", title).replace("{{main}}", "\n".join(main))
-    return pg.replace("</body>", CSS + "\n</body>", 1)
+    from . import permalink              # the permalink mark's style, where the page has marks (permalink.py)
+    return permalink.inject(pg.replace("</body>", CSS + "\n</body>", 1))
 
 
 def pages(series, linker, template):

@@ -735,26 +735,26 @@ def propose(out, rows=None):
                     props[L] = rng
                 continue
             by = {x["page"]: x for x in rs}                              # a letter in ranges: a range within
-            out, changed = [], False                                     # budget kept as it is; one over, re-cut
+            cut, changed = [], False                                     # budget kept as it is; one over, re-cut
             for part in old:
                 x = by.get(f"{part['page']}.html")
                 if not x or not x["over"] or x.get("alone"):
-                    out.append(dict(part))
+                    cut.append(dict(part))
                     continue
                 sizes, nm, oh = measured([x])
                 sub = names_ranges(L, sizes, target - oh, nm)
                 if not sub:
-                    out.append(dict(part))
+                    cut.append(dict(part))
                     continue
-                out += recut(part, sub)
+                cut += recut(part, sub)
                 changed = True
             if changed:
                 seen = set()
-                for q in out:
+                for q in cut:
                     while q["page"] in seen:
                         q["page"] += "x"
                     seen.add(q["page"])
-                props[L] = out
+                props[L] = cut
         if props:
             prop["names"] = props
     if "works" in over and not works_split():

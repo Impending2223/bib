@@ -214,7 +214,8 @@ def cmd_links(series, a):
             text = page_text(pages[name]) if name in pages else ""
             ids[name] = set(re.findall(r'\sid="([^"]+)"', text)) | set(re.findall(r"\sname=\"([^\"]+)\"", text))
         return ids[name]
-    from . import lazydays
+    from . import lazydays, permalink
+    emap = permalink.load(OUT_DIR())
 
     def page_text(path):                  # the page and its days' month files (tools/bib/lazydays.py)
         text = open(path, encoding="utf-8").read()
@@ -233,7 +234,10 @@ def cmd_links(series, a):
             if target not in pages and "/" not in target:     # a page of the site that was not built (pages.py: a split)
                 gone[(name, target)] += 1
                 continue
-            if target not in pages or frag in ids_of(target):
+            if target == permalink.PAGE and target in pages:      # a permalink: the resolver's map (permalink.py)
+                if emap is not None and permalink.resolve(emap, frag):
+                    continue
+            elif target not in pages or frag in ids_of(target):
                 continue
             bad[(name, target)] += 1
             if len(shown[(name, target)]) < 3:
