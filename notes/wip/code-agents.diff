@@ -1,5 +1,5 @@
 diff --git a/tools/bib/build.py b/tools/bib/build.py
-index adfd2fa..2951a62 100644
+index adfd2fa..f1fd19a 100644
 --- a/tools/bib/build.py
 +++ b/tools/bib/build.py
 @@ -275,9 +275,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
@@ -32,7 +32,45 @@ index adfd2fa..2951a62 100644
          if pl and i == len(statements) - 1:   # inline: after the text, outside its claims and footnote marks
              body2 = permalink.in_text(body, e["id"])
              pl_inlined, body = body2 != body, body2
-@@ -594,7 +586,10 @@ def cal_index(lst):
+@@ -336,6 +328,8 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+         dates = calsplit.thread_dates_html(lst, slug, index_members(lst).get(slug, []), esc)   # its own (STYLE 15)
+         if dates:
+             parts.append(f'<span class="n">{dates}</span>')
++        from . import threads           # its page of all its entries (tools/bib/threads.py, STYLE 8)
++        parts.append(threads.index_link(lst, slug))
+         parts.append(contents.thread_slot(lst, slug))   # its tables and maps (tools/bib/contents.py, STYLE 4)
+         parts.append(see_also_html(lst, e))
+     else:
+@@ -404,8 +398,9 @@ def ghost_thread_html(lst, e):
+     anchor = calsplit.thread_anchor(lst, slug, half)
+     name = f'<a class="thgl" href="{calsplit.href(lst, half or 1, mine[0]["id"])}">{esc(thread_name(lst, slug))}</a>'
+     dates = calsplit.thread_dates_html(lst, slug, members, esc)
++    from . import threads               # its page of all its entries (tools/bib/threads.py, STYLE 8)
+     return (f'<li id="{attr(anchor)}" class="thg" data-thread="{attr(slug)}"><span class="s">{name}</span>'
+-            f'<span class="n">{dates}</span></li>')
++            f'<span class="n">{dates}</span>{threads.index_link(lst, slug)}</li>')
+ 
+ 
+ def redirect_thread_html(lst, e):
+@@ -573,7 +568,8 @@ def cal_index(lst):
+     hid = f"{lst.key}--{th.id}" if series_mode else th.id
+     out.append(f'<h2 id="{attr(hid)}" data-short="Threads">Threads</h2>')
+     out.append('<p class="logic">Each thread, and the years it has entries in, each year linked to the thread in that '
+-               'year\'s index: its statement there, and its dates. Alphabetical.</p>')
++               'year\'s index: its statement there, and its dates; and its page of all its entries, <a href="threads.html">Threads</a>. '
++               'Alphabetical.</p>')
+     out.append('<ol class="e thx">')
+     for slug, te in lst.threads().items():
+         ms = members.get(slug)
+@@ -588,13 +584,17 @@ def cal_index(lst):
+         name = (f'<a href="{attr(calsplit.href(lst, hs[0], calsplit.thread_anchor(lst, slug, hs[0])))}">'
+                 f'{esc(thread_name(lst, slug))}</a>')
+         ghost = ' class="thg"' if lst.is_ghost(slug) else ""
++        from . import threads           # its page of all its entries (tools/bib/threads.py, STYLE 8)
+         out.append(f'<li id="{attr(lst.key)}.thread.{attr(slug)}"{ghost}><span class="s">{name}</span>'
+-                   f'<span class="n">{links}.</span></li>')
++                   f'<span class="n">{links}.</span>{threads.index_link(lst, slug)}</li>')
+     out.append("</ol>")
      return out
  
  
@@ -44,7 +82,7 @@ index adfd2fa..2951a62 100644
      lst = series.lists[key]
      from . import namelinks
  
-@@ -624,6 +619,12 @@ def build_list(series, key, linker=None, half=None):
+@@ -624,6 +624,12 @@ def build_list(series, key, linker=None, half=None):
              t = linker.names_markup(t, key, internal=False, tags=tags)
          return to_html(t, resolve)
      text_html.entry = None
@@ -57,6 +95,178 @@ index adfd2fa..2951a62 100644
  
      data = page_text(lst, half)
      main = [f"<h1>{esc(data['h1'])}</h1>"]
+@@ -1260,6 +1266,9 @@ def build_series(series):
+     home.append('<h2 id="home--nx" data-short="Names">Names</h2><ol class="e lists"><li><a class="lk" href="#nx--top">'
+                 f'<span class="ab">Names</span><span class="tt">Every person across the {NUMBERS.get(len(series.lists), len(series.lists))} lists, merged</span></a>'
+                 f'<span class="r">{n_people} names</span></li></ol>')
++    home.append('<h2 id="home--th" data-short="Threads">Threads</h2><ol class="e lists"><li><a class="lk" href="threads.html">'
++                '<span class="ab">Threads</span><span class="tt">A page a thread: every entry of the thread, in the calendar\'s order</span></a>'
++                f'<span class="r">{sum(1 for l in series.lists.values() if l.kind == "calendar" for s, te in l.threads().items() if not te.get("see") and index_members(l).get(s))} threads</span></li></ol>')
+     home.append('<h2 id="home--wk" data-short="Works">Works</h2><ol class="e lists"><li><a class="lk" href="works.html">'
+                 '<span class="ab">Works</span><span class="tt">Every work the series cites, A to Z, with where it is cited</span></a>'
+                 f'<span class="r">{len(series.works.cards):,} works</span></li></ol>')
+@@ -1371,7 +1380,8 @@ def retired(fam):
+ def run(series, which=None):
+     os.makedirs(OUT, exist_ok=True)
+     written = []
+-    PAGES = ("series", "congress", "executive", "names", "lives", "works", "indochina", "indicators", "ebooks", "feeds")
++    PAGES = ("series", "congress", "executive", "names", "lives", "works", "indochina", "indicators", "ebooks", "feeds",
++             "threads")
+     for l in series.lists.values():       # the calendar's later parts are built with its first
+         if which and l.kind == "calendar" and calsplit.cfg(l) and which in [p["page"] for p in calsplit.cfg(l)]:
+             which = l.key
+@@ -1525,6 +1535,13 @@ def run(series, which=None):
+             path = os.path.join(OUT, name)
+             smart.write(path, routed(page))
+             written.append(path)
++    if which in (None, "threads") and cal is not None:   # a page a thread (tools/bib/threads.py)
++        from . import threads
++        linker = linker or Linker(series)
++        for name, page in threads.pages_(series, linker, os.path.join(TEMPLATES, "list.html")).items():
++            path = os.path.join(OUT, name)
++            smart.write(path, routed(page))
++            written.append(path)
+     if which in (None, "ebooks"):         # the documents, an EPUB a month (tools/bib/ebooks.py)
+         from . import ebooks
+         written += [p for p, _, _ in ebooks.build(series)]
+diff --git a/tools/bib/cjk.py b/tools/bib/cjk.py
+index 4d516b2..75f6f9b 100644
+--- a/tools/bib/cjk.py
++++ b/tools/bib/cjk.py
+@@ -44,6 +44,7 @@ STYLE
+    written, in the note's form, "The words: 中央决定进行反击战役." before "Names:", in every entry (not at a first
+    appearance only); not where the note already gives it. A quotation with no English beside it stays on the line.
+ """
++import contextlib
+ import re
+ 
+ CH = "㐀-䶿一-鿿豈-﫿々〇぀-ヿ가-힯"
+@@ -495,6 +496,27 @@ def page_rows(series, lst):
+     return cache[lst.key]
+ 
+ 
++_FIRSTS = ("_page_rows", "_first_cites", "_stat_firsts", "_first_cjk")
++
++
++@contextlib.contextmanager
++def as_page(series, lst, entries, name):
++    """While a page outside the calendar's parts is built from its entries (a thread's, tools/bib/threads.py,
++    STYLE 2): the calendar's page rows are that page's entries alone, in their order, so that the firsts on it are its
++    own (a work's full cite, works.first_cites; a statute's, footnotes._line_firsts; a person's characters, firsts).
++    The calendar's are put back after."""
++    saved = {k: series.__dict__[k] for k in _FIRSTS if k in series.__dict__}
++    for k in _FIRSTS:
++        series.__dict__.pop(k, None)
++    series._page_rows = {lst.key: [(name, e) for e in entries]}
++    try:
++        yield
++    finally:
++        for k in _FIRSTS:
++            series.__dict__.pop(k, None)
++        series.__dict__.update(saved)
++
++
+ class Entry:
+     """One entry's characters in its citation block: claim() the 'Names:' persons' it gives at their first on the
+     page, then tail() the note: their characters after the names, the line's quoted originals in "The words:"."""
+diff --git a/tools/bib/daybook.py b/tools/bib/daybook.py
+index 10f6047..8eb8439 100644
+--- a/tools/bib/daybook.py
++++ b/tools/bib/daybook.py
+@@ -534,6 +534,35 @@ def ix_anchors(lst, sec):
+     return out
+ 
+ 
++def sub_li(h):
++    """An entry's li marked a subentry (subentries.py, STYLE 2): a hair indented."""
++    head = h[:h.index(">") + 1]
++    if ' class="' in head:
++        return h.replace(' class="', ' class="sub ', 1)
++    return h.replace("<li", '<li class="sub"', 1)
++
++
++def day_open(d, dlv, with_year, aid):
++    """A day's block opened and its heading's date ("Monday, Apr. 17"; the year added with_year), its heading left open
++    for the day's lines (the Times, the programs) (STYLE 16)."""
++    label = f"{calendar.day_name[d.weekday()]}, {day_label(d, with_year)}"
++    return (f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="{aid}" data-h="{dlv}" '
++            f'data-short="{esc(label)}" data-crumb="{d.day}"><div class="dh" role="heading" aria-level="{dlv}">'
++            f'<span class="dn">{esc(label)}</span>')
++
++
++def ix_open(head, dlv, aid):
++    """An intercalary day's block opened, its heading the loose date ("Late May"; loose.py)."""
++    return (f'<div class="day ix" id="{aid}" data-h="{dlv}" data-short="{esc(head)}" data-crumb="{esc(head)}">'
++            f'<div class="dh" role="heading" aria-level="{dlv}"><span class="dn">{esc(head)}</span></div>')
++
++
++def block_open(label, cls="mo"):
++    """A month's (or a year's) undated block opened, its heading the month's name ("April") or the year."""
++    dh = f'<div class="dh"><span class="dn">{esc(label)}</span></div>' if label else ""
++    return f'<div class="day {cls}">{dh}'
++
++
+ def section_days(lst, sec, entry_li, thread_name, prefix=""):
+     """HTML for a dated calendar section, laid out by day, as (lead, body): the lead, the year's heading, block and
+     intercalary days, before the section's heading; the body after it (STYLE 17). entry_li(e, rubric_html) ->
+@@ -569,12 +598,7 @@ def section_days(lst, sec, entry_li, thread_name, prefix=""):
+ 
+     def li(e, sub):                  # a standing condition as any other entry: no label, no rule (standing.py, STYLE 1)
+         h = entry_li(e, rubric(lst, e, thread_name))
+-        if not sub:
+-            return h
+-        head = h[:h.index(">") + 1]
+-        if ' class="' in head:
+-            return h.replace(' class="', ' class="sub ', 1)
+-        return h.replace("<li", '<li class="sub"', 1)
++        return sub_li(h) if sub else h
+     wtag = f"h{min(sec.level + 1, 5)}"   # the week a level under the month (STYLE 16)
+     dlv = min(int(wtag[1]) + 1, 6)
+     seen_ix = {}
+@@ -584,26 +608,22 @@ def section_days(lst, sec, entry_li, thread_name, prefix=""):
+             day, slot, _, head = k
+             n = seen_ix[(day, slot)] = seen_ix.get((day, slot), 0) + 1
+             aid = ix_id(day, slot, n)
+-            out.append(f'<div class="day ix" id="{aid}" data-h="{dlv}" data-short="{esc(head)}" data-crumb="{esc(head)}">'
+-                       f'<div class="dh" role="heading" aria-level="{dlv}"><span class="dn">{esc(head)}</span></div>'
+-                       '<ol class="e">' + "".join(li(e, sub) for e, sub in ix[k]) + "</ol></div>")
++            out.append(ix_open(head, dlv, aid) + '<ol class="e">' + "".join(li(e, sub) for e, sub in ix[k]) + "</ol></div>")
+ 
+     year = year_opened(lst, sec)            # the year, its block and its opening days before the month (STYLE 17)
+     if year is not None:
+         lead.append(year_heading(lst, sec, year, prefix))
+     if year_only:                           # a year alone, before the month (loose.py, STYLE 2)
+-        dh = ("" if year is not None and str(year_only[0][0]["date"]) == str(year) else
+-              f'<div class="dh"><span class="dn">{esc(year_only[0][0]["date"])}</span></div>')
+-        lead.append(f'<div class="day mo yr">{dh}'
+-                    '<ol class="e">' + "".join(li(e, sub) for e, sub in year_only) + "</ol></div>")
++        dh = "" if year is not None and str(year_only[0][0]["date"]) == str(year) else str(year_only[0][0]["date"])
++        lead.append(block_open(dh, "mo yr") + '<ol class="e">' + "".join(li(e, sub) for e, sub in year_only) + "</ol></div>")
+     # a year's intercalary days at the section's month, before its heading: "Early 1962" after "1962", "Mid-1962"
+     # before "May" (where the calendar opens after the 1st, early January 1960, those of the 1st too)
+     lead_ix = [k for k in ix if k[1] == -1.5 and k[0] <= lo and (k[0].year, k[0].month) == (lo.year, lo.month)]
+     if lead_ix:
+         ix_days(lead_ix, lead)
+     if undated:
+-        out.append(f'<div class="day mo"><div class="dh"><span class="dn">{esc(calendar.month_name[lo.month])}</span></div>'
+-                   '<ol class="e">' + "".join(li(e, sub) for e, sub in undated) + "</ol></div>")
++        out.append(block_open(calendar.month_name[lo.month]) + '<ol class="e">' + "".join(li(e, sub) for e, sub in undated)
++                   + "</ol></div>")
+ 
+     ix_days([k for k in ix if k[0] < lo and k not in lead_ix])
+     d = lo
+@@ -620,10 +640,7 @@ def section_days(lst, sec, entry_li, thread_name, prefix=""):
+                        f'{esc(wl)}</{wtag}>')
+         ix_days([k for k in ix if k[0] == d and k[1] == 0])     # the intercalary days before it, under its week
+         # each day a heading in the scroll and the top bar (STYLE 16)
+-        dshort = f"{calendar.day_name[d.weekday()]}, {day_label(d, d.year != lo.year)}"
+-        h = [f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="d{iso}" data-h="{dlv}" '
+-             f'data-short="{esc(dshort)}" data-crumb="{d.day}"><div class="dh" role="heading" aria-level="{dlv}">'
+-             f'<span class="dn">{calendar.day_name[d.weekday()]}, {esc(day_label(d, d.year != lo.year))}</span>']
++        h = [day_open(d, dlv, d.year != lo.year, f"d{iso}")]
+         h.append(f'<a class="tm" href="{TM.format(y=d.year, m=d.month, d=d.day)}"><i>New York Times</i></a>')
+         tv = sorted(programs().get(iso, []), key=lambda r: r["show"] != "Face the Nation")
+         if tv:                               # the day's programs on one line, Face the Nation first
 diff --git a/tools/bib/footnotes.py b/tools/bib/footnotes.py
 index 33b5c9b..26e30c5 100644
 --- a/tools/bib/footnotes.py
@@ -84,3 +294,504 @@ index 33b5c9b..26e30c5 100644
  def _line_firsts(series):
      """{(entry id, (vol, page))}: each statute the footnotes cite from the line, at its first on the page (each half of
      the calendar, in the pages' order, as works.first_cites): printed there in full, short after (STYLE 9)."""
+diff --git a/tools/bib/lives.py b/tools/bib/lives.py
+index b0a3fef..6a38cfd 100644
+--- a/tools/bib/lives.py
++++ b/tools/bib/lives.py
+@@ -98,7 +98,13 @@ def fmt(d):
+ 
+ 
+ def key_of(name):
+-    """'Byrd, Harry F., Jr.' -> 'byrd-harry-f-jr': the anchor, and the key of the person's FRUS and APP lists."""
++    """'Byrd, Harry F., Jr.' -> 'byrd-harry-f-jr': the anchor, and the key of the person's FRUS and APP lists. A
++    register row's own key where it is not the name's (a second man of one name: 'Feng Xuan 冯弦', feng-xuan-2)."""
++    own = (_REG.get("keys") if "keys" in _REG else _register_keys()).get(name)
++    return own or _plain_key(name)
++
++
++def _plain_key(name):
+     return re.sub(r"[^a-z]+", "-", fold(re.sub(r"\s*\([^)]*\)", "", name)).lower()).strip("-")
+ 
+ 
+@@ -108,6 +114,126 @@ def split_name(name):
+     return p[0], (p[1] if len(p) > 1 else "")
+ 
+ 
++# ---------------------------------------------------------------- the register (sources/people.yaml)
++# The fourth source of name entries (the owner, Nov. 22, 2026: "Can't we just give the name register and start
++# going?"): a person the calendar's 'Names:' lines name whom Part III, the Executive roster and the Congress rosters
++# do not hold. A key a person; `name` as the calendar writes it, in its own order; `chars`, his characters where the
++# entries give them; `polity` (sources/polities.yaml) where the threads make it plain; `apart`, the keys of persons
++# of the series whose form the name shares and who are other men (the characters differ). Nothing else.
++_REG = {}
++REG_KEY = re.compile(r"^[a-z]+(?:-[a-z]+)*(?:-[2-9])?$")
++
++
++def register_path():
++    return os.path.join(store.ROOT, "sources", "people.yaml")
++
++
++def register():
++    """{key: {name, chars?, polity?, apart?}}, read again when the file changes."""
++    p = register_path()
++    st = os.stat(p).st_mtime_ns if os.path.exists(p) else None
++    if _REG.get("st") != (p, st):
++        rows = (store.load_yaml(p) or {}) if st is not None else {}
++        _REG.clear()
++        _REG.update(st=(p, st), rows=rows if isinstance(rows, dict) else {})
++    return _REG["rows"]
++
++
++def register_name(row):
++    """The name a register person's entry is filed under: his name, his characters after it ('Huang Hua 黄华', as Part
++    III writes them), so that two men of one name are two names."""
++    return f"{row['name']} {row['chars']}" if row.get("chars") else str(row.get("name") or "")
++
++
++def _register_keys():
++    """{name filed under: key} for the rows whose key is not their name's own."""
++    rows = register()
++    _REG["keys"] = {register_name(r): k for k, r in rows.items()
++                    if isinstance(r, dict) and r.get("name") and _plain_key(register_name(r)) != k}
++    return _REG["keys"]
++
++
++def register_problems(series):
++    """check: each row a key of the key form (the name's own, or it and -2 ... for a second man), a name in its own
++    order, its characters alone in `chars`, a polity sources/polities.yaml holds, each key once; and the name (or a
++    form sources/name-forms.yaml gives it) no form of a person another source holds, unless the rules of `people`
++    join them (one man) or `apart` names him (another man, the characters differ)."""
++    where = "sources/people.yaml"
++    p = register_path()
++    if not os.path.exists(p):
++        return
++    seen = defaultdict(int)
++    for line in open(p, encoding="utf-8"):
++        m = re.match(r"^([^\s#][^:]*):", line)
++        if m:
++            seen[m.group(1).strip().strip("'\"")] += 1
++    for k, n in seen.items():
++        if n > 1:
++            yield where, f"{k}: the key {n} times"
++    rows = register()
++    from . import cjk
++    pols = (store.load_yaml(os.path.join(store.ROOT, "sources", "polities.yaml")) or {}).get("polities") or {}
++    shown = {}
++    for k, r in rows.items():
++        if not isinstance(r, dict) or not isinstance(r.get("name"), str) or not r["name"].strip():
++            yield where, f"{k}: no name"
++            continue
++        if set(r) - {"name", "chars", "polity", "apart"}:
++            yield where, f"{k}: only name, chars, polity, apart ({', '.join(sorted(set(r) - {'name', 'chars', 'polity', 'apart'}))})"
++        own = _plain_key(r["name"])
++        if not REG_KEY.match(str(k)) or not (k == own or re.fullmatch(re.escape(own) + r"-[2-9]", str(k))):
++            yield where, f"{k}: the key is the name's own ({own}), or it and -2 for a second man of the name"
++        if "," in r["name"] or cjk.HAS.search(r["name"]):
++            yield where, f"{k}: the name as the calendar writes it, in its own order, its characters in chars"
++        if r.get("chars") and (not isinstance(r["chars"], str) or re.search(r"[A-Za-z\s]", r["chars"])
++                               or not cjk.HAS.search(r["chars"])):
++            yield where, f"{k}: chars: his characters alone"
++        if r.get("polity") is not None and r["polity"] not in pols:
++            yield where, f"{k}: polity {r['polity']!r} is not in sources/polities.yaml"
++        if register_name(r) in shown:
++            yield where, f"{k}: the same man as {shown[register_name(r)]} (one name, the same characters or none)"
++        shown.setdefault(register_name(r), k)
++    # the collisions: a form of a person another source holds
++    from .build import Linker
++    ev = everyone(series)
++    mine = {key_of(p_["name"]): p_ for p_ in ev if p_.get("reg")}
++    others = defaultdict(list)                       # a folded word -> (form, key) of a person another source holds
++    for p_ in ev:
++        if p_.get("reg") and not any(r_ != 4 for _, r_ in p_["ranks"]):
++            continue
++        fs = set(p_["names"]) | {p_["name"]}
++        if natural(p_["name"]):
++            fs |= set(name_forms(p_["name"]))
++        for f in fs:
++            for w in set(fold(f).split()):
++                others[w].append((f, key_of(p_["name"])))
++    pp = os.path.join(store.ROOT, "sources", "frus-names", "persons.json")
++    listed = set(json.load(open(pp, encoding="utf-8"))) if os.path.exists(pp) else set()
++    alias = _CACHE.get("frus-alias", {})
++    allkeys = {key_of(x["name"]) for x in ev} | set(alias)
++    for k, r in rows.items():
++        if not isinstance(r, dict) or not isinstance(r.get("name"), str):
++            continue
++        if k in listed:
++            yield where, f"{k}: the key of a person FRUS's lists give (his would be lost): a key of its own, -2"
++        p_ = mine.get(k)
++        if p_ is None or any(r_ != 4 for _, r_ in p_["ranks"]):
++            continue                                 # joined by the rules of people: one man
++        apart = set(store.as_list(r.get("apart")))
++        hits = set()
++        for form in [r["name"]] + [f for f in name_forms(r["name"])[1:] if "," not in f]:
++            ft = fold(form)
++            for w in set(ft.split()):
++                for f, ok in others.get(w, []):
++                    run = f if "," not in f else f"{f.split(',', 1)[1].strip()} {f.split(',', 1)[0].strip()}"
++                    if ok != k and alias.get(ok) != k and (Linker._token_fits(form, f) or fold(run) == ft):
++                        hits.add(ok)
++        for ok in sorted(hits - apart):
++            yield where, f"{k}: {r['name']!r} is a form of {ok}, whom another source holds (one man: leave the row out; another: apart)"
++        for ok in sorted(apart - allkeys):
++            yield where, f"{k}: apart: {ok} names no person"
++
++
+ def everyone(series):
+     """people(), and every person FRUS's lists of persons give whom no name entry holds (sources/frus-names/
+     persons.json, written by tools/lives/frus_names.py --all): an entry of his own, with each volume's description.
+@@ -1804,21 +1930,33 @@ def series_lines(subs, cal):
+     return out
+ 
+ 
+-def calendar_sentences(ptrs, cal):
+-    from . import loose, permalink
++def calendar_sentences(ptrs, cal, key=""):
++    """Each calendar entry of the person a paragraph: its date, its line as the calendar shows it, with its footnotes as
++    the calendar sets them (footnotes.apply: the marks after each run of claims, the footnotes under the line, the
++    note's other sentences after them; one footnote or none, the note one block), its unread records behind "To
++    check:" (footnotes.with_unread), the □ mark, and its pointer. key: the person's, so that an entry two persons
++    of one page give has its footnotes' anchors twice, each its own."""
++    from . import cjk, footnotes, loose, permalink
+     out = []
+     for e in cal:
+         if True:
+-            from . import cjk               # the line as the calendar shows it, its characters out (cjk.py, STYLE 2)
+-            c = series_html(ptrs, cjk.drop(str(store.as_list(e.get("c"))[0])) if e.get("c") else "", "cal", e)
+-            n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", e.get("n") or "").strip(), "cal", e) if e.get("n") else ""
++            raw = cjk.drop(str(store.as_list(e.get("c"))[0])) if e.get("c") else ""   # (cjk.py, STYLE 2)
++            c = series_html(ptrs, raw, "cal", e)
++            fns = None
++            if isinstance(e.get("c"), str) and raw:        # its footnotes, as the calendar's (footnotes.py, STYLE 1-8)
++                c, fns = footnotes.apply(ptrs.series, e, raw, c, lambda u: series_html(ptrs, cjk.drop(u), "cal", e),
++                                         f"{key}~{e['id']}" if key else None)
++            note = fns[2] if fns else footnotes.with_unread(ptrs.series, e, e.get("n") or "")
++            n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", note or "").strip(), "cal", e) if note else ""
++            fn_html = footnotes.notes_html(fns[1], f"{key}~{e['id']}" if key else e["id"],
++                                           lambda t: series_html(ptrs, t, "cal", e)) if fns else ""
+             # each calendar entry a paragraph of its own, its sources and pointer after it
+             wy = esc(e["when"]) if str(e["when"]).startswith(e["date"][:4]) else f"{esc(e['when'])}, {e['date'][:4]}"
+             # keyed by the day it is shown at (loose.place_day), so the life keeps the calendar's order (chron.py)
+             day = loose.place_day(e)
+             # its permalink mark, as on the calendar (tools/bib/permalink.py, STYLE 2): after the line, or the corner
+             line = permalink.in_text(c, e["id"], SITE)
+-            line += permalink.in_box(e["id"], line != c, SITE)
++            line += permalink.in_box(e["id"], line != c, SITE) + fn_html
+             out.append(sent(day.isoformat() if day else e["date"], f"{wy}: {line}", [n] if n else [],
+                             [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {wy}")], para=True,
+                             kind="cal"))
+@@ -2054,7 +2192,8 @@ def life_html(sents):
+         cur.append(s["text"])
+         block = key
+     close()
+-    return "".join(f'<p class="lvl">{p}</p>' for p in paras)
++    # a paragraph holding a calendar entry's footnotes (a list) is a div, its style the paragraph's
++    return "".join(f'<div class="lvl">{p}</div>' if '<ol class="fn"' in p else f'<p class="lvl">{p}</p>' for p in paras)
+ 
+ 
+ # ---------------------------------------------------------------- the lists
+@@ -2700,11 +2839,11 @@ def entry(series, linker, ptrs, p):
+     cal = calendar_of(ptrs, [x for x in subs if (x[1].code or "").startswith("III")], key_of(name), series)
+     if p.get("frus"):                    # a person FRUS's lists alone give: no roster, races or Directory
+         rp, e, races = [], None, []
+-        structured = calendar_sentences(ptrs, cal)
++        structured = calendar_sentences(ptrs, cal, key_of(name))
+     else:
+         rp, e, races = person_races(series, p)
+         structured = (office_sentences(sur, given, names) + vote_sentences(p["names"]) + races
+-                      + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)) + tv_sentences(series, name))
++                      + calendar_sentences(ptrs, cal, key_of(name)) + pocom_sentences(p, bool(e)) + tv_sentences(series, name))
+     record = [s_["row"] for s_ in structured if s_.get("row")]
+     structured = [s_ for s_ in structured if s_["kind"] != "election"]
+     life = merge(structured, bd_sentences(e) if e else [], [])
+@@ -2807,7 +2946,7 @@ p.az{display:flex;flex-wrap:wrap;gap:0 .36em;margin:0;font-family:var(--sans);fo
+ p.az a{color:var(--muted);text-decoration:none}
+ p.az a:hover{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px}
+ p.az span{color:var(--ink)}
+-p.lvl{margin:.5rem 0;line-height:1.55}
++.lvl{margin:.5rem 0;line-height:1.55}
+ ul.lvx{list-style:none;margin:.3rem 0 1rem;padding:0;columns:2;column-gap:1.5rem;font-size:.92rem;line-height:1.5}
+ ul.lvx li{break-inside:avoid;padding-left:1em;text-indent:-1em}
+ ul.lvx a{color:var(--ink);text-decoration:none}
+@@ -2921,7 +3060,9 @@ def page(series, linker, template, names):
+ def wrap(template, title, main):
+     pg = open(template, encoding="utf-8").read()
+     pg = pg.replace("{{page_title}}", title).replace("{{main}}", "\n".join(main))
+-    from . import permalink              # the permalink mark's style, where the page has marks (permalink.py)
++    from . import footnotes, permalink   # the permalink mark's style, where the page has marks (permalink.py); the
++    if 'class="fm"' in pg:               # footnotes', where it has footnotes (footnotes.py)
++        pg = pg.replace("</head>", footnotes.STYLE + "\n</head>", 1)
+     return permalink.inject(pg.replace("</body>", CSS + "\n</body>", 1))
+ 
+ 
+@@ -3243,8 +3384,8 @@ CONG = re.compile(r"\b(Senators?|Senate|Representatives?|House|Congress|Speaker|
+ 
+ 
+ def people(series):
+-    """Everyone with an entry: the persons of Part III, the Executive roster's holders, and the members of Congress at
+-    each opening, one a person. Two names are one person where the surnames agree and the given names are
++    """Everyone with an entry: the persons of Part III, the Executive roster's holders, the members of Congress at
++    each opening, and the register's (sources/people.yaml: rank 4, joined to no one else), one a person. Two names are one person where the surnames agree and the given names are
+     compatible ('Hubert H.' and 'Hubert H., Jr.'; not 'Hubert' and 'Harold'). The name shown: Part III's form, else
+     the roster's, else the Congress roster's."""
+     from . import executive as X
+@@ -3278,6 +3419,11 @@ def people(series):
+                     cands.append((r["name"], 2))
+                     if r.get("given"):
+                         full.setdefault(r["name"], r["given"])
++    reg = {}                             # the register (sources/people.yaml): its name filed under -> its row
++    for k, r in register().items():
++        if isinstance(r, dict) and isinstance(r.get("name"), str) and r["name"].strip():
++            reg[register_name(r)] = r
++            cands.append((register_name(r), 4))
+     mp = os.path.join(store.ROOT, "sources", "app-matches.yaml")
+     strict_sons = {n for n, v in ((store.load_yaml(mp) or {}) if os.path.exists(mp) else {}).items()
+                    if isinstance(v, dict) and v.get("strict")}
+@@ -3293,6 +3439,8 @@ def people(series):
+         (sources/people-apart.yaml: Robert Moses the builder, Robert P. Moses of SNCC) never joins."""
+         if a == b:
+             return True
++        if 4 in (ra, rb):                # the register's: one man only by the name as written
++            return False
+         if frozenset((a, b)) in apart:
+             return False
+         # a member Part III names by the name he went by: 'Patman, Wright' is 'Patman, John W.' (John William
+@@ -3367,7 +3515,7 @@ def people(series):
+         exact.setdefault(name, set()).add(rank)
+     for name, ranks in sorted(exact.items(), key=lambda x: (min(x[1]), suffix(x[0]) in ("", "Sr"), x[0])):
+         sur, given = split_name(name)
+-        if not given and not (natural(name) and 0 in ranks):
++        if not given and not (natural(name) and ranks & {0, 4}):
+             continue
+         mine = {(name, r) for r in ranks}
+         group = by_sur.setdefault(fold(sur), [])
+@@ -3379,4 +3527,15 @@ def people(series):
+         p = {"name": name, "sur": sur, "given": given, "names": {name}, "ranks": mine}
+         group.append(p)
+         out.append(p)
++    count = defaultdict(int)
++    for r in reg.values():
++        count[r["name"]] += 1
++    for p in out:                        # the register's alone: no roster, races or Directory; its forms
++        if p["ranks"] == {(p["name"], 4)}:
++            r = reg[p["name"]]
++            p["reg"] = True
++            fs = set(name_forms(r["name"]))
++            if count[r["name"]] > 1:     # two men of one name: each by his characters alone (Feng Xuan 冯铉, 冯弦)
++                fs.discard(r["name"])
++            p["names"] |= fs
+     return sorted(out, key=lambda p: (fold(p["sur"]), fold(p["given"])))
+diff --git a/tools/bib/pages.py b/tools/bib/pages.py
+index 77722fc..49a2a8f 100644
+--- a/tools/bib/pages.py
++++ b/tools/bib/pages.py
+@@ -17,6 +17,9 @@ pages.yaml, the one place for both:
+     works           {by: letter}: the A–Z bibliography a page a letter (works-a.html ...; works.html the index)
+     executive, congress   {parts: [{page, label, sections: [h2 id, ...]}]}: the page cut at its own top sections
+                     (the terms; the Congresses), each part a page, the old page the index
++    threads         {slug: [{page, from, label}]}: a thread's page over budget in parts by date (threads.py, STYLE 6):
++                    a year a part, a year over in quarters, a quarter over in months, small ones in a row packed to
++                    the fill; the thread's own page then its index
+     retired         pages a split has replaced: each forwards a link by its anchor to the page that now holds it
+ 
+ STYLE:
+@@ -24,7 +27,8 @@ STYLE:
+     page's persons, Works' works, the Executive's offices, the Congresses' seats; else its anchors.
+  2. A split follows the page's own structure: the calendar by quarter, then month (calsplit's names: cal1967Q1,
+     cal1967-04); Names by surname range within a letter (names-ma-mc.html, labelled "Ma–Mc"); Works by letter;
+-    the Executive by term, Congress by Congress (their h2 sections, packed in order to the fill).
++    the Executive by term, Congress by Congress (their h2 sections, packed in order to the fill); a thread's page by
++    date (a year, a quarter, a month: threads-china-leadership-1960Q1).
+  3. Pointers: every link to an anchor on a page that is split goes to the part that holds it, from every page: the
+     builders ask here (names_href, works_href), and route() rewrites the rest at the write (as calsplit.route does
+     for the calendar). Inside a part, a bare '#X' held by another part goes to that part.
+@@ -80,7 +84,7 @@ def family(name):
+     n = name[:-5] if name.endswith(".html") else name
+     if re.match(r"^cal(\d{4}|primaries$|\d\d$)", n) or n == "cal":
+         return "cal"
+-    for f in ("names", "works", "executive", "congress", "lives"):
++    for f in ("names", "works", "executive", "congress", "lives", "threads"):
+         if n == f or n.startswith(f + "-"):
+             return f
+     return n
+@@ -648,7 +652,9 @@ UNITS = {"cal": (re.compile(r'<li id="cal\.\d'), "entries"),
+          "names": (re.compile(r'<section class="lv"'), "persons"),
+          "works": (re.compile(r'<p class="wk" id='), "works"),
+          "executive": (re.compile(r'<tr\b'), "rows"),
+-         "congress": (re.compile(r'<tr\b'), "rows")}
++         "congress": (re.compile(r'<tr\b'), "rows"),
++         "threads": (re.compile(r'<li (?:class="[^"]*" )?id="t-cal\.'), "entries")}
++THENTRY = re.compile(r'<li (?:class="[^"]*" )?id="t-cal\.(\d{4}(?:-\d\d){0,2})\.')
+ ANCHOR = re.compile(r'\sid="')
+ LV = re.compile(r'<section class="lv" id="([^"]+)">')
+ LVNAME = re.compile(r'<section class="lv" id="([^"]+)"><h2 [^>]*>(.*?)</h2>', re.S)
+@@ -801,6 +807,10 @@ def propose(out, rows=None):
+                 p["page"] += "x"
+             seen.add(p["page"])
+         prop[fam] = {"parts": parts}
++    if "threads" in over:
++        t = threads_proposal(out, rows)
++        if t:
++            prop["threads"] = t
+     if "cal" in over:
+         c = calendar_proposal(out, rows)
+         if c:
+@@ -808,6 +818,61 @@ def propose(out, rows=None):
+     return prop
+ 
+ 
++# ---------------------------------------------------------------- the Threads (threads.py, STYLE 6): a thread by date
++
++def threads_parts(slug):
++    return ((conf().get("threads") or {}).get(slug)) or None
++
++
++def _thread_sizes(text):
++    """[(date, bytes)] of the entries a Threads page holds, each from its li to the next's; and the page's rest."""
++    import datetime
++    got = _sizes_of(text, THENTRY, ('<nav class="pgseam"', "</main>"))
++    out = []
++    for d, n in got:
++        y, m, dd = (d.split("-") + ["01", "01"])[:3]
++        out.append((datetime.date(int(y), int(m), int(dd)), n))
++    return out, len(text.encode("utf-8")) - sum(n for _, n in got)
++
++
++def threads_proposal(out, rows):
++    """{slug: [{page, from, label}]}: each thread's page over budget in parts by date (threads.plan_parts); a thread in
++    parts already, a part within budget kept as it is, one over planned again alone, from its own first day."""
++    from . import threads
++    pages_ = built(out)
++    over = {r["page"] for r in rows if r["over"] and r["family"] == "threads"}
++    of = {f"{p['page']}.html": slug for slug, ps in (conf().get("threads") or {}).items() for p in ps}
++    target = int(budget("threads-x.html") * fill())
++    props = {}
++    for name in sorted(over):
++        slug = of.get(name) or (name[len("threads-"):-len(".html")] if name.startswith("threads-") else None)
++        if not slug or name not in pages_:
++            continue
++        sizes, rest = _thread_sizes(open(pages_[name], encoding="utf-8").read())
++        if not sizes:
++            continue
++        old = props.get(slug) or threads_parts(slug)
++        if name not in of:                                   # a thread's one page, in parts
++            new = threads.plan_parts(slug, sizes, target - rest)
++            if len(new) > 1:
++                props[slug] = new
++            continue
++        i = next(k for k, p in enumerate(old) if f"{p['page']}.html" == name)
++        sub = threads.plan_parts(slug, sizes, target - rest, start=str(old[i]["from"]) if i else None)
++        if len(sub) < 2:
++            continue
++        if i:
++            sub[0]["from"] = old[i]["from"]
++        cut = [dict(p) for p in old[:i]] + sub + [dict(p) for p in old[i + 1:]]
++        seen = set()
++        for q in cut:
++            while q["page"] in seen:
++                q["page"] += "x"
++            seen.add(q["page"])
++        props[slug] = cut
++    return props
++
++
+ # ---------------------------------------------------------------- the calendar: its parts in list.yaml (calsplit)
+ 
+ MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+@@ -944,7 +1009,8 @@ HEAD = """# The pages' size budget and the splits it directs (tools/bib/pages.py
+ # budget: bytes a page may hold, its HTML alone; budgets: a family's own; fill: a split packs its parts to this share
+ # of the budget; exempt: reported, never split. The rest is the plan, written by `./bib pages --plan` (by hand only to
+ # set a split aside): names, a letter in surname ranges; works, a page a letter; executive and congress, their top
+-# sections in parts; retired, the pages a split replaced, each forwarding its old links. The calendar's parts are in
++# sections in parts; threads, a thread's page in parts by date; retired, the pages a split replaced, each forwarding
++# its old links. The calendar's parts are in
+ # lists/cal/list.yaml (`split:`, `retired_parts`).
+ """
+ 
+@@ -953,7 +1019,7 @@ def write_conf(c, path=None):
+     import yaml
+     path = path or PATH
+     keep = {k: c[k] for k in ("budget", "budgets", "fill", "why", "exempt", "works", "names", "executive", "congress",
+-                              "retired") if c.get(k) not in (None, {}, [])}
++                              "threads", "retired") if c.get(k) not in (None, {}, [])}
+     store.atomic_write(path, HEAD + yaml.safe_dump(keep, sort_keys=False, allow_unicode=True, width=110))
+     _CONF.clear()
+ 
+@@ -968,6 +1034,8 @@ def live_pages(c=None):
+         out |= {p["page"] for p in ((c.get(fam) or {}).get("parts") or [])}
+     if (c.get("works") or {}).get("by") == "letter":
+         out |= {f"works-{L}" for L in "0abcdefghijklmnopqrstuvwxyz"}
++    for slug, ps in (c.get("threads") or {}).items():      # a thread in parts: its own page the index, and its parts
++        out |= {f"threads-{slug}"} | {p["page"] for p in ps or []}
+     return out
+ 
+ 
+@@ -991,6 +1059,13 @@ def plan(out):
+             old = [p["page"] for p in (c.get(fam) or {}).get("parts") or []]
+             c[fam] = prop[fam]
+             retired += [p for p in old if p not in {x["page"] for x in prop[fam]["parts"]}]
++    if prop.get("threads"):
++        th = dict(c.get("threads") or {})
++        for slug, ps in prop["threads"].items():
++            old = [p["page"] for p in th.get(slug) or []]
++            th[slug] = ps
++            retired += [p for p in old if p not in {x["page"] for x in ps}]
++        c["threads"] = dict(sorted(th.items()))
+     live = live_pages(c)
+     c["retired"] = sorted(p for p in dict.fromkeys(retired) if p not in live)    # never a page the plan holds
+     write_conf(c)
+@@ -1048,6 +1123,8 @@ def report(rows, prop=None):
+             if prop.get(fam):
+                 out.append(f"  {fam}: " + ", ".join(f"{p['page']} ({len(p['sections'])} sections)"
+                                                     for p in prop[fam]["parts"]))
++        for slug, ps in (prop.get("threads") or {}).items():
++            out.append(f"  threads-{slug}: " + ", ".join(f"{p['page']} ({p['label']})" for p in ps))
+         for pr in prop.get("cal") or []:
+             out.append(f"  {pr['page']}: " + ", ".join(
+                 (_part_fields({}, k, mk)[0]["page"]) + f" (~{e / MB:.1f} MB)" for (k, mk), e in zip(pr["into"], pr["est"])))
+diff --git a/tools/bib/permalink.py b/tools/bib/permalink.py
+index b8f884e..486b16c 100644
+--- a/tools/bib/permalink.py
++++ b/tools/bib/permalink.py
+@@ -69,9 +69,9 @@ def style():
+     if PERMALINK_PLACE == "inline":
+         place = "a.pl{font-size:.85em;white-space:nowrap}\n"
+     else:
+-        place = ("ol.e>li:has(>a.pl),p.lvl:has(>a.pl){position:relative}\n"
+-                 "ol.e>li>a.pl,p.lvl>a.pl{position:absolute;right:0;bottom:.45rem;font-size:1em;line-height:1}\n"
+-                 "ol.e>li>:has(+a.pl),p.lvl:has(>a.pl){padding-right:1.5em}\n")
++        place = ("ol.e>li:has(>a.pl),.lvl:has(>a.pl){position:relative}\n"
++                 "ol.e>li>a.pl,.lvl>a.pl{position:absolute;right:0;bottom:.45rem;font-size:1em;line-height:1}\n"
++                 "ol.e>li>:has(+a.pl),.lvl:has(>a.pl){padding-right:1.5em}\n")
+     return ('<style id="plstyle">\n/* the permalink mark (tools/bib/permalink.py, STYLE 1) */\n' + common + place
+             + "</style>")
+ 
+diff --git a/tools/bib/readme.py b/tools/bib/readme.py
+index 181ced3..d81c690 100644
+--- a/tools/bib/readme.py
++++ b/tools/bib/readme.py
+@@ -15,7 +15,8 @@ STYLE
+ 3. The works count in the Works row ("one entry a work (N)") from the catalogue.
+ 4. The other pages: a table under the calendar's, between <!-- other-pages:start --> and <!-- other-pages:end -->, a
+    row a family the pages' pass splits (tools/bib/pages.py): Names, its letters and ranges; Works, its letters; the
+-   Executive and Congress, their parts; every page linked by its label.
++   Executive and Congress, their parts; Threads, its count and a thread in parts with its parts (threads.py); every
++   page linked by its label.
+ """
+ import os
+ import re
+@@ -70,6 +71,14 @@ def other_pages(series):
+         ls = sorted(set(bibliography.letters(series).values()), key=lambda L: (L != "0", L))
+         rows.append(f"| [Works]({URL}works.html) | " + " · ".join(
+             f"[{'0–9' if L == '0' else L.upper()}]({URL}{pages.works_page_of_letter(L)}.html)" for L in ls) + " |")
++    from . import threads                # a page a thread (threads.py); a thread in parts, its parts
++    cal = threads.calendar(series)
++    if cal is not None:
++        split = [(s, threads.parts(s)) for s in threads.slugs(cal) if threads.parts(s)]
++        rows.append(f"| [Threads]({URL}threads.html) | {len(threads.slugs(cal))} threads, a page each"
++                    + ("; in parts: " + "; ".join(f"[{s}]({URL}{threads.page_of(s)}.html) (" + " · ".join(
++                        f"[{p['label']}]({URL}{p['page']}.html)" for p in ps) + ")" for s, ps in split) if split else "")
++                    + " |")
+     for fam, name in (("congress", "Elections and Congress"), ("executive", "Executive")):
+         ps = pages.sections_plan(fam)
+         if ps:
