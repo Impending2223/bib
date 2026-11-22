@@ -1225,3 +1225,5 @@ The entries don't even go all the way across the page! They don't have datelines
 "Sorry, Claude, dateline meant the time of day and location line."
 
 "no no, the date can go on the same line as the dateline, styled as it is in the calendar. I just wanted the time of day and location too."
+
+"I mean, Claude, if it's "as on the calendar," it's not necessarily true that "each Names entry gets one header line," is it?"
