@@ -1263,3 +1263,27 @@ Immediate. Could you scan it, read it, and update the entry for me?"
 "The Liebling piece, which starts at 182 (=184), discusses the USIA affair at 185–86 (=187–88). I've attached some screenshots of the relevant NYT items from the issue of October 27, 1960. I've given you full broadsheet page of the USIA report in four overlapping screenshots. Tell me if that's digestible. Immediate. Could you scan and read these, and update [our entry] (https://impending2223.github.io/bib/e.html#cal.1960-10.elections-1960-9) for me?"
 
 "Is there anything in FRUS on this? Could you check and add it to our entries if so?"
+
+"A few changes. For the queue.
+
+Remove the "page" prefix from the navigation bar at the top of the Threads pages.
+
+Give the full name, from the current header, in the navigation bar on the Names pages. "Dirksen, Everett", not "Dirksen."
+
+Just bring the entries on the names pages into complete conformity with the calendar pages. No ad hoc, page-specific styling beyond the bare minimum necessary.
+
+That is, put the thread headers in the Names pages, bring back the lined rules, and whatever else we need to put things in order.
+
+Make the calendar visibility menu collapsible. Give it a little toggle button in the top right corner.
+
+Give the "Visibility" table title the same point size as the "Tables and maps" and "Threads" headings in the table of contents above it.
+
+The table styling—the white background, the curved corners, the fact that it's in a box at all, and therefore indented—are not consistent with the balance of our layout and styling.
+
+Making the box collapsible would make the discordance less troubling, and since it's a calendar-level set of controls, it makes some sense for it to be visually distinct from the substantive entries.
+
+But, at a minimum, the box needs to be collapsible and the point size of the title needs to confirm to that used elsewhere for items at the same level.
+
+I was tempted to say "and the box needs to have a background color that is not white," but that might become a non-issue once the box is collapsible.
+
+Give me a 暦 link to the calendar in the navigation bar, in place of the current 本 for the reader, which is to be dropped from the navigation bar." (with screenshots: a Threads page bar reading "1960 / 1960 / July / 1"; names-di, Dirksen, the bar reading "Dirksen")
