@@ -39,6 +39,12 @@ STYLE:
     unlinked and in ink. Each letter's
     page opens with the index's opening paragraphs, the count of its persons ("1,024 persons."), the bar,
     and the index's list for that letter, linked to the entries below.
+ 9. The calendar's entries in the Life (the owner, Nov. 22, 2026: "Make them look like the calendar entries, but without
+    the thread headings, ruled lines, and thread navigation chevrons"): each as the calendar renders it, by its own
+    renderer (build.entry_html: the line, its footnotes, the note with its "Names:" line linked, the place and time at
+    the right, dateline.py, the □ mark in the corner), the full width, in the calendar's day blocks (daybook.day_open,
+    block_open): the day's heading once over the person's entries of the day; a span's, a month's or a loose date's,
+    its `when` with its year. No thread rubric, rules between entries, thread line or ⟨⟨ ⟩⟩, and no "Cal." pointer.
  8. "Nomination hearings" (the owner's request, Nov. 5, 2026), after "Testimony before Congress": the printed
     hearings on the person's nominations, a line each, by the first day held (linked to the calendar's day within its
     span), the title as printed to "hearing before", linked to govinfo; the committee, Congress and session, and the
@@ -61,6 +67,8 @@ fold = functools.lru_cache(maxsize=None)(store.fold)     # the same names are fo
 SITE = ""   # a base url for the links to the other pages ('' on the site itself)
 SERIES_FOR_LINKS = None   # the series, once the pages are being written: the record tables link the other candidates
 MONTHS = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
+FULL_NAME = [None, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+             "November", "December"]
 FULL = {m: i for i, m in enumerate(["January", "February", "March", "April", "May", "June", "July", "August",
                                      "September", "October", "November", "December"], 1)}
 BD_URL = "https://www.govinfo.gov/content/pkg/GPO-CDOC-108hdoc222/pdf/GPO-CDOC-108hdoc222-4-{part}.pdf#page={pdf}"
@@ -1935,35 +1943,41 @@ def series_lines(subs, cal):
 
 
 def calendar_sentences(ptrs, cal, key=""):
-    """Each calendar entry of the person a paragraph: its date, its line as the calendar shows it, with its footnotes as
-    the calendar sets them (footnotes.apply: the marks after each run of claims, the footnotes under the line, the
-    note's other sentences after them; one footnote or none, the note one block), its unread records behind "To
-    check:" (footnotes.with_unread), the □ mark, and its pointer. key: the person's, so that an entry two persons
-    of one page give has its footnotes' anchors twice, each its own."""
-    from . import cjk, footnotes, loose, permalink
-    out = []
+    """Each calendar entry of the person as the calendar renders it (STYLE 9): build.entry_html, the calendar's own,
+    with its footnotes (footnotes.py), its note and 'Names:' line linked (build.list_text_html), its place and time at
+    the right (dateline.py), the □ mark in the corner (permalink.py, STYLE 2); no thread rubric, thread line or claims'
+    spans. Each carries the heading of its day block (life_html): the day's, as the calendar's (daybook.day_open), or
+    for a span, a month or a loose date its `when` with its year (daybook.block_open). key: the person's, so that an
+    entry two persons of one page give has its anchors twice, each its own."""
+    from . import build, daybook, dateline, loose
+    out, renderers = [], {}
+    own = "|".join(re.escape(k) for k in dict.fromkeys([key] + frus_keys_of(key))) if key else ""
     for e in cal:
-        if True:
-            raw = cjk.drop(str(store.as_list(e.get("c"))[0])) if e.get("c") else ""   # (cjk.py, STYLE 2)
-            c = series_html(ptrs, raw, "cal", e)
-            fns = None
-            if isinstance(e.get("c"), str) and raw:        # its footnotes, as the calendar's (footnotes.py, STYLE 1-8)
-                c, fns = footnotes.apply(ptrs.series, e, raw, c, lambda u: series_html(ptrs, cjk.drop(u), "cal", e),
-                                         f"{key}~{e['id']}" if key else None)
-            note = fns[2] if fns else footnotes.with_unread(ptrs.series, e, e.get("n") or "")
-            n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", note or "").strip(), "cal", e) if note else ""
-            fn_html = footnotes.notes_html(fns[1], f"{key}~{e['id']}" if key else e["id"],
-                                           lambda t: series_html(ptrs, t, "cal", e)) if fns else ""
-            # each calendar entry a paragraph of its own, its sources and pointer after it
-            wy = esc(e["when"]) if str(e["when"]).startswith(e["date"][:4]) else f"{esc(e['when'])}, {e['date'][:4]}"
-            # keyed by the day it is shown at (loose.place_day), so the life keeps the calendar's order (chron.py)
-            day = loose.place_day(e)
-            # its permalink mark, as on the calendar (tools/bib/permalink.py, STYLE 2): after the line, or the corner
-            line = permalink.in_text(c, e["id"], SITE)
-            line += permalink.in_box(e["id"], line != c, SITE) + fn_html
-            out.append(sent(day.isoformat() if day else e["date"], f"{wy}: {line}", [n] if n else [],
-                            [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {wy}")], para=True,
-                            kind="cal"))
+        hit = ptrs.series.get(e["id"])
+        if not hit:
+            continue
+        lst, sec, _ = hit
+        if lst.key not in renderers:
+            renderers[lst.key] = build.list_text_html(ptrs.series, lst.key, ptrs.linker)
+        rub = daybook.rubric_row("", e) if dateline.html_(e) else ""
+        li = build.entry_html(ptrs.series, lst, sec, e, renderers[lst.key], rubric=rub, home=key or None, site=SITE)
+        # a link to an entry of the calendar goes to the calendar (the build's router finds its page); the
+        # footnotes' own anchors stay on this page
+        li = re.sub(r'href="#(?!f[nr]-)([^"]+)"', lambda m: f'href="{esc(SITE + lst.key)}.html#{m.group(1)}"', li)
+        if own:                          # not a name in its own entry (namelinks): his own in the Names: line plain
+            li = re.sub(r'<a class="nm" href="[^"#]*#(' + own + r')">(.*?)</a>', r"\2", li)
+        d = str(e.get("date") or "")
+        if len(d) == 10 and daybook.end_of(e) == datetime.date.fromisoformat(d):
+            head = daybook.day_open(datetime.date.fromisoformat(d), None, True, None) + "</div>"
+        elif len(d) == 7 and str(e.get("when")).rstrip(".") in (FULL_NAME[int(d[5:])], MONTHS[int(d[5:]) - 1].rstrip(".")):
+            head = daybook.block_open(f"{FULL_NAME[int(d[5:])]} {d[:4]}")
+        else:
+            head = daybook.block_open(build.date_label(e))
+        # keyed by the day it is shown at (loose.place_day), so the life keeps the calendar's order (chron.py)
+        day = loose.place_day(e)
+        s_ = sent(day.isoformat() if day else e["date"], li, para=True, kind="cal")
+        s_["head"] = head
+        out.append(s_)
     return out
 
 
@@ -2175,7 +2189,7 @@ def record_html(rows, rosters):
 def life_html(sents):
     """Running text. Each run of sentences with the same sources and the same pointers is one sentence block, its
     source block after it (the cites, then the pointers), and each sentence block is a paragraph; a new paragraph
-    also at each office and election, and at each calendar entry, where the sources run on."""
+    also at each office and election. The calendar's entries in its day blocks, a block a heading (STYLE 9)."""
     paras, cur, block = [], [], None
 
     def close():
@@ -2189,15 +2203,30 @@ def life_html(sents):
         if cur:
             paras.append(" ".join(cur))
         cur, block = [], None
+    days = None                         # the calendar's day block open: [its heading, its entries]
+
+    def close_day():
+        nonlocal days
+        if days:
+            paras.append(days[0] + '<ol class="e">' + "".join(days[1]) + "</ol></div>")
+        days = None
     for s in sents:
+        if s["kind"] == "cal":           # the calendar's entries, in its day blocks, a block a day (STYLE 9)
+            close()
+            if days and days[0] != s["head"]:
+                close_day()
+            days = days or [s["head"], []]
+            days[1].append(s["text"])
+            continue
+        close_day()
         key = (tuple(dict.fromkeys(s["ext"])), tuple(dict.fromkeys(s["int"])))
         if block is not None and (key != block or s["para"]):
             close()
         cur.append(s["text"])
         block = key
     close()
-    # a paragraph holding a calendar entry's footnotes (a list) is a div, its style the paragraph's
-    return "".join(f'<div class="lvl">{p}</div>' if '<ol class="fn"' in p else f'<p class="lvl">{p}</p>' for p in paras)
+    close_day()
+    return "".join(p if p.startswith('<div class="day') else f'<p class="lvl">{p}</p>' for p in paras)
 
 
 # ---------------------------------------------------------------- the lists
@@ -2953,6 +2982,9 @@ p.az a{color:var(--muted);text-decoration:none}
 p.az a:hover{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px}
 p.az span{color:var(--ink)}
 .lvl{margin:.5rem 0;line-height:1.55}
+/* the calendar's entries in the Life, in its day blocks (daybook.py), without its rules (STYLE 9) */
+.lv .day{border-top:0;padding:.45rem 0 .1rem}
+.lv .day ol.e>li,.lv .day ol.e>li+li{border:0;padding:.35rem 0 .3rem}
 ul.lvx{list-style:none;margin:.3rem 0 1rem;padding:0;columns:2;column-gap:1.5rem;font-size:.92rem;line-height:1.5}
 ul.lvx li{break-inside:avoid;padding-left:1em;text-indent:-1em}
 ul.lvx a{color:var(--ink);text-decoration:none}
@@ -3066,9 +3098,11 @@ def page(series, linker, template, names):
 def wrap(template, title, main):
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", title).replace("{{main}}", "\n".join(main))
-    from . import footnotes, permalink   # the permalink mark's style, where the page has marks (permalink.py); the
-    if 'class="fm"' in pg:               # footnotes', where it has footnotes (footnotes.py)
+    from . import daybook, dateline, footnotes, permalink   # the permalink mark's style, where the page has marks
+    if 'class="fm"' in pg:               # (permalink.py); the footnotes', where it has footnotes (footnotes.py)
         pg = pg.replace("</head>", footnotes.STYLE + "\n</head>", 1)
+    if '<div class="day' in pg:          # the calendar's day blocks and datelines (STYLE 9)
+        pg = pg.replace("</head>", daybook.STYLE + dateline.STYLE + "\n</head>", 1)
     return permalink.inject(pg.replace("</body>", CSS + "\n</body>", 1))
 
 

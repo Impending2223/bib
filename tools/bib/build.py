@@ -245,8 +245,11 @@ def thread_person(series, html):
     return html
 
 
-def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", rubric=None):
-    """rubric: for a calendar entry laid out by day, the thread line that opens its first sentence."""
+def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", rubric=None, home=None, site=""):
+    """rubric: for a calendar entry laid out by day, the thread line that opens its first sentence. home: on a Names
+    page (lives.py, STYLE 9), the person's key: the entry's anchor and its footnotes' are his ('<key>~<id>', an entry
+    two persons of a page give each its own); no claims' spans, no thread line or threads (the rubric the caller's,
+    its date); site: the permalink's base."""
     if hasattr(text_html, "entry"):      # the page's renderer reads the entry's name: tags (a Names line's 'King')
         text_html.entry = e
     parts = []
@@ -260,7 +263,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
     if is_thread and lst.is_ghost(e["id"].split(".", 2)[2]):
         return ghost_thread_html(lst, e)  # a ghost subthread: a muted line, its name and dates (calsplit.py, STYLE 9)
     statement = e.get("c")
-    anchor = e["id"]
+    anchor = f"{home}~{e['id']}" if home else e["id"]
     if is_thread:                       # a thread's entry: its statement and dates in the half being built
         slug = e["id"].split(".", 2)[2]
         members = thread_members(lst).get(slug, [])
@@ -287,15 +290,15 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         if is_thread and i == 0:
             body = thread_person(series, body)
         elif lst.kind == "calendar" and i == 0:   # its claims, a span each (tools/bib/vispage.py, STYLE 2)
-            spans = vispage.c_html(series, lst, e, body, _unit_renderer(series, text_html, year))
+            spans = None if home else vispage.c_html(series, lst, e, body, _unit_renderer(series, text_html, year))
             if spans is not None:
                 body = spans
                 extra_attrs += ' data-cl="1"'
             if footed:                    # the marks, after each run's last claim (footnotes.py, STYLE 1, 2, 6)
                 from . import footnotes
-                body, fns = footnotes.apply(series, e, c, body, _unit_renderer(series, text_html, year))
+                body, fns = footnotes.apply(series, e, c, body, _unit_renderer(series, text_html, year), anchor)
         if pl and i == len(statements) - 1:   # inline: after the text, outside its claims and footnote marks
-            body2 = permalink.in_text(body, e["id"])
+            body2 = permalink.in_text(body, e["id"], site)
             pl_inlined, body = body2 != body, body2
         parts.append(f'<span class="c">{lead}{body}</span>')
     if e.get("r"):
@@ -314,7 +317,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         bare = year_qualified(series, footnotes.SEP.join(fns[1]), year)    # the note's own characters as written
         joined = works.with_first_cites(series, e, bare)                   # (cjk.py, STYLE 4)
         printed = cjk.printed_by(bare, joined)
-        fn_html = footnotes.notes_html(joined.split(footnotes.SEP), e["id"], lambda t: text_html(t, "n"))
+        fn_html = footnotes.notes_html(joined.split(footnotes.SEP), anchor, lambda t: text_html(t, "n"))
         n = year_qualified(series, fns[2], year) if fns[2] else ""
     if cj:                              # the Names: persons' characters, the line's quoted originals (cjk.py, STYLE 3, 7)
         from . import works
@@ -337,7 +340,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
             parts.append(fn_html)
         if n:
             parts.append(f'<span class="n">{text_html(n, "n")}</span>')
-    if rubric is not None and lst.kind == "calendar" and e.get("thread"):
+    if rubric is not None and lst.kind == "calendar" and e.get("thread") and not home:
         prog = program_html(series, lst, e, year, text_html)
         if prog:
             parts.append(f'<span class="tn tp">{prog}</span>')
@@ -353,14 +356,14 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         parts.append(f'<span class="gl">{paras}</span>')
     if e.get("conflict"):
         parts.append('<span class="n"><b>Unresolved merge conflict.</b></span>')
-    if lst.kind == "calendar":           # its threads, for the highlight a reader turns on (calsplit.py, STYLE 7)
+    if lst.kind == "calendar" and not home:   # its threads, for the highlight a reader turns on (calsplit.py, STYLE 7)
         if is_thread:
             extra_attrs += f' data-thread="{attr(slug)}"'
         elif e.get("thread"):
             from . import subentries    # a parent carries its subentries' threads (subentries.py, STYLE 3)
             extra_attrs += f' data-threads="{attr(" ".join(subentries.threads_of(lst, e, entry_threads(lst, e))))}"'
     if pl:                              # corner: the box's bottom right
-        extra_spans += permalink.in_box(e["id"], pl_inlined)
+        extra_spans += permalink.in_box(e["id"], pl_inlined, site)
     return f'<li id="{attr(anchor)}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
 
 

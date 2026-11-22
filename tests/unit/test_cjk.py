@@ -4,6 +4,8 @@ Keep them in the citation block."; "Names in 'Names:' should have their CJK give
 
 Written with the change (Nov. 19, 2026); the lines are the calendar's own, as readers wrote them.
 """
+import re
+
 import pytest
 
 from bib import cjk, store
@@ -273,8 +275,8 @@ def test_printed_by_cites(series):
 
 
 def test_other_renderers_drop(monkeypatch):
-    """(12) The standing conditions' register and the lives' calendar sentences show the line as the calendar does."""
-    from bib import standing, lives, calsplit
+    """(12) The standing conditions' register shows the line as the calendar does."""
+    from bib import standing, calsplit
     e = {"id": "cal.x", "date": "1961-04-01", "when": "Apr. 1", "thread": "t", "tags": ["form:state"],
          "c": "Yang Shangkun 杨尚昆 in Hangzhou 杭州.", "n": "Names: Yang Shangkun."}
 
@@ -296,17 +298,17 @@ def test_other_renderers_drop(monkeypatch):
     monkeypatch.setattr(calsplit, "href", lambda lst, h, i: "cal.html#x")
     out = standing.register_html(L(), lambda l, t: t, lambda l, t: t)
     assert "Yang Shangkun in Hangzhou." in out and not cjk.HAS.search(out)
-    got = []
-    monkeypatch.setattr(lives, "series_html", lambda ptrs, t, kind, x: t)
-    monkeypatch.setattr(lives, "sent", lambda d, text, *a, **k: got.append(text))
-    monkeypatch.setattr(lives, "ptr", lambda *a, **k: "")
-    from bib import store
 
-    class P:                                # the pointers' series: the footnotes ask it (footnotes.apply)
-        series = store.Series()
-    lives.calendar_sentences(P(), [e])
-    from bib import permalink                # the line, then its permalink mark (permalink.py, STYLE 2)
-    assert got == ["Apr. 1, 1961: Yang Shangkun in Hangzhou." + permalink.in_box("cal.x")]
+
+def test_lives_drop(series):
+    """(12) The lives' calendar sentences render the line by the calendar's renderer (lives.py, STYLE 9): its characters
+    dropped as the calendar's are."""
+    from bib import build, lives
+    from bib.congress import Pointers
+    e = series.get("cal.1961-04-01.china-leadership-3")[2]
+    got = lives.calendar_sentences(Pointers(series, build.Linker(series)), [e], "yang-shangkun")
+    line = re.sub(r"<[^>]+>", "", re.split(r'<ol class="fn"|<span class="n">', got[0]["text"])[0])
+    assert "Yang Shangkun" in line and not cjk.HAS.search(line)
 
 
 def test_first_on_each_page(series):

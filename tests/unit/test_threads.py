@@ -128,6 +128,24 @@ def test_names_entry_footnotes(series):
     n = len(footnotes.build(series, e)[1])
     assert text.count('<sup class="fm">') == n and text.count('<li id="fn-kennedy-john-f~') == n
     assert '<ol class="fn">' in text and permalink.mark(eid) in text
-    assert "".join(got[0]["ext"]).startswith("To check: ")   # its cites in the footnotes, the rest after them
+    assert '</ol><span class="n">To check: ' in text       # its cites in the footnotes, the rest after them
     para = lives.life_html(got)
-    assert para.startswith('<div class="lvl">') and para.endswith("</div>")
+    assert para.startswith('<div class="day mo">') and para.endswith("</ol></div>")
+
+
+def test_names_entry_as_calendar(series):
+    """A Names entry's calendar entries as the calendar renders them (lives.py, STYLE 9): in the calendar's day block,
+    the day's heading once; the place and time at the right; the note's Names: line, its persons linked; the □ mark;
+    no thread rubric, thread line or "Cal." pointer, no inline date; his own name not linked in his own entry."""
+    from bib.congress import Pointers
+    es = [series.get(i)[2] for i in ("cal.1961-04-01.cuba", "cal.1961-04-01.soviet-union")]
+    ptrs = Pointers(series, build.Linker(series))
+    got = lives.calendar_sentences(ptrs, es, "schlesinger-arthur-m-jr")
+    html = lives.life_html(got)
+    assert html.count('<div class="day') == 1 and html.count('<span class="dn">Saturday, Apr. 1, 1961</span>') == 1
+    assert '<span class="rubrow"><span class="s rub"></span><span class="dl"' in got[0]["text"]
+    assert re.search(r'Names: Schlesinger, <a class="nm" href="[^"]+#kennedy-john-f">Kennedy</a>', got[0]["text"])
+    assert permalink.mark("cal.1961-04-01.cuba") in got[0]["text"] and '<li id="schlesinger-arthur-m-jr~cal.1961-04-01.cuba"' in html
+    assert "Cal. " not in html and "Apr. 1, 1961:" not in html and 'class="rt"' not in html and "⟨⟨" not in html
+    assert 'class="tn' not in html and "data-threads" not in html
+    assert 'class="lvp"' not in html                       # no pointer's sans in the text ("106 Cong. Rec.")

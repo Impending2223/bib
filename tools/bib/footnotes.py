@@ -16,8 +16,9 @@ STYLE
     FRUS ..." not repeated where it names its print or the note cites it. A record the map names that the note cites
     in its printing or recording (a FRUS document, the Papers' page, the Miller Center's or PRDE's tape) is no
     source of its own: the print cited is (the owner, Nov. 21, 2026). One item twice (two links of one cite) once.
-    Sources the map has not yet given units (`?`) and items of the note no row names close the last footnote. A
-    label's items (claims.py, STYLE 7: "The Senate sat from noon to 7:02 p.m.: Daily Digest, D468") are a sentence of
+    Sources the map has not yet given units (`?`) and items of the note no row names close the last footnote, but the
+    day's label's (the chamber's sitting, DAY_LABEL), which go in the first, as the mechanical map gives them
+    (claims.py, STYLE 7; the owner, Nov. 21, 2026: "should only be in the first footnote"). A label's items (claims.py, STYLE 7: "The Senate sat from noon to 7:02 p.m.: Daily Digest, D468") are a sentence of
     their own under the label, the footnote's other cites citation sentences; each sentence closes with a full stop.
  4. *id*. (the owner: "italicize the 'id' but leave the full stop in plain roman ... A departure from the Bluebook"): a
     citation of the work cited immediately before, in the same footnote or as the previous footnote's only authority
@@ -56,6 +57,9 @@ import re
 
 from . import claims, witnesses
 
+# the day's label: the chamber's sitting ("The Senate sat from noon to 8:05 p.m.: [Daily Digest, D3](…)"); a label
+# of one fact ("After the NSC: …") stays with the sources no row names, at the end (STYLE 3)
+DAY_LABEL = re.compile(r"The (?:Senate|House)\b[^:]*\b(?:sat|met)\b")
 SEP = "\n\n"          # between footnotes while the note's passes run over them as one text
 MARK = "{}"
 
@@ -290,14 +294,20 @@ def _cites(series, e):
                 uniq.append(x)
         per.append(uniq)
     tail = []
+
+    def unrowed(item):
+        """An item no row gives units: at the end; the day's label's (DAY_LABEL), the first unit's, where the day's
+        facts sit (STYLE 3; claims.py, STYLE 7)."""
+        d = lab(item, dict(kind="text", key=item, pin="", paren="", text=item))
+        (per[0] if per and DAY_LABEL.match(d.get("label") or "") else tail).append(d)
     for r, k, key, pin, note, u, item in rows:
         if u == "?" and item and item not in used:
             used.add(item)
-            tail.append(lab(item, dict(kind="text", key=item, pin="", paren="", text=item)))
+            unrowed(item)
     for it in srcs:                       # an item of the note no row names: kept, at the end
         if it not in used and not any(it == x["text"] for p in per for x in p):
             used.add(it)
-            tail.append(lab(it, dict(kind="text", key=it, pin="", paren="", text=it)))
+            unrowed(it)
     return us, per, tail, list(unread)
 
 
