@@ -1,0 +1,727 @@
+diff --git a/tests/golden/expected/build-files.txt b/tests/golden/expected/build-files.txt
+index fb6c057..5f105fa 100644
+--- a/tests/golden/expected/build-files.txt
++++ b/tests/golden/expected/build-files.txt
+@@ -1,8 +1,8 @@
+ 8fa8bb849ca956d7      26021  adm.html
+ a3d4d2f327f3b765      70191  cal.html
+ 8123c2767195790e       9541  cal1961.html
+-1168765f794889cc    1317309  cal1961H1.html
+-edfc0d46c82d5b56     852352  cal1961H2.html
++076d95844301e497    1318148  cal1961H1.html
++2f1e64e41e314fb7     854691  cal1961H2.html
+ 3df6c9a53d8ccc1e       9539  cal63.html
+ f57986a4a4e61604       9539  cal66.html
+ 947789d7b2885d9a      28059  cong.html
+@@ -39,34 +39,34 @@ d96ddd98b5fb51a7        260  lives-v.html
+ bda1548cf55ecc03        260  lives-y.html
+ 491ec44ba21977dc        260  lives-z.html
+ b0dfed76c3fece7e        252  lives.html
+-0c3453986c15af08      66152  names-a.html
+-b23b99f557c1aabc     335379  names-b.html
+-acc2e8949fe9cef4     164300  names-c.html
+-f1d28f54a9799654     192194  names-d.html
+-f61af8e0dfb94fa9      56709  names-e.html
+-19ce8ce84d85a2ba      90877  names-f.html
+-6a99d0e905818170     148679  names-g.html
+-3f2419e792ef1275     120676  names-h.html
+-0dcefacf4f6e1f5b      35197  names-i.html
+-d3a0461866dea121      80841  names-j.html
+-848e22a048bf8ebc     514915  names-k.html
+-77cecb738e8d5a45     205370  names-l.html
+-94bdc810fffb8021     325384  names-m.html
+-f9d041918e414ff2      87652  names-n.html
+-1a0bdf04e00fdf92      56007  names-o.html
+-7fd1dd22d7040dee      66813  names-p.html
+-510d02a2b2c93218      31942  names-q.html
+-54866c6f9372a2b5     190567  names-r.html
+-aa733cb957ffe0c0     220056  names-s.html
+-84e311b20c1e3eae     107157  names-t.html
+-e4438ce973d928d8      38951  names-u.html
+-bc53631d16f21e12      32667  names-v.html
+-a87a8fd63d9aaaa3      94765  names-w.html
+-6d9dc996c6446787      45238  names-y.html
+-fa1b7fede1ecf461     170066  names-z.html
+-6c8f06fe9e893781      91690  names.html
++00849d551235a5ea      72611  names-a.html
++c705ece8598d3d07     384324  names-b.html
++2202e87ea43e2583     184960  names-c.html
++6a8fd1b4ad433231     216406  names-d.html
++9c94d4ee8d798829      64706  names-e.html
++d5d85ba7adc0fb04     100608  names-f.html
++1783a17418d298fe     167220  names-g.html
++b07a5dfddff26697     134803  names-h.html
++6efcbe2b6f7bdc46      40443  names-i.html
++efb69a0afcdae8bc      91837  names-j.html
++53dd7ddc72c3e5e1     583202  names-k.html
++0c8889fa6a0c2010     228563  names-l.html
++a1bd940c91f3cd74     364620  names-m.html
++2054ad685dac18f7     101067  names-n.html
++d242466cec2e402b      62794  names-o.html
++9efdbd56f8da119f      75471  names-p.html
++266e65227d522612      35771  names-q.html
++527978914c3fc527     219166  names-r.html
++0bdc23481dd5e1fb     248981  names-s.html
++6691ed6c604a0028     120906  names-t.html
++6560f68e9866cdc5      43589  names-u.html
++22d2641d840ff3d4      37120  names-v.html
++21aadec9b181fd82     105630  names-w.html
++c755ada1fa6947f6      51465  names-y.html
++b3db7aed5aa60e73     190603  names-z.html
++5c68c35e213fda68      91908  names.html
+ 258783c3d0bb1ff1      30305  opp.html
+-dd363e141a3f6f34    2423063  series.html
++7f0048a32e054e18    2426203  series.html
+ fd1d1c82b6b08d6f      35270  threads-africa-algeria-morocco.html
+ a1bf31f216de8bfe      35382  threads-africa-rhodesia.html
+ cb428b6f91d0f1bd     103291  threads-africa.html
+@@ -80,14 +80,14 @@ b5bc1b0dbdb8ee8d      36968  threads-cities-and-housing.html
+ 4e9345169ce80c82      55534  threads-civil-rights-the-executive.html
+ 2693a6e546aa6525      39224  threads-confirmations.html
+ d750e68ad1f27f6a      45656  threads-congo.html
+-65c3d70000cb34f3      55174  threads-congress.html
++635d081a3e2eab56      55769  threads-congress.html
+ 43f28a83d2bcd1c1      41269  threads-conservation.html
+ d5639d3fd43d513c      45259  threads-conservative-movement.html
+ bfcedc8282ebb6e3      39555  threads-court.html
+ cd04f940eb0c7471      35280  threads-crime-and-hijacking-maheu.html
+ c422be52ece3e8ff      46509  threads-crime-and-hijacking.html
+ 6bd126ee8338d2a5     401538  threads-cuba-bay-of-pigs.html
+-a731e65ae595df55     169220  threads-cuba.html
++b98a331c1057b427     169938  threads-cuba.html
+ 363ed84e8e403026      34472  threads-cyprus.html
+ f2933ee41a9ed786      34917  threads-defense-abm.html
+ befbe20957634503     146287  threads-defense.html
+@@ -104,20 +104,20 @@ a71944d32046003f      34952  threads-elections-1964-polls.html
+ ad3a2780c506e201      72999  threads-europe-and-the-alliance.html
+ 82a08110adee1c3f      57946  threads-european-community.html
+ 02ed08bd0697be6a      73777  threads-farm.html
+-34fa395eb026d4e2      50382  threads-foreign-aid.html
++cae98bd5c5bf2292      50977  threads-foreign-aid.html
+ c80eea0ccc1fd300      35158  threads-freedom-rides.html
+ 5cac2fb2df41f918      35895  threads-georgia.html
+-2822a87faa25f5f7      55325  threads-goldwater.html
++aeb9be8171cbbef1      56043  threads-goldwater.html
+ 3f06fcba5c557eb7      38110  threads-governors.html
+ 6e38f87c0e090367      35007  threads-health.html
+ abf2b70d3114ec6e      47461  threads-indonesia.html
+ f58fea8e03ce2b2a      42789  threads-intelligence.html
+ ef4bd39ca32fa520      47149  threads-japan.html
+-096ed36fc8400bae      43424  threads-jobs-and-wages.html
++2cc4ceb7645d0041      44270  threads-jobs-and-wages.html
+ 415e5e3f955cc211      46603  threads-king.html
+ 6c40a91b3858769d      36177  threads-korea.html
+ b4343db537644d78      34702  threads-labor.html
+-1a6f794021346a4f     201205  threads-laos.html
++53184cc764ceef76     201923  threads-laos.html
+ 3819a196e95ee400      54355  threads-latin-america-dominican-republic.html
+ dc9546f0626e3a10     104546  threads-latin-america.html
+ e0b10c4fd90096a4      35016  threads-legislatures.html
+@@ -131,12 +131,12 @@ eee1914b0ab0fb97      36522  threads-middle-east-johnson-plan.html
+ bbc722141e1cc821      49213  threads-opinion.html
+ b4b19d855cd76fcd      34572  threads-peace-corps.html
+ 86103ecbfc2dccbf      89201  threads-press-and-broadcasting.html
+-984bc6ef15650b25      43441  threads-republican-party-congress.html
++5c3b15aa68a65430      45185  threads-republican-party-congress.html
+ c6c11d413685d50e      47963  threads-republican-party.html
+-ecb26c3e923853ac      67221  threads-right-and-the-military.html
++4d0d53ed0c679d41      67342  threads-right-and-the-military.html
+ 7cf21231bc9378ab     126855  threads-robert-kennedy.html
+ ebd5ab661a0a7f8d      36778  threads-rules.html
+-beecbe0667a0278b      54539  threads-school-aid.html
++4e6ae016e6f81c20      54539  threads-school-aid.html
+ eab102fdcf3ed581      42447  threads-south-asia.html
+ bf9cd31d9835530e      44831  threads-soviet-union-leadership.html
+ 368b04b2c4602222      35563  threads-soviet-union-space.html
+@@ -146,7 +146,7 @@ dad63ece609a9420      56883  threads-space.html
+ b718ed4fe226141f      36544  threads-specials.html
+ e942208b3d24f44c      37571  threads-state-and-city-finance.html
+ 2c1150f56741c933      34698  threads-state-constitutions.html
+-e803ec10c9a7a6db      45685  threads-states-and-cities.html
++52d11197c11f2a6d      46583  threads-states-and-cities.html
+ bcc38b70367b6024      29622  threads-students.html
+ 244414e91a95642d      79868  threads-testing.html
+ 44060c631e6c969d      40766  threads-trade.html
+@@ -160,7 +160,7 @@ e3ecaa53abd7d464      36168  threads-vietnam-force-levels.html
+ e3d43d80ce9932a9      97963  threads-vietnam.html
+ e6e44913dae089d5      50426  threads-voting-rights.html
+ 4aa58cb208d4e759      34870  threads-war-opposition.html
+-ff5a59c0f2d46af6      39583  threads-welfare.html
++5faba7bd1dc017d8      40481  threads-welfare.html
+ 8c04a3e18bc85530      34324  threads.html
+ 5230a48d39133d6c      34128  vn.html
+ b654a5df040726a7      24983  wg.html
+diff --git a/tests/golden/expected/build-output.txt b/tests/golden/expected/build-output.txt
+index 1ac7203..b4eea9e 100644
+--- a/tests/golden/expected/build-output.txt
++++ b/tests/golden/expected/build-output.txt
+@@ -1,8 +1,8 @@
+ build/kja.html 56 KB
+ build/kjc.html 38 KB
+ build/opp.html 29 KB
+-build/cal1961H1.html 1286 KB
+-build/cal1961H2.html 832 KB
++build/cal1961H1.html 1287 KB
++build/cal1961H2.html 834 KB
+ build/cal.html 68 KB
+ build/cal63.html 9 KB
+ build/cal66.html 9 KB
+@@ -14,58 +14,58 @@ build/adm.html 25 KB
+ build/cong.html 27 KB
+ build/wg.html 24 KB
+ build/vn.html 33 KB
+-build/series.html 2366 KB
++build/series.html 2369 KB
+ build/executive.html 2026 KB
+ build/works.html 211 KB
+-build/names-a.html 64 KB
++build/names-a.html 70 KB
+ build/lives-a.html 0 KB
+-build/names-b.html 327 KB
++build/names-b.html 375 KB
+ build/lives-b.html 0 KB
+-build/names-c.html 160 KB
++build/names-c.html 180 KB
+ build/lives-c.html 0 KB
+-build/names-d.html 187 KB
++build/names-d.html 211 KB
+ build/lives-d.html 0 KB
+-build/names-e.html 55 KB
++build/names-e.html 63 KB
+ build/lives-e.html 0 KB
+-build/names-f.html 88 KB
++build/names-f.html 98 KB
+ build/lives-f.html 0 KB
+-build/names-g.html 145 KB
++build/names-g.html 163 KB
+ build/lives-g.html 0 KB
+-build/names-h.html 117 KB
++build/names-h.html 131 KB
+ build/lives-h.html 0 KB
+-build/names-i.html 34 KB
++build/names-i.html 39 KB
+ build/lives-i.html 0 KB
+-build/names-j.html 78 KB
++build/names-j.html 89 KB
+ build/lives-j.html 0 KB
+-build/names-k.html 502 KB
++build/names-k.html 569 KB
+ build/lives-k.html 0 KB
+-build/names-l.html 200 KB
++build/names-l.html 223 KB
+ build/lives-l.html 0 KB
+-build/names-m.html 317 KB
++build/names-m.html 356 KB
+ build/lives-m.html 0 KB
+-build/names-n.html 85 KB
++build/names-n.html 98 KB
+ build/lives-n.html 0 KB
+-build/names-o.html 54 KB
++build/names-o.html 61 KB
+ build/lives-o.html 0 KB
+-build/names-p.html 65 KB
++build/names-p.html 73 KB
+ build/lives-p.html 0 KB
+-build/names-q.html 31 KB
++build/names-q.html 34 KB
+ build/lives-q.html 0 KB
+-build/names-r.html 186 KB
++build/names-r.html 214 KB
+ build/lives-r.html 0 KB
+-build/names-s.html 214 KB
++build/names-s.html 243 KB
+ build/lives-s.html 0 KB
+-build/names-t.html 104 KB
++build/names-t.html 118 KB
+ build/lives-t.html 0 KB
+-build/names-u.html 38 KB
++build/names-u.html 42 KB
+ build/lives-u.html 0 KB
+-build/names-v.html 31 KB
++build/names-v.html 36 KB
+ build/lives-v.html 0 KB
+-build/names-w.html 92 KB
++build/names-w.html 103 KB
+ build/lives-w.html 0 KB
+-build/names-y.html 44 KB
++build/names-y.html 50 KB
+ build/lives-y.html 0 KB
+-build/names-z.html 166 KB
++build/names-z.html 186 KB
+ build/lives-z.html 0 KB
+ build/names.html 89 KB
+ build/lives.html 0 KB
+@@ -83,7 +83,7 @@ build/threads-civil-rights-organizations.html 54 KB
+ build/threads-civil-rights-the-executive.html 54 KB
+ build/threads-confirmations.html 38 KB
+ build/threads-congo.html 44 KB
+-build/threads-congress.html 53 KB
++build/threads-congress.html 54 KB
+ build/threads-conservation.html 40 KB
+ build/threads-conservative-movement.html 44 KB
+ build/threads-amendments.html 41 KB
+@@ -117,12 +117,12 @@ build/threads-indonesia.html 46 KB
+ build/threads-intelligence.html 41 KB
+ build/threads-crime-and-hijacking-maheu.html 34 KB
+ build/threads-japan.html 46 KB
+-build/threads-jobs-and-wages.html 42 KB
++build/threads-jobs-and-wages.html 43 KB
+ build/threads-robert-kennedy.html 123 KB
+ build/threads-king.html 45 KB
+ build/threads-korea.html 35 KB
+ build/threads-labor.html 33 KB
+-build/threads-laos.html 196 KB
++build/threads-laos.html 197 KB
+ build/threads-latin-america.html 102 KB
+ build/threads-latin-america-dominican-republic.html 53 KB
+ build/threads-mayors.html 42 KB
+@@ -137,7 +137,7 @@ build/threads-war-opposition.html 34 KB
+ build/threads-peace-corps.html 33 KB
+ build/threads-press-and-broadcasting.html 87 KB
+ build/threads-republican-party.html 46 KB
+-build/threads-republican-party-congress.html 42 KB
++build/threads-republican-party-congress.html 44 KB
+ build/threads-right-and-the-military.html 65 KB
+ build/threads-rules.html 35 KB
+ build/threads-school-aid.html 53 KB
+@@ -150,7 +150,7 @@ build/threads-soviet-union-u2.html 34 KB
+ build/threads-space.html 55 KB
+ build/threads-state-and-city-finance.html 36 KB
+ build/threads-state-constitutions.html 33 KB
+-build/threads-states-and-cities.html 44 KB
++build/threads-states-and-cities.html 45 KB
+ build/threads-students.html 28 KB
+ build/threads-court.html 38 KB
+ build/threads-trade.html 39 KB
+@@ -163,7 +163,7 @@ build/threads-vietnam-force-levels.html 35 KB
+ build/threads-vietnam-hanoi.html 88 KB
+ build/threads-vietnam-johnson-asia.html 35 KB
+ build/threads-voting-rights.html 49 KB
+-build/threads-welfare.html 38 KB
++build/threads-welfare.html 39 KB
+ build/feeds/recordings.opml 0 KB
+ build/ebooks.html 23 KB
+ visibility (every page and the reader): 3,196 entries rendered, 8,252 claim spans (1,373 unmapped, 3,053 US:all), 0 entries one span (units not found in their rendering)
+diff --git a/tests/unit/test_cjk.py b/tests/unit/test_cjk.py
+index f420e65..af8fb49 100644
+--- a/tests/unit/test_cjk.py
++++ b/tests/unit/test_cjk.py
+@@ -4,6 +4,8 @@ Keep them in the citation block."; "Names in 'Names:' should have their CJK give
+ 
+ Written with the change (Nov. 19, 2026); the lines are the calendar's own, as readers wrote them.
+ """
++import re
++
+ import pytest
+ 
+ from bib import cjk, store
+@@ -273,8 +275,8 @@ def test_printed_by_cites(series):
+ 
+ 
+ def test_other_renderers_drop(monkeypatch):
+-    """(12) The standing conditions' register and the lives' calendar sentences show the line as the calendar does."""
+-    from bib import standing, lives, calsplit
++    """(12) The standing conditions' register shows the line as the calendar does."""
++    from bib import standing, calsplit
+     e = {"id": "cal.x", "date": "1961-04-01", "when": "Apr. 1", "thread": "t", "tags": ["form:state"],
+          "c": "Yang Shangkun 杨尚昆 in Hangzhou 杭州.", "n": "Names: Yang Shangkun."}
+ 
+@@ -296,17 +298,17 @@ def test_other_renderers_drop(monkeypatch):
+     monkeypatch.setattr(calsplit, "href", lambda lst, h, i: "cal.html#x")
+     out = standing.register_html(L(), lambda l, t: t, lambda l, t: t)
+     assert "Yang Shangkun in Hangzhou." in out and not cjk.HAS.search(out)
+-    got = []
+-    monkeypatch.setattr(lives, "series_html", lambda ptrs, t, kind, x: t)
+-    monkeypatch.setattr(lives, "sent", lambda d, text, *a, **k: got.append(text))
+-    monkeypatch.setattr(lives, "ptr", lambda *a, **k: "")
+-    from bib import store
+-
+-    class P:                                # the pointers' series: the footnotes ask it (footnotes.apply)
+-        series = store.Series()
+-    lives.calendar_sentences(P(), [e])
+-    from bib import permalink                # the line, then its permalink mark (permalink.py, STYLE 2)
+-    assert got == ["Apr. 1, 1961: Yang Shangkun in Hangzhou." + permalink.in_box("cal.x")]
++
++
++def test_lives_drop(series):
++    """(12) The lives' calendar sentences render the line by the calendar's renderer (lives.py, STYLE 9): its characters
++    dropped as the calendar's are."""
++    from bib import build, lives
++    from bib.congress import Pointers
++    e = series.get("cal.1961-04-01.china-leadership-3")[2]
++    got = lives.calendar_sentences(Pointers(series, build.Linker(series)), [e], "yang-shangkun")
++    line = re.sub(r"<[^>]+>", "", re.split(r'<ol class="fn"|<span class="n">', got[0]["text"])[0])
++    assert "Yang Shangkun" in line and not cjk.HAS.search(line)
+ 
+ 
+ def test_first_on_each_page(series):
+diff --git a/tests/unit/test_threads.py b/tests/unit/test_threads.py
+index ccf427c..90a30b9 100644
+--- a/tests/unit/test_threads.py
++++ b/tests/unit/test_threads.py
+@@ -128,6 +128,24 @@ def test_names_entry_footnotes(series):
+     n = len(footnotes.build(series, e)[1])
+     assert text.count('<sup class="fm">') == n and text.count('<li id="fn-kennedy-john-f~') == n
+     assert '<ol class="fn">' in text and permalink.mark(eid) in text
+-    assert "".join(got[0]["ext"]).startswith("To check: ")   # its cites in the footnotes, the rest after them
++    assert '</ol><span class="n">To check: ' in text       # its cites in the footnotes, the rest after them
+     para = lives.life_html(got)
+-    assert para.startswith('<div class="lvl">') and para.endswith("</div>")
++    assert para.startswith('<div class="day mo">') and para.endswith("</ol></div>")
++
++
++def test_names_entry_as_calendar(series):
++    """A Names entry's calendar entries as the calendar renders them (lives.py, STYLE 9): in the calendar's day block,
++    the day's heading once; the place and time at the right; the note's Names: line, its persons linked; the □ mark;
++    no thread rubric, thread line or "Cal." pointer, no inline date; his own name not linked in his own entry."""
++    from bib.congress import Pointers
++    es = [series.get(i)[2] for i in ("cal.1961-04-01.cuba", "cal.1961-04-01.soviet-union")]
++    ptrs = Pointers(series, build.Linker(series))
++    got = lives.calendar_sentences(ptrs, es, "schlesinger-arthur-m-jr")
++    html = lives.life_html(got)
++    assert html.count('<div class="day') == 1 and html.count('<span class="dn">Saturday, Apr. 1, 1961</span>') == 1
++    assert '<span class="rubrow"><span class="s rub"></span><span class="dl"' in got[0]["text"]
++    assert re.search(r'Names: Schlesinger, <a class="nm" href="[^"]+#kennedy-john-f">Kennedy</a>', got[0]["text"])
++    assert permalink.mark("cal.1961-04-01.cuba") in got[0]["text"] and '<li id="schlesinger-arthur-m-jr~cal.1961-04-01.cuba"' in html
++    assert "Cal. " not in html and "Apr. 1, 1961:" not in html and 'class="rt"' not in html and "⟨⟨" not in html
++    assert 'class="tn' not in html and "data-threads" not in html
++    assert 'class="lvp"' not in html                       # no pointer's sans in the text ("106 Cong. Rec.")
+diff --git a/tools/bib/build.py b/tools/bib/build.py
+index c5f2fed..c7e1604 100644
+--- a/tools/bib/build.py
++++ b/tools/bib/build.py
+@@ -245,8 +245,11 @@ def thread_person(series, html):
+     return html
+ 
+ 
+-def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", rubric=None):
+-    """rubric: for a calendar entry laid out by day, the thread line that opens its first sentence."""
++def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", rubric=None, home=None, site=""):
++    """rubric: for a calendar entry laid out by day, the thread line that opens its first sentence. home: on a Names
++    page (lives.py, STYLE 9), the person's key: the entry's anchor and its footnotes' are his ('<key>~<id>', an entry
++    two persons of a page give each its own); no claims' spans, no thread line or threads (the rubric the caller's,
++    its date); site: the permalink's base."""
+     if hasattr(text_html, "entry"):      # the page's renderer reads the entry's name: tags (a Names line's 'King')
+         text_html.entry = e
+     parts = []
+@@ -260,7 +263,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+     if is_thread and lst.is_ghost(e["id"].split(".", 2)[2]):
+         return ghost_thread_html(lst, e)  # a ghost subthread: a muted line, its name and dates (calsplit.py, STYLE 9)
+     statement = e.get("c")
+-    anchor = e["id"]
++    anchor = f"{home}~{e['id']}" if home else e["id"]
+     if is_thread:                       # a thread's entry: its statement and dates in the half being built
+         slug = e["id"].split(".", 2)[2]
+         members = thread_members(lst).get(slug, [])
+@@ -287,15 +290,15 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+         if is_thread and i == 0:
+             body = thread_person(series, body)
+         elif lst.kind == "calendar" and i == 0:   # its claims, a span each (tools/bib/vispage.py, STYLE 2)
+-            spans = vispage.c_html(series, lst, e, body, _unit_renderer(series, text_html, year))
++            spans = None if home else vispage.c_html(series, lst, e, body, _unit_renderer(series, text_html, year))
+             if spans is not None:
+                 body = spans
+                 extra_attrs += ' data-cl="1"'
+             if footed:                    # the marks, after each run's last claim (footnotes.py, STYLE 1, 2, 6)
+                 from . import footnotes
+-                body, fns = footnotes.apply(series, e, c, body, _unit_renderer(series, text_html, year))
++                body, fns = footnotes.apply(series, e, c, body, _unit_renderer(series, text_html, year), anchor)
+         if pl and i == len(statements) - 1:   # inline: after the text, outside its claims and footnote marks
+-            body2 = permalink.in_text(body, e["id"])
++            body2 = permalink.in_text(body, e["id"], site)
+             pl_inlined, body = body2 != body, body2
+         parts.append(f'<span class="c">{lead}{body}</span>')
+     if e.get("r"):
+@@ -314,7 +317,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+         bare = year_qualified(series, footnotes.SEP.join(fns[1]), year)    # the note's own characters as written
+         joined = works.with_first_cites(series, e, bare)                   # (cjk.py, STYLE 4)
+         printed = cjk.printed_by(bare, joined)
+-        fn_html = footnotes.notes_html(joined.split(footnotes.SEP), e["id"], lambda t: text_html(t, "n"))
++        fn_html = footnotes.notes_html(joined.split(footnotes.SEP), anchor, lambda t: text_html(t, "n"))
+         n = year_qualified(series, fns[2], year) if fns[2] else ""
+     if cj:                              # the Names: persons' characters, the line's quoted originals (cjk.py, STYLE 3, 7)
+         from . import works
+@@ -337,7 +340,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+             parts.append(fn_html)
+         if n:
+             parts.append(f'<span class="n">{text_html(n, "n")}</span>')
+-    if rubric is not None and lst.kind == "calendar" and e.get("thread"):
++    if rubric is not None and lst.kind == "calendar" and e.get("thread") and not home:
+         prog = program_html(series, lst, e, year, text_html)
+         if prog:
+             parts.append(f'<span class="tn tp">{prog}</span>')
+@@ -353,14 +356,14 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+         parts.append(f'<span class="gl">{paras}</span>')
+     if e.get("conflict"):
+         parts.append('<span class="n"><b>Unresolved merge conflict.</b></span>')
+-    if lst.kind == "calendar":           # its threads, for the highlight a reader turns on (calsplit.py, STYLE 7)
++    if lst.kind == "calendar" and not home:   # its threads, for the highlight a reader turns on (calsplit.py, STYLE 7)
+         if is_thread:
+             extra_attrs += f' data-thread="{attr(slug)}"'
+         elif e.get("thread"):
+             from . import subentries    # a parent carries its subentries' threads (subentries.py, STYLE 3)
+             extra_attrs += f' data-threads="{attr(" ".join(subentries.threads_of(lst, e, entry_threads(lst, e))))}"'
+     if pl:                              # corner: the box's bottom right
+-        extra_spans += permalink.in_box(e["id"], pl_inlined)
++        extra_spans += permalink.in_box(e["id"], pl_inlined, site)
+     return f'<li id="{attr(anchor)}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
+ 
+ 
+diff --git a/tools/bib/daybook.py b/tools/bib/daybook.py
+index 8eb8439..4b25c37 100644
+--- a/tools/bib/daybook.py
++++ b/tools/bib/daybook.py
+@@ -239,8 +239,14 @@ def rubric(lst, e, thread_name):
+     slugs = [e["thread"]] + e.get("also", [])
+     half = calsplit.half_of_date(lst, loose.place_iso(e)) if calsplit.cfg(lst) else 1
+     linked = [f'<a class="rt" href="#{esc(calsplit.thread_anchor(lst, s, half))}">{esc(n)}</a>' for s, n in zip(slugs, names)]
+-    rub = f'<span class="s rub">{" · ".join(linked)}{when}</span>'
+-    from . import dateline                # its place and time at the right (tools/bib/dateline.py)
++    return rubric_row(f'{" · ".join(linked)}{when}', e)
++
++
++def rubric_row(left, e):
++    """The rubric's line: `left` (the threads; on the Names pages, the entry's date: lives.py, STYLE 9) in the rubric's
++    style, the entry's place and time at the right (tools/bib/dateline.py)."""
++    rub = f'<span class="s rub">{left}</span>'
++    from . import dateline
+     dl = dateline.html_(e)
+     return f'<span class="rubrow">{rub}{dl}</span>' if dl else rub
+ 
+@@ -546,6 +552,8 @@ def day_open(d, dlv, with_year, aid):
+     """A day's block opened and its heading's date ("Monday, Apr. 17"; the year added with_year), its heading left open
+     for the day's lines (the Times, the programs) (STYLE 16)."""
+     label = f"{calendar.day_name[d.weekday()]}, {day_label(d, with_year)}"
++    if dlv is None:                     # no heading of the page's (the Names pages' Life: lives.py, STYLE 9)
++        return f'<div class="day{" sun" if d.weekday() == 6 else ""}"><div class="dh"><span class="dn">{esc(label)}</span>'
+     return (f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="{aid}" data-h="{dlv}" '
+             f'data-short="{esc(label)}" data-crumb="{d.day}"><div class="dh" role="heading" aria-level="{dlv}">'
+             f'<span class="dn">{esc(label)}</span>')
+diff --git a/tools/bib/footnotes.py b/tools/bib/footnotes.py
+index 30e2620..0fd29fd 100644
+--- a/tools/bib/footnotes.py
++++ b/tools/bib/footnotes.py
+@@ -16,8 +16,9 @@ STYLE
+     FRUS ..." not repeated where it names its print or the note cites it. A record the map names that the note cites
+     in its printing or recording (a FRUS document, the Papers' page, the Miller Center's or PRDE's tape) is no
+     source of its own: the print cited is (the owner, Nov. 21, 2026). One item twice (two links of one cite) once.
+-    Sources the map has not yet given units (`?`) and items of the note no row names close the last footnote. A
+-    label's items (claims.py, STYLE 7: "The Senate sat from noon to 7:02 p.m.: Daily Digest, D468") are a sentence of
++    Sources the map has not yet given units (`?`) and items of the note no row names close the last footnote, but the
++    day's label's (the chamber's sitting, DAY_LABEL), which go in the first, as the mechanical map gives them
++    (claims.py, STYLE 7; the owner, Nov. 21, 2026: "should only be in the first footnote"). A label's items (claims.py, STYLE 7: "The Senate sat from noon to 7:02 p.m.: Daily Digest, D468") are a sentence of
+     their own under the label, the footnote's other cites citation sentences; each sentence closes with a full stop.
+  4. *id*. (the owner: "italicize the 'id' but leave the full stop in plain roman ... A departure from the Bluebook"): a
+     citation of the work cited immediately before, in the same footnote or as the previous footnote's only authority
+@@ -56,6 +57,9 @@ import re
+ 
+ from . import claims, witnesses
+ 
++# the day's label: the chamber's sitting ("The Senate sat from noon to 8:05 p.m.: [Daily Digest, D3](…)"); a label
++# of one fact ("After the NSC: …") stays with the sources no row names, at the end (STYLE 3)
++DAY_LABEL = re.compile(r"The (?:Senate|House)\b[^:]*\b(?:sat|met)\b")
+ SEP = "\n\n"          # between footnotes while the note's passes run over them as one text
+ MARK = "{}"
+ 
+@@ -290,14 +294,20 @@ def _cites(series, e):
+                 uniq.append(x)
+         per.append(uniq)
+     tail = []
++
++    def unrowed(item):
++        """An item no row gives units: at the end; the day's label's (DAY_LABEL), the first unit's, where the day's
++        facts sit (STYLE 3; claims.py, STYLE 7)."""
++        d = lab(item, dict(kind="text", key=item, pin="", paren="", text=item))
++        (per[0] if per and DAY_LABEL.match(d.get("label") or "") else tail).append(d)
+     for r, k, key, pin, note, u, item in rows:
+         if u == "?" and item and item not in used:
+             used.add(item)
+-            tail.append(lab(item, dict(kind="text", key=item, pin="", paren="", text=item)))
++            unrowed(item)
+     for it in srcs:                       # an item of the note no row names: kept, at the end
+         if it not in used and not any(it == x["text"] for p in per for x in p):
+             used.add(it)
+-            tail.append(lab(it, dict(kind="text", key=it, pin="", paren="", text=it)))
++            unrowed(it)
+     return us, per, tail, list(unread)
+ 
+ 
+diff --git a/tools/bib/lives.py b/tools/bib/lives.py
+index 243f4ba..b9c8413 100644
+--- a/tools/bib/lives.py
++++ b/tools/bib/lives.py
+@@ -39,6 +39,12 @@ STYLE:
+     unlinked and in ink. Each letter's
+     page opens with the index's opening paragraphs, the count of its persons ("1,024 persons."), the bar,
+     and the index's list for that letter, linked to the entries below.
++ 9. The calendar's entries in the Life (the owner, Nov. 22, 2026: "Make them look like the calendar entries, but without
++    the thread headings, ruled lines, and thread navigation chevrons"): each as the calendar renders it, by its own
++    renderer (build.entry_html: the line, its footnotes, the note with its "Names:" line linked, the place and time at
++    the right, dateline.py, the □ mark in the corner), the full width, in the calendar's day blocks (daybook.day_open,
++    block_open): the day's heading once over the person's entries of the day; a span's, a month's or a loose date's,
++    its `when` with its year. No thread rubric, rules between entries, thread line or ⟨⟨ ⟩⟩, and no "Cal." pointer.
+  8. "Nomination hearings" (the owner's request, Nov. 5, 2026), after "Testimony before Congress": the printed
+     hearings on the person's nominations, a line each, by the first day held (linked to the calendar's day within its
+     span), the title as printed to "hearing before", linked to govinfo; the committee, Congress and session, and the
+@@ -61,6 +67,8 @@ fold = functools.lru_cache(maxsize=None)(store.fold)     # the same names are fo
+ SITE = ""   # a base url for the links to the other pages ('' on the site itself)
+ SERIES_FOR_LINKS = None   # the series, once the pages are being written: the record tables link the other candidates
+ MONTHS = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
++FULL_NAME = [None, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
++             "November", "December"]
+ FULL = {m: i for i, m in enumerate(["January", "February", "March", "April", "May", "June", "July", "August",
+                                      "September", "October", "November", "December"], 1)}
+ BD_URL = "https://www.govinfo.gov/content/pkg/GPO-CDOC-108hdoc222/pdf/GPO-CDOC-108hdoc222-4-{part}.pdf#page={pdf}"
+@@ -1935,35 +1943,41 @@ def series_lines(subs, cal):
+ 
+ 
+ def calendar_sentences(ptrs, cal, key=""):
+-    """Each calendar entry of the person a paragraph: its date, its line as the calendar shows it, with its footnotes as
+-    the calendar sets them (footnotes.apply: the marks after each run of claims, the footnotes under the line, the
+-    note's other sentences after them; one footnote or none, the note one block), its unread records behind "To
+-    check:" (footnotes.with_unread), the □ mark, and its pointer. key: the person's, so that an entry two persons
+-    of one page give has its footnotes' anchors twice, each its own."""
+-    from . import cjk, footnotes, loose, permalink
+-    out = []
++    """Each calendar entry of the person as the calendar renders it (STYLE 9): build.entry_html, the calendar's own,
++    with its footnotes (footnotes.py), its note and 'Names:' line linked (build.list_text_html), its place and time at
++    the right (dateline.py), the □ mark in the corner (permalink.py, STYLE 2); no thread rubric, thread line or claims'
++    spans. Each carries the heading of its day block (life_html): the day's, as the calendar's (daybook.day_open), or
++    for a span, a month or a loose date its `when` with its year (daybook.block_open). key: the person's, so that an
++    entry two persons of one page give has its anchors twice, each its own."""
++    from . import build, daybook, dateline, loose
++    out, renderers = [], {}
++    own = "|".join(re.escape(k) for k in dict.fromkeys([key] + frus_keys_of(key))) if key else ""
+     for e in cal:
+-        if True:
+-            raw = cjk.drop(str(store.as_list(e.get("c"))[0])) if e.get("c") else ""   # (cjk.py, STYLE 2)
+-            c = series_html(ptrs, raw, "cal", e)
+-            fns = None
+-            if isinstance(e.get("c"), str) and raw:        # its footnotes, as the calendar's (footnotes.py, STYLE 1-8)
+-                c, fns = footnotes.apply(ptrs.series, e, raw, c, lambda u: series_html(ptrs, cjk.drop(u), "cal", e),
+-                                         f"{key}~{e['id']}" if key else None)
+-            note = fns[2] if fns else footnotes.with_unread(ptrs.series, e, e.get("n") or "")
+-            n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", note or "").strip(), "cal", e) if note else ""
+-            fn_html = footnotes.notes_html(fns[1], f"{key}~{e['id']}" if key else e["id"],
+-                                           lambda t: series_html(ptrs, t, "cal", e)) if fns else ""
+-            # each calendar entry a paragraph of its own, its sources and pointer after it
+-            wy = esc(e["when"]) if str(e["when"]).startswith(e["date"][:4]) else f"{esc(e['when'])}, {e['date'][:4]}"
+-            # keyed by the day it is shown at (loose.place_day), so the life keeps the calendar's order (chron.py)
+-            day = loose.place_day(e)
+-            # its permalink mark, as on the calendar (tools/bib/permalink.py, STYLE 2): after the line, or the corner
+-            line = permalink.in_text(c, e["id"], SITE)
+-            line += permalink.in_box(e["id"], line != c, SITE) + fn_html
+-            out.append(sent(day.isoformat() if day else e["date"], f"{wy}: {line}", [n] if n else [],
+-                            [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {wy}")], para=True,
+-                            kind="cal"))
++        hit = ptrs.series.get(e["id"])
++        if not hit:
++            continue
++        lst, sec, _ = hit
++        if lst.key not in renderers:
++            renderers[lst.key] = build.list_text_html(ptrs.series, lst.key, ptrs.linker)
++        rub = daybook.rubric_row("", e) if dateline.html_(e) else ""
++        li = build.entry_html(ptrs.series, lst, sec, e, renderers[lst.key], rubric=rub, home=key or None, site=SITE)
++        # a link to an entry of the calendar goes to the calendar (the build's router finds its page); the
++        # footnotes' own anchors stay on this page
++        li = re.sub(r'href="#(?!f[nr]-)([^"]+)"', lambda m: f'href="{esc(SITE + lst.key)}.html#{m.group(1)}"', li)
++        if own:                          # not a name in its own entry (namelinks): his own in the Names: line plain
++            li = re.sub(r'<a class="nm" href="[^"#]*#(' + own + r')">(.*?)</a>', r"\2", li)
++        d = str(e.get("date") or "")
++        if len(d) == 10 and daybook.end_of(e) == datetime.date.fromisoformat(d):
++            head = daybook.day_open(datetime.date.fromisoformat(d), None, True, None) + "</div>"
++        elif len(d) == 7 and str(e.get("when")).rstrip(".") in (FULL_NAME[int(d[5:])], MONTHS[int(d[5:]) - 1].rstrip(".")):
++            head = daybook.block_open(f"{FULL_NAME[int(d[5:])]} {d[:4]}")
++        else:
++            head = daybook.block_open(build.date_label(e))
++        # keyed by the day it is shown at (loose.place_day), so the life keeps the calendar's order (chron.py)
++        day = loose.place_day(e)
++        s_ = sent(day.isoformat() if day else e["date"], li, para=True, kind="cal")
++        s_["head"] = head
++        out.append(s_)
+     return out
+ 
+ 
+@@ -2175,7 +2189,7 @@ def record_html(rows, rosters):
+ def life_html(sents):
+     """Running text. Each run of sentences with the same sources and the same pointers is one sentence block, its
+     source block after it (the cites, then the pointers), and each sentence block is a paragraph; a new paragraph
+-    also at each office and election, and at each calendar entry, where the sources run on."""
++    also at each office and election. The calendar's entries in its day blocks, a block a heading (STYLE 9)."""
+     paras, cur, block = [], [], None
+ 
+     def close():
+@@ -2189,15 +2203,30 @@ def life_html(sents):
+         if cur:
+             paras.append(" ".join(cur))
+         cur, block = [], None
++    days = None                         # the calendar's day block open: [its heading, its entries]
++
++    def close_day():
++        nonlocal days
++        if days:
++            paras.append(days[0] + '<ol class="e">' + "".join(days[1]) + "</ol></div>")
++        days = None
+     for s in sents:
++        if s["kind"] == "cal":           # the calendar's entries, in its day blocks, a block a day (STYLE 9)
++            close()
++            if days and days[0] != s["head"]:
++                close_day()
++            days = days or [s["head"], []]
++            days[1].append(s["text"])
++            continue
++        close_day()
+         key = (tuple(dict.fromkeys(s["ext"])), tuple(dict.fromkeys(s["int"])))
+         if block is not None and (key != block or s["para"]):
+             close()
+         cur.append(s["text"])
+         block = key
+     close()
+-    # a paragraph holding a calendar entry's footnotes (a list) is a div, its style the paragraph's
+-    return "".join(f'<div class="lvl">{p}</div>' if '<ol class="fn"' in p else f'<p class="lvl">{p}</p>' for p in paras)
++    close_day()
++    return "".join(p if p.startswith('<div class="day') else f'<p class="lvl">{p}</p>' for p in paras)
+ 
+ 
+ # ---------------------------------------------------------------- the lists
+@@ -2953,6 +2982,9 @@ p.az a{color:var(--muted);text-decoration:none}
+ p.az a:hover{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px}
+ p.az span{color:var(--ink)}
+ .lvl{margin:.5rem 0;line-height:1.55}
++/* the calendar's entries in the Life, in its day blocks (daybook.py), without its rules (STYLE 9) */
++.lv .day{border-top:0;padding:.45rem 0 .1rem}
++.lv .day ol.e>li,.lv .day ol.e>li+li{border:0;padding:.35rem 0 .3rem}
+ ul.lvx{list-style:none;margin:.3rem 0 1rem;padding:0;columns:2;column-gap:1.5rem;font-size:.92rem;line-height:1.5}
+ ul.lvx li{break-inside:avoid;padding-left:1em;text-indent:-1em}
+ ul.lvx a{color:var(--ink);text-decoration:none}
+@@ -3066,9 +3098,11 @@ def page(series, linker, template, names):
+ def wrap(template, title, main):
+     pg = open(template, encoding="utf-8").read()
+     pg = pg.replace("{{page_title}}", title).replace("{{main}}", "\n".join(main))
+-    from . import footnotes, permalink   # the permalink mark's style, where the page has marks (permalink.py); the
+-    if 'class="fm"' in pg:               # footnotes', where it has footnotes (footnotes.py)
++    from . import daybook, dateline, footnotes, permalink   # the permalink mark's style, where the page has marks
++    if 'class="fm"' in pg:               # (permalink.py); the footnotes', where it has footnotes (footnotes.py)
+         pg = pg.replace("</head>", footnotes.STYLE + "\n</head>", 1)
++    if '<div class="day' in pg:          # the calendar's day blocks and datelines (STYLE 9)
++        pg = pg.replace("</head>", daybook.STYLE + dateline.STYLE + "\n</head>", 1)
+     return permalink.inject(pg.replace("</body>", CSS + "\n</body>", 1))
+ 
+ 
+diff --git a/tools/bib/refs.py b/tools/bib/refs.py
+index f25d82b..98b8b14 100644
+--- a/tools/bib/refs.py
++++ b/tools/bib/refs.py
+@@ -30,9 +30,10 @@ class Refs:
+         alts = "|".join(re.escape(a) for a in words)
+         dalts = "|".join(re.escape(a) for a in digits) or "(?!x)x"
+         # an abbreviation, optionally followed by a section code; or a bare code.
+-        # "87th Cong." is a Congress, not the list; "Viet Cong." the Viet Cong.
++        # "87th Cong." is a Congress, not the list; "Viet Cong." the Viet Cong; "106 Cong. Rec." and "Cong. Record" the
++        # Congressional Record (the owner, Nov. 22, 2026: "these bizarre and inappropriate 'Cong.' ... styles")
+         self.rx = re.compile(
+-            rf"(?P<abbr>(?<![\w])(?<!\dth )(?<!\dst )(?<!\dnd )(?<!\drd )(?<!Viet )(?<!Viet-)(?:{alts}))(?:\s+(?P<code>{RANGE}))?(?![\w])"
++            rf"(?P<abbr>(?<![\w])(?<!\dth )(?<!\dst )(?<!\dnd )(?<!\drd )(?<!Viet )(?<!Viet-)(?:{alts})(?!\s+Rec(?:\.|ord\b)))(?:\s+(?P<code>{RANGE}))?(?![\w])"
+             rf"|(?P<dabbr>(?<![\w(])(?:{dalts}))\s+(?P<dcode>{RANGE})(?![\w])"
+             rf"|(?<![\w.–])(?P<bare>{BARE}(?:–(?:{CODE}|[A-Z](?:\.\d+)?))?)(?![\w])(?!\.\s*[A-Z][a-z])"  # not "I.M. Destler"
+         )

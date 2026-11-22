@@ -239,8 +239,14 @@ def rubric(lst, e, thread_name):
     slugs = [e["thread"]] + e.get("also", [])
     half = calsplit.half_of_date(lst, loose.place_iso(e)) if calsplit.cfg(lst) else 1
     linked = [f'<a class="rt" href="#{esc(calsplit.thread_anchor(lst, s, half))}">{esc(n)}</a>' for s, n in zip(slugs, names)]
-    rub = f'<span class="s rub">{" · ".join(linked)}{when}</span>'
-    from . import dateline                # its place and time at the right (tools/bib/dateline.py)
+    return rubric_row(f'{" · ".join(linked)}{when}', e)
+
+
+def rubric_row(left, e):
+    """The rubric's line: `left` (the threads; on the Names pages, the entry's date: lives.py, STYLE 9) in the rubric's
+    style, the entry's place and time at the right (tools/bib/dateline.py)."""
+    rub = f'<span class="s rub">{left}</span>'
+    from . import dateline
     dl = dateline.html_(e)
     return f'<span class="rubrow">{rub}{dl}</span>' if dl else rub
 
@@ -546,6 +552,8 @@ def day_open(d, dlv, with_year, aid):
     """A day's block opened and its heading's date ("Monday, Apr. 17"; the year added with_year), its heading left open
     for the day's lines (the Times, the programs) (STYLE 16)."""
     label = f"{calendar.day_name[d.weekday()]}, {day_label(d, with_year)}"
+    if dlv is None:                     # no heading of the page's (the Names pages' Life: lives.py, STYLE 9)
+        return f'<div class="day{" sun" if d.weekday() == 6 else ""}"><div class="dh"><span class="dn">{esc(label)}</span>'
     return (f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="{aid}" data-h="{dlv}" '
             f'data-short="{esc(label)}" data-crumb="{d.day}"><div class="dh" role="heading" aria-level="{dlv}">'
             f'<span class="dn">{esc(label)}</span>')

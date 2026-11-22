@@ -1217,3 +1217,29 @@ Do you have a better suggestion? Do we have "briefs" or "issue areas" that would
 "I like your new proposal. We're at 92% of our budget now, though, so something here should probably wait until after the Tuesday resume. We should probably hold off on this."
 
 "Could we finish the threads, names footnotes, and people? Or any of them? What's cheap? I do want to spend down a bit of that 8%."
+
+"Could we remove whatever special styling we're using on the Names entries? Make them look like the calendar entries, but without the thread headings, ruled lines, and thread navigation chevrons? Because the attached form is nonideal.
+
+The entries don't even go all the way across the page! They don't have datelines! They don't have name cross-references! And they have these bizarre and inappropriate "Cong." and "Cal." styles!" (with a screenshot of names-f, Fulbright, May 27–Aug. 31, 1960)
+
+"Sorry, Claude, dateline meant the time of day and location line."
+
+"no no, the date can go on the same line as the dateline, styled as it is in the calendar. I just wanted the time of day and location too."
+
+"I mean, Claude, if it's "as on the calendar," it's not necessarily true that "each Names entry gets one header line," is it?"
+
+"I think the February 18, 1966 entry for Fulbright hearings at https://impending2223.github.io/bib/e.html#cal.1966-02-18.vietnam-hearings needs some attention.
+
+It's a fairly hard to parse as-is, and there's a good amount of substantive content in the notes that's hard to place. Or understand."
+
+"You should do the same for https://impending2223.github.io/bib/e.html#cal.1966-02-04.vietnam and https://impending2223.github.io/bib/e.html#cal.1966-02-08.vietnam-hearings and https://impending2223.github.io/bib/e.html#cal.1966-02-10.vietnam-hearings and the substantive notes for the following entry ("Woods, Fulbright, 404–05 (Johnson's call to Stanton; CBS drops the hearings Feb. 10 for I Love Lucy; Friendly's resignation; NBC carries them); Branch, At Canaan's Edge, 446 (Stanton forces the resignation)"), which may belong on a different page, https://impending2223.github.io/bib/e.html#cal.1966-02-15.vietnam-hearings"
+
+"Claude... is LBJ's call and CBS's dropping off the hearings not part of this thread? I really don't understand your thinking here."
+
+"Have we prepared a post-pause run to comprehensively fisk the calendar for substantive material that wound up in the notes, but not the body text of the entries?
+
+That seems to be a vice for every entry that didn't have all of its claims fixed by the first source read. Do we know why that is? Have we fixed whatever inhibition caused that?"
+
+"boy, R22 sounds a bit strong for a rule that presumptively covers not only *revisions* to existing claims but *additions* and any change that would make an addition fit
+
+hnghhh" (a revised R22, corrections / additions / rewording, proposed; awaiting the owner's endorsement)
