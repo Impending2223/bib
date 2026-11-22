@@ -1205,3 +1205,5 @@ The minimum viable product would give us the provinces, counties, places.
 Later we could extend the map with whatever other information is available and relevant to the threads we're following. (Population? I'm not sure what geographically-specific information we can and should get for our period.)"
 
 "How hard is it to fake these from later boundaries? That's what we did for SVN. What's the Chinese situation? It couldn't be worse, could it?" (answered: 1964 counties as unions of modern county-level units, as for South Vietnam; ~2,100 counties; the 1958–61 merges make 1964 the display year; passed to the map agent as a second layer)
+
+"Claude, are you hallucinating what R18's test is? Are you relying on some cached memory of what R18 once was?" (answered: yes, wrongly; R18 makes a principal's health an entry; the "R18 sweep" withdrawn)
