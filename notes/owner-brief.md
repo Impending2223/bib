@@ -1157,3 +1157,17 @@ No to suggestions 1, 2, 4, and 5."
 "Claude, my phone is in light mode, but this is still in dark mode. I know you love dark mode, but can you give this to me in light mode?
 
 And can you give me all the options? Perhaps by clicking on the glyphs up top? I'd like to see some of the options you haven't previewed."
+
+"□ (U+25A1), Corner, text size.
+
+Some notes on the options I didn't take:
+
+I would have had it with the last line, but the Unicode glyphs aren't quite vertically centered—at least when the text ends in a quotation mark.
+
+The trouble with your small-point glyphs and the smaller glyphs is that their vertical misalignment is distracting.
+
+All the options for the full shapes besides the single space looked terrible. (The smaller▪and▫, or their medium counterparts, might look better with no space at all, but the lack of horizontal alignment made them more distracting than their full-shape counterparts.)
+
+The one option I really missed was a right-alignment on the last line, but I decided that I would probably still prefer the bottom corner.
+
+The bottom corner does not compete with the thread links."
