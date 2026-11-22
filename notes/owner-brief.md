@@ -1193,3 +1193,7 @@ Do our threads and their contents not suggest better cutting lines?
 Even if you don't read all that first, then surely, in this great era of campaigns, slogans, episodes, etc., you can figure out better threads than what you've given me? None of the threads have to extend across the entire span! Even "The famine *and* the retreat" seems like a strange cut.
 
 You have a strong bias against using names for threads, and I had to pretty much pull teeth to get you to give me "King" and "Robert Kennedy," but would a "Mao" thread be out of place here?"
+
+"I did like "The bomb" and your subthread suggestions for the Cultural Revolution. Both sound like the kinds of episodes or, you know, "threads" that might cut the material cleanly.
+
+Another idea. Perhaps "Beijing" (excluding Zhongnanhai) or "Shanghai"? Other (within-China) regional or municipal threads? Sichuan, Wuhan... what's on our calendar so far?"
