@@ -1215,3 +1215,5 @@ I'm sure Yang Shangkun's ranking is artificially inflated by virtue of the fact 
 Do you have a better suggestion? Do we have "briefs" or "issue areas" that would serve as better "cuts" for the sub-Mao/Zhou/Liu figures?"
 
 "I like your new proposal. We're at 92% of our budget now, though, so something here should probably wait until after the Tuesday resume. We should probably hold off on this."
+
+"Could we finish the threads, names footnotes, and people? Or any of them? What's cheap? I do want to spend down a bit of that 8%."
