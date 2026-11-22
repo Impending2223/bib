@@ -2,79 +2,70 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;600&display=swap">
 <style>
-:root{--bg:#f6f4ef;--card:#efede8;--ink:#1a1a1a;--muted:#6f6a62;--rule:#d9d5cc;--link:#1a1a1a}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16181c;--card:#1e2126;--ink:#e8e6e1;--muted:#9a958c;--rule:#33373e;--link:#e8e6e1;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#16181c;--card:#1e2126;--ink:#e8e6e1;--muted:#9a958c;--rule:#33373e;--link:#e8e6e1;color-scheme:dark}
-body{background:var(--bg);color:var(--ink);font-family:"Source Serif 4",Georgia,serif;margin:0;padding-block:24px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+:root{--bg:#f6f4ef;--card:#ecebe6;--ink:#1a1a1a;--muted:#6f6a62;--rule:#d4d0c6;--sel:#1a1a1a;--selbg:#ffffff;color-scheme:light}
+html,body{background:var(--bg);color:var(--ink)}
+body{font-family:"Source Serif 4",Georgia,serif;margin:0;padding-block:20px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 main{max-width:44rem;margin:0 auto}
-h1{font-family:"Source Sans 3",system-ui,sans-serif;font-size:1.25rem;font-weight:600;margin:0 0 .25rem}
-h2{font-family:"Source Sans 3",system-ui,sans-serif;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:2rem 0 .5rem}
-p.lead{color:var(--muted);font-family:"Source Sans 3",system-ui,sans-serif;font-size:.95rem;margin:0 0 1rem}
-.entry{position:relative;background:var(--card);border-top:1px dotted var(--rule);padding:.9rem 1rem 1.4rem;margin:0 0 .9rem}
-.hd{display:flex;justify-content:space-between;gap:1rem;font-family:"Source Sans 3",system-ui,sans-serif;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:"Source Sans 3",system-ui,sans-serif;font-size:1.2rem;font-weight:600;margin:0 0 .2rem}
+.lead{color:var(--muted);font-family:"Source Sans 3",system-ui,sans-serif;font-size:.92rem;margin:0 0 1rem}
+.lbl{font-family:"Source Sans 3",system-ui,sans-serif;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:1rem 0 .4rem}
+.row{display:flex;flex-wrap:wrap;gap:.4rem}
+.row button{font:inherit;background:transparent;border:1px solid var(--rule);color:var(--muted);border-radius:6px;cursor:pointer;min-width:2.6rem;padding:.35rem .55rem;line-height:1.1}
+.row.g button{font-size:1.35rem}
+.row.t button{font-family:"Source Sans 3",system-ui,sans-serif;font-size:.85rem}
+.row button small{display:block;font-family:"Source Sans 3",system-ui,sans-serif;font-size:.62rem;color:var(--muted);margin-top:.15rem}
+.row button[aria-pressed="true"]{background:var(--selbg);border-color:var(--sel);color:var(--ink)}
+.entry{position:relative;background:var(--card);border-top:1px dotted var(--rule);padding:.9rem 1rem 1.5rem;margin:1.2rem 0 .9rem}
+.hd{display:flex;justify-content:space-between;gap:1rem;font-family:"Source Sans 3",system-ui,sans-serif;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .hd span:last-child{text-transform:none;letter-spacing:0}
 .c{font-size:1.2rem;line-height:1.55;margin:.35rem 0 .5rem}
 .n{font-size:.98rem;line-height:1.5;margin:0 0 .35rem}
-.n a{color:var(--link);text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px}
+.n a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px}
 .th{font-family:"Source Sans 3",system-ui,sans-serif;font-size:.85rem;color:var(--muted)}
 .pl{color:var(--muted);text-decoration:none;font-family:"Source Sans 3",system-ui,sans-serif}
 .pl:hover{color:var(--ink)}
 .corner{position:absolute;right:.7rem;bottom:.45rem;font-size:.95rem;line-height:1}
 .inline{font-size:.85em}
-.tag{font-family:"Source Sans 3",system-ui,sans-serif;font-size:.75rem;color:var(--muted);margin:0 0 .3rem}
-table{border-collapse:collapse;font-size:1.6rem;margin:.5rem 0 1rem}
-td{padding:.3rem .9rem;text-align:center;color:var(--muted)}
-td small{display:block;font-family:"Source Sans 3",system-ui,sans-serif;font-size:.7rem}
-.scroll{overflow-x:auto}
+.now{font-family:"Source Sans 3",system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin:.2rem 0 0}
 </style>
 <main>
-<h1>Permalink mark: glyphs and placements</h1>
-<p class="lead">The Cuba entry of Feb. 7, 1960, as it now reads. Each mark is a live link (it goes nowhere here); hover darkens it.</p>
+<h1>Permalink mark</h1>
+<p class="lead">Tap a glyph, a placement and a size to see the entry change. The mark is a live link; it goes nowhere here.</p>
 
-<h2>The glyphs, at the size they'd appear</h2>
-<div class="scroll"><table><tr>
-<td>■<small>■ U+25A0</small></td><td>□<small>□ U+25A1</small></td><td>▪<small>▪ U+25AA</small></td><td>▫<small>▫ U+25AB</small></td><td>◆<small>◆ U+25C6</small></td><td>◇<small>◇ U+25C7</small></td><td>◦<small>◦ U+25E6</small></td><td>⧉<small>⧉ U+29C9</small></td><td>#<small># hash</small></td>
-</tr></table></div>
+<div class="lbl">Glyph</div>
+<div class="row g" id="glyphs"></div>
 
-<h2>A · Corner, ▫</h2>
-<div class="entry"><div class="hd"><span>Cuba · Soviet Union</span><span>Havana · workday</span></div>
-<p class="c">Alekseyev of the KGB, to the Center from Havana: his account of the talk with Castro of Feb. 3, passed to the Soviet leadership; his own judgment, “But never, even under mortal danger, would Castro make a deal with American imperialism.”</p>
-<p class="n">Fursenko &amp; Naftali, <i>“One Hell of a Gamble”</i>, 38 &amp; nn.15–16. Made public: 1997. See <a href="#">Feb. 3</a>. Names: <a href="#">Alekseyev</a>, <a href="#">Castro</a>.</p>
-<div class="th">⟨⟨ Cuba ⟩⟩</div><a class="pl corner" href="#" title="Permalink">▫</a></div>
+<div class="lbl">Placement</div>
+<div class="row t" id="places"></div>
 
-<h2>B · Corner, ◇</h2>
-<div class="entry"><div class="hd"><span>Cuba · Soviet Union</span><span>Havana · workday</span></div>
-<p class="c">Alekseyev of the KGB, to the Center from Havana: his account of the talk with Castro of Feb. 3, passed to the Soviet leadership; his own judgment, “But never, even under mortal danger, would Castro make a deal with American imperialism.”</p>
-<p class="n">Fursenko &amp; Naftali, <i>“One Hell of a Gamble”</i>, 38 &amp; nn.15–16. Made public: 1997. See <a href="#">Feb. 3</a>. Names: <a href="#">Alekseyev</a>, <a href="#">Castro</a>.</p>
-<div class="th">⟨⟨ Cuba ⟩⟩</div><a class="pl corner" href="#" title="Permalink">◇</a></div>
+<div class="lbl">Size</div>
+<div class="row t" id="sizes"></div>
 
-<h2>C · Corner, ■ (solid)</h2>
-<div class="entry"><div class="hd"><span>Cuba · Soviet Union</span><span>Havana · workday</span></div>
-<p class="c">Alekseyev of the KGB, to the Center from Havana: his account of the talk with Castro of Feb. 3, passed to the Soviet leadership; his own judgment, “But never, even under mortal danger, would Castro make a deal with American imperialism.”</p>
-<p class="n">Fursenko &amp; Naftali, <i>“One Hell of a Gamble”</i>, 38 &amp; nn.15–16. Made public: 1997. See <a href="#">Feb. 3</a>. Names: <a href="#">Alekseyev</a>, <a href="#">Castro</a>.</p>
-<div class="th">⟨⟨ Cuba ⟩⟩</div><a class="pl corner" href="#" title="Permalink">■</a></div>
-
-<h2>D · After the last full stop, a single space, ▫</h2>
-<div class="entry"><div class="hd"><span>Cuba · Soviet Union</span><span>Havana · workday</span></div>
-<p class="c">Alekseyev of the KGB, to the Center from Havana: his account of the talk with Castro of Feb. 3, passed to the Soviet leadership; his own judgment, “But never, even under mortal danger, would Castro make a deal with American imperialism.” <a class="pl inline" href="#" title="Permalink">▫</a></p>
+<div class="entry" id="entry"><div class="hd"><span>Cuba · Soviet Union</span><span>Havana · workday</span></div>
+<p class="c" id="c">Alekseyev of the KGB, to the Center from Havana: his account of the talk with Castro of Feb. 3, passed to the Soviet leadership; his own judgment, “But never, even under mortal danger, would Castro make a deal with American imperialism.”</p>
 <p class="n">Fursenko &amp; Naftali, <i>“One Hell of a Gamble”</i>, 38 &amp; nn.15–16. Made public: 1997. See <a href="#">Feb. 3</a>. Names: <a href="#">Alekseyev</a>, <a href="#">Castro</a>.</p>
 <div class="th">⟨⟨ Cuba ⟩⟩</div></div>
-
-<h2>E · After the last full stop, an en space, ▫</h2>
-<div class="entry"><div class="hd"><span>Cuba · Soviet Union</span><span>Havana · workday</span></div>
-<p class="c">Alekseyev of the KGB, to the Center from Havana: his account of the talk with Castro of Feb. 3, passed to the Soviet leadership; his own judgment, “But never, even under mortal danger, would Castro make a deal with American imperialism.”&#8194;<a class="pl inline" href="#" title="Permalink">▫</a></p>
-<p class="n">Fursenko &amp; Naftali, <i>“One Hell of a Gamble”</i>, 38 &amp; nn.15–16. Made public: 1997. See <a href="#">Feb. 3</a>. Names: <a href="#">Alekseyev</a>, <a href="#">Castro</a>.</p>
-<div class="th">⟨⟨ Cuba ⟩⟩</div></div>
-
-<h2>F · After the last full stop, an em space, ◇</h2>
-<div class="entry"><div class="hd"><span>Cuba · Soviet Union</span><span>Havana · workday</span></div>
-<p class="c">Alekseyev of the KGB, to the Center from Havana: his account of the talk with Castro of Feb. 3, passed to the Soviet leadership; his own judgment, “But never, even under mortal danger, would Castro make a deal with American imperialism.”&#8195;<a class="pl inline" href="#" title="Permalink">◇</a></p>
-<p class="n">Fursenko &amp; Naftali, <i>“One Hell of a Gamble”</i>, 38 &amp; nn.15–16. Made public: 1997. See <a href="#">Feb. 3</a>. Names: <a href="#">Alekseyev</a>, <a href="#">Castro</a>.</p>
-<div class="th">⟨⟨ Cuba ⟩⟩</div></div>
-
-<h2>G · After the last full stop, a "tab" (2 em), ▪</h2>
-<div class="entry"><div class="hd"><span>Cuba · Soviet Union</span><span>Havana · workday</span></div>
-<p class="c">Alekseyev of the KGB, to the Center from Havana: his account of the talk with Castro of Feb. 3, passed to the Soviet leadership; his own judgment, “But never, even under mortal danger, would Castro make a deal with American imperialism.”<span style="display:inline-block;width:2em"></span><a class="pl inline" href="#" title="Permalink">▪</a></p>
-<p class="n">Fursenko &amp; Naftali, <i>“One Hell of a Gamble”</i>, 38 &amp; nn.15–16. Made public: 1997. See <a href="#">Feb. 3</a>. Names: <a href="#">Alekseyev</a>, <a href="#">Castro</a>.</p>
-<div class="th">⟨⟨ Cuba ⟩⟩</div></div>
+<p class="now" id="now"></p>
 </main>
+<script>
+const GLYPHS=[["▫","25AB"],["▪","25AA"],["□","25A1"],["■","25A0"],["◇","25C7"],["◆","25C6"],["◦","25E6"],["∘","2218"],["·","00B7"],["○","25CB"],["●","25CF"],["◻","25FB"],["◼","25FC"],["⬚","2B1A"],["⧉","29C9"],["⌗","2317"],["#","0023"],["¶","00B6"],["§","00A7"],["†","2020"],["⁂","2042"],["※","203B"],["→","2192"],["↗","2197"],["⇢","21E2"],["›","203A"],["⟶","27F6"],["∎","220E"],["❖","2756"],["✦","2726"],["⌘","2318"],["🔗","1F517"]];
+const PLACES=[["corner","Corner"],["sp","After the full stop, a space"],["en","…an en space"],["em","…an em space"],["2em","…a 2-em gap"],["none","…no space"]];
+const SIZES=[["s","Small"],["m","Text size"],["l","Large"]];
+const C="Alekseyev of the KGB, to the Center from Havana: his account of the talk with Castro of Feb. 3, passed to the Soviet leadership; his own judgment, “But never, even under mortal danger, would Castro make a deal with American imperialism.”";
+let st={g:"▫",p:"sp",s:"s"};
+function mk(box,items,key,fmt){box.innerHTML="";for(const it of items){const b=document.createElement("button");b.type="button";b.setAttribute("aria-pressed",String(st[key]===it[0]));b.innerHTML=fmt(it);b.onclick=()=>{st[key]=it[0];draw()};box.appendChild(b)}}
+function draw(){
+ mk(document.getElementById("glyphs"),GLYPHS,"g",it=>`${it[0]}<small>U+${it[1]}</small>`);
+ mk(document.getElementById("places"),PLACES,"p",it=>it[1]);
+ mk(document.getElementById("sizes"),SIZES,"s",it=>it[1]);
+ const size={s:".8em",m:"1em",l:"1.2em"}[st.s];
+ const e=document.getElementById("entry"),c=document.getElementById("c");
+ const old=e.querySelector(".corner");if(old)old.remove();
+ const a=`<a class="pl" href="#" title="Permalink" style="font-size:${size}">${st.g}</a>`;
+ if(st.p==="corner"){c.textContent=C;const d=document.createElement("span");d.innerHTML=a;const x=d.firstChild;x.classList.add("corner");x.style.fontSize=({s:".85rem",m:"1rem",l:"1.2rem"})[st.s];e.appendChild(x)}
+ else{const gap={sp:" ",en:" ",em:" ","2em":'<span style="display:inline-block;width:2em"></span>',none:""}[st.p];c.innerHTML=C.replace(/&/g,"&amp;")+gap+a}
+ const gl=GLYPHS.find(x=>x[0]===st.g);
+ document.getElementById("now").textContent=`Now: ${st.g} (U+${gl[1]}), ${PLACES.find(x=>x[0]===st.p)[1].replace("…","after the full stop, ")}, ${SIZES.find(x=>x[0]===st.s)[1].toLowerCase()}.`;
+}
+draw();
+</script>
