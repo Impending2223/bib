@@ -1221,3 +1221,5 @@ Do you have a better suggestion? Do we have "briefs" or "issue areas" that would
 "Could we remove whatever special styling we're using on the Names entries? Make them look like the calendar entries, but without the thread headings, ruled lines, and thread navigation chevrons? Because the attached form is nonideal.
 
 The entries don't even go all the way across the page! They don't have datelines! They don't have name cross-references! And they have these bizarre and inappropriate "Cong." and "Cal." styles!" (with a screenshot of names-f, Fulbright, May 27–Aug. 31, 1960)
+
+"Sorry, Claude, dateline meant the time of day and location line."
