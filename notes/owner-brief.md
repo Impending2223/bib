@@ -1213,3 +1213,5 @@ Later we could extend the map with whatever other information is available and r
 I'm sure Yang Shangkun's ranking is artificially inflated by virtue of the fact that he kept a diary. (Crossman, Castle, and Benn were not the most important figures in the Wilson Cabinets, at least pre-1968.) But Zhu De? Chen Yi? (Deng? You didn't even mention Deng!) Surely these are not inconsequential figures, no?
 
 Do you have a better suggestion? Do we have "briefs" or "issue areas" that would serve as better "cuts" for the sub-Mao/Zhou/Liu figures?"
+
+"I like your new proposal. We're at 92% of our budget now, though, so something here should probably wait until after the Tuesday resume. We should probably hold off on this."
