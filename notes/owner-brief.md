@@ -1197,3 +1197,9 @@ You have a strong bias against using names for threads, and I had to pretty much
 "I did like "The bomb" and your subthread suggestions for the Cultural Revolution. Both sound like the kinds of episodes or, you know, "threads" that might cut the material cleanly.
 
 Another idea. Perhaps "Beijing" (excluding Zhongnanhai) or "Shanghai"? Other (within-China) regional or municipal threads? Sichuan, Wuhan... what's on our calendar so far?"
+
+"We should probably give ourselves a China map. Like our Southeast Asia/Indochina map.
+
+The minimum viable product would give us the provinces, counties, places.
+
+Later we could extend the map with whatever other information is available and relevant to the threads we're following. (Population? I'm not sure what geographically-specific information we can and should get for our period.)"
