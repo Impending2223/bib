@@ -1259,3 +1259,7 @@ as for the rest, my spouse says "this is too many words. I don't understand this
 "I've shared the November 5, 1960, issue of the New Yorker. The Nelson Aldrich Rockefeller item, for [this entry](https://impending2223.github.io/bib/e.html#cal.1960-10.elections-1960-16), is at pages 46 and 47 is the issue, which is pages 48 and 49 of the PDF.
 
 Immediate. Could you scan it, read it, and update the entry for me?"
+
+"The Liebling piece, which starts at 182 (=184), discusses the USIA affair at 185–86 (=187–88). I've attached some screenshots of the relevant NYT items from the issue of October 27, 1960. I've given you full broadsheet page of the USIA report in four overlapping screenshots. Tell me if that's digestible. Immediate. Could you scan and read these, and update [our entry] (https://impending2223.github.io/bib/e.html#cal.1960-10.elections-1960-9) for me?"
+
+"Is there anything in FRUS on this? Could you check and add it to our entries if so?"
