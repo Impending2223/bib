@@ -1207,3 +1207,9 @@ Later we could extend the map with whatever other information is available and r
 "How hard is it to fake these from later boundaries? That's what we did for SVN. What's the Chinese situation? It couldn't be worse, could it?" (answered: 1964 counties as unions of modern county-level units, as for South Vietnam; ~2,100 counties; the 1958–61 merges make 1964 the display year; passed to the map agent as a second layer)
 
 "Claude, are you hallucinating what R18's test is? Are you relying on some cached memory of what R18 once was?" (answered: yes, wrongly; R18 makes a principal's health an entry; the "R18 sweep" withdrawn)
+
+"Well... I regret to say this now that we've done all this reading, but... I really don't know much about the CPC or the PRC or the big names in this period.
+
+I'm sure Yang Shangkun's ranking is artificially inflated by virtue of the fact that he kept a diary. (Crossman, Castle, and Benn were not the most important figures in the Wilson Cabinets, at least pre-1968.) But Zhu De? Chen Yi? (Deng? You didn't even mention Deng!) Surely these are not inconsequential figures, no?
+
+Do you have a better suggestion? Do we have "briefs" or "issue areas" that would serve as better "cuts" for the sub-Mao/Zhou/Liu figures?"
