@@ -1235,3 +1235,7 @@ It's a fairly hard to parse as-is, and there's a good amount of substantive cont
 "You should do the same for https://impending2223.github.io/bib/e.html#cal.1966-02-04.vietnam and https://impending2223.github.io/bib/e.html#cal.1966-02-08.vietnam-hearings and https://impending2223.github.io/bib/e.html#cal.1966-02-10.vietnam-hearings and the substantive notes for the following entry ("Woods, Fulbright, 404–05 (Johnson's call to Stanton; CBS drops the hearings Feb. 10 for I Love Lucy; Friendly's resignation; NBC carries them); Branch, At Canaan's Edge, 446 (Stanton forces the resignation)"), which may belong on a different page, https://impending2223.github.io/bib/e.html#cal.1966-02-15.vietnam-hearings"
 
 "Claude... is LBJ's call and CBS's dropping off the hearings not part of this thread? I really don't understand your thinking here."
+
+"Have we prepared a post-pause run to comprehensively fisk the calendar for substantive material that wound up in the notes, but not the body text of the entries?
+
+That seems to be a vice for every entry that didn't have all of its claims fixed by the first source read. Do we know why that is? Have we fixed whatever inhibition caused that?"
