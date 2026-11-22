@@ -1183,3 +1183,13 @@ The bottom corner does not compete with the thread links."
 The only issue is when two people map to the same name, or two names to the same person, which isn't an issue that all the information you're asking for actually solves in the individual cases here."
 
 "A separate question: Is everything that happened in China just "China: leadership"? I see that in later years we have "China: Cultural Revolution". But it's a very low level of granularity for... how many entries do we have here, again?" (answered: 26,320 of 58,267 calendar entries in China: Leadership; a list of twelve subthreads proposed, awaiting the owner)
+
+"These feel a bit... offhand. Like, I'm pretty sure you just pulled that out of your, ahem, right?
+
+How clearly and cleanly does this cleave the "China: leadership" bucket? How coherent is it to have one vertical slice and many intersecting horizontal slices that might be quite small? Have we really made things any more legible with the "leadership" cut that lops off the top, more or less arbitrarily?
+
+Do our threads and their contents not suggest better cutting lines?
+
+Even if you don't read all that first, then surely, in this great era of campaigns, slogans, episodes, etc., you can figure out better threads than what you've given me? None of the threads have to extend across the entire span! Even "The famine *and* the retreat" seems like a strange cut.
+
+You have a strong bias against using names for threads, and I had to pretty much pull teeth to get you to give me "King" and "Robert Kennedy," but would a "Mao" thread be out of place here?"
