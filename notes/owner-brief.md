@@ -1251,3 +1251,7 @@ hnghhh" (a revised R22, corrections / additions / rewording, proposed; awaiting 
 as for the rest, my spouse says "this is too many words. I don't understand this until I see the data model. Claude, what's the data model?""
 
 "How do you make sure the text of the claim is consistent with respect to the ellipses?" (answered: frames carrying the elided element, claims inside them)
+
+(the owner's spouse) "Oh okay, I was just confused about the the yaml so yeah this seems fine if you think that you can chop up the t field consistently"
+
+(the owner) "yeah, it sounds like a clear improvement on what we have. please put it in the list for the resume. somewhere near the top of the list, right? before the "go-back-over-the-notes" pass and before any new readers or auditors start up?"
