@@ -14,6 +14,7 @@ import re
 
 from . import calsplit, daybook, governors, legislatures, loose, primaries, specials, statefin, store, vispage, vnmap
 from . import chron
+from . import permalink
 from . import conventions
 from . import oilworld
 from . import budgets
@@ -277,7 +278,10 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
     if lst.kind == "calendar" and not is_thread and isinstance(statement, str):
         from . import footnotes
         fns = footnotes.build(series, e)
-    for i, c in enumerate(store.as_list(statement)):
+    pl = lst.kind == "calendar" and not is_thread   # its permalink mark (tools/bib/permalink.py, STYLE 1)
+    pl_inlined = False
+    statements = store.as_list(statement)
+    for i, c in enumerate(statements):
         lead = rubric if (rubric and i == 0) else ""
         if cj:
             c = cjk.drop(c)               # out of the line (cjk.py, STYLE 2)
@@ -298,6 +302,9 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
                     fns = None            # not found in order: the note as before (STYLE 2)
                 else:
                     body = marked
+        if pl and i == len(statements) - 1:   # inline: after the text, outside its claims and footnote marks
+            body2 = permalink.in_text(body, e["id"])
+            pl_inlined, body = body2 != body, body2
         parts.append(f'<span class="c">{lead}{body}</span>')
     if e.get("r"):
         parts.append(f'<span class="r">{text_html(e["r"], "r")}</span>')
@@ -358,6 +365,8 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         elif e.get("thread"):
             from . import subentries    # a parent carries its subentries' threads (subentries.py, STYLE 3)
             extra_attrs += f' data-threads="{attr(" ".join(subentries.threads_of(lst, e, entry_threads(lst, e))))}"'
+    if pl:                              # corner: the box's bottom right
+        extra_spans += permalink.in_box(e["id"], pl_inlined)
     return f'<li id="{attr(anchor)}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
 
 
@@ -1423,6 +1432,7 @@ def run(series, which=None):
                 page = indicators.inject(page, series, "list")
                 page = dayblocks.inject(page, series, "list")   # day blocks: the war table, Armed Forces Day
                 page = daybook.inject(page)
+                page = permalink.inject(page)            # the permalink mark's style (tools/bib/permalink.py)
                 page = feeds.inject(page, lst, half)     # the months' feeds (tools/bib/feeds.py)
                 # the tables and maps listed (tools/bib/contents.py): the page's, or the whole calendar's once all are built
                 page = contents.finish(page, lst, half or 1, defer=bool(whole))
@@ -1440,6 +1450,8 @@ def run(series, which=None):
             written.append(path)
         if whole:
             written += write_calendar(series, lst, linker, held, routed)
+        if lst.kind == "calendar":           # e.html and e.json, the permalinks' resolver (tools/bib/permalink.py)
+            written += permalink.write(OUT, lst)
         calsplit.CUR.update(half=None)
     if which in (None, "series"):
         page, linker = build_series(series)
@@ -1459,6 +1471,7 @@ def run(series, which=None):
         page = indicators.inject(page, series, "series")
         page = dayblocks.inject(page, series, "series")   # day blocks: the war table, Armed Forces Day
         page = daybook.inject(page)
+        page = permalink.inject(page)                # the permalink mark's style (tools/bib/permalink.py)
         if cal is not None:                  # the thread statements' tables and maps (tools/bib/contents.py)
             page = contents.finish(page, cal, None)
         page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)

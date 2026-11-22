@@ -605,3 +605,7 @@ So, despite the cover title, these are not *wansui* in the bibliographers' sense
 | (none) | none | 中共中央、国务院、中央军委、中央文革关于广西文化大革命问题的重要文件汇编 (广西联指 et al., 编印) `1WlmTCLEdAA4_inrXS2-CGesEzlM1dIXh` | No card. A faction's compilation of the center's Guangxi documents, 1967–68; internal. New card |
 
 Still not on the Drive from the top of the list: the *Washington Post* (rank 1, no card: a newspaper), the *Wengao* (rank 3: the first edition the cards cite; the 2024 edition is on the Drive, read), and the rest as listed.
+
+## Nov. 22
+
+- Fursenko and Naftali, *"One Hell of a Gamble": Khrushchev, Castro, and Kennedy, 1958–1964* (1997), EPUB with hyperlinked notes, `1nQnuSpYgk97XbgnCMRQRO4RzcZ-tbenD` (760 KB, under the Drive tool's 10 MB limit). For the quotation re-check of the Fursenko and Naftali entries (handoff 4as). The PDF of *Khrushchev's Cold War* is `15i7_Os1UTxm4-EzLRK8JcR0Dp6R_oCXW`.

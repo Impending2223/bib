@@ -1119,3 +1119,59 @@ But I'd like to see the language of the current rule and your proposed rule befo
 ## Nov. 21, 2026, about 1:25 p.m. (Pacific)
 
 "I endorse your revised R27."
+
+## Nov. 21, 2026, about 1:40 p.m. (Pacific)
+
+"Could we do a PR and merge now?"
+
+## Nov. 21, 2026, about 1:50 p.m. (Pacific)
+
+"I'm a little confused as to the basis of your judgment or the agent's judgment as to what merits a reading run, and why this item doesn't.
+
+I've lost track of whether and where the Wansui made it into our queue, but doesn't this stand or fall by the same principle? And didn't we rule the Wansui in? Or am I mistaken there?"
+
+## Nov. 22, 2026 (Pacific)
+
+"Immediate.
+
+Claude, does our current entry on Cuba of February 7, 1960, accurately reflect its source?" (with page images of Fursenko and Naftali, *One Hell of a Gamble*, the Mikoyan visit, nn. 13–18, and the rendered entry)
+
+## Nov. 22, 2026 (Pacific)
+
+"Is there a place we could put a permalink to a particular entry so you wouldn't have to grope to find it?
+
+Perhaps a little hyperlinked box on the bottom right-hand corner that, when clicked, navigates to the permalink, and right-clicked and copied, or the mobile-equivalent, yields the permalink to the clipboard?
+
+Tell me if you have any other suggestions."
+
+"Please do it now.
+
+Is there an ASCII/Unicode square we could use instead of the paragraph? ■? □? ▪?▫? ◆? ◇? Something else? Could you give me a preview?
+
+Other option: Put the square/icon immediately following the last full stop in the entry. I'm not sure how much space to give it. A single space? A tab? Preview it for me.
+
+Yes to your refinement and to suggestion 3.
+
+No to suggestions 1, 2, 4, and 5."
+
+"Claude, my phone is in light mode, but this is still in dark mode. I know you love dark mode, but can you give this to me in light mode?
+
+And can you give me all the options? Perhaps by clicking on the glyphs up top? I'd like to see some of the options you haven't previewed."
+
+"□ (U+25A1), Corner, text size.
+
+Some notes on the options I didn't take:
+
+I would have had it with the last line, but the Unicode glyphs aren't quite vertically centered—at least when the text ends in a quotation mark.
+
+The trouble with your small-point glyphs and the smaller glyphs is that their vertical misalignment is distracting.
+
+All the options for the full shapes besides the single space looked terrible. (The smaller▪and▫, or their medium counterparts, might look better with no space at all, but the lack of horizontal alignment made them more distracting than their full-shape counterparts.)
+
+The one option I really missed was a right-alignment on the last line, but I decided that I would probably still prefer the bottom corner.
+
+The bottom corner does not compete with the thread links."
+
+"I've shared an EPUB of the Fursenko and Naftali "One Hell of Gamble" with hyperlinked footnotes, in the hope that it makes the next pass easier."
+
+"How close are we to fixing the chronological sort for the Names and Threads pages? And to having a Threads page? Is that done?" (answered: the sort is live, PR #202 deployed Nov. 21; Threads next after the permalinks)
