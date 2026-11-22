@@ -1171,3 +1171,5 @@ All the options for the full shapes besides the single space looked terrible. (T
 The one option I really missed was a right-alignment on the last line, but I decided that I would probably still prefer the bottom corner.
 
 The bottom corner does not compete with the thread links."
+
+"I've shared an EPUB of the Fursenko and Naftali "One Hell of Gamble" with hyperlinked footnotes, in the hope that it makes the next pass easier."
