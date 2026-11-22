@@ -1,129 +1,86 @@
 diff --git a/tools/bib/build.py b/tools/bib/build.py
-index 4d802b5..adfd2fa 100644
+index adfd2fa..2951a62 100644
 --- a/tools/bib/build.py
 +++ b/tools/bib/build.py
-@@ -14,6 +14,7 @@ import re
- 
- from . import calsplit, daybook, governors, legislatures, loose, primaries, specials, statefin, store, vispage, vnmap
- from . import chron
-+from . import permalink
- from . import conventions
- from . import oilworld
- from . import budgets
-@@ -277,7 +278,10 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
-     if lst.kind == "calendar" and not is_thread and isinstance(statement, str):
-         from . import footnotes
-         fns = footnotes.build(series, e)
--    for i, c in enumerate(store.as_list(statement)):
-+    pl = lst.kind == "calendar" and not is_thread   # its permalink mark (tools/bib/permalink.py, STYLE 1)
-+    pl_inlined = False
-+    statements = store.as_list(statement)
-+    for i, c in enumerate(statements):
-         lead = rubric if (rubric and i == 0) else ""
-         if cj:
-             c = cjk.drop(c)               # out of the line (cjk.py, STYLE 2)
-@@ -298,6 +302,9 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
-                     fns = None            # not found in order: the note as before (STYLE 2)
-                 else:
-                     body = marked
-+        if pl and i == len(statements) - 1:   # inline: after the text, outside its claims and footnote marks
-+            body2 = permalink.in_text(body, e["id"])
-+            pl_inlined, body = body2 != body, body2
-         parts.append(f'<span class="c">{lead}{body}</span>')
-     if e.get("r"):
-         parts.append(f'<span class="r">{text_html(e["r"], "r")}</span>')
-@@ -358,6 +365,8 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
-         elif e.get("thread"):
-             from . import subentries    # a parent carries its subentries' threads (subentries.py, STYLE 3)
-             extra_attrs += f' data-threads="{attr(" ".join(subentries.threads_of(lst, e, entry_threads(lst, e))))}"'
-+    if pl:                              # corner: the box's bottom right
-+        extra_spans += permalink.in_box(e["id"], pl_inlined)
-     return f'<li id="{attr(anchor)}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
- 
- 
-@@ -1423,6 +1432,7 @@ def run(series, which=None):
-                 page = indicators.inject(page, series, "list")
-                 page = dayblocks.inject(page, series, "list")   # day blocks: the war table, Armed Forces Day
-                 page = daybook.inject(page)
-+                page = permalink.inject(page)            # the permalink mark's style (tools/bib/permalink.py)
-                 page = feeds.inject(page, lst, half)     # the months' feeds (tools/bib/feeds.py)
-                 # the tables and maps listed (tools/bib/contents.py): the page's, or the whole calendar's once all are built
-                 page = contents.finish(page, lst, half or 1, defer=bool(whole))
-@@ -1440,6 +1450,8 @@ def run(series, which=None):
-             written.append(path)
-         if whole:
-             written += write_calendar(series, lst, linker, held, routed)
-+        if lst.kind == "calendar":           # e.html and e.json, the permalinks' resolver (tools/bib/permalink.py)
-+            written += permalink.write(OUT, lst)
-         calsplit.CUR.update(half=None)
-     if which in (None, "series"):
-         page, linker = build_series(series)
-@@ -1459,6 +1471,7 @@ def run(series, which=None):
-         page = indicators.inject(page, series, "series")
-         page = dayblocks.inject(page, series, "series")   # day blocks: the war table, Armed Forces Day
-         page = daybook.inject(page)
-+        page = permalink.inject(page)                # the permalink mark's style (tools/bib/permalink.py)
-         if cal is not None:                  # the thread statements' tables and maps (tools/bib/contents.py)
-             page = contents.finish(page, cal, None)
-         page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
-diff --git a/tools/bib/cli.py b/tools/bib/cli.py
-index fde84bf..d0544e4 100644
---- a/tools/bib/cli.py
-+++ b/tools/bib/cli.py
-@@ -214,7 +214,8 @@ def cmd_links(series, a):
-             text = page_text(pages[name]) if name in pages else ""
-             ids[name] = set(re.findall(r'\sid="([^"]+)"', text)) | set(re.findall(r"\sname=\"([^\"]+)\"", text))
-         return ids[name]
--    from . import lazydays
-+    from . import lazydays, permalink
-+    emap = permalink.load(OUT_DIR())
- 
-     def page_text(path):                  # the page and its days' month files (tools/bib/lazydays.py)
-         text = open(path, encoding="utf-8").read()
-@@ -233,7 +234,10 @@ def cmd_links(series, a):
-             if target not in pages and "/" not in target:     # a page of the site that was not built (pages.py: a split)
-                 gone[(name, target)] += 1
-                 continue
--            if target not in pages or frag in ids_of(target):
-+            if target == permalink.PAGE and target in pages:      # a permalink: the resolver's map (permalink.py)
-+                if emap is not None and permalink.resolve(emap, frag):
-+                    continue
-+            elif target not in pages or frag in ids_of(target):
-                 continue
-             bad[(name, target)] += 1
-             if len(shown[(name, target)]) < 3:
-diff --git a/tools/bib/lives.py b/tools/bib/lives.py
-index 8db6c50..b0a3fef 100644
---- a/tools/bib/lives.py
-+++ b/tools/bib/lives.py
-@@ -1805,7 +1805,7 @@ def series_lines(subs, cal):
- 
- 
- def calendar_sentences(ptrs, cal):
--    from . import loose
-+    from . import loose, permalink
-     out = []
-     for e in cal:
-         if True:
-@@ -1816,7 +1816,10 @@ def calendar_sentences(ptrs, cal):
-             wy = esc(e["when"]) if str(e["when"]).startswith(e["date"][:4]) else f"{esc(e['when'])}, {e['date'][:4]}"
-             # keyed by the day it is shown at (loose.place_day), so the life keeps the calendar's order (chron.py)
-             day = loose.place_day(e)
--            out.append(sent(day.isoformat() if day else e["date"], f"{wy}: {c}", [n] if n else [],
-+            # its permalink mark, as on the calendar (tools/bib/permalink.py, STYLE 2): after the line, or the corner
-+            line = permalink.in_text(c, e["id"], SITE)
-+            line += permalink.in_box(e["id"], line != c, SITE)
-+            out.append(sent(day.isoformat() if day else e["date"], f"{wy}: {line}", [n] if n else [],
-                             [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {wy}")], para=True,
-                             kind="cal"))
+@@ -275,9 +275,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+         from . import cjk
+         cj = cjk.Entry(series, e).claim(cjk_done)   # its Names: persons' characters, its quoted originals (STYLE 3, 7)
+     fns = None                          # the citation block as footnotes (tools/bib/footnotes.py)
+-    if lst.kind == "calendar" and not is_thread and isinstance(statement, str):
+-        from . import footnotes
+-        fns = footnotes.build(series, e)
++    footed = lst.kind == "calendar" and not is_thread and isinstance(statement, str)
+     pl = lst.kind == "calendar" and not is_thread   # its permalink mark (tools/bib/permalink.py, STYLE 1)
+     pl_inlined = False
+     statements = store.as_list(statement)
+@@ -293,15 +291,9 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+             if spans is not None:
+                 body = spans
+                 extra_attrs += ' data-cl="1"'
+-            if fns:                       # the marks, after each run's last claim (footnotes.py, STYLE 1, 6)
+-                from . import claims as _cl
+-                us = _cl.units(c)
+-                marked = footnotes.place(body, _unit_renderer(series, text_html, year), us, fns[0], e["id"]) \
+-                    if len(us) == len(_cl.units(e.get("c") or "")) else None
+-                if marked is None:
+-                    fns = None            # not found in order: the note as before (STYLE 2)
+-                else:
+-                    body = marked
++            if footed:                    # the marks, after each run's last claim (footnotes.py, STYLE 1, 2, 6)
++                from . import footnotes
++                body, fns = footnotes.apply(series, e, c, body, _unit_renderer(series, text_html, year))
+         if pl and i == len(statements) - 1:   # inline: after the text, outside its claims and footnote marks
+             body2 = permalink.in_text(body, e["id"])
+             pl_inlined, body = body2 != body, body2
+@@ -594,7 +586,10 @@ def cal_index(lst):
      return out
-@@ -2918,7 +2921,8 @@ def page(series, linker, template, names):
- def wrap(template, title, main):
-     pg = open(template, encoding="utf-8").read()
-     pg = pg.replace("{{page_title}}", title).replace("{{main}}", "\n".join(main))
--    return pg.replace("</body>", CSS + "\n</body>", 1)
-+    from . import permalink              # the permalink mark's style, where the page has marks (permalink.py)
-+    return permalink.inject(pg.replace("</body>", CSS + "\n</body>", 1))
  
  
- def pages(series, linker, template):
+-def build_list(series, key, linker=None, half=None):
++def list_text_html(series, key, linker=None):
++    """The renderer a list's own page uses for its text, text_html(t, field): a link to an entry of the list bare
++    ('#id'), to another list's its label alone; the persons a line names linked to their name entries. The calendar's
++    pages and the Threads pages (tools/bib/threads.py) render with it."""
+     lst = series.lists[key]
+     from . import namelinks
+ 
+@@ -624,6 +619,12 @@ def build_list(series, key, linker=None, half=None):
+             t = linker.names_markup(t, key, internal=False, tags=tags)
+         return to_html(t, resolve)
+     text_html.entry = None
++    return text_html
++
++
++def build_list(series, key, linker=None, half=None):
++    lst = series.lists[key]
++    text_html = list_text_html(series, key, linker)
+ 
+     data = page_text(lst, half)
+     main = [f"<h1>{esc(data['h1'])}</h1>"]
+diff --git a/tools/bib/footnotes.py b/tools/bib/footnotes.py
+index 33b5c9b..26e30c5 100644
+--- a/tools/bib/footnotes.py
++++ b/tools/bib/footnotes.py
+@@ -407,6 +407,22 @@ def build(series, e, _probe=False):
+     return groups, notes, rest
+ 
+ 
++def apply(series, e, c, body, render, anchor=None):
++    """A calendar entry's line with its footnotes, on any page that shows it (the calendar's, the Names', the
++    Threads'): (body, fns), body the rendered line `c` with each run's mark placed (STYLE 1, 6; render, a unit
++    rendered as the line is) and fns as build() gives it; (body, None) where the entry is one block (STYLE 2) or its
++    units are not found in order. anchor: the marks' and the footnotes' anchors' base (the entry's id; a page that may
++    show the entry twice gives each its own)."""
++    fns = build(series, e)
++    if not fns:
++        return body, None
++    us = claims.units(c)
++    if len(us) != len(claims.units(e.get("c") or "")):
++        return body, None
++    marked = place(body, render, us, fns[0], anchor or e["id"])
++    return (body, None) if marked is None else (marked, fns)
++
++
+ def _line_firsts(series):
+     """{(entry id, (vol, page))}: each statute the footnotes cite from the line, at its first on the page (each half of
+     the calendar, in the pages' order, as works.first_cites): printed there in full, short after (STYLE 9)."""

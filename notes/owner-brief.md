@@ -1181,3 +1181,5 @@ The bottom corner does not compete with the thread links."
 "Do we need all the data? Can't we just give the name register and start going?
 
 The only issue is when two people map to the same name, or two names to the same person, which isn't an issue that all the information you're asking for actually solves in the individual cases here."
+
+"A separate question: Is everything that happened in China just "China: leadership"? I see that in later years we have "China: Cultural Revolution". But it's a very low level of granularity for... how many entries do we have here, again?" (answered: 26,320 of 58,267 calendar entries in China: Leadership; a list of twelve subthreads proposed, awaiting the owner)
