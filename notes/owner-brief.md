@@ -1227,3 +1227,7 @@ The entries don't even go all the way across the page! They don't have datelines
 "no no, the date can go on the same line as the dateline, styled as it is in the calendar. I just wanted the time of day and location too."
 
 "I mean, Claude, if it's "as on the calendar," it's not necessarily true that "each Names entry gets one header line," is it?"
+
+"I think the February 18, 1966 entry for Fulbright hearings at https://impending2223.github.io/bib/e.html#cal.1966-02-18.vietnam-hearings needs some attention.
+
+It's a fairly hard to parse as-is, and there's a good amount of substantive content in the notes that's hard to place. Or understand."
