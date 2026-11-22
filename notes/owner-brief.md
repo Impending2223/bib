@@ -1173,3 +1173,5 @@ The one option I really missed was a right-alignment on the last line, but I dec
 The bottom corner does not compete with the thread links."
 
 "I've shared an EPUB of the Fursenko and Naftali "One Hell of Gamble" with hyperlinked footnotes, in the hope that it makes the next pass easier."
+
+"How close are we to fixing the chronological sort for the Names and Threads pages? And to having a Threads page? Is that done?" (answered: the sort is live, PR #202 deployed Nov. 21; Threads next after the permalinks)
