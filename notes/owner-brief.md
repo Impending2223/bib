@@ -1243,3 +1243,11 @@ That seems to be a vice for every entry that didn't have all of its claims fixed
 "boy, R22 sounds a bit strong for a rule that presumptively covers not only *revisions* to existing claims but *additions* and any change that would make an addition fit
 
 hnghhh" (a revised R22, corrections / additions / rewording, proposed; awaiting the owner's endorsement)
+
+"I suppose the real problem is that, in principle, atomic *claims* `c` should follow the strict R22, and new patches could join *new claims* `c` to an entry under a looser rule. the problem is that `c` actually means something like "a sentence," and may include far more than one atomic claim. is there any way to make the world look more like my fantastical world of atomic facts, or are we stuck with `c` sentences? and if we are stuck with `c` sentences ... I guess your solution is fine. but it seems post-hoc and verbose. not clean."
+
+"yes to the three-sentence R22.
+
+as for the rest, my spouse says "this is too many words. I don't understand this until I see the data model. Claude, what's the data model?""
+
+"How do you make sure the text of the claim is consistent with respect to the ellipses?" (answered: frames carrying the elided element, claims inside them)
