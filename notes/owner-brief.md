@@ -1239,3 +1239,7 @@ It's a fairly hard to parse as-is, and there's a good amount of substantive cont
 "Have we prepared a post-pause run to comprehensively fisk the calendar for substantive material that wound up in the notes, but not the body text of the entries?
 
 That seems to be a vice for every entry that didn't have all of its claims fixed by the first source read. Do we know why that is? Have we fixed whatever inhibition caused that?"
+
+"boy, R22 sounds a bit strong for a rule that presumptively covers not only *revisions* to existing claims but *additions* and any change that would make an addition fit
+
+hnghhh" (a revised R22, corrections / additions / rewording, proposed; awaiting the owner's endorsement)
