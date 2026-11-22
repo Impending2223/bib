@@ -1,0 +1,141 @@
+diff --git a/tools/bib/build.py b/tools/bib/build.py
+index c5f2fed..c7e1604 100644
+--- a/tools/bib/build.py
++++ b/tools/bib/build.py
+@@ -245,8 +245,11 @@ def thread_person(series, html):
+     return html
+ 
+ 
+-def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", rubric=None):
+-    """rubric: for a calendar entry laid out by day, the thread line that opens its first sentence."""
++def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", rubric=None, home=None, site=""):
++    """rubric: for a calendar entry laid out by day, the thread line that opens its first sentence. home: on a Names
++    page (lives.py, STYLE 9), the person's key: the entry's anchor and its footnotes' are his ('<key>~<id>', an entry
++    two persons of a page give each its own); no claims' spans, no thread line or threads (the rubric the caller's,
++    its date); site: the permalink's base."""
+     if hasattr(text_html, "entry"):      # the page's renderer reads the entry's name: tags (a Names line's 'King')
+         text_html.entry = e
+     parts = []
+@@ -260,7 +263,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+     if is_thread and lst.is_ghost(e["id"].split(".", 2)[2]):
+         return ghost_thread_html(lst, e)  # a ghost subthread: a muted line, its name and dates (calsplit.py, STYLE 9)
+     statement = e.get("c")
+-    anchor = e["id"]
++    anchor = f"{home}~{e['id']}" if home else e["id"]
+     if is_thread:                       # a thread's entry: its statement and dates in the half being built
+         slug = e["id"].split(".", 2)[2]
+         members = thread_members(lst).get(slug, [])
+@@ -287,15 +290,15 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+         if is_thread and i == 0:
+             body = thread_person(series, body)
+         elif lst.kind == "calendar" and i == 0:   # its claims, a span each (tools/bib/vispage.py, STYLE 2)
+-            spans = vispage.c_html(series, lst, e, body, _unit_renderer(series, text_html, year))
++            spans = None if home else vispage.c_html(series, lst, e, body, _unit_renderer(series, text_html, year))
+             if spans is not None:
+                 body = spans
+                 extra_attrs += ' data-cl="1"'
+             if footed:                    # the marks, after each run's last claim (footnotes.py, STYLE 1, 2, 6)
+                 from . import footnotes
+-                body, fns = footnotes.apply(series, e, c, body, _unit_renderer(series, text_html, year))
++                body, fns = footnotes.apply(series, e, c, body, _unit_renderer(series, text_html, year), anchor)
+         if pl and i == len(statements) - 1:   # inline: after the text, outside its claims and footnote marks
+-            body2 = permalink.in_text(body, e["id"])
++            body2 = permalink.in_text(body, e["id"], site)
+             pl_inlined, body = body2 != body, body2
+         parts.append(f'<span class="c">{lead}{body}</span>')
+     if e.get("r"):
+@@ -314,7 +317,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+         bare = year_qualified(series, footnotes.SEP.join(fns[1]), year)    # the note's own characters as written
+         joined = works.with_first_cites(series, e, bare)                   # (cjk.py, STYLE 4)
+         printed = cjk.printed_by(bare, joined)
+-        fn_html = footnotes.notes_html(joined.split(footnotes.SEP), e["id"], lambda t: text_html(t, "n"))
++        fn_html = footnotes.notes_html(joined.split(footnotes.SEP), anchor, lambda t: text_html(t, "n"))
+         n = year_qualified(series, fns[2], year) if fns[2] else ""
+     if cj:                              # the Names: persons' characters, the line's quoted originals (cjk.py, STYLE 3, 7)
+         from . import works
+@@ -337,7 +340,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+             parts.append(fn_html)
+         if n:
+             parts.append(f'<span class="n">{text_html(n, "n")}</span>')
+-    if rubric is not None and lst.kind == "calendar" and e.get("thread"):
++    if rubric is not None and lst.kind == "calendar" and e.get("thread") and not home:
+         prog = program_html(series, lst, e, year, text_html)
+         if prog:
+             parts.append(f'<span class="tn tp">{prog}</span>')
+@@ -353,14 +356,14 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
+         parts.append(f'<span class="gl">{paras}</span>')
+     if e.get("conflict"):
+         parts.append('<span class="n"><b>Unresolved merge conflict.</b></span>')
+-    if lst.kind == "calendar":           # its threads, for the highlight a reader turns on (calsplit.py, STYLE 7)
++    if lst.kind == "calendar" and not home:   # its threads, for the highlight a reader turns on (calsplit.py, STYLE 7)
+         if is_thread:
+             extra_attrs += f' data-thread="{attr(slug)}"'
+         elif e.get("thread"):
+             from . import subentries    # a parent carries its subentries' threads (subentries.py, STYLE 3)
+             extra_attrs += f' data-threads="{attr(" ".join(subentries.threads_of(lst, e, entry_threads(lst, e))))}"'
+     if pl:                              # corner: the box's bottom right
+-        extra_spans += permalink.in_box(e["id"], pl_inlined)
++        extra_spans += permalink.in_box(e["id"], pl_inlined, site)
+     return f'<li id="{attr(anchor)}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
+ 
+ 
+diff --git a/tools/bib/daybook.py b/tools/bib/daybook.py
+index 8eb8439..0154a31 100644
+--- a/tools/bib/daybook.py
++++ b/tools/bib/daybook.py
+@@ -239,8 +239,14 @@ def rubric(lst, e, thread_name):
+     slugs = [e["thread"]] + e.get("also", [])
+     half = calsplit.half_of_date(lst, loose.place_iso(e)) if calsplit.cfg(lst) else 1
+     linked = [f'<a class="rt" href="#{esc(calsplit.thread_anchor(lst, s, half))}">{esc(n)}</a>' for s, n in zip(slugs, names)]
+-    rub = f'<span class="s rub">{" · ".join(linked)}{when}</span>'
+-    from . import dateline                # its place and time at the right (tools/bib/dateline.py)
++    return rubric_row(f'{" · ".join(linked)}{when}', e)
++
++
++def rubric_row(left, e):
++    """The rubric's line: `left` (the threads; on the Names pages, the entry's date: lives.py, STYLE 9) in the rubric's
++    style, the entry's place and time at the right (tools/bib/dateline.py)."""
++    rub = f'<span class="s rub">{left}</span>'
++    from . import dateline
+     dl = dateline.html_(e)
+     return f'<span class="rubrow">{rub}{dl}</span>' if dl else rub
+ 
+diff --git a/tools/bib/footnotes.py b/tools/bib/footnotes.py
+index 30e2620..758ae39 100644
+--- a/tools/bib/footnotes.py
++++ b/tools/bib/footnotes.py
+@@ -16,8 +16,9 @@ STYLE
+     FRUS ..." not repeated where it names its print or the note cites it. A record the map names that the note cites
+     in its printing or recording (a FRUS document, the Papers' page, the Miller Center's or PRDE's tape) is no
+     source of its own: the print cited is (the owner, Nov. 21, 2026). One item twice (two links of one cite) once.
+-    Sources the map has not yet given units (`?`) and items of the note no row names close the last footnote. A
+-    label's items (claims.py, STYLE 7: "The Senate sat from noon to 7:02 p.m.: Daily Digest, D468") are a sentence of
++    Sources the map has not yet given units (`?`) and items of the note no row names close the last footnote, but a
++    label's, which go in the first, as the mechanical map gives them (claims.py, STYLE 7; the owner, Nov. 21, 2026:
++    "should only be in the first footnote"). A label's items (claims.py, STYLE 7: "The Senate sat from noon to 7:02 p.m.: Daily Digest, D468") are a sentence of
+     their own under the label, the footnote's other cites citation sentences; each sentence closes with a full stop.
+  4. *id*. (the owner: "italicize the 'id' but leave the full stop in plain roman ... A departure from the Bluebook"): a
+     citation of the work cited immediately before, in the same footnote or as the previous footnote's only authority
+@@ -290,14 +291,20 @@ def _cites(series, e):
+                 uniq.append(x)
+         per.append(uniq)
+     tail = []
++
++    def unrowed(item):
++        """An item no row gives units: at the end; a label's, the first unit's, where the day's facts sit (STYLE 3;
++        claims.py, STYLE 7)."""
++        d = lab(item, dict(kind="text", key=item, pin="", paren="", text=item))
++        (per[0] if d.get("label") and per else tail).append(d)
+     for r, k, key, pin, note, u, item in rows:
+         if u == "?" and item and item not in used:
+             used.add(item)
+-            tail.append(lab(item, dict(kind="text", key=item, pin="", paren="", text=item)))
++            unrowed(item)
+     for it in srcs:                       # an item of the note no row names: kept, at the end
+         if it not in used and not any(it == x["text"] for p in per for x in p):
+             used.add(it)
+-            tail.append(lab(it, dict(kind="text", key=it, pin="", paren="", text=it)))
++            unrowed(it)
+     return us, per, tail, list(unread)
+ 
+ 
