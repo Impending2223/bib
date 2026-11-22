@@ -1,5 +1,5 @@
 diff --git a/tools/bib/build.py b/tools/bib/build.py
-index adfd2fa..f1fd19a 100644
+index adfd2fa..c5f2fed 100644
 --- a/tools/bib/build.py
 +++ b/tools/bib/build.py
 @@ -275,9 +275,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
@@ -122,7 +122,7 @@ index adfd2fa..f1fd19a 100644
 +    if which in (None, "threads") and cal is not None:   # a page a thread (tools/bib/threads.py)
 +        from . import threads
 +        linker = linker or Linker(series)
-+        for name, page in threads.pages_(series, linker, os.path.join(TEMPLATES, "list.html")).items():
++        for name, page in threads.pages_(series, linker, os.path.join(TEMPLATES, "list.html")):
 +            path = os.path.join(OUT, name)
 +            smart.write(path, routed(page))
 +            written.append(path)
@@ -130,7 +130,7 @@ index adfd2fa..f1fd19a 100644
          from . import ebooks
          written += [p for p, _, _ in ebooks.build(series)]
 diff --git a/tools/bib/cjk.py b/tools/bib/cjk.py
-index 4d516b2..75f6f9b 100644
+index 4d516b2..e07b34a 100644
 --- a/tools/bib/cjk.py
 +++ b/tools/bib/cjk.py
 @@ -44,6 +44,7 @@ STYLE
@@ -141,7 +141,18 @@ index 4d516b2..75f6f9b 100644
  import re
  
  CH = "㐀-䶿一-鿿豈-﫿々〇぀-ヿ가-힯"
-@@ -495,6 +496,27 @@ def page_rows(series, lst):
+@@ -324,6 +325,10 @@ def _name_chars(series):
+                     for u in us:
+                         if u:
+                             out.setdefault(_key(u), m.group(2))
++        from . import lives                     # the register's (sources/people.yaml): his characters, its chars
++        for k, r in lives.register().items():
++            if isinstance(r, dict) and r.get("chars"):
++                out.setdefault(k, r["chars"])
+         series._cjk_names = out
+     return series._cjk_names
+ 
+@@ -495,6 +500,27 @@ def page_rows(series, lst):
      return cache[lst.key]
  
  
@@ -268,10 +279,21 @@ index 10f6047..8eb8439 100644
          tv = sorted(programs().get(iso, []), key=lambda r: r["show"] != "Face the Nation")
          if tv:                               # the day's programs on one line, Face the Nation first
 diff --git a/tools/bib/footnotes.py b/tools/bib/footnotes.py
-index 33b5c9b..26e30c5 100644
+index 33b5c9b..30e2620 100644
 --- a/tools/bib/footnotes.py
 +++ b/tools/bib/footnotes.py
-@@ -407,6 +407,22 @@ def build(series, e, _probe=False):
+@@ -46,6 +46,10 @@ STYLE
+     list has one, "Area Redevelopment Act, Pub. L. No. 87-27, [75 Stat. 47](…) (1961)"), short after, "Pub. L. No.
+     88-152, [77 Stat. at 271](…)" (_line_firsts); a case or treaty with the name the line gives it and its year,
+     "*Baker v. Carr*, [369 U.S. 186](…) (1962)".
++10. The other pages that show a calendar entry's line and note (the owner, Nov. 21, 2026: "Could the Names and Threads
++    entries also get the full footnote treatment?") set them by apply() and notes_html(), the calendar's own: the
++    Threads pages through the calendar's renderer (threads.py), the Names' Life paragraphs (lives.py), whose anchors
++    carry the person's key (an entry two persons of one page give, each its own).
+ """
+ import collections
+ import re
+@@ -407,6 +411,22 @@ def build(series, e, _probe=False):
      return groups, notes, rest
  
  
@@ -295,7 +317,7 @@ index 33b5c9b..26e30c5 100644
      """{(entry id, (vol, page))}: each statute the footnotes cite from the line, at its first on the page (each half of
      the calendar, in the pages' order, as works.first_cites): printed there in full, short after (STYLE 9)."""
 diff --git a/tools/bib/lives.py b/tools/bib/lives.py
-index b0a3fef..6a38cfd 100644
+index b0a3fef..74b6b14 100644
 --- a/tools/bib/lives.py
 +++ b/tools/bib/lives.py
 @@ -98,7 +98,13 @@ def fmt(d):
@@ -440,7 +462,17 @@ index b0a3fef..6a38cfd 100644
  def everyone(series):
      """people(), and every person FRUS's lists of persons give whom no name entry holds (sources/frus-names/
      persons.json, written by tools/lives/frus_names.py --all): an entry of his own, with each volume's description.
-@@ -1804,21 +1930,33 @@ def series_lines(subs, cal):
+@@ -1257,7 +1383,8 @@ def congress_of(day):
+ 
+ def problems(series):
+     """sources/race-matches.yaml: each person a name the series holds; each race a key the returns hold, with a
+-    candidate of his surname; none both refused and confirmed."""
++    candidate of his surname; none both refused and confirmed. The register too (register_problems)."""
++    yield from register_problems(series)
+     from .elections import load
+     where = "sources/race-matches.yaml"
+     names = {n for p in cached("people", lambda: people(series)) for n in p["names"]}
+@@ -1804,21 +1931,33 @@ def series_lines(subs, cal):
      return out
  
  
@@ -480,7 +512,7 @@ index b0a3fef..6a38cfd 100644
              out.append(sent(day.isoformat() if day else e["date"], f"{wy}: {line}", [n] if n else [],
                              [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {wy}")], para=True,
                              kind="cal"))
-@@ -2054,7 +2192,8 @@ def life_html(sents):
+@@ -2054,7 +2193,8 @@ def life_html(sents):
          cur.append(s["text"])
          block = key
      close()
@@ -490,9 +522,21 @@ index b0a3fef..6a38cfd 100644
  
  
  # ---------------------------------------------------------------- the lists
-@@ -2700,11 +2839,11 @@ def entry(series, linker, ptrs, p):
+@@ -2571,6 +2711,8 @@ def person_races(series, p):
+ 
+ 
+ def _person_races(series, p):
++    if p.get("reg"):                     # the register's: no roster, races or Directory (people.yaml)
++        return [], None, []
+     name, names = p["name"], p["names"]
+     sur, given = split_name(name)
+     sfx, strict = person_suffix(series, p)
+@@ -2698,13 +2840,13 @@ def entry(series, linker, ptrs, p):
+         return es == sfx if es not in ("", "Sr") else not strict
+     subs = subjects(ptrs, name, ok)
      cal = calendar_of(ptrs, [x for x in subs if (x[1].code or "").startswith("III")], key_of(name), series)
-     if p.get("frus"):                    # a person FRUS's lists alone give: no roster, races or Directory
+-    if p.get("frus"):                    # a person FRUS's lists alone give: no roster, races or Directory
++    if p.get("frus") or p.get("reg"):    # a person FRUS's lists, or the register, alone give: no roster, races or Directory
          rp, e, races = [], None, []
 -        structured = calendar_sentences(ptrs, cal)
 +        structured = calendar_sentences(ptrs, cal, key_of(name))
@@ -504,7 +548,7 @@ index b0a3fef..6a38cfd 100644
      record = [s_["row"] for s_ in structured if s_.get("row")]
      structured = [s_ for s_ in structured if s_["kind"] != "election"]
      life = merge(structured, bd_sentences(e) if e else [], [])
-@@ -2807,7 +2946,7 @@ p.az{display:flex;flex-wrap:wrap;gap:0 .36em;margin:0;font-family:var(--sans);fo
+@@ -2807,7 +2949,7 @@ p.az{display:flex;flex-wrap:wrap;gap:0 .36em;margin:0;font-family:var(--sans);fo
  p.az a{color:var(--muted);text-decoration:none}
  p.az a:hover{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px}
  p.az span{color:var(--ink)}
@@ -513,7 +557,7 @@ index b0a3fef..6a38cfd 100644
  ul.lvx{list-style:none;margin:.3rem 0 1rem;padding:0;columns:2;column-gap:1.5rem;font-size:.92rem;line-height:1.5}
  ul.lvx li{break-inside:avoid;padding-left:1em;text-indent:-1em}
  ul.lvx a{color:var(--ink);text-decoration:none}
-@@ -2921,7 +3060,9 @@ def page(series, linker, template, names):
+@@ -2921,7 +3063,9 @@ def page(series, linker, template, names):
  def wrap(template, title, main):
      pg = open(template, encoding="utf-8").read()
      pg = pg.replace("{{page_title}}", title).replace("{{main}}", "\n".join(main))
@@ -524,7 +568,7 @@ index b0a3fef..6a38cfd 100644
      return permalink.inject(pg.replace("</body>", CSS + "\n</body>", 1))
  
  
-@@ -3243,8 +3384,8 @@ CONG = re.compile(r"\b(Senators?|Senate|Representatives?|House|Congress|Speaker|
+@@ -3243,8 +3387,8 @@ CONG = re.compile(r"\b(Senators?|Senate|Representatives?|House|Congress|Speaker|
  
  
  def people(series):
@@ -535,7 +579,7 @@ index b0a3fef..6a38cfd 100644
      compatible ('Hubert H.' and 'Hubert H., Jr.'; not 'Hubert' and 'Harold'). The name shown: Part III's form, else
      the roster's, else the Congress roster's."""
      from . import executive as X
-@@ -3278,6 +3419,11 @@ def people(series):
+@@ -3278,6 +3422,11 @@ def people(series):
                      cands.append((r["name"], 2))
                      if r.get("given"):
                          full.setdefault(r["name"], r["given"])
@@ -547,7 +591,7 @@ index b0a3fef..6a38cfd 100644
      mp = os.path.join(store.ROOT, "sources", "app-matches.yaml")
      strict_sons = {n for n, v in ((store.load_yaml(mp) or {}) if os.path.exists(mp) else {}).items()
                     if isinstance(v, dict) and v.get("strict")}
-@@ -3293,6 +3439,8 @@ def people(series):
+@@ -3293,6 +3442,8 @@ def people(series):
          (sources/people-apart.yaml: Robert Moses the builder, Robert P. Moses of SNCC) never joins."""
          if a == b:
              return True
@@ -556,7 +600,7 @@ index b0a3fef..6a38cfd 100644
          if frozenset((a, b)) in apart:
              return False
          # a member Part III names by the name he went by: 'Patman, Wright' is 'Patman, John W.' (John William
-@@ -3367,7 +3515,7 @@ def people(series):
+@@ -3367,7 +3518,7 @@ def people(series):
          exact.setdefault(name, set()).add(rank)
      for name, ranks in sorted(exact.items(), key=lambda x: (min(x[1]), suffix(x[0]) in ("", "Sr"), x[0])):
          sur, given = split_name(name)
@@ -565,7 +609,7 @@ index b0a3fef..6a38cfd 100644
              continue
          mine = {(name, r) for r in ranks}
          group = by_sur.setdefault(fold(sur), [])
-@@ -3379,4 +3527,15 @@ def people(series):
+@@ -3379,4 +3530,15 @@ def people(series):
          p = {"name": name, "sur": sur, "given": given, "names": {name}, "ranks": mine}
          group.append(p)
          out.append(p)
@@ -795,3 +839,28 @@ index 181ced3..d81c690 100644
      for fam, name in (("congress", "Elections and Congress"), ("executive", "Executive")):
          ps = pages.sections_plan(fam)
          if ps:
+diff --git a/tools/vis/seed.py b/tools/vis/seed.py
+index a2b040f..26516f4 100644
+--- a/tools/vis/seed.py
++++ b/tools/vis/seed.py
+@@ -15,7 +15,8 @@ too (a hand row marked `hand: true` is kept even then).
+ STYLE
+  1. Persons (polities.yaml `names`): by Part III's role and section (the foreign sections: K-J Adm. III.J and Adm.
+     III.J, Abroad; Viet. III.G, South Vietnam; III.H, North Vietnam and the Front; III.I, Others abroad); else the
+-    rosters (an Executive Branch holder, a member of Congress: the United States); else FRUS's lists of persons, by
++    rosters (an Executive Branch holder, a member of Congress: the United States); else the register's `polity`
++    (sources/people.yaml, where the threads make it plain); else FRUS's lists of persons, by
+     each volume's description (tools/bib/vis_words.py, STYLE 1), a change of polity between volumes kept as dated
+     ranges and marked doubtful; else `?`. `basis` says which.
+  2. Works (provenance.yaml `works`): the kind from the card or its listing (a memoir: listed under its author as
+@@ -753,7 +754,9 @@ def main(dry, refresh):
+         p = by_key.get(k)
+         ranks = p["ranks"] if p else set()
+         pk = lives.key_of(p["name"]) if p else k
+-        names[k] = person_row(k, p3.get(k) or p3.get(pk, []), ranks, frus_roles(k) or frus_roles(pk))
++        row = lives.register().get(pk) if p and p.get("reg") else None   # the register's (sources/people.yaml)
++        names[k] = ({"polity": row["polity"], "basis": "people.yaml"} if row and row.get("polity") else
++                    person_row(k, p3.get(k) or p3.get(pk, []), ranks, frus_roles(k) or frus_roles(pk)))
+     names = merged(old_pol.get("names"), names, refresh)
+ 
+     # places: the gazetteer's countries, and the hand rows
