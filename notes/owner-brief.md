@@ -1231,3 +1231,5 @@ The entries don't even go all the way across the page! They don't have datelines
 "I think the February 18, 1966 entry for Fulbright hearings at https://impending2223.github.io/bib/e.html#cal.1966-02-18.vietnam-hearings needs some attention.
 
 It's a fairly hard to parse as-is, and there's a good amount of substantive content in the notes that's hard to place. Or understand."
+
+"You should do the same for https://impending2223.github.io/bib/e.html#cal.1966-02-04.vietnam and https://impending2223.github.io/bib/e.html#cal.1966-02-08.vietnam-hearings and https://impending2223.github.io/bib/e.html#cal.1966-02-10.vietnam-hearings and the substantive notes for the following entry ("Woods, Fulbright, 404–05 (Johnson's call to Stanton; CBS drops the hearings Feb. 10 for I Love Lucy; Friendly's resignation; NBC carries them); Branch, At Canaan's Edge, 446 (Stanton forces the resignation)"), which may belong on a different page, https://impending2223.github.io/bib/e.html#cal.1966-02-15.vietnam-hearings"
