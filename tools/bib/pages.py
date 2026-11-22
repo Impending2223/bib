@@ -17,6 +17,9 @@ pages.yaml, the one place for both:
     works           {by: letter}: the A–Z bibliography a page a letter (works-a.html ...; works.html the index)
     executive, congress   {parts: [{page, label, sections: [h2 id, ...]}]}: the page cut at its own top sections
                     (the terms; the Congresses), each part a page, the old page the index
+    threads         {slug: [{page, from, label}]}: a thread's page over budget in parts by date (threads.py, STYLE 6):
+                    a year a part, a year over in quarters, a quarter over in months, small ones in a row packed to
+                    the fill; the thread's own page then its index
     retired         pages a split has replaced: each forwards a link by its anchor to the page that now holds it
 
 STYLE:
@@ -24,7 +27,8 @@ STYLE:
     page's persons, Works' works, the Executive's offices, the Congresses' seats; else its anchors.
  2. A split follows the page's own structure: the calendar by quarter, then month (calsplit's names: cal1967Q1,
     cal1967-04); Names by surname range within a letter (names-ma-mc.html, labelled "Ma–Mc"); Works by letter;
-    the Executive by term, Congress by Congress (their h2 sections, packed in order to the fill).
+    the Executive by term, Congress by Congress (their h2 sections, packed in order to the fill); a thread's page by
+    date (a year, a quarter, a month: threads-china-leadership-1960Q1).
  3. Pointers: every link to an anchor on a page that is split goes to the part that holds it, from every page: the
     builders ask here (names_href, works_href), and route() rewrites the rest at the write (as calsplit.route does
     for the calendar). Inside a part, a bare '#X' held by another part goes to that part.
@@ -80,7 +84,7 @@ def family(name):
     n = name[:-5] if name.endswith(".html") else name
     if re.match(r"^cal(\d{4}|primaries$|\d\d$)", n) or n == "cal":
         return "cal"
-    for f in ("names", "works", "executive", "congress", "lives"):
+    for f in ("names", "works", "executive", "congress", "lives", "threads"):
         if n == f or n.startswith(f + "-"):
             return f
     return n
@@ -648,7 +652,9 @@ UNITS = {"cal": (re.compile(r'<li id="cal\.\d'), "entries"),
          "names": (re.compile(r'<section class="lv"'), "persons"),
          "works": (re.compile(r'<p class="wk" id='), "works"),
          "executive": (re.compile(r'<tr\b'), "rows"),
-         "congress": (re.compile(r'<tr\b'), "rows")}
+         "congress": (re.compile(r'<tr\b'), "rows"),
+         "threads": (re.compile(r'<li (?:class="[^"]*" )?id="t-cal\.'), "entries")}
+THENTRY = re.compile(r'<li (?:class="[^"]*" )?id="t-cal\.(\d{4}(?:-\d\d){0,2})\.')
 ANCHOR = re.compile(r'\sid="')
 LV = re.compile(r'<section class="lv" id="([^"]+)">')
 LVNAME = re.compile(r'<section class="lv" id="([^"]+)"><h2 [^>]*>(.*?)</h2>', re.S)
@@ -801,11 +807,70 @@ def propose(out, rows=None):
                 p["page"] += "x"
             seen.add(p["page"])
         prop[fam] = {"parts": parts}
+    if "threads" in over:
+        t = threads_proposal(out, rows)
+        if t:
+            prop["threads"] = t
     if "cal" in over:
         c = calendar_proposal(out, rows)
         if c:
             prop["cal"] = c
     return prop
+
+
+# ---------------------------------------------------------------- the Threads (threads.py, STYLE 6): a thread by date
+
+def threads_parts(slug):
+    return ((conf().get("threads") or {}).get(slug)) or None
+
+
+def _thread_sizes(text):
+    """[(date, bytes)] of the entries a Threads page holds, each from its li to the next's; and the page's rest."""
+    import datetime
+    got = _sizes_of(text, THENTRY, ('<nav class="pgseam"', "</main>"))
+    out = []
+    for d, n in got:
+        y, m, dd = (d.split("-") + ["01", "01"])[:3]
+        out.append((datetime.date(int(y), int(m), int(dd)), n))
+    return out, len(text.encode("utf-8")) - sum(n for _, n in got)
+
+
+def threads_proposal(out, rows):
+    """{slug: [{page, from, label}]}: each thread's page over budget in parts by date (threads.plan_parts); a thread in
+    parts already, a part within budget kept as it is, one over planned again alone, from its own first day."""
+    from . import threads
+    pages_ = built(out)
+    over = {r["page"] for r in rows if r["over"] and r["family"] == "threads"}
+    of = {f"{p['page']}.html": slug for slug, ps in (conf().get("threads") or {}).items() for p in ps}
+    target = int(budget("threads-x.html") * fill())
+    props = {}
+    for name in sorted(over):
+        slug = of.get(name) or (name[len("threads-"):-len(".html")] if name.startswith("threads-") else None)
+        if not slug or name not in pages_:
+            continue
+        sizes, rest = _thread_sizes(open(pages_[name], encoding="utf-8").read())
+        if not sizes:
+            continue
+        old = props.get(slug) or threads_parts(slug)
+        if name not in of:                                   # a thread's one page, in parts
+            new = threads.plan_parts(slug, sizes, target - rest)
+            if len(new) > 1:
+                props[slug] = new
+            continue
+        i = next(k for k, p in enumerate(old) if f"{p['page']}.html" == name)
+        sub = threads.plan_parts(slug, sizes, target - rest, start=str(old[i]["from"]) if i else None)
+        if len(sub) < 2:
+            continue
+        if i:
+            sub[0]["from"] = old[i]["from"]
+        cut = [dict(p) for p in old[:i]] + sub + [dict(p) for p in old[i + 1:]]
+        seen = set()
+        for q in cut:
+            while q["page"] in seen:
+                q["page"] += "x"
+            seen.add(q["page"])
+        props[slug] = cut
+    return props
 
 
 # ---------------------------------------------------------------- the calendar: its parts in list.yaml (calsplit)
@@ -944,7 +1009,8 @@ HEAD = """# The pages' size budget and the splits it directs (tools/bib/pages.py
 # budget: bytes a page may hold, its HTML alone; budgets: a family's own; fill: a split packs its parts to this share
 # of the budget; exempt: reported, never split. The rest is the plan, written by `./bib pages --plan` (by hand only to
 # set a split aside): names, a letter in surname ranges; works, a page a letter; executive and congress, their top
-# sections in parts; retired, the pages a split replaced, each forwarding its old links. The calendar's parts are in
+# sections in parts; threads, a thread's page in parts by date; retired, the pages a split replaced, each forwarding
+# its old links. The calendar's parts are in
 # lists/cal/list.yaml (`split:`, `retired_parts`).
 """
 
@@ -953,7 +1019,7 @@ def write_conf(c, path=None):
     import yaml
     path = path or PATH
     keep = {k: c[k] for k in ("budget", "budgets", "fill", "why", "exempt", "works", "names", "executive", "congress",
-                              "retired") if c.get(k) not in (None, {}, [])}
+                              "threads", "retired") if c.get(k) not in (None, {}, [])}
     store.atomic_write(path, HEAD + yaml.safe_dump(keep, sort_keys=False, allow_unicode=True, width=110))
     _CONF.clear()
 
@@ -968,6 +1034,8 @@ def live_pages(c=None):
         out |= {p["page"] for p in ((c.get(fam) or {}).get("parts") or [])}
     if (c.get("works") or {}).get("by") == "letter":
         out |= {f"works-{L}" for L in "0abcdefghijklmnopqrstuvwxyz"}
+    for slug, ps in (c.get("threads") or {}).items():      # a thread in parts: its own page the index, and its parts
+        out |= {f"threads-{slug}"} | {p["page"] for p in ps or []}
     return out
 
 
@@ -991,6 +1059,13 @@ def plan(out):
             old = [p["page"] for p in (c.get(fam) or {}).get("parts") or []]
             c[fam] = prop[fam]
             retired += [p for p in old if p not in {x["page"] for x in prop[fam]["parts"]}]
+    if prop.get("threads"):
+        th = dict(c.get("threads") or {})
+        for slug, ps in prop["threads"].items():
+            old = [p["page"] for p in th.get(slug) or []]
+            th[slug] = ps
+            retired += [p for p in old if p not in {x["page"] for x in ps}]
+        c["threads"] = dict(sorted(th.items()))
     live = live_pages(c)
     c["retired"] = sorted(p for p in dict.fromkeys(retired) if p not in live)    # never a page the plan holds
     write_conf(c)
@@ -1048,6 +1123,8 @@ def report(rows, prop=None):
             if prop.get(fam):
                 out.append(f"  {fam}: " + ", ".join(f"{p['page']} ({len(p['sections'])} sections)"
                                                     for p in prop[fam]["parts"]))
+        for slug, ps in (prop.get("threads") or {}).items():
+            out.append(f"  threads-{slug}: " + ", ".join(f"{p['page']} ({p['label']})" for p in ps))
         for pr in prop.get("cal") or []:
             out.append(f"  {pr['page']}: " + ", ".join(
                 (_part_fields({}, k, mk)[0]["page"]) + f" (~{e / MB:.1f} MB)" for (k, mk), e in zip(pr["into"], pr["est"])))

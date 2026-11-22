@@ -286,7 +286,7 @@ entries:
       c: 62ff47f3
       rows:
         - 'w.yang-shangkun-riji II, 212: all'
-    tags: [polity:prc]
+    tags: [polity:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-10-01.china-leadership-4
     when: Oct. 1
@@ -299,7 +299,7 @@ entries:
       c: e28df99c
       rows:
         - 'w.yang-shangkun-riji II, 213: all'
-    tags: [polity:prc, name:mao-zedong]
+    tags: [polity:prc, name:mao-zedong, name:yang-shangkun]
     time_range:
       - 1962-10-01T11:00Z
       - 1962-10-01T14:00Z
@@ -461,12 +461,12 @@ entries:
     thread: china-leadership
     also: [china, indonesia]
     c: Peking. Zhou Enlai goes to the airport to see off Hartini Sukarno.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 336 (Oct. 2, 1962; 上午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 336 (Oct. 2, 1962; 上午). Names: Zhou Enlai, Hartini Sukarno.'
     src:
       c: e4a255b3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 336: all'
-    tags: [polity:prc, polity:indonesia, name:zhou-enlai]
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, name:hartini-sukarno]
     time_range:
       - 1962-10-01T22:00Z
       - 1962-10-02T04:00Z
@@ -534,7 +534,7 @@ entries:
       c: 25ad1ce2
       rows:
         - 'w.yang-shangkun-riji II, 213: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-10-02.china-leadership-7
     when: Oct. 2
@@ -542,8 +542,8 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Chen Yi 陈毅 at the banquet of Trần Tử Bình, the Vietnamese Ambassador, for the Vietnam–China Friendship Association delegation led by Hoàng Quốc Việt.
-    n: '[[w.chen-yi-nianpu]], 936. The words: 晚上 (936). Names: Chen Yi.'
-    tags: [polity:prc, polity:drv, name:chen-yi, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 936. The words: 晚上 (936). Names: Chen Yi, Trần Tử Bình, Hoàng Quốc Việt.'
+    tags: [polity:prc, polity:drv, name:chen-yi, ok:fields-place, name:hoang-quoc-viet, name:tran-tu-binh]
     time_range:
       - 1962-10-02T11:00Z
       - 1962-10-02T14:00Z
@@ -678,7 +678,7 @@ entries:
       c: d6e80f7d
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 420–421: all'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, polity:mongolia]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, polity:mongolia, name:sambuu, name:tsedenbal]
   - id: cal.1962-10-03.china-leadership-3
     when: Oct. 3
     date: '1962-10-03'
@@ -689,7 +689,7 @@ entries:
       c: 1ade93f1
       rows:
         - 'w.yang-shangkun-riji II, 213: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-10-02T22:00Z
       - 1962-10-03T04:00Z
@@ -705,7 +705,7 @@ entries:
       c: 5beac2c5
       rows:
         - 'w.yang-shangkun-riji II, 213: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-10-03T04:00Z
       - 1962-10-03T10:00Z
@@ -954,7 +954,7 @@ entries:
       c: 2883a043
       rows:
         - 'w.yang-shangkun-riji II, 213: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-10-04.china-leadership-5
     when: Oct. 4
@@ -966,7 +966,7 @@ entries:
       c: 451abf18
       rows:
         - 'w.yang-shangkun-riji II, 213: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-10-03T22:00Z
       - 1962-10-04T04:00Z
@@ -997,7 +997,7 @@ entries:
       c: f8f8f1b7
       rows:
         - 'w.yang-shangkun-riji II, 214: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:liu-huo, name:liu-xu, name:yang-shangkun, name:zheng-siyuan]
     time_zone: Asia/Shanghai
   - id: cal.1962-10-04.china-leadership-6
     when: Oct. 4
@@ -1038,8 +1038,8 @@ entries:
     date: '1962-10-04'
     thread: china-leadership
     c: Chen Yi 陈毅 and Tulsi Giri 图尔西·吉里, Nepal's Vice-Chairman of the Council of Ministers and Foreign Minister, exchange cables on the first anniversary of the boundary treaty.
-    n: '[[w.chen-yi-nianpu]], 936. Names: Chen Yi.'
-    tags: [polity:prc, polity:nepal, name:chen-yi]
+    n: '[[w.chen-yi-nianpu]], 936. Names: Chen Yi, Tulsi Giri.'
+    tags: [polity:prc, polity:nepal, name:chen-yi, name:tulsi-giri]
   - id: cal.1962-10-04.china-leadership-10
     when: Oct. 4
     date: '1962-10-04'
@@ -1276,7 +1276,7 @@ entries:
     also: [korea]
     c: 'Zhou Enlai with responsible persons on trade with and aid to Korea. On the Foreign Economic Liaison Bureau''s report on complete-plant projects: in principle China takes the initiative and gives Korea the aid that is possible and needed, so its economy can industrialize. Earlier he had told Fang Yi, Ye Jizhuang and the Foreign Affairs Office to sort economic cooperation with socialist and newly independent states into classes and put principles to the Center.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 500 (Oct. 5, 1962). Made public: 1997. Names: Zhou Enlai, Fang Yi, Ye Jizhuang.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:fang-yi, name:ye-jizhuang]
   - id: cal.1962-10-05.china
     when: Oct. 5
     date: '1962-10-05'
@@ -1306,7 +1306,7 @@ entries:
       c: 003b0013
       rows:
         - 'w.yang-shangkun-riji II, 214: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-10-04T22:00Z
       - 1962-10-05T04:00Z
@@ -1322,7 +1322,7 @@ entries:
       c: 5fea07be
       rows:
         - 'w.yang-shangkun-riji II, 214: all'
-    tags: [polity:prc, name:tao-zhu, vis:only:prc]
+    tags: [polity:prc, name:tao-zhu, vis:only:prc, name:feng-baiju, name:yang-shangkun]
     time_range:
       - 1962-10-04T22:00Z
       - 1962-10-05T04:00Z
@@ -1491,7 +1491,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 422–424: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 423 n.2a: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 424 n.2b: all'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ulbricht-walter, polity:gdr]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ulbricht-walter, polity:gdr, name:correns, name:dieckmann]
   - id: cal.1962-10-06.china-leadership-5
     when: Oct. 6
     date: '1962-10-06'
@@ -1503,7 +1503,7 @@ entries:
       c: 2fa5cdac
       rows:
         - 'w.yang-shangkun-riji II, 214: all'
-    tags: [polity:prc, name:li-fuchun, name:tan-zhenlin, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, name:tan-zhenlin, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-10-06.china-leadership-6
     when: Oct. 6
@@ -1515,7 +1515,7 @@ entries:
       c: 09baff31
       rows:
         - 'w.yang-shangkun-riji II, 214: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1962-10-06T11:00Z
       - 1962-10-06T14:00Z
@@ -1544,8 +1544,8 @@ entries:
     date: '1962-10-06'
     thread: china-leadership
     c: Chen Yi 陈毅, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De 朱德, Deng Xiaoping 邓小平, He Long 贺龙 and Li Weihan 李维汉, receives the representatives of the PLA and the armed police come for National Day.
-    n: '[[w.chen-yi-nianpu]], 937; [[w.liu-jixian-ye-jianying-nianpu]], II, 896 (Oct. 6, 1962; Ye Jianying 叶剑英 with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇 and the other Party and state leaders receiving the National Day observation delegations 国庆观礼代表团 of the People''s Liberation Army 人民解放军 and of the national minorities 少数民族); [[w.zhu-de-nianpu-xinbian]], III, 1852 (Oct. 6, 1962; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, receives in turn the representatives of the PLA 解放军, the armed police 武装警察部队 and the minorities come to Peking 北京 for the thirteenth anniversary). The words: 下午 (937). Names: Chen Yi, Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, He Long.'
-    tags: [polity:prc, name:chen-yi, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:he-long, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 937; [[w.liu-jixian-ye-jianying-nianpu]], II, 896 (Oct. 6, 1962; Ye Jianying 叶剑英 with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇 and the other Party and state leaders receiving the National Day observation delegations 国庆观礼代表团 of the People''s Liberation Army 人民解放军 and of the national minorities 少数民族); [[w.zhu-de-nianpu-xinbian]], III, 1852 (Oct. 6, 1962; Zhu De 朱德, with Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and others, receives in turn the representatives of the PLA 解放军, the armed police 武装警察部队 and the minorities come to Peking 北京 for the thirteenth anniversary). The words: 下午 (937). Names: Chen Yi, Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, He Long, Li Weihan.'
+    tags: [polity:prc, name:chen-yi, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:he-long, ok:fields-place, name:li-weihan]
     time_range:
       - 1962-10-06T04:00Z
       - 1962-10-06T10:00Z
@@ -1649,7 +1649,7 @@ entries:
       c: 4aa7a399
       rows:
         - 'w.yang-shangkun-riji II, 214: all'
-    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    tags: [polity:prc, name:zhu-de, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-10-06T22:00Z
       - 1962-10-07T04:00Z
@@ -1660,12 +1660,12 @@ entries:
     date: '1962-10-07'
     thread: china-leadership
     c: 'Deng Xiaoping 邓小平, on the Tenth Plenum''s decision on strengthening the Party''s control organs: "Congwu 从吾 [Wang Congwu 王从吾]: the Control Commission should discuss carrying it out, the sending of control groups and the like, settle the men with the Organization Department, and try it first in a few ministries."'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1728 (Oct. 7, 1962). Made public: 2009 (the nianpu). See [[cal.1962-08-31.china-leadership-2]]. Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1728 (Oct. 7, 1962). Made public: 2009 (the nianpu). See [[cal.1962-08-31.china-leadership-2]]. Names: Deng Xiaoping, Wang Congwu.'
     src:
       c: 847b3aba
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1728: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:wang-congwu]
   - id: cal.1962-10-07.china-leadership-8
     when: Oct. 7
     date: '1962-10-07'
@@ -1953,7 +1953,7 @@ entries:
       c: '59355767'
       rows:
         - 'w.yang-shangkun-riji II, 215: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:yang-shangkun]
     time_range:
       - 1962-10-07T22:00Z
       - 1962-10-08T04:00Z
@@ -1969,7 +1969,7 @@ entries:
       c: 742d4a1d
       rows:
         - 'w.yang-shangkun-riji II, 215: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-congwu, name:yang-shangkun]
     time_range:
       - 1962-10-08T04:00Z
       - 1962-10-08T10:00Z
@@ -2137,7 +2137,7 @@ entries:
       c: c84b5bc7
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 374: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:yang-shangkun]
   - id: cal.1962-10-09.china-leadership-3
     when: Oct. 9
     date: '1962-10-09'
@@ -2161,7 +2161,7 @@ entries:
       c: 122931f7
       rows:
         - 'w.yang-shangkun-riji II, 215: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
     time_range:
       - 1962-10-09T11:00Z
       - 1962-10-09T14:00Z
@@ -2292,14 +2292,14 @@ entries:
     thread: missile-crisis-anadyr
     also: [soviet-union, intelligence]
     c: 'Semichastny to the Central Committee: a six-point propaganda operation for the missiles'' unveiling. Ehrenburg to write an open letter in French for Parisian intellectuals, Sartre among them; Shostakovich to back a statement on American efforts to starve Cuba; a boycott of American goods. The Presidium, Oct. 16, takes the boycott and declines to risk Ehrenburg and Shostakovich.'
-    n: '[[w.fursenko-one-hell-of-a]], 228–29. To check: Semichastny to the CC, Oct. 10, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 229 n.27); protocol of the Presidium, Oct. 16, distributed Oct. 18, APRF (cited by [[w.fursenko-one-hell-of-a]], 229 n.28). Check: the Presidium''s decision as its own entry.'
+    n: '[[w.fursenko-one-hell-of-a]], 228–29. To check: Semichastny to the CC, Oct. 10, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 229 n.27); protocol of the Presidium, Oct. 16, distributed Oct. 18, APRF (cited by [[w.fursenko-one-hell-of-a]], 229 n.28). Check: the Presidium''s decision as its own entry. Names: Semichastny, Ehrenburg.'
     src:
       c: dbba4824
       rows:
         - 'w.fursenko-one-hell-of-a 228–29: all'
         - 'via w.fursenko-one-hell-of-a 229 n.27: A-B'
         - 'via w.fursenko-one-hell-of-a 229 n.28: C'
-    tags: [vis:only:ussr]
+    tags: [vis:only:ussr, name:ehrenburg, name:semichastny]
     time_range:
       - 1962-10-10T06:00Z
       - 1962-10-10T14:00Z
@@ -2400,7 +2400,7 @@ entries:
       c: 989e7ff6
       rows:
         - 'w.yang-shangkun-riji II, 215: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:cui-yaozhang, name:li-jian, name:ma-zhijiang, name:yang-shangkun]
     time_range:
       - 1962-10-09T22:00Z
       - 1962-10-10T04:00Z
@@ -2417,7 +2417,7 @@ entries:
       c: 3b50c312
       rows:
         - 'w.yang-shangkun-riji II, 215: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:tong-xiaopeng, name:yang-shangkun]
   - id: cal.1962-10-10.vietnam-hanoi
     when: Oct. 10–18
     date: '1962-10-10'
@@ -2654,7 +2654,7 @@ entries:
       c: ebccad4a
       rows:
         - 'w.yang-shangkun-riji II, 216: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:jia-bubin, name:yang-shangkun]
     time_range:
       - 1962-10-10T22:00Z
       - 1962-10-11T04:00Z
@@ -2670,7 +2670,7 @@ entries:
       c: 7096bff4
       rows:
         - 'w.yang-shangkun-riji II, 216: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
     time_range:
       - 1962-10-11T04:00Z
       - 1962-10-11T10:00Z
@@ -2686,7 +2686,7 @@ entries:
       c: 26e826e9
       rows:
         - 'w.yang-shangkun-riji II, 216: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:zou-dapeng]
     time_range:
       - 1962-10-11T11:00Z
       - 1962-10-11T14:00Z
@@ -2702,7 +2702,7 @@ entries:
     also: [vietnam]
     c: The first arms ship by sea for the South, the wooden *Phương Đông 1*, thirty tons, under Lê Văn Một and Bông Văn Dĩa, leaves Đồ Sơn, Hải Phòng, Oct. 11; it lands at Vàm Lũng, Cà Mau, Oct. 16.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 204–05. Made public: 2013. Names: Lê Văn Một, Bông Văn Dĩa.'
-    tags: [polity:drv, vis:only:drv]
+    tags: [polity:drv, vis:only:drv, name:bong-van-dia, name:le-van-mot]
   - id: cal.1962-10-11.china-leadership-6
     when: Oct. 11
     date: '1962-10-11'
@@ -2802,8 +2802,8 @@ entries:
     place: moscow
     thread: soviet-union-leadership
     c: 'The Presidium in session, Protocol 58, continued from Oct. 11, Khrushchev presiding. Present: Brezhnev, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Shvernik, Grishin, Mazurov, Mzhavanadze, Rashidov, Shcherbitsky; the secretaries Ilyichev, Shelepin.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 596–616 (Protocol 58, continued, Malin''s notes, 596–97; the uncorrected stenogram of items I, III and IV, 597–616); I, 1107 n.6 (those present); III, 318–35 (P 58/I, III and IV); III, 1006–07 (those present). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Shvernik, Mazurov, Shelepin.'
-    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:mazurov-kirill-t, name:shelepin-aleksandr-n]
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 596–616 (Protocol 58, continued, Malin''s notes, 596–97; the uncorrected stenogram of items I, III and IV, 597–616); I, 1107 n.6 (those present); III, 318–35 (P 58/I, III and IV); III, 1006–07 (those present). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Shvernik, Mazurov, Shelepin, Grishin, Mzhavanadze, Rashidov, Ilyichev.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:mazurov-kirill-t, name:shelepin-aleksandr-n, name:grishin, name:ilyichev, name:mzhavanadze, name:rashidov]
     time_range:
       - 1962-10-12T06:00Z
       - 1962-10-12T14:00Z
@@ -2835,12 +2835,12 @@ entries:
     thread: china
     also: [laos]
     c: China's first ambassador to Laos, Liu Chun, presents his credentials to King Savang Vatthana. He reached Vientiane on Sept. 22.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 247 (Oct. 12, 1962). Names: Savang Vatthana. Check: the ambassador is 刘春 in the book; the book gives no place for the ceremony.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 247 (Oct. 12, 1962). Names: Savang Vatthana, Liu Chun. Check: the ambassador is 刘春 in the book; the book gives no place for the ceremony.'
     src:
       c: c41d4d0c
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 247: all'
-    tags: [polity:prc, polity:laos, name:savang-vatthana]
+    tags: [polity:prc, polity:laos, name:savang-vatthana, name:liu-chun]
   - id: cal.1962-10-12.south-asia-2
     when: Oct. 12
     date: '1962-10-12'
@@ -2868,7 +2868,7 @@ entries:
       c: 634d0917
       rows:
         - 'w.yang-shangkun-riji II, 216: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-10-12.china-leadership-3
     when: Oct. 12
@@ -2942,7 +2942,7 @@ entries:
     thread: soviet-union
     also: [china, south-asia]
     c: 'Khrushchev to Liu Xiao, the Chinese Ambassador: Moscow stands with Peking in the border dispute with India, the Presidium''s unanimous choice after Zhou Enlai''s talk with Chervonenko; "We will take due diplomatic action."'
-    n: '[[w.jian-zhou-enlai]], 479–80 (it surprises Mao and Zhou); [[w.lengxi-shinian-lunzhan-1956-1966]], 497–498 (Wu: Oct. 13, Khrushchev himself calls in the Chinese ambassador, Liu Xiao, and says the USSR supports China''s stand for a peaceful settlement and would, in China''s place, protest as strongly to India; Wu ties it to the American–Soviet tension over Cuba, when Khrushchev needed China''s support); [[w.macfarquhar-origins-of-the-cultural]], III, 312–13 (in the week after the Oct. 8 conversation, Khrushchev gives Ambassador Liu Xiao, about to return home after eight years, a two-hour tour d''horizon at his parting call and on Oct. 14 summons the whole Presidium to a farewell dinner; the Soviet Union is on China''s side on the border, the Presidium''s unanimous position, and would proclaim it the next day if the Chinese wished; MiG-21 sales to India should be postponed until the dispute is settled; ''If the Soviet Union were placed in China''s position it would select the same measures''); [[w.friedman-shadow-cold-war]], 96 (Oct. 13, three days before Kennedy learns of the missiles, Khrushchev to the departing Liu Xiao: "open a new, blank page," as Radchenko quotes it). Made public: Check (1986 at the latest). Check: the book places Khrushchev''s dinner for Liu Xiao Oct. 14; this entry is dated Oct. 13. To check: Khrushchev''s conversation with Liu Xiao, Oct. 13, 1962, 109-03809-06, and his talk at the farewell banquet for Liu Xiao, Oct. 14, 1962, 109-03809-04, Chinese Foreign Ministry Archive; [[w.xiao-chushi-sulian-banian-ambassador]], 121 (cited by [[w.jian-zhou-enlai]], 480 n.74c); [[w.floyd-mao-against-khrushchev]], 158–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 313 n.93); [[w.gittings-survey-of-the-sino]], 178 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 313 n.94b); [[w.radchenko-two-suns-in-the]], 26 (cited by [[w.friedman-shadow-cold-war]], 96 n.173). See [[cal.1962-10-08.south-asia-3]]; [[cal.1962-10-11.south-asia]]. Names: Khrushchev, Zhou Enlai, Chervonenko. Check: the day and the setting: Chen''s text has only "a few days later" than Oct. 8; his n.74 (763) dates the conversation Oct. 13 and Khrushchev''s talk at the farewell banquet Oct. 14; his n.98 (764) puts the conversation at Liu''s farewell banquet, Oct. 13.'
+    n: '[[w.jian-zhou-enlai]], 479–80 (it surprises Mao and Zhou); [[w.lengxi-shinian-lunzhan-1956-1966]], 497–498 (Wu: Oct. 13, Khrushchev himself calls in the Chinese ambassador, Liu Xiao, and says the USSR supports China''s stand for a peaceful settlement and would, in China''s place, protest as strongly to India; Wu ties it to the American–Soviet tension over Cuba, when Khrushchev needed China''s support); [[w.macfarquhar-origins-of-the-cultural]], III, 312–13 (in the week after the Oct. 8 conversation, Khrushchev gives Ambassador Liu Xiao, about to return home after eight years, a two-hour tour d''horizon at his parting call and on Oct. 14 summons the whole Presidium to a farewell dinner; the Soviet Union is on China''s side on the border, the Presidium''s unanimous position, and would proclaim it the next day if the Chinese wished; MiG-21 sales to India should be postponed until the dispute is settled; ''If the Soviet Union were placed in China''s position it would select the same measures''); [[w.friedman-shadow-cold-war]], 96 (Oct. 13, three days before Kennedy learns of the missiles, Khrushchev to the departing Liu Xiao: "open a new, blank page," as Radchenko quotes it). Made public: Check (1986 at the latest). Check: the book places Khrushchev''s dinner for Liu Xiao Oct. 14; this entry is dated Oct. 13. To check: Khrushchev''s conversation with Liu Xiao, Oct. 13, 1962, 109-03809-06, and his talk at the farewell banquet for Liu Xiao, Oct. 14, 1962, 109-03809-04, Chinese Foreign Ministry Archive; [[w.xiao-chushi-sulian-banian-ambassador]], 121 (cited by [[w.jian-zhou-enlai]], 480 n.74c); [[w.floyd-mao-against-khrushchev]], 158–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 313 n.93); [[w.gittings-survey-of-the-sino]], 178 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 313 n.94b); [[w.radchenko-two-suns-in-the]], 26 (cited by [[w.friedman-shadow-cold-war]], 96 n.173). See [[cal.1962-10-08.south-asia-3]]; [[cal.1962-10-11.south-asia]]. Names: Khrushchev, Zhou Enlai, Chervonenko, Liu Xiao. Check: the day and the setting: Chen''s text has only "a few days later" than Oct. 8; his n.74 (763) dates the conversation Oct. 13 and Khrushchev''s talk at the farewell banquet Oct. 14; his n.98 (764) puts the conversation at Liu''s farewell banquet, Oct. 13.'
     src:
       c: 67655c54
       rows:
@@ -2954,7 +2954,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 313 n.94a: A, B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 313 n.94b: A, B'
         - 'w.friedman-shadow-cold-war 96: ?'
-    tags: [name:khrushchev-nikita-s, name:zhou-enlai, name:chervonenko-stepan-v, polity:ussr, polity:prc, polity:india]
+    tags: [name:khrushchev-nikita-s, name:zhou-enlai, name:chervonenko-stepan-v, polity:ussr, polity:prc, polity:india, name:liu-xiao]
   - id: cal.1962-10-13.china
     when: Oct. 13
     date: '1962-10-13'
@@ -2990,7 +2990,7 @@ entries:
       c: 3786dfc2
       rows:
         - 'w.yang-shangkun-riji II, 216: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-diantao, name:yang-shangkun]
     time_range:
       - 1962-10-12T22:00Z
       - 1962-10-13T04:00Z
@@ -3006,7 +3006,7 @@ entries:
       c: 2689da62
       rows:
         - 'w.yang-shangkun-riji II, 216: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:feng-xuan, name:luo-qingchang, name:yang-shangkun]
     time_range:
       - 1962-10-13T11:00Z
       - 1962-10-13T14:00Z
@@ -3018,12 +3018,12 @@ entries:
     thread: china-leadership
     also: [south-asia, soviet-union]
     c: 'Deng Xiaoping 邓小平, on Wu Lengxi''s 吴冷西 asking whether Xinhua 新华社 may report the Indian press''s account of India''s buying MiG-21 fighters from the Soviet Union: "To publish the Soviet aircraft for India alone does not seem good. Premier and Chen Yi 陈毅 to consider. (Better as background news together with American, British and others'' aid to India.)"'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1729 (Oct. 13, 1962). III, 1729 n.1: 陈总, Chen Yi. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Zhou Enlai, Chen Yi.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1729 (Oct. 13, 1962). III, 1729 n.1: 陈总, Chen Yi. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Zhou Enlai, Chen Yi, Wu Lengxi.'
     src:
       c: 6aba6dfb
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1729: all'
-    tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:chen-yi, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:chen-yi, vis:only:prc, name:wu-lengxi]
   - id: cal.1962-10-13.china-leadership-5
     when: Oct. 13
     date: '1962-10-13'
@@ -3047,12 +3047,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Peng Zhen 彭真 brings the NPC delegation from Kunming 昆明 back to Peking 北京; Zhu De 朱德, Deng Xiaoping 邓小平, Guo Moruo 郭沫若 and others meet it at the airport.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 220. The words: 上午 (IV, 220). See [[cal.1962-09-29.china-leadership-10]]. Names: Peng Zhen, Zhu De, Deng Xiaoping.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 220. The words: 上午 (IV, 220). See [[cal.1962-09-29.china-leadership-10]]. Names: Peng Zhen, Zhu De, Deng Xiaoping, Guo Moruo.'
     src:
       c: f0a98464
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 220: all'
-    tags: [polity:prc, name:peng-zhen, name:zhu-de, name:deng-xiaoping]
+    tags: [polity:prc, name:peng-zhen, name:zhu-de, name:deng-xiaoping, name:guo-moruo]
     time_range:
       - 1962-10-12T22:00Z
       - 1962-10-13T04:00Z
@@ -3164,8 +3164,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi recommends two articles to his children Maomao (Liu Yunruo) and Taotao (Liu Tao), "On the principle of proletarian morality and utilitarianism" (*Guangming ribao*, Oct. 5, 1962) and "The sources and the course of development of Greek ethical thought" (*Wenhui bao*, Sept. 9, 1962), and writes to them: ethics or moral science is a social science, treating the different standards of morality of the several classes of society, a tool of class struggle, its basic object good and evil (loyal and traitor, good and bad); if you find people judge good and evil of a social phenomenon differently, you will find their class stands differ; for all social and political phenomena class analysis is a basic method, Marxism''s way to know them correctly.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 561–562 (Oct. 14, 1962). Made public: 1996. To check: "On the principle of proletarian morality and utilitarianism," *Guangming ribao*, Oct. 5, 1962; "The sources and the course of development of Greek ethical thought," *Wenhui bao*, Sept. 9, 1962 (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 561). Names: Liu Shaoqi.'
-    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 561–562 (Oct. 14, 1962). Made public: 1996. To check: "On the principle of proletarian morality and utilitarianism," *Guangming ribao*, Oct. 5, 1962; "The sources and the course of development of Greek ethical thought," *Wenhui bao*, Sept. 9, 1962 (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 561). Names: Liu Shaoqi, Liu Yunruo, Liu Tao.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc, name:liu-tao, name:liu-yunruo]
   - id: cal.1962-10-14.china-2
     when: Oct. 14
     date: '1962-10-14'
@@ -3189,7 +3189,7 @@ entries:
       c: 7096bff4
       rows:
         - 'w.yang-shangkun-riji II, 216: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
   - id: cal.1962-10-14.china-leadership-4
     when: Oct. 14
     date: '1962-10-14'
@@ -3327,12 +3327,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Deng Xiaoping 邓小平 sends Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and Peng Zhen 彭真 the International Liaison Department''s 中联部 request on the congresses of the four East European parties (Bulgarian, Hungarian, Czechoslovak, the SED), with his proposals: delegations of Central Committee rank to all four; to Sofia Wu Xiuquan 伍修权, Kang Yonghe 康永和 and Xiong Fu 熊复, the Ambassador at Sofia not to join; if the CCP, Korean or Albanian parties are attacked openly, or the Yugoslavs invited, the delegates to leave after their speech, and the speech to answer; the Hungarian and Czechoslovak congresses after the Bulgarian.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1729 (Oct. 15, 1962). III, 1729 n.2 (the four parties), n.3 (Kang Yonghe, a secretary of the All-China Federation of Trade Unions; Xiong Fu, deputy editor of *Hongqi*). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong, Liu Shaoqi, Zhou Enlai, Peng Zhen.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1729 (Oct. 15, 1962). III, 1729 n.2 (the four parties), n.3 (Kang Yonghe, a secretary of the All-China Federation of Trade Unions; Xiong Fu, deputy editor of *Hongqi*). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Mao Zedong, Liu Shaoqi, Zhou Enlai, Peng Zhen, Kang Yonghe.'
     src:
       c: a5ea91c1
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1729: all'
-    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:peng-zhen, vis:only:prc, name:kang-yonghe]
   - id: cal.1962-10-16.missile-crisis
     when: Oct. 16
     date: '1962-10-16'
@@ -3416,7 +3416,7 @@ entries:
     thread: soviet-union
     also: [missile-crisis]
     c: 'The Presidium on the KGB''s plan of Oct. 10 for propaganda to meet the missiles'' unveiling, Ehrenburg and Shostakovich among its voices: five of its six points refused, for the elections; only private approaches to West Europeans against the embargo, a week''s boycott of American goods. Gromyko''s visit to the President on the 18th.'
-    n: '[[w.fursenko-one-hell-of-a]], 228–29. To check: Semichastny to the Central Committee, Oct. 10, 1962, APRF; protocol of the Presidium, Oct. 16, distributed Oct. 18, APRF (cited by [[w.fursenko-one-hell-of-a]], 229 n.27, n.28). See [[cal.1962-10-18.missile-crisis]]. Names: Gromyko.'
+    n: '[[w.fursenko-one-hell-of-a]], 228–29. To check: Semichastny to the Central Committee, Oct. 10, 1962, APRF; protocol of the Presidium, Oct. 16, distributed Oct. 18, APRF (cited by [[w.fursenko-one-hell-of-a]], 229 n.27, n.28). See [[cal.1962-10-18.missile-crisis]]. Names: Gromyko, Ehrenburg.'
     src:
       c: 66a2c722
       rows:
@@ -3424,7 +3424,7 @@ entries:
         - 'via w.fursenko-one-hell-of-a 229 n.27: A'
         - 'via w.fursenko-one-hell-of-a 229 n.28a: A-B'
         - 'via w.fursenko-one-hell-of-a 229 n.28b: A-B'
-    tags: [name:gromyko-andrei]
+    tags: [name:gromyko-andrei, name:ehrenburg]
     time_range:
       - 1962-10-16T06:00Z
       - 1962-10-16T14:00Z
@@ -3597,7 +3597,7 @@ entries:
       c: ece11729
       rows:
         - 'w.yang-shangkun-riji II, 217: all'
-    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc, name:liu-xiao, name:yang-shangkun]
     time_range:
       - 1962-10-15T22:00Z
       - 1962-10-16T04:00Z
@@ -3810,7 +3810,7 @@ entries:
       c: c22b6c44
       rows:
         - 'w.yang-shangkun-riji II, 217: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-dongxing, name:yang-shangkun]
     time_range:
       - 1962-10-17T14:00Z
       - 1962-10-17T16:00Z
@@ -4407,7 +4407,7 @@ entries:
       c: 38a0d831
       rows:
         - 'w.yang-shangkun-riji II, 218: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:qian-ying, name:wang-congwu, name:yang-shangkun]
     time_range:
       - 1962-10-18T22:00Z
       - 1962-10-19T04:00Z
@@ -4790,7 +4790,7 @@ entries:
     also: [press-and-broadcasting]
     c: '10:08 p.m. Folliard of the *Washington Post* tells Salinger that Lippmann has told Friendly, the *Post*''s editor, at a party that we are on the brink of war. Salinger calls Kennedy back. Kennedy: "This town is a sieve." How long can it hold? Salinger: through tonight and maybe tomorrow. Bundy will fill Salinger in in the morning. By Salinger''s account, from his date book.'
     n: '[[w.salinger-with-kennedy]], 253. Names: Folliard, Lippmann, Friendly, Salinger, Kennedy, Bundy.'
-    tags: [name:lippmann-walter, name:salinger-pierre, name:kennedy-john-f, name:bundy-mcgeorge]
+    tags: [name:lippmann-walter, name:salinger-pierre, name:kennedy-john-f, name:bundy-mcgeorge, name:folliard]
   - id: cal.1962-10-20.china-leadership
     when: Oct. 20, 22
     date: '1962-10-20'
@@ -4810,14 +4810,14 @@ entries:
     thread: china
     also: [soviet-union]
     c: Zhang Hanfu, Vice-Minister of Foreign Affairs, hands the Soviet ambassador, Chervonenko, China's reply to the Soviet aide-memoire of Sept. 26 on the nonproliferation of nuclear weapons. While the U.S. nuclear threat hangs over the Chinese people and the world's peoples, China will never accept an international obligation not to make nuclear weapons. If the Soviet Union takes on in China's place the obligation not to make them, China reserves the right to make a corresponding statement.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 247 (Oct. 20, 1962); [[w.westad-sino-soviet-alliance-and]], 180 (Oct. 20, the Chinese note: the socialist world must seek nuclear superiority, not disarmament; "The Soviet comrades have lost their class position"; by refusing China nuclear weapons Moscow betrayed proletarian internationalism). Made public: 1998 ([[w.westad-sino-soviet-alliance-and]], 180). To check: Chinese government note to the Soviet government, Oct. 20, 1962, AVPRF, f. 0100, op. 55, pa. 480, d. 2, pp. 90–102 (cited by [[w.westad-sino-soviet-alliance-and]], 180 n.42). Names: Chervonenko. Check: the Soviet aide-memoire of Sept. 26 is not in the calendar. See [[cal.1962-09-03.china]].'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 247 (Oct. 20, 1962); [[w.westad-sino-soviet-alliance-and]], 180 (Oct. 20, the Chinese note: the socialist world must seek nuclear superiority, not disarmament; "The Soviet comrades have lost their class position"; by refusing China nuclear weapons Moscow betrayed proletarian internationalism). Made public: 1998 ([[w.westad-sino-soviet-alliance-and]], 180). To check: Chinese government note to the Soviet government, Oct. 20, 1962, AVPRF, f. 0100, op. 55, pa. 480, d. 2, pp. 90–102 (cited by [[w.westad-sino-soviet-alliance-and]], 180 n.42). Names: Chervonenko, Zhang Hanfu. Check: the Soviet aide-memoire of Sept. 26 is not in the calendar. See [[cal.1962-09-03.china]].'
     src:
       c: d19ba0f4
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 247: all'
         - 'w.westad-sino-soviet-alliance-and 180: ?'
         - 'via x.1962-10-20.chinese-government-note-to-soviet-government-avprf: ?'
-    tags: [polity:prc, polity:ussr, polity:us, vis:only:prc+ussr, name:chervonenko-stepan-v]
+    tags: [polity:prc, polity:ussr, polity:us, vis:only:prc+ussr, name:chervonenko-stepan-v, name:zhang-hanfu]
   - id: cal.1962-10-20.china-4
     when: Oct. 20
     date: '1962-10-20'
@@ -6038,15 +6038,15 @@ entries:
     follows:
       - cal.1962-10-22.intelligence-2
     c: 'The Presidium in session, Protocol 60, Khrushchev presiding, past midnight into Oct. 23. Present: Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 617–19 (Protocol 60, Malin''s notes and his list of those present; Kennedy''s letter received, 619); III, 339–51 (P 60/I and IV, dated Oct. 23); III, 1008–10 nn.1, 8, 14 (Khrushchev presiding; Kennedy''s letter handed over at 1 a.m. Moscow time, Oct. 23; item IV taken at "the session of Oct. 23"). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Demichev, Ponomarev, Shelepin.'
-    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n]
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 617–19 (Protocol 60, Malin''s notes and his list of those present; Kennedy''s letter received, 619); III, 339–51 (P 60/I and IV, dated Oct. 23); III, 1008–10 nn.1, 8, 14 (Khrushchev presiding; Kennedy''s letter handed over at 1 a.m. Moscow time, Oct. 23; item IV taken at "the session of Oct. 23"). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Demichev, Ponomarev, Shelepin, Grishin, Ilyichev.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:grishin, name:ilyichev]
   - id: cal.1962-10-22.china-leadership
     when: Oct. 22
     date: '1962-10-22'
     thread: china-leadership
     c: Zhou Enlai with Li Xiannian, Yao Yilin and Ye Jizhuang on foreign trade.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 504 (Oct. 22, 1962). Made public: 1997. Names: Zhou Enlai, Li Xiannian, Yao Yilin, Ye Jizhuang.'
-    tags: [polity:prc, name:zhou-enlai, name:li-xiannian, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:li-xiannian, vis:only:prc, name:yao-yilin, name:ye-jizhuang]
   - id: cal.1962-10-22.china-leadership-3
     when: Oct. 22
     date: '1962-10-22'
@@ -6374,12 +6374,12 @@ entries:
     date: '1962-10-23'
     thread: missile-crisis-diplomacy
     c: 'Bertrand Russell wires Kennedy: "Your action desperate ... no conceivable justification"; and Khrushchev: "Your continued forbearance is our great hope." Khrushchev answers him.'
-    n: '[[w.sorensen-kennedy]], 706, 709. Check: the day of the telegrams and of Khrushchev''s answer. See [[cal.1962-10-22.missile-crisis]]. Names: Kennedy, Khrushchev.'
+    n: '[[w.sorensen-kennedy]], 706, 709. Check: the day of the telegrams and of Khrushchev''s answer. See [[cal.1962-10-22.missile-crisis]]. Names: Kennedy, Khrushchev, Bertrand Russell.'
     src:
       c: 7fdc82ba
       rows:
         - 'w.sorensen-kennedy 706, 709: all'
-    tags: [name:kennedy-john-f, name:khrushchev-nikita-s]
+    tags: [name:kennedy-john-f, name:khrushchev-nikita-s, name:bertrand-russell]
     time_range:
       - 1962-10-23T08:00Z
       - 1962-10-23T16:00Z
@@ -6654,7 +6654,7 @@ entries:
       c: e8d56028
       rows:
         - 'w.yang-shangkun-riji II, 219: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:chen-bingchen, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1962-10-22T22:00Z
       - 1962-10-23T04:00Z
@@ -7023,8 +7023,8 @@ entries:
       - nyc
     thread: missile-crisis-diplomacy
     c: 'Harriman, by telephone from Washington on Wednesday night, to Schlesinger in New York: Khrushchev wants help off the hook, and is sending signals, the letter to Bertrand Russell, the orders to Soviet ships to avoid confrontation, the evening with Jerome Hines; Eisenhower ignored such signals after the U-2. "If we do nothing but get tougher and tougher, we will force him into counter measures.... We must give him an out." He has not talked to Rusk, who never asks his advice outside the Far East. Schlesinger sends the President a memorandum that night. By Schlesinger''s journal.'
-    n: '[[w.schlesinger-journals]], 175–76. Made public: [[w.schlesinger-journals]] (2007). Names: Harriman, Schlesinger, Khrushchev, Rusk, Eisenhower.'
-    tags: [name:harriman-w-averell, name:schlesinger-arthur-m-jr, name:khrushchev-nikita-s, name:rusk-dean, name:eisenhower-dwight-d, city:nyc]
+    n: '[[w.schlesinger-journals]], 175–76. Made public: [[w.schlesinger-journals]] (2007). Names: Harriman, Schlesinger, Khrushchev, Rusk, Eisenhower, Bertrand Russell.'
+    tags: [name:harriman-w-averell, name:schlesinger-arthur-m-jr, name:khrushchev-nikita-s, name:rusk-dean, name:eisenhower-dwight-d, city:nyc, name:bertrand-russell]
   - id: cal.1962-10-24.missile-crisis-9
     when: Oct. 24
     date: '1962-10-24'
@@ -7075,7 +7075,7 @@ entries:
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 505: ?'
         - 'w.zhou-enlai-waijiao-huodong 338: A'
-    tags: [polity:prc, polity:uar, polity:india, name:zhou-enlai, name:nasser-gamal-abdel, vis:only:prc+uar]
+    tags: [polity:prc, polity:uar, polity:india, name:zhou-enlai, name:nasser-gamal-abdel, vis:only:prc+uar, name:zakaria-adli-imam]
     time_zone: Asia/Shanghai
   - id: cal.1962-10-24.china-leadership-2
     when: Oct. 24
@@ -7087,7 +7087,7 @@ entries:
       c: 28d512ea
       rows:
         - 'w.yang-shangkun-riji II, 219: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:cui-yitian, name:huang-shuze, name:yang-shangkun]
     time_range:
       - 1962-10-24T04:00Z
       - 1962-10-24T10:00Z
@@ -7103,7 +7103,7 @@ entries:
       c: e7bd086a
       rows:
         - 'w.yang-shangkun-riji II, 219: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hu-yaobang, name:yang-shangkun]
     time_range:
       - 1962-10-24T04:00Z
       - 1962-10-24T10:00Z
@@ -7119,7 +7119,7 @@ entries:
       c: 7096bff4
       rows:
         - 'w.yang-shangkun-riji II, 219: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
     time_range:
       - 1962-10-24T11:00Z
       - 1962-10-24T14:00Z
@@ -7500,8 +7500,8 @@ entries:
     follows:
       - cal.1962-10-25.missile-crisis-2
     c: 'The Presidium in session, Protocol 61, Khrushchev presiding. Present: Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin, Gromyko, Kuznetsov.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 620–22 (Protocol 61, Malin''s notes and his list of those present, 620–21; Serov''s record of item I, with its list, 621–22); III, 355–67 (P 61/I–IV and VI; P 61/IV by poll); III, 1010 n.1 (those present). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Demichev, Ponomarev, Shelepin, Gromyko, Kuznetsov.'
-    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:gromyko-andrei, name:kuznetsov-vasily-v]
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 620–22 (Protocol 61, Malin''s notes and his list of those present, 620–21; Serov''s record of item I, with its list, 621–22); III, 355–67 (P 61/I–IV and VI; P 61/IV by poll); III, 1010 n.1 (those present). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Shvernik, Demichev, Ponomarev, Shelepin, Gromyko, Kuznetsov, Grishin, Ilyichev.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:gromyko-andrei, name:kuznetsov-vasily-v, name:grishin, name:ilyichev]
     time_range:
       - 1962-10-25T06:00Z
       - 1962-10-25T14:00Z
@@ -7551,7 +7551,7 @@ entries:
       c: a63ec314
       rows:
         - 'w.yang-shangkun-riji II, 219: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-10-25T11:00Z
       - 1962-10-25T14:00Z
@@ -7567,7 +7567,7 @@ entries:
       c: '59355767'
       rows:
         - 'w.yang-shangkun-riji II, 219: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:yang-shangkun]
     time_range:
       - 1962-10-24T22:00Z
       - 1962-10-25T04:00Z
@@ -7591,19 +7591,19 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking 北京. Peng Zhen 彭真, after the group leaders'' reports, to the Peking committee''s enlarged meeting: the three red banners'' work clearer in five years; any view may be spoken at Party meetings, errors corrected, a view kept but the decision carried out, as the rules allow; differences on the banners not a contradiction with the enemy, nor Deng Zihui''s 邓子恢 household contracting; eight or nine tenths right is good, none wrong is metaphysics; no one is a sage; the "three don''ts" for all; ideologues to keep to the facts, no "hydrogen balloons"; discussion apart from action; at Party meetings even the Center''s and the Chairman''s views may be discussed, but no secret cliques.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 221–222. The page''s note on Deng Zihui''s statement of Aug. 11, 1962 to the core group, Mao''s reply, and his rehabilitation of Mar. 9, 1981 (IV, 222). Made public: 2012. See [[cal.1962-10-08.china-leadership-8]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 221–222. The page''s note on Deng Zihui''s statement of Aug. 11, 1962 to the core group, Mao''s reply, and his rehabilitation of Mar. 9, 1981 (IV, 222). Made public: 2012. See [[cal.1962-10-08.china-leadership-8]]. Names: Peng Zhen, Deng Zihui.'
     src:
       c: 32a53699
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 221–222: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:deng-zihui]
   - id: cal.1962-10-25.china-leadership-7
     when: Oct. 25
     date: '1962-10-25'
     thread: china-leadership
     c: 'Zhu De 朱德 hears Wang Zhen 王震 on the state farms 农垦, and says: Yunnan 云南 has good conditions, subtropical cash crops promising, to be developed, the land round the basins 坝子 extended, some dry basins opened; the Northeast 东北 cannot live without sidelines, which must grow; logging to think first of getting the timber out, not only of profit, for if it cannot be got out there is no profit at all; sericulture to be done as a household sideline, the people roused to plant mulberry, for only so will it grow.'
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1853. Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, ok:fields-place, name:zhu-de, vis:only:prc]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1853. Made public: 2016. Names: Zhu De, Wang Zhen.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, vis:only:prc, name:wang-zhen]
   - id: cal.1962-10-26.missile-crisis
     when: Oct. 26
     date: '1962-10-26'
@@ -7985,8 +7985,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi presides at the Politburo briefing and hears Zhang Jichun, director of the State Council''s Office of Culture and Education, on the 1962 adjustment and execution in culture and education and the 1963 arrangements. The song-and-dance troupes are to be cut greatly, and are cut too little; they are not good to run, and what is to become of the children dancing and singing half-trained? For dancing there are dancing schools, for singing music schools; the troupes are to be cut. Village health: the rural health work needs a presentable hospital in each county, the hard cases to be treated there, and a part of the funds for village relief may go to medical care.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564 (Oct. 26, 1962); [[w.yang-shangkun-riji]], II, 219 (Oct. 26, 1962; 3:30 to 6 p.m., the "culture and education sector" 文教口; Liu Shaoqi and Zhang Jichun not named); [[w.peng-zhen-nianpu-1902]], IV, 223 (Oct. 26, 1962, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, hearing Zhang Jichun (the page''s note: director of the State Council''s Office of Culture and Education) on culture and education in 1962 and the plans and targets of 1963); [[w.zhu-de-nianpu-xinbian]], III, 1853 (Oct. 26, 1962; Zhu De 朱德 at the Politburo''s briefing, which hears Zhang Jichun 张际春, director of the State Council''s Office of Culture and Education 国务院文教办公室, on the sector''s readjustment in 1962 and its plans and targets for 1963). Made public: 1996. Names: Liu Shaoqi.'
-    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564 (Oct. 26, 1962); [[w.yang-shangkun-riji]], II, 219 (Oct. 26, 1962; 3:30 to 6 p.m., the "culture and education sector" 文教口; Liu Shaoqi and Zhang Jichun not named); [[w.peng-zhen-nianpu-1902]], IV, 223 (Oct. 26, 1962, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, hearing Zhang Jichun (the page''s note: director of the State Council''s Office of Culture and Education) on culture and education in 1962 and the plans and targets of 1963); [[w.zhu-de-nianpu-xinbian]], III, 1853 (Oct. 26, 1962; Zhu De 朱德 at the Politburo''s briefing, which hears Zhang Jichun 张际春, director of the State Council''s Office of Culture and Education 国务院文教办公室, on the sector''s readjustment in 1962 and its plans and targets for 1963). Made public: 1996. Names: Liu Shaoqi, Zhang Jichun.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc, name:zhang-jichun]
     time_range:
       - 1962-10-26T04:00Z
       - 1962-10-26T10:00Z
@@ -8012,7 +8012,7 @@ entries:
     also: [vietnam-operations, vietnam]
     c: Saigon. The Saigon government holds an exhibition of the armed forces' "achievements" before the City Hall, with modern arms, for the national day. Commandos of Team 155 throw grenades at the helicopter on show and kill Maj. Phan Bội Ngọc, who was giving the commentary; the exhibition is closed that day.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 185. Names: Phan Bội Ngọc. Check: Phan Bội Ngọc''s death, against Saigon''s and the American record.'
-    tags: [polity:drv]
+    tags: [polity:drv, name:phan-boi-ngoc]
   - id: cal.1962-10-26.china-leadership-2
     when: Oct. 26
     date: '1962-10-26'
@@ -8509,7 +8509,7 @@ entries:
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 506: ?'
         - 'w.zhou-enlai-waijiao-huodong 338: A'
-    tags: [polity:prc, polity:uar, polity:india, polity:burma, name:zhou-enlai, name:nasser-gamal-abdel, name:ne-win, vis:only:prc+uar]
+    tags: [polity:prc, polity:uar, polity:india, polity:burma, name:zhou-enlai, name:nasser-gamal-abdel, name:ne-win, vis:only:prc+uar, name:zakaria-adli-imam]
     time_zone: Asia/Shanghai
   - id: cal.1962-10-27.china-leadership-3
     when: Oct. 27
@@ -8517,8 +8517,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi presides at the Politburo briefing and hears Han Guang, deputy director of the State Science Commission, on science and its tasks. Science must be grasped: without modernizing the research departments first the whole country cannot be modernized. On farm science: our population is three times the Soviet Union''s and four times America''s but our cultivated land is only 1.6 billion mu, fewer than theirs; Americans eat less grain and more meat than we do, ours is enough; so mountains and forests and wild plants are to be developed greatly, livestock raising too. On certificates and prizes for invention: a little bonus is also needed; besides politics, some material stimulus.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564 (Oct. 27, 1962); [[w.yang-shangkun-riji]], II, 220 (Oct. 27, 1962; 3:30 to 5 p.m., the Science Commission; Liu Shaoqi and Han Guang not named); [[w.peng-zhen-nianpu-1902]], IV, 223 (Oct. 27, 1962, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, hearing Han Guang (the page''s note: executive deputy director of the State Science and Technology Commission) on science and its tasks); [[w.zhu-de-nianpu-xinbian]], III, 1853 (Oct. 27, 1962; Zhu De 朱德 at the Politburo''s briefing, which hears Han Guang 韩光, executive deputy director of the State Science Commission 国家科委, on science and its tasks). Made public: 1996. Names: Liu Shaoqi.'
-    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564 (Oct. 27, 1962); [[w.yang-shangkun-riji]], II, 220 (Oct. 27, 1962; 3:30 to 5 p.m., the Science Commission; Liu Shaoqi and Han Guang not named); [[w.peng-zhen-nianpu-1902]], IV, 223 (Oct. 27, 1962, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, hearing Han Guang (the page''s note: executive deputy director of the State Science and Technology Commission) on science and its tasks); [[w.zhu-de-nianpu-xinbian]], III, 1853 (Oct. 27, 1962; Zhu De 朱德 at the Politburo''s briefing, which hears Han Guang 韩光, executive deputy director of the State Science Commission 国家科委, on science and its tasks). Made public: 1996. Names: Liu Shaoqi, Han Guang.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc, name:han-guang]
     time_range:
       - 1962-10-27T04:00Z
       - 1962-10-27T10:00Z
@@ -8940,8 +8940,8 @@ entries:
     date: '1962-10-28'
     thread: soviet-union-leadership
     c: 'The Presidium in session, Protocol 63, in two sittings, Khrushchev presiding. Present at the first: Brezhnev, Kozlov, Kosygin, Mikoyan, Suslov, Kuusinen, Shvernik, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin, Gromyko, Malinovsky, Zakharov, S. Ivanov, Malin. At the second: Kozlov, Kosygin, Mikoyan, Polyansky, Suslov, Brezhnev, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 624–25 (Protocol 63, Malin''s notes and his two lists of those present); III, 374–92 (P 63/I–VII and IX); III, 1013–14 nn.1, 17 (Khrushchev presiding; P 63/III, IV, VI and VII taken with item III, at the second sitting). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Mikoyan, Suslov, Kuusinen, Shvernik, Demichev, Ponomarev, Shelepin, Gromyko, Malinovsky, Zakharov, Polyansky.'
-    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:suslov-mikhail-a, name:kuusinen-otto-v, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:gromyko-andrei, name:malinovsky-rodion-y, name:zakharov-matvei-vasileevich, name:polyansky-dmitri-s]
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 624–25 (Protocol 63, Malin''s notes and his two lists of those present); III, 374–92 (P 63/I–VII and IX); III, 1013–14 nn.1, 17 (Khrushchev presiding; P 63/III, IV, VI and VII taken with item III, at the second sitting). Names: Khrushchev, Brezhnev, Kozlov, Kosygin, Mikoyan, Suslov, Kuusinen, Shvernik, Demichev, Ponomarev, Shelepin, Gromyko, Malinovsky, Zakharov, Polyansky, Grishin, Ilyichev.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:suslov-mikhail-a, name:kuusinen-otto-v, name:shvernik-nikolai-m, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:gromyko-andrei, name:malinovsky-rodion-y, name:zakharov-matvei-vasileevich, name:polyansky-dmitri-s, name:grishin, name:ilyichev]
     time_range:
       - 1962-10-28T06:00Z
       - 1962-10-28T14:00Z
@@ -8973,12 +8973,12 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Peking. Zhou Enlai meets Hoàng Văn Hoan, member of the Politburo of the Lao Động Party's Central Committee.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 28, 1962; 下午). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 339 (Oct. 28, 1962; 下午). Made public: 1993. Names: Zhou Enlai, Hoàng Văn Hoan.'
     src:
       c: 1c8deb27
       rows:
         - 'w.zhou-enlai-waijiao-huodong 339: all'
-    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv]
+    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv, name:hoang-van-hoan]
     time_range:
       - 1962-10-28T04:00Z
       - 1962-10-28T10:00Z
@@ -8996,15 +8996,15 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 220: all'
         - 'via w.yang-shangkun-riji II, 220 n.2: all'
-    tags: [polity:prc, name:nehru-jawaharlal, vis:only:prc]
+    tags: [polity:prc, name:nehru-jawaharlal, vis:only:prc, name:yang-shangkun]
   - id: cal.1962-10-28.china-leadership-4
     when: Oct. 28
     date: '1962-10-28'
     thread: china-leadership
     also: [japan]
     c: Liao Chengzhi 廖承志, for Zhou Enlai 周恩来 and Chen Yi 陈毅, welcomes at the airport Takasaki Tatsunosuke 高碕达之助, former Minister of International Trade and Industry and Liberal Democratic member of the Diet, and his party.
-    n: '[[w.chen-yi-nianpu]], 939. The words: 下午 (939). Names: Zhou Enlai, Chen Yi, Takasaki.'
-    tags: [polity:prc, polity:japan, name:chen-yi, name:zhou-enlai, name:takasaki-tatsunosuke, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 939. The words: 下午 (939). Names: Zhou Enlai, Chen Yi, Takasaki, Liao Chengzhi.'
+    tags: [polity:prc, polity:japan, name:chen-yi, name:zhou-enlai, name:takasaki-tatsunosuke, ok:fields-place, name:liao-chengzhi]
     time_range:
       - 1962-10-28T04:00Z
       - 1962-10-28T10:00Z
@@ -9250,13 +9250,13 @@ entries:
     thread: china
     also: [africa-algeria-morocco]
     c: General Xu Guangda, Vice-Minister of National Defense, begins a visit to Algeria at the head of a Chinese government delegation, at its invitation, for the celebration of the first anniversary of the Algerian Democratic People's Republic (to Nov. 5).
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 251 (Oct. 29–Nov. 5, 1962); [[w.friedman-shadow-cold-war]], 136 (a delegation of the Chinese Ministry of Defense arrives in October 1962 with a $1.8 million grant to balance the budget). Check: Xu Guangda is 许光达 in the book; no name entry. The book calls the state 阿尔及利亚民主人民共和国 and the occasion its national day anniversary, Nov. 1. To check: [[w.ogunsanwo-chinas-policy-in-africa]], 154 (cited by [[w.friedman-shadow-cold-war]], 136 n.164).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 251 (Oct. 29–Nov. 5, 1962); [[w.friedman-shadow-cold-war]], 136 (a delegation of the Chinese Ministry of Defense arrives in October 1962 with a $1.8 million grant to balance the budget). Check: Xu Guangda is 许光达 in the book; no name entry. The book calls the state 阿尔及利亚民主人民共和国 and the occasion its national day anniversary, Nov. 1. To check: [[w.ogunsanwo-chinas-policy-in-africa]], 154 (cited by [[w.friedman-shadow-cold-war]], 136 n.164). Names: Xu Guangda.'
     src:
       c: fa1f0218
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 251: all'
         - 'w.friedman-shadow-cold-war 136: ?'
-    tags: [polity:prc, polity:algeria]
+    tags: [polity:prc, polity:algeria, name:xu-guangda]
   - id: cal.1962-10-29.china-leadership-2
     when: Oct. 29
     date: '1962-10-29'
@@ -9267,7 +9267,7 @@ entries:
       c: 40eb3b3a
       rows:
         - 'w.yang-shangkun-riji II, 220: all'
-    tags: [polity:prc, name:tan-zhenlin, vis:only:prc]
+    tags: [polity:prc, name:tan-zhenlin, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-10-28T22:00Z
       - 1962-10-29T04:00Z
@@ -9303,7 +9303,7 @@ entries:
       c: a771344d
       rows:
         - 'w.yang-shangkun-riji II, 220: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-10-29T04:00Z
       - 1962-10-29T10:00Z
@@ -9762,7 +9762,7 @@ entries:
       c: 2687d04d
       rows:
         - 'w.yang-shangkun-riji II, 220: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:he-jun, name:mei-xing, name:yang-shangkun]
     time_range:
       - 1962-10-30T04:00Z
       - 1962-10-30T10:00Z
@@ -10274,15 +10274,15 @@ entries:
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 508: ?'
         - 'w.zhou-enlai-waijiao-huodong 340: A'
-    tags: [polity:prc, polity:ceylon, polity:india, name:zhou-enlai, name:bandaranaike-srimavo, vis:only:prc+ceylon]
+    tags: [polity:prc, polity:ceylon, polity:india, name:zhou-enlai, name:bandaranaike-srimavo, vis:only:prc+ceylon, name:a-b-perera]
   - id: cal.1962-10-31.china-leadership-2
     when: Oct. 31, Nov. 1
     date: '1962-10-31'
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi presides at the Politburo briefings and hears Li Fuchun, vice-premier, on the 1963 national economic plan, and Gu Zhuoxin, deputy director of the State Planning Commission, on capital construction. The economy has begun to turn, but work must still be kept tight.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564 (Oct. 31, Nov. 1, 1962); [[w.yang-shangkun-riji]], II, 221 (Oct. 31, 1962; 3:30 to 6 p.m., Li Fuchun on the 1963 plan, Oct. 31; Nov. 1, 3:30 to 6, the Planning Commission on capital construction; Liu Shaoqi not named); [[w.peng-zhen-nianpu-1902]], IV, 223 (Oct. 31, 1962, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, hearing Li Fuchun on the 1963 plan; Nov. 1, again, Gu Zhuoxin (the page''s note: deputy director of the State Planning Commission) on the construction plan); [[w.zhu-de-nianpu-xinbian]], III, 1853 (Oct. 31–Nov. 1, 1962; Zhu De 朱德 at the Politburo''s briefings, which hear Li Fuchun 李富春, Vice-Premier, on the 1963 plan and Gu Zhuoxin 顾卓新, deputy director of the State Planning Commission 国家计委, on capital construction). Made public: 1996. Names: Liu Shaoqi, Li Fuchun.'
-    tags: [polity:prc, name:liu-shaoqi, name:li-fuchun, vis:only:prc]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 564 (Oct. 31, Nov. 1, 1962); [[w.yang-shangkun-riji]], II, 221 (Oct. 31, 1962; 3:30 to 6 p.m., Li Fuchun on the 1963 plan, Oct. 31; Nov. 1, 3:30 to 6, the Planning Commission on capital construction; Liu Shaoqi not named); [[w.peng-zhen-nianpu-1902]], IV, 223 (Oct. 31, 1962, afternoon; Peng Zhen at the Politburo, Liu Shaoqi presiding, hearing Li Fuchun on the 1963 plan; Nov. 1, again, Gu Zhuoxin (the page''s note: deputy director of the State Planning Commission) on the construction plan); [[w.zhu-de-nianpu-xinbian]], III, 1853 (Oct. 31–Nov. 1, 1962; Zhu De 朱德 at the Politburo''s briefings, which hear Li Fuchun 李富春, Vice-Premier, on the 1963 plan and Gu Zhuoxin 顾卓新, deputy director of the State Planning Commission 国家计委, on capital construction). Made public: 1996. Names: Liu Shaoqi, Li Fuchun, Gu Zhuoxin.'
+    tags: [polity:prc, name:liu-shaoqi, name:li-fuchun, vis:only:prc, name:gu-zhuoxin]
     time_range:
       - 1962-10-31T04:00Z
       - 1962-10-31T10:00Z
@@ -10358,13 +10358,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Liu Xiao, back in Peking, reports in minute detail to the centre on the Khrushchev dinner. Mao and Zhou, who trust Khrushchev no more than before, decide that the Soviet leader's expressions of support do not warrant a response.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 314. Made public: 1986. To check: [[w.xiao-chushi-sulian-banian-ambassador]], 122 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 314 n.97). Names: Mao Zedong, Zhou Enlai, Khrushchev. Check: the day.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 314. Made public: 1986. To check: [[w.xiao-chushi-sulian-banian-ambassador]], 122 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 314 n.97). Names: Mao Zedong, Zhou Enlai, Khrushchev, Liu Xiao. Check: the day.'
     src:
       c: 250f5f79
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 314: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 314 n.97: all'
-    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:zhou-enlai, name:khrushchev-nikita-s]
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:zhou-enlai, name:khrushchev-nikita-s, name:liu-xiao]
   - id: cal.1962-10.south-asia-4
     when: Oct.
     date: 1962-10
@@ -10406,7 +10406,7 @@ entries:
       c: 00df8871
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 426–427: all'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ben-bella-ahmed, name:abbas-ferhat, polity:algeria]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ben-bella-ahmed, name:abbas-ferhat, polity:algeria, name:khider]
   - id: cal.1962-10-31.china-leadership-4
     when: Oct. 31
     date: '1962-10-31'
@@ -10418,7 +10418,7 @@ entries:
       c: 0bca3d57
       rows:
         - 'w.yang-shangkun-riji II, 221: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-10-30T22:00Z
       - 1962-10-31T04:00Z
@@ -10434,7 +10434,7 @@ entries:
       c: 956374f6
       rows:
         - 'w.yang-shangkun-riji II, 221: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-zhen, name:yang-shangkun]
     time_range:
       - 1962-10-31T11:00Z
       - 1962-10-31T14:00Z
@@ -10525,11 +10525,11 @@ entries:
     date: 1962-10
     thread: china-leadership
     c: Deng Tuo 邓拓, in "To the readers" 〈奉告读者〉, written for the fifth collection of *Yanshan yehua* 燕山夜话, names the *Yunnan ribao*'s 云南日报 column *Dianyun mantan* 滇云漫谭 among the papers' columns he wishes long life.
-    n: '[[w.pu-weihua-zalan-jiu-shijie]], 139.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 139. Names: Deng Tuo.'
     src:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 139: all'
-    tags: [polity:prc, ok:fields-place]
+    tags: [polity:prc, ok:fields-place, name:deng-tuo]
   - id: cal.1962-10.china-leadership-8
     when: Oct., at Suzhou, after the 10th
     date: 1962-10

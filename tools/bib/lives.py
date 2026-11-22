@@ -98,7 +98,13 @@ def fmt(d):
 
 
 def key_of(name):
-    """'Byrd, Harry F., Jr.' -> 'byrd-harry-f-jr': the anchor, and the key of the person's FRUS and APP lists."""
+    """'Byrd, Harry F., Jr.' -> 'byrd-harry-f-jr': the anchor, and the key of the person's FRUS and APP lists. A
+    register row's own key where it is not the name's (a second man of one name: 'Feng Xuan 冯弦', feng-xuan-2)."""
+    own = (_REG.get("keys") if "keys" in _REG else _register_keys()).get(name)
+    return own or _plain_key(name)
+
+
+def _plain_key(name):
     return re.sub(r"[^a-z]+", "-", fold(re.sub(r"\s*\([^)]*\)", "", name)).lower()).strip("-")
 
 
@@ -106,6 +112,129 @@ def split_name(name):
     bare = re.sub(r"\s*\([^)]*\)", "", name)
     p = [x.strip() for x in bare.split(",")]
     return p[0], (p[1] if len(p) > 1 else "")
+
+
+# ---------------------------------------------------------------- the register (sources/people.yaml)
+# The fourth source of name entries (the owner, Nov. 22, 2026: "Can't we just give the name register and start
+# going?"): a person the calendar's 'Names:' lines name whom Part III, the Executive roster and the Congress rosters
+# do not hold. A key a person; `name` as the calendar writes it, in its own order; `chars`, his characters where the
+# entries give them; `polity` (sources/polities.yaml) where the threads make it plain; `apart`, the keys of persons
+# of the series whose form the name shares and who are other men (the characters differ). Nothing else.
+_REG = {}
+REG_KEY = re.compile(r"^[a-z]+(?:-[a-z]+)*(?:-[2-9])?$")
+
+
+def register_path():
+    return os.path.join(store.ROOT, "sources", "people.yaml")
+
+
+def register():
+    """{key: {name, chars?, polity?, apart?}}, read again when the file changes."""
+    p = register_path()
+    st = os.stat(p).st_mtime_ns if os.path.exists(p) else None
+    if _REG.get("st") != (p, st):
+        rows = (store.load_yaml(p) or {}) if st is not None else {}
+        _REG.clear()
+        _REG.update(st=(p, st), rows=rows if isinstance(rows, dict) else {})
+    return _REG["rows"]
+
+
+def register_name(row):
+    """The name a register person's entry is filed under: his name, his characters after it ('Huang Hua 黄华', as Part
+    III writes them), so that two men of one name are two names."""
+    return f"{row['name']} {row['chars']}" if row.get("chars") else str(row.get("name") or "")
+
+
+def _register_keys():
+    """{name filed under: key} for the rows whose key is not their name's own."""
+    rows = register()
+    _REG["keys"] = {register_name(r): k for k, r in rows.items()
+                    if isinstance(r, dict) and r.get("name") and _plain_key(register_name(r)) != k}
+    return _REG["keys"]
+
+
+def register_problems(series):
+    """check: each row a key of the key form (the name's own, or it and -2 ... for a second man), a name in its own
+    order, its characters alone in `chars`, a polity sources/polities.yaml holds, each key once; and the name (or a
+    form sources/name-forms.yaml gives it) no form of a person another source holds, unless the rules of `people`
+    join them (one man) or `apart` names him (another man, the characters differ)."""
+    where = "sources/people.yaml"
+    p = register_path()
+    if not os.path.exists(p):
+        return
+    seen = defaultdict(int)
+    for line in open(p, encoding="utf-8"):
+        m = re.match(r"^([^\s#][^:]*):", line)
+        if m:
+            seen[m.group(1).strip().strip("'\"")] += 1
+    for k, n in seen.items():
+        if n > 1:
+            yield where, f"{k}: the key {n} times"
+    rows = register()
+    from . import cjk
+    pf = os.path.join(store.ROOT, "sources", "polities.yaml")
+    pols = ((store.load_yaml(pf) or {}).get("polities") or {}) if os.path.exists(pf) else {}
+    shown = {}
+    for k, r in rows.items():
+        if not isinstance(r, dict) or not isinstance(r.get("name"), str) or not r["name"].strip():
+            yield where, f"{k}: no name"
+            continue
+        if set(r) - {"name", "chars", "polity", "apart"}:
+            yield where, f"{k}: only name, chars, polity, apart ({', '.join(sorted(set(r) - {'name', 'chars', 'polity', 'apart'}))})"
+        own = _plain_key(r["name"])
+        if not REG_KEY.match(str(k)) or not (k == own or re.fullmatch(re.escape(own) + r"-[2-9]", str(k))):
+            yield where, f"{k}: the key is the name's own ({own}), or it and -2 for a second man of the name"
+        if "," in r["name"] or cjk.HAS.search(r["name"]):
+            yield where, f"{k}: the name as the calendar writes it, in its own order, its characters in chars"
+        if r.get("chars") and (not isinstance(r["chars"], str) or re.search(r"[A-Za-z\s]", r["chars"])
+                               or not cjk.HAS.search(r["chars"])):
+            yield where, f"{k}: chars: his characters alone"
+        if r.get("polity") is not None and r["polity"] not in pols:
+            yield where, f"{k}: polity {r['polity']!r} is not in sources/polities.yaml"
+        if register_name(r) in shown:
+            yield where, f"{k}: the same man as {shown[register_name(r)]} (one name, the same characters or none)"
+        shown.setdefault(register_name(r), k)
+    # the collisions: a form of a person another source holds
+    from .build import Linker
+    ev = everyone(series)
+    mine = {p_["name"]: p_ for p_ in ev if p_.get("reg")}       # the register's alone, by the name filed under
+    held = {key_of(p_["name"]) for p_ in ev if not p_.get("reg")}
+    others = defaultdict(list)                       # a folded word -> (form, key) of a person another source holds
+    for p_ in ev:
+        if p_.get("reg") and not any(r_ != 4 for _, r_ in p_["ranks"]):
+            continue
+        fs = set(p_["names"]) | {p_["name"]}
+        if natural(p_["name"]):
+            fs |= set(name_forms(p_["name"]))
+        for f in fs:
+            for w in set(fold(f).split()):
+                others[w].append((f, key_of(p_["name"])))
+    pp = os.path.join(store.ROOT, "sources", "frus-names", "persons.json")
+    listed = set(json.load(open(pp, encoding="utf-8"))) if os.path.exists(pp) else set()
+    alias = _CACHE.get("frus-alias", {})
+    allkeys = {key_of(x["name"]) for x in ev} | set(alias)
+    for k, r in rows.items():
+        if not isinstance(r, dict) or not isinstance(r.get("name"), str):
+            continue
+        p_ = mine.get(register_name(r))
+        if p_ is None:
+            continue                                 # joined by the rules of people: one man
+        if k in listed or k in held:
+            yield where, f"{k}: the key of another person (his would be lost): a key of its own, -2"
+        apart = set(store.as_list(r.get("apart")))
+        hits = set()
+        for form in [r["name"]] + [f for f in name_forms(r["name"])[1:] if "," not in f]:
+            ft = fold(form)
+            for w in set(ft.split()):
+                for f, ok in others.get(w, []):
+                    run = f if "," not in f else f"{f.split(',', 1)[1].strip()} {f.split(',', 1)[0].strip()}"
+                    own = f if "," not in f else f"{f.split(',', 1)[0].strip()} {f.split(',', 1)[1].strip()}"
+                    if alias.get(ok) != k and (Linker._token_fits(form, f) or ft in (fold(run), fold(own))):
+                        hits.add(ok)
+        for ok in sorted(hits - apart):
+            yield where, f"{k}: {r['name']!r} is a form of {ok}, whom another source holds (one man: leave the row out; another: apart)"
+        for ok in sorted(apart - allkeys):
+            yield where, f"{k}: apart: {ok} names no person"
 
 
 def everyone(series):
@@ -1257,7 +1386,8 @@ def congress_of(day):
 
 def problems(series):
     """sources/race-matches.yaml: each person a name the series holds; each race a key the returns hold, with a
-    candidate of his surname; none both refused and confirmed."""
+    candidate of his surname; none both refused and confirmed. The register too (register_problems)."""
+    yield from register_problems(series)
     from .elections import load
     where = "sources/race-matches.yaml"
     names = {n for p in cached("people", lambda: people(series)) for n in p["names"]}
@@ -1804,21 +1934,33 @@ def series_lines(subs, cal):
     return out
 
 
-def calendar_sentences(ptrs, cal):
-    from . import loose, permalink
+def calendar_sentences(ptrs, cal, key=""):
+    """Each calendar entry of the person a paragraph: its date, its line as the calendar shows it, with its footnotes as
+    the calendar sets them (footnotes.apply: the marks after each run of claims, the footnotes under the line, the
+    note's other sentences after them; one footnote or none, the note one block), its unread records behind "To
+    check:" (footnotes.with_unread), the □ mark, and its pointer. key: the person's, so that an entry two persons
+    of one page give has its footnotes' anchors twice, each its own."""
+    from . import cjk, footnotes, loose, permalink
     out = []
     for e in cal:
         if True:
-            from . import cjk               # the line as the calendar shows it, its characters out (cjk.py, STYLE 2)
-            c = series_html(ptrs, cjk.drop(str(store.as_list(e.get("c"))[0])) if e.get("c") else "", "cal", e)
-            n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", e.get("n") or "").strip(), "cal", e) if e.get("n") else ""
+            raw = cjk.drop(str(store.as_list(e.get("c"))[0])) if e.get("c") else ""   # (cjk.py, STYLE 2)
+            c = series_html(ptrs, raw, "cal", e)
+            fns = None
+            if isinstance(e.get("c"), str) and raw:        # its footnotes, as the calendar's (footnotes.py, STYLE 1-8)
+                c, fns = footnotes.apply(ptrs.series, e, raw, c, lambda u: series_html(ptrs, cjk.drop(u), "cal", e),
+                                         f"{key}~{e['id']}" if key else None)
+            note = fns[2] if fns else footnotes.with_unread(ptrs.series, e, e.get("n") or "")
+            n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", note or "").strip(), "cal", e) if note else ""
+            fn_html = footnotes.notes_html(fns[1], f"{key}~{e['id']}" if key else e["id"],
+                                           lambda t: series_html(ptrs, t, "cal", e)) if fns else ""
             # each calendar entry a paragraph of its own, its sources and pointer after it
             wy = esc(e["when"]) if str(e["when"]).startswith(e["date"][:4]) else f"{esc(e['when'])}, {e['date'][:4]}"
             # keyed by the day it is shown at (loose.place_day), so the life keeps the calendar's order (chron.py)
             day = loose.place_day(e)
             # its permalink mark, as on the calendar (tools/bib/permalink.py, STYLE 2): after the line, or the corner
             line = permalink.in_text(c, e["id"], SITE)
-            line += permalink.in_box(e["id"], line != c, SITE)
+            line += permalink.in_box(e["id"], line != c, SITE) + fn_html
             out.append(sent(day.isoformat() if day else e["date"], f"{wy}: {line}", [n] if n else [],
                             [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {wy}")], para=True,
                             kind="cal"))
@@ -2054,7 +2196,8 @@ def life_html(sents):
         cur.append(s["text"])
         block = key
     close()
-    return "".join(f'<p class="lvl">{p}</p>' for p in paras)
+    # a paragraph holding a calendar entry's footnotes (a list) is a div, its style the paragraph's
+    return "".join(f'<div class="lvl">{p}</div>' if '<ol class="fn"' in p else f'<p class="lvl">{p}</p>' for p in paras)
 
 
 # ---------------------------------------------------------------- the lists
@@ -2571,6 +2714,8 @@ def person_races(series, p):
 
 
 def _person_races(series, p):
+    if p.get("reg"):                     # the register's: no roster, races or Directory (people.yaml)
+        return [], None, []
     name, names = p["name"], p["names"]
     sur, given = split_name(name)
     sfx, strict = person_suffix(series, p)
@@ -2698,13 +2843,13 @@ def entry(series, linker, ptrs, p):
         return es == sfx if es not in ("", "Sr") else not strict
     subs = subjects(ptrs, name, ok)
     cal = calendar_of(ptrs, [x for x in subs if (x[1].code or "").startswith("III")], key_of(name), series)
-    if p.get("frus"):                    # a person FRUS's lists alone give: no roster, races or Directory
+    if p.get("frus") or p.get("reg"):    # a person FRUS's lists, or the register, alone give: no roster, races or Directory
         rp, e, races = [], None, []
-        structured = calendar_sentences(ptrs, cal)
+        structured = calendar_sentences(ptrs, cal, key_of(name))
     else:
         rp, e, races = person_races(series, p)
         structured = (office_sentences(sur, given, names) + vote_sentences(p["names"]) + races
-                      + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)) + tv_sentences(series, name))
+                      + calendar_sentences(ptrs, cal, key_of(name)) + pocom_sentences(p, bool(e)) + tv_sentences(series, name))
     record = [s_["row"] for s_ in structured if s_.get("row")]
     structured = [s_ for s_ in structured if s_["kind"] != "election"]
     life = merge(structured, bd_sentences(e) if e else [], [])
@@ -2807,7 +2952,7 @@ p.az{display:flex;flex-wrap:wrap;gap:0 .36em;margin:0;font-family:var(--sans);fo
 p.az a{color:var(--muted);text-decoration:none}
 p.az a:hover{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px}
 p.az span{color:var(--ink)}
-p.lvl{margin:.5rem 0;line-height:1.55}
+.lvl{margin:.5rem 0;line-height:1.55}
 ul.lvx{list-style:none;margin:.3rem 0 1rem;padding:0;columns:2;column-gap:1.5rem;font-size:.92rem;line-height:1.5}
 ul.lvx li{break-inside:avoid;padding-left:1em;text-indent:-1em}
 ul.lvx a{color:var(--ink);text-decoration:none}
@@ -2921,7 +3066,9 @@ def page(series, linker, template, names):
 def wrap(template, title, main):
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", title).replace("{{main}}", "\n".join(main))
-    from . import permalink              # the permalink mark's style, where the page has marks (permalink.py)
+    from . import footnotes, permalink   # the permalink mark's style, where the page has marks (permalink.py); the
+    if 'class="fm"' in pg:               # footnotes', where it has footnotes (footnotes.py)
+        pg = pg.replace("</head>", footnotes.STYLE + "\n</head>", 1)
     return permalink.inject(pg.replace("</body>", CSS + "\n</body>", 1))
 
 
@@ -3243,8 +3390,8 @@ CONG = re.compile(r"\b(Senators?|Senate|Representatives?|House|Congress|Speaker|
 
 
 def people(series):
-    """Everyone with an entry: the persons of Part III, the Executive roster's holders, and the members of Congress at
-    each opening, one a person. Two names are one person where the surnames agree and the given names are
+    """Everyone with an entry: the persons of Part III, the Executive roster's holders, the members of Congress at
+    each opening, and the register's (sources/people.yaml: rank 4, joined to no one else), one a person. Two names are one person where the surnames agree and the given names are
     compatible ('Hubert H.' and 'Hubert H., Jr.'; not 'Hubert' and 'Harold'). The name shown: Part III's form, else
     the roster's, else the Congress roster's."""
     from . import executive as X
@@ -3278,6 +3425,11 @@ def people(series):
                     cands.append((r["name"], 2))
                     if r.get("given"):
                         full.setdefault(r["name"], r["given"])
+    reg = {}                             # the register (sources/people.yaml): its name filed under -> its row
+    for k, r in register().items():
+        if isinstance(r, dict) and isinstance(r.get("name"), str) and r["name"].strip():
+            reg[register_name(r)] = r
+            cands.append((register_name(r), 4))
     mp = os.path.join(store.ROOT, "sources", "app-matches.yaml")
     strict_sons = {n for n, v in ((store.load_yaml(mp) or {}) if os.path.exists(mp) else {}).items()
                    if isinstance(v, dict) and v.get("strict")}
@@ -3293,6 +3445,8 @@ def people(series):
         (sources/people-apart.yaml: Robert Moses the builder, Robert P. Moses of SNCC) never joins."""
         if a == b:
             return True
+        if 4 in (ra, rb):                # the register's: one man only by the name as written
+            return False
         if frozenset((a, b)) in apart:
             return False
         # a member Part III names by the name he went by: 'Patman, Wright' is 'Patman, John W.' (John William
@@ -3367,7 +3521,7 @@ def people(series):
         exact.setdefault(name, set()).add(rank)
     for name, ranks in sorted(exact.items(), key=lambda x: (min(x[1]), suffix(x[0]) in ("", "Sr"), x[0])):
         sur, given = split_name(name)
-        if not given and not (natural(name) and 0 in ranks):
+        if not given and not (natural(name) and ranks & {0, 4}):
             continue
         mine = {(name, r) for r in ranks}
         group = by_sur.setdefault(fold(sur), [])
@@ -3379,4 +3533,15 @@ def people(series):
         p = {"name": name, "sur": sur, "given": given, "names": {name}, "ranks": mine}
         group.append(p)
         out.append(p)
+    count = defaultdict(int)
+    for r in reg.values():
+        count[r["name"]] += 1
+    for p in out:                        # the register's alone: no roster, races or Directory; its forms
+        if p["ranks"] == {(p["name"], 4)}:
+            r = reg[p["name"]]
+            p["reg"] = True
+            fs = set(name_forms(r["name"]))
+            if count[r["name"]] > 1:     # two men of one name: each by his characters alone (Feng Xuan 冯铉, 冯弦)
+                fs.discard(r["name"])
+            p["names"] |= fs
     return sorted(out, key=lambda p: (fold(p["sur"]), fold(p["given"])))

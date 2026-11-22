@@ -97,7 +97,7 @@ entries:
       c: e1c804e3
       rows:
         - 'w.yang-shangkun-riji II, 356: all'
-    tags: [polity:prc, name:zhou-enlai, name:huang-zhen, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:huang-zhen, vis:only:prc, name:kong-yuan, name:tong-xiaopeng, name:yang-shangkun]
     time_range:
       - 1964-02-29T22:00Z
       - 1964-03-01T04:00Z
@@ -114,7 +114,7 @@ entries:
       c: 03e90691
       rows:
         - 'w.yang-shangkun-riji II, 356: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:bai-bing, name:yang-shangkun]
     time_range:
       - 1964-03-01T04:00Z
       - 1964-03-01T10:00Z
@@ -131,7 +131,7 @@ entries:
       c: c51fc987
       rows:
         - 'w.yang-shangkun-riji II, 356: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-01T11:00Z
       - 1964-03-01T14:00Z
@@ -143,15 +143,15 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Leaving Ceylon, Soong Ching-ling 宋庆龄, Zhou Enlai 周恩来 and Chen Yi 陈毅 cable their thanks to the Governor-General, William Gopallawa, and the Prime Minister, Mrs. Bandaranaike.
-    n: '[[w.chen-yi-nianpu]], 1018. Names: Zhou Enlai, Chen Yi, Bandaranaike.'
-    tags: [polity:prc, polity:ceylon, name:chen-yi, name:zhou-enlai, name:bandaranaike-srimavo, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 1018. Names: Zhou Enlai, Chen Yi, Bandaranaike, Song Qingling.'
+    tags: [polity:prc, polity:ceylon, name:chen-yi, name:zhou-enlai, name:bandaranaike-srimavo, ok:fields-place, name:song-qingling]
   - id: cal.1964-03-01.china-leadership-9
     when: Mar. 1
     date: '1964-03-01'
     thread: china-leadership
     c: Over Burma on the flight home, Soong Ching-ling 宋庆龄, Zhou Enlai 周恩来 and Chen Yi 陈毅 cable their good wishes to General Ne Win.
-    n: '[[w.chen-yi-nianpu]], 1018. Names: Zhou Enlai, Chen Yi, Ne Win.'
-    tags: [polity:prc, polity:burma, name:chen-yi, name:zhou-enlai, name:ne-win, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 1018. Names: Zhou Enlai, Chen Yi, Ne Win, Song Qingling.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:zhou-enlai, name:ne-win, ok:fields-place, name:song-qingling]
   - id: cal.1964-03-01.china-leadership-10
     when: Mar. 1
     date: '1964-03-01'
@@ -389,7 +389,7 @@ entries:
         - 'w.yang-shangkun-riji II, 357: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1802: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 322: ?'
-    tags: [name:mao-zedong, name:maurer-ion-gheorghe, name:ceausescu-nicolae, name:gheorghiu-dej-gheorghe, name:bodnaras-emil, polity:prc, polity:romania, vis:only:prc+romania]
+    tags: [name:mao-zedong, name:maurer-ion-gheorghe, name:ceausescu-nicolae, name:gheorghiu-dej-gheorghe, name:bodnaras-emil, polity:prc, polity:romania, vis:only:prc+romania, name:stoica]
     time_range:
       - 1964-03-02T04:00Z
       - 1964-03-02T10:00Z
@@ -419,7 +419,7 @@ entries:
       c: 93ff772e
       rows:
         - 'w.yang-shangkun-riji II, 356: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:yang-shangkun]
     time_range:
       - 1964-03-01T22:00Z
       - 1964-03-02T04:00Z
@@ -438,7 +438,7 @@ entries:
       c: 7d1025fa
       rows:
         - 'w.yang-shangkun-riji II, 357: all'
-    tags: [polity:prc, vis:only:prc+romania]
+    tags: [polity:prc, vis:only:prc+romania, name:stoica, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-02.china-leadership-5
     when: Mar. 2
@@ -452,7 +452,7 @@ entries:
       c: 2e009dab
       rows:
         - 'w.yang-shangkun-riji II, 357: all'
-    tags: [polity:prc, name:peng-zhen, name:kang-sheng, vis:only:prc+romania]
+    tags: [polity:prc, name:peng-zhen, name:kang-sheng, vis:only:prc+romania, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-02.china-leadership-6
     when: Mar. 2
@@ -465,7 +465,7 @@ entries:
       c: 2611a04f
       rows:
         - 'w.yang-shangkun-riji II, 357: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
   - id: cal.1964-03-02.china-leadership-7
     when: Mar. 2
     date: '1964-03-02'
@@ -665,7 +665,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking, the Fujian Hall of the Great Hall of the People, morning: the talks with the Romanian delegation open, the first of six sessions, to Mar. 10, Liu Shaoqi heading the Chinese side (Deng Xiaoping, Peng Zhen, Kang Sheng, Wu Xiuquan, Wu Lengxi). Maurer: Romania opposes making Comecon a supranational body and the Warsaw Pact''s political committee fixing the allies'' foreign policy; the Soviet Union has interfered often, and put missiles into Cuba without consulting Romania. Romania fears a split between China and the USSR and asks both to stop the open polemic; Khrushchev at Moscow seemed willing, not firmly; China should take the first step. He approves the Chinese letter of Feb. 29, shown to the delegation at Peking. Bodnăraș: China should understand Romania''s geography and position; Romania is not wholly on the Soviet side and welcomes the four proposals. The talk adjourns.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 2 and 3, 1964 (the talks open Mar. 3, Liu Shaoqi heading the Chinese side). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 589 (Mar. 3–10, 1964; Liu holds talks with the Romanian Workers'' Party Central Committee delegation under Ion Gheorghe Maurer, Politburo member); [[w.peng-zhen-nianpu-1902]], IV, 322 (Mar. 3–10, 1964; Peng Zhen in the Chinese delegation, Liu Shaoqi its head, Deng Xiaoping, Kang Sheng and others its members, in the talks with the Romanian delegation, which hopes to mediate in the fast worsening Sino-Soviet relations). [[w.lengxi-shinian-lunzhan-1956-1966]], 688–690 (Mar. 3 morning, the Fujian Hall; six sessions, Mar. 3, 4, 5, 6, 7 and 10; Maurer''s three points (the quarrels with the CPSU; the fear of a split; the bilateral relation); Bodnăraș). Made public: 1996. See [[cal.1964-03-02.china-leadership]]. Names: Liu Shaoqi, Deng Xiaoping, Peng Zhen, Kang Sheng, Maurer, Bodnăraș.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 2 and 3, 1964 (the talks open Mar. 3, Liu Shaoqi heading the Chinese side). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 589 (Mar. 3–10, 1964; Liu holds talks with the Romanian Workers'' Party Central Committee delegation under Ion Gheorghe Maurer, Politburo member); [[w.peng-zhen-nianpu-1902]], IV, 322 (Mar. 3–10, 1964; Peng Zhen in the Chinese delegation, Liu Shaoqi its head, Deng Xiaoping, Kang Sheng and others its members, in the talks with the Romanian delegation, which hopes to mediate in the fast worsening Sino-Soviet relations). [[w.lengxi-shinian-lunzhan-1956-1966]], 688–690 (Mar. 3 morning, the Fujian Hall; six sessions, Mar. 3, 4, 5, 6, 7 and 10; Maurer''s three points (the quarrels with the CPSU; the fear of a split; the bilateral relation); Bodnăraș). Made public: 1996. See [[cal.1964-03-02.china-leadership]]. Names: Liu Shaoqi, Deng Xiaoping, Peng Zhen, Kang Sheng, Maurer, Bodnăraș, Wu Xiuquan, Wu Lengxi.'
     src:
       c: 4191ee03
       rows:
@@ -673,7 +673,7 @@ entries:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 589: A'
         - 'w.lengxi-shinian-lunzhan-1956-1966 688–690: all'
         - 'w.peng-zhen-nianpu-1902 IV, 322: ?'
-    tags: [polity:prc, polity:romania, vis:only:prc+romania, name:liu-shaoqi, name:maurer-ion-gheorghe, name:bodnaras-emil, name:deng-xiaoping, name:peng-zhen, name:kang-sheng]
+    tags: [polity:prc, polity:romania, vis:only:prc+romania, name:liu-shaoqi, name:maurer-ion-gheorghe, name:bodnaras-emil, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, name:wu-lengxi, name:wu-xiuquan]
     time_range:
       - 1964-03-02T22:00Z
       - 1964-03-03T04:00Z
@@ -691,7 +691,7 @@ entries:
       c: b89b5f95
       rows:
         - 'w.yang-shangkun-riji II, 357: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-03.china-leadership-4
     when: Mar. 3
@@ -705,7 +705,7 @@ entries:
       c: 28fa9427
       rows:
         - 'w.yang-shangkun-riji II, 357: all'
-    tags: [polity:prc, vis:only:prc+romania]
+    tags: [polity:prc, vis:only:prc+romania, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-03.china-leadership-5
     when: Mar. 3
@@ -720,7 +720,7 @@ entries:
       c: 9180821c
       rows:
         - 'w.yang-shangkun-riji II, 357: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wu-lengxi, name:yang-shangkun]
   - id: cal.1964-03-03.china-leadership-6
     when: Mar. 3
     date: '1964-03-03'
@@ -733,7 +733,7 @@ entries:
       c: d6f76c9e
       rows:
         - 'w.yang-shangkun-riji II, 357: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-03.china-leadership-7
     when: Mar. 3
@@ -741,8 +741,8 @@ entries:
     place: canton
     thread: china-leadership
     c: 'Canton 广州. Zhu De 朱德 hears Lin Liming 林李明, a secretary of the Guangdong committee''s Secretariat 中共广东省委书记处, and says: let the production teams plant trees, with licences, the trees theirs; develop green tea, tung oil, pig bristles and the like, make more for export and win back the Hong Kong 香港 market; the private plots unchanged for thirty years; communism is long in coming; investment to be reckoned closely; use the land rationally, grow what pays best; keep to thrift.'
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1901–1902. Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1901–1902. Made public: 2016. Names: Zhu De, Lin Liming.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc, name:lin-liming]
   - id: cal.1964-03-04.crime-and-hijacking
     when: Mar. 4
     date: '1964-03-04'
@@ -1048,7 +1048,7 @@ entries:
       c: 69c80f4a
       rows:
         - 'w.yang-shangkun-riji II, 357: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1964-03-04T04:00Z
       - 1964-03-04T10:00Z
@@ -1066,7 +1066,7 @@ entries:
       c: b7a6f86a
       rows:
         - 'w.yang-shangkun-riji II, 357: all'
-    tags: [polity:prc, name:liu-shaoqi, vis:only:prc+romania]
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc+romania, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-04.china-leadership-5
     when: Mar. 4
@@ -1081,7 +1081,7 @@ entries:
       c: 4da15a69
       rows:
         - 'w.yang-shangkun-riji II, 357: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wu-lengxi, name:yang-shangkun]
   - id: cal.1964-03-04.china-leadership-6
     when: Mar. 4
     date: '1964-03-04'
@@ -1095,7 +1095,7 @@ entries:
       c: c8a6e849
       rows:
         - 'w.yang-shangkun-riji II, 357: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
   - id: cal.1964-03-04.china-leadership-7
     when: Mar. 4
     date: '1964-03-04'
@@ -1351,7 +1351,7 @@ entries:
       c: 2a804cf7
       rows:
         - 'w.yang-shangkun-riji II, 357: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1964-03-04T22:00Z
       - 1964-03-05T04:00Z
@@ -1369,7 +1369,7 @@ entries:
       c: 86faa904
       rows:
         - 'w.yang-shangkun-riji II, 357: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-05.china-leadership-6
     when: Mar. 5
@@ -1382,7 +1382,7 @@ entries:
       c: 659c76cd
       rows:
         - 'w.yang-shangkun-riji II, 358: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:he-jun, name:mei-xing, name:yang-shangkun]
   - id: cal.1964-03-05.china-leadership-7
     when: Mar. 5
     date: '1964-03-05'
@@ -1398,7 +1398,7 @@ entries:
       c: a7b39d26
       rows:
         - 'w.yang-shangkun-riji II, 358: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
   - id: cal.1964-03-05.china-leadership-8
     when: Mar. 5
     date: '1964-03-05'
@@ -1748,7 +1748,7 @@ entries:
       c: 93ff772e
       rows:
         - 'w.yang-shangkun-riji II, 358: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:yang-shangkun]
     time_range:
       - 1964-03-05T22:00Z
       - 1964-03-06T04:00Z
@@ -1765,7 +1765,7 @@ entries:
       c: 5a332271
       rows:
         - 'w.yang-shangkun-riji II, 358: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-06T04:00Z
       - 1964-03-06T10:00Z
@@ -1782,7 +1782,7 @@ entries:
       c: 15125d80
       rows:
         - 'w.yang-shangkun-riji II, 358: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-bozhao, name:yang-shangkun]
     time_range:
       - 1964-03-06T11:00Z
       - 1964-03-06T14:00Z
@@ -1799,7 +1799,7 @@ entries:
       c: 18207ec1
       rows:
         - 'w.yang-shangkun-riji II, 358: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
   - id: cal.1964-03-06.china-leadership-8
     when: Mar. 6
     date: '1964-03-06'
@@ -1953,13 +1953,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking, afternoon. Fifth talk with the Romanians. Maurer: his Central Committee authorized only talk of stopping the polemic. Stoica: Comecon is run by one state; China should join. Liu Shaoqi: China''s letter asks that Comecon be reorganized; Deng Xiaoping: China has not applied. Liu gives the Chinese Central Committee''s formal answer: the CPSU is to publish its plenum resolution, give China its letter to the parties, and bring out its "decisive rebuff" and "collective measures", after which China will see whether it means to stop; China has answered only the CPSU so far, not the forty-odd parties. Peng Zhen: two "guns" are aimed at China; the Chinese have paused the articles for the Romanians'' stay, with no promise for after. Ceaușescu asks that the pause be extended; Peng Zhen refuses. The talk adjourns; Mar. 8 is a day of rest.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 699–704 (Mar. 7 afternoon; Liu''s "formal reply" in his words; Deng on the British party; Peng Zhen''s "two guns", pause "only for you"); [[w.deng-xiaoping-nianpu-1904]], III, 1802 (Mar. 7, 1964; afternoon, 下午; the fifth talk; Deng says the CPSU''s Twenty-second Congress first launched open polemic; if it is to be stopped, Khrushchev must first declare wrong the Congress''s attacks on the Albanian party and its unnamed attacks on the CCP; if he really admits the error the Chinese can stop open polemic). Made public: 1999. See [[cal.1964-03-06.china-leadership-3]]. Names: Maurer, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Ceaușescu.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 699–704 (Mar. 7 afternoon; Liu''s "formal reply" in his words; Deng on the British party; Peng Zhen''s "two guns", pause "only for you"); [[w.deng-xiaoping-nianpu-1904]], III, 1802 (Mar. 7, 1964; afternoon, 下午; the fifth talk; Deng says the CPSU''s Twenty-second Congress first launched open polemic; if it is to be stopped, Khrushchev must first declare wrong the Congress''s attacks on the Albanian party and its unnamed attacks on the CCP; if he really admits the error the Chinese can stop open polemic). Made public: 1999. See [[cal.1964-03-06.china-leadership-3]]. Names: Maurer, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Ceaușescu, Stoica.'
     src:
       c: 086972d5
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 699–704: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1802: B'
-    tags: [polity:prc, polity:romania, vis:only:prc+romania, name:maurer-ion-gheorghe, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:ceausescu-nicolae]
+    tags: [polity:prc, polity:romania, vis:only:prc+romania, name:maurer-ion-gheorghe, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:ceausescu-nicolae, name:stoica]
     time_range:
       - 1964-03-07T04:00Z
       - 1964-03-07T10:00Z
@@ -2010,7 +2010,7 @@ entries:
       c: 5b6bc607
       rows:
         - 'w.yang-shangkun-riji II, 358: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1964-03-06T22:00Z
       - 1964-03-07T04:00Z
@@ -2027,7 +2027,7 @@ entries:
       c: dec16e74
       rows:
         - 'w.yang-shangkun-riji II, 358: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-07T11:00Z
       - 1964-03-07T14:00Z
@@ -2200,7 +2200,7 @@ entries:
       c: b300a511
       rows:
         - 'w.yang-shangkun-riji II, 358: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:meray, name:yang-shangkun]
   - id: cal.1964-03-08.china-leadership-2
     when: Mar. 8
     date: '1964-03-08'
@@ -2212,7 +2212,7 @@ entries:
       c: a7fb2518
       rows:
         - 'w.yang-shangkun-riji II, 358: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-08T04:00Z
       - 1964-03-08T10:00Z
@@ -2230,7 +2230,7 @@ entries:
       c: 54f52550
       rows:
         - 'w.yang-shangkun-riji II, 358: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc+ussr]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc+ussr, name:yang-shangkun]
   - id: cal.1964-03-08.china-leadership-4
     when: Mar. 8
     date: '1964-03-08'
@@ -2245,7 +2245,7 @@ entries:
       c: ad474a2d
       rows:
         - 'w.yang-shangkun-riji II, 358: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-08T11:00Z
       - 1964-03-08T14:00Z
@@ -2365,7 +2365,7 @@ entries:
     place: washington
     thread: king
     c: 'After lunch Hoover and DeLoach in the White House pool with Johnson and Walter Jenkins: an evaluation of Janet Leigh for an ambassadorship; Corbin; Johnson asks Hoover to review the poverty task force''s plans. Hoover to DeLoach the same day, against giving Howard Smith the Bureau''s material: "I do not want anything on King given to Smith or anyone else at this time."'
-    n: '[[w.branch-pillar-of-fire]], 246–47; [[w.kotz-judgment-days]], 128–29 (a two-hour lunch upstairs; Corbin; the poverty program''s recommendations); [[w.kotz-judgment-days]], 103–04 (Hoover to DeLoach on Smith; no date given). Check: Kotz has the lunch in the second-floor living quarters (128). To check: PDD, March 9, 1964, LBJ (cited by [[w.branch-pillar-of-fire]], 246); Hoover file memo of 4:34 p.m., March 9, 1964, Section 92, FHOC (cited by [[w.branch-pillar-of-fire]], 247); Hoover''s handwritten note on DeLoach to Mohr, March 16, 1964, FK-320 (cited by [[w.branch-pillar-of-fire]], 247); DeLoach to Mohr, "Re: President Johnson''s ''Message on Poverty," March 10, 1964, Section 92, FHOC (cited by [[w.branch-pillar-of-fire]], 247). Made public: Check. Names: Hoover, DeLoach, Johnson, Jenkins, Howard Smith, Martin Luther King.'
+    n: '[[w.branch-pillar-of-fire]], 246–47; [[w.kotz-judgment-days]], 128–29 (a two-hour lunch upstairs; Corbin; the poverty program''s recommendations); [[w.kotz-judgment-days]], 103–04 (Hoover to DeLoach on Smith; no date given). Check: Kotz has the lunch in the second-floor living quarters (128). To check: PDD, March 9, 1964, LBJ (cited by [[w.branch-pillar-of-fire]], 246); Hoover file memo of 4:34 p.m., March 9, 1964, Section 92, FHOC (cited by [[w.branch-pillar-of-fire]], 247); Hoover''s handwritten note on DeLoach to Mohr, March 16, 1964, FK-320 (cited by [[w.branch-pillar-of-fire]], 247); DeLoach to Mohr, "Re: President Johnson''s ''Message on Poverty," March 10, 1964, Section 92, FHOC (cited by [[w.branch-pillar-of-fire]], 247). Made public: Check. Names: Hoover, DeLoach, Johnson, Jenkins, Howard Smith, Martin Luther King, Corbin.'
     src:
       c: 2d0c3521
       rows:
@@ -2377,7 +2377,7 @@ entries:
         - 'w.kotz-judgment-days 128–29: B-C'
         - 'via w.kotz-judgment-days 129 n.49: C'
         - 'w.kotz-judgment-days 103–04: D'
-    tags: [name:hoover-j-edgar, name:deloach-cartha, name:johnson-lyndon-b, name:jenkins-walter-w, name:smith-howard-w, name:king-martin-luther-jr]
+    tags: [name:hoover-j-edgar, name:deloach-cartha, name:johnson-lyndon-b, name:jenkins-walter-w, name:smith-howard-w, name:king-martin-luther-jr, name:corbin]
     time_range:
       - 1964-03-09T17:00Z
       - 1964-03-09T23:00Z
@@ -2502,14 +2502,14 @@ entries:
     thread: robert-kennedy
     also: [baker, press-and-broadcasting]
     c: 'Johnson to Weisl by telephone, 4:15 p.m.: "a friend," New Hampshire, "a whole lot worse than you could even believe"; the *Wall Street Journal* going through his Texas business and his station''s logs, the Baker affair started there; Corbin; the *Star*''s editorial on the Kennedy "magic." Vietnam: a choice when McNamara and Taylor return.'
-    n: '[Johnson and Edwin Weisl, 4:15 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-edwin-weisl-march-9-1964), Conversation WH6403-06-2417 (Miller Center). [[w.taking-charge]], 274–277. Names: Johnson, Robert Kennedy, Stanton, McNamara, Taylor.'
+    n: '[Johnson and Edwin Weisl, 4:15 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-edwin-weisl-march-9-1964), Conversation WH6403-06-2417 (Miller Center). [[w.taking-charge]], 274–277. Names: Johnson, Robert Kennedy, Stanton, McNamara, Taylor, Corbin.'
     src:
       c: '47273075'
       rows:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-edwin-weisl-march-9-1964: A'
         - 'w.taking-charge 274–277: all'
         - 'via x.1964-03-09.johnson-edwin-weisl-telephone-1615: all'
-    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, name:stanton-frank, name:mcnamara-robert-s, name:taylor-maxwell]
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, name:stanton-frank, name:mcnamara-robert-s, name:taylor-maxwell, name:corbin]
   - id: cal.1964-03-09.cyprus
     when: Mar. 9
     date: '1964-03-09'
@@ -2624,12 +2624,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Peking, Diaoyutai, morning. At Ceaușescu''s urgent request Peng Zhen, Wu Xiuquan and Wu Lengxi call on him. Tense and excited, he says that many parties want the polemic stopped; the delegation has telephoned Gheorghiu-Dej, and the Romanian Central Committee asks China to extend the pause and the delegations to meet once more; he has not consulted the CPSU, and will take it up at Moscow on the way home. Peng Zhen: the pause, eight days so far and ten by their leaving, is China''s courtesy to Romania and ends when they go; the CPSU''s letter received the day before still refuses the letter of Feb. 12; Khrushchev should be asked to give the letter of Feb. 12 and say what his "decisive rebuff" is; he recalls Bucharest in 1960, where Romania urged patience, and proposes that the two parties resist Khrushchev''s great-power chauvinism together. He will report to the delegation.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 706–709 (the morning of Mar. 9, Diaoyutai; the Secretariat''s query to Mao and Liu Shaoqi before the three went). Made public: 1999. See [[cal.1964-03-07.china-leadership]], [[cal.1964-03-09.china-leadership]]. Names: Peng Zhen, Ceaușescu, Gheorghiu-Dej, Khrushchev.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 706–709 (the morning of Mar. 9, Diaoyutai; the Secretariat''s query to Mao and Liu Shaoqi before the three went). Made public: 1999. See [[cal.1964-03-07.china-leadership]], [[cal.1964-03-09.china-leadership]]. Names: Peng Zhen, Ceaușescu, Gheorghiu-Dej, Khrushchev, Wu Xiuquan, Wu Lengxi.'
     src:
       c: 250c20b9
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 706–709: all'
-    tags: [polity:prc, polity:romania, vis:only:prc+romania, name:peng-zhen, name:ceausescu-nicolae, name:gheorghiu-dej-gheorghe, name:khrushchev-nikita-s]
+    tags: [polity:prc, polity:romania, vis:only:prc+romania, name:peng-zhen, name:ceausescu-nicolae, name:gheorghiu-dej-gheorghe, name:khrushchev-nikita-s, name:wu-lengxi, name:wu-xiuquan]
     time_range:
       - 1964-03-08T22:00Z
       - 1964-03-09T04:00Z
@@ -2648,7 +2648,7 @@ entries:
         - 'w.yang-shangkun-riji II, 358: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1803: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 323: ?'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-09T04:00Z
       - 1964-03-09T10:00Z
@@ -2665,7 +2665,7 @@ entries:
       c: 78a48dbb
       rows:
         - 'w.yang-shangkun-riji II, 359: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-09T11:00Z
       - 1964-03-09T14:00Z
@@ -2676,16 +2676,16 @@ entries:
     date: '1964-03-09'
     thread: china-leadership
     c: 'Ye Jianying 叶剑英, with Yang Yong 杨勇, commander of the Peking Military Region 北京军区, sees the region''s picked units 尖子分队 show their skills (radio talk in code, single-soldier assault, taking prisoners), and meets them: drill and read Chairman Mao''s works daily, red and expert; the infantry to learn hand-to-hand fighting; code talk to be spread fast.'
-    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 913. Made public: 2007. Names: Ye Jianying, Mao Zedong.'
-    tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc, name:mao-zedong]
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 913. Made public: 2007. Names: Ye Jianying, Mao Zedong, Yang Yong.'
+    tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc, name:mao-zedong, name:yang-yong]
   - id: cal.1964-03-09.china-leadership-6
     when: Mar. 9–10
     date: '1964-03-09'
     place: nanning
     thread: china-leadership
     c: 'Nanning 南宁. Zhu De 朱德 hears Wei Guoqing 韦国清, first secretary of the Guangxi committee 中共广西壮族自治区委员会, and Qiao Xiaoguang 乔晓光, He Ximing 贺希明, Qin Yingji 覃应机, Wu Jinnan 伍晋南 and others of its Secretariat, and says of farming: Guangxi''s chief problem is water conservancy; let the masses build the works themselves, the state helping; more small reservoirs, fewer large ones.'
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1902. Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1902. Made public: 2016. Names: Zhu De, Wei Guoqing, He Ximing, Qin Yingji.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc, name:he-ximing, name:qin-yingji, name:wei-guoqing]
   - id: cal.1964-03-10.elections-1964
     when: Mar. 10
     date: '1964-03-10'
@@ -3000,7 +3000,7 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVII, 207 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 207 n.1b: all'
         - 'w.peng-zhen-nianpu-1902 IV, 323: ?'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, vis:only:prc, name:wei-lianyi, name:yang-shangkun]
   - id: cal.1964-03-10.china-leadership-4
     when: Mar. 10
     date: '1964-03-10'
@@ -3012,7 +3012,7 @@ entries:
       c: 78a48dbb
       rows:
         - 'w.yang-shangkun-riji II, 359: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
   - id: cal.1964-03-10.vietnam-hanoi
     when: Mar. 10
     date: '1964-03-10'
@@ -3171,14 +3171,14 @@ entries:
     place: washington
     thread: baker
     c: 'Johnson to Cliff Carter by telephone, 1:00 p.m.: Pell, on Jordan''s committee, and the Republicans'' demands to widen the Baker inquiry.'
-    n: '[Johnson and Clifton Carter, 1:00 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cliff-carter-march-11-1964), Conversation WH6403-09-2474 (Miller Center). [[w.taking-charge]], 282. Names: Johnson, Pell.'
+    n: '[Johnson and Clifton Carter, 1:00 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cliff-carter-march-11-1964), Conversation WH6403-09-2474 (Miller Center). [[w.taking-charge]], 282. Names: Johnson, Pell, Cliff Carter.'
     src:
       c: 0cf7fc9d
       rows:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cliff-carter-march-11-1964: A'
         - 'w.taking-charge 282: all'
         - 'via x.1964-03-11.johnson-clifton-carter-telephone-1300: all'
-    tags: [name:johnson-lyndon-b, name:pell-claiborne-d]
+    tags: [name:johnson-lyndon-b, name:pell-claiborne-d, name:cliff-carter]
   - id: cal.1964-03-11.cyprus
     when: Mar. 11
     date: '1964-03-11'
@@ -3201,14 +3201,14 @@ entries:
     thread: elections-1964
     also: [robert-kennedy]
     c: 'Johnson to O''Brien by telephone, 2:20 p.m., the day after the New Hampshire primary, Johnson''s write-ins 15,217, Robert Kennedy''s for Vice President 11,897: Corbin at work in Wisconsin; McGrory''s three columns; "the only man the Republicans could elect up there is one who works for the Democrats," Lodge.'
-    n: '[Johnson and Lawrence O''Brien, 2:20 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-march-11-1964-1), Conversation WH6403-09-2479 (Miller Center). [[w.taking-charge]], 283–284. Names: Johnson, O''Brien, Robert Kennedy, McGrory, Lodge.'
+    n: '[Johnson and Lawrence O''Brien, 2:20 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-march-11-1964-1), Conversation WH6403-09-2479 (Miller Center). [[w.taking-charge]], 283–284. Names: Johnson, O''Brien, Robert Kennedy, McGrory, Lodge, Corbin.'
     src:
       c: c28086cb
       rows:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-march-11-1964-1: A'
         - 'w.taking-charge 283–284: all'
         - 'via x.1964-03-11.johnson-lawrence-o-brien-telephone-1420: all'
-    tags: [name:johnson-lyndon-b, name:obrien-lawrence-f, name:kennedy-robert-f, name:mcgrory-mary, name:lodge-henry-cabot, state:nh, state:wi, ok:result-form]
+    tags: [name:johnson-lyndon-b, name:obrien-lawrence-f, name:kennedy-robert-f, name:mcgrory-mary, name:lodge-henry-cabot, state:nh, state:wi, ok:result-form, name:corbin]
   - id: cal.1964-03-11.elections-1964-primaries
     when: Mar. 11
     date: '1964-03-11'
@@ -3260,7 +3260,7 @@ entries:
       c: 61877cd5
       rows:
         - 'w.yang-shangkun-riji II, 359: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-11.china-leadership-2
     when: Mar. 11
@@ -3274,7 +3274,7 @@ entries:
       c: 25443c45
       rows:
         - 'w.yang-shangkun-riji II, 359: all'
-    tags: [polity:prc, vis:only:prc+romania]
+    tags: [polity:prc, vis:only:prc+romania, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-11.china-leadership-3
     when: Mar. 11
@@ -3417,14 +3417,14 @@ entries:
     thread: robert-kennedy
     also: [democratic-party]
     c: 'Johnson to Cliff Carter by telephone, 1:26 p.m.: anti-Kennedy stories going around the committee; "Any of them ... that does, fire ''em."'
-    n: '[Johnson and Clifton Carter, 1:26 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cliff-carter-march-12-1964), Conversation WH6403-09-2488 (Miller Center). [[w.taking-charge]], 285. Names: Johnson, Kennedy.'
+    n: '[Johnson and Clifton Carter, 1:26 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cliff-carter-march-12-1964), Conversation WH6403-09-2488 (Miller Center). [[w.taking-charge]], 285. Names: Johnson, Kennedy, Cliff Carter.'
     src:
       c: f2bb86cc
       rows:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cliff-carter-march-12-1964: A'
         - 'w.taking-charge 285: all'
         - 'via x.1964-03-12.johnson-clifton-carter-telephone-1326: all'
-    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, name:cliff-carter]
   - id: cal.1964-03-12.baker
     when: Mar. 12
     date: '1964-03-12'
@@ -3432,14 +3432,14 @@ entries:
     thread: baker
     also: [robert-kennedy]
     c: 'DeLoach of the FBI to Johnson by telephone, 2:15 p.m., on Corbin and Baker: something on the Hill touching the Attorney General; the *Star* has reassigned its men. Johnson: the hi-fi, Baker''s or Reynolds''s, "nothing criminal or nothing venal."'
-    n: '[Johnson and Cartha DeLoach, 2:15 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cartha-deloach-march-12-1964), Conversation WH6403-09-2489 (Miller Center). [[w.taking-charge]], 285–286. Names: DeLoach, Johnson, Baker, Reynolds.'
+    n: '[Johnson and Cartha DeLoach, 2:15 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cartha-deloach-march-12-1964), Conversation WH6403-09-2489 (Miller Center). [[w.taking-charge]], 285–286. Names: DeLoach, Johnson, Baker, Reynolds, Corbin.'
     src:
       c: bed13967
       rows:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cartha-deloach-march-12-1964: A'
         - 'w.taking-charge 285–286: all'
         - 'via x.1964-03-12.johnson-cartha-deloach-telephone-1415: all'
-    tags: [name:deloach-cartha, name:johnson-lyndon-b, name:baker-robert-g, name:reynolds-don-b]
+    tags: [name:deloach-cartha, name:johnson-lyndon-b, name:baker-robert-g, name:reynolds-don-b, name:corbin]
   - id: cal.1964-03-12.succession
     when: Mar. 12
     date: '1964-03-12'
@@ -3507,7 +3507,7 @@ entries:
       c: 1e3802bc
       rows:
         - 'w.yang-shangkun-riji II, 359: all'
-    tags: [polity:prc, name:zhou-enlai, name:chen-yi, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-12.china-leadership-3
     when: Mar. 12
@@ -3520,7 +3520,7 @@ entries:
       c: ae8cfd06
       rows:
         - 'w.yang-shangkun-riji II, 359: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-12T04:00Z
       - 1964-03-12T10:00Z
@@ -3532,12 +3532,12 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: 'Deng Xiaoping 邓小平 meets Sukarni 苏卡尼, the Indonesian ambassador. Deng: China and Indonesia should go on developing their economic and cultural ties and cooperate closely at the second Afro-Asian conference and in the anti-imperialist, anti-colonial struggle.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1804 (Mar. 12, 1964). The words: 下午 (III, 1804). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1804 (Mar. 12, 1964). The words: 下午 (III, 1804). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Sukarni.'
     src:
       c: 29af24e8
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1804: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+indonesia]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+indonesia, name:sukarni]
     time_range:
       - 1964-03-12T04:00Z
       - 1964-03-12T10:00Z
@@ -3678,7 +3678,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 360: all'
         - 'w.peng-zhen-nianpu-1902 IV, 324: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-13.china-leadership-3
     when: Mar. 13
@@ -3692,7 +3692,7 @@ entries:
       c: e3072351
       rows:
         - 'w.yang-shangkun-riji II, 360: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-13.china-leadership-4
     when: Mar. 13
@@ -3705,7 +3705,7 @@ entries:
       c: 646cf85c
       rows:
         - 'w.yang-shangkun-riji II, 360: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-zhen, name:yang-shangkun]
   - id: cal.1964-03-13.china-leadership-5
     when: Mar. 13
     date: '1964-03-13'
@@ -3851,7 +3851,7 @@ entries:
       c: 28d9b5dd
       rows:
         - 'w.yang-shangkun-riji II, 360: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:pethybridge, name:yang-shangkun]
   - id: cal.1964-03-14.china-leadership-4
     when: Mar. 14
     date: '1964-03-14'
@@ -3863,7 +3863,7 @@ entries:
       c: d95625e0
       rows:
         - 'w.yang-shangkun-riji II, 360: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kang-yimin, name:yang-shangkun]
     time_range:
       - 1964-03-13T22:00Z
       - 1964-03-14T04:00Z
@@ -3880,7 +3880,7 @@ entries:
       c: 7344292f
       rows:
         - 'w.yang-shangkun-riji II, 360: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:mao-weizhong, name:yang-shangkun]
     time_range:
       - 1964-03-14T04:00Z
       - 1964-03-14T10:00Z
@@ -4044,7 +4044,7 @@ entries:
       c: 57d08dda
       rows:
         - 'w.yang-shangkun-riji II, 360: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1964-03-15T11:00Z
       - 1964-03-15T14:00Z
@@ -4217,7 +4217,7 @@ entries:
     thread: china-leadership
     c: Zhou wires Tsedenbal, Mongolia's Council of Ministers chairman, concern, sympathy and condolence for the losses of a month of snow and wind. China will give 10,000 tons of feed maize and 200,000 yuan.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 627 (Mar. 16, 1964). Names: Zhou Enlai, Tsedenbal.'
-    tags: [name:zhou-enlai, polity:prc, polity:mongolia]
+    tags: [name:zhou-enlai, polity:prc, polity:mongolia, name:tsedenbal]
   - id: cal.1964-03-16.china-leadership-3
     when: Mar. 16
     date: '1964-03-16'
@@ -4229,7 +4229,7 @@ entries:
       c: f66ffa34
       rows:
         - 'w.yang-shangkun-riji II, 360: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-16T11:00Z
       - 1964-03-16T14:00Z
@@ -4249,7 +4249,7 @@ entries:
       c: 93418f65
       rows:
         - 'w.yang-shangkun-riji II, 360: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:tong-xiaopeng, name:xu-ming, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-16.china-leadership-5
     when: Mar. 16
@@ -4504,7 +4504,7 @@ entries:
       c: 8e9deb03
       rows:
         - 'w.yang-shangkun-riji II, 361: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:mei-xing, name:yang-shangkun]
     time_range:
       - 1964-03-17T04:00Z
       - 1964-03-17T10:00Z
@@ -4523,7 +4523,7 @@ entries:
       c: 977b744b
       rows:
         - 'w.yang-shangkun-riji II, 361: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-chou, name:yang-shangkun]
     time_range:
       - 1964-03-17T04:00Z
       - 1964-03-17T10:00Z
@@ -4834,7 +4834,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVII, 211–212: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 211 n.2a: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 211 n.2b: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:hua-luogeng]
   - id: cal.1964-03-18.china-leadership-3
     when: Mar. 18
     date: '1964-03-18'
@@ -4847,7 +4847,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVII, 213–214: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 213 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 213 n.1b: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:gao-heng]
   - id: cal.1964-03-18.china-leadership-4
     when: Mar. 18
     date: '1964-03-18'
@@ -4859,7 +4859,7 @@ entries:
       c: 8634e232
       rows:
         - 'w.yang-shangkun-riji II, 361: all'
-    tags: [polity:prc, name:li-fuchun, name:bo-yibo, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, name:bo-yibo, vis:only:prc, name:an-ziwen, name:yang-shangkun]
     time_range:
       - 1964-03-18T04:00Z
       - 1964-03-18T10:00Z
@@ -5172,7 +5172,7 @@ entries:
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 627: ?'
         - 'w.zhou-enlai-waijiao-huodong 398: A'
-    tags: [name:zhou-enlai, polity:prc, polity:indonesia, vis:only:prc+indonesia]
+    tags: [name:zhou-enlai, polity:prc, polity:indonesia, vis:only:prc+indonesia, name:sukarni]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-19.china-leadership-2
     when: Mar. 19
@@ -5204,14 +5204,14 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Deng Xiaoping 邓小平 calls in Peng Zhen 彭真, Li Fuchun 李富春, Bo Yibo 薄一波 and An Ziwen 安子文 on personnel in several ministries; by Yang Shangkun's 杨尚昆 diary.
-    n: '[[w.yang-shangkun-riji]], II, 361 (Mar. 19, 1964); [[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 19, 1964; Deng with Peng Zhen, Li Fuchun, Bo Yibo and An Ziwen studies personnel changes in several ministries and commissions); [[w.peng-zhen-nianpu-1902]], IV, 325 (Mar. 19, 1964; Peng Zhen, with Deng Xiaoping, Li Fuchun, Bo Yibo, An Ziwen and others, on changes of personnel in some ministries and commissions). The words: 上午小平同志约几位同志(彭、李、薄、安)谈几个部的人事问题 (II, 361). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-03-18.china-leadership-4]]. Names: Deng Xiaoping, Peng Zhen, Li Fuchun, Bo Yibo, An Ziwen.'
+    n: '[[w.yang-shangkun-riji]], II, 361 (Mar. 19, 1964); [[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 19, 1964; Deng with Peng Zhen, Li Fuchun, Bo Yibo and An Ziwen studies personnel changes in several ministries and commissions); [[w.peng-zhen-nianpu-1902]], IV, 325 (Mar. 19, 1964; Peng Zhen, with Deng Xiaoping, Li Fuchun, Bo Yibo, An Ziwen and others, on changes of personnel in some ministries and commissions). The words: 上午小平同志约几位同志(彭、李、薄、安)谈几个部的人事问题 (II, 361). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-03-18.china-leadership-4]]. Names: Deng Xiaoping, Peng Zhen, Li Fuchun, Bo Yibo, An Ziwen, Yang Shangkun.'
     src:
       c: 7d48cbb7
       rows:
         - 'w.yang-shangkun-riji II, 361: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1805: B'
         - 'w.peng-zhen-nianpu-1902 IV, 325: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:li-fuchun, name:bo-yibo, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:li-fuchun, name:bo-yibo, vis:only:prc, name:an-ziwen, name:yang-shangkun]
     time_range:
       - 1964-03-18T22:00Z
       - 1964-03-19T04:00Z
@@ -5228,7 +5228,7 @@ entries:
       c: 30af9715
       rows:
         - 'w.yang-shangkun-riji II, 361: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-19T04:00Z
       - 1964-03-19T10:00Z
@@ -5338,14 +5338,14 @@ entries:
     thread: press-and-broadcasting
     also: [elections-1964]
     c: '*Time*, "Bobby for Veep?": Corbin''s plan to stay in Washington "eight years with Jack and eight years with Bobby"; the New Hampshire write-in; the 4,223-vote difference.'
-    n: '[[w.shesol-mutual-contempt]], 184, 192. To check: *Time*, Mar. 20, 1964, at 21 (cited by [[w.shesol-mutual-contempt]], 184, 192). Names: Robert Kennedy.'
+    n: '[[w.shesol-mutual-contempt]], 184, 192. To check: *Time*, Mar. 20, 1964, at 21 (cited by [[w.shesol-mutual-contempt]], 184, 192). Names: Robert Kennedy, Corbin.'
     src:
       c: 92a0e247
       rows:
         - 'w.shesol-mutual-contempt 184: all'
         - 'w.shesol-mutual-contempt 192: all'
         - 'via w.shesol-mutual-contempt 184 n.sixteen-years: all'
-    tags: [name:kennedy-robert-f]
+    tags: [name:kennedy-robert-f, name:corbin]
   - id: cal.1964-03-20.goldwater
     when: Mar. 20
     date: '1964-03-20'
@@ -5479,7 +5479,7 @@ entries:
       c: ffb9b0a2
       rows:
         - 'w.yang-shangkun-riji II, 361: all'
-    tags: [polity:prc, name:chen-yi, vis:only:prc]
+    tags: [polity:prc, name:chen-yi, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-20T04:00Z
       - 1964-03-20T06:00Z
@@ -5496,7 +5496,7 @@ entries:
       c: 011e87eb
       rows:
         - 'w.yang-shangkun-riji II, 361: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-diantao, name:yang-shangkun]
     time_range:
       - 1964-03-20T04:00Z
       - 1964-03-20T10:00Z
@@ -5515,7 +5515,7 @@ entries:
       c: 712a1e0e
       rows:
         - 'w.yang-shangkun-riji II, 361: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:mei-xing, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1964-03-20T04:00Z
       - 1964-03-20T10:00Z
@@ -5532,7 +5532,7 @@ entries:
       c: f66ffa34
       rows:
         - 'w.yang-shangkun-riji II, 362: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-20T11:00Z
       - 1964-03-20T14:00Z
@@ -5791,7 +5791,7 @@ entries:
         - 'w.yang-shangkun-riji II, 362: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1805: A'
         - 'w.peng-zhen-nianpu-1902 IV, 325: ?'
-    tags: [name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, polity:prc, polity:japan, vis:only:prc+japan]
+    tags: [name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, polity:prc, polity:japan, vis:only:prc+japan, name:hakamada-satomi]
     time_range:
       - 1964-03-21T04:00Z
       - 1964-03-21T10:00Z
@@ -5809,7 +5809,7 @@ entries:
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 628: ?'
         - 'w.zhou-enlai-waijiao-huodong 399: A'
-    tags: [name:zhou-enlai, polity:prc]
+    tags: [name:zhou-enlai, polity:prc, name:montfort-toledo]
   - id: cal.1964-03-21.china-leadership-3
     when: Mar. 21
     date: '1964-03-21'
@@ -5842,7 +5842,7 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 217: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 217 n.1: all'
-    tags: [polity:prc, name:mao-zedong, name:li-xiannian, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:li-xiannian, name:kang-sheng, vis:only:prc, name:wu-lengxi]
   - id: cal.1964-03-21.china-leadership-5
     when: Mar. 21
     date: '1964-03-21'
@@ -5854,7 +5854,7 @@ entries:
       c: 4dc900da
       rows:
         - 'w.yang-shangkun-riji II, 362: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1964-03-20T22:00Z
       - 1964-03-21T04:00Z
@@ -5981,7 +5981,7 @@ entries:
       c: 4fc30f14
       rows:
         - 'w.yang-shangkun-riji II, 362: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-21T22:00Z
       - 1964-03-22T04:00Z
@@ -5999,7 +5999,7 @@ entries:
       c: 98b21c4b
       rows:
         - 'w.yang-shangkun-riji II, 362: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-22.china-leadership-6
     when: Mar. 22
@@ -6012,7 +6012,7 @@ entries:
       c: 57d08dda
       rows:
         - 'w.yang-shangkun-riji II, 362: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1964-03-22T11:00Z
       - 1964-03-22T14:00Z
@@ -6185,7 +6185,7 @@ entries:
     also: [japan, soviet-union]
     c: 'Mao, Beijing, the Hall of the People, evening: receives and dines the Japanese Communist Party delegation under Hakamada Satomi, back from the Soviet Union; Liu Shaoqi, Deng Xiaoping, Peng Zhen, Kang Sheng, Yang Shangkun, Liao Chengzhi, Zhao Yimin present. The encirclement of cities from the countryside will not do in Japan, Britain, the U.S. or much of Europe; two experiences, October''s and China''s. Of the CPSU: the Soviet side threatens "decisive rebuff" and "collective measures" and China waits; he asked the Romanians to tell Khrushchev that China is ready for a break in relations, a break in trade, the treaty torn up, an army from the northeast or Xinjiang. The JCP to hold the flag of national independence, use the Japanese-American monopoly split, build a broad front with some anti-American capitalists.'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 23, 1964. [[w.yang-shangkun-riji]], II, 362 (Mar. 23, 1964; in the Peking Room 北京厅, 6:30 to 9:30 p.m.; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 23, 1964; Deng accompanies Mao Zedong 毛泽东 in meeting Hakamada Satomi 袴田里见 and his party); [[w.peng-zhen-nianpu-1902]], IV, 325 (Mar. 23, 1964, evening; Peng Zhen, with Liu Shaoqi, Deng Xiaoping, Kang Sheng and others, accompanies Mao in meeting the Japanese party''s delegation). Made public: 2013. Check: Made public: Yang Shangkun''s diary records the reception and dinner ([[w.yang-shangkun-riji]], II, 362); by the 2017 edition''s front matter the day stands in its first edition ([[w.shangkun-yang-shangkun-riji-2]], 2001), not seen, before the 2013 the note gives. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Kang Sheng, Yang Shangkun, Liao Chengzhi, Hakamada Satomi, Zhao Yimin, Khrushchev.'
-    tags: [name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, name:khrushchev-nikita-s, polity:prc, polity:ussr, vis:only:prc]
+    tags: [name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, name:khrushchev-nikita-s, polity:prc, polity:ussr, vis:only:prc, name:hakamada-satomi, name:liao-chengzhi, name:yang-shangkun, name:zhao-yimin]
     time_range:
       - 1964-03-23T11:00Z
       - 1964-03-23T14:00Z
@@ -6236,7 +6236,7 @@ entries:
       c: 5149b425
       rows:
         - 'w.yang-shangkun-riji II, 362: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-23T04:00Z
       - 1964-03-23T10:00Z
@@ -6415,7 +6415,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 628: ?'
         - 'w.zhou-enlai-waijiao-huodong 399: A'
         - 'w.chen-yi-nianpu 1019: ?'
-    tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:albania]
+    tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:albania, name:zhang-qian]
     time_range:
       - 1964-03-24T11:00Z
       - 1964-03-24T14:00Z
@@ -6449,7 +6449,7 @@ entries:
       c: 57d08dda
       rows:
         - 'w.yang-shangkun-riji II, 362: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1964-03-24T04:00Z
       - 1964-03-24T10:00Z
@@ -6466,7 +6466,7 @@ entries:
       c: 9e686703
       rows:
         - 'w.yang-shangkun-riji II, 362: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:wang-dongxing, name:yang-shangkun]
     time_range:
       - 1964-03-24T11:00Z
       - 1964-03-24T14:00Z
@@ -6478,12 +6478,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Deng Xiaoping 邓小平 makes further changes in the draft Central Committee 中央 reply to the CPSU Central Committee's letter of Mar. 7, as revised by Kang Sheng 康生 and Wu Lengxi 吴冷西.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 24, 1964). The words: 作进一步的修改 (III, 1805). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 24, 1964). The words: 作进一步的修改 (III, 1805). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng, Wu Lengxi.'
     src:
       c: f301fcd6
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1805: all'
-    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc, name:wu-lengxi]
   - id: cal.1964-03-24.china-leadership-6
     when: Mar. 24
     date: '1964-03-24'
@@ -6618,7 +6618,7 @@ entries:
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 628–29: ?'
         - 'w.zhou-enlai-waijiao-huodong 399: A'
-    tags: [name:zhou-enlai, polity:prc, polity:albania]
+    tags: [name:zhou-enlai, polity:prc, polity:albania, name:du-runsheng, name:guo-moruo]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-25.china-leadership-2
     when: Mar. 25
@@ -6639,8 +6639,8 @@ entries:
     date: '1964-03-25'
     thread: china-leadership
     c: 'Zhou receives and dines performers of the Oriental Song and Dance Ensemble; talks about its development. Urges Wang Kun and others to join singing with local speech, opera and folk song; seats Wang Kun and Zhang Jun in the middle: why always the premier in the middle and the performers at the side, today let us change.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 629 (Mar. 25, 1964). Names: Zhou Enlai, Wang Kun.'
-    tags: [name:zhou-enlai, polity:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 629 (Mar. 25, 1964). Names: Zhou Enlai, Wang Kun, Zhang Jun.'
+    tags: [name:zhou-enlai, polity:prc, name:wang-kun, name:zhang-jun]
   - id: cal.1964-03-25.china-leadership-4
     when: Mar. 25
     date: '1964-03-25'
@@ -6652,7 +6652,7 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 224–228: all'
         - 'w.jian-zhou-enlai 519: ?'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, name:chen-boda, name:chen-yi, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, name:chen-boda, name:chen-yi, vis:only:prc, name:wang-ming, name:wu-lengxi]
   - id: cal.1964-03-25.china-leadership-5
     when: Mar. 25
     date: '1964-03-25'
@@ -6665,7 +6665,7 @@ entries:
       c: eb09e29d
       rows:
         - 'w.yang-shangkun-riji II, 363: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-25.china-leadership-6
     when: Mar. 25
@@ -6862,7 +6862,7 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 222–223: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 222 n.1a: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:tian-jiaying]
   - id: cal.1964-03-26.china-leadership-3
     when: Mar. 26
     date: '1964-03-26'
@@ -6899,7 +6899,7 @@ entries:
       c: 3ad4abcd
       rows:
         - 'w.yang-shangkun-riji II, 363: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-26T04:00Z
       - 1964-03-26T10:00Z
@@ -7029,7 +7029,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi writes to Wang Guangmei in reply, on the course of the socialist-education movement at the Taoyuan brigade: 95 percent of the masses and 95 percent of the cadres are to be united, which is the movement''s and the struggle''s final aim, and cannot be reached without criticism and struggle. Those who violate the people''s interests and the Party''s policy, seek the illegal gains of a few, persist, and try to wreck, cannot but be fought on firmly, or the 95 percent of masses and cadres cannot be united.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 589 (Mar. 27, 1964); [[w.macfarquhar-origins-of-the-cultural]], III, 401 (Wang Guangmei keeps in touch with Liu Shaoqi while at Taoyuan). Made public: 1996. To check: [[w.jin-1949-1989-niande-zhongguo]], 540 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 401 n.13a); [[w.survey-of-china-mainland-2]], No. 4024, 4, 8, 10, 12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 401 n.13b). Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 589 (Mar. 27, 1964); [[w.macfarquhar-origins-of-the-cultural]], III, 401 (Wang Guangmei keeps in touch with Liu Shaoqi while at Taoyuan). Made public: 1996. To check: [[w.jin-1949-1989-niande-zhongguo]], 540 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 401 n.13a); [[w.survey-of-china-mainland-2]], No. 4024, 4, 8, 10, 12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 401 n.13b). Names: Liu Shaoqi, Wang Guangmei.'
     src:
       c: dbc2197a
       rows:
@@ -7037,7 +7037,7 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 401: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 401 n.13a: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 401 n.13b: A'
-    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc, name:wang-guangmei]
   - id: cal.1964-03-27.china-leadership-3
     when: Mar. 27
     date: '1964-03-27'
@@ -7061,7 +7061,7 @@ entries:
       c: '26412183'
       rows:
         - 'w.yang-shangkun-riji II, 363: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-26T22:00Z
       - 1964-03-27T04:00Z
@@ -7078,7 +7078,7 @@ entries:
       c: 57d08dda
       rows:
         - 'w.yang-shangkun-riji II, 363: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1964-03-27T11:00Z
       - 1964-03-27T14:00Z
@@ -7090,12 +7090,12 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Deng Xiaoping 邓小平 sees off at the airport Hakamada Satomi 袴田里见 and his party, leaving Peking 北京 for a visit to Korea.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 27, 1964). See [[cal.1964-03-21.china-leadership]]. Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 27, 1964). See [[cal.1964-03-21.china-leadership]]. Names: Deng Xiaoping, Hakamada Satomi.'
     src:
       c: 6b41616e
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1805: all'
-    tags: [polity:prc, name:deng-xiaoping]
+    tags: [polity:prc, name:deng-xiaoping, name:hakamada-satomi]
   - id: cal.1964-03-27.china-leadership-7
     when: Mar. 27
     date: '1964-03-27'
@@ -7261,15 +7261,15 @@ entries:
         - 'w.mao-zedong-zhuan VI, ch. 72: all'
         - 'via w.mao-zedong-zhuan VI, ch.72 n.37: all'
         - 'w.yang-jisheng-tiandi-fanfu II, 1075: ?'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:chen-yonggui, name:lin-tie, name:tao-lujia]
   - id: cal.1964-03-28.china-leadership-6
     when: Mar. 28
     date: '1964-03-28'
     place: changsha
     thread: china-leadership
     c: Changsha 长沙. Zhu De 朱德 hears Zhang Pinghua 张平化, first secretary of the Hunan committee 中共湖南省委, on farm output and the rural socialist education movement 农村社会主义教育运动.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1904. The words: 上午 (1904). Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1904. The words: 上午 (1904). Made public: 2016. Names: Zhu De, Zhang Pinghua.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc, name:zhang-pinghua]
     time_range:
       - 1964-03-27T22:00Z
       - 1964-03-28T04:00Z
@@ -7281,8 +7281,8 @@ entries:
     place: changsha
     thread: china-leadership
     c: Changsha 长沙. Zhu De 朱德 calls on Cheng Qian 程潜, vice-chairman of the NPC Standing Committee 全国人大常委会, vice-chairman of the Revolutionary Committee of the Kuomintang 中国国民党革命委员会 and governor of Hunan 湖南省省长.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1904. The words: 下午 (1904). Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1904. The words: 下午 (1904). Made public: 2016. Names: Zhu De, Cheng Qian.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc, name:cheng-qian]
     time_range:
       - 1964-03-28T04:00Z
       - 1964-03-28T10:00Z
@@ -7355,7 +7355,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 629: ?'
         - 'w.zhou-enlai-waijiao-huodong 399: A'
         - 'w.chen-yi-nianpu 1019: ?'
-    tags: [name:zhou-enlai, polity:prc, polity:laos, vis:only:prc+laos, name:souvanna-phouma]
+    tags: [name:zhou-enlai, polity:prc, polity:laos, vis:only:prc+laos, name:souvanna-phouma, name:khamsouk-keola]
     time_zone: Asia/Shanghai
   - id: cal.1964-03-29.china-leadership-2
     when: Mar. 29
@@ -7368,7 +7368,7 @@ entries:
       c: db11808f
       rows:
         - 'w.yang-shangkun-riji II, 364: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-03-29T04:00Z
       - 1964-03-29T10:00Z
@@ -7401,7 +7401,7 @@ entries:
       c: fec1172e
       rows:
         - 'w.yang-shangkun-riji II, 364: all'
-    tags: [polity:prc, name:liu-shaoqi, name:zhou-enlai, name:ke-qingshi, vis:only:prc]
+    tags: [polity:prc, name:liu-shaoqi, name:zhou-enlai, name:ke-qingshi, vis:only:prc, name:yang-shangkun]
   - id: cal.1964-03-29.china-leadership-5
     when: Mar. 29
     date: '1964-03-29'
@@ -7631,7 +7631,7 @@ entries:
       c: '84707608'
       rows:
         - 'w.yang-shangkun-riji II, 364: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1964-03-29T22:00Z
       - 1964-03-30T04:00Z
@@ -7665,7 +7665,7 @@ entries:
       c: 91ca62ef
       rows:
         - 'w.yang-shangkun-riji II, 364: all'
-    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc, name:chen-pixian, name:yang-shangkun]
   - id: cal.1964-03-30.china-leadership-5
     when: Mar. 30–Apr. 1
     date: '1964-03-30'
@@ -7678,7 +7678,7 @@ entries:
       rows:
         - 'w.mao-zedong-zhuan VI, ch. 72: all'
         - 'via w.mao-zedong-zhuan VI, ch.72 n.38: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:li-baohua, name:li-qiming, name:liu-jianxun, name:liu-lantao]
     time_range:
       - 1964-03-30T04:00Z
       - 1964-03-30T10:00Z
@@ -8656,12 +8656,12 @@ entries:
     place: tianjin
     thread: china-leadership
     c: 'The Tianjin committee strengthens the Xiaozhan work team. Among the newcomers: Zhou Yang, and ten of *Hongqi*''s staff with its editor, Chen Boda.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 409. The book thinks Chen came at his own suggestion; Bo Yibo implies the Tianjin affair was all his doing (III, 409 n.55). Made public: 1997. See [[cal.1964-01.china-leadership-4]]. Names: Chen Boda.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 409. The book thinks Chen came at his own suggestion; Bo Yibo implies the Tianjin affair was all his doing (III, 409 n.55). Made public: 1997. See [[cal.1964-01.china-leadership-4]]. Names: Chen Boda, Zhou Yang.'
     src:
       c: 1546f887
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 409: all'
-    tags: [polity:prc, name:chen-boda, vis:only:prc]
+    tags: [polity:prc, name:chen-boda, vis:only:prc, name:zhou-yang]
   - id: cal.1964-03.china-leadership-6
     when: Mar., after the 15th
     date: 1964-03
@@ -8700,7 +8700,7 @@ entries:
       c: 57d08dda
       rows:
         - 'w.yang-shangkun-riji II, 364: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1964-03-30T22:00Z
       - 1964-03-31T04:00Z

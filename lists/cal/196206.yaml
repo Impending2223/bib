@@ -96,7 +96,7 @@ entries:
       c: 4b94e5f7
       rows:
         - 'w.yang-shangkun-riji II, 178: all'
-    tags: [polity:prc, name:ho-chi-minh, vis:only:prc+drv]
+    tags: [polity:prc, name:ho-chi-minh, vis:only:prc+drv, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-01.china-leadership-2
     when: June 1
@@ -109,7 +109,7 @@ entries:
       c: 221df180
       rows:
         - 'w.yang-shangkun-riji II, 178: all'
-    tags: [polity:prc, name:ho-chi-minh, name:khrushchev-nikita-s, vis:only:prc]
+    tags: [polity:prc, name:ho-chi-minh, name:khrushchev-nikita-s, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-06-01T04:00Z
       - 1962-06-01T10:00Z
@@ -128,7 +128,7 @@ entries:
       c: 5f572321
       rows:
         - 'w.yang-shangkun-riji II, 178: all'
-    tags: [polity:prc, name:liu-shaoqi, name:ho-chi-minh, vis:only:prc]
+    tags: [polity:prc, name:liu-shaoqi, name:ho-chi-minh, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-01.china-leadership-4
     when: June 1
@@ -433,7 +433,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 297: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 297 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 297 n.1b: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:mao-anqing, name:shao-hua]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-03.china-leadership-4
     when: June 3
@@ -629,7 +629,7 @@ entries:
       c: 48e44e63
       rows:
         - 'w.yang-shangkun-riji II, 179: all'
-    tags: [polity:prc, name:ho-chi-minh, vis:only:prc+drv]
+    tags: [polity:prc, name:ho-chi-minh, vis:only:prc+drv, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-04.china-leadership-6
     when: June 4
@@ -637,16 +637,16 @@ entries:
     place: shanghai
     thread: china-leadership
     c: 'Shanghai 上海. Chen Yun 陈云 answers Zhou Jianren 周建人: the Center 中央 knows the peasants'' hardship, but must hold back the money sent to the villages; the currency in circulation is nearly twice 1957''s, the towns'' share down from two-thirds to one-third, the villages'' up from one-third to two; the IOUs put off three years and the grain bonus prices ended to that end, since peasants with money will not sell to the state and the northern provinces have few goods to trade them; the peasants are to be told why.'
-    n: '[[w.chen-yun-nianpu-xiuding]], III, 134. See [[cal.1962-05-21.china-leadership-8]]. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun.'
-    tags: [polity:prc, name:chen-yun, vis:only:prc]
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 134. See [[cal.1962-05-21.china-leadership-8]]. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun, Zhou Jianren.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc, name:zhou-jianren]
   - id: cal.1962-06-04.china-leadership-7
     when: June 4
     date: '1962-06-04'
     place: shanghai
     thread: china-leadership
     c: 'Shanghai 上海. Chen Yun 陈云 sends Zhou Jianren''s 周建人 letter on to Liu Shaoqi 刘少奇, with a note that he has answered him: the Center 中央 knows the peasants'' hardship, and the money to the villages must be held back.'
-    n: '[[w.chen-yun-nianpu-xiuding]], III, 134. See [[cal.1962-06-04.china-leadership-6]]. Made public: 2015. Names: Chen Yun, Liu Shaoqi.'
-    tags: [polity:prc, name:chen-yun, name:liu-shaoqi, vis:only:prc]
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 134. See [[cal.1962-06-04.china-leadership-6]]. Made public: 2015. Names: Chen Yun, Liu Shaoqi, Zhou Jianren.'
+    tags: [polity:prc, name:chen-yun, name:liu-shaoqi, vis:only:prc, name:zhou-jianren]
   - id: cal.1962-06-05.elections-1962
     when: June 5
     date: '1962-06-05'
@@ -833,7 +833,7 @@ entries:
       c: c64e090a
       rows:
         - 'w.yang-shangkun-riji II, 180: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-bingnan, name:yang-shangkun]
     time_range:
       - 1962-06-04T22:00Z
       - 1962-06-05T04:00Z
@@ -849,20 +849,20 @@ entries:
       c: 214ab506
       rows:
         - 'w.yang-shangkun-riji II, 180: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
   - id: cal.1962-06-05.china-leadership-4
     when: June 5
     date: '1962-06-05'
     place: canton
     thread: china-leadership
     c: Zhao Ziyang 趙紫陽, Lin Liming 林李明, Zeng Sheng 曾生 and the city committee's acting first secretary Zhao Wucheng 趙武成 and deputy mayor and public security head Li Guangxiang 李廣祥 meet at the home of the governor, Chen Yu 陳郁. The Canton-Kowloon railway police report that 10,000 or 20,000 are gathered at the East Station, that a police car sent to keep order has been overturned and burned, and that some police have been seized; deputy mayor Sun Leyi 孫樂宜, at the scene urging the crowd, is in danger. Zeng Sheng proposes calling in troops for martial law; some object that the question is whether it is a contradiction among the people or one with the enemy. Tao Zhu 陶鑄, back from Guangxi 廣西, rules that with the police cars smashed and burned it is a contradiction with the enemy; all agree to use the army.
-    n: '[[w.yang-jisheng-mubei]], I, 426, 429. Made public: 2005. To check: Sources of the section on the flight to Hong Kong: the online article 《魚米之鄉的大逃亡》 and 《揭秘43年前逃港風潮 驚動周恩來總理》, http://www.cec.cn, Dec. 26, 2005 (cited by [[w.yang-jisheng-mubei]], I, 426 n.22). Names: Tao Zhu. Check: the day.'
+    n: '[[w.yang-jisheng-mubei]], I, 426, 429. Made public: 2005. To check: Sources of the section on the flight to Hong Kong: the online article 《魚米之鄉的大逃亡》 and 《揭秘43年前逃港風潮 驚動周恩來總理》, http://www.cec.cn, Dec. 26, 2005 (cited by [[w.yang-jisheng-mubei]], I, 426 n.22). Names: Tao Zhu, Zhao Ziyang, Lin Liming, Chen Yu. Check: the day.'
     src:
       c: 4fcbb8aa
       rows:
         - 'w.yang-jisheng-mubei I, 426, 429: all'
         - 'via w.yang-jisheng-mubei I, 426 n.22: all'
-    tags: [polity:prc, vis:only:prc, name:tao-zhu]
+    tags: [polity:prc, vis:only:prc, name:tao-zhu, name:chen-yu, name:lin-liming, name:zhao-ziyang]
   - id: cal.1962-06-05.china-leadership-5
     when: June 5
     date: '1962-06-05'
@@ -1092,19 +1092,19 @@ entries:
     thread: china-leadership
     also: [farm]
     c: 'Deng Xiaoping 邓小平, on Deng Zihui''s 邓子恢 report to Mao Zedong 毛泽东 and the Center on present policy in the communes: "print for the Standing Committee and the Secretariat, one to the Chairman." Deng Zihui: responsibility in the teams'' management; in scattered hill hamlets of three or five households, farming alone, or output fixed by household, "socialist farming alone".'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1708 (June 6, 1962). Made public: 2009 (the nianpu). See [[cal.1962-05-24.china-leadership-2]]. Names: Deng Xiaoping, Mao Zedong.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1708 (June 6, 1962). Made public: 2009 (the nianpu). See [[cal.1962-05-24.china-leadership-2]]. Names: Deng Xiaoping, Mao Zedong, Deng Zihui.'
     src:
       c: 09f09202
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1708: all'
-    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc, name:deng-zihui]
   - id: cal.1962-06.china-leadership
     when: June 6–7
     date: '1962-06-06'
     place: longsheng
     thread: china-leadership
     c: 'Tao Zhu and Wang Renzhong inspect Longsheng xian, Guangxi, for two days; they condemn independent operation in principle, sort the team systems into five types, and lay down four criteria for collective agriculture: collective ownership of the principal means of production, unified production plans, collective labor, unified distribution of income.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 222–23; [[w.jianguo-yilai-mao-zedong]], XVI, 316–318 (note 2 to Mao''s note of July 22, 1962, from the record of the forum on consolidating the production teams'' collective economy held by Tao Zhu 陶铸 and Wang Renzhong 王任重 at Longsheng 龙胜, Guangxi 广西, June 6–7: of the county''s teams about 60 to 70 percent basically collective, 20 to 30 percent basically individual, about 10 percent wholly so, not the 60 to 70 percent once thought to have gone it alone; five forms of management; four tests of a collective economy; voluntariness and example, no forcible "correction" of individual households); [[w.yang-jisheng-mubei]], II, 830 (June 6–7, 1962: Tao Zhu and Wang Renzhong, secretaries of the Central-South Bureau, hear reports at Longsheng county, Guilin prefecture, and hold a symposium; their record finds most cadres and masses for the socialist road, and the estimate of 60 or even 70 percent of teams gone it alone too high, the lines being unclear). Made public: 1997. Check: the Wengao (XVI, 316 n.2) dates the forum June 6–7; the entry may take those days by edit. To check: [[w.nongye-jitihua-zhongyao-wenjian]], 591–92 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 222 n.67); [[w.nongye-jitihua-zhongyao-wenjian]], 593 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 223 n.68); Record of the forum on consolidating the production teams'' collective economy held by Tao Zhu and Wang Renzhong at Longsheng, Guangxi, June 6–7, 1962 (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 316 n.2a). Names: Tao Zhu. Check: the days.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 222–23; [[w.jianguo-yilai-mao-zedong]], XVI, 316–318 (note 2 to Mao''s note of July 22, 1962, from the record of the forum on consolidating the production teams'' collective economy held by Tao Zhu 陶铸 and Wang Renzhong 王任重 at Longsheng 龙胜, Guangxi 广西, June 6–7: of the county''s teams about 60 to 70 percent basically collective, 20 to 30 percent basically individual, about 10 percent wholly so, not the 60 to 70 percent once thought to have gone it alone; five forms of management; four tests of a collective economy; voluntariness and example, no forcible "correction" of individual households); [[w.yang-jisheng-mubei]], II, 830 (June 6–7, 1962: Tao Zhu and Wang Renzhong, secretaries of the Central-South Bureau, hear reports at Longsheng county, Guilin prefecture, and hold a symposium; their record finds most cadres and masses for the socialist road, and the estimate of 60 or even 70 percent of teams gone it alone too high, the lines being unclear). Made public: 1997. Check: the Wengao (XVI, 316 n.2) dates the forum June 6–7; the entry may take those days by edit. To check: [[w.nongye-jitihua-zhongyao-wenjian]], 591–92 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 222 n.67); [[w.nongye-jitihua-zhongyao-wenjian]], 593 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 223 n.68); Record of the forum on consolidating the production teams'' collective economy held by Tao Zhu and Wang Renzhong at Longsheng, Guangxi, June 6–7, 1962 (cited by [[w.jianguo-yilai-mao-zedong]], XVI, 316 n.2a). Names: Tao Zhu, Wang Renzhong. Check: the days.'
     src:
       c: 4aac3b00
       rows:
@@ -1115,7 +1115,7 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVI, 316 n.2a: A-B'
         - 'w.yang-jisheng-mubei II, 830: A'
         - 'via w.yang-jisheng-mubei II, 830 n.t1: A'
-    tags: [polity:prc, name:tao-zhu, vis:only:prc]
+    tags: [polity:prc, name:tao-zhu, vis:only:prc, name:wang-renzhong]
   - id: cal.1962-06-06.china-leadership-5
     when: June 6
     date: '1962-06-06'
@@ -1268,7 +1268,7 @@ entries:
       c: 6a60fcb5
       rows:
         - 'w.yang-shangkun-riji II, 180: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-diantao, name:yang-shangkun, name:zeng-san]
   - id: cal.1962-06-07.china-leadership-3
     when: June 7
     date: '1962-06-07'
@@ -1280,7 +1280,7 @@ entries:
       c: ced99522
       rows:
         - 'w.yang-shangkun-riji II, 180: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:zhang-dingcheng]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-07.china-leadership-4
     when: June 7
@@ -1293,7 +1293,7 @@ entries:
       c: df2076a9
       rows:
         - 'w.yang-shangkun-riji II, 180: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hu-yaobang, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-07.china-leadership-5
     when: June 7
@@ -1305,7 +1305,7 @@ entries:
       c: 68d373dd
       rows:
         - 'w.yang-shangkun-riji II, 180–181: all'
-    tags: [polity:prc, name:dong-biwu, vis:only:prc]
+    tags: [polity:prc, name:dong-biwu, vis:only:prc, name:he-lianzhi, name:yang-shangkun]
     time_range:
       - 1962-06-07T11:00Z
       - 1962-06-07T14:00Z
@@ -1317,12 +1317,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Deng Xiaoping 邓小平, on Xinhua''s 新华社 draft dispatch "With American backing the Chiang Kai-shek bandit gang prepares to raid our coast": "usable, I think"; for Liu Shaoqi 刘少奇, Lin Biao 林彪 and Peng Zhen 彭真 to read, Yang Shangkun 杨尚昆 to report to the Chairman.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1708–1709 (June 7, 1962). Footnote 1: Liu Shaoqi, Lin Biao, Peng Zhen (III, 1709). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Chiang Kai-shek, Liu Shaoqi, Lin Biao, Peng Zhen.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1708–1709 (June 7, 1962). Footnote 1: Liu Shaoqi, Lin Biao, Peng Zhen (III, 1709). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Chiang Kai-shek, Liu Shaoqi, Lin Biao, Peng Zhen, Yang Shangkun.'
     src:
       c: 7efab85a
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1708–1709: all'
-    tags: [polity:prc, name:deng-xiaoping, name:chiang-kai-shek, name:liu-shaoqi, name:lin-biao, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:chiang-kai-shek, name:liu-shaoqi, name:lin-biao, name:peng-zhen, vis:only:prc, name:yang-shangkun]
   - id: cal.1962-06-07.china-leadership-8
     when: June 7
     date: '1962-06-07'
@@ -1492,7 +1492,7 @@ entries:
         - 'w.zedong-mao-zedong-nianpu V, June 8, 1962: all'
         - 'w.mao-zedong-zhuan V, ch. 70 n.15: B-C'
         - 'via w.mao-zedong-zhuan V, ch.70 n.15: B-C'
-    tags: [polity:prc, polity:roc, name:mao-zedong, name:xu-shiyou, vis:only:prc, name:chiang-kai-shek]
+    tags: [polity:prc, polity:roc, name:mao-zedong, name:xu-shiyou, vis:only:prc, name:chiang-kai-shek, name:yang-chengwu]
   - id: cal.1962-06-08.china-leadership-2
     when: June 8
     date: '1962-06-08'
@@ -1511,7 +1511,7 @@ entries:
       c: 30bf24a2
       rows:
         - 'w.yang-shangkun-riji II, 181: all'
-    tags: [polity:prc, vis:only:prc+ussr]
+    tags: [polity:prc, vis:only:prc+ussr, name:wang-jiaxiang]
     time_range:
       - 1962-06-07T22:00Z
       - 1962-06-08T04:00Z
@@ -1527,7 +1527,7 @@ entries:
       c: cb42e811
       rows:
         - 'w.yang-shangkun-riji II, 181: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:cao-guanqun, name:luo-qiong, name:yang-shangkun, name:zeng-xianzhi]
     time_range:
       - 1962-06-08T04:00Z
       - 1962-06-08T10:00Z
@@ -1574,19 +1574,19 @@ entries:
       c: d43015a0
       rows:
         - 'w.yang-shangkun-riji II, 181–182: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
   - id: cal.1962-06-08.china-leadership-8
     when: June 8
     date: '1962-06-08'
     thread: china-leadership
     also: [china]
     c: 'Deng Xiaoping 邓小平, on Lu Dingyi''s 陆定一 revision of the Xinhua dispatch on the Chiang forces, sent by Wu Lengxi 吴冷西: "some places better"; to Liu Shaoqi 刘少奇, then Yang Shangkun 杨尚昆, the changes to the Chairman.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1709 (June 8, 1962). Made public: 2009 (the nianpu). See [[cal.1962-06-07.china-leadership-7]]. Names: Deng Xiaoping, Lu Dingyi, Liu Shaoqi.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1709 (June 8, 1962). Made public: 2009 (the nianpu). See [[cal.1962-06-07.china-leadership-7]]. Names: Deng Xiaoping, Lu Dingyi, Liu Shaoqi, Wu Lengxi, Yang Shangkun.'
     src:
       c: cec5af51
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1709: all'
-    tags: [polity:prc, name:deng-xiaoping, name:lu-dingyi, name:liu-shaoqi, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:lu-dingyi, name:liu-shaoqi, vis:only:prc, name:wu-lengxi, name:yang-shangkun]
   - id: cal.1962-06-08.china-leadership-10
     when: June 8
     date: '1962-06-08'
@@ -1682,7 +1682,7 @@ entries:
       c: b3f2baa5
       rows:
         - 'w.yang-shangkun-riji II, 182: all'
-    tags: [polity:prc, vis:only:prc+albania]
+    tags: [polity:prc, vis:only:prc+albania, name:alia, name:hysni-kapo, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-09.china-leadership-3
     when: June 9
@@ -1736,7 +1736,7 @@ entries:
       - cal.1962-06-10.soviet-union-leadership
     part_of: cal.1962-06-10.soviet-union-leadership-2
     c: '11 a.m., the Presidium with Gromyko, Malinovsky and the general staff. Rashidov and Biryuzov report Castro satisfied. Malinovsky''s memorandum: 24 R-12s and 16 R-14s, half as many in reserve; 80 nuclear cruise missiles; 42 Il-28s, a MiG-21 wing, 12 SA-2 units; a submarine base, eleven submarines; 50,874 men. Adopted unanimously.'
-    n: '[[w.fursenko-one-hell-of-a]], 187–89; [[w.fursenko-khrushchevs-cold-war]], 439–40 (Operation Anadyr: forty missiles in five regiments, 50,874 men, forty-two Il-28s, eighty FKRs; "I think we will win this operation"); [[w.poole-joint-chiefs-of-staff]], 161 (by June 10 a plan ready: 36 R-12s on 24 launchers, 24 R-14s on 16); [[w.prezidium-tsk-kpss-1954]], I, 568 (Protocol 35). Check: under P 35/I, June 10, Rashidov''s report, the volume prints only "Решение – особая папка" (decision: special file) ([[w.prezidium-tsk-kpss-1954]], III, 283); its note: the text never reached the archive (III, 1001 n.1). The Presidium''s materials are not printed. To check: General Ivanov''s notes on a Council of Ministers resolution, AGSRF (cited by [[w.fursenko-one-hell-of-a]], 187 n.13, 188 n.14); Dobrynin''s report of June 4 and the Presidium''s materials, APRF (cited by [[w.fursenko-one-hell-of-a]], 188 n.14). See [[cal.1962-05-24.missile-crisis]]. Names: Gromyko, Malinovsky, Castro.'
+    n: '[[w.fursenko-one-hell-of-a]], 187–89; [[w.fursenko-khrushchevs-cold-war]], 439–40 (Operation Anadyr: forty missiles in five regiments, 50,874 men, forty-two Il-28s, eighty FKRs; "I think we will win this operation"); [[w.poole-joint-chiefs-of-staff]], 161 (by June 10 a plan ready: 36 R-12s on 24 launchers, 24 R-14s on 16); [[w.prezidium-tsk-kpss-1954]], I, 568 (Protocol 35). Check: under P 35/I, June 10, Rashidov''s report, the volume prints only "Решение – особая папка" (decision: special file) ([[w.prezidium-tsk-kpss-1954]], III, 283); its note: the text never reached the archive (III, 1001 n.1). The Presidium''s materials are not printed. To check: General Ivanov''s notes on a Council of Ministers resolution, AGSRF (cited by [[w.fursenko-one-hell-of-a]], 187 n.13, 188 n.14); Dobrynin''s report of June 4 and the Presidium''s materials, APRF (cited by [[w.fursenko-one-hell-of-a]], 188 n.14). See [[cal.1962-05-24.missile-crisis]]. Names: Gromyko, Malinovsky, Castro, Rashidov.'
     src:
       c: e6c554f1
       rows:
@@ -1747,7 +1747,7 @@ entries:
         - 'w.poole-joint-chiefs-of-staff 161: A, C'
         - 'w.prezidium-tsk-kpss-1954 I, 568: A-B, H'
         - 'via x.1962-06-10.presidium-protocol-35: A-B, H'
-    tags: [name:gromyko-andrei, name:malinovsky-rodion-y, name:castro-fidel, vis:only:ussr]
+    tags: [name:gromyko-andrei, name:malinovsky-rodion-y, name:castro-fidel, vis:only:ussr, name:rashidov]
   - id: cal.1962-06-10.soviet-union-leadership
     when: June 10
     date: '1962-06-10'
@@ -1755,16 +1755,16 @@ entries:
     thread: soviet-union-leadership
     part_of: cal.1962-06-10.soviet-union-leadership-2
     c: 'The Presidium, the same session as Rashidov''s report on Cuba, first on Kozlov''s report of the events in Novocherkassk: "Хорошо провели акцию. Другого выхода у нас не было" (the action well carried out; we had no other way out); the sectarian organizations to be broken up; Basov a weak worker; the KGB''s work to be strengthened. Shelepin, Semichastny, Ivashutin and others to bring proposals in a month.'
-    n: 'Protocol 35, item II. [[w.prezidium-tsk-kpss-1954]], I, 568 (doc. 252, Malin''s notes; Kozlov, Mikoyan, Ilyichev, Khrushchev speaking); I, 1102 nn.1–2 (the editors: the prices of meat, milk and eggs raised June 1; the troops fired on the demonstrators, about 23 dead; Basov, first secretary in Rostov); III, 283 (P 35/II). See [[cal.1962-06-10.missile-crisis]], [[cal.1962-06-01.soviet-union]]. Made public: 2003. Names: Kozlov, Basov, Shelepin, Semichastny, Ivashutin.'
-    tags: [name:kozlov-frol-r, name:shelepin-aleksandr-n, polity:ussr]
+    n: 'Protocol 35, item II. [[w.prezidium-tsk-kpss-1954]], I, 568 (doc. 252, Malin''s notes; Kozlov, Mikoyan, Ilyichev, Khrushchev speaking); I, 1102 nn.1–2 (the editors: the prices of meat, milk and eggs raised June 1; the troops fired on the demonstrators, about 23 dead; Basov, first secretary in Rostov); III, 283 (P 35/II). See [[cal.1962-06-10.missile-crisis]], [[cal.1962-06-01.soviet-union]]. Made public: 2003. Names: Kozlov, Basov, Shelepin, Semichastny, Ivashutin, Rashidov.'
+    tags: [name:kozlov-frol-r, name:shelepin-aleksandr-n, polity:ussr, name:basov, name:ivashutin, name:rashidov, name:semichastny]
   - id: cal.1962-06-10.soviet-union-leadership-2
     when: June 10
     date: '1962-06-10'
     place: moscow
     thread: soviet-union-leadership
     c: 'The Presidium in session, Protocol 35, Khrushchev presiding. Present: Brezhnev, Kirilenko, Kozlov, Kosygin, Kuusinen, Mikoyan, Polyansky, Suslov, Rashidov, Grishin, Demichev, Ilyichev, Ponomarev, Shelepin, Malinovsky, Grechko, Chuikov, Biryuzov, Zakharov, Epishev, Gromyko, S. P. Ivanov.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 567–68 (Protocol 35, Malin''s notes and his list of those present); III, 283 (P 35/I and II); III, 1001 n.1 (Khrushchev presiding). Names: Khrushchev, Brezhnev, Kirilenko, Kozlov, Kosygin, Kuusinen, Mikoyan, Polyansky, Suslov, Demichev, Ponomarev, Shelepin, Malinovsky, Grechko, Zakharov, Gromyko.'
-    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kirilenko-andrei-p, name:kozlov-frol-r, name:kosygin-aleksei, name:kuusinen-otto-v, name:mikoyan-anastas, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:malinovsky-rodion-y, name:grechko-andrei-a, name:zakharov-matvei-vasileevich, name:gromyko-andrei]
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 567–68 (Protocol 35, Malin''s notes and his list of those present); III, 283 (P 35/I and II); III, 1001 n.1 (Khrushchev presiding). Names: Khrushchev, Brezhnev, Kirilenko, Kozlov, Kosygin, Kuusinen, Mikoyan, Polyansky, Suslov, Demichev, Ponomarev, Shelepin, Malinovsky, Grechko, Zakharov, Gromyko, Rashidov, Grishin, Ilyichev, Epishev.'
+    tags: [name:khrushchev-nikita-s, name:brezhnev-leonid, name:kirilenko-andrei-p, name:kozlov-frol-r, name:kosygin-aleksei, name:kuusinen-otto-v, name:mikoyan-anastas, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:demichev-pyotr-n, name:ponomarev-boris-n, name:shelepin-aleksandr-n, name:malinovsky-rodion-y, name:grechko-andrei-a, name:zakharov-matvei-vasileevich, name:gromyko-andrei, name:epishev, name:grishin, name:ilyichev, name:rashidov]
     time_range:
       - 1962-06-10T06:00Z
       - 1962-06-10T14:00Z
@@ -1825,7 +1825,7 @@ entries:
       c: 3432e278
       rows:
         - 'w.yang-shangkun-riji II, 182: all'
-    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc, name:jia-bubin, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-10.china-leadership-6
     when: June 10
@@ -1839,7 +1839,7 @@ entries:
       c: 8ab7d9e0
       rows:
         - 'w.yang-shangkun-riji II, 182: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-10.china-leadership-7
     when: June 10
@@ -1971,7 +1971,7 @@ entries:
       c: 5d12faae
       rows:
         - 'w.yang-shangkun-riji II, 183: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:liu-lantao, name:yang-shangkun]
     time_range:
       - 1962-06-11T11:00Z
       - 1962-06-11T14:00Z
@@ -1983,13 +1983,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Deng Xiaoping 邓小平 leads the Chinese side in its first talk with the Albanian Party of Labor''s delegation under Hysni Kapo 卡博: among brother parties equality, independence and agreement by consultation; dogmatism to be fought hard; leaving the universal truth leads to revisionism, leaving one''s own practice to dogmatism.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1709–1710 (June 11, 1962); [[w.peng-zhen-nianpu-1902]], IV, 200 (June 11–15, 1962; Peng Zhen, a member of the Chinese delegation, with Deng and others in several talks with Kapo''s delegation on international questions, Soviet–Albanian and Sino-Soviet relations). The talks, six in all, June 11–26: the world, the movement, the line against revisionism, disarmament and peace, Soviet–Albanian relations, Stalin, Sino-Soviet relations, an international meeting (III, 1709). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1709–1710 (June 11, 1962); [[w.peng-zhen-nianpu-1902]], IV, 200 (June 11–15, 1962; Peng Zhen, a member of the Chinese delegation, with Deng and others in several talks with Kapo''s delegation on international questions, Soviet–Albanian and Sino-Soviet relations). The talks, six in all, June 11–26: the world, the movement, the line against revisionism, disarmament and peace, Soviet–Albanian relations, Stalin, Sino-Soviet relations, an international meeting (III, 1709). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Hysni Kapo.'
     src:
       c: d5e02355
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1709–1710: all'
         - 'w.peng-zhen-nianpu-1902 IV, 200: ?'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+albania]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+albania, name:hysni-kapo]
   - id: cal.1962-06-11.china-leadership-6
     when: June 11
     date: '1962-06-11'
@@ -2139,7 +2139,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 298–300: all'
         - 'w.zedong-mao-zedong-nianpu V, June 11, 1962: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1709: ?'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:peng-zhen, name:luo-ruiqing, name:lu-dingyi, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:peng-zhen, name:luo-ruiqing, name:lu-dingyi, vis:only:prc, name:lin-ke, name:wu-lengxi, name:xiao-hua]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-12.china-leadership-3
     when: June 12
@@ -2151,7 +2151,7 @@ entries:
       c: f433b2ce
       rows:
         - 'w.yang-shangkun-riji II, 183: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hu-jianqing, name:yang-shangkun]
     time_range:
       - 1962-06-11T22:00Z
       - 1962-06-12T04:00Z
@@ -2167,7 +2167,7 @@ entries:
       c: f17068d2
       rows:
         - 'w.yang-shangkun-riji II, 183: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-chou, name:yang-shangkun]
     time_range:
       - 1962-06-11T22:00Z
       - 1962-06-12T04:00Z
@@ -2315,7 +2315,7 @@ entries:
       c: b82c1f92
       rows:
         - 'w.yang-shangkun-riji II, 183: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:jia-bubin, name:yang-shangkun, name:yao-liwen]
     time_range:
       - 1962-06-13T04:00Z
       - 1962-06-13T10:00Z
@@ -2514,7 +2514,7 @@ entries:
       c: fcd7f35c
       rows:
         - 'w.yang-shangkun-riji II, 183: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-14.china-leadership-3
     when: June 14
@@ -2527,7 +2527,7 @@ entries:
       c: 051062a1
       rows:
         - 'w.yang-shangkun-riji II, 183: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:shi-shuhan, name:yang-shangkun]
     time_range:
       - 1962-06-14T04:00Z
       - 1962-06-14T10:00Z
@@ -2545,7 +2545,7 @@ entries:
       c: f7b01405
       rows:
         - 'w.yang-shangkun-riji II, 183: all'
-    tags: [polity:prc, vis:only:prc+albania]
+    tags: [polity:prc, vis:only:prc+albania, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-14.china-leadership-5
     when: June 14
@@ -2560,7 +2560,7 @@ entries:
       c: 995470e6
       rows:
         - 'w.yang-shangkun-riji II, 183: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
   - id: cal.1962-06-14.china-leadership-6
     when: June 14
     date: '1962-06-14'
@@ -2604,13 +2604,13 @@ entries:
     place: warsaw
     thread: china
     c: Warsaw. Wang Bingnan, back at his post, proposes to John Cabot, the American Ambassador, an "informal tea chat" the next day; Cabot accepts at once.
-    n: '[[w.jian-zhou-enlai]], 474. Made public: 2024. To check: Wang Bingnan to Foreign Ministry, June 14, 1962 (cited by [[w.jian-zhou-enlai]], 474 n.39). Names: John M. Cabot.'
+    n: '[[w.jian-zhou-enlai]], 474. Made public: 2024. To check: Wang Bingnan to Foreign Ministry, June 14, 1962 (cited by [[w.jian-zhou-enlai]], 474 n.39). Names: John M. Cabot, Wang Bingnan.'
     src:
       c: 92b6cacf
       rows:
         - 'w.jian-zhou-enlai 474: all'
         - 'via x.1962-06-14.wang-bingnan-to-foreign-ministry: all'
-    tags: [polity:prc, vis:only:prc+us, name:cabot-john-m]
+    tags: [polity:prc, vis:only:prc+us, name:cabot-john-m, name:wang-bingnan]
   - id: cal.1962-06-14.china-leadership-9
     when: June 14
     date: '1962-06-14'
@@ -2619,14 +2619,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'The Foreign Ministry to Wang Bingnan, 11 p.m., on Zhou Enlai''s order: plead illness and put off the meeting with the American Ambassador some days, the troops'' move to Fujian delayed by floods.'
-    n: '[[w.jian-zhou-enlai]], 474. The words: "23:00, June 14, 1962" (474 n.40). Made public: 1985. To check: Foreign Ministry to Wang Bingnan, 23:00, June 14, 1962 (cited by [[w.jian-zhou-enlai]], 474 n.40a); Wang to Foreign Ministry, June 15, 1965 (so printed; 1962 by the file) (cited by [[w.jian-zhou-enlai]], 474 n.40b); [[w.wang-bingnan-zhongmei-huitan-jiunian-huigu]], 87 (cited by [[w.jian-zhou-enlai]], 474 n.40c); [[w.wang-bingnan-zhongmei-huitan-jiunian-huigu]], 87 (cited by [[w.jian-zhou-enlai]], 474 n.41). Names: Zhou Enlai.'
+    n: '[[w.jian-zhou-enlai]], 474. The words: "23:00, June 14, 1962" (474 n.40). Made public: 1985. To check: Foreign Ministry to Wang Bingnan, 23:00, June 14, 1962 (cited by [[w.jian-zhou-enlai]], 474 n.40a); Wang to Foreign Ministry, June 15, 1965 (so printed; 1962 by the file) (cited by [[w.jian-zhou-enlai]], 474 n.40b); [[w.wang-bingnan-zhongmei-huitan-jiunian-huigu]], 87 (cited by [[w.jian-zhou-enlai]], 474 n.40c); [[w.wang-bingnan-zhongmei-huitan-jiunian-huigu]], 87 (cited by [[w.jian-zhou-enlai]], 474 n.41). Names: Zhou Enlai, Wang Bingnan.'
     src:
       c: 4bd8d4f4
       rows:
         - 'w.jian-zhou-enlai 474: all'
         - 'via x.1962-06-14.foreign-ministry-to-wang-bingnan-2300: all'
         - 'via x.1962-06-15.wang-bingnan-to-foreign-ministry: all'
-    tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:wang-bingnan]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-14.china-leadership-10
     when: June 14
@@ -2671,7 +2671,7 @@ entries:
     thread: china-leadership
     c: 'Zhou Enlai at Tieling county, to investigate. At Digong brigade, Pingdingbao commune, he asks the members of their living and production, hears the difficulties, says they are temporary and he will carry the poor and lower-middle peasants'' wishes to the Center and Mao. He weeds with them, visits the old and children, and climbs Longshou hill with Deng Yingchao, recalling his schooldays there. During the stay at Shenyang (undated), to his household staff: no fish, eggs or meat; leaders must not be exceptions when the masses are in difficulty.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 483 (June 15, 1962). Continues 484. Made public: 1997. Names: Zhou Enlai, Deng Yingchao, Mao Zedong.'
-    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc, name:deng-yingchao]
   - id: cal.1962-06-15.china-leadership-2
     when: June 15
     date: '1962-06-15'
@@ -2707,7 +2707,7 @@ entries:
       c: a298e1d5
       rows:
         - 'w.yang-shangkun-riji II, 184: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yan-mingfu, name:yang-shangkun]
     time_range:
       - 1962-06-14T22:00Z
       - 1962-06-15T04:00Z
@@ -2723,7 +2723,7 @@ entries:
       c: 02c51109
       rows:
         - 'w.yang-shangkun-riji II, 184: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-06-15T04:00Z
       - 1962-06-15T10:00Z
@@ -2896,7 +2896,7 @@ entries:
       c: ade35c37
       rows:
         - 'w.yang-shangkun-riji II, 184: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-16.china-leadership-3
     when: June 16
@@ -2908,7 +2908,7 @@ entries:
       c: a7bfa5f5
       rows:
         - 'w.yang-shangkun-riji II, 184: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-chuli, name:yang-shangkun, name:zhao-han]
     time_range:
       - 1962-06-16T04:00Z
       - 1962-06-16T10:00Z
@@ -2952,14 +2952,14 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真 at the dinner for Pak Kum Chol 朴金喆 and the Korean Supreme People's Assembly's delegation.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 200; [[w.chen-yi-nianpu]], 921 (June 16, 1962, evening; Chen Yi at Zhu De''s banquet for the delegation, its deputy heads 康良煜 and 朴信德); [[w.zhu-de-nianpu-xinbian]], III, 1843 (June 16, 1962; that evening Zhu De 朱德 gives the welcome banquet for Pak Kum Chol 朴金哲 and the delegation, and speaks). The words: 并出席晚宴 (IV, 200). See [[cal.1962-06-16.china-leadership-8]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 200; [[w.chen-yi-nianpu]], 921 (June 16, 1962, evening; Chen Yi at Zhu De''s banquet for the delegation, its deputy heads 康良煜 and 朴信德); [[w.zhu-de-nianpu-xinbian]], III, 1843 (June 16, 1962; that evening Zhu De 朱德 gives the welcome banquet for Pak Kum Chol 朴金哲 and the delegation, and speaks). The words: 并出席晚宴 (IV, 200). See [[cal.1962-06-16.china-leadership-8]]. Names: Peng Zhen, Pak Kum-chol.'
     src:
       c: aa03be4e
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 200: all'
         - 'w.chen-yi-nianpu 921: ?'
         - 'w.zhu-de-nianpu-xinbian III, 1843: ?'
-    tags: [polity:prc, name:peng-zhen]
+    tags: [polity:prc, name:peng-zhen, name:pak-kum-chol]
     time_range:
       - 1962-06-16T11:00Z
       - 1962-06-16T14:00Z
@@ -2971,13 +2971,13 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真 accompanies Zhu De 朱德 in meeting Pak Kum Chol 朴金喆 and his delegation.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 200; [[w.zhu-de-nianpu-xinbian]], III, 1843 (June 16, 1962; Zhu De 朱德 receives at the Great Hall of the People 人民大会堂 Pak Kum Chol 朴金哲, member of the Standing Committee of the Supreme People''s Assembly and vice-chairman of the Workers'' Party''s Central Committee, and the Supreme People''s Assembly delegation he leads). The words: 下午 (IV, 200). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Zhu De.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 200; [[w.zhu-de-nianpu-xinbian]], III, 1843 (June 16, 1962; Zhu De 朱德 receives at the Great Hall of the People 人民大会堂 Pak Kum Chol 朴金哲, member of the Standing Committee of the Supreme People''s Assembly and vice-chairman of the Workers'' Party''s Central Committee, and the Supreme People''s Assembly delegation he leads). The words: 下午 (IV, 200). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Zhu De, Pak Kum-chol.'
     src:
       c: 8814c676
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 200: all'
         - 'w.zhu-de-nianpu-xinbian III, 1843: ?'
-    tags: [polity:prc, name:peng-zhen, name:zhu-de]
+    tags: [polity:prc, name:peng-zhen, name:zhu-de, name:pak-kum-chol]
     time_range:
       - 1962-06-16T04:00Z
       - 1962-06-16T10:00Z
@@ -3037,7 +3037,7 @@ entries:
       c: 676c21d6
       rows:
         - 'w.yang-shangkun-riji II, 184: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-06-16T22:00Z
       - 1962-06-17T04:00Z
@@ -3058,7 +3058,7 @@ entries:
         - 'w.yang-shangkun-riji II, 184: all'
         - 'w.chen-yi-nianpu 921: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 201: ?'
-    tags: [polity:prc, name:liu-shaoqi, vis:only:prc+dprk]
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc+dprk, name:pak-kum-chol, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-17.china-leadership-5
     when: June 17
@@ -3198,7 +3198,7 @@ entries:
       c: d014d706
       rows:
         - 'w.yang-shangkun-riji II, 184: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-06-17T22:00Z
       - 1962-06-18T04:00Z
@@ -3214,7 +3214,7 @@ entries:
       c: a11090d6
       rows:
         - 'w.yang-shangkun-riji II, 184: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-06-18T04:00Z
       - 1962-06-18T10:00Z
@@ -3233,7 +3233,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 185: all'
         - 'w.peng-dehuai-nianpu 775: ?'
-    tags: [polity:prc, name:peng-dehuai, vis:only:prc]
+    tags: [polity:prc, name:peng-dehuai, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
     variants:
       - unit: B
@@ -3387,7 +3387,7 @@ entries:
       c: c9e9513a
       rows:
         - 'w.yang-shangkun-riji II, 185–187: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:gu-zhuoxin]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-19.china-leadership-5
     when: June 19
@@ -3401,7 +3401,7 @@ entries:
       c: c73d600d
       rows:
         - 'w.yang-shangkun-riji II, 185–187: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:yang-shangkun]
   - id: cal.1962-06-19.china-leadership-4
     when: June 19
     date: '1962-06-19'
@@ -3532,7 +3532,7 @@ entries:
     thread: china-leadership
     c: 'Zhou Enlai, evening, hears Yu Qiuli and Kang Shi''en on the Daqing oilfield campaign; late at night, urged to rest: the older, the more work to do.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 485 (June 20, 1962). Made public: 1997. Names: Zhou Enlai, Yu Qiuli, Kang Shi''en.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:kang-shien, name:yu-qiuli]
   - id: cal.1962-06-20.china
     when: June 20
     date: '1962-06-20'
@@ -3585,7 +3585,7 @@ entries:
       c: 7096bff4
       rows:
         - 'w.yang-shangkun-riji II, 187: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
     time_range:
       - 1962-06-20T11:00Z
       - 1962-06-20T14:00Z
@@ -3620,12 +3620,12 @@ entries:
     place: wuhan
     thread: china-leadership
     c: Wuhan 武汉. Peng Zhen 彭真, accompanying the Korean Supreme People's Assembly's delegation to Wuhan and elsewhere, sees the Yangtze bridge and the Wuhan steel works with Wang Renzhong 王任重 and Zhang Tixue 张体学.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 201. The page''s note: Zhang Tixue, governor of Hubei (IV, 201). The words: 上午……前往武汉……下午 (IV, 201). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 201. The page''s note: Zhang Tixue, governor of Hubei (IV, 201). The words: 上午……前往武汉……下午 (IV, 201). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Wang Renzhong, Zhang Tixue.'
     src:
       c: a6ebddc8
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 201: all'
-    tags: [polity:prc, name:peng-zhen]
+    tags: [polity:prc, name:peng-zhen, name:wang-renzhong, name:zhang-tixue]
     time_range:
       - 1962-06-20T04:00Z
       - 1962-06-20T10:00Z
@@ -3636,8 +3636,8 @@ entries:
     date: '1962-06-20'
     thread: china-leadership
     c: 'Zhu De 朱德 talks with Yang Chengwu 杨成武, deputy chief of the General Staff 中国人民解放军副总参谋长, on defense building and readiness for war: the navy''s technical equipment and the defense of the islands to be strengthened; if war comes the navy and the islands will meet it first, Hainan Island 海南岛 and Zhejiang 浙江 above all; new military techniques to be mastered, or strategy and tactics will come to nothing.'
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1843. Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, ok:fields-place, name:zhu-de, vis:only:prc]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1843. Made public: 2016. Names: Zhu De, Yang Chengwu.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, vis:only:prc, name:yang-chengwu]
   - id: cal.1962-06-20.china-leadership-9
     when: June 20
     date: '1962-06-20'
@@ -3722,7 +3722,7 @@ entries:
     also: [soviet-union]
     c: Wuchang, 6 p.m. Mao receives the Korean Supreme People's Assembly delegation under Pak Kum Chol, vice-chairman of the Workers' Party; Peng Zhen, Ke Qingshi, Tao Zhu, Wang Renzhong and Wu Xiuquan present. A country must rely on itself first and on foreign aid second; Khrushchev does not like China's self-reliance; of the 81 parties, a majority for now follow Khrushchev, China a minority; the Soviet people are good.
     n: '[[w.zedong-mao-zedong-nianpu]], V, June 21, 1962; [[w.peng-zhen-nianpu-1902]], IV, 202 (June 21, 1962, afternoon; at Wuhan; Peng Zhen accompanies Mao in meeting and giving a banquet for all the members of the Korean Supreme People''s Assembly''s delegation). Made public: 2013. Names: Mao Zedong, Pak Kum Chol, Peng Zhen, Ke Qingshi, Tao Zhu, Wang Renzhong, Wu Xiuquan, Khrushchev.'
-    tags: [polity:prc, polity:dprk, name:mao-zedong, name:peng-zhen, name:ke-qingshi, name:tao-zhu, vis:only:prc+dprk, name:khrushchev-nikita-s]
+    tags: [polity:prc, polity:dprk, name:mao-zedong, name:peng-zhen, name:ke-qingshi, name:tao-zhu, vis:only:prc+dprk, name:khrushchev-nikita-s, name:pak-kum-chol, name:wang-renzhong, name:wu-xiuquan]
   - id: cal.1962-06-21.china-leadership-2
     when: June 21
     date: '1962-06-21'
@@ -3742,7 +3742,7 @@ entries:
       c: 1427db4f
       rows:
         - 'w.yang-shangkun-riji II, 187: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-06-20T22:00Z
       - 1962-06-21T04:00Z
@@ -3825,8 +3825,8 @@ entries:
     place: wuhan
     thread: china-leadership
     c: Wuchang. Mao with Ke Qingshi, Tao Zhu, Wang Renzhong, Tian Jiaying and Wang Dongxing on rural questions; puts forward revisions of the "Sixty Articles" (the communes' work regulations).
-    n: '[[w.zedong-mao-zedong-nianpu]], V, June 22, 1962. Made public: 2013. Names: Mao Zedong, Ke Qingshi, Tao Zhu.'
-    tags: [polity:prc, name:mao-zedong, name:ke-qingshi, name:tao-zhu, vis:only:prc]
+    n: '[[w.zedong-mao-zedong-nianpu]], V, June 22, 1962. Made public: 2013. Names: Mao Zedong, Ke Qingshi, Tao Zhu, Wang Renzhong, Tian Jiaying, Wang Dongxing.'
+    tags: [polity:prc, name:mao-zedong, name:ke-qingshi, name:tao-zhu, vis:only:prc, name:tian-jiaying, name:wang-dongxing, name:wang-renzhong]
   - id: cal.1962-06-22.china-leadership-2
     when: June 22
     date: '1962-06-22'
@@ -3850,7 +3850,7 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 70 n.19: B-D'
         - 'via w.mao-zedong-zhuan V, ch.70 n.19: B-D'
         - 'w.peng-zhen-nianpu-1902 IV, 202: ?'
-    tags: [polity:prc, name:mao-zedong, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:peng-zhen, vis:only:prc, name:hysni-kapo]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-22.china-leadership-4
     when: June 22
@@ -3862,7 +3862,7 @@ entries:
       c: e4d4cc60
       rows:
         - 'w.yang-shangkun-riji II, 188: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-lisan]
     time_range:
       - 1962-06-21T22:00Z
       - 1962-06-22T04:00Z
@@ -3879,7 +3879,7 @@ entries:
       c: e40cbfd2
       rows:
         - 'w.yang-shangkun-riji II, 188: all'
-    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-22.vietnam-hanoi
     when: June 22–23
@@ -3896,25 +3896,25 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'The Foreign Ministry to Wang Bingnan: make an appointment to meet the American Ambassador on the 23rd or the 24th.'
-    n: '[[w.jian-zhou-enlai]], 474. Made public: 2024. To check: Foreign Ministry to Wang, June 22, 1962 (cited by [[w.jian-zhou-enlai]], 474 n.42).'
+    n: '[[w.jian-zhou-enlai]], 474. Made public: 2024. To check: Foreign Ministry to Wang, June 22, 1962 (cited by [[w.jian-zhou-enlai]], 474 n.42). Names: Wang Bingnan.'
     src:
       c: 1821bf4c
       rows:
         - 'w.jian-zhou-enlai 474: all'
         - 'via x.1962-06-22.foreign-ministry-to-wang-make-appointment: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-bingnan]
   - id: cal.1962-06-22.china
     when: June 22
     date: '1962-06-22'
     place: warsaw
     thread: china
     c: Warsaw. Wang Bingnan invites Cabot to meet the next day; Cabot agrees at once.
-    n: '[[w.jian-zhou-enlai]], 474. Made public: 2024. See [[cal.1962-06-22.china-leadership-8]]. Names: John M. Cabot.'
+    n: '[[w.jian-zhou-enlai]], 474. Made public: 2024. See [[cal.1962-06-22.china-leadership-8]]. Names: John M. Cabot, Wang Bingnan.'
     src:
       c: 287d6a0d
       rows:
         - 'w.jian-zhou-enlai 474: all'
-    tags: [polity:prc, vis:only:prc+us, name:cabot-john-m]
+    tags: [polity:prc, vis:only:prc+us, name:cabot-john-m, name:wang-bingnan]
   - id: cal.1962-06-22.china-leadership-9
     when: June 22
     date: '1962-06-22'
@@ -3923,13 +3923,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'The Foreign Ministry to Wang Bingnan, 4 p.m.: at 11 p.m. on the 23rd, Peking time, the news of Chiang''s plan to attack the mainland will be "in the air."'
-    n: '[[w.jian-zhou-enlai]], 474 (a few hours after the first instruction). The words: "16:00, June 22, 1962" (474 n.43); "at 23:00 on the twenty-third, Beijing time" (474). Made public: 2024. To check: Foreign Ministry to Wang, 16:00, June 22, 1962 (cited by [[w.jian-zhou-enlai]], 474 n.43). Names: Chiang Kai-shek.'
+    n: '[[w.jian-zhou-enlai]], 474 (a few hours after the first instruction). The words: "16:00, June 22, 1962" (474 n.43); "at 23:00 on the twenty-third, Beijing time" (474). Made public: 2024. To check: Foreign Ministry to Wang, 16:00, June 22, 1962 (cited by [[w.jian-zhou-enlai]], 474 n.43). Names: Chiang Kai-shek, Wang Bingnan.'
     src:
       c: d72ed259
       rows:
         - 'w.jian-zhou-enlai 474: all'
         - 'via x.1962-06-22.foreign-ministry-to-wang-1600: all'
-    tags: [polity:prc, vis:only:prc, name:chiang-kai-shek]
+    tags: [polity:prc, vis:only:prc, name:chiang-kai-shek, name:wang-bingnan]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-22.china-leadership-6
     when: June 22
@@ -3937,12 +3937,12 @@ entries:
     place: shanghai
     thread: china-leadership
     c: Shanghai 上海. Peng Zhen 彭真 brings the Korean Supreme People's Assembly's delegation from Wuhan 武汉 to Shanghai; in the afternoon with Cao Diqiu 曹荻秋 takes it to the Shanghai Museum of Revolutionary History 上海革命历史纪念馆 and the Children's Palace 少年宫.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The page''s note: Cao Diqiu, secretary of the Shanghai committee''s Secretariat and vice-mayor of Shanghai (IV, 202). The words: 上午……下午 (IV, 202). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The page''s note: Cao Diqiu, secretary of the Shanghai committee''s Secretariat and vice-mayor of Shanghai (IV, 202). The words: 上午……下午 (IV, 202). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Cao Diqiu.'
     src:
       c: 00da4426
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 202: all'
-    tags: [polity:prc, name:peng-zhen]
+    tags: [polity:prc, name:peng-zhen, name:cao-diqiu]
     time_range:
       - 1962-06-21T22:00Z
       - 1962-06-22T04:00Z
@@ -3954,12 +3954,12 @@ entries:
     place: shanghai
     thread: china-leadership
     c: Shanghai 上海. Peng Zhen 彭真 at the reception given by Cao Diqiu 曹荻秋 for the Korean delegation and the Korean State Art Theater, then visiting Shanghai.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The words: 晚上 (IV, 202). See [[cal.1962-06-22.china-leadership-6]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The words: 晚上 (IV, 202). See [[cal.1962-06-22.china-leadership-6]]. Names: Peng Zhen, Cao Diqiu.'
     src:
       c: 7db7477b
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 202: all'
-    tags: [polity:prc, name:peng-zhen]
+    tags: [polity:prc, name:peng-zhen, name:cao-diqiu]
     time_range:
       - 1962-06-22T11:00Z
       - 1962-06-22T14:00Z
@@ -4076,7 +4076,7 @@ entries:
     thread: china
     also: [china-leadership]
     c: Warsaw. At Chinese request, at twenty-four hours' notice, the Sino-American ambassadorial talks meet. Over tea at his residence, Wang Bingnan warns John Moors Cabot, the American ambassador, against supporting a Kuomintang invasion. Cabot assures him that Washington will not support any attempt by the Taiwan regime to attack the mainland.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 272; [[w.jian-zhou-enlai]], 474–475 (June 23, tea at Wang''s: on Zhou''s instructions, America "playing with fire"; Cabot: no permission for an attack on the mainland, contact to be kept; Wang: invading Taiwan "nonexistent"; Wang''s report to Peking after); [[w.chang-friends-and-enemies]], 226 (the American position told the Chinese Communists). Made public: 1975. To check: [[w.bingnan-nine-years-of-sino]], 48–50 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.68a); [[w.whiting-chinese-calculus-of-deterrence]], 68 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.68b); Clough to Rusk, June 21, 1962, no. 799.00/6-2162, in USSD 1960–1963 Internal, reel 6 (cited by [[w.jian-zhou-enlai]], 474 n.44a); Clough to Rusk, June 22, 1962, no. 792.00/6-2262 (cited by [[w.jian-zhou-enlai]], 474 n.44b); Wang to Foreign Ministry, June 23, 1962 (cited by [[w.jian-zhou-enlai]], 475 n.45a); [[w.wang-bingnan-zhongmei-huitan-jiunian-huigu]], 86–90 (cited by [[w.jian-zhou-enlai]], 475 n.45b); [[w.foreign-relations-of-the]], XXII, 273–275 (Cabot to the Department of State, June 23, 1962) (cited by [[w.jian-zhou-enlai]], 475 n.45c). See [[cal.1962-06.china-leadership-8]]. Names: John M. Cabot.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 272; [[w.jian-zhou-enlai]], 474–475 (June 23, tea at Wang''s: on Zhou''s instructions, America "playing with fire"; Cabot: no permission for an attack on the mainland, contact to be kept; Wang: invading Taiwan "nonexistent"; Wang''s report to Peking after); [[w.chang-friends-and-enemies]], 226 (the American position told the Chinese Communists). Made public: 1975. To check: [[w.bingnan-nine-years-of-sino]], 48–50 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.68a); [[w.whiting-chinese-calculus-of-deterrence]], 68 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.68b); Clough to Rusk, June 21, 1962, no. 799.00/6-2162, in USSD 1960–1963 Internal, reel 6 (cited by [[w.jian-zhou-enlai]], 474 n.44a); Clough to Rusk, June 22, 1962, no. 792.00/6-2262 (cited by [[w.jian-zhou-enlai]], 474 n.44b); Wang to Foreign Ministry, June 23, 1962 (cited by [[w.jian-zhou-enlai]], 475 n.45a); [[w.wang-bingnan-zhongmei-huitan-jiunian-huigu]], 86–90 (cited by [[w.jian-zhou-enlai]], 475 n.45b); [[w.foreign-relations-of-the]], XXII, 273–275 (Cabot to the Department of State, June 23, 1962) (cited by [[w.jian-zhou-enlai]], 475 n.45c). See [[cal.1962-06.china-leadership-8]]. Names: John M. Cabot, Wang Bingnan.'
     src:
       c: 89fcb6bb
       rows:
@@ -4088,7 +4088,7 @@ entries:
         - 'via x.1962-06-22.clough-to-rusk: ?'
         - 'via x.1962-06-23.wang-bingnan-to-foreign-ministry-cabot-talk: ?'
         - 'w.chang-friends-and-enemies 226: ?'
-    tags: [polity:prc, polity:us, vis:only:prc+us, name:cabot-john-m]
+    tags: [polity:prc, polity:us, vis:only:prc+us, name:cabot-john-m, name:wang-bingnan]
   - id: cal.1962-06-23.china-leadership-4
     when: June 23
     date: '1962-06-23'
@@ -4100,7 +4100,7 @@ entries:
       c: afa82b4f
       rows:
         - 'w.yang-shangkun-riji II, 188: all'
-    tags: [polity:prc, name:tan-zhenlin, vis:only:prc]
+    tags: [polity:prc, name:tan-zhenlin, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-23.china-leadership-5
     when: June 23
@@ -4131,12 +4131,12 @@ entries:
     place: shanghai
     thread: china-leadership
     c: Culture Square 文化广场, Shanghai 上海. Peng Zhen 彭真, with Cao Diqiu 曹荻秋, Shi Ximin 石西民, Liu Shuzhou 刘述周 and others, accompanies the Korean Supreme People's Assembly's delegation to Shanghai's welcome meeting of more than 10,000; then with Cao to the Shanghai industrial exhibition 上海工业展览会.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The page''s notes: Shi Ximin, alternate secretary of the Shanghai committee''s Secretariat; Liu Shuzhou, alternate secretary of the Secretariat and vice-mayor of Shanghai (IV, 202). The words: 上午 (IV, 202). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The page''s notes: Shi Ximin, alternate secretary of the Shanghai committee''s Secretariat; Liu Shuzhou, alternate secretary of the Secretariat and vice-mayor of Shanghai (IV, 202). The words: 上午 (IV, 202). See [[cal.1962-06-16.china-leadership-6]]. Names: Peng Zhen, Cao Diqiu, Shi Ximin, Liu Shuzhou.'
     src:
       c: bce0d1c4
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 202: all'
-    tags: [polity:prc, name:peng-zhen]
+    tags: [polity:prc, name:peng-zhen, name:cao-diqiu, name:liu-shuzhou, name:shi-ximin]
     time_range:
       - 1962-06-22T22:00Z
       - 1962-06-23T04:00Z
@@ -4148,12 +4148,12 @@ entries:
     place: hangzhou
     thread: china-leadership
     c: Hangzhou 杭州. Peng Zhen 彭真 brings the Korean delegation from Shanghai 上海 to Hangzhou; with Jiang Hua 江华 and others takes it to the Du Jinsheng silk weaving works 都锦生丝织厂 and, in the rain, round West Lake 西湖.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The words: 下午 (IV, 202). See [[cal.1962-06-23.china-leadership-6]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The words: 下午 (IV, 202). See [[cal.1962-06-23.china-leadership-6]]. Names: Peng Zhen, Jiang Hua.'
     src:
       c: fa1198b7
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 202: all'
-    tags: [polity:prc, name:peng-zhen]
+    tags: [polity:prc, name:peng-zhen, name:jiang-hua]
     time_range:
       - 1962-06-23T04:00Z
       - 1962-06-23T10:00Z
@@ -4165,12 +4165,12 @@ entries:
     place: hangzhou
     thread: china-leadership
     c: Hangzhou 杭州. Peng Zhen 彭真 at the welcome banquet given for the Korean delegation by Zhou Jianren 周建人, governor of Zhejiang 浙江.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The words: 晚 (IV, 202). See [[cal.1962-06-23.china-leadership-6]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 202. The words: 晚 (IV, 202). See [[cal.1962-06-23.china-leadership-6]]. Names: Peng Zhen, Zhou Jianren.'
     src:
       c: c384a0c9
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 202: all'
-    tags: [polity:prc, name:peng-zhen]
+    tags: [polity:prc, name:peng-zhen, name:zhou-jianren]
     time_range:
       - 1962-06-23T11:00Z
       - 1962-06-23T14:00Z
@@ -4230,7 +4230,7 @@ entries:
       c: 49ce6857
       rows:
         - 'w.yang-shangkun-riji II, 188: all'
-    tags: [polity:prc, name:ho-chi-minh, vis:only:prc+drv]
+    tags: [polity:prc, name:ho-chi-minh, vis:only:prc+drv, name:wang-jiaxiang, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-24.china-leadership-6
     when: June 24
@@ -4243,7 +4243,7 @@ entries:
       c: 8bd22c78
       rows:
         - 'w.yang-shangkun-riji II, 188: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1962-06-23T22:00Z
       - 1962-06-24T04:00Z
@@ -4259,7 +4259,7 @@ entries:
       c: 20ac3ecd
       rows:
         - 'w.yang-shangkun-riji II, 188: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:luo-daorang, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1962-06-24T11:00Z
       - 1962-06-24T14:00Z
@@ -4377,7 +4377,7 @@ entries:
     thread: vietnam-hanoi
     c: 'The Secretariat, Lê Duẩn, Lê Đức Thọ, Nguyễn Chí Thanh, Lê Văn Lương, Nguyễn Văn Trân, Tố Hữu and Hoàng Anh, on the program for the second half of 1962 and the working methods of the Politburo and the Secretariat: their chief work to the year''s end the policies and measures to carry out the fifth and seventh plenums'' resolutions, the preparation of two plenums, on organization and on the five-year plan, and close watch on the world and the South.'
     n: '*Thông báo của Ban Bí thư số 30-TB/HN về Hội nghị Ban Bí thư ngày 25-6-1962 bàn chương trình công tác sáu tháng cuối năm 1962 và lề lối làm việc của Bộ Chính trị, Ban Bí thư*, July 9, 1962, of the meeting of June 25, signed for the Secretariat by Phạm Chung, deputy chief of the office. [[w.van-kien-dang-toan]], XXIII, 678–84. Made public: 2002. Names: Lê Duẩn, Lê Đức Thọ, Nguyễn Chí Thanh, Lê Văn Lương, Nguyễn Văn Trân, Tố Hữu, Hoàng Anh.'
-    tags: [name:le-duan, name:le-duc-tho, name:nguyen-chi-thanh, polity:drv]
+    tags: [name:le-duan, name:le-duc-tho, name:nguyen-chi-thanh, polity:drv, name:hoang-anh, name:le-van-luong, name:nguyen-van-tran, name:to-huu]
   - id: cal.1962-06-25.china-leadership
     when: June 25
     date: '1962-06-25'
@@ -4433,7 +4433,7 @@ entries:
       c: af1d96f3
       rows:
         - 'w.yang-shangkun-riji II, 189: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:he-jun, name:yang-bo, name:yang-shangkun]
     time_range:
       - 1962-06-25T04:00Z
       - 1962-06-25T10:00Z
@@ -4449,7 +4449,7 @@ entries:
       c: 09baff31
       rows:
         - 'w.yang-shangkun-riji II, 189: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1962-06-25T11:00Z
       - 1962-06-25T14:00Z
@@ -4519,7 +4519,7 @@ entries:
       c: beec04eb
       rows:
         - 'w.yang-shangkun-riji II, 189: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-26.china-leadership-4
     when: June 26
@@ -4638,15 +4638,15 @@ entries:
     also: [china]
     c: Zhou Enlai with Fang Yi, Li Qiang and others on aid to Albania.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 27, 1962). Made public: 1997. Names: Zhou Enlai, Fang Yi, Li Qiang.'
-    tags: [polity:prc, polity:albania, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, polity:albania, name:zhou-enlai, vis:only:prc, name:fang-yi, name:li-qiang]
   - id: cal.1962-06-27.china-leadership-3
     when: June 27
     date: '1962-06-27'
     thread: china-leadership
     also: [china, soviet-union]
     c: 'Liu Shaoqi, with Deng Xiaoping and Peng Zhen, receives the delegation of the Albanian Party of Labor led by Hysni Kapo, member of the politburo and secretary of the Central Committee. On the international situation: an anti-imperialist united front is to be built, taking in true Communists, revolutionaries, the revolutionary bourgeoisie of colonial countries, and revisionists too; if the unity of the communist movement were to rest wholly on Marxism-Leninism, only a very few could be united; to unite most parties, all of them, there can be agreement only on some important questions, not all; keep what is common, set aside differences, and what is not agreed is not written into documents; the movement''s present unity has something of the character of a united front.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 557–558 (June 27, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1712 (June 27, 1962; Deng, with Liu and Peng Zhen, with Kapo''s delegation on anti-revisionism in the movement); [[w.peng-zhen-nianpu-1902]], IV, 203 (June 27, 1962; Peng Zhen, with Liu Shaoqi, Deng Xiaoping and others, meets the Albanian Party of Labor''s delegation; views exchanged on opposing revisionism). Made public: 1996. Names: Liu Shaoqi, Deng Xiaoping, Peng Zhen.'
-    tags: [polity:prc, polity:albania, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, vis:only:prc+albania]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 557–558 (June 27, 1962); [[w.deng-xiaoping-nianpu-1904]], III, 1712 (June 27, 1962; Deng, with Liu and Peng Zhen, with Kapo''s delegation on anti-revisionism in the movement); [[w.peng-zhen-nianpu-1902]], IV, 203 (June 27, 1962; Peng Zhen, with Liu Shaoqi, Deng Xiaoping and others, meets the Albanian Party of Labor''s delegation; views exchanged on opposing revisionism). Made public: 1996. Names: Liu Shaoqi, Deng Xiaoping, Peng Zhen, Hysni Kapo.'
+    tags: [polity:prc, polity:albania, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, vis:only:prc+albania, name:hysni-kapo]
   - id: cal.1962-06-27.china-leadership-4
     when: June 27
     date: '1962-06-27'
@@ -4660,7 +4660,7 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 302: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 302 n.1a: all'
-    tags: [polity:prc, name:mao-zedong, name:tao-zhu, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:tao-zhu, vis:only:prc, name:wang-dongxing]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-27.china-leadership-5
     when: June 27
@@ -4672,7 +4672,7 @@ entries:
       c: '82162046'
       rows:
         - 'w.yang-shangkun-riji II, 189: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:he-jun, name:yang-shangkun]
     time_range:
       - 1962-06-27T04:00Z
       - 1962-06-27T10:00Z
@@ -4734,8 +4734,8 @@ entries:
     place: peking
     thread: china-leadership
     c: Long Yun 龙云, member of the Standing Committee of the CPPCC National Committee and of the Central Standing Committee of the Revolutionary Committee of the Kuomintang 中国国民党革命委员会, dies in Peking 北京, aged 75.
-    n: '[[w.chen-yi-nianpu]], 922.'
-    tags: [polity:prc]
+    n: '[[w.chen-yi-nianpu]], 922. Names: Long Yun.'
+    tags: [polity:prc, name:long-yun]
   - id: cal.1962-06-28.trade
     when: June 28
     date: '1962-06-28'
@@ -4874,7 +4874,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 331: A'
         - 'w.chen-yi-nianpu 922: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 203: ?'
-    tags: [polity:prc, polity:dprk, name:zhou-enlai, vis:only:prc+dprk]
+    tags: [polity:prc, polity:dprk, name:zhou-enlai, vis:only:prc+dprk, name:han-ik-su, name:pak-kum-chol]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-28.china
     when: June 28
@@ -4899,7 +4899,7 @@ entries:
       c: 5efb0c41
       rows:
         - 'w.yang-shangkun-riji II, 190: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-chou, name:yang-shangkun]
     time_range:
       - 1962-06-27T22:00Z
       - 1962-06-28T04:00Z
@@ -4918,7 +4918,7 @@ entries:
         - 'w.yang-shangkun-riji II, 190: all'
         - 'w.yang-jisheng-mubei I, 246: A'
         - 'via w.yang-jisheng-mubei I, 246 n.116: A'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-28.china-leadership-5
     when: June 28
@@ -4930,7 +4930,7 @@ entries:
       c: 7096bff4
       rows:
         - 'w.yang-shangkun-riji II, 190: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
   - id: cal.1962-06-29.latin-america
     when: June 29–July 1
     date: '1962-06-29'
@@ -4990,7 +4990,7 @@ entries:
       rows:
         - 'w.zedong-mao-zedong-nianpu V, June 29, 1962: ?'
         - 'w.jianguo-yilai-mao-zedong XVI, 301: A-B'
-    tags: [polity:prc, polity:ussr, name:mao-zedong, polity:albania, name:khrushchev-nikita-s, vis:only:prc+albania]
+    tags: [polity:prc, polity:ussr, name:mao-zedong, polity:albania, name:khrushchev-nikita-s, vis:only:prc+albania, name:hysni-kapo, name:wang-renzhong, name:wu-xiuquan]
   - id: cal.1962-06-29.china-leadership-2
     when: June 29
     date: '1962-06-29'
@@ -5038,13 +5038,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Wang Jiaxiang dates his final plea for a more restrained foreign policy June 29. Deng Xiaoping supports him totally, as does Liu Shaoqi.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 271, 303. Made public: 1993. To check: [[w.li-xianchang-lishi]], 73 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 271 n.55). See [[cal.1962-02-27.china-leadership-2]]. Names: Deng Xiaoping, Liu Shaoqi.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 271, 303. Made public: 1993. To check: [[w.li-xianchang-lishi]], 73 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 271 n.55). See [[cal.1962-02-27.china-leadership-2]]. Names: Deng Xiaoping, Liu Shaoqi, Wang Jiaxiang.'
     src:
       c: 32f5cc58
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 271, 303: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 271 n.55: all'
-    tags: [polity:prc, vis:only:prc, name:deng-xiaoping, name:liu-shaoqi]
+    tags: [polity:prc, vis:only:prc, name:deng-xiaoping, name:liu-shaoqi, name:wang-jiaxiang]
   - id: cal.1962-06-29.china-leadership-5
     when: June 29
     date: '1962-06-29'
@@ -5057,7 +5057,7 @@ entries:
       c: bd28f90c
       rows:
         - 'w.yang-shangkun-riji II, 190: all'
-    tags: [polity:prc, vis:only:prc+albania]
+    tags: [polity:prc, vis:only:prc+albania, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-29.china-leadership-6
     when: June 29
@@ -5070,7 +5070,7 @@ entries:
       c: b221a496
       rows:
         - 'w.yang-shangkun-riji II, 190: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1962-06-29T04:00Z
       - 1962-06-29T10:00Z
@@ -5088,7 +5088,7 @@ entries:
       c: e64eb140
       rows:
         - 'w.yang-shangkun-riji II, 190: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1962-06-29.china-leadership-8
     when: June 29
@@ -5101,15 +5101,15 @@ entries:
       c: 1b8e2ce8
       rows:
         - 'w.yang-shangkun-riji II, 190: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tong-xiaopeng, name:yang-shangkun]
   - id: cal.1962-06-29.china-leadership-10
     when: June 29
     date: '1962-06-29'
     thread: china-leadership
     also: [laos]
     c: Chen Yi 陈毅 at the airport sees off the Chinese government delegation, led by its acting head, Zhang Hanfu 章汉夫, to the Geneva conference on Laos.
-    n: '[[w.chen-yi-nianpu]], 922. The words: 上午 (922). Names: Chen Yi.'
-    tags: [polity:prc, polity:laos, name:chen-yi, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 922. The words: 上午 (922). Names: Chen Yi, Zhang Hanfu.'
+    tags: [polity:prc, polity:laos, name:chen-yi, ok:fields-place, name:zhang-hanfu]
     time_range:
       - 1962-06-28T22:00Z
       - 1962-06-29T04:00Z
@@ -5486,7 +5486,7 @@ entries:
     also: [china]
     c: Zhou Enlai at Chen Yun's house. In late June, while Zhou toured the Northeast, the Secretariat had taken up "contracting output to the household," Deng Xiaoping and Deng Zihui supporting it. On his return Chen Yun proposes that some places redivide the land and contract output to households to stir the peasants and restore farm output fast; Zhou agrees. July 8 he attends Mao's meeting; July 9 he goes to Chen Yun's again.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 488 (June 30, 1962); [[w.jian-zhou-enlai]], 467 (Chen Yun to Zhou: redistributing land to households worth trying; Zhou agrees); [[w.chen-yun-nianpu-xiuding]], III, 135 (morning: Zhou calls on Chen Yun at his home; they talk). Made public: 1997. Names: Zhou Enlai, Chen Yun, Deng Xiaoping, Deng Zihui.'
-    tags: [polity:prc, name:zhou-enlai, name:chen-yun, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:chen-yun, name:deng-xiaoping, vis:only:prc, name:deng-zihui]
     time_range:
       - 1962-06-29T22:00Z
       - 1962-06-30T04:00Z
@@ -5532,14 +5532,14 @@ entries:
     place: shaoshan
     thread: china-leadership
     c: Tian Jiaying, back at Shaoshan where his team is winding up, does not pass on Mao's view on baochan daohu. He sends two team members to examine the Anhui experience.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 265; [[w.jian-zhou-enlai]], 467 (on his next trip Tian sends two associates to Anhui; he concludes for linking output with households). Made public: 1993. To check: [[w.bangongshi-mao-zedong-yu-xiangtan]], 313–14 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 265 n.20); [[w.bian-mao-zedong-he-tade-1996]], 91 (cited by [[w.jian-zhou-enlai]], 467 n.6). See [[cal.1962-05.china-leadership-8]]. Names: Mao Zedong. Check: the day; the book places it before Tian returns to Peking at the end of June.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 265; [[w.jian-zhou-enlai]], 467 (on his next trip Tian sends two associates to Anhui; he concludes for linking output with households). Made public: 1993. To check: [[w.bangongshi-mao-zedong-yu-xiangtan]], 313–14 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 265 n.20); [[w.bian-mao-zedong-he-tade-1996]], 91 (cited by [[w.jian-zhou-enlai]], 467 n.6). See [[cal.1962-05.china-leadership-8]]. Names: Mao Zedong, Tian Jiaying. Check: the day; the book places it before Tian returns to Peking at the end of June.'
     src:
       c: 2f5b8ba5
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 265: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 265 n.20: all'
         - 'w.jian-zhou-enlai 467: ?'
-    tags: [polity:prc, vis:only:prc, name:mao-zedong]
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:tian-jiaying]
   - id: cal.1962-06.china-leadership-4
     when: June, late
     date: 1962-06
@@ -5547,26 +5547,26 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking. Tian Jiaying reports to Liu Shaoqi, who cuts him short: he knows the situation. Liu says: "In industry, we must retreat adequately, and in agriculture, too, we must retreat adequately, including baochan daohu and individual operation." He asks Tian to sound out policy experts without revealing his own view, and agrees that Tian may tell Mao.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 266; [[w.jian-zhou-enlai]], 467 (late June, Peking: Tian reports to Liu and Deng, both supporting; Deng: "Black cat or yellow cat"; Liu: tell Mao). Made public: 1993. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1084 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 266 n.22); [[w.bian-mao-zedong-he-tade-1996]], 91–92 (cited by [[w.jian-zhou-enlai]], 467 n.7a); [[w.deng-xiaoping-nianpu-1904]], III, 1714 (cited by [[w.jian-zhou-enlai]], 467 n.7b); [[w.qian-xiangli-lishi-de-bianju]], 5, 203–204 (cited by [[w.jian-zhou-enlai]], 467 n.7c). See [[cal.1962-06.china-leadership-3]]. Names: Liu Shaoqi, Mao Zedong. Check: the day, and whether the quotation is from this occasion ("It may well have been on this occasion," the book says); Tian returned at the end of June.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 266; [[w.jian-zhou-enlai]], 467 (late June, Peking: Tian reports to Liu and Deng, both supporting; Deng: "Black cat or yellow cat"; Liu: tell Mao). Made public: 1993. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1084 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 266 n.22); [[w.bian-mao-zedong-he-tade-1996]], 91–92 (cited by [[w.jian-zhou-enlai]], 467 n.7a); [[w.deng-xiaoping-nianpu-1904]], III, 1714 (cited by [[w.jian-zhou-enlai]], 467 n.7b); [[w.qian-xiangli-lishi-de-bianju]], 5, 203–204 (cited by [[w.jian-zhou-enlai]], 467 n.7c). See [[cal.1962-06.china-leadership-3]]. Names: Liu Shaoqi, Mao Zedong, Tian Jiaying. Check: the day, and whether the quotation is from this occasion ("It may well have been on this occasion," the book says); Tian returned at the end of June.'
     src:
       c: 88fa554f
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 266: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 266 n.22: all'
         - 'w.jian-zhou-enlai 467: ?'
-    tags: [polity:prc, vis:only:prc, name:liu-shaoqi, name:mao-zedong]
+    tags: [polity:prc, vis:only:prc, name:liu-shaoqi, name:mao-zedong, name:tian-jiaying]
   - id: cal.1962-06.china-leadership-5
     when: June, late
     date: 1962-06
     at: before 1962-06-21
     thread: china-leadership
     c: 'Tian Jiaying tells Deng Xiaoping of his plan for a ten-item policy document on reviving the rural economy, to allow many forms of ownership, collective, semi-collective, baochan daohu and even fentian dan''gan. Deng says: "Approved."'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 266. Made public: 1997. See [[cal.1962-06.china-leadership-4]]. Names: Deng Xiaoping. Check: the day; the book gives no source for Deng''s reply.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 266. Made public: 1997. See [[cal.1962-06.china-leadership-4]]. Names: Deng Xiaoping, Tian Jiaying. Check: the day; the book gives no source for Deng''s reply.'
     src:
       c: fb1882e0
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 266: all'
-    tags: [polity:prc, vis:only:prc, name:deng-xiaoping]
+    tags: [polity:prc, vis:only:prc, name:deng-xiaoping, name:tian-jiaying]
   - id: cal.1962-06.china-leadership-6
     when: June, late
     date: 1962-06
@@ -5574,7 +5574,7 @@ entries:
     place: peking
     thread: china-leadership
     c: Tian Jiaying takes part in Zhongnanhai meetings on baochan daohu and finds the other leaders to whom he confides his views supportive. Almost all the Standing Committee members other than Mao favor baochan daohu or some responsibility system.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 266. Made public: 1989. To check: Informant B, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 266 n.24); [[w.bian-mao-zedong-he-tade]], 67 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 266 n.25a); [[w.qian-wannian-suiyue]], 177–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 266 n.25b); [[w.wenping-zhenli-yu-mingyun-truth]], 193 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 266 n.25c). See [[cal.1962-06.china-leadership-5]]. Names: Mao Zedong. Check: the day; the book gives none. Check: the Standing Committee members'' views rest on Tian''s biography, as the book reads it: Liu, Zhou, Zhu De, Chen Yun and Deng approving, Lin Biao waiting.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 266. Made public: 1989. To check: Informant B, interview with the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 266 n.24); [[w.bian-mao-zedong-he-tade]], 67 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 266 n.25a); [[w.qian-wannian-suiyue]], 177–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 266 n.25b); [[w.wenping-zhenli-yu-mingyun-truth]], 193 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 266 n.25c). See [[cal.1962-06.china-leadership-5]]. Names: Mao Zedong, Tian Jiaying. Check: the day; the book gives none. Check: the Standing Committee members'' views rest on Tian''s biography, as the book reads it: Liu, Zhou, Zhu De, Chen Yun and Deng approving, Lin Biao waiting.'
     src:
       c: 1a6515e8
       rows:
@@ -5583,7 +5583,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 266 n.25a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 266 n.25b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 266 n.25c: all'
-    tags: [polity:prc, vis:only:prc, name:mao-zedong]
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:tian-jiaying]
   - id: cal.1962-06.china
     when: June
     date: 1962-06
@@ -5619,14 +5619,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai orders Wang Bingnan, China's ambassador to the Warsaw talks, to cut short his home leave and return to his post, to ascertain the American position, which is regarded as the crucial determinant of whether the Nationalists will attack.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 272; [[w.jian-zhou-enlai]], 474 (late May: Zhou receives Wang Bingnan, home on leave in Peking: Chiang sees a "once-in-a-thousand-years opportunity" and means to act; the key whether the Americans back him; Wang to rush back to Warsaw and get the Americans to stop Chiang). Made public: 1985. To check: [[w.bingnan-nine-years-of-sino]], 48–50 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.68a); [[w.wang-bingnan-zhongmei-huitan-jiunian-huigu]], 86 (cited by [[w.jian-zhou-enlai]], 474 n.37). Names: Zhou Enlai. Check: the day; the book gives none.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 272; [[w.jian-zhou-enlai]], 474 (late May: Zhou receives Wang Bingnan, home on leave in Peking: Chiang sees a "once-in-a-thousand-years opportunity" and means to act; the key whether the Americans back him; Wang to rush back to Warsaw and get the Americans to stop Chiang). Made public: 1985. To check: [[w.bingnan-nine-years-of-sino]], 48–50 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.68a); [[w.wang-bingnan-zhongmei-huitan-jiunian-huigu]], 86 (cited by [[w.jian-zhou-enlai]], 474 n.37). Names: Zhou Enlai, Wang Bingnan. Check: the day; the book gives none.'
     src:
       c: 85aafe74
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 272: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 272 n.68a: all'
         - 'w.jian-zhou-enlai 474: ?'
-    tags: [polity:prc, vis:only:prc, name:zhou-enlai]
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:wang-bingnan]
     variants:
       - unit: A
         witness: w.jian-zhou-enlai
@@ -5652,7 +5652,7 @@ entries:
     at: before 1962-06-21
     thread: china-leadership
     c: Yan Hongyan, Yunnan's first secretary, an alternate Central Committee member and a three-star general, writes to Li Jiantong that no writer can take on the responsibility of historical judgements; that is for the Central Committee. In view of his objections it is decided to publish a few chapters of the sixth draft in *Gongren ribao* and *Zhongguo qingnian* to gauge reaction.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 294–95; [[w.yang-jisheng-tiandi-fanfu]], I, 78–79 (summer 1962, the fifth draft of *Liu Zhidan* printed as a sample for review; Yan Hongyan telephones the *Gongren ribao* and *Zhongguo qingnian bao* to stop serializing it and tells Kang Sheng). Made public: 1979. To check: [[w.yu-zhongguo-zuo-huo-chinas]], 364–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195a); [[w.jin-1949-1989-niande-zhongguo]], 511 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195b); [[w.jiantong-liu-zhidan]], 3–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195c); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1096 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195d). See [[cal.1962-03.china-leadership-4]]. Check: the day; the book gives "the summer of 1962" for the letter and no day for the decision.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 294–95; [[w.yang-jisheng-tiandi-fanfu]], I, 78–79 (summer 1962, the fifth draft of *Liu Zhidan* printed as a sample for review; Yan Hongyan telephones the *Gongren ribao* and *Zhongguo qingnian bao* to stop serializing it and tells Kang Sheng). Made public: 1979. To check: [[w.yu-zhongguo-zuo-huo-chinas]], 364–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195a); [[w.jin-1949-1989-niande-zhongguo]], 511 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195b); [[w.jiantong-liu-zhidan]], 3–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195c); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1096 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 295 n.195d). See [[cal.1962-03.china-leadership-4]]. Check: the day; the book gives "the summer of 1962" for the letter and no day for the decision. Names: Yan Hongyan.'
     src:
       c: 8ba75c45
       rows:
@@ -5662,7 +5662,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 295 n.195c: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 295 n.195d: all'
         - 'w.yang-jisheng-tiandi-fanfu I, 78–79: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yan-hongyan]
   - id: cal.1962-06.south-asia
     when: June
     date: 1962-06
@@ -5710,12 +5710,12 @@ entries:
     place: wuhan
     thread: china-leadership
     c: 'Mao 毛泽东 leaves Wuhan 武汉 for Peking 北京. On the way he asks the provinces'' heads of the summer harvest: at Zhengzhou 郑州, Liu Jianxun 刘建勋: the wheat not so bad, the autumn harvest likely better; at Jinan 济南, the Shandong 山东 committee: "a great change" 情况大变, the villages not in bad shape but for the disasters at Dezhou 德州 and Huimin 惠民, the wheat 4.2 billion jin, 1.3 billion above the 2.9 billion estimated.'
-    n: '[[w.mao-zedong-zhuan]], V, ch. 70. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. Check: the days of the stops at Zhengzhou and Jinan, between June 30 and July 5; the book gives none. Names: Mao Zedong.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 70. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. Check: the days of the stops at Zhengzhou and Jinan, between June 30 and July 5; the book gives none. Names: Mao Zedong, Liu Jianxun.'
     src:
       c: 5e4070e9
       rows:
         - 'w.mao-zedong-zhuan V, ch. 70: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:liu-jianxun]
   - id: cal.1962-06.china-leadership-12
     when: June
     date: 1962-06
@@ -5733,24 +5733,24 @@ entries:
     place: peking
     thread: china-leadership
     c: At the Seventh Plenum of the Third Central Committee of the Communist Youth League 共青團中央三屆七中全會 in Peking 北京, Liao Bokang 廖伯康 and Yu Keshu 於克書 report on Sichuan 四川 to Hu Yaobang 胡耀邦. His talk with them is made into a bulletin and sent to the Secretariat of the Central Committee.
-    n: '[[w.yang-jisheng-mubei]], I, 246. Made public: 2008. To check: Liao Bokang 廖伯康, "Lishi changhe li de yi ge xuanwo: huiyi ''Xiao Li Liao shijian''" 《歷史長河裏的一個漩渦——回憶「蕭李廖事件」》, typescript, second draft, p. 27 (cited by [[w.yang-jisheng-mubei]], I, 246 n.116). Check: the day.'
+    n: '[[w.yang-jisheng-mubei]], I, 246. Made public: 2008. To check: Liao Bokang 廖伯康, "Lishi changhe li de yi ge xuanwo: huiyi ''Xiao Li Liao shijian''" 《歷史長河裏的一個漩渦——回憶「蕭李廖事件」》, typescript, second draft, p. 27 (cited by [[w.yang-jisheng-mubei]], I, 246 n.116). Check: the day. Names: Hu Yaobang.'
     src:
       c: 8f3652b4
       rows:
         - 'w.yang-jisheng-mubei I, 246: all'
         - 'via w.yang-jisheng-mubei I, 246 n.116: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hu-yaobang]
   - id: cal.1962-06.china-leadership-16
     when: June
     date: 1962-06
     thread: china-leadership
     c: Ge Qi 葛啟, branded a right opportunist, is rehabilitated and returns to Zhangjiakou 張家口 as first secretary. Hu Kaiming 胡開明 is called back to the provincial committee, but goes on investigating in Zhangjiakou, and writes a proposal for pushing the "three guarantees" 三包 to production groups.
-    n: '[[w.yang-jisheng-mubei]], I, 555. Made public: 2008. Check: the day.'
+    n: '[[w.yang-jisheng-mubei]], I, 555. Made public: 2008. Check: the day. Names: Hu Kaiming.'
     src:
       c: ebf0bf6f
       rows:
         - 'w.yang-jisheng-mubei I, 555: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hu-kaiming]
   - id: cal.1962-06.vietnam-hanoi
     when: June
     date: 1962-06

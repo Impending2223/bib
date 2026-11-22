@@ -1175,3 +1175,45 @@ The bottom corner does not compete with the thread links."
 "I've shared an EPUB of the Fursenko and Naftali "One Hell of Gamble" with hyperlinked footnotes, in the hope that it makes the next pass easier."
 
 "How close are we to fixing the chronological sort for the Names and Threads pages? And to having a Threads page? Is that done?" (answered: the sort is live, PR #202 deployed Nov. 21; Threads next after the permalinks)
+
+"Are we still missing Names? Isn't it trivial to create them and populate their "nianpu"? What's holding us up?"
+
+"Do we need all the data? Can't we just give the name register and start going?
+
+The only issue is when two people map to the same name, or two names to the same person, which isn't an issue that all the information you're asking for actually solves in the individual cases here."
+
+"A separate question: Is everything that happened in China just "China: leadership"? I see that in later years we have "China: Cultural Revolution". But it's a very low level of granularity for... how many entries do we have here, again?" (answered: 26,320 of 58,267 calendar entries in China: Leadership; a list of twelve subthreads proposed, awaiting the owner)
+
+"These feel a bit... offhand. Like, I'm pretty sure you just pulled that out of your, ahem, right?
+
+How clearly and cleanly does this cleave the "China: leadership" bucket? How coherent is it to have one vertical slice and many intersecting horizontal slices that might be quite small? Have we really made things any more legible with the "leadership" cut that lops off the top, more or less arbitrarily?
+
+Do our threads and their contents not suggest better cutting lines?
+
+Even if you don't read all that first, then surely, in this great era of campaigns, slogans, episodes, etc., you can figure out better threads than what you've given me? None of the threads have to extend across the entire span! Even "The famine *and* the retreat" seems like a strange cut.
+
+You have a strong bias against using names for threads, and I had to pretty much pull teeth to get you to give me "King" and "Robert Kennedy," but would a "Mao" thread be out of place here?"
+
+"I did like "The bomb" and your subthread suggestions for the Cultural Revolution. Both sound like the kinds of episodes or, you know, "threads" that might cut the material cleanly.
+
+Another idea. Perhaps "Beijing" (excluding Zhongnanhai) or "Shanghai"? Other (within-China) regional or municipal threads? Sichuan, Wuhan... what's on our calendar so far?"
+
+"We should probably give ourselves a China map. Like our Southeast Asia/Indochina map.
+
+The minimum viable product would give us the provinces, counties, places.
+
+Later we could extend the map with whatever other information is available and relevant to the threads we're following. (Population? I'm not sure what geographically-specific information we can and should get for our period.)"
+
+"How hard is it to fake these from later boundaries? That's what we did for SVN. What's the Chinese situation? It couldn't be worse, could it?" (answered: 1964 counties as unions of modern county-level units, as for South Vietnam; ~2,100 counties; the 1958–61 merges make 1964 the display year; passed to the map agent as a second layer)
+
+"Claude, are you hallucinating what R18's test is? Are you relying on some cached memory of what R18 once was?" (answered: yes, wrongly; R18 makes a principal's health an entry; the "R18 sweep" withdrawn)
+
+"Well... I regret to say this now that we've done all this reading, but... I really don't know much about the CPC or the PRC or the big names in this period.
+
+I'm sure Yang Shangkun's ranking is artificially inflated by virtue of the fact that he kept a diary. (Crossman, Castle, and Benn were not the most important figures in the Wilson Cabinets, at least pre-1968.) But Zhu De? Chen Yi? (Deng? You didn't even mention Deng!) Surely these are not inconsequential figures, no?
+
+Do you have a better suggestion? Do we have "briefs" or "issue areas" that would serve as better "cuts" for the sub-Mao/Zhou/Liu figures?"
+
+"I like your new proposal. We're at 92% of our budget now, though, so something here should probably wait until after the Tuesday resume. We should probably hold off on this."
+
+"Could we finish the threads, names footnotes, and people? Or any of them? What's cheap? I do want to spend down a bit of that 8%."

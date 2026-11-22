@@ -69,9 +69,9 @@ def style():
     if PERMALINK_PLACE == "inline":
         place = "a.pl{font-size:.85em;white-space:nowrap}\n"
     else:
-        place = ("ol.e>li:has(>a.pl),p.lvl:has(>a.pl){position:relative}\n"
-                 "ol.e>li>a.pl,p.lvl>a.pl{position:absolute;right:0;bottom:.45rem;font-size:1em;line-height:1}\n"
-                 "ol.e>li>:has(+a.pl),p.lvl:has(>a.pl){padding-right:1.5em}\n")
+        place = ("ol.e>li:has(>a.pl),.lvl:has(>a.pl){position:relative}\n"
+                 "ol.e>li>a.pl,.lvl>a.pl{position:absolute;right:0;bottom:.45rem;font-size:1em;line-height:1}\n"
+                 "ol.e>li>:has(+a.pl),.lvl:has(>a.pl){padding-right:1.5em}\n")
     return ('<style id="plstyle">\n/* the permalink mark (tools/bib/permalink.py, STYLE 1) */\n' + common + place
             + "</style>")
 

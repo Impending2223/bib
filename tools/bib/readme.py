@@ -15,7 +15,8 @@ STYLE
 3. The works count in the Works row ("one entry a work (N)") from the catalogue.
 4. The other pages: a table under the calendar's, between <!-- other-pages:start --> and <!-- other-pages:end -->, a
    row a family the pages' pass splits (tools/bib/pages.py): Names, its letters and ranges; Works, its letters; the
-   Executive and Congress, their parts; every page linked by its label.
+   Executive and Congress, their parts; Threads, its count and a thread in parts with its parts (threads.py); every
+   page linked by its label.
 """
 import os
 import re
@@ -70,6 +71,14 @@ def other_pages(series):
         ls = sorted(set(bibliography.letters(series).values()), key=lambda L: (L != "0", L))
         rows.append(f"| [Works]({URL}works.html) | " + " · ".join(
             f"[{'0–9' if L == '0' else L.upper()}]({URL}{pages.works_page_of_letter(L)}.html)" for L in ls) + " |")
+    from . import threads                # a page a thread (threads.py); a thread in parts, its parts
+    cal = threads.calendar(series)
+    if cal is not None:
+        split = [(s, threads.parts(s)) for s in threads.slugs(cal) if threads.parts(s)]
+        rows.append(f"| [Threads]({URL}threads.html) | {len(threads.slugs(cal))} threads, a page each"
+                    + ("; in parts: " + "; ".join(f"[{s}]({URL}{threads.page_of(s)}.html) (" + " · ".join(
+                        f"[{p['label']}]({URL}{p['page']}.html)" for p in ps) + ")" for s, ps in split) if split else "")
+                    + " |")
     for fam, name in (("congress", "Elections and Congress"), ("executive", "Executive")):
         ps = pages.sections_plan(fam)
         if ps:

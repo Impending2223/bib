@@ -165,7 +165,7 @@ entries:
       c: 49a993d3
       rows:
         - 'w.yang-shangkun-riji II, 64: all'
-    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    tags: [polity:prc, name:zhu-de, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-08-31T22:00Z
       - 1961-09-01T04:00Z
@@ -227,13 +227,13 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: 'Chen Yi, at the reception given by Trần Tử Bình, the Vietnamese ambassador, for Vietnam''s national day: he stresses China''s firm backing for the Soviet statement on nuclear tests. The socialist countries, for the sake of world peace, must firmly take every possible measure to strengthen their defense.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 203 (Sept. 2, 1961); [[w.chen-yi-nianpu]], 888 (Sept. 2, 1961, evening, at the reception of 陈子平, the Vietnamese ambassador, at the embassy; Chen Yi backs the Soviet statement on nuclear testing, accuses the United States of preparing general nuclear and limited wars, says the Soviet decision does not change the socialist countries'' stand for a ban and general disarmament, backs the Soviet and German proposals for a German peace treaty and on West Berlin, and condemns the United States for driving out Quadros). Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 203 (Sept. 2, 1961); [[w.chen-yi-nianpu]], 888 (Sept. 2, 1961, evening, at the reception of 陈子平, the Vietnamese ambassador, at the embassy; Chen Yi backs the Soviet statement on nuclear testing, accuses the United States of preparing general nuclear and limited wars, says the Soviet decision does not change the socialist countries'' stand for a ban and general disarmament, backs the Soviet and German proposals for a German peace treaty and on West Berlin, and condemns the United States for driving out Quadros). Names: Chen Yi, Trần Tử Bình.'
     src:
       c: 4dd24e98
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 203: all'
         - 'w.chen-yi-nianpu 888: ?'
-    tags: [polity:prc, polity:drv, polity:ussr, name:chen-yi]
+    tags: [polity:prc, polity:drv, polity:ussr, name:chen-yi, name:tran-tu-binh]
     time_range:
       - 1961-09-02T11:00Z
       - 1961-09-02T14:00Z
@@ -250,7 +250,7 @@ entries:
       c: 88dfadaa
       rows:
         - 'w.yang-shangkun-riji II, 64: all'
-    tags: [polity:prc]
+    tags: [polity:prc, name:sha-kefu]
     variants:
       - unit: A
         witness: w.chen-yi-nianpu
@@ -283,7 +283,7 @@ entries:
       c: e66e3a39
       rows:
         - 'w.yang-shangkun-riji II, 64: all'
-    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, vis:only:prc, name:li-bozhao, name:yang-shangkui, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-02.vietnam-hanoi
     when: Sept. 2
@@ -373,7 +373,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 65: all'
         - 'w.peng-zhen-nianpu-1902 IV, 150: ?'
-    tags: [polity:prc, name:peng-zhen, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, name:kang-sheng, vis:only:prc, name:hu-sheng, name:wu-lengxi, name:zhu-tingguang]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-03.china-leadership-2
     when: Sept. 3
@@ -387,7 +387,7 @@ entries:
       c: e9bff7b5
       rows:
         - 'w.yang-shangkun-riji II, 65: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-04.foreign-aid
     when: Sept. 4
@@ -461,7 +461,7 @@ entries:
       c: 711cc2bb
       rows:
         - 'w.yang-shangkun-riji II, 65: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-09-03T22:00Z
       - 1961-09-04T04:00Z
@@ -478,7 +478,7 @@ entries:
       c: 2e352cfb
       rows:
         - 'w.yang-shangkun-riji II, 65: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:huang-zhizhen, name:yang-shangkun]
     time_range:
       - 1961-09-04T04:00Z
       - 1961-09-04T10:00Z
@@ -495,7 +495,7 @@ entries:
       c: b9aa7b59
       rows:
         - 'w.yang-shangkun-riji II, 65: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-yan, name:tong-xiaopeng, name:yang-shangkun]
     time_range:
       - 1961-09-04T09:00Z
       - 1961-09-04T11:00Z
@@ -512,7 +512,7 @@ entries:
       c: f7c1ca38
       rows:
         - 'w.yang-shangkun-riji II, 65: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1961-09-04T14:00Z
       - 1961-09-04T16:00Z
@@ -707,12 +707,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Lushan, Mao''s new house by the artificial lake, afternoon. The Standing Committee meets; of the writers Wu Lengxi alone is there, Hu Qiaomu, ill since the summer, resting by Mao''s order. Zhou Enlai raises the CPSU''s published draft Programme: very long, no time yet to read it, the Peking comrades say it is no good programme. Two views. It is the CPSU''s own affair, not a document of the brother parties'' meeting; China cannot oppose it now nor wholly approve it, may support what is positive and pass the negative, as in what the Soviets do on it abroad; its "state of the whole people" and "party of the whole people" are against Marxism–Leninism and worth study. And the Twenty-second Congress, to take up the Programme: China will say nothing of it but must reckon that the Congress will attack China, or Albania alone; if so, to answer point for point. The Liaison Department and the Foreign Ministry to consider now what to do either way and report. Mao: the draft is long, to be read at leisure, the writers above all.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 457–459 ("the afternoon of Sept. 5"). Made public: 1999. See [[cal.1961-09-05.china-leadership]]. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 457–459 ("the afternoon of Sept. 5"). Made public: 1999. See [[cal.1961-09-05.china-leadership]]. Names: Zhou Enlai, Mao Zedong, Wu Lengxi, Hu Qiaomu.'
     src:
       c: b822623c
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 457–459: all'
-    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc, name:hu-qiaomu, name:wu-lengxi]
     time_range:
       - 1961-09-05T04:00Z
       - 1961-09-05T10:00Z
@@ -761,7 +761,7 @@ entries:
       c: 5d3424cd
       rows:
         - 'w.yang-shangkun-riji II, 65: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:liu-junxiu, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-05.china-leadership-5
     when: Sept. 5
@@ -776,7 +776,7 @@ entries:
       c: '17866430'
       rows:
         - 'w.yang-shangkun-riji II, 65: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:liu-lantao, name:yang-shangkun]
     time_range:
       - 1961-09-05T14:00Z
       - 1961-09-05T16:00Z
@@ -964,7 +964,7 @@ entries:
       c: c99f1dd3
       rows:
         - 'w.yang-shangkun-riji II, 66: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-06.china-leadership-3
     when: Sept. 6
@@ -978,7 +978,7 @@ entries:
       c: 5bee1c4c
       rows:
         - 'w.yang-shangkun-riji II, 66: all'
-    tags: [polity:prc, name:ke-qingshi, name:li-jingquan, vis:only:prc]
+    tags: [polity:prc, name:ke-qingshi, name:li-jingquan, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-06.china-leadership-4
     when: Sept. 6
@@ -991,7 +991,7 @@ entries:
       c: 0344db75
       rows:
         - 'w.yang-shangkun-riji II, 66: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:liu-lantao, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1961-09-06T11:00Z
       - 1961-09-06T14:00Z
@@ -1025,8 +1025,8 @@ entries:
     date: '1961-09-06'
     thread: china-leadership
     c: Chen Yi 陈毅 is chief mourner at the public memorial for Sha Kefu 沙可夫 held by the Central Academy of Drama 中央戏剧学院.
-    n: '[[w.chen-yi-nianpu]], 888. See [[cal.1961-09-02.china-leadership-2]]. The words: 6日上午 (888). Names: Chen Yi.'
-    tags: [polity:prc, name:chen-yi]
+    n: '[[w.chen-yi-nianpu]], 888. See [[cal.1961-09-02.china-leadership-2]]. The words: 6日上午 (888). Names: Chen Yi, Sha Kefu.'
+    tags: [polity:prc, name:chen-yi, name:sha-kefu]
     time_range:
       - 1961-09-05T22:00Z
       - 1961-09-06T04:00Z
@@ -1182,7 +1182,7 @@ entries:
       c: e4226167
       rows:
         - 'w.yang-shangkun-riji II, 66: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-07.china-leadership-2
     when: Sept. 7
@@ -1195,7 +1195,7 @@ entries:
       c: 67410b93
       rows:
         - 'w.yang-shangkun-riji II, 66: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1961-09-07T04:00Z
       - 1961-09-07T10:00Z
@@ -1211,7 +1211,7 @@ entries:
       c: 071cd3fe
       rows:
         - 'w.yang-shangkun-riji II, 66: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-jiebo, name:wu-xiuquan, name:yang-shangkun]
     time_range:
       - 1961-09-07T11:00Z
       - 1961-09-07T14:00Z
@@ -1323,7 +1323,7 @@ entries:
     thread: vietnam-hanoi
     c: 'The Politburo, Hanoi, Hồ Chí Minh, Lê Duẩn, Trường Chinh, Phạm Văn Đồng, Lê Thanh Nghị and Chu Văn Tấn present, on the summing up of the mountain campaign of cooperatives and democratic reform: on the whole good, feudal exploitation basically ended, some counterrevolutionaries repressed; over 73 percent of the working peasants'' households in cooperatives in nearly two years; management weak, technique little improved, livestock down. The mountain cooperative a political as well as a productive body, the upper strata of the minorities to be won.'
     n: '*Thông báo số 10-TB/VPTW về Hội nghị Bộ Chính trị ngày 8-9-1961 bàn về tổng kết hợp tác hoá kết hợp hoàn thành cải cách dân chủ ở miền núi*, Sept. 20, 1961, signed by Phạm Chung, deputy head of the Central Office. [[w.van-kien-dang-toan]], XXII, 475–79. Made public: 2002. Names: Hồ Chí Minh, Lê Duẩn, Trường Chinh, Phạm Văn Đồng, Lê Thanh Nghị, Chu Văn Tấn.'
-    tags: [name:ho-chi-minh, name:le-duan, name:truong-chinh, name:pham-van-dong, polity:drv]
+    tags: [name:ho-chi-minh, name:le-duan, name:truong-chinh, name:pham-van-dong, polity:drv, name:chu-van-tan, name:le-thanh-nghi]
   - id: cal.1961-09-08.china-leadership
     when: Sept. 8
     date: '1961-09-08'
@@ -1340,12 +1340,12 @@ entries:
     date: '1961-09-08'
     thread: china-leadership
     c: 'Mao Zedong, Liu Shaoqi, Zhu De and Zhou Enlai cable Zhivkov, Ganev and Yugov on the 17th anniversary of Bulgaria''s socialist revolution: the year''s achievements; the friendship of the two peoples, "eternal and unbreakable," on the 1960 Moscow statement.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 102–103 (Sept. 8, 1961). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 102–103 (Sept. 8, 1961). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Ganev, Yugov.'
     src:
       c: 053aa690
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 102–103: all'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, polity:bulgaria]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, polity:bulgaria, name:ganev, name:yugov]
   - id: cal.1961-09-08.china-leadership-3
     when: Sept. 8
     date: '1961-09-08'
@@ -1358,7 +1358,7 @@ entries:
       c: 99a129db
       rows:
         - 'w.yang-shangkun-riji II, 66: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-09-07T22:00Z
       - 1961-09-08T04:00Z
@@ -1375,7 +1375,7 @@ entries:
       c: c6f501dc
       rows:
         - 'w.yang-shangkun-riji II, 66: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-09-08T04:00Z
       - 1961-09-08T10:00Z
@@ -1492,13 +1492,13 @@ entries:
     thread: china-leadership
     also: [korea]
     c: Deng Xiaoping 邓小平 leads the Chinese Communist Party's delegation to Korea for the Korean Workers' Party's Fourth Congress, at its Central Committee's invitation; with him Kang Sheng 康生, Wu Xiuquan 伍修权 and Hao Deqing 郝德青.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1658–1659 (Sept. 9, 1961); [[w.chen-yi-nianpu]], 889 (Sept. 9, 1961, morning; Chen Yi sees the delegation off at the airport). The words: 上午 (III, 1658). Footnote 1: Hao, then Ambassador to Korea, already in Pyongyang (III, 1659). Names: Deng Xiaoping, Kang Sheng.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1658–1659 (Sept. 9, 1961); [[w.chen-yi-nianpu]], 889 (Sept. 9, 1961, morning; Chen Yi sees the delegation off at the airport). The words: 上午 (III, 1658). Footnote 1: Hao, then Ambassador to Korea, already in Pyongyang (III, 1659). Names: Deng Xiaoping, Kang Sheng, Wu Xiuquan, Hao Deqing.'
     src:
       c: 2385efc5
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1658–1659: all'
         - 'w.chen-yi-nianpu 889: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng]
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, name:hao-deqing, name:wu-xiuquan]
     time_range:
       - 1961-09-08T22:00Z
       - 1961-09-09T04:00Z
@@ -1561,7 +1561,7 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 105–106: all'
         - 'via x.1961-08-28.xu-zhenye-letter-on-qingyuan-county-grain-procurement: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:huang-huoqing, name:song-renqiong, name:xu-zhenye]
   - id: cal.1961-09-10.china-leadership-3
     when: Sept. 10
     date: '1961-09-10'
@@ -1573,7 +1573,7 @@ entries:
       c: b7a54fbf
       rows:
         - 'w.yang-shangkun-riji II, 67: all'
-    tags: [polity:prc, name:li-jingquan, vis:only:prc]
+    tags: [polity:prc, name:li-jingquan, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-09-10T04:00Z
       - 1961-09-10T06:00Z
@@ -1686,7 +1686,7 @@ entries:
       c: '59290078'
       rows:
         - 'w.yang-shangkun-riji II, 67: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-09-10T22:00Z
       - 1961-09-11T04:00Z
@@ -1703,7 +1703,7 @@ entries:
       c: e5aef869
       rows:
         - 'w.yang-shangkun-riji II, 67: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-09-11T04:00Z
       - 1961-09-11T10:00Z
@@ -1877,7 +1877,7 @@ entries:
       c: f21d4814
       rows:
         - 'w.yang-shangkun-riji II, 67: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-12.china-leadership-2
     when: Sept. 12
@@ -1890,7 +1890,7 @@ entries:
       c: 12b8991d
       rows:
         - 'w.yang-shangkun-riji II, 67: all'
-    tags: [polity:prc, name:li-jingquan, vis:only:prc]
+    tags: [polity:prc, name:li-jingquan, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-09-12T04:00Z
       - 1961-09-12T06:00Z
@@ -1908,7 +1908,7 @@ entries:
       c: c04c7dd6
       rows:
         - 'w.yang-shangkun-riji II, 67: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:huang-zhizhen, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-12.china-leadership-4
     when: Sept. 12
@@ -2126,7 +2126,7 @@ entries:
       c: a273758b
       rows:
         - 'w.yang-shangkun-riji II, 68: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-13.china-leadership-5
     when: Sept. 13
@@ -2421,7 +2421,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 68: all'
         - 'w.peng-zhen-nianpu-1902 IV, 151: ?'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:liu-lantao, name:wang-enmao, name:yang-shangkun, name:zeng-di, name:zhang-desheng]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-15.china-leadership-6
     when: Sept. 15
@@ -2558,7 +2558,7 @@ entries:
         - 'via x.1956-01-20.mao-speech-on-the-question-of-intellectuals-jan-20-1956: all'
         - 'via x.1958-12-11.mao-speech-at-the-wuchang-conference-dec-11-1958: all'
         - 'via x.1956-11-15.mao-speech-at-the-second-plenum-of-the-eighth-central-committee-nov-15-1956: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:lin-ke, name:tian-jiaying]
   - id: cal.1961-09-16.china-leadership-3
     when: Sept. 16
     date: '1961-09-16'
@@ -2585,7 +2585,7 @@ entries:
       c: 9c095e84
       rows:
         - 'w.yang-shangkun-riji II, 69: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-xuefeng, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-16.china-leadership-5
     when: Sept. 16
@@ -2598,7 +2598,7 @@ entries:
       c: 5c36f4ac
       rows:
         - 'w.yang-shangkun-riji II, 69: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kang-yimin, name:li-shuhuai, name:yang-shangkun]
     time_range:
       - 1961-09-16T04:00Z
       - 1961-09-16T10:00Z
@@ -2622,8 +2622,8 @@ entries:
     place: peking
     thread: china-leadership
     c: Chen Yi 陈毅 gives a banquet in the Xinjiang Room of the Great Hall of the People 人民大会堂新疆厅 for Madeira Keita 马德拉·凯塔, Mali's Minister of the Interior and Information, head of its government economic delegation; world peace can be assured only when colonial rule ends in Asia, Africa and Latin America, he says.
-    n: '[[w.chen-yi-nianpu]], 890–891. The words: 晚上 (890–891). Names: Chen Yi.'
-    tags: [polity:prc, polity:mali, name:chen-yi]
+    n: '[[w.chen-yi-nianpu]], 890–891. The words: 晚上 (890–891). Names: Chen Yi, Madeira Keita.'
+    tags: [polity:prc, polity:mali, name:chen-yi, name:madeira-keita]
     time_range:
       - 1961-09-16T11:00Z
       - 1961-09-16T14:00Z
@@ -2730,7 +2730,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 69: all'
         - 'w.peng-zhen-nianpu-1902 IV, 151: ?'
-    tags: [polity:prc, name:peng-zhen, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, name:li-fuchun, vis:only:prc, name:yang-shangkun, name:zhang-ming]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-17.china-leadership-6
     when: Sept. 17
@@ -2875,8 +2875,8 @@ entries:
     thread: china-leadership
     also: [farm]
     c: 'At Nanchang Zhou Enlai, with Governor Shao Shiping, inspects city works and tells the provincial committee to lift the economy, farming above all, to save, and care for the masses'' living. To the Communist Labor University: serve the villages and the poor and lower-middle peasants. At the Aug. 1 Uprising museum: stress Mao Zedong Thought and Jinggangshan, and the part of Zhu De, He Long, Ye Ting and Liu Bocheng. At dinner he asks Jiangxi for 300 million jin more grain for export, harder than it sounds but possible, as its rations are higher and it has reserves.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 432 (Sept. 18, 1961). Made public: 1997. Names: Zhou Enlai, Zhu De, He Long, Liu Bocheng.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:zhu-de, name:he-long, name:liu-bocheng]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 432 (Sept. 18, 1961). Made public: 1997. Names: Zhou Enlai, Zhu De, He Long, Liu Bocheng, Shao Shiping.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:zhu-de, name:he-long, name:liu-bocheng, name:shao-shiping]
   - id: cal.1961-09-18.china-leadership-2
     when: Sept. 18
     date: '1961-09-18'
@@ -2909,7 +2909,7 @@ entries:
       c: 96091e0f
       rows:
         - 'w.yang-shangkun-riji II, 69: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-18.china-leadership-4
     when: Sept. 18
@@ -3116,7 +3116,7 @@ entries:
       c: 0b79fbc0
       rows:
         - 'w.yang-shangkun-riji II, 70: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-19.china-leadership-3
     when: Sept. 19
@@ -3209,8 +3209,8 @@ entries:
     place: peking
     thread: china-leadership
     c: Chen Yi 陈毅 at the reception of the Chinese–African People's Friendship Association 中国非洲人民友好协会 in the Shandong Room of the Great Hall of the People 人民大会堂 for the Malian government's economic delegation led by Madeira Keita 马德拉·凯塔.
-    n: '[[w.chen-yi-nianpu]], 891. The words: 晚上 (891). Names: Chen Yi.'
-    tags: [polity:prc, polity:mali, name:chen-yi]
+    n: '[[w.chen-yi-nianpu]], 891. The words: 晚上 (891). Names: Chen Yi, Madeira Keita.'
+    tags: [polity:prc, polity:mali, name:chen-yi, name:madeira-keita]
     time_range:
       - 1961-09-19T11:00Z
       - 1961-09-19T14:00Z
@@ -3399,8 +3399,8 @@ entries:
     thread: china-leadership
     also: [europe-and-the-alliance-britain, china]
     c: 'Zhou Enlai hears Xiong Xianghui, deputy director of the Foreign Ministry''s office, on Field Marshal Montgomery''s visits around China; when he reports having answered Montgomery''s objection to women marshals, Zhou tells him: hold to seeking agreement and putting aside differences, do not leave others without a word; irony and sarcasm are never our diplomacy.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 433 (Sept. 20, 1961). Made public: 1997. Names: Zhou Enlai, Montgomery.'
-    tags: [polity:prc, polity:uk, name:zhou-enlai, name:montgomery-of-alamein-bernard-l, vis:only:prc+uk]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 433 (Sept. 20, 1961). Made public: 1997. Names: Zhou Enlai, Montgomery, Xiong Xianghui.'
+    tags: [polity:prc, polity:uk, name:zhou-enlai, name:montgomery-of-alamein-bernard-l, vis:only:prc+uk, name:xiong-xianghui]
   - id: cal.1961-09-20.china-leadership-5
     when: Sept. 20
     date: '1961-09-20'
@@ -3425,7 +3425,7 @@ entries:
       c: 94bad14b
       rows:
         - 'w.yang-shangkun-riji II, 70: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-jiaxiang, name:yang-shangkun]
     time_range:
       - 1961-09-19T22:00Z
       - 1961-09-20T04:00Z
@@ -3640,13 +3640,13 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai attends the banquet given by Madeira Keita, head of the Mali government's economic delegation, for his visit.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 320 (Sept. 21, 1961; 晚上); [[w.chen-yi-nianpu]], 891 (Sept. 21, 1961, evening; Chen Yi at Madeira Keita''s banquet). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 320 (Sept. 21, 1961; 晚上); [[w.chen-yi-nianpu]], 891 (Sept. 21, 1961, evening; Chen Yi at Madeira Keita''s banquet). Names: Zhou Enlai, Madeira Keita.'
     src:
       c: 018d7656
       rows:
         - 'w.zhou-enlai-waijiao-huodong 320: all'
         - 'w.chen-yi-nianpu 891: ?'
-    tags: [polity:prc, polity:mali, name:zhou-enlai]
+    tags: [polity:prc, polity:mali, name:zhou-enlai, name:madeira-keita]
     time_range:
       - 1961-09-21T11:00Z
       - 1961-09-21T14:00Z
@@ -3662,7 +3662,7 @@ entries:
       c: 6bd7df01
       rows:
         - 'w.yang-shangkun-riji II, 70: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-diantao, name:yang-shangkun, name:zeng-san]
     time_range:
       - 1961-09-20T22:00Z
       - 1961-09-21T04:00Z
@@ -3678,7 +3678,7 @@ entries:
       c: 557ea32b
       rows:
         - 'w.yang-shangkun-riji II, 70: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:yang-shangkun]
     time_range:
       - 1961-09-21T04:00Z
       - 1961-09-21T10:00Z
@@ -3694,7 +3694,7 @@ entries:
       c: 279314c3
       rows:
         - 'w.yang-shangkun-riji II, 70: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1961-09-21T14:00Z
       - 1961-09-21T16:00Z
@@ -3706,13 +3706,13 @@ entries:
     place: wuhan
     thread: china-leadership
     c: Wuchang 武昌. Mao 毛泽东 arrives, to meet Field Marshal Montgomery. That afternoon he talks with Wang Renzhong 王任重 on the floods and drought, and above all on the production team as the basic accounting unit.
-    n: '[[w.mao-zedong-zhuan]], V, ch. 68 n.27. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Wang Renzhong 王任重, diary, Sept. 26, 1961 (王任重日记): Mao at Wuchang Sept. 21, talks of Sept. 21 and 22, three papers sent Sept. 23 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.27); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-09-16.china-leadership-3]]. Names: Mao Zedong.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 68 n.27. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Wang Renzhong 王任重, diary, Sept. 26, 1961 (王任重日记): Mao at Wuchang Sept. 21, talks of Sept. 21 and 22, three papers sent Sept. 23 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.27); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-09-16.china-leadership-3]]. Names: Mao Zedong, Wang Renzhong.'
     src:
       c: dfe4131d
       rows:
         - 'w.mao-zedong-zhuan V, ch. 68: all'
         - 'via w.mao-zedong-zhuan V, ch.68 n.27: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:wang-renzhong]
   - id: cal.1961-09-21.china-leadership-8
     when: Sept. 21
     date: '1961-09-21'
@@ -4032,7 +4032,7 @@ entries:
       c: e14066c3
       rows:
         - 'w.yang-shangkun-riji II, 70: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1961-09-21T22:00Z
       - 1961-09-22T04:00Z
@@ -4048,7 +4048,7 @@ entries:
       c: 984a3774
       rows:
         - 'w.yang-shangkun-riji II, 70: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-09-22T04:00Z
       - 1961-09-22T10:00Z
@@ -4060,13 +4060,13 @@ entries:
     place: wuhan
     thread: china-leadership
     c: Wuchang 武昌. Mao 毛泽东 sends for Wang Renzhong 王任重 again in the afternoon, on the production team as the basic accounting unit.
-    n: '[[w.mao-zedong-zhuan]], V, ch. 68 n.27. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Wang Renzhong 王任重, diary, Sept. 26, 1961 (王任重日记): Mao at Wuchang Sept. 21, talks of Sept. 21 and 22, three papers sent Sept. 23 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.27); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-09-21.china-leadership-7]]. Names: Mao Zedong.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 68 n.27. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Wang Renzhong 王任重, diary, Sept. 26, 1961 (王任重日记): Mao at Wuchang Sept. 21, talks of Sept. 21 and 22, three papers sent Sept. 23 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.27); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-09-21.china-leadership-7]]. Names: Mao Zedong, Wang Renzhong.'
     src:
       c: 95d05616
       rows:
         - 'w.mao-zedong-zhuan V, ch. 68: all'
         - 'via w.mao-zedong-zhuan V, ch.68 n.27: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:wang-renzhong]
     time_range:
       - 1961-09-22T04:00Z
       - 1961-09-22T10:00Z
@@ -4084,8 +4084,8 @@ entries:
     date: '1961-09-22'
     thread: china-leadership
     c: Chen Yun 陈云 with Li Xiannian 李先念, Ye Jizhuang 叶季壮 and Lu Xuzhang 卢绪章, vice-minister of foreign trade, on grain imports.
-    n: '[[w.chen-yun-nianpu-xiuding]], III, 107. Made public: 2015. Names: Chen Yun, Li Xiannian.'
-    tags: [polity:prc, name:chen-yun, name:li-xiannian, vis:only:prc]
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 107. Made public: 2015. Names: Chen Yun, Li Xiannian, Ye Jizhuang, Lu Xuzhang.'
+    tags: [polity:prc, name:chen-yun, name:li-xiannian, vis:only:prc, name:lu-xuzhang, name:ye-jizhuang]
   - id: cal.1961-09-23.civil-rights-the-executive
     when: Sept. 23
     date: '1961-09-23'
@@ -4148,7 +4148,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 68 n.159b: B, G'
         - 'w.mao-zedong-zhuan V, ch. 68 n.22: B, D-F'
         - 'via w.mao-zedong-zhuan V, ch.68 n.22: B, D-F'
-    tags: [polity:prc, polity:uk, name:mao-zedong, name:montgomery-of-alamein-bernard-l, vis:only:prc+uk]
+    tags: [polity:prc, polity:uk, name:mao-zedong, name:montgomery-of-alamein-bernard-l, vis:only:prc+uk, name:pu-shouchang, name:wang-renzhong, name:xiong-xianghui]
   - id: cal.1961-09-23.china-leadership-2
     when: Sept. 23
     date: '1961-09-23'
@@ -4200,8 +4200,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Mao Zedong, speaking to Xiong Xianghui, deputy director of the Foreign Ministry''s general office, and Pu Shouchang, secretary in the Premier''s office, who are looking after Montgomery''s visit: the Eighth Congress''s Party constitution has a clause for an honorary chairman "if need be," and Mao would be it; the vice-chairmen are six, and Liu Shaoqi first among them, in effect first vice-chairman, who runs the first line of work; Liu is no Malenkov. Two years before, the chairman of the republic changed his surname, from Mao to Liu, as the National People''s Congress chose; before, two chairmen were both Mao, now one Mao and one Liu, and in time both Liu. If Marx does not invite him, he will be the honorary chairman.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 540–541 (Sept. 23, 1961). The chronology marks it as a second item of the day (△). Pu Shouchang is given as secretary of the Premier''s office (总理办公室秘书). Made public: 1996. Names: Liu Shaoqi, Mao Zedong, Malenkov, Montgomery.'
-    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, name:malenkov-georgiy-maksimilianovich, name:montgomery-of-alamein-bernard-l, vis:only:prc]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 540–541 (Sept. 23, 1961). The chronology marks it as a second item of the day (△). Pu Shouchang is given as secretary of the Premier''s office (总理办公室秘书). Made public: 1996. Names: Liu Shaoqi, Mao Zedong, Malenkov, Montgomery, Xiong Xianghui, Pu Shouchang.'
+    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, name:malenkov-georgiy-maksimilianovich, name:montgomery-of-alamein-bernard-l, vis:only:prc, name:pu-shouchang, name:xiong-xianghui]
   - id: cal.1961-09-23.china-leadership-6
     when: Sept. 23
     date: '1961-09-23'
@@ -4223,13 +4223,13 @@ entries:
     place: wuhan
     thread: china-leadership
     c: Wuchang 武昌, evening. Wang Renzhong 王任重 sends Mao 毛泽东 three papers on making the production team the basic accounting unit.
-    n: '[[w.mao-zedong-zhuan]], V, ch. 68 n.27. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Wang Renzhong 王任重, diary, Sept. 26, 1961 (王任重日记): Mao at Wuchang Sept. 21, talks of Sept. 21 and 22, three papers sent Sept. 23 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.27); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-09-22.china-leadership-12]]. Names: Mao Zedong.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 68 n.27. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Wang Renzhong 王任重, diary, Sept. 26, 1961 (王任重日记): Mao at Wuchang Sept. 21, talks of Sept. 21 and 22, three papers sent Sept. 23 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.27); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-09-22.china-leadership-12]]. Names: Mao Zedong, Wang Renzhong.'
     src:
       c: bf057cd9
       rows:
         - 'w.mao-zedong-zhuan V, ch. 68: all'
         - 'via w.mao-zedong-zhuan V, ch.68 n.27: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:wang-renzhong]
     time_range:
       - 1961-09-23T11:00Z
       - 1961-09-23T14:00Z
@@ -4240,8 +4240,8 @@ entries:
     date: '1961-09-23'
     thread: china-leadership
     c: Romania's new Ambassador, Dumitru Gheorghiu, calls on Chen Yi 陈毅 on the presentation of his credentials.
-    n: '[[w.chen-yi-nianpu]], 891. The words: 上午 (891). Names: Chen Yi.'
-    tags: [polity:prc, polity:romania, name:chen-yi]
+    n: '[[w.chen-yi-nianpu]], 891. The words: 上午 (891). Names: Chen Yi, Dumitru Gheorghiu.'
+    tags: [polity:prc, polity:romania, name:chen-yi, name:dumitru-gheorghiu]
     time_range:
       - 1961-09-22T22:00Z
       - 1961-09-23T04:00Z
@@ -4332,7 +4332,7 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 68 n.23: E-F, I'
         - 'via w.mao-zedong-zhuan V, ch.68 n.23: E-F, I'
         - 'w.yang-jisheng-tiandi-fanfu II, 717: ?'
-    tags: [polity:prc, polity:uk, name:mao-zedong, name:montgomery-of-alamein-bernard-l, name:liu-shaoqi, vis:only:prc+uk]
+    tags: [polity:prc, polity:uk, name:mao-zedong, name:montgomery-of-alamein-bernard-l, name:liu-shaoqi, vis:only:prc+uk, name:wang-renzhong]
   - id: cal.1961-09-24.china-leadership-2
     when: Sept. 24
     date: '1961-09-24'
@@ -4356,8 +4356,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi receives the credentials of Romania''s new ambassador (Dumitru Gheorghiu). People''s subjective thought reflects the objective, sometimes not fully at once; different views come out and, after discussion, agree, until some new question arises: a law of development and a constant task. The Party is the same.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 541 (Sept. 24, 1961). Made public: 1996. Names: Liu Shaoqi.'
-    tags: [polity:prc, polity:romania, vis:only:prc+romania@B-D, name:liu-shaoqi]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 541 (Sept. 24, 1961). Made public: 1996. Names: Liu Shaoqi, Dumitru Gheorghiu.'
+    tags: [polity:prc, polity:romania, vis:only:prc+romania@B-D, name:liu-shaoqi, name:dumitru-gheorghiu]
   - id: cal.1961-09-24.china-leadership-4
     when: Sept. 24
     date: '1961-09-24'
@@ -4473,8 +4473,8 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou Enlai at the capital's meeting marking the 80th anniversary of Lu Xun's birth.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 436 (Sept. 25, 1961); [[w.chen-yi-nianpu]], 892 (Sept. 25, 1961, evening; more than 1,400 of the capital''s writers, artists and others at the auditorium of the CPPCC 政协礼堂; Chen Yi there). Names: Zhou Enlai.'
-    tags: [polity:prc, name:zhou-enlai]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 436 (Sept. 25, 1961); [[w.chen-yi-nianpu]], 892 (Sept. 25, 1961, evening; more than 1,400 of the capital''s writers, artists and others at the auditorium of the CPPCC 政协礼堂; Chen Yi there). Names: Zhou Enlai, Lu Xun.'
+    tags: [polity:prc, name:zhou-enlai, name:lu-xun]
     time_range:
       - 1961-09-25T11:00Z
       - 1961-09-25T14:00Z
@@ -4506,7 +4506,7 @@ entries:
       c: a4c00361
       rows:
         - 'w.yang-shangkun-riji II, 71: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-diantao, name:lai-zulie, name:yang-shangkun]
     time_range:
       - 1961-09-24T22:00Z
       - 1961-09-25T04:00Z
@@ -4522,7 +4522,7 @@ entries:
       c: 8f55be94
       rows:
         - 'w.yang-shangkun-riji II, 71: all'
-    tags: [polity:prc, name:chen-boda, vis:only:prc]
+    tags: [polity:prc, name:chen-boda, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-09-24T22:00Z
       - 1961-09-25T04:00Z
@@ -4538,7 +4538,7 @@ entries:
       c: 4a3f4d13
       rows:
         - 'w.yang-shangkun-riji II, 71: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:zhuo-lin]
     time_range:
       - 1961-09-25T04:00Z
       - 1961-09-25T10:00Z
@@ -4562,8 +4562,8 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking 北京. Zhu De 朱德 welcomes and gives a banquet for those come to Peking for the twelfth National Day: the Panchen Erdeni Choekyi Gyaltsen 班禅额尔德尼·确吉坚赞, Vice-Chairman of the National People''s Congress Standing Committee 全国人大常委会 and acting chairman of the Preparatory Committee for the Tibet Autonomous Region 西藏自治区筹备委员会; Pagbalha Geleg Namgyai 帕巴拉·格列朗杰, vice-chairman of the CPPCC National Committee 政协全国委员会 and of the Preparatory Committee; Ngapoi Ngawang Jigme 阿沛·阿旺晋美, vice-chairman of the CPPCC National Committee and member and secretary-general of the Preparatory Committee; and others.'
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1814. Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1814. Names: Zhu De, Ngapoi Ngawang Jigme.'
+    tags: [polity:prc, name:zhu-de, name:ngapoi-ngawang-jigme]
   - id: cal.1961-09-25.china-leadership-8
     when: Sept. 25
     date: '1961-09-25'
@@ -4733,7 +4733,7 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 68 n.28: B-D'
         - 'via w.mao-zedong-zhuan V, ch.68 n.28: B-D'
         - 'w.jianguo-yilai-zhongyao-wenxian XIV, 740–743: ?'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:liu-zihou, name:zhou-xing]
     variants:
       - unit: A
         witness: w.jianguo-yilai-zhongyao-wenxian
@@ -4755,7 +4755,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1660: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 154: ?'
         - 'w.zhu-de-nianpu-xinbian III, 1814: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-26.china-leadership-3
     when: Sept. 26
@@ -4769,7 +4769,7 @@ entries:
       c: c748192c
       rows:
         - 'w.yang-shangkun-riji II, 71: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yan-mingfu, name:yang-shangkun]
     time_range:
       - 1961-09-26T04:00Z
       - 1961-09-26T10:00Z
@@ -4785,7 +4785,7 @@ entries:
       c: a5b57aeb
       rows:
         - 'w.yang-shangkun-riji II, 72: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-jinde, name:tong-xiaopeng, name:yang-shangkun]
     time_range:
       - 1961-09-26T04:00Z
       - 1961-09-26T10:00Z
@@ -4872,8 +4872,8 @@ entries:
     thread: china-leadership
     also: [economy]
     c: Zhou Enlai sends Yao Yilin and Luo Yuchuan, vice-minister of forestry, to help with the problems after repeated typhoons struck Fujian.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 436 (Sept. 27, 1961). Made public: 1997. Names: Zhou Enlai.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 436 (Sept. 27, 1961). Made public: 1997. Names: Zhou Enlai, Yao Yilin, Luo Yuchuan.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:luo-yuchuan, name:yao-yilin]
   - id: cal.1961-09-27.china-leadership-2
     when: Sept. 27
     date: '1961-09-27'
@@ -4934,7 +4934,7 @@ entries:
       c: e6662ca1
       rows:
         - 'w.yang-shangkun-riji II, 72: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:chen-bingchen, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1961-09-27T11:00Z
       - 1961-09-27T14:00Z
@@ -4969,15 +4969,15 @@ entries:
     date: '1961-09-27'
     thread: china-leadership
     c: 'Chen Yun 陈云 presides over the Central Small Group on Industry Supporting Agriculture 中共中央工业支援农业小组 (set up in June under the Secretariat 书记处, Liao Luyan 廖鲁言, Minister of Agriculture, its head) and speaks: next year''s farm-machinery industry to put its material and capacity chiefly into spare parts for repairs, new machines only with what is left; support to differ by district and look decades, even a century, ahead; to feed so many, reclaim land and raise yields, improve fields and seed, and look to the hills and the sea; afforestation a hundred-year task; good seed and chemical fertilizer, as in America, studied and planned by the central organs now that blind command is barred. The group hears Li Yu 黎玉, vice-minister of farm machinery, and asks the Ministries of Forestry 林业部, Aquatic Products 水产部 and Agriculture 农业部 to study the hills, the sea, the fields and the seed.'
-    n: '[[w.chen-yun-nianpu-xiuding]], III, 107. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III (as 《工业支援农业应该区分不同地区》). Names: Chen Yun.'
-    tags: [polity:prc, name:chen-yun, vis:only:prc]
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 107. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III (as 《工业支援农业应该区分不同地区》). Names: Chen Yun, Liao Luyan.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc, name:liao-luyan]
   - id: cal.1961-09-27.china-leadership-9
     when: Sept. 27
     date: '1961-09-27'
     thread: china-leadership
     c: 'The United Front 中央统战部, Organization 中央组织部 and Propaganda 中央宣传部 Departments report to the Center 中共中央 on the national conference on remolding rightists 《关于全国改造右派分子工作会议的报告》 (Aug. 28–Sept. 11, ninety-four present, Ping Jiesan 平杰三 and others speaking): about 100,000 labels removed in 1959 and 1960; over 80 percent of the rest behave well or fairly well; many units treat them roughly.'
-    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 756–762. Made public: 1997. See [[cal.1961-08-28.china-leadership-6]].'
-    tags: [polity:prc, vis:only:prc]
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 756–762. Made public: 1997. See [[cal.1961-08-28.china-leadership-6]]. Names: Ping Jiesan.'
+    tags: [polity:prc, vis:only:prc, name:ping-jiesan]
   - id: cal.1961-09-28.middle-east
     when: Sept. 28
     date: '1961-09-28'
@@ -5107,14 +5107,14 @@ entries:
     date: '1961-09-28'
     thread: china-leadership
     c: Mao gives Wu Han an inscribed and signed copy of the fourth volume of his *Selected Works*.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 253. Made public: 1984. To check: Mao''s inscription for Wu Han, Sept. 28, 1961, in [[w.nai-wu-hande-xueshu-shengya]], frontispiece (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.39a); [[w.shuangbi-wu-han-zhuan]], frontispiece (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.39b); [[w.zedong-selected-works-of-mao]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.39c); [[w.china-quarterly]], No. 4, 1960, 140 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.39d); [[w.shuangbi-wu-han-zhuan]], 357 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.39e). Names: Mao Zedong. Check: the date is the inscription''s, from a photograph of the title page; the book finds no reason for the day, the volume having appeared for National Day (Oct. 1), 1960.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 253. Made public: 1984. To check: Mao''s inscription for Wu Han, Sept. 28, 1961, in [[w.nai-wu-hande-xueshu-shengya]], frontispiece (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.39a); [[w.shuangbi-wu-han-zhuan]], frontispiece (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.39b); [[w.zedong-selected-works-of-mao]], 4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.39c); [[w.china-quarterly]], No. 4, 1960, 140 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.39d); [[w.shuangbi-wu-han-zhuan]], 357 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 253 n.39e). Names: Mao Zedong, Wu Han. Check: the date is the inscription''s, from a photograph of the title page; the book finds no reason for the day, the volume having appeared for National Day (Oct. 1), 1960.'
     src:
       c: fc0d8c93
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 253: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.39a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 253 n.39b: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:wu-han]
   - id: cal.1961-09-28.china-leadership-5
     when: Sept. 28
     date: '1961-09-28'
@@ -5126,7 +5126,7 @@ entries:
       c: ba0daab6
       rows:
         - 'w.yang-shangkun-riji II, 72: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:he-jun, name:yang-shangkun, name:zeng-san]
     time_range:
       - 1961-09-27T22:00Z
       - 1961-09-28T04:00Z
@@ -5143,7 +5143,7 @@ entries:
       c: e1c9cf4c
       rows:
         - 'w.yang-shangkun-riji II, 72: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:qi-yanming, name:yang-shangkun]
     time_range:
       - 1961-09-28T11:00Z
       - 1961-09-28T14:00Z
@@ -5411,7 +5411,7 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 155: ?'
         - 'w.chen-yun-nianpu-xiuding III, 108: ?'
         - 'w.jianguo-yilai-zhongyao-wenxian XIV, 704–711: ?'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:geng-changsuo]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-29.china-leadership-2
     when: Sept. 29
@@ -5461,7 +5461,7 @@ entries:
       c: 30ad2a2b
       rows:
         - 'w.yang-shangkun-riji II, 72: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-09-28T22:00Z
       - 1961-09-29T04:00Z
@@ -5499,7 +5499,7 @@ entries:
       c: 64c9e075
       rows:
         - 'w.yang-shangkun-riji II, 73: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-29.china-leadership-7
     when: Sept. 29
@@ -5514,8 +5514,8 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Zhu De 朱德 meets Dumitru Gheorghiu, Romania's new Ambassador, and asks about Romania's oil industry.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1814. Names: Zhu De.'
-    tags: [polity:prc, polity:romania, name:zhu-de]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1814. Names: Zhu De, Dumitru Gheorghiu.'
+    tags: [polity:prc, polity:romania, name:zhu-de, name:dumitru-gheorghiu]
   - id: cal.1961-09-29.china-leadership-9
     when: Sept. 29
     date: '1961-09-29'
@@ -5896,7 +5896,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 322: A'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 542: C'
         - 'w.chen-yi-nianpu 892–893: ?'
-    tags: [polity:prc, polity:nepal, name:mao-zedong, name:mahendra-bir-bikram-shah-deva, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:he-long, name:chen-yi, vis:only:prc+nepal]
+    tags: [polity:prc, polity:nepal, name:mao-zedong, name:mahendra-bir-bikram-shah-deva, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:he-long, name:chen-yi, vis:only:prc+nepal, name:deng-yingchao, name:wang-guangmei]
     time_zone: Asia/Shanghai
   - id: cal.1961-09-30.china-leadership-2
     when: Sept. 30
@@ -6038,7 +6038,7 @@ entries:
     at: before 1961-09-11
     thread: china-leadership
     c: Deng Tuo and other editors of *Qianxian*, the Peking Party committee's theoretical journal, give Liao Mosha lunch at a Sichuan restaurant, with Wu Han. Deng proposes a column by the three for the journal, *Sanjia cun zhaji* (Notes from a Three-Family Village), under one pen name, Wu Nanxing, made from Wu Han, Ma Nancun and Fan Xing, one column an issue of no more than 1,000 characters. The details are settled at the end of the meal. Liao later says nothing but technicalities was agreed.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 250, 253–54. Made public: 1986. To check: [[w.mosha-liao-mosha-wenji]], 2, 202 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 250 n.4); Informant L, interview with the author (MacFarquhar) (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 254 n.43); [[w.mosha-liao-mosha-wenji]], 2, 198–204 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 254 n.44); [[w.mosha-liao-mosha-wenji]], 2, 203 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 254 n.47a); [[w.mosha-liao-mosha-wenji]], 2, 203–04 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 254 n.47b). Check: the day; the book has the lunch "in the middle of the month".'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 250, 253–54. Made public: 1986. To check: [[w.mosha-liao-mosha-wenji]], 2, 202 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 250 n.4); Informant L, interview with the author (MacFarquhar) (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 254 n.43); [[w.mosha-liao-mosha-wenji]], 2, 198–204 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 254 n.44); [[w.mosha-liao-mosha-wenji]], 2, 203 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 254 n.47a); [[w.mosha-liao-mosha-wenji]], 2, 203–04 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 254 n.47b). Check: the day; the book has the lunch "in the middle of the month". Names: Deng Tuo, Wu Han.'
     src:
       c: 73026e86
       rows:
@@ -6048,7 +6048,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 254 n.44: B'
         - 'via w.macfarquhar-origins-of-the-cultural III, 254 n.47a: D'
         - 'via w.macfarquhar-origins-of-the-cultural III, 254 n.47b: D'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-tuo, name:wu-han]
   - id: cal.1961-09.south-asia
     when: Sept.
     date: 1961-09
@@ -6080,7 +6080,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 73: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1661: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    tags: [polity:prc, name:deng-xiaoping, name:chervonenko-stepan-v, vis:only:prc+ussr, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-09.vietnam-hanoi-2
     when: Sept., early

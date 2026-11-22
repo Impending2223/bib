@@ -170,12 +170,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Lê Thanh Nghị, DRV deputy premier, arrives at the head of a government economic delegation, for a visit to June 4 (again July 11 to 13).
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 31 (June 1–4, 1965; the visits, given as June 1 to 4 and July 11 to 13; Liu Shaoqi and Zhou receive the delegation; Li Xiannian''s talks; an agreement on Chinese economic and technical aid, free aid of defense and economic equipment, complete plants and materials; no days given).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 31 (June 1–4, 1965; the visits, given as June 1 to 4 and July 11 to 13; Liu Shaoqi and Zhou receive the delegation; Li Xiannian''s talks; an agreement on Chinese economic and technical aid, free aid of defense and economic equipment, complete plants and materials; no days given). Names: Lê Thanh Nghị.'
     src:
       c: 377ccb7f
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 31: all'
-    tags: [polity:prc, polity:drv]
+    tags: [polity:prc, polity:drv, name:le-thanh-nghi]
   - id: cal.1965-06-01.china-leadership-5
     when: June 1
     date: '1965-06-01'
@@ -195,7 +195,7 @@ entries:
       c: 9b4aae5d
       rows:
         - 'w.yang-shangkun-riji II, 628: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-05-31T22:00Z
       - 1965-06-01T04:00Z
@@ -212,7 +212,7 @@ entries:
       c: 7cf477ff
       rows:
         - 'w.yang-shangkun-riji II, 628: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-01T04:00Z
       - 1965-06-01T10:00Z
@@ -229,7 +229,7 @@ entries:
       c: 2293ce6d
       rows:
         - 'w.yang-shangkun-riji II, 628: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-youjiu, name:yang-shangkun]
     time_range:
       - 1965-06-01T14:00Z
       - 1965-06-01T16:00Z
@@ -344,8 +344,8 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Zhu De 朱德, with Guo Moruo 郭沫若, meets *Suluotuo* 苏罗托, general chairman of the Indonesia–China Friendship Association 印度尼西亚中国友好协会, and Sinki 辛基, head of its delegation.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1935. Names: Zhu De.'
-    tags: [polity:prc, polity:indonesia, name:zhu-de]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1935. Names: Zhu De, Guo Moruo, Sinki.'
+    tags: [polity:prc, polity:indonesia, name:zhu-de, name:guo-moruo, name:sinki]
   - id: cal.1965-06-02.opinion
     when: June 2
     date: '1965-06-02'
@@ -569,7 +569,7 @@ entries:
       c: 3dd7fd06
       rows:
         - 'w.yang-shangkun-riji II, 629: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-02.china-leadership-7
     when: June 2
@@ -583,7 +583,7 @@ entries:
       c: a0e42e13
       rows:
         - 'w.yang-shangkun-riji II, 629: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-02.china-leadership-10
     when: June 2
@@ -596,7 +596,7 @@ entries:
       c: e7057e77
       rows:
         - 'w.yang-shangkun-riji II, 629: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-feng, name:yang-shangkun]
     time_range:
       - 1965-06-02T11:00Z
       - 1965-06-02T14:00Z
@@ -615,7 +615,7 @@ entries:
       c: 71a179b8
       rows:
         - 'w.yang-shangkun-riji II, 629: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:guo-tan, name:yang-shangkun]
     time_range:
       - 1965-06-02T14:00Z
       - 1965-06-02T16:00Z
@@ -639,8 +639,8 @@ entries:
     thread: china-leadership
     also: [indonesia]
     c: Chen Yi 陈毅 and his wife Zhang Qian 张茜 give a banquet for Arudji Kartawinata 阿鲁季·卡塔威纳塔 and his wife; he toasts.
-    n: '[[w.chen-yi-nianpu]], 1101. The words: 晚上 (1101). Names: Chen Yi.'
-    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 1101. The words: 晚上 (1101). Names: Chen Yi, Zhang Qian.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, ok:fields-place, name:zhang-qian]
     time_range:
       - 1965-06-02T11:00Z
       - 1965-06-02T14:00Z
@@ -828,13 +828,13 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Liu Shaoqi receives Lê Thanh Nghị (黎清毅), Politburo member of the Vietnam Workers' Party and Deputy Premier; he says the Chinese people will do their utmost to support the fraternal Vietnamese people's just struggle against the Americans and for national salvation. By the Vietnamese report he also says China cannot supply trucks, steel or explosives in quantity, so the Vietnamese should ask the Soviet Union and Eastern Europe for them, and tells them to build small dispersed plants in the mountains.
-    n: '"[Lê Thanh Nghị, ''Report on Meetings with Party Leaders of Eight Socialist Countries''](https://digitalarchive.umd.edu/document/134601)" (1965), 8058 – "Báo cáo của Phó Thủ tướng Lê Thanh Nghị về việc gặp các đồng chí lãnh đạo của Đảng và Nhà nước 8 nước xã hội chủ nghĩa năm 1965," Phủ Thủ tướng, Vietnam National Archives Center 3 (Hanoi), trans. Merle Pribbenow, obtained by Pierre Asselin, Wilson Center Digital Archive (the section "China," Liu Shaoqi''s points 1–4). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 621 (June 3, 1965). Made public: 1996. Check: the report does not date the talk; the Nianpu''s June 3 is taken. Names: Liu Shaoqi. Check: the Vietnamese form of 黎清毅 (Lê Thanh Nghị).'
+    n: '"[Lê Thanh Nghị, ''Report on Meetings with Party Leaders of Eight Socialist Countries''](https://digitalarchive.umd.edu/document/134601)" (1965), 8058 – "Báo cáo của Phó Thủ tướng Lê Thanh Nghị về việc gặp các đồng chí lãnh đạo của Đảng và Nhà nước 8 nước xã hội chủ nghĩa năm 1965," Phủ Thủ tướng, Vietnam National Archives Center 3 (Hanoi), trans. Merle Pribbenow, obtained by Pierre Asselin, Wilson Center Digital Archive (the section "China," Liu Shaoqi''s points 1–4). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 621 (June 3, 1965). Made public: 1996. Check: the report does not date the talk; the Nianpu''s June 3 is taken. Names: Liu Shaoqi, Lê Thanh Nghị. Check: the Vietnamese form of 黎清毅 (Lê Thanh Nghị).'
     src:
       c: 151b08f1
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 621: A-B'
         - 'https://digitalarchive.umd.edu/document/134601: A, C'
-    tags: [polity:prc, polity:drv, name:liu-shaoqi, vis:only:prc+drv@B]
+    tags: [polity:prc, polity:drv, name:liu-shaoqi, vis:only:prc+drv@B, name:le-thanh-nghi]
   - id: cal.1965-06-03.china-leadership-5
     when: June 3
     date: '1965-06-03'
@@ -848,7 +848,7 @@ entries:
       c: bed1972c
       rows:
         - 'w.yang-shangkun-riji II, 629: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:yang-yimu]
     time_range:
       - 1965-06-02T22:00Z
       - 1965-06-03T04:00Z
@@ -865,7 +865,7 @@ entries:
       c: 9999403a
       rows:
         - 'w.yang-shangkun-riji II, 629: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:yang-yimu]
     time_range:
       - 1965-06-03T11:00Z
       - 1965-06-03T14:00Z
@@ -882,7 +882,7 @@ entries:
       c: 7760fb83
       rows:
         - 'w.yang-shangkun-riji II, 629: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-03.china-leadership-8
     when: June 3
@@ -897,7 +897,7 @@ entries:
       c: '85432908'
       rows:
         - 'w.yang-shangkun-riji II, 629: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-03T04:00Z
       - 1965-06-03T10:00Z
@@ -1110,13 +1110,13 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou reaches Dar es Salaam; met by President Nyerere, vice-presidents Karume and Kawawa. In his written statement hopes to learn more of Tanzania and to learn from it.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 735 (June 4, 1965); [[w.zhou-enlai-waijiao-huodong]], 459 (June 4, 1965; arrival at Dar es Salaam, Nyerere and Vice Presidents Karume and Kawawa at the airport). Names: Zhou Enlai, Nyerere.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 735 (June 4, 1965); [[w.zhou-enlai-waijiao-huodong]], 459 (June 4, 1965; arrival at Dar es Salaam, Nyerere and Vice Presidents Karume and Kawawa at the airport). Names: Zhou Enlai, Nyerere, Kawawa.'
     src:
       c: 005bbf30
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 735: ?'
         - 'w.zhou-enlai-waijiao-huodong 459: A'
-    tags: [name:zhou-enlai, name:nyerere-julius-k, polity:prc, polity:tanzania]
+    tags: [name:zhou-enlai, name:nyerere-julius-k, polity:prc, polity:tanzania, name:kawawa]
   - id: cal.1965-06-04.china-leadership-2
     when: June 4–7
     date: '1965-06-04'
@@ -1166,7 +1166,7 @@ entries:
       c: 072ee6ff
       rows:
         - 'w.yang-shangkun-riji II, 630: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-jinglin, name:yang-jingren, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-04.china-leadership-5
     when: June 4
@@ -1180,7 +1180,7 @@ entries:
       c: 4100535d
       rows:
         - 'w.yang-shangkun-riji II, 630: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-04.china-leadership-6
     when: June 4
@@ -1195,7 +1195,7 @@ entries:
       c: 3b32d596
       rows:
         - 'w.yang-shangkun-riji II, 630: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-04T04:00Z
       - 1965-06-04T10:00Z
@@ -1459,12 +1459,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Zhou attends the reception given by Tanzania's Second Vice President Kawawa and watches folk dances by Tanzanian dancers.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 460 (June 5, 1965; evening; Dar es Salaam). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 460 (June 5, 1965; evening; Dar es Salaam). Names: Zhou Enlai, Kawawa.'
     src:
       c: 14fcda30
       rows:
         - 'w.zhou-enlai-waijiao-huodong 460: all'
-    tags: [polity:prc, name:zhou-enlai]
+    tags: [polity:prc, name:zhou-enlai, name:kawawa]
     time_range:
       - 1965-06-05T16:00Z
       - 1965-06-05T19:00Z
@@ -1505,7 +1505,7 @@ entries:
       c: 5d7112ed
       rows:
         - 'w.yang-shangkun-riji II, 630: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-duo, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-05.china-leadership-8
     when: June 5
@@ -1520,7 +1520,7 @@ entries:
       c: 271225b9
       rows:
         - 'w.yang-shangkun-riji II, 630: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:ulanhu, name:yang-shangkun]
     time_range:
       - 1965-06-05T11:00Z
       - 1965-06-05T14:00Z
@@ -1730,7 +1730,7 @@ entries:
       c: 9d5b50be
       rows:
         - 'w.yang-shangkun-riji II, 631: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-05T22:00Z
       - 1965-06-06T04:00Z
@@ -1747,7 +1747,7 @@ entries:
       c: e646ceac
       rows:
         - 'w.yang-shangkun-riji II, 631: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-06T04:00Z
       - 1965-06-06T10:00Z
@@ -1909,13 +1909,13 @@ entries:
     thread: democratic-party
     also: [robert-kennedy]
     c: 'Cliff Carter of the National Committee to Watson, of the coming primary for governor in Wisconsin: "I rather doubt we will be able to show any preference or take any part in this primary ... despite what Bobby Kennedy does."'
-    n: '[[w.shesol-mutual-contempt]], 345. To check: Carter to Watson, June 7, 1965, WHCF Confidential File, Name File, box 147, LBJ Library (cited by [[w.shesol-mutual-contempt]], 345). Names: Watson, Robert Kennedy.'
+    n: '[[w.shesol-mutual-contempt]], 345. To check: Carter to Watson, June 7, 1965, WHCF Confidential File, Name File, box 147, LBJ Library (cited by [[w.shesol-mutual-contempt]], 345). Names: Watson, Robert Kennedy, Cliff Carter.'
     src:
       c: 3bd0db4d
       rows:
         - 'w.shesol-mutual-contempt 345: all'
         - 'via x.1965-06-07.carter-to-watson-wisconsin: all'
-    tags: [name:watson-w-marvin, name:kennedy-robert-f, state:wi]
+    tags: [name:watson-w-marvin, name:kennedy-robert-f, state:wi, name:cliff-carter]
     time_range:
       - 1965-06-07T13:00Z
       - 1965-06-07T21:00Z
@@ -2003,7 +2003,7 @@ entries:
       c: 3b9d93b4
       rows:
         - 'w.yang-shangkun-riji II, 631: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-06T22:00Z
       - 1965-06-07T04:00Z
@@ -2020,7 +2020,7 @@ entries:
       c: 661f5e18
       rows:
         - 'w.yang-shangkun-riji II, 631: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-07T04:00Z
       - 1965-06-07T10:00Z
@@ -2038,7 +2038,7 @@ entries:
       c: 09879efa
       rows:
         - 'w.yang-shangkun-riji II, 631: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:ulanhu, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-07.china-leadership-7
     when: June 7
@@ -2054,7 +2054,7 @@ entries:
       c: 99b7ecc0
       rows:
         - 'w.yang-shangkun-riji II, 631: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-07.vietnam-hanoi
     when: June 7
@@ -2260,8 +2260,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: Liu Shaoqi receives the Albanian government economic delegation led by Spiro Koleka (斯皮罗·科列加), Politburo member and First Vice-Chairman of the Council of Ministers, and Koço Theodhosi (科乔·蒂奥多西), alternate Politburo member and Vice-Chairman of the Council of Ministers and Chairman of the State Planning Commission.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 622 (June 8, 1965). Names: Liu Shaoqi.'
-    tags: [polity:prc, polity:albania, name:liu-shaoqi]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 622 (June 8, 1965). Names: Liu Shaoqi, Spiro Koleka.'
+    tags: [polity:prc, polity:albania, name:liu-shaoqi, name:spiro-koleka]
   - id: cal.1965-06-08.china-leadership-4
     when: June 8
     date: '1965-06-08'
@@ -2274,7 +2274,7 @@ entries:
       c: 64dd7b85
       rows:
         - 'w.yang-shangkun-riji II, 631: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-08.china-leadership-5
     when: June 8
@@ -2287,7 +2287,7 @@ entries:
       c: d5bbf122
       rows:
         - 'w.yang-shangkun-riji II, 631: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-08T11:00Z
       - 1965-06-08T14:00Z
@@ -2305,7 +2305,7 @@ entries:
       c: aa8d34e6
       rows:
         - 'w.yang-shangkun-riji II, 631: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-08.china-leadership-7
     when: June 8
@@ -2541,7 +2541,7 @@ entries:
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 736: ?'
         - 'w.zhou-enlai-waijiao-huodong 462: A'
-    tags: [name:zhou-enlai, polity:prc, polity:syria, vis:only:prc+syria]
+    tags: [name:zhou-enlai, polity:prc, polity:syria, vis:only:prc+syria, name:amin-al-hafiz]
   - id: cal.1965-06-09.china-leadership-2
     when: June 9
     date: '1965-06-09'
@@ -2565,13 +2565,13 @@ entries:
     date: '1965-06-09'
     thread: china-leadership
     c: The Central Party School proposes that Yang Xianzhen be removed as its deputy director and from its management committee.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 396. The Center''s approval: [[cal.1965-09-24.china-leadership-5]]. Made public: 1989. To check: [[w.jin-1949-1989-niande-zhongguo]], 568–70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 396 n.92b). See [[cal.1965-03-01.china-leadership-2]].'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 396. The Center''s approval: [[cal.1965-09-24.china-leadership-5]]. Made public: 1989. To check: [[w.jin-1949-1989-niande-zhongguo]], 568–70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 396 n.92b). See [[cal.1965-03-01.china-leadership-2]]. Names: Yang Xianzhen.'
     src:
       c: 489a2fe7
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 396: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 396 n.92b: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-xianzhen]
   - id: cal.1965-06-09.china-leadership-4
     when: June 9
     date: '1965-06-09'
@@ -2584,15 +2584,15 @@ entries:
       c: 77017a2f
       rows:
         - 'w.yang-shangkun-riji II, 631: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-09.china-leadership-5
     when: June 9
     date: '1965-06-09'
     thread: china-leadership
     c: Chen Yi 陈毅 at the airport to see off the Albanian government economic delegation led by Spiro Koleka 斯皮罗·科列加 and Koço Theodhosi 科乔·蒂奥多西.
-    n: '[[w.chen-yi-nianpu]], 1102. The words: 上午 (1102). Names: Chen Yi.'
-    tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 1102. The words: 上午 (1102). Names: Chen Yi, Spiro Koleka.'
+    tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place, name:spiro-koleka]
     time_range:
       - 1965-06-08T22:00Z
       - 1965-06-09T04:00Z
@@ -2847,7 +2847,7 @@ entries:
       c: 31f530f8
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-09T22:00Z
       - 1965-06-10T04:00Z
@@ -2864,7 +2864,7 @@ entries:
       c: ad80b5b9
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-10T04:00Z
       - 1965-06-10T10:00Z
@@ -2881,7 +2881,7 @@ entries:
       c: 51878f18
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:luo-qingchang, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1965-06-10T11:00Z
       - 1965-06-10T14:00Z
@@ -3052,7 +3052,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 69–70: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 69 n.1: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 70 n.2: all'
-    tags: [polity:prc, name:mao-zedong, name:kang-sheng, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:kang-sheng, name:deng-xiaoping, vis:only:prc, name:wu-lengxi]
   - id: cal.1965-06-11.china-leadership-2
     when: June 11
     date: '1965-06-11'
@@ -3065,7 +3065,7 @@ entries:
       c: 02291e7b
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-11.china-leadership-3
     when: June 11
@@ -3078,7 +3078,7 @@ entries:
       c: 6239bd53
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-11T04:00Z
       - 1965-06-11T10:00Z
@@ -3097,7 +3097,7 @@ entries:
       c: 676ef388
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-11T04:00Z
       - 1965-06-11T10:00Z
@@ -3199,7 +3199,7 @@ entries:
       c: 37d2f166
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, name:li-fuchun, name:luo-ruiqing, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, name:luo-ruiqing, vis:only:prc, name:yang-shangkun]
   - id: cal.1965-06-12.china-leadership-3
     when: June 12
     date: '1965-06-12'
@@ -3212,7 +3212,7 @@ entries:
       c: d57b6317
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    tags: [polity:prc, name:zhu-de, vis:only:prc, name:yang-shangkun]
   - id: cal.1965-06-12.china-leadership-4
     when: June 12
     date: '1965-06-12'
@@ -3225,7 +3225,7 @@ entries:
       c: e8edbb2c
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:kong-yuan, name:yang-shangkun]
   - id: cal.1965-06-12.china-leadership-5
     when: June 12
     date: '1965-06-12'
@@ -3237,7 +3237,7 @@ entries:
       c: 522ea407
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-lin, name:yang-shangkun]
     time_range:
       - 1965-06-12T04:00Z
       - 1965-06-12T10:00Z
@@ -3270,7 +3270,7 @@ entries:
     also: [vietnam-hanoi, vietnam]
     c: 'Mao, Hangzhou, Wang Zhuang, afternoon: receives Hồ Chí Minh again; Dong Biwu and Jiang Hua present. On Vietnam: "We are prepared; as the U.S. fights, so we." Johnson not shrewd, not logical, unpredictable. Of Confucius'' homeland (Hồ had visited Qufu): Confucius killed his opponent; Qin Shihuang the one who did something.'
     n: '[[w.zedong-mao-zedong-nianpu]], V, June 13, 1965. Made public: 2013. Names: Mao Zedong, Hồ Chí Minh, Dong Biwu, Jiang Hua, Johnson.'
-    tags: [name:mao-zedong, name:ho-chi-minh, name:dong-biwu, name:johnson-lyndon-b, polity:drv, polity:prc, vis:only:prc+drv]
+    tags: [name:mao-zedong, name:ho-chi-minh, name:dong-biwu, name:johnson-lyndon-b, polity:drv, polity:prc, vis:only:prc+drv, name:jiang-hua]
   - id: cal.1965-06-13.china
     when: June 13
     date: '1965-06-13'
@@ -3295,7 +3295,7 @@ entries:
       c: c871deea
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
   - id: cal.1965-06-13.china-leadership-3
     when: June 13
     date: '1965-06-13'
@@ -3307,7 +3307,7 @@ entries:
       c: 8f5c84f4
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hu-keshi, name:wang-wei, name:yang-shangkun, name:zhang-ze]
     time_range:
       - 1965-06-12T22:00Z
       - 1965-06-13T04:00Z
@@ -3324,7 +3324,7 @@ entries:
       c: 534ce6ce
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1965-06-13T04:00Z
       - 1965-06-13T10:00Z
@@ -3341,7 +3341,7 @@ entries:
       c: efb83b37
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-lin, name:yang-shangkun]
     time_range:
       - 1965-06-13T11:00Z
       - 1965-06-13T14:00Z
@@ -3360,7 +3360,7 @@ entries:
       c: e8b68451
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
     time_range:
       - 1965-06-13T11:00Z
       - 1965-06-13T14:00Z
@@ -3643,7 +3643,7 @@ entries:
     thread: china-leadership
     c: Zhou, told Li Zongren has flown from the United States to Zurich, tells Cheng Siyuan in Hong Kong to come to Beijing to settle Li's return. See [[cal.1965-07-12.china-leadership]].
     n: '[[w.zhou-enlai-nianpu-1949]], II, 737 (June 14, 1965). Made public: 1997. Names: Zhou Enlai, Cheng Siyuan, Li Zongren.'
-    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc, name:cheng-siyuan, name:li-zongren]
   - id: cal.1965-06-14.china-leadership-3
     when: June 14
     date: '1965-06-14'
@@ -3691,7 +3691,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 633: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1866: ?'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-13T22:00Z
       - 1965-06-14T04:00Z
@@ -3708,7 +3708,7 @@ entries:
       c: bf37916d
       rows:
         - 'w.yang-shangkun-riji II, 633: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:wang-lin, name:yang-shangkun]
     time_range:
       - 1965-06-14T04:00Z
       - 1965-06-14T10:00Z
@@ -3725,7 +3725,7 @@ entries:
       c: f4fadc30
       rows:
         - 'w.yang-shangkun-riji II, 633: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-13T22:00Z
       - 1965-06-14T04:00Z
@@ -3985,7 +3985,7 @@ entries:
       c: 7133ac30
       rows:
         - 'w.yang-shangkun-riji II, 633: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
   - id: cal.1965-06-15.china-leadership-4
     when: June 15
     date: '1965-06-15'
@@ -3997,7 +3997,7 @@ entries:
       c: 8a11274b
       rows:
         - 'w.yang-shangkun-riji II, 633: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:an-ziwen, name:yang-shangkun]
     time_range:
       - 1965-06-15T04:00Z
       - 1965-06-15T10:00Z
@@ -4204,7 +4204,7 @@ entries:
         - 'via w.mao-zedong-zhuan VI, ch.73 n.31: C, D'
         - 'w.yang-jisheng-tiandi-fanfu II, 1067: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 422: ?'
-    tags: [name:mao-zedong, name:zhou-enlai, name:peng-zhen, name:chen-yi, name:li-xiannian, name:bo-yibo, name:luo-ruiqing, polity:prc, vis:only:prc]
+    tags: [name:mao-zedong, name:zhou-enlai, name:peng-zhen, name:chen-yi, name:li-xiannian, name:bo-yibo, name:luo-ruiqing, polity:prc, vis:only:prc, name:gu-mu, name:jiang-hua, name:yu-qiuli]
   - id: cal.1965-06-16.china-leadership-2
     when: June 16
     date: '1965-06-16'
@@ -4224,7 +4224,7 @@ entries:
       c: 0640faf7
       rows:
         - 'w.yang-shangkun-riji II, 633: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-15T22:00Z
       - 1965-06-16T04:00Z
@@ -4241,7 +4241,7 @@ entries:
       c: 93ff772e
       rows:
         - 'w.yang-shangkun-riji II, 633: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:yang-shangkun]
     time_range:
       - 1965-06-16T04:00Z
       - 1965-06-16T10:00Z
@@ -4509,7 +4509,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 737: ?'
         - 'w.zhou-enlai-waijiao-huodong 462: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 33: A'
-    tags: [name:zhou-enlai, polity:prc]
+    tags: [name:zhou-enlai, polity:prc, name:deng-yingchao]
   - id: cal.1965-06-17.china-leadership-2
     when: June 17
     date: '1965-06-17'
@@ -4552,7 +4552,7 @@ entries:
       c: 4ee4ed09
       rows:
         - 'w.yang-shangkun-riji II, 633: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:qian-ying, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-17.china-leadership-5
     when: June 17
@@ -4565,7 +4565,7 @@ entries:
       c: 9b7cacad
       rows:
         - 'w.yang-shangkun-riji II, 633: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kang-yimin, name:yang-shangkun]
     time_range:
       - 1965-06-17T04:00Z
       - 1965-06-17T10:00Z
@@ -4866,7 +4866,7 @@ entries:
     thread: china-leadership
     also: [middle-east, africa]
     c: 'Zhou and Chen Yi leave Beijing at the UAR''s invitation. Before leaving tells Zhou Rongxin, Xu Bing, Ping Jiesan and Tong Xiaopeng to tell Cheng Siyuan: the government gives Li Zongren travel money, which Cheng carries to Switzerland; Cheng gets travel money to go and bring Li back; a responsible man will contact Cheng at Zurich and help.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 737–38 (June 18, 1965); [[w.zhou-enlai-waijiao-huodong]], 462 (June 18, 1965; morning, by special plane with Chen Yi for a friendly visit to Cairo); [[w.zhonghua-renmin-gongheguo-waijiao]], 34 (June 19–30, 1965; Zhou and Chen Yi''s trip to the UAR at its invitation, June 19–30); [[w.yang-shangkun-riji]], II, 634 (June 18, 1965; Yang sees Zhou and Chen Yi off at the western airport at 8:15 a.m.; the editors'' note: to the UAR and the Asian-African conference planned for Algeria; the words: 上午8时1刻去西郊机场送周、陈出国); [[w.peng-zhen-nianpu-1902]], IV, 422 (June 19, 1965; Peng Zhen, with Liu Shaoqi, Zhu De, Deng Xiaoping and others, at the airport seeing off Zhou to the UAR); [[w.chen-yi-nianpu]], 1103 (June 18, 1965, morning; Chen Yi leaves Peking with Zhou for Cairo); [[w.zhu-de-nianpu-xinbian]], III, 1936 (June 18, 1965; Zhu De 朱德, with Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平, Peng Zhen 彭真 and others, at the airport to see Zhou Enlai 周恩来 and Chen Yi 陈毅 off to the United Arab Republic 阿拉伯联合共和国). Names: Zhou Enlai, Chen Yi, Cheng Siyuan.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 737–38 (June 18, 1965); [[w.zhou-enlai-waijiao-huodong]], 462 (June 18, 1965; morning, by special plane with Chen Yi for a friendly visit to Cairo); [[w.zhonghua-renmin-gongheguo-waijiao]], 34 (June 19–30, 1965; Zhou and Chen Yi''s trip to the UAR at its invitation, June 19–30); [[w.yang-shangkun-riji]], II, 634 (June 18, 1965; Yang sees Zhou and Chen Yi off at the western airport at 8:15 a.m.; the editors'' note: to the UAR and the Asian-African conference planned for Algeria; the words: 上午8时1刻去西郊机场送周、陈出国); [[w.peng-zhen-nianpu-1902]], IV, 422 (June 19, 1965; Peng Zhen, with Liu Shaoqi, Zhu De, Deng Xiaoping and others, at the airport seeing off Zhou to the UAR); [[w.chen-yi-nianpu]], 1103 (June 18, 1965, morning; Chen Yi leaves Peking with Zhou for Cairo); [[w.zhu-de-nianpu-xinbian]], III, 1936 (June 18, 1965; Zhu De 朱德, with Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平, Peng Zhen 彭真 and others, at the airport to see Zhou Enlai 周恩来 and Chen Yi 陈毅 off to the United Arab Republic 阿拉伯联合共和国). Names: Zhou Enlai, Chen Yi, Cheng Siyuan, Zhou Rongxin, Xu Bing, Ping Jiesan, Tong Xiaopeng, Li Zongren.'
     src:
       c: dfce8a64
       rows:
@@ -4877,7 +4877,7 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 422: ?'
         - 'w.chen-yi-nianpu 1103: ?'
         - 'w.zhu-de-nianpu-xinbian III, 1936: ?'
-    tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:uar]
+    tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:uar, name:cheng-siyuan, name:li-zongren, name:ping-jiesan, name:tong-xiaopeng, name:xu-bing, name:zhou-rongxin]
     variants:
       - unit: A
         witness: w.peng-zhen-nianpu-1902
@@ -4927,7 +4927,7 @@ entries:
         - 'w.yang-shangkun-riji II, 634: all'
         - 'w.peng-zhen-nianpu-1902 IV, 422: ?'
         - 'w.zhu-de-nianpu-xinbian III, 1936: ?'
-    tags: [polity:prc, name:peng-zhen]
+    tags: [polity:prc, name:peng-zhen, name:liu-ningyi, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-18.indonesia
     when: June 18
@@ -5084,7 +5084,7 @@ entries:
       c: 1be8577b
       rows:
         - 'w.yang-shangkun-riji II, 634: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:feng-xuan, name:yang-shangkun]
     time_range:
       - 1965-06-19T04:00Z
       - 1965-06-19T10:00Z
@@ -5103,7 +5103,7 @@ entries:
       c: 0b9d996c
       rows:
         - 'w.yang-shangkun-riji II, 634: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:liao-chengzhi, name:yang-shangkun, name:zhang-hanfu]
     time_range:
       - 1965-06-19T04:00Z
       - 1965-06-19T10:00Z
@@ -5122,7 +5122,7 @@ entries:
       c: '24784423'
       rows:
         - 'w.yang-shangkun-riji II, 634: all'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-19T04:00Z
       - 1965-06-19T10:00Z
@@ -5141,7 +5141,7 @@ entries:
       c: 8c43da8b
       rows:
         - 'w.yang-shangkun-riji II, 634: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-19T04:00Z
       - 1965-06-19T10:00Z
@@ -5276,8 +5276,8 @@ entries:
     thread: china-leadership
     also: [africa]
     c: 'Zhou and Chen Yi wire the Foreign Ministry for the Center, and for Ambassador Zeng Tao at Algiers: after the talk with Nasser, best to send an advance party under Zhang Hanfu to Algiers, so as to show indirectly support for the new leadership. June 21 the Central Committee wires Zhou: in outside activity it still holds for the conference on time.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 738 (June 20, 1965). Made public: 1997. Names: Zhou Enlai, Chen Yi, Zhang Hanfu.'
-    tags: [name:zhou-enlai, name:chen-yi, polity:prc, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 738 (June 20, 1965). Made public: 1997. Names: Zhou Enlai, Chen Yi, Zhang Hanfu, Zeng Tao.'
+    tags: [name:zhou-enlai, name:chen-yi, polity:prc, vis:only:prc, name:zeng-tao, name:zhang-hanfu]
   - id: cal.1965-06-20.china-leadership-3
     when: June 20
     date: '1965-06-20'
@@ -5308,7 +5308,7 @@ entries:
       c: b7df4f34
       rows:
         - 'w.yang-shangkun-riji II, 635: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:rong-gaotang, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-20.china-leadership-5
     when: June 20
@@ -5322,7 +5322,7 @@ entries:
       c: 62ecd1ba
       rows:
         - 'w.yang-shangkun-riji II, 635: all'
-    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, name:zhou-enlai, name:chen-yi, vis:only:prc]
+    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, name:zhou-enlai, name:chen-yi, vis:only:prc, name:yang-shangkun, name:zeng-tao]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-20.china-leadership-6
     when: June 20
@@ -5524,7 +5524,7 @@ entries:
     thread: soviet-union-leadership
     c: Moscow. Brezhnev, with Kosygin and Gromyko, in talks with Benyahia, for Algeria, 4 to 6 p.m., in the Presidium's new hall; then with Kosygin, 6 to 7.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 42–43 (June 21). See [[cal.1965-06-19.africa]]. Names: Brezhnev, Benyahia, Kosygin, Gromyko.'
-    tags: [name:brezhnev-leonid, name:kosygin-aleksei, name:gromyko-andrei, polity:ussr, polity:algeria]
+    tags: [name:brezhnev-leonid, name:kosygin-aleksei, name:gromyko-andrei, polity:ussr, polity:algeria, name:benyahia]
     time_range:
       - 1965-06-21T13:00Z
       - 1965-06-21T15:00Z
@@ -5573,7 +5573,7 @@ entries:
       c: d8385fb9
       rows:
         - 'w.yang-shangkun-riji II, 635: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-diantao, name:yang-shangkun]
     time_range:
       - 1965-06-20T22:00Z
       - 1965-06-21T04:00Z
@@ -5601,7 +5601,7 @@ entries:
       c: 22b0922f
       rows:
         - 'w.yang-shangkun-riji II, 635: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:yao-zhen]
   - id: cal.1965-06-21.china-leadership-6
     when: June 21
     date: '1965-06-21'
@@ -5628,12 +5628,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真 calls Li Xiannian 李先念, Bo Yibo 薄一波, Luo Ruiqing 罗瑞卿, Yu Qiuli 余秋里, Gu Mu 谷牧 and others to a meeting on carrying out Mao's 毛泽东 Hangzhou talk of June 16.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 422. The words: 下午 (IV, 422). Made public: 2012. See [[cal.1965-06-16.china-leadership]]. Names: Peng Zhen, Li Xiannian, Bo Yibo, Luo Ruiqing, Mao Zedong.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 422. The words: 下午 (IV, 422). Made public: 2012. See [[cal.1965-06-16.china-leadership]]. Names: Peng Zhen, Li Xiannian, Bo Yibo, Luo Ruiqing, Mao Zedong, Yu Qiuli, Gu Mu.'
     src:
       c: d1529bb5
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 422: all'
-    tags: [polity:prc, name:peng-zhen, name:li-xiannian, name:bo-yibo, name:luo-ruiqing, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, name:li-xiannian, name:bo-yibo, name:luo-ruiqing, name:mao-zedong, vis:only:prc, name:gu-mu, name:yu-qiuli]
     time_range:
       - 1965-06-21T04:00Z
       - 1965-06-21T10:00Z
@@ -5835,7 +5835,7 @@ entries:
       c: 57d08dda
       rows:
         - 'w.yang-shangkun-riji II, 635: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1965-06-21T22:00Z
       - 1965-06-22T04:00Z
@@ -6132,7 +6132,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 636: all'
         - 'w.zhu-de-nianpu-xinbian III, 1936: ?'
-    tags: [polity:prc]
+    tags: [polity:prc, name:yang-shangkun, name:zhao-shoushan]
     time_range:
       - 1965-06-22T22:00Z
       - 1965-06-23T04:00Z
@@ -6149,7 +6149,7 @@ entries:
       c: 59bb7fd9
       rows:
         - 'w.yang-shangkun-riji II, 636: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-23T04:00Z
       - 1965-06-23T10:00Z
@@ -6166,7 +6166,7 @@ entries:
       c: e577082d
       rows:
         - 'w.yang-shangkun-riji II, 636: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-diantao, name:kong-yuan, name:yang-shangkun]
     time_range:
       - 1965-06-23T11:00Z
       - 1965-06-23T14:00Z
@@ -6450,7 +6450,7 @@ entries:
       c: 58283d6a
       rows:
         - 'w.yang-shangkun-riji II, 636: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-23T22:00Z
       - 1965-06-24T04:00Z
@@ -6467,7 +6467,7 @@ entries:
       c: c0051cce
       rows:
         - 'w.yang-shangkun-riji II, 636: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gao-dengbang, name:gong-zirong, name:yang-shangkun, name:zhou-rongxin]
     time_range:
       - 1965-06-24T04:00Z
       - 1965-06-24T10:00Z
@@ -6484,7 +6484,7 @@ entries:
       c: bb1df4c4
       rows:
         - 'w.yang-shangkun-riji II, 636: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-24T11:00Z
       - 1965-06-24T14:00Z
@@ -6500,7 +6500,7 @@ entries:
       c: 96c0ae48
       rows:
         - 'w.yang-shangkun-riji II, 636: all'
-    tags: [polity:prc, name:kang-sheng, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:kang-sheng, name:deng-xiaoping, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-24T11:00Z
       - 1965-06-24T14:00Z
@@ -6722,7 +6722,7 @@ entries:
       c: c7106629
       rows:
         - 'w.yang-shangkun-riji II, 636: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1965-06-24T22:00Z
       - 1965-06-25T04:00Z
@@ -6739,7 +6739,7 @@ entries:
       c: 41971fce
       rows:
         - 'w.yang-shangkun-riji II, 637: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-25T11:00Z
       - 1965-06-25T14:00Z
@@ -6850,7 +6850,7 @@ entries:
         - 'w.zedong-mao-zedong-nianpu V, June 26, 1965: all'
         - 'w.mao-zedong-zhuan VI, ch. 74: F'
         - 'via w.mao-zedong-zhuan VI, ch.74 n.8: F'
-    tags: [name:mao-zedong, polity:prc, vis:only:prc]
+    tags: [name:mao-zedong, polity:prc, vis:only:prc, name:wang-dongxing, name:yu-qiuli]
   - id: cal.1965-06-26.china-leadership-2
     when: June 26
     date: '1965-06-26'
@@ -6909,7 +6909,7 @@ entries:
       c: da8dcabb
       rows:
         - 'w.jianguo-yilai-mao-zedong XVIII, 71: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:zhang-hanzhi, name:zhang-shizhao]
   - id: cal.1965-06-26.china-leadership-6
     when: June 26
     date: '1965-06-26'
@@ -6932,7 +6932,7 @@ entries:
       c: db991721
       rows:
         - 'w.yang-shangkun-riji II, 637: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-diantao, name:yang-shangkun]
     time_range:
       - 1965-06-25T22:00Z
       - 1965-06-26T04:00Z
@@ -6950,7 +6950,7 @@ entries:
       c: '57823598'
       rows:
         - 'w.yang-shangkun-riji II, 637: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:feng-jiping, name:shang-yinbin, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-26.china-leadership-9
     when: June 26
@@ -6963,7 +6963,7 @@ entries:
       c: 9eb52d1f
       rows:
         - 'w.yang-shangkun-riji II, 637: all'
-    tags: [polity:prc, name:zhou-enlai, name:chen-yi, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:chen-yi, vis:only:prc, name:feng-xuan, name:kong-yuan, name:ling-yun, name:yang-shangkun]
     time_range:
       - 1965-06-26T11:00Z
       - 1965-06-26T14:00Z
@@ -6982,7 +6982,7 @@ entries:
       c: 74d021a1
       rows:
         - 'w.yang-shangkun-riji II, 637: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-26T11:00Z
       - 1965-06-26T14:00Z
@@ -7092,7 +7092,7 @@ entries:
       c: 28cb5950
       rows:
         - 'w.yang-shangkun-riji II, 637: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-27T11:00Z
       - 1965-06-27T14:00Z
@@ -7412,7 +7412,7 @@ entries:
       c: bf394dcf
       rows:
         - 'w.yang-shangkun-riji II, 637: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:liu-fang, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-28.china-leadership-6
     when: June 28
@@ -7426,7 +7426,7 @@ entries:
       c: 2e5b2291
       rows:
         - 'w.yang-shangkun-riji II, 637: all'
-    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:kang-sheng, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-28.china-leadership-7
     when: June 28
@@ -7439,7 +7439,7 @@ entries:
       c: 74d021a1
       rows:
         - 'w.yang-shangkun-riji II, 637: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-28T11:00Z
       - 1965-06-28T14:00Z
@@ -7634,12 +7634,12 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Mao receives the Tanzanian women's delegation led by the wife of Kawawa, Tanzania's second vice-president.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 36 (June 29, 1965). Names: Mao Zedong.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 36 (June 29, 1965). Names: Mao Zedong, Kawawa.'
     src:
       c: 99a0e177
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 36: all'
-    tags: [polity:prc, polity:tanzania, name:mao-zedong]
+    tags: [polity:prc, polity:tanzania, name:mao-zedong, name:kawawa]
   - id: cal.1965-06-29.china-leadership-2
     when: June 29
     date: '1965-06-29'
@@ -7653,7 +7653,7 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVIII, 74 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 75 n.2a: all'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 75 n.2b: all'
-    tags: [polity:prc, name:mao-zedong, name:xie-fuzhi, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:xie-fuzhi, vis:only:prc, name:wang-dongxing]
   - id: cal.1965-06-29.china-leadership-3
     when: June 29
     date: '1965-06-29'
@@ -7666,7 +7666,7 @@ entries:
       c: 415b1f0a
       rows:
         - 'w.yang-shangkun-riji II, 638: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-29.china-leadership-5
     when: June 29
@@ -7681,7 +7681,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 638: all'
         - 'w.zhu-de-nianpu-xinbian III, 1936: ?'
-    tags: [polity:prc, name:liu-shaoqi, name:xie-fuzhi, vis:only:prc]
+    tags: [polity:prc, name:liu-shaoqi, name:xie-fuzhi, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-29.china-leadership-6
     when: June 29
@@ -7694,7 +7694,7 @@ entries:
       c: 74d021a1
       rows:
         - 'w.yang-shangkun-riji II, 638: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-29T11:00Z
       - 1965-06-29T14:00Z
@@ -7712,7 +7712,7 @@ entries:
       c: 156f5fbb
       rows:
         - 'w.yang-shangkun-riji II, 638: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-dongxing, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-29.china-leadership-8
     when: June 29
@@ -7720,14 +7720,14 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking 北京, the small auditorium on the third floor of the Great Hall of the People. Peng Zhen 彭真 speaks to the enlarged meeting of the leading group of the Peking University 北京大学 socialist education work team: for a time the work team, without study, denied everything and struggled people, splitting the school''s party and cadres; its chief leaders, set in their views, ignored the Twenty-three Articles and the Center, an error; Peking University a school under Party leadership on the socialist road; Lu Ping 陆平, as he told Mao 毛泽东, a good man who has erred; cure the sickness to save the patient, small meetings and talks, not mass meetings; "politics in command" must rest on teaching; idealism may be taught; uniting 95 and 95 percent, the children of landlords, rich peasants and capitalists among those to unite, judged by conduct; three points: settle the big questions ripe for settling, unite the university''s party organization on principle, attend to teaching.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 423–424; [[w.pu-weihua-zalan-jiu-shijie]], 130 (Peng Zhen to the Peking University socialist education work team and the university''s Party cadres: "in studying the Peking University question I said Comrade Lu Ping is a good man who has erred, speaking of the nature of the error; the Chairman said at once, a good man who has made some errors": Mao minding the measure of the errors; Gong Yuzhi (130 n.75)). Made public: 2012. To check: Gong Yuzhi 龔育之, 〈彭真同志與北大社教〉, *Bainian chao* 《百年潮》, 2002 no. 7, 25 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 130 n.75). Names: Peng Zhen, Mao Zedong.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 423–424; [[w.pu-weihua-zalan-jiu-shijie]], 130 (Peng Zhen to the Peking University socialist education work team and the university''s Party cadres: "in studying the Peking University question I said Comrade Lu Ping is a good man who has erred, speaking of the nature of the error; the Chairman said at once, a good man who has made some errors": Mao minding the measure of the errors; Gong Yuzhi (130 n.75)). Made public: 2012. To check: Gong Yuzhi 龔育之, 〈彭真同志與北大社教〉, *Bainian chao* 《百年潮》, 2002 no. 7, 25 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 130 n.75). Names: Peng Zhen, Mao Zedong, Lu Ping.'
     src:
       c: 27e1987e
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 423–424: all'
         - 'w.pu-weihua-zalan-jiu-shijie 130: E'
         - 'via x.2002-07.gong-yuzhi-peng-zhen-tongzhi-yu-beida-shejiao: E'
-    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc, name:lu-ping]
   - id: cal.1965-06-29.china-leadership-9
     when: June 29
     date: '1965-06-29'
@@ -7747,12 +7747,12 @@ entries:
     date: '1965-06-29'
     thread: china-leadership
     c: Luo Ruiqing 罗瑞卿, after consulting Mao's secretary Tian Jiaying, strikes from the proposed preface to the second edition of the *Quotations from Chairman Mao* Lin Biao's 林彪 phrase that Mao's works are "the highest and most living" of the Marxist classics.
-    n: '[[w.teiwes-tragedy-of-lin-biao]], 206–207. Made public: 1991 ([[w.yao-luo-ruiqing]]). To check: [[w.yao-luo-ruiqing]], 261 (cited by [[w.teiwes-tragedy-of-lin-biao]], 207 n.95). See [[cal.1964-05.china-leadership-4]]. Names: Luo Ruiqing, Lin Biao, Mao Zedong.'
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 206–207. Made public: 1991 ([[w.yao-luo-ruiqing]]). To check: [[w.yao-luo-ruiqing]], 261 (cited by [[w.teiwes-tragedy-of-lin-biao]], 207 n.95). See [[cal.1964-05.china-leadership-4]]. Names: Luo Ruiqing, Lin Biao, Mao Zedong, Tian Jiaying.'
     src:
       c: c4e0b26b
       rows:
         - 'w.teiwes-tragedy-of-lin-biao 206–207: all'
-    tags: [polity:prc, name:luo-ruiqing, name:lin-biao, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:luo-ruiqing, name:lin-biao, name:mao-zedong, vis:only:prc, name:tian-jiaying]
   - id: cal.1965-06-30.cities-and-housing
     when: June 30
     date: '1965-06-30'
@@ -8371,13 +8371,13 @@ entries:
     date: 1965-06
     thread: china-leadership
     c: Mao orders his staff to take part in the socialist education movement. Li Zhisui, his physician, goes to rural Jiangxi.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 429–30. Made public: 1994. To check: [[w.zhisui-private-life-of-chairman]], 422–9, 427 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 430 n.161). Names: Mao Zedong.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 429–30. Made public: 1994. To check: [[w.zhisui-private-life-of-chairman]], 422–9, 427 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 430 n.161). Names: Mao Zedong, Li Zhisui.'
     src:
       c: 5804ad92
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 429–30: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 430 n.161: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:li-zhisui]
   - id: cal.1965-06-30.china-leadership-4
     when: June 30
     date: '1965-06-30'
@@ -8390,7 +8390,7 @@ entries:
       c: b6df3186
       rows:
         - 'w.yang-shangkun-riji II, 638: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:an-ziwen, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1965-06-30.china-leadership-5
     when: June 30
@@ -8403,7 +8403,7 @@ entries:
       c: 74d021a1
       rows:
         - 'w.yang-shangkun-riji II, 638: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1965-06-30T11:00Z
       - 1965-06-30T14:00Z

@@ -168,7 +168,7 @@ entries:
         - 'w.yang-shangkun-riji II, 373: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1811: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 330: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:he-long, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:he-long, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-01.china-leadership-4
     when: May 1
@@ -181,7 +181,7 @@ entries:
       c: 25e04500
       rows:
         - 'w.yang-shangkun-riji II, 373: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:liu-piyun, name:yang-shangkun]
     time_range:
       - 1964-05-01T04:00Z
       - 1964-05-01T10:00Z
@@ -201,7 +201,7 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 330: ?'
         - 'w.chen-yi-nianpu 1024: ?'
         - 'w.zhu-de-nianpu-xinbian III, 1907: ?'
-    tags: [polity:prc]
+    tags: [polity:prc, name:yang-shangkun]
     time_range:
       - 1964-05-01T11:00Z
       - 1964-05-01T14:00Z
@@ -214,7 +214,7 @@ entries:
     also: [vietnam]
     c: 'The Central Highlands front, code name B3, set up, with the 101st and 320th Regiments from the North: Col. Nguyễn Chánh, deputy commander of Region 5, its commander; Col. Đoàn Khuê, Region 5''s deputy political commissar, its political commissar.'
     n: '[[w.lich-su-khang-chien-chong-my]], III, 343–44. Made public: 2013. Names: Nguyễn Chánh, Đoàn Khuê.'
-    tags: [polity:drv, vis:only:drv]
+    tags: [polity:drv, vis:only:drv, name:doan-khue]
   - id: cal.1964-05-01.china-leadership-6
     when: May 1
     date: '1964-05-01'
@@ -547,7 +547,7 @@ entries:
       c: 2ff15ca8
       rows:
         - 'w.yang-shangkun-riji II, 373: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-02T04:00Z
       - 1964-05-02T10:00Z
@@ -563,7 +563,7 @@ entries:
       c: 569c57b9
       rows:
         - 'w.yang-shangkun-riji II, 373: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:chen-pixian, name:yang-shangkun]
     time_range:
       - 1964-05-02T11:00Z
       - 1964-05-02T14:00Z
@@ -586,8 +586,8 @@ entries:
     date: '1964-05-02'
     thread: china-leadership
     c: Chen Yi 陈毅 receives the Albanian women's delegation led by Vito Kapo 维托·卡博, chairman of the Central Council of the Albanian Women's Union; then he and his wife, Zhang Qian 张茜, give a dinner for the guests at home.
-    n: '[[w.chen-yi-nianpu]], 1024–1025. The words: 中午 (1024–1025). Names: Chen Yi.'
-    tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 1024–1025. The words: 中午 (1024–1025). Names: Chen Yi, Zhang Qian.'
+    tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place, name:zhang-qian]
     time_range:
       - 1964-05-02T04:00Z
       - 1964-05-02T06:00Z
@@ -625,7 +625,7 @@ entries:
     thread: china-leadership
     c: Zhou calls Qian Zhengying on silting at the Sanmenxia dam on the Yellow River. She is to go down, investigate, hear all sides, and call a conference on the Yellow River's control.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 640 (May 3, 1964). Made public: 1997. Names: Zhou Enlai, Qian Zhengying.'
-    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc, name:qian-zhengying]
   - id: cal.1964-05-03.china-leadership-2
     when: May 3
     date: '1964-05-03'
@@ -651,7 +651,7 @@ entries:
       c: 534ce6ce
       rows:
         - 'w.yang-shangkun-riji II, 373: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1964-05-02T22:00Z
       - 1964-05-03T04:00Z
@@ -668,7 +668,7 @@ entries:
       c: 6e44c82a
       rows:
         - 'w.yang-shangkun-riji II, 373: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:mei-xing, name:yang-shangkun]
     time_range:
       - 1964-05-03T04:00Z
       - 1964-05-03T10:00Z
@@ -689,7 +689,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1811: ?'
         - 'w.chen-yi-nianpu 1026: ?'
         - 'w.zhu-de-nianpu-xinbian III, 1907: ?'
-    tags: [polity:prc]
+    tags: [polity:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-03.laos
     when: May 3
@@ -734,8 +734,8 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Chen Yi 陈毅 and his wife, Zhang Qian 张茜, give a banquet for Air Commodore Nur Khan 努尔汗 and the party of the inaugural flight; he thanks Pakistan's government and people for Zhou's and his own reception there and praises Ambassador Raza 罗查 and his wife.
-    n: '[[w.chen-yi-nianpu]], 1025. The words: 上午 (1025). Names: Chen Yi, Raza, Zhou Enlai, Khan.'
-    tags: [polity:prc, polity:pakistan, name:chen-yi, name:raza-nawabzada-agha-mohammad, name:zhou-enlai, ok:fields-place, name:khan-nur]
+    n: '[[w.chen-yi-nianpu]], 1025. The words: 上午 (1025). Names: Chen Yi, Raza, Zhou Enlai, Khan, Zhang Qian.'
+    tags: [polity:prc, polity:pakistan, name:chen-yi, name:raza-nawabzada-agha-mohammad, name:zhou-enlai, ok:fields-place, name:khan-nur, name:zhang-qian]
     time_range:
       - 1964-05-02T22:00Z
       - 1964-05-03T04:00Z
@@ -941,7 +941,7 @@ entries:
       c: b9d3b447
       rows:
         - 'w.yang-shangkun-riji II, 374: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:xu-zirong, name:yang-shangkun]
     time_range:
       - 1964-05-03T22:00Z
       - 1964-05-04T04:00Z
@@ -958,7 +958,7 @@ entries:
       c: 1542685e
       rows:
         - 'w.yang-shangkun-riji II, 374: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-04T04:00Z
       - 1964-05-04T10:00Z
@@ -970,12 +970,12 @@ entries:
     place: changchun
     thread: china-leadership
     c: 'Changchun 长春. Peng Zhen 彭真 hears Zhao Lin 赵林 on the "five antis" and "four clean-ups" in Jilin 吉林: these and cadres'' labor a basic question of carrying the revolution through, three to five years'' work; the Soviet revolution turned revisionist after 46 years; "two stricts and one lenient," criticism and repayment strict, punishment lenient; base cadres who erred mostly peasants who stood up, to be cured; the Center''s directive (of Jan. 2) remits much: ordinary graft before the Seven Thousand not punished if repaid, taking more not graft, punishment held to about 1 percent, handled late.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 331. The page''s notes: Zhao Lin, second secretary of the Jilin committee; the Center''s forwarding (Jan. 2, 1964) of the Control Commission''s report on handling graft, theft and speculation in the "five antis" (IV, 331). Made public: 2012. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 331. The page''s notes: Zhao Lin, second secretary of the Jilin committee; the Center''s forwarding (Jan. 2, 1964) of the Control Commission''s report on handling graft, theft and speculation in the "five antis" (IV, 331). Made public: 2012. Names: Peng Zhen, Zhao Lin.'
     src:
       c: 1c71c6f8
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 331: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:zhao-lin]
   - id: cal.1964-05-04.china-leadership-6
     when: May 4
     date: '1964-05-04'
@@ -1249,7 +1249,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 374: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1811: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:oke, name:yang-shangkun]
     time_range:
       - 1964-05-04T22:00Z
       - 1964-05-05T04:00Z
@@ -1268,7 +1268,7 @@ entries:
       c: cd213e18
       rows:
         - 'w.yang-shangkun-riji II, 374: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:cai-chang, name:yang-shangkun]
   - id: cal.1964-05-05.china-leadership-5
     when: May 5
     date: '1964-05-05'
@@ -1503,8 +1503,8 @@ entries:
     place: peking
     thread: china-leadership
     c: The Peking Hospital 北京医院, Peking 北京. Zhu De 朱德 calls on Chen Shutong 陈叔通, chairman of the All-China Federation of Industry and Commerce 中华全国工商业联合会.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1908. Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1908. Made public: 2016. Names: Zhu De, Chen Shutong.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc, name:chen-shutong]
   - id: cal.1964-05-07.poverty
     when: May 7–8
     date: '1964-05-07'
@@ -1649,7 +1649,7 @@ entries:
     place: washington
     thread: civil-rights-bill
     c: 'Dirksen''s office, the third day. Dirksen objects to "massive resistance" as the offense in Title II. The afternoon''s staff meeting: Flynn of Dirksen''s staff proposes "pattern or practice." Marshall, by telephone: "Jump at it, Charlie. That''s marvelous." Kuchel proposes cloture May 22; Humphrey: not before June.'
-    n: '[[w.whalen-longest-debate]], 177; [[w.risen-bill-of-the-century]], 217 (the day after Morton''s vote: Dirksen''s objection to "massive resistance" in Title II; after lunch Flynn proposes "pattern or practice"; Ferris to Katzenbach and Marshall at Justice; Marshall: "Jump at it, Charlie"); [[w.purdum-idea-whose-time-has-2014]], 280–82 (Thursday, May 7, the morning session: Dirksen on how to define discrimination punishable under Title II, Neal Kennedy for an offense self-evident as a speed limit is, the Justice lawyers wanting authority to enjoin all the businesses of an area; that afternoon, staff only, Teasdale of Mansfield''s staff suggests "pattern or practice," Neal Kennedy and the Republicans like it, Ferris telephones Burke Marshall, who thinks it "sounded great"; the phrase put into Titles II and VII, employment discrimination to be "willful"; that evening Kuchel to Humphrey on a cloture vote in a couple of weeks, Humphrey "pretty discouraged," floating it "to keep the civil rights groups in line," no action "before the first week in June" (Kuchel to Horn; the note: Horn''s log, 168)). Check: Purdum, 281, has Ken Teasdale of Mansfield''s staff suggest "pattern or practice" at the afternoon meeting of staff, the Dirksen lawyers liking it; the entry has Flynn of Dirksen''s staff propose it. To check: Horn, Periodic Log, May 7–8, 1964 (cited by [[w.whalen-longest-debate]], 264). See [[cal.1964-05-05.civil-rights-bill]]. Names: Dirksen, Burke Marshall, Kuchel, Humphrey.'
+    n: '[[w.whalen-longest-debate]], 177; [[w.risen-bill-of-the-century]], 217 (the day after Morton''s vote: Dirksen''s objection to "massive resistance" in Title II; after lunch Flynn proposes "pattern or practice"; Ferris to Katzenbach and Marshall at Justice; Marshall: "Jump at it, Charlie"); [[w.purdum-idea-whose-time-has-2014]], 280–82 (Thursday, May 7, the morning session: Dirksen on how to define discrimination punishable under Title II, Neal Kennedy for an offense self-evident as a speed limit is, the Justice lawyers wanting authority to enjoin all the businesses of an area; that afternoon, staff only, Teasdale of Mansfield''s staff suggests "pattern or practice," Neal Kennedy and the Republicans like it, Ferris telephones Burke Marshall, who thinks it "sounded great"; the phrase put into Titles II and VII, employment discrimination to be "willful"; that evening Kuchel to Humphrey on a cloture vote in a couple of weeks, Humphrey "pretty discouraged," floating it "to keep the civil rights groups in line," no action "before the first week in June" (Kuchel to Horn; the note: Horn''s log, 168)). Check: Purdum, 281, has Ken Teasdale of Mansfield''s staff suggest "pattern or practice" at the afternoon meeting of staff, the Dirksen lawyers liking it; the entry has Flynn of Dirksen''s staff propose it. To check: Horn, Periodic Log, May 7–8, 1964 (cited by [[w.whalen-longest-debate]], 264). See [[cal.1964-05-05.civil-rights-bill]]. Names: Dirksen, Burke Marshall, Kuchel, Humphrey, Flynn.'
     src:
       c: 0ed7cbe5
       rows:
@@ -1657,7 +1657,7 @@ entries:
         - 'via x.undated.whalen-interviews-1981-84: all'
         - 'w.risen-bill-of-the-century 217: B, C'
         - 'w.purdum-idea-whose-time-has-2014 280–82: F'
-    tags: [name:dirksen-everett, name:marshall-burke, name:kuchel-thomas-h, name:humphrey-hubert-h]
+    tags: [name:dirksen-everett, name:marshall-burke, name:kuchel-thomas-h, name:humphrey-hubert-h, name:flynn]
     time_range:
       - 1964-05-07T13:00Z
       - 1964-05-07T21:00Z
@@ -1713,7 +1713,7 @@ entries:
     thread: china-leadership
     c: 'Zhou hears Vice Minister of Forestry Hui Zhongquan on afforestation: chart and tabulate the distribution of the 120 million mu to plant and the treeless land; restore forest stations in the Northeast and Inner Mongolia and guidance stations elsewhere; settle labor by drafting recruits to plant and cut trees; every leader from the Center down, save the old and sick, to plant trees each year, make it a custom and fix rules.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 641 (May 7, 1964). Made public: 1997. Names: Zhou Enlai, Hui Zhongquan.'
-    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc, name:hui-zhongquan]
   - id: cal.1964-05-07.china-leadership-2
     when: May 7
     date: '1964-05-07'
@@ -1738,7 +1738,7 @@ entries:
       c: cc6a9907
       rows:
         - 'w.yang-shangkun-riji II, 374: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-diantao, name:yang-shangkun]
     time_range:
       - 1964-05-06T22:00Z
       - 1964-05-07T04:00Z
@@ -1755,7 +1755,7 @@ entries:
       c: 26d0a1ca
       rows:
         - 'w.yang-shangkun-riji II, 374: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:mei-xing, name:yang-shangkun]
     time_range:
       - 1964-05-07T04:00Z
       - 1964-05-07T10:00Z
@@ -1767,12 +1767,12 @@ entries:
     place: daqing
     thread: china-leadership
     c: 'The Daqing 大庆 oilfield. Peng Zhen 彭真 hears Yu Qiuli 余秋里, Kang Shi''en 康世恩 and others on the "five antis" and the year''s growth of Daqing''s experience, and sums it up: one divides into two, gaps found against high standards; "five-good" reviews monthly; work and rest balanced but for special battles; communist spirit with pay by work; rules kept without binding zeal; central unity within the enterprise; more output and thrift with socialist education; workers, peasants, traders, students and soldiers joined, families in collective farming for the workers far from cities; cool promoters.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 332. Made public: 2012. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 332. Made public: 2012. Names: Peng Zhen, Yu Qiuli, Kang Shien.'
     src:
       c: 9179ee79
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 332: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:kang-shien, name:yu-qiuli]
   - id: cal.1964-05-08.transition-and-staff
     when: May 8
     date: '1964-05-08'
@@ -1972,7 +1972,7 @@ entries:
       c: 8b49dc0b
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 249–250: all'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, polity:czechoslovakia, name:novotny-antonin]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, polity:czechoslovakia, name:novotny-antonin, name:fierlinger, name:lenart]
   - id: cal.1964-05-08.china-leadership-4
     when: May 8
     date: '1964-05-08'
@@ -1984,7 +1984,7 @@ entries:
       c: 4dc900da
       rows:
         - 'w.yang-shangkun-riji II, 375: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1964-05-07T22:00Z
       - 1964-05-08T04:00Z
@@ -2001,7 +2001,7 @@ entries:
       c: 2fc7cd14
       rows:
         - 'w.yang-shangkun-riji II, 375: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-08T04:00Z
       - 1964-05-08T10:00Z
@@ -2021,7 +2021,7 @@ entries:
         - 'w.yang-shangkun-riji II, 375: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1811: ?'
         - 'w.zhu-de-nianpu-xinbian III, 1908: ?'
-    tags: [polity:prc]
+    tags: [polity:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-08.china-leadership-8
     when: May 8
@@ -2170,7 +2170,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVII, 259–260: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 259 n.1: all'
         - 'w.teiwes-tragedy-of-lin-biao 201: D'
-    tags: [polity:prc, name:lin-biao, vis:only:prc]
+    tags: [polity:prc, name:lin-biao, vis:only:prc, name:chen-qitong, name:fu-zhong, name:liu-zhijian]
   - id: cal.1964-05-09.china-leadership-3
     when: May 9
     date: '1964-05-09'
@@ -2182,7 +2182,7 @@ entries:
       c: c47a9b66
       rows:
         - 'w.yang-shangkun-riji II, 375: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-09T04:00Z
       - 1964-05-09T10:00Z
@@ -2199,7 +2199,7 @@ entries:
       c: e8b68451
       rows:
         - 'w.yang-shangkun-riji II, 375: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
     time_range:
       - 1964-05-09T11:00Z
       - 1964-05-09T14:00Z
@@ -2349,7 +2349,7 @@ entries:
       c: 6a99aca8
       rows:
         - 'w.yang-shangkun-riji II, 375: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-10.vietnam-hanoi
     when: May 10
@@ -2623,7 +2623,7 @@ entries:
       c: 8b9c00a0
       rows:
         - 'w.yang-shangkun-riji II, 375: all'
-    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc, name:qian-xinzhong, name:yang-shangkun]
     time_range:
       - 1964-05-10T22:00Z
       - 1964-05-11T04:00Z
@@ -2640,7 +2640,7 @@ entries:
       c: 1b03aff1
       rows:
         - 'w.yang-shangkun-riji II, 376: all'
-    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:chen-yi, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:chen-yi, name:kang-sheng, vis:only:prc, name:wu-han, name:yang-shangkun]
     time_range:
       - 1964-05-11T04:00Z
       - 1964-05-11T06:00Z
@@ -2702,8 +2702,8 @@ entries:
     date: '1964-05-11'
     thread: china-leadership
     c: Zhu De 朱德, with Li Weihan 李维汉, Burhan 包尔汉 and others, sees the Burundi National Assembly's delegation off at the airport.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1908. Names: Zhu De.'
-    tags: [polity:prc, polity:burundi, name:zhu-de]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1908. Names: Zhu De, Li Weihan.'
+    tags: [polity:prc, polity:burundi, name:zhu-de, name:li-weihan]
   - id: cal.1964-05-11.china-leadership-9
     when: May 11
     date: '1964-05-11'
@@ -2932,7 +2932,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 376: all'
         - 'w.chen-yi-nianpu 1028: ?'
-    tags: [polity:prc, name:chen-yi, vis:only:prc]
+    tags: [polity:prc, name:chen-yi, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-12.china-leadership-3
     when: May 12
@@ -2945,7 +2945,7 @@ entries:
       c: 45e7751d
       rows:
         - 'w.yang-shangkun-riji II, 376: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-guangmei, name:yang-shangkun]
     time_range:
       - 1964-05-12T04:00Z
       - 1964-05-12T10:00Z
@@ -3429,8 +3429,8 @@ entries:
     date: '1964-05-13'
     thread: china-leadership
     c: Zhu De 朱德 meets Pak Se-chang 朴世昌, the DPRK's new Ambassador.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1908. Names: Zhu De.'
-    tags: [polity:prc, polity:dprk, name:zhu-de]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1908. Names: Zhu De, Pak Se-chang.'
+    tags: [polity:prc, polity:dprk, name:zhu-de, name:pak-se-chang]
   - id: cal.1964-05-14.baker
     when: May 14
     date: '1964-05-14'
@@ -3566,7 +3566,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 642–43: ?'
         - 'w.zhou-enlai-waijiao-huodong 405–06: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 337–338: A, F'
-    tags: [name:zhou-enlai, name:butler-richard-a, polity:prc, polity:japan]
+    tags: [name:zhou-enlai, name:butler-richard-a, polity:prc, polity:japan, name:liao-chengzhi, name:matsumura-kenzo]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-14.china-leadership-3
     when: May 14
@@ -3587,7 +3587,7 @@ entries:
       c: '40828205'
       rows:
         - 'w.yang-shangkun-riji II, 376: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-14T04:00Z
       - 1964-05-14T10:00Z
@@ -3612,8 +3612,8 @@ entries:
     place: peking
     thread: china-leadership
     c: The Peking railway station 北京火车站. Zhu De 朱德, with Li Weihan 李维汉, Lin Feng 林枫 and others, sees off the delegation of the DPRK's Supreme People's Assembly 朝鲜民主主义人民共和国最高人民会议.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1908. Names: Zhu De.'
-    tags: [polity:prc, polity:dprk, name:zhu-de]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1908. Names: Zhu De, Li Weihan, Lin Feng.'
+    tags: [polity:prc, polity:dprk, name:zhu-de, name:li-weihan, name:lin-feng]
   - id: cal.1964-05-14.china-leadership-7
     when: May 14
     date: '1964-05-14'
@@ -4023,23 +4023,23 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Peking 北京. Peng Zhen 彭真, with Liu Ren 刘仁, Chen Kehan 陈克寒 and others, sees the Peking workers'' amateur art festival (to May 25): eight programs written and played by the workers, serving politics and production, small and varied.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 333. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 333. Names: Peng Zhen, Liu Ren.'
     src:
       c: 1316c064
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 333: all'
-    tags: [polity:prc, name:peng-zhen]
+    tags: [polity:prc, name:peng-zhen, name:liu-ren]
   - id: cal.1964-05-16.china-leadership-5
     when: May 16
     date: '1964-05-16'
     thread: china-leadership
     c: 'Peng Zhen 彭真, on Luo Ruiqing''s 罗瑞卿 report of a tank school''s training crushing the people''s wheat: the school''s needed training ground assured, its faults sternly criticized by the Military Commission; Liu Ren 刘仁, Zheng Tianxiang 郑天翔, Feng Jiping 冯基平 and the county and district committees to check their own and the teams'' cadres'' errors; local cadres and masses to see the whole, supporting army training a sacred duty, not to grab what they can.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 333–334. Made public: 2012. Names: Peng Zhen, Luo Ruiqing.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 333–334. Made public: 2012. Names: Peng Zhen, Luo Ruiqing, Liu Ren, Feng Jiping.'
     src:
       c: 10980aa4
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 333–334: all'
-    tags: [polity:prc, name:peng-zhen, name:luo-ruiqing, vis:only:prc, ok:fields-place]
+    tags: [polity:prc, name:peng-zhen, name:luo-ruiqing, vis:only:prc, ok:fields-place, name:feng-jiping, name:liu-ren]
   - id: cal.1964-05-16.china-leadership-6
     when: May 16
     date: '1964-05-16'
@@ -4190,7 +4190,7 @@ entries:
       c: b65c4187
       rows:
         - 'w.yang-shangkun-riji II, 377: all'
-    tags: [polity:prc, name:huang-zhen, vis:only:prc]
+    tags: [polity:prc, name:huang-zhen, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-17T04:00Z
       - 1964-05-17T10:00Z
@@ -4208,7 +4208,7 @@ entries:
       c: c1cf245c
       rows:
         - 'w.yang-shangkun-riji II, 377: all'
-    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc, name:chen-pixian, name:qian-xinzhong, name:wei-wenbo, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-17.china-leadership-4
     when: May 17
@@ -4470,7 +4470,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVII, 251–252: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 251 n.2a: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 252 n.2b: all'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc, name:song-renqiong]
   - id: cal.1964-05-18.china-leadership-5
     when: May 18
     date: '1964-05-18'
@@ -4483,7 +4483,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVII, 253–254: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 253 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 254 n.3: all'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc, name:tian-jiaying]
   - id: cal.1964-05-18.china-leadership-6
     when: May 18
     date: '1964-05-18'
@@ -4496,7 +4496,7 @@ entries:
       c: 126c296e
       rows:
         - 'w.yang-shangkun-riji II, 377: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-bozhao, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-18.china-leadership-7
     when: May 18
@@ -4508,7 +4508,7 @@ entries:
       c: a81a10c8
       rows:
         - 'w.yang-shangkun-riji II, 377: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-bozhao, name:yang-shangkun]
     time_range:
       - 1964-05-18T11:00Z
       - 1964-05-18T14:00Z
@@ -4837,7 +4837,7 @@ entries:
       c: a7fdd466
       rows:
         - 'w.yang-shangkun-riji II, 377: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-19.china-leadership-4
     when: May 19
@@ -4850,7 +4850,7 @@ entries:
       c: 566fd5b6
       rows:
         - 'w.yang-shangkun-riji II, 377: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:lin-ke, name:wang-dongxing, name:yang-shangkun]
     time_range:
       - 1964-05-19T11:00Z
       - 1964-05-19T14:00Z
@@ -5117,7 +5117,7 @@ entries:
       c: fcfb281d
       rows:
         - 'w.yang-shangkun-riji II, 377: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-19T22:00Z
       - 1964-05-20T04:00Z
@@ -5134,7 +5134,7 @@ entries:
       c: 29ccbe88
       rows:
         - 'w.yang-shangkun-riji II, 377–378: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-19T22:00Z
       - 1964-05-20T11:00Z
@@ -5150,7 +5150,7 @@ entries:
       c: 3182f22a
       rows:
         - 'w.yang-shangkun-riji II, 378: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-bozhao, name:yang-shangkun]
   - id: cal.1964-05-20.china-leadership-6
     when: May 20
     date: '1964-05-20'
@@ -5322,7 +5322,7 @@ entries:
       c: b6a7bfa7
       rows:
         - 'w.yang-shangkun-riji II, 378: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-20T22:00Z
       - 1964-05-21T11:00Z
@@ -5450,7 +5450,7 @@ entries:
       c: b6a7bfa7
       rows:
         - 'w.yang-shangkun-riji II, 378: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-21T22:00Z
       - 1964-05-22T11:00Z
@@ -5468,7 +5468,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 378: all'
         - 'w.peng-zhen-nianpu-1902 IV, 334: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:grippa, name:yang-shangkun]
     time_range:
       - 1964-05-22T11:00Z
       - 1964-05-22T14:00Z
@@ -5546,7 +5546,7 @@ entries:
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 644: ?'
         - 'w.zhou-enlai-waijiao-huodong 407: A'
-    tags: [name:zhou-enlai, name:norodom-sihanouk, polity:prc, polity:cambodia]
+    tags: [name:zhou-enlai, name:norodom-sihanouk, polity:prc, polity:cambodia, name:sisowath-pola]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-23.china-leadership-2
     when: May 23
@@ -5578,7 +5578,7 @@ entries:
       c: bef71a03
       rows:
         - 'w.yang-shangkun-riji II, 378: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-22T22:00Z
       - 1964-05-23T04:00Z
@@ -5603,8 +5603,8 @@ entries:
     date: '1964-05-23'
     thread: china-leadership
     c: 'Chen Yi 陈毅 and his wife, Zhang Qian 张茜, give a banquet for the delegation of Cambodia''s National Assembly at the opening of the China–Cambodia air service, led by Prince Sisowath Pola 西梳瓦·波拉西 (so printed), and the other Cambodian friends on the first flight; he speaks: the air service a further step in the two countries'' friendship; admiration for Prince Sihanouk''s defense of Cambodia''s territory and sovereignty and of peace in Southeast Asia.'
-    n: '[[w.chen-yi-nianpu]], 1030–1031. The words: 上午 (1030–1031). Names: Chen Yi, Sihanouk.'
-    tags: [polity:prc, polity:cambodia, name:chen-yi, name:norodom-sihanouk, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 1030–1031. The words: 上午 (1030–1031). Names: Chen Yi, Sihanouk, Zhang Qian, Sisowath Pola.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:norodom-sihanouk, ok:fields-place, name:sisowath-pola, name:zhang-qian]
     time_range:
       - 1964-05-22T22:00Z
       - 1964-05-23T04:00Z
@@ -5615,8 +5615,8 @@ entries:
     date: '1964-05-23'
     thread: china-leadership
     c: Zhu De 朱德 meets and gives a banquet for Prince Sisowath Pola 西杭瓦·波拉西, member of Cambodia's National Assembly 柬埔寨王国国民议会, and the Assembly's delegation he leads to the opening of the air service between China and Cambodia 中华人民共和国和柬埔寨王国通航仪式.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1909. Names: Zhu De.'
-    tags: [polity:prc, polity:cambodia, name:zhu-de]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1909. Names: Zhu De, Sisowath Pola.'
+    tags: [polity:prc, polity:cambodia, name:zhu-de, name:sisowath-pola]
   - id: cal.1964-05-23.china-leadership-7
     when: May 23
     date: '1964-05-23'
@@ -5738,7 +5738,7 @@ entries:
     thread: china-leadership
     c: 'Zhou, on the request of Liao Chengzhi, Li Yimeng and Zhang Yan to strengthen work on photographs for foreign exhibitions and gifts: by the home and foreign picture, photo and newsreel showings, gifts and filming, there is too much and too heavy, poor quality, duplicated staff, not too little. Zhang Yan of the Foreign Affairs Office to call a meeting with the working photographers, film makers and editors: one division of work, shared labor, no duplication, saving materials, better quality; a plan to buy equipment, assign cadres, train technicians; the Ministry of Culture to give a plan for domestic equipment in the five-year plan.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 644 (May 24, 1964). Made public: 1997. Names: Zhou Enlai, Liao Chengzhi, Li Yimeng, Zhang Yan.'
-    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc, name:li-yimeng, name:liao-chengzhi, name:zhang-yan]
   - id: cal.1964-05-24.china-leadership-2
     when: May 24
     date: '1964-05-24'
@@ -5750,7 +5750,7 @@ entries:
       c: 0a0ca88b
       rows:
         - 'w.yang-shangkun-riji II, 379: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:liu-lantao, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1964-05-24T11:00Z
       - 1964-05-24T14:00Z
@@ -5942,8 +5942,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi, on reading a survey of how the Taoyuan brigade''s commune members feed pigs with goat milk, writes to Yang Shangkun: have it printed for the comrades of the work conference to read. Goats can be raised everywhere from north to south, mountain regions above all, and dairy goats especially pay; goat milk is highly nutritious, good for children and the old, though many are not used to it, especially unsweetened; infants have no such habit; used to supplement a mother''s milk it is very good; powdered milk or other infant food costs money and labor. Raising goats, dairy goats above all, is to be recommended in the villages.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 591 (May 25, 1964). Made public: 1996. To check: the survey of the Taoyuan brigade members'' feeding of pigs with goat milk (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 591). Names: Liu Shaoqi.'
-    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 591 (May 25, 1964). Made public: 1996. To check: the survey of the Taoyuan brigade members'' feeding of pigs with goat milk (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 591). Names: Liu Shaoqi, Yang Shangkun.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc, name:yang-shangkun]
   - id: cal.1964-05-25.china-leadership-2
     when: May 25
     date: '1964-05-25'
@@ -5955,7 +5955,7 @@ entries:
       c: 2fc7cd14
       rows:
         - 'w.yang-shangkun-riji II, 379: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-25T04:00Z
       - 1964-05-25T10:00Z
@@ -5974,7 +5974,7 @@ entries:
       c: 534ce6ce
       rows:
         - 'w.yang-shangkun-riji II, 379: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1964-05-25T04:00Z
       - 1964-05-25T10:00Z
@@ -5992,7 +5992,7 @@ entries:
       c: 21b7aa85
       rows:
         - 'w.yang-shangkun-riji II, 379: all'
-    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:kang-sheng, vis:only:prc, name:cui-yitian, name:huang-shuze, name:shi-shuhan, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-25.china-leadership-5
     when: May 25
@@ -6405,7 +6405,7 @@ entries:
       c: b6a7bfa7
       rows:
         - 'w.yang-shangkun-riji II, 379: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-25T22:00Z
       - 1964-05-26T11:00Z
@@ -6422,7 +6422,7 @@ entries:
       c: 534ce6ce
       rows:
         - 'w.yang-shangkun-riji II, 379: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1964-05-26T11:00Z
       - 1964-05-26T14:00Z
@@ -6454,8 +6454,8 @@ entries:
     date: '1964-05-26'
     thread: china-leadership
     c: 'Ye Jianying 叶剑英, with Teng Haiqing 滕海清, deputy commander of the Peking Military Region 北京军区, sees the region''s picked units in night training 夜间训练, and meets their cadres. He speaks: the night and close combat of the army''s wars its tradition; whatever the enemy''s arms, the atom bomb or not, it will be met by night and close combat; bayonet, not fear of the bomb; picked men not for trophies or stage shows; spread and raise.'
-    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 916–917. Made public: 2007. Names: Ye Jianying.'
-    tags: [polity:prc, ok:fields-time, ok:fields-place, name:ye-jianying, vis:only:prc]
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 916–917. Made public: 2007. Names: Ye Jianying, Teng Haiqing.'
+    tags: [polity:prc, ok:fields-time, ok:fields-place, name:ye-jianying, vis:only:prc, name:teng-haiqing]
   - id: cal.1964-05-27.india-and-china
     when: May 27
     date: '1964-05-27'
@@ -6720,7 +6720,7 @@ entries:
     thread: europe-and-the-alliance
     c: 'The White House, State dinner for de Valera. Gifts: a vermeil cigar box, an antique ballot box, a copy of his baptismal certificate (St. Agnes, New York). Robert Kennedy and Mrs. Kennedy and Edward Kennedy and his wife, invited, do not come; the Shrivers come for the family; Ball and Mrs. Ball for Rusk, away at Nehru''s funeral. Johnson''s toast: "I have heard it said that there are more Irishmen in the White House than people."'
     n: '[[w.johnson-white-house-diary]], 149–50 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Robert Kennedy, Ted Kennedy, Shriver, Ball, Rusk.'
-    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:kennedy-robert-f, name:kennedy-edward-m, name:shriver-r-sargent, name:ball-george-w, name:rusk-dean]
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:kennedy-robert-f, name:kennedy-edward-m, name:shriver-r-sargent, name:ball-george-w, name:rusk-dean, name:ted-kennedy]
   - id: cal.1964-05-27.civil-rights-bill
     when: May 27
     date: '1964-05-27'
@@ -6800,13 +6800,13 @@ entries:
     date: '1964-05-27'
     thread: china
     c: Senator Vittorelli, head of the international department of the Italian Socialist Party, begins a visit to China (to June 4). Chen Yi receives him, the day not given; after talks, the days not given, the two sides agree to promote the normalization of diplomatic relations through the normalization of trade and to set up non-governmental trade offices, whose representatives will have diplomatic treatment.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 339 (May 27–June 4, 1964); [[w.chen-yi-nianpu]], 1032 (May 30, 1964, afternoon; Chen Yi receives Senator Paolo Vittorelli 帕奥洛·维托雷利). Names: Chen Yi. Check: the book''s 维托雷利 is the calendar''s Vittorelli; it gives no day for Mao''s and Chen Yi''s receptions or for the agreement.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 339 (May 27–June 4, 1964); [[w.chen-yi-nianpu]], 1032 (May 30, 1964, afternoon; Chen Yi receives Senator Paolo Vittorelli 帕奥洛·维托雷利). Names: Chen Yi, Vittorelli. Check: the book''s 维托雷利 is the calendar''s Vittorelli; it gives no day for Mao''s and Chen Yi''s receptions or for the agreement.'
     src:
       c: 4bb56608
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 339: all'
         - 'w.chen-yi-nianpu 1032: ?'
-    tags: [polity:prc, polity:italy, name:chen-yi]
+    tags: [polity:prc, polity:italy, name:chen-yi, name:vittorelli]
   - id: cal.1964-05-27.china-leadership-5
     when: May 27
     date: '1964-05-27'
@@ -6818,7 +6818,7 @@ entries:
       c: bef71a03
       rows:
         - 'w.yang-shangkun-riji II, 379: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-26T22:00Z
       - 1964-05-27T04:00Z
@@ -6835,7 +6835,7 @@ entries:
       c: 8a11274b
       rows:
         - 'w.yang-shangkun-riji II, 379: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:an-ziwen, name:yang-shangkun]
   - id: cal.1964-05-27.china-leadership-7
     when: May 27
     date: '1964-05-27'
@@ -6846,7 +6846,7 @@ entries:
       c: b6cfa9e1
       rows:
         - 'w.yang-shangkun-riji II, 379: all'
-    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc, name:yang-shangkun]
   - id: cal.1964-05-27.china-leadership-8
     when: May 27
     date: '1964-05-27'
@@ -7039,12 +7039,12 @@ entries:
     thread: china-leadership
     also: [china, europe-and-the-alliance-britain]
     c: Peking. Zhou Enlai and Deng Yingchao go to the airport to welcome Hewlett Johnson, former Dean of Canterbury, and his wife.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (May 28, 1964; 中午). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (May 28, 1964; 中午). Names: Zhou Enlai, Deng Yingchao, Hewlett Johnson.'
     src:
       c: 4a625d0c
       rows:
         - 'w.zhou-enlai-waijiao-huodong 408: all'
-    tags: [polity:prc, polity:uk, name:zhou-enlai]
+    tags: [polity:prc, polity:uk, name:zhou-enlai, name:deng-yingchao, name:hewlett-johnson]
     time_range:
       - 1964-05-28T04:00Z
       - 1964-05-28T06:00Z
@@ -7075,7 +7075,7 @@ entries:
       c: bef71a03
       rows:
         - 'w.yang-shangkun-riji II, 379: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1964-05-27T22:00Z
       - 1964-05-28T04:00Z
@@ -7095,7 +7095,7 @@ entries:
         - 'w.yang-shangkun-riji II, 379–380: all'
         - 'w.peng-zhen-nianpu-1902 IV, 334: ?'
         - 'w.zhu-de-nianpu-xinbian III, 1909: ?'
-    tags: [polity:prc, name:liu-shaoqi, name:li-fuchun, name:zhou-enlai, name:deng-xiaoping, name:zhu-de, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:liu-shaoqi, name:li-fuchun, name:zhou-enlai, name:deng-xiaoping, name:zhu-de, name:peng-zhen, name:mao-zedong, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-28.china-leadership-8
     when: May 28
@@ -7141,8 +7141,8 @@ entries:
     date: '1964-05-28'
     thread: china-leadership
     c: 'Ye Jianying 叶剑英, with Teng Haiqing 滕海清 and others, sees staff officers of the Peking Military Region 北京军区 plot maps, and talks with them: staff work more important than ever in modern war; the staff''s basic skills, "six abilities" 六会 (to draw, write, transmit, and to read maps, remember and calculate); some grasp of campaigns and tactics; red and expert.'
-    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 917–918. Made public: 2007. Names: Ye Jianying.'
-    tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
+    n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 917–918. Made public: 2007. Names: Ye Jianying, Teng Haiqing.'
+    tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc, name:teng-haiqing]
   - id: cal.1964-05-29.goldwater
     when: May 29
     date: '1964-05-29'
@@ -7316,13 +7316,13 @@ entries:
     thread: china-leadership
     also: [china, europe-and-the-alliance-britain]
     c: Peking. Zhou Enlai and Deng Yingchao receive and give a luncheon for Dr. Hewlett Johnson and his wife.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (May 29, 1964; 中午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 337 (May 13–June 26, 1964; Hewlett Johnson, the former Dean of Canterbury, and his wife visit China at invitation; Mao, Zhou and their wives, and Guo Moruo, Vice-Chairman, and his wife each receive them, the days not given). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 408 (May 29, 1964; 中午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 337 (May 13–June 26, 1964; Hewlett Johnson, the former Dean of Canterbury, and his wife visit China at invitation; Mao, Zhou and their wives, and Guo Moruo, Vice-Chairman, and his wife each receive them, the days not given). Names: Zhou Enlai, Deng Yingchao, Hewlett Johnson.'
     src:
       c: ef9e1952
       rows:
         - 'w.zhou-enlai-waijiao-huodong 408: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 337: B'
-    tags: [polity:prc, polity:uk, name:zhou-enlai]
+    tags: [polity:prc, polity:uk, name:zhou-enlai, name:deng-yingchao, name:hewlett-johnson]
     time_range:
       - 1964-05-29T04:00Z
       - 1964-05-29T06:00Z
@@ -7358,7 +7358,7 @@ entries:
     date: '1964-05-29'
     thread: china-leadership
     c: '*Guangming ribao* prints Ai Hengwu and Lin Qingshan''s article "''One divides into two'' and ''Two combine into one''," setting out Yang Xianzhen''s ideas.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 395; [[w.yang-jisheng-tiandi-fanfu]], I, 98 (two teachers of the school, after Yang''s ideas). To check: [[w.jin-1949-1989-niande-zhongguo]], 564–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 395 n.88a); [[w.qingshan-kang-sheng-waizhuan]], 207–11 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 395 n.88b); [[w.kan-kang-sheng-pingzhuan]], 162–70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 395 n.88c). See [[cal.1964-04-03.china-leadership-3]].'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 395; [[w.yang-jisheng-tiandi-fanfu]], I, 98 (two teachers of the school, after Yang''s ideas). To check: [[w.jin-1949-1989-niande-zhongguo]], 564–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 395 n.88a); [[w.qingshan-kang-sheng-waizhuan]], 207–11 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 395 n.88b); [[w.kan-kang-sheng-pingzhuan]], 162–70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 395 n.88c). See [[cal.1964-04-03.china-leadership-3]]. Names: Yang Xianzhen.'
     src:
       c: 0b71dc77
       rows:
@@ -7367,7 +7367,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 395 n.88b: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 395 n.88c: all'
         - 'w.yang-jisheng-tiandi-fanfu I, 98: ?'
-    tags: [polity:prc]
+    tags: [polity:prc, name:yang-xianzhen]
   - id: cal.1964-05-29.china-leadership-5
     when: May 29
     date: '1964-05-29'
@@ -7380,7 +7380,7 @@ entries:
       c: d3605984
       rows:
         - 'w.yang-shangkun-riji II, 380: all'
-    tags: [polity:prc]
+    tags: [polity:prc, name:su-jingguan, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1964-05-29.china-leadership-6
     when: May 29
@@ -7597,7 +7597,7 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVII, 257–258: all'
         - 'via w.jianguo-yilai-mao-zedong XVII, 257 n.1: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-xuefeng]
   - id: cal.1964-05-30.china-leadership-4
     when: May 30
     date: '1964-05-30'
@@ -7609,7 +7609,7 @@ entries:
       c: ab5c311d
       rows:
         - 'w.yang-shangkun-riji II, 380: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
   - id: cal.1964-05-30.china-leadership-5
     when: May 30
     date: '1964-05-30'
@@ -8294,8 +8294,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: During the Central Work Conference Liu Shaoqi sends Mao the Hebei provincial committee's summary of the main points of his early-February talk with Wang Guangmei, drawn up from what she relayed, for Mao's review.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 589 (May, 1964). Made public: 1996. Names: Liu Shaoqi, Mao Zedong. Check: the day; the book gives "the May Central Work Conference" without a date.'
-    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, vis:only:prc]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 589 (May, 1964). Made public: 1996. Names: Liu Shaoqi, Mao Zedong, Wang Guangmei. Check: the day; the book gives "the May Central Work Conference" without a date.'
+    tags: [polity:prc, name:liu-shaoqi, name:mao-zedong, vis:only:prc, name:wang-guangmei]
   - id: cal.1964-05-31.china-leadership-2
     when: May 31
     date: '1964-05-31'
@@ -8347,7 +8347,7 @@ entries:
       c: 53732bb1
       rows:
         - 'w.yang-shangkun-riji II, 380: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:yang-shangkun]
   - id: cal.1964-05.vietnam-hanoi-2
     when: May
     date: 1964-05
@@ -8373,8 +8373,8 @@ entries:
     date: '1964-05-31'
     thread: china-leadership
     c: Chen Yi 陈毅 and his wife, Zhang Qian 张茜, give a dinner for Dr. Hewlett Johnson 休勒特·约翰逊, former Dean of Canterbury, and his wife.
-    n: '[[w.chen-yi-nianpu]], 1033. The words: 中午 (1033). Names: Chen Yi.'
-    tags: [polity:prc, polity:uk, name:chen-yi, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 1033. The words: 中午 (1033). Names: Chen Yi, Zhang Qian, Hewlett Johnson.'
+    tags: [polity:prc, polity:uk, name:chen-yi, ok:fields-place, name:hewlett-johnson, name:zhang-qian]
     time_range:
       - 1964-05-31T04:00Z
       - 1964-05-31T06:00Z

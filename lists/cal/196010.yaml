@@ -181,7 +181,7 @@ entries:
         - 'w.yang-shangkun-riji I, 559: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1580–1581: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 62: ?'
-    tags: [polity:prc, vis:only:prc+ussr]
+    tags: [polity:prc, vis:only:prc+ussr, name:ghosh]
     time_zone: Europe/Moscow
   - id: cal.1960-10-01.china-leadership-7
     when: Oct. 1
@@ -197,7 +197,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 559: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1581: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:li-jingquan, vis:only:prc+albania]
+    tags: [polity:prc, name:deng-xiaoping, name:li-jingquan, vis:only:prc+albania, name:hysni-kapo, name:liu-xiao, name:yang-shangkun]
     time_zone: Europe/Moscow
   - id: cal.1960-10-01.china-leadership-8
     when: Oct. 1
@@ -395,12 +395,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Peking. Zhou Enlai and Deng Yingchao give an informal dinner for U Nu, his wife and their daughter.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 290 (Oct. 2, 1960). Made public: 1993. Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 290 (Oct. 2, 1960). Made public: 1993. Names: Zhou Enlai, U Nu, Deng Yingchao.'
     src:
       c: e2ab3911
       rows:
         - 'w.zhou-enlai-waijiao-huodong 290: all'
-    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu, vis:only:prc+burma]
+    tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu, vis:only:prc+burma, name:deng-yingchao]
   - id: cal.1960-10-02.china-leadership-3
     when: Oct. 2
     date: '1960-10-02'
@@ -470,7 +470,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 559: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1581–1582: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hysni-kapo, name:sharkey]
     time_zone: Europe/Moscow
   - id: cal.1960-10-02.china-leadership-6
     when: Oct. 2
@@ -498,7 +498,7 @@ entries:
       c: 715c906b
       rows:
         - 'w.yang-shangkun-riji I, 560: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:liu-ningyi, name:yang-shangkun]
   - id: cal.1960-10-02.china-leadership-8
     when: Oct. 2
     date: '1960-10-02'
@@ -511,7 +511,7 @@ entries:
       c: f2538679
       rows:
         - 'w.yang-shangkun-riji I, 560: all'
-    tags: [polity:prc, vis:only:prc+indonesia]
+    tags: [polity:prc, vis:only:prc+indonesia, name:liu-ningyi]
     time_range:
       - 1960-10-02T09:00Z
       - 1960-10-02T15:00Z
@@ -525,12 +525,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow 莫斯科, the delegation''s lodging. Deng Xiaoping 邓小平 with Berlinguer 贝林格 and Pajetta 巴叶塔 of the Italian Communist Party''s leadership: the differences with the CPSU partial; the remedy, discussion.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1581 (Oct. 2, 1960). The words: 上午十二时至十二时四十五分 (III, 1581). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1581 (Oct. 2, 1960). The words: 上午十二时至十二时四十五分 (III, 1581). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Pajetta.'
     src:
       c: fd58e7c2
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1581: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:pajetta]
     time_zone: Europe/Moscow
   - id: cal.1960-10-02.china-leadership-10
     when: Oct. 2
@@ -538,8 +538,8 @@ entries:
     thread: china-leadership
     also: [japan]
     c: Chen Yi 陈毅 speaks at the cocktail party of Guo Moruo 郭沫若, Liao Chengzhi 廖承志, Chu Tunan 楚图南 and Li Yingbo 李颉伯 for the Japanese delegations at the National Day; praises the Japanese people's struggle against American imperialism.
-    n: '[[w.chen-yi-nianpu]], 838. Names: Chen Yi.'
-    tags: [polity:prc, polity:japan, name:chen-yi]
+    n: '[[w.chen-yi-nianpu]], 838. Names: Chen Yi, Guo Moruo, Liao Chengzhi, Chu Tunan.'
+    tags: [polity:prc, polity:japan, name:chen-yi, name:chu-tunan, name:guo-moruo, name:liao-chengzhi]
   - id: cal.1960-10-02.vietnam-hanoi
     when: Oct. 2
     date: '1960-10-02'
@@ -557,8 +557,8 @@ entries:
     date: '1960-10-02'
     thread: china-leadership
     c: Zhu De 朱德, with Li Xiannian 李先念, Lin Feng 林枫 and others, at the China–Albania Friendship Association's 中国阿尔巴尼亚友好协会 banquet welcoming the delegation led by Kellezi 凯莱齐, member of the Albanian Party of Labor's Central Committee, Vice-Chairman of the Council of Ministers and chairman of the Albania–China Friendship Association 阿中友协.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1784. The words: 晚 (1784). Names: Zhu De, Li Xiannian.'
-    tags: [polity:prc, polity:albania, ok:fields-place, name:zhu-de, name:li-xiannian]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1784. The words: 晚 (1784). Names: Zhu De, Li Xiannian, Lin Feng.'
+    tags: [polity:prc, polity:albania, ok:fields-place, name:zhu-de, name:li-xiannian, name:lin-feng]
     time_range:
       - 1960-10-02T11:00Z
       - 1960-10-02T14:00Z
@@ -569,8 +569,8 @@ entries:
     date: '1960-10-02'
     thread: china-leadership
     c: Chen Yun 陈云 talks with Peng Tao 彭涛 and the heads of the State Planning Commission's planning bureau 国家计委计划局 on the making of fertilizer.
-    n: '[[w.chen-yun-nianpu-xiuding]], III, 43–44. The words: 下午 (43–44). Made public: 2015. Names: Chen Yun.'
-    tags: [polity:prc, name:chen-yun, vis:only:prc]
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 43–44. The words: 下午 (43–44). Made public: 2015. Names: Chen Yun, Peng Tao.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc, name:peng-tao]
     time_range:
       - 1960-10-02T04:00Z
       - 1960-10-02T10:00Z
@@ -833,7 +833,7 @@ entries:
       c: 32ba4103
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 347: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:pridi-banomyong]
   - id: cal.1960-10-03.china-leadership-6
     when: Oct. 3
     date: '1960-10-03'
@@ -880,7 +880,7 @@ entries:
         - 'w.yang-shangkun-riji I, 560: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1582–1583: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 63: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:andropov-yuriy-vladimirovich, vis:only:prc+ussr]
+    tags: [polity:prc, name:deng-xiaoping, name:andropov-yuriy-vladimirovich, vis:only:prc+ussr, name:yang-shangkun]
     time_zone: Europe/Moscow
   - id: cal.1960-10-03.china-leadership-9
     when: Oct. 3
@@ -1013,7 +1013,7 @@ entries:
     also: [soviet-union]
     c: 'The Yinian Tang, evening. Mao''s meeting (Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Li Fuchun, Chen Boda) on the CPSU''s draft statement for the parties'' conference, sent from Moscow by the delegation at the drafting commission. The Center''s instruction, received at Moscow (Yang Shangkun''s diary): its errors to be rebutted with force, then a counter-draft.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 4, 1960, and note 119. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Li Fuchun, Chen Boda, Yang Shangkun, Deng Xiaoping.'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:lin-biao, name:li-fuchun, name:chen-boda, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:lin-biao, name:li-fuchun, name:chen-boda, name:deng-xiaoping, vis:only:prc, name:yang-shangkun]
   - id: cal.1960-10-04.china-leadership-2
     when: Oct. 4
     date: '1960-10-04'
@@ -1117,7 +1117,7 @@ entries:
         - 'w.yang-shangkun-riji I, 560: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1583: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 63: ?'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:ghosh, name:liu-ningyi, name:yang-shangkun]
     time_zone: Europe/Moscow
   - id: cal.1960-10-04.china-leadership-8
     when: Oct. 4
@@ -1133,7 +1133,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 561: all'
         - 'w.peng-zhen-nianpu-1902 IV, 63: ?'
-    tags: [polity:prc, vis:only:prc+ussr]
+    tags: [polity:prc, vis:only:prc+ussr, name:nemes, name:pessi, name:tsend]
     time_zone: Europe/Moscow
   - id: cal.1960-10-04.china-leadership-9
     when: Oct. 4
@@ -1169,8 +1169,8 @@ entries:
     date: '1960-10-04'
     thread: china-leadership
     c: Chen Yun 陈云 hears Wang Heshou 王鹤寿 on steel production.
-    n: '[[w.chen-yun-nianpu-xiuding]], III, 44. The words: 上午 (44). Made public: 2015. Names: Chen Yun.'
-    tags: [polity:prc, name:chen-yun, vis:only:prc]
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 44. The words: 上午 (44). Made public: 2015. Names: Chen Yun, Wang Heshou.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc, name:wang-heshou]
     time_range:
       - 1960-10-03T22:00Z
       - 1960-10-04T04:00Z
@@ -1362,7 +1362,7 @@ entries:
         - 'w.yang-shangkun-riji I, 562: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1583–1584: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 63: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:le-duan, vis:only:prc+ussr]
+    tags: [polity:prc, name:deng-xiaoping, name:le-duan, vis:only:prc+ussr, name:kliszko, name:koucky, name:yang-shangkun]
     time_zone: Europe/Moscow
   - id: cal.1960-10-05.china-leadership-6
     when: Oct. 5
@@ -1379,7 +1379,7 @@ entries:
         - 'w.yang-shangkun-riji I, 562: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1584: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 63: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc, name:yang-shangkun]
     time_zone: Europe/Moscow
   - id: cal.1960-10-05.china-leadership-7
     when: Oct. 5
@@ -1600,7 +1600,7 @@ entries:
       c: 0ca7a4f2
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 349–350: all'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ulbricht-walter, name:grotewohl-otto]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:ulbricht-walter, name:grotewohl-otto, name:dieckmann]
   - id: cal.1960-10-06.china-leadership-4
     when: Oct. 6
     date: '1960-10-06'
@@ -1626,7 +1626,7 @@ entries:
       c: 96f3bf79
       rows:
         - 'w.yang-shangkun-riji I, 562–563: all'
-    tags: [polity:prc, vis:only:prc+albania]
+    tags: [polity:prc, vis:only:prc+albania, name:hysni-kapo, name:yang-shangkun]
     time_range:
       - 1960-10-06T03:00Z
       - 1960-10-06T09:00Z
@@ -1646,7 +1646,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 563: all'
         - 'w.peng-zhen-nianpu-1902 IV, 63: ?'
-    tags: [polity:prc, vis:only:prc+ussr]
+    tags: [polity:prc, vis:only:prc+ussr, name:hysni-kapo]
     time_zone: Europe/Moscow
   - id: cal.1960-10-06.china-leadership-7
     when: Oct. 6
@@ -1663,7 +1663,7 @@ entries:
         - 'w.yang-shangkun-riji I, 563: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1584–1585: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 63: ?'
-    tags: [polity:prc, vis:only:prc+albania]
+    tags: [polity:prc, vis:only:prc+albania, name:hysni-kapo]
     time_zone: Europe/Moscow
   - id: cal.1960-10-06.china-leadership-8
     when: Oct. 6
@@ -1696,7 +1696,7 @@ entries:
       c: 97f657c3
       rows:
         - 'w.yang-shangkun-riji I, 563: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+australia]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+australia, name:sharkey]
   - id: cal.1960-10-06.china-leadership-11
     when: Oct. 6
     date: '1960-10-06'
@@ -1992,7 +1992,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 564: all'
         - 'w.peng-zhen-nianpu-1902 IV, 64: ?'
-    tags: [polity:prc, vis:only:prc+ussr]
+    tags: [polity:prc, vis:only:prc+ussr, name:bagdash, name:borila, name:flynn, name:miyamoto-kenji, name:ri-hyo-sun, name:yang-shangkun]
     time_zone: Europe/Moscow
   - id: cal.1960-10-07.china-leadership-8
     when: Oct. 7
@@ -2145,8 +2145,8 @@ entries:
     thread: china-leadership
     also: [farm]
     c: Zhou Enlai with Li Fuchun, Tan Zhenlin, Li Xiannian and An Ziwen on farming in Shandong.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 356 (Oct. 8, 1960). Made public: 1997. Names: Zhou Enlai, Li Fuchun, Tan Zhenlin, Li Xiannian.'
-    tags: [polity:prc, name:zhou-enlai, name:li-fuchun, name:tan-zhenlin, name:li-xiannian, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 356 (Oct. 8, 1960). Made public: 1997. Names: Zhou Enlai, Li Fuchun, Tan Zhenlin, Li Xiannian, An Ziwen.'
+    tags: [polity:prc, name:zhou-enlai, name:li-fuchun, name:tan-zhenlin, name:li-xiannian, vis:only:prc, name:an-ziwen]
   - id: cal.1960-10-08.china-leadership-2
     when: Oct. 8
     date: '1960-10-08'
@@ -2189,7 +2189,7 @@ entries:
       c: aaae6b07
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 347–348: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:pridi-banomyong]
   - id: cal.1960-10-08.china-leadership-5
     when: Oct. 8
     date: '1960-10-08'
@@ -2232,7 +2232,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 565: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1586: ?'
-    tags: [polity:prc, vis:only:prc+albania]
+    tags: [polity:prc, vis:only:prc+albania, name:hysni-kapo]
     time_zone: Europe/Moscow
   - id: cal.1960-10-08.china-leadership-8
     when: Oct. 8
@@ -2428,7 +2428,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 566: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1586: ?'
-    tags: [polity:prc, vis:only:prc+albania]
+    tags: [polity:prc, vis:only:prc+albania, name:alia, name:hysni-kapo]
   - id: cal.1960-10-09.china-leadership-8
     when: Oct. 9
     date: '1960-10-09'
@@ -2481,8 +2481,8 @@ entries:
     place: hangzhou
     thread: china-leadership
     c: Hangzhou 杭州. Chen Yi 陈毅 at the banquet of Zhou Jianren 周建人, Governor of Zhejiang 浙江, welcoming Ne Win and his wife.
-    n: '[[w.chen-yi-nianpu]], 840. See [[cal.1960-10-09.china-leadership-11]]. The words: 晚上 (840). Names: Chen Yi, Ne Win.'
-    tags: [polity:prc, polity:burma, name:chen-yi, name:ne-win]
+    n: '[[w.chen-yi-nianpu]], 840. See [[cal.1960-10-09.china-leadership-11]]. The words: 晚上 (840). Names: Chen Yi, Ne Win, Zhou Jianren.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:ne-win, name:zhou-jianren]
     time_range:
       - 1960-10-09T11:00Z
       - 1960-10-09T14:00Z
@@ -2505,8 +2505,8 @@ entries:
     date: '1960-10-09'
     thread: china-leadership
     c: Chen Yun 陈云 talks with Deng Zihui 邓子恢, Vice-Premier and head of the Center's Rural Work Department 中共中央农村工作部.
-    n: '[[w.chen-yun-nianpu-xiuding]], III, 45. The words: 上午 (45). Made public: 2015. Names: Chen Yun.'
-    tags: [polity:prc, name:chen-yun, vis:only:prc]
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 45. The words: 上午 (45). Made public: 2015. Names: Chen Yun, Deng Zihui.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc, name:deng-zihui]
     time_range:
       - 1960-10-08T22:00Z
       - 1960-10-09T04:00Z
@@ -2677,8 +2677,8 @@ entries:
     thread: china-leadership
     also: [economy, farm]
     c: 'At the Secretariat, Oct. 10, 11, 14, 15 and 21, Zhou Enlai hears reports on industry, finance and trade; the meetings take up removing the "rightist" label, pardoning war criminals and adding key universities. On the 10th, after Gu Mu on industrial output: those who report difficulty and seek ways are not rightists; forbidding talk of difficulty, as with Shandong''s grain, brings worse. Qinghai''s 50,000 jin of fish sent to the Center is absurd; Li Fuchun to draft a notice that nothing, not a thread or a fish, is to go to the Center; one province to be made an example.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 356 (Oct. 10, 1960); [[w.chen-yun-nianpu-xiuding]], III, 45 (Oct. 11: Chen Yun attends the Secretariat and speaks on farming and the measures to be taken); [[w.chen-yun-nianpu-xiuding]], III, 46 (Oct. 15, afternoon: Chen Yun attends the Secretariat, which hears Gu Mu on steel, iron, coal and transport). Made public: 1997. Names: Zhou Enlai, Li Fuchun.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:li-fuchun]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 356 (Oct. 10, 1960); [[w.chen-yun-nianpu-xiuding]], III, 45 (Oct. 11: Chen Yun attends the Secretariat and speaks on farming and the measures to be taken); [[w.chen-yun-nianpu-xiuding]], III, 46 (Oct. 15, afternoon: Chen Yun attends the Secretariat, which hears Gu Mu on steel, iron, coal and transport). Made public: 1997. Names: Zhou Enlai, Li Fuchun, Gu Mu.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:li-fuchun, name:gu-mu]
   - id: cal.1960-10-10.china-leadership-3
     when: Oct. 10
     date: '1960-10-10'
@@ -2686,14 +2686,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The drafting committee''s seventh session: Ghosh 高士 (India), the Indonesian, the Bulgarian. Suslov 苏斯洛夫 asks whether second speeches are needed; Matern, the Mongolians and the Poles against, Kapo insisting; Deng Xiaoping 邓小平: China asked to speak again, but will hand it in writing if the others so decide; no vote. The general debate to end next day, the secretariat to meet at 3.'
-    n: '[[w.yang-shangkun-riji]], I, 566–567 (Oct. 10, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1586 (Oct. 10, 1960; morning; Deng''s written statement at the seventh session, twelve questions: the epoch; war, peace and peaceful coexistence; imperialism a paper tiger; people''s and national liberation wars; "a world without arms and war"; unity; the two parties'' differences; "going it alone" and "national communism"; great-power chauvinism; responsibility; the Soviet Union at the head and the CPSU the center; revisionism and dogmatism); [[w.peng-zhen-nianpu-1902]], IV, 64 (Oct. 10, 1960, morning; Peng Zhen at the seventh session; the Indian, Indonesian and Bulgarian delegates; on a second speech no agreement; Deng: the Chinese need to state their view again but will hand it in writing if the others wish; Suslov: views in writing, the secretariat to meet that day and the next). The words: 上午9时起床 (I, 566). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ghosh, Suslov, Deng Xiaoping.'
+    n: '[[w.yang-shangkun-riji]], I, 566–567 (Oct. 10, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1586 (Oct. 10, 1960; morning; Deng''s written statement at the seventh session, twelve questions: the epoch; war, peace and peaceful coexistence; imperialism a paper tiger; people''s and national liberation wars; "a world without arms and war"; unity; the two parties'' differences; "going it alone" and "national communism"; great-power chauvinism; responsibility; the Soviet Union at the head and the CPSU the center; revisionism and dogmatism); [[w.peng-zhen-nianpu-1902]], IV, 64 (Oct. 10, 1960, morning; Peng Zhen at the seventh session; the Indian, Indonesian and Bulgarian delegates; on a second speech no agreement; Deng: the Chinese need to state their view again but will hand it in writing if the others wish; Suslov: views in writing, the secretariat to meet that day and the next). The words: 上午9时起床 (I, 566). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Ghosh, Suslov, Deng Xiaoping, Hysni Kapo.'
     src:
       c: 419e883f
       rows:
         - 'w.yang-shangkun-riji I, 566–567: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1586: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 64: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, vis:only:prc+ussr]
+    tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, vis:only:prc+ussr, name:ghosh, name:hysni-kapo]
     time_range:
       - 1960-10-10T03:00Z
       - 1960-10-10T16:00Z
@@ -2712,7 +2712,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 567: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1587: ?'
-    tags: [polity:prc, vis:only:prc+albania]
+    tags: [polity:prc, vis:only:prc+albania, name:hysni-kapo]
     time_range:
       - 1960-10-10T16:00Z
       - 1960-10-10T19:00Z
@@ -2859,7 +2859,7 @@ entries:
     thread: soviet-union-leadership
     c: 'The Presidium, Kozlov in the chair, on gross violations in livestock procurement in the RSFSR and Kazakhstan: cattle given the state farms in 1959 for fattening kept back, or handed in again against the 1960 meat plan. Ignatov: the facts true, adopt the paper now; Kozlov: "Либеральное решение" (a liberal decision). Aristov''s Bureau and Kunaev to find and punish the guilty; Kosygin and Ignatov to rework the draft decree.'
     n: 'Protocol 305, item V. [[w.prezidium-tsk-kpss-1954]], I, 443–44 (Malin''s notes), 1076 nn.1–3; III, 132 (P 305/V). Made public: 2003. Names: Kozlov, Ignatov, Aristov, Kunaev, Kosygin.'
-    tags: [name:kozlov-frol-r, name:ignatov-nikolai-g, name:aristov-averky-b, name:kosygin-aleksei, polity:ussr]
+    tags: [name:kozlov-frol-r, name:ignatov-nikolai-g, name:aristov-averky-b, name:kosygin-aleksei, polity:ussr, name:kunaev]
   - id: cal.1960-10-11.china-leadership
     when: Oct. 11
     date: '1960-10-11'
@@ -2889,7 +2889,7 @@ entries:
         - 'w.yang-shangkun-riji I, 568: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1587: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 64: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc, name:yang-shangkun]
     time_zone: Europe/Moscow
   - id: cal.1960-10-11.china-leadership-3
     when: Oct. 11
@@ -3106,14 +3106,14 @@ entries:
     thread: china-leadership
     also: [japan, trade]
     c: 'Zhou Enlai''s talk with Takasaki Tatsunosuke, who proposes that Yoshida come to Peking and Liao Chengzhi visit Japan. Zhou: Japanese militarism harmed China for half a century and, if revived, China will oppose it; the Japan–U.S. security treaty draws Japan into America''s mire as vanguard and cannon fodder, so Yoshida''s visit cannot be considered; China invites only those who want to restore relations. Japan should take the road of independence, democracy, peace and neutrality; neutrality means against world war, no military blocs, not the old imperialist road.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 357 (Oct. 12, 1960); [[w.jian-zhou-enlai]], 504 (Takasaki in Peking in mid-October 1960; Zhou''s three "minimum conditions"). Made public: 1997. To check: Zhou''s conversation with Takasaki, October 13 and November 1, 1960 (cited by [[w.jian-zhou-enlai]], 504 n.48). Names: Zhou Enlai, Yoshida Shigeru.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 357 (Oct. 12, 1960); [[w.jian-zhou-enlai]], 504 (Takasaki in Peking in mid-October 1960; Zhou''s three "minimum conditions"). Made public: 1997. To check: Zhou''s conversation with Takasaki, October 13 and November 1, 1960 (cited by [[w.jian-zhou-enlai]], 504 n.48). Names: Zhou Enlai, Yoshida Shigeru, Liao Chengzhi.'
     src:
       c: f07b3178
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 357: ?'
         - 'w.jian-zhou-enlai 504: ?'
         - 'via x.1960-10-13.zhou-conversations-takasaki: ?'
-    tags: [polity:prc, polity:japan, name:zhou-enlai, name:yoshida-shigeru, vis:only:prc+japan]
+    tags: [polity:prc, polity:japan, name:zhou-enlai, name:yoshida-shigeru, vis:only:prc+japan, name:liao-chengzhi]
   - id: cal.1960-10-12.china-leadership-2
     when: Oct. 12
     date: '1960-10-12'
@@ -3170,7 +3170,7 @@ entries:
         - 'w.yang-shangkun-riji I, 568: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1587: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 65: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc, name:duclos, name:yang-shangkun]
     time_zone: Europe/Moscow
   - id: cal.1960-10-12.china-leadership-6
     when: Oct. 12
@@ -3184,7 +3184,7 @@ entries:
       c: '13147413'
       rows:
         - 'w.yang-shangkun-riji I, 568–569: all'
-    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc, name:kang-yimin, name:yang-shangkun, name:zhang-xiangshan]
   - id: cal.1960-10-12.china-leadership-7
     when: Oct. 12
     date: '1960-10-12'
@@ -3198,7 +3198,7 @@ entries:
       c: 6f7541a8
       rows:
         - 'w.yang-shangkun-riji I, 569: all'
-    tags: [polity:prc, name:kang-sheng, vis:only:prc+ussr]
+    tags: [polity:prc, name:kang-sheng, vis:only:prc+ussr, name:hu-qiaomu]
     time_zone: Europe/Moscow
   - id: cal.1960-10-12.china-leadership-8
     when: Oct. 12
@@ -3216,7 +3216,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 569: all'
         - 'w.peng-zhen-nianpu-1902 IV, 65: ?'
-    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:kang-sheng, vis:only:prc, name:hu-qiaomu]
     time_zone: Europe/Moscow
   - id: cal.1960-10-12.china-leadership-9
     when: Oct. 12
@@ -3252,8 +3252,8 @@ entries:
     place: canton
     thread: china-leadership
     c: Canton 广州. Chen Yi 陈毅 speaks at the farewell banquet of Chen Yu 陈郁, Governor of Guangdong 广东, for Ne Win and his wife; amid the cold war's deadlock Sino-Burmese friendship shines, a new track for international cooperation.
-    n: '[[w.chen-yi-nianpu]], 840. See [[cal.1960-10-04.china-leadership-4]]. The words: 晚上 (840). Names: Chen Yi, Ne Win.'
-    tags: [polity:prc, polity:burma, name:chen-yi, name:ne-win]
+    n: '[[w.chen-yi-nianpu]], 840. See [[cal.1960-10-04.china-leadership-4]]. The words: 晚上 (840). Names: Chen Yi, Ne Win, Chen Yu.'
+    tags: [polity:prc, polity:burma, name:chen-yi, name:ne-win, name:chen-yu]
     time_range:
       - 1960-10-12T11:00Z
       - 1960-10-12T14:00Z
@@ -3414,8 +3414,8 @@ entries:
     thread: china-leadership
     also: [farm]
     c: Zhou Enlai with Xi Zhongxun, Wan Li and Liu Lanbo on the Chaobai river diversion works.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 358 (Oct. 13, 1960). Made public: 1997. Names: Zhou Enlai.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 358 (Oct. 13, 1960). Made public: 1997. Names: Zhou Enlai, Xi Zhongxun, Wan Li, Liu Lanbo.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:liu-lanbo, name:wan-li, name:xi-zhongxun]
   - id: cal.1960-10-13.china-leadership-2
     when: Oct. 13
     date: '1960-10-13'
@@ -3468,7 +3468,7 @@ entries:
       c: 24c0e330
       rows:
         - 'w.yang-shangkun-riji I, 569: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
   - id: cal.1960-10-13.china-leadership-5
     when: Oct. 13
     date: '1960-10-13'
@@ -3483,7 +3483,7 @@ entries:
       c: badd175e
       rows:
         - 'w.yang-shangkun-riji I, 569–570: all'
-    tags: [polity:prc, name:kang-sheng, vis:only:prc+ussr]
+    tags: [polity:prc, name:kang-sheng, vis:only:prc+ussr, name:hu-qiaomu]
   - id: cal.1960-10-13.china-leadership-7
     when: Oct. 13
     date: '1960-10-13'
@@ -3511,7 +3511,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 569: all'
         - 'w.peng-zhen-nianpu-1902 IV, 65: ?'
-    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:kang-sheng, vis:only:prc, name:hu-qiaomu]
     time_zone: Europe/Moscow
   - id: cal.1960-10-13.china-leadership-9
     when: Oct. 13
@@ -3542,7 +3542,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 570: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1587: ?'
-    tags: [polity:prc, vis:only:prc+albania]
+    tags: [polity:prc, vis:only:prc+albania, name:hysni-kapo]
     time_zone: Europe/Moscow
     variants:
       - unit: A
@@ -3770,8 +3770,8 @@ entries:
     follows:
       - cal.1960-10-14.china-leadership-2
     c: Zhou Enlai at Mao's, with Liu Shaoqi, Zhu De, Chen Yun, Lin Biao, Li Fuchun, Chen Boda and Wu Lengxi, on the international situation.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 358 (Oct. 14, 1960); [[w.zhu-de-nianpu-xinbian]], III, 1785 (Oct. 14, 1960; Zhu De 朱德 at the enlarged Politburo 中共中央政治局扩大会议 Mao Zedong 毛泽东 presides, on the international situation; Liu Shaoqi, Zhou Enlai, Chen Yun, Lin Biao, Li Fuchun, Chen Boda, Wu Lengxi 吴冷西 and others there); [[w.chen-yun-nianpu-xiuding]], III, 46 (Oct. 14: Chen Yun at the enlarged Standing Committee on the world situation). Made public: 1997. Check: Mao''s note of 3 a.m. that day ([[w.jianguo-yilai-mao-zedong]], XV, 356–357) asks nine to read the *Cankao ziliao* by 4 p.m. and talk about 4, Chen Yi among them; the nianpu''s list of those present has eight, without Chen Yi. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Zhu De, Chen Yun, Lin Biao, Li Fuchun, Chen Boda.'
-    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:chen-yun, name:lin-biao, name:li-fuchun, name:chen-boda, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 358 (Oct. 14, 1960); [[w.zhu-de-nianpu-xinbian]], III, 1785 (Oct. 14, 1960; Zhu De 朱德 at the enlarged Politburo 中共中央政治局扩大会议 Mao Zedong 毛泽东 presides, on the international situation; Liu Shaoqi, Zhou Enlai, Chen Yun, Lin Biao, Li Fuchun, Chen Boda, Wu Lengxi 吴冷西 and others there); [[w.chen-yun-nianpu-xiuding]], III, 46 (Oct. 14: Chen Yun at the enlarged Standing Committee on the world situation). Made public: 1997. Check: Mao''s note of 3 a.m. that day ([[w.jianguo-yilai-mao-zedong]], XV, 356–357) asks nine to read the *Cankao ziliao* by 4 p.m. and talk about 4, Chen Yi among them; the nianpu''s list of those present has eight, without Chen Yi. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Zhu De, Chen Yun, Lin Biao, Li Fuchun, Chen Boda, Wu Lengxi.'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:chen-yun, name:lin-biao, name:li-fuchun, name:chen-boda, vis:only:prc, name:wu-lengxi]
   - id: cal.1960-10-14.china-leadership-2
     when: Oct. 14
     date: '1960-10-14'
@@ -3786,7 +3786,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 356–357: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 357 n.2: all'
         - 'w.chen-yun-nianpu-xiuding III, 45–46: ?'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:lin-biao, name:chen-yun, name:chen-yi, name:li-fuchun, name:chen-boda, name:khrushchev-nikita-s, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:lin-biao, name:chen-yun, name:chen-yi, name:li-fuchun, name:chen-boda, name:khrushchev-nikita-s, vis:only:prc, name:wu-lengxi]
   - id: cal.1960-10-14.china-leadership-3
     when: Oct. 14
     date: '1960-10-14'
@@ -3800,7 +3800,7 @@ entries:
       c: 6df2c6e6
       rows:
         - 'w.yang-shangkun-riji I, 570: all'
-    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:kang-sheng, vis:only:prc, name:pajetta]
     time_zone: Europe/Moscow
   - id: cal.1960-10-14.china-leadership-4
     when: Oct. 14
@@ -3829,7 +3829,7 @@ entries:
       c: 458c3a5f
       rows:
         - 'w.yang-shangkun-riji I, 571: all'
-    tags: [polity:prc, vis:only:prc+ussr]
+    tags: [polity:prc, vis:only:prc+ussr, name:hu-qiaomu]
   - id: cal.1960-10-14.china-leadership-6
     when: Oct. 14
     date: '1960-10-14'
@@ -3846,7 +3846,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 571: all'
         - 'w.peng-zhen-nianpu-1902 IV, 65: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hu-qiaomu, name:yang-shangkun]
     time_zone: Europe/Moscow
   - id: cal.1960-10-14.china-leadership-7
     when: Oct. 14
@@ -4027,7 +4027,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 358–359: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 358 n.2: all'
         - 'w.chen-yun-nianpu-xiuding III, 46: ?'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:lin-biao, name:chen-yun, name:li-fuchun, name:chen-boda, name:macmillan-harold, name:khrushchev-nikita-s, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:lin-biao, name:chen-yun, name:li-fuchun, name:chen-boda, name:macmillan-harold, name:khrushchev-nikita-s, vis:only:prc, name:wu-lengxi]
   - id: cal.1960-10-15.china-leadership-4
     when: Oct. 15
     date: '1960-10-15'
@@ -4040,7 +4040,7 @@ entries:
       c: c1c68b99
       rows:
         - 'w.yang-shangkun-riji I, 571: all'
-    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc]
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-10-15T03:00Z
       - 1960-10-15T09:00Z
@@ -4053,12 +4053,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Moscow 莫斯科. The secretariat finishes the fourth chapter; Bagdash, the French, Ghosh and the Cubans dispute the national states; whatever the Chinese accept passes; so Kang Sheng 康生 reports it.
-    n: '[[w.yang-shangkun-riji]], I, 571 (Oct. 15, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng.'
+    n: '[[w.yang-shangkun-riji]], I, 571 (Oct. 15, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kang Sheng, Bagdash, Ghosh.'
     src:
       c: 168f67c8
       rows:
         - 'w.yang-shangkun-riji I, 571: all'
-    tags: [polity:prc, name:kang-sheng, vis:only:prc+ussr]
+    tags: [polity:prc, name:kang-sheng, vis:only:prc+ussr, name:bagdash, name:ghosh]
   - id: cal.1960-10-15.china-leadership-6
     when: Oct. 15
     date: '1960-10-15'
@@ -4089,20 +4089,20 @@ entries:
       c: a24e096b
       rows:
         - 'w.yang-shangkun-riji I, 572: all'
-    tags: [polity:prc, vis:only:prc+indonesia]
+    tags: [polity:prc, vis:only:prc+indonesia, name:zhang-shangming]
   - id: cal.1960-10-15.china-leadership-8
     when: Oct. 15
     date: '1960-10-15'
     thread: china-leadership
     c: 'Yang Weiping 楊蔚屏 reports on his inquiry into the Xinyang 信陽 incident: 2,104 beaten to death in Guangshan 光山 and Huangchuan 潢川 counties, 254 crippled in Huangchuan alone. Of Guangshan''s 1,008 dead, one is a county secretary, 4 brigade cadres, 47 team cadres, 11 Party members, 61 Youth League members, 848 ordinary villagers, 87 "five kinds."'
-    n: '[[w.yang-jisheng-mubei]], I, 61; [[w.yang-jisheng-tiandi-fanfu]], I, 58 (2,104 beaten to death in Guangshan and Huangchuan counties, 254 crippled in Huangchuan alone). Made public: 2008. To check: Yang Weiping, "Report of inquiry into the Xinyang incident," Oct. 15, 1960 (cited by [[w.yang-jisheng-mubei]], I, 61 n.36). Check: the book gives no addressee; its categories overlap; the book''s interviewees think the counts too low (I, 62).'
+    n: '[[w.yang-jisheng-mubei]], I, 61; [[w.yang-jisheng-tiandi-fanfu]], I, 58 (2,104 beaten to death in Guangshan and Huangchuan counties, 254 crippled in Huangchuan alone). Made public: 2008. To check: Yang Weiping, "Report of inquiry into the Xinyang incident," Oct. 15, 1960 (cited by [[w.yang-jisheng-mubei]], I, 61 n.36). Check: the book gives no addressee; its categories overlap; the book''s interviewees think the counts too low (I, 62). Names: Yang Weiping.'
     src:
       c: d078bd5f
       rows:
         - 'w.yang-jisheng-mubei I, 61: all'
         - 'via w.yang-jisheng-mubei I, 61 n.36: all'
         - 'w.yang-jisheng-tiandi-fanfu I, 58: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-weiping]
   - id: cal.1960-10-15.vietnam-hanoi
     when: Oct. 15
     date: '1960-10-15'
@@ -4282,7 +4282,7 @@ entries:
       c: 8a9f41b4
       rows:
         - 'w.yang-shangkun-riji I, 574: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hao-deqing]
   - id: cal.1960-10-16.china-leadership-5
     when: Oct. 16
     date: '1960-10-16'
@@ -4296,7 +4296,7 @@ entries:
       c: 9acd0f77
       rows:
         - 'w.yang-shangkun-riji I, 574: all'
-    tags: [polity:prc, vis:only:prc+ussr]
+    tags: [polity:prc, vis:only:prc+ussr, name:hu-qiaomu]
     time_zone: Europe/Moscow
   - id: cal.1960-10-16.china-leadership-6
     when: Oct. 16
@@ -4565,7 +4565,7 @@ entries:
     thread: china-leadership
     c: 'Mao with Tan Zhenlin, Zeng Xisheng and Liao Luyan on farming and Shandong: Zeng to be first secretary of Shandong too.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 17, 1960. Made public: 2013. Names: Mao Zedong, Tan Zhenlin, Zeng Xisheng, Liao Luyan.'
-    tags: [polity:prc, name:mao-zedong, name:tan-zhenlin, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:tan-zhenlin, vis:only:prc, name:liao-luyan, name:zeng-xisheng]
   - id: cal.1960-10-17.china-leadership-2
     when: Oct. 17
     date: '1960-10-17'
@@ -4585,7 +4585,7 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 360–362: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 361 n.1a: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:wang-hairong, name:ye-zilong]
   - id: cal.1960-10-17.china-leadership-4
     when: Oct. 17
     date: '1960-10-17'
@@ -4598,7 +4598,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 363–365: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 363 n.1: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 365 n.4: all'
-    tags: [polity:prc, name:mao-zedong, name:li-fuchun, name:chen-boda, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:li-fuchun, name:chen-boda, vis:only:prc, name:deng-zihui]
   - id: cal.1960-10-17.china-leadership-5
     when: Oct. 17
     date: '1960-10-17'
@@ -4612,7 +4612,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 574–575: all'
         - 'w.peng-zhen-nianpu-1902 IV, 66: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:lu-dingyi, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:lu-dingyi, vis:only:prc, name:fan-ruoyu, name:hu-sheng, name:wang-li]
     time_range:
       - 1960-10-17T03:00Z
       - 1960-10-17T09:00Z
@@ -4631,7 +4631,7 @@ entries:
       c: 70a597f6
       rows:
         - 'w.yang-shangkun-riji I, 575–576: all'
-    tags: [polity:prc, name:kang-sheng, vis:only:prc+ussr]
+    tags: [polity:prc, name:kang-sheng, vis:only:prc+ussr, name:hu-qiaomu]
     time_zone: Europe/Moscow
   - id: cal.1960-10-17.china-leadership-8
     when: Oct. 17
@@ -4648,12 +4648,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Chinese Embassy 中国驻苏大使馆, Moscow 莫斯科. Peng Zhen 彭真 hears Hu Qiaomu 胡乔木 and Kang Sheng 康生 on the secretariat''s day: the draft''s last chapter (the CPSU''s Twentieth and Twenty-first Congresses, Stalin), its core, argued for nine hours.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 66. The words: 晚 (IV, 66). Made public: 2012. See [[cal.1960-10-17.china-leadership-6]]. Names: Peng Zhen, Kang Sheng, Stalin.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 66. The words: 晚 (IV, 66). Made public: 2012. See [[cal.1960-10-17.china-leadership-6]]. Names: Peng Zhen, Kang Sheng, Stalin, Hu Qiaomu.'
     src:
       c: 2aabfabe
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 66: all'
-    tags: [polity:prc, name:peng-zhen, name:kang-sheng, vis:only:prc, name:stalin-joseph]
+    tags: [polity:prc, name:peng-zhen, name:kang-sheng, vis:only:prc, name:stalin-joseph, name:hu-qiaomu]
     time_range:
       - 1960-10-17T16:00Z
       - 1960-10-17T19:00Z
@@ -4847,13 +4847,13 @@ entries:
     thread: china-leadership
     also: [china, japan, south-asia]
     c: 'Zhou Enlai receives Edgar Snow. Sino-American relations need two preconditions: all disputes settled peacefully, not by force; America to acknowledge Taiwan as Chinese and withdraw all forces from it and the Strait. Disarmament: no agreement without China''s signature binds it. India: status quo and friendly settlement; China does not cross the McMahon line, which it does not recognize.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 358 (Oct. 18, 1960); [[w.zhou-enlai-waijiao-huodong]], 292 (Oct. 18, 1960; 中南海西花厅). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 358 (Oct. 18, 1960); [[w.zhou-enlai-waijiao-huodong]], 292 (Oct. 18, 1960; 中南海西花厅). Made public: 1993. Names: Zhou Enlai, Edgar Snow.'
     src:
       c: 0623ae23
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 358: ?'
         - 'w.zhou-enlai-waijiao-huodong 292: A'
-    tags: [polity:prc, polity:us, name:zhou-enlai, vis:only:prc+us]
+    tags: [polity:prc, polity:us, name:zhou-enlai, vis:only:prc+us, name:edgar-snow]
   - id: cal.1960-10-18.china-leadership-2
     when: Oct. 18
     date: '1960-10-18'
@@ -4901,7 +4901,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 576: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1587–1588: ?'
-    tags: [polity:prc, vis:only:prc+albania]
+    tags: [polity:prc, vis:only:prc+albania, name:hysni-kapo]
     time_zone: Europe/Moscow
   - id: cal.1960-10-18.china-leadership-5
     when: Oct. 18
@@ -4952,12 +4952,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Moscow 莫斯科. Peng Zhen 彭真 hears Hu Qiaomu 胡乔木 and others on the secretariat''s day: the Twentieth and Twenty-first Congresses, the cult of the individual, revisionism and dogmatism.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 66. The words: 晚 (IV, 66). Made public: 2012. See [[cal.1960-10-18.china-leadership-3]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 66. The words: 晚 (IV, 66). Made public: 2012. See [[cal.1960-10-18.china-leadership-3]]. Names: Peng Zhen, Hu Qiaomu.'
     src:
       c: 427fd1de
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 66: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:hu-qiaomu]
     time_range:
       - 1960-10-18T16:00Z
       - 1960-10-18T19:00Z
@@ -4995,8 +4995,8 @@ entries:
     place: zhengzhou
     thread: china-leadership
     c: Zhengzhou 郑州. Chen Yun 陈云 hears Wu Zhipu 吴芝圃, first secretary of the Henan committee 中共河南省委, Yang Weiping 杨蔚屏, a secretary of its Secretariat, and others on the province's present state and problems.
-    n: '[[w.chen-yun-nianpu-xiuding]], III, 46. The words: 下午 (46). Made public: 2015. Names: Chen Yun.'
-    tags: [polity:prc, name:chen-yun, vis:only:prc]
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 46. The words: 下午 (46). Made public: 2015. Names: Chen Yun, Wu Zhipu, Yang Weiping.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc, name:wu-zhipu, name:yang-weiping]
     time_range:
       - 1960-10-18T04:00Z
       - 1960-10-18T10:00Z
@@ -5186,8 +5186,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai and Deng Yingchao at the Summer Palace receive the teachers and students of the old Whampoa Military Academy, and urge the pardoned among them to be models of remolding.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 359 (Oct. 19, 1960). Names: Zhou Enlai.'
-    tags: [polity:prc, polity:roc, name:zhou-enlai]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 359 (Oct. 19, 1960). Names: Zhou Enlai, Deng Yingchao.'
+    tags: [polity:prc, polity:roc, name:zhou-enlai, name:deng-yingchao]
   - id: cal.1960-10-19.china-leadership-2
     when: Oct. 19
     date: '1960-10-19'
@@ -5226,7 +5226,7 @@ entries:
       c: 0c07244c
       rows:
         - 'w.yang-shangkun-riji I, 577: all'
-    tags: [polity:prc, vis:only:prc+ussr]
+    tags: [polity:prc, vis:only:prc+ussr, name:shcherbakov]
     time_range:
       - 1960-10-19T06:00Z
       - 1960-10-19T09:00Z
@@ -5263,7 +5263,7 @@ entries:
       c: a5c9cc07
       rows:
         - 'w.yang-shangkun-riji I, 577: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
   - id: cal.1960-10-19.china-leadership-5
     when: Oct. 19
     date: '1960-10-19'
@@ -5294,7 +5294,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 577: all'
         - 'w.peng-zhen-nianpu-1902 IV, 67: ?'
-    tags: [polity:prc, name:lu-dingyi, vis:only:prc]
+    tags: [polity:prc, name:lu-dingyi, vis:only:prc, name:shcherbakov, name:yang-shangkun]
     time_zone: Europe/Moscow
   - id: cal.1960-10-19.china-leadership-9
     when: Oct. 19
@@ -5555,7 +5555,7 @@ entries:
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Oct. 20, 1960: all'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 495: B'
-    tags: [polity:prc, polity:albania, name:mao-zedong, name:liu-shaoqi, name:li-fuchun, name:li-xiannian, name:lu-dingyi, vis:only:prc+albania]
+    tags: [polity:prc, polity:albania, name:mao-zedong, name:liu-shaoqi, name:li-fuchun, name:li-xiannian, name:lu-dingyi, vis:only:prc+albania, name:kellezi]
   - id: cal.1960-10-20.china-leadership-2
     when: Oct. 20
     date: '1960-10-20'
@@ -5575,8 +5575,8 @@ entries:
     thread: china-leadership
     also: [soviet-union, foreign-aid]
     c: 'Zhou Enlai to Mehmet Shehu, in reply: China has studied his letter and will meet in full all the Albanian government''s requests (grain, edible oil, sugar and interest-free free foreign exchange).'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 359 (Oct. 20, 1960). Made public: 1997. Names: Zhou Enlai.'
-    tags: [polity:prc, polity:albania, name:zhou-enlai, vis:only:prc+albania]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 359 (Oct. 20, 1960). Made public: 1997. Names: Zhou Enlai, Mehmet Shehu.'
+    tags: [polity:prc, polity:albania, name:zhou-enlai, vis:only:prc+albania, name:mehmet-shehu]
   - id: cal.1960-10-20.china-leadership-4
     when: Oct. 20
     date: '1960-10-20'
@@ -5604,7 +5604,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 578: all'
         - 'w.peng-zhen-nianpu-1902 IV, 67: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Europe/Moscow
   - id: cal.1960-10-20.china-leadership-6
     when: Oct. 20
@@ -5634,7 +5634,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 578: all'
         - 'w.peng-zhen-nianpu-1902 IV, 67: ?'
-    tags: [polity:prc, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc, name:liu-xiao]
   - id: cal.1960-10-20.china-leadership-8
     when: Oct. 20
     date: '1960-10-20'
@@ -5653,12 +5653,12 @@ entries:
     date: '1960-10-20'
     thread: china-leadership
     c: 'Ke Qingshi 柯慶施, Politburo member and first secretary of the East China Bureau 華東局, announces in Shandong 山東 the Center''s decision: Shu Tong 舒同 is removed from his post, and Zeng Xisheng 曾希聖, first secretary of the Anhui 安徽 committee, is also to be secretary of the Shandong committee.'
-    n: '[[w.yang-jisheng-mubei]], I, 459. Made public: 2008. Names: Ke Qingshi. Check: the book gives the day and no note; the place is taken to be Shandong from the book''s text, not stated for the announcement.'
+    n: '[[w.yang-jisheng-mubei]], I, 459. Made public: 2008. Names: Ke Qingshi, Shu Tong, Zeng Xisheng. Check: the book gives the day and no note; the place is taken to be Shandong from the book''s text, not stated for the announcement.'
     src:
       c: 1fcb7abd
       rows:
         - 'w.yang-jisheng-mubei I, 459: all'
-    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc, name:shu-tong, name:zeng-xisheng]
   - id: cal.1960-10-20.vietnam-hanoi
     when: Oct. 20–23
     date: '1960-10-20'
@@ -5686,8 +5686,8 @@ entries:
     place: zhengzhou
     thread: china-leadership
     c: Zhengzhou 郑州. Chen Yun 陈云 hears Zhao Wenfu 赵文甫, vice-governor of Henan 河南省, on men drawing ploughs 人拉犁, the transport of grain and the province's economic plan.
-    n: '[[w.chen-yun-nianpu-xiuding]], III, 48. Made public: 2015. Names: Chen Yun.'
-    tags: [polity:prc, name:chen-yun, vis:only:prc]
+    n: '[[w.chen-yun-nianpu-xiuding]], III, 48. Made public: 2015. Names: Chen Yun, Zhao Wenfu.'
+    tags: [polity:prc, name:chen-yun, vis:only:prc, name:zhao-wenfu]
   - id: cal.1960-10-20.china-leadership-12
     when: Oct. 20
     date: '1960-10-20'
@@ -5856,8 +5856,8 @@ entries:
     thread: china-leadership
     also: [economy]
     c: 'At the Secretariat, after Gu Mu''s report on industrial output, Zhou Enlai: the 18.4 million tons of steel must at least be made, with about 19 million held inside; leave room, narrow the gap; past ministries left no room and pushed the gap down to others, which will not do. He also speaks on the handling of Soviet-nationality cadres of dual citizenship in Sinkiang.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 359 (Oct. 21, 1960). Made public: 1997. Names: Zhou Enlai.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 359 (Oct. 21, 1960). Made public: 1997. Names: Zhou Enlai, Gu Mu.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:gu-mu]
   - id: cal.1960-10-21.china-leadership-4
     when: Oct. 21
     date: '1960-10-21'
@@ -5892,7 +5892,7 @@ entries:
         - 'w.yang-shangkun-riji I, 579: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1588: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 67: ?'
-    tags: [polity:prc, name:peng-zhen, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, name:deng-xiaoping, vis:only:prc, name:hysni-kapo, name:yang-shangkun]
     time_zone: Europe/Moscow
   - id: cal.1960-10-21.china-leadership-6
     when: Oct. 21
@@ -6132,7 +6132,7 @@ entries:
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Oct. 22, 1960: all'
         - 'w.jianguo-yilai-mao-zedong XV, 368: B'
-    tags: [polity:prc, name:mao-zedong, name:kennedy-john-f, name:nixon-richard-m, name:chiang-kai-shek, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:kennedy-john-f, name:nixon-richard-m, name:chiang-kai-shek, vis:only:prc, name:george-hatem, name:gong-peng, name:rewi-alley]
   - id: cal.1960-10-22.china-leadership-2
     when: Oct. 22
     date: '1960-10-22'
@@ -6162,7 +6162,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1588: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 67–68: ?'
         - 'w.guan-vietnamese-communists-relations-with 166: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, name:ponomarev-boris-n, vis:only:prc+ussr]
+    tags: [polity:prc, name:deng-xiaoping, name:suslov-mikhail-a, name:ponomarev-boris-n, vis:only:prc+ussr, name:koucky, name:miyamoto-kenji]
     time_zone: Europe/Moscow
   - id: cal.1960-10-22.china-leadership-4
     when: Oct. 22
@@ -6196,7 +6196,7 @@ entries:
         - 'w.yang-shangkun-riji I, 583: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1589: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 68: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc, name:hakamada-satomi, name:miyamoto-kenji, name:sharkey, name:yang-shangkun, name:yonehara-itaru]
     time_zone: Europe/Moscow
   - id: cal.1960-10-22.china-leadership-6
     when: Oct. 22
@@ -6401,7 +6401,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 361, Oct. 23, 1960: B-D'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 495: B'
         - 'w.yang-jisheng-mubei II, 1171: B'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:li-fuchun, name:li-xiannian, name:tan-zhenlin, name:tao-zhu, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:li-fuchun, name:li-xiannian, name:tan-zhenlin, name:tao-zhu, vis:only:prc, name:chen-zhengren, name:liao-luyan, name:wang-renzhong, name:wu-zhipu]
     variants:
       - unit: B
         witness: w.mao-zedong-zhuan
@@ -6413,13 +6413,13 @@ entries:
     thread: china-leadership
     also: [economy]
     c: 'Zhou Enlai, seeing gifts sent upward, mass welcomes for visiting leaders and too many meetings, reports to the Secretariat and has Xi Zhongxun and Qi Yanming draft the Center''s notice: no gifts between units or to persons; no welcomes or send-offs for leaders; meetings cut; no new guesthouses or non-productive buildings for seven years. He adds to it and sends it to Li Fuchun to issue and to Mao, Liu, Chen Yi, Tan Zhenlin and Li Xiannian to read. Issued Nov. 3.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 360 (Oct. 23, 1960); [[w.jianguo-yilai-mao-zedong]], XV, 387–388 (Nov. 3, 1960; note 1, on Mao''s comment of Nov. 3: Zhou''s words on the notice he sent Oct. 23, ''most urgent'' 特急件, to Li Fuchun to issue and to Mao, Liu, Zhu De, Chen Yi, Tan Zhenlin and Li Xiannian; the notice''s five rules). Made public: 1997. Names: Zhou Enlai, Li Fuchun, Mao Zedong, Liu Shaoqi, Chen Yi, Tan Zhenlin, Li Xiannian.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 360 (Oct. 23, 1960); [[w.jianguo-yilai-mao-zedong]], XV, 387–388 (Nov. 3, 1960; note 1, on Mao''s comment of Nov. 3: Zhou''s words on the notice he sent Oct. 23, ''most urgent'' 特急件, to Li Fuchun to issue and to Mao, Liu, Zhu De, Chen Yi, Tan Zhenlin and Li Xiannian; the notice''s five rules). Made public: 1997. Names: Zhou Enlai, Li Fuchun, Mao Zedong, Liu Shaoqi, Chen Yi, Tan Zhenlin, Li Xiannian, Xi Zhongxun, Qi Yanming.'
     src:
       c: 24ffa412
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 360: ?'
         - 'w.jianguo-yilai-mao-zedong XV, 387–388: A-E'
-    tags: [polity:prc, name:zhou-enlai, name:li-fuchun, name:mao-zedong, name:liu-shaoqi, vis:only:prc, name:chen-yi, name:tan-zhenlin, name:li-xiannian]
+    tags: [polity:prc, name:zhou-enlai, name:li-fuchun, name:mao-zedong, name:liu-shaoqi, vis:only:prc, name:chen-yi, name:tan-zhenlin, name:li-xiannian, name:qi-yanming, name:xi-zhongxun]
   - id: cal.1960-10-23.china-leadership-3
     when: Oct. 23
     date: '1960-10-23'
@@ -6485,7 +6485,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 584: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1590: ?'
-    tags: [polity:prc, vis:only:prc+albania]
+    tags: [polity:prc, vis:only:prc+albania, name:alia, name:hysni-kapo]
     time_zone: Europe/Moscow
   - id: cal.1960-10-23.china-leadership-8
     when: Oct. 23
@@ -6504,7 +6504,7 @@ entries:
         - 'w.yang-shangkun-riji I, 584: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1590: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 68: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Europe/Moscow
   - id: cal.1960-10-23.china-leadership-9
     when: Oct. 23
@@ -6697,7 +6697,7 @@ entries:
     also: [space]
     c: 'Baikonur. A rocket explodes on the pad: 126 dead, Nedelin, the commander, among them. Brezhnev heads the commission of inquiry and goes to the site at once; on his return he reports to Khrushchev an unforeseen accident, a tragic chain of events, and advises that no one be held responsible and rocket building go on.'
     n: '[[w.schattenberg-brezhnev]], 152 (nn.286–89). To check: B. Chertok, *Raketen und Menschen*, 380, 382; S. Khrushchev, *Geburt einer Supermacht*, 364–65 (cited by [[w.schattenberg-brezhnev]], 152 nn.286–89). Made public: 2021 at the latest. Made public: 2021 at the latest. Names: Nedelin, Brezhnev, Khrushchev. Check: the days of Brezhnev''s trip and report.'
-    tags: [name:brezhnev-leonid, name:khrushchev-nikita-s, polity:ussr, vis:only:ussr]
+    tags: [name:brezhnev-leonid, name:khrushchev-nikita-s, polity:ussr, vis:only:ussr, name:nedelin]
   - id: cal.1960-10-24.china-leadership
     when: Oct. 24
     date: '1960-10-24'
@@ -7161,7 +7161,7 @@ entries:
     thread: china-leadership
     c: 'The Yinian Tang. After midnight, Mao with Liu Shaoqi, Zhou Enlai and Tao Zhu on Henan; at 2 a.m. planes sent for the first secretaries of the Northeast and Northwest, Yunnan and Guizhou. Evening, his meeting with Tan Zhenlin, Li Jingquan, Tao Zhu and the Northeast''s and Northwest''s secretaries (Song Renqiong, Ouyang Qin, Liu Lantao and others): their farming, how to stop the "communist wind."'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 25, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Tao Zhu, Tan Zhenlin, Li Jingquan, Song Renqiong, Ouyang Qin, Liu Lantao.'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:tao-zhu, name:tan-zhenlin, name:li-jingquan, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:tao-zhu, name:tan-zhenlin, name:li-jingquan, vis:only:prc, name:liu-lantao, name:ouyang-qin, name:song-renqiong]
     variants:
       - unit: D
         witness: w.mao-zedong-zhuan
@@ -7173,8 +7173,8 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Zhou Enlai with Nie Rongzhen, Han Guang, Zhang Jinfu and others on Sino-Soviet scientific cooperation.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 362 (Oct. 25, 1960). Made public: 1997. Names: Zhou Enlai, Nie Rongzhen.'
-    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:nie-rongzhen, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 362 (Oct. 25, 1960). Made public: 1997. Names: Zhou Enlai, Nie Rongzhen, Han Guang, Zhang Jinfu.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:nie-rongzhen, vis:only:prc, name:han-guang, name:zhang-jinfu]
   - id: cal.1960-10-25.china-leadership-3
     when: Oct. 25
     date: '1960-10-25'
@@ -7428,7 +7428,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 370–371: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 370 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 370 n.1b: all'
-    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:li-fuchun, vis:only:prc, name:huang-shaohong, name:liu-wang-liming]
     time_zone: Asia/Shanghai
   - id: cal.1960-10-26.china-leadership-4
     when: Oct. 26
@@ -7653,7 +7653,7 @@ entries:
     also: [china]
     c: The Yinian Tang. Mao receives Edgar Snow again; Gong Peng present. Men decide wars; schooling with labor not the work-study of 1919; on the Hundred Flowers.
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 27, 1960. Made public: 2013. Names: Mao Zedong, Snow, Gong Peng.'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:gong-peng]
   - id: cal.1960-10-27.china-leadership-3
     when: Oct. 27
     date: '1960-10-27'
@@ -7720,12 +7720,12 @@ entries:
     thread: china
     also: [africa]
     c: China and Mali establish diplomatic relations. On Oct. 25 Ke Hua, China's ambassador to Guinea, talks with President Modibo Keita at Bamako, and the two exchange letters on establishing relations. On Oct. 27 the two governments issue a communique deciding to exchange ambassadors.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 170 (Oct. 27, 1960). See [[cal.1960-09-25.china]]. Names: Keita.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 170 (Oct. 27, 1960). See [[cal.1960-09-25.china]]. Names: Keita, Ke Hua.'
     src:
       c: dc74de4a
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 170: all'
-    tags: [polity:prc, polity:mali, name:keita-modibo]
+    tags: [polity:prc, polity:mali, name:keita-modibo, name:ke-hua]
   - id: cal.1960-10-27.china-leadership-6
     when: Oct. 27
     date: '1960-10-27'
@@ -7737,7 +7737,7 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 370–371: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 370 n.1c: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:huang-shaohong, name:liu-wang-liming]
   - id: cal.1960-10-27.china-leadership-7
     when: Oct. 27
     date: '1960-10-27'
@@ -7749,7 +7749,7 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 373–374: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 373 n.1a: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:hu-qiaomu]
   - id: cal.1960-10-27.china-leadership-8
     when: Oct. 27
     date: '1960-10-27'
@@ -7762,7 +7762,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 375–376: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 375 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 375 n.1b: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:yan-dakai]
   - id: cal.1960-10-27.china-leadership-9
     when: Oct. 27–28
     date: '1960-10-27'
@@ -8063,7 +8063,7 @@ entries:
     thread: china-leadership
     c: 'The Yinian Tang. Mao''s meeting with Liu Shaoqi, Zhou Enlai, Li Fuchun, Ke Qingshi, Li Jingquan, Tan Zhenlin, Tao Zhu, Song Renqiong, Li Xuefeng, Liu Lantao: grain to be moved across the country; Shandong and Henan; the mess halls.'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Oct. 28, 1960. Made public: 2013. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Li Fuchun, Ke Qingshi, Li Jingquan, Tan Zhenlin, Tao Zhu, Song Renqiong, Li Xuefeng, Liu Lantao.'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:li-fuchun, name:ke-qingshi, name:li-jingquan, name:tan-zhenlin, name:tao-zhu, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:li-fuchun, name:ke-qingshi, name:li-jingquan, name:tan-zhenlin, name:tao-zhu, vis:only:prc, name:li-xuefeng, name:liu-lantao, name:song-renqiong]
   - id: cal.1960-10-28.china-leadership-2
     when: Oct. 28
     date: '1960-10-28'
@@ -8086,7 +8086,7 @@ entries:
       c: ec6f956e
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 377–379: all'
-    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:chen-boda, vis:only:prc, name:tian-jiaying]
     time_range:
       - 1960-10-27T22:00Z
       - 1960-10-28T04:00Z
@@ -8322,8 +8322,8 @@ entries:
     place: peking
     thread: china-leadership
     c: Zhou Enlai with Guo Moruo and Xia Yan attends the Peking concert for the 25th anniversary of Nie Er's death and the 15th of Xian Xinghai's.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 364 (Oct. 29, 1960). Names: Zhou Enlai.'
-    tags: [polity:prc, name:zhou-enlai]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 364 (Oct. 29, 1960). Names: Zhou Enlai, Guo Moruo, Xia Yan.'
+    tags: [polity:prc, name:zhou-enlai, name:guo-moruo, name:xia-yan]
   - id: cal.1960-10-29.china-leadership-5
     when: Oct. 29
     date: '1960-10-29'
@@ -8334,7 +8334,7 @@ entries:
       c: 66f855cf
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 377: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:tian-jiaying]
     time_range:
       - 1960-10-28T22:00Z
       - 1960-10-29T04:00Z
@@ -8345,14 +8345,14 @@ entries:
     date: '1960-10-29'
     thread: china-leadership
     c: Zeng Xisheng 曾希聖 gives the Shandong 山東 committee's enlarged meeting his big report "Party, government, army and people, mobilize urgently to fight the famine and overcome the difficulties!" 黨政軍民緊急動員起來，為戰勝災荒、克服困難而鬥爭. It names farm output sharply down, grain total 16 billion jin, back at 1949; rations badly short; 4.2 million with edema; productive forces ruined; cultivated land less; the people's will to produce low. He blames Shu Tong 舒同 for not carrying out the Center's lines from Lushan 廬山, Shanghai 上海 and Beidaihe 北戴河, and for a Qingdao 青島 meeting of over 40 days that lost the season.
-    n: '[[w.yang-jisheng-mubei]], I, 455, 459–460. Made public: 2008. To check: Zeng Xisheng, talk at the Shandong Provincial Committee''s enlarged meeting, "Party, government, army and people, mobilize urgently to fight the famine and overcome the difficulties!" Oct. 29, 1960 (cited by [[w.yang-jisheng-mubei]], I, 455 n.27). Check: the book calls it a big report (I, 459) and the note a talk at the enlarged meeting; the book''s gloss that Zeng blames only two men is its own (I, 460).'
+    n: '[[w.yang-jisheng-mubei]], I, 455, 459–460. Made public: 2008. To check: Zeng Xisheng, talk at the Shandong Provincial Committee''s enlarged meeting, "Party, government, army and people, mobilize urgently to fight the famine and overcome the difficulties!" Oct. 29, 1960 (cited by [[w.yang-jisheng-mubei]], I, 455 n.27). Check: the book calls it a big report (I, 459) and the note a talk at the enlarged meeting; the book''s gloss that Zeng blames only two men is its own (I, 460). Names: Zeng Xisheng, Shu Tong.'
     src:
       c: 9ed8bf65
       rows:
         - 'w.yang-jisheng-mubei I, 455: all'
         - 'w.yang-jisheng-mubei I, 459-460: all'
         - 'via w.yang-jisheng-mubei I, 455 n.27: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:shu-tong, name:zeng-xisheng]
   - id: cal.1960-10-29.vietnam-hanoi
     when: Oct. 29
     date: '1960-10-29'
@@ -8534,8 +8534,8 @@ entries:
     date: '1960-10-30'
     thread: china-leadership
     c: Zhu De 朱德, with Xi Zhongxun 习仲勋 and others, watches the Soviet artists' troupe and receives its leaders and chief performers.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1786. The words: 晚 (1786). Names: Zhu De.'
-    tags: [polity:prc, polity:ussr, ok:fields-place, name:zhu-de]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1786. The words: 晚 (1786). Names: Zhu De, Xi Zhongxun.'
+    tags: [polity:prc, polity:ussr, ok:fields-place, name:zhu-de, name:xi-zhongxun]
     time_range:
       - 1960-10-30T11:00Z
       - 1960-10-30T14:00Z
@@ -9243,8 +9243,8 @@ entries:
     thread: china-leadership
     also: [soviet-union, trade]
     c: 'Zhou Enlai to Mao, by letter, after talking with Chen Yi: a Chinese negotiating delegation to be formed at once under Zhang Hanfu and Ye Jizhuang, the talks to be fought for in Peking. Mao agrees Nov. 5. (The delegation to the Soviet Union is for trade and renewed aid projects.)'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 365 (Oct. 31, 1960). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Chen Yi, Zhang Hanfu.'
-    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:mao-zedong, name:chen-yi, name:chang-han-fu, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 365 (Oct. 31, 1960). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Chen Yi, Zhang Hanfu, Ye Jizhuang.'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:mao-zedong, name:chen-yi, name:chang-han-fu, vis:only:prc, name:ye-jizhuang, name:zhang-hanfu]
   - id: cal.1960-10.china-leadership-2
     when: Oct.
     date: 1960-10
@@ -9259,13 +9259,13 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Zhou Yang, sent by Lu Dingyi, inquires into education at Peking University, the People''s University and Peking Teachers College: too much manual labor, the curriculum altered too much.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 102–103. Made public: 1997. To check: [[w.dou-pi-gai-tongxun]], No. 16, June 29, 1967, 12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 103 n.78). Names: Lu Dingyi. Check: the day.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 102–103. Made public: 1997. To check: [[w.dou-pi-gai-tongxun]], No. 16, June 29, 1967, 12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 103 n.78). Names: Lu Dingyi, Zhou Yang. Check: the day.'
     src:
       c: e3049b26
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 102–103: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 103 n.78: all'
-    tags: [polity:prc, name:lu-dingyi, vis:only:prc]
+    tags: [polity:prc, name:lu-dingyi, vis:only:prc, name:zhou-yang]
   - id: cal.1960-10.china-leadership-4
     when: Oct., first half
     date: 1960-10
@@ -9300,61 +9300,61 @@ entries:
     date: 1960-10
     thread: china-leadership
     c: Li Jian 李堅 of the Central Control Commission 中央監委, with three others including Tao Mosheng 陶陌生 of the Organization Department 中央組織部, goes to Xinyang 信陽 a second time; the count they take is 1,000,000 dead. At Yuanyang 原陽 he is told by telephone that the Center wants him back to report, and on his return reports to An Ziwen 安子文, who then writes Zhou Enlai 周恩來.
-    n: '[[w.yang-jisheng-mubei]], I, 74 (Li Jian''s account). Made public: 2008. To check: Li Jian, interview with Yang Jisheng, Beijing, Mar. 2001 (cited by [[w.yang-jisheng-mubei]], I, 72–74; no note). Check: the day; whether An Ziwen''s written report to Zhou is the one Wang Congwu''s account puts the same evening as An''s oral report (I, 75). Names: Zhou Enlai.'
+    n: '[[w.yang-jisheng-mubei]], I, 74 (Li Jian''s account). Made public: 2008. To check: Li Jian, interview with Yang Jisheng, Beijing, Mar. 2001 (cited by [[w.yang-jisheng-mubei]], I, 72–74; no note). Check: the day; whether An Ziwen''s written report to Zhou is the one Wang Congwu''s account puts the same evening as An''s oral report (I, 75). Names: Zhou Enlai, An Ziwen.'
     src:
       c: f3ba8d01
       rows:
         - 'w.yang-jisheng-mubei I, 74: all'
         - 'via w.yang-jisheng-mubei I, 74 n.t1: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:an-ziwen]
   - id: cal.1960-10.china-leadership-7
     when: Oct.
     date: 1960-10
     thread: china-leadership
     c: 'An Ziwen 安子文, deputy head of the Organization Department 中央組織部, reports to Zhou Enlai 周恩來 on Xinyang 信陽 the evening the Control Commission 中央監委 and the Organization Department''s leaders decide the matter is grave: 700,000-odd dead on the evidence found.'
-    n: '[[w.yang-jisheng-mubei]], I, 75 (Wang Congwu''s account, as Qiao Peihua took it down Oct. 30, 1990). The words: 當天晚上 (I, 75). Made public: 1998 ([[w.qiao-peihua-zhou-enlai-yu-xinyang]], which the book cites for the passage, I, 76 n.59). To check: [[w.qiao-peihua-zhou-enlai-yu-xinyang]] (cited by [[w.yang-jisheng-mubei]], I, 76 n.59); Wang Congwu 王從吾, interview with Qiao Peihua of the Henan Party school, Oct. 30, 1990 (cited by [[w.yang-jisheng-mubei]], I, 75; no note). Check: the day; the Control Commission''s and the Organization Department''s survey the account describes may be Li Jian''s second trip or the report of Oct. 21 that Li Fuchun sent Mao Oct. 24 ([[cal.1960-10-26.china-leadership]]). Names: Zhou Enlai.'
+    n: '[[w.yang-jisheng-mubei]], I, 75 (Wang Congwu''s account, as Qiao Peihua took it down Oct. 30, 1990). The words: 當天晚上 (I, 75). Made public: 1998 ([[w.qiao-peihua-zhou-enlai-yu-xinyang]], which the book cites for the passage, I, 76 n.59). To check: [[w.qiao-peihua-zhou-enlai-yu-xinyang]] (cited by [[w.yang-jisheng-mubei]], I, 76 n.59); Wang Congwu 王從吾, interview with Qiao Peihua of the Henan Party school, Oct. 30, 1990 (cited by [[w.yang-jisheng-mubei]], I, 75; no note). Check: the day; the Control Commission''s and the Organization Department''s survey the account describes may be Li Jian''s second trip or the report of Oct. 21 that Li Fuchun sent Mao Oct. 24 ([[cal.1960-10-26.china-leadership]]). Names: Zhou Enlai, An Ziwen.'
     src:
       c: 1fe2eb0a
       rows:
         - 'w.yang-jisheng-mubei I, 75: all'
         - 'via w.yang-jisheng-mubei I, 75 n.t1: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:an-ziwen]
   - id: cal.1960-10.china-leadership-8
     when: Oct.
     date: 1960-10
     thread: china-leadership
     c: Wang Congwu 王從吾, deputy secretary of the Central Control Commission 中央監察委員會, writes Zhou Enlai 周恩來 a report on Xinyang 信陽, after An Ziwen's 安子文 oral report.
-    n: '[[w.yang-jisheng-mubei]], I, 75–76 (Wang Congwu''s account, as Qiao Peihua gives it). Made public: 1998 ([[w.qiao-peihua-zhou-enlai-yu-xinyang]]). To check: Control Commission (Wang Congwu), written report on the Xinyang incident to Zhou Enlai, Oct. 1960 (cited by [[w.yang-jisheng-mubei]], I, 75–76; no note); [[w.qiao-peihua-zhou-enlai-yu-xinyang]] (cited by [[w.yang-jisheng-mubei]], I, 76 n.59). Check: the day. Names: Zhou Enlai.'
+    n: '[[w.yang-jisheng-mubei]], I, 75–76 (Wang Congwu''s account, as Qiao Peihua gives it). Made public: 1998 ([[w.qiao-peihua-zhou-enlai-yu-xinyang]]). To check: Control Commission (Wang Congwu), written report on the Xinyang incident to Zhou Enlai, Oct. 1960 (cited by [[w.yang-jisheng-mubei]], I, 75–76; no note); [[w.qiao-peihua-zhou-enlai-yu-xinyang]] (cited by [[w.yang-jisheng-mubei]], I, 76 n.59). Check: the day. Names: Zhou Enlai, Wang Congwu, An Ziwen.'
     src:
       c: 2a7127ab
       rows:
         - 'w.yang-jisheng-mubei I, 75-76: all'
         - 'via w.yang-jisheng-mubei I, 75 n.t1: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:an-ziwen, name:wang-congwu]
   - id: cal.1960-10.china-leadership-10
     when: Oct.
     date: 1960-10
     thread: china-leadership
     c: Zhou Enlai 周恩來, having read Wang Congwu's 王從吾 report, tells Mao 毛澤東 of the Xinyang 信陽 incident.
-    n: '[[w.yang-jisheng-mubei]], I, 76 (Wang Congwu''s account, as Qiao Peihua gives it). Made public: 1998 ([[w.qiao-peihua-zhou-enlai-yu-xinyang]]). To check: [[w.qiao-peihua-zhou-enlai-yu-xinyang]] (cited by [[w.yang-jisheng-mubei]], I, 76 n.59). Check: the day; whether this is the meeting of Mao, Liu, Zhou and Tao Zhu after midnight Oct. 25 ([[cal.1960-10-25.china-leadership]]). See [[cal.1960-10.china-leadership-8]]. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.yang-jisheng-mubei]], I, 76 (Wang Congwu''s account, as Qiao Peihua gives it). Made public: 1998 ([[w.qiao-peihua-zhou-enlai-yu-xinyang]]). To check: [[w.qiao-peihua-zhou-enlai-yu-xinyang]] (cited by [[w.yang-jisheng-mubei]], I, 76 n.59). Check: the day; whether this is the meeting of Mao, Liu, Zhou and Tao Zhu after midnight Oct. 25 ([[cal.1960-10-25.china-leadership]]). See [[cal.1960-10.china-leadership-8]]. Names: Zhou Enlai, Mao Zedong, Wang Congwu.'
     src:
       c: 74b8c6de
       rows:
         - 'w.yang-jisheng-mubei I, 76: all'
         - 'via w.yang-jisheng-mubei I, 76 n.t1: all'
-    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc, name:wang-congwu]
   - id: cal.1960-10.china-leadership-9
     when: Oct.
     date: 1960-10
     thread: china-leadership
     c: 'Zhou Enlai 周恩來, on Mao''s 毛澤東 view, calls an urgent meeting of the State Council 國務院 to report the Xinyang 信陽 incident. He says, in pain, that he is responsible: no one reported it and the Center did not know. He decides at once on a Central work group, Wang Congwu 王從吾 leader, Xu Zirong 徐子榮, a vice-minister of Public Security 公安部, and An Ziwen 安子文, deputy head of the Organization Department 中央組織部, deputy leaders, with several dozen drawn from three departments.'
-    n: '[[w.yang-jisheng-mubei]], I, 76. Made public: 1998. To check: [[w.qiao-peihua-zhou-enlai-yu-xinyang]] (cited by [[w.yang-jisheng-mubei]], I, 76 n.59); Wang Congwu, interview with Qiao Peihua, Oct. 30, 1990 (cited by [[w.yang-jisheng-mubei]], I, 75; no note). Check: the day, given only as the day after Zhou told Mao ([[cal.1960-10.china-leadership-10]]); the book adds that the group spent over a month in Xinyang and wrote the Center and the State Council a formal report, with scattered reports attached. Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.yang-jisheng-mubei]], I, 76. Made public: 1998. To check: [[w.qiao-peihua-zhou-enlai-yu-xinyang]] (cited by [[w.yang-jisheng-mubei]], I, 76 n.59); Wang Congwu, interview with Qiao Peihua, Oct. 30, 1990 (cited by [[w.yang-jisheng-mubei]], I, 75; no note). Check: the day, given only as the day after Zhou told Mao ([[cal.1960-10.china-leadership-10]]); the book adds that the group spent over a month in Xinyang and wrote the Center and the State Council a formal report, with scattered reports attached. Names: Zhou Enlai, Mao Zedong, Wang Congwu, Xu Zirong, An Ziwen.'
     src:
       c: 3277c6f5
       rows:
         - 'w.yang-jisheng-mubei I, 76: all'
         - 'via w.yang-jisheng-mubei I, 76 n.t1: all'
-    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc, name:an-ziwen, name:wang-congwu, name:xu-zirong]
   - id: cal.1960-10-31.china-leadership-4
     when: Oct. 31
     date: '1960-10-31'
@@ -9387,12 +9387,12 @@ entries:
     date: 1960-10
     thread: china-leadership
     c: 'Zeng Xisheng 曾希聖 proposes a further step: groups under every production team, to avoid great-crowd working.'
-    n: '[[w.yang-jisheng-mubei]], I, 332. Made public: 2008. To check: [[w.dangdai-zhongguo-anhui]], the part on the reform of the rural economic system; [[w.anhui-tuixing-zerentian-de]], p. 7 (the section''s sources, named by [[w.yang-jisheng-mubei]], I, 331 n.101). Check: the day is not given; the second sentence repeats what the calendar holds for Oct. 17 (Mao with Tan Zhenlin, Zeng Xisheng and Liao Luyan on Shandong).'
+    n: '[[w.yang-jisheng-mubei]], I, 332. Made public: 2008. To check: [[w.dangdai-zhongguo-anhui]], the part on the reform of the rural economic system; [[w.anhui-tuixing-zerentian-de]], p. 7 (the section''s sources, named by [[w.yang-jisheng-mubei]], I, 331 n.101). Check: the day is not given; the second sentence repeats what the calendar holds for Oct. 17 (Mao with Tan Zhenlin, Zeng Xisheng and Liao Luyan on Shandong). Names: Zeng Xisheng.'
     src:
       c: 1709af3f
       rows:
         - 'w.yang-jisheng-mubei I, 332: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:zeng-xisheng]
   - id: cal.1960-10-31.china-leadership-5
     when: Oct. 31
     date: '1960-10-31'
@@ -9433,13 +9433,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: By Liu Bingxun's 劉秉勛 account, Mao Zedong 毛澤東 receives his cousins Mao Zerong 毛澤榮 and Wen Dongxian 文東仙, with Wang Jifan 王季範. Mao Zerong tells him the mess halls grow worse, many eat rice bran and rotten cabbage, many have edema, and the cadres dare not report it; people will starve, and he must act. Wen tells him Xiangtan 湘潭, Xiangxiang 湘鄉 and Ningxiang 寧鄉 are all alike, and he can send people to see. The book adds that Mao, believing them, grants the halls many problems but blames bad men in them, not the halls.
-    n: '[[w.yang-jisheng-mubei]], II, 762 n.49 (Liu Bingxun''s account, to Wen Dongxian''s words; Mao''s view, after the note, the book''s own). Made public: 1997 (Liu Bingxun''s article, as [[w.yang-jisheng-mubei]], II, 762 n.49 cites it). To check: Liu Bingxun 劉秉勛, 《毛澤東決定解散農村食堂的來由》, *Bainian chao* 百年潮 1997 no. 6 (cited by [[w.yang-jisheng-mubei]], II, 762 n.49). See [[cal.1960-09.china]]. Names: Mao Zedong.'
+    n: '[[w.yang-jisheng-mubei]], II, 762 n.49 (Liu Bingxun''s account, to Wen Dongxian''s words; Mao''s view, after the note, the book''s own). Made public: 1997 (Liu Bingxun''s article, as [[w.yang-jisheng-mubei]], II, 762 n.49 cites it). To check: Liu Bingxun 劉秉勛, 《毛澤東決定解散農村食堂的來由》, *Bainian chao* 百年潮 1997 no. 6 (cited by [[w.yang-jisheng-mubei]], II, 762 n.49). See [[cal.1960-09.china]]. Names: Mao Zedong, Wang Jifan.'
     src:
       c: 47be2638
       rows:
         - 'w.yang-jisheng-mubei II, 762: all'
         - 'via x.1997.liu-bingxun-mao-zedong-jueding-jiesan-nongcun-shitang-de-laiyou-bainian-chao-1997-6: A-D'
-    tags: [polity:prc, vis:only:prc, name:mao-zedong]
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:wang-jifan]
   - id: cal.1960-10.china-leadership-15
     when: Oct.
     date: 1960-10

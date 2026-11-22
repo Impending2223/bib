@@ -46,6 +46,10 @@ STYLE
     list has one, "Area Redevelopment Act, Pub. L. No. 87-27, [75 Stat. 47](…) (1961)"), short after, "Pub. L. No.
     88-152, [77 Stat. at 271](…)" (_line_firsts); a case or treaty with the name the line gives it and its year,
     "*Baker v. Carr*, [369 U.S. 186](…) (1962)".
+10. The other pages that show a calendar entry's line and note (the owner, Nov. 21, 2026: "Could the Names and Threads
+    entries also get the full footnote treatment?") set them by apply() and notes_html(), the calendar's own: the
+    Threads pages through the calendar's renderer (threads.py), the Names' Life paragraphs (lives.py), whose anchors
+    carry the person's key (an entry two persons of one page give, each its own).
 """
 import collections
 import re
@@ -405,6 +409,22 @@ def build(series, e, _probe=False):
         return stats
     rest = with_unread(series, e, " ".join(claims.note_parts(e.get("n"))[1]))
     return groups, notes, rest
+
+
+def apply(series, e, c, body, render, anchor=None):
+    """A calendar entry's line with its footnotes, on any page that shows it (the calendar's, the Names', the
+    Threads'): (body, fns), body the rendered line `c` with each run's mark placed (STYLE 1, 6; render, a unit
+    rendered as the line is) and fns as build() gives it; (body, None) where the entry is one block (STYLE 2) or its
+    units are not found in order. anchor: the marks' and the footnotes' anchors' base (the entry's id; a page that may
+    show the entry twice gives each its own)."""
+    fns = build(series, e)
+    if not fns:
+        return body, None
+    us = claims.units(c)
+    if len(us) != len(claims.units(e.get("c") or "")):
+        return body, None
+    marked = place(body, render, us, fns[0], anchor or e["id"])
+    return (body, None) if marked is None else (marked, fns)
 
 
 def _line_firsts(series):
