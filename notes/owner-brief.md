@@ -1249,3 +1249,5 @@ hnghhh" (a revised R22, corrections / additions / rewording, proposed; awaiting 
 "yes to the three-sentence R22.
 
 as for the rest, my spouse says "this is too many words. I don't understand this until I see the data model. Claude, what's the data model?""
+
+"How do you make sure the text of the claim is consistent with respect to the ellipses?" (answered: frames carrying the elided element, claims inside them)
