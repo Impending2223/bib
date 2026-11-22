@@ -1129,3 +1129,9 @@ But I'd like to see the language of the current rule and your proposed rule befo
 "I'm a little confused as to the basis of your judgment or the agent's judgment as to what merits a reading run, and why this item doesn't.
 
 I've lost track of whether and where the Wansui made it into our queue, but doesn't this stand or fall by the same principle? And didn't we rule the Wansui in? Or am I mistaken there?"
+
+## Nov. 22, 2026 (Pacific)
+
+"Immediate.
+
+Claude, does our current entry on Cuba of February 7, 1960, accurately reflect its source?" (with page images of Fursenko and Naftali, *One Hell of a Gamble*, the Mikoyan visit, nn. 13–18, and the rendered entry)
