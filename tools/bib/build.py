@@ -275,9 +275,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         from . import cjk
         cj = cjk.Entry(series, e).claim(cjk_done)   # its Names: persons' characters, its quoted originals (STYLE 3, 7)
     fns = None                          # the citation block as footnotes (tools/bib/footnotes.py)
-    if lst.kind == "calendar" and not is_thread and isinstance(statement, str):
-        from . import footnotes
-        fns = footnotes.build(series, e)
+    footed = lst.kind == "calendar" and not is_thread and isinstance(statement, str)
     pl = lst.kind == "calendar" and not is_thread   # its permalink mark (tools/bib/permalink.py, STYLE 1)
     pl_inlined = False
     statements = store.as_list(statement)
@@ -293,15 +291,9 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
             if spans is not None:
                 body = spans
                 extra_attrs += ' data-cl="1"'
-            if fns:                       # the marks, after each run's last claim (footnotes.py, STYLE 1, 6)
-                from . import claims as _cl
-                us = _cl.units(c)
-                marked = footnotes.place(body, _unit_renderer(series, text_html, year), us, fns[0], e["id"]) \
-                    if len(us) == len(_cl.units(e.get("c") or "")) else None
-                if marked is None:
-                    fns = None            # not found in order: the note as before (STYLE 2)
-                else:
-                    body = marked
+            if footed:                    # the marks, after each run's last claim (footnotes.py, STYLE 1, 2, 6)
+                from . import footnotes
+                body, fns = footnotes.apply(series, e, c, body, _unit_renderer(series, text_html, year))
         if pl and i == len(statements) - 1:   # inline: after the text, outside its claims and footnote marks
             body2 = permalink.in_text(body, e["id"])
             pl_inlined, body = body2 != body, body2
@@ -336,6 +328,8 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         dates = calsplit.thread_dates_html(lst, slug, index_members(lst).get(slug, []), esc)   # its own (STYLE 15)
         if dates:
             parts.append(f'<span class="n">{dates}</span>')
+        from . import threads           # its page of all its entries (tools/bib/threads.py, STYLE 8)
+        parts.append(threads.index_link(lst, slug))
         parts.append(contents.thread_slot(lst, slug))   # its tables and maps (tools/bib/contents.py, STYLE 4)
         parts.append(see_also_html(lst, e))
     else:
@@ -404,8 +398,9 @@ def ghost_thread_html(lst, e):
     anchor = calsplit.thread_anchor(lst, slug, half)
     name = f'<a class="thgl" href="{calsplit.href(lst, half or 1, mine[0]["id"])}">{esc(thread_name(lst, slug))}</a>'
     dates = calsplit.thread_dates_html(lst, slug, members, esc)
+    from . import threads               # its page of all its entries (tools/bib/threads.py, STYLE 8)
     return (f'<li id="{attr(anchor)}" class="thg" data-thread="{attr(slug)}"><span class="s">{name}</span>'
-            f'<span class="n">{dates}</span></li>')
+            f'<span class="n">{dates}</span>{threads.index_link(lst, slug)}</li>')
 
 
 def redirect_thread_html(lst, e):
@@ -573,7 +568,8 @@ def cal_index(lst):
     hid = f"{lst.key}--{th.id}" if series_mode else th.id
     out.append(f'<h2 id="{attr(hid)}" data-short="Threads">Threads</h2>')
     out.append('<p class="logic">Each thread, and the years it has entries in, each year linked to the thread in that '
-               'year\'s index: its statement there, and its dates. Alphabetical.</p>')
+               'year\'s index: its statement there, and its dates; and its page of all its entries, <a href="threads.html">Threads</a>. '
+               'Alphabetical.</p>')
     out.append('<ol class="e thx">')
     for slug, te in lst.threads().items():
         ms = members.get(slug)
@@ -588,13 +584,17 @@ def cal_index(lst):
         name = (f'<a href="{attr(calsplit.href(lst, hs[0], calsplit.thread_anchor(lst, slug, hs[0])))}">'
                 f'{esc(thread_name(lst, slug))}</a>')
         ghost = ' class="thg"' if lst.is_ghost(slug) else ""
+        from . import threads           # its page of all its entries (tools/bib/threads.py, STYLE 8)
         out.append(f'<li id="{attr(lst.key)}.thread.{attr(slug)}"{ghost}><span class="s">{name}</span>'
-                   f'<span class="n">{links}.</span></li>')
+                   f'<span class="n">{links}.</span>{threads.index_link(lst, slug)}</li>')
     out.append("</ol>")
     return out
 
 
-def build_list(series, key, linker=None, half=None):
+def list_text_html(series, key, linker=None):
+    """The renderer a list's own page uses for its text, text_html(t, field): a link to an entry of the list bare
+    ('#id'), to another list's its label alone; the persons a line names linked to their name entries. The calendar's
+    pages and the Threads pages (tools/bib/threads.py) render with it."""
     lst = series.lists[key]
     from . import namelinks
 
@@ -624,6 +624,12 @@ def build_list(series, key, linker=None, half=None):
             t = linker.names_markup(t, key, internal=False, tags=tags)
         return to_html(t, resolve)
     text_html.entry = None
+    return text_html
+
+
+def build_list(series, key, linker=None, half=None):
+    lst = series.lists[key]
+    text_html = list_text_html(series, key, linker)
 
     data = page_text(lst, half)
     main = [f"<h1>{esc(data['h1'])}</h1>"]
@@ -1260,6 +1266,9 @@ def build_series(series):
     home.append('<h2 id="home--nx" data-short="Names">Names</h2><ol class="e lists"><li><a class="lk" href="#nx--top">'
                 f'<span class="ab">Names</span><span class="tt">Every person across the {NUMBERS.get(len(series.lists), len(series.lists))} lists, merged</span></a>'
                 f'<span class="r">{n_people} names</span></li></ol>')
+    home.append('<h2 id="home--th" data-short="Threads">Threads</h2><ol class="e lists"><li><a class="lk" href="threads.html">'
+                '<span class="ab">Threads</span><span class="tt">A page a thread: every entry of the thread, in the calendar\'s order</span></a>'
+                f'<span class="r">{sum(1 for l in series.lists.values() if l.kind == "calendar" for s, te in l.threads().items() if not te.get("see") and index_members(l).get(s))} threads</span></li></ol>')
     home.append('<h2 id="home--wk" data-short="Works">Works</h2><ol class="e lists"><li><a class="lk" href="works.html">'
                 '<span class="ab">Works</span><span class="tt">Every work the series cites, A to Z, with where it is cited</span></a>'
                 f'<span class="r">{len(series.works.cards):,} works</span></li></ol>')
@@ -1371,7 +1380,8 @@ def retired(fam):
 def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
-    PAGES = ("series", "congress", "executive", "names", "lives", "works", "indochina", "indicators", "ebooks", "feeds")
+    PAGES = ("series", "congress", "executive", "names", "lives", "works", "indochina", "indicators", "ebooks", "feeds",
+             "threads")
     for l in series.lists.values():       # the calendar's later parts are built with its first
         if which and l.kind == "calendar" and calsplit.cfg(l) and which in [p["page"] for p in calsplit.cfg(l)]:
             which = l.key
@@ -1522,6 +1532,13 @@ def run(series, which=None):
         from . import lives
         linker = linker or Linker(series)
         for name, page in lives.pages(series, linker, os.path.join(TEMPLATES, "list.html")).items():
+            path = os.path.join(OUT, name)
+            smart.write(path, routed(page))
+            written.append(path)
+    if which in (None, "threads") and cal is not None:   # a page a thread (tools/bib/threads.py)
+        from . import threads
+        linker = linker or Linker(series)
+        for name, page in threads.pages_(series, linker, os.path.join(TEMPLATES, "list.html")):
             path = os.path.join(OUT, name)
             smart.write(path, routed(page))
             written.append(path)

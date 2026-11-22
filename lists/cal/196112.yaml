@@ -109,7 +109,7 @@ entries:
       c: a331ab0d
       rows:
         - 'w.yang-shangkun-riji II, 95: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-01.china-leadership-3
     when: Dec. 1
@@ -122,7 +122,7 @@ entries:
       c: '47191383'
       rows:
         - 'w.yang-shangkun-riji II, 95: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-01.china-leadership-4
     when: Dec. 1
@@ -221,7 +221,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 95: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1674: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gu-zhuoxin]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-02.china-leadership-3
     when: Dec. 2
@@ -234,7 +234,7 @@ entries:
       c: c1846f14
       rows:
         - 'w.yang-shangkun-riji II, 95: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hou-weiyu, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-02.china-leadership-4
     when: Dec. 2
@@ -246,7 +246,7 @@ entries:
       c: 496a2b90
       rows:
         - 'w.yang-shangkun-riji II, 95–96: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-bozhao, name:wang-minqing]
   - id: cal.1961-12-02.china-leadership-5
     when: Dec. 2
     date: '1961-12-02'
@@ -276,7 +276,7 @@ entries:
     thread: soviet-union-leadership
     c: 'A meeting at Khrushchev''s on the plan and the budget for 1962, kept as Protocol 7: Kozlov, Kosygin, Mikoyan, Rudnev, Ustinov, Ignatov, Novikov, Korovushkin, Garbuzov, Dymshits. Said: herbicides, tractors and corn combines for Siberia; better to sell goods for currency than gold; the Ust-Ilim and Sayan stations; plants perhaps bought in West Germany or Britain on credit; wages to be held down; the income tax''s abolition spread over the years, "Не бояться объяснить народу" (not to fear explaining to the people); students'' stipends cut.'
     n: 'Protocol 7, item 19. [[w.prezidium-tsk-kpss-1954]], I, 529–31 (Malin''s notes), 1092–93 nn.1–8 (the session of Dec. 15; the postponed tax cuts, Sept. 22, 1961). Made public: 2003. Names: Khrushchev, Kozlov, Kosygin, Mikoyan, Rudnev, Ustinov, Ignatov, Novikov, Korovushkin, Garbuzov, Dymshits.'
-    tags: [name:khrushchev-nikita-s, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:ignatov-nikolai-g, name:dymshits-veniamin-e, polity:ussr, polity:frg, polity:uk, name:ustinov-dmitriy-f]
+    tags: [name:khrushchev-nikita-s, name:kozlov-frol-r, name:kosygin-aleksei, name:mikoyan-anastas, name:ignatov-nikolai-g, name:dymshits-veniamin-e, polity:ussr, polity:frg, polity:uk, name:ustinov-dmitriy-f, name:garbuzov, name:korovushkin, name:rudnev]
   - id: cal.1961-12-03.china-leadership
     when: Dec. 3
     date: '1961-12-03'
@@ -284,12 +284,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking 北京, the airport. Deng Xiaoping 邓小平 meets Sharkey 夏基, general secretary of the Australian Communist Party, passing through Peking from the Twenty-second Congress.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1674 (Dec. 3, 1961). Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1674 (Dec. 3, 1961). Names: Deng Xiaoping, Sharkey.'
     src:
       c: 98edf340
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1674: all'
-    tags: [polity:prc, name:deng-xiaoping]
+    tags: [polity:prc, name:deng-xiaoping, name:sharkey]
   - id: cal.1961-12-03.china-leadership-2
     when: Dec. 3
     date: '1961-12-03'
@@ -397,7 +397,7 @@ entries:
       c: 5f03b714
       rows:
         - 'w.yang-shangkun-riji II, 96: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:lai-zulie, name:yang-shangkun]
     time_range:
       - 1961-12-03T22:00Z
       - 1961-12-04T04:00Z
@@ -416,7 +416,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 96: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1674: ?'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:sharkey, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-04.soviet-union
     when: Dec. 4
@@ -430,7 +430,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 96: all'
         - 'w.guan-vietnamese-communists-relations-with 206: ?'
-    tags: [polity:ussr]
+    tags: [polity:ussr, name:yang-shangkun]
   - id: cal.1961-12-04.china-leadership-4
     when: Dec. 4
     date: '1961-12-04'
@@ -594,7 +594,7 @@ entries:
       c: 5940608d
       rows:
         - 'w.yang-shangkun-riji II, 96: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-05.china-leadership-4
     when: Dec. 5
@@ -606,7 +606,7 @@ entries:
       c: cffaf762
       rows:
         - 'w.yang-shangkun-riji II, 96: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:lai-zulie, name:tian-chou, name:yang-shangkun]
     time_range:
       - 1961-12-05T04:00Z
       - 1961-12-05T10:00Z
@@ -767,12 +767,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京, the airport. Deng Xiaoping 邓小平 sees Sharkey 夏基 off.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1674 (Dec. 6, 1961). See [[cal.1961-12-03.china-leadership]]. Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1674 (Dec. 6, 1961). See [[cal.1961-12-03.china-leadership]]. Names: Deng Xiaoping, Sharkey.'
     src:
       c: ffab44ef
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1674: all'
-    tags: [polity:prc, name:deng-xiaoping]
+    tags: [polity:prc, name:deng-xiaoping, name:sharkey]
   - id: cal.1961-12-06.china-leadership-5
     when: Dec. 6
     date: '1961-12-06'
@@ -940,7 +940,7 @@ entries:
       c: 254ecb4f
       rows:
         - 'w.yang-shangkun-riji II, 97: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:lai-zulie, name:yang-shangkun]
     time_range:
       - 1961-12-06T22:00Z
       - 1961-12-07T04:00Z
@@ -959,32 +959,32 @@ entries:
       c: e0252050
       rows:
         - 'w.yang-shangkun-riji II, 97: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-07.china-leadership-5
     when: Dec. 7
     date: '1961-12-07'
     thread: china-leadership
     c: 'Zhang Shiying 張士英 writes Wu De 吳德, Zhao Lin 趙林 and the Jilin 吉林 provincial committee''s secretariat a report on developing ginseng production in Fusong 撫松 county 《撫松縣發展人參生產問題的報告》. Since 1958, with grain self-sufficiency stressed in the ginseng districts and growing left chiefly to the state and the communes, output has fallen sharply: 81,741 jin in 1957 in the chief area, 23,518 in 1961, 28.77 percent. Members'' incomes have fallen and people leave the ginseng districts hoping to find a place with good farming where they can eat their fill.'
-    n: '[[w.yang-jisheng-mubei]], I, 354. Made public: 2008. To check: Zhang Shiying 張士英, letter to Wu De 吳德, Zhao Lin 趙林 and the Jilin Provincial Committee''s secretariat, "Fusong xian fazhan renshen shengchan wenti de baogao" 《撫松縣發展人參生產問題的報告》, Dec. 7, 1961 (cited by [[w.yang-jisheng-mubei]], I, 354 n.34).'
+    n: '[[w.yang-jisheng-mubei]], I, 354. Made public: 2008. To check: Zhang Shiying 張士英, letter to Wu De 吳德, Zhao Lin 趙林 and the Jilin Provincial Committee''s secretariat, "Fusong xian fazhan renshen shengchan wenti de baogao" 《撫松縣發展人參生產問題的報告》, Dec. 7, 1961 (cited by [[w.yang-jisheng-mubei]], I, 354 n.34). Names: Wu De, Zhao Lin.'
     src:
       c: fe88352e
       rows:
         - 'w.yang-jisheng-mubei I, 354: all'
         - 'via w.yang-jisheng-mubei I, 354 n.34: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wu-de, name:zhao-lin]
   - id: cal.1961-12-07.china-leadership-6
     when: Dec. 7
     date: '1961-12-07'
     place: houma
     thread: china-leadership
     c: Houma 侯马, Shanxi. Peng Zhen 彭真 talks with some twenty local leading cadres in the conference room of the municipal government's reception office; at 5 p.m., with Tao Lujia 陶鲁笳, by special train to Yuncheng 运城 East station, hearing the Yuncheng county committee's first secretary and the county head in the carriage.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 162. The page''s note: Tao Lujia, first secretary of the Shanxi committee (IV, 162). The time is the morning talk''s. The words: 上午……下午五时 (IV, 162). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 162. The page''s note: Tao Lujia, first secretary of the Shanxi committee (IV, 162). The time is the morning talk''s. The words: 上午……下午五时 (IV, 162). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen, Tao Lujia.'
     src:
       c: '36586215'
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 162: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:tao-lujia]
     time_range:
       - 1961-12-06T22:00Z
       - 1961-12-07T04:00Z
@@ -1062,12 +1062,12 @@ entries:
     thread: china
     also: [soviet-union]
     c: 'Liu Changsheng, head of the Chinese trade-union delegation and vice-chairman of the All-China Federation of Trade Unions, speaking at the Fifth Congress of the World Federation of Trade Unions: the struggle against imperialism and for world peace has become the broadest mass struggle of this age. To oppose the common enemy the workers'' unity at home and abroad must be strengthened.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 211 (Dec. 8, 1961). Check: the speaker is 刘长胜 in the book.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 211 (Dec. 8, 1961). Check: the speaker is 刘长胜 in the book. Names: Liu Changsheng.'
     src:
       c: bb665cbd
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 211: all'
-    tags: [polity:prc]
+    tags: [polity:prc, name:liu-changsheng]
   - id: cal.1961-12-08.china-leadership-2
     when: Dec. 8
     date: '1961-12-08'
@@ -1078,7 +1078,7 @@ entries:
       c: be3814f6
       rows:
         - 'w.yang-shangkun-riji II, 97: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:he-jun, name:wang-zhen, name:yang-shangkun]
     time_range:
       - 1961-12-07T22:00Z
       - 1961-12-08T04:00Z
@@ -1095,7 +1095,7 @@ entries:
       c: f60d6554
       rows:
         - 'w.yang-shangkun-riji II, 97: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1961-12-08T04:00Z
       - 1961-12-08T10:00Z
@@ -1159,7 +1159,7 @@ entries:
     place: peking
     thread: china-leadership
     c: At the Changguanlou, a building near the Peking Zoo, the Peking Party committee's task force under Deng Tuo reviews central documents under nine heads; by a Cultural Revolution account it produces a 20,000-word "Extracts from central documents," prefaced by a note dating the directives that caused problems to the two upsurges of the Leap.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 182–83; [[w.macfarquhar-origins-of-the-cultural]], III, 257 (Deng Tuo''s leading part in compiling the Peking Party''s dossiers on the Leap at the Changguanlou); [[w.yang-jisheng-tiandi-fanfu]], I, 59 (by the Red Guard exposé, Jan. 1961: Peng Zhen has Xiang Ziming 項子明, secretary-general of the Peking committee, organize and Deng Tuo guide some ten men, ten days and more, in going through the Center''s documents since 1958; nearly 20,000 characters, "Extracts from central documents," sent to Peng as top secret; the note: December 1961, not January, at the Secretariat''s behest, for the Seven Thousand Cadres Conference); [[w.dikotter-cultural-revolution]], 11 n.10 (as rumoured: a couple of months before the conference Peng Zhen has Deng Tuo compile a dossier of documents critical of the famine and of Mao''s part in it, with Liu Shaoqi''s and Deng Xiaoping''s knowledge; meetings away from view in a palace in the Peking Zoo). Made public: 1997. Check: the analysis the book cites (III, 257) places the Changguanlou compilation in November. To check: [[w.jingxin-dongpode-gongting-zhenbian]], 1–13 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.5a); [[w.dangdai-zhongguode-beijing-contemporary]], 1, 155–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.5b); [[w.wang-beijing-shi-wenhua-da]], 215–33, 220 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7a); [[w.peng-zei-huairou-diaocha]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7b); Survey of China Mainland Press, Supplement 187 (translation of a Red Guard newspaper article), 23–36 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7c); Survey of China Mainland Press, No. 4014 (translation of a Red Guard newspaper article), 1–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7d); Joint Publications Research Service, No. 42,966, 92–101 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7e); [[w.center-for-chinese-research]], IV, 1760–74 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7f); 〈大野心家、大陰謀家彭真罪惡史〉, comp. by the Red Flag Corps of the Peking committee''s organs (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 59 n.38a); Liu Zheng 劉政 and Zhang Chunsheng 張春生, 〈從歷史的幾個重大關節看彭真和毛澤東的關係〉, *Lingdaozhe* 《領導者》, 2013, no. 4, 149 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 59 n.38c); Pitman B. Potter, *From Leninist Discipline to Socialist Legalism: Peng Zhen on Law and Political Authority in the PRC* (2003), 18, 85–86 (cited by [[w.dikotter-cultural-revolution]], 11 n.10). Check: the days; they are those of a hostile Cultural Revolution account.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 182–83; [[w.macfarquhar-origins-of-the-cultural]], III, 257 (Deng Tuo''s leading part in compiling the Peking Party''s dossiers on the Leap at the Changguanlou); [[w.yang-jisheng-tiandi-fanfu]], I, 59 (by the Red Guard exposé, Jan. 1961: Peng Zhen has Xiang Ziming 項子明, secretary-general of the Peking committee, organize and Deng Tuo guide some ten men, ten days and more, in going through the Center''s documents since 1958; nearly 20,000 characters, "Extracts from central documents," sent to Peng as top secret; the note: December 1961, not January, at the Secretariat''s behest, for the Seven Thousand Cadres Conference); [[w.dikotter-cultural-revolution]], 11 n.10 (as rumoured: a couple of months before the conference Peng Zhen has Deng Tuo compile a dossier of documents critical of the famine and of Mao''s part in it, with Liu Shaoqi''s and Deng Xiaoping''s knowledge; meetings away from view in a palace in the Peking Zoo). Made public: 1997. Check: the analysis the book cites (III, 257) places the Changguanlou compilation in November. To check: [[w.jingxin-dongpode-gongting-zhenbian]], 1–13 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.5a); [[w.dangdai-zhongguode-beijing-contemporary]], 1, 155–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.5b); [[w.wang-beijing-shi-wenhua-da]], 215–33, 220 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7a); [[w.peng-zei-huairou-diaocha]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7b); Survey of China Mainland Press, Supplement 187 (translation of a Red Guard newspaper article), 23–36 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7c); Survey of China Mainland Press, No. 4014 (translation of a Red Guard newspaper article), 1–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7d); Joint Publications Research Service, No. 42,966, 92–101 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7e); [[w.center-for-chinese-research]], IV, 1760–74 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.7f); 〈大野心家、大陰謀家彭真罪惡史〉, comp. by the Red Flag Corps of the Peking committee''s organs (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 59 n.38a); Liu Zheng 劉政 and Zhang Chunsheng 張春生, 〈從歷史的幾個重大關節看彭真和毛澤東的關係〉, *Lingdaozhe* 《領導者》, 2013, no. 4, 149 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 59 n.38c); Pitman B. Potter, *From Leninist Discipline to Socialist Legalism: Peng Zhen on Law and Political Authority in the PRC* (2003), 18, 85–86 (cited by [[w.dikotter-cultural-revolution]], 11 n.10). Check: the days; they are those of a hostile Cultural Revolution account. Names: Deng Tuo.'
     src:
       c: ec83edcd
       rows:
@@ -1176,7 +1176,7 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 59: ?'
         - 'w.dikotter-cultural-revolution 11 n.10: ?'
         - 'via x.2003.potter-from-leninist-discipline-to-socialist-legalism: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-tuo]
   - id: cal.1961-12-09.china
     when: Dec. 9
     date: '1961-12-09'
@@ -1199,7 +1199,7 @@ entries:
       c: a788edaf
       rows:
         - 'w.yang-shangkun-riji II, 97: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-liqun, name:he-jun, name:yang-shangkun]
     time_range:
       - 1961-12-08T22:00Z
       - 1961-12-09T04:00Z
@@ -1216,7 +1216,7 @@ entries:
       c: b10e2598
       rows:
         - 'w.yang-shangkun-riji II, 98: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hou-weiyu, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-09.china-leadership-4
     when: Dec. 9
@@ -1238,12 +1238,12 @@ entries:
     place: linfen
     thread: china-leadership
     c: 'Linfen 临汾, Shanxi. Peng Zhen 彭真, with Tao Lujia 陶鲁笳, sees the Guojiazhuang 郭家庄 brigade, Jinnan''s high-yield wheat; afternoon, at the Jinnan prefectural committee, hears Zhao Yuting 赵雨亭, Feng Peiwen 冯培文 and others: a goal to rouse the masses; water works (the great droughts of 1877, 1900 and 1929), Quwo''s reservoir of 1957 praised; pigs; cadres who erred helped, not changed by batches, "人非圣贤，孰能无过," much came from the Center; the Shanxi tour ends that evening.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 163. The page''s note: Zhao Yuting, first secretary of the Jinnan prefectural committee (IV, 163). The time is the morning''s. The words: 上午……下午 (IV, 163). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 163. The page''s note: Zhao Yuting, first secretary of the Jinnan prefectural committee (IV, 163). The time is the morning''s. The words: 上午……下午 (IV, 163). Made public: 2012. See [[cal.1961-12-03.china-leadership-2]]. Names: Peng Zhen, Tao Lujia.'
     src:
       c: c524e3ce
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 163: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:tao-lujia]
     time_range:
       - 1961-12-08T22:00Z
       - 1961-12-09T04:00Z
@@ -1358,7 +1358,7 @@ entries:
       c: 9ee9e305
       rows:
         - 'w.yang-shangkun-riji II, 98: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kang-yimin, name:yang-shangkun]
     time_range:
       - 1961-12-10T14:00Z
       - 1961-12-10T16:00Z
@@ -1545,12 +1545,12 @@ entries:
     place: shijiazhuang
     thread: china-leadership
     c: 'Shijiazhuang 石家庄, Hebei 河北. Peng Zhen 彭真 calls the leaders of Gaocheng 藁城, Xin''an 新安, Jin 晋县, Pingshan 平山, Ding 定县, Shenze 深泽, Anguo 安国, Tang 唐县, Xinle 新乐 and other counties of the Shijiazhuang and Baoding prefectures on the size of production teams and distribution: in Shanxi 30 percent for brigade accounting with "three contracts and a bonus," 30 for team accounting, 40 for "big contracting"; on the 14th: ownership must be stable to protect production, "人不由己，物不自主"; Zhoujiazhuang 周家庄 and Geng Changsuo 耿长锁 for the brigade; the mass line, local conditions, no change until clear.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 163–164. The time and place of the closing talk: the afternoon of the 14th (IV, 163). Made public: 2012. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 163–164. The time and place of the closing talk: the afternoon of the 14th (IV, 163). Made public: 2012. Names: Peng Zhen, Geng Changsuo.'
     src:
       c: 380196e5
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 163–164: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:geng-changsuo]
   - id: cal.1961-12-11.africa
     when: Dec. 11
     date: '1961-12-11'
@@ -1621,8 +1621,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhou Enlai at the capital's meeting of artists for the 60th year of the Peking opera actor Zhou Xinfang on stage, and sees his performance.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 444 (Dec. 12, 1961). Names: Zhou Enlai.'
-    tags: [polity:prc, name:zhou-enlai]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 444 (Dec. 12, 1961). Names: Zhou Enlai, Zhou Xinfang.'
+    tags: [polity:prc, name:zhou-enlai, name:zhou-xinfang]
   - id: cal.1961-12-12.china-leadership-2
     when: Dec. 12
     date: '1961-12-12'
@@ -1651,7 +1651,7 @@ entries:
       c: 681ffcf5
       rows:
         - 'w.yang-shangkun-riji II, 99: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-yuchao, name:yang-shangkun]
     time_range:
       - 1961-12-12T04:00Z
       - 1961-12-12T10:00Z
@@ -1779,13 +1779,13 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: 'Chen Yi, receiving the Pakistani ambassador, Pir Ali Mohammed Rashdi: China has never meddled in the internal disputes and internal affairs of Asian and African countries. On disputes between Asian–African states, such as India and Pakistan over Kashmir, China has always held that they should be settled by friendly consultation for a fair and reasonable result, and will not change its stand because India today is hostile to China. On the dispute between Afghanistan and Pakistan, China has kept silent on it, to hope the two sister countries reach a fair and reasonable solution by consultation. But where an Asian–African state is in a dispute with imperialism and colonialism, China does not mediate but stands firmly with the anti-imperialist, anti-colonial Asian, African and Latin American countries.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 211 (Dec. 13, 1961); [[w.chen-yi-nianpu]], 902 (Dec. 13, 1961, morning; Rashdi calls on Chen Yi). Made public: 2001. Names: Chen Yi. Check: the ambassador is 毕尔·拉希迪 in the book, Pir Ali Mohammed Rashdi as the calendar has him ([[cal.1962-03-08.china-leadership-2]]); whether the talk was reported then.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 211 (Dec. 13, 1961); [[w.chen-yi-nianpu]], 902 (Dec. 13, 1961, morning; Rashdi calls on Chen Yi). Made public: 2001. Names: Chen Yi, Pir Ali Mohammed Rashdi. Check: the ambassador is 毕尔·拉希迪 in the book, Pir Ali Mohammed Rashdi as the calendar has him ([[cal.1962-03-08.china-leadership-2]]); whether the talk was reported then.'
     src:
       c: ff22244a
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 211: all'
         - 'w.chen-yi-nianpu 902: ?'
-    tags: [polity:prc, polity:pakistan, polity:india, polity:afghanistan, vis:only:prc+pakistan, name:chen-yi]
+    tags: [polity:prc, polity:pakistan, polity:india, polity:afghanistan, vis:only:prc+pakistan, name:chen-yi, name:pir-ali-mohammed-rashdi]
     time_range:
       - 1961-12-12T22:00Z
       - 1961-12-13T04:00Z
@@ -1803,7 +1803,7 @@ entries:
       c: 5e8471ae
       rows:
         - 'w.yang-shangkun-riji II, 99: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tan-zhengwen, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-13.china-leadership-5
     when: Dec. 13
@@ -1815,7 +1815,7 @@ entries:
       c: a5c926a1
       rows:
         - 'w.yang-shangkun-riji II, 99: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1961-12-13T04:00Z
       - 1961-12-13T10:00Z
@@ -2096,7 +2096,7 @@ entries:
       c: dd323078
       rows:
         - 'w.yang-shangkun-riji II, 99: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:he-jun, name:lai-zulie, name:yang-shangkun]
     time_range:
       - 1961-12-13T22:00Z
       - 1961-12-14T04:00Z
@@ -2112,7 +2112,7 @@ entries:
       c: 613ad5ea
       rows:
         - 'w.yang-shangkun-riji II, 99: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:liu-lantao, name:yang-shangkun, name:zeng-san]
     time_range:
       - 1961-12-14T04:00Z
       - 1961-12-14T10:00Z
@@ -2128,7 +2128,7 @@ entries:
       c: 7ce1fdd8
       rows:
         - 'w.yang-shangkun-riji II, 99: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-xin, name:yang-shangkun]
     time_range:
       - 1961-12-14T14:00Z
       - 1961-12-14T16:00Z
@@ -2321,7 +2321,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 177: all'
         - 'w.mao-zedong-zhuan V, ch. 69 n.3: B'
         - 'via w.mao-zedong-zhuan V, ch.69 n.3: B'
-    tags: [polity:prc, name:mao-zedong, name:li-xiannian, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:li-xiannian, vis:only:prc, name:yao-yilin]
   - id: cal.1961-12-15.china-leadership-3
     when: Dec. 15
     date: '1961-12-15'
@@ -2334,7 +2334,7 @@ entries:
       c: 7a52c8a9
       rows:
         - 'w.yang-shangkun-riji II, 99: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tan-zhengwen, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-15.china-leadership-4
     when: Dec. 15
@@ -2346,7 +2346,7 @@ entries:
       c: aab4e4ad
       rows:
         - 'w.yang-shangkun-riji II, 99: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1961-12-14T22:00Z
       - 1961-12-15T04:00Z
@@ -2362,7 +2362,7 @@ entries:
       c: 7736c069
       rows:
         - 'w.yang-shangkun-riji II, 99: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1961-12-15T14:00Z
       - 1961-12-15T16:00Z
@@ -2374,13 +2374,13 @@ entries:
     place: wuxi
     thread: china-leadership
     c: 'Wuxi 无锡. Mao 毛泽东 hears Jiang Weiqing 江渭清 of Jiangsu 江苏 and Zeng Xisheng 曾希圣 of Anhui 安徽. Jiang: this year''s grain plan for the villages is below last year''s, but with private plots and the odd plots 70 percent of places are better off, 15 percent the same and 15 percent in want; 94 percent of the levy in, cotton over the plan, pigs, fowl, foreign trade and finance well. Hearing good news after a year of bad, Mao stays three days, not one. Mao: look on the bright side; the faults are thousands but can be overcome; no need to be gloomy; "after long lying, time to get up"; the basic accounting unit to go down quickly, which is no retreat; the next year to put all seven fronts, industry, farming, commerce, schools, army, government and Party, on track; contracting output to households 包产到户 is not to be done.'
-    n: '[[w.mao-zedong-zhuan]], V, ch. 69 n.4. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). Check: Mubei (I, 334; II, 830, no note) has Mao at Wuxi in Dec. 1961 ask Zeng Xisheng 曾希聖, in the tone of consultation, whether, production recovering, the responsibility fields should be changed back; Zeng: the masses have just tasted the sweetness and might keep them a while; Mao said nothing then. To check: Relayed record of Mao Zedong''s 毛泽东 remarks on hearing Jiang Weiqing 江渭清 and others, Dec. 20, 1961 (传达记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.4); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. Check: the day of these remarks, Dec. 14 or 15; the record is dated Dec. 20. See [[cal.1961-12-14.china-leadership-7]]. Names: Mao Zedong.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 69 n.4. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). Check: Mubei (I, 334; II, 830, no note) has Mao at Wuxi in Dec. 1961 ask Zeng Xisheng 曾希聖, in the tone of consultation, whether, production recovering, the responsibility fields should be changed back; Zeng: the masses have just tasted the sweetness and might keep them a while; Mao said nothing then. To check: Relayed record of Mao Zedong''s 毛泽东 remarks on hearing Jiang Weiqing 江渭清 and others, Dec. 20, 1961 (传达记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.4); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. Check: the day of these remarks, Dec. 14 or 15; the record is dated Dec. 20. See [[cal.1961-12-14.china-leadership-7]]. Names: Mao Zedong, Jiang Weiqing, Zeng Xisheng.'
     src:
       c: 4ee8482a
       rows:
         - 'w.mao-zedong-zhuan V, ch. 69: all'
         - 'via w.mao-zedong-zhuan V, ch.69 n.4: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:jiang-weiqing, name:zeng-xisheng]
   - id: cal.1961-12-15.china-leadership-7
     when: Dec. 15
     date: '1961-12-15'
@@ -2412,13 +2412,13 @@ entries:
     thread: vietnam-diplomacy
     also: [china-leadership]
     c: 'Hanoi. Ye Jianying''s military goodwill mission arrives: Liu Yalou, Xiao Hua, Yang Chengwu, Huang Yongsheng, Xiao Xiangrong, Vice Adm. Wu Ruilin, Maj. Gen. Lei Yingfu, Sr. Col. Liu Zhongkui. Met by Giáp, Văn Tiến Dũng, Song Hào, Hoàng Văn Thái, Trần Văn Trà, Trần Quý Hai, Phạm Kiệt, Hoàng Văn Tiến and Trần Duy Hưng, Hanoi''s mayor. Evening, the banquets: Giáp and Ye, China and Vietnam "as close as lips and teeth."'
-    n: '[[w.guan-vietnamese-communists-relations-with]], 210–211; [[w.liu-jixian-ye-jianying-nianpu]], II, 893 (Dec. 15–31, 1961; Ye Jianying 叶剑英 leads the Chinese military goodwill delegation 中国军事友好代表团 to Hanoi 河内 for the Vietnam People''s Army''s seventeenth anniversary). To check: Peking Review IV, no. 51, Dec. 22, 1961, 16–17 (cited by [[w.guan-vietnamese-communists-relations-with]], 210 n.29a); FO 371/166713, DV 103110/2, 3 January 1962, from Hanoi to Foreign Office: visit of the Chinese military delegation to North Vietnam (cited by [[w.guan-vietnamese-communists-relations-with]], 210 n.29b). Names: Ye Jianying, Huang Yongsheng, Xiao Xiangrong, Võ Nguyên Giáp, Văn Tiến Dũng, Hoàng Văn Thái, Trần Văn Trà.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 210–211; [[w.liu-jixian-ye-jianying-nianpu]], II, 893 (Dec. 15–31, 1961; Ye Jianying 叶剑英 leads the Chinese military goodwill delegation 中国军事友好代表团 to Hanoi 河内 for the Vietnam People''s Army''s seventeenth anniversary). To check: Peking Review IV, no. 51, Dec. 22, 1961, 16–17 (cited by [[w.guan-vietnamese-communists-relations-with]], 210 n.29a); FO 371/166713, DV 103110/2, 3 January 1962, from Hanoi to Foreign Office: visit of the Chinese military delegation to North Vietnam (cited by [[w.guan-vietnamese-communists-relations-with]], 210 n.29b). Names: Ye Jianying, Huang Yongsheng, Xiao Xiangrong, Võ Nguyên Giáp, Văn Tiến Dũng, Hoàng Văn Thái, Trần Văn Trà, Liu Yalou, Xiao Hua, Yang Chengwu, Song Hào.'
     src:
       c: 9d483984
       rows:
         - 'via x.1962-01-03.fo-166713-dv-103110-2: ?'
         - 'w.liu-jixian-ye-jianying-nianpu II, 893: ?'
-    tags: [polity:prc, polity:drv, name:ye-jianying, name:huang-yongsheng, name:xiao-xiangrong, name:vo-nguyen-giap, name:van-tien-dung, name:hoang-van-thai, name:tran-van-tra, ok:fields-time]
+    tags: [polity:prc, polity:drv, name:ye-jianying, name:huang-yongsheng, name:xiao-xiangrong, name:vo-nguyen-giap, name:van-tien-dung, name:hoang-van-thai, name:tran-van-tra, ok:fields-time, name:liu-yalou, name:song-hao, name:xiao-hua, name:yang-chengwu]
   - id: cal.1961-12-15.china-leadership-9
     when: Dec. 15
     date: '1961-12-15'
@@ -2553,14 +2553,14 @@ entries:
     place: stockholm
     thread: china
     c: 'Stockholm. Liao Chengzhi, head of the Chinese delegation, speaking at the World Peace Council''s meeting: the national liberation movements of Asia, Africa and Latin America are a vast force in opposing imperialism and defending world peace. Defending peace depends on the broad popular masses, on the head-on struggle against imperialism, and on the unity of every peaceful force.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 212 (Dec. 16, 1961); [[w.friedman-shadow-cold-war]], 89 (at the World Peace Council at Stockholm, after Gaza, the Chinese with East Asian and African delegations loudly accuse the USSR and the council of betraying the cause of national liberation). To check: Report of Safronov on AAPSO session in Gaza to SCSCAA Presidium, January 8, 1962, GARF f.9540 o.1 d.109, 103 (cited by [[w.friedman-shadow-cold-war]], 89 n.132).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 212 (Dec. 16, 1961); [[w.friedman-shadow-cold-war]], 89 (at the World Peace Council at Stockholm, after Gaza, the Chinese with East Asian and African delegations loudly accuse the USSR and the council of betraying the cause of national liberation). To check: Report of Safronov on AAPSO session in Gaza to SCSCAA Presidium, January 8, 1962, GARF f.9540 o.1 d.109, 103 (cited by [[w.friedman-shadow-cold-war]], 89 n.132). Names: Liao Chengzhi.'
     src:
       c: 9d6bd5cb
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 212: all'
         - 'w.friedman-shadow-cold-war 89: ?'
         - 'via x.1962-01-08.scscaa-presidium-session-january-8-1962: ?'
-    tags: [polity:prc]
+    tags: [polity:prc, name:liao-chengzhi]
   - id: cal.1961-12-16.china-leadership-5
     when: Dec. 16
     date: '1961-12-16'
@@ -2571,7 +2571,7 @@ entries:
       c: 7858a9f0
       rows:
         - 'w.yang-shangkun-riji II, 100: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-12-15T22:00Z
       - 1961-12-16T04:00Z
@@ -2587,7 +2587,7 @@ entries:
       c: b69a6402
       rows:
         - 'w.yang-shangkun-riji II, 100: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-li, name:yang-shangkun]
     time_range:
       - 1961-12-16T04:00Z
       - 1961-12-16T10:00Z
@@ -2717,13 +2717,13 @@ entries:
     place: jinan
     thread: china-leadership
     c: 'Jinan 济南. Mao 毛泽东, left Wuxi 无锡 on Dec. 16 at dusk, hears Tan Qilong 谭启龙, Pei Mengfei 裴孟飞, Bai Rubing 白如冰 and Su Yiran 苏毅然 of the Shandong 山东 committee. A team of thirty families may be too big; teams of a dozen, three or five households in the hills: twenty families is already large. The beasts have stopped dying and the tools no longer break; six years of great egalitarianism are over, and to pay by work is socialism; to care for the needy has communism in it.'
-    n: '[[w.mao-zedong-zhuan]], V, ch. 69 n.5. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Summary record of Mao Zedong''s 毛泽东 interjections on hearing Tan Qilong 谭启龙 and others of the Shandong committee, Dec. 17, 1961 (插话记录摘要) (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.5); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-12-15.china-leadership-6]]. Names: Mao Zedong.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 69 n.5. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Summary record of Mao Zedong''s 毛泽东 interjections on hearing Tan Qilong 谭启龙 and others of the Shandong committee, Dec. 17, 1961 (插话记录摘要) (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.5); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-12-15.china-leadership-6]]. Names: Mao Zedong, Tan Qilong, Pei Mengfei.'
     src:
       c: e4024395
       rows:
         - 'w.mao-zedong-zhuan V, ch. 69: all'
         - 'via w.mao-zedong-zhuan V, ch.69 n.5: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:pei-mengfei, name:tan-qilong]
   - id: cal.1961-12-17.china-leadership-2
     when: Dec. 17
     date: '1961-12-17'
@@ -2854,7 +2854,7 @@ entries:
       c: 38ce87a0
       rows:
         - 'w.yang-shangkun-riji II, 100: all'
-    tags: [polity:prc, name:luo-ruiqing, vis:only:prc]
+    tags: [polity:prc, name:luo-ruiqing, vis:only:prc, name:yang-shangkun, name:zhu-ming]
     time_range:
       - 1961-12-18T04:00Z
       - 1961-12-18T06:00Z
@@ -2871,7 +2871,7 @@ entries:
       c: 58b6443f
       rows:
         - 'w.yang-shangkun-riji II, 100: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-runmin, name:wu-zhenying, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-18.china-leadership-3
     when: Dec. 18
@@ -2884,7 +2884,7 @@ entries:
       c: cc1f87cd
       rows:
         - 'w.yang-shangkun-riji II, 101: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:liu-lantao, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-18.laos
     when: Dec. 18
@@ -3097,7 +3097,7 @@ entries:
       c: 228fef3d
       rows:
         - 'w.yang-shangkun-riji II, 101: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1961-12-19T04:00Z
       - 1961-12-19T10:00Z
@@ -3113,7 +3113,7 @@ entries:
       c: 07f9e1b1
       rows:
         - 'w.yang-shangkun-riji II, 101: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-runmin, name:wang-dongxing, name:yang-shangkun]
     time_range:
       - 1961-12-19T11:00Z
       - 1961-12-19T14:00Z
@@ -3125,13 +3125,13 @@ entries:
     place: tianjin
     thread: china-leadership
     c: Tianjin 天津. Mao 毛泽东 hears Liu Zihou 刘子厚, Yan Dakai 阎达开 and Wan Xiaotang 万晓塘 of the Hebei 河北 and Tianjin committees. This year is better than last, and turning; the villages, industry (seventy articles) and commerce (a hundred articles) too. The trouble will not last long, a year more and it is past. In the meeting he will speak of the situation.
-    n: '[[w.mao-zedong-zhuan]], V, ch. 69 n.6. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Record of Mao Zedong''s 毛泽东 interjections on hearing Liu Zihou 刘子厚 and others, Dec. 19, 1961 (插话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.6); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-12-17.china-leadership]]. Names: Mao Zedong.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 69 n.6. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Record of Mao Zedong''s 毛泽东 interjections on hearing Liu Zihou 刘子厚 and others, Dec. 19, 1961 (插话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 69 n.6); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1961-12-17.china-leadership]]. Names: Mao Zedong, Liu Zihou, Yan Dakai, Wan Xiaotang.'
     src:
       c: b2166c24
       rows:
         - 'w.mao-zedong-zhuan V, ch. 69: all'
         - 'via w.mao-zedong-zhuan V, ch.69 n.6: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:liu-zihou, name:wan-xiaotang, name:yan-dakai]
   - id: cal.1961-12-19.vietnam-diplomacy
     when: Dec. 19
     date: '1961-12-19'
@@ -3306,7 +3306,7 @@ entries:
       c: 9a59315e
       rows:
         - 'w.yang-shangkun-riji II, 101: all'
-    tags: [polity:prc, name:chen-boda, vis:only:prc]
+    tags: [polity:prc, name:chen-boda, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-12-19T22:00Z
       - 1961-12-20T04:00Z
@@ -3330,8 +3330,8 @@ entries:
     date: '1961-12-20'
     thread: china-leadership
     c: Sukarni 苏卡尼, the Indonesian Ambassador, calls on Chen Yi 陈毅, who says the Chinese government and people back Indonesia's struggle to free West Irian 西伊里安.
-    n: '[[w.chen-yi-nianpu]], 902. The words: 上午 (902). Made public: 1995. Names: Chen Yi.'
-    tags: [polity:prc, polity:indonesia, name:chen-yi, vis:only:prc+indonesia]
+    n: '[[w.chen-yi-nianpu]], 902. The words: 上午 (902). Made public: 1995. Names: Chen Yi, Sukarni.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, vis:only:prc+indonesia, name:sukarni]
     time_range:
       - 1961-12-19T22:00Z
       - 1961-12-20T04:00Z
@@ -3537,7 +3537,7 @@ entries:
       c: f3c43bc7
       rows:
         - 'w.yang-shangkun-riji II, 101: all'
-    tags: [polity:prc, name:chen-boda, vis:only:prc]
+    tags: [polity:prc, name:chen-boda, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-12-20T22:00Z
       - 1961-12-21T04:00Z
@@ -3671,13 +3671,13 @@ entries:
     thread: china-leadership
     also: [soviet-union, foreign-aid]
     c: Zhou Enlai, Dec. 22–24, with Li Xiannian and Li Qiang on aid to Albania, and twice receives the Albanian government's economic delegation under Kellezi, Vice-Chairman of the Council of Ministers.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 446 (Dec. 22, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 213 (Dec. 21, 1961–Jan. 19, 1962; Kellezi, Vice-Chairman of the Albanian Council of Ministers, leads an economic delegation; Mao, Liu, Zhou and Chen Yi each receive its members). Made public: 1997. Names: Zhou Enlai, Li Xiannian.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 446 (Dec. 22, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 213 (Dec. 21, 1961–Jan. 19, 1962; Kellezi, Vice-Chairman of the Albanian Council of Ministers, leads an economic delegation; Mao, Liu, Zhou and Chen Yi each receive its members). Made public: 1997. Names: Zhou Enlai, Li Xiannian, Li Qiang.'
     src:
       c: 67ac11c7
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 446: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 213: A'
-    tags: [polity:prc, polity:albania, name:zhou-enlai, name:li-xiannian, vis:only:prc+albania]
+    tags: [polity:prc, polity:albania, name:zhou-enlai, name:li-xiannian, vis:only:prc+albania, name:li-qiang]
   - id: cal.1961-12-22.china-leadership-2
     when: Dec. 22
     date: '1961-12-22'
@@ -3688,7 +3688,7 @@ entries:
       c: 5d464577
       rows:
         - 'w.yang-shangkun-riji II, 102: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-12-22T04:00Z
       - 1961-12-22T10:00Z
@@ -3799,7 +3799,7 @@ entries:
       c: 708c40b4
       rows:
         - 'w.yang-shangkun-riji II, 102: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-12-22T22:00Z
       - 1961-12-23T04:00Z
@@ -3816,7 +3816,7 @@ entries:
       c: d9a16f12
       rows:
         - 'w.yang-shangkun-riji II, 102: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-23.china-leadership-5
     when: Dec. 23
@@ -3845,8 +3845,8 @@ entries:
     thread: vietnam-diplomacy
     also: [china-leadership]
     c: Hanoi. Gen. Xiao Hua at the People's Army's General Political Department, Dec. 23 and 24.
-    n: '[[w.guan-vietnamese-communists-relations-with]], 212.'
-    tags: [polity:prc, polity:drv]
+    n: '[[w.guan-vietnamese-communists-relations-with]], 212. Names: Xiao Hua.'
+    tags: [polity:prc, polity:drv, name:xiao-hua]
   - id: cal.1961-12-24.latin-america
     when: Dec. 24
     date: '1961-12-24'
@@ -3892,14 +3892,14 @@ entries:
       c: 5de58d04
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 178: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:zhang-xianpeng]
   - id: cal.1961-12-24.china-leadership-2
     when: Dec. 24
     date: '1961-12-24'
     thread: china-leadership
     c: Chen Yi 陈毅 at the airport welcomes back to Peking 北京 Zhang Hanfu 章汉夫, acting head of the Chinese delegation to the enlarged Geneva conference, Qiao Guanhua 乔冠华 of the delegation and some of its staff.
-    n: '[[w.chen-yi-nianpu]], 903. The words: 中午 (903). Names: Chen Yi, Qiao Guanhua.'
-    tags: [polity:prc, name:chen-yi, name:qiao-guanhua, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 903. The words: 中午 (903). Names: Chen Yi, Qiao Guanhua, Zhang Hanfu.'
+    tags: [polity:prc, name:chen-yi, name:qiao-guanhua, ok:fields-place, name:zhang-hanfu]
     time_range:
       - 1961-12-24T04:00Z
       - 1961-12-24T06:00Z
@@ -3911,8 +3911,8 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Chen Yi 陈毅 at the airport welcomes Hoàng Văn Hoan 黄文欢, special adviser to the DRV delegation to the enlarged Geneva conference, Trần Công Tường 陈公祥 of the delegation and some of its staff, in Peking 北京 on their way home.
-    n: '[[w.chen-yi-nianpu]], 903. The words: 中午 (903). Names: Chen Yi, Trần Công Tường.'
-    tags: [polity:prc, polity:drv, name:chen-yi, name:tran-cong-tuong, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 903. The words: 中午 (903). Names: Chen Yi, Trần Công Tường, Hoàng Văn Hoan.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:tran-cong-tuong, ok:fields-place, name:hoang-van-hoan]
     time_range:
       - 1961-12-24T04:00Z
       - 1961-12-24T06:00Z
@@ -3925,8 +3925,8 @@ entries:
     thread: vietnam-diplomacy
     also: [china-leadership]
     c: Hanoi. Yang Chengwu, Lei Yingfu and Liu Zhongkui with Văn Tiến Dũng; evening, Maj. Gen. Bằng Giang's "big banquet" for the mission.
-    n: '[[w.guan-vietnamese-communists-relations-with]], 212. To check: William S. Turley, "Origins and Development of Communist Military Leadership in Vietnam," Armed Forces and Society 3, no. 2 (Feb. 1977), 227 (cited by [[w.guan-vietnamese-communists-relations-with]], 212 n.34). Names: Văn Tiến Dũng.'
-    tags: [polity:prc, polity:drv, name:van-tien-dung, ok:fields-time]
+    n: '[[w.guan-vietnamese-communists-relations-with]], 212. To check: William S. Turley, "Origins and Development of Communist Military Leadership in Vietnam," Armed Forces and Society 3, no. 2 (Feb. 1977), 227 (cited by [[w.guan-vietnamese-communists-relations-with]], 212 n.34). Names: Văn Tiến Dũng, Yang Chengwu, Lei Yingfu.'
+    tags: [polity:prc, polity:drv, name:van-tien-dung, ok:fields-time, name:lei-yingfu, name:yang-chengwu]
   - id: cal.1961-12-24.china-leadership-4
     when: Dec. 24
     date: '1961-12-24'
@@ -3947,8 +3947,8 @@ entries:
     place: changsha
     thread: china-leadership
     c: Peng Dehuai 彭德怀 leaves Changsha 长沙 by train for Peking 北京. On the train he tells Jin Shi 金石 to send the five reports to the Center through Yang Shangkun 杨尚昆.
-    n: '[[w.peng-dehuai-nianpu]], 770. Made public: 1998. Names: Peng Dehuai.'
-    tags: [polity:prc, vis:only:prc@B, name:peng-dehuai]
+    n: '[[w.peng-dehuai-nianpu]], 770. Made public: 1998. Names: Peng Dehuai, Jin Shi, Yang Shangkun.'
+    tags: [polity:prc, vis:only:prc@B, name:peng-dehuai, name:jin-shi, name:yang-shangkun]
   - id: cal.1961-12-25.china-leadership-2
     when: Dec. 25
     date: '1961-12-25'
@@ -3957,13 +3957,13 @@ entries:
     thread: china-leadership
     also: [indonesia, china]
     c: 'Zhou Enlai receives Indonesia''s Ambassador, Sukarni: the first task is the national economy; industry for its growth; an economy not freed of colonial control is not independence; China''s line is agriculture the base, industry the lead. On Indonesia''s citizens of Chinese descent, Indonesia should persuade them; the overseas Chinese China will persuade to help Indonesia''s industry.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 447 (Dec. 25, 1961); [[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 25, 1961; 下午1时30分, 中南海西花厅). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 447 (Dec. 25, 1961); [[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 25, 1961; 下午1时30分, 中南海西花厅). Made public: 1993. Names: Zhou Enlai, Sukarni.'
     src:
       c: e19e7a56
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 447: ?'
         - 'w.zhou-enlai-waijiao-huodong 327: A'
-    tags: [polity:prc, polity:indonesia, name:zhou-enlai, vis:only:prc+indonesia]
+    tags: [polity:prc, polity:indonesia, name:zhou-enlai, vis:only:prc+indonesia, name:sukarni]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-25.china-leadership-3
     when: Dec. 25
@@ -3973,13 +3973,13 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi, laos]
     c: Peking, Xihuating. Zhou Enlai receives Hoàng Văn Hoan, special adviser to the DRV delegation to the enlarged Geneva conference, and gives him dinner.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 25, 1961; 晚6时40分); [[w.chen-yi-nianpu]], 903 (Dec. 25, 1961, evening; Chen Yi with Zhou receives Hoàng Văn Hoan and Trần Công Tường and gives them a banquet). Made public: 1993. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 327 (Dec. 25, 1961; 晚6时40分); [[w.chen-yi-nianpu]], 903 (Dec. 25, 1961, evening; Chen Yi with Zhou receives Hoàng Văn Hoan and Trần Công Tường and gives them a banquet). Made public: 1993. Names: Zhou Enlai, Hoàng Văn Hoan.'
     src:
       c: ef31576d
       rows:
         - 'w.zhou-enlai-waijiao-huodong 327: all'
         - 'w.chen-yi-nianpu 903: ?'
-    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv]
+    tags: [polity:prc, polity:drv, name:zhou-enlai, vis:only:prc+drv, name:hoang-van-hoan]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-25.china-leadership
     when: Dec. 25
@@ -4004,7 +4004,7 @@ entries:
       c: 946f931a
       rows:
         - 'w.yang-shangkun-riji II, 102: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-25.china-leadership-5
     when: Dec. 25
@@ -4029,7 +4029,7 @@ entries:
       c: 6532ec63
       rows:
         - 'w.yang-shangkun-riji II, 103: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-12-25T04:00Z
       - 1961-12-25T10:00Z
@@ -4043,12 +4043,12 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: The Huairen Tang 怀仁堂, 7:30 to 11 p.m. Yang Shangkun 杨尚昆, at Zhou Xinfang's 周信芳 *Wulong yuan* 《乌龙院》, meets Hoàng Văn Hoan 黄文欢.
-    n: '[[w.yang-shangkun-riji]], II, 103 (Dec. 25, 1961; note 1: Hoàng, of the Lao Động Party''s Politburo and vice-chairman of the National Assembly''s Standing Committee). The words: 7时半到11时 (II, 103). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hoàng Văn Hoan.'
+    n: '[[w.yang-shangkun-riji]], II, 103 (Dec. 25, 1961; note 1: Hoàng, of the Lao Động Party''s Politburo and vice-chairman of the National Assembly''s Standing Committee). The words: 7时半到11时 (II, 103). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hoàng Văn Hoan, Zhou Xinfang.'
     src:
       c: 502d4965
       rows:
         - 'w.yang-shangkun-riji II, 103: all'
-    tags: [polity:prc, vis:only:prc+drv]
+    tags: [polity:prc, vis:only:prc+drv, name:hoang-van-hoan, name:yang-shangkun, name:zhou-xinfang]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-25.china-leadership-8
     when: Dec. 25
@@ -4145,7 +4145,7 @@ entries:
       c: 39394a76
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 179: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:zhou-shizhao]
   - id: cal.1961-12-26.china-leadership-3
     when: Dec. 26
     date: '1961-12-26'
@@ -4156,7 +4156,7 @@ entries:
       c: 8aeca7c3
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 180: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:zang-kejia]
   - id: cal.1961-12-26.china-leadership-4
     when: Dec. 26
     date: '1961-12-26'
@@ -4167,7 +4167,7 @@ entries:
       c: b88eaca2
       rows:
         - 'w.yang-shangkun-riji II, 103: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-diantao, name:yang-shangkun]
     time_range:
       - 1961-12-25T22:00Z
       - 1961-12-26T04:00Z
@@ -4185,7 +4185,7 @@ entries:
       c: 61b0585c
       rows:
         - 'w.yang-shangkun-riji II, 103: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-26.china-leadership-6
     when: Dec. 26
@@ -4193,12 +4193,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Deng Xiaoping 邓小平, on Liao Chengzhi''s 廖承志 and Liu Ningyi''s 刘宁一 report on the World Peace Council: "Chairman: this struggle reflects some trends after the Twenty-second Congress; proposed to print it for the work conference; if you agree, to Shangkun."'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1679 (Dec. 26, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1679 (Dec. 26, 1961). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Liao Chengzhi, Liu Ningyi.'
     src:
       c: a38e8ffd
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1679: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:liao-chengzhi, name:liu-ningyi]
   - id: cal.1961-12-26.soviet-union
     when: Dec. 26
     date: '1961-12-26'
@@ -4258,7 +4258,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 181–182: all'
         - 'via x.1961-12-27.cc-notice-on-propaganda-in-support-of-the-us-party-s-struggle-against-persecution: all'
         - 'via x.1962-01-15.cc-statement-condemning-the-us-government-s-anti-communist-atrocities-and-supporting-the-us-party: all'
-    tags: [polity:prc, name:mao-zedong, name:lu-dingyi, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:lu-dingyi, vis:only:prc, name:yang-shangkun]
   - id: cal.1961-12-27.china-leadership-2
     when: Dec. 27
     date: '1961-12-27'
@@ -4282,7 +4282,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 103: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1679–1680: ?'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-27.china-leadership-4
     when: Dec. 27
@@ -4295,7 +4295,7 @@ entries:
       c: f4cb16f1
       rows:
         - 'w.yang-shangkun-riji II, 103: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-27.china-leadership-5
     when: Dec. 27
@@ -4308,7 +4308,7 @@ entries:
       c: b12d6d5c
       rows:
         - 'w.yang-shangkun-riji II, 103: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:feng-xuan, name:kong-yuan, name:li-runmin, name:luo-qingchang, name:wu-zhenying, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12-27.laos
     when: Dec. 27
@@ -4333,7 +4333,7 @@ entries:
     also: [china]
     c: 'The Presidium. Ponomarev''s report to the ideological meeting not to be named in the account or published. On the CPSU, the Chinese party and the Albanians: document No. 2192 and the answer to Aidit weak; why the ambassador was recalled to be explained; perhaps a letter to the Chinese Central Committee: "Почему мы на радость врагам должны расход[иться]?" (why should we part, to our enemies'' joy?). Resolved: three departments of the Central Committee to rework the instructions to the ambassadors where China is represented and to draft letters to the Chinese party, to Aidit and to the party organizations. On the economic agreement of June 19: Lysov to answer Li Qiang''s statement of Dec. 2; on Chervonenko''s proposal Skachkov to lead the talks; a joint communiqué, saying China asked for them.'
     n: 'Protocol 9, items XXVIII (I; XXXVIII in III) and XXII. [[w.prezidium-tsk-kpss-1954]], I, 531–32 (Malin''s notes), 1093 nn.1–2; III, 222–32 (P 9/XXXVIII; P 9/XXII, Lysov''s statement, the draft order, Skachkov''s note), 992 nn.1–7. Made public: 2003, 2008. Names: Ponomarev, Aidit, Lysov, Li Qiang, Chervonenko, Skachkov.'
-    tags: [name:chervonenko-stepan-v, polity:ussr, polity:prc, name:ponomarev-boris-n, name:aidit-dipa-nusantara]
+    tags: [name:chervonenko-stepan-v, polity:ussr, polity:prc, name:ponomarev-boris-n, name:aidit-dipa-nusantara, name:li-qiang, name:lysov, name:skachkov]
   - id: cal.1961-12-28.vietnam-hanoi
     when: Dec. 28
     date: '1961-12-28'
@@ -4378,18 +4378,18 @@ entries:
       c: c73f7c97
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 370: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:xiang-ming]
   - id: cal.1961-12-28.china-leadership-3
     when: Dec. 28
     date: '1961-12-28'
     thread: china-leadership
     c: 'Mao Zedong 毛泽东, on Liao Chengzhi''s 廖承志 and Liu Ningyi''s 刘宁一 report on the World Peace Council, sent by Deng Xiaoping 邓小平: "Agreed. Shangkun to act."'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1679 (Dec. 28, 1961). The words: 上午 (III, 1679). Made public: 2009 (the nianpu). See [[cal.1961-12-26.china-leadership-6]]. Names: Mao Zedong, Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1679 (Dec. 28, 1961). The words: 上午 (III, 1679). Made public: 2009 (the nianpu). See [[cal.1961-12-26.china-leadership-6]]. Names: Mao Zedong, Deng Xiaoping, Liao Chengzhi, Liu Ningyi.'
     src:
       c: 772e8553
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1679: all'
-    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc, name:liao-chengzhi, name:liu-ningyi]
     time_range:
       - 1961-12-27T22:00Z
       - 1961-12-28T04:00Z
@@ -4417,7 +4417,7 @@ entries:
       c: 0dcb0903
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 185–186: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:qian-changzhao, name:wu-yanyin, name:xu-yefu]
   - id: cal.1961-12-29.china-leadership-2
     when: Dec. 29
     date: '1961-12-29'
@@ -4454,7 +4454,7 @@ entries:
       c: aed45cea
       rows:
         - 'w.yang-shangkun-riji II, 104: all'
-    tags: [polity:prc, name:peng-dehuai, vis:only:prc]
+    tags: [polity:prc, name:peng-dehuai, vis:only:prc, name:jin-shi, name:yang-shangkun]
     time_range:
       - 1961-12-29T04:00Z
       - 1961-12-29T10:00Z
@@ -4550,7 +4550,7 @@ entries:
       c: e8b5a2b4
       rows:
         - 'w.yang-shangkun-riji II, 104: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:yang-shangkun]
     time_range:
       - 1961-12-29T22:00Z
       - 1961-12-30T04:00Z
@@ -4566,7 +4566,7 @@ entries:
       c: 2638cb3f
       rows:
         - 'w.yang-shangkun-riji II, 104: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1961-12-30T04:00Z
       - 1961-12-30T10:00Z
@@ -4583,7 +4583,7 @@ entries:
       c: 6aeffefd
       rows:
         - 'w.yang-shangkun-riji II, 105: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:yan-mingfu, name:yang-shangkun]
   - id: cal.1961-12-30.china-leadership-5
     when: Dec. 30
     date: '1961-12-30'
@@ -5232,21 +5232,21 @@ entries:
     at: before 1961-12-01
     thread: china-leadership
     c: Peng Zhen tells a subordinate of the Secretariat's investigation of the central documents of recent years and orders a Peking task force under Deng Tuo to make a like review.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 182–83. Made public: 1997. To check: [[w.jingxin-dongpode-gongting-zhenbian]], 1–13 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.5a); [[w.dangdai-zhongguode-beijing-contemporary]], 1, 155–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.5b). Names: Peng Zhen. Check: the day; the book says only early December.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 182–83. Made public: 1997. To check: [[w.jingxin-dongpode-gongting-zhenbian]], 1–13 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.5a); [[w.dangdai-zhongguode-beijing-contemporary]], 1, 155–57 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 183 n.5b). Names: Peng Zhen, Deng Tuo. Check: the day; the book says only early December.'
     src:
       c: f0291cea
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 182–83: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 183 n.5a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 183 n.5b: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:deng-tuo]
   - id: cal.1961-12.china-leadership-5
     when: Dec.
     date: 1961-12
     place: wuxi
     thread: china-leadership
     c: 'Wuxi: Mao asks Zeng Xisheng whether the responsibility system should now be abandoned, as production has recovered; Zeng asks leave to continue as it has only just started, and Mao gives no formal prohibition.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 217; [[w.macfarquhar-origins-of-the-cultural]], III, 282 (as early as December 1961 Mao tells Zeng Xisheng confidently that production has recovered); [[w.macfarquhar-origins-of-the-cultural]], III, 282 (Mao is already counting on an agricultural upturn as early as December 1961). Made public: 1997. To check: [[w.zhisui-private-life-of-chairman]], 362 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 217 n.39); [[w.kunchi-60-niandai-zeng-xisheng]], 61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 217 n.40); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1080 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 282 n.117b); [[w.ren-gongheguo-zhongda-shijian-jishi]], 3, 72 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 282 n.126a); [[w.quanxing-mao-zedong-wanniande-lilun]], 301 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 282 n.126b). Names: Mao Zedong. Check: the day.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 217; [[w.macfarquhar-origins-of-the-cultural]], III, 282 (as early as December 1961 Mao tells Zeng Xisheng confidently that production has recovered); [[w.macfarquhar-origins-of-the-cultural]], III, 282 (Mao is already counting on an agricultural upturn as early as December 1961). Made public: 1997. To check: [[w.zhisui-private-life-of-chairman]], 362 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 217 n.39); [[w.kunchi-60-niandai-zeng-xisheng]], 61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 217 n.40); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1080 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 282 n.117b); [[w.ren-gongheguo-zhongda-shijian-jishi]], 3, 72 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 282 n.126a); [[w.quanxing-mao-zedong-wanniande-lilun]], 301 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 282 n.126b). Names: Mao Zedong, Zeng Xisheng. Check: the day.'
     src:
       c: ea1859b8
       rows:
@@ -5258,7 +5258,7 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 282: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 282 n.126a: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 282 n.126b: ?'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:zeng-xisheng]
   - id: cal.1961-12.china-leadership-2
     when: Dec., mid
     date: 1961-12
@@ -5353,7 +5353,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 105: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1681: ?'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1961-12.china-leadership-8
     when: Dec.
@@ -5495,12 +5495,12 @@ entries:
     at: before 1961-12-21
     thread: china-leadership
     c: Luo Ruiqing 罗瑞卿, having consulted Mao's secretary Tian Jiaying, disagrees with a section on Mao's genius.
-    n: '[[w.teiwes-tragedy-of-lin-biao]], 195. Made public: 1991 ([[w.yao-luo-ruiqing]]). To check: [[w.yao-luo-ruiqing]], 206 (cited by [[w.teiwes-tragedy-of-lin-biao]], 195 n.59). See [[cal.1961-12.china-leadership-15]]. Names: Luo Ruiqing.'
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 195. Made public: 1991 ([[w.yao-luo-ruiqing]]). To check: [[w.yao-luo-ruiqing]], 206 (cited by [[w.teiwes-tragedy-of-lin-biao]], 195 n.59). See [[cal.1961-12.china-leadership-15]]. Names: Luo Ruiqing, Tian Jiaying.'
     src:
       c: 6b3203ab
       rows:
         - 'w.teiwes-tragedy-of-lin-biao 195: all'
-    tags: [polity:prc, name:luo-ruiqing, vis:only:prc]
+    tags: [polity:prc, name:luo-ruiqing, vis:only:prc, name:tian-jiaying]
   - id: cal.1961-12.china-leadership-18
     when: Dec., end
     date: 1961-12

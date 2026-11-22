@@ -54,7 +54,7 @@ entries:
         - 'w.yang-shangkun-riji I, 468: A, B'
         - 'w.deng-xiaoping-nianpu-1904 III, 1525: ?'
         - 'w.zhu-de-nianpu-xinbian III, 1760: ?'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:lin-biao, name:deng-xiaoping, name:peng-zhen, name:ke-qingshi, name:li-jingquan, name:tao-zhu, vis:only:prc, name:lin-tie, name:ouyang-qin, name:wang-renzhong, name:yang-shangkun, name:zhang-zhongliang]
     variants:
       - unit: A
         witness: w.deng-xiaoping-nianpu-1904
@@ -92,7 +92,7 @@ entries:
       c: 130221a5
       rows:
         - 'w.yang-shangkun-riji I, 468: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
   - id: cal.1960-01-06.china-leadership-4
     when: Jan. 6
     date: '1960-01-06'
@@ -106,7 +106,7 @@ entries:
         - 'w.yang-shangkun-riji I, 468: all'
         - 'via w.yang-shangkun-riji I, 468 n.2: all'
         - 'w.peng-zhen-nianpu-1902 IV, 1: ?'
-    tags: [polity:prc, name:ke-qingshi, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:ke-qingshi, name:peng-zhen, vis:only:prc, name:hu-sheng, name:yang-shangkun]
     time_range:
       - 1960-01-05T22:00Z
       - 1960-01-06T04:00Z
@@ -124,7 +124,7 @@ entries:
       c: dc51c187
       rows:
         - 'w.yang-shangkun-riji I, 468: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-bozhao, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-06.vietnam-hanoi
     when: Jan. 6
@@ -243,7 +243,7 @@ entries:
     thread: soviet-union-leadership
     c: 'The Presidium on Kazakhstan. Brezhnev reports the Secretariat''s review of the republic''s leadership. Belyayev: "Критика в мой адрес правильна, с выводами согласен" (the criticism of me is right, I agree with the conclusions); the republic''s leaders against him: no collegiality, the grain left under the snow. Khrushchev: Belyayev overrated. In the continuation: his report untruthful, his conduct wrong in the Temirtau events; if Brezhnev is not sent, Kunaev first secretary, Rodionov second. Resolved: a plenum of the Kazakh Central Committee, Brezhnev to attend.'
     n: 'Protocol 258, item I. [[w.prezidium-tsk-kpss-1954]], I, 415–18 (Malin''s notes and the continuation of Jan. 7), 1068–69 nn.1–3, 8 (the editors: the Kazakh plenum of Jan. 19 relieved Belyayev, Kunaev elected first secretary, Rodionov second, Brezhnev there); III, 71 (P 258/I). Made public: 2003. Names: Brezhnev, Belyayev, Khrushchev, Kunaev, Rodionov.'
-    tags: [name:brezhnev-leonid, name:belyayev-nikolai-i, name:khrushchev-nikita-s, polity:ussr]
+    tags: [name:brezhnev-leonid, name:belyayev-nikolai-i, name:khrushchev-nikita-s, polity:ussr, name:kunaev]
   - id: cal.1960-01-07.china-leadership
     when: Jan. 7
     date: '1960-01-07'
@@ -301,7 +301,7 @@ entries:
       c: caab000b
       rows:
         - 'w.yang-shangkun-riji I, 468: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:lai-zulie, name:yang-shangkun, name:ye-zilong]
     time_range:
       - 1960-01-06T22:00Z
       - 1960-01-07T04:00Z
@@ -372,14 +372,14 @@ entries:
     thread: soviet-union-leadership
     part_of: cal.1960-01-08.soviet-union-leadership
     c: 'The Presidium on the Council of Ministers'' commission on foreign economic questions and new men for it. Mikoyan proposes Lesechko, Kosygin Kabakov. Khrushchev: Kabakov the stronger for the state, Lesechko for the technical interest. Lesechko chosen.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 419 (Protocol 258, item VIII, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 71–74 (P 258/VIII and the commission''s statute: Mikoyan out of the commission, keeping oversight of foreign trade; Lesechko its chairman, relieved as first deputy chairman of Gosplan; I, 1069 nn.18–19). Made public: 2003. Names: Mikoyan, Kosygin, Khrushchev.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 419 (Protocol 258, item VIII, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 71–74 (P 258/VIII and the commission''s statute: Mikoyan out of the commission, keeping oversight of foreign trade; Lesechko its chairman, relieved as first deputy chairman of Gosplan; I, 1069 nn.18–19). Made public: 2003. Names: Mikoyan, Kosygin, Khrushchev, Lesechko.'
     src:
       c: 384cb437
       rows:
         - 'w.prezidium-tsk-kpss-1954 I, 419: all'
         - 'via x.1960-01-08.presidium-protocol-258: all'
         - 'w.prezidium-tsk-kpss-1954 III, 71–74: A, D'
-    tags: [name:mikoyan-anastas, name:kosygin-aleksei, name:khrushchev-nikita-s]
+    tags: [name:mikoyan-anastas, name:kosygin-aleksei, name:khrushchev-nikita-s, name:lesechko]
   - id: cal.1960-01-08.soviet-union-2
     when: Jan. 8
     date: '1960-01-08'
@@ -414,8 +414,8 @@ entries:
     place: moscow
     thread: soviet-union-leadership
     c: 'The Presidium in session, Protocol 258, continued. Present: Aristov, Brezhnev, Voroshilov, Ignatov, Kirichenko, Kozlov, Kuusinen, Mikoyan, Furtseva, Shvernik, Kosygin, Polyansky, Pospelov.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 419 (Protocol 258, continued, Malin''s notes; the sitting''s date pencilled in over a typed "7"); I, 1069 n.17 (five present: Aristov, Belyaev, Brezhnev, Voroshilov, Ignatov); III, 71–74; III, 975 n.5 (those present). Names: Aristov, Brezhnev, Voroshilov, Ignatov, Kirichenko, Kozlov, Kuusinen, Mikoyan, Furtseva, Shvernik, Kosygin, Polyansky.'
-    tags: [name:aristov-averky-b, name:brezhnev-leonid, name:voroshilov-kliment-e, name:ignatov-nikolai-g, name:kirichenko-aleksei-i, name:kozlov-frol-r, name:kuusinen-otto-v, name:mikoyan-anastas, name:furtseva-yekaterina-a, name:shvernik-nikolai-m, name:kosygin-aleksei, name:polyansky-dmitri-s]
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 419 (Protocol 258, continued, Malin''s notes; the sitting''s date pencilled in over a typed "7"); I, 1069 n.17 (five present: Aristov, Belyaev, Brezhnev, Voroshilov, Ignatov); III, 71–74; III, 975 n.5 (those present). Names: Aristov, Brezhnev, Voroshilov, Ignatov, Kirichenko, Kozlov, Kuusinen, Mikoyan, Furtseva, Shvernik, Kosygin, Polyansky, Pospelov.'
+    tags: [name:aristov-averky-b, name:brezhnev-leonid, name:voroshilov-kliment-e, name:ignatov-nikolai-g, name:kirichenko-aleksei-i, name:kozlov-frol-r, name:kuusinen-otto-v, name:mikoyan-anastas, name:furtseva-yekaterina-a, name:shvernik-nikolai-m, name:kosygin-aleksei, name:polyansky-dmitri-s, name:pospelov]
     time_range:
       - 1960-01-08T06:00Z
       - 1960-01-08T14:00Z
@@ -444,7 +444,7 @@ entries:
       c: c6f89ecf
       rows:
         - 'w.yang-shangkun-riji I, 468: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-07T22:00Z
       - 1960-01-08T11:00Z
@@ -461,7 +461,7 @@ entries:
       c: b9813540
       rows:
         - 'w.yang-shangkun-riji I, 469: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-08T11:00Z
       - 1960-01-08T14:00Z
@@ -478,7 +478,7 @@ entries:
       c: b0e5ffbc
       rows:
         - 'w.yang-shangkun-riji I, 469: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-08T11:00Z
       - 1960-01-08T14:00Z
@@ -674,7 +674,7 @@ entries:
       c: 526bea8e
       rows:
         - 'w.yang-shangkun-riji I, 469: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-09T11:00Z
       - 1960-01-09T14:00Z
@@ -725,7 +725,7 @@ entries:
       c: 856e9e22
       rows:
         - 'w.yang-shangkun-riji I, 469: all'
-    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-10T04:00Z
       - 1960-01-10T10:00Z
@@ -742,7 +742,7 @@ entries:
       c: b3c06042
       rows:
         - 'w.yang-shangkun-riji I, 469: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-jingxian, name:yang-shangkun]
     time_range:
       - 1960-01-10T14:00Z
       - 1960-01-10T16:00Z
@@ -822,7 +822,7 @@ entries:
       c: e4a8d906
       rows:
         - 'w.yang-shangkun-riji I, 469: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tong-xiaopeng, name:wang-jingxian, name:yang-shangkun]
     time_range:
       - 1960-01-11T14:00Z
       - 1960-01-11T16:00Z
@@ -954,7 +954,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 470: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1526: B'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-11T22:00Z
       - 1960-01-12T04:00Z
@@ -971,7 +971,7 @@ entries:
       c: ea0481d6
       rows:
         - 'w.yang-shangkun-riji I, 470: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-liqun]
     time_range:
       - 1960-01-12T04:00Z
       - 1960-01-12T10:00Z
@@ -988,7 +988,7 @@ entries:
       c: 9a5890d0
       rows:
         - 'w.yang-shangkun-riji I, 470: all'
-    tags: [polity:prc, name:tao-zhu, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:tao-zhu, name:li-fuchun, vis:only:prc, name:hu-qiaomu, name:yang-shangkun]
     time_range:
       - 1960-01-12T14:00Z
       - 1960-01-12T16:00Z
@@ -1045,7 +1045,7 @@ entries:
     thread: soviet-union-leadership
     c: 'The Presidium on Gosplan. Back to the proposal of two planning bodies: the Committee (Kuzmin) the long-term plan, Gosplan the annual; Kosygin: the Committee unfit for such work as it stands. Khrushchev''s proposals on planning approved, a commission under Kozlov to propose measures within a month. Out of the protocol, on housing: Voroshilov: the houses badly built, the flats left empty; Khrushchev defends the Central Committee''s decision, the others with him; Kozlov: Voroshilov''s conduct and words "нетоварищескими, нелояльными и возмутительными" (uncomradely, disloyal and outrageous).'
     n: 'Protocol 259. [[w.prezidium-tsk-kpss-1954]], I, 420–21 (Malin''s notes), 1070 nn.1, 3; III, 74–75 (P 259/I). Made public: 2003. Names: Kuzmin, Kosygin, Khrushchev, Kozlov, Voroshilov.'
-    tags: [name:kosygin-aleksei, name:khrushchev-nikita-s, name:kozlov-frol-r, name:voroshilov-kliment-e, polity:ussr]
+    tags: [name:kosygin-aleksei, name:khrushchev-nikita-s, name:kozlov-frol-r, name:voroshilov-kliment-e, polity:ussr, name:kuzmin]
   - id: cal.1960-01-13.vietnam-hanoi
     when: Jan. 13
     date: '1960-01-13'
@@ -1067,7 +1067,7 @@ entries:
         - 'w.zedong-mao-zedong-nianpu IV, Jan. 13, 1960: all'
         - 'w.jianguo-yilai-mao-zedong XV, 10–11: A-C'
         - 'via w.jianguo-yilai-mao-zedong XV, 10 n.1: A-C'
-    tags: [polity:prc, polity:ussr, name:mao-zedong, name:chervonenko-stepan-v, name:khrushchev-nikita-s, vis:only:prc+ussr]
+    tags: [polity:prc, polity:ussr, name:mao-zedong, name:chervonenko-stepan-v, name:khrushchev-nikita-s, vis:only:prc+ussr, name:wu-xiuquan]
   - id: cal.1960-01-13.china-leadership-2
     when: Jan. 13
     date: '1960-01-13'
@@ -1080,13 +1080,13 @@ entries:
     date: '1960-01-13'
     thread: china-leadership
     c: 'Mao, on Wang Heshou''s Jan. 9 letter and the Metallurgy Ministry Party group''s report of Jan. 8 on the small modern-method steel enterprises, the *xiaoyangqun*: "very good", to be printed for the comrades at the enlarged Politburo for reference. The report: over 1,300 groups in regular production, 50,000-odd cubic meters of small blast furnaces, half of the 22 million tons of pig iron made in 1959; 400-odd to be raised into small steelworks, about 100 of them to reach 100,000 to 300,000 tons a year.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XV, 12–13 (Jan. 13, 1960). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Wang Heshou, Party secretary of the Metallurgy Ministry, to Mao Zedong, Jan. 9, 1960, with the ministry Party group''s report of Jan. 8 on the xiaoyangqun (cited by [[w.jianguo-yilai-mao-zedong]], XV, 12 n.1a). Names: Mao Zedong.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 12–13 (Jan. 13, 1960). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Wang Heshou, Party secretary of the Metallurgy Ministry, to Mao Zedong, Jan. 9, 1960, with the ministry Party group''s report of Jan. 8 on the xiaoyangqun (cited by [[w.jianguo-yilai-mao-zedong]], XV, 12 n.1a). Names: Mao Zedong, Wang Heshou.'
     src:
       c: d8b3df42
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 12–13: all'
         - 'via w.jianguo-yilai-mao-zedong XV, 12 n.1a: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:wang-heshou]
   - id: cal.1960-01-13.china-leadership-4
     when: Jan. 13
     date: '1960-01-13'
@@ -1132,7 +1132,7 @@ entries:
       c: cd902ee9
       rows:
         - 'w.yang-shangkun-riji I, 470: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-13T11:00Z
       - 1960-01-13T14:00Z
@@ -1333,7 +1333,7 @@ entries:
       c: a5d4d10a
       rows:
         - 'w.yang-shangkun-riji I, 471: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:chen-pixian, name:yang-shangkun]
     time_range:
       - 1960-01-15T11:00Z
       - 1960-01-15T14:00Z
@@ -1418,7 +1418,7 @@ entries:
       c: 5db6d7a4
       rows:
         - 'w.yang-shangkun-riji I, 471: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:lai-zulie, name:yang-shangkun, name:ye-zilong]
     time_range:
       - 1960-01-16T04:00Z
       - 1960-01-16T10:00Z
@@ -1453,8 +1453,8 @@ entries:
     date: '1960-01-16'
     thread: china-leadership
     c: 'The Center and the State Council 中共中央、国务院 notify the setting up of a Spare-Time Education Committee 业余教育委员会 the State Council''s organ guiding spare-time education 《关于建立业余教育委员会的通知》: Lin Feng 林枫 its chairman; Zhang Jichun 张际春, Liao Luyan 廖鲁言 and Li Jiebo 李颉伯 vice-chairmen; 18 members.'
-    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 15–16 (printed from the *Renmin ribao* of Feb. 23, 1960). Made public: [[w.renmin-ribao]], Feb. 23, 1960.'
-    tags: [polity:prc, vis:only:prc]
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 15–16 (printed from the *Renmin ribao* of Feb. 23, 1960). Made public: [[w.renmin-ribao]], Feb. 23, 1960. Names: Lin Feng, Zhang Jichun, Liao Luyan, Li Jiebo.'
+    tags: [polity:prc, vis:only:prc, name:li-jiebo, name:liao-luyan, name:lin-feng, name:zhang-jichun]
   - id: cal.1960-01-16.china-leadership-7
     when: Jan. 16
     date: '1960-01-16'
@@ -1487,8 +1487,8 @@ entries:
     date: '1960-01-17'
     thread: china-leadership
     c: Zhou Enlai with Shu Tong, Li Baohua and Tan Zhenlin on Shandong's water conservancy.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 279 (Jan. 17, 1960). Made public: 1997. Names: Zhou Enlai, Tan Zhenlin.'
-    tags: [polity:prc, name:zhou-enlai, name:tan-zhenlin, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 279 (Jan. 17, 1960). Made public: 1997. Names: Zhou Enlai, Tan Zhenlin, Shu Tong, Li Baohua.'
+    tags: [polity:prc, name:zhou-enlai, name:tan-zhenlin, vis:only:prc, name:li-baohua, name:shu-tong]
   - id: cal.1960-01-17.china-leadership-4
     when: Jan. 17
     date: '1960-01-17'
@@ -1500,7 +1500,7 @@ entries:
       c: f27d9b29
       rows:
         - 'w.yang-shangkun-riji I, 471: all'
-    tags: [polity:prc, name:ke-qingshi, vis:only:prc]
+    tags: [polity:prc, name:ke-qingshi, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-17T14:00Z
       - 1960-01-17T16:00Z
@@ -1517,7 +1517,7 @@ entries:
       c: f8a0aaad
       rows:
         - 'w.yang-shangkun-riji I, 471: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-bozhao, name:yang-shangkun]
     time_range:
       - 1960-01-17T14:00Z
       - 1960-01-17T16:00Z
@@ -1532,7 +1532,7 @@ entries:
     also: [vietnam-operations, vietnam]
     c: Bến Tre. The rising (Đồng Khởi) begins in three communes, Định Thủy, Phước Hiệp and Bình Khánh, as the enlarged provincial committee, called by Nguyễn Thị Định Jan. 1 at Tân Huề, Mỏ Cày, had decided. Định Thủy up at 8 a.m. Jan. 17, Phước Hiệp free Jan. 19, Bình Khánh at 2 a.m. Jan. 20. By Jan. 24, 47 communes of five districts are up, 22 cleared of the Saigon administration.
     n: '[[w.lich-su-khang-chien-chong-my]], II, 318–23; [[w.guan-vietnamese-communists-relations-with]], 133–134 (the week of Jan. 17–24 of risings in Bến Tre: 47 villages of Mỏ Cày, Giồng Trôm, Châu Thành, Ba Tri and Thạnh Phú at once, held by Jan. 19; the arms taken at Bình Khánh arm three squads; the first company, the 264th; by the army''s history the first use of political and armed struggle together). The time is the first day''s, Định Thủy. To check: [[w.lich-su-quan-doi]], 107–115 (cited by [[w.guan-vietnamese-communists-relations-with]], 133 n.1a); [[w.no-other-road-to]], 59–77 (cited by [[w.guan-vietnamese-communists-relations-with]], 133 n.1b). Names: Nguyễn Thị Định.'
-    tags: [polity:drv]
+    tags: [polity:drv, name:nguyen-thi-dinh]
     time_zone: Asia/Ho_Chi_Minh
   - id: cal.1960-01-17.china-leadership-6
     when: Jan. 17
@@ -1547,8 +1547,8 @@ entries:
     date: '1960-01-17'
     thread: china-leadership
     c: Zhu De 朱德, with Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平 and others, at the banquet given by Soong Ching Ling 宋庆龄.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1761. Made public: 2016. Names: Zhu De, Liu Shaoqi, Deng Xiaoping.'
-    tags: [polity:prc, ok:fields-place, name:zhu-de, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1761. Made public: 2016. Names: Zhu De, Liu Shaoqi, Deng Xiaoping, Song Qingling.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc, name:song-qingling]
   - id: cal.1960-01-18.economy
     when: Jan. 18
     date: '1960-01-18'
@@ -1639,8 +1639,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai replies to Mehmet Shehu, Chairman of the Council of Ministers of Albania: China will meet his request and raise its wheat supply to Albania in 1960 by 30,000 tons.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 279 (Jan. 18, 1960). Made public: 1997. Names: Zhou Enlai.'
-    tags: [polity:prc, polity:albania, name:zhou-enlai, vis:only:prc+albania]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 279 (Jan. 18, 1960). Made public: 1997. Names: Zhou Enlai, Mehmet Shehu.'
+    tags: [polity:prc, polity:albania, name:zhou-enlai, vis:only:prc+albania, name:mehmet-shehu]
   - id: cal.1960-01-18.china-leadership-4
     when: Jan. 18
     date: '1960-01-18'
@@ -1699,7 +1699,7 @@ entries:
       c: 6dd9fcdd
       rows:
         - 'w.yang-shangkun-riji I, 471: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hu-qiaomu, name:li-bozhao, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-18.china-leadership-8
     when: Jan. 18
@@ -1713,7 +1713,7 @@ entries:
       c: 478dae60
       rows:
         - 'w.yang-shangkun-riji I, 471: all'
-    tags: [polity:prc, name:deng-xiaoping, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:li-fuchun, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-18.china-leadership-9
     when: Jan. 18
@@ -1727,7 +1727,7 @@ entries:
       c: c51725fe
       rows:
         - 'w.yang-shangkun-riji I, 471: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-18.china-leadership-10
     when: Jan. 18–20
@@ -1763,8 +1763,8 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Chen Yi 陈毅 at the reception given at the Embassy by Trần Tử Bình 陈子平, the DRV's Ambassador, for the tenth anniversary of diplomatic relations between the DRV and the PRC; speaks.
-    n: '[[w.chen-yi-nianpu]], 801. The words: 下午 (801). Names: Chen Yi.'
-    tags: [polity:prc, polity:drv, name:chen-yi]
+    n: '[[w.chen-yi-nianpu]], 801. The words: 下午 (801). Names: Chen Yi, Trần Tử Bình.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:tran-tu-binh]
     time_range:
       - 1960-01-18T04:00Z
       - 1960-01-18T10:00Z
@@ -2103,7 +2103,7 @@ entries:
       c: 73a2031e
       rows:
         - 'w.yang-shangkun-riji I, 472: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-20.china-leadership-5
     when: Jan. 20
@@ -2118,7 +2118,7 @@ entries:
       c: fe29e749
       rows:
         - 'w.yang-shangkun-riji I, 472: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:an-ziwen, name:liu-lantao, name:yang-shangkun]
   - id: cal.1960-01-20.china-leadership-6
     when: Jan. 20
     date: '1960-01-20'
@@ -2130,7 +2130,7 @@ entries:
       c: e8b68451
       rows:
         - 'w.yang-shangkun-riji I, 472: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
     time_range:
       - 1960-01-20T04:00Z
       - 1960-01-20T10:00Z
@@ -2147,7 +2147,7 @@ entries:
       c: 99c7bcb6
       rows:
         - 'w.yang-shangkun-riji I, 472: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:he-jun, name:yan-mingfu, name:yang-shangkun, name:zhao-zhongyuan]
     time_range:
       - 1960-01-20T11:00Z
       - 1960-01-20T14:00Z
@@ -2158,12 +2158,12 @@ entries:
     date: '1960-01-20'
     thread: china-leadership
     c: 'Deng Xiaoping 邓小平 reads the *Renmin ribao* 人民日报 editorial draft "The new stage of socialist construction" 《社会主义建设的新阶段》, sent by Wu Lengxi 吴冷西: "usable" 可用.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1526 (Jan. 20, 1960). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1526 (Jan. 20, 1960). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Wu Lengxi.'
     src:
       c: b028c632
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1526: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:wu-lengxi]
   - id: cal.1960-01-20.china-leadership-9
     when: Jan. 20
     date: '1960-01-20'
@@ -2300,7 +2300,7 @@ entries:
         - 'w.yang-shangkun-riji I, 472: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1527: B'
         - 'w.peng-zhen-nianpu-1902 IV, 3: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-20T22:00Z
       - 1960-01-21T04:00Z
@@ -2317,7 +2317,7 @@ entries:
       c: 37444c02
       rows:
         - 'w.yang-shangkun-riji I, 472: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-21T04:00Z
       - 1960-01-21T10:00Z
@@ -2334,7 +2334,7 @@ entries:
       c: 8b99201b
       rows:
         - 'w.yang-shangkun-riji I, 472: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:yang-shangkun]
     time_range:
       - 1960-01-21T04:00Z
       - 1960-01-21T10:00Z
@@ -2445,7 +2445,7 @@ entries:
       c: cbb878a9
       rows:
         - 'w.yang-shangkun-riji I, 472: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-22.china-leadership-4
     when: Jan. 22
@@ -2461,7 +2461,7 @@ entries:
       c: 8066fab2
       rows:
         - 'w.yang-shangkun-riji I, 472: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wu-lengxi]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-22.china-leadership-5
     when: Jan. 22
@@ -2646,7 +2646,7 @@ entries:
       c: 360ea8d3
       rows:
         - 'w.yang-shangkun-riji I, 473: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-diantao, name:gong-zirong, name:li-jian, name:liu-huo, name:yang-shangkun, name:zeng-san]
     time_range:
       - 1960-01-22T22:00Z
       - 1960-01-23T04:00Z
@@ -2664,7 +2664,7 @@ entries:
       c: 3081b3d1
       rows:
         - 'w.yang-shangkun-riji I, 473: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wu-lengxi]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-23.china-leadership-6
     when: Jan. 23
@@ -2676,7 +2676,7 @@ entries:
       c: a7e1b0cd
       rows:
         - 'w.yang-shangkun-riji I, 473: all'
-    tags: [polity:prc, name:tao-zhu, vis:only:prc]
+    tags: [polity:prc, name:tao-zhu, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-23T11:00Z
       - 1960-01-23T14:00Z
@@ -2801,7 +2801,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 473: all'
         - 'w.peng-zhen-nianpu-1902 IV, 3: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-24.china-leadership-7
     when: Jan. 24–26
@@ -3024,8 +3024,8 @@ entries:
     date: '1960-01-26'
     thread: china-leadership
     c: 'Zhou Enlai receives and gives a dinner for Puyi and his relatives (Zaitao, Zairen and others): Puyi to study and work at a research institute, a three-year plan after a medical check; his book (*My Early Life*) declares war on the old society, the base not yet firm. Soon after, Zhou Enlai and Guo Moruo arrange for him to work at the Academy of Sciences'' botanical garden.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 283 (Jan. 26, 1960). Made public: 1997. Names: Zhou Enlai.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 283 (Jan. 26, 1960). Made public: 1997. Names: Zhou Enlai, Pu Yi, Zaitao, Guo Moruo.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:guo-moruo, name:pu-yi, name:zaitao]
   - id: cal.1960-01-26.china-leadership-2
     when: Jan. 26
     date: '1960-01-26'
@@ -3084,7 +3084,7 @@ entries:
       c: 1a98ddb7
       rows:
         - 'w.yang-shangkun-riji I, 473: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-26.china-leadership-6
     when: Jan. 26
@@ -3097,7 +3097,7 @@ entries:
       c: 8bbb4c63
       rows:
         - 'w.yang-shangkun-riji I, 473: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hu-qiaomu, name:liu-lantao, name:yang-shangkun]
     time_range:
       - 1960-01-26T04:00Z
       - 1960-01-26T10:00Z
@@ -3120,13 +3120,13 @@ entries:
     date: '1960-01-26'
     thread: china-leadership
     c: 'The Hebei 河北 supervisory committee 省監委 writes the provincial committee of what the committee''s rural rectification office''s inspectors report from Ci 磁縣 county: at the Nankaihe 南開河 team of Shuangmiao 雙廟 commune three mess halls and three households cook dried vegetables as the main food; in one village ten die in half a month; at Wangjiadian 王家店 34 are bedridden and work has stopped, yet the commune and county think the rations ample. Zhang Chengxian 張承先 marks it Feb. 3 for printing to the secretariat.'
-    n: '[[w.yang-jisheng-mubei]], I, 542. Made public: 2008. To check: Hebei Provincial Committee supervisory committee, letter to the provincial committee, Jan. 26, 1960, with Zhang Chengxian''s comment of Feb. 3 to print and send to the secretaries, the rural work department, the finance and trade department and the leaders of prefectures and cities (cited by [[w.yang-jisheng-mubei]], I, 542 n.24). Check: the Feb. 3 comment is a second act, recorded in the note.'
+    n: '[[w.yang-jisheng-mubei]], I, 542. Made public: 2008. To check: Hebei Provincial Committee supervisory committee, letter to the provincial committee, Jan. 26, 1960, with Zhang Chengxian''s comment of Feb. 3 to print and send to the secretaries, the rural work department, the finance and trade department and the leaders of prefectures and cities (cited by [[w.yang-jisheng-mubei]], I, 542 n.24). Check: the Feb. 3 comment is a second act, recorded in the note. Names: Zhang Chengxian.'
     src:
       c: a70bb64c
       rows:
         - 'w.yang-jisheng-mubei I, 542: all'
         - 'via w.yang-jisheng-mubei I, 542 n.24: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:zhang-chengxian]
   - id: cal.1960-01-26.china-leadership-10
     when: Jan. 26
     date: '1960-01-26'
@@ -3159,8 +3159,8 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam-diplomacy]
     c: Hanoi, afternoon. The GDR government delegation visits the Army Museum, received by Maj. Gen. Nguyễn Văn Vịnh, deputy minister of national defense; Giáp absent throughout the visit.
-    n: '[[w.guan-vietnamese-communists-relations-with]], 134 ("the afternoon of 26 January"). Names: Võ Nguyên Giáp.'
-    tags: [polity:drv, polity:gdr, name:vo-nguyen-giap]
+    n: '[[w.guan-vietnamese-communists-relations-with]], 134 ("the afternoon of 26 January"). Names: Võ Nguyên Giáp, Nguyễn Văn Vịnh.'
+    tags: [polity:drv, polity:gdr, name:vo-nguyen-giap, name:nguyen-van-vinh]
     time_range:
       - 1960-01-26T05:00Z
       - 1960-01-26T11:00Z
@@ -3461,7 +3461,7 @@ entries:
       c: 6f7bf240
       rows:
         - 'w.yang-shangkun-riji I, 474: all'
-    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    tags: [polity:prc, name:zhu-de, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-28T04:00Z
       - 1960-01-28T10:00Z
@@ -3478,7 +3478,7 @@ entries:
       c: 2e669599
       rows:
         - 'w.yang-shangkun-riji I, 474: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-28T11:00Z
       - 1960-01-28T14:00Z
@@ -3544,8 +3544,8 @@ entries:
     place: peking
     thread: china-leadership
     c: Wujiahuayuan 吴家花园, Peking 北京. Peng Zhen 彭真 and Yang Shangkun 杨尚昆 call on Peng Dehuai 彭德怀 in the Spring Festival 春节, the lunar New Year falling on Jan. 28.
-    n: '[[w.peng-dehuai-nianpu]], 758. Made public: 1998. Names: Peng Zhen, Peng Dehuai. Check: the day: the nianpu puts the call "in the Spring Festival" under Jan. 28, the lunar New Year, while Yang Shangkun''s diary and the Peng Zhen chronology have Yang and Peng Zhen leave Peking together by special train for Canton on Jan. 24 ([[cal.1960-01-24.china-leadership-6]]) and Yang at Canton on the 28th ([[cal.1960-01-28.china-leadership-5]]).'
-    tags: [polity:prc, vis:only:prc, name:peng-zhen, name:peng-dehuai]
+    n: '[[w.peng-dehuai-nianpu]], 758. Made public: 1998. Names: Peng Zhen, Peng Dehuai, Yang Shangkun. Check: the day: the nianpu puts the call "in the Spring Festival" under Jan. 28, the lunar New Year, while Yang Shangkun''s diary and the Peng Zhen chronology have Yang and Peng Zhen leave Peking together by special train for Canton on Jan. 24 ([[cal.1960-01-24.china-leadership-6]]) and Yang at Canton on the 28th ([[cal.1960-01-28.china-leadership-5]]).'
+    tags: [polity:prc, vis:only:prc, name:peng-zhen, name:peng-dehuai, name:yang-shangkun]
   - id: cal.1960-01-29.state-and-city-finance-ky
     when: Jan. 29
     date: '1960-01-29'
@@ -3848,8 +3848,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai, after the dress rehearsal of *Princess Wencheng*, with the Propaganda Department, the Culture Ministry, the writers'' federation, the nationalities commission, playwrights and historians. Eleven points: national unity and friendship the theme; a historical play may avoid what harms today but may not alter history; Tibet shown at its height, not backward. A five-man group (Zhou Yang, Wang Feng, Yang Hansheng, Wu Han, Tian Han) to revise the script.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 285 (Jan. 29, 1960). Made public: 1997. Names: Zhou Enlai.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 285 (Jan. 29, 1960). Made public: 1997. Names: Zhou Enlai, Zhou Yang, Wang Feng, Wu Han, Tian Han.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:tian-han, name:wang-feng, name:wu-han, name:zhou-yang]
   - id: cal.1960-01-29.china-leadership-2
     when: Jan. 29
     date: '1960-01-29'
@@ -3897,7 +3897,7 @@ entries:
         - 'w.yang-shangkun-riji I, 474: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1527: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 3: ?'
-    tags: [polity:prc, name:tao-zhu, vis:only:prc]
+    tags: [polity:prc, name:tao-zhu, vis:only:prc, name:liu-lantao, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-29.china-leadership-5
     when: Jan. 29
@@ -3911,7 +3911,7 @@ entries:
       c: 30d66b3e
       rows:
         - 'w.yang-shangkun-riji I, 474: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-29.soviet-union-leadership
     when: Jan. 29
@@ -3968,7 +3968,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 474: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1527: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-30.china-leadership-4
     when: Jan. 30
@@ -3982,7 +3982,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 474–475: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1527: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1960-01-30T04:00Z
       - 1960-01-30T10:00Z
@@ -4026,12 +4026,12 @@ entries:
     thread: china-leadership
     also: [soviet-union, china]
     c: Several meetings of the Politburo Standing Committee after the Shanghai meeting, by Wu Lengxi's account. Unity with the USSR and the other socialist states, criticism for Yugoslavia only and by stages; the Propaganda Department to draft an article on the Yugoslav views for Lenin's ninetieth anniversary. Warsaw talks with the United States to go on, "talk without breaking, talk without hurry," no recognition yet; American spies held to be tried; border settlements to be sought with India and the other neighbors by mutual concession, Zhou Enlai to visit India in time.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 246–248. Made public: 1999. Names: Zhou Enlai. Check: the days; Wu gives none, only that they followed the Shanghai meeting and (p. 248) that Burma''s treaty of late January and Nepal''s of March carried them out.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 246–248. Made public: 1999. Names: Zhou Enlai, Wu Lengxi. Check: the days; Wu gives none, only that they followed the Shanghai meeting and (p. 248) that Burma''s treaty of late January and Nepal''s of March carried them out.'
     src:
       c: 60cb64f3
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 246–248: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:wu-lengxi]
   - id: cal.1960.china-leadership-2
     when: '1960'
     date: '1960'
@@ -4098,20 +4098,20 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi has Wang Guangmei''s brothers Wang Guangqi, Wang Guangchao and Wang Guangying and their children to his home. At their request he talks on remolding one''s world outlook: each class has its own; personal and passing interests are to give way to the group''s and the lasting.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 476–477 (Jan. 31, 1960). Liu: to take a small loss now for a large gain is the law of opposites (吃小亏，占大便宜, 477). Footnotes 1–3 (476) give the brothers'' posts: Foreign Trade Ministry cadre; Peking Medical College first affiliated hospital professor of dermatology; chairman of the Tianjin Federation of Industry and Commerce. Made public: 1996. Names: Liu Shaoqi.'
-    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 476–477 (Jan. 31, 1960). Liu: to take a small loss now for a large gain is the law of opposites (吃小亏，占大便宜, 477). Footnotes 1–3 (476) give the brothers'' posts: Foreign Trade Ministry cadre; Peking Medical College first affiliated hospital professor of dermatology; chairman of the Tianjin Federation of Industry and Commerce. Made public: 1996. Names: Liu Shaoqi, Wang Guangmei.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc, name:wang-guangmei]
   - id: cal.1960.china-leadership-4
     when: '1960'
     date: '1960'
     thread: china-leadership
     c: Deng Tuo, secretary of the Peking Party committee for culture and education and editor of *Qianxian* (Front Line), becomes also an alternate secretary of the CCP's new North China Bureau.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 250. Made public: 1986. To check: [[w.zhonggong-dang-shi-renming]], 50–51 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 250 n.12). Check: the day; the source dates the post 1960, though the bureaus were announced only after the Ninth Plenum, January 1961.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 250. Made public: 1986. To check: [[w.zhonggong-dang-shi-renming]], 50–51 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 250 n.12). Check: the day; the source dates the post 1960, though the bureaus were announced only after the Ninth Plenum, January 1961. Names: Deng Tuo.'
     src:
       c: 72f7159b
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 250: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 250 n.12: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-tuo]
   - id: cal.1960.china-leadership-5
     when: 1960, early
     date: '1960'
@@ -4182,12 +4182,12 @@ entries:
     date: '1960'
     thread: china-leadership
     c: 'Mao to his second son Mao Anqing, who is being treated for illness at Dalian: glad to hear he is much better; he is to heed the doctors and rest, and not be impatient. His sister-in-law Siqi (Liu Songlin) and her younger sister Shaohua are coming to see him; he asks whether Anqing and Shaohua mean to be friends, calls her a good child and tells him to talk with her. Letters are to go by Siqi and Shaohua, or by Jiaojiao (Li Min); he is to thank the Dalian city committee and the medical teams, to whom the letter may be shown.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XV, 200–201 (1960, undated; notes 1-4). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). Check: the day; the editors give only the year. Names: Mao Zedong.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XV, 200–201 (1960, undated; notes 1-4). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). Check: the day; the editors give only the year. Names: Mao Zedong, Mao Anqing.'
     src:
       c: fe5647c3
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 200–201: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:mao-anqing]
   - id: cal.1960.china-leadership-7
     when: '1960'
     date: '1960'
@@ -4195,14 +4195,14 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Diaoyutai. The Central Committee''s five-man team for the year''s anti-Soviet polemics: Kang Sheng, leader; Wu Lengxi, Wang Li, Yao Qin, Fan Ruoyu. Qiao Guanhua and Zhao Yimei nominal members; a support team of seven.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 360 (the *fanxiu banzi*, anti-revisionism team, not the *xuanji banzi*, the selected works team, by Michael Schoenhals''s word, n.77). Made public: 1993. To check: [[w.li-zuopai-lilunjia-fuchen-lu]], 210–11 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 360 n.77a); Michael Schoenhals, communication to the author on the two teams of xiucai (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 360 n.77b). Names: Kang Sheng, Qiao Guanhua. Check: the month; the book says only "as early as 1960" (III, 360).'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 360 (the *fanxiu banzi*, anti-revisionism team, not the *xuanji banzi*, the selected works team, by Michael Schoenhals''s word, n.77). Made public: 1993. To check: [[w.li-zuopai-lilunjia-fuchen-lu]], 210–11 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 360 n.77a); Michael Schoenhals, communication to the author on the two teams of xiucai (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 360 n.77b). Names: Kang Sheng, Qiao Guanhua, Wu Lengxi, Wang Li, Fan Ruoyu. Check: the month; the book says only "as early as 1960" (III, 360).'
     src:
       c: 0f6e4cd3
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 360: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 360 n.77a: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 360 n.77b: all'
-    tags: [polity:prc, name:kang-sheng, name:qiao-guanhua, vis:only:prc]
+    tags: [polity:prc, name:kang-sheng, name:qiao-guanhua, vis:only:prc, name:fan-ruoyu, name:wang-li, name:wu-lengxi]
   - id: cal.1960.china-leadership-8
     when: '1960'
     date: '1960'
@@ -4213,7 +4213,7 @@ entries:
       c: 084f148f
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 466: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:feng-qi, name:lin-ke]
   - id: cal.1960.china-leadership-9
     when: '1960'
     date: '1960'
@@ -4224,7 +4224,7 @@ entries:
       c: 1ae7fce6
       rows:
         - 'w.jianguo-yilai-mao-zedong XV, 467: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:lin-ke]
   - id: cal.1960.china-leadership-10
     when: '1960'
     date: '1960'
@@ -4262,7 +4262,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 475: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1527: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1960-01-31.china-leadership-6
     when: Jan. 31
@@ -4275,7 +4275,7 @@ entries:
       c: 5a633d10
       rows:
         - 'w.yang-shangkun-riji I, 475: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-bozhao, name:yang-shangkun]
   - id: cal.1960-01-31.china-leadership-7
     when: Jan. 31
     date: '1960-01-31'
@@ -4288,7 +4288,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 475: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1527: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:lin-liming, name:yang-shangkun]
     time_range:
       - 1960-01-31T11:00Z
       - 1960-01-31T14:00Z
@@ -4311,37 +4311,37 @@ entries:
     date: '1960'
     thread: china-leadership
     c: Liu Lantao 劉瀾濤, standing secretary 常務書記 of the Central Control Commission 中央監委, sends Yu Sang 于桑 and others of the Ministry of Public Security 公安部 to Henan 河南; Yu's count of the Xinyang 信陽 dead is 600,000.
-    n: '[[w.yang-jisheng-mubei]], I, 74 (Li Jian''s account). Made public: 2008. To check: Li Jian, interview with Yang Jisheng, Beijing, Mar. 2001 (cited by [[w.yang-jisheng-mubei]], I, 72–74; no note). Check: the day, which the book does not give; after Tan Zhenlin''s objection to the Commission''s report ([[cal.1960.china-leadership-13]]); Yu Sang is named with Wu Renwen in the work group''s report of June 18 (I, 38 n.8; [[cal.1960-06-18.china-leadership-6]]).'
+    n: '[[w.yang-jisheng-mubei]], I, 74 (Li Jian''s account). Made public: 2008. To check: Li Jian, interview with Yang Jisheng, Beijing, Mar. 2001 (cited by [[w.yang-jisheng-mubei]], I, 72–74; no note). Check: the day, which the book does not give; after Tan Zhenlin''s objection to the Commission''s report ([[cal.1960.china-leadership-13]]); Yu Sang is named with Wu Renwen in the work group''s report of June 18 (I, 38 n.8; [[cal.1960-06-18.china-leadership-6]]). Names: Yu Sang.'
     src:
       c: 3d9d707a
       rows:
         - 'w.yang-jisheng-mubei I, 74: all'
         - 'via w.yang-jisheng-mubei I, 74 n.t1: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yu-sang]
   - id: cal.1960.china-leadership-14
     when: '1960'
     date: '1960'
     thread: china-leadership
     c: 'Wang Congwu 王從吾, for the Central Control Commission 中央監委, sends Liu Shaoqi 劉少奇 a report on Xinyang 信陽. Liu comments: rouse the masses and turn the situation around. Sent to Henan 河南, the comment sets the provincial committee to changing Xinyang''s leadership.'
-    n: '[[w.yang-jisheng-mubei]], I, 74 (Li Jian''s account). Made public: 2008. To check: Central Control Commission (Wang Congwu), report on Xinyang to Liu Shaoqi, 1960, with Liu''s comment (cited by [[w.yang-jisheng-mubei]], I, 74; no note). Check: the day, which the book does not give. Names: Liu Shaoqi.'
+    n: '[[w.yang-jisheng-mubei]], I, 74 (Li Jian''s account). Made public: 2008. To check: Central Control Commission (Wang Congwu), report on Xinyang to Liu Shaoqi, 1960, with Liu''s comment (cited by [[w.yang-jisheng-mubei]], I, 74; no note). Check: the day, which the book does not give. Names: Liu Shaoqi, Wang Congwu.'
     src:
       c: c9ee62ae
       rows:
         - 'w.yang-jisheng-mubei I, 74: all'
         - 'via w.yang-jisheng-mubei I, 74 n.t1: all'
-    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc, name:wang-congwu]
   - id: cal.1960.china-leadership-15
     when: '1960'
     date: '1960'
     thread: china-leadership
     c: 'Yang Weiping 楊蔚屏 rewrites the Xinyang 信陽 prefectural committee''s self-examination: where it called its fault an error of line and policy, his text calls it an error in grain work, of subjectivism and method.'
-    n: '[[w.yang-jisheng-mubei]], I, 69 (Wang Binglin''s account). Made public: 2008. To check: Xinyang Prefectural Party Committee, self-examination, 1960, as altered by Yang Weiping (cited by [[w.yang-jisheng-mubei]], I, 69; no note); Wang Binglin, "Materials exposing Yang Weiping," Dec. 1960 (cited by [[w.yang-jisheng-mubei]], I, 69 n.53). Check: the month and day; the book gives the change after the prefecture''s written report of May 1960, in the same paragraph, with no date of its own, and calls it a lightening of the fault.'
+    n: '[[w.yang-jisheng-mubei]], I, 69 (Wang Binglin''s account). Made public: 2008. To check: Xinyang Prefectural Party Committee, self-examination, 1960, as altered by Yang Weiping (cited by [[w.yang-jisheng-mubei]], I, 69; no note); Wang Binglin, "Materials exposing Yang Weiping," Dec. 1960 (cited by [[w.yang-jisheng-mubei]], I, 69 n.53). Check: the month and day; the book gives the change after the prefecture''s written report of May 1960, in the same paragraph, with no date of its own, and calls it a lightening of the fault. Names: Yang Weiping.'
     src:
       c: d123981e
       rows:
         - 'w.yang-jisheng-mubei I, 69: all'
         - 'via w.yang-jisheng-mubei I, 69 n.53: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-weiping]
   - id: cal.1960.china-leadership-16
     when: '1960'
     date: '1960'
@@ -4359,13 +4359,13 @@ entries:
     date: '1960'
     thread: china-leadership
     c: Gushi 固始. Wu Zhipu 吳芝圃 and Dai Suli 戴蘇理 attend a ten-thousand-person meeting at which Yang Shouji 楊守績, county first secretary, is declared a counterrevolutionary and arrested on the spot.
-    n: '[[w.yang-jisheng-mubei]], I, 78, 85 (Zhang Shufan''s and Zhang Shenglan''s accounts). Made public: 2008. To check: Zhang Shufan''s recollection (cited by [[w.yang-jisheng-mubei]], I, 71–72; no note); Zhang Shenglan 張生蘭, wife of Shi Shaoju 石紹舉, account to Yang Jisheng, Xinyang, autumn 1999 (cited by [[w.yang-jisheng-mubei]], I, 85–86; no note). Check: the day; Zhang Shenglan tells of the meeting against Yang after the night of the arrests across the prefecture, the seventh of the eleventh lunar month of 1960 (I, 85; [[cal.1960.china-leadership-20]]).'
+    n: '[[w.yang-jisheng-mubei]], I, 78, 85 (Zhang Shufan''s and Zhang Shenglan''s accounts). Made public: 2008. To check: Zhang Shufan''s recollection (cited by [[w.yang-jisheng-mubei]], I, 71–72; no note); Zhang Shenglan 張生蘭, wife of Shi Shaoju 石紹舉, account to Yang Jisheng, Xinyang, autumn 1999 (cited by [[w.yang-jisheng-mubei]], I, 85–86; no note). Check: the day; Zhang Shenglan tells of the meeting against Yang after the night of the arrests across the prefecture, the seventh of the eleventh lunar month of 1960 (I, 85; [[cal.1960.china-leadership-20]]). Names: Wu Zhipu, Dai Suli.'
     src:
       c: b6be310b
       rows:
         - 'w.yang-jisheng-mubei I, 78: all'
         - 'via w.yang-jisheng-mubei I, 85 n.t1: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:dai-suli, name:wu-zhipu]
   - id: cal.1960-01.china-leadership-5
     when: Jan., mid
     date: 1960-01
@@ -4373,12 +4373,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Deng Xiaoping 邓小平 reads the *Renmin ribao* 人民日报 editorial draft "What Eisenhower''s State of the Union shows" 《艾森豪威尔的"国情咨文"说明了什么》, sent by Wu Lengxi 吴冷西: "it will do" 可以.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1526. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Eisenhower.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1526. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Eisenhower, Wu Lengxi.'
     src:
       c: 4b5e3e8f
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1526: all'
-    tags: [polity:prc, name:deng-xiaoping, name:eisenhower-dwight-d, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:eisenhower-dwight-d, vis:only:prc, name:wu-lengxi]
   - id: cal.1960-01.china-leadership-6
     when: Jan.
     date: 1960-01
@@ -4535,24 +4535,24 @@ entries:
     at: before 1960-12-21
     thread: china-leadership
     c: Hu Kaiming 胡開明, first secretary of the Zhangjiakou 張家口 committee, telephones Liu Zihou 劉子厚, the Hebei 河北 committee's first secretary, tells him of the famine in the Zhangjiakou area and asks leave to slaughter animals that cannot last the winter. Liu, not daring to decide, reports to Mao Zedong 毛澤東 when Mao comes to inspect Tianjin 天津; Mao says at once that saving people matters and they are to be slaughtered.
-    n: '[[w.yang-jisheng-mubei]], I, 553. Made public: 2008. Names: Mao Zedong. Check: the book gives the winter of 1960 and no note; the day of the call and of Mao''s visit to Tianjin are not given; the calendar''s record of Mao''s whereabouts is to be set beside it.'
+    n: '[[w.yang-jisheng-mubei]], I, 553. Made public: 2008. Names: Mao Zedong, Hu Kaiming, Liu Zihou. Check: the book gives the winter of 1960 and no note; the day of the call and of Mao''s visit to Tianjin are not given; the calendar''s record of Mao''s whereabouts is to be set beside it.'
     src:
       c: 9f4a5070
       rows:
         - 'w.yang-jisheng-mubei I, 553: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:hu-kaiming, name:liu-zihou]
   - id: cal.1960.china-leadership-32
     when: 1960, winter
     date: '1960'
     at: before 1960-12-21
     thread: china-leadership
     c: Lu Qi 盧起, a county official of the Zhangjiakou 張家口 area, telephones Hu Kaiming 胡開明 late one night that in hunger many asthma patients have died before dawn. He asks for grain and for the opium tincture that eases asthma; Hu takes the risk and issues some.
-    n: '[[w.yang-jisheng-mubei]], I, 552. Made public: 2008. Check: the book gives "a deep night of winter 1960" and no note.'
+    n: '[[w.yang-jisheng-mubei]], I, 552. Made public: 2008. Check: the book gives "a deep night of winter 1960" and no note. Names: Hu Kaiming.'
     src:
       c: db73d314
       rows:
         - 'w.yang-jisheng-mubei I, 552: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:hu-kaiming]
   - id: cal.1960.china-leadership-34
     when: '1960'
     date: '1960'
@@ -4759,13 +4759,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: In Lanzhou 兰州 some 210,000 migrants work in factories without pay, for board and lodging only; Zhang Zhongliang 張仲良 endorses the arrangement himself.
-    n: '[[w.dikotter-maos-great-famine]], 235. Made public: 2010. To check: Gansu Provincial Archives, Jan. 14, 1961, 91-18-200, pp. 47–48 (cited by [[w.dikotter-maos-great-famine]], 235 n.23). Check: the day.'
+    n: '[[w.dikotter-maos-great-famine]], 235. Made public: 2010. To check: Gansu Provincial Archives, Jan. 14, 1961, 91-18-200, pp. 47–48 (cited by [[w.dikotter-maos-great-famine]], 235 n.23). Check: the day. Names: Zhang Zhongliang.'
     src:
       c: 53eb4c6d
       rows:
         - 'w.dikotter-maos-great-famine 235: all'
         - 'via w.dikotter-maos-great-famine 235 n.23: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:zhang-zhongliang]
   - id: cal.1960.china-3
     when: '1960'
     date: '1960'
@@ -5471,13 +5471,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Zhang Zhongliang 張仲良, as starvation spreads in Gansu 甘肅, writes again to Mao 毛泽东, blaming the deaths on Huo Weide, head of the "anti-party clique," and calling them a matter of "one finger out of ten."
-    n: '[[w.dikotter-maos-great-famine]], 101. Made public: 2010. To check: Gansu Provincial Archives, July 1, 1960, 91-4-705, pp. 1–5 (cited by [[w.dikotter-maos-great-famine]], 101 n.6). Names: Mao Zedong. Check: the day.'
+    n: '[[w.dikotter-maos-great-famine]], 101. Made public: 2010. To check: Gansu Provincial Archives, July 1, 1960, 91-4-705, pp. 1–5 (cited by [[w.dikotter-maos-great-famine]], 101 n.6). Names: Mao Zedong, Zhang Zhongliang. Check: the day.'
     src:
       c: 327679f6
       rows:
         - 'w.dikotter-maos-great-famine 101: all'
         - 'via w.dikotter-maos-great-famine 101 n.6: all'
-    tags: [polity:prc, vis:only:prc, name:mao-zedong]
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:zhang-zhongliang]
   - id: cal.1960.china-leadership-83
     when: '1960'
     date: '1960'
@@ -5499,12 +5499,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Mao 毛泽东, depressed, takes to his bed, seemingly unable to face the bad news coming in (Li Zhisui's account).
-    n: '[[w.dikotter-maos-great-famine]], 107. Made public: 1994 ([[w.zhisui-private-life-of-chairman]]). To check: Li Zhisui, [[w.zhisui-private-life-of-chairman]], 339 (cited by [[w.dikotter-maos-great-famine]], 107 n.19). Names: Mao Zedong. Check: the day.'
+    n: '[[w.dikotter-maos-great-famine]], 107. Made public: 1994 ([[w.zhisui-private-life-of-chairman]]). To check: Li Zhisui, [[w.zhisui-private-life-of-chairman]], 339 (cited by [[w.dikotter-maos-great-famine]], 107 n.19). Names: Mao Zedong, Li Zhisui. Check: the day.'
     src:
       c: 90ddcf38
       rows:
         - 'w.dikotter-maos-great-famine 107: all'
-    tags: [polity:prc, vis:only:prc, name:mao-zedong]
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:li-zhisui]
   - id: cal.1960.china-leadership-88
     when: '1960'
     date: '1960'
@@ -5803,12 +5803,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Yan Hongyan 閻紅彥, Yunnan's 雲南 new first secretary, investigating in the villages of the Lancang 瀾滄 River hills, sees an old woman climbing to the mess hall through wind and rain; peasants tell him some ride donkeys thirty li to theirs. He proposes to the county committee that halls be kept where they can be run and disbanded where they cannot; the county secretary, not daring to go against the Center's instructions, keeps them.
-    n: '[[w.yang-jisheng-mubei]], II, 760 (no note). Made public: 2008.'
+    n: '[[w.yang-jisheng-mubei]], II, 760 (no note). Made public: 2008. Names: Yan Hongyan.'
     src:
       c: a13cb0ec
       rows:
         - 'w.yang-jisheng-mubei II, 760: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yan-hongyan]
   - id: cal.1960.china-leadership-105
     when: 1960, winter
     date: '1960'
@@ -5816,12 +5816,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'By the account of Jiang Weiqing 江渭清, first secretary of Jiangsu 江蘇, Mao Zedong 毛澤東, on his special train to Hangzhou 杭州, calls the secretaries of the six regional bureaus and others aboard to study rural work. On the mess halls most present are for them. Pressed by Mao, who promises no reprisals, Jiang names three faults: a year''s grain eaten in half a year; no pigs raised; bowls broken, chopsticks lost and the trees cut for fuel. Mao to Zhou Enlai 周恩來: "Premier, he is right!" Zhou nods.'
-    n: '[[w.yang-jisheng-mubei]], II, 763 n.50 (Jiang Weiqing''s account). Made public: 1996 (Jiang Weiqing''s memoir, as [[w.yang-jisheng-mubei]], II, 763 n.50 cites it). To check: [[w.jiang-weiqing-qishi-nian-zhengcheng]], 454–456 (Nanjing: Jiangsu renmin chubanshe, 1996, as [[w.yang-jisheng-mubei]], II, 763 n.50 gives it). Names: Mao Zedong, Zhou Enlai. Check: the day; the six regional bureaus were set up by the Ninth Plenum in January 1961 (the calendar, Jan. 21, 1961), and the winter may be that of January–February 1961; the calendar has Mao on the train at Nanjing hearing Jiang Weiqing and the Jiangsu committee on Jan. 29, 1961.'
+    n: '[[w.yang-jisheng-mubei]], II, 763 n.50 (Jiang Weiqing''s account). Made public: 1996 (Jiang Weiqing''s memoir, as [[w.yang-jisheng-mubei]], II, 763 n.50 cites it). To check: [[w.jiang-weiqing-qishi-nian-zhengcheng]], 454–456 (Nanjing: Jiangsu renmin chubanshe, 1996, as [[w.yang-jisheng-mubei]], II, 763 n.50 gives it). Names: Mao Zedong, Zhou Enlai, Jiang Weiqing. Check: the day; the six regional bureaus were set up by the Ninth Plenum in January 1961 (the calendar, Jan. 21, 1961), and the winter may be that of January–February 1961; the calendar has Mao on the train at Nanjing hearing Jiang Weiqing and the Jiangsu committee on Jan. 29, 1961.'
     src:
       c: d59e2e65
       rows:
         - 'w.yang-jisheng-mubei II, 763: all'
-    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:zhou-enlai, ok:fields-place]
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:zhou-enlai, ok:fields-place, name:jiang-weiqing]
   - id: cal.1960-01.china-leadership-19
     when: Jan.
     date: 1960-01
@@ -5842,8 +5842,8 @@ entries:
     place: peking
     thread: china
     c: Mao Yuanxin 毛遠新, Mao Zedong's 毛澤東 nephew, enters the radio department of Tsinghua University 清華大學.
-    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 917. Names: Mao Zedong.'
-    tags: [polity:prc, name:mao-zedong]
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 917. Names: Mao Zedong, Mao Yuanxin.'
+    tags: [polity:prc, name:mao-zedong, name:mao-yuanxin]
   - id: cal.1960.china-leadership-107
     when: 1960, early summer
     date: '1960'
@@ -6130,8 +6130,8 @@ entries:
     place: peking
     thread: china-leadership
     c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀, from October 1959 to February 1960, studies philosophy: Yang Xianzhen''s 杨献珍 *What Is Materialism?* 《什么是唯物主义》, Ai Siqi''s 艾思奇 *Outline of Dialectical Materialism* 《辩证唯物主义纲要》, the Soviet *Principles of Marxist Philosophy* 《马克思主义哲学原理》, Engels''s *Ludwig Feuerbach and the End of Classical German Philosophy* 《费尔巴哈与德国古典哲学的终结》, Lenin''s *Materialism and Empirio-criticism* 《唯物主义与经验批判主义》; notes on his reading of nearly sixty thousand characters. Once or twice a week to the Party School 党校, to the philosophy and political economy study meetings of its Party committee members'' group 党校党委成员组.'
-    n: '[[w.peng-dehuai-nianpu]], 758. Made public: 1998. Names: Peng Dehuai.'
-    tags: [polity:prc, vis:only:prc, name:peng-dehuai]
+    n: '[[w.peng-dehuai-nianpu]], 758. Made public: 1998. Names: Peng Dehuai, Yang Xianzhen, Ai Siqi.'
+    tags: [polity:prc, vis:only:prc, name:peng-dehuai, name:ai-siqi, name:yang-xianzhen]
   - id: cal.1960.china-leadership-118
     when: 1960, spring
     date: '1960'

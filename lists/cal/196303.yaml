@@ -122,7 +122,7 @@ entries:
       c: 567eec0a
       rows:
         - 'w.yang-shangkun-riji II, 257: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:zhou-yuanqing]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-01.china-leadership-6
     when: Mar. 1
@@ -185,8 +185,8 @@ entries:
     date: '1963-03-01'
     thread: china-leadership
     c: 'Zhu De 朱德 writes an inscription: "Learn from Lei Feng 雷锋, be a good fighter of Chairman Mao." (The nianpu''s note: Lei Feng, a Party member, joined the PLA in 1960 and died on duty Aug. 15, 1962.)'
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1866. Names: Zhu De, Mao Zedong.'
-    tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1866. Names: Zhu De, Mao Zedong, Lei Feng.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, name:lei-feng]
   - id: cal.1963-03-02.civil-rights-bill
     when: Mar. 2
     date: '1963-03-02'
@@ -348,7 +348,7 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 492: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 492 n.1: all'
-    tags: [polity:prc, name:mao-zedong]
+    tags: [polity:prc, name:mao-zedong, name:lei-feng]
   - id: cal.1963-03-02.china-leadership-7
     when: Mar. 2
     date: '1963-03-02'
@@ -360,7 +360,7 @@ entries:
       c: b85c56e6
       rows:
         - 'w.yang-shangkun-riji II, 258: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:lai-zulie, name:yang-shangkun]
     time_range:
       - 1963-03-02T04:00Z
       - 1963-03-02T10:00Z
@@ -416,7 +416,7 @@ entries:
         - 'w.zedong-mao-zedong-nianpu V, Mar. 3, 1963: all'
         - 'w.zhou-enlai-nianpu-1949 II, 538: ?'
         - 'w.zhou-enlai-waijiao-huodong 353: A'
-    tags: [polity:prc, polity:pakistan, name:mao-zedong, name:bhutto-zulfikar-ali, name:zhou-enlai, vis:only:prc+pakistan]
+    tags: [polity:prc, polity:pakistan, name:mao-zedong, name:bhutto-zulfikar-ali, name:zhou-enlai, vis:only:prc+pakistan, name:geng-biao]
     time_zone: Asia/Shanghai
     variants:
       - unit: A
@@ -482,7 +482,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 258: all'
         - 'w.peng-zhen-nianpu-1902 IV, 250: ?'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-04.railroads
     when: Mar. 4
@@ -601,12 +601,12 @@ entries:
     date: '1963-03-04'
     thread: china-leadership
     c: Xinhua 新华社 sends out Mao's inscription "Learn from Comrade Lei Feng" 向雷锋同志学习 to the papers.
-    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 492 (note 1). See [[cal.1963-02-20.china-leadership-3]]. Names: Mao Zedong.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 492 (note 1). See [[cal.1963-02-20.china-leadership-3]]. Names: Mao Zedong, Lei Feng.'
     src:
       c: ca8cf8fa
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 492: all'
-    tags: [polity:prc, name:mao-zedong]
+    tags: [polity:prc, name:mao-zedong, name:lei-feng]
   - id: cal.1963-03-04.china-leadership-5
     when: Mar. 4
     date: '1963-03-04'
@@ -620,7 +620,7 @@ entries:
       c: 5e53969a
       rows:
         - 'w.yang-shangkun-riji II, 258: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-04.china-leadership-6
     when: Mar. 4
@@ -635,7 +635,7 @@ entries:
       c: 589e219b
       rows:
         - 'w.yang-shangkun-riji II, 258: all'
-    tags: [polity:prc, name:kang-sheng, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:kang-sheng, name:mao-zedong, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-04.china-leadership-7
     when: Mar. 4
@@ -648,7 +648,7 @@ entries:
       c: a2996cdd
       rows:
         - 'w.yang-shangkun-riji II, 258: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:he-jun, name:yang-shangkun]
     time_range:
       - 1963-03-04T04:00Z
       - 1963-03-04T10:00Z
@@ -660,13 +660,13 @@ entries:
     thread: china-leadership
     also: [china]
     c: Deng Xiaoping 邓小平, with Peng Zhen 彭真 and Wu Xiuquan 伍修权, meets Amazonas 阿马索纳斯, general secretary of the Communist Party of Brazil 巴西共产党 (the new party), and Lincoln 林肯, a Politburo 政治局 member, on a visit.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1749 (Mar. 4, 1963); [[w.peng-zhen-nianpu-1902]], IV, 250–251 (Mar. 4, 1963; Peng Zhen, with Deng Xiaoping, Wu Xiuquan and others, meets Amazonas, general secretary of the Communist Party of Brazil (the new party), Politburo member Lincoln and their party). The nianpu gives it under Mar. 4, before Mao''s reception of Mar. 6. Made public: 2009 (the nianpu). See [[cal.1963-03-06.china-leadership]]. Names: Deng Xiaoping, Peng Zhen, Lincoln.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1749 (Mar. 4, 1963); [[w.peng-zhen-nianpu-1902]], IV, 250–251 (Mar. 4, 1963; Peng Zhen, with Deng Xiaoping, Wu Xiuquan and others, meets Amazonas, general secretary of the Communist Party of Brazil (the new party), Politburo member Lincoln and their party). The nianpu gives it under Mar. 4, before Mao''s reception of Mar. 6. Made public: 2009 (the nianpu). See [[cal.1963-03-06.china-leadership]]. Names: Deng Xiaoping, Peng Zhen, Lincoln, Wu Xiuquan.'
     src:
       c: a89da57f
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1749: all'
         - 'w.peng-zhen-nianpu-1902 IV, 250–251: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:lincoln-evelyn, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:lincoln-evelyn, vis:only:prc, name:wu-xiuquan]
   - id: cal.1963-03-04.china-leadership-9
     when: Mar. 4
     date: '1963-03-04'
@@ -780,7 +780,7 @@ entries:
     date: '1963-03-05'
     thread: china-leadership
     c: The People's Daily prints Mao's inscription "Learn from Comrade Lei Feng," written Feb. 20 for *Zhongguo qingnian*'s Lei Feng number (out Mar. 2) and sent out by Xinhua Mar. 4.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 5, 1963. [[w.zhou-enlai-nianpu-1949]], II, 538 (Mar. 5, 1963: the two papers print with Mao''s Zhou Enlai''s inscription: Lei Feng a good son of the working people and a good soldier of Mao); [[w.macfarquhar-origins-of-the-cultural]], III, 338 (the editors of *Zhongguo qingnian* ask Mao for a slogan, Mao calls in his secretary Lin Ke on Feb. 22, rejects his proposals and gives his own; it appears in *Zhongguo qingnian* on Mar. 2 and on Mar. 5 in the *People''s Daily*, the *Jiefangjun bao* and the *Guangming ribao*); [[w.jianguo-yilai-mao-zedong]], XVI, 492 (Mar. 5, 1963; the inscription "Learn from Comrade Lei Feng"; printed from the manuscript; note 1: written Feb. 20 at *Zhongguo qingnian*''s request for its Lei Feng number, 1963 nos. 5–6, out Mar. 2; Xinhua sent it out Mar. 4; *Renmin ribao* Mar. 5; Lei Feng, a squad leader of the transport company of the Shenyang command''s 10th engineer regiment, killed on duty Aug. 15, 1962); [[w.chen-yi-nianpu]], 958 (Mar. 5, 1963); [[w.dikotter-cultural-revolution]], 33 n.15 (on Mar. 5, 1963, Mao exhorts the nation to learn from Lei Feng; the diary published and studied across the country). To check: *Renmin ribao*, Mar. 5, 1963; *Zhongguo qingnian*, 1963, nos. 5–6; [[w.yun-shi-fou-xuanchuan-lei]], 4–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.26); [[w.ming-gongheguo-licheng-da-xiezhen]], shang, 366–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.27); Lin Ke, article on the 30th anniversary of the Lei Feng campaign, Renmin ribao, Mar. 5, 1993 ([[w.renmin-ribao]]), 25–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.28a); Xinhua Yuebao, No. 3, 1993 ([[w.xinhua-yuebao]]), 24–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.28b); Xinhua Yuebao, No. 3, 1993 ([[w.xinhua-yuebao]]), 21–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.28c). Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 5, 1963. [[w.zhou-enlai-nianpu-1949]], II, 538 (Mar. 5, 1963: the two papers print with Mao''s Zhou Enlai''s inscription: Lei Feng a good son of the working people and a good soldier of Mao); [[w.macfarquhar-origins-of-the-cultural]], III, 338 (the editors of *Zhongguo qingnian* ask Mao for a slogan, Mao calls in his secretary Lin Ke on Feb. 22, rejects his proposals and gives his own; it appears in *Zhongguo qingnian* on Mar. 2 and on Mar. 5 in the *People''s Daily*, the *Jiefangjun bao* and the *Guangming ribao*); [[w.jianguo-yilai-mao-zedong]], XVI, 492 (Mar. 5, 1963; the inscription "Learn from Comrade Lei Feng"; printed from the manuscript; note 1: written Feb. 20 at *Zhongguo qingnian*''s request for its Lei Feng number, 1963 nos. 5–6, out Mar. 2; Xinhua sent it out Mar. 4; *Renmin ribao* Mar. 5; Lei Feng, a squad leader of the transport company of the Shenyang command''s 10th engineer regiment, killed on duty Aug. 15, 1962); [[w.chen-yi-nianpu]], 958 (Mar. 5, 1963); [[w.dikotter-cultural-revolution]], 33 n.15 (on Mar. 5, 1963, Mao exhorts the nation to learn from Lei Feng; the diary published and studied across the country). To check: *Renmin ribao*, Mar. 5, 1963; *Zhongguo qingnian*, 1963, nos. 5–6; [[w.yun-shi-fou-xuanchuan-lei]], 4–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.26); [[w.ming-gongheguo-licheng-da-xiezhen]], shang, 366–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.27); Lin Ke, article on the 30th anniversary of the Lei Feng campaign, Renmin ribao, Mar. 5, 1993 ([[w.renmin-ribao]]), 25–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.28a); Xinhua Yuebao, No. 3, 1993 ([[w.xinhua-yuebao]]), 24–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.28b); Xinhua Yuebao, No. 3, 1993 ([[w.xinhua-yuebao]]), 21–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.28c). Names: Mao Zedong, Lei Feng.'
     src:
       c: e1c41811
       rows:
@@ -796,7 +796,7 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVI, 492 n.1: all'
         - 'w.chen-yi-nianpu 958: ?'
         - 'w.dikotter-cultural-revolution 33 n.15: ?'
-    tags: [polity:prc, name:mao-zedong]
+    tags: [polity:prc, name:mao-zedong, name:lei-feng]
     variants:
       - unit: A
         witness: w.macfarquhar-origins-of-the-cultural
@@ -845,7 +845,7 @@ entries:
         - 'via w.yang-shangkun-riji II, 259 n.1: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1749: B'
         - 'w.peng-zhen-nianpu-1902 IV, 251: ?'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:dange, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-05.china-leadership-7
     when: Mar. 5
@@ -936,7 +936,7 @@ entries:
     also: [china]
     c: Yinian Tang, afternoon. Mao receives the Communist Party of Brazil (the new party) delegation under its general secretary Amazonas; Deng Xiaoping and Wu Xiuquan present. A Marxist-Leninist party, resolved on revolution, as many "communist" parties are not. Revolution goes back and forth, not straight; Cuba's came after many reverses; create your own experience and never copy abroad; "we paid dearly for copying."
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 6, 1963. [[w.deng-xiaoping-nianpu-1904]], III, 1750 (Mar. 6, 1963; afternoon, 下午; Deng accompanies Mao at the meeting with the Brazilian Communist Party (the new party) delegation). Made public: 2013. Names: Mao Zedong, Deng Xiaoping, João Amazonas, Wu Xiuquan.'
-    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc, name:joao-amazonas, name:wu-xiuquan]
   - id: cal.1963-03-06.china-leadership-2
     when: Mar. 6
     date: '1963-03-06'
@@ -949,7 +949,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 539: ?'
         - 'w.macfarquhar-origins-of-the-cultural III, 338: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 338 n.27: A'
-    tags: [polity:prc, name:zhou-enlai]
+    tags: [polity:prc, name:zhou-enlai, name:lei-feng]
   - id: cal.1963-03-06.china-leadership-3
     when: Mar. 6–10
     date: '1963-03-06'
@@ -1011,39 +1011,39 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'The *Jiefangjun bao* prints Liu Shaoqi''s inscription for the campaign to learn from Lei Feng: learn Comrade Lei Feng''s ordinary but great communist spirit.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 573 (Mar. 6, 1963); [[w.macfarquhar-origins-of-the-cultural]], III, 338 (on Mar. 6 the *Jiefangjun bao* prints slogans written by Liu Shaoqi, Zhou Enlai, Zhu De and Deng Xiaoping). To check: [[w.ming-gongheguo-licheng-da-xiezhen]], shang, 366–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.27). See [[cal.1963-03-06.china-leadership-2]]. Names: Liu Shaoqi.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 573 (Mar. 6, 1963); [[w.macfarquhar-origins-of-the-cultural]], III, 338 (on Mar. 6 the *Jiefangjun bao* prints slogans written by Liu Shaoqi, Zhou Enlai, Zhu De and Deng Xiaoping). To check: [[w.ming-gongheguo-licheng-da-xiezhen]], shang, 366–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.27). See [[cal.1963-03-06.china-leadership-2]]. Names: Liu Shaoqi, Lei Feng.'
     src:
       c: 3ade0bdf
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 573: ?'
         - 'w.macfarquhar-origins-of-the-cultural III, 338: A'
         - 'via w.macfarquhar-origins-of-the-cultural III, 338 n.27: A'
-    tags: [polity:prc, name:liu-shaoqi]
+    tags: [polity:prc, name:liu-shaoqi, name:lei-feng]
   - id: cal.1963-03-06.china-leadership-7
     when: Mar. 6
     date: '1963-03-06'
     thread: china-leadership
     c: The *Jiefangjun bao* prints Zhu De's inscription on learning from Lei Feng.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 338. To check: [[w.ming-gongheguo-licheng-da-xiezhen]], shang, 366–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.27). See [[cal.1963-03-06.china-leadership-6]]. Names: Zhu De.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 338. To check: [[w.ming-gongheguo-licheng-da-xiezhen]], shang, 366–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.27). See [[cal.1963-03-06.china-leadership-6]]. Names: Zhu De, Lei Feng.'
     src:
       c: ae80fc3b
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 338: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 338 n.27: all'
-    tags: [polity:prc, name:zhu-de]
+    tags: [polity:prc, name:zhu-de, name:lei-feng]
   - id: cal.1963-03-06.china-leadership-8
     when: Mar. 6
     date: '1963-03-06'
     thread: china-leadership
     c: The *Jiefangjun bao* prints Deng Xiaoping's inscription on learning from Lei Feng.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 338; [[w.deng-xiaoping-nianpu-1904]], III, 1750 (Early March, 3月初; Deng writes the inscription ''Whoever wants to be a true communist should learn from Comrade Lei Feng''s character and style''; the Jiefangjun bao prints it Mar. 6). To check: [[w.ming-gongheguo-licheng-da-xiezhen]], shang, 366–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.27). See [[cal.1963-03-06.china-leadership-6]]. Names: Deng Xiaoping.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 338; [[w.deng-xiaoping-nianpu-1904]], III, 1750 (Early March, 3月初; Deng writes the inscription ''Whoever wants to be a true communist should learn from Comrade Lei Feng''s character and style''; the Jiefangjun bao prints it Mar. 6). To check: [[w.ming-gongheguo-licheng-da-xiezhen]], shang, 366–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.27). See [[cal.1963-03-06.china-leadership-6]]. Names: Deng Xiaoping, Lei Feng.'
     src:
       c: c85dc522
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 338: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 338 n.27: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1750: A'
-    tags: [polity:prc, name:deng-xiaoping]
+    tags: [polity:prc, name:deng-xiaoping, name:lei-feng]
   - id: cal.1963-03-06.china-leadership-9
     when: Mar. 6
     date: '1963-03-06'
@@ -1056,7 +1056,7 @@ entries:
       c: 67ac39c3
       rows:
         - 'w.yang-shangkun-riji II, 259: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-06.china-leadership-10
     when: Mar. 6
@@ -1069,7 +1069,7 @@ entries:
       c: 998ba06d
       rows:
         - 'w.yang-shangkun-riji II, 259: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:lai-zulie, name:yang-shangkun]
     time_range:
       - 1963-03-06T04:00Z
       - 1963-03-06T10:00Z
@@ -1086,7 +1086,7 @@ entries:
       c: bbe64e5d
       rows:
         - 'w.yang-shangkun-riji II, 259: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:luo-qingchang, name:yang-shangkun]
     time_range:
       - 1963-03-06T11:00Z
       - 1963-03-06T14:00Z
@@ -1293,7 +1293,7 @@ entries:
       c: da754a65
       rows:
         - 'w.yang-shangkun-riji II, 259: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-07.china-leadership-5
     when: Mar. 7
@@ -1310,7 +1310,7 @@ entries:
       c: 56a0f66f
       rows:
         - 'w.yang-shangkun-riji II, 259: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-07.china-leadership-6
     when: Mar. 7
@@ -1323,7 +1323,7 @@ entries:
       c: 0c9144b2
       rows:
         - 'w.yang-shangkun-riji II, 259: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:qiao-zhongling, name:yang-shangkun]
     time_range:
       - 1963-03-07T11:00Z
       - 1963-03-07T14:00Z
@@ -1340,7 +1340,7 @@ entries:
       c: 115c3894
       rows:
         - 'w.yang-shangkun-riji II, 259: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wang-guangmei, name:yang-shangkun]
     time_range:
       - 1963-03-07T11:00Z
       - 1963-03-07T14:00Z
@@ -1365,12 +1365,12 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. Peng Zhen 彭真, with Wu Han 吴晗, accompanies King Savang Vatthana of Laos to the Peking Railway Station, the Workers' Stadium, the Workers' Gymnasium and the Palace Museum 故宫博物院.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 251. The words: 上午 (IV, 251). See [[cal.1963-03-06.china-leadership-4]]. Names: Peng Zhen, Savang Vatthana.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 251. The words: 上午 (IV, 251). See [[cal.1963-03-06.china-leadership-4]]. Names: Peng Zhen, Savang Vatthana, Wu Han.'
     src:
       c: d08ad601
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 251: all'
-    tags: [polity:prc, name:peng-zhen, name:savang-vatthana]
+    tags: [polity:prc, name:peng-zhen, name:savang-vatthana, name:wu-han]
     time_range:
       - 1963-03-06T22:00Z
       - 1963-03-07T04:00Z
@@ -1382,23 +1382,23 @@ entries:
     place: peking
     thread: china-leadership
     c: Peking 北京. The Secretariat 书记处 hears Hu Yaobang 胡耀邦 on the fourth plenum of the Youth League's eighth Central Committee; Peng Zhen 彭真 there.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 251. Made public: 2012. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 251. Made public: 2012. Names: Peng Zhen, Hu Yaobang.'
     src:
       c: 125c5412
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 251: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:hu-yaobang]
   - id: cal.1963-03-07.china-leadership-10
     when: Mar. 7
     date: '1963-03-07'
     thread: china-leadership
     c: 'Peng Zhen 彭真 sends Liu Ren 刘仁 the proposal of the national conference on agricultural science, sent by Nie Rongzhen 聂荣臻, to build a model base farm in Peking''s 北京 suburbs, for Zheng Tianxiang 郑天翔 and Zhao Fan 赵凡 to handle: let them give full play to their zeal.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 251. The page''s note: Zhao Fan, member of the Peking committee''s Standing Committee and head of its Rural Work Department (IV, 251). Made public: 2012. Names: Peng Zhen, Nie Rongzhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 251. The page''s note: Zhao Fan, member of the Peking committee''s Standing Committee and head of its Rural Work Department (IV, 251). Made public: 2012. Names: Peng Zhen, Nie Rongzhen, Liu Ren.'
     src:
       c: db3cce59
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 251: all'
-    tags: [polity:prc, name:peng-zhen, name:nie-rongzhen, vis:only:prc, ok:fields-place]
+    tags: [polity:prc, name:peng-zhen, name:nie-rongzhen, vis:only:prc, ok:fields-place, name:liu-ren]
   - id: cal.1963-03-07.soviet-union-3
     when: Mar. 7
     date: '1963-03-07'
@@ -1462,7 +1462,7 @@ entries:
     thread: vietnam-hanoi
     c: 'The Politburo sets up the Center''s "chỉ đạo riêng" (special direction): members of the Politburo and the Secretariat each to follow a province, city or unit and a base of their own, and those in charge of a field to lead its great campaigns. Trường Chinh for Hà Bắc, Phạm Văn Đồng Hà Đông, Phạm Hùng Hải Dương, Lê Đức Thọ Nam Định, Tố Hữu Thái Bình, Lê Thanh Nghị Haiphong, Nguyễn Văn Trân the Thái Nguyên iron and steel works; Thanh Hóa, Lạng Sơn and Hanoi directed by the Politburo and the Secretariat themselves, Nguyễn Chí Thanh for Thanh Hóa, Lê Văn Lương for Hanoi.'
     n: '*Nghị quyết của Bộ Chính trị số 74-NQ/TW về công tác chỉ đạo riêng của Trung ương*, Mar. 14, of the session of Mar. 8, signed for the Politburo by Lê Đức Thọ; Phạm Văn Đồng "đồng chí Tô" in the text, by the editors'' note. [[w.van-kien-dang-toan]], XXIV, 190–94. Made public: 2003. Names: Trường Chinh, Phạm Văn Đồng, Phạm Hùng, Lê Đức Thọ, Tố Hữu, Lê Thanh Nghị, Nguyễn Văn Trân, Nguyễn Chí Thanh, Lê Văn Lương.'
-    tags: [name:truong-chinh, name:pham-van-dong, name:le-duc-tho, name:nguyen-chi-thanh, polity:drv]
+    tags: [name:truong-chinh, name:pham-van-dong, name:le-duc-tho, name:nguyen-chi-thanh, polity:drv, name:le-thanh-nghi, name:le-van-luong, name:nguyen-van-tran, name:pham-hung, name:to-huu]
   - id: cal.1963-03-08.china-leadership
     when: Mar. 8
     date: '1963-03-08'
@@ -1543,7 +1543,7 @@ entries:
       c: 0c0f5702
       rows:
         - 'w.yang-shangkun-riji II, 260: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:zhou-taihe]
     time_range:
       - 1963-03-08T04:00Z
       - 1963-03-08T10:00Z
@@ -1692,12 +1692,12 @@ entries:
     thread: china-leadership
     also: [south-asia]
     c: Peking. The *Renmin ribao* prints an article on the Dange group of the Indian Communist Party, criticizing Dange's wrong stand on the Sino-Indian border conflict only, with nothing on the dispute within the international movement.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 553 ("the *Renmin ribao* of Mar. 9," image-checked; Wu does not count it among the seven articles of Dec. 15 to Mar. 8, it treating only Dange''s stand on the border conflict).'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 553 ("the *Renmin ribao* of Mar. 9," image-checked; Wu does not count it among the seven articles of Dec. 15 to Mar. 8, it treating only Dange''s stand on the border conflict). Names: Dange.'
     src:
       c: 0f76ca62
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 553: all'
-    tags: [polity:prc]
+    tags: [polity:prc, name:dange]
   - id: cal.1963-03-09.china-leadership-4
     when: Mar. 9
     date: '1963-03-09'
@@ -1732,7 +1732,7 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1751: B'
         - 'w.mao-zedong-zhuan V, ch. 71: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 252: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    tags: [polity:prc, name:deng-xiaoping, name:chervonenko-stepan-v, vis:only:prc+ussr, name:wu-xiuquan, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-09.china-leadership-6
     when: Mar. 9
@@ -1750,7 +1750,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 260: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1751: ?'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+albania+dprk+drv]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc+albania+dprk+drv, name:wu-xiuquan, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-09.china-leadership-7
     when: Mar. 9
@@ -1764,7 +1764,7 @@ entries:
       c: 60598d25
       rows:
         - 'w.yang-shangkun-riji II, 260: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-09.china-leadership-8
     when: Mar. 9
@@ -1779,7 +1779,7 @@ entries:
       c: fba4834f
       rows:
         - 'w.yang-shangkun-riji II, 260: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-03-09T14:00Z
       - 1963-03-09T16:00Z
@@ -2037,7 +2037,7 @@ entries:
       c: 8a11274b
       rows:
         - 'w.yang-shangkun-riji II, 260: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:an-ziwen, name:yang-shangkun]
     time_range:
       - 1963-03-10T22:00Z
       - 1963-03-11T04:00Z
@@ -2054,7 +2054,7 @@ entries:
       c: db11808f
       rows:
         - 'w.yang-shangkun-riji II, 260: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-03-11T04:00Z
       - 1963-03-11T10:00Z
@@ -2072,7 +2072,7 @@ entries:
       c: 1e998348
       rows:
         - 'w.yang-shangkun-riji II, 261: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-11.china-leadership-6
     when: Mar. 11
@@ -2085,7 +2085,7 @@ entries:
       c: 50ce3a40
       rows:
         - 'w.yang-shangkun-riji II, 261: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:luo-qingchang, name:yang-shangkun]
     time_range:
       - 1963-03-11T11:00Z
       - 1963-03-11T14:00Z
@@ -2229,8 +2229,8 @@ entries:
     place: moscow
     thread: soviet-union-leadership
     c: 'The Presidium in session, in its hall, Protocol 87, Khrushchev presiding. Present: Kosygin, Brezhnev, Voronov, Kirilenko, Kozlov, Kuusinen, Podgorny, Polyansky, Suslov, Shvernik, Grishin, Rashidov, Mazurov, Mzhavanadze, Shcherbitsky, Efremov; the secretaries Demichev, Ilyichev, Ponomarev, Andropov, Rudakov, Shelepin; Serdyuk of the Party Commission.'
-    n: '[[w.prezidium-tsk-kpss-1954]], I, 700 (Protocol 87, Malin''s notes); I, 1130 n.1 (those present); III, 452–64 (Protocol 87, dated Mar. 13: P 87/I and 50); III, 1023 n.1 (those present, Serdyuk not among them). Names: Khrushchev, Kosygin, Brezhnev, Voronov, Kirilenko, Kozlov, Kuusinen, Podgorny, Polyansky, Suslov, Shvernik, Mazurov, Demichev, Ponomarev, Andropov, Shelepin. Check: the day, Mar. 12 in Malin''s notes, Mar. 13 in vol. III.'
-    tags: [name:khrushchev-nikita-s, name:kosygin-aleksei, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kozlov-frol-r, name:kuusinen-otto-v, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:mazurov-kirill-t, name:demichev-pyotr-n, name:ponomarev-boris-n, name:andropov-yuriy-vladimirovich, name:shelepin-aleksandr-n]
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 700 (Protocol 87, Malin''s notes); I, 1130 n.1 (those present); III, 452–64 (Protocol 87, dated Mar. 13: P 87/I and 50); III, 1023 n.1 (those present, Serdyuk not among them). Names: Khrushchev, Kosygin, Brezhnev, Voronov, Kirilenko, Kozlov, Kuusinen, Podgorny, Polyansky, Suslov, Shvernik, Mazurov, Demichev, Ponomarev, Andropov, Shelepin, Grishin, Rashidov, Mzhavanadze, Ilyichev. Check: the day, Mar. 12 in Malin''s notes, Mar. 13 in vol. III.'
+    tags: [name:khrushchev-nikita-s, name:kosygin-aleksei, name:brezhnev-leonid, name:voronov-gennady-i, name:kirilenko-andrei-p, name:kozlov-frol-r, name:kuusinen-otto-v, name:podgorny-nikolai-v, name:polyansky-dmitri-s, name:suslov-mikhail-a, name:shvernik-nikolai-m, name:mazurov-kirill-t, name:demichev-pyotr-n, name:ponomarev-boris-n, name:andropov-yuriy-vladimirovich, name:shelepin-aleksandr-n, name:grishin, name:ilyichev, name:mzhavanadze, name:rashidov]
     time_range:
       - 1963-03-12T06:00Z
       - 1963-03-12T14:00Z
@@ -2273,7 +2273,7 @@ entries:
       c: 000ad533
       rows:
         - 'w.yang-shangkun-riji II, 261: all'
-    tags: [polity:prc, name:xiao-xiangrong, vis:only:prc]
+    tags: [polity:prc, name:xiao-xiangrong, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-03-11T22:00Z
       - 1963-03-12T04:00Z
@@ -2292,7 +2292,7 @@ entries:
       c: 7aeef7a0
       rows:
         - 'w.yang-shangkun-riji II, 261: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-shuhuai, name:yang-shangkun]
     time_range:
       - 1963-03-11T22:00Z
       - 1963-03-12T04:00Z
@@ -2311,7 +2311,7 @@ entries:
       c: 5e7bf357
       rows:
         - 'w.yang-shangkun-riji II, 261: all'
-    tags: [polity:prc, vis:only:prc+ussr]
+    tags: [polity:prc, vis:only:prc+ussr, name:yang-shangkun, name:yelizavetin]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-12.china-leadership-5
     when: Mar. 12
@@ -2324,7 +2324,7 @@ entries:
       c: 57d08dda
       rows:
         - 'w.yang-shangkun-riji II, 261: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1963-03-12T11:00Z
       - 1963-03-12T14:00Z
@@ -2395,27 +2395,27 @@ entries:
     also: [china]
     c: 'The Presidium, by poll, the day after the session on the answer to Peking, approves a telegram to Chervonenko for Yang Shangkun: Moscow does not object to publishing the Central Committee''s letter of Feb. 21 with the Chinese party''s of Mar. 9, since Peking will publish its own regardless; the proposal "звучит как ультиматум" (sounds like an ultimatum).'
     n: 'P 87/50. [[w.prezidium-tsk-kpss-1954]], III, 463–64 (doc. 285.2 and the telegram, Andropov''s); III, 1024 nn.12–13 (the editors: the item Malin heads "Об ответе ЦК КПК" (on the answer to the CPC), I, 700; the two letters in *Pravda*, Mar. 14). See [[cal.1963-03-12.china]]. Made public: 2008. Names: Chervonenko, Yang Shangkun.'
-    tags: [name:chervonenko-stepan-v, polity:ussr, polity:prc]
+    tags: [name:chervonenko-stepan-v, polity:ussr, polity:prc, name:yang-shangkun]
   - id: cal.1963-03-13.china-leadership
     when: Mar. 13
     date: '1963-03-13'
     thread: china-leadership
     also: [soviet-union]
     c: 'Evening. Mao hears Yang Shangkun on his talk with Yelizavetin, the Soviet chargé: Moscow is willing to publish the letters but calls ours an "ultimatum" and says it "causes disquiet." Mao at once calls the Standing Committee: the exchange of letters to be published tomorrow. Printed Mar. 14 as "The letters exchanged between the Chinese and Soviet parties for bilateral talks."'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 13, 1963. [[w.yang-shangkun-riji]], II, 261 (Mar. 13, 1963; after dinner Yang reports to Mao; then the Standing Committee: the letters to be published the next day). Made public: 2013. To check: the *Renmin ribao* of Mar. 14, 1963. See [[cal.1963-03-13.soviet-union-leadership]]. Names: Mao Zedong, Yang Shangkun. Check: Yelizavetin''s initials (叶利沙维金 in the nianpu).'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 13, 1963. [[w.yang-shangkun-riji]], II, 261 (Mar. 13, 1963; after dinner Yang reports to Mao; then the Standing Committee: the letters to be published the next day). Made public: 2013. To check: the *Renmin ribao* of Mar. 14, 1963. See [[cal.1963-03-13.soviet-union-leadership]]. Names: Mao Zedong, Yang Shangkun, Yelizavetin. Check: Yelizavetin''s initials (叶利沙维金 in the nianpu).'
     src:
       c: dc6ecdd4
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Mar. 13, 1963: all'
         - 'w.yang-shangkun-riji II, 261: A-C'
-    tags: [polity:prc, polity:ussr, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, polity:ussr, name:mao-zedong, vis:only:prc, name:yang-shangkun, name:yelizavetin]
   - id: cal.1963-03-13.china-leadership-2
     when: Mar. 13
     date: '1963-03-13'
     thread: china-leadership
     c: Zhou Enlai with the physicist Zhou Peiyuan.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 539 (Mar. 13, 1963). Made public: 1997. Names: Zhou Enlai, Zhou Peiyuan.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:zhou-peiyuan]
   - id: cal.1963-03-13.china-leadership-3
     when: Mar. 13
     date: '1963-03-13'
@@ -2433,13 +2433,13 @@ entries:
     date: '1963-03-13'
     thread: china-leadership
     c: '*Jiefangjun bao* editorial: study Lei Feng, be a good soldier of Chairman Mao.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 338. To check: [[w.ming-gongheguo-licheng-da-xiezhen]], shang, 366–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.27). See [[cal.1963-03-06.china-leadership-6]]. Names: Mao Zedong.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 338. To check: [[w.ming-gongheguo-licheng-da-xiezhen]], shang, 366–9 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 338 n.27). See [[cal.1963-03-06.china-leadership-6]]. Names: Mao Zedong, Lei Feng.'
     src:
       c: 159fbe4b
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 338: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 338 n.27: all'
-    tags: [polity:prc, name:mao-zedong]
+    tags: [polity:prc, name:mao-zedong, name:lei-feng]
   - id: cal.1963-03-13.china-leadership-5
     when: Mar. 13
     date: '1963-03-13'
@@ -2451,7 +2451,7 @@ entries:
       c: 06081d50
       rows:
         - 'w.yang-shangkun-riji II, 261: all'
-    tags: [polity:prc, name:wu-faxian, vis:only:prc]
+    tags: [polity:prc, name:wu-faxian, vis:only:prc, name:he-tingyi, name:yang-shangkun]
     time_range:
       - 1963-03-12T22:00Z
       - 1963-03-13T04:00Z
@@ -2469,7 +2469,7 @@ entries:
       c: 651efe19
       rows:
         - 'w.yang-shangkun-riji II, 261: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-13.china-leadership-7
     when: Mar. 13
@@ -2485,7 +2485,7 @@ entries:
       c: 89c357d8
       rows:
         - 'w.yang-shangkun-riji II, 261: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-13.china-leadership-8
     when: Mar. 13
@@ -2502,7 +2502,7 @@ entries:
       c: 7383ca8a
       rows:
         - 'w.yang-shangkun-riji II, 261: all'
-    tags: [polity:prc, vis:only:prc+ussr]
+    tags: [polity:prc, vis:only:prc+ussr, name:yang-shangkun, name:yelizavetin]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-13.china-leadership-9
     when: Mar. 13
@@ -2515,7 +2515,7 @@ entries:
       c: '12584324'
       rows:
         - 'w.yang-shangkun-riji II, 261: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-03-13T14:00Z
       - 1963-03-13T16:00Z
@@ -2534,7 +2534,7 @@ entries:
       c: 50ce3a40
       rows:
         - 'w.yang-shangkun-riji II, 261: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:luo-qingchang, name:yang-shangkun]
     time_range:
       - 1963-03-13T14:00Z
       - 1963-03-13T16:00Z
@@ -2569,8 +2569,8 @@ entries:
     date: '1963-03-13'
     thread: china-leadership
     c: Zhu De 朱德 hears Li Renjun 李人俊, Vice-Minister of the Petroleum Industry 石油工业部, on oil extraction in Sichuan 四川省.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1868. Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, ok:fields-place, name:zhu-de, vis:only:prc]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1868. Made public: 2016. Names: Zhu De, Li Renjun.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, vis:only:prc, name:li-renjun]
   - id: cal.1963-03-14.cuba
     when: Mar. 14
     date: '1963-03-14'
@@ -2670,7 +2670,7 @@ entries:
       c: 58a2d073
       rows:
         - 'w.yang-shangkun-riji II, 262: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:yang-shangkun]
     time_range:
       - 1963-03-13T22:00Z
       - 1963-03-14T04:00Z
@@ -2843,7 +2843,7 @@ entries:
       c: 8b029a98
       rows:
         - 'w.yang-shangkun-riji II, 262: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:mei-xing, name:yang-shangkun]
     time_range:
       - 1963-03-14T22:00Z
       - 1963-03-15T04:00Z
@@ -2860,7 +2860,7 @@ entries:
       c: 37c5ffbf
       rows:
         - 'w.yang-shangkun-riji II, 262: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-03-14T22:00Z
       - 1963-03-15T04:00Z
@@ -2968,13 +2968,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Deng Xiaoping 邓小平, with Peng Zhen 彭真, Lu Dingyi 陆定一 and Yang Shangkun 杨尚昆, prepares the documents for the Sino-Soviet party talks.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1752 (Mar. 16, 1963); [[w.peng-zhen-nianpu-1902]], IV, 253 (Mar. 16, 1963, afternoon; Peng Zhen, with Deng Xiaoping, Lu Dingyi, Yang Shangkun and others, prepares the papers for the talks of the Chinese and Soviet parties). The words: 下午 (III, 1752). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen, Lu Dingyi.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1752 (Mar. 16, 1963); [[w.peng-zhen-nianpu-1902]], IV, 253 (Mar. 16, 1963, afternoon; Peng Zhen, with Deng Xiaoping, Lu Dingyi, Yang Shangkun and others, prepares the papers for the talks of the Chinese and Soviet parties). The words: 下午 (III, 1752). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Peng Zhen, Lu Dingyi, Yang Shangkun.'
     src:
       c: 0a2fe66e
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1752: all'
         - 'w.peng-zhen-nianpu-1902 IV, 253: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-03-16T04:00Z
       - 1963-03-16T10:00Z
@@ -3041,7 +3041,7 @@ entries:
     thread: china-leadership
     c: Zhou Enlai with Lin Feng, the new president of the Central Party School, on education.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 541 (Mar. 17, 1963). Made public: 1997. Names: Zhou Enlai, Lin Feng.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:lin-feng]
   - id: cal.1963-03-17.china-leadership-3
     when: Mar. 17
     date: '1963-03-17'
@@ -3053,7 +3053,7 @@ entries:
       c: 7b5bc3d5
       rows:
         - 'w.yang-shangkun-riji II, 262: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:shuai-mengqi, name:yang-shangkun]
     time_range:
       - 1963-03-17T11:00Z
       - 1963-03-17T14:00Z
@@ -3171,7 +3171,7 @@ entries:
     also: [china]
     c: Yinian Tang, afternoon. Mao receives Jacques Vergès, director of the weekly *Révolution africaine*, and Djamila Bouhired, Algerian heroine; Liu Changsheng and Wu Lengxi present. Praises Algeria as a model of victory over imperialism; Africans should see Algeria, Latin Americans Cuba; China's experience has the fault of having taken so long; whoever loses the masses fails.
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 18, 1963. Made public: 2013. Names: Mao Zedong, Jacques Vergès, Djamila Bouhired, Liu Changsheng, Wu Lengxi.'
-    tags: [polity:prc, polity:algeria, name:mao-zedong, vis:only:prc+algeria]
+    tags: [polity:prc, polity:algeria, name:mao-zedong, vis:only:prc+algeria, name:djamila-bouhired, name:jacques-verges, name:liu-changsheng, name:wu-lengxi]
   - id: cal.1963-03-18.china-leadership-2
     when: Mar. 18
     date: '1963-03-18'
@@ -3212,7 +3212,7 @@ entries:
       c: e85090c7
       rows:
         - 'w.yang-shangkun-riji II, 263: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:zhou-yuanqing]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-18.china-leadership-6
     when: Mar. 18
@@ -3226,7 +3226,7 @@ entries:
       c: cde80b66
       rows:
         - 'w.yang-shangkun-riji II, 263: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:li-jian, name:liu-huo, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-18.china-leadership-7
     when: Mar. 18
@@ -3298,7 +3298,7 @@ entries:
     also: [china]
     c: Zhou Enlai signs the Ministry of Public Security's list of the fourth batch of war criminals, Kang Ze and others, for special pardon, to go to the 128th plenary meeting of the State Council on Mar. 24.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 541 (Mar. 19, 1963). Made public: 1997. Names: Zhou Enlai, Kang Ze.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:kang-ze]
   - id: cal.1963-03-19.china-leadership-3
     when: Mar. 19
     date: '1963-03-19'
@@ -3335,7 +3335,7 @@ entries:
       c: c442bc53
       rows:
         - 'w.yang-shangkun-riji II, 263: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:lai-zulie, name:yang-shangkun]
     time_range:
       - 1963-03-18T22:00Z
       - 1963-03-19T04:00Z
@@ -3352,7 +3352,7 @@ entries:
       c: 0bfb4542
       rows:
         - 'w.yang-shangkun-riji II, 263: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:zeng-san]
     time_range:
       - 1963-03-19T04:00Z
       - 1963-03-19T10:00Z
@@ -3370,7 +3370,7 @@ entries:
       c: a6df3977
       rows:
         - 'w.yang-shangkun-riji II, 263: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:ma-chungu, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-19.china-leadership-8
     when: Mar. 19
@@ -3378,13 +3378,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Deng Xiaoping 邓小平 reads the *Renmin ribao* 人民日报 material "Statements by some fraternal parties attacking the Chinese Communist Party" 《一些兄弟党攻击中国共产党的言论》, orders Wu Lengxi 吴冷西 to print separately the article on the organ of the French party''s weekly, "*Nouvelle France*" (the nianpu''s 新法兰西周刊), which makes much of a forged letter, and sends the material to Mao Zedong 毛泽东 with four points: the French party''s forged-letter piece with an editors'' note; the plan for printing the parties'' articles; the note for the whole; the note on Duclos 杜克洛''s article. The *Renmin ribao* prints the pieces Mar. 21–24 and 26.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1752–1753 (Mar. 19, 1963). The words: 审阅 (III, 1752–1753). Made public: 2009 (the nianpu). To check: Duclos''s article in *L''Humanité*, Mar. 12, 1963 (III, 1753 n.1). Names: Deng Xiaoping, Mao Zedong.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1752–1753 (Mar. 19, 1963). The words: 审阅 (III, 1752–1753). Made public: 2009 (the nianpu). To check: Duclos''s article in *L''Humanité*, Mar. 12, 1963 (III, 1753 n.1). Names: Deng Xiaoping, Mao Zedong, Wu Lengxi, Duclos.'
     src:
       c: e2449d37
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1752–1753: all'
         - 'via x.1963-03-12.duclos-lhumanite-struggle-for-unity-of-international-communist-movement: D'
-    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc, name:duclos, name:wu-lengxi]
   - id: cal.1963-03-19.vietnam-hanoi
     when: Mar. 19
     date: '1963-03-19'
@@ -3399,20 +3399,20 @@ entries:
     date: '1963-03-19'
     thread: china-leadership
     c: 'Peng Zhen 彭真 has Tian Jiaying 田家英 put out a regular paper on the movement for more output and thrift and the "five antis," in two editions: a *Compilation* 《增产节约和“五反”运动情况汇编》 sent down, with typical experience, and *Materials* 《增产节约和“五反”运动资料》 for the leaders; from the localities'' reports and men sent out.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 253. Made public: 2012. See [[cal.1962-11-28.china-leadership-5]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 253. Made public: 2012. See [[cal.1962-11-28.china-leadership-5]]. Names: Peng Zhen, Tian Jiaying.'
     src:
       c: 4ac48d33
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 253: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:tian-jiaying]
   - id: cal.1963-03-19.china-leadership-10
     when: Mar. 19
     date: '1963-03-19'
     place: xian
     thread: china-leadership
     c: Xi'an 西安. Zhu De 朱德 hears Liu Lantao 刘澜涛, first secretary of the Center's Northwest Bureau 中共中央西北局, Wang Lin 王林, an alternate secretary, and others on the Northwest's plans for the Third Five-Year Plan 第三个五年计划.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1869. Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1869. Made public: 2016. Names: Zhu De, Liu Lantao, Wang Lin.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc, name:liu-lantao, name:wang-lin]
   - id: cal.1963-03-19.china-leadership-11
     when: Mar. 19
     date: '1963-03-19'
@@ -3487,7 +3487,7 @@ entries:
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Mar. 20, 1963: ?'
         - 'w.yang-shangkun-riji II, 263: A-B'
-    tags: [polity:prc, polity:ussr, name:mao-zedong, vis:only:prc+ussr]
+    tags: [polity:prc, polity:ussr, name:mao-zedong, vis:only:prc+ussr, name:yang-shangkun]
   - id: cal.1963-03-20.china-leadership-2
     when: Mar. 20
     date: '1963-03-20'
@@ -3514,7 +3514,7 @@ entries:
       c: 9cdc08bf
       rows:
         - 'w.yang-shangkun-riji II, 263: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yan-mingfu, name:yang-shangkun]
     time_range:
       - 1963-03-20T04:00Z
       - 1963-03-20T10:00Z
@@ -3535,19 +3535,19 @@ entries:
       c: 9329b38e
       rows:
         - 'w.yang-shangkun-riji II, 263: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-20.china-leadership-5
     when: Mar. 20
     date: '1963-03-20'
     thread: china-leadership
     c: 'Deng Xiaoping 邓小平 reads the International Liaison Department''s 对外联络部 request for the Central Committee''s 中央 decision on delegates to the Finnish and Belgian party congresses. Comment to Wu Xiuquan 伍修权: the Standing Committee has agreed to send no delegate, only a simple greeting telegram, whose wording is to be weighed; to be drafted and sent for approval.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1753 (Mar. 20, 1963). The words: 阅 (III, 1753). Made public: 2009 (the nianpu). Names: Deng Xiaoping. Check: the Finnish and Belgian party congresses'' names and dates.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1753 (Mar. 20, 1963). The words: 阅 (III, 1753). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Wu Xiuquan. Check: the Finnish and Belgian party congresses'' names and dates.'
     src:
       c: '67178724'
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1753: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:wu-xiuquan]
   - id: cal.1963-03-20.vietnam-hanoi
     when: Mar. 20
     date: '1963-03-20'
@@ -3640,7 +3640,7 @@ entries:
     thread: china-leadership
     c: 'Zhou Enlai presides at the fifth meeting of the Central Special Committee; after Liu Xiyao reports on the working groups'' inspection of the Second Ministry of Machine Building, he says of its two-year plan to hold the first nuclear test in 1964 that with a plan there are tracks; be truthful, go by steps, persist, no pride or haste. The ministry''s work is to have "three highs": political and ideological quality; scientific planning; organization and discipline. The three were taken up in the Second Ministry and the other defense branches as a long guide.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 541 (Mar. 21, 1963). Continues 542. Made public: 1997. Names: Zhou Enlai, Liu Xiyao.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:liu-xiyao]
   - id: cal.1963-03-21.china-leadership-2
     when: Mar. 21
     date: '1963-03-21'
@@ -3668,7 +3668,7 @@ entries:
       c: 513f6923
       rows:
         - 'w.yang-shangkun-riji II, 263: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-21.china-leadership-4
     when: Mar. 21
@@ -3692,12 +3692,12 @@ entries:
     date: '1963-03-21'
     thread: china-leadership
     c: 'Peng Zhen 彭真, on Wu Yuzhang''s 吴玉章 report asking the Center to send someone to talk with the People''s University''s 中国人民大学 vice-presidents to settle a new leadership: to Lu Dingyi 陆定一, An Ziwen 安子文 and Liu Ren 刘仁; Lu to decide.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 254. The page''s note: Wu Yuzhang, president of the People''s University (IV, 254). Made public: 2012. Names: Peng Zhen, Lu Dingyi.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 254. The page''s note: Wu Yuzhang, president of the People''s University (IV, 254). Made public: 2012. Names: Peng Zhen, Lu Dingyi, Wu Yuzhang, An Ziwen, Liu Ren.'
     src:
       c: e1d3fbab
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 254: all'
-    tags: [polity:prc, name:peng-zhen, name:lu-dingyi, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, name:lu-dingyi, vis:only:prc, name:an-ziwen, name:liu-ren, name:wu-yuzhang]
   - id: cal.1963-03-21.china-leadership-6
     when: Mar. 21
     date: '1963-03-21'
@@ -3831,7 +3831,7 @@ entries:
       c: '20377122'
       rows:
         - 'w.yang-shangkun-riji II, 264: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-22.china-leadership-5
     when: Mar. 22
@@ -3844,7 +3844,7 @@ entries:
       c: 36f0a1f7
       rows:
         - 'w.yang-shangkun-riji II, 264: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-liqun, name:mei-xing, name:yang-shangkun]
     time_range:
       - 1963-03-22T04:00Z
       - 1963-03-22T10:00Z
@@ -3862,7 +3862,7 @@ entries:
       c: 49a5b40f
       rows:
         - 'w.yang-shangkun-riji II, 264: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:luo-qingchang, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-22.china-leadership-7
     when: Mar. 22
@@ -3934,7 +3934,7 @@ entries:
     thread: china-leadership
     c: Zhou Enlai with Nie Rongzhen and Liu Xiyao on the Second Ministry of Machine Building's work.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 542 (Mar. 23, 1963). Made public: 1997. Names: Zhou Enlai, Nie Rongzhen, Liu Xiyao.'
-    tags: [polity:prc, name:zhou-enlai, name:nie-rongzhen, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:nie-rongzhen, vis:only:prc, name:liu-xiyao]
   - id: cal.1963-03-23.china-leadership-2
     when: Mar. 23
     date: '1963-03-23'
@@ -3999,7 +3999,7 @@ entries:
       c: f14d017e
       rows:
         - 'w.yang-shangkun-riji II, 264: all'
-    tags: [polity:prc, name:chen-yi, vis:only:prc]
+    tags: [polity:prc, name:chen-yi, vis:only:prc, name:yang-shangkun, name:zhang-qian]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-23.china-leadership-7
     when: Mar. 23
@@ -4101,7 +4101,7 @@ entries:
     also: [china]
     c: Zhou Enlai with Xia Yan, Sa Kongliao, Ma Yanxiang and others, hearing the preparations for the Peking Opera Troupe's Hong Kong tour, the persons and the programs one by one. Peking opera must be reformed and show "pushing out the old to bring forth the new"; its talents are to be protected and respected and given standing; he has told television that when a play is shown the drummer and the fiddler are to be named.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 542 (Mar. 24, 1963). Made public: 1997. Names: Zhou Enlai, Xia Yan, Sa Kongliao, Ma Yanxiang.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:ma-yanxiang, name:sa-kongliao, name:xia-yan]
   - id: cal.1963-03-24.china
     when: Mar. 24
     date: '1963-03-24'
@@ -4125,7 +4125,7 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 501: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 501 n.1: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:zhang-gan]
   - id: cal.1963-03-24.china-leadership-3
     when: Mar. 24
     date: '1963-03-24'
@@ -4136,7 +4136,7 @@ entries:
       c: a79ac2f7
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 502–503: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:jiang-zhuru, name:zhang-gan, name:zhou-shizhao]
   - id: cal.1963-03-24.china-leadership-4
     when: Mar. 24
     date: '1963-03-24'
@@ -4148,7 +4148,7 @@ entries:
       c: 50ce3a40
       rows:
         - 'w.yang-shangkun-riji II, 264: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:luo-qingchang, name:yang-shangkun]
     time_range:
       - 1963-03-24T11:00Z
       - 1963-03-24T14:00Z
@@ -4241,7 +4241,7 @@ entries:
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 542: ?'
         - 'w.zhou-enlai-waijiao-huodong 354: A'
-    tags: [polity:prc, polity:ceylon, polity:india, name:zhou-enlai, name:nehru-jawaharlal, name:bandaranaike-srimavo, vis:only:prc+ceylon]
+    tags: [polity:prc, polity:ceylon, polity:india, name:zhou-enlai, name:nehru-jawaharlal, name:bandaranaike-srimavo, vis:only:prc+ceylon, name:a-b-perera]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-25.china
     when: Mar. 25
@@ -4496,7 +4496,7 @@ entries:
       c: 2a2066dd
       rows:
         - 'w.yang-shangkun-riji II, 265: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:he-jun, name:mei-xing, name:yang-shangkun]
     time_range:
       - 1963-03-25T22:00Z
       - 1963-03-26T04:00Z
@@ -4513,7 +4513,7 @@ entries:
       c: 57d08dda
       rows:
         - 'w.yang-shangkun-riji II, 265: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1963-03-26T11:00Z
       - 1963-03-26T14:00Z
@@ -4607,7 +4607,7 @@ entries:
     also: [china]
     c: 'Zhou Enlai with Wu Yuzhang, Zhang Jichun, Ye Laishi and Zhou Rongxin on the streamlining and the status of the Committee on Script Reform: it stays a State Council body under the Cultural and Educational Office, its staff cut from over 130 to about 40; its Party group stays directly under the Center and takes big matters to the Central Cultural and Educational Group, where Hu Qiaomu still runs script reform; ordinary business goes to the Office or the State Council.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 543 (Mar. 27, 1963). Made public: 1997. Names: Zhou Enlai, Wu Yuzhang, Zhang Jichun, Ye Laishi, Zhou Rongxin, Hu Qiaomu.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:hu-qiaomu, name:wu-yuzhang, name:ye-laishi, name:zhang-jichun, name:zhou-rongxin]
   - id: cal.1963-03-27.china-leadership-2
     when: Mar. 27
     date: '1963-03-27'
@@ -4619,7 +4619,7 @@ entries:
       c: 0bfb4542
       rows:
         - 'w.yang-shangkun-riji II, 265: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:zeng-san]
     time_range:
       - 1963-03-26T22:00Z
       - 1963-03-27T04:00Z
@@ -4636,7 +4636,7 @@ entries:
       c: b83193be
       rows:
         - 'w.yang-shangkun-riji II, 265: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:yang-shangkun]
     time_range:
       - 1963-03-27T04:00Z
       - 1963-03-27T10:00Z
@@ -4657,7 +4657,7 @@ entries:
         - 'w.yang-shangkun-riji II, 265: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1753: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 255: ?'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:yang-shangkun, name:yonehara-itaru]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-28.republican-party-congress
     when: Mar. 28
@@ -4752,7 +4752,7 @@ entries:
     also: [china]
     c: 'Zhou Enlai to Deng Xiaoping, Peng Zhen, Lu Dingyi, Hu Qiaomu and others, by letter: the revised plan for simplifying Chinese characters should be settled this month, to go after printing to the Cultural and Educational Group and on to the Secretariat for approval.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 543 (Mar. 28, 1963). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping, Peng Zhen, Lu Dingyi, Hu Qiaomu.'
-    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, vis:only:prc, name:hu-qiaomu]
   - id: cal.1963-03-28.china-leadership-2
     when: Mar. 28
     date: '1963-03-28'
@@ -4763,7 +4763,7 @@ entries:
       c: c061c3c3
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 504: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:dai-yuben]
   - id: cal.1963-03-28.china-leadership-3
     when: Mar. 28
     date: '1963-03-28'
@@ -4953,7 +4953,7 @@ entries:
       c: 098ea1a0
       rows:
         - 'w.yang-shangkun-riji II, 265: all'
-    tags: [polity:prc, name:chen-yi, name:liu-shaoqi, vis:only:prc]
+    tags: [polity:prc, name:chen-yi, name:liu-shaoqi, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03-29.china-leadership-2
     when: Mar. 29
@@ -4966,7 +4966,7 @@ entries:
       c: 7f9ee113
       rows:
         - 'w.yang-shangkun-riji II, 266: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:gong-zirong, name:yang-shangkun]
     time_range:
       - 1963-03-29T04:00Z
       - 1963-03-29T10:00Z
@@ -5121,12 +5121,13 @@ entries:
     thread: press-and-broadcasting
     also: [soviet-union]
     c: 'Ilyichev to the Central Committee, on jamming: 131 stations broadcast to the Soviet Union, in 21 of its languages, 80 hours a day; nearly half the power of all Soviet radio stations goes to jamming them. Jamming of the BBC, then of the Voice of America, to be stopped by stages.'
-    n: '[[w.prezidium-tsk-kpss-1954]], III, 468–72 (the note). Made public: 2008.'
+    n: '[[w.prezidium-tsk-kpss-1954]], III, 468–72 (the note). Made public: 2008. Names: Ilyichev.'
     src:
       c: e11a2411
       rows:
         - 'w.prezidium-tsk-kpss-1954 III, 468–72: all'
         - 'via x.1963-03-30.ilyichev-note-jamming: all'
+    tags: [name:ilyichev]
     time_range:
       - 1963-03-30T06:00Z
       - 1963-03-30T14:00Z
@@ -5146,7 +5147,7 @@ entries:
     thread: china-leadership
     c: Zhou Enlai, in the evening, tours the exhibition on the life of Lei Feng and hears the guide in detail.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 543 (Mar. 30, 1963). Names: Zhou Enlai, Lei Feng.'
-    tags: [polity:prc, name:zhou-enlai]
+    tags: [polity:prc, name:zhou-enlai, name:lei-feng]
   - id: cal.1963-03-30.china-leadership-3
     when: Mar. 30
     date: '1963-03-30'
@@ -5166,7 +5167,7 @@ entries:
       c: 949f3743
       rows:
         - 'w.yang-shangkun-riji II, 266: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-chou, name:yang-shangkun]
     time_range:
       - 1963-03-29T22:00Z
       - 1963-03-30T04:00Z
@@ -5209,8 +5210,8 @@ entries:
     place: chengdu
     thread: china-leadership
     c: 'Chengdu 成都. Zhu De 朱德 hears Liao Zhigao 廖志高 and Yang Chao 杨超, secretaries of the Sichuan committee''s Secretariat 中共四川省委书记处, and Yang Wanxuan 杨万选, of its Standing Committee and head of its rural work department 农村工作部, on Sichuan''s plans for the Third Five-Year Plan 第三个五年计划 and the province''s three-level cadre conference, and says: grain and oil targets not too high, or they will fail; grain grows some 4 or 5 percent a year, not 10-odd; output planned in the order agriculture, light, heavy; many lines; herds much enlarged, to give the people meat; more exports for foreign exchange to buy machinery, light industry, handicrafts and household sidelines all able to export, the targets rising each year.'
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1870. Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1870. Made public: 2016. Names: Zhu De, Liao Zhigao, Yang Chao.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc, name:liao-zhigao, name:yang-chao]
   - id: cal.1963-03-31.press-and-broadcasting
     when: Mar. 31
     date: '1963-03-31'
@@ -5566,7 +5567,7 @@ entries:
     thread: china-leadership
     c: 'Zhou Enlai to his staff: the young must learn from Lei Feng, and so must he; there is no question of who should and who need not; to learn from him is to work doubly for the people.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 538–39 (Mar., soon after the 5th, 1963). Made public: 1997. See [[cal.1963-03-05.china-leadership-2]]. Names: Zhou Enlai, Lei Feng. Check: the day.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:lei-feng]
   - id: cal.1963-03.china-leadership-2
     when: Mar.
     date: 1963-03
@@ -5658,7 +5659,7 @@ entries:
       c: fb94f930
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 505: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:zhang-wei]
   - id: cal.1963-03-31.china-leadership-5
     when: Mar. 31
     date: '1963-03-31'
@@ -5671,7 +5672,7 @@ entries:
       c: 2c1d0aea
       rows:
         - 'w.yang-shangkun-riji II, 266: all'
-    tags: [polity:prc, name:liu-shaoqi, name:deng-xiaoping, name:li-fuchun, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:liu-shaoqi, name:deng-xiaoping, name:li-fuchun, name:peng-zhen, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-03.china-leadership-8
     when: Mar.
@@ -5711,8 +5712,8 @@ entries:
     at: after 1963-03-05
     thread: china-leadership
     c: Chen Yi 陈毅 writes the poem "Learn from Comrade Lei Feng" 《向雷锋同志学习》.
-    n: '[[w.chen-yi-nianpu]], 958. See [[cal.1963-03-05.china-leadership-2]]. The words: 之后 (958). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi.'
-    tags: [polity:prc, name:chen-yi, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 958. See [[cal.1963-03-05.china-leadership-2]]. The words: 之后 (958). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poem. Names: Chen Yi, Lei Feng.'
+    tags: [polity:prc, name:chen-yi, ok:fields-place, name:lei-feng]
   - id: cal.1963-03-31.china-leadership-6
     when: Mar. 31
     date: '1963-03-31'
@@ -5760,9 +5761,9 @@ entries:
     at: after 1963-03-06
     thread: china-leadership
     c: Lin Biao 林彪 writes an inscription for the campaign to learn from Lei Feng 雷锋, as Chen Yun 陈云, Deng Xiaoping 邓小平 and others have.
-    n: '[[w.teiwes-tragedy-of-lin-biao]], 198. See [[cal.1963-03-06.china-leadership-8]]. Names: Lin Biao, Chen Yun, Deng Xiaoping.'
+    n: '[[w.teiwes-tragedy-of-lin-biao]], 198. See [[cal.1963-03-06.china-leadership-8]]. Names: Lin Biao, Chen Yun, Deng Xiaoping, Lei Feng.'
     src:
       c: 9b35dbdb
       rows:
         - 'w.teiwes-tragedy-of-lin-biao 198: all'
-    tags: [polity:prc, name:lin-biao, name:chen-yun, name:deng-xiaoping]
+    tags: [polity:prc, name:lin-biao, name:chen-yun, name:deng-xiaoping, name:lei-feng]

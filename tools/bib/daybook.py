@@ -534,6 +534,35 @@ def ix_anchors(lst, sec):
     return out
 
 
+def sub_li(h):
+    """An entry's li marked a subentry (subentries.py, STYLE 2): a hair indented."""
+    head = h[:h.index(">") + 1]
+    if ' class="' in head:
+        return h.replace(' class="', ' class="sub ', 1)
+    return h.replace("<li", '<li class="sub"', 1)
+
+
+def day_open(d, dlv, with_year, aid):
+    """A day's block opened and its heading's date ("Monday, Apr. 17"; the year added with_year), its heading left open
+    for the day's lines (the Times, the programs) (STYLE 16)."""
+    label = f"{calendar.day_name[d.weekday()]}, {day_label(d, with_year)}"
+    return (f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="{aid}" data-h="{dlv}" '
+            f'data-short="{esc(label)}" data-crumb="{d.day}"><div class="dh" role="heading" aria-level="{dlv}">'
+            f'<span class="dn">{esc(label)}</span>')
+
+
+def ix_open(head, dlv, aid):
+    """An intercalary day's block opened, its heading the loose date ("Late May"; loose.py)."""
+    return (f'<div class="day ix" id="{aid}" data-h="{dlv}" data-short="{esc(head)}" data-crumb="{esc(head)}">'
+            f'<div class="dh" role="heading" aria-level="{dlv}"><span class="dn">{esc(head)}</span></div>')
+
+
+def block_open(label, cls="mo"):
+    """A month's (or a year's) undated block opened, its heading the month's name ("April") or the year."""
+    dh = f'<div class="dh"><span class="dn">{esc(label)}</span></div>' if label else ""
+    return f'<div class="day {cls}">{dh}'
+
+
 def section_days(lst, sec, entry_li, thread_name, prefix=""):
     """HTML for a dated calendar section, laid out by day, as (lead, body): the lead, the year's heading, block and
     intercalary days, before the section's heading; the body after it (STYLE 17). entry_li(e, rubric_html) ->
@@ -569,12 +598,7 @@ def section_days(lst, sec, entry_li, thread_name, prefix=""):
 
     def li(e, sub):                  # a standing condition as any other entry: no label, no rule (standing.py, STYLE 1)
         h = entry_li(e, rubric(lst, e, thread_name))
-        if not sub:
-            return h
-        head = h[:h.index(">") + 1]
-        if ' class="' in head:
-            return h.replace(' class="', ' class="sub ', 1)
-        return h.replace("<li", '<li class="sub"', 1)
+        return sub_li(h) if sub else h
     wtag = f"h{min(sec.level + 1, 5)}"   # the week a level under the month (STYLE 16)
     dlv = min(int(wtag[1]) + 1, 6)
     seen_ix = {}
@@ -584,26 +608,22 @@ def section_days(lst, sec, entry_li, thread_name, prefix=""):
             day, slot, _, head = k
             n = seen_ix[(day, slot)] = seen_ix.get((day, slot), 0) + 1
             aid = ix_id(day, slot, n)
-            out.append(f'<div class="day ix" id="{aid}" data-h="{dlv}" data-short="{esc(head)}" data-crumb="{esc(head)}">'
-                       f'<div class="dh" role="heading" aria-level="{dlv}"><span class="dn">{esc(head)}</span></div>'
-                       '<ol class="e">' + "".join(li(e, sub) for e, sub in ix[k]) + "</ol></div>")
+            out.append(ix_open(head, dlv, aid) + '<ol class="e">' + "".join(li(e, sub) for e, sub in ix[k]) + "</ol></div>")
 
     year = year_opened(lst, sec)            # the year, its block and its opening days before the month (STYLE 17)
     if year is not None:
         lead.append(year_heading(lst, sec, year, prefix))
     if year_only:                           # a year alone, before the month (loose.py, STYLE 2)
-        dh = ("" if year is not None and str(year_only[0][0]["date"]) == str(year) else
-              f'<div class="dh"><span class="dn">{esc(year_only[0][0]["date"])}</span></div>')
-        lead.append(f'<div class="day mo yr">{dh}'
-                    '<ol class="e">' + "".join(li(e, sub) for e, sub in year_only) + "</ol></div>")
+        dh = "" if year is not None and str(year_only[0][0]["date"]) == str(year) else str(year_only[0][0]["date"])
+        lead.append(block_open(dh, "mo yr") + '<ol class="e">' + "".join(li(e, sub) for e, sub in year_only) + "</ol></div>")
     # a year's intercalary days at the section's month, before its heading: "Early 1962" after "1962", "Mid-1962"
     # before "May" (where the calendar opens after the 1st, early January 1960, those of the 1st too)
     lead_ix = [k for k in ix if k[1] == -1.5 and k[0] <= lo and (k[0].year, k[0].month) == (lo.year, lo.month)]
     if lead_ix:
         ix_days(lead_ix, lead)
     if undated:
-        out.append(f'<div class="day mo"><div class="dh"><span class="dn">{esc(calendar.month_name[lo.month])}</span></div>'
-                   '<ol class="e">' + "".join(li(e, sub) for e, sub in undated) + "</ol></div>")
+        out.append(block_open(calendar.month_name[lo.month]) + '<ol class="e">' + "".join(li(e, sub) for e, sub in undated)
+                   + "</ol></div>")
 
     ix_days([k for k in ix if k[0] < lo and k not in lead_ix])
     d = lo
@@ -620,10 +640,7 @@ def section_days(lst, sec, entry_li, thread_name, prefix=""):
                        f'{esc(wl)}</{wtag}>')
         ix_days([k for k in ix if k[0] == d and k[1] == 0])     # the intercalary days before it, under its week
         # each day a heading in the scroll and the top bar (STYLE 16)
-        dshort = f"{calendar.day_name[d.weekday()]}, {day_label(d, d.year != lo.year)}"
-        h = [f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="d{iso}" data-h="{dlv}" '
-             f'data-short="{esc(dshort)}" data-crumb="{d.day}"><div class="dh" role="heading" aria-level="{dlv}">'
-             f'<span class="dn">{calendar.day_name[d.weekday()]}, {esc(day_label(d, d.year != lo.year))}</span>']
+        h = [day_open(d, dlv, d.year != lo.year, f"d{iso}")]
         h.append(f'<a class="tm" href="{TM.format(y=d.year, m=d.month, d=d.day)}"><i>New York Times</i></a>')
         tv = sorted(programs().get(iso, []), key=lambda r: r["show"] != "Face the Nation")
         if tv:                               # the day's programs on one line, Face the Nation first

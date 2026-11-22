@@ -215,7 +215,7 @@ entries:
       c: e89d37e9
       rows:
         - 'w.yang-shangkun-riji II, 274: all'
-    tags: [polity:prc, name:deng-xiaoping, name:li-fuchun, name:kang-sheng, name:zhou-enlai]
+    tags: [polity:prc, name:deng-xiaoping, name:li-fuchun, name:kang-sheng, name:zhou-enlai, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-01.china-leadership-8
     when: May 1
@@ -229,7 +229,7 @@ entries:
       c: fb73969d
       rows:
         - 'w.yang-shangkun-riji II, 275: all'
-    tags: [polity:prc]
+    tags: [polity:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-01.china-leadership-9
     when: May 1
@@ -245,8 +245,8 @@ entries:
     place: xian
     thread: china-leadership
     c: Xi'an 西安. Zhu De 朱德 hears Wang Lin 王林, alternate secretary of the Center's Northwest Bureau 中共中央西北局, and Zhao Shouyi 赵守一, a secretary of the Shaanxi committee's Secretariat 中共陕西省委书记处.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1874. Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de, vis:only:prc]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1874. Made public: 2016. Names: Zhu De, Wang Lin, Zhao Shouyi.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc, name:wang-lin, name:zhao-shouyi]
   - id: cal.1963-05-02.alabama
     when: May 2
     date: '1963-05-02'
@@ -442,12 +442,12 @@ entries:
     thread: china-leadership
     also: [china, africa]
     c: Peking. Zhou Enlai attends the cocktail party given by the Guinean Ambassador, Camara Mamadi.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 359 (May 2, 1963; 晚上). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 359 (May 2, 1963; 晚上). Names: Zhou Enlai, Camara Mamadi.'
     src:
       c: 9da6dfad
       rows:
         - 'w.zhou-enlai-waijiao-huodong 359: all'
-    tags: [polity:prc, polity:guinea, name:zhou-enlai]
+    tags: [polity:prc, polity:guinea, name:zhou-enlai, name:camara-mamadi]
     time_range:
       - 1963-05-02T11:00Z
       - 1963-05-02T14:00Z
@@ -462,13 +462,13 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking to Hangzhou. Deng Xiaoping, Peng Zhen, Lu Dingyi and Kang Sheng, with Wu Lengxi, Yao Zhen and Fan Ruoyu, leave in the morning for the enlarged Standing Committee Mao has called at Hangzhou. The weather puts them down at Nanjing for a short stay. At Hangzhou, where the day's heat is 34 degrees, they lodge at the new Xiling Hotel with the regional bureaus' secretaries and Tan Zhenlin, Li Fuchun, Bo Yibo and Liao Luyan; Chen Boda, there before them, is in a villa by the West Lake.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 561–562 ("on the morning of May 2, after May Day"; the first modern hotel in Hangzhou; Liu Shaoqi, abroad on a state visit, not at the meeting); [[w.peng-zhen-nianpu-1902]], IV, 261 (May 2, 1963; Peng Zhen to Hangzhou for Mao''s small meeting on socialist education in the villages). Made public: 1999. Names: Deng Xiaoping, Peng Zhen, Lu Dingyi, Kang Sheng, Tan Zhenlin, Li Fuchun, Bo Yibo, Chen Boda, Mao Zedong.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 561–562 ("on the morning of May 2, after May Day"; the first modern hotel in Hangzhou; Liu Shaoqi, abroad on a state visit, not at the meeting); [[w.peng-zhen-nianpu-1902]], IV, 261 (May 2, 1963; Peng Zhen to Hangzhou for Mao''s small meeting on socialist education in the villages). Made public: 1999. Names: Deng Xiaoping, Peng Zhen, Lu Dingyi, Kang Sheng, Tan Zhenlin, Li Fuchun, Bo Yibo, Chen Boda, Mao Zedong, Wu Lengxi, Yao Zhen, Fan Ruoyu, Liao Luyan.'
     src:
       c: 4a5ab039
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 561–562: all'
         - 'w.peng-zhen-nianpu-1902 IV, 261: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:kang-sheng, name:tan-zhenlin, name:li-fuchun, name:bo-yibo, name:chen-boda, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:kang-sheng, name:tan-zhenlin, name:li-fuchun, name:bo-yibo, name:chen-boda, name:mao-zedong, vis:only:prc, name:fan-ruoyu, name:liao-luyan, name:wu-lengxi, name:yao-zhen]
     time_range:
       - 1963-05-01T22:00Z
       - 1963-05-02T04:00Z
@@ -492,13 +492,13 @@ entries:
     follows:
       - cal.1963-05-02.china-leadership-5
     c: Hangzhou, Liuzhuang, evening. Mao holds the Standing Committee on the day the drafters arrive, with Peng Zhen, Chen Boda, Kang Sheng and Wu Lengxi present. Asked about the two drafts on the general line, Deng Xiaoping says neither is ripe and each needs large revision; Hangzhou has many views on Peking's and Peking on Hangzhou's. Mao has Deng gather both sides to exchange them, he himself staying out and sending his secretary Lin Ke to listen.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 562–563 ("the evening of the day we arrived"; Mao''s residence the Liuzhuang; the enlarged Standing Committee''s two subjects, home ("the four clean-ups," socialist education, a decision drafted almost wholly by Mao''s dictation and put in order by Chen Boda, the later "Former Ten Points") and abroad (the two drafts); the regional secretaries joined the first; Mao then gave himself to the "Former Ten Points"); [[w.peng-zhen-nianpu-1902]], IV, 261 (May 2–12, 1963; Peng Zhen at Hangzhou at Mao''s small meeting on rural socialist education; before it the Center had forwarded the report on Xiyang county''s cadres in labor (Mar. 20) and the North China Bureau''s on poor and lower-middle peasants'' organizations (Apr. 9), and printed the Baoding prefectural committee''s report on the "four clean-ups" (Apr. 4); Mao names Peng Zhen to draft the first paper on the movement). Made public: 1999. See [[cal.1963-05-02.china-leadership-5]]. Names: Mao Zedong, Peng Zhen, Chen Boda, Kang Sheng, Deng Xiaoping. Check: the Mao chronology has Mao at Shanghai the afternoon of May 3 ([[cal.1963-05-03.china-leadership]]).'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 562–563 ("the evening of the day we arrived"; Mao''s residence the Liuzhuang; the enlarged Standing Committee''s two subjects, home ("the four clean-ups," socialist education, a decision drafted almost wholly by Mao''s dictation and put in order by Chen Boda, the later "Former Ten Points") and abroad (the two drafts); the regional secretaries joined the first; Mao then gave himself to the "Former Ten Points"); [[w.peng-zhen-nianpu-1902]], IV, 261 (May 2–12, 1963; Peng Zhen at Hangzhou at Mao''s small meeting on rural socialist education; before it the Center had forwarded the report on Xiyang county''s cadres in labor (Mar. 20) and the North China Bureau''s on poor and lower-middle peasants'' organizations (Apr. 9), and printed the Baoding prefectural committee''s report on the "four clean-ups" (Apr. 4); Mao names Peng Zhen to draft the first paper on the movement). Made public: 1999. See [[cal.1963-05-02.china-leadership-5]]. Names: Mao Zedong, Peng Zhen, Chen Boda, Kang Sheng, Deng Xiaoping, Wu Lengxi, Lin Ke. Check: the Mao chronology has Mao at Shanghai the afternoon of May 3 ([[cal.1963-05-03.china-leadership]]).'
     src:
       c: 82950f9e
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 562–563: all'
         - 'w.peng-zhen-nianpu-1902 IV, 261: ?'
-    tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:chen-boda, name:kang-sheng, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:chen-boda, name:kang-sheng, name:deng-xiaoping, vis:only:prc, name:lin-ke, name:wu-lengxi]
     time_range:
       - 1963-05-02T11:00Z
       - 1963-05-02T14:00Z
@@ -540,7 +540,7 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVI, 535 n.1b: all'
         - 'w.mao-zedong-zhuan VI, ch. 72: B, C'
         - 'via w.mao-zedong-zhuan VI, ch.72 n.7: B, C'
-    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, vis:only:prc, name:song-renqiong, name:yang-shangkun]
   - id: cal.1963-05-02.china-leadership-9
     when: May 2
     date: '1963-05-02'
@@ -555,7 +555,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 275: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1756: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc, name:wu-xiuquan, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-02.china-leadership-10
     when: May 2
@@ -567,7 +567,7 @@ entries:
       c: 21082f80
       rows:
         - 'w.yang-shangkun-riji II, 275: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:li-xuefeng, name:liu-lantao, name:song-renqiong, name:yang-shangkun]
     time_range:
       - 1963-05-02T11:00Z
       - 1963-05-02T14:00Z
@@ -580,12 +580,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Deng Xiaoping 邓小平, with Kang Sheng 康生 and Wu Xiuquan 伍修权, in talks with Kim Il Sung 金日成 at Pyongyang 平壤; returns to Peking 北京 May 4. At the second talk, May 3, Deng: this year''s agriculture fairly good; urban workers cut by 18 million, the wage bill by 5 billion; the people''s health much improved, but too many children, hence family planning; the Chinese are weighing Party rectification, trials this year, formal re-registration of members next year; the ''five-antis'' not ended with this round, rectification once every few years, ideology and literature and art also to be set in order.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1756–1757 (May 2–4, 1963). The time is the first day''s. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1756–1757 (May 2–4, 1963). The time is the first day''s. Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng, Wu Xiuquan.'
     src:
       c: 30ac9017
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1756–1757: all'
-    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc+dprk]
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc+dprk, name:wu-xiuquan]
   - id: cal.1963-05-02.china-leadership-12
     when: May 2
     date: '1963-05-02'
@@ -818,7 +818,7 @@ entries:
       rows:
         - 'w.zedong-mao-zedong-nianpu V, May 3, 1963: all'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 281–282: B, G'
-    tags: [polity:prc, polity:guinea, name:mao-zedong, name:ke-qingshi, vis:only:prc+guinea]
+    tags: [polity:prc, polity:guinea, name:mao-zedong, name:ke-qingshi, vis:only:prc+guinea, name:ye-jizhuang]
   - id: cal.1963-05-03.china-leadership-2
     when: May 3
     date: '1963-05-03'
@@ -841,12 +841,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Hangzhou, the eighth floor of the Xiling Hotel, west end. Deng Xiaoping, three mornings, May 3 to 5, chairs the exchange of views on the Peking and Hangzhou drafts: Peng Zhen, Lu Dingyi, Chen Boda and Kang Sheng, the drafters Wu Lengxi, Yao Zhen, Fan Ruoyu and Wang Li, and Kang Sheng''s secretary, Li Xin; Lin Ke sits the three days and takes both sides'' views to Mao. Wu opens: Peking''s drafters find Chen''s draft short on practice and on the Soviet views, long on general principle, a textbook; Chen answers that Mao asked it to begin from contradictions. Lu Dingyi faults both; Deng and Peng Zhen fault Peking''s draft and ask that Chen''s be tied closer to the open polemic.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 563–565 (the meeting "at first cold," Wu speaking first; Chen Boda, "who held himself high," displeased at the manner of discussion, in which the drafters call out and answer at once; Deng: all views may be said, anyone''s may be refuted; Peking''s draft strong on the real situation and the actual contradictions, short on theory; Deng asks Lin Ke, as the sessions end, whether he has told Mao all; Lin Ke has, and Mao will talk after the meeting). Made public: 1999. Names: Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng, Mao Zedong.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 563–565 (the meeting "at first cold," Wu speaking first; Chen Boda, "who held himself high," displeased at the manner of discussion, in which the drafters call out and answer at once; Deng: all views may be said, anyone''s may be refuted; Peking''s draft strong on the real situation and the actual contradictions, short on theory; Deng asks Lin Ke, as the sessions end, whether he has told Mao all; Lin Ke has, and Mao will talk after the meeting). Made public: 1999. Names: Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng, Mao Zedong, Wu Lengxi, Yao Zhen, Fan Ruoyu, Wang Li, Li Xin, Lin Ke.'
     src:
       c: 32a79287
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 563–565: all'
-    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:mao-zedong, vis:only:prc, name:fan-ruoyu, name:li-xin, name:lin-ke, name:wang-li, name:wu-lengxi, name:yao-zhen]
     variants:
       - unit: B
         witness: w.deng-xiaoping-nianpu-1904
@@ -878,7 +878,7 @@ entries:
       c: 1498199e
       rows:
         - 'w.yang-shangkun-riji II, 275: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:song-renqiong, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-03.china-leadership-6
     when: May 3
@@ -890,7 +890,7 @@ entries:
       c: a969c6c7
       rows:
         - 'w.yang-shangkun-riji II, 275: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-05-03T14:00Z
       - 1963-05-03T16:00Z
@@ -902,20 +902,20 @@ entries:
     place: phnom-penh
     thread: china-leadership
     c: Phnom Penh 金边, the Chinese embassy. Chen Yi 陈毅, with Liu Shaoqi 刘少奇, Wang Guangmei 王光美 and Zhang Qian 张茜, receives the embassy's whole staff.
-    n: '[[w.chen-yi-nianpu]], 964–965. Made public: 1995. Names: Chen Yi, Liu Shaoqi.'
-    tags: [polity:prc, name:chen-yi, name:liu-shaoqi, ok:fields-time, vis:only:prc]
+    n: '[[w.chen-yi-nianpu]], 964–965. Made public: 1995. Names: Chen Yi, Liu Shaoqi, Wang Guangmei, Zhang Qian.'
+    tags: [polity:prc, name:chen-yi, name:liu-shaoqi, ok:fields-time, vis:only:prc, name:wang-guangmei, name:zhang-qian]
   - id: cal.1963-05-03.china-leadership-7
     when: May 3
     date: '1963-05-03'
     place: hangzhou
     thread: china-leadership
     c: Hangzhou 杭州. Peng Zhen 彭真 with Tao Zhu 陶铸, Ke Qingshi 柯庆施, Li Jingquan 李井泉, Jiang Hua 江华 and others on the class struggle in the villages and socialist education, and on drafting the paper.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 262. Made public: 2012. See [[cal.1963-05-02.china-leadership-6]]. Names: Peng Zhen, Tao Zhu, Ke Qingshi, Li Jingquan.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 262. Made public: 2012. See [[cal.1963-05-02.china-leadership-6]]. Names: Peng Zhen, Tao Zhu, Ke Qingshi, Li Jingquan, Jiang Hua.'
     src:
       c: 93c8b4e3
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 262: all'
-    tags: [polity:prc, name:peng-zhen, name:tao-zhu, name:ke-qingshi, name:li-jingquan, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, name:tao-zhu, name:ke-qingshi, name:li-jingquan, vis:only:prc, name:jiang-hua]
   - id: cal.1963-05-03.china-leadership-9
     when: May 3
     date: '1963-05-03'
@@ -1099,7 +1099,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 275: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1757: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc, name:wu-xiuquan, name:yang-shangkun]
     time_range:
       - 1963-05-03T22:00Z
       - 1963-05-04T04:00Z
@@ -1116,7 +1116,7 @@ entries:
       c: 05e55b63
       rows:
         - 'w.yang-shangkun-riji II, 275: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-05-04T04:00Z
       - 1963-05-04T10:00Z
@@ -1268,12 +1268,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Hangzhou, Liuzhuang. Mao holds the Standing Committee on the Peking and Hangzhou drafts, Zhou Enlai and Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng and Wu Lengxi present, Liu Shaoqi abroad. He asks Wu his age (44) and says the young men are right. The reply is to set out the Party's view of the general line, as a proposal to the CPSU and the parties, in theory and with bearing on practice, from the contradictions of the age; Chen Boda to revise it and take it to Peking to work with the writers; to stay in the Standing Committee until ripe, then to ask the Korean, Vietnamese, New Zealand, Japanese and Indonesian parties; the paper the CCP's own proposal, not a common paper of the left parties.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 565–567 (the Liuzhuang on a peninsula of the West Lake; Mao: "Chen Boda, you too count as an old man, beaten by the young"; the reply to be an answer to the CPSU''s letter of Mar. 30 and a proposal; it to be taken to Peking, Zhou Enlai and Deng Xiaoping agreeing; Mao: the CCP''s alone, to avoid the name of sectarianism; Wu and Yao Zhen at first to stay to help Chen, but Chen, not satisfied, had them sent back to Peking). Made public: 1999. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng, Liu Shaoqi. Check: Zhou Enlai at Hangzhou May 5: Zhou''s chronology has him at Xihuating, Peking, that day ([[cal.1963-05-05.china-leadership-2]]) and at the Secretariat May 6 ([[cal.1963-05-06.china-leadership]]).'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 565–567 (the Liuzhuang on a peninsula of the West Lake; Mao: "Chen Boda, you too count as an old man, beaten by the young"; the reply to be an answer to the CPSU''s letter of Mar. 30 and a proposal; it to be taken to Peking, Zhou Enlai and Deng Xiaoping agreeing; Mao: the CCP''s alone, to avoid the name of sectarianism; Wu and Yao Zhen at first to stay to help Chen, but Chen, not satisfied, had them sent back to Peking). Made public: 1999. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng, Liu Shaoqi, Wu Lengxi. Check: Zhou Enlai at Hangzhou May 5: Zhou''s chronology has him at Xihuating, Peking, that day ([[cal.1963-05-05.china-leadership-2]]) and at the Secretariat May 6 ([[cal.1963-05-06.china-leadership]]).'
     src:
       c: 4042d5ce
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 565–567: all'
-    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:liu-shaoqi, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:liu-shaoqi, vis:only:prc, name:wu-lengxi]
   - id: cal.1963-05-05.china-leadership-3
     when: May 5
     date: '1963-05-05'
@@ -1316,7 +1316,7 @@ entries:
       c: e8b68451
       rows:
         - 'w.yang-shangkun-riji II, 276: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
     time_range:
       - 1963-05-05T14:00Z
       - 1963-05-05T16:00Z
@@ -1341,8 +1341,8 @@ entries:
     place: phnom-penh
     thread: china-leadership
     c: Phnom Penh 金边, the royal palace. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 and Wang Guangmei 王光美 takes leave of the Queen.
-    n: '[[w.chen-yi-nianpu]], 965. Names: Chen Yi, Liu Shaoqi.'
-    tags: [polity:prc, polity:cambodia, name:chen-yi, name:liu-shaoqi, ok:fields-time]
+    n: '[[w.chen-yi-nianpu]], 965. Names: Chen Yi, Liu Shaoqi, Wang Guangmei.'
+    tags: [polity:prc, polity:cambodia, name:chen-yi, name:liu-shaoqi, ok:fields-time, name:wang-guangmei]
   - id: cal.1963-05-05.china-leadership-9
     when: May 5
     date: '1963-05-05'
@@ -1606,7 +1606,7 @@ entries:
       c: cd4bc95d
       rows:
         - 'w.yang-shangkun-riji II, 276: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:xi-zhanyuan, name:yang-shangkun]
     time_range:
       - 1963-05-06T04:00Z
       - 1963-05-06T10:00Z
@@ -1636,12 +1636,12 @@ entries:
     place: hangzhou
     thread: china-leadership
     c: 'Hangzhou 杭州. Peng Zhen 彭真 with Li Xuefeng 李雪峰, Li Jingquan 李井泉, Tao Zhu 陶铸, Liu Lantao 刘澜涛, Song Renqiong 宋任穷, Chen Boda 陈伯达 and others on the "five antis": the new leap begins with more output and thrift and against waste in production; a tenth of pit props saved would give 20 million tons more coal.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 262. Made public: 2012. Names: Peng Zhen, Li Jingquan, Tao Zhu, Chen Boda.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 262. Made public: 2012. Names: Peng Zhen, Li Jingquan, Tao Zhu, Chen Boda, Li Xuefeng, Liu Lantao, Song Renqiong.'
     src:
       c: defab523
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 262: all'
-    tags: [polity:prc, name:peng-zhen, name:li-jingquan, name:tao-zhu, name:chen-boda, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, name:li-jingquan, name:tao-zhu, name:chen-boda, vis:only:prc, name:li-xuefeng, name:liu-lantao, name:song-renqiong]
   - id: cal.1963-05-06.china-leadership-7
     when: May 6
     date: '1963-05-06'
@@ -1904,7 +1904,7 @@ entries:
         - 'w.jian-zhou-enlai 488: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 262–263: ?'
         - 'w.teiwes-tragedy-of-lin-biao 199: ?'
-    tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:chen-boda, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:peng-zhen, name:chen-boda, name:zhou-enlai, name:deng-xiaoping, vis:only:prc, name:hu-yaobang, name:jiang-hua]
     variants:
       - unit: B
         witness: w.shaoqi-liu-shaoqi-nianpu-chronology
@@ -1921,7 +1921,7 @@ entries:
       c: 0bc68f35
       rows:
         - 'w.yang-shangkun-riji II, 276: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-jian, name:liu-huo, name:yang-shangkun]
     time_range:
       - 1963-05-06T22:00Z
       - 1963-05-07T04:00Z
@@ -1938,7 +1938,7 @@ entries:
       c: 8a11274b
       rows:
         - 'w.yang-shangkun-riji II, 276: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:an-ziwen, name:yang-shangkun]
     time_range:
       - 1963-05-07T04:00Z
       - 1963-05-07T10:00Z
@@ -1955,7 +1955,7 @@ entries:
       c: 34d47cb4
       rows:
         - 'w.yang-shangkun-riji II, 276: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tong-xiaopeng, name:yang-shangkun]
     time_range:
       - 1963-05-07T11:00Z
       - 1963-05-07T14:00Z
@@ -1975,12 +1975,12 @@ entries:
     place: hangzhou
     thread: china-leadership
     c: Hangzhou 杭州. Peng Zhen 彭真 with Li Xuefeng 李雪峰, Li Jingquan 李井泉, Ke Qingshi 柯庆施, Tao Zhu 陶铸, Liu Lantao 刘澜涛, Song Renqiong 宋任穷, Jiang Hua 江华, Hu Yaobang 胡耀邦 and others on the localities' reports in the "five antis."
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 262. The page''s note: Hu Yaobang, then in the "four clean-ups" in Hunan (IV, 262). Made public: 2012. Names: Peng Zhen, Li Jingquan, Ke Qingshi, Tao Zhu.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 262. The page''s note: Hu Yaobang, then in the "four clean-ups" in Hunan (IV, 262). Made public: 2012. Names: Peng Zhen, Li Jingquan, Ke Qingshi, Tao Zhu, Li Xuefeng, Liu Lantao, Song Renqiong, Jiang Hua, Hu Yaobang.'
     src:
       c: bb8b040d
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 262: all'
-    tags: [polity:prc, name:peng-zhen, name:li-jingquan, name:ke-qingshi, name:tao-zhu, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, name:li-jingquan, name:ke-qingshi, name:tao-zhu, vis:only:prc, name:hu-yaobang, name:jiang-hua, name:li-xuefeng, name:liu-lantao, name:song-renqiong]
   - id: cal.1963-05-08.vietnam
     when: May 8
     date: '1963-05-08'
@@ -2335,7 +2335,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 527–529: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 528 n.1a: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 529 n.1b: all'
-    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:novotny-antonin, polity:czechoslovakia]
+    tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhu-de, name:zhou-enlai, name:novotny-antonin, polity:czechoslovakia, name:fierlinger]
   - id: cal.1963-05-08.china-leadership-6
     when: May 8
     date: '1963-05-08'
@@ -2360,7 +2360,7 @@ entries:
       c: 8427efc4
       rows:
         - 'w.yang-shangkun-riji II, 276: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:chen-congying, name:xiao-guang, name:yang-shangkun]
     time_range:
       - 1963-05-08T04:00Z
       - 1963-05-08T10:00Z
@@ -2377,7 +2377,7 @@ entries:
       c: 26d8be23
       rows:
         - 'w.yang-shangkun-riji II, 276: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1963-05-08T14:00Z
       - 1963-05-08T16:00Z
@@ -2432,8 +2432,8 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Kunming 昆明, the airport. Chen Yi 陈毅 welcomes Hoàng Minh Giám 黄明鉴, the DRV's Minister of Culture and chairman of its reception committee, Trần Tử Bình 陈子平, its Ambassador to China, and Hà Thị Quế 何氏桂 of the Vietnam Women's Union, come to take Liu Shaoqi 刘少奇 and his wife to the DRV.
-    n: '[[w.chen-yi-nianpu]], 965. The words: 上午 (965). Names: Chen Yi, Hoàng Minh Giám, Liu Shaoqi.'
-    tags: [polity:prc, polity:drv, name:chen-yi, name:hoang-minh-giam, name:liu-shaoqi]
+    n: '[[w.chen-yi-nianpu]], 965. The words: 上午 (965). Names: Chen Yi, Hoàng Minh Giám, Liu Shaoqi, Trần Tử Bình.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:hoang-minh-giam, name:liu-shaoqi, name:tran-tu-binh]
     time_range:
       - 1963-05-07T22:00Z
       - 1963-05-08T04:00Z
@@ -2446,8 +2446,8 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Kunming 昆明. Liu Shaoqi 刘少奇 receives Hoàng Minh Giám 黄明鉴, Trần Tử Bình 陈子平 and Hà Thị Quế 何氏桂; Chen Yi 陈毅 present.
-    n: '[[w.chen-yi-nianpu]], 966. The words: 下午 (966). Names: Liu Shaoqi, Hoàng Minh Giám, Chen Yi.'
-    tags: [polity:prc, polity:drv, name:chen-yi, name:liu-shaoqi, name:hoang-minh-giam]
+    n: '[[w.chen-yi-nianpu]], 966. The words: 下午 (966). Names: Liu Shaoqi, Hoàng Minh Giám, Chen Yi, Trần Tử Bình.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:liu-shaoqi, name:hoang-minh-giam, name:tran-tu-binh]
     time_range:
       - 1963-05-08T04:00Z
       - 1963-05-08T10:00Z
@@ -2687,7 +2687,7 @@ entries:
     thread: china-leadership
     c: 'Zhou Enlai to Mao and Peng Zhen, by letter again, on the inquiry into the *Yuejin* and how to deal with it: the lesson is very great; it first showed the Ministry of Communications'' grave bureaucracy and next some responsibility in the Navy; to check the preparations for the voyage and find out what the Shanghai Maritime Bureau and the East Sea Fleet had settled on the *Yuejin*''s route to Japan and her escort, he proposes to go to Shanghai May 10 with Luo Ruiqing or Yang Chengwu.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 552 (May 9, 1963); [[w.mao-zedong-zhuan]], VI, ch. 72 (May 9 Mao receives Zhou''s letter: Zhou would report on the handling of the loss of the *Yuejin* 跃进号 and talk at Hangzhou with the bureau secretaries on grain, retrenchment and farming; the addressees and Zhou''s words not given). Made public: 1997. To check: the letter. Names: Zhou Enlai, Mao Zedong, Peng Zhen, Luo Ruiqing, Yang Chengwu.'
-    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:peng-zhen, name:luo-ruiqing, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:peng-zhen, name:luo-ruiqing, vis:only:prc, name:yang-chengwu]
   - id: cal.1963-05-09.china-leadership-3
     when: May 9
     date: '1963-05-09'
@@ -2709,8 +2709,8 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Liu Shaoqi and Wang Guangmei write to their daughter Liu Pingping, at a Peking middle school, for her fourteenth birthday: think what kind of youth she will be. She is not to be content with the middle of the road or to drift through her years; they want her an advancing, revolutionary youth with great communist ideals and Lei Feng''s ordinary but great communist spirit, serious and diligent at study, loving labor, learning from others, caring for the collective and for affairs at home and abroad, ready to sacrifice, and to keep fit. The Party and the people will need her; it will mean hardship, setbacks and sacrifice, but with her heart in the great cause any difficulty can be overcome.'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576–577 (May 9, 1963). Made public: 1996. Names: Liu Shaoqi.'
-    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576–577 (May 9, 1963). Made public: 1996. Names: Liu Shaoqi, Wang Guangmei, Liu Pingping, Lei Feng.'
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc, name:lei-feng, name:liu-pingping, name:wang-guangmei]
   - id: cal.1963-05-09.china-leadership-5
     when: May 9
     date: '1963-05-09'
@@ -2723,7 +2723,7 @@ entries:
       c: 4e1661dd
       rows:
         - 'w.yang-shangkun-riji II, 276: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-05-08T22:00Z
       - 1963-05-09T04:00Z
@@ -2756,7 +2756,7 @@ entries:
       c: 8abaf5b0
       rows:
         - 'w.yang-shangkun-riji II, 277: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
     time_range:
       - 1963-05-09T14:00Z
       - 1963-05-09T16:00Z
@@ -3008,7 +3008,7 @@ entries:
       c: fa891eee
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 534–537: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:song-renqiong]
   - id: cal.1963-05-10.china-leadership-5
     when: May 10
     date: '1963-05-10'
@@ -3078,8 +3078,8 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Hanoi 河内, the Presidential Palace 主席府. Chen Yi 陈毅 with Liu Shaoqi 刘少奇 receives Hoàng Quốc Việt 黄国越, president of the Vietnam–China Friendship Association, and its other leaders.
-    n: '[[w.chen-yi-nianpu]], 966. The words: 下午 (966). Names: Chen Yi, Liu Shaoqi.'
-    tags: [polity:prc, polity:drv, name:chen-yi, name:liu-shaoqi]
+    n: '[[w.chen-yi-nianpu]], 966. The words: 下午 (966). Names: Chen Yi, Liu Shaoqi, Hoàng Quốc Việt.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:liu-shaoqi, name:hoang-quoc-viet]
     time_range:
       - 1963-05-10T05:00Z
       - 1963-05-10T11:00Z
@@ -3193,8 +3193,8 @@ entries:
     thread: china-leadership
     also: [china, vietnam-hanoi]
     c: Liu Shaoqi holds talks with Hồ Chí Minh, Lê Duẩn (First Secretary of the Vietnam Workers' Party), Trường Chinh, Phạm Văn Đồng, Phạm Hùng, Võ Nguyên Giáp, Lê Đức Thọ, Nguyễn Duy Trinh and Hoàng Văn Hoan, May 11, 12, 14 and 15, chiefly on their views of the international communist movement.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 11, 12, 14 and 15, 1963); [[w.jian-zhou-enlai]], 494 (May 1963, Liu to Hồ in Hanoi: "you can count China as your rear area"); [[w.chen-yi-nianpu]], 966–967 (May 11 and 14, 1963, the Presidential Palace, Hanoi; Chen Yi in the talks). Made public: 1996. To check: [[w.qu-aiguo-yuanyue-kangmei]], 8–9 (cited by [[w.jian-zhou-enlai]], 494 n.13b). Names: Liu Shaoqi, Hồ Chí Minh, Lê Duẩn, Trường Chinh, Phạm Văn Đồng, Võ Nguyên Giáp, Lê Đức Thọ, Nguyễn Duy Trinh. Check: the Vietnamese names are the Chinese (黎笋, 长征, 范文同, 范雄, 武元甲, 黎德寿, 阮维桢, 黄文欢) read back.'
-    tags: [polity:prc, polity:drv, name:liu-shaoqi, name:ho-chi-minh, name:le-duan, name:truong-chinh, name:pham-van-dong, name:vo-nguyen-giap, name:le-duc-tho, name:nguyen-duy-trinh, vis:only:prc+drv]
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 577 (May 11, 12, 14 and 15, 1963); [[w.jian-zhou-enlai]], 494 (May 1963, Liu to Hồ in Hanoi: "you can count China as your rear area"); [[w.chen-yi-nianpu]], 966–967 (May 11 and 14, 1963, the Presidential Palace, Hanoi; Chen Yi in the talks). Made public: 1996. To check: [[w.qu-aiguo-yuanyue-kangmei]], 8–9 (cited by [[w.jian-zhou-enlai]], 494 n.13b). Names: Liu Shaoqi, Hồ Chí Minh, Lê Duẩn, Trường Chinh, Phạm Văn Đồng, Võ Nguyên Giáp, Lê Đức Thọ, Nguyễn Duy Trinh, Phạm Hùng, Hoàng Văn Hoan. Check: the Vietnamese names are the Chinese (黎笋, 长征, 范文同, 范雄, 武元甲, 黎德寿, 阮维桢, 黄文欢) read back.'
+    tags: [polity:prc, polity:drv, name:liu-shaoqi, name:ho-chi-minh, name:le-duan, name:truong-chinh, name:pham-van-dong, name:vo-nguyen-giap, name:le-duc-tho, name:nguyen-duy-trinh, vis:only:prc+drv, name:hoang-van-hoan, name:pham-hung]
   - id: cal.1963-05-11.china
     when: May 11
     date: '1963-05-11'
@@ -3233,7 +3233,7 @@ entries:
       c: 919266e6
       rows:
         - 'w.yang-shangkun-riji II, 277: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:liu-ningyi, name:wu-xiuquan, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-11.china-leadership-4
     when: May 11
@@ -3248,7 +3248,7 @@ entries:
       c: 128306f9
       rows:
         - 'w.yang-shangkun-riji II, 277: all'
-    tags: [polity:prc, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    tags: [polity:prc, name:chervonenko-stepan-v, vis:only:prc+ussr, name:wu-xiuquan, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-11.china-leadership-6
     when: May 11
@@ -3264,7 +3264,7 @@ entries:
       c: e7d9e23d
       rows:
         - 'w.yang-shangkun-riji II, 277: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
   - id: cal.1963-05-11.china-leadership-5
     when: May 11
     date: '1963-05-11'
@@ -3276,7 +3276,7 @@ entries:
       c: 804fba6d
       rows:
         - 'w.yang-shangkun-riji II, 277: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
     time_range:
       - 1963-05-11T14:00Z
       - 1963-05-11T16:00Z
@@ -3487,7 +3487,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 278: all'
         - 'via w.yang-shangkun-riji II, 278 n.3: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
   - id: cal.1963-05-12.china-leadership-4
     when: May 12
     date: '1963-05-12'
@@ -3498,7 +3498,7 @@ entries:
       c: f6f987e3
       rows:
         - 'w.yang-shangkun-riji II, 278: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-05-12T11:00Z
       - 1963-05-12T14:00Z
@@ -3643,7 +3643,7 @@ entries:
       c: b7249730
       rows:
         - 'w.yang-shangkun-riji II, 278: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-13.china-leadership-4
     when: May 13
@@ -3656,7 +3656,7 @@ entries:
       c: 3cf747c4
       rows:
         - 'w.yang-shangkun-riji II, 278: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:xu-bing, name:yang-shangkun]
     time_range:
       - 1963-05-13T14:00Z
       - 1963-05-13T16:00Z
@@ -3798,7 +3798,7 @@ entries:
       c: 546601ce
       rows:
         - 'w.yang-shangkun-riji II, 278: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-05-13T22:00Z
       - 1963-05-14T04:00Z
@@ -3815,7 +3815,7 @@ entries:
       c: e9eca386
       rows:
         - 'w.yang-shangkun-riji II, 278: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-chou, name:yang-shangkun, name:zhang-yaoci]
     time_range:
       - 1963-05-14T04:00Z
       - 1963-05-14T10:00Z
@@ -3833,7 +3833,7 @@ entries:
       c: 7b168d69
       rows:
         - 'w.yang-shangkun-riji II, 278: all'
-    tags: [polity:prc, name:chervonenko-stepan-v, vis:only:prc+ussr]
+    tags: [polity:prc, name:chervonenko-stepan-v, vis:only:prc+ussr, name:yang-shangkun]
     time_range:
       - 1963-05-14T11:00Z
       - 1963-05-14T14:00Z
@@ -3854,7 +3854,7 @@ entries:
       c: 4c9e2fd4
       rows:
         - 'w.yang-shangkun-riji II, 278: all'
-    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-14.vietnam-hanoi-2
     when: May 14
@@ -3871,8 +3871,8 @@ entries:
     thread: china-leadership
     also: [vietnam-hanoi]
     c: Hanoi 河内, the Presidential Palace 主席府. Chen Yi 陈毅 at Hồ Chí Minh's informal dinner for Liu Shaoqi 刘少奇 and Wang Guangmei 王光美, and the performance after it.
-    n: '[[w.chen-yi-nianpu]], 967. The words: 晚上……便宴后 (967). Names: Chen Yi, Hồ Chí Minh, Liu Shaoqi.'
-    tags: [polity:prc, polity:drv, name:chen-yi, name:ho-chi-minh, name:liu-shaoqi]
+    n: '[[w.chen-yi-nianpu]], 967. The words: 晚上……便宴后 (967). Names: Chen Yi, Hồ Chí Minh, Liu Shaoqi, Wang Guangmei.'
+    tags: [polity:prc, polity:drv, name:chen-yi, name:ho-chi-minh, name:liu-shaoqi, name:wang-guangmei]
     time_range:
       - 1963-05-14T12:00Z
       - 1963-05-14T15:00Z
@@ -3991,7 +3991,7 @@ entries:
         - 'w.zhou-enlai-nianpu-1949 II, 554: ?'
         - 'w.zhou-enlai-waijiao-huodong 359–60: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 283: A'
-    tags: [polity:prc, polity:somalia, name:zhou-enlai, vis:only:prc+somalia]
+    tags: [polity:prc, polity:somalia, name:zhou-enlai, vis:only:prc+somalia, name:ali-muhammad-hirawi]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-15.china-leadership-2
     when: May 15
@@ -4118,7 +4118,7 @@ entries:
       c: f34df9f2
       rows:
         - 'w.yang-shangkun-riji II, 279: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:deng-diantao, name:li-jian, name:liu-huo, name:yang-shangkun]
     time_range:
       - 1963-05-15T04:00Z
       - 1963-05-15T10:00Z
@@ -4353,7 +4353,7 @@ entries:
       c: c6a1a69e
       rows:
         - 'w.yang-shangkun-riji II, 279: all'
-    tags: [polity:prc, name:chervonenko-stepan-v, name:suslov-mikhail-a, name:andropov-yuriy-vladimirovich, name:ponomarev-boris-n, vis:only:prc+ussr]
+    tags: [polity:prc, name:chervonenko-stepan-v, name:suslov-mikhail-a, name:andropov-yuriy-vladimirovich, name:ponomarev-boris-n, vis:only:prc+ussr, name:ilyichev, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-16.china-leadership-6
     when: May 16
@@ -4369,7 +4369,7 @@ entries:
       c: 6d7a139b
       rows:
         - 'w.yang-shangkun-riji II, 279: all'
-    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-16.china-leadership-7
     when: May 16
@@ -4382,7 +4382,7 @@ entries:
       c: d671c024
       rows:
         - 'w.yang-shangkun-riji II, 279: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:he-jun, name:wang-yuming, name:yang-shangkun]
     time_range:
       - 1963-05-15T22:00Z
       - 1963-05-16T04:00Z
@@ -4413,7 +4413,7 @@ entries:
       c: c6564407
       rows:
         - 'w.yang-shangkun-riji II, 279: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:ma-wenrui, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-16.china-leadership-10
     when: May 16
@@ -4426,7 +4426,7 @@ entries:
       c: 42e5a21a
       rows:
         - 'w.yang-shangkun-riji II, 279: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:tong-xiaopeng, name:yang-shangkun]
     time_range:
       - 1963-05-16T11:00Z
       - 1963-05-16T14:00Z
@@ -4445,7 +4445,7 @@ entries:
       c: a6560af0
       rows:
         - 'w.yang-shangkun-riji II, 279: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:luo-qingchang, name:yang-shangkun]
     time_range:
       - 1963-05-16T11:00Z
       - 1963-05-16T14:00Z
@@ -4464,14 +4464,14 @@ entries:
       c: 688186c2
       rows:
         - 'w.yang-shangkun-riji II, 279: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
   - id: cal.1963-05-16.china-leadership-13
     when: May 16
     date: '1963-05-16'
     thread: china-leadership
     c: 'Zhu De 朱德 hears Peng Fujiu 彭富九, head of a department 某部 of the PLA General Staff 解放军总参谋部, and says: every country now brings the newest science to cipher communications 密码通讯; all to study the new science and raise their skill, for long, or fall behind; the comrades work hard, their living to be well arranged, flowers grown; the sick not sent away but kept as advisers.'
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1877. Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, ok:fields-place, name:zhu-de, vis:only:prc]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1877. Made public: 2016. Names: Zhu De, Peng Fujiu.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, vis:only:prc, name:peng-fujiu]
   - id: cal.1963-05-16.china-leadership-14
     when: May 16
     date: '1963-05-16'
@@ -4648,7 +4648,7 @@ entries:
       c: 1777eb24
       rows:
         - 'w.yang-shangkun-riji II, 279: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-05-16T22:00Z
       - 1963-05-17T04:00Z
@@ -4665,7 +4665,7 @@ entries:
       c: db11808f
       rows:
         - 'w.yang-shangkun-riji II, 279: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-05-17T04:00Z
       - 1963-05-17T10:00Z
@@ -4683,19 +4683,19 @@ entries:
       c: fd9c03a8
       rows:
         - 'w.yang-shangkun-riji II, 279: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:yao-zhen]
   - id: cal.1963-05-17.china-leadership-6
     when: May 17
     date: '1963-05-17'
     place: nanchang
     thread: china-leadership
     c: 'Nanchang 南昌, Jiangxi 江西. Peng Zhen 彭真 hears Fang Zhichun 方志纯, Huang Zhizhen 黄知真 and Li Dingkun 李定坤 on rural socialist education and output: the go-it-alone wind stopped; 700-odd trial points dealing with feudal superstition, speculation, graft, privilege and slackness, not yet deep; five lines to draw, enemy and people, speculation and fair trade, superstitious acts and beliefs, extortion and gifts, graft and taking more; Peng Zhen: cadres trained first, a good core, the "four clean-ups" in batches; small grafters who confess and repay may go unlabeled; repayment firm, but not dug too deep.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 265–266. The page''s notes: Fang Zhichun, secretary of the Jiangxi committee''s Secretariat; Huang Zhizhen, alternate secretary; Li Dingkun, head of its Propaganda Department (IV, 265). Made public: 2012. See [[cal.1963-05.china-leadership-5]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 265–266. The page''s notes: Fang Zhichun, secretary of the Jiangxi committee''s Secretariat; Huang Zhizhen, alternate secretary; Li Dingkun, head of its Propaganda Department (IV, 265). Made public: 2012. See [[cal.1963-05.china-leadership-5]]. Names: Peng Zhen, Fang Zhichun, Huang Zhizhen.'
     src:
       c: 293f1924
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 265–266: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:fang-zhichun, name:huang-zhizhen]
   - id: cal.1963-05-17.china-2
     when: May 17
     date: '1963-05-17'
@@ -4804,7 +4804,7 @@ entries:
       c: 08390352
       rows:
         - 'w.yang-shangkun-riji II, 280: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-05-18T11:00Z
       - 1963-05-18T14:00Z
@@ -4860,7 +4860,7 @@ entries:
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 554: ?'
         - 'w.zhou-enlai-waijiao-huodong 360: A'
-    tags: [polity:prc, polity:brazil, name:zhou-enlai, vis:only:prc+brazil]
+    tags: [polity:prc, polity:brazil, name:zhou-enlai, vis:only:prc+brazil, name:dante-pelacani]
     time_range:
       - 1963-05-19T04:00Z
       - 1963-05-19T10:00Z
@@ -4898,7 +4898,7 @@ entries:
       c: ce1710a1
       rows:
         - 'w.yang-shangkun-riji II, 280: all'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:deng-liqun, name:tian-jiaying, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-19.china-leadership-5
     when: May 19
@@ -5105,7 +5105,7 @@ entries:
       c: d72a6f3e
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 519: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:liu-xiao]
   - id: cal.1963-05-20.china-leadership-3
     when: May 20
     date: '1963-05-20'
@@ -5118,7 +5118,7 @@ entries:
       c: 708ab70d
       rows:
         - 'w.yang-shangkun-riji II, 280: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-20.china-leadership-4
     when: May 20
@@ -5131,7 +5131,7 @@ entries:
       c: 1435d359
       rows:
         - 'w.yang-shangkun-riji II, 280: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
     time_range:
       - 1963-05-20T11:00Z
       - 1963-05-20T14:00Z
@@ -5155,8 +5155,8 @@ entries:
     date: '1963-05-20'
     thread: china-leadership
     c: Zhu De 朱德, with Zhou Enlai 周恩来, Dong Biwu 董必武, Li Xiannian 李先念, Bo Yibo 薄一波, Nie Rongzhen 聂荣臻, Yang Shangkun 杨尚昆 and others, receives the delegates to the first Party congress of the PLA Engineering Corps 解放军工程兵第一届党代会 and those at the PLA's conference on communications and reporting work 解放军通讯报道工作会议.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1878. Names: Zhu De, Zhou Enlai, Dong Biwu, Li Xiannian, Bo Yibo, Nie Rongzhen.'
-    tags: [polity:prc, ok:fields-place, name:zhu-de, name:zhou-enlai, name:dong-biwu, name:li-xiannian, name:bo-yibo, name:nie-rongzhen]
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1878. Names: Zhu De, Zhou Enlai, Dong Biwu, Li Xiannian, Bo Yibo, Nie Rongzhen, Yang Shangkun.'
+    tags: [polity:prc, ok:fields-place, name:zhu-de, name:zhou-enlai, name:dong-biwu, name:li-xiannian, name:bo-yibo, name:nie-rongzhen, name:yang-shangkun]
   - id: cal.1963-05-21.mayors-philadelphia
     when: May 21
     date: '1963-05-21'
@@ -5287,7 +5287,7 @@ entries:
     also: [japan]
     c: Zhou Enlai with Liao Chengzhi and Li Qiang on importing a vinylon plant, May 21, 22 and 27 and June 3.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 555 (May 21–June 3, 1963). Made public: 1997. Names: Zhou Enlai, Liao Chengzhi, Li Qiang.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:li-qiang, name:liao-chengzhi]
   - id: cal.1963-05-21.china-leadership-3
     when: May 21
     date: '1963-05-21'
@@ -5324,7 +5324,7 @@ entries:
       c: d7cfb321
       rows:
         - 'w.yang-shangkun-riji II, 280: all'
-    tags: [polity:prc, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:kang-sheng, vis:only:prc, name:yang-shangkun, name:yao-zhen]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-21.china-leadership-6
     when: May 21
@@ -5337,7 +5337,7 @@ entries:
       c: 2cc2ffec
       rows:
         - 'w.yang-shangkun-riji II, 280: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:wu-lengxi, name:yang-shangkun]
     time_range:
       - 1963-05-21T11:00Z
       - 1963-05-21T14:00Z
@@ -5349,12 +5349,12 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'Deng Xiaoping 邓小平, with Kang Sheng 康生 and Liu Ningyi 刘宁一, meets Wilcox 威尔科克斯. On Khrushchev''s 赫鲁晓夫 stress on economic mutual aid and the international division of labor, even abolishing frontiers: its aim is control of others and it has done East European states great harm, whose discontent is general; under socialism, without a strong Marxist-Leninist party in the lead, some who hold power would degenerate. At home: the economy is sound after two years of adjustment on the basis of agriculture first; some free markets are open, and the free-market prices of some goods are drawing closer to the planned state prices.'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1758 (May 21, 1963). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng, Khrushchev.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1758 (May 21, 1963). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng, Khrushchev, Liu Ningyi.'
     src:
       c: 08ca8b07
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1758: all'
-    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, name:khrushchev-nikita-s, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, name:khrushchev-nikita-s, vis:only:prc, name:liu-ningyi]
   - id: cal.1963-05-21.china-leadership-8
     when: May 21
     date: '1963-05-21'
@@ -5435,7 +5435,7 @@ entries:
         - 'w.zedong-mao-zedong-nianpu V, May 22, 1963: ?'
         - 'w.lengxi-shinian-lunzhan-1956-1966 568–569: A-B, E'
         - 'w.deng-xiaoping-nianpu-1904 III, 1758: ?'
-    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:kang-sheng, vis:only:prc, name:v-g-wilcox]
   - id: cal.1963-05-22.china-leadership-2
     when: May 22
     date: '1963-05-22'
@@ -5486,7 +5486,7 @@ entries:
       c: 6be04012
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 519: all'
-    tags: [polity:prc]
+    tags: [polity:prc, name:liu-xiao]
   - id: cal.1963-05-22.china-leadership-5
     when: May 22
     date: '1963-05-22'
@@ -5499,7 +5499,7 @@ entries:
       c: 71d25e60
       rows:
         - 'w.yang-shangkun-riji II, 281: all'
-    tags: [polity:prc, name:liu-shaoqi, vis:only:prc]
+    tags: [polity:prc, name:liu-shaoqi, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-22.china-leadership-6
     when: May 22
@@ -5512,7 +5512,7 @@ entries:
       c: d33b0b3b
       rows:
         - 'w.yang-shangkun-riji II, 281: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:luo-qingchang, name:tong-xiaopeng, name:yang-shangkun]
     time_range:
       - 1963-05-22T11:00Z
       - 1963-05-22T14:00Z
@@ -5672,7 +5672,7 @@ entries:
       c: 362ab229
       rows:
         - 'w.yang-shangkun-riji II, 281: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-jian, name:liu-huo, name:yang-shangkun]
     time_range:
       - 1963-05-22T22:00Z
       - 1963-05-23T04:00Z
@@ -5885,7 +5885,7 @@ entries:
     thread: china-leadership
     c: 'Zhou Enlai agrees to Wang Shoudao''s proposal for a telephone conference of the transport departments, in the light of the *Yuejin* and other accidents, to "grasp safety in production hard." On the Ministry of Communications'' plan to call on its units to "act" on the lesson: too abstract; they are to tell all staff the report''s main points and the accidents, rouse them to discuss and suggest, and see it carried out, the mass line under leadership; drop official airs, the center of the Ministry''s five-antis.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 555 (May 24, 1963). Made public: 1997. To check: the plan and the comment. Names: Zhou Enlai, Wang Shoudao.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:wang-shoudao]
   - id: cal.1963-05-24.china-leadership-2
     when: May 24
     date: '1963-05-24'
@@ -5932,7 +5932,7 @@ entries:
       c: e8b68451
       rows:
         - 'w.yang-shangkun-riji II, 281: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
     time_range:
       - 1963-05-24T14:00Z
       - 1963-05-24T16:00Z
@@ -5955,12 +5955,12 @@ entries:
     place: nanning
     thread: china-leadership
     c: 'Nanning 南宁, Guangxi 广西. Peng Zhen 彭真 hears Wei Guoqing 韦国清, An Pingsheng 安平生 and others: the class situation changed from late 1960, a "black wind," the poor peasants'' superiority weakened; 29 of 75 counties troubled or weakly led; at the trial county, Wuming 武鸣, only nine of 800 county and district cadres took no more than their share, 52 percent with capitalist or superstitious acts; Peng Zhen: the greatest class struggle in the villages since land reform; taking more a question of quantity; typical cases, limits, rules; a reliable core; cadres freed and united against the enemy; no battle unprepared.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 268. The page''s note: An Pingsheng, secretary of the Guangxi committee''s Secretariat (IV, 268). The words: 下午 (IV, 268). Made public: 2012. See [[cal.1963-05.china-leadership-5]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 268. The page''s note: An Pingsheng, secretary of the Guangxi committee''s Secretariat (IV, 268). The words: 下午 (IV, 268). Made public: 2012. See [[cal.1963-05.china-leadership-5]]. Names: Peng Zhen, Wei Guoqing, An Pingsheng.'
     src:
       c: d2903b82
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 268: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:an-pingsheng, name:wei-guoqing]
     time_range:
       - 1963-05-24T04:00Z
       - 1963-05-24T10:00Z
@@ -6084,7 +6084,7 @@ entries:
       c: 98f4fd09
       rows:
         - 'w.yang-shangkun-riji II, 281: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-25.china-leadership-5
     when: May 25
@@ -6098,7 +6098,7 @@ entries:
       c: d36d715a
       rows:
         - 'w.yang-shangkun-riji II, 281: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-25.china-leadership-6
     when: May 25
@@ -6111,7 +6111,7 @@ entries:
       c: a708689d
       rows:
         - 'w.yang-shangkun-riji II, 282: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-05-25T11:00Z
       - 1963-05-25T14:00Z
@@ -6295,7 +6295,7 @@ entries:
       c: b041e4ce
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 548: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:huang-yanpei]
   - id: cal.1963-05-26.china-leadership-4
     when: May 26
     date: '1963-05-26'
@@ -6306,7 +6306,7 @@ entries:
       c: 10369cfe
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 549: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:zhang-gan, name:zhou-shizhao]
   - id: cal.1963-05-26.china-leadership-5
     when: May 26
     date: '1963-05-26'
@@ -6317,7 +6317,7 @@ entries:
       c: b1e66439
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 550: all'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc]
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:zhang-gan, name:zhou-shizhao]
   - id: cal.1963-05-26.china-leadership-6
     when: May 26
     date: '1963-05-26'
@@ -6330,7 +6330,7 @@ entries:
       c: cbe3fb11
       rows:
         - 'w.yang-shangkun-riji II, 282: all'
-    tags: [polity:prc, name:kim-il-sung, vis:only:prc+dprk]
+    tags: [polity:prc, name:kim-il-sung, vis:only:prc+dprk, name:yang-shangkun]
     time_range:
       - 1963-05-25T22:00Z
       - 1963-05-26T04:00Z
@@ -6519,7 +6519,7 @@ entries:
       c: 7b04f094
       rows:
         - 'w.yang-shangkun-riji II, 282: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-27.china-leadership-6
     when: May 27
@@ -6527,8 +6527,8 @@ entries:
     thread: china-leadership
     also: [africa]
     c: Camara Mamadi, Guinea's new Ambassador, calls on Chen Yi 陈毅.
-    n: '[[w.chen-yi-nianpu]], 968. The words: 下午 (968). Names: Chen Yi.'
-    tags: [polity:prc, polity:guinea, name:chen-yi, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 968. The words: 下午 (968). Names: Chen Yi, Camara Mamadi.'
+    tags: [polity:prc, polity:guinea, name:chen-yi, ok:fields-place, name:camara-mamadi]
     time_range:
       - 1963-05-27T04:00Z
       - 1963-05-27T10:00Z
@@ -6540,12 +6540,12 @@ entries:
     place: nanning
     thread: china-leadership
     c: 'Nanning 南宁. Peng Zhen 彭真 with Wei Guoqing 韦国清: cadres see the class struggle but hurry, Yulin''s 玉林 county committee three days to lift the lid, four to lay down burdens; Peng Zhen: the county committee''s thinking first; no rushing to labels and verdicts; most cadres reliable; the Party committees at every level relied on; trial points; on Wuming''s 武鸣 police planning 350 arrests: arrests in place of rousing the masses; none killed, arrests after the masses'' struggle; speculation and hired exploitation the new capitalist forces, the limits set late; landlords'' and rich peasants'' children judged by their own conduct.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 269–270. Made public: 2012. See [[cal.1963-05.china-leadership-5]]. Names: Peng Zhen.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 269–270. Made public: 2012. See [[cal.1963-05.china-leadership-5]]. Names: Peng Zhen, Wei Guoqing.'
     src:
       c: 493fbad0
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 269–270: all'
-    tags: [polity:prc, name:peng-zhen, vis:only:prc]
+    tags: [polity:prc, name:peng-zhen, vis:only:prc, name:wei-guoqing]
   - id: cal.1963-05-28.mississippi
     when: May 28
     date: '1963-05-28'
@@ -6727,7 +6727,7 @@ entries:
       c: 8e3519a4
       rows:
         - 'w.yang-shangkun-riji II, 282: all'
-    tags: [polity:prc, name:li-fuchun, vis:only:prc]
+    tags: [polity:prc, name:li-fuchun, vis:only:prc, name:ma-wenrui, name:yang-shangkun]
     time_range:
       - 1963-05-27T22:00Z
       - 1963-05-28T04:00Z
@@ -6744,7 +6744,7 @@ entries:
       c: c471d191
       rows:
         - 'w.yang-shangkun-riji II, 282: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-shuhuai, name:yang-shangkun]
     time_range:
       - 1963-05-28T04:00Z
       - 1963-05-28T10:00Z
@@ -6756,12 +6756,12 @@ entries:
     thread: china-leadership
     also: [china]
     c: Deng Xiaoping 邓小平, with Kang Sheng 康生 and Liu Ningyi 刘宁一, meets Sanmugathasan 桑穆加塔桑, member of the Politburo 政治局 of the Ceylon Communist Party's Central Committee 中央, on a visit.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1759 (May 28, 1963). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1759 (May 28, 1963). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng, Liu Ningyi.'
     src:
       c: 1c63b595
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1759: all'
-    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc]
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc, name:liu-ningyi]
   - id: cal.1963-05-28.china-leadership-7
     when: May 28
     date: '1963-05-28'
@@ -6889,7 +6889,7 @@ entries:
         - 'w.lengxi-shinian-lunzhan-1956-1966 570–571: A-G'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 578: C'
         - 'w.deng-xiaoping-nianpu-1904 III, 1759: ?'
-    tags: [polity:prc, polity:dprk, name:mao-zedong, name:kim-il-sung, name:liu-shaoqi, name:deng-xiaoping, name:kang-sheng, vis:only:prc+dprk]
+    tags: [polity:prc, polity:dprk, name:mao-zedong, name:kim-il-sung, name:liu-shaoqi, name:deng-xiaoping, name:kang-sheng, vis:only:prc+dprk, name:wang-renzhong]
   - id: cal.1963-05-29.china-leadership-2
     when: May 29, June 13
     date: '1963-05-29'
@@ -6913,12 +6913,12 @@ entries:
     follows:
       - cal.1963-05-29.china-leadership
     c: Wuhan. Eight a side, the Chinese drafters and the Koreans, go through the reply paragraph by paragraph, in the afternoon and evening. For the Chinese, Wu Lengxi, Wu Xiuquan, Wang Renzhong, Yao Zhen, Fan Ruoyu, Wang Li, Kang Sheng and Ambassador Hao Deqing; for the Koreans five named, the ambassador and two interpreters. The Koreans' many points are for the Chinese to weigh and not to be altered on the spot; the unclear wording is explained, and many are accepted.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 572 ("that afternoon and evening"; Mao''s proposal at the end of the first talk, "you send some men, we send some"; "eight against eight, exactly equal"; the Koreans'' points taken into the revision under Deng Xiaoping). Made public: 1999. Names: Kang Sheng.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 572 ("that afternoon and evening"; Mao''s proposal at the end of the first talk, "you send some men, we send some"; "eight against eight, exactly equal"; the Koreans'' points taken into the revision under Deng Xiaoping). Made public: 1999. Names: Kang Sheng, Wu Lengxi, Wu Xiuquan, Wang Renzhong, Yao Zhen, Fan Ruoyu, Wang Li, Hao Deqing.'
     src:
       c: 3da47aa8
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 572: all'
-    tags: [polity:prc, name:kang-sheng, vis:only:prc+dprk]
+    tags: [polity:prc, name:kang-sheng, vis:only:prc+dprk, name:fan-ruoyu, name:hao-deqing, name:wang-li, name:wang-renzhong, name:wu-lengxi, name:wu-xiuquan, name:yao-zhen]
     time_range:
       - 1963-05-29T04:00Z
       - 1963-05-29T14:00Z
@@ -6936,7 +6936,7 @@ entries:
       c: c900fa2f
       rows:
         - 'w.yang-shangkun-riji II, 282–283: all'
-    tags: [polity:prc, name:kim-il-sung, vis:only:prc+dprk]
+    tags: [polity:prc, name:kim-il-sung, vis:only:prc+dprk, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-29.china-leadership-5
     when: May 29
@@ -6949,7 +6949,7 @@ entries:
       c: ea220cba
       rows:
         - 'w.yang-shangkun-riji II, 283: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:tong-xiaopeng, name:xiao-guang, name:yang-shangkun]
     time_range:
       - 1963-05-29T11:00Z
       - 1963-05-29T14:00Z
@@ -6966,7 +6966,7 @@ entries:
       c: 804fba6d
       rows:
         - 'w.yang-shangkun-riji II, 283: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
     time_range:
       - 1963-05-29T11:00Z
       - 1963-05-29T14:00Z
@@ -6987,7 +6987,7 @@ entries:
       c: fb02f7af
       rows:
         - 'w.yang-shangkun-riji II, 283: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:yao-zhen]
     time_range:
       - 1963-05-29T14:00Z
       - 1963-05-29T16:00Z
@@ -7131,7 +7131,7 @@ entries:
       c: aafad039
       rows:
         - 'w.yang-shangkun-riji II, 283: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:chen-shaomin, name:ma-chungu, name:yang-shangkun]
     time_range:
       - 1963-05-30T04:00Z
       - 1963-05-30T10:00Z
@@ -7149,7 +7149,7 @@ entries:
       c: e0b0d704
       rows:
         - 'w.yang-shangkun-riji II, 283: all'
-    tags: [polity:prc, name:zhou-enlai, name:kim-il-sung, vis:only:prc]
+    tags: [polity:prc, name:zhou-enlai, name:kim-il-sung, vis:only:prc, name:yang-shangkun, name:yao-zhen]
   - id: cal.1963-05-30.china-leadership-5
     when: May 30
     date: '1963-05-30'
@@ -7897,7 +7897,7 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 371: all'
         - 'via w.jianguo-yilai-mao-zedong XVI, 371 n.1b: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:xiang-ming]
   - id: cal.1963-05.china-leadership-4
     when: May, after the 19th
     date: 1963-05
@@ -7940,7 +7940,7 @@ entries:
       c: 418e3458
       rows:
         - 'w.yang-shangkun-riji II, 283: all'
-    tags: [polity:prc, name:kim-il-sung, vis:only:prc]
+    tags: [polity:prc, name:kim-il-sung, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-05-30T22:00Z
       - 1963-05-31T04:00Z
@@ -7958,7 +7958,7 @@ entries:
       c: 0058f77e
       rows:
         - 'w.yang-shangkun-riji II, 283: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05-31.china-leadership-5
     when: May 31
@@ -7972,7 +7972,7 @@ entries:
       c: 8e87f6ee
       rows:
         - 'w.yang-shangkun-riji II, 283: all'
-    tags: [polity:prc, vis:only:prc]
+    tags: [polity:prc, vis:only:prc, name:li-jiebo, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1963-05.vietnam-hanoi
     when: May
@@ -8037,8 +8037,8 @@ entries:
     date: '1963-05-31'
     thread: china-leadership
     c: 'Chen Yi 陈毅 and his wife Zhang Qian 张茜 give a banquet for the envoys of Indonesia, Burma, Cambodia and the DRV, thanking the four countries for their welcome of Liu Shaoqi 刘少奇 and Wang Guangmei 王光美; he speaks: the joint statements and communique are important international documents; the five countries back the Laotian people and the people of South Vietnam against the United States, and Sukarno''s call for a second Asian-African conference; thanks them for their support on Taiwan, the UN seat and the Sino-Indian boundary.'
-    n: '[[w.chen-yi-nianpu]], 968–969. The words: 晚上 (968–969). Names: Chen Yi, Liu Shaoqi, Sukarno.'
-    tags: [polity:prc, polity:indonesia, polity:burma, polity:cambodia, polity:drv, name:chen-yi, name:liu-shaoqi, name:sukarno, ok:fields-place]
+    n: '[[w.chen-yi-nianpu]], 968–969. The words: 晚上 (968–969). Names: Chen Yi, Liu Shaoqi, Sukarno, Zhang Qian, Wang Guangmei.'
+    tags: [polity:prc, polity:indonesia, polity:burma, polity:cambodia, polity:drv, name:chen-yi, name:liu-shaoqi, name:sukarno, ok:fields-place, name:wang-guangmei, name:zhang-qian]
     time_range:
       - 1963-05-31T11:00Z
       - 1963-05-31T14:00Z

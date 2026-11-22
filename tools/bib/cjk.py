@@ -44,6 +44,7 @@ STYLE
    written, in the note's form, "The words: 中央决定进行反击战役." before "Names:", in every entry (not at a first
    appearance only); not where the note already gives it. A quotation with no English beside it stays on the line.
 """
+import contextlib
 import re
 
 CH = "㐀-䶿一-鿿豈-﫿々〇぀-ヿ가-힯"
@@ -324,6 +325,10 @@ def _name_chars(series):
                     for u in us:
                         if u:
                             out.setdefault(_key(u), m.group(2))
+        from . import lives                     # the register's (sources/people.yaml): his characters, its chars
+        for k, r in lives.register().items():
+            if isinstance(r, dict) and r.get("chars"):
+                out.setdefault(k, r["chars"])
         series._cjk_names = out
     return series._cjk_names
 
@@ -493,6 +498,27 @@ def page_rows(series, lst):
         from . import dayorder
         cache[lst.key] = dayorder.page_rows(lst)
     return cache[lst.key]
+
+
+_FIRSTS = ("_page_rows", "_first_cites", "_stat_firsts", "_first_cjk")
+
+
+@contextlib.contextmanager
+def as_page(series, lst, entries, name):
+    """While a page outside the calendar's parts is built from its entries (a thread's, tools/bib/threads.py,
+    STYLE 2): the calendar's page rows are that page's entries alone, in their order, so that the firsts on it are its
+    own (a work's full cite, works.first_cites; a statute's, footnotes._line_firsts; a person's characters, firsts).
+    The calendar's are put back after."""
+    saved = {k: series.__dict__[k] for k in _FIRSTS if k in series.__dict__}
+    for k in _FIRSTS:
+        series.__dict__.pop(k, None)
+    series._page_rows = {lst.key: [(name, e) for e in entries]}
+    try:
+        yield
+    finally:
+        for k in _FIRSTS:
+            series.__dict__.pop(k, None)
+        series.__dict__.update(saved)
 
 
 class Entry:

@@ -2,7 +2,8 @@
 # budget: bytes a page may hold, its HTML alone; budgets: a family's own; fill: a split packs its parts to this share
 # of the budget; exempt: reported, never split. The rest is the plan, written by `./bib pages --plan` (by hand only to
 # set a split aside): names, a letter in surname ranges; works, a page a letter; executive and congress, their top
-# sections in parts; retired, the pages a split replaced, each forwarding its old links. The calendar's parts are in
+# sections in parts; threads, a thread's page in parts by date; retired, the pages a split replaced, each forwarding
+# its old links. The calendar's parts are in
 # lists/cal/list.yaml (`split:`, `retired_parts`).
 budget: 5000000
 budgets:
@@ -32,12 +33,21 @@ names:
     from: buckley-w
     label: Buckley, W–Bz
   c:
-  - page: names-ca-chenx
+  - page: names-ca-chel
     from: c
-    label: Ca–Chen, X
-  - page: names-cheny-collinsjf
+    label: Ca–Chel
+  - page: names-chen-chenx
+    from: chen
+    label: Chen–Chen, X
+  - page: names-cheny-chenyi
     from: chen-y
-    label: Chen, Y–Collins, J F
+    label: Chen, Y–Chen, Yi
+  - page: names-chenyu-cliff
+    from: chen-yu
+    label: Chen, Yu–Cliff
+  - page: names-cliffo-collinsjf
+    from: cliffo
+    label: Cliffo–Collins, J F
   - page: names-collinsjl-cz
     from: collins-j-l
     label: Collins, J L–Cz
@@ -45,9 +55,12 @@ names:
   - page: names-da-dengf
     from: d
     label: Da–Deng, F
-  - page: names-dengx-dip
+  - page: names-dengx-deng
     from: deng-x
-    label: Deng, X–Dip
+    label: Deng, X–Deng
+  - page: names-dengi-dip
+    from: dengi
+    label: Dengi–Dip
   - page: names-dir-dz
     from: dir
     label: Dir–Dz
@@ -100,9 +113,16 @@ names:
   - page: names-la-lim
     from: l
     label: La–Lim
-  - page: names-lin-llor
+  - page: names-lin-liuj
     from: lin
-    label: Lin–Llor
+    label: Lin–Liu, J
+  - page: names-liushaoqi
+    from: liu-shaoqi
+    label: Liu Shaoqi
+    only: liu-shaoqi
+  - page: names-liuz-llor
+    from: liuz
+    label: Liuz–Llor
   - page: names-llos-lz
     from: llos
     label: Llos–Lz
@@ -126,6 +146,23 @@ names:
   - page: names-mossj-mz
     from: moss-j
     label: Moss, J–Mz
+  n:
+  - page: names-na-nis
+    from: n
+    label: Na–Nis
+  - page: names-nit-nz
+    from: nit
+    label: Nit–Nz
+  p:
+  - page: names-pa-pengm
+    from: p
+    label: Pa–Peng, M
+  - page: names-pengz-perri
+    from: peng-z
+    label: Peng, Z–Perri
+  - page: names-perro-pz
+    from: perro
+    label: Perro–Pz
   r:
   - page: names-ra-rockefellerm
     from: r
@@ -146,6 +183,13 @@ names:
   - page: names-stenn-sz
     from: stenn
     label: Stenn–Sz
+  t:
+  - page: names-ta-thomsong
+    from: t
+    label: Ta–Thomson, G
+  - page: names-thomsonj-tz
+    from: thomson-j
+    label: Thomson, J–Tz
   w:
   - page: names-wa-whitee
     from: w
@@ -245,3 +289,170 @@ congress:
     sections:
     - c93
     - c94
+threads:
+  china:
+  - page: threads-china-1960
+    from: '1960-01-01'
+    label: '1960'
+  - page: threads-china-1961
+    from: '1961-01-01'
+    label: '1961'
+  - page: threads-china-1962
+    from: '1962-01-01'
+    label: 1962–1963
+  - page: threads-china-1964
+    from: '1964-01-01'
+    label: 1964–1965
+  - page: threads-china-1966
+    from: '1966-01-01'
+    label: '1966'
+  - page: threads-china-1967
+    from: '1967-01-01'
+    label: 1967–1968
+  - page: threads-china-1969
+    from: '1969-01-01'
+    label: 1969–1970
+  china-leadership:
+  - page: threads-china-leadership-1960Q1
+    from: '1960-01-01'
+    label: Jan.–Mar. 1960
+  - page: threads-china-leadership-1960Q2
+    from: '1960-04-01'
+    label: Apr.–June 1960
+  - page: threads-china-leadership-1960Q3
+    from: '1960-07-01'
+    label: July–Sept. 1960
+  - page: threads-china-leadership-1960-10
+    from: '1960-10-01'
+    label: Oct.–Nov. 1960
+  - page: threads-china-leadership-1960-12
+    from: '1960-12-01'
+    label: Dec. 1960
+  - page: threads-china-leadership-1961Q1
+    from: '1961-01-01'
+    label: Jan.–Mar. 1961
+  - page: threads-china-leadership-1961Q2
+    from: '1961-04-01'
+    label: Apr.–June 1961
+  - page: threads-china-leadership-1961Q3
+    from: '1961-07-01'
+    label: July–Sept. 1961
+  - page: threads-china-leadership-1961Q4
+    from: '1961-10-01'
+    label: Oct.–Dec. 1961
+  - page: threads-china-leadership-1962Q1
+    from: '1962-01-01'
+    label: Jan.–Mar. 1962
+  - page: threads-china-leadership-1962Q2
+    from: '1962-04-01'
+    label: Apr.–June 1962
+  - page: threads-china-leadership-1962Q3
+    from: '1962-07-01'
+    label: July–Sept. 1962
+  - page: threads-china-leadership-1962Q4
+    from: '1962-10-01'
+    label: Oct.–Dec. 1962
+  - page: threads-china-leadership-1963Q1
+    from: '1963-01-01'
+    label: Jan.–Mar. 1963
+  - page: threads-china-leadership-1963Q2
+    from: '1963-04-01'
+    label: Apr.–June 1963
+  - page: threads-china-leadership-1963Q3
+    from: '1963-07-01'
+    label: July–Sept. 1963
+  - page: threads-china-leadership-1963Q4
+    from: '1963-10-01'
+    label: Oct.–Dec. 1963
+  - page: threads-china-leadership-1964Q1
+    from: '1964-01-01'
+    label: Jan.–Mar. 1964
+  - page: threads-china-leadership-1964Q2
+    from: '1964-04-01'
+    label: Apr.–June 1964
+  - page: threads-china-leadership-1964Q3
+    from: '1964-07-01'
+    label: July–Sept. 1964
+  - page: threads-china-leadership-1964Q4
+    from: '1964-10-01'
+    label: Oct.–Dec. 1964
+  - page: threads-china-leadership-1965Q1
+    from: '1965-01-01'
+    label: Jan.–Mar. 1965
+  - page: threads-china-leadership-1965Q2
+    from: '1965-04-01'
+    label: Apr.–June 1965
+  - page: threads-china-leadership-1965Q3
+    from: '1965-07-01'
+    label: July–Sept. 1965
+  - page: threads-china-leadership-1965Q4
+    from: '1965-10-01'
+    label: Oct.–Dec. 1965
+  - page: threads-china-leadership-1966Q1
+    from: '1966-01-01'
+    label: Jan.–Mar. 1966
+  - page: threads-china-leadership-1966Q2
+    from: '1966-04-01'
+    label: Apr.–June 1966
+  - page: threads-china-leadership-1966-07
+    from: '1966-07-01'
+    label: July–Aug. 1966
+  - page: threads-china-leadership-1966-09
+    from: '1966-09-01'
+    label: Sept.–Dec. 1966
+  - page: threads-china-leadership-1967Q1
+    from: '1967-01-01'
+    label: Jan.–Mar. 1967
+  - page: threads-china-leadership-1967Q2
+    from: '1967-04-01'
+    label: Apr.–June 1967
+  - page: threads-china-leadership-1967Q3
+    from: '1967-07-01'
+    label: July–Dec. 1967
+  - page: threads-china-leadership-1968Q1
+    from: '1968-01-01'
+    label: Jan.–June 1968
+  - page: threads-china-leadership-1968Q3
+    from: '1968-07-01'
+    label: July 1968–Mar. 1969
+  - page: threads-china-leadership-1969Q2
+    from: '1969-04-01'
+    label: Apr. 1969–Dec. 1970
+  soviet-union:
+  - page: threads-soviet-union-1960
+    from: '1960-01-01'
+    label: '1960'
+  - page: threads-soviet-union-1961
+    from: '1961-01-01'
+    label: 1961–1962
+  - page: threads-soviet-union-1963
+    from: '1963-01-01'
+    label: 1963–1964
+  - page: threads-soviet-union-1965
+    from: '1965-01-01'
+    label: 1965–1969
+  vietnam:
+  - page: threads-vietnam-1960
+    from: '1960-01-01'
+    label: 1960–1964
+  - page: threads-vietnam-1965
+    from: '1965-01-01'
+    label: 1965–1967
+  - page: threads-vietnam-1968
+    from: '1968-01-01'
+    label: 1968–1970
+  vietnam-hanoi:
+  - page: threads-vietnam-hanoi-1960
+    from: '1960-01-01'
+    label: 1960–1964
+  - page: threads-vietnam-hanoi-1965
+    from: '1965-01-01'
+    label: 1965–1968
+  - page: threads-vietnam-hanoi-1969
+    from: '1969-01-01'
+    label: 1969–1970
+retired:
+- names-ca-chenx
+- names-cheny-collinsjf
+- names-dengx-dip
+- names-lin-llor

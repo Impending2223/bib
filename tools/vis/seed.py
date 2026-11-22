@@ -15,7 +15,8 @@ too (a hand row marked `hand: true` is kept even then).
 STYLE
  1. Persons (polities.yaml `names`): by Part III's role and section (the foreign sections: K-J Adm. III.J and Adm.
     III.J, Abroad; Viet. III.G, South Vietnam; III.H, North Vietnam and the Front; III.I, Others abroad); else the
-    rosters (an Executive Branch holder, a member of Congress: the United States); else FRUS's lists of persons, by
+    rosters (an Executive Branch holder, a member of Congress: the United States); else the register's `polity`
+    (sources/people.yaml, where the threads make it plain); else FRUS's lists of persons, by
     each volume's description (tools/bib/vis_words.py, STYLE 1), a change of polity between volumes kept as dated
     ranges and marked doubtful; else `?`. `basis` says which.
  2. Works (provenance.yaml `works`): the kind from the card or its listing (a memoir: listed under its author as
@@ -753,7 +754,9 @@ def main(dry, refresh):
         p = by_key.get(k)
         ranks = p["ranks"] if p else set()
         pk = lives.key_of(p["name"]) if p else k
-        names[k] = person_row(k, p3.get(k) or p3.get(pk, []), ranks, frus_roles(k) or frus_roles(pk))
+        row = lives.register().get(pk) if p and p.get("reg") else None   # the register's (sources/people.yaml)
+        names[k] = ({"polity": row["polity"], "basis": "people.yaml"} if row and row.get("polity") else
+                    person_row(k, p3.get(k) or p3.get(pk, []), ranks, frus_roles(k) or frus_roles(pk)))
     names = merged(old_pol.get("names"), names, refresh)
 
     # places: the gazetteer's countries, and the hand rows
