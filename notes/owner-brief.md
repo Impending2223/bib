@@ -1299,3 +1299,7 @@ On the Thread index page, put the thread summaries, including both the topic sen
 "Remember that you're meant to reply to requests for the queue only with "Queued."
 
 For the queue: There should only be one ", at" in a single string citation. The ", at 1, at 26 n.89" here should be ", at 1, 26 n.89" and the ", at 165, at 178–179" should be ", at 165, 178–179"" (screenshot: Westad, Brothers in Arms, footnotes 1–2)
+
+(Nov. 23, 2:40 p.m., in working hours, not marked Immediate: queued) "When the Pinyin transliteration of a non-Chinese CJK name is given, the CJK must also be given, and the transliteration of the name should be given without italics.
+
+The [July 4, 1960 entry for Chen Yi](https://impending2223.github.io/bib/e.html#cal.1960-07-04.china-leadership-9) violates these rules. Please correct it." (screenshot: "led by "*Zhunei Meng*"." with no characters shown)
