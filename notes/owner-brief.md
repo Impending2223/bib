@@ -1295,3 +1295,7 @@ On the Thread index page, put the thread summaries, including both the topic sen
 "For the queue: Drop the "All entries" thread links from the individual calendar pages."
 
 "No, it shouldn't. But on the individual calendar pages, the line break takes up too much vertical space."
+
+"Remember that you're meant to reply to requests for the queue only with "Queued."
+
+For the queue: There should only be one ", at" in a single string citation. The ", at 1, at 26 n.89" here should be ", at 1, 26 n.89" and the ", at 165, at 178–179" should be ", at 165, 178–179"" (screenshot: Westad, Brothers in Arms, footnotes 1–2)
