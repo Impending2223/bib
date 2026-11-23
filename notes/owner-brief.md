@@ -1287,3 +1287,7 @@ But, at a minimum, the box needs to be collapsible and the point size of the tit
 I was tempted to say "and the box needs to have a background color that is not white," but that might become a non-issue once the box is collapsible.
 
 Give me a 暦 link to the calendar in the navigation bar, in place of the current 本 for the reader, which is to be dropped from the navigation bar." (with screenshots: a Threads page bar reading "1960 / 1960 / July / 1"; names-di, Dirksen, the bar reading "Dirksen")
+
+(Nov. 23, about 7:35 a.m., within the working-hours pause, marked "Immediate") "Immediate.
+
+On the Thread index page, put the thread summaries, including both the topic sentence and the full items sentence, between the thread name and the entry count and links, styled as they are on the individual calendar pages."
