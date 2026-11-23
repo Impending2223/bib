@@ -1291,3 +1291,5 @@ Give me a 暦 link to the calendar in the navigation bar, in place of the curren
 (Nov. 23, about 7:35 a.m., within the working-hours pause, marked "Immediate") "Immediate.
 
 On the Thread index page, put the thread summaries, including both the topic sentence and the full items sentence, between the thread name and the entry count and links, styled as they are on the individual calendar pages."
+
+"For the queue: Drop the "All entries" thread links from the individual calendar pages."
