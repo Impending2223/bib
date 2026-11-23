@@ -32,7 +32,8 @@ STYLE
     old link sent to the part that holds its anchor's date (`forward`). Each part carries the parts' bar at its head
     and the part before and after at its foot (pages.bar, pages.seam). A part a later plan drops forwards the same way.
  7. threads.html, the index: every thread with entries, in the thread index's order (th.yaml), by its full name
-    ("Defense: McNamara to Clifford"), linked to its page, its count, a split thread's parts by span.
+    ("Defense: McNamara to Clifford"), linked to its page; its statement for the whole span (its topic and its stations,
+    as the calendar's pages give it: the owner, Nov. 23, 2026); its count, a split thread's parts by span.
  8. Links in: each thread's entry in the calendar's thread index and in cal.html's list ("All entries", linked; a
     split thread's parts by span: index_link), the bar's 糸, the reader's drawer and home page.
 """
@@ -352,16 +353,25 @@ def thread_index(series, linker, template, lst, slug, ps, counts):
 
 def index_page(series, template, lst):
     """threads.html (STYLE 7)."""
-    from . import build
+    from . import build, calsplit
     rows = []
+    text_html = build.list_text_html(series, lst.key)
+    lo, hi = calsplit.part_range(lst, None)          # the whole calendar's span
     for slug in slugs(lst):
         ms = members(lst, slug)
         ps = parts(slug)
         more = (": " + ", ".join(f'<a href="{esc(p["page"])}.html">{esc(p["label"])}</a>' for p in ps)) if ps else ""
         ghost = ' class="thg"' if lst.is_ghost(slug) else ""
-        rows.append(f'<li id="{esc(slug)}"{ghost}><span class="s"><a href="{page_of(slug)}.html">'
-                    f'{esc(build.thread_name(lst, slug))}</a></span><span class="n">{len(ms):,} '
-                    f'{"entry" if len(ms) == 1 else "entries"}{more}.</span></li>')
+        # the thread's statement, its topic and its stations, as the calendar's pages give it (the owner, Nov. 23,
+        # 2026: "between the thread name and the entry count and links, styled as they are on the individual
+        # calendar pages"); links to entries go to the calendar
+        st = []
+        for i, c in enumerate(store.as_list(_statement(lst, lst.threads()[slug], lo, hi))):
+            body = text_html(c, "c")
+            st.append(f'<span class="c">{build.thread_person(series, body) if i == 0 else body}</span>')
+        rows.append(_rewrite(f'<li id="{esc(slug)}"{ghost}><span class="s"><a href="{page_of(slug)}.html">'
+                    f'{esc(build.thread_name(lst, slug))}</a></span>' + "".join(st) + f'<span class="n">{len(ms):,} '
+                    f'{"entry" if len(ms) == 1 else "entries"}{more}.</span></li>', set()))
     main = ["<h1>Threads</h1>",
             '<p class="logic">Each thread of the calendar, a page a thread: its entries, its own and those it holds '
             "by <i>also</i>, in the calendar's order, each as the calendar gives it. A large thread is in parts by "
