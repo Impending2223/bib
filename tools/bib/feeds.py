@@ -248,6 +248,10 @@ def page(series, template):
                     'FRUS text extract (sources/frus-text/).</p>')
     else:
         main.append(f'<p class="logic">{len(books)} books, {_size(total)} in all.</p>')
+    cb = os.path.join(ebooks.OUT, "calendar.epub")
+    if os.path.exists(cb):                   # the whole calendar in one book (tools/bib/calbook.py)
+        main.append('<p class="logic">The whole calendar, every page\'s days with their entries, notes and thread '
+                    f'links, a file a month: <a href="ebooks/calendar.epub">calendar.epub</a> ({_size(os.path.getsize(cb))}).</p>')
     for y in years:
         rows = []
         for m, docs in doc_months.items():

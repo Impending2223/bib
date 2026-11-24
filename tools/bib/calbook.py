@@ -167,7 +167,7 @@ def build(out=OUT):
     for m, els in chunks:
         y, mo = int(m[:4]), int(m[5:])
         label = f"{MONTHS[mo - 1]} {y}"
-        cur, size, n = [], 0, 1
+        cur, size = [], 0
         fn = f"m{m}.xhtml"
         groups = []
         for e in els:

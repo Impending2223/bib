@@ -1548,6 +1548,13 @@ def run(series, which=None):
     if which in (None, "ebooks"):         # the documents, an EPUB a month (tools/bib/ebooks.py)
         from . import ebooks
         written += [p for p, _, _ in ebooks.build(series)]
+        from . import calbook                # the whole calendar, one EPUB, from the pages just built (calbook.py)
+        if os.path.exists(os.path.join(OUT, "cal1960H1.html")):
+            p, _, _ = calbook.build()
+            errs = ebooks.validate(p)
+            if errs:
+                print(f"calbook: {len(errs)} problems in {p}:", *errs[:10], sep="\n  ")
+            written.append(p)
     if which in (None, "ebooks", "feeds"):  # the recordings' feeds and the page of both (tools/bib/feeds.py)
         written += feeds.build(series)
         path = os.path.join(OUT, feeds.PAGE)
