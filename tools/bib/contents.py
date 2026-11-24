@@ -68,8 +68,16 @@ STYLE (the owner's rules, Oct. 21, 2026):
     1960 and all of 1961, but nothing else ... 1972 should display what exists of 1970 and 1976"); its own months in the
     text's color, the months on other pages muted (a.oth; "greying out the months on other pages"); the page's year bold,
     as before. The index (half 0) and the reader keep the whole calendar.
+ 8. A part's page unfolds its own months into days (the owner, Nov. 24, 2026, choosing variant B of
+    notes/previews/page-grids-alts.html: "Centered."): the months before it stay in the grid above; a blank line; a
+    table of the navigator's width and year column, a weekday row (S M T W T F S, muted, regular weight) and each month
+    its own rows of weeks, Sunday first, under its name, the months set apart by the year gap (tbody.gap); the days
+    centred, a day a link to its block where the page has one (finish(), DAYS), else its number; the days before the
+    page's first blank; a blank line; the months after it in their own columns. The year goes on the weekday row where
+    no months come before. Departures from the grid: seven columns, the weekday row, the blank lines, the centring.
 """
 import calendar
+import datetime
 import html
 import re
 
@@ -265,35 +273,57 @@ def nav(lst, sections, half=None):
             after = [y for y in years if y > own[-1]]
             keep = set(own) | ({max(before)} if before else set()) | ({min(after)} if after else set())
             years = {y: ms for y, ms in years.items() if y in keep}
-    rows, prev = [], None
+    daygrid = bool(whole and half and not series)     # a part's page: its months unfold into days (STYLE 8)
+    pre, own, post, prev = [], [], [], None           # tbodies before the page's months, its months, after
     for y in sorted(years):
         ms = years[y]
         part = calsplit.half_of_section(lst, ms[min(ms)]) if whole else half
         halves = [h for h in (0, 1) if any(h * 6 + k in ms for k in range(1, 7))]
-        trs = []
-        for j, h in enumerate(halves):
-            cells = []
+        yc = str(y)
+        if whole and part != half:          # another part's year: its page's top (STYLE 6)
+            key = calsplit.page_key(lst, part)
+            yc = f'<a href="{esc(f"#{key}--top" if series else f"{key}.html")}">{y}</a>'
+        elif daybook.year_opened(lst, ms[min(ms)]) == y:    # the year's own heading (daybook.py, STYLE 17)
+            yc = (f'<a class="yo" href="{esc(year_href(lst, ms[min(ms)], whole, y))}" '
+                  f'data-id="{esc(_year_id(lst, y))}">{y}</a>')
+        gap = ' class="gap"' if prev is not None and y != prev + 1 else ""
+        here = ' data-here="1"' if whole and part == half else ""
+        sides = {"pre": [], "post": []}
+        for h in halves:
+            cells = {"pre": [], "post": []}
             for k in range(1, 7):
                 mo = h * 6 + k
                 s = ms.get(mo)
+                mine = s is not None and daygrid and calsplit.half_of_section(lst, s) == half
+                if mine:
+                    own.append((y, mo, s))
+                side = "post" if daygrid and (own and not mine) else "pre"
                 oth = ' class="oth"' if s and whole and half and not series and calsplit.half_of_section(lst, s) != half else ""
-                cells.append(f'<td><a{oth} href="{esc(_sec_href(lst, s, whole))}" data-id="{esc(_sec_id(lst, s))}" '
-                             f'title="{esc(_title(s, y, mo))}">{MON3[mo - 1]}</a></td>' if s else "<td></td>")
-            yc = str(y)
-            if whole and part != half:          # another part's year: its page's top (STYLE 6)
-                key = calsplit.page_key(lst, part)
-                yc = f'<a href="{esc(f"#{key}--top" if series else f"{key}.html")}">{y}</a>'
-            elif daybook.year_opened(lst, ms[min(ms)]) == y:    # the year's own heading (daybook.py, STYLE 17)
-                yc = (f'<a class="yo" href="{esc(year_href(lst, ms[min(ms)], whole, y))}" '
-                      f'data-id="{esc(_year_id(lst, y))}">{y}</a>')
-            th = f'<th scope="rowgroup" rowspan="{len(halves)}">{yc}</th>' if j == 0 else ""
-            trs.append(f"<tr>{th}{''.join(cells)}</tr>")
-        gap = ' class="gap"' if prev is not None and y != prev + 1 else ""
-        here = ' data-here="1"' if whole and part == half else ""
-        rows.append(f"<tbody{gap}{here}>{''.join(trs)}</tbody>")
+                cell = (f'<td><a{oth} href="{esc(_sec_href(lst, s, whole))}" data-id="{esc(_sec_id(lst, s))}" '
+                        f'title="{esc(_title(s, y, mo))}">{MON3[mo - 1]}</a></td>' if s and not mine else "<td></td>")
+                for sd in ("pre", "post"):
+                    cells[sd].append(cell if sd == side else "<td></td>")
+            for sd in ("pre", "post"):
+                if any(c != "<td></td>" for c in cells[sd]):
+                    sides[sd].append(cells[sd])
+        for sd, out in (("pre", pre), ("post", post)):
+            if sides[sd]:
+                shown = sd == "post" and (sides["pre"] or any(o[0] == y for o in own))   # the year named above
+                th0 = "<th></th>" if shown else f'<th scope="rowgroup">{yc}</th>'
+                trs = "".join(f"<tr>{th0 if r == 0 else '<th></th>'}{''.join(cs)}</tr>" for r, cs in enumerate(sides[sd]))
+                out.append(f"<tbody{gap if sd == 'pre' or not out else ''}{here}>{trs}</tbody>")
         prev = y
-    grid = (f'<table class="tocg" aria-label="Months"><colgroup><col class="y">{"<col>" * 6}</colgroup>'
-            f'{"".join(rows)}{SLOT}</table>') if rows else SLOT
+    rows = pre + post
+    head = f'<table class="tocg" aria-label="Months"><colgroup><col class="y">{"<col>" * 6}</colgroup>'
+    if daygrid and own:
+        y0 = own[0][0]
+        lead = "" if pre else (f'<a class="yo" href="{esc(year_href(lst, own[0][2], whole, y0))}" '
+                               f'data-id="{esc(_year_id(lst, y0))}">{y0}</a>'
+                               if daybook.year_opened(lst, own[0][2]) == y0 else str(y0))
+        grid = ((head + "".join(pre) + "</table>" if pre else "")
+                + day_grid(lst, own, lead, half) + head + "".join(post) + SLOT + "</table>")
+    else:
+        grid = (head + "".join(rows) + SLOT + "</table>") if rows else SLOT
     return ('<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" '
             'data-short="Contents">Contents</h3>\n<div id="tocCal" class="tocc">'
             f'<ol class="tocl">{"".join(lines)}</ol>{grid}</div>\n</nav>')
@@ -334,9 +364,55 @@ def thread_slot(lst, slug):
 FOUND = {}       # part -> [(anchor, label, date)]: each part page's tables and maps, for the whole calendar's list
 
 
+DAYS = "<!--daygrid-->"                  # the page's days, filled by finish() from the page's own day blocks
+
+
+def day_grid(lst, own, lead, half):
+    """The page's months unfolded (STYLE 8): a week a row, Sunday first, a month its own rows under its name (a link to
+    its section), the months set apart by the navigator's year gap; a day a link to its block where the page has one
+    (finish() fills DAYS), the days before the page's first left blank."""
+    a, b = calsplit.part_range(lst, half)
+    rows = [f'<tbody><tr><th scope="rowgroup">{lead}</th>'
+            + "".join(f'<th class="wd">{d}</th>' for d in "SMTWTFS") + "</tr></tbody>"]
+    cal_ = calendar.Calendar(6)
+    last_y = own[0][0]
+    for y, mo, s in own:
+        if y != last_y:
+            rows.append(f'<tbody class="gap"><tr><th scope="rowgroup">{y}</th><td colspan="7"></td></tr></tbody>')
+            last_y = y
+        trs = []
+        for wk in cal_.monthdatescalendar(y, mo):
+            if all(d.month != mo or d < a or d > b for d in wk):
+                continue
+            cells = "".join(f"<td>{DAYS}{d.isoformat()}{DAYS}</td>" if d.month == mo and a <= d <= b else "<td></td>"
+                            for d in wk)
+            lab = (f'<a class="yo" href="{esc(_sec_href(lst, s, True))}" data-id="{esc(_sec_id(lst, s))}" '
+                   f'title="{esc(_title(s, y, mo))}">{MON3[mo - 1]}</a>') if not trs else ""
+            trs.append(f"<tr><th>{lab}</th>{cells}</tr>")
+        rows.append(f'<tbody class="gap">{"".join(trs)}</tbody>')
+    return (f'<table class="tocg dayg" aria-label="Days"><colgroup><col class="y">{"<col>" * 7}</colgroup>'
+            + "".join(rows) + "</table>")
+
+
+def _days(page):
+    """DAYS filled: a day with a block on the page, a link to it; else its number alone."""
+    have = set(re.findall(r'<div class="day[^"]*" id="d(\d{4}-\d\d-\d\d)"', page))
+
+    def sub(m):
+        iso = m.group(1)
+        d = int(iso[8:])
+        if iso in have:
+            return (f'<a href="#d{iso}" data-id="d{iso}" title="{esc(calendar.day_name[datetime.date.fromisoformat(iso).weekday()])}, '
+                    f'{esc(MONTHS[int(iso[5:7]) - 1])} {d}, {iso[:4]}">{d}</a>')
+        return str(d)
+    return re.sub(re.escape(DAYS) + r"(\d{4}-\d\d-\d\d)" + re.escape(DAYS), sub, page)
+
+
 def finish(page, lst, half=None, defer=False):
     """The tables and maps on the page, listed in their threads' statements and in the contents: the page's own; with
     defer (a calendar in parts), recorded for fill(), which lists the whole calendar's once every part is built."""
+    if DAYS in page:
+        page = _days(page)
     from .build import entry_threads
     ents = {e["id"]: e for _, e in lst.entries()}
     found = []                                  # (anchor, label, entry), in order of appearance
@@ -447,6 +523,9 @@ table.tocg tbody.tbs>tr:first-child>*{padding-top:.45rem}
 table.tocg td.tbi{font-size:.9rem;padding:.1rem 0;line-height:1.35}
 .tocc a{text-decoration:none;color:var(--ink)}
 .tocc table.tocg a.oth{color:var(--muted)}
+table.tocg.dayg{margin:1.3em 0}
+table.tocg.dayg td,table.tocg.dayg th.wd{text-align:center}
+table.tocg.dayg th.wd{color:var(--muted);font-weight:400}
 .tocc a:hover{color:var(--accent);text-decoration:underline}
 #drawer .tocc a.cur{padding:0 .15rem}
 </style>"""

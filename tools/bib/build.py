@@ -339,7 +339,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
             parts.append(fn_html)
         if n:
             parts.append(f'<span class="n">{text_html(n, "n")}</span>')
-    if rubric is not None and lst.kind == "calendar" and e.get("thread") and not home:
+    if rubric is not None and lst.kind == "calendar" and e.get("thread"):   # the Names pages too (lives.py, STYLE 9)
         prog = program_html(series, lst, e, year, text_html)
         if prog:
             parts.append(f'<span class="tn tp">{prog}</span>')

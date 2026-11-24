@@ -44,7 +44,9 @@ STYLE:
     renderer (build.entry_html: the line, its footnotes, the note with its "Names:" line linked, the place and time at
     the right, dateline.py, the □ mark in the corner), the full width, in the calendar's day blocks (daybook.day_open,
     block_open): the day's heading once over the person's entries of the day; a span's, a month's or a loose date's,
-    its `when` with its year. No thread rubric, rules between entries, thread line or ⟨⟨ ⟩⟩, and no "Cal." pointer.
+    its `when` with its year. No "Cal." pointer. The thread rubric, the rules between entries and the thread line with its
+    ⟨⟨ ⟩⟩ as on the calendar, no styling of the page's own (the owner, Nov. 22, 2026, reversing the same day's: "bring
+    the entries on the names pages into complete conformity with the calendar pages").
  8. "Nomination hearings" (the owner's request, Nov. 5, 2026), after "Testimony before Congress": the printed
     hearings on the person's nominations, a line each, by the first day held (linked to the calendar's day within its
     span), the title as printed to "hearing before", linked to govinfo; the committee, Congress and session, and the
@@ -1959,7 +1961,7 @@ def calendar_sentences(ptrs, cal, key=""):
         lst, sec, _ = hit
         if lst.key not in renderers:
             renderers[lst.key] = build.list_text_html(ptrs.series, lst.key, ptrs.linker)
-        rub = daybook.rubric_row("", e) if dateline.html_(e) else ""
+        rub = daybook.rubric(lst, e, build.thread_name) or (daybook.rubric_row("", e) if dateline.html_(e) else "")
         li = build.entry_html(ptrs.series, lst, sec, e, renderers[lst.key], rubric=rub, home=key or None, site=SITE)
         # a link to an entry of the calendar goes to the calendar (the build's router finds its page); the
         # footnotes' own anchors stay on this page
@@ -2982,9 +2984,6 @@ p.az a{color:var(--muted);text-decoration:none}
 p.az a:hover{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px}
 p.az span{color:var(--ink)}
 .lvl{margin:.5rem 0;line-height:1.55}
-/* the calendar's entries in the Life, in its day blocks (daybook.py), without its rules (STYLE 9) */
-.lv .day{border-top:0;padding:.45rem 0 .1rem}
-.lv .day ol.e>li,.lv .day ol.e>li+li{border:0;padding:.35rem 0 .3rem}
 ul.lvx{list-style:none;margin:.3rem 0 1rem;padding:0;columns:2;column-gap:1.5rem;font-size:.92rem;line-height:1.5}
 ul.lvx li{break-inside:avoid;padding-left:1em;text-indent:-1em}
 ul.lvx a{color:var(--ink);text-decoration:none}
