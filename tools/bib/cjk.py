@@ -20,6 +20,9 @@ STYLE
    him 阿夫扎尔", "a note headed 关于"), after a plain noun that introduces them ("the slogan 三面红旗", "the line
    不到长城非好汉"; a term of its own words is glossed: "the general line 总路线"), after a comma ("the departing
    Romanian ambassador, 乔治乌"), after no word. Vietnamese is not touched (it is Latin script).
+2a. A Japanese, Korean or other non-Chinese name the source gives only in characters, read in Pinyin, stands in roman
+   in quotation marks with its characters after it, and the characters stay in the line ('led by "Zhunei Meng"
+   竹内猛'; the owner, Nov. 23, 2026: "the CJK must also be given, and the transliteration ... without italics").
 3. A dropped run's characters are not collected (no "Characters:" sentence: the owner, above); a person's in the
    note's "Names:" sentence are given after his name at their first appearance on the page (a calendar half, as
    tools/bib/works.py FIRST CITE counts pages; the entries in the page's order, a day's as the day lays them out:
@@ -93,6 +96,7 @@ def _quoted(before):
     return before[start:], start
 
 
+READING = re.compile(r"^[\"“][A-Z][a-z]+(?: [A-Z][a-z]+){0,3}[\"”]$")   # "Zhunei Meng" (STYLE 2a)
 OPEN = "([\"“'‘"
 
 
@@ -263,6 +267,8 @@ def split(text):
         lab = _label(b) if b else None
         if lab is None or (m.group("run")[0] in "「『" and lab[0] not in "\"“'‘"):
             continue                                 # words quoted in corner brackets gloss only a quotation
+        if not comma and READING.match(lab) and len(m.group("run")) <= 6:
+            continue                                 # a non-Chinese name read in Pinyin, quoted: its characters stay (STYLE 2a)
         if comma:                                    # ... and only where the label is all it holds ("the" aside)
             inner = re.search(r"\(([^()]*)$", b)
             if not inner or re.sub(r"^(?:the|a|an) ", "", inner.group(1)).rstrip("\"”'’").lstrip("\"“'‘") \
