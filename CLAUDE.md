@@ -104,6 +104,10 @@ A deliberate exception to a `check` warning is tagged `ok:<rule>` on the entry (
 
 The owner's standing rule (Oct. 28, 2026): no work between 7 a.m. and 5 p.m. Pacific, Monday to Friday; Saturday and Sunday are exempt (the same day). At 7 a.m. the running agents are stopped, their work committed as WIP and listed for resuming; a task or an agent's report that comes in before 5 p.m. is queued, not acted on, and answered with the one word "Queued." (the owner, the same day); after 5 p.m. the agents are resumed and the queue taken up in order. Two scheduled tasks keep it in the session that runs the reading (6:46 a.m. and 5:04 p.m. Pacific, weekdays). A request to amend the queue is not queued: it is done at once, ahead of everything in the queue (the owner, Nov. 16: "an 'amend the queue' task takes priority over the items in the queue! immediate!"). In the queue, by default, layout and design changes come before anything token-intensive or complex (the owner, Nov. 16).
 
+## Nothing blocks on the owner (the owner, Nov. 24, 2026: "Nothing should block on 'awaiting my ruling.'")
+
+Where a question is the owner's, take the reading the brief and the owner's past rulings best support, do the work on it, and record both in `notes/owner-rulings.md` (the question, the default taken, where it applies), so the owner can overrule it later and the work be redone by rule. Show a design or a proposal while the work goes on, not before it.
+
 ## Publishing
 
 The site is GitHub Pages: https://impending2223.github.io/bib/ (the compiled reader; each list at `<key>.html`). Every push to `main` runs `.github/workflows/pages.yml`: `./bib check`, `./bib build`, deploy. A failing check stops the deploy. So publishing is merging to `main`. Run `check` and `build` locally before you push.
