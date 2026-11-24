@@ -19,6 +19,9 @@ ops:
     id: cal.1960-06-29.congress
     text: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Russell Baker, "Congress Moves into Campaign," Week in Review, Washington, July 2: Johnson and Rayburn "staked their fortunes this week" on bringing Congress back after the conventions; page not shown)'
     units: '?'
+- check:
+    id: cal.1960-06-26.china-leadership-4
+    text: 'Check: the *Times* of July 3, 1960 (Hong Kong, July 1, in Topping''s "African Nations Wooed by Soviet"; page not shown) has Peking''s recognition of the Congo "two days in advance" of independence, June 28.'
 - add:
     entry:
       id: cal.1960-07-02.elections-1960-nomination-4
@@ -47,7 +50,13 @@ ops:
       thread: elections-1960-nomination
       c: 'Ribicoff: Truman''s press conference part of the "last-minute desperation tactics" of a few men who would choose the candidate in a smoke-filled room; sad to see Truman join the effort to stop Kennedy.'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 19 ("Ribicoff Chides Truman," Hartford, July 2, UPI: "tonight"). See [[cal.1960-07-02.elections-1960-2]]. Names: Ribicoff, Truman, Kennedy.'
-      tags: [ok:fields-time, name:ribicoff-abraham, name:truman-harry-s, name:kennedy-john-f, state:ct, city:hartford]
+      tags: [name:ribicoff-abraham, name:truman-harry-s, name:kennedy-john-f, state:ct, city:hartford]
+      time_range:
+      - 1960-07-02T23:00Z
+      - 1960-07-03T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-02.elections-1960-nomination-7
@@ -155,8 +164,14 @@ ops:
       thread: democratic-party
       also: [elections-1960-nomination]
       c: 'Butler, the Democratic National Chairman, after nearly three hours with advisers, decides to make no comment on Truman''s statement; Samuel Brightman, the committee''s publicity director, announces it.'
-      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1 (Leo Egan, "Kennedy Demands Air Time to Reply," Los Angeles, July 2: "this afternoon"). See [[cal.1960-07-02.elections-1960-2]]. Names: Truman.'
-      tags: [ok:fields-time, ok:fields-place, name:truman-harry-s]
+      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1 (Leo Egan, "Kennedy Demands Air Time to Reply," Los Angeles, July 2: "this afternoon," the Los Angeles datelines clock; where Butler sat not said). See [[cal.1960-07-02.elections-1960-2]]. Names: Truman.'
+      tags: [ok:fields-place, name:truman-harry-s]
+      time_range:
+      - 1960-07-02T19:00Z
+      - 1960-07-03T01:00Z
+      time_band: afternoon
+      time_zone: America/Los_Angeles
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-02.congress-2
@@ -183,9 +198,15 @@ ops:
       date: '1960-07-01'
       thread: cuba
       also: [oil]
-      c: 'Cubana''s Madrid flight cancelled the night of July 1, the plane not to be refueled at Bermuda; July 2, the Miami flight leaves with twenty passengers, under half its load, to carry the most fuel.'
-      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1, 15 (Tad Szulc, "Cuban Airline Flights Cut as Oil Concerns Ask Cash," Havana, July 2).'
-      tags: [ok:fields-time, ok:fields-place]
+      c: 'Cubana''s Madrid flight temporarily cancelled the night of July 1, the plane not to be refueled at Bermuda; July 2, the Miami flight leaves with twenty passengers, under half its load, to carry the most fuel.'
+      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1, 15 (Tad Szulc, "Cuban Airline Flights Cut as Oil Concerns Ask Cash," Havana, July 2: "last night," "today"). The time is the first days.'
+      tags: [ok:fields-place]
+      time_range:
+      - 1960-07-02T03:00Z
+      - 1960-07-02T05:00Z
+      time_band: night
+      time_zone: America/Havana
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-02.europe-and-the-alliance-britain
@@ -217,11 +238,11 @@ ops:
 - add:
     entry:
       id: cal.1960-07-02.testing-2
-      when: July 2
+      when: 'By July 2'
       date: '1960-07-02'
       place: geneva
       thread: testing
-      c: 'Tsarapkin, the Soviet delegate at the Geneva test-ban talks, to ADN, the East German agency: the Soviet Union would break off the talks if the United States set off a nuclear explosion without Soviet agreement; aimed at the American research program using nuclear explosives.'
+      c: 'Tsarapkin, the Soviet delegate at the Geneva test-ban talks, to ADN, the East German agency: the Soviet Union would break off the talks if the United States set off a nuclear explosion without Soviet agreement; aimed at the American proposal of a research program on test detection using nuclear explosives.'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 2 ("Moscow Threatens to Quit Atom Talks," Bonn, July 2: the interview in Geneva, quoted "today"). Check: the interview''s day. Names: Tsarapkin.'
       tags: [name:tsarapkin-semen-k]
 - add:
@@ -233,7 +254,13 @@ ops:
       thread: africa
       c: 'Balewa, Nigeria''s Federal Prime Minister, arrives in Accra for Ghana''s republic celebrations; talks with Nkrumah set for July 3. The two differ on African cooperation.'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 2 ("Nigeria-Ghana Talk Set," Accra, July 2: "this morning"). Names: Balewa, Nkrumah.'
-      tags: [ok:fields-time, name:balewa-abubakar-tafawa, name:nkrumah-kwame]
+      tags: [name:balewa-abubakar-tafawa, name:nkrumah-kwame]
+      time_range:
+      - 1960-07-02T06:00Z
+      - 1960-07-02T12:00Z
+      time_band: morning
+      time_zone: Africa/Accra
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-03.space
@@ -285,9 +312,9 @@ ops:
       when: 'By July 2'
       date: '1960-07-02'
       thread: europe-and-the-alliance-britain
-      c: 'Home, Commonwealth Secretary and Lord President, accepts the chairmanship of the Scottish Unionists; to give up the Commonwealth Office, staying in the Cabinet.'
-      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 10 (Middleton, "British Weighing Cabinet Shuffle"). Check: the day. Names: Home.'
-      tags: [ok:fields-place, name:douglas-home-alec]
+      c: 'Home, Commonwealth Secretary and Lord President, accepts the chairmanship of the Scottish Unionists; to give up the Commonwealth Office; Macmillan expected to keep him in the Cabinet as Lord President.'
+      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 10 (Middleton, "British Weighing Cabinet Shuffle"). Check: the day. Names: Home, Macmillan.'
+      tags: [ok:fields-place, name:douglas-home-alec, name:macmillan-harold]
 - add:
     entry:
       id: cal.1960-07-02.middle-east
@@ -398,7 +425,7 @@ ops:
       date: '1960-07-02'
       place: monticello-ny
       thread: state-and-city-finance
-      c: 'Sullivan County''s supervisors vote 12–3 not to put a 1 percent tax on hotel rooms to the voters in November; the resort owners had fought it.'
+      c: 'Sullivan County''s supervisors vote 12–3 not to impose a 1 percent tax on hotel charges; the resolution to put it to the voters in November tabled. The resort owners had fought it.'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 20 ("Resort Dispute Ends," Monticello, N.Y., July 2). Check: the day.'
       tags: [state:ny]
 - add:
@@ -408,7 +435,7 @@ ops:
       date: '1960-07-02'
       thread: democratic-party
       also: [labor]
-      c: 'Prendergast, New York''s Democratic chairman, announces that Louis Hollander and Richard Nolan are named to the Democratic National Committee''s Advisory Committee on Labor Policy.'
+      c: 'Prendergast, New York''s Democratic chairman, announces that Louis Hollander and Richard Nolan are designated consultants to the Democratic National Committee''s Advisory Committee on Labor Policy.'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 20 ("Democrats Name Labor Aides": "yesterday").'
       tags: [ok:fields-place, state:ny]
 - add:
@@ -427,7 +454,7 @@ ops:
       date: '1960-07-02'
       place: addis-ababa
       thread: africa
-      c: 'The Ethiopian Herald, the government''s paper, in a front-page editorial on Somalia''s rejection of the 1897 border treaty: the Somali leaders "immature and inexperienced."'
+      c: 'The *Ethiopian Herald*, the government''s paper, in a front-page editorial on Somalia''s rejection of the 1897 border treaty: the Somali leaders "immature and inexperienced."'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Ethiopia Assails Somalia," Addis Ababa, July 2; page not shown).'
       tags: [ok:fields-place]
 - add:
@@ -473,8 +500,13 @@ ops:
       place: tunis
       thread: europe-and-the-alliance-france
       c: 'Boumendjel, the Provisional Government''s envoy, back in Tunis from the talks at Melun.'
-      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Algerian Nationalists Meet," Tunis, July 2: "last night"; page not shown); Robert C. Doty, "De Gaulle Prestige Staked on Algeria," at E? (Week in Review, Paris, July 2: "Friday").'
-      tags: [ok:fields-time]
+      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Algerian Nationalists Meet," Tunis, July 2: "last night"; page not shown); Robert C. Doty, "De Gaulle Prestige Staked on Algeria," (Week in Review, Paris, July 2: the envoys back "Friday"; page not shown).'
+      time_range:
+      - 1960-07-01T21:00Z
+      - 1960-07-01T23:00Z
+      time_band: night
+      time_zone: Africa/Tunis
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-02.europe-and-the-alliance-france-3
@@ -503,7 +535,12 @@ ops:
       thread: cyprus
       c: 'Announcement that the last obstacles to Cyprus''s independence are overcome, the British and Cypriot leaders agreed on the two British bases; little enthusiasm on the island.'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Lawrence Fellows, "Cyprus Agreement Engenders Slight Enthusiasm on Island," Nicosia, July 2: "last night"; page not shown).'
-      tags: [ok:fields-time]
+      time_range:
+      - 1960-07-01T20:00Z
+      - 1960-07-01T22:00Z
+      time_band: night
+      time_zone: Asia/Nicosia
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-02.latin-america-5
@@ -513,7 +550,7 @@ ops:
       thread: latin-america
       also: [cuba]
       c: 'El Salvador orders two Cuban Embassy officials, Armando Velasquez Fernandez and José M. Valdez, to leave within forty-eight hours for interfering in domestic politics and "constant labor agitations."'
-      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Cubans Ordered Out," San Salvador, July 2; page not shown).'
+      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Cubans Ordered Out," San Salvador, July 2; page not shown). Check: the first name; the *Times* prints "Velastauez Fernandez."'
 - add:
     entry:
       id: cal.1960-07-02.africa-5
@@ -540,7 +577,7 @@ ops:
       date: '1960-05'
       place: lahore
       thread: south-asia
-      c: 'Nineteen Moslem religious leaders meet at Lahore; criticize Ayub''s "basic democracies."'
+      c: 'Nineteen Moslem religious leaders meet at Lahore, critics of Ayub''s political theories; their reply to the constitution commission''s questionnaire urges free elections and a return to the parliamentary system.'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Paul Grimes, "Ayub Plan for New Constitution Stirs Open Criticism in Pakistan," Karachi, July 2; page not shown). Check: the day. Names: Ayub.'
       tags: [name:ayub-khan-mohammad]
 - add:
@@ -600,7 +637,7 @@ ops:
       place: moscow
       thread: soviet-union
       also: [africa]
-      c: 'Pravda prints, on its front page, Khrushchev''s message recognizing Somalia, and his congratulations to Nkrumah on Ghana''s republic.'
+      c: '*Pravda* prints, on its front page, Khrushchev''s message recognizing Somalia, and his congratulations to Nkrumah on Ghana''s republic.'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Topping, "African Nations Wooed by Soviet"). Names: Khrushchev, Nkrumah.'
       tags: [name:khrushchev-nikita-s, name:nkrumah-kwame]
 - add:
@@ -612,7 +649,7 @@ ops:
       thread: soviet-union
       also: [africa]
       c: 'A Soviet delegation under Georgadze, secretary of the Presidium of the Supreme Soviet, arrives in Accra for Ghana''s Republic Day.'
-      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Topping, "African Nations Wooed by Soviet": Pravda, "last Saturday"). Check: the day. Names: Georgadze.'
+      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Topping, "African Nations Wooed by Soviet": *Pravda*, "last Saturday"). Check: the day. Names: Georgadze.'
       tags: [name:georgadze]
 - add:
     entry:
@@ -623,7 +660,7 @@ ops:
       thread: soviet-union
       also: [congo]
       c: 'A Soviet delegation under Rakhmatov, deputy chairman of the Presidium of the Supreme Soviet, arrives in Léopoldville for the Congo''s independence.'
-      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Topping, "African Nations Wooed by Soviet": Pravda, "last Saturday"). Check: the day.'
+      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Topping, "African Nations Wooed by Soviet": *Pravda*, "last Saturday"). Check: the day.'
 - add:
     entry:
       id: cal.1960-06-26.soviet-union-3
@@ -632,7 +669,7 @@ ops:
       thread: soviet-union
       also: [africa]
       c: 'Brezhnev, President of the Presidium, sends the Malagasy Republic a message of recognition.'
-      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Topping, "African Nations Wooed by Soviet": Pravda, "Sunday"). Check: the day. Names: Brezhnev.'
+      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Topping, "African Nations Wooed by Soviet": *Pravda*, "Sunday"). Check: the day. Names: Brezhnev.'
       tags: [ok:fields-place, name:brezhnev-leonid]
 - add:
     entry:
@@ -642,7 +679,7 @@ ops:
       thread: soviet-union
       also: [congo]
       c: 'Khrushchev sends the Congo Government a message of recognition.'
-      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Topping, "African Nations Wooed by Soviet": Pravda, "Thursday"). Check: the day. Names: Khrushchev.'
+      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Topping, "African Nations Wooed by Soviet": *Pravda*, "Thursday"). Check: the day. Names: Khrushchev.'
       tags: [ok:fields-place, name:khrushchev-nikita-s]
 - add:
     entry:
@@ -689,7 +726,7 @@ ops:
       date: '1960-07-02'
       thread: europe-and-the-alliance-federal-republic
       also: [crime-and-hijacking]
-      c: 'Ludwig Hahn, former S.S. colonel suspected in the destruction of the Warsaw ghetto and the Treblinka killings, arrested; a police spokesman announces it July 2.'
+      c: 'Ludwig Hahn, former Nazi colonel suspected in the destruction of the Warsaw ghetto and the Treblinka killings, once head of the security police in Warsaw, arrested; a police spokesman announces it July 2.'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Nazi Ex-Colonel Arrested," Bonn, July 2, Reuters; page not shown). Check: the day.'
       tags: [ok:fields-place]
 - add:
@@ -700,7 +737,8 @@ ops:
       place: bonn
       thread: europe-and-the-alliance-federal-republic
       c: 'Wehner, vice chairman of the Social Democrats, in the Bundestag: the party will support the Western alliance "in words and in deeds," the basis of policy on reunification.'
-      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Bonn Socialists Complete Shift," Bonn, July 2: "last Thursday"; page not shown).'
+      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Bonn Socialists Complete Shift," Bonn, July 2: "last Thursday"; page not shown). Names: Wehner.'
+      tags: [name:wehner-herbert]
 - add:
     entry:
       id: cal.1960-07-02.latin-america-6
@@ -729,8 +767,14 @@ ops:
       thread: cuba
       also: [soviet-union, oil]
       c: 'Moscow radio, in German: Soviet tankers of the Black Sea fleet have left Odessa for Cuba with "several tens of thousands of tons" of oil.'
-      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Soviet Tankers on Way to Cuba," London, July 2, AP: "tonight"; port officials in Havana: the *Chernovtsi* due July 3 with 10,000 tons; page not shown).'
-      tags: [ok:fields-time, ok:fields-place]
+      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Soviet Tankers on Way to Cuba," London, July 2, AP: "tonight"; port officials, by the dispatch: the *Chernovci* due in Havana July 3 with 10,000 tons; page not shown).'
+      tags: [ok:fields-place]
+      time_range:
+      - 1960-07-02T18:00Z
+      - 1960-07-02T21:00Z
+      time_band: evening
+      time_zone: Europe/London
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-02.crime-and-hijacking-3
@@ -750,9 +794,15 @@ ops:
       when: June 30
       date: '1960-06-30'
       thread: crime-and-hijacking
-      c: 'A silver-gilt sugar sifter worth £4,000 taken at J. Paul Getty''s housewarming at Sutton Place, near Guildford; the Surrey police investigating.'
+      c: 'A silver-gilt sugar sifter worth £4,000, used at J. Paul Getty''s housewarming at Sutton Place, near Guildford, missing; the Surrey police investigating. Getty: perhaps taken inadvertently.'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("$11,200 Antique Gone After the Getty Party," London, July 3, AP: "Thursday night"; page not shown).'
-      tags: [ok:fields-time, ok:fields-place, ok:name-untagged]
+      tags: [ok:fields-place, ok:name-untagged]
+      time_range:
+      - 1960-06-30T21:00Z
+      - 1960-06-30T23:00Z
+      time_band: night
+      time_zone: Europe/London
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-02.africa-6
@@ -851,7 +901,12 @@ ops:
       also: [civil-rights-organizations]
       c: 'The N.E.A.''s board authorizes its resolutions committee to call Southern leaders, Negro and white, to draft a policy statement on integration.'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Buder, "N.E.A. Acts to End Integration Rift": "this morning"; page not shown).'
-      tags: [ok:fields-time]
+      time_range:
+      - 1960-07-02T13:00Z
+      - 1960-07-02T19:00Z
+      time_band: morning
+      time_zone: America/Los_Angeles
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-02.defense-2
@@ -861,7 +916,12 @@ ops:
       thread: defense
       c: 'Air Force fires an Atlas with all-inertial guidance 5,000 miles down the Atlantic range; all test objectives met.'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Atlas Shot Succeeds," Cape Canaveral, July 2, AP: "early today"; page not shown).'
-      tags: [ok:fields-time]
+      time_range:
+      - 1960-07-02T09:00Z
+      - 1960-07-02T12:00Z
+      time_band: early morning
+      time_zone: America/New_York
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-03.defense
@@ -910,16 +970,6 @@ ops:
       c: 'Herter, leaving for Manchester, Mass.: "not very optimistic" of a Soviet return to the disarmament talks; notes Moscow called them suspended, not ended.'
       n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 2 (in Jorden, "U.S. Blames Soviet for Snag on Arms"). Names: Herter.'
       tags: [name:herter-christian-a]
-- add:
-    entry:
-      id: cal.1960-07-02.europe-and-the-alliance-2
-      when: July 2
-      date: '1960-07-02'
-      place: rome
-      thread: europe-and-the-alliance
-      c: 'Tambroni confers with Gronchi after the neo-Fascists withdraw their support.'
-      n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Paul Hofmann, "Italian Neo-Fascists Announce They''ll Cease to Back Tambroni," Rome, July 2: "later today"; page not shown). Names: Gronchi.'
-      tags: [name:gronchi-giovanni]
 - add:
     entry:
       id: cal.1960-07-02.testing-4
