@@ -316,8 +316,7 @@ trial year, the owner shown. (5) All 58,276 entries. (6) `check` refuses a strin
   lost ones retired. After the trial, patch-check refuses a string `c` in an `edit` of a converted entry and names
   the ops.
 
-**The trial: 1960.** The year with most frames (Alekseyev's reports; 13 of the 20 `vis:frame` entries are in
-1960–61) and the eight NYT patches waiting to merge against it in the new form, so the trial runs the merge path too.
+**The trial: 1960.** A year with report frames (Alekseyev's: 5 of the 20 `vis:frame` entries, 12 in 1960–61) and the eight NYT patches waiting to merge against it in the new form, so the trial runs the merge path too.
 Shown to the owner: the converter's counts and lists (not converted, stale, frames to settle, leaning), four entries'
 YAML before and after, and that the year's pages are byte for byte the same but for `data-u`. Then the rest of the
 calendar, a year at a time, each verified as in step 6.
@@ -335,3 +334,42 @@ claims. The fixture (tests/make_fixture.py) converted; the golden pages (tests/g
 the diff between old and new goldens must be `data-u` values only. Golden patches (tests/golden/patches) for
 `add-claim`, `edit-claim` (both kinds, and the R22 refusal), `drop-claim`, `frame`, two readers on two claims of one
 entry (no conflict), two on one claim (a conflict), and an old-form `edit`.
+
+## 5. Risks and open questions, with the default taken
+
+Nothing here blocks on the owner (CLAUDE.md; handoff 1g): each has the default the work proceeds on.
+
+1. *Claims are still sentences and clauses, not atomic facts* (the owner, Nov. 22: "is there any way to make the world
+   look more like my fantastical world of atomic facts?"). The model stores what the splitter cuts today; a finer
+   claim is a reader's split (`edit-claim` and `add-claim` in one patch), now cheap and safe because nothing else
+   moves. Default: no forced atomization; readers split as they map.
+2. *The splitter's present mistakes are frozen* (a cut after an abbreviation not in its list). The page is unaffected,
+   and `claim-cut` uses the same splitter, so the data stays consistent. Default: freeze; a reader mends one by
+   `edit-claim` on the first piece and `drop-claim` on the second.
+3. *The doubtful frames* (an "X:" head followed by new sentences) may be many. Default: outside the frame, listed in
+   notes/claims/frames.tsv, settled by readers as they pass (the `frame` op); the page reads the same either way, so
+   only the standalone reading and the frame's visibility wait.
+4. *Longer YAML.* About 155,000 claims, each with `id` and `t`, and an `all` source repeated on every claim: a few MB
+   more in lists/cal. Repeating is the point (a new claim is not covered by an old source). Default: always the list,
+   even for one claim (one form for the tools); `./bib claims show` collapses repeats for reading. Alternative, if
+   the files prove unwieldy: a string `c` on a calendar entry read as the single claim `k1`.
+5. *No hash.* A hand edit of a `t` that changes its substance is no longer flagged stale. Default: patches carry R22
+   (`edit-claim`'s base and kind); direct edits are the maintainer's, seen in the diff; no stored hash.
+6. *Ids out of order* after inserts, so no runs in `@` tags or `cite`. Default: explicit lists; letters shown as
+   computed labels only.
+7. *A visible claim ending ";" when the claims after it are hidden.* Default: left as now (the Style and layout rule:
+   change nothing the task does not touch); a later page change can print "." there.
+8. *`vis:frame:` and `vis:only:…@k1`* may not compute the same tags. Default: convert only where the vis goldens
+   match; elsewhere keep `vis:frame:` as the frame's ruling.
+9. *Patches written before the model* (the eight NYT patches and any in inbox/). Default: kept unmerged, as the owner
+   ruled, then merged through the transition path (section 4) after the trial year, each one's realignments reviewed
+   as `edit-claim`s.
+10. *The reword test* (numbers, dates and capitalized names) will misfire on a capital that is no name ("the Senate"
+    to "Senate"). Default: an error for numbers, dates and the entry's name-tag surnames; a warning otherwise.
+11. *Other lists and the threads' statements* keep a string `c`. Default: so; the model may extend to the Names'
+    Life lines later if they get maps of their own.
+12. *Claim links across entries* (`[[cal.…#k3]]`) become possible; the stemma's `--unit B` becomes `--claim k3`.
+    Default: the stemma's flag only; no link markup until asked.
+13. *Running the conversion while readers work.* Merges have no lock. Default: convert a year per commit with no
+    reader or merge running (the owner's rule already holds readers until the model is in), then the waiting
+    patches.
