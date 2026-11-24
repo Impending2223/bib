@@ -253,3 +253,10 @@ The owner: "How can a sourced claim be only 'the date is open'? Does that make s
 
 - Default taken: a note's target is every word of the statement its source supports (who, what, the part it bears on), as one or several stretches of the text (the W3C model's multiple selectors): Beschloss's note on "Rusk to Dobrynin … the date is open", never a fragment that cannot stand as a statement. A whole-entry note is the default. On the page a footnote mark falls at a note's last word; notes ending together share one mark; a note on part of the entry carries a parenthetical naming its part, in the house form ("123 (the date)"). Shared words (a speaker, a subject) need no frame: several notes claim them.
 - Applies to: the claims design (35), the readers' brief (R33a, R34) once the model is in, the converter.
+
+## 35b. The test for a part (Nov. 24, 3:50 p.m.; refines 35a)
+
+The owner: "What dates are open?" ("the date is open" leans on "the talks will resume").
+
+- Default taken: a note names a part only when the part, with the words it names, stands as a statement on its own, leaning on nothing its source does not support; else the note is on the whole entry, with a parenthetical naming its matter ("123 (the date)"). Where in doubt, the whole entry. Set out in notes/proposals/claims-model-options.md.
+- Applies to: the claims design, the readers' brief once the model is in.
