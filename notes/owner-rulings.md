@@ -239,3 +239,10 @@ R1: a covered state is a sovereign state or one of the American States, "not ano
 
 - Default taken: create the three threads at the merge (th.yaml, with statements), and move the entries now filed under europe-and-the-alliance, soviet-union and indonesia to them as chief thread, the old thread kept in `also:`.
 - Applies to: the NYT July 1960 patches; later entries for the three.
+
+## 35. Stand-off annotation, not stored claims (Nov. 24, 3:35 p.m.; supersedes 31–32)
+
+The owner: claims with identical mapping should arise only on a "complicating" pass that splits a prior claim; "Is there a preexisting model we could use ... I don't want to make more spaghetti"; "Having everything turn on full stops and semicolons ... seems a bit odd."
+
+- Default taken: the W3C Web Annotation Data Model (stand-off annotation). `c` stays one string, never cut. Each source, variant, visibility ruling and Check is an annotation with a permanent id, a motivation (supporting, challenging, ...), and a target: the whole entry by default (the owner's claim_0), or a part named by a quote selector (exact words, with prefix and suffix to anchor them). The claims are computed at build: wherever the set of annotations over the text changes, a claim, its footnote mark at its end (the owner's claim_00/claim_01 as the remainder and the part). No splitter, no frames, no ellipses, no hierarchical ids. R22 touches the annotations whose words an edit changes; check lists any annotation whose quote no longer anchors. Migration: today's `src` rows on all units become whole-entry annotations, rows on some units quote selectors over those units' words; the converter's test, every footnote and mark where it is today.
+- Applies to: notes/proposals/claims-model.md (rewritten to this before any converter), claims.py, footnotes.py, vis.py/vispage.py, variants, patch ops, check.
