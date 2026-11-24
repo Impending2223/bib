@@ -213,3 +213,10 @@ new threads proposed for Canada, Mongolia and Singapore (now filed under europe-
 
 - Default taken: (to fill)
 - Applies to: (to fill)
+
+## 31. The claims model's "consistency rule" (Nov. 24, 3:20 p.m.)
+
+The design note's section 3 builds checks, a claim-lean warning and printed ellipses around frames; the owner: the spouse's ellipses question "was founded on a misapprehension ... What turns on this?"
+
+- Default taken: frames only where the visibility code frames an entry today (vis:frame) or the converter finds a plain "Name:" head; no claim-lean warning; no ellipses anywhere; a claim shown alone shows its frame where it has one, else as written; the page unchanged. Section 3 of notes/proposals/claims-model.md to be rewritten so.
+- Applies to: the claims model (handoff 4aw.1), its converter and check.
