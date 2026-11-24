@@ -1323,3 +1323,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 12:40 p.m. PT) "Sorry, immediate: Just the "pending" work, not all outstanding work. PR and merge. Then: I've shared a handful of days of screenshots of NYT items. Inventory them and put them in the queue. Then continue with the rest of queue. Make sure the work is robust to hitting the token budget. We're spending down the last 5% of the tokens before the 4:00 p.m. PT reset."
 
 (Nov. 24, about 1:50 p.m. PT) "Claude, your instructions to the reader were too restrictive. I'm seeing too many "no dated acts" in here."
+
+(Nov. 24, about 1:55 p.m. PT) "The entry doesn't "need [] the official ones." Who said that?"
