@@ -1341,3 +1341,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 2:40 p.m. PT) "Zubok and Taubman are on the drive. More Zuboks than one, I think."
 
 (Nov. 24, about 2:43 p.m. PT) "Disregard my "July 15". That was my slip. Put together a full Soviet read batch. First, inventory the PDFs I've added that haven't been caught—since you didn't catch the Zuboks and the Taubman—and add them to our records, since that's where you were inclined to search first. Then suggest and prepare batch runs for them. What should go in the Soviet run? The Sino-Soviet run? Other runs?"
+
+(Nov. 24, about 2:50 p.m. PT) "I did tell you to start on the queue, "immediate" ... We have 2% left now. What's next?" Then: "Wait, Claude. That's not the queue. What's in the queue?" (Answered: 4aw's order, the claims model first; the NYT readers and auditors started against "before any new readers or auditors start up"; their patches held unmerged until the model is in.)
