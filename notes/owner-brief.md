@@ -1359,3 +1359,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 3:50 p.m. PT) "Right, but your variant doesn't make sense either. What dates are open? Claude, I'm not sure you should be writing these to a reply rather than to an MD."
 
 (Nov. 24, about 3:55 p.m. PT) "Does Design 3 require the parenthetical? It seems like it would lead to unreadable/unparseable sourcing blocks at scale."
+
+(Nov. 24, about 4:00 p.m. PT) "Claude, is your suggestion here consistent with the design rule I gave you earlier? I'm troubled by you rerolling the entire citation design scheme in a one-off reply to me here. What's wrong with footnotes? You know I have no objection to footnotes, right? I just have an objection to four footnotes that all say the same thing. When a new pass complicates and splits the original into parts, shouldn't those parts compile, mechanically, into footnoted passages, with the contents of a footnote compiled, mechanically, from the supporting citations? Shouldn't things look identical online, in print, and in the ebook? Should I have to tap or hover to see the matching?"

@@ -265,3 +265,7 @@ The owner: "What dates are open?" ("the date is open" leans on "the talks will r
 
 - Default taken: the footnote block lists sources and pinpoints only; the part a note covers is its target (data), shown on the page by highlighting its words when its source is tapped or hovered; print and EPUB show the plain block. Marks fall where a note's statement ends, shared where several end together. New readers write no parenthetical to name a part; the converter turns today's part-naming parentheticals into targets where the claim map gives the part. Set out in notes/proposals/claims-model-options.md.
 - Applies to: the claims design, footnotes.py, vispage.py, the readers' brief once the model is in.
+
+## 35d. Compiled footnotes (the owner's design, Nov. 24, 4:00 p.m.; withdraws 35c, replaces 35a's discontiguous targets)
+
+Not a default: the owner's design, in their words above (owner-brief, 4:00 p.m.). An entry starts as one passage with one footnote; a pass that speaks to part of it splits it there; passages compiled mechanically where the set of supporting notes changes, each with its mark at its end and its footnote compiled from those notes' citations in the house form; no added parentheticals, no tap or hover; identical online, in print and in the EPUB; a passage read in its sentence, as footnotes are. Set out in notes/proposals/claims-model-options.md, "Display".
