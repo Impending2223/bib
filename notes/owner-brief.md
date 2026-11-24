@@ -1345,3 +1345,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 2:50 p.m. PT) "I did tell you to start on the queue, "immediate" ... We have 2% left now. What's next?" Then: "Wait, Claude. That's not the queue. What's in the queue?" (Answered: 4aw's order, the claims model first; the NYT readers and auditors started against "before any new readers or auditors start up"; their patches held unmerged until the model is in.)
 
 (Nov. 24, about 2:55 p.m. PT) "What work is awaiting my ruling? Nothing should block on "awaiting my ruling.""
+
+(Nov. 24, about 3:10 p.m. PT) "Can you remove the midsentence line breaks in the .MD? I thought we had that as a standing rule."
