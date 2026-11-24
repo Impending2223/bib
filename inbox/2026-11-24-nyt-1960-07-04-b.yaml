@@ -36,8 +36,14 @@ ops:
       thread: cuba
       also: [congress]
       c: 'Macomber, Assistant Secretary of State for Congressional Relations, and Harlow, of the White House staff, pass the word to members that the President would be "furious" if Congress quit without the sugar bill, and might call it back.'
-      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 (William M. Blair, "Stakes Were High for Sugar Lobby," Washington, July 3: "last night"; and the sugar story''s runover). See [[cal.1960-06-29.cuba]]. Names: Macomber, Harlow, Eisenhower.'
-      tags: [ok:fields-time, name:macomber-william-b-jr, name:harlow-bryce-n, name:eisenhower-dwight-d]
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 (William M. Blair, "Stakes Were High for Sugar Lobby," Washington, July 3: "last night"; and the sugar story''s runover: "last night"). The time is the first day''s. See [[cal.1960-06-29.cuba]]. Names: Macomber, Harlow, Eisenhower.'
+      tags: [name:macomber-william-b-jr, name:harlow-bryce-n, name:eisenhower-dwight-d]
+      time_range:
+      - 1960-07-03T02:00Z
+      - 1960-07-03T04:00Z
+      time_band: night
+      time_zone: America/New_York
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-03.cuba-3
@@ -108,7 +114,13 @@ ops:
       thread: europe-and-the-alliance-britain
       c: 'Bevan, at home, "still very weak," a Labor spokesman says; a relapse the week before.'
       n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Bevan ''Still Very Weak''," London, July 3: "tonight").'
-      tags: [ok:fields-time, ok:fields-place, ok:name-untagged]
+      tags: [ok:fields-place, ok:name-untagged]
+      time_range:
+      - 1960-07-03T18:00Z
+      - 1960-07-03T21:00Z
+      time_band: evening
+      time_zone: Europe/London
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-03.cuba-6
@@ -146,8 +158,14 @@ ops:
       thread: latin-america
       also: [cuba]
       c: 'Ambassador Hill told by the F.B.I. and the State Department, Friday night, of warnings that Cuban agents had been assigned to kill him.'
-      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("U.S. Envoy Scorns Warning of Death," Mexico City, July 3: "Friday night"). Names: Hill.'
-      tags: [ok:fields-time, ok:fields-place, name:hill-robert-c]
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("U.S. Envoy Scorns Warning of Death," Mexico City, July 3: "Friday night," in the dateline''s clock; where Hill was not said). Names: Hill.'
+      tags: [ok:fields-place, name:hill-robert-c]
+      time_range:
+      - 1960-07-02T04:00Z
+      - 1960-07-02T06:00Z
+      time_band: night
+      time_zone: America/Mexico_City
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-03.latin-america
@@ -157,7 +175,13 @@ ops:
       thread: latin-america
       c: 'Hill, under heavy guard, with his family at Christ Church; "I''m not afraid." The Embassy''s Fourth of July celebration goes on.'
       n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("U.S. Envoy Scorns Warning of Death," Mexico City, July 3: "this morning"; the Mexican police guard posted July 2). Names: Hill.'
-      tags: [ok:fields-time, name:hill-robert-c]
+      tags: [name:hill-robert-c]
+      time_range:
+      - 1960-07-03T12:00Z
+      - 1960-07-03T18:00Z
+      time_band: morning
+      time_zone: America/Mexico_City
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-02.south-asia-4
@@ -176,16 +200,6 @@ ops:
       c: 'Nasser, in a speech, predicts Hussein will meet the fate of his grandfather, King Abdullah, assassinated.'
       n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Jordan to Protest Attacks by Nasser," Amman, July 3). Names: Nasser, Hussein.'
       tags: [ok:fields-place, name:nasser-gamal-abdel, name:hussein-ibn-talal]
-- add:
-    entry:
-      id: cal.1960-07-03.europe-and-the-alliance-france-2
-      when: July 3
-      date: '1960-07-03'
-      place: paris
-      thread: europe-and-the-alliance-france
-      c: 'Gazier and Pineau, former Cabinet Ministers, and three others withdraw from the Socialist party''s directing committee, to which they had just been elected, against Mollet''s leaning to de Gaulle.'
-      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Socialists Renew Paris Algeria Aid," Paris, July 3: "tonight"). Names: Mollet, de Gaulle.'
-      tags: [ok:fields-time, ok:name-untagged, name:de-gaulle-charles]
 - add:
     entry:
       id: cal.1960-07-03.soviet-union-3
@@ -219,7 +233,7 @@ ops:
       when: July 2
       date: '1960-07-02'
       thread: europe-and-the-alliance-federal-republic
-      c: 'West Germany''s law decontrolling rents takes effect; all controls to end by 1966; rents on prewar dwellings up 15 percent at once.'
+      c: 'West Germany''s law decontrolling rents takes effect; all controls to end by 1966; rents on dwellings built before the 1948 currency reform liable to an immediate 15 percent rise.'
       n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 (Sydney Gruson, "Control of Rents Is Eased by Bonn," Bonn, July 3: "yesterday").'
       tags: [ok:fields-place]
 - add:
@@ -267,11 +281,11 @@ ops:
 - add:
     entry:
       id: cal.1960-07-03.elections-1960-nomination-4
-      when: July 3
+      when: 'By July 3'
       date: '1960-07-03'
       thread: elections-1960-nomination
       c: 'Monroney, for Stevenson, on the taped "Radio News Conference": the convention will not be "blitzed"; Kennedy will not go "the last mile," at most 604½ votes.'
-      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 (the runover of "Johnson Supports Truman in Criticizing Convention"). See [[cal.1960-07-03.elections-1960]]. Names: Monroney, Stevenson, Kennedy.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 (the runover of "Johnson Supports Truman in Criticizing Convention"). Check: the day of the taping and of the broadcast. See [[cal.1960-07-03.elections-1960]]. Names: Monroney, Stevenson, Kennedy.'
       tags: [ok:fields-place, name:monroney-almer-s, name:stevenson-adlai-e, name:kennedy-john-f]
 - add:
     entry:
@@ -280,16 +294,16 @@ ops:
       date: '1960-07-03'
       thread: elections-1960-nomination
       c: 'Seven House members, Lee Metcalf their spokesman, write Kennedy, Johnson, Symington and Stevenson asking that Henry Jackson be considered for Vice President; with Ashley, Magnuson (Don), McGinley, George P. Miller, Rivers and Stratton.'
-      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 (the runover of "Johnson Supports Truman"). Check: the day. Names: Metcalf, George P. Miller, Kennedy, Johnson, Symington, Stevenson, Jackson.'
-      tags: [ok:fields-place, name:metcalf-lee-w, name:miller-george-p, name:kennedy-john-f, name:johnson-lyndon-b, name:symington-william-s, name:stevenson-adlai-e, name:jackson-henry-m]
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 (the runover of "Johnson Supports Truman"). Check: the day. Names: Metcalf, George P. Miller, Stratton, Kennedy, Johnson, Symington, Stevenson, Jackson.'
+      tags: [ok:fields-place, name:metcalf-lee-w, name:miller-george-p, name:kennedy-john-f, name:johnson-lyndon-b, name:symington-william-s, name:stevenson-adlai-e, name:jackson-henry-m, name:stratton-samuel-s]
 - add:
     entry:
       id: cal.1960-07-03.elections-1960-nomination-6
       when: July 3
       date: '1960-07-03'
-      place: nyc
+      place: los-angeles
       thread: elections-1960-nomination
-      c: 'Sorensen flies to New York from Los Angeles to help Kennedy prepare his answer to Truman.'
+      c: 'Sorensen flies from Los Angeles, where he was preparing for the convention, to be with Kennedy as he prepares his answer to Truman.'
       n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 (Clayton Knowles, "Kennedy Replies to Charge Today," the runover: "yesterday"). Names: Sorensen, Kennedy, Truman.'
       tags: [name:sorensen-theodore-c, name:kennedy-john-f, name:truman-harry-s]
 - add:
@@ -309,7 +323,7 @@ ops:
       when: 'By July 3'
       date: '1960-07-03'
       thread: white-house
-      c: 'Eisenhower, after his and Dr. Thomas Dooley''s honorary degrees at Notre Dame, writes a hundred friends about Dooley''s Southeast Asian medical project, Medico; Medico receives a hundred checks of $100. Anne Wheaton of the press staff: "a personal matter."'
+      c: 'Eisenhower, after his and Dr. Thomas Dooley''s honorary degrees at Notre Dame, reportedly writes a hundred friends about Dooley''s Southeast Asian medical project, Medico; Medico reputed to have received a hundred checks of $100. Anne Wheaton of the press staff: "a personal matter."'
       n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 ("Random Notes in Washington": "reportedly"). Check: the day. Names: Eisenhower.'
       tags: [ok:fields-place, name:eisenhower-dwight-d]
 - add:
@@ -331,8 +345,8 @@ ops:
       thread: cuba
       also: [congress]
       c: 'Democrats and Republicans of House Agriculture squabble over which party is more anti-Castro; Belcher, Oklahoma Republican: Castro will "shoot Democrats just as quick as he''ll shoot Republicans."'
-      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 ("Random Notes in Washington": "recently"). Check: the day.'
-      tags: [ok:name-untagged]
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 ("Random Notes in Washington": "recently"). Check: the day. Names: Belcher, Castro.'
+      tags: [name:belcher-page-h, name:castro-fidel]
 - add:
     entry:
       id: cal.1960-07-02.republican-party-4
@@ -359,7 +373,7 @@ ops:
       date: '1960-07-03'
       place: washington
       thread: elections-1960-nomination
-      c: 'Rep. Charles H. Brown, chairman of the Symington for President Committee, by statement released a day early: no one will have 761 on the first ballots; from the third, Symington against Stevenson, Symington the winner.'
+      c: 'Rep. Charles H. Brown, chairman of the Symington for President Committee, by statement released a day early: no one will have 761 on the first several ballots; the convention will probably turn to a "dark horse"; from the third ballot the race "might well be" Symington against Stevenson, Symington the winner.'
       n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 ("Symington Appraised," Washington, July 3, UPI). Names: Symington, Stevenson.'
       tags: [ok:name-untagged, name:symington-william-s, name:stevenson-adlai-e]
 - add:
@@ -442,7 +456,13 @@ ops:
       thread: japan
       c: 'Kishi, "as late as last night," declines to say whom he favors to succeed him among Ono, Ikeda and Ishii.'
       n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 (Johnston, "Kishi Party Wins Another Election," the runover). Names: Kishi, Ikeda.'
-      tags: [ok:fields-time, ok:fields-place, ok:name-untagged, name:kishi-nobusuke, name:ikeda-hayato]
+      tags: [ok:fields-place, ok:name-untagged, name:kishi-nobusuke, name:ikeda-hayato]
+      time_range:
+      - 1960-07-03T13:00Z
+      - 1960-07-03T15:00Z
+      time_band: night
+      time_zone: Asia/Tokyo
+      range_basis: record
 - add:
     entry:
       id: cal.1960-07-03.japan-3
@@ -461,7 +481,7 @@ ops:
       place: nyc
       thread: states-and-cities
       c: 'A storm strikes the East Coast from New England to the Carolinas; New York at about 8:30 p.m.'
-      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 16 (the holiday story; its head not in the clippings).'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 16 (the holiday story; its head not in the clippings). Check: the day; the clipping gives the hour only.'
       tags: [state:ny]
       time: 1960-07-04T00:30Z
       time_approx: true
