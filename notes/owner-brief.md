@@ -1303,3 +1303,9 @@ For the queue: There should only be one ", at" in a single string citation. The 
 (Nov. 23, 2:40 p.m., in working hours, not marked Immediate: queued) "When the Pinyin transliteration of a non-Chinese CJK name is given, the CJK must also be given, and the transliteration of the name should be given without italics.
 
 The [July 4, 1960 entry for Chen Yi](https://impending2223.github.io/bib/e.html#cal.1960-07-04.china-leadership-9) violates these rules. Please correct it." (screenshot: "led by "*Zhunei Meng*"." with no characters shown)
+
+(Nov. 24) "Immediate. Claude, how long has this been on the index page? Who put it here? Is there any reason for it to be here? Why has the index fallen out of alignment with the individual calendar pages? Was my instruction to cut the over-explanatory texts from the calendar pages limited to them?" (screenshot: cal.html's heading, lede and paragraphs)
+
+"Immediate. Fix the title and the first paragraph as suggested. Drop the second paragraph (i.e., the first small-point paragraph). Keep the rest, but drop the "How to read it." sentence.
+
+But first: Could you mock up a daily calendar grid, arranged as calendars are (i.e., with days-of-the-week columns) for the lower-level pages, to sit in the year and month navigator? I want it to "read," visually, as an accordion-like "expansion" or "unfolding" of the year and month navigator. I'm thinking that the year and month navigator should continue before and after the daily calendar grid, separated by line breaks. Show me a mock-up. Give me some suggestions for alternative layouts within my framework, adjacent to it, or that serve the same function or role. Give me some suggestions on how to handle our intercalary days. (We might just ignore them, at least for now.)"
