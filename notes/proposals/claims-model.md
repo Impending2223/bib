@@ -249,3 +249,89 @@ On the page itself nothing changes: with every claim shown the line is today's l
 ones read through their frames, which stay while any claim of theirs is shown. What the page does not do yet: when the
 claims after a ";" are hidden, the visible one still ends ";" (as now). Mending that ("." in its place) is a script
 change on the page; left out (section 5).
+
+## 4. Migration
+
+**Order.** (1) One accessor, `store.ctext(e)`, and every reader of `c` as prose moved to it, while `c` is still a
+string: no data change, the tests green. (2) The converter, dry run first. (3) The tools reading both forms. (4) The
+trial year, the owner shown. (5) All 58,276 entries. (6) `check` refuses a string `c` on a calendar entry.
+
+**The converter** (`./bib claims convert [--year Y] [--dry-run]`, a module of its own). For each calendar entry:
+
+1. Split `c` by `claims.units()`, today's splitter; the pieces become claims `k1`, `k2` ... in order; the letters map
+   A→k1, B→k2 ... Require `" ".join(pieces) == c`; an entry whose `c` does not rejoin (a double space, a stray break)
+   is left a string and listed.
+2. `src`: each row parsed (`parse_row`); `all` puts the row's source on every claim; letters and runs on those
+   claims; `?` into `src_open`. A stale map (its `c:` hash not `chash(c)`): converted by its letters as they stand
+   and tagged `todo:claims-stale`, listed for a reader, since its letters may not fit; never re-guessed. An entry with
+   no `src` (the mechanical map, 17,188) gets claims with no `src`: the mechanical map is then worked out claim by
+   claim, as now unit by unit, and still never stored.
+3. `variants`: each to its claim by letter; one whose letter is past the last unit stays on the entry, listed (check
+   already errors on it).
+4. Visibility tags: `@` letters and runs to ids (`@C-D` → `@k3.k4`); a letter past the end kept as is, listed.
+5. Frames, only where sure. A unit that opens with a head up to a colon (vis.py's `frame_text()`: outside quotation and
+   parentheses, short, no link), followed by units beginning in lower case after a ";" (the same sentence): a frame,
+   the head its `frame`, the rest of that unit and each such continuation its claims. Where `vis:frame:` is on the
+   entry, the same, and the ruling becomes the frame's (`@k1`). A frame head followed only by new sentences (capital
+   after "."): no frame unless `vis:frame:` is there; the next sentences stay outside, and the entry is listed in
+   `notes/claims/frames.tsv` (entry, head, the next unit, a column for the reader's call). A head too long, with a
+   link, or one of the note's labels ("Votes:"): no frame, listed. A lower-case continuation whose head is not a
+   colon ("Guevara ... says X; Y"): no frame, `[claim-lean]` (section 3), counted. Of the 1,904 entries whose `c`
+   opens "X:" (a rough count), most are one sentence and need no frame.
+6. Verify, entry by entry, before writing: `ctext(e)` equals the old `c`; each claim's sources equal the old unit's
+   by the old map; each claim's visibility tags (vis.entry_claims) equal the old unit's; the footnotes' HTML equals the
+   old. Any difference: the entry is not converted, and is listed.
+7. Write through store.py (field order kept: `c`, then `src_open` where `src` was).
+
+**The tools.**
+- claims.py: `units()` stays, as the splitter of check's rule 2 and the converter; `claims(e)` yields `(id, reading,
+  t, frame ids, src)`; rows by id; `show` prints ids with the letters as labels; `seed` writes claim `src` lists.
+- footnotes.py: runs over claims instead of units (STYLE 1, 6); the rest unchanged.
+- vis.py: `RULE_RX`'s `@` takes ids (`k\d+` joined by "."); `vis:frame:` read as the frame's ruling; address (STYLE 5)
+  reads the claim's reading, so a frame's names address its claims.
+- vispage.py: spans by claim and frame, `data-u` the id.
+- witnesses.py: the variant and `via` checks by claim.
+- addops.py, patchcheck.py, merge.py: the ops below.
+
+**Patch ops.**
+- `add-claim: {id, after: k2 | before: k1 | end: k1 (a frame's end) | end, t, src, variants?}`: no base (R33a: a
+  new claim from a source cited for it is added freely). The merge gives it the next id (the highest of the claims'
+  and `retired`'s, plus one) and prints it; patch-check prints the id it would get; later ops of the same patch name
+  it by a handle (`as: n1`).
+- `edit-claim: {id, claim: k3, base: <chash of its t>, t?, src?, kind: reword | correct}`: R22 applies to k3 alone.
+  `correct` needs the settling record said in the note (the patch adds the sentence, "The Papers date it Aug. 26.");
+  `reword` keeps `src`, and patch-check errors where a number, a date or a capitalized name in `t` changes (that is a
+  `correct`). Two patches editing different claims of one entry merge without conflict; the same claim, two texts: a
+  conflict on that claim, `{field: 'c#k3', ...}`, settled by `./bib resolve ID --field c#k3`.
+- `drop-claim: {id, claim, base, why}`: R22 as above; the id goes to `retired`.
+- `frame: {id, over: [k2, k3], t: 'Guevara, ..., says', from: k2}`: makes a frame over consecutive claims, moving
+  `t` out of the head of `from`; patch-check requires `ctext(e)` unchanged (a frame is structure, not a change).
+- The present ops: `cite: {id, item, claims: [k1, k3]}` (`all` is expanded at patch-check to the ids at the patch's
+  head, so it never covers a claim added later); `src: {id, claim, add}`; `variant: {id, claim, witness, reads, at}`;
+  `to-check`, `check`, `names`, `also`, `follows`, `primary`, `place` unchanged.
+- An `add` (a new entry) may still give `c` as a string, and `src` rows with letters: the merge converts it (steps
+  1–5). A whole-entry `edit` giving `c` as a string (the eight NYT patches, written before the model) is accepted for
+  the transition: the merge re-splits it and aligns with the claims at its base, unchanged pieces keeping their ids,
+  a changed piece at its place keeping its id and reported as an `edit-claim` for an R22 look, new pieces new ids,
+  lost ones retired. After the trial, patch-check refuses a string `c` in an `edit` of a converted entry and names
+  the ops.
+
+**The trial: 1960.** The year with most frames (Alekseyev's reports; 13 of the 20 `vis:frame` entries are in
+1960–61) and the eight NYT patches waiting to merge against it in the new form, so the trial runs the merge path too.
+Shown to the owner: the converter's counts and lists (not converted, stale, frames to settle, leaning), four entries'
+YAML before and after, and that the year's pages are byte for byte the same but for `data-u`. Then the rest of the
+calendar, a year at a time, each verified as in step 6.
+
+**Per-claim checks** (new `check` rules, each with its bracketed name for `ok:`): `claim-ids` (unique `k\d+`, none
+retired reused), `claim-cut` (section 3, rule 2), `claim-lean` (rule 3, a warning), `claim-src` (each source a claim
+names is an item of `n` or a link of its `t`: today's problems() per claim), `claim-unmapped` (on a reader-mapped
+entry, a claim with no source and no `src_open`), `claim-refs` (every `@` id and variant's claim exists), `frame`
+(a frame holds at least one claim; its text has no space at either end).
+
+**Tests and goldens.** Unit tests for the converter: rejoin, letters to ids for `src`, `@` tags and variants,
+`src_open`, the frame cases (sure, doubtful, `vis:frame`, label, lean), the stale map. A property test
+(tests/property): for any `c` the splitter accepts, convert then `ctext` gives `c` back, and `units(ctext)` gives the
+claims. The fixture (tests/make_fixture.py) converted; the golden pages (tests/golden/expected) regenerated once, and
+the diff between old and new goldens must be `data-u` values only. Golden patches (tests/golden/patches) for
+`add-claim`, `edit-claim` (both kinds, and the R22 refusal), `drop-claim`, `frame`, two readers on two claims of one
+entry (no conflict), two on one claim (a conflict), and an old-form `edit`.
