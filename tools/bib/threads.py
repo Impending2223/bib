@@ -250,7 +250,7 @@ def _days(series, lst, rows_by_place, text_html, thread_name):
         if slot not in (-2, -1.5) and d.month != cur_m:
             name = f"{C.month_name[d.month]} {d.year}"
             out.append(f'<h3 id="{PREFIX}m{d.year}-{d.month:02d}" data-short="{esc(name)}" '
-                       f'data-crumb="{d.year} / {C.month_name[d.month]}">{esc(name)}</h3>')
+                       f'data-crumb="{C.month_name[d.month]}">{esc(name)}</h3>')   # the year is the h2's crumb (Nov. 22)
             cur_m = d.month
         if slot == 1:
             out.append(daybook.day_open(d, 4, False, f"{PREFIX}d{d.isoformat()}") + "</div>" + ol)
