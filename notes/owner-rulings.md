@@ -260,3 +260,8 @@ The owner: "What dates are open?" ("the date is open" leans on "the talks will r
 
 - Default taken: a note names a part only when the part, with the words it names, stands as a statement on its own, leaning on nothing its source does not support; else the note is on the whole entry, with a parenthetical naming its matter ("123 (the date)"). Where in doubt, the whole entry. Set out in notes/proposals/claims-model-options.md.
 - Applies to: the claims design, the readers' brief once the model is in.
+
+## 35c. No part-naming parentheticals (Nov. 24, 3:55 p.m.; refines 35a–35b)
+
+- Default taken: the footnote block lists sources and pinpoints only; the part a note covers is its target (data), shown on the page by highlighting its words when its source is tapped or hovered; print and EPUB show the plain block. Marks fall where a note's statement ends, shared where several end together. New readers write no parenthetical to name a part; the converter turns today's part-naming parentheticals into targets where the claim map gives the part. Set out in notes/proposals/claims-model-options.md.
+- Applies to: the claims design, footnotes.py, vispage.py, the readers' brief once the model is in.

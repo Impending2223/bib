@@ -1357,3 +1357,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 3:45 p.m. PT) "Can you brief this for me? How does it compare to the existing suggestion?" Then: "How can a sourced claim be only "the date is open"? Does that make sense?"
 
 (Nov. 24, about 3:50 p.m. PT) "Right, but your variant doesn't make sense either. What dates are open? Claude, I'm not sure you should be writing these to a reply rather than to an MD."
+
+(Nov. 24, about 3:55 p.m. PT) "Does Design 3 require the parenthetical? It seems like it would lead to unreadable/unparseable sourcing blocks at scale."

@@ -58,9 +58,9 @@ At the build the page finds where the set of notes changes, and those are the cl
 
 > Rusk to Dobrynin: the talks will resume on Monday; Moscow will send Zorin.¹
 >
-> ¹ FRUS 1961–63, V, doc. 12; Beschloss, *Crisis Years*, 123 (Zorin).
+> ¹ FRUS 1961–63, V, doc. 12; Beschloss, *Crisis Years*, 123.
 
-The parenthetical is the house form today ("123 (the vote)"), taken from the note's own part.
+Which words Beschloss covers is in the note, and the page shows it on a tap or hover (below), not in a parenthetical.
 
 - An entry with one source, or whose sources all bear on the whole, is one claim, never cut: the owner's claim_0. Claims appear only where a source makes them (the owner's "complicating pass").
 - Nothing turns on punctuation.
@@ -73,7 +73,16 @@ The parenthetical is the house form today ("123 (the vote)"), taken from the not
 
 ## The test for a part
 
-A source's note names a part only when the part, with the words it names, stands as a statement on its own: who, what, and the matter it bears on, without leaning on a part the source does not support. "Rusk to Dobrynin … Moscow will send Zorin" passes. "The date is open" does not: "the date" is the talks', so the source bears on the whole, and its note is a whole-entry note with a parenthetical ("123 (the date)"). Where in doubt, the whole entry.
+A source's note names a part only when the part, with the words it names, stands as a statement on its own: who, what, and the matter it bears on, without leaning on a part the source does not support. "Rusk to Dobrynin … Moscow will send Zorin" passes. "The date is open" does not: "the date" is the talks', so the source bears on the whole, and its note is a whole-entry note. Where in doubt, the whole entry.
+
+## Showing which part a source supports, without parentheticals
+
+The owner (Nov. 24, 3:55 p.m.): "Does Design 3 require the parenthetical? It seems like it would lead to unreadable/unparseable sourcing blocks at scale." It does not. The parenthetical above was carried over from today's house form; in Design 3 the note's target is data, so the page need not say it in words.
+
+- The footnote block stays as now: the sources at a mark, each with its pinpoint, and nothing more ("FRUS 1961–63, V, doc. 12; Beschloss, *Crisis Years*, 123").
+- The part is shown by the page itself: tapping or hovering a source in a footnote highlights the words its note covers in the line (the visibility spans' machinery, already on the page, does the highlighting). Printed or in the EPUB, where nothing can be tapped, the block reads as above.
+- Marks: one at each place a note's statement ends, notes ending together sharing it; a source on part of the entry whose statement ends earlier gets its own mark there. In the example both statements end at "Zorin.", so one mark.
+- The existing parentheticals stay where they say something the target cannot: a page's subject ("(the vote)") where a reader wrote it as a gloss, "citing ...", a document's own date. New readers write none to name a part; the converter turns today's part-naming parentheticals into targets where the claim map already gives the part, and leaves the rest as written.
 
 ## Side by side
 
