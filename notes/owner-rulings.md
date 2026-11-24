@@ -220,3 +220,10 @@ The design note's section 3 builds checks, a claim-lean warning and printed elli
 
 - Default taken: frames only where the visibility code frames an entry today (vis:frame) or the converter finds a plain "Name:" head; no claim-lean warning; no ellipses anywhere; a claim shown alone shows its frame where it has one, else as written; the page unchanged. Section 3 of notes/proposals/claims-model.md to be rewritten so.
 - Applies to: the claims model (handoff 4aw.1), its converter and check.
+
+## 32. Splitting or a compiler (Nov. 24, 3:25 p.m.)
+
+The owner: "Is the current 'claim splitting' model one we should continue and build on? Wouldn't it make more sense to have a not-human-readable 'separator' and/or 'compiler' instead?"
+
+- Default taken: the claims are the source. `c` is a list of claims in the YAML (the list is the separator); each claim's words stored without their closing mark; a compiler (`text(e)`) makes the line: "; " within a sentence, ". " between sentences (a claim's `end:` where it differs), a frame's head once before its claims; footnote marks and visibility spans placed by claim id, not found by searching the rendered line. The splitter runs once, in the converter, to make the first lists from today's `c`, then is retired; check tests each claim's form and the compiled line, not agreement with the splitter. The converter's test: the compiled line equals today's `c` byte for byte for every entry, each mismatch listed for repair. Patches add, edit and drop claims by id; R22 to the claim touched. Supersedes item 31's "check against the splitter".
+- Applies to: notes/proposals/claims-model.md sections 3–4 (to be rewritten before the converter), the converter, claims.py, footnotes.py, vispage.py, patch ops, check.

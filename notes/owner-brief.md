@@ -1349,3 +1349,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 3:10 p.m. PT) "Can you remove the midsentence line breaks in the .MD? I thought we had that as a standing rule."
 
 (Nov. 24, about 3:20 p.m. PT) "Claude, I believe my spouse's "ellipses" question was founded on a misapprehension. I don't think I understand the section in the claims model brief that addresses it. What turns on this?" (Answered: little; default proposed, frames only where vis:frame or a plain "Name:" head exists, no lean warnings, no ellipses.)
+
+(Nov. 24, about 3:25 p.m. PT) "Is the current "claim splitting" model one we should continue and build on? Wouldn't it make more sense to have a not-human-readable "separator" and/or "compiler" instead?"
