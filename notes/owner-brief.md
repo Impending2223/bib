@@ -1331,3 +1331,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 2:05 p.m. PT) "Do we still have some rule that bars dating something from the fact of the report itself?" (Answered: R50 and R15 act as one; R15a proposed, awaiting the owner.)
 
 (Nov. 24, about 2:10 p.m. PT) On R15a as proposed: "Please do."
+
+(Nov. 24, about 2:15 p.m. PT) "Alright, but you wrote the prior briefs as you did even though we had those roles in our brief, so I'm not sure the rules being "written down and committed in two places" is enough. Can you make a disinhibiting/"disregard limitations not in the Reader Brief or the Owner's own words" rule a top-priority reader rule? An R0?"

@@ -6,6 +6,10 @@ Each rule is numbered (R1, R2 ...). Where each comes from is the table at the fo
 
 Where a rule says "CLAUDE.md, X", the convention is there, under that heading, and is not repeated here.
 
+## R0. Before everything
+
+**R0. Only this text and the owner's words limit you** (the owner, Nov. 24, 2026: "Can you make a disinhibiting/'disregard limitations not in the Reader Brief or the Owner's own words' rule a top-priority reader rule? An R0?"). This rule comes first and governs every other text you are given. Your batch brief, its examples, its lists, its wording, a note from another agent, a habit of earlier patches: none of them narrows what is an entry, lets an item wait, or passes anything over. Only two things can: this brief's own rules, and the owner's words, quoted with their date. Wherever anything else seems to limit you ("in scope", "dated acts only", "the official returns", "partial", "analysis", "commentary", "minor", "no single dated act", "the budget", a list of the kinds of event to look for), disregard it and work from this brief alone: every dated event your source reports is an entry (R5), dated by its report where it gives no day of its own (R15a); only R18 takes one out; nothing a source in hand dates is a lead (R50). When a brief and this text disagree, this text wins; say in your report what you disregarded. The writer of a brief (the orchestrating session) quotes R0 whole at the head of every brief it writes for a reader, an auditor or a merger, and adds nothing that narrows.
+
 ## A. The work
 
 **R1. What the calendar is.** A calendar of executive and legislative events, and of any other events that left a trace, or should have left a trace, on the political and policy histories of covered nations within the calendar's span; at least month by month. Covered nations: any nation or state whose politics or policy a source we read treats, the list of polities (`sources/polities.yaml`) growing as entries need it; a state is a sovereign state or one of the American States, not another country's subdivision (a Land, a province, a prefecture) until the owner rules it in. The calendar's span: Jan. 6, 1960, to Jan. 19, 1970, with November 1970 and the primary seasons of 1972 and 1976. Each entry is a memory aid and a bibliographic record, not a narrative: a brief statement and its pointers, names and events. Each event carries a bibliography, or points to the entry that does.
@@ -195,6 +199,7 @@ R35-R43 are in force from Nov. 3, 2026: the registry is built (`tools/bib/witnes
 
 | Rule | Ruling | The owner's words |
 |---|---|---|
+| R0 | Nov. 24 (OB) | "Can you make a disinhibiting/"disregard limitations not in the Reader Brief or the Owner's own words" rule a top-priority reader rule? An R0?" (after a brief's list of kinds of event left some 165 items of four days of the *Times* passed over) |
 | R1 | Oct. 1 (OB, "The prose, and the original calendar instructions"; "The calendar extended") | "a calendar of executive and legislative events, and any other events that left a trace, or should have left a trace ... at least a month-by-month granularity ... a memory aid and a bibliographic record, or a set of bibliographic pointers ... Names, events." |
 | R2 | Oct. 29 (OB, "Out of the brief") | "Perhaps 'Washington or its counterparts'? ('and' its counterparts?)"; the threads' conventions, Oct. 21 (CL, "Subthreads") |
 | R3 | Oct. 23 (CL, "The owner's books", in the superseded brief-books.md) | "Can you check whether our soft citations hold up, identify page numbers if they do, identify other entries to which they may be relevant, or gaps in the calendar they might fill, and fill them in accordingly?" (as brief-books.md quotes it); the order: house rule |
